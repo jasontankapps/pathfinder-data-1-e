@@ -1,0 +1,1558 @@
+import Link from '../../components/Link';
+import ScrollContainer from '../../components/ScrollContainer';
+import InnerLink from '../../components/InnerLink';
+const _events = {title: "Events", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","kingdom_building"], siblings: ["kingdom_building_overview","kingdom_terminology","kingdom_building_quick_reference","founding_a_kingdom","leadership_roles","who_rolls_the_kingdom_check","build_points","kingdom_turn_sequence","edicts","losing_hexes","terrain_improvements","settlements_and_districts","founding_a_settlement","claiming_water_and_islands","buildings_in_the_kingdom","events","gaining_experience_for_leadership"], subtopics: ["events_beneficial_kingdom","events_dangerous_kingdom","events_beneficial_settlement","events_dangerous_settlement"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 220</Link></p>
+<p>Listed below are unusual events that can happen during a kingdom's Event phase. Most events occur immediately and are instantaneous or terminate at the end of the Event phase.</p>
+<p>Some events impact the whole kingdom, while others are centered on a specific settlement or hex. Roll on Table 4-7: Event Type and Danger Level to determine the type of event and whether it is beneficial or harmful. Then roll on the appropriate beneficial or dangerous settlement or kingdom event table. If this results in an invalid event (such as a pilgrimage when there are no Cathedrals, Shrines, or Temples in the kingdom), roll again.</p>
+<p><strong className="hl">Continuous Events:</strong> A continuous event's effects continue each turn during the Event phase until you resolve the event (as explained in the event description, usually by succeeding at a kingdom check).</p>
+<p><strong className="hl">Localized Events:</strong> Some events are listed as "settlement" or "hex." The effect of these events are localized to a single settlement or hex. Randomly select a settlement or hex for the location of that event. Some events (such as a feud) could be confined to a settlement or start in one settlement and spread to affect the entire kingdom, depending on whether they're rolled on one of the Kingdom Events tables or one of the Settlement Events tables.</p>
+<p><strong className="hl">Settlement Modifiers:</strong> Some events adjust settlement modifiers (Crime, Lore, etc.). If an event is localized to 1 settlement, its settlement modifier adjustments apply only to that settlement; if it's localized to a hex, it affects only settlements in that hex. If the GM is using settlement modifiers for the entire kingdom (see <Link to="/rule/expanding_settlement_modifiers">Expanding Settlement Modifiers</Link>) and the event is not localized, its adjustments apply to the final modifier for the entire kingdom. For example, the new subjects event increases Society and Stability for the entire kingdom by 1.</p>
+<p><strong className="hl">Hiring Adventurers:</strong> Once per Event phase, you can hire NPC adventurers to help deal with an event, gaining a bonus on one Economy, Loyalty, or Stability check made as part of that event. Adventurers of levels 1-2 grant a +2 bonus on the check and cost 4 BP; adventurers of levels 3-5 grant a +5 bonus on the check and cost 8 BP; adventurers of level 6+ (but never higher than your APL) grant a +10 bonus on the check and cost 16 BP.</p>
+<h3 id="rule-events-table-4-7-event-type-and-danger-level">Table 4-7: Event Type and Danger Level</h3>
+<ScrollContainer id="rule-events--table-0"><table>
+<thead>
+<tr>
+<th>d%</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>01-02</td>
+<td>Natural blessing and roll again<sup><InnerLink showBacklink="backlink-rule-events-ref-1-1" id="rule-events-ref-1-1" data-hash-target to="rule-events-1">1</InnerLink></sup></td>
+</tr>
+<tr>
+<td>03-04</td>
+<td>Good weather and roll again<sup><InnerLink showBacklink="backlink-rule-events-ref-1-2" id="rule-events-ref-1-2" data-hash-target to="rule-events-1">1</InnerLink></sup></td>
+</tr>
+<tr>
+<td>05-25</td>
+<td>Beneficial kingdom event (Table 4-8)</td>
+</tr>
+<tr>
+<td>26-50</td>
+<td>Dangerous kingdom event (Table 4-9)</td>
+</tr>
+<tr>
+<td>51-75</td>
+<td>Beneficial settlement event (Table 4-10)</td>
+</tr>
+<tr>
+<td>76-96</td>
+<td>Dangerous settlement event (Table 4-11)</td>
+</tr>
+<tr>
+<td>97</td>
+<td>Bandit activity and roll again<sup><InnerLink showBacklink="backlink-rule-events-ref-2-1" id="rule-events-ref-2-1" data-hash-target to="rule-events-2">2</InnerLink></sup></td>
+</tr>
+<tr>
+<td>98</td>
+<td>Squatters and roll again<sup><InnerLink showBacklink="backlink-rule-events-ref-2-2" id="rule-events-ref-2-2" data-hash-target to="rule-events-2">2</InnerLink></sup></td>
+</tr>
+<tr>
+<td>99</td>
+<td>Monster attack and roll again<sup><InnerLink showBacklink="backlink-rule-events-ref-2-3" id="rule-events-ref-2-3" data-hash-target to="rule-events-2">2</InnerLink></sup></td>
+</tr>
+<tr>
+<td>100</td>
+<td>Vandals and roll again<sup><InnerLink showBacklink="backlink-rule-events-ref-2-4" id="rule-events-ref-2-4" data-hash-target to="rule-events-2">2</InnerLink></sup></td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="rule-events-table-4-8-beneficial-kingdom-events">Table 4-8: Beneficial Kingdom Events</h3>
+<ScrollContainer id="rule-events--table-1"><table>
+<thead>
+<tr>
+<th>d%</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>01-07</td>
+<td>Archaeological find</td>
+</tr>
+<tr>
+<td>08-12</td>
+<td>Diplomatic overture</td>
+</tr>
+<tr>
+<td>13-20</td>
+<td>Discovery</td>
+</tr>
+<tr>
+<td>21-31</td>
+<td>Economic boom</td>
+</tr>
+<tr>
+<td>32-39</td>
+<td>Festive invitation</td>
+</tr>
+<tr>
+<td>40-53</td>
+<td>Food surplus</td>
+</tr>
+<tr>
+<td>54-66</td>
+<td>Good weather</td>
+</tr>
+<tr>
+<td>67-75</td>
+<td>Land rush</td>
+</tr>
+<tr>
+<td>76-85</td>
+<td>Natural blessing</td>
+</tr>
+<tr>
+<td>86-90</td>
+<td>New subjects</td>
+</tr>
+<tr>
+<td>91-100</td>
+<td>Political calm</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="rule-events-table-4-9-dangerous-kingdom-events">Table 4-9: Dangerous Kingdom Events</h3>
+<ScrollContainer id="rule-events--table-2"><table>
+<thead>
+<tr>
+<th>d%</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>01-05</td>
+<td>Assassination attempt</td>
+</tr>
+<tr>
+<td>06-18</td>
+<td>Bandit activity</td>
+</tr>
+<tr>
+<td>19-28</td>
+<td>Feud</td>
+</tr>
+<tr>
+<td>29-41</td>
+<td>Food shortage</td>
+</tr>
+<tr>
+<td>42-51</td>
+<td>Improvement demand</td>
+</tr>
+<tr>
+<td>52-59</td>
+<td>Inquisition</td>
+</tr>
+<tr>
+<td>60-64</td>
+<td>Large disaster</td>
+</tr>
+<tr>
+<td>65-76</td>
+<td>Monster attack</td>
+</tr>
+<tr>
+<td>77-84</td>
+<td>Plague</td>
+</tr>
+<tr>
+<td>85-92</td>
+<td>Public scandal</td>
+</tr>
+<tr>
+<td>93-100</td>
+<td>Smugglers</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="rule-events-table-4-10-beneficial-settlement-events">Table 4-10: Beneficial Settlement Events</h3>
+<ScrollContainer id="rule-events--table-3"><table>
+<thead>
+<tr>
+<th>d%</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>01-14</td>
+<td>Boomtown</td>
+</tr>
+<tr>
+<td>15-26</td>
+<td>Discovery</td>
+</tr>
+<tr>
+<td>27-40</td>
+<td>Justice prevails</td>
+</tr>
+<tr>
+<td>41-46</td>
+<td>Noblesse oblige</td>
+</tr>
+<tr>
+<td>47-58</td>
+<td>Outstanding success</td>
+</tr>
+<tr>
+<td>59-66</td>
+<td>Pilgrimage</td>
+</tr>
+<tr>
+<td>67-72</td>
+<td>Remarkable treasure</td>
+</tr>
+<tr>
+<td>73-81</td>
+<td>Unexpected find</td>
+</tr>
+<tr>
+<td>82-93</td>
+<td>Visiting celebrity</td>
+</tr>
+<tr>
+<td>94-100</td>
+<td>Wealthy immigrant</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="rule-events-table-4-11-dangerous-settlement-events">Table 4-11: Dangerous Settlement Events</h3>
+<ScrollContainer id="rule-events--table-4"><table>
+<thead>
+<tr>
+<th>d%</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>01-10</td>
+<td>Building demand</td>
+</tr>
+<tr>
+<td>11-17</td>
+<td>Crop failure</td>
+</tr>
+<tr>
+<td>18-25</td>
+<td>Cult activity</td>
+</tr>
+<tr>
+<td>26-33</td>
+<td>Drug den</td>
+</tr>
+<tr>
+<td>34-41</td>
+<td>Feud</td>
+</tr>
+<tr>
+<td>42-49</td>
+<td>Inquisition</td>
+</tr>
+<tr>
+<td>50-54</td>
+<td>Localized disaster</td>
+</tr>
+<tr>
+<td>55-61</td>
+<td>Monster attack</td>
+</tr>
+<tr>
+<td>62-66</td>
+<td>Plague</td>
+</tr>
+<tr>
+<td>67-74</td>
+<td>Sensational crime</td>
+</tr>
+<tr>
+<td>75-80</td>
+<td>Slavers</td>
+</tr>
+<tr>
+<td>81-90</td>
+<td>Squatters</td>
+</tr>
+<tr>
+<td>91-100</td>
+<td>Vandals</td>
+</tr>
+</tbody></table></ScrollContainer>
+<section data-footnotes>
+<h3 id="rule-events-label">Footnotes</h3>
+<ol>
+<li id="rule-events-1">
+<p>If the reroll indicates the same event, ignore the duplicate event and do not reroll again. <InnerLink id="backlink-rule-events-ref-1-1" data-hash-target to="rule-events-ref-1-1" aria-label="Back to reference 1-1">↩</InnerLink> <InnerLink id="backlink-rule-events-ref-1-2" data-hash-target to="rule-events-ref-1-2" aria-label="Back to reference 1-2">↩<sup>2</sup></InnerLink></p>
+</li>
+<li id="rule-events-2">
+<p>If the reroll indicates the same event, the second event occurs elsewhere in the kingdom. <InnerLink id="backlink-rule-events-ref-2-1" data-hash-target to="rule-events-ref-2-1" aria-label="Back to reference 2-1">↩</InnerLink> <InnerLink id="backlink-rule-events-ref-2-2" data-hash-target to="rule-events-ref-2-2" aria-label="Back to reference 2-2">↩<sup>2</sup></InnerLink> <InnerLink id="backlink-rule-events-ref-2-3" data-hash-target to="rule-events-ref-2-3" aria-label="Back to reference 2-3">↩<sup>3</sup></InnerLink> <InnerLink id="backlink-rule-events-ref-2-4" data-hash-target to="rule-events-ref-2-4" aria-label="Back to reference 2-4">↩<sup>4</sup></InnerLink></p>
+</li>
+</ol>
+</section>
+</>};
+const _events_beneficial_kingdom = {title: "Beneficial Events", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","kingdom_building","events"], siblings: ["events_beneficial_kingdom","events_dangerous_kingdom","events_beneficial_settlement","events_dangerous_settlement"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 221</Link></p>
+<p><strong className="hl">Archaeological Find:</strong> A well-preserved ruin is found in your kingdom, with historical artifacts connected to the people who lived in your land long ago. Lore increases by 1. If you have a Museum, the discoverers donate 10,000 gp worth of historical artifacts to its collection (if you have multiple Museums, choose one as the recipient).</p>
+<p><strong className="hl">Diplomatic Overture:</strong> A nearby kingdom sends an ambassador to you to negotiate an embassy (01-60), treaty (61-90), or alliance (91-100), as if using a <Link to="/rule/diplomatic_edicts">diplomatic edict</Link>. If the GM doesn't have an appropriate kingdom in mind when this event occurs, determine the kingdom's alignment randomly; it may be hostile or friendly. The ambassador bears 1d4 BP worth of gifts for your kingdom.</p>
+<p><strong className="hl">Discovery (Settlement):</strong> Scholars unearth a bit of ancient lore or devise important new research of their own. Fame increases by 1 and Lore increases by 1d4.</p>
+<p><strong className="hl">Economic Boom:</strong> Trade is booming in your kingdom! Your Treasury increases by 1d6 BP (each time you roll a 6, add the result to the total and roll again).</p>
+<p><strong className="hl">Festive Invitation:</strong> Your kingdom's leaders are invited to a festival in a neighboring kingdom. If you attend and bring 1d4 BP worth of gifts, for 1 year Society increases by 1, Fame increases by 1 for any check relating to that kingdom, and you gain a +2 bonus on edict checks relating to that kingdom.</p>
+<p><strong className="hl">Food Surplus:</strong> Farmers produce an unexpected windfall! In the next Upkeep phase, the kingdom's Consumption is halved (but returns to normal on the next turn).</p>
+<p><strong className="hl">Good Weather:</strong> Good weather raises spirits and productivity. Economy, Loyalty, and Productivity increase by 2 until the next Event phase.</p>
+<p><strong className="hl">Land Rush:</strong> Overeager settlers claim an unclaimed hex and construct a Farm, Mine, Quarry, or Sawmill at their own expense, but are fighting over ownership. This hex is not part of your kingdom, so you gain no benefits from it. Productivity, Society, and Stability decrease by 1. Attempt a Loyalty check. If you succeed, Unrest increases by 1. If you fail, Unrest increases by 1d4. If you construct an identical improvement in an adjacent hex during your next Edict phase, remove this event's changes to Productivity, Society, and Stability.</p>
+<p><strong className="hl">Natural Blessing:</strong> A natural event, such as a bloom of rare and beautiful wildflowers or a good omen in the stars, raises your kingdom's morale. You gain a +4 bonus on Stability checks until the next Event phase.</p>
+<p><strong className="hl">Political Calm:</strong> A sudden absence of political machinations coincides with an increase in public approval. Unrest decreases by 1d6. Until the next Event phase, you gain a +2 bonus on checks to resolve continuous events. If your kingdom has no Unrest and no continuous events, both Loyalty and Stability increase by 1. If you are using Law settlement modifiers for the kingdom (see <Link to="/rule/expanding_settlement_modifiers">Expanding Settlement Modifiers</Link>), this also increases Law by 1 for the entire kingdom.</p>
+</>};
+const _events_dangerous_kingdom = {title: "Dangerous Events", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","kingdom_building","events"], siblings: ["events_beneficial_kingdom","events_dangerous_kingdom","events_beneficial_settlement","events_dangerous_settlement"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 221</Link></p>
+<p><strong className="hl">Assassination Attempt:</strong> One of your leaders (determined randomly) is the target of an assassination attempt. If the target is a PC, the GM should run the attempt as an encounter, using an assassin of a CR equal to the targeted PC's level. If the target is an NPC, you must succeed at a Stability check to prevent the assassination. If the assassination occurs, Unrest increases by 1d6 and the kingdom immediately incurs the penalties for not having a leader in that role.</p>
+<p><strong className="hl">Bandit Activity:</strong> Bandits are preying upon those who travel through your kingdom. Attempt a Stability check. If you succeed, your kingdom's defenses stop the bandits before they cause any harm. If you fail, the bandits reduce your kingdom's Treasury by 1d6 BP (each time you roll a 6, add the result to the total and roll again).</p>
+<p><strong className="hl">Feud (Settlement, Continuous):</strong> Nobles (or other influential rival groups) are bickering. Attempt a Loyalty check. If you succeed, you end the event but Unrest increases by 1. If you fail, Corruption increases by 1, Unrest increases by 1d6, and the event is continuous.</p>
+<p><strong className="hl">Food Shortage:</strong> Spoilage, treachery, or bad luck has caused a food shortage this turn. Attempt a Stability check. If you succeed, Consumption in the next Upkeep phase increases by 50%. If you fail, Consumption in the next Upkeep phase increases by 100%.</p>
+<p><strong className="hl">Food Surplus:</strong> Farmers produce an unexpected windfall! In the next Upkeep phase, the kingdom's Consumption is halved (but returns to normal on the next turn).</p>
+<p><strong className="hl">Good Weather:</strong> Good weather raises spirits and productivity. Economy, Loyalty, and Productivity increase by 2 until the next Event phase.</p>
+<p><strong className="hl">Improvement Demand (hex):</strong> This event is identical to the building demand event, but the citizens want the construction or destruction of a terrain improvement in the hex.</p>
+<p><strong className="hl">Inquisition (settlement, continuous):</strong> Zealots mobilize public opinion against a particular race, religion, kingdom, behavior, or kingdom leader. Attempt a Loyalty check. If you fail, the zealots run rampant; Infamy and Law increase by 1 and Lore, Loyalty, Productivity, and Stability decrease by 2. If you succeed, the zealots are somewhat suppressed; Lore, Loyalty, Productivity, and Stability decrease by 1. Two successful checks in a row end the event (if a check ends the event, no penalties from it occur that turn).</p>
+<p><strong className="hl">Large Disaster (Hex):</strong> A fire, storm, earthquake, flood, massive sabotage, or other disaster strikes! Roll 1d6; on a result of 1-5, the disaster threatens only 1 improved hex. On a result of 6, the disaster is widespread and threatens 1d6 additional improved hexes adjacent to the target hex. Attempt a Stability check for each threatened hex; failure means the disaster destroys one terrain improvement in the hex and Unrest increases by 1. (This Stability check represents your kingdom's ability to prepare for or react to the disaster as well as the structure's ability to withstand damage.)</p>
+<p><strong className="hl">Monster Attack (Settlement, Continuous):</strong> A monster (or group of monsters) attacks the kingdom. The GM picks a claimed hex in the kingdom in which the monster is active. The CR of the monster encounter is equal to the party's APL + 1d4 - 1. You can personally deal with the monster (earning XP and treasure normally for your efforts) or succeed at a Stability check to eliminate it (which doesn't affect you or the kingdom's statistics). If the monster is not defeated this turn, Unrest increases by 4. If the kingdom's Unrest is 5 or higher, the monster's hex becomes unclaimed - this is in addition to losing control of hexes in the Upkeep phase because of the kingdom's high Unrest score.</p>
+<p><strong className="hl">Plague (Hex or Settlement, Continuous):</strong> A deadly sickness strikes the target hex or settlement. You cannot construct terrain improvements or buildings there while plague persists. Attempt two Stability checks, each with a penalty equal to the number of Brothels, Foreign Quarters, Highways, Inns, Piers, Roads, Stables, Stockyards, Tenements, and Waterfronts in the hex, and a bonus equal to the number of Alchemists, Cathedrals, Herbalists, Hospitals, and Temples in the hex. If you succeed at both checks, the event ends, but Stability decreases by 2 and Treasury by 1d3 BP. If you fail at one check, Stability decreases by 4, Treasury decreases by 1d6 BP, and Unrest increases by 1d3. If you fail at both, Stability decreases by 4, Treasury decreases by 1d6 BP, Unrest increases by 1d6, and in the next Event phase the plague spreads to an adjacent hex.</p>
+<p><strong className="hl">Public Scandal:</strong> One of your leaders is implicated in a crime or an embarrassing situation, such as an affair with another leader's spouse. Infamy increases by 1. Attempt a Loyalty check. If you fail, Unrest increases by 2 and you take a -4 penalty on all Loyalty checks until the next Event phase.</p>
+<p><strong className="hl">Smugglers (Continuous):</strong> Unscrupulous merchants are subverting legitimate businesses. Attempt a Loyalty check and a Stability check, each with a penalty equal to the number of Piers, Waterfronts, and trade routes in the kingdom. If you succeed at both checks, the smugglers are stopped before your kingdom takes any penalties from the event. If you fail at one of the checks, Corruption increases by 1d2 in each settlement, <Link to="/rule/settlement_modifiers">Crime</Link> increases by 1 for the kingdom, Productivity for the kingdom decreases by 1d3, Treasury decreases by 1d3 BP, and the event is not continuous. If you fail at both of the checks, Corruption increases by 1d4, Crime for the kingdom increases by 1, Productivity for the kingdom decreases by 1d6, Treasury decreases by 1d6 BP, and the event is continuous.</p>
+</>};
+const _events_beneficial_settlement = {title: "Beneficial Settlement Events", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","kingdom_building","events"], siblings: ["events_beneficial_kingdom","events_dangerous_kingdom","events_beneficial_settlement","events_dangerous_settlement"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 221</Link></p>
+<p><strong className="hl">Boomtown (Settlement):</strong> Randomly select one settlement. Commerce booms among that settlement. Until the next Event phase, Economy increases by the number of buildings in the settlement that grant an Economy bonus, and Corruption increases by 1d4 in that settlement.</p>
+<p><strong className="hl">Discovery (Settlement):</strong> Scholars unearth a bit of ancient lore or devise important new research of their own. Fame increases by 1 and Lore increases by 1d4.</p>
+<p><strong className="hl">Justice Prevails (settlement):</strong> Authorities shut down a major criminal operation or thwart a plot against the settlement. Law and Loyalty increase by 1 and Crime and Unrest decreases by 1.</p>
+<p><strong className="hl">Noblesse Oblige (Settlement):</strong> A noble family offers to construct a Monument (01-50) or Park (51-100) in your settlement at the family's own expense. The nobles pay all costs and Consumption for this purpose.</p>
+<p><strong className="hl">Outstanding Success (Settlement):</strong> One of your kingdom's citizens creates an artistic masterpiece, constructs a particularly impressive building, or otherwise brings glory to your kingdom. Fame increases by 1, your Treasury increases by 1d6 BP, and Unrest decreases by 2. You gain a +4 bonus on Economy checks until the next Event phase.</p>
+<p><strong className="hl">Pilgrimage (settlement):</strong> Randomly select one settlement with a Cathedral, Shrine, or Temple. Pious religious folk journey to your settlement, holding a religious festival in that settlement at no BP cost to you.</p>
+<p><strong className="hl">Remarkable Treasure (Settlement):</strong> The settlement immediately fills one of its open magic item slots (selected randomly) with a better than normal item (medium if a minor slot, major if a medium slot). Treat the settlement's base value as 50% higher than normal for determining the item's maximum price. If the settlement doesn't have any open magic item slots, treat this event as Unexpected Find.</p>
+<p><strong className="hl">Unexpected Find (Settlement):</strong> Local citizens discover a forgotten magical item. The settlement gains one temporary minor (01-70) or medium (71-100) magic item slot that is automatically filled in the next Upkeep phase. This slot and the item go away if the item is purchased or in the next Event phase, whichever comes first.</p>
+<p><strong className="hl">Visiting Celebrity (Settlement):</strong> A celebrity from another kingdom visits one of your settlements, causing a sudden influx of other visitors and spending. Fame increases by 1 and Treasury increases by 1d6 BP (each time you roll a 6, add the result to the total and roll again).</p>
+<p><strong className="hl">Wealthy Immigrant (Settlement):</strong> A rich merchant or a noble from another land is impressed with your kingdom and asks to construct a Mansion (01-75) or Noble Villa (76-100) in the settlement at no cost to you. If you allow it, the building provides its normal benefits to your kingdom.</p>
+</>};
+const _events_dangerous_settlement = {title: "Dangerous Settlement Events", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","kingdom_building","events"], siblings: ["events_beneficial_kingdom","events_dangerous_kingdom","events_beneficial_settlement","events_dangerous_settlement"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 221</Link></p>
+<p><strong className="hl">Building Demand (Settlement, Continuous):</strong> The citizens demand a particular building be built (01-75) or demolished (76-100). Select the building type randomly from those available for the settlement. If the demand is not met by the next Event phase, Unrest increases by 1. Alternatively, you can suppress the citizens' demands and negate the event by succeeding at a Loyalty check, but this reduces Loyalty by 2 and increases Unrest by 1.</p>
+<p><strong className="hl">Crop Failure (Settlement):</strong> Pests, blight, and weather ruin the harvest in the settlement's hex and all adjacent hexes. Attempt two Stability checks. If both succeed, the problem is fixed before your kingdom takes any penalties from the event. If only one succeeds, affected farms reduce Consumption by 1 (instead of the normal reduction) in the next Upkeep phase. If neither succeeds, affected farms do not reduce Consumption at all in the next Upkeep phase.</p>
+<p><strong className="hl">Cult Activity (Settlement, Continuous):</strong> A religious cult of an alignment opposed to the kingdom's alignment begins kidnapping, converting, or even publicly sacrificing citizens. Attempt a Loyalty check and a Stability check. If both succeed, the cult is disbanded before your kingdom takes any penalties from the event. For each of these checks you fail, Unrest increases by 1 and Productivity, Society, and Stability decrease by 1. If both checks fail, the event continues in the next Event phase.</p>
+<p><strong className="hl">Drug Den (Settlement, Continuous):</strong> One of your Houses or Tenements becomes a hive of illicit drug trade. Attempt a Loyalty check and a Stability check, with a penalty equal to the number of Brothels, Tenements, Waterfronts, and lots with squatters in the settlement. If you succeed at both checks, you eliminate the drug den before your kingdom takes any penalties from the event. If you fail at one check, Crime and Unrest increase by 1. If you fail at both checks, Crime and Unrest increase by 1; Economy, Loyalty, and Stability decrease by 1; and on the next Event phase, a second drug den event occurs in the same settlement (01-50) or the nearest settlement (51-100).</p>
+<p><strong className="hl">Feud (Settlement, Continuous):</strong> Nobles (or other influential rival groups) are bickering. Attempt a Loyalty check. If you succeed, you end the event but Unrest increases by 1. If you fail, Corruption increases by 1, Unrest increases by 1d6, and the event is continuous.</p>
+<p><strong className="hl">Inquisition (settlement, continuous):</strong> Zealots mobilize public opinion against a particular race, religion, kingdom, behavior, or kingdom leader. Attempt a Loyalty check. If you fail, the zealots run rampant; Infamy and Law increase by 1 and Lore, Loyalty, Productivity, and Stability decrease by 2. If you succeed, the zealots are somewhat suppressed; Lore, Loyalty, Productivity, and Stability decrease by 1. Two successful checks in a row end the event (if a check ends the event, no penalties from it occur that turn).</p>
+<p><strong className="hl">Localized Disaster (Settlement):</strong> A fire, a flood, a storm, an earthquake, massive sabotage, or another disaster strikes the settlement! Roll 1d6 to determine how many lots are threatened by the disaster. On a result of 6, the disaster is widespread and affects 1d6 additional adjacent lots. Attempt a Stability check for each threatened lot; failure means the disaster destroys the building in that lot and Unrest increases by 1. (This Stability check represents your kingdom's ability to prepare for or react to the disaster as well as the structure's ability to withstand damage.)</p>
+<p><strong className="hl">Monster Attack (Settlement, Continuous):</strong> A monster (or group of monsters) attacks the kingdom. The GM picks a claimed hex in the kingdom in which the monster is active. The CR of the monster encounter is equal to the party's APL + 1d4 - 1. You can personally deal with the monster (earning XP and treasure normally for your efforts) or succeed at a Stability check to eliminate it (which doesn't affect you or the kingdom's statistics). If the monster is not defeated this turn, Unrest increases by 4. If the kingdom's Unrest is 5 or higher, the monster's hex becomes unclaimed - this is in addition to losing control of hexes in the Upkeep phase because of the kingdom's high Unrest score.</p>
+<p><strong className="hl">Plague (Hex or Settlement, Continuous):</strong> A deadly sickness strikes the target hex or settlement. You cannot construct terrain improvements or buildings there while plague persists. Attempt two Stability checks, each with a penalty equal to the number of Brothels, Foreign Quarters, Highways, Inns, Piers, Roads, Stables, Stockyards, Tenements, and Waterfronts in the hex, and a bonus equal to the number of Alchemists, Cathedrals, Herbalists, Hospitals, and Temples in the hex. If you succeed at both checks, the event ends, but Stability decreases by 2 and Treasury by 1d3 BP. If you fail at one check, Stability decreases by 4, Treasury decreases by 1d6 BP, and Unrest increases by 1d3. If you fail at both, Stability decreases by 4, Treasury decreases by 1d6 BP, Unrest increases by 1d6, and in the next Event phase the plague spreads to an adjacent hex.</p>
+<p><strong className="hl">Sensational Crime (Settlement, Continuous):</strong> A serial killer, arsonist, or daring bandit plagues your kingdom. Attempt two Stability checks, adding the settlement's Law and subtracting its Crime. If you succeed at both checks, the criminal is caught before your kingdom takes any penalties from the event. If you fail at one, the criminal escapes, Unrest increases by 1, and the event is continuous. If you fail at both, the criminal makes a fool of the authorities; Law and Loyalty decrease by 1, Treasury decreases by 1d4 BP, Unrest increases by 2, and the event is continuous.</p>
+<p><strong className="hl">Slavers (Settlement, Continuous):</strong> Criminals begin kidnapping citizens and selling them into slavery. Attempt a Loyalty check and a Stability check, each with a penalty equal to the number of Brothels, Tenements, Waterfronts, and lots with squatters in the settlement. If you succeed at both checks, the slavers are caught before your kingdom takes any penalties from the event. If you fail at one of the checks, Loyalty, Stability, and Unrest decrease by 1, but the event is not continuous. If you fail at both checks, Loyalty, Stability, and Unrest decrease by 2, and the event is continuous.</p>
+<p><strong className="hl">Squatters (Settlement, Continuous):</strong> An empty settlement lot is taken over by beggars, troublemakers, and people unable to find adequate work or housing; they camp there with tents, wagons, and shanties. You cannot use the lot for anything until the squatters are dispersed. Fame and Stability decrease by 1, and Unrest increases by 2. You may try to disperse the squatters with a Stability check. Success means the squatters are dispersed and the event is not continuous, but if a House or Tenement is not built in that lot on the next turn, Infamy increases by 1 and Unrest by 2. Failing the Stability check means the event is continuous, and you may not build on that lot until the event is resolved.</p>
+<p><strong className="hl">Vandals (Settlement):</strong> Thugs and dissidents riot and destroy property. Attempt a Loyalty check and a Stability check. If you succeed at both, the vandals are stopped before your kingdom takes any penalties. If you fail at one check, Society decreases by 1 and one random building in the settlement is damaged. If you fail at both, one random building is destroyed (Unrest increases by 1 for each lot of the destroyed building), and 1d3 other random buildings are damaged. A damaged building provides no benefits until half its cost is spent repairing it.</p>
+</>};
+const _gaining_experience_for_leadership = {title: "Gaining Experience for Leadership", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","kingdom_building"], siblings: ["kingdom_building_overview","kingdom_terminology","kingdom_building_quick_reference","founding_a_kingdom","leadership_roles","who_rolls_the_kingdom_check","build_points","kingdom_turn_sequence","edicts","losing_hexes","terrain_improvements","settlements_and_districts","founding_a_settlement","claiming_water_and_islands","buildings_in_the_kingdom","events","gaining_experience_for_leadership"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 215</Link></p>
+<p>As the kingdom grows, the party gains experience points the first time it reaches each of the following milestones.</p>
+<p><strong className="hl">Found a Kingdom:</strong> 2,400 XP</p>
+<p><strong className="hl">Establish a Capital City:</strong> 1,200 XP</p>
+<p><strong className="hl">Reach a Kingdom Size of 11:</strong> 2,400 XP</p>
+<p><strong className="hl">Reach a Kingdom Size of 26:</strong> 4,800 XP</p>
+<p><strong className="hl">Reach a Kingdom Size of 51:</strong> 9,600 XP</p>
+<p><strong className="hl">Reach a Kingdom Size of 101:</strong> 12,800 XP</p>
+<p><strong className="hl">Reach a Kingdom Size of 151:</strong> 25,600 XP</p>
+<p><strong className="hl">Reach a Kingdom Size of 201:</strong> 76,800 XP</p>
+<p><strong className="hl">Fill a Settlement with 4 Lots of Buildings:</strong> 1,600 XP</p>
+<p><strong className="hl">Fill a Settlement with 16 Lots of Buildings:</strong> 4,800 XP</p>
+<p><strong className="hl">Fill a Settlement with 36 Lots of Buildings:</strong> 12,800 XP</p>
+</>};
+const _optional_kingdom_rules = {title: "Optional Kingdom Rules", parent_topics: ["gm_specific_campaigns","kingdoms_and_war"], siblings: ["kingdom_building","optional_kingdom_rules","mass_combat"], subtopics: ["abandoned_buildings","deities_and_holy_sites","expanding_settlement_modifiers","fame_and_infamy","forms_of_government","independence_and_unification","leadership_role_skills","settlement_sizes","special_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 228</Link></p>
+<p>The following sections are optional rules for the kingdom-building system. These rules are modular; if the group prefers a simpler version of the kingdom rules, the GM can ignore the options and only use the standard kingdom-building rules. Many of these optional rules introduce more math into kingdom-building and use complex formulas to derive additional effects to be placed on the kingdom. The GM decides whether to use any of these optional rules in the campaign, and whether to keep or discard them if they interfere with the campaign's intended style of play.</p>
+</>};
+const _abandoned_buildings = {title: "Abandoned Buildings", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules"], siblings: ["abandoned_buildings","deities_and_holy_sites","expanding_settlement_modifiers","fame_and_infamy","forms_of_government","independence_and_unification","leadership_role_skills","settlement_sizes","special_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 228</Link></p>
+<p>If a building requires another to be adjacent (such as how a Tavern must be adjacent to a House or Mansion), and that required building is demolished or destroyed, the GM may decide that the associated building goes out of business or otherwise shuts down 1d3 turns later because of lack of customers or support. If this occurs, you lose the building's benefit and Unrest increases by 1.</p>
+<p>If you build a replacement for the abandoned building, on the next Upkeep phase you may attempt an Economy check to activate the abandoned building; success means the abandoned building is occupied and provides its bonuses. If you fail, you may keep trying on the next turn.</p>
+</>};
+const _deities_and_holy_sites = {title: "Deities and Holy Sites", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules"], siblings: ["abandoned_buildings","deities_and_holy_sites","expanding_settlement_modifiers","fame_and_infamy","forms_of_government","independence_and_unification","leadership_role_skills","settlement_sizes","special_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 228</Link></p>
+<p>Instead of Cathedrals, Shrines, and Temples providing the same bonuses to Economy, Loyalty, and Stability regardless of that building's religious affiliation, they can instead provide a bonus to an attribute related to the alignment of the god worshiped.</p>
+<p>A Temple increases attributes as follows: Chaotic: Loyalty +2; Evil: Economy +2; Good: Loyalty +2; Lawful: Economy +2; Neutral: Stability +2 (apply this twice if the god's alignment is simply Neutral, not Chaotic Neutral or Lawful Neutral). A Cathedral increases these attributes by 4 instead of 2. A Shrine increases one attribute, and only by 1; for example, a lawful good Shrine increases Economy by 1 or Loyalty by 1).</p>
+<p>Instead of granting alignment-based bonuses, a religious building may grant bonuses based on the portfolio of its chosen god. For example, a Temple of the goddess of wine may increase Economy and Loyalty (the same attributes as a Tavern) each by 2, and a Temple of the god of greed may increase Economy and Stability (the same attributes as a Black Market) each by 2. These values replace the building's normal modifiers to Economy, Loyalty, and Stability, and should never provide bonuses greater than the building's normal bonuses (+1 for a Shrine, +4 for a Temple, +8 for a Cathedral).</p>
+</>};
+const _expanding_settlement_modifiers = {title: "Expanding Settlement Modifiers", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules"], siblings: ["abandoned_buildings","deities_and_holy_sites","expanding_settlement_modifiers","fame_and_infamy","forms_of_government","independence_and_unification","leadership_role_skills","settlement_sizes","special_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 230</Link></p>
+<p>As explained in the Buildings section, the Settlement entry for a building lists <Link to="/rule/settlement_modifiers">modifiers that affect skill checks in the settlement</Link>. If the GM wants these modifiers to influence the kingdom as a whole, add up the Settlement modifiers for all settlements in your kingdom, divide them by 10, and apply the following adjustments according to your kingdom's alignment: Chaotic: +1 Crime; Evil: +1 Corruption; Good: +1 Society; Lawful +1 Law; Neutral: +1 Lore (apply this twice if the kingdom's alignment is simply Neutral, not Chaotic Neutral or Lawful Neutral). Use these total modifiers everywhere in your kingdom. If a settlement has its own settlement modifier, use the higher of the two modifiers for rolls relating to that settlement.</p>
+</>};
+const _fame_and_infamy = {title: "Fame and Infamy", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules"], siblings: ["abandoned_buildings","deities_and_holy_sites","expanding_settlement_modifiers","fame_and_infamy","forms_of_government","independence_and_unification","leadership_role_skills","settlement_sizes","special_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 230</Link></p>
+<p>Kingdoms gain notoriety for the actions of their leaders and citizens, as well as for constructing certain types of buildings. This leads to the development of Fame or Infamy. Fame represents a positive perception of a kingdom - it's seen as a place of culture, learning, peace, and honor - as well as reflecting its measure of success in diplomacy, trade, and battle. Infamy represents a negative perception of a kingdom - it's perceived as treacherous, corrupt, prejudiced, ruthlessly warmongering, and villainous.</p>
+<p>As a kingdom grows, it can gain and lose both Fame and Infamy, but these are not opposite statistics - an increase in Fame does not mean an equal decrease in Infamy. For example, a kingdom may be famous for culture and learning as well as infamous for treachery and corruption.</p>
+<p>These Fame and Infamy values are not associated with the <Link to="/rule/reputation_and_fame">Reputation and Fame campaign system</Link>.</p>
+<p><strong className="hl">Starting Values:</strong> When you found a kingdom, it starts with Fame 1 or Infamy 1 (Ruler's choice). The other value starts at 0. Fame and Infamy cannot go below 0. Certain buildings (such as Arenas and Castles) increase Fame. Some events (such as Squatters or Visiting Celebrity) can increase or reduce Fame or Infamy.</p>
+<p><strong className="hl">Settlement Modifiers:</strong> Add all the Lore and Society modifiers from all your settlements and divide by 10; add this amount to your Fame. Add all the Corruption and Crime modifiers from all your settlements and divide by 10; add this amount to your Infamy.</p>
+<p><strong className="hl">Size Increases:</strong> When your kingdom's Size increases to 11, 26, 51, 101, and 201, Fame or Infamy (Ruler's choice) increases by 1.</p>
+<p><strong className="hl">Using Fame and Infamy:</strong> Fame and Infamy affect skill checks relating to other kingdoms. For every 10 points of your kingdom's Fame, your citizens gain a +1 bonus on Diplomacy checks to influence government officials of other kingdoms. For every 10 points of your kingdom's Infamy, your citizens gain a +1 bonus on Intimidate checks to influence government officials of other kingdoms.</p>
+</>};
+const _forms_of_government = {title: "Forms of Government", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules"], siblings: ["abandoned_buildings","deities_and_holy_sites","expanding_settlement_modifiers","fame_and_infamy","forms_of_government","independence_and_unification","leadership_role_skills","settlement_sizes","special_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 231</Link></p>
+<p>The kingdom-building rules presume your government is a feudal monarchy; the leaders are appointed for life (either by themselves or an outside agency such as a nearby monarch), and pass their titles to their heirs. The form of government you choose can help establish the flavor and feel of the kingdom and also adjust its settlements' modifiers. You may choose one of the following as the kingdom's government.</p>
+<p><strong className="hl">Autocracy:</strong> A single person rules the kingdom by popular acclaim. This person may be elected by the people, a popular hero asked to lead, or even a hereditary monarch who rules with a light hand.<br/><em>Modifiers:</em> None.</p>
+<p><strong className="hl">Magocracy:</strong> An individual or group with potent magical power leads the kingdom and promotes the spread of magical and mundane knowledge and education. Those with magical abilities often enjoy favored status in the kingdom.<br/><em>Modifiers:</em> Lore +2, Productivity -1, Society -1.</p>
+<p><strong className="hl">Oligarchy:</strong> A group of councilors, guild masters, aristocrats, and other wealthy and powerful individuals meet in council to lead the kingdom and direct its policies.<br/><em>Modifiers:</em> Corruption +1, Law -1, Lore -1, Society +1.</p>
+<p><strong className="hl">Overlord:</strong> The kingdom's ruler is a single individual who either seized control or inherited command of the settlement and maintains a tight grasp on power.<br/><em>Modifiers:</em> Corruption +1, Crime -1, Law +1, Society -1.</p>
+<p><strong className="hl">Republic:</strong> The kingdom is ruled by a parliament of elected or appointed officials who represent the various geographic areas and cultural constituents of the kingdom, making decisions for the whole through voting, bureaucratic procedures, and coalition-building.<br/><em>Modifiers:</em> Crime -1, Law -1, Productivity +1, Society +1.</p>
+<p><strong className="hl">Secret Syndicate:</strong> An unofficial or illegal group like a thieves' guild rules the kingdom - the group may use a puppet leader to maintain secrecy, but the group pulls the strings.<br/><em>Modifiers:</em> Corruption +1, Crime +1, Law -3, Productivity +1.</p>
+<p><strong className="hl">Theocracy:</strong> The kingdom is ruled by the leader of its most popular religion, and the ideas and members of that religion often enjoy favored status in government and the kingdom.<br/><em>Modifiers:</em> Corruption -1, Law +1, Lore +1, Society -1.</p>
+</>};
+const _independence_and_unification = {title: "Independence and Unification", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules"], siblings: ["abandoned_buildings","deities_and_holy_sites","expanding_settlement_modifiers","fame_and_infamy","forms_of_government","independence_and_unification","leadership_role_skills","settlement_sizes","special_edicts"], subtopics: ["declaring_independence","forming_a_union"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 231</Link></p>
+<p>Sometimes, breaking a kingdom into multiple pieces or joining with another kingdom is the best option for long-term survival.</p>
+</>};
+const _declaring_independence = {title: "Declaring Independence", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules","independence_and_unification"], siblings: ["declaring_independence","forming_a_union"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 231</Link></p>
+<p>Though many kingdoms break apart due to military, racial, or religious conflicts, you can divide up your kingdom amiably if all leaders agree. During the Event phase, follow these steps.</p>
+<p><strong className="hl">Step 1:</strong> Decide how many kingdoms you'll make out of the old one.</p>
+<p><strong className="hl">Step 2:</strong> Split up the kingdom. Determine which hexes belong to each daughter kingdom. Divide the treasury in a fair manner (such as proportionate to population or Size), and divide any other mobile assets (such as armies).</p>
+<p><strong className="hl">Step 3:</strong> Determine how much Unrest in the parent kingdom does not result from leadership and building modifiers. Divide this by the number of daughter kingdoms being made from the parent kingdom (minimum 1 Unrest).</p>
+<p><strong className="hl">Step 4:</strong> Each daughter kingdom should follow the steps for <Link to="/rule/founding_a_kingdom">founding a kingdom</Link>. Treat leaders moving from the parent kingdom to a daughter kingdom as abdicating their posts in the parent kingdom. Loyalty increases by 1 for each daughter kingdom for the next 6 months. Add the Unrest from Step 3 to the Unrest for the daughter kingdoms.</p>
+<p>The GM may influence any of these steps as appropriate to the situation, such as by giving one kingdom an Economy penalty and a Loyalty bonus, or dividing the Unrest in Step 4 unequally between the kingdoms.</p>
+<p>If independence occurs as a result of creating a secondary territory by losing control of a connecting hex (see <Link to="/rule/losing_hexes">Losing Hexes</Link>), the additional Unrest penalty from having a kingdom leader act as the Ruler ends.</p>
+<p><strong className="hl">Independence and Diplomatic Edicts:</strong> If you're using <Link to="/rule/diplomatic_edicts">Diplomatic edicts</Link>, you may wish to use such an edict to declare independence. Treat this act as a Diplomatic edict to form an alliance, but the sponsor's initial attitude toward your kingdom is 2 steps worse. If successful, the negotiation emancipates your kingdom and ends any treaty or alliance with your former patron; you retain an embassy with that kingdom and can try to negotiate a new treaty or alliance. If the negotiation fails, it worsens the patron's attitude by 1 additional step. If this changes the patron's attitude to hostile, it leads to war against your rebellious kingdom.</p>
+<p>The paragraph above describes an optimal, peaceful situation where part of the kingdom wants to split away from the rest or the rulers want to divide the kingdom into smaller kingdoms. Splitting a country because of invasion, revolution, or a similar conflict usually involves unique circumstances and is beyond the scope of these rules; the GM should use the above steps as guidelines for when the kingdom leaders reach an agreement with others about how to split the kingdom.</p>
+</>};
+const _forming_a_union = {title: "Forming a Union", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules","independence_and_unification"], siblings: ["declaring_independence","forming_a_union"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 232</Link></p>
+<p>Just as a kingdom can divide into separate pieces, kingdoms may want to unite to become a more powerful political entity. If the leaders in each kingdom agree to the union, the process is relatively smooth. During the Event phase, follow these steps.</p>
+<p>First, combine the Treasuries and any other mobile assets (such as armies) of the kingdoms. Next, determine how much Unrest in each kingdom is not from leadership and building modifiers. Average these numbers together (minimum 1 Unrest).</p>
+<p>Then follow the steps for <Link to="/rule/founding_a_kingdom">founding a kingdom</Link>. Treat leaders who change roles as changing roles within the same kingdom.</p>
+<p>Once you've got your new, combined kingdom, add the Unrest from earlier to the Unrest for the new kingdom.</p>
+<p>The GM may influence any of these steps as appropriate to the situation, such as giving hexes in the smaller kingdom a temporary Loyalty penalty for 1 year, or giving the entire kingdom a 1d4-2 Stability modifier each turn for 6 months.</p>
+</>};
+const _leadership_role_skills = {title: "Leadership Role Skills", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules"], siblings: ["abandoned_buildings","deities_and_holy_sites","expanding_settlement_modifiers","fame_and_infamy","forms_of_government","independence_and_unification","leadership_role_skills","settlement_sizes","special_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 232</Link></p>
+<p>Each leadership role provides bonuses to kingdom statistics based on one of the leader's ability scores. The GM may want to allow a leader's ranks in a relevant skill (such as Diplomacy or Intimidate) to also affect the kingdom statistics. For every 5 full ranks in a relevant skill, the leader may increase the leadership modifier by an additional 1. These skill-based additional bonuses modify the standard leadership role bonuses in the same way that the <Link to="/feat/leadership">Leadership</Link> feat grants additional bonuses.</p>
+<p>The relevant skills for each leadership role are as follows.</p>
+<p><strong className="hl">Ambassador:</strong> Diplomacy</p>
+<p><strong className="hl">Consort:</strong> Knowledge (nobility)</p>
+<p><strong className="hl">Councilor:</strong> Knowledge (local)</p>
+<p><strong className="hl">General:</strong> Profession (soldier)</p>
+<p><strong className="hl">Grand Diplomat:</strong> Diplomacy</p>
+<p><strong className="hl">Heir:</strong> Knowledge (nobility)</p>
+<p><strong className="hl">High Priest:</strong> Knowledge (religion)</p>
+<p><strong className="hl">Magister:</strong> Knowledge (arcana)</p>
+<p><strong className="hl">Marshal:</strong> Survival</p>
+<p><strong className="hl">Royal Enforcer:</strong> Intimidate</p>
+<p><strong className="hl">Ruler:</strong> Knowledge (nobility)</p>
+<p><strong className="hl">Spymaster:</strong> Sense Motive</p>
+<p><strong className="hl">Treasurer:</strong> Profession (merchant)</p>
+<p><strong className="hl">Viceroy:</strong> Knowledge (geography)</p>
+<p><strong className="hl">Warden:</strong> Knowledge (engineering)</p>
+</>};
+const _settlement_sizes = {title: "Settlement Sizes", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules"], siblings: ["abandoned_buildings","deities_and_holy_sites","expanding_settlement_modifiers","fame_and_infamy","forms_of_government","independence_and_unification","leadership_role_skills","settlement_sizes","special_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 232</Link></p>
+<p>The GM may want to adjust settlement modifiers based on the kingdom's Size and how that corresponds to the standard settlement size categories in the Core Rulebook.</p>
+<h3 id="rule-settlement_sizes-table-4-14-settlement-sizes-and-modifiers">Table 4-14: Settlement Sizes and Modifiers</h3>
+<ScrollContainer id="rule-settlement_sizes--table-0"><table>
+<thead>
+<tr>
+<th>Lots</th>
+<th>Category</th>
+<th>Modifiers</th>
+<th>Danger</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Village</td>
+<td>-4</td>
+<td>-10</td>
+</tr>
+<tr>
+<td>2-8</td>
+<td>Small Town</td>
+<td>-2</td>
+<td>-5</td>
+</tr>
+<tr>
+<td>9-20</td>
+<td>Large Town</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>21-40</td>
+<td>Small City</td>
+<td>+1</td>
+<td>+5</td>
+</tr>
+<tr>
+<td>41-100</td>
+<td>Large City</td>
+<td>+1*</td>
+<td>+5*</td>
+</tr>
+<tr>
+<td>101+</td>
+<td>Metropolis</td>
+<td>+1*</td>
+<td>+5*</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p>* Per district.</p>
+<p><strong className="hl">Modifiers:</strong> Add the listed number to the settlement's Corruption, Crime, Law, Lore, Productivity, and Society.</p>
+<p><strong className="hl">Danger:</strong> Add the listed number to the settlement's <Link to="/rule/the_settlement_stat_block">Danger value</Link>.</p>
+</>};
+const _special_edicts = {title: "Special Edicts", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules"], siblings: ["abandoned_buildings","deities_and_holy_sites","expanding_settlement_modifiers","fame_and_infamy","forms_of_government","independence_and_unification","leadership_role_skills","settlement_sizes","special_edicts"], subtopics: ["diplomatic_edicts","type_of_diplomatic_relationships","relationships_with_multiple_kingdoms","exploration_edicts","trade_edicts","vassalage_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 229</Link></p>
+<p>There are four types of optional special edicts: Diplomatic, Exploration, Trade, and Vassalage. Each turn in the Edict phase, after you have issued your Holiday, Improvement, Promotion, and Taxation edicts, you may issue one of these special edicts.</p>
+</>};
+const _diplomatic_edicts = {title: "Diplomatic Edicts", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules","special_edicts"], siblings: ["diplomatic_edicts","type_of_diplomatic_relationships","relationships_with_multiple_kingdoms","exploration_edicts","trade_edicts","vassalage_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 228</Link></p>
+<p>Diplomatic edicts are special edicts that allow you to establish an embassy, treaty, or alliance with another kingdom. You must have an official representative of your kingdom, such as an ambassador or leader, present in the other kingdom to make this edict (though the GM may allow magical communication to handle most of the edict's details and bypass this requirement). Using this edict costs 1d4 BP in travel and other expenses.</p>
+<p>Your representative must attempt a Diplomacy check. The DC is determined using the following formula:</p>
+<p>DC = 10 + your kingdom's Infamy + the target kingdom's special Size modifier + your kingdom's special Size modifier + alignment difference modifier + relationship modifier + the target kingdom's attitude - your kingdom's Fame - BP you spend on bribes or gifts</p>
+<p><strong className="hl">Special Size Modifier:</strong> This is equal to the kingdom's Size divided by 5.</p>
+<p><strong className="hl">Alignment Difference Modifier:</strong> This is based on how close your kingdom's alignment is to the target kingdom's alignment, according to the following table.</p>
+<h3 id="rule-diplomatic_edicts-table-4-12-diplomatic-alignment-difference-modifier">Table 4-12: Diplomatic Alignment Difference Modifier</h3>
+<ScrollContainer id="rule-diplomatic_edicts--table-0"><table>
+<thead>
+<tr>
+<th>Alignment Difference*</th>
+<th>DC Modifier</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Same</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>1 step</td>
+<td>+5</td>
+</tr>
+<tr>
+<td>2 steps</td>
+<td>+15</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p>*Per alignment axis.</p>
+<p><strong className="hl">Relationship Modifier:</strong> This takes into account your treaties, alliances, and conflicts with the target kingdom's allies and enemies. If you are friendly with the same kingdoms, the target is more interested in diplomacy with you. If you are friendly with the target kingdom's enemies, the target is less interested in negotiating with you. Modify the DC as follows for each third party you have in common.</p>
+<h3 id="rule-diplomatic_edicts-table-4-13-diplomatic-relationship-modifier">Table 4-13: Diplomatic Relationship Modifier</h3>
+<ScrollContainer id="rule-diplomatic_edicts--table-1"><table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>DC Modifier</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>You and the target kingdom both have an alliance with a third party</td>
+<td>-8</td>
+</tr>
+<tr>
+<td>You have a treaty with the target kingdom's ally</td>
+<td>-4</td>
+</tr>
+<tr>
+<td>You and the target kingdom both have a treaty with a third party</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>You have an embassy with the target kingdom's enemy</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>You have a treaty with the target kingdom's enemy</td>
+<td>+5</td>
+</tr>
+<tr>
+<td>You have an alliance with the target kingdom's enemy</td>
+<td>+10</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p><strong className="hl">Attitude:</strong> Much like the starting attitude of an NPC, the target kingdom's initial attitude toward you is indifferent, though the GM may modify this based on alignment differences, your shared history, culture, warfare, espionage, racial tensions, and other factors in the campaign world. These factors may also influence the Diplomacy DC for using this edict (generally increasing the DC by 5 for every attitude step worse than helpful).</p>
+<p>The act of making this Diplomacy check takes place over several days, with the emissary socializing with representatives of the target kingdom, discussing common interests and the benefits and goals of entering a diplomatic agreement with your kingdom. Because this check is not a singular event, abilities and spells that modify a single roll have no effect on this check unless they last at least 24 hours (for example, glibness does not affect this check).</p>
+</>};
+const _type_of_diplomatic_relationships = {title: "Type of Diplomatic Relationships", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules","special_edicts"], siblings: ["diplomatic_edicts","type_of_diplomatic_relationships","relationships_with_multiple_kingdoms","exploration_edicts","trade_edicts","vassalage_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 229</Link></p>
+<p>You use Diplomatic edicts to establish an embassy, treaty, or alliance; each is a closer relation than the previous one.</p>
+<p><strong className="hl">Embassy:</strong> You attempt to establish mutual recognition of authority and territory with the target kingdom, represented by granting dominion over embassies in each other's settlements. Attempt a Diplomacy check using the Diplomatic edict DC. If the Diplomacy check fails, the other kingdom rejects your diplomatic efforts and you cannot attempt to establish an embassy with it again for 1 year; if the check fails by 5 or more, your kingdom's Fame decreases by 1 and the other kingdom's attitude toward your kingdom worsens by 1 step.</p>
+<p>If you succeed at the Diplomacy check, you create an embassy agreement with the target kingdom; if you succeed at the check by 5 or more, the target kingdom's attitude toward your kingdom improves by 1 step and your kingdom's Fame increases by 1. You may purchase or build a Mansion or Noble Villa in one of the other kingdom's settlements to use as an embassy (if so, your ambassador uses it as a residence). The target kingdom's leaders may do the same in one of your settlements. Your embassy is considered your territory (and vice versa). Your embassy grants your kingdom the normal bonuses for a building of its type (they apply to your kingdom's totals but not to any specific settlement in your kingdom) and increases Consumption by 1, Economy by 2, and Society by 2. If the target kingdom builds an embassy in one of your settlements, that kingdom gains these bonuses.</p>
+<p>If you founded your kingdom with the <Link to="/rule/wealthy_sponsor">support of a wealthy sponsor from another kingdom</Link>, your kingdom automatically has an embassy agreement with your sponsor's, and you can use Diplomatic edicts to establish a treaty or an alliance.</p>
+<p>Alternatively, your envoy may attempt to threaten rather than befriend the other kingdom. In this case, your envoy attempts an Intimidate check, applying your kingdom's Infamy as a bonus. You also gain a +1 bonus for every active army your kingdom has. This check's DC is the same as the Diplomatic edict DC above, except your Fame and Infamy do not modify it. You may spend BP on bribes or gifts to modify the DC. Your Infamy increases by 1 whether you succeed or fail at the check. If you succeed at the check, you create an embassy agreement with the target kingdom. If you fail, the target kingdom's attitude toward you worsens by 1 step, Infamy increases by an additional 1 and you cannot make this threat again for 1 year. If it fails by 5 or more, the kingdom's attitude toward you worsens by 2 steps and Infamy increases by an additional 1; if the kingdom's attitude becomes or is already hostile, it declares war on you.</p>
+<p>An embassy is considered a permanent agreement. Replacing your ambassador does not affect the edict or the embassy. If you want to close your embassy and break the embassy agreement, attempt a Loyalty check. Success means you close the embassy. Failure means your citizens reject the idea of severing ties with the other kingdom and continue to staff the embassy; you may try again next turn.</p>
+<p>If you attack a kingdom with which you have an embassy, attempt a Loyalty check. If you succeed, your Infamy increases by 1. If you fail, Infamy and Unrest both increase by 1.</p>
+<p><strong className="hl">Treaty:</strong> If you have an embassy agreement with another kingdom, you can approach that kingdom's leaders to establish a treaty that formalizes your economic and social cooperation and understanding. Doing so requires a new Diplomatic edict and requires your envoy to attempt three Diplomacy checks using the Diplomatic edict DC. These checks must be attempted in order (as an extreme success or failure can change the target kingdom's attitude and the difficulty of the later checks). If two or more of the checks fail, the attempt to create a treaty fails; your kingdom's Fame decreases by 1 and you cannot attempt to establish a treaty with the other kingdom for 1 year.</p>
+<p>If two or more of the checks succeed, your envoy and one of the target kingdom's leaders (typically the Ruler or Grand Diplomat) attempt opposed checks with the following skills, rerolling ties: Bluff, Diplomacy, Knowledge (local), Knowledge (nobility), and Sense Motive. Either or both parties may substitute Intimidate for Diplomacy (even if this means one party is making a Diplomacy check opposed by the other's Intimidate check). As with Diplomatic edicts, abilities or spells that modify skill checks do not apply unless they last at least 24 hours. Whichever party wins most of these opposed checks has the advantage in the negotiations and decides whether the treaty is balanced or unbalanced.</p>
+<p>For a balanced treaty, increase each kingdom's Economy by 10% of the other country's Economy. The Fame of the party with the advantage in the negotiations by 1.</p>
+<p>For an unbalanced treaty, the advantaged kingdom's Economy increases by 15% of the disadvantaged kingdom's Economy, and the disadvantaged kingdom's Economy increases by 5% of the advantaged kingdom's Economy. The advantaged kingdom's Infamy increases by 1. You may use a Diplomatic edict to change an unbalanced treaty in your favor to a balanced treaty; doing so does not require a check.</p>
+<p>If one kingdom is an NPC kingdom and the GM doesn't want to calculate its exact Economy modifier, estimate its Economy as 2d6 + its Size.</p>
+<p>A treaty is considered a permanent agreement. If you want to renegotiate it, attempt a Loyalty check. If you succeed, your envoy and one of the target kingdom's leaders attempt opposed checks as described for embassies above (this doesn't guarantee you end up with a more favorable treaty). If you fail, the existing treaty remains in effect and your Unrest increases by 1.</p>
+<p>If you withdraw from the treaty, attempt a Loyalty check. Success means Unrest increases by 1; failure means Unrest increases by 2.</p>
+<p>If you attack a kingdom with which you have a treaty, attempt a Loyalty check. If you succeed, Infamy and Unrest increase by 1d2 each. If you fail, Infamy and Unrest increase by 1d4 each.</p>
+<p><strong className="hl">Alliance:</strong> If you have a treaty with another kingdom, you can use a Diplomatic edict to form an alliance - a military agreement of mutual defense and support. This works like the negotiations for a treaty, except it requires six Diplomacy or Intimidate checks. Four of these must succeed for the alliance to form.</p>
+<p>If successful, negotiations proceed as for a treaty, with three opposed Diplomacy or Intimidate checks to determine who has the advantage in negotiations. The party with the advantage may decide whether the alliance is balanced or unbalanced, but the bonuses apply to each kingdom's Stability instead of Economy.</p>
+<p>Kingdoms in an alliance can move their armies through each others' territories and station them in each others' territories or in unoccupied Forts and Watchtowers, though not inside allied settlements. If an allied kingdom stations an army inside your territory, you must succeed at a Loyalty check or gain 1d2 Unrest; this does not apply if your kingdom has been attacked and you have requested aid from the ally.</p>
+<p>If you are attacked by another kingdom, you can call for aid from your allies. Failure to send aid increases an ally's Infamy by 1d4; the precise nature and amount of aid sent is at the discretion of the rulers of each kingdom, and the GM decides whether this Infamy increase happens.</p>
+<p>If you attack a kingdom with which you have an alliance, attempt a Loyalty check. If you succeed, Infamy and Unrest increase by 1d4 each. If you fail, Infamy and Unrest increase by 2d4 each. An attacked ally may end an alliance, treaty, or embassy agreement with the aggressor without penalty.</p>
+</>};
+const _relationships_with_multiple_kingdoms = {title: "Relationships with Multiple Kingdoms", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules","special_edicts"], siblings: ["diplomatic_edicts","type_of_diplomatic_relationships","relationships_with_multiple_kingdoms","exploration_edicts","trade_edicts","vassalage_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 230</Link></p>
+<p>A kingdom may have embassies with any number of kingdoms. For each treaty or alliance after the first, the bonus to Economy or Stability is reduced by 1 (minimum +0).</p>
+</>};
+const _exploration_edicts = {title: "Exploration Edicts", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules","special_edicts"], siblings: ["diplomatic_edicts","type_of_diplomatic_relationships","relationships_with_multiple_kingdoms","exploration_edicts","trade_edicts","vassalage_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 230</Link></p>
+<p>Exploration edicts are special edicts that allow you to commission explorers to map unclaimed hexes and prepare them for your kingdom. You may choose to accompany the explorers or let them explore on their own.</p>
+<p>When commissioning an expedition, you must determine the length of time and plan the route in advance. Financing explorers costs 1d4 BP per month of the expedition, paid in advance. The explorers start at your capital, and spend the agreed-on time traveling to, exploring, and mapping unclaimed hexes. At the end of the contracted period, they return to your capital. <Link to="/rule/terrain_improvements">Table 4-6: Terrain and Terrain Improvements</Link> for travel and exploration times. Each expedition requires a separate Exploration edict.</p>
+<p>Explorers note obvious terrain features and resources on the first day in a hex. Each day spent in the hex allows Knowledge (geography) and/or Survival checks to locate hidden landmarks, lairs, or resources, with a DC ranging from 15 for things that are relatively easy to find or well known in local lore to DC 30 for those that are well hidden or generally unknown.</p>
+<p>Explorers have the same chances for random encounters and other dangers that you would if you traveled through or explored the hex yourself. If you are not traveling with the explorers and they have a hostile encounter, you may have the expedition attempt a Stealth check (DC 10 + twice the encounter's CR), using the worst Stealth modifier among the expedition members. If the check fails, you may attempt a Stability check (DC = Control DC + twice the encounter's CR). If you succeed at the Stability check, the explorers escape and survive but are temporarily scattered and make no more progress that month. If you fail the Stability check, the explorers are killed; Unrest increases by 1, and the remainder of your BP investment in the expedition is lost.</p>
+</>};
+const _trade_edicts = {title: "Trade Edicts", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules","special_edicts"], siblings: ["diplomatic_edicts","type_of_diplomatic_relationships","relationships_with_multiple_kingdoms","exploration_edicts","trade_edicts","vassalage_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 232</Link></p>
+<p>Trade edicts are special edicts that allow you to create a trade route with another kingdom, increasing the BP you gain every month, as well as possibly increasing your Fame and other kingdom statistics.</p>
+<p>To plan a trade route, select another kingdom as your trade partner and determine the distance in hexes from a settlement in your kingdom to a settlement in the target kingdom, tracing the path of the trade route rather than a direct line. A trade route can pass through grassland, desert, or any terrain that has a road or highway. If your settlement contains a Pier, the trade route can pass along rivers and coastal hexes. If your settlement contains a Waterfront, your trade route can pass through water hexes.</p>
+<p>Longer trade routes are harder to maintain than short ones. To determine the effective length of your trade route, hexes with roads or rivers count normally. Grassland and desert hexes count double. Water hexes and hexes with highways count as half. This total distance is the Trade Route Length (TRL). Divide the Trade Route Length by 10 to get the Route Modifier (RM). Subtract the TRL from your kingdom's Size to get the Length Modifier (LM), with a minimum LM of 0.</p>
+<p>Establishing a trade route takes 1 hex per day along Roads and Rivers (upstream), 2 along coastlines, and 4 along water or Rivers (downstream). If the journey requires 1 turn or more, you gain no benefits from it until the turn the traders arrive at their destination. You must invest at least 5 BP into the initial trade expedition using this trade route. The first time your traders reach the destination settlement, attempt an Economy check, a Loyalty check, and a Stability check. Determine the DC as follows:</p>
+<p>DC = Control DC + your settlement's Corruption + the RM + the LM - your settlement's Productivity</p>
+<p>If all three checks fail, the trade route is a total loss; Fame decreases by 1 and Unrest increases by 1. If one check succeeds, the expedition fails to reach its destination but sells its goods elsewhere for 1d4 BP per every 5 BP invested.</p>
+<p>If two checks succeed, the trade route is established; Economy increases by 1 and Treasury increases by the RM + 2d4 BP per 5 BP invested in the initial trade expedition. For example, if you invested 5 BP in a trade route with an RM of 2, Treasury increases by 2 + 2d4 BP.</p>
+<p>If all three checks succeed, the trade route is established and is a great success; Economy increases by 2, Fame increases by 1, and Treasury increases by the RM + 2d4 BP per 5 BP invested in the initial trade expedition.</p>
+<p>An established trade route provides its benefits for 1 year. A kingdom can have one of each of the following types of trade route. Each type requires certain buildings in your settlement, and each increases the Economy bonus from a successful trade route.</p>
+<p><strong className="hl">Food:</strong> If your kingdom has surplus production from farms and fisheries that reduces its Consumption to below 0, you may export food. A successful food trade route increases Economy by 1 for every 10 Farms and Fisheries in the kingdom; this benefit is lost in any month that Farms and Fisheries do not reduce Consumption below 0. You must have at least 1 Granary and 1 Stockyard in your settlement.</p>
+<p><strong className="hl">Goods:</strong> The trade route transports goods such as weapons and textiles. Count all Guildhalls, Smithies, Shops, Trade Shops, and Tanneries in the starting settlement and divide by 10; a successful goods trade route increases Economy by this amount. You must have at least 1 Guildhall in your settlement.</p>
+<p><strong className="hl">Luxuries:</strong> This trade route carries exotic goods such as art, musical instruments, books, spices, dyes, and magic items. Count all Alchemists, Caster's Towers, Exotic Artisans, Herbalists, Luxury Stores, and Magic Shops in the starting settlement and divide by 10; a successful luxuries trade route increases Economy by that amount. You must have at least 1 Luxury Store in your settlement.</p>
+<p><strong className="hl">Raw Materials:</strong> This trade route carries common raw materials such as lumber, stone, ore, or metal. A successful raw materials trade route increases Economy by 1 for every 10 Mines, Quarries, and Sawmills in the kingdom. You must have at least 1 Foundry in the starting settlement to count Mines.</p>
+</>};
+const _vassalage_edicts = {title: "Vassalage Edicts", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","optional_kingdom_rules","special_edicts"], siblings: ["diplomatic_edicts","type_of_diplomatic_relationships","relationships_with_multiple_kingdoms","exploration_edicts","trade_edicts","vassalage_edicts"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 233</Link></p>
+<p>Vassalage edicts are special edicts that allow you to cede a portion of your lands (or unclaimed lands you deem yours to take) to a subordinate leader, sponsoring that leader's rulership in exchange for fealty. You can also use a Vassalage edict to found a colony beholden to your kingdom. You may also use a Vassalage edict to subjugate an existing kingdom you have conquered without having to absorb the entire kingdom hex by hex. When you issue a Vassalage edict, you must select a person to take the Viceroy leadership role.</p>
+<p>Issuing a Vassalage edict requires you to spend 1d4 BP and give additional BP to the Viceroy as a starting Treasury for the vassal kingdom (just as a wealthy sponsor may have granted to your initial Treasury). You may give up to 1/4 of your kingdom's Treasury to your new vassal as a grant to help found the kingdom.</p>
+<p>When you issue a Vassalage edict, you are creating a new kingdom or attaching an existing kingdom to your own. Your vassal functions in most respects as a separate entity with its own kingdom scores. You decide how it is governed; you may give its leaders full autonomy, or give occasional suggestions or commands about buildings and improvements, or control it directly by giving orders to the Viceroy.</p>
+<p><strong className="hl">New Vassal or Colony:</strong> When you issue a Vassalage edict to create a new colony or kingdom, you may immediately establish an embassy, treaty, or alliance (your choice) with your new vassal (see <Link to="/rule/diplomatic_edicts">Diplomatic edicts</Link>). You may decide that the treaty and alliance are balanced or unbalanced. These decisions are automatically successful and do not require rolls.</p>
+<p><strong className="hl">Subjugation:</strong> When you issue this edict to subjugate another kingdom, you may immediately <Link to="/rule/type_of_diplomatic_relationships">establish an embassy</Link>, but you must follow the normal rules if you wish to establish a treaty or alliance. If you spend BP on bribes or gifts to reduce the DC and you succeed at forming the treaty or alliance, you may count half of this amount as going toward new improvements or buildings built in the vassal kingdom that turn.</p>
+<p>The starting attitude of the vassal kingdom is based on alignment compatibility (as per Diplomatic edicts) and modified by the circumstances under which you deposed the prior leadership per GM discretion - for example, improving if you removed a hated tyrant or worsening if you unseated a popular ruler.</p>
+<p>Subjugation may cause friction between your established citizens and the newly conquered. You must attempt a Loyalty check each turn (when you issue the edict, and on future turns during the Upkeep phase), increasing the DC by the subjugated kingdom's Size divided by 5. Failure means Unrest increases by 1d4. If you succeed at this check three turns in a row, you establish a peaceful equilibrium and no longer need to attempt these checks.</p>
+<p><strong className="hl">Vacancy Penalty:</strong> If the vassal kingdom take a vacancy penalty for not having a Viceroy or a Viceroy not doing his duties, that kingdom also takes the Ruler vacancy penalty. A Consort or Heir from your kingdom may mitigate this penalty if she is touring the vassal state; however, she cannot also mitigate the Ruler vacancy penalty in your kingdom.</p>
+</>};
+const _mass_combat = {title: "Mass Combat", parent_topics: ["gm_specific_campaigns","kingdoms_and_war"], siblings: ["kingdom_building","optional_kingdom_rules","mass_combat"], subtopics: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 234</Link></p>
+<p>Sooner or later, even the most peaceable kingdom will find itself faced with the prospect of war. While some kingdoms at odds with your own might be willing to compromise, others are not amenable to negotiation, or respond to overtures of appeasement with ever-increasing aggression. When diplomacy fails, the clash of steel is close behind.</p>
+<p>This section contains rules for you as a kingdom leader to create armies, assign their commanders, and prepare them for battle on land, at sea, or in the skies. This includes rules for equipping and maintaining conventional armies, utilizing PCs as part of mass combat, converting groups of monsters into military forces, and going beyond the battlefield to deal with the aftermath of combat.</p>
+<p>These rules provide an abstract, narrative mass combat system that will let you rapidly play out a complex battle scenario without getting bogged down in excessive detail, while still retaining fidelity to strategy, tactics, and the realities of the battlefield. These rules are not intended to accurately represent complex wars, provide a highly tactical simulation, or accurately model a tactical warfare miniatures game. Instead, they are intended to incorporate warfare into a campaign while still staying primarily focused on traditional, small-scale adventuring and roleplaying.</p>
+</>};
+const _mass_combat_overview = {title: "Mass Combat Overview", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 234</Link></p>
+<p>The key parts of the mass combat rules that you'll reference often are:</p>
+<ul>
+<li>Explanations of the army stat block and terminology used throughout this section.</li>
+<li>Step-by-step instructions on how to run the battle phases of a combat between armies.</li>
+<li>Battlefield modifiers for terrain and similar factors.</li>
+<li>Different tactics that armies can learn.</li>
+<li>What happens at the end of a battle, once an army wins, loses, or flees.</li>
+<li>How to use special commanders or kingdom leaders to modify army statistics.</li>
+<li>Resources to upgrade and improve armies.</li>
+<li>Special abilities for unusual armies, such as spellcasting or poison.</li>
+<li>A list of sample armies.</li>
+</ul>
+</>};
+const _mass_combat_quick_reference_guide = {title: "Mass Combat Quick Reference Guide", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 235</Link></p>
+<p>These mass combat rules treat armies as if they were individual creatures. Instead of making 100 attack rolls for each side of a battle between elves and orcs, you treat the elf army as one unit and the orc army as another unit, and they battle each other with just one roll each. Instead of the armies taking turns attacking each other, they roll simultaneously. Smaller armies have fewer individual creatures (units), larger armies have more units, and the number of units directly relates to how dangerous an army is.</p>
+<p>Use the Mass Combat Army Sheet [on pg. 251 of the physical book] to track the stats of your armies, just as you use a character sheet to track the stats of your character.</p>
+<p>Every army has a commander, typically a seasoned veteran, who directs the army's actions. You can lead an army yourself, making you its commander and providing bonuses depending on your kingdom leadership role.</p>
+<p>Armies can learn different tactics, such as using reserve archers, forming a defensive wall, or using dirty tricks. An army can use strategies like attacking recklessly and aggressively (much like a creature using the <Link to="/feat/power_attack">Power Attack</Link> feat) or being cautious and defensive (like using <Link to="/feat/combat_expertise">Combat Expertise</Link>). The army's commander decides the tactics and strategy used in battle.</p>
+<p>Conditions on the battlefield affect the process and outcome of the battle. For example, muddy terrain slows walking armies but has no effect on flying armies; night combat hinders human armies but not orc armies.</p>
+<p>Resolving the battle consists of three phases in which the commanders decide on tactics, the armies make ranged attacks (if any), and the armies then close to melee range. They then remain in melee until one side flees or is destroyed.</p>
+<p>The following summarizes the key rolls you'll make when using mass combat:</p>
+<p><strong className="hl">Offense Check:</strong> d20 + Offense Modifier (OM)</p>
+<p><strong className="hl">Damage Dealt:</strong> Offense check result - the defending army's Defense Value (DV)</p>
+<p><strong className="hl">Morale Check:</strong> d20 + the commander's modifiers + the army's Morale score</p>
+</>};
+const _beyond_the_kingdom = {title: "Beyond the Kingdom", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 236</Link></p>
+<p>The mass combat rules often refer to aspects of the kingdom building rules, such as Loyalty checks and a kingdom's Control DC. If you aren't running a kingdom, substitute a Will save for a Loyalty check. Instead of a kingdom's Control DC, use the primary ability DC of a monster with a CR equal to the party's APL (see <Link to="/rule/step_2_target_statistics">Monster Statistics By CR</Link>). For example, if the party's APL is 12, the Will save DC is 21. Instead of a kingdom turn or kingdom phase, use 1 month. Instead of BP, multiply the BP cost by 500 gp.</p>
+</>};
+const _running_mass_combat = {title: "Running Mass Combat", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 237</Link></p>
+<p>Since an army's strength is represented by an ACR score, the GM can balance armies against each other using the <Link to="/rule/designing_encounters">guidelines for CR</Link>. For example, two ACR 9 armies should make for a relatively even battle, but so would an ACR 9 army against three ACR 6 armies. This applies mostly to typical humanoid armies, as monsters with powerful abilities might be significantly more formidable.</p>
+</>};
+const _recruiting_armies = {title: "Recruiting Armies", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 241</Link></p>
+<p>If you are a leader of a kingdom, that fact is sufficient for you to recruit armies from your citizens. If you are not the leader of a kingdom, the GM may decide that you need to achieve some sort of in-game accomplishment to earn the respect and renown needed to raise an army.</p>
+<p>Being able to recruit a monster army usually requires a special quest or adventure; you can't simply recruit an army of goblins to serve you because you've found a tribe of goblins or know they live in your kingdom.</p>
+</>};
+const _army_statistics = {title: "Army Statistics", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 234</Link></p>
+<p>The description of each army is presented in a standard format. Each category of information is explained and defined on the following pages.</p>
+<p><strong className="hl">Name:</strong> This is the name of the army. This could be a mercenary company's name, such as "Thokk's Bloodragers," a formal regiment number such as "7th Royal Cavalry," or an informal name such as "Thokk's Bloodragers,"</p>
+<p><strong className="hl">XP:</strong> This is the XP awarded to the PCs if their army defeats this army, and is the same as an XP award for an encounter with a CR equal to the army's ACR (see below).</p>
+<p><strong className="hl">Alignment:</strong> An army's alignment has no effect on its statistics, and is just a convenient way to summarize its attitude with two letters. It is usually the same alignment as a typical unit in that army.</p>
+<p><strong className="hl">Size:</strong> The army's size determines not only how many individual units exist in the army, but also the army's ACR. Table 4-15: Army Sizes</p>
+<h3 id="rule-army_statistics-table-4-15-army-size">Table 4-15: Army Size</h3>
+<ScrollContainer id="rule-army_statistics--table-0"><table>
+<thead>
+<tr>
+<th>Army Size</th>
+<th>Number of Units</th>
+<th>ACR</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Fine</td>
+<td>1</td>
+<td>CR of individual creature -8</td>
+</tr>
+<tr>
+<td>Diminutive</td>
+<td>10</td>
+<td>CR of individual creature -6</td>
+</tr>
+<tr>
+<td>Tiny</td>
+<td>25</td>
+<td>CR of individual creature -4</td>
+</tr>
+<tr>
+<td>Small</td>
+<td>50</td>
+<td>CR of individual creature -2</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>100</td>
+<td>CR of individual creature</td>
+</tr>
+<tr>
+<td>Large</td>
+<td>200</td>
+<td>CR of individual creature +2</td>
+</tr>
+<tr>
+<td>Huge</td>
+<td>500</td>
+<td>CR of individual creature +4</td>
+</tr>
+<tr>
+<td>Gargantuan</td>
+<td>1,000</td>
+<td>CR of individual creature +6</td>
+</tr>
+<tr>
+<td>Colossal</td>
+<td>2,000</td>
+<td>CR of individual creature +8</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p><strong className="hl">Type:</strong> This lists the nature of the army's individual units, such as "orcs (warrior 1)- or -trolls." These rules assume all units in an army are essentially the same; if an army of 100 orc warriors 1 (meaning 1st-level warriors) actually has a few half-orc warriors or some orc barbarians, their presence has no effect on the army's statistics. If an army has a large number of units that are different than the typical unit in that army, and these differences are enough to change the army's stat block, it is generally best to treat the group as two separate armies with different stat blocks.</p>
+<p><strong className="hl">hp:</strong> An army's hit points equal its ACR &times; the average hp value of 1 HD of the army's units (3.5 for d6 HD, 4.5 for d8 HD, 5.5 for d10 HD, and 6.5 for d12 HD). For example, warriors have d10 HD, so an ACR 1 army of warriors has 5.5 &times; 1 = 5.5 hp, rounded down to 5 hp. Note that only damage from other armies can reduce an army's hp; a non-army attacking an army is mostly ineffective, though you can treat the attacker as a Fine army if you want to determine the outcome of the attack. As with standard game effects that affect hit points, abilities that reduce hp damage or healing by half (or any other fraction) have a minimum of 1 rather than 0.</p>
+<p><strong className="hl">Army Challenge Rating (ACR):</strong> This is based on the CR of an individual unit from the army and the army's size, and scales like CRs for monsters. To determine ACR, see Table 4-15: Army Sizes and apply the modifier for the army's size to the CR of an individual unit in the army. If an army is cavalry, use the mount's CR or the rider's CR, whichever is higher. For example, an individual orc warrior 1 is CR 1/3, so an army of 100 orc warriors 1 is ACR 1/3; an army of 500 orc warriors 1 is ACR 3 (4 steps greater than the standard 100-unit army). If a group's ACR would be lower than 1/8, it doesn't count as an army; add more troops until you reach an ACR of 1/8 or higher.</p>
+<p><strong className="hl">Defense Value (DV):</strong> This is a static number the army uses to resist attacks, much like an individual creature's AC. The army's DV is equal to ACR + 10 + any bonuses from fortifications or a settlement's <Link to="/rule/defense">Defense score</Link>.</p>
+<p><strong className="hl">Offense Modifier (OM):</strong> This is a modifier added to a d20 roll to determine the army's chance of success, much like an individual creature's attack bonus. The army's OM is equal to its ACR. If the army has the ability to make ranged attacks, that's mentioned here. Melee attacks and ranged attacks use the same OM unless an ability says otherwise.</p>
+<p><strong className="hl">Tactics:</strong> These are any army tactics the army has at its disposal.</p>
+<p><strong className="hl">Resources:</strong> These are any <Link to="/rule/army_resources">army resources</Link> the army has at its disposal.</p>
+<p><strong className="hl">Special:</strong> This section lists any <Link to="/rule/special_abilities">special abilities</Link> the army has.</p>
+<p><strong className="hl">Speed:</strong> This number indicates how many 12-mile hexes the army traverses in a day's march. Marching through difficult terrain halves the army's speed. Use <Link to="/rule/movement">Table 7-6: Movement and Distance</Link> to determine the army's speed based on the speed of its individual units.</p>
+<p><strong className="hl">Morale:</strong> This number represents how confident the army is. Morale is used to determine changing battle tactics, whether or not an army routs as a result of a devastating attack, and similar effects. Morale is a modifier from -4 (worst) to +4 (best). A new army's starting morale is +0. Morale can be further modified by the army's commander and other factors. If an army's Morale is ever reduced to -5 or lower, the army disbands or deserts and you no longer control it.</p>
+<p><strong className="hl">Consumption:</strong> This is how many Build Points (BP) an army consumes each week (unlike most kingdom expenses, this cost is per week, not per month), representing the cost to feed, hydrate, arm, train, care for, and pay the units. An army's base Consumption is equal to its ACR divided by 2 (minimum 1). If you fall behind on paying the army's Consumption, reduce its Morale by 2; this penalty ends when you catch up on the army's pay.</p>
+<p><strong className="hl">Commander:</strong> This entry lists the army's commander and the commander's Charisma modifier, ranks in Profession (soldier), and Leadership score. The commander must be able to communicate with the army (possibly using <Link to="/spell/message">message</Link> spells and similar magical forms of communication) in order to give orders or provide a bonus on the army's rolls.</p>
+</>};
+const _battle_phases = {title: "Battle Phases", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 236</Link></p>
+<p>Mass combat takes place over the course of three battle phases: the Tactics Phase, the Ranged Phase, and the Melee Phase. A phase doesn't denote a specific passage of time, leaving the GM latitude to determine how long a mass combat takes to resolve. For example, a battle in a muddy field after a rain could take place over hours and involve several short breaks to remove the dead from the battlefield, but still counts as one battle for the purposes of these rules. If there is an extended break (such as stopping at nightfall to resume combat in the morning) or the battle conditions change significantly (such as the assassination of a commander, the arrival of another army, and so on), the GM should treat each period of combat between armies as one battle. The battle phases are as follows.</p>
+<ol>
+<li><p><strong className="hl">Tactics Phase:</strong> The GM decides what battlefield modifiers apply to the battle. The commanders each select a <Link to="/rule/army_tactics">tactic their respective armies will use during the battle</Link>.</p>
+</li>
+<li><p><strong className="hl">Ranged Phase:</strong> Any army with the ability to make ranged attacks may make one attack against an enemy army. This phase typically lasts for 1 round (one attack) as the two armies use ranged attacks while they advance to melee range, and then use melee attacks thereafter. The battlefield's shape and other conditions can extend this duration. If both armies have ranged attacks, they may choose to stay at range and never approach each other for melee (at least until they run out of ammunition, though the Consumption cost of maintaining an army generally means the army is capable of many shots before this happens). Armies without ranged capability can't attack during this phase, but may still rush forward.</p>
+</li>
+<li><p><strong className="hl">Melee Phase:</strong> The armies finally clash with melee attacks. Each commander selects a strategy using the <Link to="/rule/strategy_track">Strategy Track</Link>, then each army makes an attack against another army. Repeat the Melee phase until one army is defeated or routs, or some other event ends the battle.</p>
+</li>
+</ol>
+</>};
+const _attacking_and_taking_damage = {title: "Attacking and Taking Damage", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], subtopics: ["more_than_two_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 236</Link></p>
+<p>In mass combat, the hundreds of individual attacks that take place in one battle phase overlap each other enough that who actually attacks first is irrelevant.</p>
+<p>When armies attack, each army attempts an Offense check (1d20 + the attacking army's OM) and compares the result to the target army's DV.</p>
+<p>If the Offense check is equal to or less than the target army's DV, the army deals no damage that phase. If the Offense check is greater than defender's DV, the defending army takes damage equal to the result of the attacker's Offense check minus the defender's DV. For example, if the attacker's Offense check is 11 and the defender's DV is 7, the defending army takes 4 points of damage. Because these attacks are resolved simultaneously, it is possible that both armies may damage or even destroy each other in the same phase.</p>
+<p>If the Offense check is a natural 20, but that check is lower than the enemy army's DV, the attacking army still deals 1 point of damage. If the Offense check is a natural 1, that army can't attempt an Offense Check in the next phase, due to some setback: a misheard order, getting stuck in mud, and so on.</p>
+</>};
+const _more_than_two_armies = {title: "More than Two Armies", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","attacking_and_taking_damage"], siblings: ["more_than_two_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 237</Link></p>
+<p>These rules can also serve in battles where more than two armies clash. In such battles, when your army attempts an Offense check, you choose which enemy army (or armies, if you have multiple armies in the field) it is attacking and apply damage appropriately. On each phase, you may change which army you are targeting. If your kingdom fields multiple armies in a battle, you may want to divide responsibility for these armies among the other players to speed up play.</p>
+</>};
+const _battlefield_conditions = {title: "Battlefield Conditions", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 237</Link></p>
+<p>In some mass combats, the specifics of a battlefield won't impact either army, but sometimes the battlefield will itself decide the outcome. The modifiers listed below apply only for the duration of the battle. Naturally, the GM should exercise judgment regarding any conditions that don't seem to apply to one of the armies (such as darkness and an army with darkvision, or fog and an army with scent).</p>
+<p>At the GM's discretion, large-area spells such as <Link to="/spell/move_earth">move earth</Link> might allow armies or commanders to manipulate the battlefield conditions before a conflict. For these spells to have any effect, they must last at least 1 hour and affect at least a 500-foot square. Likewise, magic items such as an <Link to="/magic-wondrous/instant_fortress">instant fortress</Link> (+2 Defense) and spells such as <Link to="/spell/wall_of_stone">wall of stone</Link> (+1 Defense) can create simple fortifications for an army to use in a battle.</p>
+<p><strong className="hl">Advantageous Terrain:</strong> Generally, if one army occupies a position of superiority (such as being atop a hill, wedged in a narrow canyon, or protected by a deep river along one flank), the defending army increases its DV by 2.</p>
+<p><strong className="hl">Ambush:</strong> In order to attempt to ambush an army, the entire ambushing army must have <Link to="/rule/concealment">concealment</Link>. The ambusher attempts an Offense check against the target army's DV. If successful, the battle begins but the target army doesn't get to act during the Tactics phase. Otherwise, the battle proceeds normally.</p>
+<p><strong className="hl">Battlefield Advantage:</strong> If an army is particularly familiar with a battlefield, it's OM and DV increase by 2.</p>
+<p><strong className="hl">Darkness:</strong> Darkness reduces all armies' OM by 2 and DV by 3.</p>
+<p><strong className="hl">Dim Light:</strong> Dim light reduces all armies' OM by 1.</p>
+<p><strong className="hl">Fog:</strong> Fog reduces damage by half and gives the armies a +2 bonus on Morale checks to use the withdraw tactic.</p>
+<p><strong className="hl">Fortifications:</strong> An army located in a fortification adds the fortification's Defense to its DV. A settlement's Defense is determined by the types of buildings it contains, as detailed in the <Link to="/rule/kingdom_building">kingdom-building rules</Link>. If the game isn't using the kingdom-building rules, a typical fortification increases DV by 8.</p>
+<p><strong className="hl">Rain:</strong> Rain affects modifiers to OM in the Ranged phase as if it were severe wind; see <Link to="/rule/winds">Table 13-10: Wind Effects</Link>.</p>
+<p><strong className="hl">Sandstorm:</strong> A sandstorm counts as fog and deals 1 hp of damage to all armies during each Ranged and Melee phase.</p>
+<p><strong className="hl">Snow:</strong> Snow affects ranged attacks like rain, and affects damage like fog.</p>
+<p><strong className="hl">Wind:</strong> The wind modifiers to ranged attacks apply to OM in the Ranged phase; see <Link to="/rule/winds">Table 13-10: Wind Effects</Link>.</p>
+</>};
+const _army_tactics = {title: "Army Tactics", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 237</Link></p>
+<p>Tactics are options an army can use to influence aspects of a battle. A newly recruited army doesn't know any of these tactics unless specified by the GM. An army learns new tactics by being victorious in battle (see <Link to="/rule/victory_rout_or_defeat">Victory, Rout, or Defeat</Link>). An army can know a number of tactics equal to half its ACR, minimum 0.</p>
+<p>When a battle begins, the commander selects one tactic to use for that battle (if the army doesn't know any tactics, the army uses the standard tactic). At the start of each Ranged or Melee phase, the commander may try to change tactics by attempting a DC 15 Morale check. Success means the army uses the new tactic for that phase (and the modifiers from the old tactic cease); failure means the army continues to use its current tactic. The effects of tactics end when the battle does.</p>
+<p>As with battlefield conditions, gaining benefits from a tactic is subject to GM discretion. (For example, you may not get the expert flankers benefit if you cannot actually flank your enemy).</p>
+<p>Tactics marked with an asterisk (*) are default tactics all armies know; these do not count toward the number of tactics an army knows.</p>
+<p><strong className="hl">Cautious Combat:</strong> Your army fights cautiously in order to maintain morale. Decrease its OM by 2, and add 2 to all its Morale checks.</p>
+<p><strong className="hl">Cavalry Experts:</strong> Your army's OM increases by 2 against armies that aren't mounted. The army must have the mount resource to use this tactic.</p>
+<p><strong className="hl">Defensive Wall:</strong> Your army fights defensively, taking actions to protect fellow units as needed. Decrease its OM by 2, and increase its DV by 2.</p>
+<p><strong className="hl">Dirty Fighters:</strong> Your army uses trickery and unfair tactics to gain an advantage at the start of a battle. For one Melee phase this battle, its OM increases by 6. (After that Melee phase, the opposing army knows to be ready for such tricks.)</p>
+<p><strong className="hl">Expert Flankers:</strong> Your army is skilled at surrounding the foe and distracting them, at the cost of spreading out too much and being more vulnerable. Increase its OM by 2, and decrease its DV by 2.</p>
+<p><strong className="hl">False Retreat:</strong> Once per battle, your army can make a false retreat, luring a target enemy army deeper into your territory. On the phase your army makes a false retreat, it doesn't attempt an Offense check. On the phase after it uses this tactic, increase its OM and DV by 6 against the target army.</p>
+<p><strong className="hl">Full Defense:</strong> Your army focuses on total defense of the battlefield. Increase its DV by 4, and decrease its OM by 4.</p>
+<p><strong className="hl">Relentless Brutality:</strong> Your army throws caution to the wind and attacks with savage and gory vigor. Increase its OM by 4, and decrease its DV by 4.</p>
+<p><strong className="hl">Siegebreaker:</strong> Your army targets another army's siege engines in an attempt to destroy them. If your army damages the target army, your army attempts a second Offense check; if successful, destroy one of the target's siege engines. This tactic has no effect on enemy armies without siege engines.</p>
+<p><strong className="hl">Sniper Support:</strong> Your army holds some ranged units in reserve to attack a target enemy army during the Melee phase. If your army damages the target army in the Melee phase, it deals 2 additional points of damage from these ranged attacks. The army must have ranged attacks to use this tactic.</p>
+<p><strong className="hl">Spellbreaker:</strong> Your army has specialists who can disrupt enemy spellcasting. Increase its DV by 4 against armies with the spellcasting ability.</p>
+<p><strong className="hl">Standard*:</strong> Your army's attacks have no additional modifiers to its OM, DV, or damage.</p>
+<p><strong className="hl">Taunt:</strong> Your army is skilled at taunting its opponents, provoking stupid mistakes and overconfidence in battle. The target army must attempt a Morale check (DC = 10 + your army's ACR) at the start of each Melee or Ranged phase; failure means it reduces its OM and DV against your army by 2 for that phase. If the target army succeeds at two of these Morale checks, it's immune to this tactic for the remainder of the battle.</p>
+<p><strong className="hl">Withdraw*:</strong> Your army tries to escape from all armies attacking it. The army attempts an opposed Morale check against each army attacking it to maintain discipline (any army may voluntarily fail this check), but doesn't need to attempt the usual Morale check to change tactics when switching to withdraw. If all of these checks are successful, your army may withdraw from the battlefield or treat the phase as a Ranged phase. If only some are successful, you may withdraw or treat the phase as a Ranged phase, but enemy armies in the battle may attack you as if you were in Melee. Whether or not the checks are successful, reduce your army's OM and DV by 2 for the rest of this phase.</p>
+</>};
+const _strategy_track = {title: "Strategy Track", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 239</Link></p>
+<p>On the first Melee phase, the commander selects a strategy from one of five options on the strategy track. Strategies adjust the army's DV, OM, and damage modifier.</p>
+<p>Once each Melee phase after the first, the commander can alter the army's strategy. Adjusting the strategy 1 step up or down does is automatically successful and doesn't require a check. If the commander wants to adjust strategy more than 1 step, the army attempts a DC 20 Morale check. Success means the strategy changes to the desired level. Otherwise, the army's current strategy doesn't change.</p>
+<ScrollContainer id="rule-strategy_track--table-0"><table>
+<thead>
+<tr>
+<th>Strategy</th>
+<th>DV</th>
+<th>OM</th>
+<th>Damage</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Defensive</td>
+<td>+4</td>
+<td>-4</td>
+<td>-6</td>
+</tr>
+<tr>
+<td>Cautious</td>
+<td>+2</td>
+<td>-2</td>
+<td>-3</td>
+</tr>
+<tr>
+<td>Standard</td>
+<td>+0</td>
+<td>+0</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>Aggressive</td>
+<td>-2</td>
+<td>+2</td>
+<td>+3</td>
+</tr>
+<tr>
+<td>Reckless</td>
+<td>-4</td>
+<td>+4</td>
+<td>+6</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _rout = {title: "Rout", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 239</Link></p>
+<p>A rout is a chaotic and disorderly retreat of a defeated army from a battlefield, usually from fear or when overwhelmed by a superior opponent. If an army's hit points are reduced to equal or less than its ACR, its commander must attempt a DC 15 Morale check. If the check fails, the army scatters and retreats from battle. If it cannot retreat, it surrenders and is captured. When an army routs, all armies in the battle can attempt one final Offense check at the fleeing army as a parting shot before it escapes. (Normally, only enemy armies do so, but an aggressive or evil army might strike at a fleeing allied army out of anger or frustration.)</p>
+</>};
+const _victory_rout_or_defeat = {title: "Victory, Rout, or Defeat", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 239</Link></p>
+<p>An army is victorious if all of its enemy armies flee the battlefield or are defeated. The aftermath of the battle can be different for each army, and depends on whether it was defeated, routed, or victorious.</p>
+<p><strong className="hl">Defeated:</strong> If an army's hit points are reduced to 0, it is defeated. A defeated army may have a few survivors, but they are so demoralized and wounded (and probably captured by the enemy) that the army no longer exists as a cohesive unit and can't be used again in mass combat. If your army is defeated, reduce your kingdom's Economy, Loyalty, and Stability according to the size of the army.</p>
+<ScrollContainer id="rule-victory_rout_or_defeat--table-0"><table>
+<thead>
+<tr>
+<th>Army Size</th>
+<th>Economy</th>
+<th>Loyalty</th>
+<th>Stability</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Fine</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Diminutive</td>
+<td>0</td>
+<td>-1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Tiny</td>
+<td>-1</td>
+<td>-1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Small</td>
+<td>-1</td>
+<td>-1</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>-2</td>
+<td>-2</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Large</td>
+<td>-3</td>
+<td>-2</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Huge</td>
+<td>-4</td>
+<td>-2</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Gargantuan</td>
+<td>-4</td>
+<td>-2</td>
+<td>-3</td>
+</tr>
+<tr>
+<td>Colossal</td>
+<td>-4</td>
+<td>-3</td>
+<td>-3</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p><strong className="hl">Routed:</strong> If the army routs, reduce its Morale by 1. If the army's current hp are lower than the army's ACR, increase its hit points to its ACR. A routed army refuses to fight until you succeed at a Loyalty check during your kingdom's Upkeep phase (you may attempt this check once per turn). Note that a routed army can still be attacked by enemy armies, and can attempt Offense checks in battles - it just can't initiate a battle.</p>
+<p><strong className="hl">Victorious:</strong> If your army is the last one left on the battlefield (not counting other friendly armies), it is victorious. Each time an army wins a battle, you can attempt a Loyalty check against your kingdom's Control DC. If you succeed at this check, your army learns a new tactic and its Morale increases by 1 (maximum of Morale +4). If the army's current hit points are lower than the army's ACR, increase its hit points to its ACR. You may attempt a second Loyalty check; if you succeed, the army's commander learns a new boon.</p>
+</>};
+const _recovery = {title: "Recovery", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 239</Link></p>
+<p>Each day that an army spends at rest (no movement and no battle), it heals a number of hit points equal to its ACR. Once per day, you may attempt a Loyalty Check against your kingdom's Control DC. If you succeed, your army heals a number of additional hit points equal to its ACR. An inactive army heals back to its full hit points after a single month, no matter how many hit points it lost.</p>
+<p>The mass combat rules assume that this healing is a combination of actual wound healing and gaining new units to replace those who were killed (meaning you don't have to track individual losses and resize armies). These units can be recruited from sympathetic locals, replacements from your own settlements, or forced conscripts from conquered lands. If circumstances make these replacement options unavailable or unlikely, the GM is free to limit how much an army can heal, generally to half the army's normal hit points. For other possibilities when dealing with wounded armies, see the optional <Link to="/rule/reforming_an_army">Reforming an Army</Link> rule.</p>
+</>};
+const _commanders = {title: "Commanders", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], subtopics: ["boons","kingdom_leader_commanders","losing_commanders"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 239</Link></p>
+<p>An army's commander helps maximize its effectiveness and can provide special bonuses to an army. The commander can be a PC or NPC. Unless you decide to command an army personally or the GM allows you to recruit an exceptional commander through adventuring and roleplaying, a new army's commander is an unexceptional leader who provides no bonuses to the army.</p>
+<p>The Mass Combat Army Sheet has a space to record information about the commander of each of your armies. In addition, there's also a space to record information for a general - a general is a character (often you) assigned to administrate your armies, but is primarily a figurehead and grants no bonuses herself unless actively leading a particular army. The relevant information is as follows (assume a value of 0 unless otherwise specified).</p>
+<p><strong className="hl">Name:</strong> This lists the commander's name (and class and level, if notable).</p>
+<p><strong className="hl">Charisma Modifier:</strong> This lists the commander's Charisma modifier. It is added to the army's Morale checks.</p>
+<p><strong className="hl">Profession (soldier):</strong> This is the commander's ranks in Profession (soldier). Divide the number of ranks by 5 (minimum 0) and add that number to the army's Morale checks.</p>
+<p><strong className="hl">Leadership:</strong> The commander's character level + Charisma modifier. If the commander is a monster, use HD instead of character level. If the commander has the <Link to="/feat/leadership">Leadership</Link> feat, increase this value by 3. This number is a prerequisite for some boons.</p>
+<p><strong className="hl">Boons:</strong> This lists the <Link to="/rule/boons">boons</Link> the commander knows. A commander's maximum number of boons known is 1, plus 1 for every 5 ranks in Profession (soldier). A new or unexceptional commander might know no boons at first, but can gain them from victories in battle. If you're a <Link to="/rule/kingdom_leader_commanders">kingdom leader</Link> acting as a commander, you automatically have one boon appropriate to your leadership role.</p>
+<p>The commander must be active with the army to grant a bonus on Morale checks or a boon to the army. Being active requires spending at least 3 days per week with the army. An army without a commander (whether because the commander is dead or because she isn't spending enough time with the army) loses 1 Morale per week. You may offset this loss by doubling the army's Consumption that week.</p>
+<p>If you have an army without a commander and you have no commanders available to fill that role, you may promote a unit from the army to be an unexceptional commander. This commander has a +0 Charisma modifier, 0 ranks in Profession (soldier), and a Leadership score based on the level or HD of a typical unit in that army.</p>
+</>};
+const _boons = {title: "Boons", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","commanders"], siblings: ["boons","kingdom_leader_commanders","losing_commanders"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 240</Link></p>
+<p>Boons are special abilities a commander grants to an army. Most of these boons affect the rolls and statistics for battles, and the commander must be present at the battle to provide their benefit. A commander grants the army all the boons she knows (she doesn't have to select just one).</p>
+<p><strong className="hl">Bloodied but Unbroken:</strong> The commander inspires the army to be at its greatest in the most desperate times. When an army's hit points are at half its full normal hit points or fewer, it gains a +1 bonus on Offense checks. A commander must have <Link to="/feat/leadership">Leadership</Link> 4 or higher to select this boon. At Leadership 10 or higher, this bonus increases to +2.</p>
+<p><strong className="hl">Bonus Tactic:</strong> Choose one tactic. The commander always knows this tactic, and the commander's army can use this tactic even if it doesn't know that tactic on its own. You can select this boon multiple times; each time you select it, choose a new tactic.</p>
+<p><strong className="hl">Defensive Tactics:</strong> The commander is especially good at defensive tactics. Increase the army's DV by 2. A commander must have Leadership 5 or higher to select this boon.</p>
+<p><strong className="hl">Flexible Tactics:</strong> The commander trains the army to be receptive to multiple orders during a battle. The army gains a +5 bonus on Morale checks to change tactics during a battle. A commander must have Leadership 6 or higher to select this boon. At Leadership 12 or higher, this bonus increases to +10.</p>
+<p><strong className="hl">Hit and Run:</strong> The commander drills the army in quick attacks followed by a fast retreat. After attacks are resolved in the Ranged phase or the first Melee phase, the army may use the withdraw tactic with a +2 bonus on its opposed Morale checks. A commander must have Leadership 5 or higher to select this boon. At Leadership 10 or higher, this bonus increases to +4.</p>
+<p><strong className="hl">Hold the Line:</strong> The commander is skilled at convincing the army to maintain morale against dangerous opponents. If the army fails a Morale check to avoid a rout, it may reroll that check. It must accept the results of the second check, even if it is worse.</p>
+<p><strong className="hl">Live off the Land:</strong> The commander makes the army trap game, hunt, and fish to augment its food supplies. Reduce the army's Consumption and speed by half for any week this boon is used. The GM may rule that Huge and larger armies deplete the available resources from a hex over 1d3 weeks, requiring the army to move if it wants to maintain the reduced Consumption level.</p>
+<p><strong className="hl">Loyalty:</strong> The commander inspires great loyalty in the army. The army gains a +2 bonus on all Morale checks. A commander must have Leadership 6 or higher to select this boon. At Leadership 12 or higher, this bonus increases to +4.</p>
+<p><strong className="hl">Merciless:</strong> The commander encourages the army to be ruthless in its tactics and spare no wounded enemies. The army gains a +1 bonus on opposed Morale checks to prevent another army from withdrawing and on the last Offense check against a routed army or one using the withdraw tactic.</p>
+<p><strong className="hl">Sharpshooter:</strong> The commander drills the army in precision ranged attacks. The army gains a +2 bonus on Offense checks against armies using fortifications. This boon has no effect if the army can't make ranged attacks.</p>
+<p><strong className="hl">Triage:</strong> Whether using magic, alchemy, herbalism, or folk knowledge, the commander drills the army in using emergency methods to treat wounds. Once per battle, the army may take a -4 penalty on its Offense check during the Ranged or Melee phase and heal damage equal to half its ACR. If the army has the healing potions resource, it also gains the healing from this boon (without the Offense check penalty) when it uses healing potions.</p>
+</>};
+const _kingdom_leader_commanders = {title: "Kingdom Leader Commanders", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","commanders"], siblings: ["boons","kingdom_leader_commanders","losing_commanders"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 240</Link></p>
+<p>If you have a kingdom leadership role (Ruler, High Priest, Grand Diplomat, and so on), you may take the role of an army commander. To determine your bonus on Morale checks and the maximum number of boons you can know, use either one-fifth your ranks in Profession (soldier) or one-sixth your character level, whichever is higher (minimum 1). As with other commanders, you must remain active with the army to grant your commander bonus on Morale checks, and must be at the battle to provide tactics and bonuses.</p>
+<p>Your leadership role determines what boons you automatically know (even if you don't meet the <Link to="/feat/leadership">Leadership</Link> requirements for those boons). If a role lists multiple boons, you must choose one when you become a commander. (Others may be gained in the normal manner).</p>
+<p><strong className="hl">Ruler:</strong> Bloodied but Unbroken, Loyalty</p>
+<p><strong className="hl">Consort:</strong> Loyalty</p>
+<p><strong className="hl">Councilor:</strong> Loyalty</p>
+<p><strong className="hl">General:</strong> Bonus Tactic, Flexible Tactics, Merciless, Sharpshooter</p>
+<p><strong className="hl">Grand Diplomat:</strong> Defensive Tactics, Merciless</p>
+<p><strong className="hl">Heir:</strong> Loyalty</p>
+<p><strong className="hl">High Priest:</strong> Hold the Line, Live off the Land, Triage</p>
+<p><strong className="hl">Magister:</strong> Flexible Tactics, Loyalty</p>
+<p><strong className="hl">Marshal:</strong> Live off the Land, Hit and Run, Sharpshooter, Triage</p>
+<p><strong className="hl">Royal Enforcer:</strong> Bonus Tactic, Merciless, Sharpshooter</p>
+<p><strong className="hl">Spymaster:</strong> Hit and Run, Merciless, Sharpshooter</p>
+<p><strong className="hl">Treasurer:</strong> Loyalty</p>
+<p><strong className="hl">Viceroy:</strong> Loyalty</p>
+<p><strong className="hl">Warden:</strong> Defensive Tactics, Hold the Line, Loyalty</p>
+</>};
+const _losing_commanders = {title: "Losing Commanders", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","commanders"], siblings: ["boons","kingdom_leader_commanders","losing_commanders"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 241</Link></p>
+<p>If an army is destroyed and the commander is an NPC, the commander is killed (01-20), captured (21-70), or escapes (71-00). An army of mindless creatures kills all captured NPC commanders. You may ransom a captured commander by paying BP equal to the commander's army's Consumption (if captured by another kingdom, this goes to that kingdom's Treasury). A commander with a history of losing battles, being captured, and being ransomed gains an unlucky reputation among your troops and reduces the Morale of any army under her by 1.</p>
+<p>If you are the commander and your army is destroyed, the GM should present you with an opportunity to escape with serious injuries (at 25% hp or lower), otherwise you are captured and held for ransom. The other PCs may pay BP, gold, or other treasures to ransom you, or the GM may allow the other PCs to have an adventure where they attempt to rescue you instead of simply buying your freedom.</p>
+</>};
+const _army_resources = {title: "Army Resources", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], subtopics: ["transfering_resources"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 241</Link></p>
+<p>Resources are physical assets the army can use to improve its abilities. You must spend the BP for a resource before you can apply it to the army. Some armies can't use certain resources - an army of wolves can't use healing potions or improved weapons, mindless creatures can't use siege engines, and so on.</p>
+<p>The cost of a resource doesn't end when you purchase it. Units must be trained to use new equipment, elite units demand higher pay, expensive items are more costly to maintain and repair, and so on. Each resource added to an army increases the army's weekly Consumption by the listed amount.</p>
+<p>The costs listed are for a Medium army. Resources for a smaller or larger army cost proportionately less or more than this amount, as per Table 4-16: Resource Scaling.</p>
+<h3 id="rule-army_resources-table-4-16-resource-scaling">Table 4-16: Resource Scaling</h3>
+<ScrollContainer id="rule-army_resources--table-0"><table>
+<thead>
+<tr>
+<th>Army Size</th>
+<th>Multiplier</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Fine</td>
+<td>&times;1/8</td>
+</tr>
+<tr>
+<td>Diminutive</td>
+<td>&times;1/6</td>
+</tr>
+<tr>
+<td>Tiny</td>
+<td>&times;1/4</td>
+</tr>
+<tr>
+<td>Small</td>
+<td>&times;1/2</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>&times;1</td>
+</tr>
+<tr>
+<td>Large</td>
+<td>&times;2</td>
+</tr>
+<tr>
+<td>Huge</td>
+<td>&times;4</td>
+</tr>
+<tr>
+<td>Gargantuan</td>
+<td>&times;10</td>
+</tr>
+<tr>
+<td>Colossal</td>
+<td>&times;20</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p>The multiplier affects the resource's initial cost and the increase to Consumption. The multiplier can't reduce the cost of a resource below 1 BP</p>
+<p><strong className="hl">Healing Potions (10 BP):</strong> Each unit is equipped with several healing potions. At any point during a battle (but no more than twice per battle), the commander can order her units to drink their potions. The army doesn't attempt an Offense check that phase, but heals a number of hit points equal to twice its ACR. Each time an army uses its healing potions, increase its Consumption that week by 3. To purchase this resource, a settlement in your kingdom must have an Alchemist, Caster's Tower, Cathedral, Herbalist, Magic Shop, Magical Academy, or Temple.</p>
+<p><strong className="hl">Improved Armor (3 BP):</strong> The army is armed with masterwork armor, increasing DV and Consumption by 1. For 15 BP, you can outfit the army with magic armor, increasing DV and Consumption by 2 instead. To purchase this, a settlement in your kingdom must have a Foreign Quarter, Military Academy, or Smithy.</p>
+<p><strong className="hl">Improved Weapons (5 BP):</strong> The army is armed with masterwork weapons, increasing OM and Consumption by 1. For 50 BP, you can outfit the army with magic weapons, increasing OM and Consumption by 2 instead. To purchase this resource, a settlement in your kingdom must have a Foreign Quarter, Military Academy, or Smithy.</p>
+<p><strong className="hl">Mounts (BP = Mount's ACR):</strong> The army is mounted on horses or other combat-trained animals. Increase its OM and DV by 2, and increase its Consumption by 1. If your army uses mounts that are more powerful than the units themselves, your army's ACR and derived scores might increase (see <Link to="/rule/army_statistics">ACR</Link>). To purchase this resource, a settlement in your kingdom must have a Foreign Quarter, Stable, or Stockyard.</p>
+<p><strong className="hl">Ranged Weapons (2 BP):</strong> The army is equipped with ranged weapons (such as crossbows, slings, or bows), gaining ranged attack capability. Increase its Consumption by 1.</p>
+<p><strong className="hl">Siege Engines (15 BP per engine):</strong> Your army includes catapults, rams, trebuchets, ballistae, and other siege engines designed to break down fortifications. Increase OM by 2 (regardless of the total number of siege engines in the army) and Consumption by 3 per siege engine. Each Melee phase, reduce the enemy's bonus to DV from fortifications by 1d4 per siege engine in your army. Unlike other resources, the cost of a siege engine doesn't scale with the army's size. To purchase this resource, a settlement in your kingdom must have an Academy, Foreign Quarter, Military Academy, or University.</p>
+</>};
+const _transfering_resources = {title: "Transfering Resources", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","army_resources"], siblings: ["transfering_resources"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 242</Link></p>
+<p>You may take a purchased resource from one army and give it to an army of equal or smaller size so long as the creatures in the recipient armies can use the resource (for example, improved weapons for a hill giant army are of little use to an army of human zombies). Doing so doesn't cost BP, but reduces the Morale of the donating army by 1.</p>
+<p>At the GM's discretion, you may divide a resource among several smaller armies, so long as the total number of units in the smaller armies doesn't exceed the number of units in the donating army.</p>
+<p>If you disband an army with a resource, you can give that resource to another suitable army, store it for later (such as an army you recruit next year), or sell it for half its BP value.</p>
+</>};
+const _special_abilities_ucp = {title: "Special Abilities", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 242</Link></p>
+<p>Part of the fun of playing out a war in a fantasy game is the fact that you aren't limited to real-world troops. Though most recruited units are warriors or fighters, you may be able to recruit an army of paladins, clerics, or other characters with abilities useful in mass combat.</p>
+<p>You might even be able to recruit monsters, whether humanoids such as goblins, trolls, and orcs, or exotic creatures such as centaurs and worgs. These creatures could have monster special abilities useful in mass combat. A typical kingdom doesn't have access to monster armies unless it has formed alliances with such creatures, either through formal Diplomatic edicts or befriending them during adventures.</p>
+<p>Modifiers for these abilities apply only if most of the units in an army have the listed ability. For a class ability, a parenthetical note after the ability name indicates the class and the level the units of the army must be to confer that ability. This listing doesn't include class abilities acquired after 5th level, as it's unlikely you'll be able to recruit enough units of that class level to form an army. If a class ability listed here presents two alternative options, you must choose one of these options when the army is formed, and it can't ever be changed.</p>
+<p>You can use the following special abilities as inspiration to generate additional army abilities of your own. Unless otherwise stated, the effects of these special abilities (other than hp damage) end when a battle ends. Note that you count as your own ally for abilities that effect allied armies.</p>
+<ScrollContainer id="rule-special_abilities_ucp--table-0"><table>
+<thead>
+<tr>
+<th>Special Ability</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ability Damage/Drain</td>
+<td>This ability functions as bleed.</td>
+</tr>
+<tr>
+<td>Alchemy (Alchemist 1)</td>
+<td>Once per battle, the army can heal itself as if it had the healing potions resource. This doesn't cost BP.</td>
+</tr>
+<tr>
+<td>Amphibious</td>
+<td>The army can move in or across bodies of water and ignore Defense from water barriers.</td>
+</tr>
+<tr>
+<td>Animal Companion (Druid 1, Ranger 4)</td>
+<td>The army's animal companions increase the army's OM by 1.</td>
+</tr>
+<tr>
+<td>Aquatic</td>
+<td>The army increases its OM and DV by 1 against armies in the water or on ships. The army decreases its OM by 2 against armies on land (unless the army also has the amphibious special ability, in which case it doesn't have this OM penalty).</td>
+</tr>
+<tr>
+<td>Aura of Courage (Paladin 3)</td>
+<td>The army is immune to fear effects and automatically succeeds at Morale checks to avoid a rout.</td>
+</tr>
+<tr>
+<td>Armor Training (Fighter 3)</td>
+<td>This class feature adjusts the base speed of units in medium armor; adjust the army's speed accordingly.</td>
+</tr>
+<tr>
+<td>Bleed</td>
+<td>When this army deals damage in melee, the target army takes an automatic 1d6 points of damage at the start of the next phase.</td>
+</tr>
+<tr>
+<td>Blindsense</td>
+<td>The army reduces its OM and DV penalties by half from darkness, invisibility, and weather.</td>
+</tr>
+<tr>
+<td>Blindsight</td>
+<td>The army takes no penalties to its OM and DV from darkness, invisibility, or weather.</td>
+</tr>
+<tr>
+<td>Bomb (Alchemist 1)</td>
+<td>This ability functions as the breath weapon ability.</td>
+</tr>
+<tr>
+<td>Bravery (Fighter 2)</td>
+<td>Apply the unit's bravery bonus on Morale checks against fear and routs.</td>
+</tr>
+<tr>
+<td>Breath Weapon</td>
+<td>The army can make ranged attacks. In the Ranged and Melee phases, it deals +1d4 points of damage.</td>
+</tr>
+<tr>
+<td>Brew Potion (Alchemist 1)</td>
+<td>The army can create healing potions for itself or another army without needing any of the building requirements described in the healing potion resource. You must pay the BP cost for these potions as normal.</td>
+</tr>
+<tr>
+<td>Burn</td>
+<td>This ability functions as bleed.</td>
+</tr>
+<tr>
+<td>Burrow</td>
+<td>The army can dig under one fortification (or City Walls) by spending a Ranged or Melee phase moving. In later phases, it ignores that fortification's Defense. During the phase the army uses burrow, it can attack or be attacked only by armies using burrow or earth glide.</td>
+</tr>
+<tr>
+<td>Cannibalize</td>
+<td>Reduce Consumption by 1 (minimum 0) for any week in which the army wins a battle and is allowed to feed on fallen corpses.</td>
+</tr>
+<tr>
+<td>Challenge (Cavalier 1)</td>
+<td>Once per battle, the army may increase its OM by 2 against a target army, but it also reduces its DV by 1 against attacks from any army that is not the target army. These effects last for the rest of the battle.</td>
+</tr>
+<tr>
+<td>Channel Negative Energy (Cleric 1)</td>
+<td>In the Melee phase, the army deals +1d4 points of damage against a living target army. If the army with this ability is undead, instead of dealing extra damage to an enemy army, it can use this ability to heal itself; if it takes an OM penalty equal to half its ACR for one Ranged or Melee phase, it heals a number of hit points equal to its ACR.</td>
+</tr>
+<tr>
+<td>Channel Positive Energy (Cleric 1, Paladin 4)</td>
+<td>In the Melee phase, the army deals +1d4 points of damage against an undead target army. Instead of dealing extra damage to an enemy army, the army can use this ability to heal itself; if it takes an OM penalty equal to half its ACR for one Ranged or Melee phase, it heals a number of hit points equal to its ACR.</td>
+</tr>
+<tr>
+<td>Climb</td>
+<td>The army treats the Defense of fortifications as 25% lower than normal. This benefit doesn't apply if the fortification can't reasonably be climbed (such as a moat or wall of force).</td>
+</tr>
+<tr>
+<td>Combat Style (Ranger 2)</td>
+<td>Once per battle, increase the army's OM for either ranged attacks or melee attacks by 1 for the rest of the battle.</td>
+</tr>
+<tr>
+<td>Construct</td>
+<td>The army is immune to disease, fear, paralysis, and poison.</td>
+</tr>
+<tr>
+<td>Create Sandstorm</td>
+<td>Once per battle, the army can affect the field of battle with the <Link to="/rule/battlefield_conditions">sandstorm battlefield condition</Link>. The sandstorm lasts for the rest of the battle.</td>
+</tr>
+<tr>
+<td>Create Spawn</td>
+<td>If the army destroys a living army of equal or greater size, it may immediately recover a number of hit points equal to twice its ACR or create a new army of its type but two sizes smaller than itself.</td>
+</tr>
+<tr>
+<td>Damage Reduction</td>
+<td>See the entry for significant defense.</td>
+</tr>
+<tr>
+<td>Darkvision</td>
+<td>The army takes no OM or DV penalties in dim light or darkness.</td>
+</tr>
+<tr>
+<td>Discovery (Alchemist 2)</td>
+<td>This ability functions as bleed.</td>
+</tr>
+<tr>
+<td>Disease</td>
+<td>If the army damages an enemy, the enemy becomes diseased and takes a cumulative -1 penalty to its OM and DV each day after the battle. Curing the disease requires a successful Stability check modified by this penalty, and allows the army to reduce this penalty by 1 each day thereafter until the penalty is gone.</td>
+</tr>
+<tr>
+<td>Divine Health (Paladin 3)</td>
+<td>The army is immune to disease.</td>
+</tr>
+<tr>
+<td>Earth Glide</td>
+<td>The army ignores fortifications made of earth or stone and can burrow under other fortifications as if using the burrow special ability.</td>
+</tr>
+<tr>
+<td>Eidolon (Summoner 1)</td>
+<td>This ability functions as the animal companion ability.</td>
+</tr>
+<tr>
+<td>Energy Drain</td>
+<td>If the army damages an enemy, it reduces the enemy's OM and DV by 1 for 24 hours.</td>
+</tr>
+<tr>
+<td>Evasion (Monk 2, Rogue 2)</td>
+<td>An army that attacks this army halves its OM bonus from the spellcasting ability and halves the extra damage from the breath weapon ability.</td>
+</tr>
+<tr>
+<td>Fast Healing</td>
+<td>Each Ranged or Melee phase, this army regains a number of hit points equal to half its fast healing value. Outside of battle, each hour the army regains a number of hit points equal to its fast healing value.</td>
+</tr>
+<tr>
+<td>Favored Enemy (Ranger 1)</td>
+<td>The army increases its OM by 1 against an army of a type of creature chosen from the ranger favored enemy list.</td>
+</tr>
+<tr>
+<td>Favored Terrain (Ranger 3)</td>
+<td>Reduce an enemy's bonuses from advantageous terrain and battlefield advantage by half.</td>
+</tr>
+<tr>
+<td>Fear</td>
+<td>If the army damages an enemy army, that army must attempt a Morale check (DC = 10 + your army's ACR). Failure means the enemy army is afraid and can't attempt an Offense check to attack during the next phase. If an army fails a Morale check during a phase in which it is already afraid, it routs.</td>
+</tr>
+<tr>
+<td>Ferocity</td>
+<td>The army continues to fight even if demoralized or nearly dead. If the army is defeated or routed, it may continue to act for one more Melee phase, and its OM and DV are reduced by 4 for that phase.</td>
+</tr>
+<tr>
+<td>Flight</td>
+<td>If the army doesn't attack in the Melee phase, it can't be attacked with melee attacks except by an army with flight. The army ignores Defense bonuses from City Walls, but not other fortifications.</td>
+</tr>
+<tr>
+<td>Flurry of Blows (Monk 1)</td>
+<td>In the first Melee phase, increase the army's OM by 1. In the second and subsequent Melee phases, increase it by 2 instead.</td>
+</tr>
+<tr>
+<td>Grab</td>
+<td>The army's units latch onto their opponents, making it difficult to escape. The target army takes a -2 penalty on Morale checks to resist a rout or use the withdraw tactic.</td>
+</tr>
+<tr>
+<td>Hex (Witch 1)</td>
+<td>When you create an army with this ability, choose either healing or cauldron.</td>
+</tr>
+<tr>
+<td>Healing</td>
+<td>Once per battle, the army can heal a number of hit points equal to half its ACR.</td>
+</tr>
+<tr>
+<td>Cauldron</td>
+<td>The army can create healing potions for itself or another army without needing any of the building requirements described in the healing potion resource. You must pay the BP cost for these potions as normal.</td>
+</tr>
+<tr>
+<td>Hunter's Bond (Ranger 4)</td>
+<td>When you create an army with this ability, choose either companions or animal.</td>
+</tr>
+<tr>
+<td>Companions</td>
+<td>Once per battle, the army may increase its OM or an allied army's OM by 1 for the rest of the battle.</td>
+</tr>
+<tr>
+<td>Animal</td>
+<td>This ability functions as animal companion.</td>
+</tr>
+<tr>
+<td>Immunity</td>
+<td>If an army is immune to a particular special ability (such as poison), an enemy army with that ability doesn't gain those benefits against this army. For an army with many immunities, also see significant defense.</td>
+</tr>
+<tr>
+<td>Incorporeal</td>
+<td>The army takes no damage from nonmagical attacks, and only half damage from magical attacks. It ignores enemy DV bonuses from armor resources. It automatically succeeds at checks to withdraw. It has a mobility advantage in all kinds of terrain.</td>
+</tr>
+<tr>
+<td>Inspire Courage (Bard 1)</td>
+<td>The army increases its OM by 1 and gains a +2 bonus on Morale checks against fear and routs. Alternatively, the army may apply these bonuses to an allied army in the same battle.</td>
+</tr>
+<tr>
+<td>Invisibility</td>
+<td>Any army attacking this army takes a -2 penalty to its OM for that attack. Any army attacked by this army takes a -2 penalty to its DV against its attacks. Armies that can't see invisible creatures can't prevent this army from withdrawing.</td>
+</tr>
+<tr>
+<td>Judgment (Inquisitor 1)</td>
+<td>Once each Ranged or Melee phase, the army may choose to increase its damage by 1, increase its DV by 1, heal a number of hit points equal to half its ACR, or treat its attacks as magic weapons. This ability is suspended for any phase in which the army is unable to attack because of fear, and ends immediately if the army routs.</td>
+</tr>
+<tr>
+<td>Ki Pool (Monk 4)</td>
+<td>The army's attacks count as magic weapons.</td>
+</tr>
+<tr>
+<td>Lay on Hands (Paladin 2)</td>
+<td>This ability functions as channel positive energy.</td>
+</tr>
+<tr>
+<td>Light Blindness</td>
+<td>The army decreases its OM and RV by 2 in bright light.</td>
+</tr>
+<tr>
+<td>Light Sensitivity</td>
+<td>The army decreases its OM and RV by 1 in bright light.</td>
+</tr>
+<tr>
+<td>Low-Light Vision</td>
+<td>The army takes no penalties for dim light.</td>
+</tr>
+<tr>
+<td>Mercy (Paladin 3)</td>
+<td>At the end of a battle, the army can cure a disease on one allied army.</td>
+</tr>
+<tr>
+<td>Mindless</td>
+<td>The army never fails Morale checks, but must always use standard tactics and strategy.</td>
+</tr>
+<tr>
+<td>Mobility</td>
+<td>If the units have a form of mobility that gives them an advantage in the battlefield's terrain (such as boggards in a swamp), increase the army's OM by 1 for that battle against armies without such mobility.</td>
+</tr>
+<tr>
+<td>Mount (Cavalier 1)</td>
+<td>The army's mounts increase the army's OM and DV by 1.</td>
+</tr>
+<tr>
+<td>Order (Cavalier 1)</td>
+<td>When using the challenge ability, increase the army's DV by 1 against the challenged army.</td>
+</tr>
+<tr>
+<td>Paralysis</td>
+<td>Each time the army damages an enemy army, reduce the enemy army's DV by 1.</td>
+</tr>
+<tr>
+<td>Petrification</td>
+<td>This ability functions as paralysis.</td>
+</tr>
+<tr>
+<td>Plant</td>
+<td>The army is immune to fear, paralysis, and poison.</td>
+</tr>
+<tr>
+<td>Poison Resistance (Alchemist 2)</td>
+<td>If the army takes poison damage, reduce the damage by half of the unit's poison resistance bonus.</td>
+</tr>
+<tr>
+<td>Poison</td>
+<td>This ability functions as bleed.</td>
+</tr>
+<tr>
+<td>Pounce</td>
+<td>The army increases its OM by 1.</td>
+</tr>
+<tr>
+<td>Powerful Charge</td>
+<td>The army increases its OM by 1.</td>
+</tr>
+<tr>
+<td>Rage (Barbarian 1)</td>
+<td>Once per battle, the commander may order the army to rage. Increase the army's OM by 2, decrease its DV by 1, and add a +1 bonus on its Morale checks against fear and routing. While this is in effect, the army can't use the tactics cautious combat, defensive wall, expert flankers, hold the line, sniper support, or withdraw; nor can it use the defensive or cautious strategies. If using such a tactic or strategy, you immediately switch to the standard tactic or strategy.</td>
+</tr>
+<tr>
+<td>Rake</td>
+<td>The army increases the damage it deals by 1.</td>
+</tr>
+<tr>
+<td>Regeneration</td>
+<td>The army regains a number of hit points equal to half its regeneration value each Ranged or Melee phase. When an army with regeneration is reduced to 0 hp, it is defeated only if at least one enemy army survives at the end of that phase to finish off the regenerating creatures. Outside of battle, the army regains a number of hit points equal to half its regeneration value each hour.</td>
+</tr>
+<tr>
+<td>Rend</td>
+<td>The army increases the damage it deals by 1.</td>
+</tr>
+<tr>
+<td>Resistance</td>
+<td>See the entry for significant defense.</td>
+</tr>
+<tr>
+<td>Rock Catching</td>
+<td>The army increases its DV by 1 against ranged attacks. This increases by an additional 1 if the army is attacked with siege weapons or thrown rocks.</td>
+</tr>
+<tr>
+<td>Rock Throwing</td>
+<td>The army can make ranged attacks. In the Ranged phase, it deals +4 points of damage.</td>
+</tr>
+<tr>
+<td>Rogue Talent (Rogue 2)</td>
+<td>The army gains the bleed ability.</td>
+</tr>
+<tr>
+<td>Scent</td>
+<td>The army reduces its OM and DV penalties from darkness, invisibility, and weather by half.</td>
+</tr>
+<tr>
+<td>Shield Ally (Summoner 4)</td>
+<td>Increase the army's DV by 1.</td>
+</tr>
+<tr>
+<td>Significant Defense</td>
+<td>The army has a significant defense such as powerful damage reduction or numerous immunities and/or resistances. Increase its DV by 10, but only against armies that can't overcome those defenses. In some cases, the GM might rule that an army is simply undefeatable by an enemy army because of its defenses (though the GM should never pit the PCs against such an army unless the PCs initiate a foolish battle).</td>
+</tr>
+<tr>
+<td>Smite Evil (Paladin 1)</td>
+<td>In one Melee phase per battle, the army may increase its OM by 2 against an evil army. If the target army is undead or evil outsiders, the OM increases by 4 instead.</td>
+</tr>
+<tr>
+<td>Sneak Attack (Rogue 1)</td>
+<td>The army increases its OM by 1 when making an ambush, when using the expert flankers tactic, or on the phase after using the false retreat tactic.</td>
+</tr>
+<tr>
+<td>Spell Resistance</td>
+<td>The army increases its DV by 6 against armies with the spellcasting ability.</td>
+</tr>
+<tr>
+<td>Spellcasting</td>
+<td>If an army's units can use magic (from either spell-like abilities or actual spellcasting), increase its OM and DV by the spell level of the highest-level spell the individual unit can cast. If any of the army's offensive spells has a range greater than touch, the army can make ranged attacks.</td>
+</tr>
+<tr>
+<td>Stunning Fist (Monk 1)</td>
+<td>This ability functions as paralysis.</td>
+</tr>
+<tr>
+<td>Swarm</td>
+<td>The army takes half damage from nonmagical attacks, but 1-1/2 times as much damage from magical attacks. It ignores DV bonuses from armor resources. It can't harm an army with the incorporeal or significant defense ability. It automatically succeeds at checks to withdraw.</td>
+</tr>
+<tr>
+<td>Tactician (Cavalier 1)</td>
+<td>The army automatically learns one tactic (usually the cavalry experts tactic); this doesn't count toward an army's maximum number of known tactics.</td>
+</tr>
+<tr>
+<td>Teleportation</td>
+<td>The army ignores the Defense of fortifications. It automatically succeeds at checks to withdraw. Ethereal travel and similar effects also grant this ability. An army with teleportation can travel to any hex on the same day (its speed is irrelevant and not hampered by difficult terrain).</td>
+</tr>
+<tr>
+<td>Track (Inquisitor 2, Ranger 1)</td>
+<td>The army adds its ACR to Morale checks to prevent an army from using the withdraw tactic and to its DV to prevent ambushes. It reduces the damage it deals in fog by one quarter instead of one half.</td>
+</tr>
+<tr>
+<td>Trample</td>
+<td>The army increases its OM by 1.</td>
+</tr>
+<tr>
+<td>Trap Sense (Rogue 3)</td>
+<td>When using the siegebreaker tactic, the army adds half its ACR to the Offense check to determine if a siege engine is destroyed.</td>
+</tr>
+<tr>
+<td>Tremorsense</td>
+<td>The army reduces its OM and DV penalties from darkness, invisibility, and weather by half.</td>
+</tr>
+<tr>
+<td>Trip</td>
+<td>Each Melee phase, the target enemy army reduces its DV by 1 until the end of the phase.</td>
+</tr>
+<tr>
+<td>Undead</td>
+<td>The army is immune to disease, fear, paralysis, and poison. Its DV increases by 2.</td>
+</tr>
+<tr>
+<td>Unnatural Aura</td>
+<td>This ability functions as fear, but applies only to animals (including animal mounts).</td>
+</tr>
+<tr>
+<td>Vortex</td>
+<td>This ability functions as paralysis, but only against targets on or in the water.</td>
+</tr>
+<tr>
+<td>Weapon Specialization (Fighter 4)</td>
+<td>Once per battle, increase the army's OM for either ranged or melee attacks by 2.</td>
+</tr>
+<tr>
+<td>Whirlwind</td>
+<td>This ability functions as paralysis.</td>
+</tr>
+<tr>
+<td>Wild Shape (Druid 4)</td>
+<td>Once per battle, the army may gain the aquatic, amphibious, climb, darkvision, flight, low-light vision, or scent special abilities, but loses the spellcasting ability while this is in effect. The army can end this ability in any later phase.</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _player_characters_in_battles = {title: "Player Characters in Battles", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 245</Link></p>
+<p>In addition to the option of your PCs being commanders in your armies, the GM may have you fight smaller groups of enemies before or even during a battle in which your armies clash with the enemy. For example, your PCs might attack an evil necromancer and fight your way through his tower to confront him directly and defeat him while your army battles the undead horde outside the tower. Alternatively, your PCs could use potent spells (such as <Link to="/spell/cloudkill">cloudkill</Link>, <Link to="/spell/control_water">control water</Link>, or <Link to="/spell/earthquake">earthquake</Link>) to alter battlefield conditions in your favor. These possibilities let you use your characters to directly affect the outcome of a battle without forcing you to sit out on an adventure opportunity by personally commanding an army.</p>
+<p>If your PCs win the small-scale combat or dramatically affect the battlefield with magic, the GM could opt to increase your army's DV and OM by +4 for that battle, or penalize your armies by -4 if you lose. At the GM's discretion, your PCs' failure or victory might have other effects on your armies as well, such as temporarily granting an additional tactic, altering the hit points of one or more armies, or granting or negating a special ability.</p>
+</>};
+const _optional_mass_combat_rules = {title: "Optional Mass Combat Rules", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], subtopics: ["combining_armies","reforming_an_army","reserve_army","splitting_an_army"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 246</Link></p>
+<p>The following sections describe ways armies can be altered or assigned that come up less frequently than the other rules in the mass combat system. They're optional, and the GM can bring them into the game only if necessary.</p>
+</>};
+const _combining_armies = {title: "Combining Armies", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","optional_mass_combat_rules"], siblings: ["combining_armies","reforming_an_army","reserve_army","splitting_an_army"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 246</Link></p>
+<p>If you have two armies of the same type and of equal size, at any time outside of combat you can combine them into a single army that is one size larger than the original armies.</p>
+<p>Choose one of the two commanders to command this combined army. The other commander may be assigned to a different army; otherwise, her boons are lost.</p>
+<p>Calculate the new army's statistics based on its new size. If both smaller armies had a boon, resource, or tactic, the new army has it as well; otherwise the boon, resource, or tactic is lost. The new army's Morale is equal to the average of the Morale of the two smaller armies. If one army has an affliction (such as a disease), the new army now has it.</p>
+<p>Determine what percentage of its full normal hit points each smaller army had. The new army's hit points is the average of these percentages. For example, if one army is at 50% and the other is at 100%, the new army is at 75% of the full hit points for its size.</p>
+</>};
+const _reforming_an_army = {title: "Reforming an Army", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","optional_mass_combat_rules"], siblings: ["combining_armies","reforming_an_army","reserve_army","splitting_an_army"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 246</Link></p>
+<p>Reformation converts a wounded army into a smaller, healthy army. The army hit point rules are abstract and represent wounded units, incapacitated units, and dead units. For an army with a very low hit point total, the number of active units in the army can even be equal to or fewer than those of an army of a smaller size. For example, a Large army normally has 200 units, but if that army is very wounded, it could have only 100 or fewer units able to fight - the same number as a Medium army. Because an army's Consumption is based on its ACR (which is based on its size), you might be able to reduce your Consumption costs if you reform an army into a smaller size.</p>
+<p>At any time outside of combat, you can reform a wounded army (at half hit points or fewer) into an army one size smaller with full hit points. This act represents you choosing only the healthiest units to continue fighting. The wounded survivors disperse, typically heading home to recuperate.</p>
+<p>Calculate the smaller army's statistics based on its new size. The smaller army retains all of the larger army's statistics and effects (including tactics, boons, resources, commander, and so on) except those based on its size (such as ACR and statistics based on ACR). The army reduces its Morale by 1 (as reforming is a blunt indication of misfortune).</p>
+<p>There is no limit to how many times you can reform an army. Even a Colossal army can be whittled away and reformed several times until the CR of its individual units is too small to actually count as an army.</p>
+</>};
+const _reserve_army = {title: "Reserve Army", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","optional_mass_combat_rules"], siblings: ["combining_armies","reforming_an_army","reserve_army","splitting_an_army"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 246</Link></p>
+<p>The costs in this section assume an active, deployed army. You may instead convert an army into a reserve army, placing it in a settlement. This reduces the Consumption cost for the army to once per month (or kingdom turn) instead of once per week. A commander has to spend only 3 days per month with a reserve army to remain active with it. The Morale penalty for an absent commander happens every month instead of every week.</p>
+<p>The size of an army you can put in reserve depends on the buildings you have available in the settlement. A Watchtower can hold a Small or smaller reserve army, a Barracks can hold Medium or smaller, a Castle can hold Large or smaller, and a Garrison Huge or smaller. A Gargantuan or Colossal army can't be put in reserve: it must remain deployed (though it can be indefinitely deployed in one of your own hexes). A Temple counts as a Watchtower for the purpose of holding special religious troops (clerics, druids, inquisitors, or paladins), and a Cathedral counts as a Barracks in those cases. You may split an army (see <Link to="/rule/splitting_an_army">Splitting an Army</Link>) to allow you to divide its units among several buildings.</p>
+<p>If you move the army outside the settlement, it immediately counts as an active army and the costs must be paid per week as normal.</p>
+</>};
+const _splitting_an_army = {title: "Splitting an Army", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","optional_mass_combat_rules"], siblings: ["combining_armies","reforming_an_army","reserve_army","splitting_an_army"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 246</Link></p>
+<p>You can divide an army into smaller armies. At any time outside of combat, you may split an army into two armies that are each one size category smaller. One of these armies retains the larger army's commander; you must assign a commander to the other army.</p>
+<p>Calculate each smaller army's statistics based on its new size. The smaller armies retain all of the larger army's statistics and effects (including tactics, boons, resources, commander, and so on) except those based on size (such as ACR and statistics based on ACR). Each smaller army reduces its Morale by 1.</p>
+<p>Determine what percentage of its full normal hit points the larger army had. Each smaller army has this proportion of hit points for its new size. For example, if the large army was at 70% (28 hp out of 40), each smaller army is at 70% of the full hit points for its size.</p>
+<p>There is no limit to how many times you can split an army. Even a Colossal army can split several times until the CR of its individual units is too small to actually count as an army.</p>
+</>};
+const _sample_armies = {title: "Sample Armies", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat"], siblings: ["mass_combat_overview","mass_combat_quick_reference_guide","beyond_the_kingdom","running_mass_combat","recruiting_armies","army_statistics","battle_phases","attacking_and_taking_damage","battlefield_conditions","army_tactics","strategy_track","rout","victory_rout_or_defeat","recovery","commanders","army_resources","special_abilities_ucp","player_characters_in_battles","optional_mass_combat_rules","sample_armies"], subtopics: ["army_examples_human","army_examples_common_humanoid","army_examples_uncommon_humanoid","army_examples_undead","army_examples_monstrous"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 247</Link></p>
+<p>This section details sample armies of various humanoid and monster types. The GM can allow players to recruit some of these armies, or might reserve most of them as unusual foes for mass battles. None of these armies has a starting Morale listed, because starting Morale starts at 0, modified by the commander.</p>
+<p>Most of these armies are Medium, showing a player or GM what tactics, resources, and special abilities a typical army of that type has, yet still keeping it easy to scale the army to a larger or smaller size. If an army has a resource, the listed Consumption is for an army of the listed size; if you change the size of the army, remember to subtract the Consumption cost for its original size, scale that cost to the new size (see <Link to="/rule/army_resources">Table 4-16: Resource Scaling</Link>), then add the scaled cost to the army's base Consumption cost. If the army lists an additional cost for recruiting the army, this recruitment cost scales in the same way.</p>
+<p>The special abilities listed for monster armies are approximations to model the unit monster's special abilities. For example, an individual troglodyte's stench nauseates opponents, but there is no army special ability that does that, so the troglodyte army has paralysis instead, which has a comparable effect. Likewise, the astral deva army has the alchemy ability, which is a reasonable approximation of an individual astral deva's ability to use <Link to="/spell/heal">heal</Link> once per day; the one-unit army doesn't actually carry alchemist extracts.</p>
+<p>If a special ability provides a constant bonus (such as the bonus from charge or pounce), that bonus is automatically included in the army's stat block. If the bonus is conditional (like the DV bonus from rock catching or the ranged damage bonus from rock throwing), you need to account for that bonus when the conditions are right.</p>
+<p>Some armies have custom bonuses built into their DV or OM. This represents the unit's special defenses (such as damage reduction) and high damage output against single targets, which should affect an opposing army in a greater way than the standard monster-to-army conversion rules would indicate. Determining army stat block values for small numbers of powerful monsters is more of an art than a science.</p>
+</>};
+const _army_examples_human = {title: "Human Armies", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","sample_armies"], siblings: ["army_examples_human","army_examples_common_humanoid","army_examples_uncommon_humanoid","army_examples_undead","army_examples_monstrous"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 247</Link></p>
+<h3 id="rule-army_examples_human-army-colossal-xp-6400">Army (Colossal) (XP 6,400)</h3>
+<p>N Colossal army of humans (fighter 2)<br/><strong>hp</strong> 49; <strong>ACR</strong> 9<br/><strong>DV</strong> 19; <strong>OM</strong> +9<br/><strong>Special</strong> bravery +1<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 4</p>
+<h3 id="rule-army_examples_human-army-gargantuan-xp-3200">Army (Gargantuan) (XP 3,200)</h3>
+<p>N Gargantuan army of humans (fighter 2)<br/><strong>hp</strong> 38; <strong>ACR</strong> 7<br/><strong>DV</strong> 17; <strong>OM</strong> +7<br/><strong>Special</strong> bravery +1<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 3</p>
+<h3 id="rule-army_examples_human-army-huge-xp-1600">Army (Huge) (XP 1,600)</h3>
+<p>N Huge army of humans (fighter 2)<br/><strong>hp</strong> 27; <strong>ACR</strong> 5<br/><strong>DV</strong> 15; <strong>OM</strong> +5<br/><strong>Special</strong> bravery +1<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 2</p>
+<h3 id="rule-army_examples_human-army-large-xp-800">Army (Large) (XP 800)</h3>
+<p>N Large army of humans (fighter 2)<br/><strong>hp</strong> 16; <strong>ACR</strong> 3<br/><strong>DV</strong> 13; <strong>OM</strong> +3<br/><strong>Special</strong> bravery +1<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_human-army-medium-xp-400">Army (Medium) (XP 400)</h3>
+<p>N Medium army of humans (fighter 2)<br/><strong>hp</strong> 5; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +1<br/><strong>Special</strong> bravery +1<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_human-elite-army-commandos-xp-800">Elite Army Commandos (XP 800)</h3>
+<p>N Medium army of humans (fighter 4)<br/><strong>hp</strong> 16; <strong>ACR</strong> 3<br/><strong>DV</strong> 13; <strong>OM</strong> +3, ranged<br/><strong>Tactics</strong> expert flankers, siegebreaker<br/><strong>Resources</strong> healing potions, improved armor, improved weapons, ranged weapons<br/><strong>Special</strong> armor training, bravery +1, weapon specialization<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1 (recruitment cost 20 BP)</p>
+<h3 id="rule-army_examples_human-elite-mounted-knights-xp-600">Elite Mounted Knights (XP 600)</h3>
+<p>N Medium army of humans (fighter 3)<br/><strong>hp</strong> 11; <strong>ACR</strong> 2<br/><strong>DV</strong> 15; <strong>OM</strong> +5<br/><strong>Resources</strong> improved armor, improved weapons, mounts<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 4 (recruitment cost 9 BP)</p>
+<h3 id="rule-army_examples_human-militia-colossal-xp-3200">Militia (Colossal) (XP 3,200)</h3>
+<p>N Colossal army of humans (warrior 1)<br/><strong>hp</strong> 38; <strong>ACR</strong> 7<br/><strong>DV</strong> 17; <strong>OM</strong> +7<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 3</p>
+<h3 id="rule-army_examples_human-militia-gargantuan-xp-1600">Militia (Gargantuan) (XP 1,600)</h3>
+<p>N Gargantuan army of humans (warrior 1)<br/><strong>hp</strong> 27; <strong>ACR</strong> 5<br/><strong>DV</strong> 15; <strong>OM</strong> +5<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 2</p>
+<h3 id="rule-army_examples_human-militia-huge-xp-800">Militia (Huge) (XP 800)</h3>
+<p>N Huge army of humans (warrior 1)<br/><strong>hp</strong> 16; <strong>ACR</strong> 3<br/><strong>DV</strong> 13; <strong>OM</strong> +3<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_human-militia-large-xp-400">Militia (Large) (XP 400)</h3>
+<p>N Large army of humans (warrior 1)<br/><strong>hp</strong> 5; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +1<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+</>};
+const _army_examples_common_humanoid = {title: "Common Humanoid Armies", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","sample_armies"], siblings: ["army_examples_human","army_examples_common_humanoid","army_examples_uncommon_humanoid","army_examples_undead","army_examples_monstrous"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 247</Link></p>
+<h3 id="rule-army_examples_common_humanoid-dwarven-defenders-xp-400">Dwarven Defenders (XP 400)</h3>
+<p>LN Medium army of dwarves (fighter 2)<br/><strong>hp</strong> 5; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +1<br/><strong>Tactics</strong> defensive wall<br/><strong>Special</strong> bravery +1, darkvision<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_common_humanoid-elven-wardens-xp-400">Elven Wardens (XP 400)</h3>
+<p>N Medium army of elves (ranger 2)<br/><strong>hp</strong> 5; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +1<br/><strong>Tactics</strong> sniper support<br/><strong>Special</strong> combat style, favored enemy (orc), track<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_common_humanoid-gnome-stalkers-xp-400">Gnome Stalkers (XP 400)</h3>
+<p>N Medium army of gnomes (fighter 2)<br/><strong>hp</strong> 5; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +2<br/><strong>Tactics</strong> taunt<br/><strong>Special</strong> bravery +1<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 1<br/><strong>Note</strong> +1 OM due to spell-like abilities</p>
+<h3 id="rule-army_examples_common_humanoid-goblin-army-xp-200">Goblin Army (XP 200)</h3>
+<p>CE Medium army of goblins (warrior 2)<br/><strong>hp</strong> 2; <strong>ACR</strong> 1/2<br/><strong>DV</strong> 10; <strong>OM</strong> +0, ranged<br/><strong>Special</strong> darkvision<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_common_humanoid-goblin-horde-xp-800">Goblin Horde (XP 800)</h3>
+<p>CE Huge army of goblins (warrior 1)<br/><strong>hp</strong> 16; <strong>ACR</strong> 3<br/><strong>DV</strong> 13; <strong>OM</strong> +3, ranged<br/><strong>Special</strong> darkvision<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_common_humanoid-half-orc-berserkers-xp-400">Half-Orc Berserkers (XP 400)</h3>
+<p>CN Medium army of half-orcs (barbarian 2)<br/><strong>hp</strong> 6; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +1<br/><strong>Tactics</strong> relentless brutality<br/><strong>Special</strong> rage<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_common_humanoid-halfling-scouts-xp-400">Halfling Scouts (XP 400)</h3>
+<p>LN Medium army of halflings (rogue 2)<br/><strong>hp</strong> 4; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +1<br/><strong>Tactics</strong> withdraw<br/><strong>Special</strong> evasion, rogue talent (bleed), sneak attack<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_common_humanoid-hobgoblin-army-xp-400">Hobgoblin Army (XP 400)</h3>
+<p>LE Medium army of hobgoblins (fighter 2)<br/><strong>hp</strong> 5; <strong>ACR</strong> 1<br/><strong>DV</strong> 12; <strong>OM</strong> +2, ranged<br/><strong>Tactics</strong> siegebreaker<br/><strong>Resources</strong> improved armor, improved weapons, ranged weapons<br/><strong>Special</strong> armor training, bravery +1, darkvision<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 2 (recruitment cost 8 BP)</p>
+<h3 id="rule-army_examples_common_humanoid-orc-army-xp-600">Orc Army (XP 600)</h3>
+<p>CE Medium army of orcs (fighter 3)<br/><strong>hp</strong> 11; <strong>ACR</strong> 2<br/><strong>DV</strong> 13; <strong>OM</strong> +2, ranged<br/><strong>Resources</strong> improved armor<br/><strong>Special</strong> armor training, bravery +1, cannibalize, ferocity, light sensitivity<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 2 (recruitment cost 3 BP)</p>
+<h3 id="rule-army_examples_common_humanoid-orc-horde-xp-400">Orc Horde (XP 400)</h3>
+<p>CE Medium army of orcs (warrior 3)<br/><strong>hp</strong> 5; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +1, ranged<br/><strong>Special</strong> cannibalize, ferocity, light sensitivity<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+</>};
+const _army_examples_uncommon_humanoid = {title: "Uncommon Humanoid Armies", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","sample_armies"], siblings: ["army_examples_human","army_examples_common_humanoid","army_examples_uncommon_humanoid","army_examples_undead","army_examples_monstrous"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 247</Link></p>
+<h3 id="rule-army_examples_uncommon_humanoid-boggard-army-xp-600">Boggard Army (XP 600)</h3>
+<p>CE Medium army of boggards<br/><strong>hp</strong> 9; <strong>ACR</strong> 2<br/><strong>DV</strong> 12; <strong>OM</strong> +2<br/><strong>Special</strong> darkvision, low-light vision, mobility advantage (swamps)<br/><strong>Speed</strong> 1 (speed unaffected by swamps); <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_uncommon_humanoid-duergar-army-xp-400">Duergar Army (XP 400)</h3>
+<p>LE Medium army of duergar (warrior 3)<br/><strong>hp</strong> 5; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +2, ranged<br/><strong>Special</strong> darkvision, immune to paralysis and poison, light sensitivity<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 1<br/><strong>Note</strong> +1 OM due to spell-like abilities</p>
+<h3 id="rule-army_examples_uncommon_humanoid-drow-army-xp-400">Drow Army (XP 400)</h3>
+<p>CE Medium army of drow (warrior 3)<br/><strong>hp</strong> 3; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +3, ranged<br/><strong>Tactics</strong> dirty fighters, false retreat, sniper support, spellbreaker<br/><strong>Special</strong> darkvision, light sensitivity, poison, spell resistance<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1<br/><strong>Note</strong> +2 OM due to spell-like abilities</p>
+<h3 id="rule-army_examples_uncommon_humanoid-gnoll-army-xp-400">Gnoll Army (XP 400)</h3>
+<p>CE Medium army of gnolls<br/><strong>hp</strong> 4; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +1<br/><strong>Special</strong> darkvision<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_uncommon_humanoid-kobold-army-xp-600">Kobold Army (XP 600)</h3>
+<p>LE Huge army of kobolds (warrior 1)<br/><strong>hp</strong> 11; <strong>ACR</strong> 2<br/><strong>DV</strong> 12; <strong>OM</strong> +2<br/><strong>Tactics</strong> dirty fighters<br/><strong>Special</strong> darkvision, light sensitivity<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_uncommon_humanoid-lizardfolk-army-xp-400">Lizardfolk Army (XP 400)</h3>
+<p>N Medium army of lizardfolk<br/><strong>hp</strong> 4; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +1, ranged<br/><strong>Special</strong> amphibious, aquatic, cannibalize<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_uncommon_humanoid-svirfneblin-army-xp-400">Svirfneblin Army (XP 400)</h3>
+<p>N Medium army of svirfneblin (ranger 1)<br/><strong>hp</strong> 5; <strong>ACR</strong> 1<br/><strong>DV</strong> 13; <strong>OM</strong> +2, ranged<br/><strong>Special</strong> darkvision, favored enemy (dwarf), low-light vision, spellcasting, spell resistance, track<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_uncommon_humanoid-tengu-army-xp-600">Tengu Army (XP 600)</h3>
+<p>N Medium army of tengus (rogue 3)<br/><strong>hp</strong> 9; <strong>ACR</strong> 2<br/><strong>DV</strong> 12; <strong>OM</strong> +2, ranged<br/><strong>Tactics</strong> expert flankers<br/><strong>Special</strong> evasion, low-light vision, rogue talent (bleed), sneak attack<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_uncommon_humanoid-troglodyte-army-xp-400">Troglodyte Army (XP 400)</h3>
+<p>CE Medium army of troglodytes<br/><strong>hp</strong> 4; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +1, ranged<br/><strong>Special</strong> darkvision, paralysis<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+</>};
+const _army_examples_undead = {title: "Undead Armies", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","sample_armies"], siblings: ["army_examples_human","army_examples_common_humanoid","army_examples_uncommon_humanoid","army_examples_undead","army_examples_monstrous"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 247</Link></p>
+<h3 id="rule-army_examples_undead-ghoul-army-xp-400">Ghoul Army (XP 400)</h3>
+<p>CE Medium army of ghouls<br/><strong>hp</strong> 4; <strong>ACR</strong> 1<br/><strong>DV</strong> 11; <strong>OM</strong> +1<br/><strong>Special</strong> cannibalize, darkvision, disease, paralysis, undead<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_undead-skeleton-horde-colossal-xp-3200">Skeleton Horde (Colossal) (XP 3,200)</h3>
+<p>NE Colossal army of human skeletons<br/><strong>hp</strong> 31; <strong>ACR</strong> 7<br/><strong>DV</strong> 19; <strong>OM</strong> +7<br/><strong>Special</strong> darkvision, mindless, undead<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 3</p>
+<h3 id="rule-army_examples_undead-skeleton-horde-gargantuan-xp-1600">Skeleton Horde (Gargantuan) (XP 1,600)</h3>
+<p>NE Gargantuan army of human skeletons<br/><strong>hp</strong> 22; <strong>ACR</strong> 5<br/><strong>DV</strong> 17; <strong>OM</strong> +5<br/><strong>Special</strong> darkvision, mindless, undead<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 2</p>
+<h3 id="rule-army_examples_undead-skeleton-horde-huge-xp-800">Skeleton Horde (Huge) (XP 800)</h3>
+<p>NE Huge army of human skeletons<br/><strong>hp</strong> 13; <strong>ACR</strong> 3<br/><strong>DV</strong> 15; <strong>OM</strong> +3<br/><strong>Special</strong> darkvision, mindless, undead<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_undead-skeleton-horde-large-xp-400">Skeleton Horde (Large) (XP 400)</h3>
+<p>NE Large army of human skeletons<br/><strong>hp</strong> 4; <strong>ACR</strong> 1<br/><strong>DV</strong> 13; <strong>OM</strong> +1<br/><strong>Special</strong> darkvision, mindless, undead<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_undead-skeleton-horde-medium-xp-135">Skeleton Horde (Medium) (XP 135)</h3>
+<p>NE Medium army of human skeletons<br/><strong>hp</strong> 1; <strong>ACR</strong> 1/3<br/><strong>DV</strong> 12; <strong>OM</strong> +0<br/><strong>Special</strong> darkvision, mindless, undead<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_undead-zombie-horde-colossal-xp-4800">Zombie Horde (Colossal) (XP 4,800)</h3>
+<p>NE Colossal army of human zombies<br/><strong>hp</strong> 36; <strong>ACR</strong> 8<br/><strong>DV</strong> 20; <strong>OM</strong> +8<br/><strong>Special</strong> darkvision, mindless, undead<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 4</p>
+<h3 id="rule-army_examples_undead-zombie-horde-gargantuan-xp-2400">Zombie Horde (Gargantuan) (XP 2,400)</h3>
+<p>NE Gargantuan army of human zombies<br/><strong>hp</strong> 27; <strong>ACR</strong> 6<br/><strong>DV</strong> 18; <strong>OM</strong> +6<br/><strong>Special</strong> darkvision, mindless, undead<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 3</p>
+<h3 id="rule-army_examples_undead-zombie-horde-huge-xp-1200">Zombie Horde (Huge) (XP 1,200)</h3>
+<p>NE Huge army of human zombies<br/><strong>hp</strong> 18; <strong>ACR</strong> 4<br/><strong>DV</strong> 16; <strong>OM</strong> +4<br/><strong>Special</strong> darkvision, mindless, undead<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 2</p>
+<h3 id="rule-army_examples_undead-zombie-horde-large-xp-600">Zombie Horde (Large) (XP 600)</h3>
+<p>NE Large army of human zombies<br/><strong>hp</strong> 9; <strong>ACR</strong> 2<br/><strong>DV</strong> 14; <strong>OM</strong> +2<br/><strong>Special</strong> darkvision, mindless, undead<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_undead-zombie-horde-medium-xp-200">Zombie Horde (Medium) (XP 200)</h3>
+<p>NE Medium army of human zombies<br/><strong>hp</strong> 2; <strong>ACR</strong> 1/2<br/><strong>DV</strong> 12; <strong>OM</strong> +0<br/><strong>Special</strong> darkvision, mindless, undead<br/><strong>Speed</strong> 1; <strong>Consumption</strong> 1</p>
+</>};
+const _army_examples_monstrous = {title: "Monstrous Armies", parent_topics: ["gm_specific_campaigns","kingdoms_and_war","mass_combat","sample_armies"], siblings: ["army_examples_human","army_examples_common_humanoid","army_examples_uncommon_humanoid","army_examples_undead","army_examples_monstrous"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 247</Link></p>
+<h3 id="rule-army_examples_monstrous-centaur-army-xp-800">Centaur Army (XP 800)</h3>
+<p>N Medium army of centaurs<br/><strong>hp</strong> 16; <strong>ACR</strong> 3<br/><strong>DV</strong> 13; <strong>OM</strong> +3, ranged<br/><strong>Tactics</strong> cavalry experts<br/><strong>Special</strong> always treated as if they have the mounts resource, darkvision<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_monstrous-tarrasque-xp-102400">Tarrasque (XP 102,400)</h3>
+<p>N Fine army of one tarrasque<br/><strong>hp</strong> 93; <strong>ACR</strong> 17<br/><strong>DV</strong> 27; <strong>OM</strong> +21, ranged<br/><strong>Tactics</strong> defensive wall, relentless brutality, siegebreaker, spellbreaker, withdraw<br/><strong>Special</strong> cannibalize; fear; grab; immune to ability damage, bleed, disease, energy drain, fear, paralysis, petrification, and poison; low-light vision; regeneration 40; scent; significant defense; spell resistance<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 8<br/><strong>Note</strong> +4 OM due to feats and monster special abilities</p>
+<h3 id="rule-army_examples_monstrous-worg-army-xp-600">Worg Army (XP 600)</h3>
+<p>NE Medium army of worgs<br/><strong>hp</strong> 11; <strong>ACR</strong> 2<br/><strong>DV</strong> 12; <strong>OM</strong> +2<br/><strong>Special</strong> darkvision, low-light vision, scent, trip<br/><strong>Speed</strong> 3; <strong>Consumption</strong> 1</p>
+<h3 id="rule-army_examples_monstrous-yeti-pack-xp-1200">Yeti Pack (XP 1,200)</h3>
+<p>N Medium army of yetis<br/><strong>hp</strong> 22; <strong>ACR</strong> 4<br/><strong>DV</strong> 14; <strong>OM</strong> +4<br/><strong>Special</strong> burn, climb, darkvision, fear, scent<br/><strong>Speed</strong> 2; <strong>Consumption</strong> 2</p>
+</>};
+export default {events:_events,events_beneficial_kingdom:_events_beneficial_kingdom,events_dangerous_kingdom:_events_dangerous_kingdom,events_beneficial_settlement:_events_beneficial_settlement,events_dangerous_settlement:_events_dangerous_settlement,gaining_experience_for_leadership:_gaining_experience_for_leadership,optional_kingdom_rules:_optional_kingdom_rules,abandoned_buildings:_abandoned_buildings,deities_and_holy_sites:_deities_and_holy_sites,expanding_settlement_modifiers:_expanding_settlement_modifiers,fame_and_infamy:_fame_and_infamy,forms_of_government:_forms_of_government,independence_and_unification:_independence_and_unification,declaring_independence:_declaring_independence,forming_a_union:_forming_a_union,leadership_role_skills:_leadership_role_skills,settlement_sizes:_settlement_sizes,special_edicts:_special_edicts,diplomatic_edicts:_diplomatic_edicts,type_of_diplomatic_relationships:_type_of_diplomatic_relationships,relationships_with_multiple_kingdoms:_relationships_with_multiple_kingdoms,exploration_edicts:_exploration_edicts,trade_edicts:_trade_edicts,vassalage_edicts:_vassalage_edicts,mass_combat:_mass_combat,mass_combat_overview:_mass_combat_overview,mass_combat_quick_reference_guide:_mass_combat_quick_reference_guide,beyond_the_kingdom:_beyond_the_kingdom,running_mass_combat:_running_mass_combat,recruiting_armies:_recruiting_armies,army_statistics:_army_statistics,battle_phases:_battle_phases,attacking_and_taking_damage:_attacking_and_taking_damage,more_than_two_armies:_more_than_two_armies,battlefield_conditions:_battlefield_conditions,army_tactics:_army_tactics,strategy_track:_strategy_track,rout:_rout,victory_rout_or_defeat:_victory_rout_or_defeat,recovery:_recovery,commanders:_commanders,boons:_boons,kingdom_leader_commanders:_kingdom_leader_commanders,losing_commanders:_losing_commanders,army_resources:_army_resources,transfering_resources:_transfering_resources,special_abilities_ucp:_special_abilities_ucp,player_characters_in_battles:_player_characters_in_battles,optional_mass_combat_rules:_optional_mass_combat_rules,combining_armies:_combining_armies,reforming_an_army:_reforming_an_army,reserve_army:_reserve_army,splitting_an_army:_splitting_an_army,sample_armies:_sample_armies,army_examples_human:_army_examples_human,army_examples_common_humanoid:_army_examples_common_humanoid,army_examples_uncommon_humanoid:_army_examples_uncommon_humanoid,army_examples_undead:_army_examples_undead,army_examples_monstrous:_army_examples_monstrous}

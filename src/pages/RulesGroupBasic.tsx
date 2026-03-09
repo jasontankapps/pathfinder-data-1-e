@@ -1,4 +1,4 @@
-import data from '../json/_data_rule.json';
+import data from '../json/_GEN_rule.json';
 import { GenStrict, JsonRulesProps } from '../types';
 import BasicRulesPage from './BasicRulesPage';
 import './Page.css';

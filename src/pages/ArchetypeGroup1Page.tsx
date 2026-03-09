@@ -1,6 +1,6 @@
 import getItem from '../components/getItem';
-import monk from './subpages/__arc-monk';
-import samurai from './subpages/__arc-samurai';
+import monk from './subpages/_GEN_arc-monk';
+import samurai from './subpages/_GEN_arc-samurai';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

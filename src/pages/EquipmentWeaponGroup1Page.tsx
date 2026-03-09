@@ -1,5 +1,5 @@
 import getItem from '../components/getItem';
-import equipment_weapons from './subpages/__eq-weapon1';
+import equipment_weapons from './subpages/_GEN_eq-weapon1';
 import { Hierarchy } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';

@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import madnesses from './subpages/__madness';
+import madnesses from './subpages/_GEN_madness';
 import BasicPage from './BasicPage';
 import './Page.css';
 

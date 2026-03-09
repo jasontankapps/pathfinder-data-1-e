@@ -1,4 +1,4 @@
-import spells from './subpages/__spell1';
+import spells from './subpages/_GEN_spell1';
 import SpellGroupBasic from './SpellGroupBasic';
 
 const SpellGroup1Page: React.FC<{id: string}> = ({id}) =>

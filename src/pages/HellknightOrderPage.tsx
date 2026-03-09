@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import orders from './subpages/__hkorder';
+import orders from './subpages/_GEN_hkorder';
 import BasicPage from './BasicPage';
 import './Page.css';
 

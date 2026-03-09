@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import magic from './subpages/__magic-ioun';
+import magic from './subpages/_GEN_magic-ioun';
 import BasicPage from './BasicPage';
 import './Page.css';
 

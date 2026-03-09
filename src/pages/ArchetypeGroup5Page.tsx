@@ -1,7 +1,7 @@
 import getItem from '../components/getItem';
-import companion from './subpages/__arc-companion';
-import ranger from './subpages/__arc-ranger';
-import bloodrager from './subpages/__arc-bloodrager';
+import companion from './subpages/_GEN_arc-companion';
+import ranger from './subpages/_GEN_arc-ranger';
+import bloodrager from './subpages/_GEN_arc-bloodrager';
 import { Hierarchy } from '../types';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';

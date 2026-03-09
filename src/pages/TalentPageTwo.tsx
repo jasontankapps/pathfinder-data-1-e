@@ -1,11 +1,11 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
-import invtalent from './subpages/__invtalent';
-import soctalent from './subpages/__soctalent';
-import vigtalent from './subpages/__vigtalent';
-import ninjatrick from './subpages/__ninjatrick';
-import kipower from './subpages/__kipower';
-import stylestrike from './subpages/__stylestrike';
+import invtalent from './subpages/_GEN_invtalent';
+import soctalent from './subpages/_GEN_soctalent';
+import vigtalent from './subpages/_GEN_vigtalent';
+import ninjatrick from './subpages/_GEN_ninjatrick';
+import kipower from './subpages/_GEN_kipower';
+import stylestrike from './subpages/_GEN_stylestrike';
 import BasicTalentPage from './BasicTalentPage';
 import { Gen, GenStrict } from '../types';
 import './Page.css';

@@ -1,4 +1,4 @@
-import abilities from './subpages/__ability4';
+import abilities from './subpages/_GEN_ability4';
 import ClassAbilityGroupBasic from './ClassAbilityGroupBasic';
 
 const ClassAbilityGroup4Page: React.FC<{id: string}> = ({id}) => <ClassAbilityGroupBasic id={id} info={abilities} />;

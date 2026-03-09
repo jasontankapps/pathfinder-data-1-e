@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import equipment from './subpages/__eq-siegeengine';
+import equipment from './subpages/_GEN_eq-siegeengine';
 import BasicPage from './BasicPage';
 import './Page.css';
 

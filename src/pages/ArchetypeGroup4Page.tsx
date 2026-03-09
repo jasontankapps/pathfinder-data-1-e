@@ -1,8 +1,8 @@
 import getItem from '../components/getItem';
-import cleric from './subpages/__arc-cleric';
-import magus from './subpages/__arc-magus';
-import occultist from './subpages/__arc-occultist';
-import oracle from './subpages/__arc-oracle';
+import cleric from './subpages/_GEN_arc-cleric';
+import magus from './subpages/_GEN_arc-magus';
+import occultist from './subpages/_GEN_arc-occultist';
+import oracle from './subpages/_GEN_arc-oracle';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

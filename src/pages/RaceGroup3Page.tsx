@@ -1,4 +1,4 @@
-import races from './subpages/__race3';
+import races from './subpages/_GEN_race3';
 import RaceGroupBasic from './RaceGroupBasic';
 
 const RaceGroup3Page: React.FC<{id: string}> = ({id}) =>

@@ -1,4 +1,4 @@
-import traits from './subpages/__trait1';
+import traits from './subpages/_GEN_trait1';
 import TraitGroupBasic from './TraitGroupBasic';
 
 const TraitGroup1Page: React.FC<{id: string}> = ({id}) =>

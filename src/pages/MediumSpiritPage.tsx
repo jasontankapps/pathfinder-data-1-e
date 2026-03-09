@@ -1,6 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
-import spirits from './subpages/__spirit';
+import spirits from './subpages/_GEN_spirit';
 import BasicPage from './BasicPage';
 import { Hierarchy } from '../types';
 import './Page.css';

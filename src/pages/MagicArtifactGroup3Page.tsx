@@ -1,4 +1,4 @@
-import magic_artifacts from './subpages/__magic-artifact3';
+import magic_artifacts from './subpages/_GEN_magic-artifact3';
 import MagicArtifactGroupBasic from './MagicArtifactGroupBasic';
 
 const MagicArtifactGroup3Page: React.FC<{id: string}> = ({id}) =>

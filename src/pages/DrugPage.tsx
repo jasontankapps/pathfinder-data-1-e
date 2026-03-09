@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import drugs from './subpages/__drug';
+import drugs from './subpages/_GEN_drug';
 import BasicPage from './BasicPage';
 import './Page.css';
 

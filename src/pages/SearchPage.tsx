@@ -46,9 +46,9 @@ import SearchHelpModal from '../components/SearchHelpModal';
 import Link from '../components/Link';
 import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
 import { setSearchQuery, setSearchFilter, SearchIndex } from '../store/searchSlice';
-import fuseIndex from '../json/_data__fuseIndex';
-import prefixes from '../json/_data__prefixes';
-//import fuseTranslatedIndex from '../json/_data__fuse-translated_data.json';
+import fuseIndex from '../json/_GEN_fuseIndex';
+import prefixes from '../json/_GEN_prefixes';
+//import fuseTranslatedIndex from '../json/_GEN_fuse-translated_data.json';
 import { Gen, Item, ParallelItem } from '../types';
 import './Page.css';
 import './SearchPage.css';
@@ -297,7 +297,7 @@ const SearchPage: FC = () => {
 	const [fuseTranslatedIndex, setFuseTranslatedIndex] = useState<DataObject>(BlankDataObject);
 
 	useEffect(() => {
-		axios.get("/_data__fuse-translated_data.json").then(res => {
+		axios.get("/_GEN_fuse-translated_data.json").then(res => {
 			const index = res.data || BlankDataObject;
 			setFuseTranslatedIndex(index);
 		});

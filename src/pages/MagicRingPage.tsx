@@ -1,6 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
-import magic from './subpages/__magic-ring';
+import magic from './subpages/_GEN_magic-ring';
 import BasicPage from './BasicPage';
 import { Hierarchy } from '../types';
 import './Page.css';

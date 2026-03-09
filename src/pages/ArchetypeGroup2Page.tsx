@@ -1,6 +1,6 @@
 import getItem from '../components/getItem';
-import summoner from './subpages/__arc-summoner';
-import swashbuckler from './subpages/__arc-swashbuckler';
+import summoner from './subpages/_GEN_arc-summoner';
+import swashbuckler from './subpages/_GEN_arc-swashbuckler';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

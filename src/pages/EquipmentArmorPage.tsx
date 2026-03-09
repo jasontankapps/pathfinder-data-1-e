@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import equipment from './subpages/__eq-armor';
+import equipment from './subpages/_GEN_eq-armor';
 import BasicPage from './BasicPage';
 import './Page.css';
 

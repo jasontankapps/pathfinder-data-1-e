@@ -1,0 +1,114 @@
+import Link from '../../components/Link';
+import ScrollContainer from '../../components/ScrollContainer';
+const _not_found = {title: "Unknown", jsx: <><h2 id="tech-pharma-not_found-error">Error</h2>
+<p>Unable to find the requested pharmaceutical.</p>
+</>};
+const _azonite_pellets = {title: "Azonite Pellets", jsx: <><h2 id="tech-pharma-azonite_pellets-azonite-pellets">Azonite Pellets</h2>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_89_palace_of_fallen_stars">Pathfinder #89: Palace of Fallen Stars pg. 62</Link><br/><strong>Price</strong> 100 gp</p>
+<h3 id="tech-pharma-azonite_pellets-construction">Construction</h3>
+<p><strong>Craft DC</strong> 22; <strong>Cost</strong> 50 gp<br/><Link to="/feat/craft_pharmaceutical">Craft Pharmaceutical</Link>, <Link to="/rule/crafting_laboratories">medical lab</Link></p>
+<p>The crew of the Divinity did their best to avoid exposure to <Link to="/rule/radiation">radiation</Link>, but during a multi-year exploration of uncharted space, accidents will happen. Azonite pellets were the typical answer to radiation exposure - a less expensive alternative to <Link to="/tech-pharma/cureall">cureall</Link>. An azonite pellet grants a +5 bonus on all saving throws against radiation for 1 hour. Taking multiple pellets resets the duration, but doesn't increase the bonus. Taking 5 pellets at once instantly cures all <Link to="/rule/strength_damage">Strength damage</Link> caused by <Link to="/rule/radiation">radiation poisoning</Link>, but doesn't cure Strength damage caused by any other effect. Azonite pellets can't cure Constitution drain caused by radiation.</p>
+</>};
+const _baseline = {title: "Baseline", jsx: <><h2 id="tech-pharma-baseline-baseline">Baseline</h2>
+<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 33</Link><br/><strong>Price</strong> 2,250 gp</p>
+<h3 id="tech-pharma-baseline-construction">Construction</h3>
+<p><strong>Craft DC</strong> 26; <strong>Cost</strong> 1,125 gp<br/><Link to="/feat/craft_pharmaceutical">Craft Pharmaceutical</Link>, <Link to="/rule/crafting_laboratories">medical lab</Link></p>
+<p>An injection of baseline floods the brain with neuroinhibitors that purge the mind of excess emotion. Baseline has an onset time of 10 minutes. When it takes effect, baseline renders the recipient immune to insanity, mind-affecting effects, and morale bonuses for 1 hour, as well as suppressing (but not removing) any such active, ongoing effects. It can be resisted with a successful DC 14 Fortitude saving throw. Once a creature has been affected by baseline, it cannot be affected by additional doses for 24 hours.</p>
+</>};
+const _cardioamp = {title: "Cardioamp", jsx: <><h2 id="tech-pharma-cardioamp-cardioamp">Cardioamp</h2>
+<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 33</Link><br/><strong>Price</strong> 4,550 gp</p>
+<h3 id="tech-pharma-cardioamp-construction">Construction</h3>
+<p><strong>Craft DC</strong> 30; <strong>Cost</strong> 2,275 gp<br/><Link to="/feat/craft_pharmaceutical">Craft Pharmaceutical</Link>, <Link to="/rule/crafting_laboratories">medical lab</Link></p>
+<p>This potent drug can revive a recently deceased victim. If administered to a corpse within 1 minute of death, the victim can immediately attempt a Fortitude saving throw (DC = 15 + 1 per round since death occurred) to be restored to life, automatically stabilizing at -1 hit point. Multiple doses injected within this 1-minute period can grant the deceased additional attempts at revival; each additional dose grants a cumulative +2 bonus to the Fortitude saving throw. As with most other effects that revive the dead, a creature restored to life in this manner gains 1 negative level. Cardioamp only works on bodies that are relatively intact. Bodies that have been dismembered, horribly burned, or otherwise mutilated (at the GM's discretion) cannot be revived by cardioamp, but bodies slain by death effects can be.</p>
+<p>Cardioamp can be deadly if injected into a living creature. A living creature injected with cardioamp must succeed at a DC 16 Fortitude saving throw to resist taking 3d6 points of <Link to="/rule/constitution_damage">Constitution damage</Link> from a sudden heart attack. If the save is successful, the Constitution damage is negated but the victim becomes <Link to="/misc/sickened">sickened</Link> for 1d6 rounds. The effect when injected in a living creature is a poison effect.</p>
+</>};
+const _cureall = {title: "Cureall", jsx: <><h2 id="tech-pharma-cureall-cureall">Cureall</h2>
+<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 33</Link><br/><strong>Price</strong> 1,400 gp</p>
+<h3 id="tech-pharma-cureall-construction">Construction</h3>
+<p><strong>Craft DC</strong> 25; <strong>Cost</strong> 700 gp<br/><Link to="/feat/craft_pharmaceutical">Craft Pharmaceutical</Link>, <Link to="/rule/crafting_laboratories">medical lab</Link></p>
+<p>A dose of cureall allows the target to attempt an additional saving throw against a single disease or poison effect currently afflicting him. This additional saving throw counts for the total number of successful saves needed to recover from the disease or poison. If the target is suffering from multiple afflictions, a single dose of cureall works against only the effect with the highest save DC currently afflicting him.</p>
+<p>Cureall also restores 1d4 points of ability damage or 1 point of ability drain that has been inflicted by a disease or poison, even if the user doesn't succeed at the save. A dose cures any ability drain before curing ability damage. If the target is suffering from drain or damage to multiple ability scores, the cureall cures the score with the most damage or drain (or randomly selects one if multiple scores have equal drain or damage).</p>
+</>};
+const _hemochem_grade_i = {title: "Hemochem (grade I)", jsx: <><h2 id="tech-pharma-hemochem_grade_i-hemochem-grade-i">Hemochem (Grade I)</h2>
+<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 34</Link><br/><strong>Price</strong> 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grade V)</p>
+<h3 id="tech-pharma-hemochem_grade_i-construction">Construction</h3>
+<p><strong>Craft DC</strong> 23 (Grade I), DC 24 (Grade II), DC 25 (Grade III), DC 26 (Grade IV), DC 27 (Grade V); <strong>Cost</strong> 125 gp (Grade I), 250 gp (Grade II), 375 gp (Grade III), 500 gp (Grade IV), 625 gp (Grade V)<br/><Link to="/feat/craft_pharmaceutical">Craft Pharmaceutical</Link>, <Link to="/rule/crafting_laboratories">medical lab</Link></p>
+<p>Hemochem stops bleeding and promotes healing. A single dose of hemochem grants <Link to="/umr/fast_healing">fast healing</Link> for 1 minute. Multiple doses injected do not stack, but they do reset the duration of the fast healing back to 1 minute. Five grades of hemochem exist; the fast healing granted by a dose depends on the pharmaceutical's grade, as detailed below.</p>
+<ScrollContainer id="tech-pharma-hemochem_grade_i--table-0"><table>
+<thead>
+<tr>
+<th>Grade</th>
+<th>Fast Healing</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Grade I</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Grade II</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Grade III</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Grade IV</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Grade V</td>
+<td>5</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _hype = {title: "Hype", jsx: <><h2 id="tech-pharma-hype-hype">Hype</h2>
+<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 34</Link><br/><strong>Price</strong> 250 gp</p>
+<h3 id="tech-pharma-hype-construction">Construction</h3>
+<p><strong>Craft DC</strong> 24; <strong>Cost</strong> 125 gp<br/><Link to="/feat/craft_pharmaceutical">Craft Pharmaceutical</Link>, <Link to="/rule/crafting_laboratories">medical lab</Link></p>
+<p>A synthetic adrenaline derivative once used by soldiers, hype boosts perception and reaction time but comes with some nasty side effects. This pharmaceutical has an onset time of 1 round and its effects last for 1 hour. It provides a +5 competence bonus on Perception checks and increases the user's base land speed by 10 feet, but the user takes a -4 penalty on <Link to="/rule/concentration">concentration</Link> checks and on all Intelligence-, Wisdom-, and Charisma-based skill checks (with the exception of Perception).</p>
+</>};
+const _soothe = {title: "Soothe", jsx: <><h2 id="tech-pharma-soothe-soothe">Soothe</h2>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_86_lords_of_rust">Pathfinder #86: Lords of Rust pg. 63</Link><br/><strong>Price</strong> 200 gp</p>
+<h3 id="tech-pharma-soothe-construction">Construction</h3>
+<p><strong>Craft DC</strong> 20; <strong>Cost</strong> 100 gp<br/><Link to="/feat/craft_pharmaceutical">Craft Pharmaceutical</Link>, <Link to="/rule/crafting_laboratories">medical lab</Link></p>
+<p>This strange, pink, gel-like substance is generally contained in a small glass jar that holds 1 dose. A single dose of soothe dulls pain and creates a euphoric sensation, particularly when applied to an open wound. Rubbing a dose of soothe onto one's skin or imbibing the faintly citrus-flavored stuff cures 1 point of damage, but rubbing a dose onto a wound received in the last minute heals the user of 1d8 points of damage. In addition, for the next minute, the user becomes immune to <Link to="/rule/bleed">bleed</Link> damage and gains a +2 morale bonus on saving throws against fear effects. As a somewhat unusual and disturbing side effect, wounds healed by soothe tend to form raw, unsightly scars, giving the appearance of the wound still being fresh but disturbingly bloodless. Soothe has a further side effect - the stuff is slightly addictive, and those who use it run the danger of developing a habit. Soothe's side effect of transforming wounds into raw, ugly scar tissue tends to make those who abuse the drug-like pharmaceutical increasingly into hideous monstrosities over time. In fact, some subcultures, like the Smilers of Scrapwall, use this side effect to make themselves appear more ferocious, and openly encourage self-mutilation followed by healing via of this strange substance.</p>
+</>};
+const _torpinal = {title: "Torpinal", jsx: <><h2 id="tech-pharma-torpinal-torpinal">Torpinal</h2>
+<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 34</Link><br/><strong>Price</strong> 300 gp</p>
+<h3 id="tech-pharma-torpinal-construction">Construction</h3>
+<p><strong>Craft DC</strong> 25; <strong>Cost</strong> 150 gp<br/><Link to="/feat/craft_pharmaceutical">Craft Pharmaceutical</Link>, <Link to="/rule/crafting_laboratories">medical lab</Link></p>
+<p>Torpinal is a serum that makes the injected subject more cooperative during interrogation. It has a 1-minute onset time. The effects of a single dose of torpinal can be resisted with a successful DC 12 Will saving throw. Additional dose can be used, and often are when the subject succeeds at a save against torpinal. Each dose administered within a 1-minute period forces a new saving throw to resist the effects, with the DC increasing by 2 per additional dose (to a maximum of DC 22).</p>
+<p>A victim that succumbs to torpinal becomes highly suggestible to revealing truthful information for 10 minutes. Whenever the victim is posed a question during this time, the victim must succeed at a Will saving throw (DC = the DC of the dose of torpinal the victim failed his saving throw against) to resist replying to the question in as truthful a manner as he can. The victim isn't compelled to follow any suggestions other than the one to answer questions truthfully. A victim under the effects of torpinal takes a -10 penalty on Bluff checks, making it difficult to lie even if successfully saving against the torpinal's ongoing effects. Torpinal is a poison and mind-affecting effect.</p>
+</>};
+const _universal_serum = {title: "Universal Serum", jsx: <><h2 id="tech-pharma-universal_serum-universal-serum">Universal Serum</h2>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_85_fires_of_creation">Pathfinder #85: Fires of Creation pg. 61</Link><br/><strong>Price</strong> 400 gp</p>
+<h3 id="tech-pharma-universal_serum-construction">Construction</h3>
+<p><strong>Craft DC</strong> 25; <strong>Cost</strong> 200 gp<br/><Link to="/feat/craft_pharmaceutical">Craft Pharmaceutical</Link>, <Link to="/rule/crafting_laboratories">medical lab</Link></p>
+<p>A viscous, blue serum fills the receptacle attached behind the nozzle of this metallic injector. Three small panels on the side of the injector light up one at a time when touched: selecting a color (red, blue, or green) is a swift action. The injector contains only 1 dose of universal serum. Injecting the serum is a standard action that heals the recipient of 1d8 points of damage and has an additional effect depending upon the current color selection. Red grants the recipient a +4 enhancement bonus to Constitution. Blue grants the recipient a +4 enhancement bonus to Strength. Green grants the recipient a +4 enhancement bonus to Dexterity. The enhancement bonus lasts for 3 minutes, after which the recipient of the serum becomes <Link to="/misc/fatigued">fatigued</Link> for 1 hour. If the recipient receives more than 1 dose of universal serum in a 24-hour period, the healing effect still occurs but no enhancement bonus is granted; instead, the recipient immediately becomes fatigued for 1 hour.</p>
+</>};
+const _vitality_serum = {title: "Vitality Serum", jsx: <><h2 id="tech-pharma-vitality_serum-vitality-serum">Vitality Serum</h2>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_85_fires_of_creation">Pathfinder #85: Fires of Creation pg. 61</Link><br/><strong>Price</strong> 500 gp</p>
+<h3 id="tech-pharma-vitality_serum-construction">Construction</h3>
+<p><strong>Craft DC</strong> 25; <strong>Cost</strong> 250 gp<br/><Link to="/feat/craft_pharmaceutical">Craft Pharmaceutical</Link>, <Link to="/rule/crafting_laboratories">medical lab</Link></p>
+<p>The glass receptacle of this injector contains 1 dose of a bright-yellow serum. When injected into a creature (this is a standard action), the substance grants immunity to low <Link to="/rule/radiation">radiation</Link> for 1 hour, and a +5 alchemical bonus on all saving throws against other radiation effects for that duration. In addition, it heals 1d4 points of <Link to="/rule/strength_damage">Strength damage</Link> caused by <Link to="/rule/radiation">radiation poisoning</Link>. Vitality serum cannot cure Constitution drain caused by radiation poisoning.</p>
+</>};
+const _vive = {title: "Vive", jsx: <><h2 id="tech-pharma-vive-vive">Vive</h2>
+<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 34</Link><br/><strong>Price</strong> 200 gp</p>
+<h3 id="tech-pharma-vive-construction">Construction</h3>
+<p><strong>Craft DC</strong> 22; <strong>Cost</strong> 100 gp<br/><Link to="/feat/craft_pharmaceutical">Craft Pharmaceutical</Link>, <Link to="/rule/crafting_laboratories">medical lab</Link></p>
+<p>Vive revitalizes the body at the cost of mental acuity. This pharmaceutical has an onset time of 1 minute. It eliminates <Link to="/misc/fatigue">fatigue</Link> and <Link to="/misc/exhaustion">exhaustion</Link> and heals 1d4 points of ability damage to a physical ability score (Strength, Dexterity, or Constitution) of the target's choice. The first dose taken in a 24-hour period deals 1d2 points of ability damage to Intelligence and Wisdom; additional doses in that period deal 1d4 points of ability damage instead. Vive can be resisted with a successful DC 12 Fortitude saving throw.</p>
+</>};
+const _zortaphen = {title: "Zortaphen", jsx: <><h2 id="tech-pharma-zortaphen-zortaphen">Zortaphen</h2>
+<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 34</Link><br/><strong>Price</strong> 2,250 gp</p>
+<h3 id="tech-pharma-zortaphen-construction">Construction</h3>
+<p><strong>Craft DC</strong> 22; <strong>Cost</strong> 1,125 gp<br/><Link to="/feat/craft_pharmaceutical">Craft Pharmaceutical</Link>, <Link to="/rule/crafting_laboratories">medical lab</Link></p>
+<p>Zortaphen is a powerful anesthetic. A creature that takes a dose of zortaphen must succeed at a DC 15 Fortitude saving throw or become <Link to="/misc/unconscious">unconscious</Link> for 1 hour; the unconsciousness takes effect 1d6 rounds after the failed save. A creature under the effects of zortaphen is numbed as well, making it immune to pain effects while sleeping. Damage inflicted on someone put to sleep with zortaphen does not cause the sleeper to awaken. Awakening someone early requires a successful DC 20 Heal check and a full-round action. Zortaphen is a poison and sleep effect.</p>
+<p>Zortaphen can be dangerous if too much is taken at once. A skilled character can use a successful DC 15 Heal check to keep someone under the effects of zortaphen unconscious indefinitely by injecting a new dose every hour. On a failed Heal check or if a second dose is administered without attempting a Heal check, a victim already under the effects of zortaphen must succeed at a DC 15 Fortitude save or take 1d6 points of <Link to="/rule/constitution_damage">Constitution damage</Link>.</p>
+</>};
+const _hemochem_grade_ii = {..._hemochem_grade_i, title: "Hemochem (grade II)"};
+const _hemochem_grade_iii = {..._hemochem_grade_i, title: "Hemochem (grade III)"};
+const _hemochem_grade_iv = {..._hemochem_grade_i, title: "Hemochem (grade IV)"};
+const _hemochem_grave_v = {..._hemochem_grade_i, title: "Hemochem (grave V)"};
+export default {not_found:_not_found,azonite_pellets:_azonite_pellets,baseline:_baseline,cardioamp:_cardioamp,cureall:_cureall,hemochem_grade_i:_hemochem_grade_i,hype:_hype,soothe:_soothe,torpinal:_torpinal,universal_serum:_universal_serum,vitality_serum:_vitality_serum,vive:_vive,zortaphen:_zortaphen,hemochem_grade_ii:_hemochem_grade_ii,hemochem_grade_iii:_hemochem_grade_iii,hemochem_grade_iv:_hemochem_grade_iv,hemochem_grave_v:_hemochem_grave_v}

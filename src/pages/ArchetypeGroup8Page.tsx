@@ -1,6 +1,6 @@
 import getItem from '../components/getItem';
-import brawler from './subpages/__arc-brawler';
-import mesmerist from './subpages/__arc-mesmerist';
+import brawler from './subpages/_GEN_arc-brawler';
+import mesmerist from './subpages/_GEN_arc-mesmerist';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

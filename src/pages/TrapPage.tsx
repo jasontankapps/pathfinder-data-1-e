@@ -1,6 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
-import traps from './subpages/__trap';
+import traps from './subpages/_GEN_trap';
 import BasicPage from './BasicPage';
 import './Page.css';
 

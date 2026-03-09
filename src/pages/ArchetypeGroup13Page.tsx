@@ -1,8 +1,8 @@
 import getItem from '../components/getItem';
-import gunslinger from './subpages/__arc-gunslinger';
-import hunter from './subpages/__arc-hunter';
-import shaman from './subpages/__arc-shaman';
-import shifter from './subpages/__arc-shifter';
+import gunslinger from './subpages/_GEN_arc-gunslinger';
+import hunter from './subpages/_GEN_arc-hunter';
+import shaman from './subpages/_GEN_arc-shaman';
+import shifter from './subpages/_GEN_arc-shifter';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

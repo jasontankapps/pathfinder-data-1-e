@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import schools from './subpages/__arcaneschool';
+import schools from './subpages/_GEN_arcaneschool';
 import BasicPage from './BasicPage';
 import './Page.css';
 

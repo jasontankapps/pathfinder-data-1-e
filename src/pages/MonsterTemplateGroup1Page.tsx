@@ -1,4 +1,4 @@
-import templates from './subpages/__template1';
+import templates from './subpages/_GEN_template1';
 import MonsterTemplateGroupBasic from './MonsterTemplateGroupBasic';
 
 const MonsterTemplateGroup1Page: React.FC<{id: string}> = ({id}) =>

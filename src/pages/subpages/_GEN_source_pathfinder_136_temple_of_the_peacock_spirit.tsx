@@ -1,0 +1,3 @@
+import Link from '../../components/Link';
+const References: React.FC = () => <><h3>Monster</h3><ul><li><Link key="/monster/basavan" to="/monster/basavan">Basavan</Link></li><li><Link key="/monster/bolla" to="/monster/bolla">Bolla</Link></li><li><Link key="/monster/asura_hishandura" to="/monster/asura_hishandura">Hishandura (Asura)</Link></li><li><Link key="/monster/asura_japalisura" to="/monster/asura_japalisura">Japalisura (Asura)</Link></li><li><Link key="/monster/time_dimensional" to="/monster/time_dimensional">Time Dimensional</Link></li></ul><h3>Wondrous Item</h3><ul><li><Link key="/magic-wondrous/shadow_stylus" to="/magic-wondrous/shadow_stylus">Shadow Stylus</Link></li></ul></>;
+export default References;

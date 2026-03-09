@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import equipment from './subpages/__eq-reagent';
+import equipment from './subpages/_GEN_eq-reagent';
 import BasicPage from './BasicPage';
 import './Page.css';
 

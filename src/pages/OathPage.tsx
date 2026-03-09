@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import oaths from './subpages/__oath';
+import oaths from './subpages/_GEN_oath';
 import BasicPage from './BasicPage';
 import './Page.css';
 

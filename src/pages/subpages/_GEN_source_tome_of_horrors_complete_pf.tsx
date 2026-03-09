@@ -1,0 +1,3 @@
+import Link from '../../components/Link';
+const References: React.FC = () => <><h3>Monster</h3><ul><li><Link key="/monster/dire_shadow_rat" to="/monster/dire_shadow_rat">Dire Shadow Rat</Link></li><li><Link key="/monster/shadow_rat" to="/monster/shadow_rat">Shadow Rat</Link></li><li><Link key="/monster/shadow_rat_swarm" to="/monster/shadow_rat_swarm">Shadow Rat Swarm</Link></li></ul></>;
+export default References;

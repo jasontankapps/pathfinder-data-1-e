@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import constructmods from './subpages/__constructmod';
+import constructmods from './subpages/_GEN_constructmod';
 import BasicPage from './BasicPage';
 import './Page.css';
 

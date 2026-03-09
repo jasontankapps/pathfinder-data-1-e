@@ -1,7 +1,7 @@
 import getItem from '../components/getItem';
-import druid from './subpages/__arc-druid';
-import medium from './subpages/__arc-medium';
-import ninja from './subpages/__arc-ninja';
+import druid from './subpages/_GEN_arc-druid';
+import medium from './subpages/_GEN_arc-medium';
+import ninja from './subpages/_GEN_arc-ninja';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

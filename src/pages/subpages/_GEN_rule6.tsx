@@ -1,0 +1,1906 @@
+import Link from '../../components/Link';
+import ScrollContainer from '../../components/ScrollContainer';
+import InnerLink from '../../components/InnerLink';
+const _gamemastery = {title: "Gamemastery", subtopics: ["basics_from_the_core_rulebook","gamemastery_guide","monster_rules","race_builder","creating_new_weapons","dungeons","traps","wilderness","urban_adventures","weather","the_planes","environmental_rules"], jsx: <><p>These topics cover topics of interest to gamemasters (GMs), the people who run the Pathfinder game for the other players.</p>
+</>};
+const _basics_from_the_core_rulebook = {title: "Basics from the Core Rulebook", parent_topics: ["gamemastery"], siblings: ["basics_from_the_core_rulebook","gamemastery_guide","monster_rules","race_builder","creating_new_weapons","dungeons","traps","wilderness","urban_adventures","weather","the_planes","environmental_rules"], subtopics: ["starting_a_campaign","published_adventures","building_an_adventure","preparing_for_the_game","during_the_game","campaign_tips","ending_the_campaign","creating_npcs"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 396</Link></p>
+<p>It's one thing to play a character on an adventure. It's quite another to run the adventure as a Game Master. It's a lot more work, sure, but it can be a lot more rewarding to create an entire world for your friends to explore.</p>
+<p>But what exactly is a Game Master?</p>
+<p><strong className="hl">Storyteller:</strong> First and foremost, the Game Master is a storyteller. He presents the world and its characters to the players of the game, and it is through the GM that the players interact with them. The Game Master must be able to craft stories and to translate them into a verbal medium.</p>
+<p><strong className="hl">Entertainer:</strong> A Game Master must also be a master at improvisation. He has to be ready to handle anything that his players want to do, to resolve situations and issue rulings quickly enough to keep the pace of the game going at an entertaining clip. A Game Master is on stage, and his players are his audience.</p>
+<p><strong className="hl">Judge:</strong> The Game Master must be the arbiter of everything that occurs in the game. All rule books, including this one, are his tools, but his word is the law. He must not antagonize the players or work to impede their ability to enjoy the game, yet neither should he favor them and coddle them. He should be impartial, fair, and consistent in his administration of the rules.</p>
+<p><strong className="hl">Inventor:</strong> The Game Master's job does not end when the game session does. He must be an inventor as well. By creating NPCs, plots, magic items, spells, worlds, deities, monsters, and everything else, he propels his game's evolution forward, constantly elevating his campaign into something greater.</p>
+<p><strong className="hl">Player:</strong> Just because he's playing dozens of characters during the course of a session doesn't make him any less a player than the others who sit at the table.</p>
+</>};
+const _starting_a_campaign = {title: "Starting a Campaign", parent_topics: ["gamemastery","basics_from_the_core_rulebook"], siblings: ["starting_a_campaign","published_adventures","building_an_adventure","preparing_for_the_game","during_the_game","campaign_tips","ending_the_campaign","creating_npcs"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 396</Link></p>
+<p>Before you run a game, you need to know what kind of game you'll be running. Whether you write out the plans for the coming session in a dozen notebooks, scribble down ideas and key NPC stat blocks on a bunch of sticky notes or your computer, or just have a vague idea of a plot and a few names in your head, you'll need to prepare parts of your adventure before the game begins.</p>
+<p>Some GMs enjoy the challenge of presenting a "sandbox" for the players to explore at their whim, but even then you need to know what kind of things are in that sandbox for the PCs to encounter. And as a general rule, everything you can prepare before the game begins will save you time making decisions during the game.</p>
+<p>Even more important, preparation beforehand allows you to maintain consistency - few things ruin the suspension of disbelief more for a group of discerning players than having the Game Master call the local innkeeper "Radimus" one session and "Penelope" the next. Preparing for your adventure beforehand can help you maintain innkeeper gender identities and so much more!</p>
+<p>Of course, the backbone of any campaign is the adventures that comprise it, be they an intricately connected series of plots and storylines or an open-ended sandbox of possibility. But where do these adventures come from? There are, essentially, two sources for adventures. You can build your own from scratch, or you can run a published adventure. Both options have different pros and cons, and you certainly don't have to limit yourself to only one choice for the duration of a campaign.</p>
+</>};
+const _published_adventures = {title: "Published Adventures", parent_topics: ["gamemastery","basics_from_the_core_rulebook"], siblings: ["starting_a_campaign","published_adventures","building_an_adventure","preparing_for_the_game","during_the_game","campaign_tips","ending_the_campaign","creating_npcs"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 396</Link></p>
+<p>Published adventures are your friend. As a Game Master, you're going to be spending a lot of time as it is preparing for games - and when you don't have time to come up with an adventure, a published adventure can be a godsend. By studying how published adventures are put together, you can hone your own adventure-creating skills. And by running a published adventure for your group, you leave the details of invention and creation to the adventure writer, giving you time to focus on the game play itself.</p>
+<p>The most important thing to remember when using a published adventure, though, is that the writer of the adventure doesn't know your group the way you know your group. If you know your players are particularly paranoid and assume all helpful NPCs are out to get them, then a published adventure about a kindly cleric who's actually a shapechanged demon probably won't work well for your group. Feel free to change published adventures as you see fit, either while you're reading them or during play. If, for example, one of your players has written into his character's backstory that his father was killed by an orc warlord and he became an adventurer to someday get revenge on that orc, go ahead and change the hobgoblin warlord in the adventure into an orc. Adapting adventures to your group and your play style in this manner is an important part of running published adventures, since it customizes the experience to your group and makes it all the more enjoyable.</p>
+</>};
+const _building_an_adventure = {title: "Building an Adventure", parent_topics: ["gamemastery","basics_from_the_core_rulebook"], siblings: ["starting_a_campaign","published_adventures","building_an_adventure","preparing_for_the_game","during_the_game","campaign_tips","ending_the_campaign","creating_npcs"], subtopics: ["stat_blocks","designing_encounters","placing_treasure"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 396</Link></p>
+<p>There are countless ways to build an adventure. The classic method is to simply write everything out beforehand. While this does get everything you need to know about the adventure down on paper, it's an awful lot of work. If you're the only person who'll ever be running the adventure, it's okay to simply outline the plot, draw a map of the adventure site, create encounters and stat blocks, and have at it. An adventure need not look like much more than a shopping list - you only really need to write down what you can't easily remember come game time.</p>
+<p>One important tip to remember about adventure writing: you're not writing a story. The main characters of the adventure should be the players, and they're missing from the tale when you prepare the adventure. Instead, think of the adventure as an outline for a script. You can have an idea in your head of how things will work out, but if you avoid making assumptions about what your characters will do in the adventure and instead just focus on creating the building blocks of the adventure (such as room descriptions, NPC motivations, stat blocks, and the like), you'll be much more capable of reacting to the unexpected when the PCs do their thing.</p>
+<p>Whatever you decide to do in your adventure, there are three elements that, if you prepare them beforehand, will save you a lot of time and anguish in the end: stat blocks, encounters, and treasure.</p>
+</>};
+const _stat_blocks = {title: "Stat Blocks", parent_topics: ["gamemastery","basics_from_the_core_rulebook","building_an_adventure"], siblings: ["stat_blocks","designing_encounters","placing_treasure"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 397</Link></p>
+<p>One of the most complex parts of the game is the stat block. Every NPC, every monster, and every timid little forest creature in the campaign world has its own stat block. This isn't to say, of course, that you need to generate a stat block for every creature that appears in your adventure, but you should certainly generate stat blocks for all of the important NPCs and monsters with whom you expect the PCs to interact.</p>
+<p>The <em>Pathfinder RPG Bestiary</em> provides <Link to="/main/monsters">more than 300</Link> pre-made monster stat blocks for use in adventures, and that's just the beginning: you can use stat blocks from other monster bestiaries or adventures just as easily in your game. One good trick is to copy a stat block onto a 3&times;5 card or into a small document you can easily bring up on your computer during the game - you can keep these cards and documents forever to reuse them as needed.</p>
+</>};
+const _designing_encounters = {title: "Designing Encounters", parent_topics: ["gamemastery","basics_from_the_core_rulebook","building_an_adventure"], siblings: ["stat_blocks","designing_encounters","placing_treasure"], subtopics: ["awarding_experience"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 397</Link></p>
+<p>The heart of any adventure is its encounters. An encounter is any event that puts a specific problem before the PCs that they must solve. Most encounters present combat with monsters or hostile NPCs, but there are many other types - a trapped corridor, a political interaction with a suspicious king, a dangerous passage over a rickety rope bridge, an awkward argument with a friendly NPC who suspects a PC has betrayed him, or anything that adds drama to the game. Brain-teasing puzzles, roleplaying challenges, and skill checks are all classic methods for resolving encounters, but the most complex encounters to build are the most common ones: combat encounters.</p>
+<p>When designing a combat encounter, you first decide what level of challenge you want your PCs to face, then follow the steps outlined below.</p>
+<p><strong className="hl">Step 1-Determine APL:</strong> Determine the average level of your player characters - this is their Average Party Level (APL for short). You should round this value to the nearest whole number (this is one of the few exceptions to the round down rule). Note that these encounter creation guidelines assume a group of four or five PCs. If your group contains six or more players, add one to their average level. If your group contains three or fewer players, subtract one from their average level. For example, if your group consists of six players, two of which are 4th level and four of which are 5th level, their APL is 6th (28 total levels, divided by six players, rounding up, and adding one to the final result).</p>
+<p><strong className="hl">Step 2-Determine CR:</strong> Challenge Rating (or CR) is a convenient number used to indicate the relative danger presented by a monster, trap, hazard, or other encounter: the higher the CR, the more dangerous the encounter. Refer to Table 12-1 to determine the Challenge Rating your group should face, depending on the difficulty of the challenge you want and the group's APL.</p>
+<h3 id="rule-designing_encounters-table-12-1-encounter-design">Table 12-1: Encounter Design</h3>
+<ScrollContainer id="rule-designing_encounters--table-0"><table>
+<thead>
+<tr>
+<th>Difficulty</th>
+<th>Challenge Rating Equals...</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Easy</td>
+<td>APL -1</td>
+</tr>
+<tr>
+<td>Average</td>
+<td>APL</td>
+</tr>
+<tr>
+<td>Challenging</td>
+<td>APL +1</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>APL +2</td>
+</tr>
+<tr>
+<td>Epic</td>
+<td>APL +3</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p><strong className="hl">Step 3-Build the Encounter:</strong> Determine the total XP award for the encounter by looking it up by its CR on Table 12-2. This gives you an "XP budget" for the encounter. Every creature, trap, and hazard is worth an amount of XP determined by its CR, as noted on Table 12-2.</p>
+<h3 id="rule-designing_encounters-table-12-2-experience-point-awards">Table 12-2: Experience Point Awards</h3>
+<ScrollContainer id="rule-designing_encounters--table-1"><table>
+<thead>
+<tr>
+<th>CR</th>
+<th>Total XP</th>
+<th>1-3</th>
+<th>4-5</th>
+<th>6+</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1/8</td>
+<td>50</td>
+<td>15</td>
+<td>15</td>
+<td>10</td>
+</tr>
+<tr>
+<td>1/6</td>
+<td>65</td>
+<td>20</td>
+<td>15</td>
+<td>10</td>
+</tr>
+<tr>
+<td>1/4</td>
+<td>100</td>
+<td>35</td>
+<td>25</td>
+<td>15</td>
+</tr>
+<tr>
+<td>1/3</td>
+<td>135</td>
+<td>45</td>
+<td>35</td>
+<td>25</td>
+</tr>
+<tr>
+<td>1/2</td>
+<td>200</td>
+<td>65</td>
+<td>50</td>
+<td>35</td>
+</tr>
+<tr>
+<td>1</td>
+<td>400</td>
+<td>135</td>
+<td>100</td>
+<td>65</td>
+</tr>
+<tr>
+<td>2</td>
+<td>600</td>
+<td>200</td>
+<td>150</td>
+<td>100</td>
+</tr>
+<tr>
+<td>3</td>
+<td>800</td>
+<td>265</td>
+<td>200</td>
+<td>135</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1,200</td>
+<td>400</td>
+<td>300</td>
+<td>200</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1,600</td>
+<td>535</td>
+<td>400</td>
+<td>265</td>
+</tr>
+<tr>
+<td>6</td>
+<td>2,400</td>
+<td>800</td>
+<td>600</td>
+<td>400</td>
+</tr>
+<tr>
+<td>7</td>
+<td>3,200</td>
+<td>1,070</td>
+<td>800</td>
+<td>535</td>
+</tr>
+<tr>
+<td>8</td>
+<td>4,800</td>
+<td>1,600</td>
+<td>1,200</td>
+<td>800</td>
+</tr>
+<tr>
+<td>9</td>
+<td>6,400</td>
+<td>2,130</td>
+<td>1,600</td>
+<td>1,070</td>
+</tr>
+<tr>
+<td>10</td>
+<td>9,600</td>
+<td>3,200</td>
+<td>2,400</td>
+<td>1,600</td>
+</tr>
+<tr>
+<td>11</td>
+<td>12,800</td>
+<td>4,270</td>
+<td>3,200</td>
+<td>2,130</td>
+</tr>
+<tr>
+<td>12</td>
+<td>19,200</td>
+<td>6,400</td>
+<td>4,800</td>
+<td>3,200</td>
+</tr>
+<tr>
+<td>13</td>
+<td>25,600</td>
+<td>8,530</td>
+<td>6,400</td>
+<td>4,270</td>
+</tr>
+<tr>
+<td>14</td>
+<td>38,400</td>
+<td>12,800</td>
+<td>9,600</td>
+<td>6,400</td>
+</tr>
+<tr>
+<td>15</td>
+<td>51,200</td>
+<td>17,100</td>
+<td>12,800</td>
+<td>8,530</td>
+</tr>
+<tr>
+<td>16</td>
+<td>76,800</td>
+<td>25,600</td>
+<td>19,200</td>
+<td>12,800</td>
+</tr>
+<tr>
+<td>17</td>
+<td>102,400</td>
+<td>34,100</td>
+<td>25,600</td>
+<td>17,100</td>
+</tr>
+<tr>
+<td>18</td>
+<td>153,600</td>
+<td>51,200</td>
+<td>38,400</td>
+<td>25,600</td>
+</tr>
+<tr>
+<td>19</td>
+<td>204,800</td>
+<td>68,300</td>
+<td>51,200</td>
+<td>34,100</td>
+</tr>
+<tr>
+<td>20</td>
+<td>307,200</td>
+<td>102,000</td>
+<td>76,800</td>
+<td>51,200</td>
+</tr>
+<tr>
+<td>21</td>
+<td>409,600</td>
+<td>137,000</td>
+<td>102,400</td>
+<td>68,300</td>
+</tr>
+<tr>
+<td>22</td>
+<td>614,400</td>
+<td>205,000</td>
+<td>153,600</td>
+<td>102,400</td>
+</tr>
+<tr>
+<td>23</td>
+<td>819,200</td>
+<td>273,000</td>
+<td>204,800</td>
+<td>137,000</td>
+</tr>
+<tr>
+<td>24</td>
+<td>1,228,800</td>
+<td>410,000</td>
+<td>307,200</td>
+<td>204,800</td>
+</tr>
+<tr>
+<td>25</td>
+<td>1,638,400</td>
+<td>546,000</td>
+<td>409,600</td>
+<td>273,000</td>
+</tr>
+</tbody></table></ScrollContainer>
+<blockquote>
+<p><em>The last three columns are for Individual XP.</em></p>
+</blockquote>
+<p>To build your encounter, simply add creatures, traps, and hazards whose combined XP does not exceed the total XP budget for your encounter. It's easiest to add the highest CR challenges to the encounter first, filling out the remaining total with lesser challenges.</p>
+<p>For example, let's say you want your group of six 8th-level PCs to face a challenging encounter against a group of gargoyles (each CR 4) and their stone giant boss (CR 8). The PCs have an APL of 9, and table 12-1 tells you that a challenging encounter for your APL 9 group is a CR 10 encounter - worth 9,600 XP according to Table 12-2. At CR 8, the stone giant is worth 4,800 XP, leaving you with another 4,800 points in your XP budget for the gargoyles. Gargoyles are CR 4 each, and thus worth 1,200 XP apiece, meaning that the encounter can support four gargoyles in its XP budget. You could further refine the encounter by including only three gargoyles, leaving you with 1,200 XP to spend on a trio of Small earth elemental servants (at CR 1, each is worth 400 XP) to further aid the stone giant.</p>
+<p><strong className="hl">Adding NPCs:</strong> Creatures whose Hit Dice are solely a factor of their class levels and not a feature of their race are factored into combats a little differently than normal monsters or monsters with class levels. A creature that possesses class levels, but does not have any racial Hit Dice, is factored in as a creature with a CR equal to its class levels -1. A creature that only possesses non-player class levels (<Link to="/npcclass/adept">Adept</Link>, <Link to="/npcclass/aristocrat">Aristocrat</Link>, <Link to="/npcclass/commoner">Commoner</Link>, <Link to="/npcclass/expert">Expert</Link>, or <Link to="/npcclass/warrior">Warrior</Link>) is factored in as a creature with a CR equal to its class levels -2. If this reduction would reduce a creature's CR to below 1, its CR drops one step on the following progression for each step below 1 this reduction would make: 1/2, 1/3, 1/4, 1/6, 1/8.</p>
+<p><strong className="hl">High CR Encounters:</strong> The XP values for high-CR encounters can seem quite daunting. Table 12-3 provides some simple formulas to help you manage these large numbers. When using a large number of identical creatures, this chart can help simplify the math by combining them into one CR, making it easier to find their total XP value. For example, using this chart, four CR 8 creatures (worth 4,800 XP each) are equivalent to a CR 12 creature (worth 19,200 XP).</p>
+<h3 id="rule-designing_encounters-table-12-3-high-cr-equivalencies">Table 12-3: High CR Equivalencies</h3>
+<ScrollContainer id="rule-designing_encounters--table-2"><table>
+<thead>
+<tr>
+<th>Number of Creatures</th>
+<th>Equal to...</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1 Creature</td>
+<td>CR</td>
+</tr>
+<tr>
+<td>2 Creatures</td>
+<td>CR +2</td>
+</tr>
+<tr>
+<td>3 Creatures</td>
+<td>CR +3</td>
+</tr>
+<tr>
+<td>4 Creatures</td>
+<td>CR +4</td>
+</tr>
+<tr>
+<td>6 Creatures</td>
+<td>CR +5</td>
+</tr>
+<tr>
+<td>8 Creatures</td>
+<td>CR +6</td>
+</tr>
+<tr>
+<td>12 Creatures</td>
+<td>CR +7</td>
+</tr>
+<tr>
+<td>16 Creatures</td>
+<td>CR +8</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p><strong className="hl">Ad Hoc CR Adjustments:</strong> While you can adjust a specific monster's CR by <Link to="/template/advanced">advancing</Link> it, applying <Link to="/main/monster_templates">templates</Link>, or giving it class levels, you can also adjust an encounter's difficulty by applying ad hoc adjustments to the encounter or creature itself. Listed here are three additional ways you can alter an encounter's difficulty.</p>
+<p><strong className="hl">Favorable Terrain for the PCs:</strong> An encounter against a monster that's out of its favored element (like a yeti encountered in a sweltering cave with lava, or an enormous dragon encountered in a tiny room) gives the PCs an advantage. Build the encounter as normal, but when you award experience for the encounter, do so as if the encounter were one CR lower than its actual CR.</p>
+<p><strong className="hl">Unfavorable Terrain for the PCs:</strong> Monsters are designed with the assumption that they are encountered in their favored terrain - encountering a water-breathing aboleth in an underwater area does not increase the CR for that encounter, even though none of the PCs breathe water. If, on the other hand, the terrain impacts the encounter significantly (such as an encounter against a creature with blindsight in an area that suppresses all light), you can, at your option, increase the effective XP award as if the encounter's CR were one higher.</p>
+<p><strong className="hl">NPC Gear Adjustments:</strong> You can significantly increase or decrease the power level of an NPC with class levels by adjusting the NPC's gear. The combined value of an NPC's gear is given in on <Link to="/rule/step_6_gear">Table 14-9</Link>. A classed NPC encountered with no gear should have his CR reduced by 1 (provided that loss of gear actually hampers the NPC), while a classed NPC that instead has gear equivalent to that of a PC (as listed on <Link to="/rule/placing_treasure">Table 12-4</Link>) has a CR of 1 higher than his actual CR. Be careful awarding NPCs this extra gear, though - especially at high levels, where you can blow out your entire adventure's treasure budget in one fell swoop!</p>
+</>};
+const _awarding_experience = {title: "Awarding Experience", parent_topics: ["gamemastery","basics_from_the_core_rulebook","building_an_adventure","designing_encounters"], siblings: ["awarding_experience"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 399</Link></p>
+<p>Pathfinder Roleplaying Game characters advance in level by defeating monsters, overcoming challenges, and completing adventures - in so doing, they earn experience points (XP for short). Although you can award experience points as soon as a challenge is overcome, this can quickly disrupt the flow of game play. It's easier to simply award experience points at the end of a game session - that way, if a character earns enough XP to gain a level, he won't disrupt the game while he levels up his character. He can instead take the time between game sessions to do that.</p>
+<p>Keep a list of the CRs of all the monsters, traps, obstacles, and roleplaying encounters the PCs overcome. At the end of each session, award XP to each PC that participated. Each monster, trap, and obstacle awards a set amount of XP, as determined by its CR, regardless of the level of the party in relation to the challenge, although you should never bother awarding XP for challenges that have a CR of 10 or more lower than the APL. Pure roleplaying encounters generally have a CR equal to the average level of the party (although particularly easy or difficult roleplaying encounters might be one higher or lower). There are two methods for awarding XP. While one is more exact, it requires a calculator for ease of use. The other is slightly more abstract.</p>
+<p><strong className="hl">Exact XP:</strong> Once the game session is over, take your list of defeated CR numbers and look up the value of each CR on Table 12-2 under the "Total XP" column. Add up the XP values for each CR and then divide this total by the number of characters - each character earns an amount of XP equal to this number.</p>
+<p><strong className="hl">Abstract XP:</strong> Simply add up the individual XP awards listed for a group of the appropriate size. In this case, the division is done for you - you need only total up all the awards to determine how many XP to award to each PC.</p>
+<p><strong className="hl">Story Awards:</strong> Feel free to award Story Awards when players conclude a major storyline or make an important accomplishment. These awards should be worth double the amount of experience points for a CR equal to the APL. Particularly long or difficult story arcs might award even more, at your discretion as GM.</p>
+</>};
+const _placing_treasure = {title: "Placing Treasure", parent_topics: ["gamemastery","basics_from_the_core_rulebook","building_an_adventure"], siblings: ["stat_blocks","designing_encounters","placing_treasure"], subtopics: ["building_a_treasure_hoard"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 399</Link></p>
+<p>As PCs gain levels, the amount of treasure they carry and use increases as well. The Pathfinder Roleplaying Game assumes that all PCs of equivalent level have roughly equal amounts of treasure and magic items. Since the primary income for a PC derives from treasure and loot gained from adventuring, it's important to moderate the wealth and hoards you place in your adventures. To aid in placing treasure, the amount of treasure and magic items the PCs receive for their adventures is tied to the Challenge Rating of the encounters they face - the higher an encounter's CR, the more treasure it can award.</p>
+<p>Table 12-4 lists the amount of treasure each PC is expected to have at a specific level. Note that this table assumes a standard fantasy game. Low-fantasy games might award only half this value, while high-fantasy games might double the value. It is assumed that some of this treasure is consumed in the course of an adventure (such as potions and scrolls), and that some of the less useful items are sold for half value so more useful gear can be purchased.</p>
+<p>Table 12-4 can also be used to budget gear for characters starting above 1st level, such as a new character created to replace a dead one. Characters should spend no more than half their total wealth on any single item. For a balanced approach, PCs that are built after 1st level should spend no more than 25% of their wealth on weapons, 25% on armor and protective devices, 25% on other magic items, 15% on disposable items like potions, scrolls, and wands, and 10% on ordinary gear and coins. Different character types might spend their wealth differently than these percentages suggest; for example, arcane casters might spend very little on weapons but a great deal more on other magic items and disposable items.</p>
+<p>Table 12-5 lists the amount of treasure each encounter should award based on the average level of the PCs and the speed of the campaign's XP progression (slow, medium, or fast). Easy encounters should award treasure one level lower than the PCs' average level. Challenging, hard, and epic encounters should award treasure one, two, or three levels higher than the PCs' average level, respectively. If you are running a low-fantasy game, cut these values in half. If you are running a high-fantasy game, double these values.</p>
+<p>Encounters against NPCs typically award three times the treasure a monster-based encounter awards, due to NPC gear. To compensate, make sure the PCs face off against a pair of additional encounters that award little in the way of treasure. Animals, plants, constructs, mindless undead, oozes, and traps are great "low treasure" encounters. Alternatively, if the PCs face a number of creatures with little or no treasure, they should have the opportunity to acquire a number of significantly more valuable objects sometime in the near future to make up for the imbalance. As a general rule, PCs should not own any magic item worth more than half their total character wealth, so make sure to check before awarding expensive magic items.</p>
+<h3 id="rule-placing_treasure-table-12-4-character-wealth-by-level">Table 12-4: Character Wealth by Level</h3>
+<ScrollContainer id="rule-placing_treasure--table-0"><table>
+<thead>
+<tr>
+<th>PC Level</th>
+<th>Wealth</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>See <Link to="/rule/wealth_and_money">Table 6-1</Link></td>
+</tr>
+<tr>
+<td>2</td>
+<td>1,000 gp</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3,000 gp</td>
+</tr>
+<tr>
+<td>4</td>
+<td>6,000 gp</td>
+</tr>
+<tr>
+<td>5</td>
+<td>10,500 gp</td>
+</tr>
+<tr>
+<td>6</td>
+<td>16,000 gp</td>
+</tr>
+<tr>
+<td>7</td>
+<td>23,500 gp</td>
+</tr>
+<tr>
+<td>8</td>
+<td>33,000 gp</td>
+</tr>
+<tr>
+<td>9</td>
+<td>46,000 gp</td>
+</tr>
+<tr>
+<td>10</td>
+<td>62,000 gp</td>
+</tr>
+<tr>
+<td>11</td>
+<td>82,000 gp</td>
+</tr>
+<tr>
+<td>12</td>
+<td>108,000 gp</td>
+</tr>
+<tr>
+<td>13</td>
+<td>140,000 gp</td>
+</tr>
+<tr>
+<td>14</td>
+<td>185,000 gp</td>
+</tr>
+<tr>
+<td>15</td>
+<td>240,000 gp</td>
+</tr>
+<tr>
+<td>16</td>
+<td>315,000 gp</td>
+</tr>
+<tr>
+<td>17</td>
+<td>410,000 gp</td>
+</tr>
+<tr>
+<td>18</td>
+<td>530,000 gp</td>
+</tr>
+<tr>
+<td>19</td>
+<td>685,000 gp</td>
+</tr>
+<tr>
+<td>20</td>
+<td>880,000 gp</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="rule-placing_treasure-table-12-5-treasure-values-per-encounter">Table 12-5: Treasure Values per Encounter</h3>
+<ScrollContainer id="rule-placing_treasure--table-1"><table>
+<thead>
+<tr>
+<th>APL*</th>
+<th>Slow</th>
+<th>Medium</th>
+<th>Fast</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>170 gp</td>
+<td>260 gp</td>
+<td>400 gp</td>
+</tr>
+<tr>
+<td>2</td>
+<td>350 gp</td>
+<td>550 gp</td>
+<td>800 gp</td>
+</tr>
+<tr>
+<td>3</td>
+<td>550 gp</td>
+<td>800 gp</td>
+<td>1,200 gp</td>
+</tr>
+<tr>
+<td>4</td>
+<td>750 gp</td>
+<td>1,150 gp</td>
+<td>1,700 gp</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1,000 gp</td>
+<td>1,550 gp</td>
+<td>2,300 gp</td>
+</tr>
+<tr>
+<td>6</td>
+<td>1,350 gp</td>
+<td>2,000 gp</td>
+<td>3,000 gp</td>
+</tr>
+<tr>
+<td>7</td>
+<td>1,750 gp</td>
+<td>2,600 gp</td>
+<td>3,900 gp</td>
+</tr>
+<tr>
+<td>8</td>
+<td>2,200 gp</td>
+<td>3,350 gp</td>
+<td>6,000 gp</td>
+</tr>
+<tr>
+<td>9</td>
+<td>2,850 gp</td>
+<td>4,250 gp</td>
+<td>6,400 gp</td>
+</tr>
+<tr>
+<td>10</td>
+<td>3,650 gp</td>
+<td>5,450 gp</td>
+<td>8,200 gp</td>
+</tr>
+<tr>
+<td>11</td>
+<td>4,650 gp</td>
+<td>7,000 gp</td>
+<td>10,500 gp</td>
+</tr>
+<tr>
+<td>12</td>
+<td>6,000 gp</td>
+<td>9,000 gp</td>
+<td>13,500 gp</td>
+</tr>
+<tr>
+<td>13</td>
+<td>7,750 gp</td>
+<td>11,600 gp</td>
+<td>17,500 gp</td>
+</tr>
+<tr>
+<td>14</td>
+<td>10,000 gp</td>
+<td>15,000 gp</td>
+<td>22,000 gp</td>
+</tr>
+<tr>
+<td>15</td>
+<td>13,000 gp</td>
+<td>19,500 gp</td>
+<td>29,000 gp</td>
+</tr>
+<tr>
+<td>16</td>
+<td>16,500 gp</td>
+<td>25,000 gp</td>
+<td>38,000 gp</td>
+</tr>
+<tr>
+<td>17</td>
+<td>22,000 gp</td>
+<td>32,000 gp</td>
+<td>48,000 gp</td>
+</tr>
+<tr>
+<td>18</td>
+<td>28,000 gp</td>
+<td>41,000 gp</td>
+<td>72,000 gp</td>
+</tr>
+<tr>
+<td>19</td>
+<td>35,000 gp</td>
+<td>53,000 gp</td>
+<td>79,000 gp</td>
+</tr>
+<tr>
+<td>20</td>
+<td>44,000 gp</td>
+<td>67,000 gp</td>
+<td>100,000 gp</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p>* <Link to="/rule/designing_encounters">Average Party Level</Link></p>
+</>};
+const _building_a_treasure_hoard = {title: "Building a Treasure Hoard", parent_topics: ["gamemastery","basics_from_the_core_rulebook","building_an_adventure","placing_treasure"], siblings: ["building_a_treasure_hoard"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 400</Link></p>
+<p>While it's often enough to simply tell your players they've found 5,000 gp in gems and 10,000 gp in jewelry, it's generally more interesting to give details. Giving treasure a personality can not only help the verisimilitude of your game, but can sometimes trigger new adventures. The information herein can help you randomly determine types of additional treasure; suggested values are given for many of the objects, but feel free to assign values to the objects as you see fit. It's easiest to place the expensive items first - if you wish, you can even randomly roll magic items to determine what sort of items are present in the hoard. Once they've consumed a sizable portion of the hoard's value, the remainder can simply be loose coins or nonmagical treasure with values arbitrarily assigned as you see fit.</p>
+<p><strong className="hl">Coins:</strong> Coins in a treasure hoard can consist of copper, silver, gold, and platinum pieces - silver and gold are the most common, but you can divide the coinage as you wish.</p>
+<p><strong className="hl">Gems:</strong> Although you can assign any value to a gemstone, some are inherently more valuable than others. Use the value categories below (and their associated gemstones) as guidelines when assigning values to gemstones.</p>
+<p><strong className="hl">Low-Quality Gems (10 gp):</strong> agates; azurite; blue quartz; hematite; lapis lazuli; malachite; obsidian; rhodochrosite; tigereye; turquoise; freshwater (irregular) pearl</p>
+<p><strong className="hl">Semi-Precious Gems (50 gp):</strong> bloodstone; carnelian; chalcedony; chrysoprase; citrine; jasper; moonstone; onyx; peridot; rock crystal (clear quartz); sard; sardonyx; rose, smoky, or star rose quartz; zircon</p>
+<p><strong className="hl">Medium Quality Gemstones (100 gp):</strong> amber; amethyst; chrysoberyl; coral; red or brown-green garnet; jade; jet; white, golden, pink, or silver pearl; red, red-brown, or deep green spinel; tourmaline</p>
+<p><strong className="hl">High Quality Gemstones (500 gp):</strong> alexandrite; aquamarine; violet garnet; black pearl; deep blue spinel; golden yellow topaz</p>
+<p><strong className="hl">Jewels (1,000 gp):</strong> emerald; white, black, or fire opal; blue sapphire; fiery yellow or rich purple corundum; blue or black star sapphire</p>
+<p><strong className="hl">Grand Jewels (5,000 gp or more):</strong> clearest bright green emerald; diamond; jacinth; ruby</p>
+<p><strong className="hl">Nonmagical Treasures:</strong> This expansive category includes jewelry, fine clothing, trade goods, alchemical items, masterwork objects, and more. Unlike gemstones, many of these objects have set values, but you can always increase an object's value by having it be bejeweled or of particularly fine craftsmanship. This increase in cost doesn't grant additional abilities - a gem-encrusted masterwork cold iron scimitar worth 40,000 gp functions the same as a typical masterwork cold iron scimitar worth the base price of 330 gp. Listed below are numerous examples of several types of nonmagical treasures, along with typical values.</p>
+<p><strong className="hl">Fine Artwork (100 gp or more):</strong> Although some artwork is composed of precious materials, the value of most paintings, sculptures, works of literature, fine clothing, and the like come from their skill and craftsmanship. Artwork is often bulky or cumbersome to move and fragile to boot, making salvage an adventure in and of itself.</p>
+<p><strong className="hl">Jewelry, Minor (50 gp):</strong> This category includes relatively small pieces of jewelry crafted from materials like brass, bronze, copper, ivory, or even exotic woods, sometimes set with tiny or flawed low-quality gems. Minor jewelry includes rings, bracelets, and earrings.</p>
+<p><strong className="hl">Jewelry, Normal (100-500 gp):</strong> Most jewelry is made of silver, gold, jade, or coral, often ornamented with semi-precious or even medium-quality gemstones. Normal jewelry includes all types of minor jewelry plus armbands, necklaces, and brooches.</p>
+<p><strong className="hl">Jewelry, Precious (500 gp or more):</strong> Truly precious jewelry is crafted from gold, mithral, platinum, or similar rare metals. Such objects include normal jewelry types plus crowns, scepters, pendants, and other large items.</p>
+<p><strong className="hl">Masterwork Tools (100-300 gp):</strong> This category includes masterwork weapons, armor, and skill kits.</p>
+<p><strong className="hl">Mundane Gear (up to 1,000 gp):</strong> There are many valuable items of mundane or alchemical nature that can be utilized as treasure. Most of the alchemical items are portable and valuable, but other objects like locks, holy symbols, spyglasses, fine wine, or fine clothing work well as interesting bits of treasure. Trade goods can even serve as treasure - 10 pounds of saffron, for example, is worth 150 gp.</p>
+<p><strong className="hl">Treasure Maps and Other Intelligence (variable):</strong> Items like treasure maps, deeds to ships and homes, lists of informants or guard rosters, passwords, and the like can also make fun items of treasure - you can set the value of such items at any amount you wish, and often they can serve double-duty as adventure seeds.</p>
+<p><strong className="hl">Magic Items:</strong> Of course, the discovery of a magic item is the true prize for any adventurer. You should take care with the placement of magic items in a hoard; it's generally more satisfying for many players to find a magic item rather than purchase it, so there's no crime in placing items that happen to be those your players can use!</p>
+<p>Although you should generally place items with careful consideration of their likely effects on your campaign, it can be fun and save time to generate magic items in a treasure hoard randomly. You can "purchase" random die rolls of magic items for a treasure hoard at the following prices, subtracting the indicated amount from your treasure budget and then rolling on the appropriate column on <Link to="/rule/purchasing_magic_items">Table 15-2</Link> to determine what item is in the treasure hoard. Take care with this approach, though! It's easy, through the luck (or unluck) of the dice to bloat your game with too much treasure or deprive it of the same. Random magic item placement should always be tempered with good common sense by the GM.</p>
+<ScrollContainer id="rule-building_a_treasure_hoard--table-0"><table>
+<thead>
+<tr>
+<th>Magic Item Category</th>
+<th>Average Value</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Minor Item</td>
+<td>1,000 gp</td>
+</tr>
+<tr>
+<td>Medium Item</td>
+<td>4,000 gp</td>
+</tr>
+<tr>
+<td>Major Item</td>
+<td>40,000 gp</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _preparing_for_the_game = {title: "Preparing for the Game", parent_topics: ["gamemastery","basics_from_the_core_rulebook"], siblings: ["starting_a_campaign","published_adventures","building_an_adventure","preparing_for_the_game","during_the_game","campaign_tips","ending_the_campaign","creating_npcs"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 401</Link></p>
+<p>Your job as Game Master begins well before the game session does. Your most important duty before a game is, of course, to prepare for that game. This means reading up on the adventure you'll be running (or perhaps even designing the adventure), preparing any props or handouts you might need to give the PCs, prepping the play area for guests, and so on. In the days leading up to the game, you should resolve any out-of-game issues that your players have - email is a great way to do this, since it creates its own written record you can use to add to your campaign journal. This includes helping players level up their characters; answering questions they may have about using non-core rules and supplements for spells, feats, and the like; and providing them with answers to questions they have about the game world.</p>
+<p>For example, say one of your PCs is searching for his missing sister, who was abducted years ago by a thieves' guild. You can drop in clues about this sister in the game, but between games, the PC might want to spend a few days investigating a lead in the local underworld or at the City Hall of Records. Personal quests like these are a great way for a player to build his character's history and personality, but they can get in the way of gaming when other players are at the table. If you can't afford to spend one-on-one time with players, handling these side-quests via email is a great way to take care of the situation.</p>
+<p>You should also ensure that all of the players can make the game, and if not all of them can, decide if the game should be canceled or not. There are few things more frustrating than realizing that half your group can't play, especially if some of the players had to drive a long way to reach the game. If a player is absent, decide what happens to his PC. Can someone else play him? Does he gain experience and treasure as usual?</p>
+<p>Make sure that accommodations are met. If your game session's going to last a long time, think about where folks can go for lunch or dinner - if you're planning on providing food, make sure it's ready to go before the game begins. Many tables organize responsibilities among the players - if a GM hosts the game at his house, the players might split up the task of providing drinks, snacks, or meals. Try to use common sense here - while it's tempting to load up with potato chips and soda pop, gaming is no excuse for poor health! Of course, if your home is not the hosting site for the game, that doesn't let you off the hook. You as GM are the organizing force for the gathering - you're technically throwing the party, and it's your responsibility to see that your players have a comfortable, enjoyable place to game, otherwise the game itself will suffer.</p>
+</>};
+const _during_the_game = {title: "During the Game", parent_topics: ["gamemastery","basics_from_the_core_rulebook"], siblings: ["starting_a_campaign","published_adventures","building_an_adventure","preparing_for_the_game","during_the_game","campaign_tips","ending_the_campaign","creating_npcs"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 402</Link></p>
+<p>The bulk of this section provides the rules you need to adjudicate the game and run things, but there are many other problems and events that can come up that require you to think quickly before they become disruptive. Listed here are several of the more common speed bumps and problems that you'll invariably be called upon to handle during the game.</p>
+<p><strong className="hl">Cheating and Fudging:</strong> We all know that cheating is bad. But sometimes, as a GM, you might find yourself in a situation where cheating might improve the game. We prefer to call this "fudging" rather than cheating, and while you should try to avoid it when you can, you are the law in your world, and you shouldn't feel bound by the dice. A GM should be impartial and fair, and in theory, that's what random dice results help support. Some players have trouble putting trust in their GM, but dice offer something that's irrefutable and truly non-partisan (as long as the dice aren't doctored or loaded, of course). Still, it's no good if a single roll of the dice would result in a premature end to your campaign, or a character's death when they did everything right.</p>
+<p>Likewise, don't feel bound to the predetermined plot of an encounter or the rules as written. Feel free to adjust the results or interpret things creatively - especially in cases where you as the GM made a poor assumption to begin with. For example, you might design an encounter against a band of werewolves, only to realize too late that none of the PCs have silver weapons and therefore can't hurt them. In this case, it's okay to cheat and say that these werewolves are hurt by normal weapons, or to have the town guard (armed with silver arrows) show up at the last minute to save the PCs. As long as you can keep such developments to a minimum, these on-the-spot adjustments can even enhance the game: since the town guard saved the PCs, it can give you leverage over the PCs to send them on their next quest as repayment to the guards!</p>
+<p><strong className="hl">Divine Intervention:</strong> The literary term for it is deus ex machina: "god from the machine." This is what happens in a story when a plot device manifests in an unexpected (and usually unsatisfying) way to resolve a story element, typically in a way that renders the actions of the main characters meaningless. Even great authors use deus ex machina to resolve stories now and then, so don't be afraid to use it in your game if things are looking grim. The town guard rushing in to save the PCs from the werewolves in the previous paragraph is an excellent example of deus ex machina, but so is the old classic of "divine intervention." In this case, the PCs are faced with an impossible situation and you, as the GM, change the situation so that they can now achieve their goals, perhaps after a PC begs for aid from his deity.</p>
+<p>You can quantify divine interventions, if you wish, at the start of a campaign. Tell every player that they get a fixed number of interventions during the campaign (it's often best to limit this to just one such intervention). Thereafter, the PC can use this divine intervention to save himself or the party, perhaps by preventing an effect that would otherwise cause a character's death, or to suddenly manifest an escape from a deathtrap. You, as the GM, have full power over how the intervention resolves, of course, so players won't be able to use divine intervention to bypass plot elements you know they can handle - if a player tries this, simply tell him that his request for intervention is denied and that he can save his intervention for when it's truly needed.</p>
+<p><strong className="hl">GM Fiat:</strong> The GM is the law of the game. His reading of the rules should be respected and adhered to. It's easy to get hung up on complicated aspects of the game during play, but the game is never enhanced by long, drawn-out arguments over these complications between players and GM. When complications involving rules interpretations occur, listen to the player and make the decision as quickly as you can on how to resolve the situation. If the rule in question isn't one you're familiar with, you can go with the player's interpretation but with the knowledge that after the game you'll read up on the rules and, with the next session, will have an official ruling in play. Alternatively, you can simply rule that something works in a way that helps the story move on, despite the most logical or impassioned arguments from the players. Even then, you owe it to your players to spend time after the game researching the rule to make sure your ruling was fair- and if not, make amends the next game as necessary.</p>
+<p>One handy rule to keep under your belt is the Fiat Rule: simply grant a player a +2 or a -2 bonus or penalty to a die roll if no one at the table is precisely sure how a situation might be handled by the rules. For example, a character who attempts to trip an iron golem in a room where the floor is magnetized could gain a +2 bonus on his attempt at your discretion, since the magnetic pull exerted by the floor helps pull the golem down.</p>
+<p><strong className="hl">Handling PC Death:</strong> Eventually, through bad luck or bad tactics, a player character is going to die in your game. Other events, such as petrification, paralysis, sleep, and stunning can have a similar effect on the game as PC death, and the following advice should apply to those effects as well.</p>
+<p>When a PC dies, his player no longer has any input into the game (unless he has a cohort or other allied NPC he can start playing). That player has to sit at the table quietly, watching and waiting while everyone else continues to have fun with the game. In some cases, the effect is only temporary, with another player able to step in to restore the PC to life (or cure his petrification, remove his paralysis, or whatever), but nevertheless, when a player stops playing the game because his character's been removed from the action, you as a GM have a problem on your hands.</p>
+<p>When such an event occurs, keep going with the game; try to resolve the current conflict or combat as quickly as possible so that the players can move on to addressing the problem of their dead ally. If there's no way to restore the dead PC to life and the party needs to retreat to the city to pay for a <Link to="/spell/resurrection">resurrection</Link>, don't delay that event by forcing the PCs to endure additional wandering monsters; just gloss over the return to civilization as best you can so you can get the unlucky player back into the game as quickly as you can. A PC death is often a great time to end the session, in fact, since you can then handle the resurrection details out of game via email.</p>
+<p>If the player of a dead character prefers instead to move on to a new character, let him create his new character at the table. In this case, that player need not sit around bored - the act of creating a new character is involving enough that you can continue to run the game for the surviving PCs, after all. Once the player's new character is done, let the other players take a 5 or 10 minute break while you step aside to talk to the player and learn about his new character, and to work with the player on a way to introduce the new character into the game as quickly and seamlessly as possible.</p>
+<p>One other thing that PC death can do is bloat surviving player treasure. If your group simply splits up the dead PC's gear or sells it, the surviving players can become obscenely over-geared for their level. If this doesn't bother you, you should at least work to ensure that the new PC has gear equal in power to that now possessed by the rest of the party. It's usually a much easier solution to simply assume that the old PC's gear goes away, either being buried with his body or sent on to his surviving kin. One pretty handy way to solve the situation is to introduce the player's new character as a prisoner that the PCs rescue, and to have the old PC's gear be given to the new PC to equip him for the remainder of the adventure. Of course, this isn't always a graceful solution, but it can be a good one to keep treasure levels under control until the new PC can sell off parts of his old character's gear to purchase new gear. In this situation, consider letting the PC get full resale value for his gear, since you don't want to penalize him for losing a character by saddling him with half the gear he used to have.</p>
+<p><strong className="hl">Rolling Dice:</strong> Some GMs prefer to roll all of their dice in front of the players, letting the results fall where they may. Others prefer to make all rolls behind a screen, hiding the results from the PCs so that, if they need to, they can fudge the dice results to make the game do what they want. Neither way is the "correct" way; choose whichever you wish, or even mix and match as feels right for you.</p>
+<p>The only time you should not reveal the results of a die roll to the player character is when knowledge of the roll's result would give the player knowledge he shouldn't have. A good example of this is saving throws against effects that the player shouldn't necessarily realize his character has been exposed to (such as a disease or a subtle, long-acting poison).</p>
+<p><strong className="hl">Troublesome Players:</strong> Play the game long enough and eventually you'll find yourself with a troublemaking player - it's just an unfortunate fact of any pastime that involves multiple people interacting in a team-oriented event. To a certain extent, you can rely on other players to help mediate problems with a troublemaker, but sometimes you'll need to step in and ask the player in question to cease his inappropriate behavior. Don't be afraid to ask the troublemaker to leave the game session if he won't correct his behavior after a polite but firm request. If tempers are running hot among multiple players, don't hesitate to call the game session early and break up, giving the players time to cool down and get over the event.</p>
+<h3 id="rule-during_the_game-campaign-journal">Campaign Journal</h3>
+<p>All Game Masters should keep a campaign journal. This can be a simple folder containing stacks of paper, a three-ring binder, a PDA, a computer, a tablet, a notebook, or anything else that you can keep notes in. Use this journal to record your thoughts and ideas related to the game as they happen, before, during, and after the game session. As you continue to run campaigns, you'll doubtless need to expand your journal. Periodically, you should back up your journal, perhaps by copying the contents to a computer and saving them to a DVD, or maybe just by photocopying the contents and stashing the copy in a safe place. Nothing's more frustrating than losing 3 years of campaign notes due to a crashed hard drive or a natural disaster!</p>
+<p>See also: <Link to="/rule/during_the_game_gg">GameMastery Guide - During the Game</Link></p>
+</>};
+const _campaign_tips = {title: "Campaign Tips", parent_topics: ["gamemastery","basics_from_the_core_rulebook"], siblings: ["starting_a_campaign","published_adventures","building_an_adventure","preparing_for_the_game","during_the_game","campaign_tips","ending_the_campaign","creating_npcs"], subtopics: ["cost_of_living","monstrous_characters"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 404</Link></p>
+<p>So now you have an adventure or two ready for your players to experience. While you can certainly keep these adventures as separate entities, and perhaps even have your players make new characters each time you start a new adventure, the Pathfinder Roleplaying Game assumes that your players will keep their same characters as they go from adventure to adventure, growing more powerful as they accumulate experience and treasure.</p>
+<p>So, what happens between adventures? What is the world that those adventures take place in? Who lives there, and what do NPCs who don't take part in the adventures do? The answers to these questions and more comprise your world, or setting, and the specific progression of adventures your PCs undertake in this setting is known as a campaign.</p>
+<p>Many published campaign settings exist - the Pathfinder Chronicles Campaign Setting is the assumed setting for most games that use the Pathfinder Roleplaying Game rules, but it is by no means the only one. Dozens of publishers offer intriguing and detailed settings to choose from; you can even use settings from games that use rules quite different than those presented here, or settings that are inspired by or lifted directly from a favorite series of books or movies. But for some, the most rewarding part of being a Game Master is the act of creating your own campaign setting and running it for your players.</p>
+<p>The act of creating a campaign is no less daunting than creating a world. It can quickly become overwhelming, especially when you start to consider all of the areas you'll need to become an expert at. If your world has multiple moons, how does that affect tides? If you choose a specific shape for your main continent, what does that do to trade winds? Where do the deserts go, and where do the swamps go? How many rivers is too many? What impact would a technologically advanced nation of warriors have on the neighboring shamanistic barbarians? Does your world have chocolate and coffee and avocados? What's the tallest mountain in your world, and why is it the tallest? Are there salmon and trout in your world, and if there's not, what do the bears eat instead? If you have a nation modeled on ancient Japan, does that mean you need to learn Japanese in order to name NPCs who live there? Is there gunpowder in your world, and if not, why not? Is the world's core molten? If it's not, how would that impact your world's magnetosphere - would there still be a north pole? How much does a longsword weigh if your campaign world is half the size of Earth? What happens if your campaign world is shaped like a ring?</p>
+<p>For these reasons, it's generally best to assume an Earth-like baseline for your first campaign world. Another handy tip is to avoid detailing everything at once. Staying just one step ahead of your players is often all you need to do - if you know that the first adventure they'll be going on is an exploration of an abandoned fort, don't worry about detailing anything but the surrounding 5-mile area, along with, perhaps, a small village for them to start the adventure in. If you know that the second adventure's going to be in a haunted mine in the mountains, you then have as long as it takes the PCs to explore that abandoned fort to detail the area between your first village and the badlands to the east where the mine's located. By creating only what you need to run the next few games, you slowly but surely build a larger whole, while at the same time maintaining your sanity.</p>
+<p>Yet still, the lure of building an entire campaign setting is great. In a lot of ways, creating your own world is like an entirely different game in and of itself - a Game Master thus gets to play the game more often than his players, since when the actual session isn't going, the GM gets to design cities and evil temples and nations and dungeons and monsters to his heart's content. The remainder of this section covers a number of different topics to aid you. These topics barely scratch the surface of the implications and ideas you'll be facing when creating your own campaign world, but they can get you started.</p>
+</>};
+const _cost_of_living = {title: "Cost of Living", parent_topics: ["gamemastery","basics_from_the_core_rulebook","campaign_tips"], siblings: ["cost_of_living","monstrous_characters"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 405</Link></p>
+<p>An adventurer's primary source of income is treasure, and his primary purchases are tools and items he needs to continue adventuring - spell components, weapons, magic items, potions, and the like. Yet what about things like food? Rent? Taxes? Bribes? Idle purchases? You can certainly handle these minor expenditures in detail during play, but tracking every time a PC pays for a room, buys water, or pays a gate tax can swiftly become obnoxious and tiresome. If you're not really into tracking these minor costs of living, you can choose to simply ignore these small payments. A more realistic and easier-to-use method is to have PCs pay a recurring cost of living tax. At the start of every game month, a PC must pay an amount of gold equal to the lifestyle bracket he wishes to live in - if he can't afford his desired bracket, he drops down to the first one he can afford.</p>
+<p><strong className="hl">Destitute (0 gp/month):</strong> The PC is homeless and lives in the wilderness or on the streets. A destitute character must track every purchase, and may need to resort to Survival checks or theft to feed himself.</p>
+<p><strong className="hl">Poor (3 gp/month):</strong> The PC lives in common rooms of taverns, with his parents, or in some other communal situation - this is the lifestyle of most untrained laborers and commoners. He need not track purchases of meals or taxes that cost 1 sp or less.</p>
+<p><strong className="hl">Average (10 gp/month):</strong> The PC lives in his own apartment, small house, or similar location - this is the lifestyle of most trained or skilled experts or warriors. He can secure any nonmagical item worth 1 gp or less from his home in 1d10 minutes, and need not track purchases of common meals or taxes that cost 1 gp or less.</p>
+<p><strong className="hl">Wealthy (100 gp/month):</strong> The PC has a sizable home or a nice suite of rooms in a fine inn. He can secure any nonmagical item worth 5 gp or less from his belongings in his home in 1d10 minutes, and need only track purchases of meals or taxes in excess of 10 gp.</p>
+<p><strong className="hl">Extravagant (1,000 gp/month):</strong> The PC lives in a mansion, castle, or other extravagant home - he might even own the building in question. This is the lifestyle of most aristocrats. He can secure any nonmagical item worth 25 gp or less from his belongings in his home in 1d10 minutes. He need only track purchases of meals or taxes in excess of 100 gp.</p>
+</>};
+const _monstrous_characters = {title: "Monstrous Characters", parent_topics: ["gamemastery","basics_from_the_core_rulebook","campaign_tips"], siblings: ["cost_of_living","monstrous_characters"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 405</Link></p>
+<p>You should decide on how exotic your world is at the start. The Pathfinder Roleplaying Game assumes a baseline that all PCs, and thus the majority of the civilized world's NPCs, are of one of the <Link to="/main/races">seven "common" races</Link>. You might want to narrow those choices - perhaps there are only humans in your world, or perhaps one or more of those races are rare enough to be nearly legends on their own. In these cases, you should inform your players that their choices for races are reduced, as appropriate.</p>
+<p>On the other end of things, perhaps your world is much more extravagant than the implied world. In this case, you might allow your players to play characters of races other than the common ones. The <em>Pathfinder RPG Bestiary</em> has many non-standard races to choose from, but you should note that most of these are significantly more powerful than those presented as common. Any race that grants racial Hit Dice is probably too potent a choice for most campaigns. As a general guideline, you should advise your players to choose races of roughly equal power, using a creature's racial HD (not its CR) as a general guideline. Characters who wish instead to play standard races should be allowed to start at higher level, so that their total HD match the highest HD held by a non-standard race in the party.</p>
+<h3 id="rule-monstrous_characters-alternative-races">Alternative Races</h3>
+<p>A list of playable races can be found <Link to="/main/races">here</Link>.</p>
+</>};
+const _ending_the_campaign = {title: "Ending the Campaign", parent_topics: ["gamemastery","basics_from_the_core_rulebook"], siblings: ["starting_a_campaign","published_adventures","building_an_adventure","preparing_for_the_game","during_the_game","campaign_tips","ending_the_campaign","creating_npcs"], subtopics: ["beyond_20th_level"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 406</Link></p>
+<p>In the Pathfinder Roleplaying Game, 20th level represents the top end of power most mortals can hope to achieve, yet this certainly doesn't mean that your campaign needs to go all the way to 20th level. If you aren't running an open-ended campaign where the PCs set the pace and the goals, you should pick a level at which you wish the campaign's story arc to end. Talk this over with your players to make sure you're picking a level range that they're comfortable with as well. Note that you can also extend or shorten the length of a campaign by selecting a slow or fast XP progression.</p>
+<p>If you choose to run a campaign with a level cap of lower than 20th, consider placing your new level cap at a point where it feels like the last level achievable is something worthy. Odd-numbered levels are generally better than even-numbered ones, since most spellcasters achieve a new level of spell on odd-numbered levels. Multiples of 5 are good as well, since these multiples represent the last level before a new iterative attack.</p>
+<p>Stopping at 9th level is a good choice, since that allows the players to achieve capstone abilities like a bard's inspire greatness, a druid's venom immunity, a sorcerer's 3rd bloodline power, and <Link to="/spell/teleport">teleport</Link> and <Link to="/spell/raise_dead">raise dead</Link> as capstone spells. Likewise, 13th level works well, giving capstone abilities like a monk's spell resistance or spells like <Link to="/spell/greater_teleport">greater teleport</Link>, <Link to="/spell/limited_wish">limited wish</Link>, and <Link to="/spell/resurrection">resurrection</Link>.</p>
+<p>Setting level caps of lower than 20th allows you to use them as soft limits - if your campaign's story arc goes beyond what you'd originally planned, your players can continue to gain levels and new abilities beyond what you estimated. Since the classes presented here don't have additional rules provided beyond 20th level, setting a campaign arc to end at 20th level requires great timing and, invariably, some manipulation on your part as GM to make sure the story winds up before the PCs reach enough XP to theoretically hit 21st level.</p>
+</>};
+const _beyond_20th_level = {title: "Beyond 20th Level", parent_topics: ["gamemastery","basics_from_the_core_rulebook","ending_the_campaign"], siblings: ["beyond_20th_level"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 406</Link></p>
+<p>Although the rules don't describe what happens after 20th level, this isn't to say that there are no resources available to you should you wish to continue your campaign on to 21st level and beyond. Rules for epic-level play like this exist in numerous products that are compatible with the Pathfinder Roleplaying Game, although in many cases these alternative rules can provide unanticipated problems. For example, if your campaign world is populated by creatures and villains who, at the upper limit of power, can challenge a 20th-level character, where will epic-level PCs go for challenges? You might be looking at creating an entirely new campaign setting, one set on different planes, planets, or dimensions from the one where your players spent their first 20 levels, and that's a lot of work.</p>
+<p>Paizo Publishing may eventually publish rules to take your game into these epic realms, but if you can't wait and would rather not use existing open content rules for epic-level play, you can use the following brief guidelines to continue beyond 20th level. Note that these guidelines aren't robust enough to keep the game vibrant and interesting on their own for much longer past 20th level, but they should do in a pinch for a campaign that needs, say, 22 or 23 experience levels to wrap up. Likewise, you can use these rules to create super-powerful NPCs for 20th-level characters to face.</p>
+<p><strong className="hl">Experience Points:</strong> To gain a level beyond 20th, a character must double the experience points needed to achieve the previous level. Thus, assuming the medium XP progression, a 20th-level character needs 2,100,000 XP to become 21st level, since he needed 1,050,000 XP to reach 20th level from 19th. He'd then need 4,200,000 XP to reach 22nd level, 8,400,000 XP to reach 23rd, and so on.</p>
+<p><strong className="hl">Scaling Powers:</strong> Hit dice, base attack bonuses, and saving throws continue to increase at the same rate beyond 20th level, as appropriate for the class in question. Note that no character can have more than 4 attacks based on its base attack bonus. Note also that, before long, the difference between <Link to="/misc/good_saving_throws">good saving throws and poor saving throws</Link> becomes awkwardly large - the further you get from 20th level, the more noticeable this difference grows, and for high-level characters, bolstering their poor saving throws should become increasingly important. Class abilities that have a set, increasing rate, such as a barbarian's damage reduction, a fighter's bonus feats and weapon training, a paladin's smite evil, or a rogue's sneak attack continue to progress at the appropriate rate.</p>
+<p><strong className="hl">Spells:</strong> A spellcaster's caster level continues to increase by one for each level beyond 20th level. Every odd-numbered level, a spellcaster gains access to a new level of spell one above his previous maximum level, gaining one spell slot in that new level. These spell slots can be used to prepare or cast spells adjusted by metamagic feats or any known spell of lower levels. Every even-numbered level, a spellcaster gains additional spell slots equal to the highest level spell he can currently cast. He can split these new slots any way he wants among the slots he currently has access to.</p>
+<p>For example, a 21st-level wizard gains a single 10th-level spell slot, in which he can prepare any spell of level 1st through 9th, or in which he can prepare a metamagic spell that results in an effective spell level of 10 (such as extended summon monster IX, or quickened disintegrate). At 22nd level he gains 10 spell-levels' worth of new spell slots, and can gain 10 1st-level spells per day, two 5th-level spells per day, one 7th-level and one 3rd-level spell per day, or one more 10th-level spell per day. At 23rd level, he gains a single 11th-level spell slot, and so on.</p>
+<p>Spellcasters who have a limited number of spells known (such as bards and sorcerers) can opt out of the benefits they gain (either a new level of spells or a number of spell slots) for that level and in exchange learn two more spells of any level they can currently cast.</p>
+<p>You might want to further adjust the rate of spell level gain for classes (like paladins and rangers) who gain spells more slowly than more dedicated spellcaster classes.</p>
+<p><strong className="hl">Multiclassing/Prestige Classes:</strong> The simplest way to progress beyond 20th level is to simply multiclass or take levels in a prestige class, in which case you gain all of the abilities of the new class level normally. This effectively treats 20th level as a hard limit for class level, but not as a hard limit for total character level.</p>
+</>};
+const _creating_npcs = {title: "Creating NPCs", parent_topics: ["gamemastery","basics_from_the_core_rulebook"], siblings: ["starting_a_campaign","published_adventures","building_an_adventure","preparing_for_the_game","during_the_game","campaign_tips","ending_the_campaign","creating_npcs"], subtopics: ["step_1_the_basics_step_2_determine_ability_scores","step_3_skills","step_4_feats","step_5_class_features","step_6_gear","step_7_details","example_kiramor_the_forest_shadow"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 448</Link></p>
+<p>Aside from the players, every other person encountered in the game world is a non-player character (NPC). These characters are designed and controlled by the GM to fill every role from noble king to simple baker. While some of these characters use player classes, most rely upon basic NPC classes, allowing them to be easily generated. The following rules govern all of the NPC classes and include information on generating quick NPCs for an evening's game.</p>
+<p>The world that the player characters inhabit should be full of rich and vibrant characters with whom they can interact. While most need little more than names and general descriptions, some require complete statistics, such as town guards, local clerics, and wizened sages. The PCs might find themselves in combat with these characters, either against them or as allies. Alternatively the PCs might find themselves relying on the skills and abilities of the NPCs. In either case, the process for creating these NPCs can be performed in seven simple steps.</p>
+</>};
+const _step_1_the_basics_step_2_determine_ability_scores = {title: "Steps 1 and 2: Basic Info and Determine Ability Scores", parent_topics: ["gamemastery","basics_from_the_core_rulebook","creating_npcs"], siblings: ["step_1_the_basics_step_2_determine_ability_scores","step_3_skills","step_4_feats","step_5_class_features","step_6_gear","step_7_details","example_kiramor_the_forest_shadow"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 450</Link></p>
+<p>The first step in making an NPC is to determine its basic role in your campaign. This includes its race, class, and basic concept.</p>
+<p>Once the character's basic concept has been determined, its ability scores must be assigned. Apply the NPC's racial modifiers after the scores have been assigned. For every four levels the NPC has attained, increase one of its scores by 1. If the NPC possesses levels in a PC class, it is considered a heroic NPC and receives better ability scores. These scores can be assigned in any order.</p>
+<p><strong className="hl">Basic NPCs:</strong> The ability scores for a basic NPC are: 13, 12, 11, 10, 9, and 8.</p>
+<p><strong className="hl">Heroic NPCs:</strong> The ability scores for a heroic NPC are: 15, 14, 13, 12, 10, and 8.</p>
+<p><strong className="hl">Preset Ability Scores:</strong> Instead of assigning the scores, you can use Table 14-6 to determine the NPC's ability scores, adjusting them as necessary to fit. Use the Melee NPC ability scores for characters whose primary role involves melee combat, such as barbarians, fighters, monks, paladins, rangers, and warriors. The Ranged NPC ability scores are for characters that fight with ranged weapons or use their Dexterity to hit, such as fighters, rangers, and rogues. Use the Divine NPC ability scores for characters with divine spellcasting capabilities, such as adepts, clerics, and druids. The Arcane NPC ability scores should be used by characters with arcane spellcasting capabilities, such as bards, sorcerers, and wizards. Finally, the Skill NPC ability scores should be used for characters that focus on skill use, such as aristocrats, bards, commoners, experts, and rogues. Some NPCs might not fit into one of these categories and should have custom ability scores.</p>
+<h3 id="rule-step_1_the_basics_step_2_determine_ability_scores-table-14-6-npc-ability-scores">Table 14-6: NPC Ability Scores</h3>
+<ScrollContainer id="rule-step_1_the_basics_step_2_determine_ability_scores--table-0"><table>
+<thead>
+<tr>
+<th>Ability Score</th>
+<th>Basic Melee NPC</th>
+<th>Heroic Melee NPC</th>
+<th>Basic Ranged NPC</th>
+<th>Heroic Ranged NPC</th>
+<th>Basic Divine NPC</th>
+<th>Heroic Divine NPC</th>
+<th>Basic Arcane NPC</th>
+<th>Heroic Arcane NPC</th>
+<th>Basic Skill NPC</th>
+<th>Heroic Skill NPC</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Strength</td>
+<td>13</td>
+<td>15</td>
+<td>11</td>
+<td>13</td>
+<td>10</td>
+<td>12</td>
+<td>8</td>
+<td>8</td>
+<td>10</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Dexterity</td>
+<td>11</td>
+<td>13</td>
+<td>13</td>
+<td>15</td>
+<td>8</td>
+<td>8</td>
+<td>12</td>
+<td>14</td>
+<td>12</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Constitution</td>
+<td>12</td>
+<td>14</td>
+<td>12</td>
+<td>14</td>
+<td>12</td>
+<td>14</td>
+<td>10</td>
+<td>12</td>
+<td>11</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Intelligence</td>
+<td>9</td>
+<td>10</td>
+<td>10</td>
+<td>12</td>
+<td>9</td>
+<td>10</td>
+<td>13*</td>
+<td>15*</td>
+<td>13</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Wisdom</td>
+<td>10</td>
+<td>12</td>
+<td>9</td>
+<td>10</td>
+<td>13</td>
+<td>15</td>
+<td>9</td>
+<td>10</td>
+<td>8</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Charisma</td>
+<td>8</td>
+<td>8</td>
+<td>8</td>
+<td>8</td>
+<td>11</td>
+<td>13</td>
+<td>11*</td>
+<td>13*</td>
+<td>9</td>
+<td>10</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p>*If the arcane caster's spellcasting relies on Charisma, exchange these scores with one another.</p>
+<h3 id="rule-step_1_the_basics_step_2_determine_ability_scores-table-14-7-racial-ability-adjustments">Table 14-7: Racial Ability Adjustments</h3>
+<ScrollContainer id="rule-step_1_the_basics_step_2_determine_ability_scores--table-1"><table>
+<thead>
+<tr>
+<th>Ability Score</th>
+<th>Dwarf</th>
+<th>Elf</th>
+<th>Gnome</th>
+<th>Half-Elf*</th>
+<th>Half-Orc*</th>
+<th>Halfling</th>
+<th>Human*</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Strength</td>
+<td>-</td>
+<td>-</td>
+<td>-2</td>
+<td>-</td>
+<td>-</td>
+<td>-2</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Dexterity</td>
+<td>-</td>
+<td>+2</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>+2</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Constitution</td>
+<td>+2</td>
+<td>-2</td>
+<td>+2</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Intelligence</td>
+<td>-</td>
+<td>+2</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Wisdom</td>
+<td>+2</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Charisma</td>
+<td>-2</td>
+<td>-</td>
+<td>+2</td>
+<td>-</td>
+<td>-</td>
+<td>+2</td>
+<td>-</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p>* Half-elves, half-orcs, and humans receive a +2 bonus to one ability score of your choice.</p>
+</>};
+const _step_3_skills = {title: "Step 3: Skills", parent_topics: ["gamemastery","basics_from_the_core_rulebook","creating_npcs"], siblings: ["step_1_the_basics_step_2_determine_ability_scores","step_3_skills","step_4_feats","step_5_class_features","step_6_gear","step_7_details","example_kiramor_the_forest_shadow"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 451</Link></p>
+<p>To assign skills precisely, total up the number of skill ranks possessed by the character and assign them normally.</p>
+<p>Remember that the number of ranks in an individual skill that a character can possess is limited by his total HD. For simpler skill generation, refer to Table 14-8 to determine the total number of skill selections the NPC possesses. After selecting that number of skills, mostly from the class skills lists of the NPC's class, the NPC receives a number of ranks in each skill equal to his level.</p>
+<p>If the NPC has two classes, start by selecting skills for the class with the fewest number of skill selections. The NPC receives a number of ranks in those skills equal to his total character level. Next, find the difference in the number of selections between the first class and the other class possessed by the NPC. Select that number of new skills and give the NPC a number of ranks in those skills equal to his level in the second class. For example, a human fighter 3/monk 4 with a +1 Intelligence modifier can select four skills for his fighter class (since it receives fewer selections). These four skills each have seven ranks (equal to his total level). Next, he selects a number of skills equal to the difference between the fighter and the monk classes, in this case two skills. These two skills each have four ranks (his monk level).</p>
+<p>If the NPC has three or more classes, you must use the precise method for determining his skills.</p>
+<p>Once all of the NPC's ranks have been determined, assign class skill bonuses and apply the bonus or penalty from the NPC's relevant ability score.</p>
+<h3 id="rule-step_3_skills-table-14-8">Table 14-8</h3>
+<ScrollContainer id="rule-step_3_skills--table-0"><table>
+<thead>
+<tr>
+<th>PC Class</th>
+<th>Skill Selections*</th>
+<th>NPC Class</th>
+<th>Skill Selections*</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Barbarian</td>
+<td>4 + Int Mod</td>
+<td>Adept</td>
+<td>2 + Int Mod</td>
+</tr>
+<tr>
+<td>Bard</td>
+<td>6 + Int Mod</td>
+<td>Aristocrat</td>
+<td>4 + Int Mod</td>
+</tr>
+<tr>
+<td>Cleric</td>
+<td>2 + Int Mod</td>
+<td>Commoner</td>
+<td>2 + Int Mod</td>
+</tr>
+<tr>
+<td>Druid</td>
+<td>4 + Int Mod</td>
+<td>Expert</td>
+<td>6 + Int Mod</td>
+</tr>
+<tr>
+<td>Fighter</td>
+<td>2 + Int Mod</td>
+<td>Warrior</td>
+<td>2 + Int Mod</td>
+</tr>
+<tr>
+<td>Monk</td>
+<td>4 + Int Mod</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Paladin</td>
+<td>2 + Int Mod</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ranger</td>
+<td>6 + Int Mod</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Rogue</td>
+<td>8 + Int Mod</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sorcerer</td>
+<td>2 + Int Mod</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Wizard</td>
+<td>2 + Int Mod</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></ScrollContainer>
+<p>* Humans receive one additional skill selection.</p>
+</>};
+const _step_4_feats = {title: "Step 4: Feats", parent_topics: ["gamemastery","basics_from_the_core_rulebook","creating_npcs"], siblings: ["step_1_the_basics_step_2_determine_ability_scores","step_3_skills","step_4_feats","step_5_class_features","step_6_gear","step_7_details","example_kiramor_the_forest_shadow"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 452</Link></p>
+<p>After skills have been determined, the next step is to assign the NPC's feats. Start by assigning all of the feats granted through class abilities. Next, assign the feats garnered from the NPC's total character level (one feat for every two levels beyond 1st). Remember that humans receive an additional feat at 1st level. For simplified feat choices, select feats from the lists provided for the following character types.</p>
+<p><strong className="hl">Arcane Caster:</strong> <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/eschew_materials">Eschew Materials</Link>, <Link to="/feat/greater_spell_focus">Greater Spell Focus</Link>, <Link to="/feat/greater_spell_penetration">Greater Spell Penetration</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/main/feats_metamagic">item creation feats (all), metamagic feats (all)</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/spell_focus">Spell Focus</Link>, <Link to="/feat/spell_mastery">Spell Mastery</Link>, <Link to="/feat/spell_penetration">Spell Penetration</Link>, and <Link to="/feat/toughness">Toughness</Link>.</p>
+<p><strong className="hl">Divine Caster (With Channeling):</strong> <Link to="/feat/alignment_channel">Alignment Channel</Link>, <Link to="/feat/channel_smite">Channel Smite</Link>, <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/command_undead">Command Undead</Link>, <Link to="/feat/elemental_channel">Elemental Channel</Link>, <Link to="/feat/extra_channel">Extra Channel</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_channel">Improved Channel</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/main/feats_metamagic">item creation feats (all), metamagic feats (all)</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/selective_channeling">Selective Channeling</Link>, <Link to="/feat/spell_focus">Spell Focus</Link>, <Link to="/feat/spell_penetration">Spell Penetration</Link>, <Link to="/feat/toughness">Toughness</Link>, and <Link to="/feat/turn_undead">Turn Undead</Link>.</p>
+<p><strong className="hl">Divine Caster (Without Channeling):</strong> <Link to="/feat/cleave">Cleave</Link>, <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/eschew_materials">Eschew Materials</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/main/feats_metamagic">item creation feats (all), metamagic feats (all)</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/natural_spell">Natural Spell</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/spell_focus">Spell Focus</Link>, <Link to="/feat/spell_penetration">Spell Penetration</Link>, <Link to="/feat/toughness">Toughness</Link>, and <Link to="/feat/weapon_focus">Weapon Focus</Link>.</p>
+<p><strong className="hl">Melee (Finesse Fighter):</strong> <Link to="/feat/combat_expertise">Combat Expertise</Link>, <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/dazzling_display">Dazzling Display</Link>, <Link to="/feat/deadly_stroke">Deadly Stroke</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/greater_vital_strike">Greater Vital Strike</Link>, <Link to="/feat/improved_disarm">Improved Disarm</Link>, <Link to="/feat/improved_feint">Improved Feint</Link>, <Link to="/feat/improved_trip">Improved Trip</Link>, <Link to="/feat/improved_vital_strike">Improved Vital Strike</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/spring_attack">Spring Attack</Link>, <Link to="/feat/shatter_defenses">Shatter Defenses</Link>, <Link to="/feat/vital_strike">Vital Strike</Link>, <Link to="/feat/weapon_finesse">Weapon Finesse</Link>, and <Link to="/feat/whirlwind_attack">Whirlwind Attack</Link>.</p>
+<p><strong className="hl">Melee (Unarmed Fighter):</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/deflect_arrows">Deflect Arrows</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/gorgons_fist">Gorgon's Fist</Link>, <Link to="/feat/improved_grapple">Improved Grapple</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>, <Link to="/feat/medusas_wrath">Medusa's Wrath</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/scorpion_style">Scorpion Style</Link>, <Link to="/feat/snatch_arrows">Snatch Arrows</Link>, <Link to="/feat/spring_attack">Spring Attack</Link>, <Link to="/feat/stunning_fist">Stunning Fist</Link>, and <Link to="/feat/weapon_focus">Weapon Focus</Link>.</p>
+<p><strong className="hl">Melee (Mounted):</strong> <Link to="/feat/improved_critical">Improved Critical</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/mounted_combat">Mounted Combat</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/ride_by_attack">Ride-By Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Ride), <Link to="/feat/spirited_charge">Spirited Charge</Link>, <Link to="/feat/toughness">Toughness</Link>, <Link to="/feat/trample">Trample</Link>, and <Link to="/feat/weapon_focus">Weapon Focus</Link>.</p>
+<p><strong className="hl">Melee (Sword and Shield Fighter):</strong> <Link to="/feat/cleave">Cleave</Link>, <Link to="/feat/great_cleave">Great Cleave</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/greater_vital_strike">Greater Vital Strike</Link>, <Link to="/feat/improved_bull_rush">Improved Bull Rush</Link>, <Link to="/feat/improved_critical">Improved Critical</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_vital_strike">Improved Vital Strike</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/shield_focus">Shield Focus</Link>, <Link to="/feat/shield_master">Shield Master</Link>, <Link to="/feat/shield_slam">Shield Slam</Link>, <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link>, <Link to="/feat/vital_strike">Vital Strike</Link>, and <Link to="/feat/weapon_focus">Weapon Focus</Link>.</p>
+<p><strong className="hl">Melee (Two-Handed Fighter):</strong> <Link to="/feat/cleave">Cleave</Link>, <Link to="/feat/great_cleave">Great Cleave</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/greater_vital_strike">Greater Vital Strike</Link>, <Link to="/feat/improved_bull_rush">Improved Bull Rush</Link>, <Link to="/feat/improved_critical">Improved Critical</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_sunder">Improved Sunder</Link>, <Link to="/feat/improved_vital_strike">Improved Vital Strike</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/vital_strike">Vital Strike</Link>, and <Link to="/feat/weapon_focus">Weapon Focus</Link>.</p>
+<p><strong className="hl">Melee (Two-Weapon Fighter):</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/double_slice">Double Slice</Link>, <Link to="/feat/greater_two_weapon_fighting">Greater Two-Weapon Fighting</Link>, <Link to="/feat/greater_vital_strike">Greater Vital Strike</Link>, <Link to="/feat/improved_critical">Improved Critical</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_two_weapon_fighting">Improved Two-Weapon Fighting</Link>, <Link to="/feat/improved_vital_strike">Improved Vital Strike</Link>, <Link to="/feat/two_weapon_defense">Two-Weapon Defense</Link>, M, <Link to="/feat/two_weapon_rend">Two-Weapon Rend</Link>, <Link to="/feat/vital_strike">Vital Strike</Link>, and <Link to="/feat/weapon_focus">Weapon Focus</Link>.</p>
+<p><strong className="hl">Ranged:</strong> <Link to="/feat/deadly_aim">Deadly Aim</Link>, <Link to="/feat/far_shot">Far Shot</Link>, <Link to="/feat/greater_vital_strike">Greater Vital Strike</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_vital_strike">Improved Vital Strike</Link>, <Link to="/feat/manyshot">Manyshot</Link>, <Link to="/feat/pinpoint_targeting">Pinpoint Targeting</Link>, <Link to="/feat/point_blank_shot">Point-Blank Shot</Link>, <Link to="/feat/precise_shot">Precise Shot</Link>, <Link to="/feat/rapid_reload">Rapid Reload</Link>, <Link to="/feat/rapid_shot">Rapid Shot</Link>, <Link to="/feat/shot_on_the_run">Shot on the Run</Link>, <Link to="/feat/vital_strike">Vital Strike</Link>, and <Link to="/feat/weapon_focus">Weapon Focus</Link>.</p>
+<p><strong className="hl">Skill (most NPC classes):</strong> <Link to="/feat/light_armor_proficiency">Armor</Link> <Link to="/feat/medium_armor_proficiency">Proficiency</Link> <Link to="/feat/heavy_armor_proficiency">(all)</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/martial_weapon_proficiency">Martial Weapon Proficiency</Link>, <Link to="/feat/run">Run</Link>, <Link to="/feat/shield_proficiency">Shield Proficiency</Link>, <Link to="/feat/skill_focus">Skill Focus</Link>, and <Link to="/feat/toughness">Toughness</Link>.</p>
+</>};
+const _step_5_class_features = {title: "Step 5: Class Features", parent_topics: ["gamemastery","basics_from_the_core_rulebook","creating_npcs"], siblings: ["step_1_the_basics_step_2_determine_ability_scores","step_3_skills","step_4_feats","step_5_class_features","step_6_gear","step_7_details","example_kiramor_the_forest_shadow"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 453</Link></p>
+<p>After determining feats, the next step is to fill in all the class features possessed by the NPC. This is the time to make decisions about the NPC's spell selection, rage powers, rogue talents, and other class-based abilities.</p>
+<p>When it comes to spells, determine how many spell selections you need to make for each level. Choose a variety of spells for the highest two levels of spells possessed by the NPC. For all other levels, stick to a few basic spells, prepared multiple times (if possible). If this NPC is slated to appear in only one encounter (such as a combat), leaving off lower-level spells entirely is an acceptable way to speed up generation, especially if the NPC is unlikely to cast those spells. You can always choose a few during play if they are needed.</p>
+</>};
+const _step_6_gear = {title: "Step 6: Gear", parent_topics: ["gamemastery","basics_from_the_core_rulebook","creating_npcs"], siblings: ["step_1_the_basics_step_2_determine_ability_scores","step_3_skills","step_4_feats","step_5_class_features","step_6_gear","step_7_details","example_kiramor_the_forest_shadow"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 453</Link></p>
+<p>After recording all of the NPC's class features, the next step is to outfit the character with gear appropriate to his level. Note that NPCs receive less gear than PCs of an equal level. If an NPC is a recurring character, his gear should be selected carefully. Use the total gp value found on Table 14-9 to determine how much gear he should carry. NPCs that are only scheduled to appear once can have a simpler gear selection. Table 14-9 includes a number of categories to make it easier to select an NPC's gear. When outfitting the character, spend the listed amount on each category by purchasing as few items as possible. Leftover gold from any category can be spent on any other category. Funds left over at the end represent coins and jewelry carried by the character.</p>
+<p>Note that these values are approximate and based on the values for a campaign using the medium experience progression and a normal treasure allotment. If your campaign is using the fast experience progression, treat your NPCs as one level higher when determining their gear. If your campaign is using the slow experience progression, treat the NPCs as one level lower when determining their gear. If your campaign is high fantasy, double these values. Reduce them by half if your campaign is low fantasy. If the final value of an NPC's gear is a little over or under these amounts, that's okay.</p>
+<p><strong className="hl">Weapons:</strong> This includes normal, masterwork, and magic weapons, as well as magic staves and wands used by spellcasters to harm their enemies. For example, a wand of scorching ray would count as a weapon, but a staff of life would count as a piece of magic gear.</p>
+<p><strong className="hl">Protection:</strong> This category includes armor and shields, as well as any magic item that augments a character's Armor Class or saving throws.</p>
+<p><strong className="hl">Magic:</strong> This category includes all other permanent magic items. Most rings, rods, and wondrous items fit into this category.</p>
+<p><strong className="hl">Limited Use:</strong> Items that fall into this category include alchemical items, potions, scrolls, and wands with few charges. Charged wondrous items fall into this grouping as well.</p>
+<p><strong className="hl">Gear:</strong> Use the amount in this category to purchase standard nonmagical gear for the character. In most cases, this equipment can be omitted during creation and filled in as needed during play. You can assume that the character has whatever gear is needed for him to properly use his skills and class abilities. This category can also include jewelry, gems, or loose coins that the NPC might have on his person.</p>
+<h3 id="rule-step_6_gear-table-14-9-npc-gear">Table 14-9: NPC Gear</h3>
+<ScrollContainer id="rule-step_6_gear--table-0"><table>
+<thead>
+<tr>
+<th>Basic Level</th>
+<th>Heroic Level</th>
+<th>Total gp Value</th>
+<th>Weapons</th>
+<th>Protection</th>
+<th>Magic</th>
+<th>Limited Use</th>
+<th>Gear</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>-</td>
+<td>260 gp</td>
+<td>50 gp</td>
+<td>130 gp</td>
+<td>-</td>
+<td>40 gp</td>
+<td>40 gp</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1</td>
+<td>390 gp</td>
+<td>100 gp</td>
+<td>150 gp</td>
+<td>-</td>
+<td>40 gp</td>
+<td>100 gp</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2</td>
+<td>780 gp</td>
+<td>350 gp</td>
+<td>200 gp</td>
+<td>-</td>
+<td>80 gp</td>
+<td>150 gp</td>
+</tr>
+<tr>
+<td>4</td>
+<td>3</td>
+<td>1,650 gp</td>
+<td>650 gp</td>
+<td>800 gp</td>
+<td>-</td>
+<td>100 gp</td>
+<td>200 gp</td>
+</tr>
+<tr>
+<td>5</td>
+<td>4</td>
+<td>2,400 gp</td>
+<td>900 gp</td>
+<td>1,000 gp</td>
+<td>-</td>
+<td>300 gp</td>
+<td>200 gp</td>
+</tr>
+<tr>
+<td>6</td>
+<td>5</td>
+<td>3,450 gp</td>
+<td>1,400 gp</td>
+<td>1,400 gp</td>
+<td>-</td>
+<td>450 gp</td>
+<td>200 gp</td>
+</tr>
+<tr>
+<td>7</td>
+<td>6</td>
+<td>4,650 gp</td>
+<td>2,350 gp</td>
+<td>1,650 gp</td>
+<td>-</td>
+<td>450 gp</td>
+<td>200 gp</td>
+</tr>
+<tr>
+<td>8</td>
+<td>7</td>
+<td>6,000 gp</td>
+<td>2,700 gp</td>
+<td>2,000 gp</td>
+<td>500 gp</td>
+<td>600 gp</td>
+<td>200 gp</td>
+</tr>
+<tr>
+<td>9</td>
+<td>8</td>
+<td>7,800 gp</td>
+<td>3,000 gp</td>
+<td>2,500 gp</td>
+<td>1,000 gp</td>
+<td>800 gp</td>
+<td>500 gp</td>
+</tr>
+<tr>
+<td>10</td>
+<td>9</td>
+<td>10,050 gp</td>
+<td>3,500 gp</td>
+<td>3,000 gp</td>
+<td>2,000 gp</td>
+<td>1,050 gp</td>
+<td>500 gp</td>
+</tr>
+<tr>
+<td>11</td>
+<td>10</td>
+<td>12,750 gp</td>
+<td>4,000 gp</td>
+<td>4,000 gp</td>
+<td>3,000 gp</td>
+<td>1,250 gp</td>
+<td>500 gp</td>
+</tr>
+<tr>
+<td>12</td>
+<td>11</td>
+<td>16,350 gp</td>
+<td>6,000 gp</td>
+<td>4,500 gp</td>
+<td>4,000 gp</td>
+<td>1,350 gp</td>
+<td>500 gp</td>
+</tr>
+<tr>
+<td>13</td>
+<td>12</td>
+<td>21,000 gp</td>
+<td>8,500 gp</td>
+<td>5,500 gp</td>
+<td>5,000 gp</td>
+<td>1,500 gp</td>
+<td>500 gp</td>
+</tr>
+<tr>
+<td>14</td>
+<td>13</td>
+<td>27,000 gp</td>
+<td>9,000 gp</td>
+<td>8,000 gp</td>
+<td>7,000 gp</td>
+<td>2,500 gp</td>
+<td>500 gp</td>
+</tr>
+<tr>
+<td>15</td>
+<td>14</td>
+<td>34,800 gp</td>
+<td>12,000 gp</td>
+<td>10,500 gp</td>
+<td>9,000 gp</td>
+<td>2,800 gp</td>
+<td>500 gp</td>
+</tr>
+<tr>
+<td>16</td>
+<td>15</td>
+<td>45,000 gp</td>
+<td>17,000 gp</td>
+<td>13,500 gp</td>
+<td>11,000 gp</td>
+<td>3,000 gp</td>
+<td>500 gp</td>
+</tr>
+<tr>
+<td>17</td>
+<td>16</td>
+<td>58,500 gp</td>
+<td>19,000 gp</td>
+<td>18,000 gp</td>
+<td>16,000 gp</td>
+<td>4,000 gp</td>
+<td>1,500 gp</td>
+</tr>
+<tr>
+<td>18</td>
+<td>17</td>
+<td>75,000 gp</td>
+<td>24,000 gp</td>
+<td>23,000 gp</td>
+<td>20,000 gp</td>
+<td>6,500 gp</td>
+<td>1,500 gp</td>
+</tr>
+<tr>
+<td>19</td>
+<td>18</td>
+<td>96,000 gp</td>
+<td>30,000 gp</td>
+<td>28,000 gp</td>
+<td>28,000 gp</td>
+<td>8,000 gp</td>
+<td>2,000 gp</td>
+</tr>
+<tr>
+<td>20</td>
+<td>19</td>
+<td>123,000 gp</td>
+<td>40,000 gp</td>
+<td>35,000 gp</td>
+<td>35,000 gp</td>
+<td>11,000 gp</td>
+<td>2,000 gp</td>
+</tr>
+<tr>
+<td>-</td>
+<td>20</td>
+<td>159,000 gp</td>
+<td>55,000 gp</td>
+<td>40,000 gp</td>
+<td>44,000 gp</td>
+<td>18,000 gp</td>
+<td>2,000 gp</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _step_7_details = {title: "Step 7: Details", parent_topics: ["gamemastery","basics_from_the_core_rulebook","creating_npcs"], siblings: ["step_1_the_basics_step_2_determine_ability_scores","step_3_skills","step_4_feats","step_5_class_features","step_6_gear","step_7_details","example_kiramor_the_forest_shadow"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 454</Link></p>
+<p>Once you have assigned all of the NPC's gear, all that remains is to fill out the details. Determine the character's attack and damage bonuses, CMB, CMD, initiative modifier, and Armor Class. If the character's magic items affect his skills or ability scores, make sure to take those changes into account. Determine the character's total hit points by assuming the average result. Finally, fill out any other important details, such as name, alignment, religion, and a few personality traits to round him out.</p>
+</>};
+const _example_kiramor_the_forest_shadow = {title: "Example: Kiramor, the Forest Shadow", parent_topics: ["gamemastery","basics_from_the_core_rulebook","creating_npcs"], siblings: ["step_1_the_basics_step_2_determine_ability_scores","step_3_skills","step_4_feats","step_5_class_features","step_6_gear","step_7_details","example_kiramor_the_forest_shadow"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 454</Link></p>
+<p>Looking over your notes for the evening's game, you discover that you need a mysterious forest character for the PCs to interact with on their way to town. If things go poorly, they might have to fight him. Since your party consists of 4th-level characters, you decide to make this forest guardian an elven ranger 4/rogue 2.</p>
+<p>You want him to be skilled at fighting with ranged weapons, but you also want him to be competent with a rapier. Taking this into account, you use the heroic ability scores for a ranged NPC found on <Link to="/rule/step_1_the_basics_step_2_determine_ability_scores">Table 14-6</Link>. Since he is an elf, you apply the racial modifiers to Dexterity, Constitution, and Intelligence. Since he is 6th level, you put his bonus attribute point gained at 4th level into his Dexterity, raising it up to 18.</p>
+<p>Moving on to skills, you see that rangers receive fewer skill selections than rogues, so you start by selecting skills for the ranger. You add two for his Intelligence modifier for a total of eight skills at six ranks each. After selecting these eight skills, you move on to the rogue skills. The difference between the ranger and the rogue is two, meaning that you can select two more skills, with two ranks in each.</p>
+<p>After selecting his skills, you move on to his feats. Starting with his class feats, you select <Link to="/feat/rapid_shot">Rapid Shot</Link> as his ranger combat style feat. In addition, the forest guardian receives three additional feats for his class levels. Since you want him to be skilled at archery, most of these feats come from the ranged list, including <Link to="/feat/deadly_aim">Deadly Aim</Link> and <Link to="/feat/point_blank_shot">Point Blank Shot</Link>. To ensure that he is good with a rapier, you spend his final feat selection on <Link to="/feat/weapon_finesse">Weapon Finesse</Link>.</p>
+<p>Next you note all of his class and racial features, making whatever selections are necessary, such as favored enemy, favored terrain, hunter's bond, and rogue talents.</p>
+<p>Moving on to gear, you assign gear using the line for a 6th-level heroic NPC, giving him a +1 longbow, a masterwork rapier, +1 studded leather armor, a potion of invisibility, a potion of cure moderate wounds, and a pack full of nonmagic gear. Although he has a bit more gp in weapons than the chart allows, he has spent a bit less in armor, roughly balancing him out.</p>
+<p>With your task nearly completed, you add all of his statistics and details, naming him Kiramor. Your forest shadow is then ready to face off against the PCs.</p>
+<h3 id="rule-example_kiramor_the_forest_shadow-kiramor-the-forest-shadow">Kiramor, The Forest Shadow</h3>
+<p>Male elf ranger 4/rogue 2<br/>N Medium humanoid (elf)<br/>Init +4 (+6 in forests); Senses low-light vision; Perception +11 (+13 in forests)</p>
+<h4 id="rule-example_kiramor_the_forest_shadow-defense">Defense</h4>
+<p><strong>AC</strong> 18, touch 14, flat-footed 14 (+4 armor, +4 Dex)<br/><strong>hp</strong> 39 (4d10+2d8+6)<br/><strong>Fort</strong> +6, <strong>Ref</strong> +12, <strong>Will</strong> +2; +2 against enchantment<br/><strong>Defensive Abilities</strong> <Link to="/ability/evasion">evasion</Link>; <strong>Immune</strong> sleep</p>
+<h4 id="rule-example_kiramor_the_forest_shadow-offense">Offense</h4>
+<p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk rapier +10 (1d6+1/18-20)<br/><strong>Ranged</strong> +1 longbow +10 (1d8+1/&times;3)<br/><strong>Ranged</strong> +1 longbow +8+8 (1d8+1/&times;3)<br/><strong>Special Attacks</strong> favored enemy (humanoid [orc]), favored terrain (forest), rogue talents (bleeding attack), sneak attack (1d6)</p>
+<h4 id="rule-example_kiramor_the_forest_shadow-statistics">Statistics</h4>
+<p><strong>Str</strong> 13, <strong>Dex</strong> 18, <strong>Con</strong> 12, <strong>Int</strong> 14, <strong>Wis</strong> 10, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +5; <strong>CMB</strong> +6; <strong>CMD</strong> 20<br/><strong>Feats</strong> <Link to="/feat/deadly_aim">Deadly Aim</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/point_blank_shot">Point Blank Shot</Link>, <Link to="/feat/rapid_shot">Rapid Shot</Link>, <Link to="/feat/weapon_finesse">Weapon Finesse</Link><br/><strong>Skills</strong> Acrobatics +13, Climb +10, Escape Artist +9, Heal +9, Knowledge (geography) +11, Knowledge (nature) +11, Perception +11 (+13 in forests), Stealth +13, Survival +9 (+11 following tracks), Swim +6<br/><strong>Languages</strong> Common, Elven, Orc, Sylvan<br/><strong>SQ</strong> nature bond (wolf), track, trapfinding +1<br/><strong>Combat Gear</strong> potion of cure moderate wounds, potion of invisibility; <strong>Other Gear</strong> +1 <Link to="/eq-weapon/longbow">longbow</Link> with 40 arrows, mwk rapier, +1 studded leather armor, gear and coins worth 200 gp</p>
+</>};
+const _gamemastery_guide = {title: "GameMastery Guide", parent_topics: ["gamemastery"], siblings: ["basics_from_the_core_rulebook","gamemastery_guide","monster_rules","race_builder","creating_new_weapons","dungeons","traps","wilderness","urban_adventures","weather","the_planes","environmental_rules"], subtopics: ["getting_started","running_a_game","player_characters","non_player_characters","rewards","creating_a_world","adventures","advanced_topics","npc_gallery"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 4</Link></p>
+<p>You might already know what a Game Master is. But if you don't know, a Game Master (or GM) is the Pathfinder RPG player who arbitrates the rules of the game and controls the actions of every game element that isn't explicitly controlled by the other players. But as any experienced Game Master knows, being a GM is also much, much more.</p>
+<p><strong className="hl">Host:</strong> Game Masters are the unifying force behind most of the game, not just organizing a social event but providing excitement and entertainment for those who participate. <Link to="/rule/getting_started">Getting Started</Link> focuses on the GM's role as a host, presenting considerations on how to start a game, how to prepare for a session, and how to select a tone and rules that players will be eager to explore.</p>
+<p><strong className="hl">Mastermind:</strong> GMs work to keep a game's momentum moving in directions that entertain all the players while exploring the stories and settings they desire. To such ends, a GM manipulates dozens of elements, from how narrative components unfold to what rules are used and how they function in every situation. <Link to="/rule/running_a_game">Running a Game</Link> addresses a variety of topics that help GMs handle some of the most complicated aspects of their duties, from the details of how a GM actually performs in-game and frames a story to ways to create adventures and juggle the myriad aspects of a campaign.</p>
+<p><strong className="hl">Mediator:</strong> Just as GMs make sure all of a game's plots and rules work together to entertain, they must also ensure that the players themselves mesh and cooperate. From tips on handling unusual characters and common PC problems to the delicate tasks of introducing new players and addressing the needs of several gamer archetypes, <Link to="/rule/player_characters">Player Characters</Link> offers GMs a host of suggestions to help them avoid, ease, and handle the wide variety of challenges that arise from both in-game characters and their real-world players.</p>
+<p><strong className="hl">Actor:</strong> Through the GM, the cast of entire fantasy worlds takes the stage. In a given session, a Game Master might play a generous peasant or a conniving king, a rampaging dragon or an enigmatic deity. Whatever the persona, the GM's characters are only as convincing, endearing, despicable, or memorable as the person who portrays them. <Link to="/rule/non_player_characters">Non-Player Characters</Link> deals with designing and depicting non-player characters, encouraging players to take a vested interest in NPCs, creating sinister villains, and many more suggestions to bring even the smallest role to life.</p>
+<p><strong className="hl">Patron:</strong> While GMs constantly confront their players with all sorts of dangers, they also serve as the source of every reward the PCs ever gain, from each experience point to treasures of legend. <Link to="/rule/rewards">Rewards</Link> aids GMs in creating and managing a wide variety of rewards, and includes ways to handle common challenges presented by character wealth and bring new life and adventure to old treasures.</p>
+<p><strong className="hl">World Builder:</strong> Whether running games on Golarion, home of the official Pathfinder campaign setting, or on a world of their own creation, GMs control nearly every aspect of an entire fantasy reality. With not just one world, but perhaps even multiple planets, planes, or even stranger settings under the GM's direction, the more insight and forethought invested into the ways and workings of locations, the more believable these become. Details on these elements, along with considerations on societies, time, technology, and more fill <Link to="/rule/creating_a_world">Creating a World</Link>.</p>
+<p><strong className="hl">Storyteller:</strong> Among a GM's most important tasks is imagining and telling engaging stories. To aid in this task, <Link to="/rule/adventures">Adventures</Link> presents expansive discussions on several of the settings most common in the Pathfinder RPG, focusing on considerations and helpful rules GMs can employ wherever their tales might take them. In addition, numerous idea-generating charts and random encounter tables assure that GMs never lack for details or excitement once their stories reach their destinations.</p>
+<p><strong className="hl">Game Designer:</strong> Even with the vast range of options presented in the Pathfinder RPG Core Rulebook, only GMs know what threats their players might face or powers they might come to control. Just as GMs arbitrate the rules within their games, so can they manipulate, repurpose, and wholly invent new rules to improve their games. <Link to="/rule/advanced_topics">Advanced Topics</Link> not only offers GMs a variety of new rule subsystems and considerations for running challenging types of adventures, but also expands upon several existing rules elements and demonstrates how GMs can customize the rules they already know to perfectly fit the types of adventures they want to run.</p>
+<p><strong className="hl">Director:</strong> Over the course of a campaign, Game Masters have need of dozens of characters and hundreds of encounters, choosing and customizing each and presenting them however best aids the overarching plot. Yet creating these elements can prove a repetitive and time-consuming task. To aid in this process, <Link to="/rule/npc_gallery">NPC Gallery</Link> unveils a gallery of dozens of stat blocks for the types of NPCs most commonly encountered in the Pathfinder RPG. These characters can be used however the GM wishes, allowing him to focus on other, more exciting aspects of his campaigns.</p>
+<p>Regardless of skill or experience as a Game Master, it's likely that every GM can identify one of these roles as an area in which she lacks experience or confidence. This GameMastery Guide seeks to address such needs, counseling on challenging aspects of campaigns, contributing new options and inspirations, and refreshing the game's classic elements. Most importantly, the countless tools herein are designed not to change games or tell GMs how they should play, but rather to inspire new stories and save effort, leaving GMs with more time to run exactly the adventures they and their groups want to play - or have been playing for years.</p>
+</>};
+const _getting_started = {title: "Getting Started", parent_topics: ["gamemastery","gamemastery_guide"], siblings: ["getting_started","running_a_game","player_characters","non_player_characters","rewards","creating_a_world","adventures","advanced_topics","npc_gallery"], subtopics: ["a_game_masters_glossary","tone_and_maturity","the_gm_as_host","rules_of_the_house","preparing_to_run_a_game","creating_a_campaign_guide"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 8</Link></p>
+<p>While everyone at the table plays the game, the Game Master creates the world, breathing life into it in front of a small audience enraptured by his story. The Game Master works the hardest of everyone, spending night upon night before each game session carefully weaving the strands of fate and plotting the course of the adventurers' lives, working in twists, building encounters and monsters, and pouring blood, sweat, and tears into his creation. To use a common analogy, roleplaying games are like movies where the actors get to improvise and alter the script as they go, working off prompts from the Game Master. Extending this comparison, if the players are the actors, then the Game Master is the director - and often the screenwriter, even when basing the story on a published adventure. While this is a generic comparison, it illustrates some of the multiple roles the Game Master fills. The position can also be broken down into a number of other duties and responsibilities as follows.</p>
+<p><strong className="hl">Storyteller:</strong> Weaving plots involving the player characters and any number of non-player characters, leading dialogue, and unfurling a vast tapestry of ideas, stories, and adventure, the Game Master is a storyteller first and foremost. While the game is a collaborative narrative told from all sides of the table, the Game Master paves and maintains the road along which the adventurers walk.</p>
+<p><strong className="hl">Entertainer:</strong> Despite the best-laid plans and most intricate plots, if the game isn't fun and engaging, it isn't worth the effort. It's the Game Master's job to do whatever's necessary to keep the players' energy and interest up, immersing the group in the story through the use of strange voices, animated gestures, and generally making a fool of himself in the most classic sense. In order to fulfill the role of every individual the player characters encounter, the Game Master needs to be impressionist, comedian, and thespian all in one. In the role of the entertainer, the Game Master is the steward of every player's experience, keeping everyone at the table involved and the story moving along at the proper pace.</p>
+<p><strong className="hl">Moderator:</strong> While important in any game, the role of moderator becomes even more important in games with new players unfamiliar with the rules, or situations where the Game Master might be running a game for strangers, such as "organized play" sessions at gaming stores and conventions. Many players enjoy the tactical aspects of the game and make the most of the rules in and outside of combat. The Game Master should know what each character is capable of, as well as the abilities of the non-player characters and monsters, and should be prepared to pass judgment on any contradictory or disputed interpretations of the rules. And while it's important for the Game Master to be fair and hear out players' opinions and arguments, a good Game Master has the confidence and resolve to hold firm once he's made a decision.</p>
+<p><strong className="hl">Creator:</strong> Not only does the Game Master bring stories to the table, but many times he is also the creator of entire worlds. More often than not, he spends more time preparing for the session than the session actually takes to play. When not using a published setting or adventure, the Game Master must take the time outside of the game to create the plot, build enemies, construct encounters, develop magic items and spells, design monsters, and flesh out the world of adventure the players will soon inhabit.</p>
+<p><strong className="hl">Instructor:</strong> Not everyone is going to show up to the table with an equal - or even sufficient - understanding of the rules. Some of these players will be young, the new generation of gamers eager to enter into the ranks, and others will be friends you've encouraged to learn the joys of roleplaying games; some may even be fresh recruits at conventions or game stores. Everyone has a different aptitude for the admittedly complex rules of roleplaying games, and many people are intimidated by them. Part of a Game Master's role is to guide players in learning the game - after all, the majority of Game Masters playing today learned from another Game Master who was patient with them.</p>
+<p><strong className="hl">Player:</strong> Despite a pervasive myth, roleplaying games are not about pitting the Game Master against the players. They are not competitions, and the Game Master does not lose when the players succeed; rather, if the players leave the table feeling tested but triumphant, then the Game Master has achieved the best possible result. Though one person guides the game, everyone is a player in some sense. Game Masters must be as convincing with the non-player characters they control as the players are with their own characters, if not more so.</p>
+<p>In addition to these roles, the Game Master might also fill a handful of others. Many groups maintain a set of house rules for their games, and the Game Master has the final say on particular interpretations and arbitrations of rules (though everyone in the group should be aware of any house rules beforehand). The Game Master may also act as host for the game. At the least, the host provides an ample place to play. While some extraordinary Game Masters might provide all materials, including books, character sheets, pencils, dice, miniatures, and a battlemat, groups should decide upon those details themselves. As the host for a game, it is important to provide a surface large enough to play upon, a place for everyone to sit, reasonable facilities, and the desire to get a good game going. Whether played at a Victorian dining table lit with candelabras, on the floor of a spartan apartment, in the library during recess, or in the back of a van on the way to a family camping trip, roleplaying games can be tailored to most any situation, as long as there's excitement and a desire to play.</p>
+</>};
+const _a_game_masters_glossary = {title: "A Game Master's Glossary", parent_topics: ["gamemastery","gamemastery_guide","getting_started"], siblings: ["a_game_masters_glossary","tone_and_maturity","the_gm_as_host","rules_of_the_house","preparing_to_run_a_game","creating_a_campaign_guide"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 9</Link></p>
+<p>Listed below are a few terms with which all new Game Masters should be familiar. These terms are mentioned throughout the Pathfinder RPG Core Rulebook and, beyond those presented in the <Link to="/rule/common_terms">Common Terms</Link> section, are among the most important in the Game Master's lexicon.</p>
+<p><strong className="hl">Adventure:</strong> An adventure is a self-contained storyline the PCs experience. An adventure is composed of a series of encounters furthering the storyline.</p>
+<p><strong className="hl">Campaign:</strong> A collection of stories weaving into an overreaching narrative. It may be a string of published adventures, a chain of homebrewed material, or an Adventure Path designed to be played as a series. A campaign may or may not have a definitive or predefined end point.</p>
+<p><strong className="hl">Campaign Arc:</strong> A sequence of adventures that mesh well with each other, usually part of a larger campaign. Game Masters often run these shorter arcs to create a story that's more concise than a full campaign but longer than a single adventure.</p>
+<p><strong className="hl">Encounter:</strong> An encounter is a short scene in which the PCs are actively doing something. Examples of encounters include a combat with a monster, a social interaction significant to the adventure's plot, an attempt to disarm a trap, or the discovery of a mystery or clue requiring further investigation.</p>
+<p><strong className="hl">Metagaming:</strong> This is when characters act on information that they don't have access to, but which their players know from the real world. Metagaming comes into play when players fail to maintain a divide between in-character knowledge and out-of-character knowledge. That could include anything from uncannily accurate in-character predictions from a player who's already read the adventure, players recognizing monsters when their characters wouldn't, low-Intelligence characters accessing well-educated players' knowledge and talents, etc.</p>
+<p><strong className="hl">Session:</strong> A session is a single bout of gaming. Not every session ties up an adventure; many adventures require multiple sessions to complete. The duration of sessions varies from group to group, from a few hours to a weekend.</p>
+</>};
+const _tone_and_maturity = {title: "Tone and Maturity", parent_topics: ["gamemastery","gamemastery_guide","getting_started"], siblings: ["a_game_masters_glossary","tone_and_maturity","the_gm_as_host","rules_of_the_house","preparing_to_run_a_game","creating_a_campaign_guide"], subtopics: ["style_of_play","tone_and_setting","group_styles","retaining_interest","sensitive_topics"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 10</Link></p>
+<p>Players come to games to feel larger than life, and each brings a character that has aspirations, desires, abilities, and unique ways of looking at the world. The Game Master's job is to help guide the story and involve each character in a way that makes her actions feel meaningful. This means listening to the players while simultaneously keeping your own preferences in mind. No two gaming groups are the same, so groups that discuss their preferences for styles of play, tone, and group dynamics are more likely to enjoy long-running, trouble-free games.</p>
+</>};
+const _style_of_play = {title: "Style of Play", parent_topics: ["gamemastery","gamemastery_guide","getting_started","tone_and_maturity"], siblings: ["style_of_play","tone_and_setting","group_styles","retaining_interest","sensitive_topics"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 10</Link></p>
+<p>Finding the right fit with a group depends on a shared preference of styles of play and the willingness to compromise. Does your group prefer to focus more on combat or roleplaying? The former style moves quickly through the story and centers primarily on fun tactical situations. If it's the latter, games should highlight character development and storyline, and it wouldn't be unusual to have an entire session pass without combat. Most groups fit somewhere in the wide middle of this spectrum, but knowing what your players enjoy most is crucial to keeping everyone entertained.</p>
+</>};
+const _tone_and_setting = {title: "Tone and Setting", parent_topics: ["gamemastery","gamemastery_guide","getting_started","tone_and_maturity"], siblings: ["style_of_play","tone_and_setting","group_styles","retaining_interest","sensitive_topics"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 10</Link></p>
+<p>Once your players decide what style of game they're looking for, it's time to consider tone and setting. A group that's more interested in lighthearted silliness will disappoint a Game Master wanting to run a creepy horror campaign. Setting and tone determine whether you're running a complex, gritty political game in which the PCs unravel conspiracies or a high-magic and high-action fantasy epic involving bizarre monsters and divine mandates. Setting encompasses the central themes and tropes of your world, and tone is the feel, whether that's gritty realism or fairy-tale derring-do. The desired magic level is also worth discussing early on, as some players like readily available magic, while others prefer it to be exclusive and rare, only finding a handful of magic items throughout their entire career. A short meeting before launching the campaign allows you to tailor the experience for your players, and most players appreciate the effort to satisfy everyone's tastes.</p>
+</>};
+const _group_styles = {title: "Group Styles", parent_topics: ["gamemastery","gamemastery_guide","getting_started","tone_and_maturity"], siblings: ["style_of_play","tone_and_setting","group_styles","retaining_interest","sensitive_topics"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 10</Link></p>
+<p>In addition to focusing on the game-specific themes and styles, consider the group of players sitting around the table. Are they looking for a casual "beer and pretzels" game, or are they committed roleplayers looking for a deeply immersive campaign? Have you been playing with the same group for years? Is everyone at the table a complete stranger in a session you're running at a convention or a game store? Each of these different group styles requires a different performance from the Game Master. Casual groups require less focus and can often be more forgiving of mistakes, glossing over problematic situations in favor of hanging out and enjoying a shared hobby. Committed roleplayers can demand significantly more focus and attention, as each player brings a complex and interesting character in need of development within the game. Some Game Masters find convention play or hobby store play difficult because they lack a point of reference for the newly formed group. In these cases, a bit of small talk before the game begins often offers cues as to players' interests. Use time before play begins to ask a few focused questions about not only the players, but also their characters.</p>
+</>};
+const _retaining_interest = {title: "Retaining Interest", parent_topics: ["gamemastery","gamemastery_guide","getting_started","tone_and_maturity"], siblings: ["style_of_play","tone_and_setting","group_styles","retaining_interest","sensitive_topics"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 10</Link></p>
+<p>Listening to your players is important not only when looking to start a new campaign but also during the course of the story. From your seat at the game table, you can tell who's engaged and who's not. The goal should always be to figure out what's going to grab the bored, distracted, or annoyed players and get them back in the game (without sacrificing the fun of the others, of course). If during the last game session a particular player seemed bored when it wasn't her turn at combat, make a point to chat with her about the reasons why. Maybe she doesn't feel like her character is performing well or getting enough of the spotlight outside of combat. It often only takes a slight tweak or a single encounter tailored to her skill set to make a disenfranchised player feel like a valuable part of the group.</p>
+<p>Always be open to switching things up. Players inevitably throw wrenches into the Game Master's plans, despite how obvious a lead seems or how convincing a hook sounds. Don't be afraid to play off their creativity the same way they do with yours. If you have a plot the characters are trying to unravel, and the solutions they come up with make more sense than your prepared ones, try ignoring the original resolution from your notebook or a published adventure and turning the story in a new direction - the players never need know about the original version, and you can take full credit for their enjoyment. Similarly, if the players keep going off track and getting involved in events outside of your planned story, that might be a sign that your players are interested in a different sort of game than you originally crafted. And even if you have great empathy with your gaming group and give them everything they want, remember that tastes can change over time. Remember what your players enjoyed and try to perform in that way again, but realize your players likely have varied palates and can enjoy a wide range of game types.</p>
+</>};
+const _sensitive_topics = {title: "Sensitive Topics", parent_topics: ["gamemastery","gamemastery_guide","getting_started","tone_and_maturity"], siblings: ["style_of_play","tone_and_setting","group_styles","retaining_interest","sensitive_topics"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 11</Link></p>
+<p>Mature themes like cannibalism, drug use, gory violence, profanity, prostitution, and various forms of sexuality sometimes come up in the game, and not every group deals with them in the same way. Knowing the group of people you're playing with and accurately gauging their comfort zone is crucial to keeping a session enjoyable. If you anticipate anyone at your table being uncomfortable with certain mature themes, talk to your players beforehand. Determine their preferred treatment of the issues, and respect their preferences when deciding how heavily you want to play up those themes. If your group openly discusses sexuality, fondly recalls the gruesome scenes from a favorite horror film, or makes frequent off-color jokes, then it's probably fine including those themes in your campaign (though not necessarily; the player with the filthiest mouth or biggest slasher-movie collection might still be sensitive to certain issues).</p>
+<p>Instead of deciding everything ahead of time, you can also seed given elements into your adventure bit by bit to determine players' comfort level. For example, if you have a lecherous non-player character attempting to seduce a player character, drop a few hints, subtle at first, and see if the character takes the bait. Watching the player's reaction indicates their comfort level with the topic and lets you know how close to the boundary you can play. And of course, there's a difference between dropping hints and innuendos and graphically describing the dwarven lovers' sweaty embrace. A little mature content goes a long way.</p>
+<p>Because combat is a core element of the game, violence happens. But just as children's TV shows can provide action without gore, so too is there a spectrum in roleplaying. Violence, or rather how graphically violence is portrayed, is one element in determining how appropriate movies and video games are for different ages and sensibilities, and a similar determination can be made for different styles of roleplaying. Depending on the context, you can describe the same combat with a simple "you hit him with your sword," or create a more visceral description of the same action: "you hit him with your sword,"</p>
+<p>Adult themes can be an excellent way to get the characters to react to a villain or event. A foul villain who uses men and women as sexual playthings before strangling them in the carnal act can produce fear, anger, and a thirst for vengeance in even the most peaceful of characters.</p>
+<p>The level of comfort regarding violence can also change depending on the victim. While it may be perfectly acceptable for some groups to murder a bugbear villain, murdering a child - even for the greater good - is probably pushing the boundaries too far. In fact, involving children, animals, or other innocents at all can be a dangerous game: you might think that a villain who abuses animals is the ultimate example of depravity (and hence a great antagonist), but your players might not be prepared to talk about such things, even in the context of fighting against them.</p>
+<p>It's also important that, if you enjoy a game involving a lot of questionable morality and "lesser of two evils" plots, your party has similar inclinations. Allying with an obvious evil character in pursuit of mutual goals might feel like gritty realism to you, but others might see it as in poor taste, or completely against their characters' alignments. If you design an encounter that strains your paladin's commitment to his beliefs, make sure the player enjoys that sort of thing. In all situations, be mindful of the group's sensitivity and design your games accordingly.</p>
+<p>If you feel certain styles or topics might turn off your players but still want to include them, consider testing the waters with your group by running that style of game as a one-shot and not something destructive to your regular campaign. When playing with strangers, young people, or with other potentially sensitive players, or when playing in a public place, it's best to keep any adult content out of your games. While society tolerates violence to some extent, other adult topics better suit more private, mature groups. Remember, some players might not want to see gritty real-world topics in their lighthearted weekly game. Above all, know your players' the better you know the preferences of the group you play with, the more enjoyable the game will be for everyone involved.</p>
+</>};
+const _the_gm_as_host = {title: "The GM as Host", parent_topics: ["gamemastery","gamemastery_guide","getting_started"], siblings: ["a_game_masters_glossary","tone_and_maturity","the_gm_as_host","rules_of_the_house","preparing_to_run_a_game","creating_a_campaign_guide"], subtopics: ["number_of_players","small_groups","large_groups","finding_players","where_to_play","the_building","the_room","when_to_play"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 12</Link></p>
+<p>The GM's primary job is to run the game, but there's more to that task than just rolling dice and orchestrating ingame challenges. As the group member most responsible for the game's success, the GM is also the de facto host for each session, in charge of handling or delegating the logistics behind the fun.</p>
+<p>The social side of a session is at least as important as the quality of the game itself. Adult gamers might rarely get time to socialize, given the pressures of jobs, families, and homes, so game night becomes a welcome chance to spend time with friends, no different than a night of board games, movies, or poker. And like any party, there's work to be done both before and after.</p>
+<p>Some of the following issues can be delegated to a willing player, but ultimately, all of them are the GM's responsibility.</p>
+</>};
+const _number_of_players = {title: "Number of Players", parent_topics: ["gamemastery","gamemastery_guide","getting_started","the_gm_as_host"], siblings: ["number_of_players","small_groups","large_groups","finding_players","where_to_play","the_building","the_room","when_to_play"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 12</Link></p>
+<p>Before a game ever begins it's up to the GM to decide how many players to invite to play. While there is no firm minimum or maximum limit to how many players a game can accommodate, this choice is largely a matter of how many players the GM expects he can comfortably manage and what limitations a game's expected play space present. Although most published adventures present challenges for parties with four characters, any encounter can easily be customized to suit the needs of any size group.</p>
+</>};
+const _small_groups = {title: "Small Groups", parent_topics: ["gamemastery","gamemastery_guide","getting_started","the_gm_as_host"], siblings: ["number_of_players","small_groups","large_groups","finding_players","where_to_play","the_building","the_room","when_to_play"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 12</Link></p>
+<p>Groups of two or three can allow for more intense roleplaying, but they require you to carefully craft your challenges to be appropriate for fewer players. You'll also need to compensate for any major abilities that may be missing from the party.</p>
+<p>A simple way to accomplish the latter is to eliminate the need for those abilities. For example, if the party lacks a rogue, you may wish to remove traps and locks from the party's path. Another method is to introduce an NPC who has the needed abilities - just so long as that NPC doesn't steal the spotlight. Alternatively, you can give the characters magic items that perform the necessary function, such as healing potions and wands for the party without a healer. Last but not least, if the players are experienced enough to handle it, you might enjoy letting each player play two characters to round out the group.</p>
+</>};
+const _large_groups = {title: "Large Groups", parent_topics: ["gamemastery","gamemastery_guide","getting_started","the_gm_as_host"], siblings: ["number_of_players","small_groups","large_groups","finding_players","where_to_play","the_building","the_room","when_to_play"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 12</Link></p>
+<p>Groups of more than six players offer more character options, but they also tend to be louder and harder to manage. The more characters there are, the more complex combat becomes and the longer each person has to wait for his turn, making it easier for distractions and side conversations to get out of hand or for naturally shy players to be overlooked. It's generally best not to take on more than six players at a time unless you're experienced enough to make combat move along smartly without looking up a lot of rules.</p>
+</>};
+const _finding_players = {title: "Finding Players", parent_topics: ["gamemastery","gamemastery_guide","getting_started","the_gm_as_host"], siblings: ["number_of_players","small_groups","large_groups","finding_players","where_to_play","the_building","the_room","when_to_play"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 12</Link></p>
+<p>Once you know how many players you'd like to have, it's time to organize a group. Start by talking to friends and family members you'd like to include. Mixing ages is fine so long as there are enough common interests.</p>
+<p>If there's still room at your game table, you can consider people you don't yet know or know only tangentially. Coworkers and friends of friends are usually the first to be included in this set, especially if your players have sung the praises of your game to other people.</p>
+<p>Outside of such personal contacts, there are a number of other ways to find players. Try contacting a local game store about putting up a flier with your contact information, or see if there's a gaming club at your school or the local college. The Internet offers instant access to thousands of gamers via free classified ads or message boards, and there are several websites specifically devoted to helping local gamers connect, such as the Gamer Connection forum on <a href="https://www.paizo.com/">paizo.com</a>. (Of course, safety always comes first - you should meet strangers in public places with plenty of people around and should never give out more personal information than an email address until you trust someone.)</p>
+<p>Last but not least, when in doubt, go where the gamers are. Attend a local game convention, science fiction movie opening, or other event that might be of interest to gamers. Talk to people there, and if you find a gamer who lives nearby, mention that you're looking for players and provide contact information.</p>
+<p>If you don't want to do the recruiting yourself, you can allow one or more players to handle it, but it's a good idea to ask that they run any potential new players past you - or even the whole group - for approval before inviting them to a session.</p>
+<p><strong className="hl">A word of warning:</strong> As with any party, it's important to make sure that everyone you invite to your game gets along with the rest. While you can't predict every conflict, you can do your best to avoid obvious problems - this might be a player whose style doesn't match the rest of the group (see <Link to="/rule/player_interactions">Problem Players</Link>), or a player with a more obvious conflict, such as a current player's ex-spouse. A lot of gaming groups fall apart because of interplayer conflict. As a result, when taking a chance on a new player, it's generally best to issue a limited invitation, such as for a single adventure, and then decide from there. Don't let a party member who's friends with a potential player - or worse, the potential player himself - pressure you into inviting him back if he isn't right for your game.</p>
+</>};
+const _where_to_play = {title: "Where to Play", parent_topics: ["gamemastery","gamemastery_guide","getting_started","the_gm_as_host"], siblings: ["number_of_players","small_groups","large_groups","finding_players","where_to_play","the_building","the_room","when_to_play"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 13</Link></p>
+<p>The optimum gaming space has the following features.</p>
+<ul>
+<li>A low-traffic room, where the game won't be disturbed by non-players or noise from other areas.</li>
+<li>A comfortable place for everyone to sit, with a good view of the gaming surface, plus space for rolling dice and writing notes.</li>
+<li>A large, flat playing surface with room for a battlemat and miniatures.</li>
+<li>Extra space for rulebooks, maps, notes, and other essentials.</li>
+<li>Bookshelves to hold reference materials.</li>
+<li>Easy access to snacks, beverages, and a bathroom.</li>
+</ul>
+</>};
+const _the_building = {title: "The Building", parent_topics: ["gamemastery","gamemastery_guide","getting_started","the_gm_as_host"], siblings: ["number_of_players","small_groups","large_groups","finding_players","where_to_play","the_building","the_room","when_to_play"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 13</Link></p>
+<p>It's often most convenient for you as GM to play in your own house, since all your gaming stuff is already there. Players usually have fewer books and tend to depend on GM copies for reference during games. If you and your players use a great many books and supplements, it's hard to lug them all to someone else's house - and if you take only a few, you'll almost certainly forget one that someone wants. Yet setting up shop at whichever member's house is best suited for it works as well, especially if there's room to store gaming materials between games.</p>
+<p>Some groups successfully rotate houses, and there's a lot of merit in such an arrangement: no one is always stuck with cleaning up the inevitable post-game mess, and the disruption to any single household's routine is minimal. Furthermore, you can delegate some of the hosting duties to the player who lives there: particularly the snacks, beverages, and physical comforts. The key to making such an arrangement work is to either ensure that all the households have ready access to the needed materials, or else delegate players to bring them each time.</p>
+<p>Some groups play in the local game shop, either out in the open or in a back room. If the shop caters to roleplayers, the owners might consider it good business to have a regular campaign running where customers can see it. This arrangement requires some patience on the part of everyone at the table, since the party will likely be expected to greet watchers pleasantly and answer their questions during the game. It also requires keeping the game family-friendly, as parents with children may be watching. If you've been looking for more players, a public game can be a great recruiting tool. If your game is closed, the back room of the game store may be a better bet.</p>
+<p>In nice weather, playing outside in a barn or gazebo, or even at a picnic table or on the grass can be fun too - just be sure to weight down character sheets and notes so you don't have to chase them when the wind picks up.</p>
+</>};
+const _the_room = {title: "The Room", parent_topics: ["gamemastery","gamemastery_guide","getting_started","the_gm_as_host"], siblings: ["number_of_players","small_groups","large_groups","finding_players","where_to_play","the_building","the_room","when_to_play"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 13</Link></p>
+<p>The traditional gaming space is a table big enough to seat all the players and the GM, but that's not strictly necessary. The dinner table is often the surface of choice because it provides enough space for a battlemat and minis, plus plenty of seating. However, the dining room tends to be a central, high-traffic space in a house, and it usually isn't where a game library is kept. A small room where everyone can easily see and hear everyone else, with a bit of floor space for a map and minis, can work just as well. If you share your abode with other people, make sure that your presence won't disturb the rest of the household and that its regular activities won't disturb you.</p>
+</>};
+const _when_to_play = {title: "When to Play", parent_topics: ["gamemastery","gamemastery_guide","getting_started","the_gm_as_host"], siblings: ["number_of_players","small_groups","large_groups","finding_players","where_to_play","the_building","the_room","when_to_play"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 13</Link></p>
+<p>Sometimes games aren't hard to schedule. If you and your players all live near each other in college dorms, you might have no trouble getting a game together every night. But if you or your players have other responsibilities, scheduling can become a major headache.</p>
+<p>One of the easiest ways is to have a regular schedule. Some campaigns are played weekly, others biweekly, and still others monthly. More frequent games are rare and usually unsustainable, as are games with more than a month between them, since players tend to forget what's going on after a while. A weekly game is optimal for many people since it's easy to remember. Weekends tend to be better for working people, but constant weekend availability is probably impossible for any one person. Weekdays after school may work for parents and students, but choosing a day can be tricky, since sports and club meetings may interfere for long periods.</p>
+<p>If you do decide to go for biweekly or monthly games, you may want to make the sessions longer. Try scheduling an entire day for a monthly game - or even a weekend, if your household is up to overnight guests. For a game with low meeting frequency, be sure to remind everyone when the next session is coming up. You'll also need to prepare a good recap of what happened in the previous adventure so the players know where the characters were when you left off.</p>
+<p>If you opt for an irregular schedule, you'll need to schedule every session, which can be more difficult, as players don't have the option of always leaving certain days open. Scheduling an irregular game can happen at the end of each session or via group emails and phone calls.</p>
+</>};
+const _rules_of_the_house = {title: "Rules of the House", parent_topics: ["gamemastery","gamemastery_guide","getting_started"], siblings: ["a_game_masters_glossary","tone_and_maturity","the_gm_as_host","rules_of_the_house","preparing_to_run_a_game","creating_a_campaign_guide"], subtopics: ["player_absence","calling_off_a_session","food_at_the_game_table","children_and_pets","other_activities_at_the_game_table","out_of_character_talking","interplayer_conflict"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 14</Link></p>
+<p>Once you have a place to play and a date for your first session, it's time to decide what "house rules" are needed for your campaign. While the term normally refers to modifications to the mechanics of the game, house rules can also be the literal rules of the house, covering the basic courtesies and dynamics of the game table. Some typical house rules are discussed below, but this list is by no means exhaustive. Discuss the issues and the options for handling them with your players before play begins, and make sure everyone agrees to abide by the final decision. If you see a need for a new house rule as play proceeds, talk to your players outside of the game, then implement the new rule at the next session, reminding the group about it before play begins.</p>
+</>};
+const _player_absence = {title: "Player Absence", parent_topics: ["gamemastery","gamemastery_guide","getting_started","rules_of_the_house"], siblings: ["player_absence","calling_off_a_session","food_at_the_game_table","children_and_pets","other_activities_at_the_game_table","out_of_character_talking","interplayer_conflict"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 14</Link></p>
+<p>What happens to a character when its player is absent from a session? Below are some of the most common solutions.</p>
+<p><strong className="hl">Another player plays the character.</strong> This is a simple solution, but be warned that the other player may be unskilled with the class or simply unable to think of appropriate actions. If the character dies, the absent player is inevitably distressed, and legitimately so. Even if the character survives, the other player will almost certainly play it differently, which may result in unfortunate consequences for the character or the party. This arrangement has the best chance of working when each player designates a specific person to play her character, with no holds barred.</p>
+<p><strong className="hl">The GM plays the character as an NPC.</strong> This solution presents some of the same problems as giving the character to another player. As GM, you have enough to handle - you don't need the additional hassle of trying to run a PC in the game. Though you may be more cautious with the character than another player and are less likely to get the PC killed (since you know what challenges she will face), you won't be able to give as much attention as the regular player would, and any negative consequences are likely to bring resentment from the player.</p>
+<p><strong className="hl">The character leaves the group to do something behind the scenes.</strong> This solution is usually workable, though the party may keenly feel the lack of that character's skills during the session. Sometimes you might have to play the character for a bit to finish a combat, but a short-term withdrawal usually works. The main problem with this technique is that you must provide a logical in-game exit and re-entrance opportunity, and tie those in with the storyline.</p>
+<p><strong className="hl">The character disappears from the group, reappears when the player does, and no notice is taken of the event.</strong> This solution is quite simple, but it requires a degree of maturity to pull off. The character was there, then simply is not. After a time, she's there again. The GM does not need to find something else for her to do or stage an exit and re-entrance. When she reappears, the character may know what happened in her absence, or may not, depending on the group's preference.</p>
+</>};
+const _calling_off_a_session = {title: "Calling off a Session", parent_topics: ["gamemastery","gamemastery_guide","getting_started","rules_of_the_house"], siblings: ["player_absence","calling_off_a_session","food_at_the_game_table","children_and_pets","other_activities_at_the_game_table","out_of_character_talking","interplayer_conflict"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 14</Link></p>
+<p>After how many bail-outs do you call off the game for the night? The answer to this question may depend on the size of your group. Obviously, if you have only one or two players, then a single absence makes play infeasible. With a larger group, you have more flexibility. Some GMs make it a rule to run for no fewer than two or three players. Others require a larger percentage of the party.</p>
+<p>One way to deal with a session that only half the players can attend is to split the party and allow those present to pursue a side adventure for an evening. In this case, it pays to keep a small-group adventure available.</p>
+<p>If absences become a chronic problem, some GMs may choose to invite slightly more players into a campaign than they need, with the assumption that one or two will always have scheduling conflicts. While it can be fun to have a rotating cast, this method can also require both the players and the GM to play fast and loose with continuity and bookkeeping... and requires the GM to be comfortable running a big group if everyone shows up.</p>
+</>};
+const _food_at_the_game_table = {title: "Food at the Game Table", parent_topics: ["gamemastery","gamemastery_guide","getting_started","rules_of_the_house"], siblings: ["player_absence","calling_off_a_session","food_at_the_game_table","children_and_pets","other_activities_at_the_game_table","out_of_character_talking","interplayer_conflict"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 14</Link></p>
+<p>While it's possible to insist that players not eat or drink at the game table, it's hard to enforce such a rule. Roleplaying sessions take a long time, and people get hungry and thirsty. You can set up snacks on a separate table or in a different room, but they're likely to find their way to the game table anyway.</p>
+<p>If you decide to allow food at the table, you'll have to prepare for the inevitable messes. Keep towels at the table to quickly clean up spilled beverages, and encourage the use of plastic page protectors for character sheets. It's a good idea to keep reference books off the table for the same reason.</p>
+<p>Also note that food and beverages aren't free. If you rotate locations, you can agree that snacks are the responsibility of the house where the game occurs, ask that everyone bring a snack or beverage to share, or simply pass the hat at each session for contributions to the snack fund.</p>
+</>};
+const _children_and_pets = {title: "Children and Pets", parent_topics: ["gamemastery","gamemastery_guide","getting_started","rules_of_the_house"], siblings: ["player_absence","calling_off_a_session","food_at_the_game_table","children_and_pets","other_activities_at_the_game_table","out_of_character_talking","interplayer_conflict"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 14</Link></p>
+<p>If the house where you play has very young children, it's best to keep them out of the game room altogether. If this isn't possible, then everyone must be sure to keep dice and minis off the floor, as such objects may constitute choking hazards.</p>
+<p>Pets can likewise cause problems at the game table. If anyone is allergic to animal fur, courtesy demands that the animals be kept out of the room. This solution also prevents a random doggy tail swipe from clearing the battlemat, or a kitty from turning the minis into cat toys. Still, if everyone enjoys the company of the animals, it may be fine to allow their presence.</p>
+</>};
+const _other_activities_at_the_game_table = {title: "Other Activities at the Game Table", parent_topics: ["gamemastery","gamemastery_guide","getting_started","rules_of_the_house"], siblings: ["player_absence","calling_off_a_session","food_at_the_game_table","children_and_pets","other_activities_at_the_game_table","out_of_character_talking","interplayer_conflict"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 15</Link></p>
+<p>Despite your best efforts, you won't always be able to keep all your players engaged with the action. Large combats may drag, and if you have a lot of people at the table, it may take quite a while for a player's next turn to come up. Furthermore, the party may split, requiring you to divide your attention between groups.</p>
+<p>In such situations, players may want to fill the time between turns with other activities. Someone might bring a book, a knitting project, or some figures to paint. Others might spend the time creating new characters. Finally, some players might sit and chat about out-of-game topics. As long as the alternate activities aren't distracting either the player involved or the other players from the game, it's probably fine to allow them. If they start distracting the player involved to the point where he can't follow what's happening in-game, however, the group may want to ban those activities, or simply ask him to find another.</p>
+<p>If the alternate activities are disturbing the other players, you can ask that those involved move to another area, away from the table. Just moving over to the living room couch may suffice; those involved can still hear the action, but the other players won't see what they're doing. Alternatively, those not involved with the action could make the popcorn, refill people's beverages, and pick up the snack debris. Doing so can provide them with an opportunity to chat in another room for a while.</p>
+</>};
+const _out_of_character_talking = {title: "Out-of-Character Talking", parent_topics: ["gamemastery","gamemastery_guide","getting_started","rules_of_the_house"], siblings: ["player_absence","calling_off_a_session","food_at_the_game_table","children_and_pets","other_activities_at_the_game_table","out_of_character_talking","interplayer_conflict"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 15</Link></p>
+<p>Roleplaying requires lots of in-character conversation, but plenty of out-of-character chatter happens at the game table as well. It's not usually difficult to separate them when the table talk is about the science homework or the plumber's impending visit. But when the players are talking about what to do with the orc prisoner, it can be tough for the GM to determine whether they're actually making threats or just theorizing, which can lead to problems if the NPCs show their hands by reacting to something a player didn't intend to say in character.</p>
+<p>One option is to simply require a player to stand up or make a specific hand gesture when talking out of character. Alternatively, you could have everyone use an accent when speaking in character. As long as everyone understands the convention, it should take the group only a few sessions to become used to it.</p>
+</>};
+const _interplayer_conflict = {title: "Interplayer Conflict", parent_topics: ["gamemastery","gamemastery_guide","getting_started","rules_of_the_house"], siblings: ["player_absence","calling_off_a_session","food_at_the_game_table","children_and_pets","other_activities_at_the_game_table","out_of_character_talking","interplayer_conflict"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 15</Link></p>
+<p>Though the members of adventuring parties usually have common goals, they don't always get along. Some party disputes arise from in-character conflicts, such as alignment or history. Others happen because the players behind the characters are angry at one another.</p>
+<p>Most party bickering isn't harmful, and some may even be entertaining. However, if party members draw steel against one another, it's probably time to intervene. A house rule that mandates an out-of-game discussion when such a situation occurs is highly recommended, as are rules discouraging intraparty duels and theft and encouraging players to work as a team rather than splitting off into groups, which results in less game time for everyone.</p>
+</>};
+const _preparing_to_run_a_game = {title: "Preparing to Run a Game", parent_topics: ["gamemastery","gamemastery_guide","getting_started"], siblings: ["a_game_masters_glossary","tone_and_maturity","the_gm_as_host","rules_of_the_house","preparing_to_run_a_game","creating_a_campaign_guide"], subtopics: ["things_to_have_at_the_table","seven_essentials_for_good_preparation","published_or_homegrown","sharing_the_load","one_shot_games","campaigns","winging_it"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 16</Link></p>
+<p>Great Game Masters make running a game look easy, weaving memorable characters, breathless action, and vivid descriptions into unforgettable tapestries of fantasy. Players in a well-run game have a sense of danger (and a sense of accomplishment in overcoming it), plus a general feeling of spontaneity as events unfold and the characters rise to meet new challenges.</p>
+<p>Such magical experiences require plenty of preparation, even a sense of spontaneity - it's tough to seem spontaneous when you're shuffling though notes.</p>
+</>};
+const _things_to_have_at_the_table = {title: "Things to Have at the Table", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game"], siblings: ["things_to_have_at_the_table","seven_essentials_for_good_preparation","published_or_homegrown","sharing_the_load","one_shot_games","campaigns","winging_it"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 16</Link></p>
+<p>Supplies and materials on the list that follows keep the game from derailing as you fumble for what you need.</p>
+<p><strong className="hl">Rulebooks and Other Game Materials:</strong> You need copies of whatever rules are in use, plus a copy of any supplement or expansion that deals with player character abilities. If it's a book that's referenced frequently by players, it's often appropriate to ask players to provide their own copies.</p>
+<p><strong className="hl">Dice:</strong> An inadequate supply of dice can slow a game to a crawl. At minimum, make sure each player has a full set of the dice most commonly used in the game: d4, d6, d8, d10, d12, and d20.</p>
+<p><strong className="hl">Writing Materials:</strong> Everyone needs a pencil and some notepaper. In addition, it's a good idea to keep a supply of blank character sheets handy.</p>
+<p><strong className="hl">Miniatures:</strong> Many GMs use miniatures to keep track of the action. These work best on a scale map of the adventure scene, typically a gridded battlemat suitable for use with erasable markers (such as GameMastery Flip-Mats), though the right computer equipment can project or print maps to scale.</p>
+<p><strong className="hl">Props and Associated Supplies:</strong> Props and player handouts, such as sketches of important items, maps for player reference, and written notes, can speed play and help hold the players' interest.</p>
+</>};
+const _seven_essentials_for_good_preparation = {title: "Seven Essentials for Good Preparation", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game"], siblings: ["things_to_have_at_the_table","seven_essentials_for_good_preparation","published_or_homegrown","sharing_the_load","one_shot_games","campaigns","winging_it"], subtopics: ["know_the_characters_and_the_players","know_the_scene","know_the_story","know_the_adversaries","know_the_rules","dont_overdo_it","lay_a_few_alternate_plans"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 16</Link></p>
+<p>Exactly what kind of preparation is needed varies from game to game. If you follow this checklist, however, you'll be ready for just about anything.</p>
+</>};
+const _know_the_characters_and_the_players = {title: "Know the Characters and the Players", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game","seven_essentials_for_good_preparation"], siblings: ["know_the_characters_and_the_players","know_the_scene","know_the_story","know_the_adversaries","know_the_rules","dont_overdo_it","lay_a_few_alternate_plans"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 16</Link></p>
+<p>Sit down with all the character sheets and look them over carefully. Consider what each character can do in the game: major powers, secondary powers, special abilities, and inherent traits. This helps you anticipate what your players might do in any given situation.</p>
+<p>Pay special attention to powers that work automatically or passively, for example, an ability to detect impending danger or notice concealed doors. It falls to you to make sure such abilities work when and how they should.</p>
+<p>Knowing your players can prove as important as knowing their characters. Many players develop favorite tricks and stunts with their characters' powers, or well-ingrained misconceptions about what their characters can or cannot do. Knowing these quirks can help you keep the players engaged and challenged and can deflect problems before the dice hit the table.</p>
+</>};
+const _know_the_scene = {title: "Know the Scene", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game","seven_essentials_for_good_preparation"], siblings: ["know_the_characters_and_the_players","know_the_scene","know_the_story","know_the_adversaries","know_the_rules","dont_overdo_it","lay_a_few_alternate_plans"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 16</Link></p>
+<p>Get familiar with the scene where the action will occur. If you're running a published adventure, read through it carefully. Not only should you know the answers to basic questions ("How high is the ceiling here?"), but you should also be able to convey sensory details.</p>
+<p>Next, take a moment to get familiar with each adventure site's layout. Note the major features and where they lie in relation to each other. Pay special attention to entrances, exits, stairwells, and other features that the characters will use to move around.</p>
+</>};
+const _know_the_story = {title: "Know the Story", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game","seven_essentials_for_good_preparation"], siblings: ["know_the_characters_and_the_players","know_the_scene","know_the_story","know_the_adversaries","know_the_rules","dont_overdo_it","lay_a_few_alternate_plans"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 16</Link></p>
+<p>Some games don't have much story: the characters simply endure whatever you decide to throw at them. But even such straightforward adventures will run a little better if you take time to consider how the adversaries came to be in the party's way, what they're doing when the party appears, and how they might react to intrusion.</p>
+<p>Other games place the characters within an unfolding story. Before running such a game, stop to consider the story's beginning, middle, and end. Note the key events and turning points in the tale, and pay special attention to events and developments that turn on character decisions or actions. Consider how you will present those turning points so that you can create a seamless narrative that flows naturally from the party's actions.</p>
+</>};
+const _know_the_adversaries = {title: "Know the Adversaries", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game","seven_essentials_for_good_preparation"], siblings: ["know_the_characters_and_the_players","know_the_scene","know_the_story","know_the_adversaries","know_the_rules","dont_overdo_it","lay_a_few_alternate_plans"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 16</Link></p>
+<p>Think about the foes your characters must face and any other obstacles they must overcome. Consider how those adversaries will act toward the characters.</p>
+<p>Creatures and NPCs can often react to characters when they're still some distance away, thanks to their hearing, sight, or other senses. How these foes respond depends on their nature, temperament, and intelligence, as well as why they're on the scene and what they're doing when the party arrives.</p>
+<p>Animals and creatures with a similar level of intelligence are usually present simply because they live in the area or because someone else has brought them there; they often don't pay much heed to the characters unless they perceive them to be some kind of threat. Many animals would rather flee than fight, but even a timid animal can become ferocious when cornered, and some are highly territorial and aggressive.</p>
+<p>Any creature smarter than a common animal generally tries to assess the situation before acting. Very few simply sit in rooms or lairs waiting for the party to come and attack. What they do depends on the weaponry and powers they have available, and what they have at stake.</p>
+<p>Creatures that have something to defend (property, livelihood, family, reputation, and so on) likely won't hesitate to confront the party in some fashion. That doesn't always mean an immediate attack. Consider how the creature thinks of intruders or visitors. Is it curious or prone to negotiation? Does it think of the group as a threat or an opportunity? Has it made plans for dealing with intruders? Also think about how well the creature knows its ground, what risks it's willing to take, and how quickly and accurately it can assess its situation.</p>
+<p>Not all responses need to be tactical. The creature might just want to chat with the newcomers or might send someone else to do so. Alternatively, it might try to scare away intruders or perhaps misdirect them. A creature with nothing to gain probably won't fight at all if it can avoid doing so.</p>
+<p>You should also think about what might make the creature surrender or flee. Few creatures fight to the death if there's an alternative available.</p>
+</>};
+const _know_the_rules = {title: "Know the Rules", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game","seven_essentials_for_good_preparation"], siblings: ["know_the_characters_and_the_players","know_the_scene","know_the_story","know_the_adversaries","know_the_rules","dont_overdo_it","lay_a_few_alternate_plans"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 17</Link></p>
+<p>You don't need encyclopedic knowledge of the Pathfinder RPG rules set to run a quality game. You do, however, need to be comfortable with those parts of the rules that come up frequently in play. This means the rules for <Link to="/rule/initiative">determining initiative</Link>, how creatures attack and defend, and how to resolve noncombat challenges like <Link to="/rule/skill_checks">skill checks</Link> (such as picking a lock or noticing bad guys sneaking up on the party's camp). It doesn't hurt to mark your rulebooks to help you find your way around; a few self-adhesive tabs can prove indispensable.</p>
+<p>Also be on the lookout for any character ability that uses a complex, difficult, or unfamiliar game mechanic and take a moment to study it. Do likewise for any creatures, traps, or hazards the party might encounter.</p>
+<p>If you can't quite figure out some aspect of the rules, and time permits, consult another Game Master, or the messageboards at <a href="https://www.paizo.com/">paizo.com</a>, which contain a wealth of helpful information and rules discussions. If all else fails, decide how you want the rule in question to work and use it that way; such decisions have a way of working out if you think them through ahead of time.</p>
+</>};
+const _dont_overdo_it = {title: "Don't Overdo it", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game","seven_essentials_for_good_preparation"], siblings: ["know_the_characters_and_the_players","know_the_scene","know_the_story","know_the_adversaries","know_the_rules","dont_overdo_it","lay_a_few_alternate_plans"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 17</Link></p>
+<p>Remember that you're preparing so that things proceed smoothly at the game table. Over-preparation can ruin that. Instead, prepare just enough so that you can quickly deal with situations that you expect to arise, and so that you can handle the unexpected. Don't script your game so tightly that the players lose their sense of freedom or that your game's whole structure falls apart if your players fail (or refuse) to accomplish what you expect them to.</p>
+<p>Likewise, don't create so many notes that you can't keep them organized. One page for each major encounter, event, or personality is generally plenty, and often less will do.</p>
+</>};
+const _lay_a_few_alternate_plans = {title: "Lay a Few Alternate Plans", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game","seven_essentials_for_good_preparation"], siblings: ["know_the_characters_and_the_players","know_the_scene","know_the_story","know_the_adversaries","know_the_rules","dont_overdo_it","lay_a_few_alternate_plans"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 17</Link></p>
+<p>There's an adage in military circles: no plan survives contact with the enemy. Sometimes players head off in directions you didn't anticipate, defeat your primary villain with a few rolls, miss an obvious clue, or lose a key battle. You can take such developments in stride by considering a few contingencies that can set your plot back on track. Start by thinking about how things might go astray. Does some key individual drive your plot? Do the characters need to learn something before they can succeed? Is there a danger that, if overlooked, can defeat your party? Once you've identified the key stumbling blocks, think of plausible ways to repair the damage if the worst happens.</p>
+<p>Of course, sometimes you still won't be able to prepare for player actions. When things go astray, it's generally the most fun for everyone to play along, exploring the new story and using it to gently nudge the game back onto the original track. Sticking without exception to a prepared plot makes players feel powerless, and part of the fun of being a GM is being surprised by your players. Go with it.</p>
+</>};
+const _published_or_homegrown = {title: "Published or Homegrown", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game"], siblings: ["things_to_have_at_the_table","seven_essentials_for_good_preparation","published_or_homegrown","sharing_the_load","one_shot_games","campaigns","winging_it"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 17</Link></p>
+<p>A one-shot game is a scenario intended to last for a single play session. These scenarios might be "stand-alone," with little or no connection to other campaigns you run, or merely a diversion for your regular characters to give you extra time to put together the next major challenge. Paizo's Pathfinder Society Scenarios are designed for just such situations, and can be downloaded from paizo.com. Keep in mind that the characters in these sessions can be the usual PCs, affiliates such as hirelings, or totally new characters intended only for a single game; one-shots are often perfect for unusual character ideas that might fail or grow stale in a longer game.</p>
+</>};
+const _sharing_the_load = {title: "Sharing the Load", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game"], siblings: ["things_to_have_at_the_table","seven_essentials_for_good_preparation","published_or_homegrown","sharing_the_load","one_shot_games","campaigns","winging_it"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 18</Link></p>
+<p>Unless you've got a very short scenario to run or a very long game session planned, create new characters ahead of time. In a time crunch, you might create them yourself and allow your players to pick from the bunch. In this case, you should make a few more than you'll need so that nobody feels stuck with the leftovers. If you decide to have players create their own characters, be clear about the power level, gear, and other game details you'll allow and reserve the right to review and edit characters to better fit the group. You might even want to meet up with players one-on-one or have them submit characters early for review.</p>
+</>};
+const _one_shot_games = {title: "One-Shot Games", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game"], siblings: ["things_to_have_at_the_table","seven_essentials_for_good_preparation","published_or_homegrown","sharing_the_load","one_shot_games","campaigns","winging_it"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 18</Link></p>
+<p>Introduce the scenario in a way that engages the players. Don't give away any secrets, but let the players know why each of their characters is getting involved - having several "adventure hooks" allows you to pick which one would be most compelling for a given character. You can also always start the action with the party already committed to the adventure or facing a situation that leads in to the rest of the scenario, so as not to waste any playing time.</p>
+<p><strong className="hl">MacGuffin:</strong> The concept of the macguffin<sup><InnerLink showBacklink="backlink-rule-one_shot_games-ref-M-1" id="rule-one_shot_games-ref-M-1" data-hash-target to="rule-one_shot_games-M">1</InnerLink></sup> often proves useful here. A macguffin is some element that drives your plot forward, but that you can ignore once it's served its purpose. Your macguffin might be a rumor, a mission or request from a friend, a cryptic message, a treasure map, or anything else that piques the group's interest without giving away too much.</p>
+<p><strong className="hl">Characters:</strong> Consider how the party's activities, successful or not, might end, and be ready to sum up when the last die stops rolling. Because your players might never play these characters again, you can plan unusual rewards or endings that would be awkward in a regular campaign. Of course, more than one adventure that began as a one-shot has stretched into a campaign when both players and GMs found the plots and characters too much fun to retire...</p>
+<section data-footnotes>
+<h3 id="rule-one_shot_games-label">Footnotes</h3>
+<ol>
+<li id="rule-one_shot_games-M">
+<p>Wikipedia: <a href="https://en.wikipedia.com/wiki/MacGuffin">MacGuffin</a> (Link opens in outside browser.) <InnerLink id="backlink-rule-one_shot_games-ref-M-1" data-hash-target to="rule-one_shot_games-ref-M-1" aria-label="Back to reference M-1">↩</InnerLink></p>
+</li>
+</ol>
+</section>
+</>};
+const _campaigns = {title: "Campaigns", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game"], siblings: ["things_to_have_at_the_table","seven_essentials_for_good_preparation","published_or_homegrown","sharing_the_load","one_shot_games","campaigns","winging_it"], subtopics: ["essentials_of_good_campaigns","setting_and_scope","story","movers_and_shakers","campaign_endings"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 18</Link></p>
+<p>A campaign offers something more than a series of adventures. A campaign gives context and depth to a group's activities, making them part of a larger world. A properly constructed campaign also provides you with story elements, locations, personalities, and conflicts that serve as springboards for your creativity as you create adventures. Campaigns can be completely plotted out ahead of time, such as the 6-part Pathfinder Adventure Path series, which give GMs all the adventures and supplemental material they need to run a complete campaign, or they can be crafted on the fly, with GMs stringing adventures together just a session or two in advance. A Campaign Sheet is included in the back of [the physical book], which you can use to plan and record all of the relevant details of your campaigns.</p>
+<p>Most advice in the section on preparing for a one-shot game applies to campaigns as well: only the scale is different. Below are a few elements to consider.</p>
+<p>Your campaign world provides the backdrop for all your adventures. Take some time to consider the lay of the land and what it might be like to visit the place.</p>
+<p>The sheer scope of your campaign world can also affect play. You can confine all your adventures to a single country or similar geographic area, or even to a single town or city. The kinds of adventures you can run in such a confined setting, however, will be different than what you can do with a whole continent. An epic, world-spanning campaign offers an endless variety of adventure sites, while a localized campaign offers a more intimate feel and a strong sense that the characters are part of the world.</p>
+</>};
+const _essentials_of_good_campaigns = {title: "Essentials of Good Campaigns", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game","campaigns"], siblings: ["essentials_of_good_campaigns","setting_and_scope","story","movers_and_shakers","campaign_endings"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 19</Link></p>
+<p>Your campaign need not have an overarching storyline, but having one (or more) continuing plots can help tie your adventures together into a continuous narrative, and inspire new ones.</p>
+<p>Don't overdo this element. Your goal isn't to script your campaign, but rather to explain how and why things happen. Keep the story general, with an eye toward details your characters can notice and perhaps change through their actions. Choose something that can unfold slowly so that the story can move along even when your player characters aren't actively involved in it. Consider how the player characters might shape or redirect the story, but also establish what happens if they don't get involved.</p>
+</>};
+const _setting_and_scope = {title: "Setting and Scope", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game","campaigns"], siblings: ["essentials_of_good_campaigns","setting_and_scope","story","movers_and_shakers","campaign_endings"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 19</Link></p>
+<p>Decide who's who in your world. This includes not only the beings that hold the reins of power, but also everyone who's involved in driving the campaign forward. If you've laid out a story for your campaign, identify the entities behind the major threads. Ask yourself who's pulling the strings and who stands to gain and lose with each twist and turn.</p>
+<p>Not every important character in your world need be terribly influential. Every locale with people has a few memorable characters, so sprinkle the neighborhood where your PCs live with a few of those. Some of these might become valuable assets to the characters, providing them with information, introductions to more influential people, or protection in times of need. Others might simply offer the occasional bit of comic relief.</p>
+</>};
+const _story = {title: "Story", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game","campaigns"], siblings: ["essentials_of_good_campaigns","setting_and_scope","story","movers_and_shakers","campaign_endings"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 19</Link></p>
+<p>Many campaigns run on indefinitely until the group breaks up due to changing lives and priorities. There's nothing wrong with that, so long as running the campaign - and playing in it - don't become chores. Still, it's pleasant when a campaign comes to a natural end that allows you and your players to leave with a sense of completion.</p>
+<p>You might plan a campaign with an ending in mind, a fairly easy task if you've laid out a story. Or you might decide to end the campaign when player interest (or your own) starts to flag. In either case, consider what elements in the campaign have struck a chord with the group. Perhaps you've grown fond of a particular town or character. Perhaps they really despise some villain or have a burning desire to obtain a certain item. Craft your ending so things end on a high note, with main conflicts resolved and the loose ends tied up. It's often fun to create an epilogue that lays out each character's later career and retirement and looks ahead to the general state of your game world during the surviving characters' sunset years.</p>
+</>};
+const _movers_and_shakers = {title: "Movers and Shakers", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game","campaigns"], siblings: ["essentials_of_good_campaigns","setting_and_scope","story","movers_and_shakers","campaign_endings"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 19</Link></p>
+<p>Preparation is great, but sometimes you just want to play. Published adventures are perfect for this, but even those require a bit of reading ahead of time. If you want to truly wing it, with nothing more than a few notes and some dice, try flipping through some completed adventures for stat blocks you can use - at the very least, you're going to need to know things like hit points, AC, and saves - or tag some creatures in a monster book. Sketch out as much of the plot as you feel you need; it could be a whole adventure, or just the first scene. Consider throwing in a big decision requiring party deliberation whenever you need a minute to figure out the next encounter, and remember that a fun roleplaying encounter with an oddball NPC can provide extensive entertainment without any math involved. For more tips on emergency game prep, see <Link to="/rule/emergency_game_prep">this section</Link>. And when in doubt: roll initiative!</p>
+</>};
+const _campaign_endings = {title: "Campaign Endings", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game","campaigns"], siblings: ["essentials_of_good_campaigns","setting_and_scope","story","movers_and_shakers","campaign_endings"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 19</Link></p>
+<p>Published adventures can be a great investment. Reading through such a scenario can give you an idea of how an adventure is put together, what challenges are suitable for your group's power level, and what sorts of rewards are appropriate. The Pathfinder RPG Core Rulebook deals with these subjects, but there's nothing like seeing all the elements put together. More importantly, a close look at adventures someone else has thought through can give you new ideas for constructing your own. It's easy to fall into a rut, especially when you're running games regularly, and adventures like Paizo's Pathfinder Adventure Paths and Pathfinder Modules can help dig you out.</p>
+<p>Similarly, there's a wealth of prepackaged campaign settings available, including Paizo's own Pathfinder Campaign Setting. Consider mining concepts from them for your own world, or adopting locations from them that inspire adventure concepts.</p>
+<p>No matter how many published adventures or settings you own, it's up to you to decide whether you'll use them. If you merely lift an idea from them now and then, you're still getting your money's worth, but using them to a greater extent allows GMs to run sweeping, intricate campaigns with minimal preparation.</p>
+</>};
+const _winging_it = {title: "Winging It", parent_topics: ["gamemastery","gamemastery_guide","getting_started","preparing_to_run_a_game"], siblings: ["things_to_have_at_the_table","seven_essentials_for_good_preparation","published_or_homegrown","sharing_the_load","one_shot_games","campaigns","winging_it"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 19</Link></p>
+<p>Even though you're the GM, you don't have to do everything yourself. You can pass along any number of tasks to your players.</p>
+<p><strong className="hl">Bookkeeping:</strong> This covers all the little tasks necessary to keep your group organized. You might ask one player to be the recorder, keeping notes on what the group accomplishes in each game. The recorder can keep tallies of party loot and foes defeated, saving you effort when it's time to divide the spoils. You can also ask this player to note key pieces of information the PCs discover, names of important people they meet, and places they go. These notes can help your group get back up to speed when they return after a break.</p>
+<p><strong className="hl">Rules Knowledge:</strong> If you have a fair-minded player with a talent for explaining the rules, use her as a resource. When you expect to tackle an unfamiliar rule, discuss how it works with this player. When disputes about the rules arise during a game, get her opinion. It's also frequently helpful to team her up with rookie players as an advisor, keeping the game moving.</p>
+<p><strong className="hl">Round-Robin Campaigns:</strong> No one says you have to GM every session. Sometimes a team of GMs can rotate the responsibility of running the game, each GM taking up the game where the previous one left off each week, while the other GMs play. This requires significant coordination, and expert roleplaying (as some players already know the plotlines), but the chance to play in your own campaign and regularly experience different GM styles can be extremely entertaining and rewarding.</p>
+</>};
+const _creating_a_campaign_guide = {title: "Creating a Campaign Guide", parent_topics: ["gamemastery","gamemastery_guide","getting_started"], siblings: ["a_game_masters_glossary","tone_and_maturity","the_gm_as_host","rules_of_the_house","preparing_to_run_a_game","creating_a_campaign_guide"], subtopics: ["system","setting_and_scope_2","story_2","voice","publication"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 20</Link></p>
+<p>In television series and similar ongoing media, there is the concept of the "story bible," a document setting forth the essential information about the characters, story, and setting of the series so that later writers can produce scripts with some amount of consistency. In a similar vein, Game Masters can create a campaign guide to help keep track of their creation and to supply players with an overview of an ongoing campaign. This way, the players have some idea what to expect and can create and play their characters to best fit into the overall setting. The most important function of a campaign guide is to make your players excited to delve into the setting and play the game! Consider the following when preparing a campaign guide.</p>
+</>};
+const _system = {title: "System", parent_topics: ["gamemastery","gamemastery_guide","getting_started","creating_a_campaign_guide"], siblings: ["system","setting_and_scope_2","story_2","voice","publication"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 20</Link></p>
+<p>The default assumption is that your game will use the rules as presented in the Pathfinder RPG Core Rulebook. Many GMs customize the Core Rules to fit their preferences, play style, and players, and the campaign guide is the perfect place to set out these custom house rules so the players know what to expect and so customizations or exceptions remain consistent throughout the campaign. You'll also want to lay out character creation guidelines for the game and clarify what is expected or prohibited, so players know their choices going into the process of designing their characters.</p>
+<p>For example, you might ban a particular sorcerer bloodline or other character option simply because it doesn't fit into the setting and does not exist there (at least so far as anybody knows). On the other hand, you can set up a rule that PCs cannot be assassins or choose evil as their alignment because you'd rather not deal with the complications those possibilities entail. That doesn't necessarily mean assassins and evil alignments don't exist in the setting; they're just not an option for the players.</p>
+</>};
+const _setting_and_scope_2 = {title: "Setting and Scope", parent_topics: ["gamemastery","gamemastery_guide","getting_started","creating_a_campaign_guide"], siblings: ["system","setting_and_scope_2","story_2","voice","publication"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 20</Link></p>
+<p>The meat of a campaign guide is the description of the setting: where and when the campaign takes place, and in particular, the "base state" or status quo with which the characters should be familiar. Doing this effectively can be more difficult than it sounds, so follow these guidelines to keep this interesting and on point.</p>
+<p><strong className="hl">Broad Strokes:</strong> You don't need to hand your players a 200-page document detailing every corner of the campaign world and every major event in its history. Even if you do have such a document, it's probably best to hit new players with just the highlights. Focus on where the campaign starts and, if you describe other parts of the world at all, do so in generalities. You can always fill in more information as the campaign progresses.</p>
+<p><strong className="hl">Focus on the Present:</strong> Historical context is good, particularly historical events that have an impact on the present day, but focus on giving the players the status quo as it will be when the game starts. Don't focus too much on irrelevant historical detail; if an account of a particular battle hundreds of years ago doesn't impact the present day, summarize or cut it altogether.</p>
+<p><strong className="hl">Enliven with Detail:</strong> Try to give the players some essential details about daily life in the setting. What do people eat? What kind of clothes do they wear? What do they do for fun? What is a typical day, week, or year like? What are some expressions people use? These details form valuable hooks players can use to get into character during the game.</p>
+</>};
+const _story_2 = {title: "Story", parent_topics: ["gamemastery","gamemastery_guide","getting_started","creating_a_campaign_guide"], siblings: ["system","setting_and_scope_2","story_2","voice","publication"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 20</Link></p>
+<p>You may or may not want to include story content in your campaign guide, depending on the type of game you want to run. You may find it helpful to fill the players in on the type of story you want to tell, so they can assist with their character concepts. Is this an epic fantasy wherein local heroes discover a terrible threat to the world at large, or a focused struggle for domination over the guilds and noble houses of a single city?</p>
+<p>Some GMs prefer a freeform campaign, starting the players off with just a setting and their characters' backstories, letting the rest unfold as play progresses. The story is written as the players choose what their characters do and the dice determine the outcome of those actions. Other GMs have a particular kind of story in mind and try to deftly steer the players, allowing them a wide range of choice within the bounds of the story, but keeping it focused on a particular field of play; for example, a player who wanted his character to go off exploring some lost ruin in a campaign about warring guilds might discover something hidden in the ruins that has some bearing on the main conflict, bringing things back around to that story.</p>
+</>};
+const _voice = {title: "Voice", parent_topics: ["gamemastery","gamemastery_guide","getting_started","creating_a_campaign_guide"], siblings: ["system","setting_and_scope_2","story_2","voice","publication"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 20</Link></p>
+<p>Voice is how the guide conveys the content to the reader. It includes choices like viewpoint, tone, and style, which can not only affect how the content is conveyed, but can also provide additional information and insight for players in and of itself. The two main approaches to voice are an "inside" or subjective voice, or an "outside" or objective voice.</p>
+<p><strong className="hl">Subjective Voice:</strong> This method presents some or all of the content of the campaign guide in the form of fictional documents or dialogues, such as travelogues, journals, letters, or scholarly works written by people in the setting.</p>
+<p>Subjective voice documents are heavy with setting-specific flavor and present a strong point of view, a fictional window into the world for the reader. On the other hand, they can be biased or incomplete, and they tend to provide less information in the same amount of space than documents written in objective voice. These qualities can be good things, especially if you want players to initially receive somewhat biased or inaccurate information about things, but crafting such documents typically involves more work.</p>
+<p>Subjective voice presentation can serve double duty by introducing players to the fictional authors of the documents in addition to the subjects they discuss. For example, if the party is likely to interact with a certain sage or noble in the setting, perhaps part of the campaign guide can be written in that character's voice. This way, when the game starts, the players already have a feeling of "knowing" that character.</p>
+<p><strong className="hl">Objective Voice:</strong> This style of guide is written from the perspective of the Game Master and exists outside of the setting. This approach allows for a broader perspective in campaign guide materials, in which you can provide comparisons to modern examples and discuss things a subjective author might not know. Objective voice tends to be more concise because you can say exactly what you mean without having to phrase it in terms an insetting character would use. This lets you provide more information in less space, saving time and effort if they are at a premium.</p>
+<p><strong className="hl">Combining Voices:</strong> Of course, you can also mix subjective and objective voice in your guide. You might use a primarily objective voice to provide the bulk of the information and then put the information into context with snippets or examples of subjective voice, such as quotations from in-setting characters or even more involved things like sketched-out maps.</p>
+</>};
+const _publication = {title: "Publication", parent_topics: ["gamemastery","gamemastery_guide","getting_started","creating_a_campaign_guide"], siblings: ["system","setting_and_scope_2","story_2","voice","publication"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 21</Link></p>
+<p>Once the campaign guide document is prepared, you need to consider how to get it in front of the players. Modern media and desktop publishing create a wide range of options for sharing a campaign guide.</p>
+<h3 id="rule-publication-print">Print</h3>
+<p>The first and simplest option is to print the campaign guide and give each player a copy. It could be printed out at home or produced professionally at a copy shop. Larger campaign guides might be held in binders or report covers, and print shops offer a variety of binding options, from square tape-bound to plastic spiral binding (with or without cardstock or plastic covers). These options add durability and quality to your guide, making it easy for players to use and reference over time, but might make you less inclined to make changes as you go.</p>
+<h3 id="rule-publication-electronic">Electronic</h3>
+<p>You can also publish a campaign guide as an electronic document, easily shared via e-mail or hosted online. With laptops or handheld devices, players can still reference these documents during play.</p>
+<p>The other main electronic option is to publish your campaign guide as a web page or website. Web page design programs make this a fairly simple matter even for non-programmers, and there are many inexpensive web-hosting services. Players can access a web-based campaign guide from anywhere with an Internet connection, can save or print the pages for their own reference, and can even actively edit the guide (if the GM allows it). Unless the site is secured, web publication also makes your campaign guide publicly available to anyone who wants to view it, allowing other Game Masters to benefit from your ideas.</p>
+<p>Even if you publish your campaign guide in print for your players, you may want to have an electronic version as well for backup, further additions, and ease of reference, especially if you want to make the guide publicly available.</p>
+<h3 id="rule-publication-copyrights">Copyrights</h3>
+<p>Most published RPG products are copyrighted, so you should take care not to violate the law by republishing parts of them without permission. Paizo has a Community Use Policy (<a href="https://paizo.com/communityuse">paizo.com/communityuse</a>) that explains how you can safely use some of our copyrighted materials in your campaign guide.</p>
+<h3 id="rule-publication-other-media">Other Media</h3>
+<p>Game Masters have taken advantage of desktop and online multimedia in recent years to create other ways of providing information to players. If you have musical talent, opening each session with custom theme music can be a powerful way of getting players into the right mindset. You can also create audio podcasts for your campaign, or even take things a step further and use video editing to create a "campaign trailer," like a trailer for a film, which you can then distribute among your players or share online. This doesn't have to involve a lot of original video; you can use still images and artwork and give them motion through effects like pans or zooms, with different dissolves and transitions between images.</p>
+</>};
+const _running_a_game = {title: "Running a Game", parent_topics: ["gamemastery","gamemastery_guide"], siblings: ["getting_started","running_a_game","player_characters","non_player_characters","rewards","creating_a_world","adventures","advanced_topics","npc_gallery"], subtopics: ["gming_style_choices","pregame_preparation","running_the_game","post_game","the_art_of_gming","the_science_of_gming","gm_considerations","tools_for_game_masters"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 24</Link></p>
+<p>A roleplaying game is only as good as its GM. The GM sets the tone for the game, keeps the action moving, adjudicates situations, and tailors the storyline to the player's tastes. In this section, you'll find all the information you need on how to run the best game you possibly can, from tips and tricks to the tools of the trade, plus primers on avoiding common problems, the math behind the game, and how to design different types of adventures.</p>
+</>};
+const _gming_style_choices = {title: "GMing Style Choices", parent_topics: ["gamemastery","gamemastery_guide","running_a_game"], siblings: ["gming_style_choices","pregame_preparation","running_the_game","post_game","the_art_of_gming","the_science_of_gming","gm_considerations","tools_for_game_masters"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 24</Link></p>
+<p>Before you run your first session, there are a number of decisions you need to make regarding the nature of your game. Is your table a serious roleplaying experience, with players staying in character at all times? Is it an immersive experience with painted miniatures, three-dimensional terrain, soundtracks, and mood lighting? Is it a zany get-together with friends, where half the fun is the in-game banter? Or is it some combination of those, or perhaps something else altogether? There's no best answer, but such decisions have a vast impact on the experience you and your players have. Noted here are a few of the more common decisions a GM needs to make when running a game.</p>
+<p><strong className="hl">Miniatures vs. Freeform:</strong> The Pathfinder Roleplaying Game presumes you're playing with miniatures and using a gridded mat to keep track of character locations during combat. This isn't the only method, though; you can also try charting things out on graph paper or drawing it on a white board, or utilize paper minis and combat tokens that can be printed out and discarded as needed. Yet you may decide that focusing on where everybody is and how far they can move in a round ruins the cinematic drama that you wish to create. In this case, you might prefer a more freeform style of play, where the GM keeps track of the action in his head, players describe the actions they wish to take, and the GM adjudicates the results. In this type of game, many rules take a backseat to flavorful flourishes and cinematic descriptions from both players and GM.</p>
+<p><strong className="hl">In Character vs. Out of Character:</strong> Do your players need to remain in character during the game, or can they speak as themselves, strategizing and giving advice to other players? Some GMs allow the latter only if there's a mechanism for determining when someone's in character, while others allow a casual blurring of the lines.</p>
+<p><strong className="hl">GM Tracking vs. Players Tracking:</strong> There's a large amount of information to keep track of during a game. The Pathfinder RPG rules imply that this work should be split, with the players keeping track of their characters, hit points, abilities, ongoing effects, and so forth, and GMs tracking the same information for the NPCs. Yet some GMs prefer to keep everything a secret from their players, tracking even their experience points, hit points, spell durations, and other information, only giving the players vague, lifelike information, such as telling them that they feel weak from blood loss rather than how many hit points they have left. While this can help enhance both the game's mystery and its sense of danger, the sheer amount of bookkeeping required on the part of the GM makes it easy for such games to bog down and overwhelm the GM.</p>
+<p><strong className="hl">Taking Back Mistakes:</strong> Almost every game session, a player does something they didn't mean to do, whether it's stepping on the wrong square or forgetting to add a bonus that means the difference between success and failure. Some GMs have a rule that once it's left your mouth or you've moved your miniature on the mat, you're committed, even if the end result isn't what you would have normally done. Other GMs allow players to retroactively add bonuses to rolls, or take back poorly planned spells and other mistakes, letting them make the best moves possible for their character. This is a difficult balance - too much leeway and there's no risk, but being too strict can ruin the fun for your players. Remember, though, that the standard used for your players should apply to you as well, and such "rewind" moments can be anything from a misplaced miniature to letting a clue slip out too early.</p>
+</>};
+const _pregame_preparation = {title: "Pre-Game Preparation", parent_topics: ["gamemastery","gamemastery_guide","running_a_game"], siblings: ["gming_style_choices","pregame_preparation","running_the_game","post_game","the_art_of_gming","the_science_of_gming","gm_considerations","tools_for_game_masters"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 24</Link></p>
+<p>Below are a few key points to remember.</p>
+<p><strong className="hl">Read the Adventure:</strong> If you're playing a published adventure, read through it at least once. It also helps to reread the parts of the adventure you expect the players to tackle in the upcoming session, to keep it fresh in your mind.</p>
+<p><strong className="hl">Predict Player Actions:</strong> Try to guess what your players might do in a given situation. If you think they might go to a tavern to get info, think about what NPCs will be encountered there, and what information they may have to impart. Likewise, if you think they might use subterfuge to get into a fortress, consider how the inhabitants might react to various plots. A little foresight goes a long way.</p>
+<p><strong className="hl">Adapt to Players:</strong> Consider tailoring your adventure to take into account the backstories of certain PCs, or incorporate a subplot that players initiated in a previous adventure. If one of your players is a paladin who hates devils, think about changing the generic cleric villain to a priest of Asmodeus to get your PC more invested. By tying your characters into the plot, your story naturally has more impact.</p>
+<p><strong className="hl">Review Relevant Rules:</strong> As you're reading through the upcoming portion of the adventure, take time to familiarize yourself with relevant monsters, feats, spells, magic items, and rules subsets. Part of your job as the GM is to play NPCs and monsters to the best of their ability, which means being as familiar with the NPCs' options as your players are with their own characters'.</p>
+<p><strong className="hl">Prepare Stats and Strategies:</strong> Make sure the adventure's challenges are appropriately balanced for your party's level and composition. Think about the locations where the encounters take place, and how NPCs can turn the location and their particular abilities to their advantage. It can also be good to copy the stats for each NPC and monster for ease of reference, allowing you to make notations on spells used, hit points lost, and other information without marking up a book.</p>
+<p><strong className="hl">Prepare Additional Tools:</strong> If you use props in your game, preparing in advance helps the game flow smoothly. Pick the miniatures and any three-dimensional terrain you want to use in a given session and put them in an easily accessible place. Put any pictures you want to show in a folder on your computer or print them onto sheets. If the players have the map to a dungeon level, think about drawing the level on the battlemat ahead of time.</p>
+</>};
+const _running_the_game = {title: "Running the Game", parent_topics: ["gamemastery","gamemastery_guide","running_a_game"], siblings: ["gming_style_choices","pregame_preparation","running_the_game","post_game","the_art_of_gming","the_science_of_gming","gm_considerations","tools_for_game_masters"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 25</Link></p>
+<p>Even once the adventure is prepped and the players are gathered, the GM's work is just beginning. There are a few things to pay special attention to during a game session.</p>
+<p><strong className="hl">Initiative:</strong> Keeping track of whose turn it is during combat can be complicated. While a simple written list helps, such can get cluttered and complicated as characters hold actions and delay. You might also manage initiative by using a stack of index cards with the name of a characters or opponents written on each one, maybe even with notes for easy reference.</p>
+<p><strong className="hl">Dice Rolling:</strong> Some dice rolls need to be made in secret, such as when a rogue looks for a trap or a monster attempts a Perception check. At other times, you may want to roll in front of the players, such as when a pivotal save is being made during combat which could potentially kill a player character. Making rolls in the open adds a sense of drama and fairness to the moment, and your players can see the result as they root for the outcome they desire. Yet doing so can also tie your hands unnecessarily, interrupt the flow of the narrative, and generally detract from the sense of mystery. For this reason, physical barriers come in handy.</p>
+<p><strong className="hl">GM Subterfuge:</strong> You don't want your players to know when something important is happening by watching for you to roll your dice. As such, many GMs roll dice unnecessarily every so often, pretending to look something up in their notes. This makes it harder for players to guess when something significant has happened, such as a failed Perception check. It's equally important for things like finding secret doors; if you don't call for a Perception check simply because there's nothing to see, the PCs quickly learn that rolling dice means something is up, whether they made their roll or not.</p>
+<p><strong className="hl">Tracking Hit Points:</strong> During battles, you'll sometimes have more than one of the same type of monster on the table, so keeping track of which one has all its hit points and which one is barely holding on is important. Whether you track hit points on a sheet of paper, a dry erase board, or via some other method, make notes about which creature is which and any damage or conditions it may have acquired.</p>
+<p><strong className="hl">Corpses:</strong> If you use miniatures in the game, what do you do with the miniature when the monster dies? Some GMs immediately remove dead or unconscious creatures to avoid clutter. Others leave the bodies where they fall, providing terrain obstacles. With the ability to use channel energy to heal friends and foes in an area of effect, leaving monsters on the board could require you to track hit points of monsters well into the negatives on the off chance that the PC cleric unintentionally catches them in a healing wave. This is just one of many situations in which a GM must choose between the game's realism and the ease of actually running the game.</p>
+<p><strong className="hl">Dead Characters:</strong> Sometimes player characters die in combat. This is often a traumatic event for players, and how you handle it as GM has enormous bearing on whether those players continue to have fun or not. First off, determine whether there's a chance for those characters to be revived via <Link to="/spell/raise_dead">raise dead</Link> or some similar spell. If they're likely to be revived at a later date, you can keep them engaged by having them play the role of NPC allies, cohorts, or even familiars or animal companions. Then when the combat is over and the characters get returned from the dead, they can resume their usual roles. If they're not likely to come back, having them start rolling up new characters is a good way to keep them busy for the rest of the session. For more information on this issue, see <Link to="/rule/death_of_a_hero">Death of a Hero</Link>.</p>
+<p><strong className="hl">Time Management:</strong> Keep an eye on the clock to help you wind up your game on time. If you know your game needs to end at midnight, don't start the triumphant battle with the main villain at 11:30 pm Know when to gloss over less-important encounters in order to reach a good stopping point, but also don't be afraid to pad things out and leave some goodies for next time. Finding a cliffhanger to stop on - the revelation of a piece of information, or a villain's dramatic entrance - makes for both a dramatic conclusion and a hook to keep the players excited for the next session.</p>
+<p><strong className="hl">Keeping the Game Moving:</strong> One of the biggest dangers in a game session is the risk of getting bogged down. Sometimes it's the result of the GM not being prepared and needing to read over something during the game. Other times, it is because of a player not being prepared or taking too much time to make a decision. These slowdowns can ruin the mood, tension, and drama of a game. Preparation as the GM helps minimize these risks on your end. For players, sometimes a decision merely takes a moment, and having a bit of patience is fine. Should long turns and side conversations regularly detract from the action, however, give players a time limit to declare their actions, after which they're considered to be delaying, and you move on to the next character in the initiative order. Of course, new players naturally require more time to make decisions than experienced ones, which is why it can be useful to assign one of your more adept players as a mentor.</p>
+</>};
+const _post_game = {title: "Post Game", parent_topics: ["gamemastery","gamemastery_guide","running_a_game"], siblings: ["gming_style_choices","pregame_preparation","running_the_game","post_game","the_art_of_gming","the_science_of_gming","gm_considerations","tools_for_game_masters"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 26</Link></p>
+<p>Once the game session is done, there are still several tasks that need to be taken care of. First, award the players any experience earned during play, and allow them to divide up any loot earned. Having your players come up with an equitable wealth distribution system they can all agree on is vital to the long-term health of the campaign, so help them come up with a system that works for all involved. Last but not least, have the players help you clean up the gaming area.</p>
+<p>Once the players have gone home, it may be a good idea to do some basic record-keeping, such as writing down what happened that session in case you need to refresh your memory later, or plot ideas to revisit in future sessions.</p>
+</>};
+const _the_art_of_gming = {title: "The Art of GMing", parent_topics: ["gamemastery","gamemastery_guide","running_a_game"], siblings: ["gming_style_choices","pregame_preparation","running_the_game","post_game","the_art_of_gming","the_science_of_gming","gm_considerations","tools_for_game_masters"], subtopics: ["making_it_happen","gm_as_actor","presentation","narrative_techniques","cheatings"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 28</Link></p>
+<p>As a Game Master, you already know what's expected. You have some players, you've designed an adventure full of cunning threats, wild terrain, and a big clever twist, and you're ready to entertain. That should do it, right? Yet the best-laid plans of every storyteller sometimes go awry. There's a range of reasons, but while the Pathfinder RPG is a form of group entertainment, it still depends on you as the GM in order to succeed. You are the scriptwriter and director for this production, but you're also the chief performer. How you choose to approach the role makes a huge difference.</p>
+<p>It's not that players aren't important; on the contrary, they're both your audience and your fellow performers, and in many ways everything you do is for them. But they also have less control over the world, and play more limited parts. You lead the band. If you bring gusto to the adventure, your players will respond in kind. If you show up unprepared and harried, they may not invest much effort either. Delivering the best possible performance as a GM depends on how you see yourself when you game, how well you prepare, and what tricks and techniques you use to keep your campaign moving smoothly.</p>
+</>};
+const _making_it_happen = {title: "Making it Happen", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming"], siblings: ["making_it_happen","gm_as_actor","presentation","narrative_techniques","cheatings"], subtopics: ["forcing_things","follow_the_pcs_lead","the_illusion_of_free_choice"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 28</Link></p>
+<p>With great power sometimes comes a sense that maybe your players don't appreciate your efforts enough.</p>
+<p>You spend time drawing world maps, imagining plots and places, setting up ambushes, and devising schemes for villains. As GM, you have a certain responsibility for everyone's good time. You strive to challenge the party, but never to break it. You offer a sandbox of a million choices, but guide the party to the juiciest elements.</p>
+<p>And yet things don't always go smoothly. Sometimes, all you want is for the players to embark on the quest you've spent all week on, but instead the party accidentally goes off in another direction - or worse, sees the hook for your quest and deliberately decides not to bite because it doesn't interest them enough, or doesn't offer enough of a reward. When such things happen, you have several options.</p>
+</>};
+const _forcing_things = {title: "Forcing Things", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","making_it_happen"], siblings: ["forcing_things","follow_the_pcs_lead","the_illusion_of_free_choice"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 28</Link></p>
+<p>In many cases, it's entirely reasonable to say, "Hey folks, this is the adventure I've prepared - work with me." Many groups of players respond positively if asked for help; after all, they want the game to go smoothly, too. Perhaps they just need a stronger hook for their characters, the promise of a bigger reward, or a change of pace from something too similar to what they did last time.</p>
+<p>Canny GMs, though, won't force it more than absolutely necessary. It's often worth it to ask your players after the game (or one-on-one later, if that's easier) to tell you why they didn't buy into your original adventure premise, and what sort of adventure they'd prefer. If they want more gold and glory, or to find out what's beyond the western mountains, find a way to make that an option. Player feedback allows you to craft a game that's more satisfying for everyone.</p>
+</>};
+const _follow_the_pcs_lead = {title: "Follow the PCs' Lead", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","making_it_happen"], siblings: ["forcing_things","follow_the_pcs_lead","the_illusion_of_free_choice"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 28</Link></p>
+<p>If you enjoy improvisational play, the best move may be to temporarily drop the planned plotline (or at least the planned plot hook) and follow your players' lead. Are they more interested in the dark, brooding mage with a zombie-filled <Link to="/magic-wondrous/bag_of_holding">bag of holding</Link> than the murder the prince of the city has asked them to investigate? Very well, then: the necromancer is the new patron of the adventuring party, and boy does he know about some dark doings; the prince of the city has sent his best troops out on a suicide mission, and the mage would like the PCs to bring back some heads for a quick <Link to="/spell/speak_with_dead">speak with dead</Link>.</p>
+<p>This approach requires you to think on your feet and make up NPCs and encounters on the spot, but it also means that the players are fully engaged; they're guaranteed to be doing the things they want, rather than following a plot dictated by you. And you get the additional fun of improvising and reacting to the players' ideas, plus the chance to be pleasantly surprised by yourself as ideas flow fast and furiously.</p>
+<p>If you're especially fortunate, you can probably turn some of your existing encounters, NPCs, or plot elements into elements of the adventure that the party wants to pursue - or use their new direction to steer them subtly onto the adventure you had planned - but it's not always possible. When forced to think on your feet, one helpful trick is to listen to player speculation and then elaborate on their fears or suspicions to make the plots feel even more complex. If the players say "I'll bet the duke's involved!", a simple option is to take the cue and have the duke actually be behind the nefarious plot they've uncovered, thus making players feel satisfied for having figured it out. On the other hand, if it turns out that the duke is actually an unfortunate innocent, with his daughter held as a pawn of the true villains, then the players get both the satisfaction of being partially correct and the thrill of uncovering something new, and your adventure feels meatier and more intricate with almost no additional effort.</p>
+</>};
+const _the_illusion_of_free_choice = {title: "The Illusion of Free Choice", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","making_it_happen"], siblings: ["forcing_things","follow_the_pcs_lead","the_illusion_of_free_choice"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 28</Link></p>
+<p>This is the finest of techniques when it works, though it can be overplayed. The illusion of free choice is really a matter of the GM convincing the PCs to do exactly what he wants while making them think it's their idea. The simplest method in theory is often the hardest in practice: giving the players several choices, all of which lead to the same adventure. This might be as easy as simply changing a hook: the PCs didn't know that the old man they ignored in the bar was about to tell them the same thing as the ancient treasure map they discover in the town graveyard. The ancient dungeon can be uncovered by order of the king, as the party is marching off into the wilds, or as the only hope for a town surrounded by enemies: once they go there, the adventure is the same, regardless of how they got there.</p>
+<p>Sometimes, of course, the party has a reasonable idea what the adventure is and still decides to avoid it. In these cases, it's sometimes best to subtly make the adventure more and more compelling until of course the players decide to go after the big treasure hoard guarded by their arch-nemesis: they've finally learned his weakness, and they only have a few days to exploit it!</p>
+<p>That's a bit of a hard sell, but notice three things about the example. First, it involves a pre-established nemesis; by tying the adventure into the PCs' goals as characters, you've made the same basic adventure seem far more appealing. Second, it provides a lure in the form of cash - because in this case, you've watched your players enough to know that this particular party loves loot more than glory or doing the right thing. Third, the hook relies on a change in circumstances that is time-dependent. If the party doesn't act now, ready or not, this opportunity will not come again. Limited-time offers have a way of selling things, whether it's adventures or refrigerators.</p>
+<p>Above all, put yourself in the player's shoes. Don't think about how cool the villain is, how clever the traps are, or how smart the backstory is - think about what's in it for your players, and why an adventure would appeal to them personally, and you'll never go wrong.</p>
+</>};
+const _gm_as_actor = {title: "GM as Actor", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming"], siblings: ["making_it_happen","gm_as_actor","presentation","narrative_techniques","cheatings"], subtopics: ["volume_and_style","giving_direction"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 29</Link></p>
+<p>As both performer and director, a good GM needs some of the skills of the stage, from use of accents to scene management.</p>
+</>};
+const _volume_and_style = {title: "Volume and Style", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","gm_as_actor"], siblings: ["volume_and_style","giving_direction"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 29</Link></p>
+<p>Stage presence is as important to GMing as dice. Though many GMs hide behind their screens and only venture out to move minis, others are animated, gesturing and using strange accents to demand attention.</p>
+<p>While it's certainly possible to overdo it, the latter style is far more exciting and memorable. The GM doing those things is performing; he's fully engaged and driving the game with his desire to entertain. Yet not everyone is a natural performer, and many of the most bombastic GMs are shy and quiet in everyday life. Just like the rules and adventure design, the performance aspect of GMing is a skill that can be learned. Below are a few tips.</p>
+<p><strong className="hl">Stand up:</strong> Standing tends to make you more forceful and keeps you looking at your players, not fiddling with your dice. It also has the added benefit of letting you glance at players' character sheets or move miniatures faster and more easily. Try standing up during the most action-oriented sequences, when you have combat or other sources of immediate tension in play.</p>
+<p><strong className="hl">Gesture:</strong> Point at a player to get his attention. Put him on the spot, and make it clear that the NPC you're roleplaying expects an immediate response. This tends to push players into responding in character as well.</p>
+<p><strong className="hl">Make Eye Contact:</strong> Look at your players. If you're roleplaying the major villain, don't blink: literally stare them down.</p>
+<p><strong className="hl">Dialogue:</strong> Maybe you prefer to say "He speaks with the voice of the grave" rather than attempting to do so yourself. But even if you aren't comfortable showing off, that doesn't mean you can't put a little spin on things, modulating your pitch or whispering instead of speaking. Hiss a little. Ham it up. Push your limits, and see what works.</p>
+<p>Even without accents, a character's word choices say a lot about his personality. Is he a noble dandy who refers to himself in the third person and sometimes uses big words improperly? Or is he an arcane scholar who knows exactly what those big words mean, and uses them to the exclusion of all others? Is his language dirty and lowbrow, much like the character himself, or prissy and precise, refusing to debase itself with contractions? The words you choose are every bit as important as the manner in which you say them.</p>
+<p>Of course, if you're interested in working up accents to make your NPCs more memorable, there are numerous ways to improve your skills. First and foremost, take risks; even if your accent falls flat after the first few lines, it'll still be more interesting to players than if you used your normal speaking voice. Next, try thinking of familiar actors, cartoon characters, or (if you're feeling daring) friends and family with speech patterns different than your own. Speak your lines as if you were that person; the odds of you mimicking them perfectly are low, at least at first, which means what comes out will be attributed solely to your NPC in the players' minds, and having a person whose voice you're already familiar with in mind allows you to maintain consistency. For further creativity, try borrowing from real-world regional accents, slang terms uncommon to your area, or a wide array of speech impediments like lisps and stutters.</p>
+<p>While all of these options can be combined at random, it can often be easiest and most effective to identify a single speech trait that characterizes each character. Spend some time thinking about what most represents each NPC. A voice that cracks frequently makes people think of someone young, inexperienced, and comical. Someone who speaks in a rapid-fire chatter often sounds anxious or like they're trying to sell something, and characters who speak slower than normal often sound dull and unintelligent. Everyone has certain ingrained associations and prejudices tied to specific patterns of speech: identify yours and your players', and use them to your advantage. Not only can you paint a clearer picture, but you can also create interesting roleplaying encounters by occasionally playing against type.</p>
+<p><strong className="hl">If the Party Talks, Sit Down:</strong> Last but not least, when the players talk among themselves, withdraw. Let them plan. While they do, you can check your notes, update the map, and think about the next encounter. It's good to perform, but not all the time. The players deserve some stage time as well.</p>
+</>};
+const _giving_direction = {title: "Giving Direction", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","gm_as_actor"], siblings: ["volume_and_style","giving_direction"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 30</Link></p>
+<p>As GM, you want the most out of your players, and you know them as well as anyone. Some deal well with setbacks. Some love to hog attention. Some only shine when things are clear; others are leaders when things are thoroughly muddled.</p>
+<p>One way to handle these differences is to acknowledge them. Sometimes simply saying, "Hey, you're hogging the spotlight" is a better solution than trying to passively-aggressively give more attention to everyone else. As long as you confront the behavior rather than the person, it's often possible for a given player to learn to play in sync with the group's style.</p>
+</>};
+const _presentation = {title: "Presentation", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming"], siblings: ["making_it_happen","gm_as_actor","presentation","narrative_techniques","cheatings"], subtopics: ["handouts_and_props","music","lighting","attention_and_distractions"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 30</Link></p>
+<p>Presentation, as they say, is everything, and some GMs go that extra mile to make their game immersive with a cool handout, perfect soundtrack, or pre-made maps of every dungeon room. Below are a few quick and easy ideas for adding more goodies to your game.</p>
+</>};
+const _handouts_and_props = {title: "Handouts and Props", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","presentation"], siblings: ["handouts_and_props","music","lighting","attention_and_distractions"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 30</Link></p>
+<p>Handouts are extremely valuable for two reasons: they give players information about the adventure, and they are tangible, focusing attention on that information in a way that just saying it doesn't. Whatever information you put on that handout is information that the party is more likely to pay attention to or act on, simply because it's sitting in front of them. So write or sketch that diary entry, cargo manifest, treasure map, ambassador's report, or shopping list for the golem artificer. If the players can't figure out the story hook hidden in it, give them some Knowledge rolls to help them along, but know that every handout you spend time on will almost always pay dividends at the game table.</p>
+<p>Fun, authentic-looking handouts are quite easy to make. For an old treasure map, for instance, try dipping white, unruled paper in coffee to make it resemble parchment, then drawing on it when it dries. You can also crumple it up a few times, tear and tatter the edges, and even smear a little dirt or ash on it. Other options include the following:</p>
+<ul>
+<li>Rolling up paper to make a scroll (and decorating a cardboard paper towel roll as a scroll case)</li>
+<li>Writing "TRAPPED WITH GLYPHS" on the scroll presented above, to punish incautious players</li>
+<li>Tearing a handout in half, so the PCs have to find both pieces</li>
+<li>Writing in a foreign language or unusual font to represent the need for <Link to="/spell/read_magic">read magic</Link></li>
+<li>Using an image or replica of a real medieval manuscript page (with your text in English on a separate page)</li>
+<li>Using real parchment or shell gold to make a fancy proclamation</li>
+</ul>
+<p>Props are much the same sort of thing, but taken to broader ideas. Old pennies or just metal slugs can be put into a dice bag and thrown on the table for a solid thud when the party is offered 200 gp for the job. You can show a wand, crystal ball, staff, or dagger when you play the part of certain NPCs; likewise with hats. And best of all are the "real treasure" props. Throw down an old necklace to represent the Medallion of Rozxanatan the God-Smiter; if you have some costume jewelry with glass or paste gemstones, that usually does the trick.</p>
+<p>In general, props are worth digging out for artifacts, for special NPC audiences that you know are coming up, and for particular impact with players who might be a bit jaded or easily distracted. One or two props per game sessions is plenty; you don't need to turn into an amateur magician just to make a point.</p>
+</>};
+const _music = {title: "Music", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","presentation"], siblings: ["handouts_and_props","music","lighting","attention_and_distractions"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 31</Link></p>
+<p>Watch a movie sometime with subtitles instead of sound, and you'll quickly realize just how much emotional weight the music carries. The acting, images, and words are important, but the music pulls at your heartstrings, and gives you cues about how the filmmaker wants you to feel during a certain sequence.</p>
+<p>Sometimes you want that extra emotional impact for a game. And for those special occasions, it's worth digging around your music collection to build a playlist. It may seem a little trite, but most fantasy movie soundtracks work well as background music for a fantasy game, so long as you stay away from overly recognizable themes that will jar your players out of the moment. Most of the time, it's best to use fairly subtle soundtracks (though there's nothing wrong with some heavy metal beats to keep the momentum, if that's what you group loves, so long as there aren't a lot of words to distract people). But if you really want to knock a game out of the park (say, when doing a special "send-off" game for a player leaving town), then it might be worth it to ascribe themes to particular characters or, better yet, choose songs to go with specific encounters, such as heavy industrial noises for a fight in the dwarven smithy, soft mandolins and violins for the visit to the elven queen, a dirge for a dead NPC, or a bombastic, brassy symphonic charge for the final battle against the villain. The important thing to remember is that the music should support the scene subtly, without taking center stage; for this reason it's often best to avoid popular music or things with comprehensible lyrics, and it's important to have the songs cued up and ready so you don't waste valuable game time and dramatic tension by searching for the proper track.</p>
+</>};
+const _lighting = {title: "Lighting", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","presentation"], siblings: ["handouts_and_props","music","lighting","attention_and_distractions"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 31</Link></p>
+<p>Lighting is like music: it's easy to overdo it. But a single candle or dimmer switch can get people to focus, or at least get their attention off their phone or laptop and onto the gaming table. The main thing lighting can do is help minimize distractions. A single spotlight on the center of the GM screen and battlemat usually does very well, if you can set up a table lamp to do so while still allowing enough light for people to see their character sheets.</p>
+</>};
+const _attention_and_distractions = {title: "Attention and Distractions", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","presentation"], siblings: ["handouts_and_props","music","lighting","attention_and_distractions"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 31</Link></p>
+<p>Just as effective (and less dramatic) is removing distractions directly. You're the GM - it's okay to tell players at the start of the game to put away the game system or music, cell phone or laptop. And it's also okay to tell them right at the start of the session that if they're not paying attention when it's their character's turn, you'll skip them that round. That usually does the trick, but if the carrot works better than the stick, you could also give additional XP to the players who are most engaged and prepared when it's their turn. You can also help them out by writing the initiative order down on the battlemat so the players know who's acting next, or using an <Link to="/rule/initiative_tracker">initiative tracker</Link> that everyone can see.</p>
+</>};
+const _narrative_techniques = {title: "Narrative Techniques", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming"], siblings: ["making_it_happen","gm_as_actor","presentation","narrative_techniques","cheatings"], subtopics: ["description","spotlight","backstory","cliffhangers","cut_scenes","flashbacks","foreshadowing","secrets"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 31</Link></p>
+<p>As the GM, you are the one and only conduit for the players to learn about their situation in the game. If you forget to describe something, the players quite rightly feel cheated. If you focus your description on an object, they sense that it might be important. As a result, your choices on how you convey information are crucial to your game's success.</p>
+</>};
+const _description = {title: "Description", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","narrative_techniques"], siblings: ["description","spotlight","backstory","cliffhangers","cut_scenes","flashbacks","foreshadowing","secrets"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 31</Link></p>
+<p>The first thing to know is that there are such things as being too loud and too quiet as the GM. If you spend the whole game talking, with players barely squeezing in hit and damage information, you're likely overbearing and boring your players. But just as dangerous is the GM that's too quiet; if you're intimidated or underprepared, you won't have enough description to really give the players a sense of place, and one room of the castle or dungeon will feel pretty much like another.</p>
+<p>There are ways to get across evocative information without writing out reams of text ahead of time. For instance, you might write down three or five words to describe each room, and then riff on those when the time comes to describe it. The words "purple tapestry, enormous fireplace, owlbear pelt on floor" set up a very different room than "bloodspattered walls, black candles, rusty manacles." In each case, you've got enough to fix an image in the players' minds, without going overboard on description.</p>
+<p>Once you have that, you'll probably also want to add any pertinent notes on treasure, unusual terrain or interactive elements (such as a well or a dangerously weak support stanchion), or hidden terrain elements like traps or secret doors.</p>
+<p>This same approach works well for NPCs, though in most cases you need more than just physical description. If you boil it down, most NPCs need a name, a speaking style, a general appearance, weapons and armor, and a motivation or goal. If you have all those, it's often possible to play a roleplaying scene without generating further stats for the NPC.</p>
+</>};
+const _spotlight = {title: "Spotlight", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","narrative_techniques"], siblings: ["description","spotlight","backstory","cliffhangers","cut_scenes","flashbacks","foreshadowing","secrets"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 32</Link></p>
+<p>There are many in-game tricks that a GM can use to convey information or rework elements of his game, including those mentioned above. The most powerful technique, though, is simply describing a monster, person, or item in detail. Anything that a GM devotes playtime to rises in the awareness of the players.</p>
+<p>In most cases, that just means mentioning an item more than once. Players pick up on GM references very quickly. If you want a particular character to draw the party's attention, mention them as someone they see when they return to a particular location. Anyone they see more than once, or anyone they "notice" because the GM tells them they notice them, is bound to get extra scrutiny from experienced players. Of course, less experienced players might not pick up on it, and it's certainly okay to go from mentioning something to the more direct, "This guard seems to want something from you," or even "That painting seems bigger than the others, and the frame makes it look more important."</p>
+<p>The point of using the GM spotlight is to get the action moving again. Be brutally obvious only if you must, but don't let the adventure derail just because someone failed a Perception roll.</p>
+</>};
+const _backstory = {title: "Backstory", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","narrative_techniques"], siblings: ["description","spotlight","backstory","cliffhangers","cut_scenes","flashbacks","foreshadowing","secrets"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 32</Link></p>
+<p>In-world continuity and stories from a setting's history are usually a GM's darling - and sheer boredom for the players. No one wants to hear the GM drone on about events from centuries ago, or the complex relationships of NPCs, or elements of the setting's culture that have nothing to do with the adventure at hand. This historical material is justified only in two particular cases:</p>
+<ul>
+<li>When the players ask about it or show interest</li>
+<li>When it's relevant to the adventure</li>
+</ul>
+<p>In the second case, relevant doesn't mean "the GM thought it was interesting." The lore actually needs to matter in the present day, and help a player make a decision at some point in the adventure. If the backstory never matters to the adventure outcome, then it's best ignored.</p>
+</>};
+const _cliffhangers = {title: "Cliffhangers", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","narrative_techniques"], siblings: ["description","spotlight","backstory","cliffhangers","cut_scenes","flashbacks","foreshadowing","secrets"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 32</Link></p>
+<p>Leaving the outcome of any suspenseful moment in doubt is a time-honored technique from the early days of movies and literature, and the same trick works just as well for RPGs. When time's running out, and the party is ready to wrap up for the week's game, it's always nice to leave them wanting more. The idea is to present just enough of a hint to make the party curious how events turn out, without requiring them to immediately roll initiative. Some ideas include:</p>
+<ul>
+<li>An injured NPC claws his way out of a nearby passage</li>
+<li>A messenger arrives with bad news just as the party thinks all is well</li>
+<li>A monster bursts in on the party</li>
+<li>The party is falsely accused</li>
+<li>A villain arrives to gloat</li>
+<li>A defeated foe shows up prepared to settle old scores</li>
+</ul>
+<p>The point is that a new plot thread starts as soon as the old ones drop, and if you're still in the middle of a story, freezing the frame on the cusp of a battle or huge revelation keeps player excitement high all the way until the next session.</p>
+</>};
+const _cut_scenes = {title: "Cut Scenes", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","narrative_techniques"], siblings: ["description","spotlight","backstory","cliffhangers","cut_scenes","flashbacks","foreshadowing","secrets"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 32</Link></p>
+<p>When you flash from the main party scene to a secondary view (a lone PC scouting, or events happening somewhere else entirely) you can create tension by flipping back and forth between the two. This works especially well if one scene is fraught with danger and mayhem, or if there's a race against the clock.</p>
+<p>While this might seem like an ideal way to handle split parties and introduce historical events, it doesn't work for all groups. Impatient players might want to "get back to the adventure" rather than learn about events happening 1,000 miles away.</p>
+</>};
+const _flashbacks = {title: "Flashbacks", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","narrative_techniques"], siblings: ["description","spotlight","backstory","cliffhangers","cut_scenes","flashbacks","foreshadowing","secrets"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 32</Link></p>
+<p>Like cut scenes, flashbacks pause the action to show the party pertinent information from another time. The best use of a flashback is usually one of the exact same location, but much earlier. The sight of blood on a throne room floor might trigger a flashback to a murder scene, or a magical phrase spoken by the vizier might kick off the memory of a fight to bind a genie.</p>
+<p>Better still, the flashback could feature the PCs as earlier heroes whose failure led to the present calamity: the tomb raiders who set loose the Lich Lord, or even guards who failed as the prince was assassinated. Above all, keep it short; flashbacks have very specific uses, and a single scene in this style is usually plenty to get the point across.</p>
+</>};
+const _foreshadowing = {title: "Foreshadowing", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","narrative_techniques"], siblings: ["description","spotlight","backstory","cliffhangers","cut_scenes","flashbacks","foreshadowing","secrets"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 33</Link></p>
+<p>The best payoff is sometimes the one that takes a long time to set up. The henchman hired at 4th level who betrays the party at 7th level is a long con, but it can have a huge impact if you've foreshadowed the betrayal in a way that seems obvious in hindsight (but which is tough to figure out ahead of time).</p>
+<p>More practically, foreshadowing is often a clue that drops one or two sessions before the event you're foreshadowing occurs. Some possible techniques:</p>
+<ul>
+<li>Meeting a villain before anyone knows he's a villain</li>
+<li>Fortune-telling with a Harrow Deck</li>
+<li>Telling the paladin that a certain town seems dangerous, even heretical</li>
+<li>Having a madman complain about a certain locale or event in an over-the-top way</li>
+<li>Having a sharp-eared PC hear something suspicious</li>
+<li>Introducing omens and portents, such as dead birds or fiery comets</li>
+</ul>
+<p>The idea is to make the foreshadowing creepy or unsettling, and vague enough that it doesn't allow the party to prevent the foreshadowed event. The sense of horror when a PC realizes that he could have stopped something if he'd only put the pieces together sooner is a highly effective emotion, and one that roots the PC firmly in the game world.</p>
+<p>When done right, foreshadowing ties in heavily with the idea of continuity. Instead of inventing a new villain every game, why not bring back an old one - appropriately leveled during his time away, of course - who already has reason to hate the PCs? Or you could throw a twist into the storyline by making the sweet maiden they saved in the first adventure turn out to be the major villain of the campaign. Such recurring figures make it feel like all the events in your campaign and even your world are somehow tied together, the story leading to some grand and inevitable conclusion.</p>
+</>};
+const _secrets = {title: "Secrets", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming","narrative_techniques"], siblings: ["description","spotlight","backstory","cliffhangers","cut_scenes","flashbacks","foreshadowing","secrets"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 33</Link></p>
+<p>Sometimes a player may split off from the group, or you might want to give information secretly to a certain player because of a successful Perception check. Perhaps an NPC only trusts one character enough to impart her dangerous secret, or the players suspect a traitor in their midst. Similarly, sometimes a player may seek to give you information privately, especially if she's working on her own secret agenda or a rogue attempting to steal from her companions. In instances where you need to box out most of your party, there are several options.</p>
+<p>Simply taking the player aside and leaving the room, or passing a note, is perfectly adequate, but knowing another player is getting secret knowledge often eats at other players and can tempt even the most steadfast gamer into metagaming. Talking to the player in question between game sessions is a far safer option, but isn't always possible. Though there are any number of sneaky ways to let a player know something important without alerting the rest of the party - for instance, covertly sending them a text message if you allow cell phones at the table - in general the best way to handle secrets is to either flat-out ask your players to respect the fact that they don't know a given piece of information, or - better still - manipulate the game to avoid the need for intraparty secrets altogether. And remember that any time you spend with one player is time you aren't spending with the rest.</p>
+</>};
+const _cheatings = {title: "Cheatings", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_art_of_gming"], siblings: ["making_it_happen","gm_as_actor","presentation","narrative_techniques","cheatings"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 33</Link></p>
+<p>Though it's considered more polite to call it "fudging," cheating happens; sometimes a GM will be tempted to alter a die roll to make the story go a certain way, or to save a player character from a blow that would kill them and knock a fun personality out of the game. Should the GM give in to the temptation to cheat? And if the GM is truly in control of the world, and making his or her rolls in secret, is it really cheating at all?</p>
+<p>There are several schools of thought on the matter. One side says that the dice are there to assist the story, not determine it; if a GM needs to occasionally alter or totally fabricate some die rolls for the sake of making an encounter a perfect challenge for the players without killing them, then he's just doing his job. Others say that it's the randomness which creates the realism and sense of danger, and that PCs who believe the GM won't let them die lose half the fun. And a third notes that GMs who clearly cheat or have too many coincidences - the party's powerful new items always getting stolen by sticky-fingered halflings, or villains being saved by miracle rolls when a player comes up with an unexpectedly effective strategy - undermine the players' enjoyment, and subtly encourage the players to cheat as well.</p>
+<p>Where you fall on the spectrum is a personal call, but if you do decide to fudge rolls for the sake of the game, it's best done in secret, and as infrequently as possible. And only - <strong>only</strong> - if it results in more fun for everyone.</p>
+</>};
+const _the_science_of_gming = {title: "The Science of GMing", parent_topics: ["gamemastery","gamemastery_guide","running_a_game"], siblings: ["gming_style_choices","pregame_preparation","running_the_game","post_game","the_art_of_gming","the_science_of_gming","gm_considerations","tools_for_game_masters"], subtopics: ["dice_mechanics_and_more","creating_adventures","running_smooth_combats","building_encounters","unusual_campaigns","variant_play_experiences","fixing_a_broken_game"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 34</Link></p>
+<p>Mastering the arts of narrative and group storytelling is crucial to running a good game. Yet game mastering has a practical side as well. The following subtopics address certain fundamental mechanics and tools that all GMs should familiarize themselves with.</p>
+</>};
+const _dice_mechanics_and_more = {title: "Dice Mechanics and More", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming"], siblings: ["dice_mechanics_and_more","creating_adventures","running_smooth_combats","building_encounters","unusual_campaigns","variant_play_experiences","fixing_a_broken_game"], subtopics: ["art","grid","face_cards","miniatures","initiative_tracker","item_cards","without_accessories"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 34</Link></p>
+<p>While the heart of a roleplaying game is the story cooperatively created by the Game Master and the players, the physical tools used to play the game have an effect on the experience.</p>
+<h3 id="rule-dice_mechanics_and_more-dice-mechanics">Dice Mechanics</h3>
+<p>The Pathfinder Roleplaying Game uses dice to resolve events during the course of a game, such as whether the fighter hits the vampire or the vampire makes its save against the wizard's spell. However, the type and number of dice used determines the statistical probability for each numerical outcome, and fiddling with these probabilities can introduce interesting effects.</p>
+<p>A single die has an equal chance to produce any of its results; if you roll a d20, there is a 1-in-20 chance for a 1, or a 2, or a 20, and so on. That means those dreaded fumbles and beloved crits come up just as often as an unremarkable 7, 11, or 16. This type of roll result is called a <strong className="hl">discrete uniform distribution.</strong></p>
+<p>Two dice added together do not create an equal distribution of results; if you roll 3d6, there is only a 1-in-216 chance for an 18 (by rolling three 6s), but a 27-in-216 chance to get an 11 (from multiple combinations of [3 3 4], [2 4 5], [2 3 6], and so on). That means the extreme values at the low and high end are much rarer than the middle values. This type of roll result is called a <strong className="hl">normal distribution</strong>, commonly known as a <strong className="hl">bell curve</strong> because graphing the results gives a line with a hump in the middle that tapers off toward the ends. The more dice you have in a roll, the more probable the middle results become (in the bell curve, the "bell" becomes taller and more narrow, and the rest of the curve is shorter and flatter).</p>
+<p>Note that even though a d% is normally generated by two d10s, the result is still a discrete uniform distribution rather than a bell curve because the numbers on the two dice aren't added together. It's also worth noting that, when estimating average values such as damage, the average of a d6 is 3.5 rather than 3, as the lowest value possible on most dice is 1, not 0.</p>
+<h3 id="rule-dice_mechanics_and_more-game-accessories">Game Accessories</h3>
+<p>There are many game aids that help make sessions smoother and more memorable.</p>
+</>};
+const _art = {title: "Art", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","dice_mechanics_and_more"], siblings: ["art","grid","face_cards","miniatures","initiative_tracker","item_cards","without_accessories"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 34</Link></p>
+<p>In a fantasy world where terrible beasts crush villages and flying cloud castles eclipse the sun, an evocative photo or painting can help set the mood or provide a backdrop for an encounter, or even an entire campaign. With millions of vacationers posting their photos to the internet and professional photographers displaying samples of their work online and in magazines, it's possible to find free inspiration for almost any game scene, whether a castle, desert, island, or volcano. Most modern fantasy artists have online galleries featuring beautiful illustrations of fantastic creatures and locations, and many artists sell "coffee table books" of their artwork for easy browsing. Art books, history books, and travel books are rich sources for great photos, as are web pages of concept art from movies and television.</p>
+</>};
+const _grid = {title: "Combat Grid", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","dice_mechanics_and_more"], siblings: ["art","grid","face_cards","miniatures","initiative_tracker","item_cards","without_accessories"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 34</Link></p>
+<p>Many aspects of combat in the Pathfinder RPG assume the use of a grid to determine the relative positions of different creatures. You can simply use graph paper for battles, erasing and redrawing each creature's location as it moves. However, most gamers prefer larger-scale squares that are big enough to contain a token or miniature for each creature. Many groups use wet-erase "battlemats" with 1-inch grids; these durable mats roll up for easy storage or travel. Office supply stores carry easel pads with 1-inch grid paper, which are especially handy when you want to reuse a particular map multiple times (such as a prominent street or the PCs' favorite tavern); laminating the pages or using a Plexiglass overlay (which is safe for dry-erase and wet-erase markers) extends the utility of these pages. Many companies sell three-dimensional terrain, such as high-quality painted resin or fold-up paper models, and several companies sell inexpensive mapping software for creating your own gridded fantasy maps.</p>
+</>};
+const _face_cards = {title: "Face Cards", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","dice_mechanics_and_more"], siblings: ["art","grid","face_cards","miniatures","initiative_tracker","item_cards","without_accessories"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 35</Link></p>
+<p>A picture is worth a thousand words, and even the most descriptive GM may have to deal with players who have a hard time remembering a specific NPC, as it's a person they've never seen. To remedy this problem, you can use index cards with the name of the NPC and a photograph or an illustration, and show the card whenever the PCs encounter that character. For major or recurring NPCs, you might attach them to your GM screen so they're always on display, or paste them into a player handout about the campaign setting</p>
+<p>To find good illustrations or photographs, look at collectible card games, magazines, and roleplaying games for appropriate historical and fantasy characters. Internet image searches for concept art generate good results, and can be further fine-tuned by adding race names to the search criteria. Given a large enough library of character illustrations, you can create a card for every significant NPC in your game - and the cards provide handy places for the players to record notes about that NPC.</p>
+</>};
+const _miniatures = {title: "Miniatures", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","dice_mechanics_and_more"], siblings: ["art","grid","face_cards","miniatures","initiative_tracker","item_cards","without_accessories"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 35</Link></p>
+<p>The ancestors of the Pathfinder Roleplaying Game are tactical wargames that used tokens or miniature figures (once called "figs" by gamers, though "minis" is the most common term now). Many players still find miniatures an invaluable asset for gaming. Miniatures exist for almost every type of character, from gnome wizards to elven bards or orc barbarians, in any combination of weapons, armor, and body types. Monsters are just as prevalent, and come in all shapes, sizes, and poses. A trip to a craft or toy store presents dozens of toys, plastic figurines, and action figures suitable for gaming; even if the scale isn't quite right, the visual impact of a PC or monster miniature on the tabletop can help the players better visualize their allies and opponents - and placing an 8-inch-tall monster action figure in the middle of a party of 1-inch-tall PC minis can set the mood for a dangerous and exciting encounter. Weird monster action figures from movies, television, or other games can also spark the imagination for new creatures in a home campaign</p>
+<p>For decades, most miniatures were sold as unpainted metal or plastic, and painting and customizing miniatures required time and effort to create a visually appealing tabletop setup. While this is still popular, nowadays there are also companies that produce pre-painted plastic miniatures or printable paper miniatures in PDF form. Even if you're not interested in collecting or painting miniatures, consider rewarding a player who provides miniatures for the game with bonus XP (just as you might reward a player who always hosts the game, or provides food for everyone). Painting minis is also a way to get a non-gamer spouse or significant other peripherally involved in the hobby; more than one "gamer widow" has earned kudos for painting miniatures without ever touching dice.</p>
+</>};
+const _initiative_tracker = {title: "Initiative Tracker", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","dice_mechanics_and_more"], siblings: ["art","grid","face_cards","miniatures","initiative_tracker","item_cards","without_accessories"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 35</Link></p>
+<p>Combat is the most complex part of the game, and the easiest place for a session to bog down. Anything that helps speed up combat means everyone gets more done and has more opportunities for fun. The simplest way of handling this is to record each PC and monster name on a card; when combat starts, write each creature's initiative score on its card and sort them into the initiative order. Thereafter, determining who's next to act is just a matter of cycling through the cards. Ambitious GMs can add info to the monsters' cards, such as hit points, special attack DCs, and other information relating to what the monster can do on its turn. (This can also be a useful place to record PC Perception checks and saves, so that you can make secret checks without asking players for their statistics.) Especially detailed initiative cards that resemble character sheets, with room for all of a creature's relevant data, can remove the need to refer to a book</p>
+<p>Another method is using a larger surface like a cork board, marker board, or dry-erase board to track PC and monster initiative and status. If positioned so the players can see it as well, this also lets them know when their turns are coming up so they can plan ahead.</p>
+</>};
+const _item_cards = {title: "Item Cards", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","dice_mechanics_and_more"], siblings: ["art","grid","face_cards","miniatures","initiative_tracker","item_cards","without_accessories"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 35</Link></p>
+<p>Kill the monsters, take their treasure, and sort it all out later - it's a standard tactic of most adventuring groups. So what happens when the players want to identify a stockpile of magic items from their last adventure? Just as face cards help players remember NPCs, a physical card describing an item (and perhaps a note about who it was taken from) helps the players remember the unusual items their PCs carry - and helps a busy GM keep track of what that bubbling green potion, smoking longsword, and bleeding gauntlet actually do.</p>
+</>};
+const _without_accessories = {title: "Without Accessories", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","dice_mechanics_and_more"], siblings: ["art","grid","face_cards","miniatures","initiative_tracker","item_cards","without_accessories"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 36</Link></p>
+<p>Of course, sometimes you don't want or need accessories at all - perhaps you're gaming in a car, at a campsite, or somewhere else with limited space or materials. Many campaigns don't use miniatures or a grid, even for combat. You can describe items verbally and not refer to cards or pictures. Crits are just extra damage and fumbles are misses. Character initiative is clockwise from the GM. Random results are determined by playing pick-a-number or rock-paper-scissors. The appeal of roleplaying games is the shared experience of storytelling (whether the story is an epic quest or a monster bash), and humans have been telling stories together for thousands of years just with their minds and voices. Each gaming group is different; some like all the bells and whistles, some prefer simplicity and abstraction, and many fall somewhere in between. Just as the sort of campaign each group prefers is different, how they choose to play that campaign can vary from group to group or game to game.</p>
+</>};
+const _creating_adventures = {title: "Creating Adventures", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming"], siblings: ["dice_mechanics_and_more","creating_adventures","running_smooth_combats","building_encounters","unusual_campaigns","variant_play_experiences","fixing_a_broken_game"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 36</Link></p>
+<p>It's the GM's job to plan and predict the course of an adventure. Depending on you and your players' play style, this may be an easy endeavor or require a lot of work. The basic types of adventures are linear, unrestricted, and non-linear.</p>
+<p><strong className="hl">Linear:</strong> A linear adventure scenario is pretty straightforward; the PCs begin at point A, travel to point B, then C, and so on until they reach the end of the adventure. What exactly those points are, and which of them are combat encounters, roleplaying encounters, or merely places to rest and buy new equipment varies from adventure to adventure. For example, a scenario may start at a village where <Link to="/monster/orc">orcs</Link> just attacked, follow a survivor's directions toward the orc lair, deal with the orcs in the lair, and end with the PCs returning triumphantly to the village; there isn't much room for deviation from the expected plot. Most published adventures are linear adventures simply because a book only holds a limited amount of information; it's impossible to account for every possible character motivation, wild goose chase, or wrong turn that the PCs may take during the course of one or more nights of play.</p>
+<p>With linear adventures, the GM has to be ready to steer the PCs back to the task at hand; one of the easiest ways is to use a timed event to encourage the PCs to stay on track (such as a prisoner held captive in the next location who must be rescued before the monsters kill him), but some GMs fall into the trap of using brute force, such as an army of lizardfolk that coincidentally appears whenever the PCs try to go a different direction.</p>
+<p>Linear adventures are often called "railroads" because there's only one place the PCs are supposed to go, but this isn't always a bad thing. If you're just running a one-shot game - say if an old friend is in town for a long weekend or the gaming group wants to play a single game with high-level characters - it's perfectly acceptable to railroad the characters; the expectation is that everyone wants to finish the adventure, and wasting time looking for clues in the wrong place just makes it more likely the group won't finish in the allotted time. In these situations, it's okay for the GM to say, "you don't think this has anything to do with the Dungeon of Bloody Death, and heading to Black Blood Mountain is clearly the way to deal with this threat." In the same way that your group can use their imaginations to see ex-quarterback Bob as a female gnome rogue, they can accept a gentle push in the direction of the actual adventure when things get too far off track.</p>
+<p>In an ongoing campaign, you have to be prepared for the PCs to go off the rails and stay off the rails for extended periods of time. Even if your plan is to run a linear adventure, it's a good idea to have some mini-adventures, random encounters, or interesting locations for the PCs to visit should they detour from the plot of the adventure. With careful planning, these deviations can help steer the PCs back toward the main adventure - a random encounter with an orc raiding party that's fresh from cooking and eating some peasants may inspire the PCs to deal with the lair; an old ranger needing help fighting a dire wolf may have a few +1 <Link to="/magic-enh/bane">orc bane</Link> arrows he was saving for a special occasion, and so on. Of course, the best solution is to have several linear adventures planned, seeding the PCs with information about each, and letting them pursue whichever one they want... which actually works much like the next adventure type.</p>
+<p><strong className="hl">Unrestricted:</strong> In an unrestricted adventure, the PCs can go anywhere and do anything; they may not even be aware of your initial ideas for the first adventure. This sort of gaming is often called a "sandbox" because there are no limits to what the PCs can do, like children on a playground creating their own imaginative stories with toys. Running a sandbox game requires a GM with a lot of prepared game material or the ability to create multiple story elements on the fly.</p>
+<p>An easy way to "cheat" at running a sandbox game is to have several parallel adventures planned so if the PCs wander away from one 3rd-level dungeon, you can insert another one in the path of the PCs. Another trick is to "re-skin" one adventure with a different flavor, such as taking a fire-themed temple and changing all encounters, spells, and monsters from fire to cold as the players go through it.</p>
+<p>If you're running a sandbox campaign and you get stuck, either because the PCs have lost track of adventure hooks or they're heading toward something you haven't thought much about, use the same tactics you'd use in a linear or non-linear adventure (see below) - steer them in a new direction, tell them where they're headed isn't ready yet or is too powerful for them, or ask them what they expect to find there and use that to inspire what's actually there.</p>
+<p>The one big potential trap of a sandbox game is that because there's so much to do, some players may split off from the main group for extended periods, leaving you to GM one group of players while the rest have to sit and wait until it's their turn. If this happens, steer the wandering PCs back to the main group, as dividing your attention for too long leads to bored players. Sometimes it's best to arrange a short session (or even a series of emails or messageboard posts) for just those PCs to let them deal with their plot elements and get back on track with the main plot. Sometimes the most drastic and mysterious action is best - if the wandering PCs turn up near the main group, disoriented and with no memory of the last few days except a sense of horror, you can move on with the main plot and plant seeds for what happened to that "missing time." For more information on dealing with split parties, see <Link to="/rule/splitting_the_party">here</Link>.</p>
+<p><strong className="hl">Non-linear:</strong> If an unrestricted adventure is a blank page, a non-linear adventure is a flow chart, as when the PCs have multiple options for engaging a storyline, they feel more in control, and the adventure starts to look more like a flow chart or series of crossroads than a straight railroad: this is the core of a non-linear adventure. In many cases you're able to bend or add to the developments of a linear adventure based on the actions and desires of the PCs, turning it into a non-linear adventure.</p>
+<p>For example, in the aftermath of an orc raid on a village, the PCs may decide that tracking the orcs back to their lair is too difficult without a ranger and decide their abilities are better suited to building defenses for the town and waiting until the orcs come back. Instead of the PCs dealing with the monsters room by room, you can use those area-based monster encounters to attack the town in waves, or (if you think the PCs are up for it) to attack from two different directions. The PCs don't need to know that the encounter with the orc monster tamer and his worg pet was supposed to be area 4 of the orc lair, and perhaps the increased mobility of an open area brings an interesting twist to what may have been an otherwise routine encounter.</p>
+<p>Non-linear adventures require you to plan ahead for what the PCs may do, and think on your feet in case they come up with something you weren't expecting. For example, if the PCs are intimidated by your description of the damage from the orc raid and ask about finding better weapons to help deal with the orcs, you may be momentarily caught off-guard because this sort of action wasn't in the original idea of the lair-based adventure. However, developing a stable of secondary characters and side treks lets you quickly insert an appropriate NPC for this purpose, such as the aforementioned old ranger with the +1 <Link to="/magic-enh/bane">orc bane</Link> arrows - who no longer needs help with a dire wolf, and is now willing to trade the arrows for a favor to be named later (which you can use as a plot hook for the next adventure). If you're stuck for ideas when the PCs make an unexpected shift, don't be afraid to ask the players what their characters are looking for; if they ask about <em>orc bane</em> arrows, that may inspire you about a hermit ranger, but if they ask for potions or scrolls, it may inspire the idea of a lonely, half-mad cleric living at a ruined shrine, and the players don't need to know that their suggestion as to what they're looking for helped define the course of the adventure.</p>
+</>};
+const _running_smooth_combats = {title: "Running Smooth Combats", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming"], siblings: ["dice_mechanics_and_more","creating_adventures","running_smooth_combats","building_encounters","unusual_campaigns","variant_play_experiences","fixing_a_broken_game"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 39</Link></p>
+<p>Combat is the slowest and most complex part of the game, with issues of timing, multiple creatures acting at once, and many, many dice rolls. Here are some tips for speeding up combat - things you can do and things your players can do to help.</p>
+<p><strong className="hl">Be Prepared:</strong> This sounds like a no-brainer, but the greatest source of combat slowdowns is not knowing what a creature can do or how its special ability functions. It's hard enough for the players to keep track of what their PCs can do, but as a GM you're usually running multiple creatures at once and have to keep in mind how the results of this combat affect other events in the session. Read over the stat blocks for all creatures you're using that session; if any of them have special abilities or use a <Link to="/main/umr">universal monster rule</Link>, be sure you're familiar with those as well. If a creature has a complex spell or spell-like ability, note its page number or print out the ability to save time referencing it.</p>
+<p><strong className="hl">Display the Combat Order:</strong> If a PC knows what the current tick of the initiative clock is and knows when the participants get to act, he knows when his turn is coming up and can plan for what he wants to do. This means instead of hemming and hawing for a minute at the start of his turn, he can hem and haw during the previous player's turn and be ready when it's his turn. It also lets the PCs coordinate their actions together; while stingy GMs may see this as cheating or metagaming, remember that the turn-based initiative system is just a tool to simulate real-time combat in a way that doesn't take forever, and in a real combat, people on the same side wouldn't be locked into only acting in a specific order without awareness of each others' intent.</p>
+<p><strong className="hl">Five Second Rule:</strong> If the players can see who's up next in the initiative order, they have no excuse for not knowing what's going on or what their characters want to do. If a PC's turn comes up and the player takes more than a few seconds to announce his character's action, skip him as if he had chosen to delay his action and move on to the next creature's turn - after all, combat is hectic, and sometimes in the thick of battle you need a second or two to focus. This doesn't cost the PC any actions, so they're only penalized their position in the initiative, and it hopefully encourages them to pay more attention to what's happening. Note that speeding up combat in general means players get to act more often and are less likely to get distracted between their turns, so the rest of these tips should make this one less necessary. Note also that you should let players know in advance that you're going to do this, as springing it on them unexpectedly can seem vindictive.</p>
+<p><strong className="hl">Plan and Combine Dice Rolls:</strong> Rolling attacks and damage separately takes twice as long as rolling them all together. Save time by coordinating your attack roll dice with your damage roll dice so you can roll them at the same time, and encourage players to do the same. For example, if the PCs are fighting four orcs, each with a falchion, get four different-colored d20s and a pair of matching d4s for each orc, then roll all 12 dice at the same time; if the red d20 and green d20 are hits, you know to look at the red d4s and the green d4s and ignore the blue d4s and purple d4s. If the PCs are fighting a dire lion, you can color-coordinate the bite's d8 die with one d20 and two claw d6 dice with two other d20s, and roll all the dice at once.</p>
+<p>Be aware, however, that while rolling attack and damage at the same time is always a good idea, rolling all your attacks at once can be problematic if you (or your players) want to split the attacks between multiple opponents - if you don't carefully assign each attack before you roll, it's tempting to say that two of those three attacks which would have missed the main villain were actually directed at his weaker henchmen, whether or not that was your original intention.</p>
+<p><strong className="hl">Tokens:</strong> There are dozens of conditions in the game that can affect a creature's behavior, possible actions, or combat stats, and it's easy to lose track of them during gameplay. One way to help with this is using tokens next to or underneath a creature on the battlefield or the displayed initiative tracker. The simplest tokens are torn pieces of paper with the condition written on them. Alternatively, you can use glass beads, colored plastic disks (possibly even magnetic ones for easy stacking), flat wooden squares, or even fancier tools. Several companies make variants of these, allowing you to customize them to your needs, such as a yellow marker for panicked, green for nauseated, red for enraged, and so on. Tokens also let you single out unusual creatures when unique miniatures are unavailable ("the orc with the purple marker has tentacles instead of arms") and help the players identify targets in combat without having to ask which opponent is which ("I attack the panicked orc before he runs away and alerts anyone to our presence").</p>
+</>};
+const _building_encounters = {title: "Building Encounters", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming"], siblings: ["dice_mechanics_and_more","creating_adventures","running_smooth_combats","building_encounters","unusual_campaigns","variant_play_experiences","fixing_a_broken_game"], subtopics: ["play_to_the_pcs_strengths","high__and_low_cr_encounters","solo_monsters_vs_groups_of_monsters","winning_monster_combos","dont_stymie_the_pcs"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 40</Link></p>
+<p>One of the ironies of being a GM is that it's not your job to create a fair fight between the PCs and monsters: if it were a <em>fair</em> fight, the PCs would lose half the time, and that makes for a very short adventuring career. Consider a "fair" fight between four 6th-level PCs and four 6th-level NPCs; the NPCs are a CR 9 encounter, which has a good chance of killing one of the PCs, but the PCs are likely to kill all the NPCs. This is how it should be; your job is to create encounters that are challenging, which means the PCs are expected to win, but should have to work for it. The following section gives advice on building encounters that are challenging, memorable, effective, and interesting.</p>
+</>};
+const _play_to_the_pcs_strengths = {title: "Play to the PCs' Strengths", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","building_encounters"], siblings: ["play_to_the_pcs_strengths","high__and_low_cr_encounters","solo_monsters_vs_groups_of_monsters","winning_monster_combos","dont_stymie_the_pcs"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 40</Link></p>
+<p>As a GM, you should know your players and their PCs, and create encounters that suit their play style and show off what their characters can do. If the fighter's player likes to jump into the middle of groups of monsters and hack away, be sure to include such encounters every so often so that player gets to do what he likes best. If he has the <Link to="/feat/cleave">Cleave</Link> feat, set up situations where he can cleave an adjacent foe; if he has <Link to="/feat/great_cleave">Great Cleave</Link>, make sure every now and then he can go cleave-crazy on a horde of weak opponents. If the sorcerer's player is a tactician and likes to use ranged spells and enchantments, put her against charm-vulnerable opponents using ranged attacks so she has perfect targets for her style of play. If the monk's player is a fan of Wuxia films and likes the extreme-cinematic style of combat, put opponents on ledges so he can use high jump, or enemies at the bottoms of cliffs so he can get there quickly using slow fall, and make sure some enemies aren't immune to stunning fist.</p>
+<p>This means you should keep an eye on what feats and spells your players select as their PCs level up, and on what magic items you award them or they create. If the fighter takes <Link to="/feat/great_cleave">Great Cleave</Link> at level 5 and only gets to use it once by the time he's reached level 10, it's as if he wasted that feat choice, and that's not fun. You want the players to use the abilities that make them excited about the game. Reward them for playing well by letting their characters flex their muscles.</p>
+<p>This is not to say that you shouldn't challenge the players to try different tactics. Put the fighter who likes being surrounded in a situation where he has to guard a narrow bridge and can't let anyone get past him, or have him fight monsters that get flanking bonuses or sneak attacks that make him rely on terrain or the other PCs to avoid getting killed. Let the tactician-sorcerer take control of a minion. The trick is to teach other styles of play (or at least present them as options) without them feeling forced.</p>
+</>};
+const _high__and_low_cr_encounters = {title: "High- and Low-CR Encounters", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","building_encounters"], siblings: ["play_to_the_pcs_strengths","high__and_low_cr_encounters","solo_monsters_vs_groups_of_monsters","winning_monster_combos","dont_stymie_the_pcs"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 41</Link></p>
+<p>The game expects that for about half of the encounters the PCs face, the CR of the encounter is equal to the average party level (APL). Obviously the rest of the encounters are higher or lower than the average party level, but what is too low or too high?</p>
+<p><Link to="/rule/designing_encounters">Table 12-1: Encounter Design</Link> only covers encounters from APL -1 to APL +3, so that CR range is the usual limit for most encounters. After all, for a party of four 6th-level PCs, an "easy" encounter (APL -1) is a "rival" group of four 2nd-level NPCs (CR 1 each, +4 for 4 creatures = CR 5); if beating up NPCs one-third your level is easy, beating up even weaker creatures is more like bullying than adventuring. The risk of using very easy encounters is that the players may grow bored: they know their characters can deal with the monsters, but have to go through the motions of making attack and damage rolls without the excitement or risk from a "real" encounter. (Much like a "god mode" setting in a video game, the novelty of easily destroying all opponents gets old after a few encounters.) In some cases it's acceptable or even a good idea to lead off an adventure with a very easy encounter - for example, if the players need a morale boost or have power-boosting abilities that require some kills to start functioning - but in most cases you don't want to create encounters below APL -1.</p>
+<p>The value of APL +3 should be a fairly hard limit for difficult encounters unless you want there to be a considerable risk of PC death. Once you're beyond APL +3, the PCs' ability to pose a threat to a monster dwindles, especially if the encounter is a single powerful creature rather than multiple ones on par with the APL. In most cases, this is because using a higher-CR monster may cross one of the invisible "break points" in monster design where the creature's defenses and abilities assume the PCs are a certain level and have access to certain spells or gear, such as magic weapons, spells to remove ability damage, items neutralizing poisons or disease, or even simple things like being able to hit the monster's AC or meet its saving throw DCs. If the PCs lack a critical spell or piece of gear, a difficult encounter may be nearly impossible.</p>
+<p>For example, a succubus is a CR 7 encounter, and is an "epic" encounter for a group of four 4th-level PCs. Most PCs at that level lack cold iron or good weapons, and thus have to deal with the demon's DR for every attack. The PCs may have difficulty overcoming her SR 18, energy resistances, and immunities, thus spellcasters will be frustrated. The PCs have even odds at best of resisting her at-will <Link to="/spell/charm_monster">charm monster</Link> and <Link to="/spell/suggestion">suggestion</Link> (usually taking one PC out of the fight), and have to work very hard to make up for the temporary hit points from her at-will 6d6 <Link to="/spell/vampiric_touch">vampiric touch</Link>.</p>
+<p>It's entirely possible to have an exciting and challenging fight (CR equal to APL +1 or +2) without overwhelming the PCs. An "epic" fight may last two or three hours of real time: a memorable fight if the PCs win, but a depressing slog if they can't. It's generally better to keep combat encounters to about an hour - that way you can get two or three encounters into one night of gaming, and make more progress in the adventure or campaign than a single, longer fight. If the fight you've given the PCs ends up too tough for them, don't forget to remind them that they can run away, or you can cheat a little bit and suddenly treat the monster as if it had the young creature template (-2 on all rolls), which might be enough to turn the tide in the PCs' favor; after all, you want the PCs to win, because that means everyone gets to keep playing. Killing them with an accidentally-too-hard encounter is no fun for anyone.</p>
+</>};
+const _solo_monsters_vs_groups_of_monsters = {title: "Solo Monsters vs. Groups of Monsters", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","building_encounters"], siblings: ["play_to_the_pcs_strengths","high__and_low_cr_encounters","solo_monsters_vs_groups_of_monsters","winning_monster_combos","dont_stymie_the_pcs"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 41</Link></p>
+<p>Sometimes there's the temptation to use one powerful monster instead of multiple weaker monsters. The main drawback to this encounter-designing tactic is that the PCs outnumber the monster; even in the optimal situation where the monster attacks first, a group of four PCs gets to attack four times before the monster gets another turn, and with good planning it's entirely possible for the PCs to kill the monster in one round. Using multiple monsters forces the PCs to either focus their attention on one opponent (giving the remaining opponents more opportunities to attack) or engage all of the opponents (preventing an immediate slaughter). Using multiple monsters also lets you set up special abilities like sneak attack that are difficult to implement with a single monster, and means you can distribute the monsters' actions throughout the round (whether by rolling separate initiatives or using the delay or ready actions) and react more than once per round to what the PCs do.</p>
+<p>Remember that, as a GM, you have tricks up your sleeve, and if the PCs are having an easy time dealing with a solitary monster, it's all right to send in reinforcements. An intelligent NPC may have bodyguards en route. A brutish monster may have a handler or trainer within earshot of its cries for help. Even an unintelligent creature like an ooze or big zombie may benefit from the arrival of wandering monsters.</p>
+</>};
+const _winning_monster_combos = {title: "Winning Monster Combos", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","building_encounters"], siblings: ["play_to_the_pcs_strengths","high__and_low_cr_encounters","solo_monsters_vs_groups_of_monsters","winning_monster_combos","dont_stymie_the_pcs"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 42</Link></p>
+<p>Some monsters are best used in groups or with other creatures that complement or augment their abilities. A single <Link to="/monster/derro">derro</Link> probably has a hard time using its sneak attack, but a group of them can easily set up flanking situations. <Link to="/monster/tiefling">Tieflings</Link> have fire resistance 5, making them handy allies for a fire priest with <Link to="/spell/burning_hands">burning hands</Link> or a <Link to="/monster/mephit">fire mephit</Link>; alternatively, a tiefling cleric controlling a gang of <Link to="/template/skeleton">burning skeletons</Link> is all but immune to their area damage. Creatures with spell-like abilities can cast them on minions or on a leader. For example, a <Link to="/monster/dark_naga">dark naga</Link> or <Link to="/monster/spirit_naga">spirit naga</Link> can cast <Link to="/spell/cats_grace">cat's grace</Link>, <Link to="/spell/invisibility">invisibility</Link>, or <Link to="/spell/displacement">displacement</Link> on its allies; a spirit naga can even turn itself invisible and cast <Link to="/main/cure_spells">cure spells</Link> on its allies. Given time, a <Link to="/monster/succubus">succubus's</Link> profane gift ability can bolster every single guard, priest, and lieutenant in an evil fortress.</p>
+<p>Monster abilities can also complement hazards or traps; a flying monster ignores difficult terrain, floor pits, or patches of green slime. Monsters with damage reduction are immune to arrow traps and most spear traps; those immune to poison can ignore the danger of poisonous traps or even rooms with inherently toxic air, such as a sulfurous volcanic vent. Using monsters intelligently like this helps create fun and memorable encounters, as well as challenges PCs to try new tactics.</p>
+</>};
+const _dont_stymie_the_pcs = {title: "Don't Stymie the PCs", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","building_encounters"], siblings: ["play_to_the_pcs_strengths","high__and_low_cr_encounters","solo_monsters_vs_groups_of_monsters","winning_monster_combos","dont_stymie_the_pcs"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 42</Link></p>
+<p>This is another way of saying "play to the PCs strengths," but is worth reiterating. Part of the fun of playing is leveling a character and gaining new abilities. If you create encounters that circumvent the PCs' newest abilities, it takes away some of the fun of the game because it's like they didn't gain all the benefits of their level. For example, if the PC wizard just reached level 5 and learned the <Link to="/spell/fireball">fireball</Link> spell, you may be tempted to throw some fire-resistant or fire-immune encounters at the PCs to compensate for this ability - which makes the 5th-level wizard feel like a 4th-level wizard. However, thousands of RPG campaigns have survived PCs who can cast <em>fireball;</em> it's better for a GM to embrace the new ability than fear it. Give the wizard a cluster of minions to blast so he feels powerful - or set up an encounter where he has to choose between blasting a bunch of minions or using the spell on just the boss.</p>
+<p>Some monsters are designed to be more challenging to certain character classes. <Link to="/family/golem">Golems</Link> are immune to almost all magic, some <Link to="/type/outsider">outsiders</Link> have very high damage reduction, <Link to="/type/ooze">oozes</Link> are immune to critical hits and sneak attacks, and so on. If the PCs end up facing these kinds of creatures over and over again (especially in a short amount of time), the stymied players can easily get frustrated; after the third encounter with <Link to="/monster/stone_golem">stone golems</Link>, the sorcerer and wizard are likely to give up and want to stop playing. If you're going to use a lot of these creatures (say, in a themed dungeon), you have two options to prevent player frustration.</p>
+<p><strong className="hl">Give the Character a Tool:</strong> There are dozens of limited-use items in the game, plus consumables like potions and scrolls. If you know one PC is going to have a problem with an upcoming encounter, drop a helpful item into an earlier encounter or even an earlier adventure - an item that lets the character be useful in the battle despite the monster's resistances. If a PC druid has no magic weapons and you're planning an <Link to="/monster/iron_golem">iron golem</Link> encounter, give her a <Link to="/magic-wondrous/golembane_scarab">golembane scarab</Link> so she can better attack it in wild shape. If a PC rogue has no bludgeoning weapons to use against a black pudding, let her find a low-level <Link to="/spell/magic_missile">wand of magic missile</Link> and blast away using Use Magic Device. Many items and spells in the game are designed to deal with unusual encounters, but don't see play very much because PCs prefer general-utility magic; introducing a cheap or expendable item like this gives smart players something to fall back on if their primary strategy isn't effective or if they run into an encounter where the unusual tool is exactly what they need.</p>
+<p><strong className="hl">Present Other Options:</strong> Just because the encounter involves a monster doesn't mean that all the PCs have to focus on defeating that monster. Create another task that helps overcome the monster, prepares for the next encounter, or disables a parallel threat during the fight. For example, in a fight against a bunch of <Link to="/monster/black_pudding">black puddings</Link>, rather than having the rogue frustrated by not being able to use sneak attack, add a spiked wall trap that the rogue can disable while the other characters deal with the oozes. If the encounter has an iron golem and the wizard has no electricity attacks to slow it, put a magical puzzle-crystal in the room that unlocks a secret room if the wizard makes a Knowledge (arcana) check. If the party cleric channels negative energy and the other PCs are fighting undead (meaning the cleric would heal enemies if she tried to channel), include a door made of fused bone that only opens from a focused blast of negative energy. If the opponent is resistant to physical attacks, put a chained prisoner in the room that the barbarian, fighter, or paladin can rescue while the spellcasters deal with the threat.</p>
+</>};
+const _unusual_campaigns = {title: "Unusual Campaigns", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming"], siblings: ["dice_mechanics_and_more","creating_adventures","running_smooth_combats","building_encounters","unusual_campaigns","variant_play_experiences","fixing_a_broken_game"], subtopics: ["no_healers","no_spellcasters","all_spellcasters","small_party","large_party"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 43</Link></p>
+<p>Most GMs eventually toy with the idea of running a theme campaign, such as an all-dwarf or all-elf campaign. While most of these have no game effect, below are several variant campaigns that require special consideration when building encounters.</p>
+</>};
+const _no_healers = {title: "No Healers", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","unusual_campaigns"], siblings: ["no_healers","no_spellcasters","all_spellcasters","small_party","large_party"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 43</Link></p>
+<p>Whether you're running a low-magic campaign or just have a group of players uninterested in playing healers, a lack of curative magic in the party is a big deviation from the norm. Without a healer, monsters that deal high damage have a greater risk of killing a PC - there's no healer to step in and compensate for a critical hit - so you should rely on weaker monsters that don't deal damage in large increments. If there is magic in the campaign, the PCs can at least rely on potions (and scrolls and wands, given an adequate Use Magic Device bonus), but this forces them to decide between attacking and healing each round. Without reliable access to any healing magic (such as in a historical campaign), the PCs must resort to nonmagical methods like the Heal skill, or perhaps limited-use legendary items or quasi-magical items derived from unusual monster parts. They should also consider using more defensive tactics, such as taking the <Link to="/feat/dodge">Dodge</Link> and <Link to="/feat/combat_expertise">Combat Expertise</Link> feats, in order to raise their Armor Classes and reduce the number of successful attacks against them. Keep in mind that without healing, PCs generally have no way to deal with curses, diseases, poisons, and other afflictions, so use creatures with those abilities sparingly or make mundane methods of overcoming such dangers a more significant and readily available part of your campaign.</p>
+</>};
+const _no_spellcasters = {title: "No Spellcasters", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","unusual_campaigns"], siblings: ["no_healers","no_spellcasters","all_spellcasters","small_party","large_party"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 43</Link></p>
+<p>Though technically a broader example of the "no healers" variant, a campaign with no spellcasters at all has an entirely different set of problems. Most adventures assume that a typical party has one arcane caster and one divine caster; without any magic at their disposal, the PCs may have a hard time dealing with monsters that are resistant to physical damage but vulnerable to magic. Even something as simple as a swarm (immune to weapons but vulnerable to area attacks) becomes a significant challenge when the PCs don't have magic. Conversely, an otherwise challenge-appropriate monster that has a high spell resistance may actually end up weaker than a "normal" creature because its CR assumes the PC spellcasters are going to have trouble - a hindrance a no-spellcaster party completely ignores. Keep an eye out for monsters with high DR, high SR, or vulnerabilities to magical attacks (including cold and fire vulnerability); these are likely to be more or less difficult than expected.</p>
+</>};
+const _all_spellcasters = {title: "All Spellcasters", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","unusual_campaigns"], siblings: ["no_healers","no_spellcasters","all_spellcasters","small_party","large_party"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 43</Link></p>
+<p>This section is more about a party with no melee classes, rather than a party where every PC is a spellcaster - a group of four clerics or paladins is technically an all-spellcaster party, but they don't have the sort of problems that four sorcerers, wizards, or even bards face. Such a party is the opposite of the no-spellcasters group; DR is less important, SR and resistances are more important, and creatures with nearly universal magic immunity are a serious problem. <Link to="/family/golem">Golems</Link>, for example, can't be damaged by most direct-attack spells, and even though a <Link to="/monster/stone_golem">stone golem</Link> is CR 11, it may be able to eliminate an entire party of 12th-level wizards, especially given a wizard's low AC and hit points compared to a melee class. The golem is an "easy" challenge on paper, but more dangerous in execution. Of course, smart players will use summoned monsters and charmed enemies to take the brunt of physical attacks, and a smart GM can stave off a lot of player frustration by providing such things to the PCs (even in the form of scrolls or wands) if the players don't think of it themselves; even a few summoned <Link to="/monster/orc">orcs</Link> at the start of an adventure can help an all-caster party survive.</p>
+</>};
+const _small_party = {title: "Small Party", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","unusual_campaigns"], siblings: ["no_healers","no_spellcasters","all_spellcasters","small_party","large_party"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 43</Link></p>
+<p>Sometimes you have a player who can't make it to this week's session; sometimes you only know two other gamers in your area. Either way, having a small party presents you with some unique challenges. With fewer characters, a battle can shift against them very quickly; one unconscious, charmed, or held PC in a group of three is a loss of 33% of the party's resources compared to 25% in a standard party. Often, one or more PCs may have to take on multiple roles (melee character, skill character, arcane damage-dealer, or divine healer), and as the game rewards specialization, this means these hybrid characters are slightly less effective at either task than two focused characters would be. Fewer characters means it's more likely they're clustered together, and thus are more vulnerable to area attacks. When dealing with a small party, temperance is the key - start with smaller, weaker encounters, and give the players time to get the feel of their group's vulnerabilities. Once the players have an idea about their party dynamics, test them with encounters closer to their average party level, and eventually you'll find a good CR range that suits their abilities and is still challenging.</p>
+</>};
+const _large_party = {title: "Large Party", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","unusual_campaigns"], siblings: ["no_healers","no_spellcasters","all_spellcasters","small_party","large_party"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 43</Link></p>
+<p>A party of eight PCs is a much different "problem" for a GM: they're able to handle more difficult encounters and more of them per day, often by expending disproportionately fewer resources than a four-person party. It would be easy to make the assumption that because doubling the number of monsters in an encounter adds +2 to the CR, a party of double the normal number of PCs can routinely handle encounters where the CR is equal to the APL +2. This isn't always true, however, mainly because higher-CR monsters tend to have built-in assumptions about party gear (see <Link to="/rule/high__and_low_cr_encounters">High- and Low-CR Encounters</Link>). These differences are especially evident with a large number of weaker PCs.</p>
+<p>A good low-level example of this is the <Link to="/monster/barghest">barghest</Link>; it's only CR 4, and in theory, if four 2nd-level PCs can handle a CR 2 encounter, eight 2nd-level PCs should be able to kill a CR 4 monster. However, most 2nd-level characters aren't going to have a magic weapon, and therefore the barghest's DR 5/magic absorbs a lot of incoming damage. Also, a barghest's average damage per round is 20.5, assuming it hits with all three attacks (and with a +10 attack bonus for all three, that's a safe bet against 2nd-level PCs); while that's dangerous for 4th-level PCs (where a typical fighter has about 40 hit points), it's murder for 2nd-level PCs (where a typical fighter has about 22 hit points). In this case, the battle becomes a race to wear down the monster as soon as possible because it's killing a PC almost every round.</p>
+<p>It's perfectly fine for a large group of PCs to have an easier time dealing with challenges where the CR is equal to the APL. In general, it's better to use multiple weak monsters than one powerful monster. This gives each PC multiple opponents to choose from, gives you more creatures to play with, and keeps PC mortality low.</p>
+</>};
+const _variant_play_experiences = {title: "Variant Play Experiences", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming"], siblings: ["dice_mechanics_and_more","creating_adventures","running_smooth_combats","building_encounters","unusual_campaigns","variant_play_experiences","fixing_a_broken_game"], subtopics: ["solo_campaigns","convention_play","online_games"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 44</Link></p>
+<p>Not every game session involves half a dozen people sitting around a table, with dice and character sheets in hand. Other popular play experiences include solo campaigns, convention play, and online games.</p>
+</>};
+const _solo_campaigns = {title: "Solo Campaigns", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","variant_play_experiences"], siblings: ["solo_campaigns","convention_play","online_games"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 44</Link></p>
+<p>A solo campaign - sometimes called a duet campaign - consists of one GM and one player. Such an arrangement is often perfect for spouses, roommates, siblings, and any other situation where players are scarce. In addition, a solo campaign is ideal for pursuing the kind of plotline that excludes other players - for example, an in-character romance, or a character who wants to build a business or carry out nefarious activities.</p>
+<p>For better or worse, a solo campaign centers on the player's character. Thus, it's best to start with the character concept and build a storyline around that. For example, if your player wants a seafaring character, your campaign should focus on the ocean. You and the player should agree on the basics, then you can design adventures accordingly.</p>
+<p>While this kind of campaign obligates you to cater to the tastes of your player, it also frees you from worrying about whether the other players are having fun - if your player's enjoying it, you're 100% successful. Still, this doesn't mean you need to focus exclusively on things you know your player likes, as that can rob you of the chance to find new things he or she might enjoy. Lay your campaign's foundation on known tastes, but feel free to explore.</p>
+<p>Having only one PC poses some difficulties with standard adventures. A solo PC is incredibly vulnerable, not just to combat encounters, but to simple problems like falling into a pit; if the PC can't make the required Climb check or get out of the pit with magic, he's basically stuck. Likewise, a party of four PCs can deal with a monster that casts <Link to="/spell/charm_person">charm person</Link> on one party member, but a solo PC who fails that save is done for (unless you have a plan for dealing with the charmed PC shaking off the effect later and escaping). A good example to follow is a movie where there's just one protagonist; combat encounters are usually either multiple weak opponents that are only a threat to the hero in numbers (and the hero often controls the battlefield so he can deal with them one or two at a time) or a single, more difficult opponent such as a lieutenant or the main villain.</p>
+<p>One way to compensate for the lack of other party members is to expand the character's range of abilities beyond what the game normally allows. As long as the character won't ever be played in a "normal" campaign, there's really nothing wrong with this tactic. Another option is to introduce one or more NPCs with the appropriate abilities, friends or sidekicks of the hero which can be played by either you or the player. You could also use magic items to help fill the gap. At some point, however, you may still need to adjust your adventure to eliminate challenges that the player simply cannot meet.</p>
+<p>Stealth, skill, and roleplaying encounters are much more common in solo play. Just remember to have a backup plan should the PC fail to accomplish a goal, such as an alternate route around a trap, a quick combat resolution to a failed stealth situation, or a temporary way to neutralize or contain a dangerous opponent.</p>
+</>};
+const _convention_play = {title: "Convention Play", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","variant_play_experiences"], siblings: ["solo_campaigns","convention_play","online_games"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 44</Link></p>
+<p>Conventions are hotbeds of gaming opportunity. While many RPG events available at game conventions are single-session adventures, timed dungeon runs, or tournaments, others are run through organized play groups like the Pathfinder Society which allow players to keep the same character over the course of several games (or conventions!), accumulating experience, gear, and notoriety. Campaigns that operate via game conventions and other public events lose a great deal of the camaraderie of a standard campaign due to the infrequency of sessions and the variable player mix, but such events can be perfect for players without a lot of free time or other players nearby.</p>
+</>};
+const _online_games = {title: "Online Games", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming","variant_play_experiences"], siblings: ["solo_campaigns","convention_play","online_games"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 45</Link></p>
+<p>Since the birth of the Internet, GMs have been successfully taking their campaigns online. With an online campaign, you can play with people from anywhere in the world without leaving your own home. You can once again game with friends who have moved away, or make new friends from faraway places.</p>
+<p>The two most common formats for online campaigns are messageboard games (which can also be conducted over email, if less conveniently) and live chat. In a messageboard game, the GM posts a description of events and asks for actions, and players post their replies. Though this method is slower, it carries no scheduling problems - players simply log on when they can and add their responses.</p>
+<p>Live chat brings the play experience closer to that of a tabletop game. Everyone logs into the same chat channel at the same time. A live chat game moves slower than a tabletop one, but much faster than a messageboard game. Chat-based games require scheduling, however, and can be a significant headache when you have players from different time zones. Furthermore, absences may be more frequent until you get a solid group, as players are often less committed to an Internet game than an in-person engagement, but logs of missed game sessions allow absentees to quickly catch up on the action.</p>
+</>};
+const _fixing_a_broken_game = {title: "Fixing a 'Broken' Game", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","the_science_of_gming"], siblings: ["dice_mechanics_and_more","creating_adventures","running_smooth_combats","building_encounters","unusual_campaigns","variant_play_experiences","fixing_a_broken_game"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 45</Link></p>
+<p>Roleplaying games require flexibility and must be open to interpretation. Sometimes this means one element of a campaign can overshadow the rest of it, or a simple mistake can grow over time until it's too big to ignore. Fortunately, there are ways to fix these problems and get your game back on track. Remember that while this section is about things you can to do fix a broken game, you and the players are partners in the storytelling, and talking to the players about the problem can give you solutions you may not have thought of yourself.</p>
+<p><strong className="hl">Too Much Treasure:</strong> This trap is the easiest for a GM to fall into, but fortunately is also the easiest to correct. A few too many encounters with treasure-rich opponents such as NPCs with classes can mean that the PCs end up with significantly more wealth than the suggested value for their level. Too much wealth means they can afford to buy or craft multiple magic items to enhance their characters beyond the expected power level, allowing them to more easily defeat other opponents and collect even more treasure. See <Link to="/rule/rewards">Rewards</Link> for more information on how to solve this problem.</p>
+<p><strong className="hl">Gamebreaker Element:</strong> Maybe the druid's spell-enhanced animal companion is more deadly than the party fighter, or the wizard's new staff allows the PCs to easily bypass or decimate encounters. Maybe the bard's new feat is letting him use his astronomical Diplomacy score to talk NPCs and enemies into almost anything. This sort of thing can either make the game boring because there's no challenge, or else make it too risky for other PCs because you have to make encounters engaging for the most powerful character. For tips on how to handle this, see <Link to="/rule/overpowered_pcs">Overpowered PCs</Link>.</p>
+<p><strong className="hl">No Motivation to Adventure:</strong> If the PCs all have good alignments, it's easy to motivate them to go on an adventure; just dangle an evil overlord, undead army, or threatened village in front of them and let nature take its course. However, without altruistic motivations, sometimes PCs have to be prodded into action. Greed is always a powerful motivator; the lure of incredible wealth is a draw for many PCs, and throwing out a few plot hooks relating to a fabulous treasure should get them started. Other PCs want power; a frontier castle that's been taken over by monsters, a strange cult, or an enemy nation is a nice prize, especially if the local ruler is willing to grant land and title to those who reclaim it. Other PCs want fame; give them the opportunity to slay a fell beast that has been murdering folk for generations, or break the back of the thieves' guild. Look to history, fiction, television, and movies for other motivations: love, jealousy, vengeance, and fear are all common story elements that drive characters to their destinies. If you're not sure what would motivate the PCs, ask the players what their characters want and find a way to incorporate that into the campaign.</p>
+<p><strong className="hl">When PCs Miss a Clue:</strong> Any time you leave the course of an adventure to a die roll, you risk PCs - and thus players - missing something important, whether it's a secret door, a hidden panel in a treasure chest, or a failed Knowledge roll. Fortunately, you control the entire game world, and it's easy to point the PCs at the clue again. If the PCs missed a secret door, let them find a rough treasure map of the dungeon with the door clearly marked (on the back of a scroll they found earlier is a nice trick), or they can hear about it from another group of adventurers. Cohorts are good for spotting overlooked secret compartments in treasure chests, as is a sharp-eyed town merchant. A forgotten reference to an ancient king, priest, or wizard can turn up in an old prayer book or during spell research. While the PCs may be the focus of the campaign world, there are countless secondary characters and events that can put them back on the right track if they get lost.</p>
+</>};
+const _gm_considerations = {title: "GM Considerations", parent_topics: ["gamemastery","gamemastery_guide","running_a_game"], siblings: ["gming_style_choices","pregame_preparation","running_the_game","post_game","the_art_of_gming","the_science_of_gming","gm_considerations","tools_for_game_masters"], subtopics: ["game_changers","emergency_game_prep","tpks","overpowered_pcs","personalizing_published_adventures","converting_content_from_35_or_other_systems","words_every_game_master_should_known"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 46</Link></p>
+<p>One of the game's delights - and frustrations - is that it changes over time. Every session runs a little bit differently, and whether it's new abilities, new characters, or changes to the gaming group itself, a good GM needs to know how to roll with the punches.</p>
+</>};
+const _game_changers = {title: "Game Changers", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","gm_considerations"], siblings: ["game_changers","emergency_game_prep","tpks","overpowered_pcs","personalizing_published_adventures","converting_content_from_35_or_other_systems","words_every_game_master_should_known"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 46</Link></p>
+<p>When you play a campaign long enough, the rules change. The characters that once limped into the village to beg for healing now use magic to cross continents, consult with extradimensional powers, and rescue their allies from death itself.</p>
+<p>Alertness is your best tool as a Game Master. Keep one eye on what's ahead: what abilities you'll need to account for as you plan your future machinations. Whenever you're dealing with new mechanical elements, you should have three goals:</p>
+<ul>
+<li>Don't get surprised</li>
+<li>Don't let the new ability run amok</li>
+<li>Don't render the new ability useless</li>
+</ul>
+<p>Players are inherent "surprise generators," and being surprised by their ingenuity is one of the joys of being a Game Master. You don't need to consider every possible power combination. But when you see a game-changing power coming down the road, take a moment to think like a player. What will Bob want to do once he can turn invisible? Once you answer that, you won't be surprised (or at least as surprised) and can move on to the other two goals.</p>
+<p>"Don't let the new ability run amok" and "don't render the new ability useless" are two sides of the same coin. Your fundamental job as Game Master is to provide entertainment, challenge, and above all, balance. Players have a natural desire to play with their new toys - you helped instill that desire in them when you put all those interesting challenges in their way in the first place. Now you have a responsibility to make sure that one player doesn't trivialize the game's challenges, for himself or for the whole table.</p>
+<p>Below are some potentially difficult game elements, and some thoughts on how to manage them.</p>
+<p><strong className="hl">Invisibility:</strong> There's an inherent mischief to invisibility. Consider The Invisible Man, or the iconic example of Bilbo in The Hobbit. Let the players have their mischief - it frequently costs you nothing, and they're having a good time - and deploy the traditional countermeasures (divination magic, traps, creatures that don't use sight) only at points where you want to preserve the challenge. If invisibility isn't available to everyone in the party, that helps puts a brake on their invisible ambitions in two ways. First, invisible means invisible; the other party members can't find the invisible PC for healing, communicate silently, or know where she actually went when she said she'd scout ahead. Second, for every sneaky gal in the party, there's usually a guy buried under layers of clanking plate armor as well. That guy is the Game Master's best friend, providing warning to enemies. The invisible player can probably choose her position and get a surprise attack in, but the presence of loud, visible companions ensures that the advantage of invisibility will be fleeting unless the group splits.</p>
+<p>When the whole party can turn invisible, brace yourself for the entire table choosing to sneak past encounters you spent hours preparing. As long as they're truly quiet and don't run into monsters who can counter their invisibility, let them do so. You can recycle those encounters later, and it's probably better for everyone's fun to respect the party's choice to bypass. It's possible they're using invisibility to tell you they'd rather be doing something else. So move along, but save those encounters for later use.</p>
+<p><strong className="hl">Flying:</strong> Your immediate concerns are more tactical when flying shows up at your table: do melee-only monsters get slaughtered like bison on the Great Plains? You'll need to consider the monster mix in your encounters more carefully so that the players don't just fly above the dire wolves and drop rocks on them. But there's nothing wrong with letting the aerial advantage be an advantage every once in a while. Let the flying PC trivialize an encounter or a trap - there are always more of both coming down the line.</p>
+<p>Unlike most other game-changing powers, flying comes with a hidden danger to players: altitude. When a ground-bound player gets stunned, knocked out, or dropped to negative hit points, he slumps to the ground. Depending on the exact nature of the flight power, the consequences for a flying character might be far more severe. If a character runs out of hit points and can't fly anymore, impact with the ground will almost certainly finish him off.</p>
+<p>When a player learns to fly, it's worth a brief conversation with that player. Show him the math: "If you reach 0 hit points when you're X feet in the air, you'll take Y damage on average, which leaves you at negative Z hit points - dead, in other words." Once he's got a grasp on the inherent danger, the player can take calculated risks, and it adds even more drama to a desperate battle in the sky.</p>
+<p><strong className="hl">Teleportation:</strong> Teleportation raises an issue similar to invisibility: once the whole group can do it, they can bypass content. And as with invisibility, if the players have done a proper job of playing by the rules, let them have their way. It's likely not that the players want to skip the encounters you've made, but rather that you're abundantly eager to get to the other encounters you've made. Tap into that eagerness! (And don't forget to recycle the work on those skipped encounters later.)</p>
+<p>Teleportation can also challenge your preparation and ability to improvise. If your players can open a portal to the throne rooms in any of the Hundred Sacred Kingdoms, how do you cope with the mountains of preparation that come with unfettered, instant travel?</p>
+<p>You improvise and cheat, of course. You don't have a hundred throne rooms (with a hundred high-level monarchs, royal guard complements, and sets of court intrigues) prepared. You have one prepared, notes for a second, and a good idea for a third. You rename your prepared stuff on the fly - the Peaceable Kingdom of Jarrach becomes the Shadow Duchy of Sindrauta. Prince Karelius becomes Countess Kar-than-draya. The royal guards become elves - and you just describe them as having pointy ears, because nobody really cares that their Perception scores are +2 higher. You've got better ways to spend your precious time, and your players will never know the difference.</p>
+<p>For that second kingdom the PCs teleport to on a lark, go with your notes. Steal stat blocks as needed, from any source. A <Link to="/family/devil">devil's</Link> stat block works just fine for the sinister seneschal who's rumored to consort with dark powers. Likewise for the third kingdom. And if you feel like the PCs are teleporting around too rapidly for you to keep up - well, you have a whole book full of monsters right in front of you, don't you?</p>
+<p><strong className="hl">Lie/Evil Detection:</strong> This magic can be exceedingly troublesome, especially in mystery adventures, yet instead of banning it outright, your best alternative is to stick with the three goals. First, don't be surprised. When your NPC schemers start scheming, consider how the players will put divination magic to use. Second, make sure that <Link to="/spell/discern_lies">discern lies</Link> and <Link to="/spell/detect_evil">detect evil</Link> don't run amok. You have magical countermeasures, of course, but save those for "this guy absolutely must be able to fool the PCs" moments. When you can, use low-key solutions such as:</p>
+<ul>
+<li>The NPC can use nonmagical but expert means (high Bluff score, natural defenses against divination) to thwart the PCs.</li>
+<li>The NPC can tell half-truths and leave the really incendiary stuff unsaid.</li>
+<li>The NPC gets caught lying, but that doesn't help the PCs uncover the truth.</li>
+<li>The NPC is serving evil under duress or is otherwise sympathetic.</li>
+<li>The PCs spot the lie, but jump to the wrong conclusion; they know that "troops are marching to Declanburg" is a lie, but it's a lie because the troops are already there, not because they're marching elsewhere.</li>
+</ul>
+<p>NPCs - at least some of them, anyway - know how the world works. It's reasonable to assume that just as you thought about what your players would do with divination magic, so too will an NPC consider what meddling PCs might do and prepare accordingly.</p>
+<p>Third, let the magic work as a clue delivery system for you. PCs sometimes make astounding deductive leaps, but sometimes they ignore the blindingly obvious. Use <Link to="/spell/discern_lies">discern lies</Link> and <Link to="/spell/detect_evil">detect evil</Link> to get important information in the players' hands fast. Players might find a traditional interrogation of an NPC riveting, but they're unlikely to find the fifth such interrogation as interesting. Put a little divination magic to work, and watch your table quickly get the information it needs to get on with the fun.</p>
+<p><strong className="hl">Remote Viewing:</strong> <Link to="/spell/clairaudience_clairvoyance">Clairaudience/clairvoyance</Link> and other scrying magic poses many of the same issues as teleportation. On the one hand, remote viewing is less work for you because the PCs aren't interacting with the NPCs and places they're observing. But on the other hand, remote viewing is generally easier and less risky than teleportation, so PCs are more likely to employ it.</p>
+<p>By now, you're likely accustomed to the familiar refrain of "think like the players," and are largely concerned about remote viewing in two ways:</p>
+<p><strong className="hl">Reconnaissance:</strong> PCs use <em>clairaudience/clairvoyance</em> and similar spells to get a look at adventure sites beforehand. On balance, this usually works in your favor, because players will then plan a route (often when you're within earshot) that tells you exactly what they want to experience. That makes your job easier - now you just provide encounters that either support or confound their expectations. That's the beauty of remote viewing: it's more of an information trade than the players realize.</p>
+<p><strong className="hl">Espionage:</strong> Players love to scry on the Big Bad Evil Guy when he's going about his sinister business in his chambers. This is a test of your ability to improvise: you've got to describe an interesting scene on the spot. Espionage-style spying can also be a clue delivery system for you. Decide what information you want to impart, surround it with enough dialogue and detail to make it believable, then get on with the fun.</p>
+<p>But what if you don't have specific information to deliver, and in fact you're trying to keep the PCs and the antagonist separated for a while? If you don't want PCs tuning in at the dramatic moment, then you have two choices: describe a realistic but utterly mundane scene in the villain's life, or come up with a scene that refers at least obliquely to the ongoing narrative.</p>
+<p>When the PCs are scrying, the players are pure spectators - a recipe for boredom for everyone but you. It might be realistic for most espionage-style scrying to reveal the mundane, day-to-day life of the villain (and a nice reminder if the players seem to be overusing it), but that doesn't do anyone any good. So accept the blow to realism and give the PCs tangible - if sometimes obscure - information with each scrying attempt. Even a mundane conversation about troop movements can have a little hook (it takes 2 hours to reach the northern watchtower) that makes the players say "Aha!" They might never go to the northern watchtower, but in that moment, they get a little "I know something I'm not supposed to know" feeling - and that can propel them into action.</p>
+<p><strong className="hl">Portents and Omens:</strong> Few things are as difficult as predicting the campaign's future. How can you tell a player her future when the campaign's conclusion might make her a demigod - or a string of bad rolls might make her a halfling-kebab on an ogre's spear?</p>
+<p>First, do what real-life oracles and fortune-tellers do all the time: couch your predictions in symbolism and metaphor. Don't say "Your father won't give up the throne for you." Say "Winter refuses to acknowledge spring." It sounds more ominous - in the literal sense of the word - and gives the campaign's plot some much-needed elbow room.</p>
+<p>Next, be specific, not general. At first, this advice seems counter-intuitive. Isn't a general prophecy easier to keep than a specific one? That's true, but specific details are easier to insert into the narrative. Don't say "You shall become the king of the elves." Say "When winter's moon is nigh, the fey will dance to the tune you call." You have a likely fulfillment of that prophecy in mind (a formal dance at the coronation ceremony), but if the campaign goes off the rails, there are other ways to make that prediction come true.</p>
+<p>Specific details have another benefit: they make the players feel like they're getting their money's worth out of the prophecy. If you try too hard to leave yourself room with a prophecy, you risk a prophecy so vague that the players find it useless or feel deliberately cheated. You're smart enough to engineer something interesting involving the fey near a full moon in winter - even if you aren't sure what it is yet. But based on that detail, the players will think that the oracle - and by extension you - has it all figured out.</p>
+<p>If you have to hit the reset button, make it obvious that you're doing so. The campaign may have gone in a bold, player-driven direction that you weren't anticipating. And when it did, all that talk of destiny from the crazy lady back in the starting village was invalidated or became completely irrelevant. If you feel like you'd have to stretch the narrative too far to cover an out-of-date portent, then make it clear in the story of the world that the old destiny no longer applies. Perhaps the stars rearrange themselves in the sky (due to the PCs' actions, ideally), and now everyone's fate is uncertain, or can be perceived anew. Maybe the goddess of destiny appears and says that the trickster god has stolen threads from her loom of fate - including the threads that represent the PCs. You're operating in a realm where anything is possible, so avail yourself of that power.</p>
+</>};
+const _emergency_game_prep = {title: "Emergency Game Prep", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","gm_considerations"], siblings: ["game_changers","emergency_game_prep","tpks","overpowered_pcs","personalizing_published_adventures","converting_content_from_35_or_other_systems","words_every_game_master_should_known"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 48</Link></p>
+<p>Sometimes day-to-day life conquers even the most committed Game Master. You meant to get that dungeon ready, but then the boss/&shy;spouse/&shy;kids/&shy;friends/&shy;lottery office called, and now everyone's gathering at the table. It's time for emergency game preparation.</p>
+<p>Sometimes you'll need emergency game prep in the middle of a session, too. The party may get an urge to visit the Astral Plane. They may give the all-powerful scroll to the obviously disguised villain, just because he asked to look at it.</p>
+<p>When this happens, don't try to find the right section of the book to reread. Every minute counts! In these situations, it's good to have an emergency game kit containing raw adventure fuel. That's stuff like:</p>
+<p><strong className="hl">Stat Blocks:</strong> Any opposition appropriate for the PCs works, even if it doesn't "belong" in that part of the campaign world. Coming up with reasons for monsters to hang out together and fight the PCs takes less time than flipping through the books to find the perfect monsters. That's particularly true in an emergency situation where you're likely going to "reskin" the monsters anyway. That armored knight? You can just describe him as a hill giant and your players will never know. Then you can make him into a dire wolf, or a swarm of killer bees, and still your players may never know. Sure, you'll know that the damage dice should have been different, the skills were completely irrelevant, the Armor Class was wrong, and the special abilities were made up on the spot, but you're the only one who sees the stat block. Everyone else is just rolling dice and having fun.</p>
+<p><strong className="hl">Ten Proper Names:</strong> Write down 10 names out of thin air - names that have a "mouth feel" appropriate to the setting. You've now got your answer when the PCs ask what the name of the bartender is, or the name of the river they just crossed, or the magic words that open the portal. Nothing makes you look like You've prepared more than a confident answer to the "What's his name"? question.</p>
+<p><strong className="hl">A Basic Flow Chart:</strong> Take a blank piece of paper and draw roughly 10 bubbles on it, scattered around the paper. Then draw some lines between them, trying to make interesting clusters but not connecting everything to everything else. Now you've got a rudimentary dungeon map and a basic event flowchart - whatever you need in the next few hours. If you use the flow chart as a map, of course it won't have proper dimensions and everything laid out in proper architectural fashion. But your concerns are more basic. You want to keep track of the rooms so that when the PCs retreat from the map room, they come back to the observatory, not the barracks they visited two encounters ago.</p>
+<p>Remember, thrust matters more than direction. As you improvise your way through a session, it's tempting to worry about whether you're making decisions - especially plot and setting decisions - that will come back to haunt you later. Ignore those concerns; you'll have plenty of time to tie up loose ends, patch over plot holes, and bring the players back to the main plotline later. You care that the PCs are doing something interesting. The pause while you figure out the perfect encounter diminishes everyone's fun more than the out-of-place detail or the tangential plotline ever could.</p>
+</>};
+const _tpks = {title: "TPKs", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","gm_considerations"], siblings: ["game_changers","emergency_game_prep","tpks","overpowered_pcs","personalizing_published_adventures","converting_content_from_35_or_other_systems","words_every_game_master_should_known"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 49</Link></p>
+<p>It's a constant threat, but every so often it happens for real: every single PC is dead, petrified, or possessed by demon lords.</p>
+<p>That's a TPK: a total party kill.</p>
+<p>The good news is that, as a Game Master, you'll probably see the TPK coming before the players will, simply because you've got more information. You're seeing all the dice and stat blocks. But the bad news is that the players will be demoralized, and possibly angry with you or each other - and they'll be looking to you, the guy at the head of the table, for guidance. You have the power to "fix" the broken table while making sure that the TPK stings a little so that the PCs might be more cautious next time.</p>
+<p>For starters, give everyone a break once the last PC falls. Either end the session or at least send everyone to the kitchen for snacks. Some "Monday morning quarterback" analysis is inevitable and probably cathartic, but the players don't need to do that in front of you.</p>
+<p>Besides, you've got work to do. You want consequences to matter at your table - that's one of the great things about RPGs. But you also want your friends to have fun, and you don't want them to stop playing. So you're looking for a way forward that makes the TPK matter, but keeps the momentum and desire to keep playing alive.</p>
+<p><strong className="hl">Send in the Next Party:</strong> The stereotypical solution to a TPK is to have everyone make up new characters on a mission to find out what happened to the original group. That gives the new group direction and a basic reason for cohesion. The players might be eager for a rematch - and it's probably a good idea to soften the table's stance on player knowledge/&shy;character knowledge in this instance so they don't just repeat the fate of the first group.</p>
+<p>When the second group succeeds and finds out what happened to the first group, the players can pick up the ongoing narrative where they left off. If resurrection is possible in your world, you can have the second group bring the first group back to life. It's possible that some players at the table will like their new characters better than the old. Mix it up - let a composite group tackle the challenges of your campaign together.</p>
+<p><strong className="hl">Meet Your New Boss:</strong> If new characters don't work with your story (or players balk at creating new PCs), it's time to call in the cavalry. Have a powerful patron or mysterious presence somehow resurrect the PCs (or restore them from petrification, etc.) for some greater purpose. The resurrecting agent might be on the up and up, wanting the PCs to continue their campaign efforts (though you should make sure the players know they won't always be bailed out). But the mysterious power might also have a divergent or sinister agenda, or demand tremendous compensation.</p>
+<p><strong className="hl">I Want Them Alive:</strong> Perhaps your villains were actually swinging for non-lethal damage on their last rolls, and instead of being dead the players wake up hours later in cells, stripped of their gear and forced to engineer a daring escape.</p>
+<p><strong className="hl">Let Failure Be Failure:</strong> If the PCs failed at a climactic moment, consider letting evil seize the day - let the players see the consequences of failure when they make up their new characters. If mid-level characters suffer a TPK when investigating the actions of a demon cult, tell the players to show up at the next session with high-level characters. Then reveal that those characters have recently been taken out of suspended animation by a ragtag band of humans: scattered remnants in a world utterly ruled by demons and their army of tortured slaves. The demons conquered and enslaved the world due to the actions of the cult the PCs couldn't stop. Now your players get to see the consequences of their previous failure, and the new PCs have their work cut out for them.</p>
+<p><strong className="hl">Rewind:</strong> Sometimes accidents happen. Someone reads a rule wrong, you design an encounter that's unfairly lethal, or the game otherwise goes off the rails. If a fundamental misunderstanding or error led to the TPK, don't feel like you have to let it stand. Just hit the rewind button and play the encounter over again. You want decisions at your table to have consequences, but simple errors shouldn't steal everyone's fun.</p>
+</>};
+const _overpowered_pcs = {title: "Overpowered PCs", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","gm_considerations"], siblings: ["game_changers","emergency_game_prep","tpks","overpowered_pcs","personalizing_published_adventures","converting_content_from_35_or_other_systems","words_every_game_master_should_known"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 50</Link></p>
+<p>Characters naturally accumulate power over time. And in a game that relies on random resolutions of complex interactions, that power accumulation isn't always smooth. If one PC - or all the PCs - at your table makes a quantum leap in power, it's worth taking a good, hard look at whether that power is disruptive to the ongoing narrative and sense of fun.</p>
+<p><strong className="hl">Consider the Cooperative Dynamic:</strong> The Pathfinder RPG differs from most games in that it's fundamentally cooperative. Because you aren't playing "against" anyone in a meaningful sense, it might not matter that the PCs suddenly became much more powerful. You aren't likely to run out of powerful monsters. You might have to alter encounters to compensate, but once you've done so, your game continues unimpeded.</p>
+<p><strong className="hl">When You Need to Rein It In:</strong> By the same token, the cooperative nature of the game is why you sometimes need to "nerf" a character's power. Do so when one PC is too powerful relative to everyone else at the table. Before you take action, though, consider the following steps:</p>
+<p>Provide early warning. Say a player comes up with a devastating combo: something that takes a monster out of a fight with a high success rate and no countermeasure. Let it happen the first few times, but tell the player, "I'll let you know when that combo gets tired." The player can still feel clever, but you've delivered notice and the whole table knows you take the balance of power seriously. Sometimes the problem power doesn't emerge at the table anymore - and you've got time to plan further. And the player might volunteer to be part of the solution, a "negotiated settlement" you can work out at the end of the session.</p>
+<p>Know what you're nerfing, and why. After the session where something overpowered emerges, it's time to hit the books. Read everything relevant, even if you think you know the rules backward and forward. Think like a player and explore the problematic power, then put your Game Master hat back on and search for countermeasures. A complex game system has lots of moving pieces, and it takes effort to isolate which components and combinations are actually overpowered.</p>
+<p>Nerf it to the ground, but make it a surgical strike. Once you've isolated the problematic element, bring it back into line with similar powers available at that level. Do your homework in terms of rules study and arithmetic; you want to make sure that the overall technique is no longer overpowered, not just the specific application you saw at the table. But make sure the PC still has viable options - and that the player still has interesting choices to make during an encounter.</p>
+<p>Explain it outside the game. It's tempting to solve a balance issue on the spot, but consider the other players at the table. They might be bored by a rules discussion about somebody else's character. They might leap to the player's defense, or recommend a harsher nerf because they're tired of being second banana. Talk to that player away from the table before the next session begins, so that everyone's got time to pore over rulebooks and consider alternatives. It's also a good time to tell the player that you're acting for the good of the table, not to save your monsters. Most players respond better to a nerf when they realize they're diminishing others' fun and the change isn't driven by Game Master competitiveness.</p>
+<p>What you break, rebuild. Overpowered situations rarely emerge overnight. They're often an intentional or serendipitous collection of smaller elements acquired over time. Spell X, magic item Y, and feat Z are fine by themselves, but they've got a problem once a player has all three. When you change the rules to make something less powerful, it's only fair - and certainly doesn't hurt anyone at the table - to let the player retroactively make different character advancement choices to compensate, so they haven't wasted half the game achieving a build that's no longer viable.</p>
+<p><strong className="hl">Overpowered Monsters:</strong> Sometimes the proverbial shoe will be on the other foot, and a monster will be unexpectedly powerful. At first, let it play out a bit. Once the power disparity is clear to everyone at the table, take action - either nerf the monster on the spot and tell the players (in general terms) what you've done and why, or forego use of that monster, telling the players that "the dragon turtle has some problems, which I'm going to fix before our next session."</p>
+</>};
+const _personalizing_published_adventures = {title: "Personalizing Published Adventures", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","gm_considerations"], siblings: ["game_changers","emergency_game_prep","tpks","overpowered_pcs","personalizing_published_adventures","converting_content_from_35_or_other_systems","words_every_game_master_should_known"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 51</Link></p>
+<p>It's not easy to be a Game Master; of all the roles in the game, the GM has to put in the most work, and sometimes you'll want to relax and use a published adventure instead of creating your own. While many such adventures are ready to go straight out of the box, so to speak, the key to integrating one seamlessly into an existing campaign or setting is adapting the adventure to suit your campaign and your PCs, and this means you have to recognize whether or not the adventure is a good fit for you and your party.</p>
+<p>Presuming the theme or feel is suitable for your campaign, you need to look at the game mechanics in the adventure, particularly the monsters and how they compare to your PCs' abilities. It's possible that the party composition may make an adventure too easy - a party with a paladin, good cleric, and good necromancer is going to blow through an undead-heavy adventure with little trouble (though that isn't a bad thing, as letting the PCs feel powerful is nice now and then). You should always feel free to adjust the power level of an adventure's monsters (using simple <Link to="/main/monster_templates">templates</Link> is the easiest way) or swap them out for other monsters with similar CRs.</p>
+<p>What it comes down to is that you have to make the adventure your own - whether a Pathfinder Module, a one-session Pathfinder Society Scenario, or a third-party adventure. If you're lucky and choose well, you can save yourself a lot of work. Make changes to the story if you have to, embrace tangents the PCs introduce, and always feel free to point the story in the general direction of your campaign's primary plot if the PCs decide to abandon the story in the published adventure.</p>
+</>};
+const _converting_content_from_35_or_other_systems = {title: "Converting Content from 3.5 or Other Systems", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","gm_considerations"], siblings: ["game_changers","emergency_game_prep","tpks","overpowered_pcs","personalizing_published_adventures","converting_content_from_35_or_other_systems","words_every_game_master_should_known"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 51</Link></p>
+<p>Roleplaying games have been around for over 30 years, and there's a huge library of materials out there for other games which you can use in your campaign. One particularly easy conversion is from the 3.0 or 3.5 edition of the world's oldest roleplaying game to the Pathfinder RPG.</p>
+<p>The Pathfinder RPG was designed to be backward-compatible with the 3.5 rules set. It's possible to integrate the two seamlessly with almost no work; the only big difference in most games is that Pathfinder PCs are a little stronger overall than 3.5 PCs, so your PCs may have an easier time battling things from the old rules. You can run with that, or apply one of three simple fixes below to balance things out:</p>
+<p><strong className="hl">Reduce the CR by 1:</strong> Treat anything from 3.0 or 3.5 as 1 CR value lower.</p>
+<p><strong className="hl">Add the Advanced Creature Simple Template:</strong> Use the easy "+2 to everything" version rather than rebuilding all the old stat blocks.</p>
+<p><strong className="hl">Add ‹feat/Improved Initiative› and ‹feat/Toughness›:</strong> Pathfinder creatures get more feats than 3.0/3.5 creatures (every odd level rather than ever 3 levels). Adding these two feats for mid-to-high-level creatures helps make up the slight power difference between the two systems.</p>
+<p>Of course, you can also look to other game systems for ideas and adventure materials, it just requires more work on your part. In most cases, searching the internet for fan-made conversion suggestions is a time-saver; most of these suggest skill DCs, replacement spells and magic items, and rough stat blocks or simple replacements (such as swapping the tcho-tcho people of the Lovecraftian mythos for <Link to="/monster/goblin">goblins</Link>). Use the Pathfinder RPG rules as a resource; the Bestiary includes a wide variety of monsters so you can create the sort of fantasy that you want, and by trading a few proper nouns, you can convert even a superhero, space opera, or hard SF scenario into a fantasy plot.</p>
+</>};
+const _words_every_game_master_should_known = {title: "Words Every Game Master Should Known", parent_topics: ["gamemastery","gamemastery_guide","running_a_game","gm_considerations"], siblings: ["game_changers","emergency_game_prep","tpks","overpowered_pcs","personalizing_published_adventures","converting_content_from_35_or_other_systems","words_every_game_master_should_known"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 55</Link></p>
+<p>Abase, abash, abattoir, abhorrent, ablution, abscess, abstemious, abstersion, abstruse, accoutre, acephalous, acrid, aesculapian, affusion, ague, alembic, alluvium, amanuensis, ambergris, ambrosia, ambry, amorphous, amphora, anchorite, anfractuous, anodyne, anserine, antechamber, antediluvian, anthelmintic, antic, aquiline, ardent, argot, ascians, asperity, astomatous, atavistic, ataxia, augean, autarch, avuncular, bacchanal, badinage, bagatelle, baksheesh, balderdash, baleful, baleen, ballyhoo, banal, bannock, banns, bantam, barque, barmy, baroque, bashi-bazouk, bas-relief, bathos, bawdy, bayard, beadle, beatitude, bede, begum, beldame, beleaguer, belfry, beltane, belvedere, benefice, benison, benjamin, beshrew, besot, bete noire, bewray, bibliolatry, bibulous, bier, bijou, bilbo, billingsgate, biltong, biretta, bivouac, blague, blain, blandish, blarney, blaspheme, blowzy, bodkin, boeotian, bombast, boreal, bouffant, bourse, bower, braggadocio, bravo, bretwalda, brine, bruin, bucolic, bursar, cache, cachinnate, cad, cadaverous, cadge, cadre, caitiff, calumny, camarilla, canard, canny, canticle, caparison, caper, carillon, castigate, casuistry, cataphracts, cateran, caudle, caustic, cavil, celerity, cenobite, chancellery, chary, churl, chyme, cinerary, circumvallate, cistern, clamber, clamor, cockade, cognate, cognomen, coif, collet, colporteur, comely, commodious, compurgation, concatenate, condign, condottiere, connubial, conterminous, contretemps, conundrum, convalesce, convivial, coomb, coppice, coquette, corban, cornucopia, coronach, coruscate, cosset, coterie, coven, covenant, coxcomb, coxswain, cozen, crannog, crenellated, crepuscular, croft, crone, crony, crotchet, cruciform, cubit, cuckold, cuirass, cur, cuspidor, cyclopean, cynosure, dacoit, damask, dastard, dauphin, debauch, decuman, defenestrate, deglutition, demesne, desiccate, diadem, diarchy, dictum, dirge, distaff, dobbin, dodder, dolmen, dolor, dotterel, doughty, dowager, doyen, dragoman, dross, dudgeon, duffer, durbar, ebullient, eclat, eidolon, efface, effigy, elan, eldritch, eleemosynary, elegy, empyreal, ensanguined, epicure, epigraph, equerry, escutcheon, eviscerate, excoriate, factotum, falderal, fallal, fardel, farrago, fasces, fester, filament, firmament, fitz, flagellate, flagitious, foozle, fop, formic, fracas, fresco, friable, frippery, frolic, fulgent, fulgurate, fuliginous, fulminate, fumarole, fustigate, gaffer, galleass, gallipot, gallowglass, gammer, gardyloo, gentry, genuflect, geophagy, gewgaw, gibbet, gimcrack, glaucous, gloaming, glower, gossamer, gralloch, grippe, hagiography, halcyon, halidom, harangue, harbinger, harlequin, harridan, hauteur, hebdomadal, hecatomb, helot, heriot, hermetic, hircine, hirsute, hoary, hoyden, humbug, hussar, hydrargyrum, ichor, idolater, ilk, imbroglio, indurate, ineffable, inexorable, infrangible, iniquity, inosculate, insouciant, intaglio, inveigle, invidious, irascible, irk, itinerant, jabber, jackanapes, janissary, jaundice, jeer, jejune, jeremiad, jingo, jocund, jongleur, jorum, joss, jougs, jowl, jubilee, juggernaut, ken, kern, khamsin, kine, kirk, kirtle, kittle, knacker, knell, knout, kowtow, kulak, laager, lachrymal, lackadaisical, lacuna, lade, laggard, laird, lambent, lampoon, lanceolate, lancet, languor, lank, lanyard, lapidary, lares, lariat, larrikin, lascivious, lassitude, laud, laureate, lazar, lazaretto, leal, leaven, lector, lees, legate, legerdemain, leman, lesion, liege, liniment, lissome, lithe, littoral, liturgy, loam, logogram, loll, lour, lucre, lupine, macerate, machinate, madrigal, maelstrom, mafficking, malediction, mammon, mandarin, mange, martinet, mawkish, medicament, mendacious, mendicant, metier, miasma, missive, monomachy, mordant, mulct, nadir, naphtha, narcissism, narcosis, nascent, naught, navicular, neap, nebulous, necromancy, necrophagous, necropolis, necropsy, necrosis, nectar, ne'er, neuter, nexus, nightshade, nihilism, nirvana, nitrate, noctule, node, nostrum, noxious, noyade, nubile, nucleus, nugatory, nullify, obeisance, obese, oblate, oblique, oblivion, obloquy, obsequious, obstinate, obstreperous, obtrude, obdurate, obtuse, obverse, occult, ocular, offal, officiate, offspring, ogle, olfaction, omen, ominous, onerous, onslaught, opaline, opiate, ordinal, ordure, orgy, orpine, oscular, ossify, ostracize, ovoid, ozone, pact, palpable, palpitate, palsy, panacea, pandemonium, pang, pannage, parabolic, paradox, paragon, parallax, paranoia, paraphernalia, parasite, pare, pariah, particularism, partisan, pathetic, paunch, pawky, pediment, penchant, pendant, pendulum, penitent, penology, pensile, pentacle, pentagram, penumbra, penury, peptic, perdition, perfidy, perpendicular, perpetual, persecute, pervert, pestilence, petty, phalanx, phallus, phlegm, phosphorus, pillage, pinion, piteous, plague, placid, plead, plenitude, plight, pock, polemic, pollard, polyglot, pompous, pontiff, porcine, potash, potent, primal, profane, prolate, propagate, prostrate, pulverize, pumice, purgatory, purulent, pustule, pygmy, quagmire, quarantine, quarrel, quasi, quench, quoin, quotient, rabid, rake, rampage, rampant, ramshackle, rapacious, ravage, reap, reave, reckoning, recluse, redolent, refute, regicide, regorge, regret, relapse, relic, relish, remorse, resinous, resurgent, retribution, revenant, reverie, revive, rhapsody, rhetoric, rictus, rigmarole, rime, rind, riparian, rookery, ruinous, runt, sable, sabotage, sacrilege, salve, samite, sanctify, sargasso, scabious, scallywag, scalpel, scandalize, scapegoat, scathe, scion, sclerosis, scour, scrag, scrimshank, sebaceous, secession, secretion, secular, semblance, seminal, seminary, senile, sepulture, serpentine, serrate, servile, shade, sham, shamefaced, shanty, shoddy, shorn, shrill, shun, silage, silvanus, simulacrum, sinuous, sitar, skewbald, slander, sluice, smattering, smock, sneer, snide, sordid, spawn, speculum, splay, spume, stagnant, stagnate, stake, strangulate, strigil, stub, subjugate, suction, sulphur, supernaturalness, supremacy, surge, suture, swagger, swamp, swank, sweat, swill, syringe, taboo, taint, tallow, tangible, tardy, tariff, tatty, temerity, temperance, tenuity, terret, terrify, tether, thane, theurgy, thews, thorn, thou, threshold, throb, throng, thuggery, thy, titillate, topsy-turvy, torpid, tortuous, totem, toxin, tractable, transform, trauma, tremulous, trigon, trotter, truncate, truss, tumulus, turgid, tyrant, ugly, ulcer, ululate, umbral, undulate, unhallowed, unman, unravel, unspeakable, uproar, usury, utter, vainglory, valgus, vapid, vault, vegetal, venerable, vengeance, verdigris, vigilance, violate, viridescent, virus, viviparous, voiceless, volition, voluble, vulgar, vulnerable, waif, wan, wangle, warn, watchfulness, waxen, wean, wheedle, whorl, widow,, wince, wreath, writhe, xanthous, xenophobia, xiphoid, xylograph, xylophagous, yearn, yule, zeal, zealot, zenith, ziggurat, zounds.</p>
+</>};
+export default {gamemastery:_gamemastery,basics_from_the_core_rulebook:_basics_from_the_core_rulebook,starting_a_campaign:_starting_a_campaign,published_adventures:_published_adventures,building_an_adventure:_building_an_adventure,stat_blocks:_stat_blocks,designing_encounters:_designing_encounters,awarding_experience:_awarding_experience,placing_treasure:_placing_treasure,building_a_treasure_hoard:_building_a_treasure_hoard,preparing_for_the_game:_preparing_for_the_game,during_the_game:_during_the_game,campaign_tips:_campaign_tips,cost_of_living:_cost_of_living,monstrous_characters:_monstrous_characters,ending_the_campaign:_ending_the_campaign,beyond_20th_level:_beyond_20th_level,creating_npcs:_creating_npcs,step_1_the_basics_step_2_determine_ability_scores:_step_1_the_basics_step_2_determine_ability_scores,step_3_skills:_step_3_skills,step_4_feats:_step_4_feats,step_5_class_features:_step_5_class_features,step_6_gear:_step_6_gear,step_7_details:_step_7_details,example_kiramor_the_forest_shadow:_example_kiramor_the_forest_shadow,gamemastery_guide:_gamemastery_guide,getting_started:_getting_started,a_game_masters_glossary:_a_game_masters_glossary,tone_and_maturity:_tone_and_maturity,style_of_play:_style_of_play,tone_and_setting:_tone_and_setting,group_styles:_group_styles,retaining_interest:_retaining_interest,sensitive_topics:_sensitive_topics,the_gm_as_host:_the_gm_as_host,number_of_players:_number_of_players,small_groups:_small_groups,large_groups:_large_groups,finding_players:_finding_players,where_to_play:_where_to_play,the_building:_the_building,the_room:_the_room,when_to_play:_when_to_play,rules_of_the_house:_rules_of_the_house,player_absence:_player_absence,calling_off_a_session:_calling_off_a_session,food_at_the_game_table:_food_at_the_game_table,children_and_pets:_children_and_pets,other_activities_at_the_game_table:_other_activities_at_the_game_table,out_of_character_talking:_out_of_character_talking,interplayer_conflict:_interplayer_conflict,preparing_to_run_a_game:_preparing_to_run_a_game,things_to_have_at_the_table:_things_to_have_at_the_table,seven_essentials_for_good_preparation:_seven_essentials_for_good_preparation,know_the_characters_and_the_players:_know_the_characters_and_the_players,know_the_scene:_know_the_scene,know_the_story:_know_the_story,know_the_adversaries:_know_the_adversaries,know_the_rules:_know_the_rules,dont_overdo_it:_dont_overdo_it,lay_a_few_alternate_plans:_lay_a_few_alternate_plans,published_or_homegrown:_published_or_homegrown,sharing_the_load:_sharing_the_load,one_shot_games:_one_shot_games,campaigns:_campaigns,essentials_of_good_campaigns:_essentials_of_good_campaigns,setting_and_scope:_setting_and_scope,story:_story,movers_and_shakers:_movers_and_shakers,campaign_endings:_campaign_endings,winging_it:_winging_it,creating_a_campaign_guide:_creating_a_campaign_guide,system:_system,setting_and_scope_2:_setting_and_scope_2,story_2:_story_2,voice:_voice,publication:_publication,running_a_game:_running_a_game,gming_style_choices:_gming_style_choices,pregame_preparation:_pregame_preparation,running_the_game:_running_the_game,post_game:_post_game,the_art_of_gming:_the_art_of_gming,making_it_happen:_making_it_happen,forcing_things:_forcing_things,follow_the_pcs_lead:_follow_the_pcs_lead,the_illusion_of_free_choice:_the_illusion_of_free_choice,gm_as_actor:_gm_as_actor,volume_and_style:_volume_and_style,giving_direction:_giving_direction,presentation:_presentation,handouts_and_props:_handouts_and_props,music:_music,lighting:_lighting,attention_and_distractions:_attention_and_distractions,narrative_techniques:_narrative_techniques,description:_description,spotlight:_spotlight,backstory:_backstory,cliffhangers:_cliffhangers,cut_scenes:_cut_scenes,flashbacks:_flashbacks,foreshadowing:_foreshadowing,secrets:_secrets,cheatings:_cheatings,the_science_of_gming:_the_science_of_gming,dice_mechanics_and_more:_dice_mechanics_and_more,art:_art,grid:_grid,face_cards:_face_cards,miniatures:_miniatures,initiative_tracker:_initiative_tracker,item_cards:_item_cards,without_accessories:_without_accessories,creating_adventures:_creating_adventures,running_smooth_combats:_running_smooth_combats,building_encounters:_building_encounters,play_to_the_pcs_strengths:_play_to_the_pcs_strengths,high__and_low_cr_encounters:_high__and_low_cr_encounters,solo_monsters_vs_groups_of_monsters:_solo_monsters_vs_groups_of_monsters,winning_monster_combos:_winning_monster_combos,dont_stymie_the_pcs:_dont_stymie_the_pcs,unusual_campaigns:_unusual_campaigns,no_healers:_no_healers,no_spellcasters:_no_spellcasters,all_spellcasters:_all_spellcasters,small_party:_small_party,large_party:_large_party,variant_play_experiences:_variant_play_experiences,solo_campaigns:_solo_campaigns,convention_play:_convention_play,online_games:_online_games,fixing_a_broken_game:_fixing_a_broken_game,gm_considerations:_gm_considerations,game_changers:_game_changers,emergency_game_prep:_emergency_game_prep,tpks:_tpks,overpowered_pcs:_overpowered_pcs,personalizing_published_adventures:_personalizing_published_adventures,converting_content_from_35_or_other_systems:_converting_content_from_35_or_other_systems,words_every_game_master_should_known:_words_every_game_master_should_known}

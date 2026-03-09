@@ -224,7 +224,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 });
 
 Object.entries($groupingData).forEach(([prop, value]) => {
-	const url = `./src/json/_data_${prop}.json`;
+	const url = `./src/json/_GEN_${prop}.json`;
 	const file = JSON.stringify(value);
 	if(get(url).trim() === file) {
 		announce(`UNCHANGED ${url}`);
@@ -249,7 +249,7 @@ Object.entries($sources).forEach(([prop, value]) => {
 		"Source"
 		+ transformedProp.slice(0,1).toUpperCase()
 		+ transformedProp.slice(1).replace(/_([a-z])/g, (x, m) => (m || "").toUpperCase()).replace(/_/g, "");
-	const baseurl = `__source_${transformedProp}`;
+	const baseurl = `_GEN_source_${transformedProp}`;
 	const url = `./src/pages/subpages/${baseurl}.tsx`;
 	$allSourcesElements.push(`const ${transformedElement} = lazy(() => import("./${baseurl}"));\n`);
 	$allSourcesMap.push(`${transformedProp}: <${transformedElement} />,`);
@@ -322,7 +322,7 @@ $allPrefixes.toSorted().forEach(p => {
 
 const $data_pairs = [
 	[
-		'./src/json/_data__prefixes.tsx',
+		'./src/json/_GEN_prefixes.tsx',
 		`export const prefixMatcher = "${
 			$matcher.join("|")
 		}";\nconst prefixes: string[] = ${
@@ -330,36 +330,36 @@ const $data_pairs = [
 		};\nexport default prefixes;`
 	],
 	[
-		'./src/json/_data__fuseIndex.tsx',
+		'./src/json/_GEN_fuseIndex.tsx',
 		`import {Item} from "../types";\nconst index: Item[] = ${
 			JSON.stringify($fuseIndex)
 		};\nexport default index;`
 	],
 	[
-		'./src/json/_data__allLinks.tsx',
+		'./src/json/_GEN_allLinks.tsx',
 		`import {Gen} from "../types";\nconst links: Gen<string, string> = ${
 			JSON.stringify($allLinks)
 		};\nexport default links;`
 	],
 	[
-		'./src/json/_data__redirects.tsx',
+		'./src/json/_GEN_redirects.tsx',
 		`import {Gen} from "../types";\nconst links: Gen<string, string> = ${
 			JSON.stringify($redirects)
 		};\nexport default links;`
 	],
 	[
-		'./src/pages/subpages/_data__sources.tsx',
+		'./src/pages/subpages/_GEN_sources.tsx',
 		$allSourcesElements.concat($allSourcesMap).join("")
 	],
 	[
-		'./public/_data__fuse-translated_data.json',
+		'./public/_GEN_fuse-translated_data.json',
 		JSON.stringify({
 			data: $dataIndex,
 			types: $allTypes,
 			searchindex: SEARCHINDEX
 		})
 ],
-	['./prebuild/__featNames.json', JSON.stringify($featLinks)]
+	['./prebuild/_GEN_featNames.json', JSON.stringify($featLinks)]
 ];
 
 $data_pairs.forEach(pair => {

@@ -1,5 +1,5 @@
 import getItem from '../components/getItem';
-import enhancements from './subpages/__magic-enh1';
+import enhancements from './subpages/_GEN_magic-enh1';
 import { Hierarchy } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';

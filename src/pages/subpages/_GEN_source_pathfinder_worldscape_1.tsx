@@ -1,0 +1,3 @@
+import Link from '../../components/Link';
+const References: React.FC = () => <><h3>Feat</h3><ul><li><Link key="/feat/extra_death_vow" to="/feat/extra_death_vow">Extra Death Vow</Link></li><li><Link key="/feat/vengeful_death_vow" to="/feat/vengeful_death_vow">Vengeful Death Vow</Link></li></ul><h3>Ranger Archetype</h3><ul><li><Link key="/arc-ranger/sword_devil" to="/arc-ranger/sword_devil">Sword-Devil</Link></li></ul></>;
+export default References;

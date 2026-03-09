@@ -1,5 +1,5 @@
 import BasicPage from './BasicPage';
-import jsx from './subpages/__feat_tree_page';
+import jsx from './subpages/_GEN_feat_tree_page';
 import './Page.css';
 import './FeatTreePage.css';
 

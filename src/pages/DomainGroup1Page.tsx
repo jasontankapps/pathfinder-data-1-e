@@ -1,6 +1,6 @@
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import domains from './subpages/__domain1';
+import domains from './subpages/_GEN_domain1';
 import BasicPage from './BasicPage';
 import './Page.css';
 

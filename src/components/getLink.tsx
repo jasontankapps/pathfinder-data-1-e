@@ -1,4 +1,4 @@
-import redirectIndex from '../json/_data__redirects';
+import redirectIndex from '../json/_GEN_redirects';
 
 // This only needs to be used on pages where the link destination is uncertain.
 // Hardcoded links can skip this.

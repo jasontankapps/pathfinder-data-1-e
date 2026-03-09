@@ -1,5 +1,5 @@
 import { getGuaranteedItem } from '../components/getItem';
-import magic_weapons from './subpages/__magic-weapon2';
+import magic_weapons from './subpages/_GEN_magic-weapon2';
 import { Hierarchy } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';

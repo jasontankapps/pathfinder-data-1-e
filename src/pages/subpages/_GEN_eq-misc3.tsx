@@ -1,0 +1,1928 @@
+import Link from '../../components/Link';
+import ScrollContainer from '../../components/ScrollContainer';
+const _planar_travelers_kit = {title: "Planar traveler's kit", jsx: <><h2 id="eq-misc-planar_travelers_kit-planar-travelers-kit">Planar traveler's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook pg. 7</Link><br/><strong>Price</strong> 350 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit covers all the basics for survival on potentially hostile planes. It contains basic written guides to the Outer Planes, phrasebooks for common outsider languages and tips on the ecology of each plane - though these guides sometimes contain a measure of fanciful or dubious advice. While on a plane other than the Material Plane, a planar traveler's kit grants +2 circumstance bonuses on Survival checks, Knowledge (planes) checks, and Linguistics checks made to communicate with outsiders or decipher outsider texts.</p>
+</>};
+const _pnakotic_record = {title: "Pnakotic record", jsx: <><h2 id="eq-misc-pnakotic_record-pnakotic-record">Pnakotic record</h2>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_112_the_whisper_out_of_time">Pathfinder #112: The Whisper Out of Time pg. 73</Link><br/><strong>Price</strong> 2,000 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Tools</p>
+<p>These strange books are fashioned from a metallic alloy, the crafting of which is known only to <Link to="/monster/yithian">yithians</Link> and a very few others. Supposedly taken from the same collection as the fabled Pnakotic Manuscripts and traded throughout the multiverse, these books are collections of notes recorded by visitors to the yithians' cities. Each book is written in multiple languages and provides a vast array of information on a specifc topic, but the information it contains is often oddly specifc and lacks context. A single Pnakotic record focuses on a single subject within the confnes of a single Knowledge skill, such as a presentation on the nature of deep one religious practices in worshiping Cthulhu (Knowledge [religion]), the mechanics of a shoggoth's biology (Knowledge [dungeoneering]), or the methods of creating portals between worlds (Knowledge [arcana]). By studying a Pnakotic record for 8 hours, a reader can attempt a single Knowledge check of the appropriate type when researching the book's corresponding subject to gain a +10 circumstance bonus on the check.</p>
+</>};
+const _pocket_watch = {title: "Pocket watch", jsx: <><h2 id="eq-misc-pocket_watch-pocket-watch">Pocket watch</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 250 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This miniature clock is small enough to carry.</p>
+</>};
+const _poison_belcher = {title: "Poison belcher", jsx: <><h2 id="eq-misc-poison_belcher-poison-belcher">Poison belcher</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 6</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Tools</p>
+<p>Loading this long bronze tube with a dose of ingested poison and 10 gp worth of gold dust is a standard action. When you blow on a poison belcher like a blowgun, it sprays the poison out the other end. The poison belcher is a simple weapon that strikes as a ranged touch attack with a range increment of 10 feet and a maximum range of 30 feet. If hit, the target must save against the poison as if it had been ingested.</p>
+</>};
+const _poison_caps = {title: "Poison caps", jsx: <><h2 id="eq-misc-poison_caps-poison-caps">Poison caps</h2>
+<p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 12</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Animal Gear</p>
+<p>These small rubber cones attach to a creature's fangs and allow it to potentially poison those it bites. Poison caps must be filled with an injury poison, and must be attached to a creature's teeth prior to use. A creature equipped with poison caps deals bite damage as a creature <Link to="/misc/one_size_smaller">one size smaller</Link> than usual, but the next time the creature makes a successful bite attack, it also injects the poison from the caps into its target. The price and weight listed above are for a pair of poison caps; both must be used simultaneously in order to be effective. A pair of poison caps can only be used once; they are effectively destroyed after a successful bite attack. The cost of the poison is not included in the cost of the poison caps.</p>
+</>};
+const _poison_diffuser = {title: "Poison diffuser", jsx: <><h2 id="eq-misc-poison_diffuser-poison-diffuser">Poison diffuser</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 9</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This compound comes in a tiny eyedropper. When you combine a dose of poison diffuser with a dose of contact or ingested poison, the poison becomes a gas, slowly diffusing into the surrounding air. The poison is treated as an inhaled poison for 3 rounds, after which the poison and the poison diffuser are both expended and become inert. Any creature that passes within 5 feet of a diffused poison while it is active must save against the vaporous toxin.</p>
+<p>If you are using <Link to="/rule/spontaneous_alchemy">spontaneous alchemy</Link>, adding urea to the alchemical recipe delays a poison diffuser's activation time. For every 20 doses of urea (worth a total of 10 gp) incorporated into the alchemical creation process, the time from which the diffuser is added to the poison to the time the poison begins spreading into the air increases by 1 round.</p>
+<p><strong>Spontaneous Alchemy Recipe</strong> (100 brimstone + 180 salt + 180 spirit of wine)/fermentation; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 1 day; <strong>Tools</strong> heat source; <strong>Type</strong> alchemical tool</p>
+</>};
+const _poison_latch_needle = {title: "Poison latch needle", jsx: <><h2 id="eq-misc-poison_latch_needle-poison-latch-needle">Poison latch needle</h2>
+<p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 21</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This delicate needle is attached to fine springs and a small reservoir that contracts on itself when the trap is disturbed or grabbed, turning a minor prick into a painful injection. This trap is normally hidden under door latches, drawer handles, and other small openings where it can deliver any injury poison, destroying itself in the process. A roll of natural 1 on the skill check to install the trap exposes its installer to the poison. A poison latch needle cannot be reused.</p>
+<p>This can be crafted with a DC 20 Craft (traps) check.</p>
+<p><strong>Poison Latch Needle Trap</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 20; <strong>Disable Device</strong> DC 20<br/><strong>Effects</strong><br/><strong>Trigger</strong> touch; <strong>Reset</strong> none<br/><strong>Effect</strong> Atk +5 melee (1 damage plus poison)</p>
+</>};
+const _poison_lip_paint = {title: "Poison lip paint", jsx: <><h2 id="eq-misc-poison_lip_paint-poison-lip-paint">Poison lip paint</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 233</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Poison lip paint is a favorite among courtiers who practice the arts of deception and intrigue. It allows the wearer to deliver a dose of contact or ingested poison by means of a kiss. This kiss can be to the hand, cheek, or other exposed skin to deliver a contact poison, but must be on the mouth for an ingested poison. A kiss delivers the full dose of the poison, and that application of poison lip paint then becomes non-poisonous. To use poison lip paint without being exposed to the poison, the wearer must first apply a protective layer of base material. When using an ingested poison, the wearer can instead consume an antidote prior to application. (When the user applies a contact poison, preemptively consuming an antidote results in the wearer's skin harmlessly absorbing the poison, as does immunity to poison.) A kit contains enough base material and lip paint for 10 doses. The poisons must be purchased separately and mixed into the lip paint.</p>
+</>};
+const _poison_sealant = {title: "Poison sealant", jsx: <><h2 id="eq-misc-poison_sealant-poison-sealant">Poison sealant</h2>
+<p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 56</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>Applied poison generally washes off weapons underwater in 1d10 rounds unless the poison is contained inside the weapon and injected, so undersea alchemists developed poison sealant to circumvent this limitation. Applying poison sealant to a poisoned weapon takes the same amount of effort as applying a poison. Once applied, the sealant protects the poison from the elements, keeping the weapon poisoned underwater. Poison sealant dissolves in blood, allowing the poison's delivery (and also meaning that it doesn't prevent accidental poisoning).</p>
+</>};
+const _poison_sponge = {title: "Poison sponge", jsx: <><h2 id="eq-misc-poison_sponge-poison-sponge">Poison sponge</h2>
+<p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 27</Link><br/><strong>Price</strong> 150 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Tools</p>
+<p>This spongy sac has a permeable membrane that can absorb, distill, and store toxins. When harvesting parts (see the <Link to="/feat/harvest_parts">Harvest Parts</Link> feat) from a poisonous creature, you can use a poison sponge to harvest and store one dose of the creature's poison instead. The DC to harvest poison is equal to 20 + the creature's CR, and the poison retains its potency for 3 days. A successful check stores a single dose of the creature's poison in the sponge, which you can then apply like any poison. Poison sponges become saturated over time, imposing a cumulative -2 penalty on checks to harvest poison each subsequent time they are used.</p>
+</>};
+const _poison_tattoo = {title: "Poison tattoo", jsx: <><h2 id="eq-misc-poison_tattoo-poison-tattoo">Poison tattoo</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 209</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This henna-like paste creates a dark brown tattoo on the hands or feet that fades over the next 2d6 days. The tattoo temporarily boosts the strength of a <Link to="/race/vishkanya">vishkanya's</Link> natural poison, increasing the DC of the next weapon envenomed with the vishkanya's blood or saliva by +2 (once used, the tattoo is merely decorative and does not affect the creature's poison). A typical tattoo consists of intricate whorls and spiritual symbols on the hands or feet.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _poison_ward_salve = {title: "Poison ward salve", jsx: <><h2 id="eq-misc-poison_ward_salve-poison-ward-salve">Poison ward salve</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>This herbal salve can be applied directly to the skin to prevent the effects of contact poisons. If a creature touches a contact poison, but you apply the salve within 1 round of contact, the victim rolls the save twice and uses the higher result.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+</>};
+const _poisoned_locket = {title: "Poisoned locket", jsx: <><h2 id="eq-misc-poisoned_locket-poisoned-locket">Poisoned locket</h2>
+<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 29</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Tools</p>
+<p>This heart-shaped locket is attached to a thin metal chain made of looped strands of gold or silver. Inside the locket is a small, spring-loaded vial that can hold a single dose of powdered poison. Loading the locket with poison carries the same risks as applying poison to a weapon. When the locket is opened, the vial is shattered by a ball bearing, releasing the powder into the air and treating the poison's type as if it were inhaled. The airborne poison affects all creatures within 10 feet of the locket.</p>
+</>};
+const _poisoned_quill = {title: "Poisoned quill", jsx: <><h2 id="eq-misc-poisoned_quill-poisoned-quill">Poisoned quill</h2>
+<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 29</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Tools</p>
+<p>This long <Link to="/eq-misc/inkpen">pen</Link> is made from a delicate feather and has a thin and unusually long nib. The quill is typically white in color, though variations that are crimson, onyx, or some combination of these colors also exist. A hidden compartment inside the nib allows the quill to hold a single dose of poison that is dispensable with a small squeeze. Additionally, this provides a +2 circumstance bonus on Sleight of Hand checks to conceal poisons inside the quill. If this quill is used with <Link to="/eq-misc/vector_ink">vector ink</Link>, it increases the DC of a poison mixed with the ink by 1. This quill can be used as a small shiv to deal 1d3 points of damage and deliver its contained poison. However, because of the fragility of the nib, using the quill in this way destroys it.</p>
+</>};
+const _poisoners_goblet = {title: "Poisoner's goblet", jsx: <><h2 id="eq-misc-poisoners_goblet-poisoners-goblet">Poisoner's goblet</h2>
+<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 29</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This is an elegantly styled, gem-encrusted drinking chalice made of smooth jade, obsidian, or a burnished fine metal. The chalice has a hidden compartment in the stem that allows for the insertion of a single vial of poison. The user doesn't risk poisoning himself when inserting the vial. Inside the compartment is a needle that siphons the poison from the vial and injects it into the bowl of the goblet. A hidden button (DC 20 Perception to locate) on the side of the stem begins the transfer of poison into the bowl. The transfer process takes 1 minute to complete, after which the hidden poison is emptied into the goblet.</p>
+</>};
+const _poisoning_sheath = {title: "Poisoning sheath", jsx: <><h2 id="eq-misc-poisoning_sheath-poisoning-sheath">Poisoning sheath</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This scabbard contains strips of natural sea sponges on its interior. By carefully pouring a dose of poison into the empty scabbard (a full-round action), you saturate the sponges with the toxin, which keeps it viable and wet for up to 4 hours. Preparing the scabbard carries the normal risk of poisoning yourself, just like poisoning a weapon. The next weapon you draw from the scabbard is automatically poisoned as if you had directly applied poison to it (but does not risk poisoning you); this consumes the poison in the scabbard. A scabbard only fits one type of bladed weapon, such as a dagger, shortsword, or longsword. This kind of item is usually illegal in areas that outlaw poison.</p>
+</>};
+const _pole = {title: "Pole", jsx: <><h2 id="eq-misc-pole-pole">Pole</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 5 cp; <strong>Weight</strong> 8 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This 10-foot length of wood is useful for probing pits, flagstones, and murky liquids from a safe distance.</p>
+</>};
+const _polo_gear = {title: "Polo gear", jsx: <><h2 id="eq-misc-polo_gear-polo-gear">Polo gear</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link><br/><strong>Price</strong> 5 sp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Entertainment</p>
+<p>This includes a leather helmet, a long-handled mallet, and a wooden ball.</p>
+</>};
+const _pomander_merchants = {title: "Pomander (merchant's)", jsx: <><h2 id="eq-misc-pomander_merchants-pomander">Pomander</h2>
+<p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 24</Link><br/><strong>Price</strong> 12 gp (merchant's), 225 gp (noble's); <strong>Weight</strong> 1/2 lb. (merchant's), 1/2 lb. (noble's)</p>
+<p>A pomander is a waxy concoction of resin, flower essence, powdered spices, musk, and ambergris in a walnut-sized cage and hung by a chain from the neck, a belt, or a bracelet. Merchants and adventurers often use pomanders caged in wood or lead, while nobles use ones cased in precious metals and enamel set with gems. When the pomander is carried openly, its powerful scent (Perception DC 0 to notice) fortifies the senses against unpleasant sensations. Anyone within 10 feet of a pomander gains a +2 resistance bonus on Fortitude saves against effects that <Link to="/misc/nauseate">nauseate</Link> or <Link to="/misc/sicken">sicken</Link>, but suffers a -4 penalty on Perception checks made to detect scents other than the pomander's.</p>
+<p>A noble's pomander also overpowers the wearer's own scent; the DC to track him by his own odor increases by 5, but attempts to track him by the pomander's odor have the DC reduced by 5. Regardless of the type, a pomander becomes ineffective after 1d4 weeks of exposure to air, although storing it in an airtight container can extend its lifespan.</p>
+</>};
+const _poncho = {title: "Poncho", jsx: <><h2 id="eq-misc-poncho-poncho">Poncho</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link><br/><strong>Price</strong> 5 sp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Clothing</p>
+<p>This circle of water-resistant fabric (typically wool or leather) has a hooded opening in the center, making it easy to slip it on or off and protecting your entire body from rain or snow.</p>
+</>};
+const _portable_alchemists_lab = {title: "Portable alchemist's lab", jsx: <><h2 id="eq-misc-portable_alchemists_lab-portable-alchemists-lab">Portable alchemist's lab</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> 20 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This compact version of a full-sized <Link to="/eq-misc/alchemists_lab">alchemist's lab</Link> provides a +1 circumstance bonus on Craft (alchemy) checks.</p>
+</>};
+const _portable_altar_masterwork = {title: "Portable altar (masterwork)", jsx: <><h2 id="eq-misc-portable_altar_masterwork-portable-altar-masterwork">Portable altar (masterwork)</h2>
+<p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook pg. 18</Link><br/><strong>Price</strong> 400 gp; <strong>Weight</strong> 40 lbs.<br/><strong>Category</strong> Tools</p>
+<p>Consecrated to one of Golarion's many deities, this intricately etched case contains numerous candles, stands, scented herbs, dishes, silks, small cups, containers, and similar ceremonial tools all bearing colors and iconography sacred to the associated deity. The sturdy container features a padded interior with numerous straps and compartments so that the items within aren't damaged in transport. The altar's surface prominently features a deity's holy symbol, and it's sturdy enough that it can support up to 300 pounds of weight, enough to serve as a makeshift pulpit.</p>
+<p>Among the items found within the altar are the tools and materials necessary to perform not just ceremonies, but also jobs and professions the related deity deems sacred, as well as holy texts written to inspire greatness in the deity's followers. The user can expend some of the materials within the altar to gain a +2 circumstance bonus on the next Craft check of the specified type.</p>
+<p>In addition, after spending 1 hour praying and reading the holy scriptures within the altar, the user gains a +2 circumstance bonus on a single skill check. Which deity this altar is dedicated to determines the skill to which this bonus applies. The user must attempt this skill check within an hour of praying and reading the altar's scriptures or lose the bonus - the mantras and inspiration provided by the texts having drifted from her mind. This hour of prayer and scripture reading can be integrated with the time a cleric uses to prepare her spells. Regardless, using the masterwork portable altar in this manner expends the altar's materials in the same way that using the normal altar to bolster a Craft check does.</p>
+<p>A masterwork portable altar can be used multiple times, but after 20 uses, it must be restocked with 50 gp worth of sanctified materials - preferably purchased from a temple of the associated deity. The altar grants no bonuses on skill checks if used while its materials are depleted, though it can still be employed as a normal portable altar.</p>
+</>};
+const _portable_altar = {title: "Portable altar", jsx: <><h2 id="eq-misc-portable_altar-portable-altar">Portable altar</h2>
+<p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook pg. 18</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link><br/><strong>Price</strong> 250 gp; <strong>Weight</strong> 40 lbs.<br/><strong>Category</strong> Tools</p>
+<p>A portable altar is typically made of wood and is ornately carved and decorated with the iconography of a specific religion. The top of the altar lifts up, and items such as candles, incense, and oil can be stored within. These altars are modest, but give traveling priests a center from which to say their daily prayers, perform minor rituals, or preach to an assembled crowd.</p>
+</>};
+const _portable_bolt_trap = {title: "Portable bolt trap", jsx: <><h2 id="eq-misc-portable_bolt_trap-portable-bolt-trap">Portable bolt trap</h2>
+<p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 21</Link><br/><strong>Price</strong> 125 gp; <strong>Weight</strong> 9 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This specialized <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link> is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a <Link to="/eq-misc/bell_tripwire_trap">bell tripwire trap</Link>. When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work. Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the Perception check to notice the trap is reduced by 4. The trap has the following statistics.</p>
+<p><strong>Portable Bolt Trap - CR 1/2</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 20; <strong>Disable Device</strong> DC 20<br/><strong>Effects</strong><br/><strong>Trigger</strong> touch; <strong>Reset</strong> manual<br/><strong>Effect</strong> Atk +10 ranged (1d10/19-20); Craft (traps) DC 20</p>
+</>};
+const _portable_bridge = {title: "Portable bridge", jsx: <><h2 id="eq-misc-portable_bridge-portable-bridge">Portable bridge</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 60 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>When staked down with eight <Link to="/eq-misc/piton">pitons</Link> (four on each side of the gap), this rope and slat bridge can support up to 1,500 pounds and span a 30-foot gap. It rolls up into a parcel that can be carried slung over the back or by a pack animal. Convincing an animal to cross a portable bridge requires the come or heel trick.</p>
+</>};
+const _portable_prison = {title: "Portable prison", jsx: <><h2 id="eq-misc-portable_prison-portable-prison">Portable prison</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 300 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit for a <Link to="/eq-misc/wagon">wagon</Link> provides a set of metal bars with a door for transporting imprisoned people or creatures. Though portable prisons were originally developed by traveling acts to hold ferocious animals, city guards commonly use them to round up criminals, and some bounty hunters hire them to transport large groups of prisoners. Most prisons come with <Link to="/eq-misc/lock">locks</Link>; add the cost of the desired lock to the cost of the portable prison. A cage meant for people includes benches and rails for manacles. One meant for animals contains a trough for water and a smaller door for providing food.</p>
+</>};
+const _portable_ram = {title: "Portable ram", jsx: <><h2 id="eq-misc-portable_ram-portable-ram">Portable ram</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 20 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This iron-shod wooden beam gives you a +2 circumstance bonus on Strength checks made to break open a door and allows a second person to help, automatically increasing your bonus by +2.</p>
+</>};
+const _portable_solarium = {title: "Portable solarium", jsx: <><h2 id="eq-misc-portable_solarium-portable-solarium">Portable solarium</h2>
+<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 249</Link><br/><strong>Price</strong> 800 gp; <strong>Weight</strong> 35 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This long, wooden case contains a complicated framework of brass armatures, balance weights, a foldable mat, and purplehued lenses of various shapes and sizes. When assembled, the case becomes a small bed over which looms a complicated, slowly revolving array of lenses that filter sunlight onto the mat below. Only usable on bright, sunny days, the solarium has enough room for one Medium or two Small creatures to recline beneath its lens array and bask in the healing rays of the filtered natural light. The solarium can be used in conjunction with the long-term care use of the Heal skill. Subjects who bask in the filtered light for an 8-hour rest period recover 1 additional hit point per level or 1 additional ability score point if their caregivers succeed at the required Heal check.</p>
+</>};
+const _portable_sweat_lodge = {title: "Portable sweat lodge", jsx: <><h2 id="eq-misc-portable_sweat_lodge-portable-sweat-lodge">Portable sweat lodge</h2>
+<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 25 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This large leather wrap contains a foldable wooden framework that sits on stilts, pliable slats of birch bark, additional leather rolls, and consecrated stones. When assembled, the resulting hut is a small dome, suitable as a tent shelter and large enough to fit two crouching Medium humanoids or four Small humanoids. When the stones are heated and water is poured over them to create a thick steam, the hut becomes a sweat lodge for healing ceremonies, and provides a +2 circumstance bonus on Heal checks for the faith healing occult skill unlock.</p>
+</>};
+const _portable_terrarium = {title: "Portable terrarium", jsx: <><h2 id="eq-misc-portable_terrarium-portable-terrarium">Portable terrarium</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 16</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 4 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This small glass enclosure is 1 foot wide, 1 foot tall, and reinforced with a wooden or metal frame. Tiny air holes in the lid allow living creatures inside the portable terrarium to breathe, and the interior can be outfitted with a variety of substrates and other materials the creatures might require. A portable terrarium is usually fitted with straps so it can be tied to a pack. Diminutive and smaller creatures, such as some familiars, can be safely carried within a portable terrarium and have total <Link to="/rule/cover">cover</Link> while inside it. Healers and botanists often store living plants in these containers; a successful DC 12 Knowledge (nature) check is required to transplant a plant into a portable terrarium, and most plants can live in a portable terrarium indefinitely so long as they are properly tended.</p>
+</>};
+const _portrait_book = {title: "Portrait book", jsx: <><h2 id="eq-misc-portrait_book-portrait-book">Portrait book</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This 100-page book contains face drawings of male and female dwarves, elves, gnomes, half-elves, half-orcs, halflings, and humans. By selecting an appropriate drawing and adding hair, a beard, or other small features such as moles or scars, even a poor artist can quickly create a reasonable likeness of a specific person - for example, an inquisitor making wanted posters of a half-elven witch.</p>
+</>};
+const _pot_common = {title: "Pot (common)", jsx: <><h2 id="eq-misc-pot_common-pot">Pot</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 8 sp (common, iron), 2,001 gp (mithral); <strong>Weight</strong> 4 lbs. (common, iron), 2 lbs. (mithral)</p>
+<p>This 8-inch-diameter iron pot is sturdy and has feet, a lid, and a rounded handle. It can hold enough stew to feed one hungry human for one meal. A mithral pot is lighter and food rarely sticks to it.</p>
+</>};
+const _potion_sponge = {title: "Potion sponge", jsx: <><h2 id="eq-misc-potion_sponge-potion-sponge">Potion sponge</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 177</Link><br/><strong>Price</strong> 2 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This egg-sized sponge is covered in a layer of waterproof edible wax, designed to absorb 1 dose of a potion. Chewing a potion sponge and swallowing its liquid contents is a full-round action. A creature of at least Large size can swallow the sponge in its entirely; other creatures must spit out the sponge once it's depleted (a free action). Unlike a potion that is drunk from a vial, a potion sponge can be used underwater. A potion can be poured from a vial into a sponge potion (or squeezed from a sponge into a vial) as a full-round action. The potion sponge is immune to attacks that specifically target crystal, glass, ceramic, or porcelain, such as <Link to="/spell/shatter">shatter</Link>. It otherwise works like a potion vial.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+</>};
+const _powder_ball_empty = {title: "Powder ball (empty)", jsx: <><h2 id="eq-misc-powder_ball_empty-powder-ball">Powder ball</h2>
+<p><strong>Sources</strong> <Link to="/source/castles_of_the_inner_sea">Castles of the Inner Sea pg. 39</Link><br/><strong>Price</strong> 400 gp (empty), 300 gp (fuel); <strong>Weight</strong> 4 lbs. (empty), 1 lb. (fuel)</p>
+<p>This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a splash weapon or simply placing it where she wants it to explode. The fuse can be ignited as a move action; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius <Link to="/misc/burst">burst</Link> (DC 15 for half). A powder ball explodes in this way three times - the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again.</p>
+</>};
+const _powder_horn = {title: "Powder horn", jsx: <><h2 id="eq-misc-powder_horn-powder-horn">Powder horn</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 141</Link>, <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 293</Link><br/><strong>Price</strong> 3 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Typically crafted from hollowed-out animal horn, but increasingly crafted from metal in a wide variety of shapes, a powder horn can hold up to 10 doses of <Link to="/eq-weapon/black_powder">black powder</Link>. A powder horn protects black powder stored within in it from exposure to fire, electricity, firearm misfires, and water, and the narrow end of the horn is useful in funneling the expensive powder carefully into the barrel of a firearm.</p>
+</>};
+const _powder = {title: "Powder", jsx: <><h2 id="eq-misc-powder-powder">Powder</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 48</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link><br/><strong>Price</strong> 1 cp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Powdered chalk, flour, and similar materials are popular with adventurers for their utility in pinpointing invisible creatures. Throwing a bag of powder into a square is an attack against AC 5, and momentarily reveals whether an invisible creature is there. A much more effective method is to spread powder on a surface (which takes 1 full round) and look for footprints.</p>
+</>};
+const _powdered_milk = {title: "Powdered milk", jsx: <><h2 id="eq-misc-powdered_milk-powdered-milk">Powdered milk</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link><br/><strong>Price</strong> 1 sp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Food/Drink</p>
+<p>This dry powder can be mixed with water to produce skim milk. It is dried by slowly adding millet flour to milk while heating it, cooking it down until it becomes thick, then allowing it to dry. Powdered milk is sold in sealed pots or jars. One pound makes approximately 1 gallon of milk.</p>
+</>};
+const _practice_straitjacket = {title: "Practice straitjacket", jsx: <><h2 id="eq-misc-practice_straitjacket-practice-straitjacket">Practice straitjacket</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 14</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This straitjacket is designed for use by a single person. The leather straps and arm restraints are accessible in such a way as to be tightened by the wearer. Restraining or releasing oneself through these mechanisms requires 1 minute of work. Once restrained, the wearer can attempt to escape from the straitjacket as normal (that is, without using the built-in releases). Using a practice straitjacket to train for escape requires 1 hour of practice and a DC 20 Escape Artist check. If you succeed at the check, you gain a +2 circumstance bonus on Escape Artist checks to escape from bindings, a grapple, a net, rope, or similar restraints. This bonus lasts for 24 hours.</p>
+</>};
+const _premium_hookah = {title: "Premium hookah", jsx: <><h2 id="eq-misc-premium_hookah-premium-hookah">Premium hookah</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 18</Link><br/><strong>Price</strong> 1,000 gp; <strong>Weight</strong> 15 lbs.<br/><strong>Category</strong> Black Market</p>
+<p>A premium hookah is similar to a standard <Link to="/eq-misc/hookah">hookah</Link>, except it sports enough hoses for up to eight adjacent creatures to use, and the bowl has three separate compartments, each of which can store a different type of inhalable drug, alchemical powder, or alchemical liquid. Each compartment can hold up to 3 doses of an inhalable substance (so a premium hookah can hold up to 9 doses total). Consuming these contents is still a move action. You can reload a single compartment as a move action, or you can reload all three compartments as a full-round action.</p>
+</>};
+const _pressure_pill = {title: "Pressure pill", jsx: <><h2 id="eq-misc-pressure_pill-pressure-pill">Pressure pill</h2>
+<p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 56</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>When you swallow this marble-shaped alchemical pill as a full-round action, it instantly adjusts your body to the surrounding <Link to="/rule/oceanic_zones">water pressure</Link>, though you take 3 points of nonlethal damage for every 100 feet of adjustment necessary.</p>
+</>};
+const _printing_press_1_page = {title: "Printing press (1-page)", jsx: <><h2 id="eq-misc-printing_press_1_page-printing-press-1-page">Printing press (1-page)</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 250 gp; <strong>Weight</strong> 150 lbs.<br/><strong>Category</strong> Tools</p>
+<p>A hand-cranked press uses a plate on which all of the text on a page is carved in reverse. Changing the plate is a simple process, but creating a new one is expensive and labor-intensive. The press prints one page at a time, at a rate of about five pages per minute. A stationer then needs to cut and trim the pages and bind the book.</p>
+</>};
+const _prismatic_crystal = {title: "Prismatic crystal", jsx: <><h2 id="eq-misc-prismatic_crystal-prismatic-crystal">Prismatic crystal</h2>
+<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This chunk of crystal shines with the colors of the rainbow. A prismatic crystal can be used as a focus for the <Link to="/skill/read_aura">read aura</Link> occult skill unlock to reduce the time needed to read an aura from 10 minutes to 5 minutes. When held by psychic creatures, these crystals also emit light in a small area, increasing the <Link to="/rule/light_level">light level</Link> in a 10-foot radius by one step (darkness becomes dim light, and dim light becomes normal light). A prismatic crystal can't increase the light level above normal light.</p>
+</>};
+const _privacy_shelter = {title: "Privacy shelter", jsx: <><h2 id="eq-misc-privacy_shelter-privacy-shelter">Privacy shelter</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 244</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Through a 15-minute assembly period, the components of this kit fit together into a tent-like structure. Able to fit a single Medium-sized creature, this tent doesn't allow space for sleeping. Instead, a privacy shelter offers standing or sitting room only. The shelter is mostly used as either a meditation space or a latrine shelter.</p>
+</>};
+const _prognostication_manual = {title: "Prognostication manual", jsx: <><h2 id="eq-misc-prognostication_manual-prognostication-manual">Prognostication manual</h2>
+<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This small but thick booklet contains information on a specific form of folk divination, such as cartomancy, cheiromancy, crystallomancy, or horoscopy. Using such a book while reading a creature's fortune reduces the time needed to read that fortune by 2 minutes. When used as part of a <Link to="/skill/sense_motive">Sense Motive</Link> check for the <Link to="/skill/prognostication">prognostication</Link> occult skill unlock, this book grants a +2 circumstance bonus. If the fortune-telling method requires a particular item, such as a deck of cards for cartomancy or animal bones for osteomancy, that item provides a +2 circumstance bonus that doesn't stack with the bonus provided by the prognostication manual.</p>
+<p>A prognostication manual is useful primarily for cheiromancy (palm reading), horoscopy, and other methods that don't require special equipment.</p>
+</>};
+const _prosthetic_arm = {title: "Prosthetic (arm)", jsx: <><h2 id="eq-misc-prosthetic_arm-prosthetic">Prosthetic</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 21</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 10 gp (arm), 1 gp (foot), 1 gp (hand), 20 gp (leg); <strong>Weight</strong> 3 lbs. (arm), 2 lbs. (foot), 1 lb. (hand), 6 lbs. (leg)</p>
+<p>People who lose hands, arms, legs, or feet in combat sometimes replace them with prosthetics: realistic simulations of their missing limbs. Usually carved of wood and painted to match the wearer's skin tone, these items have limited functionality, allowing a legless person to walk at half speed, or enabling an armless person to hold a shield in a fixed position, but little more. Clever individuals have been known to create small compartments in their prosthetics, just large enough to hold very small objects. A prosthetic hand or foot can hold an item with negligible weight, while a prosthetic limb can hold up to 1 or 2 pounds.</p>
+</>};
+const _prowlers_palliative = {title: "Prowler's palliative", jsx: <><h2 id="eq-misc-prowlers_palliative-prowlers-palliative">Prowler's palliative</h2>
+<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Tincture</p>
+<p>This pitch-black liquid slows your heart rate, putting you in an almost trance-like state. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Stealth checks, you can use Stealth while moving at full speed without penalty, and the DCs for Intimidate checks to demoralize you is 2 higher. The tincture's sedative nature causes you to take a -4 penalty on Strength-based skill checks and a -2 penalty on damage rolls for the same duration.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _pseudodragon = {title: "Pseudodragon", jsx: <><h2 id="eq-misc-pseudodragon-pseudodragon">Pseudodragon</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 7 lbs.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>Found primarily in temperate forests, pseudodragons are intelligent enough that some consider their sale slavery. A handful of pseudodragons offer themselves for hire to adventurers, typically for half their listed price per week of work.</p>
+</>};
+const _psychics_kit = {title: "Psychic's kit", jsx: <><h2 id="eq-misc-psychics_kit-psychics-kit">Psychic's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link><br/><strong>Price</strong> 35 gp; <strong>Weight</strong> 27 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit includes a <Link to="/eq-misc/backpack">backpack</Link>, a <Link to="/eq-misc/bedroll">bedroll</Link>, a <Link to="/eq-misc/belt_pouch">belt pouch</Link>, <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, a <Link to="/eq-misc/prismatic_crystal">prismatic crystal</Link>, <Link to="/eq-misc/torches">torches</Link> (10), <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), and a <Link to="/eq-misc/waterskin">waterskin</Link>.</p>
+</>};
+const _psychometrists_gloves = {title: "Psychometrist's gloves", jsx: <><h2 id="eq-misc-psychometrists_gloves-psychometrists-gloves">Psychometrist's gloves</h2>
+<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Tools</p>
+<p>These layered lambskin gloves are specially designed and psychically attuned to increase the tactile sensitivity of the wearer's hands. To provide any benefit, the gloves must be worn for 8 uninterrupted hours. All Dexterity skill checks requiring the use of the hands take a -2 penalty as long as the gloves remain on. After this 8-hour period, the user can remove the gloves to gain a +2 circumstance bonus on Appraise checks for the <Link to="/skill/psychometry">psychometry</Link> occult skill unlock. This benefit fades after 1 hour.</p>
+</>};
+const _pull_cord_grenade = {title: "Pull-cord grenade", jsx: <><h2 id="eq-misc-pull_cord_grenade-pull-cord-grenade">Pull-cord grenade</h2>
+<p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 21</Link><br/><strong>Price</strong> 150 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This clay container resembles a <Link to="/eq-weapon/fuse_grenade">fuse grenade</Link>, but trails a pulley and wire rather than a fuse. Pulling the cord (a move action) sparks a <Link to="/eq-misc/flint_and_steel">flint and steel</Link> within the device, causing the grenade to explode. The pull cord can be attached to a door or drawer within 5 feet, or strung across a 5-foot square, causing the grenade to detonate when its tripwire is disturbed. A pull-cord grenade cannot be reused.</p>
+<p>This can be crafted with a DC 25 Craft (traps) check.</p>
+<p><strong>Type</strong> mechanical; Perception DC 15; Disable Device DC 15<br/><strong>Trigger</strong> touch; Reset none<br/><strong>Effect</strong> explosion (2d6 bludgeoning damage and 1d6 fire damage); Reflex DC 15 half; multiple targets (all targets within 10 feet)</p>
+</>};
+const _pulque_cup = {title: "Pulque (cup)", jsx: <><h2 id="eq-misc-pulque_cup-pulque">Pulque</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link><br/><strong>Price</strong> 1 sp (cup), 4 sp (wineskin); <strong>Weight</strong> 1/2 lb. (cup), 2 lbs. (wineskin)</p>
+<p>This nutritious milk-colored alcoholic beverage is fermented from the heart of the agave or century plant.</p>
+</>};
+const _pump_organ = {title: "Pump organ", jsx: <><h2 id="eq-misc-pump_organ-pump-organ">Pump organ</h2>
+<p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 11</Link><br/><strong>Price</strong> 2,000 gp; <strong>Weight</strong> 100 lbs.<br/><strong>Category</strong> Black Market</p>
+<p>This large mobile keyboard instrument resembles a strange chair with several brass tubes jutting from its back and small wheels on the feet for ease of transportation. A pump organ can seat a single Medium creature, which can operate the keyboard and pedals to create haunting melodies out of the brass pipework along the organ's back frame. All pump organs function as <Link to="/eq-misc/masterwork_musical_instrument">masterwork musical instruments</Link> for Perform (keyboard) checks. With 10 minutes of work and a successful DC 15 Perform (keyboard) check, a user can manipulate the pump organ's controls to create a 1-minute long performance that does not require an operator - the pump organ can be set to activate after a preset duration via a timer (up to 24 hours) or to begin when a remote trigger is activated. The trigger can be connected to the pump organ via a set of pulleys and twine normally stored in a compartment under the organ's seat cushion with a successful DC 15 Disable Device check. The remote trigger can be placed up to 60 feet from the pump organ.</p>
+</>};
+const _pump_water_canister = {title: "Pump water canister", jsx: <><h2 id="eq-misc-pump_water_canister-pump-water-canister">Pump water canister</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This metal container holds 4 gallons of water. As a standard action that provokes attacks of opportunity, you can use the hand pump and hose at the top to spray water up to 10 feet away. Pumping uses 1 gallon of water for every round of use and can extinguish nonmagical fires in 1 square. A full canister weighs 37 pounds.</p>
+</>};
+const _purification_pellet = {title: "Purification pellet", jsx: <><h2 id="eq-misc-purification_pellet-purification-pellet">Purification pellet</h2>
+<p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands pg. 28</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>This tablet of compressed herbs and potent alchemical reagents can purify tainted, brackish, muddy, or alkaline water in order to make it drinkable. If used to purify water that is diseased or poisonous, each tablet reduces the save DC by 1 (to a maximum reduction of 5) for any disease or poison present in the water. A single purification pellet can affect up to 1 gallon of tainted water.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _purity_test = {title: "Purity test", jsx: <><h2 id="eq-misc-purity_test-purity-test">Purity test</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 18</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Black Market</p>
+<p>This set of special disposable reagents can be used in conjunction with an <Link to="/eq-misc/alchemists_lab">alchemist's lab</Link> to detect whether a drug has been cut with inferior-grade material or <Link to="/eq-misc/bunk">filler</Link>, granting a +5 competence bonus on Craft (alchemy) checks to detect such chicanery.</p>
+</>};
+const _puzzle_box = {title: "Puzzle box", jsx: <><h2 id="eq-misc-puzzle_box-puzzle-box">Puzzle box</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 1 gp-1,000 gp; <strong>Weight</strong> 1 lb.-5 lbs.<br/><strong>Category</strong> Entertainment</p>
+<p>This box features moving parts, secret panels, or unusual codes and locking mechanisms. Depending on the box, a Disable Device, Knowledge (engineering), Linguistics, or simple Intelligence check might open it. The DC of the check varies with the complexity of the box, but is typically 15 or 20 (retry once per day). Multiple skill checks might be necessary for different stages of the puzzle. If the puzzle box was constructed with the intention that one specific person should be able to open it, that person gets a +5 circumstance bonus on the check.</p>
+</>};
+const _puzzle_heel = {title: "Puzzle heel", jsx: <><h2 id="eq-misc-puzzle_heel-puzzle-heel">Puzzle heel</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 234</Link><br/><strong>Price</strong> varies; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Used as a replacement for the heel and sole of a shoe or boot, a puzzle heel can be used to secret away items so you can retrieve them when needed. To open the small compartment inside a puzzle heel, you must press, turn, and twist the heel and sole in a particular pattern. The increased complexity of a puzzle heel grants a circumstance bonus on Sleight of Hand checks to conceal items, depending on the complexity of the opening process. Opening the heel without knowing the sequence requires a successful Disable Device check. A puzzle heel compartment is roughly 5 cubic inches in volume.</p>
+<ScrollContainer id="eq-misc-puzzle_heel--table-0"><table>
+<thead>
+<tr>
+<th>Complexity</th>
+<th>Price</th>
+<th>Sleight of Hand bonus</th>
+<th>Disable Device DC</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>3 steps</td>
+<td>20 gp</td>
+<td>+4</td>
+<td>20</td>
+</tr>
+<tr>
+<td>4 steps</td>
+<td>40 gp</td>
+<td>+6</td>
+<td>25</td>
+</tr>
+<tr>
+<td>5 steps</td>
+<td>80 gp</td>
+<td>+8</td>
+<td>30</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _pyramid_busters_kit = {title: "Pyramid buster's kit", jsx: <><h2 id="eq-misc-pyramid_busters_kit-pyramid-busters-kit">Pyramid buster's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 9</Link><br/><strong>Price</strong> 310 gp; <strong>Weight</strong> 8 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit contains items helpful in navigating the winding corridors of pyramids, but is also useful in other crypts and tombs. It contains three sticks of <Link to="/eq-misc/chalk">chalk</Link>, five sheets of <Link to="/eq-misc/parchment">parchment</Link>, 1 dose of <Link to="/eq-misc/synthetic_mumia">synthetic mumia</Link>, a flask of <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>, a <Link to="/eq-weapon/tangleburn_bag">tangleburn bag</Link>, and a pair of <Link to="/eq-misc/sunrod">sunrods</Link>.</p>
+</>};
+const _pyrography_kit = {title: "Pyrography kit", jsx: <><h2 id="eq-misc-pyrography_kit-pyrography-kit">Pyrography kit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Kits</p>
+<p>Also called a "woodburning kit," this set of metal needles, styluses, and brands is used to draw on leather or wood by burning it. Using the kit requires a fire source; the needle or stylus is heated in the fire and held in a thick leather handle, then used like a pen.</p>
+</>};
+const _qadiran_saddle = {title: "Qadiran saddle", jsx: <><h2 id="eq-misc-qadiran_saddle-qadiran-saddle">Qadiran saddle</h2>
+<p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East pg. 57</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Animal Gear</p>
+<p>Developed by <Link to="/rule/al_zabriti">Al-Zabriti</Link> riders, a Qadiran saddle is sturdy but minimal, allowing horse and rider to communicate through slight muscle shifts and delicate balance adjustments. A Qadiran saddle gives a rider a +2 circumstance bonus on Ride checks, and it allows a rider to ignore the AC penalty from a charge when she is mounted and her mount charges.</p>
+</>};
+const _questing_knight_package = {title: "Questing knight package", jsx: <><h2 id="eq-misc-questing_knight_package-questing-knight-package">Questing knight package</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 5</Link><br/><strong>Price</strong> 1000 gp; <strong>Weight</strong> 127 1/2 lbs.<br/><strong>Category</strong> Kits</p>
+<p>If not descended from nobility, the questing knight certainly looks like he fits the part. This equipment package is useful for cavaliers, fighters, and paladins. If the PC can cast spells, add a <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link> and a <Link to="/eq-misc/holy_symbol">holy symbol</Link> (if required). If the PC gains a mount from a class feature, remove the horse from the list below and replace the lance with a masterwork lance.</p>
+<p><strong>Armor:</strong> <Link to="/eq-armor/half_plate">Half-plate</Link>, <Link to="/eq-armor/heavy_wooden_shield">heavy wooden shield</Link>.</p>
+<p><strong>Weapons:</strong> <Link to="/eq-weapon/javelin">Javelins</Link> (4), <Link to="/eq-weapon/lance">lance</Link>, <Link to="/eq-weapon/longsword">longsword</Link>.</p>
+<p><strong>Combat Gear:</strong> <Link to="/eq-misc/sunrod">Sunrods</Link> (2).</p>
+<p><strong>Other Gear:</strong> <Link to="/eq-misc/backpack">Backpack</Link>, <Link to="/eq-misc/banner">banner</Link>, <Link to="/eq-misc/bedroll">bedroll</Link>, <Link to="/eq-misc/belt_pouch">belt pouch</Link>, <Link to="/eq-misc/flask">flask</Link>, <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, <Link to="/eq-misc/mess_kit">mess kit</Link>, <Link to="/eq-misc/pole">pole</Link> (10 ft.), <Link to="/eq-misc/sack">sack</Link>, <Link to="/eq-misc/shovel">shovel</Link>, <Link to="/eq-misc/signet_ring">signet ring</Link>, <Link to="/eq-misc/silk_rope_50_ft">silk rope (50 ft.)</Link>, <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), <Link to="/eq-misc/waterskin">waterskin</Link>, <Link to="/eq-misc/whetstone">whetstone</Link>, 8 gp.</p>
+<p><strong>Mount:</strong> <Link to="/eq-misc/heavy_horse_combat_trained">Heavy horse (combat trained)</Link> with <Link to="/eq-misc/bit_and_bridle">bit and bridle</Link>, <Link to="/eq-misc/military_saddle">military saddle</Link>, and <Link to="/eq-misc/saddlebags">saddlebags</Link>.</p>
+<p><strong>Total Weight:</strong> 127-1/2 lbs. (73-3/4 lbs. for a Small character).</p>
+</>};
+const _quick_change_outfit = {title: "Quick-change outfit", jsx: <><h2 id="eq-misc-quick_change_outfit-quick-change-outfit">Quick-change outfit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 234</Link><br/><strong>Price</strong> varies; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>A quick-change outfit is actually two different sets of attire sewn together, one inside the other. The quick-change outfit allows the wearer to rapidly change from one outfit into another by reversing (pulling inside out) the entire outfit. It takes a full-round action to slip out of the quick-change outfit, reverse it, and put it back on. The two different outfits can appear to be of any variety, such as a <Link to="/eq-misc/nobles_outfit">noble's outfit</Link> on one side and a <Link to="/eq-misc/monks_outfit">monk's outfit</Link> on the other. The appearance is only superficial, so the outfits do not grant any special bonuses (such as a <Link to="/eq-misc/cold_weather_outfit">cold-weather outfit's</Link> benefits against exposure to cold). Anyone paying particular attention to the outfit can notice discrepancies (such as odd seams and unusually thick padding) with a successful DC 20 Perception check. The outfit's price is equal to double the price of the more expensive of the two outfits it mimics.</p>
+</>};
+const _quick_pack_table = {title: "Quick-pack table", jsx: <><h2 id="eq-misc-quick_pack_table-quick-pack-table">Quick-pack table</h2>
+<p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 236</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 20 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>A quick-pack table is a piece of lightweight furniture designed to be both portable and versatile. Street-corner hawkers commonly use such tables to display small goods for sale.</p>
+<p>A quick-pack table can be set up in a relatively small area and usually takes up a few square feet. When opened, the table has four legs and a flat top surface, along with a bookcase-style upright display where items such as jewelry can be exhibited. When necessary, the table and its contents can be closed, folded up, and collapsed in a single round, with all the goods safely held in their respective compartments. The owner can carry the folded table under one arm.</p>
+</>};
+const _quick_step_concoction = {title: "Quick-step concoction", jsx: <><h2 id="eq-misc-quick_step_concoction-quick-step-concoction">Quick-step concoction</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 27</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Concoctions</p>
+<p>This minty fluid quickens your feet and improves your balance, granting a +2 alchemical bonus on Acrobatics checks and to your CMD against trip attempts. However, you become easily distracted and take a -2 penalty on Perception checks.</p>
+</>};
+const _quicksilver_barometer = {title: "Quicksilver barometer", jsx: <><h2 id="eq-misc-quicksilver_barometer-quicksilver-barometer">Quicksilver barometer</h2>
+<p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 13</Link><br/><strong>Price</strong> 400 gp; <strong>Weight</strong> 12 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>A quicksilver barometer consists of a slender glass tube, closed at the top, containing an open, mercury-filled base. Many quicksilver barometers are fitted into elegant or even outlandishly ornate housings made of precious materials. Such housings are not necessary for the device to function, and serve only to increase the base price of the tool into the realm of an art object's value. The device interacts with atmospheric pressure, causing the mercury within the glass tube to lower or rise based on external pressure and temperature. It takes 3 rounds for a quicksilver barometer to settle once placed on a flat surface. While this device is normally used to measure and observe local temperature fluctuations (if used in this manner and studied for at least 10 minutes, a quicksilver barometer grants a +4 circumstance bonus on Survival checks to predict the weather), it also functions in a method similar to a <Link to="/eq-misc/haunt_detector">haunt detector</Link>, but with greater accuracy - a quicksilver barometer grants a +4 circumstance bonus on Perception checks to notice haunts.</p>
+</>};
+const _quieting_needles = {title: "Quieting needles", jsx: <><h2 id="eq-misc-quieting_needles-quieting-needles">Quieting needles</h2>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_29_mother_of_flies">Pathfinder #29: Mother of Flies pg. 12</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Black Market</p>
+<p>A set of quieting needles costs 25 gp. Inserted into a corpse's heart, lungs, and other organs, the needles can be well hidden inside a slain body with a minute of work and a Sleight of Hand check - the result of this Sleight of Hand check determines the Heal check DC to notice the use of quieting needles on a corpse. This Heal check gains a cumulative +1 bonus for each day the body has been allowed to decay, as the presence of the needles grows increasingly obvious as the flesh rots away.</p>
+<p>A body pierced with quieting needles can be brought back to life as normal via <Link to="/spell/raise_dead">raise dead</Link>, but upon being restored to life, the victim immediately begins suffering from the fact that his major organs are perforated by hidden needles. This grisly fate can even strike someone brought back to life via <Link to="/spell/resurrection">resurrection</Link> or <Link to="/spell/true_resurrection">true resurrection</Link> if the body itself was intact and the needles were thus hidden. (Casting <em>resurrection</em> or <em>true resurrection</em> with only a fragment of the body or no body, forcing the spell to rebuild the body as appropriate, is a surefire way to avoid having the victim come back to life with the needles still inside him.)</p>
+<p>A creature brought back to life with quieting needles inside him is immediately struck with pain and must make a DC 25 Fortitude save each round to avoid being <Link to="/misc/nauseated">nauseated</Link> from the pain and suffering 1d6 points of <Link to="/rule/constitution_damage">Constitution damage</Link>. A successful Fortitude save negates the nauseated condition and reduces the Constitution damage to 1.</p>
+<p>Removing quieting needles from a dead body takes 1d6+6 rounds (and a DC 20 Heal check if the process is to leave the body in a condition where raise dead is still viable). Removing quieting needles from a freshly restored living body causes 2d6 points of damage per round the procedure continues, with a successful DC 25 Heal check reducing damage caused that round to 2.</p>
+<p>The use of quieting needles is relatively uncommon, meant as much to punish enemies for attempting to raise dead allies and force them to waste the resources on such expensive magic as well as to cause the restored creature agonizing pain - using quieting needles is an evil act that is as illegal as murder in most civilized regions.</p>
+<p>A set of quieting needles costs 25 gp.</p>
+</>};
+const _quintain = {title: "Quintain", jsx: <><h2 id="eq-misc-quintain-quintain">Quintain</h2>
+<p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 31</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> 30 lbs.<br/><strong>Category</strong> Tools</p>
+<p>At its simplest, a quintain is a swiveling pole with a pair of arms, although permanent quintains are more elaborate and often look like armored mannequins. One arm holds a wooden board shaped like a shield. The other arm has a padded flail attached. In a routine originally used to train knights, a user rides past a quintain and tries to hit the board with a weapon, and then get out of the way before the quintain swings around to strike him with its flail in retaliation. Training with a quintain requires 1 hour of practice and a DC 15 Ride check. If you succeed at the check, you gain a +2 circumstance bonus on Ride checks to stay in the saddle, guide with your knees, and control a combat-trained mount. This bonus lasts for 24 hours or until you fail a Ride check.</p>
+</>};
+const _rabbit = {title: "Rabbit", jsx: <><h2 id="eq-misc-rabbit-rabbit">Rabbit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link><br/><strong>Price</strong> 2 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>Rabbits are often raised or hunted for their meat and skins, though some people keep the skittish mammals as pets. Though they are often confused with hares, rabbits are distinctly different in that they make their homes in burrows beneath the ground, and they are usually smaller than hares. Rabbits have the same statistics as rats.</p>
+</>};
+const _raccoon = {title: "Raccoon", jsx: <><h2 id="eq-misc-raccoon-raccoon">Raccoon</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 7 lbs.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>These nocturnal hunter-scavengers are found primarily in forested terrains, and are noted for their domino mask-like visages, highly dextrous forepaws (which they rely on for their hyper-sensitive sense of touch), and the strangely anthropomorphic tendency to "wash" their food in water before eating it. Raccoons are sometimes kept as pets and used by some spellcasters as familiars.</p>
+</>};
+const _rack = {title: "Rack", jsx: <><h2 id="eq-misc-rack-rack">Rack</h2>
+<p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 212</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> 500 lbs.<br/><strong>Category</strong> Torture Implements</p>
+<p>The rack is one of the most infamous and feared devices in the torturer's arsenal, capable of inflicting ruinous damage to a victim's body. Helpless victims are splayed across the device's frame, and each limb is lashed to a central windlass. Each turn of the crank deals a cumulative 1d6 points of nonlethal damage, up to 4d6 points of nonlethal damage on the fourth turn. Each subsequent turn after the fourth deals 4d6 points of nonlethal damage and deals 1 point of damage each to the victim's Strength, Dexterity, and Constitution scores as it dislocates limbs, cracks cartilage, and breaks bone. Some racks are fitted with spiked wheels that puncture the victim's body, dealing lethal damage rather than nonlethal damage. Escaping from a rack requires a successful DC 30 Escape Artist check.</p>
+</>};
+const _raft = {title: "Raft", jsx: <><h2 id="eq-misc-raft-raft">Raft</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link><br/><strong>Price</strong> -; <strong>Price of Passage</strong> (per mile) 1 cp<br/><strong>Category</strong> Transport, Sea</p>
+<p>The most basic and primitive type of watercraft, a raft is a simple, flat boat with no hull, often made of logs lashed together. It typically uses two to four <Link to="/eq-misc/oar">oars</Link> for propulsion.</p>
+</>};
+const _ragers_aid = {title: "Rager's aid", jsx: <><h2 id="eq-misc-ragers_aid-ragers-aid">Rager's aid</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>This packet filled with spikey-edged leaves has a pungent scent almost strong enough to make your eyes water. While you chew the leaves, you ignore the effects of <Link to="/misc/fatigue">fatigue</Link>. The leaves last for 6 rounds, at which point only a wad of pulp remains. When the effect of rager's aid wears off, you are <Link to="/misc/exhausted">exhausted</Link> instead.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _rakes_friend = {title: "Rake's friend", jsx: <><h2 id="eq-misc-rakes_friend-rakes-friend">Rake's friend</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link><br/><strong>Price</strong> 120 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>You can accept <Link to="/misc/alchemical_burn">alchemical burn</Link> when you imbibe this draught to gain 1 grit point or 1 panache point. The effects of rake's friend last for 1 hour; if not spent within 1 hour, this point is lost. Rake's friend has no effect if you don't have the ability to use grit or panache.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+</>};
+const _rangers_kit = {title: "Ranger's kit", jsx: <><h2 id="eq-misc-rangers_kit-rangers-kit">Ranger's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link><br/><strong>Price</strong> 9 gp; <strong>Weight</strong> 28 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This includes a <Link to="/eq-misc/backpack">backpack</Link>, a <Link to="/eq-misc/bedroll">bedroll</Link>, a <Link to="/eq-misc/belt_pouch">belt pouch</Link>, a <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, <Link to="/eq-misc/iron_pot">iron pot</Link>, <Link to="/eq-misc/mess_kit">mess kit</Link>, <Link to="/eq-misc/rope">rope</Link>, <Link to="/eq-misc/torches">torches</Link> (10), <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), and a <Link to="/eq-misc/waterskin">waterskin</Link>.</p>
+</>};
+const _rat_blue = {title: "Rat (blue)", jsx: <><h2 id="eq-misc-rat_blue-rat">Rat</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 1 gp (blue), 1 cp (common); <strong>Weight</strong> 1 lb. (blue), 1 lb. (common)</p>
+<p>These Tiny rodents live everywhere and eat nearly anything. Despite having a reputation as disease-ridden scavengers, domesticated rats are clean, loyal creatures that make excellent familiars.</p>
+</>};
+const _rat_dire = {title: "Rat (dire)", jsx: <><h2 id="eq-misc-rat_dire-rat-dire">Rat (dire)</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 50 lbs.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>These Small animals are vicious scavengers in the wild. However, dire rats raised in captivity can be trained as loyal pets and protectors. Pet dire rats do not have filth fever.</p>
+</>};
+const _rat_cage = {title: "Rat cage", jsx: <><h2 id="eq-misc-rat_cage-rat-cage">Rat cage</h2>
+<p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 212</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 15 lbs.<br/><strong>Category</strong> Torture Implements</p>
+<p>This specially crafted steel cage can hold up to 20 rats, and includes stout leather straps around its open end and a metal crucible for holding hot charcoal or other fuel on its top end. Torturers tightly strap the open end of the device to a helpless victim's abdomen, insert the rats into the cage, and set the crucible's fuel alight. In 1d10 rounds, the increasing heat causes the rats to gnaw and dig their way through the victim's abdomen to escape, dealing 1 point of piercing damage per rat each round. A victim can wiggle free of a rat cage with a successful DC 20 Escape Artist check, though some of the voracious vermin may continue their consumption in subsequent rounds.</p>
+</>};
+const _rations_space_per_day = {title: "Rations, space (per day)", jsx: <><h2 id="eq-misc-rations_space_per_day-rations-space-per-day">Rations, space (per day)</h2>
+<p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 19</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Food/Drink</p>
+<p>Generally composed of meat, hard cheese, fruits and vegetables, nut and bean pastes, and vital herbs, space rations are dehydrated and then kept extremely dry in order to maximize preservation and storage efficiency. A single serving feeds a Medium character for 1 day, but unless an equal weight of water is added to the rations, the character eating them becomes <Link to="/misc/fatigued">fatigued</Link> until she drinks enough water.</p>
+</>};
+const _raven = {title: "Raven", jsx: <><h2 id="eq-misc-raven-raven">Raven</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 2 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>These Tiny birds are known for their intelligence, and even play games with each other in the wild. They eat insects and can be found in surprisingly varied habitats.</p>
+</>};
+const _reagent_extractor = {title: "Reagent extractor", jsx: <><h2 id="eq-misc-reagent_extractor-reagent-extractor">Reagent extractor</h2>
+<p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 17</Link><br/><strong>Price</strong> 1,000 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Tools</p>
+<p>These connected glass-and-copper apparatuses have <Link to="/eq-misc/heatstone">heatstones</Link> and other components installed at the base of each container to break down magic liquids placed within. Any potion placed within the extractor is distilled down to its component parts over the course of 4 hours; this destroys the potion. The extracted essences can then be used to brew a new potion as long as the new potion is of the same spell level or lower than the distilled potion. Using the extractor in this way does not change the requirements for brewing a potion, but it does remove the need to use fresh and unused ingredients and materials to brew the new potion, and this waives the new potion's base cost (but not the requirement to provide any costly material component or focus that the new potion's spell requires). Essences extracted from a potion using a reagent extractor must be used to create a new potion within 24 hours; after this time, they become inert.</p>
+</>};
+const _reagent_paper = {title: "Reagent paper", jsx: <><h2 id="eq-misc-reagent_paper-reagent-paper">Reagent paper</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 208</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This slip of paper can aid in the identifying of liquids. Its color changes in accordance to basic traits such as acidity, salinity, or magic. This confers a +2 alchemical bonus on any Craft (alchemy) or Spellcraft check made to identify potions or other liquids.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+</>};
+const _reanimating_fluid = {title: "Reanimating fluid", jsx: <><h2 id="eq-misc-reanimating_fluid-reanimating-fluid">Reanimating fluid</h2>
+<p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 213</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This viscous, translucent green fluid is typically stored in a large syringe. When injected into a mostly intact corpse of a Medium or smaller creature that has been dead for no more than 1 day (time spent under effects like gentle repose don't count against this time), the fluid gives the corpse a rudimentary semblance of life, reactivating its nerves and muscle tissue. This causes the corpse to reanimate and shamble around erratically for 1 minute. The result is not an undead creature, nor is it a construct. The reanimated corpse remains utterly lifeless and is driven only by muscular spasms that cause it shuffle 20 feet in a random direction each round, gasping and blinking eerily as it goes. When the corpse hits a solid barrier or is attacked, it stops moving. On its next turn, roll 1d8 to determine where it goes next. On a 1, it continues forward in the same direction it had been previously moving (or runs up against the same barrier). On a 2, it turns 45 degrees clockwise and heads in that direction; on a 3, it turns 90 degrees clockwise and heads in that direction; and so on. The corpse can't attack, doesn't defend itself, and - as an object - has AC 10 and 12 hit points. Crafting a syringe of reanimating fluid requires a successful DC 25 Craft (alchemy) check.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _red_flame_torch = {title: "Red flame torch", jsx: <><h2 id="eq-misc-red_flame_torch-red-flame-torch">Red flame torch</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 246</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This otherwise normal-looking <Link to="/eq-misc/torch">torch</Link> is encrusted with lithium salts and burns with a dark red flame. It sheds only <Link to="/rule/dim_light">dim light</Link> in a 10-foot radius, and the light it casts is undetectable outside this radius by normal vision, darkvision, or low-light vision. This torch burns for 1 hour.</p>
+</>};
+const _reindeer = {title: "Reindeer", jsx: <><h2 id="eq-misc-reindeer-reindeer">Reindeer</h2>
+<p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North pg. 28</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> 450 lbs.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>These sturdy and majestic caribou roam the northern tundra in great herds, and provide fur, meat, and other useful products to both Erutaki and Varki herders and hunters. Irrisen's Jadwiga, Snowcaster elves, and eccentric Linnorm Kings use domesticated reindeer to pull sleighs. Reindeer use the same statistics as <Link to="/monster/elk">elk</Link>.</p>
+</>};
+const _remora_pad = {title: "Remora pad", jsx: <><h2 id="eq-misc-remora_pad-remora-pad">Remora pad</h2>
+<p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 6</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This foot-long strip of double-sided alchemical adhesive is sealed with waxed paper. When unsealed (this requires a move action) and pressed between two surfaces (this also requires a move action), a remora pad creates a firm and waterproof bond between two creatures or objects for up to 24 hours. If two creatures connect themselves in this way, both gain the <Link to="/rule/grapple_conditions">grappled condition</Link>. However, if they are different size categories, only the smaller creature gains this condition.</p>
+<p>This bond survives light buffeting and movement, such as that created by incoming tides or by one attached surface dragging the other along underwater. Sharp tugs can break the seal fairly easily, and a willingly attached creature can pull free of the pad with a successful DC 5 Strength check as a standard action (DC 10 as a swift action). This weakness makes remora pads fairly ineffective when attempting to grapple a target, though a grappling creature that sticks itself to a target with a remora pad receives a +6 circumstance bonus on grapple combat maneuver checks to sustain the grapple in subsequent rounds (instead of the normal +5 bonus).</p>
+<p>A remora pad's bond is strong enough to support 200 pounds of material, so bonding two heavier objects together requires multiple pads. Underwater travelers often use remora pads to attach themselves to trained aquatic animals for long journeys.</p>
+</>};
+const _repellent_salts = {title: "Repellent salts", jsx: <><h2 id="eq-misc-repellent_salts-repellent-salts">Repellent salts</h2>
+<p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 13</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This fine alchemical salt has been developed to work against particular types of foes. A batch of repellent salts is attuned to undead or a selected outsider race, such as angels, demons, or devils. As a full-round action that provokes attacks of opportunity, a dose of repellent salts can be applied to a 5-foot-square area that functions as <Link to="/rule/difficult_terrain">difficult terrain</Link> for the salt's attuned creature type. Any creature can sweep the salts aside as a move action (or as a full-round action for an attuned creature, which deals that creature 2d4 points of acid damage in the process); moderate wind also disperses all repellent salts in a square (including the draft created by a winged creature of at least Medium size that flies within 5 feet of the salts). Alternatively, a vial of repellent salts can be used as a splash weapon against the target creature, with a successful hit dealing 2d4 points of acid damage to the creature struck (or 1 point to an attuned creature within 5 feet of the target and thus exposed to the attack's splash).</p>
+</>};
+const _retort = {title: "Retort", jsx: <><h2 id="eq-misc-retort-retort">Retort</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 5</Link><br/><strong>Price</strong> 2 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>A retort is a pair of flasks attached to one another by a bent connector called an alembic. When one flask is heated, gaseous products pass through the alembic and condense in the other flask.</p>
+</>};
+const _reversible_cloak = {title: "Reversible cloak", jsx: <><h2 id="eq-misc-reversible_cloak-reversible-cloak">Reversible cloak</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link><br/><strong>Price</strong> 2 sp-100 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Clothing</p>
+<p>This cloak has an outer layer of fabric and an inner layer of a different color. They are worn for the sake of fashion, in theater performances, or to aid a quick appearance change as part of a disguise. The price varies depending on the cloak's quality, with the low end being a simple linen cloak and the high end being made of silk or decorated with fur trim.</p>
+</>};
+const _rhinarium_paste = {title: "Rhinarium paste", jsx: <><h2 id="eq-misc-rhinarium_paste-rhinarium-paste">Rhinarium paste</h2>
+<p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 177</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>When applied to the nose as a standard action, this alchemical paste traps airborne particles and sharpens your olfactory receptors, heightening your sense of smell. You gain the <Link to="/umr/scent">scent</Link> ability, except you can detect creatures and odors at only half the distance. If you already have the scent ability, rhinarium paste increases the range at which you can detect creatures by 50%. Rhinarium paste's effects lasts for 1 hour. Crafting this item requires a successful DC 20 Craft (alchemy) check.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _rice_paper_sheet = {title: "Rice paper (sheet)", jsx: <><h2 id="eq-misc-rice_paper_sheet-rice-paper-sheet">Rice paper (sheet)</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 5 cp; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This sheet of paper is made of rice, straw, or tree bark. It has hardness 0, 1 hit point, and a break DC of 2.</p>
+</>};
+const _riding_bee_combat_trained_queen = {title: "Riding bee (combat-trained queen)", jsx: <><h2 id="eq-misc-riding_bee_combat_trained_queen-riding-bee">Riding bee</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 12</Link><br/><strong>Price</strong> 12,000 gp (combat-trained queen), 450 gp (combat-trained worker), 8,000 gp (queen), 300 gp (worker); <strong>Weight</strong> 140 lbs. (combat-trained queen), 60 lbs. (combat-trained worker), 140 lbs. (queen), 60 lbs. (worker)</p>
+<p><Link to="/race/gathlain">Gathlains</Link> have learned to domesticate giant bees, which they use to travel long distances. Extra queens from a hive's brood are saved and trained for hauling heavier equipment or a retinue of gathlains. Bees require an exotic saddle, which is a sort of basket that places the rider underneath the bee's abdomen, where it protects the rider as if he were a bee larva.</p>
+</>};
+const _riding_kit_common = {title: "Riding kit (common)", jsx: <><h2 id="eq-misc-riding_kit_common-riding-kit">Riding kit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 47</Link><br/><strong>Price</strong> 16 gp (common), 36 gp (exotic mount); <strong>Weight</strong> 54 lbs. (common), 59 lbs. (exotic mount)</p>
+<p>This kit includes a <Link to="/eq-misc/bit_and_bridle">bit and bridle</Link>, a <Link to="/eq-misc/saddle">saddle</Link>, a <Link to="/eq-misc/blanket">saddle blanket</Link>, <Link to="/eq-misc/saddlebags">saddlebags</Link>, and 2 days' worth of <Link to="/eq-misc/animal_feed">feed</Link> for a mount. The weight can be lightened 10 pounds by discarding the feed.</p>
+</>};
+const _riding_rat_combat_trained = {title: "Riding rat (combat trained)", jsx: <><h2 id="eq-misc-riding_rat_combat_trained-riding-rat">Riding rat</h2>
+<p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 177</Link><br/><strong>Price</strong> 75 gp (combat trained), 50 gp (common); <strong>Weight</strong> 50 lbs. (combat trained), 50 lbs. (common)</p>
+<p>Horses, ponies, and other draft animals are ill-suited to living underground for long stretches, so the <Link to="/race/ratfolk">ratfolk</Link> bred a particularly strong type of dire rat to assist in pulling their wagons and serving as mounts for caravan scouts. As rodents, riding rats respond favorably to ratfolk's commands, and the animals' hardiness and omnivorous diet make them very easy to care for even on long journeys through inhospitable terrain. Use the statistics for a <Link to="/monster/dire_rat">dire rat</Link> with the <Link to="/template/giant">giant</Link> simple template. A ratfolk with the animal companion, mount, or similar class feature can select a riding rat as her mount.</p>
+</>};
+const _ritual_bell = {title: "Ritual bell", jsx: <><h2 id="eq-misc-ritual_bell-ritual-bell">Ritual bell</h2>
+<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link><br/><strong>Price</strong> 2 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This large, handheld silver bell has a long wooden handle. Ritual bells are typically used for ceremonial purposes, often as a means of getting the attention of large audiences. Each ritual bell is specifically engraved, often denoting its origin with a particular cult or sect.</p>
+</>};
+const _ritual_disk = {title: "Ritual disk", jsx: <><h2 id="eq-misc-ritual_disk-ritual-disk">Ritual disk</h2>
+<p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 28</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Tools</p>
+<p>This simple disk, usually carved from stone or fashioned from metal, is engraved with a portion of a specific religious rite or ritual. A single disk details only part of a ritual, requiring multiple followers to bring their disks together to obtain a complete set of instructions.</p>
+</>};
+const _road_or_gate_toll = {title: "Road or gate toll", jsx: <><h2 id="eq-misc-road_or_gate_toll-road-or-gate-toll">Road or gate toll</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link><br/><strong>Price</strong> 1 cp; <strong>Weight</strong> -<br/><strong>Category</strong> Lodging/Services</p>
+<p>Cities and towns often use gate tolls to generate additional income, to favor local sellers over visiting merchants, to discourage heavy traffic in congested areas, or to recoup the cost of constructing and maintaining the road or gate. Bridge tolls are also popular, as most travelers have no easy way to circumvent them.</p>
+</>};
+const _roar_cord = {title: "Roar cord", jsx: <><h2 id="eq-misc-roar_cord-roar-cord">Roar cord</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 66</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Tools</p>
+<p>This thin length of rope has many oddly shaped bits of hollow metal fixed along its length. As a standard action, a creature can swing a roar cord over its head to generate a variety of eerie noises. For the next round, any creature within 60 feet of the roar cord takes a -2 penalty on Perception checks that rely on sound and a -1 penalty on saving throws against fear effects. The roar cord can be used as a bardic instrument (string) that grants the bard a +2 bonus on Perform checks when using the <Link to="/performance/countersong">countersong</Link> bardic performance.</p>
+</>};
+const _rockshard_canister = {title: "Rockshard canister", jsx: <><h2 id="eq-misc-rockshard_canister-rockshard-canister">Rockshard canister</h2>
+<p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 21</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 25 lbs.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>Two separate compartments make up this black glass canister the size of a helmet. The large lower compartment contains hundreds of jagged shards of obsidian. The upper airtight chamber contains a sticky resin that hardens immediately upon contact with air. When you strike the canister with a bludgeoning melee weapon as a standard action, both compartments shatter, causing the obsidian shards to adhere to the weapon. The weapon deals piercing damage rather than bludgeoning damage for 10 minutes, at which point the resin dries and the shards fall off, or until you roll a natural 1 on an attack roll, which causes the shards to break off prematurely. If the weapon is made of a special material, the special properties of its material are suppressed while the obsidian shards adhere to the weapon.</p>
+<p>If you use a rockshard canister to coat an unarmed strike or natural weapon, you take 2d6 points of piercing damage when shattering the canister to apply the shards. For unarmed attacks, this can be avoided by carefully applying thick leather or rope straps to your hands and feet, which requires 5 minutes of work, prior to smashing the canister.</p>
+</>};
+const _rogues_kit = {title: "Rogue's kit", jsx: <><h2 id="eq-misc-rogues_kit-rogues-kit">Rogue's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 37 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit includes a <Link to="/eq-misc/backpack">backpack</Link>, a <Link to="/eq-misc/bedroll">bedroll</Link>, a <Link to="/eq-misc/belt_pouch">belt pouch</Link>, <Link to="/eq-misc/caltrops">caltrops</Link>, <Link to="/eq-misc/chalk">chalk</Link> (10), a <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, a <Link to="/eq-misc/grappling_hook">grappling hook</Link>, an <Link to="/eq-misc/iron_pot">iron pot</Link>, a <Link to="/eq-misc/mess_kit">mess kit</Link>, a <Link to="/eq-misc/mirror">mirror</Link>, <Link to="/eq-misc/piton">pitons</Link> (10), <Link to="/eq-misc/rope">rope</Link>, <Link to="/eq-misc/soap">soap</Link>, <Link to="/eq-misc/thieves_tools">thieves' tools</Link>, <Link to="/eq-misc/torches">torches</Link> (10), <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), and a <Link to="/eq-misc/waterskin">waterskin</Link>.</p>
+</>};
+const _rope_50_ft = {title: "Rope (50 ft.)", jsx: <><h2 id="eq-misc-rope_50_ft-rope-50-ft">Rope (50 ft.)</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This 50-foot length of hemp rope has 2 hit points and can be burst with a DC 23 Strength check.</p>
+</>};
+const _rope_recaller = {title: "Rope recaller", jsx: <><h2 id="eq-misc-rope_recaller-rope-recaller">Rope recaller</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 13</Link><br/><strong>Price</strong> 250 gp; <strong>Weight</strong> 30 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This large, portable spool of rope or cord contains a clockwork mechanism to reel the rope back in. You can unspool the rope from the mechanism at a rate of 30 feet per round. Activating the mechanism as a move action causes the rope to retract at a rate of 100 feet per round, pulling up to 200 pounds of attached weight. The mechanism works more slowly with increased weight, retracting the rope at a rate of 50 feet per round with more than 200 pounds but up to 300 pounds of attached weight. Weight in excess of 300 pounds prevents the mechanism from functioning. A rope recaller is sold with 100 feet of hemp rope already attached, but can hold up to 1,000 feet of rope. Replacing or adding rope to the device requires 1 minute of work for every 100 feet of rope.</p>
+</>};
+const _roperunner = {title: "Roperunner", jsx: <><h2 id="eq-misc-roperunner-roperunner">Roperunner</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Tools</p>
+<p>You can place this metal contraption onto a taut section of a <Link to="/eq-misc/rope">rope</Link> connecting a high point to a lower one, allowing you to slide down the length of the rope with ease. Using a roperunner requires only one hand, leaving the other hand free during the descent. Attaching the roperunner to a rope is a move action. Beginning the descent is a swift action. You slide down the rope at a rate of 60 feet per round. This requires no action on your part, but you must move along the length of the rope in the downward direction. Retrieving the roperunner once you have come to a stop at the end of the rope is a move action. You can let go of the roperunner as a free action.</p>
+</>};
+const _rounders_gear = {title: "Rounders gear", jsx: <><h2 id="eq-misc-rounders_gear-rounders-gear">Rounders gear</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link><br/><strong>Price</strong> 1 sp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Entertainment</p>
+<p>Players of this game divide into teams and alternate hitting a small, leather-encased ball with a wooden bat. They run around a field to various safe bases, scoring points when a player completes a circuit through all four bases. The set includes two balls, two bats, and four cloth-stuffed canvas bases.</p>
+</>};
+const _rowboat = {title: "Rowboat", jsx: <><h2 id="eq-misc-rowboat-rowboat">Rowboat</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link><br/><strong>Price</strong> 50 gp; <strong>Price of Passage</strong> (per mile) 2 cp<br/><strong>Category</strong> Transport, Sea</p>
+<p>This 8- to 12-foot-long boat with two <Link to="/eq-misc/oar">oars</Link> holds two or three Medium passengers, and is either carried on the deck of a larger ship or moored to a dock onshore. A <Link to="/rule/wv_rowboat">rowboat</Link> moves about 1-1/2 miles per hour.</p>
+</>};
+const _royal_outfit = {title: "Royal outfit", jsx: <><h2 id="eq-misc-royal_outfit-royal-outfit">Royal outfit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 15 lbs.<br/><strong>Category</strong> Clothing</p>
+<p>Royal clothes are ostentatious, with gems, gold, silk, and fur in abundance. A royal outfit is rarely designed for regular wear or inclement weather - or even for donning unaided - as it's presumed that anyone who might be wearing it has plenty of servants to take care of his or her every need. This outfit includes only the clothing, not a royal scepter, crown, ring, or other regal accoutrements.</p>
+<p><strong>Tear-away clothing</strong><br/><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> +5 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Clothing</p>
+<p>Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is generally loose fitting and allows another layer of clothing to be worn underneath. The seams on this clothing are designed to break easily, making it a simple matter (a standard action) to remove these items and walk away with none the wiser. Any outfit can be crafted as tear-away clothing for an additional price.</p>
+</>};
+const _rumboozle_cup = {title: "Rumboozle (cup)", jsx: <><h2 id="eq-misc-rumboozle_cup-rumboozle-cup">Rumboozle (cup)</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 1 sp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Food/Drink</p>
+<p>A potent drink featuring rum, wine, ale, eggs, sugar, and spices, rumboozle is served warm in finer taverns.</p>
+</>};
+const _rust_repellent = {title: "Rust repellent", jsx: <><h2 id="eq-misc-rust_repellent-rust-repellent">Rust repellent</h2>
+<p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions pg. 17</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This waxy paste preserves metal objects against rust. One application coats a Medium or smaller metal object or creature and lasts 24 hours, granting it a +2 circumstance bonus on saving throws against rusting effects and reduces amount of damage dealt by rusting attacks by 5. A jar of rust repellent contains 5 applications.</p>
+</>};
+const _rusting_powder = {title: "Rusting powder", jsx: <><h2 id="eq-misc-rusting_powder-rusting-powder">Rusting powder</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link><br/><strong>Price</strong> 60 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This flaky brown powder derived from <Link to="/monster/rust_monster">rust monster</Link> fluids causes iron and similar metals to corrode and fall apart. If you apply a dose of rusting powder to a metal lock or trap as part of using the Disable Device skill, you gain a +5 alchemical bonus to open the lock or disable the trap, but there is a 75% chance that the mechanism is destroyed and cannot be used afterward. If the check fails, the mechanism is destroyed. A destroyed lock cannot be unlocked (but still counts as locked for the purpose opening the locked object). A destroyed trap mechanism immediately triggers the trap. If you fail the DC by 5 or more, the powder also lands on an object in your square (including possibly your armor or weapon), dealing 5 hit points of damage to the object.</p>
+<p>Rusting powder is sold in a paper tube; you apply it by tearing the ends off the tube and blowing the flakes into the target device. Rusting powder does not affect <Link to="/eq-material/gold">gold</Link>, silver, copper, <Link to="/eq-material/bronze">bronze</Link>, brass, or <Link to="/eq-material/mithral">mithral</Link>, but easily affects iron, steel, and <Link to="/eq-material/adamantine">adamantine</Link>.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+</>};
+const _sack = {title: "Sack", jsx: <><h2 id="eq-misc-sack-sack">Sack</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 1 sp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This heavy canvas sack, useful for carrying adventuring gear and other supplies, holds about 4 cubic feet. A leather thong threaded through loops at the bag's end allows it to be tied shut easily.</p>
+</>};
+const _saddle_exotic_military = {title: "Saddle (exotic, military)", jsx: <><h2 id="eq-misc-saddle_exotic_military-saddle">Saddle</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link><br/><strong>Price</strong> 60 gp (exotic, military), 15 gp (exotic, pack), 30 gp (exotic, riding), 20 gp (military), 5 gp (pack), 10 gp (riding); <strong>Weight</strong> 40 lbs. (exotic, military), 20 lbs. (exotic, pack), 30 lbs. (exotic, riding), 30 lbs. (military), 15 lbs. (pack), 25 lbs. (riding)</p>
+<p>Saddles are used to support a rider or supplies on a mount.</p>
+<p><strong>Military Saddle:</strong> This saddle braces the rider, providing a +2 circumstance bonus on Ride checks related to staying in the saddle. If the rider is knocked unconscious while in a military saddle, he has a 75% chance to stay in the saddle.</p>
+<p><strong>Pack Saddle:</strong> A pack saddle holds gear and supplies, but not a rider. It holds as much gear as the mount can carry.</p>
+<p><strong>Riding Saddle:</strong> These saddles are the most pervasive type of riding equipment. If the rider is knocked unconscious while in a riding saddle, he has a 50% chance to stay in the saddle.</p>
+<p><strong>Exotic Saddle:</strong> These saddles are designed for a variety of unusual mounts, each customized for a specific type of beast. Exotic saddles come in military, pack, and riding styles, just as normal saddles do, and have the same traits.</p>
+</>};
+const _saddlebags = {title: "Saddlebags", jsx: <><h2 id="eq-misc-saddlebags-saddlebags">Saddlebags</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link><br/><strong>Price</strong> 4 gp; <strong>Weight</strong> 8 lbs.<br/><strong>Category</strong> Animal Gear</p>
+<p>These sturdy, weatherproof bags are draped over a saddle to add extra carrying capacity. Each side of a saddlebag can typically carry 20 pound of items that can fit in the bags. Saddlebags do not increase the amount of weight a mount can carry; they merely give riders a place to stow their equipment.</p>
+</>};
+const _sailing_ship = {title: "Sailing ship", jsx: <><h2 id="eq-misc-sailing_ship-sailing-ship">Sailing ship</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link><br/><strong>Price</strong> 10,000 gp; <strong>Price of Passage</strong> (per mile) 2 sp<br/><strong>Category</strong> Transport, Sea</p>
+<p>This large, seaworthy ship is 75 to 90 feet long, 20 feet wide, and has a crew of 20. It can carry 150 tons of cargo. It has square sails on its two masts and can make sea voyages. A <Link to="/rule/wv_sailing_ship">sailing ship</Link> moves about 2 miles per hour.</p>
+</>};
+const _salt_tablets_10 = {title: "Salt tablets (10)", jsx: <><h2 id="eq-misc-salt_tablets_10-salt-tablets-10">Salt tablets (10)</h2>
+<p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands pg. 28</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>These tablets of pressed salt help stave off <Link to="/rule/starvation_and_thirst">dehydration</Link>. Taking a salt tablet once every 24 hours grants you a +2 circumstance bonus on saving throws to avoid <Link to="/rule/heat_dangers">heatstroke</Link> and on Constitution checks to avoid thirst.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 10</p>
+</>};
+const _samsaran_life_wheel = {title: "Samsaran life wheel", jsx: <><h2 id="eq-misc-samsaran_life_wheel-samsaran-life-wheel">Samsaran life wheel</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 199</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Tools</p>
+<p>This handheld wooden spool spins freely within a box-like housing. Inscribed upon the exterior of the spool are dozens of samsaran prayers along with names or symbols associated with a samsaran's past lives. <Link to="/race/samsaran">Samsarans</Link> believe that spinning the wheel during meditation strengthens the spiritual connections between their former lives. If a samsaran meditates with her wheel for at least 10 minutes about a Knowledge (history) question relating to her own history or the histories of her past lives, she gains a +1 insight bonus on the check.</p>
+</>};
+const _sanctified_rings_pair = {title: "Sanctified rings (pair)", jsx: <><h2 id="eq-misc-sanctified_rings_pair-sanctified-rings-pair">Sanctified rings (pair)</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 25</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Channel Foci<br/><strong>Deity</strong> Any</p>
+<p>A single tiny religious symbol adorns each ring in this matched pair. If two people each wear one of the rings and clasp hands, a cleric may activate both rings with one use of <Link to="/ability/channel_energy">channel energy</Link>. If the person wearing one of these rings dies or removes it, the other ring instantly cracks; the wearer of the broken ring knows if it cracked because the other wearer died or the ring was removed.</p>
+</>};
+const _sangwine = {title: "Sangwine", jsx: <><h2 id="eq-misc-sangwine-sangwine">Sangwine</h2>
+<p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 8</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Food/Drink</p>
+<p>This deep red wine is highly tannic and has notes of currants and cocoa and an aroma of cedar. Sangwine is a favorite of Caliphas's elite, who associate drinking it with long life. Drinking a glass of sangwine takes at least 1 round, though many imbibers take longer to savor the wine's complex flavors. After drinking a glass, the wine gives the drinker's blood a bitter flavor for 1 hour, causing any creature that deals damage using the <Link to="/umr/blood_drain">blood drain</Link> extraordinary ability to become <Link to="/misc/sickened">sickened</Link> for a number of rounds equal to the points of Constitution damage dealt (this effect is not subject to the poison immunity of vampires and other undead). Repeated uses of the blood drain ability on a creature that has imbibed at least one glass of sangwine extends the duration of the sickened condition. The price listed is for a bottle, which contains six glasses' worth of sangwine.</p>
+</>};
+const _saw = {title: "Saw", jsx: <><h2 id="eq-misc-saw-saw">Saw</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link><br/><strong>Price</strong> 4 cp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Saws can take many different shapes, from small carpentry saws to the long, two-handled saws used by lumberjacks. You can insert a saw between a door and its frame to cut through wooden bolts or bars, dealing 5 hit points per round plus your Strength modifier to the sawed object as a full-round action. Hearing the sawing requires a successful DC 10 Perception check. Saws used to cut ice on rivers have a point on the end to break through the ice before cutting.</p>
+</>};
+const _scarf_pocketed = {title: "Scarf (pocketed)", jsx: <><h2 id="eq-misc-scarf_pocketed-scarf">Scarf</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends pg. 15</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 213</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide pg. 12</Link>, <Link to="/source/rise_of_the_runelords_players_guide">Rise of the Runelords Player's Guide pg. 11</Link><br/><strong>Price</strong> 8 gp (pocketed), 10 gp (reinforced); <strong>Weight</strong> 1/2 lb. (pocketed), 1 lb. (reinforced)</p>
+<p><strong>Pocketed:</strong> An elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on Sleight of Hand checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.</p>
+<p><strong>Reinforced:</strong> One side of this 8-foot-long scarf is reinforced with chain links and metal plates. While not enough to provide a benefit to Armor Class, these versatile scarves can be used like a length of chain to climb short distances or bind an enemy. A reinforced scarf has hardness 10 and 4 hit points. It can be burst with a successful DC 24 Strength check.</p>
+</>};
+const _scarf = {title: "Scarf", jsx: <><h2 id="eq-misc-scarf-scarf">Scarf</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends pg. 15</Link><br/><strong>Price</strong> 1 sp-5 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Clothing</p>
+<p>Entertainers often employ seductive garb and entrancing props in their performances. Scarves of colorful cloth or transparent silk, often embroidered with elaborate scenes or motifs, are favorite accessories.</p>
+</>};
+const _scarsalve = {title: "Scarsalve", jsx: <><h2 id="eq-misc-scarsalve-scarsalve">Scarsalve</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 84</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>This alchemical substance, originally developed by secretive worshipers of <Link to="/faith/zon_kuthon">Zon-Kuthon</Link> to hide the marks of their devotion, has become popular among former <Link to="/rule/gray_maidens">Gray Maidens</Link>. When applied to scarred areas of the body, scarsalve causes those scars to fade from view for 1 day. A character who gains benefits from having visible scars loses those benefits while under the effects of scarsalve, but she also gains a +2 alchemical bonus on Disguise checks.</p>
+</>};
+const _scavenger_beetle_colony = {title: "Scavenger beetle colony", jsx: <><h2 id="eq-misc-scavenger_beetle_colony-scavenger-beetle-colony">Scavenger beetle colony</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link><br/><strong>Price</strong> 3 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>This glass jar contains a colony of carnivorous scavenger beetles. The beetles must be fed at least a quarter pound of meat per day or they die. When released on a dead organism, they break it down and devour its flesh in 1d4 days, leaving only bones. Scavenger beetles eat only dead flesh, and can't harm living creatures. Once released, the beetles can't be returned to the jar.</p>
+</>};
+const _scent_blocker = {title: "Scent blocker", jsx: <><h2 id="eq-misc-scent_blocker-scent-blocker">Scent blocker</h2>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 9</Link><br/><strong>Price</strong> 80 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This alchemical oil takes 1 minute to apply and completely masks your odor for 6 hours. Creatures can't use the <Link to="/umr/scent">scent</Link> ability to track you, detect your presence, or pinpoint your location. A single dose of scent blocker covers a Medium or smaller creature. For each size category larger than Medium a creature is, double the number of doses (and application time) required. Crafting scent blocker requires a successful DC 23 Craft (alchemy) check.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 23</p>
+</>};
+const _scent_cloak = {title: "Scent cloak", jsx: <><h2 id="eq-misc-scent_cloak-scent-cloak">Scent cloak</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This collection of coarsely ground spices, seeds, musk, and alchemical reagents are meant to be rubbed into your skin and clothes in order to override your scent, increasing the DC of tracking you by scent by +10 for 24 hours. Because you still have a smell, creatures with <Link to="/umr/scent">scent</Link> can still detect and pinpoint you if you are cloaked; they just can't identify your smell as something unique. Washing for 1 full round removes the scent cloak.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _scent_salts = {title: "Scent salts", jsx: <><h2 id="eq-misc-scent_salts-scent-salts">Scent salts</h2>
+<p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 56</Link><br/><strong>Price</strong> 1 sp; <strong>Weight</strong> -<br/><strong>Category</strong> Entertainment</p>
+<p>Stored in a waterproof pouch, these salt crystals dissolve slowly in water, producing a pleasing scent in the nearby water for roughly 1 hour.</p>
+</>};
+const _scentbane_incense = {title: "Scentbane incense", jsx: <><h2 id="eq-misc-scentbane_incense-scentbane-incense">Scentbane incense</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 37</Link><br/><strong>Price</strong> 80 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>Scentbane incense is a form of <Link to="/eq-misc/smokestick">smokestick</Link> that also blocks most scents. As long as the smoke lasts, creatures with the <Link to="/umr/scent">scent</Link> special ability must make Perception checks, opposed by the Stealth checks of any creatures within the smoke, to use scent to locate creatures within the smoke. If a creature remains in scentbane incense for 5 rounds or more, the smoke clings to it for 1 round after it leaves, making it similarly difficult to find by scent during that time.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _scholars_outfit = {title: "Scholar's outfit", jsx: <><h2 id="eq-misc-scholars_outfit-scholars-outfit">Scholar's outfit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 6 lbs.<br/><strong>Category</strong> Clothing</p>
+<p>Perfect for a scholar, this outfit includes a robe, a belt, a cap, soft shoes, and possibly a cloak.</p>
+<p><strong>Tear-away clothing</strong><br/><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> +5 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Clothing</p>
+<p>Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is generally loose fitting and allows another layer of clothing to be worn underneath. The seams on this clothing are designed to break easily, making it a simple matter (a standard action) to remove these items and walk away with none the wiser. Any outfit can be crafted as tear-away clothing for an additional price.</p>
+</>};
+const _scorpion_greensting = {title: "Scorpion (greensting)", jsx: <><h2 id="eq-misc-scorpion_greensting-scorpion-greensting">Scorpion (greensting)</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> 9 oz.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>Typically found in forested areas, these Tiny scorpions sport pincers too small to be dangerous to anything larger than an insect, but they still possess a poisonous stinger. Sometimes they are kept as pets or serve as familiars. Greensting scorpions employed as familiars have an Intelligence score and lose the mindless trait.</p>
+</>};
+const _scribe_map = {title: "Scribe (map)", jsx: <><h2 id="eq-misc-scribe_map-scribe">Scribe</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link><br/><strong>Price</strong> 10 gp (map), 1 gp (text); <strong>Weight</strong> - (map), - (text)</p>
+<p>A scribe is a literate person with clear handwriting who can take dictation or transcribe text documents. You must provide ink and writing materials, though the scribe can acquire these for you at half price. Scribes cannot copy magical writing. A scribe who can accurately copy a map is rare and demands a higher wage. The listed price is per day.</p>
+</>};
+const _scriveners_kit = {title: "Scrivener's kit", jsx: <><h2 id="eq-misc-scriveners_kit-scriveners-kit">Scrivener's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link><br/><strong>Price</strong> 2 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Kits</p>
+<p>This soft leather case contains a vial for holding <Link to="/eq-misc/ink">ink</Link>, an <Link to="/eq-misc/inkpen">ink pen</Link>, spare pen nibs, a small container of pigment for making ink, a tiny knife for cutting quills into pens, a blotter, and a small ruler.</p>
+</>};
+const _scroll_belt = {title: "Scroll belt", jsx: <><h2 id="eq-misc-scroll_belt-scroll-belt">Scroll belt</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 234</Link><br/><strong>Price</strong> 3 sp; <strong>Weight</strong> varies<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This garment is specially designed to have a single spell scribed on the inside of its surface, hidden from prying eyes. Infiltrators and spies often use scroll belts to secure extra magical means of escape when the remainder of their equipment is taken during capture. The belt is reusable, though the normal costs and time required to scribe a spell on the belt for each new spell apply. You must remove the belt and hold it in a free hand in order to use the scroll.</p>
+</>};
+const _scroll_box = {title: "Scroll box", jsx: <><h2 id="eq-misc-scroll_box-scroll-box">Scroll box</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This wooden box easily holds 10 scrolls and has small clips or bookmarks for easier indexing. Retrieving a scroll from a held scroll box is a move action. A scroll box has hardness 5, 5 hit points, a break DC of 20. A scroll box is water-tight.</p>
+</>};
+const _scroll_case = {title: "Scroll case", jsx: <><h2 id="eq-misc-scroll_case-scroll-case">Scroll case</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>A leather or wooden scroll case easily holds four scrolls; you can cram more inside, but retrieving any of them becomes a full-round action rather than a move action. You must destroy the scroll case to damage its contents (hardness 2 for leather or 5 for wood, 2 hit points, break DC 15). A scroll case is not watertight, and must still be protected from the elements.</p>
+</>};
+const _scroll_case_spring_loaded = {title: "Scroll case, spring loaded", jsx: <><h2 id="eq-misc-scroll_case_spring_loaded-scroll-case-spring-loaded">Scroll case, spring loaded</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 13</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This specialized scroll case can hold a single scroll and features a leather strap to hang the case from a belt or backpack. Retrieving the scroll held within is a swift action. Preparing the case for this use requires cranking the case's tiny gears and springs into place (a full-round action that provokes an attack of opportunity).</p>
+</>};
+const _sealing_wax = {title: "Sealing wax", jsx: <><h2 id="eq-misc-sealing_wax-sealing-wax">Sealing wax</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This stick of red wax is used to seal envelopes, often using an impression from a <Link to="/eq-misc/signet_ring">signet ring</Link> as proof they were sent by you.</p>
+</>};
+const _sealord_wine_bottle = {title: "Sealord wine (bottle)", jsx: <><h2 id="eq-misc-sealord_wine_bottle-sealord-wine-bottle">Sealord wine (bottle)</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Food/Drink</p>
+<p>These red and white wines grown in certain coastal vineyards have a sweet-tart flavor valued by nobles in many lands.</p>
+</>};
+const _seance_kit = {title: "Seance kit", jsx: <><h2 id="eq-misc-seance_kit-seance-kit">Seance kit</h2>
+<p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 13</Link><br/><strong>Price</strong> 290 gp; <strong>Weight</strong> 12 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This stained mahogany box contains tools that aid in contacting supernatural beings either as part of an act or a genuine ritual. This kit includes a nonmagical <Link to="/eq-misc/spirit_planchette_set">spirit planchette set</Link>, 10 <Link to="/eq-misc/candles">candles</Link>, 10 <Link to="/eq-misc/candlestick">candlesticks</Link>, one <Link to="/eq-misc/entertainers_outfit">entertainer's outfit</Link>, one <Link to="/eq-misc/harrow_deck">harrow deck</Link>, one <Link to="/eq-misc/magnet">magnet</Link>, 10 sticks of <Link to="/eq-misc/incense">incense</Link>, one scroll of <Link to="/spell/augury">augury</Link>, and two scrolls of <Link to="/spell/prestidigitation">prestidigitation</Link>.</p>
+</>};
+const _second_story_harness = {title: "Second-story harness", jsx: <><h2 id="eq-misc-second_story_harness-second-story-harness">Second-story harness</h2>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_61_shards_of_sin">Pathfinder #61: Shards of Sin pg. 65</Link><br/><strong>Price</strong> 55 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>A second-story harness is a series of straps, trusses, and buckles that can be worn over clothing or armor. A second-story harness allows the wearer to, as a move action, secure herself in place on a vertical surface so that both her hands are free. The wearer can remain in this position without needing to make additional Climb checks, and does not lose her Dexterity bonus to AC as long as she remains anchored. As long as the wearer is anchored in this way, she cannot move and gains a +5 circumstance bonus on Climb checks made to avoid falling whenever she takes damage. The wearer can release herself to start moving again as a move action. A second-story harness costs 55 gp and weighs 3 pounds.</p>
+</>};
+const _seeing_slime = {title: "Seeing Slime", jsx: <><h2 id="eq-misc-seeing_slime-seeing-slime">Seeing Slime</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 155</Link><br/><strong>Price</strong> 160 gp; <strong>Weight</strong> -<br/><strong>Category</strong> <Link to="/rule/herbalism">Herbs</Link><br/><strong>Gather</strong> DC 19; <strong>Yield</strong> 1 dose<br/><strong>Terrain</strong> any underground<br/><strong>Preparation</strong> After collecting this rare slime mold from where it naturally occurs in the lightless depths, the herbalist must combine the slime with mineral salts and store it in an airtight container such as a bottle or jar.<br/><strong>Use</strong> The slime causes mild skin rashes, but it grants darkvision out to a range of 30 feet for 24 hours if applied to the eyes (a full-round action that provokes attacks of opportunity). If the subject already had darkvision, the darkvision's range increases by 30 feet. Frequent use of this herb causes permanent purple blotches on the skin around the user's eyes.</p>
+<p>This violet slime mold is found only in rock formations containing nodules of agate.</p>
+</>};
+const _semblance_transfusion = {title: "Semblance transfusion", jsx: <><h2 id="eq-misc-semblance_transfusion-semblance-transfusion">Semblance transfusion</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 15</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>When combined with a drop of a humanoid's blood, this solution allows the <Link to="/monster/homunculus">homunculus</Link> that drinks it to grow to size Small and assume the likeness of the subject whose blood was used. If the homunculus can speak, its voice changes to resemble that of the subject. The homunculus's space and reach become 5 feet and it loses its bite attack, but otherwise its statistics remain unchanged. This transformation lasts 24 hours. The homunculus gains a +10 circumstance bonus on Disguise checks to appear as the subject, but unless the subject is a halfling, a gnome, a child, or another Small humanoid, the homunculus is likely shorter than the subject.</p>
+<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (110 magnesium + 200 silver + 100 spirit of wine)/distillation; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 1 day; <strong>Tools</strong> <Link to="/eq-misc/retort">retort</Link>; <strong>Type</strong> alchemical remedy</p>
+</>};
+const _sentry_mannequin_masterwork = {title: "Sentry mannequin (masterwork)", jsx: <><h2 id="eq-misc-sentry_mannequin_masterwork-sentry-mannequin-masterwork">Sentry mannequin (masterwork)</h2>
+<p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 21</Link><br/><strong>Price</strong> 80 gp; <strong>Weight</strong> 35 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This sentry mannequin is designed to seem more lifelike than its common counterpart. After 5 minutes of assembly and coverage with the included loose hood and baggy clothing, this wire frame looks like a vigilant humanoid figure. It has pivoted joints with counterweights that move it in ways reminiscent of an alert guard every few rounds for 8 hours after it's set up. Creatures more than 30 feet from the mannequin must succeed at a DC 15 Perception check to realize it's not someone standing watch.</p>
+</>};
+const _sentry_mannequin = {title: "Sentry mannequin", jsx: <><h2 id="eq-misc-sentry_mannequin-sentry-mannequin">Sentry mannequin</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> 35 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>After 5 minutes of assembly and coverage with the included loose hood and baggy clothing, this wooden frame looks like a vigilant humanoid figure. Creatures more than 30 feet distant from it must succeed at a DC 10 Perception check in order to realize it is not someone standing watch.</p>
+</>};
+const _sentry_seeds = {title: "Sentry seeds", jsx: <><h2 id="eq-misc-sentry_seeds-sentry-seeds">Sentry seeds</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 234</Link><br/><strong>Price</strong> 7 gp; <strong>Weight</strong> 1/2 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Sentry seeds are small, hollow, ovoid glass beads with flat sides. A specially crafted pouch, containing enough seeds to fill eight 5-foot squares, allows the user to evenly scatter these seeds across any flat, hard, mostly level surface. When stepped upon, the glass beads break with audible pops (Perception DC 10), warning of potential intruders. Although they are easy to see in the light (Perception DC 10), sentry seeds are difficult to spot in <Link to="/rule/dim_light">dim light</Link> or darkness (Perception DC 20).</p>
+</>};
+const _serpent_line = {title: "Serpent line", jsx: <><h2 id="eq-misc-serpent_line-serpent-line">Serpent line</h2>
+<p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands pg. 28</Link><br/><strong>Price</strong> 12 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This 30-foot length of rope is braided with musk-cured strips of snakeskin from a variety of desert serpents, and is typically laid out in a 5-foot-radius circle around the edge of a tent or around a sleeping creature. When it's laid out in this way, common snakes crawling across the desert floor often mistake the serpent line for another snake and shy away from crossing it. Ordinary venomous snakes approaching a serpent line must succeed at a DC 10 Will save or turn away from it, though if they notice potential prey within the serpent line, they may continue to lurk nearby. At the GM's discretion, an exceptionally aggressive or hungry snake may gain a +2 circumstance bonus on its saving throw. Snakes that are magically controlled ignore a serpent line.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _serrated_caltrops = {title: "Serrated caltrops", jsx: <><h2 id="eq-misc-serrated_caltrops-serrated-caltrops">Serrated caltrops</h2>
+<p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 21</Link><br/><strong>Price</strong> 451 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Often used by ogres, bugbears, and other creatures that delight in causing excruciating pain to others, these caltrops have serrated edges that leave rough wounds that are difficult to heal. Serrated caltrops work just like normal <Link to="/eq-misc/caltrops">caltrops</Link>, except they are considered <Link to="/rule/masterwork_weapons">masterwork weapons</Link> (+1 bonus on attack rolls), deal 1 point of <Link to="/rule/bleed">bleed</Link> damage on a successful hit in addition to the caltrop's usual damage, and possess a critical threat range of 19-20. On a confirmed critical hit, the bleed damage increases to 1d2 points. A successful DC 15 Heal check or any amount of magical healing ends the bleeding as well as the normal movement penalty a caltrop causes. Serrated caltrops can be further enchanted as per melee weapons, treating one 2-pound bag as a single melee weapon. If any of the magic caltrops are lost, all the caltrops lose any magic abilities until the missing caltrops are returned or replaced. Serrated caltrops can't have the <Link to="/eq-misc/hollow_caltrops">hollow</Link> special feature or the <Link to="/eq-misc/shrapnel_caltrops">shrapnel</Link> special feature.</p>
+</>};
+const _sewing_needle = {title: "Sewing needle", jsx: <><h2 id="eq-misc-sewing_needle-sewing-needle">Sewing needle</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 5 sp; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This needle allows you to stitch together cloth, canvas, or thin leather.</p>
+</>};
+const _sextant = {title: "Sextant", jsx: <><h2 id="eq-misc-sextant-sextant">Sextant</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>, <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 21</Link><br/><strong>Price</strong> 500 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>A sextant is used to determine your latitude. Using a sextant with an <Link to="/eq-misc/astrolabe">astrolabe</Link> gives you a +4 circumstance bonus on Survival checks made to prevent getting lost.</p>
+</>};
+const _shadow_stencil_set = {title: "Shadow stencil set", jsx: <><h2 id="eq-misc-shadow_stencil_set-shadow-stencil-set">Shadow stencil set</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 211</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This set of 10 elaborate metal stencils are used in shadow puppetry to cast shadows of highly stylized figures and objects. If used to aid in the creation of any type of shadow spell or effect (including <Link to="/arc-bard/shadow_puppeteer">shadow puppet</Link> bardic performances), a <Link to="/race/wayang">wayang</Link> adds a +1 competence bonus to her saving throw DC. Using a shadow stencil requires one hand.</p>
+</>};
+const _shadowy_stalker_package = {title: "Shadowy stalker package", jsx: <><h2 id="eq-misc-shadowy_stalker_package-shadowy-stalker-package">Shadowy stalker package</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 5</Link><br/><strong>Price</strong> 1000 gp; <strong>Weight</strong> 63 lbs.<br/><strong>Category</strong> Kits</p>
+<p>Skulking through a city or a dungeon, the shadowy stalker is equipped to strike quickly and fade away. This equipment package is appropriate for stealthy characters such as rangers, rogues, and slayers, and for some bards and investigators. If the PC can cast spells, add a spell component pouch.</p>
+<p><strong>Armor:</strong> <Link to="/rule/masterwork_a">masterwork</Link> <Link to="/eq-armor/leather_armor">leather armor</Link>.</p>
+<p><strong>Weapons:</strong> <Link to="/eq-weapon/dagger">Daggers</Link> (3), <Link to="/rule/masterwork_weapons">masterwork</Link> <Link to="/eq-weapon/sickle">sickle</Link>, <Link to="/eq-weapon/sap">sap</Link>.</p>
+<p><strong>Combat Gear:</strong> <Link to="/eq-weapon/alchemists_fire">Alchemist's fire</Link> (3), <Link to="/eq-misc/smokestick">smokesticks</Link> (2), <Link to="/eq-misc/sunrod">sunrods</Link> (2).</p>
+<p><strong>Other Gear:</strong> <Link to="/eq-misc/bedroll">Bedroll</Link>, <Link to="/eq-misc/belt_pouch">belt pouch</Link>, <Link to="/eq-misc/caltrops">caltrops</Link>, <Link to="/eq-misc/candles">candles</Link> (5), <Link to="/eq-misc/chalk">chalk</Link> (5 pieces), <Link to="/eq-misc/disguise_kit">disguise kit</Link>, <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, <Link to="/eq-misc/glass_cutter">glass cutter</Link>, <Link to="/eq-misc/masterwork_backpack">masterwork backpack</Link>, <Link to="/eq-misc/masterwork_thieves_tools">masterwork thieves' tools</Link>, <Link to="/eq-misc/mess_kit">mess kit</Link>, <Link to="/eq-misc/sack">sack</Link>, <Link to="/eq-misc/silk_rope_50_ft">silk rope (50 ft.)</Link>, <Link to="/magic-wondrous/sleeves_of_many_garments">sleeves of many garments</Link>, <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), <Link to="/eq-misc/waterskin">waterskin</Link>, 1 gp.</p>
+<p><strong>Total Weight:</strong> 63 lbs. (33-1/4 lbs. for a Small character).</p>
+</>};
+const _shamans_kit = {title: "Shaman's kit", jsx: <><h2 id="eq-misc-shamans_kit-shamans-kit">Shaman's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> 44 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit includes a <Link to="/eq-misc/backpack">backpack</Link>, a <Link to="/eq-misc/bedroll">bedroll</Link>, a <Link to="/eq-misc/belt_pouch">belt pouch</Link>, <Link to="/eq-misc/candles">candles</Link> (10), a <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, an <Link to="/eq-misc/iron_pot">iron pot</Link>, a <Link to="/eq-misc/mess_kit">mess kit</Link>, <Link to="/eq-misc/rope">rope</Link>, <Link to="/eq-misc/soap">soap</Link>, a <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link>, <Link to="/eq-misc/torches">torches</Link> (10), <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), a <Link to="/eq-misc/waterskin">waterskin</Link>, and a <Link to="/eq-misc/wooden_holy_symbol">wooden holy symbol</Link>.</p>
+</>};
+const _shamans_paint = {title: "Shaman's paint", jsx: <><h2 id="eq-misc-shamans_paint-shamans-paint">Shaman's paint</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 7</Link><br/><strong>Price</strong> 90 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>The ground carcasses of goldbelly stinkbugs - insects native to the Mindspin Mountains - give this paint its characteristic yellow hue. When applied as a full-round action, this fine paste makes your head glow as though with an unearthly halo. You gain a +2 alchemical bonus to your caster level for any spells you cast that target one or more of your allies. The quicksilver in shaman's paint is harmful to living creatures. If you wear shaman's paint for more than 1 minute per day, you take 1 point of <Link to="/rule/wisdom_damage">Wisdom damage</Link>, plus 1 point of Wisdom damage for every minute you wear the paint that day after the first.</p>
+<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (30 quicksilver + 25 saltpeter)/earth; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> -; <strong>Type</strong> alchemical tool</p>
+</>};
+const _shaving_kit = {title: "Shaving kit", jsx: <><h2 id="eq-misc-shaving_kit-shaving-kit">Shaving kit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 15 sp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Kits</p>
+<p>A shaving kit contains a straight razor, a <Link to="/eq-misc/whetstone">whetstone</Link>, a small <Link to="/eq-misc/mirror">mirror</Link>, a brush, a cup, and enough shaving powder to last a Medium humanoid 50 shaves.</p>
+</>};
+const _shears_adamantine = {title: "Shears (adamantine)", jsx: <><h2 id="eq-misc-shears_adamantine-shears">Shears</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 17</Link><br/><strong>Price</strong> 3,003 gp (adamantine), 3 gp (lopping), 5 sp (small); <strong>Weight</strong> 8 lbs. (adamantine), 8 lbs. (lopping), 1/2 lb. (small)</p>
+<p>Shears are used to quickly cut through items by snipping them between two sharp blades fitted with a spring to allow the jaws to open again after closing. Small shears can be used in one hand and are often used to trim hair, cut cloth, or perform other delicate cutting work. Lopping shears are 3 feet long and must be used in two hands; they are commonly used by farmers or gardeners to cut hedges and branches.</p>
+<p>Adamantine shears are lopping shears with sharpened <Link to="/eq-material/adamantine">adamantine</Link> blades that can snip through nearly any material. You can use adamantine shears to cut through bars, chains, grates, or similar items, dealing damage to such objects as though using a <Link to="/eq-weapon/scimitar">scimitar</Link> and bypassing hardness less than 20. On any item the adamantine shears can fit around (such as a chain or iron bar, but not an iron door), using adamantine shears provides a +10 bonus on your Strength check to break or burst it.</p>
+</>};
+const _sheep = {title: "Sheep", jsx: <><h2 id="eq-misc-sheep-sheep">Sheep</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 93</Link><br/><strong>Price</strong> 2-20 gp; <strong>Weight</strong> 150 lbs.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>These livestock animals are kept for their fur, meat, and hide, and can be found in virtually any civilized settlement. They are especially prized in colder environs, where their wool and hide can be used to make durable and highly insulated clothing. Sheep have the same statistics as <Link to="/monster/goat">goats</Link>.</p>
+</>};
+const _sherrifs_whistle = {title: "Sherrif's whistle", jsx: <><h2 id="eq-misc-sherrifs_whistle-sherrifs-whistle">Sherrif's whistle</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 37</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Used most often by <Link to="/race/gnome">gnome</Link> sheriffs and rangers, a sheriff's whistle gives off a piercing shriek that can easily be heard up to 1,000 feet away under ordinary circumstances. However, the frequency of the shriek is such that it can only be heard by badgers, dogs, and gnomes.</p>
+</>};
+const _shield_sconce = {title: "Shield sconce", jsx: <><h2 id="eq-misc-shield_sconce-shield-sconce">Shield sconce</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This metal frame holds a <Link to="/eq-misc/torch">torch</Link> and is designed to be strapped to the front of a light, heavy, or tower shield, allowing you to carry a torch without giving up your shield or occupying your weapon hand.</p>
+</>};
+const _shinobi_shozoku = {title: "Shinobi shozoku", jsx: <><h2 id="eq-misc-shinobi_shozoku-shinobi-shozoku">Shinobi shozoku</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 28</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Clothing</p>
+<p>This close-fitting bodysuit of soft, dark fabric is favored by ninja and assassins. When worn, it grants a +2 circumstance bonus on Stealth checks. Wearing armor with a base armor bonus higher than +1 negates this bonus, as does additional heavy clothing or equipment worn under the shinobi shozoku (at the GM's discretion).</p>
+</>};
+const _ships_boat = {title: "Ship's boat", jsx: <><h2 id="eq-misc-ships_boat-ships-boat">Ship's boat</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link><br/><strong>Price</strong> 500 gp; <strong>Price of Passage</strong> (per mile) 2 cp<br/><strong>Category</strong> Transport, Sea</p>
+<p>Ship's boats are usually carried on the decks of larger ships to ferry passengers and cargo.</p>
+</>};
+const _ships_passage = {title: "Ship's passage", jsx: <><h2 id="eq-misc-ships_passage-ships-passage">Ship's passage</h2>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link><br/><strong>Price</strong> -; <strong>Price of Passage</strong> (per mile) 1 sp<br/><strong>Category</strong> Transport, Sea</p>
+<p>Most ships do not specialize in passengers, but many have the capability to take a few along when transporting cargo. Double the given cost for creatures larger than Medium or creatures that are otherwise difficult to bring aboard a ship.</p>
+</>};
+const _shoddy_item = {title: "Shoddy item", jsx: <><h2 id="eq-misc-shoddy_item-shoddy-item">Shoddy item</h2>
+<p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 116</Link><br/><strong>Price</strong> varies; <strong>Weight</strong> varies<br/><strong>Category</strong> Adventuring Gear</p>
+<p>A shoddy item is any mundane piece of equipment that has been cleverly but poorly crafted such that its materials and workmanship are worse than expected, but the flaws are concealed. Layers of material are thinner than normal, hasps and hinges are only loosely attached, metals are mixed improperly, resulting in softer alloys, and so forth. Shoddy items are sold for the same price as their well-made counterparts. Manufacturing a shoddy item requires the <Link to="/feat/craft_shoddy_item">Craft Shoddy Item</Link> feat in order to successfully conceal the poor workmanship. Shoddy items are never masterwork or made of special materials (though they might appear to be made of a special material), and single-use items can never be made as shoddy items.</p>
+<p>Any shoddy item has its hardness reduced by 2 and its hit points reduced by half. Any weapon or piece of armor constructed in a shoddy manner takes damage each time it is used; a weapon takes the same amount of damage it deals in an attack (minus its lower hardness rating), and a piece of armor takes damage identical to its wearer's loss in hit points from an enemy's successful attack (again, after taking the adjusted hardness into account). Items other than weapons and armor have a 10% chance to gain the broken condition with each day of use, and if they have a limited number of uses, they have half as many uses as normal. In either case, shoddy items that gain the broken condition can never have that condition removed (even by using magic or if they later recover hit points) without further successful Craft checks and gp expenditure to fix the initial flaws. Shoddy items that are destroyed cannot be recovered by any means, and are useless for anything more than salvaging some of the raw materials. A shoddy item typically costs the same as a normal item of its kind.</p>
+<p>A character who succeeds at a DC 15 Appraise (or appropriate Craft) check notices the shoddy condition of an item, but the character must specifically inspect the item to do so.</p>
+</>};
+const _shovel_common = {title: "Shovel (common)", jsx: <><h2 id="eq-misc-shovel_common-shovel-or-spade">Shovel or Spade</h2>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link><br/><strong>Price</strong> 2 gp (common), 10 gp (folding); <strong>Weight</strong> 8 lbs. (common), 12 lbs. (folding)</p>
+<p>This tool lets you dig a pit at a rate of 2 cubic feet per minute. If a shovel is used in combat, treat it as a one-handed <Link to="/misc/improvised_weapon">improvised weapon</Link> that deals bludgeoning damage equal to that of a <Link to="/eq-weapon/club">club</Link> of its size.</p>
+<p><strong>Folding Shovel:</strong> A folding shovel is a full-sized shovel with a sturdy sectional handle that folds into pieces no longer than the shovel blade, allowing it to fit in a smaller space such as a backpack. Converting the shovel from its folded state to usable (or vice versa) is 2 full-round actions.</p>
+<blockquote>
+<p><em><Link to="/source/adventurers_armory">Adventurer's Armory pg. 20</Link> lists this as costing 2cp and weighing 3lbs. This is probably an error.</em></p>
+</blockquote>
+</>};
+const _shrapnel_caltrops = {title: "Shrapnel caltrops", jsx: <><h2 id="eq-misc-shrapnel_caltrops-shrapnel-caltrops">Shrapnel caltrops</h2>
+<p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 21</Link><br/><strong>Price</strong> 401 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Shrapnel caltrops shatter into fragments that embed themselves into a creature's body when stepped on. Shrapnel caltrops work just like normal <Link to="/eq-misc/caltrops">caltrops</Link>, except they are considered <Link to="/rule/masterwork_weapons">masterwork weapons</Link> (+1 bonus on attack rolls). Creatures damaged by a shrapnel caltrop must succeed at a DC 15 Reflex save or take 1d2 points of <Link to="/rule/dexterity_damage">Dexterity damage</Link> in addition to the caltrop's usual damage. The movement penalty inflicted by a shrapnel caltrop cannot be removed until all Dexterity damage dealt by the caltrop is healed, even if the creature receives magical healing or is treated with a successful Heal check. Shrapnel caltrops are destroyed after making one attack rolls. Shrapnel caltrops can't have the <Link to="/eq-misc/hollow_caltrops">hollow</Link> special feature or the <Link to="/eq-misc/serrated_caltrops">serrated</Link> special feature.</p>
+</>};
+const _shrieking_paste = {title: "Shrieking paste", jsx: <><h2 id="eq-misc-shrieking_paste-shrieking-paste">Shrieking paste</h2>
+<p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 27</Link><br/><strong>Price</strong> 35 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>Created by suspending the spores of a <Link to="/rule/slimes_molds_and_fungi">shrieker</Link> mushroom in a thick mixture of wheat paste and vermiculite, this thick sludge comes in a soundproof, stone container. Shrieking paste creates an obnoxious piercing noise when exposed to even minute amounts of movement or light. This makes applying the paste a very noisy endeavor at best. However, once the paste is applied and left alone for several rounds, it once again becomes silent. Thereafter, any light source or movement within 10 feet of the paste causes it to shriek for 1d3 rounds. A single container contains enough shrieking paste to coat 1 square foot of a surface. If left undisturbed for several weeks in a dank, lightless setting, shrieking paste might eventually grow into a colony of shrieker mushrooms.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _signal_horn = {title: "Signal horn", jsx: <><h2 id="eq-misc-signal_horn-signal-horn">Signal horn</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Sounding a horn requires a DC 10 Perform (wind) check and can convey concepts such as "Attack!", "Help!", "Advance!", "Retreat!", "Fire!", and "Alarm!" The report of a signal horn can be clearly heard (Perception DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn take a -1 penalty.</p>
+</>};
+const _signal_kite_kit = {title: "Signal kite kit", jsx: <><h2 id="eq-misc-signal_kite_kit-signal-kite-kit">Signal kite kit</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 165</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Entertainment</p>
+<p>Though wingless, <Link to="/race/tengu">tengus</Link> have long cast their thoughts toward the sky and flight. Built from paper glued to bamboo frames, their kites are painted with various colors and pictures. In addition to flying kites as a leisure activity, tengus also fly kites of various shades and patterns to send signal messages. Tengus have developed an extensive code of signals and can use their kites to display complex messages visible at great distances. A signal kite kit includes six small colored kites that can be hooked together in different patterns to facilitate complex messages. The kit also includes a spool and 300 feet of <Link to="/eq-misc/twine">twine</Link>. Sending or interpreting a signal kite's message functions as described in the Bluff skill, but the sender and anyone trying to understand the message must also know Tengu.</p>
+</>};
+const _signet_ring = {title: "Signet ring", jsx: <><h2 id="eq-misc-signet_ring-signet-ring">Signet ring</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This ring has an embossed design, typically a family crest or official icon. You press a signet ring into softened <Link to="/eq-misc/sealing_wax">wax</Link> to leave an impression of this symbol.</p>
+</>};
+const _poison_pill_signet_ring = {title: "Poison pill signet ring", jsx: <><h2 id="eq-misc-poison_pill_signet_ring-poison-pill-signet-ring">Poison pill signet ring</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 181</Link><br/><strong>Price</strong> +20 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This ring has a tiny compartment under the setting, typically used to hold poison. Opening and closing a ring is a move action; doing so unseen requires a DC 20 Sleight of Hand check.</p>
+</>};
+const _signifer_mask = {title: "Signifer mask", jsx: <><h2 id="eq-misc-signifer_mask-signifer-mask">Signifer mask</h2>
+<p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 63</Link>, <Link to="/source/adventurers_guide">Adventurer's Guide pg. 97</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Clothing</p>
+<p>The menacing, eyeless masks of <Link to="/pclass/hellknight_signifer">Hellknight signifers</Link> were first created by members of the <Link to="/hkorder/order_of_the_gate">Order of the Gate</Link> and are semi-transparent on the inside. Those who wear them are treated as if they were wearing <Link to="/eq-misc/smoked_goggles">smoked goggles</Link>. A character with the Hellknight signifer prestige class can see through the mask as normal, but can also adjust her mask as a standard action to function as a pair of smoked goggles once more. Signifer masks are often enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the signifer mask supernatural ability.</p>
+</>};
+const _silence_dust = {title: "Silence dust", jsx: <><h2 id="eq-misc-silence_dust-silence-dust">Silence dust</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 15</Link><br/><strong>Price</strong> 60 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This ashen powder can be thrown as a splash weapon, muffling all sound within a 15-foot-radius sphere centered on the point of impact. Perception checks to notice sound emanating from or passing through the cloud take a -10 penalty. Alternatively, applying a dose of silence dust to your feet as a standard action grants you a +5 circumstance bonus on Stealth checks to avoid being heard while walking. The dust is effective for 1 minute before it disperses.</p>
+<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (12 dew of lunary + 40 myrrh)/calcination; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 1 hour; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical tool</p>
+</>};
+const _silent_piton = {title: "Silent piton", jsx: <><h2 id="eq-misc-silent_piton-silent-piton">Silent piton</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 244</Link><br/><strong>Price</strong> 5 sp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>A silent piton is identical to a regular <Link to="/eq-misc/piton">piton</Link>, except it has been alchemically treated to reduce the noise it generates when driven into a surface. A silent piton staked into a piece of terrain generates sound out to a radius of only 10 feet from the point of impact.</p>
+</>};
+const _silk_kimono = {title: "Silk kimono", jsx: <><h2 id="eq-misc-silk_kimono-silk-kimono">Silk kimono</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 28</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Clothing</p>
+<p>This exquisite silken garment is vitally important formal wear for certain social roles in many Tian cultures, including Minkai. Properly donning a kimono requires assistance and a successful DC 15 Knowledge (nobility) check. When dealing with Minkaians or others familiar with the cultural significance of this garment, a properly worn kimono grants a +2 circumstance bonus on Diplomacy checks, as well as on Disguise checks made to appear as a geisha, noble, or other high standing member of Minkai society.</p>
+</>};
+const _silk_rope_50_ft = {title: "Silk rope (50 ft.)", jsx: <><h2 id="eq-misc-silk_rope_50_ft-silk-rope-50-ft">Silk rope (50 ft.)</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This 50-foot length of silk rope has 4 hit points and can be broken with a DC 24 Strength check.</p>
+</>};
+const _silver_drops = {title: "Silver drops", jsx: <><h2 id="eq-misc-silver_drops-silver-drops">Silver drops</h2>
+<p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon pg. 30</Link><br/><strong>Price</strong> 180 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>A creature with DR/silver can swallow these bitter-tasting capsules of a concentrated alchemical silver to convert their damage reduction to DR/- for 2d4 rounds. When this effect ends, the creature is <Link to="/misc/nauseated">nauseated</Link> for 1 round. A creature can only benefit from silver drops once per 24 hours. Crafting this item requires a successful DC 30 Craft (alchemy) check.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+</>};
+const _singers_solution = {title: "Singer's solution", jsx: <><h2 id="eq-misc-singers_solution-singers-solution">Singer's solution</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link><br/><strong>Price</strong> 120 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>When you imbibe this draught, you can accept <Link to="/misc/alchemical_burn">alchemical burn</Link> to gain an additional 4 rounds of bardic performance or raging song for the day. The effects of singer's solution last for 1 hour; if not spent within 1 hour, these additional rounds are lost. Singer's solution has no effect if you don't have the <Link to="/ability/bardic_performance">bardic performance</Link> or <Link to="/ability/raging_song">raging song</Link> class features.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+</>};
+const _siphon_ray = {title: "Siphon ray", jsx: <><h2 id="eq-misc-siphon_ray-siphon-ray">Siphon ray</h2>
+<p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 6</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This parasitic, hand-sized, cartilaginous fish attaches to a creature and filters nutrients directly from its host's bloodstream. However, a siphon ray reoxygenates the blood in the process, allowing the host to <Link to="/misc/hold_her_breath">hold her breath</Link> for twice as long while underwater. A siphon ray must be attached for at least 1 minute before providing this benefit, and every hour a ray remains attached per day, the host must succeed at a DC 15 Fortitude saving throw or become <Link to="/misc/fatigued">fatigued</Link>. While attached, a siphon ray avoids most attacks as though it were a piece of equipment unless specifically targeted.</p>
+<p>A siphon ray must be kept in at least 1 gallon of salt water when not in use. If it is out of salt water for 1 hour, the siphon ray expires.</p>
+</>};
+const _skalds_kit = {title: "Skald's kit", jsx: <><h2 id="eq-misc-skalds_kit-skalds-kit">Skald's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link><br/><strong>Price</strong> 37 gp; <strong>Weight</strong> 47-1/2 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit includes a <Link to="/eq-misc/backpack">backpack</Link>, a <Link to="/eq-misc/bedroll">bedroll</Link>, a <Link to="/eq-misc/belt_pouch">belt pouch</Link>, a common <Link to="/eq-misc/musical_instrument">musical instrument</Link>, a <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, an <Link to="/eq-misc/iron_pot">iron pot</Link>, a <Link to="/eq-misc/mess_kit">mess kit</Link>, a <Link to="/eq-misc/mirror">mirror</Link>, <Link to="/eq-misc/rope">rope</Link>, <Link to="/eq-misc/soap">soap</Link>, a <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link>, <Link to="/eq-misc/torches">torches</Link> (10), <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), and a <Link to="/eq-misc/waterskin">waterskin</Link>.</p>
+</>};
+const _skates = {title: "Skates", jsx: <><h2 id="eq-misc-skates-skates">Skates</h2>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Clothing</p>
+<p>These honed metal blades are worn on boots to enable swift passage over ice. The wearer may move (but not climb) at her full speed on level icy surfaces. Her speed is halved when moving up an icy slope, but she may run or charge downhill on gentle or steep snowy slopes at quadruple speed. However, any skill check penalties for traversing rough ice while wearing skates are doubled, and the wearer takes a -4 penalty on combat maneuver checks to <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/drag">drag</Link>, or <Link to="/rule/trip">trip</Link>, and to CMD against these maneuvers. Donning or removing skates takes 1 minute.</p>
+<p>Also see: <Link to="/eq-misc/ice_skates">ice skates</Link>.</p>
+</>};
+const _skeleton_key = {title: "Skeleton key", jsx: <><h2 id="eq-misc-skeleton_key-skeleton-key">Skeleton key</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 85 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Many door locks have a similar design and thus can be unlocked by a similar key. A skeleton key may be tried on any standard door lock that uses a key, even if you don't have the Disable Device skill. You use the key's Disable Device bonus of +10 rather than your own total; you cannot take 10 when using a skeleton key. The key only gets one roll for any particular lock. If the roll fails, the key is unable to open or close that lock. Inferior skeleton keys may only have a +5 bonus.</p>
+</>};
+const _skeleton_slayers_kit = {title: "Skeleton slayer's kit", jsx: <><h2 id="eq-misc-skeleton_slayers_kit-skeleton-slayers-kit">Skeleton slayer's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 15</Link><br/><strong>Price</strong> 120 gp; <strong>Weight</strong> 32 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit contains all the tools necessary for clearing out small packs of skeletons from tombs and crypts. It includes three flasks of <Link to="/eq-weapon/acid">acid</Link>, a <Link to="/eq-weapon/club">club</Link>, a <Link to="/eq-weapon/sling">sling</Link>, 10 <Link to="/eq-weapon/sling_bullet">sling bullets</Link>, two flasks of <Link to="/eq-weapon/holy_water">holy water</Link>, a <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bag</Link>, 50 feet of <Link to="/eq-misc/rope">hemp rope</Link>, a <Link to="/eq-misc/crowbar">crowbar</Link>, and a <Link to="/eq-misc/wooden_holy_symbol">wooden holy symbol</Link>.</p>
+</>};
+const _skillet_common = {title: "Skillet (common)", jsx: <><h2 id="eq-misc-skillet_common-skillet">Skillet</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link><br/><strong>Price</strong> 8 sp (common), 2,001 gp (mithral); <strong>Weight</strong> 4 lbs. (common), 2 lbs. (mithral)</p>
+<p>This 8-inch-diameter skillet has a long handle and feet so you can rest it on a fire or hot coals. Adventurers prefer models with a hinged handle that folds over the top of the skillet for easier storage and transport. A mithral skillet is lighter and food rarely sticks to it.</p>
+</>};
+const _skis_and_poles = {title: "Skis and poles", jsx: <><h2 id="eq-misc-skis_and_poles-skis-and-poles">Skis and poles</h2>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> 6 lbs.<br/><strong>Category</strong> Tools</p>
+<p>These polished wooden slats enable the wearer to glide across level snowy surfaces at his full speed. His speed is halved when moving up a snowy slope, but he may run or charge downhill on gentle or steep snowy slopes at quadruple speed. Any skill check penalties for traversing rough snowy terrain while wearing skis are doubled, and the wearer takes a -4 penalty on combat maneuver checks to <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/drag">drag</Link>, or <Link to="/rule/trip">trip</Link>, and to CMD against these maneuvers. Characters cannot climb while wearing skis. Donning or removing skis takes 1 minute.</p>
+<p>Also see: <Link to="/eq-misc/skis">skis</Link>.</p>
+</>};
+const _skis = {title: "Skis", jsx: <><h2 id="eq-misc-skis-skis">Skis</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 20 lbs.<br/><strong>Category</strong> Clothing</p>
+<p>Each ski is a flat piece of wood about 5-6 feet long for a Medium wearer, curled up slightly at the front end, with lengthwise grooves along the underside and a wooden or metal bracket with laces on top for holding the wearer's boot in place. Wearing skis allows you to move on snow and ice at normal speed, but your movement is reduced to 5 feet on all other terrain. You normally use a pair of spiked poles to help you move and maintain balance while skiing, but <Link to="/eq-weapon/javelin">javelins</Link>, <Link to="/eq-weapon/shortspear">shortspears</Link>, or even trimmed-down saplings will do if nothing else more suitable is available. Donning or removing a ski is a full-round action, though the laces can be cut as a move action (which requires repairing or replacing the laces if you want to use the skis again).</p>
+<p>Also see: <Link to="/eq-misc/skis_and_poles">skis and poles</Link>.</p>
+</>};
+const _skunk = {title: "Skunk", jsx: <><h2 id="eq-misc-skunk-skunk">Skunk</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>These creatures are infamous for the overwhelmingly foul odor they produce to ward off predators. Skunks are sometimes kept as pets, though usually only after their scent glands have been removed.</p>
+</>};
+const _sky_mine = {title: "Sky mine", jsx: <><h2 id="eq-misc-sky_mine-sky-mine">Sky mine</h2>
+<p><strong>Sources</strong> <Link to="/source/castles_of_the_inner_sea">Castles of the Inner Sea pg. 40</Link><br/><strong>Price</strong> 1,000 gp; <strong>Weight</strong> 500 lbs.<br/><strong>Category</strong> Tools</p>
+<p>The dwarves of Highhelm fill these 20-foot-diameter cloth balloons with a secret and highly flammable gas (included in the price) and then release them into the sky over their enemies. To transform the balloons into decoys, dwarven siege warriors place dummies in cargo baskets beneath the balloons to look like balloonist scouts or snipers. Whoever releases the balloon can attempt a DC 15 Profession (driver), Knowledge (nature), or Wisdom check; if the check is successful, the balloon can be guided out to a maximum range of 300 feet, a far enough distance for archers to safely shoot the balloon with flaming arrows, causing it to explode in a devastating ball of fire. A detonated sky mine creates a 50-foot-radius <Link to="/misc/burst">burst</Link> of flame that deals 10d6 points of fire damage to anything in the area.</p>
+</>};
+const _slave_hard_labor = {title: "Slave (hard labor)", jsx: <><h2 id="eq-misc-slave_hard_labor-slave">Slave</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 75 gp, 100 gp (hard labor), 50 gp (household), 100 gp (slip, halfling), 500 gp (specialized); <strong>Weight</strong> 175 lbs., 200 lbs. (hard labor), 130 lbs. (household), 39 lbs. (slip, halfling), 160 lbs. (specialized)</p>
+<p>Sentient creatures sold to perform a multitude of tasks all fall under the category of slaves. Most slaves are kept to do menial jobs, but sometimes slaves perform specialized tasks such as spellcasting or teaching. Slaves vary in quality; the price may be half as much for old or infirm slaves, or several times more for healthy, attractive specimens.</p>
+</>};
+const _slayers_kit = {title: "Slayer's kit", jsx: <><h2 id="eq-misc-slayers_kit-slayers-kit">Slayer's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link><br/><strong>Price</strong> 22 gp; <strong>Weight</strong> 43-1/2 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit includes a <Link to="/eq-misc/backpack">backpack</Link>, a <Link to="/eq-misc/bedroll">bedroll</Link>, a <Link to="/eq-misc/belt_pouch">belt pouch</Link>, a <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, an <Link to="/eq-misc/iron_pot">iron pot</Link>, <Link to="/eq-misc/manacles">manacles</Link>, a <Link to="/eq-misc/mess_kit">mess kit</Link>, <Link to="/eq-misc/rope">rope</Link>, <Link to="/eq-misc/torches">torches</Link> (10), <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), and a <Link to="/eq-misc/waterskin">waterskin</Link>.</p>
+</>};
+const _sled = {title: "Sled", jsx: <><h2 id="eq-misc-sled-sled">Sled</h2>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link><br/><strong>Price</strong> 20 gp; <strong>Price of Passage</strong> (per mile) -<br/><strong>Category</strong> Transport, Land</p>
+<p>This is a wagon on runners for snow and ice travel. In general, two horses (or other beasts of burden) draw it. A sled comes with the <Link to="/eq-misc/harness">harness</Link> needed to pull it.</p>
+</>};
+const _sledge = {title: "Sledge", jsx: <><h2 id="eq-misc-sledge-sledge">Sledge</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an <Link to="/misc/improvised">improvised</Link> <Link to="/eq-weapon/earth_breaker">earth breaker</Link>.</p>
+</>};
+const _sleeve_holster = {title: "Sleeve holster", jsx: <><h2 id="eq-misc-sleeve_holster-sleeve-holster">Sleeve holster</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Tools</p>
+<p>When worn inside voluminous sleeves, this leather holster allows you to draw a concealed <Link to="/eq-weapon/hand_crossbow">hand crossbow</Link> or <Link to="/eq-weapon/coat_pistol">coat pistol</Link> as a move action. The weapon sits on sliders and is drawn directly into the hand. Unlike a <Link to="/eq-misc/wrist_sheath">wrist sheath</Link>, a sleeve holster is bulky enough that it is obvious on close inspection, though under a loose enough garment it might not provoke a reactive Perception check. An individual sleeve holster fits for either a hand crossbow or a coat pistol, but not both.</p>
+</>};
+const _sleigh = {title: "Sleigh", jsx: <><h2 id="eq-misc-sleigh-sleigh">Sleigh</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link><br/><strong>Price</strong> 100 gp; <strong>Price of Passage</strong> (per mile) 2 cp<br/><strong>Category</strong> Transport, Land</p>
+<p>This wagon has runners, making it an ideal conveyance for snow and ice travel. In general, two horses (or other beasts of burden) are needed to draw it. A sled comes with the <Link to="/eq-misc/harness">harness</Link> required to pull it.</p>
+</>};
+const _slow_heart_concoction = {title: "Slow-heart concoction", jsx: <><h2 id="eq-misc-slow_heart_concoction-slow-heart-concoction">Slow-heart concoction</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 27</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Concoctions</p>
+<p>This inky concoction slows the flow of blood, reducing any <Link to="/rule/bleed">bleed</Link> damage you would suffer by 2 and causing you to automatically stabilize when dying. The concoction dulls your response speed, however, imparting a -1 penalty on your Reflex saving throws.</p>
+</>};
+const _smelling_salts = {title: "Smelling salts", jsx: <><h2 id="eq-misc-smelling_salts-smelling-salts">Smelling salts</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>These sharply scented gray crystals cause people inhaling them to regain consciousness. Smelling salts grant you a new saving throw to resist any spell or effect that has already rendered you <Link to="/misc/unconscious">unconscious</Link> or <Link to="/misc/staggered">staggered</Link>. If exposed to smelling salts while <Link to="/misc/dying">dying</Link>, you immediately become conscious and staggered, but must still make stabilization checks each round; if you perform any standard action (or any other strenuous action), you take 1 point of damage after completing the act and fall unconscious again. A container of smelling salts has dozens of uses if stoppered after each use, but depletes in a matter of hours if left open.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _smoke_bomb = {title: "Smoke Bomb", jsx: <><h2 id="eq-misc-smoke_bomb-smoke-bomb">Smoke Bomb</h2>
+<p><strong>Sources</strong> <Link to="/source/curse_of_the_crimson_throne">Curse of the Crimson Throne pg. 432</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>A smoke bomb appears as a polished ceramic sphere that can be held comfortably in one hand. Many crafters of these alchemical weapons take pride in painting or etching these bombs with complex scenes, or even making them look like small humanoid skulls, despite the fact that the bombs shatter when thrown. When thrown as a splash weapon, a smoke bomb bursts and fills the 5-foot square it detonates in with a cloud of thick, foul-smelling gray smoke (treat this area as if affected by a <Link to="/spell/fog_cloud">fog cloud</Link> spell, except that the cloud lasts only 1 round before dissipating). A creature that is struck by a smoke bomb or that passes through the cloud a bomb creates must succeed at a DC 12 Fortitude save or be <Link to="/misc/nauseated">nauseated</Link> for 1 round and <Link to="/misc/sickened">sickened</Link> for 3 rounds after that. Creatures within 5 feet of where the flask hits are sickened for 1 round if they fail this saving throw. This is a poison effect. Crafting a smoke bomb requires a successful DC 22 Craft (alchemy) check.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 22</p>
+</>};
+const _smoke_cover = {title: "Smoke cover", jsx: <><h2 id="eq-misc-smoke_cover-smoke-cover">Smoke cover</h2>
+<p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 26</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This small cauldron of alchemically treated tar gives off thick, acrid smoke when ignited. The smoke rises to an altitude of 25 feet, then spreads horizontally, creating an artificial smoke ceiling 5 feet thick. The smoke spreads to a 100-foot radius at a rate of 20 feet per round. The cauldron smokes for 5 rounds before burning out. After the cauldron finishes burning, the smoke lasts for 3 more rounds before dissipating. A moderate wind (11+ mph) does not affect the heavy smoke, while a strong wind (21+ mph) disperses the smoke in 2 rounds.</p>
+<p>The smoke is entirely opaque, which means creatures above the smoke can't see the ground, and those on the ground have a visual ceiling of 25 feet. Creatures on the other side of the smoke have total <Link to="/rule/concealment">concealment</Link> (50% miss chance, and the attacker can't use sight to locate the target).</p>
+<p>Smoke cover is noxious, and any creature that begins its turn inside the smoke must succeed at a DC 18 Fortitude save or become <Link to="/misc/sickened">sickened</Link> for 1d4 rounds. Previously sickened creatures that fail their saves are instead <Link to="/misc/nauseated">nauseated</Link> for 1d6 rounds. Creatures immune to poison are not affected by smoke cover's sickening effects.</p>
+</>};
+const _smoke_pellet = {title: "Smoke pellet", jsx: <><h2 id="eq-misc-smoke_pellet-smoke-pellet">Smoke pellet</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This small clay sphere contains two alchemical substances separated by a thin barrier. When you break the sphere, the substances mingle and fill a 5-foot square with a cloud of foul but harmless yellow smoke. The smoke pellet acts as a <Link to="/eq-misc/smokestick">smokestick</Link>, except the smoke only lasts for 1 round before dispersing. You may throw a smoke pellet as a ranged touch attack with a range increment of 10 feet.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _smoke_signal = {title: "Smoke signal", jsx: <><h2 id="eq-misc-smoke_signal-smoke-signal">Smoke signal</h2>
+<p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands pg. 28</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This alchemically fused powder ball creates a plume of brightly colored smoke when lit. While the smoke is not thick enough to significantly impair vision, it is clearly visible up to 1d6 miles away under average conditions, and may be visible at greater distances in ideal conditions. Many desert clans use particular signature colors of smoke to indicate their allegiance, or use smoke signals with specific colors or in a pattern of sequential colors to convey coded messages.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+</>};
+const _smoked_goggles = {title: "Smoked goggles", jsx: <><h2 id="eq-misc-smoked_goggles-smoked-goggles">Smoked goggles</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
+<p>These spectacles have lenses made of smoked glass that help protect against creatures with <Link to="/umr/gaze">gaze</Link> attacks. You are always treated as averting your gaze when dealing with gaze attacks, and you gain a +8 circumstance bonus on saving throws against visual-based attacks (any attack that a <Link to="/misc/blind">blind</Link> creature would be immune to). You take a -4 penalty on Perception checks while wearing the goggles, and all opponents are treated as having <Link to="/rule/concealment">concealment</Link> (20% miss chance).</p>
+</>};
+const _smokestick = {title: "Smokestick", jsx: <><h2 id="eq-misc-smokestick-smokestick">Smokestick</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 30</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This alchemically treated wooden stick instantly creates thick, opaque smoke when burned. The smoke fills a 10-foot cube (treat the effect as a <Link to="/spell/fog_cloud">fog cloud</Link> spell, except that a moderate or stronger wind dissipates the smoke in 1 round). The stick is consumed after 1 round, and the smoke dissipates naturally after 1 minute.</p>
+<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (4 darkwood + 5 saltpeter)/calcination; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 1 hour; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical tool</p>
+</>};
+const _smugglers_wagon = {title: "Smuggler's wagon", jsx: <><h2 id="eq-misc-smugglers_wagon-smugglers-wagon">Smuggler's wagon</h2>
+<p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 116</Link><br/><strong>Price</strong> varies; <strong>Price of Passage</strong> (per mile) varies<br/><strong>Category</strong> Transport, Land</p>
+<p>A smuggler's wagon functions in most respects exactly like an ordinary wagon, except it contains hidden compartments that allow for cargo to be transported in secret. The price of a smuggler's wagon depends on two factors - the size or type of the original <Link to="/eq-misc/wagon">wagon</Link>, and the skill with which the hidden compartments have been constructed. The table below details the prices of such a vehicle (the DC is for a Perception check to successfully locate the hidden compartments during a search of the wagon).</p>
+<ScrollContainer id="eq-misc-smugglers_wagon--table-0"><table>
+<thead>
+<tr>
+<th>Size</th>
+<th>DC 15</th>
+<th>DC 20</th>
+<th>DC 25</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Light</td>
+<td>75 gp</td>
+<td>100 gp</td>
+<td>150 gp</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>115 gp</td>
+<td>150 gp</td>
+<td>225 gp</td>
+</tr>
+<tr>
+<td>Heavy</td>
+<td>150 gp</td>
+<td>200 gp</td>
+<td>300 gp</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p>Compartments can be located throughout the wagon, in such places as a hollowed-out axle, beneath the seats, between panels on the floor decking, and so forth. The total amount of weight the wagon and its draft animals can accommodate remains the same as the original variety of wagon.</p>
+</>};
+const _snake_constrictor = {title: "Snake (constrictor)", jsx: <><h2 id="eq-misc-snake_constrictor-snake-constrictor">Snake (constrictor)</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 60 lbs.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>These Medium reptiles are found chiefly in warm climates. Somewhat aggressive, constrictors squeeze their prey to death before consuming it. Due to their size, these snakes are less popular for traveling spellcasters, but they can be quite helpful in a laboratory.</p>
+</>};
+const _snake_viper = {title: "Snake (viper)", jsx: <><h2 id="eq-misc-snake_viper-snake-viper">Snake (viper)</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 10 oz.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>This tiny reptile eats small animals and can be found in most temperate and warm environments. The bite is painful but not especially dangerous to the average adventurer.</p>
+</>};
+const _snake_oil = {title: "Snake oil", jsx: <><h2 id="eq-misc-snake_oil-snake-oil">Snake oil</h2>
+<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 252</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This mildly toxic liniment numbs flesh and can soothe injuries. Though the tincture is actually poisonous, an imbiber who avoids becoming poisoned recovers from minor injuries.</p>
+<h3 id="eq-misc-snake_oil-snake-oil">Snake Oil</h3>
+<p><strong>Type</strong> poison (contact); <strong>Save</strong> Fortitude DC 12<br/><strong>Onset</strong> 1 round; <strong>Frequency</strong> 1/minute for 5 minutes<br/><strong>Effect</strong> On a failed save, snake oil deals 1 point of nonlethal damage. However, on a successful save, the toxin heals 1d6 points of nonlethal damage; <strong>Cure</strong> 1 save</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _snake_tongue_concoction = {title: "Snake-tongue concoction", jsx: <><h2 id="eq-misc-snake_tongue_concoction-snake-tongue-concoction">Snake-tongue concoction</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 27</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Concoctions</p>
+<p>This lime-green goo turns your saliva venomous. Once during the concoction's duration, as a swift action, you can lick or spit on a held weapon to apply a dose of black adder venom to the weapon. If you are a <Link to="/race/vishkanya">vishkanya</Link>, you instead apply the poison granted by your toxic racial trait; this does not count against that trait's uses per day. The concoction weakens your physical defenses, imparting a -1 penalty on your Fortitude saving throws.</p>
+</>};
+const _snorkel_common = {title: "Snorkel (common)", jsx: <><h2 id="eq-misc-snorkel_common-snorkel">Snorkel</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link><br/><strong>Price</strong> 5 sp (common), 5 gp (masterwork); <strong>Weight</strong> - (common), - (masterwork)</p>
+<p>This waterproof wooden tube has a curved end with a mouthpiece. When you hold the mouthpiece in your mouth, the tube extends past your face and toward the back of your head, allowing you to breathe indefinitely when swimming facedown or barely submerged. If you submerge the tip of the snorkel, it floods with water and can't be used to breathe until you clear the water from it (requiring a move action and full access to air). A typical snorkel's length is about 15 inches; any shorter than this and it tends to fill with water when you swim, but any longer and you're not moving enough fresh air through the snorkel to be effective.</p>
+<p><strong>Masterwork Snorkel:</strong> This snorkel has a valve at the top to keep out of the water, keeping it from being flooded from splashes or when you submerge. It also has a sump and valve near your mouth, preventing water from reaching your mouth and automatically draining excess water when you surface.</p>
+</>};
+const _snow_goggles = {title: "Snow goggles", jsx: <><h2 id="eq-misc-snow_goggles-snow-goggles">Snow goggles</h2>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link><br/><strong>Price</strong> 12 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Clothing</p>
+<p>These goggles, carved from bone with a narrow slit opening and held in place with leather straps, work as <Link to="/eq-misc/smoked_goggles">smoked goggles</Link>. In addition, they provide immunity to polar mirages.</p>
+</>};
+const _snowshoes = {title: "Snowshoes", jsx: <><h2 id="eq-misc-snowshoes-snowshoes">Snowshoes</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 4 lbs.<br/><strong>Category</strong> Clothing</p>
+<p>These high-tension nets of rope or sinew in wooden frames are lashed to the feet to spread your weight across the snow, making you much less likely to break through the crust and rendering walking much easier. Snowshoes reduce the penalty for walking through heavy snow by 50%; for example, if moving through snow normally costs you 2 squares of movement (1 square plus a 1 square penalty) per square traveled, snowshoes reduce this cost to 1.5 squares per square traveled. Snowshoes may supplement another outfit.</p>
+</>};
+const _snuffbox_bone_or_tortoise_shell = {title: "Snuffbox (bone or tortoise shell)", jsx: <><h2 id="eq-misc-snuffbox_bone_or_tortoise_shell-snuffbox">Snuffbox</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link><br/><strong>Price</strong> 25 gp (bone or tortoise shell), 300 gp (ivory or precious metal), 5 gp (tin or wood); <strong>Weight</strong> - (bone or tortoise shell), - (ivory or precious metal), - (tin or wood)</p>
+<p>This tiny, ornamented box's hinged lid latches in place to form a tight seal. The box is used to hold various snuffs, powders, tobacco, and similar substances. The box can be made from any number of materials, from wood to ivory to precious metals inlaid with gemstone.</p>
+</>};
+const _soap = {title: "Soap", jsx: <><h2 id="eq-misc-soap-soap">Soap</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 1 cp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Most soap is made from animal fat and lye derived from ashes. You can use this thick block of soap to scrub clothes, pots, linens, adventurers, or anything else that might be dirty. A bar of soap has approximately 50 uses.</p>
+</>};
+const _softpaw_boots = {title: "Softpaw boots", jsx: <><h2 id="eq-misc-softpaw_boots-softpaw-boots">Softpaw boots</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 93</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Clothing</p>
+<p>These soft and subtle boots are constructed of silk and specially cured leather. They are specially designed for <Link to="/race/catfolk">catfolk</Link> feet. They work with the feline structure of the race's feet to soften footfalls and to reduce the imprints of their tracks. While wearing softpaw boots, a catfolk gains a +1 circumstance bonus on Stealth checks. Furthermore, the DC to notice or follow the tracks of a catfolk wearing softpaw boots increases by +2.</p>
+</>};
+const _soldiers_uniform = {title: "Soldier's uniform", jsx: <><h2 id="eq-misc-soldiers_uniform-soldiers-uniform">Soldier's uniform</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Clothing</p>
+<p>The exact details of this item varies from country to country, but typically includes sturdy boots, leather breeches or a kilt, a belt, a shirt, gloves, a cloak or jacket, and a hat. The belt includes several loops or rings for tying pouches, a waterskin, a scabbard, and similar things a traveling soldier requires.</p>
+</>};
+const _songs_of_shazathared = {title: "Songs of Shazathared", jsx: <><h2 id="eq-misc-songs_of_shazathared-songs-of-shazathared">Songs of Shazathared</h2>
+<p><strong>Sources</strong> <Link to="/source/lost_treasures">Lost Treasures pg. 54</Link><br/><strong>Price</strong> 11,000 gp; <strong>Weight</strong> 4 lbs.<br/><strong>Category</strong> Black Market</p>
+<p>Nearly 50 ancient tales and songs have been collected on this long scroll. Contrasting with the obvious antiquity of the papyrus, the illuminated images are vivid and the writing is clear (though occasionally difficult to decipher due to elaborate embellishments), as the inks used were infused with <Link to="/magic-wondrous/unguent_of_timelessness">unguent of timelessness</Link>.</p>
+<p>This folio is the most complete extant collection of poems by the legendary marid bard Shazathared. Most of the poems recount the binding of <Link to="/faith/rovagug">Rovagug</Link> by the gods and the fates of his terrible spawn, but several pieces, told from the point of view of a genie princess, speak of defending the princess's home and allies against bandit-kings, tempests, and evil magic. A bard with access to a complete copy of these poems can learn the defensive songs in the folio as the <Link to="/masterpiece/ballad_of_the_warding_princess">"Ballad of the Warding Princess"</Link> masterpiece by paying the normal masterpiece cost.</p>
+</>};
+const _soothe_syrup = {title: "Soothe syrup", jsx: <><h2 id="eq-misc-soothe_syrup-soothe-syrup">Soothe syrup</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>This sweet and wholesome-tasting blue liquid creates a sense of warmth and comfort. Soothe syrup coats your stomach and makes it much more difficult for you to succumb to queasiness. For 1 hour after drinking soothe syrup, you gain a +5 alchemical bonus on saving throws made to resist effects that would make you nauseated or sickened.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+</>};
+const _sorcerers_kit = {title: "Sorcerer's kit", jsx: <><h2 id="eq-misc-sorcerers_kit-sorcerers-kit">Sorcerer's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link><br/><strong>Price</strong> 8 gp; <strong>Weight</strong> 19 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit includes a <Link to="/eq-misc/backpack">backpack</Link>, a <Link to="/eq-misc/bedroll">bedroll</Link>, a <Link to="/eq-misc/belt_pouch">belt pouch</Link>, a <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, an <Link to="/eq-misc/iron_pot">iron pot</Link>, a <Link to="/eq-misc/mess_kit">mess kit</Link>, <Link to="/eq-misc/soap">soap</Link>, <Link to="/eq-misc/torches">torches</Link> (10), <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), and a <Link to="/eq-misc/waterskin">waterskin</Link>.</p>
+</>};
+const _sorcerers_spirits = {title: "Sorcerer's spirits", jsx: <><h2 id="eq-misc-sorcerers_spirits-sorcerers-spirits">Sorcerer's spirits</h2>
+<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Tincture</p>
+<p>This silvery liquid amplifies magical energies. For 1 hour after drinking this tincture, treat your caster level as 2 higher for the purpose of determining spells' durations and ranges. The liquid unsettles the stomach, imposing a -1 penalty on Fortitude and Reflex saves for the same duration. Whenever you fail a Fortitude or Reflex save while under these effects, you must succeed at a DC 20 Fortitude saving throw or become <Link to="/misc/nauseated">nauseated</Link> for 1 round.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+</>};
+const _soul_candle = {title: "Soul candle", jsx: <><h2 id="eq-misc-soul_candle-soul-candle">Soul candle</h2>
+<p><strong>Sources</strong> <Link to="/source/inner_sea_temples">Inner Sea Temples pg. 42</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
+<p>When lit, this spiral-shaped <Link to="/eq-misc/candle">candle</Link> burns for 24 hours, but if a haunt manifests or an undead creature comes within 5 feet of a lit soul candle, the candle goes out in a bright, sizzling flash.</p>
+</>};
+const _soul_stimulant = {title: "Soul stimulant", jsx: <><h2 id="eq-misc-soul_stimulant-soul-stimulant">Soul stimulant</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>This soothing elixir was created to counter the energy-draining effects of vampires, wights, and similar horrible creatures. If you have a negative level (whether temporary or permanent), you can drink a dose of soul stimulant, negating the negative level's penalty for 12 hours. You can only benefit from 1 dose of soul stimulant at a time, though you can continue to take a dose every 12 hours to stave off the negative level's effects.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+</>};
+const _sparkle_smoke = {title: "Sparkle smoke", jsx: <><h2 id="eq-misc-sparkle_smoke-sparkle-smoke">Sparkle smoke</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 45</Link>, <Link to="/source/pathfinder_106_for_queen_and_empire">Pathfinder #106: For Queen and Empire pg. 75</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>When inhaled, this incense causes creatures to see dazzling auras around light sources, drawing their attention to such illumination as the moon or stars and away from other nearby creatures. Any creature inhaling sparkle smoke that fails a DC 15 Fortitude saving throw takes a -4 penalty on Perception checks to notice creatures smaller than itself in areas of at least <Link to="/rule/dim_light">dim light</Link> for 1 hour. Crafting a dose of sparkle smoke requires a successful DC 15 Craft (alchemy) check.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+</>};
+const _sparring_gear = {title: "Sparring gear", jsx: <><h2 id="eq-misc-sparring_gear-sparring-gear">Sparring gear</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 20</Link><br/><strong>Price</strong> 35 gp; <strong>Weight</strong> 15 lbs.<br/><strong>Category</strong> Clothing</p>
+<p>This array of thick, heavily lined pads, including a quilted helmet, rigid shin guards, and a wraparound rib guard, protects you during hand-to-hand training. Sparring gear cannot be worn with armor, but grants DR 2/- against nonlethal damage. Fighting schools often customize their sparring gear to feature prestigious colors or symbols.</p>
+</>};
+const _speaking_trumpet = {title: "Speaking trumpet", jsx: <><h2 id="eq-misc-speaking_trumpet-speaking-trumpet">Speaking trumpet</h2>
+<p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 21</Link><br/><strong>Price</strong> 6 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This large animal horn is hollowed out to amplify sounds that enter through the narrow end. The DC of Perception checks to hear a speaker using a speaking trumpet is reduced by 5.</p>
+</>};
+const _spear_thrower = {title: "Spear-thrower", jsx: <><h2 id="eq-misc-spear_thrower-spear-thrower">Spear-thrower</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This is little more than a handle with a cup, loop, or spur to hold the butt of a <Link to="/eq-weapon/dart">dart</Link>, <Link to="/eq-weapon/javelin">javelin</Link>, or <Link to="/eq-weapon/shortspear">shortspear</Link>. Using a spear-thrower to throw such a weapon doubles the projectile's range increment. Setting a weapon into a spear-thrower is a move action; by taking the <Link to="/feat/rapid_reload">Rapid Reload</Link> (spear-thrower) feat, you reduce this to a free action.</p>
+</>};
+const _speech_resin = {title: "Speech resin", jsx: <><h2 id="eq-misc-speech_resin-speech-resin">Speech resin</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link><br/><strong>Price</strong> 410 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>Chewing this gummy substance grants you 1d4 uses of <Link to="/misc/alchemical_inspiration">alchemical inspiration</Link> that can be used only on Charisma-based skill checks. This benefit lasts for 1 hour, during which you must roll all Wisdom-based skill checks twice and take the worse result.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _speed_sheath = {title: "Speed sheath", jsx: <><h2 id="eq-misc-speed_sheath-speed-sheath">Speed sheath</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 244</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Clothing</p>
+<p>This sheath is designed to be strapped around your forearm, but it is too bulky to be hidden under a long sleeve. It can hold one forearm-length item, such as a <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/dart">dart</Link>, potion, scroll containing a single spell, or wand. As a swift action, you can bend your wrist to cause the sheathed item to drop into your hand (provoking attacks of opportunity as normal for retrieving an item). Placing an item in the sheath is a full-round action that provokes attacks of opportunity. You can wear only one <Link to="/eq-misc/wrist_sheath">wrist sheath</Link> per arm that you have.</p>
+</>};
+const _spell_component_pouch = {title: "Spell component pouch", jsx: <><h2 id="eq-misc-spell_component_pouch-spell-component-pouch">Spell component pouch</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Tools</p>
+<p>A spellcaster with a spell component pouch is assumed to have all the material components and focuses needed for spellcasting, except for components that have a specific cost, divine focuses, and focuses that wouldn't fit in a pouch. Most spell component pouches are waterproof and can be strung onto a belt or bandolier.</p>
+</>};
+const _spellbook = {title: "Spellbook", jsx: <><h2 id="eq-misc-spellbook-spellbook">Spellbook</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Tools</p>
+<p>A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells). A newly purchased spellbook contains no spells. A wizard character begins play with a spellbook containing the spells he knows.</p>
+</>};
+const _spellcasting = {title: "Spellcasting", jsx: <><h2 id="eq-misc-spellcasting-spellcasting">Spellcasting</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link><br/><strong>Price</strong> caster level &times; spell level &times; 10 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Lodging/Services</p>
+<p>The indicated amount is how much it costs to get a spellcaster to cast a spell for you. This price assumes that you can go to the spellcaster and have the spell cast at her convenience (generally at least 24 hours later, so that the spellcaster has time to prepare the spell in question, though you may be lucky enough to find someone who has it prepared that day or a spontaneous caster who knows it). If you want to bring the spellcaster somewhere to cast a spell (for example, to cast <Link to="/spell/dispel_magic">dispel magic</Link> on a magical seal in a dungeon) you need to negotiate with her; the default answer to such requests is typically no, since most people don't actually like to go on unexpected life-threatening adventures.</p>
+<p>The price given is for any spell that does not require a costly material component. If the spell includes a material component, add the cost of that component to the cost of the spell. If the spell has a focus component (other than a divine focus), add 1/10 the cost of that focus to the cost of the spell.</p>
+<p>If a spell has dangerous consequences (such as <Link to="/spell/contact_other_plane">contact other plane</Link>, which has a risk of decreasing the caster's Intelligence and Charisma), the spellcaster will certainly require proof that you can and will pay for dealing with any such consequences (that is, assuming that the spellcaster even agrees to cast such a spell, which isn't certain). If these additional costs put the total spellcasting price above 3,000 gp, the spell is not generally available.</p>
+<p>In the case of spells that transport the caster and characters over a distance, you will likely have to pay for two castings of the spell (one for the caster to take you there and one for the caster to return), even if you aren't returning with the caster.</p>
+<p>Not every town or village has a spellcaster of sufficient level to cast any spell. In general, you must travel to <Link to="/rule/the_shape_of_civilization">a small town (or larger settlement)</Link> to be reasonably assured of finding a spellcaster capable of casting 1st-level spells, a large town for 2nd-level spells, a small city for 3rd- or 4th-level spells, a large city for 5th- or 6th-level spells, and a metropolis for 7th- or 8th-level spells. Even a metropolis isn't guaranteed to have a local spellcaster able to cast 9th-level spells.</p>
+<h3 id="eq-misc-spellcasting-cost-grid">Cost Grid</h3>
+<ScrollContainer id="eq-misc-spellcasting--table-0"><table>
+<thead>
+<tr>
+<th>Caster Level</th>
+<th>1st</th>
+<th>2nd</th>
+<th>3rd</th>
+<th>4th</th>
+<th>5th</th>
+<th>6th</th>
+<th>7th</th>
+<th>8th</th>
+<th>9th</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1st</td>
+<td>10gp</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2nd</td>
+<td>20gp</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3rd</td>
+<td>30gp</td>
+<td>60gp</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>4th</td>
+<td>40gp</td>
+<td>80gp</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5th</td>
+<td>50gp</td>
+<td>100gp</td>
+<td>150gp</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>6th</td>
+<td>60gp</td>
+<td>120gp</td>
+<td>180gp</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>7th</td>
+<td>70gp</td>
+<td>140gp</td>
+<td>210gp</td>
+<td>280gp</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>8th</td>
+<td>80gp</td>
+<td>160gp</td>
+<td>240gp</td>
+<td>320gp</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>9th</td>
+<td>90gp</td>
+<td>180gp</td>
+<td>270gp</td>
+<td>360gp</td>
+<td>450gp</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>10th</td>
+<td>100gp</td>
+<td>200gp</td>
+<td>300gp</td>
+<td>400gp</td>
+<td>500gp</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>11th</td>
+<td>110gp</td>
+<td>220gp</td>
+<td>330gp</td>
+<td>440gp</td>
+<td>550gp</td>
+<td>660gp</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>12th</td>
+<td>120gp</td>
+<td>240gp</td>
+<td>360gp</td>
+<td>480gp</td>
+<td>600gp</td>
+<td>720gp</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>13th</td>
+<td>130gp</td>
+<td>260gp</td>
+<td>390gp</td>
+<td>520gp</td>
+<td>650gp</td>
+<td>780gp</td>
+<td>910gp</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>14th</td>
+<td>140gp</td>
+<td>280gp</td>
+<td>420gp</td>
+<td>560gp</td>
+<td>700gp</td>
+<td>840gp</td>
+<td>980gp</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>15th</td>
+<td>150gp</td>
+<td>300gp</td>
+<td>450gp</td>
+<td>600gp</td>
+<td>750gp</td>
+<td>900gp</td>
+<td>1,050gp</td>
+<td>1,200gp</td>
+<td>-</td>
+</tr>
+<tr>
+<td>16th</td>
+<td>160gp</td>
+<td>320gp</td>
+<td>480gp</td>
+<td>640gp</td>
+<td>800gp</td>
+<td>960gp</td>
+<td>1,120gp</td>
+<td>1,280gp</td>
+<td>-</td>
+</tr>
+<tr>
+<td>17th</td>
+<td>170gp</td>
+<td>340gp</td>
+<td>510gp</td>
+<td>680gp</td>
+<td>850gp</td>
+<td>1,020gp</td>
+<td>1,190gp</td>
+<td>1,360gp</td>
+<td>1,530gp</td>
+</tr>
+<tr>
+<td>18th</td>
+<td>180gp</td>
+<td>360gp</td>
+<td>540gp</td>
+<td>720gp</td>
+<td>900gp</td>
+<td>1,080gp</td>
+<td>1,260gp</td>
+<td>1,440gp</td>
+<td>1,620gp</td>
+</tr>
+<tr>
+<td>19th</td>
+<td>190gp</td>
+<td>380gp</td>
+<td>570gp</td>
+<td>760gp</td>
+<td>950gp</td>
+<td>1,140gp</td>
+<td>1,330gp</td>
+<td>1,520gp</td>
+<td>1,710gp</td>
+</tr>
+<tr>
+<td>20th</td>
+<td>200gp</td>
+<td>400gp</td>
+<td>600gp</td>
+<td>800gp</td>
+<td>1,000gp</td>
+<td>1,200gp</td>
+<td>1,400gp</td>
+<td>1,600gp</td>
+<td>1,800gp</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _spelunking_kit = {title: "Spelunking kit", jsx: <><h2 id="eq-misc-spelunking_kit-spelunking-kit">Spelunking kit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 47</Link><br/><strong>Price</strong> 174 gp; <strong>Weight</strong> 32 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit holds equipment for exploring underground, consisting of a <Link to="/eq-misc/lantern">lantern</Link> with 4 flasks of <Link to="/eq-misc/oil">oil</Link>, a <Link to="/eq-misc/hammer">hammer</Link> and 8 <Link to="/eq-misc/piton">pitons</Link>, 100 feet of <Link to="/eq-misc/silk_rope">silk rope</Link>, a <Link to="/eq-misc/grappling_hook">grappling hook</Link>, and a <Link to="/eq-misc/climbers_kit">climber's kit</Link>.</p>
+</>};
+const _sphere_song_concoction = {title: "Sphere-song concoction", jsx: <><h2 id="eq-misc-sphere_song_concoction-sphere-song-concoction">Sphere-song concoction</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 27</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Concoctions</p>
+<p>This syrupy concoction fills you with a dreamy, peaceful feeling, providing a +1 alchemical bonus on Will saving throws. However, the dreaminess slows your reactions to danger, imparting a -2 penalty on initiative checks.</p>
+</>};
+const _spider_sac = {title: "Spider sac", jsx: <><h2 id="eq-misc-spider_sac-spider-sac">Spider sac</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 105</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>Despite their name, spider sacs have nothing to do with spiders but rather are alchemical devices with a unique delivery system. Used for climbing as well as combat, these grayish, gourd-like pouches are made of a specially grown fungus with a tough but rubbery exterior. The fungoid is carefully harvested, pierced at one end, hollowed out, and then injected with a strong alchemical adhesive that hardens to a fibrous material almost instantly when exposed to air. When squeezed, a spider sac's adhesive shoots out to a maximum range of 10 feet and sticks to whatever it strikes, whereupon the strand dries instantly into a durable fibrous rope. For the purposes of climbing, treat a spider sac as a grappling hook except that all surfaces are AC 5. A spider sac can also be used as a lasso except with AC 10, 4 hit points, and a DC 24 Strength check to burst. A spider sac is a single-use item.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _spider = {title: "Spider", jsx: <><h2 id="eq-misc-spider-spider">Spider</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 8 oz.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>These Tiny spiders have red bodies and black legs. They are hunting spiders, so they do not cast webs, though they are poisonous.</p>
+</>};
+const _spiders_silk_rope_50_ft = {title: "Spider's silk rope (50 ft.)", jsx: <><h2 id="eq-misc-spiders_silk_rope_50_ft-spiders-silk-rope-50-ft">Spider's silk rope (50 ft.)</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 4 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This 50-foot length of rope is woven of strands of silk from monstrous spiders. Rare to virtually non-existent on the surface world, it is commonly used by the dark elves, though shorter spider's silk rope scraps (generally no more than 10 feet long) occasionally appear among goblins. Spider's silk rope has 6 hit points and can be broken with a DC 25 Strength check.</p>
+</>};
+const _spiderdraw = {title: "Spiderdraw", jsx: <><h2 id="eq-misc-spiderdraw-spiderdraw">Spiderdraw</h2>
+<p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 33</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This alchemical fluid is viscous and clear, and it emits a strong chemical smell when exposed to air. Vermin are attracted to it and perceive anything marked with it as prey. Spiders, insects, and similar vermin gain a +5 bonus on Perception checks and attack rolls against a creature marked with spiderdraw; if these creatures have the scent ability, they can detect a marked creature at five times the normal range, note its direction as a free action, and pinpoint it when it is within 25 feet.</p>
+<p>Drow sometimes use spiderdraw as a contact poison or splash weapon against opponents, allowing vermin to focus on the marked targets while the drow retreat, regroup, or move to a more advantageous position. Washing off the spiderdraw is a full-round action requiring at least a gallon of water or other suitable washing liquid; otherwise, the effects last for 1 hour.</p>
+<p>Crafting spiderdraw requires a successful DC 20 Craft (alchemy) check.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _spike_hilt = {title: "Spike hilt", jsx: <><h2 id="eq-misc-spike_hilt-spike-hilt">Spike hilt</h2>
+<p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 21</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>A spike hilt can be added to any one-handed or two-handed sword or hafted weapon, which conceals a <Link to="/eq-weapon/dagger">dagger</Link> within the larger weapon. An observer who succeeds at a DC 20 Perception check while carefully examining the larger weapon notices the spike hilt. Drawing a dagger from the spike hilt is a swift action. This dagger can be made masterwork or turned into a magic weapon at the normal cost.</p>
+</>};
+const _spiked_focus_ward = {title: "Spiked focus ward", jsx: <><h2 id="eq-misc-spiked_focus_ward-spiked-focus-ward">Spiked focus ward</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 25</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Channel Foci<br/><strong>Deity</strong> Any</p>
+<p>This holy symbol has a small nail or spike somewhere along its length, allowing it to be hammered it into a wall, tree, floor, or any hard surface. Once fixed in place and activated, it stores channeled energy until it is touched by a creature of at least Small size or 24 hours pass. If touched, the focus releases the stored power as if you used <Link to="/ability/channel_energy">channel energy</Link>, though it only heals or deals half the normal damage (including all feats and abilities that affect the DC and damage). Good clerics use these items to provide healing in large battles where a cleric may not be nearby; evil clerics often use them as traps.</p>
+</>};
+const _spirit_compass = {title: "Spirit compass", jsx: <><h2 id="eq-misc-spirit_compass-spirit-compass">Spirit compass</h2>
+<p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 13</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This device resembles an ordinary compass, save that it is filled with alcohol and water, in which bob two pieces of alchemically treated metal (one silver and one iron). A spirit compass can be operated by a creature so as to allow the user to employ Survival in place of Perception to notice haunts (it provides no benefit toward detecting those unusual haunts that are not noticed by Perception checks). A creature that is untrained in Survival takes a -4 penalty on any Survival checks when attempting to use a spirit compass in this manner, representing the action of focusing on the compass rather than one's surroundings.</p>
+</>};
+const _spirit_of_glass = {title: "Spirit of glass", jsx: <><h2 id="eq-misc-spirit_of_glass-spirit-of-glass">Spirit of glass</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 9</Link><br/><strong>Price</strong> 35 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This fiber is composed of tiny strands of razor-sharp glass laced with alchemical elements. Anyone who touches it finds her skin irritated by countless tiny abrasions. Though it causes only minor discomfort, it opens the skin enough for poison to seep through, allowing injury poisons to be delivered to the affected creature as if they were contact poisons. The abrasions last for 1 hour or until cleaned and treated with a successful DC 10 Heal check (a full-round action). Poisoners sometimes place spirit of glass in a target's wardrobe or amid her personal effects along with a rag soaked in poison. Spirit of glass is often mistaken for lint or loose cloth, though it and the abrasions it causes can be identified with a successful DC 15 Craft (alchemy) check or DC 17 Heal check. Spirit of glass can be used only once before it is expended.</p>
+<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (2 cold iron + 7 darkwood + 5 gold)/calcination; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 1 hour; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical tool</p>
+</>};
+const _spirit_offerings = {title: "Spirit offerings", jsx: <><h2 id="eq-misc-spirit_offerings-spirit-offerings">Spirit offerings</h2>
+<p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 23</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>These offerings take many forms, such as food, incense, pinwheels, rare teas, perfectly smooth white pebbles, or stone tablets, but they are always kept in pouches tied with ribbon. Travelers in the Dragon Empires leave these offerings at the small shrines or holy sites that can be found scattered along roads. For 1 hour after a traveler leaves a spirit offering, any <Link to="/family/kami">kami</Link> the traveler encounters has its initial attitude improved by one step. This attitude adjustment reverts to normal after 10 minutes unless the creature's attitude is adjusted further during that time, such as via the Diplomacy skill, in which case the kami's attitude does not revert after the offering's effect expires. Once a spirit offering has been used to improved a kami's attitude, it cannot be reused.</p>
+</>};
+const _spirit_planchette_set = {title: "Spirit Planchette Set", jsx: <><h2 id="eq-misc-spirit_planchette_set-spirit-planchette-set">Spirit Planchette Set</h2>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_43_haunting_of_harrowstone">Pathfinder #43: Haunting of Harrowstone pg. 19</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>A spirit planchette is typically found in a wooden case along with a thin wooden board printed with numerous letters and numbers. Nonmagical versions of these divination tools can be purchased in curiosity shops; while these items can be used as alternative components for <Link to="/spell/augury">augury</Link> spells, only <Link to="/magic-wondrous/spirit_planchette">magical spirit planchettes</Link> allow users to communicate with the other side.</p>
+</>};
+const _spirit_trumpet = {title: "Spirit trumpet", jsx: <><h2 id="eq-misc-spirit_trumpet-spirit-trumpet">Spirit trumpet</h2>
+<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This telescopic horn is constructed of thin sheets of tin rolled into concentric cones, and measures about 3 feet long when fully extended. Primarily used by fraudulent mediums to disguise the true source of mysterious voices in darkened seance chambers, these trumpets add 1 to the DCs of saving throws to disbelieve the effects of the <Link to="/spell/ghost_sound">ghost sound</Link> and <Link to="/spell/ventriloquism">ventriloquism</Link> spells. When used to channel a haunt capable of communication, a spirit trumpet doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages.</p>
+</>};
+const _spirit_vision_ink = {title: "Spirit-vision ink", jsx: <><h2 id="eq-misc-spirit_vision_ink-spirit-vision-ink">Spirit-vision ink</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 28</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>Originally developed by kami-revering priests to write prayer scrolls, this pale ink is now often used by ninjas to mark locations or leave messages. Once spirit-vision ink dries, it becomes completely invisible. To invisible creatures, however, writing in spirit-vision ink shimmers with a rich azure hue.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+</>};
+const _spiritbane_spike = {title: "Spiritbane spike", jsx: <><h2 id="eq-misc-spiritbane_spike-spiritbane-spike">Spiritbane spike</h2>
+<p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 13</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>When you slash this alchemically treated iron spike against your flesh - a move action that deals 1d6 points of damage - the spike extends and becomes a <Link to="/eq-weapon/short_sword">short sword</Link> with the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon special ability. The spike reverts to its old form after 10 minutes, corroded and useless. Should a spiritbane spike rematerialize within a corporeal body, it is shunted to the nearest empty space without effect. Crafting this item requires a successful DC 25 Craft (alchemy) check.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _spiritual_leaders_vestments = {title: "Spiritual leader's vestments", jsx: <><h2 id="eq-misc-spiritual_leaders_vestments-spiritual-leaders-vestments">Spiritual leader's vestments</h2>
+<p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 28</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 8 lbs.<br/><strong>Category</strong> Clothing</p>
+<p>These fine garments come in assorted vibrant colors and are used in the most important religious or spiritual ceremonies. The vestments typically include a robe or cloak embroidered with a religion's holy symbol, as well as a number of extravagant accessories, such as fine jewelry, long sashes, tall hats, and other appropriate attire.</p>
+</>};
+const _spiritualists_kit = {title: "Spiritualist's kit", jsx: <><h2 id="eq-misc-spiritualists_kit-spiritualists-kit">Spiritualist's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 34 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit includes a <Link to="/eq-misc/backpack">backpack</Link>, a <Link to="/eq-misc/bedroll">bedroll</Link>, a <Link to="/eq-misc/belt_pouch">belt pouch</Link>, a <Link to="/eq-misc/censer">censer</Link>, a flask of <Link to="/eq-weapon/ectoplasmic_residue">ectoplasmic residue</Link>, <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, <Link to="/eq-misc/incense">incense</Link> (10 sticks), an <Link to="/eq-misc/iron_pot">iron pot</Link>, <Link to="/eq-misc/magnetized_paper">magnetized paper</Link>, <Link to="/eq-misc/torches">torches</Link> (10), <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), and a <Link to="/eq-misc/waterskin">waterskin</Link>.</p>
+</>};
+const _sponge_suit = {title: "Sponge suit", jsx: <><h2 id="eq-misc-sponge_suit-sponge-suit">Sponge suit</h2>
+<p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 19</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> 2 lbs. (or 10 lbs.)<br/><strong>Category</strong> Clothing</p>
+<p>Outwardly, this suit of clothing appears to be an ordinary <Link to="/eq-misc/travelers_outfit">traveler's outfit</Link>, albeit cut from thicker-than-normal cloth. The suit's inner lining is made of dozens of thin, flexible sponges. When soaked with water, these sponges can be worn against the skin to maintain the wearer's moisture while traveling out of the water.</p>
+<p>It takes 10 minutes to fully saturate the suit, which increases its weight from 2 pounds to 10 pounds.</p>
+<p>When worn, a sponge suit doubles the amount of time a water-dependent creature can spend on dry land before it begins to take damage or suffer other negative effects. When the sponges dry, wearers must submerge themselves in water or resaturate the suit, or else they suffer the consequences of being on dry land.</p>
+</>};
+const _spotlight = {title: "Spotlight", jsx: <><h2 id="eq-misc-spotlight-spotlight">Spotlight</h2>
+<p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 27</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> 18 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This large contraption functions like a <Link to="/eq-misc/hooded_lantern">hooded lantern</Link>, shedding large amounts of light in a single direction. A spotlight also contains several mirrors which amplify and aim the light. A spotlight creates a 5-foot-wide beam of normal light, which extends to a distance of 90 feet and continues for another 90 feet as <Link to="/rule/dim_light">dim light</Link>. It does not radiate any light outside the area of the beam. A spotlight does not increase the light level in normal light or bright light. A lantern burns for 1 hour on 1 pint of oil, and requires two hands to move and one hand to aim.</p>
+</>};
+const _spys_kit = {title: "Spy's kit", jsx: <><h2 id="eq-misc-spys_kit-spys-kit">Spy's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 13</Link><br/><strong>Price</strong> 140 gp; <strong>Weight</strong> 12-1/2 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit includes a <Link to="/eq-misc/book_of_letters">book of letters</Link>, a <Link to="/eq-misc/disguise_kit">disguise kit</Link>, a <Link to="/eq-misc/hollow_heeled_boot">hollow-heeled boot</Link>, <Link to="/eq-misc/ink">ink</Link> (1 vial), an <Link to="/eq-misc/inkpen">inkpen</Link>, <Link to="/eq-misc/paper">paper</Link> (10 sheets), a <Link to="/eq-misc/poison_pill_ring">poison pill ring</Link> (signet ring), <Link to="/eq-misc/sealing_wax">sealing wax</Link>, <Link to="/eq-misc/simple_invisible_ink">simple invisible ink</Link> (3 vials), and a <Link to="/eq-misc/wrist_sheath">wrist sheath</Link>.</p>
+</>};
+const _spycatchers_kit = {title: "Spycatcher's kit", jsx: <><h2 id="eq-misc-spycatchers_kit-spycatchers-kit">Spycatcher's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 13</Link><br/><strong>Price</strong> 260 gp; <strong>Weight</strong> 7-1/2 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit includes an <Link to="/eq-misc/antidote_kit">antidote kit</Link>, a <Link to="/eq-misc/cryptography_book">cryptography book</Link>, <Link to="/eq-misc/litmus_strip">litmus strips</Link> (5), and a <Link to="/eq-misc/portrait_book">portrait book</Link>.</p>
+</>};
+const _spyglass_masterwork = {title: "Spyglass (masterwork)", jsx: <><h2 id="eq-misc-spyglass_masterwork-spyglass-masterwork">Spyglass (masterwork)</h2>
+<p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 21</Link><br/><strong>Price</strong> 4,000 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Objects viewed through a masterwork spyglass are magnified to four times their size. Characters using a masterwork spyglass take a -1 penalty on Perception checks per 40 feet of distance to the target (instead of per 20 feet as with a normal <Link to="/eq-misc/spyglass">spyglass</Link>).</p>
+</>};
+const _spyglass = {title: "Spyglass", jsx: <><h2 id="eq-misc-spyglass-spyglass">Spyglass</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 1,000 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Objects viewed through a spyglass are magnified to twice their size. Characters using a spyglass take a -1 penalty on Perception skill checks per 20 feet of distance to the target, if the target is visible.</p>
+</>};
+const _squires_outfit = {title: "Squire's outfit", jsx: <><h2 id="eq-misc-squires_outfit-squires-outfit">Squire's outfit</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 20</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 8 lbs.<br/><strong>Category</strong> Clothing</p>
+<p>This outfit includes heavy woolen pants, a tunic, leather boots, a belt, sturdy gloves, a cap, and a heavy tabard bearing the colors or sigil of a noble house or organization. Many organizations provide new squires this outfit for free, with the expectation they wear it during their duties.</p>
+<p><strong>Tear-away clothing</strong><br/><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> +5 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Clothing</p>
+<p>Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is generally loose fitting and allows another layer of clothing to be worn underneath. The seams on this clothing are designed to break easily, making it a simple matter (a standard action) to remove these items and walk away with none the wiser. Any outfit can be crafted as tear-away clothing for an additional price.</p>
+</>};
+const _squirrel_common = {title: "Squirrel (common)", jsx: <><h2 id="eq-misc-squirrel_common-squirrel">Squirrel</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link><br/><strong>Price</strong> 1 gp (common), 20 gp (flying); <strong>Weight</strong> 2 lbs. (common), 1 lb. (flying)</p>
+<p>These tiny rodents are as common in the wild as rats are in cities. They typically eat nuts, seeds, and vegetation. Squirrels have the same statistics as rats.</p>
+<p><strong>Flying squirrel:</strong> These Tiny squirrels use a membrane of skin between their front and hind legs to glide. They sometimes serve spellcasters as familiars.</p>
+</>};
+const _stabling_per_day = {title: "Stabling (per day)", jsx: <><h2 id="eq-misc-stabling_per_day-stabling-per-day">Stabling (per day)</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link><br/><strong>Price</strong> 5 sp; <strong>Weight</strong> -<br/><strong>Category</strong> Animal Gear</p>
+<p>This is the amount it costs to stable a single creature that is Large or smaller for one day, at a typical stable or hostler. Particularly fancy stables may cost more, and larger or more exotic creatures cost double.</p>
+</>};
+const _stagnant_fog_sack = {title: "Stagnant fog sack", jsx: <><h2 id="eq-misc-stagnant_fog_sack-stagnant-fog-sack">Stagnant fog sack</h2>
+<p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements pg. 19</Link><br/><strong>Price</strong> 80 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>Gathered within this tightly woven, alchemically treated canvas sack is a sample of the pervasive fetid fog that looms near the border of the Plane of Air and the Plane of Water. When opened, the fog billows out in a 30-foot-radius area. Sight is extremely limited in an area of stagnant fog. A creature within 15 feet has <Link to="/rule/concealment">concealment</Link> (20% miss chance), while creatures farther away have total concealment (50% miss chance, and the attacker can't use sight to locate the target). In addition, creatures that end their turn within the cloud must succeed at a DC 14 Fortitude save or become <Link to="/misc/sickened">sickened</Link> for 1 round. Stagnant fog dissipates naturally after 1 minute. A moderate wind (11+ mph) disperses the stagnant fog in 1 round. This item can be crafted with a successful DC 20 Craft (alchemy) check.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _stalkers_oil = {title: "Stalker's oil", jsx: <><h2 id="eq-misc-stalkers_oil-stalkers-oil">Stalker's oil</h2>
+<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 29</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This is a clear, viscous liquid that is typically kept in a frosted glass vial with an unassuming label and cork. The oil is used to reduce the sound armor and weapons make while moving. Applying this oil to a single piece of equipment takes 1 minute and grants the wearer a +2 circumstance bonus on Stealth checks for 30 minutes. A vial of this oil is enough to coat one Medium piece of equipment, while a Large piece of equipment requires 4 vials. Two pieces of Small equipment can be covered with a single vial of oil. Exposure to or submersion in large amounts of water, such as swimming, immediately ends the effect of the oil.</p>
+</>};
+const _star_charts = {title: "Star charts", jsx: <><h2 id="eq-misc-star_charts-star-charts">Star charts</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 46</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Tools</p>
+<p>Many half-elves live in large cities or communities where they find it difficult to commune with nature. While some go on long sojourns to the wilderness, others spend their evenings on high, lonely rooftops, gazing at the stars. These lonely souls use star charts to track the movement of the stars and other celestial bodies. Anyone referencing one of these charts on a clear night can attempt a DC 20 Knowledge (geography) check to determine her approximate location and the month. In addition, these charts grant a +2 circumstance bonus on Survival checks made to avoid getting lost at night with a clear sky.</p>
+</>};
+const _starlight_juice = {title: "Starlight juice", jsx: <><h2 id="eq-misc-starlight_juice-starlight-juice">Starlight juice</h2>
+<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Tincture</p>
+<p>This clear liquid glows with pale light. For 4 hours after drinking this tincture, you emit light as a <Link to="/eq-misc/torch">torch</Link>. You are constantly <Link to="/misc/dazzled">dazzled</Link> during this time. If any effect would cause you to become dazzled during this time, you are instead <Link to="/misc/blinded">blinded</Link>. While under the effect of this tincture, you can intensify your glow as a swift action to that of bright light, as per <Link to="/spell/daylight">daylight</Link>, for 1 round. After activating the bright light effect, you emit only dim light with a range of 10 feet for the remainder of the tincture's duration.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+</>};
+const _static_wool = {title: "Static wool", jsx: <><h2 id="eq-misc-static_wool-static-wool">Static wool</h2>
+<p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 27</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>Alchemical compounds in this square of jagged, metallic fibers store and transfer electricity into clothing when rubbed against the fabric for 1 minute. When you are grappled within the next 10 minutes while wearing this electrically charged clothing, as well as light armor or no armor, the electricity discharges. This deals 1 point of nonlethal electricity damage to the grappling creature, and if it takes damage from the effect, it must succeed at a DC 20 combat maneuver check to grapple or immediately release you. The DC increases to 22 against a creature with the <Link to="/umr/grab">grab</Link> ability. A single square of static wool can be used five times before expending its alchemical compounds.</p>
+</>};
+const _stationery = {title: "Stationery", jsx: <><h2 id="eq-misc-stationery-stationery">Stationery</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Generally used only by the wealthy, fancy stationery is a finer-quality 9-inch-by-6-inch paper, often embossed or engraved with the owner's personal seal.</p>
+</>};
+const _statue_disguise_kit = {title: "Statue disguise kit", jsx: <><h2 id="eq-misc-statue_disguise_kit-statue-disguise-kit">Statue disguise kit</h2>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 13</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 8 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This disguise kit includes metallic or stone-colored makeup and cloth that you can apply to appear to be a statue; it grants a +2 bonus only on Disguise checks to resemble metal, stone, or similar materials. You take a -5 penalty on Disguise checks when impersonating an inanimate object. A viewer can attempt a single Perception check opposed by your Disguise check upon viewing you, and an additional check each time a creature interacts with you. This kit is exhausted after 10 uses.</p>
+</>};
+const _stiletto_boots = {title: "Stiletto boots", jsx: <><h2 id="eq-misc-stiletto_boots-stiletto-boots">Stiletto boots</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 20</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Clothing</p>
+<p>The most ostentatious and impractical of footwear, the tall heel attached to these boots adds several inches to your height. This type of boot is popular among Chelish nobles, though the trend has recently caught on among some members of Taldan courts. You can use the heel of a stiletto boot as an <Link to="/misc/improvised_weapon">improvised weapon</Link>, dealing damage as a <Link to="/eq-weapon/punching_dagger">punching dagger</Link></p>
+</>};
+const _stillgut_vial = {title: "Stillgut (vial)", jsx: <><h2 id="eq-misc-stillgut_vial-stillgut-vial">Stillgut (vial)</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 118</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid <Link to="/misc/nausea">nausea</Link> or <Link to="/misc/sickness">sickness</Link> for 1 hour. If you are already nauseated, you can drink stillgut as a move action. Drinking it in this fashion grants you a second saving throw (without the +5 bonus). Goblins often use stillgut so they can choke down meat or other foods in advanced stages of rot or decay.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _stilts_common = {title: "Stilts (common)", jsx: <><h2 id="eq-misc-stilts_common-stilts">Stilts</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link><br/><strong>Price</strong> 2 sp (common), 5 gp (masterwork); <strong>Weight</strong> 10 lbs. (common), 10 lbs. (masterwork)</p>
+<p>This item consists of a pair of wooden poles with a footrest halfway up. By standing on the footrests and holding the tops of the poles you can avoid certain ground-based threats to your feet. For example, you can use stilts to cross water without getting wet, but you would still activate a trap that triggers when you walk in a certain area. Using stilts reduces your base speed from 30 feet to 20 feet, or from 20 feet to 15 feet. You can hop off your stilts as a move action, or as a free action with a successful DC 10 Acrobatics check.</p>
+<p>You must use both your hands to walk with stilts. Walking with stilts requires a DC 5 Acrobatics check for each move. Failing this check means you do not move for that move action; failing by 5 or more means you fall off the stilts. If you want to use one hand for something else while standing on stilts, you must succeed at a DC 10 Acrobatics check or lose the action; if you want to use two hands, the DC increases to 20.</p>
+<p>Stilts for a Medium creature raise you 2 feet above the ground; stilts for a Small creature raise you 1 foot from the ground. You can use taller stilts, but each additional foot of elevation increases the Acrobatics DCs of using stilts by +5. A stilt has hardness 5 and 10 hit points. If you only have one stilt, your speed drops to 5 feet because you can only hop rather than walk.</p>
+<p><strong>Masterwork Stilts:</strong> These stilts strap to your feet and legs, allowing you to use your hands for other tasks without penalty. Walking on masterwork stilts requires a DC 10 Acrobatics check. Attaching or removing a masterwork stilt is a full-round action.</p>
+</>};
+const _stinging_whip_calistria = {title: "Stinging whip", jsx: <><h2 id="eq-misc-stinging_whip_calistria-stinging-whip">Stinging whip</h2>
+<p><strong>Sources</strong> <Link to="/source/faiths_of_balance">Faiths of Balance pg. 25</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Channel Foci<br/><strong>Deity</strong> <Link to="/faith/calistria">Calistria</Link></p>
+<p>This whip is made from braids of metallic wire. When it is activated, the wielder can expend the power within it to gain a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her next disarm or trip combat maneuver with the whip. This bonus is equal to the number of dice of the activating cleric's <Link to="/ability/channel_energy">channel energy</Link> ability. The whip remains charged until its magic is used or 1 hour has passed.</p>
+</>};
+const _stink_ink_arcane = {title: "Stink ink (arcane)", jsx: <><h2 id="eq-misc-stink_ink_arcane-stink-ink-arcane">Stink ink (arcane)</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 154</Link><br/><strong>Price</strong> special; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>Most common among <Link to="/race/ratfolk">ratfolk</Link> alchemists, arcane stink ink is used to inscribe formulae or spells into formula books and spellbooks. Like normal <Link to="/eq-misc/stink_ink">stink ink</Link>, the arcane version can only be read by creatures with the <Link to="/umr/scent">scent</Link> ability (although <Link to="/spell/read_magic">read magic</Link> works normally on spells and arcane formulae inscribed with stink ink). Using arcane stink ink to inscribe a spell or formula into a book costs +10% of the normal amount.</p>
+</>};
+const _stink_ink_common = {title: "Stink ink (common)", jsx: <><h2 id="eq-misc-stink_ink_common-stink-ink-common">Stink ink (common)</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 154</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>Stink ink is a special, pungent, musk-based ink that allows its user to encode information with smell rather than visually. Stink ink dries clear but its sharp, extremely localized smell can be picked out by those with sensitive enough noses to make it possible to read by sense of smell. Only creatures with the keen senses trait or <Link to="/umr/scent">scent</Link> ability can read stink ink without aid of some form of magic. Reading or writing something with stink ink takes twice as long as going through the same amount of information written in normal ink.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+</>};
+const _stirge = {title: "Stirge", jsx: <><h2 id="eq-misc-stirge-stirge">Stirge</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>These Tiny beasts are allegedly sold for indoor defense to rich clients, but often wind up in exotic blood sports. Despite the popular misconception that stirges are untameable vermin, such creatures are trainable, but they must be fed fresh blood daily to dissuade them from turning on their handlers.</p>
+</>};
+const _stonechipper_salve = {title: "Stonechipper salve", jsx: <><h2 id="eq-misc-stonechipper_salve-stonechipper-salve">Stonechipper salve</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 147</Link><br/><strong>Price</strong> 150 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This gritty, gray ointment weakens rocky materials. When applied to an object made of stone, it reduces the object's hardness by 3 for 10 minutes. As a standard action, a creature can apply the paste to affect one 5-foot-square or a Medium or smaller creature. The paste only affects hardness, not damage reduction or similar defenses.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _storm_glass = {title: "Storm glass", jsx: <><h2 id="eq-misc-storm_glass-storm-glass">Storm glass</h2>
+<p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 13</Link><br/><strong>Price</strong> 80 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Heavy gray mist fills the interior of a storm glass, a receptacle lined with thin metal strips and equipped with metal tuning forks jutting from inside the top and bottom of the glass. The forks are attuned to the Material Plane and can detect planar anomalies or intrusions, specifically the presence of outsiders. The mist within a storm glass changes coloration after 1 minute of being within 60 feet of a non-native outsider (including creatures possessed by non-native outsiders), and grants a +2 circumstance bonus on Knowledge (planes) checks to identify such creatures. The color change lasts as long as the jar remains within range of an outsider and for 1d4+1 rounds after leaving the area. Removing the storm glass from the Material Plane (including placing it in extraplanar containers such as a portable hole) causes the gas to permanently revert to a colorless, inert vapor.</p>
+</>};
+const _stout_solution = {title: "Stout solution", jsx: <><h2 id="eq-misc-stout_solution-stout-solution">Stout solution</h2>
+<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Tincture</p>
+<p>This highly viscous liquid resembles tree sap and is difficult to swallow. For 2 hours after drinking this tincture, you gain a +2 alchemical bonus to your CMD and you can perform <Link to="/rule/combat_maneuvers">combat maneuvers</Link> as if you were one size category larger. Your skeleton's increased density causes you to be treated as if you were <Link to="/rule/carrying_capacity">carrying</Link> a medium load, or a heavy load if you were already encumbered by a medium load, for the same duration.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 15</p>
+</>};
+const _stove_can = {title: "Stove can", jsx: <><h2 id="eq-misc-stove_can-stove-can">Stove can</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This little metal container holds a waxy fuel that creates enough heat to cook with but only as much light as a <Link to="/eq-misc/candle">candle</Link>. To snuff the flame, close the metal lid on the container; it cools enough that it can be carried in a few minutes. Each lasts 5 hours (enough to cook about 10 meals).</p>
+</>};
+const _straitjacket_common = {title: "Straitjacket (common)", jsx: <><h2 id="eq-misc-straitjacket_common-straitjacket">Straitjacket</h2>
+<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 250</Link><br/><strong>Price</strong> 5 gp (common), 50 gp (masterwork); <strong>Weight</strong> 1 lb. (common), 1 lb. (masterwork)</p>
+<p>Fashioned of durable canvas and leather straps, this instrument of restraint prevents its wearer from using his arms entirely. Properly binding a creature in a straitjacket requires 1 minute, and the creature must be willing or helpless. This time can be reduced to 5 rounds, but doing so lowers the DC to escape the restraints by 5. A creature wearing a straitjacket gains the <Link to="/rule/grapple_conditions">grappled condition</Link>, except it is able to move. Escaping from the straitjacket requires a successful DC 28 Escape Artist check (DC 30 for a masterwork straitjacket.)</p>
+</>};
+const _street_meat = {title: "Street meat", jsx: <><h2 id="eq-misc-street_meat-street-meat">Street meat</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link><br/><strong>Price</strong> 1 cp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Food/Drink</p>
+<p>Usually sold by vendors on a thin wooden stick, these small chunks of cooked meat often come from many different sorts of creatures - rats and pigeons are the most common.</p>
+</>};
+const _stretch_cords = {title: "Stretch cords", jsx: <><h2 id="eq-misc-stretch_cords-stretch-cords">Stretch cords</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 244</Link><br/><strong>Price</strong> 5 sp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Sold in pairs, these cords have an elastic quality. Both cords measure 2 feet long but can be extended to 4 feet. Each end of a cord has a small metal hook. Employed together, these cords can be used to tie down all sorts of equipment and prevent damage from wind or other inhospitable weather.</p>
+</>};
+const _stretcher = {title: "Stretcher", jsx: <><h2 id="eq-misc-stretcher-stretcher">Stretcher</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Tools</p>
+<p>A stretcher allows two people to share the burden of carrying one heavy object. You can also use it to drag a load you couldn't carry on your own. A stretcher holds up to 300 pounds.</p>
+</>};
+const _string_or_twine_50_ft = {title: "String or twine (50 ft.)", jsx: <><h2 id="eq-misc-string_or_twine_50_ft-string-or-twine-50-ft">String or twine (50 ft.)</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 48</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link><br/><strong>Price</strong> 1 cp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>Sold in balls or spools of 50 feet, string and twine are useful for rigging traps and alarms and are a vital component of grappling bolts and arrows. String or twine has hardness 0, 1 hit point, and a break DC of 14.</p>
+</>};
+const _subversive_vest_vest = {title: "Subversive vest (vest)", jsx: <><h2 id="eq-misc-subversive_vest_vest-subversive-vest">Subversive vest</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 234</Link><br/><strong>Price</strong> 45 gp (vest), 90 gp (vestment); <strong>Weight</strong> 1 lb. (vest), 2 lbs. (vestment)</p>
+<p>Subversive vests are tailored to the pinnacle of courtly fashion, yet have strategically placed compartments for hiding <Link to="/eq-misc/thieves_tools">thieves' tools</Link>. You gain a +2 circumstance bonus on Sleight of Hand checks to conceal thieves' tools within a subversive vest.</p>
+<p>A subversive vestment is like a subversive vest, but resembles a clerical vestment and has a greater carrying capacity. In addition to thieves' tools, you can stow two 1-pint <Link to="/eq-misc/flask">flasks</Link> in specially designed pockets that conceal the items' bulk from common view, with the same circumstance bonus as a subversive vest.</p>
+</>};
+const _suckers_barrel = {title: "Sucker's barrel", jsx: <><h2 id="eq-misc-suckers_barrel-suckers-barrel">Sucker's barrel</h2>
+<p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 117</Link><br/><strong>Price</strong> 4 gp; <strong>Weight</strong> 35 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>A sucker's barrel is constructed to appear to the casual eye exactly like a normal barrel. However, an inner barrier installed near one of the barrel's ends hides a cavity containing a bladder filled with water. This creates a false bottom such that, when the barrel is full, it weighs and feels the same as a barrel filled completely with more valuable liquid, such as alcohol or oil. In this way, a merchant can "fill" a barrel with a smaller quantity of a liquid (typically 75% of the barrel's total capacity) and then sell it as if it were a full barrel's worth.</p>
+</>};
+const _sugar_glass_bottle = {title: "Sugar glass bottle", jsx: <><h2 id="eq-misc-sugar_glass_bottle-sugar-glass-bottle">Sugar glass bottle</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Tools</p>
+<p>This bottle looks like it's made of glass, but is more fragile and doesn't cause damage when it strikes a creature or object. Highly prized by theater performers, sugar glass bottles grant a +2 circumstance bonus on Bluff and Perform checks involving the creation of seemingly realistic fights.</p>
+</>};
+const _summoners_kit = {title: "Summoner's kit", jsx: <><h2 id="eq-misc-summoners_kit-summoners-kit">Summoner's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link><br/><strong>Price</strong> 8 gp; <strong>Weight</strong> 19 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit includes a <Link to="/eq-misc/backpack">backpack</Link>, a <Link to="/eq-misc/bedroll">bedroll</Link>, a <Link to="/eq-misc/belt_pouch">belt pouch</Link>, a <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, an <Link to="/eq-misc/iron_pot">iron pot</Link>, a <Link to="/eq-misc/mess_kit">mess kit</Link>, <Link to="/eq-misc/soap">soap</Link>, <Link to="/eq-misc/torches">torches</Link> (10), <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), and a <Link to="/eq-misc/waterskin">waterskin</Link>.</p>
+</>};
+const _sun_cinder = {title: "Sun cinder", jsx: <><h2 id="eq-misc-sun_cinder-sun-cinder">Sun cinder</h2>
+<p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook pg. 19</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>Sun cinder is a fine powder that glows faintly when exposed to light. One bag of this alchemically created talc contains 5 uses. When opened, it shines like a <Link to="/eq-misc/candle">candle</Link>. If sprinkled on a <Link to="/eq-misc/torch">torch</Link> or similar flame, 1 dose of sun cinder increases the light level of the area that flame illuminates by one additional step, up to bright light. This increased illumination lasts for 1 minute. Multiple doses of sun cinder can be used to further increase the light shed by the same source. A single dose of sun cinder does not affect flames larger than a torch. Sun cinder doesn't affect a light source's ability to penetrate magical darkness. Crafting 5 doses of sun cinder requires a successful DC 20 Craft (alchemy) check.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _sun_cream = {title: "Sun cream", jsx: <><h2 id="eq-misc-sun_cream-sun-cream">Sun cream</h2>
+<p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands pg. 28</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>Each application of this alchemical solution, typically compounded from substances found in desert flowers, fruits, and roots, heals 1d4 points of nonlethal damage that the target has taken from <Link to="/rule/heat">heat exposure</Link>. If you succeed at a DC 20 Heal check while applying sun cream, you may add your Wisdom modifier to the nonlethal damage healed. A creature cannot benefit from more than one application of sun cream in a 24-hour period.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _sunblock_kohl = {title: "Sunblock kohl", jsx: <><h2 id="eq-misc-sunblock_kohl-sunblock-kohl">Sunblock kohl</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 15</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Clothing</p>
+<p>Made from ground antimony, this sooty cosmetic is used to line the eyes. It grants the wearer a +2 circumstance bonus on saves against light-based effects that would <Link to="/misc/dazzled">dazzle</Link> or <Link to="/misc/blind">blind</Link> him for 8 hours. A container of kohl holds 10 applications.</p>
+</>};
+const _sunderblock = {title: "Sunderblock", jsx: <><h2 id="eq-misc-sunderblock-sunderblock">Sunderblock</h2>
+<p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 21</Link><br/><strong>Price</strong> 35 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This lumpy, lard-like, alchemical substance is designed to protect armor and weapons from dents and cracks that commonly develop in close-combat equipment. When liberally applied to armor or weapons, the material provides a greasy surface that blunts impacts, causes blades to slide aside, and strengthens the gear it is applied to. A single container holds enough sunderblock to coat a single weapon or suit of armor as a full-round action. The effects aren't pronounced enough to increase the Armor Class bonus of a suit of armor, but the hardness of armors and weapons coated with sunderblock increases by 5. This bonus lasts for 12 hours, at which point the greasy substance dries and flakes away.</p>
+</>};
+const _sundered_mask_nethys = {title: "Sundered mask", jsx: <><h2 id="eq-misc-sundered_mask_nethys-sundered-mask">Sundered mask</h2>
+<p><strong>Sources</strong> <Link to="/source/faiths_of_balance">Faiths of Balance pg. 25</Link><br/><strong>Price</strong> 250 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Channel Foci<br/><strong>Deity</strong> <Link to="/faith/nethys">Nethys</Link></p>
+<p>This mask is a representation of Nethys's own. Activating the mask charges it with healing power. If a member of Nethys' faith wears the mask when it is activated, the first time the wearer takes damage, the mask releases the stored energy into the wearer, healing a number of hit points equal to the number of dice of the activating cleric's <Link to="/ability/channel_energy">channel energy</Link> ability. The mask heals its wearer regardless of the type of channeled energy used and whether the target is living or undead. This healing does not prevent the wearer from dying because of hit point damage, and is mainly used to provide instant healing when a cleric is occupied or can only channel a harmful kind of energy. The mask remains charged until it heals someone or 24 hours pass.</p>
+</>};
+const _sunrod = {title: "Sunrod", jsx: <><h2 id="eq-misc-sunrod-sunrod">Sunrod</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 30</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link><br/><strong>Price</strong> 2 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This 1-foot-long, gold-tipped iron rod glows brightly when struck (a standard action). It sheds normal light in a 30-foot radius and increases the <Link to="/rule/light_level">light level</Link> by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A sunrod does not increase the light level in normal light or bright light. It glows for 6 hours, after which the gold tip is burned out and worthless.</p>
+<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (2 magnesium + 2 phosphorus)/ceration; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical tool</p>
+</>};
+const _sunsoil = {title: "Sunsoil", jsx: <><h2 id="eq-misc-sunsoil-sunsoil">Sunsoil</h2>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 31</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>Created by dwarves after the Quest for Sky, this faintly glowing collection of minerals allows photosynthetic plants to grow in underground environments without sunlight. Sunsoil has since spread to a handful of agricultural communities throughout the Darklands, particularly among duergar plantations and svirfneblin enclaves. One pound of sunsoil covers a 20-foot by 20-foot area of regular earth and takes 1 minute to distribute evenly. A treated area allows plants to grow without sunlight for 4 months. Light-based spells and magical effects trigger an alchemical reaction in sunsoil. Any spell with the light descriptor cast on a pound of sunsoil causes all areas covered in the soil to be treated as areas of bright light for 1 round. This light counts as natural sunlight for creatures vulnerable to such effects. After being subjected to such an effect, sunsoil immediately becomes normal dirt.</p>
+</>};
+const _surefoot_training_blocks = {title: "Surefoot training blocks", jsx: <><h2 id="eq-misc-surefoot_training_blocks-surefoot-training-blocks">Surefoot training blocks</h2>
+<p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 21</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 25 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This collection of eight heavy wooden or metal cones, cylinders, and spheres fills an ordinary backpack. None of the shapes is precisely regular, and when stacked atop each other, they teeter precariously and easily topple. Acrobats practice by stacking these blocks in unstable configurations and attempting to balance while standing upon them.</p>
+<p>Using surefoot training blocks to improve your balance requires 1 hour of practice and a DC 15 Acrobatics check. If you succeed at the check, you gain a +2 circumstance bonus on Climb checks and on Acrobatics checks to balance on narrow surfaces or uneven ground. This bonus lasts for 24 hours or until you fail a Climb or Acrobatics check.</p>
+</>};
+const _sureseal_bladder_mundane = {title: "Sureseal bladder (mundane)", jsx: <><h2 id="eq-misc-sureseal_bladder_mundane-sureseal-bladder">Sureseal bladder</h2>
+<p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 56</Link><br/><strong>Price</strong> 1 sp (mundane), 8 gp (potion); <strong>Weight</strong> 1 lb. (mundane), - (potion)</p>
+<p>While <Link to="/eq-misc/potion_sponge">potion sponges</Link> are a reasonable enough method for air-breathers like undines to prepare to bring a potion underwater, aquatic creatures prefer a solution that allows them to prepare potions, beverages, and other liquids underwater to begin with. A sureseal bladder is made of a thin membrane that won't allow liquid through. By passing a solid spout or tube through the membrane, you can fill the bladder without allowing in any ambient seawater, and the membrane seals behind the spout. Once the bladder is full, the drinker can nip on the end of the membrane in order to sip the drink at her leisure, slowly crumpling the bladder for eventual disposal. The cheaper mundane sureseal bladders hold about 2 cups of liquid and work best for enjoying a favorite drink; the listed weight assumes the mundane sureseal bladder is full. Potions rely on drinking the entire dose, so potion sureseal bladders, while much smaller (just large enough for a potion), are pressurized in order to expel the entire potion at once without losing any of it, allowing the drinker to drink them as a standard action just like drinking a potion above the waves. Either type of sureseal bladder can be used only once.</p>
+</>};
+const _surge_syrup = {title: "Surge syrup", jsx: <><h2 id="eq-misc-surge_syrup-surge-syrup">Surge syrup</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 27</Link><br/><strong>Price</strong> 80 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Remedies</p>
+<p><strong className="hl">Mythic:</strong> Consuming a vial of surge syrup grants you a +1d4 alchemical bonus on your next mythic surge roll. Every round after you consume surge syrup that you don't use your surge ability, the bonus provided by this item decreases by 1 (minimum 0).</p>
+<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (12 dew of lunary + 40 spirit of wine + 40 urea)/congelation; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/alchemists_lab">alchemist's lab</Link>; <strong>Type</strong> alchemical remedy</p>
+</>};
+const _surgeons_tools = {title: "Surgeon's tools", jsx: <><h2 id="eq-misc-surgeons_tools-surgeons-tools">Surgeon's tools</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/pathfinder_8_seven_days_to_the_grave">Pathfinder #8: Seven Days to the Grave pg. 61</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Tools</p>
+<p>When used in conjunction with a <Link to="/eq-misc/healers_kit">healer's kit</Link>, surgeon's tools raise the kit's bonus to a +3 circumstance bonus on Heal checks to treat wounds or deadly wounds.</p>
+</>};
+const _surgical_jelly = {title: "Surgical jelly", jsx: <><h2 id="eq-misc-surgical_jelly-surgical-jelly">Surgical jelly</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 24</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body. Consuming surgical jelly immediately ends any <Link to="/rule/infestations">infestations</Link> (such as <Link to="/infestation/rot_grubs">rot grubs</Link>), implanted eggs (such as those implanted by <Link to="/monster/xill">xills</Link>), or other non-disease effects that can be cured by <Link to="/spell/remove_disease">remove disease</Link>, so long as such a cure does not require a caster level check. Consuming a pot of surgical jelly is a full-round action.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _survival_kit_common = {title: "Survival kit (common)", jsx: <><h2 id="eq-misc-survival_kit_common-survival-kit">Survival kit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link><br/><strong>Price</strong> 5 gp (common), 50 gp (masterwork); <strong>Weight</strong> 4 lbs. (common), 5 lbs. (masterwork)</p>
+<p>A survival kit provides the necessary tools for day-to-day existence in a temperate wilderness. It typically contains a <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, a <Link to="/eq-misc/mess_kit">mess kit</Link>, two <Link to="/eq-misc/waterskin">waterskins</Link> (enough to hold water for 1 person for 1 day), very basic maps showing major landmarks, and a small utility knife.</p>
+<p>A masterwork survival kit contains higher quality gear and a guide to identifying flora and fauna. It grants you a +2 circumstance bonus on Survival checks to get along in the wild, deal with severe weather, keep from getting lost, avoid natural hazards such as quicksand, and predict the weather.</p>
+</>};
+const _swarmsuit = {title: "Swarmsuit", jsx: <><h2 id="eq-misc-swarmsuit-swarmsuit">Swarmsuit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>These heavy and overlapping layers of clothing, coupled with a wide hat outfitted with a dense, veil-like netting around its brim, makes it all but impossible for Diminutive and Fine creatures to make physical contact with your body. Wearing a swarmsuit cuts your speed in half, but gives you DR 10/- against swarms of Fine creatures and DR 5/- against swarms of Diminutive creatures.</p>
+</>};
+const _swashbucklers_kit = {title: "Swashbuckler's kit", jsx: <><h2 id="eq-misc-swashbucklers_kit-swashbucklers-kit">Swashbuckler's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link><br/><strong>Price</strong> 9 gp; <strong>Weight</strong> 42 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit includes a <Link to="/eq-misc/backpack">backpack</Link>, a <Link to="/eq-misc/bedroll">bedroll</Link>, a <Link to="/eq-misc/belt_pouch">belt pouch</Link>, a <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, an <Link to="/eq-misc/iron_pot">iron pot</Link>, a <Link to="/eq-misc/mess_kit">mess kit</Link>, <Link to="/eq-misc/rope">rope</Link>, <Link to="/eq-misc/soap">soap</Link>, <Link to="/eq-misc/torches">torches</Link> (10), <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), and a <Link to="/eq-misc/waterskin">waterskin</Link>.</p>
+</>};
+const _sweet_rest = {title: "Sweet Rest", jsx: <><h2 id="eq-misc-sweet_rest-sweet-rest">Sweet Rest</h2>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_139_the_dead_road">Pathfinder #139: The Dead Road pg. 63</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>When imbibed, this effervescent solution causes a heavy warmth to spread from your stomach outward to your limbs, resulting in feelings of security and well-being. If you sleep for at least 1 hour after consuming the solution, the next time within the next 24 hours that you attempt a saving throw to remove a temporary negative level, you can roll the save twice and use the better result. Crafting this item requires a successful DC 20 Craft (alchemy) check.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _swift_hands_tonic = {title: "Swift hands tonic", jsx: <><h2 id="eq-misc-swift_hands_tonic-swift-hands-tonic">Swift hands tonic</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link><br/><strong>Price</strong> 250 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>When imbibed, this bitter, rust-colored concoction grants you 1d4 uses of <Link to="/misc/alchemical_inspiration">alchemical inspiration</Link> that can be used only on Disable Device checks and Sleight of Hand checks. These benefits last for 1 hour; during this time, you must roll all Acrobatics checks and Escape Artist checks twice and take the worse result.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _swim_fins = {title: "Swim fins", jsx: <><h2 id="eq-misc-swim_fins-swim-fins">Swim fins</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 1 sp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Tools</p>
+<p>Swim fins add 10 feet to your swimming speed but reduce your base speed to 5 feet. Donning or doffing swim fins requires 5 rounds.</p>
+</>};
+const _sylirican_lemons = {title: "Sylirican lemons", jsx: <><h2 id="eq-misc-sylirican_lemons-sylirican-lemons">Sylirican lemons</h2>
+<p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 6</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Food/Drink</p>
+<p>Sylirican lemons make prized preserves when ground, salted, and sealed in jars, adding an intense citrus flavor when sprinkled atop other foods. If, within 8 hours of consuming a meal seasoned with Sylirican lemons, you gain the <Link to="/misc/confused">confused</Link> condition, you can roll 1d6 and subtract the result from the result of your d% roll to determine what action you take for the first round in which you are confused. This benefit does not stack with itself. The price and weight listed represent a jar containing enough preserved lemons to season 10 meals.</p>
+</>};
+const _symptom_kit = {title: "Symptom kit", jsx: <><h2 id="eq-misc-symptom_kit-symptom-kit">Symptom kit</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This small wooden box has many tiny compartments filled with items useful if you want to feign a sickness, as well as a handy reference book outlining common indicators for some of the more feared virulent diseases. The kit includes such things as false pustules, pills that cause the person chewing them to foam at the mouth, and herbal concoctions designed to induce fevers or vomiting. Using a symptom kit grants you a +5 circumstances bonus on Disguise checks made for the purpose of simulating illness. A symptom kit is exhausted after 10 uses.</p>
+</>};
+const _synthetic_mumia = {title: "Synthetic mumia", jsx: <><h2 id="eq-misc-synthetic_mumia-synthetic-mumia">Synthetic mumia</h2>
+<p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 9</Link><br/><strong>Price</strong> 150 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>A laboratory-created version of the expensive and infamous Osirian drug <Link to="/drug/mumia">mumia</Link>, synthetic mumia is a mixture of honey, embalming fluids, and various animal organs. The murky liquid comes enclosed in small packets made of intestine. Mumia and synthetic mumia may be taken interchangeably to stave off the effects of addiction to either substance, and is thus used by some mumia junkies hoping to quit their addiction.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 14</p>
+</>};
+const _tabard = {title: "Tabard", jsx: <><h2 id="eq-misc-tabard-tabard">Tabard</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Clothing</p>
+<p>Often worn over armor, this outer garment is usually sleeveless and open at the sides. The broad front provides a canvas for insignias and coats of arms, making a wearer's membership in an order readily apparent.</p>
+</>};
+const _talking_board = {title: "Talking board", jsx: <><h2 id="eq-misc-talking_board-talking-board">Talking board</h2>
+<p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 251</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This thin, rectangular wooden board is printed with an arching array of alphabetical letters, numbers, and short affirmative and negative messages. Paired with a small, heart-shaped pointer on short wooden legs, this device enables communication with spiritual entities or the user's deep subconscious mind. A talking board can be used in place of a pencil and paper or a writing planchette when attempting a Linguistics check with the <Link to="/skill/automatic_writing">automatic writing</Link> occult skill unlock, and provides a +2 circumstance bonus on such checks. In addition, given the size of the board, the user can work in conjunction with another psychically sensitive creature who can bolster the attempt with a successful aid another check.</p>
+<p>A user can also use the board alone to initiate the recall memory use of the <Link to="/skill/hypnotism">hypnotism</Link> occult skill unlock. The user attempts the skill check as normal, with herself as the subject, and receives a +2 circumstance bonus on the check.</p>
+<p>When used to channel a haunt capable of communication, a talking board doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages.</p>
+<p>Though a talking board can be used for some of the same functions as other gear (such as <Link to="/eq-misc/automatic_writing_planchette">automatic writing planchettes</Link> and <Link to="/eq-misc/hypnotists_locket">hypnotist's lockets</Link>), these items can't be used in unison to gain multiple bonuses or increase the rate of communication with a haunt to more than double.</p>
+</>};
+const _tattoo = {title: "Tattoo", jsx: <><h2 id="eq-misc-tattoo-tattoo">Tattoo</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link>, <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 21</Link><br/><strong>Price</strong> 1 cp-20 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
+<p>The price of a tattoo depends on the quality, size, and number of colors used. A coin-sized tattoo in blue ink that will blur over a decade costs 1 cp, a hand-sized one in black ink that won't fade costs 1 sp, and a tattoo covering an entire back takes several sessions and costs 10 gp. Each additional color costs as much as a single tattoo of its size. While these prices represent the baseline, tattoos - like any other artwork - can be worth far more depending on the prestige of the artist.</p>
+</>};
+const _taxidermy_tools = {title: "Taxidermy tools", jsx: <><h2 id="eq-misc-taxidermy_tools-taxidermy-tools">Taxidermy tools</h2>
+<p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 27</Link><br/><strong>Price</strong> 80 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Kits</p>
+<p>This kit consists of hooks, knives, tweezers, and other metal tools, plus various vials of alchemical preservatives, all organized within a sturdy satchel. The tools provide a +2 circumstance bonus on skill checks made to harvest parts or craft trophies and to craft magic items that incorporate such things. Crafted ornaments and parts harvested using taxidermy tools remain potent for twice their usual duration.</p>
+</>};
+const _tea_ceremonial_cup = {title: "Tea (ceremonial, cup)", jsx: <><h2 id="eq-misc-tea_ceremonial_cup-tea">Tea</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 4 cp (ceremonial, cup), 2 cp (cup); <strong>Weight</strong> 1/2 lb. (ceremonial, cup), 1/2 lb. (cup)</p>
+<p>A popular beverage in many regions, tea may be green or black, depending on when the leaves are picked and how they are prepared. It may be served unadorned, or with milk, sugar, lemon, or spices.</p>
+</>};
+const _tea_ceremony_set = {title: "Tea ceremony set", jsx: <><h2 id="eq-misc-tea_ceremony_set-tea-ceremony-set">Tea ceremony set</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Food/Drink</p>
+<p>This includes a tray, a teapot, a whisk, a bowl to mix the tea in, four tiny cups, and a decorative box in which to store all of these items. The ceremonial brewing of tea is part of the classical tea ceremony. Knowing the proper steps for preparing and participating in a tea ceremony requires a successful DC 15 Knowledge (nobility) skill check.</p>
+</>};
+const _tea_of_transference = {title: "Tea of transference", jsx: <><h2 id="eq-misc-tea_of_transference-tea-of-transference">Tea of transference</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 25</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p>
+<p>This foul-tasting green tea allows monks to focus their ki on improving abilities they've gained through other training. By drinking a cup of tea of transference, you can expend 1 point from your ki pool to regain 1 point from your arcane pool, 2 rounds of barbarian rage, 2 rounds of bardic performance, one use of channel energy, 1 grit point, one use of smite evil, one expended extract slot at least 1 level lower than the highest-level extract you can create, or one expended spell slot at least 2 levels lower than the highest-level spell you can cast. You must have the ki pool class feature and the class feature you want to regain uses of in order to benefit from tea of transference.</p>
+<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (5 gold + 5 realgar + 15 spirit of wine)/sublimation; <strong>Craft DC</strong> 20<br/><strong>Time</strong> 1 day; <strong>Tools</strong> <Link to="/eq-misc/retort">retort</Link>; <strong>Type</strong> alchemical remedy</p>
+</>};
+const _tea_kelp = {title: "Tea, kelp", jsx: <><h2 id="eq-misc-tea_kelp-tea-kelp">Tea, kelp</h2>
+<p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 19</Link><br/><strong>Price</strong> 3 sp; <strong>Weight</strong> -<br/><strong>Category</strong> Food/Drink</p>
+<p>Kelp tea is a favorite relaxing drink under the sea, brewed from various rare species of kelp to create over a dozen distinctive flavors. The listed price pays for enough tea to fill a small waterproof bladder such as a sureseal bladder and doesn't include the price of the bladder.</p>
+</>};
+const _teaching_staff = {title: "Teaching staff", jsx: <><h2 id="eq-misc-teaching_staff-teaching-staff">Teaching staff</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 25</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Channel Foci<br/><strong>Deity</strong> Any</p>
+<p>Carved from heartwood and bearing ornate symbols along its length, this staff is used to reveal critical or uplifting information to other members of the faith, usually during a sermon. When activated, all creatures of the cleric's religion gain a sacred (if positive energy) or profane (if negative energy) bonus on Knowledge (religion) checks for 1 minute; this bonus is equal to the number of dice of the cleric's <Link to="/ability/channel_energy">channel energy</Link> ability.</p>
+</>};
+const _teapot = {title: "Teapot", jsx: <><h2 id="eq-misc-teapot-teapot">Teapot</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link><br/><strong>Price</strong> 1 sp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>This is a small spouted pot for cooking tea. It includes a lid and a strainer, and can make four cups of tea at a time.</p>
+</>};
+const _telescope_x10 = {title: "Telescope (&times;10)", jsx: <><h2 id="eq-misc-telescope_x10-telescope">Telescope</h2>
+<p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 27</Link><br/><strong>Price</strong> 2,000 gp (&times;10), 8,000 gp (&times;250), 4,000 gp (&times;50); <strong>Weight</strong> 12 lbs. (&times;10), 44 lbs. (&times;250), 23 lbs. (&times;50)</p>
+<p>This basic, semi-portable telescope allows the user to see greater detail on very distant objects. Telescopes can be built to a variety of specifications, but those most often used by adventuring stargazers are listed here. A telescope grants the listed circumstance bonus on Perception checks to discern celestial bodies and on Knowledge (geography) checks to learn about the planets when used at night.</p>
+<p>A telescope can be used to look at either terrestrial or celestial objects. Distance penalties on Perception checks for viewing objects through the telescope are divided by the telescope's magnification. Assembling, disassembling, or significantly moving a telescope takes 1 minute.</p>
+<ScrollContainer id="eq-misc-telescope_x10--table-0"><table>
+<thead>
+<tr>
+<th>Magnification</th>
+<th>Circumstance Bonus</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&times;10</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>&times;50</td>
+<td>+4</td>
+</tr>
+<tr>
+<td>&times;250</td>
+<td>+6</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _tennis_gear = {title: "Tennis gear", jsx: <><h2 id="eq-misc-tennis_gear-tennis-gear">Tennis gear</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link><br/><strong>Price</strong> 3 sp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Entertainment</p>
+<p>This includes a wool-stuffed leather ball and a wooden racket strung with animal gut.</p>
+</>};
+const _tent_large = {title: "Tent (large)", jsx: <><h2 id="eq-misc-tent_large-tent">Tent</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 30 gp (large), 15 gp (medium), 100 gp (pavilion), 10 gp (small); <strong>Weight</strong> 40 lbs. (large), 30 lbs. (medium), 50 lbs. (pavilion), 20 lbs. (small)</p>
+<p>Tents come in a variety of sizes and accommodate between one and 10 people. A small tent holds one Medium creature and takes 20 minutes to assemble, a medium tent holds two creatures and takes 30 minutes, a large tent holds four creatures and takes 45 minutes, and a pavilion holds 10 creatures and takes 90 minutes (two Small creatures count as a Medium creature, and one Large creature counts as two Medium creatures). Pavilion tents are large enough to accommodate a small fire in the center. Packing up a tent takes half as long as assembling it.</p>
+</>};
+const _tent_cover = {title: "Tent cover", jsx: <><h2 id="eq-misc-tent_cover-tent-cover">Tent cover</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 244</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> 15 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>When fastened over a normal tent, this sheet of resilient waterproof animal gut provides an additional layer of protection against harsh weather and pestering insects. Attaching the cover requires 1 minute of work. The occupants of a tent that is fitted with the cover gain a +5 circumstance bonus on saves to resist the adverse effects of dust storms, rain, snow, and other harmful weather conditions. The occupants also gain DR 5/- against swarm damage caused by swarms composed of Diminutive or smaller creatures outside the tent. If an occupant takes no damage from a swarm as a result of this DR, she is not affected by the swarm's distraction ability. The swarm can attempt a DC 20 Reflex save as a full-round action to enter the tent and deal full damage in subsequent rounds.</p>
+</>};
+const _tent_hanging = {title: "Tent, hanging", jsx: <><h2 id="eq-misc-tent_hanging-tent-hanging">Tent, hanging</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 27</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> 15 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>A hanging tent is a <Link to="/eq-misc/small_tent">small tent</Link> (able to comfortably house a single Medium creature) with a teardrop shape, which hangs from a sturdy anchor rope. The rope can be tied to a tree limb, grappling hook, or even a piton hammered into a cliff side. Hanging tents are used primarily in mountainous terrain (where no flat surface may be available for camping) and swamps (where no dry ground may be available). Climbing in or out of a hanging tent is a full-round action that requires a DC 10 Climb check. Failure indicates another attempt must be made, while failure by 5 or more indicates the camper has fallen from the tent.</p>
+</>};
+const _tepache_cup = {title: "Tepache (cup)", jsx: <><h2 id="eq-misc-tepache_cup-tepache-cup">Tepache (cup)</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link><br/><strong>Price</strong> 5 cp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Food/Drink</p>
+<p>This mildly alcoholic beverage is made of beer, pineapple (or other tropical fruit), sugar, and cinnamon, then fermented a few days and served cold with chili powder. It is sweet and pleasant but common only in warmer climates.</p>
+</>};
+const _terror_kite = {title: "Terror kite", jsx: <><h2 id="eq-misc-terror_kite-terror-kite">Terror kite</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 165</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Entertainment</p>
+<p>This small kite is usually painted with a fierce face and bright colors and is edged with serrated wooden blades. Its twine is strengthened by soaking it in glue and sometimes with crushed glass to give it a slight cutting edge. The kite has hardness 5 and 3 hit points. Participants in a kite battle make alternating sunder combat maneuvers against each other's kites; each successful maneuver allows a competitor to roll 1d6 points of damage against the opponent's kite. When a kite reaches 0 hit points, it is broken or its string is cut, and its player loses the match. In some matches, points are awarded for touching the kite's top to the opponent's string, with the winner being the first to reach a set point total. Those interested in kite-fighting may select the terror kite as a weapon for the purpose of feats such as <Link to="/feat/weapon_focus">Weapon Focus</Link> and <Link to="/feat/weapon_specialization">Weapon Specialization</Link>, and apply these bonuses on kite damage rolls and on their sunder combat maneuver attempts made while using terror kites.</p>
+</>};
+const _the_prophecies_of_kalistrade = {title: "The Prophecies of Kalistrade", jsx: <><h2 id="eq-misc-the_prophecies_of_kalistrade-the-prophecies-of-kalistrade">The Prophecies of Kalistrade</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This is the most frequently published book in Druma. It details the <Link to="/rule/f_profits">extremely strict</Link> dietary, sexual, and clothing restrictions followers must observe as part of their religion.</p>
+</>};
+const _thermometer = {title: "Thermometer", jsx: <><h2 id="eq-misc-thermometer-thermometer">Thermometer</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Tools</p>
+<p>This foot-long tube has marks for the freezing temperature of seawater, a moderate spring day in Absalom, and the boiling temperature of melted ice. Temperatures much below the freezing point or above the boiling point break the device.</p>
+</>};
+const _thief_trainer = {title: "Thief trainer", jsx: <><h2 id="eq-misc-thief_trainer-thief-trainer">Thief trainer</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 14</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 4 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This small box is covered with varying gears, locks, panels, and other mechanisms. Thieves practice their mechanical skills by attempting to undo or unlock the various mechanisms to reach the box's center. The mechanisms shift and rearrange, allowing for a multitude of combinations to keep the box from opening. Once unlocked, the box resets itself and provides a reordered set of mechanisms, starting the process over. Using a thief trainer to improve your skills requires 1 hour and a DC 25 Disable Device check. If you succeed at the check, you reduce the time required to complete a Disable Device check by 2 rounds (minimum 1 round). This bonus lasts for 24 hours.</p>
+</>};
+const _thieves_ring = {title: "Thieves' ring", jsx: <><h2 id="eq-misc-thieves_ring-thieves-ring">Thieves' ring</h2>
+<p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 25</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Tools</p>
+<p>This slightly oversized ring conceals a few lockpicks and other tools coiled inside its band. These discreet tools, made of a metal alloy that springs straight once the tool is removed from the band, are sufficient to attempt Disable Device checks without penalty, and long enough to pick locks on manacles fastened around the wearer's hands (once she slips off the ring). The wearer gains a +2 circumstance bonus on Sleight of Hand checks made to conceal the ring's nature from anyone searching her.</p>
+</>};
+const _thieves_tool_extenders_common = {title: "Thieves' tool extenders (common)", jsx: <><h2 id="eq-misc-thieves_tool_extenders_common-thieves-tool-extenders">Thieves' tool extenders</h2>
+<p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 25</Link><br/><strong>Price</strong> 70 gp (common), 820 gp (mithral); <strong>Weight</strong> 3 lbs. (common), 1 1/2 lbs. (mithral)</p>
+<p>These long-reaching extenders can be attached to or detached from <Link to="/eq-misc/thieves_tools">thieves' tools</Link> as a standard action, allowing the user to make Disable Device checks on devices in any space he could reach with a reach weapon. High-quality mirrors on the shafts let him see what he's doing, but he takes a -4 penalty on Disable Device checks when working on a device more than 5 feet away.</p>
+</>};
+const _thieves_tools_common = {title: "Thieves' tools (common)", jsx: <><h2 id="eq-misc-thieves_tools_common-thieves-tools">Thieves' tools</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 30 gp (common), 100 gp (masterwork); <strong>Weight</strong> 1 lb. (common), 2 lbs. (masterwork)</p>
+<p>This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.</p>
+<p><strong>Masterwork Thieves' Tools:</strong> This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device checks.</p>
+</>};
+const _thinkers_tipple = {title: "Thinker's tipple", jsx: <><h2 id="eq-misc-thinkers_tipple-thinkers-tipple">Thinker's tipple</h2>
+<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link><br/><strong>Price</strong> 300 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Tincture</p>
+<p>This orange liquid invigorates the mind. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Knowledge checks and can attempt untrained Knowledge checks if the DC is 15 or lower. This saps your energy, imposing a -4 penalty on Fortitude saving throws for the same duration.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _thrush = {title: "Thrush", jsx: <><h2 id="eq-misc-thrush-thrush">Thrush</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link><br/><strong>Price</strong> 1 sp; <strong>Weight</strong> 7 oz.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>These small plump birds are sometimes kept as pets, but are more often used as familiars for spellcasters. They are known for their beautiful song and their potential for actual speech.</p>
+</>};
+const _thumbscrews_common = {title: "Thumbscrews (common)", jsx: <><h2 id="eq-misc-thumbscrews_common-thumbscrews">Thumbscrews</h2>
+<p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 212</Link><br/><strong>Price</strong> 15 gp (common), 50 gp (masterwork); <strong>Weight</strong> 1 lb. (common), 1 lb. (masterwork)</p>
+<p>Both a torture and restraining device, this small, metal armature consists of two parallel, spikestudded bars that close together as the user tightens the frame's screws, crushing a victim's thumbs between them. A victim restrained by a thumbscrew is able to move but can't effectively wield weapons, hold items, or perform any actions or skill checks that require manual dexterity, taking a -5 penalty on all such actions and dealing 1d6 points of nonlethal damage to himself with each attempt (this doesn't include Escape Artist attempts to escape the thumbscrew). Spellcasters bound by thumbscrews are unable to cast spells with somatic components.</p>
+<p>When using a thumbscrew as a torture device, the user can turn the thumbscrew's bolt to deal 1d6 points of nonlethal damage. Escaping from a thumbscrew requires a successful DC 28 Escape Artist check (DC 30 for a masterwork thumbscrew).</p>
+</>};
+const _thunder_kettle = {title: "Thunder kettle", jsx: <><h2 id="eq-misc-thunder_kettle-thunder-kettle">Thunder kettle</h2>
+<p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements pg. 19</Link><br/><strong>Price</strong> 275 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This intricate glass and metal jug vibrates gently, and contains a light cloud of white vapor and crackling blue electricity. Djinn of the Plane of Air use thunder kettles to capture the essence of air and lightning elementals within planar super storms. When uncorked as a standard action, a thunder kettle releases a rumbling cacophony of thunder in a 10-foot-radius <Link to="/misc/burst">burst</Link>. Creatures in the area must succeed at a DC 16 Fortitude save or take 1d6 points of sonic damage and become <Link to="/misc/staggered">staggered</Link> for 1 round. A successful save halves the damage and negates the staggered condition. This item can be crafted with a successful DC 25 Craft (alchemy) check.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _thurible = {title: "Thurible", jsx: <><h2 id="eq-misc-thurible-thurible">Thurible</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/pathfinder_8_seven_days_to_the_grave">Pathfinder #8: Seven Days to the Grave pg. 61</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>When filled with coal and common herbs worth 2 sp, this miniature brazier fills an area 30 feet in diameter with light smoke for 1 hour. Any creature in the area of this smoke gains a +2 circumstance bonus on Fortitude saves to resist inhaled diseases.</p>
+</>};
+const _tillers_gum = {title: "Tiller's gum", jsx: <><h2 id="eq-misc-tillers_gum-tillers-gum">Tiller's gum</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 45</Link>, <Link to="/source/pathfinder_106_for_queen_and_empire">Pathfinder #106: For Queen and Empire pg. 75</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This gum has alchemical properties that allow it to soak up magical energy and release it when the gum is chewed. As a standard action, a stick of tiller's gum can be imbued with a spell of up to 3rd level with a casting time of less than 1 minute and that targets one or more creatures, as if the gum were the target of the spell. The gum holds the spell's charge for 1 hour, during which time a creature capable of casting the stored spell can chew the gum as a standard action to gain the spell's effects, expending the stored spell and destroying the gum. The stored spell uses the original caster's level to determine its effects. If the spell-imbued gum isn't used before an hour passes, it is ruined. Crafting a stick of tiller's gum requires a successful DC 20 Craft (alchemy) check.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
+</>};
+const _tindertwig = {title: "Tindertwig", jsx: <><h2 id="eq-misc-tindertwig-tindertwig">Tindertwig</h2>
+<p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 30</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>The alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a move action). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a <Link to="/eq-misc/flint_and_steel">flint and steel</Link> or magnifying glass. Lighting a torch with a tindertwig is a standard action rather than a full-round action, and lighting any other fire with one is at least a standard action. A tindertwig burns for 1d2 rounds and sheds light as a <Link to="/eq-misc/candle">candle</Link>. Tindertwigs are waterproof, but must be dried before you can strike them.</p>
+<p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (2 brimstone + 1 phosphorus)/ceration; <strong>Craft DC</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> <Link to="/eq-misc/crucible">crucible</Link>; <strong>Type</strong> alchemical tool</p>
+</>};
+const _tinkers_cap = {title: "Tinker's cap", jsx: <><h2 id="eq-misc-tinkers_cap-tinkers-cap">Tinker's cap</h2>
+<p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 25</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 4 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This expertly crafted helmet has several small arms that hold magnifying lenses near the wearer's face. They're kept in place by locking hinges and crude gyroscopes that compensate for normal head movements. While the lenses are properly aligned, the wearer gains a +2 circumstance bonus on Appraise and Craft checks involving items that are small or highly detailed and on sight-based Perception checks when she uses an action to inspect something within 5 feet. However, the arms become misaligned if the wearer falls prone or is grappled, or if the helmet is damaged (hardness 5, 2 hit points). If the arms are misaligned, they lose their usefulness until readjusted (a full-round action that provokes attacks of opportunity).</p>
+</>};
+const _titans_tonic = {title: "Titan's tonic", jsx: <><h2 id="eq-misc-titans_tonic-titans-tonic">Titan's tonic</h2>
+<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Tincture</p>
+<p>Gravel floats in this umber liquid. For 1 hour after drinking this tincture, you gain a +1 alchemical bonus to natural armor and a +2 alchemical bonus on Strength checks and Strength-based skill checks. The tonic swells your musculature, decreasing your movement speed by 5 feet, to a minimum of 5 feet, and causing you to take a -4 penalty on Reflex saving throws for the same duration.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _toad_vision = {title: "Toad (vision)", jsx: <><h2 id="eq-misc-toad_vision-toad-vision">Toad (vision)</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 5 oz.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>These animals are found in areas of the Mwangi Expanse. They have a psychoactive skin venom which acts as a mild hallucinogen if the toad's skin is licked - though breeding programs for these creatures outside of Mwangi produce venomless offspring.</p>
+</>};
+const _toad = {title: "Toad", jsx: <><h2 id="eq-misc-toad-toad">Toad</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 2 cp; <strong>Weight</strong> 7 oz.<br/><strong>Category</strong> Mounts/Pets</p>
+<p>This Diminutive amphibian is primarily kept as a familiar by spellcasters. Toads live in most temperate and warm environments, and eat insects.</p>
+</>};
+const _tobacco = {title: "Tobacco", jsx: <><h2 id="eq-misc-tobacco-tobacco">Tobacco</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 1 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Black Market</p>
+<p>These crushed and shredded leaves range in color from peppery red to black; users can either smoke or chew them. Tobacco users experience a certain level of calm and are more easily able to shrug off hunger pangs. Tobacco is addictive (Fort DC 10 to resist), and long-term users suffer <Link to="/rule/constitution_damage">Constitution damage</Link>.</p>
+</>};
+const _tome_of_epics = {title: "Tome of epics", jsx: <><h2 id="eq-misc-tome_of_epics-tome-of-epics">Tome of epics</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Tools</p>
+<p>This hefty book is bound in oilskin and decorated with scenes of glorious combat between ancient heroes and ferocious monsters. It contains several tales of valor, defeat, and victory, all with brightly colored illustrations. After consulting the book for 1 hour, for the next 24 hours you gain a +2 circumstance bonus on Perform (oratory) and Perform (sing) checks and a +2 circumstance bonus on Knowledge (nobility) checks pertaining to heroic lineages.</p>
+</>};
+const _torch = {title: "Torch", jsx: <><h2 id="eq-misc-torch-torch">Torch</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 1 cp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p>A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the <Link to="/rule/light_level">light level</Link> by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage.</p>
+</>};
+const _tossglove = {title: "Tossglove", jsx: <><h2 id="eq-misc-tossglove-tossglove">Tossglove</h2>
+<p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion pg. 12</Link><br/><strong>Price</strong> 1 sp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Tools</p>
+<p>A tossglove is a hefty leather and metal glove made for holding and throwing an insect, snake, or other tiny creature that would otherwise bite the goblin. Those who don't use a tossglove when attempting to sling such creatures provoke an attack of opportunity from the animal they attempt to throw or stash. The glove has overlapping plates that cover the goblin's arm up to the elbow. It's a full-round action to put on or take off a tossglove, and while it's worn, that hand can't be used to perform acts of fine manipulation (such as making a Disable Device check or firing an arrow). The gloved hand can still wield a melee weapon.</p>
+</>};
+const _toxic_censer = {title: "Toxic censer", jsx: <><h2 id="eq-misc-toxic_censer-toxic-censer">Toxic censer</h2>
+<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 29</Link><br/><strong>Price</strong> 115 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Tools</p>
+<p>This ornately etched <Link to="/eq-misc/censer">censer</Link> has a small hidden compartment under the heat source that can hold 1 dose of poison. When in use, the censer's heat source indirectly heats the poison, causing it to mix with the burning <Link to="/eq-misc/incense">incense</Link> and allow the poison to permeate the air, filling a 20-foot radius centered on the censer. The poison's type changes to inhaled, and it is effective for 5 minutes before it is entirely burned off.</p>
+</>};
+const _track_obscuring_soles = {title: "Track-obscuring soles", jsx: <><h2 id="eq-misc-track_obscuring_soles-track-obscuring-soles">Track-obscuring soles</h2>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 9</Link><br/><strong>Price</strong> 8 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Clothing</p>
+<p>These boot attachments consist of wide wooden frames, leather straps, and thin leather soles with no distinguishing marks or texture. They distribute your weight over a larger area and obscure the shape of your footprints. The DC to track you increases by 2, but you also take a -2 penalty on Acrobatics and Stealth checks.</p>
+</>};
+const _trackers_kit = {title: "Tracker's kit", jsx: <><h2 id="eq-misc-trackers_kit-trackers-kit">Tracker's kit</h2>
+<p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 7</Link><br/><strong>Price</strong> 563 gp; <strong>Weight</strong> 33 lbs.<br/><strong>Category</strong> Kits</p>
+<p>The exact location of a dragon's lair must sometimes be learned through exploration. This kit provides tools helpful in tracking a dragon back to its lair and includes an area map, a <Link to="/eq-misc/climbers_kit">climber's kit</Link>, an <Link to="/magic-wondrous/elixir_of_swimming">elixir of swimming</Link>, an <Link to="/eq-misc/everburning_torch">everburning torch</Link>, a <Link to="/eq-misc/footprint_book">footprint book</Link>, a <Link to="/eq-misc/grappling_hook">grappling hook</Link>, a <Link to="/eq-misc/hammer">hammer</Link>, eight <Link to="/eq-misc/piton">pitons</Link>, four <Link to="/eq-misc/sack">sacks</Link>, and 100 feet of <Link to="/eq-misc/silk_rope">silk rope</Link>.</p>
+</>};
+const _trackers_snuff = {title: "Tracker's snuff", jsx: <><h2 id="eq-misc-trackers_snuff-trackers-snuff">Tracker's snuff</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 208</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>When inhaled, this finely ground, alchemically treated <Link to="/eq-misc/tobacco">tobacco</Link> greatly enhances your senses, especially your sense of smell. It grants the scent ability and a +2 alchemical bonus on Perception checks for 1 hour. However, once the effect wears off your body is wracked with terrible pain as your joints begin to stiffen and seize, dealing 1d2 points of <Link to="/rule/dexterity_damage">Dexterity damage</Link> to you.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 30</p>
+</>};
+const _tracking_powder = {title: "Tracking powder", jsx: <><h2 id="eq-misc-tracking_powder-tracking-powder">Tracking powder</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 208</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p>When you scatter this very fine pale blue powder on the ground, it reveals the tracks of any creatures or individuals that have passed through the area within the last 48 hours. The powder also grants you a +10 alchemical bonus on Survival checks to follow tracks or, if you aren't trained in Survival, instead allows you to track creatures whose prints are revealed by the powder for up to 1 mile using Perception instead of Survival. A single application can cover an area of up to 60 square feet. Tracking powder is sold in small leather pouches that hold 10 applications each.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _trail_rations = {title: "Trail rations", jsx: <><h2 id="eq-misc-trail_rations-trail-rations">Trail rations</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link><br/><strong>Price</strong> 5 sp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Food/Drink</p>
+<p>The listed price is for a day's worth of food. This bland food is usually some kind of hard tack, jerky, and dried fruit, though the contents vary from region to region and the race of those creating it. As long as it stays dry, it can go for months without spoiling.</p>
+</>};
+const _trailscent_kit = {title: "Trailscent kit", jsx: <><h2 id="eq-misc-trailscent_kit-trailscent-kit">Trailscent kit</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 93</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Alchemical Tools</p>
+<p>This small box of specially prepared <Link to="/race/catfolk">catfolk</Link> pheromones and alchemical reagents can be used to leave a small group of subtle but long-lasting scents that only catfolk can smell and decipher. Given a minute, a catfolk can create a scent mixture and apply it to a solid object, such as a tree, a wall, or even a smaller item such as a weapon or potion vial. When the catfolk does this, it leaves one of the following scent impressions: danger, food, shelter, or possession. The possession impression is always keyed to the specific catfolk using the kit, and signifies that she owns the territory or item. Other races can attempt to use this kit to create the danger, food, or shelter impression, but doing so requires a successful DC 20 Craft (alchemy) check. A catfolk can detect a particular scent applied with a trailscent kit from 30 feet away. If the scent is upwind, the range at which a catfolk can detect the scent increases to 60 feet; if it is downwind, the range drops to 15 feet. A catfolk with the scent racial quality doubles those distances. A scent impression lasts for 1 year or until it is washed away. Each kit has 10 uses.</p>
+<p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
+</>};
+const _training_harness = {title: "Training harness", jsx: <><h2 id="eq-misc-training_harness-training-harness">Training harness</h2>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 76</Link><br/><strong>Price</strong> 10 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Animal Gear</p>
+<p>This specialized gear must be tailored to a specific type of animal. A training harness provides a +2 bonus on Handle Animal checks made with an animal wearing it.</p>
+</>};
+const _training_sleeve = {title: "Training sleeve", jsx: <><h2 id="eq-misc-training_sleeve-training-sleeve">Training sleeve</h2>
+<p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 12</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 5 lbs.<br/><strong>Category</strong> Animal Gear</p>
+<p>This thick, heavily padded sleeve fits over the wearer's arm and serves as a target for animals being trained to attack. When used in conjunction with the Handle Animal skill to train an animal for a general purpose, this item grants the user a +5 competence bonus on her Handle Animal check to successfully combat train an animal.</p>
+</>};
+const _trapped_item_trapped_disguise_kit = {title: "Trapped item (trapped disguise kit)", jsx: <><h2 id="eq-misc-trapped_item_trapped_disguise_kit-trapped-item">Trapped item</h2>
+<p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 28</Link><br/><strong>Price</strong> 50 gp (trapped disguise kit), 40 gp (trapped scroll case); <strong>Weight</strong> 8 lbs. (trapped disguise kit), 1 lb. (trapped scroll case)</p>
+<p>Kobold artisans are constantly looking for new ways to increase the effectiveness of their traps, all while decreasing their setup time. To fit these two needs, kobold inventors have created a series of small and easy-to-use trapped items. These replica items have traps built into them, and can be armed in a standard action. They're self-contained, single-use, and as easily transportable as the items they mimic.</p>
+<p><strong>Trapped Disguise Kit</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 25; <strong>Disable Device</strong> DC 25<br/><strong>Effects</strong><br/><strong>Trigger</strong> touch; <strong>Reset</strong> repair<br/><strong>Effect</strong> scent mark; never miss; onset delay (1 round)</p>
+<p>This appears to be a normal disguise kit, except that if any of the makeup or false facial hair is applied, the victim is marked with a strong scent. This scent mark decreases the DC of tracking the victim by scent by 4. The mark can be washed off with vigorous scrubbing, but otherwise fades on its own over several days.</p>
+<p><strong>Trapped Scroll Case</strong><br/><strong>Type</strong> mechanical; <strong>Perception</strong> DC 20; <strong>Disable Device</strong> DC 20<br/><strong>Effects</strong><br/><strong>Trigger</strong> touch; <strong>Reset</strong> none<br/><strong>Effect</strong> poison gas (Ungol dust)</p>
+<p>This seemingly innocuous scroll case contains a glass pellet filled with gaseous poison. This pellet breaks when the case is opened, filling a 5-foot square with toxic gas. This poisonous cloud disperses after 1 round.</p>
+</>};
+const _pomander_nobles = {..._pomander_merchants, title: "Pomander (noble's)"};
+const _pot_iron = {..._pot_common, title: "Pot (iron)"};
+const _pot_mithral = {..._pot_common, title: "Pot (mithral)"};
+const _powder_ball_fuel = {..._powder_ball_empty, title: "Powder ball (fuel)"};
+const _prosthetic_foot = {..._prosthetic_arm, title: "Prosthetic (foot)"};
+const _prosthetic_hand = {..._prosthetic_arm, title: "Prosthetic (hand)"};
+const _prosthetic_leg = {..._prosthetic_arm, title: "Prosthetic (leg)"};
+const _pulque_wineskin = {..._pulque_cup, title: "Pulque (wineskin)"};
+const _raft_travel_per_mile = {..._raft, title: "Raft (travel, per mile)"};
+const _rat_common = {..._rat_blue, title: "Rat (common)"};
+const _riding_bee_combat_trained_worker = {..._riding_bee_combat_trained_queen, title: "Riding bee (combat-trained worker)"};
+const _riding_bee_queen = {..._riding_bee_combat_trained_queen, title: "Riding bee (queen)"};
+const _riding_bee = {..._riding_bee_combat_trained_queen, title: "Riding bee"};
+const _riding_bee_worker = {..._riding_bee_combat_trained_queen, title: "Riding bee (worker)"};
+const _riding_kit_exotic_mount = {..._riding_kit_common, title: "Riding kit (exotic mount)"};
+const _riding_rat_common = {..._riding_rat_combat_trained, title: "Riding rat (common)"};
+const _rowboat_travel_per_mile = {..._rowboat, title: "Rowboat (travel, per mile)"};
+const _tear_away_royal_outfit = {..._royal_outfit, title: "Tear-away royal outfit"};
+const _saddle_exotic_pack = {..._saddle_exotic_military, title: "Saddle (exotic, pack)"};
+const _saddle_exotic_riding = {..._saddle_exotic_military, title: "Saddle (exotic, riding)"};
+const _military_saddle = {..._saddle_exotic_military, title: "Saddle (military)"};
+const _saddle_pack = {..._saddle_exotic_military, title: "Saddle (pack)"};
+const _saddle_riding = {..._saddle_exotic_military, title: "Saddle (riding)"};
+const _sailing_ship_travel_per_mile = {..._sailing_ship, title: "Sailing ship (travel, per mile)"};
+const _scarf_reinforced = {..._scarf_pocketed, title: "Scarf (reinforced)"};
+const _tear_away_scholars_outfit = {..._scholars_outfit, title: "Tear-away scholar's outfit"};
+const _scribe_text = {..._scribe_map, title: "Scribe (text)"};
+const _shears_lopping = {..._shears_adamantine, title: "Shears (lopping)"};
+const _shears_small = {..._shears_adamantine, title: "Shears (small)"};
+const _ships_boat_travel_per_mile = {..._ships_boat, title: "Ship's boat (travel, per mile)"};
+const _shovel_folding = {..._shovel_common, title: "Shovel (folding)"};
+const _skillet = {..._skillet_common, title: "Skillet"};
+const _skillet_mithral = {..._skillet_common, title: "Skillet (mithral)"};
+const _slave_household = {..._slave_hard_labor, title: "Slave (household)"};
+const _slave_slip_halfling = {..._slave_hard_labor, title: "Slave (slip, halfling)"};
+const _slave_specialized = {..._slave_hard_labor, title: "Slave (specialized)"};
+const _slave = {..._slave_hard_labor, title: "Slave"};
+const _sled_travel_per_mile = {..._sled, title: "Sled (travel, per mile)"};
+const _sleigh_travel_per_mile = {..._sleigh, title: "Sleigh (travel, per mile)"};
+const _snorkel_masterwork = {..._snorkel_common, title: "Snorkel (masterwork)"};
+const _snuffbox_ivory_or_precious_metal = {..._snuffbox_bone_or_tortoise_shell, title: "Snuffbox (ivory or precious metal)"};
+const _snuffbox_tin_or_wood = {..._snuffbox_bone_or_tortoise_shell, title: "Snuffbox (tin or wood)"};
+const _tear_away_squires_outfit = {..._squires_outfit, title: "Tear-away squire's outfit"};
+const _squirrel_flying = {..._squirrel_common, title: "Squirrel (flying)"};
+const _stilts_masterwork = {..._stilts_common, title: "Stilts (masterwork)"};
+const _straitjacket_masterwork = {..._straitjacket_common, title: "Straitjacket (masterwork)"};
+const _subversive_vest_vestment = {..._subversive_vest_vest, title: "Subversive vest (vestment)"};
+const _sureseal_bladder_potion = {..._sureseal_bladder_mundane, title: "Sureseal bladder (potion)"};
+const _survival_kit_masterwork = {..._survival_kit_common, title: "Survival kit (masterwork)"};
+const _tea_cup = {..._tea_ceremonial_cup, title: "Tea (cup)"};
+const _telescope_x250 = {..._telescope_x10, title: "Telescope (&times;250)"};
+const _telescope_x50 = {..._telescope_x10, title: "Telescope (&times;50)"};
+const _tent_medium = {..._tent_large, title: "Tent (medium)"};
+const _tent_pavilion = {..._tent_large, title: "Tent (pavilion)"};
+const _tent_small = {..._tent_large, title: "Tent (small)"};
+const _thieves_tool_extenders_mithral = {..._thieves_tool_extenders_common, title: "Thieves' tool extenders (mithral)"};
+const _thieves_tools = {..._thieves_tools_common, title: "Thieves' tools"};
+const _thieves_tools_masterwork = {..._thieves_tools_common, title: "Thieves' tools (masterwork)"};
+const _thumbscrews_masterwork = {..._thumbscrews_common, title: "Thumbscrews (masterwork)"};
+const _trapped_item_trapped_scroll_case = {..._trapped_item_trapped_disguise_kit, title: "Trapped item (trapped scroll case)"};
+export default {planar_travelers_kit:_planar_travelers_kit,pnakotic_record:_pnakotic_record,pocket_watch:_pocket_watch,poison_belcher:_poison_belcher,poison_caps:_poison_caps,poison_diffuser:_poison_diffuser,poison_latch_needle:_poison_latch_needle,poison_lip_paint:_poison_lip_paint,poison_sealant:_poison_sealant,poison_sponge:_poison_sponge,poison_tattoo:_poison_tattoo,poison_ward_salve:_poison_ward_salve,poisoned_locket:_poisoned_locket,poisoned_quill:_poisoned_quill,poisoners_goblet:_poisoners_goblet,poisoning_sheath:_poisoning_sheath,pole:_pole,polo_gear:_polo_gear,pomander_merchants:_pomander_merchants,poncho:_poncho,portable_alchemists_lab:_portable_alchemists_lab,portable_altar_masterwork:_portable_altar_masterwork,portable_altar:_portable_altar,portable_bolt_trap:_portable_bolt_trap,portable_bridge:_portable_bridge,portable_prison:_portable_prison,portable_ram:_portable_ram,portable_solarium:_portable_solarium,portable_sweat_lodge:_portable_sweat_lodge,portable_terrarium:_portable_terrarium,portrait_book:_portrait_book,pot_common:_pot_common,potion_sponge:_potion_sponge,powder_ball_empty:_powder_ball_empty,powder_horn:_powder_horn,powder:_powder,powdered_milk:_powdered_milk,practice_straitjacket:_practice_straitjacket,premium_hookah:_premium_hookah,pressure_pill:_pressure_pill,printing_press_1_page:_printing_press_1_page,prismatic_crystal:_prismatic_crystal,privacy_shelter:_privacy_shelter,prognostication_manual:_prognostication_manual,prosthetic_arm:_prosthetic_arm,prowlers_palliative:_prowlers_palliative,pseudodragon:_pseudodragon,psychics_kit:_psychics_kit,psychometrists_gloves:_psychometrists_gloves,pull_cord_grenade:_pull_cord_grenade,pulque_cup:_pulque_cup,pump_organ:_pump_organ,pump_water_canister:_pump_water_canister,purification_pellet:_purification_pellet,purity_test:_purity_test,puzzle_box:_puzzle_box,puzzle_heel:_puzzle_heel,pyramid_busters_kit:_pyramid_busters_kit,pyrography_kit:_pyrography_kit,qadiran_saddle:_qadiran_saddle,questing_knight_package:_questing_knight_package,quick_change_outfit:_quick_change_outfit,quick_pack_table:_quick_pack_table,quick_step_concoction:_quick_step_concoction,quicksilver_barometer:_quicksilver_barometer,quieting_needles:_quieting_needles,quintain:_quintain,rabbit:_rabbit,raccoon:_raccoon,rack:_rack,raft:_raft,ragers_aid:_ragers_aid,rakes_friend:_rakes_friend,rangers_kit:_rangers_kit,rat_blue:_rat_blue,rat_dire:_rat_dire,rat_cage:_rat_cage,rations_space_per_day:_rations_space_per_day,raven:_raven,reagent_extractor:_reagent_extractor,reagent_paper:_reagent_paper,reanimating_fluid:_reanimating_fluid,red_flame_torch:_red_flame_torch,reindeer:_reindeer,remora_pad:_remora_pad,repellent_salts:_repellent_salts,retort:_retort,reversible_cloak:_reversible_cloak,rhinarium_paste:_rhinarium_paste,rice_paper_sheet:_rice_paper_sheet,riding_bee_combat_trained_queen:_riding_bee_combat_trained_queen,riding_kit_common:_riding_kit_common,riding_rat_combat_trained:_riding_rat_combat_trained,ritual_bell:_ritual_bell,ritual_disk:_ritual_disk,road_or_gate_toll:_road_or_gate_toll,roar_cord:_roar_cord,rockshard_canister:_rockshard_canister,rogues_kit:_rogues_kit,rope_50_ft:_rope_50_ft,rope_recaller:_rope_recaller,roperunner:_roperunner,rounders_gear:_rounders_gear,rowboat:_rowboat,royal_outfit:_royal_outfit,rumboozle_cup:_rumboozle_cup,rust_repellent:_rust_repellent,rusting_powder:_rusting_powder,sack:_sack,saddle_exotic_military:_saddle_exotic_military,saddlebags:_saddlebags,sailing_ship:_sailing_ship,salt_tablets_10:_salt_tablets_10,samsaran_life_wheel:_samsaran_life_wheel,sanctified_rings_pair:_sanctified_rings_pair,sangwine:_sangwine,saw:_saw,scarf_pocketed:_scarf_pocketed,scarf:_scarf,scarsalve:_scarsalve,scavenger_beetle_colony:_scavenger_beetle_colony,scent_blocker:_scent_blocker,scent_cloak:_scent_cloak,scent_salts:_scent_salts,scentbane_incense:_scentbane_incense,scholars_outfit:_scholars_outfit,scorpion_greensting:_scorpion_greensting,scribe_map:_scribe_map,scriveners_kit:_scriveners_kit,scroll_belt:_scroll_belt,scroll_box:_scroll_box,scroll_case:_scroll_case,scroll_case_spring_loaded:_scroll_case_spring_loaded,sealing_wax:_sealing_wax,sealord_wine_bottle:_sealord_wine_bottle,seance_kit:_seance_kit,second_story_harness:_second_story_harness,seeing_slime:_seeing_slime,semblance_transfusion:_semblance_transfusion,sentry_mannequin_masterwork:_sentry_mannequin_masterwork,sentry_mannequin:_sentry_mannequin,sentry_seeds:_sentry_seeds,serpent_line:_serpent_line,serrated_caltrops:_serrated_caltrops,sewing_needle:_sewing_needle,sextant:_sextant,shadow_stencil_set:_shadow_stencil_set,shadowy_stalker_package:_shadowy_stalker_package,shamans_kit:_shamans_kit,shamans_paint:_shamans_paint,shaving_kit:_shaving_kit,shears_adamantine:_shears_adamantine,sheep:_sheep,sherrifs_whistle:_sherrifs_whistle,shield_sconce:_shield_sconce,shinobi_shozoku:_shinobi_shozoku,ships_boat:_ships_boat,ships_passage:_ships_passage,shoddy_item:_shoddy_item,shovel_common:_shovel_common,shrapnel_caltrops:_shrapnel_caltrops,shrieking_paste:_shrieking_paste,signal_horn:_signal_horn,signal_kite_kit:_signal_kite_kit,signet_ring:_signet_ring,poison_pill_signet_ring:_poison_pill_signet_ring,signifer_mask:_signifer_mask,silence_dust:_silence_dust,silent_piton:_silent_piton,silk_kimono:_silk_kimono,silk_rope_50_ft:_silk_rope_50_ft,silver_drops:_silver_drops,singers_solution:_singers_solution,siphon_ray:_siphon_ray,skalds_kit:_skalds_kit,skates:_skates,skeleton_key:_skeleton_key,skeleton_slayers_kit:_skeleton_slayers_kit,skillet_common:_skillet_common,skis_and_poles:_skis_and_poles,skis:_skis,skunk:_skunk,sky_mine:_sky_mine,slave_hard_labor:_slave_hard_labor,slayers_kit:_slayers_kit,sled:_sled,sledge:_sledge,sleeve_holster:_sleeve_holster,sleigh:_sleigh,slow_heart_concoction:_slow_heart_concoction,smelling_salts:_smelling_salts,smoke_bomb:_smoke_bomb,smoke_cover:_smoke_cover,smoke_pellet:_smoke_pellet,smoke_signal:_smoke_signal,smoked_goggles:_smoked_goggles,smokestick:_smokestick,smugglers_wagon:_smugglers_wagon,snake_constrictor:_snake_constrictor,snake_viper:_snake_viper,snake_oil:_snake_oil,snake_tongue_concoction:_snake_tongue_concoction,snorkel_common:_snorkel_common,snow_goggles:_snow_goggles,snowshoes:_snowshoes,snuffbox_bone_or_tortoise_shell:_snuffbox_bone_or_tortoise_shell,soap:_soap,softpaw_boots:_softpaw_boots,soldiers_uniform:_soldiers_uniform,songs_of_shazathared:_songs_of_shazathared,soothe_syrup:_soothe_syrup,sorcerers_kit:_sorcerers_kit,sorcerers_spirits:_sorcerers_spirits,soul_candle:_soul_candle,soul_stimulant:_soul_stimulant,sparkle_smoke:_sparkle_smoke,sparring_gear:_sparring_gear,speaking_trumpet:_speaking_trumpet,spear_thrower:_spear_thrower,speech_resin:_speech_resin,speed_sheath:_speed_sheath,spell_component_pouch:_spell_component_pouch,spellbook:_spellbook,spellcasting:_spellcasting,spelunking_kit:_spelunking_kit,sphere_song_concoction:_sphere_song_concoction,spider_sac:_spider_sac,spider:_spider,spiders_silk_rope_50_ft:_spiders_silk_rope_50_ft,spiderdraw:_spiderdraw,spike_hilt:_spike_hilt,spiked_focus_ward:_spiked_focus_ward,spirit_compass:_spirit_compass,spirit_of_glass:_spirit_of_glass,spirit_offerings:_spirit_offerings,spirit_planchette_set:_spirit_planchette_set,spirit_trumpet:_spirit_trumpet,spirit_vision_ink:_spirit_vision_ink,spiritbane_spike:_spiritbane_spike,spiritual_leaders_vestments:_spiritual_leaders_vestments,spiritualists_kit:_spiritualists_kit,sponge_suit:_sponge_suit,spotlight:_spotlight,spys_kit:_spys_kit,spycatchers_kit:_spycatchers_kit,spyglass_masterwork:_spyglass_masterwork,spyglass:_spyglass,squires_outfit:_squires_outfit,squirrel_common:_squirrel_common,stabling_per_day:_stabling_per_day,stagnant_fog_sack:_stagnant_fog_sack,stalkers_oil:_stalkers_oil,star_charts:_star_charts,starlight_juice:_starlight_juice,static_wool:_static_wool,stationery:_stationery,statue_disguise_kit:_statue_disguise_kit,stiletto_boots:_stiletto_boots,stillgut_vial:_stillgut_vial,stilts_common:_stilts_common,stinging_whip_calistria:_stinging_whip_calistria,stink_ink_arcane:_stink_ink_arcane,stink_ink_common:_stink_ink_common,stirge:_stirge,stonechipper_salve:_stonechipper_salve,storm_glass:_storm_glass,stout_solution:_stout_solution,stove_can:_stove_can,straitjacket_common:_straitjacket_common,street_meat:_street_meat,stretch_cords:_stretch_cords,stretcher:_stretcher,string_or_twine_50_ft:_string_or_twine_50_ft,subversive_vest_vest:_subversive_vest_vest,suckers_barrel:_suckers_barrel,sugar_glass_bottle:_sugar_glass_bottle,summoners_kit:_summoners_kit,sun_cinder:_sun_cinder,sun_cream:_sun_cream,sunblock_kohl:_sunblock_kohl,sunderblock:_sunderblock,sundered_mask_nethys:_sundered_mask_nethys,sunrod:_sunrod,sunsoil:_sunsoil,surefoot_training_blocks:_surefoot_training_blocks,sureseal_bladder_mundane:_sureseal_bladder_mundane,surge_syrup:_surge_syrup,surgeons_tools:_surgeons_tools,surgical_jelly:_surgical_jelly,survival_kit_common:_survival_kit_common,swarmsuit:_swarmsuit,swashbucklers_kit:_swashbucklers_kit,sweet_rest:_sweet_rest,swift_hands_tonic:_swift_hands_tonic,swim_fins:_swim_fins,sylirican_lemons:_sylirican_lemons,symptom_kit:_symptom_kit,synthetic_mumia:_synthetic_mumia,tabard:_tabard,talking_board:_talking_board,tattoo:_tattoo,taxidermy_tools:_taxidermy_tools,tea_ceremonial_cup:_tea_ceremonial_cup,tea_ceremony_set:_tea_ceremony_set,tea_of_transference:_tea_of_transference,tea_kelp:_tea_kelp,teaching_staff:_teaching_staff,teapot:_teapot,telescope_x10:_telescope_x10,tennis_gear:_tennis_gear,tent_large:_tent_large,tent_cover:_tent_cover,tent_hanging:_tent_hanging,tepache_cup:_tepache_cup,terror_kite:_terror_kite,the_prophecies_of_kalistrade:_the_prophecies_of_kalistrade,thermometer:_thermometer,thief_trainer:_thief_trainer,thieves_ring:_thieves_ring,thieves_tool_extenders_common:_thieves_tool_extenders_common,thieves_tools_common:_thieves_tools_common,thinkers_tipple:_thinkers_tipple,thrush:_thrush,thumbscrews_common:_thumbscrews_common,thunder_kettle:_thunder_kettle,thurible:_thurible,tillers_gum:_tillers_gum,tindertwig:_tindertwig,tinkers_cap:_tinkers_cap,titans_tonic:_titans_tonic,toad_vision:_toad_vision,toad:_toad,tobacco:_tobacco,tome_of_epics:_tome_of_epics,torch:_torch,tossglove:_tossglove,toxic_censer:_toxic_censer,track_obscuring_soles:_track_obscuring_soles,trackers_kit:_trackers_kit,trackers_snuff:_trackers_snuff,tracking_powder:_tracking_powder,trail_rations:_trail_rations,trailscent_kit:_trailscent_kit,training_harness:_training_harness,training_sleeve:_training_sleeve,trapped_item_trapped_disguise_kit:_trapped_item_trapped_disguise_kit,pomander_nobles:_pomander_nobles,pot_iron:_pot_iron,pot_mithral:_pot_mithral,powder_ball_fuel:_powder_ball_fuel,prosthetic_foot:_prosthetic_foot,prosthetic_hand:_prosthetic_hand,prosthetic_leg:_prosthetic_leg,pulque_wineskin:_pulque_wineskin,raft_travel_per_mile:_raft_travel_per_mile,rat_common:_rat_common,riding_bee_combat_trained_worker:_riding_bee_combat_trained_worker,riding_bee_queen:_riding_bee_queen,riding_bee:_riding_bee,riding_bee_worker:_riding_bee_worker,riding_kit_exotic_mount:_riding_kit_exotic_mount,riding_rat_common:_riding_rat_common,rowboat_travel_per_mile:_rowboat_travel_per_mile,tear_away_royal_outfit:_tear_away_royal_outfit,saddle_exotic_pack:_saddle_exotic_pack,saddle_exotic_riding:_saddle_exotic_riding,military_saddle:_military_saddle,saddle_pack:_saddle_pack,saddle_riding:_saddle_riding,sailing_ship_travel_per_mile:_sailing_ship_travel_per_mile,scarf_reinforced:_scarf_reinforced,tear_away_scholars_outfit:_tear_away_scholars_outfit,scribe_text:_scribe_text,shears_lopping:_shears_lopping,shears_small:_shears_small,ships_boat_travel_per_mile:_ships_boat_travel_per_mile,shovel_folding:_shovel_folding,skillet:_skillet,skillet_mithral:_skillet_mithral,slave_household:_slave_household,slave_slip_halfling:_slave_slip_halfling,slave_specialized:_slave_specialized,slave:_slave,sled_travel_per_mile:_sled_travel_per_mile,sleigh_travel_per_mile:_sleigh_travel_per_mile,snorkel_masterwork:_snorkel_masterwork,snuffbox_ivory_or_precious_metal:_snuffbox_ivory_or_precious_metal,snuffbox_tin_or_wood:_snuffbox_tin_or_wood,tear_away_squires_outfit:_tear_away_squires_outfit,squirrel_flying:_squirrel_flying,stilts_masterwork:_stilts_masterwork,straitjacket_masterwork:_straitjacket_masterwork,subversive_vest_vestment:_subversive_vest_vestment,sureseal_bladder_potion:_sureseal_bladder_potion,survival_kit_masterwork:_survival_kit_masterwork,tea_cup:_tea_cup,telescope_x250:_telescope_x250,telescope_x50:_telescope_x50,tent_medium:_tent_medium,tent_pavilion:_tent_pavilion,tent_small:_tent_small,thieves_tool_extenders_mithral:_thieves_tool_extenders_mithral,thieves_tools:_thieves_tools,thieves_tools_masterwork:_thieves_tools_masterwork,thumbscrews_masterwork:_thumbscrews_masterwork,trapped_item_trapped_scroll_case:_trapped_item_trapped_scroll_case}

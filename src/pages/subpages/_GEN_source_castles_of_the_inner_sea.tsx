@@ -1,0 +1,3 @@
+import Link from '../../components/Link';
+const References: React.FC = () => <><h3>Equipment</h3><ul><li><Link key="/eq-misc/powder_ball_empty" to="/eq-misc/powder_ball_empty">Powder ball (empty)</Link></li><li><Link key="/eq-misc/sky_mine" to="/eq-misc/sky_mine">Sky mine</Link></li></ul><h3>NPC</h3><ul><li><Link key="/npc/lastwall_border_scout" to="/npc/lastwall_border_scout">Lastwall Border Scout</Link></li><li><Link key="/npc/signifer_of_the_nail" to="/npc/signifer_of_the_nail">Signifer of the Nail</Link></li></ul></>;
+export default References;

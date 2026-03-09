@@ -1,7 +1,7 @@
 import getItem from '../components/getItem';
-import vigilante from './subpages/__arc-vigilante';
-import familiar from './subpages/__arc-familiar';
-import wizard from './subpages/__arc-wizard';
+import vigilante from './subpages/_GEN_arc-vigilante';
+import familiar from './subpages/_GEN_arc-familiar';
+import wizard from './subpages/_GEN_arc-wizard';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

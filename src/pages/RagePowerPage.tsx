@@ -1,6 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
-import rage_powers from './subpages/__ragepower';
+import rage_powers from './subpages/_GEN_ragepower';
 import BasicPage from './BasicPage';
 import { Hierarchy } from '../types';
 import './Page.css';

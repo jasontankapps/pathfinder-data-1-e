@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import defs from './subpages/__spelldef';
+import defs from './subpages/_GEN_spelldef';
 import BasicPage from './BasicPage';
 import './Page.css';
 

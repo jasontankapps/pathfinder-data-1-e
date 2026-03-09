@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import spirits from './subpages/__shamanspirit';
+import spirits from './subpages/_GEN_shamanspirit';
 import BasicPage from './BasicPage';
 import './Page.css';
 

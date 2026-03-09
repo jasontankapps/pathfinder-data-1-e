@@ -1,8 +1,8 @@
 import getItem from '../components/getItem';
-import cavalier from './subpages/__arc-cavalier';
-import slayer from './subpages/__arc-slayer';
-import kineticist from './subpages/__arc-kineticist';
-import antipaladin from './subpages/__arc-antipaladin';
+import cavalier from './subpages/_GEN_arc-cavalier';
+import slayer from './subpages/_GEN_arc-slayer';
+import kineticist from './subpages/_GEN_arc-kineticist';
+import antipaladin from './subpages/_GEN_arc-antipaladin';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

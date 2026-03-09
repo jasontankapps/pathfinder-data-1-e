@@ -1,8 +1,8 @@
 import { useLocation, useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import monster_types from './subpages/__type';
-import monster_subtypes from './subpages/__subtype';
+import monster_types from './subpages/_GEN_type';
+import monster_subtypes from './subpages/_GEN_subtype';
 import BasicPage from './BasicPage';
 import './Page.css';
 

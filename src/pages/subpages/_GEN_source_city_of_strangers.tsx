@@ -1,0 +1,3 @@
+import Link from '../../components/Link';
+const References: React.FC = () => <><h3>Feat</h3><ul><li><Link key="/feat/bloatmage_initiate" to="/feat/bloatmage_initiate">Bloatmage Initiate</Link></li></ul><h3>Monster</h3><ul><li><Link key="/monster/caulborn" to="/monster/caulborn">Caulborn</Link></li></ul><h3>Prestige Class</h3><ul><li><Link key="/pclass/bloatmage" to="/pclass/bloatmage">Bloatmage</Link></li></ul><h3>Wondrous Item</h3><ul><li><Link key="/magic-wondrous/deaths_head_talisman_10_hd" to="/magic-wondrous/deaths_head_talisman_10_hd">Death's Head Talisman (10 HD)</Link></li><li><Link key="/magic-wondrous/halflight_charm" to="/magic-wondrous/halflight_charm">Halflight Charm</Link></li></ul></>;
+export default References;

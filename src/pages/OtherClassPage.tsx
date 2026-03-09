@@ -1,7 +1,7 @@
 import { ReactElement } from 'react';
 import { useLocation, useParams } from 'wouter';
-import npcclasses from './subpages/__npcclass';
-import sidekicks from './subpages/__sidekick';
+import npcclasses from './subpages/_GEN_npcclass';
+import sidekicks from './subpages/_GEN_sidekick';
 import BasicPage from './BasicPage';
 import './Page.css';
 

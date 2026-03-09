@@ -1,6 +1,6 @@
 import { FC, lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_template.json';
+import data from '../json/_GEN_template.json';
 import ErrorPage from './ErrorPage';
 import './Page.css';
 

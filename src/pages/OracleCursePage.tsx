@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import curses from './subpages/__oraclecurse';
+import curses from './subpages/_GEN_oraclecurse';
 import BasicPage from './BasicPage';
 import './Page.css';
 

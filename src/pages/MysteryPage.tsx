@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import mysteries from './subpages/__mystery';
+import mysteries from './subpages/_GEN_mystery';
 import BasicPage from './BasicPage';
 import './Page.css';
 

@@ -1,0 +1,3 @@
+import Link from '../../components/Link';
+const References: React.FC = () => <><h3>Deity/Faith</h3><ul><li><Link key="/faith/dhalavei" to="/faith/dhalavei">Dhalavei</Link></li></ul><h3>Monster</h3><ul><li><Link key="/monster/garuda" to="/monster/garuda">Garuda</Link></li></ul><h3>Wondrous Item</h3><ul><li><Link key="/magic-wondrous/padma_blossom" to="/magic-wondrous/padma_blossom">Padma Blossom</Link></li></ul></>;
+export default References;

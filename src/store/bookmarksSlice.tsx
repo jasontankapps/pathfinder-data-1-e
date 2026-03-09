@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 import { v7 as uuidv7 } from 'uuid';
 import { GenStrict } from '../types';
-import { Color as C, lightColors as lC, darkColors as dC } from './generated/__colors';
+import { Color as C, lightColors as lC, darkColors as dC } from './generated/_GEN_colors';
 
 export type Color = C;
 

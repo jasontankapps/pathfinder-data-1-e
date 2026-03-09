@@ -1,0 +1,1532 @@
+import {IonList,IonItem,IonLabel,IonRippleEffect} from '@ionic/react';
+import DisplayTable from '../../components/DisplayTable';
+import Link from '../../components/Link';
+import ScrollContainer from '../../components/ScrollContainer';
+const _feats_mythic = {title: "Mythic Feats", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Only characters with mythic tiers or creatures with mythic ranks can take <Link to="/rule/mythic_feats">mythic feats</Link>.</p>
+<p>Three feats interact with the mythic rules but may be taken by non-mythic characters: <Link to="/feat/ascendant_spell">Ascendant Spell</Link>, <Link to="/feat/marked_for_glory">Marked for Glory</Link>, and <Link to="/feat/mythic_companion">Mythic Companion</Link>.</p>
+<blockquote className="showIfNoMythic">
+<p><em>You have toggled Mythic feats and spells off on the <Link to="/settings">settings page</Link>. You will need to toggle it back on in order to see them.</em></p>
+</blockquote>
+</IonLabel></IonItem><IonItem className="mainItem basic"><IonLabel><p>The <strong>Enh?</strong> column indicates if the feat is a mythic "enhancement" of a previously existing feat.</p>
+<DisplayTable table={{"id":"all mythic feats table","columns":[{"header":"Feat","size":8.5,"ripple":true},{"header":"Description","unsortable":true,"size":11.5},{"header":"Enh?","size":2,"type":"num"}],"nullValue":"&ndash;","initialColumn":0,"data":[["‹feat/Accursed Hex›","Your hexes flare with persistent potency.",[1,"Yes"]],["‹feat/Acrobatic›","Your grace and fluidity are beyond compare.",[1,"Yes"]],["‹feat/Alertness›","Your powers of perception surpass everyone's, whether used to observe your surroundings or the intentions of others.",[1,"Yes"]],["‹feat/Alignment Channel›","The power of your faith harms all creatures that follow the alignment you abhor.",[1,"Yes"]],["‹feat/Animal Affinity›","You have a greater affinity with wild animals, and can speak with them.",[1,"Yes"]],["‹feat/Arcane Armor Training›","You've adapted your spellcasting to overcome limitations of wearing armor.",[1,"Yes"]],["‹feat/Arcane Blast›","You can manipulate raw eldritch energies to do more than just deal damage.",[1,"Yes"]],["‹feat/Arcane Shield›","You sculpt spells into a powerful, enduring arcane barriers.",[1,"Yes"]],["‹feat/Arcane Strike›","Using your amazing arcane talents, you can deliver devastating blows infused with magical energy.",[1,"Yes"]],["‹feat/Aspect of the Beast›","Your blood burns with savage fury, giving you bestial powers and abilities.",[1,"Yes"]],["‹feat/Athletic›","You excel far beyond others at acts of physical prowess.",[1,"Yes"]],["‹feat/Augment Summoning›","Your summoning spells bring not mere ordinary beasts, but instead mythic creatures.",[1,"Yes"]],["‹feat/Bleeding Critical›","Your deadliest blows unleash rivers of blood.",[1,"Yes"]],["‹feat/Blind-Fight›","No creature can avoid your preternatural senses.",[1,"Yes"]],["‹feat/Catch Off-Guard›","In your hands, anything is a deadly weapon.",[1,"Yes"]],["‹feat/Channel Smite›","Your weapon a conduit of divine energy.",[1,"Yes"]],["‹feat/Charge Through›","You can plow through those who stand between you and the target of your charge.",[1,"Yes"]],["‹feat/Cleave›","You can cleave any foe within your reach.",[1,"Yes"]],["‹feat/Combat Expertise›","You can dart out of the way of attacks with skill and defiance.",[1,"Yes"]],["‹feat/Combat Reflexes›","You strike viciously whenever your foe gives you an opening.",[1,"Yes"]],["‹feat/Command Undead›","Your control of the undead is nearly absolute.",[1,"Yes"]],["‹feat/Critical Focus›","Your blows unerringly find your target's vital spots.",[1,"Yes"]],["‹feat/Critical Mastery›","Your critical hits are versatile and devastating.",[1,"Yes"]],["‹feat/Dastardly Finish›","You strike downed, dazed, and staggered opponents with deadly efficiency.",[1,"Yes"]],["‹feat/Dazzling Display›","You can quickly deter others with your martial mastery.",[1,"Yes"]],["‹feat/Deadly Aim›","Your aim is truly devastating.",[1,"Yes"]],["‹feat/Deadly Stroke›","You can kill with a single stroke.",[1,"Yes"]],["‹feat/Death from Above›","When attacking from the air or higher ground, you bear down on your enemy to deadly effect.",[1,"Yes"]],["‹feat/Deceitful›","Your power to mislead is beyond compare.",[1,"Yes"]],["‹feat/Deepsight›","Your sharp eyes can penetrate deeper into the darkness, revealing more to you.",[1,"Yes"]],["‹feat/Defensive Combat Training›","Your defensive capabilities in combat are unmatched.",[1,"Yes"]],["‹feat/Deflect Arrows›","You deflect projectiles and ray spells with uncanny skill.",[1,"Yes"]],["‹feat/Deft Hands›","Your hands are astonishingly nimble.",[1,"Yes"]],["‹feat/Detect Expertise›","You can sense a creature's magical abilities with just a mere glance.",[1,"Yes"]],["‹feat/Disruptive›","You're a master at disrupting nearby spellcasters.",[1,"Yes"]],["‹feat/Distance Thrower›","There's virtually no limit to your powerful throwing arm.",[1,"Yes"]],["‹feat/Divine Interference›","Your divine power thwarts enemies of your faith.",[1,"Yes"]],["‹feat/Dodge›","When focused, you become nearly impossible to strike.",[1,"Yes"]],["‹feat/Dreadful Carnage›","Your kills are truly frightening to behold.",[1,"Yes"]],["‹feat/Drink Is Life›","Gain benefits from alcohol consumption.",[0,"No"]],["‹feat/Dual Path›","Gain abilities from a second mythic path.",[0,"No"]],["‹feat/Eagle Eyes›","You eyesight rivals that of the most far-seeing raptors.",[1,"Yes"]],["‹feat/Eldritch Heritage›","The blood of your sorcerous ancestor mingles with your mythic power to great effect.",[1,"Yes"]],["‹feat/Elemental Channel›","Your power over elemental beings is nearly absolute.",[1,"Yes"]],["‹feat/Elemental Fist›","Your ability to channel elemental power through your unarmed attacks is ferociously potent.",[1,"Yes"]],["‹feat/Elemental Focus›","Your elemental spells are potent and effective.",[1,"Yes"]],["‹feat/Elven Accuracy›","Your elven eyesight cuts though concealment.",[1,"Yes"]],["‹feat/Endurance›","Your endurance is truly beyond the pale.",[1,"Yes"]],["‹feat/Eschew Materials›","You can cast even the most powerful spells without using material components.",[1,"Yes"]],["‹feat/Extra Mythic Power›","Gain two extra uses of mythic power",[0,"No"]],["‹feat/Extra Path Ability›","Gain an extra path ability.",[0,"No"]],["‹feat/Fabulous Figments›","Non-mythic creatures can't identify your illusions.",[0,"No"]],["‹feat/Far Shot›","You make long-ranged attacks with remarkable accuracy.",[1,"Yes"]],["‹feat/Fast Empathy›","You can soothe the emotions of wild beasts with nearly supernatural quickness.",[1,"Yes"]],["‹feat/Fire Music›","You masterfully weave the ancient melodies of fire into your spells.",[1,"Yes"]],["‹feat/Fleet›","You're fantastically light on your feet.",[1,"Yes"]],["‹feat/Furious Focus›","Your attacks create a rhythmic barrage that doesn't sacrifice precision for force.",[1,"Yes"]],["‹feat/Gnome Trickster›","Thanks to your mythic power, the magic in your blood has grown more potent and diverse.",[1,"Yes"]],["‹feat/Gorgon's Fist›","Your strikes debilitate and disorient your foes.",[1,"Yes"]],["‹feat/Great Fortitude›","Your fortitude is unmatched.",[1,"Yes"]],["‹feat/Guided Hand›","Attacks made with your deity's favored weapon are divinely inspired.",[1,"Yes"]],["‹feat/Heroic Defiance›","You ignore harmful effects that would bring others down.",[1,"Yes"]],["‹feat/Heroic Recovery›","You can shrug off the effects of harmful conditions after they've taken effect.",[1,"Yes"]],["‹feat/Improved Bull Rush›","You push foes around with amazing ease.",[1,"Yes"]],["‹feat/Improved Channel›","As a divine conduit for energy, you're unmatched.",[1,"Yes"]],["‹feat/Improved Counterspell›","Your innate understanding of magical mechanics allows you to unravel spells with pure magical energy.",[1,"Yes"]],["‹feat/Improved Critical›","Your critical strikes with your chosen weapon are deadlier than most.",[1,"Yes"]],["‹feat/Improved Dirty Trick›","You're a paragon of down-and-dirty fighting.",[1,"Yes"]],["‹feat/Improved Disarm›","You're expert at knocking your enemies' weapons away.",[1,"Yes"]],["‹feat/Improved Drag›","You pull your enemies around the battlefield with great ease.",[1,"Yes"]],["‹feat/Improved Familiar›","Your familiar gains some of your incredible resiliency and insight.",[1,"Yes"]],["‹feat/Improved Grapple›","Your wrestling moves are difficult to counter.",[1,"Yes"]],["‹feat/Improved Initiative›","You leap into the fray with speed and confidence.",[1,"Yes"]],["‹feat/Improved Overrun›","You're an unstoppable force on the battlefield, able to run down lesser foes with ease.",[1,"Yes"]],["‹feat/Improved Reposition›","You put your foes right where you want them.",[1,"Yes"]],["‹feat/Improved Steal›","Your light fingers can lift even the most closely held item off an enemy.",[1,"Yes"]],["‹feat/Improved Stonecunning›","If you listen close, you can hear the secrets of stone.",[1,"Yes"]],["‹feat/Improved Sunder›","Your mighty smashing blows demolish objects.",[1,"Yes"]],["‹feat/Improved Trip›","You're expert at knocking your foes down.",[1,"Yes"]],["‹feat/Improved Unarmed Strike›","Your unarmed strikes are more powerful than others.",[1,"Yes"]],["‹feat/Intimidating Prowess›","Your mythic stature makes others uneasy.",[1,"Yes"]],["‹feat/Iron Will›","Your will is incorruptible.",[1,"Yes"]],["‹feat/Knockout Artist›","Your knockout punches are truly mighty.",[1,"Yes"]],["‹feat/Legendary Teamwork›","Increase any fixed numeric bonuses to teamwork feats by 1.",[0,"No"]],["‹feat/Lightning Reflexes›","Your reflexes are superhuman.",[1,"Yes"]],["‹feat/Lucky Halfling›","You share your mythic luck with those around you.",[1,"Yes"]],["‹feat/Lucky Surge›","Roll surge twice and take the highest result.",[0,"No"]],["‹feat/Lunge›","Your reaching strikes aid your defenses against those you hit.",[1,"Yes"]],["‹feat/Magical Aptitude›","Your understanding of the principles and intricacies of magic goes far beyond your training.",[1,"Yes"]],["‹feat/Manyshot›","You can fire a barrage of arrows at your target with very little effort.",[1,"Yes"]],["‹feat/Maximize Surge›","Expend use of mythic power to maximize surge.",[0,"No"]],["‹feat/Medusa's Wrath›","Your barrage of unarmed attacks builds to a single, staggering strike.",[1,"Yes"]],["‹feat/Missile Shield›","Your remarkable awareness allows you to deflect multiple ranged attacks and even ray spells.",[1,"Yes"]],["‹feat/Mobility›","You have perfected your ability to weave through the battlefield, using your momentum to propel yourself far.",[1,"Yes"]],["‹feat/Monastic Legacy›","Every new experience carries you another step further along your path to enlightenment.",[1,"Yes"]],["‹feat/Mounted Archery›","Your skill as a rider allows you to take cover and shoot with amazing accuracy.",[1,"Yes"]],["‹feat/Mounted Combat›","Your ability to maneuver a mount through the rigors of combat is nearly unparalleled.",[1,"Yes"]],["‹feat/Mythic Paragon›","Your mythic tier is considered 2 higher when determining the potency of your mythic abilities.",[0,"No"]],["‹feat/Mythic Spell Lore›","Gain mythic spells equal to your mythic tier.",[0,"No"]],["‹feat/Natural Spell›","You can speak and use some magic items when you use wild shape.",[1,"Yes"]],["‹feat/Nimble Moves›","You dance across obstacles with ease, as though they weren't even there.",[1,"Yes"]],["‹feat/Penetrating Strike›","You know just how to strike to bypass even the most heavily armored foe's defenses.",[1,"Yes"]],["‹feat/Persuasive›","You're a master of persuasion, be it with soothing words or harsh barking commands.",[1,"Yes"]],["‹feat/Pinpoint Targeting›","Your attacks can home in on your opponent's weak spot and ignore many defenses.",[1,"Yes"]],["‹feat/Point-Blank Shot›","Your accuracy with ranged attacks is unmatched at pointblank range.",[1,"Yes"]],["‹feat/Potent Surge›","Add 1 to surge result.",[0,"No"]],["‹feat/Power Attack›","Your attacks are truly devastating.",[1,"Yes"]],["‹feat/Powerful Shape›","The forms you take in wild shape tower over their natural counterparts.",[1,"Yes"]],["‹feat/Prophetic Visionary›","Your precognitive powers aid you further.",[1,"Yes"]],["‹feat/Quick Draw›","You can retrieve any item quickly, not just weapons.",[1,"Yes"]],["‹feat/Racial Heritage›","Your racial heritage mingles with your mythic power to become more pronounced.",[1,"Yes"]],["‹feat/Rapid Reload›","You can reload any type of weapon with astounding speed.",[1,"Yes"]],["‹feat/Rapid Shot›","You can fire many times each round with amazing precision.",[1,"Yes"]],["‹feat/Rhetorical Flourish›","You're supremely skilled at using verbal misdirection and",[1,"Yes"]],["‹feat/Ride-By Attack›","You can make multiple attacks as you ride past your enemies.",[1,"Yes"]],["‹feat/Run›","You run with preternatural speed and endurance.",[1,"Yes"]],["‹feat/Saving Shield›","Shielding a comrade from harm gives you a chance to strike back.",[1,"Yes"]],["‹feat/Scorpion Style›","Your unarmed strikes can induce a near-crippling lethargy in your enemies.",[1,"Yes"]],["‹feat/Selective Channeling›","When you exclude creatures from your channel, you empower those you do affect.",[1,"Yes"]],["‹feat/Self-Sufficient›","Independence comes naturally to you, and you have mastered taking care of yourself.",[1,"Yes"]],["‹feat/Shatter Defenses›","Your dazzling attacks leave your opponents flummoxed and bewildered, unable to attack you or to defend themselves effectively.",[1,"Yes"]],["‹feat/Shield Focus›","You're a master of using your shield for protection.",[1,"Yes"]],["‹feat/Shield Slam›","Your shield bash produces a powerful kick.",[1,"Yes"]],["‹feat/Shot on the Run›","With ease, you can snap off two shots while dashing across the battlefield.",[1,"Yes"]],["‹feat/Skill Focus›","You mastery with this skill is unmatched, even in difficult situations.",[1,"Yes"]],["‹feat/Snatch Arrows›","You can use the weapons you pluck from the air to immediately make melee attacks.",[1,"Yes"]],["‹feat/Sociable›","Your easy nature flows from you without effort, putting others at ease.",[1,"Yes"]],["‹feat/Spell Focus›","Your magical specialties are particularly effective.",[1,"Yes"]],["‹feat/Spell Mastery›","You're so familiar with certain spells you can prepare them with the greatest of ease.",[1,"Yes"]],["‹feat/Spell Penetration›","Your mythic power breaches your enemies' defenses.",[1,"Yes"]],["‹feat/Spellbreaker›","You're a spellcaster's worst nightmare.",[1,"Yes"]],["‹feat/Spirited Charge›","Your mounted charge knocks the wind and wits from those foolish enough to stand against you.",[1,"Yes"]],["‹feat/Spontaneous Metafocus›","You apply metamagic to your spells with greater ease than do other spontaneous casters.",[1,"Yes"]],["‹feat/Spring Attack›","You move across the battlefield in a blur of whirling blades.",[1,"Yes"]],["‹feat/Stealthy›","Your grace and fluidity are beyond compare.",[1,"Yes"]],["‹feat/Strike Back›","Your precise counterattacks degrade your foes' advantages in combat.",[1,"Yes"]],["‹feat/Strong Comeback›","You never make the same mistake twice.",[1,"Yes"]],["‹feat/Stunning Fist›","With greater potency and frequency, your fists stun those who stand against you.",[1,"Yes"]],["‹feat/Throw Anything›","You're so skilled at throwing weapons that it hardly matters what you throw.",[1,"Yes"]],["‹feat/Titan Strike›","Your unarmed strike deals damage as if you were one size category larger.",[0,"No"]],["‹feat/Toughness›","You have legendary resilience and durability.",[1,"Yes"]],["‹feat/Trample›","Your rearing mount can stomp foes into the ground, barely",[1,"Yes"]],["‹feat/Tripping Staff›","Your staff is valuable for attack and defensive balance.",[1,"Yes"]],["‹feat/Turn Undead›","The power of your divine energy can not only cause undead to flee but also destroy them where they stand.",[1,"Yes"]],["‹feat/Two-Fisted Drinker›","Draw two potions or drinks as a move action and drink both as a standard action.",[0,"No"]],["‹feat/Two-Weapon Defense›","Your graceful flow between attack and defense makes you difficult to hit.",[1,"Yes"]],["‹feat/Two-Weapon Fighting›","With deft strikes, you gain an advantage over your foes beyond mere damage.",[1,"Yes"]],["‹feat/Two-Weapon Rend›","Your synchronized dual attacks are even more dangerous, and can leave lasting wounds.",[1,"Yes"]],["‹feat/Undead Master›","Through your fearsome mythic nature, you have matchless power over the undead.",[1,"Yes"]],["‹feat/Unseat›","You knock your opponents down from their mounts with frightening concussive force.",[1,"Yes"]],["‹feat/Valiant Vault›","When mount leaps over foes attack as you pass.",[0,"No"]],["‹feat/Vital Strike›","You can strike your foes with incredible force.",[1,"Yes"]],["‹feat/Voice of the Sibyl›","You overpower weaker and more vulnerable minds with your voice alone.",[1,"Yes"]],["‹feat/Warrior Priest›","Your faith speeds you in battle and further strengthens your mind and confidence.",[1,"Yes"]],["‹feat/Weapon Finesse›","You're an expert with weapons that rely on your agility.",[1,"Yes"]],["‹feat/Weapon Focus›","You're a master of one type of weapon.",[1,"Yes"]],["‹feat/Weapon Specialization›","The damage you deal with your chosen weapon is truly awesome to behold.",[1,"Yes"]],["‹feat/Witch Knife›","Your witch knife is as much an extension of your body as it is an extension of your power.",[1,"Yes"]]]}} />
+</IonLabel></IonItem></IonList>};
+const _feats_meditation = {title: "Feats - Meditation", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_class">here</Link>.</p>
+<ScrollContainer id="main-feats_meditation--table-0"><table>
+<thead>
+<tr>
+<th>Feat</th>
+<th>Prerequisites</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td className="ion-activatable"><Link to="/feat/bend_with_the_wind">Bend with the Wind<IonRippleEffect /></Link></td>
+<td>Wis 15, <Link to="/feat/body_control">Body Control</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/meditation_master">Meditation Master</Link>.</td>
+<td>Gain cold and fire resist 5.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/body_control">Body Control<IonRippleEffect /></Link></td>
+<td>Wis 11, <Link to="/feat/meditation_master">Meditation Master</Link>.</td>
+<td>+1 Fort vs. poison, disease, starvation, fatigue/exhausted effects. Eat less food, drink less water, sleep half as much.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/body_mastery">Body Mastery<IonRippleEffect /></Link></td>
+<td>Wis 19, <Link to="/feat/body_control">Body Control</Link>, <Link to="/feat/meditation_master">Meditation Master</Link>, character level 15th.</td>
+<td>Gain DR 2/-.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/combat_meditation">Combat Meditation<IonRippleEffect /></Link></td>
+<td>Wis 13, <Link to="/feat/meditation_master">Meditation Master</Link>, character level 5th.</td>
+<td>Learn to meditate quickly, though your meditation benefits will not last as long.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/extended_combat_meditation">Extended Combat Meditation<IonRippleEffect /></Link></td>
+<td>Wis 13, <Link to="/feat/combat_meditation">Combat Meditation</Link>, <Link to="/feat/meditation_master">Meditation Master</Link>, character level 9th.</td>
+<td>Increase the duration of Combat Meditation by your Wisdom modifier</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/greater_meditation_master">Greater Meditation Master<IonRippleEffect /></Link></td>
+<td>Wis 15, <Link to="/feat/combat_meditation">Combat Meditation</Link>, <Link to="/feat/meditation_master">Meditation Master</Link>, character level 11th.</td>
+<td>After meditating, either gain a +2 insight bonus to one roll or a +1 insight bonus to 2 rolls.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/meditation_master">Meditation Master<IonRippleEffect /></Link></td>
+<td></td>
+<td>Meditate for an hour to gain unique benefits.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/meditative_concentration">Meditative Concentration<IonRippleEffect /></Link></td>
+<td>Wis 13, <Link to="/feat/combat_meditation">Combat Meditation</Link>, <Link to="/feat/meditation_master">Meditation Master</Link>, character level 5th.</td>
+<td>Enhance your concentration after meditating.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/mindful_meditation">Mindful Meditation<IonRippleEffect /></Link></td>
+<td>Wis 11, <Link to="/feat/meditation_master">Meditation Master</Link>.</td>
+<td>Gain a bonus on Will saving throws vs charm, compuslsion, emotion, and fear effects</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/mindfulness_mastery">Mindfulness Mastery<IonRippleEffect /></Link></td>
+<td>Wis 19, <Link to="/feat/meditation_master">Meditation Master</Link>, <Link to="/feat/mindful_meditation">Mindful Meditation</Link>, character level 13th.</td>
+<td>Gain a second chance at saving against a failed charm, compulsion, emotion, or fear effect</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/perfect_awareness">Perfect Awareness<IonRippleEffect /></Link></td>
+<td>Wis 17, <Link to="/feat/combat_meditation">Combat Meditation</Link>, <Link to="/feat/meditation_master">Meditation Master</Link>, character level 9th.</td>
+<td>Take 20 on Perception 1/day.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/perfect_center">Perfect Center<IonRippleEffect /></Link></td>
+<td>Wis 21, <Link to="/feat/combat_meditation">Combat Meditation</Link>, <Link to="/feat/meditation_master">Meditation Master</Link>, character level 17th.</td>
+<td>Take 10 on any skill check/concentration check, even if not normally allowed.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/sensory_control">Sensory Control<IonRippleEffect /></Link></td>
+<td>Wis 15, <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/meditation_master">Meditation Master</Link>.</td>
+<td>Gain low-light vision and scent</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/slow_time">Slow Time<IonRippleEffect /></Link></td>
+<td>Wis 15, <Link to="/feat/combat_meditation">Combat Meditation</Link>, <Link to="/feat/meditation_master">Meditation Master</Link>, character level 7th.</td>
+<td>Gain a brief amount of haste after meditation.</td>
+</tr>
+</tbody></table></ScrollContainer>
+</IonLabel></IonItem></IonList>};
+const _feats_weapon_mastery = {title: "Feats - Weapon Mastery", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_mastery">here</Link>.</p>
+<ScrollContainer id="main-feats_weapon_mastery--table-0"><table>
+<thead>
+<tr>
+<th>Feat</th>
+<th>Prerequisites</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td className="ion-activatable"><Link to="/feat/ace_disarm">Ace Disarm<IonRippleEffect /></Link></td>
+<td>Dex 13, <Link to="/feat/deadly_aim">Deadly Aim</Link>, <Link to="/feat/ranged_disarm">Ranged Disarm</Link> base attack bonus +6, weapon training class feature with a ranged weapon.</td>
+<td>No penalty when using Ranged Disarm, make Steal attempts instead of Disarm at range</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/ace_trip">Ace Trip<IonRippleEffect /></Link></td>
+<td>Dex 13, <Link to="/feat/deadly_aim">Deadly Aim</Link>, <Link to="/feat/ranged_trip">Ranged Trip</Link>, base attack bonus +6, weapon training class feature with a ranged weapon.</td>
+<td>No penalty when using Ranged Trip, make special ranged trips against flying creatures</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/burrowing_shot">Burrowing Shot<IonRippleEffect /></Link></td>
+<td>Dex 13, <Link to="/feat/deadly_aim">Deadly Aim</Link>, base attack bonus +9, weapon training class feature with a ranged weapon.</td>
+<td>Lodge a ranged attack within someone's body</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/cut_from_the_air">Cut from the Air<IonRippleEffect /></Link></td>
+<td>Str 13, <Link to="/feat/power_attack">Power Attack</Link>, base attack bonus +5, weapon training class feature with a melee weapon.</td>
+<td>Cut ranged attacks out of the air</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/devastating_assault">Devastating Assault<IonRippleEffect /></Link></td>
+<td>Base attack bonus +9, weapon training class feature with a melee weapon.</td>
+<td>Batter through an opponent's defenses</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/difficult_swings">Difficult Swings<IonRippleEffect /></Link></td>
+<td>Base attack bonus +5, weapon training class feature with a melee weapon.</td>
+<td>Force creatures to treat terrain as difficult after an attack</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/finesse_shot">Finesse Shot<IonRippleEffect /></Link></td>
+<td>Marksman's Utility, base attack bonus +7, weapon training class feature with a ranged weapon.</td>
+<td>Gain new utility shots</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/impressive_grit">Impressive Grit<IonRippleEffect /></Link></td>
+<td>Base attack bonus +11, weapon training class feature with a ranged weapon.</td>
+<td>Gain a gunslinger deed or reduce the grit it takes to use one</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/liberating_shot">Liberating Shot<IonRippleEffect /></Link></td>
+<td>Dex 13, <Link to="/feat/deadly_aim">Deadly Aim</Link>, base attack bonus +7, weapon training class feature with a ranged weapon.</td>
+<td>Help grappled allies escape by shooting the opponent</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/marksmans_utility">Marksman's Utility<IonRippleEffect /></Link></td>
+<td>Base attack bonus +6, weapon training class feature with a ranged weapon.</td>
+<td>Gain the utility shot deed, or +4 attack with it if already possessed</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/retributive_kick">Retributive Kick<IonRippleEffect /></Link></td>
+<td><Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>, base attack bonus +5, weapon training class feature with a melee weapon.</td>
+<td>Get an extra unarmed attack if one misses</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/ricochet_toss">Ricochet Toss<IonRippleEffect /></Link></td>
+<td><Link to="/feat/quick_draw">Quick Draw</Link>, base attack bonus +6, weapon training class feature with a ranged weapon.</td>
+<td>Angle your throwing weapons so they return to you</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/smash_from_the_air">Smash from the Air<IonRippleEffect /></Link></td>
+<td>Str 13, <Link to="/feat/cut_from_the_air">Cut from the Air</Link>, <Link to="/feat/power_attack">Power Attack</Link>, base attack bonus +9, weapon training class feature with a melee weapon.</td>
+<td>Use Cut from the Air against unusually large ranged weapons</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/spellcut">Spellcut<IonRippleEffect /></Link></td>
+<td>Str 13, <Link to="/feat/cut_from_the_air">Cut from the Air</Link>, <Link to="/feat/power_attack">Power Attack</Link>, base attack bonus +9, Spellcraft 1 rank, weapon training class feature with a melee weapon.</td>
+<td>Use your BAB in place of a saving throw against an effect</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/targeted_blow">Targeted Blow<IonRippleEffect /></Link></td>
+<td>Str 13, <Link to="/feat/power_attack">Power Attack</Link>, base attack bonus +9, weapon training class feature with a melee weapon.</td>
+<td>Target a specific body part with an attack</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/weapon_material_mastery">Weapon Material Mastery<IonRippleEffect /></Link></td>
+<td>Base attack bonus +7, weapon training class feature with a melee weapon.</td>
+<td>Perform impressive deeds with weapons made of special materials</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/weapon_style_mastery">Weapon Style Mastery<IonRippleEffect /></Link></td>
+<td>Any two style feats from different styles, base attack bonus +6, weapon training class feature with a melee weapon.</td>
+<td>Have two weapon styles active at once</td>
+</tr>
+</tbody></table></ScrollContainer>
+</IonLabel></IonItem></IonList>};
+const _feats_armor_mastery = {title: "Feats - Armor Mastery", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_mastery">here</Link>.</p>
+<ScrollContainer id="main-feats_armor_mastery--table-0"><table>
+<thead>
+<tr>
+<th>Feat</th>
+<th>Prerequisites</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td className="ion-activatable"><Link to="/feat/armor_material_expertise">Armor Material Expertise<IonRippleEffect /></Link></td>
+<td>Base attack bonus +6 or fighter level 4th, armor training class feature.</td>
+<td>Gain a benefit based on your armor's special material</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/armor_material_mastery">Armor Material Mastery<IonRippleEffect /></Link></td>
+<td><Link to="/feat/armor_material_expertise">Armor Material Expertise</Link>, base attack bonus +11 or fighter level 8th, armor training class feature.</td>
+<td>Use Armor Material Expertise two additional times per day</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/cushioning_armor">Cushioning Armor<IonRippleEffect /></Link></td>
+<td>Armor training class feature, proficiency with medium or heavy armor.</td>
+<td>Transfer half your falling damage to your armor</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/greater_ironclad_reactions">Greater Ironclad Reactions<IonRippleEffect /></Link></td>
+<td><Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/ironclad_reactions">Ironclad Reactions</Link>, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with medium armor.</td>
+<td>Use Ironclad Reactions more than once per round.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/imposing_bearing">Imposing Bearing<IonRippleEffect /></Link></td>
+<td><Link to="/feat/poised_bearing">Poised Bearing</Link>, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with heavy armor.</td>
+<td>Treat your size as two category larger for combat maneuvers</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/intense_blows">Intense Blows<IonRippleEffect /></Link></td>
+<td>Str 13, <Link to="/feat/power_attack">Power Attack</Link>, base attack bonus +6 or fighter level 4th, armor training class feature, proficiency with heavy armor.</td>
+<td>Gain a bonus to CMD when using Power Attack</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/ironclad_reactions">Ironclad Reactions<IonRippleEffect /></Link></td>
+<td>Base attack bonus +6 or fighter level 4th, armor training class feature, proficiency with medium armor.</td>
+<td>Take a bonus 5-foot step when struck in combat</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/knocking_blows">Knocking Blows<IonRippleEffect /></Link></td>
+<td>Str 13, <Link to="/feat/intense_blows">Intense Blows</Link>, <Link to="/feat/power_attack">Power Attack</Link>, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with heavy armor.</td>
+<td>Creatures you Power Attack take a penalty to CMD for 1 round</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/poised_bearing">Poised Bearing<IonRippleEffect /></Link></td>
+<td>Base attack bonus +6 or fighter level 4th, armor training class feature, proficiency with medium or heavy armor.</td>
+<td>Treat your size as one category larger for combat maneuvers</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/secured_armor">Secured Armor<IonRippleEffect /></Link></td>
+<td>Base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with medium or heavy armor.</td>
+<td>25% chance to negate a critical hit or sneak attack</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/sprightly_armor">Sprightly Armor<IonRippleEffect /></Link></td>
+<td>Dex 13, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with light armor.</td>
+<td>Gain your armor's enhancement bonus to initiative</td>
+</tr>
+</tbody></table></ScrollContainer>
+</IonLabel></IonItem></IonList>};
+const _feats_shield_mastery = {title: "Feats - Shield Mastery", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_mastery">here</Link>.</p>
+<ScrollContainer id="main-feats_shield_mastery--table-0"><table>
+<thead>
+<tr>
+<th>Feat</th>
+<th>Prerequisites</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td className="ion-activatable"><Link to="/feat/cushioning_shield">Cushioning Shield<IonRippleEffect /></Link></td>
+<td><Link to="/feat/shield_focus">Shield Focus</Link>, base attack bonus +6 or fighter level 4th.</td>
+<td>Transfer half your falling damage to your shield</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/defended_movement">Defended Movement<IonRippleEffect /></Link></td>
+<td><Link to="/feat/shield_focus">Shield Focus</Link>, base attack bonus +6 or fighter level 4th.</td>
+<td>Gain +2 AC vs attacks of opportunity</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/feint_defender">Feint Defender<IonRippleEffect /></Link></td>
+<td><Link to="/feat/shield_focus">Shield Focus</Link>, base attack bonus +6 or fighter level 4th, Sense Motive 1 rank.</td>
+<td>Increase the DC required to feint you</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/greater_ray_shield">Greater Ray Shield<IonRippleEffect /></Link></td>
+<td>Dex 17, <Link to="/feat/missile_shield">Missile Shield</Link>, <Link to="/feat/ray_shield">Ray Shield</Link>, <Link to="/feat/spellbreaker">Spellbreaker</Link>.</td>
+<td>Your shield is unaffected when using Ray Shield</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/guarded_charge">Guarded Charge<IonRippleEffect /></Link></td>
+<td><Link to="/feat/shield_focus">Shield Focus</Link>, base attack bonus +6 or fighter level 4th.</td>
+<td>Don't provoke for making a bull rush or overrun at the end of a charge</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/shield_brace">Shield Brace<IonRippleEffect /></Link></td>
+<td><Link to="/feat/shield_focus">Shield Focus</Link>; base attack bonus +3 or fighter level 1st; proficiency with light shields, heavy shields, or tower shields.</td>
+<td>Wield a polearm or spear while using a shield</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/shield_material_expertise">Shield Material Expertise<IonRippleEffect /></Link></td>
+<td><Link to="/feat/shield_focus">Shield Focus</Link>, base attack bonus +6 or fighter level 4th.</td>
+<td>Gain a benefit based on your shield's special material</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/shield_material_mastery">Shield Material Mastery<IonRippleEffect /></Link></td>
+<td><Link to="/feat/shield_focus">Shield Focus</Link>, <Link to="/feat/shield_material_expertise">Shield Material Expertise</Link>, base attack bonus +11 or fighter level 8th.</td>
+<td>Use Shield Material Experties two additional times per day</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/shielded_mage">Shielded Mage<IonRippleEffect /></Link></td>
+<td><Link to="/feat/shield_focus">Shield Focus</Link>, base attack bonus +3 or fighter level 1st.</td>
+<td>Cast spells while using a shield</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/shielded_stand">Shielded Stand<IonRippleEffect /></Link></td>
+<td><Link to="/feat/shield_focus">Shield Focus</Link>, base attack bonus +3 or fighter level 1st.</td>
+<td>Guard yourself or an ally while standing up</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/stumbling_bash">Stumbling Bash<IonRippleEffect /></Link></td>
+<td><Link to="/feat/improved_shield_bash">Improved Shield Bash</Link>, <Link to="/feat/shield_focus">Shield Focus</Link>, base attack bonus +6 or fighter level 4th.</td>
+<td>Creatures you shield bash take an AC penalty for 1 round</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/toppling_bash">Toppling Bash<IonRippleEffect /></Link></td>
+<td><Link to="/feat/improved_shield_bash">Improved Shield Bash</Link>, <Link to="/feat/shield_focus">Shield Focus</Link>, <Link to="/feat/stumbling_bash">Stumbling Bash</Link>, base attack bonus +11 or fighter level 8th.</td>
+<td>Trip creatures you shield bash as a swift action</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/tower_shield_specialist">Tower Shield Specialist<IonRippleEffect /></Link></td>
+<td><Link to="/feat/shield_focus">Shield Focus</Link>, <Link to="/feat/tower_shield_proficiency">Tower Shield Proficiency</Link>, base attack bonus +11 or fighter level 8th.</td>
+<td>Reduce the armor check penalty of a tower shield</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/unhindering_shield">Unhindering Shield<IonRippleEffect /></Link></td>
+<td><Link to="/feat/shield_focus">Shield Focus</Link>, base attack bonus +6 or fighter level 4th, proficiency with bucklers.</td>
+<td>Treat your buckler hand as free for all purposes</td>
+</tr>
+</tbody></table></ScrollContainer>
+</IonLabel></IonItem></IonList>};
+const _feats_item_mastery = {title: "Feats - Item Mastery", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_mastery">here</Link>.</p>
+<ScrollContainer id="main-feats_item_mastery--table-0"><table>
+<thead>
+<tr>
+<th>Feat</th>
+<th>Prerequisites</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td className="ion-activatable"><Link to="/feat/ability_mastery">Ability Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 3 ranks, base Fortitude saving throw bonus +4.</td>
+<td>Gain an enhancement bonus to an ability score with a suit of magic armor or transmutation-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/compulsion_mastery">Compulsion Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 3 ranks, base Fortitude save bonus +6.</td>
+<td>Cast suggestion with an enchantment-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/concealment_mastery">Concealment Mastery<IonRippleEffect /></Link></td>
+<td>Stealth 3 ranks, Use Magic Device 3 ranks, base Fortitude saving throw bonus +3.</td>
+<td>Cast invisibility with an illusion-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/curative_mastery">Curative Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 1 rank, base Fortitude bonus +2.</td>
+<td>Cast healing spells with a conjuration-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/curse_mastery">Curse Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 3 ranks, base Fortitude save bonus +6.</td>
+<td>Cast bestow curse with a necromancy-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/dispel_mastery">Dispel Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 3 ranks, base Fortitude save bonus +6.</td>
+<td>Cast dispel magic with an abjuration-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/energy_mastery">Energy Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 1 rank, base Fortitude save bonus +4.</td>
+<td>Cast burning hands or lightning bolt with an evocation-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/flight_mastery">Flight Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 3 ranks, base Fortitude save bonus +6.</td>
+<td>Cast fly with a transmutation-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/force_shield_mastery">Force Shield Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 3 ranks, base Fortitude saving throw bonus +3.</td>
+<td>Cast shield with an abjuration-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/illusion_mastery">Illusion Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 2 ranks, base Fortitude save bonus +4.</td>
+<td>Cast minor image with an illusion-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/implement_mastery">Implement Mastery<IonRippleEffect /></Link></td>
+<td>Implements class feature, mental focus class feature.</td>
+<td>Treat your implements as magic items of their associated school for Item Mastery feats.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/racial_item_mastery">Racial Item Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 6 ranks, base Fortitude saving throw bonus +3.</td>
+<td>Use a magic item to recharge your racial spell-like abilities.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/resistance_mastery">Resistance Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 3 ranks, base Fortitude saving throw bonus +3.</td>
+<td>Gain a resistance bonus to saves or energy resistance with a suit of magic armor or abjuration-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/restoration_mastery">Restoration Mastery<IonRippleEffect /></Link></td>
+<td>Heal 5 ranks, Use Magic Device 5 ranks, base Fortitude saving throw bonus +3.</td>
+<td>Cast lesser restoration with a conjuration (healing)-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/symbolic_mastery">Symbolic Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 4 ranks, base Fortitude saving throw bonus +2.</td>
+<td>Launch destructive blasts from your holy symbol</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/telekinetic_mastery">Telekinetic Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 5 ranks, base Fortitude save bonus +7.</td>
+<td>Cast telekinesis with a transmutation-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/teleportation_mastery">Teleportation Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 4 ranks, base Fortitude save bonus +6.</td>
+<td>Cast dimension door with a conjuration-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/vision_mastery">Vision Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 2 ranks, base Fortitude save bonus +4.</td>
+<td>Cast darkvision or see invisibility with a divination-crafted item</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/weapon_evoker_mastery">Weapon Evoker Mastery<IonRippleEffect /></Link></td>
+<td>Use Magic Device 2 ranks, base Fortitude saving throw bonus +3.</td>
+<td>Amplify the power of a magic weapon that deals energy damage</td>
+</tr>
+</tbody></table></ScrollContainer>
+</IonLabel></IonItem></IonList>};
+const _feats_monster = {title: "Feats - Monster", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_other">here</Link>.</p>
+<DisplayTable table={{"id":"Monster feats table","columns":[{"header":"Feat","size":8.5,"ripple":true},{"header":"Prerequisites","size":8.5},{"header":"Description","unsortable":true,"size":13.25}],"nullValue":"","initialColumn":0,"data":[["‹feat/Ability Focus›","Special attack.","Increase the DC of a special attack by 2."],["‹feat/Awesome Blow›","Str 25, ‹feat/Power Attack›, ‹feat/Improved Bull Rush›, size Large or larger.","Learn a maneuver to send opponent's flying backwards."],["‹feat/Bouncing Spell-Like Ability›","Spell-like ability at caster level 4th or higher.","Failed spell-like ability bounces to another target"],["‹feat/Disruptive Spell-Like Ability›","Spell-like ability at caster level 4th or higher.","Spell-like ability interferes with spellcasting"],["‹feat/Empower Spell-Like Ability›","Spell-like ability at caster level 6th or higher.","Gain more uses of a spell-like ability as an empowered version."],["‹feat/Fearsome Spell-Like Ability›","Spell-like ability at caster level 6th or higher.","Spell-like ability makes damaged foes shaken"],["‹feat/Flyby Attack›","Fly speed.","Take a standard action during your move action while flying."],["‹feat/Gruesome Shapechanger›","Shapechanger subtype.","Bloody transformation sickens foes and makes area slippery"],["‹feat/Hover›","Fly speed.","Hover without needing to make a Fly check."],["‹feat/Improved Natural Armor›","Natural armor, Con 13.","Increase your natural armor by 1."],["‹feat/Improved Natural Attack›","Natural weapon, base attack bonus +4.","Increase the damage dice for one of your natural attacks."],["‹feat/Intensified Spell-Like Ability›","Spell-like ability at caster level 4th or higher.","Spell-like ability has a higher damage dice cap"],["‹feat/Lingering Spell-Like Ability›","Spell-like ability at caster level 4th or higher.","Instantaneous spell-like ability lasts another round"],["‹feat/Multiattack›","Three or more natural attacks.","Reduce the penalty of your secondary attacks from -5 to -2."],["‹feat/Multiweapon Fighting›","Dex 13, three or more hands.","Reduce the penalties for fighting with multiple weapons from -6/-10 to -2/-6."],["‹feat/Possess Creature›","Cha 20, any evil outsider with 10 or more Hit Dice.","Powerful fiends have the ability to merge with creatures and spread their foul influence"],["‹feat/Possess Location›","Cha 16, any evil outsider with 8 or more Hit Dice.","Some fiends have the ability to merge with the land or a structure and spread their foul influence"],["‹feat/Possess Object›","Cha 18, any evil outsider with 9 or more Hit Dice.","Some fiends have the ability to merge with an object and spread their foul influence"],["‹feat/Quicken Spell-Like Ability›","Spell-like ability at CL 10th or higher.","Gain more uses with a spell-like ability as a Quickened version."],["‹feat/Reach Spell-Like Ability›","Spell-like ability at caster level 4th or higher.","Spell-like ability gains a longer range"],["‹feat/Scarring Spell-Like Ability›","Spell-like ability at caster level 4th or higher.","Spell-like ability causes penalties against emotion effects"],["‹feat/Sickening Spell-Like Ability›","Spell-like ability at caster level 6th or higher.","Spell-like ability sickens damaged foes"],["‹feat/Skin Suit›","Int 7, undead creature that was originally humanoid.","Hide in false flesh during the day"],["‹feat/Snatch›","Size Huge or larger.","Start a grapple when hitting a creature with your claw or bite attack, as if you had the Grab ability."],["‹feat/Spawnlink›","Int 13, create spawn monster ability.","See through spawn's eyes"],["‹feat/Traumatic Spell-Like Ability›","Spell-like ability at caster level 6th or higher.","Spell-like ability causes nightmares"],["‹feat/Wingover›","Fly speed.","Turn up to 180 degrees while flying once per round without the need of a fly check."]]}} />
+</IonLabel></IonItem></IonList>};
+const _feats_teamwork = {title: "Feats - Teamwork", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_multiperson">here</Link>.</p>
+<ul>
+<li>Feats marked with an asterisk (*) are Betrayal feats.</li>
+<li>Feats marked with a dagger (&dagger;) are Coven feats.</li>
+</ul>
+<DisplayTable table={{"id":"Teamwork feats table","columns":[{"header":"Feat","size":8.5,"ripple":true},{"header":"Prerequisites","size":8.5},{"header":"Description","unsortable":true,"size":13.25}],"nullValue":"","initialColumn":0,"data":[["‹feat/Alien Mindpaths›","Android, kasatha, lashunta, or Triaxian.","Gain +4 on saves vs. mind-affecting effects and scrying"],["‹feat/Allied Spellcaster›","Caster level 1st.","+2 bonus on level checks to overcome spell resistance"],["‹feat/Ally Shield*›","","Use your allies as shields"],["‹feat/Ambush Squad›","Base attack bonus +1, kobold.","Take both a move action and a standard action on a surprise round when you and ally can both act"],["‹feat/Amplified Radiance›","Aasimar, daylight racial spell-like ability.","Shed an aura of light when near allies who share this feat"],["‹feat/Amplified Rage›","Half-orc or orc, rage class feature.","Make your rage more powerful when near others raging"],["‹feat/Artillery Team›","Proficiency with light crossbow, heavy crossbow, or musket; size Small or Medium.","Ally with this feat can help you load and fire a Large light crossbow, heavy crossbow, or musket"],["‹feat/Assisted Ascension›","Climb 5 ranks.","Climb with allies more effectively"],["‹feat/Back to Back›","Perception 3 ranks.","Gain a +2 to AC against flanking opponents"],["‹feat/Barrage of Styles›","Base attack bonus +1, human.","Adjacent allies with this feat grant you a cumulative +1 bonus (max +4) on combat maneuver checks"],["‹feat/Basic Harmony›","Bardic performance or raging song.","Grant improved bonuses on Perform when aiding another"],["‹feat/Blades Above and Below›","Base attack bonus +6.","When fighting with a differently sized ally, you flank an adjacent foe from any position"],["‹feat/Blood for the Empire›","Base attack bonus +4.","+2 attack and damage against creatures damage by your allies in the last round"],["‹feat/Bonded Mind›","","Trade nonverbal messages with allies"],["‹feat/Broken Wing Gambit›","Bluff 5 ranks.","Grant opponent bonus to hit you, but opponent's attack provokes attacks of opportunity"],["‹feat/Brutal Grappler›","Half-orc or orc.","Help an ally grapple a creature"],["‹feat/Burn It Down!›","Base attack bonus +1, goblin.","Nearby allies with this feat grant a cumulative +1 bonus (max +4) on damage with certain fire attacks"],["‹feat/Callous Casting*›","Spellcraft 1 rank.","Include allies in the area of your spells to dishearten your enemies"],["‹feat/Casting Conduit›","Spellcraft 1 rank.","When casting a touch spell, adjacent ally can take minimum damage to make an identical attack"],["‹feat/Cavalry Formation›","‹feat/Mounted Combat›.","May share space with other mounts, charge through space occupied by allied mount"],["‹feat/Choir of Blades›","","Gain an ally's bonus on attack rolls against a creature or a subtype, as well as the ally's racial weapon proficiencies"],["‹feat/Choral Support›","Perform (sing) 3 ranks.","Change your allies spells to deal sonic damage"],["‹feat/Circling Offense›","‹feat/Dodge›, ‹feat/Mobility›, base attack bonus +3.","Dodge attacks of opportunity from larger creatures better, while having the offending creature provoke from your allies"],["‹feat/Collective Recollection›","","Use aid another on an ally's Knowledge checks"],["‹feat/Combat Medic›","Heal 5 ranks.","May take 10 and not provoke attacks of opportunity when using Heal"],["‹feat/Compelling Harmonies›","‹feat/Basic Harmony›, Perform (keyboard, percussion, sing, string, or wind) 10 ranks, bardic performance or raging song.","Expend a round of performance to boost another ally's performance"],["‹feat/Concentrated Fire›","‹feat/Point-Blank Shot›, elf, weapon familiarity racial trait.","When you and an ally with this feat both ready actions to make ranged attacks, use the highest attack roll for both attacks"],["‹feat/Conduit Casting›","Spellcraft 3 ranks.","Use your ally as the origin of your spell"],["‹feat/Cooperative Counterspelling›","Spellcraft 5 ranks, racial spell-like ability replicating a spell of 1st level or higher.","When you and an ally with this feat both ready actions to counterspell, you gain additional counterspelling options"],["‹feat/Cooperative Disabling›","Disable Device 1 rank, trapfinding class feature.","Ally can attempt a second Disable Device check as an immediate action"],["‹feat/Cooperative Rend›","Rend, troll.","Use your rend with greater ease"],["‹feat/Coordinated Blast›","Spellcraft 5 ranks, any racial spell-like ability.","Exclude allies with this feat from area spells and abilities"],["‹feat/Coordinated Capture›","Base attack bonus +1.","Creatures you and your allies threaten take penalties to checks to avoid provoking attacks of opportunities"],["‹feat/Coordinated Charge›","You have at least two other teamwork feats, base attack bonus +10.","You may charge the same foe when an ally does"],["‹feat/Coordinated Defense›","","+2 bonus to CMD"],["‹feat/Coordinated Distraction›","","Make it harder for your foes to cast spells defensively."],["‹feat/Coordinated Maneuvers›","","+2 bonus on combat maneuver checks"],["‹feat/Coordinated Reposition›","Step-Up.","Take 5 ft. steps when allies do"],["‹feat/Coordinated Shot›","‹feat/Point-Blank Shot›.","When an ally with this feat threatens a foe, gain a +1 bonus on ranged attack rolls, or +2 if that ally is flanking the foe"],["‹feat/Counterpoint to Inspiration›","‹feat/Basic Harmony›, Compelling Harmony, Perform (keyboard, percussion, sing, string, or wind) 10 ranks, bardic performance or raging song.","Increase the bonus of a performance by aiding with your own"],["‹feat/Courage in Numbers›","‹feat/Iron Will›.","+2 save vs. fear for each nearby ally with this feat"],["‹feat/Covering Fire (RTT)›","‹feat/Point-Blank Shot›.","Use aid another with ranged attacks against distant opponents"],["‹feat/Covering Fire (VC)›","‹feat/Exotic Weapon Proficiency› (firearms), ‹feat/Weapon Focus› (at least one firearm).","Targets you hit take an attack roll penalty against your allies"],["‹feat/Crowd Control›","Base attack bonus +3.","You gain a +2 competence bonus to your CMD when an enemy uses Acrobatics to move through a square you threaten."],["‹feat/Crowd of Bullies›","Half-orc.","Allies with this feat gain a +2 bonus on combat maneuver checks after you fail a combat maneuver check"],["‹feat/Darting Retrieval›","Int 13, ‹feat/Combat Expertise›, ‹feat/Improved Disarm›.","Kick disarmed items out of the way before the enemy can retrieve them"],["‹feat/Deadly Troupe›","Perform (act) or Perform (dance) 3 ranks, human (Varisian).","Gain a +4 bonus on certain combat maneuver checks and skill checks against foes threatened by allies with this feat"],["‹feat/Designated Antagonist›","‹feat/Antagonize›.","When using Antagonize, directy hostility to willing ally"],["‹feat/Diplomatic Ruse›","Diplomacy 3 ranks, human (Keleshite).","Take a free action as part of your initiative check"],["‹feat/Disarm Partner›","Base attack bonus +1.","Attempt a disarm when an ally fails at one"],["‹feat/Distracting Charge›","","When an ally with this feat charges, you gain a +2 bonus on attack rolls against the creature charged"],["‹feat/Diversion Shot›","‹feat/Stealthy›, ‹feat/Target of Opportunity›.","Use Target of Opportunity to give allies a chance to hide"],["‹feat/Drinking Buddy›","","If you and your ally are drunk, you can reroll any d20 roll once per day"],["‹feat/Duck and Cover›","","Take ally's result on Reflex saving throw"],["‹feat/Echoes of the First World›","Knowledge (nature) 2 ranks, gnome subtype.","Gain DR 2/cold iron and count as fey instead of humanoid when near allies with this feat"],["‹feat/Eclipse Strike›","Tiefling, darkness racial spell-like ability.","When flanking with another ally who has this feat, make an eclipse strike to blind a target"],["‹feat/Electric Discharge›","‹feat/Arcane Strike›, ability to cast a 1st-level or higher spell with the electricity descriptor.","Combine electricity spells to greater effect"],["‹feat/Elemental Commixture›","Caster level 1st.","Combine elemental spells with allies' to create synergistic effects"],["‹feat/Enfilading Fire›","‹feat/Point-Blank Shot›, ‹feat/Precise Shot›, one other teamwork feat.","When ally flanks opponent, you gain +2 on ranged attack rolls against opponent"],["‹feat/Ensemble›","Perform 5 ranks","Nearby performers can aid your perform checks"],["‹feat/Escape Route›","","You do not provoke attacks of opportunity when moving through spaces adjacent to allies"],["‹feat/Exceptional Aid›","‹feat/Bonded Mind›.","Aid Another increases to +4"],["‹feat/Extend the Bulwark›","","Extend the protection of your armor to your allies"],["‹feat/Extraplanar Conjunction›","Any racial spell-like ability, outsider.","Increase the save DC of a racial spell-like ability by 2 when near an ally with this feat and the same spell-like ability"],["‹feat/Fall Guy›","Bluff 1 rank.","Take a -2 penalty to Charisma-based checks to give an ally a +2 bonus on such checks"],["‹feat/Familiar Link«†›","Coven hex or ‹feat/Coven-Touched›, familiar or spirit animal class feature, witch level 1st.","Within your coven, you have formed a bond with your fellow witches' familiars"],["‹feat/Feint Partner›","Bluff 1 rank.","When ally successfully feints, opponent loses Dex bonus against your next attack"],["‹feat/Ferocious Horde›","Orc, ferocity racial trait.","Gain +2 morale bonus on attack rolls when you and an ally with this feat are both at or below half hit points"],["‹feat/Ferocious Loyalty›","","Bonus on attacks when the enemy threatens or knocks out your allies"],["‹feat/Fighting Frenzy›","Cha 13, rage class feature.","Avoid an AC penalty while in rage if allies are close by"],["‹feat/Flow of Elements›","Ability to cast spells; Ifrit, oread, sylph, or undine.","Change all or part of a spell's damage to the energy type associated with the race of an adjacent ally who has this feat"],["‹feat/Focusing Blow›","‹feat/Hobgoblin Discipline›, hobgoblin.","Cause damage to break an ally from an ongoing mind-affecting effect"],["‹feat/Friendly Fire*›","‹feat/Precise Shot›.","Increase your ability to attack in ranged combat by not caring if you hit your allies"],["‹feat/Friendly Fire Maneuvers›","‹feat/Point-Blank Shot›, ‹feat/Precise Shot›.","Stay out of each other's way with ranged and area attacks"],["‹feat/Friendly Rivalry›","Human (Taldan).","Gain +2 morale bonus on melee attacks against foes only you threaten if an ally is the only one threatening a different foe"],["‹feat/Giantslaying Team›","Dex 13, ‹feat/Dodge›, ‹feat/Mobility›, base attack bonus +4, defensive training racial trait.","Attack a giant as an immediate action when the giant's attack of opportunity misses an ally with this feat"],["‹feat/Got Your Back›","Int 13, ‹feat/Combat Expertise›.","Use aid another to prevent allies from becoming flanked or flat-footed"],["‹feat/Group Deliver Touch Spells›","‹feat/Group Shared Spells›, must have a familiar with the share spells and deliver touch spells abilities.","Cast spells through allied familiars"],["‹feat/Group Shared Spells›","Familiar with the share spells ability.","Your allies can share spells with your familiar"],["‹feat/Hammer Guards the Anvil›","","Limit when a foe can make an attack of opportunity against you"],["‹feat/Harder They Fall›","Str 13, Int 13, ‹feat/Combat Expertise›, ‹feat/Power Attack›.","Grant ally a +2 bonus on bull rush or trip attempt"],["‹feat/Harrying Partners›","Any teamwork feat, base attack bonus +6.","Uses of aid another to improve AC last longer"],["‹feat/High Magic Focus›","Any metamagic feat, Spellcraft 7 ranks, ability to cast 2nd-level spells, human (Garundi).","Spontaneously apply metamagic feats without using higher-level spell slots or increasing casting time if allies ready an action to cast the same spell"],["‹feat/Horde Charge›","Base attack bonus +1, half-orc or orc.","+2 attack/damage when charging at the same time"],["‹feat/Improved Back to Back›","‹feat/Back to Back›, Perception 5 ranks.","Grant adjacent ally +2 to AC against flanking opponents"],["‹feat/Improved Disarm Partner›","‹feat/Disarm Partner›, base attack bonus +5.","Make attacks of opportunity and disarm checks when an ally fails to disarm someone"],["‹feat/Improved Duck and Cover›","‹feat/Duck and Cover›.","When you use Duck and Cover, an ally with evasion or improved evasion takes some of the damage"],["‹feat/Improved Feint Partner›","Bluff 1 rank, ‹feat/Combat Reflexes›, ‹feat/Feint Partner›, base attack bonus +6.","When ally successfully feints, you gain attack of opportunity against opponent"],["‹feat/Improved Outflank›","‹feat/Outflank›, base attack bonus +6.","Flank foe without having to be on opposite sides"],["‹feat/Improved Precise Strike›","Dex 13, ‹feat/Precise Strike›, base attack bonus +4.","Deal bleed damage with Precise Strike"],["‹feat/Improved Spell Sharing›","Ability to acquire an animal companion, eidolon, familiar, or special mount.","Divide spell duration with the companion creature"],["‹feat/Improved Swap Places›","‹feat/Swap Places›.","When you use Swap Places, your ally can be smaller or larger and your movement does not provoke attacks of opportunity"],["‹feat/Improved Underhanded Teamwork›","‹feat/Combat Expertise›, ‹feat/Improved Dirty Trick›, ‹feat/Underhanded Teamwork›, base attack bonus +6.","Attempt a dirty trick when a nearby ally does so"],["‹feat/Inspiring Talent›","Half-elf, adaptability or ancestral arms racial trait.","Share benefits of an ally's ‹feat/Skill Focus› or weapon proficiencies in certain situations"],["‹feat/Intercept Charge›","","Move up to your speed to intercept charging foe as an immediate action"],["‹feat/Interweave Composite Blast›","Kinetic blast class feature.","Work together to unleash a composite blast"],["‹feat/Joined Wings›","Fervor or lay on hands class feature.","Use fervor or lay on hands on allies as a swift action"],["‹feat/Juju Way›","Knowledge (religion) 3 ranks, human (Mwangi).","Cast touch spells at a range of 20 feet when targeting a willing Mwangi ally who has this feat"],["‹feat/Knotted Nets›","‹feat/Exotic Weapon Proficiency› (net), base attack bonus +1.","Work together with multiple allies to use nets against larger creatures"],["‹feat/Lastwall Phalanx›","Base attack bonus +3, good alignment.","Bonus to AC and saves against evil creatures depending on the number of adjacent allies"],["‹feat/Linnorm Hunter Coordination›","Cha 13, Dex 13, ‹feat/Dodge›, ‹feat/Linnorm Hunter Retreat›, ‹feat/Linnorm Hunter Style›, base attack bonus +6, must have or be an animal companion.","As a full-round action, you can make a single attack that deals extra damage"],["‹feat/Linnorm Hunter Retreat›","Cha 13, Dex 13, ‹feat/Dodge›, ‹feat/Linnorm Hunter Style›, base attack bonus +4, must have or be an animal companion.","Move 5 ft. as an immediate action when your ally attacks"],["‹feat/Linnorm Hunter Style›","Cha 13, must have or be an animal companion.","Enemies that provoke an attack of opportunity from your ally also provoke from you"],["‹feat/Living Fortress›","Dwarf, hardy racial trait.","Racial bonus on saves against spells and spell-like abilities increases by 2 when you're adjacent to an ally who has this feat"],["‹feat/Lookout›","","Act in surprise round if ally can act"],["‹feat/Loyal to the Death›","Human (Tian).","You can become the target of an attack directed against an adjacent ally who has this feat"],["‹feat/Metamagical Synergy«†›","‹feat/Allied Spellcaster›.","You and the other members of your coven can weave your spells together to great effect"],["‹feat/Mirror Kin›","Bluff 8 ranks, gnome, gnome magic racial trait.","You become difficult to distinguish from your allies, giving you a 20% miss chance due to concealment"],["‹feat/My Blade is Yours›","Int 13, ‹feat/Combat Expertise›, Sense Motive 3 ranks.","Use a weapon special quality from adjacent ally's weapon"],["‹feat/Mystical Reverberation›","Ability to spontaneously cast spells.","Grant an ally use of a metamagic feat you know"],["‹feat/One Mind›","‹feat/Alertness›, Sense Motive 3 ranks, human (Vudrani).","Avoid penalties when flat-footed, blinded, or fighting invisible creatures if you're adjacent to ally who has this feat"],["‹feat/Open Up›","Int 13, ‹feat/Combat Expertise›.","Uses of aid another to improve attacks also ignore AC bonuses granted by a shield"],["‹feat/Out of the Sun›","Bluff 3 ranks, Stealth 3 ranks.","Feint a target but allow an ally to gain the benefits of that feint; works better in bright light or sunlight"],["‹feat/Outflank›","Base attack bonus +4.","Gain +4 bonus on attack rolls when flanking"],["‹feat/Overwhelm›","","Flank larger opponents with ease"],["‹feat/Pack Attack›","Base attack bonus +1.","Ally's attack allows you to take a 5-foot step"],["‹feat/Pack Flanking›","Int 13, ‹feat/Combat Expertise›, ability to acquire an animal companion.","You and your companion creature flank regardless of position"],["‹feat/Pack Intimidation›","Half-orc, intimidating racial trait.","When you use Intimidate to demoralize, gain a +2 circumstance bonus for every ally with this feat within 30 feet"],["‹feat/Paired Opportunists›","","+4 bonus on attacks of opportunity"],["‹feat/Passing Grace›","","Your bond with your allies allows you to share positive energy between yourselves"],["‹feat/Piercing Gambit›","‹feat/Spell Penetration› or Bluff 3 ranks; caster level 1st.","Expend spell or spell slot to give ally spellcaster a bonus to overcome spell resistance"],["‹feat/Precise Strike›","Dex 13, base attack bonus +1.","Deal +1d6 points of precision damage with melee attacks"],["‹feat/Protective Line›","‹feat/Exotic Weapon Proficiency› (firearms).","Don't provoke attacks of opportunity while reloading a firearm"],["‹feat/Punch Through›","Base attack bonus +6.","Help your allies ignore a target's damage reduction."],["‹feat/Pursuit of Glory›","Human (Ulfen).","Gain a +2 morale bonus on one attack roll made as part of a charge if you start or end the charge adjacent to an ally"],["‹feat/Quah Bond›","‹feat/Totem Spirit›, human (Shoanti).","Double benefits granted by your Totem Spirit feat when an ally from the same quah with this feat is within 30 feet"],["‹feat/Rat Stack›","Dex 13, swarming racial trait.","You and two allies can share the same space"],["‹feat/Reckless Moves*›","Acrobatics 3 ranks.","Use an ally as a counterweight to improve your balance"],["‹feat/Relentless Cheer›","Halfling, fearless and halfling luck racial traits.","+1 on all saves, increasing to +3 vs. fear, when adjacent to allies who have this feat"],["‹feat/Rending Swarm›","Dex 15, ‹feat/Rat Stack›, swarming racial trait.","While swarming, rend creature hit by more than one of you"],["‹feat/Returning Throw›","‹feat/Point-Blank Shot›, ‹feat/Precise Shot›, Sleight of Hand 3 ranks, goblinoid subtype.","When an ally misses with a thrown weapon attack, you can catch the weapon and use it to attack the original target"],["‹feat/Ruthless Opportunist›","Human (Chelaxian).","When an ally with this feat hits a foe using an attack of opportunity, gain +2 on attacks against that foe for 1 round"],["‹feat/Sacrificial Aid›","","Allies can aid another on Disable Device, at the risk of being the target of the trap"],["‹feat/Scarred Legion›","","+2 Intimidate and +2 Will when adjacent to ally with the feat; Keep bonus after charging for 1 round"],["‹feat/Scion of the Land›","Survival 1 rank.","Grant ability to leave no trail to allies within 60 feet or gain +2 bonus on some nature-based skills"],["‹feat/Scion of the Lost Empire›","Human (Chelaxian or Taldan).","Gain +2 competence bonus on attack roll, save, ability check, or skill check when adjacent to an ally with this feat"],["‹feat/Secret Language›","Bluff 1 rank, Linguistics 1 rank, Sense Motive 1 rank.","Learn a complex set of codes and phrases in order to quickly and discreetly share information with allies"],["‹feat/Seeping Darkness›","Drow, darkness racial spell-like ability.","Gain concealment when adjacent to an ally with this feat"],["‹feat/Seize the Moment›","‹feat/Combat Reflexes›, ‹feat/Improved Critical›.","When ally confirms a critical threat, you gain an attack of opportunity"],["‹feat/Shake It Off›","","Gain +1 to all saving throws per adjacent ally"],["‹feat/Share Healing›","Ability to acquire an animal companion, eidolon, familiar, or special mount.","Share healing with your companion creature"],["‹feat/Share Spells›","‹feat/Bonded Mind›, ability to share spells with an animal companion, eidolon, familiar, or phantom, caster level 1st.","Share personal spells with allies"],["‹feat/Shared Ownership›","‹feat/Well-Prepared›, Sleight of Hand 1 rank, halfling.","You can draw an item in an ally's possession as a move action as long as the ally is within 30 feet and has this feat"],["‹feat/Shared Remembrance›","Knowledge (any) 1 rank, elf.","Gain a cumulative +2 bonus (max +10) on Knowledge checks to identify monsters for each ally within 30 feet who has this feat"],["‹feat/Shared Stash›","‹feat/Quick Draw›, base attack bonus +1, Sleight of Hand 1 rank, swarming racial trait.","Quickly borrow items from your allies"],["‹feat/Shield Wall›","‹feat/Shield Proficiency›.","Increase your shield bonus to AC"],["‹feat/Shielded Caster›","","+4 bonus on concentration checks"],["‹feat/Snapping Flank›","Base attack bonus +9, bite attack.","Make a bite attack as a swift action when flanking"],["‹feat/Special Delivery›","‹feat/Bonded Mind›, ‹feat/Share Spells›, ability to deliver spells through an animal companion, eidolon, familiar, or phantom, caster level 3rd.","Allow your allies to carry your touch spells"],["‹feat/Spell Bluff (AH)›","","If ally is in the area of a damaging spell, enemies also in the area take a penalty to their saving throws vs the spell"],["‹feat/Spell Chain›","‹feat/Spell Penetration›.","Help your allies to bypass a target's spell resistance."],["‹feat/Spell Synergy›","Spellcraft 5 ranks.","Amplify the effects of a spell on yourself"],["‹feat/Spirit of the Corps›","","Duplicate morale bonuses from teammates"],["‹feat/Splash Volley*›","Base attack bonus +1.","Allies can help to redirect missed splash weapons nearby"],["‹feat/Squirming Pile›","Acrobatics 5 ranks, swarming racial trait.","While swarming, gain fortification against critical hits and sneak attack"],["‹feat/Stealth Synergy›","","Take the highest roll made by you and your allies on Stealth checks"],["‹feat/Stick Together›","","Gain extra movement when a nearby ally moves"],["‹feat/Stone Dodger›","","Allied warnings help you avoid large thrown objects"],["‹feat/Suppress Regeneration›","","Allies take advantage of an enemies' halted regeneration"],["‹feat/Suppressive Fire›","‹feat/Far Shot›, ‹feat/Precise Shot›, keen senses racial trait.","When you damage a target with a ranged attack, it can't make attacks of opportunity against allies who have this feat"],["‹feat/Swap Places›","","Switch places with an adjacent ally"],["‹feat/Swarm Scatter›","","+1 AC for adjacent allies, immune to swarm attack/distraction of rat swarms"],["‹feat/Swarm Strike›","","+1 to attacks of opportunity, extra for other threatening allies"],["‹feat/Swing About›","‹feat/Escape Route›.","Help move allies around without provoking"],["‹feat/Tag-Team Interrogation›","‹feat/Intimidating Prowess› or ‹feat/Persuasive›; Diplomacy 1 rank; Intimidate 1 rank.","Work with an ally to adjust a creature's attitude"],["‹feat/Take the Hit›","‹feat/Bonded Mind›, base attack bonus +6.","Absorb damage that an ally receives"],["‹feat/Take This›","","You can quickly take items from a fallen allies body"],["‹feat/Tandem Evasion›","Dex 13, ‹feat/Dodge›.","Gain evasion against a dragon's breath weapon and tail sweep when close to an ally"],["‹feat/Tandem Trip›","","When you make a trip against an opponent threatened by any ally, roll twice and take the higher result"],["‹feat/Target of Opportunity›","‹feat/Point-Blank Shot›, base attack bonus +6.","When an ally hits with a ranged attack, you may make an attack as an immediate action"],["‹feat/Team Pickpocketing›","Bluff 1 rank, Sleight of Hand 1 rank.","When ally makes a Bluff check, you can pick opponent's pocket as an immediate action"],["‹feat/Thrune Trusted Agent›","Thrune Loyal Agent trait.","Bolster your allies with the power of House Thrune"],["‹feat/Thuvian Grenadier›","‹feat/Precise Shot› or ‹feat/Throw Anything›.","Exclude extra squares from the area of a splash weapon; allies can catch missed throws"],["‹feat/Timely Coordination›","","+1 bonus on attack rolls and skill checks for readied actions triggered by allies"],["‹feat/Topple Foe›","‹feat/Combat Expertise›, ‹feat/Improved Trip›.","Assist your allies in tripping a creature"],["‹feat/Trade Initiative›","","Trade the die roll of your initiative with an adjacent ally"],["‹feat/Triangulate›","‹feat/Blind-Fight›, ‹feat/Greater Blind-Fight›, ‹feat/Improved Blind-Fight›, Perception 15 ranks, human (Kellid).","Automatically pinpoint invisible foes and reroll misses due to concealment when you and an ally who has this feat are within 30 feet"],["‹feat/Tribal Hunter›","‹feat/Animal Affinity›.","Flank large creatures easier when you are adjacent to the target with a friend"],["‹feat/Tribe Mentality›","","Roll saves vs. compulsion/emotion spells with allies, take either result"],["‹feat/Umbral Shift›","Darkness racial spell-like ability.","When in magical darkness, swap places with an ally who also has this feat as a swift action"],["‹feat/Underhanded Teamwork›","‹feat/Combat Expertise›, ‹feat/Improved Dirty Trick›.","Increase the length of an ally's dirty trick use"],["‹feat/Undermine›","","Create difficult terrain by using combat maneuvers on your enemies"],["‹feat/Unspoken Bond›","Bluff 4 ranks, Sense Motive 4 ranks.","Communicate simple thoughts without words"],["‹feat/Unusual Heritage (Changeling)›","Changeling.","Gain bonuses to concentration and dispel checks when near other changelings"],["‹feat/Usurper's Guard›","Base attack bonus +3 or ability to cast 2nd-level spells.","You can guard your ally while they make a concentration check"],["‹feat/Volley Fire›","‹feat/Point-Blank Shot›.","+1 for each ally attacking the same target at range"],["‹feat/Wall of Flesh›","Small size or smaller.","Increase your size modifier with combat maneuvers"],["‹feat/Wild Flanking*›","‹feat/Power Attack›, base attack bonus +4.","Hit an enemy with stronger power attacks, but risk damaging your allies"],["‹feat/Wounded Paw Gambit›","‹feat/Broken Wing Gambit›, Bluff 5 ranks.","When you use Broken Wing Gambit, nearby allies can attempt a ranged attack against the attacker"]]}} />
+</IonLabel></IonItem></IonList>};
+const _feats_betrayal = {title: "Feats - Betrayal", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_multiperson">here</Link>.</p>
+<ScrollContainer id="main-feats_betrayal--table-0"><table>
+<thead>
+<tr>
+<th>Feat</th>
+<th>Prerequisites</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td className="ion-activatable"><Link to="/feat/ally_shield">Ally Shield<IonRippleEffect /></Link></td>
+<td></td>
+<td>Use your allies as shields</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/callous_casting">Callous Casting<IonRippleEffect /></Link></td>
+<td>Spellcraft 1 rank.</td>
+<td>Include allies in the area of your spells to dishearten your enemies</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/friendly_fire">Friendly Fire<IonRippleEffect /></Link></td>
+<td><Link to="/feat/precise_shot">Precise Shot</Link>.</td>
+<td>Increase your ability to attack in ranged combat by not caring if you hit your allies</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/reckless_moves">Reckless Moves<IonRippleEffect /></Link></td>
+<td>Acrobatics 3 ranks.</td>
+<td>Use an ally as a counterweight to improve your balance</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/splash_volley">Splash Volley<IonRippleEffect /></Link></td>
+<td>Base attack bonus +1.</td>
+<td>Allies can help to redirect missed splash weapons nearby</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/wild_flanking">Wild Flanking<IonRippleEffect /></Link></td>
+<td><Link to="/feat/power_attack">Power Attack</Link>, base attack bonus +4.</td>
+<td>Hit an enemy with stronger power attacks, but risk damaging your allies</td>
+</tr>
+</tbody></table></ScrollContainer>
+</IonLabel></IonItem></IonList>};
+const _feats_coven = {title: "Feats - Teamwork, etc", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_multiperson">here</Link>.</p>
+<ScrollContainer id="main-feats_coven--table-0"><table>
+<thead>
+<tr>
+<th>Feat</th>
+<th>Prerequisites</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td className="ion-activatable"><Link to="/feat/familiar_link">Familiar Link<IonRippleEffect /></Link></td>
+<td>Coven hex or <Link to="/feat/coven_touched">Coven-Touched</Link>, familiar or spirit animal class feature, witch level 1st.</td>
+<td>Within your coven, you have formed a bond with your fellow witches' familiars</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/metamagical_synergy">Metamagical Synergy<IonRippleEffect /></Link></td>
+<td><Link to="/feat/allied_spellcaster">Allied Spellcaster</Link></td>
+<td>You and the other members of your coven can weave your spells together to great effect</td>
+</tr>
+</tbody></table></ScrollContainer>
+</IonLabel></IonItem></IonList>};
+const _feats_trick = {title: "Feats - Mesmerist Tricks", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_class">here</Link>.</p>
+<ScrollContainer id="main-feats_trick--table-0"><table>
+<thead>
+<tr>
+<th>Feat</th>
+<th>Prerequisites</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td className="ion-activatable"><Link to="/feat/bouncing_trick">Bouncing Trick<IonRippleEffect /></Link></td>
+<td>Mesmerist trick class feature.</td>
+<td>Triggered trick jumps to new target</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/contingent_trick">Contingent Trick<IonRippleEffect /></Link></td>
+<td>Any two trick feats.</td>
+<td>Implant a flexible trick that has multiple options</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/reflexive_trick">Reflexive Trick<IonRippleEffect /></Link></td>
+<td>Mesmerist tricks class feature.</td>
+<td>Implant a new trick in yourself when you trigger a trick</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/spell_trick">Spell Trick<IonRippleEffect /></Link></td>
+<td>Masterful tricks class feature, ability to cast 4th-level mesmerist spells.</td>
+<td>Implant one of your spells as a trick</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/split_trick">Split Trick<IonRippleEffect /></Link></td>
+<td>Mesmerist trick class feature.</td>
+<td>Split a trick among two creatures</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/swap_trick">Swap Trick<IonRippleEffect /></Link></td>
+<td>Mesmerist tricks class feature.</td>
+<td>Switch which trick is implanted</td>
+</tr>
+</tbody></table></ScrollContainer>
+</IonLabel></IonItem></IonList>};
+const _feats_stare = {title: "Feats - Mesmerist Stares", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_class">here</Link>.</p>
+<ScrollContainer id="main-feats_stare--table-0"><table>
+<thead>
+<tr>
+<th>Feat</th>
+<th>Prerequisites</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td className="ion-activatable"><Link to="/feat/bleeding_stare">Bleeding Stare<IonRippleEffect /></Link></td>
+<td>Mesmerist level 5th, painful stare class feature.</td>
+<td>Painful stare causes bleed damage</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/blinding_stare">Blinding Stare<IonRippleEffect /></Link></td>
+<td>Mesmerist level 7th, painful stare class feature.</td>
+<td>Painful stare inflicts blindness</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/confusing_stare">Confusing Stare<IonRippleEffect /></Link></td>
+<td>Mesmerist level 7th, painful stare class feature.</td>
+<td>Painful stare inflicts confusion</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/demoralizing_stare">Demoralizing Stare<IonRippleEffect /></Link></td>
+<td>Mesmerist level 9th, painful stare class feature.</td>
+<td>Painful stare causes the shaken condition</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/disconcerting_stare">Disconcerting Stare<IonRippleEffect /></Link></td>
+<td>Mesmerist level 5th, painful stare class feature.</td>
+<td>Your painful stare causes creatures to be more vulnerable to traps</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/entwining_stare">Entwining Stare<IonRippleEffect /></Link></td>
+<td>Mesmerist level 7th, painful stare class feature.</td>
+<td>Target takes a -4 penalty to CMD vs grapple</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/excoriating_stare">Excoriating Stare<IonRippleEffect /></Link></td>
+<td>Mesmerist level 11th, painful stare class feature.</td>
+<td>Painful stare causes the sickened condition</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/fatiguing_stare">Fatiguing Stare<IonRippleEffect /></Link></td>
+<td>Mesmerist level 7th, painful stare class feature.</td>
+<td>Painful stare causes the fatigued condition</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/intense_pain">Intense Pain<IonRippleEffect /></Link></td>
+<td>Mesmerist level 7th, painful stare class feature.</td>
+<td>Painful stare deals more damage</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/manifold_stare">Manifold Stare<IonRippleEffect /></Link></td>
+<td>Mesmerist level 3rd, painful stare class feature.</td>
+<td>Use painful stare more than once per round</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/mental_stare">Mental Stare<IonRippleEffect /></Link></td>
+<td>Hypnotic stare class feature.</td>
+<td>Your hypnotic stare doesn't rely on sight</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/oblivating_stare">Oblivating Stare<IonRippleEffect /></Link></td>
+<td>Allure bold stare improvement, hypnotic stare class feature, Mesmerist level 5th.</td>
+<td>Your stare can cause a target to lose track of someone.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/overpowering_stare">Overpowering Stare<IonRippleEffect /></Link></td>
+<td><Link to="/class/mesmerist">Mesmerist</Link> level 11th, painful stare class feature.</td>
+<td>Your painful stare can confuse your target</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/penetrating_stare">Penetrating Stare<IonRippleEffect /></Link></td>
+<td>Mesmerist level 7th, painful stare class feature.</td>
+<td>Painful stare ignores damage reduction</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/perturbing_stare">Perturbing Stare<IonRippleEffect /></Link></td>
+<td>Mesmerist level 5th, painful stare class feature.</td>
+<td>Painful stare removes foe's Dexterity bonus to AC</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/venomous_stare">Venomous Stare<IonRippleEffect /></Link></td>
+<td>Mesmerist level 11th, painful stare class feature.</td>
+<td>Target of painful stare is poisoned</td>
+</tr>
+</tbody></table></ScrollContainer>
+</IonLabel></IonItem></IonList>};
+const _feats_story = {title: "Feats - Story", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_roleplaying">here</Link>.</p>
+<DisplayTable table={{"id":"Story feats table","columns":[{"header":"Feat","size":8.5,"ripple":true},{"header":"Prerequisites","size":11.5},{"header":"Description","unsortable":true,"size":14.75}],"nullValue":"","initialColumn":0,"data":[["‹feat/Accursed›","You must carry a curse that can be lifted only by a quest or similar great undertaking, or have the Cursed Birth background.","Gain SR 5 + level, cannot be lowered"],["‹feat/Agent of Purity›","A friend or ally must have been significantly corrupted by a specific natural or supernatural blight, or you must have a regional background trait tied to a specific blight.","Gain combat bonuses against blighted creatures"],["‹feat/Apotheosis›","You must have had direct contact with a deity or god-like being, or have been risen from the dead at the personal behest of a deity or god-like being.","Resist the call of death with greater ease, communications with your deity have a higher chance of succeeding"],["‹feat/Arisen›","You must have been slain and brought back from the dead, or have the Left to Die or Cursed Birth background.","Negative hit point threshold for death is increased"],["‹feat/Artifact Hunter›","You must have come within sight of a legendary artifact at some point in your past.","Coax more out of your magical items"],["‹feat/Ascendant›","You must have the Secret Shame drawback or the Bastard-Born background, and you must also have no publicly known faults or made any indisputable mistakes that could humiliate or cast down a figure of high station.","You and your apparent allies gain a +2 bonus on skill checks to gain influence or request a favor"],["‹feat/Aspiring Noble›","Must be a member of an established family that is yet unrecognized as nobility.","Gain a bonus on Diplomacy or Intimidate in a certain settlement"],["‹feat/Battlefield Healer›","You must successfully cast a conjuration (healing) spell on an ally after being hit by an attack of opportunity, or have the Battle, Chaplain, or Healed background.","Reduce DC for casting defensively when taking damage"],["‹feat/Betrayed›","You must have had a valuable item (worth at least 1,000 gp per character level) stolen by a former ally, have been left for dead by a former ally, or have the Wrong Enemy background.","Avoid harmful effects from allies, better ignore their presence in combat"],["‹feat/Blessed›","You must have had friendly contact with a good outsider that would qualify as a challenging foe, be a sorcerer with the celestial bloodline, or have direct celestial ancestry (such as by being an aasimar).","Bonus to checks relating to good-aligned outsiders"],["‹feat/Champion›","You must have defeated a single challenging foe without any aid from another, or have the Champion of a God, Champion of the People, Competition Champion, or Gladiator background.","Gain bonuses on attack/AC with combat challenges"],["‹feat/Child of Two Worlds›","Whether through an elixir of two worlds or other means, one of your parents was aquatic and the other was a land-dweller. You are mostly a normal member of your race, except as stated in this feat. You must select this feat at 1st level, and you can't have other feats, traits, or abilities that specify your bloodline.","See text"],["‹feat/City-Locked›","You must permanently dwell in a settlement at least as large as a large town. You must also have a fey ancestor somewhere in your family line, or have The Wanderer background.","See text"],["‹feat/Concilator›","Must have successfully requested that the opposing sides of a violent encounter pause for parley.","You can make a Diplomacy check to parley with a hostile enemy"],["‹feat/Crisis of Conscience›","Lawful neutral, neutral, or chaotic neutral alignment. Your alignment must have shifted from either good or evil at least once since 1st level or the last time you completed this feat (see text).","Hide your alignment and loyalties"],["‹feat/Cursed Love›","You must have a romantic interest who has fallen to some dark influence and rejects you out of shame or fear of newfound capabilities, or must have the Bad Romance or Temptation background.","Bonus when dealing with certain creatures"],["‹feat/Damned›","You must have had friendly contact with an evil-aligned outsider that would qualify as a challenging foe, have a fiend-related sorcerous bloodline such as abyssal or infernal, have direct fiendish ancestry (such as being a tiefling or half-fiend), or have the Fiend Raised or The Fiend background.","Bonus to checks relating to evil-aligned outsiders"],["‹feat/Dead Inside›","You must have failed your saving throws against at least five different emotion-manipulating spells or your saving throw against a supernatural creature's fear effect (such as a dragon's frightful presence), or you have the Sunless or Sole Survivor background.","Handle emotion and fear spells/effects better"],["‹feat/Deny the Reaper›","You must have witnessed the death of a close companion in battle - a death that could have been prevented, such as from bleeding, failure to stabilize, or ongoing poison damage - or have the Death in the Family or The War background.","+2 bonus on Heal, apply first aid as move action"],["‹feat/Dragon-Touched›","You must have been knocked unconscious in an encounter with a challenging draconic foe or have a regional background tied to a specific dragon.","+2 Reflex, +1 attack, +1 AC versus a specific kind of dragon"],["‹feat/Dynasty Founder›","You must have lived in the chosen city for at least 1 year or be the heir of a former city leader.","Exert your control over a city's policies and politics"],["‹feat/Eldritch Researcher›","You must have created a new spell, or have The Way Things Work background.","Gain bonuses with spells that you've created"],["‹feat/Embrace of the Dark Fey›","You must have an evil fey such as a quickling or redcap somewhere in your family line, or you must have the Shameful Heritage background.","See text"],["‹feat/Enemy Cult›","You must have encountered a cult whose general alignment is opposite to yours on at least one axis or who threatened your beliefs or way of life.","Detect the cult's alignment, and on completion, gain defenses against that alignment"],["‹feat/Explorer›","You must have crossed at least 30 miles of wilderness without map or guide.","Gain skills to aid getting along in the wild"],["‹feat/Fascinated by the Mundane›","You must have a fey ancestor somewhere in your family line, and you must have the Adopted by the Fey, Fey Meeting, or Met a Fantastic Creature background.","See text"],["‹feat/Fearless Zeal›","You must be ordained as a sacred (or profane) champion of your faith by a high-ranking member of its clergy, or have the Devoted, Faith-Bringer, or Moral Debt background. Such an honor goes above and beyond the normal oaths required of a cleric or paladin.","Become a living symbol of your faith"],["‹feat/Feral Heart›","You must have reverted to savage behavior through a traumatic event or extended period in the wilderness, or have the Raised by Beasts background.","Embrace your savage behaivor for increased combat ability"],["‹feat/Foeslayer›","You must have been defeated and robbed of at least half your possessions by a particular group of humanoids or monstrous humanoids, or have the An Eye for an Eye, Hated Foe, Raiders, or Vengeance background. You may choose a specific race, such as duergar, or a broader group, such as goblinoids. At the GM's discretion, you may instead choose residents of a particular country, settlement, or tribe.","Improve your battle prowess against the chosen enemy"],["‹feat/Forgotten Past›","You must have suffered permanent memory loss or have the Reincarnated background.","Reduce the effectiveness of mind-affecting spells on you"],["‹feat/Forward from Beneath›","Be a member of House Kastner, be a good-aligned member of a family or organization whose secret evil has been publicly revealed, or have the Dishonored Family or Betrayal backgrounds.","Gain a +2 bonus on Disguise checks and the ability to fake an evil alignment for detection spells"],["‹feat/Ghost Guide›","You have encountered a ghost or haunt.","Gain a bonus on social skills against spirits, and on completion, gain benefits with spirit-talking spells"],["‹feat/Giant Vendetta›","You must have been knocked unconscious in an encounter with a challenging giant foe or have a regional background trait tied to giants (such as those presented in this section).","Bonus against fighting and researching giants"],["‹feat/Glimpse Beyond›","You must have faced an undead, evil outsider, or aberration with a CR greater than your level +4, or have the Raised Among the Dead or The Dead One background.","Learn how to defend yourself against creatures of madness"],["‹feat/Gruesome Butcher›","You must have been rendered unconscious and left for dead on a battlefield between warring factions or have the Child Soldier or Drafted background.","Gain ranger-like bonuses against a specific enemy group"],["‹feat/Inerrant Justice›","Must have witnessed or suffered a grave injustice that went unpunished, or have the An Eye for an Eye or the Raiders background. If the offender is not a challenging foe, it either advances to become one or allies with one or more creatures who are.","Take minimum damage from an attack"],["‹feat/Infiltrator›","Must have adopted an assumed or secret identity associated with an enemy organization.","Make a divination spell return false information"],["‹feat/Innocent Blood›","You must slay at least 50 intelligent noncombatants for either your own personal gain or for no cause at all, or have the Bloodthirsty, First Kill, or The Kill background.","Be more intimidating than ever before"],["‹feat/Liberator›","You must have been enslaved for at least 6 months, or have the Imprisoned or Kidnapped background.","Inspire others to join your cause"],["‹feat/Lighting the Way›","Be a member of House Zespire, or have the Devoted, Exemplar, Marked by the Gods, or Righteous Mentor background.","Once per day, grant your allies a +1 bonus on attack rolls and saving throws against mind-affecting effects"],["‹feat/Lost Legacy›","Your family must have claim to an inherited title or position that no longer belongs to them, or have the Dishonored Family background. You can take this feat even if you have no knowledge of this lost family title.","Gain bonuses to Charisma and Wisdom based checks"],["‹feat/Magical Enigma›","Bloodline, eidolon, mystery, phantom, spirit animal, or witch's familiar class feature and you must have an unknown secret about your magic or family history (even if you do not yet know the topic of the secret) or have the One of a Kind, the Outsider's Lineage, or the Unknown background.","Increase your class level or ability modifier for the purpose of your selected class feature"],["‹feat/Magnum Opus›","You must either have sold five or more self-created works of art worth a total of at least 5,000 gp, have performed at least five performances for audiences of 50 or more while achieving a great performance result or better on your Perform check, or have the Virtuoso background.","Enhance your abilities with Craft and Perform checks"],["‹feat/Monument Builder›","Knowledge (engineering) 1 rank, and you must have built a structure worth at least 5,000 gp.","Increase the value of your constructions and gain bonuses to Knowledge (engineering)"],["‹feat/Nation Builder›","You must have explored and claimed an area of at least 100 square miles.","Bonus to various skills while in unclaimed wilderness or your own land"],["‹feat/Nemesis›","You must have at least one enemy who wishes to cause you great harm. If you have multiple enemies, the GM may keep the specific nemesis secret, or have many of your enemies work together against you. If your nemesis is not already a challenging foe, it either advances in strength to become a challenging foe or allies with others to achieve a higher challenge rating.","Gain extra benefits when leveling in your favored class"],["‹feat/Never Conquered, Forever Feared›","Be a member of House Heskillar, or have the Adopted by Dragons, Path of Righteous Rage, or Proud Heritage background.","Gain a +2 bonus on Intimidate checks and on saving throws against paralysis and sleep"],["‹feat/Noble Impostor›","Must not be a member of an established family or a member of nobility.","Gain a +2 bonus on Bluff and Knowledge (nobility)"],["‹feat/Object of Legend›","You must have some highly personal stake in attaining the object of your quest as determined collectively by you and the GM - such as needing an ancestral weapon to exact your revenge against a known betrayer, seeking to destroy the artifact that caused your family's downfall generations ago, or attempting to behead a monster that ravaged your homeland during your youth.","Acquire great power and skill"],["‹feat/Otherworldly Influence›","You must have refused an evil creature with at least 15 Hit Dice who offered gifts or assistance, have refused an evil creature offering to cast a spell of 7th-level or higher on your behalf, or have the Planar Offering background.","Bonus on negotiations with evil outsiders"],["‹feat/Our Bounty, Our Glory›","Be a member of House Denzarni, or have the Bloodthirsty, Omen, Tree Tender, or Unsuspecting Master background.","You can go longer without food and water"],["‹feat/Overachiever›","You must have been defeated by the same individual, organization, or creature type at least four times, or have the Boarding School or Humiliated background.","Take less penalties from exhaustion, forgo rest to improve skills"],["‹feat/Planar Traveler›","You must be related to an outsider or have been born on a plane other than the Material Plane.","Enhance your survival outside of your home plane"],["‹feat/Prophet›","Ability to cast divine spells, and you must either have received a vision from your god (or another appropriate supernatural entity) or have the Marked by the Gods background.","Increase your defenses when buffing allies"],["‹feat/Prosperity and Pride›","Be a member of House Corcina, or have the Craftsperson, Inheritance, Well-Connected Friend, or Worldshaker background.","Gain a +2 bonus on Appraise and Diplomacy checks in large cities"],["‹feat/Protector of the People›","Your community has come under persecution and requires considerable defense.","Gain the ability to make a golem protector, and on completion, gain Craft Construct at a conditional 10% discount"],["‹feat/Puppet Master›","You must have survived an encounter with a challenging foe without suffering significant harm by striking a deal (regardless of whether the deal was with the challenging foe or not), or have the Boss, the Liege Lord, or the Well-Connected Friend background.","Make successive Diplomacy checks more easily."],["‹feat/Redemption›","You must have lost class features by violating the code of conduct of a class that possesses such a code, or have the Dishonored Family background.","Face fear in order to gain bonuses"],["‹feat/Rival›","You must have at least one enemy who wishes to outdo you. If you have multiple rivals, the GM may keep the specific rival secret, or have many of your enemies work together against you. If your rival is not already a challenging foe, it either advances to become one or allies itself with others one or more creatures who are.","Gain extra skill points or Fame."],["‹feat/Self-Exiled Noble›","You must have intentionally left your noble family and changed your name or appearance afterward.","Gain a +2 bonus on Disguise and a +1 bonus on attack and damage against family members"],["‹feat/Shamed›","You must have been publicly embarrassed, or must have the Bastard Born background. If the embarrassment didn't cause significant harm to your personal honor or social standing, it does not qualify for the feat prerequisites. The humiliation doesn't need to have been unjustified.","Get bonuses in combat when observed by others"],["‹feat/Standing Tall›","Be a member of House Fahlspar, or have the Hunter, Nature, or Tree Tender background.","Once per day, gain a +2 bonus to saving throws against mind-affecting effects"],["‹feat/Stronghold›","You must have the ‹feat/Leadership› feat and must lead at least 10 combat-capable followers (such as fighters or rangers).","Enhance troops under your command"],["‹feat/Supernatural Spy›","Alchemist discovery, arcane discovery, arcanist exploit, or magus arcana class feature and you must either have observed a created magical effect you could not understand or have the Master Craftsman or the Unquenchable Hunger for Knowledge background.","Increase your ability modifier for calculating the effects and save DCs of one of your class features."],["‹feat/Thief of Legend›","You must have stolen at least 1,000 gp worth of treasure without being caught and kept mementos of these thefts worth at least 500 gp, or have the Greed background.","Master the ability to handle traps and locks"],["‹feat/Town Tamer›","You must have 5 ranks in Intimidate and a personal motivation to clean up a particular town (such as an old friend calling in a favor, or seeking a place to settle down), or you must have the Bounty Hunter or Champion of the People background.","Become more intimidating in specific settlements"],["‹feat/True Love›","You must have found love with a person you can't be with, have a current lover, or have the Current Lover, For Love, or The Lover background. Possible complications include distance, your love being with another, your feelings being unrequited, or your relationship being forbidden.","Increase your skill with emotion spells and Sense Motive"],["‹feat/Truth-Seeker›","You must have visited a ruin or forgotten place that has been abandoned for at least five times as long as you've been alive.","Learn more about history, find secret doors with ease"],["‹feat/Twisted Love›","You resemble a lost loved one of an evil creature who would otherwise be a challenging foe. The likeness is close enough for you to be mistaken as the former loved one's reincarnation, or you might be that loved one reborn in a new life. Alternately, the creature might be a former lover who has become evil and wishes to resume the relationship. This unwanted relationship must be contrary to your alignment or long-term goals.","Gain a +2 bonus vs. enchantments and bonuses to influence your obsessed foe, and on completion, you can pretend to be affected by enchantments"],["‹feat/Unforgotten›","You must have a close relative, spouse, or other person dear to your heart who never returned from a journey, was captured, or otherwise vanished with little trace, or you have the Major Disaster background.","Reduce nonlethal damage you take, increase your saving throw bonuses"],["‹feat/Vengeance›","You must have a close family member or other loved one slain by a specific challenging foe or that foe's minions, or have the Raiders or Vengeance background.","Receive a bonus against a specific foe and its minions"],["‹feat/Vengeful Banisher›","You witnessed at least one family member or a close friend being killed by demons or demonic cultists, or you have the Hated Foe or An Eye for an Eye background.","+2 save vs. spells/effects from demons and their worshipers"],["‹feat/Victory Through Unity›","You must have a familiar, and you must either be a member of House Merrosett or have the Initiated or Storied Lineage background.","Grant your familiar one of the hunter's animal aspects"],["‹feat/We are the Wall›","Be a member of House Darahan, or have the Champion of the People, Duty, or Raider background.","3 times per day, you can declare a creature to be your quarry"],["‹feat/Wily Warrior›","Bluff 1 rank, Sense Motive 1 rank, base attack bonus +1, or you must have the Military Strategist background.","Use your ranks in Sense Motive in place of your Will save."],["‹feat/Wretched Curator›","You must have purchased a scroll or spellbook containing a spell with the evil descriptor in a place where such dealings are illegal, or must have the Secret Society Inductee or Diabolical Upbringing background.","Purchase evil items cheaper, bonus to checks to understand evil items"]]}} />
+</IonLabel></IonItem></IonList>};
+const _feats_style = {title: "Feats - Style", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_class">here</Link>.</p>
+<DisplayTable table={{"id":"Style feats table","columns":[{"header":"Feat","size":8.5,"ripple":true},{"header":"Prerequisites","size":8.5},{"header":"Description","unsortable":true,"size":13.25}],"nullValue":"","initialColumn":0,"data":[["‹feat/Aldori Style›","‹feat/Alertness›, ‹feat/Exotic Weapon Proficiency› (Aldori dueling sword), ‹feat/Weapon Finesse›, ‹feat/Weapon Focus› (Aldori dueling sword).","Gain a +2 bonus to damage when fighting defensively or using ‹feat/Combat Expertise›"],["‹feat/Archon Style›","‹feat/Combat Expertise›; ‹feat/Combat Reflexes›; base attack bonus +2 or monk level 1st.","Grant bonus to AC to allies against single opponent's attacks"],["‹feat/Ascetic Style›","‹feat/Weapon Focus› with the chosen melee weapon; base attack bonus +1 or monk level 1st.","Use weapons with unarmed strike abilities"],["‹feat/Asura Style›","Wis 13, ‹feat/Improved Unarmed Strike›, base attack bonus +5 or monk level 5th.","You can sicken creatures casting divine spells with your unarmed strikes"],["‹feat/Azata Style›","‹feat/Dodge›, ‹feat/Mobility›, base attack bonus +2.","Gain a +1 dodge bonus to AC if you move at least 15 feet"],["‹feat/Barracuda Style›","Wis 13, ‹feat/Improved Unarmed Strike›, Acrobatics 3 ranks, Swim 3 ranks.","You can make unarmed attacks underwater without penalty"],["‹feat/Beastmaster Style›","Cha 13, Handle Animal 1 rank, must have an animal companion.","Use Handle Animal to attempt to negate a hit on your adjacent animal companion"],["‹feat/Blinded Blade Style›","‹feat/Blind-Fight›, Perception 5 ranks.","Gain unique benefits when unable to see"],["‹feat/Blood Frenzy Style›","Str 13, ‹feat/Improved Unarmed Strike›, base attack bonus +1, aquatic subtype.","Increase your Strength and Constitution, but lower your AC"],["‹feat/Boar Style›","‹feat/Improved Unarmed Strike›, Intimidate 3 ranks.","Unarmed strikes deal bludgeoning or slashing damage"],["‹feat/Brute Style›","Str 15, Int 13, ‹feat/Combat Reflexes›, ‹feat/Improved Overrun›, ‹feat/Improved Trip›, ‹feat/Improved Unarmed Strike›, ‹feat/Vicious Stomp›, base attack bonus +6.","Use Vicious Stomp within 10 feet"],["‹feat/Bulette Charge Style›","Str 13, ‹feat/Improved Overrun›, ‹feat/Power Attack›, proficiency with heavy armor.","Gain a +4 bonus to overrun maneuvers"],["‹feat/Bull-Catcher Style›","Dex 13, ‹feat/Improved Grapple›, ‹feat/Improved Unarmed Strike›.","Ready an action to grab creatures charging you"],["‹feat/Cerberus Style›","‹feat/Cleave›, ‹feat/Improved Unarmed Strike›, base attack bonus +6 or monk level 6th.","You can attack three targets at once within your reach"],["‹feat/Charging Stag Style›","Dex 13, ‹feat/Dodge›, ‹feat/Improved Unarmed Strike›, ‹feat/Mobility›.","Charge through difficult terrain and allied spaces, make a turn while charging"],["‹feat/Cloak and Dagger Style›","Int 13, ‹feat/Combat Expertise›, ‹feat/Improved Dirty Trick›, ‹feat/Vital Strike›, ‹feat/Weapon Focus› with the chosen weapon, base attack bonus +6.","Learn dirty tricks as free actions during a surprise round"],["‹feat/Crane Style›","‹feat/Dodge›, ‹feat/Improved Unarmed Strike›, base attack bonus +2 or monk level 1st.","Take -2 penalty when fighting defensively"],["‹feat/Crashing Wave Style›","Wis 13, ‹feat/Improved Drag›, ‹feat/Improved Reposition›, ‹feat/Improved Unarmed Strike›.","Move 5 feet when you drag or reposition an opponent"],["‹feat/Cudgeler Style›","‹feat/Bludgeoner›.","Deal greater damage with nonlethal damage on a charge"],["‹feat/Deadhand Style›","Wis 15, ‹feat/Improved Unarmed Strike›, Knowledge (religion) 4 ranks, ki pool class feature, nongood alignment.","You are hard to scare and your unarmed strikes can make foes shaken"],["‹feat/Demonic Style›","‹feat/Power Attack›, base attack bonus +1.","Gain +1 on attacks and +2 on damage rolls on the attack at the end of a charge"],["‹feat/Diabolic Style›","‹feat/Combat Reflexes›; ‹feat/Improved Unarmed Strike› or ‹feat/Weapon Focus› (unarmed strike); base attack bonus +2 or monk level 1st.","Humiliate targets that provoke attacks of opportunity"],["‹feat/Diva Style›","Cha 13; base attack bonus +1 or bard level 1st.","Use Perform instead of Bluff to feint"],["‹feat/Djinni Style›","Con 13, Wis 15, ‹feat/Elemental Fist›, ‹feat/Improved Unarmed Strike›, base attack bonus +9 or monk level 5th.","Gain 1 additional use of Elemental Fist per day and bonus to electricity damage"],["‹feat/Dolphin Style›","‹feat/Improved Unarmed Strike›, Swim 3 ranks, base attack bonus +3 or monk level 3rd.","Gain bonuses when enemies are grouped together and bypass bonuses from aid another"],["‹feat/Dragon Style›","Str 15, ‹feat/Improved Unarmed Strike›, Acrobatics 3 ranks.","Gain +2 bonus against sleep, paralysis, and stun effects, and can ignore difficult terrain"],["‹feat/Dragonfly Style›","Wis 13, ‹feat/Improved Unarmed Strike›, Acrobatics 2 ranks, Climb 2 ranks.","You are treated as though you were on higher ground when making attacks adjacent to objects"],["‹feat/Dwarven Hatred Style›","Base attack bonus +1, defensive training and hatred racial traits, Medium size.","Apply hatred on both attack/damage and increase to +2"],["‹feat/Earth Child Style›","Wis 13, dwarf or gnome, defensive training racial trait, ‹feat/Improved Unarmed Strike›, Acrobatics 3 ranks.","Defensive training AC increases to +6 against giants"],["‹feat/Efreeti Style›","Con 13, Wis 15, ‹feat/Elemental Fist›, ‹feat/Improved Unarmed Strike›, base attack bonus +9 or monk level 5th.","Gain +1 use of Elemental Fist per day and a bonus on fire damage"],["‹feat/Electric Eel Style›","Wis 13, ‹feat/Elemental Fist›, ‹feat/Improved Unarmed Strike›, base attack bonus +9 or monk level 5th.","Gain a bonus on grapple combat maneuvers when you hit a creature with Elemental Fist"],["‹feat/Elven Battle Style›","‹feat/Elven Battle Training›, ‹feat/Weapon Finesse›, base attack bonus +1, weapon familiarity racial trait.","Don't provoke attacks of opportunity when making combat maneuver checks with elvish weapons"],["‹feat/Empty Quiver Style›","‹feat/Weapon Focus› with the chosen weapon.","Fight in melee with your ranged weapon"],["‹feat/Fox Style›","Int 13.","Feint and distract with martial training"],["‹feat/Grabbing Style›","‹feat/Improved Grapple›; base attack bonus +6, brawler's flurry class feature, or flurry of blows class feature.","Take no penalty for grabbing a foe one-handed, retain your Dex bonus to AC when pinning"],["‹feat/Illusive Gnome Style›","Int 13, ‹feat/Combat Expertise›, ‹feat/Gnome Weapon Focus›, ‹feat/Improved Feint›, base attack bonus +1, gnome magic and weapon familiarity racial traits.","Sacrifice spells to gain a bonus when feinting"],["‹feat/Indomitable Mountain Style›","Wis 13, ‹feat/Combat Reflexes›, ‹feat/Improved Unarmed Strike›, base attack bonus +4.","Gain +4 morale bonus to CMD and to the DC of Bluff checks used for feint attempts against you if you don't move"],["‹feat/Jabbing Style›","‹feat/Improved Unarmed Strike›; base attack bonus +6, brawler's flurry class feature, or flurry of blows class feature.","Gain bonus damage when two or more unarmed strikes hit the same opponent during your turn"],["‹feat/Janni Style›","‹feat/Improved Unarmed Strike›, Acrobatics 3 ranks, Perform (dance) 3 ranks.","Take only a -1 AC penalty when charging, flanking opponents only gain +1 attack bonus against you"],["‹feat/Kirin Style›","‹feat/Improved Unarmed Strike›, Knowledge (arcana) 6 ranks, Knowledge (dungeoneering, local, nature, planes, or religion) 1 rank.","May make Knowledge check against opponent as swift action to gain bonuses"],["‹feat/Kitsune Style›","Int 13, ‹feat/Combat Expertise›, ‹feat/Improved Dirty Trick›.","Perform a dirty trick at the end of a charge"],["‹feat/Kobold Style›","‹feat/Combat Expertise›, Small size or smaller.","+4 CMB vs. enemies denied their Dex bonus to AC"],["‹feat/Kraken Style›","Wis 13, ‹feat/Improved Grapple›, ‹feat/Improved Unarmed Strike›, base attack bonus +3 or monk level 3rd.","Improve your grapple damage by Wisdom"],["‹feat/Kyton Style›","Wis 13, ‹feat/Exotic Weapon Proficiency› (spiked chain), Knowledge (planes) 3 ranks, ki pool class feature.","Use a spiked chain as a monk weapon and deliver ‹feat/Stunning Fist› through it"],["‹feat/Lantern Style›","‹feat/Point-Blank Shot›, good or lawful alignment, caster level 1st or monk level 1st.","Your thrown weapons shed light for one round"],["‹feat/Linnorm Hunter Style›","Cha 13, must have or be an animal companion.","Enemies that provoke an attack of opportunity from your ally also provoke from you"],["‹feat/Linnorm Style›","Wis 13, ‹feat/Improved Unarmed Strike›, base attack bonus +3 or monk level 3rd.","Retaliate against attackers"],["‹feat/Maddening Style›","Wis 15, Cha 11, ‹feat/Improved Unarmed Strike›, ‹feat/Stunning Fist›, Knowledge (arcana) 4 ranks, ki pool class feature, nongood alignment.","Gain additional use of Stunning Fist, increase DC of madness effects, and deal Wisdom/sanity damage with Stunning Fist"],["‹feat/Mantis Style›","‹feat/Improved Unarmed Strike›, ‹feat/Stunning Fist›, Heal 3 ranks.","Gain +1 use of Stunning Fist per day, and increase stunning fist DC by +2"],["‹feat/Marid Style›","Con 13, Wis 15, ‹feat/Elemental Fist›, ‹feat/Improved Unarmed Strike›, base attack bonus +9 or monk level 5th.","Gain +1 use of Elemental Fist per day, and deal cold damage"],["‹feat/Mobile Bulwark Style›","Str 13, ‹feat/Shield Focus›, ‹feat/Tower Shield Proficiency›, base attack bonus +1.","Add your shield bonus to AC to your CMD vs bull rush and overrun manuevers"],["‹feat/Monkey Style›","Wis 13, ‹feat/Improved Unarmed Strike›, Acrobatics 5 ranks, Climb 5 ranks.","Add Wisdom bonus on Acrobatics checks, and take no penalty for attacking while prone"],["‹feat/Octopus Style›","Dex 13, ‹feat/Dodge›, ‹feat/Improved Unarmed Strike›, Acrobatics 1 rank, Perception 1 rank.","As a move action, designate a number of creatures who can't flank you while in Octopus Style"],["‹feat/Orc Fury Style›","‹feat/Bullying Blow›, ‹feat/Intimidating Prowess›, Intimidate 3 ranks, weapon familiarity racial trait.","Use Bullying Blow with the first attack each round"],["‹feat/Outslug Style›","Int 13; ‹feat/Combat Expertise› or brawler's cunning class feature; ‹feat/Weapon Focus› with the chosen weapon.","+1 to AC and damage when taking a 5-foot step with a chosen weapon"],["‹feat/Overwatch Style›","‹feat/Precise Shot›, ‹feat/Rapid Shot›, ‹feat/Weapon Focus› with the chosen weapon.","Ready two ranged attacks"],["‹feat/Owl Style›","Dex 13, ‹feat/Skill Focus› (Stealth), Stealth 1 rank.","Use Stealth with martial training and charge with Stealth"],["‹feat/Panther Style›","Wis 13, ‹feat/Combat Reflexes›, ‹feat/Improved Unarmed Strike›.","Retaliate against opponents that take attacks of opportunity against you"],["‹feat/Perfect Style›","Wis 13; base attack bonus +5 or monk level 5th.","Gain energy resistance 5"],["‹feat/Psychovore Style›","‹feat/Improved Unarmed Strike›, Sense Motive 3 ranks.","Gain a dodge bonus to AC while fighting thinking creatures"],["‹feat/Pummeling Style›","‹feat/Improved Unarmed Strike›; base attack bonus +6, brawler's flurry class feature, or flurry of blows class feature.","Combine your unarmed strikes together"],["‹feat/Shaitan Style›","Con 13, Wis 15, ‹feat/Elemental Fist›, ‹feat/Improved Unarmed Strike›, base attack bonus +9 or monk level 5th.","Gain +1 use of Elemental Fist per day, and deal acid damage"],["‹feat/Shapeshifter Style›","Base attack bonus +3, change shape ability, shapechanger subtype.","You can slightly alter your body to gain one of a number of benefits"],["‹feat/Shark Style›","‹feat/Improved Unarmed Strike›, Swim 3 ranks, base attack bonus +3 or monk level 3rd.","Can use your unarmed strikes to deal piercing damage and bleed damage"],["‹feat/Shield Gauntlet Style›","‹feat/Weapon Focus› (gauntlet or spiked gauntlet), proficiency with bucklers and light shields.","Keep your gauntlets shield bonus when attacking with it"],["‹feat/Shielded Staff Style›","Dex 15, ‹feat/Two-Weapon Fighting›, ‹feat/Weapon Focus› (quarterstaff, any weapon from the polearms fighter weapon group, or any weapon from the spears fighter weapon group), proficiency with bucklers and light shields.","You can create a shielded staff by attaching a buckler or light shield to a polearm, spear, or staff"],["‹feat/Shikigami Style›","‹feat/Catch Off-Guard› or ‹feat/Throw Anything›.","Deal damage with improvised weapons as though they were larger"],["‹feat/Signature Strike Style›","‹feat/Precise Shot›; ‹feat/Weapon Focus›; base attack bonus +7; Intimidate 7 ranks; Improved Called Shot, targeted strike swashbuckler deed, or targeting gunslinger deed.","Frighten your target when you use an aimed attack"],["‹feat/Sisterhood Style›","Cha 13, ‹feat/Shield Focus›, base attack bonus +2.","+1 on Reflex and Will saves and use teamwork feats more easily"],["‹feat/Skyseeker Style›","‹feat/Step Up›, base attack bonus +1.","Dodge towards creatures attacking you with reach weapons"],["‹feat/Slipslinger Style›","‹feat/Weapon Focus› (sling) or weapon training (thrown) class feature or weapon training (thrown) class feature), warslinger racial trait.","+1 damage with slings, do not provoke attacks of opportunity when reloading"],["‹feat/Smashing Style›","Str 13, ‹feat/Improved Sunder›, ‹feat/Power Attack›, ‹feat/Weapon Focus› with the chosen weapon.","Get a free bull rush or trip when making a sunder attack against armor"],["‹feat/Snake Style›","‹feat/Improved Unarmed Strike›, Acrobatics 1 rank, Sense Motive 3 ranks.","Gain +2 on Sense Motive checks, and deal piercing damage with unarmed attacks"],["‹feat/Snapping Turtle Style›","‹feat/Improved Unarmed Strike›, base attack bonus +1 or monk level 1st.","Gain +1 shield bonus to AC when at least one hand is free"],["‹feat/Spear Dancing Style›","Dex 13, ‹feat/Two-Weapon Fighting›, ‹feat/Weapon Focus› with the chosen weapon.","Gain the Double feature with a polearm weapon"],["‹feat/Spring-Heeled Style›","Dex 13, ‹feat/Dodge›, ‹feat/Mobility›, ‹feat/Shot on the Run› or ‹feat/Spring Attack›, base attack bonus +4, proficiency with light armor.","Gain a bonus on attack rolls when moving"],["‹feat/Startoss Style›","Dex 13, ‹feat/Point-Blank Shot›, ‹feat/Weapon Focus› with the chosen weapon.","Gain bonus damage with thrown weapons"],["‹feat/Stick-Fighting Style›","Base attack bonus +1.","Treat stick-weapons as though they were masterwork and had certain weapon properties"],["‹feat/Stock-Striker Style›","Pistol-whip gunslinger deed.","Gain bounses while using the pistol-whip deed"],["‹feat/Street Style›","Str 15, ‹feat/Improved Bull Rush›, ‹feat/Improved Unarmed Strike›, ‹feat/Power Attack›, base attack bonus +4 or monk level 3rd.","Deal extra damage and bullrush in urban areas"],["‹feat/Swift Iron Style›","Str 13, Dex 13, proficiency with medium armor.","Increase your maneuverability in armor"],["‹feat/Swordplay Style›","‹feat/Combat Expertise›, ‹feat/Weapon Focus› with the chosen weapon, base attack bonus +3.","+1 shield bonus to AC when fighting defensively, avoid the penalty on the first attack with Combat Expertise"],["‹feat/Tatzlwyrm Claw Style›","Dex 13, ‹feat/Improved Grapple›, ‹feat/Improved Unarmed Strike›, Escape Artist 1 rank.","Unarmed attacks deal slashing damage, force a creature to release a grappled ally."],["‹feat/Tiger Style›","‹feat/Improved Unarmed Strike›, base attack bonus +3 or monk level 3rd.","Gain +2 to CMD against bull rush, overrun, and trip, and deal slashing damage"],["‹feat/Twin Fang Style›","Dex 15, ‹feat/Quick Draw›, base attack bonus +1, Acrobatics 1 rank.","Reduce a targets armor bonus when you hit with both weapons"],["‹feat/Upsetting Shield Style›","Dex 13, proficiency with bucklers.","Use a buckler to shield bash"],["‹feat/Vanguard Style›","‹feat/Bodyguard›, ‹feat/Combat Reflexes›, proficiency with light or heavy shields.","Use Bodyguard to improve your allies Reflex saving throw"],["‹feat/Weapon Style Mastery›","Any two style feats from different styles, base attack bonus +6, weapon training class feature with a melee weapon.","Have two weapon styles active at once"],["‹feat/Wolf Style›","Wis 13, ‹feat/Improved Unarmed Strike›, Knowledge (nature) 3 ranks.","Decrease a foe's speed when you deal at least 10 points of damage with an attack of opportunity"],["‹feat/Wyvern Fury Style›","‹feat/Exotic Weapon Proficiency› (whip), Acrobatics 3 ranks, brawler's flurry class feature or flurry of blows class feature.","Use daggers and whips with your flurry."]]}} />
+</IonLabel></IonItem></IonList>};
+const _feats_item_creation = {title: "Feats - Item Creation", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_basic">here</Link>.</p>
+<ScrollContainer id="main-feats_item_creation--table-0"><table>
+<thead>
+<tr>
+<th>Feat</th>
+<th>Prerequisites</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td className="ion-activatable"><Link to="/feat/aligned_crafting">Aligned Crafting<IonRippleEffect /></Link></td>
+<td>Craft Magic Arms and Armor or Craft Wondrous Item.</td>
+<td>Create magic items infused with your alignment</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/brew_potion">Brew Potion<IonRippleEffect /></Link></td>
+<td>Caster level 3rd.</td>
+<td>Create magic potions</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/craft_construct">Craft Construct<IonRippleEffect /></Link></td>
+<td>Caster level 5th, <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>, <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link>.</td>
+<td>Learn how to craft constructs.</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor<IonRippleEffect /></Link></td>
+<td>Caster level 5th.</td>
+<td>Create magic armors, shields, and weapons</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/craft_ooze">Craft Ooze<IonRippleEffect /></Link></td>
+<td><Link to="/feat/brew_potion">Brew Potion</Link>, <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link>, Craft (alchemy) 3 ranks, caster level 5th.</td>
+<td>You can use alchemy to create dangerous ooze creatures</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/craft_poppet">Craft Poppet<IonRippleEffect /></Link></td>
+<td>Caster level 1st.</td>
+<td>Create poppets</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/craft_rod">Craft Rod<IonRippleEffect /></Link></td>
+<td>Caster level 9th.</td>
+<td>Create magic rods</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/craft_shadow_piercing">Craft Shadow Piercing<IonRippleEffect /></Link></td>
+<td>Craft (jewelry) 5 ranks, caster level 5th.</td>
+<td>Learn to craft magical piercings infused with shadow</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/craft_staff">Craft Staff<IonRippleEffect /></Link></td>
+<td>Caster level 11th.</td>
+<td>Create magic staves</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/craft_wand">Craft Wand<IonRippleEffect /></Link></td>
+<td>Caster level 5th.</td>
+<td>Create magic wands</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/craft_wondrous_item">Craft Wondrous Item<IonRippleEffect /></Link></td>
+<td>Caster level 3rd.</td>
+<td>Create magic wondrous items</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/create_enhanced_firearm">Create Enhanced Firearm<IonRippleEffect /></Link></td>
+<td><Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>; Craft (weapons) 1 rank or <Link to="/feat/gunsmithing">Gunsmithing</Link>.</td>
+<td>Firearms you create are less likely to misfire</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/cultivate_magic_plants">Cultivate Magic Plants<IonRippleEffect /></Link></td>
+<td><Link to="/feat/brew_potion">Brew Potion</Link>, <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link>, Knowledge (nature) 1 rank.</td>
+<td>Grow magical plants</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/demon_grafter">Demon Grafter<IonRippleEffect /></Link></td>
+<td><Link to="/feat/demonologist">Demonologist</Link>, Heal 5 ranks, Knowledge (planes) 5 ranks, Spellcraft 5 ranks.</td>
+<td>Learn how to implant demonic tissue into mortal flesh</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/fleshwarper">Fleshwarper<IonRippleEffect /></Link></td>
+<td>Craft (alchemy) 5 ranks, Heal 5 ranks, evil alignment.</td>
+<td>Create fleshwarped creatures and items</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/forge_ring">Forge Ring<IonRippleEffect /></Link></td>
+<td>Caster level 7th.</td>
+<td>Create magic rings</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/grisly_ornament">Grisly Ornament<IonRippleEffect /></Link></td>
+<td><Link to="/feat/harvest_parts">Harvest Parts</Link>.</td>
+<td>Craft grotesque ornaments that provide moral bonuses to AC, attack, CMB, CMD, saves, or skills</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/grow_plant_creature">Grow Plant Creature<IonRippleEffect /></Link></td>
+<td><Link to="/feat/train_plants">Train Plants</Link>, Handle Animal 5 ranks, Knowledge (nature) 5 ranks.</td>
+<td>Learn to cultivate and raise plant creatures</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/harvest_parts">Harvest Parts<IonRippleEffect /></Link></td>
+<td>Craft (any) 1 rank or Heal 1 rank.</td>
+<td>Harvest parts from a creature to be used for crafting</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/haunt_scavenger">Haunt Scavenger<IonRippleEffect /></Link></td>
+<td>Any one item creation feat or Craft (alchemy) 3 ranks.</td>
+<td>Syphon ectoplasm from haunts to use in crafting magic items</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/infuse_poison">Infuse Poison<IonRippleEffect /></Link></td>
+<td><Link to="/feat/brew_potion">Brew Potion</Link>, Craft (alchemy) 5 ranks, caster level 3rd.</td>
+<td>Infuse poisons with other spells</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/inscribe_magical_tattoo">Inscribe Magical Tattoo<IonRippleEffect /></Link></td>
+<td>Craft (calligraphy, paintings, or tattoos) 5 ranks, caster level 5th</td>
+<td>Learn to craft magical tattoos</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/lifecrafting">Lifecrafting<IonRippleEffect /></Link></td>
+<td><Link to="/feat/craft_construct">Craft Construct</Link>, <Link to="/feat/leadership">Leadership</Link>.</td>
+<td>Create a new wyrwood from an ioun stone</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/monstrous_crafter">Monstrous Crafter<IonRippleEffect /></Link></td>
+<td><Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link>, <Link to="/feat/grisly_ornament">Grisly Ornament</Link>, <Link to="/feat/harvest_parts">Harvest Parts</Link>.</td>
+<td>Integrate an ornament into a magic item to gain its benefit once per day</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/reinforced_crafting">Reinforced Crafting<IonRippleEffect /></Link></td>
+<td><Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>, ability to cast make whole or mending.</td>
+<td>Your magic items are more resilient</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/scribe_scroll">Scribe Scroll<IonRippleEffect /></Link></td>
+<td>Caster level 1st.</td>
+<td>Create magic scrolls</td>
+</tr>
+</tbody></table></ScrollContainer>
+</IonLabel></IonItem></IonList>};
+const _feats_metamagic = {title: "Feats - Metamagic", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_basic">here</Link>.</p>
+<DisplayTable table={{"id":"Metamagic feats table","columns":[{"header":"Feat","size":8.5,"ripple":true},{"header":"Prerequisites","size":8.5},{"header":"Description","unsortable":true,"size":13.25}],"nullValue":"","initialColumn":0,"data":[["‹feat/Apocalyptic Spell›","","Area affected by spell becomes difficult to move in"],["‹feat/Aquatic Spell›","","Spell functions normally underwater"],["‹feat/Ascendant Spell›","","Imitate mythic version of a spell"],["‹feat/Authoritative Spell›","","Spell forbids target from taking certain actions"],["‹feat/Benthic Spell›","","Modify a spell to inflict damage with pressurized water"],["‹feat/Blissful Spell›","","Target of spell takes combat penalties or gains bonuses on skills and saves"],["‹feat/Bouncing Spell›","","Redirect a spell that had no effect on initial target"],["‹feat/Brackish Spell›","","Modfy a spell to sheath you in protective seawater when cast"],["‹feat/Brisk Spell›","Dex 13+.","Increase the speed of a granted movement type"],["‹feat/Burning Spell›","","Spell with the acid or fire descriptor deals extra damage the next round"],["‹feat/Centered Spell›","Spellcraft 3 ranks.","Center a spell's area on yourself"],["‹feat/Cherry Blossom Spell›","","Creatures that take damage from your spell have their age manipulated"],["‹feat/Coaxing Spell›","‹feat/Spell Focus› (enchantment), Knowledge (dungeoneering) 6 ranks.","Use mind-affecting spells to affect mindless oozes or vermin"],["‹feat/Concussive Spell›","","Spell with the sonic descriptor gains a debilitating concussive effect"],["‹feat/Conditional Spell›","","Apply conditional favor to a spell you cast"],["‹feat/Consecrate Spell›","Aasimar, able to prepare or cast consecrate.","Maximize spell variables against evil creatures."],["‹feat/Contagious Spell›","","Spell spreads to those who fail to remove it"],["‹feat/Contingent Spell›","Ability to cast cure spells (a cure spell is any spell with \"cure\" in its name).","Turn a healing spell into a contingent effect"],["‹feat/Crypt Spell›","","Damaging spell hinders resurrection or sickens undead"],["‹feat/Dazing Spell›","","Daze creature with spell damage"],["‹feat/Delayed Spell›","","Set a spell to trigger on a delay"],["‹feat/Disruptive Spell›","","Target of spell must make concentration check to cast a spell in the next round"],["‹feat/Echoing Spell›","","Cast a spell a second time"],["‹feat/Eclipsed Spell›","","Alter how your spells affect illumination"],["‹feat/Ectoplasmic Spell›","","Spell fully affects incorporeal and ethereal creatures"],["‹feat/Elemental Spell›","","Inflict energy damage instead of regular spell damage"],["‹feat/Empower Spell›","","Increase spell variables by 50%"],["‹feat/Encouraging Spell›","Cha 13, Diplomacy 6 ranks.","Increase a granted moral bonus"],["‹feat/Enlarge Spell›","","Double spell range"],["‹feat/Extend Spell›","","Double spell duration"],["‹feat/Familiar Spell›","Spellcaster with familiar class feature.","Imbue your familiar with a spell, allowing it to cast the spell at a later time"],["‹feat/Fearsome Spell›","","Spell damage causes the shaken condition"],["‹feat/Flaring Spell›","","Spell with the fire, light, or electricity descriptor dazzles creatures it affects"],["‹feat/Fleeting Spell›","","Dismiss spell more easily"],["‹feat/Focused Spell›","","Increase save DC of spell for one target in a group"],["‹feat/Furious Spell›","","Spell deals more damage and can be cast while in a rage"],["‹feat/Heighten Spell›","","Treat spell as a higher level"],["‹feat/Intensified Spell›","","Increase maximum damage dice by 5 levels"],["‹feat/Intuitive Spell›","","Cast spell without thought components"],["‹feat/Jinxed Spell›","Any two metamagic feats, Halfling Jinx trait.","Combine your jinxes with spells"],["‹feat/Latent Curse›","","Alter curse spells to target objects instead of people"],["‹feat/Lingering Spell›","","Instantaneous area effect spell lasts for 1 round"],["‹feat/Logical Spell›","","Cast spell without emotion components"],["‹feat/Maximize Spell›","","Maximize spell variables"],["‹feat/Merciful Spell›","","Spell inflicts nonlethal damage instead of lethal"],["‹feat/Murky Spell›","","Cloud effects work underwater, with penalties"],["‹feat/Persistent Spell›","","Creatures who saved against a spell must save again"],["‹feat/Piercing Spell›","","Affected spell treats creatures with SR as having an SR of 5 lower"],["‹feat/Quicken Spell›","","Cast spell as a swift action"],["‹feat/Reach Spell›","","Increase spell range to higher range category"],["‹feat/Rime Spell›","","Spell with the cold descriptor also entangles creatures if the spell damages them"],["‹feat/Scarring Spell›","","Emotion or fear spell gives penalties against further such spells"],["‹feat/Scouting Summons›","‹feat/Spell Focus› (conjuration), ability to cast magic jar.","Possess a summoned creature"],["‹feat/Seeking Spell›","","Allow spells to bend around barriers"],["‹feat/Selective Spell›","Spellcraft 10 ranks.","Exclude targets from an area effect spell"],["‹feat/Shadow Grasp›","‹feat/Tenebrous Spell›, ‹feat/Umbral Spell›.","Entangle creatures caught within your darkness spells"],["‹feat/Sickening Spell›","","Sicken creature with spell damage"],["‹feat/Silent Spell›","","Cast spell without verbal components"],["‹feat/Snuffing Spell›","","Modify your magic to extinguish light sources"],["‹feat/Solar Spell›","","Enhance your light magic with the power of the sun"],["‹feat/Solid Shadows›","‹feat/Spell Focus› (illusion).","Your shadow spells are 20% more real than normal"],["‹feat/Stable Spell›","","Cast spells in areas of primal magic with less chance of triggering a primal magic event"],["‹feat/Steam Spell›","","Use fire spells underwater without a caster level check"],["‹feat/Still Spell›","","Cast spell without somatic components"],["‹feat/Studied Spell›","","Spell uses Knowledge to bypass racial resistances"],["‹feat/Stygian Spell›","","Water spell causes memory loss to target"],["‹feat/Stylized Spell›","Bluff 5 ranks, Spellcraft 5 ranks.","Spell is difficult to identify and might be mistaken for a similar spell"],["‹feat/Tenacious Spell›","","Spell is difficult to dispel and remains for 1d4 rounds"],["‹feat/Tenebrous Spell›","","Alter a spell so it is stronger in darkness, but weaker in the light"],["‹feat/Thanatopic Spell›","Knowledge (religion) 6 ranks, ‹feat/Spell Focus› (necromancy).","Affected spell's death effects, energy drain, and negative levels affect undead"],["‹feat/Threatening Illusion›","‹feat/Spell Focus› (illusion), Gnome.","Force enemies to think of your illusions as real threats"],["‹feat/Threnodic Spell›","Knowledge (religion) 6 ranks, ‹feat/Spell Focus› (necromancy).","Change a mind-affecting spell so it can affect undead, but not living creatures"],["‹feat/Thundering Spell›","","Deafen creature with spell damage"],["‹feat/Toppling Spell›","","Spell with the force descriptor knocks targets prone"],["‹feat/Toxic Spell›","Craft (poison) 5 ranks, ability to cast 2nd-level spells, poison use class feature.","Infuse a spell with the power of a poison"],["‹feat/Traumatic Spell›","","Emotion or fear spell causes nightmares"],["‹feat/Trick Spell›","Ability to cast 1st-level spells, chaotic neutral alignment, worshiper of Calistria.","Spells carry with them a dirty trick"],["‹feat/Tumultuous Spell›","","Spell causes a target to move in a random direction"],["‹feat/Umbral Spell›","‹feat/Tenebrous Spell›.","Alter a spell to radiate darkness"],["‹feat/Ursurping Spell›","","Targets that fail their saving throw flank with you and can't make attacks of opportunity against you"],["‹feat/Vast Spell›","Caster level 3rd.","Affect more creatures in an area"],["‹feat/Verdant Spell›","‹feat/Spell Focus› (enchantment), Knowledge (nature) 6 ranks.","Your spells can affect plant creatures"],["‹feat/Widen Spell›","","Double spell area"],["‹feat/Yai-Mimic Spell›","Int 15, ‹feat/Still Spell›.","Modify a ray spell to fire from your forehead, granting you brief regeneration"]]}} />
+</IonLabel></IonItem></IonList>};
+const _feats_grit = {title: "Feats - Grit", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_class">here</Link>.</p>
+<ScrollContainer id="main-feats_grit--table-0"><table>
+<thead>
+<tr>
+<th>Feat</th>
+<th>Prerequisites</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td className="ion-activatable"><Link to="/feat/battering_ram">Battering Ram<IonRippleEffect /></Link></td>
+<td>Craft (alchemy) 3 ranks; grit class feature or <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link>; pistol-whip gunslinger deed; quick clear gunslinger deed.</td>
+<td>Use the pistol-whip deed to remove your gun's broken condition after a misfire</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/blowout_shot_deed">Blowout Shot Deed<IonRippleEffect /></Link></td>
+<td>Craft (alchemy) 3 ranks, grit class feature or <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat.</td>
+<td>Create concussive blasts with a specially prepared black powder mix</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/casterbane_shot">Casterbane Shot<IonRippleEffect /></Link></td>
+<td><Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> or grit class feature, <Link to="/feat/point_blank_shot">Point-Blank Shot</Link>, <Link to="/feat/precise_shot">Precise Shot</Link>, base attack bonus +4.</td>
+<td>Make it harder for spellcasters to concentrate while under fire</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/deft_shootist">Deft Shootist<IonRippleEffect /></Link></td>
+<td>Grit class feature or <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/mobility">Mobility</Link>.</td>
+<td>Do not provoke attacks of opportunity while shooting or reloading firearms as long as you have 1 grit point</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/dragon_shot">Dragon Shot<IonRippleEffect /></Link></td>
+<td><Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat or grit class feature, Spellcraft 5 ranks.</td>
+<td>Spend grit to change the damage type of your gun to energy damage</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/extra_grit">Extra Grit<IonRippleEffect /></Link></td>
+<td>Grit class feature or the <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat.</td>
+<td>Gain 2 extra grit points per day, and maximum grit increases by 2</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/fabulist">Fabulist<IonRippleEffect /></Link></td>
+<td><Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat or grit class feature.</td>
+<td>Bonus to Perform checks, regain grit by successfully lying</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/gun_twirling">Gun Twirling<IonRippleEffect /></Link></td>
+<td><Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat or grit class feature, <Link to="/feat/dazzling_display">Dazzling Display</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link>.</td>
+<td>Utilize grit to feint with your firearm</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/leaping_shot">Leaping Shot<IonRippleEffect /></Link></td>
+<td>Dex 13, grit class feature or <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/mobility">Mobility</Link>, base attack bonus +4.</td>
+<td>May move your speed and make firearm attacks</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/musketeers_dodge">Musketeer's Dodge<IonRippleEffect /></Link></td>
+<td><Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (firearms), gunslinger level 3rd, gunslinger's dodge deed.</td>
+<td>Increase the bonus from gunslinger's dodge and your movement doesn't provoke</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/musketeers_reposition">Musketeer's Reposition<IonRippleEffect /></Link></td>
+<td><Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (firearms), gunslinger level 6th, pistol-whip deed.</td>
+<td>When you use the pistol-whip deed, you can reposition instead of tripping</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/named_bullet">Named Bullet<IonRippleEffect /></Link></td>
+<td><Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat or grit class feature, <Link to="/feat/gunsmithing">Gunsmithing</Link>, base attack bonus +5.</td>
+<td>Inscribe names of your targets on bullets to grant them bane against that target</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/no_name">No Name<IonRippleEffect /></Link></td>
+<td>Grit class feature or <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat, Bluff 4 ranks.</td>
+<td>Gain +2 on Bluff checks, and spend grit to gain +10 on Disguise checks</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/poison_shot_deed">Poison Shot Deed<IonRippleEffect /></Link></td>
+<td><Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> or grit class feature.</td>
+<td>Prepare bullets to deliver poison</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/recall_ammunition">Recall Ammunition<IonRippleEffect /></Link></td>
+<td><Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat or grit class feature, base attack bonus +9, Spellcraft 5 ranks.</td>
+<td>You can spend grit to teleport a missed bullet back into your gun</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/redirected_shot">Redirected Shot<IonRippleEffect /></Link></td>
+<td><Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> or the grit class feature, <Link to="/feat/deadly_aim">Deadly Aim</Link>, <Link to="/feat/precise_shot">Precise Shot</Link>.</td>
+<td>Help redirect your allies' poorly aimed ranged attacks</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/ricochet_shot_deed">Ricochet Shot Deed<IonRippleEffect /></Link></td>
+<td>Grit class feature or <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat, <Link to="/feat/blind_fight">Blind-Fight</Link>.</td>
+<td>Ricochet your shots off of a wall or other solid terrain</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/secret_stash_deed">Secret Stash Deed<IonRippleEffect /></Link></td>
+<td>Grit class feature or <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat, Sleight of Hand 1 rank.</td>
+<td>Spend 1 grit point to recover powder or ammunitionfrom your person</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/signature_deed">Signature Deed<IonRippleEffect /></Link></td>
+<td>Grit class feature, gunslinger level 11th.</td>
+<td>Use 1 deed for 1 fewer grit point</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/sizzling_shot">Sizzling Shot<IonRippleEffect /></Link></td>
+<td>Grit class feature or <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link>, base attack bonus +4.</td>
+<td>Cause your firearm attacks to be half fire damage</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/whip_shot_deed">Whip-Shot Deed<IonRippleEffect /></Link></td>
+<td>Grit class feature or <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat, pistol-whip deed.</td>
+<td>Fire your gun at the same time you use pistol-whip</td>
+</tr>
+</tbody></table></ScrollContainer>
+</IonLabel></IonItem></IonList>};
+const _feats_panache = {title: "Feats - Panache", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>Information about these feats can be found <Link to="/rule/feats_class">here</Link>.</p>
+<ScrollContainer id="main-feats_panache--table-0"><table>
+<thead>
+<tr>
+<th>Feat</th>
+<th>Prerequisites</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td className="ion-activatable"><Link to="/feat/confounding_tumble_deed">Confounding Tumble Deed<IonRippleEffect /></Link></td>
+<td><Link to="/feat/amateur_swashbuckler">Amateur Swashbuckler</Link> feat or panache class feature, <Link to="/feat/canny_tumble">Canny Tumble</Link>, Acrobatics 7 ranks.</td>
+<td>When you avoid attacks of opportunity and hit a foe, you can deny it its Dex bonus to AC for 1 round</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/dastardly_trick">Dastardly Trick<IonRippleEffect /></Link></td>
+<td>Int 13; <Link to="/feat/amateur_swashbuckler">Amateur Swashbuckler</Link> or panache class feature; <Link to="/feat/combat_expertise">Combat Expertise</Link>; <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link>.</td>
+<td>Your dirty tricks are harder to remove</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/disarming_threat_deed">Disarming Threat Deed<IonRippleEffect /></Link></td>
+<td><Link to="/feat/amateur_swashbuckler">Amateur Swashbuckler</Link> or panache class feature; Diplomacy 2 ranks, Intimidate 2 ranks.</td>
+<td>Use Intimidate without making the target unfriendly</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/dueling_cape">Dueling Cape<IonRippleEffect /></Link></td>
+<td><Link to="/feat/amateur_swashbuckler">Amateur Swashbuckler</Link> or panache class feature; <Link to="/feat/dodge">Dodge</Link>, Sleight of Hand 1 rank.</td>
+<td>Use your cape as a snaring buckler</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/enrage_opponent">Enrage Opponent<IonRippleEffect /></Link></td>
+<td>Cha 13, <Link to="/feat/persuasive">Persuasive</Link>, either <Link to="/feat/amateur_swashbuckler">Amateur Swashbuckler</Link> or the panache class feature.</td>
+<td>Lower angered opponent's defenses until she attacks you</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/extra_panache">Extra Panache<IonRippleEffect /></Link></td>
+<td><Link to="/feat/amateur_swashbuckler">Amateur Swashbuckler</Link> or panache class feature.</td>
+<td>Gain 2 extra panache points</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/lightning_draw">Lightning Draw<IonRippleEffect /></Link></td>
+<td><Link to="/feat/quick_draw">Quick Draw</Link>, swashbuckler initiative deed, swashbuckler level 7th.</td>
+<td>Draw weapons reflexively</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/musketeers_daring">Musketeer's Daring<IonRippleEffect /></Link></td>
+<td>Dex 15, derring-do deed, swashbuckler level 6th.</td>
+<td>Reroll derring-do on a natural 5</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/musketeers_sidestep">Musketeer's Sidestep<IonRippleEffect /></Link></td>
+<td>Dodging panache deed, swashbuckler level 3rd.</td>
+<td>Increase the bonus from dodging panahce and your movement doesn't provoke</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/pommel_strike_deed">Pommel Strike Deed<IonRippleEffect /></Link></td>
+<td><Link to="/feat/amateur_swashbuckler">Amateur Swashbuckler</Link> or panache class feature; base attack bonus +3.</td>
+<td>Attack with a light or one-handed piercing weapon's pommel and knock down foes</td>
+</tr>
+<tr>
+<td className="ion-activatable"><Link to="/feat/structural_strike">Structural Strike<IonRippleEffect /></Link></td>
+<td>Knowledge (engineering) 5 ranks, precise strike class feature or precise strike deed.</td>
+<td>Use precise strike against creatures normally immune</td>
+</tr>
+</tbody></table></ScrollContainer>
+</IonLabel></IonItem></IonList>};
+const _feats_with_combat_tricks = {title: "Feats with Combat Tricks", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><p>These feats have additional options that can be unlocked with the <Link to="/feat/combat_stamina">Combat Stamina</Link> feat.</p>
+<div className="columnar">
+<ul>
+<li><Link to="/feat/adder_strike">Adder Strike</Link></li>
+<li><Link to="/feat/agile_maneuvers">Agile Maneuvers</Link></li>
+<li><Link to="/feat/aldori_dueling_disciple">Aldori Dueling Disciple</Link></li>
+<li><Link to="/feat/aldori_dueling_mastery">Aldori Dueling Mastery</Link></li>
+<li><Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link></li>
+<li><Link to="/feat/amateur_swashbuckler">Amateur Swashbuckler</Link></li>
+<li><Link to="/feat/ambush_awareness">Ambush Awareness</Link></li>
+<li><Link to="/feat/anticipate_dodge">Anticipate Dodge</Link></li>
+<li><Link to="/feat/arc_slinger">Arc Slinger</Link></li>
+<li><Link to="/feat/arcane_armor_mastery">Arcane Armor Mastery</Link></li>
+<li><Link to="/feat/arcane_armor_training">Arcane Armor Training</Link></li>
+<li><Link to="/feat/arcane_strike">Arcane Strike</Link></li>
+<li><Link to="/feat/armor_focus">Armor Focus</Link></li>
+<li><Link to="/feat/armor_material_expertise">Armor Material Expertise</Link></li>
+<li><Link to="/feat/armor_material_mastery">Armor Material Mastery</Link></li>
+<li><Link to="/feat/armor_trick">Armor Trick</Link></li>
+<li><Link to="/feat/armored_athlete">Armored Athlete</Link></li>
+<li><Link to="/feat/artful_dodge">Artful Dodge</Link></li>
+<li><Link to="/feat/awe_inspiring_smash">Awe-Inspiring Smash</Link></li>
+<li><Link to="/feat/barroom_brawler">Barroom Brawler</Link></li>
+<li><Link to="/feat/bashing_finish">Bashing Finish</Link></li>
+<li><Link to="/feat/battle_cry">Battle Cry</Link></li>
+<li><Link to="/feat/befuddling_strike">Befuddling Strike</Link></li>
+<li><Link to="/feat/binding_throw">Binding Throw</Link></li>
+<li><Link to="/feat/black_powder_spectacle">Black Powder Spectacle</Link></li>
+<li><Link to="/feat/blazing_aura_arg">Blazing Aura (ARG)</Link></li>
+<li><Link to="/feat/bleeding_critical">Bleeding Critical</Link></li>
+<li><Link to="/feat/blind_fight">Blind-Fight</Link></li>
+<li><Link to="/feat/blinding_critical">Blinding Critical</Link></li>
+<li><Link to="/feat/blistering_feint">Blistering Feint</Link></li>
+<li><Link to="/feat/blood_beak">Blood Beak</Link></li>
+<li><Link to="/feat/blooded_arcane_strike">Blooded Arcane Strike</Link></li>
+<li><Link to="/feat/bloodletting">Bloodletting</Link></li>
+<li><Link to="/feat/bloody_assault">Bloody Assault</Link></li>
+<li><Link to="/feat/bloody_sabres">Bloody Sabres</Link></li>
+<li><Link to="/feat/bludgeoner">Bludgeoner</Link></li>
+<li><Link to="/feat/blundering_defense">Blundering Defense</Link></li>
+<li><Link to="/feat/boar_ferocity">Boar Ferocity</Link></li>
+<li><Link to="/feat/boar_shred">Boar Shred</Link></li>
+<li><Link to="/feat/boar_style">Boar Style</Link></li>
+<li><Link to="/feat/body_shield">Body Shield</Link></li>
+<li><Link to="/feat/bodyguard">Bodyguard</Link></li>
+<li><Link to="/feat/bonebreaker">Bonebreaker</Link></li>
+<li><Link to="/feat/break_guard">Break Guard</Link></li>
+<li><Link to="/feat/broken_wing_gambit">Broken Wing Gambit</Link></li>
+<li><Link to="/feat/bull_rush_strike">Bull Rush Strike</Link></li>
+<li><Link to="/feat/bullseye_shot">Bullseye Shot</Link></li>
+<li><Link to="/feat/bullying_blow">Bullying Blow</Link></li>
+<li><Link to="/feat/butterflys_sting">Butterfly's Sting</Link></li>
+<li><Link to="/feat/cannon_master">Cannon Master</Link></li>
+<li><Link to="/feat/canny_tumble">Canny Tumble</Link></li>
+<li><Link to="/feat/casterbane_shot">Casterbane Shot</Link></li>
+<li><Link to="/feat/catch_off_guard">Catch Off-Guard</Link></li>
+<li><Link to="/feat/cautious_fighter">Cautious Fighter</Link></li>
+<li><Link to="/feat/cavalry_formation">Cavalry Formation</Link></li>
+<li><Link to="/feat/channel_smite">Channel Smite</Link></li>
+<li><Link to="/feat/channeling_force">Channeling Force</Link></li>
+<li><Link to="/feat/charge_of_the_righteous">Charge of the Righteous</Link></li>
+<li><Link to="/feat/charge_through">Charge Through</Link></li>
+<li><Link to="/feat/charging_hurler">Charging Hurler</Link></li>
+<li><Link to="/feat/chokehold">Chokehold</Link></li>
+<li><Link to="/feat/claw_pounce">Claw Pounce</Link></li>
+<li><Link to="/feat/cleave">Cleave</Link></li>
+<li><Link to="/feat/cleave_through">Cleave Through</Link></li>
+<li><Link to="/feat/cleaving_finish">Cleaving Finish</Link></li>
+<li><Link to="/feat/close_quarters_thrower">Close-Quarters Thrower</Link></li>
+<li><Link to="/feat/cloven_helm">Cloven Helm</Link></li>
+<li><Link to="/feat/clustered_shots">Clustered Shots</Link></li>
+<li><Link to="/feat/cockatrice_strike">Cockatrice Strike</Link></li>
+<li><Link to="/feat/combat_expertise">Combat Expertise</Link></li>
+<li><Link to="/feat/combat_patrol">Combat Patrol</Link></li>
+<li><Link to="/feat/combat_reflexes">Combat Reflexes</Link></li>
+<li><Link to="/feat/combat_style_master">Combat Style Master</Link></li>
+<li><Link to="/feat/coordinated_charge">Coordinated Charge</Link></li>
+<li><Link to="/feat/coordinated_defense">Coordinated Defense</Link></li>
+<li><Link to="/feat/coordinated_maneuvers">Coordinated Maneuvers</Link></li>
+<li><Link to="/feat/coordinated_shot">Coordinated Shot</Link></li>
+<li><Link to="/feat/counter_reflexes">Counter Reflexes</Link></li>
+<li><Link to="/feat/counterpunch">Counterpunch</Link></li>
+<li><Link to="/feat/covering_defense">Covering Defense</Link></li>
+<li><Link to="/feat/covering_shield">Covering Shield</Link></li>
+<li><Link to="/feat/crane_riposte">Crane Riposte</Link></li>
+<li><Link to="/feat/crane_style">Crane Style</Link></li>
+<li><Link to="/feat/crane_wing">Crane Wing</Link></li>
+<li><Link to="/feat/crippling_critical">Crippling Critical</Link></li>
+<li><Link to="/feat/critical_focus">Critical Focus</Link></li>
+<li><Link to="/feat/critical_mastery">Critical Mastery</Link></li>
+<li><Link to="/feat/critical_versatility">Critical Versatility</Link></li>
+<li><Link to="/feat/crossbow_mastery">Crossbow Mastery</Link></li>
+<li><Link to="/feat/crusaders_fist">Crusader's Fist</Link></li>
+<li><Link to="/feat/crushing_blow">Crushing Blow</Link></li>
+<li><Link to="/feat/cushioning_armor">Cushioning Armor</Link></li>
+<li><Link to="/feat/cushioning_shield">Cushioning Shield</Link></li>
+<li><Link to="/feat/dastardly_finish">Dastardly Finish</Link></li>
+<li><Link to="/feat/dazing_assault">Dazing Assault</Link></li>
+<li><Link to="/feat/dazing_fist">Dazing Fist</Link></li>
+<li><Link to="/feat/dazzling_display">Dazzling Display</Link></li>
+<li><Link to="/feat/deadly_aim">Deadly Aim</Link></li>
+<li><Link to="/feat/deadly_finish">Deadly Finish</Link></li>
+<li><Link to="/feat/deadly_stroke">Deadly Stroke</Link></li>
+<li><Link to="/feat/deafening_critical">Deafening Critical</Link></li>
+<li><Link to="/feat/death_from_above">Death from Above</Link></li>
+<li><Link to="/feat/death_or_glory">Death or Glory</Link></li>
+<li><Link to="/feat/deathless_initiate">Deathless Initiate</Link></li>
+<li><Link to="/feat/deathless_master">Deathless Master</Link></li>
+<li><Link to="/feat/deathless_zealot">Deathless Zealot</Link></li>
+<li><Link to="/feat/defended_movement">Defended Movement</Link></li>
+<li><Link to="/feat/defensive_combat_training">Defensive Combat Training</Link></li>
+<li><Link to="/feat/defensive_weapon_training">Defensive Weapon Training</Link></li>
+<li><Link to="/feat/deflect_arrows">Deflect Arrows</Link></li>
+<li><Link to="/feat/demon_hunter">Demon Hunter</Link></li>
+<li><Link to="/feat/demoralizing_lash">Demoralizing Lash</Link></li>
+<li><Link to="/feat/dented_helm">Dented Helm</Link></li>
+<li><Link to="/feat/desperate_battler">Desperate Battler</Link></li>
+<li><Link to="/feat/desperate_swing">Desperate Swing</Link></li>
+<li><Link to="/feat/destroy_identity">Destroy Identity</Link></li>
+<li><Link to="/feat/destroyers_blessing">Destroyer's Blessing</Link></li>
+<li><Link to="/feat/devastating_strike">Devastating Strike</Link></li>
+<li><Link to="/feat/disarming_strike">Disarming Strike</Link></li>
+<li><Link to="/feat/disengaging_feint">Disengaging Feint</Link></li>
+<li><Link to="/feat/disengaging_flourish">Disengaging Flourish</Link></li>
+<li><Link to="/feat/disengaging_shot">Disengaging Shot</Link></li>
+<li><Link to="/feat/disheartening_display">Disheartening Display</Link></li>
+<li><Link to="/feat/disrupting_shot">Disrupting Shot</Link></li>
+<li><Link to="/feat/disruptive">Disruptive</Link></li>
+<li><Link to="/feat/distance_thrower">Distance Thrower</Link></li>
+<li><Link to="/feat/distracting_charge">Distracting Charge</Link></li>
+<li><Link to="/feat/djinni_spin">Djinni Spin</Link></li>
+<li><Link to="/feat/djinni_spirit">Djinni Spirit</Link></li>
+<li><Link to="/feat/djinni_style">Djinni Style</Link></li>
+<li><Link to="/feat/dodge">Dodge</Link></li>
+<li><Link to="/feat/domain_strike">Domain Strike</Link></li>
+<li><Link to="/feat/double_slice">Double Slice</Link></li>
+<li><Link to="/feat/drag_down">Drag Down</Link></li>
+<li><Link to="/feat/dragon_ferocity">Dragon Ferocity</Link></li>
+<li><Link to="/feat/dragon_roar">Dragon Roar</Link></li>
+<li><Link to="/feat/dragon_style">Dragon Style</Link></li>
+<li><Link to="/feat/draining_strike">Draining Strike</Link></li>
+<li><Link to="/feat/dramatic_display">Dramatic Display</Link></li>
+<li><Link to="/feat/dreadful_carnage">Dreadful Carnage</Link></li>
+<li><Link to="/feat/duelist_of_the_roaring_falls">Duelist of the Roaring Falls</Link></li>
+<li><Link to="/feat/duelist_of_the_shrouded_lake">Duelist of the Shrouded Lake</Link></li>
+<li><Link to="/feat/earth_child_binder">Earth Child Binder</Link></li>
+<li><Link to="/feat/earth_child_style">Earth Child Style</Link></li>
+<li><Link to="/feat/earth_child_topple">Earth Child Topple</Link></li>
+<li><Link to="/feat/efreeti_stance">Efreeti Stance</Link></li>
+<li><Link to="/feat/efreeti_style">Efreeti Style</Link></li>
+<li><Link to="/feat/efreeti_touch">Efreeti Touch</Link></li>
+<li><Link to="/feat/eldritch_claws">Eldritch Claws</Link></li>
+<li><Link to="/feat/elemental_fist">Elemental Fist</Link></li>
+<li><Link to="/feat/elven_accuracy">Elven Accuracy</Link></li>
+<li><Link to="/feat/elven_battle_training">Elven Battle Training</Link></li>
+<li><Link to="/feat/enfilading_fire">Enfilading Fire</Link></li>
+<li><Link to="/feat/enforcer">Enforcer</Link></li>
+<li><Link to="/feat/exhausting_critical">Exhausting Critical</Link></li>
+<li><Link to="/feat/extend_the_bulwark">Extend the Bulwark</Link></li>
+<li><Link to="/feat/extreme_prejudice">Extreme Prejudice</Link></li>
+<li><Link to="/feat/faeries_strike">Faerie's Strike</Link></li>
+<li><Link to="/feat/falling_water_gambit">Falling Water Gambit</Link></li>
+<li><Link to="/feat/false_opening">False Opening</Link></li>
+<li><Link to="/feat/far_shot">Far Shot</Link></li>
+<li><Link to="/feat/feint_defender">Feint Defender</Link></li>
+<li><Link to="/feat/feint_partner">Feint Partner</Link></li>
+<li><Link to="/feat/felling_escape">Felling Escape</Link></li>
+<li><Link to="/feat/felling_smash">Felling Smash</Link></li>
+<li><Link to="/feat/feral_combat_training">Feral Combat Training</Link></li>
+<li><Link to="/feat/ferocious_tenacity">Ferocious Tenacity</Link></li>
+<li><Link to="/feat/final_embrace">Final Embrace</Link></li>
+<li><Link to="/feat/final_embrace_horror">Final Embrace Horror</Link></li>
+<li><Link to="/feat/final_embrace_master">Final Embrace Master</Link></li>
+<li><Link to="/feat/fire_hand">Fire Hand</Link></li>
+<li><Link to="/feat/flagbearer">Flagbearer</Link></li>
+<li><Link to="/feat/flanking_foil">Flanking Foil</Link></li>
+<li><Link to="/feat/focused_discipline">Focused Discipline</Link></li>
+<li><Link to="/feat/focused_shot">Focused Shot</Link></li>
+<li><Link to="/feat/following_step">Following Step</Link></li>
+<li><Link to="/feat/fortified_armor_training">Fortified Armor Training</Link></li>
+<li><Link to="/feat/furious_focus">Furious Focus</Link></li>
+<li><Link to="/feat/gang_up">Gang Up</Link></li>
+<li><Link to="/feat/giant_killer">Giant Killer</Link></li>
+<li><Link to="/feat/gloom_strike">Gloom Strike</Link></li>
+<li><Link to="/feat/gnome_weapon_focus">Gnome Weapon Focus</Link></li>
+<li><Link to="/feat/goblin_cleaver">Goblin Cleaver</Link></li>
+<li><Link to="/feat/goblin_gunslinger">Goblin Gunslinger</Link></li>
+<li><Link to="/feat/gorgons_fist">Gorgon's Fist</Link></li>
+<li><Link to="/feat/gory_finish">Gory Finish</Link></li>
+<li><Link to="/feat/got_your_back">Got Your Back</Link></li>
+<li><Link to="/feat/grabbing_drag">Grabbing Drag</Link></li>
+<li><Link to="/feat/grabbing_master">Grabbing Master</Link></li>
+<li><Link to="/feat/grabbing_style">Grabbing Style</Link></li>
+<li><Link to="/feat/grasping_strike">Grasping Strike</Link></li>
+<li><Link to="/feat/great_cleave">Great Cleave</Link></li>
+<li><Link to="/feat/great_hatred">Great Hatred</Link></li>
+<li><Link to="/feat/greater_blind_fight">Greater Blind-Fight</Link></li>
+<li><Link to="/feat/greater_bull_rush">Greater Bull Rush</Link></li>
+<li><Link to="/feat/greater_dirty_trick">Greater Dirty Trick</Link></li>
+<li><Link to="/feat/greater_disarm">Greater Disarm</Link></li>
+<li><Link to="/feat/greater_drag">Greater Drag</Link></li>
+<li><Link to="/feat/greater_feint">Greater Feint</Link></li>
+<li><Link to="/feat/greater_grapple">Greater Grapple</Link></li>
+<li><Link to="/feat/greater_ironclad_reactions">Greater Ironclad Reactions</Link></li>
+<li><Link to="/feat/greater_overrun">Greater Overrun</Link></li>
+<li><Link to="/feat/greater_penetrating_strike">Greater Penetrating Strike</Link></li>
+<li><Link to="/feat/greater_ray_shield">Greater Ray Shield</Link></li>
+<li><Link to="/feat/greater_rending_fury">Greater Rending Fury</Link></li>
+<li><Link to="/feat/greater_reposition">Greater Reposition</Link></li>
+<li><Link to="/feat/greater_shield_focus">Greater Shield Focus</Link></li>
+<li><Link to="/feat/greater_shield_specialization">Greater Shield Specialization</Link></li>
+<li><Link to="/feat/greater_snap_shot">Greater Snap Shot</Link></li>
+<li><Link to="/feat/greater_steal">Greater Steal</Link></li>
+<li><Link to="/feat/greater_sunder">Greater Sunder</Link></li>
+<li><Link to="/feat/greater_trip">Greater Trip</Link></li>
+<li><Link to="/feat/greater_two_weapon_fighting">Greater Two-Weapon Fighting</Link></li>
+<li><Link to="/feat/greater_vital_strike">Greater Vital Strike</Link></li>
+<li><Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link></li>
+<li><Link to="/feat/greater_weapon_of_the_chosen">Greater Weapon of the Chosen</Link></li>
+<li><Link to="/feat/greater_weapon_specialization">Greater Weapon Specialization</Link></li>
+<li><Link to="/feat/greater_whip_mastery">Greater Whip Mastery</Link></li>
+<li><Link to="/feat/grudge_fighter">Grudge Fighter</Link></li>
+<li><Link to="/feat/gruesome_slaughter">Gruesome Slaughter</Link></li>
+<li><Link to="/feat/hamatulatsu">Hamatulatsu</Link></li>
+<li><Link to="/feat/hammer_the_gap">Hammer the Gap</Link></li>
+<li><Link to="/feat/hard_headed">Hard-Headed</Link></li>
+<li><Link to="/feat/harrying_partners">Harrying Partners</Link></li>
+<li><Link to="/feat/haunted_gnome">Haunted Gnome</Link></li>
+<li><Link to="/feat/haunted_gnome_assault">Haunted Gnome Assault</Link></li>
+<li><Link to="/feat/haunted_gnome_shroud">Haunted Gnome Shroud</Link></li>
+<li><Link to="/feat/heroic_interposition">Heroic Interposition</Link></li>
+<li><Link to="/feat/heros_display">Hero's Display</Link></li>
+<li><Link to="/feat/hex_strike">Hex Strike</Link></li>
+<li><Link to="/feat/horse_master">Horse Master</Link></li>
+<li><Link to="/feat/impact_critical_shot">Impact Critical Shot</Link></li>
+<li><Link to="/feat/impaling_critical">Impaling Critical</Link></li>
+<li><Link to="/feat/imposing_bearing">Imposing Bearing</Link></li>
+<li><Link to="/feat/improved_armor_focus">Improved Armor Focus</Link></li>
+<li><Link to="/feat/improved_awesome_blow">Improved Awesome Blow</Link></li>
+<li><Link to="/feat/improved_blind_fight">Improved Blind-Fight</Link></li>
+<li><Link to="/feat/improved_bull_rush">Improved Bull Rush</Link></li>
+<li><Link to="/feat/improved_charging_hurler">Improved Charging Hurler</Link></li>
+<li><Link to="/feat/improved_cleaving_finish">Improved Cleaving Finish</Link></li>
+<li><Link to="/feat/improved_critical">Improved Critical</Link></li>
+<li><Link to="/feat/improved_devastating_strike">Improved Devastating Strike</Link></li>
+<li><Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link></li>
+<li><Link to="/feat/improved_disarm">Improved Disarm</Link></li>
+<li><Link to="/feat/improved_drag">Improved Drag</Link></li>
+<li><Link to="/feat/improved_feint">Improved Feint</Link></li>
+<li><Link to="/feat/improved_feint_partner">Improved Feint Partner</Link></li>
+<li><Link to="/feat/improved_grapple">Improved Grapple</Link></li>
+<li><Link to="/feat/improved_impaling_critical">Improved Impaling Critical</Link></li>
+<li><Link to="/feat/improved_initiative">Improved Initiative</Link></li>
+<li><Link to="/feat/improved_ki_throw">Improved Ki Throw</Link></li>
+<li><Link to="/feat/improved_low_blow">Improved Low Blow</Link></li>
+<li><Link to="/feat/improved_overrun">Improved Overrun</Link></li>
+<li><Link to="/feat/improved_precise_shot">Improved Precise Shot</Link></li>
+<li><Link to="/feat/improved_rending_fury">Improved Rending Fury</Link></li>
+<li><Link to="/feat/improved_reposition">Improved Reposition</Link></li>
+<li><Link to="/feat/improved_second_chance">Improved Second Chance</Link></li>
+<li><Link to="/feat/improved_shield_bash">Improved Shield Bash</Link></li>
+<li><Link to="/feat/improved_shield_focus">Improved Shield Focus</Link></li>
+<li><Link to="/feat/improved_sidestep">Improved Sidestep</Link></li>
+<li><Link to="/feat/improved_snap_shot">Improved Snap Shot</Link></li>
+<li><Link to="/feat/improved_steal">Improved Steal</Link></li>
+<li><Link to="/feat/improved_sunder">Improved Sunder</Link></li>
+<li><Link to="/feat/improved_surprise_follow_through">Improved Surprise Follow-Through</Link></li>
+<li><Link to="/feat/improved_swap_places">Improved Swap Places</Link></li>
+<li><Link to="/feat/improved_trip">Improved Trip</Link></li>
+<li><Link to="/feat/improved_two_weapon_feint">Improved Two-Weapon Feint</Link></li>
+<li><Link to="/feat/improved_two_weapon_fighting">Improved Two-Weapon Fighting</Link></li>
+<li><Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link></li>
+<li><Link to="/feat/improved_vital_strike">Improved Vital Strike</Link></li>
+<li><Link to="/feat/improved_weapon_of_the_chosen">Improved Weapon of the Chosen</Link></li>
+<li><Link to="/feat/improved_whip_mastery">Improved Whip Mastery</Link></li>
+<li><Link to="/feat/improvised_weapon_mastery">Improvised Weapon Mastery</Link></li>
+<li><Link to="/feat/in_harms_way">In Harm's Way</Link></li>
+<li><Link to="/feat/inner_flame">Inner Flame</Link></li>
+<li><Link to="/feat/intense_blows">Intense Blows</Link></li>
+<li><Link to="/feat/intercept_charge">Intercept Charge</Link></li>
+<li><Link to="/feat/intimidating_prowess">Intimidating Prowess</Link></li>
+<li><Link to="/feat/intrepid_rescuer">Intrepid Rescuer</Link></li>
+<li><Link to="/feat/ironclad_reactions">Ironclad Reactions</Link></li>
+<li><Link to="/feat/jabbing_dancer">Jabbing Dancer</Link></li>
+<li><Link to="/feat/jabbing_master">Jabbing Master</Link></li>
+<li><Link to="/feat/jabbing_style">Jabbing Style</Link></li>
+<li><Link to="/feat/janni_rush">Janni Rush</Link></li>
+<li><Link to="/feat/janni_style">Janni Style</Link></li>
+<li><Link to="/feat/janni_tempest">Janni Tempest</Link></li>
+<li><Link to="/feat/jawbreaker">Jawbreaker</Link></li>
+<li><Link to="/feat/just_out_of_reach">Just Out of Reach</Link></li>
+<li><Link to="/feat/ki_throw">Ki Throw</Link></li>
+<li><Link to="/feat/kick_up">Kick Up</Link></li>
+<li><Link to="/feat/killing_flourish">Killing Flourish</Link></li>
+<li><Link to="/feat/kirin_path">Kirin Path</Link></li>
+<li><Link to="/feat/kirin_strike">Kirin Strike</Link></li>
+<li><Link to="/feat/kirin_style">Kirin Style</Link></li>
+<li><Link to="/feat/knocking_blows">Knocking Blows</Link></li>
+<li><Link to="/feat/kobold_ambusher">Kobold Ambusher</Link></li>
+<li><Link to="/feat/kobold_sniper">Kobold Sniper</Link></li>
+<li><Link to="/feat/landing_roll">Landing Roll</Link></li>
+<li><Link to="/feat/leaping_evasion">Leaping Evasion</Link></li>
+<li><Link to="/feat/lightning_stance">Lightning Stance</Link></li>
+<li><Link to="/feat/lookout">Lookout</Link></li>
+<li><Link to="/feat/low_profile">Low Profile</Link></li>
+<li><Link to="/feat/lucky_strike">Lucky Strike</Link></li>
+<li><Link to="/feat/lunge">Lunge</Link></li>
+<li><Link to="/feat/mantis_style">Mantis Style</Link></li>
+<li><Link to="/feat/mantis_torment">Mantis Torment</Link></li>
+<li><Link to="/feat/mantis_wisdom">Mantis Wisdom</Link></li>
+<li><Link to="/feat/manyshot">Manyshot</Link></li>
+<li><Link to="/feat/marid_coldsnap">Marid Coldsnap</Link></li>
+<li><Link to="/feat/marid_spirit">Marid Spirit</Link></li>
+<li><Link to="/feat/marid_style">Marid Style</Link></li>
+<li><Link to="/feat/martial_mastery">Martial Mastery</Link></li>
+<li><Link to="/feat/martial_versatility">Martial Versatility</Link></li>
+<li><Link to="/feat/master_combat_performer">Master Combat Performer</Link></li>
+<li><Link to="/feat/master_siege_engineer">Master Siege Engineer</Link></li>
+<li><Link to="/feat/masterful_display">Masterful Display</Link></li>
+<li><Link to="/feat/measured_response">Measured Response</Link></li>
+<li><Link to="/feat/medusas_wrath">Medusa's Wrath</Link></li>
+<li><Link to="/feat/merciless_butchery">Merciless Butchery</Link></li>
+<li><Link to="/feat/mirror_move">Mirror Move</Link></li>
+<li><Link to="/feat/missile_shield">Missile Shield</Link></li>
+<li><Link to="/feat/mobility">Mobility</Link></li>
+<li><Link to="/feat/mocking_dance">Mocking Dance</Link></li>
+<li><Link to="/feat/monastic_legacy">Monastic Legacy</Link></li>
+<li><Link to="/feat/monkey_moves">Monkey Moves</Link></li>
+<li><Link to="/feat/monkey_shine">Monkey Shine</Link></li>
+<li><Link to="/feat/monkey_style">Monkey Style</Link></li>
+<li><Link to="/feat/moonlight_stalker">Moonlight Stalker</Link></li>
+<li><Link to="/feat/moonlight_stalker_feint">Moonlight Stalker Feint</Link></li>
+<li><Link to="/feat/moonlight_stalker_master">Moonlight Stalker Master</Link></li>
+<li><Link to="/feat/mounted_archery">Mounted Archery</Link></li>
+<li><Link to="/feat/mounted_combat">Mounted Combat</Link></li>
+<li><Link to="/feat/mounted_shield">Mounted Shield</Link></li>
+<li><Link to="/feat/mounted_skirmisher">Mounted Skirmisher</Link></li>
+<li><Link to="/feat/murderers_circle">Murderer's Circle</Link></li>
+<li><Link to="/feat/neckbreaker">Neckbreaker</Link></li>
+<li><Link to="/feat/net_adept">Net Adept</Link></li>
+<li><Link to="/feat/net_and_trident">Net and Trident</Link></li>
+<li><Link to="/feat/net_maneuvering">Net Maneuvering</Link></li>
+<li><Link to="/feat/net_trickery">Net Trickery</Link></li>
+<li><Link to="/feat/nightmare_fist">Nightmare Fist</Link></li>
+<li><Link to="/feat/nightmare_striker">Nightmare Striker</Link></li>
+<li><Link to="/feat/nightmare_weaver">Nightmare Weaver</Link></li>
+<li><Link to="/feat/nimble_striker">Nimble Striker</Link></li>
+<li><Link to="/feat/opening_volley">Opening Volley</Link></li>
+<li><Link to="/feat/orc_hewer">Orc Hewer</Link></li>
+<li><Link to="/feat/orc_weapon_expertise">Orc Weapon Expertise</Link></li>
+<li><Link to="/feat/ostentatious_weakness">Ostentatious Weakness</Link></li>
+<li><Link to="/feat/outflank">Outflank</Link></li>
+<li><Link to="/feat/pack_attack">Pack Attack</Link></li>
+<li><Link to="/feat/paired_opportunists">Paired Opportunists</Link></li>
+<li><Link to="/feat/panther_claw">Panther Claw</Link></li>
+<li><Link to="/feat/panther_parry">Panther Parry</Link></li>
+<li><Link to="/feat/panther_style">Panther Style</Link></li>
+<li><Link to="/feat/paralyzing_strike">Paralyzing Strike</Link></li>
+<li><Link to="/feat/parting_shot">Parting Shot</Link></li>
+<li><Link to="/feat/passing_trick">Passing Trick</Link></li>
+<li><Link to="/feat/penetrating_strike">Penetrating Strike</Link></li>
+<li><Link to="/feat/perfect_strike">Perfect Strike</Link></li>
+<li><Link to="/feat/perfect_style">Perfect Style</Link></li>
+<li><Link to="/feat/performance_weapon_mastery">Performance Weapon Mastery</Link></li>
+<li><Link to="/feat/performing_combatant">Performing Combatant</Link></li>
+<li><Link to="/feat/pin_down">Pin Down</Link></li>
+<li><Link to="/feat/pinning_knockout">Pinning Knockout</Link></li>
+<li><Link to="/feat/pinning_rend">Pinning Rend</Link></li>
+<li><Link to="/feat/pinpoint_poisoner">Pinpoint Poisoner</Link></li>
+<li><Link to="/feat/pinpoint_targeting">Pinpoint Targeting</Link></li>
+<li><Link to="/feat/point_blank_master">Point-Blank Master</Link></li>
+<li><Link to="/feat/point_blank_shot">Point-Blank Shot</Link></li>
+<li><Link to="/feat/poised_bearing">Poised Bearing</Link></li>
+<li><Link to="/feat/porcupine_defense">Porcupine Defense</Link></li>
+<li><Link to="/feat/power_attack">Power Attack</Link></li>
+<li><Link to="/feat/precise_shot">Precise Shot</Link></li>
+<li><Link to="/feat/precise_strike">Precise Strike</Link></li>
+<li><Link to="/feat/prone_shooter">Prone Shooter</Link></li>
+<li><Link to="/feat/prone_slinger">Prone Slinger</Link></li>
+<li><Link to="/feat/pummeling_bully">Pummeling Bully</Link></li>
+<li><Link to="/feat/pummeling_charge">Pummeling Charge</Link></li>
+<li><Link to="/feat/pummeling_style">Pummeling Style</Link></li>
+<li><Link to="/feat/punishing_kick">Punishing Kick</Link></li>
+<li><Link to="/feat/pushing_assault">Pushing Assault</Link></li>
+<li><Link to="/feat/quarterstaff_master">Quarterstaff Master</Link></li>
+<li><Link to="/feat/quick_bull_rush">Quick Bull Rush</Link></li>
+<li><Link to="/feat/quick_dirty_trick">Quick Dirty Trick</Link></li>
+<li><Link to="/feat/quick_drag">Quick Drag</Link></li>
+<li><Link to="/feat/quick_draw">Quick Draw</Link></li>
+<li><Link to="/feat/quick_reposition">Quick Reposition</Link></li>
+<li><Link to="/feat/quick_steal">Quick Steal</Link></li>
+<li><Link to="/feat/quillbreaker_defense">Quillbreaker Defense</Link></li>
+<li><Link to="/feat/rapid_grappler">Rapid Grappler</Link></li>
+<li><Link to="/feat/rapid_reload">Rapid Reload</Link></li>
+<li><Link to="/feat/rapid_shot">Rapid Shot</Link></li>
+<li><Link to="/feat/ray_shield">Ray Shield</Link></li>
+<li><Link to="/feat/reach_defense">Reach Defense</Link></li>
+<li><Link to="/feat/rebounding_leap">Rebounding Leap</Link></li>
+<li><Link to="/feat/rebuffing_reduction">Rebuffing Reduction</Link></li>
+<li><Link to="/feat/redirect_attack">Redirect Attack</Link></li>
+<li><Link to="/feat/redirected_shot">Redirected Shot</Link></li>
+<li><Link to="/feat/rending_claws">Rending Claws</Link></li>
+<li><Link to="/feat/rending_fury">Rending Fury</Link></li>
+<li><Link to="/feat/repositioning_strike">Repositioning Strike</Link></li>
+<li><Link to="/feat/revelation_strike">Revelation Strike</Link></li>
+<li><Link to="/feat/reverse_feint">Reverse-Feint</Link></li>
+<li><Link to="/feat/ride_by_attack">Ride-By Attack</Link></li>
+<li><Link to="/feat/riptide_attack">Riptide Attack</Link></li>
+<li><Link to="/feat/risky_striker">Risky Striker</Link></li>
+<li><Link to="/feat/riving_strike">Riving Strike</Link></li>
+<li><Link to="/feat/sap_adept">Sap Adept</Link></li>
+<li><Link to="/feat/sap_master">Sap Master</Link></li>
+<li><Link to="/feat/savage_display">Savage Display</Link></li>
+<li><Link to="/feat/savage_surge">Savage Surge</Link></li>
+<li><Link to="/feat/saving_shield">Saving Shield</Link></li>
+<li><Link to="/feat/school_strike">School Strike</Link></li>
+<li><Link to="/feat/scorching_weapons">Scorching Weapons</Link></li>
+<li><Link to="/feat/scorpion_style">Scorpion Style</Link></li>
+<li><Link to="/feat/sea_hunter">Sea Hunter</Link></li>
+<li><Link to="/feat/second_chance">Second Chance</Link></li>
+<li><Link to="/feat/secured_armor">Secured Armor</Link></li>
+<li><Link to="/feat/seething_hatred">Seething Hatred</Link></li>
+<li><Link to="/feat/seize_advantage">Seize Advantage</Link></li>
+<li><Link to="/feat/seize_the_moment">Seize the Moment</Link></li>
+<li><Link to="/feat/shadow_strike">Shadow Strike</Link></li>
+<li><Link to="/feat/shaitan_earthblast">Shaitan Earthblast</Link></li>
+<li><Link to="/feat/shaitan_skin">Shaitan Skin</Link></li>
+<li><Link to="/feat/shaitan_style">Shaitan Style</Link></li>
+<li><Link to="/feat/sharpclaw">Sharpclaw</Link></li>
+<li><Link to="/feat/shatter_defenses">Shatter Defenses</Link></li>
+<li><Link to="/feat/shatterspell">Shatterspell</Link></li>
+<li><Link to="/feat/shield_brace">Shield Brace</Link></li>
+<li><Link to="/feat/shield_focus">Shield Focus</Link></li>
+<li><Link to="/feat/shield_master">Shield Master</Link></li>
+<li><Link to="/feat/shield_of_swings">Shield of Swings</Link></li>
+<li><Link to="/feat/shield_slam">Shield Slam</Link></li>
+<li><Link to="/feat/shield_snag">Shield Snag</Link></li>
+<li><Link to="/feat/shield_specialization">Shield Specialization</Link></li>
+<li><Link to="/feat/shield_wall">Shield Wall</Link></li>
+<li><Link to="/feat/shot_on_the_run">Shot on the Run</Link></li>
+<li><Link to="/feat/shrewd_tactician">Shrewd Tactician</Link></li>
+<li><Link to="/feat/sickening_critical">Sickening Critical</Link></li>
+<li><Link to="/feat/sidestep">Sidestep</Link></li>
+<li><Link to="/feat/siege_commander">Siege Commander</Link></li>
+<li><Link to="/feat/siege_engineer">Siege Engineer</Link></li>
+<li><Link to="/feat/siege_gunner">Siege Gunner</Link></li>
+<li><Link to="/feat/silent_kill">Silent Kill</Link></li>
+<li><Link to="/feat/slashing_grace">Slashing Grace</Link></li>
+<li><Link to="/feat/slayers_feint">Slayer's Feint</Link></li>
+<li><Link to="/feat/sling_flail">Sling Flail</Link></li>
+<li><Link to="/feat/smash">Smash</Link></li>
+<li><Link to="/feat/snake_fang">Snake Fang</Link></li>
+<li><Link to="/feat/snake_sidewind">Snake Sidewind</Link></li>
+<li><Link to="/feat/snake_style">Snake Style</Link></li>
+<li><Link to="/feat/snap_shot">Snap Shot</Link></li>
+<li><Link to="/feat/snapping_turtle_clutch">Snapping Turtle Clutch</Link></li>
+<li><Link to="/feat/snapping_turtle_shell">Snapping Turtle Shell</Link></li>
+<li><Link to="/feat/snapping_turtle_style">Snapping Turtle Style</Link></li>
+<li><Link to="/feat/snatch_arrows">Snatch Arrows</Link></li>
+<li><Link to="/feat/sorcerous_strike">Sorcerous Strike</Link></li>
+<li><Link to="/feat/spear_dancer">Spear Dancer</Link></li>
+<li><Link to="/feat/spectacular_exit">Spectacular Exit</Link></li>
+<li><Link to="/feat/spellbreaker">Spellbreaker</Link></li>
+<li><Link to="/feat/spiked_destroyer">Spiked Destroyer</Link></li>
+<li><Link to="/feat/spinning_throw">Spinning Throw</Link></li>
+<li><Link to="/feat/spirited_charge">Spirited Charge</Link></li>
+<li><Link to="/feat/spit_venom">Spit Venom</Link></li>
+<li><Link to="/feat/sprightly_armor">Sprightly Armor</Link></li>
+<li><Link to="/feat/spring_attack">Spring Attack</Link></li>
+<li><Link to="/feat/squash_flat">Squash Flat</Link></li>
+<li><Link to="/feat/stabbing_shot">Stabbing Shot</Link></li>
+<li><Link to="/feat/stage_combatant">Stage Combatant</Link></li>
+<li><Link to="/feat/staggering_critical">Staggering Critical</Link></li>
+<li><Link to="/feat/staggering_fist">Staggering Fist</Link></li>
+<li><Link to="/feat/stand_still">Stand Still</Link></li>
+<li><Link to="/feat/steady_engagement">Steady Engagement</Link></li>
+<li><Link to="/feat/step_up">Step Up</Link></li>
+<li><Link to="/feat/step_up_and_strike">Step Up and Strike</Link></li>
+<li><Link to="/feat/strike_back">Strike Back</Link></li>
+<li><Link to="/feat/stunning_assault">Stunning Assault</Link></li>
+<li><Link to="/feat/stunning_critical">Stunning Critical</Link></li>
+<li><Link to="/feat/stunning_fist">Stunning Fist</Link></li>
+<li><Link to="/feat/stunning_pin">Stunning Pin</Link></li>
+<li><Link to="/feat/sun_striker">Sun Striker</Link></li>
+<li><Link to="/feat/sundering_strike">Sundering Strike</Link></li>
+<li><Link to="/feat/surprise_follow_through">Surprise Follow-Through</Link></li>
+<li><Link to="/feat/surprise_strike">Surprise Strike</Link></li>
+<li><Link to="/feat/swap_places">Swap Places</Link></li>
+<li><Link to="/feat/swift_aid">Swift Aid</Link></li>
+<li><Link to="/feat/sword_and_pistol">Sword and Pistol</Link></li>
+<li><Link to="/feat/sympathetic_rage">Sympathetic Rage</Link></li>
+<li><Link to="/feat/tail_terror">Tail Terror</Link></li>
+<li><Link to="/feat/taldan_duelist">Taldan Duelist</Link></li>
+<li><Link to="/feat/tandem_evasion">Tandem Evasion</Link></li>
+<li><Link to="/feat/tandem_trip">Tandem Trip</Link></li>
+<li><Link to="/feat/tangle_feet">Tangle Feet</Link></li>
+<li><Link to="/feat/target_of_opportunity">Target of Opportunity</Link></li>
+<li><Link to="/feat/taskmaster">Taskmaster</Link></li>
+<li><Link to="/feat/team_up">Team Up</Link></li>
+<li><Link to="/feat/teleport_tactician">Teleport Tactician</Link></li>
+<li><Link to="/feat/terrorizing_display">Terrorizing Display</Link></li>
+<li><Link to="/feat/thrilling_vengeance">Thrilling Vengeance</Link></li>
+<li><Link to="/feat/throw_anything">Throw Anything</Link></li>
+<li><Link to="/feat/tiger_claws">Tiger Claws</Link></li>
+<li><Link to="/feat/tiger_pounce">Tiger Pounce</Link></li>
+<li><Link to="/feat/tiger_style">Tiger Style</Link></li>
+<li><Link to="/feat/tiring_critical">Tiring Critical</Link></li>
+<li><Link to="/feat/to_the_last">To the Last</Link></li>
+<li><Link to="/feat/toppling_bash">Toppling Bash</Link></li>
+<li><Link to="/feat/torch_bearer">Torch Bearer</Link></li>
+<li><Link to="/feat/touch_of_serenity">Touch of Serenity</Link></li>
+<li><Link to="/feat/trample">Trample</Link></li>
+<li><Link to="/feat/tree_hanger">Tree Hanger</Link></li>
+<li><Link to="/feat/trick_riding">Trick Riding</Link></li>
+<li><Link to="/feat/tripping_staff">Tripping Staff</Link></li>
+<li><Link to="/feat/tripping_strike">Tripping Strike</Link></li>
+<li><Link to="/feat/tripping_twirl">Tripping Twirl</Link></li>
+<li><Link to="/feat/twin_thunders">Twin Thunders</Link></li>
+<li><Link to="/feat/twin_thunders_flurry">Twin Thunders Flurry</Link></li>
+<li><Link to="/feat/twin_thunders_master">Twin Thunders Master</Link></li>
+<li><Link to="/feat/twinned_feint">Twinned Feint</Link></li>
+<li><Link to="/feat/two_handed_thrower">Two-Handed Thrower</Link></li>
+<li><Link to="/feat/two_weapon_defense">Two-Weapon Defense</Link></li>
+<li><Link to="/feat/two_weapon_feint">Two-Weapon Feint</Link></li>
+<li><Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link></li>
+<li><Link to="/feat/two_weapon_rend">Two-Weapon Rend</Link></li>
+<li><Link to="/feat/unblinking_flame_feint">Unblinking Flame Feint</Link></li>
+<li><Link to="/feat/unblinking_flame_fist">Unblinking Flame Fist</Link></li>
+<li><Link to="/feat/uncanny_defense">Uncanny Defense</Link></li>
+<li><Link to="/feat/under_and_over">Under and Over</Link></li>
+<li><Link to="/feat/underfoot">Underfoot</Link></li>
+<li><Link to="/feat/undersized_mount">Undersized Mount</Link></li>
+<li><Link to="/feat/unfolding_wind_rush">Unfolding Wind Rush</Link></li>
+<li><Link to="/feat/unfolding_wind_strike">Unfolding Wind Strike</Link></li>
+<li><Link to="/feat/unseat">Unseat</Link></li>
+<li><Link to="/feat/untwisting_iron_skin">Untwisting Iron Skin</Link></li>
+<li><Link to="/feat/untwisting_iron_strength">Untwisting Iron Strength</Link></li>
+<li><Link to="/feat/vast_hatred">Vast Hatred</Link></li>
+<li><Link to="/feat/vicious_stomp">Vicious Stomp</Link></li>
+<li><Link to="/feat/vital_strike">Vital Strike</Link></li>
+<li><Link to="/feat/wave_strike">Wave Strike</Link></li>
+<li><Link to="/feat/weapon_finesse">Weapon Finesse</Link></li>
+<li><Link to="/feat/weapon_focus">Weapon Focus</Link></li>
+<li><Link to="/feat/weapon_of_the_chosen">Weapon of the Chosen</Link></li>
+<li><Link to="/feat/weapon_specialization">Weapon Specialization</Link></li>
+<li><Link to="/feat/whip_mastery">Whip Mastery</Link></li>
+<li><Link to="/feat/whirlwind_attack">Whirlwind Attack</Link></li>
+<li><Link to="/feat/wind_stance">Wind Stance</Link></li>
+<li><Link to="/feat/winters_strike">Winter's Strike</Link></li>
+<li><Link to="/feat/wounded_paw_gambit">Wounded Paw Gambit</Link></li>
+</ul>
+</div>
+</IonLabel></IonItem></IonList>};
+export default {feats_mythic:_feats_mythic,feats_meditation:_feats_meditation,feats_weapon_mastery:_feats_weapon_mastery,feats_armor_mastery:_feats_armor_mastery,feats_shield_mastery:_feats_shield_mastery,feats_item_mastery:_feats_item_mastery,feats_monster:_feats_monster,feats_teamwork:_feats_teamwork,feats_betrayal:_feats_betrayal,feats_coven:_feats_coven,feats_trick:_feats_trick,feats_stare:_feats_stare,feats_story:_feats_story,feats_style:_feats_style,feats_item_creation:_feats_item_creation,feats_metamagic:_feats_metamagic,feats_grit:_feats_grit,feats_panache:_feats_panache,feats_with_combat_tricks:_feats_with_combat_tricks}

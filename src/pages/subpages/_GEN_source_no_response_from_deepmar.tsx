@@ -1,0 +1,3 @@
+import Link from '../../components/Link';
+const References: React.FC = () => <><h3>Creature Template</h3><ul><li><Link key="/template/cytillesh_zombie" to="/template/cytillesh_zombie">Cytillesh Zombie</Link></li></ul><h3>Monster</h3><ul><li><Link key="/monster/cytillipede" to="/monster/cytillipede">Cytillipede</Link></li></ul><h3>Poison</h3><ul><li><Link key="/eq-poison/cytillesh_extract" to="/eq-poison/cytillesh_extract">Cytillesh extract</Link></li></ul></>;
+export default References;

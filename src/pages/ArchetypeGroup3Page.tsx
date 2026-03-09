@@ -1,8 +1,8 @@
 import getItem from '../components/getItem';
-import inquisitor from './subpages/__arc-inquisitor';
-import paladin from './subpages/__arc-paladin';
-import skald from './subpages/__arc-skald';
-import warpriest from './subpages/__arc-warpriest';
+import inquisitor from './subpages/_GEN_arc-inquisitor';
+import paladin from './subpages/_GEN_arc-paladin';
+import skald from './subpages/_GEN_arc-skald';
+import warpriest from './subpages/_GEN_arc-warpriest';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

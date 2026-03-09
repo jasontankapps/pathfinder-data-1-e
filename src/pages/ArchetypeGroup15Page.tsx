@@ -1,5 +1,5 @@
 import getItem from '../components/getItem';
-import bard from './subpages/__arc-bard';
+import bard from './subpages/_GEN_arc-bard';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

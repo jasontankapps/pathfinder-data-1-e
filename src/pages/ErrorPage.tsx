@@ -1,5 +1,5 @@
 import { useLocation } from "wouter";
-import { prefixMatcher } from '../json/_data__prefixes';
+import { prefixMatcher } from '../json/_GEN_prefixes';
 import BasicPage from './BasicPage';
 import './Page.css';
 

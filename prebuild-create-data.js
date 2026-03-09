@@ -7,7 +7,7 @@ import { createDirectives, presetDirectiveConfigs } from 'marked-directive';
 import basic_data_groups, { basic_data_by_link, templates_by_link } from './prebuild/basic_data_groups.js';
 import checkForEncodedLink, { convertTextToLink } from './prebuild/tests/checkForEncodedLink.js';
 import featTreeData from './json/feat_tree_data.json' with {type: 'json'};
-import featInfo from './prebuild/__featNames.json' with {type: 'json'};
+import featInfo from './prebuild/_GEN_featNames.json' with {type: 'json'};
 import colorJSON from './json/colors.json' with {type: 'json'};
 import getInlineDirectives from './prebuild/inline-directives.js';
 import getBlockDirectives from './prebuild/block-directives.js';
@@ -184,7 +184,7 @@ const get = (filename, logError = false) => {
 $.skipColors || (() => {
 	const {light, dark} = colorJSON;
 	const colors = Object.keys(light).filter(c => c.match(/^[a-z]+$/));
-	const filename = './src/store/generated/__colors.tsx';
+	const filename = './src/store/generated/_GEN_colors.tsx';
 	const output =
 		`export type Color = "${colors.join('" | "')}";\n\n`
 		+`type ColorObject = {[key in Color]: string};\n\n`
@@ -208,7 +208,7 @@ $.skipColors || (() => {
 $.skipColors || (() => {
 	const {light, dark} = colorJSON;
 	const colors = Object.keys(light);
-	const filename = './src/components/__Bookmarks.css';
+	const filename = './src/components/_GEN_Bookmarks.css';
 	const prefix = `ion-icon, ion-item, ion-text, ion-toggle {\n`;
 	const output =
 		`${prefix}\t${colors.map(c => `--${c}: ${light[c]}`).join(";\n\t")};\n}\n\n`
@@ -809,15 +809,15 @@ if(!$.skipFeatTree) {
 		"export default jsx;"
 	].join("\n").trim();
 
-	const testfile = get(`./src/pages/subpages/__feat_tree_page.tsx`).trim();
+	const testfile = get(`./src/pages/subpages/_GEN_feat_tree_page.tsx`).trim();
 
 	if(testfile === featTreePage) {
-		console.log(`UNCHANGED: ./src/pages/subpages/__feat_tree_page.tsx`);
+		console.log(`UNCHANGED: ./src/pages/subpages/_GEN_feat_tree_page.tsx`);
 	} else {
 		// Write that file
-		fs.writeFileSync(`./src/pages/subpages/__feat_tree_page.tsx`, featTreePage);
+		fs.writeFileSync(`./src/pages/subpages/_GEN_feat_tree_page.tsx`, featTreePage);
 		// Announce success
-		console.log(`Saved ./src/pages/subpages/__feat_tree_page.tsx`);
+		console.log(`Saved ./src/pages/subpages/_GEN_feat_tree_page.tsx`);
 		$.savedCount++;
 	}
 	$.parsedCount++;
@@ -863,7 +863,7 @@ const getParsing = () => {
 };
 const [all_usable_groups, number_of_groups] = getParsing();
 
-//   Create all other files, including ___link.tsx files.
+//   Create all other files, including _GEN_link.tsx files.
 Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	const [groupProp, group] = pairing;
 	const {
@@ -1029,7 +1029,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	// Add an export
 	output.push(`export default {${allprops.map(prop => `${prop}:_${prop}`).join(",")}}`);
 
-	const filename = `./src/pages/subpages/__${baselink}.tsx`;
+	const filename = `./src/pages/subpages/_GEN_${baselink}.tsx`;
 	const testfile = get(filename).trim();
 	const theOutput = output.join("\n").trim();
 

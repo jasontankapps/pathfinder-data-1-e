@@ -1,4 +1,4 @@
-import rules from './subpages/__rule8';
+import rules from './subpages/_GEN_rule8';
 import RulesGroupPage from './RulesGroupBasic';
 
 const RulesGroup8Page: React.FC<{id: string}> = ({id}) => <RulesGroupPage id={id} rules={rules} />;

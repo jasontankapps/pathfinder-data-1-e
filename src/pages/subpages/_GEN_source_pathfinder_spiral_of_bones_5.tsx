@@ -1,0 +1,3 @@
+import Link from '../../components/Link';
+const References: React.FC = () => <><h3>Wondrous Item</h3><ul><li><Link key="/magic-wondrous/apollyon_clasp" to="/magic-wondrous/apollyon_clasp">Apollyon Clasp</Link></li><li><Link key="/magic-wondrous/belt_of_trelmarixian" to="/magic-wondrous/belt_of_trelmarixian">Belt of Trelmarixian</Link></li><li><Link key="/magic-wondrous/bridle_of_charon" to="/magic-wondrous/bridle_of_charon">Bridle of Charon</Link></li><li><Link key="/magic-wondrous/szuriels_scabbard" to="/magic-wondrous/szuriels_scabbard">Szuriel's Scabbard</Link></li></ul></>;
+export default References;

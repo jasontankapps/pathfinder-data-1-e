@@ -1,5 +1,5 @@
 import getItem from '../components/getItem';
-import alchemist from './subpages/__arc-alchemist';
+import alchemist from './subpages/_GEN_arc-alchemist';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

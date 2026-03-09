@@ -1,4 +1,4 @@
-import monsters from './subpages/__monster9';
+import monsters from './subpages/_GEN_monster9';
 import MonsterGroupBasic from './MonsterGroupBasic';
 
 const MonsterGroup09Page: React.FC<{id: string}> = ({id}) => <MonsterGroupBasic id={id} info={monsters} />;

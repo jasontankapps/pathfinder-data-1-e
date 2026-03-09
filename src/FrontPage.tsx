@@ -2,7 +2,7 @@ import { IonContent, IonList, IonPage } from '@ionic/react';
 import PageHeader from './components/PageHeader';
 import PageFooter from './components/PageFooter';
 import { AboutInfo } from './AboutOnlyPage';
-import main from './pages/subpages/__main1';
+import main from './pages/subpages/_GEN_main1';
 import './pages/Page.css';
 
 const FrontPage: React.FC = () => {

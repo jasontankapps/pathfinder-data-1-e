@@ -1,8 +1,8 @@
 import { useLocation, useParams } from 'wouter';
 import getItem from '../components/getItem';
-import curses from './subpages/__curse';
-import diseases from './subpages/__disease';
-import infestations from './subpages/__infestation';
+import curses from './subpages/_GEN_curse';
+import diseases from './subpages/_GEN_disease';
+import infestations from './subpages/_GEN_infestation';
 import BasicPage from './BasicPage';
 import { Hierarchy } from '../types';
 import './Page.css';

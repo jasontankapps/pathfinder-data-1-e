@@ -1,0 +1,1971 @@
+import Link from '../../components/Link';
+import ScrollContainer from '../../components/ScrollContainer';
+import InnerLink from '../../components/InnerLink';
+const _influence = {title: "Influence", parent_topics: ["optional_subsystems"], siblings: ["affiliations","bargaining","contacts","downtime","factions","hero_points","honor","influence","investment","primal_magic","provision_points","relationships","reputation_and_fame","research","spell_alterations","stamina_and_combat_tricks","the_hunger"], subtopics: ["individual_influence","using_the_individual_influence_system","organizational_influence"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 102</Link></p>
+<p>Jockeying for position and favor is natural part of human social dynamics, as common in the armies of high-minded crusaders as in the courts of wicked nobles. The resulting web of allegiances lies at the heart of any intrigue-focused campaign, with individuals scheming to gain allies while undermining their enemies' support. To represent these machinations, this section introduces two influence systems: one for individual influence and one for organizational influence. The first system provides a dynamic framework for social encounters in which the PCs gain or lose the favor of key NPCs, as well as a mechanic for calling in debts. The second system models the way the PCs' actions affect their clout within allied organizations, and how far organizations at cross-purposes with the PCs will go to undermine them.</p>
+</>};
+const _individual_influence = {title: "Individual Influence", parent_topics: ["optional_subsystems","influence"], siblings: ["individual_influence","using_the_individual_influence_system","organizational_influence"], subtopics: ["discovery_check","influence_check","before_a_social_event","active_opponents","influence_and_magic","secret_identities_and_hidden_allegiences","divided_parties","benefits_of_influence","countering_influence","neglect","social_stat_block"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 102</Link></p>
+<p>The most common model for social encounters involves a single exchange involving a Bluff, Diplomacy, or Intimidate check. The following influence system serves as a more robust replacement for that basic system. It also encourages the entire party to participate in a social encounter, and can be used in encounters with multiple NPCs. In the individual influence system, participants try to change the targets' opinions or court favor by succeeding at a variety of checks unique to each individual target. Known as influence checks, these are usually skill checks, though other types of checks may suffice, as an NPC may be especially impressed by other qualities, such as drinking ability or martial prowess.</p>
+<p>In this system, a social encounter is divided into one or more phases. The length of a phase is flexible, and typically lasts 15 minutes to 1 hour-long enough for each PC to perform several minutes' worth of actions per phase that are unrelated to influence checks (such as investigating a murder scene or surreptitiously defeating an assassin) without forgoing their chances to participate in the social encounter. GMs should determine beforehand how many phases a social encounter will last, thus determining how many chances the PCs will have to influence or learn about their targets - generally two to six. The GM should also determine whether the PCs' actions can win them additional phases. For example, seducing a baroness or forestalling her carriage may both earn the PCs an extra phase in which to win her favor.</p>
+<p>At the beginning of a phase, each PC selects an NPC. During each phase, a PC can either try to directly influence the NPC via an influence check, or attempt to learn more about that NPC with a discovery check - a check to learn about an NPC that can help with future influence checks during the same social encounter. The kinds of checks required for an influence check or a discovery check, known as influence skills, are unique to each individual. The PCs can learn an NPC's influence skills through successful discovery checks (see <Link to="/rule/discovery_check">Discovery Checks</Link>); otherwise, they must guess.</p>
+<h3 id="rule-individual_influence-discovery-and-influence-check-dcs">Discovery and Influence Check DCs</h3>
+<p>The appropriate DC for an influence check depends upon several factors. The table of standard influence DCs listed below provides a baseline for DCs for each average party level (APL). These DCs should be relatively easy for the PCs as a group (particularly those with access to aid another and the benefits from discovery), and they are generally appropriate for the skill that is most effective at influencing an NPC. To generate a typical influence check DC, add 5 to the base DC; add 10 to generate a difficult influence check DC. The DCs for skills in which many PCs have extremely high bonuses, such as Diplomacy and Perception, should be increased further to compensate. An NPC who is hard to influence might use the typical and difficult DCs for her influence skills, or possibly even higher DCs.</p>
+<p>If a major event takes place during the social encounter, consider whether any of the NPCs' influence DCs should change in response to the event. For example, if someone breaks into a sealed vault containing priceless treasures during the social encounter, law-abiding NPCs who suspect the PCs committed that crime become harder to influence.</p>
+<ScrollContainer id="rule-individual_influence--table-0"><table>
+<thead>
+<tr>
+<th>APL</th>
+<th>Base DC</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>11</td>
+</tr>
+<tr>
+<td>2</td>
+<td>13</td>
+</tr>
+<tr>
+<td>3</td>
+<td>14</td>
+</tr>
+<tr>
+<td>4</td>
+<td>15</td>
+</tr>
+<tr>
+<td>5</td>
+<td>16</td>
+</tr>
+<tr>
+<td>6</td>
+<td>18</td>
+</tr>
+<tr>
+<td>7</td>
+<td>19</td>
+</tr>
+<tr>
+<td>8</td>
+<td>20</td>
+</tr>
+<tr>
+<td>9</td>
+<td>22</td>
+</tr>
+<tr>
+<td>10</td>
+<td>24</td>
+</tr>
+<tr>
+<td>11</td>
+<td>26</td>
+</tr>
+<tr>
+<td>12</td>
+<td>27</td>
+</tr>
+<tr>
+<td>13</td>
+<td>28</td>
+</tr>
+<tr>
+<td>14</td>
+<td>30</td>
+</tr>
+<tr>
+<td>15</td>
+<td>31</td>
+</tr>
+<tr>
+<td>16</td>
+<td>33</td>
+</tr>
+<tr>
+<td>17</td>
+<td>34</td>
+</tr>
+<tr>
+<td>18</td>
+<td>36</td>
+</tr>
+<tr>
+<td>19</td>
+<td>38</td>
+</tr>
+<tr>
+<td>20</td>
+<td>40</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _discovery_check = {title: "Discovery Check", parent_topics: ["optional_subsystems","influence","individual_influence"], siblings: ["discovery_check","influence_check","before_a_social_event","active_opponents","influence_and_magic","secret_identities_and_hidden_allegiences","divided_parties","benefits_of_influence","countering_influence","neglect","social_stat_block"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 102</Link></p>
+<p>Each PC who attempts a discovery check rolls separately, even if multiple PCs attempt to discover information about the same NPC during the same phase. This represents the PCs forming their own separate opinions and analyses.</p>
+<p>At the beginning of the social encounter, each PC can attempt a relevant Knowledge check to recognize particularly prominent NPCs (see Discover and Influence Check DCs under <Link to="/rule/individual_influence">Individual Influence</Link>). If any PC succeeds at this check for an NPC, then all PCs gain a +4 bonus on their discovery checks involving that NPC. Before attempting a discovery check, a PC chooses whether to try to learn the NPC's strengths, the NPC's weaknesses, or the skills that can be used to influence him. Each type of discovery check has its own requisite skill and DC. Sense Motive often works as a discovery skill, but it may not be the best choice because it's so general. When a PC chooses to attempt a discovery check, the GM should tell the player the possible types of skill checks for each kind of discovery check (though not the DCs), and let her pick which to attempt. If a discovery check relies on a Knowledge skill, it requires observation in the current moment, not static knowledge.</p>
+<p>A PC who succeeds at a discovery check learns one of the skills that can influence the NPC (starting with the skill with the lowest DC), one of his strengths, or one of his weaknesses. For every 5 by which the PC exceeds the DC, she learns an additional influence skill, strength, or weakness. Thus, a withdrawn but observant character can provide allies with a significant bonus (or help them avoid significant penalties) on future influence checks, making her as important to the group's success as PCs who prefer the spotlight.</p>
+</>};
+const _influence_check = {title: "Influence Check", parent_topics: ["optional_subsystems","influence","individual_influence"], siblings: ["discovery_check","influence_check","before_a_social_event","active_opponents","influence_and_magic","secret_identities_and_hidden_allegiences","divided_parties","benefits_of_influence","countering_influence","neglect","social_stat_block"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 102</Link></p>
+<p>Without a successful discovery check, a PC attempting an influence check must guess what an NPC's influence skills are. A PC generally gains no benefit or hindrance when using a skill that cannot influence the NPC, though the GM may rule that multiple fumblings annoy the target and impose penalties on future rolls. Guidelines for setting influence check DCs appear under Discover and Influence Check DCs under <Link to="/rule/individual_influence">Individual Influence</Link>.</p>
+<p>The PCs usually must succeed at more than one influence check to sway an NPC. No matter how many PCs speak to the same NPC, only one check to influence that NPC can be attempted during that phase. Additional checks serve as aid another attempts tied to the principal check. Succeeding at an influence check by a substantial margin provides additional benefits. Succeeding at an influence check by 5 or more counts as succeeding at an influence check and a discovery check (the PC chooses whether to learn one of the skills that influences the NPC, one of the NPC's strengths, or one of the NPC's weaknesses after the check is rolled instead of before the check, but the check otherwise functions as a successful discovery check). Succeeding at an influence check by 10 or more allows the PC to choose between gaining the benefit of succeeding at two influence checks or the benefits of an influence check and a discovery check (as if she had succeeded by only 5 or more).</p>
+<p>Failing an influence check by a substantial margin makes it harder to influence the target in the future. If a PC fails an influence check by 5 or more, she cannot attempt to influence that NPC using the same skill for the remainder of that social encounter. A PC who fails an influence check by 10 or more cannot influence that NPC for the rest of the social encounter at all. For example, if the NPC's influence skills are Diplomacy and Knowledge (arcana), a PC who fails a Diplomacy check against that NPC by 5 or more can still attempt to influence the NPC with Knowledge (arcana). These restrictions also apply to aiding another - a PC who fails by 10 or more irritates the NPC to the point that the party can no longer take advantage of her assistance.</p>
+<p>A PC doesn't necessarily realize whether or not she has succeeded at an influence check unless she succeeds by at least 5, but a character always knows when she has achieved the maximum possible influence over an NPC. Some NPCs might act as if they were being influenced even if they have no intention of listening to the PCs.</p>
+<p>The GM may wish to limit the number of PCs who can interact with a single NPC during a phase. After all, the NPC can hold a conversation with only so many people at once, and if six characters cluster around, the interaction may seem more ominous than intended. Limiting the number of PCs who can simultaneously interact with an NPC to two or three (with the other PCs attempting discovery checks or focusing on other NPCs), helps the encounter flow briskly and prevents a single PC from taking too much of the spotlight.</p>
+<p>Once the PCs succeed at a certain number of influence checks, they gain sway over that NPC, changing his opinion on an issue, earning a favor, or otherwise gaining some benefit or removing an obstacle.</p>
+</>};
+const _before_a_social_event = {title: "Before a Social Event", parent_topics: ["optional_subsystems","influence","individual_influence"], siblings: ["discovery_check","influence_check","before_a_social_event","active_opponents","influence_and_magic","secret_identities_and_hidden_allegiences","divided_parties","benefits_of_influence","countering_influence","neglect","social_stat_block"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 103</Link></p>
+<p>If the PCs know which NPCs they need to influence in advance, they can seek out information to assist them in doing so ahead of time, potentially gaining information from the social stat block before the encounter. To represent the results of such preparations, each PC can attempt one Knowledge-based discovery check in advance with a - 5 penalty. The GM can allow other discovery skills to work, but Sense Motive should never work in advance unless the PC is actively stalking the NPC, which might require additional Disguise or Stealth checks and could lead to negative consequences. If the PCs attempt a discovery check against a particularly prominent NPC in advance, the PCs can attempt the Knowledge check to receive a +4 on the discovery check in advance, as well (see <Link to="/rule/discovery_check">Discovery Checks</Link>).</p>
+</>};
+const _active_opponents = {title: "Active Opponents", parent_topics: ["optional_subsystems","influence","individual_influence"], siblings: ["discovery_check","influence_check","before_a_social_event","active_opponents","influence_and_magic","secret_identities_and_hidden_allegiences","divided_parties","benefits_of_influence","countering_influence","neglect","social_stat_block"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 103</Link></p>
+<p>The PCs may not be the only ones seeking to influence prominent NPCs. An opposing party of NPCs at the same event can place additional pressure on the PCs to complete their task. Once either the PCs or the opposing party gain sway over an NPC (see <Link to="/rule/benefits_of_influence">Benefits of Influence</Link>), the other group can't attempt further influence checks during that event. If the two groups are actively opposed, one group's successful check causes the other group to take a cumulative -2 penalty on subsequent influence checks against that NPC, which can change the strategies the PCs might use. For instance, if the PCs notice the other group talking with a particular NPC, they have to decide whether to try to influence that NPC (thus foiling their rivals) or to yield that NPC to the other group and focus on influencing other NPCs.</p>
+</>};
+const _influence_and_magic = {title: "Influence and Magic", parent_topics: ["optional_subsystems","influence","individual_influence"], siblings: ["discovery_check","influence_check","before_a_social_event","active_opponents","influence_and_magic","secret_identities_and_hidden_allegiences","divided_parties","benefits_of_influence","countering_influence","neglect","social_stat_block"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 103</Link></p>
+<p>PCs can also use magic to assist in gaining influence over key NPCs. In most cases, casting mind-affecting or other intrusive spells is socially unacceptable or even criminal, so PCs who wish to use such magic should use discretion. Whenever a PC (or NPC) casts a spell, NPCs with the Spellcraft skill attempt to identify that spell. Even NPCs unfamiliar with magic are likely to assume that spells are intended for mischief, unnatural control, or other selfish ends. The most common schools of magic used in social situations are divination, enchantment, and illusion.</p>
+<p>Divination spells can assist the PCs in similar ways to a discovery check. Spells such as <Link to="/spell/detect_magic">detect magic</Link> and <Link to="/spell/identify">identify</Link> reveal active spells and magic items. Spells and items far beyond the reasonable means of an NPC may indicate that NPC is hiding something, or is more than she seems. Alignment-detecting spells reveal whether someone has an unusually strong or unexpected aura. Other divination spells, such as <Link to="/spell/detect_thoughts">detect thoughts</Link>, pry directly into a target's mind, and can provide valuable clues at the GM's discretion, most commonly replicating a successful discovery check.</p>
+<p>Enchantment spells and effects are extremely effective tools for increasing influence, but their use is dangerous. When cast during a social encounter, spells such as <Link to="/spell/charm_person">charm person</Link> grant a +5 circumstance bonus on influence checks in place of their normal spell effects, as long as the target fails the saving throw and remains unaware that she is under an enchantment effect. More powerful enchantments such as <Link to="/spell/suggestion">suggestion</Link> are unhelpful for gaining influence, since they compel limited actions for a time and then stop. Spells such as <Link to="/spell/geas_quest">geas/quest</Link> or <Link to="/spell/dominate_person">dominate person</Link> might obviate the need to sway an NPC, but the magical influence is obvious to many people interacting with the NPC. People typically react poorly to realizing that enchantment magic has been used on them. The consequences of getting caught range from the offending PC being unable to attempt further influence checks against that NPC at that social event, to the whole party being unable to attempt further influence checks against that NPC during that event, up to the party being kicked out of the event entirely or charged with a crime.</p>
+<p>From innocuous glamers - such as magic that sustains illusory finery - to spells disguising an individual as a different person, illusion spells are versatile tools of deception. Many illusions that allow a saving throw require the viewers to study the illusion carefully or interact with it before they attempt a saving throw. In the context of the influence system, the first time a PC interacts with an NPC during a phase, the PC and the NPC each receive a saving throw against the other's relevant illusions, as they are assumed to be studying each other carefully at some point during the first exchange. After that, participants generally become more complacent in the way they examine each other, so they receive saving throws against only illusions dealing with particularly specific aspects of their interaction. For example, a glamer to make a dress look nicer would grant a saving throw during the first phase of interaction, but it usually wouldn't recur in later phases unless the topic of the dress came up in conversation.</p>
+</>};
+const _secret_identities_and_hidden_allegiences = {title: "Secret Identities and Hidden Allegiences", parent_topics: ["optional_subsystems","influence","individual_influence"], siblings: ["discovery_check","influence_check","before_a_social_event","active_opponents","influence_and_magic","secret_identities_and_hidden_allegiences","divided_parties","benefits_of_influence","countering_influence","neglect","social_stat_block"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 104</Link></p>
+<p>When an NPC is being deceptive, it is possible that the PCs never discover the NPC's true allegiance - even in the case of a recurring villain, as such an NPC's exceptional skills may render his deceptions undetectable until later in the campaign. While Perception and Sense Motive checks are often used to oppose Disguise and Bluff checks, sometimes another skill might be more useful in discerning an impostor. For example, someone pretending to be a noble of a certain house could accidentally reveal his deception through his ignorance of facts that the noble should know.</p>
+<p>The PCs themselves may also be interested in using secrecy and trickery. A PC may even be present at a large social event under more than one identity at the same time. All participants each typically attempt a Sense Motive and Perception check upon first encountering a deception and can attempt another check only if new lies or disguises are introduced during the event. However, each time a PC makes a claim or takes an action that seems implausible for the person she claims to be, nearby opponents can attempt another opposed check.</p>
+</>};
+const _divided_parties = {title: "Divided Parties", parent_topics: ["optional_subsystems","influence","individual_influence"], siblings: ["discovery_check","influence_check","before_a_social_event","active_opponents","influence_and_magic","secret_identities_and_hidden_allegiences","divided_parties","benefits_of_influence","countering_influence","neglect","social_stat_block"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 104</Link></p>
+<p>In general, this influence system assumes that the PCs share roughly the same goals, and that the party shares the total number of successful influence checks. Games developed around intrigue can produce unusual situations, though, and it is possible that the PCs may be split into groups working at cross-purposes, or, more likely, toward unrelated goals, where each purpose is separate but not in direct conflict. For example, Valeros and Seelah may want to influence the NPCs in the king's court to support a war against the necromancer queen of a neighboring land, while Kyra and Ezren want to influence those same NPCs to gain support for Kyra to marry the princess. In such cases, each groups' number of successful influence checks should be tracked separately; if their goals are unrelated rather than conflicting, one group's influence over an NPC doesn't take that NPC out of play for the others, as it would for an opposing group.</p>
+</>};
+const _benefits_of_influence = {title: "Benefits of Influence", parent_topics: ["optional_subsystems","influence","individual_influence"], siblings: ["discovery_check","influence_check","before_a_social_event","active_opponents","influence_and_magic","secret_identities_and_hidden_allegiences","divided_parties","benefits_of_influence","countering_influence","neglect","social_stat_block"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 105</Link></p>
+<p>In a single encounter, the goal is often to convince an NPC to perform a specific favor. In longer-term social engagements, the PCs may need to build toward larger goals. Each time the PCs sway an NPC using the influence rules (gaining the number of successes listed in the NPC's social stat block), they increase their influence level over that NPC by one step. For instance, if the PCs are unknown to an NPC who requires 3 successes to influence, after 3 successes, the PCs succeed in winning some of their target's trust and thus increase their influence level from no sway to minor sway. An NPC the PCs have not yet influenced typically treats them as strangers.</p>
+<p><strong className="hl">No Sway:</strong> The NPC treats the PCs as any group of strangers.</p>
+<p><strong className="hl">Minor Sway:</strong> The NPC might perform small favors for the PCs that do not involve a significant expenditure of resources. The NPC speaks favorably about the PCs to others. The NPC does not interfere in the PCs' plans unless they conflict with her goals.</p>
+<p><strong className="hl">Moderate Sway:</strong> The NPC might perform favors for the PCs that require some of her own resources or are time-consuming, as long as they do not threaten the NPC's overall interests. The NPC actively seeks to convince people to work with the PCs. If the NPC's plans conflict with the PCs' goals, the NPC tries to work with the PCs to find a mutually acceptable resolution to the conflict.</p>
+<p><strong className="hl">Major Sway:</strong> The NPC assists the PCs with tasks that pose a significant risk to her position or status, and depending upon the circumstances, may risk her safety for them. The NPC advocates for the PCs, even when doing so is unpopular, and she undermines the PCs' enemies. The NPC concedes a personal goal in order to allow the PCs to move forward with one of their plans, as long as they provide a suitable alternative.</p>
+<p>Not all favors are reasonable, no matter how much sway the PCs gain over an NPC. For example, asking a cleric to betray her deity typically falls outside of the bounds of influence. Similarly, reaching the higher levels of influence should become increasingly difficult; the check DCs and the number of successes required increases by 2 for each progressive level of influence. Just as some NPCs are impossible to influence in a certain encounter, some NPCs will never become particularly friendly with the PCs, who cannot exercise more than moderate or even minor sway over them.</p>
+<p>GMs also can use the influence system instead of Diplomacy to modify NPC attitudes. In this case, rather than using influence levels, each time the PCs successfully sway an NPC, the NPC's attitude toward the PCs improves by one step. Most NPCs start at indifferent or unfriendly. An NPC whose attitude is not at least indifferent will always refuse requests for aid.</p>
+</>};
+const _countering_influence = {title: "Countering Influence", parent_topics: ["optional_subsystems","influence","individual_influence"], siblings: ["discovery_check","influence_check","before_a_social_event","active_opponents","influence_and_magic","secret_identities_and_hidden_allegiences","divided_parties","benefits_of_influence","countering_influence","neglect","social_stat_block"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 106</Link></p>
+<p>A character can attempt an influence check with the goal of lowering an enemy's influence level over an NPC rather than raising her own. The DC for this kind of influence check is based on the enemy's influence level with the NPC in question. The sabotaging character gains a +2 bonus on these checks if she has minor sway over that NPC, a +4 bonus if she has moderate sway, or a +6 bonus if she has major sway. Sabotaging an NPC's influence level requires as many successes as the enemy would need to increase his influence level with that NPC. A sabotaging character who knows of an NPC's strengths can use that knowledge to ascribe unfavorable characteristics to the enemy she hopes to sabotage. If these disparaging descriptions are true (or if the NPC believes them to be true), the saboteur gains a +2 bonus per strength on influence checks to counter the enemy's influence.</p>
+<p>This mechanic is appropriate when the saboteur and the enemy she is trying to sabotage are on roughly equal footing, or when the saboteur has a higher level of influence. A saboteur wishing to erode the influence of a far more trusted individual, such as a group seeking to convince a queen that her closest advisor is betraying her, either cannot attempt to lower the trusted individual's influence level without first gathering substantial evidence against the advisor, or might not be able to lower the advisor's influence level at all in some circumstances.</p>
+<p>For example, suppose Merisiel has achieved moderate sway over the mayor, and Ezren has achieved minor sway over the mayor. The DC for Ezren to influence the mayor with Diplomacy is 23, with two successful checks required, and the DC for Merisiel to influence the mayor with Diplomacy is 27, with three successful checks required (since it is harder for her to move from holding moderate sway to major sway). If Merisiel wanted to lower Ezren's influence over the mayor from minor sway to no sway, she would need to succeed at two DC 23 Diplomacy checks, with a +4 bonus from her moderate sway, to make a persuasive case that Ezren should not be trusted. Since the mayor is deeply religious, Merisiel reminds the mayor of Ezren's detachment from religion to gain another +2 bonus. On the other hand, if Ezren wanted to lower Merisiel's influence level with the mayor, he would need to succeed at three DC 27 Diplomacy checks, with a +2 bonus from his minor sway.</p>
+</>};
+const _neglect = {title: "Neglect", parent_topics: ["optional_subsystems","influence","individual_influence"], siblings: ["discovery_check","influence_check","before_a_social_event","active_opponents","influence_and_magic","secret_identities_and_hidden_allegiences","divided_parties","benefits_of_influence","countering_influence","neglect","social_stat_block"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 106</Link></p>
+<p>Over time, a PC's influence over an NPC is likely to wane if the PC doesn't keep in contact with her (and continue making influence checks every once in a while), depending on the influence's nature. Generally, the higher the influence level, the more effort the PC must commit and thus the faster the influence degrades with neglect. However, if the PCs achieve major sway over an NPC because she becomes deeply indebted to them, at the GM's discretion their influence level may not degrade until the NPC feels she has repaid that debt, making it a matter of favors rather than time.</p>
+</>};
+const _social_stat_block = {title: "Social Stat Block", parent_topics: ["optional_subsystems","influence","individual_influence"], siblings: ["discovery_check","influence_check","before_a_social_event","active_opponents","influence_and_magic","secret_identities_and_hidden_allegiences","divided_parties","benefits_of_influence","countering_influence","neglect","social_stat_block"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 107</Link></p>
+<p>For social encounters, GMs should build social stat blocks for important NPCs. Social stat blocks are very flexible, and can include any information relevant to the encounter, though most include the information below. Examples are listed <Link to="/rule/dramatis_personae">here</Link>.</p>
+<p><strong className="hl">Name:</strong> The NPCs' name, alignment, and established class.</p>
+<p><strong className="hl">Affiliation:</strong> This notes the NPC's loyalties.</p>
+<p><strong className="hl">Secret Identity:</strong> Some NPCs have secret identities. There may not be any skill checks that would allow the PCs to detect such a secret identity (in which case no checks are listed), but if the NPC is disguised or the PCs have met this NPC before under another name, the skill check necessary to uncover the truth is listed here.</p>
+<p><strong className="hl">Background:</strong> This is a brief description of this NPC's history and how she is relevant to the PCs.</p>
+<p><strong className="hl">Recognize:</strong> This is the check required to recognize the NPC by reputation or fame.</p>
+<p><strong className="hl">Appearance:</strong> This is a description of the NPC, including any characteristic features.</p>
+<p><strong className="hl">Introduction:</strong> This section describes how the NPC introduces herself to the PCs (or perhaps, how a herald or mutual acquaintance introduces them). The introduction should generally include hints about which skills are used for influence checks against this NPC, and may include an in-character quote, if that is helpful.</p>
+<p><strong className="hl">Personality:</strong> This is a short description of the NPC's personality and demeanor or a list of adjectives that describe the NPC's behavior. The more NPCs are present in a social encounter, the more important it is to make them distinctive so that the players can keep them straight.</p>
+<p><strong className="hl">Goals:</strong> This is a list of the NPC's public goals.</p>
+<p><strong className="hl">Hidden Agenda:</strong> If your game utilizes intrigue, it's unlikely that all NPCs are entirely up front about their goals. Any particularly secret objectives are found in this section, rather than in the goals entry.</p>
+<p><strong className="hl">Biases:</strong> Some NPCs have biases - subtle attitudes that influence an encounter. For example, an NPC may think favorably of half-orcs and be suspicious of elves. If the NPC's biases affect a PC, apply a +2 or -2 circumstance modifier on that PC's influence checks, depending on whether the bias is in the PC's favor or not. If an NPC is strongly biased for or against a PC, the modifier may be even greater, but such strong biases are readily apparent. PCs can detect a bias with a successful DC 20 Sense Motive check.</p>
+<p><strong className="hl">Skills and Saves:</strong> Only a few of the NPC's skills are likely to be relevant. Sense Motive and Perception are almost always necessary. If the NPC is hiding something major from the PCs, Bluff and Disguise are also important. This section should also include Spellcraft and likely saving throw modifiers if the spellcasting might occur during the event; Will saving throws are the most common for intrigue-related spells such as <Link to="/spell/charm_person">charm person</Link> or <Link to="/spell/detect_thoughts">detect thoughts</Link>.</p>
+<p><strong className="hl">Analyze:</strong> A PC who succeeds at the listed check learns details about what skills or checks can influence the NPC. Each sentence should contain the information a single successful discovery check reveals.</p>
+<p><strong className="hl">Strengths:</strong> An NPC may be particularly resistant to certain tactics; such tactics are referred to as that NPC's strengths. For example, a person with little patience for flattery may think less favorably of someone who showers her with compliments. The skills and DCs required to discover these strengths are listed here. A PC who incorporates an NPC's strength into an influence check takes a -4 penalty on the check. Knowledge of an NPC's strengths can be a powerful tool for sabotaging someone else's attempt to gain influence over her - see the <Link to="/rule/countering_influence">Countering Influence</Link> section for more information.</p>
+<p><strong className="hl">Weaknesses:</strong> Most NPCs have at least one weakness. A weakness could be a deep-seated secret or insecurity, or a hobby that the NPC can talk about for days on end. The skills and DCs needed to discover these weaknesses are listed here. For each weakness a PC incorporates into her influence check, she gains a cumulative +2 bonus.</p>
+<p><strong className="hl">Influence Skills:</strong> The skills and DCs for each influence check are listed here. If a skill isn't listed, it normally doesn't work at all, but if a player presents a strong narrative reason why a skill should work, his GM can add it to the list. Diplomacy and Bluff are usually on the list of possible skills. If Diplomacy isn't on the list of skills, there should be a reason in the NPC's personality. For example, an NPC who intensely dislikes small talk and only wishes to converse only about arcane theory may not respond to Diplomacy. However, Diplomacy is rarely the best skill with which to influence someone; the DC of Diplomacy checks to influence an NPC is typically higher than the DC when using skills tailored to the NPC's personality or interests. GMs should keep the PCs' skills in mind when designing a social encounter so each PC has a way to contribute. Not every NPC can necessarily be influenced, in which case discovery checks reveal that the NPC is a lost cause.</p>
+<p><strong className="hl">Successes Needed:</strong> This lists the number of successful skill checks the PCs need to sway an NPC's opinion.</p>
+<p><strong className="hl">Favor:</strong> The NPC might ask a favor of those he trusts. If so, a short description of the favor and what the PCs must do to accomplish it is listed here, as well as the benefit the PCs gain from successfully performing the favor.</p>
+<p><strong className="hl">Events:</strong> This is the place to describe external events that affect the PCs' ability to influence this NPC, anything from the NPC leaving an event early to the NPC becoming suspicious of the PCs after someone robs her manor.</p>
+<p><strong className="hl">Benefit:</strong> This section details what the PCs gain if they sway this NPC.</p>
+<p><strong className="hl">Penalty:</strong> This section details what the PCs lose if they antagonize this NPC (if antagonizing her is possible).</p>
+</>};
+const _using_the_individual_influence_system = {title: "Using the Individual Influence System", parent_topics: ["optional_subsystems","influence"], siblings: ["individual_influence","using_the_individual_influence_system","organizational_influence"], subtopics: ["setting_the_scene","what_happened","the_value_of_influence","dramatis_personae"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 108</Link></p>
+<p>Individual influence is great for situations such as high-stakes auctions, political lobbying, or convincing a guard to let the PCs go after they are framed and imprisoned. The following example uses the influence rules as the framework for a classic murder mystery.</p>
+</>};
+const _setting_the_scene = {title: "Setting the Scene", parent_topics: ["optional_subsystems","influence","using_the_individual_influence_system"], siblings: ["setting_the_scene","what_happened","the_value_of_influence","dramatis_personae"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 108</Link></p>
+<p>The PCs have been invited to a day of festivities at the estate of the hostess to discuss trade agreements and access to exotic markets. The hostess meets the PCs when they arrive late at night, sharing a drink with them before asking a servant to show them to their rooms in the nearby guest house (allow a single phase of influence or discovery checks against her during this time for the ostensible purpose of trade agreements). However, by the start of festivities the next morning, disaster strikes. A few minutes after the PCs and other guests begin arriving for breakfast, greeted by the hostess's second husband, the butler discovers the hostess's body. A brief argument ensues, with all the NPCs (and possibly the PCs as well) bickering about who should investigate and who might just be trying to hide evidence of the crime. Eventually, the NPCs agree that guards should accompany every person who leaves the drawing room, and the opportunity for influence begins. The PCs have a total of four phases in which to influence the NPCs and conduct their own investigations (under the guards' watchful eyes).</p>
+</>};
+const _what_happened = {title: "What Happened", parent_topics: ["optional_subsystems","influence","using_the_individual_influence_system"], siblings: ["setting_the_scene","what_happened","the_value_of_influence","dramatis_personae"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 108</Link></p>
+<p>The hostess's close friend is in serious financial trouble, which she has hidden, continuing to present a veneer of wealth. To fund her continued lifestyle, she began to steal from the hostess. When the hostess caught her in the act, the close friend lashed out with a nearby object and accidentally killed the hostess. Horrified at what she had done and afraid of being caught, the close friend cleaned up the blood, then activated a scroll of dress corpse from the hostess's first husband's supply of scrolls, applied poison stolen from the butler's supplies, and moved the body to the bedroom, all while avoiding the night guards through her careful study of their patterns used to assist her previous larceny.</p>
+</>};
+const _the_value_of_influence = {title: "The Value of Influence", parent_topics: ["optional_subsystems","influence","using_the_individual_influence_system"], siblings: ["setting_the_scene","what_happened","the_value_of_influence","dramatis_personae"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 108</Link></p>
+<p>Influenced NPCs allow the PCs access to additional clues or restricted areas, as mentioned in their social stat blocks.</p>
+</>};
+const _dramatis_personae = {title: "Dramatis Personae", parent_topics: ["optional_subsystems","influence","using_the_individual_influence_system"], siblings: ["setting_the_scene","what_happened","the_value_of_influence","dramatis_personae"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 108</Link></p>
+<p>The following characters are available for influence during the murder mystery (the hostess is not available, as she is dead): the spy, the butler, the close friend, the rival investigator, and the second husband. The spy is the most complicated (since she has a secret identity), and her social stat block can be found below. The others have descriptions to assist in building their social stat blocks.</p>
+<h3 id="rule-dramatis_personae-the-spy">The Spy</h3>
+<p>CN female human rogue</p>
+<p><strong className="hl">Affiliation</strong> The spy is ostensibly a minor member of a little-known noble house.</p>
+<p><strong className="hl">Secret Identity</strong> The spy is really an agent for a morally dubious merchant consortium.</p>
+<p><strong className="hl">Background</strong> The spy claims to be a representative of a fictitious noble house that she invented to gain access to the hostess's estate and gather information for her patron. Although she was spying on the hostess's house, she views her actions as strictly professional. She bore no ill will toward the lady of the house, and is horrified by her death.</p>
+<p><strong className="hl">Recognize</strong> Knowledge (nobility) DC 20 to recognize her noble cover identity (as she has been seeding stories about her cover identity and the family she invented).</p>
+<h3 id="rule-dramatis_personae-description">Description</h3>
+<p><strong className="hl">Appearance</strong> This middle-aged human woman wears a rich green noble's gown, a set of valuable but tasteful emerald-and-gold jewelry, and a pair of gold-filigreed shoes. She carries a silk fan that matches her gown.</p>
+<p><strong className="hl">Introduction</strong> If at least one of the PCs appears to be a noble, she introduces herself to that PC the morning after the murder. She is visibly distraught at the hostess's death, and waves her fan briskly in an attempt to get more air. She (truthfully) explains to the PCs that she has been to several of the hostess's parties, and was looking forward to furthering the alliance between their houses. If none of the PCs appears to be a noble, she remains aloof until a PC approaches her.</p>
+<p><strong className="hl">Personality</strong> The spy is cunning, haughty, and secretive.</p>
+<p><strong className="hl">Goal</strong> Ensure that the murderer is found guilty.</p>
+<p><strong className="hl">Hidden Agenda</strong> Ensure that her own snooping in the house's records does not come to light, and if it does, that she does not take the fall for the murder.</p>
+<p><strong className="hl">Biases</strong> The spy has a bias toward merchants and nobles (+2) and a bias against agents of law, such as paladins, lawyers, and guards (-2).</p>
+<p><strong className="hl">Skills</strong> Bluff +16, Disguise +16, Perception +15, Sense Motive +15, Sleight of Hand +12</p>
+<h3 id="rule-dramatis_personae-discovery">Discovery</h3>
+<p><strong className="hl">Analyze</strong> (Sense Motive DC 20) The fastest way to gain the spy's respect is to demonstrate skill at trade (Profession [merchant]). PCs who succeed at a Knowledge (nobility) or Bluff check to impress her with their civility can influence her. She is impressed by dexterous parlor tricks and skilled legerdemain involving Sleight of Hand. Finally, the spy is well versed in persuasive arguments and sweet-talking, so Diplomacy is the most difficult way to influence her.</p>
+<p><strong className="hl">Strengths</strong> (Sense Motive DC 20) The spy does not appreciate being intimidated or threatened, and her training as a spy has prepared her to deflect these approaches. A PC who includes a threat in an influence check against her takes a -4 penalty on the check.</p>
+<p><strong className="hl">Weaknesses</strong> (Sense Motive DC 20) The spy appreciates those who are not sticklers for the rules and who understand that business flourishes in gray areas. She also appreciates those who truthfully (or with a believable lie) claim that they don't suspect her of the murder.</p>
+<h3 id="rule-dramatis_personae-influence">Influence</h3>
+<p><strong className="hl">Influence Checks</strong> Profession (merchant) DC 15; Bluff, Knowledge (nobility), or Sleight of Hand DC 20; Diplomacy DC 25</p>
+<p><strong className="hl">Successes Needed</strong> 3 checks</p>
+<p><strong className="hl">Benefit</strong> If the PCs influence the spy, she tells the PCs she heard a crashing sound from the direction of the drawing room on the night of the murder. She says she was having trouble sleeping that night, and was awake in her room. If the PCs present proof that she is lying about her whereabouts, she admits that she was in the records room - though she does not admit to her allegiance or what she was searching for in particular - and offers to aid the PCs in their investigation in exchange for their agreement not to disclose her activities that night.</p>
+<p><strong className="hl">Penalty</strong> If the spy learns that the PCs have discovered her snooping and that they are telling other NPCs, she plants a clue that implicates the PCs in the murder.</p>
+<h3 id="rule-dramatis_personae-the-butler">The Butler</h3>
+<p>The butler is actually an accomplished alchemist, and thus also serves as a doctor. If influenced, she allows the PCs to search her private research room while she observes. The butler keeps poisons for medicinal purposes. The poison the real murderer used as a cover came from the butler's supply. The butler claims that some of her poisons and medicines have gone missing, however (which is true, since the close friend has been stealing medical supplies to sell). Until the PCs influence her, she suspects that the thief might have been the PCs.</p>
+<h3 id="rule-dramatis_personae-the-close-friend">The Close Friend</h3>
+<p>As mentioned earlier, the close friend is the murderer. She is genuinely distraught about the situation and full of grief over her friend's death. However, she does her best to avoid being caught. She feigns being influenced quickly (after one apparent success) and offers to help the PCs investigate or influence others.</p>
+<h3 id="rule-dramatis_personae-the-rival-investigator">The Rival Investigator</h3>
+<p>The hostess's accountant is also a fan of detective stories and fancies herself an amateur investigator. Extremely detail-oriented, she noticed the use of <Link to="/spell/dress_corpse">dress corpse</Link>, keeping it to herself. She suspects the PCs because no one else present should have had access to the sort of magic adventurers do, and adventurers are known to kill people with weapons, rather than expensive poison. She is extremely antagonistic toward the PCs, attempting to deny them access at every turn. They can't influence her without sufficient evidence that they have been framed (evidence that they conclusively didn't plant), but once they do, she allows them access to the records room and shares the clues she has discovered so far (including the remains of the bloodstain at the true murder scene, if the PCs haven't noticed it yet).</p>
+<h3 id="rule-dramatis_personae-the-second-husband">The Second Husband</h3>
+<p>The second husband stands to inherit the hostess's vast fortune because she never had children. He is legitimately distraught by her death. The second husband is known to have insomnia and was out of his bedroom for the entire night. He was in the garden at the time of the murder, so he didn't notice anything. If the PCs gain sway over him, he allows them full access to the bedroom (the apparent murder scene).</p>
+</>};
+const _organizational_influence = {title: "Organizational Influence", parent_topics: ["optional_subsystems","influence"], siblings: ["individual_influence","using_the_individual_influence_system","organizational_influence"], subtopics: ["influence_points_and_ranks","positive_ranks","negative_ranks","gaining_influence_points","losing_influence_points","organization_interactions","prominence","favors","clandestine_operations","organization_stat_block","common_benefits","sample_organizations"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 109</Link></p>
+<p>The organizational influence system provides the GM with tools to track the PCs' social cachet within organizations. Small organizations seeking to make their mark on society may allow the PCs a great deal of clout within them, but are limited in what they can offer. Large organizations, on the other hand, are typically more difficult to influence, but can bring much more power to bear on an area at large.</p>
+</>};
+const _influence_points_and_ranks = {title: "Influence Points and Ranks", parent_topics: ["optional_subsystems","influence","organizational_influence"], siblings: ["influence_points_and_ranks","positive_ranks","negative_ranks","gaining_influence_points","losing_influence_points","organization_interactions","prominence","favors","clandestine_operations","organization_stat_block","common_benefits","sample_organizations"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 109</Link></p>
+<p>The organizational influence system uses influence points to track the opinion of an organization concerning the PCs. When the PCs first interact with an organization, they typically start with 0 influence points, and hold no control over the organization's actions. If the PCs demonstrate their value to the organization, they can gain influence points, representing their growing ability to call in favors. If the PCs repeatedly fail or work against an organization, they lose influence points (see <Link to="/rule/gaining_influence_points">Gaining Influence Points</Link> and <Link to="/rule/losing_influence_points">Losing Influence Points</Link>). The PCs' influence point total with an organization can be a negative number - the lower the total, the more resources the organization is willing to commit to actively oppose the PCs.</p>
+<p>The PCs' influence points help determine the number of resources an organization is willing to commit to help or hinder them, but it is not the only component of that calculation. If the PCs seek to build a positive relationship with an organization, they may find themselves limited in what benefits they can gain until they perform certain tasks. For example, most organizations limit the number of resources they commit to non-members, so PCs may need to officially join to gain access. On the other hand, an organization at odds with the PCs should not provide the same response to minor insults from the PCs as it does to the PCs crippling one of its major operations. The nine influence ranks presented below take into account tasks that the PCs may accomplish to pass to fundamentally alter their relationship with an organization (see <Link to="/rule/favors">Table 3-1 under Favors</Link> for examples). To reach a new influence rank, the PCs must accumulate (or lose) a certain number of influence points, as decided by the GM, and perform any required tasks that the GM sets. See Influence Thresholds below for guidelines on setting the required number of influence points for each rank. The possible influence ranks, and their meanings, are presented below.</p>
+<h3 id="rule-influence_points_and_ranks-influence-thresholds">Influence Thresholds</h3>
+<p>The number of influence points required to shift from one influence rank to the next sets the pace for how quickly the PCs' power in organizations can change. The three main factors that play into setting influence thresholds are the length of the campaign, the interest level of the players in exploring their interactions with organizations, and the power and personality of the organization itself. Short story arcs generally require lower thresholds than long campaigns. Some groups of players would rather slowly earn influence within a difficult organization, while others would rather see how quickly their PCs can become powerful in multiple organizations. Finally, within a campaign, weaker organizations typically allow the PCs to gain influence ranks more quickly than prominent ones.</p>
+<p>With all of these factors in mind, the following ranges provide guidelines for determining the number of total influence points a character must gain to reach positive ranks, or lose to reach negative ranks. These thresholds are for a weak organization. For a moderately prominent organization, multiply the numbers by 2. For a strong organization, multiply by 3, and for a preeminent organization, multiply by 4. For more details on deciding the prominence of an organization, see <Link to="/rule/prominence">Prominence</Link>.</p>
+<p><strong className="hl">Rank 1 or -1:</strong> From 1 to 5 total influence points.</p>
+<p><strong className="hl">Rank 2 or -2:</strong> From 3 to 8 total influence points.</p>
+<p><strong className="hl">Rank 3 or -3:</strong> From 7 to 12 total influence points.</p>
+<p><strong className="hl">Rank 4 or -4:</strong> From 13 to 18 total influence points.</p>
+<h3 id="rule-influence_points_and_ranks-npc-attitudes">NPC Attitudes</h3>
+<p>The PCs' influence rank with an organization determines the typical starting attitude of members who have heard of the PCs. The starting attitudes of individual members may vary.</p>
+<p><strong className="hl">Hunted, Hated, or Disliked (Rank -2 or below):</strong> Hostile.</p>
+<p><strong className="hl">Known Opponent (Rank -1):</strong> Unfriendly.</p>
+<p><strong className="hl">Unknown (Rank 0):</strong> Indifferent.</p>
+<p><strong className="hl">Known Ally (Rank 1):</strong> Friendly.</p>
+<p><strong className="hl">Respected, Admired, or Revered (Rank 2 or above):</strong> Helpful.</p>
+</>};
+const _positive_ranks = {title: "Positive Ranks", parent_topics: ["optional_subsystems","influence","organizational_influence"], siblings: ["influence_points_and_ranks","positive_ranks","negative_ranks","gaining_influence_points","losing_influence_points","organization_interactions","prominence","favors","clandestine_operations","organization_stat_block","common_benefits","sample_organizations"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 109</Link></p>
+<p>At these ranks, an organization either doesn't care about the PCs or considers them allies.</p>
+<p><strong className="hl">Unknown (Rank 0):</strong> The organization either doesn't know who the PCs are, or does not believe they are relevant.</p>
+<p><strong className="hl">Known Ally (Rank 1):</strong> The PCs' actions have proven that they are aligned with the organization's goals. One or more PCs may be low-ranking members.</p>
+<p><strong className="hl">Respected (Rank 2):</strong> The PCs have performed significant services for the organization. Some low-ranking members of the organization look up to the PCs. One or more PCs are members of the organization in good standing.</p>
+<p><strong className="hl">Admired (Rank 3):</strong> Average organization members admire the PCs. Some low-ranking members may have strong loyalties to the PCs. The PCs have notable positions within the organization.</p>
+<p><strong className="hl">Revered (Rank 4):</strong> While the PCs are not the official leaders of the organization, they are key members. The PCs can direct and shape policy.</p>
+</>};
+const _negative_ranks = {title: "Negative Ranks", parent_topics: ["optional_subsystems","influence","organizational_influence"], siblings: ["influence_points_and_ranks","positive_ranks","negative_ranks","gaining_influence_points","losing_influence_points","organization_interactions","prominence","favors","clandestine_operations","organization_stat_block","common_benefits","sample_organizations"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 110</Link></p>
+<p>At these ranks, an organization actively opposes the PCs.</p>
+<p>Known Opponent (Rank -1): The organization's opinion of the PCs is unfavorable. It may act against the PCs if they are interfering in its affairs, but the organization mostly focuses on its own goals.</p>
+<p>Disliked (Rank -2): The organization commits some resources to targeting the PCs even when the PCs are not actively interfering with its goals, and retaliates when the PCs acts against it.</p>
+<p>Hated (Rank -3): The organization seeks to discredit, humiliate, or kill the PCs, and commits substantial resources to doing so. However, the organization ultimately prioritizes its long-term power and stability over harming the PCs.</p>
+<p>Hunted (Rank -4): The organization seeks to discredit, humiliate, or kill the PCs, and is willing to sacrifice enough time, resources, and lives to markedly weaken itself in the pursuit of this goal. Even the organization's leaders may risk their lives in pursuit of the PCs' downfall.</p>
+</>};
+const _gaining_influence_points = {title: "Gaining Influence Points", parent_topics: ["optional_subsystems","influence","organizational_influence"], siblings: ["influence_points_and_ranks","positive_ranks","negative_ranks","gaining_influence_points","losing_influence_points","organization_interactions","prominence","favors","clandestine_operations","organization_stat_block","common_benefits","sample_organizations"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 110</Link></p>
+<p>As the PCs perform tasks that benefit an organization, they gain influence points. Performing favors requested by an organization is the most effective way for the PCs to accrue influence points with that organization. A typical favor earns the PCs from 2 to 5 influence points, depending upon how difficult and dangerous the favor is to complete. See the <Link to="/rule/favors">Favors</Link> section for more details. The PCs can also accrue influence points with an organization by taking actions that coincidentally further the organization's interests. Such actions typically earn the PCs 1 or 2 influence points. For example, if the PCs apprehend a notorious jewel thief who has been stealing from their own coffers (as well as those of local nobles), they may gain an influence point with the local nobility. The PCs can also gain influence points by building trust with a member of the organization. The personal influence system found at the beginning of this section is one good way to create an encounter based around improving this NPC's opinion of the PCs, while the <Link to="/rule/verbal_duels">verbal dueling</Link> system is another. The number of organizational influence points that the PCs can earn from gaining the approval of a single NPC within the organization typically ranges from 1 to 5. Backing a rank-and-file member of the organization is worth at most 1 influence point, while the backing of one of an organization's leaders is worth 5 influence points, and may be worth more in extraordinary circumstances, at the GM's discretion.</p>
+</>};
+const _losing_influence_points = {title: "Losing Influence Points", parent_topics: ["optional_subsystems","influence","organizational_influence"], siblings: ["influence_points_and_ranks","positive_ranks","negative_ranks","gaining_influence_points","losing_influence_points","organization_interactions","prominence","favors","clandestine_operations","organization_stat_block","common_benefits","sample_organizations"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 110</Link></p>
+<p>The PCs generally won't actively seek to lose influence points with an organization. However, the PCs' actions over the course of a campaign are likely to put them at odds with one or more organizations, and the PCs may inadvertently harm organizations that they do not wish to antagonize. Whenever the PCs actively sabotage an organization's interests, they lose from 2 to 5 influence points with the organization. If the PCs take actions that coincidentally work against the organization's interests, they instead lose 1 or 2 influence points. If the PCs horribly botch an attempt to perform a favor for an organization, they may similarly lose 1 or 2 influence points. If the PCs damage a prominent member's reputation or finances, they lose from 1 to 3 influence points, depending on the extent of the damage and the power that member wields within the organization. The PCs also lose influence points if they harm a prominent member of the organization. Killing members of any organization is a particularly effective way to lose influence. For most organizations, any time the PCs kill one or more members of an organization, they lose at least 5 influence points per incident. If the organization is a primary antagonist of the campaign or story arc, the GM may consider using the <Link to="/rule/nemeses">nemesis system</Link> to complement the organization influence rules, particularly if the organization is led by a single individual.</p>
+<p>The most crippling blow to the PCs' reputation with organization is betrayal. To be considered traitors to the organization, the PCs must violate the organization's fundamental tenets while using the organization's own resources against it. If an organization that favors the PCs becomes convinced of the PCs' betrayal, the PCs immediately lose a number of influence points equal to twice their current total, essentially reversing their standing with the group. In general, the higher the PCs' influence rank, the more evidence the organization requires before it considers any accusations of treachery credible. If an organization declares the PCs traitors, it is possible (though difficult) for them to redeem their reputation. In general, this process requires the PCs to track down and discredit the source of the slanderous evidence. Doing so restores the PCs' original influence point total, and likely earns them additional rewards from the organization for unmasking the true threat against it. If they only partially exonerate themselves, they may regain some but not all of their influence points.</p>
+</>};
+const _organization_interactions = {title: "Organization Interactions", parent_topics: ["optional_subsystems","influence","organizational_influence"], siblings: ["influence_points_and_ranks","positive_ranks","negative_ranks","gaining_influence_points","losing_influence_points","organization_interactions","prominence","favors","clandestine_operations","organization_stat_block","common_benefits","sample_organizations"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 111</Link></p>
+<p>The PCs' interactions with organizations are often only a piece of a larger political tapestry. Alliances and rivalries between organizations shape how each organization reacts to the PCs' actions. If two organizations are rivals, they typically require the PCs to choose a side. The PCs may automatically lose influence points with one for supporting the other. For example, if the PCs perform a favor for one faction during a war and gain influence points with that faction, they lose an equal number of influence points with that faction's rivals. In less extreme circumstances, the PCs may lose half as many influence points as they gain.</p>
+<p>While rivalries between organizations make holding split loyalties difficult, allegiances between multiple organizations can help the PCs accrue influence faster than they could otherwise, and provide the PCs with access to additional resources. If the PCs help or harm one of two allied organizations, treat them as coincidentally working for or against the second organization's interests for the purposes of the number of influence points the PCs gain or lose.</p>
+<p>As the campaign unfolds, the web of alliances and rivalries between organizations may shift. A sudden shift in allegiances does not retroactively adjust the PCs' influence point total.</p>
+</>};
+const _prominence = {title: "Prominence", parent_topics: ["optional_subsystems","influence","organizational_influence"], siblings: ["influence_points_and_ranks","positive_ranks","negative_ranks","gaining_influence_points","losing_influence_points","organization_interactions","prominence","favors","clandestine_operations","organization_stat_block","common_benefits","sample_organizations"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 111</Link></p>
+<p>An organization's prominence represents the political and social power of that organization in its home community or area of influence. The categories of prominence are weak, moderate, strong, and preeminent. In general, a weak organization can provide only simple assistance within its limited area of concern. Most weak organizations are eager to recruit new members to increase their prominence, though some appreciate the lack of attention they draw from outside forces. A gang of pickpockets is an example of a weak organization. In comparison, a moderate organization holds an established place in the power structure of its local area, and has some connections and contacts with other local organizations. A thieves' guild is likely to be a moderate organization. A strong organization, on the other hand, may be at the top of the power structure for its area of concern, or it may be one of several organizations that hold power on a regional or national scale. The cathedral of a major deity in a state with multiple religious traditions is likely to be a strong organization. Finally, a preeminent organization is the undisputed head of the power structure in its sizable area of concern - the ruling body of a nation is an example of a preeminent organization, as is a merchants' guild that effectively controls trade in a large region.</p>
+</>};
+const _favors = {title: "Favors", parent_topics: ["optional_subsystems","influence","organizational_influence"], siblings: ["influence_points_and_ranks","positive_ranks","negative_ranks","gaining_influence_points","losing_influence_points","organization_interactions","prominence","favors","clandestine_operations","organization_stat_block","common_benefits","sample_organizations"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 112</Link></p>
+<p>Favors lie at the heart of the organizational influence system. When the PCs perform a favor for an organization, they can either gain influence points, or they can earn a favor from the organization in return. The PCs can spend favors that they have earned to gain benefits from the organization. The PCs can slowly earn favors over time, after a certain number of sessions or amount of in-game time that is appropriate for the campaign. This rate also provides a guideline for modeling the behavior of organizations.</p>
+<p>Typically, this rate is an appropriate benchmark for how often allied organizations approach the PCs with requests, as well as how often opposed organizations act against them. In general, if an organization is willing to grant a benefit to the PCs when they have a positive rank with that organization, it is willing to grant that same benefit to someone acting against the PCs should they attain the corresponding negative rank.</p>
+<p><strong className="hl">Favors:</strong> Sometimes, tasks for the PCs to complete as favors to an organization arise naturally out of the events of the campaign. However, at other times, the PCs may actively seek to assist an organization at a time when such tasks are not so forthcoming. The 28 favors on Table 3-1 are generic enough to apply to almost any organization. Some of the tasks near the top of the chart are too inconsequential for established members, while the tasks at the bottom of the chart are too significant for initiates. To use this chart, roll a d20, and add twice the PCs' influence rank to the result.</p>
+<p><strong className="hl">Benefits:</strong> Each organization provides its own unique set of possible benefits to the PCs based on their influence rank. The PCs can spend a favor that they have earned to gain one of the benefits that they have unlocked. Some benefits become free once the PCs become sufficiently influential in an organization, allowing the PCs to make use of them without expending a favor (see Benefits under <Link to="/rule/organization_stat_block">Organization Stat Block</Link>).</p>
+<h3 id="rule-favors-table-3-1-favors">Table 3-1: Favors</h3>
+<ScrollContainer id="rule-favors--table-0"><table>
+<thead>
+<tr>
+<th>Result</th>
+<th>Favor</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Deliver a message to a member of the organization.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Perform a disgusting or unpleasant chore for the organization.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Assist the organization in gathering information in preparation for an upcoming mission.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Purchase and deliver supplies to a member of the organization.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Carry out the duties of a specific low-ranking member of the organization for 1 week.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Produce verbal or written propaganda in favor of the organization.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Mediate a disagreement between members of the organization.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Provide spellcasting services or other specialized tasks to the organization for several days.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Credit the organization for your own publicly popular actions.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Collect money for the organization.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Assist in the construction or renovation of a building for the organization's use.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Investigate the disappearance of an ally of the organization.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Donate a substantial amount of money to the organization.</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Recruit a new member to the organization.</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Obtain a significant item for the organization.</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Defeat a challenging foe of the organization. The foe's CR must be equal to or greater than the party's APL + 2.</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Help a member of the organization escape a dangerous situation.</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Collect valuable information for the organization.</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Mentor a new member of the organization.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Convince a powerful individual to cooperate with the organization.</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Cover up evidence of an indiscretion tied to the organization.</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Plan and execute a dangerous operation to achieve a difficult goal.</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Sabotage an organization with opposing goals.</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Repay the organization's debts by performing a challenging task for another organization.</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Investigate a possible traitor within the organization.</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Establish a branch of the organization in a new district or city.</td>
+</tr>
+<tr>
+<td>27</td>
+<td>Represent the organization in a meeting with extraordinary stakes.</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Carry out the duties of a key member of the organization for 1 week.</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _clandestine_operations = {title: "Clandestine Operations", parent_topics: ["optional_subsystems","influence","organizational_influence"], siblings: ["influence_points_and_ranks","positive_ranks","negative_ranks","gaining_influence_points","losing_influence_points","organization_interactions","prominence","favors","clandestine_operations","organization_stat_block","common_benefits","sample_organizations"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 112</Link></p>
+<p>The base organizational influence system assumes that the PCs act as a unified group and do not take extraordinary effort to conceal their identities and activities. In an intrigue-based campaign, these assumptions are not always accurate. The simplest type of clandestine operation to adjudicate is a single secret favor. If the PCs perform a favor for an organization and conceal their actions, do not decrease the PCs' influence points with that organization's enemies. The PCs can use secret identities to perform more complicated maneuvers, such as playing multiple sides of a conflict, or perhaps even infiltrating an organization as spies. As long as an organization knows that the PCs are infiltrating its rivals, that organization's members continue to believe that they have the PCs' loyalty; they typically overlook minor actions that the PCs take against the organization, so long as the PCs provide a plausible justification for their misdeeds.</p>
+<p>If the PCs use secret identities, track their influence under each set of identities separately as long as they maintain the ruse. Maintaining two distinct sets of identities over a long period of time should be challenging, but not impossible if the PCs are careful. Common features between the identities - anything from physical features or mannerisms to equipment, fighting style, or associates - present the threat of exposure. If the PCs rise to high influence ranks in two opposing organizations, their risk of being caught increases significantly. The <Link to="/class/vigilante">vigilante</Link> class is particularly well suited to the challenge of maintaining multiple identities.</p>
+<p>If an organization figures out that the PCs are maintaining two separate identities, the PCs' influence point total for that organization may change drastically. If both sets of the PCs' identities are aligned with an organization, the PCs' influence point total may go as high as the sum of the points they earned under both identities. Conversely, if both sets of the PCs' identities are aligned against an organization, the PCs' influence point total may go as low as a negative number equal to the sum of the two. Adding the two values sometimes allows a single action to count twice - this reflects that the organization may either respect the PCs' dedication to their cause, or revile the PCs for their dedication to opposing it. In most cases, however, the resulting change in influence should be less extreme than a direct sum, even if the organization has a favorable opinion of both identities. If the PCs are working for two opposed organizations, see the last paragraph of <Link to="/rule/losing_influence_points">Losing Influence</Link> for details on how an organization responds to being betrayed.</p>
+</>};
+const _organization_stat_block = {title: "Organization Stat Block", parent_topics: ["optional_subsystems","influence","organizational_influence"], siblings: ["influence_points_and_ranks","positive_ranks","negative_ranks","gaining_influence_points","losing_influence_points","organization_interactions","prominence","favors","clandestine_operations","organization_stat_block","common_benefits","sample_organizations"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 113</Link></p>
+<p>An organization's stat block is arranged as follows.</p>
+<p><strong className="hl">Name:</strong> The organization's name.</p>
+<p><strong className="hl">Alignment and Prominence:</strong> An organization's alignment is the alignment that most closely represents its policies and actions. While individual members of an organization may be of any alignment, an organization's key NPCs are typically within one step of the organization's overall alignment. An organization's prominence may be weak, moderate, strong, or preeminent. More details on prominence appear under <Link to="/rule/prominence">Prominence</Link>.</p>
+<p><strong className="hl">Size:</strong> An organization's size is an approximation of its number of active members.</p>
+<p><strong className="hl">Key Members:</strong> Key members of an organization are both visible leaders and shadowy schemers who have significant pull.</p>
+<p><strong className="hl">Values:</strong> An organization may value any number of traits in its members, such as creativity, generosity, dependability, skill at particular tasks, or social station.</p>
+<p><strong className="hl">Public Goals:</strong> All but the most clandestine organizations share some of their goals with the general public.</p>
+<p><strong className="hl">Private Goals:</strong> These are the private goals both of the organization as a whole and of key members. Sometimes, the private goal of a key member might conflict with the private goal of the organization.</p>
+<p><strong className="hl">Allies and Enemies:</strong> Organizations do not exist in a vacuum. An organization's prominent allies and enemies are noted here. PCs can gain or lose influence with an organization based on their interactions with its allied or opposed organizations.</p>
+<p><strong className="hl">Membership Requirements:</strong> Most organizations have a procedure for officially joining them, and expect their members to satisfy ongoing commitments (like paying dues).</p>
+<p><strong className="hl">Influence Limitations:</strong> Often, the PCs need to perform a specific task for an organization before they can raise their influence past a certain threshold. The most common requirement is for the PCs to join an organization, but organizations may require more complicated tasks or favors before counting the PCs among their most trusted allies.</p>
+<p><strong className="hl">Benefits:</strong> This section lists favors that the PCs can call in based on their influence rank with the organization. The PCs can always choose benefits on the available list for their current rank or a lower rank within the organization, and, at the GM's discretion, the PCs might be able to access the benefits for lower ranks for a decreased number of favors, or even for free, if the PCs request the benefit a reasonable number of times. To approximate the benefits that the PCs can gain from an organization outside of its base of operations, the GM should decrease the PCs' effective influence rank appropriately, to a minimum of Rank 0 if the PCs are entirely beyond the organization's reach.</p>
+<p><strong className="hl">New Benefits:</strong> This section details the benefits the PCs can earn from the organization beyond those listed in the Common Benefits section.</p>
+</>};
+const _common_benefits = {title: "Common Benefits", parent_topics: ["optional_subsystems","influence","organizational_influence"], siblings: ["influence_points_and_ranks","positive_ranks","negative_ranks","gaining_influence_points","losing_influence_points","organization_interactions","prominence","favors","clandestine_operations","organization_stat_block","common_benefits","sample_organizations"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 114</Link></p>
+<p>The following benefits appear in many organizations' stat blocks, and are defined below.</p>
+<p><strong className="hl">Borrow Resources:</strong> Many organizations allow members in good standing to borrow money or items for short periods of time. PCs can borrow money or items worth a total amount listed in parentheses. If the PCs do not repay the loan in a timely manner, they risk losing influence points. Typically, the PCs cannot borrow resources from an organization if they have outstanding debts, and some organizations require collateral. Organizations are more likely to have items that are relevant to their own interests - a mercenary group might loan weapons and armor, but not holy symbols or arcane books, for example.</p>
+<p><strong className="hl">Command Team:</strong> When the PCs reach a high influence rank within an organization, the organization typically allows the PCs to lead a team of its members on a mission. The PCs are expected to protect this team and bring the members back alive. PCs can lead groups of the size and strength listed in each favor's entry.</p>
+<p><strong className="hl">Gather Information:</strong> The PCs can ask several members of the organization to assist them in gathering information about a particular subject, and gain a +4 circumstance bonus on all Diplomacy checks to gather such information.</p>
+<p><strong className="hl">Put in a Good Word:</strong> The organization promotes the PCs' reputation among its allies. The PCs gain a number of influence points equal to their rank with the organization with one of the group's allied organizations.</p>
+<p><strong className="hl">Reciprocal Benefits:</strong> The organization leverages its ties to one of its closest allies for the PCs' gain. The PCs can purchase a benefit from the benefits list of a closely allied organization by expending two favors. Treat the PCs' influence rank with the allied organization as 1 lower than their rank with the initial organization.</p>
+</>};
+const _sample_organizations = {title: "Sample Organizations", parent_topics: ["optional_subsystems","influence","organizational_influence"], siblings: ["influence_points_and_ranks","positive_ranks","negative_ranks","gaining_influence_points","losing_influence_points","organization_interactions","prominence","favors","clandestine_operations","organization_stat_block","common_benefits","sample_organizations"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 114</Link></p>
+<p>The sample organizations in this section span all possible levels of influence. The organizations that are relevant to each GM depend upon the campaign.</p>
+<p>Other ideas for organizations that are not detailed below include an assassin's guild, a bardic college, a merchant's guild, a museum, a secret society, and a university.</p>
+<h3 id="rule-sample_organizations-small-time-gang">Small-Time Gang</h3>
+<p>CN weak organization</p>
+<p><strong>Size</strong> 15 members</p>
+<h4 id="rule-sample_organizations-key-members">Key members</h4>
+<p>Greedy Jenny (LE female human sorcerer 1)</p>
+<p>Martin Quickfingers (CN male halfling rogue 2)</p>
+<p><strong>Values</strong> This small-time gang of petty crooks is always willing to accept new members who prove their skills.</p>
+<p><strong>Public Goals</strong> When caught, these criminals claim that they only steal enough to survive.</p>
+<p><strong>Private Goals</strong> Martin would like to recruit other down-on-their luck individuals to join the growing organization, while Jenny cares only about her own profits.</p>
+<p><strong>Allies</strong> The small-time gang is allied with local beggars, who provide them with information in exchange for small amounts of food and clothing.</p>
+<p><strong>Enemies</strong> The town guard has not yet caught wind of these thieves, but it would oppose them if it knew of their activities.</p>
+<p><strong>Membership Requirements</strong> The PCs must steal an item worth at least 20 gp, and donate half the value of the item to the small-time gang.</p>
+<p><strong>Influence Limitations</strong> A PC must join the thieves formally to rise above Rank 1. If a PC rises to Rank 3, Martin sees that PC as a threat and tries to eliminate her. Defeating Martin makes that PC the leader of the organization, and increases her rank to 4.</p>
+<p><strong>Benefits</strong> These petty thieves band together to help each other survive and profit.</p>
+<p><strong>Rank 1:</strong> borrow resources (10 gp), case (+6), lookout (1 way, +6)</p>
+<p><strong>Rank 2:</strong> borrow resources (50 gp), diversion (+6), gather information, pickpocket (+8), put in a good word</p>
+<p><strong>Rank 3:</strong> borrow resources (250 gp), reciprocal benefits</p>
+<p><strong>Rank 4:</strong> borrow resources (500 gp), command team (1d4 1st-level rogues)</p>
+<p><strong>New Benefits</strong> The petty thieves grant the following unusual benefits.</p>
+<p><strong>Case:</strong> A group of thieves cases an area, searching for guards, hiding places, and entrances. The thieves' total Perception skill bonus is +6.</p>
+<p><strong>Diversion:</strong> A group of thieves creates a diversion to allow the PCs to sneak past guards or other watchful eyes. The thieves' total Bluff skill bonus is +6.</p>
+<p><strong>Lookout:</strong> A thief acts as a lookout, monitoring one direction for oncoming guards or witnesses. The thief's total Perception skill bonus is +6.</p>
+<p><strong>Pickpocket:</strong> A thief attempts to take a specific item from a specific person. The thief's total Sleight of Hand skill bonus is +8. If the thief believes the situation is too dangerous, she informs the PCs and refuses to attempt the task - in this case, the favor is not expended.</p>
+<h3 id="rule-sample_organizations-thieves-guild">Thieves' Guild</h3>
+<p>LE moderate organization</p>
+<p><strong>Size</strong> 200 members</p>
+<h4 id="rule-sample_organizations-key-members-1">Key members</h4>
+<p>Chief (LE male half-orc ranger 7)</p>
+<p>Kalgeen (LE female human wererat rogue 5)</p>
+<p><strong>Values</strong> This thieves' guild has a strict code of conduct for its members, who must look out for each other at all times and may never steal from each other's friends or relatives. The guild values loyalty and resourcefulness.</p>
+<p><strong>Public Goals</strong> The guild has no publicly stated goals.</p>
+<p><strong>Private Goals</strong> The guild seeks to expand its reach into additional settlements.</p>
+<p><strong>Allies</strong> The guild is allied with a local group of merchants.</p>
+<p><strong>Enemies</strong> The thieves' guild has made enemies among the organizations that it regularly targets and local law enforcement officials.</p>
+<p><strong>Membership Requirements</strong> The PCs must steal an item worth at least 250 gp, and donate half the value of the item to the thieves' guild.</p>
+<p><strong>Influence Limitations</strong> A PC must formally join the thieves' guild to rise to Rank 2. To rise to Rank 4, the PCs must execute a complex <Link to="/rule/heists">heist</Link>.</p>
+<p><strong>Benefits</strong> While this thieves' guild cannot operate openly, it helps its members scope out potential jobs.</p>
+<p><strong>Rank 1:</strong> borrow resources (100 gp), case (+10), lookout (2 ways, +10)</p>
+<p><strong>Rank 2:</strong> borrow resources (500 gp), diversion (+10), gather information, pickpocket (+12), put in a good word</p>
+<p><strong>Rank 3:</strong> borrow resources (2,500 gp), reciprocal benefits, remove evidence, rob, search black market</p>
+<p><strong>Rank 4:</strong> borrow resources (5,000 gp), command team (1d4 3rd-level rogues or 3d4 1st-level rogues)</p>
+<p><strong>New Benefits</strong> The thieves' guild grants the following unusual benefits.</p>
+<p><strong>Case:</strong> Per the benefit under small-time gang above, except the thieves' total Perception skill bonus is +10.</p>
+<p><strong>Diversion:</strong> Per the benefit under small-time gang above, except the thieves' total Bluff skill bonus is +10.</p>
+<p><strong>Lookout:</strong> A pair of thieves act as lookouts, monitoring up to two directions for oncoming guards or witnesses. The thieves' total Perception skill bonuses are +10.</p>
+<p><strong>Pickpocket:</strong> Per the benefit under small-time gang above, except the thief's total Sleight of Hand skill bonus is +12.</p>
+<p><strong>Remove Evidence:</strong> A group of thieves carefully enters a scene where the PCs committed a crime and removes evidence. This eliminates any obvious clues, such as the body of a victim or notes the PCs left at the scene, and increases the Perception DC to find more subtle clues by 5.</p>
+<p><strong>Rob:</strong> The thieves' guild sends an agent to steal a specific item from a secured location. The agent has a +10 total skill bonus on Stealth checks and a +12 total skill bonus on Disable Device checks. This benefit costs from 1 to 3 favors, depending upon the danger involved. The thief expects the PCs to pay half the value of the stolen item.</p>
+<p><strong>Search Black Market:</strong> The thieves' guild locates any type of item whose value is up to the base value of the settlement, even if the item is illegal in that settlement, and arranges for the PCs to purchase it.</p>
+<h3 id="rule-sample_organizations-mages-guild">Mage's Guild</h3>
+<p>N strong organization</p>
+<p><strong>Size</strong> 520 members</p>
+<h4 id="rule-sample_organizations-key-members">Key members</h4>
+<p>Archmage Theona Tethril (N female human diviner 9)</p>
+<p>Master of Wards Falariel (NG male elf abjurer 7)</p>
+<p><strong>Values</strong> The mages' guild values curiosity, creativity, and magical aptitude.</p>
+<p><strong>Public Goals</strong> To regulate the use of magic for the public good.</p>
+<p><strong>Private Goals</strong> The mages' guild seeks out arcane knowledge that it deems too dangerous and stores such information in its heavily secured secret library. The master of wards protects the books from public access, while the archmage uses them to learn more about the people who would abuse the dangerous knowledge contained within the tomes.</p>
+<p><strong>Allies</strong> The mages' guild is on good terms with several nearby universities and the alchemists' union.</p>
+<p><strong>Enemies</strong> The mages' guild has made several enemies among evil cults and other organizations that make use of profane knowledge.</p>
+<p><strong>Membership Requirements</strong> To join the mages' guild, a PC must spend 1 week teaching spells to guild members, or bring a spell or bit of arcane knowledge to the guild that it does not already possess in its libraries.</p>
+<p><strong>Influence Limitations</strong> The PCs must all join the mages' guild before they can reach Rank 2.</p>
+<p><strong>Benefits</strong> This guild of mages provides training to its members, and casts spells for them.</p>
+<p><strong>Rank 1:</strong> borrow resources (100 gp), spell library (Core Rulebook spells only)</p>
+<p><strong>Rank 2:</strong> arcane library, borrow resources (750 gp), gather information, item crafting, put in a good word, spell library spellcasting (1st- and 2nd-level spells)</p>
+<p><strong>Rank 3:</strong> borrow resources (1,500 gp), reciprocal benefits, spellcasting (3rd- and 4th-level spells)</p>
+<p><strong>Rank 4:</strong> borrow resources (4,000 gp), spellcasting (5th-level spells)</p>
+<p><strong>New Benefits</strong> The mages' guild grants the following unusual benefits.</p>
+<p><strong>Arcane Library:</strong> The PCs gain access to the guild's library, allowing them to potentially learn secrets relevant to their current adventures (consider using the <Link to="/rule/research">research system</Link> to handle research in the arcane library).</p>
+<p><strong>Item Crafting:</strong> The mages' guild crafts a custom-ordered collection of scrolls, potions, or wondrous items for the PCs. The items cost their usual market value in gold pieces plus 1 favor for every 2 days of crafting required.</p>
+<p><strong>Spell Library:</strong> The mages' guild provides the PCs with access to its extensive library of spells. The PCs can learn a spell in the library. Spells from the Core Rulebook cost 1 favor, and all other spells that are available cost 2 favors.</p>
+<p><strong>Spellcasting:</strong> The PCs can expend favors instead of paying the typical cost for spellcasting services. A 1st- or 2nd-level spell costs 1 favor, a 3rd- or 4th-level spell costs 2 favors, and a 5th-level spell costs 3 favors. The cost and availability of spellcasting is based upon the levels of the guild's members (in this guild, a 5th-level spell always comes from the archmage herself, and consequently is quite expensive).</p>
+<h3 id="rule-sample_organizations-crime-syndicate">Crime Syndicate</h3>
+<p>NE preeminent organization</p>
+<p><strong>Size</strong> 15,000 members</p>
+<h4 id="rule-sample_organizations-key-members">Key members</h4>
+<p>Lady Alixis Drosain/Lyra (N/NE female human vigilante 12)</p>
+<p>Nikolas Trivoy (N male human investigator 7)</p>
+<p>Whisper (NE female human slayer 10)</p>
+<p>Zadreni (N male human bard 9)</p>
+<p><strong>Values</strong> The syndicate values skill and ambition, but also discretion and loyalty.</p>
+<p><strong>Public Goals</strong> The crime syndicate's public goals are to manage and regulate crime, to deliver valuable goods and services, and to invigorate the local economy.</p>
+<p><strong>Private Goals</strong> Overall, the syndicate's members seek wealth, power, and prestige. While Lyra has emerged as the undisputed leader of the syndicate, the vigilante will not be satisfied until she controls the open market as well, under her social identity of Lady Drosain. Nikolas is growing increasingly suspicious of Lyra, and he painstakingly seeks material he could leverage against her.</p>
+<p><strong>Allies</strong> While few organizations would publicly admit to an alliance with the crime syndicate, many groups benefit from under-the-table dealings.</p>
+<p><strong>Enemies</strong> The crime syndicate has made enemies of several prominent organizations in nearby nations, including the royal house of a neighboring kingdom.</p>
+<p><strong>Membership Requirements</strong> Steal a unique and iconic item, such as the prize painting in a museum's collection. Alternatively, establish a legal business whose illegal side dealings provide the PCs with a net profit of at least 100 gp per month.</p>
+<p><strong>Influence Limitations</strong> Each time the PCs wish to reach a new rank, they must prove their worth to the organization, with a task more spectacular than their last demonstration. The syndicate has plenty of members, and does not spare time for those who are unwilling to prove their worth. PCs must declare their allegiance to reach Rank 1, and they must become full members before they can reach Rank 2.</p>
+<p><strong>Benefits</strong> This crime syndicate can protect its members from the consequences of all but the most heinous crimes.</p>
+<p><strong>Rank 1:</strong> borrow resources (100 gp), case (+15), diversion (+15), gather information, lookout (4 ways, +15)</p>
+<p><strong>Rank 2:</strong> borrow resources (1,000 gp), put in a good word, remove evidence, rob, search black market</p>
+<p><strong>Rank 3:</strong> borrow resources (5,000 gp), command team (1d4 NPCs of 3rd level, or 3d4 NPCs of 1st level), destroy evidence, market manipulation, reciprocal benefits</p>
+<p><strong>Rank 4:</strong> black market mastery, borrow resources (15,000 gp), command team (1d4 NPCs of 6th level, or 5d4 NPCs of 3rd level)</p>
+<p><strong>New Benefits</strong> The crime syndicate grants the following unusual benefits.</p>
+<p><strong>Black Market Mastery:</strong> The crime syndicate explores the full extent of its black-market contacts to find an item for the PCs. It can locate almost any type of item whose value is below the settlement's base value. The PCs can use black market mastery to search for one item below the settlement's base value per favor they expend. Alternatively, the PCs can use black market mastery to search for a single item above the settlement's base value, at the cost of 3 favors. There is a 50% chance each month that the syndicate locates the requested item. If the PCs seek a unique item, the syndicate may be able to provide the PCs with the location of that item for the cost of 2 favors.</p>
+<p><strong>Case:</strong> Per the benefit under small-time gang, except the thieves' total Perception skill bonus is +15.</p>
+<p><strong>Destroy Evidence:</strong> The crime syndicate makes evidence of a crime that the PCs committed disappear. This ability functions as remove evidence (see thieves' guild above), except that the Perception DC to find any evidence at the crime scene increases to 30 (or by 10, whichever is higher). The syndicate also discourages witnesses from testifying against the PCs, using a combination of intimidation, bribery, and even memory-altering magic. This benefit costs 3 favors.</p>
+<p><strong>Diversion:</strong> Per the benefit under small-time gang, except the thieves' total Bluff skill bonus is +15.</p>
+<p><strong>Lookout:</strong> A group of thieves act as a lookouts, monitoring up to four directions for oncoming guards or witnesses. The thieves' total Perception skill bonuses are +15. This ability costs 2 favors. Alternatively, the PCs can purchase the lookout ability as listed under the thieves' guild for 1 favor.</p>
+<p><strong>Market Manipulation:</strong> The crime syndicate can manipulate market forces to drive business away from the PCs' rivals and toward any businesses the PCs own. This ability produces an amount of additional money for the PCs that depends upon the extent of the manipulation. This windfall comes in the form of increased results using whichever rules you are using to determine the success of the PCs' businesses (such as the <Link to="/rule/downtime">downtime rules</Link>). For each favor spent, the PCs can earn at most 1,000 gp (to a maximum of 5,000 gp).</p>
+<p><strong>Remove Evidence:</strong> Per the benefit under thieves' guild.</p>
+<p><strong>Rob:</strong> Per the benefit under thieves' guild.</p>
+<p><strong>Search Black Market:</strong> Per the benefit under thieves' guild.</p>
+<h3 id="rule-sample_organizations-national-military">National Military</h3>
+<p>LN preeminent organization</p>
+<p><strong>Size</strong> 18,000 members</p>
+<h4 id="rule-sample_organizations-key-members">Key members</h4>
+<p>General Agnar (LG female dwarf fighter 10)</p>
+<p>General Rortian (LN male human cavalier 12)</p>
+<p><strong>Values</strong> The military values order, discipline, loyalty, and service.</p>
+<p><strong>Public Goals</strong> The military's goal is to protect the people of its nation and to fight against its enemies.</p>
+<p><strong>Private Goals</strong> General Rortian seeks to enhance his personal glory by embarking on a campaign to expand his home nation's territory.</p>
+<p><strong>Allies</strong> The military of this nation is on good terms with most political organizations within the nation. It is formally allied with the militaries of allied nations.</p>
+<p><strong>Enemies</strong> The enemies of this military are the political and military organizations within enemy nations. Membership Requirements Joining the military as a recruit requires the PCs to undergo training and prove their ability to follow orders.</p>
+<p><strong>Influence Limitations</strong> Most militaries maintain a strict hierarchy of command. The PCs must be promoted to a higher military rank before they can increase their influence rank within the military.</p>
+<p><strong>Benefits</strong> This military force takes pride in its highly trained and well-equipped soldiers.</p>
+<p><strong>Rank 1:</strong> acquire arms (350 gp), borrow resources (100 gp)</p>
+<p><strong>Rank 2:</strong> acquire arms (750 gp), borrow resources (750 gp), command team (1d4 1st-level warriors), gather information, put in a good word, retrain</p>
+<p><strong>Rank 3:</strong> acquire arms (magic), borrow resources (2,500 gp), command team (5d4 3rd-level martial NPCs), reciprocal benefits</p>
+<p><strong>Rank 4:</strong> borrow resources (18,500 gp), command legion, command team (70 HD worth of NPCs, none of which can be more than 7th level)</p>
+<p><strong>New Benefits</strong> The national military grants the following uncommon benefits.</p>
+<p><strong>Acquire Arms:</strong> The national military gathers a collection of mundane weapons and gear from its armory for the PCs. The PCs can purchase this collection for 1 favor or its standard market price. At Rank 1, the combined value us 350 gp or less. At Rank 2, the value of this collection increases to 750 gp. At Rank 3, the PCs can purchase magic weapons and armor from the military at a 10% discount by spending 2 favors. For the purposes of item availability, the military counts as a metropolis.</p>
+<p><strong>Command Legion:</strong> The national military grants the PCs command of a <Link to="/rule/army_statistics">medium army</Link> for 1 week per favor expended. This force comprises 100 2nd-level fighters who follow the PCs loyally. If the PCs do not clearly use this force to further the military's goals or the PCs are reckless with the soldiers' lives, the PCs' influence rank is reduced to 3. Bringing the soldiers into a dungeon that is level-appropriate for the PCs counts as reckless endangerment.</p>
+<p><strong>Retrain:</strong> Military trainers work together with the PCs, allowing them to retrain archetypes, class features, feats, or skill ranks, as per the <Link to="/rule/retraining">retraining rules</Link>. At Rank 2, each week of retraining costs 1 favor and the standard cost in gold pieces. At Rank 3, the military covers the gold piece cost. At Rank 4, the PCs can retrain without expending favors or money.</p>
+</>};
+const _investment = {title: "Investment", parent_topics: ["optional_subsystems"], siblings: ["affiliations","bargaining","contacts","downtime","factions","hero_points","honor","influence","investment","primal_magic","provision_points","relationships","reputation_and_fame","research","spell_alterations","stamina_and_combat_tricks","the_hunger"], subtopics: ["investment_mechanics","example_investments_and_problems"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 164</Link></p>
+<p>From the lowly copper piece to treasure chests bulging with precious gemstones, the anchor of most parties is treasure. But what is the purpose of a PC collecting this money if not to better her life? Once she's acquired it, shouldn't she put it to work for her? After all, adventuring is not a certain prospect; investments are a much safer bet, and the return they offer on the money invested comes without all the dangers involved in adventuring.</p>
+<p>But an investment is still a wager, and sometimes these wagers go bad. This section provides a sample of monetary investments a PC might make, and offers the GM suggestions for potential adventure hooks that utilize those investments in the broader campaign. If the PC makes an investment, it should be more interesting than calculating compound interest: give the PC the opportunity to interact with monetary decisions.</p>
+<p>The rate of return shouldn't be more than 5% per year for low-risk investments, though particularly risky investments might see as much as 15-20%. This upper end should be incredibly rare, and situations where the investors' profit exceeds 25% are almost unheard of. A GM should ration out those high-yield investments carefully. Keep in mind that unscrupulous people are always happy to get between the players and their investment income. Whether these people are legitimate (such as the tax collectors) or not (such as bandits, swindlers, or thugs wanting protection money), the net profit on an investment is frequently less than anticipated.</p>
+</>};
+const _investment_mechanics = {title: "Investment Mechanics", parent_topics: ["optional_subsystems","investment"], siblings: ["investment_mechanics","example_investments_and_problems"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 164</Link></p>
+<p>When a PC decides to invest, ask the player how much money the PC provides for the investment. This is the seed money, and has a direct effect on how much money the investment earns each year (see below).</p>
+<p>A GM can use Table 3-4: Investment Rewards as a general guideline for how much an investment is likely to return. The GM can modify these percentages to reflect particulars of the campaign. Players and GMs should use this guide only for investments in a fantasy world, not reality.</p>
+<p>To use this table, roll d% to check the investment's success or failure.</p>
+<p><strong className="hl">Failed Year:</strong> The investment does not provide a return this year. Three failed years in a row indicate that the investment is ruined, and the operation ends unless the character continues to invest at 2 to 3 times the amount of the original investment.</p>
+<p><strong className="hl">Normal Year:</strong> The investment is successful and earns its Normal Return &times; the seed money. For example, if the seed money is 1,000 gp and the Normal Return is 3%, the investment earns the PC 30 gp as profit that year. She can choose to reinvest this profit (automatically increasing the seed money by this amount for the next year), pocket the Normal Return, or cash out the entire investment (seed money plus the Normal Return) as money or goods appropriate to the investment. For example, the PC could add the 30 gp to her 1,000 gp of seed money for next year's roll; pocket the 30 gp, and remain invested with 1,000 gp of seed money; or take the 1,030 gp (1,000 gp of seed money + 30 gp profit) and walk away from the investment.</p>
+<p><strong className="hl">Breakout Year:</strong> The investment has a good year and earns far more than expected. Make the die roll indicated in the Breakout Return column and multiply the result by the percentage listed in the Normal Return column. For example, if the PC invests in banking and has a breakout year, she multiplies the Breakout Return for banking (1d4+1) &times; the Normal Return for banking (2%) to determine that year's return. If the roll results in a 5, that year's return is 10% of her investment. As with a normal year, the PC can reinvest this profit, pocket the Breakout Return, or cash out her seed money plus the Breakout Return.</p>
+<p>If a PC needs money quickly or wants to end her association with a particular investment, she can withdraw her seed money from the investment at any time, which normally takes 1d6 days and requires direct contact with the person running the investment (such as the manager of an inn, master of a guild, or head of an exploratory group). The PC receives only half of the invested seed money; the rest is lost as the involved parties quickly sell off assets (generally at half their actual value) to refund the PC her seed money. This sort of behavior tends to sour relationships between the PC and the others, making future investments with that group unlikely.</p>
+<h3 id="rule-investment_mechanics-table-3-4-investment-rewards">Table 3-4: Investment Rewards</h3>
+<ScrollContainer id="rule-investment_mechanics--table-0"><table>
+<thead>
+<tr>
+<th>Investments</th>
+<th>Normal Return</th>
+<th>Failed Year</th>
+<th>Normal Year</th>
+<th>Breakout Year</th>
+<th>Breakout Return</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Arts: Creative</td>
+<td>4%</td>
+<td>01-30</td>
+<td>31-95</td>
+<td>96-00</td>
+<td>2d4+1</td>
+</tr>
+<tr>
+<td>Arts: Performing</td>
+<td>2%</td>
+<td>01-35</td>
+<td>36-95</td>
+<td>96-00</td>
+<td>1d6+1</td>
+</tr>
+<tr>
+<td>Banking</td>
+<td>2%</td>
+<td>01-10</td>
+<td>11-98</td>
+<td>99-00</td>
+<td>1d4+1</td>
+</tr>
+<tr>
+<td>Crafting: Common</td>
+<td>1%</td>
+<td>01-05</td>
+<td>06-95</td>
+<td>96-00</td>
+<td>1d3+1</td>
+</tr>
+<tr>
+<td>Crafting: Magical</td>
+<td>5%</td>
+<td>01-30</td>
+<td>31-95</td>
+<td>96-00</td>
+<td>1d8+1</td>
+</tr>
+<tr>
+<td>Crafting: Military</td>
+<td>5%</td>
+<td>01-15</td>
+<td>16-90</td>
+<td>91-00</td>
+<td>1d6+1</td>
+</tr>
+<tr>
+<td>Exploration</td>
+<td>2%</td>
+<td>01-40</td>
+<td>41-85</td>
+<td>86-00</td>
+<td>2d8+1</td>
+</tr>
+<tr>
+<td>Granary/Mill</td>
+<td>3%</td>
+<td>01-10</td>
+<td>11-98</td>
+<td>99-00</td>
+<td>1d3+1</td>
+</tr>
+<tr>
+<td>Guild: Assassins'</td>
+<td>5%</td>
+<td>01-30</td>
+<td>31-95</td>
+<td>96-00</td>
+<td>2d4+1</td>
+</tr>
+<tr>
+<td>Guild: Crafting</td>
+<td>2%</td>
+<td>01-05</td>
+<td>06-98</td>
+<td>99-00</td>
+<td>1d3+1</td>
+</tr>
+<tr>
+<td>Guild: Merchant</td>
+<td>3%</td>
+<td>01-10</td>
+<td>11-98</td>
+<td>99-00</td>
+<td>1d4+1</td>
+</tr>
+<tr>
+<td>Guild: Thieves'</td>
+<td>4%</td>
+<td>01-15</td>
+<td>16-90</td>
+<td>91-00</td>
+<td>1d8+1</td>
+</tr>
+<tr>
+<td>Imports: Exotic</td>
+<td>5%</td>
+<td>01-30</td>
+<td>31-90</td>
+<td>91-00</td>
+<td>1d10+1</td>
+</tr>
+<tr>
+<td>Imports: Ordinary</td>
+<td>2%</td>
+<td>01-15</td>
+<td>16-95</td>
+<td>96-00</td>
+<td>1d4+1</td>
+</tr>
+<tr>
+<td>Invention</td>
+<td>3%</td>
+<td>01-40</td>
+<td>41-90</td>
+<td>91-00</td>
+<td>2d6+1</td>
+</tr>
+<tr>
+<td>Protection</td>
+<td>3%</td>
+<td>01-30</td>
+<td>31-95</td>
+<td>96-00</td>
+<td>1d8+1</td>
+</tr>
+<tr>
+<td>Quarry</td>
+<td>3%</td>
+<td>01-20</td>
+<td>21-90</td>
+<td>91-00</td>
+<td>1d6+1</td>
+</tr>
+<tr>
+<td>Research: Magical</td>
+<td>5%</td>
+<td>01-50</td>
+<td>51-75</td>
+<td>76-00</td>
+<td>2d6+1</td>
+</tr>
+<tr>
+<td>Research: Mundane</td>
+<td>3%</td>
+<td>01-20</td>
+<td>21-85</td>
+<td>86-00</td>
+<td>1d8+1</td>
+</tr>
+<tr>
+<td>Stable</td>
+<td>1%</td>
+<td>01-05</td>
+<td>06-98</td>
+<td>99-00</td>
+<td>1d3+1</td>
+</tr>
+<tr>
+<td>Tavern</td>
+<td>2%</td>
+<td>01-10</td>
+<td>11-98</td>
+<td>99-00</td>
+<td>1d4+1</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _example_investments_and_problems = {title: "Example Investments and Problems", parent_topics: ["optional_subsystems","investment"], siblings: ["investment_mechanics","example_investments_and_problems"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 165</Link></p>
+<p>The list of investments provided is not meant to be exhaustive; NPC ingenuity could open up all sorts of investments. Some research on medieval and Renaissance technology reveals many ideas the people of those times used to make their lives easier, and some of those ideas can easily become an investment opportunity for the PCs. This section details how particular investments might serve as plot hooks for the PCs involved.</p>
+<p><strong className="hl">Arts:</strong> The entertainers are more volatile or political than the investor had imagined.</p>
+<p><strong className="hl">Banking:</strong> The investor's theoretically impenetrable vault is cracked and the valuables stolen.</p>
+<p><strong className="hl">Crafting:</strong> A labor strike, bandit activity, or an unscrupulous rival blocks access to needed materials.</p>
+<p><strong className="hl">Exploration:</strong> An explorer ends up being unreliable, greedy, or incautious, accidentally releasing ancient evils on an unsuspecting populace.</p>
+<p><strong className="hl">Granary/Mill:</strong> The building catches on fire, either from a simple accident or deliberate arson, and the aerosolized grain causes a massive explosion.</p>
+<p><strong className="hl">Guild:</strong> A rival guild targets the investor's employees, friends, family, or buildings.</p>
+<p><strong className="hl">Imports:</strong> Enemies of the client see a shipment as an opportunity to humiliate or kill the PC and acquire valuable goods.</p>
+<p><strong className="hl">Invention:</strong> The invention fails spectacularly and dangerously, putting the surrounding populace at risk.</p>
+<p><strong className="hl">Protection:</strong> A client you're protecting betrays an assassin's guild, is branded as a heretic by an influential church, or insults a prominent member of the ruling elite.</p>
+<p><strong className="hl">Quarry:</strong> Miners discover a strange hazard such as mutation-inducing crystals or a cave complex full of dangerous monsters.</p>
+<p><strong className="hl">Research:</strong> The research goes awry, or falls into the hands of blackmailers, criminals intent on using it for evil, or rival researchers.</p>
+<p><strong className="hl">Stable:</strong> Sabotage or a deadly accident occurs, or a rustler steals the most valuable mounts.</p>
+<p><strong className="hl">Tavern:</strong> Overheard plans for an ambush spark rumors and property damage.</p>
+</>};
+const _primal_magic = {title: "Primal Magic", parent_topics: ["optional_subsystems"], siblings: ["affiliations","bargaining","contacts","downtime","factions","hero_points","honor","influence","investment","primal_magic","provision_points","relationships","reputation_and_fame","research","spell_alterations","stamina_and_combat_tricks","the_hunger"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 12</Link><br/>In its raw form, magic is not an ordered force - it is the all-encompassing chaos of possibility. The same energies that can be shaped to create explosive fireballs, raise the dead, divine the future, heal the sick, and summon demons can do that and more without the direction of skilled spellcasters. Normally, this unfocused magical potential does not exist in reality; it lies beyond reality, where it waits to be tapped. Where exactly magic comes from remains a lively debate today, but when magic is unleashed without any attempt to focus it - when it leaks into the world in its raw form - the result is known as primal magic.</p>
+<p>In some realms, particularly in planes like the Maelstrom or the Abyss in the Great Beyond, magic is left to indulge in its raw chaos as it wishes - here, primal magic is often called "wild magic." On the Material Plane, the world feels the touch of primal magic when the laws of reality themselves have been damaged. Here, magic flows in unpredictable tides and currents. At one moment, a region might function normally while at another, magic won't function at all. Usually, though, primal magic holds sway.</p>
+<p>Manifestations of primal magic tend to build up potential before they explode into existence. Just as a thunderstorm doesn't constantly lance the ground below with a constant beam of lightning, these bolts manifest periodically and almost randomly. And just as lightning can be called with lightning rods, primal magic can be purposefully or accidentally drawn out by utilizing magic in areas where such energies are building.</p>
+<p>When primal magic manifests, roll on the sample Primal Magic Events table to determine what occurs. As the primal magic exerts its power, consider crossing off the effect that occurs and designing replacement events and effects. If you want primal magic to play a big role in your campaign, you should try to ensure that no two effects are ever quite the same. One easy way to achieve this is to simply substitute random spell effects with unusual descriptions in place of normal ones, such as a black fireball that smells of roses and deals acid damage.</p>
+<p>Spontaneous primal magic effects can occur as often or as infrequently as you wish, but as a general rule, try to limit the effects to one per combat encounter at most. The majority of primal magic effects should instead occur when creatures activate magic items, use spell-like abilities, or cast spells in such an area (simply carrying a magic item or gaining the benefits of a constant-use item or spell effect isn't enough - it's the actual act of activation or casting that triggers primal magic). When a creature activates a magic item, casts a spell, or uses a spell-like ability in an area infused with primal magic, there's a 50% chance that the spell effect is replaced by a primal magic effect. A spellcaster casting a spell, using a spell-like ability, or activating a spell completion or spell trigger magic item can make a <Link to="/rule/concentration">concentration</Link> check (DC = 15 + twice the spell's level) to focus the magic and avoid triggering a primal magic effect. Creatures activating other kinds of magic items do not have the option of making a spellcraft check to avoid triggering a primal magic effect.</p>
+<p>When a primal magic effect occurs naturally, it targets a random creature or location in the vicinity around the PCs or whatever region you wish to inflict the event upon. When the effect occurs, you need to determine the CR of the event. If the event is triggered by a spellcaster or a magic item, the event's CR is equal to the spellcaster's or item's caster level. When an event occurs naturally, you can roll 1d20 to determine the CR. Of course, you should strongly consider lowering primal magic event CRs to match or at least closely approximate the average party level of your PCs. Not all primal magic events are harmful, but it's neither fun nor fair for players to frequently be hit with an effect that's too far beyond their ability to deal with.</p>
+<p>Primal magic events often linger for minutes, hours, or even days. These effects can be dispelled via <Link to="/spell/dispel_magic">dispel magic</Link> and similar spells. Treat the event's CR as its caster level in this case.</p>
+<p>In the sample Primal Magic Events table, the abbreviation "CR" is used to indicate a mathematical value; use the primal magic's CR to set this number. For example, a CR 11 primal magic event that lasts for "CR minutes and affects an area with a radius of CR &times; 5 feet" lasts for 11 minutes and affects an area with a radius of 55 feet.</p>
+<h3 id="rule-primal_magic-unleashing-primal-magic">Unleashing Primal Magic</h3>
+<p>Areas affected by primal magic are like scars upon the rugged flesh of the world, invisibly and intangibly overlaid on the fabric of reality. Generally, areas of primal magic form in places afflicted by forces beyond mortal control - areas scoured by godly wrath, breaches between the planes, sites where powerful artifacts were destroyed. In most of these instances, the primal magic subsides as reality repairs itself, though it might take a matter of weeks, years, or even centuries. In the cases of extreme abuse, an area's magical cohesiveness might never recover, resulting in areas of permanent primal magic. In general, the location of existing areas of primal magic and the creation of new areas is left up to the GM, but should always be the result of magic of extraordinary force or of an arcane catastrophe of epic proportions. Such should be encountered only rarely, allowing such sites to retain their sense of danger and calamitous history.</p>
+<h3 id="rule-primal_magic-sample-primal-magic-events">Sample Primal Magic Events</h3>
+<ScrollContainer id="rule-primal_magic--table-0"><table>
+<thead>
+<tr>
+<th>d%</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>01-06</td>
+<td>Creatures and objects within a radius equal to 5 &times; CR are drained of color for CR minutes. A gnome in this area must make a DC 15 Will save to avoid being shaken by this effect for the duration of the loss of color. This is a mind-affecting fear effect.</td>
+</tr>
+<tr>
+<td>07-10</td>
+<td>A number of strangely colored <Link to="/monster/house_centipede">centipedes</Link> appear in the area. These centipedes ignore non-spellcasters and attack only creatures capable of casting spells or using spell-like abilities. This encounter should be a mix of centipedes that equals the CR of the primal magic event. The corpses of any slain centipedes pivot until their heads point in the direction of the Pit of Gormuz.</td>
+</tr>
+<tr>
+<td>11-14</td>
+<td>Strange music fills the air for CR minutes. Possible choices include the following (roll 1d4): Ulfen battle chants, Chelish opera arias, Desnan prayers, or Vudrani monastic chants. The music instills in those who hear it a strong urge to sing or dance along. A creature who does so gains a +2 morale bonus on attack rolls and saving throws for the duration of the music.</td>
+</tr>
+<tr>
+<td>15-18</td>
+<td>A zone of unluck and a strange pale violet radiance equivalent to candlelight fills a CR &times; 5 foot radius for CR hours. All d20 rolls made in this area must be rolled twice, taking the lower of the two rolls.</td>
+</tr>
+<tr>
+<td>19-22</td>
+<td>One creature's body and all its possessions reverse into a mirror image of themselves. The binding of any book in its possession is reversed, though the text within remains normal and legible. This effect is unusual but has no actual game effect. Reversing this effect is possible via <Link to="/spell/break_enchantment">break enchantment</Link>, <Link to="/spell/limited_wish">limited wish</Link>, <Link to="/spell/miracle">miracle</Link>, <Link to="/spell/polymorph_any_object">polymorph any object</Link>, or <Link to="/spell/wish">wish</Link>.</td>
+</tr>
+<tr>
+<td>23-26</td>
+<td>A circular pit opens under the feet of a random target. The pit creates an extradimensional space in the ground, not an actual pit. The pit is 10 feet deep per CR, but otherwise functions as <Link to="/spell/create_pit">create pit</Link>.</td>
+</tr>
+<tr>
+<td>27-32</td>
+<td>A rain of small objects (anything from flowers to rotten fruit) pelts an area with a radius equal to 5 &times; CR for CR rounds. This strange hail is not harmful, but during this time all creatures in the area gain <Link to="/rule/concealment">concealment</Link> and must make concentration checks (DC 15 + the spell's level) to cast spells.</td>
+</tr>
+<tr>
+<td>33-38</td>
+<td>Positive energy affects a number of creatures not to exceed CR in total. These creatures are affected by a <Link to="/spell/heal">heal</Link> spell (caster level = CR).</td>
+</tr>
+<tr>
+<td>39-44</td>
+<td>Negative energy affects a number of creatures not to exceed CR in total. These creatures are affected by a <Link to="/spell/harm">harm</Link> spell (caster level = CR).</td>
+</tr>
+<tr>
+<td>45-48</td>
+<td>An area with a radius of CR &times; 10 feet becomes utterly dark, as if from a <Link to="/spell/deeper_darkness">deeper darkness</Link> spell.</td>
+</tr>
+<tr>
+<td>49-54</td>
+<td>The environment itself suddenly springs to life and attacks all non-elemental creatures in the immediate area. Treat this event as an encounter with various elementals drawn from the immediate surroundings as appropriate, tailored to be an encounter of a CR equal to that of the primal magic event.</td>
+</tr>
+<tr>
+<td>55-62</td>
+<td>Strange, shifting curtains of color, akin to an aurora borealis, manifest in the sky but are visible only to those in an area equal to CR &times; 10 feet in radius. Every creature in this area must make a Will save (DC 10 + CR) or be dazed by the shifting colors for 1 round. The colors persist for 1 round per CR. Creatures must make a new save each round to avoid becoming dazed. This is a mind-affecting pattern effect.</td>
+</tr>
+<tr>
+<td>63-68</td>
+<td>A random number of creatures not to exceed the event's CR become confused unless they succeed at a Will save (DC = 10 + CR). For each affected creature, this effect persists until that creature's confusion effect results in "act normally," at which point the effect ends for the creature. This is a mind-affecting effect.</td>
+</tr>
+<tr>
+<td>69-74</td>
+<td>A storm of energy (with an equal chances of being acid, cold, electricity, or fire) sweeps through the area in a CR &times; 5-foot radius spread. Each round, the storm inflicts 2 hit points of damage per CR; a Reflex save (DC 10 + CR) halves the damage done. The storm persists for CR rounds.</td>
+</tr>
+<tr>
+<td>75-78</td>
+<td>Strange telekinetic forces rip through the area, attempting to trip all creatures in a CR &times; 10 foot radius. The event makes a trip combat maneuver check against all available targets, using a CMB of 10 + CR. Any creature tripped by the event has its equipment reorganized and tangled by the mischievous telekinesis. Until a creature takes a minute to reorganize its belongings, retrieving a stowed item is a full-round action.</td>
+</tr>
+<tr>
+<td>79-88</td>
+<td>Choose two random creatures in the area, then randomly pick one to be the "wielder" and one to be the "target." Roll on the <Link to="/magic-rod/rod_of_wonder">rod of wonder</Link> table to determine what sort of strange effect occurs between these two creatures.</td>
+</tr>
+<tr>
+<td>89-94</td>
+<td>A teleportation storm occurs. All creatures in the area must make a Will saving throw (DC = 10 + CR). Those who fail are teleported, as if via dimension door, so that they randomly shift places. If this places a creature in an area too small to accept its space, it instead appears in the closest adjacent space that can contain it. If only one creature is affected, it teleports a number of feet equal to CR &times; 5 in a random direction.</td>
+</tr>
+<tr>
+<td>95-98</td>
+<td>A <Link to="/spell/magic_jar">magic jar</Link>-like effect affects two creatures. A Will save (DC = 10 + CR) negates the effect. If one creature fails this save but the other succeeds, the creature that fails the save is merely stunned for 1d4 rounds. If both creatures fail the save, their minds are switched into each other's bodies for a number of rounds equal to the event's CR.</td>
+</tr>
+<tr>
+<td>99-100</td>
+<td>Roll twice, discounting results of 99-100. Both events generated by these rolls occur simultaneously.</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p><strong className="hl">Compare:</strong> Wild Magic under <Link to="/rule/magic_traits">Planar Magic Traits</Link>, <Link to="/rule/wild_magic">Unchained Wild Magic</Link></p>
+</>};
+const _provision_points = {title: "Provision Points", parent_topics: ["optional_subsystems"], siblings: ["affiliations","bargaining","contacts","downtime","factions","hero_points","honor","influence","investment","primal_magic","provision_points","relationships","reputation_and_fame","research","spell_alterations","stamina_and_combat_tricks","the_hunger"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_115_trail_of_the_hunted">Pathfinder #115: Trail of the Hunted pg. 23</Link></p>
+<p>The basic rules for <Link to="/rule/starvation_and_thirst">starvation and thirst</Link> can be found on in the basic rules. The resources the PCs and their followers need to survive are abstracted throughout this adventure as <strong className="hl">Provision Points.</strong> One Provision Point sustains a person for 1 day and consists of a half-gallon of fluid (clean water, or ale, broth, cider, goat's milk, or sheep's milk) and 3 to 5 pounds of stable food (apples, berries, bread, dried boar, dried venison, hard cheese, mushrooms, nuts, pickled vegetables, and smoked trout). The PCs' followers carry their resources in a hodgepodge of bottles, jars, and satchels stuffed into improvised backpacks. Each Provision Point of resources weighs about 10 pounds. Together one trail ration and a waterskin also translate to 1 Provision Point, but weigh only 5 pounds.</p>
+<p>Consuming only half a Provision Point per day sustains a character, but leaves that person distracted and irritable. A character who eats only a half portion takes a -2 penalty on attack rolls, damage rolls, ability checks, skill checks, and saving throws until she consumes a full portion. If a person eats half provisions more than 3 days a week, she doesn't have enough body fat to endure starvation for long, and must begin making Constitution checks each day to avoid taking nonlethal damage.</p>
+<p>If a person eats no provisions in a day, she takes the -2 penalty on all attack rolls, damage rolls, ability checks, skill checks, and saving throws listed above. Typically, a character can go without water for 1 day, or food for 3 days before making Constitution checks to avoid taking nonlethal damage. Remember that a character who takes any nonlethal damage from starvation or thirst also becomes fatigued, imposing additional penalties.</p>
+</>};
+const _relationships = {title: "Relationships", parent_topics: ["optional_subsystems"], siblings: ["affiliations","bargaining","contacts","downtime","factions","hero_points","honor","influence","investment","primal_magic","provision_points","relationships","reputation_and_fame","research","spell_alterations","stamina_and_combat_tricks","the_hunger"], subtopics: ["relationship_levels","growing_relationships","reversing_relationships","example_relationships"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 176</Link></p>
+<p>No villain ever seems to understand that when he threatens a hero's family, things go south for him. After all, nothing gives the beleaguered champion one last surge of strength like the sight of a loved one in peril. Relationships are the cornerstone of all that heroes are and can be.</p>
+<p>This section helps you create dynamic and important relationships for player characters. Building a relationship between a PC and a key NPC can eventually grant that PC unique advantages and boons - whether the relationship is amiable or adversarial.</p>
+<p>When your PC first meets a significant NPC (assuming the NPC isn't already part of your character's backstory), the GM may inform you that your PC can build a relationship with that NPC. If you are interested in doing so, record the NPC's name on your character sheet, the current Relationship Score you have with that NPC, and whether the relationship is friendly or competitive. Normally, your <strong className="hl">Relationship Score</strong> for a new contact is equal to your Charisma modifier, but the GM may decide that a relationship with a character tied to your backstory starts with a higher Relationship Score.</p>
+<p>A relationship with an NPC can be either friendly or competitive - you get to choose which kind to pursue. Various in-game events can spontaneously change a relationship from one type to the other.</p>
+</>};
+const _relationship_levels = {title: "Relationship Levels", parent_topics: ["optional_subsystems","relationships"], siblings: ["relationship_levels","growing_relationships","reversing_relationships","example_relationships"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 176</Link></p>
+<p>Your <strong className="hl">Relationship Level</strong> with an NPC is based on your <strong className="hl">Relationship Score,</strong> which can increase in play (see Growing Relationships). You gain new benefits when an NPC's relationship with you progresses to a new level.</p>
+<ScrollContainer id="rule-relationship_levels--table-0"><table>
+<thead>
+<tr>
+<th>Relationship Score</th>
+<th>Relationship Level</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>5 or lower</td>
+<td>Association</td>
+</tr>
+<tr>
+<td>06-11</td>
+<td>Friendship/Competition</td>
+</tr>
+<tr>
+<td>12-30</td>
+<td>Fellowship/Rivalry</td>
+</tr>
+<tr>
+<td>31 or higher</td>
+<td>Devotion/Enmity</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p><strong className="hl">Association:</strong> You and the NPC know each other, but not well enough to have a significant bond.</p>
+<p><strong className="hl">Friendship/Competition:</strong> You are a good friend or known competitor of the NPC. Whenever you gain this Relationship Level with an NPC for the first time, your party gains 200 XP. The first time you gain this benefit in a campaign, your party gains an additional 200 XP. Most existing relationships from a backstory start at this level, and such a relationship does not grant you XP, as it predates the start of play.</p>
+<p><strong className="hl">Fellowship/Rivalry:</strong> You have strong ties to the NPC, either through deep mutual respect and admiration or through a strong sense of competition and conflict. As long as the other NPC is alive and active in the campaign, you gain a +1 morale bonus on all Charisma-based skill checks. Whenever you gain this Relationship Level with an NPC for the first time, your party gains 600 XP. The first time you gain this benefit in a campaign, your party gains an additional 600 XP.</p>
+<p><strong className="hl">Devotion/Enmity:</strong> You and the NPC are devoted to each other or actively opposed to one another. Whenever you gain this Relationship Level with an NPC for the first time, your party gains 1,600 XP. The first time you gain this benefit in a campaign, your party gains an additional 1,600 XP.</p>
+<p>When a relationship with an NPC reaches this strength, it grants you a bonus <Link to="/rule/traits">trait</Link>, whether your relationship is friendly or competitive and whether this is your first relationship to do so or the latest in a series of strong relationships. The nature of this trait is decided by the GM, and is specific to the NPC and the campaign (for example, the bonus trait from a notable NPC fighter is probably about combat rather than improving spell DCs). You keep this trait for as long as the NPC is alive and active in the campaign; if the NPC dies, retires, or otherwise is no longer an active part of the campaign, you lose the trait.</p>
+<p>The bonus XP from a relationship is divided among all PCs, just like other campaign-based XP awards. You can't gain XP bonuses from reaching a particular new Relationship Level with an individual NPC more than once (such as if you decrease your Relationship Level with an NPC or change its nature and bring it back up).</p>
+</>};
+const _growing_relationships = {title: "Growing Relationships", parent_topics: ["optional_subsystems","relationships"], siblings: ["relationship_levels","growing_relationships","reversing_relationships","example_relationships"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 177</Link></p>
+<p>You can change your Relationship Score with an NPC in the following ways.</p>
+<p><strong className="hl">Campaign Trait:</strong> If your GM is using <Link to="/main/traits_campaign">campaign traits</Link> for this campaign, and you have a campaign trait associated with a specific NPC, your Relationship Score with that NPC gains a one-time increase of 4 points.</p>
+<p><strong className="hl">Charisma:</strong> Since your base Relationship Score with any NPC is equal to your Charisma modifier, when your Charisma score changes permanently (such as from Charisma drain or a <Link to="/magic-wondrous/headband_of_alluring_charisma">headband of alluring charisma</Link>), your Relationship Scores with NPCs change with it. Temporary changes, such as from ability damage or bonuses from spells like <Link to="/spell/eagles_splendor">eagle's splendor</Link>, do not alter Relationship Scores.</p>
+<p><strong className="hl">Companionship:</strong> Every time you gain a character level, you may increase your Relationship Score with one NPC still active in the campaign by 1 point.</p>
+<p><strong className="hl">Gifts and Insults:</strong> A special gift can increase a friendly Relationship Score with an NPC, and a perfectly crafted insult can increase a competitive Relationship Score. Gifts and insults can't be just anything - each NPC reacts strongly to different things. When you establish a relationship, the GM should suggest one kind of gift or insult appropriate to the NPC. You can learn other relevant gifts or insults by observing the NPC in play.</p>
+<p>Every time you gain a character level, you may give one special gift to or craft one perfect insult for each NPC with whom you have a relationship. The gift can be an item you found, built, or purchased. In most cases, the cost of the item is irrelevant as long as it's an honest gift.</p>
+<p>When you think you have the right kind of gift or the right insult, inform the GM of your intent, then make a Diplomacy check (for a gift) or an Intimidate check (for an insult). If you roleplay the gift or insult's delivery particularly well, the GM might award up to a +4 bonus on this check. If you roleplay the interaction poorly, or if you time things badly enough (attempting to give a gift in the middle of combat, for example), the GM might give up to a -4 penalty on the check. The DC for this check is equal to your current Relationship Score with the NPC. If you succeed, your Relationship Score with that NPC increases by 1 point. If you exceed the DC by 10 or more, it increases by 2 points instead. Failure means there's no change.</p>
+<p><strong className="hl">Special Events:</strong> Certain events in a campaign can alter your Relationship Score with an NPC, such as saving a friend from execution or humiliating a competitor in public. The GM should inform you of these adjustments if and when they occur. These events generally increase your Relationship Score with that NPC by 1 to 5, but a particularly dramatic event can increase it by up to 10.</p>
+</>};
+const _reversing_relationships = {title: "Reversing Relationships", parent_topics: ["optional_subsystems","relationships"], siblings: ["relationship_levels","growing_relationships","reversing_relationships","example_relationships"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 177</Link></p>
+<p>If you want to deliberately change a relationship from friendly to competitive, you can do so by insulting or rejecting the NPC. This also automatically reduces your Relationship Score with that NPC by half.</p>
+<p>If you want to change a relationship from competitive to friendly, you must offer the NPC a gift and make a Diplomacy check at a DC 10 higher than the normal gift check. If you succeed, the relationship changes to friendly, but your Relationship Score with that NPC is reduced by half. If you fail by less than 10, the relationship remains competitive, but you may reduce your Relationship Score with that NPC by 1 (representing the weakening of your rivalry). If you fail by more than 10, the relationship's nature and Relationship Score don't change.</p>
+</>};
+const _example_relationships = {title: "Example Relationships", parent_topics: ["optional_subsystems","relationships"], siblings: ["relationship_levels","growing_relationships","reversing_relationships","example_relationships"], subtopics: ["parent","sibiling","childhood_rival","spouse"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 177</Link></p>
+<p>Listed below are some of the familial relationships likely to be significant to a character, as well as adventure hooks, roleplaying advice, and ways to make the relationship grow over time.</p>
+</>};
+const _parent = {title: "Parent", parent_topics: ["optional_subsystems","relationships","example_relationships"], siblings: ["parent","sibiling","childhood_rival","spouse"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 177</Link></p>
+<p>Whether a progenitor or a parental figure (like a mentor or teacher), a parent often embodies the sense of debt and responsibility a character has for his origins and past.</p>
+<p><strong className="hl">Adventure Hooks:</strong> For younger characters, parents might represent an authority of some kind, with power to bring them back home or to any other place where the parent needs some kind of service or duty performed. For older characters, parents can represent the need to repay all the debts and kindnesses of being reared. Some adventure hooks include:</p>
+<ul>
+<li>Your father calls you back home from the frivolity of adventuring to mind the family lands or to take over for the family business.</li>
+<li>Your retired adventurer mother asks you to settle one last quest that she failed to complete.</li>
+<li>Your elderly grandfather is facing death (whether from a curse, disease, or natural causes), spurring you to quest for a cure or locate lore on extending life. This may be an altruistic choice or to spare you the burden of inheriting his responsibilities.</li>
+</ul>
+<p><strong className="hl">Roleplaying Advice:</strong> Most parents are driven to guide their children, even well into adulthood sometimes. If you learned magic by studying your father's spellbooks and have now surpassed his ability, he might still offer advice and "lessons" on the proper use of magic. If your mother is knowledgeable about world events, she might withhold key information to prevent you from taking on a dangerous quest. A competitor parent might walk the line between maintaining the relationship and manipulating you for some ultimate goal.</p>
+<p><strong className="hl">Growing the Relationship:</strong> One of the easiest ways to show growth is for a parent to become less directly involved in your life. As you achieve higher levels and more prestige, your parents may come to accept that you're a competent adult. Her acknowledgment of your skill could lead to a mother shifting from guardian to mentor. Your parents could become well-meaning but exasperating antagonists who constantly test you. A competitor father whose talent is surpassed by yours might oppose you because he believes you're ungrateful, or even become a villain in the campaign.</p>
+</>};
+const _sibiling = {title: "Sibiling", parent_topics: ["optional_subsystems","relationships","example_relationships"], siblings: ["parent","sibiling","childhood_rival","spouse"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 178</Link></p>
+<p>Sibling relationships have been the basis of folklore and mythology for ages, and for good reason. Unlike a parent, a sibling is your direct peer, a living mirror who forces you to confront your past deeds and future potential.</p>
+<p><strong className="hl">Adventure Hooks:</strong> No matter how disparate a sibling's current social status, financial standing, or chosen profession might be from yours, the ties of blood and family often obligate you to aid him. Some adventure hooks include:</p>
+<ul>
+<li>Your brother is considering arranged marriages from several influential families. He asks you to investigate them to find which bride might be both a worthy match for the family and a good spouse for him.</li>
+<li>Your sister signed on to a dangerous expedition to harness rare material spell components and hasn't returned. It is your duty to find her - and if she is dead, complete her contracted service.</li>
+<li>Your brother has finally decided to impress your parents and asks for your help in tracking down and slaying a powerful monster in order to restore the family fortune. He won't survive if he goes on his own.</li>
+<li>Your foolhardy younger siblings were swindled into buying barren land with a monster-infested mine on it. They are now trapped and you must intervene before they are killed.</li>
+<li>Your long-lost sibling returns at the same time that a rash of mysterious crimes occurs. Your sibling could be responsible for the crimes or have information about their true cause.</li>
+</ul>
+<p><strong className="hl">Roleplaying Advice:</strong> The most important aspect to roleplaying a sibling relationship is to know his age in relation to yours. A younger sibling might be well-intentioned but desperate to prove himself to you. An older sibling might have difficulty letting go of an authority figure role, even if you've proven yourself in battles and quests. If you have lost a parent, an older sibling could take on the caregiver role. Middle siblings are often mediators or quietly overlooked by the rest of the family, and could enjoy or resent this position, perhaps acting out to draw attention from other members of the family.</p>
+<p><strong className="hl">Growing the Relationship:</strong> This often relies on how the sibling reacted to your last endeavor. If your brother allows you to take the blame for his crimes, but returns to clear your name at the last minute, he may be trying to give up old habits. A sibling adventurer might attempt to gain understanding of your perspective by taking a level in a character class you have.</p>
+</>};
+const _childhood_rival = {title: "Childhood Rival", parent_topics: ["optional_subsystems","relationships","example_relationships"], siblings: ["parent","sibiling","childhood_rival","spouse"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 178</Link></p>
+<p>A childhood rival might be someone who used to bully you, an apprentice of the same mentor who competed against you for privileges, or a contemporary in your field who resented your opportunities or scoffed at your inferior birth status. This rival might openly hate you, pretend to like you while plotting your downfall, or respect you but have goals that conflict with yours. Backstabbing, cliques, peer pressure, and rumors are her weapons - the rival is someone who has known you for a long time and knows what buttons to push to annoy or distract you.</p>
+<p><strong className="hl">Adventure Hooks:</strong> Whether the rivalry is a slow boil or ragingly violent, this person is a strong tie to your past, and the core of many memories. Some adventure hooks include:</p>
+<ul>
+<li>An old mentor has fallen ill or passed away, and you and your rival have been called to put the mentor's affairs in order - and perhaps carry out an ambiguous will.</li>
+<li>A threat to your hometown sends you running to deal with it, only to find your old rival is there with different and dangerous ideas on how to remedy the problem.</li>
+<li>The rival unexpectedly reappears in your life and wishes to make amends. This could be a sincere change, a ploy for trust, or another attempt to humiliate you.</li>
+<li>Your rival is the leader of another adventuring group and issues a challenge to your party, such as a race to retrieve a legendary artifact or a public battle for a political prize.</li>
+<li>The rival wants to hire you to perform a quest, but the specifics are mysterious and she won't tell you what happened to the last group hired.</li>
+</ul>
+<p><strong className="hl">Roleplaying Advice:</strong> With this sort of relationship, you have to identify the original conflict with the rival. Perhaps you were an easy target because you were physically weaker. Perhaps you had a different religion, were of a different race or gender, or practiced a different kind of magic. Perhaps you were the instigator (knowingly or unknowingly) of this conflict, the rival is the original victim, and you are dealing with the consequences of your own bad behavior.</p>
+<p>With this knowledge, find a way to justify the rival's behavior toward you: encouraging you to overcome your weakness, convert to a morally superior religion, see the benefits of a different magical school, and so on. You might not agree with these reasons, and they could make you angry, ashamed, or vengeful, but they drive the roleplaying for the conflict.</p>
+<p><strong className="hl">Growing the Relationship:</strong> Identifying the rival's main motivation could be the way to turn the tables on him. By beating the rival at his own game, you become the dominant one in the relationship. For bullying rivals, this might even convince his allies or neutral parties to rally to your side and turn against the instigator of the rivalry. If the problem stems from the rival's weakness or insecurity, challenging the source of the conflict or making sincere attempts to become friends might turn the rival into a staunch ally - many relationships start with two parties disliking each other, only to grow into friendship after conflict.</p>
+</>};
+const _spouse = {title: "Spouse", parent_topics: ["optional_subsystems","relationships","example_relationships"], siblings: ["parent","sibiling","childhood_rival","spouse"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 179</Link></p>
+<p>Romantic entanglements can be the stuff of roleplaying dreams. They add drama, tension, and excitement, and can raise the campaign stakes to unprecedented levels. Perhaps the most important facet of your relationship with your spouse hinges on how the two of you met. Furthermore, your spouse's role in the campaign affects you and the other PCs. When your paladin falls in love with the party cleric, marriage might not adversely affect the group dynamic - but if you marry the innkeeper in your favorite town, it could lead to a sedentary lifestyle and a divided loyalty between your fellow adventurers and your spouse's community.</p>
+<p><strong className="hl">Adventure Hooks:</strong> Despite possibly grounding your PC to a specific area, a spouse can offer several strong adventure hooks. Possible hooks include:</p>
+<ul>
+<li>You and your spouse married in secret, without the approval of his influential family. You must prove yourself worthy to your new in-laws with quests that will improve their financial and social status (and thus their impression of you).</li>
+<li>Your merchant spouse must deliver a message or item to another merchant, but you realize it is a coded missive between members of the thieves' guild planning an assassination. You must stop the attack in such a way that it doesn't invite reprisals against your spouse.</li>
+<li>Your divine spellcaster spouse has accidentally and unknowingly violated an obscure tenet of faith by marrying you, and has lost all class abilities. Rather than abandon you for the church, your spouse insists on traveling to the high temple to beseech special dispensation for your marriage.</li>
+</ul>
+<p><strong className="hl">Roleplaying Advice:</strong> A spouse's main drive as a character is usually the well-being of the other half of the relationship. For adventuring couples, this might mean selecting feats or spells that uniquely complement each other's strengths. For conventional professions, this may mean developing useful connections and contacts. In an unhealthy marriage, the spouse is a competitor, and you might be the victim of tiny sabotages, like your partner secretly taking adventuring gear from you, or greater offenses such as your spouse feeding information to your rivals or enemies.</p>
+<p><strong className="hl">Growing the Relationship:</strong> Married adventurers must balance the need for income and glory against the desire for safety and stability. A well-meaning spouse can influence your adventuring habits by making demands on your time and resources. Even a loving marriage might develop friction in the face of your adventuring. Questions about responsibilities over raising children - particularly if both parents continue adventuring - can cause conflict and resentment. Local customs might place burdens on you or your spouse. You can't simply treat your marriage like a familiar, remembering it only when it's convenient and stuffing it in a metaphorical backpack when not.</p>
+</>};
+const _reputation_and_fame = {title: "Reputation and Fame", parent_topics: ["optional_subsystems"], siblings: ["affiliations","bargaining","contacts","downtime","factions","hero_points","honor","influence","investment","primal_magic","provision_points","relationships","reputation_and_fame","research","spell_alterations","stamina_and_combat_tricks","the_hunger"], subtopics: ["fame","sphere_of_influence","prestige_points","shared_fame","alter_egos_aliases_and_secret_identities"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 180</Link></p>
+<p>Though some heroes content themselves with living off the spoils of their exploits or cloaking themselves in humility, others seek to live forever through the sagas and songs of their epic deeds. History measures a hero's success by tales of triumph and bravery that are retold down the ages. A hero with no one to tell her story quickly fades into obscurity along with her unsung accomplishments. How others tell of a hero's deeds becomes the weight by which she is measured, sculpting both her identity and reputation.</p>
+<p>Reputation represents how the general public perceives you, whether positively or negatively. This perception precedes you, speaking on your behalf when you are absent and determining how you can expect to be treated by those who have heard of you. Reputation means different things to different types of characters, reflected in the social and cultural values of different regions. A character who embodies the qualities of a hero in one region may be perceived as villainous or disreputable in another. An icon widely revered and respected in her homeland may slip from fame into obscurity upon traveling to a neighboring kingdom.</p>
+<p>When using these reputation rules, the GM needs to establish what reputation means to the players and NPCs of the campaign. For instance, a viking-themed campaign might base reputation on pillaging. Regardless, the basic concept for how you earn a reputation remains the same: You gain reputation when word of your deeds spreads. The more fantastic or socially significant your deeds, the better tales they make. If you are able to establish a strong or noteworthy reputation, you may be extolled for your actions and afforded resources beyond those obtainable by lesser-known individuals. Similarly, you can use your reputation to influence people socially, politically, and financially.</p>
+<p>Three factors determine your reputation: Fame, Sphere of Influence, and Prestige Points. Your Fame increases and decreases depending on your actions. Your current Fame determines your overall reputation and maximum potential for cashing in on your fame (for a heroic character) or infamy (for a villainous character). Sphere of Influence defines the places where you can apply the benefits of your reputation. You can reap the benefits of your reputation by spending Prestige Points on awards, including temporary bonuses and favors.</p>
+</>};
+const _fame = {title: "Fame", parent_topics: ["optional_subsystems","reputation_and_fame"], siblings: ["fame","sphere_of_influence","prestige_points","shared_fame","alter_egos_aliases_and_secret_identities"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 181</Link></p>
+<p>You begin play with a Fame equal to your character level + your Charisma modifier. Your Fame ranges from -100 to 100, with 0 representing a lack of any notoriety. Through the course of the campaign, your words and deeds help you build a reputation. Though an adventurer performs many deeds, not all are significant enough to warrant a change in Fame. If possible, the GM should stick to those deeds that directly affect the story or campaign and not reward points for minor victories. The significance of specific deeds should generally be left up to the GM, though Table 3-5 details some specific examples.</p>
+<h3 id="rule-fame-disrepute-and-infamy">Disrepute and Infamy</h3>
+<p>If your Fame drops below 0, your reputation is based on infamy rather than fame. Treat your Fame as a positive number instead of a negative number for all rules relating to Fame, Sphere of Influence, and Prestige Points (for example, a villainous Fame of -20 is equivalent to a heroic Fame of 20 for the purpose of determining what awards you can buy).</p>
+<p>If an event would increase your Fame, you may choose to increase your Fame (bringing it closer to 0) or decrease your Fame (making it a larger negative number). For example, if your Fame is -20 and you publicly roll a 30 on a Craft check to create a masterwork sword (normally worth +2), you may increase your Fame to -18 or decrease it to -22. Negative events that decrease your Fame always count as negative (a villain attacking innocent people doesn't make the public like him more).</p>
+<p>If you have a negative Fame, nonevil NPCs often have unfriendly or hostile reactions to you (see Table 3-7: Negative Fame Reactions). Note that if you have a reputation for being powerful and dangerous, NPCs might avoid you rather than confront you.</p>
+<h3 id="rule-fame-table-3-5-fame-events">Table 3-5: Fame Events</h3>
+<ScrollContainer id="rule-fame--table-0"><table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Fame Modifier</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Acquire a noteworthy treasure from a worthy foe<sup><InnerLink showBacklink="backlink-rule-fame-ref-1-1" id="rule-fame-ref-1-1" data-hash-target to="rule-fame-1">1</InnerLink></sup></td>
+<td>+1</td>
+</tr>
+<tr>
+<td>Confirm two successive critical hits in a CR-appropriate encounter</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>Consecrate a temple to your deity</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>Craft a powerful magic item</td>
+<td>+1<sup><InnerLink showBacklink="backlink-rule-fame-ref-2-1" id="rule-fame-ref-2-1" data-hash-target to="rule-fame-2">2</InnerLink></sup></td>
+</tr>
+<tr>
+<td>Gain a level in a PC class</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>Locate and disarm three or more CR-appropriate traps in a row</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>Make a noteworthy historical, scientific, or magical discovery<sup><InnerLink showBacklink="backlink-rule-fame-ref-3-1" id="rule-fame-ref-3-1" data-hash-target to="rule-fame-3">3</InnerLink></sup></td>
+<td>+1</td>
+</tr>
+<tr>
+<td>Own a legendary item or artifact</td>
+<td>+1<sup><InnerLink showBacklink="backlink-rule-fame-ref-4-1" id="rule-fame-ref-4-1" data-hash-target to="rule-fame-4">4</InnerLink></sup></td>
+</tr>
+<tr>
+<td>Receive a medal or similar honor from a public figure</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>Return a significant magic item or relic to its owner</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>Sack the stronghold of a powerful noble</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>Single-handedly defeat an opponent with a CR higher than your level</td>
+<td>+1<sup><InnerLink showBacklink="backlink-rule-fame-ref-5-1" id="rule-fame-ref-5-1" data-hash-target to="rule-fame-5">5</InnerLink></sup></td>
+</tr>
+<tr>
+<td>Win a combat encounter with a CR of your APL + 3 or more</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>Defeat in combat a person who publicly defamed you</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Succeed at a DC 30 or higher Craft check to create a work of art or masterwork item<sup><InnerLink showBacklink="backlink-rule-fame-ref-6-1" id="rule-fame-ref-6-1" data-hash-target to="rule-fame-6">6</InnerLink></sup></td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Succeed at a DC 30 or higher public Diplomacy or Intimidate check<sup><InnerLink showBacklink="backlink-rule-fame-ref-6-2" id="rule-fame-ref-6-2" data-hash-target to="rule-fame-6">6</InnerLink></sup></td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Succeed at a DC 30 or higher public Perform check<sup><InnerLink showBacklink="backlink-rule-fame-ref-6-3" id="rule-fame-ref-6-3" data-hash-target to="rule-fame-6">6</InnerLink></sup></td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Complete an adventure with a CR appropriate for your APL<sup><InnerLink showBacklink="backlink-rule-fame-ref-7-1" id="rule-fame-ref-7-1" data-hash-target to="rule-fame-7">7</InnerLink></sup></td>
+<td>+3</td>
+</tr>
+<tr>
+<td>Earn a formal title (lady, lord, knight, and so on)</td>
+<td>+3</td>
+</tr>
+<tr>
+<td>Defeat a key rival in combat</td>
+<td>+5</td>
+</tr>
+<tr>
+<td>Be convicted of a petty crime</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>Keep company with someone of disreputable character<sup><InnerLink showBacklink="backlink-rule-fame-ref-8-1" id="rule-fame-ref-8-1" data-hash-target to="rule-fame-8">8</InnerLink></sup></td>
+<td>-1</td>
+</tr>
+<tr>
+<td>Be convicted of a serious non-violent crime</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Publicly flee an encounter of a CR lower than your APL</td>
+<td>-3</td>
+</tr>
+<tr>
+<td>Attack innocent people</td>
+<td>-5</td>
+</tr>
+<tr>
+<td>Be convicted of a serious violent crime</td>
+<td>-5</td>
+</tr>
+<tr>
+<td>Publicly lose an encounter of a CR equal to or lower than your APL</td>
+<td>-5</td>
+</tr>
+<tr>
+<td>Be convicted of murder</td>
+<td>-8</td>
+</tr>
+<tr>
+<td>Be convicted of treason</td>
+<td>-10</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="rule-fame-table-3-7-negative-fame-reactions">Table 3-7: Negative Fame Reactions</h3>
+<ScrollContainer id="rule-fame--table-1"><table>
+<thead>
+<tr>
+<th>Fame</th>
+<th>Reaction</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-5</td>
+<td>Merchants, hirelings, and innkeepers overcharge you by 10% to discourage you from doing business in their community.</td>
+</tr>
+<tr>
+<td>-8</td>
+<td>Merchants, hirelings, and innkeepers refuse to accept your business. If you enter a business, you are immediately asked to leave. If you refuse, the owner calls for the authorities or locals to throw you out</td>
+</tr>
+<tr>
+<td>-10</td>
+<td>When you approach, businesses shutter their windows and bar their doors. Most citizens refuse to speak with you. Others request that you leave immediately. If you remain for longer than 24 hours or act out against the citizens, your Fame decreases by 5 and the citizens form a mob to run you out of town.</td>
+</tr>
+<tr>
+<td>-15</td>
+<td>Incensed that you display the gall to enter their community, an angry mob gathers. If you do not leave within a few minutes, the mob starts pelting you with fruit, sticks, and rocks.</td>
+</tr>
+<tr>
+<td>-20</td>
+<td>An angry mob forms shortly after you enter town. Not willing to wait for a potentially corrupt trial, they attempt to capture you and execute you for your crimes.</td>
+</tr>
+<tr>
+<td>-25</td>
+<td>An authority figure has issued a warrant for your arrest, including a reward to anyone who captures you. This is well known and many are eager to collect it.</td>
+</tr>
+<tr>
+<td>-30</td>
+<td>An authority figure has issued a bounty for your head. This is well known and many are eager to collect it.</td>
+</tr>
+</tbody></table></ScrollContainer>
+<section data-footnotes>
+<h3 id="rule-fame-label">Footnotes</h3>
+<ol>
+<li id="rule-fame-1">
+<p>This includes claiming a treasure from a defeated monster or rival. A villainous character may include stealing such an item instead of obtaining it fairly. <InnerLink id="backlink-rule-fame-ref-1-1" data-hash-target to="rule-fame-ref-1-1" aria-label="Back to reference 1-1">↩</InnerLink></p>
+</li>
+<li id="rule-fame-2">
+<p>Per 40,000 gp of the item's price. <InnerLink id="backlink-rule-fame-ref-2-1" data-hash-target to="rule-fame-ref-2-1" aria-label="Back to reference 2-1">↩</InnerLink></p>
+</li>
+<li id="rule-fame-3">
+<p>Such as finding the ruins of a lost city, recovering forgotten lore, or creating a useful new spell. <InnerLink id="backlink-rule-fame-ref-3-1" data-hash-target to="rule-fame-ref-3-1" aria-label="Back to reference 3-1">↩</InnerLink></p>
+</li>
+<li id="rule-fame-4">
+<p>Per 40,000 gp of the item's price. Artifacts with no price count as 200,000 gp (5 PP) for this purpose. <InnerLink id="backlink-rule-fame-ref-4-1" data-hash-target to="rule-fame-ref-4-1" aria-label="Back to reference 4-1">↩</InnerLink></p>
+</li>
+<li id="rule-fame-5">
+<p>Per CR the opponent is above your level. <InnerLink id="backlink-rule-fame-ref-5-1" data-hash-target to="rule-fame-ref-5-1" aria-label="Back to reference 5-1">↩</InnerLink></p>
+</li>
+<li id="rule-fame-6">
+<p>You may increase your Fame in this way no more than once per month. <InnerLink id="backlink-rule-fame-ref-6-1" data-hash-target to="rule-fame-ref-6-1" aria-label="Back to reference 6-1">↩</InnerLink> <InnerLink id="backlink-rule-fame-ref-6-2" data-hash-target to="rule-fame-ref-6-2" aria-label="Back to reference 6-2">↩<sup>2</sup></InnerLink> <InnerLink id="backlink-rule-fame-ref-6-3" data-hash-target to="rule-fame-ref-6-3" aria-label="Back to reference 6-3">↩<sup>3</sup></InnerLink></p>
+</li>
+<li id="rule-fame-7">
+<p>Approximately the length of a Pathfinder Module or Pathfinder Adventure Path adventure. <InnerLink id="backlink-rule-fame-ref-7-1" data-hash-target to="rule-fame-ref-7-1" aria-label="Back to reference 7-1">↩</InnerLink></p>
+</li>
+<li id="rule-fame-8">
+<p>Per week of close association. <InnerLink id="backlink-rule-fame-ref-8-1" data-hash-target to="rule-fame-ref-8-1" aria-label="Back to reference 8-1">↩</InnerLink></p>
+</li>
+</ol>
+</section>
+</>};
+const _sphere_of_influence = {title: "Sphere of Influence", parent_topics: ["optional_subsystems","reputation_and_fame"], siblings: ["fame","sphere_of_influence","prestige_points","shared_fame","alter_egos_aliases_and_secret_identities"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 181</Link></p>
+<p>Your reputation travels only as far as the tales of your deeds. Even if you are a great hero in your homeland, when traveling elsewhere you will soon discover that your reputation diminishes until you eventually reach regions where you are completely unrecognized. The greater your reputation, the farther it travels and the broader your Sphere of Influence.</p>
+<p>Your Fame determines the maximum range of your Sphere of Influence. Your Sphere of Influence has a radius of 100 miles, generally increasing by another 100 miles when your Fame reaches 10, 20, 30, 40, and 55. Increasing your Sphere of Influence isn't always automatic, and you are allowed some say as to where your reputation holds weight. For example, you could ask that your sphere extend more southward toward a major city and ignores the barbarian tribes to the east, or that it extend inward toward another country rather than out into the ocean.</p>
+<p>Though your reputation may spread by happenstance, it usually spreads deliberately, whether by traveling bards embellishing stories of your accomplishments to make them more entertaining, your allies exaggerating your common achievements, your enemies repeating rumors about you to recruit others against you, or you telling your story to eager listeners. Where these tales get told determines where you become known and shapes your Sphere of Influence - a heroic sorcerer might hire bards to brag about her magic in a nearby kingdom she plans to visit, or a villainous barbarian might drive the maimed survivors of his raids southward to sow fear among his next victims.</p>
+<p>Outside your Sphere of Influence, your Fame is 0. You can attempt to expand your Sphere of Influence into a new settlement by attempting a DC 30 Charisma, Diplomacy, or Intimidate check. If you succeed, you treat the settlement as being within your Sphere of Influence for 1d4 days, though your Fame is effectively halved for that settlement. After this time, the settlement reverts to being outside your sphere.</p>
+<p>The following actions and conditions alter your Charisma, Diplomacy, or Intimidate check modifier for the purpose of expanding your Sphere of Influence.</p>
+<h3 id="rule-sphere_of_influence-table-3-6-sphere-of-influence-modifiers">Table 3-6: Sphere of Influence Modifiers</h3>
+<ScrollContainer id="rule-sphere_of_influence--table-0"><table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Check Modifier</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Allies or minions spread tales of your deeds before you arrive</td>
+<td>+5</td>
+</tr>
+<tr>
+<td>A bard spreads tales or songs of your deeds before you arrive</td>
+<td>+1/2 bard level</td>
+</tr>
+<tr>
+<td>You have NPC contacts in the settlement</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>You have enemies in the settlement</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>Distance from your Sphere of Influence</td>
+<td>-1 per 10 miles</td>
+</tr>
+<tr>
+<td>Settlement's primary language is different from yours</td>
+<td>-5</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _prestige_points = {title: "Prestige Points", parent_topics: ["optional_subsystems","reputation_and_fame"], siblings: ["fame","sphere_of_influence","prestige_points","shared_fame","alter_egos_aliases_and_secret_identities"], subtopics: ["fame_1","fame_10","fame_20","fame_30","fame_40","fame_55"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 182</Link></p>
+<p>Prestige Points represent your ability to leverage your Fame. You earn Prestige Points (PP) by completing objectives during the course of play. The GM decides which deeds, goals, or story elements are most important and awards players for completing them accordingly. Each time your Fame increases, you also gain 1 Prestige Point. In a typical campaign, you should gain approximately 4 to 6 Prestige Points per character level. Your current Prestige Points can never exceed your Fame. You can't share Prestige Points with other characters; only the character who earned them can spend them. Most of the time, you spend points on rewards: titles, temporary abilities, or bonuses on tasks associated with your interests.</p>
+<h3 id="rule-prestige_points-awards">Awards</h3>
+<p>Spending Prestige Points earns you awards: temporary bonuses or favors. Each time you want to use an award, you must spend the Prestige Points for that award. Unless otherwise stated, bonuses from spending Prestige Points do not stack (for example, you can't combine the Hero's Luck award with the Lore of Ages award to gain a +9 bonus on a Knowledge check). Spending Prestige Points on a reward is not an action. You may only spend Prestige Points within your Sphere of Influence.</p>
+<p>Titles are a special category of award that is permanent instead of temporary. Unless a title's description says otherwise, you can only select a particular title once.</p>
+<p>The following are examples of awards and titles for various thresholds of Fame. You must have at least the listed Fame to select a reward from that category. For example, you must have a Fame of at least 10 to select the Wanderer title, even if you have the 5 Prestige Points to spend on it.</p>
+</>};
+const _fame_1 = {title: "Fame 1", parent_topics: ["optional_subsystems","reputation_and_fame","prestige_points"], siblings: ["fame_1","fame_10","fame_20","fame_30","fame_40","fame_55"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 182</Link></p>
+<p>This is the starting Fame for a new 1st-level adventurer.</p>
+<p><strong className="hl">Hero's Luck (1 PP):</strong> You gain a +4 luck bonus on a single skill check. You must use this award before you attempt the check in question.</p>
+<p><strong className="hl">Palm Greaser (Title, 4 PP):</strong> In any settlement of at least 5,000 inhabitants, you may locate a corrupt official. If you're imprisoned or fined for crimes committed in the settlement's jurisdiction, you may take advantage of this contact. You pay no fines and escape sentencing if you can make a Diplomacy check (DC 15 for petty crimes, 20 for serious crimes, or 25 for capital crimes). You can use this ability once per game session. You may select this title once for each settlement in your Sphere of Influence; each time you select it, choose one settlement where you may use the award.</p>
+<p><strong className="hl">Planar Pact (5 PP):</strong> You gain the services of an imp, mephit, quasit, or similar extraplanar creature from the <Link to="/feat/improved_familiar">Improved Familiar</Link> list. You can choose a creature with an alignment up to 1 step away from yours on each alignment axis. The creature acts as your willing servant for a number of encounters equal to your Intelligence, Wisdom, or Charisma bonus (whichever is highest), but remains for no more than 24 hours. The creature is a called outsider and automatically returns to its home plane at the end of this service.</p>
+</>};
+const _fame_10 = {title: "Fame 10", parent_topics: ["optional_subsystems","reputation_and_fame","prestige_points"], siblings: ["fame_1","fame_10","fame_20","fame_30","fame_40","fame_55"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 182</Link></p>
+<p>This is the typical Fame of a character who has completed a couple of adventures.</p>
+<p><strong className="hl">Arcane Study I (1 or 2 PP):</strong> With the help of a wizard or magical ritual, you gain the ability to prepare and cast a few weak arcane spells. If you spend 1 PP, you can prepare 4 wizard cantrips or one 1st-level wizard spell. If you spend 2 PP, you can prepare 4 wizard cantrips and one 1st-level wizard spell. You cast these spells as a wizard, and must have the minimum Intelligence to prepare these spells. You can't select this award if you're a wizard. After 24 hours, you take 1d3 points of Intelligence damage and lose any prepared spells you didn't cast.</p>
+<p><strong className="hl">Character Witness (5 PP):</strong> If you happen to find yourself in trouble with authorities as a result of false accusations, an influential benefactor steps forth to vouch for your honor, absolving you of any wrongdoing. You can use this award without penalty up to three times, after which the available benefactors begin to question your reputation; any further uses cost you an additional 1d4 Prestige Points.</p>
+<p><strong className="hl">Lore of Ages (1 PP):</strong> You may secure the assistance of a dedicated sage, librarian, or other knowledgeable individual, granting you a +5 bonus on any single Knowledge check after 1 hour of research. You make this Knowledge check as if you were trained in that skill.</p>
+<p><strong className="hl">Wanderer (Title, 1 PP):</strong> The long time you've spent on the road with fellow travelers has enhanced your knack for picking up local customs. Knowledge (local) becomes a class skill for you as long as you have this title.</p>
+</>};
+const _fame_20 = {title: "Fame 20", parent_topics: ["optional_subsystems","reputation_and_fame","prestige_points"], siblings: ["fame_1","fame_10","fame_20","fame_30","fame_40","fame_55"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 183</Link></p>
+<p>This is the typical Fame of an adventurer who has completed several adventures and whom the public is starting to take notice of.</p>
+<p><strong className="hl">Arcane Study II (3 PP):</strong> This award works like arcane study I, except you can prepare one 2nd-level wizard spell, and the Intelligence damage is 1d4 instead of 1d3. You can use this award and arcane study I at the same time. You can't select this award if you're a wizard.</p>
+<p><strong className="hl">Favored Territory (Title, 5 PP):</strong> Choose a 100-square-mile region within your Sphere of Influence. This is now your favored territory, and you gain a +2 bonus on Diplomacy checks within that territory. When your Fame reaches 30, you can select this title a second time, gaining a second favored territory and increasing the bonus in your first favored territory to +4. When your Fame reaches 55, you can select this title a third time, gaining a third favored territory and increasing the bonus in your first favored territory to +6 and in your second to +4.</p>
+<p><strong className="hl">Fence Friend (Title, 4 PP):</strong> Once per game session when selling any item, you may do so through an NPC fence, increasing the sale price of the item by 10%. This has no effect on items normally sold at full value (such as gems and trade goods).</p>
+<p><strong className="hl">Initiate (Title, 1 PP):</strong> A powerful organization accepts you into its ranks. This could be a knighthood, a sagacious cabal of mages, or an order of monks. One skill appropriate to that organization becomes a class skill for you. You may select this title multiple times; each time you select it, you choose an appropriate organization to join and another skill that becomes a class skill. The GM determines whether an organization is available and what skills are appropriate choices for it.</p>
+<p><strong className="hl">Intense Student (Title, 2 PP):</strong> You gain a +2 competence bonus on checks with one skill as long as you have this title. You can take this title again once your Fame reaches 30, 40, and 55, selecting a different skill each time.</p>
+<p><strong className="hl">Master of Trade (Title, 4 PP):</strong> Using influential contacts and mercantile experience, you can find a good deal. Once per game session, you gain a 10% discount when purchasing an item. This award cannot be used for spellcasting services, costly material components, items normally sold at full value (such as trade goods or gems), or magic item crafting.</p>
+<p><strong className="hl">Sacrifice (0 PP):</strong> Make a significant sacrifice to gain 1d3 Prestige Points. If you are a heroic character, you must spend 375 gp &times; your character level to use this award, representing a great feast in your name, charitable giving, or other expenses that improve your reputation. If you are a villainous character, you must kill or sacrifice allies and minions whose total Hit Dice equal your character level, representing callous evil toward your friends and underlings. You can use this award once per month.</p>
+<p><strong className="hl">Sage (Title, 5 PP):</strong> Select one Knowledge skill. You can make untrained checks with this skill up to a maximum of DC 20 instead of the normal limit of DC 10. You may select this title multiple times, each time selecting a different Knowledge skill.</p>
+<p><strong className="hl">Temporary Cohort (1 PP):</strong> Gain a cohort as if you had the <Link to="/feat/leadership">Leadership</Link> feat. This character remains in your service for 24 hours.</p>
+<p><strong className="hl">Vindicator (Title, 2 PP):</strong> Pick one rival organization as your hated enemy. You gain a +1 bonus on attack and damage rolls against members of that organization. This is a favored enemy bonus.</p>
+</>};
+const _fame_30 = {title: "Fame 30", parent_topics: ["optional_subsystems","reputation_and_fame","prestige_points"], siblings: ["fame_1","fame_10","fame_20","fame_30","fame_40","fame_55"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 183</Link></p>
+<p>This is the Fame of a successful adventurer whose exploits have made her a local hero.</p>
+<p><strong className="hl">Arcane Study III (3 PP):</strong> This award works like arcane study II, except you can prepare one 3rd-level wizard spell, and the Intelligence damage is 1d6 instead of 1d4. You can use this award, arcane study I, and arcane study II at the same time. You can't select this award if you're a wizard.</p>
+<p><strong className="hl">Blood-Bound (Title, PP 2):</strong> Undergo a bloody ritual with an ally whose Fame is at least 30. Once per week when in the company of that ally, you may lend him up to 5 Prestige Points, which he can spend as he pleases. If he does not spend them within 24 hours, they return to you.</p>
+<p><strong className="hl">Escape Death (5 PP):</strong> If you are reduced to 0 hit points or fewer but are not dead, you automatically stabilize; on your next turn, you are healed 2d8+3 hit points. You can select this award only once per character level.</p>
+<p><strong className="hl">Officer (Title, PP 5):</strong> You can select this title only if you have selected the initiate title. Your rank within your chosen organization increases. You gain an appellation appropriate to the organization and a +4 bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks made to interact with anyone within the organization. If you belong to multiple organizations, you may select this title multiple times.</p>
+<p><strong className="hl">Warden (Title, 5 PP):</strong> Within your Sphere of Influence, you hold enough respect that you can arrest, detain, and confiscate possessions from any common citizen you suspect has committed or is committing a crime. This right does not apply when dealing with nobles, aristocrats, political figures, or those who have ranks or titles similar to or greater than your own.</p>
+<p><strong className="hl">Worldly Fame (2 PP):</strong> Word of your deeds has spread far and wide, even outside of your Sphere of Influence. For the next 24 hours, you may use your Fame as if you were within your Sphere of Influence without needing to make the appropriate check, though your Fame is effectively halved outside your Sphere of Influence. You may select this award even when outside your Sphere of Influence.</p>
+</>};
+const _fame_40 = {title: "Fame 40", parent_topics: ["optional_subsystems","reputation_and_fame","prestige_points"], siblings: ["fame_1","fame_10","fame_20","fame_30","fame_40","fame_55"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 184</Link></p>
+<p>This is the Fame of an adventurer who has achieved celebrity status.</p>
+<p><strong className="hl">Commander (Title, 4 PP):</strong> You can select this title only if you have selected the officer title. Your rank within your chosen organization increases to a position of command. You can call upon low-ranking members of your organization to perform mundane personal tasks at your behest, including running messages, announcing your arrival, and making sure preparations are made to accommodate your needs. In addition, you gain a +4 bonus on Intimidate checks made to influence any members of your organization's greatest rival group (such as a competing guild or citizens of a hostile country). If you belong to multiple organizations, you may select this title multiple times.</p>
+<p><strong className="hl">Patriot (Title, 4 PP):</strong> Your reputation as an agent of your homeland's interests precedes you. When traveling outside your Sphere of Influence, you gain a +2 bonus on all Diplomacy and Sense Motive checks against citizens or natives of your homeland.</p>
+<p><strong className="hl">Privileged Meeting (2 PP):</strong> You use your reputation to gain a private audience with a powerful individual such as a queen, general, high priest, or guildmaster. You gain a +2 circumstance on Diplomacy checks for the duration of that audience.</p>
+</>};
+const _fame_55 = {title: "Fame 55+", parent_topics: ["optional_subsystems","reputation_and_fame","prestige_points"], siblings: ["fame_1","fame_10","fame_20","fame_30","fame_40","fame_55"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 184</Link></p>
+<p>At this Fame level and higher, the character is idolized and easily recognized for his or her achievements.</p>
+<p><strong className="hl">High Commander (Title, 4 PP):</strong> You can select this title only if you have selected the commander title. You become a senior member of your chosen organization. While serving the interests of that organization, you can call upon low-ranking soldiers to fight on your behalf. The soldiers are not magically summoned; you must speak to them as a group or send an officer to gather them for you (which may take anywhere from 1d4 rounds to 1d10 minutes). The number of soldiers at your command is equal to your Fame, plus one 3rd-level officer for every 20 soldiers and one 5th-level leader for every four officers. These soldiers are usually 1st-level fighters, but depending on the organization they may have some other appropriate class. These minions serve you for 1 day, but will not betray the interests of the organization or recklessly throw away their lives for you. If you belong to multiple organizations, you may select this title multiple times.</p>
+<p><strong className="hl">The Great (Title, 10 PP):</strong> You immediately increase your Sphere of Influence by 100 miles.</p>
+</>};
+const _shared_fame = {title: "Shared Fame", parent_topics: ["optional_subsystems","reputation_and_fame"], siblings: ["fame","sphere_of_influence","prestige_points","shared_fame","alter_egos_aliases_and_secret_identities"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 185</Link></p>
+<p>Sometimes situations should take into account the Fame values of multiple characters. This usually occurs when all the PCs continually operate as a single entity, such as King Arthur's Knights of the Round Table, Robin Hood's Merry Men, or Captain Kidd's pirate crew. Instead of the fame of individuals contributing to the fame of a group, the group's fame is independent of its members (a group may start in the first category and evolve into the second as it gains more members and the founders take a less direct role in its activities). A group like this develops its own Fame; if you are a member of that group, you use its Fame instead your own. If you and your allies are part of such a group, the Fame rules work the same, except the GM only tracks one Fame value for the entire group instead of individual values for each PC; each character's actions that would increase or decrease the Fame contribute to that score. You still gain and spend your own Prestige Points, but use the group's Fame for everything else.</p>
+</>};
+const _alter_egos_aliases_and_secret_identities = {title: "Alter Egos, Aliases, and Secret Identities", parent_topics: ["optional_subsystems","reputation_and_fame"], siblings: ["fame","sphere_of_influence","prestige_points","shared_fame","alter_egos_aliases_and_secret_identities"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 185</Link></p>
+<p>Throughout the course of your adventuring career, your public persona and your true personality might drift begin to drift apart or become notably disparate. When this occurs, you may change your name and adopt an alter ego or alias in order to rid yourself of your prior reputation. In this case, your Fame and Prestige Points remain with your former name, allowing you to shed your former life and start a new one.</p>
+<p>With an alter ego, you create an artificial persona to show the public. You wear a mask or costume to hide your true identity. When performing deeds as your alter ego, you develop its Fame instead of your own. Only when presenting yourself as the alter ego can you use its Fame and Prestige Points to your advantage. In this way, a seemingly weak or unassuming character can adopt the identity of a famous masked vigilante, relying on her fame to persuade commoners and strike fear into villains while remaining unknown in her secret identity.</p>
+<p>If it's revealed that your two identities are actually the same person, your Fame and Prestige Points may change when dealing with those who have found out. For example, a notorious bandit changes her name and becomes a humble village healer. If her former life is made public, the villagers react to her according to her (larger, negative) Fame as a bandit, but she also loses face with bandits, who don't respect her choice to live peacefully and react according to her (lower, positive) Fame as a village healer.</p>
+</>};
+const _research = {title: "Research", parent_topics: ["optional_subsystems"], siblings: ["affiliations","bargaining","contacts","downtime","factions","hero_points","honor","influence","investment","primal_magic","provision_points","relationships","reputation_and_fame","research","spell_alterations","stamina_and_combat_tricks","the_hunger"], subtopics: ["using_a_library","designing_a_library","sample_libraries"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 148</Link></p>
+<p>Knowledge is power, and this is just as true in an ancient dungeon as in a queen's court. In the Pathfinder Roleplaying Game, the various Knowledge skills represent a character's familiarity with different fields of study. Knowledge checks can often answer specific questions, but sometimes a character either fails the Knowledge check or has no hope of success, such as when the knowledge she seeks is forgotten, hidden, or important enough to the story that uncovering it with a simple skill check would be anticlimactic.</p>
+<p>This is where research comes into play. Under the following rules system, characters can visit a library and use its resources to discover new information. While simple questions (such as identifying a monster, knowing a local rumor, or recognizing a deity and her symbols and clergy) may still be answered with a single Knowledge check as presented in the Pathfinder RPG Core Rulebook, this system addresses more complex issues, such as learning details of an ancient pharaoh whose name has been lost to history, interpreting an infernal contract, or studying a comprehensive book of arcane lore. Many character concepts focus on the pursuit of knowledge, and spending time researching the topic in a library using the following rules can be a fun way to let that aspect of a character or party take center stage.</p>
+<p>These rules can represent researching any repository of lore or knowledge: an actual library, a vast historical archive, a complicated legal contract, a city's hall of records, a hoard of ancient scrolls, a magical tome of esoteric lore, a wizard's personal collection of books and scrolls, or even a psychic's memory palace. For the purposes of these rules, however, the term "library" is used to represent all of these possibilities.</p>
+</>};
+const _using_a_library = {title: "Using a Library", parent_topics: ["optional_subsystems","research"], siblings: ["using_a_library","designing_a_library","sample_libraries"], subtopics: ["research_by_expertise"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 148</Link></p>
+<p>Every library has two primary statistics: a Complexity rating, which reflects the intricacy or confusing nature of the library's contents, and knowledge points (abbreviated kp), which are an abstract representation of the sum of the library's collected information.</p>
+<p>To research a specific topic or question within a library, a character must succeed at a Research check, using one of the skills listed in the library's stat block. Stat blocks for sample libraries are listed <Link to="/rule/sample_libraries">here</Link>. A Research check is akin to a Knowledge check, though each library stat block lists the specific skills that can be used for Research checks based on the nature of that library's collections. A library's Complexity rating serves as the DC for Research checks that attempt to unravel that library's clues.</p>
+<p>Attempting a Research check requires an uninterrupted 8-hour period of research, and a character cannot take 10 or 20 on a Research check. Each 8-hour period of research grants a cumulative +1 bonus on Research checks. If a researcher stops researching at the same library for a month or more, she loses any cumulative bonuses gained for that library thus far. Up to two additional characters can use the aid another action to assist a primary researcher. In addition, some libraries grant a Knowledge bonus - a bonus on specific Knowledge checks (including Research checks) attempted within that library - due to the depth and completeness of its collections. Research checks cannot normally be attempted untrained unless the library's Complexity is 10 or lower, the Research check involves a skill that allows untrained checks, or the library's collection is extensive enough to allow untrained checks, as detailed in the library's stat block.</p>
+<p>Succeeding at a Research check reduces a library's knowledge points, similar to dealing damage to a creature's hit points. As its knowledge points decrease, a library reveals its secrets. Characters learn information when a library's knowledge points reach various research thresholds, as detailed in each library's stat block. The amount of knowledge points reduced on a successful Research check depends on the nature of the primary researcher and the type of library. It is generally a reflection of the character's training and Intelligence score, represented by a die roll modified by the character's ability modifier (see <Link to="/rule/research_by_expertise">Research by Expertise</Link>).</p>
+<p>In addition to these base amounts, for every 5 by which a Research check exceeds the library's Complexity rating, the library's knowledge points are reduced by 1 additional point. Rolling a natural 20 on a Research check acts like a critical threat. If the researcher confirms the critical hit by succeeding at a second Research check with all the same modifiers (this takes no additional time), the resulting knowledge point reduction is doubled. Conversely, rolling a natural 1 on a Research check automatically results in failure, and the library's knowledge points increase by 1/4 of the library's maximum knowledge points as the library's complexity causes a researcher to follow a wrong avenue of investigation.</p>
+<p>When a library's knowledge points are reduced to 0, the characters have learned everything they can from that library, and gain experience points according to the library's CR. To learn additional information, they must visit another library and continue their research there.</p>
+</>};
+const _research_by_expertise = {title: "Research by Expertise", parent_topics: ["optional_subsystems","research","using_a_library"], siblings: ["research_by_expertise"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 148</Link></p>
+<p>A successful Research check reduces a library's knowledge points by a certain amount, just as a successful attack roll in combat reduces a creature's hit points, and this amount depends on the primary researcher's training in the skill she used for the Research check. A primary researcher reduces a library's kp by 1d12 + her Intelligence modifier if she has either 10 ranks in the skill, <Link to="/feat/skill_focus">Skill Focus</Link> in the skill, or both 5 ranks in the skill and the skill as a class skill. She reduces a library's kp by 1d8 + her Intelligence modifier if she has either 5 ranks in the skill or the skill is a class skill for her (but not both). Otherwise, she reduces a library's kp by 1d4 + her Intelligence modifier.</p>
+<p><strong className="hl">Alternate Ability Scores:</strong> At the GM's discretion, a character with an ability that replaces her Intelligence score with another ability score for the purpose of Knowledge checks (such as a lore oracle or shaman) can also use that ability score instead of Intelligence to determine the reduction of kp. Beyond that, characters well suited for research in a particular library might modify the result of the die roll with a different ability modifier. For instance, a brawler or fighter carrying out research in a fighting school's library might add her Strength modifier instead of her Intelligence modifier to the result. With the variety of options available to characters in the form of character classes, archetypes, prestige classes, and other customizable selections, it's ultimately up to the GM to decide which characters are best suited for research in a particular library.</p>
+<p><strong className="hl">Character Class Variant:</strong> In this variant, how much a library's kp are reduced depends on the researching character's class, rather than on her training in the listed skill. For the purposes of this variant, character classes can be divided into three broad researcher categories: polymaths, scholars, and novices. Polymaths are characters with the ability to attempt any Knowledge check untrained, such as bards, loremasters, and skalds. A polymath reduces a library's kp by 1d12 + the character's Intelligence modifier with a successful Research check. Scholars are academic characters, including Intelligence-based spellcasters, alchemists, investigators, lore shamans, and lore oracles. A scholar reduces a library's kp by 1d8 + the character's Intelligence modifier with a successful Research check. All other characters are considered novices, being either uneducated or untrained in scholarly research. A novice reduces a library's kp by 1d4 + the character's Intelligence modifier with a successful Research check.</p>
+<p>However, certain character classes might be better suited for research in specific libraries that have collections focusing on fields of study particularly relevant to those classes and their abilities. For example, a cleric or inquisitor researching in a religious library connected to her faith might be considered a scholar or even a polymath instead of a novice, or a cavalier or warpriest undertaking research at a famous war college might be considered a scholar while arcanists and wizards are treated as novices.</p>
+</>};
+const _designing_a_library = {title: "Designing a Library", parent_topics: ["optional_subsystems","research"], siblings: ["using_a_library","designing_a_library","sample_libraries"], subtopics: ["additional_elements"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 149</Link></p>
+<p>Although some sample libraries are presented at the end of this section, the research rules are most rewarding when used in conjunction with libraries specifically designed to interact with an adventure's story and characters. You can use the following guidelines to create libraries tailored to your campaign's needs.</p>
+<p><strong className="hl">Step 1-Determine the Nature of a Library's Collection:</strong> First, come up with a general idea of what sort of library you want to create and what sort of knowledge it contains. Is it a small village library, or a capital city's vast historical collection? The recently rediscovered archive of a forgotten monastic sect, or the collected notes of a famed author? Maybe it's an ancient repository of dark magic and disturbing rituals. What manner of information the PCs can learn from researching in this library depends on its contents - a library holding the rightful ancestry of a lost claimant to the throne is likely different from one offering cures to a necromancer's undead plague.</p>
+<p><strong className="hl">Step 2-Determine Research Check Skills:</strong> Assign Knowledge skills that can be used in Research checks. These skills should be relevant to the overall theme of the library. Libraries typically have three Knowledge skills that can be used for Research checks; however, smaller libraries might have only two assigned skills, while exceptionally extensive collections might have four assigned skills or more. If the library allows any of these skills to be used untrained, you should decide that as well.</p>
+<p><strong className="hl">Step 3-Determine Knowledge Bonus:</strong> Decide if the library grants a bonus on Knowledge checks used for Research checks in the library. Not every library grants a bonus, but a library focusing on a particular field of study almost always grants a Knowledge bonus to the associated Knowledge skill. A typical library grants a Knowledge bonus from +2 to +5, depending on the size of the library and the quality of its collections.</p>
+<p><strong className="hl">Step 4-Determine CR:</strong> Establish the library's CR according to the needs of a specific adventure or campaign, typically basing it on the Average Party Level (APL) of the player characters. The higher the CR, the more challenging it is for characters to complete their research. Refer to <Link to="/rule/designing_encounters">Table 12-1</Link> to determine the appropriate CR for your group, using the same difficulty guidelines as encounters (easy, average, challenging, hard, epic). For example, for a party of four 6th-level PCs, a CR 6 library is average difficulty, CR 5 is easy, CR 7 is challenging, CR 8 is hard, and CR 9 is an epic challenge. Keep in mind that increasing the CR of a library still doesn't stop successful research from eventually happening without either time pressure (see Step 7) or penalties for failure (see <Link to="/rule/additional_elements">Additional Elements</Link>). If you set an extremely high-CR library against a low-level party without either of those elements, determine the XP they receive accordingly (low or no experience), rather than as per a monster of that CR.</p>
+<p><strong className="hl">Step 5-Determine Complexity:</strong> A library's Complexity should be fairly challenging since the rules for research assume that the best researcher is the primary researcher, allow two checks to aid another, often add an additional bonus on the Research check, and offer a cumulative bonus on future Research checks. For simple libraries, see Table 3-3 for sample base DCs. For an average library, add 5 to the DC; for a difficult library, add 10. For extremely challenging libraries, you can increase the Complexity by even more, but be aware that research in such a library will be exceptionally difficult, so it might make more sense to increase the library's CR instead. Step 6-Calculate Knowledge Points: A library's knowledge point total is often equal to the library's CR &times; 3.</p>
+<h3 id="rule-designing_a_library-table-3-3-library-complexity-by-cr">Table 3-3: Library Complexity by CR</h3>
+<ScrollContainer id="rule-designing_a_library--table-0"><table>
+<thead>
+<tr>
+<th>CR</th>
+<th>Base DC</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>11</td>
+</tr>
+<tr>
+<td>2</td>
+<td>13</td>
+</tr>
+<tr>
+<td>3</td>
+<td>14</td>
+</tr>
+<tr>
+<td>4</td>
+<td>15</td>
+</tr>
+<tr>
+<td>5</td>
+<td>16</td>
+</tr>
+<tr>
+<td>6</td>
+<td>18</td>
+</tr>
+<tr>
+<td>7</td>
+<td>19</td>
+</tr>
+<tr>
+<td>8</td>
+<td>20</td>
+</tr>
+<tr>
+<td>9</td>
+<td>22</td>
+</tr>
+<tr>
+<td>10</td>
+<td>24</td>
+</tr>
+<tr>
+<td>11</td>
+<td>26</td>
+</tr>
+<tr>
+<td>12</td>
+<td>27</td>
+</tr>
+<tr>
+<td>13</td>
+<td>28</td>
+</tr>
+<tr>
+<td>14</td>
+<td>30</td>
+</tr>
+<tr>
+<td>15</td>
+<td>31</td>
+</tr>
+<tr>
+<td>16</td>
+<td>33</td>
+</tr>
+<tr>
+<td>17</td>
+<td>34</td>
+</tr>
+<tr>
+<td>18</td>
+<td>36</td>
+</tr>
+<tr>
+<td>19</td>
+<td>38</td>
+</tr>
+<tr>
+<td>20</td>
+<td>40</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p><strong className="hl">Step 7-Determine the Time Pressure:</strong> Thanks to the cumulative bonus on Research checks, eventually even a 1st-level character trained in one of the research skills will fully research a CR 20 library. If there is no sense of time pressure or penalty for failure (see <Link to="/rule/additional_elements">Additional Elements</Link>), the <Link to="/rule/research">research system</Link> becomes merely an unnecessary delay in the story's progress since the result isn't in question. For this reason, most research tasks should include a hard limit on how many days the PCs have to succeed. Since the PCs' ability to reduce a library's knowledge points does not scale up as quickly as the library's knowledge points, low-level libraries usually require only 1 or 2 successful Research checks to reach 0 kp; on the other hand, even the most scholarly character can only hope to reduce a CR 20 library to 0 kp in 6 successes (and a more modest lead researcher is likely to need at least 12 successes). Thus, low-CR libraries merit a time pressure of a week or less, whereas high-CR libraries need at least 2 weeks to a month to give most groups enough time to complete them. As always, know your group when designing the time pressure. If a high-level group doesn't have anyone with more than a few ranks in any of the associated skills, it will need more time to build up cumulative bonuses before it can crack the library.</p>
+<p><strong className="hl">Step 8-Determine Research Thresholds:</strong> The final step in designing a library is creating its research thresholds. In general, a library with 25 kp or fewer has one research threshold for every 5 kp, revealed at 5-kp intervals, while a library with 30 kp or more has one research threshold for every 10 kp, revealed at 10-kp intervals. However, this is just a guideline, and the exact number of research thresholds and their frequency should be determined by how much information the library contains or the plot requires. For example, a library with 30 kp could have research thresholds at 20 kp, 10 kp, and 0 kp, but it could instead reveal information at 25 kp, 20 kp, 10 kp, 8 kp, and 0 kp.</p>
+<p>Once you have determined the number and frequency of a library's research thresholds, decide the specific piece of information revealed at each research threshold. Every bit of knowledge gained at a research threshold should be unique, based on the story you want to tell or the topic the characters are researching. However, the new information might build on the old, narrowing it down with more specific details and useful facets.</p>
+</>};
+const _additional_elements = {title: "Additional Elements", parent_topics: ["optional_subsystems","research","designing_a_library"], siblings: ["additional_elements"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 151</Link></p>
+<p>Libraries can be further customized to make research more challenging, rewarding, or dangerous by incorporating the following elements.</p>
+<p><strong className="hl">Additional Languages:</strong> A library could consist entirely of volumes written in <Link to="/misc/languages">languages</Link> other than Common. To attempt a Research check in such a library, characters who don't speak the language must succeed at a Linguistics check or have access to magic such as <Link to="/spell/comprehend_languages">comprehend languages</Link>, and the magic must be active for the entire 8-hour research session. The DC of the Linguistics check depends on the language and the researcher. For modern human languages, such as ethnic or national languages, or non-human tongues that are included in a character's racial bonus languages (such as an elf attempting to research Sylvan writings), the DC is 20. For other non-human tongues that are not part of a character's racial bonus languages (such as a dwarf trying to do research in a gnoll library) or secret languages (such as Druidic), the DC is 25. For ancient, archaic, forgotten, otherworldly, or exceptionally rare languages, the DC is 30. A character using Linguistics to translate proceeds at 1/3 the normal rate (requiring three 8-hour sessions instead of one for each Research check and to gain the +1 cumulative bonus), and a character using Linguistics or magic takes a -2 penalty on Research checks due to the possibility of losing context that would have been more obvious in his native language.</p>
+<p><strong className="hl">Labyrinths and Secret Chambers:</strong> Some libraries are labyrinthine, either so disorganized as to become puzzles or purposely designed to hide their greatest secrets. Other libraries could be less maze-like, but their deeper secrets might lie behind hidden doors or within concealed chambers only the most determined can discover.</p>
+<p>In the case of labyrinths, each threshold of knowledge achieved takes the researcher deeper into the library's confusing twists and turns. Finding one's way out or finding the path to the next knowledge threshold requires either careful planning (a trail of objects, or using string to navigate the way back) or a successful Intelligence check to find the way. The Intelligence check can have a DC of 10, 15, or even 20, and should take an amount of time appropriate for the size of the library. Each attempt could be a manner of minutes, hours, or even days if the library is truly massive or extradimensional. Further research cannot be conducted while a researcher finds her way out.</p>
+<p>In the case of secret chambers, typically the doors to such locations must be found before a kp threshold can be breached, or such chambers can be more symbolic, such as the case of print written in invisible ink, hidden with <Link to="/spell/secret_page">secret page</Link>, or requiring a <Link to="/rule/psychic_duels">psychic duel</Link> before the secrets are revealed and further research progress can be made.</p>
+<p><strong className="hl">Library Encounters:</strong> Books and scrolls aren't the only things found in libraries. A library can be turned into an adventure or dungeon all its own with separate chambers and rooms serving as different encounter locations. As PCs undertake their research in the library, they can fight monsters inhabiting the library, roleplay with NPCs engaged in their own research, or overcome hazards, traps, and other obstacles, such as collapsing ceilings and walls, <Link to="/spell/explosive_runes">explosive runes</Link>, <Link to="/spell/fire_trap">fire traps</Link>, <Link to="/spell/glyph_of_warding">glyphs of warding</Link>, <em>secret page,</em> symbols, or simply rickety ladders and unstable shelves.</p>
+<p>In addition, researching in a given room of the library might allow characters to reduce the library's knowledge points only by a limited amount. In order to fully reduce the library's kp to 0, perhaps PCs must visit multiple collections in the library, encountering all of the dangers in those rooms before their research is complete. Certain libraries might generate guardians on a regular basis, thus forcing encounters every day or every week until the PCs manage to reduce the library's kp to 0.</p>
+<p><strong className="hl">Penalty for Failure:</strong> Some libraries are so convoluted and bewildering that failing a Research check can hamper a researcher's progress, or even thwart it entirely. This can be the result of excessively poor organization, such as in a senile old wizard's hodgepodge of books accumulated over decades, or due to deliberate obfuscation, as in the case of infernal contracts. In such libraries, various unusual penalties or consequences might occur after a particular number of Research checks or after a failed Research check. Such a library might not allow the cumulative bonus on further Research checks for each 8-hour period. Furthermore, failing two consecutive Research checks means the researcher has reached a dead end in her studies and is unable to further decrease the library's knowledge points. In this case, the library's knowledge points return to maximum and the researcher can't attempt to research in that particular library again until she gains a rank in at least one of the library's associated skills or recovers some key or clue to help decipher it.</p>
+<p><strong className="hl">Research Rewards:</strong> Characters can gain more than just knowledge in libraries; they might also find valuable treasures. You can place treasures in a library that are uncovered only when the library's kp are reduced to specific research thresholds. Such treasures often take the form of scrolls, spellbooks, and magic manuals and tomes, or "intellectual" items such as a <Link to="/magic-wondrous/headband_of_vast_intelligence">headband of vast intelligence</Link> or a <Link to="/magic-wondrous/helm_of_comprehend_languages_and_read_magic">helm of comprehend languages and read magic</Link>. Other objects such as rods, wands, figurines of wondrous power, or even crystal balls might be buried or hidden behind larger stacks of books, just waiting to be discovered by diligent researchers.</p>
+<p><strong className="hl">Specialized Skills:</strong> Instead of assigning specific Knowledge skills to a library's Research check, you can use Linguistics as the default Research check skill, and assign specialized skills that reflect the specific nature of the library's collections. To carry out research in such a library, a character must succeed at a Linguistics check or at one of the specialized skill checks listed in the library's stat block. The Linguistics check follows all of the normal rules for Research checks, but if a researcher uses the more specialized check to perform her research, she gains a +2 circumstance bonus on the check for using precisely the correct skill for that library, as opposed to the more general use of Linguistics. This element otherwise follows all of the other rules for Research checks. Any skill, not just Knowledge skills, can be a specialized skill. For example, a military library might have Profession (soldier) as a specialized skill, an archive of famous plays might use Perform (act), or a tome of arcane magic might allow Spellcraft as a specialized skill. The circumstance bonus from specialized skills replaces the general bonus to Knowledge checks a library would otherwise grant; thus if the library is particularly helpful, it might grant more than a +2 circumstance bonus.</p>
+</>};
+const _sample_libraries = {title: "Sample Libraries", parent_topics: ["optional_subsystems","research"], siblings: ["using_a_library","designing_a_library","sample_libraries"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 152</Link></p>
+<p>Libraries can exist in a wide variety of forms, from actual collections of printed books, handwritten scrolls, and indexed volumes to single, encyclopedic tomes of abstruse wisdom or painstakingly detailed legal contracts full of impenetrable language. The following are some examples of types of libraries characters might visit to conduct research. Rather than a specific name, each of these sample libraries is given a generic title that indicates the nature of its collections or where it might be located. GMs can use these examples as guidelines for creating their own custom libraries.</p>
+<p>The libraries presented below use the following format.</p>
+<p><strong className="hl">Library Name:</strong> This is the name of the library, archive, book, or other repository of knowledge.</p>
+<p><strong className="hl">CR:</strong> This is the CR of the library, representing its complexity and the possible dangers found within it.</p>
+<p><strong className="hl">XP:</strong> This entry lists the experience points gained for reducing the library to 0 kp.</p>
+<p><strong className="hl">Complexity:</strong> This value is the DC of the Research check required to reduce the library's kp.</p>
+<p><strong className="hl">Languages:</strong> This lists the <Link to="/misc/languages">languages</Link> necessary to navigate the library without magical aid or Linguistic checks. If a library has multiple languages, and the researcher does not possess the ability to read all the listed languages, she can still attempt checks, but for each language she doesn't know, she takes a -2 penalty on Research checks.</p>
+<p><strong className="hl">Research Check:</strong> This entry lists the skills (usually Knowledge skills) that can be used to attempt Research checks. If a library allows untrained Knowledge checks due to the extensiveness of its collections, that is noted in this section as well.</p>
+<p><strong className="hl">Knowledge Bonus:</strong> This entry lists the bonus (if any) a library grants on specific Knowledge checks. This bonus applies to all of the Knowledge skills that can be used for Research checks in that library, and affects all such checks attempted by a character inside a library or studying its contents, whether they are Research checks or single Knowledge checks.</p>
+<p><strong className="hl">kp:</strong> This entry lists the library's maximum number of knowledge points.</p>
+<p><strong className="hl">Research Thresholds:</strong> These entries list a library's research thresholds, and the specific piece of information learned at each threshold.</p>
+<h3 id="rule-sample_libraries-town-sages-abandoned-study">Town Sage's Abandoned Study</h3>
+<p>The town's sage has been missing for about a month. Not only do the various notes and tomes in his study contain secrets about his hometown, but a careful search can also uncover clues as to his disappearance.</p>
+<h4 id="rule-sample_libraries-town-sages-abandoned-study-cr-2">Town Sage's Abandoned Study CR 2</h4>
+<p><strong>XP</strong> 600<br/><strong>Complexity</strong> 13 (easy)<br/><strong>Languages</strong> Common<br/><strong>Research Check</strong> Knowledge (local) or Knowledge (nature); <strong>Knowledge Bonus</strong> +0<br/><strong>kp</strong> 6</p>
+<h4 id="rule-sample_libraries-research-thresholds">Research Thresholds</h4>
+<p><strong>kp 3</strong> At low tide, a hidden entrance to underground caverns becomes visible beneath the town's docks. According to a number of local legends, pirates hid their booty in the caves.</p>
+<p><strong>kp 1</strong> The flower seller in the town square is the local priest's illegitimate daughter. Given the priest's vow of chastity, if this knowledge became public, he could lose respect among the townsfolk and likely his position as the town's priest.</p>
+<p><strong>kp 0</strong> The leader of the bandits in the woods outside town claims to be the deposed lord of the neighboring barony, and wants to raise an army to take back his title and lands. The sage's notes indicate that he was planning on seeking out this bandit lord and using his records to help prove the veracity of the claim.</p>
+<h3 id="rule-sample_libraries-wizards-arcane-library">Wizard's Arcane Library</h3>
+<p>With a cruel wizard vanquished, the only clue to what kind of wards he has placed on his spellbook can be found in his arcane library. The library also holds other secrets.</p>
+<h4 id="rule-sample_libraries-wizards-arcane-library-cr-6">Wizard's Arcane Library CR 6</h4>
+<p><strong>XP</strong> 2,400<br/><strong>Complexity</strong> 18 (easy)<br/><strong>Languages</strong> Common<br/><strong>Research Check</strong> Knowledge (arcana, untrained), Knowledge (planes), or Knowledge (religion); <strong>Knowledge Bonus</strong> +2<br/><strong>kp</strong> 18</p>
+<h4 id="rule-sample_libraries-research-thresholds-1">Research Thresholds</h4>
+<p><strong>kp 15</strong> The wizard's spellbook is warded with a <Link to="/spell/fire_trap">fire trap</Link>.</p>
+<p><strong>kp 10</strong> The password to bypass the spellbook's <em>fire trap</em> is "everiss."</p>
+<p><strong>kp 5</strong> The <Link to="/template/ghost">ghost</Link> the wizard keeps locked away in the tower can only be permanently destroyed if her wedding ring is returned to her descendants. The wizard hid the wedding ring in his extraplanar stronghold.</p>
+<p><strong>kp 0</strong> The <Link to="/monster/xorn">elder xorn</Link> Gissijaak has a taste for garnets, and can be convinced to guide people to the wizard's extraplanar stronghold on the Plane of Earth if bribed with a particularly large stone.</p>
+<h3 id="rule-sample_libraries-imperial-war-college">Imperial War College</h3>
+<p>While this large collection of tracts, scrolls, schematics, and battle plans tends to deal with military strategy and the building of fortifications, secrets are hidden amid some of its more obscure works. These secrets give some insights into the hobgoblins massing on the borderlands of the duchy, plus the fate of a long-missing heirloom and a possible way to retrieve it.</p>
+<h4 id="rule-sample_libraries-imperial-war-college-cr-12">Imperial War College CR 12</h4>
+<p><strong>XP</strong> 19,200<br/><strong>Complexity</strong> 32 (average)<br/><strong>Languages</strong> Common<br/><strong>Research Check</strong> Knowledge (engineering, untrained), Knowledge (history), or Profession (soldier, untrained); <strong>Knowledge Bonus</strong> +4<br/><strong>kp</strong> 36</p>
+<h4 id="rule-sample_libraries-research-thresholds">Research Thresholds</h4>
+<p><strong>kp 30</strong> Master Saval at the Hammer and Anvil believes that red hair is a blessing from the Lord of Battles, and frequently offers discounts on masterwork and enchanted weapons to ginger-headed warriors.</p>
+<p><strong>kp 25</strong> When the Duke of Gacy was slain in the Battle of a Hundred Spears, his legendary shield, Bulwark, was never recovered. It is believed that the hobgoblins' war chief, Klathuk the Merciless, took it as a trophy.</p>
+<p><strong>kp 15</strong> Detailed blueprints illustrate the strengths and weaknesses of Fort Kallin. All of the border forts on the northern frontier were built to the same plan.</p>
+<p><strong>kp 5</strong> Scouting reports mention a shield matching Bulwark's description in the hands of a hobgoblin warlord currently gathering an army in the Yellow Hills. It's rumored that this new war chief is either the descendant of Klathuk the Merciless or defeated the aging warlord in battle.</p>
+<p><strong>kp 0</strong> A secret postern gate in the southeast wall of Castle Daminal provides access to the guard barracks. The castle fell to the hobgoblin warlord a month ago, and it's believed he is using it as a base of operations.</p>
+<h3 id="rule-sample_libraries-astral-dragons-memory-palace">Astral Dragon's Memory Palace</h3>
+<p>This esoteric library is an <Link to="/rule/immersive_mindscapes">immersive mindscape</Link> where an <Link to="/monster/ancient_astral_dragon">ancient astral dragon</Link> stores her knowledge and memories in an elaborate cloud palace. The mindscape is overt and has a self-contained shape. Its feedback is harmless, and it has normal gravity, normal time, and magic works normally within it.</p>
+<p>The dragon's memory palace is extremely complex, and filled with nearly all of her experiences from her millennia of existence, categorized in a very occult fashion. What is even more challenging is that outsiders can access the mindscape only while the dragon sleeps. While the dragon tends to slumber for long periods (typically between 7-13 days), when it awakens any intruders are expelled from the mindscape - unless they discover the secret that lets them stay within the mindscape while the dragon is awake.</p>
+<h4 id="rule-sample_libraries-astral-dragons-memory-palace-cr-18">Astral Dragon's Memory Palace CR 18</h4>
+<p><strong>XP</strong> 153,600<br/><strong>Complexity</strong> 46 (difficult)<br/><strong>Languages</strong> Draconic<br/><strong>Research Check</strong> Knowledge (arcana), Knowledge (history), or Knowledge (planes); <strong>Knowledge Bonus</strong> +5<br/><strong>kp</strong> 54</p>
+<h4 id="rule-sample_libraries-research-thresholds">Research Thresholds</h4>
+<p><strong>kp 50</strong> The dragon saved a group of <Link to="/monster/shulsaga">shulsagas</Link> and, in return for the assistance, those strange disk-riding humanoids gave her a password that allows the dragon or any of her allies to enter shulsaga territory unhindered.</p>
+<p><strong>kp 40</strong> The shulsaga password is "kayith namast."</p>
+<p><strong>kp 30</strong> Deep in a particularly volatile section of the Astral Plane, the shulsagas are building a large vessel that they plan to use to raid other planes. They seem especially fixated on raiding the Boneyard, the Negative Energy Plane, and the Positive Energy Plane.</p>
+<p><strong>kp 20</strong> There is a way that interlopers can stay within the memory palace while the dragon is awake. They must first have <Link to="/spell/dimensional_anchor">dimensional anchor</Link> cast upon them while in the memory palace and must refrain from eating, drinking, or sleeping while the dragon is awake.</p>
+<p><strong>kp 10</strong> A planar map shows many portals scattered around the Astral Plane that allow passage to most of the other known planes. The dragon believes that the portals were created by <Link to="/family/manasaputra">manasaputras</Link>, but has not been able to learn why they were created or what keys are needed to open them.</p>
+<p><strong>kp 5</strong> The astral dragon has accumulated a substantial treasury kept on the Positive Energy Plane in the care of a group of <Link to="/monster/jyoti">jyoti</Link>. The dragon worries that the jyoti have no plans to return her hoard.</p>
+<p><strong>kp 0</strong> A map and occult ritual found in the library claims to allow living creatures to enter the <Link to="/rule/akashic_record">Akashic Record</Link>, a demiplane in the Astral Plane tied to the heart of occult philosophy.</p>
+</>};
+const _spell_alterations = {title: "Spellcasting Alterations", parent_topics: ["optional_subsystems"], siblings: ["affiliations","bargaining","contacts","downtime","factions","hero_points","honor","influence","investment","primal_magic","provision_points","relationships","reputation_and_fame","research","spell_alterations","stamina_and_combat_tricks","the_hunger"], subtopics: ["limited_magic","wild_magic","active_spellcasting"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 146</Link></p>
+<p>The following optional rules alter normal spellcasting in fun new ways. Each system is fairly simple in concept, but could generate ramifications not fully detailed below, and GMs should be ready to reconcile or arbitrate unexpected effects.</p>
+</>};
+const _limited_magic = {title: "Limited Magic", parent_topics: ["optional_subsystems","spell_alterations"], siblings: ["limited_magic","wild_magic","active_spellcasting"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 146</Link></p>
+<p>As a character gains caster levels under the normal magic system, the efficacy of her spells can swing wildly, necessitating a constant reevaluation of each spell's utility. The limited magic rules are meant to keep spells' power more tightly tiered by spell level and reduce the amount by which a caster's power level escalates.</p>
+<p>When using limited magic rules, all spells are cast at the minimum caster level and with the minimum required ability score. The minimum caster level of a spell is fixed at 2 &times; the spell's level - 1, and does not change based on class levels. A spell's level can vary by class; therefore, different classes may have different minimum caster levels for the same spell. The minimum ability score for any spell is 10 + the spell's level, so the save DC for each spell (10 + the spell's level + the caster's ability score modifier) is also constant. These values are listed below on Table 4-3: Limited Magic for ease of reference. The CL (9) column lists the minimum caster level for casters who get up to 9th-level spells, such as the cleric, druid, or wizard. The CL (6) column covers casters who get 6th-level spells, such as bards. The CL (4) column covers casters who get up to only 4th-level spells, such as paladins and rangers. If a class's spellcasting progression differs from these minimum caster levels, it always overrides the numbers on this table.</p>
+<h3 id="rule-limited_magic-table-4-3-limited-magic">Table 4-3: Limited Magic</h3>
+<ScrollContainer id="rule-limited_magic--table-0"><table>
+<thead>
+<tr>
+<th>Spell Level</th>
+<th>CL (9)*</th>
+<th>CL (6)</th>
+<th>CL (4)</th>
+<th>Ability Score</th>
+<th>DC</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>-</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>4</td>
+<td>11</td>
+<td>11</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>7</td>
+<td>12</td>
+<td>13</td>
+</tr>
+<tr>
+<td>3</td>
+<td>5</td>
+<td>7</td>
+<td>10</td>
+<td>13</td>
+<td>14</td>
+</tr>
+<tr>
+<td>4</td>
+<td>7</td>
+<td>10</td>
+<td>13</td>
+<td>14</td>
+<td>16</td>
+</tr>
+<tr>
+<td>5</td>
+<td>9</td>
+<td>13</td>
+<td>-</td>
+<td>15</td>
+<td>17</td>
+</tr>
+<tr>
+<td>6</td>
+<td>11</td>
+<td>16</td>
+<td>-</td>
+<td>16</td>
+<td>19</td>
+</tr>
+<tr>
+<td>7</td>
+<td>13</td>
+<td>-</td>
+<td>-</td>
+<td>17</td>
+<td>20</td>
+</tr>
+<tr>
+<td>8</td>
+<td>15</td>
+<td>-</td>
+<td>-</td>
+<td>18</td>
+<td>22</td>
+</tr>
+<tr>
+<td>9</td>
+<td>17</td>
+<td>-</td>
+<td>-</td>
+<td>19</td>
+<td>23</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p>* For a sorcerer, increase the minimum caster level of any spell of 2nd level or higher by 1.</p>
+<h3 id="rule-limited_magic-limited-magic-items">Limited Magic Items</h3>
+<p>Spells from magic items use the same rules as above. That means a <Link to="/spell/fireball">fireball</Link> cast from a wand created by a sorcerer or wizard has the same save DC and amount of damage dice as a <em>fireball</em> cast by any sorcerer or wizard. When calculating the base cost or price of a magic item, always use the minimum CL as defined by this system (even if the item's creator would have had a higher caster level). Potions and scrolls always default to the appropriate cleric, druid, or wizard spell level to determine their base costs.</p>
+<h3 id="rule-limited_magic-heighten-spell">Heighten Spell</h3>
+<p>Under this system, spells can still be improved using <Link to="/feat/heighten_spell">Heighten Spell</Link>. A heightened spell uses the minimum CL, but does so as though it were a higher-level spell. For example, a <em>fireball</em> heightened to 5th level would have a DC of 17 and deal 9d6 points of damage, the same as a <Link to="/spell/cone_of_cold">cone of cold</Link> cast in the same slot.</p>
+<h3 id="rule-limited_magic-other-considerations">Other Considerations</h3>
+<p>Limited magic can take some getting used to. It reduces the power of most spellcasters dramatically, but can speed the game up by requiring less research into the caster levels of monsters, NPCs, and magic items. Limited magic can also encourage better-rounded spellcaster characters, especially if you're using the purchase system to generate ability scores, as there's less reward for focusing solely on their spellcasting attributes. Using this system means that if a class gets a spell at a lower level than another class does, that spell's effects are weaker for the former class. A bard's <Link to="/spell/heroism">heroism</Link> is not as good as a wizard's. However, classes with slower spell progressions (such as the bard, paladin, and ranger) have other abilities that keep them competitive when limited magic weakens the overall power of spells.</p>
+<p>Consider altering other rules to account for a landscape with lower average DCs. For instance, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/iron_will">Iron Will</Link>, and <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link> might provide only a +1 bonus on saves, or the increases to spell DCs from <Link to="/feat/spell_focus">Spell Focus</Link> and <Link to="/feat/greater_spell_focus">Greater Spell Focus</Link> could go up to 2.</p>
+<p><strong className="hl">With Esoteric Spell Components:</strong> This system works especially well with the <Link to="/rule/esoteric_material_components">esoteric material components system</Link>. Using both systems means that spellcasting in the campaign is weaker overall, but can be boosted on occasion by characters willing to spend money to increase the potency of their spells.</p>
+</>};
+const _wild_magic = {title: "Wild Magic", parent_topics: ["optional_subsystems","spell_alterations"], siblings: ["limited_magic","wild_magic","active_spellcasting"], subtopics: ["implementing_wild_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 147</Link></p>
+<p>Though many spellcasters like to consider their use of magic a science, the effects of magic are not always easy to predict. Wild, uncontrolled magic sometimes surges as a side effect of spellcasting or magical experimentation. Wild magic can be used in any situation where magic might cause randomness and chaotic effects. When a character casts a spell or takes an action that could trigger a surge of wild magic (see <Link to="/rule/implementing_wild_magic">Implementing Wild Magic</Link>), roll on Table 4-4: Wild Magic Surge.</p>
+<p>Roll to determine the surge effect before the spell is cast, but apply the effect after the spell is cast unless it alters the spell itself in some way (such as changing the effective caster level). Any reference on the table to the spell or the spell's level applies to the spell being cast, supernatural ability being used, or magic item effect being activated. Similarly, any reference to the caster applies to the character who triggers the surge. If an effect requires a caster level, use the caster's full character level.</p>
+<p>If the wild magic surge effect you roll isn't possible due to the nature of the spell or effect, roll instead on Table 4-5: Universal Surge Effects. A wild magic surge effect doesn't allow a saving throw, even if it's replicating a spell that normally would, and any effect that would normally have a limit on the amount of Hit Dice it can affect ignores that limit. Higher results on the table are more likely to be beneficial, so a GM might give a bonus or penalty on the check if an action would alter how likely it is that the wild magic surge would be helpful.</p>
+<h3 id="rule-wild_magic-table-4-4-wild-magic-surge">Table 4-4: Wild Magic Surge</h3>
+<ScrollContainer id="rule-wild_magic--table-0"><table>
+<thead>
+<tr>
+<th>d%</th>
+<th>Surge Effect</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>01-02</td>
+<td>The caster takes 1d6 points of damage per spell level.</td>
+</tr>
+<tr>
+<td>03-04</td>
+<td>The caster is affected by a <Link to="/spell/slow">slow</Link> spell for 5 rounds.</td>
+</tr>
+<tr>
+<td>05</td>
+<td>The spell takes effect at a random location within the spell's range.</td>
+</tr>
+<tr>
+<td>06</td>
+<td>The caster is confused for 1 round (as <Link to="/spell/confusion">confusion</Link>).</td>
+</tr>
+<tr>
+<td>07</td>
+<td>The caster takes 1 point of Constitution bleed.</td>
+</tr>
+<tr>
+<td>08</td>
+<td>The caster takes 1 point of ability bleed that matches her spellcasting ability score (determine randomly if the creature isn't a spellcaster).</td>
+</tr>
+<tr>
+<td>09-10</td>
+<td>The caster is dazed for 1 round (as <Link to="/spell/daze_monster">daze monster</Link>).</td>
+</tr>
+<tr>
+<td>11-12</td>
+<td>The spell deals half as much damage as normal.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>The caster takes 1d4 points of bleed damage.</td>
+</tr>
+<tr>
+<td>14</td>
+<td>The caster falls asleep for 1 minute (as <Link to="/spell/sleep">sleep</Link>).</td>
+</tr>
+<tr>
+<td>15-16</td>
+<td>The caster can't cast or concentrate on spells for 1 round.</td>
+</tr>
+<tr>
+<td>17</td>
+<td>The caster is affected by <Link to="/spell/reduce_person">reduce person</Link> for 1 minute.</td>
+</tr>
+<tr>
+<td>18-19</td>
+<td>The caster becomes sickened for 5 rounds.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>A <Link to="/spell/zone_of_truth">zone of truth</Link> appears, centered on the caster.</td>
+</tr>
+<tr>
+<td>21-29</td>
+<td>The caster is affected as if targeted by the spell.</td>
+</tr>
+<tr>
+<td>30-32</td>
+<td>All targets of the spell are affected by <Link to="/spell/lesser_restoration">lesser restoration</Link>.</td>
+</tr>
+<tr>
+<td>33-38</td>
+<td>All targets of the spell are healed of 1d8+1 points of damage. This is a positive energy effect.</td>
+</tr>
+<tr>
+<td>39-43</td>
+<td>The spell's area or the targets of the spell become affected by <Link to="/spell/silence">silence</Link> for 3 rounds.</td>
+</tr>
+<tr>
+<td>44-50</td>
+<td>All targets of the spell become invisible for 1 round (as <Link to="/spell/invisibility">invisibility</Link>).</td>
+</tr>
+<tr>
+<td>51-58</td>
+<td>The area of the spell is filled with <Link to="/spell/daylight">daylight</Link>.</td>
+</tr>
+<tr>
+<td>59-64</td>
+<td>A <Link to="/spell/shatter">shatter</Link> spell affects a 5-foot radius around each target of the spell (or the spell's area).</td>
+</tr>
+<tr>
+<td>65-71</td>
+<td>The spell's area is coated in <Link to="/spell/grease">grease</Link>.</td>
+</tr>
+<tr>
+<td>72-74</td>
+<td>One random tree or animal targeted by the spell or in the spell's area is affected by <Link to="/spell/awaken">awaken</Link>.</td>
+</tr>
+<tr>
+<td>75-78</td>
+<td>An instrument appears adjacent to each target (as <Link to="/spell/summon_instrument">summon instrument</Link>).</td>
+</tr>
+<tr>
+<td>79-80</td>
+<td>Every door within 100 feet of the caster is affected by a <Link to="/spell/knock">knock</Link> spell.</td>
+</tr>
+<tr>
+<td>81-83</td>
+<td>The caster teleports to a square of her choice adjacent to the spell's target or within the spell's area.</td>
+</tr>
+<tr>
+<td>84-86</td>
+<td>The next spell targeting the caster is turned back, as <Link to="/spell/spell_turning">spell turning</Link>.</td>
+</tr>
+<tr>
+<td>87-90</td>
+<td>The caster gains 2d6 temporary hit points that last 1 hour and don't stack with any other temporary hit points.</td>
+</tr>
+<tr>
+<td>91-92</td>
+<td>A random creature from the <Link to="/spell/summon_monster_i">summon monster I</Link> list is summoned in a square adjacent to the caster. It is under the caster's control.</td>
+</tr>
+<tr>
+<td>93-95</td>
+<td>The caster is affected by tongues for 10 minutes.</td>
+</tr>
+<tr>
+<td>96-97</td>
+<td>The caster is affected by haste for 5 rounds.</td>
+</tr>
+<tr>
+<td>98</td>
+<td>The spell is <Link to="/feat/extended">extended</Link>.</td>
+</tr>
+<tr>
+<td>99</td>
+<td>The spell is <Link to="/feat/maximized">maximized</Link>.</td>
+</tr>
+<tr>
+<td>100</td>
+<td>The spell slot used to cast the spell is not expended.</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="rule-wild_magic-table-4-5-universal-surge-effects">Table 4-5: Universal Surge Effects</h3>
+<ScrollContainer id="rule-wild_magic--table-1"><table>
+<thead>
+<tr>
+<th>d%</th>
+<th>Surge Effect</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>01-20</td>
+<td>The caster takes 1d6 points of damage that can't be prevented in any way.</td>
+</tr>
+<tr>
+<td>21-80</td>
+<td>The caster is affected by <Link to="/spell/faerie_fire">faerie fire</Link> for 1 round.</td>
+</tr>
+<tr>
+<td>81-100</td>
+<td>The caster gains 1d6 temporary hit points that last for 1 hour. These don't stack with other temporary hit points.</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p><strong className="hl">Compare:</strong> <Link to="/rule/primal_magic">Primal Magic</Link>, Wild Magic under <Link to="/rule/magic_traits">Planar Magic Traits</Link></p>
+</>};
+const _implementing_wild_magic = {title: "Implementing Wild Magic", parent_topics: ["optional_subsystems","spell_alterations","wild_magic"], siblings: ["implementing_wild_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 147</Link></p>
+<p>Though the rules on when to use wild magic are deliberately vague to give the GM leeway, here are some suggestions, presented in order from simplest to most complex.</p>
+<p><strong className="hl">Failed Concentration:</strong> When a caster fails a <Link to="/rule/concentration">concentration</Link> check, and thereby loses a spell, some of the spell's energy escapes in a wild magic surge.</p>
+<p><strong className="hl">Dispel and Counterspell:</strong> When a spell or magical effect is dispelled or counterspelled, it triggers a wild magic surge on the caster or subject.</p>
+<p><strong className="hl">Wild Zones:</strong> Some places are magically unstable. When a creature casts a spell, uses a spell-like ability, or activates a magic item in such an area, it causes a wild magic surge.</p>
+<p><strong className="hl">Boost Casting:</strong> A caster can attempt to use a <Link to="/main/metamagic_feat">metamagic feat</Link> she has with a spell she's casting without expending a higher-level spell slot, needing to prepare the spell at a higher level (if a prepared caster), or increasing the casting time (if a spontaneous caster). To do so, she must attempt a caster level check with a DC equal to 10 + the spell's level + 5 for every increase in spell level the metamagic feat would normally cause. If she succeeds, her spell gains the metamagic feat's benefit and she causes a wild magic surge. If she fails, she still rolls on Table 4-4, but subtracts from the result a number equal to the amount by which she failed the check.</p>
+</>};
+const _active_spellcasting = {title: "Active Spellcasting", parent_topics: ["optional_subsystems","spell_alterations"], siblings: ["limited_magic","wild_magic","active_spellcasting"], subtopics: ["overclocked_spells","spell_attack_rolls","spell_critical_hits","spell_fumbles"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 148</Link></p>
+<p>Under the core rules, a spellcaster is largely passive when resolving the effects of her spells. She announces which spell she's casting, and the targets roll their saves in response. Compare this with attacks, where the attacker rolls all the dice. The following variants help spellcasters feel more involved in the resolution of spells.</p>
+</>};
+const _overclocked_spells = {title: "Overclocked Spells", parent_topics: ["optional_subsystems","spell_alterations","active_spellcasting"], siblings: ["overclocked_spells","spell_attack_rolls","spell_critical_hits","spell_fumbles"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 148</Link></p>
+<p>Using the overclocked spells variant, confident spellcasters can attempt to weave more power into their spells as they cast them. This is not without risk: deviating from the stable, standard formulation of the spell risks collapse of the spell and the magical energy therein.</p>
+<p>As a swift action while casting a spell, a spellcaster can attempt to increase either the spell's DC or her caster level for the spell. She must attempt a Spellcraft check with a DC equal to 15 + the spell's level + the minimum caster level of that spell for her class. If she succeeds, she can increase either her caster level or the DC of the spell by 2. If she fails, the spell is not cast and she loses the prepared spell or spell slot. If she fails the Spellcraft check by 5 or more, she also suffers a mishap, similar to a <Link to="/rule/scrolls">scroll mishap</Link>.</p>
+<p><strong className="hl">With Limited Magic:</strong> If you are using the <Link to="/rule/limited_magic">limited magic rules</Link>, instead of increasing the caster level or DC by 2 on a successfully overclocked spell, instead allow the caster to gain the standard benefits of her full caster level and ability scores.</p>
+<p><strong className="hl">With Spell Fumbles:</strong> Apply the results of a <Link to="/rule/spell_fumbles">spell fumble</Link> in place of a mishap.</p>
+</>};
+const _spell_attack_rolls = {title: "Spell Attack Rolls", parent_topics: ["optional_subsystems","spell_alterations","active_spellcasting"], siblings: ["overclocked_spells","spell_attack_rolls","spell_critical_hits","spell_fumbles"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 148</Link></p>
+<p>When casting a spell or using a magical effect that allows a saving throw, the caster makes a spell attack roll, rolling 1d20 with a bonus equal to her spellcasting ability modifier plus the spell's level. Any bonuses that would normally make the spell more difficult to avoid (such as the <Link to="/feat/spell_focus">Spell Focus</Link> feat) also apply. The DC of this roll is equal to 11 + the target's relevant save bonus. If the caster succeeds, treat the spell or effect as if the target had failed its save. Otherwise, treat it as if the target succeeded at its save. Just like an ordinary attack roll, a natural 1 is an automatic failure, while a natural 20 is an automatic success. This rule does not change the chances of success; it just changes who is rolling the die.</p>
+<p>For example, a wizard with an Intelligence score of 18 casts <Link to="/spell/charm_person">charm person</Link> on an orc guard. Normally, the orc would attempt a DC 15 Will saving throw (10 + 1 for a 1st-level spell + 4 for the wizard's Intelligence bonus). Since the orc's Will save modifier is -1, he has to roll a 16 to succeed, and thus will fail his save 80% of the time. Under the spell attack roll rules, rather than the orc attempting a Will save, the wizard makes a spell attack roll with a +5 bonus (the spell's DC of 15 - 10) against a DC of 10 (11 + the orc's -1 Will save modifier). The wizard has to roll at least a 5 to succeed, so he still affects his target 80% of the time.</p>
+<p>This variant puts more dice in the hands of the players. Consider running NPC spellcasters under the core rules instead, so that players can feel responsible for their own saves. It's usually easiest for the player to write down the spell attack roll bonus for each level.</p>
+<p><strong className="hl">Faster Variant:</strong> Normally, a caster would roll a separate spell attack roll against each target. A GM who wants to speed up play (at the expense of making the game more prone to extremes and not matching the core rules as closely) can instead require only a single roll and apply it against the defenses of all the targets.</p>
+</>};
+const _spell_critical_hits = {title: "Spell Critical Hits", parent_topics: ["optional_subsystems","spell_alterations","active_spellcasting"], siblings: ["overclocked_spells","spell_attack_rolls","spell_critical_hits","spell_fumbles"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 149</Link></p>
+<p>Spells that require attack rolls follow the standard critical hit rules as described in the Core Rulebook. With this variant, spells that require a saving throw gain the same benefit. If a creature rolls a natural 1 on its saving throw, the spell threatens a critical hit. That creature rolls the save again, and if it fails on this second roll, the critical hit is confirmed, and any numeric effect of the spell is doubled. For spells that lack a direct numeric effect, such as <Link to="/spell/charm_person">charm person</Link>, the duration is doubled instead. A spell that requires both an attack roll and a saving throw (such as <Link to="/spell/ray_of_enfeeblement">ray of enfeeblement</Link>) can threaten a critical hit only on the attack roll.</p>
+<p>The GM is encouraged to apply other types of doubling where appropriate. For instance, a poison spell might afflict a target with 2 doses of poison on a critical hit instead of doubling the effect of the poison.</p>
+<p><strong className="hl">With Spell Attack Rolls:</strong> This rule combines well with the <Link to="/rule/spell_attack_rolls">spell attack roll rule</Link>. If you roll a natural 20 on your spell attack roll, you threaten a critical hit, then roll the attack roll again to confirm the critical. Avoid the faster variant of spell attack rolls if you're also using spell critical hits, or at the very least roll to confirm each one separately.</p>
+<p><strong className="hl">With Spell Fumbles:</strong> This system is meant to be used in a campaign alongside the <Link to="/rule/spell_fumbles">spell fumbles variant</Link>, though the two can be used separately.</p>
+</>};
+const _spell_fumbles = {title: "Spell Fumbles", parent_topics: ["optional_subsystems","spell_alterations","active_spellcasting"], siblings: ["overclocked_spells","spell_attack_rolls","spell_critical_hits","spell_fumbles"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 149</Link></p>
+<p>Spells have a chance to automatically miss, just like any other attack. Normally, this is represented by the target rolling a natural 20 on its save. However, you might be interested in a more dramatic "fumble" result. If an enemy rolls a natural 20 on its save, it rolls the save again. If it succeeds at the second save, then the spell was fumbled, resulting in an accident similar to a scroll mishap. Roll 1d10 and consult Table 4-6: Spell Fumbles. You can fumble only once per spell cast. If more than one target rolls a 20, only the first target rolls to confirm the fumble.</p>
+<h3 id="rule-spell_fumbles-table-4-6-spell-fumbles">Table 4-6: Spell Fumbles</h3>
+<ScrollContainer id="rule-spell_fumbles--table-0"><table>
+<thead>
+<tr>
+<th>d10</th>
+<th>Fumble Result</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>A surge of uncontrolled magical energy deals 1d6 points of damage per spell level to the caster.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>The spell strikes the caster or an ally instead of the intended target.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>The spell takes effect at a random location within the spell's range.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>The spell's effect on the target is contrary to the spell's normal effect.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>The spellcaster suffers some minor but bizarre effect related to the spell in some way. Most such effects should last only as long as the original spell's duration, or 2d10 minutes for instantaneous spells.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>A random innocuous item or items suddenly appear in the spell's area.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>The spell's effect is delayed. Sometime within the next 1d12 hours, the spell activates. The spell goes off in the general direction of the original target, up to the spell's maximum range if the target has moved away.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>The caster can't cast or concentrate on spells for 1 round.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>The caster is dazed for 1 round.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>The caster takes 1 point of Constitution damage.</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p><strong className="hl">With the Critical Fumble Deck:</strong> If you're using the <em>Pathfinder Cards: Critical Fumble Deck</em> in your game, draw a fumble card and apply the Magic result instead of rolling on the fumble table. You can use the Critical Fumble Deck for spell fumbles in your game even if you aren't using it to add other fumbles.</p>
+<p><strong className="hl">With Wild Magic:</strong> You can use <Link to="/rule/wild_magic">Table 4-4: Wild Magic Surge</Link> instead of Table 4-6: Spell Fumbles. If you use that table, roll 1d20 instead of d%.</p>
+<p><strong className="hl">With Spell Attack Rolls:</strong> When using the <Link to="/rule/spell_attack_rolls">spell attack roll variant</Link>, a fumble might occur if you roll a natural 1 on the attack roll. Roll the attack roll a second time - if it would miss again, the spell has fumbled.</p>
+</>};
+const _stamina_and_combat_tricks = {title: "Stamina and Combat Tricks", parent_topics: ["optional_subsystems"], siblings: ["affiliations","bargaining","contacts","downtime","factions","hero_points","honor","influence","investment","primal_magic","provision_points","relationships","reputation_and_fame","research","spell_alterations","stamina_and_combat_tricks","the_hunger"], subtopics: ["combat_stamina"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 112</Link></p>
+<p>While magic deals with complex formulae, precise manipulation of components, and intense concentration, martial acumen often relies on seizing opportunities and pushing the body and the will to carve a path to victory on the battlefield. Those who make their way in the world by skill at arms know that the determination to test the limits of endurance often separates the living from the dead and the vanquished from the victorious.</p>
+<p>Stamina and combat tricks can help characters better reflect this opportunistic flexibility and the give-and-take of the battlefield. This system allows a character to draw upon an internal reservoir of will and gumption to overturn the assumed limitations of combat, at least for short bursts. With luck and proper timing, a martial character using this system can snatch victory from the jaws of defeat or put a despicable villain to a stunning end.</p>
+<p>There are several ways you can implement this system in your game.</p>
+<p><strong className="hl">Feat Access:</strong> The easiest way to introduce stamina and combat tricks into your game is to grant access to the <Link to="/feat/combat_stamina">Combat Stamina</Link> feat, detailed below. This allows those taking the feat to opt into the system, gain a stamina pool, and use stamina to increase the utility of combat feats and class features they already have or will gain in the future. In general, the Combat Stamina feat is quite strong for martial characters with a variety of combat feats.</p>
+<p><strong className="hl">Free for Fighters:</strong> If your goal is to provide an additional edge to the <Link to="/class/fighter">fighter</Link> class, you can allow fighters to gain the Combat Stamina feat as an additional bonus feat at 1st level.</p>
+<p><strong className="hl">Fighter Bonus Feats Only:</strong> If you want to significantly strengthen fighters compared to all other classes and keep this system as a special fighter-only perk, you can restrict the Combat Stamina feat to fighters and limit the feats a character can use with his stamina pool to those gained with the fighter's bonus feats. A multiclass fighter can't use stamina with bonus feats he gained from any other class, even if that class can take fighter-only feats as bonus feats (like the <Link to="/class/warpriest">warpriest</Link> and the <Link to="/class/swashbuckler">swashbuckler</Link>). In this version, if a character really wants the stamina ability of a few key feats, he will need to diversify his martial training by taking a level in fighter.</p>
+<p><strong className="hl">Free for Everyone:</strong> If your goal is to immediately boost all martial characters and the whole group is ready to handle the stamina and combat tricks system, you can grant Combat Stamina as an additional bonus feat for all martial characters, or even for all characters.</p>
+<blockquote className="showIfNoStamina">
+<p><em>Combat tricks are listed under their associated feats, but you have toggled Combat Tricks off on the <Link to="/settings">settings page</Link>. You will need to toggle it back on in order to see them.</em></p>
+</blockquote>
+</>};
+const _combat_stamina = {title: "Combat Stamina", parent_topics: ["optional_subsystems","stamina_and_combat_tricks"], siblings: ["combat_stamina"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 112</Link></p>
+<p>When you have an ability that grants you stamina points, you gain a stamina pool with a maximum number of stamina points equal to your base attack bonus + your Constitution modifier. During combat, you can spend stamina points from this pool to perform a combat trick, the specific effects of which are dictated by a combat feat you possess. Spending stamina points in this way is not an action, but you can't do so if you are unconscious, fatigued, or exhausted. You can use as many combat tricks on the same action or attack as you like (as long as you have the stamina points to spend), but you can't use the same combat trick twice within its scope. For instance, if you have a combat trick that affects a single attack, you can't use that combat trick more than once on the same attack.</p>
+<p>Dropping to 0 stamina points causes you to become fatigued until you have 1 or more points in your stamina pool.</p>
+<p>Temporary increases to your Constitution score, such as those granted by the core <Link to="/class/barbarian">barbarian's</Link> rage class feature or <Link to="/spell/bears_endurance">bear's endurance</Link>, do not increase the number of stamina points in your pool or your pool's maximum number of stamina points. However, permanent increases to Constitution, such as the bonus granted by a <Link to="/magic-wondrous/belt_of_mighty_constitution">belt of mighty constitution</Link> worn for more than 24 hours, do adjust your stamina points.</p>
+<p>You regain stamina points by resting for short periods of time. You don't have to sleep while resting in this way, but you can't exert yourself. You stop regaining stamina points if you enter combat; take an action that requires a Strength-, Dexterity-, or Constitution-based skill check or an ability check tied to one of those ability scores; or take more than one move action or standard action in a round (you can still take free, immediate, and swift actions). This reduction in your number of actions per round also effectively halves your overland speed. For each uninterrupted minute you rest in this way, you regain 1 stamina point. If you are suffering from any of the following conditions, you can't regain stamina points: confused, cowering, dazed, dead, disabled, exhausted, fascinated, frightened, helpless, nauseated, panicked, paralyzed, petrified, shaken, sickened, staggered, or stunned.</p>
+</>};
+const _the_hunger = {title: "Undead Hunger", parent_topics: ["optional_subsystems"], siblings: ["affiliations","bargaining","contacts","downtime","factions","hero_points","honor","influence","investment","primal_magic","provision_points","relationships","reputation_and_fame","research","spell_alterations","stamina_and_combat_tricks","the_hunger"], subtopics: ["creatures_and_their_hunger","hunger_rules","withdrawal_effects","feeding_bonuses"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night pg. 22</Link><br/>"Hunger" is perhaps a misleading term to describe a vampire's lust for flesh, consciousness, or youth. As unliving things, they technically require no sustenance, and yet ravenousness is often considered a key characteristic of those who walk without life. In truth, this desire is driven not by need, but by psychological greed. Feasting grants the undead no physical nourishment, but does fill them with a pleasure and power they can't attain by any other means. For undead, the act of feeding can be likened to that of an addict satiating her inner demon.</p>
+<p>The basest monsters pursue their addiction to the exclusion of anything else, but vampires and other greater undead are closer to functioning addicts - simultaneously managing their hunger and their more high-minded schemes. If denied living nectar for too long, however, even the sharpest creatures hurl themselves at whichever warm, soft parts of the living they most covet.</p>
+<p>This section presents optional rules for the hunger of undead creatures. Consult your GM if you want to use these rules in your game, since the added element of feeding can have a drastic effect on vampire-focused campaigns, especially for players running vampire PCs.</p>
+</>};
+const _creatures_and_their_hunger = {title: "Creatures and Their Hunger", parent_topics: ["optional_subsystems","the_hunger"], siblings: ["creatures_and_their_hunger","hunger_rules","withdrawal_effects","feeding_bonuses"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night pg. 22</Link><br/>For vampires, managing their hunger is an integral part of unlife. Some revel in the feast, but for others it is nothing but a constant source of stress and shame. A vampire who refuses to feed on intelligent beings is relegated to the dull taste of animal blood out of necessity, and forsakes the euphoria of a true feed.</p>
+<p>Some see little choice but to give in to their desires with resignation. The joy dulls and the process becomes rote, but they accept it as part of their nature and never seek to break the cycle. This is especially true of spawn still under the control of their creator, who often view their hunger as just another restriction on their freedom.</p>
+<p>Other vampires are so frustrated by their immortal addiction that they dedicate their lives to the search for a cure for their affliction - or at least a substitute for feeding. This is more common for mortals unwillingly turned into vampires and those who truly understanding the ongoing implications of their transformation. Those nosferatu who have sufficient intellect are among the most likely to seek such a cure, and many feed with guilt.</p>
+<p>There are those who find the feeding process detestable, but whose fear of withdrawal convinces them to act on their hunger. To mortals, this revulsion-filled consumption is indistinguishable from savage bloodlust. Instead of pity and understanding, these vampires are greeted like any other of their kind - with stakes and torches and holy rage.</p>
+</>};
+const _hunger_rules = {title: "Hunger Rules", parent_topics: ["optional_subsystems","the_hunger"], siblings: ["creatures_and_their_hunger","hunger_rules","withdrawal_effects","feeding_bonuses"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night pg. 22</Link><br/>Where the living suffer physically from starvation, undead suffer mentally. After long enough without a "meal," even the most arrogant vampire becomes a bestial creature of instinct. Withdrawal weakens the monster, and as its natural defenses fail, its behavior becomes irrational, particularly when it's around sources of what it is denied or has denied itself.</p>
+<p>A carnivorous or otherwise life-draining undead may safely go a number of days equal to its Hit Dice without a dose of its preferred meal before it starts to feel the effects of hunger. Each additional day after this grace period, the undead must make a Will save (DC 10 + 1/2 the undead creature's Hit Dice, + 1 for each previous check). If the undead creature fails its save, it enters withdrawal and begins to take penalties according to the <Link to="/rule/withdrawal_effects">Withdrawal Penalties table</Link>. It must continue to save each day until it feeds again. Additional failed checks increase the penalties as shown on the table. Feats and abilities that affect mortal hunger (such as <Link to="/feat/endurance">Endurance</Link> or a <Link to="/magic-ring/ring_of_sustenance">ring of sustenance</Link>) do not apply to vampire hunger.</p>
+<p>An undead that is suffering from withdrawal grows increasingly drawn and gaunt (or diaphanous and tattered, for incorporeal undead). Any attempts by the creature to conceal its undead nature with the Disguise skill are penalized as noted on the table.</p>
+<p>An undead that suffers withdrawal is acutely aware of its unfulfilled addiction; if presented with the chance to feed, it might be compelled to do so, regardless of the consequences. Anytime it comes within 10 feet of a helpless creature that can sate its desire, it must make another hunger save at the current DC. Failure means it falls upon the helpless creature - whether friend or foe - and attempts to consume or drain it. Until the undead has fed, it can take no action other than to feed from this helpless creature or to enable itself to feed (such as a moroi grappling a creature so it can use its blood drain). During this feeding frenzy, the undead creature takes a -2 penalty to its AC.</p>
+</>};
+const _withdrawal_effects = {title: "Withdrawl Effects", parent_topics: ["optional_subsystems","the_hunger"], siblings: ["creatures_and_their_hunger","hunger_rules","withdrawal_effects","feeding_bonuses"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night pg. 22</Link><br/>An undead that hasn't fed recently suffers from withdrawal, depending on the number of hunger saves it has failed. As shown on the Withdrawal Penalties table, an undead creature suffering from withdrawal takes penalties to channel resistance, on Will saves, to Strength and Charisma scores, to damage reduction, to fast healing, and on Disguise checks. The withdrawal penalties apply only if the creature has the ability in question. For example, a hungry moroi's damage reduction decreases, but a hungry ghoul ignores that column because it doesn't have damage reduction. All penalties are removed when the creature completes a single feeding. This only ends the withdrawal penalties, and does not grant the creature any feeding bonuses beyond those granted by the creature's ability associated with feeding.</p>
+<p>If the undead's Strength or Charisma penalties equal its Strength or Charisma, it becomes inert, helpless, and wracked by nightmares of hunger; it only revives if fed by another. An undead creature's channel resistance, damage reduction, and fast healing cannot fall below 0.</p>
+<h3 id="rule-withdrawal_effects-withdrawal-penalties">Withdrawal Penalties</h3>
+<ScrollContainer id="rule-withdrawal_effects--table-0"><table>
+<thead>
+<tr>
+<th>Failed Hunger Saves</th>
+<th>Channel Resistance</th>
+<th>Will Saves</th>
+<th>Str/Cha</th>
+<th>DR</th>
+<th>Fast Healing</th>
+<th>Disguise</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>-1</td>
+<td>-2</td>
+<td>-1</td>
+<td>-2</td>
+<td>-1</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>-1</td>
+<td>-2</td>
+<td>-1</td>
+<td>-2</td>
+<td>-1</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>-1</td>
+<td>-2</td>
+<td>-2</td>
+<td>-4</td>
+<td>-1</td>
+<td>-4</td>
+</tr>
+<tr>
+<td>4</td>
+<td>-2</td>
+<td>-3</td>
+<td>-2</td>
+<td>-4</td>
+<td>-2</td>
+<td>-4</td>
+</tr>
+<tr>
+<td>5</td>
+<td>-2</td>
+<td>-3</td>
+<td>-4</td>
+<td>-4</td>
+<td>-2</td>
+<td>-4</td>
+</tr>
+<tr>
+<td>6</td>
+<td>-2</td>
+<td>-3</td>
+<td>-4</td>
+<td>-6</td>
+<td>-2</td>
+<td>-6</td>
+</tr>
+<tr>
+<td>7</td>
+<td>-3</td>
+<td>-4</td>
+<td>-6</td>
+<td>-6</td>
+<td>-3</td>
+<td>-6</td>
+</tr>
+<tr>
+<td>8</td>
+<td>-3</td>
+<td>-4</td>
+<td>-6</td>
+<td>-6</td>
+<td>-3</td>
+<td>-6</td>
+</tr>
+<tr>
+<td>9</td>
+<td>-3</td>
+<td>-4</td>
+<td>-8</td>
+<td>-8</td>
+<td>-3</td>
+<td>-8</td>
+</tr>
+<tr>
+<td>10</td>
+<td>-4</td>
+<td>-5</td>
+<td>-10</td>
+<td>-8</td>
+<td>-4</td>
+<td>-8</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _feeding_bonuses = {title: "Feeding Bonuses", parent_topics: ["optional_subsystems","the_hunger"], siblings: ["creatures_and_their_hunger","hunger_rules","withdrawal_effects","feeding_bonuses"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night pg. 23</Link><br/>What constitutes a feeding differs for each undead creature according to its own addiction. For creatures with a blood drain, level drain, or ability drain ability, each use of that ability counts as a feeding. Hungering creatures that lack a drain ability, such as zombies and ghouls, count consuming 1 pound of flesh as feeding (larger and smaller undead require proportionately more or less flesh). For these creatures, the flesh of a creature that has been dead for more than 1 hour staves off withdrawal but does not grant any other benefits, such as feeding bonuses (see below).</p>
+<p>If an undead creature can sate its hunger by feeding on a living creature with an Intelligence score of 5 or higher, it gains the following benefits from the feeding. These benefits are in addition to any listed in the creature's feeding-related ability.</p>
+<p>The first benefit - deeply desirable even to barely sentient undead - is the euphoric rush of feeding, which fills the feeder with a sense of power, domination, and focus. The undead gains a +1 resistance bonus on Will saves for 1 hour.</p>
+<p>The undead gains a +2 resistance bonus on all saves against spells and effects from creatures that have the same alignment as the target of the feeding. It is because of this effect that vampires so often feed on the innocent and pure, since most of their would-be slayers are of a similarly noble and good disposition.</p>
+<p>The undead gains a +4 competence bonus on Survival checks to track creatures of the same type as the target of the feeding. This bonus increases to +8 when the undead is tracking the specific creature on which it fed. The target creature is considered "very familiar" for the purposes of divination spells and effects cast by the undead.</p>
+</>};
+export default {influence:_influence,individual_influence:_individual_influence,discovery_check:_discovery_check,influence_check:_influence_check,before_a_social_event:_before_a_social_event,active_opponents:_active_opponents,influence_and_magic:_influence_and_magic,secret_identities_and_hidden_allegiences:_secret_identities_and_hidden_allegiences,divided_parties:_divided_parties,benefits_of_influence:_benefits_of_influence,countering_influence:_countering_influence,neglect:_neglect,social_stat_block:_social_stat_block,using_the_individual_influence_system:_using_the_individual_influence_system,setting_the_scene:_setting_the_scene,what_happened:_what_happened,the_value_of_influence:_the_value_of_influence,dramatis_personae:_dramatis_personae,organizational_influence:_organizational_influence,influence_points_and_ranks:_influence_points_and_ranks,positive_ranks:_positive_ranks,negative_ranks:_negative_ranks,gaining_influence_points:_gaining_influence_points,losing_influence_points:_losing_influence_points,organization_interactions:_organization_interactions,prominence:_prominence,favors:_favors,clandestine_operations:_clandestine_operations,organization_stat_block:_organization_stat_block,common_benefits:_common_benefits,sample_organizations:_sample_organizations,investment:_investment,investment_mechanics:_investment_mechanics,example_investments_and_problems:_example_investments_and_problems,primal_magic:_primal_magic,provision_points:_provision_points,relationships:_relationships,relationship_levels:_relationship_levels,growing_relationships:_growing_relationships,reversing_relationships:_reversing_relationships,example_relationships:_example_relationships,parent:_parent,sibiling:_sibiling,childhood_rival:_childhood_rival,spouse:_spouse,reputation_and_fame:_reputation_and_fame,fame:_fame,sphere_of_influence:_sphere_of_influence,prestige_points:_prestige_points,fame_1:_fame_1,fame_10:_fame_10,fame_20:_fame_20,fame_30:_fame_30,fame_40:_fame_40,fame_55:_fame_55,shared_fame:_shared_fame,alter_egos_aliases_and_secret_identities:_alter_egos_aliases_and_secret_identities,research:_research,using_a_library:_using_a_library,research_by_expertise:_research_by_expertise,designing_a_library:_designing_a_library,additional_elements:_additional_elements,sample_libraries:_sample_libraries,spell_alterations:_spell_alterations,limited_magic:_limited_magic,wild_magic:_wild_magic,implementing_wild_magic:_implementing_wild_magic,active_spellcasting:_active_spellcasting,overclocked_spells:_overclocked_spells,spell_attack_rolls:_spell_attack_rolls,spell_critical_hits:_spell_critical_hits,spell_fumbles:_spell_fumbles,stamina_and_combat_tricks:_stamina_and_combat_tricks,combat_stamina:_combat_stamina,the_hunger:_the_hunger,creatures_and_their_hunger:_creatures_and_their_hunger,hunger_rules:_hunger_rules,withdrawal_effects:_withdrawal_effects,feeding_bonuses:_feeding_bonuses}

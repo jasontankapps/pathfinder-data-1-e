@@ -1,11 +1,11 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
-import hex from './subpages/__hex';
-import patron from './subpages/__patron';
-import shamanhex from './subpages/__shamanhex';
-import evolution from './subpages/__evolution';
-import unchevolution from './subpages/__unchevolution';
-import eidolon from './subpages/__eidolon';
+import hex from './subpages/_GEN_hex';
+import patron from './subpages/_GEN_patron';
+import shamanhex from './subpages/_GEN_shamanhex';
+import evolution from './subpages/_GEN_evolution';
+import unchevolution from './subpages/_GEN_unchevolution';
+import eidolon from './subpages/_GEN_eidolon';
 import BasicTalentPage from './BasicTalentPage';
 import { Gen, GenStrict } from '../types';
 import './Page.css';

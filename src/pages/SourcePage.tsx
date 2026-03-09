@@ -1,6 +1,6 @@
 import { useParams } from 'wouter';
 import sources from '../json/sources.json';
-import sourceRefMap from './subpages/_data__sources';
+import sourceRefMap from './subpages/_GEN_sources';
 import BasicPage from './BasicPage';
 import './Page.css';
 

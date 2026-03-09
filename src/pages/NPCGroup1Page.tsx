@@ -1,4 +1,4 @@
-import npcs from './subpages/__npc1';
+import npcs from './subpages/_GEN_npc1';
 import NPCGroupBasic from './NPCGroupBasic';
 
 const NPCGroup1Page: React.FC<{id: string}> = ({id}) =>

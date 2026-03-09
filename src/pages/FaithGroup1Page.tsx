@@ -1,4 +1,4 @@
-import faiths from './subpages/__faith1';
+import faiths from './subpages/_GEN_faith1';
 import FaithGroupBasic from './FaithGroupBasic';
 
 const FaithGroup1Page: React.FC<{id: string}> = ({id}) =>

@@ -1,5 +1,5 @@
 import getItem from '../components/getItem';
-import witch from './subpages/__arc-witch';
+import witch from './subpages/_GEN_arc-witch';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

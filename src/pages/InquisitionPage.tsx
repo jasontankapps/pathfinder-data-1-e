@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import inquisitions from './subpages/__inquisition';
+import inquisitions from './subpages/_GEN_inquisition';
 import BasicPage from './BasicPage';
 import './Page.css';
 

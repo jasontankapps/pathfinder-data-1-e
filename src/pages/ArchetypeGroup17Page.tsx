@@ -1,5 +1,5 @@
 import getItem from '../components/getItem';
-import barbarian from './subpages/__arc-barbarian';
+import barbarian from './subpages/_GEN_arc-barbarian';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

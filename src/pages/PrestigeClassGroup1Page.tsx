@@ -1,4 +1,4 @@
-import prestige_classes from './subpages/__pclass1';
+import prestige_classes from './subpages/_GEN_pclass1';
 import PrestigeClassGroupBasic from './PrestigeClassGroupBasic';
 
 const PrestigeClassGroup1Page: React.FC<{id: string}> = ({id}) =>

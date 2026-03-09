@@ -1,6 +1,6 @@
 import getItem from '../components/getItem';
-import investigator from './subpages/__arc-investigator';
-import spiritualist from './subpages/__arc-spiritualist';
+import investigator from './subpages/_GEN_arc-investigator';
+import spiritualist from './subpages/_GEN_arc-spiritualist';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

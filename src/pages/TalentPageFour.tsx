@@ -1,11 +1,11 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
-import trick from './subpages/__trick';
-import stare from './subpages/__stare';
-import discovery from './subpages/__discovery';
-import arcanedisc from './subpages/__arcanedisc';
-import mercy from './subpages/__mercy';
-import performance from './subpages/__performance';
+import trick from './subpages/_GEN_trick';
+import stare from './subpages/_GEN_stare';
+import discovery from './subpages/_GEN_discovery';
+import arcanedisc from './subpages/_GEN_arcanedisc';
+import mercy from './subpages/_GEN_mercy';
+import performance from './subpages/_GEN_performance';
 import BasicTalentPage from './BasicTalentPage';
 import { Gen, GenStrict } from '../types';
 import './Page.css';

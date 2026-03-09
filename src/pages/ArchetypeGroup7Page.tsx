@@ -1,7 +1,7 @@
 import getItem from '../components/getItem';
-import rogue from './subpages/__arc-rogue';
-import sorcerer from './subpages/__arc-sorcerer';
-import unchained_summoner from './subpages/__arc-unchained_summoner';
+import rogue from './subpages/_GEN_arc-rogue';
+import sorcerer from './subpages/_GEN_arc-sorcerer';
+import unchained_summoner from './subpages/_GEN_arc-unchained_summoner';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';

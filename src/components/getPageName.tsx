@@ -1,4 +1,4 @@
-import index from '../json/_data__allLinks';
+import index from '../json/_GEN_allLinks';
 
 const switchback = (link: string) => {
 	// This matches only the non-fused pages

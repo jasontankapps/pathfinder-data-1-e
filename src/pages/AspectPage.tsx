@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import aspects from './subpages/__aspect';
+import aspects from './subpages/_GEN_aspect';
 import BasicPage from './BasicPage';
 import './Page.css';
 

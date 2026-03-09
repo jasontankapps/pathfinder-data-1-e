@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import domains from './subpages/__druiddomain';
+import domains from './subpages/_GEN_druiddomain';
 import BasicPage from './BasicPage';
 import './Page.css';
 

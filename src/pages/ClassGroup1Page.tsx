@@ -1,4 +1,4 @@
-import classes from './subpages/__class1';
+import classes from './subpages/_GEN_class1';
 import ClassGroupBasic from './ClassGroupBasic';
 
 const ClassGroup1Page: React.FC<{id: string}> = ({id}) =>

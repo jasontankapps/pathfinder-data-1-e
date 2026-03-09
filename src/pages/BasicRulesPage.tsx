@@ -2,7 +2,7 @@ import { FC, ReactElement, useMemo } from 'react';
 import { IonRippleEffect } from '@ionic/react';
 import Link from '../components/Link';
 import getPageName from '../components/getPageName';
-import data from '../json/_data_rule.json';
+import data from '../json/_GEN_rule.json';
 import { Hierarchy } from '../types';
 import BasicPage from './BasicPage';
 import './BasicRulesPage.css';

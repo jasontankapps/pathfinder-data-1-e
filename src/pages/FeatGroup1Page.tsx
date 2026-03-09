@@ -1,4 +1,4 @@
-import feats from './subpages/__feat1';
+import feats from './subpages/_GEN_feat1';
 import FeatGroupBasic from './FeatGroupBasic';
 
 const FeatGroup1Page: React.FC<{id: string}> = ({id}) =>

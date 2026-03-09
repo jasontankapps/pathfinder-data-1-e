@@ -1,4 +1,4 @@
-import equipment_misc from './subpages/__eq-misc1';
+import equipment_misc from './subpages/_GEN_eq-misc1';
 import EquipmentMiscGroupBasic from './EquipmentMiscGroupBasic';
 
 const EquipmentMiscGroup1Page: React.FC<{id: string}> = ({id}) =>

@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import bloodlines from './subpages/__blrgbloodline';
+import bloodlines from './subpages/_GEN_blrgbloodline';
 import BasicPage from './BasicPage';
 import './Page.css';
 

@@ -1,0 +1,3 @@
+import Link from '../../components/Link';
+const References: React.FC = () => <><h3>Feat</h3><ul><li><Link key="/feat/psychovore_master" to="/feat/psychovore_master">Psychovore Master</Link></li><li><Link key="/feat/psychovore_strike" to="/feat/psychovore_strike">Psychovore Strike</Link></li><li><Link key="/feat/psychovore_style" to="/feat/psychovore_style">Psychovore Style</Link></li></ul></>;
+export default References;
