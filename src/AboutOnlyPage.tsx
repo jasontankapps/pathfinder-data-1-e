@@ -115,7 +115,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 				<p>The font is <a href="https://fonts.google.com/specimen/Taviraj">Taviraj</a> by <a href="https://fonts.google.com/?query=Cadson%20Demak">Cadson Demak</a>, with some symbols being rendered as <a href="https://www.onlinewebfonts.com/download/bd95c919d5566390c0565bea43f95495">Symbola</a> by George Douros.</p>
 			</IonLabel></IonItem>
 			<IonItemDivider><IonLabel>App Info</IonLabel></IonItemDivider>
-			<IonItem><IonLabel><p>v.0.9.8</p></IonLabel></IonItem>
+			<IonItem><IonLabel><p>v.0.9.9</p></IonLabel></IonItem>
 		</IonList>
 	</div>
 );
