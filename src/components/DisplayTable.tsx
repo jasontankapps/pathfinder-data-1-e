@@ -86,6 +86,12 @@ const blankSortInfo: TableDataObject = {
 	hiddenRows: []
 };
 
+const validateSortOrder = (incoming: number[], cols: Column[]) => {
+	// Test to make sure the saved values are compatible with the current table version
+	const max = cols.length;
+	return incoming.some(n => n >= max) ? false : incoming;
+};
+
 const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const {
 		id,
@@ -101,7 +107,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		hiddenHeaders = [],
 		hiddenRows = []
 	} = useAppSelector(state => state.displayTable[id] || blankSortInfo);
-	const sortingColumns = (sortOrder || defaultSortOrder);
+	const sortingColumns = ((sortOrder && validateSortOrder(sortOrder, columns)) || defaultSortOrder);
 	const sortingColumn = sortingColumns[0];
 	const finderIsOpen = useContext(FinderContext);
 	const [open, setOpen] = useState<boolean>(false);
