@@ -2693,6 +2693,7 @@
 		]
 	},
 	"off_hand": { "redirect": "two_weapon_fighting" },
+	"fighting_with_two_weapons": { "redirect": "two_weapon_fighting" },
 	"delay": {
 		"name": "Delay",
 		"sources": [ "PRPG Core Rulebook" ],
