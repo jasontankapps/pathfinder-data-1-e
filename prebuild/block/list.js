@@ -1,6 +1,6 @@
 import { convertTextToLink } from '../tests/checkForEncodedLink.js';
 
-// ::list[Header]{all="one~two~three..." link="protocol" and?="and" hl? sep?="~" comma?=", "}
+// ::list[Header]{all="one~two|parenthetical~three..." link="protocol" and?="and" hl? sep?="~" comma?=", "}
 export const makeListBlock = ({
 	text,
 	maybeClear,
@@ -29,9 +29,11 @@ export const makeListBlock = ({
 	//
 	// CONSTRUCT LINKS
 	//
-	const output = all.split(sep).map(item => 
-		`<Link to="/${link}/${convertTextToLink(item)}">${item}</Link>`
-	);
+	const output = all.split(sep).map(item => {
+		const [base, parens] = item.split(/\|/);
+		const extra = parens ? ` (${parens})` : "";
+		return `<Link to="/${link}/${convertTextToLink(base)}">${base}</Link>${extra}`;
+	});
 	if(and) {
 		// Return list with 'and' if needed
 		if(output.length >= 3) {

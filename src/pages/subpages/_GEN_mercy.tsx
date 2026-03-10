@@ -2,13 +2,13 @@ import Link from '../../components/Link';
 const _not_found = {title: "Unknown", jsx: <><h2 id="mercy-not_found-unknown">Unknown</h2>
 <p>Unable to find the requested paladin mercy.</p>
 </>};
-const _abundant_step = {title: "Deceived", jsx: <><h2 id="mercy-abundant_step-deceived">Deceived</h2>
+const _deceived = {title: "Deceived", jsx: <><h2 id="mercy-deceived-deceived">Deceived</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 25</Link><br/>The target can immediately attempt a new saving throw to disbelieve any ongoing illusions that it failed to disbelieve within the last minute.</p>
 </>};
 const _fatigued = {title: "Fatigued", jsx: <><h2 id="mercy-fatigued-fatigued">Fatigued</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 61</Link><br/>The target is no longer fatigued.</p>
 </>};
-const _riled = {title: "riled", jsx: <><h2 id="mercy-riled-riled">riled</h2>
+const _riled = {title: "Riled", jsx: <><h2 id="mercy-riled-riled">Riled</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 25</Link><br/>The paladin's lay on hands also acts as <Link to="/spell/calm_emotions">calm emotions</Link>, but only for the purpose of suppressing morale bonuses (such as from the <Link to="/spell/rage">rage</Link> spell) and emotion effects that aren't fear effects. Use the paladin's level as the caster level.</p>
 </>};
 const _shaken = {title: "Shaken", jsx: <><h2 id="mercy-shaken-shaken">Shaken</h2>
@@ -77,4 +77,4 @@ const _petrified = {title: "Petrified", jsx: <><h2 id="mercy-petrified-petrified
 const _stunned = {title: "Stunned", jsx: <><h2 id="mercy-stunned-stunned">Stunned</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 62</Link><br/>The target is no longer stunned.</p>
 </>};
-export default {not_found:_not_found,abundant_step:_abundant_step,fatigued:_fatigued,riled:_riled,shaken:_shaken,sickened:_sickened,dazed:_dazed,diseased:_diseased,enfeebled:_enfeebled,haunted:_haunted,staggered:_staggered,targeted:_targeted,confused:_confused,cursed:_cursed,exhausted:_exhausted,frightened:_frightened,injured:_injured,nauseated:_nauseated,poisoned:_poisoned,amputated:_amputated,blinded:_blinded,deafened:_deafened,ensorcelled:_ensorcelled,paralyzed:_paralyzed,petrified:_petrified,stunned:_stunned}
+export default {not_found:_not_found,deceived:_deceived,fatigued:_fatigued,riled:_riled,shaken:_shaken,sickened:_sickened,dazed:_dazed,diseased:_diseased,enfeebled:_enfeebled,haunted:_haunted,staggered:_staggered,targeted:_targeted,confused:_confused,cursed:_cursed,exhausted:_exhausted,frightened:_frightened,injured:_injured,nauseated:_nauseated,poisoned:_poisoned,amputated:_amputated,blinded:_blinded,deafened:_deafened,ensorcelled:_ensorcelled,paralyzed:_paralyzed,petrified:_petrified,stunned:_stunned}

@@ -1,13 +1,8 @@
-//import checkForEncodedLink, { convertTextToLink } from './prebuild/tests/checkForEncodedLink.js';
-//import featTreeData from './json/feat_tree_data.json' with {type: 'json'};
 import isALink from './prebuild/get-all-links.js';
 import { globSync as glob } from 'glob';
 import fs from 'fs';
 
 const generated = glob('./src/**/_GEN_*.tsx').map(x => "./" + x.replace(/[\\]+/g, "/")).sort();
-
-//console.log(generated.slice(0, 10));
-//console.log(generated.slice(-10));
 
 const total = generated.length;
 
@@ -23,7 +18,6 @@ generated.forEach((file, i) => {
 	let m;
 	while(m = test.match(/^.*?<Link [^>]*\bto="[/]?([^"/]+)[/]([^"]+)"[^>]*>(.*)$/)) {
 		const [, protocol, property, next] = m;
-//		flag && console.log(`Testing ${protocol}/${property}`);
 		test = next;
 		if(protocol !== "icons" && !isALink(protocol, property)) {
 			console.log(`INVALID LINK IN (${i + 1}) [${file}]\n\t${protocol}/${property}`);

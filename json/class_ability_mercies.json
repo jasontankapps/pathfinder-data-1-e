@@ -6,7 +6,7 @@
 			"Unable to find the requested paladin mercy."
 		]
 	},
-	"abundant_step": {
+	"deceived": {
 		"name": "Deceived",
 		"compilationSources": [ [ "Healer's Handbook", 25 ] ],
 		"category": "3",
@@ -23,7 +23,7 @@
 		]
 	},
 	"riled": {
-		"name": "riled",
+		"name": "Riled",
 		"compilationSources": [ [ "Healer's Handbook", 25 ] ],
 		"category": "3",
 		"description": [

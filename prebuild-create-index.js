@@ -358,8 +358,11 @@ const $data_pairs = [
 			types: $allTypes,
 			searchindex: SEARCHINDEX
 		})
-],
-	['./prebuild/_GEN_featNames.json', JSON.stringify($featLinks)]
+	],
+	[
+		'./prebuild/_GEN_featNames.json',
+		JSON.stringify($featLinks)
+	]
 ];
 
 $data_pairs.forEach(pair => {

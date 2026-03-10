@@ -2274,7 +2274,7 @@
 					[ "‹misc/Cavalry Archers›", [ 8, "gp, Influence, or Labor +8" ], [ 470, "9 Goods, 3 Influence, 10 Labor (470 gp)" ], [ 7, "7 days" ], [ 5, "5 people" ], "Cavalry, Elite Archers", "" ],
 					[ "‹misc/Craftspeople›", [ 4, "gp, Goods, or Labor +4" ], [ 200, "3 Goods, 2 Influence, 4 Labor (200 gp)" ], [ 2, "2 days" ], [ 3, "3 people" ], "", "" ],
 					[ "‹misc/Cutpurses›", [ 3, "gp, Goods, or Labor +3" ], [ 110, "3 Influence, 1 Labor (110 gp)" ], [ 1, "1 day" ], [ 5, "5 people" ], "", "Robbers" ],
-					[ "‹misc/Driver›", [ 2, "gp, Goods, or Labor +2" ], [ 90, "2 Goods, 1 Influence, 1 Labor (90 gp)" ], [ 0, "0 days" ], [ 1, "1 person" ], "Laborers", "Lackeys" ],
+					[ "‹misc/Drivers›", [ 2, "gp, Goods, or Labor +2" ], [ 90, "2 Goods, 1 Influence, 1 Labor (90 gp)" ], [ 0, "0 days" ], [ 1, "1 person" ], "Laborers", "Lackeys" ],
 					[ "‹misc/Elite Archers›", [ 7, "gp, Influence, or Labor +7" ], [ 380, "5 Goods, 4 Influence, 8 Labor (380 gp)" ], [ 6, "6 days" ], [ 5, "5 people" ], "Archers, Elite Soldiers", "Cavalry Archers" ],
 					[ "‹misc/Elite Guards›", [ 4, "gp, Influence, or Labor +4" ], [ 170, "3 Goods, 1 Influence, 4 Labor (170 gp)" ], [ 2, "2 days" ], [ 5, "5 people" ], "Guards", "Elite Soldiers" ],
 					[ "‹misc/Elite Soldiers›", [ 6, "gp, Influence, or Labor +6" ], [ 330, "5 Goods, 3 Influence, 7 Labor (330 gp)" ], [ 5, "5 days" ], [ 5, "5 people" ], "Elite Guards, Soldiers", "Cavalry, Elite Archers" ],

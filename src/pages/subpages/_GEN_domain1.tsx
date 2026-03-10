@@ -230,7 +230,8 @@ const _artifice = {hasJL:true,title: "Artifice", jsx: <><div className="jumpList
 <tr><th scope="row">8th</th><td><em>instant summons</em></td></tr>
 <tr><th scope="row">9th</th><td><em>prismatic sphere</em></td></tr></tbody></table><h3 id="domain-artifice-trap-subdomain" data-hash-target>Trap Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 13</Link></p>
-<p><strong className="hl">Associated Deities:</strong> <Link to="/faith/n_a">N/A</Link></p><p><strong className="hl">Replacement Power:</strong> Note: Only creatures with the <Link to="/trait/kobold_faith">Kobold Faith</Link> trait can take this subdomain.</p>
+<p><strong className="hl">Associated Deities:</strong> N/A</p>
+<p><strong className="hl">Replacement Power:</strong> Note: Only creatures with the <Link to="/trait/kobold_faith">Kobold Faith</Link> trait can take this subdomain.</p>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="domain-artifice-supernatural-trap-su" data-hash-target><div className="box">Supernatural Trap (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The <InnerLink toTop to="domain-artifice-dance">dancing weapons</InnerLink> power of the Artifice domain</div></div></div>
@@ -940,7 +941,8 @@ const _earth = {hasJL:true,title: "Earth", jsx: <><div className="jumpList" id="
 <tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/statue">statue<IonRippleEffect /></Link></td></tr>
 <tr><th scope="row">9th</th><td><em>elemental swarm (earth spell only)</em></td></tr></tbody></table><h3 id="domain-earth-radiation-subdomain" data-hash-target>Radiation Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 13</Link></p>
-<p><strong className="hl">Associated Deities:</strong> <Link to="/faith/n_a">N/A</Link></p><p><strong className="hl">Replacement Power:</strong> Note: Only creatures with the <Link to="/trait/kobold_faith">Kobold Faith</Link> trait can take this subdomain.</p>
+<p><strong className="hl">Associated Deities:</strong> N/A</p>
+<p><strong className="hl">Replacement Power:</strong> Note: Only creatures with the <Link to="/trait/kobold_faith">Kobold Faith</Link> trait can take this subdomain.</p>
 <div className="ability p"><div className="abIcon"><Link to="/icons/magic-palm"><IonIcon icon="/icons/magic-palm.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="domain-earth-radiating-touch-su" data-hash-target><div className="box">Radiating Touch (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The <InnerLink toTop to="domain-earth-dart">acid dart</InnerLink> power of the Earth domain</div></div></div>

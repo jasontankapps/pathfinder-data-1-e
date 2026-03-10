@@ -353,7 +353,7 @@ const _pharasma = {hasJL:true,title: "Pharasma", jsx: <><div className="jumpList
 <blockquote>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 79</Link><br/>The recipient is not affected by the next effect, damage, or other event that would otherwise kill him.</p>
 </blockquote>
-<h2 id="faith-pharasma-deific-obedience" data-hash-target><Link to="/rule/deific_obedience">Deific Obedience</Link></h2>
+<h2 id="faith-pharasma-deific-obedience" data-hash-target><Link to="/feat/deific_obedience">Deific Obedience</Link></h2>
 <blockquote>
 <p>Collect small bones whenever it is convenient and respectful to do so. When it comes time to perform your obedience, lay out the bones in a spiral. At one end of the spiral lay a slip of parchment on which you have written the name of someone newly born. At the other end of the spiral, lay a slip of parchment on which you have written the name of someone newly deceased. Chant hymns from The Bones Land in a Spiral while proceeding solemnly around the spiral, trailing a black scarf on the ground behind you. Gain a +2 profane or sacred bonus on attack rolls made with daggers. The type of bonus depends on your alignment - if you're neither good nor evil, you must choose either sacred or profane the first time you perform your obedience, and this choice can't be changed.</p>
 <h3 id="faith-pharasma-boons-evangelist">Boons: Evangelist</h3>
@@ -986,7 +986,7 @@ const _rovagug = {hasJL:true,title: "Rovagug", jsx: <><div className="jumpList" 
 <blockquote>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 79</Link><br/>The recipient gains the ability to bring destruction by casting one of the following spells as a spell-like ability (CL 20th): <Link to="/spell/implosion">implosion</Link>, <Link to="/spell/meteor_swarm">meteor swarm</Link>, <Link to="/spell/storm_of_vengeance">storm of vengeance</Link>, or <Link to="/spell/tsunami">tsunami</Link>.</p>
 </blockquote>
-<h2 id="faith-rovagug-deific-obedience" data-hash-target><Link to="/rule/deific_obedience">Deific Obedience</Link></h2>
+<h2 id="faith-rovagug-deific-obedience" data-hash-target><Link to="/feat/deific_obedience">Deific Obedience</Link></h2>
 <blockquote>
 <p>Smash an assortment of items worth at least 10 gp, preferably something fragile, aesthetically beautiful, or with significance to a good-aligned deity (particularly Sarenrae). The more devout servants of Rovagug seek out and hoard particularly expensive, artistic, or rare items, such as fine bottles of wine or delicate curios, to smash during their obedience. Roll in the shards of the destroyed items, howling and shouting praises and curses invoking the Rough Beast, until the shards draw blood and your lungs ache. Gain a +4 bonus on attack and damage rolls against objects.</p>
 <h3 id="faith-rovagug-boons-evangelist">Boons: Evangelist</h3>
@@ -1319,7 +1319,7 @@ const _sarenrae = {hasJL:true,title: "Sarenrae", jsx: <><div className="jumpList
 <blockquote>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 80</Link><br/>As the sun rises over the recipient's home world, he can perform a 10-minute prayer (this may be part of his daily ritual to prepare spells) to invoke the Dawnflower. For the next 24 hours, all healing effects the character generates heal the maximum amount of damage possible. In addition, during this time he can cast <Link to="/spell/breath_of_life">breath of life</Link> and <Link to="/spell/heal">heal</Link> as spell-like abilities 3 times each (CL 20th).</p>
 </blockquote>
-<h2 id="faith-sarenrae-deific-obedience" data-hash-target><Link to="/rule/deific_obedience">Deific Obedience</Link></h2>
+<h2 id="faith-sarenrae-deific-obedience" data-hash-target><Link to="/feat/deific_obedience">Deific Obedience</Link></h2>
 <blockquote>
 <p>The Dawnflower values the redemptive powers of compassion and patience, and extends them to all who might be capable of good. Offer to heal a stranger of his wounds, either by using the powers granted to you by Sarenrae or with a potion, scroll, or other item you possess. Tell the stranger it is by the will of Sarenrae that you share your healing gifts. You may also use your Heal skill to perform this act of healing service. If you can't find a stranger who will accept your offer, stand beneath the open sky during the daylight hours. Blindfold yourself with a red-and-gold scarf and try to locate the sun in the sky through the layers of fabric. Gain a +2 sacred bonus on Perception checks.</p>
 <h3 id="faith-sarenrae-boons-evangelist">Boons: Evangelist</h3>
@@ -1349,7 +1349,7 @@ const _sarenrae = {hasJL:true,title: "Sarenrae", jsx: <><div className="jumpList
 <p>The paladins of the Dawnflower are fierce warriors, like their goddess. They provide hope to the weak and support to the righteous. Their tenets include the following adages.</p>
 <ul>
 <li>I will protect my allies with my life. They are my light and my strength, as I am their light and their strength. We rise together.</li>
-<li>I will seek out and destroy the spawn of the <Link to="/faith/Rovagug">Rough Beast</Link>. If I cannot defeat them, I will give my life trying. If my life would be wasted in the attempt, I will find allies. If any fall because of my inaction, their deaths lie upon my soul, and I will atone for each.</li>
+<li>I will seek out and destroy the spawn of the <Link to="/faith/rovagug">Rough Beast</Link>. If I cannot defeat them, I will give my life trying. If my life would be wasted in the attempt, I will find allies. If any fall because of my inaction, their deaths lie upon my soul, and I will atone for each.</li>
 <li>I am fair to others. I expect nothing for myself but that which I need to survive.</li>
 <li>The best battle is a battle I win. If I die, I can no longer fight. I will fight fairly when the fight is fair, and I will strike quickly and without mercy when it is not.</li>
 <li>I will redeem the ignorant with my words and my actions. If they will not turn toward the light, I will redeem them by the sword.</li>
@@ -1771,7 +1771,7 @@ const _shelyn = {hasJL:true,title: "Shelyn", jsx: <><div className="jumpList" id
 <blockquote>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 80</Link><br/>Shelyn grants a permanent +1 untyped bonus to Charisma.</p>
 </blockquote>
-<h2 id="faith-shelyn-deific-obedience" data-hash-target><Link to="/rule/deific_obedience">Deific Obedience</Link></h2>
+<h2 id="faith-shelyn-deific-obedience" data-hash-target><Link to="/feat/deific_obedience">Deific Obedience</Link></h2>
 <blockquote>
 <p>Paint a small picture, compose a short poem or song, dance a scene from a ballet, or create another work of art, whispering praise to Shelyn's beauty and grace as you do so. The art piece need be neither large nor complex, but heartfelt and made to the best of your ability. Gift the piece of art to a stranger and pay her a sincere compliment as you do so. If there are no suitable individuals around to receive the gift, leave it in an obvious place with a note praising Shelyn and asking whoever finds it to take it with your warmest wishes. Gain a +4 sacred bonus on Craft and Perform checks.</p>
 <h3 id="faith-shelyn-boons-evangelist">Boons: Evangelist</h3>

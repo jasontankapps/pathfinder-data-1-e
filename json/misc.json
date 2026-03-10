@@ -1524,7 +1524,7 @@
 		"description": [
 			"‹SOURCE Ultimate Campaign/97›",
 			"",
-			"::room[False Front]{eGp eGoods e=2 benefit=\"Bonus to Perception and Sense Motive DCs\" cGoods=4 cInfluence=1 cLabor=4 c=190 t=12 s1=10 s2=20 to=\"Storage and Storefront (see below)\"}",
+			"::room[False Front]{eGp eGoods e=2 benefit=\"Bonus to Perception and Sense Motive DCs\" cGoods=4 cInfluence=1 cLabor=4 c=190 t=12 s1=10 s2=20 to=\"Storage~Storefront\"}",
 			"",
 			"This simple, nondescript business uses an innocuous front to hide criminal dealings. It might appear to be a low-quality pawnshop or ill-stocked market. It has the bare necessities for functioning as the kind of business it pretends to be, but its true purpose is to conceal the nature of the building - typically a criminal enterprise or secret meeting place, such as a cult's sanctuary or a den of thieves. The room includes a secret door leading to the rest of the building. The room increases Perception and Sense Motive DCs by 5 for those trying to notice unusual activity or determine whether the building is what it seems. Since a False Front contains both a false Storefront and false display area, its space can be upgraded to both Storage and a Storefront simultaneously (or upgraded to just one, leaving the remaining area unused)."
 		],
@@ -2291,7 +2291,7 @@
 		"description": [
 			"‹SOURCE Ultimate Campaign/104›",
 			"",
-			"::team[Archers]{eGp eInfluence eLabor e=6 cGoods=4 cInfluence=3 cLabor=7 c=310 t=4 s=5 to=\"Elite Archers\" from=Soliders}",
+			"::team[Archers]{eGp eInfluence eLabor e=6 cGoods=4 cInfluence=3 cLabor=7 c=310 t=4 s=5 to=\"Elite Archers\" from=Soldiers}",
 			"",
 			"Archers are soldiers trained to use projectile weapons. They are typically 1st-level warriors, each with scale mail, a longbow, a buckler, and a longsword.",
 			"",
@@ -2376,14 +2376,14 @@
 		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
-	"driver": {
-		"name": "Driver",
+	"drivers": {
+		"name": "Drivers",
 		"subtitle": "Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"‹SOURCE Ultimate Campaign/105›",
 			"",
-			"::team[Driver]{eGp eGoods eLabor e=2 cGoods=2 cInfluence=1 cLabor=1 c=90 t=0 s=1 from=Laborers to=Lackeys}",
+			"::team[Drivers]{eGp eGoods eLabor e=2 cGoods=2 cInfluence=1 cLabor=1 c=90 t=0 s=1 from=Laborers to=Lackeys}",
 			"",
 			"Drivers are trained to handle and move common animals' managing ox-drawn carts, herding cattle, or training riding horses. A Driver is typically 1st-level expert with ranks in Handle Animal, Knowledge (geography), Profession (driver), Ride, and Survival."
 		],
