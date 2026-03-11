@@ -330,10 +330,8 @@ const $data_pairs = [
 		};\nexport default prefixes;`
 	],
 	[
-		'./src/json/_GEN_fuseIndex.tsx',
-		`import {Item} from "../types";\nconst index: Item[] = ${
-			JSON.stringify($fuseIndex)
-		};\nexport default index;`
+		'./public/_GEN_fuseIndex.json',
+		JSON.stringify($fuseIndex)
 	],
 	[
 		'./src/json/_GEN_allLinks.tsx',

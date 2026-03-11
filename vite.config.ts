@@ -9,7 +9,10 @@ export default defineConfig({
   plugins: [
     react({babel: {configFile: true}}),
     legacy(),
-    VitePWA({ registerType: 'autoUpdate' })
+    VitePWA({
+      registerType: 'autoUpdate',
+      workbox: { maximumFileSizeToCacheInBytes: 4000000 }
+    })
   ],
   test: {
     globals: true,

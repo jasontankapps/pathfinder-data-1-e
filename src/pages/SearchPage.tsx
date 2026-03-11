@@ -46,7 +46,6 @@ import SearchHelpModal from '../components/SearchHelpModal';
 import Link from '../components/Link';
 import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
 import { setSearchQuery, setSearchFilter, SearchIndex } from '../store/searchSlice';
-import fuseIndex from '../json/_GEN_fuseIndex';
 import prefixes from '../json/_GEN_prefixes';
 //import fuseTranslatedIndex from '../json/_GEN_fuse-translated_data.json';
 import { Gen, Item, ParallelItem } from '../types';
@@ -76,7 +75,7 @@ const nothingActive: SearchIndex[] = [];
 //const myIndex = Fuse.parseIndex(fuseIndex);
 
 // create options
-const options = {
+const fuseOptions = {
 	ignoreLocation: true,
 	keys: [
 		{
@@ -99,7 +98,9 @@ const options = {
 	useExtendedSearch: true
 };
 // initialize Fuse with the index
-const fuse = new Fuse(fuseIndex, options);
+//const fuse = new Fuse(fuseIndex, fuseOptions);
+const BlankFuseIndex: Item[] = [];
+const blankFuse = new Fuse(BlankFuseIndex, fuseOptions);
 
 // Gather data
 interface DataObject {
@@ -119,13 +120,14 @@ interface SearchResultItem {
 	style: Gen<string, any>
 	data: {
 		results: FuseResult<Item>[]
+		fuseIndex: Item[]
 		filter?: number[]
 		fuseTranslatedIndex: DataObject
 	}
 }
 
 const SearchItem = ({index, style, data}: SearchResultItem) => {
-	const {results, fuseTranslatedIndex} = data;
+	const {results, fuseIndex, fuseTranslatedIndex} = data;
 	const { data: d, types } = fuseTranslatedIndex;
 	const { refIndex } = results[index];
 	const {t, p, l} = d[refIndex] || {t: "", p: "", l: ""}; // t = type, p = prefix, l = link
@@ -146,6 +148,8 @@ interface SearchResultProps {
 	searchText: string
 	filter?: SearchIndex[]
 	fuseTranslatedIndex: DataObject
+	fuse: Fuse<Item>
+	fuseIndex: Item[]
 }
 
 const LoadingNotice: FC = () => (
@@ -154,7 +158,7 @@ const LoadingNotice: FC = () => (
 	</IonList>
 );
 
-const SearchResults: FC<SearchResultProps> = ({searchText, filter, fuseTranslatedIndex}) => {
+const SearchResults: FC<SearchResultProps> = ({searchText, filter, fuseTranslatedIndex, fuse, fuseIndex}) => {
 	if(!searchText) {
 		return (
 			<IonList className="search">
@@ -184,7 +188,7 @@ const SearchResults: FC<SearchResultProps> = ({searchText, filter, fuseTranslate
 					width={width}
 					itemCount={results.length}
 					itemSize={70}
-					itemData={{results, fuseTranslatedIndex}}
+					itemData={{results, fuseIndex, fuseTranslatedIndex}}
 				>{SearchItem}</FixedSizeList>
 			)
 		}</AutoSizer>
@@ -294,12 +298,21 @@ const SearchPage: FC = () => {
 
 	const [searchBar, refSearchBar] = useElement<HTMLIonSearchbarElement>(setFocusIfEmpty);
 
+	const [fuse, setFuse] = useState<Fuse<Item>>(blankFuse);
+	const [fuseIndex, setFuseIndex] = useState<Item[]>(BlankFuseIndex);
 	const [fuseTranslatedIndex, setFuseTranslatedIndex] = useState<DataObject>(BlankDataObject);
 
 	useEffect(() => {
-		axios.get("/_GEN_fuse-translated_data.json").then(res => {
-			const index = res.data || BlankDataObject;
-			setFuseTranslatedIndex(index);
+		fuse === blankFuse && axios.get("/_GEN_fuseIndex.json").then(res => {
+			const index = res.data;
+			const fuse = new Fuse(index || BlankFuseIndex, fuseOptions);
+			setFuse(fuse);
+			setFuseIndex(index || BlankFuseIndex);
+		}).then(() => {
+			axios.get("/_GEN_fuse-translated_data.json").then(res => {
+				const index = res.data || BlankDataObject;
+				setFuseTranslatedIndex(index);
+			});
 		});
 	}, []);
 
@@ -379,6 +392,8 @@ const SearchPage: FC = () => {
 							fuseTranslatedIndex={fuseTranslatedIndex}
 							searchText={searchText}
 							filter={filter.length ? filter : undefined}
+							fuse={fuse}
+							fuseIndex={fuseIndex}
 						/>
 				}
 			</IonContent>
