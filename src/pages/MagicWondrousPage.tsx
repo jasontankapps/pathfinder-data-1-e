@@ -18,18 +18,22 @@ const MagicWondrousGroup9Page = lazy(() => import("./MagicWondrousGroup9Page"));
 const MagicWondrousGroup10Page = lazy(() => import("./MagicWondrousGroup10Page"));
 const MagicWondrousGroup11Page = lazy(() => import("./MagicWondrousGroup11Page"));
 
+interface Props {
+	id: string
+}
+
 const pages = [
-	({id}: {id: string}) => <MagicWondrousGroup1Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup2Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup3Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup4Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup5Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup6Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup7Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup8Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup9Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup10Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup11Page id={id} />,
+	({id}: Props) => <MagicWondrousGroup1Page id={id} />,
+	({id}: Props) => <MagicWondrousGroup2Page id={id} />,
+	({id}: Props) => <MagicWondrousGroup3Page id={id} />,
+	({id}: Props) => <MagicWondrousGroup4Page id={id} />,
+	({id}: Props) => <MagicWondrousGroup5Page id={id} />,
+	({id}: Props) => <MagicWondrousGroup6Page id={id} />,
+	({id}: Props) => <MagicWondrousGroup7Page id={id} />,
+	({id}: Props) => <MagicWondrousGroup8Page id={id} />,
+	({id}: Props) => <MagicWondrousGroup9Page id={id} />,
+	({id}: Props) => <MagicWondrousGroup10Page id={id} />,
+	({id}: Props) => <MagicWondrousGroup11Page id={id} />,
 ]
 
 const MagicWondrousPage: React.FC = () => {

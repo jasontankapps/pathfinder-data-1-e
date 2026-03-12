@@ -5,8 +5,8 @@ ion-menu ion-content {
 ion-menu ion-content {
 	--padding-start: 0.5rem;
 	--padding-end: 0.5rem;
-	--padding-top: 1.25rem;
-	--padding-bottom: 1.25rem;
+	--padding-top: 0;
+	--padding-bottom: 0;
 }
 
 ion-menu ion-list {

@@ -24,24 +24,28 @@ const SpellGroup15Page = lazy(() => import("./SpellGroup15Page"));
 const SpellGroup16Page = lazy(() => import("./SpellGroup16Page"));
 const OccultRitualGroupPage = lazy(() => import("./SpellOccultRitualGroupPage"));
 
+interface Props {
+	id: string
+}
+
 const pages = [
-	({id}: {id: string}) => <SpellGroup1Page id={id} />,
-	({id}: {id: string}) => <SpellGroup2Page id={id} />,
-	({id}: {id: string}) => <SpellGroup3Page id={id} />,
-	({id}: {id: string}) => <SpellGroup4Page id={id} />,
-	({id}: {id: string}) => <SpellGroup5Page id={id} />,
-	({id}: {id: string}) => <SpellGroup6Page id={id} />,
-	({id}: {id: string}) => <SpellGroup7Page id={id} />,
-	({id}: {id: string}) => <SpellGroup8Page id={id} />,
-	({id}: {id: string}) => <SpellGroup9Page id={id} />,
-	({id}: {id: string}) => <SpellGroup10Page id={id} />,
-	({id}: {id: string}) => <SpellGroup11Page id={id} />,
-	({id}: {id: string}) => <SpellGroup12Page id={id} />,
-	({id}: {id: string}) => <SpellGroup13Page id={id} />,
-	({id}: {id: string}) => <SpellGroup14Page id={id} />,
-	({id}: {id: string}) => <SpellGroup15Page id={id} />,
-	({id}: {id: string}) => <SpellGroup16Page id={id} />,
-	({id}: {id: string}) => <OccultRitualGroupPage id={id} />,
+	({id}: Props) => <SpellGroup1Page id={id} />,
+	({id}: Props) => <SpellGroup2Page id={id} />,
+	({id}: Props) => <SpellGroup3Page id={id} />,
+	({id}: Props) => <SpellGroup4Page id={id} />,
+	({id}: Props) => <SpellGroup5Page id={id} />,
+	({id}: Props) => <SpellGroup6Page id={id} />,
+	({id}: Props) => <SpellGroup7Page id={id} />,
+	({id}: Props) => <SpellGroup8Page id={id} />,
+	({id}: Props) => <SpellGroup9Page id={id} />,
+	({id}: Props) => <SpellGroup10Page id={id} />,
+	({id}: Props) => <SpellGroup11Page id={id} />,
+	({id}: Props) => <SpellGroup12Page id={id} />,
+	({id}: Props) => <SpellGroup13Page id={id} />,
+	({id}: Props) => <SpellGroup14Page id={id} />,
+	({id}: Props) => <SpellGroup15Page id={id} />,
+	({id}: Props) => <SpellGroup16Page id={id} />,
+	({id}: Props) => <OccultRitualGroupPage id={id} />,
 ]
 
 const SpellPage: React.FC = () => {

@@ -1244,7 +1244,7 @@ const _cheatsheet = {hasJL:true,title: "Cheatsheet", jsx: <IonList lines="full">
 <h2 id="main-cheatsheet-identifying-monsters" data-hash-target>Identifying Monsters</h2>
 <p>You can use Knowledge skills to identify the type of monster you're dealing with, and perhaps remember its strengths or weaknesses. The Knowledge skill used depends on the monster's type:</p>
 <ul>
-<li><strong className="hl">Acrana:</strong> constructs, dragons, magical beasts</li>
+<li><strong className="hl">Arcana:</strong> constructs, dragons, magical beasts</li>
 <li><strong className="hl">Dungeoneering:</strong> aberrations, oozes</li>
 <li><strong className="hl">Local:</strong> humanoids</li>
 <li><strong className="hl">Nature:</strong> animals, fey, monstrous humanoids, plants, vermin</li>

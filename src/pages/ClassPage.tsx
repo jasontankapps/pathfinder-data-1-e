@@ -17,15 +17,19 @@ const ClassGroup6Page = lazy(() => import("./ClassGroup6Page"));
 const ClassGroup7Page = lazy(() => import("./ClassGroup7Page"));
 const ClassGroup8Page = lazy(() => import("./ClassGroup8Page"));
 
+interface Props {
+	id: string
+}
+
 const pages = [
-	({id}: {id: string}) => <ClassGroup1Page id={id} />,
-	({id}: {id: string}) => <ClassGroup2Page id={id} />,
-	({id}: {id: string}) => <ClassGroup3Page id={id} />,
-	({id}: {id: string}) => <ClassGroup4Page id={id} />,
-	({id}: {id: string}) => <ClassGroup5Page id={id} />,
-	({id}: {id: string}) => <ClassGroup6Page id={id} />,
-	({id}: {id: string}) => <ClassGroup7Page id={id} />,
-	({id}: {id: string}) => <ClassGroup8Page id={id} />,
+	({id}: Props) => <ClassGroup1Page id={id} />,
+	({id}: Props) => <ClassGroup2Page id={id} />,
+	({id}: Props) => <ClassGroup3Page id={id} />,
+	({id}: Props) => <ClassGroup4Page id={id} />,
+	({id}: Props) => <ClassGroup5Page id={id} />,
+	({id}: Props) => <ClassGroup6Page id={id} />,
+	({id}: Props) => <ClassGroup7Page id={id} />,
+	({id}: Props) => <ClassGroup8Page id={id} />,
 ];
 
 const ClassPage: React.FC<Params> = () => {

@@ -15,15 +15,19 @@ const NPCGroup6Page = lazy(() => import("./NPCGroup6Page"));
 const NPCGroup7Page = lazy(() => import("./NPCGroup7Page"));
 const NPCGroup8Page = lazy(() => import("./NPCGroup8Page"));
 
+interface Props {
+	id: string
+}
+
 const pages = [
-	({id}: {id: string}) => <NPCGroup1Page id={id} />,
-	({id}: {id: string}) => <NPCGroup2Page id={id} />,
-	({id}: {id: string}) => <NPCGroup3Page id={id} />,
-	({id}: {id: string}) => <NPCGroup4Page id={id} />,
-	({id}: {id: string}) => <NPCGroup5Page id={id} />,
-	({id}: {id: string}) => <NPCGroup6Page id={id} />,
-	({id}: {id: string}) => <NPCGroup7Page id={id} />,
-	({id}: {id: string}) => <NPCGroup8Page id={id} />,
+	({id}: Props) => <NPCGroup1Page id={id} />,
+	({id}: Props) => <NPCGroup2Page id={id} />,
+	({id}: Props) => <NPCGroup3Page id={id} />,
+	({id}: Props) => <NPCGroup4Page id={id} />,
+	({id}: Props) => <NPCGroup5Page id={id} />,
+	({id}: Props) => <NPCGroup6Page id={id} />,
+	({id}: Props) => <NPCGroup7Page id={id} />,
+	({id}: Props) => <NPCGroup8Page id={id} />,
 ]
 
 const NPCPage: React.FC = () => {

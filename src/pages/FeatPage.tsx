@@ -24,24 +24,28 @@ const FeatGroup15Page = lazy(() => import("./FeatGroup15Page"));
 const FeatGroup16Page = lazy(() => import("./FeatGroup16Page"));
 const FeatGroup17Page = lazy(() => import("./FeatGroup17Page"));
 
+interface Props {
+	id: string
+}
+
 const pages = [
-	({id}: {id: string}) => <FeatGroup1Page id={id} />,
-	({id}: {id: string}) => <FeatGroup2Page id={id} />,
-	({id}: {id: string}) => <FeatGroup3Page id={id} />,
-	({id}: {id: string}) => <FeatGroup4Page id={id} />,
-	({id}: {id: string}) => <FeatGroup5Page id={id} />,
-	({id}: {id: string}) => <FeatGroup6Page id={id} />,
-	({id}: {id: string}) => <FeatGroup7Page id={id} />,
-	({id}: {id: string}) => <FeatGroup8Page id={id} />,
-	({id}: {id: string}) => <FeatGroup9Page id={id} />,
-	({id}: {id: string}) => <FeatGroup10Page id={id} />,
-	({id}: {id: string}) => <FeatGroup11Page id={id} />,
-	({id}: {id: string}) => <FeatGroup12Page id={id} />,
-	({id}: {id: string}) => <FeatGroup13Page id={id} />,
-	({id}: {id: string}) => <FeatGroup14Page id={id} />,
-	({id}: {id: string}) => <FeatGroup15Page id={id} />,
-	({id}: {id: string}) => <FeatGroup16Page id={id} />,
-	({id}: {id: string}) => <FeatGroup17Page id={id} />,
+	({id}: Props) => <FeatGroup1Page id={id} />,
+	({id}: Props) => <FeatGroup2Page id={id} />,
+	({id}: Props) => <FeatGroup3Page id={id} />,
+	({id}: Props) => <FeatGroup4Page id={id} />,
+	({id}: Props) => <FeatGroup5Page id={id} />,
+	({id}: Props) => <FeatGroup6Page id={id} />,
+	({id}: Props) => <FeatGroup7Page id={id} />,
+	({id}: Props) => <FeatGroup8Page id={id} />,
+	({id}: Props) => <FeatGroup9Page id={id} />,
+	({id}: Props) => <FeatGroup10Page id={id} />,
+	({id}: Props) => <FeatGroup11Page id={id} />,
+	({id}: Props) => <FeatGroup12Page id={id} />,
+	({id}: Props) => <FeatGroup13Page id={id} />,
+	({id}: Props) => <FeatGroup14Page id={id} />,
+	({id}: Props) => <FeatGroup15Page id={id} />,
+	({id}: Props) => <FeatGroup16Page id={id} />,
+	({id}: Props) => <FeatGroup17Page id={id} />,
 ]
 
 const FeatPage: React.FC = () => {

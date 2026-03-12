@@ -16,16 +16,20 @@ const FaithGroup7Page = lazy(() => import("./FaithGroup7Page"));
 const FaithGroup8Page = lazy(() => import("./FaithGroup8Page"));
 const FaithGroup9Page = lazy(() => import("./FaithGroup9Page"));
 
+interface Props {
+	id: string
+}
+
 const pages = [
-	({id}: {id: string}) => <FaithGroup1Page id={id} />,
-	({id}: {id: string}) => <FaithGroup2Page id={id} />,
-	({id}: {id: string}) => <FaithGroup3Page id={id} />,
-	({id}: {id: string}) => <FaithGroup4Page id={id} />,
-	({id}: {id: string}) => <FaithGroup5Page id={id} />,
-	({id}: {id: string}) => <FaithGroup6Page id={id} />,
-	({id}: {id: string}) => <FaithGroup7Page id={id} />,
-	({id}: {id: string}) => <FaithGroup8Page id={id} />,
-	({id}: {id: string}) => <FaithGroup9Page id={id} />,
+	({id}: Props) => <FaithGroup1Page id={id} />,
+	({id}: Props) => <FaithGroup2Page id={id} />,
+	({id}: Props) => <FaithGroup3Page id={id} />,
+	({id}: Props) => <FaithGroup4Page id={id} />,
+	({id}: Props) => <FaithGroup5Page id={id} />,
+	({id}: Props) => <FaithGroup6Page id={id} />,
+	({id}: Props) => <FaithGroup7Page id={id} />,
+	({id}: Props) => <FaithGroup8Page id={id} />,
+	({id}: Props) => <FaithGroup9Page id={id} />,
 ]
 
 const FaithPage: React.FC = () => {
