@@ -1,19 +1,20 @@
 import getItem from '../components/getItem';
-import psychic from './subpages/_GEN_arc-psychic';
-import arcanist from './subpages/_GEN_arc-arcanist';
+import ranger from './subpages/_GEN_arc-ranger';
+import { Hierarchy } from '../types';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...psychic,
-	...arcanist
+	...ranger, // conflicts with fighter, familiar, inquisitor, investigator
 };
 
 type Data = typeof archetypes;
 
-const ArchetypeGroup10Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+const companionTopLink: Hierarchy = [ "Animal Companion", "sidekick/animal_companion" ];
+
+const ArchetypeGroup24Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
 
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
@@ -26,9 +27,9 @@ const ArchetypeGroup10Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}
 		hasJL={hasJL}
 		title={title}
 		pageId={pageId}
-		topLink={[classTitle, "class/" + parent]}
+		topLink={parent === "companion" ? companionTopLink : [classTitle, "class/" + parent]}
 		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 
-export default ArchetypeGroup10Page;
+export default ArchetypeGroup24Page;

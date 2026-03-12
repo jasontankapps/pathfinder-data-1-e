@@ -1,19 +1,17 @@
 import getItem from '../components/getItem';
-import psychic from './subpages/_GEN_arc-psychic';
-import arcanist from './subpages/_GEN_arc-arcanist';
+import fighter from './subpages/_GEN_arc-fighter';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...psychic,
-	...arcanist
+	...fighter // conflicts with ranger, skald
 };
 
 type Data = typeof archetypes;
 
-const ArchetypeGroup10Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+const ArchetypeGroup19Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
 
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
@@ -31,4 +29,4 @@ const ArchetypeGroup10Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}
 	>{jsx}</BasicPage>;
 };
 
-export default ArchetypeGroup10Page;
+export default ArchetypeGroup19Page;

@@ -1,5 +1,4 @@
 import getItem from '../components/getItem';
-import cleric from './subpages/_GEN_arc-cleric';
 import magus from './subpages/_GEN_arc-magus';
 import occultist from './subpages/_GEN_arc-occultist';
 import oracle from './subpages/_GEN_arc-oracle';
@@ -9,7 +8,6 @@ import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...cleric, // conflicts with wizard
 	...magus,
 	...occultist, // conflicts with summoner
 	...oracle // conflicts with sorcerer

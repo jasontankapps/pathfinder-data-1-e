@@ -13,6 +13,7 @@ import archetypeantipaladin from '../json/archetypes_antipaladin.json' with {typ
 import archetypearcanist from '../json/archetypes_arcanist.json' with {type: 'json'};
 import archetypebarbarian from '../json/archetypes_barbarian.json' with {type: 'json'};
 import archetypebard from '../json/archetypes_bard.json' with {type: 'json'};
+import archetypebard2 from '../json/archetypes_bard2.json' with {type: 'json'};
 import archetypebloodrager from '../json/archetypes_bloodrager.json' with {type: 'json'};
 import archetypebrawler from '../json/archetypes_brawler.json' with {type: 'json'};
 import archetypecavalier from '../json/archetypes_cavalier.json' with {type: 'json'};
@@ -1351,7 +1352,15 @@ const basic_data_groups = {
 		searchgroup: 2, // archetype
 		link: "arc-bard",
 		exportablelink: "archetypebard",
-		num: 0,
+		num: 1,
+		type: "Bard Archetype"
+	},
+	"archetypes_bard2": {
+		data: archetypebard2,
+		searchgroup: 2, // archetype
+		link: "arc-bard",
+		exportablelink: "archetypebard",
+		num: 2,
 		type: "Bard Archetype"
 	},
 	"archetypes_bloodrager": {

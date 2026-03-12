@@ -1,5 +1,4 @@
 import getItem from '../components/getItem';
-import inquisitor from './subpages/_GEN_arc-inquisitor';
 import paladin from './subpages/_GEN_arc-paladin';
 import skald from './subpages/_GEN_arc-skald';
 import warpriest from './subpages/_GEN_arc-warpriest';
@@ -9,7 +8,6 @@ import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...inquisitor, // conflicts with familiar, investigator, ranger
 	...paladin, // conflicts with hunter
 	...skald, // conflicts with fighter
 	...warpriest

@@ -26,6 +26,13 @@ const ArchetypeGroup14Page = lazy(() => import("./ArchetypeGroup14Page"));
 const ArchetypeGroup15Page = lazy(() => import("./ArchetypeGroup15Page"));
 const ArchetypeGroup16Page = lazy(() => import("./ArchetypeGroup16Page"));
 const ArchetypeGroup17Page = lazy(() => import("./ArchetypeGroup17Page"));
+const ArchetypeGroup18Page = lazy(() => import("./ArchetypeGroup18Page"));
+const ArchetypeGroup19Page = lazy(() => import("./ArchetypeGroup19Page"));
+const ArchetypeGroup20Page = lazy(() => import("./ArchetypeGroup20Page"));
+const ArchetypeGroup21Page = lazy(() => import("./ArchetypeGroup21Page"));
+const ArchetypeGroup22Page = lazy(() => import("./ArchetypeGroup22Page"));
+const ArchetypeGroup23Page = lazy(() => import("./ArchetypeGroup23Page"));
+const ArchetypeGroup24Page = lazy(() => import("./ArchetypeGroup24Page"));
 
 interface ArchGroupPageProps {id: string, parent: string, classTitle: string};
 
@@ -46,7 +53,14 @@ const pages: ((x: ArchGroupPageProps) => ReactNode)[] = [
 	({id, parent, classTitle}) => <ArchetypeGroup14Page id={id} parent={parent} classTitle={classTitle} />,
 	({id, parent, classTitle}) => <ArchetypeGroup15Page id={id} parent={parent} classTitle={classTitle} />,
 	({id, parent, classTitle}) => <ArchetypeGroup16Page id={id} parent={parent} classTitle={classTitle} />,
-	({id, parent, classTitle}) => <ArchetypeGroup17Page id={id} parent={parent} classTitle={classTitle} />
+	({id, parent, classTitle}) => <ArchetypeGroup17Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup18Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup19Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup20Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup21Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup22Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup23Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup24Page id={id} parent={parent} classTitle={classTitle} />
 ];
 
 const classes: GenStrict<string, [number, string]> = {
@@ -56,18 +70,15 @@ const classes: GenStrict<string, [number, string]> = {
 	summoner: [2, "Summoner"], // conflicts with unchained summoner, occultist, spiritualist
 	swashbuckler: [2, "Swashbuckler"], // conflicts with cavalier
 
-	inquisitor: [3, "Inquisitor"], // conflicts with familiar, investigator, ranger
 	paladin: [3, "Paladin"], // conflicts with hunter
 	skald: [3, "Skald"], // conflicts with fighter
 	warpriest: [3, "Warpriest"],
 
-	cleric: [4, "Cleric"], // conflicts with wizard
 	magus: [4, "Magus"],
 	occultist: [4, "Occultist"], // conflicts with summoner
 	oracle: [4, "Oracle"], // conflicts with sorcerer
 
 	companion: [5, "Companion"], // conflicts with cavalier, bard
-	ranger: [5, "Ranger"], // conflicts with fighter, familiar, inquisitor, investigator
 	bloodrager: [5, "Bloodrager"], // conflicts with shifter, wizard
 
 	witch: [6, "Witch"],
@@ -79,25 +90,19 @@ const classes: GenStrict<string, [number, string]> = {
 	brawler: [8, "Brawler"],
 	mesmerist: [8, "Mesmerist"],
 
-	druid: [9, "Druid"],
 	medium: [9, "Medium"],
 	ninja: [9, "Ninja"],
 
-	fighter: [10, "Fighter"], // conflicts with ranger, skald
 	psychic: [10, "Psychic"],
 	arcanist: [10, "Arcanist"],
 
-	cavalier: [11, "Cavalier"], // conflicts with companion, familiar, swashbuckler
 	kineticist: [11, "Kineticist"],
 	slayer: [11, "Slayer"], // conflicts with rogue
 	antipaladin: [11, "Antipaladin"],
 
 	investigator: [12, "Investigator"], // conflicts with familiar, inquisitor, ranger
-	spiritualist: [12, "Spiritualist"], // conflicts with summoner
 
-	gunslinger: [13, "Gunslinger"], // conflicts with bard
 	shaman: [13, "Shaman"],
-	hunter: [13, "Hunter"], // conflicts with paladin, rogue
 	shifter: [13, "Shifter"], // conflicts with bloodrager
 
 	vigilante: [14, "Vigilante"], // conflicts with barbarian
@@ -109,6 +114,23 @@ const classes: GenStrict<string, [number, string]> = {
 	alchemist: [16, "Alchemist"],
 
 	barbarian: [17, "Barbarian"], // conflicts with vigilante
+
+	druid: [18, "Druid"],
+
+	fighter: [19, "Fighter"], // conflicts with ranger, skald
+
+	cleric: [20, "Cleric"], // conflicts with wizard
+
+	cavalier: [21, "Cavalier"], // conflicts with companion, familiar, swashbuckler
+
+	inquisitor: [22, "Inquisitor"], // conflicts with familiar, investigator, ranger
+
+	gunslinger: [23, "Gunslinger"], // conflicts with bard
+	hunter: [23, "Hunter"], // conflicts with paladin, rogue
+
+	ranger: [24, "Ranger"], // conflicts with fighter, familiar, inquisitor, investigator
+
+	spiritualist: [25, "Spiritualist"], // conflicts with summoner
 };
 
 type Params = { id?: string, parent?: string };

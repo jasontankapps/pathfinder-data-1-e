@@ -1,6 +1,4 @@
 import getItem from '../components/getItem';
-import gunslinger from './subpages/_GEN_arc-gunslinger';
-import hunter from './subpages/_GEN_arc-hunter';
 import shaman from './subpages/_GEN_arc-shaman';
 import shifter from './subpages/_GEN_arc-shifter';
 import { ArchetypeProps } from './ArchetypePage';
@@ -9,8 +7,6 @@ import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...gunslinger, // conflicts with bard
-	...hunter, // conflicts with paladin, rogue
 	...shaman,
 	...shifter // conflicts with bloodrager
 };

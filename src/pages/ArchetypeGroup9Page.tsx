@@ -1,5 +1,4 @@
 import getItem from '../components/getItem';
-import druid from './subpages/_GEN_arc-druid';
 import medium from './subpages/_GEN_arc-medium';
 import ninja from './subpages/_GEN_arc-ninja';
 import { ArchetypeProps } from './ArchetypePage';
@@ -8,7 +7,6 @@ import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...druid,
 	...medium,
 	...ninja
 };

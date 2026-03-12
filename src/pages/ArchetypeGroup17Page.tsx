@@ -24,7 +24,7 @@ const ArchetypeGroup17Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}
 		hasJL={hasJL}
 		title={title}
 		pageId={pageId}
-		topLink={parent === "familiar" ? [ classTitle, "sidekick/familiar" ] : [classTitle, "class/" + parent]}
+		topLink={[classTitle, "class/" + parent]}
 		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };

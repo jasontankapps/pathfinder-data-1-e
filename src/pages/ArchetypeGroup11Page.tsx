@@ -1,5 +1,4 @@
 import getItem from '../components/getItem';
-import cavalier from './subpages/_GEN_arc-cavalier';
 import slayer from './subpages/_GEN_arc-slayer';
 import kineticist from './subpages/_GEN_arc-kineticist';
 import antipaladin from './subpages/_GEN_arc-antipaladin';
@@ -9,7 +8,6 @@ import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...cavalier, // conflicts with companion, familiar, swashbuckler
 	...slayer, // conflicts with rogue
 	...kineticist,
 	...antipaladin

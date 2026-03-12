@@ -1,6 +1,5 @@
 import getItem from '../components/getItem';
 import investigator from './subpages/_GEN_arc-investigator';
-import spiritualist from './subpages/_GEN_arc-spiritualist';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -8,7 +7,6 @@ import './Page.css';
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
 	...investigator, // conflicts with familiar, inquisitor, ranger
-	...spiritualist // conflicts with summoner
 };
 
 type Data = typeof archetypes;

@@ -1,6 +1,5 @@
 import getItem from '../components/getItem';
 import companion from './subpages/_GEN_arc-companion';
-import ranger from './subpages/_GEN_arc-ranger';
 import bloodrager from './subpages/_GEN_arc-bloodrager';
 import { Hierarchy } from '../types';
 import { ArchetypeProps } from './ArchetypePage';
@@ -10,7 +9,6 @@ import './Page.css';
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
 	...companion, // conflicts with cavalier, bard
-	...ranger, // conflicts with fighter, familiar, inquisitor, investigator
 	...bloodrager // conflicts with shifter, wizard
 };
 
