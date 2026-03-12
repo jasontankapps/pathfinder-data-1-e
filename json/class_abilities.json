@@ -90,15 +90,13 @@
 					"‹SOURCE PRPG Core Rulebook/69›  ",
 					"At 10th level, and every two levels thereafter, a rogue can choose an advanced rogue talent in place of a ‹ability/rogue talent›.",
 					"",
-					"**Note:** This list contains talents for both the Rogue and the ‹class/Unchained Rogue›. Most can be used by both. Some talents were made for the Rogue and haven't been officially stated to be usable by the Unchained Rogue, and are labeled \"Rogue Only\". Others are only for the Unchained Rogue and are labeled as such. Some talents have different text for each class - both are listed in their entry.",
-					"",
 					"::h3[Primary Sneak Attack Talents]{jl}",
 					"",
 					"These talents add effects to a rogue's ‹ability/sneak attack›. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
 					""
 				],
 				{
-					"limit": "Advanced Primary Sneak Attack Talents",
+					"limit": { "regex": "^(R_)?Advanced Primary Sneak Attack Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -112,7 +110,7 @@
 					""
 				],
 				{
-					"limit": "Advanced Magical Talents",
+					"limit": { "regex": "^(R_)?Advanced Magical Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -126,7 +124,7 @@
 					""
 				],
 				{
-					"limit": "Advanced Combat Talents",
+					"limit": { "regex": "^(R_)?Advanced Combat Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -140,7 +138,7 @@
 					""
 				],
 				{
-					"limit": "Advanced Other Talents",
+					"limit": { "regex": "^(R_)?Advanced Other Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",

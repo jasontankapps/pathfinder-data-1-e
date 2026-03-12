@@ -176,15 +176,13 @@
 					"",
 					"Also see: ‹ability/advanced rogue talents›, available starting at 10th level.",
 					"",
-					"**Note:** This list contains talents for both the Rogue and the ‹class/Unchained Rogue›. Most can be used by both. Some talents were made for the Rogue and haven't been officially stated to be usable by the Unchained Rogue, and are labeled \"Rogue Only\". Others are only for the Unchained Rogue and are labeled as such. Several talents have different text for each class - both are listed in their entry.",
-					"",
 					"::h3[Primary Sneak Attack Talents]{jl}",
 					"",
 					"These talents add effects to a rogue's ‹ability/sneak attack›. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
 					""
 				],
 				{
-					"limit": "Primary Sneak Attack Talents",
+					"limit": { "regex": "^(R_)?Primary Sneak Attack Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -200,7 +198,7 @@
 					""
 				],
 				{
-					"limit": "Other Sneak Attack Talents",
+					"limit": { "regex": "^(R_)?Other Sneak Attack Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -214,7 +212,7 @@
 					""
 				],
 				{
-					"limit": "Poison Talents",
+					"limit": { "regex": "^(R_)?Poison Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -228,7 +226,7 @@
 					""
 				],
 				{
-					"limit": "Catfolk Talents",
+					"limit": { "regex": "^(R_)?Catfolk Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -242,7 +240,7 @@
 					""
 				],
 				{
-					"limit": "Spellcasting Talents",
+					"limit": { "regex": "^(R_)?Spellcasting Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -256,7 +254,7 @@
 					""
 				],
 				{
-					"limit": "Use Magic Device Talents",
+					"limit": { "regex": "^(R_)?Use Magic Device Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -270,7 +268,7 @@
 					""
 				],
 				{
-					"limit": "Other Magic-Related Talents",
+					"limit": { "regex": "^(R_)?Other Magic-Related Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -284,7 +282,7 @@
 					""
 				],
 				{
-					"limit": "Ally-Related Talents",
+					"limit": { "regex": "^(R_)?Ally-Related Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -298,7 +296,7 @@
 					""
 				],
 				{
-					"limit": "Combat Talents",
+					"limit": { "regex": "^(R_)?Combat Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -312,7 +310,7 @@
 					""
 				],
 				{
-					"limit": "Trap Talents",
+					"limit": { "regex": "^(R_)?Trap Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -326,7 +324,7 @@
 					""
 				],
 				{
-					"limit": "Disable Device Talents",
+					"limit": { "regex": "^(R_)?Disable Device Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -340,7 +338,7 @@
 					""
 				],
 				{
-					"limit": "Deception Talents",
+					"limit": { "regex": "^(R_)?Deception Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -354,7 +352,7 @@
 					""
 				],
 				{
-					"limit": "Other Talents",
+					"limit": { "regex": "^(R_)?Other Talents" },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
