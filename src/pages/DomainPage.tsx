@@ -8,10 +8,12 @@ type Params = { id?: keyof typeof data };
 
 const DomainGroup1Page = lazy(() => import("./DomainGroup1Page"));
 const DomainGroup2Page = lazy(() => import("./DomainGroup2Page"));
+const DomainGroup3Page = lazy(() => import("./DomainGroup3Page"));
 
 const pages = [
 	({id}: {id: string}) => <DomainGroup1Page id={id} />,
 	({id}: {id: string}) => <DomainGroup2Page id={id} />,
+	({id}: {id: string}) => <DomainGroup3Page id={id} />,
 ]
 
 const DomainPage: React.FC = () => {

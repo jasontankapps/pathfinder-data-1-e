@@ -62,6 +62,7 @@ import oraclecurse from '../json/class_ability_curses.json' with {type: 'json'};
 import discipline from '../json/class_ability_disciplines.json' with {type: 'json'};
 import domain1 from '../json/class_ability_domains.json' with {type: 'json'};
 import domain2 from '../json/class_ability_domains2.json' with {type: 'json'};
+import domain3 from '../json/class_ability_domains3.json' with {type: 'json'};
 import companion from '../json/class_ability_druid_companions.json' with {type: 'json'};
 import druiddomain from '../json/class_ability_druid_domains.json' with {type: 'json'};
 import emotionalfocus from '../json/class_ability_emotional_focus.json' with {type: 'json'};
@@ -967,6 +968,13 @@ const basic_data_groups = {
 		searchgroup: 1, // classes
 		link: "domain",
 		num: 2,
+		type: "Cleric Domain"
+	},
+	"class_ability_domains3": {
+		data: domain3,
+		searchgroup: 1, // classes
+		link: "domain",
+		num: 3,
 		type: "Cleric Domain"
 	},
 	"class_ability_blessings": {

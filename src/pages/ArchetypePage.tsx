@@ -33,6 +33,9 @@ const ArchetypeGroup21Page = lazy(() => import("./ArchetypeGroup21Page"));
 const ArchetypeGroup22Page = lazy(() => import("./ArchetypeGroup22Page"));
 const ArchetypeGroup23Page = lazy(() => import("./ArchetypeGroup23Page"));
 const ArchetypeGroup24Page = lazy(() => import("./ArchetypeGroup24Page"));
+const ArchetypeGroup25Page = lazy(() => import("./ArchetypeGroup25Page"));
+const ArchetypeGroup26Page = lazy(() => import("./ArchetypeGroup26Page"));
+const ArchetypeGroup27Page = lazy(() => import("./ArchetypeGroup27Page"));
 
 interface ArchGroupPageProps {id: string, parent: string, classTitle: string};
 
@@ -60,7 +63,10 @@ const pages: ((x: ArchGroupPageProps) => ReactNode)[] = [
 	({id, parent, classTitle}) => <ArchetypeGroup21Page id={id} parent={parent} classTitle={classTitle} />,
 	({id, parent, classTitle}) => <ArchetypeGroup22Page id={id} parent={parent} classTitle={classTitle} />,
 	({id, parent, classTitle}) => <ArchetypeGroup23Page id={id} parent={parent} classTitle={classTitle} />,
-	({id, parent, classTitle}) => <ArchetypeGroup24Page id={id} parent={parent} classTitle={classTitle} />
+	({id, parent, classTitle}) => <ArchetypeGroup24Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup25Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup26Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup27Page id={id} parent={parent} classTitle={classTitle} />
 ];
 
 const classes: GenStrict<string, [number, string]> = {
@@ -74,7 +80,6 @@ const classes: GenStrict<string, [number, string]> = {
 	skald: [3, "Skald"], // conflicts with fighter
 	warpriest: [3, "Warpriest"],
 
-	magus: [4, "Magus"],
 	occultist: [4, "Occultist"], // conflicts with summoner
 	oracle: [4, "Oracle"], // conflicts with sorcerer
 
@@ -126,11 +131,14 @@ const classes: GenStrict<string, [number, string]> = {
 	inquisitor: [22, "Inquisitor"], // conflicts with familiar, investigator, ranger
 
 	gunslinger: [23, "Gunslinger"], // conflicts with bard
-	hunter: [23, "Hunter"], // conflicts with paladin, rogue
 
 	ranger: [24, "Ranger"], // conflicts with fighter, familiar, inquisitor, investigator
 
 	spiritualist: [25, "Spiritualist"], // conflicts with summoner
+
+	hunter: [26, "Hunter"], // conflicts with paladin, rogue
+
+	magus: [27, "Magus"],
 };
 
 type Params = { id?: string, parent?: string };
