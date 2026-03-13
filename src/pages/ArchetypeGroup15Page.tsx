@@ -25,7 +25,7 @@ export interface ArchetypeProps {
 };
 
 
-const ArchetypeGroup15Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+const ArchetypeGroup15Page: React.FC<ArchetypeProps> = ({id, classTitle}) => {
 
 	const Page = pages[id ? ((data[id as DataId] || 1) - 1) : 0] || ErrorPage;
 

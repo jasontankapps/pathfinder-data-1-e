@@ -1,32 +1,36 @@
-import getItem from '../components/getItem';
-import alchemist from './subpages/_GEN_arc-alchemist';
-import { ArchetypeProps } from './ArchetypePage';
-import BasicPage from './BasicPage';
+import { lazy } from 'react';
+import data from '../json/_GEN_arc-alchemist.json';
+import ErrorPage from './ErrorPage';
 import './Page.css';
 
-const archetypes = {
-	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...alchemist
+const ArchetypeGroup16Subgroup1Page = lazy(() => import("./ArchetypeGroup16Subgroup1Page"));
+const ArchetypeGroup16Subgroup2Page = lazy(() => import("./ArchetypeGroup16Subgroup2Page"));
+
+interface PageProps {
+	id: string
+	classTitle: string
+}
+
+const pages = [
+	({id, classTitle}: PageProps) => <ArchetypeGroup16Subgroup1Page id={id} parent="alchemist" classTitle={classTitle} />,
+	({id, classTitle}: PageProps) => <ArchetypeGroup16Subgroup2Page id={id} parent="alchemist" classTitle={classTitle} />,
+];
+
+type DataId = keyof typeof data;
+
+export interface ArchetypeProps {
+	id: DataId | string,
+	parent: string,
+	classTitle: string
 };
 
-type Data = typeof archetypes;
 
-const ArchetypeGroup16Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+const ArchetypeGroup16Page: React.FC<ArchetypeProps> = ({id, classTitle}) => {
 
-	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
-	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
+	const Page = pages[id ? ((data[id as DataId] || 1) - 1) : 0] || ErrorPage;
 
-	const pageId = `/arc-${parent}/${id}`;
+	return <Page id={id || "not_found"} classTitle={classTitle} />;
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, arches);
-
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={pageId}
-		topLink={[classTitle, "class/" + parent]}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
 };
 
 export default ArchetypeGroup16Page;

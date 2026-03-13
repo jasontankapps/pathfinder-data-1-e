@@ -9,6 +9,7 @@
 import sources from '../src/json/sources.json' with {type: 'json'};
 
 import archetypealchemist from '../json/archetypes_alchemist.json' with {type: 'json'};
+import archetypealchemist2 from '../json/archetypes_alchemist2.json' with {type: 'json'};
 import archetypeantipaladin from '../json/archetypes_antipaladin.json' with {type: 'json'};
 import archetypearcanist from '../json/archetypes_arcanist.json' with {type: 'json'};
 import archetypebarbarian from '../json/archetypes_barbarian.json' with {type: 'json'};
@@ -20,8 +21,10 @@ import archetypecavalier from '../json/archetypes_cavalier.json' with {type: 'js
 import archetypecleric from '../json/archetypes_cleric.json' with {type: 'json'};
 import archetypecompanion from '../json/archetypes_COMPANION.json' with {type: 'json'};
 import archetypedruid from '../json/archetypes_druid.json' with {type: 'json'};
+import archetypedruid2 from '../json/archetypes_druid2.json' with {type: 'json'};
 import archetypefamiliar from '../json/archetypes_FAMILIAR.json' with {type: 'json'};
 import archetypefighter from '../json/archetypes_fighter.json' with {type: 'json'};
+import archetypefighter2 from '../json/archetypes_fighter2.json' with {type: 'json'};
 import archetypegunslinger from '../json/archetypes_gunslinger.json' with {type: 'json'};
 import archetypehunter from '../json/archetypes_hunter.json' with {type: 'json'};
 import archetypeinquisitor from '../json/archetypes_inquisitor.json' with {type: 'json'};
@@ -1336,7 +1339,15 @@ const basic_data_groups = {
 		searchgroup: 2, // archetype
 		link: "arc-alchemist",
 		exportablelink: "archetypealchemist",
-		num: 0,
+		num: 1,
+		type: "Alchemist Archetype"
+	},
+	"archetypes_alchemist2": {
+		data: archetypealchemist2,
+		searchgroup: 2, // archetype
+		link: "arc-alchemist",
+		exportablelink: "archetypealchemist",
+		num: 2,
 		type: "Alchemist Archetype"
 	},
 	"archetypes_antipaladin": {
@@ -1424,7 +1435,15 @@ const basic_data_groups = {
 		searchgroup: 2, // archetype
 		link: "arc-druid",
 		exportablelink: "archetypedruid",
-		num: 0,
+		num: 1,
+		type: "Druid Archetype"
+	},
+	"archetypes_druid2": {
+		data: archetypedruid2,
+		searchgroup: 2, // archetype
+		link: "arc-druid",
+		exportablelink: "archetypedruid",
+		num: 2,
 		type: "Druid Archetype"
 	},
 	"archetypes_FAMILIAR": {
@@ -1440,7 +1459,15 @@ const basic_data_groups = {
 		searchgroup: 2, // archetype
 		link: "arc-fighter",
 		exportablelink: "archetypefighter",
-		num: 0,
+		num: 1,
+		type: "Fighter Archetype"
+	},
+	"archetypes_fighter2": {
+		data: archetypefighter2,
+		searchgroup: 2, // archetype
+		link: "arc-fighter",
+		exportablelink: "archetypefighter",
+		num: 2,
 		type: "Fighter Archetype"
 	},
 	"archetypes_gunslinger": {
