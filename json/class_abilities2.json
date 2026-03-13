@@ -1113,30 +1113,6 @@
 		],
 		"topLink": [ "Arcanist", "class/arcanist" ]
 	},
-	"grand_discoveries": {
-		"name": "Grand Discoveries",
-		"sources": [ "Advanced Player's Guide" ],
-		"compileFrom": {
-			"source": "discovery",
-			"targets": [
-				[
-					"## Grand Discoveries",
-					"",
-					"‹SOURCE Advanced Player's Guide›",
-					"",
-					"At 20th level, the alchemist makes a grand discovery. He immediately learns two normal discoveries, but also learns a third discovery chosen from the list below, representing a truly astounding alchemical breakthrough of significant import. For many alchemists, the promise of one of these grand discoveries is the primary goal of their experiments and hard work.",
-					""
-				],
-				{
-					"limit": "Grand Discoveries",
-					"join": [ "", "", "" ],
-					"template": "@hll[discovery/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
-				}
-			]
-		},
-		"topLink": [ "Alchemist", "class/alchemist" ]
-	},
-	"grand_discovery": { "redirect": "grand_discoveries" },
 	"grand_hexes": {
 		"name": "Grand Hexes",
 		"sources": [ "Advanced Player's Guide" ],
