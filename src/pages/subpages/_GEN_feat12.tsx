@@ -1,4 +1,4 @@
-import {IonIcon} from '@ionic/react';
+import {IonRippleEffect,IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
@@ -672,7 +672,55 @@ const _primal_bloom = {title: "Primal Bloom", jsx: <><h2 id="feat-primal_bloom-p
 </>};
 const _primal_kineticist = {title: "Primal Kineticist", jsx: <><h2 id="feat-primal_kineticist-primal-kineticist">Primal Kineticist</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 6</Link></p>
-<p>When primal magic surrounds you, you can channel it to transform the nature of your kinetic blasts.<br/><strong>Prerequisites:</strong> <Link to="/class/kineticist">Kineticist</Link> level 1st.<br/><strong>Benefit:</strong> When using a simple kinetic blast in an area where <Link to="/rule/primal_magic">primal magic</Link> is either predominant or very common, you can accept 1 point of burn to cause your blast to become one of the following simple blasts instead. Roll 1d10 to determine the simple blast: 1 = air, 2 = cold, 3 = earth, 4 = electric, 5 = fire, 6 = gravity, 7 = negative, 8 = telekinetic, 9 = water, 10 = wood. You can apply any of your form or substance infusions that are allowed as choices for the random blast, accepting the typical burn cost.</p>
+<p>When primal magic surrounds you, you can channel it to transform the nature of your kinetic blasts.<br/><strong>Prerequisites:</strong> <Link to="/class/kineticist">Kineticist</Link> level 1st.<br/><strong>Benefit:</strong> When using a simple kinetic blast in an area where <Link to="/rule/primal_magic">primal magic</Link> is either predominant or very common, you can accept 1 point of burn to cause your blast to become one of the following simple blasts instead. Roll 1d10 on the table below to determine the simple blast. You can apply any of your form or substance infusions that are allowed as choices for the random blast, accepting the typical burn cost.</p>
+<ScrollContainer id="feat-primal_kineticist--table-0"><table>
+<thead>
+<tr>
+<th>1d10</th>
+<th>Simple blast</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td className="ion-activatable"><Link to="/kinetic/air_blast">Air blast<IonRippleEffect /></Link></td>
+</tr>
+<tr>
+<td>2</td>
+<td className="ion-activatable"><Link to="/kinetic/cold_blast">Cold blast<IonRippleEffect /></Link></td>
+</tr>
+<tr>
+<td>3</td>
+<td className="ion-activatable"><Link to="/kinetic/earth_blast">Earth blast<IonRippleEffect /></Link></td>
+</tr>
+<tr>
+<td>4</td>
+<td className="ion-activatable"><Link to="/kinetic/electric_blast">Electric blast<IonRippleEffect /></Link></td>
+</tr>
+<tr>
+<td>5</td>
+<td className="ion-activatable"><Link to="/kinetic/fire_blast">Fire blast<IonRippleEffect /></Link></td>
+</tr>
+<tr>
+<td>6</td>
+<td className="ion-activatable"><Link to="/kinetic/gravity_blast">Gravity blast<IonRippleEffect /></Link></td>
+</tr>
+<tr>
+<td>7</td>
+<td className="ion-activatable"><Link to="/kinetic/negative_blast">Negative blast<IonRippleEffect /></Link></td>
+</tr>
+<tr>
+<td>8</td>
+<td className="ion-activatable"><Link to="/kinetic/telekinetic_blast">Telekinetic blast<IonRippleEffect /></Link></td>
+</tr>
+<tr>
+<td>9</td>
+<td className="ion-activatable"><Link to="/kinetic/water_blast">Water blast<IonRippleEffect /></Link></td>
+</tr>
+<tr>
+<td>10</td>
+<td className="ion-activatable"><Link to="/kinetic/wood_blast">Wood blast<IonRippleEffect /></Link></td>
+</tr>
+</tbody></table></ScrollContainer>
 </>};
 const _primal_strike = {title: "Primal Strike", jsx: <><h2 id="feat-primal_strike-primal-strike-combat">Primal Strike (Combat)</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 7</Link></p>

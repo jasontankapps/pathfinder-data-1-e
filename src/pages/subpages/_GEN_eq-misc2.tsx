@@ -1,4 +1,5 @@
 import Link from '../../components/Link';
+import ScrollContainer from '../../components/ScrollContainer';
 const _fetish_tribal = {title: "Fetish, tribal", jsx: <><h2 id="eq-misc-fetish_tribal-fetish-tribal">Fetish, tribal</h2>
 <p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion pg. 12</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Tools</p>
 <p>Tribal fetishes vary from tribe to tribe, but are generally small, carved wooden or stone religious symbols, luck tokens, or curious naturally occurring objects specially carved to resemble something of significance (such as an acorn with a wolf fangs, a dried mushroom with skull-shaped blotches, or a stone with a lizard carved on it). A <Link to="/race/goblin">goblin</Link> divine spellcaster can use a tribal fetish as a divine focus for spellcasting.</p>
@@ -492,7 +493,87 @@ const _harrow_deck = {title: "Harrow deck", jsx: <><h2 id="eq-misc-harrow_deck-h
 <p>This is a traditional <Link to="/eq-misc/fortune_telling_deck">fortune-telling deck</Link> of cards used by soothsayers and seers. Some harrow decks are elaborately illustrated, but most are parchment or paper cards with hand-painted images. Harrow decks are often handed down through generations and treated with utmost care by their users as a result.</p>
 <p>Each Harrow deck consists of 54 cards divided into six suits of nine cards. The six suits correspond to the six ability scores (hammer for Strength, key for Dexterity, shield for Constitution, book for Intelligence, star for Wisdom, and crown for Charisma). Each card in a suit further ties in with one of the nine alignments, corresponding to the location of the symbol on the face of the card. In addition, each card has its own unique name, independent of its suit and alignment.</p>
 <p>It takes 2d4 minutes to perform a harrowing (an attempt to divine the future of a specific creature) with a Harrow deck. The exact results of any harrowing should be determined by the GM, who can use an actual Harrow deck (available at paizo.com) to perform the divination.</p>
-<p>If you don't have an actual Harrow deck to draw cards from in game, but you need to determine the suit and/or alignment of a card, you can use dice to determine the result. Roll 1d6 to determine the suit (1=hammer, 2=key, 3=shield, 4=book, 5=star, 6=crown), and 1d10 to determine alignment (1=LG, 2=NG, 3=CG, 4=LN, 5=N, 6=CN, 7=LE, 8=NE, 9=CE, 10=roll again)</p>
+<p>If you don't have an actual Harrow deck to draw cards from in game, but you need to determine the suit and/or alignment of a card, you can use dice to determine the result. Roll 1d6 to determine the suit, and 1d10 to determine alignment</p>
+<ScrollContainer id="eq-misc-harrow_deck--table-0"><table>
+<thead>
+<tr>
+<th>1d6</th>
+<th>Suit</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Hammer</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Key</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Shield</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Book</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Star</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Crown</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="eq-misc-harrow_deck--table-1"><table>
+<thead>
+<tr>
+<th>1d6</th>
+<th>Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>LG</td>
+</tr>
+<tr>
+<td>2</td>
+<td>NG</td>
+</tr>
+<tr>
+<td>3</td>
+<td>CG</td>
+</tr>
+<tr>
+<td>4</td>
+<td>LN</td>
+</tr>
+<tr>
+<td>5</td>
+<td>N</td>
+</tr>
+<tr>
+<td>6</td>
+<td>CN</td>
+</tr>
+<tr>
+<td>7</td>
+<td>LE</td>
+</tr>
+<tr>
+<td>8</td>
+<td>NE</td>
+</tr>
+<tr>
+<td>9</td>
+<td>CE</td>
+</tr>
+<tr>
+<td>10</td>
+<td><em>roll again</em></td>
+</tr>
+</tbody></table></ScrollContainer>
 </>};
 const _harrow_mat = {title: "Harrow mat", jsx: <><h2 id="eq-misc-harrow_mat-harrow-mat">Harrow mat</h2>
 <p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 30</Link><br/><strong>Price</strong> 80 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Entertainment</p>

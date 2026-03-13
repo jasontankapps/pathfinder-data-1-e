@@ -155,7 +155,7 @@ const _elemental_master = {title: "Elemental Master", jsx: <><h2 id="arc-arcanis
 </>};
 const _harrowed_society_student = {title: "Harrowed Society Student", jsx: <><h2 id="arc-arcanist-harrowed_society_student-harrowed-society-student">Harrowed Society Student</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 22</Link><br/>Based out of Varisia's Twilight Academy, the secretive Harrowed Society focuses its efforts on the intellectual study of the region's supernatural quirks and hidden history, and embraces the use of the <Link to="/eq-misc/harrow_deck">harrow deck</Link> to examine the world's occult mysteries.</p>
-<aside><p>This archetype is intended for use with the Pathfinder Cards: Deluxe Harrow Deck. If you don't have access to that product, roll 1d6 to determine a drawn card's suit: 1 = hammers, 2 = keys, 3 = shields, 4 = books, 5 = stars, and 6 = crowns.</p>
+<aside><p>This archetype is intended for use with the Pathfinder Cards: Deluxe Harrow Deck. If you don't have access to that product, use the table presented at the bottom of the <em>harrow deck</em> item page.</p>
 </aside><div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-arcanist-harrowed_society_student-psychic-reader-ex" data-hash-target><div className="box">Psychic Reader (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The 1st-level arcanist exploit</div></div></div>

@@ -1991,7 +1991,20 @@
 			"",
 			"When primal magic surrounds you, you can channel it to transform the nature of your kinetic blasts.  ",
 			"**Prerequisites:** ‹class/Kineticist› level 1st.  ",
-			"**Benefit:** When using a simple kinetic blast in an area where ‹rule/primal magic› is either predominant or very common, you can accept 1 point of burn to cause your blast to become one of the following simple blasts instead. Roll 1d10 to determine the simple blast: 1 = air, 2 = cold, 3 = earth, 4 = electric, 5 = fire, 6 = gravity, 7 = negative, 8 = telekinetic, 9 = water, 10 = wood. You can apply any of your form or substance infusions that are allowed as choices for the random blast, accepting the typical burn cost."
+			"**Benefit:** When using a simple kinetic blast in an area where ‹rule/primal magic› is either predominant or very common, you can accept 1 point of burn to cause your blast to become one of the following simple blasts instead. Roll 1d10 on the table below to determine the simple blast. You can apply any of your form or substance infusions that are allowed as choices for the random blast, accepting the typical burn cost.",
+			"",
+			"| 1d10 | Simple blast |",
+			"| --- | --- |",
+			"| 1 | @ripple[kinetic/Air blast] |",
+			"| 2 | @ripple[kinetic/Cold blast] |",
+			"| 3 | @ripple[kinetic/Earth blast] |",
+			"| 4 | @ripple[kinetic/Electric blast] |",
+			"| 5 | @ripple[kinetic/Fire blast] |",
+			"| 6 | @ripple[kinetic/Gravity blast] |",
+			"| 7 | @ripple[kinetic/Negative blast] |",
+			"| 8 | @ripple[kinetic/Telekinetic blast] |",
+			"| 9 | @ripple[kinetic/Water blast] |",
+			"| 10 | @ripple[kinetic/Wood blast] |"
 		]
 	},
 	"primal_strike": {
