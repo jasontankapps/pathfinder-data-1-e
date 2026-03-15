@@ -2313,7 +2313,7 @@
 			"",
 			"When a spell calls for an expensive material component, a psychic spellcaster can instead use any item with both significant meaning and a value greater than or equal to the spell's component cost. For example, if a spiritualist wanted to cast ‹spell/raise dead› to bring her dead husband back from the grave, she could use her 5,000 gp wedding ring as the spell's material component.",
 			"",
-			"Instead of verbal and somatic components, all psychic spells have components related to the caster's inner being. The two psychic components are called emotion components and thought components. If a spell's components line lists a somatic component, that spell instead requires an emotion component when cast by psychic spellcasters, and if it has a verbal component, it instead requires a thought component when cast by psychic spellcasters. Psychic spells cast by non-psychic arcane and divine casters use any listed somatic and verbal components as normal.",
+			"Instead of verbal and somatic components, all psychic spells have components related to the caster's inner being. The two psychic components are called @HL[emotion components] and @HL[thought components]. If a spell's components line lists a somatic component, that spell instead requires an emotion component when cast by psychic spellcasters, and if it has a verbal component, it instead requires a thought component when cast by psychic spellcasters. Psychic spells cast by non-psychic arcane and divine casters use any listed somatic and verbal components as normal.",
 			"",
 			"@HL[Emotion Components:] Emotion components represent a particular emotional state required to cast the spell. A psychic spellcaster marshals her desire in order to focus and release the spell's energy. It is impossible to cast a spell with an emotion component while the spellcaster is under the influence of a non-harmless effect with the emotion or fear descriptors. Even if the effect's emotion matches the necessary emotion to cast the psychic spell, the spellcaster is not in control of her own desires and animal impulses, which is a necessary part of providing an emotion component.",
 			"",
@@ -2331,6 +2331,7 @@
 			"undercasting_spells"
 		]
 	},
+	"emotion_component": { "redirect": "components_oa" },
 	"undercasting_spells": {
 		"name": "Undercasting Spells",
 		"subtitle": "Psychic Magic",
