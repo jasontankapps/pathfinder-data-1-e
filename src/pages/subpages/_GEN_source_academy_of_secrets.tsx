@@ -1,3 +1,3 @@
 import Link from '../../components/Link';
-const References: React.FC = () => <><h3>Monster</h3><ul><li><Link key="/monster/garipan" to="/monster/garipan">Garipan</Link></li></ul></>;
+const References: React.FC = () => <><h3>Monster</h3><div className="columnar"><ul><li><Link key="/monster/garipan" to="/monster/garipan">Garipan</Link></li></ul></div></>;
 export default References;

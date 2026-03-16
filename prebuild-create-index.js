@@ -268,12 +268,12 @@ Object.entries($sources).forEach(([prop, value]) => {
 		}
 	});
 	types.sort().forEach(t => {
-		output.push(`<h3>${t}</h3><ul>`);
+		output.push(`<h3>${t}</h3><div className="columnar"><ul>`);
 		data[t].sort((a, b) => a[0].localeCompare(b[0])).forEach(pair => {
 			const [title, link] = pair;
 			output.push(`<li><Link key="/${link}" to="/${link}">${title}</Link></li>`);
 		});
-		output.push(`</ul>`);
+		output.push(`</ul></div>`);
 	});
 	const file = `import Link from '../../components/Link';\nconst References: React.FC = () => <>${output.join("")}</>;\nexport default References;`;
 	if(get(url).trim() === file) {

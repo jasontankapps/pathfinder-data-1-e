@@ -1,3 +1,3 @@
 import Link from '../../components/Link';
-const References: React.FC = () => <><h3>Armor</h3><ul><li><Link key="/eq-armor/leaf_armor" to="/eq-armor/leaf_armor">Leaf armor</Link></li></ul><h3>Artifact</h3><ul><li><Link key="/magic-artifact/id_portrait" to="/magic-artifact/id_portrait">Id Portrait</Link></li></ul></>;
+const References: React.FC = () => <><h3>Armor</h3><div className="columnar"><ul><li><Link key="/eq-armor/leaf_armor" to="/eq-armor/leaf_armor">Leaf armor</Link></li></ul></div><h3>Artifact</h3><div className="columnar"><ul><li><Link key="/magic-artifact/id_portrait" to="/magic-artifact/id_portrait">Id Portrait</Link></li></ul></div></>;
 export default References;
