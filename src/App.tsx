@@ -139,12 +139,29 @@ const UMRPage = lazy(() => import("./pages/UMRPage"));
 
 const App: FC = () => {
 	const [hasSet, setHasSet] = useState(false);
-	const { noStamina, noMythic, noElephant } = useAppSelector(state => state.settings);
+	const { noStamina, noMythic, noElephant, constraint = 0 } = useAppSelector(state => state.settings);
 
 	const classes = [];
 	noStamina && classes.push("noStamina");
 	noMythic && classes.push("noMythic");
 	noElephant && classes.push("noElephant");
+	switch(constraint) {
+		case 1:
+			classes.push("constraintXL");
+			break;
+		case 2:
+			classes.push("constraintL");
+			break;
+		case 3:
+			classes.push("constraintM");
+			break;
+		case 4:
+			classes.push("constraintS");
+			break;
+		case 5:
+			classes.push("constraintXS");
+			break;
+	}
 	const className = classes.join(" ");
 
 	if (!hasSet) {
@@ -155,7 +172,7 @@ const App: FC = () => {
 
 	return (
 		<IonApp>
-			<IonSplitPane contentId="main">
+			<IonSplitPane contentId="main" when="(min-width: 60rem)">
 				<Menu />
 				<IonContent id="main" className={className}>
 					<Switch>

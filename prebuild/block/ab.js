@@ -826,8 +826,8 @@ const makeAbilityBlock = ({
 
 	const indentation = indent ? (indent === "indent" ? 1 : Number(indent)) : 0;
 
-	return `${maybeClear}<div className="ability ${
-			sub ? "subAbility numbered" : (next ? "subAbility" : (head ? "hasSubs" : "p"))
+	return `${maybeClear}<div className="ability p${
+			sub ? " subAbility numbered" : (next ? " subAbility" : (head ? " hasSubs" : ""))
 		}${
 			indentation ? (indentation === 1 ? " indent" : " indent2") : ""
 		}">`

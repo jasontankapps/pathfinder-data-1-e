@@ -1,10 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 
+type Constraints = 0 | 1 | 2 | 3 | 4 | 5;
+
 export interface SettingsState {
 	noMythic: boolean
 	noStamina: boolean
 	noElephant: boolean
+	constraint?: Constraints
 }
 
 // Define the initial value for the slice state
@@ -44,6 +47,18 @@ export const settingsSlice = createSlice({
 				...newState,
 				noElephant
 			};
+		},
+		setConstraint: (state, action: PayloadAction<Constraints>) => {
+			const constraint = action.payload;
+			const {...newState} = state;
+			if(constraint) {
+				return {
+					...newState,
+					constraint
+				};
+			}
+			delete newState.constraint;
+			return newState;
 		}
 	}
 });
@@ -52,7 +67,8 @@ export const settingsSlice = createSlice({
 export const {
 	toggleNoStamina,
 	toggleNoMythic,
-	toggleNoElephant
+	toggleNoElephant,
+	setConstraint
 } = settingsSlice.actions;
 
 // Export the slice reducer for use in the store configuration

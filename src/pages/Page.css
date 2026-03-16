@@ -1310,3 +1310,72 @@ ion-list.aboutPage ion-item ion-label p:last-child {
 ion-item.user-focus::part(native) {
 	background: rgba( var(--ion-color-tertiary-rgb) , 0.25);
 }
+
+.selectTertiary ion-select::part(text) {
+	color: var(--ion-color-tertiary);
+}
+/*
+	Select breakpoints are 20rem through 60rem
+	Side panel opens at 60rem or greater, adds about 20rem
+*/
+.settingsPage :is(.cxs,.cs,.cm,.cl,.cxl) { display: none; }
+@media (20rem < width < 30rem) {
+	.settingsPage .cxs { display: initial; }
+}
+@media (30rem < width < 40rem) {
+	.settingsPage .cs { display: initial; }
+}
+@media (40rem < width < 50rem), (60rem < width < 70rem) {
+	.settingsPage .cm { display: initial; }
+}
+@media (70rem < width < 80rem), (60rem > width > 50rem) {
+	.settingsPage .cl { display: initial; }
+}
+@media (min-width: 80rem) {
+	.settingsPage .cxl { display: initial; }
+}
+
+.constraintXS ion-item:not(.mainItem) :is(ion-label, ion-label p),
+.constraintXS div.simple :is(p, blockquote, div.p, td, th, li, aside, div.capstones, table.class) {
+	max-width: 20rem;
+}
+.constraintXS .subAbility {
+	max-width: 17.5rem !important;
+}
+
+.constraintS :is(ion-label,ion-label > p),
+.constraintS div.simple :is(p, blockquote, div.p, td, th, li, aside, div.capstones, table.class) {
+	max-width: 30rem;
+}
+.constraintS .subAbility {
+	max-width: 27.5rem !important;
+}
+
+.constraintM :is(ion-label,ion-label > p),
+.constraintM div.simple :is(p, blockquote, div.p, td, th, li, aside, div.capstones, table.class) {
+	max-width: 40rem;
+}
+.constraintM .subAbility {
+	max-width: 37.5rem !important;
+}
+
+.constraintL :is(ion-label,ion-label > p),
+.constraintL div.simple :is(p, blockquote, div.p, td, th, li, aside, div.capstones, table.class) {
+	max-width: 50rem;
+}
+.constraintL .subAbility {
+	max-width: 47.5rem !important;
+}
+
+.constraintXL :is(ion-label,ion-label > p),
+.constraintXL div.simple :is(p, blockquote, div.p, td, th, li, aside, div.capstones, table.class) {
+	max-width: 60rem;
+}
+.constraintXL .subAbility {
+	max-width: 57.5rem !important;
+}
+
+ion-split-pane {
+	--side-width: 20rem;
+	--side-max-width: 20rem;
+}

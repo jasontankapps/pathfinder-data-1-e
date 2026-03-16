@@ -1,12 +1,3 @@
-import ordinal from "../ordinal.js";
-import writtenNumber from "written-number";
-
-const abPairOpen = 	'<div className="abPair">';
-const abPairStartOpen = '<div className="abStart"><div className="box">';
-const abPairEndOpen = '<div className="abEnd"><div className="box">';
-const abPairPartClose = "</div></div>";
-const abPairClose = "</div>";
-
 const all = [
 	[ "Perfect Body, Flawless Mind (Ex)", "At 20th level, the character's endless training and study has resulted in an unmatched mastery of the self. The character increases her ability scores by a collective total of 8. For example, she can increase one score by 8, or one score by 5 and another by 3, or four scores by 2, and so on. Characters of any class can select this ability." ],
 	[ "The Boss (Ex)", "At 20th level, the character has become more than just a lone hero - she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics. The character gains the ‹feat/Leadership› feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom. Characters of any class can select this ability." ],
@@ -38,7 +29,7 @@ export const makeCapstoneBlock = ({
 		archFamiliar, soulChannel
 	} = attrs;
 	const output = [
-		"<table><thead><tr><th scope=\"col\">Capstone</th><th scope=\"col\">Benefit</th></tr></thead>\n<tbody>"
+		"<div className=\"capstones\"><table><thead><tr><th scope=\"col\">Capstone</th><th scope=\"col\">Benefit</th></tr></thead>\n<tbody>"
 	];
 	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
 
@@ -58,7 +49,7 @@ export const makeCapstoneBlock = ({
 		output.push(`<tr><td>${title}</td><td>${doParse(benefit)}</td></tr>`);
 	});
 
-	return `${maybeClear}${output.join("\n")}\n</tbody></table>\n`;
+	return `${maybeClear}${output.join("\n")}\n</tbody></table></div>\n`;
 };
 
 export default makeCapstoneBlock;
