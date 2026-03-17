@@ -885,8 +885,15 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 		// Handle alternateOf
 		let base;
 		if(value.alternateOf) {
-			temporaryFlags.hasAlternateText = true;
-			base = {...data[value.alternateOf], ...value};
+			const {alternateOf, regex, ...v} = value;
+			base = {...data[value.alternateOf], ...v};
+			let d = [...base.description];
+			regex.forEach((pair) => {
+				const [rxp, rep] = pair;
+				const rx = new RegExp(rxp, "g");
+				d = d.map(line => line.replace(rx, rep));
+			});
+			base.description = d;
 		} else {
 			base = value;
 		}

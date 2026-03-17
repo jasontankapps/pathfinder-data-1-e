@@ -112,12 +112,6 @@ Creates a single line of output in the following form:
 - If `hl` is present and true, the `<strong>` tag will be highlighted
 - If `and` is present and true, the word "and" is included before the final `<Link>`, if needed
 
-#### @primary and @alternate
-
-`@primary[some text] @alternate[some other text]`
-
-Used in `class_abilities.dares` and `archetypes_monk.json` to separate out grit/panache and monk/unchained monk abilities. These texts may be pulled from either of two sources, with slightly differing texts for each.
-
 ### Block Directives
 
 Block elements start with `::`.

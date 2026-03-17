@@ -102,9 +102,20 @@
 							"properties": {
 								"name": { "type": "string" },
 								"topLink": { "$ref": "#link" },
-								"alternateOf": { "type": "string" }
+								"alternateOf": { "type": "string" },
+								"regex": {
+									"type": "array",
+									"items": {
+										"type": "array",
+										"items": { "type": "string" },
+										"minItems": 2,
+										"maxItems": 2,
+										"unevaluatedItems": false
+									},
+									"unevaluatedItems": false
+								}
 							},
-							"required": [ "alternateOf" ],
+							"required": [ "alternateOf", "regex" ],
 							"unevaluatedProperties": false
 						},
 						{
