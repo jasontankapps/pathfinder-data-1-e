@@ -1319,6 +1319,9 @@ ion-item.user-focus::part(native) {
 	Side panel opens at 60rem or greater, adds about 20rem
 */
 .settingsPage :is(.cxs,.cs,.cm,.cl,.cxl) { display: none; }
+@media (max-width: 20rem) {
+	.settingsPage .cnone { display: none; }
+}
 @media (20rem < width < 30rem) {
 	.settingsPage .cxs { display: initial; }
 }

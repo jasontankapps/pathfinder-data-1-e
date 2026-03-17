@@ -15,7 +15,7 @@ const SettingsPage: React.FC = () => {
 			<PageHeader title="Settings" notBookmarkable />
 			<IonContent>
 				<IonList lines="full">
-					<IonItem lines="none">
+					<IonItem lines="none" className="cnone">
 						<IonLabel><em>You can constrain the width of paragraphs if they are getting too wide to read on your screen.</em></IonLabel>
 					</IonItem>
 					<IonItem className="mainItem basic selectTertiary cxl">

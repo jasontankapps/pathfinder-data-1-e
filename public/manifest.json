@@ -4,13 +4,13 @@
   "icons": [
     {
       "purpose": "monochrome",
-      "sizes": "1807.0588235294117x1807.0588235294117",
+      "sizes": "1807x1807",
       "src": "/display/icon-foreground.png",
       "type": "image/png"
     },
     {
       "purpose": "maskable",
-      "sizes": "1807.0588235294117x1807.0588235294117",
+      "sizes": "1807x1807",
       "src": "/display/maskable_icon.png",
       "type": "image/png"
     },
