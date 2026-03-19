@@ -16,9 +16,9 @@
 			"",
 			"::ab[Hidden Magic (Sp)]{next icon=def immediate=\"The black asp can spend 1 ki point to hide the auras of all magic items he is carrying (as if they were all under ‹spell/magic aura›) for 1 hour per monk level.\"}",
 			"",
-			"::ab[Greater Hidden Magic (Sp)]{next prereq=\"8th-level monk, *hidden magic* ki power\" order=pi icon=def passive=\"As long as he has at least 1 point in his ki pool, all of the black asp's items are constantly under the effects of *magic aura.*\" immediate=\"He can spend 2 ki points to cause himself and any magic items he is carrying to appear to be nonmagical (as if he had cast ‹spell/greater magic aura›) for 1 hour per monk level.\"}",
+			"::ab[Greater Hidden Magic (Sp)]{next prereq=\"8th-level monk, *hidden magic* ki power\" order=pi icon=def passive=\"As long as he has at least 1 point in his *ki pool,* all of the black asp's items are constantly under the effects of *magic aura.*\" immediate=\"He can spend 2 ki points to cause himself and any magic items he is carrying to appear to be nonmagical (as if he had cast ‹spell/greater magic aura›) for 1 hour per monk level.\"}",
 			"",
-			"::ab[Empty Mind (Sp)]{next icon=def ability=\"A black asp with this ki power can choose to lower the number of ki points in his ki pool by 3 when he recovers his ki points for the day. If he does so, he gains the benefits of ‹spell/mind blank› for 24 hours.\" prereq=\"16th-level monk, *greater hidden magic* ki power\"}",
+			"::ab[Empty Mind (Sp)]{next icon=def ability=\"A black asp with this ki power can choose to lower the number of ki points in his *ki pool* by 3 when he recovers his ki points for the day. If he does so, he gains the benefits of ‹spell/mind blank› for 24 hours.\" prereq=\"16th-level monk, *greater hidden magic* ki power\"}",
 			"",
 			"::ab[Shifting Form (Su)]{next icon=def immediate=\"A black asp can spend 1 ki point to make his outline shift and waver for 1 round. This ability otherwise functions as per the spell ‹spell/blur›.\"}"
 		]
@@ -72,13 +72,13 @@
 			"‹SOURCE Healer's Handbook/4›  ",
 			"Disciples of wholeness train to bring themselves and others closer to physical and spiritual perfection.",
 			"",
-			"::ab[Healing Ki (Su)]{l=4 icon=aid swift=\"A disciple of wholeness can touch a creature and spend 1 point from her ki pool to restore a number of hit points equal to 1d4 + 1/2 her monk level to that creature. If she has the *wholeness of body* class feature, she can spend 2 points to restore a number of hit points equal to 1d8 + her monk level to a touched creature.\" alter=\"Ki pool\" replace=\"The ability to spend ki to gain an extra attack during a *flurry of blows*\"}",
+			"::ab[Healing Ki (Su)]{l=4 icon=aid swift=\"A disciple of wholeness can touch a creature and spend 1 point from her *ki pool* to restore a number of hit points equal to 1d4 + 1/2 her monk level to that creature. If she has the *wholeness of body* class feature, she can spend 2 points to restore a number of hit points equal to 1d8 + her monk level to a touched creature.\" alter=\"Ki pool\" replace=\"The ability to spend ki to gain an extra attack during a *flurry of blows*\"}",
 			"",
-			"::ab[Hone Body (Su)]{l=5 icon=def order=pw passive=\"A disciple of wholeness has immunity to supernatural and magical diseases as long as she is undamaged (she loses this immunity when she has hit point or ability score damage).\" swift=\"She can touch a creature and spend 1 point from her ki pool to render it immune to all diseases for 1 day. She cannot grant this immunity if the target is already afflicted with a disease.\" replace=\"Purity of body\"}",
+			"::ab[Hone Body (Su)]{l=5 icon=def order=pw passive=\"A disciple of wholeness has immunity to supernatural and magical diseases as long as she is undamaged (she loses this immunity when she has hit point or ability score damage).\" swift=\"She can touch a creature and spend 1 point from her *ki pool* to render it immune to all diseases for 1 day. She cannot grant this immunity if the target is already afflicted with a disease.\" replace=\"Purity of body\"}",
 			"",
 			"::ab[Greater Hone Body (Su)]{l=11 icon=def ability=\"A disciple of wholeness is immune to poison while undamaged and can grant immunity to poison (lasting for 1 day). This ability otherwise functions as per *hone body.*\" replace=\"Diamond body\"}",
 			"",
-			"::ab[Hone Soul (Su)]{l=13 icon=magic standard=\"A disciple of wholeness can dispel a spell affecting a living creature by touching it and spending 1 point from her ki pool. This power functions like the targeted dispel option of ‹spell/greater dispel magic›, with the caster level equal to the disciple of wholeness's monk level.\" replace=\"Diamond soul\"}"
+			"::ab[Hone Soul (Su)]{l=13 icon=magic standard=\"A disciple of wholeness can dispel a spell affecting a living creature by touching it and spending 1 point from her *ki pool.* This power functions like the targeted dispel option of ‹spell/greater dispel magic›, with the caster level equal to the disciple of wholeness's monk level.\" replace=\"Diamond soul\"}"
 		]
 	},
 	"disciple_of_wholeness_uc": {
@@ -104,7 +104,7 @@
 			"‹SOURCE Advanced Player's Guide/110›  ",
 			"Most monks lead lives of moderation and quiet contemplation. But the drunken master finds perfection through excess. Powered by strong wine, he uses his intoxication to reach a state where his ki is more potent, if somewhat fleeting. A drunken master has the following class features.",
 			"",
-			"::ab[Drunken Ki (Su)]{l=3 icon=power provokes=No standard=\"A drunken master can drink a tankard of ale or strong alcohol and gain one temporary ki point. This does not provoke attacks of opportunity. The monk can have a maximum of 1 *drunken ki point.*\" special=\"The monk can gain this temporary ki even before he gains a ki pool at 4th level. These *drunken ki points* last for 1 hour or until spent, whichever is shorter.\" order=sw swift=\"As long as he has at least 1 *drunken ki point,* the monk can spend 1 ki point to move 5 feet without provoking attacks of opportunity.\" replace=\"Still mind\" incrementPlain=\"The monk's maximum increases~3~2\" incrementDesc=to incrementEnd=\" *drunken ki points.*\"}",
+			"::ab[Drunken Ki (Su)]{l=3 icon=power provokes=No standard=\"A drunken master can drink a tankard of ale or strong alcohol and gain one temporary ki point. This does not provoke attacks of opportunity. The monk can have a maximum of 1 *drunken ki point.*\" special=\"The monk can gain this temporary ki even before he gains a *ki pool* at 4th level. These *drunken ki points* last for 1 hour or until spent, whichever is shorter.\" order=sw swift=\"As long as he has at least 1 *drunken ki point,* the monk can spend 1 ki point to move 5 feet without provoking attacks of opportunity.\" replace=\"Still mind\" incrementPlain=\"The monk's maximum increases~3~2\" incrementDesc=to incrementEnd=\" *drunken ki points.*\"}",
 			"",
 			"::ab[Drunken Strength (Su)]{l=5 icon=melee-boost swift=\"A drunken master can spend 1 point of ki to inflict 1d6 extra points of damage on a single successful melee attack. The monk can choose to apply the damage after the attack roll is made.\" incrementMulti=\"The monk may spend ~ *drunken ki points* to increase the extra damage to ~d6.~5/5;2/1\" special=\"The monk must have at least 1 *drunken ki point* to use this ability.\" replace=\"Purity of body\"}",
 			"",
@@ -112,7 +112,7 @@
 			"",
 			"::ab[Drunken Resilience (Ex)]{l=13 icon=def passive=\"A drunken master gains DR 1/- as long as he has at least 1 point of *drunken ki.*\" imp16=\"The DR increases to 2/-.\" imp19=\"It increases to 3/-.\" replace=\"Diamond soul\"}",
 			"",
-			"::ab[Firewater Breath (Su)]{l=19 icon=cone standard=\"A drunken master can take a drink and expel a gout of alcohol-fueled fire in a 30-foot cone. Creatures within the cone take 20d6 points of fire damage. A successful Reflex saving throw (DC 10 + 1/2 the monk's level + the monk's Wis modifier) halves the damage. Using this ability consumes 4 ki points from the monk's ki pool.\" special=\"The monk must have at least 1 *drunken ki point* to use this ability.\" replace=\"Empty body\"}"
+			"::ab[Firewater Breath (Su)]{l=19 icon=cone standard=\"A drunken master can take a drink and expel a gout of alcohol-fueled fire in a 30-foot cone. Creatures within the cone take 20d6 points of fire damage. A successful Reflex saving throw (DC 10 + 1/2 the monk's level + the monk's Wis modifier) halves the damage. Using this ability consumes 4 ki points from the monk's *ki pool.*\" special=\"The monk must have at least 1 *drunken ki point* to use this ability.\" replace=\"Empty body\"}"
 		]
 	},
 	"elemental_monk": {
@@ -162,11 +162,11 @@
 			"",
 			"::ab[Invisible Blade (Ex)]{l=3 icon=boost ability=\"When a far strike monk uses the Stealth skill to maintain his obscured location after sniping, he takes a -10 penalty on his Stealth check instead of -20.\" replace=\"Still mind\"}",
 			"",
-			"::ab[Ki Pool (Su)]{l=4 icon=boost ability=\"In addition to the normal abilities of his ki pool, a far strike monk can spend 1 point from his ki pool to increase the range increment of a thrown weapon by 20 feet for 1 round.\"}",
+			"::ab[Ki Pool (Su)]{l=4 icon=boost ability=\"In addition to the normal abilities of his *ki pool,* a far strike monk can spend 1 point from his *ki pool* to increase the range increment of a thrown weapon by 20 feet for 1 round.\"}",
 			"",
-			"::ab[Ki Missile (Su)]{l=5 icon=boost swift=\"A far strike monk can spend 1 point from his ki pool to change the base damage dice of thrown weapons to that of his unarmed strikes. These weapons are also treated as ‹magic-enh/ki focus› weapons, allowing the monk to apply his special ki attacks to his thrown weapons as if they were unarmed strikes. This effect lasts until the beginning of his next turn.\" replace=\"Purity of body\"}",
+			"::ab[Ki Missile (Su)]{l=5 icon=boost swift=\"A far strike monk can spend 1 point from his *ki pool* to change the base damage dice of thrown weapons to that of his unarmed strikes. These weapons are also treated as ‹magic-enh/ki focus› weapons, allowing the monk to apply his special ki attacks to his thrown weapons as if they were unarmed strikes. This effect lasts until the beginning of his next turn.\" replace=\"Purity of body\"}",
 			"",
-			"::ab[Trick Throw (Su)]{l=11 icon=lower flavor=\"A far strike monk can infuse his thrown weapons with ki to hit targets that he might otherwise miss.\" swift=\"By spending 1 point from his ki pool, the far strike monk can ignore ‹rule/concealment›. By spending 2 points, he can ignore total concealment or ‹rule/cover›. By spending 3 points, he can ignore total cover, even throwing weapons around corners. These effects last for 1 round.\" special=\"The weapon must still be able to reach the target; for instance, a target inside a closed building with no open doors or windows cannot be attacked using Trick Throw.\" replace=\"Diamond body\"}"
+			"::ab[Trick Throw (Su)]{l=11 icon=lower flavor=\"A far strike monk can infuse his thrown weapons with ki to hit targets that he might otherwise miss.\" swift=\"By spending 1 point from his *ki pool,* the far strike monk can ignore ‹rule/concealment›. By spending 2 points, he can ignore total concealment or ‹rule/cover›. By spending 3 points, he can ignore total cover, even throwing weapons around corners. These effects last for 1 round.\" special=\"The weapon must still be able to reach the target; for instance, a target inside a closed building with no open doors or windows cannot be attacked using Trick Throw.\" replace=\"Diamond body\"}"
 		]
 	},
 	"flowing_monk": {
@@ -186,9 +186,9 @@
 			"",
 			"::ab[Flowing Dodge (Ex)]{l=3 icon=def passive=\"A flowing monk gains a +1 dodge bonus to AC for each enemy adjacent to him, up to a maximum bonus equal to his Wisdom modifier (minimum 1).\" replace=\"Fast movement\"}",
 			"",
-			"::ab[Elusive Target (Ex)]{l=5 icon=def immediate=\"A flowing monk may spend 2 points from his ki pool to attempt a Reflex save opposed by an attacker's attack roll to halve damage from that attack.\" imp11=\"The flowing monk suffers no damage on a successful save, or half damage on a failed save. If the attacker is ‹rule/flanking› the monk, the flanking opponent who is not attacking becomes the target of the attack. Use the same attack roll, and if the attack hits the new target, that creatures takes half damage (or full damage if the attack is completely avoided). Any associated effects from the attack (such as ‹umr/bleed›, poison, or spell effects) apply fully even if the attack deals only half damage.\" replace=\"Purity of body~diamond body\"}",
+			"::ab[Elusive Target (Ex)]{l=5 icon=def immediate=\"A flowing monk may spend 2 points from his *ki pool* to attempt a Reflex save opposed by an attacker's attack roll to halve damage from that attack.\" imp11=\"The flowing monk suffers no damage on a successful save, or half damage on a failed save. If the attacker is ‹rule/flanking› the monk, the flanking opponent who is not attacking becomes the target of the attack. Use the same attack roll, and if the attack hits the new target, that creatures takes half damage (or full damage if the attack is completely avoided). Any associated effects from the attack (such as ‹umr/bleed›, poison, or spell effects) apply fully even if the attack deals only half damage.\" replace=\"Purity of body~diamond body\"}",
 			"",
-			"::ab[Volley Spell (Su)]{l=15 icon=def ability=\"When a targeted spell or spell-like ability fails to overcome a flowing monk's spell resistance, he may reflect the effect onto its caster as ‹spell/spell turning› by spending a number of points from his ki pool equal to 1/2 the spell's level (minimum 1).\" replace=\"Quivering palm\"}"
+			"::ab[Volley Spell (Su)]{l=15 icon=def ability=\"When a targeted spell or spell-like ability fails to overcome a flowing monk's spell resistance, he may reflect the effect onto its caster as ‹spell/spell turning› by spending a number of points from his *ki pool* equal to 1/2 the spell's level (minimum 1).\" replace=\"Quivering palm\"}"
 		]
 	},
 	"gray_disciple": {
@@ -230,7 +230,7 @@
 			"",
 			"::ab[Stunning Fist (Ex)]{icon=power ability=\"A hamatulatsu master expands the conditions that she can apply to the target of her *stunning fist* beyond merely stunning her target.\" imp4=\"She can choose to make the target ‹misc/shaken› for 1 minute.\" imp8=\"She can choose to deal 1d10 points of nonlethal ‹umr/bleed› damage.\" imp12=\"She can choose to make the target ‹misc/frightened› for 1d3 rounds.\" imp16=\"She can deal 2d12 points of nonlethal bleed damage.\" special=\"The shaken and frightened conditions allow the target to attempt a Will save to negate the effect instead of a Fortitude save. This ability otherwise functions as normal for a monk of her level.\"}",
 			"",
-			"::ab[Ki Pool (Su)]{icon=melee swift=\"By spending 1 point from her ki pool, a hamatulatsu master can make one additional attack at her highest attack bonus when making a *flurry of blows* attack. Alternatively, she can spend 1 ki point to gain one additional use of her *stunning fist* ability that round, though this does not grant her an additional attack.\" immediate=\"A hamatulatsu master can spend 1 ki point to make a single melee attack with a +2 bonus against a creature that has damaged her with a natural melee attack, unarmed strike, or weapon without the reach property.\" special=\"This ability otherwise functions as normal for a monk of her level.\" order=wi}",
+			"::ab[Ki Pool (Su)]{icon=melee swift=\"By spending 1 point from her *ki pool,* a hamatulatsu master can make one additional attack at her highest attack bonus when making a *flurry of blows* attack. Alternatively, she can spend 1 ki point to gain one additional use of her *stunning fist* ability that round, though this does not grant her an additional attack.\" immediate=\"A hamatulatsu master can spend 1 ki point to make a single melee attack with a +2 bonus against a creature that has damaged her with a natural melee attack, unarmed strike, or weapon without the reach property.\" special=\"This ability otherwise functions as normal for a monk of her level.\" order=wi}",
 			"",
 			"::ab[Infernal Resilience (Ex)]{l=5 icon=def passive=\"A hamatulatsu master gains immunity to all spells, spell-like abilities, and effects with the pain descriptor, as well as a +2 bonus on saving throws against effects that would sicken, nauseate, stagger, or stun her.\" replace=\"Purity of body\"}"
 		]
@@ -292,13 +292,13 @@
 			"",
 			"::ab[Punishing Kick (Ex)]{l=1 icon=power ability=\"A hungry ghost monk gains ‹feat/Punishing Kick› as a bonus feat, even if he does not meet the prerequisites.\" imp10=\"The monk can push the target of his Punishing Kick an additional 5 feet (to 10 feet).\" imp15=\"He can push the target 15 feet away. Or, he can instead choose to push the target 5 feet and knock the target ‹rule/prone› with the same attack. The target still gets a saving throw to avoid being knocked prone.\" imp20=\"He can push the target 20 feet away.\" replace=\"Stunning Fist\"}",
 			"",
-			"::ab[Steal Ki (Ex)]{l=5 icon=power-def flavor=\"A hungry ghost monk can steal ki from other creatures, though this ability is controversial in some circles of monks, who see it as nothing less than a form of vampirism.\" ability=\"If the monk scores a confirmed critical hit against a living enemy or reduces a living enemy to 0 or fewer hit points, he can steal some of that creature's ki. This ability replenishes 1 spent ki point to the monk's ki pool, as long as the monk has at least 1 ki point in his pool. He cannot exceed his ki pool's maximum.\" imp11=\"Each time the monk successfully steals ki, he can make an immediate saving throw against one disease he is suffering from. There is no penalty for failing this saving throw. The monk gains a bonus equal to his Wisdom modifier on the saving throw.\" replace=\"Purity of body\"}",
+			"::ab[Steal Ki (Ex)]{l=5 icon=power-def flavor=\"A hungry ghost monk can steal ki from other creatures, though this ability is controversial in some circles of monks, who see it as nothing less than a form of vampirism.\" ability=\"If the monk scores a confirmed critical hit against a living enemy or reduces a living enemy to 0 or fewer hit points, he can steal some of that creature's ki. This ability replenishes 1 spent ki point to the monk's *ki pool,* as long as the monk has at least 1 ki point in his pool. He cannot exceed his *ki pool'*s maximum.\" imp11=\"Each time the monk successfully steals ki, he can make an immediate saving throw against one disease he is suffering from. There is no penalty for failing this saving throw. The monk gains a bonus equal to his Wisdom modifier on the saving throw.\" replace=\"Purity of body\"}",
 			"",
-			"::ab[Life Funnel (Su)]{l=7 icon=aid flavor=\"A hungry ghost monk can steal a creature's life force to replenish his own.\" ability=\"If the monk has at least 1 ki point in his ki pool and scores a confirmed critical hit against a living enemy or reduces a living enemy to 0 or fewer hit points, he heals a number of hit points equal to his monk level. As with *steal ki,* some monks believe that *life funnel* is an unsavory act, no better than what the undead do to the living.\" special=\"A monk with this ability cannot steal both ki and hit points at the same time.\" replace=\"Wholeness of body\"}",
+			"::ab[Life Funnel (Su)]{l=7 icon=aid flavor=\"A hungry ghost monk can steal a creature's life force to replenish his own.\" ability=\"If the monk has at least 1 ki point in his *ki pool* and scores a confirmed critical hit against a living enemy or reduces a living enemy to 0 or fewer hit points, he heals a number of hit points equal to his monk level. As with *steal ki,* some monks believe that *life funnel* is an unsavory act, no better than what the undead do to the living.\" special=\"A monk with this ability cannot steal both ki and hit points at the same time.\" replace=\"Wholeness of body\"}",
 			"",
 			"::ab[Life from a Stone (Su)]{l=11 icon=def-aid flavor=\"A hungry ghost monk can steal ki or life force from any creature, not just living creatures.\" ability=\"If the monk has at least 1 ki point in his pool, he gains the benefit of *life funnel* and *steal ki* when he confirms a critical hit against any creature or reduces any creature to 0 or fewer hit points.\" replace=\"Diamond body\"}",
 			"",
-			"::ab[Sipping Demon (Su)]{l=13 icon=aid ability=\"A hungry ghost monk gains 1 ‹rule/temporary hit point<s› each time he hits an enemy with a melee attack. The monk gains a number of temporary hit points equal to his Wisdom modifier when he scores a critical hit. The maximum number of temporary hit points the monk can have is equal to his monk level. The temporary hit points disappear 1 hour later.\" special=\"The monk can only use this ability when he has at least 1 ki point in his ki pool. This ability is a proscribed manipulation of ki considered by many good monks to be a corruption.\" replace=\"Diamond soul\"}"
+			"::ab[Sipping Demon (Su)]{l=13 icon=aid ability=\"A hungry ghost monk gains 1 ‹rule/temporary hit point<s› each time he hits an enemy with a melee attack. The monk gains a number of temporary hit points equal to his Wisdom modifier when he scores a critical hit. The maximum number of temporary hit points the monk can have is equal to his monk level. The temporary hit points disappear 1 hour later.\" special=\"The monk can only use this ability when he has at least 1 ki point in his *ki pool.* This ability is a proscribed manipulation of ki considered by many good monks to be a corruption.\" replace=\"Diamond soul\"}"
 		]
 	},
 	"invested_regent": {
@@ -415,9 +415,9 @@
 			"",
 			"::ab[Resilience (Ex)]{l=2 icon=def flavor=\"An ironskin monk can shake off the physical effects of certain attacks.\" ability=\"If he makes a Fortitude saving throw against an attack that has a reduced effect on a successful save, he instead avoids the effect entirely.\" special=\"This ability can be used only if the monk is wearing light armor or no armor. A helpless monk does not gain the benefits of *resilience.*\" replace=Evasion}",
 			"",
-			"::ab[Ki Pool (Su)]{l=4 icon=boost ability=\"An ironskin monk can spend 1 point from his ki pool to gain a damage bonus equal to 1/2 his level against objects and constructs for 1 round.\" replace=\"The ability to increase speed with ki\"}",
+			"::ab[Ki Pool (Su)]{l=4 icon=boost ability=\"An ironskin monk can spend 1 point from his *ki pool* to gain a damage bonus equal to 1/2 his level against objects and constructs for 1 round.\" replace=\"The ability to increase speed with ki\"}",
 			"",
-			"::ab[Staggering Blow (Ex)]{l=5 icon=lower free=\"An ironskin monk attacking with an unarmed strike can spend 1 point from his ki pool after a successful critical hit to ‹misc/stagger› the creature struck for 1 round (Fort DC 10 + 1/2 the ironskin monk's level + the ironskin monk's Wisdom modifier negates).\" replace=\"High jump\"}",
+			"::ab[Staggering Blow (Ex)]{l=5 icon=lower free=\"An ironskin monk attacking with an unarmed strike can spend 1 point from his *ki pool* after a successful critical hit to ‹misc/stagger› the creature struck for 1 round (Fort DC 10 + 1/2 the ironskin monk's level + the ironskin monk's Wisdom modifier negates).\" replace=\"High jump\"}",
 			"",
 			"::ab[Tough as Nails (Ex)]{l=6 icon=def passive=\"An ironskin monk gains ‹rule/DR› 1/-.\" incrementPlain=\"The DR~6~3\" incrementEnd=\"/-.\" replace=\"Fast movement~slow fall\"}",
 			"",
@@ -445,11 +445,11 @@
 			"",
 			"::ab[Balanced Mind (Su)]{l=3 icon=def passive=\"A karmic monk receives a +2 bonus on saving throws against effects with the chaos, evil, good, or law subtype. He also receives this bonus against the abilities and effects of creatures of the listed subtypes.\" replace=\"Still mind\"}",
 			"",
-			"::ab[Ki Pool (Su)]{l=7 icon=boost passive=\"When a karmic monk makes unarmed strikes, they're treated as chaotic, evil, good, and lawful.\" replace=\"7th- and 10th-level ki pool abilities\"}",
+			"::ab[Ki Pool (Su)]{l=7 icon=boost passive=\"When a karmic monk makes unarmed strikes, they're treated as chaotic, evil, good, and lawful.\" replace=\"7th- and 10th-level *ki pool* abilities\"}",
 			"",
 			"::ab[Harmony (Su)]{l=9 icon=magic immediate=\"A karmic monk can shift his alignment by one step for the purpose of all effects dependent on alignment until the beginning of his next turn. This does not actually alter the karmic monk's alignment.\" replace=\"Improved evasion\"}",
 			"",
-			"::ab[Karmic Disruption (Su)]{l=16 icon=boost swift=\"A karmic monk can spend 1 point from his ki pool to add 1d6 points of damage to his unarmed strikes against creatures of either chaotic, evil, good, or lawful alignment for 1 round. This stacks with other abilities that deal damage based on alignment. He cannot alter his alignment choice until the next time he uses this ability. Creatures that are of the appropriate alignment and are struck by this attack must succeed at a Will save (DC = 10 + 1/2 the karmic monk's class level + the karmic monk's Wisdom modifier) or lose any damage reduction based on alignment for a number of rounds equal to the karmic monk's Wisdom modifier (minimum 1 round). A creature that succeeds at this save is immune to having its damage reduction disrupted by that karmic monk for 24 hours.\" special=\"This attack disrupts only alignment components of damage reduction, not any other components; for example, DR/cold iron and good becomes DR/cold iron.\" replace=\"The *slow fall* improvement; it remains at 70 feet\"}",
+			"::ab[Karmic Disruption (Su)]{l=16 icon=boost swift=\"A karmic monk can spend 1 point from his *ki pool* to add 1d6 points of damage to his unarmed strikes against creatures of either chaotic, evil, good, or lawful alignment for 1 round. This stacks with other abilities that deal damage based on alignment. He cannot alter his alignment choice until the next time he uses this ability. Creatures that are of the appropriate alignment and are struck by this attack must succeed at a Will save (DC = 10 + 1/2 the karmic monk's class level + the karmic monk's Wisdom modifier) or lose any damage reduction based on alignment for a number of rounds equal to the karmic monk's Wisdom modifier (minimum 1 round). A creature that succeeds at this save is immune to having its damage reduction disrupted by that karmic monk for 24 hours.\" special=\"This attack disrupts only alignment components of damage reduction, not any other components; for example, DR/cold iron and good becomes DR/cold iron.\" replace=\"The *slow fall* improvement; it remains at 70 feet\"}",
 			"",
 			"::ab[Slow Fall]{l=18 alter=\"Slow fall\" ability=\"*Slow fall* now reduces your fall damage by 80 feet.@FN1\" icon=boost}",
 			"",
@@ -491,7 +491,7 @@
 			"‹SOURCE Advanced Player's Guide/111›  ",
 			"The ki mystic believes that violence is sometimes necessary, but knowing and understanding is the true root of perfection. Through meditation and spiritual visions, a ki mystic can see beyond the veil of reality to the underlying truth of all existence. A ki mystic has the following class features.",
 			"",
-			"::ab[Ki Mystic (Su)]{l=3 icon=power-boost ability=\"A ki mystic gains a pool of ki points equal to his Wisdom modifier. The pool increases to 1/2 his monk level + his Wisdom modifier + 2 at level 4. If the monk has at least 1 point of ki in his ki pool, he gains a +2 bonus on all Knowledge skill checks.\" order=aw swift=\"The monk can spend 1 ki point immediately before making an ability or skill check to gain a +4 insight bonus on the check.\" replace=\"Still mind\"}",
+			"::ab[Ki Mystic (Su)]{l=3 icon=power-boost ability=\"A ki mystic gains a pool of ki points equal to his Wisdom modifier. The pool increases to 1/2 his monk level + his Wisdom modifier + 2 at level 4. If the monk has at least 1 point of ki in his *ki pool,* he gains a +2 bonus on all Knowledge skill checks.\" order=aw swift=\"The monk can spend 1 ki point immediately before making an ability or skill check to gain a +4 insight bonus on the check.\" replace=\"Still mind\"}",
 			"",
 			"::ab[Mystic Insight (Su)]{l=5 icon=roll flavor=\"A ki mystic becomes apt at giving just the right word of advice in just the nick of time.\" immediate=\"The monk can spend 2 ki points to grant an ally within 30 feet the ability to reroll a single attack roll or saving throw. The ally must be able to hear the monk to gain the reroll benefit.\" replace=\"Purity of body\"}",
 			"",
@@ -543,7 +543,7 @@
 			"",
 			"::ab[Maneuver Defense (Ex)]{l=3 icon=lower passive=\"If a maneuver master has an Improved combat maneuver feat, any creature attempting that maneuver against the maneuver master provokes an attack of opportunity, even if it would not normally do so.\" replace=\"Still mind\"}",
 			"",
-			"::ab[Reliable Maneuver (Ex)]{l=4 icon=roll swift=\"A maneuver master may spend 1 point from his ki pool before attempting a combat maneuver. He can roll his combat maneuver check for that maneuver twice and use the better result.\" replace=\"Slow fall\"}",
+			"::ab[Reliable Maneuver (Ex)]{l=4 icon=roll swift=\"A maneuver master may spend 1 point from his *ki pool* before attempting a combat maneuver. He can roll his combat maneuver check for that maneuver twice and use the better result.\" replace=\"Slow fall\"}",
 			"",
 			"::ab[Meditative Maneuver (Ex)]{l=5 icon=boost swift=\"A maneuver master can add his Wisdom modifier on any combat maneuver check he makes before the beginning of his next turn. He must choose which combat maneuver check to grant the bonus to before making the combat maneuver check.\" replace=\"Purity of body\"}",
 			"",
@@ -593,7 +593,7 @@
 			"",
 			"::ab[Bonus Feat]{icon=power l1=\"A master of many styles may select a bonus ‹main/style feat› or the ‹feat/Elemental Fist› feat. He does not need to meet the prerequisites of that feat, except the Elemental Fist feat.\" l2=\"He may select another such feat.\" l6=\"A master of many styles can choose to instead another such feat, or gain a *wildcard style slot.* Whenever he enters one or more styles, he can spend his *wildcard style slots* to gain feats in those styles' feat paths (such as ‹feat/Earth Child Topple›) as long as he meets the prerequisites. Each time he changes styles, he can also change these *wildcard style slots.*\" repeat=\"He gains another feat or *slot,* as above.~10~4\" replace=\"Standard bonus feats\"}",
 			"",
-			"::ab[Fuse Style (Ex)]{icon=power-boost flavor=\"A master of many styles can fuse two of the styles he knows into a more perfect style.\" l1=\"The master of many styles can have two style feat stances active at once. Starting a stance provided by a style feat is still a @HLswift_action, but when the master of many styles switches to another style feat, he can choose one style whose stance is already active to persist. He may only have two style feat stances active at a time.\" l8=\"The master of many styles can fuse three styles at once, having the stances of three style feats active at the same time. He gains a bonus on attack rolls equal to the number of styles whose stances he currently has active. Furthermore, he can enter up to three stances as a @HLswift_action.\" l15=\"The master of many styles can fuse four styles at once, having the stances of four style feats active at the same time. Furthermore, he can enter up to four stances as a @HLfree_action by spending 1 point from his ki pool.\" replace=\"Flurry of blows\"}",
+			"::ab[Fuse Style (Ex)]{icon=power-boost flavor=\"A master of many styles can fuse two of the styles he knows into a more perfect style.\" l1=\"The master of many styles can have two style feat stances active at once. Starting a stance provided by a style feat is still a @HLswift_action, but when the master of many styles switches to another style feat, he can choose one style whose stance is already active to persist. He may only have two style feat stances active at a time.\" l8=\"The master of many styles can fuse three styles at once, having the stances of three style feats active at the same time. He gains a bonus on attack rolls equal to the number of styles whose stances he currently has active. Furthermore, he can enter up to three stances as a @HLswift_action.\" l15=\"The master of many styles can fuse four styles at once, having the stances of four style feats active at the same time. Furthermore, he can enter up to four stances as a @HLfree_action by spending 1 point from his *ki pool.*\" replace=\"Flurry of blows\"}",
 			"",
 			"::ab[Perfect Style (Ex)]{l=20 icon=power ability=\"A master of many styles can have the stances of five style feats active at once, and can change those stances as a @HLfree_action.\" replace=\"Perfect self\"}"
 		]
@@ -679,17 +679,11 @@
 			"‹SOURCE Advanced Player's Guide/113›  ",
 			"Monks of the healing hand seek perfection through helping others. By focusing their meditations on the flow of life within themselves and all creation they gain an understanding of how to share their ki with others, healing wounds and even bringing the dead back to life. For such a monk, sacrificing himself to save another is the surest way to achieve transcendence. A monk of the healing hand has the following class features.",
 			"",
-			"**Ancient Healing Hand (Su):** At 7th level, a monk of the healing hand can heal another creature's wounds with a touch. As a full-round action, the monk can spend 2 ki points to heal a number of hit points equal to the monk's level. He needs at least one hand free to use this ability, and cannot heal himself. If the action is interrupted, the subject heals no hit points, and the ki points are lost.",
+			"::ab[Ancient Healing Hand (Su)]{l=7 icon=aid flavor=\"A monk of the healing hand can heal another creature's wounds with a touch.\" fullround=\"The monk can spend 2 ki points to heal a number of hit points equal to the monk's level. He needs at least one hand free to use this ability, and cannot heal himself. If the action is interrupted, the subject heals no hit points, and the ki points are lost.\" replace=\"Wholeness of body\"}",
 			"",
-			"This ability replaces @HL[wholeness of body].",
+			"::ab[Ki Sacrifice (Su)]{l=11 icon=magic ability=\"A monk of the healing hand can use his entire *ki pool* to bring a person back to life. It takes 1 hour to perform this ritual. At the end of the ritual, the monk sacrifices all of his ki in order to cast ‹spell/raise dead› (as the spell) with a caster level equal to his monk level. The ritual uses all of the ki in the monk's *ki pool;* the monk must have at least 6 points of ki in his *ki pool* to use this ability.\" imp15=\"The monk may sacrifice his ki to cast ‹spell/resurrection›. The monk must have at least 8 points of ki in his *ki pool* to use this ability.\" special=\"These rituals do not require material components. When this ability is used, the monk's *ki pool* is not replenished until 24 hours have passed.\" replace=\"Diamond body~quivering palm\"}",
 			"",
-			"**Ki Sacrifice (Su):** At 11th level, a monk of the healing hand can use his entire ki pool to bring a person back to life. It takes 1 hour to perform this ritual. At the end of the ritual, the monk sacrifices all of his ki in order to cast ‹spell/raise dead› (as the spell) with a caster level equal to his monk level. The ritual uses all of the ki in the monk's ki pool; the monk must have at least 6 points of ki in his ki pool to use this ability. At 15th level, the monk may sacrifice his ki to cast ‹spell/resurrection›. The monk must have at least 8 points of ki in his ki pool to use this ability. These rituals do not require material components. When this ability is used, the monk's ki pool is not replenished until 24 hours have passed.",
-			"",
-			"This ability replaces both @HL[diamond body] and @HL[quivering palm].",
-			"",
-			"**True Sacrifice (Su):** At 20th level, in a final selfless act, a monk of the healing hand can draw in his entire ki, which then explodes outward in a 50-foot-radius ‹misc/emanation›. All dead allies within the emanation are brought back to life, as if they were the subject of a ‹spell/true resurrection› spell with a caster level equal to the monk's level. When the monk does this, he is truly and utterly destroyed. A monk destroyed in this way can never come back to life, not even by way of a ‹spell/wish› or ‹spell/miracle› spell or by the power of a deity. Furthermore, the monk's name can never be spoken or written down again. All written mentions of his name become nothing more than a blank space.",
-			"",
-			"This ability replaces @HL[perfect self]."
+			"::ab[True Sacrifice (Su)]{l=20 icon=aura-magic-down ability=\"In a final selfless act, a monk of the healing hand can draw in his entire ki, which then explodes outward in a 50-foot-radius ‹misc/emanation›. All dead allies within the emanation are brought back to life, as if they were the subject of a ‹spell/true resurrection› spell with a caster level equal to the monk's level.\" special=\"When the monk does this, he is truly and utterly destroyed. A monk destroyed in this way can never come back to life, not even by way of a ‹spell/wish› or ‹spell/miracle› spell or by the power of a deity. Furthermore, the monk's name can never be spoken or written down again. All written mentions of his name become nothing more than a blank space.\" replace=\"Perfect self\"}"
 		]
 	},
 	"monk_of_the_lotus": {
@@ -701,21 +695,13 @@
 			"‹SOURCE Advanced Player's Guide/114›  ",
 			"Monks are warriors who hone their bodies into deadly weapons, but some monks eschew violence in favor of a more peaceful philosophy. While a monk of the lotus realizes that combat cannot always be avoided - and is more than capable in a fight - he understands that all creatures are connected, and to harm another is to harm the self. Instead, he strives to find peaceful resolutions to conflicts, and in doing so, hopes to achieve inner peace. A monk of the lotus has the following class features.",
 			"",
-			"**Touch of Serenity (Su):** At 1st level, a monk of the lotus gains ‹feat/Touch of Serenity› as a bonus feat, even if he does not meet the prerequisites. At 6th level, and every six levels thereafter, the duration of Touch of Serenity increases by 1 round. Each round on its turn, the target may attempt a new Will save to end the effect. This duration does not stack; only the longest remaining duration applies.",
+			"::ab[Touch of Serenity (Su)]{l=1 icon=power ability=\"A monk of the lotus gains ‹feat/Touch of Serenity› as a bonus feat, even if he does not meet the prerequisites. The duration of Touch of Serenity is increased by ‹misc/one-sixth› of his monk level.\" special=\"Each round on its turn, the target may attempt a new Will save to end the effect. This duration does not stack; only the longest remaining duration applies.\" replace=\"Stunning Fist\"}",
 			"",
-			"This ability replaces @HL[Stunning Fist].",
+			"::ab[Touch of Surrender (Su)]{l=12 icon=melee-lower flavor=\"A monk of the lotus makes a foe into a friend with a single show of mercy.\" immediate=\"When one of his melee attacks would reduce a creature to 0 or fewer hit points, the monk can spend 6 ki points to make the target of that attack surrender. When the target surrenders, it is reduced to 0 hit points, becomes ‹misc/disabled›, and is charmed, as if the monk had cast ‹spell/charm monster› with a caster level equal to the monk's level. The target does not get a saving throw against this effect.\" special=\"This charm lasts until its duration expires, until the monk dismisses it or uses it on another creature, or until the target is again reduced to 0 or fewer hit points, whichever happens first. The monk can only have one creature charmed with *touch of surrender* at a time. This is a mind-affecting charm effect.\" replace=\"Abundant step\"}",
 			"",
-			"**Touch of Surrender (Su):** At 12th level, a monk of the lotus makes a foe into a friend with a single show of mercy. As an immediate action, when one of his melee attacks would reduce a creature to 0 or fewer hit points, the monk can spend 6 ki points to make the target of that attack surrender. When the target surrenders, it is reduced to 0 hit points, becomes disabled, and is charmed, as if the monk had cast ‹spell/charm monster› with a caster level equal to the monk's level. The target does not get a saving throw against this effect. This charm lasts until its duration expires, until the monk dismisses it or uses it on another creature, or until the target is again reduced to 0 or fewer hit points, whichever happens first. The monk can only have one creature charmed with touch of surrender at a time. This is a mind-affecting charm effect.",
+			"::ab[Touch of Peace (Su)]{l=15 icon=melee flavor=\"A monk of the lotus can set up vibrations within the body of another creature to win over the creature's mind.\" ability=\"The monk can use *touch of peace* once per day, and must announce his intent before making his attack roll. On a successful hit, the attack deals no damage, but the target is charmed as if the monk had cast *charm monster* with a caster level equal to the monk's level. The target does not get a saving throw against this effect. The creature is charmed for 1 day per level.\" special=\"If the monk or his allies attack the charmed creature, or if the monk asks or commands the charmed creature to take hostile actions, the effect ends. This is a mind-affecting charm effect.\" replace=\"Quivering palm\"}",
 			"",
-			"This ability replaces @HL[abundant step].",
-			"",
-			"**Touch of Peace (Su):** At 15th level, a monk of the lotus can set up vibrations within the body of another creature to win over the creature's mind. The monk can use touch of peace once per day, and must announce his intent before making his attack roll. On a successful hit, the attack deals no damage, but the target is charmed as if the monk had cast *charm monster* with a caster level equal to the monk's level. The target does not get a saving throw against this effect. The creature is charmed for 1 day per level. If the monk or his allies attack the charmed creature, or if the monk asks or commands the charmed creature to take hostile actions, the effect ends. This is a mind-affecting charm effect.",
-			"",
-			"This ability replaces @HL[quivering palm].",
-			"",
-			"**Learned Master (Ex):** At 17th level, a monk of the lotus gains all Knowledge skills and the Linguistics skill as class skills. The monk uses Wisdom instead of Intelligence as the key ability for these skills.",
-			"",
-			"This ability replaces @HL[tongue of the sun and the moon]."
+			"::ab[Learned Master (Ex)]{l=17 icon=boost ability=\"A monk of the lotus gains all ‹skill/Knowledge› skills and the ‹skill/Linguistics› skill as class skills. The monk uses Wisdom instead of Intelligence as the key ability for these skills.\" replace=\"Tongue of the sun and the moon\"}"
 		]
 	},
 	"monk_of_the_mantis": {
@@ -727,13 +713,11 @@
 			"‹SOURCE Dirty Tactics Toolbox/11›  ",
 			"A body contains many points where the flesh, mind, and spirit coincide. A monk of the mantis is skilled at manipulating these points. With precise strikes, she temporarily disrupts a body's connection with the rest of the self.",
 			"",
-			"**Pressuring Strikes (Ex):** At 2nd level, a monk of the mantis gains the ‹ability/sneak attack› ability. This ability functions as the ‹class/rogue› ability of the same name, except it can be used only during a flurry of blows. The initial sneak attack damage is +1d6, and the damage increases by 1d6 every 4 levels beyond 2nd.",
+			"::ab[Pressuring Strikes (Ex)]{l=2 icon=power ability=\"A monk of the mantis gains the ‹ability/sneak attack› ability. This ability functions as the ‹class/rogue› ability of the same name, except it can be used only during a *flurry of blows.* The initial sneak attack damage is +1d6.\" increment=\"The damage~2~4\" incrementEnd=\"d6.\" replace=\"2nd-, 6th-, 10th-, 14th-, and 18th-level bonus feats\"}",
 			"",
-			"This ability replaces the monk's 2nd-, 6th-, 10th-, 14th-, and 18th-level @HL[bonus feats].",
+			"::ab[Debilitating Blows (Ex)]{flavor=\"A monk of the mantis's knowledge of anatomy allows her to deal blows that both deal damage and impose debilitating conditions.\" icon=lower l7=\"If a monk of the mantis stuns a target with ‹feat/Stunning Fist›, the target is also ‹rule/entangled› for 1 round after the Stunning Fist effect ends.\" l11=\"If the monk of the mantis stuns a target with Stunning Fist, the target is also ‹misc/exhausted› for 1 round after the Stunning Fist effect ends.\" l13=\"The monk can spend 1 point from her *ki pool* as part of her Stunning Fist attack to increase the duration of these additional effects to a number of rounds equal to her Wisdom bonus (minimum 2 rounds).\" replace=\"Wholeness of body~diamond body~diamond soul\"}",
 			"",
-			"::ab[Debilitating Blows (Ex)]{flavor=\"A monk of the mantis's knowledge of anatomy allows her to deal blows that both deal damage and impose debilitating conditions.\" icon=lower l7=\"If a monk of the mantis stuns a target with ‹feat/Stunning Fist›, the target is also ‹rule/entangled› for 1 round after the Stunning Fist effect ends.\" l11=\"If the monk of the mantis stuns a target with Stunning Fist, the target is also ‹misc/exhausted› for 1 round after the Stunning Fist effect ends.\" l13=\"The monk can spend 1 point from her ki pool as part of her Stunning Fist attack to increase the duration of these additional effects to a number of rounds equal to her Wisdom bonus (minimum 2 rounds).\" replace=\"Wholeness of body~diamond body~diamond soul\"}",
-			"",
-			"::ab[Disabling Palm (Su)]{l=15 icon=magic ability=\"A monk of the mantis can render the target of her quivering palm unconscious instead of killing the creature. Upon failing its Fortitude saving throw, the target either is knocked unconscious for a number of minutes equal to the monk of the mantis's monk level or dies (the monk of the mantis's choice).\" alter=\"Quivering palm\"}"
+			"::ab[Disabling Palm (Su)]{l=15 icon=magic ability=\"A monk of the mantis can render the target of her *quivering palm* unconscious instead of killing the creature. Upon failing its Fortitude saving throw, the target either is knocked ‹misc/unconscious› for a number of minutes equal to the monk of the mantis's monk level or dies (the monk of the mantis's choice).\" alter=\"Quivering palm\"}"
 		]
 	},
 	"monk_of_the_mantis_uc": {
@@ -757,25 +741,15 @@
 			"‹SOURCE Advanced Player's Guide/114›  ",
 			"The monk of the sacred mountain finds strength and power in the earth beneath his feet. Rather than spinning though the battlefield with the fluid motion of the river, he roots himself to the ground, as immovable and unshakable as the stones of the mountain. A monk of the sacred mountain has the following class features.",
 			"",
-			"**Iron Monk (Ex):** At 2nd level, a monk of the sacred mountain gains ‹feat/Toughness› as a bonus feat. In addition, the monk gains a +1 natural armor bonus.",
+			"::ab[Iron Monk (Ex)]{l=2 icon=power-def ability=\"A monk of the sacred mountain gains ‹feat/Toughness› as a bonus feat.\" passive=\"The monk gains a +1 natural armor bonus.\" order=ap replace=Evasion}",
 			"",
-			"This ability replaces @HL[evasion].",
+			"::ab[Bastion Stance (Ex)]{icon=def l4=\"A monk of the sacred mountain becomes like stone, nearly impossible to move when he stands his ground. If the monk starts and ends his turn in the same space, he cannot be knocked ‹rule/prone› or forcibly moved until the start of his next turn, except by mind-affecting or teleportation effects.\" l16=\"He is immune to any attempts to force him to move, even mind-affecting and teleportation effects.\" replace=\"Slow fall\"}",
 			"",
-			"**Bastion Stance (Ex):** At 4th level, a monk of the sacred mountain becomes like stone, nearly impossible to move when he stands his ground. If the monk starts and ends his turn in the same space, he cannot be knocked prone or forcibly moved until the start of his next turn, except by mind-affecting or teleportation effects. At 16th level, he is immune to any attempts to force him to move, even mind-affecting and teleportation effects.",
+			"::ab[Iron Limb Defense (Ex)]{l=5 icon=def-boost ability=\"A monk of the sacred mountain can deflect blows with an active defense that complements his bastion stance. If the monk starts and ends his turn in the same space, he gains a +2 shield bonus to AC and CMD until the start of his next turn.\" swift=\"He can spend 1 ki point to increase this bonus to +4.\" order=aw replace=\"High jump\"}",
 			"",
-			"This ability replaces @HL[slow fall].",
+			"::ab[Adamantine Monk (Ex)]{l=9 icon=def passive=\"A monk of the sacred mountain has muscles so strong and skin so resilient that he gains DR 1/-.\" order=pw incrementPlain=\"The monk's DR~9~3\" incrementEnd=\"/-.\" swift=\"The monk can spend 1 ki point to double his DR until the beginning of his next turn.\" replace=\"Improved evasion\"}",
 			"",
-			"**Iron Limb Defense (Ex):** At 5th level, a monk of the sacred mountain can deflect blows with an active defense that complements his bastion stance. If the monk starts and ends his turn in the same space, he gains a +2 shield bonus to AC and CMD until the start of his next turn. As a swift action, he can spend 1 ki point to increase this bonus to +4.",
-			"",
-			"This ability replaces @HL[high jump].",
-			"",
-			"**Adamantine Monk (Ex):** At 9th level, a monk of the sacred mountain has muscles so strong and skin so resilient that he gains DR 1/-. This DR increases by 1 for every three levels thereafter. As a swift action, the monk can spend 1 ki point to double his DR until the beginning of his next turn.",
-			"",
-			"This ability replaces @HL[improved evasion].",
-			"",
-			"**Vow of Silence (Su):** At 17th level, a monk of the sacred mountain becomes as impassive as stone, making a vow of silence in exchange for greater abilities. The monk gains a +2 insight bonus to AC and CMD and a +4 bonus on Sense Motive, Stealth, and Perception checks. The monk does not lose the capacity for speech, but if he ever speaks, he loses this feature for 24 hours.",
-			"",
-			"This ability replaces @HL[tongue of the sun and the moon]."
+			"::ab[Vow of Silence (Su)]{l=17 icon=def-boost-warning passive=\"A monk of the sacred mountain becomes as impassive as stone, making a vow of silence in exchange for greater abilities. The monk gains a +2 insight bonus to AC and CMD and a +4 bonus on Sense Motive, Stealth, and Perception checks.\" special=\"The monk does not lose the capacity for speech, but if he ever speaks, he loses this feature for 24 hours.\" replace=\"Tongue of the sun and the moon\"}"
 		]
 	},
 	"monk_of_the_seven_forms": {
@@ -787,23 +761,13 @@
 			"‹SOURCE Inner Sea Combat/40›  ",
 			"When Tian monks founded the Monastery of the Seven Forms near the present border between Qadira and Taldor, they did so as a challenge to prospective students to travel great distances and prove their devotion before training within the monastery's walls. Over the centuries, the monastery has fallen under Qadiran control many times, and the original seven forms for which the monastery was named have been lost to history. In their place, the monks of the isolated sanctuary now teach a style featuring lightning-fast strikes that mimic both dervish dances and the searing winds of the arid desert, favoring mobility and endurance.",
 			"",
-			"**Bonus Feats:** A monk of the seven forms loses the ability to take ‹feat/Improved Disarm›, ‹feat/Improved Feint›, ‹feat/Improved Grapple›, and ‹feat/Improved Trip› as bonus feats. He adds ‹feat/Nimble Moves› to his list of bonus feats. At 6th level, he also adds ‹feat/Acrobatic Steps› and ‹feat/Wind Stance› to his list of bonus feats. At 10th level, he adds ‹feat/Lightning Stance› to his list of bonus feats.",
+			"::ab[Bonus Feats]{icon=down-power l1=\"A monk of the seven forms loses the ability to take ‹feat/Improved Disarm›, ‹feat/Improved Feint›, ‹feat/Improved Grapple›, and ‹feat/Improved Trip› as bonus feats. He adds ‹feat/Nimble Moves› to his list of bonus feats.\" l6=\"He also adds ‹feat/Acrobatic Steps› and ‹feat/Wind Stance› to his list of bonus feats.\" l10=\"He adds ‹feat/Lightning Stance› to his list of bonus feats.\"}",
 			"",
-			"**Lightning Finish (Ex):** At 1st level, as an immediate action, a monk of the seven forms can make a single attack with a manufactured light or one-handed slashing weapon he is currently wielding against any target he has successfully hit at least twice with his unarmed strike during his turn. This attack deals normal damage but without the normal Strength bonus to damage.",
+			"::ab[Lightning Finish (Ex)]{l=1 icon=melee immediate=\"A monk of the seven forms can make a single attack with a manufactured light or one-handed slashing weapon he is currently wielding against any target he has successfully hit at least twice with his unarmed strike during his turn. This attack deals normal damage but without the normal Strength bonus to damage.\" imp4=\"He can take a 5-foot step before or after performing a *lightning finish* so long as he ends adjacent to his target, though if he takes this step, he cannot perform a 5-foot step during his next turn.\" imp8=\"He applies his full Strength bonus to his damage roll for the extra attack, even if he made the attack with an off-hand weapon or with a weapon wielded in two hands.\" imp12=\"If he hit the target at least three times with his unarmed strike during his turn, taking the 5-foot step granted by *lightning finish* does not prevent him from taking a 5-foot step during his next turn.\" usage=\"A monk of the seven forms can use this ability a number of times per day equal to his monk level, but no more than once per round.\" replace=\"Stunning fist\"}",
 			"",
-			"At 4th level, he can take a 5-foot step before or after performing a lightning finish so long as he ends adjacent to his target, though if he takes this step, he cannot perform a 5-foot step during his next turn. At 8th level, he applies his full Strength bonus to his damage roll for the extra attack, even if he made the attack with an offhand weapon or with a weapon wielded in two hands. At 12th level, if he hit the target at least three times with his unarmed strike during his turn, taking the 5-foot step granted by lightning finish does not prevent him from taking a 5-foot step during his next turn.",
+			"::ab[Endurance (Ex)]{l=3 icon=power ability=\"A monk of the seven forms gains ‹feat/Endurance› as a bonus feat.\" replace=\"Maneuver training\"}",
 			"",
-			"A monk of the seven forms can use this ability a number of times per day equal to his monk level, but no more than once per round.",
-			"",
-			"This ability replaces @HL[stunning fist].",
-			"",
-			"**Endurance (Ex):** At 3rd level, a monk of the seven forms gains ‹feat/Endurance› as a bonus feat.",
-			"",
-			"This ability replaces @HL[maneuver training].",
-			"",
-			"**Sirocco Fury (Su):** At 11th level, a monk of the seven forms can spend 2 ki points as a full-round action to enter a meditative trance that replicates the spell ‹spell/dance of a hundred cuts›, using his monk level as his caster level. Unlike the spell, a monk of the seven forms must both move 10 feet and make a melee attack each round after he begins this trance to prevent the effect from ending. At 15th level, he can instead spend 3 ki points when using this ability to make his trance replicate ‹spell/dance of a thousand cuts› with the same limitations.",
-			"",
-			"This ability replaces @HL[abundant step] and @HL[quivering palm]."
+			"::ab[Sirocco Fury (Su)]{l=11 icon=melee fullround=\"A monk of the seven forms can spend 2 ki points to enter a meditative trance that replicates the spell ‹spell/dance of a hundred cuts›, using his monk level as his caster level. Unlike the spell, a monk of the seven forms must both move 10 feet and make a melee attack each round after he begins this trance to prevent the effect from ending.\" imp15=\"He can instead spend 3 ki points when using this ability to make his trance replicate ‹spell/dance of a thousand cuts› with the same limitations.\" replace=\"Abundant step~quivering palm\"}"
 		]
 	},
 	"nimble_guardian": {
@@ -815,25 +779,17 @@
 			"‹SOURCE Advanced Race Guide/92›  ",
 			"Some catfolk monks dedicate their graceful prowess to the defense of others, especially those dedicated to a similar ethos or who prove themselves as stalwart allies of the monk's cause. A nimble guardian has the following class features.",
 			"",
-			"**Defensive Aid (Ex):** At 2nd level, a number of times per day equal to his Wisdom bonus, a nimble guardian can interpose herself between one adjacent ally and an attack or damage dealt in an area of effect. If an adjacent ally is the target of the attack or is required to make a Reflex saving throw against a damaging effect, as an immediate action the nimble guardian can grant that ally a +4 circumstance bonus to AC or on the saving throw against the effect. The nimble guardian must use this ability before the attack roll or saving throw is made. The nimble guardian can only use this ability if he is wearing light or no armor.",
+			"::prereq{r=Catfolk}",
 			"",
-			"This ability replaces @HL[evasion].",
+			"::ab[Defensive Aid (Ex)]{l=2 icon=protect useMod=Wisdom flavor=\"A nimble guardian can interpose herself between one adjacent ally and an attack or damage dealt in an area of effect.\" immediate=\"If an adjacent ally is the target of the attack or is required to make a Reflex saving throw against a damaging effect, the nimble guardian can grant that ally a +4 circumstance bonus to AC or on the saving throw against the effect.\" special=\"The nimble guardian must use this ability before the attack roll or saving throw is made. The nimble guardian can only use this ability if he is wearing light or no armor.\" replace=Evasion}",
 			"",
-			"**Nimble Reflexes (Ex):** At 3rd level, a nimble guardian gains a +2 bonus on all Reflex saving throws.",
+			"::ab[Nimble Reflexes (Ex)]{l=3 icon=def passive=\"A nimble guardian gains a +2 bonus on all Reflex saving throws.\" replace=\"Still mind\"}",
 			"",
-			"This ability replaces @HL[still mind].",
+			"::ab[Defensive Mastery (Ex)]{l=5 icon=protect ability=\"A nimble guardian gains 3 additional uses of her *defensive aid* ability per day. Furthermore, if an ally that gained the benefit of a use of defensive aid succeeds her Reflex saving throw, and the effect still deals damage on a successful saving throw, the nimble guardian can spend 1 ki point to negate that damage. Doing so is not an action.\" replace=\"Purity of body\"}",
 			"",
-			"**Defensive Mastery (Ex):** At 5th level, a nimble guardian gains 3 additional uses of her defensive aid ability per day. Furthermore, if an ally that gained the benefit of a use of defensive aid succeeds her Reflex saving throw, and the effect still deals damage on a successful saving throw, the nimble guardian can spend 1 ki point to negate that damage. Doing so is not an action.",
+			"::ab[Guardian Feline (Su)]{l=7 icon=magic provokes=No standard=\"A nimble guardian can transform himself into a feline creature by spending 2 ki points. The effect lasts for 1 hour or until the nimble guardian changes back. The chosen form must be some form of feline (‹monster/cheetah›, ‹monster/lion›, etc.). This ability is otherwise identical to ‹spell/beast shape II›.\" imp9=\"This ability functions as ‹spell/beast shape III›.\" replace=\"Wholeness of body\"}",
 			"",
-			"This ability replaces @HL[purity of body].",
-			"",
-			"**Guardian Feline (Su):** At 7th level, a nimble guardian can transform himself into a feline creature by spending 2 ki points. The effect lasts for 1 hour or until the nimble guardian changes back. Changing form (to animal or back) is a standard action and does not provoke an attack of opportunity. The chosen form must be some form of feline (‹monster/cheetah›, ‹monster/lion›, etc.). This ability is otherwise identical to ‹spell/beast shape II›. At 9th level, this ability functions as ‹spell/beast shape III›.",
-			"",
-			"This ability replaces @HL[wholeness of body].",
-			"",
-			"**Evasion (Ex):** At 9th level, a nimble guardian gains ‹ability/evasion›.",
-			"",
-			"This ability replaces @HL[improved evasion]."
+			"::ab[Evasion (Ex)]{l=9 icon=def =\"A nimble guardian gains ‹ability/evasion›.\" replace=\"Improved evasion\"}"
 		]
 	},
 	"nornkith": {
@@ -845,35 +801,21 @@
 			"‹SOURCE Legacy of the First World/24›  ",
 			"Nornkith hone their bodies and minds to follow the branching threefold paths of fate. Nornkith seek to emulate the fey masters of fate called ‹monster/norn«s› and eventually ascend to become norns in their own right.",
 			"",
-			"**Conviction of Fate (Ex):** A nornkith uses her Charisma, rather than her Wisdom, to determine all class features and effects relating to his monk class.",
+			"::ab[Conviction of Fate (Ex)]{icon=info note=\"A nornkith uses her Charisma, rather than her Wisdom, to determine all class features and effects relating to his monk class.\"}",
 			"",
-			"**Forewarned (Su):** A nornkith can always act in the surprise round, even if he does not notice her enemies, though she remains flat-footed until she takes an action. In addition, she gains a bonus on initiative rolls equal to half her monk level (minimum +1). At 20th level, a nornkith's initiative roll is automatically a natural 20.",
+			"::ab[Forewarned (Su)]{icon=power-boost-roll ability=\"A nornkith can always act in the surprise round, even if he does not notice her enemies, though she remains ‹rule/flat-footed› until she takes an action. In addition, she gains a bonus on initiative rolls equal to half her monk level (minimum +1).\" imp20=\"A nornkith's initiative roll is automatically a natural 20.\" replace=\"Stunning fist\"}",
 			"",
-			"This ability replaces @HL[stunning fist].",
+			"::ab[Shears (Su)]{icon=melee-power l1=\"Whenever a nornkith makes an unarmed strike, she can cause shimmering silver shears to manifest around the blow, causing the unarmed strike to count as silver for the purpose of overcoming ‹rule/damage reduction›.\" l7=\"She gains ‹feat/Improved Critical› (unarmed strike) as a bonus feat, even if she does not meet the prerequisites.\" replace=\"Bonus feat gained at 1st level\"}",
 			"",
-			"**Shears (Su):** Whenever a nornkith makes an unarmed strike, she can cause shimmering silver shears to manifest around the blow, causing the unarmed strike to count as silver for the purpose of overcoming damage reduction. At 7th level, she gains ‹feat/Improved Critical› (unarmed strike) as a bonus feat, even if she does not meet the prerequisites.",
+			"::ab[Resist Death's Lure (Su)]{l=5 icon=def passive=\"A nornkith gains a +4 morale bonus on saves against death effects, ‹rule/energy drain›, and negative energy.\" imp10=\"She gains immunity to energy drain and negative energy.\" replace=\"Purity of body~bonus feat gained at 10th level\"}",
 			"",
-			"This ability replaces the @HL[bonus feat] gained at 1st level.",
+			"::ab[Fate Weaver (Su)]{l=11 icon=roll immediate=\"A nornkith can spend 1 ki point to force a creature within 60 feet to reroll one saving throw before the results of the roll are revealed. The creature must take the result of the second roll, even if it's worse than the original roll. Whether the new result is a success or failure, the creature cannot be the target of this ability again for 1 day.\" replace=\"Diamond soul\"}",
 			"",
-			"**Resist Death's Lure (Su):** At 5th level, a nornkith gains a +4 morale bonus on saves against death effects, energy drain, and negative energy. At 10th level, she gains immunity to energy drain and negative energy.",
+			"::ab[Snip Thread (Su)]{l=15 icon=zap standard=\"A monk can spend 1 ki point to produce a golden thread linked to the fate of a creature within 60 feet and mimic snipping through the thread with a pair of shears. The target takes 1d6 points of damage per nornkith level and can attempt a Fortitude saving throw (DC = 10 + half the nornkith's monk level + her Charisma modifier) to halve this damage. If the damage would bring the target's hit points to 0 or below, the nornkith can spend another ki point to sever the golden thread completely; in this case, the target dies and can only be restored to life with ‹spell/miracle›, ‹spell/wish›, or divine intervention.\" usage=\"1 time/day\" special=\"This is a death effect.\" replace=\"Quivering palm\"}",
 			"",
-			"This ability replaces @HL[purity of body] and the @HL[bonus feat] gained at 10th level.",
+			"::ab[Inscrutable (Su)]{l=19 icon=def passive=\"The nornkith is protected by a constant ‹spell/mind blank› effect with a caster level equal to her monk level. The nornkith can suppress or resume this protection as a @HLstandard_action.\" replace=\"Empty body\"}",
 			"",
-			"**Fate Weaver (Su):** At 11th level, a nornkith can spend 1 ki point as an immediate action to force a creature within 60 feet to reroll one saving throw before the results of the roll are revealed. The creature must take the result of the second roll, even if it's worse than the original roll. Whether the new result is a success or failure, the creature cannot be the target of this ability again for 1 day.",
-			"",
-			"This ability replaces @HL[diamond soul].",
-			"",
-			"**Snip Thread (Su):** At 15th level, as a standard action, a monk can spend 1 ki point to produce a golden thread linked to the fate of a creature within 60 feet and mimic snipping through the thread with a pair of shears. The target takes 1d6 points of damage per nornkith level and can attempt a Fortitude saving throw (DC = 10 + half the nornkith's monk level + her Charisma modifier) to halve this damage. If the damage would bring the target's hit points to 0 or below, the nornkith can spend another ki point to sever the golden thread completely; in this case, the target dies and can only be restored to life with ‹spell/miracle›, ‹spell/wish›, or divine intervention. The nornkith can use this ability once per day. This is a death effect.",
-			"",
-			"This ability replaces @HL[quivering palm].",
-			"",
-			"**Inscrutable (Su):** At 19th level, the nornkith is protected by a constant ‹spell/mind blank› effect with a caster level equal to her monk level. The nornkith can suppress or resume this protection as a standard action.",
-			"",
-			"This ability replaces @HL[empty body].",
-			"",
-			"**Norn Transformation:** At 20th level, a nornkith attains her fey heritage. Her type changes to fey, and she gains DR 10/cold iron.",
-			"",
-			"This ability replaces @HL[perfect self]."
+			"::ab[Norn Transformation]{l=20 icon=power-def ability=\"A nornkith attains her fey heritage. Her type changes to ‹type/fey›, and she gains DR 10/cold iron.\" replace=\"Perfect self\"}"
 		]
 	},
 	"ouat": {
@@ -885,21 +827,13 @@
 			"‹SOURCE Inner Sea Combat/41›  ",
 			"The ascetic, desert-dwelling dwarves known as the Ouat have eschewed dwarven traditions, whose unchanging rigidity, they believe, shackles their people to the past and inhibits self-improvement. Shaving their heads, living under the open sky, and practicing arts unfamiliar to the typical ‹race/dwarf›, the Ouat follow in the footsteps of Irori and Nethys by aspiring to awaken the divine essence that lives within each creature.",
 			"",
-			"**Awaken Divinity (Su):** At 1st level, as a standard action, an Ouat can touch a creature to grant it a temporary ki point until the beginning of the Ouat's next turn. In addition to any other ways in which the target can use ki, it can expend the ki point as a swift action in order to either gain a +2 dodge bonus to AC for 1 round or increase its base speed by 20 feet for 1 round. The Ouat can target himself with this ability as a swift action, but doing so costs 2 uses of the ability.",
+			"::prereq{r=Dwarf}",
 			"",
-			"At 4th level, the dodge bonus to AC increases to +4. At 8th level, an affected creature can spend the ki point to ignore all Strength, Dexterity, and Constitution penalties it would otherwise take for 1 round. At 12th level, an Ouat can target two adjacent creatures with this ability as a standard action, but must expend one use of the ability for each target affected. At 16th level, an affected creature can spend this ki point to roll all saving throws twice and take the higher result for 1 round. At 20th level, an affected creature can spend the ki point to benefit from the Ouat's perfect self class ability for 1 round. If the creature already has the perfect self class feature, its damage reduction and any spell resistance it has increases by 2 for 1 round.",
+			"::ab[Awaken Divinity (Su)]{l=1 icon=power-protect-roll l1=\"As a @HLstandard_action, an Ouat can touch a creature to grant it a temporary ki point until the beginning of the Ouat's next turn. In addition to any other ways in which the target can use ki, it can expend the ki point as a @HLswift_action in order to either gain a +2 dodge bonus to AC for 1 round or increase its base speed by 20 feet for 1 round. The Ouat can target himself with this ability as a @HLswift_action, but doing so costs 2 uses of the ability.\" l4=\"The dodge bonus to AC increases to +4.\" l8=\"An affected creature can spend the ki point to ignore all Strength, Dexterity, and Constitution penalties it would otherwise take for 1 round.\" l12=\"An Ouat can target two adjacent creatures with this ability as a @HLstandard_action, but must expend one use of the ability for each target affected.\" l16=\"An affected creature can spend this ki point to roll all saving throws twice and take the higher result for 1 round.\" l20=\"An affected creature can spend the ki point to benefit from the Ouat's *perfect self* class ability for 1 round. If the creature already has the *perfect self* class feature, its damage reduction and any spell resistance it has increases by 2 for 1 round.\" useL=monk useUnit=time special=\"An Ouat can use this ability no more than once per round.\" replace=\"Stunning fist~and the **greed** and **hatred** dwarf racial traits\"}",
 			"",
-			"An Ouat can use this ability a number of times per day equal to his class level, but no more than once per round.",
+			"::ab[Spurn Tradition (Ex)]{flavor=\"Ouat dwarves strive to separate themselves from the rest of their race and the traditions that bind them.\" icon=down-power note=\"The bonuses for nonmagical effects that target or specifically affect dwarf subtype creatures (such as a ranger's ‹ability/favored enemy› class feature) are all reduced by half. In addition, an Ouat becomes proficient in one martial weapon with the monk property.\" replace=\"The *defensive training, stonecunning,* and *weapon familiarity* dwarf racial traits\"}",
 			"",
-			"This ability replaces the @HL[stunning fist] monk class feature and the @HL[greed] and @HL[hatred] racial traits.",
-			"",
-			"**Spurn Tradition (Ex):** Ouat dwarves strive to separate themselves from the rest of their race and the traditions that bind them. The bonuses for nonmagical effects that target or specifically affect dwarf subtype creatures (such as a ranger's ‹ability/favored enemy› class feature) are all reduced by half. In addition, an Ouat becomes proficient in one martial weapon with the monk property.",
-			"",
-			"This ability replaces the dwarf's @HL[defensive training], @HL[stonecunning], and @HL[weapon familiarity] racial traits.",
-			"",
-			"**Know the Unseen Disciples (Su):** At 7th level, an Ouat can spot hidden creatures, as if using the spell ‹spell/see invisibility›. Using this ability is a standard action that consumes 2 points from his ki pool. His caster level for this effect is equal to his class level.",
-			"",
-			"This ability replaces @HL[wholeness of body]."
+			"::ab[Know the Unseen Disciples (Su)]{l=7 icon=power standard=\"An Ouat can spot hidden creatures, as if using the spell ‹spell/see invisibility›. Using this ability consumes 2 points from his *ki pool.* His caster level for this effect is equal to his class level.\" replace=\"Wholeness of body\"}"
 		]
 	},
 	"perfect_scholar": {
