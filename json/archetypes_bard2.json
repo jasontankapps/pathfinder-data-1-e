@@ -66,7 +66,7 @@
 			"",
 			"::ab[Versed in Curses (Ex)]{l=2 icon=def passive=\"A hoaxer gains a +4 bonus on saving throws against curses, hexes, and language-dependent effects.\" replace=Well-versed}",
 			"",
-			"::ab[Curse Crafter (Ex)]{l=5 icon=power-magic ability=\"A hoaxer learns how to craft cursed items. He gains one ‹main/item creation feat› as a bonus feat.\" special=\"He can use these feats only to craft cursed items. In addition, he can craft items that appear magical but have no true magical properties - as if permanently affected by the ‹spell/magic aura› spell - for 50 gp.\" repeat=\"He gains another bonus item creation feat.~5~6\" replace=\"Lore master\"}"
+			"::ab[Curse Crafter (Ex)]{l=5 icon=power-magic ability=\"A hoaxer learns how to craft cursed items. He gains one ‹main/item creation feat› as a bonus feat.\" special=\"He can use these feats only to craft cursed items. In addition, he can craft items that appear magical but have no true magical properties - as if permanently affected by the ‹spell/magic aura› spell - for 50 gp.\" repeat=\"He gains another bonus item creation feat.~11~6\" replace=\"Lore master\"}"
 		]
 	},
 	"impervious_messenger": {

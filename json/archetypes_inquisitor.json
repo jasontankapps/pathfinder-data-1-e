@@ -409,7 +409,7 @@
 			"‹SOURCE Ultimate Magic/46›  ",
 			"Some inquisitors wander the land to spread the true word of their faith. Often they come into conflict with those hostile to their teachings or to the preacher's need to help those who cannot help themselves. The leaders of evil or aggressive religions send these preachers into new territories to win converts and hopefully allies. Often, they start uprisings against powers hostile to their religion, or defend a group of honest believers from the depredations of the unfaithful.",
 			"",
-			"::ab[Determination (Ex)]{head l=3 icon=power flavor=\"The preacher is a person of few words on the battlefield, but those words hold great power and authority.\" ability=\"Once per day, the inquisitor can use this ability to create one of the effects below.\" replace=\"Solo tactics\" alter=\"Teamwork feats\" repeat=\"Instead of selecting a bonus teamwork feat, you may increase the number of uses per day of this ability by one.~3~3\"}",
+			"::ab[Determination (Ex)]{head l=3 icon=power flavor=\"The preacher is a person of few words on the battlefield, but those words hold great power and authority.\" ability=\"Once per day, the inquisitor can use this ability to create one of the effects below.\" replace=\"Solo tactics\" alter=\"Teamwork feats\" repeat=\"Instead of selecting a bonus teamwork feat, you may increase the number of uses per day of this ability by one.~6~3\"}",
 			"",
 			"::ab[Aggression]{next icon=roll free=\"The preacher may reroll an attack roll that she just made before the results of the roll are revealed. She must take the result of the reroll, even if it's worse than the original roll.\"}",
 			"",
