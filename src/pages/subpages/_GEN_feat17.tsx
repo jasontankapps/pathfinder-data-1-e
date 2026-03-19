@@ -91,7 +91,7 @@ const _vampire_animal_companion = {title: "Vampire Animal Companion", jsx: <><h2
 <p>Vampiric animal companions count toward the total number of Hit Dice a vampire may enslave, as well as toward the limit of animal companions the character may have at any one time. Any vampiric animal companion the vampire creates that would exceed such limits becomes a free-willed undead. A vampire may also free a vampiric companion in order to enslave a new one, but once freed, the vampiric animal cannot be enslaved again.</p>
 <p>A vampiric animal's statistics are identical to those of the original animal, save for the following changes.</p>
 <ul>
-<li>Its type changes to undead with the augmented animal subtype.</li>
+<li>Its type changes to <Link to="/type/undead">undead</Link> with the <Link to="/subtype/augmented">augmented animal</Link> subtype.</li>
 <li>It gains a +4 natural armor bonus.</li>
 <li>It gains the blood drain vampire special attack.</li>
 <li>It gains an energy drain attack (1 level, DC equal to 10 + 1/2 the animal companion's racial HD + the animal companion's Charisma modifier).</li>
@@ -104,7 +104,7 @@ const _vampire_animal_companion = {title: "Vampire Animal Companion", jsx: <><h2
 </>};
 const _vampiric_companion = {title: "Vampiric Companion", jsx: <><h2 id="feat-vampiric_companion-vampiric-companion">Vampiric Companion</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 237</Link>, <Link to="/source/blood_of_the_night">Blood of the Night pg. 28</Link></p>
-<p>Just as your undead existence mocks nature, so too does your twisted companion reflect the vile nature of vampirism.<br/><strong>Prerequisites:</strong> <Link to="/race/dhampir">Dhampir</Link> or <Link to="/template/vampire">vampire</Link>, nongood alignment, 10th level in a class that grants a familiar or animal companion.<br/><strong>Benefit:</strong> Your animal companion or familiar's type changes to "undead." The creature gains <Link to="/umr/fast_healing">fast healing</Link> 5 as well as your vampire or dhampir weaknesses. If you are a vampire, the creature also gains the following abilities, depending on what type of vampire you are.</p>
+<p>Just as your undead existence mocks nature, so too does your twisted companion reflect the vile nature of vampirism.<br/><strong>Prerequisites:</strong> <Link to="/race/dhampir">Dhampir</Link> or <Link to="/template/vampire">vampire</Link>, nongood alignment, 10th level in a class that grants a familiar or animal companion.<br/><strong>Benefit:</strong> Your animal companion or familiar's type changes to <Link to="/type/undead">undead</Link>. The creature gains <Link to="/umr/fast_healing">fast healing</Link> 5 as well as your vampire or dhampir weaknesses. If you are a vampire, the creature also gains the following abilities, depending on what type of vampire you are.</p>
 <blockquote>
 <p><strong className="hl">Jiang-Shi:</strong> While the creature is adjacent to or in your square, it gains the benefit of your prayer scroll ability. The creature crumbles into dust if destroyed (just like a jiang-shi), but is not permanently destroyed unless measures are taken that would destroy a jiang-shi.</p>
 <p><strong className="hl">Moroi:</strong> If the creature is adjacent to or in your square when you assume gaseous form, it transforms with you and follows you; its transformation ends when yours does. If reduced to 0 hit points, it's forced into gaseous form and must return to your coffin to reform (or the foot of your coffin if it cannot fit within it).</p>

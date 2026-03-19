@@ -630,7 +630,7 @@ const _whimsy = {title: "Whimsy", jsx: <><h2 id="mystery-whimsy-whimsy">Whimsy</
 <p><strong>Whimsical Step (Su):</strong> Once per day as a move action, you can teleport up to 10 feet per oracle level. You can use this ability once per day at 7th level and one additional time per day for every 4 levels beyond 7th. You must be at least 7th level to select this revelation.</p>
 <p><strong>Woodland Caprice (Su):</strong> Your fey powers allow you to move easily through woodland environments. You gain <Link to="/ability/woodland_stride">woodland stride</Link>, as per the druid ability. At 7th level, you also gain the <Link to="/ability/trackless_step">trackless step</Link> druid class feature and can similarly conceal the tracks of any allies within 30 feet that you choose.</p>
 <h3 id="mystery-whimsy-final-revelation">Final Revelation</h3>
-<p>Upon reaching 20th level, you become a fey trickster in the flesh. Your type changes to fey and you gain low-light vision, immunity to poison, and DR 10/cold iron.</p>
+<p>Upon reaching 20th level, you become a fey trickster in the flesh. Your type changes to <Link to="/type/fey">fey</Link> and you gain low-light vision, immunity to poison, and DR 10/cold iron.</p>
 </>};
 const _wind = {title: "Wind", jsx: <><h2 id="mystery-wind-wind">Wind</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 53</Link></p>

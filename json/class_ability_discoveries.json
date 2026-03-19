@@ -97,7 +97,6 @@
 			"::prereq{l=10 c=alchemist g1=\"blinding bomb\" g1title=Discovery g1protocol=discovery}",
 			"",
 			"The alchemist can throw bombs that explode with a searing radiance equivalent to that of sunlight and that act as blinding bombs. Undead, fungi, molds, oozes, slimes, and creatures to which sunlight is harmful or unnatural take +2 damage per die from the bomb. Undead that are harmed by sunlight and that fail their saves against the bomb are ‹misc/staggered› for 1 round."
-
 		],
 		"addenda": [ "primarybomb" ]
 	},

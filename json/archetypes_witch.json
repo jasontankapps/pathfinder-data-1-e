@@ -176,7 +176,7 @@
 			"",
 			"**Patron:** A coral witch's patron is normally ‹patron/endurance›, ‹patron/healing›, or ‹patron/water›, although a coral witch can select any patron other than those associated with fire.",
 			"",
-			"**Coral Familiar (Ex):** A coral witch crafts her familiar out of living coral, coaxing the tiny organisms to grow in the shape of a larger animal or vermin. The coral witch chooses a familiar as normal, but its type changes to vermin (aquatic) and it gains the amphibious special quality. The coral witch's familiar has an Intelligence score as normal for the witch's level, but it has immunity to mind-affecting effects. When underwater near a coral reef of any size, a coral witch can spend 8 hours to restore her familiar to full health at no cost, unless the familiar is killed, in which case she must follow the usual rules for replacing her familiar. A coral witch can never gain an improved familiar.",
+			"**Coral Familiar (Ex):** A coral witch crafts her familiar out of living coral, coaxing the tiny organisms to grow in the shape of a larger animal or vermin. The coral witch chooses a familiar as normal, but its type changes to ‹type/vermin› (‹subtype/aquatic›) and it gains the amphibious special quality. The coral witch's familiar has an Intelligence score as normal for the witch's level, but it has immunity to mind-affecting effects. When underwater near a coral reef of any size, a coral witch can spend 8 hours to restore her familiar to full health at no cost, unless the familiar is killed, in which case she must follow the usual rules for replacing her familiar. A coral witch can never gain an improved familiar.",
 			"",
 			"This ability alters witch's @HL[familiar].",
 			"",
@@ -324,7 +324,7 @@
 			"‹SOURCE Horror Adventures/72›  ",
 			"A sweet tooth lures the gingerbread witch's victims to doom.",
 			"",
-			"**Gingerbread Familiar (Ex):** A gingerbread witch concocts her familiar out of gingerbread, sugar, and other confections. It has the shape of the original animal or vermin, but its type changes to construct. As a construct, it gains 60-foot darkvision and construct immunities, it loses any special abilities the animal or vermin has other than movement speed, and it doesn't provide the usual familiar benefit (for instance, a gingerbread toad doesn't provide 3 bonus hit points). With a supply of flour and sugar at hand, the gingerbread witch can spend 8 hours and use her cauldron to restore her familiar to full health at no cost, unless the familiar is destroyed, in which case she must follow the usual rules for replacing her familiar. A gingerbread witch can never gain an improved familiar.",
+			"**Gingerbread Familiar (Ex):** A gingerbread witch concocts her familiar out of gingerbread, sugar, and other confections. It has the shape of the original animal or vermin, but its type changes to ‹type/construct›. As a construct, it gains 60-foot darkvision and construct immunities, it loses any special abilities the animal or vermin has other than movement speed, and it doesn't provide the usual familiar benefit (for instance, a gingerbread toad doesn't provide 3 bonus hit points). With a supply of flour and sugar at hand, the gingerbread witch can spend 8 hours and use her cauldron to restore her familiar to full health at no cost, unless the familiar is destroyed, in which case she must follow the usual rules for replacing her familiar. A gingerbread witch can never gain an improved familiar.",
 			"",
 			"This ability alters @HL[familiar].",
 			"",
@@ -442,7 +442,7 @@
 			"",
 			"This replaces the @HL[hex] gained at 10th level.",
 			"",
-			"**Hag Transformation:** At 20th level, the hagbound transforms into a true hag, purging all goodness and light from her in exchange for dark power. Her alignment becomes evil if it isn't already. Her type changes to monstrous humanoid, and she gains darkvision 60 feet; immunity to charm, fear, and spell effects; and the ability to join a coven. She gains spell resistance 31, and she grants this benefit to her other coven members.",
+			"**Hag Transformation:** At 20th level, the hagbound transforms into a true hag, purging all goodness and light from her in exchange for dark power. Her alignment becomes evil if it isn't already. Her type changes to ‹type/monstrous humanoid›, and she gains darkvision 60 feet; immunity to charm, fear, and spell effects; and the ability to join a coven. She gains spell resistance 31, and she grants this benefit to her other coven members.",
 			"",
 			"This replaces the @HL[hex] gained at 20th level."
 		]

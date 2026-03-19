@@ -695,7 +695,7 @@ const _cornugon_trip = {title: "Cornugon Trip", jsx: <><h2 id="feat-cornugon_tri
 </>};
 const _corpse_companion = {title: "Corpse Companion", jsx: <><h2 id="feat-corpse_companion-corpse-companion">Corpse Companion</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 80</Link></p>
-<p>You have an undead animal companion.<br/><strong>Prerequisites:</strong> Animal companion class feature, <Link to="/monster/ghoul">ghoul</Link>.<br/><strong>Benefit:</strong> Your <Link to="/sidekick/animal_companion">animal companion's</Link> type changes to undead, but its Hit Dice, base attack bonus, saving throws, skills, and tricks are retained from the base creature. The creature loses its Constitution score and its Charisma score becomes 12. If your companion is destroyed, your new companion is undead as well, using these same modifications.</p>
+<p>You have an undead animal companion.<br/><strong>Prerequisites:</strong> Animal companion class feature, <Link to="/monster/ghoul">ghoul</Link>.<br/><strong>Benefit:</strong> Your <Link to="/sidekick/animal_companion">animal companion's</Link> type changes to <Link to="/type/undead">undead</Link>, but its Hit Dice, base attack bonus, saving throws, skills, and tricks are retained from the base creature. The creature loses its Constitution score and its Charisma score becomes 12. If your companion is destroyed, your new companion is undead as well, using these same modifications.</p>
 </>};
 const _corrupted_flesh = {title: "Corrupted Flesh", jsx: <><h2 id="feat-corrupted_flesh-corrupted-flesh">Corrupted Flesh</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 152</Link></p>
