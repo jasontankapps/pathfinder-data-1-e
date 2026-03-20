@@ -502,7 +502,7 @@ const _hellcat = {title: "Hellcat", jsx: <><h2 id="arc-monk-hellcat-hellcat">Hel
 <div className="title abSingle" id="arc-monk-hellcat-crucible-of-pain-ex" data-hash-target><div className="box">Crucible of Pain (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Slow fall, still mind</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">A hellcat gains an amount of DR/- equal to half his monk level against nonlethal damage. In addition, a hellcat is inured to hot climate effects as if using <Link to="/spell/endure_elements">endure elements</Link>.</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">A hellcat gains an amount of <Link to="/rule/dr">DR</Link>/- equal to half his monk level against nonlethal damage. In addition, a hellcat is inured to hot climate effects as if using <Link to="/spell/endure_elements">endure elements</Link>.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-hellcat-hellcat-ki-su" data-hash-target><div className="box">Hellcat Ki (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Wholeness of body, diamond body</div></div></div>
@@ -528,7 +528,7 @@ const _hungry_ghost_monk = {title: "Hungry Ghost Monk", jsx: <><h2 id="arc-monk-
 <div className="title abSingle" id="arc-monk-hungry_ghost_monk-steal-ki-ex" data-hash-target><div className="box">Steal Ki (Ex)</div><div className="flavor">A hungry ghost monk can steal ki from other creatures, though this ability is controversial in some circles of monks, who see it as nothing less than a form of vampirism.</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Purity of body</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">If the monk scores a confirmed critical hit against a living enemy or reduces a living enemy to 0 or fewer hit points, he can steal some of that creature's ki. This ability replenishes 1 spent ki point to the monk's <em>ki pool,</em> as long as the monk has at least 1 ki point in his pool. He cannot exceed his *ki pool'*s maximum.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">If the monk scores a confirmed critical hit against a living enemy or reduces a living enemy to 0 or fewer hit points, he can steal some of that creature's ki. This ability replenishes 1 spent ki point to the monk's <em>ki pool,</em> as long as the monk has at least 1 ki point in his pool. He cannot exceed his *ki pool's maximum.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">Each time the monk successfully steals ki, he can make an immediate saving throw against one disease he is suffering from. There is no penalty for failing this saving throw. The monk gains a bonus equal to his Wisdom modifier on the saving throw.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/heart-plus"><IonIcon icon="/icons/heart-plus.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-hungry_ghost_monk-life-funnel-su" data-hash-target><div className="box">Life Funnel (Su)</div><div className="flavor">A hungry ghost monk can steal a creature's life force to replenish his own.</div></div>
@@ -548,183 +548,687 @@ const _hungry_ghost_monk = {title: "Hungry Ghost Monk", jsx: <><h2 id="arc-monk-
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A hungry ghost monk gains 1 <Link to="/rule/temporary_hit_points">temporary hit point</Link> each time he hits an enemy with a melee attack. The monk gains a number of temporary hit points equal to his Wisdom modifier when he scores a critical hit. The maximum number of temporary hit points the monk can have is equal to his monk level. The temporary hit points disappear 1 hour later.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">The monk can only use this ability when he has at least 1 ki point in his <em>ki pool.</em> This ability is a proscribed manipulation of ki considered by many good monks to be a corruption.</div></div></div></div>
 </>};
-const _invested_regent = {title: "Invested Regent", jsx: <><h2 id="arc-monk-invested_regent-invested-regent">Invested Regent</h2>
+const _invested_regent = {hasJL:true,title: "Invested Regent", jsx: <><div className="jumpList" id="arc-monk-invested_regent-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arc-monk-invested_regent-2nd-level-vested-powers">2nd-Level Vested Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-invested_regent-6th-level-vested-powers">6th-Level Vested Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-invested_regent-10th-level-vested-powers">10th-Level Vested Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-invested_regent-14th-level-vested-powers">14th-Level Vested Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-invested_regent-18th-level-vested-powers">18th-Level Vested Powers</InnerLink></li></ul></div><h2 id="arc-monk-invested_regent-invested-regent">Invested Regent</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 22</Link><br/>The invested regent has been handpicked by inscrutable divine forces to command others - either at the present or at some future time. The invested regent can harness a divine spark to perform superhuman stunts, influence others, and escape injury. Invested regents come from all races and walks of life, but they are more likely to be nobleborn in their cultures. Although some invested regents are acutely aware of their powers' divine origins (such as powers gained from an investment ceremony to <Link to="/faith/asmodeus">Asmodeus</Link> in the nation of Cheliax), others do not know the source of their abilities. Invested regents have strong personalities and a destiny to rule.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
+<div style={{clear:"both"}}></div><div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-invested_regent-investiture-su" data-hash-target><div className="box">Investiture (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus feat gained at 1st level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">An invested regent gains a pool of investiture points, supernatural energy he can use to call upon amazing abilities and divine protection. The number of points in the invested regent's investiture pool is equal to 1/2 his monk level + his Charisma modifier.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">As long as he has at least 1 point in his investiture pool, the invested regent can select one of his saving throws and gain a +1 sacred bonus on saving throws of that type for 1 round. If he spends 1 point from his investiture pool during this swift action, he instead gains a sacred bonus equal to his Charisma modifier on the saving throw selected.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">A character with this feature and the <em>ki pool</em> class feature tracks investiture points and ki points separately.</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">An invested regent gains a pool of <em>investiture points,</em> supernatural energy he can use to call upon amazing abilities and divine protection. The number of points in the invested regent's <em>investiture pool</em> is equal to 1/2 his monk level + his Charisma modifier.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">As long as he has at least 1 point in his <em>investiture pool,</em> the invested regent can select one of his saving throws and gain a +1 sacred bonus on saving throws of that type for 1 round. If he spends 1 point from his <em>investiture pool</em> during this swift action, he instead gains a sacred bonus equal to his Charisma modifier on the saving throw selected.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">A character with this feature and the <em>ki pool</em> class feature tracks <em>investiture points</em> and ki points separately.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-invested_regent-vested-power-ex-or-sp" data-hash-target><div className="box">Vested Power (Ex or Sp)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus feat the invested regent gives up for the vested power</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">And every 4 monk levels thereafter, an invested regent can select a vested power (see the Vested Powers section below) for which he qualifies in place of selecting a monk bonus feat. The invested regent need not do so and can instead take the bonus feat, but once the decision to take a bonus feat or a vested power is made, he can't change it.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">An invested regent can select a vested power (see the Vested Powers section below) for which he qualifies in place of selecting a monk bonus feat. The invested regent need not do so and can instead take the bonus feat, but once the decision to take a bonus feat or a vested power is made, he can't change it.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">He can select a 2nd vested power.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">He can select a 3rd vested power.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 14th Level</div></div><div className="abEnd"><div className="box">He can select a 4th vested power.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">He can select a 5th vested power.</div></div></div></div>
-<h3 id="arc-monk-invested_regent-vested-powers">Vested Powers</h3>
-<p>Vested powers are abilities that draw on an invested regent's investiture pool. Vested powers are divided into two categories: feats and spells.</p>
-<p><strong className="hl">Requirements:</strong> All vested powers have a minimum level requirement to select them. An invested regent who hasn't reached the required monk level cannot select that vested power.</p>
-<p><strong className="hl">Activation:</strong> Most vested powers require the invested regent to spend investiture points; the exact amount is listed after the vested power. Vested powers that cost 0 investiture points don't require the invested regent to have any investiture points in his investiture pool to use the ability. The saving throw against an invested regent's vested power, if any, is equal to 10 + 1/2 the invested regent's monk level + his Charisma bonus.</p>
-<p><strong className="hl">Feats:</strong> These vested powers duplicate the effects of specific feats. An invested regent doesn't need to qualify for a feat to select it as a vested power. For example, an invested regent can select <Link to="/feat/spring_attack">Spring Attack</Link> as a vested power even if he doesn't meet the prerequisites for selecting Spring Attack as a feat. Activating one of these vested powers is a <strong className="hl">free action</strong> on the invested regent's turn; until the start of his next turn, the invested regent is treated as if he had that feat. Feats marked with an asterisk (*) can also be activated as an <strong className="hl">immediate action</strong> when it isn't the invested regent's turn.</p>
-<p><strong className="hl">Spells:</strong> These vested powers duplicate the effects of a spell and are spell-like abilities. An invested regent's monk level is the caster level for these spell-like abilities, and he uses Charisma to determine his <Link to="/rule/concentration">concentration</Link> check bonus. Activating one of these vested powers is a <strong className="hl">standard action</strong>.</p>
-<h4 id="arc-monk-invested_regent-2nd-level-vested-powers">2nd-Level Vested Powers</h4>
-<ul>
-<li><Link to="/spell/comprehend_languages">Comprehend languages</Link> (spell, 2 investiture points)</li>
-<li><Link to="/spell/divine_favor">Divine favor</Link> (spell, 1 investiture point)</li>
-<li><Link to="/feat/dodge">Dodge</Link>* (feat, 0 investiture points)</li>
-<li><Link to="/spell/entropic_shield">Entropic shield</Link> (spell, 1 investiture point)</li>
-<li><Link to="/spell/expeditious_retreat">Expeditious retreat</Link> (spell, 2 investiture points)</li>
-<li><Link to="/spell/feather_step">Feather step</Link> (spell, self only, 1 investiture point)</li>
-<li><Link to="/spell/hide_from_undead">Hide from undead</Link> (spell, self only, 1 investiture point)</li>
-<li><Link to="/spell/sanctuary">Sanctuary</Link> (spell, self only, 1 investiture point)</li>
-<li><Link to="/spell/shield_of_faith">Shield of faith</Link> (spell, self only, 1 investiture point)</li>
-</ul>
-<h4 id="arc-monk-invested_regent-6th-level-vested-powers">6th-Level Vested Powers</h4>
-<ul>
-<li><Link to="/spell/calm_emotions">Calm emotions</Link> (spell, 1 investiture point)</li>
-<li><Link to="/spell/cloak_of_winds">Cloak of winds</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/spell/enthrall">Enthrall</Link> (spell, 2 investiture points)</li>
-<li><Link to="/spell/gaseous_form">Gaseous form</Link> (spell, self only, 1 investiture point)</li>
-<li><Link to="/spell/helping_hand">Helping hand</Link> (spell, 1 investiture point)</li>
-<li><Link to="/feat/heroic_defiance">Heroic Defiance</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/feat/heroic_recovery">Heroic Recovery</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/spell/protective_spirit">Protective spirit</Link> (spell, 2 investiture points)</li>
-<li><Link to="/spell/remove_disease">Remove disease</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/feat/sidestep">Sidestep</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/feat/snatch_arrows">Snatch Arrows</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/feat/spring_attack">Spring Attack</Link> (feat, 1 investiture point)</li>
-<li><Link to="/spell/tongues">Tongues</Link> (spell, self only, 2 investiture points)</li>
-</ul>
-<h4 id="arc-monk-invested_regent-10th-level-vested-powers">10th-Level Vested Powers</h4>
-<ul>
-<li><Link to="/spell/air_walk">Air walk</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/spell/death_ward">Death ward</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/spell/dimension_door">Dimension door</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/spell/discern_lies">Discern lies</Link> (spell, 3 investiture points)</li>
-<li><Link to="/spell/divine_power">Divine power</Link> (spell, 3 investiture points)</li>
-<li><Link to="/spell/freedom_of_movement">Freedom of movement</Link> (spell, self only, 3 investiture points)</li>
-<li><Link to="/feat/improved_blind_fight">Improved Blind-Fight</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/feat/improved_great_fortitude">Improved Great Fortitude</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/feat/improved_iron_will">Improved Iron Will</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/feat/improved_lightning_reflexes">Improved Lightning Reflexes</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/spell/mark_of_justice">Mark of justice</Link> (spell, 3 investiture points)</li>
-<li><Link to="/spell/neutralize_poison">Neutralize poison</Link> (spell, self only, 3 investiture points)</li>
-<li><Link to="/spell/restoration">Restoration</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/spell/spell_resistance">Spell resistance</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/feat/wind_stance">Wind Stance</Link> (feat, 2 investiture points)</li>
-</ul>
-<h4 id="arc-monk-invested_regent-14th-level-vested-powers">14th-Level Vested Powers</h4>
-<ul>
-<li><Link to="/spell/antilife_shell">Antilife shell</Link> (spell, 3 investiture points)</li>
-<li><Link to="/feat/disarming_strike">Disarming Strike</Link> (feat, 2 investiture points)</li>
-<li><Link to="/feat/greater_blind_fight">Greater Blind-Fight</Link>* (feat, 2 investiture points)</li>
-<li><Link to="/spell/greater_command">Greater command</Link> (spell, 3 investiture points)</li>
-<li><Link to="/spell/greater_forbid_action">Greater forbid action</Link> (spell, 3 investiture points)</li>
-<li><Link to="/feat/lightning_stance">Lightning Stance</Link> (feat, 3 investiture points)</li>
-<li><Link to="/spell/shadow_walk">Shadow walk</Link> (spell, self only, 3 investiture points)</li>
-<li><Link to="/spell/unwilling_shield">Unwilling shield</Link> (spell, 3 investiture points)</li>
-</ul>
-<h4 id="arc-monk-invested_regent-18th-level-vested-powers">18th-Level Vested Powers</h4>
-<ul>
-<li><Link to="/spell/divine_vessel">Divine vessel</Link> (spell, 3 investiture points)</li>
-<li><Link to="/spell/foresight">Foresight</Link> (spell, self only, 3 investiture points)</li>
-<li><Link to="/spell/greater_restoration">Greater restoration</Link> (spell, self only, 3 investiture points)</li>
-<li><Link to="/spell/regenerate">Regenerate</Link> (spell, self only, 3 investiture points)</li>
-<li><Link to="/spell/repulsion">Repulsion</Link> (spell, 3 investiture points)</li>
-</ul>
+<div className="ability p hasSubs"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-invested_regent-vested-powers" data-hash-target><div className="box">Vested Powers</div></div>
+<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box"><p>Vested powers are abilities that draw on an invested regent's <em>investiture pool.</em> Vested powers are divided into two categories: feats and spells.</p>
+<p>All vested powers have a minimum level requirement to select them. An invested regent who hasn't reached the required monk level cannot select that vested power.</p>
+<p>Most vested powers require the invested regent to spend <em>investiture points;</em> the exact amount is listed after the vested power. Vested powers that cost 0 <em>investiture points</em> don't require the invested regent to have any <em>investiture points</em> in his <em>investiture pool</em> to use the ability. The saving throw against an invested regent's vested power, if any, is equal to 10 + 1/2 the invested regent's monk level + his Charisma bonus.</p>
+</div></div></div></div>
+<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-invested_regent-feats" data-hash-target><div className="box">Feats</div></div>
+<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">These vested powers duplicate the effects of specific feats. An invested regent doesn't need to qualify for a feat to select it as a vested power. For example, an invested regent can select Spring Attack as a vested power even if he doesn't meet the prerequisites for selecting Spring Attack as a feat. Activating one of these vested powers is a <strong className="hl">free action</strong> on the invested regent's turn; until the start of his next turn, the invested regent is treated as if he had that feat. Some feats can also be activated as an <strong className="hl">immediate action</strong> when it isn't the invested regent's turn.</div></div></div></div>
+<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-invested_regent-spells" data-hash-target><div className="box">Spells</div></div>
+<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">These vested powers duplicate the effects of a spell and are spell-like abilities. An invested regent's monk level is the caster level for these spell-like abilities, and he uses Charisma to determine his <Link to="/rule/concentration">concentration</Link> check bonus. Activating one of these vested powers is a <strong className="hl">standard action</strong></div></div></div></div>
+<h3 id="arc-monk-invested_regent-2nd-level-vested-powers" data-hash-target>2nd-Level Vested Powers</h3>
+<ScrollContainer id="arc-monk-invested_regent--table-0"><table>
+<thead>
+<tr>
+<th>Power</th>
+<th>Type</th>
+<th>Investiture Points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/comprehend_languages">Comprehend languages</Link></strong></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/divine_favor">Divine favor</Link></strong></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/dodge">Dodge</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-I-1" id="arc-monk-invested_regent-ref-I-1" data-hash-target to="arc-monk-invested_regent-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/entropic_shield">Entropic shield</Link></strong></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/expeditious_retreat">Expeditious retreat</Link></strong></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/feather_step">Feather step</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-1" id="arc-monk-invested_regent-ref-S-1" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/hide_from_undead">Hide from undead</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-2" id="arc-monk-invested_regent-ref-S-2" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/sanctuary">Sanctuary</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-3" id="arc-monk-invested_regent-ref-S-3" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/shield_of_faith">Shield of faith</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-4" id="arc-monk-invested_regent-ref-S-4" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-invested_regent-6th-level-vested-powers" data-hash-target>6th-Level Vested Powers</h3>
+<ScrollContainer id="arc-monk-invested_regent--table-1"><table>
+<thead>
+<tr>
+<th>Power</th>
+<th>Type</th>
+<th>Investiture Points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/calm_emotions">Calm emotions</Link></strong></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/cloak_of_winds">Cloak of winds</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-5" id="arc-monk-invested_regent-ref-S-5" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/enthrall">Enthrall</Link></strong></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/gaseous_form">Gaseous form</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-6" id="arc-monk-invested_regent-ref-S-6" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/helping_hand">Helping hand</Link></strong></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/heroic_defiance">Heroic Defiance</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-I-2" id="arc-monk-invested_regent-ref-I-2" data-hash-target to="arc-monk-invested_regent-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/heroic_recovery">Heroic Recovery</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-I-3" id="arc-monk-invested_regent-ref-I-3" data-hash-target to="arc-monk-invested_regent-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/protective_spirit">Protective spirit</Link></strong></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/remove_disease">Remove disease</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-7" id="arc-monk-invested_regent-ref-S-7" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/sidestep">Sidestep</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-I-4" id="arc-monk-invested_regent-ref-I-4" data-hash-target to="arc-monk-invested_regent-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/snatch_arrows">Snatch Arrows</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-I-5" id="arc-monk-invested_regent-ref-I-5" data-hash-target to="arc-monk-invested_regent-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/spring_attack">Spring Attack</Link></strong></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/tongues">Tongues</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-8" id="arc-monk-invested_regent-ref-S-8" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-invested_regent-10th-level-vested-powers" data-hash-target>10th-Level Vested Powers</h3>
+<ScrollContainer id="arc-monk-invested_regent--table-2"><table>
+<thead>
+<tr>
+<th>Power</th>
+<th>Type</th>
+<th>Investiture Points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/air_walk">Air walk</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-9" id="arc-monk-invested_regent-ref-S-9" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/death_ward">Death ward</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-10" id="arc-monk-invested_regent-ref-S-10" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/dimension_door">Dimension door</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-11" id="arc-monk-invested_regent-ref-S-11" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/discern_lies">Discern lies</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/divine_power">Divine power</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/freedom_of_movement">Freedom of movement</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-12" id="arc-monk-invested_regent-ref-S-12" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/improved_blind_fight">Improved Blind-Fight</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-I-6" id="arc-monk-invested_regent-ref-I-6" data-hash-target to="arc-monk-invested_regent-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/improved_great_fortitude">Improved Great Fortitude</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-I-7" id="arc-monk-invested_regent-ref-I-7" data-hash-target to="arc-monk-invested_regent-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/improved_iron_will">Improved Iron Will</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-I-8" id="arc-monk-invested_regent-ref-I-8" data-hash-target to="arc-monk-invested_regent-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/improved_lightning_reflexes">Improved Lightning Reflexes</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-I-9" id="arc-monk-invested_regent-ref-I-9" data-hash-target to="arc-monk-invested_regent-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/mark_of_justice">Mark of justice</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/neutralize_poison">Neutralize poison</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-13" id="arc-monk-invested_regent-ref-S-13" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/restoration">Restoration</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-14" id="arc-monk-invested_regent-ref-S-14" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/spell_resistance">Spell resistance</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-15" id="arc-monk-invested_regent-ref-S-15" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/wind_stance">Wind Stance</Link></strong></td>
+<td>Feat</td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-invested_regent-14th-level-vested-powers" data-hash-target>14th-Level Vested Powers</h3>
+<ScrollContainer id="arc-monk-invested_regent--table-3"><table>
+<thead>
+<tr>
+<th>Power</th>
+<th>Type</th>
+<th>Investiture Points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/antilife_shell">Antilife shell</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/disarming_strike">Disarming Strike</Link></strong></td>
+<td>Feat</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/greater_blind_fight">Greater Blind-Fight</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-I-10" id="arc-monk-invested_regent-ref-I-10" data-hash-target to="arc-monk-invested_regent-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/greater_command">Greater command</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/greater_forbid_action">Greater forbid action</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/lightning_stance">Lightning Stance</Link></strong></td>
+<td>Feat</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/shadow_walk">Shadow walk</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-16" id="arc-monk-invested_regent-ref-S-16" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/unwilling_shield">Unwilling shield</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-invested_regent-18th-level-vested-powers" data-hash-target>18th-Level Vested Powers</h3>
+<ScrollContainer id="arc-monk-invested_regent--table-4"><table>
+<thead>
+<tr>
+<th>Power</th>
+<th>Type</th>
+<th>Investiture Points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/divine_vessel">Divine vessel</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/foresight">Foresight</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-17" id="arc-monk-invested_regent-ref-S-17" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/greater_restoration">Greater restoration</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-18" id="arc-monk-invested_regent-ref-S-18" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/regenerate">Regenerate</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent-ref-S-19" id="arc-monk-invested_regent-ref-S-19" data-hash-target to="arc-monk-invested_regent-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/repulsion">Repulsion</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+</tbody></table></ScrollContainer>
+<section data-footnotes>
+<h3 id="arc-monk-invested_regent-label">Footnotes</h3>
+<ol>
+<li id="arc-monk-invested_regent-I">
+<p>Can be used as an immediate action. <InnerLink id="backlink-arc-monk-invested_regent-ref-I-1" data-hash-target to="arc-monk-invested_regent-ref-I-1" aria-label="Back to reference I-1">↩</InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-I-2" data-hash-target to="arc-monk-invested_regent-ref-I-2" aria-label="Back to reference I-2">↩<sup>2</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-I-3" data-hash-target to="arc-monk-invested_regent-ref-I-3" aria-label="Back to reference I-3">↩<sup>3</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-I-4" data-hash-target to="arc-monk-invested_regent-ref-I-4" aria-label="Back to reference I-4">↩<sup>4</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-I-5" data-hash-target to="arc-monk-invested_regent-ref-I-5" aria-label="Back to reference I-5">↩<sup>5</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-I-6" data-hash-target to="arc-monk-invested_regent-ref-I-6" aria-label="Back to reference I-6">↩<sup>6</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-I-7" data-hash-target to="arc-monk-invested_regent-ref-I-7" aria-label="Back to reference I-7">↩<sup>7</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-I-8" data-hash-target to="arc-monk-invested_regent-ref-I-8" aria-label="Back to reference I-8">↩<sup>8</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-I-9" data-hash-target to="arc-monk-invested_regent-ref-I-9" aria-label="Back to reference I-9">↩<sup>9</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-I-10" data-hash-target to="arc-monk-invested_regent-ref-I-10" aria-label="Back to reference I-10">↩<sup>10</sup></InnerLink></p>
+</li>
+<li id="arc-monk-invested_regent-S">
+<p>Can only be used on himself. <InnerLink id="backlink-arc-monk-invested_regent-ref-S-1" data-hash-target to="arc-monk-invested_regent-ref-S-1" aria-label="Back to reference S-1">↩</InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-2" data-hash-target to="arc-monk-invested_regent-ref-S-2" aria-label="Back to reference S-2">↩<sup>2</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-3" data-hash-target to="arc-monk-invested_regent-ref-S-3" aria-label="Back to reference S-3">↩<sup>3</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-4" data-hash-target to="arc-monk-invested_regent-ref-S-4" aria-label="Back to reference S-4">↩<sup>4</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-5" data-hash-target to="arc-monk-invested_regent-ref-S-5" aria-label="Back to reference S-5">↩<sup>5</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-6" data-hash-target to="arc-monk-invested_regent-ref-S-6" aria-label="Back to reference S-6">↩<sup>6</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-7" data-hash-target to="arc-monk-invested_regent-ref-S-7" aria-label="Back to reference S-7">↩<sup>7</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-8" data-hash-target to="arc-monk-invested_regent-ref-S-8" aria-label="Back to reference S-8">↩<sup>8</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-9" data-hash-target to="arc-monk-invested_regent-ref-S-9" aria-label="Back to reference S-9">↩<sup>9</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-10" data-hash-target to="arc-monk-invested_regent-ref-S-10" aria-label="Back to reference S-10">↩<sup>10</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-11" data-hash-target to="arc-monk-invested_regent-ref-S-11" aria-label="Back to reference S-11">↩<sup>11</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-12" data-hash-target to="arc-monk-invested_regent-ref-S-12" aria-label="Back to reference S-12">↩<sup>12</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-13" data-hash-target to="arc-monk-invested_regent-ref-S-13" aria-label="Back to reference S-13">↩<sup>13</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-14" data-hash-target to="arc-monk-invested_regent-ref-S-14" aria-label="Back to reference S-14">↩<sup>14</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-15" data-hash-target to="arc-monk-invested_regent-ref-S-15" aria-label="Back to reference S-15">↩<sup>15</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-16" data-hash-target to="arc-monk-invested_regent-ref-S-16" aria-label="Back to reference S-16">↩<sup>16</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-17" data-hash-target to="arc-monk-invested_regent-ref-S-17" aria-label="Back to reference S-17">↩<sup>17</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-18" data-hash-target to="arc-monk-invested_regent-ref-S-18" aria-label="Back to reference S-18">↩<sup>18</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent-ref-S-19" data-hash-target to="arc-monk-invested_regent-ref-S-19" aria-label="Back to reference S-19">↩<sup>19</sup></InnerLink></p>
+</li>
+</ol>
+</section>
 </>};
-const _invested_regent_uc = {title: "Invested Regent (Unchained)", topLink: ["Unchained Monk","class/unchained_monk"], jsx: <><h2 id="arc-monk-invested_regent_uc-invested-regent">Invested Regent</h2>
+const _invested_regent_uc = {hasJL:true,title: "Invested Regent (Unchained)", topLink: ["Unchained Monk","class/unchained_monk"], jsx: <><div className="jumpList" id="arc-monk-invested_regent_uc-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arc-monk-invested_regent_uc-2nd-level-vested-powers">2nd-Level Vested Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-invested_regent_uc-6th-level-vested-powers">6th-Level Vested Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-invested_regent_uc-10th-level-vested-powers">10th-Level Vested Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-invested_regent_uc-14th-level-vested-powers">14th-Level Vested Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-invested_regent_uc-18th-level-vested-powers">18th-Level Vested Powers</InnerLink></li></ul></div><h2 id="arc-monk-invested_regent_uc-invested-regent">Invested Regent</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 22</Link><br/>The invested regent has been handpicked by inscrutable divine forces to command others - either at the present or at some future time. The invested regent can harness a divine spark to perform superhuman stunts, influence others, and escape injury. Invested regents come from all races and walks of life, but they are more likely to be nobleborn in their cultures. Although some invested regents are acutely aware of their powers' divine origins (such as powers gained from an investment ceremony to <Link to="/faith/asmodeus">Asmodeus</Link> in the nation of Cheliax), others do not know the source of their abilities. Invested regents have strong personalities and a destiny to rule.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
+<div style={{clear:"both"}}></div><div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-invested_regent_uc-investiture-su" data-hash-target><div className="box">Investiture (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus feat gained at 1st level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">An invested regent gains a pool of investiture points, supernatural energy he can use to call upon amazing abilities and divine protection. The number of points in the invested regent's investiture pool is equal to 1/2 his monk level + his Charisma modifier.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">As long as he has at least 1 point in his investiture pool, the invested regent can select one of his saving throws and gain a +1 sacred bonus on saving throws of that type for 1 round. If he spends 1 point from his investiture pool during this swift action, he instead gains a sacred bonus equal to his Charisma modifier on the saving throw selected.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">A character with this feature and the <em>ki pool</em> class feature tracks investiture points and ki points separately.</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">An invested regent gains a pool of <em>investiture points,</em> supernatural energy he can use to call upon amazing abilities and divine protection. The number of points in the invested regent's <em>investiture pool</em> is equal to 1/2 his monk level + his Charisma modifier.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">As long as he has at least 1 point in his <em>investiture pool,</em> the invested regent can select one of his saving throws and gain a +1 sacred bonus on saving throws of that type for 1 round. If he spends 1 point from his <em>investiture pool</em> during this swift action, he instead gains a sacred bonus equal to his Charisma modifier on the saving throw selected.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">A character with this feature and the <em>ki pool</em> class feature tracks <em>investiture points</em> and ki points separately.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-invested_regent_uc-vested-power-ex-or-sp" data-hash-target><div className="box">Vested Power (Ex or Sp)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus feat the invested regent gives up for the vested power</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">And every 4 monk levels thereafter, an invested regent can select a vested power (see the Vested Powers section below) for which he qualifies in place of selecting a monk bonus feat. The invested regent need not do so and can instead take the bonus feat, but once the decision to take a bonus feat or a vested power is made, he can't change it.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">An invested regent can select a vested power (see the Vested Powers section below) for which he qualifies in place of selecting a monk bonus feat. The invested regent need not do so and can instead take the bonus feat, but once the decision to take a bonus feat or a vested power is made, he can't change it.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">He can select a 2nd vested power.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">He can select a 3rd vested power.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 14th Level</div></div><div className="abEnd"><div className="box">He can select a 4th vested power.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">He can select a 5th vested power.</div></div></div></div>
-<h3 id="arc-monk-invested_regent_uc-vested-powers">Vested Powers</h3>
-<p>Vested powers are abilities that draw on an invested regent's investiture pool. Vested powers are divided into two categories: feats and spells.</p>
-<p><strong className="hl">Requirements:</strong> All vested powers have a minimum level requirement to select them. An invested regent who hasn't reached the required monk level cannot select that vested power.</p>
-<p><strong className="hl">Activation:</strong> Most vested powers require the invested regent to spend investiture points; the exact amount is listed after the vested power. Vested powers that cost 0 investiture points don't require the invested regent to have any investiture points in his investiture pool to use the ability. The saving throw against an invested regent's vested power, if any, is equal to 10 + 1/2 the invested regent's monk level + his Charisma bonus.</p>
-<p><strong className="hl">Feats:</strong> These vested powers duplicate the effects of specific feats. An invested regent doesn't need to qualify for a feat to select it as a vested power. For example, an invested regent can select <Link to="/feat/spring_attack">Spring Attack</Link> as a vested power even if he doesn't meet the prerequisites for selecting Spring Attack as a feat. Activating one of these vested powers is a <strong className="hl">free action</strong> on the invested regent's turn; until the start of his next turn, the invested regent is treated as if he had that feat. Feats marked with an asterisk (*) can also be activated as an <strong className="hl">immediate action</strong> when it isn't the invested regent's turn.</p>
-<p><strong className="hl">Spells:</strong> These vested powers duplicate the effects of a spell and are spell-like abilities. An invested regent's monk level is the caster level for these spell-like abilities, and he uses Charisma to determine his <Link to="/rule/concentration">concentration</Link> check bonus. Activating one of these vested powers is a <strong className="hl">standard action</strong>.</p>
-<h4 id="arc-monk-invested_regent_uc-2nd-level-vested-powers">2nd-Level Vested Powers</h4>
-<ul>
-<li><Link to="/spell/comprehend_languages">Comprehend languages</Link> (spell, 2 investiture points)</li>
-<li><Link to="/spell/divine_favor">Divine favor</Link> (spell, 1 investiture point)</li>
-<li><Link to="/feat/dodge">Dodge</Link>* (feat, 0 investiture points)</li>
-<li><Link to="/spell/entropic_shield">Entropic shield</Link> (spell, 1 investiture point)</li>
-<li><Link to="/spell/expeditious_retreat">Expeditious retreat</Link> (spell, 2 investiture points)</li>
-<li><Link to="/spell/feather_step">Feather step</Link> (spell, self only, 1 investiture point)</li>
-<li><Link to="/spell/hide_from_undead">Hide from undead</Link> (spell, self only, 1 investiture point)</li>
-<li><Link to="/spell/sanctuary">Sanctuary</Link> (spell, self only, 1 investiture point)</li>
-<li><Link to="/spell/shield_of_faith">Shield of faith</Link> (spell, self only, 1 investiture point)</li>
-</ul>
-<h4 id="arc-monk-invested_regent_uc-6th-level-vested-powers">6th-Level Vested Powers</h4>
-<ul>
-<li><Link to="/spell/calm_emotions">Calm emotions</Link> (spell, 1 investiture point)</li>
-<li><Link to="/spell/cloak_of_winds">Cloak of winds</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/spell/enthrall">Enthrall</Link> (spell, 2 investiture points)</li>
-<li><Link to="/spell/gaseous_form">Gaseous form</Link> (spell, self only, 1 investiture point)</li>
-<li><Link to="/spell/helping_hand">Helping hand</Link> (spell, 1 investiture point)</li>
-<li><Link to="/feat/heroic_defiance">Heroic Defiance</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/feat/heroic_recovery">Heroic Recovery</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/spell/protective_spirit">Protective spirit</Link> (spell, 2 investiture points)</li>
-<li><Link to="/spell/remove_disease">Remove disease</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/feat/sidestep">Sidestep</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/feat/snatch_arrows">Snatch Arrows</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/feat/spring_attack">Spring Attack</Link> (feat, 1 investiture point)</li>
-<li><Link to="/spell/tongues">Tongues</Link> (spell, self only, 2 investiture points)</li>
-</ul>
-<h4 id="arc-monk-invested_regent_uc-10th-level-vested-powers">10th-Level Vested Powers</h4>
-<ul>
-<li><Link to="/spell/air_walk">Air walk</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/spell/death_ward">Death ward</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/spell/dimension_door">Dimension door</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/spell/discern_lies">Discern lies</Link> (spell, 3 investiture points)</li>
-<li><Link to="/spell/divine_power">Divine power</Link> (spell, 3 investiture points)</li>
-<li><Link to="/spell/freedom_of_movement">Freedom of movement</Link> (spell, self only, 3 investiture points)</li>
-<li><Link to="/feat/improved_blind_fight">Improved Blind-Fight</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/feat/improved_great_fortitude">Improved Great Fortitude</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/feat/improved_iron_will">Improved Iron Will</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/feat/improved_lightning_reflexes">Improved Lightning Reflexes</Link>* (feat, 1 investiture point)</li>
-<li><Link to="/spell/mark_of_justice">Mark of justice</Link> (spell, 3 investiture points)</li>
-<li><Link to="/spell/neutralize_poison">Neutralize poison</Link> (spell, self only, 3 investiture points)</li>
-<li><Link to="/spell/restoration">Restoration</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/spell/spell_resistance">Spell resistance</Link> (spell, self only, 2 investiture points)</li>
-<li><Link to="/feat/wind_stance">Wind Stance</Link> (feat, 2 investiture points)</li>
-</ul>
-<h4 id="arc-monk-invested_regent_uc-14th-level-vested-powers">14th-Level Vested Powers</h4>
-<ul>
-<li><Link to="/spell/antilife_shell">Antilife shell</Link> (spell, 3 investiture points)</li>
-<li><Link to="/feat/disarming_strike">Disarming Strike</Link> (feat, 2 investiture points)</li>
-<li><Link to="/feat/greater_blind_fight">Greater Blind-Fight</Link>* (feat, 2 investiture points)</li>
-<li><Link to="/spell/greater_command">Greater command</Link> (spell, 3 investiture points)</li>
-<li><Link to="/spell/greater_forbid_action">Greater forbid action</Link> (spell, 3 investiture points)</li>
-<li><Link to="/feat/lightning_stance">Lightning Stance</Link> (feat, 3 investiture points)</li>
-<li><Link to="/spell/shadow_walk">Shadow walk</Link> (spell, self only, 3 investiture points)</li>
-<li><Link to="/spell/unwilling_shield">Unwilling shield</Link> (spell, 3 investiture points)</li>
-</ul>
-<h4 id="arc-monk-invested_regent_uc-18th-level-vested-powers">18th-Level Vested Powers</h4>
-<ul>
-<li><Link to="/spell/divine_vessel">Divine vessel</Link> (spell, 3 investiture points)</li>
-<li><Link to="/spell/foresight">Foresight</Link> (spell, self only, 3 investiture points)</li>
-<li><Link to="/spell/greater_restoration">Greater restoration</Link> (spell, self only, 3 investiture points)</li>
-<li><Link to="/spell/regenerate">Regenerate</Link> (spell, self only, 3 investiture points)</li>
-<li><Link to="/spell/repulsion">Repulsion</Link> (spell, 3 investiture points)</li>
-</ul>
+<div className="ability p hasSubs"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-invested_regent_uc-vested-powers" data-hash-target><div className="box">Vested Powers</div></div>
+<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box"><p>Vested powers are abilities that draw on an invested regent's <em>investiture pool.</em> Vested powers are divided into two categories: feats and spells.</p>
+<p>All vested powers have a minimum level requirement to select them. An invested regent who hasn't reached the required monk level cannot select that vested power.</p>
+<p>Most vested powers require the invested regent to spend <em>investiture points;</em> the exact amount is listed after the vested power. Vested powers that cost 0 <em>investiture points</em> don't require the invested regent to have any <em>investiture points</em> in his <em>investiture pool</em> to use the ability. The saving throw against an invested regent's vested power, if any, is equal to 10 + 1/2 the invested regent's monk level + his Charisma bonus.</p>
+</div></div></div></div>
+<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-invested_regent_uc-feats" data-hash-target><div className="box">Feats</div></div>
+<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">These vested powers duplicate the effects of specific feats. An invested regent doesn't need to qualify for a feat to select it as a vested power. For example, an invested regent can select Spring Attack as a vested power even if he doesn't meet the prerequisites for selecting Spring Attack as a feat. Activating one of these vested powers is a <strong className="hl">free action</strong> on the invested regent's turn; until the start of his next turn, the invested regent is treated as if he had that feat. Some feats can also be activated as an <strong className="hl">immediate action</strong> when it isn't the invested regent's turn.</div></div></div></div>
+<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-invested_regent_uc-spells" data-hash-target><div className="box">Spells</div></div>
+<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">These vested powers duplicate the effects of a spell and are spell-like abilities. An invested regent's monk level is the caster level for these spell-like abilities, and he uses Charisma to determine his <Link to="/rule/concentration">concentration</Link> check bonus. Activating one of these vested powers is a <strong className="hl">standard action</strong></div></div></div></div>
+<h3 id="arc-monk-invested_regent_uc-2nd-level-vested-powers" data-hash-target>2nd-Level Vested Powers</h3>
+<ScrollContainer id="arc-monk-invested_regent_uc--table-0"><table>
+<thead>
+<tr>
+<th>Power</th>
+<th>Type</th>
+<th>Investiture Points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/comprehend_languages">Comprehend languages</Link></strong></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/divine_favor">Divine favor</Link></strong></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/dodge">Dodge</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-I-1" id="arc-monk-invested_regent_uc-ref-I-1" data-hash-target to="arc-monk-invested_regent_uc-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/entropic_shield">Entropic shield</Link></strong></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/expeditious_retreat">Expeditious retreat</Link></strong></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/feather_step">Feather step</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-1" id="arc-monk-invested_regent_uc-ref-S-1" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/hide_from_undead">Hide from undead</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-2" id="arc-monk-invested_regent_uc-ref-S-2" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/sanctuary">Sanctuary</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-3" id="arc-monk-invested_regent_uc-ref-S-3" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/shield_of_faith">Shield of faith</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-4" id="arc-monk-invested_regent_uc-ref-S-4" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-invested_regent_uc-6th-level-vested-powers" data-hash-target>6th-Level Vested Powers</h3>
+<ScrollContainer id="arc-monk-invested_regent_uc--table-1"><table>
+<thead>
+<tr>
+<th>Power</th>
+<th>Type</th>
+<th>Investiture Points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/calm_emotions">Calm emotions</Link></strong></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/cloak_of_winds">Cloak of winds</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-5" id="arc-monk-invested_regent_uc-ref-S-5" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/enthrall">Enthrall</Link></strong></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/gaseous_form">Gaseous form</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-6" id="arc-monk-invested_regent_uc-ref-S-6" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/helping_hand">Helping hand</Link></strong></td>
+<td>Spell</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/heroic_defiance">Heroic Defiance</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-I-2" id="arc-monk-invested_regent_uc-ref-I-2" data-hash-target to="arc-monk-invested_regent_uc-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/heroic_recovery">Heroic Recovery</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-I-3" id="arc-monk-invested_regent_uc-ref-I-3" data-hash-target to="arc-monk-invested_regent_uc-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/protective_spirit">Protective spirit</Link></strong></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/remove_disease">Remove disease</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-7" id="arc-monk-invested_regent_uc-ref-S-7" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/sidestep">Sidestep</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-I-4" id="arc-monk-invested_regent_uc-ref-I-4" data-hash-target to="arc-monk-invested_regent_uc-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/snatch_arrows">Snatch Arrows</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-I-5" id="arc-monk-invested_regent_uc-ref-I-5" data-hash-target to="arc-monk-invested_regent_uc-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/spring_attack">Spring Attack</Link></strong></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/tongues">Tongues</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-8" id="arc-monk-invested_regent_uc-ref-S-8" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-invested_regent_uc-10th-level-vested-powers" data-hash-target>10th-Level Vested Powers</h3>
+<ScrollContainer id="arc-monk-invested_regent_uc--table-2"><table>
+<thead>
+<tr>
+<th>Power</th>
+<th>Type</th>
+<th>Investiture Points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/air_walk">Air walk</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-9" id="arc-monk-invested_regent_uc-ref-S-9" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/death_ward">Death ward</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-10" id="arc-monk-invested_regent_uc-ref-S-10" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/dimension_door">Dimension door</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-11" id="arc-monk-invested_regent_uc-ref-S-11" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/discern_lies">Discern lies</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/divine_power">Divine power</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/freedom_of_movement">Freedom of movement</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-12" id="arc-monk-invested_regent_uc-ref-S-12" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/improved_blind_fight">Improved Blind-Fight</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-I-6" id="arc-monk-invested_regent_uc-ref-I-6" data-hash-target to="arc-monk-invested_regent_uc-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/improved_great_fortitude">Improved Great Fortitude</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-I-7" id="arc-monk-invested_regent_uc-ref-I-7" data-hash-target to="arc-monk-invested_regent_uc-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/improved_iron_will">Improved Iron Will</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-I-8" id="arc-monk-invested_regent_uc-ref-I-8" data-hash-target to="arc-monk-invested_regent_uc-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/improved_lightning_reflexes">Improved Lightning Reflexes</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-I-9" id="arc-monk-invested_regent_uc-ref-I-9" data-hash-target to="arc-monk-invested_regent_uc-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/mark_of_justice">Mark of justice</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/neutralize_poison">Neutralize poison</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-13" id="arc-monk-invested_regent_uc-ref-S-13" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/restoration">Restoration</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-14" id="arc-monk-invested_regent_uc-ref-S-14" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/spell_resistance">Spell resistance</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-15" id="arc-monk-invested_regent_uc-ref-S-15" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/wind_stance">Wind Stance</Link></strong></td>
+<td>Feat</td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-invested_regent_uc-14th-level-vested-powers" data-hash-target>14th-Level Vested Powers</h3>
+<ScrollContainer id="arc-monk-invested_regent_uc--table-3"><table>
+<thead>
+<tr>
+<th>Power</th>
+<th>Type</th>
+<th>Investiture Points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/antilife_shell">Antilife shell</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/disarming_strike">Disarming Strike</Link></strong></td>
+<td>Feat</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/greater_blind_fight">Greater Blind-Fight</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-I-10" id="arc-monk-invested_regent_uc-ref-I-10" data-hash-target to="arc-monk-invested_regent_uc-I">1</InnerLink></sup></td>
+<td>Feat</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/greater_command">Greater command</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/greater_forbid_action">Greater forbid action</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/lightning_stance">Lightning Stance</Link></strong></td>
+<td>Feat</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/shadow_walk">Shadow walk</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-16" id="arc-monk-invested_regent_uc-ref-S-16" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/unwilling_shield">Unwilling shield</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-invested_regent_uc-18th-level-vested-powers" data-hash-target>18th-Level Vested Powers</h3>
+<ScrollContainer id="arc-monk-invested_regent_uc--table-4"><table>
+<thead>
+<tr>
+<th>Power</th>
+<th>Type</th>
+<th>Investiture Points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/divine_vessel">Divine vessel</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/foresight">Foresight</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-17" id="arc-monk-invested_regent_uc-ref-S-17" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/greater_restoration">Greater restoration</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-18" id="arc-monk-invested_regent_uc-ref-S-18" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/regenerate">Regenerate</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-invested_regent_uc-ref-S-19" id="arc-monk-invested_regent_uc-ref-S-19" data-hash-target to="arc-monk-invested_regent_uc-S">2</InnerLink></sup></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/repulsion">Repulsion</Link></strong></td>
+<td>Spell</td>
+<td>3</td>
+</tr>
+</tbody></table></ScrollContainer>
+<section data-footnotes>
+<h3 id="arc-monk-invested_regent_uc-label">Footnotes</h3>
+<ol>
+<li id="arc-monk-invested_regent_uc-I">
+<p>Can be used as an immediate action. <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-I-1" data-hash-target to="arc-monk-invested_regent_uc-ref-I-1" aria-label="Back to reference I-1">↩</InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-I-2" data-hash-target to="arc-monk-invested_regent_uc-ref-I-2" aria-label="Back to reference I-2">↩<sup>2</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-I-3" data-hash-target to="arc-monk-invested_regent_uc-ref-I-3" aria-label="Back to reference I-3">↩<sup>3</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-I-4" data-hash-target to="arc-monk-invested_regent_uc-ref-I-4" aria-label="Back to reference I-4">↩<sup>4</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-I-5" data-hash-target to="arc-monk-invested_regent_uc-ref-I-5" aria-label="Back to reference I-5">↩<sup>5</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-I-6" data-hash-target to="arc-monk-invested_regent_uc-ref-I-6" aria-label="Back to reference I-6">↩<sup>6</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-I-7" data-hash-target to="arc-monk-invested_regent_uc-ref-I-7" aria-label="Back to reference I-7">↩<sup>7</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-I-8" data-hash-target to="arc-monk-invested_regent_uc-ref-I-8" aria-label="Back to reference I-8">↩<sup>8</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-I-9" data-hash-target to="arc-monk-invested_regent_uc-ref-I-9" aria-label="Back to reference I-9">↩<sup>9</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-I-10" data-hash-target to="arc-monk-invested_regent_uc-ref-I-10" aria-label="Back to reference I-10">↩<sup>10</sup></InnerLink></p>
+</li>
+<li id="arc-monk-invested_regent_uc-S">
+<p>Can only be used on himself. <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-1" data-hash-target to="arc-monk-invested_regent_uc-ref-S-1" aria-label="Back to reference S-1">↩</InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-2" data-hash-target to="arc-monk-invested_regent_uc-ref-S-2" aria-label="Back to reference S-2">↩<sup>2</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-3" data-hash-target to="arc-monk-invested_regent_uc-ref-S-3" aria-label="Back to reference S-3">↩<sup>3</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-4" data-hash-target to="arc-monk-invested_regent_uc-ref-S-4" aria-label="Back to reference S-4">↩<sup>4</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-5" data-hash-target to="arc-monk-invested_regent_uc-ref-S-5" aria-label="Back to reference S-5">↩<sup>5</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-6" data-hash-target to="arc-monk-invested_regent_uc-ref-S-6" aria-label="Back to reference S-6">↩<sup>6</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-7" data-hash-target to="arc-monk-invested_regent_uc-ref-S-7" aria-label="Back to reference S-7">↩<sup>7</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-8" data-hash-target to="arc-monk-invested_regent_uc-ref-S-8" aria-label="Back to reference S-8">↩<sup>8</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-9" data-hash-target to="arc-monk-invested_regent_uc-ref-S-9" aria-label="Back to reference S-9">↩<sup>9</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-10" data-hash-target to="arc-monk-invested_regent_uc-ref-S-10" aria-label="Back to reference S-10">↩<sup>10</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-11" data-hash-target to="arc-monk-invested_regent_uc-ref-S-11" aria-label="Back to reference S-11">↩<sup>11</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-12" data-hash-target to="arc-monk-invested_regent_uc-ref-S-12" aria-label="Back to reference S-12">↩<sup>12</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-13" data-hash-target to="arc-monk-invested_regent_uc-ref-S-13" aria-label="Back to reference S-13">↩<sup>13</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-14" data-hash-target to="arc-monk-invested_regent_uc-ref-S-14" aria-label="Back to reference S-14">↩<sup>14</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-15" data-hash-target to="arc-monk-invested_regent_uc-ref-S-15" aria-label="Back to reference S-15">↩<sup>15</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-16" data-hash-target to="arc-monk-invested_regent_uc-ref-S-16" aria-label="Back to reference S-16">↩<sup>16</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-17" data-hash-target to="arc-monk-invested_regent_uc-ref-S-17" aria-label="Back to reference S-17">↩<sup>17</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-18" data-hash-target to="arc-monk-invested_regent_uc-ref-S-18" aria-label="Back to reference S-18">↩<sup>18</sup></InnerLink> <InnerLink id="backlink-arc-monk-invested_regent_uc-ref-S-19" data-hash-target to="arc-monk-invested_regent_uc-ref-S-19" aria-label="Back to reference S-19">↩<sup>19</sup></InnerLink></p>
+</li>
+</ol>
+</section>
 </>};
 const _ironskin_monk = {title: "Ironskin Monk", jsx: <><h2 id="arc-monk-ironskin_monk-ironskin-monk">Ironskin Monk</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 122</Link><br/>Through discipline and training, an ironskin monk hardens his body to withstand punishing blows. Though slow on his feet, his calloused hands and feet can shatter stone and stagger foes.</p>
@@ -863,8 +1367,9 @@ const _ki_mystic = {title: "Ki Mystic", jsx: <><h2 id="arc-monk-ki_mystic-ki-mys
 <div className="title abSingle" id="arc-monk-ki_mystic-ki-mystic-su" data-hash-target><div className="box">Ki Mystic (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Still mind</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A ki mystic gains a pool of ki points equal to his Wisdom modifier. The pool increases to 1/2 his monk level + his Wisdom modifier + 2 at level 4. If the monk has at least 1 point of ki in his <em>ki pool,</em> he gains a +2 bonus on all Knowledge skill checks.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">The monk can spend 1 ki point immediately before making an ability or skill check to gain a +4 insight bonus on the check.</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A ki mystic gains a pool of ki points equal to his Wisdom modifier. If the monk has at least 1 point of ki in his <em>ki pool,</em> he gains a +2 bonus on all Knowledge skill checks.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">The monk can spend 1 ki point immediately before making an ability or skill check to gain a +4 insight bonus on the check.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">The pool increases to 1/2 his monk level + his Wisdom modifier + 2.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/rolling-dices"><IonIcon icon="/icons/rolling-dices.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-ki_mystic-mystic-insight-su" data-hash-target><div className="box">Mystic Insight (Su)</div><div className="flavor">A ki mystic becomes apt at giving just the right word of advice in just the nick of time.</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Purity of body</div></div></div>
@@ -1363,7 +1868,8 @@ const _nimble_guardian = {title: "Nimble Guardian", jsx: <><h2 id="arc-monk-nimb
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-nimble_guardian-evasion-ex" data-hash-target><div className="box">Evasion (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Improved evasion</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 9th Level</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 9th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A nimble guardian gains <Link to="/ability/evasion">evasion</Link>.</div></div></div></div>
 </>};
 const _nornkith = {title: "Nornkith", jsx: <><h2 id="arc-monk-nornkith-nornkith">Nornkith</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 24</Link><br/>Nornkith hone their bodies and minds to follow the branching threefold paths of fate. Nornkith seek to emulate the fey masters of fate called <Link to="/monster/norn">norns</Link> and eventually ascend to become norns in their own right.</p>
@@ -1411,7 +1917,7 @@ const _nornkith = {title: "Nornkith", jsx: <><h2 id="arc-monk-nornkith-nornkith"
 </>};
 const _ouat = {title: "Ouat", jsx: <><h2 id="arc-monk-ouat-ouat">Ouat</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 41</Link><br/>The ascetic, desert-dwelling dwarves known as the Ouat have eschewed dwarven traditions, whose unchanging rigidity, they believe, shackles their people to the past and inhibits self-improvement. Shaving their heads, living under the open sky, and practicing arts unfamiliar to the typical <Link to="/race/dwarf">dwarf</Link>, the Ouat follow in the footsteps of Irori and Nethys by aspiring to awaken the divine essence that lives within each creature.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-monk-ouat--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/dwarf">Dwarf</Link></td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/shield-reflect"><IonIcon icon="/icons/shield-reflect.svg" color="secondary" /></Link><Link to="/icons/rolling-dices"><IonIcon icon="/icons/rolling-dices.svg" color="secondary" /></Link></div>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-monk-ouat--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/dwarf">Dwarf</Link> with the <em>greed, hatred, defensive training, stonecunning,</em> and <em>weapon familiarity</em> racial traits.</td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/shield-reflect"><IonIcon icon="/icons/shield-reflect.svg" color="secondary" /></Link><Link to="/icons/rolling-dices"><IonIcon icon="/icons/rolling-dices.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-ouat-awaken-divinity-su" data-hash-target><div className="box">Awaken Divinity (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Stunning fist, and the <strong>greed</strong> and <strong>hatred</strong> dwarf racial traits</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 1st Level</div></div><div className="abEnd"><div className="box">As a <strong className="hl">standard action</strong>, an Ouat can touch a creature to grant it a temporary ki point until the beginning of the Ouat's next turn. In addition to any other ways in which the target can use ki, it can expend the ki point as a <strong className="hl">swift action</strong> in order to either gain a +2 dodge bonus to AC for 1 round or increase its base speed by 20 feet for 1 round. The Ouat can target himself with this ability as a <strong className="hl">swift action</strong>, but doing so costs 2 uses of the ability.</div></div></div>
@@ -1422,9 +1928,9 @@ const _ouat = {title: "Ouat", jsx: <><h2 id="arc-monk-ouat-ouat">Ouat</h2>
 <div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">An affected creature can spend the ki point to benefit from the Ouat's <em>perfect self</em> class ability for 1 round. If the creature already has the <em>perfect self</em> class feature, its damage reduction and any spell resistance it has increases by 2 for 1 round.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day per monk level</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">An Ouat can use this ability no more than once per round.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-ouat-spurn-tradition-ex" data-hash-target><div className="box">Spurn Tradition (Ex)</div><div className="flavor">Ouat dwarves strive to separate themselves from the rest of their race and the traditions that bind them.</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The <em>defensive training, stonecunning,</em> and <em>weapon familiarity</em> dwarf racial traits</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The <strong>defensive training, stonecunning,</strong> and <strong>weapon familiarity</strong> dwarf racial traits</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">The bonuses for nonmagical effects that target or specifically affect dwarf subtype creatures (such as a ranger's <Link to="/ability/favored_enemy">favored enemy</Link> class feature) are all reduced by half. In addition, an Ouat becomes proficient in one martial weapon with the monk property.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-ouat-know-the-unseen-disciples-su" data-hash-target><div className="box">Know the Unseen Disciples (Su)</div></div>
@@ -1438,18 +1944,27 @@ const _perfect_scholar = {title: "Perfect Scholar", jsx: <><h2 id="arc-monk-perf
 <div className="title abSingle" id="arc-monk-perfect_scholar-undefined" data-hash-target><div className="box">Class Skills</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Intimidate, Perform</div></div></div></div>
-<p><strong>Lore (Ex):</strong> At 3rd level, the perfect scholar gains a bonus equal to 1/2 his monk level on Knowledge checks and can attempt Knowledge checks untrained.</p>
-<p>This ability replaces <strong className="hl">still mind</strong>.</p>
+<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-perfect_scholar-lore-ex" data-hash-target><div className="box">Lore (Ex)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Still mind</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The perfect scholar gains a bonus equal to 1/2 his monk level on Knowledge checks and can attempt Knowledge checks untrained.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-perfect_scholar-learn-from-failure-ex" data-hash-target><div className="box">Learn from Failure (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Slow fall</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">When the perfect scholar misses with an attack roll or fails a <Link to="/rule/research">Research check</Link>, he gains an insight bonus on his next attack roll or Research check against the same target attempted in the next 24 hours. The insight bonus is equal to <Link to="/misc/half">half</Link> his monk level - 1.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">An individual target cannot be affected by this ability more than once in a 24-hour period.</div></div></div></div>
-<p><strong>Eye of the Sun and Moon (Ex):</strong> At 17th level, a perfect scholar can read all languages and write all languages he has read or heard.</p>
-<p>This ability replaces <strong className="hl">tongue of the sun and moon</strong>.</p>
-<p><strong>Walk with the Master (Su):</strong> At 20th level, the perfect scholar has mastered his spiritual resonance, allowing him to travel as if using <Link to="/spell/etherealness">etherealness</Link>, <Link to="/spell/plane_shift">plane shift</Link>, or <Link to="/spell/shadow_walk">shadow walk</Link> at his monk level by spending only 1 point from his ki pool. He cannot bring other creatures with him. He is treated as an outsider rather than his original type, although he can be brought back to life as if he were still of his former type.</p>
-<p>This ability alters <strong className="hl">perfect self</strong>.</p>
+<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-perfect_scholar-eye-of-the-sun-and-moon-ex" data-hash-target><div className="box">Eye of the Sun and Moon (Ex)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Tongue of the sun and moon</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 17th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A perfect scholar can read all languages and write all languages he has read or heard.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-perfect_scholar-walk-with-the-master-su" data-hash-target><div className="box">Walk with the Master (Su)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Perfect self</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 20th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The perfect scholar has mastered his spiritual resonance, allowing him to travel as if using <Link to="/spell/etherealness">etherealness</Link>, <Link to="/spell/plane_shift">plane shift</Link>, or <Link to="/spell/shadow_walk">shadow walk</Link> at his monk level by spending only 1 point from his <em>ki pool.</em> He cannot bring other creatures with him. He is treated as an <Link to="/type/outsider">outsider</Link> rather than his original type, although he can be brought back to life as if he were still of his former type.</div></div></div></div>
 </>};
 const _perfect_scholar_uc = {title: "Perfect Scholar (Unchained)", topLink: ["Unchained Monk","class/unchained_monk"], jsx: <><h2 id="arc-monk-perfect_scholar_uc-perfect-scholar">Perfect Scholar</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 44</Link><br/>Perfect scholars, often worshipers of Irori, hone their minds and bodies through the accumulation of knowledge. They study and annotate the holy texts of Irori and other philosophies as well as collect lore on anatomy, medicine, philosophy, martial arts, and history, among other topics of erudition.</p>
@@ -1457,246 +1972,800 @@ const _perfect_scholar_uc = {title: "Perfect Scholar (Unchained)", topLink: ["Un
 <div className="title abSingle" id="arc-monk-perfect_scholar_uc-undefined" data-hash-target><div className="box">Class Skills</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Intimidate, Perform</div></div></div></div>
-<p><strong>Lore (Ex):</strong> At 3rd level, the perfect scholar gains a bonus equal to 1/2 his monk level on Knowledge checks and can attempt Knowledge checks untrained.</p>
-<p>This ability replaces <strong className="hl">still mind</strong>.</p>
+<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-perfect_scholar_uc-lore-ex" data-hash-target><div className="box">Lore (Ex)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Still mind</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The perfect scholar gains a bonus equal to 1/2 his monk level on Knowledge checks and can attempt Knowledge checks untrained.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-perfect_scholar_uc-learn-from-failure-ex" data-hash-target><div className="box">Learn from Failure (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">4th-level ki power</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">When the perfect scholar misses with an attack roll or fails a <Link to="/rule/research">Research check</Link>, he gains an insight bonus on his next attack roll or Research check against the same target attempted in the next 24 hours. The insight bonus is equal to <Link to="/misc/half">half</Link> his monk level - 1.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">An individual target cannot be affected by this ability more than once in a 24-hour period.</div></div></div></div>
-<p><strong>Eye of the Sun and Moon (Ex):</strong> At 17th level, a perfect scholar can read all languages and write all languages he has read or heard.</p>
-<p>This ability replaces <strong className="hl">tongue of the sun and moon</strong>.</p>
-<p><strong>Walk with the Master (Su):</strong> At 20th level, the perfect scholar has mastered his spiritual resonance, allowing him to travel as if using <Link to="/spell/etherealness">etherealness</Link>, <Link to="/spell/plane_shift">plane shift</Link>, or <Link to="/spell/shadow_walk">shadow walk</Link> at his monk level by spending only 1 point from his ki pool. He cannot bring other creatures with him. He is treated as an outsider rather than his original type, although he can be brought back to life as if he were still of his former type.</p>
-<p>This ability alters <strong className="hl">perfect self</strong>.</p>
+<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-perfect_scholar_uc-eye-of-the-sun-and-moon-ex" data-hash-target><div className="box">Eye of the Sun and Moon (Ex)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Tongue of the sun and moon</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 17th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A perfect scholar can read all languages and write all languages he has read or heard.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-perfect_scholar_uc-walk-with-the-master-su" data-hash-target><div className="box">Walk with the Master (Su)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Perfect self</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 20th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The perfect scholar has mastered his spiritual resonance, allowing him to travel as if using <Link to="/spell/etherealness">etherealness</Link>, <Link to="/spell/plane_shift">plane shift</Link>, or <Link to="/spell/shadow_walk">shadow walk</Link> at his monk level by spending only 1 point from his <em>ki pool.</em> He cannot bring other creatures with him. He is treated as an <Link to="/type/outsider">outsider</Link> rather than his original type, although he can be brought back to life as if he were still of his former type.</div></div></div></div>
 </>};
-const _qinggong_monk = {hasJL:true,title: "Qinggong Monk", jsx: <><div className="jumpList" id="arc-monk-qinggong_monk-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arc-monk-qinggong_monk-ki-powers">Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-4th-level-ki-powers">4th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-6th-level-ki-powers">6th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-8th-level-ki-powers">8th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-10th-level-ki-powers">10th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-12th-level-ki-powers">12th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-14th-level-ki-powers">14th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-16th-level-ki-powers">16th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-18th-level-ki-powers">18th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-20th-level-ki-powers">20th-level Ki Powers</InnerLink></li></ul></div><h2 id="arc-monk-qinggong_monk-qinggong-monk">Qinggong Monk</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 51</Link><br/>The qinggong monk is a master of her ki, using it to perform superhuman stunts or even blast opponents with supernatural energy. Some achieve their power over ki through extreme discipline, while others attain this power by intentionally or accidentally ingesting rare herbs or strange mystical fruits, and a few are gifted these abilities by a dying qinggong master.</p>
-<p><strong>Ki Power:</strong> A qinggong monk can select a ki power (see below) for which she qualifies in place of the following monk class abilities: slow fall (4th), high jump (5th), wholeness of body (7th), diamond body (11th), abundant step (12th), diamond soul (13th), quivering palm (15th), timeless body (17th), tongue of the sun and moon (17th), empty body (19th), and perfect self (20th).</p>
-<p>This replaces the <strong className="hl">monk class ability</strong> the qinggong monk gives up for this ki power.</p>
-<h3 id="arc-monk-qinggong_monk-ki-powers" data-hash-target>Ki Powers</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 51</Link>, <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 21</Link>, <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 149</Link><br/>Ki powers are abilities that draw on the power of a monk's ki. The standard monk has several abilities that count as ki powers, such as wholeness of body, abundant step, and empty body. A qinggong monk can learn additional ki powers, which often replaces a non-ki monk ability such as purity of body. Ki powers are divided into three categories: feats, monk abilities, and spells.</p>
-<p><strong>Feats:</strong> These ki powers duplicate the effects of specific feats. A monk does not need to qualify for a feat to select it as a ki power. For example, a qinggong monk can select Spring Attack as a ki power even if she doesn't meet the prerequisites for selecting Spring Attack as a feat. Activating one of these ki powers is a free action on the monk's turn; until the start of her next turn, the monk is treated as if she had that feat. Some of these ki powers that duplicate feats may also be activated as an immediate action; these powers are noted in the ki powers list.</p>
-<p><strong>Monk Abilities:</strong> Some ki powers are standard monk abilities. Even if a qinggong monk selects a different ki power in place of a standard monk ability, she can select that monk ability later as one of her ki powers.</p>
-<p><strong>Spells:</strong> These ki powers duplicate the effects of a spell, and are spell-like abilities. A qinggong monk's class level is the caster level for these spell-like abilities, and she uses Wisdom to determine her <Link to="/rule/concentration">concentration</Link> check bonus.</p>
-<p><strong>Requirements:</strong> All ki powers have a minimum monk level requirement to select them. A monk who does not meet this requirement cannot select that ki power.</p>
-<p><strong>Activation:</strong> Most ki powers require the monk to spend ki points; the exact amount is listed after the ki power. Ki powers that cost 0 ki do not require the monk to have any ki points in her ki pool to use the ability.</p>
+const _qinggong_monk = {hasJL:true,title: "Qinggong Monk", jsx: <><div className="jumpList" id="arc-monk-qinggong_monk-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arc-monk-qinggong_monk-4th-level-ki-powers">4th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-6th-level-ki-powers">6th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-7th-level-ki-powers">7th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-8th-level-ki-powers">8th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-10th-level-ki-powers">10th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-12th-level-ki-powers">12th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-14th-level-ki-powers">14th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-16th-level-ki-powers">16th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-18th-level-ki-powers">18th-level Ki Powers</InnerLink></li><li><InnerLink toTop to="arc-monk-qinggong_monk-20th-level-ki-powers">20th-level Ki Powers</InnerLink></li></ul></div><h2 id="arc-monk-qinggong_monk-qinggong-monk">Qinggong Monk</h2>
+<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 51</Link>, <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 21</Link>, <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 149</Link><br/>The qinggong monk is a master of her ki, using it to perform superhuman stunts or even blast opponents with supernatural energy. Some achieve their power over ki through extreme discipline, while others attain this power by intentionally or accidentally ingesting rare herbs or strange mystical fruits, and a few are gifted these abilities by a dying qinggong master.</p>
+<div style={{clear:"both"}}></div><div className="ability p hasSubs"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-qinggong_monk-ki-power" data-hash-target><div className="box">Ki Power</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The monk class abilities the qinggong monk gives up for a ki power.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A qinggong monk can select a ki power (see below) for which she qualifies in place of the following monk class abilities.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">Slow fall</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 5th Level</div></div><div className="abEnd"><div className="box">High jump</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">Wholeness of body</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">Diamond body</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">Abundant step</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">Diamond soul</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">Quivering palm</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 17th Level</div></div><div className="abEnd"><div className="box">Timeless body; Tongue of the sun and moon</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">Empty body</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">Perfect self</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Ki powers are abilities that draw on the power of a monk's ki. The standard monk has several abilities that count as ki powers, such as <em>wholeness of body, abundant step,</em> and <em>empty body.</em> A qinggong monk can learn additional ki powers, which often replaces a non-ki monk ability such as <em>purity of body.</em> Ki powers are divided into three categories: <strong>feats, monk abilities,</strong> and <strong>spells.</strong></div></div></div></div>
+<div className="ability p subAbility numbered"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-qinggong_monk-feats" data-hash-target><div className="box">Feats</div></div>
+<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">These ki powers duplicate the effects of specific feats. A monk does not need to qualify for a feat to select it as a ki power. For example, a qinggong monk can select Spring Attack as a ki power even if she doesn't meet the prerequisites for selecting Spring Attack as a feat. Activating one of these ki powers is a <strong className="hl">free action</strong> on the monk's turn; until the start of her next turn, the monk is treated as if she had that feat. Some of these ki powers that duplicate feats may also be activated as an <strong className="hl">immediate action</strong>; these powers are noted in the ki powers list.</div></div></div></div>
+<div className="ability p subAbility numbered"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-qinggong_monk-monk-abilities" data-hash-target><div className="box">Monk Abilities</div></div>
+<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">Some ki powers are standard monk abilities. Even if a qinggong monk selects a different ki power in place of a standard monk ability, she can select that monk ability later as one of her ki powers.</div></div></div></div>
+<div className="ability p subAbility numbered"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-qinggong_monk-spells" data-hash-target><div className="box">Spells</div></div>
+<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">These ki powers duplicate the effects of a spell, and are spell-like abilities. A qinggong monk's class level is the caster level for these spell-like abilities, and she uses Wisdom to determine her <Link to="/rule/concentration">concentration</Link> check bonus.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-monk-qinggong_monk-list-of-ki-powers" data-hash-target><div className="box">List of Ki Powers</div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box"><p>All ki powers have a minimum monk level requirement to select them. A monk who does not meet this requirement cannot select that ki power.</p>
+<p>Most ki powers require the monk to spend ki points; the exact amount is listed after the ki power. Ki powers that cost 0 ki do not require the monk to have any ki points in her <em>ki pool</em> to use the ability.</p>
 <p>The saving throw against a monk's ki power, if any, is equal to 10 + 1/2 the monk's level + the monk's Wisdom bonus.</p>
-<p>Feats marked with a dagger (&dagger;) are ki powers that can be activated as an immediate action.</p>
-<h4 id="arc-monk-qinggong_monk-4th-level-ki-powers" data-hash-target>4th-level Ki Powers</h4>
-<p><strong>Feats:</strong></p>
-<ul>
-<li><strong><Link to="/feat/acrobatic_steps">Acrobatic Steps</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/feat/adder_strike">Adder Strike</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/feat/death_from_above">Death from Above</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/feat/deny_death">Deny Death</Link></strong> &dagger; (0 ki points)</li>
-<li><strong><Link to="/feat/ki_stand">Ki Stand</Link></strong> &dagger; (0 ki points)</li>
-<li><strong><Link to="/feat/power_attack">Power Attack</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/feat/quick_draw">Quick Draw</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/feat/throw_anything">Throw Anything</Link></strong> (1 ki point)</li>
-</ul>
-<p><strong>Monk Abilities:</strong></p>
-<ul>
-<li><strong>Slow Fall</strong> (0 ki points)</li>
-</ul>
-<p><strong>Spells:</strong></p>
-<ul>
-<li><strong><Link to="/spell/augury">Augury</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/barkskin">Barkskin</Link></strong> (self only, 1 ki point)</li>
-<li><strong><Link to="/spell/burst_of_adrenaline">Burst of Adrenaline</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/burst_of_insight">Burst of Insight</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/calm_spirit">Calm Spirit</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/feather_step">Feather Step</Link></strong> (self only, 1 ki point)</li>
-<li><strong><Link to="/spell/hydraulic_push">Hydraulic Push</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/ki_arrow">Ki Arrow</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/message">Message</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/mighty_fist_of_the_earth">Mighty Fist of the Earth</Link></strong> (1 ki point; if the monk has 0 ki points after activating this ki power, the rock created does not count as a ki strike)</li>
-<li><strong><Link to="/spell/psychic_reading">Psychic Reading</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/scorching_ray">Scorching Ray</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/stone_shield">Stone Shield</Link></strong> (1 ki points)</li>
-<li><strong><Link to="/spell/true_strike">True Strike</Link></strong> (self only, 1 ki point)</li>
-</ul>
-<h4 id="arc-monk-qinggong_monk-6th-level-ki-powers" data-hash-target>6th-level Ki Powers</h4>
-<p><strong>Feats:</strong></p>
-<ul>
-<li><strong><Link to="/feat/absorb_spirit">Absorb Spirit</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/feat/heroic_recovery">Heroic Recovery</Link></strong> &dagger; (1 ki point)</li>
-<li><strong><Link to="/feat/sidestep">Sidestep</Link></strong> &dagger; (1 ki point)</li>
-<li><strong><Link to="/feat/snatch_arrows">Snatch Arrows</Link></strong> &dagger; (1 ki point)</li>
-<li><strong><Link to="/feat/spring_attack">Spring Attack</Link></strong> (1 ki point)</li>
-</ul>
-<p><strong>Monk Abilities:</strong></p>
-<ul>
-<li><strong>High Jump</strong> (1 ki point)</li>
-</ul>
-<p><strong>Spells:</strong></p>
-<ul>
-<li><strong><Link to="/spell/cloak_of_winds">Cloak of Winds</Link></strong> (self only, 2 ki points)</li>
-<li><strong><Link to="/spell/enshroud_thoughts">Enshroud Thoughts</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/gaseous_form">Gaseous Form</Link></strong> (self only, 1 ki point)</li>
-<li><strong><Link to="/spell/hydraulic_torrent">Hydraulic Torrent</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/mental_barrier_i">Mental Barrier I</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/object_reading">Object Reading</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/placebo_effect">Placebo Effect</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/remove_disease">Remove Disease</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/thought_shield_i">Thought Shield I</Link></strong> (1 ki point)</li>
-</ul>
-<h4 id="arc-monk-qinggong_monk-8th-level-ki-powers" data-hash-target>8th-level Ki Powers</h4>
-<p><strong>Feats:</strong></p>
-<ul>
-<li><strong><Link to="/feat/gliding_steps">Gliding Steps</Link></strong> &dagger; (1 ki point)</li>
-<li><strong><Link to="/feat/jawbreaker">Jawbreaker</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/feat/spider_step">Spider Step</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/feat/whirlwind_attack">Whirlwind Attack</Link></strong> (2 ki points)</li>
-</ul>
-<p><strong>Monk Abilities:</strong></p>
-<ul>
-<li><strong>Wholeness of Body</strong> (level 7, 2 ki points)</li>
-</ul>
-<p><strong>Spells:</strong></p>
-<ul>
-<li><strong><Link to="/spell/deadly_juggernaut">Deadly Juggernaut</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/dragons_breath">Dragon's breath</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/hypercognition">Hypercognition</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/mantle_of_calm">Mantle of Calm</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/mental_barrier_ii">Mental Barrier II</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/neutralize_poison">Neutralize Poison</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/spell/poison">Poison</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/purge_spirit">Purge Spirit</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/restoration">Restoration</Link></strong> (self only, 2 ki points)</li>
-<li><strong><Link to="/spell/share_memory">Share Memory</Link></strong> (0 ki points)</li>
-<li><strong><Link to="/spell/silk_to_steel">Silk to Steel</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/thought_shield_ii">Thought Shield II</Link></strong> (1 ki point)</li>
-</ul>
-<h4 id="arc-monk-qinggong_monk-10th-level-ki-powers" data-hash-target>10th-level Ki Powers</h4>
-<p><strong>Feats:</strong></p>
-<ul>
-<li><strong><Link to="/feat/greater_bull_rush">Greater Bull Rush</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/feat/greater_disarm">Greater Disarm</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/feat/greater_feint">Greater Feint</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/feat/greater_sunder">Greater Sunder</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/feat/improved_blind_fight">Improved Blind-Fight</Link></strong> &dagger; (1 ki point)</li>
-<li><strong><Link to="/feat/lunge">Lunge</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/feat/step_up_and_strike">Step Up and Strike</Link></strong> &dagger; (2 ki points)</li>
-<li><strong><Link to="/feat/wind_stance">Wind Stance</Link></strong> (2 ki points)</li>
-</ul>
-<p><strong>Spells:</strong></p>
-<ul>
-<li><strong><Link to="/spell/aura_alteration">Aura Alteration</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/discordant_blast">Discordant Blast</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/ethereal_fists">Ethereal Fists</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/glimpse_of_truth">Glimpse of Truth</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/ki_leech">Ki Leech</Link></strong> (0 ki points)</li>
-<li><strong><Link to="/spell/mental_barrier_iii">Mental Barrier III</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/persistent_vigor">Persistent Vigor</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/quieting_weapons">Quieting Weapons</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/retrocognition">Retrocognition</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/sessile_spirit">Sessile Spirit</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/shadow_step">Shadow Step</Link></strong> (1 ki point)</li>
-<li><strong><Link to="/spell/spit_venom">Spit Venom</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/thought_shield_iii">Thought Shield III</Link></strong> (2 ki points)</li>
-</ul>
-<h4 id="arc-monk-qinggong_monk-12th-level-ki-powers" data-hash-target>12th-level Ki Powers</h4>
-<p><strong>Feats:</strong></p>
-<ul>
-<li><strong><Link to="/feat/bonebreaker">Bonebreaker</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/feat/elemental_fist">Elemental Fists</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/feat/improved_spring_attack">Improved Spring Attack</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/feat/improvised_weapon_mastery">Improvised Weapon Mastery</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/feat/ki_throw">Ki Throw</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/feat/punishing_kick">Punishing Kick</Link></strong> (2 ki points)</li>
-</ul>
-<p><strong>Monk Abilities:</strong></p>
-<ul>
-<li><strong>Abundant Step</strong> (2 ki points)</li>
-<li><strong>Diamond Body</strong> (0 ki points)</li>
-</ul>
-<p><strong>Spells:</strong></p>
-<ul>
-<li><strong><Link to="/spell/battlemind_link">Battlemind Link</Link></strong> (4 ki points)</li>
-<li><strong><Link to="/spell/dust_form">Dust Form</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/entrap_spirit">Entrap Spirit</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/spell/mental_barrier_iv">Mental Barrier IV</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/shadow_walk">Shadow Walk</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/spell/thought_shield_iv">Thought Shield IV</Link></strong> (2 ki points)</li>
-</ul>
-<h4 id="arc-monk-qinggong_monk-14th-level-ki-powers" data-hash-target>14th-level Ki Powers</h4>
-<p><strong>Feats:</strong></p>
-<ul>
-<li><strong><Link to="/feat/cloud_step">Cloud Step</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/feat/disarming_strike">Disarming Strike</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/feat/improved_ki_throw">Improved Ki Throw</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/feat/neckbreaker">Neckbreaker</Link></strong> (2 ki points)</li>
-</ul>
-<p><strong>Monk Abilities:</strong></p>
-<ul>
-<li><strong>Diamond Soul</strong> (0 ki points)</li>
-</ul>
-<p><strong>Spells:</strong></p>
-<ul>
-<li><strong><Link to="/spell/blood_crow_strike">Blood Crow Strike</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/cold_ice_strike">Cold Ice Strike</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/spell/ki_shout">Ki Shout</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/spell/mental_barrier_v">Mental Barrier V</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/prognostication">Prognostication</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/repress_memory">Repress Memory</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/sonic_thrust">Sonic Thrust</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/spell/thought_shield_v">Thought Shield V</Link></strong> (2 ki points)</li>
-</ul>
-<h4 id="arc-monk-qinggong_monk-16th-level-ki-powers" data-hash-target>16th-level Ki Powers</h4>
-<p><strong>Feats:</strong></p>
-<ul>
-<li><strong><Link to="/feat/bleeding_critical">Bleeding Critical</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/feat/greater_blind_fight">Greater Blind-Fight</Link></strong> &dagger; (2 ki points)</li>
-<li><strong><Link to="/feat/improved_vital_strike">Improved Vital Strike</Link></strong> (2 ki points)</li>
-<li><strong><Link to="/feat/lightning_stance">Lightning Stance</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/feat/penetrating_strike">Penetrating Strike</Link></strong> (2 ki points)</li>
-</ul>
-<p><strong>Monk Abilities:</strong></p>
-<ul>
-<li><strong>Quivering Palm</strong> (2 ki points)</li>
-</ul>
-<p><strong>Spells:</strong></p>
-<ul>
-<li><strong><Link to="/spell/strangling_hair">Strangling Hair</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/spell/unshakeable_zeal">Unshakeable Zeal</Link></strong> (2 ki points)</li>
-</ul>
-<h4 id="arc-monk-qinggong_monk-18th-level-ki-powers" data-hash-target>18th-level Ki Powers</h4>
-<p><strong>Feats:</strong></p>
-<ul>
-<li><strong><Link to="/feat/greater_spring_attack">Greater Spring Attack</Link></strong> (3 ki points)</li>
-</ul>
-<p><strong>Monk Abilities:</strong></p>
-<ul>
-<li><strong>Timeless Body</strong> (0 ki points)</li>
-<li><strong>Tongue of the Sun and Moon</strong> (0 ki points)</li>
-</ul>
-<p><strong>Spells:</strong></p>
-<ul>
-<li><strong><Link to="/spell/bilocation">Bilocation</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/spell/true_prognostication">True Prognostication</Link></strong> (2 ki points)</li>
-</ul>
-<h4 id="arc-monk-qinggong_monk-20th-level-ki-powers" data-hash-target>20th-level Ki Powers</h4>
-<p><strong>Feats:</strong></p>
-<ul>
-<li><strong><Link to="/feat/blinding_critical">Blinding Critical</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/feat/crippling_critical">Crippling Critical</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/feat/deafening_critical">Deafening Critical</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/feat/greater_penetrating_strike">Greater Penetrating Strike</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/feat/tiring_critical">Tiring Critical</Link></strong> (3 ki points)</li>
-</ul>
-<p><strong>Monk Abilities:</strong></p>
-<ul>
-<li><strong>Empty Body</strong> (3 ki points)</li>
-<li><strong>Perfect Self</strong> (level 20, 0 ki points)</li>
-</ul>
-<p><strong>Spells:</strong></p>
-<ul>
-<li><strong><Link to="/spell/akashic_form">Akashic Form</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/spell/divide_mind">Divide Mind</Link></strong> (3 ki points)</li>
-<li><strong><Link to="/spell/earthquake">Earthquake</Link></strong> (4 ki points)</li>
-<li><strong><Link to="/spell/frightful_aspect">Frightful Aspect</Link></strong> (3 ki points)</li>
-</ul>
+</div></div></div></div>
+<h3 id="arc-monk-qinggong_monk-4th-level-ki-powers" data-hash-target>4th-level Ki Powers</h3>
+<ScrollContainer id="arc-monk-qinggong_monk--table-0"><table>
+<thead>
+<tr>
+<th>Feats</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/feat/acrobatic_steps">Acrobatic Steps</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/adder_strike">Adder Strike</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/death_from_above">Death from Above</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/deny_death">Deny Death</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-I-1" id="arc-monk-qinggong_monk-ref-I-1" data-hash-target to="arc-monk-qinggong_monk-I">1</InnerLink></sup></td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/ki_stand">Ki Stand</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-I-2" id="arc-monk-qinggong_monk-ref-I-2" data-hash-target to="arc-monk-qinggong_monk-I">1</InnerLink></sup></td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/power_attack">Power Attack</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/quick_draw">Quick Draw</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/throw_anything">Throw Anything</Link></strong></td>
+<td>1</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-1"><table>
+<thead>
+<tr>
+<th>Monk Abilities</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Slow Fall</strong></td>
+<td>0</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-2"><table>
+<thead>
+<tr>
+<th>Spells</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/augury">Augury</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/barkskin">Barkskin</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-S-1" id="arc-monk-qinggong_monk-ref-S-1" data-hash-target to="arc-monk-qinggong_monk-S">2</InnerLink></sup></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/burst_of_adrenaline">Burst of Adrenaline</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/burst_of_insight">Burst of Insight</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/calm_spirit">Calm Spirit</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/feather_step">Feather Step</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-S-2" id="arc-monk-qinggong_monk-ref-S-2" data-hash-target to="arc-monk-qinggong_monk-S">2</InnerLink></sup></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/hydraulic_push">Hydraulic Push</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/ki_arrow">Ki Arrow</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/message">Message</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/mighty_fist_of_the_earth">Mighty Fist of the Earth</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-K-1" id="arc-monk-qinggong_monk-ref-K-1" data-hash-target to="arc-monk-qinggong_monk-K">3</InnerLink></sup></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/psychic_reading">Psychic Reading</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/scorching_ray">Scorching Ray</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/stone_shield">Stone Shield</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/true_strike">True Strike</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-S-3" id="arc-monk-qinggong_monk-ref-S-3" data-hash-target to="arc-monk-qinggong_monk-S">2</InnerLink></sup></td>
+<td>1</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-qinggong_monk-6th-level-ki-powers" data-hash-target>6th-level Ki Powers</h3>
+<ScrollContainer id="arc-monk-qinggong_monk--table-3"><table>
+<thead>
+<tr>
+<th>Feats</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/feat/absorb_spirit">Absorb Spirit</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/heroic_recovery">Heroic Recovery</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-I-3" id="arc-monk-qinggong_monk-ref-I-3" data-hash-target to="arc-monk-qinggong_monk-I">1</InnerLink></sup></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/sidestep">Sidestep</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-I-4" id="arc-monk-qinggong_monk-ref-I-4" data-hash-target to="arc-monk-qinggong_monk-I">1</InnerLink></sup></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/snatch_arrows">Snatch Arrows</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-I-5" id="arc-monk-qinggong_monk-ref-I-5" data-hash-target to="arc-monk-qinggong_monk-I">1</InnerLink></sup></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/spring_attack">Spring Attack</Link></strong></td>
+<td>1</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-4"><table>
+<thead>
+<tr>
+<th>Monk Abilities</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>High Jump</strong></td>
+<td>1</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-5"><table>
+<thead>
+<tr>
+<th>Spells</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/cloak_of_winds">Cloak of Winds</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-S-4" id="arc-monk-qinggong_monk-ref-S-4" data-hash-target to="arc-monk-qinggong_monk-S">2</InnerLink></sup></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/enshroud_thoughts">Enshroud Thoughts</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/gaseous_form">Gaseous Form</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-S-5" id="arc-monk-qinggong_monk-ref-S-5" data-hash-target to="arc-monk-qinggong_monk-S">2</InnerLink></sup></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/hydraulic_torrent">Hydraulic Torrent</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/mental_barrier_i">Mental Barrier I</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/object_reading">Object Reading</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/placebo_effect">Placebo Effect</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/remove_disease">Remove Disease</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/thought_shield_i">Thought Shield I</Link></strong></td>
+<td>1</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-qinggong_monk-7th-level-ki-powers" data-hash-target>7th-level Ki Powers</h3>
+<ScrollContainer id="arc-monk-qinggong_monk--table-6"><table>
+<thead>
+<tr>
+<th>Monk Abilities</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Wholeness of Body</strong></td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-qinggong_monk-8th-level-ki-powers" data-hash-target>8th-level Ki Powers</h3>
+<ScrollContainer id="arc-monk-qinggong_monk--table-7"><table>
+<thead>
+<tr>
+<th>Feats</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/feat/gliding_steps">Gliding Steps</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-I-6" id="arc-monk-qinggong_monk-ref-I-6" data-hash-target to="arc-monk-qinggong_monk-I">1</InnerLink></sup></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/jawbreaker">Jawbreaker</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/spider_step">Spider Step</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/whirlwind_attack">Whirlwind Attack</Link></strong></td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-8"><table>
+<thead>
+<tr>
+<th>Spells</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/deadly_juggernaut">Deadly Juggernaut</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/dragons_breath">Dragon's breath</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/hypercognition">Hypercognition</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/mantle_of_calm">Mantle of Calm</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/mental_barrier_ii">Mental Barrier II</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/neutralize_poison">Neutralize Poison</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/poison">Poison</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/purge_spirit">Purge Spirit</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/restoration">Restoration</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-S-6" id="arc-monk-qinggong_monk-ref-S-6" data-hash-target to="arc-monk-qinggong_monk-S">2</InnerLink></sup></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/share_memory">Share Memory</Link></strong></td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/silk_to_steel">Silk to Steel</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/thought_shield_ii">Thought Shield II</Link></strong></td>
+<td>1</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-qinggong_monk-10th-level-ki-powers" data-hash-target>10th-level Ki Powers</h3>
+<ScrollContainer id="arc-monk-qinggong_monk--table-9"><table>
+<thead>
+<tr>
+<th>Feats</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/feat/greater_bull_rush">Greater Bull Rush</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/greater_disarm">Greater Disarm</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/greater_feint">Greater Feint</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/greater_sunder">Greater Sunder</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/improved_blind_fight">Improved Blind-Fight</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-I-7" id="arc-monk-qinggong_monk-ref-I-7" data-hash-target to="arc-monk-qinggong_monk-I">1</InnerLink></sup></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/lunge">Lunge</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/step_up_and_strike">Step Up and Strike</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-I-8" id="arc-monk-qinggong_monk-ref-I-8" data-hash-target to="arc-monk-qinggong_monk-I">1</InnerLink></sup></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/wind_stance">Wind Stance</Link></strong></td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-10"><table>
+<thead>
+<tr>
+<th>Spells</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/aura_alteration">Aura Alteration</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/discordant_blast">Discordant Blast</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/ethereal_fists">Ethereal Fists</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/glimpse_of_truth">Glimpse of Truth</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/ki_leech">Ki Leech</Link></strong></td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/mental_barrier_iii">Mental Barrier III</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/persistent_vigor">Persistent Vigor</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/quieting_weapons">Quieting Weapons</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/retrocognition">Retrocognition</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/sessile_spirit">Sessile Spirit</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/shadow_step">Shadow Step</Link></strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/spit_venom">Spit Venom</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/thought_shield_iii">Thought Shield III</Link></strong></td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-qinggong_monk-12th-level-ki-powers" data-hash-target>12th-level Ki Powers</h3>
+<ScrollContainer id="arc-monk-qinggong_monk--table-11"><table>
+<thead>
+<tr>
+<th>Feats</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/feat/bonebreaker">Bonebreaker</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/elemental_fist">Elemental Fists</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/improved_spring_attack">Improved Spring Attack</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/improvised_weapon_mastery">Improvised Weapon Mastery</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/ki_throw">Ki Throw</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/punishing_kick">Punishing Kick</Link></strong></td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-12"><table>
+<thead>
+<tr>
+<th>Monk Abilities</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Abundant Step</strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong>Diamond Body</strong></td>
+<td>0</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-13"><table>
+<thead>
+<tr>
+<th>Spells</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/battlemind_link">Battlemind Link</Link></strong></td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/dust_form">Dust Form</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/entrap_spirit">Entrap Spirit</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/mental_barrier_iv">Mental Barrier IV</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/shadow_walk">Shadow Walk</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/thought_shield_iv">Thought Shield IV</Link></strong></td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-qinggong_monk-14th-level-ki-powers" data-hash-target>14th-level Ki Powers</h3>
+<ScrollContainer id="arc-monk-qinggong_monk--table-14"><table>
+<thead>
+<tr>
+<th>Feats</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/feat/cloud_step">Cloud Step</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/disarming_strike">Disarming Strike</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/improved_ki_throw">Improved Ki Throw</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/neckbreaker">Neckbreaker</Link></strong></td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-15"><table>
+<thead>
+<tr>
+<th>Monk Abilities</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Diamond Soul</strong></td>
+<td>0</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-16"><table>
+<thead>
+<tr>
+<th>Spells</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/blood_crow_strike">Blood Crow Strike</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/cold_ice_strike">Cold Ice Strike</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/ki_shout">Ki Shout</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/mental_barrier_v">Mental Barrier V</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/prognostication">Prognostication</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/repress_memory">Repress Memory</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/sonic_thrust">Sonic Thrust</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/thought_shield_v">Thought Shield V</Link></strong></td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-qinggong_monk-16th-level-ki-powers" data-hash-target>16th-level Ki Powers</h3>
+<ScrollContainer id="arc-monk-qinggong_monk--table-17"><table>
+<thead>
+<tr>
+<th>Feats</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/feat/bleeding_critical">Bleeding Critical</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/greater_blind_fight">Greater Blind-Fight</Link></strong> <sup><InnerLink showBacklink="backlink-arc-monk-qinggong_monk-ref-I-9" id="arc-monk-qinggong_monk-ref-I-9" data-hash-target to="arc-monk-qinggong_monk-I">1</InnerLink></sup></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/improved_vital_strike">Improved Vital Strike</Link></strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/lightning_stance">Lightning Stance</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/penetrating_strike">Penetrating Strike</Link></strong></td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-18"><table>
+<thead>
+<tr>
+<th>Monk Abilities</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Quivering Palm</strong></td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-19"><table>
+<thead>
+<tr>
+<th>Spells</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/strangling_hair">Strangling Hair</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/unshakeable_zeal">Unshakeable Zeal</Link></strong></td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-qinggong_monk-18th-level-ki-powers" data-hash-target>18th-level Ki Powers</h3>
+<ScrollContainer id="arc-monk-qinggong_monk--table-20"><table>
+<thead>
+<tr>
+<th>Feats</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/feat/greater_spring_attack">Greater Spring Attack</Link></strong></td>
+<td>3</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-21"><table>
+<thead>
+<tr>
+<th>Monk Abilities</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Timeless Body</strong></td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Tongue of the Sun and Moon</strong></td>
+<td>0</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-22"><table>
+<thead>
+<tr>
+<th>Spells</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/bilocation">Bilocation</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/true_prognostication">True Prognostication</Link></strong></td>
+<td>2</td>
+</tr>
+</tbody></table></ScrollContainer>
+<h3 id="arc-monk-qinggong_monk-20th-level-ki-powers" data-hash-target>20th-level Ki Powers</h3>
+<ScrollContainer id="arc-monk-qinggong_monk--table-23"><table>
+<thead>
+<tr>
+<th>Feats</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/feat/blinding_critical">Blinding Critical</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/crippling_critical">Crippling Critical</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/deafening_critical">Deafening Critical</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/greater_penetrating_strike">Greater Penetrating Strike</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/feat/tiring_critical">Tiring Critical</Link></strong></td>
+<td>3</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-24"><table>
+<thead>
+<tr>
+<th>Monk Abilities</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Empty Body</strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong>Perfect Self</strong></td>
+<td>0</td>
+</tr>
+</tbody></table></ScrollContainer>
+<ScrollContainer id="arc-monk-qinggong_monk--table-25"><table>
+<thead>
+<tr>
+<th>Spells</th>
+<th>Ki points</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong className="hl"><Link to="/spell/akashic_form">Akashic Form</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/divide_mind">Divide Mind</Link></strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/earthquake">Earthquake</Link></strong></td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong className="hl"><Link to="/spell/frightful_aspect">Frightful Aspect</Link></strong></td>
+<td>3</td>
+</tr>
+</tbody></table></ScrollContainer>
+<section data-footnotes>
+<h3 id="arc-monk-qinggong_monk-label">Footnotes</h3>
+<ol>
+<li id="arc-monk-qinggong_monk-I">
+<p>Can be used as an immediate action. <InnerLink id="backlink-arc-monk-qinggong_monk-ref-I-1" data-hash-target to="arc-monk-qinggong_monk-ref-I-1" aria-label="Back to reference I-1">↩</InnerLink> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-I-2" data-hash-target to="arc-monk-qinggong_monk-ref-I-2" aria-label="Back to reference I-2">↩<sup>2</sup></InnerLink> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-I-3" data-hash-target to="arc-monk-qinggong_monk-ref-I-3" aria-label="Back to reference I-3">↩<sup>3</sup></InnerLink> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-I-4" data-hash-target to="arc-monk-qinggong_monk-ref-I-4" aria-label="Back to reference I-4">↩<sup>4</sup></InnerLink> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-I-5" data-hash-target to="arc-monk-qinggong_monk-ref-I-5" aria-label="Back to reference I-5">↩<sup>5</sup></InnerLink> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-I-6" data-hash-target to="arc-monk-qinggong_monk-ref-I-6" aria-label="Back to reference I-6">↩<sup>6</sup></InnerLink> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-I-7" data-hash-target to="arc-monk-qinggong_monk-ref-I-7" aria-label="Back to reference I-7">↩<sup>7</sup></InnerLink> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-I-8" data-hash-target to="arc-monk-qinggong_monk-ref-I-8" aria-label="Back to reference I-8">↩<sup>8</sup></InnerLink> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-I-9" data-hash-target to="arc-monk-qinggong_monk-ref-I-9" aria-label="Back to reference I-9">↩<sup>9</sup></InnerLink></p>
+</li>
+<li id="arc-monk-qinggong_monk-S">
+<p>Can only be used on himself. <InnerLink id="backlink-arc-monk-qinggong_monk-ref-S-1" data-hash-target to="arc-monk-qinggong_monk-ref-S-1" aria-label="Back to reference S-1">↩</InnerLink> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-S-2" data-hash-target to="arc-monk-qinggong_monk-ref-S-2" aria-label="Back to reference S-2">↩<sup>2</sup></InnerLink> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-S-3" data-hash-target to="arc-monk-qinggong_monk-ref-S-3" aria-label="Back to reference S-3">↩<sup>3</sup></InnerLink> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-S-4" data-hash-target to="arc-monk-qinggong_monk-ref-S-4" aria-label="Back to reference S-4">↩<sup>4</sup></InnerLink> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-S-5" data-hash-target to="arc-monk-qinggong_monk-ref-S-5" aria-label="Back to reference S-5">↩<sup>5</sup></InnerLink> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-S-6" data-hash-target to="arc-monk-qinggong_monk-ref-S-6" aria-label="Back to reference S-6">↩<sup>6</sup></InnerLink></p>
+</li>
+<li id="arc-monk-qinggong_monk-K">
+<p>If the monk has 0 ki points after activating this ki power, the rock created does not count as a <em>ki strike.</em> <InnerLink id="backlink-arc-monk-qinggong_monk-ref-K-1" data-hash-target to="arc-monk-qinggong_monk-ref-K-1" aria-label="Back to reference K-1">↩</InnerLink></p>
+</li>
+</ol>
+</section>
 </>};
 const _sage_counselor = {title: "Sage Counselor", jsx: <><h2 id="arc-monk-sage_counselor-sage-counselor">Sage Counselor</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 67</Link><br/>Sage counselors are ascetics and mystics who leave the confines of the monastery walls to advise secular people about spiritual truths and to seek knowledge of the outside world. They often find work as mentors teaching religion and martial arts, and some of them even become counselors for people in high places. Sage counselors often speak in metaphors, knowing that indirect persuasion is more effective than speaking plainly, and they use indirect tactics in combat as well.</p>
