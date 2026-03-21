@@ -8,10 +8,10 @@ const abPairPartClose = "</div></div>";
 const abPairClose = "</div>";
 
 const parseAtts = (attrs) => {
-	const {standard, move, free, immediate, swift, passive, ability, fullround, note, choice} = attrs;
+	const {standard, move, free, immediate, swift, passive, ability, ability2, fullround, note, choice} = attrs;
 	if(passive) {
 		return [passive, "Passive Ability"];
-	} else if (ability) {
+	} else if (ability || ability2) {
 		return [ability, "Ability"];
 	} else if (standard) {
 		return [standard, "Standard Action"];
@@ -89,7 +89,7 @@ const makeAbilityBlock = ({
 		standard, swift, immediate,
 		fullround, move, free,
 		provokes, special, note, choice,
-		passive, ability,
+		passive, ability, ability2,
 		order,
 		usage, useNC,
 		useL, useM, useL3, // default useUnit is "round"
@@ -208,6 +208,7 @@ const makeAbilityBlock = ({
 			f: free,
 			p: passive,
 			a: ability,
+			"2": ability2,
 			u: use,
 			n: note,
 			c: choice,
@@ -226,7 +227,7 @@ const makeAbilityBlock = ({
 	} else {
 		const all = [
 			standard, swift, immediate, fullround,
-			move, free, passive, ability, note,
+			move, free, passive, ability, ability2, note,
 			choice, containerInfo
 		].filter(x => x);
 		if(all.length > 1) {
@@ -452,9 +453,12 @@ const makeAbilityBlock = ({
 					title = "Passive Ability";
 					what = passive;
 					break;
+				case "2":
+					what = ability2;
+					// pass-through
 				case "a":
 					title = "Ability";
-					what = ability;
+					what = what || ability;
 					break;
 				case "n":
 					title = "Info";

@@ -757,6 +757,7 @@
 	},
 	"encumbrance": { "redirect": "carrying_capacity" },
 	"encumbered": { "redirect": "carrying_capacity" },
+	"carrying_a_load": { "redirect": "carrying_capacity" },
 	"magic_items": {
 		"name": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
