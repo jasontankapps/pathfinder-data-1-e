@@ -1181,7 +1181,7 @@
 			"| Species | CR | Size | HD |",
 			"| --- | --- | --- | --- |",
 			"| Giant hissing cockroach | 1 | Medium | 2 |",
-			"| Venomroach | 3 | Large | 3 |",
+			"| @ripple[monster/Venomroach] | 3 | Large | 3 |",
 			"| Spitting cockroach | 6 | Huge | 6 |",
 			"| Sawback cockroach | 9 | Gargantuan | 8 |",
 			"| Dragonroach | 12 | Colossal | 10 |",
