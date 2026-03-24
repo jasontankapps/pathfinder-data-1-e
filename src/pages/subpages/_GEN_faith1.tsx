@@ -13,7 +13,7 @@ const _abadar = {hasJL:true,title: "Abadar", jsx: <><div className="jumpList" id
 <p><strong>Centers of Worship</strong> Absalom, Andoran, Brevoy, Cheliax, Katapesh, Mana Wastes, Molthune, Nex, Osirion, Sargava, Taldor, Varisia<br/><strong>Nationality</strong> Taldan</p>
 <h2 id="faith-abadar-divine-gift" data-hash-target><Link to="/rule/divine_gifts">Divine Gift</Link></h2>
 <blockquote>
-<p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 74</Link><br/>The character gains the ability to cast <Link to="/spell/word_of_recall">word of recall</Link> as a spell-like ability (CL 20th). This version of <em>word of recall</em> can transport the caster across planar boundaries, but it still doesn't function in areas that bar teleportation effects. When a character gains this gift, the GM designates as the spell's sanctuary a specific temple of Abadar located in a city of at least 1,000 inhabitants.</p>
+<p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 74</Link><br/>The character gains the ability to cast <Link to="/spell/word_of_recall">word of recall</Link> as a spell-like ability (CL 20th). This version of <em>word of recall</em> can transport the caster across planar boundaries, but it still doesn't function in areas that bar teleportation effects. When a character gains this gift, the GM designates as the spell's sanctuary: a specific temple of Abadar located in a city of at least 1,000 inhabitants.</p>
 </blockquote>
 <h2 id="faith-abadar-deific-obedience" data-hash-target><Link to="/feat/deific_obedience">Deific Obedience</Link></h2>
 <blockquote>

@@ -812,7 +812,7 @@ if(!$.skipFeatTree) {
 	const testfile = get(`./src/pages/subpages/_GEN_feat_tree_page.tsx`).trim();
 
 	if(testfile === featTreePage) {
-		console.log(`UNCHANGED: ./src/pages/subpages/_GEN_feat_tree_page.tsx`);
+		console.log(`UNCHANGED ./src/pages/subpages/_GEN_feat_tree_page.tsx`);
 	} else {
 		// Write that file
 		fs.writeFileSync(`./src/pages/subpages/_GEN_feat_tree_page.tsx`, featTreePage);
@@ -1041,7 +1041,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	const theOutput = output.join("\n").trim();
 
 	if(testfile === theOutput) {
-		//console.log(`UNCHANGED: ${filename} (${groupindex + 1} of ${number_of_groups})`);
+		//console.log(`UNCHANGED ${filename} (${groupindex + 1} of ${number_of_groups})`);
 		//return;
 		$.unsavedCount++;
 		if($.unsavedCount === 25) {

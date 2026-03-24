@@ -438,9 +438,9 @@
 			"",
 			"::ab[Fearless (Su)]{l=3 icon=def passive=\"A ghost rider becomes immune to fear. Each ally within 10 feet of the ghost rider gains a +4 morale bonus on saving throws against fear effects. This ability functions only while the ghost rider is conscious, not if she is unconscious or dead.\" replace=\"Cavalier's charge\"}",
 			"",
-			"::ab[Spirited Mount (Su)]{l=5 icon=boost-magic l5=\"The ghost rider's mount ignores ‹rule/difficult terrain›.\" l8=\"It gains the ability to use ‹spell/water walk› at will.\" replace=\"Expert trainer~banner\"}",
+			"::ab[Spirited Mount (Su)]{icon=boost-magic l5=\"The ghost rider's mount ignores ‹rule/difficult terrain›.\" l8=\"It gains the ability to use ‹spell/water walk› at will.\" replace=\"Expert trainer~banner\"}",
 			"",
-			"::ab[Ghost Wind (Su)]{l=11 icon=magic-power l11=\"The ghost rider's ghost mount can use ‹spell/air walk› (as the spell, no action required) at will for up to 1 round at a time, after which it falls to the ground.\" l14=\"The mount can fly at its speed with a bonus on Fly skill checks equal to the ghost rider's class level.\" replace=\"Mighty charge~greater banner\"}"
+			"::ab[Ghost Wind (Su)]{icon=magic-power l11=\"The ghost rider's ghost mount can use ‹spell/air walk› (as the spell, no action required) at will for up to 1 round at a time, after which it falls to the ground.\" l14=\"The mount can fly at its speed with a bonus on Fly skill checks equal to the ghost rider's class level.\" replace=\"Mighty charge~greater banner\"}"
 		]
 	},
 	"green_knight": {

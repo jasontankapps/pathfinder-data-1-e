@@ -557,7 +557,7 @@ const _cockroach_giant_cockroach = {title: "Giant Cockroach", jsx: <><p><em>A do
 <td>2</td>
 </tr>
 <tr>
-<td>Venomroach</td>
+<td className="ion-activatable"><Link to="/monster/venomroach">Venomroach<IonRippleEffect /></Link></td>
 <td>3</td>
 <td>Large</td>
 <td>3</td>

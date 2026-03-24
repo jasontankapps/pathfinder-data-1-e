@@ -19,7 +19,7 @@ const SettingsPage: React.FC = () => {
 						<IonLabel><em>You can constrain the width of paragraphs if they are getting too wide to read on your screen.</em></IonLabel>
 					</IonItem>
 					<IonItem className="mainItem basic selectTertiary cxl">
-						<IonSelect value={constraint} onIonChange={(e) => dispatch(setConstraint(e.detail.value))} justify="end">
+						<IonSelect label="Paragraph size:" value={constraint} onIonChange={(e) => dispatch(setConstraint(e.detail.value))} justify="end">
 							<IonSelectOption value={0}>No constraints</IonSelectOption>
 							<IonSelectOption value={1}>Extra Large</IonSelectOption>
 							<IonSelectOption value={2}>Large</IonSelectOption>
@@ -29,7 +29,7 @@ const SettingsPage: React.FC = () => {
 						</IonSelect>
 					</IonItem>
 					<IonItem className="mainItem basic selectTertiary cl">
-						<IonSelect value={constraint} onIonChange={(e) => dispatch(setConstraint(e.detail.value))} justify="end">
+						<IonSelect label="Paragraph size:" value={constraint} onIonChange={(e) => dispatch(setConstraint(e.detail.value))} justify="end">
 							<IonSelectOption value={0}>No constraints</IonSelectOption>
 							<IonSelectOption value={1} disabled>Extra Large</IonSelectOption>
 							<IonSelectOption value={2} className="cl">Large</IonSelectOption>
@@ -39,7 +39,7 @@ const SettingsPage: React.FC = () => {
 						</IonSelect>
 					</IonItem>
 					<IonItem className="mainItem basic selectTertiary cm">
-						<IonSelect value={constraint} onIonChange={(e) => dispatch(setConstraint(e.detail.value))} justify="end">
+						<IonSelect label="Paragraph size:" value={constraint} onIonChange={(e) => dispatch(setConstraint(e.detail.value))} justify="end">
 							<IonSelectOption value={0}>No constraints</IonSelectOption>
 							<IonSelectOption value={1} disabled>Extra Large</IonSelectOption>
 							<IonSelectOption value={2} disabled>Large</IonSelectOption>
@@ -49,7 +49,7 @@ const SettingsPage: React.FC = () => {
 						</IonSelect>
 					</IonItem>
 					<IonItem className="mainItem basic selectTertiary cs">
-						<IonSelect value={constraint} onIonChange={(e) => dispatch(setConstraint(e.detail.value))} justify="end">
+						<IonSelect label="Paragraph size:" value={constraint} onIonChange={(e) => dispatch(setConstraint(e.detail.value))} justify="end">
 							<IonSelectOption value={0}>No constraints</IonSelectOption>
 							<IonSelectOption value={1} disabled>Extra Large</IonSelectOption>
 							<IonSelectOption value={2} disabled>Large</IonSelectOption>
@@ -59,7 +59,7 @@ const SettingsPage: React.FC = () => {
 						</IonSelect>
 					</IonItem>
 					<IonItem className="mainItem basic selectTertiary cxs">
-						<IonSelect value={constraint} onIonChange={(e) => dispatch(setConstraint(e.detail.value))} justify="end">
+						<IonSelect label="Paragraph size:" value={constraint} onIonChange={(e) => dispatch(setConstraint(e.detail.value))} justify="end">
 							<IonSelectOption value={0}>No constraints</IonSelectOption>
 							<IonSelectOption value={1} disabled>Extra Large</IonSelectOption>
 							<IonSelectOption value={2} disabled>Large</IonSelectOption>

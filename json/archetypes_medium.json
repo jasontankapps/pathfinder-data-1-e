@@ -357,7 +357,7 @@
 			"",
 			"::ab[Wendo's Secrets (Ex)]{l=2 icon=boost passive=\"An uda wendo learns most of his information through tales and secrets whispered to him by the wendo. He adds his Charisma bonus (if any) to all Knowledge checks that he attempts in addition to his Intelligence modifier.\" replace=\"Shared seance\"}",
 			"",
-			"::ab[Wendo Tongue (Su)]{l=3 icon=power useL=medium useUnit=minute useNC=1 l3=\"An uda wendo can invoke the wendo to commune with nearby spirits. The uda wendo can use this ability to speak with corpses (as per ‹spell/speak with dead›).\" l5=\"The uda wendo can speak with animals and plants (as per ‹spell/speak with animals› or ‹spell/speak with plants›).\" l7=\"The uda wendo can speak with humanoids (as per ‹spell/tongues›).\" replace=\"Haunt channeler~location channel~connection channel\"}"
+			"::ab[Wendo Tongue (Su)]{icon=power useL=medium useUnit=minute useNC=1 l3=\"An uda wendo can invoke the wendo to commune with nearby spirits. The uda wendo can use this ability to speak with corpses (as per ‹spell/speak with dead›).\" l5=\"The uda wendo can speak with animals and plants (as per ‹spell/speak with animals› or ‹spell/speak with plants›).\" l7=\"The uda wendo can speak with humanoids (as per ‹spell/tongues›).\" replace=\"Haunt channeler~location channel~connection channel\"}"
 		]
 	},
 	"vessel_of_the_failed": {
