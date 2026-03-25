@@ -30,7 +30,7 @@
 			"‹SOURCE Antihero's Handbook/9›  ",
 			"A blatherskite talks big and feels powerful when holding a loaded gun, but when the gun jams or the situation gets too intense, he's the first to run for cover. He has an extraordinary talent for retreating from harm's way and fooling his enemies into thinking he is weaker than he is.",
 			"",
-			"::cskill[Class Skills]{gain=ea~stl lose=ha~intm}",
+			"::cskill{gain=ea~stl lose=ha~intm}",
 			"",
 			"::ab[Deeds]{head icon=power note=\"A blatherskite swaps four deeds for the following.\"}",
 			"",

@@ -428,7 +428,7 @@
 			"",
 			"Talents marked with an asterisk (\\*) are considered Primary Sneak Attack Talents. Only one of these talents can be applied to an individual attack, and the decision of which to use must be made before the attack roll is made.",
 			"",
-			"**Class Skills:** A Sczarni executioner doesn't receive Knowledge (dungeoneering) (Int), Knowledge (geography) (Int), Ride (Dex), or Survival (Wis) as class skills. Instead, he receives Appraise (Int), Diplomacy (Cha), and Escape Artist (Dex) in addition to the other standard slayer class skills.",
+			"::cskill{gain=app~diplo~ea lose=kd~kg~ride~sur}",
 			"",
 			"**Bloodstained Hands (Ex):** A Sczarni executioner must be evil. If he ever becomes nonevil, he loses this archetype and becomes a regular slayer.",
 			"",
