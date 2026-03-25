@@ -2632,6 +2632,7 @@
 		]
 	},
 	"splash_weapon": { "redirect": "throw_splash_weapon" },
+	"grid_intersection": { "redirect": "throw_splash_weapon" },
 	"greater_splash_weapon": {
 		"name": "Greater Splash Weapon",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],

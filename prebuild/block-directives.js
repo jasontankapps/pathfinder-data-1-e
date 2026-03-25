@@ -420,7 +420,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return makeClassSkillsAbilityBlock({
 					marked2, prefix, text,
 					convertEncodedInfo,
-					maybeClear, attrs,
+					maybeClear, attrs, logError,
 					id: makeValidID(text || "Class Skills")
 				});
 			} else if (n === "spellAb") {
