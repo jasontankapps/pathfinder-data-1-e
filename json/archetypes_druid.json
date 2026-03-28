@@ -754,7 +754,19 @@
 			"",
 			"Most halcyon druids serve Nantambu and the surrounding villages - making, memorizing, and arbitrating the unwritten pacts between them. Some halcyon druids, however, are drawn farther afield. They may do so to forge new connections between tribes and villages, to spread the message of peace, or to fight demonic outbreaks.",
 			"",
-			"::ab[Bonded Mask (Su)]{icon=magic ability=\"A halcyon druid forms a powerful bond with a mask, which functions identically to a ‹class/wizard«'s› bonded object except that it can be used to cast druid spells (including those gained from class abilities) instead of wizard spells. A bonded mask must be worn to have an effect, and it occupies the ‹rule/head slot›. A halcyon druid can enhance her mask with abilities appropriate for a head slot item, and can designate an existing head slot item as her bonded mask (but only if it covers her face).\" replace=\"Nature bond\"}",
+			"::ab[Bonded Mask (Su)]{icon=magic ability=\"A halcyon druid forms a powerful bond with a mask, which functions identically to a ‹class/wizard«'s› *bonded object* except that it can be used to cast druid spells (including those gained from class abilities) instead of wizard spells. A *bonded mask* must be worn to have an effect, and it occupies the ‹rule/head slot›. A halcyon druid can enhance her mask with abilities appropriate for a head slot item, and can designate an existing head slot item as her *bonded mask* (but only if it covers her face).\" replace=\"Nature bond\" head}",
+			"",
+			":::ab{next flavor=\"Text from the wizard class\" title=\"Bonded Object\" icon=magic action=Ability}",
+			"",
+			"If you select a bonded object, you begin play with one at no cost. These objects are always masterwork quality. If you attempt to cast a spell without your bonded object worn, you must make a ‹rule/concentration› check or lose the spell. The DC for this check is equal to 20 + the spell's level.",
+			"",
+			"A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities. The bonded object cannot be used to cast spells from your opposition schools.",
+			"",
+			"You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see ‹feat/Craft Magic Arms and Armor›). The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.",
+			"",
+			"If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as your bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.",
+			"",
+			":::",
 			"",
 			"::ab[Magaambya-Trained (Ex)]{icon=skill passive=\"A halcyon druid adds ‹skill/Diplomacy› (CHA) and all ‹skill/Knowledge› (INT) skills to her list of class skills.\" replace=\"Nature sense\" alter=\"Class skills\"}",
 			"",
@@ -766,7 +778,7 @@
 			"",
 			"::ab[Resist Fiendish Influence (Ex)]{l=4 icon=def passive=\"A halcyon druid gains a +4 bonus on saving throws against the spell-like and supernatural abilities of outsiders with the evil subtype and spells with the evil descriptor.\" replace=\"Resist nature's lure\"}",
 			"",
-			"::ab[Embody Mask (Sp)]{l=13 icon=magic standard=\"A halcyon druid wearing her bonded mask can embody the spirit it represents, which can be any Tiny to Large ‹family/agathion›, ‹family/angel›, ‹family/archon›, or ‹family/azata›. This ability functions as per ‹spell/beast shape IV› (using the adjustments for magical beasts), but adds the following abilities if the assumed form has them: *aura of menace, protective aura, speak with animals, telepathy,* and *truespeech.* If the assumed form has ‹umr/immunity› to a condition, the druid gains a +4 bonus on saving throws against effects that cause that condition.\" useL=druid useUnit=minute useNC=1 replace=\"A thousand faces\"}"
+			"::ab[Embody Mask (Sp)]{l=13 icon=magic standard=\"A halcyon druid wearing her *bonded mask* can embody the spirit it represents, which can be any Tiny to Large ‹family/agathion›, ‹family/angel›, ‹family/archon›, or ‹family/azata›. This ability functions as per ‹spell/beast shape IV› (using the adjustments for magical beasts), but adds the following abilities if the assumed form has them: *aura of menace, protective aura, speak with animals, telepathy,* and *truespeech.* If the assumed form has ‹umr/immunity› to a condition, the druid gains a +4 bonus on saving throws against effects that cause that condition.\" useL=druid useUnit=minute useNC=1 replace=\"A thousand faces\"}"
 		]
 	},
 	"jungle_druid": {
