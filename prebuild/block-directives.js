@@ -412,7 +412,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				});
 			} else if (n === "cskill") {
 				churn(n, attrs, [
-					"gain", "lose", "pre", "post", "preTitle", "postTitle"
+					"gain", "lose", "pre", "post", "preTitle", "postTitle", "preHL", "postHL", "noAlter"
 				], [], logError);
 				flags.icon = true;
 				flags.link = true;

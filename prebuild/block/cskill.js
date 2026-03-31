@@ -166,7 +166,7 @@ const makeClassSkillsAbilityBlock = ({
 	logError
 }) => {
 	const {
-		gain, lose, pre, post, preTitle, postTitle, id
+		gain, lose, pre, post, preTitle, postTitle, id, preHL, postHL, noAlter
 	} = attrs;
 	const doParse = (input) => {
 		return marked2.parseInline(convertEncodedInfo(input));
@@ -175,25 +175,29 @@ const makeClassSkillsAbilityBlock = ({
 	if(pre) {
 		contents.push([
 			preTitle || "Info",
-			pre
+			pre,
+			!!preHL
 		]);
 	}
 	if(gain) {
 		contents.push([
 			"New Class Skills",
-			gain.split(/~/).map(g => getSkillBaseAtt(g, logError)).join(", ")
+			gain.split(/~/).map(g => getSkillBaseAtt(g, logError)).join(", "),
+			false
 		]);
 	}
 	if(lose) {
 		contents.push([
 			"Removed Skills",
-			lose.split(/~/).map(g => getSkill(g, logError)).join(", ")
+			lose.split(/~/).map(g => getSkill(g, logError)).join(", "),
+			false
 		]);
 	}
 	if(post) {
 		contents.push([
 			postTitle || "Info",
-			post
+			post,
+			!!postHL
 		]);
 	}
 
@@ -204,15 +208,16 @@ const makeClassSkillsAbilityBlock = ({
 		}" data-hash-target><div className="box">${
 			text ? doParse(text) : "Class Skills"
 		}</div></div>\n`
-		+ '<div className="abPair">'
-		+ '<div className="abStart"><div className="box hl">Alters</div></div>'
-		+ '<div className="abEnd"><div className="box">Class skills</div></div>'
-		+ "</div>"
+		+ (noAlter ? "" : ('<div className="abPair">'
+			+ '<div className="abStart"><div className="box hl">Alters</div></div>'
+			+ '<div className="abEnd"><div className="box">Class skills</div></div>'
+			+ "</div>"
+		))
 		+ `${contents.map(pair => {
-			const [title, info] = pair;
+			const [title, info, hl] = pair;
 			return (
 				'<div className="abPair">'
-				+ '<div className="abStart"><div className="box">'
+				+ `<div className="abStart"><div className="box${hl ? " hl" : ""}">`
 				+ title
 				+ "</div></div>"
 				+ '<div className="abEnd"><div className="box">'
