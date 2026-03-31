@@ -1617,11 +1617,14 @@
 	},
 	"black_blood_of_orv": {
 		"name": "Black Blood of Orv",
-		"sources": [ "Pathfinder #18: Descent into Midnight" ],
+		"sources": [
+			"Pathfinder #18: Descent into Midnight",
+			"Inner Sea Magic"
+		],
 		"description": [
 			"## Black Blood of Orv",
 			"",
-			"‹SOURCE Pathfinder #18: Descent into Midnight/49›",
+			"‹SOURCE Pathfinder #18: Descent into Midnight/49;Inner Sea Magic/33›",
 			"",
 			"**Aura** none; **CL** -  ",
 			"**Slot** none; **Price** -; **Weight** -",
@@ -1636,13 +1639,7 @@
 			"",
 			"Corruption made manifest, few sane minds could conceive of a use for black blood, yet its properties to cruel spellcasters make it one of the most coveted reagents known to necromancers. The noxious fluid repulses and freezes all natural life, though certain creatures posses an uncanny immunity. With the exception of aberrations and undead, any creature who comes into contact with black blood takes 1d6 points of cold damage - 10d6 if fully immersed.",
 			"",
-			"The fluid's most fascinating and coveted property, however, is its latent necromantic power. When removed from the Caltherium or other source, a pint of black blood can be used as ‹eq-weapon/unholy water›. In addition, spellcasters who consume a pint or more of black blood cast all necromantic spells at +1 caster level for the next 10 minutes, but take 3d6 points of damage and 1 point of ‹rule/Constitution damage›. In either case, the blood must be used within an hour of being drawn from its source, as after this time it loses all mystical properties. The spell ‹spell/gentle repose› can preserve a container of up to 1 gallon of black blood away from its source for increased lengths of time.",
-			"",
-			"**Spells:** Certain spells may activate some elf gates, some as simple as ‹spell/knock›, and others arcane inventions long since lost to history.",
-			"",
-			"**Time:** The most commonly used elf gates are of this variety, and operate only under certain celestial conditions. Regardless of an individual's behavior, they only function at specific, pre-determined times, and thus are easiest to stumble across.",
-			"",
-			"**Combination:** The most secure (and powerful) gates require a combination of keys to open. Finding the secret behind one of these gates' operation can be a life-long quest, even for an elf."
+			"The fluid's most fascinating and coveted property, however, is its latent necromantic power. When removed from the Caltherium or other source, a pint of black blood can be used as ‹eq-weapon/unholy water›. In addition, spellcasters who consume a pint or more of black blood cast all necromantic spells at +1 caster level for the next 10 minutes, but take 3d6 points of damage and 1 point of ‹rule/Constitution damage›. In either case, the blood must be used within an hour of being drawn from its source, as after this time it loses all mystical properties. The spell ‹spell/gentle repose› can preserve a container of up to 1 gallon of black blood away from its source for increased lengths of time."
 		]
 	},
 	"black_blood": { "redirect": "black_blood_of_orv" }
