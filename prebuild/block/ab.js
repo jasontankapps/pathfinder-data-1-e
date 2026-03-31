@@ -393,6 +393,9 @@ const makeAbilityBlock = ({
 				);
 			}
 		);
+		if(l) {
+			logError("Error: contains \`l\` attribute (ignored) with one or more \`l#\` attributes.");
+		}
 	} else if (l) {
 		// A single level shows when the ability is gained
 		output.push(
