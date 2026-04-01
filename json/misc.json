@@ -2708,5 +2708,570 @@
 		"topLink": ["Combat", "rule/combat"]
 	},
 	"natural_1": { "redirect": "natural_20_natural_1" },
-	"natural_20": { "redirect": "natural_20_natural_1" }
+	"natural_20": { "redirect": "natural_20_natural_1" },
+	"ability_score": {
+		"name": "Ability Score",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Ability Score",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"Each ‹misc/creature› has six ability scores: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. These scores represent a creature's most basic attributes. The higher the score, the more raw potential and talent your character possesses."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"action": {
+		"name": "Action",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Action",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"An action is a discrete measurement of time during a round of combat. Using abilities, casting spells, and making attacks all require actions to perform. There are a number of ‹rule/different kinds of »actions<_in_combat›, such as a standard action, move action, swift action, free action, and full-round action."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"alignment": {
+		"name": "Alignment",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Alignment",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"Alignment represents a creature's basic moral and ethical attitude. Alignment has two components: one describing whether a ‹misc/creature› is lawful, neutral, or chaotic, followed by another that describes whether a character is good, neutral, or evil. Alignments are usually abbreviated using the first letter of each alignment component, such as LN for lawful neutral or CE for chaotic evil. Creatures that are neutral in both components are denoted by a single \"N.\""
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"armor_class": {
+		"name": "Armor Class (AC)",
+		"tags": "ac",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Armor Class (AC)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"All creatures in the game have an Armor Class. This score represents how hard it is to hit a ‹misc/creature› in combat. As with other scores, higher is better."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"base_attack_bonus": {
+		"name": "Base Attack Bonus (BAB)",
+		"tags": "bab",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Base Attack Bonus (BAB)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"Each ‹misc/creature› has a base attack bonus and it represents its skill in combat. As a character gains ‹misc/level«s› or ‹misc/Hit Dice›, his base attack bonus improves. When a creature's base attack bonus reaches +6, +11, or +16, he receives an additional attack in combat when he takes a full-attack action (which is one type of ‹rule/full-round action<s›)."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"bonus": {
+		"name": "Bonus",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Bonus",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"Bonuses are numerical values that are added to ‹misc/check«s› and statistical scores. Most bonuses have a type, and as a general rule, bonuses of the same type are not cumulative (do not ‹misc/\"stack\"›) - only the greater bonus granted applies."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"caster_level": {
+		"name": "Caster Level (CL)",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Caster Level (CL)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"Caster level represents a creature's power and ability when casting spells. When a ‹misc/creature› casts a spell, it often contains a number of variables, such as range or damage, that are based on the caster's level."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"class": {
+		"name": "Class",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Class",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"‹main/Classes› represent chosen professions taken by characters and some other creatures. Classes give a host of bonuses and allow characters to take actions that they otherwise could not, such as casting spells or changing shape. As a ‹misc/creature› gains ‹misc/level«s› in a given class, it gains new, more powerful abilities. Most PCs gain levels in the core classes or prestige classes, since these are the most powerful. Most NPCs gain levels in NPC classes, which are less powerful."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"check": {
+		"name": "Check",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Check",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"A check is a d20 roll which may or may not be modified by another value. The most common types are attack rolls, skill checks, ability checks, and ‹misc/saving throw«s›."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"combat_maneuver": {
+		"name": "Combat Maneuver",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Combat Maneuver",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"This is ‹rule/an action taken in »combat<_maneuvers› that does not directly cause harm to your opponent, such as attempting to trip him, disarm him, or grapple with him."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"combat_maneuver_bonus": {
+		"name": "Combat Maneuver Bonus (CMB)",
+		"tags": "cmb",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Combat Maneuver Bonus (CMB)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"This value represents how skilled a ‹misc/creature› is at performing a ‹misc/combat maneuver›. When attempting to perform a combat maneuver, this value is added to the character's d20 roll."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"combat_maneuver_defense": {
+		"name": "Combat Maneuver Defense (CMD)",
+		"tags": "cmd",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Combat Maneuver Defense (CMD)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"This score represents how hard it is to perform a ‹misc/combat maneuver› against this ‹misc/creature›. A creature's CMD is used as the ‹misc/difficulty class› when performing a maneuver against that creature."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"concentration_check": {
+		"name": "Concentration Check",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Concentration Check",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"When a ‹misc/creature› is casting a spell, but is disrupted during the casting, he must make a ‹rule/concentration« check› or fail to cast the spell."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"creature": {
+		"name": "Creature",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Creature",
+			"",
+			"‹SOURCE PRPG Core Rulebook/11›",
+			"",
+			"A creature is an active participant in the story or world. This includes PCs, NPCs, and monsters."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"damage_reduction": {
+		"name": "Damage Reduction (DR)",
+		"tags": "dr",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Damage Reduction (DR)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"Creatures that are resistant to harm typically have damage reduction. This amount is subtracted from any damage dealt to them from a physical source. Most types of DR can be bypassed by certain types of weapons. This is denoted by a number followed by the type, such as \"10/cold iron.\" Some types of DR apply to all physical attacks. Such DR is denoted with a dash instead of a type, e.g. \"5/-.\""
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"difficulty_class": {
+		"name": "Difficulty Class (DC)",
+		"tags": "dc",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Difficulty Class (DC)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"Whenever a ‹misc/creature› attempts to perform an action whose success is not guaranteed, he must make some sort of ‹misc/check› (usually a skill check). The result of that check must meet or exceed the Difficulty Class of the action that the creature is attempting to perform in order for the action to be successful."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"extraordinary_abilities": {
+		"name": "Extraordinary Abilities (Ex)",
+		"tags": "ex",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Extraordinary Abilities (Ex)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"Extraordinary abilities are unusual abilities that do not rely on magic to function."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"experience_points": {
+		"name": "Experience Points (XP)",
+		"tags": "xp",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Experience Points (XP)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"As a character overcomes challenges, defeats monsters, and completes quests, he gains experience points. These points accumulate over time, and when they reach or surpass a specific value, the character gains a ‹misc/level›."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"feat": {
+		"name": "Feat",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Feat",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"A feat is an ability a ‹misc/creature› has mastered. Feats often allow creatures to circumvent rules or restrictions. Creatures receive a number of feats based off their ‹misc/Hit Dice›, but some classes and other abilities grant bonus feats."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"game_master": {
+		"name": "Game Master (GM)",
+		"tags": "gm",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Game Master (GM)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"A Game Master is the person who adjudicates the rules and controls all of the elements of the story and world that the players explore. A GM's duty is to provide a fair and fun game."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"gm": { "redirect": "game_master" },
+	"hit_dice": {
+		"name": "Hit Dice (HD)",
+		"tags": "hd",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Hit Dice (HD)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"Hit Dice represent a creature's general level of power and skill. As a ‹misc/creature› gains ‹misc/level«s›, it gains additional Hit Dice. Monsters, on the other hand, gain racial Hit Dice, which represent the monster's general prowess and ability. Hit Dice are represented by the number the creature possesses followed by a type of die, such as \"3d8.\" This value is used to determine a creature's total hit points. In this example, the creature has 3 Hit Dice. When rolling for this creature's hit points, you would roll a d8 three times and add the results together, along with other modifiers."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"hit_points": {
+		"name": "Hit Points (hp)",
+		"tags": "hp",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Hit Points (hp)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"Hit points are an abstraction signifying how robust and healthy a ‹misc/creature› is at the current moment. To determine a creature's hit points, roll the dice indicated by its ‹misc/Hit Dice›. A creature gains maximum hit points if its first Hit Die roll is for a character class level. Creatures whose first Hit Die comes from an NPC class or from his race roll their first Hit Die normally. Wounds subtract hit points, while healing (both natural and magical) restores hit points. Some abilities and spells grant ‹rule/temporary hit points› that disappear after a specific duration. When a creature's hit points drop below 0, it becomes ‹misc/unconscious›. When a creature's hit points reach a negative total equal to its Constitution score, it dies."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"initiative": {
+		"name": "Initiative",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Initiative",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"Whenever combat begins, all ‹misc/creature«s› involved in the battle must make an initiative ‹misc/check› to determine the order in which creatures act during combat. The higher the result of the check, the earlier a creature gets to act."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"level": {
+		"name": "Level",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Level",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"A character's level represents his overall ability and power. There are three types of levels. Class level is the number of levels of a specific ‹misc/class› possessed by a character. Character level is the sum of all of the levels possessed by a character in all of his classes. In addition, spells have a level associated with them numbered from 0 to 9. This level indicates the general power of the spell. As a spellcaster gains levels, he learns to cast spells of a higher level."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"monster": {
+		"name": "Monster",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Monster",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"Monsters are ‹misc/creature«s› that rely on racial ‹misc/Hit Dice› instead of class ‹misc/level«s› for their powers and abilities (although some possess class levels as well). PCs are usually not monsters."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"multiplying": {
+		"name": "Multiplying",
+		"tags": "multipliers",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Multiplying",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"When you are asked to apply more than one multiplier to a roll, the multipliers are not multiplied by one another. Instead, you combine them into a single multiplier, with each extra multiple adding 1 less than its value to the first multiple. For example, if you are asked to apply a &times;2 multiplier twice, the result would be &times;3, not &times;4."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"non_player_character": {
+		"name": "Non-Player Character (NPC)",
+		"tags": "npc",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Non-Player Character (NPC)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"These are characters controlled by the ‹misc/GM›."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"penalty": {
+		"name": "Penalty",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Penalty",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"Penalties are numerical values that are subtracted from a ‹misc/check› or statistical score. Penalties do not have a type and most penalties ‹misc/stack› with one another."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"player_character": {
+		"name": "Player Character (Character, PC)",
+		"tags": "pc",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Player Character (Character, PC)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"These are the characters portrayed by the players."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"round": {
+		"name": "Round",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Round",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"Combat is measured in rounds. During an individual round, all ‹misc/creature«s› have a chance to take a turn to act, in order of ‹misc/initiative›. A round represents 6 seconds in the game world."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"rounding": {
+		"name": "Rounding",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Rounding",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"Occasionally the rules ask you to round a result or value. Unless otherwise stated, always round down. For example, if you are asked to take half of 7, the result would be 3."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"saving_throw": {
+		"name": "Saving Throw",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Saving Throw",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"When a ‹misc/creature› is the subject of a dangerous spell or effect, it often receives a ‹rule/saving throw<s› to mitigate the damage or result. Saving throws are passive, meaning that a character does not need to take an action to make a saving throw - they are made automatically. There are three types of saving throws: Fortitude (used to resist poisons, diseases, and other bodily ailments), Reflex (used to avoid effects that target an entire area, such as fireball), and Will (used to resist mental attacks and spells)."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"skill": {
+		"name": "Skill",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Skill",
+			"",
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"A ‹main/skill<s› represents a creature's ability to perform an ordinary task, such as climb a wall, sneak down a hallway, or spot an intruder. The number of ranks possessed by a ‹misc/creature› in a given skill represents its proficiency in that skill. As a creature gains ‹misc/Hit Dice›, it also gains additional skill ranks that can be added to its skills."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"spell": {
+		"name": "Spell",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Spell",
+			"",
+			"‹SOURCE PRPG Core Rulebook/13›",
+			"",
+			"Spells can perform a wide variety of tasks, from harming enemies to bringing the dead back to life. Spells specify what they can target, what their effects are, and how they can be resisted or negated."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"spell_like_abilities": {
+		"name": "Spell-Like Abilities (Sp)",
+		"tags": "sp",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Spell-Like Abilities (Sp)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/13›",
+			"",
+			"Spell-like abilities function just like spells, but are granted through a special racial ability or by a specific ‹misc/class› ability (as opposed to spells, which are gained by spellcasting classes as a character gains levels)."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"spell_resistance": {
+		"name": "Spell Resistance (SR)",
+		"tags": "sr",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Spell Resistance (SR)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/13›",
+			"",
+			"Some ‹misc/creature«s› are resistant to magic and gain spell resistance. When a creature with spell resistance is targeted by a spell, the caster of the spell must make a caster level check to see if the spell affects the target. The DC of this check is equal to the target creature's SR (some spells do not allow SR checks)."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"stacking": {
+		"name": "Stacking",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Stacking",
+			"",
+			"‹SOURCE PRPG Core Rulebook/13›",
+			"",
+			"Stacking refers to the act of adding together bonuses or penalties that apply to one particular check or statistic. Generally speaking, most ‹misc/bonus«es› of the same type do not stack. Instead, only the highest bonus applies. Most ‹misc/penalt«ies<y› do stack, meaning that their values are added together. Penalties and bonuses generally stack with one another, meaning that the penalties might negate or exceed part or all of the bonuses, and vice versa."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"stack": { "redirect": "stacking" },
+	"supernatural_abilities": {
+		"name": "Supernatural Abilities (Su)",
+		"tags": "su",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Supernatural Abilities (Su)",
+			"",
+			"‹SOURCE PRPG Core Rulebook/13›",
+			"",
+			"Supernatural abilities are magical attacks, defenses, and qualities. These abilities can be always active or they can require a specific action to utilize. The supernatural ability's description includes information on how it is used and its effects."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"turn": {
+		"name": "Turn",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Turn",
+			"",
+			"‹SOURCE PRPG Core Rulebook/13›",
+			"",
+			"In a ‹misc/round›, a ‹misc/creature› receives one turn, during which it can perform a wide variety of ‹misc/action«s›. Generally in the course of one turn, a character can perform one standard action, one move action, one swift action, and a number of free actions. Less-common combinations of actions are permissible as well, see ‹rule/Actions in Combat› for more details."
+		],
+		"searchgroup": "rule",
+		"type": "Common Terms",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	}
 }
