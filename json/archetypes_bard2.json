@@ -484,7 +484,7 @@
 			"",
 			"::ab[Call the Storm (Su)]{next icon=magic l18=\"A sea singer can use performance to duplicate ‹spell/control water›, ‹spell/control weather›, ‹spell/control winds›, or ‹spell/storm of vengeance›, using his bard level as the caster level. Using this ability requires 1 round of continuous performance per level of the spell (as if he were a ‹class/druid›). These effects continue for as long as the bard continues performing (the effects of *control weather* happen immediately), but not longer than the spell's normal duration.\" replace=\"Mass suggestion\"}",
 			"",
-			"::ab[World Traveler (Ex)]{icon=boost-roll passive=\"A sea singer gains a bonus equal to ‹misc/half› his bard level on Knowledge (geography), Knowledge (local), Knowledge (nature), and Linguistics checks.\" ability=\"He can reroll a check against one of these skills, but must take the result of the second roll even if it is worse.\" order=pau useInc=\"5~fighter~+\" replace=\"Bardic knowledge\"}",
+			"::ab[World Traveler (Ex)]{icon=boost-roll passive=\"A sea singer gains a bonus equal to ‹misc/half› his bard level on Knowledge (geography), Knowledge (local), Knowledge (nature), and Linguistics checks.\" ability=\"He can reroll a check against one of these skills, but must take the result of the second roll even if it is worse.\" order=pau useInc=\"5~bard~+\" replace=\"Bardic knowledge\"}",
 			"",
 			"::ab[Familiar]{l=2 icon=power ability=\"A sea singer acquires an exotic pet - a ‹monster/monkey› or parrot (treat as ‹monster/raven›) - that gains abilities as a wizard's ‹ability/familiar›, using the sea singer's bard level as his wizard level.\" replace=\"Versatile performance\"}",
 			"",

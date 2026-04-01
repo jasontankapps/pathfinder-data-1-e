@@ -742,7 +742,7 @@ const _sea_singer = {title: "Sea Singer", jsx: <><h2 id="arc-bard-sea_singer-sea
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bardic knowledge</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">A sea singer gains a bonus equal to <Link to="/misc/half">half</Link> his bard level on Knowledge (geography), Knowledge (local), Knowledge (nature), and Linguistics checks.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">He can reroll a check against one of these skills, but must take the result of the second roll even if it is worse.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per five fighter levels</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per five bard levels</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-bard-sea_singer-familiar" data-hash-target><div className="box">Familiar</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Versatile performance</div></div></div>
