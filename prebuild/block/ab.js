@@ -89,7 +89,7 @@ const makeAbilityBlock = ({
 		standard, swift, immediate,
 		fullround, move, free,
 		provokes, special, note, choice,
-		passive, ability, ability2,
+		passive, ability, ability2, ability3,
 		order,
 		usage, useNC,
 		useL, useM, useL3, // default useUnit is "round"
@@ -209,6 +209,7 @@ const makeAbilityBlock = ({
 			p: passive,
 			a: ability,
 			"2": ability2,
+			"3": ability3,
 			u: use,
 			n: note,
 			c: choice,
@@ -227,8 +228,8 @@ const makeAbilityBlock = ({
 	} else {
 		const all = [
 			standard, swift, immediate, fullround,
-			move, free, passive, ability, ability2, note,
-			choice, containerInfo
+			move, free, passive, ability, ability2,
+			ability3, note, choice, containerInfo
 		].filter(x => x);
 		if(all.length > 1) {
 			logError(`${all.length} abilities found, but no "order" prop was given. [${text}]`);
@@ -456,8 +457,11 @@ const makeAbilityBlock = ({
 					title = "Passive Ability";
 					what = passive;
 					break;
+				case "3":
+					what = ability3;
+					// pass-through
 				case "2":
-					what = ability2;
+					what = what || ability2;
 					// pass-through
 				case "a":
 					title = "Ability";

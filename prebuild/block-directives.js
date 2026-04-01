@@ -381,22 +381,18 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"clear", "jl", "id", "flavor", "indent",
 					"sub", "head", "icon", "next",
 					"l", "imp",
-					"increment", "incrementAt", "incrementEnd",
-					"incrementPlain", "incrementDesc", "incrementOrd",
-					"incrementMulti", "incrementMax",
 					"repeat", "repeatAt",
 					"standard", "swift", "immediate",
 					"fullround", "move", "free",
-					"provokes", "special", "note", "choice",
-					"ability", "ability2", "passive",
-					"order",
-					"usage", "useNC",
-					"useL", "useM", "useMod",
-					"useL3", "useInc",
-					"useUnit",
+					"passive", "special", "note", "choice",
+					"provokes", "order",
+					"usage",
 					"replace", "alter", "type", "prereq"
 				], [
-					/^(s0|([sl]|imp)(1?[1-9]|[12]0))$/
+					/^(s0|([sl]|imp)(1?[1-9]|[12]0))$/,
+					/^ability[23]?$/,
+					/^use(NC|L3?|M(od)?|Inc|Unit)$/,
+					/^increment(At|End|Plain|Desc|Ord|Multi|Max)?$/
 				], logError);
 				flags.icon = true;
 				flags.link = true;
