@@ -853,7 +853,7 @@
 			"",
 			"::aff{iconP start type=Injury saveF=15 freqR=6 eff=\"1d2 ‹rule/Wis damage›. Additionally, the creature has double vision, imposing a 50% miss chance on its attacks against all opponents. Blind creatures are unaffected by this additional effect\" cure1}",
 			"",
-			"‹arc-oracle/Pei Zin<_practitioner› herbalists accidentally created diplopic serum while attempting to devise a treatment for cataracts. Derived from dew of lunary, this aromatic pink serum temporarily affects a creature's vision systems, in addition to temporarily impairing its mental faculties."
+			"‹rule/Pei Zin herbalis«ts<m› accidentally created diplopic serum while attempting to devise a treatment for cataracts. Derived from dew of lunary, this aromatic pink serum temporarily affects a creature's vision systems, in addition to temporarily impairing its mental faculties."
 		]
 	},
 	"malyass_root_paste": {
