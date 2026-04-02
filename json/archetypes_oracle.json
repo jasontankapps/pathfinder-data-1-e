@@ -136,9 +136,9 @@
 			"",
 			"::ab[Revelations]{head icon=power repeatAt=\"A dual-cursed oracle gains a bonus revelation.~5~13\" special=\"The cursed oracle may select the following revelations in place of a mystery revelation.\"}",
 			"",
-			"::ab[Misfortune (Ex)]{next l=1 icon=roll immediate=\"You can force a creature within 30 feet to reroll any one d20 roll that it has just made before the results of the roll are revealed. The creature must take the result of the reroll, even if it's worse than the original roll.\" special=\"Once a creature has suffered from your misfortune, it cannot be the target of this revelation again for 1 day.\"}",
+			"::ab[Misfortune (Ex)]{next icon=roll immediate=\"You can force a creature within 30 feet to reroll any one d20 roll that it has just made before the results of the roll are revealed. The creature must take the result of the reroll, even if it's worse than the original roll.\" special=\"Once a creature has suffered from your misfortune, it cannot be the target of this revelation again for 1 day.\"}",
 			"",
-			"::ab[Fortune (Ex)]{next l=5 icon=roll immediate=\"You can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll.\" useInc=\"6~oracle~5\" useF=\"5~1~6\"}"
+			"::ab[Fortune (Ex)]{next prereq=\"5th-level oracle\" icon=roll immediate=\"You can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll.\" useInc=\"6~oracle~5\" useF=\"5~1~6\"}"
 		]
 	},
 	"elementalist_oracle": {
@@ -163,7 +163,7 @@
 			"",
 			":::ab{title=\"Elemental Form (Su)\" action=Ability next l=11 icon=power}",
 			"",
-			"You gain the air, earth, fire, or water subtype and an associated ability:",
+			"You gain the ‹subtype/air›, ‹subtype/earth›, ‹subtype/fire›, or ‹subtype/water› subtype and an associated ability:",
 			"",
 			"- @HL[Air:] Fly speed of 30 feet with perfect maneuverability.",
 			"- @HL[Earth:] ‹umr/Tremorsense› with a range of 30 feet.",
@@ -336,7 +336,7 @@
 			"",
 			"::ab[Planar Resistance (Su)]{next l=3 icon=def ability=\"You gain energy resistance 10 against one energy type associated with your chosen plane.\" imp11=\"Your energy resistance increases to 20.\"}",
 			"",
-			"::ab[Final Revelation]{l=20 icon=power ability=\"You become an extraplanar creature. Choose one outer plane, such as Heaven or the Abyss. You gain superficial physical characteristics as appropriate to natives of your chosen outer plane. For example, if your chosen plane is Heaven, you gain angelic features such as a halo and metallic skin. This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Your type changes to ‹type/outsider› (‹subtype/extraplanar›), except on your associated plane, where your type is outsider (native).\" passive=\"In addition, you gain immunity to your associated energy type and gain damage reduction 10/magic. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type.\" order=ap replace=\"Final revelation\"}"
+			"::ab[Final Revelation]{l=20 icon=power-def ability=\"You become an extraplanar creature. Choose one outer plane, such as Heaven or the Abyss. You gain superficial physical characteristics as appropriate to natives of your chosen outer plane. For example, if your chosen plane is Heaven, you gain angelic features such as a halo and metallic skin. This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Your type changes to ‹type/outsider› (‹subtype/extraplanar›), except on your associated plane, where your type is outsider (native).\" passive=\"In addition, you gain immunity to your associated energy type and gain damage reduction 10/magic. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type.\" order=ap replace=\"Final revelation\"}"
 		]
 	},
 	"possessed_oracle": {
@@ -352,7 +352,7 @@
 			"",
 			"::ab[Oracle's Curse]{icon=info note=\"A possessed oracle must choose the ‹oraclecurse/haunted›, ‹oraclecurse/pranked›, or ‹oraclecurse/tongues› curse at 1st level.\"}",
 			"",
-			"::ab[Bonus Spells]{icon=learn note=\"The oracle gains these bonus spells at the listed levels.\" replace=\"The bonus spells gained at 1st,@FN1-1 4th, 6th, 8th, 10th, 12th, and 16th levels from the oracle's mystery\" s1=\"Ventriloquism~ @FN1-2\" s4=\"Spider climb\" s6=Screech s8=Sleepwalk s10=Telekinesis s12=\"Animate objects\" s16=\"Divine vessel\"}",
+			"::ab[Bonus Spells]{icon=learn note=\"The oracle gains these bonus spells at the listed levels.\" replace=\"The bonus spells gained at 1st,@FN1 4th, 6th, 8th, 10th, 12th, and 16th levels from the oracle's mystery\" s1=\"Ventriloquism~ @FN1-2\" s4=\"Spider climb\" s6=Screech s8=Sleepwalk s10=Telekinesis s12=\"Animate objects\" s16=\"Divine vessel\"}",
 			"",
 			"::ab[Revelations]{head icon=info l1=\"A possessed oracle must take the following revelation.\"}",
 			"",
@@ -435,7 +435,7 @@
 			"::ab[Revelations]{head icon=info note=\"A reincarnated oracle must take the following revelations at one of the listed levels.\"}",
 			"",
 			"::ab[Location Memories (Su)]{next icon=power-boost useMod=Charisma3 swift=\"You may search your past lives for memories of or insight about your current location. This grants you the ‹umr/scent› ability, low-light vision, and a +2 insight bonus on Perception and Survival checks for 1 minute.\" special=\"You must take this revelation at 1st level or 3rd level.\"}",
-			">",
+			"",
 			"::ab[Spirit Memories (Su)]{next icon=zap-lower ability=\"Once per day, you call upon the unfulfilled desires and goals of your past lives and project their frustration and despair through your eyes at a target. This is a ‹umr/gaze› attack affecting one creature. The target must make a Will save (DC 10 + 1/2 your oracle level + your Charisma modifier) or be ‹misc/sickened› and ‹misc/staggered› for 1 round. This is a mind-affecting compulsion effect.\" useMod=Charisma3 special=\"You must take this revelation at 1st, 3rd, or 7th level.\"}"
 		]
 	},
@@ -512,19 +512,17 @@
 			"‹SOURCE Advanced Race Guide/164›  ",
 			"The shigenjo walks the path of enlightenment and transcendence by seeking oneness with the celestial spirits. In doing so, she unlocks the martial potential of her own spiritual power. A shigenjo has the following class features.",
 			"",
-			"::prereq{r=Tengu}",
+			"::prereq{r=Tengu other=\"Alignment must have a neutral component\"}",
 			"",
 			"::cskill{gain=sur lose=diplo}",
-			"",
-			"::prereq{other=\"Alignment must have a neutral component\"}",
 			"",
 			"@HL[Recommended Mysteries:] ‹mystery/ancestor›, ‹mystery/battle›, ‹mystery/flame›, ‹mystery/heavens›, ‹mystery/lore›, ‹mystery/metal›, ‹mystery/nature›, ‹mystery/stone›, ‹mystery/time›, ‹mystery/waves›, ‹mystery/wood›.",
 			"",
 			"::ab[Bonus Spells]{icon=learn note=\"The oracle gains these bonus spells at the listed levels.\" replace=\"The bonus spells gained at 2nd, 4th, 8th, 12th, 14th, and 16th levels from the oracle's mystery\" s2=\"True strike\" s4=\"Alter self\" s8=\"Divine power\" s12=\"Magic jar\" s14=\"Ki shout\" s16=\"Moment of prescience\"}",
 			"",
-			"::ab[Ki Pool (Su)]{l=7 icon=magic ability=\"A shigenjo gains a pool of ki points, supernatural energy she can use to accomplish amazing feats. The number of points in the shigenjo's *ki pool* is equal to ‹misc/one-third› of her oracle level + her Charisma modifier. The *ki pool* is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.\" order=an note=\"If the shigenjo possesses levels in another class that grants points to a *ki pool,* ki points gained from the shigenjo class stack with those gained from the other class to determine the total number of ki points in the combined *pool,* but only one ability score modifier is added to the total. The choice of which score to use is made when the second class ability is gained, and once made, the choice is permanent.\" special=\"The shigenjo can use ki points from this *pool* to power the abilities of every class she possesses that grants a *ki pool.*\" replace=\"7th-level revelation\"}}",
+			"::ab[Ki Pool (Su)]{l=7 icon=magic ability=\"A shigenjo gains a pool of ki points, supernatural energy she can use to accomplish amazing feats. The number of points in the shigenjo's *ki pool* is equal to ‹misc/one-third› of her oracle level + her Charisma modifier. The *ki pool* is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.\" order=an note=\"If the shigenjo possesses levels in another class that grants points to a *ki pool,* ki points gained from the shigenjo class stack with those gained from the other class to determine the total number of ki points in the combined *pool,* but only one ability score modifier is added to the total. The choice of which score to use is made when the second class ability is gained, and once made, the choice is permanent.\" special=\"The shigenjo can use ki points from this *pool* to power the abilities of every class she possesses that grants a *ki pool.*\" replace=\"7th-level revelation\"}",
 			"",
-			"::ab[Ki Abilities]{ability=\"As long as she has at least 1 point in her *ki pool,* a shigenjo can make a *ki strike* as an ‹class/unchained monk› whose level is equal to her oracle level - 3.\" swift=\"She may spend 1 point of ki to gain one of the following benefits.\" order=aw icon=melee-power}",
+			"::ab[Ki Abilities]{head ability=\"As long as she has at least 1 point in her *ki pool,* a shigenjo can make a *ki strike* as an ‹class/unchained monk› whose level is equal to her oracle level - 3.\" swift=\"She may spend 1 point of ki to gain one of the following benefits.\" order=aw icon=melee-power}",
 			"",
 			"::ab[Ki Magic]{next icon=boost passive=\"Add +1 to the DC of the next spell she casts on her turn.\"}",
 			"",
@@ -548,7 +546,7 @@
 			"",
 			"::cskill{gain=ka~kd~ke~kg~kl~kna~kno noAlter preTitle=Replaces pre=\"Bonus skills from the oracle's mystery\" preHL}",
 			"",
-			"::ab[Bonded Spirit (Su)]{l=3 icon=magic order=a2 ability=\"A spirit guide can form a temporary bond with a spirit, as the ‹class/shaman«'s› *wandering spirit* class feature. She must make this selection each day when she refreshes her spells. A spirit guide cannot bond with a spirit that is incompatible with her alignment, ethos, or mystery (GM's discretion).\" ability2=\"A spirit guide gains one hex of her choice from the list of hexes available from that spirit. She uses her oracle level as her shaman level, and she switches Wisdom for Charisma and vice versa for the purpose of determining the hex's effects.\" imp4=\"She adds the bonded spirit's *spirit magic* spells to her oracle spells known for that day, but only of spell levels she can cast.\" imp7=\"She gains the *spirit ability* of her current bonded spirit.\" imp15=\"She gains the *greater spirit ability* of her current bonded spirit.\" replace=\"Revelations gained at 3rd, 7th, and 15th levels\"}",
+			"::ab[Bonded Spirit (Su)]{l=3 icon=magic order=a2 ability=\"A spirit guide can form a temporary bond with a spirit, as the ‹class/shaman«'s› *wandering spirit* class feature. She must make this selection each day when she refreshes her spells. A spirit guide cannot bond with a ‹ability/shaman_>spirit<s› that is incompatible with her alignment, ethos, or mystery (GM's discretion).\" ability2=\"A spirit guide gains one hex of her choice from the list of hexes available from that spirit. She uses her oracle level as her shaman level, and she switches Wisdom for Charisma and vice versa for the purpose of determining the hex's effects.\" imp4=\"She adds the bonded spirit's *spirit magic* spells to her oracle spells known for that day, but only of spell levels she can cast.\" imp7=\"She gains the *spirit ability* of her current bonded spirit.\" imp15=\"She gains the *greater spirit ability* of her current bonded spirit.\" replace=\"Revelations gained at 3rd, 7th, and 15th levels\"}",
 			"",
 			"@HL[Recommended Mysteries:] ‹mystery/Ancestor›, ‹mystery/heavens›, ‹mystery/lore›."
 		]
