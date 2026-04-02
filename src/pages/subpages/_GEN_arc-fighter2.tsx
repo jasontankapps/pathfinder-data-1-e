@@ -1,6 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
+import ByLevelPop from '../../components/ByLevelPop';
 const _opportunist = {title: "Opportunist", jsx: <><h2 id="arc-fighter-opportunist-opportunist">Opportunist</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 20</Link><br/>Opportunists believe every battle is one of wits rather than arms. The ratfolk enforcers who protect Goka's infamous Deepmarket embrace this philosophy, unleashing a disorienting mix of martial skill and alchemical weaponry.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-fighter-opportunist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ratfolk">Ratfolk</Link></td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
@@ -24,7 +25,7 @@ const _opportunist = {title: "Opportunist", jsx: <><h2 id="arc-fighter-opportuni
 <div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">He can select a fifth edge.</div></div></div></div>
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-fighter-opportunist-alchemical-admixture-ex" data-hash-target><div className="box">Alchemical Admixture (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day per four fighter levels</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day per four fighter levels<ByLevelPop levels={[[4,1],[8,2],[12,3],[16,4],[20,5]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Full-Round Action</div></div><div className="abEnd"><div className="box">The opportunist can combine two alchemical weapons into a single vial. When thrown as a splash weapon, the mixture has the effects of both component substances and targets are affected as if hit by both. The mixture becomes inert after 1 hour. Combining identical alchemical weapons has no effect.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Provokes <Link to="/rule/aoo">AoO?</Link></div></div><div className="abEnd"><div className="box">Yes</div></div></div></div>
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/armor-downgrade"><IonIcon icon="/icons/armor-downgrade.svg" color="secondary" /></Link></div>
@@ -105,7 +106,7 @@ const _phalanx_soldier = {title: "Phalanx Soldier", jsx: <><h2 id="arc-fighter-p
 <div className="title abSingle" id="arc-fighter-phalanx_soldier-ready-pike-ex" data-hash-target><div className="box">Ready Pike (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Weapon training 1</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per four fighter levels beyond 5th</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per four fighter levels beyond 5th<ByLevelPop levels={[[5,1],[9,2],[13,3],[17,4]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Immediate Action</div></div><div className="abEnd"><div className="box">A phalanx soldier can <Link to="/rule/ready">ready</Link> a weapon with the <Link to="/misc/brace">brace</Link> property, gaining a +1 bonus on attack and damage rolls.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">This bonus becomes +2.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">This bonus increases to +3.</div></div></div>
@@ -226,7 +227,7 @@ const _relic_master = {title: "Relic Master", jsx: <><h2 id="arc-fighter-relic_m
 <div className="title abSingle" id="arc-fighter-relic_master-improved-item-mastery-su" data-hash-target><div className="box">Improved Item Mastery (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Armor training</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per four fighter levels beyond 3rd</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per four fighter levels beyond 3rd<ByLevelPop levels={[[3,1],[7,2],[11,3],[15,4],[19,5]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A relic master can use an <Link to="/main/feats_item_mastery">item mastery feat</Link> she knows with a magic item that doesn't have an appropriate spell in its construction requirements. The magic item must meet all other requirements of the item mastery feat. Alternatively, if she is using a magic item with an appropriate spell in its construction requirements, she can use an item mastery feat without it counting against the feat's total uses per day.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-fighter-relic_master-relic-channeler-su" data-hash-target><div className="box">Relic Channeler (Su)</div></div>
@@ -275,7 +276,7 @@ const _roughrider = {title: "Roughrider", jsx: <><h2 id="arc-fighter-roughrider-
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 11th Level</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">A roughrider's mount does not reduce its speed when wearing heavy barding or carrying a heavy load.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The roughrider may reroll a Ride skill check or a saving throw made by the mount, but must use the second roll even if it is worse.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per four fighter levels beyond 11th</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per four fighter levels beyond 11th<ByLevelPop levels={[[11,1],[15,2],[19,3]]} unit="time" postText="/day" /></div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/mailed-fist"><IonIcon icon="/icons/mailed-fist.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-fighter-roughrider-ride-them-down-ex" data-hash-target><div className="box">Ride Them Down (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Armor training 4</div></div></div>
@@ -364,7 +365,7 @@ const _seasoned_commander = {title: "Seasoned Commander", jsx: <><h2 id="arc-fig
 <div className="title abSingle" id="arc-fighter-seasoned_commander-tactician-ex" data-hash-target><div className="box">Tactician (Ex)</div><div className="flavor">Text from the cavalier class</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You receive a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. You must meet the prerequisites for this feat.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">You can grant this feat to all allies within 30 feet who can see and hear you. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every two levels you possess. Allies do not need to meet the prerequisites of these bonus feats.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per five fighter levels</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per five fighter levels<ByLevelPop levels={[[3,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-fighter-seasoned_commander-inspiring-speech-ex" data-hash-target><div className="box">Inspiring Speech (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Weapon training 1 and 3</div></div></div>
@@ -1340,7 +1341,7 @@ const _weapon_master = {title: "Weapon Master", jsx: <><h2 id="arc-fighter-weapo
 <div className="title abSingle" id="arc-fighter-weapon_master-reliable-strike-ex" data-hash-target><div className="box">Reliable Strike (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Weapon training 1</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day per five fighter levels</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day per five fighter levels<ByLevelPop levels={[[5,1],[10,2],[15,3],[20,4]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Immediate Action</div></div><div className="abEnd"><div className="box">A weapon master may reroll an attack roll, critical hit confirmation roll, miss chance check, or damage roll. He must accept the second roll even if it is worse.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-fighter-weapon_master-mirror-move-ex" data-hash-target><div className="box">Mirror Move (Ex)</div></div>
@@ -1351,7 +1352,7 @@ const _weapon_master = {title: "Weapon Master", jsx: <><h2 id="arc-fighter-weapo
 <div className="title abSingle" id="arc-fighter-weapon_master-deadly-critical-ex" data-hash-target><div className="box">Deadly Critical (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Weapon training 3</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 13th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per three fighter levels beyond 13th</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per three fighter levels beyond 13th<ByLevelPop levels={[[13,1],[16,2],[19,3]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Immediate Action</div></div><div className="abEnd"><div className="box">When a weapon master confirms a critical hit with his chosen weapon, he can increase the weapon's damage multiplier by +1.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-fighter-weapon_master-critical-specialist-ex" data-hash-target><div className="box">Critical Specialist (Ex)</div></div>

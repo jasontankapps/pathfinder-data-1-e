@@ -32,7 +32,7 @@
 			"",
 			"::ab[Black Blood Revelations]{head icon=power note=\"All black-blooded oracles have access to the following revelations, regardless of what mystery they choose.\"}",
 			"",
-			"::ab[Black Blood Spray (Su)]{next icon=def-touch immediate=\"Whenever a black-blooded oracle takes piercing or slashing damage, she can cause some of her black blood to spray from the wound to strike any adjacent target. She must make a touch attack to hit the target (if she's attacking the creature that caused the wound, she gains a +4 circumstance bonus on her attack roll). If she hits, she deals 1d8 points of cold damage + an additional number of points equal to ‹misc/half› her oracle level.\" useInc=\"2~oracle\" useM=1}",
+			"::ab[Black Blood Spray (Su)]{next icon=def-touch immediate=\"Whenever a black-blooded oracle takes piercing or slashing damage, she can cause some of her black blood to spray from the wound to strike any adjacent target. She must make a touch attack to hit the target (if she's attacking the creature that caused the wound, she gains a +4 circumstance bonus on her attack roll). If she hits, she deals 1d8 points of cold damage + an additional number of points equal to ‹misc/half› her oracle level.\" useInc=\"2~oracle\" useF=\"2~1\" useM=1}",
 			"",
 			"::ab[Dark Resilience (Su)]{next icon=def flavor=\"The black blood flowing through a black-blooded oracle's veins gives her resistance to many effects to which undead are immune.\" immediate=\"Once per day whenever she fails a saving throw against an ‹rule/ability drain›, a death effect, disease, ‹rule/energy drain›, paralysis, or poison, she may attempt that saving throw again with a +4 circumstance bonus. She must take the second result, even if it is worse.\" imp7=\"She can use this ability twice per day.\" imp15=\"She can use the ability 3 times per day.\"}",
 			"",
@@ -138,7 +138,7 @@
 			"",
 			"::ab[Misfortune (Ex)]{next l=1 icon=roll immediate=\"You can force a creature within 30 feet to reroll any one d20 roll that it has just made before the results of the roll are revealed. The creature must take the result of the reroll, even if it's worse than the original roll.\" special=\"Once a creature has suffered from your misfortune, it cannot be the target of this revelation again for 1 day.\"}",
 			"",
-			"::ab[Fortune (Ex)]{next l=5 icon=roll immediate=\"You can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll.\" useInc=\"6~oracle~5\"}"
+			"::ab[Fortune (Ex)]{next l=5 icon=roll immediate=\"You can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll.\" useInc=\"6~oracle~5\" useF=\"5~1~6\"}"
 		]
 	},
 	"elementalist_oracle": {
@@ -236,7 +236,7 @@
 			"",
 			"::ab[Revelations]{head icon=info l3=\"An inerrant voice must take the following revelation.\"}",
 			"",
-			"::ab[Vigilant Protector (Su)]{next order=cui icon=protect choice=\"Each day when you recover your spells, you can select a specific person you know other than yourself as your ward.\" immediate=\"When your ward becomes the target of an attack or spell and you are aware of the attack, you can cast an abjuration spell you know on the ally. You must expend the appropriate spell slot and be able to target the ally as normal for the spell.\" imp11=\"As an @HLimmediate_action when you know your ward is targeted, you can transpose yourself with your ward, teleporting into the original target's square (and becoming the new target of the attack or spell) while your ally is teleported into yours; this is a teleportation effect that doesn't provoke attacks of opportunity.\" useInc=\"4~oracle~3\"}"
+			"::ab[Vigilant Protector (Su)]{next order=cui icon=protect choice=\"Each day when you recover your spells, you can select a specific person you know other than yourself as your ward.\" immediate=\"When your ward becomes the target of an attack or spell and you are aware of the attack, you can cast an abjuration spell you know on the ally. You must expend the appropriate spell slot and be able to target the ally as normal for the spell.\" imp11=\"As an @HLimmediate_action when you know your ward is targeted, you can transpose yourself with your ward, teleporting into the original target's square (and becoming the new target of the attack or spell) while your ally is teleported into yours; this is a teleportation effect that doesn't provoke attacks of opportunity.\" useInc=\"4~oracle~3\" useF=\"3~1~4\"}"
 		]
 	},
 	"keleshite_prophet": {

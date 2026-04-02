@@ -1,6 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
+import ByLevelPop from '../../components/ByLevelPop';
 const _antiquarian = {title: "Antiquarian", jsx: <><h2 id="arc-investigator-antiquarian-antiquarian">Antiquarian</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 16</Link><br/>Antiquarians are collectors, explorers, and scholars who delve into ruined places in search of lost lore and artifacts.</p>
 <div className="ability p"><div className="abIcon"><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link></div>
@@ -715,7 +716,7 @@ const _mastermind = {title: "Mastermind", jsx: <><h2 id="arc-investigator-master
 <div className="title abSingle" id="arc-investigator-mastermind-a-quiet-word-ex" data-hash-target><div className="box">A Quiet Word (Ex)</div><div className="flavor">A mastermind's reputation precedes him.</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Trapfinding, trap sense</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per three investigator levels</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per three investigator levels<ByLevelPop levels={[[1,1],[3,2],[6,3],[9,4],[12,5],[15,6],[18,7]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box"><p>A mastermind can spend 10 minutes preparing an ally to make a single Diplomacy or Intimidate check (mastermind's choice when preparing the ally) within the next 24-hour period at the mastermind's behest. This skill check uses the mastermind's skill ranks instead of the ally's. The mastermind's affected ally still uses its own ability bonus for the check.</p>
 <p>Furthermore, when a mastermind uses this ability, he can expend one use of <em>inspiration</em> to give the ally use of the inspiration die when making the check.</p>
 <p>Multiple uses of this ability on the same ally grant that ally the benefit on additional Diplomacy or Intimidate checks.</p>

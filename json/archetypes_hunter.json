@@ -244,7 +244,7 @@
 			"",
 			"::ab[Bonus Feat (Ex)]{icon=power l2=\"A forester gains one bonus ‹main/combat feat›.\" special=\"She must meet the prerequisites for these feat as normal.\" incrementDesc=\"gains a\" incrementOrd=She~1~6 incrementEnd=\" bonus combat feat.\" replace=\"Precise companion\"}",
 			"",
-			"::ab[Tactician (Ex)]{l=3 icon=power standard=\"A forester can grant the benefits of one teamwork feat to all allies within 30 feet who can see and hear her. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 levels the forester has. Allies do not need to meet the prerequisites of these bonus feats.\" useInc=\"5~hunter~2\" replace=\"Hunter tactics\"}",
+			"::ab[Tactician (Ex)]{l=3 icon=power standard=\"A forester can grant the benefits of one teamwork feat to all allies within 30 feet who can see and hear her. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 levels the forester has. Allies do not need to meet the prerequisites of these bonus feats.\" useInc=\"5~hunter~2\" useF=\"3~1~5~~7\" replace=\"Hunter tactics\"}",
 			"",
 			"::ab[Evasion (Ex)]{l=4 icon=def passive=\"A forester can avoid even magical and unusual attacks with great agility. If she makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. *Evasion* can be used only if the forester is wearing light armor, medium armor, or no armor. A ‹misc/helpless› forester does not gain the benefit of *evasion.*\" replace=\"Improved empathic link\"}",
 			"",

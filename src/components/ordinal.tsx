@@ -1,4 +1,4 @@
-const indicator = (x) => {
+const indicator = (x: unknown) => {
 	const n = Number(x) || 0;
 	const i = Math.abs(n);
 	const cent = i % 100;
@@ -10,10 +10,8 @@ const indicator = (x) => {
 	return 'th';
 };
 
-const ordinal = (i) => {
+const ordinal = (i: unknown) => {
 	return String(i) + indicator(i);
 }
 
 export default ordinal;
-
-// This is copied by src/components/ordinal.tsx

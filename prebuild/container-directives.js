@@ -61,6 +61,7 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 						text: title,
 						convertEncodedInfo,
 						maybeClear: "",
+						flags,
 						attrs: myAttrs,
 						logError
 					});

@@ -1387,3 +1387,21 @@ div.columnar :is(ul,ol) {
 	}
 }
 
+div.fakeButton {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 0.75rem;
+	margin: 0 0.5rem;
+	padding: 0 0.25rem;
+	background: var(--ion-color-tertiary);
+	color: var(--ion-color-tertiary-contrast);
+	border-radius: 0.25rem;
+}
+ion-alert.levelPop div.alert-message table {
+	margin: 0 auto;
+}
+ion-alert.levelPop div.alert-button-group button.alert-button {
+	background: var(--ion-color-tertiary);
+	color: var(--ion-color-tertiary-contrast);
+}
+

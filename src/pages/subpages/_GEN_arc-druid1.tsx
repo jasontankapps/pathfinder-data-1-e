@@ -1,6 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
+import ByLevelPop from '../../components/ByLevelPop';
 const _aerie_protector = {title: "Aerie Protector", jsx: <><h2 id="arc-druid-aerie_protector-aerie-protector">Aerie Protector</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 47</Link><br/>The aerie protector guards nature's nests and lairs in the highest mountains, and she is only ever truly at ease when under vast expanses of open sky.</p>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
@@ -1221,7 +1222,7 @@ const _mantella = {title: "Mantella", jsx: <><h2 id="arc-druid-mantella-mantella
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">Both the mantella and her animal companion gain immunity to poison.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Immediate Action</div></div><div className="abEnd"><div className="box">When exposed to a dose of poison, a mantella can absorb the toxin and store it internally for up to 1 day.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">A mantella can secrete this poison; this changes the poison's type to injury and applies the dose of poison to all of the druid's natural attacks.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">3 times/day + 1 per two druid levels beyond 6th</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">3 times/day + 1 per two druid levels beyond 6th<ByLevelPop levels={[[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></div></div></div></div>
 </>};
 const _menhir_savant = {title: "Menhir Savant", jsx: <><h2 id="arc-druid-menhir_savant-menhir-savant">Menhir Savant</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 38</Link><br/>Some druids study the paths of nature's power through the nodes and ley lines that connect standing stones and megalithic circles, learning to tap into their energies.</p>

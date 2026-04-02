@@ -36,7 +36,8 @@ import './theme/variables.css';
 
 setupIonicReact({
 	hardwareBackButton: false,
-	mode: 'md'
+	mode: 'md',
+	innerHTMLTemplatesEnabled: true
 });
 
 // Multi-Pages

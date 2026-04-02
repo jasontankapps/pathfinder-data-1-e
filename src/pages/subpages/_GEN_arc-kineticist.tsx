@@ -2,6 +2,7 @@ import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 const _aquakinetcist = {title: "Aquakinetcist", jsx: <><h2 id="arc-kineticist-aquakinetcist-aquakinetcist">Aquakinetcist</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 50</Link><br/>While all hydrokineticists have the ability to control water, aquakineticists' powers are tied to their determination to explore the world beneath the waves.</p>
 <div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
@@ -465,7 +466,7 @@ const _kinetic_knight = {title: "Kinetic Knight", jsx: <><h2 id="arc-kineticist-
 <div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">If she also has samurai levels, those levels stack with her kineticist levels to determine the benefits of this ability.</div></div></div></div>
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-kineticist-kinetic_knight-resolve-ex" data-hash-target><div className="box">Resolve (Ex)</div><div className="flavor">Text from the samurai class</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per two samurai levels beyond 1st</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per two samurai levels beyond 1st<ByLevelPop levels={[[1,1],[3,2],[5,3],[7,4],[9,5],[11,6],[13,7],[15,8],[17,9],[19,10]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain <em>resolve</em> that you can call upon to endure even the most devastating wounds and afflictions. Whenever you defeat the target of your challenge, you regain one daily use of your <em>resolve,</em> up to your maximum number of uses per day. Defeating the target of your challenge usually involves reducing the target to 0 hit points or fewer, but the GM might rule that an enemy who surrenders or flees the battle is also defeated. You can use this <em>resolve</em> in a number of ways.</div></div></div></div>
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/heart-plus"><IonIcon icon="/icons/heart-plus.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-kineticist-kinetic_knight-determined" data-hash-target><div className="box">Determined</div><div className="flavor">Text from the samurai class</div></div>

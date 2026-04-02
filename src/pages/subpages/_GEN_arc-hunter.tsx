@@ -2,6 +2,7 @@ import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 const _aquatic_beastmaster = {title: "Aquatic Beastmaster", jsx: <><h2 id="arc-hunter-aquatic_beastmaster-aquatic-beastmaster">Aquatic Beastmaster</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 22</Link><br/>Hunters beneath the sea are just as committed as their surface-dwelling counterparts to working alongside their animal companions to eradicate threats. Although many aquatic beastmasters simply want to be left alone in the areas they have claimed as their own, others use their abilities to fight against aboleth masterminds, sahuagin tribes, and other villains that haunt the oceans.</p>
 <div className="ability p hasSubs"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
@@ -374,7 +375,7 @@ const _forester = {title: "Forester", jsx: <><h2 id="arc-hunter-forester-foreste
 <div className="title abSingle" id="arc-hunter-forester-tactician-ex" data-hash-target><div className="box">Tactician (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Hunter tactics</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per five hunter levels beyond 2nd</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per five hunter levels beyond 2nd<ByLevelPop levels={[[3,1],[7,2],[12,3],[17,4]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">A forester can grant the benefits of one teamwork feat to all allies within 30 feet who can see and hear her. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 levels the forester has. Allies do not need to meet the prerequisites of these bonus feats.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-forester-evasion-ex" data-hash-target><div className="box">Evasion (Ex)</div></div>

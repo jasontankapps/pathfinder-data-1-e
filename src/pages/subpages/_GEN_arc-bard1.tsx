@@ -1,6 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
+import ByLevelPop from '../../components/ByLevelPop';
 const _animal_speaker = {title: "Animal Speaker", jsx: <><h2 id="arc-bard-animal_speaker-animal-speaker">Animal Speaker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 25</Link><br/>An animal speaker focuses not on the ears and minds of humans, but on the creatures of the wild and those in the underbellies of cities.</p>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
@@ -334,7 +335,7 @@ const _buccaneer = {title: "Buccaneer", jsx: <><h2 id="arc-bard-buccaneer-buccan
 <div className="title abSingle" id="arc-bard-buccaneer-knock-out-ex" data-hash-target><div className="box">Knock Out (Ex)</div><div className="flavor">A buccaneer may focus his blows in an attempt to knock out an opponent.</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Lore master</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per six bard levels beyond 5th</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per six bard levels beyond 5th<ByLevelPop levels={[[5,1],[11,2],[17,3]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">The buccaneer can choose one target to attempt to knock out. The buccaneer adds his Charisma bonus (if any) on his attack roll and adds his buccaneer level on any nonlethal damage rolls made against the target. The bonus lasts until the buccaneer deals nonlethal damage to his target or until the buccaneer chooses a new target to attempt to knock out.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-bard-buccaneer-mass-song-of-surrender-su" data-hash-target><div className="box">Mass Song of Surrender (Su)</div></div>
@@ -544,7 +545,7 @@ const _court_bard = {title: "Court Bard", jsx: <><h2 id="arc-bard-court_bard-cou
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bardic knowledge</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">A court bard gains a bonus equal to half his bard level on Diplomacy, Knowledge (history), Knowledge (local), and Knowledge (nobility) checks (minimum +1).</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The court bard can also reroll a check against one of these skills, though he must take the result of the second roll even if it is worse.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per five bard levels</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per five bard levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/tornado-discs"><IonIcon icon="/icons/tornado-discs.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-bard-court_bard-wide-audience-su" data-hash-target><div className="box">Wide Audience (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Lore master, jack of all trades</div></div></div>
@@ -659,7 +660,8 @@ const _daredevil = {title: "Daredevil", jsx: <><h2 id="arc-bard-daredevil-darede
 <div className="ability p"><div className="abIcon"><Link to="/icons/rolling-dices"><IonIcon icon="/icons/rolling-dices.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-bard-daredevil-scoundrels-fortune-ex" data-hash-target><div className="box">Scoundrel's Fortune (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Lore master</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per three bard levels beyond 5th</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per three bard levels beyond 5th<ByLevelPop levels={[[5,1],[8,2],[11,3],[14,4],[17,5],[20,6]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A daredevil can choose to roll two dice instead of one for any skill check, keeping the best result.</div></div></div></div>
 </>};
 const _dawnflower_dervish = {title: "Dawnflower Dervish", jsx: <><h2 id="arc-bard-dawnflower_dervish-dawnflower-dervish">Dawnflower Dervish</h2>
@@ -692,7 +694,7 @@ const _dawnflower_dervish = {title: "Dawnflower Dervish", jsx: <><h2 id="arc-bar
 <div className="title abSingle" id="arc-bard-dawnflower_dervish-meditative-whirl-ex" data-hash-target><div className="box">Meditative Whirl (Ex)</div><div className="flavor">When using battle dance, the Dawnflower dervish can enter a trance-like state where his spinning motion represents the movement of the planets around the sun, and his spirit is attuned to the healing aspects of Sarenrae.</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Dirge of doom</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 8th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per two dervish levels beyond 8th</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per two dervish levels beyond 8th<ByLevelPop levels={[[8,1],[10,2],[12,3],[14,4],[16,5],[18,6],[20,7]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Move-Equivalent Action</div></div><div className="abEnd"><div className="box">By focusing on his whirling, the dervish can apply the <Link to="/feat/quicken_spell">Quicken Spell</Link> feat to any <Link to="/main/cure_spells">cure spell</Link> he is about to cast (effectively spending a move action and swift action to cast the spell). This does not alter the level of the spell or the casting time.</div></div></div></div>
 </>};
 const _demagogue = {title: "Demagogue", jsx: <><h2 id="arc-bard-demagogue-demagogue">Demagogue</h2>
@@ -1134,7 +1136,7 @@ const _fey_prankster = {title: "Fey Prankster", jsx: <><h2 id="arc-bard-fey_pran
 <div className="title abSingle" id="arc-bard-fey_prankster-master-of-mischief-ex" data-hash-target><div className="box">Master of Mischief (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Lore master</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per six bard levels beyond 5th</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per six bard levels beyond 5th<ByLevelPop levels={[[5,1],[11,2],[17,3]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A fey prankster can take 10 on a Bluff, Disguise, Sleight of Hand, or Stealth skill check (if she has ranks in that skill), even if distracted or endangered. In addition, once per day, the fey prankster can take 20 on one these skill checks (if she has ranks in that skill).</div></div></div></div>
 </>};
 const _filidh = {title: "Filidh", jsx: <><h2 id="arc-bard-filidh-filidh">Filidh</h2>

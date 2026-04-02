@@ -391,7 +391,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], [
 					/^(s0|([sl]|imp)(1?[1-9]|[12]0))$/,
 					/^ability[23]?$/,
-					/^use(NC|L3?|M(od)?|Inc|Unit)$/,
+					/^use(F|NC|L3?|M(od)?|Inc|Unit)$/,
 					/^increment(At|End|Plain|Desc|Ord|Multi|Max)?$/
 				], logError);
 				flags.icon = true;
@@ -404,7 +404,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return makeAbilityBlock({
 					marked2, prefix, jlid, text,
 					convertEncodedInfo, maybeClear,
-					attrs, logError
+					attrs, logError, flags
 				});
 			} else if (n === "cskill") {
 				churn(n, attrs, [

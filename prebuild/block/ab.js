@@ -71,6 +71,7 @@ const makeAbilityBlock = ({
 	text,
 	convertEncodedInfo,
 	maybeClear,
+	flags,
 	attrs,
 	logError
 }) => {
@@ -94,6 +95,7 @@ const makeAbilityBlock = ({
 		usage, useNC,
 		useL, useM, useL3, // default useUnit is "round"
 		useMod, useInc, // default useUnit is "time"
+		useF,
 		useUnit,
 		containerInfo,
 		replace, alter, type, prereq
@@ -112,7 +114,8 @@ const makeAbilityBlock = ({
 				return [doParse(usage), useUnit || "round"];
 			} else if (useInc) {
 				const [levelInterval, levelClass, startFromLevel, initial = "1"] = useInc.split(/~/);
-				const starting = Number(initial) || 1;
+				const starting = Math.round(Number(initial) || 1);
+				const interval = Math.round(Number(levelInterval));
 				const unit = useUnit || "time";
 				const plurality = starting === 1 ? "" : "s";
 				if(!startFromLevel) {
@@ -120,7 +123,7 @@ const makeAbilityBlock = ({
 					//1 time/day per two cleric levels
 					return [
 						`${starting} ${unit + plurality}/day per ${
-							writtenNumber(Number(levelInterval))
+							writtenNumber(interval)
 						} ${levelClass} levels`,
 						unit
 					];
@@ -131,7 +134,7 @@ const makeAbilityBlock = ({
 					//3 times/day + 1 per three cleric levels
 					return [
 						`${starting} ${unit + plurality}/day + 1 per ${
-							writtenNumber(Number(levelInterval))
+							writtenNumber(interval)
 						} ${levelClass} levels`,
 						unit
 					];
@@ -142,7 +145,7 @@ const makeAbilityBlock = ({
 				//3 times/day + 1 per four cleric levels beyond 8th
 				return [
 					`${starting} ${unit + plurality}/day + 1 per ${
-						writtenNumber(Number(levelInterval))
+						writtenNumber(interval)
 					} ${levelClass} levels beyond ${ordinal(startFromLevel)}`,
 					unit
 				];
@@ -184,6 +187,57 @@ const makeAbilityBlock = ({
 		const min = !useM ? "" : (
 			useM === "useM" ? " (minimum 1)" : ` (minimum ${useM})`
 		);
+		const formula = (() => {
+			if(!useF) {
+				return "";
+			}
+			// Do formula stuff
+			// useF=
+				// start level
+				// ~start value
+				// ~level incrementer? (defaults to the start level)
+				// ~value incrementer? (defaults to 1)
+				// ~start level by increment? (if the next level is different from start level + increment)
+				// ~value at this increment? (if different from start value + increment)
+				// ~max level?
+			// Ex: Gained at 3rd level, 1 + 1 for every five levels
+				// useF=3~1~5~~5~2
+			// Ex: Gained at 12th level, 1 per every three levels
+				// useF=12~4~3
+			const rawUseF = useF.split(/~/);
+			const [ startLevel, startValue, lIncTemp, vIncTemp, beginLevel, initialValue, maxTemp ] = rawUseF.map(
+				text => Math.round(Number(text) || 0)
+			);
+			if(!startLevel || !startValue) {
+				logError(`Malformed useF formula ${JSON.stringify(rawUseF.slice(0, 2))}`);
+				return "";
+			} else if (startLevel < 1 || startLevel > 20) {
+				logError(`Invalid start level in useF (${startLevel}, from "${rawUseF[0]}")`);
+				return "";
+			}
+			const levelInc = lIncTemp || startLevel;
+			if(levelInc <= 0) {
+				logError(`Invalid level incrementer in useF (${levelInc}, from "${rawUseF[2]}")`);
+				return "";
+			}
+			const valueInc = vIncTemp || 1;
+			const max = maxTemp || 20;
+			if(max <= startLevel) {
+				logError(`Invalid max in useF (${max} is not greater than ${startLevel})`);
+				return "";
+			}
+			// Turn this into something usable by ByLevelPop [[1, 2], [4, 3], [8, 4], ...]
+			const formula = [ [startLevel, startValue] ];
+			let level = beginLevel || (startLevel + levelInc);
+			let value = initialValue || (startValue + valueInc);
+			while(level <= max) {
+				formula.push([level, value]);
+				level += levelInc;
+				value += valueInc;
+			}
+			flags.bylevelpop = true;
+			return `<ByLevelPop levels={${JSON.stringify(formula)}} unit="${unit}" postText="/day" />`;
+		})();
 		const consecutive = () => {
 			if(useNC) {
 				if (useNC === "useNC") {
@@ -193,7 +247,7 @@ const makeAbilityBlock = ({
 			}
 			return "";
 		};
-		return `${text}${min}${consecutive()}`;
+		return `${text}${min}${consecutive()}${formula}`;
 	})();
 	//
 	// CHECK ABILITIES

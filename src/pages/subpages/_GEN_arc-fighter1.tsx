@@ -2,6 +2,7 @@ import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 const _aerial_assaulter = {title: "Aerial Assaulter", jsx: <><h2 id="arc-fighter-aerial_assaulter-aerial-assaulter">Aerial Assaulter</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 27</Link><br/>As staunch believers in the value of higher ground, the Shory developed special fighting styles that capitalize on fighting from above. While many dismiss such techniques as a niche tactic, aerial assaulters leap to great heights and create higher ground where there is none.</p>
 <div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
@@ -959,7 +960,7 @@ const _drill_sergeant = {title: "Drill Sergeant", jsx: <><h2 id="arc-fighter-dri
 <div className="title abSingle" id="arc-fighter-drill_sergeant-tactician-ex" data-hash-target><div className="box">Tactician (Ex)</div><div className="flavor">Text from the cavalier class</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You receive a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. You must meet the prerequisites for this feat.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">You can grant this feat to all allies within 30 feet who can see and hear you. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every two levels you possess. Allies do not need to meet the prerequisites of these bonus feats.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per five fighter levels</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per five fighter levels<ByLevelPop levels={[[2,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-fighter-drill_sergeant-weapon-training-ex" data-hash-target><div className="box">Weapon Training (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Weapon training 1</div></div></div>
@@ -1325,7 +1326,7 @@ const _martial_master = {title: "Martial Master", jsx: <><h2 id="arc-fighter-mar
 <div className="title abSingle" id="arc-fighter-martial_master-martial-flexibility-ex" data-hash-target><div className="box">Martial Flexibility (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Weapon training, weapon mastery</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">3 times/day + 1 per two fighter levels</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">3 times/day + 1 per two fighter levels<ByLevelPop levels={[[5,4],[6,5],[8,6],[10,7],[12,8],[14,9],[16,10],[18,11],[20,12]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box"><p>The martial master can use a <strong className="hl">move action</strong> to gain the benefit of a combat feat he doesn't possess. This effect lasts for 1 minute. The martial master must otherwise meet all the feat's prerequisites.</p>
 <p>The martial master can use this ability again before the duration expires in order to replace the previous combat feat with another choice. If a combat feat has a daily use limitation (such as <Link to="/feat/stunning_fist">Stunning Fist</Link>), any uses of that combat feat while using this ability count toward that feat's daily limit. At later levels, when he gains multiple feats through this ability, the martial master can use those feats to meet the prerequisites of other feats he gains with this ability. Doing so means he cannot replace a feat currently fulfilling another's prerequisite without also replacing those feats that require it. Each individual feat selected counts toward his daily uses of this ability.</p>
 </div></div></div>
