@@ -2,6 +2,7 @@ import {IonRippleEffect,IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 const _not_found = {title: "Unknown", jsx: <><h2 id="blrgbloodline-not_found-error">Error</h2>
 <p>Unable to find the requested bloodrager bloodline.</p>
 </>};
@@ -991,7 +992,7 @@ const _shadow = {title: "Shadow", jsx: <><h2 id="blrgbloodline-shadow-shadow-blo
 <div className="ability p"><div className="abIcon"><Link to="/icons/mailed-fist"><IonIcon icon="/icons/mailed-fist.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="blrgbloodline-shadow-strike-through-shadow-su" data-hash-target><div className="box">Strike Through Shadow (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 12th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per three bloodrager levels beyond 12th</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per three bloodrager levels beyond 12th<ByLevelPop levels={[[12,1],[15,2],[18,3]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You can declare a single melee attack as a strike through shadow. This attack moves through its target's shadow and strikes from below or inside its armor. You make this attack against the target's touch AC.</div></div></div></div>
 <div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="blrgbloodline-shadow-shadow-door-su" data-hash-target><div className="box">Shadow Door (Su)</div></div>

@@ -692,7 +692,7 @@
 			"",
 			"::ab[Strength of Shadows (Su)]{l=8 icon=def-melee passive=\"You gain cold ‹umr/resistance› 10. Your melee attacks deal additional cold damage equal to the critical multiplier of the weapon you use.\" imp13=\"Your cold resistance increases to 20.\" imp18=\"You become ‹umr/immune› to cold damage.\"}",
 			"",
-			"::ab[Strike Through Shadow (Su)]{l=12 icon=melee ability=\"You can declare a single melee attack as a strike through shadow. This attack moves through its target's shadow and strikes from below or inside its armor. You make this attack against the target's touch AC.\" useInc=\"3~bloodrager~12\"}",
+			"::ab[Strike Through Shadow (Su)]{l=12 icon=melee ability=\"You can declare a single melee attack as a strike through shadow. This attack moves through its target's shadow and strikes from below or inside its armor. You make this attack against the target's touch AC.\" useInc=\"3~bloodrager~12\" useF=\"12~1~3\"}",
 			"",
 			"::ab[Shadow Door (Su)]{l=16 icon=magic ability=\"You can take any part of your movement through shadows, teleporting to another location within 60 feet. This ability functions as ‹spell/dimension door›, except you can't use shadow door in brightly lit areas. You can teleport in this manner a total of 10 feet per class level each day.\"}",
 			"",
