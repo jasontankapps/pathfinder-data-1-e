@@ -506,7 +506,7 @@
 			"",
 			"::ab[Shadow Servant (Sp)]{next icon=magic ability=\"The puppeteer can create a shadow servant to perform simple tasks. The shadow servant is identical to an ‹spell/unseen servant› (caster level equal to the shadow puppeteer's bard level), except it appears as a formless shadow.\" special=\"Shadow servant relies on visual components.\"}",
 			"",
-			"::ab[Shadow Puppets (Sp)]{next icon=magic ability=\"A shadow puppeteer can use bardic performance to create one quasi-real shadowy creature resembling a monster from the ‹spell/summon monster I› list. These shadowy creatures otherwise work like ‹spell/shadow conjuration›, and targets interacting with them get a Will saving throw (DC 10 + ‹misc/half› their bard level + their Charisma bonus) to treat them as only 20% real.\" imp4=\"This ability acts like ‹spell/summon monster II›.\" imp7=\"This ability acts like ‹spell/summon monster III›.\" imp10=\"This ability acts like ‹spell/summon monster IV›.\" imp13=\"This ability acts like ‹spell/summon monster V›.\" imp16=\"This ability acts like ‹spell/summon monster VI›.\" imp19=\"This ability acts like ‹spell/summon monster VII›.\"}"
+			"::ab[Shadow Puppets (Sp)]{next icon=magic ability=\"A shadow puppeteer can use bardic performance to create one quasi-real shadowy creature resembling a monster from the ‹spell/summon monster I› list. These shadowy creatures otherwise work like ‹spell/shadow conjuration›, and targets interacting with them get a Will saving throw (DC 10 + ‹misc/half› their bard level + their Charisma bonus) to treat them as only 20% real.\" incrementRoman=\"This ability acts like ‹spell/summon~1~3\" incrementDesc=monster incrementEnd=\"›.\"}"
 		]
 	},
 	"silver_balladeer": {

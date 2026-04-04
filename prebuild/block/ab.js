@@ -1,5 +1,6 @@
 import ordinal from "../ordinal.js";
 import writtenNumber from "written-number";
+import romans from "romans";
 
 const abPairOpen = 	'<div className="abPair">';
 const abPairStartOpen = '<div className="abStart"><div className="box">';
@@ -85,7 +86,7 @@ const makeAbilityBlock = ({
 		imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20,
 		increment,incrementAt,incrementEnd,
 		incrementPlain,incrementDesc,incrementOrd,
-		incrementMulti, incrementMax,
+		incrementMulti,incrementMax,incrementRoman,
 		repeat, repeatAt,
 		standard, swift, immediate,
 		fullround, move, free,
@@ -641,7 +642,7 @@ const makeAbilityBlock = ({
 		imp1 || imp2 || imp3 || imp4 || imp5 || imp6 || imp7 || imp8 || imp9 || imp10
 		|| imp11 || imp12 || imp13 || imp14 || imp15 || imp16 || imp17 || imp18 || imp19 || imp20
 		|| increment || incrementAt || incrementEnd || incrementPlain || incrementOrd || incrementDesc
-		|| incrementMulti || incrementMax || repeat || repeatAt
+		|| incrementMulti || incrementMax || incrementRoman || repeat || repeatAt
 	) {
 		const imps = [imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20];
 		if(repeat) {
@@ -762,12 +763,14 @@ const makeAbilityBlock = ({
 				} while(etc.length > 0);
 				imps[i] = `${msg}${imps[i] ? " " + imps[i] : ""}`;
 			}
-		} else if (increment || incrementPlain || incrementAt || incrementOrd) {
+		} else if (increment || incrementPlain || incrementAt || incrementOrd || incrementRoman) {
 			// msg ~ lev start ~ lev inc ~ b start ~ b inc
-			//      increment "(p!)?This bonus~Ls~Li~Bs?~Bi?" (also incrementPlain and incrementOrd)
+			//      increment "(p!)?This bonus~Ls~Li~Bs?~Bi?" (also incrementPlain, -Ord, and -Roman)
 			//    incrementAt "(p!)?This bonus~L1~L2~L3...~Bs/Bi?"
 			//   OR incrementPlain/incrementOrd can be used as a flag with `increment` OR `incrementAt`
-			const [message, ...etc] = (incrementAt || increment || incrementPlain || incrementOrd).split(/~/);
+			const [message, ...etc] = (
+				incrementAt || increment || incrementPlain || incrementOrd || incrementRoman
+			).split(/~/);
 			let plural = false;
 			const msg = (() => {
 				if(message.startsWith("p!")) {
@@ -802,7 +805,7 @@ const makeAbilityBlock = ({
 					return Math.floor(n);
 				}).filter(n => n));
 			} else {
-				//increment || incrementPlain || incrementOrd
+				//increment || incrementPlain || incrementOrd || incrementRoman
 				if(etc.length < 2) {
 					logError(`Invalid length of \`increment\` attribute.`);
 					etc.push("1", "1", "1"); // pad it out
@@ -817,6 +820,10 @@ const makeAbilityBlock = ({
 					return Math.floor(n);
 				});
 				bonus = bb;
+				if(incrementRoman && (bonus <= 0)) {
+					logError(`Invalid bonus for the \`incrementRoman\` attribute: [${bonus}]`);
+					bonus = Math.abs(bonus) || 1;
+				}
 				inc = bi;
 				let level = start + add;
 				if(level <= 0) {
@@ -840,7 +847,16 @@ const makeAbilityBlock = ({
 					logError(`Duplicate value [${next}] in \`increment\` attribute.`);
 				} else {
 					const i = next - 1;
-					const b = incrementOrd ? ordinal(bonus) : ((incrementPlain || (bonus <= 0)) ? bonus : "+" + bonus);
+					const b = (
+						incrementRoman ? romans.romanize(bonus)
+						: (
+							incrementOrd ? ordinal(bonus)
+							: (
+								(incrementPlain || (bonus <= 0)) ? bonus
+								: "+" + bonus
+							)
+						)
+					);
 					imps[i] = `${msg} ${swap({plural, descriptor})} ${b}${end}${imps[i] ? " " + imps[i] : ""}`;
 					last = next;
 					bonus += inc;
