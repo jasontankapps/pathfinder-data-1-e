@@ -208,7 +208,7 @@
 			"",
 			"::ab[Song of Surrender (Su)]{l=4 icon=lower ability=\"A buccaneer can use his performance to encourage an enemy to surrender. To be affected, an enemy must be within 30 feet and be able to see and hear the buccaneer's performance. An affected enemy feels the irresistible urge to drop any held weapons and fall ‹rule/prone›. This effect lasts for 1 round - essentially, the affected enemy takes no actions on its next turn other than to lie prone, although it is not considered ‹rule/flat-footed› or ‹misc/helpless›.\" special=\"A Will saving throw (DC 10 + ‹misc/half› the buccaneer's level + the buccaneer's Charisma modifier) negates the effect. This ability affects only a single creature. Song of surrender is an enchantment (compulsion), mind-affecting, language-dependent ability and relies on audible components.\" replace=Suggestion}",
 			"",
-			"::ab[Knock Out (Ex)]{l=5 icon=power flavor=\"A buccaneer may focus his blows in an attempt to knock out an opponent.\" swift=\"The buccaneer can choose one target to attempt to knock out. The buccaneer adds his Charisma bonus (if any) on his attack roll and adds his buccaneer level on any nonlethal damage rolls made against the target. The bonus lasts until the buccaneer deals nonlethal damage to his target or until the buccaneer chooses a new target to attempt to knock out.\" useInc=\"6~bard~5\" useF=\"5~1~6\" replace=\"Lore master\"}",
+			"::ab[Knock Out (Ex)]{l=5 icon=power flavor=\"A buccaneer may focus his blows in an attempt to knock out an opponent.\" swift=\"The buccaneer can choose one target to attempt to knock out. The buccaneer adds his Charisma bonus (if any) on his attack roll and adds his buccaneer level on any nonlethal damage rolls made against the target. The bonus lasts until the buccaneer deals nonlethal damage to his target or until the buccaneer chooses a new target to attempt to knock out.\" useInc=bard~6~5 useF=\"5~1~6\" replace=\"Lore master\"}",
 			"",
 			"::ab[Mass Song of Surrender (Su)]{l=16 icon=boost ability=\"This ability functions just like *song of surrender* but allows a buccaneer to affect all enemies within 30 feet. Enemies within range of this effect still receive a saving throw.\" special=\"*Mass song of surrender* is an enchantment (compulsion), mind-affecting, language-dependent ability that relies on audible components.\" replace=\"Mass suggestion\"}"
 		]
@@ -334,7 +334,7 @@
 			"",
 			"::ab[Scandal (Su)]{next icon=lower l=14 flavor=\"A court bard can combine salacious gossip and biting calumny to incite a riot.\" ability=\"Each enemy within 30 feet is affected as if by a ‹spell/song of discord› for as long as it can hear the performance. A successful Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) negates the effect, and that creature is immune to this ability for 24 hours.\" special=\"*Scandal* is a language-dependent, mind-affecting ability that uses audible components.\" replace=\"Frightening tune\"}",
 			"",
-			"::ab[Heraldic Expertise (Ex)]{icon=boost-roll passive=\"A court bard gains a bonus equal to half his bard level on Diplomacy, Knowledge (history), Knowledge (local), and Knowledge (nobility) checks (minimum +1).\" ability=\"The court bard can also reroll a check against one of these skills, though he must take the result of the second roll even if it is worse.\" order=pau useInc=\"5~bard~+\" useF=\"1~1~5~~5\" replace=\"Bardic knowledge\"}",
+			"::ab[Heraldic Expertise (Ex)]{icon=boost-roll passive=\"A court bard gains a bonus equal to half his bard level on Diplomacy, Knowledge (history), Knowledge (local), and Knowledge (nobility) checks (minimum +1).\" ability=\"The court bard can also reroll a check against one of these skills, though he must take the result of the second roll even if it is worse.\" order=pau useInc=bard~5~+ useF=\"1~1~5~~5\" replace=\"Bardic knowledge\"}",
 			"",
 			"::ab[Wide Audience (Su)]{icon=cone-boost ability=\"A court bard can choose to affect a 60-foot cone instead of a 30-foot radius with bardic performances that affect an area.\" imp10=\"The area of such powers is increased by 10 feet (radius) or 20 feet (cone). If the power instead affects multiple creatures, it affects one additional creature than normal.\" imp15=\"If the power instead affects multiple creatures, it affects two additional creatures than normal.\" imp20=\"If the power instead affects multiple creatures, it affects three additional creatures than normal.\" special=\"This does not affect powers that affect only a single creature.\" replace=\"Lore master~jack of all trades\"}"
 		]
@@ -400,7 +400,7 @@
 			"",
 			"::ab[Dauntless (Ex)]{l=2 icon=def passive=\"A daredevil gains a +1 morale bonus on saving throws against mind-affecting effects, including all fear effects.\" increment=\"This bonus~2~4\" replace=Well-versed}",
 			"",
-			"::ab[Scoundrel's Fortune (Ex)]{icon=roll useInc=\"3~bard~5\" useF=\"5~1~3\" l=5 ability=\"A daredevil can choose to roll two dice instead of one for any skill check, keeping the best result.\" replace=\"Lore master\"}"
+			"::ab[Scoundrel's Fortune (Ex)]{icon=roll useInc=bard~3~5 useF=\"5~1~3\" l=5 ability=\"A daredevil can choose to roll two dice instead of one for any skill check, keeping the best result.\" replace=\"Lore master\"}"
 		]
 	},
 	"dawnflower_dervish": {
@@ -428,7 +428,7 @@
 			"",
 			"::ab[Spinning Spellcaster (Ex)]{l=5 icon=def passive=\"A Dawnflower dervish gains a +4 bonus on ‹rule/concentration› checks to cast spells defensively.\" replace=\"Lore master\"}",
 			"",
-			"::ab[Meditative Whirl (Ex)]{l=8 icon=magic-aid flavor=\"When using battle dance, the Dawnflower dervish can enter a trance-like state where his spinning motion represents the movement of the planets around the sun, and his spirit is attuned to the healing aspects of Sarenrae.\" useInc=\"2~dervish~8\" useF=\"8~1~2\" move=\"By focusing on his whirling, the dervish can apply the ‹feat/Quicken Spell› feat to any ‹main/cure spell<s› he is about to cast (effectively spending a move action and swift action to cast the spell). This does not alter the level of the spell or the casting time.\" replace=\"Dirge of doom\"}"
+			"::ab[Meditative Whirl (Ex)]{l=8 icon=magic-aid flavor=\"When using battle dance, the Dawnflower dervish can enter a trance-like state where his spinning motion represents the movement of the planets around the sun, and his spirit is attuned to the healing aspects of Sarenrae.\" useInc=dervish~2~8 useF=\"8~1~2\" move=\"By focusing on his whirling, the dervish can apply the ‹feat/Quicken Spell› feat to any ‹main/cure spell<s› he is about to cast (effectively spending a move action and swift action to cast the spell). This does not alter the level of the spell or the casting time.\" replace=\"Dirge of doom\"}"
 		]
 	},
 	"demagogue": {
@@ -716,7 +716,7 @@
 			"",
 			"::ab[Dirty Trickster (Ex)]{l=2 icon=power ability=\"A fey prankster gains ‹feat/Improved Dirty Trick› as a bonus feat and counts as having ‹feat/Combat Expertise› for the purpose of meeting the prerequisites of feats that have Improved Dirty Trick as a prerequisite.\" replace=Well-versed}",
 			"",
-			"::ab[Master of Mischief (Ex)]{l=5 icon=power-boost ability=\"A fey prankster can take 10 on a Bluff, Disguise, Sleight of Hand, or Stealth skill check (if she has ranks in that skill), even if distracted or endangered. In addition, once per day, the fey prankster can take 20 on one these skill checks (if she has ranks in that skill).\" useInc=\"6~bard~5\" useF=\"5~1~6\" replace=\"Lore master\"}"
+			"::ab[Master of Mischief (Ex)]{l=5 icon=power-boost ability=\"A fey prankster can take 10 on a Bluff, Disguise, Sleight of Hand, or Stealth skill check (if she has ranks in that skill), even if distracted or endangered. In addition, once per day, the fey prankster can take 20 on one these skill checks (if she has ranks in that skill).\" useInc=bard~6~5 useF=\"5~1~6\" replace=\"Lore master\"}"
 		]
 	},
 	"filidh": {

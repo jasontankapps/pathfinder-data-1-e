@@ -113,13 +113,13 @@ const makeAbilityBlock = ({
 			if (usage) {
 				return [doParse(usage), useUnit || "round"];
 			} else if (useInc) {
-				const [levelInterval, levelClass, startFromLevel, initial = "1"] = useInc.split(/~/);
+				const [levelClass, levelInterval, startFromLevel, initial = "1"] = useInc.split(/~/);
 				const starting = Math.round(Number(initial) || 1);
 				const interval = Math.round(Number(levelInterval));
 				const unit = useUnit || "time";
 				const plurality = starting === 1 ? "" : "s";
 				if(!startFromLevel) {
-					//useInc=2~cleric =>
+					//useInc=cleric~2 =>
 					//1 time/day per two cleric levels
 					return [
 						`${starting} ${unit + plurality}/day per ${
@@ -128,9 +128,9 @@ const makeAbilityBlock = ({
 						unit
 					];
 				} else if(startFromLevel === "+") {
-					//useInc=3~cleric~+ =>
+					//useInc=cleric~3~+ =>
 					//1 time/day + 1 per three cleric levels
-					//useInc=3~cleric~+~3 =>
+					//useInc=cleric~3~+~3 =>
 					//3 times/day + 1 per three cleric levels
 					return [
 						`${starting} ${unit + plurality}/day + 1 per ${
@@ -139,9 +139,9 @@ const makeAbilityBlock = ({
 						unit
 					];
 				}
-				//useInc=4~cleric~8 =>
+				//useInc=cleric~4~8 =>
 				//1 time/day + 1 per four cleric levels beyond 8th
-				//useInc=4~cleric~8~3 =>
+				//useInc=cleric~4~8~3 =>
 				//3 times/day + 1 per four cleric levels beyond 8th
 				return [
 					`${starting} ${unit + plurality}/day + 1 per ${

@@ -888,7 +888,7 @@
 			"",
 			"::mdefense{ac=\"24/12/21\" mod=\"+3 Dex, +12 natural, -1 size\" hp=\"112~15d10+30\" fort=+5 ref=+10 will=+6 dr=\"5/adamantine\" immune=\"‹umr/construct traits›\" resist=\"cold 10\" sr=20}",
 			"",
-			"::moffense{sp=40 cl=40 melee=\"2 claws +20 (2d6+6/19-20 plus ‹umr/grab›), sting +20 (1d10+6 plus poison)\" space=10 reach=10 constrict specAtt=\"behead~2d6+9\"}",
+			"::moffense{sp=40 cl=40 melee=\"2 claws +20 (2d6+6/19-20 plus ‹umr/grab›), sting +20 (1d10+6 plus poison)\" space=10 reach=10 constrict=\"2d6+9\" specAtt=behead}",
 			"",
 			"::mstats{str=22 dex=16 con=\"-\" int=5 wis=13 cha=12 bab=+15 cmb=\"+22 (+26 grapple)\" cmd=\"35 (47 vs. trip)\" feats=\"Bleeding Critical~Combat Reflexes~Critical Focus~Improved Critical=claw~Lightning Reflexes~Power Attack~Skill Focus=Stealth~Vital Strike\" skills=\"Climb +19~Stealth +15\" lang=\"Thassilonian (cannot speak)\"}",
 			"",
