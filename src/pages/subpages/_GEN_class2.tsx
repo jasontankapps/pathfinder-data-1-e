@@ -1029,7 +1029,7 @@ const _hunter = {hasJL:true,title: "Hunter", jsx: <><div className="jumpList" id
 <div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">You gain a new bonus teamwork feat.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">You gain a new bonus teamwork feat.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">You must meet the prerequisites of any teamwork feat you select.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="class-hunter-hunter-tactics-ex" data-hash-target><div className="box">Hunter Tactics (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You automatically grant your teamwork feats to your animal companion. The companion doesn't need to meet the prerequisites of these teamwork feats.</div></div></div></div>

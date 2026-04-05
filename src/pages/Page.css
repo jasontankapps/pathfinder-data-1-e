@@ -713,7 +713,7 @@ div.compilation div.sideNoteWrap table :is(th, td) {
 ion-content.noStamina div.sideNoteWrap.stamina,
 ion-content.noMythic div.sideNoteWrap.mythic,
 ion-content.noElephant div.sideNoteWrap.elephant,
-blockquote:is(.showIfNoStamina,.showIfNoMythic,.showIfNoElephant) {
+:is(div, blockquote):is(.showIfNoStamina,.showIfNoMythic,.showIfNoElephant) {
 	display: none;
 }
 :is(
@@ -731,9 +731,9 @@ ion-content#main.noMythic:not(.noStamina):not(.noElephant) div.sideNoteWrap.stam
 	*/
 	margin-block-start: 1em;
 }
-ion-content#main.noStamina blockquote.showIfNoStamina,
-ion-content#main.noMythic blockquote.showIfNoMythic,
-ion-content#main.noElephant blockquote.showIfNoElephant {
+ion-content#main.noStamina :is(div, blockquote).showIfNoStamina,
+ion-content#main.noMythic :is(div, blockquote).showIfNoMythic,
+ion-content#main.noElephant :is(div, blockquote).showIfNoElephant {
 	display: block;
 }
 
@@ -1308,7 +1308,7 @@ ion-item.user-focus::part(native) {
 }
 
 .constraintXS ion-item:not(.mainItem) :is(ion-label, ion-label p),
-.constraintXS div.simple :is(p, blockquote, div.p, td, th, li, aside, div.capstones, table.class) {
+.constraintXS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.class) {
 	max-width: 20rem;
 }
 .constraintXS .subAbility {
@@ -1316,7 +1316,7 @@ ion-item.user-focus::part(native) {
 }
 
 .constraintS :is(ion-label,ion-label > p),
-.constraintS div.simple :is(p, blockquote, div.p, td, th, li, aside, div.capstones, table.class) {
+.constraintS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.class) {
 	max-width: 30rem;
 }
 .constraintS .subAbility {
@@ -1324,7 +1324,7 @@ ion-item.user-focus::part(native) {
 }
 
 .constraintM :is(ion-label,ion-label > p),
-.constraintM div.simple :is(p, blockquote, div.p, td, th, li, aside, div.capstones, table.class) {
+.constraintM div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.class) {
 	max-width: 40rem;
 }
 .constraintM .subAbility {
@@ -1332,7 +1332,7 @@ ion-item.user-focus::part(native) {
 }
 
 .constraintL :is(ion-label,ion-label > p),
-.constraintL div.simple :is(p, blockquote, div.p, td, th, li, aside, div.capstones, table.class) {
+.constraintL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.class) {
 	max-width: 50rem;
 }
 .constraintL .subAbility {
@@ -1340,7 +1340,7 @@ ion-item.user-focus::part(native) {
 }
 
 .constraintXL :is(ion-label,ion-label > p),
-.constraintXL div.simple :is(p, blockquote, div.p, td, th, li, aside, div.capstones, table.class) {
+.constraintXL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.class) {
 	max-width: 60rem;
 }
 .constraintXL .subAbility {
@@ -1358,12 +1358,11 @@ ion-split-pane {
 */
 
 div.columnar {
-	margin-inline: auto;
+	margin-inline: 0;
 	margin-block: 1em;
 }
 div.columnar :is(ul,ol) {
 	margin-block: 0;
-	overflow: hidden;
 }
 @media (34rem > width > 25rem) {
 	div.columnar:not(.max2) {

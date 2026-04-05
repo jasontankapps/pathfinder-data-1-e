@@ -3745,15 +3745,18 @@ const _the_elephant_in_the_room = {title: "The Elephant in the Room", parent_top
 <p>More than anything, we hope that this document continues to spur interesting and lively discussion of the <em>Pathfinder Roleplaying Game,</em> just as the original blog post did.</p>
 </blockquote>
 </div>
-<blockquote className="showIfNoElephant">
+<div className="showIfNoElephant">
 <p>You have toggled <em>Elephant</em>-related information off on the <Link to="/settings">settings page</Link>. You may want to toggle it back on to see <em>Elephant</em>-related notes and reminders on other pages.</p>
-</blockquote>
+</div>
 <section data-footnotes><h3 id="rule-the_elephant_in_the_room-label">Footnotes</h3><ol>
-<li id="rule-the_elephant_in_the_room-fake-fn-1-target"><p>This is verbatim from the source, and is not meant to imply that the authors of this material have any connection to the authors of <em>Pf Data 1e.</em> <InnerLink aria-label="Back to reference 1" id="backlink-rule-the_elephant_in_the_room-fake-fn-1" data-hash-target to="rule-the_elephant_in_the_room-fake-fn-1">↩</InnerLink></p></li>
+<li id="rule-the_elephant_in_the_room-fake-fn-1-target"><p>This is verbatim from the source. <em>Pf Data 1e</em> has no connection to the authors. <InnerLink aria-label="Back to reference 1" id="backlink-rule-the_elephant_in_the_room-fake-fn-1" data-hash-target to="rule-the_elephant_in_the_room-fake-fn-1">↩</InnerLink></p></li>
 </ol></section></>};
 const _elephant_overview = {title: "Overview", parent_topics: ["optional_skill_changes","the_elephant_in_the_room"], siblings: ["elephant_overview","new_feats","combat_errata","class_errata","equipment_errata","bestiary_errata"], jsx: <><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/>Rules for how feat prerequisites and feat types function remain unchanged from the <em>Pathfinder RPG Core Rulebook.</em></p>
+<blockquote className="showIfNoElephant">
+<p><em>You have toggled <em>Elephant</em>-related information off on the <Link to="/settings">settings page</Link>. You will need to toggle it back on to see the changes in the feats linked below.</em></p>
+</blockquote>
 <h3 id="rule-elephant_overview-altered-feats">Altered Feats</h3>
-<p>These feats have been adjusted that they work very differently from the original feats.</p>
+<p>These feats have been adjusted so that they work very differently from the original feats.</p>
 <ScrollContainer id="rule-elephant_overview--table-0"><table>
 <thead>
 <tr>
@@ -3806,9 +3809,6 @@ const _elephant_overview = {title: "Overview", parent_topics: ["optional_skill_c
 <td>Verbiage changed to reflect the changes to Weapon Finesse.</td>
 </tr>
 </tbody></table></ScrollContainer>
-<blockquote className="showIfNoElephant">
-<p><em>You have toggled <em>Elephant</em>-related information off on the <Link to="/settings">settings page</Link>. You will need to toggle it back on to see the changes in the feats above.</em></p>
-</blockquote>
 <h3 id="rule-elephant_overview-removed-feats1">Removed Feats<sup><InnerLink showBacklink="backlink-rule-elephant_overview-ref-1-1" id="rule-elephant_overview-ref-1-1" data-hash-target to="rule-elephant_overview-1">1</InnerLink></sup></h3>
 <div className="columnar">
 <ul>
@@ -3835,6 +3835,9 @@ const _elephant_overview = {title: "Overview", parent_topics: ["optional_skill_c
 </div>
 <h3 id="rule-elephant_overview-feats-altered-slightly">Feats Altered Slightly</h3>
 <p>These feats have had wording tweaked or their prerequisites modified, but generally work the same.</p>
+<blockquote className="showIfNoElephant">
+<p><em>You have toggled <em>Elephant</em>-related information off on the <Link to="/settings">settings page</Link>. You will need to toggle it back on to see the changes in the feats linked below.</em></p>
+</blockquote>
 <h3 id="rule-elephant_overview-other-feats">Other Feats</h3>
 <p>These feats are specifically reprinted in <em>The Elephant in the Room.</em> GMs should use this info when considering how feats not in this list should behave under the <em>Elephant</em> rules.</p>
 <div className="columnar">

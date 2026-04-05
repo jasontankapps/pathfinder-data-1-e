@@ -550,7 +550,7 @@
 			"",
 			"::ab[Teamwork Feat]{jl=\"Teamwork and Tactics\" l=3 icon=power order=asu ability=\"You gain a bonus ‹main/teamwork feat›.\" special=\"You must meet the prerequisites of any teamwork feat you select.\" repeat=\"You gain a new bonus teamwork feat.~6~3\" standard=\"You can choose to learn a new bonus teamwork feat in place of the most recent bonus teamwork feat you already learned. In effect, you lose the bonus feat in exchange for the new one. You can change only the most recent teamwork feat gained. Whenever you gain a new teamwork feat, your previous teamwork feats become permanent.\" useMod=Wis useM}",
 			"",
-			"::ab[Hunter Tactics (Ex)]{l=3 icon=boost passive=\"You automatically grant your teamwork feats to your animal companion. The companion doesn't need to meet the prerequisites of these teamwork feats.\"}",
+			"::ab[Hunter Tactics (Ex)]{l=3 icon=power passive=\"You automatically grant your teamwork feats to your animal companion. The companion doesn't need to meet the prerequisites of these teamwork feats.\"}",
 			"",
 			"::ab[Improved Empathic Link (Su)]{jl=strip l=4 icon=power ability=\"You gain an empathic link with your animal companion. This functions like an empathic link with a ‹sidekick/familiar›, except you can also see through a companion's eyes as a @HLswift_action, maintaining this connection as long as you like (as long as the companion is within 1 mile) and ending it as a @HLfree_action. You are ‹misc/blinded› while maintaining this connection.\"}",
 			"",
