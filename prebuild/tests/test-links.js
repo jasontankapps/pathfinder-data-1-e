@@ -171,6 +171,8 @@ const testLinks = (all, tree = true) => {
 						if(!source[property]) {
 							invalid.push(fulltext === `‹${potential}›` ? fulltext : `${fulltext} => ${potential}`);
 						}
+					} else if (fulltext.match(/\bincrementEnd=/) && !fulltext.match(/\bincrementRoman=/)) {
+						// This is likely a match across increment properties, so ignore.
 					} else if (!$KnownProps[protocol] || !$KnownProps[protocol][property]) {
 						invalid.push(fulltext === `‹${potential}›` ? fulltext : `${fulltext} => ${potential}`)
 					}
