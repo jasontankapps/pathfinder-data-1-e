@@ -2338,12 +2338,12 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <p>In addition, while <em>smite evil</em> is in effect, you gain a deflection bonus equal to your Charisma modifier (if any) to your AC against attacks made by the target of the smite.</p>
 <p>The <em>smite evil</em> effect remains until the target of the smite is dead or the next time you rest and regains your uses of this ability.</p>
 </div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">You can smite twice a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">You can smite three times a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">You can smite four times a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">You can smite five times a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">You can smite six times a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">You can smite seven times a day.</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">You can smite 2 times a day.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">You can smite 3 times a day.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">You can smite 4 times a day.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">You can smite 5 times a day.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">You can smite 6 times a day.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">You can smite 7 times a day.</div></div></div></div>
 <aside><p><strong className="hl" id="class-paladin-oaths" data-hash-target>Oaths:</strong> Optionally, a paladin may take <Link to="/ability/oaths">an oath</Link>. While all paladins have their own codes of conduct, either taught by an order, handed down from the gods, or inspired by personal conviction, an oathbound paladin devotes herself to a singular cause, which grants her additional powers but also gives further edicts she must follow. An oathbound paladin swears an oath to eradicate a certain kind of evil. This powerful oath gives her access to new spells and adds to or alters typical paladin abilities.</p>
 </aside><div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="class-paladin-divine-grace-su" data-hash-target><div className="box">Divine Grace (Su)</div></div>
