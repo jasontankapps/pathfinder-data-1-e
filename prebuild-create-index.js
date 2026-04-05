@@ -249,7 +249,7 @@ Object.entries($sources).forEach(([prop, value]) => {
 		"Source"
 		+ transformedProp.slice(0,1).toUpperCase()
 		+ transformedProp.slice(1).replace(/_([a-z])/g, (x, m) => (m || "").toUpperCase()).replace(/_/g, "");
-	const baseurl = `_GEN_source_${transformedProp}`;
+	const baseurl = `_SOURCE_${transformedProp}`;
 	const url = `./src/pages/subpages/${baseurl}.tsx`;
 	$allSourcesElements.push(`const ${transformedElement} = lazy(() => import("./${baseurl}"));\n`);
 	$allSourcesMap.push(`${transformedProp}: <${transformedElement} />,`);
