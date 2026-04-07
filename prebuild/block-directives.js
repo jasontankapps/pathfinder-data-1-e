@@ -384,7 +384,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"repeat", "repeatAt",
 					"standard", "swift", "immediate",
 					"fullround", "move", "free",
-					"passive", "special", "note", "choice",
+					"passive", "special", "specialP",
+					"note", "choice",
 					"provokes", "order",
 					"usage",
 					"replace", "alter", "type", "prereq"

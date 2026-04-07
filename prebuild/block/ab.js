@@ -90,7 +90,8 @@ const makeAbilityBlock = ({
 		repeat, repeatAt,
 		standard, swift, immediate,
 		fullround, move, free,
-		provokes, special, note, choice,
+		provokes, special, specialP,
+		note, choice,
 		passive, ability, ability2, ability3,
 		order,
 		usage, useNC,
@@ -863,15 +864,9 @@ const makeAbilityBlock = ({
 				}
 			}
 		} else {
-			if (incrementMax) {
-				logError("Extraneous `incrementMax` attribute.")
-			}
-			if (incrementEnd) {
-				logError("Extraneous `incrementEnd` attribute.")
-			}
-			if (incrementDesc) {
-				logError("Extraneous `incrementDesc` attribute.")
-			}
+			incrementMax && logError("Extraneous `incrementMax` attribute.");
+			incrementEnd && logError("Extraneous `incrementEnd` attribute.");
+			incrementDesc && logError("Extraneous `incrementDesc` attribute.");
 		}
 		imps.forEach((text, i) => {
 			if(!text) {
@@ -893,6 +888,7 @@ const makeAbilityBlock = ({
 	// SPECIAL
 	//
 	if(special) {
+		specialP && logError("Extraneous `specialP` attribute.");
 		output.push(
 				abPairOpen
 				+ abPairStartOpen
@@ -900,6 +896,18 @@ const makeAbilityBlock = ({
 				+ abPairPartClose
 				+ abPairEndOpen
 				+ doParse(special)
+				+ abPairPartClose
+				+ abPairClose
+			);
+	} else if (specialP) {
+		const parsed = marked2.parse(convertEncodedInfo(specialP).split(/~~~/).join("\n\n"))
+		output.push(
+				abPairOpen
+				+ abPairStartOpen
+				+ "Special"
+				+ abPairPartClose
+				+ abPairEndOpen
+				+ parsed
 				+ abPairPartClose
 				+ abPairClose
 			);
