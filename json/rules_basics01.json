@@ -2814,6 +2814,7 @@
 			"feats_other"
 		]
 	},
+	"mastery_feats": { "redirect": "feats_mastery" },
 	"feats_roleplaying": {
 		"name": "Roleplaying Feats",
 		"tags": "story feats faction feats achievement feats gathlain court title feats alignment feats damnation feats",

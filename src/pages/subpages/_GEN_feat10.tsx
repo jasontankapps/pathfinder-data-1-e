@@ -1087,7 +1087,7 @@ const _martial_dominance = {title: "Martial Dominance", jsx: <><h2 id="feat-mart
 </>};
 const _martial_focus = {title: "Martial Focus", jsx: <><h2 id="feat-martial_focus-martial-focus-combat">Martial Focus (Combat)</h2>
 <p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook pg. 20</Link></p>
-<p>You have honed your skills with a group of related weapons.<br/><strong>Prerequisites:</strong> Base attack bonus +5.<br/><strong>Benefit:</strong> Choose one fighter weapon group. While wielding a weapon from this group with which you are proficient, you gain a +1 bonus on damage rolls.<br/><strong>Special:</strong> The Martial Focus feat counts as the weapon training class feature with the chosen fighter weapon group for the purpose of <Link to="/main/feats_weapon_mastery">weapon mastery feat</Link> prerequisites and what weapons you can use with weapon mastery feats.</p>
+<p>You have honed your skills with a group of related weapons.<br/><strong>Prerequisites:</strong> Base attack bonus +5.<br/><strong>Benefit:</strong> Choose one fighter weapon group. While wielding a weapon from this group with which you are proficient, you gain a +1 bonus on damage rolls.<br/><strong>Special:</strong> The Martial Focus feat counts as the weapon training class feature with the chosen fighter weapon group for the purpose of <Link to="/rule/mastery_feats">weapon mastery feat</Link> prerequisites and what weapons you can use with weapon mastery feats.</p>
 </>};
 const _martial_mastery = {title: "Martial Mastery", jsx: <><h2 id="feat-martial_mastery-martial-mastery-combat">Martial Mastery (Combat)</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 78</Link></p>
