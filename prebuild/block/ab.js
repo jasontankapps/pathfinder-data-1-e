@@ -695,75 +695,85 @@ const makeAbilityBlock = ({
 			}
 		}
 		if(incrementMulti) {
-			// msg ~ msg ~ ... ~ lev start / lev inc? ; b start? / b inc? / ORD? ; ...
-			const message = incrementMulti.split(/~/);
-			const bonuses = [];
-			const [levelData, ...incrementData] = (message.pop() || "").trim().split(/ *; */);
-			const [start, add = 1] = levelData.split(/[/]/).map((x, i) => {
-				const n = Number(x);
-				if(!n && (i || n !== n)) {
-					// `start` can be 0
-					logError(`Invalid level value [${x}] in \`incrementMulti\` attribute [index ${i}].`);
-					return 1;
+			// msg ~ msg ~ ... ~ lev start / lev inc? / lev max? ; b start? / b inc? / ORD? ; ... ~~ ...
+			const messages = incrementMulti.split(/~~/);
+			messages.forEach(bit => {
+				const message = bit.split(/~/);
+				const bonuses = [];
+				const [levelData, ...incrementData] = (message.pop() || "").trim().split(/ *; */);
+				const [start, add = 1, maxlev = undefined] = levelData.split(/[/]/).map((x, i) => {
+					const n = Number(x);
+					if(!n && (i || n !== n)) {
+						// `start` can be 0
+						logError(`Invalid level value [${x}] in \`incrementMulti\` attribute [index ${i}].`);
+						return 1;
+					}
+					return Math.floor(n);
+				});
+				incrementData.forEach(line => {
+					const [bs, bi, ord] = line.trim().split(/ *[/] */);
+					let s = Number(bs || 2);
+					if(s !== s || !s) {
+						logError(`Invalid bonus start [${bs}] in \`incrementMulti\` attribute.`);
+						s = 2;
+					}
+					let i = Number(bi || 1);
+					if(i !== i || !i) {
+						logError(`Invalid bonus increment [${bi}] in \`incrementMulti\` attribute.`);
+						i = 1;
+					}
+					const ordinal = ord ? ord.trim().toUpperCase() === "ORD" : false;
+					bonuses.push([s, i, ordinal]);
+				});
+				if(!bonuses.length) {
+					logError(`No bonuses present in \`incrementMulti\` attribute.`);
+					bonuses.push([2, 1, false]);
 				}
-				return Math.floor(n);
+				while(bonuses.length + 1 < message.length) {
+					// Pad out insufficient bonuses
+					const target = message.length - 1;
+					const dupes = [];
+					bonuses.forEach(b => { dupes.push([...b]) });
+					while(bonuses.length < target && dupes.length > 0) {
+						bonuses.push(dupes.shift());
+					}
+				}
+				const max = makeMax(maxlev || incrementMax, logError);
+				let level = start + add;
+				if(level <= 0) {
+					logError(`Invalid level formula in \`incrementMulti\` attribute`);
+					level = 25;
+				} else if (add <= 0) {
+					logError(`Invalid level increment in \`incrementMulti\` attribute.`);
+					level = 25;
+				}
+				const ats = [];
+				while (level <= max) {
+					ats.push(level);
+					level += add;
+				}
+				ats.sort((a,b) => (a - b));
+				while(ats.length > 0) {
+					const next = ats.shift();
+					const i = next - 1;
+					let [msg, ...etc] = message;
+					do {
+						let [bonus, inc, ord] = bonuses.shift();
+						const joiner = ord ? ordinal(bonus) : String(bonus);
+						msg = msg + joiner + etc.shift();
+						bonus += inc;
+						bonuses.push([bonus, inc, ord]);
+					} while(etc.length > 0);
+					imps[i] = `${msg}${imps[i] ? " " + imps[i] : ""}`;
+				}
 			});
-			incrementData.forEach(line => {
-				const [bs, bi, ord] = line.trim().split(/ *[/] */);
-				let s = Number(bs || 2);
-				if(s !== s || !s) {
-					logError(`Invalid bonus start [${bs}] in \`incrementMulti\` attribute.`);
-					s = 2;
-				}
-				let i = Number(bi || 1);
-				if(i !== i || !i) {
-					logError(`Invalid bonus increment [${bi}] in \`incrementMulti\` attribute.`);
-					i = 1;
-				}
-				const ordinal = ord ? ord.trim().toUpperCase() === "ORD" : false;
-				bonuses.push([s, i, ordinal]);
-			});
-			if(!bonuses.length) {
-				logError(`No bonuses present in \`incrementMulti\` attribute.`);
-				bonuses.push([2, 1, false]);
-			}
-			while(bonuses.length + 1 < message.length) {
-				// Pad out insufficient bonuses
-				const target = message.length - 1;
-				const dupes = [];
-				bonuses.forEach(b => { dupes.push([...b]) });
-				while(bonuses.length < target && dupes.length > 0) {
-					bonuses.push(dupes.shift());
-				}
-			}
-			const max = makeMax(incrementMax, logError);
-			let level = start + add;
-			if(level <= 0) {
-				logError(`Invalid level formula in \`incrementMulti\` attribute`);
-				level = 25;
-			} else if (add <= 0) {
-				logError(`Invalid level increment in \`incrementMulti\` attribute.`);
-				level = 25;
-			}
-			const ats = [];
-			while (level <= max) {
-				ats.push(level);
-				level += add;
-			}
-			ats.sort((a,b) => (a - b));
-			while(ats.length > 0) {
-				const next = ats.shift();
-				const i = next - 1;
-				let [msg, ...etc] = message;
-				do {
-					let [bonus, inc, ord] = bonuses.shift();
-					const joiner = ord ? ordinal(bonus) : String(bonus);
-					msg = msg + joiner + etc.shift();
-					bonus += inc;
-					bonuses.push([bonus, inc, ord]);
-				} while(etc.length > 0);
-				imps[i] = `${msg}${imps[i] ? " " + imps[i] : ""}`;
-			}
+			increment && logError("Extraneous `increment` attribute while using `incrementMulti`.");
+			incrementPlain && logError("Extraneous `incrementPlain` attribute while using `incrementMulti`.");
+			incrementOrd && logError("Extraneous `incrementOrd` attribute while using `incrementMulti`.");
+			incrementAt && logError("Extraneous `incrementAt` attribute while using `incrementMulti`.");
+			incrementRoman && logError("Extraneous `incrementRoman` attribute while using `incrementMulti`.");
+			incrementEnd && logError("Extraneous `incrementEnd` attribute while using `incrementMulti`.");
+			incrementDesc && logError("Extraneous `incrementDesc` attribute while using `incrementMulti`.");
 		} else if (increment || incrementPlain || incrementAt || incrementOrd || incrementRoman) {
 			// msg ~ lev start ~ lev inc ~ b start ~ b inc
 			//      increment "(p!)?This bonus~Ls~Li~Bs?~Bi?" (also incrementPlain, -Ord, and -Roman)
