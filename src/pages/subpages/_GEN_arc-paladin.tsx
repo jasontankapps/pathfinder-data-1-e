@@ -177,7 +177,7 @@ const _divine_defender = {title: "Divine Defender", jsx: <><h2 id="arc-paladin-d
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/hazard-sign"><IonIcon icon="/icons/hazard-sign.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-divine_defender-divine-bond-su" data-hash-target><div className="box">Divine Bond (Su)</div><div className="flavor">Instead of forming a <em>divine bond</em> with her weapon or a mount, a divine defender can form a bond with her armor.</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per three paladin levels beyond 5th<ByLevelPop levels={[[5,3],[10,4],[15,5],[20,6]]} unit="time" postText="/day" /></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per three paladin levels beyond 5th<ByLevelPop levels={[[5,1],[8,2],[11,3],[14,4],[17,5],[20,6]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">A divine defender can enhance her armor by calling upon the aid of a celestial spirit. This bond lasts for 1 minute per paladin level. When called, the spirit causes the armor to shed light like a <Link to="/eq-misc/torch">torch</Link>. The spirit grants the armor a +1 enhancement bonus.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">The armor gains a 2nd +1 enhancement bonus. These bonuses can be added to the armor, stacking with existing armor bonuses to a maximum of +3, or they can be used to add any of the following armor properties: <Link to="/magic-enh/champion">champion</Link>, <Link to="/magic-enh/ghost_touch_a">ghost touch</Link>, <Link to="/magic-enh/heavy_fortification">heavy fortification</Link>, <Link to="/magic-enh/invulnerability">invulnerability</Link>, <Link to="/magic-enh/light_fortification">light fortification</Link>, <Link to="/magic-enh/moderate_fortification">moderate fortification</Link>, <Link to="/magic-enh/spell_resistance">spell resistance</Link> (13, 15, 17, or 19). Adding these properties consumes an amount of bonus equal to the property's cost. If the armor is not magical, at least a +1 enhancement bonus must be added before any other properties can be added.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">The armor gains a 3rd +1 enhancement bonus. In addition, the bonuses can be consumed at the listed amount to add any of the following armor properties: <Link to="/magic-enh/energy_resistance">energy resistance</Link> for +3 bonus, <Link to="/magic-enh/improved_energy_resistance">improved energy resistance</Link> for +5 bonus, or <Link to="/magic-enh/righteous">righteous</Link> for +4 bonus.</div></div></div>
@@ -1069,7 +1069,7 @@ const _sacred_shield = {title: "Sacred Shield", jsx: <><h2 id="arc-paladin-sacre
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/hazard-sign"><IonIcon icon="/icons/hazard-sign.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-sacred_shield-divine-bond-su" data-hash-target><div className="box">Divine Bond (Su)</div><div className="flavor">Instead of forming a <em>divine bond</em> with her weapon or a mount, a sacred shield forms a bond with her shield.</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per four paladin levels beyond 5th<ByLevelPop levels={[[5,4],[10,5],[15,6],[20,7]]} unit="time" postText="/day" /></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per four paladin levels beyond 5th<ByLevelPop levels={[[5,1],[9,2],[13,3],[17,4]]} unit="time" postText="/day" /></div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">A sacred shield can enhance her shield by calling on the aid of a celestial spirit. This bond lasts for 1 minute per paladin level. When called, the spirit causes the shield to shed light like a <Link to="/eq-misc/torch">torch</Link>. The spirit grants the shield a +1 enhancement bonus.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">If a shield with a celestial spirit is destroyed, the sacred shield loses the use of this ability for 30 days, or until she gains a level, whichever comes first. During this period, the sacred shield takes a -1 penalty to her armor class and on saving throws.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">The shield's bonus becomes +2.</div></div></div>
@@ -1165,51 +1165,193 @@ const _silver_champion = {title: "Silver Champion", jsx: <><h2 id="arc-paladin-s
 </>};
 const _soul_sentinel = {title: "Soul Sentinel", jsx: <><h2 id="arc-paladin-soul_sentinel-soul-sentinel">Soul Sentinel</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 65</Link><br/>In a world of horrors, some holy warriors fight to safeguard the minds and spirits of those exposed to evil. Soul sentinels use the strength of their resolve to stem the tide of corruption and insanity, as they believe that the greatest tragedy is a soul lost to evil when it was within their power to save it.</p>
-<p><strong>Reprieve (Su):</strong> A soul sentinel relieves manic and tortured souls exposed to the harsh evil of the world. At 6th level, when the soul sentinel uses her lay on hands ability to heal a living creature, she can remove confusion effects in place of applying one of her other mercies. If used on a creature suffering from a permanent confusion effect, this removes the effect for only 1 minute.</p>
-<p>This replaces the <strong className="hl">mercy</strong> gained at 6th level.</p>
-<p><strong>Sacred Soul (Su):</strong> At 11th level, a sacred soul is immune to hexes and curse spells or abilities. Each ally within 10 feet of her gains a +4 morale bonus on saving throws against hexes or curses. This ability functions only while the paladin is conscious, not if she is unconscious or dead.</p>
-<p>This ability replaces <strong className="hl">aura of justice</strong>.</p>
-<p><strong>Greater Reprieve (Su):</strong> The soul sentinel suppresses the stain of <Link to="/rule/corruption">corruption</Link> on the spirits of those she heals. At 12th level, whenever she uses her lay on hands ability to heal a living creature (other than herself) or damage an undead creature, in place of applying one of her other mercies, she can suppress the stain from a corrupted creature's most recent manifestation for 1 minute. Any gift from that manifestation is unaffected and remains available, unless the manifestation has a special note requiring the gift and stain be taken together, in which case greater reprieve also suppresses the gift.</p>
-<p>This replaces the <strong className="hl">mercy</strong> gained at 12th level.</p>
+<div className="ability p"><div className="abIcon"><Link to="/icons/heart-plus"><IonIcon icon="/icons/heart-plus.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-soul_sentinel-reprieve-su" data-hash-target><div className="box">Reprieve (Su)</div><div className="flavor">A soul sentinel relieves manic and tortured souls exposed to the harsh evil of the world.</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">6th-level mercy</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">When the soul sentinel uses her <em>lay on hands</em> ability to heal a living creature, she can remove <Link to="/misc/confused">confusion</Link> effects in place of applying one of her other mercies. If used on a creature suffering from a permanent confusion effect, this removes the effect for only 1 minute.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/shield-reflect"><IonIcon icon="/icons/shield-reflect.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-soul_sentinel-sacred-soul-su" data-hash-target><div className="box">Sacred Soul (Su)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Aura of justice</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 11th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">A sacred soul is immune to hexes and curse spells or abilities. Each ally within 10 feet of her gains a +4 morale bonus on saving throws against hexes or curses.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">This ability functions only while the paladin is conscious, not if she is unconscious or dead.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/heart-plus"><IonIcon icon="/icons/heart-plus.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-soul_sentinel-greater-reprieve-su" data-hash-target><div className="box">Greater Reprieve (Su)</div><div className="flavor">The soul sentinel suppresses the stain of corruption on the spirits of those she heals.</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">12th-level mercy</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">At 12th level, whenever she uses her <em>lay on hands</em> ability to heal a living creature (other than herself) or damage an undead creature, in place of applying one of her other mercies, she can suppress the stain from a <Link to="/rule/corruption">corrupted</Link> creature's most recent manifestation for 1 minute. Any gift from that manifestation is unaffected and remains available, unless the manifestation has a special note requiring the gift and stain be taken together, in which case greater reprieve also suppresses the gift.</div></div></div></div>
 </>};
 const _stonelord = {title: "Stonelord", jsx: <><h2 id="arc-paladin-stonelord-stonelord">Stonelord</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 16</Link><br/>A stonelord is a devoted sentinel of dwarven enclaves, drawing the power of the earth and ancient stone to protect her people.</p>
-<p><strong>Stonestrike (Su):</strong> Once per day per paladin level, a stonelord can draw upon the power of the living rock. As a swift action, she treats her melee attacks until the beginning of her next turn (whether armed or unarmed) as magical and adamantine, including ignoring hardness up to twice her paladin level, with a +1 bonus on attack and damage rolls, as well as on combat maneuver checks. This bonus also applies to her CMD if she or her target is touching the ground or a stone structure. This bonus increases by +1 at 5th level and every 5 levels thereafter.</p>
-<p>This ability replaces <strong className="hl">smite evil</strong>.</p>
-<p><strong>Heartstone (Ex):</strong> At 2nd level, a stonelord's flesh becomes progressively rockier. She gains a +1 natural armor bonus to AC and DR/adamantine equal to 1/2 her paladin level. The natural armor bonus increases by +1 at 6th level, and every four levels thereafter, to a maximum of +5 at 18th level. These benefits are halved when not touching the ground or a stone structure.</p>
-<p>This ability replaces <strong className="hl">divine grace</strong>.</p>
-<p><strong>Stoneblood (Ex):</strong> At 3rd level, a stonelord's vitals begin to calcify and her blood transforms into liquid stone. She adds her paladin level on checks to stabilize at negative hit points and gains a 25% chance to ignore a critical hit or <Link to="/misc/precision_damage">precision damage</Link>. This does not stack with <Link to="/magic-enh/fortification">fortification</Link> armor or similar effects. At 9th level, this chance increases to 50% and she becomes immune to petrification. At 15th level, this chance increases to 75% and she becomes immune to bleed and blood drain effects.</p>
-<p>This ability replaces <strong className="hl">divine health</strong> and her <strong className="hl">mercies</strong> gained at 3rd, 9th, and 15th level.</p>
-<p><strong>Defensive Stance (Ex):</strong> At 4th level, a stonelord gains the defensive stance ability, as a <Link to="/pclass/stalwart_defender">stalwart defender</Link>, and may select one defensive power at 8th level and every four levels thereafter. Levels of stalwart defender stack with her paladin levels when determining the total number of rounds that she can maintain her defensive stance per day. A stonelord does not gain any spells or spellcasting abilities, does not have a caster level, and cannot use spell trigger or spell completion magic items.</p>
-<p><strong>Earth Channel (Su):</strong> At 4th level, a stonelord gains <Link to="/feat/elemental_channel">Elemental Channel</Link> (earth) as a bonus feat, which she may activate by spending two uses of her lay on hands ability, using her paladin level as her effective cleric level.</p>
-<p>This ability replaces <strong className="hl">channel positive energy</strong>.</p>
-<p><strong>Stone Servant (Su):</strong> At 5th level, a stonelord may call a <Link to="/monster/small_earth_elemental">Small earth elemental</Link> to her side, as a paladin calls her mount. This earth elemental is Lawful Good in alignment and possesses the <Link to="/template/celestial">celestial</Link> template, and it increases in size as the stonelord gains levels, becoming Medium at 8th level, Large at 11th level, Huge at 14th level, Greater at 17th level, and Elder at 20th level.</p>
-<p>This ability replaces <strong className="hl">divine bond</strong>.</p>
-<p><strong>Stonebane (Su):</strong> At 11th level, when using stonestrike, a stonelord's attack gains the <Link to="/magic-enh/bane">bane</Link> weapon special ability against creatures with the earth subtype and constructs or objects made of earth or stone.</p>
-<p>This ability replaces <strong className="hl">aura of justice</strong>.</p>
-<p><strong>Phase Strike (Su):</strong> At 12th level, a stonelord's stonestrike may pass through stone and metal as if they weren't there. By spending 2 uses of her stonestrike ability, she may ignore any cover less than total cover provided by stone or metal, and she ignores any AC bonus from stone or metal armor or shields as if wielding a <Link to="/magic-enh/brilliant_energy">brilliant energy</Link> weapon. A phase strike cannot damage constructs, objects, or creatures with the earth subtype, but unlike a brilliant energy weapon, it can harm undead.</p>
-<p>This ability replaces her 12th-level <strong className="hl">mercy</strong>.</p>
-<p><strong>Mobile Defense (Ex):</strong> At 18th level, a stonelord can make one 5-foot step per round while maintaining her defensive stance.</p>
-<p>This ability replaces her 18th-level <strong className="hl">mercy</strong>.</p>
-<p><strong>Stone Body (Ex):</strong> At 20th level, a stonelord's body transforms into living stone. She no longer needs to eat, drink, breathe, or sleep, and she becomes immune to paralysis, poison, and stunning. She is also no longer subject to critical hits or precision-based damage.</p>
-<p>This ability replaces <strong className="hl">holy champion</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-paladin-stonelord--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/dwarf">Dwarf</Link></td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-stonelord-stonestrike-su" data-hash-target><div className="box">Stonestrike (Su)</div><div className="flavor">A stonelord can draw upon the power of the living rock.</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Smite evil</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day per paladin level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">She treats her melee attacks until the beginning of her next turn (whether armed or unarmed) as magical and adamantine, including ignoring hardness up to twice her paladin level, with a bonus on attack and damage rolls, as well as on combat maneuver checks. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of her paladin level, and it also applies to her CMD if she or her target is touching the ground or a stone structure.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-stonelord-heartstone-ex" data-hash-target><div className="box">Heartstone (Ex)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Divine grace</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">A stonelord's flesh becomes progressively rockier. She gains a +1 natural armor bonus to AC and DR/adamantine equal to 1/2 her paladin level.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">The natural armor bonus becomes +2.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">The natural armor bonus increases to +3.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">The natural armor bonus becomes +4.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">The natural armor bonus increases to +5.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 14th Level</div></div><div className="abEnd"><div className="box">The natural armor bonus becomes +6.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">The natural armor bonus increases to +7.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">The natural armor bonus becomes +8.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">The natural armor bonus increases to +9.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">These benefits are halved when not touching the ground or a stone structure.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-stonelord-stoneblood-ex" data-hash-target><div className="box">Stoneblood (Ex)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Divine health, 3rd-, 9th-, and 15th-level mercies</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 3rd Level</div></div><div className="abEnd"><div className="box">A stonelord's vitals begin to calcify and her blood transforms into liquid stone. She adds her paladin level on checks to stabilize at negative hit points and gains a 25% chance to ignore a critical hit or <Link to="/misc/precision_damage">precision damage</Link>. This does not stack with <Link to="/magic-enh/fortification">fortification</Link> armor or similar effects.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">This chance increases to 50% and she becomes immune to petrification.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">This chance increases to 75% and she becomes immune to <Link to="/rule/bleed">bleed</Link> and <Link to="/umr/blood_drain">blood drain</Link> effects.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-stonelord-defensive-stance-ex" data-hash-target><div className="box">Defensive Stance (Ex)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Spells</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A stonelord gains the <em>defensive stance</em> ability, as a <Link to="/pclass/stalwart_defender">stalwart defender</Link>. Levels of stalwart defender stack with her paladin levels when determining the total number of rounds that she can maintain her defensive stance per day.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">The stonelord may select a <em>defensive power.</em></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">The stonelord may select a <em>defensive power.</em></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">The stonelord may select a <em>defensive power.</em></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">The stonelord may select a <em>defensive power.</em></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">A stonelord does not gain any spells or spellcasting abilities, does not have a caster level, and cannot use spell trigger or spell completion magic items.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-stonelord-earth-channel-su" data-hash-target><div className="box">Earth Channel (Su)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Channel positive energy</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A stonelord gains <Link to="/feat/elemental_channel">Elemental Channel</Link> (earth) as a bonus feat, which she may activate by spending two uses of her <em>lay on hands</em> ability, using her paladin level as her effective cleric level.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-stonelord-stone-servant-su" data-hash-target><div className="box">Stone Servant (Su)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Divine bond</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A stonelord may call a <Link to="/monster/small_earth_elemental">Small earth elemental</Link> to her side, as a paladin calls her mount. This earth elemental is Lawful Good in alignment and possesses the <Link to="/template/celestial">celestial</Link> template.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">She now summons a <Link to="/monster/medium_earth_elemental">Medium earth elemental</Link>.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">She now summons a <Link to="/monster/large_earth_elemental">Large earth elemental</Link>.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 14th Level</div></div><div className="abEnd"><div className="box">She now summons a <Link to="/monster/huge_earth_elemental">Huge earth elemental</Link>.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 17th Level</div></div><div className="abEnd"><div className="box">She now summons a <Link to="/monster/greater_earth_elemental">Greater earth elemental</Link>.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">She now summons an <Link to="/monster/elder_earth_elemental">Elder earth elemental</Link>.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-stonelord-stonebane-su" data-hash-target><div className="box">Stonebane (Su)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Aura of justice</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 11th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">When using <em>stonestrike,</em> a stonelord's attack gains the <Link to="/magic-enh/bane">bane</Link> weapon special ability against creatures with the earth subtype and constructs or objects made of earth or stone.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/armor-downgrade"><IonIcon icon="/icons/armor-downgrade.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-stonelord-phase-strike-su" data-hash-target><div className="box">Phase Strike (Su)</div><div className="flavor">A stonelord's <em>stonestrike</em> may pass through stone and metal as if they weren't there.</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">12th-level mercy</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 12th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">By spending 2 uses of her <em>stonestrike</em> ability, she may ignore any cover less than total cover provided by stone or metal, and she ignores any AC bonus from stone or metal armor or shields as if wielding a <Link to="/magic-enh/brilliant_energy">brilliant energy</Link> weapon.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">A <em>phase strike</em> cannot damage constructs, objects, or creatures with the earth subtype, but unlike a <em>brilliant energy</em> weapon, it can harm undead.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-stonelord-mobile-defense-ex" data-hash-target><div className="box">Mobile Defense (Ex)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">18th-level mercy</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 18th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A stonelord can make one 5-foot step per round while maintaining her defensive stance.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-stonelord-stone-body-ex" data-hash-target><div className="box">Stone Body (Ex)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Holy champion</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 20th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A stonelord's body transforms into living stone. She no longer needs to eat, drink, breathe, or sleep, and she becomes immune to paralysis, poison, and stunning. She is also no longer subject to critical hits or precision-based damage.</div></div></div></div>
 </>};
 const _sword_of_valor = {title: "Sword of Valor", jsx: <><h2 id="arc-paladin-sword_of_valor-sword-of-valor">Sword of Valor</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 39</Link><br/>The goddess Iomedae was once a mortal paladin, and those holy champions who follow her path seek to uphold her specific code of conduct in the hopes of honoring her name and destroying evil. Valor, justice, and honor are their lifeblood, and they would sooner cut out their own hearts than betray their comrades and faith. A sword of valor has the following class features.</p>
-<p><strong>Iomedae Worshiper:</strong> A sword of valor must have <Link to="/faith/iomedae">Iomedae</Link> as a patron deity.</p>
-<p><strong>First Into Battle (Su):</strong> At 2nd level, a sword of valor can spend 1 use of smite evil or lay on hands to act in the surprise round, even if she is surprised. When the paladin makes an Initiative check, she gains a bonus to the check equal to her Charisma bonus.</p>
-<p>This ability replaces <strong className="hl">divine grace</strong>.</p>
-<p><strong>Prayer of the Fourth Act (Su):</strong> At 6th level, by spending 1 minute leading a prayer to Iomedae, the sword of valor can spend one use of channel energy to give living creatures in the channel burst temporary hit points equal to the amount that ability normally heals. These temporary hit points last for no more than 1 hour.</p>
-<p>This replaces the paladin's <strong className="hl">mercy</strong> gained at 6th level.</p>
-<p><strong>Worthy Enemy (Su):</strong> At 11th level, when a sword of valor critically hits an enemy with a smite, the target must make a Will saving throw (DC = 10 + 1/2 the paladin's level + the paladin's Charisma bonus) or be compelled to surrender to the paladin, as if affected by a <Link to="/spell/suggestion">suggestion</Link> spell (CL = the paladin's level) to lay down arms and give up the fight. An enemy that succumbs to this ability remains docile until it is injured by the paladin or one of his obvious allies, at which point the compulsion to surrender immediately ends and the enemy is free to make his own choices again. If the enemy makes the save, it is not subject to this ability for 24 hours. Worthy enemy is a mind-affecting effect.</p>
-<p>This ability replaces <strong className="hl">aura of justice</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-paladin-sword_of_valor--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must have <Link to="/faith/iomedae">Iomedae</Link> as a patron deity</td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-sword_of_valor-first-into-battle-su" data-hash-target><div className="box">First Into Battle (Su)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Divine grace</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A sword of valor can spend 1 use of <em>smite evil</em> or <em>lay on hands</em> to act in the surprise round, even if she is surprised. When the paladin makes an Initiative check, she gains a bonus to the check equal to her Charisma bonus.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/heart-plus"><IonIcon icon="/icons/heart-plus.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-sword_of_valor-prayer-of-the-fourth-act-su" data-hash-target><div className="box">Prayer of the Fourth Act (Su)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">6th-level mercy</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 6th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">By spending 1 minute leading a prayer to Iomedae, the sword of valor can spend one use of <em>channel energy</em> to give living creatures in the channel burst temporary hit points equal to the amount that ability normally heals. These temporary hit points last for no more than 1 hour.</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/armor-downgrade"><IonIcon icon="/icons/armor-downgrade.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-sword_of_valor-worthy-enemy-su" data-hash-target><div className="box">Worthy Enemy (Su)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Aura of justice</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 11th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">When a sword of valor critically hits an enemy with a smite, the target must make a Will saving throw (DC = 10 + 1/2 the paladin's level + the paladin's Charisma bonus) or be compelled to surrender to the paladin, as if affected by a <Link to="/spell/suggestion">suggestion</Link> spell (CL = the paladin's level) to lay down arms and give up the fight. An enemy that succumbs to this ability remains docile until it is injured by the paladin or one of his obvious allies, at which point the compulsion to surrender immediately ends and the enemy is free to make his own choices again.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">If the enemy makes the save, it is not subject to this ability for 24 hours. <em>Worthy enemy</em> is a mind-affecting effect.</div></div></div></div>
 </>};
 const _tempered_champion = {title: "Tempered Champion", jsx: <><h2 id="arc-paladin-tempered_champion-tempered-champion">Tempered Champion</h2>
 <p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook pg. 7</Link><br/>Tempered champions are trained in the Tempering Hall in Absalom to master their deities' favored weapons.</p>
-<p><strong>Divine Weapon Specialization (Ex):</strong> At 4th level and every 4 levels thereafter, a tempered champion gains a bonus feat from the following list: <Link to="/feat/disruptive">Disruptive</Link>, <Link to="/feat/divine_fighting_technique">Divine Fighting Technique</Link>, <Link to="/feat/greater_penetrating_strike">Greater Penetrating Strike</Link>, <Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link>, <Link to="/feat/greater_weapon_specialization">Greater Weapon Specialization</Link>, <Link to="/feat/penetrating_strike">Penetrating Strike</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link>, <Link to="/feat/weapon_specialization">Weapon Specialization</Link>, and <Link to="/feat/weapon_trick">Weapon Trick</Link>. If a feat requires choosing a weapon or weapon group, the tempered champion must choose her deity's favored weapon, or its group. The tempered champion must meet the feat's prerequisites, but treats her tempered champion levels as fighter levels for this purpose.</p>
-<p>In addition, the 4th-level tempered champion gains the increased base weapon damage of the <Link to="/class/warpriest">warpriest's</Link> sacred weapon ability at her tempered champion level.</p>
-<p>This ability replaces <strong className="hl">spellcasting</strong>.</p>
-<p><strong>Divine Bond (Su):</strong> At 5th level, a tempered champion must select a weapon for her divine bond. If she is out of daily uses, she can expend a use of lay on hands to activate this ability.</p>
+<div className="ability p hasSubs"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-tempered_champion-divine-weapon-specialization-ex" data-hash-target><div className="box">Divine Weapon Specialization (Ex)</div></div>
+<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Spellcasting</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A tempered champion gains a bonus feat from the following list: <Link to="/feat/disruptive">Disruptive</Link>, <Link to="/feat/divine_fighting_technique">Divine Fighting Technique</Link>, <Link to="/feat/greater_penetrating_strike">Greater Penetrating Strike</Link>, <Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link>, <Link to="/feat/greater_weapon_specialization">Greater Weapon Specialization</Link>, <Link to="/feat/penetrating_strike">Penetrating Strike</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link>, <Link to="/feat/weapon_specialization">Weapon Specialization</Link>, and <Link to="/feat/weapon_trick">Weapon Trick</Link>.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">In addition, the tempered champion gains the increased base weapon damage of the <Link to="/class/warpriest">warpriest's</Link> <em>sacred weapon</em> ability at her tempered champion level.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">The tempered champion gains another bonus feat from the list above.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">The tempered champion gains another bonus feat from the list above.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">The tempered champion gains another bonus feat from the list above.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">The tempered champion gains another bonus feat from the list above.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">If a feat requires choosing a weapon or weapon group, the tempered champion must choose her deity's favored weapon, or its group. The tempered champion must meet the feat's prerequisites, but treats her tempered champion levels as fighter levels for this purpose.</div></div></div></div>
+<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-tempered_champion-sacred-weapon-su" data-hash-target><div className="box">Sacred Weapon (Su)</div><div className="flavor">Relevant text from the warpriest ability</div></div>
+<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box"><p>Whenever you hit with your sacred weapon, the weapon damage is based on your size and level and not the weapon type. You can decide to use the weapon's base damage instead of the sacred weapon damage - this must be declared before the attack roll is made. (If the weapon's base damage exceeds the sacred weapon damage, its damage is unchanged.) This increase in damage does not affect any other aspect of the weapon, and doesn't apply to alchemical items, bombs, or other weapons that only deal energy damage.</p>
+<ScrollContainer id="arc-paladin-tempered_champion--table-0"><table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Damage (Small)</th>
+<th>Damage (Medium)</th>
+<th>Damage (Large)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1st-4th</td>
+<td>1d4</td>
+<td>1d6</td>
+<td>1d8</td>
+</tr>
+<tr>
+<td>5th-7th</td>
+<td>1d6</td>
+<td>1d8</td>
+<td>2d6</td>
+</tr>
+<tr>
+<td>8th-9th</td>
+<td>1d6</td>
+<td>1d8</td>
+<td>2d6</td>
+</tr>
+<tr>
+<td>10th-11th</td>
+<td>1d8</td>
+<td>1d10</td>
+<td>2d8</td>
+</tr>
+<tr>
+<td>10th-14th</td>
+<td>1d8</td>
+<td>1d10</td>
+<td>2d8</td>
+</tr>
+<tr>
+<td>15th-19th</td>
+<td>1d10</td>
+<td>2d6</td>
+<td>3d6</td>
+</tr>
+<tr>
+<td>15th-19th</td>
+<td>1d10</td>
+<td>2d6</td>
+<td>3d6</td>
+</tr>
+<tr>
+<td>20th</td>
+<td>2d6</td>
+<td>2d8</td>
+<td>3d8</td>
+</tr>
+</tbody></table></ScrollContainer>
+</div></div></div></div>
+<div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
+<div className="title abSingle" id="arc-paladin-tempered_champion-divine-bond-su" data-hash-target><div className="box">Divine Bond (Su)</div></div>
+<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A tempered champion must select a weapon for her <em>divine bond.</em> If she is out of daily uses, she can expend a use of <em>lay on hands</em> to activate this ability.</div></div></div></div>
 </>};
 const _temple_champion = {title: "Temple Champion", jsx: <><h2 id="arc-paladin-temple_champion-temple-champion">Temple Champion</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 107</Link><br/>A temple champion is a powerful warrior dedicated to a good or lawful deity. She thinks of herself primarily as a servant of her deity and secondarily as an agent of her deity's church. She has a refined understanding of a specific aspect of that faith and gives up standard paladin spellcasting in favor of a warpriest's domain-based blessings and granted powers.</p>

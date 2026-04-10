@@ -201,7 +201,7 @@ const makeAbilityBlock = ({
 				// ~value incrementer? (defaults to 1)
 				// ~start level by increment? (if the next level is different from start level + increment)
 				// ~value at this increment? (if different from start value + increment)
-				// ~max level?
+				// ~max level? (defaults to 20)
 			// Ex: Gained at 3rd level, 1 + 1 for every five levels
 				// useF=3~1~5~~5~2
 			// Ex: Gained at 12th level, 1 per every three levels
