@@ -775,7 +775,7 @@ const makeAbilityBlock = ({
 			incrementEnd && logError("Extraneous `incrementEnd` attribute while using `incrementMulti`.");
 			incrementDesc && logError("Extraneous `incrementDesc` attribute while using `incrementMulti`.");
 		} else if (increment || incrementPlain || incrementAt || incrementOrd || incrementRoman) {
-			// msg ~ lev start ~ lev inc ~ b start ~ b inc
+			// msg ~ lev start ~ lev inc ~ b start (defaults to 2) ~ b inc (defaults to 1)
 			//      increment "(p!)?This bonus~Ls~Li~Bs?~Bi?" (also incrementPlain, -Ord, and -Roman)
 			//    incrementAt "(p!)?This bonus~L1~L2~L3...~Bs/Bi?"
 			//   OR incrementPlain/incrementOrd can be used as a flag with `increment` OR `incrementAt`
