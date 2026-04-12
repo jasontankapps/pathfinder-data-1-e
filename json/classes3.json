@@ -1528,7 +1528,7 @@
 			"",
 			"::archetype[Psychic Marauder]{c=psychic r=\"Alignment; Detect Thoughts; 3rd, 11th, 19th-level Phrenic Amplification; Telepathic Bond; Remade Self\" e=\"The psychic marauder's powers come hand in hand with madness, either from exposure to alien psyches or from terrifying glimpses into the cosmos that the psychic can't suppress.\"}",
 			"",
-			"::archetype[Terror Weaver]{c=psychic r=\"Detect Thoughts; Telepathic Bond; 11th, 15th, 19th-level Phrenic Amplifications\" e=\"A number of exceptional Darklands half-orcs have developed potent psychic abilities, unlocked by generations of exposure to a specific combination of mind-altering fungi and radiation\"}",
+			"::archetype[Terror Weaver]{c=psychic r=\"Detect Thoughts; Telepathic Bond; 11th, 15th, 19th-level Phrenic Amplifications\" e=\"(Half-orcs Only) A number of exceptional Darklands half-orcs have developed potent psychic abilities, unlocked by generations of exposure to a specific combination of mind-altering fungi and radiation.\"}",
 			"",
 			"::h3[Archetypes by Feature]{jl}",
 			"",
