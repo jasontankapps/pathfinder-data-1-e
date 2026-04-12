@@ -37,6 +37,7 @@ const ArchetypeGroup25Page = lazy(() => import("./ArchetypeGroup25Page"));
 const ArchetypeGroup26Page = lazy(() => import("./ArchetypeGroup26Page"));
 const ArchetypeGroup27Page = lazy(() => import("./ArchetypeGroup27Page"));
 const ArchetypeGroup28Page = lazy(() => import("./ArchetypeGroup28Page"));
+const ArchetypeGroup29Page = lazy(() => import("./ArchetypeGroup29Page"));
 
 interface ArchGroupPageProps {id: string, parent: string, classTitle: string};
 
@@ -68,7 +69,8 @@ const pages: ((x: ArchGroupPageProps) => ReactNode)[] = [
 	({id, parent, classTitle}) => <ArchetypeGroup25Page id={id} parent={parent} classTitle={classTitle} />,
 	({id, parent, classTitle}) => <ArchetypeGroup26Page id={id} parent={parent} classTitle={classTitle} />,
 	({id, parent, classTitle}) => <ArchetypeGroup27Page id={id} parent={parent} classTitle={classTitle} />,
-	({id, parent, classTitle}) => <ArchetypeGroup28Page id={id} parent={parent} classTitle={classTitle} />
+	({id, parent, classTitle}) => <ArchetypeGroup28Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup29Page id={id} parent={parent} classTitle={classTitle} />
 ];
 
 const classes: GenStrict<string, [number, string]> = {
@@ -77,7 +79,6 @@ const classes: GenStrict<string, [number, string]> = {
 	summoner: [2, "Summoner"], // conflicts with unchained summoner, occultist, spiritualist
 	swashbuckler: [2, "Swashbuckler"], // conflicts with cavalier
 
-	paladin: [3, "Paladin"], // conflicts with hunter
 	skald: [3, "Skald"], // conflicts with fighter
 	warpriest: [3, "Warpriest"],
 
@@ -142,6 +143,8 @@ const classes: GenStrict<string, [number, string]> = {
 	magus: [27, "Magus"],
 
 	monk: [28, "Monk"],
+
+	paladin: [29, "Paladin"], // conflicts with hunter
 };
 
 type Params = { id?: string, parent?: string };

@@ -1,19 +1,17 @@
 import getItem from '../components/getItem';
-import skald from './subpages/_GEN_arc-skald';
-import warpriest from './subpages/_GEN_arc-warpriest';
+import paladin from './subpages/_GEN_arc-paladin';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...skald, // conflicts with fighter
-	...warpriest
+	...paladin, // conflicts with hunter
 };
 
 type Data = typeof archetypes;
 
-const ArchetypeGroup3Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+const ArchetypeGroup29Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
 
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
@@ -31,4 +29,4 @@ const ArchetypeGroup3Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 	>{jsx}</BasicPage>;
 };
 
-export default ArchetypeGroup3Page;
+export default ArchetypeGroup29Page;
