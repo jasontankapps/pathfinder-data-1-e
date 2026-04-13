@@ -281,8 +281,8 @@ const _feykiller = {title: "Feykiller", jsx: <><h2 id="arc-hunter-feykiller-feyk
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-feykiller-mongoose" data-hash-target><div className="box">Mongoose</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The creature gains a +2 competence bonus on grapple combat maneuver checks and on saving throws against poison.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">These bonuses becomes +4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">These bonuses increases to +6.</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">These bonuses become +4.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">These bonuses increase to +6.</div></div></div></div>
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-feykiller-shark" data-hash-target><div className="box">Shark</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The creature gains a +4 competence bonus on Survival checks to track a creature that has taken damage from the hunter or her animal companion in the past 24 hours.</div></div></div>
@@ -910,13 +910,13 @@ const _verminous_hunter = {title: "Verminous Hunter", jsx: <><h2 id="arc-hunter-
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-verminous_hunter-centipede" data-hash-target><div className="box">Centipede</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The creature gains a +2 competence bonus on Climb checks and a +2 bonus to CMD against pull, push, reposition, and trip combat maneuvers.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">These bonuses becomes +4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">These bonuses increases to +6.</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">These bonuses become +4.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">These bonuses increase to +6.</div></div></div></div>
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-verminous_hunter-cockroach" data-hash-target><div className="box">Cockroach</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The creature gains a +4 bonus on saves against cold dangers, disease, heat dangers, starvation, thirst, and on Constitution checks to avoid <Link to="/rule/suffocation">suffocation</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">These bonuses becomes +6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">These bonuses increases to +8.</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">These bonuses become +6.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">These bonuses increase to +8.</div></div></div></div>
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-verminous_hunter-crab" data-hash-target><div className="box">Crab</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The creature gains a +4 competence bonus on Swim checks and a +2 competence bonus on <Link to="/rule/grapple">grapple</Link> combat maneuver checks.</div></div></div>
@@ -925,13 +925,13 @@ const _verminous_hunter = {title: "Verminous Hunter", jsx: <><h2 id="arc-hunter-
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-verminous_hunter-flea" data-hash-target><div className="box">Flea</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The creature gains a +4 competence bonus on saves against disease and Acrobatics checks to jump.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">These bonuses becomes +6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">These bonuses increases to +8.</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">These bonuses become +6.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">These bonuses increase to +8.</div></div></div></div>
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-verminous_hunter-fly" data-hash-target><div className="box">Fly</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The creature gains a +2 bonus on Perception checks and on Acrobatics checks to balance or fall safely.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">These bonuses becomes +4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">These bonuses increases to +6.</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">These bonuses become +4.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">These bonuses increase to +6.</div></div></div></div>
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-verminous_hunter-leech" data-hash-target><div className="box">Leech</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The creature gains a +2 competence bonus on grapple combat maneuver checks, and deals 1 point of <Link to="/rule/bleed">bleed</Link> damage every time it succeeds at a grapple combat maneuver check to damage an opponent.</div></div></div>
@@ -941,8 +941,8 @@ const _verminous_hunter = {title: "Verminous Hunter", jsx: <><h2 id="arc-hunter-
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-verminous_hunter-mantis" data-hash-target><div className="box">Mantis</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The creature gains a +2 bonus on attack of opportunity attack rolls and a +2 competence bonus on grapple combat maneuver checks.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">These bonuses becomes +4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">These bonuses increases to +6.</div></div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">These bonuses become +4.</div></div></div>
+<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">These bonuses increase to +6.</div></div></div></div>
 <div className="ability p subAbility"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-verminous_hunter-moth" data-hash-target><div className="box">Moth</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The creature gains darkvision to a range of 60 feet.</div></div></div>
