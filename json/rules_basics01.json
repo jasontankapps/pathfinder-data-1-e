@@ -2648,6 +2648,7 @@
 			"feats_other"
 		]
 	},
+	"metamagic_feats": { "redirect": "feats_basic" },
 	"feats_multiperson": {
 		"name": "Multiperson Feats",
 		"tags": "teamwork feats coven feats betrayal feats",
