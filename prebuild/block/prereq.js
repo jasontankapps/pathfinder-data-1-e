@@ -1,4 +1,4 @@
-import { convertTextToLink } from '../tests/checkForEncodedLink.js';
+import { convertSpecialTextToLink, getCleanText } from '../tests/checkForEncodedLink.js';
 
 const handleInfo = (m, list, title, prefix, sep, flags, convertEncodedInfo) => {
 	const output = [ ];
@@ -9,7 +9,7 @@ const handleInfo = (m, list, title, prefix, sep, flags, convertEncodedInfo) => {
 		flags.link = true;
 		const things = list.split(sep);
 		const items = things.map(thing => {
-			return `<Link to="/${prefix}/${convertTextToLink(thing)}">${thing}</Link>`;
+			return `<Link to="/${prefix}/${convertSpecialTextToLink(thing)}">${getCleanText(thing)}</Link>`;
 		});
 		output.push(items.join(", "));
 	} else {
@@ -45,13 +45,22 @@ const makePrerequisiteBlock = (marked2, flags, maybeClear, attrs, convertEncoded
 			lines.push(`${l}${nth} level`);
 		}
 	}
+	//
+	// CHECK FOR RACE REQUIREMENT
+	//
 	if(r) {
 		flags.link = true;
-		lines.push(`<Link to="/race/${convertTextToLink(r)}">${r}</Link>`)
+		lines.push(`<Link to="/race/${convertSpecialTextToLink(r)}">${getCleanText(r)}</Link>`)
 	}
+	//
+	// CHECK FOR SPECIAL REQUIREMENT
+	//
 	if(g1 && g1protocol) {
 		lines.push(handleInfo(marked2, g1, g1title, g1protocol, sep, flags, convertEncodedInfo));
 	}
+	//
+	// OTHER REQUIREMENTS
+	//
 	if(other) {
 		lines.push(marked2.parseInline(convertEncodedInfo(other)));
 	}
