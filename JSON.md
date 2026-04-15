@@ -85,8 +85,10 @@ Inline directives start with `@`.
 | `@hll[protocol/link text]` | Adds a link in a highlighted link color. The bracketed text follows the link system, above. |
 | `@HL[text]` | Adds highlighted text. |
 | `@hl[text]` | Adds highlighted text. |
-| `@FN[X]` | Creates a "fake" footnote with the character X. |
-| `@FN[Body of footnote]{from=X}` | Creates a "fake" footnote that links back to (and is linked to by) footnote X. This should be placed in a `:::fakeFootnotes` container. |
+| `@FN[X]` | Creates a "fake" footnote pointer with the character X. |
+| `@FN[X-Y]` | Same as above, but points to a previously marked footnote X. Y must be an integer (starting with 2) that increases with every new duplicate pointer. |
+| `@FN[Body of footnote]{from=X}` | Creates a "fake" footnote that links back to (and is linked to by) pointer X. This should be placed in a `:::fakeFootnotes` container. |
+| `@FN[Body of footnote]{from=X multi=Y}` | As above, but for when multiple pointers lead to this footnote; Y must be the largest integer among those pointers. |
 | `@altCapstoneDesc` | Creates a preamble for the Alternate Capstones section of a class. |
 | `@span[text]` | Puts text in a `<span>` block. |
 | `@span[text]{className?=""}` | As above, but has properties that will be included in the `<span>` tag. |
