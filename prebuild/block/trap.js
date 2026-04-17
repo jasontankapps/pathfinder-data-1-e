@@ -81,10 +81,14 @@ const makeTrapBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text
 	//
 	// CONFIGURE EFFECTS
 	//
-	rows++;
-	output.push(
-		`<tr><td colSpan={4}><strong>Effect:</strong> ${marked2.parseInline(convertEncodedInfo(eff))}</td></tr>`
-	);
+	if(eff === undefined) {
+		logError("---> Missing trap effect");
+	} else {
+		rows++;
+		output.push(
+			`<tr><td colSpan={4}><strong>Effect:</strong> ${marked2.parseInline(convertEncodedInfo(eff))}</td></tr>`
+		);
+	}
 	//
 	// ADD TRAP ICON
 	//
