@@ -108,7 +108,7 @@
 			"",
 			"::ab[Endurance]{jl=\"Endurance and Favored Terrain\" l=3 icon=power ability=\"You gain ‹feat/Endurance› as a bonus feat.\"}",
 			"",
-			"::ab[Favored Terrain (Ex)]{l=3 icon=boost passive=\"You may select a type of terrain from the list below. You gain a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival skill checks when you are in this terrain. When traveling through your favored terrain, you leave no trail and cannot be tracked (though you may leave a trail if you so choose).\" imp8=\"You may select a new favorite terrain. The bonuses in any one favored terrain (including the one just selected, if so desired) increase by +2.\"}",
+			"::ab[Favored Terrain (Ex)]{l=3 icon=boost passive=\"You may select a type of terrain from the list below. You gain a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival skill checks when you are in this terrain. When traveling through your favored terrain, you leave no trail and cannot be tracked (though you may leave a trail if you so choose).\" repeat=\"You may select a new favorite terrain. The bonuses in any one favored terrain (including the one just selected, if so desired) increase by +2.~8~5\" special=\"If a specific terrain falls into more than one category of favored terrain, the ranger's bonuses do not stack; he simply uses whichever bonus is higher.\"}",
 			"",
 			":::div{className=columnar}",
 			"",
