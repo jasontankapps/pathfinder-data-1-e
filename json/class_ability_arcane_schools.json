@@ -673,7 +673,7 @@
 			"",
 			"::ab[Iron Skin (Su)]{l=1 icon=def standard=\"You gain an armor bonus to your Armor Class for 10 minutes. This bonus is equal to 2 + ‹misc/one-fifth› of your wizard level.\" useMod=Int3}",
 			"",
-			"::ab[Shrapnel Burst (Su)]{l=8 icon=aura swift=\"You can cause jagged pieces of metal to explode outward from your body. These shards deal 1d6 points of piercing damage per two wizard levels (minimum 1d6) to all creatures within a 10-foot-radius ‹misc/burst›. A Reflex save halves this damage. In addition, the twisted scraps of metal make the area ‹rule/difficult terrain› until your next turn (at which time they disappear).\" imp10=\"The shrapnel bypasses damage reduction as if it were a magic weapon.\" useInc=wizard~5~8}",
+			"::ab[Shrapnel Burst (Su)]{l=8 icon=aura swift=\"You can cause jagged pieces of metal to explode outward from your body. These shards deal 1d6 points of piercing damage per two wizard levels (minimum 1d6) to all creatures within a 10-foot-radius ‹misc/burst›. A Reflex save halves this damage. In addition, the twisted scraps of metal make the area ‹rule/difficult terrain› until your next turn (at which time they disappear).\" imp10=\"The shrapnel bypasses damage reduction as if it were a magic weapon.\" useInc=wizard~5~8 useF=\"8~1~5\"}",
 			"",
 			"::h3[Metal Spells]{jl}",
 			"",
