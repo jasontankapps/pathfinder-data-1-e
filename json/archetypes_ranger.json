@@ -292,7 +292,7 @@
 			"",
 			"::ab[Expert Dragoncrafter (Ex)]{icon=boost l15=\"A dragon hunter may take 10 on Heal and Craft skill checks to harvest dragoncraft materials and to create dragoncraft items. Additionally, the amount of time required to create a dragoncraft item is reduced by half.\" replace=\"15th-level favored enemy\"}",
 			"",
-			"::ab[Elemental Resilience (Su)]{l=20 icon=def ability=\"A dragon hunter gains energy resistance 30 against a single energy type for 1 hour. The energy types he may choose are acid, cold, electricity, and fire.\" usage=\"Once per day\" replace=\"20th-level favored enemy\"}"
+			"::ab[Elemental Resilience (Su)]{l=20 icon=def ability=\"A dragon hunter gains energy ‹umr/resistance› 30 against a single energy type for 1 hour. The energy types he may choose are acid, cold, electricity, and fire.\" usage=\"Once per day\" replace=\"20th-level favored enemy\"}"
 		]
 	},
 	"drake_warden": {
@@ -552,7 +552,7 @@
 			"",
 			":::",
 			"",
-			"::ab[Deeds]{head icon=power l1=\"The hooded champion gains the swashbuckler's ‹swashdeed/derring-do› and ‹swashdeed/dodging panache› deeds, as well as the following deeds.\" l3=\"The hooded champion gains the swashbuckler's ‹swashdeed/kip-up› deed.\" special=\"For all deeds, treat the hooded champion's ranger level as his swashbuckler level.\"}",
+			"::ab[Deeds]{head icon=power l1=\"The hooded champion gains the swashbuckler's ‹swashdeed/derring-do› and ‹swashdeed/dodging panache› deeds, as well as the *dead aim* deed, below.\" l3=\"The hooded champion gains the swashbuckler's ‹swashdeed/kip-up› deed, as well as the *hooded champion's initiative* deed below.\" special=\"For all deeds, treat the hooded champion's ranger level as his swashbuckler level.\"}",
 			"",
 			"::ab[Dead Aim (Ex)]{next icon=zap l1=\"The hooded champion's can spend 1 panache point when making a single ranged attack (not a full attack) with a bow to make a ranged touch attack instead. The target must be in the bow's first range increment.\"}",
 			"",
@@ -610,7 +610,7 @@
 			"‹SOURCE Advanced Player's Guide/125›  ",
 			"Some rangers study their *favored enemies* and learn their ways, applying this knowledge to their own abilities and using their foes' strengths against them. Infiltrators are willing to walk a mile in an enemy's shoes so as to learn eveything there is to know about their foes in order to more effectively hunt and kill them.",
 			"",
-			"::ab[Adaptation (Ex)]{l=3 icon=power-def flavor=\"An infiltrator learns how to copy the unusual abilities of his prey.\" useL=ranger~10 useUnit=minute useNC=10 ability=\"He chooses one type of creature he has selected as a *favored enemy,* such as &quot&aberrations.&quot& The ranger selects one ability or feat from the adaptation list for that type (see below). If the adaptation requires the ranger to make a more specific choice (such as what skill to use with ‹feat/Skill Focus›), this choice is permanent and cannot be changed.\" repeatAt=\"The ranger chooses another one of his *favored enemy* types and selects one adaptation from that type's list, as well as an additional adaptation from any one list of a creature type he's selected (including the one just chosen, if so desired).~8~13~15\" special=\"The infiltrator can only use one adaptation at a time. The ranger can use the *camouflage* and *hide in plain sight* class features whenever he is using adaptations.\" replace=\"Favored terrain\"}",
+			"::ab[Adaptation (Ex)]{l=3 head icon=power-def flavor=\"An infiltrator learns how to copy the unusual abilities of his prey.\" useL=ranger~10 useUnit=minute useNC=10 ability=\"He chooses one type of creature he has selected as a *favored enemy,* such as &quot&aberrations.&quot& The ranger selects one ability or feat from the adaptation list for that type (see below). If the adaptation requires the ranger to make a more specific choice (such as what skill to use with ‹feat/Skill Focus›), this choice is permanent and cannot be changed.\" repeatAt=\"The ranger chooses another one of his *favored enemy* types and selects one adaptation from that type's list, as well as an additional adaptation from any one list of a creature type he's selected (including the one just chosen, if so desired).~8~13~15\" special=\"The infiltrator can only use one adaptation at a time. The ranger can use the *camouflage* and *hide in plain sight* class features whenever he is using adaptations.\" replace=\"Favored terrain\"}",
 			"",
 			"::ab[Aberration]{next icon=power-def choice=\"‹umr/amphibious›, darkvision 60 ft., ‹feat/Iron Will›, natural armor +2.\"}",
 			"",
@@ -749,7 +749,7 @@
 			"",
 			"::ab[Focused Terrain]{l=3 alter=\"Favored terrain\" icon=down ability=\"A Nirmathi irregular selects one *favored terrain* (usually &quot&forest&quot&). He does not gain additional *favored terrains* at higher levels.\" increment=\"The *favored terrain* bonus~3~5~4~2\" special=\"This otherwise acts as and replaces the standard *favored enemy* ability.\"}",
 			"",
-			"::ab[Spells]{l=4 icon=learn order=a2 ability=\"A Nirmathi irregular increases his number of spells per day by +1 for every spell level. This means the irregular gets at least 1 spell per day as soon as he gains access to a level of spells, even if ranger's spell table lists 0 for spells per day.\" ability2=\"A Nirmathi irregular also learns to draw upon druidic magic, perhaps from association with the druids of Crystalhurst or a natural connection to the magic of the Fangwood. Each day when the ranger prepares spells, he may choose one ‹main/druid spell› and prepare it as if it were on the ranger spell list as a ranger spell of its druid spell level.\"}",
+			"::ab[Spells]{l=4 icon=learn order=a2 ability=\"A Nirmathi irregular increases his number of spells per day by +1 for every spell level. This means the irregular gets at least 1 spell per day as soon as he gains access to a level of spells, even if the ranger's spell table lists 0 under spells per day.\" ability2=\"A Nirmathi irregular also learns to draw upon druidic magic, perhaps from association with the druids of Crystalhurst or a natural connection to the magic of the Fangwood. Each day when the ranger prepares spells, he may choose one ‹main/druid spell› and prepare it as if it were on the ranger spell list as a ranger spell of its druid spell level.\"}",
 			"",
 			":::fakeFootnotes",
 			"",
@@ -811,7 +811,7 @@
 			"‹SOURCE Blood of the Beast/9›  ",
 			"In dense jungles, foliage and tight spaces hinder all but the most deceptively humble weapons: ‹eq-weapon/blowgun«s› and poison.",
 			"",
-			":::ab{title=\"Debilitating Venom (Ex)\" order=unC action=Ability flavor=\"A poison darter can concoct potent toxins that he can apply to his weapons.\" usage=\"A number of times/day equal to ‹misc/half› his ranger level + his Wisdom modifier\" note=\"If he has the ‹race/toxic skin alternate racial trait»<grippli›, he can expend a daily use of that poison to employ his *debilitating venom* ability an additional time.\" imp5=\"The frequency increases to 6 rounds, and the toxin ‹misc/sicken«s› a creature for 1 round every time it fails its saving throw to resist the poison.\" imp10=\"The the poison's Dexterity damage increases to 1d4, and two successful saving throws are needed to cure the poison.\" imp15=\"The poison dart can choose to deal Strength, Dexterity, or Constitution damage with the *debilitating venom,* selected when he creates the toxin.\" imp20=\"The poison's damage die increases to 1d6.\" replace=\"Favored enemy~master hunter\"}",
+			":::ab{title=\"Debilitating Venom (Ex)\" icon=power order=unC action=Ability flavor=\"A poison darter can concoct potent toxins that he can apply to his weapons.\" usage=\"A number of times/day equal to ‹misc/half› his ranger level + his Wisdom modifier\" note=\"If he has the ‹race/toxic skin alternate racial trait»<grippli›, he can expend a daily use of that poison to employ his *debilitating venom* ability an additional time.\" imp5=\"The frequency increases to 6 rounds, and the toxin ‹misc/sicken«s› a creature for 1 round every time it fails its saving throw to resist the poison.\" imp10=\"The the poison's Dexterity damage increases to 1d4, and two successful saving throws are needed to cure the poison.\" imp15=\"The poison dart can choose to deal Strength, Dexterity, or Constitution damage with the *debilitating venom,* selected when he creates the toxin.\" imp20=\"The poison's damage die increases to 1d6.\" replace=\"Favored enemy~master hunter\"}",
 			"",
 			"The *debilitating venom* functions only for the poison darter and becomes inert if not used within 1 hour. Creating a *debilitating venom* is a @HL[standard action], and it can be applied to a weapon as a @HL[move action].",
 			"",
