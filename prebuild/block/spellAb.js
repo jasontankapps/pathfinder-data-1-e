@@ -1,12 +1,6 @@
 import ordinal from "../ordinal.js";
 import writtenNumber from "written-number";
 
-const abPairOpen = 	'<div className="abPair">';
-const abPairStartOpen = '<div className="abStart"><div className="box">';
-const abPairEndOpen = '<div className="abEnd"><div className="box">';
-const abPairPartClose = "</div></div>";
-const abPairClose = "</div>";
-
 /*
 	stat = spellcasting stat
 	learn?, prepare? = "To ... or cast a spell..."
@@ -51,7 +45,7 @@ export const makeSpellAbilityBlock = ({
 	} = attrs;
 	const An = "aeiou".includes(caster.slice(0,1)) ? "An" : "A";
 	//
-	// TEXT AFTER THE BLOCK
+	// INFO TEXT
 	//
 	const block = [];
 	(limited || limitedFull) && block.push(
@@ -138,26 +132,18 @@ export const makeSpellAbilityBlock = ({
 	}
 
 
+	const abId = jlid || prefix + id;
+
+
 	//
-	// ABILITY BOX
+	// MAIN ABILITY BOX
 	//
 	const output = [];
 	//
 	// TITLE
 	//
-	output.push(`<div className="title abSingle" id="${
-		jlid || prefix + id
-	}" data-hash-target><div className="box">Spells</div></div>`);
-	output.push(
-		abPairOpen
-			+ abPairStartOpen
-			+ "Gained"
-			+ abPairPartClose
-			+ abPairEndOpen
-			+ "At 1st Level"
-			+ abPairPartClose
-			+ abPairClose
-	);
+	output.push(`<Pair single id="${abId}">Spells</Pair>`);
+	output.push(`<Pair title="Gained">At 1st Level</Pair>`);
 	//
 	// USAGE
 	//
@@ -172,11 +158,7 @@ export const makeSpellAbilityBlock = ({
 	!type && logError("Missing `type` attribute.");
 	!caster && logError("Missing `caster` attribute.");
 	output.push(
-		abPairOpen
-			+ abPairStartOpen
-			+ "Usage"
-			+ abPairPartClose
-			+ abPairEndOpen
+		`<Pair title="Usage">`
 			+ `To ${learnPrepareCast} a spell, you must have a ${stat} score `
 			+ "equal to at least 10 + the spell level. You can cast only "
 			+ "a certain number of spells of each spell level per day, as shown "
@@ -188,18 +170,13 @@ export const makeSpellAbilityBlock = ({
 					+ "of a given spell level, you gain only these bonus "
 					+ "spells for that spell level."
 				: ".")
-			+ abPairPartClose
-			+ abPairClose
+		+ "</Pair>"
 	)
 	//
 	// SPELL ABILITY DESCRIPTION
 	//
 	output.push(
-		abPairOpen
-			+ abPairStartOpen
-			+ "Ability"
-			+ abPairPartClose
-			+ abPairEndOpen
+		`<Pair title="Ability">`
 			+ `You gain the ability to cast ${type} spells which are drawn from the `
 			+ `<Link to="/main/spells_${caster.replace(/ /g, "_")}">${caster} spell list</Link>`
 			+ `${
@@ -220,8 +197,7 @@ export const makeSpellAbilityBlock = ({
 					+ "assuming you haven't yet used up your allotment "
 					+ "of spells per day for the spell's level."
 				: "You must choose and prepare your spells in advance.")
-			+ abPairPartClose
-			+ abPairClose
+		+ "</Pair>"
 	);
 	const special = [];
 	occultist && special.push(
@@ -268,32 +244,19 @@ export const makeSpellAbilityBlock = ({
 		+ "spells that list divine focus (DF) as part of the components."
 	);
 
-	return `${maybeClear}<div className="ability p">`
-		+ '<div className="abIcon"><Link to="/icons">'
-		+ '<IonIcon icon="/icons/magic-swirl.svg" color="secondary" />'
-		+ "</Link></div>\n"
+	return `${maybeClear}<Ability id="${abId}" icon={["magic-swirl"]}>`
 		+ output.join("\n")
 		+ (block.length ? 
-			abPairOpen
-			+ abPairStartOpen
-			+ "Info"
-			+ abPairPartClose
-			+ abPairEndOpen
+			`<Pair title="Info">`
 			+ block.join("\n")
-			+ abPairPartClose
-			+ abPairClose
+			+ "</Pair>"
 		: "")
 		+ (special.length ?
-			abPairOpen
-			+ abPairStartOpen
-			+ "Special"
-			+ abPairPartClose
-			+ abPairEndOpen
+			`<Pair title="Special">`
 			+ special.join(" ")
-			+ abPairPartClose
-			+ abPairClose
+			+ "</Pair>"
 		: "")
-		+ "</div>";
+		+ "</Ability>";
 
 };
 

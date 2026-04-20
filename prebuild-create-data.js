@@ -1021,6 +1021,10 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	groupFlags.link && groupFlags.thlink && imports.push(`import Link, {ThLink} from '../../components/Link';`);
 	groupFlags.link && !groupFlags.thlink && imports.push(`import Link from '../../components/Link';`);
 	!groupFlags.link && groupFlags.thlink && imports.push(`import {ThLink} from '../../components/Link';`);
+	groupFlags.ability && imports.push(
+		`import Pair from '../../components/AbPair';`,
+		`import Ability from '../../components/Ability';`
+	);
 	groupFlags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
 	groupFlags.scrollcontainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
 	(groupFlags.innerlink || groupFlags.jumplist) && imports.push(`import InnerLink from '../../components/InnerLink';`);

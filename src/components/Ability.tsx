@@ -1,0 +1,39 @@
+import { IonIcon } from '@ionic/react';
+import { PropsWithChildren } from 'react';
+import Link from './Link';
+
+interface AbilityProps {
+	id: string
+	icon: string[]
+	sub?: boolean
+}
+
+interface IconProps {
+	id: string
+	icon: string[]
+}
+
+const Icon: React.FC<IconProps> = ({icon, id}) => {
+	return icon.map(
+		(ic, i) => (
+			<Link to={"/icons/" + ic} key={`${id} icon ${ic} ${i}`}>
+				<IonIcon icon={`/icons/${ic}.svg"`} color="secondary" />
+			</Link>
+		)
+	);
+};
+
+const Ability: React.FC<PropsWithChildren<AbilityProps>> = (props) => {
+	const {id, icon = [], sub, children} = props;
+	const className = "ability p" + (sub ? " subAbility" : "");
+	return (
+		<div className={className}>
+			<div className="abIcon">
+				<Icon icon={icon} id={id} />
+			</div>
+			{children}
+		</div>
+	);
+};
+
+export default Ability;

@@ -436,6 +436,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], [], logError);
 				flags.icon = true;
 				flags.link = true;
+				flags.ability = true;
 				const jlid = prefix + "spells";
 				addToJumpList("Spells", jlid, "jl");
 				return makeSpellAbilityBlock({
