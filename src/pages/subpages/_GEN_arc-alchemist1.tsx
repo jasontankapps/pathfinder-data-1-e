@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 const _aerochemist = {title: "Aerochemist", jsx: <><h2 id="arc-alchemist-aerochemist-aerochemist">Aerochemist</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 27</Link><br/>Although the specifics of the Aeromantic Infadibulum are lost to time, aerochemists are able to emulate and replicate aspects of this lost magic. Aerochemists use scraps of Shory's magic in their concoctions to gain personal powers of flight.</p>
@@ -38,9 +40,9 @@ const _alchemical_sapper = {title: "Alchemical Sapper", jsx: <><h2 id="arc-alche
 <div className="title abSingle" id="arc-alchemist-alchemical_sapper-diminished-alchemy" data-hash-target><div className="box">Diminished Alchemy</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Extracts</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">An alchemical sapper can prepare one fewer extract of each level than normal. If this reduces the number to 0, he can prepare extracts of that level only if his Intelligence allows bonus extracts of that level.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-alchemist-alchemical_sapper-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-alchemist-alchemical_sapper-undefined">
+<Pair id="arc-alchemist-alchemical_sapper-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/bowman"><IonIcon icon="/icons/bowman.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-alchemist-alchemical_sapper-demolition-bomb-su" data-hash-target><div className="box">Demolition Bomb (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Bomb</div></div></div>
@@ -97,10 +99,10 @@ const _alchemical_trapper = {title: "Alchemical Trapper", jsx: <><h2 id="arc-alc
 </>};
 const _aquachymist = {title: "Aquachymist", jsx: <><h2 id="arc-alchemist-aquachymist-aquachymist">Aquachymist</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 49</Link><br/>The principles of alchemy work equally well underwater and on land, but mixing solutions and keeping them pure is a tougher task beneath the waves. Aquachymists are those rare few alchemists of land-dwelling and aquatic races alike who strive to unlock new and fantastic secrets of alchemy that can be discovered only in the water's depths.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-alchemist-aquachymist-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/swim">Swim</Link> (STR)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Fly</div></div></div></div>
+<Ability icon={["skills"]} id="arc-alchemist-aquachymist-undefined">
+<Pair id="arc-alchemist-aquachymist-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/swim">Swim</Link> (STR)</Pair>
+<Pair title="Removed Skills">Fly</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-alchemist-aquachymist-sureseal-alchemy-su" data-hash-target><div className="box">Sureseal Alchemy (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Alchemy</div></div></div>
@@ -268,9 +270,9 @@ const _blood_alchemist = {title: "Blood Alchemist", jsx: <><h2 id="arc-alchemist
 </>};
 const _bogborn_alchemist = {title: "Bogborn Alchemist", jsx: <><h2 id="arc-alchemist-bogborn_alchemist-bogborn-alchemist">Bogborn Alchemist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 191</Link><br/>Some grippli alchemists are particularly attuned to the swamps and the dangerous creatures that inhabit them; these serve as their laboratories and research subjects, respectively. These bogborn alchemists have the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-bogborn_alchemist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/grippli">Grippli</Link></td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-alchemist-bogborn_alchemist-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/swim">Swim</Link> (STR)</div></div></div></div>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-bogborn_alchemist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/grippli">Grippli</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-alchemist-bogborn_alchemist-undefined">
+<Pair id="arc-alchemist-bogborn_alchemist-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-alchemist-bogborn_alchemist-amphibious-mutagen-ex" data-hash-target><div className="box">Amphibious Mutagen (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Throw anything</div></div></div>
@@ -388,9 +390,9 @@ const _concocter = {title: "Concocter", jsx: <><h2 id="arc-alchemist-concocter-c
 </>};
 const _construct_rider = {title: "Construct Rider", jsx: <><h2 id="arc-alchemist-construct_rider-construct-rider">Construct Rider</h2>
 <p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions pg. 12</Link><br/>A construct rider creates arcane devices to emulate and surpass weak flesh.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-alchemist-construct_rider-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/ride">Ride</Link> (DEX), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-alchemist-construct_rider-undefined">
+<Pair id="arc-alchemist-construct_rider-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/ride">Ride</Link> (DEX), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-alchemist-construct_rider-craft-mount-su" data-hash-target><div className="box">Craft Mount (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Brew Potion, mutagen, the discovery gained at 4th level</div></div></div>
@@ -571,9 +573,9 @@ const _dragonblood_chymist = {title: "Dragonblood Chymist", jsx: <><h2 id="arc-a
 </>};
 const _ectochymist = {title: "Ectochymist", jsx: <><h2 id="arc-alchemist-ectochymist-ectochymist">Ectochymist</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 112</Link><br/>Ectochymists study the effects of alchemy on soul and spirit, focusing on fighting ghosts and other incorporeal creatures.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-alchemist-ectochymist-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-alchemist-ectochymist-undefined">
+<Pair id="arc-alchemist-ectochymist-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/mailed-fist"><IonIcon icon="/icons/mailed-fist.svg" color="secondary" /></Link><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-alchemist-ectochymist-ectoplasmic-blanche-su" data-hash-target><div className="box">Ectoplasmic Blanche (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bombs</div></div></div>
@@ -757,9 +759,9 @@ const _energist = {title: "Energist", jsx: <><h2 id="arc-alchemist-energist-ener
 </>};
 const _energy_scientist = {title: "Energy Scientist", jsx: <><h2 id="arc-alchemist-energy_scientist-energy-scientist">Energy Scientist</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 30</Link><br/>Energy scientists fervently prepare themselves to overcome exposure to specific elemental hazards so that they can traverse the Elemental Planes in search of novel discoveries and reagents.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-alchemist-energy_scientist-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/swim">Swim</Link> (STR)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-alchemist-energy_scientist-undefined">
+<Pair id="arc-alchemist-energy_scientist-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-alchemist-energy_scientist-energy-bombs-su" data-hash-target><div className="box">Energy Bombs (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Brew potion</div></div></div>

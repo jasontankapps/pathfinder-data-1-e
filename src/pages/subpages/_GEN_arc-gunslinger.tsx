@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 const _black_powder_vaulter = {title: "Black Powder Vaulter", jsx: <><h2 id="arc-gunslinger-black_powder_vaulter-black-powder-vaulter">Black Powder Vaulter</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 10</Link><br/>While firearms were designed to allow combatants to fight their foes from a distance, some gunslingers like to get into the thick of the battle, maneuvering among the fray to find the most advantageous positions from which to kill their enemies. The daredevil fighting style of the black powder vaulter has arisen simultaneously in two places - among Mana Wastes gunslingers inspired by the graceful fighting styles of Mwangi tribes, and among pirates from Tian Xia and the Shackles who encountered and inspired one another.</p>
@@ -36,10 +38,10 @@ const _black_powder_vaulter = {title: "Black Powder Vaulter", jsx: <><h2 id="arc
 </>};
 const _blatherskite = {title: "Blatherskite", jsx: <><h2 id="arc-gunslinger-blatherskite-blatherskite">Blatherskite</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 9</Link><br/>A blatherskite talks big and feels powerful when holding a loaded gun, but when the gun jams or the situation gets too intense, he's the first to run for cover. He has an extraordinary talent for retreating from harm's way and fooling his enemies into thinking he is weaker than he is.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-gunslinger-blatherskite-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Handle Animal, Intimidate</div></div></div></div>
+<Ability icon={["skills"]} id="arc-gunslinger-blatherskite-undefined">
+<Pair id="arc-gunslinger-blatherskite-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Handle Animal, Intimidate</Pair></Ability>
 <div className="ability p hasSubs"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-gunslinger-blatherskite-deeds" data-hash-target><div className="box">Deeds</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A blatherskite swaps four deeds for the following.</div></div></div></div>
@@ -223,10 +225,10 @@ const _bushwhacker = {title: "Bushwhacker", jsx: <><h2 id="arc-gunslinger-bushwh
 </>};
 const _commando = {title: "Commando", jsx: <><h2 id="arc-gunslinger-commando-commando">Commando</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 91</Link><br/>Commandos are those rough and ready gunslingers who excel at hit-and-run tactics and leveraging their expertise in the wild against their enemies.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-gunslinger-commando-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (engineering), Knowledge (local), Sleight of Hand</div></div></div></div>
+<Ability icon={["skills"]} id="arc-gunslinger-commando-undefined">
+<Pair id="arc-gunslinger-commando-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Knowledge (engineering), Knowledge (local), Sleight of Hand</Pair></Ability>
 <div className="ability p hasSubs"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-gunslinger-commando-deeds" data-hash-target><div className="box">Deeds</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A commando gains the following deeds; each of these deeds replaces an existing deed.</div></div></div></div>
@@ -384,10 +386,10 @@ const _graveslinger = {title: "Graveslinger", jsx: <><h2 id="arc-gunslinger-grav
 </>};
 const _gulch_gunner = {title: "Gulch Gunner", jsx: <><h2 id="arc-gunslinger-gulch_gunner-gulch-gunner">Gulch Gunner</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 152</Link><br/>Ratfolk warfare often occurs in cramped, claustrophobic spaces such as the ratfolk's own underground warrens and heavily trapped gulch fortresses, or the subterranean tunnels of goblins and similar foes. Since these battlegrounds often have tight corners and few areas with long lines of sight, those ratfolk who seek to master the use of firearms almost inevitably become experts in close-quarters combat. These gulch gunners often specialize in proficiency with a single pistol (easily handled in tight spaces) and wander from warren to warren selling their tunnel-shooting skills to the highest bidder. A gulch gunner has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-gunslinger-gulch_gunner--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ratfolk">Ratfolk</Link></td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-gunslinger-gulch_gunner-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (local), Ride, Swim</div></div></div></div>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-gunslinger-gulch_gunner--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ratfolk">Ratfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-gunslinger-gulch_gunner-undefined">
+<Pair id="arc-gunslinger-gulch_gunner-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (local), Ride, Swim</Pair></Ability>
 <div className="ability p hasSubs"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-gunslinger-gulch_gunner-grit-ex" data-hash-target><div className="box">Grit (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Grit</div></div></div>
@@ -813,10 +815,10 @@ const _techslinger = {title: "Techslinger", jsx: <><h2 id="arc-gunslinger-techsl
 </>};
 const _thronewarden = {title: "Thronewarden", jsx: <><h2 id="arc-gunslinger-thronewarden-thronewarden">Thronewarden</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 8</Link><br/>As vigilant sentinels, thronewardens identify and head off trouble. First employed in the Grand Duchy of Alkenstar, they are now also found in the jungle courts of the Mwangi Expanse, the lesser chambers of Nex's Council of Three and Nine, and the Hurricane King's gatherings in the Shackles.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-gunslinger-thronewarden-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Bluff</div></div></div></div>
+<Ability icon={["skills"]} id="arc-gunslinger-thronewarden-undefined">
+<Pair id="arc-gunslinger-thronewarden-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Bluff</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-gunslinger-thronewarden-hair-trigger-reflexes-ex" data-hash-target><div className="box">Hair-Trigger Reflexes (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Nimble</div></div></div>
@@ -849,9 +851,9 @@ const _thronewarden = {title: "Thronewarden", jsx: <><h2 id="arc-gunslinger-thro
 const _wyrm_sniper = {title: "Wyrm Sniper", jsx: <><h2 id="arc-gunslinger-wyrm_sniper-wyrm-sniper">Wyrm Sniper</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 23</Link><br/>These long-shot artists are masters at taking down dragons with sharp shooting and light siege weaponry.</p>
 <p>The following are class features for wyrm snipers.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-gunslinger-wyrm_sniper-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-gunslinger-wyrm_sniper-undefined">
+<Pair id="arc-gunslinger-wyrm_sniper-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-gunslinger-wyrm_sniper-artillery-proficiency" data-hash-target><div className="box">Artillery Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">Wyrm snipers are proficient with light <Link to="/rule/siege_engines">siege engines</Link>, in addition to the normal gunslinger weapon proficiencies.</div></div></div></div>

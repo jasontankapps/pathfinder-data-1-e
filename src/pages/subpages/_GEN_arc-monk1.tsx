@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 const _black_asp = {title: "Black Asp", jsx: <><h2 id="arc-monk-black_asp-black-asp">Black Asp</h2>
@@ -65,10 +67,10 @@ const _black_asp_uc = {title: "Black Asp (Unchained)", topLink: ["Unchained Monk
 const _brazen_disciple = {title: "Brazen Disciple", jsx: <><h2 id="arc-monk-brazen_disciple-brazen-disciple">Brazen Disciple</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 104</Link><br/>Of the three monasteries, the Monastery of Unblinking Flame has been the most successful in developing a specific and unique fighting style that sets its disciples apart from other monks. In order to be admitted into the Monastery of Unblinking Flame and become one of these disciples, a supplicant must prove his worth by outwitting an <Link to="/monster/efreeti">efreeti</Link>. Those who succeed often become monks known as the brazen disciples.</p>
 <p>Brazen disciples believe that the best way to prepare for this test is to emulate the efreeti's own duplicitous ways. By studying genie contracts, brazen disciples learn how to take advantage of loopholes, and by pondering riddles, they learn how to obfuscate truth. They use deception in their fighting style, and many go a step further, incorporating fire and smoke both mundane and magical. Though most brazen disciples focus on joining the <Link to="/rule/houses_of_perfection">Houses of Perfection</Link>, some become enamored with the efreet and instead seek out genie masters.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-monk-brazen_disciple-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (religion), Ride, Swim</div></div></div></div>
+<Ability icon={["skills"]} id="arc-monk-brazen_disciple-undefined">
+<Pair id="arc-monk-brazen_disciple-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (religion), Ride, Swim</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/mailed-fist"><IonIcon icon="/icons/mailed-fist.svg" color="secondary" /></Link><Link to="/icons/armor-downgrade"><IonIcon icon="/icons/armor-downgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-brazen_disciple-feinting-flurry-ex" data-hash-target><div className="box">Feinting Flurry (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus feats gained at 1st level and at 6th level</div></div></div>
@@ -101,10 +103,10 @@ const _brazen_disciple = {title: "Brazen Disciple", jsx: <><h2 id="arc-monk-braz
 const _brazen_disciple_uc = {title: "Brazen Disciple (Unchained)", topLink: ["Unchained Monk","class/unchained_monk"], jsx: <><h2 id="arc-monk-brazen_disciple_uc-brazen-disciple">Brazen Disciple</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 104</Link><br/>Of the three monasteries, the Monastery of Unblinking Flame has been the most successful in developing a specific and unique fighting style that sets its disciples apart from other monks. In order to be admitted into the Monastery of Unblinking Flame and become one of these disciples, a supplicant must prove his worth by outwitting an <Link to="/monster/efreeti">efreeti</Link>. Those who succeed often become monks known as the brazen disciples.</p>
 <p>Brazen disciples believe that the best way to prepare for this test is to emulate the efreeti's own duplicitous ways. By studying genie contracts, brazen disciples learn how to take advantage of loopholes, and by pondering riddles, they learn how to obfuscate truth. They use deception in their fighting style, and many go a step further, incorporating fire and smoke both mundane and magical. Though most brazen disciples focus on joining the <Link to="/rule/houses_of_perfection">Houses of Perfection</Link>, some become enamored with the efreet and instead seek out genie masters.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-monk-brazen_disciple_uc-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (religion), Ride, Swim</div></div></div></div>
+<Ability icon={["skills"]} id="arc-monk-brazen_disciple_uc-undefined">
+<Pair id="arc-monk-brazen_disciple_uc-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (religion), Ride, Swim</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/mailed-fist"><IonIcon icon="/icons/mailed-fist.svg" color="secondary" /></Link><Link to="/icons/armor-downgrade"><IonIcon icon="/icons/armor-downgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-brazen_disciple_uc-feinting-flurry-ex" data-hash-target><div className="box">Feinting Flurry (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus feats gained at 1st level and at 6th level</div></div></div>
@@ -468,10 +470,10 @@ const _hellcat = {title: "Hellcat", jsx: <><h2 id="arc-monk-hellcat-hellcat">Hel
 <div className="title abSingle" id="arc-monk-hellcat-alignment" data-hash-target><div className="box">Alignment</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Alignment requirements</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A hellcat must be lawful evil or lawful neutral. A hellcat who becomes lawful good or nonlawful cannot gain new levels as a monk but retains all monk abilities.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-monk-hellcat-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Craft, Knowledge (history), Perform, Profession</div></div></div></div>
+<Ability icon={["skills"]} id="arc-monk-hellcat-undefined">
+<Pair id="arc-monk-hellcat-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Craft, Knowledge (history), Perform, Profession</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-hellcat-weapon-proficiency" data-hash-target><div className="box">Weapon Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Weapon proficiencies</div></div></div>
@@ -1290,10 +1292,10 @@ const _karmic_monk = {title: "Karmic Monk", jsx: <><h2 id="arc-monk-karmic_monk-
 <div className="title abSingle" id="arc-monk-karmic_monk-alignment" data-hash-target><div className="box">Alignment</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Alignment requirement</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A karmic monk must be true neutral or of any lawful alignment.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-monk-karmic_monk-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Intimidate</div></div></div></div>
+<Ability icon={["skills"]} id="arc-monk-karmic_monk-undefined">
+<Pair id="arc-monk-karmic_monk-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</Pair>
+<Pair title="Removed Skills">Intimidate</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-monk-karmic_monk-karmic-strike-su" data-hash-target><div className="box">Karmic Strike (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Stunning fist</div></div></div>

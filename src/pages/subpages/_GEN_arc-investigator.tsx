@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
 const _antiquarian = {title: "Antiquarian", jsx: <><h2 id="arc-investigator-antiquarian-antiquarian">Antiquarian</h2>
@@ -548,9 +550,9 @@ const _jinyiwei = {title: "Jinyiwei", jsx: <><h2 id="arc-investigator-jinyiwei-j
 </>};
 const _lamplighter = {title: "Lamplighter", jsx: <><h2 id="arc-investigator-lamplighter-lamplighter">Lamplighter</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 17</Link><br/>Lamplighters are investigators tasked with keeping the night streets safe and lit, and securing darkened areas against whatever dangers lurk in the shadows. They also investigate those who seek to hide their crimes from the light of day.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-investigator-lamplighter-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Perform, Profession</div></div></div></div>
+<Ability icon={["skills"]} id="arc-investigator-lamplighter-undefined">
+<Pair id="arc-investigator-lamplighter-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="Removed Skills">Perform, Profession</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-investigator-lamplighter-lamplighter-su" data-hash-target><div className="box">Lamplighter (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
@@ -736,10 +738,10 @@ const _mastermind = {title: "Mastermind", jsx: <><h2 id="arc-investigator-master
 </>};
 const _natural_philosopher = {title: "Natural Philosopher", jsx: <><h2 id="arc-investigator-natural_philosopher-natural-philosopher">Natural Philosopher</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 56</Link><br/>Natural philosophers are scholars, explorers, and survivalists who feel at home in nature, seldom longing for the comforts of the city. They eschew the fancy tools and weaponry of gentlefolk detectives and instead employ weapons that double as tools, materials available in nature, and methods better suited for untamed wilderness.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-investigator-natural_philosopher-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Perform</div></div></div></div>
+<Ability icon={["skills"]} id="arc-investigator-natural_philosopher-undefined">
+<Pair id="arc-investigator-natural_philosopher-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Perform</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-investigator-natural_philosopher-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Weapon and armor proficiency</div></div></div>
@@ -831,9 +833,9 @@ const _profiler = {title: "Profiler", jsx: <><h2 id="arc-investigator-profiler-p
 </>};
 const _psychic_detective = {title: "Psychic Detective", jsx: <><h2 id="arc-investigator-psychic_detective-psychic-detective">Psychic Detective</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 119</Link><br/>A psychic detective supplements her keen insight with occult skill to unravel mysteries both ordinary and supernatural.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-investigator-psychic_detective-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Acrobatics, Climb, Perform</div></div></div></div>
+<Ability icon={["skills"]} id="arc-investigator-psychic_detective-undefined">
+<Pair id="arc-investigator-psychic_detective-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="Removed Skills">Acrobatics, Climb, Perform</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-investigator-psychic_detective-spells" data-hash-target><div className="box">Spells</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box"><p>A psychic detective casts psychic spells drawn from the <Link to="/main/spells_psychic">psychic class spell list</Link> and augmented by a select set of additional spells (see <em>Psychic Detective Spells</em> below). Only spells from the psychic class spell list of 6th level or lower and psychic detective spells are considered to be part of the psychic detective's spell list. If a spell appears on both the psychic detective and psychic class spell lists, the psychic detective uses the spell level from the psychic detective spell list. She can cast any spell she knows without preparing it ahead of time. To learn or cast a spell, a psychic detective must have an Intelligence score equal to at least 10 + the spell's level. The saving throw DC against a psychic detective's spell is 10 + the spell's level + the psychic detective's Intelligence modifier.</p>

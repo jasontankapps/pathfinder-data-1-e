@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 const _blighted_myrmidon = {title: "Blighted Myrmidon", jsx: <><h2 id="arc-antipaladin-blighted_myrmidon-blighted-myrmidon">Blighted Myrmidon</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 91</Link><br/>Blighted myrmidons carry the seed of rot in their black hearts and sap life from the natural world.</p>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
@@ -329,10 +331,10 @@ const _tyrant = {title: "Tyrant", jsx: <><h2 id="arc-antipaladin-tyrant-tyrant">
 <div className="title abSingle" id="arc-antipaladin-tyrant-tyrants-code" data-hash-target><div className="box">Tyrant's Code</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Code of conduct and associated abilities, ex-antipaladins</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A tyrant must be of lawful evil alignment and loses all class features except proficiencies if he willingly and altruistically commits good acts. This does not mean the tyrant can't take actions someone else might qualify as good, only that such actions must always be in service of his own dark ambitions. A tyrant's code requires that he place his own sinister goals above all else, respect rightful authority even as he twists its loopholes to his own ends, impose tyranny, and punish all those who dare dissent. A tyrant can accept underlings of any alignment; he cares not who serves him, only that they are truly loyal to him. He can even work alongside good-aligned individuals, as long as he is secretly manipulating them.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-antipaladin-tyrant-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Ride</div></div></div></div>
+<Ability icon={["skills"]} id="arc-antipaladin-tyrant-undefined">
+<Pair id="arc-antipaladin-tyrant-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</Pair>
+<Pair title="Removed Skills">Ride</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-antipaladin-tyrant-diabolic-boon-sp" data-hash-target><div className="box">Diabolic Boon (Sp)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Fiendish boon</div></div></div>

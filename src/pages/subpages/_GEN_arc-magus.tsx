@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 const _armored_battlemage = {title: "Armored Battlemage", jsx: <><h2 id="arc-magus-armored_battlemage-armored-battlemage">Armored Battlemage</h2>
 <p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook pg. 4</Link><br/>Though it hasn't been at war with its southern neighbor for centuries, Nex continues to train battlemages at its arcane schools in Ecanus. Many battlemages focus purely on destructive evocations, but some extend their tactical studies to include use of the tried-and-true protection of steel. These armored battlemages learn to move and cast spells in even the most restrictive armors, and have developed new methods to magically enhance their armor. Most armored battlemages strongly support the Arclords of Nex. Many travel beyond their homelands seeking some method of contacting the archmage Nex, and hope for some excuse to convince the Council of Three and Nine to renew hostilities with the nation of Geb.</p>
@@ -261,10 +263,10 @@ const _deep_marshal = {title: "Deep Marshal", jsx: <><h2 id="arc-magus-deep_mars
 </>};
 const _eldritch_archer = {title: "Eldritch Archer", jsx: <><h2 id="arc-magus-eldritch_archer-eldritch-archer">Eldritch Archer</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 11</Link><br/>The eldritch archer rains magical attacks down on her foes from the city walls.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-magus-eldritch_archer-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/perception">Perception</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Use Magic Device</div></div></div></div>
+<Ability icon={["skills"]} id="arc-magus-eldritch_archer-undefined">
+<Pair id="arc-magus-eldritch_archer-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perception">Perception</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Use Magic Device</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-magus-eldritch_archer-arcane-pool-su" data-hash-target><div className="box">Arcane Pool (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Arcane pool</div></div></div>
@@ -712,10 +714,10 @@ const _kensai = {title: "Kensai", jsx: <><h2 id="arc-magus-kensai-kensai">Kensai
 const _magic_warrior = {title: "Magic Warrior", jsx: <><h2 id="arc-magus-magic_warrior-magic-warrior">Magic Warrior</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 123</Link>, <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 42</Link><br/>Trained in a tradition stretching back to Old-Mage Jatembe's Ten Magic Warriors, Magic Warriors renounce their identities to master magical might and serve as champions of culture and learning across the Mwangi Expanse and beyond. The original Ten Magic Warriors each directly served Old-Mage Jatembe as guardians, bodyguards, allies, and friends. Tales of their deeds are still told today in the <Link to="/rule/magaambya">Magaambya</Link>, and while they are long gone, the traditions that rose from these tales live on.</p>
 <p>While the original Ten Magic Warriors championed unusual skills drawn from various arcane spellcasting classes, often combined with martial classes or even prestige classes, the tradition today has been standardized over the course of the intervening centuries into an archetype followed strictly by magi. Even then, it's not uncommon for a Magic Warrior to multiclass with a martial class for a few levels or to become an <Link to="/pclass/eldritch_knight">eldritch knight</Link> to further bolster her combat powers. No one path is regarded as canonical for the magi of the Magic Warriors, and they value their diversity, looking to their brothers and sisters constantly for inspiration regarding new ways to defend the Magaambya and the people of the Mwangi Expanse from the multitude of dangers the world has to offer.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-magus-magic_warrior-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering), Knowledge (planes)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-magus-magic_warrior-undefined">
+<Pair id="arc-magus-magic_warrior-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (planes)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/hazard-sign"><IonIcon icon="/icons/hazard-sign.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-magus-magic_warrior-nameless-mask-ex" data-hash-target><div className="box">Nameless Mask (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A Magic Warrior gains strength by hiding her identity behind a mask that represents an animal, but also suffers drawbacks from doing so. While wearing her mask, a Magic Warrior gains a +2 bonus on saving throws against divinations in the scrying subschool. However, NPCs who are unfamiliar with or have a poor opinion of the Magic Warrior tradition have a starting attitude of unfriendly toward the Magic Warrior while she wears her mask. If using the <Link to="/rule/influence">influence system</Link>, she requires one additional success to increase her influence level over such an NPC.</div></div></div>
@@ -846,10 +848,10 @@ const _nature_bonded_magus = {title: "Nature-Bonded Magus", jsx: <><h2 id="arc-m
 </>};
 const _puppetmaster = {title: "Puppetmaster", jsx: <><h2 id="arc-magus-puppetmaster-puppetmaster">Puppetmaster</h2>
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 27</Link><br/>Puppetmasters focus on using charm and illusion spells to control the senses of those for whom they perform.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-magus-puppetmaster-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Climb, Ride, Swim</div></div></div></div>
+<Ability icon={["skills"]} id="arc-magus-puppetmaster-undefined">
+<Pair id="arc-magus-puppetmaster-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA)</Pair>
+<Pair title="Removed Skills">Climb, Ride, Swim</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-magus-puppetmaster-skills" data-hash-target><div className="box">Skills</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Skills</div></div></div>
@@ -1024,10 +1026,10 @@ const _soul_forger = {title: "Soul Forger", jsx: <><h2 id="arc-magus-soul_forger
 </>};
 const _spell_dancer = {title: "Spell Dancer", jsx: <><h2 id="arc-magus-spell_dancer-spell-dancer">Spell Dancer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 24</Link><br/>The strong emphasis on wizards within elven culture influences how even non-wizard elves see themselves. Many elven magi do not consider themselves masters of a blend of martial and magical talents, but rather a sub-category of wizards who study the effect of physical movement and techniques upon spellcasting ability. They believe their ability to cast spells while fighting is an outgrowth of the concept of the "spell dance," which itself is just another kind of wizardry. A spell dancer has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-magus-spell_dancer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-magus-spell_dancer-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/perform">Perform (dance)</Link> (CHA)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Intimidate, Ride</div></div></div></div>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-magus-spell_dancer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-magus-spell_dancer-undefined">
+<Pair id="arc-magus-spell_dancer-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/perform">Perform (dance)</Link> (CHA)</Pair>
+<Pair title="Removed Skills">Intimidate, Ride</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-magus-spell_dancer-spell-dance-su" data-hash-target><div className="box">Spell Dance (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The magus's ability to expend points from his <em>arcane pool</em> as a swift action to grant any weapon he is holding magic bonuses for 1 minute</div></div></div>
@@ -1055,10 +1057,10 @@ const _spell_dancer = {title: "Spell Dancer", jsx: <><h2 id="arc-magus-spell_dan
 </>};
 const _spell_trapper = {title: "Spell Trapper", jsx: <><h2 id="arc-magus-spell_trapper-spell-trapper">Spell Trapper</h2>
 <p><strong>Sources</strong> <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 15</Link><br/>Spell trappers are found in lands where hunting and magic are abundant, particularly the deserts of Thuvia and the harsh lands of Geb and Nex. They forsake much of their arcane skill and martial knowledge in exchange for the ability to conjure magical traps to hinder their foes.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-magus-spell_trapper-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (planes)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-magus-spell_trapper-undefined">
+<Pair id="arc-magus-spell_trapper-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Knowledge (planes)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-magus-spell_trapper-diminished-arcana" data-hash-target><div className="box">Diminished Arcana</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Magus arcana</div></div></div>

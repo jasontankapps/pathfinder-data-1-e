@@ -1,10 +1,12 @@
 import {IonIcon} from '@ionic/react';
 import Link from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 const _aberrant_companion = {title: "Aberrant Companion", jsx: <><h2 id="arc-companion-aberrant_companion-aberrant-companion">Aberrant Companion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 186</Link><br/>There's something oddly wrong about aberrant companions. Though they're touched by eldritch magic or mutated by strange influences, they are still loyal, if unnatural, allies.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-companion-aberrant_companion-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-companion-aberrant_companion-undefined">
+<Pair id="arc-companion-aberrant_companion-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-companion-aberrant_companion-not-quite-animal" data-hash-target><div className="box">Not Quite Animal</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The DC to use Handle Animal on an aberrant companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.</div></div></div></div>
@@ -198,9 +200,9 @@ const _charger = {title: "Charger", jsx: <><h2 id="arc-companion-charger-charger
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-companion-charger-animal-feats" data-hash-target><div className="box">Animal Feats</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">In addition to the standard animal companion feats, a charger may select <Link to="/feat/charge_through">Charge Through</Link>, <Link to="/feat/greater_overrun">Greater Overrun</Link>, <Link to="/feat/improved_great_fortitude">Improved Great Fortitude</Link>, and <Link to="/feat/improved_iron_will">Improved Iron Will</Link>.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-companion-charger-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-companion-charger-undefined">
+<Pair id="arc-companion-charger-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-companion-charger-mounted-challenge-ex" data-hash-target><div className="box">Mounted Challenge (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Share Spells</div></div></div>
@@ -263,9 +265,9 @@ const _deathtouched_companion = {title: "Deathtouched Companion", jsx: <><h2 id=
 </>};
 const _draconic_companion = {title: "Draconic Companion", jsx: <><h2 id="arc-companion-draconic_companion-draconic-companion">Draconic Companion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 188</Link><br/>Draconic companions bear a faint trace of dragon blood that grants them special abilities.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-companion-draconic_companion-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-companion-draconic_companion-undefined">
+<Pair id="arc-companion-draconic_companion-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-companion-draconic_companion-not-quite-animal" data-hash-target><div className="box">Not Quite Animal</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The DC to use Handle Animal on a draconic companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.</div></div></div></div>
@@ -312,9 +314,9 @@ const _elemental_companion = {title: "Elemental Companion", jsx: <><h2 id="arc-c
 const _feytouched_companion = {title: "Feytouched Companion", jsx: <><h2 id="arc-companion-feytouched_companion-feytouched-companion">Feytouched Companion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 188</Link><br/>Feytouched companions are strangely colored fauna native to the First World, the primal realm of the fey. They gain strange abilities tied to the fey.</p>
 <p><strong className="hl">Small:</strong> A feytouched companion must be an animal companion that normally starts as Small or smaller.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-companion-feytouched_companion-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/perform">Perform</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-companion-feytouched_companion-undefined">
+<Pair id="arc-companion-feytouched_companion-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perform">Perform</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-companion-feytouched_companion-not-quite-animal" data-hash-target><div className="box">Not Quite Animal</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The DC to use Handle Animal on a feytouched companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.</div></div></div></div>

@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
 const _animal_speaker = {title: "Animal Speaker", jsx: <><h2 id="arc-bard-animal_speaker-animal-speaker">Animal Speaker</h2>
@@ -592,9 +594,9 @@ const _court_fool = {title: "Court Fool", jsx: <><h2 id="arc-bard-court_fool-cou
 </>};
 const _cultivator = {title: "Cultivator", jsx: <><h2 id="arc-bard-cultivator-cultivator">Cultivator</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 40</Link><br/>Cultivators use music to promote plant growth and influence the behavior of plants both naturally and supernaturally. Most cultivators work in conjunction with local communities to maintain crops and oversee harvests, while others serve as wardens of unspoiled natural wonders.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bard-cultivator-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/survival">Survival</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-bard-cultivator-undefined">
+<Pair id="arc-bard-cultivator-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-bard-cultivator-plant-magic" data-hash-target><div className="box">Plant Magic</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">The bard's spells</div></div></div>

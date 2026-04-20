@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 const _armored_hulk = {title: "Armored Hulk", jsx: <><h2 id="arc-barbarian-armored_hulk-armored-hulk">Armored Hulk</h2>
@@ -89,9 +91,9 @@ const _brutal_pugilist = {title: "Brutal Pugilist", jsx: <><h2 id="arc-barbarian
 </>};
 const _brutish_swamper = {title: "Brutish Swamper", jsx: <><h2 id="arc-barbarian-brutish_swamper-brutish-swamper">Brutish Swamper</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 37</Link><br/>The hardy and insular denizens of the swamp produce warriors of narrow focus and great strength. The prejudice and misunderstanding with which civilized folk often regard barbarians is often even more pronounced in the case of these belligerent outcasts from society, in large part due to the fact that brutish swampers deliberately mock and antagonize the so-called "city folk." To a brutish swamper, an urban lifestyle is one that breeds weakness and lassitude in the body. The brutish swamper has little interest or patience in maintaining alliances or friendship with those who live such soft lifestyles, and this aggression only further encourages feelings of prejudice on both sides of the cultural divide. When a brutish swamper joins an adventuring party, they usually come to value the skills and talents of their more urbanized companions, but never fully understand the desire to live lives surrounded by creature comforts.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-barbarian-brutish_swamper-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-barbarian-brutish_swamper-undefined">
+<Pair id="arc-barbarian-brutish_swamper-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-barbarian-brutish_swamper-marsh-march-ex" data-hash-target><div className="box">Marsh March (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Fast movement</div></div></div>
@@ -126,10 +128,10 @@ const _brutish_swamper = {title: "Brutish Swamper", jsx: <><h2 id="arc-barbarian
 </>};
 const _cave_dweller = {title: "Cave Dweller", jsx: <><h2 id="arc-barbarian-cave_dweller-cave-dweller">Cave Dweller</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 37</Link><br/>Unused to the light of the sun, cave dwellers use their subterranean expertise to protect their clans from the manifold dangers of deep caverns and tunnels. The typical cave dweller is perfectly content to live his entire life underground, and he may even view the light of the sun as particularly abhorrent or taboo. While this lifestyle doesn't in and of itself imply evil or sinister intent, many outlanders ignorantly assume that cave dwellers avoid the light of the sun for malicious reasons. In truth, cave dwellers are as capable of goodness and kindness as any other - they just see little reason to venture out of their preferred homelands. When a cave dweller joins an adventuring party, she may retain an inherent nervousness about sleeping under the open sky and may long for the familiar confines of a comforting cavern, but this rarely translates directly into a notable disadvantage. Indeed, many adventuring groups come to value the specialized talents and skills the cave dweller brings to the party.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-barbarian-cave_dweller-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/stealth">Stealth</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Ride</div></div></div></div>
+<Ability icon={["skills"]} id="arc-barbarian-cave_dweller-undefined">
+<Pair id="arc-barbarian-cave_dweller-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Ride</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-barbarian-cave_dweller-tight-tunnels-ex" data-hash-target><div className="box">Tight Tunnels (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Fast movement</div></div></div>
@@ -561,10 +563,10 @@ const _mounted_fury = {title: "Mounted Fury", jsx: <><h2 id="arc-barbarian-mount
 </>};
 const _numerian_liberator = {title: "Numerian Liberator", jsx: <><h2 id="arc-barbarian-numerian_liberator-numerian-liberator">Numerian Liberator</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River pg. 6</Link><br/>The Kellid barbarians that roam Numeria's badlands have a healthy mistrust of technology and its corruptive influence. Since the cataclysmic Rain of Stars millennia ago, these warriors have developed numerous techniques and skills to protect themselves from the strange mechanical monsters that roam Numeria. While many native Kellids oppose the Technic League and its espousal of foul alien artifacts, the most stalwart and staunchly dedicated of these technophobic traditionalists refer to themselves as Numerian liberators.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-barbarian-numerian_liberator-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/stealth">Stealth</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Climb</div></div></div></div>
+<Ability icon={["skills"]} id="arc-barbarian-numerian_liberator-undefined">
+<Pair id="arc-barbarian-numerian_liberator-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Climb</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-barbarian-numerian_liberator-hard-hitter-ex" data-hash-target><div className="box">Hard Hitter (Ex)</div><div className="flavor">A Numerian liberator can make devastating attacks against objects and foes with breakable components.</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Uncanny dodge</div></div></div>
@@ -698,10 +700,10 @@ const _savage_barbarian = {title: "Savage Barbarian", jsx: <><h2 id="arc-barbari
 </>};
 const _savage_technologist = {title: "Savage Technologist", jsx: <><h2 id="arc-barbarian-savage_technologist-savage-technologist">Savage Technologist</h2>
 <p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 13</Link><br/>Savage technologists exhort Kellids to rise up against the depredations of the Technic League. But rather than rejecting technology, they wield the League's own weapons against it. A savage technologist has the following class features.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-barbarian-savage_technologist-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (nature), Handle Animal</div></div></div></div>
+<Ability icon={["skills"]} id="arc-barbarian-savage_technologist-undefined">
+<Pair id="arc-barbarian-savage_technologist-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Knowledge (nature), Handle Animal</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-barbarian-savage_technologist-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A savage technologist is proficient in all firearms, but is not proficient with medium armor.</div></div></div></div>
@@ -1121,10 +1123,10 @@ const _urban_barbarian = {title: "Urban Barbarian", jsx: <><h2 id="arc-barbarian
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-barbarian-urban_barbarian-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">An urban barbarian is not proficient with medium armor.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-barbarian-urban_barbarian-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/profession">Profession</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Handle Animal, Knowledge (nature), Survival</div></div></div></div>
+<Ability icon={["skills"]} id="arc-barbarian-urban_barbarian-undefined">
+<Pair id="arc-barbarian-urban_barbarian-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/profession">Profession</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Handle Animal, Knowledge (nature), Survival</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-barbarian-urban_barbarian-crowd-control-ex" data-hash-target><div className="box">Crowd Control (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Fast movement</div></div></div>

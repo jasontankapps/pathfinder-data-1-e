@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 const _fiend_keeper = {title: "Fiend Keeper", jsx: <><h2 id="arc-medium-fiend_keeper-fiend-keeper">Fiend Keeper</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 8</Link><br/>Among the most sacred roles a grippli can play is that of fiend keeper, a vessel to contain one of the world's evil spirits so that it cannot inflict further harm. As the host performs goodly acts, he slowly cleanses the spirit, continuing this process over many generations, until the entity's vileness is no more. In turn, the spirit tempts the fiend keeper with blasphemous power that a cautious medium can direct toward righteous ends. Many tribes boast a resident fiend keeper who bears this local burden and trains replacements who might take over when their mentor dies.</p>
@@ -80,10 +82,10 @@ const _kami_medium = {title: "Kami Medium", jsx: <><h2 id="arc-medium-kami_mediu
 </>};
 const _medium_of_the_master = {title: "Medium of the Master", jsx: <><h2 id="arc-medium-medium_of_the_master-medium-of-the-master">Medium of the Master</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 5</Link><br/>A medium of the master forgoes a connection with most spirits to form a bond with the spirits of great martial artists.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-medium-medium_of_the_master-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Use Magic Device</div></div></div></div>
+<Ability icon={["skills"]} id="arc-medium-medium_of_the_master-undefined">
+<Pair id="arc-medium-medium_of_the_master-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Use Magic Device</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-medium-medium_of_the_master-armor-proficiency" data-hash-target><div className="box">Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Armor proficiency</div></div></div>
@@ -427,10 +429,10 @@ const _storyteller = {title: "Storyteller", jsx: <><h2 id="arc-medium-storytelle
 </>};
 const _uda_wendo = {title: "Uda Wendo", jsx: <><h2 id="arc-medium-uda_wendo-uda-wendo">Uda Wendo</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 23</Link><br/>Primarily found among the various tribes of the Mwangi Expanse, uda wendo are powerful mediums who are sensitive to the presence and desires of the wendo, powerful and mysterious entities that walk Golarion while shaping fate and guiding destiny. Rather than simply communing with the wendo like some oracles do, an uda wendo invites the wendo to use his body as a vessel, gaining fantastic powers even while struggling to maintain control of his body against the crushing might of the wendo's presence.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-medium-uda_wendo-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Perform</div></div></div></div>
+<Ability icon={["skills"]} id="arc-medium-uda_wendo-undefined">
+<Pair id="arc-medium-uda_wendo-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Perform</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/hazard-sign"><IonIcon icon="/icons/hazard-sign.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-medium-uda_wendo-wendo-su" data-hash-target><div className="box">Wendo (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Spirit</div></div></div>

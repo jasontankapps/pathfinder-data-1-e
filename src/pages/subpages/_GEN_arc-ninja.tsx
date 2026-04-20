@@ -1,12 +1,14 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 const _frozen_shadow = {title: "Frozen Shadow", jsx: <><h2 id="arc-ninja-frozen_shadow-frozen-shadow">Frozen Shadow</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 38</Link><br/>Frozen shadows belong to a rare ninja clan operating in Avistan, having migrated to the Lands of the Linnorm Kings decades ago. Most members are Tian, Ulfen, and Varki humans, and they work as thieves, power brokers, and spies loosely guided by secretive masters with unknown agendas.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-ninja-frozen_shadow-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Diplomacy</div></div></div></div>
+<Ability icon={["skills"]} id="arc-ninja-frozen_shadow-undefined">
+<Pair id="arc-ninja-frozen_shadow-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Diplomacy</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-ninja-frozen_shadow-hardy-killer-ex" data-hash-target><div className="box">Hardy Killer (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Ability to treat Acrobatics jump checks as if he had a running start, ability to reduce Acrobatics jump checks by half</div></div></div>
@@ -59,10 +61,10 @@ const _gunpowder_bombardier = {title: "Gunpowder Bombardier", jsx: <><h2 id="arc
 </>};
 const _hunting_serpent = {title: "Hunting Serpent", jsx: <><h2 id="arc-ninja-hunting_serpent-hunting-serpent">Hunting Serpent</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 104</Link><br/>The order dispatches specially trained killers to hunt relentlessly and fight from the shadows.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-ninja-hunting_serpent-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (nobility)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-ninja-hunting_serpent-undefined">
+<Pair id="arc-ninja-hunting_serpent-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Knowledge (nobility)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-ninja-hunting_serpent-relentless-pursuit-ex" data-hash-target><div className="box">Relentless Pursuit (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">No trace</div></div></div>
@@ -115,10 +117,10 @@ const _mask_of_the_living_god = {title: "Mask of the Living God", jsx: <><h2 id=
 </>};
 const _petal_ninja = {title: "Petal Ninja", jsx: <><h2 id="arc-ninja-petal_ninja-petal-ninja">Petal Ninja</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 13</Link><br/>Petal ninjas are a secretive clan of <Link to="/race/ghoran">ghoran</Link> infiltrators, in touch with their plant-like nature to the point where they can change their forms, allowing them access into places that were previously impossible to reach.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ninja-petal_ninja--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ghoran">Ghoran</Link></td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-ninja-petal_ninja-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/heal">Heal</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Appraise</div></div></div></div>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ninja-petal_ninja--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ghoran">Ghoran</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-ninja-petal_ninja-undefined">
+<Pair id="arc-ninja-petal_ninja-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Appraise</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/armor-downgrade"><IonIcon icon="/icons/armor-downgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-ninja-petal_ninja-blossom-shower-ex" data-hash-target><div className="box">Blossom Shower (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Ninja trick gained at 2nd level</div></div></div>

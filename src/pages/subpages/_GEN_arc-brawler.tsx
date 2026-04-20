@@ -1,13 +1,15 @@
 import {IonRippleEffect,IonIcon} from '@ionic/react';
 import Link from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
 const _battle_dancer = {title: "Battle Dancer", jsx: <><h2 id="arc-brawler-battle_dancer-battle-dancer">Battle Dancer</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 4</Link><br/>Originating among the Mwangi tribes of Sargava, battle dancers practice a martial art that emphasizes constant motion, hiding their training from colonial oppressors by presenting it as an acrobatic dance. Sargava's alliance with the Shackles has led to a proliferation of the art there, and battle dancers are often found among Mwangi-descended pirates.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-brawler-battle_dancer-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/perform">Perform</Link> (CHA)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-brawler-battle_dancer-undefined">
+<Pair id="arc-brawler-battle_dancer-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perform">Perform</Link> (CHA)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-brawler-battle_dancer-armor-proficiency" data-hash-target><div className="box">Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">The brawler's armor proficiencies</div></div></div>
@@ -63,9 +65,9 @@ const _bouncer = {title: "Bouncer", jsx: <><h2 id="arc-brawler-bouncer-bouncer">
 </>};
 const _constructed_pugilist = {title: "Constructed Pugilist", jsx: <><h2 id="arc-brawler-constructed_pugilist-constructed-pugilist">Constructed Pugilist</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 8</Link><br/>Mutants whose mutations make using standard weapons or other gear difficult sometimes attach mechanical prostheses to their existing limbs. Many develop combat skills that use their prostheses so they always have a weapon at hand. Over time, these brawlers customize their mechanical limbs, adding additional weaponry and other mechanisms.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-brawler-constructed_pugilist-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/craft">Craft (weapons)</Link> (INT)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-brawler-constructed_pugilist-undefined">
+<Pair id="arc-brawler-constructed_pugilist-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/craft">Craft (weapons)</Link> (INT)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-brawler-constructed_pugilist-constructed-limb-ex" data-hash-target><div className="box">Constructed Limb (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box"><p>A constructed pugilist begins play with a special prosthetic limb built for fighting and typically made of iron, steel, stone, or wood, with the corresponding hardness and hit points (<Link to="/rule/breaking_things">see Table 7-13</Link>). She treats attacks with this limb as unarmed strikes that gain all the benefits of the brawler's unarmed strike class feature. She treats the limb as a light weapon and is proficient with it. Removing or reattaching the constructed limb takes 10 minutes.</p>
@@ -271,10 +273,10 @@ const _shield_champion = {title: "Shield Champion", jsx: <><h2 id="arc-brawler-s
 </>};
 const _snakebite_striker = {title: "Snakebite Striker", jsx: <><h2 id="arc-brawler-snakebite_striker-snakebite-striker">Snakebite Striker</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 88</Link><br/>With her lightning quickness and guile, a snakebite striker keeps her foes' attention focused on her, because any one of her feints might be an actual attack. By giving up some of a brawler's versatility, she increases her damage potential and exposes opponents to deadly and unexpected strikes.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-brawler-snakebite_striker-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/stealth">Stealth</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Intimidate</div></div></div></div>
+<Ability icon={["skills"]} id="arc-brawler-snakebite_striker-undefined">
+<Pair id="arc-brawler-snakebite_striker-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Intimidate</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-brawler-snakebite_striker-sneak-attack-ex" data-hash-target><div className="box">Sneak Attack (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Martial flexibility</div></div></div>
@@ -299,10 +301,10 @@ const _snakebite_striker = {title: "Snakebite Striker", jsx: <><h2 id="arc-brawl
 </>};
 const _steel_breaker = {title: "Steel-Breaker", jsx: <><h2 id="arc-brawler-steel_breaker-steel-breaker">Steel-Breaker</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 88</Link><br/>The steel-breaker studies destruction and practices it as an art form. She knows every defense has a breaking point, and can shatter those defenses with carefully planned strikes.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-brawler-steel_breaker-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-brawler-steel_breaker-undefined">
+<Pair id="arc-brawler-steel_breaker-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/armor-downgrade"><IonIcon icon="/icons/armor-downgrade.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-brawler-steel_breaker-exploit-weakness-ex" data-hash-target><div className="box">Exploit Weakness (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Brawler's strike</div></div></div>
@@ -320,9 +322,9 @@ const _steel_breaker = {title: "Steel-Breaker", jsx: <><h2 id="arc-brawler-steel
 </>};
 const _strangler = {title: "Strangler", jsx: <><h2 id="arc-brawler-strangler-strangler">Strangler</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 88</Link><br/>A strangler is trained to choke the life out of her victims with her vise-like grip. Some stranglers are self-taught and are little more than brutish murderers, unhinged sociopaths, or opportunistic alley-bashers. Others are members of murder cults or specialized schools of assassination, trained since the cradle to kill with their bare hands.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-brawler-strangler-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/stealth">Stealth</Link> (DEX)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-brawler-strangler-undefined">
+<Pair id="arc-brawler-strangler-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-brawler-strangler-strangle-ex" data-hash-target><div className="box">Strangle (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Unarmed strike, brawler's flurry</div></div></div>
@@ -443,9 +445,9 @@ const _verdant_grappler = {title: "Verdant Grappler", jsx: <><h2 id="arc-brawler
 </>};
 const _wild_child = {title: "Wild Child", jsx: <><h2 id="arc-brawler-wild_child-wild-child">Wild Child</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 89</Link><br/>The wild child works with his sworn animal friend to conquer the challenges that lay before them. This kinship could come from being lost in the wilderness and raised by animals or growing up with an exotic pet.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-brawler-wild_child-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/heal">Heal</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-brawler-wild_child-undefined">
+<Pair id="arc-brawler-wild_child-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-brawler-wild_child-animal-companion-ex" data-hash-target><div className="box">Animal Companion (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus combat feats gained at 2nd, 8th, 14th, and 20th levels</div></div></div>

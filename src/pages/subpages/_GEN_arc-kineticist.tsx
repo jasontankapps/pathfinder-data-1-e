@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
@@ -183,10 +185,10 @@ const _blood_kineticist = {title: "Blood Kineticist", jsx: <><h2 id="arc-kinetic
 </>};
 const _cinderlands_adept = {title: "Cinderlands Adept", jsx: <><h2 id="arc-kineticist-cinderlands_adept-cinderlands-adept">Cinderlands Adept</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 28</Link><br/>Among the Sun Clan's most noted champions are those who can tame the flames and bend them to their will. These kineticists are skilled riders, able to wield both weapons and fire with deadly skill.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-kineticist-cinderlands_adept-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA), <Link to="/skill/ride">Ride</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Stealth, Use Magic Device</div></div></div></div>
+<Ability icon={["skills"]} id="arc-kineticist-cinderlands_adept-undefined">
+<Pair id="arc-kineticist-cinderlands_adept-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA), <Link to="/skill/ride">Ride</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Stealth, Use Magic Device</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-kineticist-cinderlands_adept-fire-focus-su" data-hash-target><div className="box">Fire Focus (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Elemental focus, expanded element</div></div></div>
@@ -209,9 +211,9 @@ const _dark_elementalist = {title: "Dark Elementalist", jsx: <><h2 id="arc-kinet
 <div className="ability p"><div className="abIcon"><Link to="/icons/hazard-sign"><IonIcon icon="/icons/hazard-sign.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-kineticist-dark_elementalist-alignment" data-hash-target><div className="box">Alignment</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">Since harming souls is a wicked act, a dark elementalist must be of an evil alignment. If she becomes nonevil, she can't use any of her dark elementalist abilities other than <em>dark studies,</em> though she can still use her other kineticist class features.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-kineticist-dark_elementalist-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-kineticist-dark_elementalist-undefined">
+<Pair id="arc-kineticist-dark_elementalist-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-kineticist-dark_elementalist-dark-studies" data-hash-target><div className="box">Dark Studies</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Base saving throws, the key ability score of wild talents</div></div></div>
@@ -334,11 +336,11 @@ const _elysiokineticist = {title: "Elysiokineticist", jsx: <><h2 id="arc-kinetic
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">She must choose wood as her primary <Link to="/ability/elements">element</Link> and <Link to="/kinetic/positive_blast">positive blast</Link> as her first simple blast.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">She gains <Link to="/kinetic/verdant_blast">verdant blast</Link> and <Link to="/kinetic/wood_blast">wood blast</Link>, as well as a 3rd-level or lower wild talent of her choice.</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">She gains a 7th-level wild talent of her choice.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-kineticist-elysiokineticist-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Handle Animal, Knowledge (nature)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">These replacements alter the class skills granted by the wood element.</div></div></div></div>
+<Ability icon={["skills"]} id="arc-kineticist-elysiokineticist-undefined">
+<Pair id="arc-kineticist-elysiokineticist-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Handle Animal, Knowledge (nature)</Pair>
+<Pair title="Info">These replacements alter the class skills granted by the wood element.</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-kineticist-elysiokineticist-basic-elysiokinesis-sp" data-hash-target><div className="box">Basic Elysiokinesis (Sp)</div><div className="flavor">An elysiokineticist can use the power of Elysium to assist others and bolster their vigor.</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Basic phytokinesis utility wild talent granted by the wood element</div></div></div>
@@ -432,10 +434,10 @@ const _kinetic_chirurgeon = {title: "Kinetic Chirurgeon", jsx: <><h2 id="arc-kin
 </>};
 const _kinetic_knight = {title: "Kinetic Knight", jsx: <><h2 id="arc-kineticist-kinetic_knight-kinetic-knight">Kinetic Knight</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 25</Link><br/>A kinetic knight dons armor and wields a blade of elemental energy. The Phoenix Kindred counted many of these resolute warriors among their number, combining the Recursion Tablets' secrets with a warrior's ways. Today, most remaining Tian kinetic knights follow the philosophy of ichimeiyo. Kinetic knights are rarer in the Inner Sea region, but not unknown; many realize their elemental powers while training for battle.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-kineticist-kinetic_knight-undefined" data-hash-target><div className="box">Courtly</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Acrobatics, Stealth</div></div></div></div>
+<Ability icon={["skills"]} id="arc-kineticist-kinetic_knight-undefined">
+<Pair id="arc-kineticist-kinetic_knight-undefined" single>Courtly</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Acrobatics, Stealth</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-kineticist-kinetic_knight-elemental-blade-su" data-hash-target><div className="box">Elemental Blade (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Metakinesis, metakinetic master</div></div></div>
@@ -517,9 +519,9 @@ const _overwhelming_soul = {title: "Overwhelming Soul", jsx: <><h2 id="arc-kinet
 <div className="title abSingle" id="arc-kineticist-overwhelming_soul-mind-over-matter-ex" data-hash-target><div className="box">Mind Over Matter (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Key ability score of wild talents</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">An overwhelming soul uses her Charisma modifier instead of her Constitution modifier to determine her damage with wild talents, the DCs of Constitution-based wild talents, the duration of wild talents with a Constitution-based duration, her bonus on <Link to="/rule/concentration">concentration</Link> checks for wild talents, and the other Constitution-based effects of all her wild talents.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-kineticist-overwhelming_soul-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-kineticist-overwhelming_soul-undefined">
+<Pair id="arc-kineticist-overwhelming_soul-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-kineticist-overwhelming_soul-mental-prowess-su" data-hash-target><div className="box">Mental Prowess (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Internal buffer</div></div></div>
@@ -574,9 +576,9 @@ const _psammokinetic = {title: "Psammokinetic", jsx: <><h2 id="arc-kineticist-ps
 </>};
 const _psychokineticist = {title: "Psychokineticist", jsx: <><h2 id="arc-kineticist-psychokineticist-psychokineticist">Psychokineticist</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 56</Link><br/>While most kineticists channel elemental power through their bodies, rare kineticists, such as <em>elemental ascetics, overwhelming souls,</em> and <em>psychokineticists</em> channel such power through their minds. Psychokineticists lack an <em>overwhelming soul's</em> strong spirit, and so this energy ravages their minds but unleashes power locked in their ruptured emotions. Sometimes a psychokineticist inadvertently unleashes his power when he experiences an outburst of strong emotion, potentially making a psychokineticist an outcast or even an accidental killer.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-kineticist-psychokineticist-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-kineticist-psychokineticist-undefined">
+<Pair id="arc-kineticist-psychokineticist-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-kineticist-psychokineticist-emotional-intensity-ex" data-hash-target><div className="box">Emotional Intensity (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills, key ability score of wild talents</div></div></div>

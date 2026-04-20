@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
@@ -190,9 +192,9 @@ const _lotus_geisha = {title: "Lotus Geisha", jsx: <><h2 id="arc-bard-lotus_geis
 </>};
 const _luring_piper = {title: "Luring Piper", jsx: <><h2 id="arc-bard-luring_piper-luring-piper">Luring Piper</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 11</Link><br/>Some bards have an exceptional ability to use their musical performances to entrance the world's wilder creatures. These performers are so focused that they create melodies capable of leading animals and fey to their unwilling death.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bard-luring_piper-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/survival">Survival</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-bard-luring_piper-undefined">
+<Pair id="arc-bard-luring_piper-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-bard-luring_piper-fey-secrets" data-hash-target><div className="box">Fey Secrets</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bardic knowledge</div></div></div>
@@ -806,10 +808,10 @@ const _silver_balladeer = {title: "Silver Balladeer", jsx: <><h2 id="arc-bard-si
 </>};
 const _solacer = {title: "Solacer", jsx: <><h2 id="arc-bard-solacer-solacer">Solacer</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 18</Link><br/>Solacers are experts in the healing arts as well as creators of performances that console the distraught, rally the stricken, raise spirits, and vanquish sorrow.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bard-solacer-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/heal">Heal</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Appraise</div></div></div></div>
+<Ability icon={["skills"]} id="arc-bard-solacer-undefined">
+<Pair id="arc-bard-solacer-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Appraise</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-bard-solacer-learned-physician-ex" data-hash-target><div className="box">Learned Physician (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bardic knowledge, lore master</div></div></div>

@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
 const _opportunist = {title: "Opportunist", jsx: <><h2 id="arc-fighter-opportunist-opportunist">Opportunist</h2>
@@ -219,10 +221,10 @@ const _qadira_dawnflower_dervish = {title: "Qadira: Dawnflower Dervish", jsx: <>
 </>};
 const _relic_master = {title: "Relic Master", jsx: <><h2 id="arc-fighter-relic_master-relic-master">Relic Master</h2>
 <p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook pg. 27</Link><br/>Commonly trained in the well-funded temples of Osirion or Qadira, the relic master is skilled in magic item mastery.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-fighter-relic_master-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Handle Animal, Ride</div></div></div></div>
+<Ability icon={["skills"]} id="arc-fighter-relic_master-undefined">
+<Pair id="arc-fighter-relic_master-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair>
+<Pair title="Removed Skills">Handle Animal, Ride</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-fighter-relic_master-improved-item-mastery-su" data-hash-target><div className="box">Improved Item Mastery (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Armor training</div></div></div>
@@ -415,10 +417,10 @@ const _seasoned_commander = {title: "Seasoned Commander", jsx: <><h2 id="arc-fig
 </>};
 const _sensate = {title: "Sensate", jsx: <><h2 id="arc-fighter-sensate-sensate">Sensate</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 118</Link><br/>A sensate perceives battle through senses beyond mortal ken, anticipating his opponents' movements before they even begin to act. As long as he keeps his focus about him, he fights with a skill rivaling that of the finest masters-at-arms.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-fighter-sensate-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Handle Animal, Intimidate, Knowledge (dungeoneering), Knowledge (engineering)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-fighter-sensate-undefined">
+<Pair id="arc-fighter-sensate-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Handle Animal, Intimidate, Knowledge (dungeoneering), Knowledge (engineering)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-fighter-sensate-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Weapon and armor proficiency</div></div></div>
@@ -611,10 +613,10 @@ const _skirmisher = {title: "Skirmisher", jsx: <><h2 id="arc-fighter-skirmisher-
 </>};
 const _spear_fighter = {title: "Spear Fighter", jsx: <><h2 id="arc-fighter-spear_fighter-spear-fighter">Spear Fighter</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 11</Link><br/>The spear is one of the oldest weapons known to most humanoid races, and no weapon has seen as much use across the different continents of Golarion. One of the oldest spear-fighting styles originates in Vudra, where many martial arts traditions consider the spear to be the ultimate weapon.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-fighter-spear_fighter-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Ride</div></div></div></div>
+<Ability icon={["skills"]} id="arc-fighter-spear_fighter-undefined">
+<Pair id="arc-fighter-spear_fighter-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Ride</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-fighter-spear_fighter-armor-proficiency" data-hash-target><div className="box">Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">The fighter's armor proficiencies</div></div></div>
@@ -1185,10 +1187,10 @@ const _ustalavic_duelist = {title: "Ustalavic Duelist", jsx: <><h2 id="arc-fight
 </>};
 const _varisian_free_style_fighter = {title: "Varisian Free-Style Fighter", jsx: <><h2 id="arc-fighter-varisian_free_style_fighter-varisian-free-style-fighter">Varisian Free-Style Fighter</h2>
 <p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook pg. 7</Link><br/>Free-style fighters are most common in Varisia, where their training - with multiple teachers, or perhaps instruction in the anything-goes mentality of the Price of Freedom school in Kaer Maga - allows them to blend fighting styles into a greater whole.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-fighter-varisian_free_style_fighter-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering), Ride</div></div></div></div>
+<Ability icon={["skills"]} id="arc-fighter-varisian_free_style_fighter-undefined">
+<Pair id="arc-fighter-varisian_free_style_fighter-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering), Ride</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-fighter-varisian_free_style_fighter-martial-flexibility-ex" data-hash-target><div className="box">Martial Flexibility (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus feats gained at 1st level, 6th level, 10th level, and 12th level, weapon training, weapon mastery</div></div></div>
@@ -1260,10 +1262,10 @@ const _viking = {title: "Viking", jsx: <><h2 id="arc-fighter-viking-viking">Viki
 </>};
 const _warlord = {title: "Warlord", jsx: <><h2 id="arc-fighter-warlord-warlord">Warlord</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_worldscape_3">Pathfinder Worldscape #3 pg. 26</Link><br/>Honorable, fearless experts in gun and blade, warlords roam the dried seabeds of time-worn Mars, warring in great tribes for supremacy over a dying planet. Capable of relentless brutality and quick to flare into open hostilities, warlords cloak their violent ways with paens to great noble houses or honored ancient traditions, bringing an air of respectability and etiquette to the butchery of brazen blades against bare skin. Warlords eschew armor as impractical to their harsh and often desert-like environment, preferring the free movement of near-nakedness. Warlords tend to specialize in the traditional weapons of Barsoom, leaving them ignorant of even simple Weapons common on other worlds. The same impulse that guides a warlord to stick to the traditional garb and gear of his culture can lead to a single-mindedness of purpose that can propel him far within his tribe or noble house. Even warlords of low status in Martian society claim a connection, no matter how ancient, with some great chieftain or emperor, seeing in the glorious past a path to a more hopeful future. Barsoom confers noble status upon its warlords through ritual combat in the case of green Martians or on merit and upon great achievement or heroics in the case of red Martians, so climbing the ladder of status is an important part of a warlord's journey through life.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-fighter-warlord-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering), Swim</div></div></div></div>
+<Ability icon={["skills"]} id="arc-fighter-warlord-undefined">
+<Pair id="arc-fighter-warlord-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering), Swim</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-fighter-warlord-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Weapon and armor proficiencies</div></div></div>

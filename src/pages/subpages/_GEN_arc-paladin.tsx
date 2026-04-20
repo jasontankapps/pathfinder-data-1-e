@@ -1,14 +1,16 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 const _banishing_warden = {title: "Banishing Warden", jsx: <><h2 id="arc-paladin-banishing_warden-banishing-warden">Banishing Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 18</Link><br/>The banishing warden is an expert at fighting all types of evil outsiders and sending them back to their native planes.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-banishing_warden-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (nobility)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-banishing_warden-undefined">
+<Pair id="arc-paladin-banishing_warden-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (nobility)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-banishing_warden-smite-evil-su" data-hash-target><div className="box">Smite Evil (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Smite evil</div></div></div>
@@ -33,10 +35,10 @@ const _champion_of_the_cascade = {title: "Champion of the Cascade", jsx: <><h2 i
 <div className="title abSingle" id="arc-paladin-champion_of_the_cascade-armor-proficiency" data-hash-target><div className="box">Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Armor proficiency</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A champion of the cascade is proficient with light armor, medium armor, and shields (except tower shields).</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-champion_of_the_cascade-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/swim">Swim</Link> (STR)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (nobility)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-champion_of_the_cascade-undefined">
+<Pair id="arc-paladin-champion_of_the_cascade-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/swim">Swim</Link> (STR)</Pair>
+<Pair title="Removed Skills">Knowledge (nobility)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-champion_of_the_cascade-swiftsurge-ex" data-hash-target><div className="box">Swiftsurge (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Divine health</div></div></div>
@@ -255,10 +257,10 @@ const _divine_hunter = {title: "Divine Hunter", jsx: <><h2 id="arc-paladin-divin
 </>};
 const _dusk_knight = {title: "Dusk Knight", jsx: <><h2 id="arc-paladin-dusk_knight-dusk-knight">Dusk Knight</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_shadows">Blood of Shadows pg. 18</Link><br/>Some paladins focus their training to combat the shadows and use darkness to their advantage. Known as dusk knights, these paladins are primarily worshipers of <Link to="/faith/abadar">Abadar</Link>, but dusk knights who serve <Link to="/faith/iomedae">Iomedae</Link> and <Link to="/faith/irori">Irori</Link>, though rare, do exist.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-dusk_knight-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/stealth">Stealth</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Sense Motive</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-dusk_knight-undefined">
+<Pair id="arc-paladin-dusk_knight-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Sense Motive</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-dusk_knight-shadow-smite-su" data-hash-target><div className="box">Shadow Smite (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Smite evil</div></div></div>
@@ -334,10 +336,10 @@ const _empyreal_knight = {title: "Empyreal Knight", jsx: <><h2 id="arc-paladin-e
 </>};
 const _faithful_wanderer = {title: "Faithful Wanderer", jsx: <><h2 id="arc-paladin-faithful_wanderer-faithful-wanderer">Faithful Wanderer</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 18</Link><br/>While most paladins stride brazenly forth to battle evil in gleaming armor, faithful wanderers understand that to accomplish real change in Abyssal environments, a paladin must learn to be self-sufficient and unobtrusive and that she must pick her battles carefully, lest her mission end abruptly in a blaze of glory.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-faithful_wanderer-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Diplomacy, Handle Animal, Knowledge (nobility), Ride</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-faithful_wanderer-undefined">
+<Pair id="arc-paladin-faithful_wanderer-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Diplomacy, Handle Animal, Knowledge (nobility), Ride</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-faithful_wanderer-wanderers-lore" data-hash-target><div className="box">Wanderer's Lore</div><div className="flavor">A faithful wanderer quickly learns that everything in the wastes is evil, and she develops the skills she needs to survive.</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Detect evil</div></div></div>
@@ -372,10 +374,10 @@ const _faithful_wanderer = {title: "Faithful Wanderer", jsx: <><h2 id="arc-palad
 </>};
 const _forest_preserver = {title: "Forest Preserver", jsx: <><h2 id="arc-paladin-forest_preserver-forest-preserver">Forest Preserver</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 70</Link><br/>Forest preservers are sacred defenders of the woodlands and of the wild creatures and natural beauty within them.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-forest_preserver-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Diplomacy, Knowledge (nobility), Sense Motive</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-forest_preserver-undefined">
+<Pair id="arc-paladin-forest_preserver-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Diplomacy, Knowledge (nobility), Sense Motive</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-forest_preserver-favored-terrain-ex" data-hash-target><div className="box">Favored Terrain (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Aura of courage</div></div></div>
@@ -473,9 +475,9 @@ const _gray_paladin = {title: "Gray Paladin", jsx: <><h2 id="arc-paladin-gray_pa
 <div className="title abSingle" id="arc-paladin-gray_paladin-alignment" data-hash-target><div className="box">Alignment</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Alignment restrictions</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A gray paladin can be lawful good, lawful neutral, or neutral good, though she must still follow a lawful good, neutral good, or lawful neutral deity.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-gray_paladin-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-gray_paladin-undefined">
+<Pair id="arc-paladin-gray_paladin-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-gray_paladin-weakened-grace" data-hash-target><div className="box">Weakened Grace</div><div className="flavor">A gray paladin's loosened code weakens her connection to the power that grants her paladin abilities.</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Aura of good, divine grace</div></div></div>
@@ -513,9 +515,9 @@ const _gray_paladin = {title: "Gray Paladin", jsx: <><h2 id="arc-paladin-gray_pa
 </>};
 const _holy_guide = {title: "Holy Guide", jsx: <><h2 id="arc-paladin-holy_guide-holy-guide">Holy Guide</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 107</Link><br/>A holy guide believes that it's his sacred calling to clear the roads of bandits between towns as well as to escort travelers to safety. He must enforce the rule of law in the wilderness and help those that cannot defend themselves against the many dangers of the area.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-holy_guide-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-holy_guide-undefined">
+<Pair id="arc-paladin-holy_guide-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-holy_guide-favored-terrain-ex" data-hash-target><div className="box">Favored Terrain (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">3rd-level mercy</div></div></div>
@@ -633,10 +635,10 @@ const _hospitaler = {title: "Hospitaler", jsx: <><h2 id="arc-paladin-hospitaler-
 </>};
 const _hunting_paladin = {title: "Hunting Paladin", jsx: <><h2 id="arc-paladin-hunting_paladin-hunting-paladin">Hunting Paladin</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 70</Link><br/>Hunting paladins are tenacious trackers and stealthy stalkers in pursuit of evildoers.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-hunting_paladin-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Diplomacy, Heal, Knowledge (nobility), Spellcraft</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-hunting_paladin-undefined">
+<Pair id="arc-paladin-hunting_paladin-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Diplomacy, Heal, Knowledge (nobility), Spellcraft</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-hunting_paladin-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Armor proficiencies</div></div></div>
@@ -696,10 +698,10 @@ const _invigorator = {title: "Invigorator", jsx: <><h2 id="arc-paladin-invigorat
 </>};
 const _iomedaen_enforcer = {title: "Iomedaen Enforcer", jsx: <><h2 id="arc-paladin-iomedaen_enforcer-iomedaen-enforcer">Iomedaen Enforcer</h2>
 <p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology pg. 6</Link><br/>Since the publication of The Majestic Book of the Prime Ascended, certain paladins have taken "Prime Commander" to heart and have developed their own methods of upholding the teachings in this book. Iomedaean enforcers have altered abilities that allow them to stand against the forces of chaos. They seek to maintain order and uphold the laws of just rulers and governments, pursuing any who break those laws or otherwise disrupt the peace. Still, they remain lawful good servants of <Link to="/faith/iomedae">Iomedae</Link>, and as such always seek to temper the justice they deliver with mercy.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-iomedaen_enforcer-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Diplomacy, Knowledge (nobility)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-iomedaen_enforcer-undefined">
+<Pair id="arc-paladin-iomedaen_enforcer-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Diplomacy, Knowledge (nobility)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-iomedaen_enforcer-detect-chaos-sp" data-hash-target><div className="box">Detect Chaos (Sp)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Detect evil</div></div></div>
@@ -720,9 +722,9 @@ const _iomedaen_enforcer = {title: "Iomedaen Enforcer", jsx: <><h2 id="arc-palad
 </>};
 const _iroran_paladin = {title: "Iroran Paladin", jsx: <><h2 id="arc-paladin-iroran_paladin-iroran-paladin">Iroran Paladin</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 39</Link><br/>Iroran paladins meditate on self-perfection and train relentlessly, knowing that their example can inspire others to excel. <Link to="/faith/irori">Irori</Link> offers no universal paladin code; each paladin in his service creates his own code as part of his spiritual journey, seeing the adherence to such a self-formulated creed as one of the many tests one must face to reach perfection.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-iroran_paladin-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/swim">Swim</Link> (STR)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-iroran_paladin-undefined">
+<Pair id="arc-paladin-iroran_paladin-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-iroran_paladin-confident-defense-ex" data-hash-target><div className="box">Confident Defense (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Proficiency with medium armor, heavy armor, and shields</div></div></div>
@@ -772,9 +774,9 @@ const _iroran_paladin = {title: "Iroran Paladin", jsx: <><h2 id="arc-paladin-iro
 </>};
 const _knight_of_coins = {title: "Knight of Coins", jsx: <><h2 id="arc-paladin-knight_of_coins-knight-of-coins">Knight of Coins</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 28</Link><br/>Servants of gods who revere wealth, knights of coins promote fair trade and stable commerce between cities and between nations. Many of these knights are Abadarans, and some have also taken the sacred shield archetype. Regardless, knights of coins know that a prosperous city can uplift and enrich more people than pious prayers alone.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-knight_of_coins-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/appraise">Appraise</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-knight_of_coins-undefined">
+<Pair id="arc-paladin-knight_of_coins-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/appraise">Appraise</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-knight_of_coins-skills" data-hash-target><div className="box">Skills</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Skill ranks per level</div></div></div>
@@ -930,9 +932,9 @@ const _pearl_seeker = {title: "Pearl Seeker", jsx: <><h2 id="arc-paladin-pearl_s
 <div className="title abSingle" id="arc-paladin-pearl_seeker-armor-proficiency" data-hash-target><div className="box">Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Armor proficiency</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A pearl seeker is proficient with light and medium armor but not with shields.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-pearl_seeker-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/swim">Swim</Link> (STR)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-pearl_seeker-undefined">
+<Pair id="arc-paladin-pearl_seeker-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-pearl_seeker-seek-impressions-ex-sp" data-hash-target><div className="box">Seek Impressions (Ex, Sp)</div><div className="flavor">Pearl seekers gain their power from a rare resonant sensitivity to the vision-granting entity.</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Detect evil</div></div></div>
@@ -1084,10 +1086,10 @@ const _sacred_shield = {title: "Sacred Shield", jsx: <><h2 id="arc-paladin-sacre
 const _scion_of_talmandor = {title: "Scion of Talmandor", jsx: <><h2 id="arc-paladin-scion_of_talmandor-scion-of-talmandor">Scion of Talmandor</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 74</Link><br/>While all Steel Falcons are peerless proponents of the rights of the downtrodden, those who endeavor to make the spread of liberty as peaceful as possible often become scions of Talmandor, honoring the powerful avoral agathion who serves as the patron of the Steel Falcons. Talmandor is reluctant to act directly on behalf of the <Link to="/rule/eagle_knights">Eagle Knights</Link> and even more unwilling to accept their worship, preferring to lend assistance primarily by being a voice of reason and dispensing wise counsel when it is most needed. A scion of Talmandor attempts to exemplify this selfless altruism, offering assistance to the oppressed and facilitating the peaceful transfer of power from the few to the many.</p>
 <p>Scions of Talmandor look to the brutality of the revolution in Galt, Andoran's neighbor, as a cautionary tale and an unfortunate blemish on populism's short history. They also reject the Nirmathi notion of freedom, thinking it too individualistic; instead, they strive to build strong communities both at home and abroad. Wherever possible, a scion of Talmandor opts for peaceful, grassroots solutions to problems facing the many oppressed peoples of the Inner Sea region, encouraging them to take a central role in bettering their lot in life.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-scion_of_talmandor-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/fly">Fly</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Ride</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-scion_of_talmandor-undefined">
+<Pair id="arc-paladin-scion_of_talmandor-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/fly">Fly</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Ride</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-scion_of_talmandor-scions-faith-ex" data-hash-target><div className="box">Scion's Faith (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A scion of Talmandor must worship a lawful good deity.</div></div></div></div>
@@ -1357,10 +1359,10 @@ const _tortured_crusader = {title: "Tortured Crusader", jsx: <><h2 id="arc-palad
 <div className="title abSingle" id="arc-paladin-tortured_crusader-torment" data-hash-target><div className="box">Torment</div><div className="flavor">A tortured crusader's great suffering in the face of inevitable horror strengthens her faith and resolve, even as it makes her introverted and far less personable than most paladins.</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Spellcasting, smite evil, lay on hands</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A tortured crusader uses Wisdom instead of Charisma as her key spellcasting ability score (to determine her spell DCs, bonus spells per day, bonus on concentration checks, and so on), and to determine the effects of <em>lay on hands.</em></div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-tortured_crusader-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Diplomacy, Handle Animal</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-tortured_crusader-undefined">
+<Pair id="arc-paladin-tortured_crusader-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair>
+<Pair title="Removed Skills">Diplomacy, Handle Animal</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-tortured_crusader-self-sufficient" data-hash-target><div className="box">Self-Sufficient</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills, skill ranks per level</div></div></div>
@@ -1585,10 +1587,10 @@ const _warrior_of_the_holy_light = {title: "Warrior of the Holy Light", jsx: <><
 </>};
 const _wilderness_warden = {title: "Wilderness Warden", jsx: <><h2 id="arc-paladin-wilderness_warden-wilderness-warden">Wilderness Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 71</Link><br/>Wilderness wardens are vigilant guardians of natural places of all kinds, from mountain peaks to tangled thickets.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-paladin-wilderness_warden-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/swim">Swim</Link> (STR)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Diplomacy, Heal, Knowledge (nobility), Spellcraft</div></div></div></div>
+<Ability icon={["skills"]} id="arc-paladin-wilderness_warden-undefined">
+<Pair id="arc-paladin-wilderness_warden-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/swim">Swim</Link> (STR)</Pair>
+<Pair title="Removed Skills">Diplomacy, Heal, Knowledge (nobility), Spellcraft</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-paladin-wilderness_warden-natural-defense-su" data-hash-target><div className="box">Natural Defense (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Divine grace</div></div></div>

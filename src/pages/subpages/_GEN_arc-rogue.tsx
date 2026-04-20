@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 const _acrobat = {title: "Acrobat", jsx: <><h2 id="arc-rogue-acrobat-acrobat">Acrobat</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 132</Link><br/>Agility and daring are both excellent rogue traits, and their confluence can create spectacular feats of acrobatics. Whether they are daring thieves, infiltrating assassins, or intrepid spies, proper training in acrobatics is a valuable boon for rogues.</p>
 <p><strong>Expert Acrobat (Ex):</strong> At 1st level, an acrobat does not suffer any armor check penalties on Acrobatics, Climb, Fly, Sleight of Hand, or Stealth skill checks while wearing light armor. When she is not wearing armor, she gains a +2 competency bonus on Acrobatics and Fly skill checks.</p>
@@ -49,9 +51,9 @@ const _burglar = {title: "Burglar", jsx: <><h2 id="arc-rogue-burglar-burglar">Bu
 </>};
 const _carnivalist = {title: "Carnivalist", jsx: <><h2 id="arc-rogue-carnivalist-carnivalist">Carnivalist</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 6</Link><br/>Carnivalists train their miniature minions to perform acts of larceny and often hide their true talents behind theatrical sideshows.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-rogue-carnivalist-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-rogue-carnivalist-undefined">
+<Pair id="arc-rogue-carnivalist-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA)</Pair></Ability>
 <p><strong>Familiar:</strong> At 1st level, a carnivalist gains a <Link to="/sidekick/familiar">familiar</Link> as a wizard of equal level. Levels in a class that grants a familiar stack with carnivalist levels for determining the familiar's abilities.</p>
 <p><strong>Pet Performance (Ex):</strong> A carnivalist gains use of several <Link to="/ability/bardic_performances">bardic performances</Link>, making Handle Animal checks in place of any Perform checks. At 2nd level, she gains the <Link to="/performance/distraction">distraction</Link> bardic performance. At 4th level, she gains the <Link to="/performance/fascinate">fascinate</Link> bardic performance. At 6th level, she also gains use of the following performance.</p>
 <blockquote>
@@ -91,10 +93,10 @@ const _charlatan = {title: "Charlatan", jsx: <><h2 id="arc-rogue-charlatan-charl
 </>};
 const _consigliere = {title: "Consigliere", jsx: <><h2 id="arc-rogue-consigliere-consigliere">Consigliere</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 44</Link><br/>Consiglieres act as trusted mediators and administrators for crime families and various criminal organizations, and many serve as the right hand to the leaders of such groups. Other consiglieres prefer to work as independent operators and sell their advice and expertise to the highest bidder. Though some consiglieres insulate themselves from violence and criminal activities, many enjoy getting their hands dirty leading strike teams or gangs of hardened thugs.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-rogue-consigliere-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-rogue-consigliere-undefined">
+<Pair id="arc-rogue-consigliere-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <p><strong>Convincing Attitude (Ex):</strong> At 1st level, a consigliere gains <Link to="/feat/persuasive">Persuasive</Link> as a bonus feat. At 2nd level, he gains the <Link to="/talent/charmer">charmer</Link> rogue talent (or the <Link to="/talent/certainty">certainty</Link> [Diplomacy] rogue talent if he is an unchained rogue). At 3rd level, if a consigliere attempts a Diplomacy check and fails to influence a creature's attitude by 5 or more, the creature's attitude remains unchanged instead of decreasing by one step.</p>
 <p>This ability replaces <strong className="hl">trapfinding</strong> and <strong className="hl">evasion</strong>.</p>
 <p><strong>Combat Advisor (Ex):</strong> At 4th level, whenever a consigliere misses with a melee attack against an opponent, he can designate an ally within 30 feet of the target to receive a +1 insight bonus on her next attack roll against that opponent before the consigliere's next turn. At 8th level, the insight bonus increases to +2.</p>
@@ -108,10 +110,10 @@ const _consigliere = {title: "Consigliere", jsx: <><h2 id="arc-rogue-consigliere
 </>};
 const _construct_saboteur = {title: "Construct Saboteur", jsx: <><h2 id="arc-rogue-construct_saboteur-construct-saboteur">Construct Saboteur</h2>
 <p><strong>Sources</strong> <Link to="/source/construct_handbook">Construct Handbook pg. 12</Link><br/>The construct saboteur harnesses arcane energy to combat the golems and eldritch guardians that prowl the depths of ancient ruins and forgotten tombs.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-rogue-construct_saboteur-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering), Knowledge (local)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-rogue-construct_saboteur-undefined">
+<Pair id="arc-rogue-construct_saboteur-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (local)</Pair></Ability>
 <p><strong>Arcane Strike (Ex):</strong> A construct saboteur gains <Link to="/feat/arcane_strike">Arcane Strike</Link> as a bonus feat, even if she does not meet the prerequisites. She uses her construct saboteur class level in place of her caster level for the purposes of the feat's effects.</p>
 <p>This replaces <strong className="hl">trapfinding</strong>.</p>
 <p><strong>Arcane Sabotage (Su):</strong> At 2nd level, a construct saboteur can user her arcane prowess to hinder constructs. Whenever she uses Arcane Strike to attack a construct, she can activate one of the following sabotage abilities that she has gained. She gains one sabotage ability at 2nd level and can thereafter select any sabotage ability in place of a rogue talent. The DC for any sabotage ability that requires a saving throw is 10 + half the construct saboteur's level + the construct saboteur's Intelligence modifier.</p>
@@ -161,10 +163,10 @@ const _dark_lurker = {title: "Dark Lurker", jsx: <><h2 id="arc-rogue-dark_lurker
 </>};
 const _deadly_courtesan = {title: "Deadly Courtesan", jsx: <><h2 id="arc-rogue-deadly_courtesan-deadly-courtesan">Deadly Courtesan</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 208</Link><br/>Skilled at manipulation and diversion, the deadly courtesan builds up those around her and periodically takes them down. She can be a spy, entertainer, assassin, bodyguard, or just an intimate to someone who needs it most. A deadly courtesan has the following class features.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-rogue-deadly_courtesan-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-rogue-deadly_courtesan-undefined">
+<Pair id="arc-rogue-deadly_courtesan-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <p><strong>Bardic Performance (Su):</strong> At 2nd level, a deadly courtesan gains the <Link to="/ability/bardic_performance">bardic performance</Link> ability and the <Link to="/performance/fascinate">fascinate</Link> bardic performance. Her fascinate DC is 10 + 1/2 her rogue level + her Charisma modifier. She can use this bardic performance for a number of rounds per day equal to 1 + her Charisma modifier. At each level after 2nd, she can use bardic performance for 1 additional round per day. If the courtesan also has bard levels, she may use these rounds for either class's <em>fascinate</em> bardic performance, and her bard and rogue levels stack for determining her fascinate DC.</p>
 <p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 2nd level.</p>
 <p><strong>Inspire Competence (Su):</strong> At 3rd level, a deadly courtesan can use her bardic performance to inspire competence. The bonus begins at +2 and increases by +1 for every six levels the courtesan has attained beyond 3rd (+3 at 9th and +4 at 15th).</p>
@@ -176,10 +178,10 @@ const _deadly_courtesan = {title: "Deadly Courtesan", jsx: <><h2 id="arc-rogue-d
 </>};
 const _desert_raider = {title: "Desert Raider", jsx: <><h2 id="arc-rogue-desert_raider-desert-raider">Desert Raider</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 76</Link><br/>Desert raiders constantly threaten caravans that cross vast, desolate expanses. Some desert raiders are tribespeople who raid to supplement their hardscrabble existence, while others are career thieves who take to the desert to avoid the noose. To survive, a desert raider must learn the secrets of the deserts and become inured to their dangers. Though most often associated with hot deserts, desert raiders can also operate in tundra, where sunlight on snow can blind as easily as on sand.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-rogue-desert_raider-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering), Swim</div></div></div></div>
+<Ability icon={["skills"]} id="arc-rogue-desert_raider-undefined">
+<Pair id="arc-rogue-desert_raider-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering), Swim</Pair></Ability>
 <p><strong>Desert Tracker (Ex):</strong> A desert raider is immune to the dazzled condition. A desert raider adds half her level (minimum 1) as a bonus on Survival skill checks to follow or identify tracks in desert terrain.</p>
 <p>This replaces <strong className="hl">trapfinding</strong>.</p>
 <p><strong>Sun at Your Back (Ex):</strong> At 2nd level, a desert raider can use the reflected light of the blinding sun to conceal her presence. A desert raider in bright light can attempt Stealth checks without cover or concealment but takes a -5 penalty on her check. The desert raider cannot use this ability to hide from creatures immune to the blinded or dazzled conditions.</p>
@@ -245,10 +247,10 @@ const _earthshadow = {title: "Earthshadow", jsx: <><h2 id="arc-rogue-earthshadow
 </>};
 const _eldritch_raider = {title: "Eldritch Raider", jsx: <><h2 id="arc-rogue-eldritch_raider-eldritch-raider">Eldritch Raider</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 189</Link><br/>An eldritch raider is a rogue who seeks to unravel the mysteries of the destruction of the gillmen's homeland. They explore old ruins that date back to the days of the old human empire and track down relics and lore from its glory days. An eldritch raider has the following class features.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-rogue-eldritch_raider-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Disguise, Perform, Sleight of Hand</div></div></div></div>
+<Ability icon={["skills"]} id="arc-rogue-eldritch_raider-undefined">
+<Pair id="arc-rogue-eldritch_raider-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
+<Pair title="Removed Skills">Disguise, Perform, Sleight of Hand</Pair></Ability>
 <p><strong>Skill Ranks per Level:</strong> 6 + Int modifier.</p>
 <p><strong>Detect Magic (Sp):</strong> At 2nd level, an eldritch raider gains the ability to use <Link to="/spell/detect_magic">detect magic</Link> at will. The eldritch raider treats her rogue level as her caster level for this ability. This ability counts as the <Link to="/talent/minor_magic">minor magic</Link> rogue talent for purposes of qualifying for other rogue talents.</p>
 <p>This ability replaces the <strong className="hl">rogue talent</strong> rogues gained at 2nd level.</p>
@@ -268,10 +270,10 @@ const _eldritch_scoundrel = {title: "Eldritch Scoundrel", jsx: <><h2 id="arc-rog
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 23</Link><br/>Students of arcane magic, legerdemain, and stealth, eldritch scoundrels are a rare breed of adventurer most commonly found seeking lost and valuable arcane writings in the ruins of fallen empires, such as Thassilon or the Jistka Imperium.</p>
 <p><strong>Armor Proficiencies:</strong> An eldritch scoundrel is not proficient with any armor or shields. Armor sometimes interferes with an eldritch scoundrel's gestures, which can cause her spells with somatic components to fail.</p>
 <p>This alters the rogue's <strong className="hl">armor proficiencies</strong>.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-rogue-eldritch_scoundrel-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Diplomacy, Disguise</div></div></div></div>
+<Ability icon={["skills"]} id="arc-rogue-eldritch_scoundrel-undefined">
+<Pair id="arc-rogue-eldritch_scoundrel-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
+<Pair title="Removed Skills">Diplomacy, Disguise</Pair></Ability>
 <p><strong>Skill Ranks:</strong> An eldritch scoundrel gains 4 skill ranks (plus a number of ranks equal to her Intelligence modifier) at each level instead of a normal 8.</p>
 <p>This alters the rogue's <strong className="hl">skills</strong>.</p>
 <p><strong>Spells:</strong> An eldritch scoundrel casts arcane spells drawn from the <Link to="/main/wizard_spell">wizard spell list</Link>. An eldritch scoundrel must choose and prepare her spells ahead of time. She learns, prepares, and casts spells exactly as a <Link to="/class/wizard">wizard</Link> does, including adding new spells to her spellbook and gaining two additional spells known (of any level she can cast) each time she gains a rogue level with this archetype.</p>
@@ -562,10 +564,10 @@ const _relic_raider = {title: "Relic Raider", jsx: <><h2 id="arc-rogue-relic_rai
 </>};
 const _river_rat = {title: "River Rat", jsx: <><h2 id="arc-rogue-river_rat-river-rat">River Rat</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 76</Link>, <Link to="/source/people_of_the_river">People of the River pg. 21</Link><br/>What highway robbers are to roads, river rats are to waterways. Skilled at hiding amid reeds and roots, these rogues strike the unwary from the shallows as others would from the shadows. Despite their strong association with banditry, river rats make excellent guides and hunters.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-rogue-river_rat-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-rogue-river_rat-undefined">
+<Pair id="arc-rogue-river_rat-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <p><strong>Swamper (Ex):</strong> At 1st level, a river rat gains a bonus equal to half her rogue level on Swim checks (minimum +1).</p>
 <p>A river rat ignores <Link to="/rule/difficult_terrain">difficult terrain</Link> caused by light undergrowth and shallow bogs, and it costs her only 2 squares of movement to enter a square of deep bog or heavy undergrowth, rather than 4 squares of movement. She takes no penalty on Acrobatics or Stealth checks for being in bogs and undergrowth. All of these abilities apply only when she is wearing light or no armor and carrying no more than a light load.</p>
 <p>This replaces <strong className="hl">trapfinding</strong>.</p>
@@ -701,9 +703,9 @@ const _sharper = {title: "Sharper", jsx: <><h2 id="arc-rogue-sharper-sharper">Sh
 const _skulking_slayer = {title: "Skulking Slayer", jsx: <><h2 id="arc-rogue-skulking_slayer-skulking-slayer">Skulking Slayer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 55</Link><br/>Pushed into a life of crime by the society around them, half-orcs gravitate toward criminal activities that suit them best. <Link to="/race/half_orc">Half-orc</Link> rogues leave subtle tactics and finesse to halflings and elves, and rely on brute strength and thuggery when they go about making mischief. Skulking slayers have turned the use of raw strength and surprise into an art form. A skulking slayer has the following class features.</p>
 <p><strong>Weapon and Armor Proficiency:</strong> The skulking slayer gains proficiency with <Link to="/eq-weapon/greatclub">greatclubs</Link> and <Link to="/eq-weapon/whip">whips</Link>, but loses proficiency with rapiers and hand crossbows.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-rogue-skulking_slayer-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Disable Device, Linguistics, Sleight of Hand</div></div></div></div>
+<Ability icon={["skills"]} id="arc-rogue-skulking_slayer-undefined">
+<Pair id="arc-rogue-skulking_slayer-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="Removed Skills">Disable Device, Linguistics, Sleight of Hand</Pair></Ability>
 <p><strong>Skill Ranks per Level:</strong> 6 + Int modifier.</p>
 <p><strong>Pass for Human (Ex):</strong> At 1st level, when trying to conceal her half-orc heritage, a skulking slayer gains a bonus on Disguise checks equal to half her level. When using disguise to appear as a specific individual, skulking stalkers ignore the normal -2 penalty to appear as another race.</p>
 <p><strong>Underhanded Maneuvers (Ex):</strong> At 1st level, when she could normally make a sneak attack, a slayer may instead make a dirty trick or steal combat maneuver with a bonus on her roll. This bonus is equal to her number of sneak attack dice for a dirty trick combat maneuver, or 1-1/2 &times; her number of sneak attack dice for a steal combat maneuver.</p>
@@ -720,10 +722,10 @@ const _skulking_slayer = {title: "Skulking Slayer", jsx: <><h2 id="arc-rogue-sku
 </>};
 const _sly_saboteur = {title: "Sly Saboteur", jsx: <><h2 id="arc-rogue-sly_saboteur-sly-saboteur">Sly Saboteur</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 77</Link><br/>Sly saboteurs are irregular soldiers who specialize in sabotage and surprise attacks. Though they often face enemies with greater numbers or resources (or both), sly saboteurs have the advantage of knowing the local people and terrain. They might be rebels fighting against a corrupt government, or they might be members of a militia opposing an invading force. Some are environmentalists who sabotage the tools of industry in order to protect unspoiled nature.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-rogue-sly_saboteur-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-rogue-sly_saboteur-undefined">
+<Pair id="arc-rogue-sly_saboteur-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <p><strong>Scamper (Ex):</strong> At 3rd level, a sly saboteur can move through 5 feet of <Link to="/rule/difficult_terrain">difficult terrain</Link> each round as if it were normal terrain. At 6th level and every 3 levels thereafter, this distance increases by 5 feet (to a maximum of 30 feet at 18th level). This ability allows the sly saboteur to take a 5-foot step into difficult terrain. This ability applies only when she is wearing light armor or no armor and carrying no more than a light load, and it stacks with the <Link to="/feat/acrobatic_steps">Acrobatic Steps</Link> and <Link to="/feat/nimble_moves">Nimble Moves</Link> feats.</p>
 <p>This replaces <strong className="hl">trap sense</strong>.</p>
 <p><strong>Catastrophic Failure (Ex):</strong> At 4th level, when a sly saboteur uses Disable Device to rig a device to fail, she can increase the DC of the check by 5. If she does so and succeeds at the check, when the device fails, users take damage equal to the sly saboteur's sneak attack, or they take half that amount with a successful Reflex save (DC = 10 + half the sly saboteur's level + her Dexterity modifier). The type of damage depends on the nature of the device but is typically bludgeoning, fire, piercing, or slashing.</p>
@@ -816,10 +818,10 @@ const _swashbuckler = {title: "Swashbuckler", jsx: <><h2 id="arc-rogue-swashbuck
 </>};
 const _swordmaster = {title: "Swordmaster", jsx: <><h2 id="arc-rogue-swordmaster-swordmaster">Swordmaster</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 164</Link><br/>A swordmaster meditates to strengthen her spiritual connection to her blade. She strives to perfect her skills by mastering six deadly trances. A swordmaster has the following class features.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-rogue-swordmaster-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Disguise, Knowledge (dungeoneering)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-rogue-swordmaster-undefined">
+<Pair id="arc-rogue-swordmaster-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Disguise, Knowledge (dungeoneering)</Pair></Ability>
 <p><strong>Trance (Ex):</strong> At 3rd level, a swordmaster learns to focus her martial prowess using an intense meditative trance. Under the influence of a trance, the swordmaster can perform fantastic martial feats. Entering a trance is a full-round action that provokes attacks of opportunity. The swordmaster can maintain the trance for a number of rounds per day equal to 4 + her Wisdom modifier. At each level beyond 3rd, she can remain in the trance for 1 additional round. She can end her trance as a free action. Following a trance, the swordmaster is fatigued for a number of rounds equal to 2 &times; the number of rounds she spent in the trance. A swordmaster cannot enter a new trance while fatigued but can otherwise enter a trance multiple times during a single encounter or combat. If a swordmaster falls unconscious, her trance immediately ends.</p>
 <p>At 3rd level, the swordmaster chooses one trance from the list below. She chooses another trance at 6th, 9th, 12th, 15th, and 18th level. She can only use one type of trance at a time.</p>
 <blockquote>

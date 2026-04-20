@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
@@ -69,9 +71,9 @@ const _aquatic_beastmaster = {title: "Aquatic Beastmaster", jsx: <><h2 id="arc-h
 </ol></section></>};
 const _chameleon_adept = {title: "Chameleon Adept", jsx: <><h2 id="arc-hunter-chameleon_adept-chameleon-adept">Chameleon Adept</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 52</Link><br/>Some hunters are masters of blending into every situation, even making their companions appear humanoid for brief periods of time.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-hunter-chameleon_adept-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-hunter-chameleon_adept-undefined">
+<Pair id="arc-hunter-chameleon_adept-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-chameleon_adept-shifting-companion-su" data-hash-target><div className="box">Shifting Companion (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Teamwork feats, hunter's tactics</div></div></div>
@@ -137,10 +139,10 @@ const _colluding_scoundrel = {title: "Colluding Scoundrel", jsx: <><h2 id="arc-h
 </>};
 const _courtly_hunter = {title: "Courtly Hunter", jsx: <><h2 id="arc-hunter-courtly_hunter-courtly-hunter">Courtly Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 64</Link><br/>While most hunters find themselves at ease in the wildest parts of the world, courtly hunters instead make their homes in cultured urban environments. They and their animal companions are more refined than typical hunters, using their skills to navigate the winding paths of courtly intrigue as surely as other hunters find trails in the wilderness.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-hunter-courtly_hunter-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (geography), Knowledge (nature), Survival</div></div></div></div>
+<Ability icon={["skills"]} id="arc-hunter-courtly_hunter-undefined">
+<Pair id="arc-hunter-courtly_hunter-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Knowledge (geography), Knowledge (nature), Survival</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-courtly_hunter-courtly-companion" data-hash-target><div className="box">Courtly Companion</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Animal companion</div></div></div>
@@ -210,10 +212,10 @@ const _courtly_hunter = {title: "Courtly Hunter", jsx: <><h2 id="arc-hunter-cour
 </>};
 const _divine_hunter = {title: "Divine Hunter", jsx: <><h2 id="arc-hunter-divine_hunter-divine-hunter">Divine Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 95</Link><br/>While most hunters heed the call of nature and fight to protect its bounty, some are inspired to serve a higher power. These divine hunters use faith to aid them in their struggles, and their faith infuses their animal companions, making these companions champions of their deities.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-hunter-divine_hunter--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A divine hunter's alignment must be within one step of her deity's, along either the law/chaos axis or the good/evil axis. A divine hunter can otherwise be of any alignment.</td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-hunter-divine_hunter-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering)</div></div></div></div>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-hunter-divine_hunter--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A divine hunter's alignment must be within one step of her deity's, along either the law/chaos axis or the good/evil axis. A divine hunter can otherwise be of any alignment.</td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-hunter-divine_hunter-undefined">
+<Pair id="arc-hunter-divine_hunter-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-divine_hunter-domain" data-hash-target><div className="box">Domain</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Teamwork feats</div></div></div>
@@ -446,9 +448,9 @@ const _packmaster = {title: "Packmaster", jsx: <><h2 id="arc-hunter-packmaster-p
 </>};
 const _patient_ambusher = {title: "Patient Ambusher", jsx: <><h2 id="arc-hunter-patient_ambusher-patient-ambusher">Patient Ambusher</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 53</Link>, <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 14</Link><br/>Wandering the wilds, some hunters eschew the bond of innate teamwork with their animal companions. Instead, these hunters master the creation and deployment of intricate ranger traps, often using themselves or their animal companions to lure foes into their snares.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-hunter-patient_ambusher-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-hunter-patient_ambusher-undefined">
+<Pair id="arc-hunter-patient_ambusher-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-patient_ambusher-trapfinding-ex" data-hash-target><div className="box">Trapfinding (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Nature training, wild empathy</div></div></div>
@@ -850,10 +852,10 @@ const _uprooter_scout = {title: "Uprooter Scout", jsx: <><h2 id="arc-hunter-upro
 </>};
 const _urban_hunter = {title: "Urban Hunter", jsx: <><h2 id="arc-hunter-urban_hunter-urban-hunter">Urban Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 25</Link><br/>Urban hunters help guards track down and apprehend criminals or spies, find lost children and disaster victims, and protect animals from abuse in the city. They still draw their inspiration and strength from the natural world, marveling at how nature flourishes wherever the city allows.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-hunter-urban_hunter-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (nature), Survival</div></div></div></div>
+<Ability icon={["skills"]} id="arc-hunter-urban_hunter-undefined">
+<Pair id="arc-hunter-urban_hunter-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Knowledge (nature), Survival</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-hunter-urban_hunter-animal-companion-ex" data-hash-target><div className="box">Animal Companion (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Animal companion</div></div></div>

@@ -1,15 +1,17 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 const _ancient_lorekeeper = {title: "Ancient Lorekeeper", jsx: <><h2 id="arc-oracle-ancient_lorekeeper-ancient-lorekeeper">Ancient Lorekeeper</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 24</Link><br/>The ancient lorekeeper is a repository for all the beliefs and vast knowledge of an <Link to="/race/elves">elven</Link> people. She shows a strong interest in and understanding of histories and creation legends at a young age, and as she matures her calling to serve as the memory of her long-lived people becomes clear to all who know her. An ancient lorekeeper has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-ancient_lorekeeper--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-oracle-ancient_lorekeeper-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus skills from the oracle's mystery</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">Whenever she makes a Knowledge check of any kind about a question regarding elves (creatures of the elf subtype), the ancient lorekeeper adds half her class level on her check.</div></div></div></div>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-ancient_lorekeeper--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-oracle-ancient_lorekeeper-undefined">
+<Pair id="arc-oracle-ancient_lorekeeper-undefined" single>Class Skills</Pair>
+<Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
+<Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
+<Pair title="Passive Ability">Whenever she makes a Knowledge check of any kind about a question regarding elves (creatures of the elf subtype), the ancient lorekeeper adds half her class level on her check.</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-oracle-ancient_lorekeeper-elven-arcana-ex" data-hash-target><div className="box">Elven Arcana (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus spells gained from the oracle's mystery</div></div></div>
@@ -56,10 +58,10 @@ const _black_blooded_oracle = {title: "Black-Blooded Oracle", jsx: <><h2 id="arc
 const _community_guardian = {title: "Community Guardian", jsx: <><h2 id="arc-oracle-community_guardian-community-guardian">Community Guardian</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 63</Link><br/>The community guardian is chosen to protect and succor the weak and innocent within her community. Her calling also allows her to draw upon and focus the collective will in order to achieve those goals. A community guardian has the following class features.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-community_guardian--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><ul><li><Link to="/race/halfling">Halfling</Link></li><li>Alignment must be good.</li></ul></td></tr></tbody></table></ScrollContainer></div><p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/ancestor">ancestor</Link>, <Link to="/mystery/life">life</Link>, <Link to="/mystery/lore">lore</Link>, <Link to="/mystery/nature">nature</Link>.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-oracle-community_guardian-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus skills from the oracle's mystery</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-oracle-community_guardian-undefined">
+<Pair id="arc-oracle-community_guardian-undefined" single>Class Skills</Pair>
+<Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
+<Pair title="New Class Skills"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-oracle-community_guardian-bonus-spells" data-hash-target><div className="box">Bonus Spells</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The bonus spells gained at 2nd, 4th, 6th, 10th, and 12th levels from the oracle's mystery</div></div></div>
@@ -87,10 +89,10 @@ const _community_guardian = {title: "Community Guardian", jsx: <><h2 id="arc-ora
 const _cyclopean_seer = {title: "Cyclopean Seer", jsx: <><h2 id="arc-oracle-cyclopean_seer-cyclopean-seer">Cyclopean Seer</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_monster_codex">Inner Sea Monster Codex pg. 17</Link><br/>A cyclopean seer draws power from the mysterious prophetic abilities of ancient giants.</p>
 <p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/ancestor">Ancestor</Link>, <Link to="/mystery/lore">lore</Link>, <Link to="/mystery/nature">nature</Link>, <Link to="/mystery/occult">occult</Link>, <Link to="/mystery/time">time</Link>.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-oracle-cyclopean_seer-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus skills from the oracle's mystery</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-oracle-cyclopean_seer-undefined">
+<Pair id="arc-oracle-cyclopean_seer-undefined" single>Class Skills</Pair>
+<Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
+<Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-oracle-cyclopean_seer-oracles-curse" data-hash-target><div className="box">Oracle's Curse</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A cyclopean seer must choose the <Link to="/oraclecurse/haunted">haunted</Link>, <Link to="/oraclecurse/hunger">hunger</Link>, <Link to="/oraclecurse/powerless_prophecy">powerless prophecy</Link>, or <Link to="/oraclecurse/tongues">tongues</Link> curse.</div></div></div></div>
@@ -243,10 +245,10 @@ const _elementalist_oracle = {title: "Elementalist Oracle", jsx: <><h2 id="arc-o
 const _enlightened_philosopher = {title: "Enlightened Philosopher", jsx: <><h2 id="arc-oracle-enlightened_philosopher-enlightened-philosopher">Enlightened Philosopher</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 58</Link><br/>The enlightened philosopher seeks enlightenment through compassion, moderation, and humility. By following her philosophy's teachings, the enlightened philosopher seeks to reach enlightenment and become one with the universe.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-enlightened_philosopher--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Alignment must be lawful</td></tr></tbody></table></ScrollContainer></div><p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/ancestor">ancestor</Link>, <Link to="/mystery/flame">flame</Link>, <Link to="/mystery/heavens">heavens</Link>, <Link to="/mystery/lore">lore</Link>, <Link to="/mystery/metal">metal</Link>, <Link to="/mystery/nature">nature</Link>, <Link to="/mystery/stone">stone</Link>, <Link to="/mystery/time">time</Link>, <Link to="/mystery/waves">waves</Link>, <Link to="/mystery/wood">wood</Link>.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-oracle-enlightened_philosopher-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus skills from the oracle's mystery</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-oracle-enlightened_philosopher-undefined">
+<Pair id="arc-oracle-enlightened_philosopher-undefined" single>Class Skills</Pair>
+<Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
+<Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-oracle-enlightened_philosopher-bonus-spells" data-hash-target><div className="box">Bonus Spells</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">All bonus spells gained from the oracle's mystery after 2nd level</div></div></div>
@@ -335,10 +337,10 @@ const _inerrant_voice = {title: "Inerrant Voice", jsx: <><h2 id="arc-oracle-iner
 const _keleshite_prophet = {title: "Keleshite Prophet", jsx: <><h2 id="arc-oracle-keleshite_prophet-keleshite-prophet">Keleshite Prophet</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 42</Link><br/>Keleshite prophets help guide and serve the vast Padishah Empire of Kelesh and its interests across Golarion.</p>
 <p><strong className="hl">Recommended Mysteries:</strong> Any.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-oracle-keleshite_prophet-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus skills from the oracle's mystery</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/perform">Perform</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-oracle-keleshite_prophet-undefined">
+<Pair id="arc-oracle-keleshite_prophet-undefined" single>Class Skills</Pair>
+<Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
+<Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/perform">Perform</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-oracle-keleshite_prophet-bonus-spells" data-hash-target><div className="box">Bonus Spells</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The bonus spells gained at 6th, 10th, 12th, 16th, and 18th levels from the oracle's mystery</div></div></div>
@@ -387,10 +389,10 @@ const _keleshite_prophet = {title: "Keleshite Prophet", jsx: <><h2 id="arc-oracl
 </>};
 const _oceans_echo = {title: "Ocean's Echo", jsx: <><h2 id="arc-oracle-oceans_echo-oceans-echo">Ocean's Echo</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 12</Link><br/>Although many <Link to="/race/merfolk">merfolk</Link> claim deep connections to both art and the natural world, a rare few merfolk can manipulate the forces of nature and weave them into song. An ocean's echo is a merfolk gifted with the powers of an oracle and a singing voice that evokes the legendary tales of merfolk virtuosos.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-oracle-oceans_echo-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus skills from the oracle's mystery</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-oracle-oceans_echo-undefined">
+<Pair id="arc-oracle-oceans_echo-undefined" single>Class Skills</Pair>
+<Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
+<Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-oracle-oceans_echo-bonus-spells" data-hash-target><div className="box">Bonus Spells</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The bonus spells gained at 4th, 8th, 10th, 12th, and 14th levels from the oracle's mystery</div></div></div>
@@ -607,10 +609,10 @@ const _reincarnated_oracle = {title: "Reincarnated Oracle", jsx: <><h2 id="arc-o
 </>};
 const _river_soul = {title: "River Soul", jsx: <><h2 id="arc-oracle-river_soul-river-soul">River Soul</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 68</Link><br/>River soul oracles derive their powers from their bonds with rivers, whether these waterways are rapid cascades or lazy channels plied by boats. The powerful bond formed with a river is also the river soul oracle's curse, as he must always carry water from the river with him, and his fate is bound to it. River soul oracles can be gentle and still when calm, but they're raging torrents when angered.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-oracle-river_soul-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus skills from the oracle's mystery</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/swim">Swim</Link> (STR)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-oracle-river_soul-undefined">
+<Pair id="arc-oracle-river_soul-undefined" single>Class Skills</Pair>
+<Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
+<Pair title="New Class Skills"><Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
 <p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/life">Life</Link>, <Link to="/mystery/nature">nature</Link>, <Link to="/mystery/stone">stone</Link>, <Link to="/mystery/waves">waves</Link>.</p>
 <div className="ability p"><div className="abIcon"><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-oracle-river_soul-bonus-spells" data-hash-target><div className="box">Bonus Spells</div></div>
@@ -650,10 +652,10 @@ const _river_soul = {title: "River Soul", jsx: <><h2 id="arc-oracle-river_soul-r
 </>};
 const _seeker = {title: "Seeker", jsx: <><h2 id="arc-oracle-seeker-seeker">Seeker</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 29</Link><br/>Oracles and sorcerers gain their magical powers through strange and mysterious ways, be they chosen by fate or blood. While most might be content with their strange powers, some oracles and sorcerers join the Pathfinders specifically to find out more about their mysteries and bloodlines and determine the genesis and history of their eldritch talents. These spellcasters are known among the Spells as seekers, after their obsession with researching ancient texts and obscure ruins for any clues they can find about their heritage and histories. A seeker has the following class features.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-oracle-seeker-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus skills from the oracle's mystery</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-oracle-seeker-undefined">
+<Pair id="arc-oracle-seeker-undefined" single>Class Skills</Pair>
+<Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
+<Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-oracle-seeker-tinkering-ex" data-hash-target><div className="box">Tinkering (Ex)</div><div className="flavor">Seekers often look to ancient devices, old tomes, and strange magical items in order to learn more about their oracle mysteries.</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
@@ -708,10 +710,10 @@ const _seer = {title: "Seer", jsx: <><h2 id="arc-oracle-seer-seer">Seer</h2>
 </>};
 const _shigenjo = {title: "Shigenjo", jsx: <><h2 id="arc-oracle-shigenjo-shigenjo">Shigenjo</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 164</Link><br/>The shigenjo walks the path of enlightenment and transcendence by seeking oneness with the celestial spirits. In doing so, she unlocks the martial potential of her own spiritual power. A shigenjo has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-shigenjo--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><ul><li><Link to="/race/tengu">Tengu</Link></li><li>Alignment must have a neutral component</li></ul></td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-oracle-shigenjo-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Diplomacy</div></div></div></div>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-oracle-shigenjo--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><ul><li><Link to="/race/tengu">Tengu</Link></li><li>Alignment must have a neutral component</li></ul></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-oracle-shigenjo-undefined">
+<Pair id="arc-oracle-shigenjo-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Diplomacy</Pair></Ability>
 <p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/ancestor">ancestor</Link>, <Link to="/mystery/battle">battle</Link>, <Link to="/mystery/flame">flame</Link>, <Link to="/mystery/heavens">heavens</Link>, <Link to="/mystery/lore">lore</Link>, <Link to="/mystery/metal">metal</Link>, <Link to="/mystery/nature">nature</Link>, <Link to="/mystery/stone">stone</Link>, <Link to="/mystery/time">time</Link>, <Link to="/mystery/waves">waves</Link>, <Link to="/mystery/wood">wood</Link>.</p>
 <div className="ability p"><div className="abIcon"><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-oracle-shigenjo-bonus-spells" data-hash-target><div className="box">Bonus Spells</div></div>
@@ -755,10 +757,10 @@ const _shigenjo = {title: "Shigenjo", jsx: <><h2 id="arc-oracle-shigenjo-shigenj
 </>};
 const _spirit_guide = {title: "Spirit Guide", jsx: <><h2 id="arc-oracle-spirit_guide-spirit-guide">Spirit Guide</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 106</Link><br/>Through her exploration of the universe's mysteries, a spirit guide opens connections to the spirit world and forms bonds with the entities that inhabit it.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-oracle-spirit_guide-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus skills from the oracle's mystery</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-oracle-spirit_guide-undefined">
+<Pair id="arc-oracle-spirit_guide-undefined" single>Class Skills</Pair>
+<Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
+<Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-oracle-spirit_guide-bonded-spirit-su" data-hash-target><div className="box">Bonded Spirit (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Revelations gained at 3rd, 7th, and 15th levels</div></div></div>
@@ -773,10 +775,10 @@ const _spirit_guide = {title: "Spirit Guide", jsx: <><h2 id="arc-oracle-spirit_g
 const _stargazer = {title: "Stargazer", jsx: <><h2 id="arc-oracle-stargazer-stargazer">Stargazer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 59</Link><br/>Some oracles seek meaning in the pattern of the stars across the night sky, the trails of comets, and the eternal orbits of the planets.</p>
 <p><strong className="hl">Recommended Mysteries:</strong> <Link to="/mystery/dark_tapestry">dark tapestry</Link>, <Link to="/mystery/heavens">heavens</Link>, <Link to="/mystery/lore">lore</Link>, <Link to="/mystery/nature">nature</Link>, <Link to="/mystery/time">time</Link>.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-oracle-stargazer-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus skills from the oracle's mystery</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-oracle-stargazer-undefined">
+<Pair id="arc-oracle-stargazer-undefined" single>Class Skills</Pair>
+<Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
+<Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-oracle-stargazer-bonus-spells" data-hash-target><div className="box">Bonus Spells</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The bonus spells gained at 2nd, 4th, 6th, 8th, and 18th levels from the oracle's mystery</div></div></div>
@@ -804,10 +806,10 @@ const _stargazer = {title: "Stargazer", jsx: <><h2 id="arc-oracle-stargazer-star
 </>};
 const _tree_soul = {title: "Tree Soul", jsx: <><h2 id="arc-oracle-tree_soul-tree-soul">Tree Soul</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 69</Link><br/>Tree souls develop an affinity not just with trees but also with objects carved from them, feeling the essence of the tree's spirit living within. By bonding to trees, they learn to manipulate the trees' power to produce divine energy. The type of tree a tree soul oracle bonds to often seems to influence the oracle's personality. A tree soul who is bound to a towering redwood may value traditions and be slow to anger, while a tree soul bound to a smaller pine tree might be quick to react and have a somewhat prickly personality. Regardless of the trees they form their metaphysical attachment to, tree soul oracles tend to be steadfast and stubborn, having an aura of timelessness even as the world changes around them.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-oracle-tree_soul-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bonus skills from the oracle's mystery</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-oracle-tree_soul-undefined">
+<Pair id="arc-oracle-tree_soul-undefined" single>Class Skills</Pair>
+<Pair title="Replaces" hl>Bonus skills from the oracle's mystery</Pair>
+<Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/hazard-sign"><IonIcon icon="/icons/hazard-sign.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-oracle-tree_soul-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">Tree souls are proficient with light and medium armor but are prohibited from wearing metal armor. A tree soul can also wear wooden armor that has been altered by the <Link to="/spell/ironwood">ironwood</Link> spell so that it functions as though it were steel. Tree souls are proficient with shields (except tower shields) but can use only those crafted from wood.</div></div></div>

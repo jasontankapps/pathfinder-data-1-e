@@ -201,31 +201,21 @@ const makeClassSkillsAbilityBlock = ({
 		]);
 	}
 
-	return `${maybeClear}<div className="ability p">`
-		+ `<div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>\n`
-		+ `<div className="title abSingle" id="${
-			prefix + id
-		}" data-hash-target><div className="box">${
+	const abId = prefix + id;
+
+	return `${maybeClear}<Ability icon={["skills"]} id="${abId}">\n`
+		+ `<Pair id="${abId}" single>${
 			text ? doParse(text) : "Class Skills"
-		}</div></div>\n`
-		+ (noAlter ? "" : ('<div className="abPair">'
-			+ '<div className="abStart"><div className="box hl">Alters</div></div>'
-			+ '<div className="abEnd"><div className="box">Class skills</div></div>'
-			+ "</div>"
-		))
+		}</Pair>\n`
+		+ (noAlter ? "" : '<Pair title="Alters" hl>Class skills</Pair>')
 		+ `${contents.map(pair => {
 			const [title, info, hl] = pair;
 			return (
-				'<div className="abPair">'
-				+ `<div className="abStart"><div className="box${hl ? " hl" : ""}">`
-				+ title
-				+ "</div></div>"
-				+ '<div className="abEnd"><div className="box">'
+				`<Pair title="${title}"${hl ? " hl" : ""}>`
 				+ doParse(info)
-				+ "</div></div>"
-				+ "</div>"
+				+ "</Pair>"
 			);
-		}).join("\n")}</div>\n`;
+		}).join("\n")}</Ability>\n`;
 };
 
 export default makeClassSkillsAbilityBlock;

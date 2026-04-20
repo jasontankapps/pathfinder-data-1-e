@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import InnerLink from '../../components/InnerLink';
 const _blood_god_disciple = {title: "Blood God Disciple", jsx: <><h2 id="arc-summoner-blood_god_disciple-blood-god-disciple">Blood God Disciple</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 53</Link><br/>A <Link to="/race/half_orc">half-orc</Link> summoner who devotes himself to one of the bloody orc gods may believe his eidolon is an avatar of that god rather than a mere supernatural creature. A blood god disciple generally fights by the avatar's side and offers it blood sacrifices in exchange for martial prowess. A blood god disciple has the following class features.</p>
@@ -88,10 +90,10 @@ const _first_worlder = {title: "First Worlder", jsx: <><h2 id="arc-summoner-firs
 </>};
 const _god_caller = {title: "God Caller", jsx: <><h2 id="arc-summoner-god_caller-god-caller">God Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 40</Link><br/>God callers follow a fractured tradition that originated in the now-lost nation of Sarkoris. They speak to an assortment of ancient divine powers to lead their communities and sometimes stir up reformations in faiths with ideals similar to their personal convictions.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-summoner-god_caller-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering), Knowledge (engineering), Knowledge (geography), Knowledge (nature), Use Magic Device</div></div></div></div>
+<Ability icon={["skills"]} id="arc-summoner-god_caller-undefined">
+<Pair id="arc-summoner-god_caller-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (engineering), Knowledge (geography), Knowledge (nature), Use Magic Device</Pair></Ability>
 <p><strong>Guidance (Sp):</strong> A god caller's eidolon has a tiny spark of divinity. It can use <Link to="/spell/guidance">guidance</Link> as a spell-like ability at will. However, the eidolon and the god caller must remain within 50 feet of one another for the eidolon to remain at full strength. If the eidolon is beyond 50 feet but closer than 1,000 feet, its current and maximum hit point totals are reduced by half.</p>
 <p>This ability alters <strong className="hl">life link</strong>.</p>
 <p><strong>Divine Word (Ex):</strong> At 8th level, if a god caller's eidolon would grant him a bonus with the aid another action on a Diplomacy or Intimidate check, the god caller can instead choose to roll twice and take the better result. He makes the choice before rolling. Once per day while his eidolon uses the aid another action to assist him in such a check, if the god caller would improve a target's attitude toward him, or gain a success if using the individual <Link to="/rule/influence">influence rules</Link>, he instead improves that target's attitude by 2 steps or it counts as 2 successes.</p>
@@ -169,10 +171,10 @@ const _pyroclast = {title: "Pyroclast", jsx: <><h2 id="arc-summoner-pyroclast-py
 </>};
 const _shadow_caller = {title: "Shadow Caller", jsx: <><h2 id="arc-summoner-shadow_caller-shadow-caller">Shadow Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 110</Link><br/>While most summoners can call any manner of creature from across the planes to serve them in combat, supplementing the skills of their eidolon with a diverse range of creatures, others eschew this broad utility and instead concentrate upon calling forth entities from the Shadow Plane. A shadow caller has the following class features.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-summoner-shadow_caller-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/stealth">Stealth</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Use Magic Device</div></div></div></div>
+<Ability icon={["skills"]} id="arc-summoner-shadow_caller-undefined">
+<Pair id="arc-summoner-shadow_caller-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Use Magic Device</Pair></Ability>
 <p><strong>Shadow Summoning (Sp):</strong> When a shadow caller uses his summon monster ability or casts the <Link to="/spell/summon_monster">summon monster</Link> spell, he typically summons creatures from the Shadow Plane or creatures closely associated with shadow. When a creature on the summon monster spell list indicates that it is summoned with either the celestial or the fiendish template based on the alignment of the caster, the creature summoned by the shadow caller has the <Link to="/template/shadow">shadow</Link> creature template instead. Furthermore, the summon monster lists are modified in the following ways (these changes also apply to using a higher-level summon spell to summon multiple creatures from a lower-level list).</p>
 <blockquote>
 <p><em>Summon Monster I:</em> No changes.</p>

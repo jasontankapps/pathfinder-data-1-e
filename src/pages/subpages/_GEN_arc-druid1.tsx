@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
 const _aerie_protector = {title: "Aerie Protector", jsx: <><h2 id="arc-druid-aerie_protector-aerie-protector">Aerie Protector</h2>
@@ -192,10 +194,10 @@ const _arctic_druid = {title: "Arctic Druid", jsx: <><h2 id="arc-druid-arctic_dr
 </>};
 const _ashvawg_tamer = {title: "Ashvawg Tamer", jsx: <><h2 id="arc-druid-ashvawg_tamer-ashvawg-tamer">Ashvawg Tamer</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_5_sins_of_the_saviors">Pathfinder #5: Sins of the Saviors pg. 71</Link><br/>The ashvawg tamer is a variant class that allows a druid to bond with strange and monstrous creatures. Given the unusual nature of these companions, the tamer also learns ways to strengthen his valuable ally. Most tamers worship <Link to="/faith/lamashtu">Lamashtu</Link>, the Demon Queen, though a few have discovered these practices independently. Tamers develop a stronger bond with their companion than some of the most powerful druids or rangers, and often travel to exotic locations to find strange specimens to tame, with bragging rights going to those with the most unusual creature.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-druid-ashvawg_tamer-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Diplomacy, Heal</div></div></div></div>
+<Ability icon={["skills"]} id="arc-druid-ashvawg_tamer-undefined">
+<Pair id="arc-druid-ashvawg_tamer-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Diplomacy, Heal</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/heart-plus"><IonIcon icon="/icons/heart-plus.svg" color="secondary" /></Link><Link to="/icons/armor-downgrade"><IonIcon icon="/icons/armor-downgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-druid-ashvawg_tamer-bestial-bond-sp" data-hash-target><div className="box">Bestial Bond (Sp)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Resist nature's lure</div></div></div>
@@ -460,9 +462,9 @@ const _death_druid = {title: "Death Druid", jsx: <><h2 id="arc-druid-death_druid
 </>};
 const _defender_of_the_true_world = {title: "Defender of the True World", jsx: <><h2 id="arc-druid-defender_of_the_true_world-defender-of-the-true-world">Defender of the True World</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 10</Link><br/>Some druids specialize in protecting Golarion from the threat of First World inhabitants. They are devoted to tracking down, diverting, and slaying fey threats.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-druid-defender_of_the_true_world-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-druid-defender_of_the_true_world-undefined">
+<Pair id="arc-druid-defender_of_the_true_world-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-druid-defender_of_the_true_world-bonus-languages" data-hash-target><div className="box">Bonus Languages</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A defender of the true world can select Aklo, Sylvan, or Undercommon as bonus languages, in addition to the normal list of bonus languages available.</div></div></div></div>
@@ -747,10 +749,10 @@ const _feral_child = {title: "Feral Child", jsx: <><h2 id="arc-druid-feral_child
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-feral_child--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/human">Human</Link></td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-druid-feral_child-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A feral child loses proficiency with the scimitar, scythe, and sickle and with shields.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-druid-feral_child-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Fly, Profession</div></div></div></div>
+<Ability icon={["skills"]} id="arc-druid-feral_child-undefined">
+<Pair id="arc-druid-feral_child-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Fly, Profession</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-druid-feral_child-illiteracy" data-hash-target><div className="box">Illiteracy</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
@@ -878,10 +880,10 @@ const _fungal_pilgrim = {title: "Fungal Pilgrim", jsx: <><h2 id="arc-druid-funga
 const _goliath_druid = {title: "Goliath Druid", jsx: <><h2 id="arc-druid-goliath_druid-goliath-druid">Goliath Druid</h2>
 <p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook pg. 20</Link><br/>Goliath druids hone their spiritual and magical connections to nature's largest creatures, especially dinosaurs, giants, and megafauna, revering these massive creatures as living relics of a primeval time when all creatures were more in harmony with nature. Despite this respect, a goliath druid doesn't hesitate to infiltrate giant groups who defile nature and destroy them from within.</p>
 <p>Goliath druids have the following class features.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-druid-goliath_druid-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Craft, Profession, Ride</div></div></div></div>
+<Ability icon={["skills"]} id="arc-druid-goliath_druid-undefined">
+<Pair id="arc-druid-goliath_druid-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Craft, Profession, Ride</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-druid-goliath_druid-bonus-languages" data-hash-target><div className="box">Bonus Languages</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A goliath druid with an Intelligence bonus can select Giant as a bonus language.</div></div></div></div>

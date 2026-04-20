@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 const _arrow_champion = {title: "Arrow Champion", jsx: <><h2 id="arc-swashbuckler-arrow_champion-arrow-champion">Arrow Champion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 95</Link><br/>While the swashbuckler's agile style of combat is equally suited to urban settings and wilderness, the bow and arrow is an indispensable asset in open areas and harsh terrain where fancy footwork isn't enough to close the distance or dodge the enemy's arrows.</p>
 <p><strong>Arrow Champion's Panache (Ex):</strong> An arrow champion regains panache when she makes a killing blow with a light or one-handed piercing melee weapon or a bow (a <Link to="/eq-weapon/longbow">longbow</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link>, <Link to="/eq-weapon/composite_longbow">composite longbow</Link>, or <Link to="/eq-weapon/composite_shortbow">composite shortbow</Link>).</p>
@@ -61,10 +63,10 @@ const _courser = {title: "Courser", jsx: <><h2 id="arc-swashbuckler-courser-cour
 </>};
 const _daring_infiltrator = {title: "Daring Infiltrator", jsx: <><h2 id="arc-swashbuckler-daring_infiltrator-daring-infiltrator">Daring Infiltrator</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 124</Link><br/>Not known for their flashy entrances or for standing out in a crowd, a daring infiltrator uses stealth, disguise, and ruthless guile to pursue her goals. Some of these swashbucklers work to undermine evil organizations, while others are master thieves or mysterious assassins.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-swashbuckler-daring_infiltrator-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/stealth">Stealth</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Diplomacy, Perform, Profession</div></div></div></div>
+<Ability icon={["skills"]} id="arc-swashbuckler-daring_infiltrator-undefined">
+<Pair id="arc-swashbuckler-daring_infiltrator-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Diplomacy, Perform, Profession</Pair></Ability>
 <p><strong>Bonus Feats:</strong> In addition to combat feats, a daring infiltrator's bonus feats at 4th, 8th, 12th, 16th, and 20th level can come from the following list: <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/antagonize">Antagonize</Link>, <Link to="/feat/cosmopolitan">Cosmopolitan</Link>, <Link to="/feat/deceitful">Deceitful</Link>, <Link to="/feat/deft_hands">Deft Hands</Link>, <Link to="/feat/disarming_threat_deed">Disarming Threat Deed</Link>, <Link to="/feat/persuasive">Persuasive</Link>, <Link to="/feat/prodigy">Prodigy</Link>, and <Link to="/feat/skill_focus">Skill Focus</Link>.</p>
 <p>This alters the <strong className="hl">bonus feat</strong> class ability.</p>
 <p><strong>Quick-Tongued (Ex):</strong> At 2nd level, a daring infiltrator gains a +1 bonus on Bluff checks. This bonus increases by 1 for every 4 levels beyond 2nd.</p>
@@ -168,9 +170,9 @@ const _musketeer = {title: "Musketeer", jsx: <><h2 id="arc-swashbuckler-musketee
 const _mysterious_avenger = {title: "Mysterious Avenger", jsx: <><h2 id="arc-swashbuckler-mysterious_avenger-mysterious-avenger">Mysterious Avenger</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 126</Link><br/>While some swashbucklers fight for queen and country, and others for coin, glory, or just the enhancement of their own reputations, the mysterious avenger fights directly for a cause. Instead of gaining personal glory for her heroic deeds, she keeps her identity hidden in order to fight for those who cannot fight for themselves.</p>
 <p><strong>Alignment:</strong> A mysterious avenger must be of a good alignment, and must be dedicated to the protection of the good and the powerless under her care. If she ceases to be good or betrays the trust of those she was sworn to protect, she loses her secret identity and greater charmed life class features. She can regain them if she atones for her violations by some means that the GM sees fit (possibly by way of the <Link to="/spell/atonement">atonement</Link> spell if the mysterious avenger is especially religious).</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-swashbuckler-mysterious_avenger-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/disguise">Disguise</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-swashbuckler-mysterious_avenger-undefined">
+<Pair id="arc-swashbuckler-mysterious_avenger-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA)</Pair></Ability>
 <p><strong>Weapon and Armor Proficiency:</strong> A mysterious avenger loses her proficiency with bucklers, but gains proficiency in the <Link to="/eq-weapon/whip">whip</Link> exotic weapon.</p>
 <p>This alters the swashbuckler's <strong className="hl">weapon and armor proficiency</strong>.</p>
 <p><strong>Avenger Finesse (Ex):</strong> A mysterious avenger gains all of the benefits of the swashbuckler's finesse class feature, and gains the ability to use a whip in place of a light or one-handed piercing melee weapon for all swashbuckler class features and deeds.</p>
@@ -280,10 +282,10 @@ const _shackles_corsair = {title: "Shackles Corsair", jsx: <><h2 id="arc-swashbu
 </>};
 const _veiled_blade = {title: "Veiled Blade", jsx: <><h2 id="arc-swashbuckler-veiled_blade-veiled-blade">Veiled Blade</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 53</Link><br/>Veiled blades specialize in subtlety, not through clandestine sneaking but simply by appearing to be someone harmless and unarmed. When a fight breaks out, a veiled blade doffs that facade and pulls out her hidden trump cards. Those who have mastered the art of the veiled blade can even hide their weapons on their own bodies as brands.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-swashbuckler-veiled_blade-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/disguise">Disguise</Link> (CHA)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Intimidate</div></div></div></div>
+<Ability icon={["skills"]} id="arc-swashbuckler-veiled_blade-undefined">
+<Pair id="arc-swashbuckler-veiled_blade-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA)</Pair>
+<Pair title="Removed Skills">Intimidate</Pair></Ability>
 <p><strong>Deeds:</strong> A veiled blade gains the following deeds.</p>
 <blockquote>
 <p><em>Quick Draw (Ex):</em> At 1st level, whenever she has at least 1 panache point, a veiled blade gains the benefits of the <Link to="/feat/quick_draw">Quick Draw</Link> feat.</p>
@@ -310,10 +312,10 @@ const _whirling_dervish = {title: "Whirling Dervish", jsx: <><h2 id="arc-swashbu
 </>};
 const _wildstrider = {title: "Wildstrider", jsx: <><h2 id="arc-swashbuckler-wildstrider-wildstrider">Wildstrider</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 96</Link><br/>Most swashbucklers call cities their home, but some prefer deserts, marshlands, mountains, or woods, where the rough terrain grants them an advantage, and have little interest in the comforts of an urban lifestyle.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-swashbuckler-wildstrider-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (nobility), Sense Motive, Sleight of Hand</div></div></div></div>
+<Ability icon={["skills"]} id="arc-swashbuckler-wildstrider-undefined">
+<Pair id="arc-swashbuckler-wildstrider-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Knowledge (nobility), Sense Motive, Sleight of Hand</Pair></Ability>
 <p><strong>Deeds:</strong> A wildstrider gains the following deeds, each of which replaces an existing deed.</p>
 <blockquote>
 <p><strong>Subterfuge (Ex):</strong> A wildstrider adds Stealth to the list of skills to which the <Link to="/swashdeed/derring_do">derring-do</Link> deed applies. At 15th level, she adds Stealth to the list of skills on which she can take 10 using the <Link to="/swashdeed/swashbucklers_edge">swashbuckler's edge</Link> deed.</p>

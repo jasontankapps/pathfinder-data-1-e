@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
@@ -29,10 +31,10 @@ const _abolisher = {title: "Abolisher", jsx: <><h2 id="arc-inquisitor-abolisher-
 </>};
 const _cloaked_wolf = {title: "Cloaked Wolf", jsx: <><h2 id="arc-inquisitor-cloaked_wolf-cloaked-wolf">Cloaked Wolf</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 28</Link><br/>Some inquisitors are adept at appearing harmless until they throw off their unassuming facades and take their enemies by surprise.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-inquisitor-cloaked_wolf-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Intimidate</div></div></div></div>
+<Ability icon={["skills"]} id="arc-inquisitor-cloaked_wolf-undefined">
+<Pair id="arc-inquisitor-cloaked_wolf-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Intimidate</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-inquisitor-cloaked_wolf-lure-prey-ex" data-hash-target><div className="box">Lure Prey (Ex)</div><div className="flavor">Cloaked wolves are skilled at maintaining a harmless guise even while they silently prepare to strike against their enemies.</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Stern gaze</div></div></div>
@@ -526,10 +528,10 @@ const _oathkeeper = {title: "Oathkeeper", jsx: <><h2 id="arc-inquisitor-oathkeep
 <div className="title abSingle" id="arc-inquisitor-oathkeeper-alignment" data-hash-target><div className="box">Alignment</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Alignment requirements</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">An oathkeeper must be of a lawful alignment, and her alignment must be within one step of her deity's.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-inquisitor-oathkeeper-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/appraise">Appraise</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (nature)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-inquisitor-oathkeeper-undefined">
+<Pair id="arc-inquisitor-oathkeeper-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/appraise">Appraise</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (nature)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-inquisitor-oathkeeper-divine-witness-su" data-hash-target><div className="box">Divine Witness (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Monster lore</div></div></div>
@@ -650,10 +652,10 @@ const _relic_hunter = {title: "Relic Hunter", jsx: <><h2 id="arc-inquisitor-reli
 </>};
 const _royal_accuser = {title: "Royal Accuser", jsx: <><h2 id="arc-inquisitor-royal_accuser-royal-accuser">Royal Accuser</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 45</Link><br/>Royal accusers serve the prince of Ustalav, cutting through the nation's baroque politics and quietly facing its many threats.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-inquisitor-royal_accuser-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (nature)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-inquisitor-royal_accuser-undefined">
+<Pair id="arc-inquisitor-royal_accuser-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (nature)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-inquisitor-royal_accuser-meticulous-inspection-ex" data-hash-target><div className="box">Meticulous Inspection (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Stern gaze</div></div></div>
@@ -842,10 +844,10 @@ const _spellbreaker = {title: "Spellbreaker", jsx: <><h2 id="arc-inquisitor-spel
 </>};
 const _suit_seeker = {title: "Suit Seeker", jsx: <><h2 id="arc-inquisitor-suit_seeker-suit-seeker">Suit Seeker</h2>
 <p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 22</Link><br/>Though surrounded by meaning and tradition revered by most harrowers, the harrow is a tool that could be abused. Those inquisitors known as suit seekers take grave offense at the misuse of this ancient power, and dedicate their considerable skills to hunting and eliminating any who would abuse the harrow's magic and the heritage it represents. No two suit seekers seem to share the same vision, though, and so most of these harrow-wielding inquisitors end up at odds with other diviners throughout Avistan and even one another.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-inquisitor-suit_seeker--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A suit seeker's alignment must be neutral on the good-evil axis, the lawful-chaotic axis, or both.</td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-inquisitor-suit_seeker-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering), Ride, Survival</div></div></div></div>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-inquisitor-suit_seeker--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A suit seeker's alignment must be neutral on the good-evil axis, the lawful-chaotic axis, or both.</td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-inquisitor-suit_seeker-undefined">
+<Pair id="arc-inquisitor-suit_seeker-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering), Ride, Survival</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-inquisitor-suit_seeker-domain" data-hash-target><div className="box">Domain</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Choice</div></div><div className="abEnd"><div className="box">A suit seeker must select the <Link to="/domain/knowledge">Knowledge</Link> or <Link to="/domain/luck">Luck</Link> domain; the Memory or Fate subdomain; or the <Link to="/inquisition/fate">Fate</Link>, <Link to="/inquisition/fervor">Fervor</Link>, or <Link to="/inquisition/illumination">Illumination</Link> inquisition.</div></div></div></div>
@@ -1000,10 +1002,10 @@ const _traceless_operative = {title: "Traceless Operative", jsx: <><h2 id="arc-i
 </>};
 const _umbral_stalker = {title: "Umbral Stalker", jsx: <><h2 id="arc-inquisitor-umbral_stalker-umbral-stalker">Umbral Stalker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 31</Link><br/>As a consummate lurker in the shadows, an umbral stalker observes the enemies of her faith and strikes before the unfortunate victims even know she is skulking nearby.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-inquisitor-umbral_stalker-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Diplomacy</div></div></div></div>
+<Ability icon={["skills"]} id="arc-inquisitor-umbral_stalker-undefined">
+<Pair id="arc-inquisitor-umbral_stalker-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Diplomacy</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-inquisitor-umbral_stalker-dark-descent-su" data-hash-target><div className="box">Dark Descent (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Domain</div></div></div>
@@ -1032,10 +1034,10 @@ const _umbral_stalker = {title: "Umbral Stalker", jsx: <><h2 id="arc-inquisitor-
 </>};
 const _urban_infiltrator = {title: "Urban Infiltrator", jsx: <><h2 id="arc-inquisitor-urban_infiltrator-urban-infiltrator">Urban Infiltrator</h2>
 <p><strong>Sources</strong> <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 18</Link><br/>Masters of secretly gathering information to further their faith's ends, urban infiltrators excel at operating within an unfriendly society or infiltrating an enemy cult. This archetype is popular among Cult of the <Link to="/faith/sarenrae">Dawnflower</Link> inquisitors operating in Taldor, but it is available to any inquisitor who prefers subtle investigation to forthright zeal.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-inquisitor-urban_infiltrator-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (dungeoneering), Knowledge (nature)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-inquisitor-urban_infiltrator-undefined">
+<Pair id="arc-inquisitor-urban_infiltrator-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (nature)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-inquisitor-urban_infiltrator-gifted-detective-ex" data-hash-target><div className="box">Gifted Detective (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Monster lore</div></div></div>

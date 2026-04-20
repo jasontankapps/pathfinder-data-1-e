@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
@@ -107,10 +109,10 @@ const _nature_fang = {title: "Nature Fang", jsx: <><h2 id="arc-druid-nature_fang
 </>};
 const _nature_priest = {title: "Nature Priest", jsx: <><h2 id="arc-druid-nature_priest-nature-priest">Nature Priest</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 23</Link><br/>Nature priests serve two masters: their deities and nature itself, and can call upon the power of both to fuel their divine abilities.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-nature_priest--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Like a cleric, a nature priest must worship a deity and her alignment must be within one step of her deity's.</td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-druid-nature_priest-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Knowledge (geography)</div></div></div></div>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-nature_priest--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Like a cleric, a nature priest must worship a deity and her alignment must be within one step of her deity's.</td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-druid-nature_priest-undefined">
+<Pair id="arc-druid-nature_priest-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (geography)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-druid-nature_priest-weapon-proficiencies" data-hash-target><div className="box">Weapon Proficiencies</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Weapon proficiencies</div></div></div>
@@ -136,10 +138,10 @@ const _nature_priest = {title: "Nature Priest", jsx: <><h2 id="arc-druid-nature_
 </>};
 const _nithveil_adept = {title: "Nithveil Adept", jsx: <><h2 id="arc-druid-nithveil_adept-nithveil-adept">Nithveil Adept</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 44</Link><br/>Nithveil adepts learn the secret magic of the First World fey in the moving, reality-phasing city of Nithveil, which appears on the new moon at seemingly random locations in the Grungir Forest in the Lands of the Linnorm Kings. The most common deities worshiped by these druids are the Green Mother and the Lantern King, Eldest patrons of intrigue and trickery.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-druid-nithveil_adept-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS), <Link to="/skill/perform">Perform</Link> (CHA), <Link to="/skill/stealth">Stealth</Link> (DEX)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">This also replaces the Nature Sense ability</div></div></div></div>
+<Ability icon={["skills"]} id="arc-druid-nithveil_adept-undefined">
+<Pair id="arc-druid-nithveil_adept-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS), <Link to="/skill/perform">Perform</Link> (CHA), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
+<Pair title="Info">This also replaces the Nature Sense ability</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-druid-nithveil_adept-nature-bond-su" data-hash-target><div className="box">Nature Bond (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Nature bond</div></div></div>
@@ -673,10 +675,10 @@ const _shark_shaman = {title: "Shark Shaman", jsx: <><h2 id="arc-druid-shark_sha
 </>};
 const _skinshaper = {title: "Skinshaper", jsx: <><h2 id="arc-druid-skinshaper-skinshaper">Skinshaper</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 26</Link><br/>Using the same primal energy with which other druids assume animal forms, skinshapers can imitate some of the most dangerous beasts of all: humans and other humanoids. Rather than merely copying humanoids' shapes and abilities, skinshapers unlock brutal energies that push their borrowed bodies far beyond the capabilities of normal humanoid creatures. Their connection to humanoids bring skinshapers into settlements more often than typical druids, and their penchant for disguise allows them to excel at intrigue.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-druid-skinshaper-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/disguise">Disguise</Link> (CHA)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Ride</div></div></div></div>
+<Ability icon={["skills"]} id="arc-druid-skinshaper-undefined">
+<Pair id="arc-druid-skinshaper-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA)</Pair>
+<Pair title="Removed Skills">Ride</Pair></Ability>
 <div className="ability p hasSubs"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-druid-skinshaper-skinshaping-su" data-hash-target><div className="box">Skinshaping (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Wild shape</div></div></div>
@@ -792,10 +794,10 @@ const _storm_druid = {title: "Storm Druid", jsx: <><h2 id="arc-druid-storm_druid
 </>};
 const _sunrider = {title: "Sunrider", jsx: <><h2 id="arc-druid-sunrider-sunrider">Sunrider</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 13</Link><br/>Sunriders help their allies, be they fellow tribe members or fellow adventurers, to survive in harsh desert terrain, while simultaneously making it even harsher for their foes. They seem to share a single mind with their loyal steeds, and companions who ride with them become an eerily well-coordinated cavalry unit that traverses the treacherous desert sands with ease to wreak havoc upon invaders. Sunriders almost never leave their tribal homelands; those found outside Al-Zabrit are usually either exiles or emissaries sent to deal with issues that can't be addressed from their holds.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-druid-sunrider-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Profession</div></div></div></div>
+<Ability icon={["skills"]} id="arc-druid-sunrider-undefined">
+<Pair id="arc-druid-sunrider-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Profession</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-druid-sunrider-weapon-and-armor-proficiencies" data-hash-target><div className="box">Weapon and Armor Proficiencies</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Weapon and armor proficiencies</div></div></div>
@@ -922,9 +924,9 @@ const _supernaturalist = {hasJL:true,title: "Supernaturalist", jsx: <><div class
 </>};
 const _survivor = {title: "Survivor", jsx: <><h2 id="arc-druid-survivor-survivor">Survivor</h2>
 <p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance pg. 24</Link><br/>The survivor embodies the neutral aspect of the natural world and eschews druidic magic in favor of more pragmatic and worldly survival methods.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-druid-survivor-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/stealth">Stealth</Link> (DEX)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-druid-survivor-undefined">
+<Pair id="arc-druid-survivor-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-druid-survivor-weapon-proficiencies" data-hash-target><div className="box">Weapon Proficiencies</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">In addition to the normal druid weapon proficiencies, a survivor is proficient with the <Link to="/eq-weapon/shortbow">shortbow</Link> and <Link to="/eq-weapon/longbow">longbow</Link>.</div></div></div></div>

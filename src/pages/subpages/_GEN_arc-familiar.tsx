@@ -1,12 +1,14 @@
 import {IonIcon} from '@ionic/react';
 import Link from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import InnerLink from '../../components/InnerLink';
 const _ambassador = {title: "Ambassador", jsx: <><h2 id="arc-familiar-ambassador-ambassador">Ambassador</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 210</Link><br/>An ambassador speaks on its master's behalf and sometimes on behalf of its master's patron or other extraplanar contacts.</p>
 <p><strong className="hl">Special Requirement:</strong> An ambassador familiar must be able to speak at least one language, either as a special familiar ability (as in the case of a <Link to="/monster/raven">raven</Link> or <Link to="/monster/thrush">thrush</Link>) or by being an <Link to="/feat/improved_familiar">Improved Familiar</Link>. A familiar that can't speak (or can speak only to its master or other animals) can't be an ambassador.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-familiar-ambassador-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-familiar-ambassador-undefined">
+<Pair id="arc-familiar-ambassador-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-familiar-ambassador-persuasive-ex" data-hash-target><div className="box">Persuasive (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Alertness</div></div></div>
@@ -19,9 +21,9 @@ const _ambassador = {title: "Ambassador", jsx: <><h2 id="arc-familiar-ambassador
 const _animal_exemplar = {title: "Animal Exemplar", jsx: <><h2 id="arc-familiar-animal_exemplar-animal-exemplar">Animal Exemplar</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 210</Link><br/>An animal exemplar is a paragon of its species, able to command the loyalty of others of its kind.</p>
 <p><strong className="hl">Special Requirement:</strong> An animal exemplar familiar cannot be an improved familiar, plant, vermin, or other non-animal themed familiar.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-familiar-animal_exemplar-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-familiar-animal_exemplar-undefined">
+<Pair id="arc-familiar-animal_exemplar-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-familiar-animal_exemplar-influence-animals-ex-sp" data-hash-target><div className="box">Influence Animals (Ex, Sp)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Deliver touch spells, spell resistance, scry on familiar</div></div></div>
@@ -52,9 +54,9 @@ const _arcane_amplifier = {title: "Arcane Amplifier", jsx: <><h2 id="arc-familia
 </>};
 const _decoy = {title: "Decoy", jsx: <><h2 id="arc-familiar-decoy-decoy">Decoy</h2>
 <p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 10</Link><br/>A decoy misdirects its master's enemies, allowing the master to strike by surprise.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-familiar-decoy-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/bluff">Bluff</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-familiar-decoy-undefined">
+<Pair id="arc-familiar-decoy-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-familiar-decoy-deceitful" data-hash-target><div className="box">Deceitful</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Alertness</div></div></div>
@@ -73,9 +75,9 @@ const _decoy = {title: "Decoy", jsx: <><h2 id="arc-familiar-decoy-decoy">Decoy</
 </>};
 const _egotist = {title: "Egotist", jsx: <><h2 id="arc-familiar-egotist-egotist">Egotist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 210</Link><br/>An egotist believes itself to be the real master in the relationship - the power behind the throne. It often attempts to communicate "orders" for its master as best it can, interfering in matters ranging from spell choices and tactical combat decisions to its master's love life.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-familiar-egotist-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-familiar-egotist-undefined">
+<Pair id="arc-familiar-egotist-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-familiar-egotist-song-of-myself-ex" data-hash-target><div className="box">Song of Myself (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Alertness, the variable familiar bonus</div></div></div>
@@ -127,9 +129,9 @@ const _elemental_familiar = {title: "Elemental Familiar", jsx: <><h2 id="arc-fam
 const _emissary = {title: "Emissary", jsx: <><h2 id="arc-familiar-emissary-emissary">Emissary</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 210</Link>, <Link to="/source/familiar_folio">Familiar Folio pg. 10</Link><br/>The emissary is touched by the divine, serving as a font of wisdom and a moral compass for its master.</p>
 <p><strong className="hl">Special Requirement:</strong> An emissary familiar can serve only a master who worships a single deity.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-familiar-emissary-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-familiar-emissary-undefined">
+<Pair id="arc-familiar-emissary-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-familiar-emissary-divine-guidance-sp" data-hash-target><div className="box">Divine Guidance (Sp)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Alertness</div></div></div>
@@ -160,9 +162,9 @@ const _figment = {title: "Figment", jsx: <><h2 id="arc-familiar-figment-figment"
 </>};
 const _infiltrator = {title: "Infiltrator", jsx: <><h2 id="arc-familiar-infiltrator-infiltrator">Infiltrator</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 211</Link>, <Link to="/source/animal_archive">Animal Archive pg. 20</Link><br/>Familiars can be skilled spies, and infiltrators are the very best of their kind at the subtle art of espionage.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-familiar-infiltrator-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-familiar-infiltrator-undefined">
+<Pair id="arc-familiar-infiltrator-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-familiar-infiltrator-alertness-ex" data-hash-target><div className="box">Alertness (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Alertness</div></div></div>
@@ -188,9 +190,9 @@ const _infiltrator = {title: "Infiltrator", jsx: <><h2 id="arc-familiar-infiltra
 </>};
 const _mascot = {title: "Mascot", jsx: <><h2 id="arc-familiar-mascot-mascot">Mascot</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 211</Link>, <Link to="/source/familiar_folio">Familiar Folio pg. 11</Link><br/>A familiar sometimes serves as the centerpiece of an adventuring party. Known as a mascot, this type of familiar eventually treats the entire party as its master.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-familiar-mascot-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/perform">Perform</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-familiar-mascot-undefined">
+<Pair id="arc-familiar-mascot-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perform">Perform</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-familiar-mascot-affinity-for-my-team-su" data-hash-target><div className="box">Affinity for My Team (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Alertness</div></div></div>
@@ -224,9 +226,9 @@ const _mascot = {title: "Mascot", jsx: <><h2 id="arc-familiar-mascot-mascot">Mas
 </>};
 const _mauler = {title: "Mauler", jsx: <><h2 id="arc-familiar-mauler-mauler">Mauler</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 212</Link>, <Link to="/source/familiar_folio">Familiar Folio pg. 11</Link><br/>While most familiars are scouts and assistants, the mauler familiar cares only for the thrill of battle. A mauler often serves a bloodthirsty or martial-minded master.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-familiar-mauler-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-familiar-mauler-undefined">
+<Pair id="arc-familiar-mauler-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-familiar-mauler-bond-forged-in-blood-su" data-hash-target><div className="box">Bond Forged in Blood (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Speak with master, speak with animals of its kind</div></div></div>
@@ -279,9 +281,9 @@ const _parasite = {title: "Parasite", jsx: <><h2 id="arc-familiar-parasite-paras
 </>};
 const _pilferer = {title: "Pilferer", jsx: <><h2 id="arc-familiar-pilferer-pilferer">Pilferer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 212</Link>, <Link to="/source/animal_archive">Animal Archive pg. 20</Link><br/>Some familiars are stealthy pilferers that perform tricks of thievery or simple spying on their master's behalf.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-familiar-pilferer-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-familiar-pilferer-undefined">
+<Pair id="arc-familiar-pilferer-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-familiar-pilferer-improved-steal-ex" data-hash-target><div className="box">Improved Steal (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Alertness</div></div></div>
@@ -303,9 +305,9 @@ const _pilferer = {title: "Pilferer", jsx: <><h2 id="arc-familiar-pilferer-pilfe
 </>};
 const _prankster = {title: "Prankster", jsx: <><h2 id="arc-familiar-prankster-prankster">Prankster</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 212</Link><br/>Some familiars love to perform pranks on their unsuspecting masters, as well as on those around their masters - allies and enemies alike. While good-aligned pranksters' tricks are usually good natured except against foes, evil pranksters play tricks that are mean spirited or even downright cruel.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-familiar-prankster-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/perform">Perform (comedy)</Link> (CHA), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-familiar-prankster-undefined">
+<Pair id="arc-familiar-prankster-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/perform">Perform (comedy)</Link> (CHA), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-familiar-prankster-autonomous-link-ex" data-hash-target><div className="box">Autonomous Link (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Empathic link</div></div></div>
@@ -354,9 +356,9 @@ const _protector = {title: "Protector", jsx: <><h2 id="arc-familiar-protector-pr
 </>};
 const _sage = {title: "Sage", jsx: <><h2 id="arc-familiar-sage-sage">Sage</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 213</Link>, <Link to="/source/familiar_folio">Familiar Folio pg. 11</Link><br/>Sages are masters of useful facts, able to recall them for their masters' benefit, though this leads many to become haughty and proud.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-familiar-sage-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-familiar-sage-undefined">
+<Pair id="arc-familiar-sage-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-familiar-sage-dazzling-intellect-ex" data-hash-target><div className="box">Dazzling Intellect (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">The familiar's Intelligence score and natural armor adjustment</div></div></div>
@@ -488,9 +490,9 @@ const _soulbound_familiar = {title: "Soulbound Familiar", jsx: <><h2 id="arc-fam
 </>};
 const _valet = {title: "Valet", jsx: <><h2 id="arc-familiar-valet-valet">Valet</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 213</Link>, <Link to="/source/animal_archive">Animal Archive pg. 21</Link><br/>A valet is a consummate personal servant, able to fetch, deliver, and perform for its master's every need.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-familiar-valet-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/craft">Craft</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA), <Link to="/skill/profession">Profession</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-familiar-valet-undefined">
+<Pair id="arc-familiar-valet-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/craft">Craft</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA), <Link to="/skill/profession">Profession</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-familiar-valet-able-assistant-ex" data-hash-target><div className="box">Able Assistant (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Alertness</div></div></div>

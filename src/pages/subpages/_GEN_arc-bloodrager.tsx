@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
@@ -432,10 +434,10 @@ const _steelblood = {title: "Steelblood", jsx: <><h2 id="arc-bloodrager-steelblo
 </>};
 const _symbol_striker = {title: "Symbol Striker", jsx: <><h2 id="arc-bloodrager-symbol_striker-symbol-striker">Symbol Striker</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 7</Link><br/>Symbol strikers are honored warriors of Dongun Hold, a Sky Citadel in Alkenstar that was a site of frequent conflicts between the nations of Geb and Nex. The dwarven inhabitants used powerful magic explosives to seal the fortress against the outside world and prevent the Sky Citadel from becoming a pawn in the arcane wars between the two powers. Only with the arrival of Ancil Alkenstar in 4588 AR did Dongun Hold reopen itself to the outside world. By then, the constant exposure to strange runic energies and the long isolation had caused a unique form of rune-wielding berserker spellcaster to develop, though the symbol striker tradition has since spread beyond its origins.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-symbol_striker-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/linguistics">Linguistics</Link> (INT)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Handle Animal</div></div></div></div>
+<Ability icon={["skills"]} id="arc-bloodrager-symbol_striker-undefined">
+<Pair id="arc-bloodrager-symbol_striker-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
+<Pair title="Removed Skills">Handle Animal</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-bloodrager-symbol_striker-rune-training-sp" data-hash-target><div className="box">Rune Training (Sp)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Fast movement</div></div></div>
@@ -470,10 +472,10 @@ const _untouchable_rager = {title: "Untouchable Rager", jsx: <><h2 id="arc-blood
 </>};
 const _urban_bloodrager = {title: "Urban Bloodrager", jsx: <><h2 id="arc-bloodrager-urban_bloodrager-urban-bloodrager">Urban Bloodrager</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 24</Link><br/>Like the <Link to="/arc-barbarian/urban_barbarian">urban barbarian</Link>, the urban bloodrager has learned to control her rage in so-called polite society. Though she lacks the untamed resilience of her wilder fellows, she's an expert at keeping her rage from causing collateral damage in crowds.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-urban_bloodrager-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/profession">Profession</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Handle Animal, Knowledge (nature), Survival</div></div></div></div>
+<Ability icon={["skills"]} id="arc-bloodrager-urban_bloodrager-undefined">
+<Pair id="arc-bloodrager-urban_bloodrager-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/profession">Profession</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Handle Animal, Knowledge (nature), Survival</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-bloodrager-urban_bloodrager-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Weapon and armor proficiencies</div></div></div>

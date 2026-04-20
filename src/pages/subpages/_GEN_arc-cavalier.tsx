@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
@@ -112,10 +114,10 @@ const _castellan = {title: "Castellan", jsx: <><h2 id="arc-cavalier-castellan-ca
 </>};
 const _charger = {title: "Charger", jsx: <><h2 id="arc-cavalier-charger-charger">Charger</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_monster_codex">Inner Sea Monster Codex pg. 5</Link><br/>No warrior better epitomizes the centaur's devastating martial power than the charger. Born to the swiftest and most powerful of their kind, these natural cavaliers can achieve unparalleled feats of equestrian combat. Chargers rush headlong into the heart of any conflict to swiftly close on and smash into their enemies, channeling their power into their lances.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-cavalier-charger--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/monster/centaur">Centaur</Link> (or any tauric creature at the GM's discretion).</td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-cavalier-charger-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Climb, Handle Animal, Ride</div></div></div></div>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-cavalier-charger--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/monster/centaur">Centaur</Link> (or any tauric creature at the GM's discretion).</td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-cavalier-charger-undefined">
+<Pair id="arc-cavalier-charger-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Climb, Handle Animal, Ride</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-cavalier-charger-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Weapon and armor proficiencies</div></div></div>
@@ -172,9 +174,9 @@ const _circuit_judge = {title: "Circuit Judge", jsx: <><h2 id="arc-cavalier-circ
 </ol></section></>};
 const _constable = {title: "Constable", jsx: <><h2 id="arc-cavalier-constable-constable">Constable</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 17</Link><br/>Constables keep order in the narrow streets and dark alleys of settlements.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-cavalier-constable-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/perception">Perception</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-cavalier-constable-undefined">
+<Pair id="arc-cavalier-constable-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perception">Perception</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-cavalier-constable-apprehend-ex" data-hash-target><div className="box">Apprehend (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Mount</div></div></div>
@@ -473,9 +475,9 @@ const _fell_rider = {title: "Fell Rider", jsx: <><h2 id="arc-cavalier-fell_rider
 </>};
 const _first_mothers_fang = {title: "First Mother's Fang", jsx: <><h2 id="arc-cavalier-first_mothers_fang-first-mothers-fang">First Mother's Fang</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 17</Link><br/>Nagajor legend states that when <Link to="/faith/nalinivati">Nalinivati</Link> created the first <Link to="/race/nagaji">nagaji</Link>, she chose a paragon of their kind to instruct in the use of exotic weapons, lore, and words so the creature could best serve her as a bodyguard and emissary: the original first mother's fang. Whether or not these paragons descend from a single nagaji, first mother's fangs of Nagajor have expanded their numbers over the generations, and they no longer speak with the full authority of the First Mother. In modern times, a first mother's fang acts as a servant of his nation, a skilled general and tactician in times of war and a noble governor during times of peace.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-cavalier-first_mothers_fang-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-cavalier-first_mothers_fang-undefined">
+<Pair id="arc-cavalier-first_mothers_fang-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-cavalier-first_mothers_fang-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">The cavalier's weapon proficiencies</div></div></div>
@@ -644,10 +646,10 @@ const _honor_guard = {title: "Honor Guard", jsx: <><h2 id="arc-cavalier-honor_gu
 </>};
 const _hooded_knight = {title: "Hooded Knight", jsx: <><h2 id="arc-cavalier-hooded_knight-hooded-knight">Hooded Knight</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 26</Link><br/>Some cavaliers wander the lonely roads of the world - any world, including the First World - protecting travelers and acting as their honor guard. Like the <Link to="/rule/eldest">Eldest</Link> they usually venerate, they wear heavy hoods and rarely show their faces. Hooded knights are usually members of the <Link to="/order/order_of_the_blossom">order of the blossom</Link>, the <Link to="/order/order_of_the_shield">order of the shield</Link>, or the <Link to="/order/order_of_the_sword">order of the sword</Link>.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-cavalier-hooded_knight-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Climb, Swim</div></div></div></div>
+<Ability icon={["skills"]} id="arc-cavalier-hooded_knight-undefined">
+<Pair id="arc-cavalier-hooded_knight-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Climb, Swim</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-cavalier-hooded_knight-feytouched-mount" data-hash-target><div className="box">Feytouched Mount</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">The cavalier's mount</div></div></div>
@@ -677,9 +679,9 @@ const _hooded_knight = {title: "Hooded Knight", jsx: <><h2 id="arc-cavalier-hood
 </>};
 const _huntmaster = {title: "Huntmaster", jsx: <><h2 id="arc-cavalier-huntmaster-huntmaster">Huntmaster</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 6</Link><br/>Huntmasters train the beasts favored by lordly castes into swift and deadly trackers.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-cavalier-huntmaster-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-cavalier-huntmaster-undefined">
+<Pair id="arc-cavalier-huntmaster-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-cavalier-huntmaster-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A huntmaster is not proficient with heavy armor. Huntmasters are proficient with all simple and martial weapons, plus the <Link to="/eq-weapon/net">net</Link> and <Link to="/eq-weapon/whip">whip</Link>.</div></div></div></div>
@@ -742,9 +744,9 @@ const _hussar = {title: "Hussar", jsx: <><h2 id="arc-cavalier-hussar-hussar">Hus
 <div className="title abSingle" id="arc-cavalier-hussar-armor-proficiency" data-hash-target><div className="box">Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The cavalier's normal armor proficiencies</div></div></div>
 <div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A hussar is proficient with light armor, but not with medium or heavy armor or with shields.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-cavalier-hussar-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-cavalier-hussar-undefined">
+<Pair id="arc-cavalier-hussar-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-cavalier-hussar-fast-mount-ex" data-hash-target><div className="box">Fast Mount (Ex)</div><div className="flavor">A hussar is able to spur on any mount that he rides to faster speeds than other riders.</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Tactician, banner, greater banner</div></div></div>
@@ -979,9 +981,9 @@ const _qadiran_horselord = {title: "Qadiran Horselord", jsx: <><h2 id="arc-caval
 </>};
 const _saurian_champion = {title: "Saurian Champion", jsx: <><h2 id="arc-cavalier-saurian_champion-saurian-champion">Saurian Champion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 45</Link><br/>These primeval cavaliers idolize dinosaurs as apex predators and value them as powerful, oversized mounts.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-cavalier-saurian_champion-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-cavalier-saurian_champion-undefined">
+<Pair id="arc-cavalier-saurian_champion-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-cavalier-saurian_champion-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Weapon and armor proficiencies</div></div></div>

@@ -1,5 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
 const _aromaphile = {title: "Aromaphile", jsx: <><h2 id="arc-mesmerist-aromaphile-aromaphile">Aromaphile</h2>
@@ -51,9 +53,9 @@ const _autohypnotist = {title: "Autohypnotist", jsx: <><h2 id="arc-mesmerist-aut
 </>};
 const _chart_caster = {title: "Chart Caster", jsx: <><h2 id="arc-mesmerist-chart_caster-chart-caster">Chart Caster</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 10</Link><br/>Lirgeni astrologists would divine their futures by consulting star charts, but some had no talent for astrology and simply faked their results. When prophecy died with Aroden, a few Lirgeni survivors continued with this "reliable" method.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-mesmerist-chart_caster-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-mesmerist-chart_caster-undefined">
+<Pair id="arc-mesmerist-chart_caster-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-mesmerist-chart_caster-subject-of-the-stars-su" data-hash-target><div className="box">Subject of the Stars (Su)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Mesmerist tricks, manifold tricks</div></div></div>
@@ -262,10 +264,10 @@ const _eyebiter = {title: "Eyebiter", jsx: <><h2 id="arc-mesmerist-eyebiter-eyeb
 </>};
 const _fey_trickster = {title: "Fey Trickster", jsx: <><h2 id="arc-mesmerist-fey_trickster-fey-trickster">Fey Trickster</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 37</Link><br/>Most mesmerists draw psychic power from the Astral Plane, but a few gain their powers in an unusual way: from a brush with the fey. Prisoner-guests of the fey, these souls find themselves changed when they return to the mortal world, infused with the eldritch energy of their former hosts.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-mesmerist-fey_trickster-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Removed Skills</div></div><div className="abEnd"><div className="box">Appraise, Knowledge (dungeoneering), Profession</div></div></div></div>
+<Ability icon={["skills"]} id="arc-mesmerist-fey_trickster-undefined">
+<Pair id="arc-mesmerist-fey_trickster-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
+<Pair title="Removed Skills">Appraise, Knowledge (dungeoneering), Profession</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-mesmerist-fey_trickster-natures-lure" data-hash-target><div className="box">Nature's Lure</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Spellcasting</div></div></div>
@@ -615,9 +617,9 @@ const _umbral_mesmerist = {title: "Umbral Mesmerist", jsx: <><h2 id="arc-mesmeri
 </>};
 const _vexing_daredevil = {title: "Vexing Daredevil", jsx: <><h2 id="arc-mesmerist-vexing_daredevil-vexing-daredevil">Vexing Daredevil</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 98</Link><br/>Vexing daredevils train their psychic powers for combat, specializing in momentarily blinding and confusing their foes with sudden feints and tricks.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-mesmerist-vexing_daredevil-undefined" data-hash-target><div className="box">Class Skills</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Class skills</div></div></div><div className="abPair"><div className="abStart"><div className="box">New Class Skills</div></div><div className="abEnd"><div className="box"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</div></div></div></div>
+<Ability icon={["skills"]} id="arc-mesmerist-vexing_daredevil-undefined">
+<Pair id="arc-mesmerist-vexing_daredevil-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</Pair></Ability>
 <div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
 <div className="title abSingle" id="arc-mesmerist-vexing_daredevil-martial-weapon-proficiency-ex" data-hash-target><div className="box">Martial Weapon Proficiency (Ex)</div></div>
 <div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">1st-level mesmerist trick</div></div></div>
