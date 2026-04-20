@@ -20,7 +20,7 @@
 								"tags": { "type": "string" },
 								"category": { "type": "string" },
 								"sources": { "$ref": "#uniqueArray" },
-								"description": { "$ref": "#stringArray" },
+								"description": { "$ref": "#descriptionArray" },
 								"tables": { "$ref": "#tables" },
 								"searchgroup": { "$ref": "#searchgroup" },
 								"topLink": { "$ref": "#link" },
@@ -38,7 +38,7 @@
 								"subtitle": { "type": "string" },
 								"tags": { "type": "string" },
 								"sources": { "$ref": "#uniqueArray" },
-								"description": { "$ref": "#stringArray" },
+								"description": { "$ref": "#descriptionArray" },
 								"tables": { "$ref": "#tables" },
 								"parent_topics": { "$ref": "#uniquePropArray" },
 								"siblings": { "$ref": "#uniquePropArray" },
@@ -59,7 +59,7 @@
 								"subtitle": { "type": "string" },
 								"tags": { "type": "string" },
 								"sources": { "$ref": "#uniqueArray" },
-								"description": { "$ref": "#stringArray" },
+								"description": { "$ref": "#descriptionArray" },
 								"searchgroup": { "$ref": "#searchgroup" },
 								"tables": { "$ref": "#tables" },
 								"className": { "type": "string" }
@@ -137,7 +137,7 @@
 									},
 									"unevaluatedItems": false
 								},
-								"description": { "$ref": "#stringArray" },
+								"description": { "$ref": "#descriptionArray" },
 								"addenda": { "$ref": "#stringArray" },
 								"tree": { "$ref": "#uniqueArray" },
 								"topLink": { "$ref": "#link" },
@@ -277,6 +277,16 @@
 				"pattern": "^[a-z_][a-z_0-9]+$"
 			},
 			"uniqueItems": true,
+			"unevaluatedItems": false
+		},
+		"descriptionArray": {
+			"$anchor": "descriptionArray",
+			"description": "An array of strings, but they must not have invalid directives.",
+			"type": "array",
+			"items": {
+				"type": "string",
+				"pattern": "^>*::[a-z][a-zA-Z0-9_]*(\\[[^{}\\]\\[]*\\])?(\\{[^{}\\[\\]]*\\})?$|^(:::|;;;)[a-z][a-zA-Z0-9_]*(\\{[^{}]*\\})?$|^(?!::|;;)(?!.+(::|;;;))|^(:::|;;;)$"
+			},
 			"unevaluatedItems": false
 		},
 		"link": {
