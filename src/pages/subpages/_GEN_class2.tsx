@@ -184,53 +184,59 @@ const _fighter = {hasJL:true,title: "Fighter", jsx: <><div className="jumpList" 
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Light Armor?</th><td colSpan={2}>Yes</td></tr><tr><th>Medium Armor?</th><td colSpan={2}>Yes</td></tr><tr><th>Heavy Armor?</th><td colSpan={2}>Yes</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, including tower shields</td></tr></tbody></table>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-fighter-bonus-feats" data-hash-target><div className="box">Bonus Feats</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You start with a bonus feat, in addition to the free feat every class gets at 1st level. This bonus feat must be selected from those listed as <Link to="/main/combat_feat">combat feats</Link>, sometimes also called "fighter bonus feats."</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 2nd Level</div></div><div className="abEnd"><div className="box">You gain a bonus combat feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">You gain a bonus combat feat. You can also choose to learn a new bonus feat in place of a bonus feat you already learned. In effect, you lose the bonus feat in exchange for the new one. The old feat cannot be one that was used as a prerequisite for another feat, prestige class, or other ability.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">You gain a bonus combat feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">You gain a bonus combat feat. You may also replace an older feat, following the rules given at 4th level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">You gain a bonus combat feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">You gain a bonus combat feat. You may also replace an older feat, following the rules given at 4th level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 14th Level</div></div><div className="abEnd"><div className="box">You gain a bonus combat feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">You gain a bonus combat feat. You may also replace an older feat, following the rules given at 4th level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">You gain a bonus combat feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">You gain a bonus combat feat. You may also replace an older feat, following the rules given at 4th level.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-fighter-bravery-ex" data-hash-target><div className="box">Bravery (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain a +1 bonus on Will saves against fear.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">This bonus becomes +2.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">This bonus increases to +3.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 14th Level</div></div><div className="abEnd"><div className="box">This bonus becomes +4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">This bonus increases to +5.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-fighter-armor-training-ex" data-hash-target><div className="box">Armor Training (Ex)</div><div className="flavor">You learn to be more maneuverable while wearing armor.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">Whenever you wear armor, you reduce the armor check penalty by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by the armor by 1. You can also move at your normal speed while wearing medium armor.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">The penalty is now reduced by 2 (minimum 0) and the maximum Dex bonus is now increased by +2. You can also move at your normal speed while wearing heavy armor.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">The penalty is now reduced by 3 (minimum 0) and the maximum Dex bonus is now increased by +3.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">The penalty is now reduced by 4 (minimum 0) and the maximum Dex bonus is now increased by +4.</div></div></div></div>
+<Ability id="class-fighter-bonus-feats" icon={["stairs-goal"]}>
+<Pair single id="class-fighter-bonus-feats">Bonus Feats</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">You start with a bonus feat, in addition to the free feat every class gets at 1st level. This bonus feat must be selected from those listed as <Link to="/main/combat_feat">combat feats</Link>, sometimes also called "fighter bonus feats."</Pair>
+<Pair title="At 2nd Level">You gain a bonus combat feat.</Pair>
+<Pair title="At 4th Level">You gain a bonus combat feat. You can also choose to learn a new bonus feat in place of a bonus feat you already learned. In effect, you lose the bonus feat in exchange for the new one. The old feat cannot be one that was used as a prerequisite for another feat, prestige class, or other ability.</Pair>
+<Pair title="At 6th Level">You gain a bonus combat feat.</Pair>
+<Pair title="At 8th Level">You gain a bonus combat feat. You may also replace an older feat, following the rules given at 4th level.</Pair>
+<Pair title="At 10th Level">You gain a bonus combat feat.</Pair>
+<Pair title="At 12th Level">You gain a bonus combat feat. You may also replace an older feat, following the rules given at 4th level.</Pair>
+<Pair title="At 14th Level">You gain a bonus combat feat.</Pair>
+<Pair title="At 16th Level">You gain a bonus combat feat. You may also replace an older feat, following the rules given at 4th level.</Pair>
+<Pair title="At 18th Level">You gain a bonus combat feat.</Pair>
+<Pair title="At 20th Level">You gain a bonus combat feat. You may also replace an older feat, following the rules given at 4th level.</Pair>
+</Ability>
+<Ability id="class-fighter-bravery-ex" icon={["armor-upgrade"]}>
+<Pair single id="class-fighter-bravery-ex">Bravery (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">You gain a +1 bonus on Will saves against fear.</Pair>
+<Pair title="At 6th Level">This bonus becomes +2.</Pair>
+<Pair title="At 10th Level">This bonus increases to +3.</Pair>
+<Pair title="At 14th Level">This bonus becomes +4.</Pair>
+<Pair title="At 18th Level">This bonus increases to +5.</Pair>
+</Ability>
+<Ability id="class-fighter-armor-training-ex" icon={["upgrade"]}>
+<Pair single id="class-fighter-armor-training-ex" flavor="You learn to be more maneuverable while wearing armor.">Armor Training (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">Whenever you wear armor, you reduce the armor check penalty by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by the armor by 1. You can also move at your normal speed while wearing medium armor.</Pair>
+<Pair title="At 7th Level">The penalty is now reduced by 2 (minimum 0) and the maximum Dex bonus is now increased by +2. You can also move at your normal speed while wearing heavy armor.</Pair>
+<Pair title="At 11th Level">The penalty is now reduced by 3 (minimum 0) and the maximum Dex bonus is now increased by +3.</Pair>
+<Pair title="At 15th Level">The penalty is now reduced by 4 (minimum 0) and the maximum Dex bonus is now increased by +4.</Pair>
+</Ability>
 <aside><p>Optionally, a fighter may forego these increases to pick up a specific <Link to="/ability/advanced_armor_training">advanced armor training</Link>, instead. You must make a choice at 3rd, 7th, 11th, and 15th levels, and the choice you make is permanent.</p>
-</aside><div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-fighter-weapon-training-ex" data-hash-target><div className="box">Weapon Training (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">Select one <Link to="/ability/weapon_groups">weapon group</Link>. Whenever you attack with a weapon from this group, you gain a +1 bonus on attack and damage rolls. You also add this bonus to any combat maneuver checks made with weapons from this group. This bonus also applies to your <Link to="/rule/cmd">CMD</Link> when defending against <Link to="/rule/disarm">disarm</Link> and <Link to="/rule/sunder">sunder</Link> attempts made against weapons from this group.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">You select a new weapon group and gain the +1 bonus when using weapons from that group. Your previously selected group's bonus increases to +2.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">You select a new weapon group and gain the +1 bonus when using weapons from that group. Your previously selected groups' bonuses increase to +2 and +3.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 17th Level</div></div><div className="abEnd"><div className="box">You select a new weapon group and gain the +1 bonus when using weapons from that group. Your previously selected groups' bonuses increase to +2, +3, and +4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Bonuses granted from overlapping groups do not stack. Take the highest bonus granted for a weapon if it resides in two or more groups.</div></div></div></div>
+</aside><Ability id="class-fighter-weapon-training-ex" icon={["upgrade"]}>
+<Pair single id="class-fighter-weapon-training-ex">Weapon Training (Ex)</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Passive Ability">Select one <Link to="/ability/weapon_groups">weapon group</Link>. Whenever you attack with a weapon from this group, you gain a +1 bonus on attack and damage rolls. You also add this bonus to any combat maneuver checks made with weapons from this group. This bonus also applies to your <Link to="/rule/cmd">CMD</Link> when defending against <Link to="/rule/disarm">disarm</Link> and <Link to="/rule/sunder">sunder</Link> attempts made against weapons from this group.</Pair>
+<Pair title="At 9th Level">You select a new weapon group and gain the +1 bonus when using weapons from that group. Your previously selected group's bonus increases to +2.</Pair>
+<Pair title="At 13th Level">You select a new weapon group and gain the +1 bonus when using weapons from that group. Your previously selected groups' bonuses increase to +2 and +3.</Pair>
+<Pair title="At 17th Level">You select a new weapon group and gain the +1 bonus when using weapons from that group. Your previously selected groups' bonuses increase to +2, +3, and +4.</Pair>
+<Pair title="Special">Bonuses granted from overlapping groups do not stack. Take the highest bonus granted for a weapon if it resides in two or more groups.</Pair>
+</Ability>
 <aside><p>Optionally, instead of selecting an additional fighter weapon group at 9th, 13th, and 17th level, a fighter can choose an <Link to="/ability/advanced_weapon_training">advanced weapon training</Link> option for one fighter weapon group that he previously selected. This choice must be made when the fighter gains the level, and the choice is permanent.</p>
-</aside><div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-fighter-armor-mastery-ex" data-hash-target><div className="box">Armor Mastery (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 19th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain DR 5/- whenever you are wearing armor or using a shield.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-fighter-weapon-mastery-ex" data-hash-target><div className="box">Weapon Mastery (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 20th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">Choose one weapon, such as the <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-weapon/greataxe">greataxe</Link>, or <Link to="/eq-weapon/longbow">longbow</Link>. Any attacks made with that weapon automatically confirm all critical threats and have their damage multiplier increased by 1 (&times;2 becomes &times;3, for example). In addition, you cannot be disarmed while wielding a weapon of this type.</div></div></div></div>
+</aside><Ability id="class-fighter-armor-mastery-ex" icon={["armor-upgrade"]}>
+<Pair single id="class-fighter-armor-mastery-ex">Armor Mastery (Ex)</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Passive Ability">You gain DR 5/- whenever you are wearing armor or using a shield.</Pair>
+</Ability>
+<Ability id="class-fighter-weapon-mastery-ex" icon={["upgrade"]}>
+<Pair single id="class-fighter-weapon-mastery-ex">Weapon Mastery (Ex)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">Choose one weapon, such as the <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-weapon/greataxe">greataxe</Link>, or <Link to="/eq-weapon/longbow">longbow</Link>. Any attacks made with that weapon automatically confirm all critical threats and have their damage multiplier increased by 1 (&times;2 becomes &times;3, for example). In addition, you cannot be disarmed while wielding a weapon of this type.</Pair>
+</Ability>
 <h3 id="class-fighter-alternate-capstones" data-hash-target>Alternate Capstones</h3>
 <p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 28</Link><br/>When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides <Link to="/ability/capstones">new capstones</Link> for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with. A character that gains certain abilities may be eligible for capstones other than those listed below.</p>
 <div className="capstones"><ScrollContainer id="class-fighter--table-1"><table><thead><tr><th scope="col">Capstone</th><th scope="col">Benefit</th></tr></thead>
@@ -977,109 +983,129 @@ const _hunter = {hasJL:true,title: "Hunter", jsx: <><div className="jumpList" id
 <Pair title="Usage">To learn or cast a spell, you must have a Wisdom score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Wisdom score.</Pair>
 <Pair title="Ability">You gain the ability to cast divine spells which are drawn from the <Link to="/main/spells_hunter">hunter spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. Your alignment may restrict you from casting certain spells opposed to your moral or ethical beliefs; see <em>Chaotic, Evil, Good, and Lawful Spells.</em> You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>A hunter's selection of spells is extremely limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new hunter level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Wisdom score.</p>
 <p>In addition to the spells gained by hunters as they gain levels, you also add all <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spells to your list of spells known. These spells are added as soon as you are capable of casting them.</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level. You cannot swap any <em>summon nature's ally</em> spells.</p></Pair></Ability><div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-orisons" data-hash-target><div className="box">Orisons</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You learn a number of orisons, or 0-level divine spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Orisons cast using other spell slots, such as those due to metamagic feats, consume slots normally.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-chaotic-evil-good-and-lawful-spells" data-hash-target><div className="box">Chaotic, Evil, Good, and Lawful Spells</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-animal-companion-ex" data-hash-target><div className="box">Animal Companion (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box"><p>You form a bond with an <Link to="/sidekick/animal_companion">animal companion</Link>. You may begin play with <Link to="/ability/druid_companions">any of the animals available to a druid</Link>. This animal is a loyal companion that accompanies you on your adventures. This ability functions like the druid <em>animal companion</em> ability. Your effective druid level is equal to your hunter level. If you receive an animal companion from more than one source, your effective druid levels stack for the purposes of determining the companion's statistics and abilities.</p>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level. You cannot swap any <em>summon nature's ally</em> spells.</p></Pair></Ability><Ability id="class-hunter-orisons" icon={["magic-swirl"]}>
+<Pair single id="class-hunter-orisons">Orisons</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">You learn a number of orisons, or 0-level divine spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Orisons cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
+</Ability>
+<Ability id="class-hunter-chaotic-evil-good-and-lawful-spells" icon={["magic-swirl"]}>
+<Pair single id="class-hunter-chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
+<Pair title="Passive Ability">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</Pair>
+</Ability>
+<Ability id="class-hunter-animal-companion-ex" icon={["stairs-goal"]}>
+<Pair single id="class-hunter-animal-companion-ex">Animal Companion (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability"><p>You form a bond with an <Link to="/sidekick/animal_companion">animal companion</Link>. You may begin play with <Link to="/ability/druid_companions">any of the animals available to a druid</Link>. This animal is a loyal companion that accompanies you on your adventures. This ability functions like the druid <em>animal companion</em> ability. Your effective druid level is equal to your hunter level. If you receive an animal companion from more than one source, your effective druid levels stack for the purposes of determining the companion's statistics and abilities.</p>
 <p>If you release your companion from service or your animal companion perishes, you may gain a new one by performing a ceremony requiring 24 uninterrupted hours of prayer in the environment where the new companion typically lives. While your animal companion is dead, any animal you summon with a <em>summon nature's ally</em> spell remains for 1 minute per level instead of 1 round per level. You cannot have more than one <em>summon nature's ally</em> spell active in this way at one time. If this ability is used again, any existing <em>summon nature's ally</em> immediately ends.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">You may teach your companion hunter's tricks from the <Link to="/arc-ranger/skirmisher">skirmisher</Link> ranger archetype instead of standard <Link to="/ability/animal_tricks">animal tricks</Link>. The animal companion can use skirmisher tricks when commanded, a number of times per day equal to <Link to="/misc/half">half</Link> its Hit Dice plus its Wisdom modifier.</div></div></div></div>
+</Pair>
+<Pair title="Special">You may teach your companion hunter's tricks from the <Link to="/arc-ranger/skirmisher">skirmisher</Link> ranger archetype instead of standard <Link to="/ability/animal_tricks">animal tricks</Link>. The animal companion can use skirmisher tricks when commanded, a number of times per day equal to <Link to="/misc/half">half</Link> its Hit Dice plus its Wisdom modifier.</Pair>
+</Ability>
 <aside><p>An animal companion can also be taught special <Link to="/ability/companion_tricks">animal companion tricks</Link>, though they may need specific characteristics to learn them.</p>
-</aside><div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-nature-training-ex" data-hash-target><div className="box">Nature Training (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You count your total hunter level as both druid levels and ranger levels for the purpose of qualifying for feats, traits, and options that modify or improve an animal companion.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-animal-focus-su" data-hash-target><div className="box">Animal Focus (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 minute/day per hunter level; these minutes need not be consecutive, but they must be spent in 1-minute increments</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box"><p>You can take on the <Link to="/ability/animal_foci">aspect of an animal</Link>. You must select one type of animal to emulate, gaining a bonus or special ability based on the type of animal emulated and your hunter level. You can emulate only one animal at a time.</p>
+</aside><Ability id="class-hunter-nature-training-ex" icon={["upgrade"]}>
+<Pair single id="class-hunter-nature-training-ex">Nature Training (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">You count your total hunter level as both druid levels and ranger levels for the purpose of qualifying for feats, traits, and options that modify or improve an animal companion.</Pair>
+</Ability>
+<Ability id="class-hunter-animal-focus-su" icon={["upgrade"]}>
+<Pair single id="class-hunter-animal-focus-su">Animal Focus (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">1 minute/day per hunter level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Swift Action"><p>You can take on the <Link to="/ability/animal_foci">aspect of an animal</Link>. You must select one type of animal to emulate, gaining a bonus or special ability based on the type of animal emulated and your hunter level. You can emulate only one animal at a time.</p>
 <p>You can also apply one of these aspects to your animal companion. Unlike with you, there is no duration on the animal aspect applied to your animal companion. An aspect applied in this way does not count against your minutes of duration per day - it remains in effect until you change it. The companion's aspect can be the same aspect you have taken on or a different one. You can select or change the animal foci on both you and your animal companion as part of the same swift action.</p>
 <p>If your animal companion is dead, you can apply your companion's animal focus to yourself instead of your animal companion. This is in addition to the normal one you can choose, and (as with a companion's focus) remains in effect until you change it instead of counting against your minutes per day.</p>
-</div></div></div></div>
+</Pair>
+</Ability>
 <aside><p>Characters with the <em>animal focus</em> feature can also gain <Link to="/ability/ward_aspects">ward aspects</Link> if they desire.</p>
-</aside><div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-wild-empathy-ex" data-hash-target><div className="box">Wild Empathy (Ex)</div><div className="flavor">A hunter can improve the attitude of an animal.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">This ability functions just like a <Link to="/skill/diplomacy">Diplomacy</Link> check made to improve the attitude of a person. You roll 1d20 and add your hunter level and your Charisma modifier to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly. You can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but you take a -4 penalty on the check.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">To use wild empathy, you and the animal must be within 30 feet of one another under normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with influencing people, it might take more or less time.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-precise-companion-ex" data-hash-target><div className="box">Precise Companion (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">Choose either <Link to="/feat/precise_shot">Precise Shot</Link> or <Link to="/feat/outflank">Outflank</Link> as a bonus feat. You do not need to meet the prerequisites for this feat. If you choose Outflank, you automatically grant this feat to your animal companion as well.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-track-ex" data-hash-target><div className="box">Track (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">Add 1/2 your level to Survival skill checks made to follow tracks.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-teamwork-feat" data-hash-target><div className="box">Teamwork Feat</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You gain a bonus <Link to="/main/teamwork_feat">teamwork feat</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">You can choose to learn a new bonus teamwork feat in place of the most recent bonus teamwork feat you already learned. In effect, you lose the bonus feat in exchange for the new one. You can change only the most recent teamwork feat gained. Whenever you gain a new teamwork feat, your previous teamwork feats become permanent.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">Wis modifier times/day (minimum 1)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">You gain a new bonus teamwork feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">You gain a new bonus teamwork feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">You gain a new bonus teamwork feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">You gain a new bonus teamwork feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">You gain a new bonus teamwork feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">You must meet the prerequisites of any teamwork feat you select.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-hunter-tactics-ex" data-hash-target><div className="box">Hunter Tactics (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You automatically grant your teamwork feats to your animal companion. The companion doesn't need to meet the prerequisites of these teamwork feats.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-improved-empathic-link-su" data-hash-target><div className="box">Improved Empathic Link (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You gain an empathic link with your animal companion. This functions like an empathic link with a <Link to="/sidekick/familiar">familiar</Link>, except you can also see through a companion's eyes as a <strong className="hl">swift action</strong>, maintaining this connection as long as you like (as long as the companion is within 1 mile) and ending it as a <strong className="hl">free action</strong>. You are <Link to="/misc/blinded">blinded</Link> while maintaining this connection.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-woodland-stride-ex" data-hash-target><div className="box">Woodland Stride (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You and your animal companion may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion will still affect you both.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-bonus-tricks-ex" data-hash-target><div className="box">Bonus Tricks (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 7th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">Your animal companion learns a bonus <Link to="/ability/tricks">trick</Link> (in addition to the bonus tricks gained from your effective druid level).</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">Your companion gains another trick.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">Your companion gains another trick.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-second-animal-focus-su" data-hash-target><div className="box">Second Animal Focus (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 8th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">Whenever you use your <em>animal focus</em> ability, you select two different animal aspects for yourself instead of one, and can assign two aspects to your companion instead of one. As with your companion's previous aspect, the second one does not count against the minutes per day you can take on an aspect.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">If your companion is dead and you've applied the companion's animal aspect to yourself, that aspect does not count toward your maximum of two aspects at once. You can still apply only one of the dead companion's aspects, not both.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-swift-tracker-ex" data-hash-target><div className="box">Swift Tracker (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 8th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You can move at your normal speed while using Survival to follow tracks without taking the normal -5 penalty. You take only a -10 penalty (instead of the normal -20) when moving at up to twice normal speed while tracking.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-raise-animal-companion-sp" data-hash-target><div className="box">Raise Animal Companion (Sp)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 10th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You gain <Link to="/spell/raise_animal_companion">raise animal companion</Link> as a spell-like ability; this is not restricted to raising only your own animal companion. Using this spell-like ability gives you a permanent <Link to="/rule/negative_level">negative level</Link>, which cannot be overcome in any way (including by <Link to="/spell/restoration">restoration</Link>), but automatically ends after 24 hours.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">This functions as <Link to="/spell/resurrection">resurrection</Link> instead of <Link to="/spell/raise_dead">raise dead</Link>, but otherwise operates as normal.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-speak-with-master-ex" data-hash-target><div className="box">Speak with Master (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 11th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You and your animal companion can communicate verbally, as if using a common language. Other creatures cannot understand the communication without magical aid.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-greater-empathic-link-su" data-hash-target><div className="box">Greater Empathic Link (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 14th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The range of your <em>empathic link</em> with your animal companion increases to 10 miles. If the animal companion is within 1 mile, you can communicate with it telepathically.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-one-with-the-wild-ex" data-hash-target><div className="box">One with the Wild (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 17th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You and your animal companion are respected or even feared by other animals, so long as the animals are approximately of the same type as any of your current animal foci: bat for bats, tiger with felines, falcon for birds, snake for reptiles, and so on. No animal in this category (including dire varieties) willingly attacks you or your companion unless magically compelled to or if either of you attack it first.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">You and your companion can attempt to demoralize animals in the appropriate category, rolling 1d20 and adding your level and your Charisma modifier to determine the <Link to="/skill/intimidate">Intimidate</Link> check result.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-hunter-master-hunter-ex" data-hash-target><div className="box">Master Hunter (Ex)</div><div className="flavor">You become a master hunter, able to track down foes with ease.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 20th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You can always move at full speed while using Survival to follow tracks without penalty. Additionally, each day when you regain your spell slots, you choose one <em>animal focus</em> to be active on yourself for the entire day. This focus is in addition to using your <em>animal focus</em> class ability (including the additional focus ability you are able to use on yourself if your animal companion is dead).</div></div></div></div>
+</aside><Ability id="class-hunter-wild-empathy-ex" icon={["upgrade"]}>
+<Pair single id="class-hunter-wild-empathy-ex" flavor="A hunter can improve the attitude of an animal.">Wild Empathy (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">This ability functions just like a <Link to="/skill/diplomacy">Diplomacy</Link> check made to improve the attitude of a person. You roll 1d20 and add your hunter level and your Charisma modifier to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly. You can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but you take a -4 penalty on the check.</Pair>
+<Pair title="Special">To use wild empathy, you and the animal must be within 30 feet of one another under normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with influencing people, it might take more or less time.</Pair>
+</Ability>
+<Ability id="class-hunter-precise-companion-ex" icon={["stairs-goal"]}>
+<Pair single id="class-hunter-precise-companion-ex">Precise Companion (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">Choose either <Link to="/feat/precise_shot">Precise Shot</Link> or <Link to="/feat/outflank">Outflank</Link> as a bonus feat. You do not need to meet the prerequisites for this feat. If you choose Outflank, you automatically grant this feat to your animal companion as well.</Pair>
+</Ability>
+<Ability id="class-hunter-track-ex" icon={["upgrade"]}>
+<Pair single id="class-hunter-track-ex">Track (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">Add 1/2 your level to Survival skill checks made to follow tracks.</Pair>
+</Ability>
+<Ability id="class-hunter-teamwork-feat" icon={["stairs-goal"]}>
+<Pair single id="class-hunter-teamwork-feat">Teamwork Feat</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">You gain a bonus <Link to="/main/teamwork_feat">teamwork feat</Link>.</Pair>
+<Pair title="Standard Action">You can choose to learn a new bonus teamwork feat in place of the most recent bonus teamwork feat you already learned. In effect, you lose the bonus feat in exchange for the new one. You can change only the most recent teamwork feat gained. Whenever you gain a new teamwork feat, your previous teamwork feats become permanent.</Pair>
+<Pair title="Usage">Wis modifier times/day (minimum 1)</Pair>
+<Pair title="At 6th Level">You gain a new bonus teamwork feat.</Pair>
+<Pair title="At 9th Level">You gain a new bonus teamwork feat.</Pair>
+<Pair title="At 12th Level">You gain a new bonus teamwork feat.</Pair>
+<Pair title="At 15th Level">You gain a new bonus teamwork feat.</Pair>
+<Pair title="At 18th Level">You gain a new bonus teamwork feat.</Pair>
+<Pair title="Special">You must meet the prerequisites of any teamwork feat you select.</Pair>
+</Ability>
+<Ability id="class-hunter-hunter-tactics-ex" icon={["stairs-goal"]}>
+<Pair single id="class-hunter-hunter-tactics-ex">Hunter Tactics (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You automatically grant your teamwork feats to your animal companion. The companion doesn't need to meet the prerequisites of these teamwork feats.</Pair>
+</Ability>
+<Ability id="class-hunter-improved-empathic-link-su" icon={["stairs-goal"]}>
+<Pair single id="class-hunter-improved-empathic-link-su">Improved Empathic Link (Su)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">You gain an empathic link with your animal companion. This functions like an empathic link with a <Link to="/sidekick/familiar">familiar</Link>, except you can also see through a companion's eyes as a <strong className="hl">swift action</strong>, maintaining this connection as long as you like (as long as the companion is within 1 mile) and ending it as a <strong className="hl">free action</strong>. You are <Link to="/misc/blinded">blinded</Link> while maintaining this connection.</Pair>
+</Ability>
+<Ability id="class-hunter-woodland-stride-ex" icon={["upgrade"]}>
+<Pair single id="class-hunter-woodland-stride-ex">Woodland Stride (Ex)</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Passive Ability">You and your animal companion may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment.</Pair>
+<Pair title="Special">Thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion will still affect you both.</Pair>
+</Ability>
+<Ability id="class-hunter-bonus-tricks-ex" icon={["stairs-goal"]}>
+<Pair single id="class-hunter-bonus-tricks-ex">Bonus Tricks (Ex)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">Your animal companion learns a bonus <Link to="/ability/tricks">trick</Link> (in addition to the bonus tricks gained from your effective druid level).</Pair>
+<Pair title="At 13th Level">Your companion gains another trick.</Pair>
+<Pair title="At 19th Level">Your companion gains another trick.</Pair>
+</Ability>
+<Ability id="class-hunter-second-animal-focus-su" icon={["upgrade"]}>
+<Pair single id="class-hunter-second-animal-focus-su">Second Animal Focus (Su)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Whenever you use your <em>animal focus</em> ability, you select two different animal aspects for yourself instead of one, and can assign two aspects to your companion instead of one. As with your companion's previous aspect, the second one does not count against the minutes per day you can take on an aspect.</Pair>
+<Pair title="Special">If your companion is dead and you've applied the companion's animal aspect to yourself, that aspect does not count toward your maximum of two aspects at once. You can still apply only one of the dead companion's aspects, not both.</Pair>
+</Ability>
+<Ability id="class-hunter-swift-tracker-ex" icon={["upgrade"]}>
+<Pair single id="class-hunter-swift-tracker-ex">Swift Tracker (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">You can move at your normal speed while using Survival to follow tracks without taking the normal -5 penalty. You take only a -10 penalty (instead of the normal -20) when moving at up to twice normal speed while tracking.</Pair>
+</Ability>
+<Ability id="class-hunter-raise-animal-companion-sp" icon={["magic-swirl"]}>
+<Pair single id="class-hunter-raise-animal-companion-sp">Raise Animal Companion (Sp)</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">You gain <Link to="/spell/raise_animal_companion">raise animal companion</Link> as a spell-like ability; this is not restricted to raising only your own animal companion. Using this spell-like ability gives you a permanent <Link to="/rule/negative_level">negative level</Link>, which cannot be overcome in any way (including by <Link to="/spell/restoration">restoration</Link>), but automatically ends after 24 hours.</Pair>
+<Pair title="At 16th Level">This functions as <Link to="/spell/resurrection">resurrection</Link> instead of <Link to="/spell/raise_dead">raise dead</Link>, but otherwise operates as normal.</Pair>
+</Ability>
+<Ability id="class-hunter-speak-with-master-ex" icon={["stairs-goal"]}>
+<Pair single id="class-hunter-speak-with-master-ex">Speak with Master (Ex)</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">You and your animal companion can communicate verbally, as if using a common language. Other creatures cannot understand the communication without magical aid.</Pair>
+</Ability>
+<Ability id="class-hunter-greater-empathic-link-su" icon={["upgrade"]}>
+<Pair single id="class-hunter-greater-empathic-link-su">Greater Empathic Link (Su)</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Ability">The range of your <em>empathic link</em> with your animal companion increases to 10 miles. If the animal companion is within 1 mile, you can communicate with it telepathically.</Pair>
+</Ability>
+<Ability id="class-hunter-one-with-the-wild-ex" icon={["armor-upgrade","stairs-goal"]}>
+<Pair single id="class-hunter-one-with-the-wild-ex">One with the Wild (Ex)</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Passive Ability">You and your animal companion are respected or even feared by other animals, so long as the animals are approximately of the same type as any of your current animal foci: bat for bats, tiger with felines, falcon for birds, snake for reptiles, and so on. No animal in this category (including dire varieties) willingly attacks you or your companion unless magically compelled to or if either of you attack it first.</Pair>
+<Pair title="Swift Action">You and your companion can attempt to demoralize animals in the appropriate category, rolling 1d20 and adding your level and your Charisma modifier to determine the <Link to="/skill/intimidate">Intimidate</Link> check result.</Pair>
+</Ability>
+<Ability id="class-hunter-master-hunter-ex" icon={["upgrade"]}>
+<Pair single id="class-hunter-master-hunter-ex" flavor="You become a master hunter, able to track down foes with ease.">Master Hunter (Ex)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">You can always move at full speed while using Survival to follow tracks without penalty. Additionally, each day when you regain your spell slots, you choose one <em>animal focus</em> to be active on yourself for the entire day. This focus is in addition to using your <em>animal focus</em> class ability (including the additional focus ability you are able to use on yourself if your animal companion is dead).</Pair>
+</Ability>
 <h3 id="class-hunter-alternate-capstones" data-hash-target>Alternate Capstones</h3>
 <p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 28</Link><br/>When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides <Link to="/ability/capstones">new capstones</Link> for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with. A character that gains certain abilities may be eligible for capstones other than those listed below.</p>
 <div className="capstones"><ScrollContainer id="class-hunter--table-2"><table><thead><tr><th scope="col">Capstone</th><th scope="col">Benefit</th></tr></thead>
@@ -1705,118 +1731,138 @@ const _inquisitor = {hasJL:true,title: "Inquisitor", jsx: <><div className="jump
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Wisdom score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Wisdom score.</Pair>
 <Pair title="Ability">You gain the ability to cast divine spells which are drawn from the <Link to="/main/spells_inquisitor">inquisitor spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. Your alignment may restrict you from casting certain spells opposed to your moral or ethical beliefs; see <em>Chaotic, Evil, Good, and Lawful Spells.</em> You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>An inquisitor's selection of spells is extremely limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new inquisitor level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Wisdom score.</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level inquisitor spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-orisons" data-hash-target><div className="box">Orisons</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You learn a number of orisons, or 0-level divine spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Orisons cast using other spell slots, such as those due to metamagic feats, consume slots normally.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-chaotic-evil-good-and-lawful-spells" data-hash-target><div className="box">Chaotic, Evil, Good, and Lawful Spells</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-domain" data-hash-target><div className="box">Domain</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box"><p>You can select <Link to="/ability/domains">one domain</Link> from among those belonging to your deity, or <Link to="/ability/inquisitions">an inquisition</Link>. You can select an alignment domain only if your alignment matches that domain.</p>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level inquisitor spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="class-inquisitor-orisons" icon={["magic-swirl"]}>
+<Pair single id="class-inquisitor-orisons">Orisons</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">You learn a number of orisons, or 0-level divine spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Orisons cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
+</Ability>
+<Ability id="class-inquisitor-chaotic-evil-good-and-lawful-spells" icon={["magic-swirl"]}>
+<Pair single id="class-inquisitor-chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
+<Pair title="Passive Ability">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</Pair>
+</Ability>
+<Ability id="class-inquisitor-domain" icon={["stairs-goal"]}>
+<Pair single id="class-inquisitor-domain">Domain</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability"><p>You can select <Link to="/ability/domains">one domain</Link> from among those belonging to your deity, or <Link to="/ability/inquisitions">an inquisition</Link>. You can select an alignment domain only if your alignment matches that domain.</p>
 <p>Like a cleric's deity, your deity influences your alignment, what magic you can perform, and your values. Although not as tied to the tenets of the deity as a cleric, you must still hold such guidelines in high regard, despite that fact you can go against them if it serves the greater good of the faith.</p>
 <p>Each domain grants a number of domain powers, depending on your level. You do not gain the bonus spells listed for each domain, nor do you gain bonus spell slots. You use your level as your effective cleric level when determining the power and effect of your domain powers. If you have cleric levels, one of your two domain selections must be the same domain selected as an inquisitor. Levels of cleric and inquisitor stack for the purpose of determining domain powers and abilities, but not for bonus spells.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">With the GM's approval, you can be devoted to an ideal instead of a deity, selecting one domain to represent your personal inclination and abilities. The restriction on alignment domains still applies.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-judgment-su" data-hash-target><div className="box">Judgment (Su)</div><div className="flavor">You can pronounce <Link to="/ability/judgments">judgment</Link> upon your foes.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">Once a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box"><p>Starting when the judgment is made, you receive a bonus or special ability based on the type of judgment made.</p>
+</Pair>
+<Pair title="Special">With the GM's approval, you can be devoted to an ideal instead of a deity, selecting one domain to represent your personal inclination and abilities. The restriction on alignment domains still applies.</Pair>
+</Ability>
+<Ability id="class-inquisitor-judgment-su" icon={["stairs-goal"]}>
+<Pair single id="class-inquisitor-judgment-su" flavor={["You can pronounce ",{"tag":"Link","content":"judgment","props":{"to":"/ability/judgments"}}," upon your foes."]}>Judgment (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">Once a day.</Pair>
+<Pair title="Swift Action"><p>Starting when the judgment is made, you receive a bonus or special ability based on the type of judgment made.</p>
 <p>Once activated, this ability lasts until the combat ends, at which point all of the bonuses immediately end. You must participate in the combat to gain these bonuses. If you are frightened, panicked, paralyzed, stunned, unconscious, or otherwise prevented from participating in the combat, the ability does not end, but the bonuses do not resume until you can participate in the combat again.</p>
 <p>When you use this ability, you must select <Link to="/ability/judgments">one type of judgment</Link> to make. As a <strong className="hl">swift action</strong>, you can change this judgment to another type. If you are evil, you receive profane bonuses instead of sacred, as appropriate. Neutral inquisitors must select profane or sacred bonuses. Once made, this choice cannot be changed.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">You can now use this ability twice a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">You can use this three times a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">You can use this four times a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">You can use this five times a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">You can use this six times a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">You can use this seven times a day.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-monster-lore-ex" data-hash-target><div className="box">Monster Lore (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You add your Wisdom modifier on <Link to="/skill/knowledge">Knowledge</Link> skill checks (in addition to your Intelligence modifier) when making skill checks to identify the abilities and weaknesses of creatures.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-stern-gaze-ex" data-hash-target><div className="box">Stern Gaze (Ex)</div><div className="flavor">Inquisitors are skilled at sensing deception and intimidating their foes.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You receive a morale bonus on all Intimidate and Sense Motive checks equal to <Link to="/misc/half">half</Link> your inquisitor level (minimum +1).</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-cunning-initiative-ex" data-hash-target><div className="box">Cunning Initiative (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You add your Wisdom modifier on initiative checks (in addition to your Dexterity modifier).</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-detect-alignment-sp" data-hash-target><div className="box">Detect Alignment (Sp)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">At will</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You can use <Link to="/spell/detect_chaos">detect chaos</Link>, <Link to="/spell/detect_evil">detect evil</Link>, <Link to="/spell/detect_good">detect good</Link>, or <Link to="/spell/detect_law">detect law</Link>. You can only use one of these at any given time.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-track-ex" data-hash-target><div className="box">Track (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You add half your inquisitor level on Survival skill checks made to follow or identify tracks.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-teamwork-feat" data-hash-target><div className="box">Teamwork Feat</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You gain a bonus <Link to="/main/teamwork_feat">teamwork feat</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">You can choose to learn a new bonus teamwork feat in place of the most recent bonus teamwork feat you already learned. In effect, you lose the bonus feat in exchange for the new one. You can change only the most recent teamwork feat gained. Whenever you gain a new teamwork feat, your previous teamwork feats become permanent.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">Wis modifier times/day (minimum 1)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">You gain a new bonus teamwork feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">You gain a new bonus teamwork feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">You gain a new bonus teamwork feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">You gain a new bonus teamwork feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">You gain a new bonus teamwork feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">You must meet the prerequisites of any teamwork feat you select.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-solo-tactics-ex" data-hash-target><div className="box">Solo Tactics (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">All of your allies are treated as if they possessed the same teamwork feats as you for the purpose of determining whether you receives a bonus from your teamwork feats.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Your allies do not receive any bonuses from these feats unless they actually possess the feats themselves. Their positioning and actions must still meet the prerequisites listed in the teamwork feat for you to receive the listed bonus.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-bane-su" data-hash-target><div className="box">Bane (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 round/day per inquisitor level; these rounds need not be consecutive</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">You can imbue one of your weapons with the <Link to="/magic-enh/bane">bane</Link> weapon special ability. You must select one creature type when you use this ability (and a subtype if the creature type selected is humanoid or outsider). Once selected, the type can be changed as another swift action.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">This ability only functions while you wield the weapon. If dropped or taken, the weapon resumes granting this ability if it is returned to you before the duration expires.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-discern-lies-sp" data-hash-target><div className="box">Discern Lies (Sp)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 round/day per inquisitor level; these rounds need not be consecutive</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Immediate Action</div></div><div className="abEnd"><div className="box">You can <Link to="/spell/discern_lies">discern lies</Link>, as per the spell.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-second-judgment-ex" data-hash-target><div className="box">Second Judgment (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 8th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">Whenever you use your <em>judgment</em> ability, you select two different judgments, instead of one. This only consumes one use of your <em>judgment</em> ability.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">You can change one of these judgments to another type.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-stalwart-ex" data-hash-target><div className="box">Stalwart (Ex)</div><div className="flavor">An inquisitor can use mental and physical resiliency to avoid certain attacks.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 11th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">Only when wearing light armor, medium armor, or no armor, and not <Link to="/misc/helpless">helpless</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">If you make a Fortitude or Will saving throw against an attack that has a reduced effect on a successful save, you instead avoid the effect entirely.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-greater-bane-su" data-hash-target><div className="box">Greater Bane (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 12th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">When you use your bane ability, the amount of bonus damage dealt by the weapon against creatures of the selected type increases to 4d6.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-downgrade"><IonIcon icon="/icons/armor-downgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-exploit-weakness-ex" data-hash-target><div className="box">Exploit Weakness (Ex)</div><div className="flavor">The inquisitor learns to take advantage of any opportunity that presents itself.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 14th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">When you score a critical hit, you ignores any <Link to="/rule/damage_reduction">damage reduction</Link> the target might have. In addition, if the target has <Link to="/umr/regeneration">regeneration</Link>, the creature loses regeneration on the round following the critical hit and can die normally during that round. Creatures whose regeneration always functions are immune to this ability. Finally, if you deal energy damage to a creature with vulnerability to that energy type, you deal +1 point of damage per die rolled.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-third-judgment-ex" data-hash-target><div className="box">Third Judgment (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 16th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">Whenever you use your <em>judgment</em> ability, you select three different judgments, instead of just two. This only consumes one use of your <em>judgment</em> ability.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">You can change one of these judgments to another type.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-slayer-ex" data-hash-target><div className="box">Slayer (Ex)</div><div className="flavor">An inquisitor learns to focus her judgment.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 17th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">When you use your <em>judgment</em> ability, you must select one type of judgment. You are treated as if you were 5 levels higher for the purposes of determining the bonus granted by the judgment.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Unlike other types of judgment, the one enhanced by this ability cannot be changed for the remainder of the judgment.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-inquisitor-true-judgment-su" data-hash-target><div className="box">True Judgment (Su)</div><div className="flavor">An inquisitor can call true judgment down upon a foe during combat.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 20th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">Whenever you use your <em>judgment</em> ability, you can invoke <em>true judgment</em> on a foe. Once declared, you can make a single melee (or ranged attack, if the foe is within 30 feet) against the target. If the attack hits, it deals damage normally and the target must make a Fortitude save or die. The DC of this save is equal to 10 + 1/2 your inquisitor level + your Wisdom modifier.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">Once this ability has been used, it cannot be used again for 1d4 rounds.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Regardless of whether or not the save is made, the target creature is immune to your <em>true judgment</em> ability for 24 hours.</div></div></div></div>
+</Pair>
+<Pair title="At 4th Level">You can now use this ability twice a day.</Pair>
+<Pair title="At 7th Level">You can use this three times a day.</Pair>
+<Pair title="At 10th Level">You can use this four times a day.</Pair>
+<Pair title="At 13th Level">You can use this five times a day.</Pair>
+<Pair title="At 16th Level">You can use this six times a day.</Pair>
+<Pair title="At 19th Level">You can use this seven times a day.</Pair>
+</Ability>
+<Ability id="class-inquisitor-monster-lore-ex" icon={["upgrade"]}>
+<Pair single id="class-inquisitor-monster-lore-ex">Monster Lore (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">You add your Wisdom modifier on <Link to="/skill/knowledge">Knowledge</Link> skill checks (in addition to your Intelligence modifier) when making skill checks to identify the abilities and weaknesses of creatures.</Pair>
+</Ability>
+<Ability id="class-inquisitor-stern-gaze-ex" icon={["upgrade"]}>
+<Pair single id="class-inquisitor-stern-gaze-ex" flavor="Inquisitors are skilled at sensing deception and intimidating their foes.">Stern Gaze (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">You receive a morale bonus on all Intimidate and Sense Motive checks equal to <Link to="/misc/half">half</Link> your inquisitor level (minimum +1).</Pair>
+</Ability>
+<Ability id="class-inquisitor-cunning-initiative-ex" icon={["upgrade"]}>
+<Pair single id="class-inquisitor-cunning-initiative-ex">Cunning Initiative (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">You add your Wisdom modifier on initiative checks (in addition to your Dexterity modifier).</Pair>
+</Ability>
+<Ability id="class-inquisitor-detect-alignment-sp" icon={["stairs-goal"]}>
+<Pair single id="class-inquisitor-detect-alignment-sp">Detect Alignment (Sp)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Usage">At will</Pair>
+<Pair title="Ability">You can use <Link to="/spell/detect_chaos">detect chaos</Link>, <Link to="/spell/detect_evil">detect evil</Link>, <Link to="/spell/detect_good">detect good</Link>, or <Link to="/spell/detect_law">detect law</Link>. You can only use one of these at any given time.</Pair>
+</Ability>
+<Ability id="class-inquisitor-track-ex" icon={["upgrade"]}>
+<Pair single id="class-inquisitor-track-ex">Track (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">You add half your inquisitor level on Survival skill checks made to follow or identify tracks.</Pair>
+</Ability>
+<Ability id="class-inquisitor-teamwork-feat" icon={["stairs-goal"]}>
+<Pair single id="class-inquisitor-teamwork-feat">Teamwork Feat</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">You gain a bonus <Link to="/main/teamwork_feat">teamwork feat</Link>.</Pair>
+<Pair title="Standard Action">You can choose to learn a new bonus teamwork feat in place of the most recent bonus teamwork feat you already learned. In effect, you lose the bonus feat in exchange for the new one. You can change only the most recent teamwork feat gained. Whenever you gain a new teamwork feat, your previous teamwork feats become permanent.</Pair>
+<Pair title="Usage">Wis modifier times/day (minimum 1)</Pair>
+<Pair title="At 6th Level">You gain a new bonus teamwork feat.</Pair>
+<Pair title="At 9th Level">You gain a new bonus teamwork feat.</Pair>
+<Pair title="At 12th Level">You gain a new bonus teamwork feat.</Pair>
+<Pair title="At 15th Level">You gain a new bonus teamwork feat.</Pair>
+<Pair title="At 18th Level">You gain a new bonus teamwork feat.</Pair>
+<Pair title="Special">You must meet the prerequisites of any teamwork feat you select.</Pair>
+</Ability>
+<Ability id="class-inquisitor-solo-tactics-ex" icon={["upgrade"]}>
+<Pair single id="class-inquisitor-solo-tactics-ex">Solo Tactics (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">All of your allies are treated as if they possessed the same teamwork feats as you for the purpose of determining whether you receives a bonus from your teamwork feats.</Pair>
+<Pair title="Special">Your allies do not receive any bonuses from these feats unless they actually possess the feats themselves. Their positioning and actions must still meet the prerequisites listed in the teamwork feat for you to receive the listed bonus.</Pair>
+</Ability>
+<Ability id="class-inquisitor-bane-su" icon={["upgrade"]}>
+<Pair single id="class-inquisitor-bane-su">Bane (Su)</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Usage">1 round/day per inquisitor level; these rounds need not be consecutive</Pair>
+<Pair title="Swift Action">You can imbue one of your weapons with the <Link to="/magic-enh/bane">bane</Link> weapon special ability. You must select one creature type when you use this ability (and a subtype if the creature type selected is humanoid or outsider). Once selected, the type can be changed as another swift action.</Pair>
+<Pair title="Special">This ability only functions while you wield the weapon. If dropped or taken, the weapon resumes granting this ability if it is returned to you before the duration expires.</Pair>
+</Ability>
+<Ability id="class-inquisitor-discern-lies-sp" icon={["stairs-goal"]}>
+<Pair single id="class-inquisitor-discern-lies-sp">Discern Lies (Sp)</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Usage">1 round/day per inquisitor level; these rounds need not be consecutive</Pair>
+<Pair title="Immediate Action">You can <Link to="/spell/discern_lies">discern lies</Link>, as per the spell.</Pair>
+</Ability>
+<Ability id="class-inquisitor-second-judgment-ex" icon={["upgrade"]}>
+<Pair single id="class-inquisitor-second-judgment-ex">Second Judgment (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Whenever you use your <em>judgment</em> ability, you select two different judgments, instead of one. This only consumes one use of your <em>judgment</em> ability.</Pair>
+<Pair title="Swift Action">You can change one of these judgments to another type.</Pair>
+</Ability>
+<Ability id="class-inquisitor-stalwart-ex" icon={["armor-upgrade"]}>
+<Pair single id="class-inquisitor-stalwart-ex" flavor="An inquisitor can use mental and physical resiliency to avoid certain attacks.">Stalwart (Ex)</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Usage">Only when wearing light armor, medium armor, or no armor, and not <Link to="/misc/helpless">helpless</Link>.</Pair>
+<Pair title="Passive Ability">If you make a Fortitude or Will saving throw against an attack that has a reduced effect on a successful save, you instead avoid the effect entirely.</Pair>
+</Ability>
+<Ability id="class-inquisitor-greater-bane-su" icon={["upgrade"]}>
+<Pair single id="class-inquisitor-greater-bane-su">Greater Bane (Su)</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Passive Ability">When you use your bane ability, the amount of bonus damage dealt by the weapon against creatures of the selected type increases to 4d6.</Pair>
+</Ability>
+<Ability id="class-inquisitor-exploit-weakness-ex" icon={["armor-downgrade"]}>
+<Pair single id="class-inquisitor-exploit-weakness-ex" flavor="The inquisitor learns to take advantage of any opportunity that presents itself.">Exploit Weakness (Ex)</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Passive Ability">When you score a critical hit, you ignores any <Link to="/rule/damage_reduction">damage reduction</Link> the target might have. In addition, if the target has <Link to="/umr/regeneration">regeneration</Link>, the creature loses regeneration on the round following the critical hit and can die normally during that round. Creatures whose regeneration always functions are immune to this ability. Finally, if you deal energy damage to a creature with vulnerability to that energy type, you deal +1 point of damage per die rolled.</Pair>
+</Ability>
+<Ability id="class-inquisitor-third-judgment-ex" icon={["upgrade"]}>
+<Pair single id="class-inquisitor-third-judgment-ex">Third Judgment (Ex)</Pair>
+<Pair title="Gained">At 16th Level</Pair>
+<Pair title="Ability">Whenever you use your <em>judgment</em> ability, you select three different judgments, instead of just two. This only consumes one use of your <em>judgment</em> ability.</Pair>
+<Pair title="Swift Action">You can change one of these judgments to another type.</Pair>
+</Ability>
+<Ability id="class-inquisitor-slayer-ex" icon={["upgrade"]}>
+<Pair single id="class-inquisitor-slayer-ex" flavor="An inquisitor learns to focus her judgment.">Slayer (Ex)</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Ability">When you use your <em>judgment</em> ability, you must select one type of judgment. You are treated as if you were 5 levels higher for the purposes of determining the bonus granted by the judgment.</Pair>
+<Pair title="Special">Unlike other types of judgment, the one enhanced by this ability cannot be changed for the remainder of the judgment.</Pair>
+</Ability>
+<Ability id="class-inquisitor-true-judgment-su" icon={["upgrade"]}>
+<Pair single id="class-inquisitor-true-judgment-su" flavor="An inquisitor can call true judgment down upon a foe during combat.">True Judgment (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Swift Action">Whenever you use your <em>judgment</em> ability, you can invoke <em>true judgment</em> on a foe. Once declared, you can make a single melee (or ranged attack, if the foe is within 30 feet) against the target. If the attack hits, it deals damage normally and the target must make a Fortitude save or die. The DC of this save is equal to 10 + 1/2 your inquisitor level + your Wisdom modifier.</Pair>
+<Pair title="Usage">Once this ability has been used, it cannot be used again for 1d4 rounds.</Pair>
+<Pair title="Special">Regardless of whether or not the save is made, the target creature is immune to your <em>true judgment</em> ability for 24 hours.</Pair>
+</Ability>
 <h3 id="class-inquisitor-ex-inquisitors" data-hash-target>Ex-Inquisitors</h3>
 <p>An inquisitor who slips into corruption or changes to a prohibited alignment loses all spells and the judgment ability. She cannot thereafter gain levels as an inquisitor until she <Link to="/spell/atonement">atones</Link>.<sup><InnerLink showBacklink="backlink-class-inquisitor-ref-Ex-1" id="class-inquisitor-ref-Ex-1" data-hash-target to="class-inquisitor-Ex">1</InnerLink></sup></p>
 <h3 id="class-inquisitor-alternate-capstones" data-hash-target>Alternate Capstones</h3>
@@ -2282,92 +2328,104 @@ const _investigator = {hasJL:true,title: "Investigator", jsx: <><div className="
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={4}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td><Link to="/eq-weapon/hand_crossbow">hand crossbow</Link></td><td><Link to="/eq-weapon/rapier">rapier</Link></td></tr><tr><td><Link to="/eq-weapon/sap">sap</Link></td><td><Link to="/eq-weapon/shortbow">shortbow</Link></td></tr><tr><td><Link to="/eq-weapon/short_sword">short sword</Link></td><td><Link to="/eq-weapon/sword_cane">sword cane</Link></td></tr><tr><th>Light Armor?</th><td colSpan={2}>Yes</td></tr><tr><th>Medium Armor?</th><td colSpan={2}>No</td></tr><tr><th>Heavy Armor?</th><td colSpan={2}>No</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-investigator-alchemy-su" data-hash-target><div className="box">Alchemy (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">When using Craft (alchemy) to create an alchemical item, you gain a competence bonus equal to your class level on the Craft (alchemy) check. In addition, you can use Craft (alchemy) to identify potions as if using <Link to="/spell/detect_magic">detect magic</Link>. You must hold the potion for 1 round to make such a check.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Extracts</div></div><div className="abEnd"><div className="box"><p>You can prepare an extract of any formula you know. To learn or use an extract, you must have an Intelligence score equal to at least 10 + the extract's level. The DC for a saving throw against your extract is 10 + the extract level + the your Intelligence modifier.</p>
+<Ability id="class-investigator-alchemy-su" icon={["upgrade","magic-swirl"]}>
+<Pair single id="class-investigator-alchemy-su">Alchemy (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">When using Craft (alchemy) to create an alchemical item, you gain a competence bonus equal to your class level on the Craft (alchemy) check. In addition, you can use Craft (alchemy) to identify potions as if using <Link to="/spell/detect_magic">detect magic</Link>. You must hold the potion for 1 round to make such a check.</Pair>
+<Pair title="Extracts"><p>You can prepare an extract of any formula you know. To learn or use an extract, you must have an Intelligence score equal to at least 10 + the extract's level. The DC for a saving throw against your extract is 10 + the extract level + the your Intelligence modifier.</p>
 <p>Like an alchemist, you prepare your spells by mixing ingredients and a tiny fraction of your own magical power into a number of extracts, and then effectively cast the spell by drinking the extract. These extracts have powerful effects, but they are also bound to their creator. Extracts behave like spells in potion form, and as such their effects can be dispelled by <Link to="/spell/dispel_magic">dispel magic</Link> and similar effects, using your level as the caster level.</p>
 <p>When you mix an extract, you infuse the chemicals and reagents in the extract with magic siphoned from your own magical aura. An extract immediately become inert if it leaves your possession, reactivating as soon as it returns to your keeping - you cannot normally pass out your extracts for allies to use. An extract, once created, remains potent for 1 day before losing its magic, so you must reprepare your extracts every day. Mixing an extract takes 1 minute of work.</p>
 <p>Creating extracts consumes raw material, but the cost of those materials is insignificant - comparable to the valueless material components of most spells. If a spell normally has a costly material component, that component is expended during the consumption of that particular extract. Extracts cannot be made from spells that have focus requirements; extracts that duplicate divine spells never have a divine focus requirement.</p>
 <p>You use formulae from the <Link to="/main/spells_investigator">investigator</Link> list to determine the extracts you can know. You may know any number of formulae. You store your formulae in a special tome called a formula book. You must refer to this book whenever you prepare an extract.</p>
 <p>At 1st level, you start with two 1st-level formulae of your choice, plus a number of additional formulae equal to your Intelligence modifier. At each new investigator level, you gain one new formula for any level that you can create. You can also add formulae to your book just like a wizard <Link to="/rule/adding_spells_to_a_wizards_spellbook">adds spells to his spellbook</Link>, using the same costs, pages, and time requirements. A formula book costs as much as a <Link to="/eq-misc/spellbook">spellbook</Link>. You can study a <Link to="/class/wizard">wizard's</Link> spellbook to learn any formula that is equivalent to a spell the spellbook contains. A wizard, however, cannot learn spells from a formula book. You can also learn formulae from another investigator's or an alchemist's formula book (and vice versa). You do not need to decipher arcane writing before copying that formulae.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">You can create only a certain number of extracts of each level per day. In addition, you receive <Link to="/rule/determine_bonuses">bonus extracts per day</Link> if you have a high Intelligence score, in the same way a wizard receives bonus spells per day.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-investigator-inspiration-ex" data-hash-target><div className="box">Inspiration (Ex)</div><div className="flavor">An investigator is beyond knowledgeable and skilled - he also possesses keen powers of observation and deduction that far surpass the abilities of others.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You have an inspiration pool equal to <Link to="/misc/half">half</Link> your level + your Intelligence modifier (minimum 1). Your inspiration pool refreshes each day, typically after you get a restful night's sleep.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Free Action</div></div><div className="abEnd"><div className="box">You can expend one use of inspiration from your pool to add 1d6 to the result of a check, including any on which you take 10 or 20. This choice is made after the check is rolled and before the results are revealed.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">You can only use inspiration once per check or roll.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">You can use inspiration on any Knowledge, Linguistics, or Spellcraft skill checks without expending a use of inspiration, if you're trained in the skill. Using inspiration on attack rolls and saving throws costs two uses of inspiration each time. In the case of saving throws, using inspiration is an <strong className="hl">immediate action</strong>.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-investigator-trapfinding" data-hash-target><div className="box">Trapfinding</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You add 1/2 your level to Perception skill checks made to locate traps and to Disable Device checks (minimum 1). You can use Disable Device to disarm magical traps.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-investigator-poison-lore-ex" data-hash-target><div className="box">Poison Lore (Ex)</div><div className="flavor">An investigator has a deep understanding and appreciation for poisons.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You cannot accidentally poison yourself when applying poison to a weapon.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">If you spend 1 minute physically examining the poison, you can attempt a Knowledge (nature) check to identify any natural poison or Knowledge (arcana) check to identify any magical poison (DC = the poison's saving throw DC). Lastly, once a poison is identified, you can spend 1 minute and attempt a Craft (alchemy) check (DC = the poison's saving throw DC) to neutralize 1 dose of the poison. Success renders the dose harmless. You have no chance of accidentally poisoning yourself when examining or attempting to neutralize a poison.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-investigator-poison-resistance-ex" data-hash-target><div className="box">Poison Resistance (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain a +2 bonus on all saving throws against poison.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 5th Level</div></div><div className="abEnd"><div className="box">The bonus becomes +4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">The bonus becomes +6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">You are now completely immune to poison.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-investigator-investigator-talent-ex-or-su" data-hash-target><div className="box">Investigator Talent (Ex or Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You gain an <Link to="/ability/investigator_talents">investigator talent</Link>. Except where otherwise noted, each investigator talent can only be selected once.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 5th Level</div></div><div className="abEnd"><div className="box">You gain a new talent.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">You gain a new talent.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">You gain a new talent.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">You gain a new talent.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">You gain a new talent.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">You gain a new talent.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 17th Level</div></div><div className="abEnd"><div className="box">You gain a new talent.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">You gain a new talent.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Some investigator talents add effects to an your <em>studied combat</em> or <em>studied strike.</em> Only one of these talents can be applied to an individual attack, but the decision can be made when the damage is dealt.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-investigator-keen-recollection" data-hash-target><div className="box">Keen Recollection</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You can attempt all Knowledge skill checks untrained.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-investigator-trap-sense-ex" data-hash-target><div className="box">Trap Sense (Ex)</div><div className="flavor">An investigator gains an intuitive sense that alerts him to danger from traps.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain a bonus on Reflex saving throws to avoid traps and a dodge bonus to AC against attacks by traps. Both of these bonuses are equal to one-third of your investigator level.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/mailed-fist"><IonIcon icon="/icons/mailed-fist.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-investigator-studied-combat-ex" data-hash-target><div className="box">Studied Combat (Ex)</div><div className="flavor">With a keen eye and calculating mind, an investigator can assess the mettle of his opponent to take advantage of gaps in talent and training.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">This effect lasts for a number of rounds equal to your Intelligence modifier (minimum 1) or until you deal damage with a <em>studied strike,</em> whichever comes first.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Move-Equivalent Action</div></div><div className="abEnd"><div className="box">You can study a single enemy that you can see. You add 1/2 your investigator level as an insight bonus on melee attack rolls and as a bonus on damage rolls against the creature.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">The bonus on damage rolls is <Link to="/misc/precision_damage">precision damage</Link>, and is not multiplied on a critical hit. You can only have one target of studied combat at a time, and once a creature has become a target of this, it cannot become the target of your <em>studied combat</em> again for 24 hours unless you expend one use of inspiration when using this ability.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/mailed-fist"><IonIcon icon="/icons/mailed-fist.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-investigator-studied-strike-ex" data-hash-target><div className="box">Studied Strike (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Free Action</div></div><div className="abEnd"><div className="box"><p>Upon successfully hitting your <em>studied target</em> with a melee attack, you deal 1d6 additional damage. This is <Link to="/misc/precision_damage">precision damage</Link>, and is not multiplied on a critical hit; creatures that are immune to sneak attacks are also immune to <em>studied strike.</em></p>
+</Pair>
+<Pair title="Usage">You can create only a certain number of extracts of each level per day. In addition, you receive <Link to="/rule/determine_bonuses">bonus extracts per day</Link> if you have a high Intelligence score, in the same way a wizard receives bonus spells per day.</Pair>
+</Ability>
+<Ability id="class-investigator-inspiration-ex" icon={["upgrade"]}>
+<Pair single id="class-investigator-inspiration-ex" flavor="An investigator is beyond knowledgeable and skilled - he also possesses keen powers of observation and deduction that far surpass the abilities of others.">Inspiration (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">You have an inspiration pool equal to <Link to="/misc/half">half</Link> your level + your Intelligence modifier (minimum 1). Your inspiration pool refreshes each day, typically after you get a restful night's sleep.</Pair>
+<Pair title="Free Action">You can expend one use of inspiration from your pool to add 1d6 to the result of a check, including any on which you take 10 or 20. This choice is made after the check is rolled and before the results are revealed.</Pair>
+<Pair title="Usage">You can only use inspiration once per check or roll.</Pair>
+<Pair title="Special">You can use inspiration on any Knowledge, Linguistics, or Spellcraft skill checks without expending a use of inspiration, if you're trained in the skill. Using inspiration on attack rolls and saving throws costs two uses of inspiration each time. In the case of saving throws, using inspiration is an <strong className="hl">immediate action</strong>.</Pair>
+</Ability>
+<Ability id="class-investigator-trapfinding" icon={["upgrade"]}>
+<Pair single id="class-investigator-trapfinding">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">You add 1/2 your level to Perception skill checks made to locate traps and to Disable Device checks (minimum 1). You can use Disable Device to disarm magical traps.</Pair>
+</Ability>
+<Ability id="class-investigator-poison-lore-ex" icon={["armor-upgrade","upgrade"]}>
+<Pair single id="class-investigator-poison-lore-ex" flavor="An investigator has a deep understanding and appreciation for poisons.">Poison Lore (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">You cannot accidentally poison yourself when applying poison to a weapon.</Pair>
+<Pair title="Ability">If you spend 1 minute physically examining the poison, you can attempt a Knowledge (nature) check to identify any natural poison or Knowledge (arcana) check to identify any magical poison (DC = the poison's saving throw DC). Lastly, once a poison is identified, you can spend 1 minute and attempt a Craft (alchemy) check (DC = the poison's saving throw DC) to neutralize 1 dose of the poison. Success renders the dose harmless. You have no chance of accidentally poisoning yourself when examining or attempting to neutralize a poison.</Pair>
+</Ability>
+<Ability id="class-investigator-poison-resistance-ex" icon={["upgrade"]}>
+<Pair single id="class-investigator-poison-resistance-ex">Poison Resistance (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">You gain a +2 bonus on all saving throws against poison.</Pair>
+<Pair title="At 5th Level">The bonus becomes +4.</Pair>
+<Pair title="At 8th Level">The bonus becomes +6.</Pair>
+<Pair title="At 11th Level">You are now completely immune to poison.</Pair>
+</Ability>
+<Ability id="class-investigator-investigator-talent-ex-or-su" icon={["stairs-goal"]}>
+<Pair single id="class-investigator-investigator-talent-ex-or-su">Investigator Talent (Ex or Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">You gain an <Link to="/ability/investigator_talents">investigator talent</Link>. Except where otherwise noted, each investigator talent can only be selected once.</Pair>
+<Pair title="At 5th Level">You gain a new talent.</Pair>
+<Pair title="At 7th Level">You gain a new talent.</Pair>
+<Pair title="At 9th Level">You gain a new talent.</Pair>
+<Pair title="At 11th Level">You gain a new talent.</Pair>
+<Pair title="At 13th Level">You gain a new talent.</Pair>
+<Pair title="At 15th Level">You gain a new talent.</Pair>
+<Pair title="At 17th Level">You gain a new talent.</Pair>
+<Pair title="At 19th Level">You gain a new talent.</Pair>
+<Pair title="Special">Some investigator talents add effects to an your <em>studied combat</em> or <em>studied strike.</em> Only one of these talents can be applied to an individual attack, but the decision can be made when the damage is dealt.</Pair>
+</Ability>
+<Ability id="class-investigator-keen-recollection" icon={["stairs-goal"]}>
+<Pair single id="class-investigator-keen-recollection">Keen Recollection</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">You can attempt all Knowledge skill checks untrained.</Pair>
+</Ability>
+<Ability id="class-investigator-trap-sense-ex" icon={["armor-upgrade"]}>
+<Pair single id="class-investigator-trap-sense-ex" flavor="An investigator gains an intuitive sense that alerts him to danger from traps.">Trap Sense (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You gain a bonus on Reflex saving throws to avoid traps and a dodge bonus to AC against attacks by traps. Both of these bonuses are equal to one-third of your investigator level.</Pair>
+</Ability>
+<Ability id="class-investigator-studied-combat-ex" icon={["mailed-fist"]}>
+<Pair single id="class-investigator-studied-combat-ex" flavor="With a keen eye and calculating mind, an investigator can assess the mettle of his opponent to take advantage of gaps in talent and training.">Studied Combat (Ex)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Usage">This effect lasts for a number of rounds equal to your Intelligence modifier (minimum 1) or until you deal damage with a <em>studied strike,</em> whichever comes first.</Pair>
+<Pair title="Move-Equivalent Action">You can study a single enemy that you can see. You add 1/2 your investigator level as an insight bonus on melee attack rolls and as a bonus on damage rolls against the creature.</Pair>
+<Pair title="Special">The bonus on damage rolls is <Link to="/misc/precision_damage">precision damage</Link>, and is not multiplied on a critical hit. You can only have one target of studied combat at a time, and once a creature has become a target of this, it cannot become the target of your <em>studied combat</em> again for 24 hours unless you expend one use of inspiration when using this ability.</Pair>
+</Ability>
+<Ability id="class-investigator-studied-strike-ex" icon={["mailed-fist"]}>
+<Pair single id="class-investigator-studied-strike-ex">Studied Strike (Ex)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Free Action"><p>Upon successfully hitting your <em>studied target</em> with a melee attack, you deal 1d6 additional damage. This is <Link to="/misc/precision_damage">precision damage</Link>, and is not multiplied on a critical hit; creatures that are immune to sneak attacks are also immune to <em>studied strike.</em></p>
 <p>If your attack used a weapon that deals nonlethal damage (like a <Link to="/eq-weapon/sap">sap</Link>, <Link to="/eq-weapon/whip">whip</Link>, or an unarmed strike), you may choose to have the additional damage from studied strike be nonlethal damage instead of lethal damage. If you chose to make an attack with a lethal weapon instead deal nonlethal damage (with the usual -4 penalty), the studied strike damage may also deal nonlethal damage.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">The damage becomes 2d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">The damage becomes 3d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">The damage becomes 4d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">The damage becomes 5d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 14th Level</div></div><div className="abEnd"><div className="box">The damage becomes 6d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">The damage becomes 7d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">The damage becomes 8d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">The damage becomes 9d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">You cannot use <em>studied strike</em> against a creature with <Link to="/rule/concealment">concealment</Link>.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-investigator-swift-alchemy-ex" data-hash-target><div className="box">Swift Alchemy (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">It takes you half the normal amount of time to create alchemical items.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Move-Equivalent Action</div></div><div className="abEnd"><div className="box">You can apply poison to a weapon. (This is normally a standard action.)</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-investigator-true-inspiration-ex" data-hash-target><div className="box">True Inspiration (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 20th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Free Action</div></div><div className="abEnd"><div className="box">You can use inspiration on all skill checks - even ones you're not trained in - and all ability checks without spending inspiration. In addition, whenever you use inspiration on an ability check, attack roll, saving throw, or skill check, you add 2d6 rather than 1d6 to the result. Some talents can affect this. If using the <Link to="/invtalent/amazing_inspiration">amazing inspiration</Link> investigator talent, you roll 2d8 instead. If using this with <Link to="/invtalent/empathy">empathy</Link>, <Link to="/invtalent/tenacious_inspiration">tenacious inspiration</Link>, <Link to="/invtalent/underworld_inspiration">underworld inspiration</Link>, or a similar talent, you roll two sets of inspiration dice and use the higher of the two results.</div></div></div></div>
+</Pair>
+<Pair title="At 6th Level">The damage becomes 2d6.</Pair>
+<Pair title="At 8th Level">The damage becomes 3d6.</Pair>
+<Pair title="At 10th Level">The damage becomes 4d6.</Pair>
+<Pair title="At 12th Level">The damage becomes 5d6.</Pair>
+<Pair title="At 14th Level">The damage becomes 6d6.</Pair>
+<Pair title="At 16th Level">The damage becomes 7d6.</Pair>
+<Pair title="At 18th Level">The damage becomes 8d6.</Pair>
+<Pair title="At 20th Level">The damage becomes 9d6.</Pair>
+<Pair title="Special">You cannot use <em>studied strike</em> against a creature with <Link to="/rule/concealment">concealment</Link>.</Pair>
+</Ability>
+<Ability id="class-investigator-swift-alchemy-ex" icon={["upgrade"]}>
+<Pair single id="class-investigator-swift-alchemy-ex">Swift Alchemy (Ex)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">It takes you half the normal amount of time to create alchemical items.</Pair>
+<Pair title="Move-Equivalent Action">You can apply poison to a weapon. (This is normally a standard action.)</Pair>
+</Ability>
+<Ability id="class-investigator-true-inspiration-ex" icon={["upgrade"]}>
+<Pair single id="class-investigator-true-inspiration-ex">True Inspiration (Ex)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Free Action">You can use inspiration on all skill checks - even ones you're not trained in - and all ability checks without spending inspiration. In addition, whenever you use inspiration on an ability check, attack roll, saving throw, or skill check, you add 2d6 rather than 1d6 to the result. Some talents can affect this. If using the <Link to="/invtalent/amazing_inspiration">amazing inspiration</Link> investigator talent, you roll 2d8 instead. If using this with <Link to="/invtalent/empathy">empathy</Link>, <Link to="/invtalent/tenacious_inspiration">tenacious inspiration</Link>, <Link to="/invtalent/underworld_inspiration">underworld inspiration</Link>, or a similar talent, you roll two sets of inspiration dice and use the higher of the two results.</Pair>
+</Ability>
 <h3 id="class-investigator-alternate-capstones" data-hash-target>Alternate Capstones</h3>
 <p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 28</Link><br/>When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides <Link to="/ability/capstones">new capstones</Link> for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with. A character that gains certain abilities may be eligible for capstones other than those listed below.</p>
 <div className="capstones"><ScrollContainer id="class-investigator--table-1"><table><thead><tr><th scope="col">Capstone</th><th scope="col">Benefit</th></tr></thead>
@@ -2662,130 +2720,148 @@ const _kineticist = {hasJL:true,title: "Kineticist", jsx: <><div className="jump
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={1}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><th>Light Armor?</th><td colSpan={2}>Yes</td></tr><tr><th>Medium Armor?</th><td colSpan={2}>No</td></tr><tr><th>Heavy Armor?</th><td colSpan={2}>No</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-elemental-focus-su" data-hash-target><div className="box">Elemental Focus (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You choose one primary <Link to="/ability/elements">element</Link> on which to focus. This element determines how you access the raw power of the Ethereal Plane, and grants you access to specific wild talents and additional class skills.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You gain your selected element's basic utility wild talent as a bonus wild talent.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-wild-talents" data-hash-target><div className="box">Wild Talents</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box"><p>You can use wild talents - magical abilities similar to spells but drawn from your innate psychic talent and usable at will. Wild talents are typically spell-like abilities (though some are supernatural abilities), and take a <strong className="hl">standard action</strong> to use unless otherwise noted.</p>
+<Ability id="class-kineticist-elemental-focus-su" icon={["stairs-goal","skills"]}>
+<Pair single id="class-kineticist-elemental-focus-su">Elemental Focus (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">You choose one primary <Link to="/ability/elements">element</Link> on which to focus. This element determines how you access the raw power of the Ethereal Plane, and grants you access to specific wild talents and additional class skills.</Pair>
+<Pair title="Ability">You gain your selected element's basic utility wild talent as a bonus wild talent.</Pair>
+</Ability>
+<Ability id="class-kineticist-wild-talents" icon={["stairs-goal"]}>
+<Pair single id="class-kineticist-wild-talents">Wild Talents</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability"><p>You can use wild talents - magical abilities similar to spells but drawn from your innate psychic talent and usable at will. Wild talents are typically spell-like abilities (though some are supernatural abilities), and take a <strong className="hl">standard action</strong> to use unless otherwise noted.</p>
 <p>A wild talent always has the elemental descriptor or descriptors (aether, air, earth, fire, or water) matching its Element entry. A wild talent that can be used with any of several elements gains the appropriate elemental descriptor when used with an element. For example, the <Link to="/kinetic/wall">wall</Link> wild talent gains the earth descriptor when used by a geokineticist (a kineticist that focuses on the element of earth).</p>
 <p>Every wild talent has an effective spell level. You can always select 1st-level wild talents, but you can select a wild talent of a higher level only if your kineticist level is at least double the wild talent's effective spell level. Kinetic blast and defense wild talents are always considered to have an effective spell level equal to <Link to="/misc/half">half</Link> your class level (to a maximum effective spell level of 9th at kineticist level 18th).</p>
 <p>In addition to the wild talents you gain from your other class features, <strong className="hl">at 2nd level and every 2 levels thereafter,</strong> you select a new <Link to="/ability/wild_utility_talents">utility wild talent</Link> from the list of options available to you. You can select only <strong className="hl">universal wild talents</strong> or those that match your element.</p>
 <p>At 6th, 10th, and 16th levels, you can replace one of your utility wild talents with another wild talent of the same level or lower. You can't replace a wild talent that you used to qualify for another of your wild talents.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Unless otherwise noted, the DC for a saving throw against a wild talent is equal to 10 + the wild talent's effective spell level + your Constitution modifier. You use your Constitution modifier on all <Link to="/rule/concentration">concentration</Link> checks for wild talents.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-burn-ex" data-hash-target><div className="box">Burn (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box"><p>You can overexert yourself to channel more power than normal, pushing past the limit of what is safe for your body by accepting <em>burn</em>. Some of your wild talents allow you to accept burn in exchange for a greater effect, while others require you to accept a certain amount of burn to use that talent at all.</p>
+</Pair>
+<Pair title="Special">Unless otherwise noted, the DC for a saving throw against a wild talent is equal to 10 + the wild talent's effective spell level + your Constitution modifier. You use your Constitution modifier on all <Link to="/rule/concentration">concentration</Link> checks for wild talents.</Pair>
+</Ability>
+<Ability id="class-kineticist-burn-ex" icon={["stairs-goal"]}>
+<Pair single id="class-kineticist-burn-ex">Burn (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability"><p>You can overexert yourself to channel more power than normal, pushing past the limit of what is safe for your body by accepting <em>burn</em>. Some of your wild talents allow you to accept burn in exchange for a greater effect, while others require you to accept a certain amount of burn to use that talent at all.</p>
 <p>For each point of burn you accept, you take 1 point of nonlethal damage per character level. This damage can't be healed by any means other than getting a full night's rest, which removes all burn and associated nonlethal damage. Nonlethal damage from burn can't be reduced or redirected, and a kineticist incapable of taking nonlethal damage can't accept burn. A kineticist who has accepted burn never benefits from abilities that allow her to ignore or alter the effects she receives from nonlethal damage.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">You can accept a number of points of burn per round equal to one-third of your kineticist level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">You can't choose to accept burn if it would raise your total points of burn higher than 3 + your Constitution modifier (though you can be forced to accept more burn from a source outside your control).</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-kinetic-blast-sp" data-hash-target><div className="box">Kinetic Blast (Sp)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You gain a <Link to="/ability/simple_kinetic_blasts">kinetic blast wild talent</Link> of your choice. This kinetic blast must be a simple blast that matches your element.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">You can unleash a kinetic blast at a single target up to a range of 30 feet. You must have at least one hand free to aim the blast (or one prehensile appendage, if you lack hands).</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box"><p>All damage from a kinetic blast is treated as magic for the purpose of bypassing damage reduction.</p>
+</Pair>
+<Pair title="Usage">You can accept a number of points of burn per round equal to one-third of your kineticist level.</Pair>
+<Pair title="Special">You can't choose to accept burn if it would raise your total points of burn higher than 3 + your Constitution modifier (though you can be forced to accept more burn from a source outside your control).</Pair>
+</Ability>
+<Ability id="class-kineticist-kinetic-blast-sp" icon={["stairs-goal"]}>
+<Pair single id="class-kineticist-kinetic-blast-sp">Kinetic Blast (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">You gain a <Link to="/ability/simple_kinetic_blasts">kinetic blast wild talent</Link> of your choice. This kinetic blast must be a simple blast that matches your element.</Pair>
+<Pair title="Standard Action">You can unleash a kinetic blast at a single target up to a range of 30 feet. You must have at least one hand free to aim the blast (or one prehensile appendage, if you lack hands).</Pair>
+<Pair title="Special"><p>All damage from a kinetic blast is treated as magic for the purpose of bypassing damage reduction.</p>
 <p>Kinetic blasts count as a type of weapon for the purpose of feats such as <Link to="/feat/weapon_focus">Weapon Focus</Link>. You are never considered to be wielding or gripping the kinetic blast (regardless of effects from <em>form infusions</em>), and you can't use <Link to="/feat/vital_strike">Vital Strike</Link> feats with kinetic blasts.</p>
 <p>Even the weakest kinetic blast involves a sizable mass of elemental matter or energy, so kinetic blasts always deal full damage to swarms of any size (though only area blasts deal extra damage to swarms).</p>
 <p>A readied kinetic blast can be used to <Link to="/rule/counterspells">counterspell</Link> any spell of equal or lower level that shares its descriptor.</p>
 <p>A kinetic blast that deals energy damage of any type (including force) has the corresponding descriptor.</p>
-</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-gather-power-su" data-hash-target><div className="box">Gather Power (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">If you have both hands free (or all of your prehensile appendages free), you can gather energy. Gathering energy creates an extremely loud, visible display in a 20-foot radius centered on you, as the energy or matter swirls around you.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Move-Equivalent Action</div></div><div className="abEnd"><div className="box">Gathering power in this way allows you to reduce the total burn cost of a blast wild talent you use in the same round by 1 point.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Full-Round Action</div></div><div className="abEnd"><div className="box">Gathering power in this way reduces the total burn cost of a blast wild talent used on your next turn by 2 points (to a minimum of 0 points). If you do so, you can also gather power as a <strong className="hl">move action</strong> during your next turn to reduce the burn cost by a total of 3 points.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">This ability can never reduce the burn cost of a wild talent below 0 points. If you take damage during or after gathering power and before using the kinetic blast that releases it, you must succeed at a <Link to="/rule/concentration">concentration</Link> check (DC = 10 + damage taken + effective spell level of your kinetic blast) or lose the energy in a wild surge that forces you to accept a number of points of burn equal to the number of points by which your gathered power would have reduced the burn cost.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-infusion-su" data-hash-target><div className="box">Infusion (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box"><p>You gain an <Link to="/ability/infusion_wild_talents">infusion wild talent</Link> from the list of options available based on your elemental focus.</p>
+</Pair>
+</Ability>
+<Ability id="class-kineticist-gather-power-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="class-kineticist-gather-power-su">Gather Power (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">If you have both hands free (or all of your prehensile appendages free), you can gather energy. Gathering energy creates an extremely loud, visible display in a 20-foot radius centered on you, as the energy or matter swirls around you.</Pair>
+<Pair title="Move-Equivalent Action">Gathering power in this way allows you to reduce the total burn cost of a blast wild talent you use in the same round by 1 point.</Pair>
+<Pair title="Full-Round Action">Gathering power in this way reduces the total burn cost of a blast wild talent used on your next turn by 2 points (to a minimum of 0 points). If you do so, you can also gather power as a <strong className="hl">move action</strong> during your next turn to reduce the burn cost by a total of 3 points.</Pair>
+<Pair title="Special">This ability can never reduce the burn cost of a wild talent below 0 points. If you take damage during or after gathering power and before using the kinetic blast that releases it, you must succeed at a <Link to="/rule/concentration">concentration</Link> check (DC = 10 + damage taken + effective spell level of your kinetic blast) or lose the energy in a wild surge that forces you to accept a number of points of burn equal to the number of points by which your gathered power would have reduced the burn cost.</Pair>
+</Ability>
+<Ability id="class-kineticist-infusion-su" icon={["stairs-goal"]}>
+<Pair single id="class-kineticist-infusion-su">Infusion (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability"><p>You gain an <Link to="/ability/infusion_wild_talents">infusion wild talent</Link> from the list of options available based on your elemental focus.</p>
 <p>By using infusions along with your kinetic blasts, you can alter your kinetic blasts to suit your needs. Infusions come in two types, each of which changes a kinetic blast differently: a <strong className="hl">substance</strong> infusion causes an additional effect, while a <strong className="hl">form</strong> infusion causes the kinetic blast to manifest in a different way. Each infusion can alter only certain kinds of kinetic blasts, which are listed in its Associated Blasts entry.</p>
 <p>Each time you use one of your kinetic blast wild talents, you can apply up to one associated form infusion and up to one associated substance infusion. Some infusions change the action required to activate a kinetic blast or entirely transform the kinetic blast's normal effects. The burn cost listed in each infusion's Burn entry is added to the burn cost of the kinetic blast the infusion modifies.</p>
 <p>The DC for a save against an infusion is based on the associated kinetic blast's effective spell level, not the level of the infusion. The DCs for form infusions are calculated using your Dexterity modifier instead of your Constitution modifier.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 3rd Level</div></div><div className="abEnd"><div className="box">You gain a new infusion.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 5th Level</div></div><div className="abEnd"><div className="box">You gain a new infusion. You can replace a previous infusion with another infusion of the same effective spell level or lower. You can't replace one you used to qualify for another of your wild talents.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">You gain a new infusion.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">You gain a new infusion. You can replace a previous infusion, as explained above.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">You gain a new infusion.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 17th Level</div></div><div className="abEnd"><div className="box">You gain a new infusion. You can replace a previous infusion, as explained above.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">You gain a new infusion.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">When you modify a kinetic blast with a form infusion and a substance infusion that both require saving throws, each target first attempts a saving throw against the form infusion. If a target succeeds and a successful save negates the infusion's effects, the entire kinetic blast is negated; otherwise, the target then attempts a saving throw against the substance infusion. If your form and substance infusions both alter the kinetic blast's damage, apply the substance infusion's alteration first.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-elemental-defense-su" data-hash-target><div className="box">Elemental Defense (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You gain your element's <Link to="/ability/defense_wild_talents">defense wild talent</Link>.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-elemental-overflow-ex" data-hash-target><div className="box">Elemental Overflow (Ex)</div><div className="flavor">A kineticist's body surges with energy from her chosen element whenever she accepts burn, causing her to glow with a nimbus of fire, weep water from her pores, or experience some other thematic effect.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You receive a bonus on your attack rolls with kinetic blasts equal to the total number of points of burn you currently have, to a maximum bonus of +1 for every 3 kineticist levels you possess. You also receives a bonus on damage rolls with your kinetic blast equal to double the bonus on attack rolls.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">When you have at least 3 points of burn, you gain a +2 size bonus to two physical ability scores of your choice. You also have a chance to ignore a critical hit or sneak attack equal to 5% &times; your current amount of burn.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">When you have at least 5 points of burn, these bonuses become a +4 size bonus to one physical ability score of your choice and a +2 size bonus to your other two physical ability scores.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">When you have at least 7 points of burn, these bonuses become a +6 size bonus to one physical ability score, +4 to another physical score, and +2 to the remaining score.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">You can suppress the visual effects of <em>elemental overflow</em> by concentrating for 1 full round, but doing so suppresses all of this ability's other benefits, as well. The next time you use any wild talent, the visual effects and benefits return instantly.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-infusion-specialization-ex" data-hash-target><div className="box">Infusion Specialization (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">Whenever you use one or more infusions with a blast, you reduce the combined burn cost of the infusions by 1. This can't reduce the total cost of the infusions used below 0.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">You reduce the cost by 2.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">You reduce the cost by 3.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 14th Level</div></div><div className="abEnd"><div className="box">You reduce the cost by 4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 17th Level</div></div><div className="abEnd"><div className="box">You reduce the cost by 5.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">You reduce the cost by 6.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-metakinesis-su" data-hash-target><div className="box">Metakinesis (Su)</div><div className="flavor">A kineticist can alter her kinetic blasts as if with metamagic feats by accepting burn.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">By accepting 1 point of burn, you can empower a kinetic blast (as if using <Link to="/feat/empower_spell">Empower Spell</Link>).</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">By accepting 2 points of burn, you can maximize a kinetic blast as if using <Link to="/feat/maximize_spell">Maximize Spell</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">By accepting 3 points of burn, you can quicken a kinetic blast as if using <Link to="/feat/quicken_spell">Quicken Spell</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 17th Level</div></div><div className="abEnd"><div className="box">By accepting 4 points of burn, you can use a kinetic blast twice with the same standard action, or as a swift action if you also use metakinesis to quicken the blast. When you use a double kinetic blast, all modifications, such as metakinesis and infusions, apply to both of the blasts, but you need to pay the burn cost only once.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-internal-buffer-su" data-hash-target><div className="box">Internal Buffer (Su)</div><div className="flavor">A kineticist's study of her body and the elemental forces that course through it allow her to form an internal buffer to store extra energy.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 6th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain an internal buffer. The buffer starts empty and doesn't replenish each day. It can hold a maximum of 1 point.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Full-Round Action</div></div><div className="abEnd"><div className="box">You can accept 1 point of burn to add 1 point to the buffer.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">When you would otherwise accept burn, you can spend 1 point from your buffer to avoid accepting 1 point of burn. You cannot spend more than 1 point from your buffer in this way for a single wild talent.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">The maximum becomes 2 points.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">The maximum becomes 3 points.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Once you add points to your buffer, they remain indefinitely until you spend them. Points spent from the internal buffer don't activate <em>elemental overflow</em> or add to its effects. Similarly, this buffer can be used to exceed the limit on the number of points of burn you can accept in a single turn.</div></div></div></div>
-<div className="ability p hasSubs"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-expanded-element-su" data-hash-target><div className="box">Expanded Element (Su)</div><div className="flavor">A kineticist learns to use another element or expands her understanding of her own element.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 7th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You can choose any element, including your primary element.</div></div></div></div>
-<div className="ability p subAbility numbered"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-new-element" data-hash-target><div className="box">New Element</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You gain one of that element's simple blast wild talents that you do not already possess, if any. You also gain all <Link to="/ability/composite_kinetic_blasts">composite blast wild talents</Link> whose prerequisites you meet, as well as the basic wild talent of your chosen expanded element (for instance, basic aerokinesis if you choose air). You don't gain the defense wild talent of the expanded element.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">Choose a different expanded element, and gain all of the benefits from this new element as above. Or, you can choose your primary element and gain the 7th-level benefits from it.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">If your expanded element is different from your primary element, you treat your kineticist level as 4 levels lower for the purpose of determining which wild talents you can learn from your expanded element.</div></div></div></div>
-<div className="ability p subAbility numbered"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-primary-element" data-hash-target><div className="box">Primary Element</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You gain an additional utility wild talent or infusion of your choice from that element, as if from your <em>infusion</em> or <em>wild talent</em> class feature, as appropriate.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">If you choose your primary element again, for wild talents of your element, you gain a +1 bonus on attack rolls and damage rolls, as well as to caster level and DCs. Or, you can choose a different expanded element, and gain all of the benefits from this new element as if you chose it at 7th-level.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-supercharge-su" data-hash-target><div className="box">Supercharge (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 11th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">When using <em>gather power</em> as a move action, you can reduce the total burn cost of a single wild talent by 2 points instead of 1. When using <em>gather power</em> for 1 full round, you can reduce the burn cost of a single wild talent by 3 points instead of 2.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-composite-specialization-su" data-hash-target><div className="box">Composite Specialization (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 16th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You reduce the burn cost of all composite blasts by 1 point. This can't reduce the cost of a composite blast below 0 points.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-metakinetic-master-su" data-hash-target><div className="box">Metakinetic Master (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 19th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">Choose one type of metakinesis, such as empower or quicken: you reduce the burn cost of that metakinesis by 1 point (to a minimum of 0 points).</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-kineticist-omnikinesis-su" data-hash-target><div className="box">Omnikinesis (Su)</div><div className="flavor">A kineticist can transcend the distinction between the different elements and can bend all creation to her will.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 20th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">By accepting 1 point of burn (in addition to any burn requirement of the kinetic blast you choose), you can use any blast wild talent you don't know.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">By accepting 1 point of burn, you can change any of your wild talents into any other wild talent of the same category (such as simple blasts or defense) for 24 hours, ignoring any elemental requirements or restrictions (but not any other requirements or restrictions).</div></div></div></div>
+</Pair>
+<Pair title="At 3rd Level">You gain a new infusion.</Pair>
+<Pair title="At 5th Level">You gain a new infusion. You can replace a previous infusion with another infusion of the same effective spell level or lower. You can't replace one you used to qualify for another of your wild talents.</Pair>
+<Pair title="At 9th Level">You gain a new infusion.</Pair>
+<Pair title="At 11th Level">You gain a new infusion. You can replace a previous infusion, as explained above.</Pair>
+<Pair title="At 13th Level">You gain a new infusion.</Pair>
+<Pair title="At 17th Level">You gain a new infusion. You can replace a previous infusion, as explained above.</Pair>
+<Pair title="At 19th Level">You gain a new infusion.</Pair>
+<Pair title="Special">When you modify a kinetic blast with a form infusion and a substance infusion that both require saving throws, each target first attempts a saving throw against the form infusion. If a target succeeds and a successful save negates the infusion's effects, the entire kinetic blast is negated; otherwise, the target then attempts a saving throw against the substance infusion. If your form and substance infusions both alter the kinetic blast's damage, apply the substance infusion's alteration first.</Pair>
+</Ability>
+<Ability id="class-kineticist-elemental-defense-su" icon={["armor-upgrade"]}>
+<Pair single id="class-kineticist-elemental-defense-su">Elemental Defense (Su)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">You gain your element's <Link to="/ability/defense_wild_talents">defense wild talent</Link>.</Pair>
+</Ability>
+<Ability id="class-kineticist-elemental-overflow-ex" icon={["upgrade"]}>
+<Pair single id="class-kineticist-elemental-overflow-ex" flavor="A kineticist's body surges with energy from her chosen element whenever she accepts burn, causing her to glow with a nimbus of fire, weep water from her pores, or experience some other thematic effect.">Elemental Overflow (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You receive a bonus on your attack rolls with kinetic blasts equal to the total number of points of burn you currently have, to a maximum bonus of +1 for every 3 kineticist levels you possess. You also receives a bonus on damage rolls with your kinetic blast equal to double the bonus on attack rolls.</Pair>
+<Pair title="At 6th Level">When you have at least 3 points of burn, you gain a +2 size bonus to two physical ability scores of your choice. You also have a chance to ignore a critical hit or sneak attack equal to 5% &times; your current amount of burn.</Pair>
+<Pair title="At 11th Level">When you have at least 5 points of burn, these bonuses become a +4 size bonus to one physical ability score of your choice and a +2 size bonus to your other two physical ability scores.</Pair>
+<Pair title="At 16th Level">When you have at least 7 points of burn, these bonuses become a +6 size bonus to one physical ability score, +4 to another physical score, and +2 to the remaining score.</Pair>
+<Pair title="Special">You can suppress the visual effects of <em>elemental overflow</em> by concentrating for 1 full round, but doing so suppresses all of this ability's other benefits, as well. The next time you use any wild talent, the visual effects and benefits return instantly.</Pair>
+</Ability>
+<Ability id="class-kineticist-infusion-specialization-ex" icon={["upgrade"]}>
+<Pair single id="class-kineticist-infusion-specialization-ex">Infusion Specialization (Ex)</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Passive Ability">Whenever you use one or more infusions with a blast, you reduce the combined burn cost of the infusions by 1. This can't reduce the total cost of the infusions used below 0.</Pair>
+<Pair title="At 8th Level">You reduce the cost by 2.</Pair>
+<Pair title="At 11th Level">You reduce the cost by 3.</Pair>
+<Pair title="At 14th Level">You reduce the cost by 4.</Pair>
+<Pair title="At 17th Level">You reduce the cost by 5.</Pair>
+<Pair title="At 20th Level">You reduce the cost by 6.</Pair>
+</Ability>
+<Ability id="class-kineticist-metakinesis-su" icon={["upgrade"]}>
+<Pair single id="class-kineticist-metakinesis-su" flavor="A kineticist can alter her kinetic blasts as if with metamagic feats by accepting burn.">Metakinesis (Su)</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">By accepting 1 point of burn, you can empower a kinetic blast (as if using <Link to="/feat/empower_spell">Empower Spell</Link>).</Pair>
+<Pair title="At 9th Level">By accepting 2 points of burn, you can maximize a kinetic blast as if using <Link to="/feat/maximize_spell">Maximize Spell</Link>.</Pair>
+<Pair title="At 13th Level">By accepting 3 points of burn, you can quicken a kinetic blast as if using <Link to="/feat/quicken_spell">Quicken Spell</Link>.</Pair>
+<Pair title="At 17th Level">By accepting 4 points of burn, you can use a kinetic blast twice with the same standard action, or as a swift action if you also use metakinesis to quicken the blast. When you use a double kinetic blast, all modifications, such as metakinesis and infusions, apply to both of the blasts, but you need to pay the burn cost only once.</Pair>
+</Ability>
+<Ability id="class-kineticist-internal-buffer-su" icon={["stairs-goal"]}>
+<Pair single id="class-kineticist-internal-buffer-su" flavor="A kineticist's study of her body and the elemental forces that course through it allow her to form an internal buffer to store extra energy.">Internal Buffer (Su)</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Passive Ability">You gain an internal buffer. The buffer starts empty and doesn't replenish each day. It can hold a maximum of 1 point.</Pair>
+<Pair title="Full-Round Action">You can accept 1 point of burn to add 1 point to the buffer.</Pair>
+<Pair title="Ability">When you would otherwise accept burn, you can spend 1 point from your buffer to avoid accepting 1 point of burn. You cannot spend more than 1 point from your buffer in this way for a single wild talent.</Pair>
+<Pair title="At 11th Level">The maximum becomes 2 points.</Pair>
+<Pair title="At 16th Level">The maximum becomes 3 points.</Pair>
+<Pair title="Special">Once you add points to your buffer, they remain indefinitely until you spend them. Points spent from the internal buffer don't activate <em>elemental overflow</em> or add to its effects. Similarly, this buffer can be used to exceed the limit on the number of points of burn you can accept in a single turn.</Pair>
+</Ability>
+<Ability id="class-kineticist-expanded-element-su" extraClasses="hasSubs" icon={["upgrade"]}>
+<Pair single id="class-kineticist-expanded-element-su" flavor="A kineticist learns to use another element or expands her understanding of her own element.">Expanded Element (Su)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">You can choose any element, including your primary element.</Pair>
+</Ability>
+<Ability id="class-kineticist-new-element" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Pair single id="class-kineticist-new-element">New Element</Pair>
+<Pair title="Ability">You gain one of that element's simple blast wild talents that you do not already possess, if any. You also gain all <Link to="/ability/composite_kinetic_blasts">composite blast wild talents</Link> whose prerequisites you meet, as well as the basic wild talent of your chosen expanded element (for instance, basic aerokinesis if you choose air). You don't gain the defense wild talent of the expanded element.</Pair>
+<Pair title="At 15th Level">Choose a different expanded element, and gain all of the benefits from this new element as above. Or, you can choose your primary element and gain the 7th-level benefits from it.</Pair>
+<Pair title="Special">If your expanded element is different from your primary element, you treat your kineticist level as 4 levels lower for the purpose of determining which wild talents you can learn from your expanded element.</Pair>
+</Ability>
+<Ability id="class-kineticist-primary-element" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Pair single id="class-kineticist-primary-element">Primary Element</Pair>
+<Pair title="Ability">You gain an additional utility wild talent or infusion of your choice from that element, as if from your <em>infusion</em> or <em>wild talent</em> class feature, as appropriate.</Pair>
+<Pair title="At 15th Level">If you choose your primary element again, for wild talents of your element, you gain a +1 bonus on attack rolls and damage rolls, as well as to caster level and DCs. Or, you can choose a different expanded element, and gain all of the benefits from this new element as if you chose it at 7th-level.</Pair>
+</Ability>
+<Ability id="class-kineticist-supercharge-su" icon={["upgrade"]}>
+<Pair single id="class-kineticist-supercharge-su">Supercharge (Su)</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">When using <em>gather power</em> as a move action, you can reduce the total burn cost of a single wild talent by 2 points instead of 1. When using <em>gather power</em> for 1 full round, you can reduce the burn cost of a single wild talent by 3 points instead of 2.</Pair>
+</Ability>
+<Ability id="class-kineticist-composite-specialization-su" icon={["upgrade"]}>
+<Pair single id="class-kineticist-composite-specialization-su">Composite Specialization (Su)</Pair>
+<Pair title="Gained">At 16th Level</Pair>
+<Pair title="Passive Ability">You reduce the burn cost of all composite blasts by 1 point. This can't reduce the cost of a composite blast below 0 points.</Pair>
+</Ability>
+<Ability id="class-kineticist-metakinetic-master-su" icon={["upgrade"]}>
+<Pair single id="class-kineticist-metakinetic-master-su">Metakinetic Master (Su)</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Ability">Choose one type of metakinesis, such as empower or quicken: you reduce the burn cost of that metakinesis by 1 point (to a minimum of 0 points).</Pair>
+</Ability>
+<Ability id="class-kineticist-omnikinesis-su" icon={["stairs-goal"]}>
+<Pair single id="class-kineticist-omnikinesis-su" flavor="A kineticist can transcend the distinction between the different elements and can bend all creation to her will.">Omnikinesis (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">By accepting 1 point of burn (in addition to any burn requirement of the kinetic blast you choose), you can use any blast wild talent you don't know.</Pair>
+<Pair title="Standard Action">By accepting 1 point of burn, you can change any of your wild talents into any other wild talent of the same category (such as simple blasts or defense) for 24 hours, ignoring any elemental requirements or restrictions (but not any other requirements or restrictions).</Pair>
+</Ability>
 <h3 id="class-kineticist-alternate-capstones" data-hash-target>Alternate Capstones</h3>
 <p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 28</Link><br/>When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides <Link to="/ability/capstones">new capstones</Link> for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with. A character that gains certain abilities may be eligible for capstones other than those listed below.</p>
 <div className="capstones"><ScrollContainer id="class-kineticist--table-1"><table><thead><tr><th scope="col">Capstone</th><th scope="col">Benefit</th></tr></thead>

@@ -1,5 +1,7 @@
 import {IonRippleEffect,IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 const _sagas = {title: "Sagas", topLink: ["Skald","class/skald"], jsx: <><h2 id="ability-sagas-sagas">Sagas</h2>
@@ -1955,48 +1957,57 @@ const _improved_familiars = {hasJL:true,title: "Improved Familiars", topLink: ["
 </>};
 const _judgments = {hasJL:true,title: "Inquisitor Judgments", topLink: ["Inquisitor","class/inquisitor"], jsx: <><div className="jumpList" id="ability-judgments-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="ability-judgments-destruction">Destruction</InnerLink></li><li><InnerLink toTop to="ability-judgments-healing">Healing</InnerLink></li><li><InnerLink toTop to="ability-judgments-justice">Justice</InnerLink></li><li><InnerLink toTop to="ability-judgments-piercing">Piercing</InnerLink></li><li><InnerLink toTop to="ability-judgments-protection">Protection</InnerLink></li><li><InnerLink toTop to="ability-judgments-purity">Purity</InnerLink></li><li><InnerLink toTop to="ability-judgments-resiliency">Resiliency</InnerLink></li><li><InnerLink toTop to="ability-judgments-resistance">Resistance</InnerLink></li><li><InnerLink toTop to="ability-judgments-smiting">Smiting</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 39</Link></p>
 <p>When an inquisitor uses the Judgment ability (as a swift action), she must select one type of judgment to make. As a swift action, she can change this judgment to another type. If the inquisitor is evil, she receives profane bonuses instead of sacred, as appropriate. Neutral inquisitors must select profane or sacred bonuses. Once made, this choice cannot be changed.</p>
-<div style={{clear:"both"}}></div><div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="ability-judgments-destruction" data-hash-target><div className="box">Destruction</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain a sacred bonus on all weapon damage rolls. This bonus is equal to 1 + <Link to="/misc/one_third">one-third</Link> of your inquisitor level.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="ability-judgments-healing" data-hash-target><div className="box">Healing</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You're surrounded by a healing light, gaining <Link to="/umr/fast_healing">fast healing</Link> of an amount equal to 1 + <Link to="/misc/one_third">one-third</Link> of your inquisitor level.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="ability-judgments-justice" data-hash-target><div className="box">Justice</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain a sacred bonus on all attack rolls. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your cavalier level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">The bonus is now doubled on all attack rolls made to confirm critical hits.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="ability-judgments-piercing" data-hash-target><div className="box">Piercing</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain a sacred bonus on <Link to="/rule/concentration">concentration</Link> checks and caster level checks made to overcome a target's spell resistance. This bonus is equal to 1 + <Link to="/misc/one_third">one-third</Link> of your inquisitor level.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="ability-judgments-protection" data-hash-target><div className="box">Protection</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You're surrounded by a protective aura, granting a sacred bonus to Armor Class. This bonus is equal to 1 + one-fifth of your cavalier level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">The bonus is now doubled against attack rolls made to confirm critical hits against you.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="ability-judgments-purity" data-hash-target><div className="box">Purity</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain a sacred bonus on all saving throws. This bonus is equal to 1 + one-fifth of your cavalier level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">The bonus is now doubled against curses, diseases, and poisons.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="ability-judgments-resiliency" data-hash-target><div className="box">Resiliency</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain <Link to="/rule/dr">DR</Link> 1/magic.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 5th Level</div></div><div className="abEnd"><div className="box">You instead gain DR 2/magic.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">You instead gain DR 3/chaotic, evil, good, or lawful, whichever is opposite to your alignment. If you are opposite to two, choose only one of them. If you are true neutral, you gain DR 3/magic, instead.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">The DR increases to 4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">The DR increases to 5.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="ability-judgments-resistance" data-hash-target><div className="box">Resistance</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain <Link to="/umr/resistance">resistance</Link> 2 against one energy type (acid, cold, electricity, fire, or sonic) chosen when the judgment is declared.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 3rd Level</div></div><div className="abEnd"><div className="box">Your resistance becomes 4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">Your resistance increases to 6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">Your resistance becomes 8.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">Your resistance increases to 10.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">Your resistance becomes 12.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">Your resistance increases to 14.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="ability-judgments-smiting" data-hash-target><div className="box">Smiting</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">Your weapons count as magic for the purposes of bypassing <Link to="/rule/damage_reduction">damage reduction</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">Your weapons also count as one alignment type (chaotic, evil, good, or lawful) for the purpose of bypassing damage reduction. The type selected must match one of your alignments. If you're true neutral, you do not receive this bonus.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">Your weapons also count as <Link to="/eq-material/adamantine">adamantine</Link> for the purpose of overcoming damage reduction (but not for reducing hardness).</div></div></div></div>
+<div style={{clear:"both"}}></div><Ability id="ability-judgments-destruction" icon={["upgrade"]}>
+<Pair single id="ability-judgments-destruction">Destruction</Pair>
+<Pair title="Passive Ability">You gain a sacred bonus on all weapon damage rolls. This bonus is equal to 1 + <Link to="/misc/one_third">one-third</Link> of your inquisitor level.</Pair>
+</Ability>
+<Ability id="ability-judgments-healing" icon={["armor-upgrade"]}>
+<Pair single id="ability-judgments-healing">Healing</Pair>
+<Pair title="Passive Ability">You're surrounded by a healing light, gaining <Link to="/umr/fast_healing">fast healing</Link> of an amount equal to 1 + <Link to="/misc/one_third">one-third</Link> of your inquisitor level.</Pair>
+</Ability>
+<Ability id="ability-judgments-justice" icon={["upgrade"]}>
+<Pair single id="ability-judgments-justice">Justice</Pair>
+<Pair title="Passive Ability">You gain a sacred bonus on all attack rolls. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your cavalier level.</Pair>
+<Pair title="At 10th Level">The bonus is now doubled on all attack rolls made to confirm critical hits.</Pair>
+</Ability>
+<Ability id="ability-judgments-piercing" icon={["armor-upgrade"]}>
+<Pair single id="ability-judgments-piercing">Piercing</Pair>
+<Pair title="Passive Ability">You gain a sacred bonus on <Link to="/rule/concentration">concentration</Link> checks and caster level checks made to overcome a target's spell resistance. This bonus is equal to 1 + <Link to="/misc/one_third">one-third</Link> of your inquisitor level.</Pair>
+</Ability>
+<Ability id="ability-judgments-protection" icon={["armor-upgrade"]}>
+<Pair single id="ability-judgments-protection">Protection</Pair>
+<Pair title="Passive Ability">You're surrounded by a protective aura, granting a sacred bonus to Armor Class. This bonus is equal to 1 + one-fifth of your cavalier level.</Pair>
+<Pair title="At 10th Level">The bonus is now doubled against attack rolls made to confirm critical hits against you.</Pair>
+</Ability>
+<Ability id="ability-judgments-purity" icon={["armor-upgrade"]}>
+<Pair single id="ability-judgments-purity">Purity</Pair>
+<Pair title="Passive Ability">You gain a sacred bonus on all saving throws. This bonus is equal to 1 + one-fifth of your cavalier level.</Pair>
+<Pair title="At 10th Level">The bonus is now doubled against curses, diseases, and poisons.</Pair>
+</Ability>
+<Ability id="ability-judgments-resiliency" icon={["armor-upgrade"]}>
+<Pair single id="ability-judgments-resiliency">Resiliency</Pair>
+<Pair title="Passive Ability">You gain <Link to="/rule/dr">DR</Link> 1/magic.</Pair>
+<Pair title="At 5th Level">You instead gain DR 2/magic.</Pair>
+<Pair title="At 10th Level">You instead gain DR 3/chaotic, evil, good, or lawful, whichever is opposite to your alignment. If you are opposite to two, choose only one of them. If you are true neutral, you gain DR 3/magic, instead.</Pair>
+<Pair title="At 15th Level">The DR increases to 4.</Pair>
+<Pair title="At 20th Level">The DR increases to 5.</Pair>
+</Ability>
+<Ability id="ability-judgments-resistance" icon={["armor-upgrade"]}>
+<Pair single id="ability-judgments-resistance">Resistance</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/resistance">resistance</Link> 2 against one energy type (acid, cold, electricity, fire, or sonic) chosen when the judgment is declared.</Pair>
+<Pair title="At 3rd Level">Your resistance becomes 4.</Pair>
+<Pair title="At 6th Level">Your resistance increases to 6.</Pair>
+<Pair title="At 9th Level">Your resistance becomes 8.</Pair>
+<Pair title="At 12th Level">Your resistance increases to 10.</Pair>
+<Pair title="At 15th Level">Your resistance becomes 12.</Pair>
+<Pair title="At 18th Level">Your resistance increases to 14.</Pair>
+</Ability>
+<Ability id="ability-judgments-smiting" icon={["upgrade"]}>
+<Pair single id="ability-judgments-smiting">Smiting</Pair>
+<Pair title="Passive Ability">Your weapons count as magic for the purposes of bypassing <Link to="/rule/damage_reduction">damage reduction</Link>.</Pair>
+<Pair title="At 6th Level">Your weapons also count as one alignment type (chaotic, evil, good, or lawful) for the purpose of bypassing damage reduction. The type selected must match one of your alignments. If you're true neutral, you do not receive this bonus.</Pair>
+<Pair title="At 10th Level">Your weapons also count as <Link to="/eq-material/adamantine">adamantine</Link> for the purpose of overcoming damage reduction (but not for reducing hardness).</Pair>
+</Ability>
 </>};
 const _capstones = {hasJL:true,title: "Alternate Capstones", topLink: ["Classes","main/classes"], jsx: <><div className="jumpList" id="ability-capstones-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="ability-capstones-arch-familiar-su">Arch-Familiar (Su)</InnerLink></li><li><InnerLink toTop to="ability-capstones-deep-magics-su">Deep Magics (Su)</InnerLink></li><li><InnerLink toTop to="ability-capstones-great-beast-su">Great Beast (Su)</InnerLink></li><li><InnerLink toTop to="ability-capstones-ki-sage-su">Ki Sage (Su)</InnerLink></li><li><InnerLink toTop to="ability-capstones-old-dog-new-tricks-ex">Old Dog, New Tricks (Ex)</InnerLink></li><li><InnerLink toTop to="ability-capstones-perfect-body-flawless-mind-ex">Perfect Body, Flawless Mind (Ex)</InnerLink></li><li><InnerLink toTop to="ability-capstones-soul-channel-su">Soul Channel (Su)</InnerLink></li><li><InnerLink toTop to="ability-capstones-the-boss-ex">The Boss (Ex)</InnerLink></li><li><InnerLink toTop to="ability-capstones-the-right-spot-ex">The Right Spot (Ex)</InnerLink></li><li><InnerLink toTop to="ability-capstones-walking-library-ex">Walking Library (Ex)</InnerLink></li><li><InnerLink toTop to="ability-capstones-with-this-sword-ex">With This Sword (Ex)</InnerLink></li><li><InnerLink toTop to="ability-capstones-wont-stay-dead-ex">Won't Stay Dead (Ex)</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 28</Link></p>
 <p>When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class.</p>

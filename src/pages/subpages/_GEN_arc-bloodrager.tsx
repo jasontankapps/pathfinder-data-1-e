@@ -7,269 +7,311 @@ import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 const _ancestral_harbinger = {title: "Ancestral Harbinger", jsx: <><h2 id="arc-bloodrager-ancestral_harbinger-ancestral-harbinger">Ancestral Harbinger</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook pg. 6</Link><br/>While all bloodragers tap into their bloodlines to fuel the arcane energies they use in battle, some have the ability to call directly to the spirits of their ancestors to aid them, summoning spirits to fight for them or inspire their allies. Ancestral harbingers are particularly common among Shoanti bloodragers and among Bonuwat tribes living along the coast of western Garund.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-ancestral_harbinger-spirit-guardian-sp" data-hash-target><div className="box">Spirit Guardian (Sp)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Uncanny dodge, bloodline feats gained at 6th and 18th levels</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 2nd Level</div></div><div className="abEnd"><div className="box">An ancestral harbinger can call upon her ancestors to aid her in combat, summoning a weapon of force that functions as per <Link to="/spell/spiritual_weapon">spiritual weapon</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">Her ancestral spirit can take the form of a savage creature, functioning as per <Link to="/spell/summon_natures_ally_ii">summon nature's ally II</Link> (this can't be used to summon multiple creatures from the <em>summon nature's ally I</em> list).</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">Her ancestor can manifest physically as a ghostly figure, functioning as per <Link to="/spell/spiritual_ally">spiritual ally</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">Her ancestral spirit can manifest either as a single powerful creature or as multiple lesser ancestors, functioning as per <Link to="/spell/summon_natures_ally_vi">summon nature's ally VI</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day + 1 per four bloodrager levels beyond 2nd<ByLevelPop levels={[[2,1],[6,2],[10,3],[14,4],[18,5]]} unit="time" postText="/day" /></div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">The harbinger chooses which spell this ability functions as at the time of casting, and can use this ability while in a bloodrage.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-ancestral_harbinger-spirit-servants" data-hash-target><div className="box">Spirit Servants</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Improved uncanny dodge, the bloodline feat gained at 12th level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">An ancestral harbinger adds <em>summon monster</em> spells to her class spell list and gain them as spells known at the levels shown below. These spells can be used only to summon types of monsters with strong ties to the ancestral harbinger's family history, ranging from clan totems to monsters of the same type as those famously killed by her forebears. For each of these spells, the ancestral harbinger selects a number of monsters she can summon equal to her Charisma bonus (minimum 1) to represent these spirits. These monsters are selected from the options on the summon monster creature list or the expanded summoning list that are appropriate for the spell level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The ancestral harbinger has a mystic tie to the spirit servants summoned with this ability. When the ancestral harbinger is in a bloodrage, all of her spirit servants gain a +2 morale bonus to AC and on attack rolls, damage rolls, and saving throws. The spirit servants also gain 2 <Link to="/rule/temporary_hit_points">temporary hit points</Link> per Hit Die. The morale bonus and temporary hit points last until the bloodrage ends.</div></div></div>
-<div className="abPair"><div className="abStart plain"><div className="box">5th</div></div><div className="abEnd simple"><div className="box"><Link to="/spell/summon_monster_i">Summon monster I</Link></div></div></div>
-<div className="abPair"><div className="abStart plain"><div className="box">8th</div></div><div className="abEnd simple"><div className="box"><Link to="/spell/summon_monster_ii">Summon monster II</Link></div></div></div>
-<div className="abPair"><div className="abStart plain"><div className="box">11th</div></div><div className="abEnd simple"><div className="box"><Link to="/spell/summon_monster_iii">Summon monster III</Link></div></div></div>
-<div className="abPair"><div className="abStart plain"><div className="box">14th</div></div><div className="abEnd simple"><div className="box"><Link to="/spell/summon_monster_iv">Summon monster IV</Link></div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">At 7th level and every 2 bloodrager levels thereafter, the ancestral harbinger can swap one selected monster from one of these spells for a new monster from the same level's summoning lists.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">The morale bonus increases to +3 and the number of temporary hit points per Hit Die increases to 3.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">The morale bonus increases to +4 and the number of temporary hit points per Hit Die increases to 4.</div></div></div></div>
+<Ability id="arc-bloodrager-ancestral_harbinger-spirit-guardian-sp" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="arc-bloodrager-ancestral_harbinger-spirit-guardian-sp">Spirit Guardian (Sp)</Pair>
+<Pair hl title="Replaces">Uncanny dodge, bloodline feats gained at 6th and 18th levels</Pair>
+<Pair title="At 2nd Level">An ancestral harbinger can call upon her ancestors to aid her in combat, summoning a weapon of force that functions as per <Link to="/spell/spiritual_weapon">spiritual weapon</Link>.</Pair>
+<Pair title="At 6th Level">Her ancestral spirit can take the form of a savage creature, functioning as per <Link to="/spell/summon_natures_ally_ii">summon nature's ally II</Link> (this can't be used to summon multiple creatures from the <em>summon nature's ally I</em> list).</Pair>
+<Pair title="At 12th Level">Her ancestor can manifest physically as a ghostly figure, functioning as per <Link to="/spell/spiritual_ally">spiritual ally</Link>.</Pair>
+<Pair title="At 18th Level">Her ancestral spirit can manifest either as a single powerful creature or as multiple lesser ancestors, functioning as per <Link to="/spell/summon_natures_ally_vi">summon nature's ally VI</Link>.</Pair>
+<Pair title="Usage">1 time/day + 1 per four bloodrager levels beyond 2nd<ByLevelPop levels={[[2,1],[6,2],[10,3],[14,4],[18,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Special">The harbinger chooses which spell this ability functions as at the time of casting, and can use this ability while in a bloodrage.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-ancestral_harbinger-spirit-servants" icon={["spell-book","magic-swirl","upgrade"]}>
+<Pair single id="arc-bloodrager-ancestral_harbinger-spirit-servants">Spirit Servants</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge, the bloodline feat gained at 12th level</Pair>
+<Pair title="Ability">An ancestral harbinger adds <em>summon monster</em> spells to her class spell list and gain them as spells known at the levels shown below. These spells can be used only to summon types of monsters with strong ties to the ancestral harbinger's family history, ranging from clan totems to monsters of the same type as those famously killed by her forebears. For each of these spells, the ancestral harbinger selects a number of monsters she can summon equal to her Charisma bonus (minimum 1) to represent these spirits. These monsters are selected from the options on the summon monster creature list or the expanded summoning list that are appropriate for the spell level.</Pair>
+<Pair title="Passive Ability">The ancestral harbinger has a mystic tie to the spirit servants summoned with this ability. When the ancestral harbinger is in a bloodrage, all of her spirit servants gain a +2 morale bonus to AC and on attack rolls, damage rolls, and saving throws. The spirit servants also gain 2 <Link to="/rule/temporary_hit_points">temporary hit points</Link> per Hit Die. The morale bonus and temporary hit points last until the bloodrage ends.</Pair>
+<Pair plain title="5th"><Link to="/spell/summon_monster_i">Summon monster I</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/summon_monster_ii">Summon monster II</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/summon_monster_iii">Summon monster III</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/summon_monster_iv">Summon monster IV</Link></Pair>
+<Pair title="At 7th Level">At 7th level and every 2 bloodrager levels thereafter, the ancestral harbinger can swap one selected monster from one of these spells for a new monster from the same level's summoning lists.</Pair>
+<Pair title="At 11th Level">The morale bonus increases to +3 and the number of temporary hit points per Hit Die increases to 3.</Pair>
+<Pair title="At 20th Level">The morale bonus increases to +4 and the number of temporary hit points per Hit Die increases to 4.</Pair>
+</Ability>
 </>};
 const _blood_conduit = {title: "Blood Conduit", jsx: <><h2 id="arc-bloodrager-blood_conduit-blood-conduit">Blood Conduit</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 82</Link><br/>Blood conduits learn to channel their arcane might directly through their flesh, without the need for mystical words or gestures.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-blood_conduit-contact-specialist-ex" data-hash-target><div className="box">Contact Specialist (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Fast movement</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Bloodline feats</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 1st Level</div></div><div className="abEnd"><div className="box">A blood conduit selects a bonus feat from the following: <Link to="/feat/improved_bull_rush">Improved Bull Rush</Link>, <Link to="/feat/improved_grapple">Improved Grapple</Link>, <Link to="/feat/improved_reposition">Improved Reposition</Link>, <Link to="/feat/improved_trip">Improved Trip</Link>, and <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>. He does not need to meet the prerequisites to take this feat. He also adds those feats to his list of bloodline feats.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-blood_conduit-spell-conduit-su" data-hash-target><div className="box">Spell Conduit (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Uncanny dodge, improved uncanny dodge</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">When he succeeds at a <Link to="/rule/combat_maneuvers">combat maneuver</Link> check to bull rush, grapple, pin, reposition, or trip an opponent, or makes an unarmed strike against an enemy, he can cast a touch spell on the creature that he affected with the combat maneuver, requiring no further touch attack roll. If this spell would usually require a successful touch attack, his successful combat maneuver check counts as this attack.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">The blood conduit must be wearing light or no armor.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-blood_conduit-reflexive-conduit-ex" data-hash-target><div className="box">Reflexive Conduit (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Indomitable will</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 14th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Immediate Action</div></div><div className="abEnd"><div className="box">While wearing light or no armor, when the blood conduit is subject to a combat maneuver check made to bull rush, grapple, pin, reposition, or trip him, he can target his attacker with a bloodrager spell that has a range of touch. If the spell would normally require a touch attack, a blood conduit can attempt a combat maneuver check for this attack instead.</div></div></div></div>
+<Ability id="arc-bloodrager-blood_conduit-contact-specialist-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-blood_conduit-contact-specialist-ex">Contact Specialist (Ex)</Pair>
+<Pair hl title="Replaces">Fast movement</Pair>
+<Pair hl title="Alters">Bloodline feats</Pair>
+<Pair title="At 1st Level">A blood conduit selects a bonus feat from the following: <Link to="/feat/improved_bull_rush">Improved Bull Rush</Link>, <Link to="/feat/improved_grapple">Improved Grapple</Link>, <Link to="/feat/improved_reposition">Improved Reposition</Link>, <Link to="/feat/improved_trip">Improved Trip</Link>, and <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>. He does not need to meet the prerequisites to take this feat. He also adds those feats to his list of bloodline feats.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-blood_conduit-spell-conduit-su" icon={["magic-swirl"]}>
+<Pair single id="arc-bloodrager-blood_conduit-spell-conduit-su">Spell Conduit (Su)</Pair>
+<Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Swift Action">When he succeeds at a <Link to="/rule/combat_maneuvers">combat maneuver</Link> check to bull rush, grapple, pin, reposition, or trip an opponent, or makes an unarmed strike against an enemy, he can cast a touch spell on the creature that he affected with the combat maneuver, requiring no further touch attack roll. If this spell would usually require a successful touch attack, his successful combat maneuver check counts as this attack.</Pair>
+<Pair title="Special">The blood conduit must be wearing light or no armor.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-blood_conduit-reflexive-conduit-ex" icon={["magic-swirl"]}>
+<Pair single id="arc-bloodrager-blood_conduit-reflexive-conduit-ex">Reflexive Conduit (Ex)</Pair>
+<Pair hl title="Replaces">Indomitable will</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Immediate Action">While wearing light or no armor, when the blood conduit is subject to a combat maneuver check made to bull rush, grapple, pin, reposition, or trip him, he can target his attacker with a bloodrager spell that has a range of touch. If the spell would normally require a touch attack, a blood conduit can attempt a combat maneuver check for this attack instead.</Pair>
+</Ability>
 </>};
 const _bloodline_familiars = {title: "Bloodline Familiars", jsx: <><h2 id="arc-bloodrager-bloodline_familiars-bloodline-familiars">Bloodline Familiars</h2>
 <p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 16</Link>  </p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-bloodrager-bloodline_familiars--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must have one of these bloodlines: aberrant, abyssal, arcane, celestial, destined, draconic, elemental, fey, infernal, or undead.</td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodline_familiars-bloodline-familiar" data-hash-target><div className="box">Bloodline Familiar</div><div className="flavor">Those with an inherent connection to magic often attract creatures who feel a similar instinctive pull toward magical forces.</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The 1st-level bloodline power</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The bloodrager gains a <Link to="/sidekick/familiar">familiar</Link> (as a wizard's <Link to="/ability/familiar">familiar</Link>), treating her class level as her wizard level for the purposes of this ability.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">In addition, the character gains bonus spells from her bloodline one level later than she normally would.</div></div></div></div>
-<div className="ability p hasSubs"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodline_familiars-familiar-abilities" data-hash-target><div className="box">Familiar Abilities</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">GMs may use the following bloodline familiar abilities as written, or employ them as guidelines for devising bloodline familiar abilities for bloodlines not listed below.</div></div></div></div>
-<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodline_familiars-squeezer-ex" data-hash-target><div className="box">Squeezer (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Prerequisites</div></div><div className="abEnd"><div className="box"><Link to="/blrgbloodline/aberrant">Aberrant</Link> bloodline</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The familiar gains the <Link to="/umr/compression">compression</Link> ability, allowing it to move through an area as small as one-quarter its space without <Link to="/misc/squeezing">squeezing</Link> or one-eighth its space when squeezing.</div></div></div></div>
-<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodline_familiars-grotesque-appendages-ex" data-hash-target><div className="box">Grotesque Appendages (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Prerequisites</div></div><div className="abEnd"><div className="box"><Link to="/blrgbloodline/abyssal">Abyssal</Link> bloodline</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The damage dice of each of the familiar's natural attacks increases <Link to="/misc/by_one_step">by one die step</Link>.</div></div></div></div>
-<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodline_familiars-spell-catalyst-su" data-hash-target><div className="box">Spell Catalyst (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Prerequisites</div></div><div className="abEnd"><div className="box"><Link to="/blrgbloodline/arcane">Arcane</Link> bloodline</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">Spells you cast that target your familiar are treated as having a caster level 2 levels higher than your actual caster level.</div></div></div></div>
-<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/heart-plus"><IonIcon icon="/icons/heart-plus.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodline_familiars-heavenly-touch-su" data-hash-target><div className="box">Heavenly Touch (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Prerequisites</div></div><div className="abEnd"><div className="box"><Link to="/blrgbloodline/celestial">Celestial</Link> bloodline</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">3 + Cha modifier times/day</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">Your familiar can grant <Link to="/umr/fast_healing">fast healing</Link> 1 to an allied creature it's touching. This effect lasts a number of rounds equal to your Charisma modifier (minimum 1) or until the familiar stops touching the creature, whichever comes first.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">The familiar grants fast healing 2 instead.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">The familiar grants fast healing 3 instead.</div></div></div></div>
-<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodline_familiars-foretold-touch-su" data-hash-target><div className="box">Foretold Touch (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Prerequisites</div></div><div className="abEnd"><div className="box"><Link to="/blrgbloodline/destined">Destined</Link> bloodline</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The familiar gains a +1 luck bonus on attack rolls to deliver touch spells, and the DC of touch spells delivered by the familiar increases by 1.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">The bonus becomes +2 and the DC is now raised by 2.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">The bonus becomes +3 and the DC is now raised by 3.</div></div></div></div>
-<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodline_familiars-dragons-flight-ex" data-hash-target><div className="box">Dragon's Flight (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Prerequisites</div></div><div className="abEnd"><div className="box"><Link to="/blrgbloodline/draconic">Draconic</Link> bloodline</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 minute/day per two caster levels (minimum 1); these minutes need not be consecutive, but they must be spent in 1-minute increments<ByLevelPop levels={[[1,1],[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="minute" postText="/day" /></div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The familiar can sprout draconic wings, granting it a fly speed of 30 feet with average maneuverability.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">The familiar's fly speed increases to 60 feet with good maneuverability.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">The familiar's fly speed increases to 90 feet.</div></div></div></div>
-<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodline_familiars-dualistic-energy-su" data-hash-target><div className="box">Dualistic Energy (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Prerequisites</div></div><div className="abEnd"><div className="box"><Link to="/blrgbloodline/elemental">Elemental</Link> bloodline</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">When your familiar delivers a touch spell that deals energy damage of a type other than your chosen energy type, your familiar can choose to alter the spell so that half of the energy damage dealt is of the spell's original type and the other half is of your chosen energy type.</div></div></div></div>
-<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodline_familiars-amusing-familiar-su" data-hash-target><div className="box">Amusing Familiar (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Prerequisites</div></div><div className="abEnd"><div className="box"><Link to="/blrgbloodline/fey">Fey</Link> bloodline</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The familiar can fascinate other creatures as the <Link to="/performance/fascinate">fascinate</Link> bardic performance, treating your caster level as its bard level and using your Charisma modifier for the purpose of calculating the Will save DC. The familiar cannot perform any other actions while using this ability.</div></div></div></div>
-<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodline_familiars-hellish-aura-su" data-hash-target><div className="box">Hellish Aura (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Prerequisites</div></div><div className="abEnd"><div className="box"><Link to="/blrgbloodline/infernal">Infernal</Link> bloodline</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">Animals don't willingly approach the familiar unless the animal's master succeeds at a DC 15 Handle Animal, Ride, or <Link to="/ability/wild_empathy">wild empathy</Link> check.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">The DC becomes 20.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">The DC becomes 25.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Animal companions, familiars and mounts are immune to this effect.</div></div></div></div>
-<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodline_familiars-unliving-physiology-su" data-hash-target><div className="box">Unliving Physiology (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Prerequisites</div></div><div className="abEnd"><div className="box"><Link to="/blrgbloodline/undead">Undead</Link> bloodline</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The familiar is alive, but is treated as undead for all effects that affect undead differently from living creatures, such as <Link to="/main/cure_spells">cure spells</Link> and <Link to="/ability/channel_energy">channeled energy</Link>.</div></div></div></div>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-bloodrager-bloodline_familiars--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must have one of these bloodlines: aberrant, abyssal, arcane, celestial, destined, draconic, elemental, fey, infernal, or undead.</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-bloodrager-bloodline_familiars-bloodline-familiar" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-bloodrager-bloodline_familiars-bloodline-familiar" flavor="Those with an inherent connection to magic often attract creatures who feel a similar instinctive pull toward magical forces.">Bloodline Familiar</Pair>
+<Pair hl title="Replaces">The 1st-level bloodline power</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The bloodrager gains a <Link to="/sidekick/familiar">familiar</Link> (as a wizard's <Link to="/ability/familiar">familiar</Link>), treating her class level as her wizard level for the purposes of this ability.</Pair>
+<Pair title="Info">In addition, the character gains bonus spells from her bloodline one level later than she normally would.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloodline_familiars-familiar-abilities" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-bloodline_familiars-familiar-abilities">Familiar Abilities</Pair>
+<Pair title="Info">GMs may use the following bloodline familiar abilities as written, or employ them as guidelines for devising bloodline familiar abilities for bloodlines not listed below.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloodline_familiars-squeezer-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-bloodline_familiars-squeezer-ex">Squeezer (Ex)</Pair>
+<Pair title="Prerequisites"><Link to="/blrgbloodline/aberrant">Aberrant</Link> bloodline</Pair>
+<Pair title="Ability">The familiar gains the <Link to="/umr/compression">compression</Link> ability, allowing it to move through an area as small as one-quarter its space without <Link to="/misc/squeezing">squeezing</Link> or one-eighth its space when squeezing.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloodline_familiars-grotesque-appendages-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-bloodrager-bloodline_familiars-grotesque-appendages-ex">Grotesque Appendages (Ex)</Pair>
+<Pair title="Prerequisites"><Link to="/blrgbloodline/abyssal">Abyssal</Link> bloodline</Pair>
+<Pair title="Ability">The damage dice of each of the familiar's natural attacks increases <Link to="/misc/by_one_step">by one die step</Link>.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloodline_familiars-spell-catalyst-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-bloodrager-bloodline_familiars-spell-catalyst-su">Spell Catalyst (Su)</Pair>
+<Pair title="Prerequisites"><Link to="/blrgbloodline/arcane">Arcane</Link> bloodline</Pair>
+<Pair title="Ability">Spells you cast that target your familiar are treated as having a caster level 2 levels higher than your actual caster level.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloodline_familiars-heavenly-touch-su" extraClasses="subAbility" icon={["heart-plus"]}>
+<Pair single id="arc-bloodrager-bloodline_familiars-heavenly-touch-su">Heavenly Touch (Su)</Pair>
+<Pair title="Prerequisites"><Link to="/blrgbloodline/celestial">Celestial</Link> bloodline</Pair>
+<Pair title="Usage">3 + Cha modifier times/day</Pair>
+<Pair title="Ability">Your familiar can grant <Link to="/umr/fast_healing">fast healing</Link> 1 to an allied creature it's touching. This effect lasts a number of rounds equal to your Charisma modifier (minimum 1) or until the familiar stops touching the creature, whichever comes first.</Pair>
+<Pair title="At 10th Level">The familiar grants fast healing 2 instead.</Pair>
+<Pair title="At 20th Level">The familiar grants fast healing 3 instead.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloodline_familiars-foretold-touch-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-bloodrager-bloodline_familiars-foretold-touch-su">Foretold Touch (Su)</Pair>
+<Pair title="Prerequisites"><Link to="/blrgbloodline/destined">Destined</Link> bloodline</Pair>
+<Pair title="Ability">The familiar gains a +1 luck bonus on attack rolls to deliver touch spells, and the DC of touch spells delivered by the familiar increases by 1.</Pair>
+<Pair title="At 10th Level">The bonus becomes +2 and the DC is now raised by 2.</Pair>
+<Pair title="At 20th Level">The bonus becomes +3 and the DC is now raised by 3.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloodline_familiars-dragons-flight-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-bloodline_familiars-dragons-flight-ex">Dragon's Flight (Ex)</Pair>
+<Pair title="Prerequisites"><Link to="/blrgbloodline/draconic">Draconic</Link> bloodline</Pair>
+<Pair title="Usage">1 minute/day per two caster levels (minimum 1); these minutes need not be consecutive, but they must be spent in 1-minute increments<ByLevelPop levels={[[1,1],[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="minute" postText="/day" /></Pair>
+<Pair title="Ability">The familiar can sprout draconic wings, granting it a fly speed of 30 feet with average maneuverability.</Pair>
+<Pair title="At 10th Level">The familiar's fly speed increases to 60 feet with good maneuverability.</Pair>
+<Pair title="At 20th Level">The familiar's fly speed increases to 90 feet.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloodline_familiars-dualistic-energy-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-bloodrager-bloodline_familiars-dualistic-energy-su">Dualistic Energy (Su)</Pair>
+<Pair title="Prerequisites"><Link to="/blrgbloodline/elemental">Elemental</Link> bloodline</Pair>
+<Pair title="Ability">When your familiar delivers a touch spell that deals energy damage of a type other than your chosen energy type, your familiar can choose to alter the spell so that half of the energy damage dealt is of the spell's original type and the other half is of your chosen energy type.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloodline_familiars-amusing-familiar-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-bloodline_familiars-amusing-familiar-su">Amusing Familiar (Su)</Pair>
+<Pair title="Prerequisites"><Link to="/blrgbloodline/fey">Fey</Link> bloodline</Pair>
+<Pair title="Ability">The familiar can fascinate other creatures as the <Link to="/performance/fascinate">fascinate</Link> bardic performance, treating your caster level as its bard level and using your Charisma modifier for the purpose of calculating the Will save DC. The familiar cannot perform any other actions while using this ability.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloodline_familiars-hellish-aura-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-bloodrager-bloodline_familiars-hellish-aura-su">Hellish Aura (Su)</Pair>
+<Pair title="Prerequisites"><Link to="/blrgbloodline/infernal">Infernal</Link> bloodline</Pair>
+<Pair title="Ability">Animals don't willingly approach the familiar unless the animal's master succeeds at a DC 15 Handle Animal, Ride, or <Link to="/ability/wild_empathy">wild empathy</Link> check.</Pair>
+<Pair title="At 10th Level">The DC becomes 20.</Pair>
+<Pair title="At 20th Level">The DC becomes 25.</Pair>
+<Pair title="Special">Animal companions, familiars and mounts are immune to this effect.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloodline_familiars-unliving-physiology-su" extraClasses="subAbility" icon={["broken-shield"]}>
+<Pair single id="arc-bloodrager-bloodline_familiars-unliving-physiology-su">Unliving Physiology (Su)</Pair>
+<Pair title="Prerequisites"><Link to="/blrgbloodline/undead">Undead</Link> bloodline</Pair>
+<Pair title="Ability">The familiar is alive, but is treated as undead for all effects that affect undead differently from living creatures, such as <Link to="/main/cure_spells">cure spells</Link> and <Link to="/ability/channel_energy">channeled energy</Link>.</Pair>
+</Ability>
 </>};
 const _bloodrider = {title: "Bloodrider", jsx: <><h2 id="arc-bloodrager-bloodrider-bloodrider">Bloodrider</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 82</Link><br/>In the world's wild lands, a mount is an advantage in both everyday life and the dealing of death. In many barbarian tribes, the true stature of a warrior is determined by his skill and ferocity on horseback. Other tribes measure it in skill atop whatever terrible mounts their people employ. A number of bloodragers are not only skilled in the art of mounted combat, but have learned to channel their arcane energies directly into their mount.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodrider-fast-rider-ex" data-hash-target><div className="box">Fast Rider (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Fast movement</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The bloodrider is adept at pushing his mount to its limit. The speed of any mount the bloodrager rides increases by 10 feet.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodrider-feral-mount-ex" data-hash-target><div className="box">Feral Mount (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Uncanny dodge, improved uncanny dodge</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The bloodrider gains the service of a feral mount. This ability functions as the druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using the bloodrager's level - 4 as his effective druid level. This companion must be one he is capable of riding and suitable as a mount. A Medium bloodrider can select a <Link to="/companion/camel">camel</Link> or a <Link to="/companion/horse">horse</Link>. A Small bloodrider can select a <Link to="/companion/pony">pony</Link> or <Link to="/companion/wolf">wolf</Link>, but can also select a <Link to="/companion/boar">boar</Link> or <Link to="/companion/dog">riding dog</Link> if he is at least 8th level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Whenever a bloodrider is bloodraging, this feral mount gains a +2 morale bonus to its Strength.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloodrider-blood-bond-su" data-hash-target><div className="box">Blood Bond (Su)</div><div className="flavor">The bloodrider and his feral mount gain a closer bond that allows the bloodrider to augment his mount based on his bloodline.</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The bloodline feat gained at 9th level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 9th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">While the bloodrider is bloodraging and on his feral mount, he grants the mount all the immunities and resistances he gains from bloodline powers. Furthermore, whenever the bloodrager is affected by a spell or spell-like ability with the range of personal while on the feral mount, the feral mount also gains the benefit of that spell.</div></div></div></div>
+<Ability id="arc-bloodrager-bloodrider-fast-rider-ex" icon={["upgrade"]}>
+<Pair single id="arc-bloodrager-bloodrider-fast-rider-ex">Fast Rider (Ex)</Pair>
+<Pair hl title="Replaces">Fast movement</Pair>
+<Pair title="Passive Ability">The bloodrider is adept at pushing his mount to its limit. The speed of any mount the bloodrager rides increases by 10 feet.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloodrider-feral-mount-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-bloodrider-feral-mount-ex">Feral Mount (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">The bloodrider gains the service of a feral mount. This ability functions as the druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using the bloodrager's level - 4 as his effective druid level. This companion must be one he is capable of riding and suitable as a mount. A Medium bloodrider can select a <Link to="/companion/camel">camel</Link> or a <Link to="/companion/horse">horse</Link>. A Small bloodrider can select a <Link to="/companion/pony">pony</Link> or <Link to="/companion/wolf">wolf</Link>, but can also select a <Link to="/companion/boar">boar</Link> or <Link to="/companion/dog">riding dog</Link> if he is at least 8th level.</Pair>
+<Pair title="Special">Whenever a bloodrider is bloodraging, this feral mount gains a +2 morale bonus to its Strength.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloodrider-blood-bond-su" icon={["upgrade"]}>
+<Pair single id="arc-bloodrager-bloodrider-blood-bond-su" flavor="The bloodrider and his feral mount gain a closer bond that allows the bloodrider to augment his mount based on his bloodline.">Blood Bond (Su)</Pair>
+<Pair hl title="Replaces">The bloodline feat gained at 9th level</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Passive Ability">While the bloodrider is bloodraging and on his feral mount, he grants the mount all the immunities and resistances he gains from bloodline powers. Furthermore, whenever the bloodrager is affected by a spell or spell-like ability with the range of personal while on the feral mount, the feral mount also gains the benefit of that spell.</Pair>
+</Ability>
 </>};
 const _bloody_knuckled_rowdy = {title: "Bloody-Knuckled Rowdy", jsx: <><h2 id="arc-bloodrager-bloody_knuckled_rowdy-bloody-knuckled-rowdy">Bloody-Knuckled Rowdy</h2>
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 13</Link><br/>Bloodragers are frequently rough-and-ready, untrained scrappers who learn to exploit any advantage to gain the upper hand in a fight. The bloody-knuckled rowdy focuses on tricks and maneuvers that are quick and effective, duplicating combat styles from professional brawlers, street thugs, and even trapped animals. Rather than focusing on a single style, most bloody-knuckled rowdies dabble in multiple techniques, mixing and matching their array of vicious maneuvers to suit the occasion.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloody_knuckled_rowdy-bloody-knuckles" data-hash-target><div className="box">Bloody Knuckles</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">The bloody-knuckled rowdy does not gain damage reduction.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloody_knuckled_rowdy-reduced-spells-known" data-hash-target><div className="box">Reduced Spells Known</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Spellcasting</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">The bloody-knuckled rowdy focuses more on fighting tactics and less on his natural arcane powers. He receives one fewer spell known at each spell level.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloody_knuckled_rowdy-pugilist-ex" data-hash-target><div className="box">Pugilist (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Fast movement</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A bloody-knuckled rowdy gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloody_knuckled_rowdy-combat-style-student" data-hash-target><div className="box">Combat Style Student</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Uncanny dodge, improved uncanny dodge</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A bloody-knuckled rowdy gains a bonus feat. This bonus feat must be a <Link to="/main/style_feat">style feat</Link> or a feat with a style feat as a prerequisite. The bloody-knuckled rowdy treats his bloodrager levels as monk levels when qualifying for and calculating the effects of style feats and feats that have style feats as prerequisites.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 5th Level</div></div><div className="abEnd"><div className="box">The bloody-knuckled rowdy gains the <Link to="/feat/combat_style_master">Combat Style Master</Link> feat. He doesn't need to meet the prerequisites for this feat.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/mailed-fist"><IonIcon icon="/icons/mailed-fist.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-bloody_knuckled_rowdy-hand-to-hand-training-ex" data-hash-target><div className="box">Hand-to-Hand Training (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A bloody-knuckled rowdy deals unarmed damage as a <Link to="/class/monk">monk</Link> of a level equal to his bloodrager level - 2.</div></div></div></div>
+<Ability id="arc-bloodrager-bloody_knuckled_rowdy-bloody-knuckles" icon={["broken-shield"]}>
+<Pair single id="arc-bloodrager-bloody_knuckled_rowdy-bloody-knuckles">Bloody Knuckles</Pair>
+<Pair title="Info">The bloody-knuckled rowdy does not gain damage reduction.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloody_knuckled_rowdy-reduced-spells-known" icon={["broken-shield"]}>
+<Pair single id="arc-bloodrager-bloody_knuckled_rowdy-reduced-spells-known">Reduced Spells Known</Pair>
+<Pair hl title="Alters">Spellcasting</Pair>
+<Pair title="Info">The bloody-knuckled rowdy focuses more on fighting tactics and less on his natural arcane powers. He receives one fewer spell known at each spell level.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloody_knuckled_rowdy-pugilist-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-bloody_knuckled_rowdy-pugilist-ex">Pugilist (Ex)</Pair>
+<Pair hl title="Replaces">Fast movement</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A bloody-knuckled rowdy gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloody_knuckled_rowdy-combat-style-student" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-bloody_knuckled_rowdy-combat-style-student">Combat Style Student</Pair>
+<Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A bloody-knuckled rowdy gains a bonus feat. This bonus feat must be a <Link to="/main/style_feat">style feat</Link> or a feat with a style feat as a prerequisite. The bloody-knuckled rowdy treats his bloodrager levels as monk levels when qualifying for and calculating the effects of style feats and feats that have style feats as prerequisites.</Pair>
+<Pair title="At 5th Level">The bloody-knuckled rowdy gains the <Link to="/feat/combat_style_master">Combat Style Master</Link> feat. He doesn't need to meet the prerequisites for this feat.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloody_knuckled_rowdy-hand-to-hand-training-ex" icon={["mailed-fist"]}>
+<Pair single id="arc-bloodrager-bloody_knuckled_rowdy-hand-to-hand-training-ex">Hand-to-Hand Training (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A bloody-knuckled rowdy deals unarmed damage as a <Link to="/class/monk">monk</Link> of a level equal to his bloodrager level - 2.</Pair>
+</Ability>
 </>};
 const _crossblooded_rager = {title: "Crossblooded Rager", jsx: <><h2 id="arc-bloodrager-crossblooded_rager-crossblooded-rager">Crossblooded Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 83</Link><br/>While most bloodragers manifest only one bloodline, there are some that, through some quirk of heredity or the conjunction of other powers, manifest two. This combination of two distinct bloodlines can create a versatile and powerful rager who stands out among the horde.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-crossblooded_rager-two-bloodlines" data-hash-target><div className="box">Two Bloodlines</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Choice</div></div><div className="abEnd"><div className="box">A crossblooded rager selects two different bloodlines. He gains access to the feats, bonus spells, and some of the powers of both bloodlines he is descended from, but at the cost of reducing mental clarity (see Drawbacks below).</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">If the crossblooded rager already has a bloodline from another class, one of the chosen bloodlines must be that bloodline.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-crossblooded_rager-bonus-feats" data-hash-target><div className="box">Bonus Feats</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">A crossblooded rager combines the bonus feat lists from both of his bloodlines and can select his bloodline bonus feats from this combined list.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/info"><IonIcon icon="/icons/info.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-crossblooded_rager-bonus-spells" data-hash-target><div className="box">Bonus Spells</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Choice</div></div><div className="abEnd"><div className="box">A crossblooded rager can select his bonus spells from either of his bloodlines.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">He can also learn a lower-level bonus spell he did not choose in place of the higher-level bonus spell he would normally gain. Lower-level bonus spells learned in this manner are always the spell level that they would be if the crossblooded rager had learned them with the appropriate bonus spell.</div></div></div></div>
+<Ability id="arc-bloodrager-crossblooded_rager-two-bloodlines" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-crossblooded_rager-two-bloodlines">Two Bloodlines</Pair>
+<Pair title="Choice">A crossblooded rager selects two different bloodlines. He gains access to the feats, bonus spells, and some of the powers of both bloodlines he is descended from, but at the cost of reducing mental clarity (see Drawbacks below).</Pair>
+<Pair title="Special">If the crossblooded rager already has a bloodline from another class, one of the chosen bloodlines must be that bloodline.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-crossblooded_rager-bonus-feats" icon={["info"]}>
+<Pair single id="arc-bloodrager-crossblooded_rager-bonus-feats">Bonus Feats</Pair>
+<Pair title="Info">A crossblooded rager combines the bonus feat lists from both of his bloodlines and can select his bloodline bonus feats from this combined list.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-crossblooded_rager-bonus-spells" icon={["info"]}>
+<Pair single id="arc-bloodrager-crossblooded_rager-bonus-spells">Bonus Spells</Pair>
+<Pair title="Choice">A crossblooded rager can select his bonus spells from either of his bloodlines.</Pair>
+<Pair title="Ability">He can also learn a lower-level bonus spell he did not choose in place of the higher-level bonus spell he would normally gain. Lower-level bonus spells learned in this manner are always the spell level that they would be if the crossblooded rager had learned them with the appropriate bonus spell.</Pair>
+</Ability>
 <p><em>For example: A 7th-level <Link to="/blrgbloodline/aberrant">aberrant</Link>/<Link to="/blrgbloodline/abyssal">abyssal</Link> crossblooded rager has the choice of learning <Link to="/spell/enlarge_person">enlarge person</Link> or <Link to="/spell/ray_of_enfeeblement">ray of enfeeblement</Link> as his bloodline bonus spell. If he selected</em> ray of enfeeblement <em>as his 7th-level bonus spell, at 10th level he could use his new bonus spell to learn</em> enlarge person <em>instead of <Link to="/spell/bulls_strength">bull's strength</Link> or <Link to="/spell/see_invisibility">see invisibility</Link>, and he would add it to his list of 1st-level spells known (just as if he had learned it as his 7th-level bonus spell).</em></p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-crossblooded_rager-bloodline-powers" data-hash-target><div className="box">Bloodline Powers</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Choice</div></div><div className="abEnd"><div className="box">At 1st, 4th, 8th, 12th, 16th, and 20th levels, a crossblooded rager gains one of the two new bloodline powers available to him at that level. He can instead select a lower-level bloodline power he did not choose in place of one of these high-level powers.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-crossblooded_rager-drawbacks" data-hash-target><div className="box">Drawbacks</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">The furious mix of arcane power inside a crossblooded rager forces him to constantly expend mental effort to remain focused on his current situation and needs. This leaves him with less mental resolve available to deal with external threats.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">A crossblooded rager takes a -2 penalty to all Will saving throws at all times, and does not gain the +2 morale bonus on Will saving throws while bloodraging - though he does gain a +1 morale bonus Will saving throws when he gains the <em>greater bloodrage</em> class feature, which increases to a +2 morale bonus on saving throws upon gaining the <em>mighty bloodrage</em> class feature.</div></div></div></div>
+<Ability id="arc-bloodrager-crossblooded_rager-bloodline-powers" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-crossblooded_rager-bloodline-powers">Bloodline Powers</Pair>
+<Pair title="Choice">At 1st, 4th, 8th, 12th, 16th, and 20th levels, a crossblooded rager gains one of the two new bloodline powers available to him at that level. He can instead select a lower-level bloodline power he did not choose in place of one of these high-level powers.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-crossblooded_rager-drawbacks" icon={["broken-shield"]}>
+<Pair single id="arc-bloodrager-crossblooded_rager-drawbacks">Drawbacks</Pair>
+<Pair title="Info">The furious mix of arcane power inside a crossblooded rager forces him to constantly expend mental effort to remain focused on his current situation and needs. This leaves him with less mental resolve available to deal with external threats.</Pair>
+<Pair title="Passive Ability">A crossblooded rager takes a -2 penalty to all Will saving throws at all times, and does not gain the +2 morale bonus on Will saving throws while bloodraging - though he does gain a +1 morale bonus Will saving throws when he gains the <em>greater bloodrage</em> class feature, which increases to a +2 morale bonus on saving throws upon gaining the <em>mighty bloodrage</em> class feature.</Pair>
+</Ability>
 </>};
 const _enlightened_bloodrager = {title: "Enlightened Bloodrager", jsx: <><h2 id="arc-bloodrager-enlightened_bloodrager-enlightened-bloodrager">Enlightened Bloodrager</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 120</Link>, <Link to="/source/arcane_anthology">Arcane Anthology pg. 16</Link><br/>Troubled by overwhelming rage and mystic forces beyond their comprehension, bloodragers have been traveling to the <Link to="/rule/magaambya">Magaambya</Link> for generations, seeking the peace and enlightenment promised by students of Old-Mage Jatembe. Many perish or succumb to their bloodlust long before arriving at the school, but those who survive that journey and dedicate themselves to Jatembe's teachings eventually learn to control their anger and suppress the worst influences of their bloodlines.</p>
 <p>Once a bloodrager takes the teachings of the Magaambya into her heart and mind, she unlocks a unique method of casting her violent, rage-fueled spells. As a result, an enlightened bloodrager's magic looks, feels, and functions quite differently from the magic of other bloodragers. In many cases, when an enlightened bloodrager encounters a more traditional bloodrager, the meeting is laced with tension and suspicion. The enlightened bloodrager is, of course, well aware of the other bloodrager's tendency toward violence, and the other bloodrager is often unnerved by the calm and reasoned mannerisms of his enlightened counterpart. Many bloodragers even take offense at this demeanor, interpreting the enlightened bloodrager as a pawn of intellectuals or as having dishonored her ancestry or traditions by abandoning emotion and wrath. As one can well expect, such confrontations rarely result in lasting friendships!</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-enlightened_bloodrager-enlightened-spellcasting" data-hash-target><div className="box">Enlightened Spellcasting</div><div className="flavor">An enlightened bloodrager's unusually sophisticated outlook on the relationship between magic and emotional outbursts allows her to cast an expanded array of spells.</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">1st-level bloodline power, bloodline bonus spells</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Spellcasting</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">She gains the ability to know and cast 0-level spells, which are cast like any other spells, but don't consume spell slots and can be used again. She gains a number of 0-level spells known equal to those of a <Link to="/class/bard">bard</Link> whose level is 3 lower than her bloodrager level. She selects these 0-level spells from the <Link to="/main/spells_druid">druid's list</Link> of 0-level spells. She also gains one 1st-level druid spell as a bonus spell known.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">She gains one 2nd-level druid spell as a bonus spell known.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">She gains one 3rd-level druid spell as a bonus spell known.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">She gains one 4th-level druid spell as a bonus spell known.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">At 8th level and every three levels thereafter, she can swap out these spells using the normal rules for swapping out a spell. If she chooses to swap out one of her bonus druid spells, she must replace it with a druid spell of the same level. Any swapped-out spells are removed from her bloodrager class spell list.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">The bloodrager treats any druid spells she takes with this ability as bloodrager spells for the purposes of other abilities, and adds them to her bloodrager class spell list.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-enlightened_bloodrager-enlightened-bloodrage-su" data-hash-target><div className="box">Enlightened Bloodrage (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The bloodline power gained at 4th level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Bloodrage</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">While bloodraging, an enlightened bloodrager can still use Intelligence-, Dexterity-, and Charisma-based skills and can use abilities that require patience or concentration.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-enlightened_bloodrager-bloodline-feat" data-hash-target><div className="box">Bloodline Feat</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Damage reduction the bloodrager gains at 7th, 13th, and 19th levels</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 6th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">An enlightened bloodrager adds <Link to="/feat/expanded_arcana">Expanded Arcana</Link>, <Link to="/feat/nameless_one">Nameless One</Link>, and all feats that list Nameless One as a prerequisite to the list of feats she can select as a bloodline feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">The bloodrager gains DR 1/- at 10th level, and this increases to DR 2/- at 16th level.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-enlightened_bloodrager-bloodline-powers" data-hash-target><div className="box">Bloodline Powers</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">The bloodrager's bloodline powers</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">An enlightened bloodrager gains the bloodline power normally granted at 1st level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">She gains the bloodline power normally granted at 4th level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">She gains the bloodline power normally granted at 8th level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">She gains the bloodline power normally gained at 12th level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">She still uses her full bloodrager level when making level-based calculations in regard to these abilities.</div></div></div></div>
+<Ability id="arc-bloodrager-enlightened_bloodrager-enlightened-spellcasting" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="arc-bloodrager-enlightened_bloodrager-enlightened-spellcasting" flavor="An enlightened bloodrager's unusually sophisticated outlook on the relationship between magic and emotional outbursts allows her to cast an expanded array of spells.">Enlightened Spellcasting</Pair>
+<Pair hl title="Replaces">1st-level bloodline power, bloodline bonus spells</Pair>
+<Pair hl title="Alters">Spellcasting</Pair>
+<Pair title="At 4th Level">She gains the ability to know and cast 0-level spells, which are cast like any other spells, but don't consume spell slots and can be used again. She gains a number of 0-level spells known equal to those of a <Link to="/class/bard">bard</Link> whose level is 3 lower than her bloodrager level. She selects these 0-level spells from the <Link to="/main/spells_druid">druid's list</Link> of 0-level spells. She also gains one 1st-level druid spell as a bonus spell known.</Pair>
+<Pair title="At 7th Level">She gains one 2nd-level druid spell as a bonus spell known.</Pair>
+<Pair title="At 10th Level">She gains one 3rd-level druid spell as a bonus spell known.</Pair>
+<Pair title="At 13th Level">She gains one 4th-level druid spell as a bonus spell known.</Pair>
+<Pair title="Ability">At 8th level and every three levels thereafter, she can swap out these spells using the normal rules for swapping out a spell. If she chooses to swap out one of her bonus druid spells, she must replace it with a druid spell of the same level. Any swapped-out spells are removed from her bloodrager class spell list.</Pair>
+<Pair title="Special">The bloodrager treats any druid spells she takes with this ability as bloodrager spells for the purposes of other abilities, and adds them to her bloodrager class spell list.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-enlightened_bloodrager-enlightened-bloodrage-su" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-enlightened_bloodrager-enlightened-bloodrage-su">Enlightened Bloodrage (Su)</Pair>
+<Pair hl title="Replaces">The bloodline power gained at 4th level</Pair>
+<Pair hl title="Alters">Bloodrage</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">While bloodraging, an enlightened bloodrager can still use Intelligence-, Dexterity-, and Charisma-based skills and can use abilities that require patience or concentration.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-enlightened_bloodrager-bloodline-feat" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-enlightened_bloodrager-bloodline-feat">Bloodline Feat</Pair>
+<Pair hl title="Replaces">Damage reduction the bloodrager gains at 7th, 13th, and 19th levels</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">An enlightened bloodrager adds <Link to="/feat/expanded_arcana">Expanded Arcana</Link>, <Link to="/feat/nameless_one">Nameless One</Link>, and all feats that list Nameless One as a prerequisite to the list of feats she can select as a bloodline feat.</Pair>
+<Pair title="Info">The bloodrager gains DR 1/- at 10th level, and this increases to DR 2/- at 16th level.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-enlightened_bloodrager-bloodline-powers" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-enlightened_bloodrager-bloodline-powers">Bloodline Powers</Pair>
+<Pair hl title="Alters">The bloodrager's bloodline powers</Pair>
+<Pair title="At 8th Level">An enlightened bloodrager gains the bloodline power normally granted at 1st level.</Pair>
+<Pair title="At 12th Level">She gains the bloodline power normally granted at 4th level.</Pair>
+<Pair title="At 16th Level">She gains the bloodline power normally granted at 8th level.</Pair>
+<Pair title="At 20th Level">She gains the bloodline power normally gained at 12th level.</Pair>
+<Pair title="Special">She still uses her full bloodrager level when making level-based calculations in regard to these abilities.</Pair>
+</Ability>
 </>};
 const _greenrager = {title: "Greenrager", jsx: <><h2 id="arc-bloodrager-greenrager-greenrager">Greenrager</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 83</Link><br/>Typically, nature finds its greatest harmony with divine magic, but sometimes a connection with the natural world manifest itself through the arcane current in the veins of the bloodragers called greenragers. These bloodragers funnel their eldritch heritage into abilities that allow them to call powerful allies from nature and empower them with their bloodrage.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-greenrager-unfettered-fury-ex" data-hash-target><div className="box">Unfettered Fury (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Blood sanctuary</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 3rd Level</div></div><div className="abEnd"><div className="box">A greenrager's fury allows him to move through undergrowth with frightening speed and grace. This functions as the druid's <Link to="/ability/woodland_stride">woodland stride</Link> class feature, but only while the greenrager is bloodraging.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-greenrager-summoning-rager-sp" data-hash-target><div className="box">Summoning Rager (Sp)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The bloodline feat gained at 6th level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">A greenrager's magic unlocks the secrets of summoning allies from nature. He adds <Link to="/spell/summon_natures_ally_i">summon nature's ally I</Link> to his list of 1st-level bloodrager spells known as a bonus spell, as if it were a bonus bloodrager spell.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">He adds <Link to="/spell/summon_natures_ally_ii">summon nature's ally II</Link> as a bonus 2nd-level bloodrager spell.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">He adds <Link to="/spell/summon_natures_ally_iii">summon nature's ally III</Link> as a bonus 3rd level bloodrager spell.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">He adds <Link to="/spell/summon_natures_ally_iv">summon nature's ally IV</Link> as a bonus 4th-level bloodrager spell.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-greenrager-furious-summoning-su" data-hash-target><div className="box">Furious Summoning (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The bloodline feat at 9th level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">Creatures summoned by the bloodrager's <em>summon nature's ally</em> spell gain a +4 morale bonus to Strength and Constitution and gain the druid's woodland stride ability.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">This bonus increases to +6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">It increases to +8.</div></div></div></div>
+<Ability id="arc-bloodrager-greenrager-unfettered-fury-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-greenrager-unfettered-fury-ex">Unfettered Fury (Ex)</Pair>
+<Pair hl title="Replaces">Blood sanctuary</Pair>
+<Pair title="At 3rd Level">A greenrager's fury allows him to move through undergrowth with frightening speed and grace. This functions as the druid's <Link to="/ability/woodland_stride">woodland stride</Link> class feature, but only while the greenrager is bloodraging.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-greenrager-summoning-rager-sp" icon={["spell-book"]}>
+<Pair single id="arc-bloodrager-greenrager-summoning-rager-sp">Summoning Rager (Sp)</Pair>
+<Pair hl title="Replaces">The bloodline feat gained at 6th level</Pair>
+<Pair title="At 6th Level">A greenrager's magic unlocks the secrets of summoning allies from nature. He adds <Link to="/spell/summon_natures_ally_i">summon nature's ally I</Link> to his list of 1st-level bloodrager spells known as a bonus spell, as if it were a bonus bloodrager spell.</Pair>
+<Pair title="At 7th Level">He adds <Link to="/spell/summon_natures_ally_ii">summon nature's ally II</Link> as a bonus 2nd-level bloodrager spell.</Pair>
+<Pair title="At 10th Level">He adds <Link to="/spell/summon_natures_ally_iii">summon nature's ally III</Link> as a bonus 3rd level bloodrager spell.</Pair>
+<Pair title="At 13th Level">He adds <Link to="/spell/summon_natures_ally_iv">summon nature's ally IV</Link> as a bonus 4th-level bloodrager spell.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-greenrager-furious-summoning-su" icon={["upgrade"]}>
+<Pair single id="arc-bloodrager-greenrager-furious-summoning-su">Furious Summoning (Su)</Pair>
+<Pair hl title="Replaces">The bloodline feat at 9th level</Pair>
+<Pair title="At 9th Level">Creatures summoned by the bloodrager's <em>summon nature's ally</em> spell gain a +4 morale bonus to Strength and Constitution and gain the druid's woodland stride ability.</Pair>
+<Pair title="At 11th Level">This bonus increases to +6.</Pair>
+<Pair title="At 20th Level">It increases to +8.</Pair>
+</Ability>
 </>};
 const _hag_riven = {title: "Hag-Riven", jsx: <><h2 id="arc-bloodrager-hag_riven-hag-riven">Hag-Riven</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 27</Link><br/>All <Link to="/race/changeling">changelings</Link> have the potential to transform into <Link to="/family/hag">hags</Link>, but the process is a slow one, requiring several nights to complete. When left incomplete - by virtue of a wily changeling's escape or her mother's death - the creature is scarred and saturated in arcane power. Though she remains in possession of her own faculties, the seeds of hag hatred sprout within her. These hag-riven wield powerful magic interlaced with more powerful emotions.</p>
 <p>The painful rituals that create a hag-riven can work for any creatures tenacious enough to endure them, and the art has sprung up as a defense against the devastating power of hags in various remote communities.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-bloodrager-hag_riven--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must select one of these bloodrager bloodlines: <Link to="/blrgbloodline/arcane">arcane</Link>, <Link to="/blrgbloodline/destined">destined</Link>, <Link to="/blrgbloodline/elemental">elemental</Link>, <Link to="/blrgbloodline/fey">fey</Link>, or <Link to="/blrgbloodline/hag">hag</Link>.</td></tr></tbody></table></ScrollContainer></div><div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-hag_riven-arcane-influence" data-hash-target><div className="box">Arcane Influence</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Weapon and armor proficiencies</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">A hag-riven bloodrager does not gain proficiency with martial weapons.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/mailed-fist"><IonIcon icon="/icons/mailed-fist.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-hag_riven-claws-of-the-hag-ex" data-hash-target><div className="box">Claws of the Hag (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Fast movement, uncanny dodge</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A hag-riven grows a pair of vicious claws that are treated as <Link to="/rule/natural_weapon">natural weapons</Link>. These claws are primary attacks and deal 1d4 points of damage each (1d3 for a Small creature) plus the hag-riven's Strength modifier.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 2nd Level</div></div><div className="abEnd"><div className="box">These claws are considered magic weapons for the purpose of overcoming damage reduction.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 5th Level</div></div><div className="abEnd"><div className="box">The damage increases to 1d6 points (1d4 for a Small creature).</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">The hag-riven's claws threaten a critical hit on a natural roll of 19-20.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">The damage increases again to 1d8 points (1d6 for a Small creature).</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-hag_riven-sorcerous-claws-su" data-hash-target><div className="box">Sorcerous Claws (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Improved uncanny dodge</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">A hag-riven can expend one of her daily spell slots to grant her claws an enhancement bonus equal to the level of the spell slot sacrificed. This bonus lasts for 1 minute and stacks with existing enhancement bonuses (such as those provided by <Link to="/spell/magic_fang">magic fang</Link> or magic items) to a maximum of +5.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">The hag-riven can also expend some or all of the bonus provided by her sorcerous claws to add any of the following weapon properties to her claws for 1 minute: <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/nullifying">nullifying</Link>, <Link to="/magic-enh/seaborne">seaborne</Link>, <Link to="/magic-enh/spellstealing">spellstealing</Link>, <Link to="/magic-enh/shock">shock</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, or <Link to="/magic-enh/wounding">wounding</Link>. Her claws must have a minimum enhancement bonus of +1 before any special abilities can be added.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Multiple uses of this ability do not stack with themselves.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-hag_riven-scarred-hide-ex" data-hash-target><div className="box">Scarred Hide (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">A hag-riven's scarred flesh becomes thick and leathery. She gains a +1 natural armor bonus to AC.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">The bonus becomes +2.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">The bonus becomes +3.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">The bonus becomes +4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">The bonus becomes +5.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-hag_riven-hexing-claws-su" data-hash-target><div className="box">Hexing Claws (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Damage reduction</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">A hag-riven gains <Link to="/feat/critical_focus">Critical Focus</Link> as a bonus feat, but she can apply its benefits only to her claw attacks. Each morning, she can select a single feat with Critical Focus as a prerequisite and apply its benefits to her claw attacks. She must meet all other prerequisites for any feat she wishes to apply with this ability.</div></div></div></div>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-bloodrager-hag_riven--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must select one of these bloodrager bloodlines: <Link to="/blrgbloodline/arcane">arcane</Link>, <Link to="/blrgbloodline/destined">destined</Link>, <Link to="/blrgbloodline/elemental">elemental</Link>, <Link to="/blrgbloodline/fey">fey</Link>, or <Link to="/blrgbloodline/hag">hag</Link>.</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-bloodrager-hag_riven-arcane-influence" icon={["broken-shield"]}>
+<Pair single id="arc-bloodrager-hag_riven-arcane-influence">Arcane Influence</Pair>
+<Pair hl title="Alters">Weapon and armor proficiencies</Pair>
+<Pair title="Passive Ability">A hag-riven bloodrager does not gain proficiency with martial weapons.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-hag_riven-claws-of-the-hag-ex" icon={["mailed-fist"]}>
+<Pair single id="arc-bloodrager-hag_riven-claws-of-the-hag-ex">Claws of the Hag (Ex)</Pair>
+<Pair hl title="Replaces">Fast movement, uncanny dodge</Pair>
+<Pair title="Ability">A hag-riven grows a pair of vicious claws that are treated as <Link to="/rule/natural_weapon">natural weapons</Link>. These claws are primary attacks and deal 1d4 points of damage each (1d3 for a Small creature) plus the hag-riven's Strength modifier.</Pair>
+<Pair title="At 2nd Level">These claws are considered magic weapons for the purpose of overcoming damage reduction.</Pair>
+<Pair title="At 5th Level">The damage increases to 1d6 points (1d4 for a Small creature).</Pair>
+<Pair title="At 13th Level">The hag-riven's claws threaten a critical hit on a natural roll of 19-20.</Pair>
+<Pair title="At 16th Level">The damage increases again to 1d8 points (1d6 for a Small creature).</Pair>
+</Ability>
+<Ability id="arc-bloodrager-hag_riven-sorcerous-claws-su" icon={["upgrade"]}>
+<Pair single id="arc-bloodrager-hag_riven-sorcerous-claws-su">Sorcerous Claws (Su)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Swift Action">A hag-riven can expend one of her daily spell slots to grant her claws an enhancement bonus equal to the level of the spell slot sacrificed. This bonus lasts for 1 minute and stacks with existing enhancement bonuses (such as those provided by <Link to="/spell/magic_fang">magic fang</Link> or magic items) to a maximum of +5.</Pair>
+<Pair title="At 7th Level">The hag-riven can also expend some or all of the bonus provided by her sorcerous claws to add any of the following weapon properties to her claws for 1 minute: <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/nullifying">nullifying</Link>, <Link to="/magic-enh/seaborne">seaborne</Link>, <Link to="/magic-enh/spellstealing">spellstealing</Link>, <Link to="/magic-enh/shock">shock</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, or <Link to="/magic-enh/wounding">wounding</Link>. Her claws must have a minimum enhancement bonus of +1 before any special abilities can be added.</Pair>
+<Pair title="Special">Multiple uses of this ability do not stack with themselves.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-hag_riven-scarred-hide-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-bloodrager-hag_riven-scarred-hide-ex">Scarred Hide (Ex)</Pair>
+<Pair title="At 7th Level">A hag-riven's scarred flesh becomes thick and leathery. She gains a +1 natural armor bonus to AC.</Pair>
+<Pair title="At 10th Level">The bonus becomes +2.</Pair>
+<Pair title="At 13th Level">The bonus becomes +3.</Pair>
+<Pair title="At 16th Level">The bonus becomes +4.</Pair>
+<Pair title="At 19th Level">The bonus becomes +5.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-hag_riven-hexing-claws-su" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-hag_riven-hexing-claws-su">Hexing Claws (Su)</Pair>
+<Pair hl title="Replaces">Damage reduction</Pair>
+<Pair title="At 10th Level">A hag-riven gains <Link to="/feat/critical_focus">Critical Focus</Link> as a bonus feat, but she can apply its benefits only to her claw attacks. Each morning, she can select a single feat with Critical Focus as a prerequisite and apply its benefits to her claw attacks. She must meet all other prerequisites for any feat she wishes to apply with this ability.</Pair>
+</Ability>
 </>};
 const _id_rager = {title: "Id Rager", jsx: <><h2 id="arc-bloodrager-id_rager-id-rager">Id Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 23</Link><br/>An id rager lacks a supernatural taint to his blood, instead drawing power from pure emotion.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-id_rager-atavistic-avatar-su" data-hash-target><div className="box">Atavistic Avatar (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bloodline, all bloodline spells, all bloodline powers</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Choice</div></div><div className="abEnd"><div className="box"><p>An id rager chooses one emotional focus to define his core: anger, dedication, despair, fear, hatred, jealousy, kindness, remorse, whimsey, or zeal. He gains <Link to="/feat/skill_focus">Skill Focus</Link> as a bonus feat in one skill associated with his atavistic focus.</p>
+<Ability id="arc-bloodrager-id_rager-atavistic-avatar-su" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-id_rager-atavistic-avatar-su">Atavistic Avatar (Su)</Pair>
+<Pair hl title="Replaces">Bloodline, all bloodline spells, all bloodline powers</Pair>
+<Pair title="Choice"><p>An id rager chooses one emotional focus to define his core: anger, dedication, despair, fear, hatred, jealousy, kindness, remorse, whimsey, or zeal. He gains <Link to="/feat/skill_focus">Skill Focus</Link> as a bonus feat in one skill associated with his atavistic focus.</p>
 <ul>
 <li><strong><Link to="/emotionalfocus/anger">Anger</Link>:</strong> Intimidate or Survival</li>
 <li><strong><Link to="/emotionalfocus/dedication">Dedication</Link>:</strong> Diplomacy or Sense Motive</li>
@@ -282,155 +324,175 @@ const _id_rager = {title: "Id Rager", jsx: <><h2 id="arc-bloodrager-id_rager-id-
 <li><strong><Link to="/emotionalfocus/whimsey">Whimsey</Link>:</strong> Acrobatics or Perception.<sup><InnerLink showBacklink="backlink-arc-bloodrager-id_rager-fake-fn-2" id="arc-bloodrager-id_rager-fake-fn-2" data-hash-target to="arc-bloodrager-id_rager-fake-fn-2-target">2</InnerLink></sup></li>
 <li><strong><Link to="/emotionalfocus/zeal">Zeal</Link>:</strong> Acrobatics or Survival</li>
 </ul>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 1st Level</div></div><div className="abEnd"><div className="box">When the id rager enters a bloodrage, he gains additional powers as if he were a <Link to="/sidekick/phantom">phantom</Link> with the emotional focus he selected as his atavistic focus. He is considered to be both a phantom and a <Link to="/class/spiritualist">spiritualist</Link> for the purposes of abilities whose effect references both a phantom and a spiritualist, such as a dedication phantom's <em>dutiful strike,</em> and treats his bloodrager level as both his spiritualist level and his phantom Hit Dice when determining abilities and save DCs. This ability does not allow the id rager to become incorporeal.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">The id rager gains <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, or <Link to="/feat/iron_will">Iron Will</Link> as a bonus feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">The id rager can meditate for 1 hour to change his atavistic focus for 24 hours or until he decides to return to his permanent atavistic focus as a <strong className="hl">free action</strong>. When he changes his focus, he loses access to his Skill Focus feat and the feat he gained at 4th level, and he wields emotional focus powers as if his spiritualist level and phantom Hit Dice were 3 lower.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">The id rager gains Skill Focus in both of the skills associated with his atavistic focus. If circumstances cause him to lose one Skill Focus feat, he loses both.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-id_rager-atavistic-caster" data-hash-target><div className="box">Atavistic Caster</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Eschew materials</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Spellcasting</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">An id rager's bloodrager spells are treated as <Link to="/rule/psychic_magic">psychic magic</Link>. The bloodrager's bloodrage does not prevent him from casting spells with emotional components, and he is considered to be a psychic spellcaster for the purposes of prerequisites (such as for the prerequisites of psychic duels and occult skill unlocks).</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-id_rager-bonus-feats" data-hash-target><div className="box">Bonus Feats</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">All bloodline feats</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">An id rager can select one of the following feats as a bonus feat: <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/empath">Empath</Link>, <Link to="/feat/extra_rage">Extra Rage</Link>, <Link to="/feat/intuitive_spell">Intuitive Spell</Link>, <Link to="/feat/logical_spell">Logical Spell</Link>, <Link to="/feat/psychic_combatant">Psychic Combatant</Link>, <Link to="/feat/psychic_defender">Psychic Defender</Link>, <Link to="/feat/psychic_healing">Psychic Healing</Link>, <Link to="/feat/psychic_maestro">Psychic Maestro</Link>, <Link to="/feat/psychic_virtuoso">Psychic Virtuoso</Link>, <Link to="/feat/raging_concentration">Raging Concentration</Link>, <Link to="/feat/spell_focus">Spell Focus</Link>, or <Link to="/feat/spell_penetration">Spell Penetration</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">He can select a second bonus feat from the list.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">He can select a third bonus feat from the list.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">He can select a fourth bonus feat from the list.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">He can select a fifth and final bonus feat from the list.</div></div></div></div>
+</Pair>
+<Pair title="At 1st Level">When the id rager enters a bloodrage, he gains additional powers as if he were a <Link to="/sidekick/phantom">phantom</Link> with the emotional focus he selected as his atavistic focus. He is considered to be both a phantom and a <Link to="/class/spiritualist">spiritualist</Link> for the purposes of abilities whose effect references both a phantom and a spiritualist, such as a dedication phantom's <em>dutiful strike,</em> and treats his bloodrager level as both his spiritualist level and his phantom Hit Dice when determining abilities and save DCs. This ability does not allow the id rager to become incorporeal.</Pair>
+<Pair title="At 4th Level">The id rager gains <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, or <Link to="/feat/iron_will">Iron Will</Link> as a bonus feat.</Pair>
+<Pair title="At 8th Level">The id rager can meditate for 1 hour to change his atavistic focus for 24 hours or until he decides to return to his permanent atavistic focus as a <strong className="hl">free action</strong>. When he changes his focus, he loses access to his Skill Focus feat and the feat he gained at 4th level, and he wields emotional focus powers as if his spiritualist level and phantom Hit Dice were 3 lower.</Pair>
+<Pair title="At 12th Level">The id rager gains Skill Focus in both of the skills associated with his atavistic focus. If circumstances cause him to lose one Skill Focus feat, he loses both.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-id_rager-atavistic-caster" icon={["magic-swirl"]}>
+<Pair single id="arc-bloodrager-id_rager-atavistic-caster">Atavistic Caster</Pair>
+<Pair hl title="Replaces">Eschew materials</Pair>
+<Pair hl title="Alters">Spellcasting</Pair>
+<Pair title="At 4th Level">An id rager's bloodrager spells are treated as <Link to="/rule/psychic_magic">psychic magic</Link>. The bloodrager's bloodrage does not prevent him from casting spells with emotional components, and he is considered to be a psychic spellcaster for the purposes of prerequisites (such as for the prerequisites of psychic duels and occult skill unlocks).</Pair>
+</Ability>
+<Ability id="arc-bloodrager-id_rager-bonus-feats" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-id_rager-bonus-feats">Bonus Feats</Pair>
+<Pair hl title="Replaces">All bloodline feats</Pair>
+<Pair title="At 6th Level">An id rager can select one of the following feats as a bonus feat: <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/empath">Empath</Link>, <Link to="/feat/extra_rage">Extra Rage</Link>, <Link to="/feat/intuitive_spell">Intuitive Spell</Link>, <Link to="/feat/logical_spell">Logical Spell</Link>, <Link to="/feat/psychic_combatant">Psychic Combatant</Link>, <Link to="/feat/psychic_defender">Psychic Defender</Link>, <Link to="/feat/psychic_healing">Psychic Healing</Link>, <Link to="/feat/psychic_maestro">Psychic Maestro</Link>, <Link to="/feat/psychic_virtuoso">Psychic Virtuoso</Link>, <Link to="/feat/raging_concentration">Raging Concentration</Link>, <Link to="/feat/spell_focus">Spell Focus</Link>, or <Link to="/feat/spell_penetration">Spell Penetration</Link>.</Pair>
+<Pair title="At 9th Level">He can select a second bonus feat from the list.</Pair>
+<Pair title="At 12th Level">He can select a third bonus feat from the list.</Pair>
+<Pair title="At 15th Level">He can select a fourth bonus feat from the list.</Pair>
+<Pair title="At 18th Level">He can select a fifth and final bonus feat from the list.</Pair>
+</Ability>
 <section data-footnotes><h3 id="arc-bloodrager-id_rager-label">Footnotes</h3><ol>
 <li id="arc-bloodrager-id_rager-fake-fn-1-target"><p><Link to="/source/psychic_anthology">Psychic Anthology</Link> pg. 4 <InnerLink aria-label="Back to reference 1" id="backlink-arc-bloodrager-id_rager-fake-fn-1" data-hash-target to="arc-bloodrager-id_rager-fake-fn-1">↩</InnerLink></p></li>
 <li id="arc-bloodrager-id_rager-fake-fn-2-target"><p><Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link> pg. 17 <InnerLink aria-label="Back to reference 2" id="backlink-arc-bloodrager-id_rager-fake-fn-2" data-hash-target to="arc-bloodrager-id_rager-fake-fn-2">↩</InnerLink></p></li>
 </ol></section></>};
 const _metamagic_rager = {title: "Metamagic Rager", jsx: <><h2 id="arc-bloodrager-metamagic_rager-metamagic-rager">Metamagic Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 83</Link><br/>While metamagic is difficult for many bloodragers to utilize, a talented few are able to channel their bloodrage in ways that push their spells to impressive ends.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-metamagic_rager-meta-rage-su" data-hash-target><div className="box">Meta-Rage (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Improved uncanny dodge</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A metamagic rager can sacrifice additional rounds of bloodrage to apply a <Link to="/main/metamagic_feat">metamagic feat</Link> he knows to a bloodrager spell. This costs a number of rounds of bloodrage equal to twice what the spell's adjusted level would normally be with the metamagic feat applied (minimum 2 rounds). The metamagic rager does not have to be bloodraging to use this ability. The metamagic effect is applied without increasing the level of the spell slot expended, though the casting time is increased as normal. The metamagic rager can apply only one metamagic feat he knows in this manner with each casting.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Additionally, when the metamagic rager takes a bloodline feat, he can choose to take a metamagic feat instead.</div></div></div></div>
+<Ability id="arc-bloodrager-metamagic_rager-meta-rage-su" icon={["magic-swirl"]}>
+<Pair single id="arc-bloodrager-metamagic_rager-meta-rage-su">Meta-Rage (Su)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">A metamagic rager can sacrifice additional rounds of bloodrage to apply a <Link to="/main/metamagic_feat">metamagic feat</Link> he knows to a bloodrager spell. This costs a number of rounds of bloodrage equal to twice what the spell's adjusted level would normally be with the metamagic feat applied (minimum 2 rounds). The metamagic rager does not have to be bloodraging to use this ability. The metamagic effect is applied without increasing the level of the spell slot expended, though the casting time is increased as normal. The metamagic rager can apply only one metamagic feat he knows in this manner with each casting.</Pair>
+<Pair title="Special">Additionally, when the metamagic rager takes a bloodline feat, he can choose to take a metamagic feat instead.</Pair>
+</Ability>
 </>};
 const _primalist = {title: "Primalist", jsx: <><h2 id="arc-bloodrager-primalist-primalist">Primalist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 84</Link><br/>While bloodrage powers come from the very essence of a bloodrager's being and are often strict and immutable, some bloodragers tap into ancient traditions and primitive wisdom to enhance their rages with something more primal. The primalist mixes his bloodline with more traditional rage powers.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-primalist-primal-choices" data-hash-target><div className="box">Primal Choices</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Bloodline</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Choice</div></div><div className="abEnd"><div className="box">At 4th level and every four levels thereafter, a primalist can choose to take either his bloodline power or two <Link to="/ability/rage_powers">barbarian rage powers</Link>. If the primalist chooses rage powers, those rage powers can be used in conjunction with his bloodrage, and his bloodrager level acts as his barbarian level when determining the effect of those bloodrage powers and any prerequisites. Any other prerequisites for a rage power must be met before a primalist can choose it.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">This ability does not count as the rage power class feature for determining feat prerequisites and other requirements.</div></div></div></div>
+<Ability id="arc-bloodrager-primalist-primal-choices" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-primalist-primal-choices">Primal Choices</Pair>
+<Pair hl title="Alters">Bloodline</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Choice">At 4th level and every four levels thereafter, a primalist can choose to take either his bloodline power or two <Link to="/ability/rage_powers">barbarian rage powers</Link>. If the primalist chooses rage powers, those rage powers can be used in conjunction with his bloodrage, and his bloodrager level acts as his barbarian level when determining the effect of those bloodrage powers and any prerequisites. Any other prerequisites for a rage power must be met before a primalist can choose it.</Pair>
+<Pair title="Special">This ability does not count as the rage power class feature for determining feat prerequisites and other requirements.</Pair>
+</Ability>
 </>};
 const _prowler_at_worlds_end = {title: "Prowler at World's End", jsx: <><h2 id="arc-bloodrager-prowler_at_worlds_end-prowler-at-worlds-end">Prowler at World's End</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 4</Link><br/>Ancient catfolk legends claim their kind was created to protect the world from the sinister forces that exist at the world's fringes. Many <Link to="/race/catfolk">catfolk</Link> bloodragers capable of communing with the ancient spirits of creation take on the burden of this ancient tradition.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-bloodrager-prowler_at_worlds_end--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A prowler at world's end must choose the <Link to="/blrgbloodline/destined">destined</Link> bloodline.</td></tr></tbody></table></ScrollContainer></div><div className="ability p hasSubs"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-prowler_at_worlds_end-spirit" data-hash-target><div className="box">Spirit</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The 1st-, 8th-, and 16th-level bloodline powers</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A prowler at world's end gains the ability to channel the spirits of creation, granting him the <Link to="/class/medium">medium's</Link> <em>spirit</em> and <em>spirit surge</em> abilities. A prowler channels the cheetah (which acts as the <Link to="/spirit/trickster">trickster</Link>), the leopard (which acts as the <Link to="/spirit/guardian">guardian</Link>), the lion (which acts as the <Link to="/spirit/marshal">marshal</Link>), and the tiger (which acts as the <Link to="/spirit/champion">champion</Link>). The prowler does not have access to the archmage or hierophant legends. The favored locations for these spirits are altars, churches, sacred groves, and shrines, and their taboo requires the prowler to strongly revere nature and attempt to either destroy or incapacitate evil wherever he encounters it.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 1st Level</div></div><div className="abEnd"><div className="box">A prowler at world's end gains his spirit's lesser power.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">He gains its intermediate power.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">He gains its greater power.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">A prowler's spirit surge bonus never advances beyond 1d6.</div></div></div></div>
-<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-prowler_at_worlds_end-spirit-su" data-hash-target><div className="box">Spirit (Su)</div><div className="flavor">Text from the medium class</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box"><p>Each day, you can channel a <Link to="/ability/spirits">spirit</Link> through a ritual known as a seance. Seances take 1 hour to perform and require your concentration. At the end of a seance, you invite a local spirit to inhabit you and serve as your spirit for that day. You gain the spirit's listed seance boon and lesser spirit power for 24 hours.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-bloodrager-prowler_at_worlds_end--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A prowler at world's end must choose the <Link to="/blrgbloodline/destined">destined</Link> bloodline.</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-bloodrager-prowler_at_worlds_end-spirit" extraClasses="hasSubs" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="arc-bloodrager-prowler_at_worlds_end-spirit">Spirit</Pair>
+<Pair hl title="Replaces">The 1st-, 8th-, and 16th-level bloodline powers</Pair>
+<Pair title="Ability">A prowler at world's end gains the ability to channel the spirits of creation, granting him the <Link to="/class/medium">medium's</Link> <em>spirit</em> and <em>spirit surge</em> abilities. A prowler channels the cheetah (which acts as the <Link to="/spirit/trickster">trickster</Link>), the leopard (which acts as the <Link to="/spirit/guardian">guardian</Link>), the lion (which acts as the <Link to="/spirit/marshal">marshal</Link>), and the tiger (which acts as the <Link to="/spirit/champion">champion</Link>). The prowler does not have access to the archmage or hierophant legends. The favored locations for these spirits are altars, churches, sacred groves, and shrines, and their taboo requires the prowler to strongly revere nature and attempt to either destroy or incapacitate evil wherever he encounters it.</Pair>
+<Pair title="At 1st Level">A prowler at world's end gains his spirit's lesser power.</Pair>
+<Pair title="At 8th Level">He gains its intermediate power.</Pair>
+<Pair title="At 16th Level">He gains its greater power.</Pair>
+<Pair title="Special">A prowler's spirit surge bonus never advances beyond 1d6.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-prowler_at_worlds_end-spirit-su" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-bloodrager-prowler_at_worlds_end-spirit-su" flavor="Text from the medium class">Spirit (Su)</Pair>
+<Pair title="Ability"><p>Each day, you can channel a <Link to="/ability/spirits">spirit</Link> through a ritual known as a seance. Seances take 1 hour to perform and require your concentration. At the end of a seance, you invite a local spirit to inhabit you and serve as your spirit for that day. You gain the spirit's listed seance boon and lesser spirit power for 24 hours.</p>
 <p>Though you can choose the legend to which the spirit you channel belongs, you must channel that spirit from an appropriate location. Each spirit has a favored location it usually inhabits, though spirits may also be present at other locations appropriate to their legends; such locations are listed in each legend's <strong>Favored Locations</strong> entry.</p>
 <p>You can invite your allies to participate in your seance: <em>shared seance</em> and certain spirit powers affect other participants. A character counts as participating so long as she maintains physical contact with another participating character and willfully opens herself to the spirit; unlike you, other participating characters can take other actions during this time. Only creatures with an Intelligence score of at least 3 can participate in a seance.</p>
 <p>In addition to granting power to you, a channeled spirit can influence you. By channeling a spirit, you allow the spirit to gain 1 point of <strong className="hl">influence</strong> over you. If you lose that 1 point of influence, you lose contact with the spirit, though you are still unable to perform a new seance until the normal 24 hour period has elapsed since your last seance. When the spirit leaves after the 24-hour duration and before the next seance, the spirit's influence over you resets to 0. Certain abilities allow you to gain additional power in exchange for allowing the spirit more influence over you.</p>
 <p>When a spirit gains at least <strong className="hl">3 points of influence</strong> over you, the dual impulses housed within the same body cause you to meld with your spirit's consciousness. The resulting muddled sense of self and struggle for control causes you to take a -2 penalty on initiative checks as well as a specific additional penalty listed in each spirit's entry. However, the spirit's mental presence grants you a +4 bonus against possession effects and a +2 bonus on saving throws against mind-affecting effects that are not related to possession.</p>
 <p>If a spirit ever attains <strong className="hl">5 or more points of influence</strong> over you, you completely lose control to the spirit. You effectively become an NPC under the GM's control until after you awaken the next day with the spirit gone.</p>
 <p>During your seance, you can choose to <strong className="hl">channel a weaker spirit</strong> to gain its help without incurring as much of its influence. If you do so, you can forgo any number of spirit powers, starting with your most powerful spirit power. For each spirit power you forgo, you can use your <em>spirit surge</em> ability twice without incurring influence.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">After 24 hours, you lose contact with the channeled spirit and can perform another seance.</div></div></div></div>
-<div className="ability p subAbility"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-prowler_at_worlds_end-spirit-surge-su" data-hash-target><div className="box">Spirit Surge (Su)</div><div className="flavor">Text from the medium class</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">After failing a d20 roll that was modified by your spirit bonus, you can allow your spirit to gain 1 additional point of influence over you in order to add 1d6 to the check's result without taking an action. This can cause the check to succeed instead of fail. You must be conscious and aware to use this ability, and you can use this ability at most once per round.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-prowler_at_worlds_end-bloodline-powers" data-hash-target><div className="box">Bloodline Powers</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">9th-level and 15th-level bloodline feats</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">The 4th-, 16th-, and 20th-level bloodline powers</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">A prowler at world's end gains the bloodline power normally granted by his bloodline at 1st level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">He gains the bloodline power normally granted by his bloodline at 4th level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">He gains the bloodline power normally granted by his bloodline at 8th level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">He gains the bloodline power normally granted by his bloodline at 12th level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">He gains the bloodline power normally granted by his bloodline at 16th level.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-prowler_at_worlds_end-chosen-of-the-spirits-su" data-hash-target><div className="box">Chosen of the Spirits (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Greater bloodrage, mighty bloodrage</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 11th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">Whenever a prowler at world's end enters a bloodrage, he can apply the effects of <Link to="/spell/beast_shape_iv">beast shape IV</Link> to himself instead of using <em>greater bloodrage</em> or <em>mighty bloodrage</em> to apply the effects of a bloodrager spell to himself. He must assume the form of a great cat of the same kind as a channeled spirit (cheetah, leopard, lion, or tiger).</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">This effect lasts for as long as the prowler continues bloodraging, regardless of its normal duration, and using it does not consume a spell slot.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-prowler_at_worlds_end-shapeshifted-spellcasting-su" data-hash-target><div className="box">Shapeshifted Spellcasting (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The 12th-level bloodline feat</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 12th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">The prowler at world's end can cast spells while under the effects of <em>chosen of the spirits.</em> This ability functions as <Link to="/feat/natural_spell">Natural Spell</Link>, except the prowler uses the ability to cast while under the effects of <em>chosen of the spirits</em> instead of wild shape.</div></div></div></div>
+</Pair>
+<Pair title="Special">After 24 hours, you lose contact with the channeled spirit and can perform another seance.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-prowler_at_worlds_end-spirit-surge-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-bloodrager-prowler_at_worlds_end-spirit-surge-su" flavor="Text from the medium class">Spirit Surge (Su)</Pair>
+<Pair title="Passive Ability">After failing a d20 roll that was modified by your spirit bonus, you can allow your spirit to gain 1 additional point of influence over you in order to add 1d6 to the check's result without taking an action. This can cause the check to succeed instead of fail. You must be conscious and aware to use this ability, and you can use this ability at most once per round.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-prowler_at_worlds_end-bloodline-powers" icon={["stairs-goal"]}>
+<Pair single id="arc-bloodrager-prowler_at_worlds_end-bloodline-powers">Bloodline Powers</Pair>
+<Pair hl title="Replaces">9th-level and 15th-level bloodline feats</Pair>
+<Pair hl title="Alters">The 4th-, 16th-, and 20th-level bloodline powers</Pair>
+<Pair title="At 4th Level">A prowler at world's end gains the bloodline power normally granted by his bloodline at 1st level.</Pair>
+<Pair title="At 9th Level">He gains the bloodline power normally granted by his bloodline at 4th level.</Pair>
+<Pair title="At 12th Level">He gains the bloodline power normally granted by his bloodline at 8th level.</Pair>
+<Pair title="At 15th Level">He gains the bloodline power normally granted by his bloodline at 12th level.</Pair>
+<Pair title="At 20th Level">He gains the bloodline power normally granted by his bloodline at 16th level.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-prowler_at_worlds_end-chosen-of-the-spirits-su" icon={["magic-swirl"]}>
+<Pair single id="arc-bloodrager-prowler_at_worlds_end-chosen-of-the-spirits-su">Chosen of the Spirits (Su)</Pair>
+<Pair hl title="Alters">Greater bloodrage, mighty bloodrage</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">Whenever a prowler at world's end enters a bloodrage, he can apply the effects of <Link to="/spell/beast_shape_iv">beast shape IV</Link> to himself instead of using <em>greater bloodrage</em> or <em>mighty bloodrage</em> to apply the effects of a bloodrager spell to himself. He must assume the form of a great cat of the same kind as a channeled spirit (cheetah, leopard, lion, or tiger).</Pair>
+<Pair title="Special">This effect lasts for as long as the prowler continues bloodraging, regardless of its normal duration, and using it does not consume a spell slot.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-prowler_at_worlds_end-shapeshifted-spellcasting-su" icon={["magic-swirl"]}>
+<Pair single id="arc-bloodrager-prowler_at_worlds_end-shapeshifted-spellcasting-su">Shapeshifted Spellcasting (Su)</Pair>
+<Pair hl title="Replaces">The 12th-level bloodline feat</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">The prowler at world's end can cast spells while under the effects of <em>chosen of the spirits.</em> This ability functions as <Link to="/feat/natural_spell">Natural Spell</Link>, except the prowler uses the ability to cast while under the effects of <em>chosen of the spirits</em> instead of wild shape.</Pair>
+</Ability>
 </>};
 const _rageshaper = {title: "Rageshaper", jsx: <><h2 id="arc-bloodrager-rageshaper-rageshaper">Rageshaper</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 84</Link><br/>All bloodragers blend the unpredictable surge of arcane power with the savage fury of battle lust. For most, their rage is a conduit for the eldritch power locked in their heritage, but for a rageshaper, the latent magical energies in his blood bring about physical transformations and facilitate the blending of arcana and aggression into a deadly synthesis that few other barbarians (or even other bloodragers) can match.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link><Link to="/icons/mailed-fist"><IonIcon icon="/icons/mailed-fist.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-rageshaper-bestial-aspect-su" data-hash-target><div className="box">Bestial Aspect (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Blood sanctuary</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">Whenever a rageshaper gains a <Link to="/rule/natural_attack">natural attack</Link> through the use of a polymorph spell, he can increase the damage done by that attack <Link to="/misc/by_one_die">by one die</Link>. If the spell grants multiple natural attacks, the rageshaper must choose one kind of natural attack for the ability to enhance.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">If the rageshaper's altered form grants him a new mode of movement, that movement's base speed increases by 10 feet. This is an enhancement bonus.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">If the rageshaper's bloodrage powers already grant natural attacks or alternate modes of movement, then the bonuses granted by bestial aspect also apply to these bloodrage powers.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-rageshaper-furious-transformation-su" data-hash-target><div className="box">Furious Transformation (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Improved uncanny dodge</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A rageshaper can attempt to bolster any transmutation spell from the bloodrager spell list with the polymorph subschool while bloodraging. The rageshaper must succeed at a <Link to="/rule/concentration">concentration</Link> check as if casting defensively to modify the spell; otherwise, the spell is wasted. If he succeeds, the spell is treated as if the rageshaper had the <Link to="/feat/extend_spell">Extend Spell</Link> metamagic feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">The rageshaper must be the spell's intended target or cast a spell with a range of personal to gain this effect. If the rageshaper casts a spell that is linked to the rageshaper's own bloodline, such as a rageshaper with the <Link to="/blrgbloodline/elemental">elemental</Link> bloodline who casts <Link to="/spell/elemental_body_i">elemental body I</Link>, the spell is automatically extended without forcing the concentration check, so long as the rageshaper casts it while in a bloodrage.</div></div></div></div>
+<Ability id="arc-bloodrager-rageshaper-bestial-aspect-su" icon={["magic-swirl","mailed-fist","upgrade"]}>
+<Pair single id="arc-bloodrager-rageshaper-bestial-aspect-su">Bestial Aspect (Su)</Pair>
+<Pair hl title="Replaces">Blood sanctuary</Pair>
+<Pair title="At 4th Level">Whenever a rageshaper gains a <Link to="/rule/natural_attack">natural attack</Link> through the use of a polymorph spell, he can increase the damage done by that attack <Link to="/misc/by_one_die">by one die</Link>. If the spell grants multiple natural attacks, the rageshaper must choose one kind of natural attack for the ability to enhance.</Pair>
+<Pair title="At 9th Level">If the rageshaper's altered form grants him a new mode of movement, that movement's base speed increases by 10 feet. This is an enhancement bonus.</Pair>
+<Pair title="Special">If the rageshaper's bloodrage powers already grant natural attacks or alternate modes of movement, then the bonuses granted by bestial aspect also apply to these bloodrage powers.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-rageshaper-furious-transformation-su" icon={["magic-swirl","upgrade"]}>
+<Pair single id="arc-bloodrager-rageshaper-furious-transformation-su">Furious Transformation (Su)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">A rageshaper can attempt to bolster any transmutation spell from the bloodrager spell list with the polymorph subschool while bloodraging. The rageshaper must succeed at a <Link to="/rule/concentration">concentration</Link> check as if casting defensively to modify the spell; otherwise, the spell is wasted. If he succeeds, the spell is treated as if the rageshaper had the <Link to="/feat/extend_spell">Extend Spell</Link> metamagic feat.</Pair>
+<Pair title="Special">The rageshaper must be the spell's intended target or cast a spell with a range of personal to gain this effect. If the rageshaper casts a spell that is linked to the rageshaper's own bloodline, such as a rageshaper with the <Link to="/blrgbloodline/elemental">elemental</Link> bloodline who casts <Link to="/spell/elemental_body_i">elemental body I</Link>, the spell is automatically extended without forcing the concentration check, so long as the rageshaper casts it while in a bloodrage.</Pair>
+</Ability>
 </>};
 const _spelleater = {title: "Spelleater", jsx: <><h2 id="arc-bloodrager-spelleater-spelleater">Spelleater</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 85</Link><br/>Where other bloodragers learn to avoid or shrug off minor damage of all sorts, spelleaters tap into the power of their bloodline in order to heal damage as it comes, and can even cannibalize their own magical energy to heal more damage and continue taking the fight to the enemy.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/heart-plus"><IonIcon icon="/icons/heart-plus.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-spelleater-blood-of-life-su" data-hash-target><div className="box">Blood of Life (Su)</div><div className="flavor">A spelleater's blood empowers him to slowly recover from his wounds.</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Uncanny dodge, damage reduction</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">While bloodraging, a spelleater gains <Link to="/umr/fast_healing">fast healing 1</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">This increases to fast healing 2.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">This increases to fast healing 3.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">This increases to fast healing 4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">This increases to fast healing 5.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">This increases to fast healing 6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">If the spelleater gains an increase to damage reduction from a bloodline, feat, or other ability, he is considered to have an effective damage reduction of 0, and the increase is added to this effective damage reduction.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/heart-plus"><IonIcon icon="/icons/heart-plus.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-spelleater-spell-eating-su" data-hash-target><div className="box">Spell Eating (Su)</div><div className="flavor">A spelleater can consume spell slots for an extra dose of healing.</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Improved uncanny dodge</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">The spelleater can consume one unused bloodrager spell slot to heal 1d8 damage for each level of the spell slot consumed.</div></div></div></div>
+<Ability id="arc-bloodrager-spelleater-blood-of-life-su" icon={["heart-plus"]}>
+<Pair single id="arc-bloodrager-spelleater-blood-of-life-su" flavor="A spelleater's blood empowers him to slowly recover from his wounds.">Blood of Life (Su)</Pair>
+<Pair hl title="Replaces">Uncanny dodge, damage reduction</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">While bloodraging, a spelleater gains <Link to="/umr/fast_healing">fast healing 1</Link>.</Pair>
+<Pair title="At 7th Level">This increases to fast healing 2.</Pair>
+<Pair title="At 10th Level">This increases to fast healing 3.</Pair>
+<Pair title="At 13th Level">This increases to fast healing 4.</Pair>
+<Pair title="At 16th Level">This increases to fast healing 5.</Pair>
+<Pair title="At 19th Level">This increases to fast healing 6.</Pair>
+<Pair title="Special">If the spelleater gains an increase to damage reduction from a bloodline, feat, or other ability, he is considered to have an effective damage reduction of 0, and the increase is added to this effective damage reduction.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-spelleater-spell-eating-su" icon={["heart-plus"]}>
+<Pair single id="arc-bloodrager-spelleater-spell-eating-su" flavor="A spelleater can consume spell slots for an extra dose of healing.">Spell Eating (Su)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Swift Action">The spelleater can consume one unused bloodrager spell slot to heal 1d8 damage for each level of the spell slot consumed.</Pair>
+</Ability>
 </>};
 const _steelblood = {title: "Steelblood", jsx: <><h2 id="arc-bloodrager-steelblood-steelblood">Steelblood</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 85</Link><br/>Most bloodragers prefer light armor, but some learn the secret of using heavy armors. These steelbloods plod around the battlefield inspiring fear and delivering carnage from within a steel shell.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-steelblood-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">The bloodrager's armor proficiency</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A steelblood gains proficiency in heavy armor. A steelblood can cast bloodrager spells while wearing heavy armor without incurring an arcane spell failure chance.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-steelblood-indomitable-stance-ex" data-hash-target><div className="box">Indomitable Stance (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Fast movement</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">A steelblood gains a +1 bonus on combat maneuver checks, to CMD against <Link to="/rule/overrun">overrun</Link> combat maneuvers, and on Reflex saving throws against <Link to="/umr/trample">trample</Link> attacks. He also gains a +1 bonus to his AC against <Link to="/rule/charge">charge</Link> attacks and on attack and damage rolls against charging creatures.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-steelblood-armored-swiftness-ex" data-hash-target><div className="box">Armored Swiftness (Ex)</div><div className="flavor">A steelblood moves faster in medium and heavy armor.</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Uncanny dodge</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">When wearing medium or heavy armor, a steelblood can move 5 feet faster than normal in that armor, to a maximum of his unencumbered speed.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-steelblood-armor-training-ex" data-hash-target><div className="box">Armor Training (Ex)</div><div className="flavor">A steelblood learns to be more maneuverable while wearing armor.</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Improved uncanny dodge</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">Whenever he is wearing armor, he reduces the armor check penalty by 1 (to a maximum of 0) and increases the maximum Dexterity bonus allowed by his armor by 1.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">The penalty is now reduced by 2, and the maximum bonus is increased by 2.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">The penalty is now reduced by 3, and the maximum bonus is increased by 3.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">The penalty is now reduced by 4, and the maximum bonus is increased by 4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">This ability stacks with the fighter class feature of the same name.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-steelblood-blood-deflection-su" data-hash-target><div className="box">Blood Deflection (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Damage reduction</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 7th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Immediate Action</div></div><div className="abEnd"><div className="box">A steelblood can sacrifice a bloodrager spell slot to gain a deflection bonus to AC equal to the level of the spell sacrificed. The deflection bonus lasts until the start of his next turn. This ability can be applied after an attack roll is made against the steelblood, allowing the steelblood to convert a hit into a miss if the deflection bonus is high enough.</div></div></div></div>
+<Ability id="arc-bloodrager-steelblood-weapon-and-armor-proficiency" icon={["armor-upgrade","magic-swirl"]}>
+<Pair single id="arc-bloodrager-steelblood-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Replaces">The bloodrager's armor proficiency</Pair>
+<Pair title="Ability">A steelblood gains proficiency in heavy armor. A steelblood can cast bloodrager spells while wearing heavy armor without incurring an arcane spell failure chance.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-steelblood-indomitable-stance-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-bloodrager-steelblood-indomitable-stance-ex">Indomitable Stance (Ex)</Pair>
+<Pair hl title="Replaces">Fast movement</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">A steelblood gains a +1 bonus on combat maneuver checks, to CMD against <Link to="/rule/overrun">overrun</Link> combat maneuvers, and on Reflex saving throws against <Link to="/umr/trample">trample</Link> attacks. He also gains a +1 bonus to his AC against <Link to="/rule/charge">charge</Link> attacks and on attack and damage rolls against charging creatures.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-steelblood-armored-swiftness-ex" icon={["upgrade"]}>
+<Pair single id="arc-bloodrager-steelblood-armored-swiftness-ex" flavor="A steelblood moves faster in medium and heavy armor.">Armored Swiftness (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">When wearing medium or heavy armor, a steelblood can move 5 feet faster than normal in that armor, to a maximum of his unencumbered speed.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-steelblood-armor-training-ex" icon={["upgrade"]}>
+<Pair single id="arc-bloodrager-steelblood-armor-training-ex" flavor="A steelblood learns to be more maneuverable while wearing armor.">Armor Training (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Passive Ability">Whenever he is wearing armor, he reduces the armor check penalty by 1 (to a maximum of 0) and increases the maximum Dexterity bonus allowed by his armor by 1.</Pair>
+<Pair title="At 9th Level">The penalty is now reduced by 2, and the maximum bonus is increased by 2.</Pair>
+<Pair title="At 13th Level">The penalty is now reduced by 3, and the maximum bonus is increased by 3.</Pair>
+<Pair title="At 19th Level">The penalty is now reduced by 4, and the maximum bonus is increased by 4.</Pair>
+<Pair title="Special">This ability stacks with the fighter class feature of the same name.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-steelblood-blood-deflection-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-bloodrager-steelblood-blood-deflection-su">Blood Deflection (Su)</Pair>
+<Pair hl title="Replaces">Damage reduction</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Immediate Action">A steelblood can sacrifice a bloodrager spell slot to gain a deflection bonus to AC equal to the level of the spell sacrificed. The deflection bonus lasts until the start of his next turn. This ability can be applied after an attack roll is made against the steelblood, allowing the steelblood to convert a hit into a miss if the deflection bonus is high enough.</Pair>
+</Ability>
 </>};
 const _symbol_striker = {title: "Symbol Striker", jsx: <><h2 id="arc-bloodrager-symbol_striker-symbol-striker">Symbol Striker</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 7</Link><br/>Symbol strikers are honored warriors of Dongun Hold, a Sky Citadel in Alkenstar that was a site of frequent conflicts between the nations of Geb and Nex. The dwarven inhabitants used powerful magic explosives to seal the fortress against the outside world and prevent the Sky Citadel from becoming a pawn in the arcane wars between the two powers. Only with the arrival of Ancil Alkenstar in 4588 AR did Dongun Hold reopen itself to the outside world. By then, the constant exposure to strange runic energies and the long isolation had caused a unique form of rune-wielding berserker spellcaster to develop, though the symbol striker tradition has since spread beyond its origins.</p>
@@ -438,37 +500,42 @@ const _symbol_striker = {title: "Symbol Striker", jsx: <><h2 id="arc-bloodrager-
 <Pair id="arc-bloodrager-symbol_striker-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
 <Pair title="Removed Skills">Handle Animal</Pair></Ability>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-symbol_striker-rune-training-sp" data-hash-target><div className="box">Rune Training (Sp)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Fast movement</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">A symbol striker can cast <Link to="/spell/read_magic">read magic</Link> at will and <Link to="/spell/comprehend_languages">comprehend languages</Link> once per day, but only to decipher written text. A symbol striker also adds <Link to="/spell/arcane_mark">arcane mark</Link> and <Link to="/spell/erase">erase</Link> to his bloodrager spell list as 1st-level spells, though he must select these as spells known to be able to cast them.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-symbol_striker-weapon-rune-su" data-hash-target><div className="box">Weapon Rune (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bloodline feats gained at 6th, 12th, and 18th levels</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 6th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">1 time/day per six bloodrager levels<ByLevelPop levels={[[6,1],[12,2],[18,3]]} unit="time" postText="/day" /></div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">A symbol striker can imbue any spell he knows that has a range of touch or greater and a defined number of targets (rather than an area or other non-target-based effect) into a melee weapon he is holding. The spell forms itself into a brightly glowing rune, which is obvious to a casual observer. This ability functions only while the symbol striker wields the weapon. If dropped or taken, the weapon ceases granting this ability until it is returned to the symbol striker. The symbol striker can have only a single weapon rune active at a time; if he casts an additional weapon rune while a previous rune is active, the earlier rune fades. Weapon runes also fade when the symbol striker regains his spell slots for the day. Otherwise, the rune remains until the spell is discharged or dispelled.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">Also as a <strong className="hl">standard action</strong>, the symbol striker can make a melee attack with a weapon that has an active weapon rune and, if the attack is successful, deal normal weapon damage and also expend the weapon rune to discharge the stored spell into the target, as if delivering the spell with the <Link to="/class/magus">magus</Link> spellstrike class feature.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-symbol_striker-rune-trap-sp" data-hash-target><div className="box">Rune Trap (Sp)</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Bloodline feat gained at 9th level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 9th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">3 + Cha modifier times/day</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">The symbol striker can use a melee weapon to place a <em>rune trap</em> in any adjacent square. Any creature entering a square containing a <em>rune trap</em> takes 1d6 points of damage plus 1 additional point of damage for every 2 bloodrager levels the symbol striker has. This rune deals either acid, cold, electricity, or fire damage, which is decided at the rune's creation. The rune is clearly visible and lasts a number of minutes equal to the symbol striker's bloodrager level or until discharged.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">A symbol striker cannot create a <em>rune trap</em> in a square occupied by another creature. This rune counts as a 1st-level spell for the purpose of dispelling. A creature can disarm the rune by succeeding at a DC 26 Disable Device check.</div></div></div></div>
+<Ability id="arc-bloodrager-symbol_striker-rune-training-sp" icon={["magic-swirl","spell-book"]}>
+<Pair single id="arc-bloodrager-symbol_striker-rune-training-sp">Rune Training (Sp)</Pair>
+<Pair hl title="Replaces">Fast movement</Pair>
+<Pair title="Ability">A symbol striker can cast <Link to="/spell/read_magic">read magic</Link> at will and <Link to="/spell/comprehend_languages">comprehend languages</Link> once per day, but only to decipher written text. A symbol striker also adds <Link to="/spell/arcane_mark">arcane mark</Link> and <Link to="/spell/erase">erase</Link> to his bloodrager spell list as 1st-level spells, though he must select these as spells known to be able to cast them.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-symbol_striker-weapon-rune-su" icon={["upgrade"]}>
+<Pair single id="arc-bloodrager-symbol_striker-weapon-rune-su">Weapon Rune (Su)</Pair>
+<Pair hl title="Replaces">Bloodline feats gained at 6th, 12th, and 18th levels</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Usage">1 time/day per six bloodrager levels<ByLevelPop levels={[[6,1],[12,2],[18,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">A symbol striker can imbue any spell he knows that has a range of touch or greater and a defined number of targets (rather than an area or other non-target-based effect) into a melee weapon he is holding. The spell forms itself into a brightly glowing rune, which is obvious to a casual observer. This ability functions only while the symbol striker wields the weapon. If dropped or taken, the weapon ceases granting this ability until it is returned to the symbol striker. The symbol striker can have only a single weapon rune active at a time; if he casts an additional weapon rune while a previous rune is active, the earlier rune fades. Weapon runes also fade when the symbol striker regains his spell slots for the day. Otherwise, the rune remains until the spell is discharged or dispelled.</Pair>
+<Pair title="Ability">Also as a <strong className="hl">standard action</strong>, the symbol striker can make a melee attack with a weapon that has an active weapon rune and, if the attack is successful, deal normal weapon damage and also expend the weapon rune to discharge the stored spell into the target, as if delivering the spell with the <Link to="/class/magus">magus</Link> spellstrike class feature.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-symbol_striker-rune-trap-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-bloodrager-symbol_striker-rune-trap-sp">Rune Trap (Sp)</Pair>
+<Pair hl title="Replaces">Bloodline feat gained at 9th level</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Usage">3 + Cha modifier times/day</Pair>
+<Pair title="Standard Action">The symbol striker can use a melee weapon to place a <em>rune trap</em> in any adjacent square. Any creature entering a square containing a <em>rune trap</em> takes 1d6 points of damage plus 1 additional point of damage for every 2 bloodrager levels the symbol striker has. This rune deals either acid, cold, electricity, or fire damage, which is decided at the rune's creation. The rune is clearly visible and lasts a number of minutes equal to the symbol striker's bloodrager level or until discharged.</Pair>
+<Pair title="Special">A symbol striker cannot create a <em>rune trap</em> in a square occupied by another creature. This rune counts as a 1st-level spell for the purpose of dispelling. A creature can disarm the rune by succeeding at a DC 26 Disable Device check.</Pair>
+</Ability>
 </>};
 const _untouchable_rager = {title: "Untouchable Rager", jsx: <><h2 id="arc-bloodrager-untouchable_rager-untouchable-rager">Untouchable Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 85</Link><br/>While most bloodragers are known for their inexplicable ability to focus their bloodline into a horrifying mix of martial terror and spellcasting fury, from time to time a bloodrager's bloodline acts differently. Instead of empowering the bloodrager, it shields the bloodrager from magic of all types, often keeping the bloodrager untouched within the midst of magical effects.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-untouchable_rager-raging-resistance-ex" data-hash-target><div className="box">Raging Resistance (Ex)</div><div className="flavor">Instead of gaining spells, a bloodrager becomes resistant to spells.</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Spells, blood casting, eschew materials, bloodline spells</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">While bloodraging, he gains spell resistance equal to 8 + his bloodrager level. Unlike normal spell resistance, the untouchable rager's spell resistance cannot be voluntarily lowered. As long as the untouchable is bloodraging, the spell resistance is persistent, and can only be lowered by ending the bloodrage.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">At 7th, 10th, 13th, and 16th levels (when other bloodragers would gain bloodline spells), an untouchable rager's spell resistance from raging resistance is increased by 1.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-untouchable_rager-resistance-control-ex" data-hash-target><div className="box">Resistance Control (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 14th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">An untouchable rager gains the spell resistance from raging resistance even while not in a bloodrage. Additionally, as long as the untouchable rager isn't bloodraging, he can turn off this spell resistance.</div></div></div></div>
+<Ability id="arc-bloodrager-untouchable_rager-raging-resistance-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-bloodrager-untouchable_rager-raging-resistance-ex" flavor="Instead of gaining spells, a bloodrager becomes resistant to spells.">Raging Resistance (Ex)</Pair>
+<Pair hl title="Replaces">Spells, blood casting, eschew materials, bloodline spells</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">While bloodraging, he gains spell resistance equal to 8 + his bloodrager level. Unlike normal spell resistance, the untouchable rager's spell resistance cannot be voluntarily lowered. As long as the untouchable is bloodraging, the spell resistance is persistent, and can only be lowered by ending the bloodrage.</Pair>
+<Pair title="Special">At 7th, 10th, 13th, and 16th levels (when other bloodragers would gain bloodline spells), an untouchable rager's spell resistance from raging resistance is increased by 1.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-untouchable_rager-resistance-control-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-bloodrager-untouchable_rager-resistance-control-ex">Resistance Control (Ex)</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Passive Ability">An untouchable rager gains the spell resistance from raging resistance even while not in a bloodrage. Additionally, as long as the untouchable rager isn't bloodraging, he can turn off this spell resistance.</Pair>
+</Ability>
 </>};
 const _urban_bloodrager = {title: "Urban Bloodrager", jsx: <><h2 id="arc-bloodrager-urban_bloodrager-urban-bloodrager">Urban Bloodrager</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 24</Link><br/>Like the <Link to="/arc-barbarian/urban_barbarian">urban barbarian</Link>, the urban bloodrager has learned to control her rage in so-called polite society. Though she lacks the untamed resilience of her wilder fellows, she's an expert at keeping her rage from causing collateral damage in crowds.</p>
@@ -476,29 +543,33 @@ const _urban_bloodrager = {title: "Urban Bloodrager", jsx: <><h2 id="arc-bloodra
 <Pair id="arc-bloodrager-urban_bloodrager-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/profession">Profession</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (nature), Survival</Pair></Ability>
-<div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-urban_bloodrager-weapon-and-armor-proficiency" data-hash-target><div className="box">Weapon and Armor Proficiency</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Weapon and armor proficiencies</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">An urban bloodrager isn't proficient with shields.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/broken-shield"><IonIcon icon="/icons/broken-shield.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-urban_bloodrager-controlled-bloodrage" data-hash-target><div className="box">Controlled Bloodrage</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Alters</div></div><div className="abEnd"><div className="box">Bloodrage</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">When an urban bloodrager rages, she does not gain the normal benefits. Instead, she can apply a +4 morale bonus to her Constitution, Dexterity, or Strength. This bonus increases to +6 when she gains <em>greater bloodrage</em> and to +8 when she gains <em>mighty bloodrage.</em> She can apply the full bonus to one ability score or split the bonus between several scores in increments of 2.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">When using a controlled bloodrage, an urban bloodrager gains no bonus on Will saves, takes no penalties to AC, and can still use Charisma-, Dexterity-, and Intelligence-based skills. A controlled bloodrage still counts as a bloodrage for the purposes of any spells, feats, and other effects.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/shield-reflect"><IonIcon icon="/icons/shield-reflect.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-urban_bloodrager-restrained-magic-su" data-hash-target><div className="box">Restrained Magic (Su)</div><div className="flavor">An urban bloodrager can attune her spells so they are less likely to impact her allies or innocent bystanders.</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Blood sanctuary</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">When the bloodrager casts a spell, she can grant a +2 bonus on the saving throw against that spell to any creatures she is aware of that are targeted by the spell or within the spell's area. Any creature that receives this bonus and succeeds at its save is unaffected by the spell, as if it hadn't been targeted or wasn't in the area.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/spell-book"><IonIcon icon="/icons/spell-book.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="arc-bloodrager-urban_bloodrager-adopted-magic" data-hash-target><div className="box">Adopted Magic</div><div className="flavor">An urban bloodrager learns some of the secrets of other magical traditions from other denizens of the city.</div></div>
-<div className="abPair"><div className="abStart"><div className="box hl">Replaces</div></div><div className="abEnd"><div className="box">Damage reduction</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">She can select from the <Link to="/main/spells_bard">bard</Link> or <Link to="/main/magus_spell">magus spell list</Link> any spell of a level she can cast, and add it to her bloodrager spell list and to her bloodrager spells known.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">The urban bloodrager can add another such spell to her spell list and spells known.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">She can choose and add another such spell.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">She can choose and add another such spell.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">She can choose and add another such spell.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">If she chooses to learn a new spell in place of an old one, she can exchange a bard or magus spell for another.</div></div></div></div>
+<Ability id="arc-bloodrager-urban_bloodrager-weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Pair single id="arc-bloodrager-urban_bloodrager-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Alters">Weapon and armor proficiencies</Pair>
+<Pair title="Info">An urban bloodrager isn't proficient with shields.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-urban_bloodrager-controlled-bloodrage" icon={["broken-shield","upgrade"]}>
+<Pair single id="arc-bloodrager-urban_bloodrager-controlled-bloodrage">Controlled Bloodrage</Pair>
+<Pair hl title="Alters">Bloodrage</Pair>
+<Pair title="Ability">When an urban bloodrager rages, she does not gain the normal benefits. Instead, she can apply a +4 morale bonus to her Constitution, Dexterity, or Strength. This bonus increases to +6 when she gains <em>greater bloodrage</em> and to +8 when she gains <em>mighty bloodrage.</em> She can apply the full bonus to one ability score or split the bonus between several scores in increments of 2.</Pair>
+<Pair title="Special">When using a controlled bloodrage, an urban bloodrager gains no bonus on Will saves, takes no penalties to AC, and can still use Charisma-, Dexterity-, and Intelligence-based skills. A controlled bloodrage still counts as a bloodrage for the purposes of any spells, feats, and other effects.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-urban_bloodrager-restrained-magic-su" icon={["shield-reflect"]}>
+<Pair single id="arc-bloodrager-urban_bloodrager-restrained-magic-su" flavor="An urban bloodrager can attune her spells so they are less likely to impact her allies or innocent bystanders.">Restrained Magic (Su)</Pair>
+<Pair hl title="Replaces">Blood sanctuary</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">When the bloodrager casts a spell, she can grant a +2 bonus on the saving throw against that spell to any creatures she is aware of that are targeted by the spell or within the spell's area. Any creature that receives this bonus and succeeds at its save is unaffected by the spell, as if it hadn't been targeted or wasn't in the area.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-urban_bloodrager-adopted-magic" icon={["spell-book"]}>
+<Pair single id="arc-bloodrager-urban_bloodrager-adopted-magic" flavor="An urban bloodrager learns some of the secrets of other magical traditions from other denizens of the city.">Adopted Magic</Pair>
+<Pair hl title="Replaces">Damage reduction</Pair>
+<Pair title="At 7th Level">She can select from the <Link to="/main/spells_bard">bard</Link> or <Link to="/main/magus_spell">magus spell list</Link> any spell of a level she can cast, and add it to her bloodrager spell list and to her bloodrager spells known.</Pair>
+<Pair title="At 10th Level">The urban bloodrager can add another such spell to her spell list and spells known.</Pair>
+<Pair title="At 13th Level">She can choose and add another such spell.</Pair>
+<Pair title="At 16th Level">She can choose and add another such spell.</Pair>
+<Pair title="At 19th Level">She can choose and add another such spell.</Pair>
+<Pair title="Special">If she chooses to learn a new spell in place of an old one, she can exchange a bard or magus spell for another.</Pair>
+</Ability>
 <p><strong className="hl">Note:</strong> The following bloodlines are especially suitable for an urban bloodrager, reflecting either a more nuanced origin or ancestry from city-dwelling magical creatures: <Link to="/blrgbloodline/aberrant">aberrant</Link>, <Link to="/blrgbloodline/arcane">arcane</Link>, <Link to="/blrgbloodline/celestial">celestial</Link>, <Link to="/blrgbloodline/destined">destined</Link>, <Link to="/blrgbloodline/infernal">infernal</Link>, and <Link to="/blrgbloodline/undead">undead</Link>.</p>
 </>};
 export default {ancestral_harbinger:_ancestral_harbinger,blood_conduit:_blood_conduit,bloodline_familiars:_bloodline_familiars,bloodrider:_bloodrider,bloody_knuckled_rowdy:_bloody_knuckled_rowdy,crossblooded_rager:_crossblooded_rager,enlightened_bloodrager:_enlightened_bloodrager,greenrager:_greenrager,hag_riven:_hag_riven,id_rager:_id_rager,metamagic_rager:_metamagic_rager,primalist:_primalist,prowler_at_worlds_end:_prowler_at_worlds_end,rageshaper:_rageshaper,spelleater:_spelleater,steelblood:_steelblood,symbol_striker:_symbol_striker,untouchable_rager:_untouchable_rager,urban_bloodrager:_urban_bloodrager}

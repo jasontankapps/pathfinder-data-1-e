@@ -1,12 +1,7 @@
 import ordinal from "../ordinal.js";
 import writtenNumber from "written-number";
 import romans from "romans";
-
-const abPairOpen = 	'<div className="abPair">';
-const abPairStartOpen = '<div className="abStart"><div className="box">';
-const abPairEndOpen = '<div className="abEnd"><div className="box">';
-const abPairPartClose = "</div></div>";
-const abPairClose = "</div>";
+import checkForEncodedLink from "../tests/checkForEncodedLink.js";
 
 const parseAtts = (attrs) => {
 	const {standard, move, free, immediate, swift, passive, ability, ability2, fullround, note, choice} = attrs;
@@ -362,66 +357,95 @@ const makeAbilityBlock = ({
 			return "confirmed";
 		});
 	};
-	const iconBox = svg().map(svg => `<Link to="/icons/${svg}"><IonIcon icon="/icons/${svg}.svg" color="secondary" /></Link>`).join("");
+	const iconBox = svg();
 	//
 	// TITLE
 	//
-	output.push(`<div className="title abSingle" id="${
-		jlid || prefix + id
-	}" data-hash-target><div className="box">${
-		doParse(text)
-	}</div>${
-		flavor ? `<div className="flavor">${doParse(flavor)}</div>` : ""
-	}</div>`);
+
+	const maybeFlavor = () => {
+		if(!flavor) {
+			return "";
+		}
+		const flavory = doParse(flavor);
+		if (!flavory.match(/[<>‹›]/)) {
+			return ` flavor="${flavory}"`;
+		}
+		let m;
+		let test = flavory;
+		const output = [];
+		while(m = test.match(/^(.*?)<([^ <>]+) ?([^<>]*)>([^<>]*)<[/]\2>(.*)$/)) {
+			const [, pre, tag, p, content, post] = m;
+			const props = {};
+			if(p) {
+				let test = p;
+				while(m = test.match(/^([^=]+)="([^"]*)"(.*)$/)) {
+					const [, att, value, post] = m;
+					test = post;
+					props[att] = value;
+				}
+			}				
+			output.push(pre, {
+				tag,
+				content,
+				props
+			});
+			test = post;
+		}
+		const cycle = [...output, test];
+		const output2 = [];
+		while(cycle.length > 0) {
+			const bit = cycle.shift();
+			if(typeof bit !== "string") {
+				output2.push(bit);
+				continue;
+			}
+			let test = bit;
+			while(m = checkForEncodedLink(test)) {
+				const { pre, link, text, post } = m;
+				output2.push(pre, {
+					tag: "Link",
+					props: {to: "/" + link},
+					content: text
+				});
+				test = post;
+			}
+			test && output2.push(test);
+		}
+		return ` flavor={${JSON.stringify(output2)}}`;
+	};
+	const abId = jlid || prefix + id;
+	output.push(`<Pair single id="${abId}"${maybeFlavor()}>${doParse(text)}</Pair>`);
 	//
 	// TYPE/CATEGORY
 	//
 	type && output.push(
-			abPairOpen
-			+ abPairStartOpen
-			+ "Type"
-			+ abPairPartClose
-			+ '<div className="abEnd"><div className="box hl">'
+			`<Pair title="Type">`
 			+ doParse(type)
-			+ abPairPartClose
-			+ abPairClose
+			+ "</Pair>"
 		);
 	//
 	// PREREQUISITES
 	//
 	prereq && output.push(
-			abPairOpen
-			+ abPairStartOpen
-			+ "Prerequisites"
-			+ abPairPartClose
-			+ abPairEndOpen
+			`<Pair title="Prerequisites">`
 			+ doParse(prereq)
-			+ abPairPartClose
-			+ abPairClose
+			+ "</Pair>"
 		);
 	//
 	// REPLACES/ALTERS ABILITY
 	//
 	if(replace) {
 		output.push(
-			abPairOpen
-			+ `<div className="abStart"><div className="box hl">Replaces`
-			+ abPairPartClose
-			+ abPairEndOpen
+			`<Pair hl title="Replaces">`
 			+ doParse(replace.replace(/~/g, ", "))
-			+ abPairPartClose
-			+ abPairClose
+			+ "</Pair>"
 		);
 	}
 	if(alter) {
 		output.push(
-			abPairOpen
-			+ `<div className="abStart"><div className="box hl">Alters`
-			+ abPairPartClose
-			+ abPairEndOpen
+			`<Pair hl title="Alters">`
 			+ doParse(alter.replace(/~/g, ", "))
-			+ abPairPartClose
-			+ abPairClose
+			+ "</Pair>"
 		);
 	}
 	//
@@ -439,14 +463,9 @@ const makeAbilityBlock = ({
 				}
 				const level = ordinal(i + 1);
 				output.push(
-					abPairOpen
-					+ abPairStartOpen
-					+ `At ${level} Level`
-					+ abPairPartClose
-					+ abPairEndOpen
+					`<Pair title="At ${level} Level">`
 					+ doParse(text)
-					+ abPairPartClose
-					+ abPairClose
+					+ "</Pair>"
 				);
 			}
 		);
@@ -456,14 +475,9 @@ const makeAbilityBlock = ({
 	} else if (l) {
 		// A single level shows when the ability is gained
 		output.push(
-			abPairOpen
-			+ abPairStartOpen
-			+ "Gained"
-			+ abPairPartClose
-			+ abPairEndOpen
+			`<Pair title="Gained">`
 			+ `At ${ordinal(l)} Level`
-			+ abPairPartClose
-			+ abPairClose
+			+ "</Pair>"
 		);
 	}
 	//
@@ -536,55 +550,35 @@ const makeAbilityBlock = ({
 					return;
 			}
 			output.push(
-				abPairOpen
-				+ abPairStartOpen
-				+ title
-				+ abPairPartClose
-				+ abPairEndOpen
+				`<Pair title="${title}">`
 				+ (parsed ? what : doParse(what || "MISSING"))
-				+ abPairPartClose
-				+ abPairClose
+				+ "</Pair>"
 			);
 		});
 	} else {
 		if(use) {
 			output.push(
-				abPairOpen
-				+ abPairStartOpen
-				+ "Usage"
-				+ abPairPartClose
-				+ abPairEndOpen
+				`<Pair title="Usage">`
 				+ use
-				+ abPairPartClose
-				+ abPairClose
+				+ "</Pair>"
 			);
 		}
 		if(containerInfo) {
 			// This was pre-parsed and passed in from container-directives.
 			const {action, contents} = containerInfo;
 			output.push(
-				abPairOpen
-				+ abPairStartOpen
-				+ action
-				+ abPairPartClose
-				+ abPairEndOpen
+				`<Pair title="${action}">`
 				+ contents
-				+ abPairPartClose
-				+ abPairClose
+				+ "</Pair>"
 			);
 		} else {
 			const ab = parseAtts(attrs);
 			if(ab) {
 				const [description, title] = ab;
 				output.push(
-					abPairOpen
-					+ abPairStartOpen
-					+ title
-					+ abPairPartClose
-					+ abPairEndOpen
+					`<Pair title="${title}">`
 					+ doParse(description)
-					+ abPairPartClose
-					+ abPairClose
+					+ "</Pair>"
 				);
 			}
 		}
@@ -594,16 +588,11 @@ const makeAbilityBlock = ({
 	//
 	if(provokes) {
 		output.push(
-				abPairOpen
-				+ abPairStartOpen
-				+ 'Provokes <Link to="/rule/aoo">AoO?</Link>'
-				+ abPairPartClose
-				+ abPairEndOpen
+				`<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>`
 				+ (
-					provokes === "provokes" ? "Yes" : doParse(provokes)
+					provokes === "provokes" ? "Yes" : provokes
 				)
-				+ abPairPartClose
-				+ abPairClose
+				+ "</Pair>"
 			);
 	}
 	//
@@ -626,12 +615,9 @@ const makeAbilityBlock = ({
 				}).join(", ");
 				const level = i && ordinal(i);
 				output.push(
-					abPairOpen
-					+ `<div className="abStart plain"><div className="box">${level}`
-					+ abPairPartClose
-					+ `<div className="abEnd simple"><div className="box">${doParse(spells)}`
-					+ abPairPartClose
-					+ abPairClose
+					`<Pair plain title="${level}">`
+					+ doParse(spells)
+					+ "</Pair>"
 				);
 			}
 		);
@@ -883,14 +869,9 @@ const makeAbilityBlock = ({
 				return;
 			}
 			output.push(
-				abPairOpen
-				+ abPairStartOpen
-				+ `At ${ordinal(i + 1)} Level`
-				+ abPairPartClose
-				+ abPairEndOpen
+				`<Pair title="At ${ordinal(i + 1)} Level">`
 				+ doParse(text)
-				+ abPairPartClose
-				+ abPairClose
+				+ "</Pair>"
 			);
 		});
 	}
@@ -900,38 +881,37 @@ const makeAbilityBlock = ({
 	if(special) {
 		specialP && logError("Extraneous `specialP` attribute.");
 		output.push(
-				abPairOpen
-				+ abPairStartOpen
-				+ "Special"
-				+ abPairPartClose
-				+ abPairEndOpen
+				`<Pair title="Special">`
 				+ doParse(special)
-				+ abPairPartClose
-				+ abPairClose
+				+ "</Pair>"
 			);
 	} else if (specialP) {
 		const parsed = marked2.parse(convertEncodedInfo(specialP).split(/~~~/).join("\n\n"))
 		output.push(
-				abPairOpen
-				+ abPairStartOpen
-				+ "Special"
-				+ abPairPartClose
-				+ abPairEndOpen
+				`<Pair title="Special">`
 				+ parsed
-				+ abPairPartClose
-				+ abPairClose
+				+ "</Pair>"
 			);
 	}
 
 	const indentation = indent ? (indent === "indent" ? 1 : Number(indent)) : 0;
+	const extraClasses = (
+		sub ? "subAbility numbered" : (
+			next ? "subAbility" : (
+				head ? "hasSubs" : ""
+			)
+		)
+		+ (
+			indentation ?
+				((sub || next || head) ? " " : "") + (indentation === 1 ? "indent" : "indent2")
+				: ""
+		)
+	);
 
-	return `${maybeClear}<div className="ability p${
-			sub ? " subAbility numbered" : (next ? " subAbility" : (head ? " hasSubs" : ""))
-		}${
-			indentation ? (indentation === 1 ? " indent" : " indent2") : ""
-		}">`
-		+ `<div className="abIcon">${iconBox}</div>\n`
-		+ `${output.join("\n")}</div>\n`;
+	return `${maybeClear}<Ability id="${abId}" ${
+			extraClasses ? `extraClasses="${extraClasses}" ` : ""
+		}icon={${JSON.stringify(iconBox)}}>\n`
+		+ `${output.join("\n")}\n</Ability>\n`;
 };
 
 export default makeAbilityBlock;

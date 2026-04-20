@@ -5,7 +5,7 @@ import Link from './Link';
 interface AbilityProps {
 	id: string
 	icon: string[]
-	sub?: boolean
+	extraClasses?: string
 }
 
 interface IconProps {
@@ -17,15 +17,15 @@ const Icon: React.FC<IconProps> = ({icon, id}) => {
 	return icon.map(
 		(ic, i) => (
 			<Link to={"/icons/" + ic} key={`${id} icon ${ic} ${i}`}>
-				<IonIcon icon={`/icons/${ic}.svg"`} color="secondary" />
+				<IonIcon icon={`/icons/${ic}.svg`} color="secondary" />
 			</Link>
 		)
 	);
 };
 
 const Ability: React.FC<PropsWithChildren<AbilityProps>> = (props) => {
-	const {id, icon = [], sub, children} = props;
-	const className = "ability p" + (sub ? " subAbility" : "");
+	const {id, icon = [], extraClasses, children} = props;
+	const className = "ability p" + (extraClasses ? " " + extraClasses : "");
 	return (
 		<div className={className}>
 			<div className="abIcon">

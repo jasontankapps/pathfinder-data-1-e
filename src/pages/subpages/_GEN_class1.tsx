@@ -313,107 +313,121 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>Bombs</td></tr><tr><th>Light Armor?</th><td colSpan={2}>Yes</td></tr><tr><th>Medium Armor?</th><td colSpan={2}>No</td></tr><tr><th>Heavy Armor?</th><td colSpan={2}>No</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-alchemy-su" data-hash-target><div className="box">Alchemy (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">When using Craft (alchemy) to create an alchemical item, you gain a competence bonus equal to your class level on the Craft (alchemy) check. In addition, you can use Craft (alchemy) to identify potions as if using <Link to="/spell/detect_magic">detect magic</Link>. You must hold the potion for 1 round to make such a check.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">Alchemists are not only masters of creating mundane alchemical substances such as alchemist's fire and smokesticks, but also can create three special types of magical items - extracts, bombs, and mutagens. <strong className="hl">Extracts</strong> are magical potion-like concoctions, <strong className="hl">bombs</strong> are explosive splash weapons, and <strong className="hl">mutagens</strong> are transformative elixirs that you drink to enhance your physical abilities - each of these are detailed in their own sections below.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-extracts" data-hash-target><div className="box">Extracts</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">You can create only a certain number of extracts of each level per day. In addition, you receive <Link to="/rule/determine_bonuses">bonus extracts per day</Link> if you have a high Intelligence score, in the same way a wizard receives bonus spells per day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You can prepare an extract of any formula you know. To learn or use an extract, you must have an Intelligence score equal to at least 10 + the extract's level. The DC for a saving throw against your extract is 10 + the extract level + the your Intelligence modifier.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box"><p>In effect, you prepare your spells by mixing ingredients into a number of extracts, and then "cast" your spells by drinking the extract. When you create an extract or bomb, you infuse the concoction with a tiny fraction of your own magical power - this enables the creation of powerful effects, but also binds the effects to the creator</p>
+<Ability id="class-alchemist-alchemy-su" icon={["upgrade","stairs-goal"]}>
+<Pair single id="class-alchemist-alchemy-su">Alchemy (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">When using Craft (alchemy) to create an alchemical item, you gain a competence bonus equal to your class level on the Craft (alchemy) check. In addition, you can use Craft (alchemy) to identify potions as if using <Link to="/spell/detect_magic">detect magic</Link>. You must hold the potion for 1 round to make such a check.</Pair>
+<Pair title="Info">Alchemists are not only masters of creating mundane alchemical substances such as alchemist's fire and smokesticks, but also can create three special types of magical items - extracts, bombs, and mutagens. <strong className="hl">Extracts</strong> are magical potion-like concoctions, <strong className="hl">bombs</strong> are explosive splash weapons, and <strong className="hl">mutagens</strong> are transformative elixirs that you drink to enhance your physical abilities - each of these are detailed in their own sections below.</Pair>
+</Ability>
+<Ability id="class-alchemist-extracts" icon={["magic-swirl"]}>
+<Pair single id="class-alchemist-extracts">Extracts</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">You can create only a certain number of extracts of each level per day. In addition, you receive <Link to="/rule/determine_bonuses">bonus extracts per day</Link> if you have a high Intelligence score, in the same way a wizard receives bonus spells per day.</Pair>
+<Pair title="Ability">You can prepare an extract of any formula you know. To learn or use an extract, you must have an Intelligence score equal to at least 10 + the extract's level. The DC for a saving throw against your extract is 10 + the extract level + the your Intelligence modifier.</Pair>
+<Pair title="Info"><p>In effect, you prepare your spells by mixing ingredients into a number of extracts, and then "cast" your spells by drinking the extract. When you create an extract or bomb, you infuse the concoction with a tiny fraction of your own magical power - this enables the creation of powerful effects, but also binds the effects to the creator</p>
 <p>In many ways, extracts behave like spells in potion form, and as such their effects can be dispelled by effects like <Link to="/spell/dispel_magic">dispel magic</Link> using your level as the caster level. Unlike potions, though, extracts can have powerful effects and duplicate spells that a potion normally could not.</p>
 <p>When you mix an extract, you infuse the chemicals and reagents in the extract with magic siphoned from your own magical aura. An extract immediately becomes inert if it leaves your possession, reactivating as soon as it returns to your keeping - you cannot normally pass out your extracts for allies to use (but see the <Link to="/discovery/infusion">"infusion"</Link> discovery). An extract, once created, remains potent for 1 day before losing its magic, so you must re-prepare your extracts every day. Mixing an extract takes 1 minute of work - most alchemists prepare many extracts at the start of the day or just before going on an adventure, but it's not uncommon for an alchemist to keep some (or even all) of his daily extract slots open so that he can prepare extracts in the field as needed.</p>
 <p>Although you don't actually cast spells, you do have a <Link to="/main/spells_alchemist">formulae list</Link> that determines what extracts you can create. You can utilize <Link to="/misc/spell_trigger">spell-trigger</Link> items if the spell appears on your formuale list, but not <Link to="/misc/spell_completion">spell-completion</Link> items (unless you uses Use Magic Device to do so). An extract is "cast" by drinking it, as if imbibing a potion - the effects of an extract exactly duplicate the spell upon which its formula is based, save that the spell always affects only the drinking alchemist. You can draw and drink an extract as a <strong className="hl">standard action</strong>. You use your level as the caster level to determine any effect based on caster level.</p>
 <p>Creating extracts consumes raw materials, but the cost of these materials is insignificant - comparable to the valueless material components of most spells. If a spell normally has a costly material component, that component is expended during the consumption of that particular extract. Extracts cannot be made from spells that have focus requirements (alchemist extracts that duplicate divine spells never have a divine focus requirement).</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">You may know any number of formulae. You store your formulae in a special tome called a formula book. You must refer to this book whenever you prepare an extract but not when you consume it. You begin play with two 1st-level formulae of your choice, plus a number of additional forumlae equal to your Intelligence modifier. At each new alchemist level, you gain one new formula of any level that you can create. You can also add formulae to your book just like a wizard <Link to="/rule/adding_spells_to_a_wizards_spellbook">adds spells to his spellbook</Link>, using the same costs, pages, and time requirements. You can study a wizard's spellbook to learn any formula that is equivalent to a spell the spellbook contains. A wizard, however, cannot learn spells from a formula book. You do not need to decipher arcane writings before copying them.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-brew-potion-ex" data-hash-target><div className="box">Brew Potion (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You receive <Link to="/feat/brew_potion">Brew Potion</Link> as a bonus feat. You can brew potions of any formulae you know (up to 3rd level), using your alchemist level as your caster level. The spell must be one that can be made into a potion. You do not need to meet the prerequisites for this feat.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/smoking-finger"><IonIcon icon="/icons/smoking-finger.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-bomb-su" data-hash-target><div className="box">Bomb (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">You can use a number of bombs each day equal to your class level + your Intelligence modifier.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">You can make and throw bombs. Drawing the components of, creating, and throwing a bomb is a single action. Thrown bombs have a range of 20 feet and use the <Link to="/rule/throw_splash_weapon">Throw Splash Weapon special attack</Link>. On a direct hit, your bomb inflicts 1d6 points of fire damage + additional damage equal to your Intelligence modifier (this bonus damage is not multiplied on a critical hit or by using feats such as <Link to="/feat/vital_strike">Vital Strike</Link>).</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box"><p>In addition to magical extracts, alchemists are adept at swiftly mixing various volatile chemicals and infusing them with their magical reserves to create powerful bombs that they can hurl at their enemies. Bombs are unstable, and if not used in the round they are created, they degrade and become inert - their method of creation prevents large volumes of explosive material from being created and stored. In order to create a bomb, you must use a small vial containing an ounce of liquid catalyst - you can create this liquid catalyst from small amounts of chemicals from an alchemy lab, and these supplies can be readily refilled in the same manner as a spellcaster's component pouch. Most alchemists create a number of catalyst vials at the start of the day equal to the total number of bombs they can create in that day - once created, a catalyst vial remains usable by you for years.</p>
+</Pair>
+<Pair title="Special">You may know any number of formulae. You store your formulae in a special tome called a formula book. You must refer to this book whenever you prepare an extract but not when you consume it. You begin play with two 1st-level formulae of your choice, plus a number of additional forumlae equal to your Intelligence modifier. At each new alchemist level, you gain one new formula of any level that you can create. You can also add formulae to your book just like a wizard <Link to="/rule/adding_spells_to_a_wizards_spellbook">adds spells to his spellbook</Link>, using the same costs, pages, and time requirements. You can study a wizard's spellbook to learn any formula that is equivalent to a spell the spellbook contains. A wizard, however, cannot learn spells from a formula book. You do not need to decipher arcane writings before copying them.</Pair>
+</Ability>
+<Ability id="class-alchemist-brew-potion-ex" icon={["stairs-goal"]}>
+<Pair single id="class-alchemist-brew-potion-ex">Brew Potion (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">You receive <Link to="/feat/brew_potion">Brew Potion</Link> as a bonus feat. You can brew potions of any formulae you know (up to 3rd level), using your alchemist level as your caster level. The spell must be one that can be made into a potion. You do not need to meet the prerequisites for this feat.</Pair>
+</Ability>
+<Ability id="class-alchemist-bomb-su" icon={["smoking-finger"]}>
+<Pair single id="class-alchemist-bomb-su">Bomb (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">You can use a number of bombs each day equal to your class level + your Intelligence modifier.</Pair>
+<Pair title="Standard Action">You can make and throw bombs. Drawing the components of, creating, and throwing a bomb is a single action. Thrown bombs have a range of 20 feet and use the <Link to="/rule/throw_splash_weapon">Throw Splash Weapon special attack</Link>. On a direct hit, your bomb inflicts 1d6 points of fire damage + additional damage equal to your Intelligence modifier (this bonus damage is not multiplied on a critical hit or by using feats such as <Link to="/feat/vital_strike">Vital Strike</Link>).</Pair>
+<Pair title="Info"><p>In addition to magical extracts, alchemists are adept at swiftly mixing various volatile chemicals and infusing them with their magical reserves to create powerful bombs that they can hurl at their enemies. Bombs are unstable, and if not used in the round they are created, they degrade and become inert - their method of creation prevents large volumes of explosive material from being created and stored. In order to create a bomb, you must use a small vial containing an ounce of liquid catalyst - you can create this liquid catalyst from small amounts of chemicals from an alchemy lab, and these supplies can be readily refilled in the same manner as a spellcaster's component pouch. Most alchemists create a number of catalyst vials at the start of the day equal to the total number of bombs they can create in that day - once created, a catalyst vial remains usable by you for years.</p>
 <p>Bombs are considered weapons and can be selected using feats such as <Link to="/feat/point_blank_shot">Point-Blank Shot</Link> and <Link to="/feat/weapon_focus">Weapon Focus</Link>. Alchemists can learn new types of bombs as <strong className="hl">discoveries</strong> as they level up. Your bombs, like your extracts, become inert if used or carried by anyone else.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Provokes <Link to="/rule/aoo">AoO?</Link></div></div><div className="abEnd"><div className="box">Yes</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 3rd Level</div></div><div className="abEnd"><div className="box">The base bomb damage becomes 2d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 5th Level</div></div><div className="abEnd"><div className="box">The base bomb damage becomes 3d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">The base bomb damage becomes 4d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">The base bomb damage becomes 5d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">The base bomb damage becomes 6d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">The base bomb damage becomes 7d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">The base bomb damage becomes 8d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 17th Level</div></div><div className="abEnd"><div className="box">The base bomb damage becomes 9d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">The base bomb damage becomes 10d6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Splash damage from your bomb is always equal to the bomb's minimum damage (so if the bomb would deal 1d6+4 points of fire damage on a direct hit, its splash damage would be 5 points of fire damage). Those caught in the splash damage can attempt a Reflex save for half damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your alchemist level + your Intelligence modifier.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-throw-anything-ex" data-hash-target><div className="box">Throw Anything (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain the <Link to="/feat/throw_anything">Throw Anything</Link> feat as a bonus feat. You add your Intelligence modifier to damage done with splash weapons, including the splash damage if any. (This bonus damage is already included in the bomb class feature.)</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-mutagen-su" data-hash-target><div className="box">Mutagen (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">You can drink a mutagen to heighten your physical prowess at the cost of your personality. You gain a +2 natural armor bonus, a +4 alchemical bonus to a physical stat, and a -2 penalty to a mental stat. See below for details.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">A mutagen lasts for 10 minutes per alchemist level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Note</div></div><div className="abEnd"><div className="box"><p>You learn how to create a mutagen that you can imbibe in order to heighten your physical prowess at the cost of your personality. It takes 1 hour to brew a dose of mutagen, and once brewed, it remains potent until used. You can only maintain one dose of mutagen at a time - if you brew a second dose, any existing mutagen becomes inert.</p>
+</Pair>
+<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>Yes</Pair>
+<Pair title="At 3rd Level">The base bomb damage becomes 2d6.</Pair>
+<Pair title="At 5th Level">The base bomb damage becomes 3d6.</Pair>
+<Pair title="At 7th Level">The base bomb damage becomes 4d6.</Pair>
+<Pair title="At 9th Level">The base bomb damage becomes 5d6.</Pair>
+<Pair title="At 11th Level">The base bomb damage becomes 6d6.</Pair>
+<Pair title="At 13th Level">The base bomb damage becomes 7d6.</Pair>
+<Pair title="At 15th Level">The base bomb damage becomes 8d6.</Pair>
+<Pair title="At 17th Level">The base bomb damage becomes 9d6.</Pair>
+<Pair title="At 19th Level">The base bomb damage becomes 10d6.</Pair>
+<Pair title="Special">Splash damage from your bomb is always equal to the bomb's minimum damage (so if the bomb would deal 1d6+4 points of fire damage on a direct hit, its splash damage would be 5 points of fire damage). Those caught in the splash damage can attempt a Reflex save for half damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your alchemist level + your Intelligence modifier.</Pair>
+</Ability>
+<Ability id="class-alchemist-throw-anything-ex" icon={["stairs-goal"]}>
+<Pair single id="class-alchemist-throw-anything-ex">Throw Anything (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">You gain the <Link to="/feat/throw_anything">Throw Anything</Link> feat as a bonus feat. You add your Intelligence modifier to damage done with splash weapons, including the splash damage if any. (This bonus damage is already included in the bomb class feature.)</Pair>
+</Ability>
+<Ability id="class-alchemist-mutagen-su" icon={["upgrade"]}>
+<Pair single id="class-alchemist-mutagen-su">Mutagen (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Standard Action">You can drink a mutagen to heighten your physical prowess at the cost of your personality. You gain a +2 natural armor bonus, a +4 alchemical bonus to a physical stat, and a -2 penalty to a mental stat. See below for details.</Pair>
+<Pair title="Usage">A mutagen lasts for 10 minutes per alchemist level.</Pair>
+<Pair title="Note"><p>You learn how to create a mutagen that you can imbibe in order to heighten your physical prowess at the cost of your personality. It takes 1 hour to brew a dose of mutagen, and once brewed, it remains potent until used. You can only maintain one dose of mutagen at a time - if you brew a second dose, any existing mutagen becomes inert.</p>
 <p>When you brew a mutagen, you select one physical ability score for it to boost - either Strength, Dexterity, or Constitution. If the mutagen enhances your Strength, it applies a penalty to your Intelligence. If it enhances your Dexterity, it applies a penalty to your Wisdom. If it enhances your Constitution, it applies a penalty to your Charisma.</p>
 <p>A non-alchemist who drinks a mutagen must make a Fortitude save (DC 10 + 1/2 your alchemist level + your Intelligence modifier) or become <Link to="/misc/nauseated">nauseated</Link> for 1 hour - a non-alchemist can never gain the benefit of a mutagen, but you can gain the effects of another alchemist's mutagen if you drink it. (Although if the other alchemist creates a different mutagen, the effects of the "stolen" mutagen immediately cease.) The effects of a mutagen do not stack. Whenever you drink a mutagen, the effects of any previous mutagen immediately end.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">As with an extract or bomb, a mutagen that is not in your possession becomes inert until you pick it up again.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-discovery-su" data-hash-target><div className="box">Discovery (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You learn an incredible <Link to="/ability/discovery">alchemical discovery</Link>, choosing one from the list provided. Unless otherwise noted, you cannot select an individual discovery more than once. Some discoveries can only be made if you have met certain prerequisites first, such as uncovering other discoveries.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">You make another discovery.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">You make another discovery.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">You make another discovery.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">You make another discovery.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">You make another discovery.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 14th Level</div></div><div className="abEnd"><div className="box">You make another discovery.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">You make another discovery.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">You make another discovery.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Some discoveries that modify bombs (Primary Bomb Discoveries) do not stack; only one such discovery can be applied to an individual bomb. The DC of any saving throw called for by a discovery is equal to 10 + 1/2 your alchemist level + the your Intelligence modifier.</div></div></div></div>
+</Pair>
+<Pair title="Special">As with an extract or bomb, a mutagen that is not in your possession becomes inert until you pick it up again.</Pair>
+</Ability>
+<Ability id="class-alchemist-discovery-su" icon={["stairs-goal"]}>
+<Pair single id="class-alchemist-discovery-su">Discovery (Su)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">You learn an incredible <Link to="/ability/discovery">alchemical discovery</Link>, choosing one from the list provided. Unless otherwise noted, you cannot select an individual discovery more than once. Some discoveries can only be made if you have met certain prerequisites first, such as uncovering other discoveries.</Pair>
+<Pair title="At 4th Level">You make another discovery.</Pair>
+<Pair title="At 6th Level">You make another discovery.</Pair>
+<Pair title="At 8th Level">You make another discovery.</Pair>
+<Pair title="At 10th Level">You make another discovery.</Pair>
+<Pair title="At 12th Level">You make another discovery.</Pair>
+<Pair title="At 14th Level">You make another discovery.</Pair>
+<Pair title="At 16th Level">You make another discovery.</Pair>
+<Pair title="At 18th Level">You make another discovery.</Pair>
+<Pair title="Special">Some discoveries that modify bombs (Primary Bomb Discoveries) do not stack; only one such discovery can be applied to an individual bomb. The DC of any saving throw called for by a discovery is equal to 10 + 1/2 your alchemist level + the your Intelligence modifier.</Pair>
+</Ability>
 <aside><p>In addition, an alchemist can choose to learn an <Link to="/ability/annointings">annointing</Link> instead of a discovery.</p>
-</aside><div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-poison-resistance-ex" data-hash-target><div className="box">Poison Resistance (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain a +2 bonus on all saving throws against poison.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 5th Level</div></div><div className="abEnd"><div className="box">The bonus becomes +4.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">The bonus becomes +6.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">You become completely immune to poison.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-poison-use-ex" data-hash-target><div className="box">Poison Use (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You are trained in the use of poison and cannot accidentally poison yourself when applying poison to a weapon.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-swift-alchemy-ex" data-hash-target><div className="box">Swift Alchemy (ex)</div><div className="flavor">You can create alchemical items with astounding speed.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">It takes you half the normal amount of time to create alchemical items.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Move-Equivalent Action</div></div><div className="abEnd"><div className="box">You can apply poison to a weapon. (This is normally a standard action.)</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-swift-poisoning-ex" data-hash-target><div className="box">Swift Poisoning (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 6th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box">You can now apply a dose of poison to a weapon as a <strong className="hl">swift action</strong>.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-persistent-mutagen-su" data-hash-target><div className="box">Persistent Mutagen (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 14th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The effects of a mutagen now last for 1 hour per level.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-instant-alchemy-ex" data-hash-target><div className="box">Instant Alchemy (Ex)</div><div className="flavor">You can create alchemical items with almost supernatural speed.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 18th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Full-Round Action</div></div><div className="abEnd"><div className="box">You can create any alchemical item if you succeed at the Craft (alchemy) check and have the appropriate resources at hand to fund the creation.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Immediate Action</div></div><div className="abEnd"><div className="box">You can apply poison to a weapon. (This is normally a standard action.)</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-alchemist-grand-discovery-su" data-hash-target><div className="box">Grand Discovery (Su)</div><div className="flavor">For many alchemists, the promise of one of these grand discoveries is the primary goal of their experiments and hard work.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 20th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You make a <Link to="/ability/grand_discovery">grand discovery</Link>. You also immediately learn two normal discoveries, but also a third discovery chosen from the given list, representing a truly astounding alchemical breakthrough of significant import.</div></div></div></div>
+</aside><Ability id="class-alchemist-poison-resistance-ex" icon={["armor-upgrade"]}>
+<Pair single id="class-alchemist-poison-resistance-ex">Poison Resistance (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">You gain a +2 bonus on all saving throws against poison.</Pair>
+<Pair title="At 5th Level">The bonus becomes +4.</Pair>
+<Pair title="At 8th Level">The bonus becomes +6.</Pair>
+<Pair title="At 10th Level">You become completely immune to poison.</Pair>
+</Ability>
+<Ability id="class-alchemist-poison-use-ex" icon={["armor-upgrade"]}>
+<Pair single id="class-alchemist-poison-use-ex">Poison Use (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">You are trained in the use of poison and cannot accidentally poison yourself when applying poison to a weapon.</Pair>
+</Ability>
+<Ability id="class-alchemist-swift-alchemy-ex" icon={["upgrade"]}>
+<Pair single id="class-alchemist-swift-alchemy-ex" flavor="You can create alchemical items with astounding speed.">Swift Alchemy (ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">It takes you half the normal amount of time to create alchemical items.</Pair>
+<Pair title="Move-Equivalent Action">You can apply poison to a weapon. (This is normally a standard action.)</Pair>
+</Ability>
+<Ability id="class-alchemist-swift-poisoning-ex" icon={["upgrade"]}>
+<Pair single id="class-alchemist-swift-poisoning-ex">Swift Poisoning (Ex)</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Swift Action">You can now apply a dose of poison to a weapon as a <strong className="hl">swift action</strong>.</Pair>
+</Ability>
+<Ability id="class-alchemist-persistent-mutagen-su" icon={["upgrade"]}>
+<Pair single id="class-alchemist-persistent-mutagen-su">Persistent Mutagen (Su)</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Passive Ability">The effects of a mutagen now last for 1 hour per level.</Pair>
+</Ability>
+<Ability id="class-alchemist-instant-alchemy-ex" icon={["upgrade"]}>
+<Pair single id="class-alchemist-instant-alchemy-ex" flavor="You can create alchemical items with almost supernatural speed.">Instant Alchemy (Ex)</Pair>
+<Pair title="Gained">At 18th Level</Pair>
+<Pair title="Full-Round Action">You can create any alchemical item if you succeed at the Craft (alchemy) check and have the appropriate resources at hand to fund the creation.</Pair>
+<Pair title="Immediate Action">You can apply poison to a weapon. (This is normally a standard action.)</Pair>
+</Ability>
+<Ability id="class-alchemist-grand-discovery-su" icon={["stairs-goal"]}>
+<Pair single id="class-alchemist-grand-discovery-su" flavor="For many alchemists, the promise of one of these grand discoveries is the primary goal of their experiments and hard work.">Grand Discovery (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">You make a <Link to="/ability/grand_discovery">grand discovery</Link>. You also immediately learn two normal discoveries, but also a third discovery chosen from the given list, representing a truly astounding alchemical breakthrough of significant import.</Pair>
+</Ability>
 <h3 id="class-alchemist-alternate-capstones" data-hash-target>Alternate Capstones</h3>
 <p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 28</Link><br/>When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides <Link to="/ability/capstones">new capstones</Link> for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with. A character that gains certain abilities may be eligible for capstones other than those listed below.</p>
 <div className="capstones"><ScrollContainer id="class-alchemist--table-1"><table><thead><tr><th scope="col">Capstone</th><th scope="col">Benefit</th></tr></thead>
@@ -890,54 +904,61 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Light Armor?</th><td colSpan={2}>Yes</td></tr><tr><th>Medium Armor?</th><td colSpan={2}>Yes</td></tr><tr><th>Heavy Armor?</th><td colSpan={2}>Yes</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
 <p><strong className="hl" id="class-antipaladin-code-of-conduct" data-hash-target>Code of Conduct:</strong> An antipaladin must be of chaotic evil alignment and loses all class features except proficiencies if he willingly and altruistically commits good acts. This does not mean that an antipaladin cannot take actions someone else might qualify as good, only that such actions must always be in service of his own dark ends. An antipaladin's code requires that he place his own interests and desires above all else, as well as impose tyranny, take advantage whenever possible, and punish the good and just, provided such actions don't interfere with his goals.</p>
 <p><strong className="hl">Associates:</strong> While he may adventure with evil or neutral allies, an antipaladin avoids working with good characters or with anyone who consistently attempts to do good deeds. Under exceptional circumstances, an antipaladin can ally with good associates, but only to defeat them from within and bring ruin to their ranks. An antipaladin does not need an <Link to="/spell/atonement">atonement</Link> spell during such an unusual alliance as long as his nefarious goals are met in the end - evil cares only about results. An antipaladin may accept only <Link to="/feat/leadership">henchmen, followers, or cohorts</Link> who are chaotic evil.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/abstract-091"><IonIcon icon="/icons/abstract-091.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-aura-of-evil-ex" data-hash-target><div className="box">Aura of Evil (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">The power of your aura of evil (see <Link to="/spell/detect_evil">detect evil</Link>) is equal to your antipaladin level.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-detect-good-sp" data-hash-target><div className="box">Detect Good (Sp)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">At will, you can use <Link to="/spell/detect_good">detect good</Link>, as the spell.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Move-Equivalent Action</div></div><div className="abEnd"><div className="box">You can concentrate on a single item or individual within 60 feet and determine if it is good, learning the strength of its aura as if having studied it for 3 rounds. While focusing on one individual or object, you do not <em>detect good</em> in any other object or individual within range.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-smite-good-su" data-hash-target><div className="box">Smite Good (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Swift Action</div></div><div className="abEnd"><div className="box"><p>You can call out to the dark powers to crush the forces of good, choosing one target within sight to smite. If you target a creature that is not good, the smite is wasted with no effect.</p>
+<Ability id="class-antipaladin-aura-of-evil-ex" icon={["abstract-091"]}>
+<Pair single id="class-antipaladin-aura-of-evil-ex">Aura of Evil (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">The power of your aura of evil (see <Link to="/spell/detect_evil">detect evil</Link>) is equal to your antipaladin level.</Pair>
+</Ability>
+<Ability id="class-antipaladin-detect-good-sp" icon={["stairs-goal"]}>
+<Pair single id="class-antipaladin-detect-good-sp">Detect Good (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">At will, you can use <Link to="/spell/detect_good">detect good</Link>, as the spell.</Pair>
+<Pair title="Move-Equivalent Action">You can concentrate on a single item or individual within 60 feet and determine if it is good, learning the strength of its aura as if having studied it for 3 rounds. While focusing on one individual or object, you do not <em>detect good</em> in any other object or individual within range.</Pair>
+</Ability>
+<Ability id="class-antipaladin-smite-good-su" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="class-antipaladin-smite-good-su">Smite Good (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Swift Action"><p>You can call out to the dark powers to crush the forces of good, choosing one target within sight to smite. If you target a creature that is not good, the smite is wasted with no effect.</p>
 <p>If your target is good, you add your Charisma bonus (if any) on your attack rolls and add your antipaladin level on all damage rolls made against the target of your smite. If the target of <em>smite good</em> is an <Link to="/type/outsider">outsider</Link> with the <Link to="/subtype/good">good</Link> subtype, a good-aligned <Link to="/type/dragon">dragon</Link>, or a good creature with levels of <Link to="/class/cleric">cleric</Link> or <Link to="/class/paladin">paladin</Link>, the bonus to damage on the first successful attack increases to 2 points of damage per antipaladin level. Regardless of the target, <em>smite good</em> attacks automatically bypass any DR the creature might possess.</p>
 <p>In addition, while <em>smite good</em> is in effect, you gain a deflection bonus equal to your Charisma modifier (if any) to your AC against attacks made by the target of the smite.</p>
 <p>The <em>smite good</em> effect remains until the target of the smite is dead or the next time you rest and regain your uses of this ability.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">You can smite twice a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">You can smite three times a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">You can smite four times a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">You can smite five times a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">You can smite six times a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">You can smite seven times a day.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-unholy-resilience-su" data-hash-target><div className="box">Unholy Resilience (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain a bonus equal to your Charisma bonus (if any) on all saving throws.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-palm"><IonIcon icon="/icons/magic-palm.svg" color="secondary" /></Link><Link to="/icons/heart-plus"><IonIcon icon="/icons/heart-plus.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-touch-of-corruption-su" data-hash-target><div className="box">Touch of Corruption (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">Half your antipaladin level, plus your Cha modifier, times/day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box"><p>You surround your hand with a fiendish flame, causing terrible wounds to open on those you touch. As a touch attack, you can cause 1d6 points of damage for every two antipaladin levels you possess.</p>
+</Pair>
+<Pair title="At 4th Level">You can smite twice a day.</Pair>
+<Pair title="At 7th Level">You can smite three times a day.</Pair>
+<Pair title="At 10th Level">You can smite four times a day.</Pair>
+<Pair title="At 13th Level">You can smite five times a day.</Pair>
+<Pair title="At 16th Level">You can smite six times a day.</Pair>
+<Pair title="At 19th Level">You can smite seven times a day.</Pair>
+</Ability>
+<Ability id="class-antipaladin-unholy-resilience-su" icon={["armor-upgrade"]}>
+<Pair single id="class-antipaladin-unholy-resilience-su">Unholy Resilience (Su)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">You gain a bonus equal to your Charisma bonus (if any) on all saving throws.</Pair>
+</Ability>
+<Ability id="class-antipaladin-touch-of-corruption-su" icon={["magic-palm","heart-plus"]}>
+<Pair single id="class-antipaladin-touch-of-corruption-su">Touch of Corruption (Su)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Usage">Half your antipaladin level, plus your Cha modifier, times/day.</Pair>
+<Pair title="Standard Action"><p>You surround your hand with a fiendish flame, causing terrible wounds to open on those you touch. As a touch attack, you can cause 1d6 points of damage for every two antipaladin levels you possess.</p>
 <p>Alternatively, you can use this power to heal undead creatures, restoring 1d6 hit points for every two levels the you possess.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Provokes <Link to="/rule/aoo">AoO?</Link></div></div><div className="abEnd"><div className="box">No</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">This ability is modified by any feat, spell, or effect that specifically works with the <Link to="/ability/lay_on_hands">lay on hands</Link> paladin class feature. For example, the <Link to="/feat/extra_lay_on_hands">Extra Lay On Hands</Link> feat grants an antipaladin 2 additional uses of the <em>touch of corruption</em> class feature.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-downgrade"><IonIcon icon="/icons/armor-downgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-aura-of-cowardice-su" data-hash-target><div className="box">Aura of Cowardice (Su)</div><div className="flavor">You radiate a palpably daunting aura.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">All enemies within 10 feet take a -4 penalty on saving throws against fear effects. Creatures that are normally immune to fear lose that immunity while within 10 feet of you. This ability functions only while you remain conscious, not if you are unconscious or dead.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-plague-bringer-ex" data-hash-target><div className="box">Plague Bringer (Ex)</div><div className="flavor">The powers of darkness make an antipaladin a beacon of corruption and disease.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You do not take any damage or take any penalty from diseases. You can still contract diseases and spread them to others, but you're otherwise immune to their effects.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-cruelty-su" data-hash-target><div className="box">Cruelty (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box"><p>Select one cruelty from the list below. Once a cruelty is chosen, it can't be changed. Each cruelty adds an effect to your <em>touch of corruption</em> ability. Whenever you use <em>touch of corruption</em> to deal damage to one target, the target also receives the additional effect from one of the cruelties you possess. This choice is made when the touch is used. The target receives a Fortitude save to avoid this cruelty. If the save is successful, the target takes the damage as normal, but not the effects of the cruelty. The DC of this save is equal to 10 + <Link to="/misc/half">half</Link> your level + your Charisma modifier.</p>
+</Pair>
+<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title="Special">This ability is modified by any feat, spell, or effect that specifically works with the <Link to="/ability/lay_on_hands">lay on hands</Link> paladin class feature. For example, the <Link to="/feat/extra_lay_on_hands">Extra Lay On Hands</Link> feat grants an antipaladin 2 additional uses of the <em>touch of corruption</em> class feature.</Pair>
+</Ability>
+<Ability id="class-antipaladin-aura-of-cowardice-su" icon={["armor-downgrade"]}>
+<Pair single id="class-antipaladin-aura-of-cowardice-su" flavor="You radiate a palpably daunting aura.">Aura of Cowardice (Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">All enemies within 10 feet take a -4 penalty on saving throws against fear effects. Creatures that are normally immune to fear lose that immunity while within 10 feet of you. This ability functions only while you remain conscious, not if you are unconscious or dead.</Pair>
+</Ability>
+<Ability id="class-antipaladin-plague-bringer-ex" icon={["armor-upgrade"]}>
+<Pair single id="class-antipaladin-plague-bringer-ex" flavor="The powers of darkness make an antipaladin a beacon of corruption and disease.">Plague Bringer (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You do not take any damage or take any penalty from diseases. You can still contract diseases and spread them to others, but you're otherwise immune to their effects.</Pair>
+</Ability>
+<Ability id="class-antipaladin-cruelty-su" icon={["upgrade"]}>
+<Pair single id="class-antipaladin-cruelty-su">Cruelty (Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability"><p>Select one cruelty from the list below. Once a cruelty is chosen, it can't be changed. Each cruelty adds an effect to your <em>touch of corruption</em> ability. Whenever you use <em>touch of corruption</em> to deal damage to one target, the target also receives the additional effect from one of the cruelties you possess. This choice is made when the touch is used. The target receives a Fortitude save to avoid this cruelty. If the save is successful, the target takes the damage as normal, but not the effects of the cruelty. The DC of this save is equal to 10 + <Link to="/misc/half">half</Link> your level + your Charisma modifier.</p>
 <p>At 3rd level, you start with these cruelties.</p>
 <ul>
 <li><strong>Fatigued:</strong> The target is <Link to="/misc/fatigued">fatigued</Link>.</li>
@@ -966,73 +987,84 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <li><strong>Stunned:</strong> The target is <Link to="/misc/stunned">stunned</Link> for 1 round per four levels of the antipaladin.</li>
 </ul>
 <p>These abilities are not cumulative. For example, a 12th-level antipaladin's touch of corruption ability deals 6d6 points of damage and might also cause the target to become fatigued, dazed, poisoned, <strong>or</strong> diseased.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">You gain a second cruelty.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">You gain a third cruelty.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">You gain a fourth cruelty.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">You gain a fifth cruelty.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">You gain a sixth cruelty.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-channel-negative-energy-su" data-hash-target><div className="box">Channel Negative Energy (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">You gain the supernatural ability to <Link to="/ability/channel_negative_energy">channel negative energy</Link> like a cleric. Using this ability consumes two uses of your <em>touch of corruption</em> ability. You use your level as your effective cleric level when channeling negative energy. This is a Charisma-based ability.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-spells" data-hash-target><div className="box">Spells</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You gain the ability to cast a small number of divine spells which are drawn from the <Link to="/main/antipaladin_spell">antipaladin spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You must choose and prepare your spells in advance. Like other spellcasters, you can cast only a certain number of spells of each spell level per day. Your base daily spell allotment is the same as that of a paladin. In addition, you receive <Link to="/rule/bonus_spells">bonus spells per day</Link> if you have a high Charisma score.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">To prepare or cast a spell, you must have a Charisma score equal to at least 10 + the spell level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box"><p>You must spend 1 hour each day in quiet prayer and meditation to regain your daily allotment of spells. You may prepare and cast any spell on the antipaladin spell list, provided that you can cast spells of that level, but you must choose which spells to prepare during your daily meditation.</p>
+</Pair>
+<Pair title="At 6th Level">You gain a second cruelty.</Pair>
+<Pair title="At 9th Level">You gain a third cruelty.</Pair>
+<Pair title="At 12th Level">You gain a fourth cruelty.</Pair>
+<Pair title="At 15th Level">You gain a fifth cruelty.</Pair>
+<Pair title="At 18th Level">You gain a sixth cruelty.</Pair>
+</Ability>
+<Ability id="class-antipaladin-channel-negative-energy-su" icon={["stairs-goal"]}>
+<Pair single id="class-antipaladin-channel-negative-energy-su">Channel Negative Energy (Su)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Standard Action">You gain the supernatural ability to <Link to="/ability/channel_negative_energy">channel negative energy</Link> like a cleric. Using this ability consumes two uses of your <em>touch of corruption</em> ability. You use your level as your effective cleric level when channeling negative energy. This is a Charisma-based ability.</Pair>
+</Ability>
+<Ability id="class-antipaladin-spells" icon={["magic-swirl"]}>
+<Pair single id="class-antipaladin-spells">Spells</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">You gain the ability to cast a small number of divine spells which are drawn from the <Link to="/main/antipaladin_spell">antipaladin spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You must choose and prepare your spells in advance. Like other spellcasters, you can cast only a certain number of spells of each spell level per day. Your base daily spell allotment is the same as that of a paladin. In addition, you receive <Link to="/rule/bonus_spells">bonus spells per day</Link> if you have a high Charisma score.</Pair>
+<Pair title="Usage">To prepare or cast a spell, you must have a Charisma score equal to at least 10 + the spell level.</Pair>
+<Pair title="Info"><p>You must spend 1 hour each day in quiet prayer and meditation to regain your daily allotment of spells. You may prepare and cast any spell on the antipaladin spell list, provided that you can cast spells of that level, but you must choose which spells to prepare during your daily meditation.</p>
 <p>Through 3rd level, you have no caster level. At 4th level and higher, your caster level is equal to your antipaladin level - 3.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">When it is indicated that you get 0 spells per day of a given spell level, you gain only the bonus spells you would be entitled to based on your Charisma score for that spell level.</div></div></div></div>
-<div className="ability p hasSubs"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-fiendish-boon-sp" data-hash-target><div className="box">Fiendish Boon (Sp)</div><div className="flavor">You receive a boon from your dark patrons.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">This boon can take one of two forms. Once the form is chosen, it cannot be changed.</div></div></div></div>
-<div className="ability p subAbility numbered"><div className="abIcon"><Link to="/icons/mailed-fist"><IonIcon icon="/icons/mailed-fist.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-weapon-bond" data-hash-target><div className="box">Weapon Bond</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">Once per day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Choice</div></div><div className="abEnd"><div className="box"><p>The first type of bond allows you to enhance your weapon as a standard action by calling upon the aid of a fiendish spirit for 1 minute per antipaladin level. When called, the spirit causes the weapon to shed unholy light as a <Link to="/eq-misc/torch">torch</Link> and grants the weapon a +1 enhancement bonus.</p>
+</Pair>
+<Pair title="Special">When it is indicated that you get 0 spells per day of a given spell level, you gain only the bonus spells you would be entitled to based on your Charisma score for that spell level.</Pair>
+</Ability>
+<Ability id="class-antipaladin-fiendish-boon-sp" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Pair single id="class-antipaladin-fiendish-boon-sp" flavor="You receive a boon from your dark patrons.">Fiendish Boon (Sp)</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">This boon can take one of two forms. Once the form is chosen, it cannot be changed.</Pair>
+</Ability>
+<Ability id="class-antipaladin-weapon-bond" extraClasses="subAbility numbered" icon={["mailed-fist"]}>
+<Pair single id="class-antipaladin-weapon-bond">Weapon Bond</Pair>
+<Pair title="Usage">Once per day.</Pair>
+<Pair title="Choice"><p>The first type of bond allows you to enhance your weapon as a standard action by calling upon the aid of a fiendish spirit for 1 minute per antipaladin level. When called, the spirit causes the weapon to shed unholy light as a <Link to="/eq-misc/torch">torch</Link> and grants the weapon a +1 enhancement bonus.</p>
 <p>For every three levels beyond 5th, the weapon gains another +1 enhancement bonus, to a maximum of +6 at 20th level. These bonuses can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or they can be used to add any of the following weapon properties: <Link to="/magic-enh/anarchic">anarchic</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/speed">speed</Link>, <Link to="/magic-enh/unholy">unholy</Link>, <Link to="/magic-enh/vicious">vicious</Link>, <Link to="/magic-enh/vorpal">vorpal</Link>, and <Link to="/magic-enh/wounding">wounding</Link>. Adding these properties consumes an amount of bonus equal to the property's cost. These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again.</p>
 <p>The fiendish spirit imparts no bonuses if the weapon is held by anyone other than you, but resumes giving bonuses if returned to you. These bonuses apply to only one end of a double weapon.</p>
 <p>If a weapon bonded with a fiendish spirit is destroyed, you lose the use of this ability for 30 days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">You can use this ability twice a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">You can use this ability three times a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 17th Level</div></div><div className="abEnd"><div className="box">You can use this ability four times a day.</div></div></div></div>
-<div className="ability p subAbility numbered"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-fiendish-servant" data-hash-target><div className="box">Fiendish Servant</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">Once per day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Choice</div></div><div className="abEnd"><div className="box"><p>The second type of bond allows you to gain the service of a fiendish servant. This functions as <Link to="/spell/summon_monster_iii">summon monster III</Link>, except the duration is permanent and you can only gain the service of a single creature and that creature must either have the <Link to="/subtype/chaotic">chaotic</Link> and <Link to="/subtype/evil">evil</Link> subtypes or it must be a <Link to="/template/fiendish">fiendish</Link> animal. Once selected, the choice is set, but it may be changed whenever you gain a level.</p>
+</Pair>
+<Pair title="At 9th Level">You can use this ability twice a day.</Pair>
+<Pair title="At 13th Level">You can use this ability three times a day.</Pair>
+<Pair title="At 17th Level">You can use this ability four times a day.</Pair>
+</Ability>
+<Ability id="class-antipaladin-fiendish-servant" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Pair single id="class-antipaladin-fiendish-servant">Fiendish Servant</Pair>
+<Pair title="Usage">Once per day.</Pair>
+<Pair title="Choice"><p>The second type of bond allows you to gain the service of a fiendish servant. This functions as <Link to="/spell/summon_monster_iii">summon monster III</Link>, except the duration is permanent and you can only gain the service of a single creature and that creature must either have the <Link to="/subtype/chaotic">chaotic</Link> and <Link to="/subtype/evil">evil</Link> subtypes or it must be a <Link to="/template/fiendish">fiendish</Link> animal. Once selected, the choice is set, but it may be changed whenever you gain a level.</p>
 <p>As a full-round action, you may magically call your servant to your side. This ability is the equivalent of a spell of a level equal to one-third your antipaladin level. The servant immediately appears adjacent to you.</p>
 <p>Should your fiendish servant die or be banished, you may not summon another servant for 30 days or until you gain an antipaladin level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">This functions as <Link to="/spell/summon_monster_iv">summon monster IV</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">You can use this ability twice a day, and it functions as <Link to="/spell/summon_monster_v">summon monster V</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">This functions as <Link to="/spell/summon_monster_vi">summon monster VI</Link>, and the servant gains the <Link to="/template/advanced">advanced</Link> template.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">You can use this ability three times a day, and it functions as <Link to="/spell/summon_monster_vii">summon monster VII</Link>.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">This functions as <Link to="/spell/summon_monster_viii">summon monster VIII</Link>, and the servant gains spell resistance equal to your level + 11.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 17th Level</div></div><div className="abEnd"><div className="box">You can use this ability four times a day, and it functions as <Link to="/spell/summon_monster_ix">summon monster IX</Link>.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-downgrade"><IonIcon icon="/icons/armor-downgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-aura-of-despair-su" data-hash-target><div className="box">Aura of Despair (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 8th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">Enemies within 10 feet of you take a -2 penalty on all saving throws. This penalty does not stack with the penalty from <em>aura of cowardice.</em> This ability functions only while you are conscious, not if you're unconscious or dead.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-aura-of-vengeance-su" data-hash-target><div className="box">Aura of Vengeance (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 11th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Free Action</div></div><div className="abEnd"><div className="box">You can expend two uses of your <em>smite good</em> ability to grant the ability to <em>smite good</em> to all allies within 10 feet, using your bonuses. Allies must use this <em>smite good</em> ability by the start of your next turn and the bonuses last for 1 minute. Good creatures gain no benefit from this ability.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-downgrade"><IonIcon icon="/icons/armor-downgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-aura-of-sin-su" data-hash-target><div className="box">Aura of Sin (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 14th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">Your weapons are treated as evil-aligned for the purposes of overcoming <Link to="/rule/damage_reduction">damage reduction</Link>. Any attack made against an enemy within 10 feet of you is treated as evil-aligned for the purposes of overcoming damage reduction. This ability functions only while you are conscious, not if you're unconscious or dead.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/armor-downgrade"><IonIcon icon="/icons/armor-downgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-aura-of-depravity-su" data-hash-target><div className="box">Aura of Depravity (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 17th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain DR 5/good. Each enemy within 10 feet takes a -4 penalty on saving throws against compulsion effects. This ability functions only while you are conscious, not if you're unconscious or dead.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-antipaladin-unholy-champion-su" data-hash-target><div className="box">Unholy Champion (Su)</div><div className="flavor">You become a conduit for the might of the dark powers.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 20th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">Your DR increases to 10/good. Whenever you use <em>smite good</em> and successfully strike a good outsider, the outsider is also subject to a <Link to="/spell/banishment">banishment</Link>, using your antipaladin level as the caster level (your weapon and unholy symbol automatically count as objects that the subject hates). After the <em>banishment</em> effect and the damage from the attack is resolved, the <em>smite</em> immediately ends. In addition, whenever you channel negative energy or use <em>touch of corruption</em> to damage a creature, you deal the maximum possible amount.</div></div></div></div>
+</Pair>
+<Pair title="At 7th Level">This functions as <Link to="/spell/summon_monster_iv">summon monster IV</Link>.</Pair>
+<Pair title="At 9th Level">You can use this ability twice a day, and it functions as <Link to="/spell/summon_monster_v">summon monster V</Link>.</Pair>
+<Pair title="At 11th Level">This functions as <Link to="/spell/summon_monster_vi">summon monster VI</Link>, and the servant gains the <Link to="/template/advanced">advanced</Link> template.</Pair>
+<Pair title="At 13th Level">You can use this ability three times a day, and it functions as <Link to="/spell/summon_monster_vii">summon monster VII</Link>.</Pair>
+<Pair title="At 15th Level">This functions as <Link to="/spell/summon_monster_viii">summon monster VIII</Link>, and the servant gains spell resistance equal to your level + 11.</Pair>
+<Pair title="At 17th Level">You can use this ability four times a day, and it functions as <Link to="/spell/summon_monster_ix">summon monster IX</Link>.</Pair>
+</Ability>
+<Ability id="class-antipaladin-aura-of-despair-su" icon={["armor-downgrade"]}>
+<Pair single id="class-antipaladin-aura-of-despair-su">Aura of Despair (Su)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability">Enemies within 10 feet of you take a -2 penalty on all saving throws. This penalty does not stack with the penalty from <em>aura of cowardice.</em> This ability functions only while you are conscious, not if you're unconscious or dead.</Pair>
+</Ability>
+<Ability id="class-antipaladin-aura-of-vengeance-su" icon={["upgrade"]}>
+<Pair single id="class-antipaladin-aura-of-vengeance-su">Aura of Vengeance (Su)</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Free Action">You can expend two uses of your <em>smite good</em> ability to grant the ability to <em>smite good</em> to all allies within 10 feet, using your bonuses. Allies must use this <em>smite good</em> ability by the start of your next turn and the bonuses last for 1 minute. Good creatures gain no benefit from this ability.</Pair>
+</Ability>
+<Ability id="class-antipaladin-aura-of-sin-su" icon={["armor-downgrade"]}>
+<Pair single id="class-antipaladin-aura-of-sin-su">Aura of Sin (Su)</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Passive Ability">Your weapons are treated as evil-aligned for the purposes of overcoming <Link to="/rule/damage_reduction">damage reduction</Link>. Any attack made against an enemy within 10 feet of you is treated as evil-aligned for the purposes of overcoming damage reduction. This ability functions only while you are conscious, not if you're unconscious or dead.</Pair>
+</Ability>
+<Ability id="class-antipaladin-aura-of-depravity-su" icon={["armor-upgrade","armor-downgrade"]}>
+<Pair single id="class-antipaladin-aura-of-depravity-su">Aura of Depravity (Su)</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Passive Ability">You gain DR 5/good. Each enemy within 10 feet takes a -4 penalty on saving throws against compulsion effects. This ability functions only while you are conscious, not if you're unconscious or dead.</Pair>
+</Ability>
+<Ability id="class-antipaladin-unholy-champion-su" icon={["armor-upgrade","upgrade"]}>
+<Pair single id="class-antipaladin-unholy-champion-su" flavor="You become a conduit for the might of the dark powers.">Unholy Champion (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">Your DR increases to 10/good. Whenever you use <em>smite good</em> and successfully strike a good outsider, the outsider is also subject to a <Link to="/spell/banishment">banishment</Link>, using your antipaladin level as the caster level (your weapon and unholy symbol automatically count as objects that the subject hates). After the <em>banishment</em> effect and the damage from the attack is resolved, the <em>smite</em> immediately ends. In addition, whenever you channel negative energy or use <em>touch of corruption</em> to damage a creature, you deal the maximum possible amount.</Pair>
+</Ability>
 <h3 id="class-antipaladin-ex-antipaladins" data-hash-target>Ex-Antipaladins</h3>
 <p>A antipaladin who ceases to be chaotic evil, who willfully commits an good act, or who violates the code of conduct loses all antipaladin spells and class features (including the fiendish boon, but not weapon, armor, and shield proficiencies). He may not progress any further in levels as an antipaladin. He regains his abilities and advancement potential if he atones for his violations (see <Link to="/spell/atonement">atonement</Link>), as appropriate.</p>
 <h3 id="class-antipaladin-fall-from-grace" data-hash-target>Fall from Grace</h3>
@@ -1729,57 +1761,65 @@ const _arcanist = {hasJL:true,title: "Arcanist", jsx: <><div className="jumpList
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={1}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><th>Light Armor?</th><td colSpan={2}>No</td></tr><tr><th>Medium Armor?</th><td colSpan={2}>No</td></tr><tr><th>Heavy Armor?</th><td colSpan={2}>No</td></tr><tr><th>Shields?</th><td colSpan={2}>No</td></tr><tr><td colSpan={3} className="sw se">Armor interferes with your gestures, which can cause your spells with somatic components to fail (see <Link to="/rule/arcane_spells_and_armor">Arcane Spells and Armor</Link>).</td></tr></tbody></table>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-arcanist-spells" data-hash-target><div className="box">Spells</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You cast arcane spells drawn from the <Link to="/main/spells_arcanist">sorcerer/wizard</Link> spell list. You must prepare your spells ahead of time, but unlike a wizard, your spells are not expended when they're cast. Instead, you can cast any spell that you have prepared consuming a spell slot of the appropriate level, assuming you haven't yet used up your spell slots per day for that level. In addition, you receive <Link to="/rule/bonus_spells">bonus spells per day</Link> if you have a high Intelligence score. The DC for a saving throw against spells you cast is 10 + the spell level + your Intelligence modifier.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">To learn, prepare, or cast a spell, you must have an Intelligence score equal to at least 10 + the spell level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box"><p>You may know any number of spells, but the number you can prepare each day is limited. At 1st level, you can prepare four 0-level spells and two 1st-level spells each day. At each new arcanist level, the number of spells you can prepare each day increases. Unlike the number of spells you can cast per day, the number of spells you can prepare each day is not affected by your Intelligence score. Feats and other effects that modify the number of spells known by a spellcaster instead affect the number of spells you can prepare.</p>
+<Ability id="class-arcanist-spells" icon={["magic-swirl"]}>
+<Pair single id="class-arcanist-spells">Spells</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">You cast arcane spells drawn from the <Link to="/main/spells_arcanist">sorcerer/wizard</Link> spell list. You must prepare your spells ahead of time, but unlike a wizard, your spells are not expended when they're cast. Instead, you can cast any spell that you have prepared consuming a spell slot of the appropriate level, assuming you haven't yet used up your spell slots per day for that level. In addition, you receive <Link to="/rule/bonus_spells">bonus spells per day</Link> if you have a high Intelligence score. The DC for a saving throw against spells you cast is 10 + the spell level + your Intelligence modifier.</Pair>
+<Pair title="Usage">To learn, prepare, or cast a spell, you must have an Intelligence score equal to at least 10 + the spell level.</Pair>
+<Pair title="Info"><p>You may know any number of spells, but the number you can prepare each day is limited. At 1st level, you can prepare four 0-level spells and two 1st-level spells each day. At each new arcanist level, the number of spells you can prepare each day increases. Unlike the number of spells you can cast per day, the number of spells you can prepare each day is not affected by your Intelligence score. Feats and other effects that modify the number of spells known by a spellcaster instead affect the number of spells you can prepare.</p>
 <p>You must choose and prepare your spells ahead of time by getting 8 hours of sleep and spending 1 hour studying your spellbook. While studying, you decide what spells to prepare and refresh your available spell slots for the day.</p>
 <p>Like a sorcerer, you can choose to apply any <Link to="/main/metamagic_feat">metamagic feats</Link> you know to a prepared spell as you cast it, with the same increase in casting time. However, you may also prepare a spell with any metamagic feats you know and cast it without increasing casting time like a wizard. You cannot combine these options - a spell prepared with metamagic feats cannot be further modified with another metamagic feat at the time of casting (unless you have the <Link to="/exploit/metamixing">metamixing</Link> arcanist exploit).</p>
-</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-arcanist-cantrips" data-hash-target><div className="box">Cantrips</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You can prepare a number of cantrips, or 0-level arcane spells, each day. These spells are cast like any other spell, but they do not consume spell slots. As with your other spells, these spells are not expended when cast.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-arcanist-spellbooks" data-hash-target><div className="box">Spellbooks</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You must study your spellbook each day to prepare your spells. You can't prepare any spell not recorded in your spellbook, except for <Link to="/spell/read_magic">read magic</Link> (which all arcanists can prepare from memory).</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">You begin play with a spellbook containing all 0-level arcanist spells plus three 1st-level spells of your choice. You also select a number of additional 1st-level spells equal to your Intelligence modifier to add to the spellbook. At each new arcanist level, you gain two new spells of any spell level or levels that you can cast (based on your new arcanist level) for your spellbook. At any time, you can also add spells found in wizards' or other arcanists' spellbooks to your own (see <Link to="/rule/arcane_magical_writing">Arcane Magical Writing</Link>).</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-arcanist-arcane-reservoir-su" data-hash-target><div className="box">Arcane Reservoir (Su)</div><div className="flavor">You have an innate pool of magical energy that you can draw upon to fuel many of your powers.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You have an arcane reservoir that can hold a maximum amount of magical energy equal to 3 + your arcanist level. Each day, when preparing spells, your arcane reservoir fills with raw magical energy, gaining a number of points equal to 3 + <Link to="/misc/half">half</Link> your arcanist level. Any points you had from the previous day are lost. You can also regain these points through the <em>consume spells</em> class feature and some arcanist exploits. The arcane reservoir can never hold more points than the maximum amount noted above; points gained in excess of this total are lost.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Free Action</div></div><div className="abEnd"><div className="box">You can expend 1 point from your arcane reservoir whenever you cast an arcanist spell. If you do, you can choose to increase the caster level by 1 or increase the spell's DC by 1. You can expend no more than 1 point from your reservoir on a given spell in this way.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-arcanist-arcanist-exploits" data-hash-target><div className="box">Arcanist Exploits</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You learn one arcanist exploit. By bending and sometimes even breaking the rules of magic, you learn to exploit gaps and exceptions in the laws of magic. Some of these <Link to="/ability/exploits">exploits</Link> allow you to break down various forms of magic, adding their essence to your arcane reservoir.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 3rd Level</div></div><div className="abEnd"><div className="box">You learn a new arcane exploit.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 5th Level</div></div><div className="abEnd"><div className="box">You learn a new arcane exploit.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">You learn a new arcane exploit.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">You learn a new arcane exploit.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">You learn a new arcane exploit (or <em>greater exploit,</em> explained below).</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">You learn a new arcane exploit. (or <em>greater exploit</em>)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">You learn a new arcane exploit. (or <em>greater exploit</em>)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 17th Level</div></div><div className="abEnd"><div className="box">You learn a new arcane exploit. (or <em>greater exploit</em>)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">You learn a new arcane exploit. (or <em>greater exploit</em>)</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">An arcanist exploit cannot be selected more than once. Once an arcanist exploit has been selected, it cannot be changed. Most arcanist exploits require you to expend points from your arcane reservoir to function. Unless otherwise noted, the saving throw DC for an arcanist exploit is equal to 10 + 1/2 your level + your Charisma modifier.</div></div></div></div>
+</Pair>
+</Ability>
+<Ability id="class-arcanist-cantrips" icon={["magic-swirl"]}>
+<Pair single id="class-arcanist-cantrips">Cantrips</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">You can prepare a number of cantrips, or 0-level arcane spells, each day. These spells are cast like any other spell, but they do not consume spell slots. As with your other spells, these spells are not expended when cast.</Pair>
+</Ability>
+<Ability id="class-arcanist-spellbooks" icon={["magic-swirl"]}>
+<Pair single id="class-arcanist-spellbooks">Spellbooks</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">You must study your spellbook each day to prepare your spells. You can't prepare any spell not recorded in your spellbook, except for <Link to="/spell/read_magic">read magic</Link> (which all arcanists can prepare from memory).</Pair>
+<Pair title="Special">You begin play with a spellbook containing all 0-level arcanist spells plus three 1st-level spells of your choice. You also select a number of additional 1st-level spells equal to your Intelligence modifier to add to the spellbook. At each new arcanist level, you gain two new spells of any spell level or levels that you can cast (based on your new arcanist level) for your spellbook. At any time, you can also add spells found in wizards' or other arcanists' spellbooks to your own (see <Link to="/rule/arcane_magical_writing">Arcane Magical Writing</Link>).</Pair>
+</Ability>
+<Ability id="class-arcanist-arcane-reservoir-su" icon={["stairs-goal"]}>
+<Pair single id="class-arcanist-arcane-reservoir-su" flavor="You have an innate pool of magical energy that you can draw upon to fuel many of your powers.">Arcane Reservoir (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">You have an arcane reservoir that can hold a maximum amount of magical energy equal to 3 + your arcanist level. Each day, when preparing spells, your arcane reservoir fills with raw magical energy, gaining a number of points equal to 3 + <Link to="/misc/half">half</Link> your arcanist level. Any points you had from the previous day are lost. You can also regain these points through the <em>consume spells</em> class feature and some arcanist exploits. The arcane reservoir can never hold more points than the maximum amount noted above; points gained in excess of this total are lost.</Pair>
+<Pair title="Free Action">You can expend 1 point from your arcane reservoir whenever you cast an arcanist spell. If you do, you can choose to increase the caster level by 1 or increase the spell's DC by 1. You can expend no more than 1 point from your reservoir on a given spell in this way.</Pair>
+</Ability>
+<Ability id="class-arcanist-arcanist-exploits" icon={["stairs-goal"]}>
+<Pair single id="class-arcanist-arcanist-exploits">Arcanist Exploits</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">You learn one arcanist exploit. By bending and sometimes even breaking the rules of magic, you learn to exploit gaps and exceptions in the laws of magic. Some of these <Link to="/ability/exploits">exploits</Link> allow you to break down various forms of magic, adding their essence to your arcane reservoir.</Pair>
+<Pair title="At 3rd Level">You learn a new arcane exploit.</Pair>
+<Pair title="At 5th Level">You learn a new arcane exploit.</Pair>
+<Pair title="At 7th Level">You learn a new arcane exploit.</Pair>
+<Pair title="At 9th Level">You learn a new arcane exploit.</Pair>
+<Pair title="At 11th Level">You learn a new arcane exploit (or <em>greater exploit,</em> explained below).</Pair>
+<Pair title="At 13th Level">You learn a new arcane exploit. (or <em>greater exploit</em>)</Pair>
+<Pair title="At 15th Level">You learn a new arcane exploit. (or <em>greater exploit</em>)</Pair>
+<Pair title="At 17th Level">You learn a new arcane exploit. (or <em>greater exploit</em>)</Pair>
+<Pair title="At 19th Level">You learn a new arcane exploit. (or <em>greater exploit</em>)</Pair>
+<Pair title="Special">An arcanist exploit cannot be selected more than once. Once an arcanist exploit has been selected, it cannot be changed. Most arcanist exploits require you to expend points from your arcane reservoir to function. Unless otherwise noted, the saving throw DC for an arcanist exploit is equal to 10 + 1/2 your level + your Charisma modifier.</Pair>
+</Ability>
 <aside><p>There are also more dangerous <Link to="/ability/outer_rifts_exploits">Outer Rifts exploits</Link> to choose from.</p>
-</aside><div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-arcanist-consume-spells-su" data-hash-target><div className="box">Consume Spells (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">Cha modifier times/day</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Move-Equivalent Action</div></div><div className="abEnd"><div className="box">You can expend an available arcanist spell slot, making it unavailable for the rest of the day, just as if you had used it to cast a spell. Doing this adds a number of points to your arcane reservoir equal to the level of the spell slot consumed. You cannot consume cantrips (0 level spells) in this way. Points gained in excess of the reservoir's maximum are lost.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-arcanist-greater-exploits" data-hash-target><div className="box">Greater Exploits</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 11th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You can now choose a <Link to="/ability/greater_exploits">greater exploit</Link> when you gain a a new arcanist exploit (described above).</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-arcanist-magical-supremacy-su" data-hash-target><div className="box">Magical Supremacy (Su)</div><div className="flavor">You learn how to convert your arcane reservoir into spells and back again.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 20th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You can cast any spell you have prepared by expending a number of points from your arcane reservoir equal to 1 + the level of the spell to be cast instead of expending a spell slot. When you cast a spell in this fashion, you treat your caster level as 2 higher than normal, and the DCs of any saving throws associated with the spell increase by 2. You cannot further expend points from your arcane reservoir to enhance a spell cast in this way.</div></div></div></div>
+</aside><Ability id="class-arcanist-consume-spells-su" icon={["magic-swirl"]}>
+<Pair single id="class-arcanist-consume-spells-su">Consume Spells (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">Cha modifier times/day</Pair>
+<Pair title="Move-Equivalent Action">You can expend an available arcanist spell slot, making it unavailable for the rest of the day, just as if you had used it to cast a spell. Doing this adds a number of points to your arcane reservoir equal to the level of the spell slot consumed. You cannot consume cantrips (0 level spells) in this way. Points gained in excess of the reservoir's maximum are lost.</Pair>
+</Ability>
+<Ability id="class-arcanist-greater-exploits" icon={["stairs-goal"]}>
+<Pair single id="class-arcanist-greater-exploits">Greater Exploits</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Passive Ability">You can now choose a <Link to="/ability/greater_exploits">greater exploit</Link> when you gain a a new arcanist exploit (described above).</Pair>
+</Ability>
+<Ability id="class-arcanist-magical-supremacy-su" icon={["stairs-goal"]}>
+<Pair single id="class-arcanist-magical-supremacy-su" flavor="You learn how to convert your arcane reservoir into spells and back again.">Magical Supremacy (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">You can cast any spell you have prepared by expending a number of points from your arcane reservoir equal to 1 + the level of the spell to be cast instead of expending a spell slot. When you cast a spell in this fashion, you treat your caster level as 2 higher than normal, and the DCs of any saving throws associated with the spell increase by 2. You cannot further expend points from your arcane reservoir to enhance a spell cast in this way.</Pair>
+</Ability>
 <h3 id="class-arcanist-alternate-capstones" data-hash-target>Alternate Capstones</h3>
 <p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 28</Link><br/>When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides <Link to="/ability/capstones">new capstones</Link> for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with. A character that gains certain abilities may be eligible for capstones other than those listed below.</p>
 <div className="capstones"><ScrollContainer id="class-arcanist--table-2"><table><thead><tr><th scope="col">Capstone</th><th scope="col">Benefit</th></tr></thead>
@@ -2392,33 +2432,36 @@ const _bard = {hasJL:true,title: "Bard", jsx: <><div className="jumpList" id="cl
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Charisma score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Charisma score.</Pair>
 <Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_bard">bard spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>A bard's selection of spells is extremely limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new bard level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Charisma score.</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level bard spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair><Pair title="Special">Every bard spell has a verbal component (song, recitation, or music).</Pair></Ability><div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bard-cantrips" data-hash-target><div className="box">Cantrips</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You learn a number of cantrips, or 0-level arcane spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Cantrips cast using other spell slots, such as those due to metamagic feats, consume slots normally.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bard-bardic-knowledge-ex" data-hash-target><div className="box">Bardic Knowledge (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You add <Link to="/misc/half">half</Link> your class level (minimum 1) to all Knowledge skill checks and may make all Knowledge skill checks untrained.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bard-bardic-performance" data-hash-target><div className="box">Bardic Performance</div><div className="flavor">You are trained to use the Perform skill to create magical effects on those around you, including yourself if desired.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">2 + twice your bard level + your Cha modifier rounds/day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box"><p>Each round, you can produce any one of the types of bardic performance that you have mastered, as indicated by your level.</p>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level bard spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair><Pair title="Special">Every bard spell has a verbal component (song, recitation, or music).</Pair></Ability><Ability id="class-bard-cantrips" icon={["magic-swirl"]}>
+<Pair single id="class-bard-cantrips">Cantrips</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">You learn a number of cantrips, or 0-level arcane spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Cantrips cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
+</Ability>
+<Ability id="class-bard-bardic-knowledge-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="class-bard-bardic-knowledge-ex">Bardic Knowledge (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">You add <Link to="/misc/half">half</Link> your class level (minimum 1) to all Knowledge skill checks and may make all Knowledge skill checks untrained.</Pair>
+</Ability>
+<Ability id="class-bard-bardic-performance" icon={["stairs-goal"]}>
+<Pair single id="class-bard-bardic-performance" flavor="You are trained to use the Perform skill to create magical effects on those around you, including yourself if desired.">Bardic Performance</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">2 + twice your bard level + your Cha modifier rounds/day.</Pair>
+<Pair title="Standard Action"><p>Each round, you can produce any one of the types of bardic performance that you have mastered, as indicated by your level.</p>
 <p>Starting a bardic performance is a <strong className="hl">standard action</strong>, but it can be maintained each round as a <strong className="hl">free action</strong>. Changing a bardic performance from one effect to another requires you to stop the previous performance and start a new one as a standard action. A bardic performance cannot be disrupted, but it ends immediately if you are killed, <Link to="/rule/paralyzed">paralyzed</Link>, <Link to="/misc/stunned">stunned</Link>, knocked <Link to="/misc/unconscious">unconscious</Link>, or otherwise prevented from taking a free action to maintain it each round. You cannot have more than one bardic performance in effect at one time.</p>
 <p>Each bardic performance has audible components, visual components, or both.</p>
 <p>If a bardic performance has audible components, the targets must be able to hear the bard for the performance to have any effect, and many such performances are language dependent (as noted in the description. A deaf bard has a 20% chance to fail when attempting to use a bardic performance with an audible component. If he fails this check, the attempt still counts against his daily limit. Deaf creatures are immune to bardic performances with audible components.</p>
 <p>If a bardic performance has a visual component, the targets must have line of sight to the bard for the performance to have any effect. A blind bard has a 50% chance to fail when attempting to use a bardic performance with a visual component. If he fails this check, the attempt still counts against his daily limit. Blind creatures are immune to bardic performances with visual components.</p>
 <p>Bardic performances are <Link to="/ability/bardic_performances">collected here</Link>.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">You can begin a performance as a move-equivalent action.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">You can begin a performance as a swift action.</div></div></div></div>
+</Pair>
+<Pair title="At 7th Level">You can begin a performance as a move-equivalent action.</Pair>
+<Pair title="At 13th Level">You can begin a performance as a swift action.</Pair>
+</Ability>
 <aside><p><strong className="hl" id="class-bard-bardic-masterpieces" data-hash-target>Bardic Masterpieces:</strong> Talented bards can learn or create <Link to="/ability/bardic_masterpieces">masterpieces</Link>, unusual applications of the bardic performance ability requiring special training. Each masterpiece has an associated cost to learn it. Typically, a bard must spend one of his bard spells known of a specific spell level or select it in place of a feat.</p>
 <p>Also, a bard may learn <Link to="/ability/sagas">saga</Link>, which are useable with his bardic performance ability.</p>
-</aside><div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bard-versatile-performance-ex" data-hash-target><div className="box">Versatile Performance (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Choice</div></div><div className="abEnd"><div className="box"><p>You can choose one type of Perform skill, using your bonus in that skill in place of your bonus in associated skills. When substituting in this way, you use your total Perform skill bonus, including class skill bonus, in place of its associated skill's bonus, whether or not you have ranks in that skill or if it is a class skill.</p>
+</aside><Ability id="class-bard-versatile-performance-ex" icon={["stairs-goal"]}>
+<Pair single id="class-bard-versatile-performance-ex">Versatile Performance (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Choice"><p>You can choose one type of Perform skill, using your bonus in that skill in place of your bonus in associated skills. When substituting in this way, you use your total Perform skill bonus, including class skill bonus, in place of its associated skill's bonus, whether or not you have ranks in that skill or if it is a class skill.</p>
 <p>The types of Perform and their associated skills are:</p>
 <ul>
 <li><strong className="hl">Act:</strong> Bluff, Disguise</li>
@@ -2431,29 +2474,33 @@ const _bard = {hasJL:true,title: "Bard", jsx: <><div className="jumpList" id="cl
 <li><strong className="hl">String:</strong> Bluff, Diplomacy</li>
 <li><strong className="hl">Wind:</strong> Diplomacy, Handle Animal</li>
 </ul>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">You can select an additional type of Perform to substitute.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">You can select an additional type of Perform to substitute.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 14th Level</div></div><div className="abEnd"><div className="box">You can select an additional type of Perform to substitute.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">You can select an additional type of Perform to substitute.</div></div></div></div>
+</Pair>
+<Pair title="At 6th Level">You can select an additional type of Perform to substitute.</Pair>
+<Pair title="At 10th Level">You can select an additional type of Perform to substitute.</Pair>
+<Pair title="At 14th Level">You can select an additional type of Perform to substitute.</Pair>
+<Pair title="At 18th Level">You can select an additional type of Perform to substitute.</Pair>
+</Ability>
 <aside><p>Beginning at 6th level, instead of selecting an additional skill with versatile performance, a bard can choose an <Link to="/ability/advanced_versatile_performances">advanced versatile performance</Link> for one Perform skill he previously selected with versatile performance. Some advanced versatile performance options can be selected only if the bard meets the option's prerequisites. A bard with an archetype that replaces versatile performance cannot select advanced versatile performance options.</p>
-</aside><div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bard-well-versed-ex" data-hash-target><div className="box">Well-Versed (Ex)</div><div className="flavor">You become resistant to the bardic performance of others, and to sonic effects in general.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain a +4 bonus on saving throws made against bardic performance, sonic, and language-dependent effects.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/rolling-dices"><IonIcon icon="/icons/rolling-dices.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bard-lore-master-ex" data-hash-target><div className="box">Lore Master (Ex)</div><div className="flavor">You become a master of lore.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 5th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You can take 10 on any Knowledge skill check that you have ranks in even when threatened or distracted. You can also choose not to take 10 and can instead roll normally.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Standard Action</div></div><div className="abEnd"><div className="box">You can take 20 on any Knowledge skill check.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">Once per day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 11th Level</div></div><div className="abEnd"><div className="box">You can Take 20 twice a day.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 17th Level</div></div><div className="abEnd"><div className="box">You can Take 20 three times a day.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/skills"><IonIcon icon="/icons/skills.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bard-jack-of-all-trades-ex" data-hash-target><div className="box">Jack-of-All-Trades (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">You can use any skill, even if the skill normally requires you to be trained.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">You consider all skills to be class skills.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">You can take 10 on any skill check, even if it is not normally allowed.</div></div></div></div>
+</aside><Ability id="class-bard-well-versed-ex" icon={["armor-upgrade"]}>
+<Pair single id="class-bard-well-versed-ex" flavor="You become resistant to the bardic performance of others, and to sonic effects in general.">Well-Versed (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">You gain a +4 bonus on saving throws made against bardic performance, sonic, and language-dependent effects.</Pair>
+</Ability>
+<Ability id="class-bard-lore-master-ex" icon={["upgrade","rolling-dices"]}>
+<Pair single id="class-bard-lore-master-ex" flavor="You become a master of lore.">Lore Master (Ex)</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">You can take 10 on any Knowledge skill check that you have ranks in even when threatened or distracted. You can also choose not to take 10 and can instead roll normally.</Pair>
+<Pair title="Standard Action">You can take 20 on any Knowledge skill check.</Pair>
+<Pair title="Usage">Once per day.</Pair>
+<Pair title="At 11th Level">You can Take 20 twice a day.</Pair>
+<Pair title="At 17th Level">You can Take 20 three times a day.</Pair>
+</Ability>
+<Ability id="class-bard-jack-of-all-trades-ex" icon={["stairs-goal","skills"]}>
+<Pair single id="class-bard-jack-of-all-trades-ex">Jack-of-All-Trades (Ex)</Pair>
+<Pair title="At 10th Level">You can use any skill, even if the skill normally requires you to be trained.</Pair>
+<Pair title="At 16th Level">You consider all skills to be class skills.</Pair>
+<Pair title="At 19th Level">You can take 10 on any skill check, even if it is not normally allowed.</Pair>
+</Ability>
 <h3 id="class-bard-alternate-capstones" data-hash-target>Alternate Capstones</h3>
 <p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 28</Link><br/>When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides <Link to="/ability/capstones">new capstones</Link> for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with. A character that gains certain abilities may be eligible for capstones other than those listed below.</p>
 <div className="capstones"><ScrollContainer id="class-bard--table-2"><table><thead><tr><th scope="col">Capstone</th><th scope="col">Benefit</th></tr></thead>
@@ -3118,93 +3165,107 @@ const _bloodrager = {hasJL:true,title: "Bloodrager", jsx: <><div className="jump
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Light Armor?</th><td colSpan={2}>Yes</td></tr><tr><th>Medium Armor?</th><td colSpan={2}>Yes</td></tr><tr><th>Heavy Armor?</th><td colSpan={2}>No</td></tr><tr><th>Shields?</th><td colSpan={2}>Yes, except tower shields</td></tr><tr><td colSpan={3} className="sw se">You can cast bloodrager spells while wearing light armor or medium armor without incurring the normal arcane spell failure chance. This does not affect the arcane spell failure chance for arcane spells received from other classes. Like other arcane spellcasters, heavy armor or wielding a shield incurs a chance of arcane spell failure if the spell in question has somatic components.</td></tr></tbody></table>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-bloodline" data-hash-target><div className="box">Bloodline</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Choice</div></div><div className="abEnd"><div className="box">You must pick one <Link to="/ability/bloodrager_bloodlines">bloodline</Link> upon taking your first level of bloodrager. Once made, this choice cannot be changed. You immediately gain its 1st-level power.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box"><p>Each bloodrager has a source of magic somewhere in his heritage that empowers his bloodrages, bonus feats, and bonus spells. Sometimes this source reflects a distant blood relationship to a powerful being, or is due to an extreme event involving such a creature somewhere in his family's past. Regardless of the source, this influence manifests in a number of ways.</p>
+<Ability id="class-bloodrager-bloodline" icon={["magic-swirl","upgrade"]}>
+<Pair single id="class-bloodrager-bloodline">Bloodline</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Choice">You must pick one <Link to="/ability/bloodrager_bloodlines">bloodline</Link> upon taking your first level of bloodrager. Once made, this choice cannot be changed. You immediately gain its 1st-level power.</Pair>
+<Pair title="Info"><p>Each bloodrager has a source of magic somewhere in his heritage that empowers his bloodrages, bonus feats, and bonus spells. Sometimes this source reflects a distant blood relationship to a powerful being, or is due to an extreme event involving such a creature somewhere in his family's past. Regardless of the source, this influence manifests in a number of ways.</p>
 <p>When choosing a bloodline, your alignment doesn't restrict your choices. A good bloodrager could come from an <Link to="/blrgbloodline/abyssal">abyssal</Link> bloodline, a <Link to="/blrgbloodline/celestial">celestial</Link> bloodline could beget an evil bloodrager generations later, a bloodrager from an <Link to="/blrgbloodline/infernal">infernal</Link> bloodline could be chaotic, and so on. Though your bloodline empowers you, it doesn't dictate or limit your thoughts and behavior.</p>
 <p><strong className="hl">NOTE:</strong> If you take levels in another class that grants a bloodline, the bloodlines must be the same type, even if that means that the bloodline of one of the classes must change. Subject to GM discretion, you can change your former bloodline to make them conform.</p>
-</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 4th Level</div></div><div className="abEnd"><div className="box">You gain the 4th-level bloodline power.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 6th Level</div></div><div className="abEnd"><div className="box">You gain a bonus feat chosen from a list of feats presented in your bloodline.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 7th Level</div></div><div className="abEnd"><div className="box">You learn an additional spell from your bloodline.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 8th Level</div></div><div className="abEnd"><div className="box">You gain the 8th-level bloodline power.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 9th Level</div></div><div className="abEnd"><div className="box">You gain a second feat from your bloodline.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">You learn an additional spell from your bloodline.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 12th Level</div></div><div className="abEnd"><div className="box">You gain the 12th-level bloodline power and a third bloodline feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">You learn an additional spell from your bloodline.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 15th Level</div></div><div className="abEnd"><div className="box">You gain a fourth bloodline feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">You gain the 16th-level bloodline power, and learn an additional spell from your bloodline.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 18th Level</div></div><div className="abEnd"><div className="box">You gain a fifth bloodline feat.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 20th Level</div></div><div className="abEnd"><div className="box">You gain the 20th-level bloodline power.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">For all spell-like bloodline powers, treat your bloodrager level as the caster level. Spells you gain from your bloodline are in addition to the number of spells given per level. These spells cannot be exchanged for different spells at higher levels.</div></div></div></div>
+</Pair>
+<Pair title="At 4th Level">You gain the 4th-level bloodline power.</Pair>
+<Pair title="At 6th Level">You gain a bonus feat chosen from a list of feats presented in your bloodline.</Pair>
+<Pair title="At 7th Level">You learn an additional spell from your bloodline.</Pair>
+<Pair title="At 8th Level">You gain the 8th-level bloodline power.</Pair>
+<Pair title="At 9th Level">You gain a second feat from your bloodline.</Pair>
+<Pair title="At 10th Level">You learn an additional spell from your bloodline.</Pair>
+<Pair title="At 12th Level">You gain the 12th-level bloodline power and a third bloodline feat.</Pair>
+<Pair title="At 13th Level">You learn an additional spell from your bloodline.</Pair>
+<Pair title="At 15th Level">You gain a fourth bloodline feat.</Pair>
+<Pair title="At 16th Level">You gain the 16th-level bloodline power, and learn an additional spell from your bloodline.</Pair>
+<Pair title="At 18th Level">You gain a fifth bloodline feat.</Pair>
+<Pair title="At 20th Level">You gain the 20th-level bloodline power.</Pair>
+<Pair title="Special">For all spell-like bloodline powers, treat your bloodrager level as the caster level. Spells you gain from your bloodline are in addition to the number of spells given per level. These spells cannot be exchanged for different spells at higher levels.</Pair>
+</Ability>
 <aside><p>Optionally, whenever a bloodrager gains a new bloodline power or bonus feat, he can swap it for a <Link to="/ability/bloodline_mutations">bloodline mutation</Link> whose prerequisites he meets.</p>
-</aside><div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-bloodrage-su" data-hash-target><div className="box">Bloodrage (Su)</div><div className="flavor">Your source of internal power grants you the ability to bloodrage.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">You can bloodrage for 2 + twice your level + your Con modifier rounds/day; these rounds need not be consecutive. Temporary increases to Con (such as those gained from bloodraging or spells like <Link to="/spell/bears_endurance">bear's endurance</Link>) don't increase this number.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Free Action</div></div><div className="abEnd"><div className="box">You can enter or leave a bloodrage as a free action. While in a bloodrage, you gain a +4 morale bonus to your Strength and Constitution, as well as a +2 morale bonus on Will saves. In addition, you take a -2 penalty to Armor Class. The increase to Constitution grants you 2 hit points per Hit Die, but these disappear when the bloodrage ends and are not lost first like <Link to="/rule/temporary_hit_points">temporary hit points</Link>. While bloodraging, you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">When the bloodrage ends, you are <Link to="/misc/fatigued">fatigued</Link> for a number of rounds equal to twice the number of rounds spent in the bloodrage. You can't enter a new bloodrage while fatigued or <Link to="/misc/exhausted">exhausted</Link>, but can otherwise enter bloodrage multiple times during a single encounter or combat. If you fall <Link to="/misc/unconscious">unconscious</Link>, your bloodrage immediately ends, placing you in peril of death.</div></div></div></div>
+</aside><Ability id="class-bloodrager-bloodrage-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="class-bloodrager-bloodrage-su" flavor="Your source of internal power grants you the ability to bloodrage.">Bloodrage (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">You can bloodrage for 2 + twice your level + your Con modifier rounds/day; these rounds need not be consecutive. Temporary increases to Con (such as those gained from bloodraging or spells like <Link to="/spell/bears_endurance">bear's endurance</Link>) don't increase this number.</Pair>
+<Pair title="Free Action">You can enter or leave a bloodrage as a free action. While in a bloodrage, you gain a +4 morale bonus to your Strength and Constitution, as well as a +2 morale bonus on Will saves. In addition, you take a -2 penalty to Armor Class. The increase to Constitution grants you 2 hit points per Hit Die, but these disappear when the bloodrage ends and are not lost first like <Link to="/rule/temporary_hit_points">temporary hit points</Link>. While bloodraging, you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.</Pair>
+<Pair title="Special">When the bloodrage ends, you are <Link to="/misc/fatigued">fatigued</Link> for a number of rounds equal to twice the number of rounds spent in the bloodrage. You can't enter a new bloodrage while fatigued or <Link to="/misc/exhausted">exhausted</Link>, but can otherwise enter bloodrage multiple times during a single encounter or combat. If you fall <Link to="/misc/unconscious">unconscious</Link>, your bloodrage immediately ends, placing you in peril of death.</Pair>
+</Ability>
 <p><strong className="hl">NOTE:</strong> Bloodrage counts as the <Link to="/class/barbarian">barbarian's</Link> <em>rage</em> class feature for the purpose of feat prerequisites, feat abilities, magic item abilities, and spell effects.</p>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-fast-movement-ex" data-hash-target><div className="box">Fast Movement (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 1st Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">Your land speed is faster than is normal for your race by 10 feet. This benefit applies only when you are wearing no armor, light armor, or medium armor, and not carrying a heavy load.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">Apply this bonus before modifying your speed due to any armor worn or load carried. This bonus stacks with any other bonuses to your land speed.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-uncanny-dodge-ex" data-hash-target><div className="box">Uncanny Dodge (Ex)</div><div className="flavor">You can react to danger before your senses would normally allow you to do so.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 2nd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You cannot be caught <Link to="/rule/flat_footed">flat-footed</Link>, nor do you lose your Dexterity bonus to AC if the attacker is invisible. If you already possesses uncanny dodge from a different class, you automatically gain <em>improved uncanny dodge</em> (see below) instead.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">You still lose your Dexterity bonus to AC if immobilized, or if an opponent successfully uses the <Link to="/rule/feint">feint</Link> action against you.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-blood-sanctuary-su" data-hash-target><div className="box">Blood Sanctuary (Su)</div><div className="flavor">Due to the power of your blood, you can stand confidently amid the effects of spells cast by yourself or your allies.</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 3rd Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain a +2 bonus on saving throws against spells that you or an ally casts.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-spells" data-hash-target><div className="box">Spells</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You gain the ability to cast a small number of arcane spells drawn from the <Link to="/main/bloodrager_spell">bloodrager spell list</Link>. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level. The DC for a saving throw against spells you cast is 10 + the spell level + your Constitution modifier.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Usage</div></div><div className="abEnd"><div className="box">To learn, prepare, or cast a spell, you must have a Charisma score equal to at least 10 + the spell level.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Info</div></div><div className="abEnd"><div className="box">Your selection of spells is limited. At 4th level, you know two 1st-level spells of your choice. You gain more spells as you increase in level. Unlike spells per day, the number of spells you know is not affected by your Charisma score, but it is affected by any bonus spells you gain from your bloodline. At 8th level and every 3 levels thereafter, you can choose to learn a new spell in place of one you already know. This swap follows all the same rules as for a sorcerer.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-blood-casting-su" data-hash-target><div className="box">Blood Casting (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">You gain the ability to cast spells even while bloodraging. You can also cast these spells <Link to="/rule/cast_defensively">defensively</Link> and can make <Link to="/rule/concentration">concentration</Link> checks for these spells while bloodraging.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">While bloodraging, you can cast and concentrate on only your bloodrager spells; spells from other classes cannot be cast during this state.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/stairs-goal"><IonIcon icon="/icons/stairs-goal.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-eschew-materials" data-hash-target><div className="box">Eschew Materials</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 4th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain <Link to="/feat/eschew_materials">Eschew Materials</Link> as a bonus feat.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-improved-uncanny-dodge-ex" data-hash-target><div className="box">Improved Uncanny Dodge (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You can no longer be <Link to="/rule/flanked">flanked</Link>. This defense denies rogues (or other classes) the ability to <Link to="/ability/sneak_attack">sneak attack</Link> you by flanking, unless the attacker has at least four more rogue levels (or levels in the class granting sneak attack) than your bloodrager levels.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box">If you already have uncanny dodge from another class, the levels from the classes that grant uncanny dodge stack when determining the minimum rogue level required to flank you.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-damage-reduction-ex" data-hash-target><div className="box">Damage Reduction (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 7th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain <Link to="/rule/damage_reduction">damage reduction</Link> DR 1/-. Subtract 1 from the damage you take each time you're dealt damage from a weapon or a natural attack. Damage reduction can reduce damage to 0, but not below 0.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 10th Level</div></div><div className="abEnd"><div className="box">Your DR becomes 2/-.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 13th Level</div></div><div className="abEnd"><div className="box">Your DR becomes 3/-.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 16th Level</div></div><div className="abEnd"><div className="box">Your DR becomes 4/-.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">At 19th Level</div></div><div className="abEnd"><div className="box">Your DR becomes 5/-.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-greater-bloodrage-su" data-hash-target><div className="box">Greater Bloodrage (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 11th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">When you enter a bloodrage, the morale bonus to Strength and Constitution increases to +6 and the morale bonus on Will saves increases to +3. In addition, upon entering a bloodrage, you can apply the effects a bloodrager spell you know of 2nd level or lower to yourself. The spell must have a range of touch or personal. If the spell's duration is greater than 1 round, it instead lasts for the duration of the bloodrage. This use consumes a bloodrager spell slot, as if you had cast the spell; you must have the spell slot available to take advantage of this effect.</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Special</div></div><div className="abEnd"><div className="box"><em>Greater bloodrage</em> counts as the barbarian's <em>greater rage</em> ability for the purposes of feat prerequisites, feat abilities, magic item abilities, and spell effects.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-indomitable-will-ex" data-hash-target><div className="box">Indomitable Will (Ex)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 14th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You gain a +4 bonus on Will saves to resist enchantment spells while bloodraging. This bonus stacks with all other modifiers, including the morale bonus on Will saves you also receives during your bloodrage.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-tireless-bloodrage-su" data-hash-target><div className="box">Tireless Bloodrage (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 17th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Passive Ability</div></div><div className="abEnd"><div className="box">You no longer become fatigued at the end of your bloodrage.</div></div></div></div>
-<div className="ability p"><div className="abIcon"><Link to="/icons/upgrade"><IonIcon icon="/icons/upgrade.svg" color="secondary" /></Link><Link to="/icons/armor-upgrade"><IonIcon icon="/icons/armor-upgrade.svg" color="secondary" /></Link><Link to="/icons/magic-swirl"><IonIcon icon="/icons/magic-swirl.svg" color="secondary" /></Link></div>
-<div className="title abSingle" id="class-bloodrager-mighty-bloodrage-su" data-hash-target><div className="box">Mighty Bloodrage (Su)</div></div>
-<div className="abPair"><div className="abStart"><div className="box">Gained</div></div><div className="abEnd"><div className="box">At 20th Level</div></div></div>
-<div className="abPair"><div className="abStart"><div className="box">Ability</div></div><div className="abEnd"><div className="box">When you enter a bloodrage, the morale bonus to Strength and Constitution increases to +8, and the morale bonus on Will saves increases to +4. Furthermore, the spell you can apply to yourself at the beginning of a bloodrage due to the <em>greater bloodrage</em> class feature is not limited to only spells of 2nd level or lower.</div></div></div></div>
+<Ability id="class-bloodrager-fast-movement-ex" icon={["upgrade"]}>
+<Pair single id="class-bloodrager-fast-movement-ex">Fast Movement (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">Your land speed is faster than is normal for your race by 10 feet. This benefit applies only when you are wearing no armor, light armor, or medium armor, and not carrying a heavy load.</Pair>
+<Pair title="Special">Apply this bonus before modifying your speed due to any armor worn or load carried. This bonus stacks with any other bonuses to your land speed.</Pair>
+</Ability>
+<Ability id="class-bloodrager-uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="class-bloodrager-uncanny-dodge-ex" flavor="You can react to danger before your senses would normally allow you to do so.">Uncanny Dodge (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">You cannot be caught <Link to="/rule/flat_footed">flat-footed</Link>, nor do you lose your Dexterity bonus to AC if the attacker is invisible. If you already possesses uncanny dodge from a different class, you automatically gain <em>improved uncanny dodge</em> (see below) instead.</Pair>
+<Pair title="Special">You still lose your Dexterity bonus to AC if immobilized, or if an opponent successfully uses the <Link to="/rule/feint">feint</Link> action against you.</Pair>
+</Ability>
+<Ability id="class-bloodrager-blood-sanctuary-su" icon={["armor-upgrade"]}>
+<Pair single id="class-bloodrager-blood-sanctuary-su" flavor="Due to the power of your blood, you can stand confidently amid the effects of spells cast by yourself or your allies.">Blood Sanctuary (Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">You gain a +2 bonus on saving throws against spells that you or an ally casts.</Pair>
+</Ability>
+<Ability id="class-bloodrager-spells" icon={["magic-swirl"]}>
+<Pair single id="class-bloodrager-spells">Spells</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">You gain the ability to cast a small number of arcane spells drawn from the <Link to="/main/bloodrager_spell">bloodrager spell list</Link>. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level. The DC for a saving throw against spells you cast is 10 + the spell level + your Constitution modifier.</Pair>
+<Pair title="Usage">To learn, prepare, or cast a spell, you must have a Charisma score equal to at least 10 + the spell level.</Pair>
+<Pair title="Info">Your selection of spells is limited. At 4th level, you know two 1st-level spells of your choice. You gain more spells as you increase in level. Unlike spells per day, the number of spells you know is not affected by your Charisma score, but it is affected by any bonus spells you gain from your bloodline. At 8th level and every 3 levels thereafter, you can choose to learn a new spell in place of one you already know. This swap follows all the same rules as for a sorcerer.</Pair>
+</Ability>
+<Ability id="class-bloodrager-blood-casting-su" icon={["magic-swirl"]}>
+<Pair single id="class-bloodrager-blood-casting-su">Blood Casting (Su)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">You gain the ability to cast spells even while bloodraging. You can also cast these spells <Link to="/rule/cast_defensively">defensively</Link> and can make <Link to="/rule/concentration">concentration</Link> checks for these spells while bloodraging.</Pair>
+<Pair title="Special">While bloodraging, you can cast and concentrate on only your bloodrager spells; spells from other classes cannot be cast during this state.</Pair>
+</Ability>
+<Ability id="class-bloodrager-eschew-materials" icon={["stairs-goal"]}>
+<Pair single id="class-bloodrager-eschew-materials">Eschew Materials</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">You gain <Link to="/feat/eschew_materials">Eschew Materials</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="class-bloodrager-improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="class-bloodrager-improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
+<Pair title="Passive Ability">You can no longer be <Link to="/rule/flanked">flanked</Link>. This defense denies rogues (or other classes) the ability to <Link to="/ability/sneak_attack">sneak attack</Link> you by flanking, unless the attacker has at least four more rogue levels (or levels in the class granting sneak attack) than your bloodrager levels.</Pair>
+<Pair title="Special">If you already have uncanny dodge from another class, the levels from the classes that grant uncanny dodge stack when determining the minimum rogue level required to flank you.</Pair>
+</Ability>
+<Ability id="class-bloodrager-damage-reduction-ex" icon={["armor-upgrade"]}>
+<Pair single id="class-bloodrager-damage-reduction-ex">Damage Reduction (Ex)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Passive Ability">You gain <Link to="/rule/damage_reduction">damage reduction</Link> DR 1/-. Subtract 1 from the damage you take each time you're dealt damage from a weapon or a natural attack. Damage reduction can reduce damage to 0, but not below 0.</Pair>
+<Pair title="At 10th Level">Your DR becomes 2/-.</Pair>
+<Pair title="At 13th Level">Your DR becomes 3/-.</Pair>
+<Pair title="At 16th Level">Your DR becomes 4/-.</Pair>
+<Pair title="At 19th Level">Your DR becomes 5/-.</Pair>
+</Ability>
+<Ability id="class-bloodrager-greater-bloodrage-su" icon={["upgrade","armor-upgrade","magic-swirl"]}>
+<Pair single id="class-bloodrager-greater-bloodrage-su">Greater Bloodrage (Su)</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">When you enter a bloodrage, the morale bonus to Strength and Constitution increases to +6 and the morale bonus on Will saves increases to +3. In addition, upon entering a bloodrage, you can apply the effects a bloodrager spell you know of 2nd level or lower to yourself. The spell must have a range of touch or personal. If the spell's duration is greater than 1 round, it instead lasts for the duration of the bloodrage. This use consumes a bloodrager spell slot, as if you had cast the spell; you must have the spell slot available to take advantage of this effect.</Pair>
+<Pair title="Special"><em>Greater bloodrage</em> counts as the barbarian's <em>greater rage</em> ability for the purposes of feat prerequisites, feat abilities, magic item abilities, and spell effects.</Pair>
+</Ability>
+<Ability id="class-bloodrager-indomitable-will-ex" icon={["armor-upgrade"]}>
+<Pair single id="class-bloodrager-indomitable-will-ex">Indomitable Will (Ex)</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Passive Ability">You gain a +4 bonus on Will saves to resist enchantment spells while bloodraging. This bonus stacks with all other modifiers, including the morale bonus on Will saves you also receives during your bloodrage.</Pair>
+</Ability>
+<Ability id="class-bloodrager-tireless-bloodrage-su" icon={["upgrade"]}>
+<Pair single id="class-bloodrager-tireless-bloodrage-su">Tireless Bloodrage (Su)</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Passive Ability">You no longer become fatigued at the end of your bloodrage.</Pair>
+</Ability>
+<Ability id="class-bloodrager-mighty-bloodrage-su" icon={["upgrade","armor-upgrade","magic-swirl"]}>
+<Pair single id="class-bloodrager-mighty-bloodrage-su">Mighty Bloodrage (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">When you enter a bloodrage, the morale bonus to Strength and Constitution increases to +8, and the morale bonus on Will saves increases to +4. Furthermore, the spell you can apply to yourself at the beginning of a bloodrage due to the <em>greater bloodrage</em> class feature is not limited to only spells of 2nd level or lower.</Pair>
+</Ability>
 <h3 id="class-bloodrager-alternate-capstones" data-hash-target>Alternate Capstones</h3>
 <p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 28</Link><br/>When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides <Link to="/ability/capstones">new capstones</Link> for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with. A character that gains certain abilities may be eligible for capstones other than those listed below.</p>
 <div className="capstones"><ScrollContainer id="class-bloodrager--table-2"><table><thead><tr><th scope="col">Capstone</th><th scope="col">Benefit</th></tr></thead>

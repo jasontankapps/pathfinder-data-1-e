@@ -397,6 +397,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], logError);
 				flags.icon = true;
 				flags.link = true;
+				flags.ability = true;
 				const marked2 = makeNewMarkedInstance();
 				const jlid = prefix + (attrs.id || makeValidID(text));
 				if(attrs.jl) {
