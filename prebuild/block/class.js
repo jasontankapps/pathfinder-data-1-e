@@ -117,7 +117,7 @@ export const makeClassBlock = ({maybeClear, attrs, marked2, convertEncodedInfo})
 		output.push(`<tr><td colSpan={2} className="se">${marked2.parseInline(convertEncodedInfo(skillNote))}</td></tr>`);
 	}
 	//
-	// END CODE BLOCK	
+	// END CODE BLOCK
 	//
 	output.push(
 		`</tbody></table>`
@@ -166,7 +166,7 @@ export const makeProfBlock = ({maybeClear, attrs, marked2, flags, convertEncoded
 	);
 	let pastFirstLine = false;
 	while(wL.length > 0) {
-		// 
+		//
 		output.push(`${pastFirstLine ? "<tr>" : ""}<td colSpan={2}>${wL.shift()}</td></tr>`);
 		pastFirstLine = true;
 	}
@@ -186,9 +186,18 @@ export const makeProfBlock = ({maybeClear, attrs, marked2, flags, convertEncoded
 		output.push(`${pastFirstLine ? "<tr>" : ""}<td colSpan={2}>${marked2.parseInline(convertEncodedInfo(wExtra))}</td></tr>`);
 		pastFirstLine = true;
 	}
-	output.push(`<tr><th>Light Armor?</th><td colSpan={2}>${light ? "Yes" : "No"}</td></tr>`);
-	output.push(`<tr><th>Medium Armor?</th><td colSpan={2}>${medium ? "Yes" : "No"}</td></tr>`);
-	output.push(`<tr><th>Heavy Armor?</th><td colSpan={2}>${heavy ? "Yes" : "No"}</td></tr>`);
+	const armors = [];
+	light && armors.push("Light");
+	medium && armors.push("Medium");
+	heavy && armors.push("Heavy");
+	const armorString = armors.length === 0 ? "No" : (
+		armors.length === 1 ? armors[0] + " armor" : (
+			armors.length === 2 ? armors.join(" and ") + " armors" : (
+				`${armors[0]}, ${armors[1]}, and ${armors[2]} armors`
+			)
+		)
+	);
+	output.push(`<tr><th>Armor?</th><td colSpan={2}>${armorString}</td></tr>`);
 	output.push(`<tr><th${
 		extra || aExtra ? "" : ` className="sw"`
 	}>Shields?</th><td colSpan={2}${

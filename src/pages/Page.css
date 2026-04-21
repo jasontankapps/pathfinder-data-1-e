@@ -983,24 +983,19 @@ table.class > tbody > tr > :is(th, td),
 table.class > thead > tr > th {
 	border-width: 0 var(--full-width) var(--full-width) 0;
 	position: relative;
+	border-radius: 0 0 0 0;
 }
-table.class .nw {
-	border-radius: 1rem 0 0 0;
+table.class :is(th, td).nw {
+	border-start-start-radius: 1rem;
 }
-table.class .ne {
-	border-radius: 0 1rem 0 0;
+table.class :is(th, td).ne {
+	border-start-end-radius: 1rem;
 }
-table.class .ne.nw {
-	border-radius: 1rem 1rem 0 0;
+table.class :is(th, td).sw {
+	border-end-start-radius: 1rem;
 }
-table.class .sw {
-	border-radius: 0 0 0 1rem;
-}
-table.class .se {
-	border-radius: 0 0 1rem 0;
-}
-table.class .se.sw {
-	border-radius: 0 0 1rem 1rem;
+table.class :is(th, td).se {
+	border-end-end-radius: 1rem;
 }
 
 table.class td .colFlex {
@@ -1308,7 +1303,7 @@ ion-item.user-focus::part(native) {
 }
 
 .constraintXS ion-item:not(.mainItem) :is(ion-label, ion-label p),
-.constraintXS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.class) {
+.constraintXS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
 	max-width: 20rem;
 }
 .constraintXS .subAbility {
@@ -1316,7 +1311,7 @@ ion-item.user-focus::part(native) {
 }
 
 .constraintS :is(ion-label,ion-label > p),
-.constraintS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.class) {
+.constraintS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
 	max-width: 30rem;
 }
 .constraintS .subAbility {
@@ -1324,7 +1319,7 @@ ion-item.user-focus::part(native) {
 }
 
 .constraintM :is(ion-label,ion-label > p),
-.constraintM div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.class) {
+.constraintM div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
 	max-width: 40rem;
 }
 .constraintM .subAbility {
@@ -1332,7 +1327,7 @@ ion-item.user-focus::part(native) {
 }
 
 .constraintL :is(ion-label,ion-label > p),
-.constraintL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.class) {
+.constraintL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
 	max-width: 50rem;
 }
 .constraintL .subAbility {
@@ -1340,7 +1335,7 @@ ion-item.user-focus::part(native) {
 }
 
 .constraintXL :is(ion-label,ion-label > p),
-.constraintXL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.class) {
+.constraintXL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
 	max-width: 60rem;
 }
 .constraintXL .subAbility {
