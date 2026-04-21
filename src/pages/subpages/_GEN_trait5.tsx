@@ -2852,7 +2852,7 @@ const _proud_progenitor = {title: "Proud Progenitor", topLink: ["Race Traits","m
 </>};
 const _weatherworn = {title: "Weatherworn", topLink: ["Race Traits","main/traits_race"], jsx: <><h2 id="trait-weatherworn-weatherworn">Weatherworn</h2>
 <p><strong>Type:</strong> Race<br/><strong>Requirements:</strong> Vampire; Moroi</p>
-<p>Lairing in desolate mountains or on coastal cliff tops has taught you to deal with the effects of strong winds. You gain a +2 trait bonus against the effects of spells that create wind or move air, such as gust of wind. You treat natural weather conditions as one step weaker. These abilities also apply when you are in gaseous form.</p>
+<p>Lairing in desolate mountains or on coastal cliff tops has taught you to deal with the effects of strong winds. You gain a +2 trait bonus against the effects of spells that create wind or move air, such as <Link to="/spell/gust_of_wind">gust of wind</Link>. You treat natural weather conditions as one step weaker. These abilities also apply when you are in gaseous form.</p>
 <blockquote>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
 </blockquote>

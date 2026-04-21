@@ -1111,7 +1111,7 @@
 			"",
 			"**Stormwind Aura (Su)** Halas surround themselves with a buffeting shroud of supernatural, windstorm-force winds. These winds shield a hala from any other wind effects and form a shell of breathable air around it, allowing the hala to breathe underwater. Ranged weapons and gases directed toward a hala are affected as the spell ‹spell/wind wall›.",
 			"",
-			"**Vengeful Wind (Su)** Anytime a hala takes damage from a critical hit, a powerful blast of wind explodes forth in the direction of the attacker. This blast takes the form of a 60-foot-long gale, treated as a gust of wind spell, directed from the hala toward the opponent that scored the critical hit against it (if that creature is more than 60 feet away, the wind is aimed in its direction but doesn't come close enough to affect it). This wind is also charged with electricity. Any creature in or that enters the area of effect must make a DC 14 Reflex save or take 3d6 points of electricity damage. The save DC is Constitution-based.",
+			"**Vengeful Wind (Su)** Anytime a hala takes damage from a critical hit, a powerful blast of wind explodes forth in the direction of the attacker. This blast takes the form of a 60-foot-long gale, treated as a ‹spell/gust of wind› spell, directed from the hala toward the opponent that scored the critical hit against it (if that creature is more than 60 feet away, the wind is aimed in its direction but doesn't come close enough to affect it). This wind is also charged with electricity. Any creature in or that enters the area of effect must make a DC 14 Reflex save or take 3d6 points of electricity damage. The save DC is Constitution-based.",
 			"",
 			"::sh[Description]",
 			"",

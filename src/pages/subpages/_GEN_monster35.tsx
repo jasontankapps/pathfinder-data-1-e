@@ -621,7 +621,7 @@ const _mephit = {title: "Mephit", jsx: <><p><em>This small humanoid creature has
 <p className="statblockSubHeader">Mephit Varieties</p>
 <p className="statblockSubHeader">Air Mephit (Air)</p>
 <p>Air mephits are commonly found on the Plane of Air. These mephits are whimsical and prone to distraction.</p>
-<p><strong>Fast Healing:</strong> Works only in gusty and windy areas.<br/><strong>Speed:</strong> Fly 60 ft. (perfect)<br/><strong>Breath Weapon:</strong> A cone of sand and grit that deals 1d8 slashing damage.<br/><strong>Spell-Like Abilities:</strong> blur 1/hour, gust of wind 1/day.</p>
+<p><strong>Fast Healing:</strong> Works only in gusty and windy areas.<br/><strong>Speed:</strong> Fly 60 ft. (perfect)<br/><strong>Breath Weapon:</strong> A cone of sand and grit that deals 1d8 slashing damage.<br/><strong>Spell-Like Abilities:</strong> blur 1/hour, <Link to="/spell/gust_of_wind">gust of wind</Link> 1/day.</p>
 <p className="statblockSubHeader">Dust Mephit (Air)</p>
 <p>Dust mephits are commonly found on the Plane of Air. These mephits are irritating and persistent.</p>
 <p><strong>Fast Healing:</strong> Works only in dusty environments.<br/><strong>Speed:</strong> Fly 50 ft. (perfect)<br/><strong>Breath Weapon:</strong> A cone of dust that deals 1d4 slashing damage. The dust also causes living creatures to be sickened for 3 rounds. A Reflex save halves the damage and negates the sickened effect.<br/><strong>Spell-Like Abilities:</strong> blur 1/hour, wind wall 1/day</p>
