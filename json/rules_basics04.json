@@ -803,6 +803,7 @@
 	},
 	"overland_speed": { "redirect": "overland_movement" },
 	"hustle": { "redirect": "overland_movement" },
+	"hustling": { "redirect": "overland_movement" },
 	"forced_march": { "redirect": "overland_movement" },
 	"evasion_and_pursuit": {
 		"name": "Evasion and Pursuit",

@@ -1393,124 +1393,335 @@ const _raven_master = {title: "Raven Master", jsx: <><h2 id="arc-ranger-raven_ma
 <Pair id="arc-ranger-raven_master-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Climb, Heal, Intimidate, Ride, Swim</Pair></Ability>
-<p><strong>Avian Empathy (Ex):</strong> A raven master's wild empathy affects only birds.</p>
-<p>This alters <strong className="hl">wild empathy</strong>.</p>
-<p><strong>Raven Companion (Ex):</strong> At 4th level, a raven master earns the trust and companionship of a particularly large, powerful, and intelligent raven. This ability functions like the druid animal companion ability, except that the raven master's effective druid level is equal to her ranger level - 3. The raven master must select a <Link to="/companion/bird">bird</Link> as her animal companion. The raven companion starts with an Intelligence score of 3 and can speak one language known by the raven master. In addition to the normal abilities an <Link to="/sidekick/animal_companion">animal companion</Link> gains as the raven master increases in level, the raven companion gains the following abilities.</p>
-<p>This ability alters <strong className="hl">hunter's bond</strong> and replaces specific ranger abilities as indicated below.</p>
-<p><strong>Silver Champion (Ex):</strong> At 7th level, the raven companion takes on a silvery, metallic appearance. It treats all of its natural attacks as though they were magic and silver for the purpose of bypassing damage reduction.</p>
-<p>This ability replaces <strong className="hl">woodland stride</strong>.</p>
-<p><strong>Mimic Figurine (Su):</strong> At 8th level, once per day as a standard action, the raven master can transform her raven companion into a token similar to a <Link to="/magic-wondrous/figurine_of_wondrous_power">figurine of wondrous power</Link>. Any gear worn by the raven melds into its body as part of this transformation, but held items do not. The raven can remain in this form indefinitely, or until the raven master spends a standard action to activate the statuette as though it were a figurine of wondrous power.</p>
-<p>This ability replaces <strong className="hl">swift tracker</strong>.</p>
-<p><strong>Cheat Death (Sp):</strong> At 12th level, once per week, when a raven companion would otherwise be slain by an attack, spell, or effect, it can turn into a figurine of wondrous power as per its mimic figurine ability as an immediate action. Once transformed this way, the raven companion cannot transform back into a raven until the raven master next prepares spells.</p>
-<p>This ability replaces <strong className="hl">camouflage</strong>.</p>
-<p><strong>Argent Magic:</strong> A raven master casts spells as do most rangers, but her spell list is somewhat expanded from the normal options most rangers can choose from, for her association with the bards and other talented performers among the Silver Ravens allows her to add a limited number of <Link to="/main/bard_spell">bard spells</Link> to her spell list. These spells function as divine spells, and are cast and prepared in the same manner as her other ranger spells.</p>
-<p>At 6th level, the raven master selects one 1st-level bard spell of her choice and adds it to her spell list as a 1st-level ranger spell. At 9th level she does the same but for a 2nd-level bard spell. She adds a 3rd-level bard spell at 12th level, and adds a 4th-level bard spell at 15th level.</p>
-<p>This ability alters the ranger's <strong className="hl">spellcasting</strong>.</p>
+<Ability id="arc-ranger-raven_master-avian-empathy-ex" icon={["broken-shield"]}>
+<Pair single id="arc-ranger-raven_master-avian-empathy-ex">Avian Empathy (Ex)</Pair>
+<Pair hl title="Alters">Wild empathy</Pair>
+<Pair title="Info">A raven master's <em>wild empathy</em> affects only birds.</Pair>
+</Ability>
+<Ability id="arc-ranger-raven_master-raven-companion-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-raven_master-raven-companion-ex">Raven Companion (Ex)</Pair>
+<Pair hl title="Alters">Hunter's bond</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A raven master earns the trust and companionship of a particularly large, powerful, and intelligent raven. This ability functions like the druid <Link to="/ability/animal_companion">animal companion</Link> ability, except that the raven master's effective druid level is equal to her ranger level - 3. The raven master must select a <Link to="/companion/bird">bird</Link> as her animal companion. The raven companion starts with an Intelligence score of 3 and can speak one language known by the raven master. In addition to the normal abilities an <Link to="/sidekick/animal_companion">animal companion</Link> gains as the raven master increases in level, the raven companion gains the following abilities.</Pair>
+</Ability>
+<Ability id="arc-ranger-raven_master-silver-champion-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-ranger-raven_master-silver-champion-ex">Silver Champion (Ex)</Pair>
+<Pair hl title="Replaces">Woodland stride</Pair>
+<Pair title="At 7th Level">The raven companion takes on a silvery, metallic appearance. It treats all of its natural attacks as though they were magic and silver for the purpose of bypassing damage reduction.</Pair>
+</Ability>
+<Ability id="arc-ranger-raven_master-mimic-figurine-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-ranger-raven_master-mimic-figurine-su">Mimic Figurine (Su)</Pair>
+<Pair hl title="Replaces">Swift tracker</Pair>
+<Pair title="At 8th Level">Once per day as a <strong className="hl">standard action</strong>, the raven master can transform her raven companion into a token similar to a <Link to="/magic-wondrous/figurine_of_wondrous_power">figurine of wondrous power</Link>. Any gear worn by the raven melds into its body as part of this transformation, but held items do not. The raven can remain in this form indefinitely, or until the raven master spends a standard action to activate the statuette as though it were a <em>figurine of wondrous power.</em></Pair>
+</Ability>
+<Ability id="arc-ranger-raven_master-cheat-death-sp" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-raven_master-cheat-death-sp">Cheat Death (Sp)</Pair>
+<Pair hl title="Replaces">Camouflage</Pair>
+<Pair title="At 12th Level">Once per week, when a raven companion would otherwise be slain by an attack, spell, or effect, it can turn into a <em>figurine of wondrous power</em> as per its <em>mimic figurine</em> ability as an <strong className="hl">immediate action</strong>. Once transformed this way, the raven companion cannot transform back into a raven until the raven master next prepares spells.</Pair>
+</Ability>
+<Ability id="arc-ranger-raven_master-argent-magic" icon={["spell-book"]}>
+<Pair single id="arc-ranger-raven_master-argent-magic">Argent Magic</Pair>
+<Pair hl title="Alters">Spellcasting</Pair>
+<Pair title="Ability">A raven master casts spells as do most rangers, but her spell list is somewhat expanded from the normal options most rangers can choose from, for her association with the bards and other talented performers among the Silver Ravens allows her to add a limited number of <Link to="/main/bard_spell">bard spells</Link> to her spell list. These spells function as divine spells, and are cast and prepared in the same manner as her other ranger spells.</Pair>
+<Pair title="At 6th Level">The raven master selects one 1st-level bard spell of her choice and adds it to her spell list as a 1st-level ranger spell.</Pair>
+<Pair title="At 9th Level">She does the same but for a 2nd-level bard spell.</Pair>
+<Pair title="At 12th Level">She adds a 3rd-level bard spell.</Pair>
+<Pair title="At 15th Level">She adds a 4th-level bard spell.</Pair>
+</Ability>
 </>};
 const _realm_wanderer = {title: "Realm Wanderer", jsx: <><h2 id="arc-ranger-realm_wanderer-realm-wanderer">Realm Wanderer</h2>
-<p><strong>Sources</strong> <Link to="/source/distant_realms">Distant Realms pg. 22</Link><br/>Some of the most free-roaming rangers are those who tread between locales so varied that they may as well be separate worlds altogether - and quite often these disparate places are literally Hell and the Material Plane. Like the Queen of Dis, whom many of them admire, these rangers take to heart the lessons they've learned from their vastly contrasting experiences and know that creatively embracing this wisdom is sometimes the difference between life and death.</p>
+<p><strong>Sources</strong> <Link to="/source/distant_realms">Distant Realms pg. 22</Link><br/>Some of the most free-roaming rangers are those who tread between locales so varied that they may as well be separate worlds altogether - and quite often these disparate places are literally <Link to="/rule/hell">Hell</Link> and the Material Plane. Like the Queen of Dis, whom many of them admire, these rangers take to heart the lessons they've learned from their vastly contrasting experiences and know that creatively embracing this wisdom is sometimes the difference between life and death.</p>
 <Ability icon={["skills"]} id="arc-ranger-realm_wanderer-undefined">
 <Pair id="arc-ranger-realm_wanderer-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/bluff">Bluff</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Intimidate, Stealth</Pair></Ability>
-<p><strong>Deceptive Subtlety (Ex):</strong> A realm wanderer adds half his level (minimum 1) to Diplomacy checks to influence a creature's attitude, to make requests of creatures, and for similar uses of the skill. He also adds half his level (minimum 1) to Bluff checks to deceive, lie, or convey secret messages.</p>
-<p>This replaces <strong className="hl">track</strong>.</p>
-<p><strong>Queen's Bond (Ex):</strong> At 4th level, a realm wanderer must choose an animal companion for his hunter's bond. This animal companion gains the <Link to="/template/fiendish">fiendish</Link> template, likely either due to time it spent near a gate to Hell or due to infernal influences in its place of birth. Due to this insidious influence, this <Link to="/sidekick/animal_companion">animal companion</Link> always takes a penalty on attack rolls equal to one-fifth of the realm wanderer's level (minimum 1).</p>
+<Ability id="arc-ranger-realm_wanderer-deceptive-subtlety-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-realm_wanderer-deceptive-subtlety-ex">Deceptive Subtlety (Ex)</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair title="Ability">A realm wanderer adds half his level (minimum 1) to Diplomacy checks to influence a creature's attitude, to make requests of creatures, and for similar uses of the skill. He also adds half his level (minimum 1) to Bluff checks to deceive, lie, or convey secret messages.</Pair>
+</Ability>
+<Ability id="arc-ranger-realm_wanderer-queens-bond-ex" icon={["broken-shield"]}>
+<Pair single id="arc-ranger-realm_wanderer-queens-bond-ex">Queen's Bond (Ex)</Pair>
+<Pair hl title="Alters">Hunter's bond</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability"><p>A realm wanderer must choose an animal companion for his <em>hunter's bond.</em> This <Link to="/ability/animal_companion">animal companion</Link> gains the <Link to="/template/fiendish">fiendish</Link> template, likely either due to time it spent near a gate to Hell or due to infernal influences in its place of birth. Due to this insidious influence, this <Link to="/sidekick/animal_companion">animal companion</Link> always takes a penalty on attack rolls equal to <Link to="/misc/one_fifth">one-fifth</Link> of the realm wanderer's level (minimum 1).</p>
 <p>If the realm wanderer releases his animal companion from service or it perishes, he can gain a new fiendish animal companion by completing the required ceremony. Alternatively, when the realm wanderer releases his animal companion or it dies in his service, he can use his influence over its fiendish nature to cause the animal to lose the fiendish template. If the animal companion is then raised or otherwise brought back from the dead after the realm wanderer removes its fiendish template, the animal companion no longer takes the penalty on attacks described above. (He cannot, however, gain a new non-fiendish animal companion by completing the ceremony to replace an animal companion.)</p>
-<p>This alters <strong className="hl">hunter's bond</strong>.</p>
-<p><strong>Dual Master (Ex):</strong> At 8th level, the realm wanderer's bonuses from deceptive subtlety are doubled when he is in either of his two favored terrain types. However, this benefit applies only to the first two favored terrain types he selected; as he gains additional favored terrains at higher levels, this benefit does not apply in those additional terrain types.</p>
-<p>This replaces <strong className="hl">swift tracker</strong>.</p>
-<p><strong>Shrewdest Monarch (Su):</strong> At 20th level, the realm wanderer has become a true master of the territories with which he is familiar. As a standard action, he can make a single attack at his full attack bonus against an enemy in one of the terrains chosen using the dual master ability. If the attack hits, the target takes damage normally and must succeed at a Fortitude saving throw or die. The DC of this saving throw is equal to 10 + half the realm wanderer's level + his Wisdom modifier. A realm wanderer can instead deal an amount of nonlethal damage equal to the creature's current hit points; the target can attempt a Fortitude save at the same DC to negates this damage. The realm wanderer can use this ability in these favored terrains only up to four times per day, but not against the same creature more than once in a 24-hour period.</p>
-<p>Further, the realm wanderer gains a bonus on attack rolls equal to his Wisdom modifier against creatures that have successfully learned his alignment (using <Link to="/spell/detect_evil">detect chaos/evil/good/law</Link>, as appropriate, or similar effects).</p>
-<p>This replaces <strong className="hl">master hunter</strong>.</p>
+</Pair>
+</Ability>
+<Ability id="arc-ranger-realm_wanderer-dual-master-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-realm_wanderer-dual-master-ex">Dual Master (Ex)</Pair>
+<Pair hl title="Replaces">Swift tracker</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability">The realm wanderer's bonuses from <em>deceptive subtlety</em> are doubled when he is in either of his two <em>favored terrain</em> types. However, this benefit applies only to the first two <em>favored terrain</em> types he selected; as he gains additional <em>favored terrains</em> at higher levels, this benefit does not apply in those additional terrain types.</Pair>
+</Ability>
+<Ability id="arc-ranger-realm_wanderer-shrewdest-monarch-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-ranger-realm_wanderer-shrewdest-monarch-su" flavor="The realm wanderer has become a true master of the territories with which he is familiar.">Shrewdest Monarch (Su)</Pair>
+<Pair hl title="Replaces">Master hunter</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Usage">Four times/day, but not against the same creature more than once in a 24-hour period</Pair>
+<Pair title="Standard Action">He can make a single attack at his full attack bonus against an enemy in one of the terrains chosen using the <em>dual master</em> ability. If the attack hits, the target takes damage normally and must succeed at a Fortitude saving throw or die. The DC of this saving throw is equal to 10 + half the realm wanderer's level + his Wisdom modifier. A realm wanderer can instead deal an amount of nonlethal damage equal to the creature's current hit points; the target can attempt a Fortitude save at the same DC to negates this damage.</Pair>
+<Pair title="Passive Ability">The realm wanderer also gains a bonus on attack rolls equal to his Wisdom modifier against creatures that have successfully learned his alignment (using <Link to="/spell/detect_evil">detect chaos/evil/good/law</Link>, as appropriate, or similar effects).</Pair>
+</Ability>
 </>};
 const _sable_company_marine = {title: "Sable Company Marine", jsx: <><h2 id="arc-ranger-sable_company_marine-sable-company-marine">Sable Company Marine</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 43</Link>, <Link to="/source/paizo_blog___sable_company_marine">Paizo Blog - Sable Company Marine</Link><br/>Sable Company marines receive their training at the elite Endrin Military Academy in Korvosa. A large portion of their education is the handling and riding of hippogriffs, the iconic mounts of members of the company.</p>
-<p><strong>Hippogriff Companion:</strong> At 2nd level, a Sable Company marine adds <Link to="/feat/monstrous_mount">Monstrous Mount</Link> to the list of bonus feats made available to him by his chosen <Link to="/ability/combat_styles">combat style</Link>, regardless of the style chosen. He can only use this feat to select a <Link to="/companion/hippogriff">hippogriff</Link> mount. If he does so, he treats his ranger level - 1 as his effective druid level. A marine who takes this option does not gain the hunter's bond class feature at 4th level.</p>
-<p>At 6th level, a Sable Company marine adds <Link to="/feat/monstrous_mount_mastery">Monstrous Mount Mastery</Link> to the list of available bonus feats granted by his chosen combat style. If he takes this feat as his 6th-level combat style bonus feat, note that he must wait until 8th level before he meets the effective druid level prerequisite to utilize his mount's mastery abilities.</p>
+<Ability id="arc-ranger-sable_company_marine-hippogriff-companion" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-sable_company_marine-hippogriff-companion">Hippogriff Companion</Pair>
+<Pair hl title="Replaces">Hunter's bond (but see text)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A Sable Company marine adds <Link to="/feat/monstrous_mount">Monstrous Mount</Link> to the list of bonus feats made available to him by his chosen <Link to="/ability/combat_styles">combat style</Link>, regardless of the style chosen. He can only use this feat to select a <Link to="/companion/hippogriff">hippogriff</Link> mount. If he does so, he treats his ranger level - 1 as his effective druid level. <strong>A marine who takes this option does not gain the <em>hunter's bond</em> class feature at 4th level.</strong></Pair>
+<Pair title="At 6th Level">A Sable Company marine adds <Link to="/feat/monstrous_mount_mastery">Monstrous Mount Mastery</Link> to the list of available bonus feats granted by his chosen combat style. If he takes this feat as his 6th-level combat style bonus feat, note that he must wait until 8th level before he meets the effective druid level prerequisite to utilize his mount's <em>mastery</em> abilities.</Pair>
+</Ability>
 </>};
 const _sentinel = {title: "Sentinel", jsx: <><h2 id="arc-ranger-sentinel-sentinel">Sentinel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 42</Link><br/>A sentinel specializes in heightening all of her senses to expose spies and those who work for opposing factions, rooting out all who attempt to slip past her evervigilant watch. Her uncanny skills are in ready demand by city guards, business owners, and even criminal organizations that desire to keep the authorities out of their disreputable affairs.</p>
-<p><strong>Mugshot (Sp):</strong> A sentinel can spend 1 minute studying the appearance of a target or a likeness of the target in the form of a picture, carving, or visual illusion and memorize it with perfect recall. From that point on, the sentinel gains a +4 bonus on Perception checks to notice the target in disguise or pick him out of a crowd. The sentinel is automatically allowed a Perception check against the target's Disguise check whenever she sees the target, even if the individual isn't doing anything to draw attention to himself. A sentinel can memorize the appearance of a number of targets equal to her Wisdom modifier (minimum 1) at any given time. Once a sentinel has reached her maximum number of memorized appearances, she must forget one of the memorized faces before gaining a new one.</p>
-<p>This ability replaces <strong className="hl">wild empathy</strong>.</p>
-<p><strong>Uncanny Alertness (Ex):</strong> At 4th level, a sentinel is always ready to defend against incoming attacks. A sentinel is never flat-footed before acting in combat, even if she is surprised (she can still become flat-footed by any other effect or situation that would render her flat-footed).</p>
-<p>At 7th level, the sentinel also always acts on the surprise round. If she would have acted on the surprise round anyway, or if there is no surprise round, she gains a bonus on initiative checks equal to half her ranger level.</p>
-<p>This ability replaces a ranger's <strong className="hl">hunter's bond</strong> and <strong className="hl">woodland stride</strong>.</p>
-<p><strong>Sense Intruder (Su):</strong> At 6th level, a sentinel gains the ability to establish an incredibly effective watch by standing still and focusing on all of her senses as once. At any time, she can spend 1 minute setting up this ability. Once she has done so, she must stand still, taking no other actions except to keep track of her surroundings; she can't even take free actions like talking. Her heightened senses grant her a supernatural awareness of her surroundings within 20 feet. If any Tiny or larger creature enters the area over which her awareness extends, she automatically knows that it did so (this part of the ability is a divination effect and can't be deceived by spells that block sensory input, only by extreme effects like mind blank). Furthermore, unless that creature is simultaneously negating its visual, auditory, and scent stimuli (such as by being under <Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/silence">silence</Link>, and <Link to="/spell/negate_aroma">negate aroma</Link> all at once), the sentinel can attempt a Perception check as an immediate action to pinpoint the intruder's location, ignoring any Stealth bonuses the intruder might gain from effects that obscure only one of those senses, such as invisibility, camouflage, or other spells or abilities.</p>
-<p>This sort of heightened analysis of sensory stimuli is taxing, as much so as hustling overland for an equivalent period of time, despite not moving from a single spot. The sentinel can use this ability for 1 hour without penalty. Using sense intruder for a second hour in between sleep cycles deals 1 point of nonlethal damage to the sentinel, and each additional hour deals twice the damage taken during the previous hour. A sentinel who takes any nonlethal damage from using this ability becomes fatigued. Each hour the sentinel uses sense intruder also counts as 1 hour of hustling overland for the purpose of determining how much nonlethal damage the sentinel takes in a single day.</p>
-<p>Starting at 10th level, whenever the sentinel gains a combat style feat, she can choose to trade it for a 10-foot increase in the radius of this ability.</p>
-<p>This ability replaces the <strong className="hl">combat style feat</strong> gained at 6th level and alters <strong className="hl">combat style feats</strong>.</p>
-<p><strong>Mugshot Quarry (Ex):</strong> At 11th level, the sentinel can activate her quarry ability (and her improved quarry ability at 19th level) against any of the targets she has memorized with the mugshot ability, even if the creature in question is not within her line of sight.</p>
-<p>This ability alters <strong className="hl">quarry</strong> and <strong className="hl">improved quarry</strong>.</p>
+<Ability id="arc-ranger-sentinel-mugshot-sp" icon={["upgrade"]}>
+<Pair single id="arc-ranger-sentinel-mugshot-sp">Mugshot (Sp)</Pair>
+<Pair hl title="Replaces">Wild empathy</Pair>
+<Pair title="Ability">A sentinel can spend 1 minute studying the appearance of a target or a likeness of the target in the form of a picture, carving, or visual illusion and memorize it with perfect recall. From that point on, the sentinel gains a +4 bonus on Perception checks to notice the target in disguise or pick him out of a crowd. The sentinel is automatically allowed a Perception check against the target's Disguise check whenever she sees the target, even if the individual isn't doing anything to draw attention to himself.</Pair>
+<Pair title="Special">A sentinel can memorize the appearance of a number of targets equal to her Wisdom modifier (minimum 1) at any given time. Once a sentinel has reached her maximum number of memorized appearances, she must forget one of the memorized faces before gaining a new one.</Pair>
+</Ability>
+<Ability id="arc-ranger-sentinel-uncanny-alertness-ex" icon={["armor-upgrade","stairs-goal"]}>
+<Pair single id="arc-ranger-sentinel-uncanny-alertness-ex" flavor="A sentinel is always ready to defend against incoming attacks.">Uncanny Alertness (Ex)</Pair>
+<Pair hl title="Replaces">Hunter's bond, woodland stride</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">A sentinel is never <Link to="/rule/flat_footed">flat-footed</Link> before acting in combat, even if she is surprised (she can still become flat-footed by any other effect or situation that would render her flat-footed).</Pair>
+<Pair title="At 7th Level">The sentinel also always acts on the surprise round. If she would have acted on the surprise round anyway, or if there is no surprise round, she gains a bonus on initiative checks equal to half her ranger level.</Pair>
+</Ability>
+<Ability id="arc-ranger-sentinel-sense-intruder-su" icon={["abstract-091"]}>
+<Pair single id="arc-ranger-sentinel-sense-intruder-su" flavor="A sentinel gains the ability to establish an incredibly effective watch by standing still and focusing on all of her senses as once.">Sense Intruder (Su)</Pair>
+<Pair hl title="Replaces">Combat style feat gained at 6th level</Pair>
+<Pair hl title="Alters">Combat style feats</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">At any time, she can spend 1 minute setting up this ability. Once she has done so, she must stand still, taking no other actions except to keep track of her surroundings; she can't even take free actions like talking. Her heightened senses grant her a supernatural awareness of her surroundings within 20 feet. If any Tiny or larger creature enters the area over which her awareness extends, she automatically knows that it did so (this part of the ability is a divination effect and can't be deceived by spells that block sensory input, only by extreme effects like <Link to="/spell/mind_blank">mind blank</Link>). Furthermore, unless that creature is simultaneously negating its visual, auditory, and scent stimuli (such as by being under <Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/silence">silence</Link>, and <Link to="/spell/negate_aroma">negate aroma</Link> all at once), the sentinel can attempt a Perception check as an <strong className="hl">immediate action</strong> to pinpoint the intruder's location, ignoring any Stealth bonuses the intruder might gain from effects that obscure only one of those senses, such as invisibility, camouflage, or other spells or abilities.</Pair>
+<Pair title="At 10th Level">Starting at 10th level, whenever the sentinel gains a combat style feat, she can choose to trade it for a 10-foot increase in the radius of this ability.</Pair>
+<Pair title="Special">This sort of heightened analysis of sensory stimuli is taxing, as much so as <Link to="/rule/hustling">hustling</Link> overland for an equivalent period of time, despite not moving from a single spot. The sentinel can use this ability for 1 hour without penalty. Using <em>sense intruder</em> for a second hour in between sleep cycles deals 1 point of nonlethal damage to the sentinel, and each additional hour deals twice the damage taken during the previous hour. A sentinel who takes any nonlethal damage from using this ability becomes <Link to="/misc/fatigued">fatigued</Link>. Each hour the sentinel uses <em>sense intruder</em> also counts as 1 hour of hustling overland for the purpose of determining how much nonlethal damage the sentinel takes in a single day.</Pair>
+</Ability>
+<Ability id="arc-ranger-sentinel-mugshot-quarry-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-sentinel-mugshot-quarry-ex">Mugshot Quarry (Ex)</Pair>
+<Pair hl title="Alters">Quarry, improved quarry</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">The sentinel can activate her <em>quarry</em> ability (and her <em>improved quarry</em> ability at 19th level) against any of the targets she has memorized with the <em>mugshot</em> ability, even if the creature in question is not within her line of sight.</Pair>
+</Ability>
 </>};
 const _shapeshifter = {title: "Shapeshifter", jsx: <><h2 id="arc-ranger-shapeshifter-shapeshifter">Shapeshifter</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 126</Link><br/>Most rangers venture into the wilderness, but there are some who let the wilderness seep into them. Whether by curse, disease, ancient rite, a slight lycanthropic influence in the blood, or the corrupting influence of chaos, these rangers embrace the wild to transform themselves into something untamed and feral. Shapeshifters are often held in awe, but are even more often feared. A shapeshifter has the following class features.</p>
-<p><strong>Combat Style Feat (Ex):</strong> At 2nd level, a shapeshifter ranger must choose the natural weapon <Link to="/ability/combat_styles">combat style</Link>.</p>
-<p><strong>Shifter's Blessing (Su):</strong> At 3rd level, the shapeshifter can take on the aspects of a wild creature once per day as a swift action. He can remain in this form for a number of rounds equal to his ranger level + his Wisdom modifier. While in one of his shifter's blessing forms, the ranger gains the shapeshifter subtype.</p>
-<p>The shapeshifter must choose one of the following forms. Once this choice is made, it cannot be changed.</p>
-<blockquote>
-<p><strong>Form of the Bear:</strong> The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +4 enhancement bonus to Strength, but his base speed becomes 20 feet.</p>
-<p><strong>Form of the Cat:</strong> The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 10 feet, and he gains a +4 bonus on Acrobatics and Climb checks.</p>
-<p><strong>Form of the Dragon:</strong> The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +2 natural armor bonus to AC.</p>
-<p><strong>Form of the Eagle:</strong> The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on Perception checks.</p>
-<p><strong>Form of the Jackal:</strong> The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger can spend a move action to move up to 1/2 his speed without provoking attacks of opportunity.</p>
-<p><strong>Form of the Otter:</strong> The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 30 feet and a +8 bonus on Swim checks.</p>
-</blockquote>
-<p>At 8th level and again every five levels thereafter, the ranger may select an additional form for his shifter's blessing and may use this ability one additional time per day. This is not a polymorph ability; a ranger with shifter's blessing in one of his shifted forms can be affected by a polymorph ability and retain his bonus and traits gained by the class feature.</p>
-<p>This ability replaces <strong className="hl">favored terrain</strong>.</p>
-<p><strong>Dual Form Shifter (Ex):</strong> At 12th level, when the shapeshifter takes on a shifter's blessing form, he can take on a hybrid of two of his forms. He gains the bonuses for both forms.</p>
-<p>This ability replaces <strong className="hl">camouflage</strong>.</p>
-<p><strong>Master Shifter (Su):</strong> At 20th level, the ranger's shifter's blessing forms improve, and he can take on true forms of beasts. The ranger can use dual form shifter with this ability, although he cannot use more than one polymorph effect at any one time.</p>
-<p>This ability replaces <strong className="hl">master hunter</strong>. The ranger's forms from shifter's blessing improve to the following:</p>
-<blockquote>
-<p><strong>Form of the Bear:</strong> The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +8 enhancement bonus to Strength and he does not suffer any reduction of speed. Alternatively, the ranger can polymorph into the form of a bear as if the caster of <Link to="/spell/beast_shape_iv">beast shape IV</Link>.</p>
-<p><strong>Form of the Cat:</strong> The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 20 feet and he gains a +10 bonus on Acrobatics and Climb checks. Alternatively, the ranger can polymorph into the form of a cat of any size as if the caster of beast shape IV.</p>
-<p><strong>Form of the Dragon:</strong> The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +4 natural armor bonus to AC and a fly speed of 30 feet with average maneuverability. Alternately, the ranger can polymorph into the form of a dragon as if the caster of <Link to="/spell/form_of_the_dragon_i">form of the dragon I</Link>.</p>
-<p><strong>Form of the Eagle:</strong> The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on Perception checks and a fly speed of 40 feet with good maneuverability. Alternatively, the ranger can polymorph into the form of an eagle or similar raptor as if the caster of beast shape IV.</p>
-<p><strong>Form of the Jackal:</strong> The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger does not provoke attacks of opportunity due to movement. Alternatively, the ranger can polymorph into the form of a jackal or other canine creature as if the caster of beast shape IV.</p>
-<p><strong>Form of the Otter:</strong> The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 60 feet and a +5 bonus on Swim checks. Alternatively, the ranger can polymorph into the form of an otter or similar river mammal as if the caster of beast shape IV.</p>
-</blockquote>
+<Ability id="arc-ranger-shapeshifter-combat-style-feat-ex" icon={["broken-shield"]}>
+<Pair single id="arc-ranger-shapeshifter-combat-style-feat-ex">Combat Style Feat (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A shapeshifter ranger must choose the natural weapon <Link to="/ability/combat_styles">combat style</Link>.</Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-shifters-blessing-su" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Pair single id="arc-ranger-shapeshifter-shifters-blessing-su">Shifter's Blessing (Su)</Pair>
+<Pair hl title="Replaces">Favored terrain</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Swift Action">The shapeshifter can take on the aspects of a wild creature once per day. He can remain in this form for a number of rounds equal to his ranger level + his Wisdom modifier. While in one of his shifter's blessing forms, the ranger gains the <Link to="/subtype/shapeshifter">shapeshifter</Link> subtype.</Pair>
+<Pair title="Choice">The shapeshifter must choose one of the following forms. Once this choice is made, it cannot be changed.</Pair>
+<Pair title="At 8th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and may use this ability 2 times per day.</Pair>
+<Pair title="At 13th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and may use this ability 3 times per day.</Pair>
+<Pair title="At 18th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and may use this ability 4 times per day.</Pair>
+<Pair title="Special">This is not a polymorph ability; a ranger with <em>shifter's blessing</em> in one of his shifted forms can be affected by a polymorph ability and retain his bonus and traits gained by the class feature.</Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-form-of-the-bear" extraClasses="subAbility" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-ranger-shapeshifter-form-of-the-bear">Form of the Bear</Pair>
+<Pair title="Ability">The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +4 enhancement bonus to Strength, but his base speed becomes 20 feet.</Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-form-of-the-cat" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-ranger-shapeshifter-form-of-the-cat">Form of the Cat</Pair>
+<Pair title="Ability">The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 10 feet, and he gains a +4 bonus on Acrobatics and Climb checks.</Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-form-of-the-dragon" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-shapeshifter-form-of-the-dragon">Form of the Dragon</Pair>
+<Pair title="Ability">The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +2 natural armor bonus to AC.</Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-form-of-the-eagle" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-ranger-shapeshifter-form-of-the-eagle">Form of the Eagle</Pair>
+<Pair title="Ability">The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on Perception checks.</Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-form-of-the-jackal" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="arc-ranger-shapeshifter-form-of-the-jackal">Form of the Jackal</Pair>
+<Pair title="Ability">The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger can spend a <strong className="hl">move action</strong> to move up to 1/2 his speed without provoking attacks of opportunity.</Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-form-of-the-otter" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-ranger-shapeshifter-form-of-the-otter">Form of the Otter</Pair>
+<Pair title="Ability">The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 30 feet and a +8 bonus on Swim checks.</Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-dual-form-shifter-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-shapeshifter-dual-form-shifter-ex">Dual Form Shifter (Ex)</Pair>
+<Pair hl title="Replaces">Camouflage</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">When the shapeshifter takes on a <em>shifter's blessing</em> form, he can take on a hybrid of two of his forms. He gains the bonuses for both forms.</Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-master-shifter-su" extraClasses="hasSubs" icon={["upgrade"]}>
+<Pair single id="arc-ranger-shapeshifter-master-shifter-su">Master Shifter (Su)</Pair>
+<Pair hl title="Replaces">Master hunter </Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">The ranger's <em>shifter's blessing</em> forms improve, and he can take on true forms of beasts. The ranger can use <em>dual form shifter</em> with this ability, although he cannot use more than one polymorph effect at any one time. The ranger's forms from <em>shifter's blessing</em> improve to the following.</Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-form-of-the-bear" extraClasses="subAbility" icon={["upgrade","magic-swirl"]}>
+<Pair single id="arc-ranger-shapeshifter-form-of-the-bear">Form of the Bear</Pair>
+<Pair title="Ability">The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +8 enhancement bonus to Strength and he does not suffer any reduction of speed. Alternatively, the ranger can polymorph into the form of a bear as if the caster of <Link to="/spell/beast_shape_iv">beast shape IV</Link>.</Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-form-of-the-cat" extraClasses="subAbility" icon={["upgrade","magic-swirl"]}>
+<Pair single id="arc-ranger-shapeshifter-form-of-the-cat">Form of the Cat</Pair>
+<Pair title="Ability">The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 20 feet and he gains a +10 bonus on Acrobatics and Climb checks. Alternatively, the ranger can polymorph into the form of a cat of any size as if the caster of <em>beast shape IV.</em></Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-form-of-the-dragon" extraClasses="subAbility" icon={["armor-upgrade","stairs-goal","magic-swirl"]}>
+<Pair single id="arc-ranger-shapeshifter-form-of-the-dragon">Form of the Dragon</Pair>
+<Pair title="Ability">The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +4 natural armor bonus to AC and a fly speed of 30 feet with average maneuverability. Alternately, the ranger can polymorph into the form of a dragon as if the caster of <Link to="/spell/form_of_the_dragon_i">form of the dragon I</Link>.</Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-form-of-the-eagle" extraClasses="subAbility" icon={["upgrade","stairs-goal","magic-swirl"]}>
+<Pair single id="arc-ranger-shapeshifter-form-of-the-eagle">Form of the Eagle</Pair>
+<Pair title="Ability">The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on Perception checks and a fly speed of 40 feet with good maneuverability. Alternatively, the ranger can polymorph into the form of an eagle or similar raptor as if the caster of <em>beast shape IV.</em></Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-form-of-the-jackal" extraClasses="subAbility" icon={["armor-upgrade","magic-swirl"]}>
+<Pair single id="arc-ranger-shapeshifter-form-of-the-jackal">Form of the Jackal</Pair>
+<Pair title="Ability">The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger does not provoke attacks of opportunity due to movement. Alternatively, the ranger can polymorph into the form of a jackal or other canine creature as if the caster of <em>beast shape IV.</em></Pair>
+</Ability>
+<Ability id="arc-ranger-shapeshifter-form-of-the-otter" extraClasses="subAbility" icon={["stairs-goal","upgrade","magic-swirl"]}>
+<Pair single id="arc-ranger-shapeshifter-form-of-the-otter">Form of the Otter</Pair>
+<Pair title="Ability">The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 60 feet and a +5 bonus on Swim checks. Alternatively, the ranger can polymorph into the form of an otter or similar river mammal as if the caster of <em>beast shape IV.</em></Pair>
+</Ability>
 </>};
 const _skirmisher = {title: "Skirmisher", jsx: <><h2 id="arc-ranger-skirmisher-skirmisher">Skirmisher</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 128</Link><br/>Many rangers rely on spells, but there are some who eschew aid from divine powers for their own reasons. Skirmishers rely on their wits, their wisdom, and sometimes even instinct to aid in their quests. A skirmisher has the following class features.</p>
-<p><strong>Hunter's Tricks:</strong> At 5th level, a skirmisher ranger learns the use of hunter's tricks, which typically grant a boon or bonus to the ranger or a nearby ally. At 5th level, the ranger learns one trick, selected from the list below. At 7th level, and every two levels thereafter, he learns another trick. A ranger can use these tricks a total number of times per day equal to 1/2 his ranger level + his Wisdom modifier. Tricks are usually swift actions, but sometimes move or free actions that modify a standard action, usually an attack action. Once a trick is chosen, it can't be retrained. A ranger cannot select an individual trick more than once.</p>
-<p>This ability replaces the ranger's <strong className="hl">spells</strong> class feature. Skirmishers do not gain any spells or spellcasting ability, do not have a caster level, and cannot use spell trigger and spell completion magic items.</p>
-<p>The following is a list of hunter tricks and their effects.</p>
-<blockquote>
-<p><em>Aiding Attack (Ex):</em> The ranger can use this trick as a free action when he hits a creature with an attack. The next ally who makes an attack against the target creature before the start of the ranger's next turn gains a +2 circumstance bonus on that attack roll.</p>
-<p><em>Bolster Companion (Ex):</em> The ranger can use this trick as an immediate action when his animal companion is hit with an attack or a combat maneuver. The companion's AC and combat maneuver defense increase by +4 for the purposes of that attack. If the attack still hits, the animal companion only takes half damage (if any). The animal companion must be able to see and hear the ranger to benefit from this trick.</p>
-<p><em>Catfall (Ex):</em> The ranger can use this trick as an immediate action when he falls 20 or more feet, ignoring the first 20 feet of the fall when calculating the falling damage. If the ranger takes no damage from the fall, he does not fall prone.</p>
-<p><em>Chameleon Step (Ex):</em> The ranger can move up to twice his speed as a move action. The ranger does not take any penalty on Stealth checks for movement during this move. This move provokes attacks of opportunity as normal.</p>
-<p><em>Cunning Pantomime (Ex):</em> As a standard action, the ranger can communicate with a single creature as if using the tongues spell for 10 minutes. Because the communication is slow and lacks subtlety, the ranger suffers a -4 penalty on all Bluff and Diplomacy checks relating to the creature he is communicating with when using this trick.</p>
-<p><em>Defensive Bow Stance (Ex):</em> The ranger can use this trick as a swift action. Until the start of his next turn, his ranged attacks do not provoke attacks of opportunity.</p>
-<p><em>Deft Stand (Ex):</em> The ranger can spend a move action to stand up without provoking attacks of opportunity.</p>
-<p><em>Distracting Attack (Ex):</em> The ranger can use this trick as a free action before he makes an attack. If the attack hits, the target takes a -2 penalty on all attack rolls for 1 round.</p>
-<p><em>Hateful Attack (Ex):</em> The ranger can use this trick as a free action when he makes an attack against one of his favored enemies. The ranger doubles the threat range of his weapon for this attack. This does not stack with other abilities that increase a weapon's threat range.</p>
-<p><em>Heel (Ex):</em> The ranger can use this trick as an immediate action when his animal companion moves. When the companion moves, the square it starts out in is not considered threatened by any opponent it can see, and therefore visible enemies do not get attacks of opportunity against it when it moves from that square. The companion must end this movement in a square adjacent to the ranger. The animal companion must be able to see and hear the ranger to take this movement.</p>
-<p><em>Hobbling Attack (Ex):</em> The ranger can use this trick as a free action when he hits with an attack. The target of the attack's land speed is reduced by 1/2 for 1d4 rounds.</p>
-<p><em>Quick Climb (Ex):</em> The ranger can climb at his full speed as a move action without penalty.</p>
-<p><em>Quick Healing (Ex):</em> As a swift action, the ranger can make a Heal check to administer first aid on an adjacent dying character. Alternatively, the ranger can administer a potion to an unconscious character as a move action.</p>
-<p><em>Quick Swim (Ex):</em> The ranger can swim at his full speed as a move action without penalty.</p>
-<p><em>Ranger's Counsel (Ex):</em> As a swift action, the ranger can grant all allies within 30 feet that are within line of sight and can hear him a +2 bonus on skill checks with a single skill of his choice. The ranger must have at least one rank in the chosen skill. This bonus lasts for 1 round.</p>
-<p><em>Rattling Strike (Ex):</em> The ranger can use this trick as a free action before he makes a melee attack. If the attack hits, the target is shaken for 1d4 rounds.</p>
-<p><em>Second Chance Strike (Ex):</em> When he misses with a melee attack, the ranger may reroll his attack at a -5 penalty. Using this ability is an immediate action.</p>
-<p><em>Sic-Em (Ex):</em> The ranger can use this trick as a swift action. His animal companion makes one melee attack against an adjacent creature. The animal companion must be able to see and hear the ranger to make this attack.</p>
-<p><em>Skill Sage (Ex):</em> As a free action, the ranger can roll twice on any one skill check and take the better result. He must have at least 1 rank in that skill to use this ability.</p>
-<p><em>Stag's Leap (Ex):</em> As a free action, the ranger can attempt a running jump without moving 10 feet before the jump.</p>
-<p><em>Surprise Shift (Ex):</em> The ranger can move 5 feet as a swift action. This movement does not provoke attacks of opportunity and does not count as a 5-foot step.</p>
-<p><em>Tangling Attack (Ex):</em> The ranger can use this attack as a free action when he makes an attack. If the attack hits, the target is entangled for 1 round.</p>
-<p><em>Trick Shot (Ex):</em> As a standard action, the ranger can make a ranged attack that ignores <Link to="/rule/concealment">concealment</Link> (but not total concealment), soft <Link to="/rule/cover">cover</Link>, and partial cover.</p>
-<p><em>Uncanny Senses (Ex):</em> As an immediate action, the ranger gains a +10 insight bonus on Perception checks for 1 round.</p>
-<p><em>Upending Strike (Ex):</em> The ranger can use this trick as a free action just before he makes a melee attack. If the attack hits, he may make a free trip combat maneuver against the target.</p>
-<p><em>Vengeance Strike (Ex):</em> The ranger can use this trick as an immediate action when an enemy adjacent to him hits an ally with a melee or ranged attack. The ranger can make a single melee attack at his highest base attack bonus against the creature who attacked his ally.</p>
-</blockquote>
+<Ability id="arc-ranger-skirmisher-hunters-tricks" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-skirmisher-hunters-tricks" flavor={["A skirmisher ranger learns the use of ",{"tag":"em","content":"hunter's tricks,","props":{}}," which typically grant a boon or bonus to the ranger or a nearby ally."]}>Hunter's Tricks</Pair>
+<Pair hl title="Replaces">Spellcasting ability</Pair>
+<Pair title="At 5th Level">The ranger learns one trick, selected from the list below.</Pair>
+<Pair title="Usage">A number of times per day equal to 1/2 his ranger level + his Wisdom modifier</Pair>
+<Pair title="At 9th Level">He learns his 2nd trick.</Pair>
+<Pair title="At 11th Level">He learns his 3rd trick.</Pair>
+<Pair title="At 13th Level">He learns his 4th trick.</Pair>
+<Pair title="At 15th Level">He learns his 5th trick.</Pair>
+<Pair title="At 17th Level">He learns his 6th trick.</Pair>
+<Pair title="At 19th Level">He learns his 7th trick.</Pair>
+<Pair title="Special">Tricks are usually <strong className="hl">swift actions</strong>, but sometimes <strong className="hl">move</strong> or <strong className="hl">free</strong> actions that modify a <strong className="hl">standard action</strong>, usually an attack action. Once a trick is chosen, it can't be retrained. A ranger cannot select an individual trick more than once.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-aiding-attack-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-ranger-skirmisher-aiding-attack-ex">Aiding Attack (Ex)</Pair>
+<Pair title="Free Action">The ranger can use this trick when he hits a creature with an attack. The next ally who makes an attack against the target creature before the start of the ranger's next turn gains a +2 circumstance bonus on that attack roll.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-bolster-companion-ex" extraClasses="subAbility" icon={["shield-reflect"]}>
+<Pair single id="arc-ranger-skirmisher-bolster-companion-ex">Bolster Companion (Ex)</Pair>
+<Pair title="Immediate Action">The ranger can use this trick when his animal companion is hit with an attack or a combat maneuver. The companion's AC and combat maneuver defense increase by +4 for the purposes of that attack. If the attack still hits, the animal companion only takes half damage (if any). The animal companion must be able to see and hear the ranger to benefit from this trick.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-catfall-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-skirmisher-catfall-ex">Catfall (Ex)</Pair>
+<Pair title="Immediate Action">The ranger can use this trick when he falls 20 or more feet, ignoring the first 20 feet of the fall when calculating the <Link to="/rule/falling">falling damage</Link>. If the ranger takes no damage from the fall, he does not fall prone.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-chameleon-step-ex" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-ranger-skirmisher-chameleon-step-ex">Chameleon Step (Ex)</Pair>
+<Pair title="Move-Equivalent Action">The ranger can move up to twice his speed. The ranger does not take any penalty on Stealth checks for movement during this move. This move provokes attacks of opportunity as normal.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-cunning-pantomime-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-skirmisher-cunning-pantomime-ex">Cunning Pantomime (Ex)</Pair>
+<Pair title="Standard Action">The ranger can communicate with a single creature as if using the <Link to="/spell/tongues">tongues</Link> spell for 10 minutes. Because the communication is slow and lacks subtlety, the ranger suffers a -4 penalty on all Bluff and Diplomacy checks relating to the creature he is communicating with when using this trick.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-defensive-bow-stance-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-skirmisher-defensive-bow-stance-ex">Defensive Bow Stance (Ex)</Pair>
+<Pair title="Swift Action">Until the start of his next turn, the ranger's ranged attacks do not provoke attacks of opportunity.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-deft-stand-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-skirmisher-deft-stand-ex">Deft Stand (Ex)</Pair>
+<Pair title="Move-Equivalent Action">The ranger can spend a move action to stand up without provoking attacks of opportunity.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-distracting-attack-ex" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-ranger-skirmisher-distracting-attack-ex">Distracting Attack (Ex)</Pair>
+<Pair title="Free Action">The ranger can use this trick before he makes an attack. If the attack hits, the target takes a -2 penalty on all attack rolls for 1 round.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-hateful-attack-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-ranger-skirmisher-hateful-attack-ex">Hateful Attack (Ex)</Pair>
+<Pair title="Free Action">The ranger can use this trick when he makes an attack against one of his <em>favored enemies.</em> The ranger doubles the threat range of his weapon for this attack. This does not stack with other abilities that increase a weapon's threat range.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-heel-ex" extraClasses="subAbility" icon={["shield-reflect"]}>
+<Pair single id="arc-ranger-skirmisher-heel-ex">Heel (Ex)</Pair>
+<Pair title="Immediate Action">The ranger can use this trick when his animal companion moves. When the companion moves, the square it starts out in is not considered threatened by any opponent it can see, and therefore visible enemies do not get attacks of opportunity against it when it moves from that square. The companion must end this movement in a square adjacent to the ranger. The animal companion must be able to see and hear the ranger to take this movement.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-hobbling-attack-ex" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-ranger-skirmisher-hobbling-attack-ex">Hobbling Attack (Ex)</Pair>
+<Pair title="Free Action">The ranger can use this trick when he hits with an attack. The target of the attack's land speed is reduced by 1/2 for 1d4 rounds.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-quick-climb-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-ranger-skirmisher-quick-climb-ex">Quick Climb (Ex)</Pair>
+<Pair title="Move-Equivalent Action">The ranger can climb at his full speed without penalty.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-quick-healing-ex" extraClasses="subAbility" icon={["heart-plus"]}>
+<Pair single id="arc-ranger-skirmisher-quick-healing-ex">Quick Healing (Ex)</Pair>
+<Pair title="Swift Action">The ranger can make a Heal check to administer first aid on an adjacent dying character.</Pair>
+<Pair title="Move-Equivalent Action">Alternatively, the ranger can administer a potion to an unconscious character.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-quick-swim-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-ranger-skirmisher-quick-swim-ex">Quick Swim (Ex)</Pair>
+<Pair title="Move-Equivalent Action">The ranger can swim at his full speed without penalty.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-rangers-counsel-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-ranger-skirmisher-rangers-counsel-ex">Ranger's Counsel (Ex)</Pair>
+<Pair title="Swift Action">The ranger can grant all allies within 30 feet that are within line of sight and can hear him a +2 bonus on skill checks with a single skill of his choice. The ranger must have at least one rank in the chosen skill. This bonus lasts for 1 round.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-rattling-strike-ex" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-ranger-skirmisher-rattling-strike-ex">Rattling Strike (Ex)</Pair>
+<Pair title="Free Action">The ranger can use this trick before he makes a melee attack. If the attack hits, the target is shaken for 1d4 rounds.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-second-chance-strike-ex" extraClasses="subAbility" icon={["rolling-dices"]}>
+<Pair single id="arc-ranger-skirmisher-second-chance-strike-ex">Second Chance Strike (Ex)</Pair>
+<Pair title="Immediate Action">When he misses with a melee attack, the ranger may reroll his attack at a -5 penalty.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-sic-em-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-skirmisher-sic-em-ex">Sic-Em (Ex)</Pair>
+<Pair title="Swift Action">The ranger's animal companion makes one melee attack against an adjacent creature. The animal companion must be able to see and hear the ranger to make this attack.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-skill-sage-ex" extraClasses="subAbility" icon={["rolling-dices"]}>
+<Pair single id="arc-ranger-skirmisher-skill-sage-ex">Skill Sage (Ex)</Pair>
+<Pair title="Free Action">The ranger can roll twice on any one skill check and take the better result. He must have at least 1 rank in that skill to use this ability.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-stags-leap-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-skirmisher-stags-leap-ex">Stag's Leap (Ex)</Pair>
+<Pair title="Free Action">The ranger can attempt a running jump without moving 10 feet before the jump.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-surprise-shift-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-skirmisher-surprise-shift-ex">Surprise Shift (Ex)</Pair>
+<Pair title="Swift Action">The ranger can move 5 feet. This movement does not provoke attacks of opportunity and does not count as a 5-foot step.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-tangling-attack-ex" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-ranger-skirmisher-tangling-attack-ex">Tangling Attack (Ex)</Pair>
+<Pair title="Free Action">The ranger can use this attack when he makes an attack. If the attack hits, the target is entangled for 1 round.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-trick-shot-ex" extraClasses="subAbility" icon={["bowman"]}>
+<Pair single id="arc-ranger-skirmisher-trick-shot-ex">Trick Shot (Ex)</Pair>
+<Pair title="Standard Action">The ranger can make a ranged attack that ignores <Link to="/rule/concealment">concealment</Link> (but not total concealment), soft <Link to="/rule/cover">cover</Link>, and partial cover.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-uncanny-senses-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-ranger-skirmisher-uncanny-senses-ex">Uncanny Senses (Ex)</Pair>
+<Pair title="Immediate Action">The ranger gains a +10 insight bonus on Perception checks for 1 round.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-upending-strike-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-skirmisher-upending-strike-ex">Upending Strike (Ex)</Pair>
+<Pair title="Free Action">The ranger can use this trick just before he makes a melee attack. If the attack hits, he may make a free <Link to="/rule/trip">trip</Link> combat maneuver against the target.</Pair>
+</Ability>
+<Ability id="arc-ranger-skirmisher-vengeance-strike-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-skirmisher-vengeance-strike-ex">Vengeance Strike (Ex)</Pair>
+<Pair title="Immediate Action">The ranger can use this trick when an enemy adjacent to him hits an ally with a melee or ranged attack. The ranger can make a single melee attack at his highest base attack bonus against the creature who attacked his ally.</Pair>
+</Ability>
 </>};
 const _spirit_ranger = {title: "Spirit Ranger", jsx: <><h2 id="arc-ranger-spirit_ranger-spirit-ranger">Spirit Ranger</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 129</Link><br/>Some rangers nurture a connection with the spirits that reside in all things. By communing with these spirits, the spirit ranger can gain glimpses of things to come. A spirit ranger has the following class features.</p>
-<p><strong>Spirit Bond (Ex):</strong> At 4th level, instead of forming a bond with his hunting companions or an animal companion, the spirit ranger forms a bond with the spirits of nature themselves. Each day, as long as he is within one of his favored terrains, the ranger can cast <Link to="/spell/augury">augury</Link> as a spell-like ability with a caster level equal to his ranger level. In addition, he can call upon these spirits to cast any one ranger spell that he is capable of casting, without having to prepare the spell. At 8th level, and every four levels thereafter, he can cast an additional spell in this way.</p>
-<p>This replaces <strong className="hl">hunter's bond</strong>.</p>
-<p><strong>Wisdom of the Spirits (Sp):</strong> At 12th level, the spirit ranger can use his augury spell-like ability even when he is not in one of his favored terrains. If he is within one of his favored terrains, the ranger can cast <Link to="/spell/divination">divination</Link> instead. Like augury, the caster level of the divination is equal to the ranger's level.</p>
-<p>This ability replaces <strong className="hl">camouflage</strong>.</p>
+<Ability id="arc-ranger-spirit_ranger-spirit-bond-ex" icon={["magic-swirl"]}>
+<Pair single id="arc-ranger-spirit_ranger-spirit-bond-ex">Spirit Bond (Ex)</Pair>
+<Pair hl title="Replaces">Hunter's bond</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">Instead of forming a bond with his hunting companions or an animal companion, the spirit ranger forms a bond with the spirits of nature themselves. Each day, as long as he is within one of his <em>favored terrains,</em> the ranger can cast <Link to="/spell/augury">augury</Link> as a spell-like ability with a caster level equal to his ranger level.</Pair>
+<Pair title="Ability">In addition, he can call upon these spirits to cast any one ranger spell that he is capable of casting, without having to prepare the spell.</Pair>
+<Pair title="At 12th Level">He can cast a 2nd additional spell in this way.</Pair>
+<Pair title="At 16th Level">He can cast a 3rd additional spell in this way.</Pair>
+<Pair title="At 20th Level">He can cast a 4th additional spell in this way.</Pair>
+</Ability>
+<Ability id="arc-ranger-spirit_ranger-wisdom-of-the-spirits-sp" icon={["upgrade"]}>
+<Pair single id="arc-ranger-spirit_ranger-wisdom-of-the-spirits-sp">Wisdom of the Spirits (Sp)</Pair>
+<Pair hl title="Replaces">Camouflage</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">The spirit ranger can use his <em>augury</em> spell-like ability even when he is not in one of his <em>favored terrains.</em> If he is within one of his <em>favored terrains,</em> the ranger can cast <Link to="/spell/divination">divination</Link> instead. Like <em>augury,</em> the caster level of the divination is equal to the ranger's level.</Pair>
+</Ability>
 </>};
 const _stormwalker = {title: "Stormwalker", jsx: <><h2 id="arc-ranger-stormwalker-stormwalker">Stormwalker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 72</Link><br/>Rangers who walk in the tempest unafraid draw the power of the storm into themselves and become stormwalkers.</p>
