@@ -383,7 +383,7 @@ const makeAbilityBlock = ({
 					test = post;
 					props[att] = value;
 				}
-			}				
+			}
 			output.push(pre, {
 				tag,
 				content,

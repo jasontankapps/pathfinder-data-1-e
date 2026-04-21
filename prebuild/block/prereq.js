@@ -90,7 +90,7 @@ const makePrerequisiteBlock = (marked2, flags, maybeClear, attrs, convertEncoded
 		output.push(`<td>${lines[0]}</td>`);
 	}
 	//
-	// END CODE BLOCK	
+	// END CODE BLOCK
 	//
 	output.push(
 		`</tr></tbody></table></div>`

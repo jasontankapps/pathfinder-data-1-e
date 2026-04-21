@@ -96,7 +96,7 @@ const makeTrapBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text
 	flags.thlink = true;
 	output.splice(3, 0, `<ThLink scope="row" rowSpan={${rows}} to="/rule/elements_of_a_trap"><IonIcon aria-label="Trap" icon="/icons/wolf-trap.svg" /></ThLink>`)
 	//
-	// END CODE BLOCK	
+	// END CODE BLOCK
 	//
 	output.push(
 		`</tbody></table></div>`

@@ -44,7 +44,7 @@ const get = () => {
 		magicset, magicthrone, magictattoo,
 		main, misc
 	} = basic_data_by_link;
-	
+
 	const $Basics = [
 		main,
 		classes,

@@ -147,7 +147,7 @@ export const makeSpellAbilityBlock = ({
 	//
 	// USAGE
 	//
-	const learnPrepareCast = ((prepare && learn) ? 
+	const learnPrepareCast = ((prepare && learn) ?
 		"learn, prepare, or cast" : (
 			learn ? "learn or cast" : (
 				prepare ? "prepare or cast" : "cast"
@@ -246,7 +246,7 @@ export const makeSpellAbilityBlock = ({
 
 	return `${maybeClear}<Ability id="${abId}" icon={["magic-swirl"]}>`
 		+ output.join("\n")
-		+ (block.length ? 
+		+ (block.length ?
 			`<Pair title="Info">`
 			+ block.join("\n")
 			+ "</Pair>"

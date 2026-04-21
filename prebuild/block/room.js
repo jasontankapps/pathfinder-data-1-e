@@ -114,7 +114,7 @@ const makeRoomBlock = ({marked2, convertEncodedInfo, id, maybeClear, text, attrs
 		}</td></tr>`
 	);
 	//
-	// END CODE BLOCK	
+	// END CODE BLOCK
 	//
 	output.push(
 		`</tbody></table></div>`

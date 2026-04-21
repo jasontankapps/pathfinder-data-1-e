@@ -75,7 +75,7 @@ const makeHauntBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, tex
 	flags.thlink = true;
 	output.splice(3, 0, `<ThLink scope="row" rowSpan={${rows}} to="/rule/elements_of_a_haunt"><IonIcon aria-label="Haunt" icon="/icons/ghost.svg" /></ThLink>`)
 	//
-	// END CODE BLOCK	
+	// END CODE BLOCK
 	//
 	output.push(
 		`</tbody></table></div>`

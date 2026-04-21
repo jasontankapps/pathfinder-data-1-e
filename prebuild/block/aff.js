@@ -358,7 +358,7 @@ const makeAfflictionBlock = ({marked2, flags, convertEncodedInfo, maybeClear, te
 		logError(`---> missing icon property`);
 	}
 	//
-	// END CODE BLOCK	
+	// END CODE BLOCK
 	//
 	output.push(
 		`</tbody></table></div>`

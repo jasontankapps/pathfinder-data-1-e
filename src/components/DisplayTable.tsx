@@ -135,7 +135,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			.filter(([, i]) => hiddenRows.every(hRow => hRow !== i))
 				// remove hidden columns (and row indices)
 			.map(([row,]) => row.filter((cell, i) => hiddenHeaders.every(hCol => hCol !== i)) as SortableCell[]);
-	}, [sortedRowsWithBothOriginalIndices, hiddenHeaders, hiddenRows]);	
+	}, [sortedRowsWithBothOriginalIndices, hiddenHeaders, hiddenRows]);
 
 	const tableWidth = useMemo(() => {
 		if(columns.some(col => col.size === undefined)) {
