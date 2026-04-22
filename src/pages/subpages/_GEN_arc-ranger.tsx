@@ -1725,34 +1725,87 @@ const _spirit_ranger = {title: "Spirit Ranger", jsx: <><h2 id="arc-ranger-spirit
 </>};
 const _stormwalker = {title: "Stormwalker", jsx: <><h2 id="arc-ranger-stormwalker-stormwalker">Stormwalker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 72</Link><br/>Rangers who walk in the tempest unafraid draw the power of the storm into themselves and become stormwalkers.</p>
-<p><strong>Combat Style Feat (Ex):</strong> At 2nd level, a stormwalker must choose the archery <Link to="/ability/combat_styles">combat style</Link>.</p>
-<p>This alters the ranger's <strong className="hl">combat style</strong>.</p>
-<p><strong>Thundershot (Su):</strong> At 4th level, a stormwalker can wreathe his weapon in lightning. As a standard action, he can grant a single weapon he holds the <Link to="/magic-enh/shock">shock</Link> special ability for 1 minute; while under this effect, the weapon counts as magic for the purpose of overcoming damage reduction. A stormwalker can use this ability a number of times per day equal to 3 + his Wisdom modifier. At 12th level, weapons affected by this ability gain the <Link to="/magic-enh/shocking_burst">shocking burst</Link> special ability.</p>
-<p>This replaces <strong className="hl">hunter's bond</strong>.</p>
-<p><strong>Wind Treader (Ex):</strong> At 8th level, a stormwalker becomes immune to the effects of strong wind. He can move without hindrance in windy conditions, and his ranged attacks take no penalties from nonmagical wind.</p>
-<p>This replaces <strong className="hl">swift tracker</strong>.</p>
-<p><strong>Flash Step (Su):</strong> At 11th level, a stormwalker can move across the battlefield like a bolt of lightning. As a full-round action, he can transform into lightning and move to any unoccupied square within 60 feet without provoking attacks of opportunity. He can make a single ranged attack before or after this movement.</p>
-<p>This replaces <strong className="hl">quarry</strong>.</p>
-<p><strong>Control Weather (Sp):</strong> At 16th level, a stormwalker can cast <Link to="/spell/control_weather">control weather</Link> as a spell-like ability once per day.</p>
-<p>This replaces <strong className="hl">improved evasion</strong>.</p>
-<p><strong>Flash Shot (Su):</strong> At 19th level, when a stormwalker uses flash step, he can make a ranged attack both before and after his movement. Both of these attacks are made at his highest base attack bonus.</p>
-<p>This replaces <strong className="hl">improved quarry</strong>.</p>
+<Ability id="arc-ranger-stormwalker-combat-style-feat-ex" icon={["broken-shield"]}>
+<Pair single id="arc-ranger-stormwalker-combat-style-feat-ex">Combat Style Feat (Ex)</Pair>
+<Pair hl title="Alters">Combat style</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A stormwalker must choose the archery <Link to="/ability/combat_styles">combat style</Link>.</Pair>
+</Ability>
+<Ability id="arc-ranger-stormwalker-thundershot-su" icon={["upgrade"]}>
+<Pair single id="arc-ranger-stormwalker-thundershot-su" flavor="A stormwalker can wreathe his weapon in lightning.">Thundershot (Su)</Pair>
+<Pair hl title="Replaces">Hunter's bond</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Usage">3 + Wisdom modifier times/day</Pair>
+<Pair title="Standard Action">He can grant a single weapon he holds the <Link to="/magic-enh/shock">shock</Link> special ability for 1 minute; while under this effect, the weapon counts as magic for the purpose of overcoming damage reduction.</Pair>
+<Pair title="At 12th Level">Weapons affected by this ability gain the <Link to="/magic-enh/shocking_burst">shocking burst</Link> special ability, instead.</Pair>
+</Ability>
+<Ability id="arc-ranger-stormwalker-wind-treader-ex" icon={["armor-upgrade","upgrade"]}>
+<Pair single id="arc-ranger-stormwalker-wind-treader-ex">Wind Treader (Ex)</Pair>
+<Pair hl title="Replaces">Swift tracker</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability">A stormwalker becomes immune to the effects of strong <Link to="/rule/winds">wind</Link>. He can move without hindrance in windy conditions, and his ranged attacks take no penalties from nonmagical wind.</Pair>
+</Ability>
+<Ability id="arc-ranger-stormwalker-flash-step-su" icon={["stairs-goal","bowman"]}>
+<Pair single id="arc-ranger-stormwalker-flash-step-su" flavor="A stormwalker can move across the battlefield like a bolt of lightning.">Flash Step (Su)</Pair>
+<Pair hl title="Replaces">Quarry</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Full-Round Action">He can transform into lightning and move to any unoccupied square within 60 feet without provoking attacks of opportunity. He can make a single ranged attack before or after this movement.</Pair>
+</Ability>
+<Ability id="arc-ranger-stormwalker-control-weather-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-ranger-stormwalker-control-weather-sp">Control Weather (Sp)</Pair>
+<Pair hl title="Replaces">Improved evasion</Pair>
+<Pair title="Gained">At 16th Level</Pair>
+<Pair title="Ability">A stormwalker can cast <Link to="/spell/control_weather">control weather</Link> as a spell-like ability once per day.</Pair>
+</Ability>
+<Ability id="arc-ranger-stormwalker-flash-shot-su" icon={["bowman"]}>
+<Pair single id="arc-ranger-stormwalker-flash-shot-su">Flash Shot (Su)</Pair>
+<Pair hl title="Replaces">Improved quarry</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Ability">When a stormwalker uses <em>flash step,</em> he can make a ranged attack both before and after his movement. Both of these attacks are made at his highest base attack bonus.</Pair>
+</Ability>
 </>};
 const _summit_sentinel = {title: "Summit Sentinel", jsx: <><h2 id="arc-ranger-summit_sentinel-summit-sentinel">Summit Sentinel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 72</Link><br/>Some rangers eschew the path of the swift skirmisher and embrace the implacable strength of the mountain.</p>
-<p><strong>Roots of the Mountain (Su):</strong> At 2nd level, a summit sentinel gains <Link to="/feat/toughness">Toughness</Link> as a bonus feat.</p>
-<p>Additionally, as a move action, she can enter a defensive stance for 1 minute. While in this stance, the summit sentinel's speed is reduced to 5 feet, she gains a +2 enhancement bonus to her natural armor, and she gains a +2 bonus to her CMD against maneuvers that would move her or knock her prone. If the ranger loses contact with the ground or other solid surface, the stance ends immediately. The ranger can enter this stance a number of times per day equal to 3 + her Constitution modifier.</p>
-<p>At 6th level and every 4 levels thereafter, the enhancement bonus to natural armor increases by 1, and the bonus to CMD increases by 2.</p>
-<p>This replaces the ranger's <strong className="hl">combat style feats</strong>.</p>
-<p><strong>Mountain Mastery (Ex):</strong> At 3rd level, a summit sentinel must select mountains as her favored terrain, and she does not gain additional favored terrains at higher levels. Every 5 levels beyond 5th, the bonus from this favored terrain increases by 2.</p>
-<p>At 8th level, a summit sentinel draws strength from the earth. When she and her target are both in contact with the ground or an earthen floor, the summit sentinel gains a +1 bonus on attack and damage rolls against the target. At 18th level, the bonus on attack and damage rolls increases to +2.</p>
-<p>This alters <strong className="hl">favored terrain</strong>.</p>
-<p><strong>Spells:</strong> A summit sentinel adds <Link to="/spell/stoneskin">stoneskin</Link> to the ranger spell list as a 4th-level spell.</p>
-<p>This alters the ranger's <strong className="hl">spells</strong>.</p>
-<p><strong>Rockslide (Su):</strong> At 8th level, once per day as a standard action, a summit sentinel can create a rushing wave of earth and stone. The summit sentinel chooses a point on the ground or floor within 30 feet. Rippling waves of earth and stone emanate from the chosen point in a 25-foot cone in a direction of the summit sentinel's choice. Each creature in the area takes 4d6 points of bludgeoning damage and is pushed to the end of the cone. A target that succeeds at a Reflex save (DC = 10 + half the ranger's level + the ranger's Wisdom modifier) takes half damage and is not pushed.</p>
-<p>This replaces <strong className="hl">swift tracker</strong>.</p>
-<p><strong>Invincible (Su):</strong> At 17th level, a summit sentinel takes on the unyielding hardness of the mountains. While in her roots of the mountain defensive stance, she is immune to critical hits and <Link to="/misc/precision_damage">precision damage</Link>.</p>
-<p>This replaces <strong className="hl">hide in plain sight</strong>.</p>
+<Ability id="arc-ranger-summit_sentinel-roots-of-the-mountain-su" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="arc-ranger-summit_sentinel-roots-of-the-mountain-su">Roots of the Mountain (Su)</Pair>
+<Pair hl title="Replaces">Combat style feats</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A summit sentinel gains <Link to="/feat/toughness">Toughness</Link> as a bonus feat.</Pair>
+<Pair title="Move-Equivalent Action">She can enter a defensive stance for 1 minute. While in this stance, the summit sentinel's speed is reduced to 5 feet, she gains a +2 enhancement bonus to her natural armor, and she gains a +2 bonus to her CMD against maneuvers that would move her or knock her prone. If the ranger loses contact with the ground or other solid surface, the stance ends immediately.</Pair>
+<Pair title="Usage">3 + Constitution modifier times/day</Pair>
+<Pair title="At 6th Level">The enhancement bonus to natural armor increases to +3 and the bonus to CMD becomes +4.</Pair>
+<Pair title="At 10th Level">The enhancement bonus to natural armor increases to +4 and the bonus to CMD becomes +6.</Pair>
+<Pair title="At 14th Level">The enhancement bonus to natural armor increases to +5 and the bonus to CMD becomes +8.</Pair>
+<Pair title="At 18th Level">The enhancement bonus to natural armor increases to +6 and the bonus to CMD becomes +10.</Pair>
+</Ability>
+<Ability id="arc-ranger-summit_sentinel-mountain-mastery-ex" icon={["broken-shield"]}>
+<Pair single id="arc-ranger-summit_sentinel-mountain-mastery-ex">Mountain Mastery (Ex)</Pair>
+<Pair hl title="Alters">Favored terrain</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Info">A summit sentinel must select mountains as her <em>favored terrain,</em> and she does not gain additional <em>favored terrains</em> at higher levels.</Pair>
+<Pair title="At 8th Level">A summit sentinel draws strength from the earth. When she and her target are both in contact with the ground or an earthen floor, the summit sentinel gains a +1 bonus on attack and damage rolls against the target.</Pair>
+<Pair title="At 10th Level">The bonus from this <em>favored terrain</em> becomes +4.</Pair>
+<Pair title="At 15th Level">The bonus from this <em>favored terrain</em> increases to +6.</Pair>
+<Pair title="At 18th Level">The bonus on attack and damage rolls increases to +2.</Pair>
+<Pair title="At 20th Level">The bonus from this <em>favored terrain</em> becomes +8.</Pair>
+</Ability>
+<Ability id="arc-ranger-summit_sentinel-spells" icon={["spell-book"]}>
+<Pair single id="arc-ranger-summit_sentinel-spells">Spells</Pair>
+<Pair hl title="Alters">Spells</Pair>
+<Pair title="Ability">A summit sentinel adds <Link to="/spell/stoneskin">stoneskin</Link> to the ranger spell list as a 4th-level spell.</Pair>
+</Ability>
+<Ability id="arc-ranger-summit_sentinel-rockslide-su" icon={["tornado-discs"]}>
+<Pair single id="arc-ranger-summit_sentinel-rockslide-su">Rockslide (Su)</Pair>
+<Pair hl title="Replaces">Swift tracker</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Standard Action">Once per day, a summit sentinel can create a rushing wave of earth and stone. The summit sentinel chooses a point on the ground or floor within 30 feet. Rippling waves of earth and stone emanate from the chosen point in a 25-foot cone in a direction of the summit sentinel's choice. Each creature in the area takes 4d6 points of bludgeoning damage and is pushed to the end of the cone. A target that succeeds at a Reflex save (DC = 10 + half the ranger's level + the ranger's Wisdom modifier) takes half damage and is not pushed.</Pair>
+</Ability>
+<Ability id="arc-ranger-summit_sentinel-invincible-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-summit_sentinel-invincible-su" flavor="A summit sentinel takes on the unyielding hardness of the mountains.">Invincible (Su)</Pair>
+<Pair hl title="Replaces">Hide in plain sight</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Passive Ability">While in her <em>roots of the mountain</em> defensive stance, she is immune to critical hits and <Link to="/misc/precision_damage">precision damage</Link>.</Pair>
+</Ability>
 </>};
 const _sword_devil = {title: "Sword-Devil", jsx: <><h2 id="arc-ranger-sword_devil-sword-devil">Sword-Devil</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_worldscape_1">Pathfinder Worldscape #1 pg. 27</Link><br/>Agile, vengeful, and deadly, a sword-devil fights with precision and grace, channeling the difficult lessons of a star-crossed life into unparalleled battle prowess. Favoring speed and evasive techniques over brute force, sword-devils choose precision over power and acrobatics over armor. Charismatic and carefree, a sword-devil makes fast friends and inspires her companions to greatness, even while vowing a swift death upon her enemies.</p>
@@ -1760,20 +1813,63 @@ const _sword_devil = {title: "Sword-Devil", jsx: <><h2 id="arc-ranger-sword_devi
 <Pair id="arc-ranger-sword_devil-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Spellcraft</Pair></Ability>
-<p><strong>Death Vow (Ex):</strong> At 1st level, a sword-devil may, as a swift action, focus all her fury and determination on a single foe she swears to slay. She may do this once per day, plus one additional time per day at 4th level and every 3 levels thereafter (7th, 10th, etc). The sword-devil gains a bonus on weapon attack and damage rolls against her sworn target equal to half her sword-devil level (minimum +1). The death vow effect remains until the target of the death vow is dead, or the next time the sword-devil rests and regains use of this ability.</p>
-<p>This ability replaces <strong className="hl">favored enemy</strong>.</p>
-<p><strong>Slashing Fury (Ex):</strong> Beginning at 3rd level, the sword-devil can use her Charisma score in place of her Intelligence score as a prerequisite for combat feats. Additionally, she selects one type of light or one-handed slashing melee weapon. When using this weapon, she may use her Dexterity modifier instead of her Strength modifier on melee attack rolls. At 8th level and every 5 levels thereafter (13th and 18th). the sword-devil may select an additional type of light or one-handed slashing weapon she may use with this ability. This ability counts as having the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feat for the purpose of meeting feat prerequisites.</p>
-<p>This ability replaces <strong className="hl">favored terrain</strong>.</p>
-<p><strong>Inspiring Example (Ex):</strong> At 4th level, the sword-devil forms a bond with her companions, inspiring them to greater zeal in combat by the example of her weaponcraft. As a standard action, the sword-devil may grant half her death vow bonus against a single victim of her death vow to all allies within 30 feet who can see and hear her. This bonus lasts for a number of rounds equal to the sword-devil's Charisma modifier (minimum 1). This bonus does not stack with any death vow bonuses possessed by the sword-devil's allies; they use whichever bonus is higher.</p>
-<p>This ability replaces <strong className="hl">hunter's bond</strong>.</p>
-<p><strong>Untouchable (Ex):</strong> At 4th level. the sword-devil's confidence and personality distract her foes in combat, making her more difficult to hit. When unarmored and unencumbered. the sword-devil may add her Charisma bonus (if any) to her AC and her CMD. In addition, the sword-devil gains a +1 dodge bonus to AC at 6th level, and every three sword-devil levels thereafter (9th, 12th, 15th, and 18th). She loses these bonuses when she wears any armor, when she carries a shield, or when she carriers a medium or heavy load.</p>
-<p>This ability replaces <strong className="hl">spells</strong>.</p>
-<p><strong>Second Combat Style (Ex):</strong> At 11th level, the sword-devil chooses a second ranger <Link to="/ability/combat_styles">combat style</Link>. When she recieves a bonus combat feat, she may select any feat from either combat style's list.</p>
-<p>This ability replaces <strong className="hl">quarry</strong>.</p>
-<p><strong>Seething Fury (Ex):</strong> At 19th level, the sword-devil's countless battles harden her soul and make her lose touch with her humanity. Her growing lack of control over her wrath fuels the potency of her death vow. She adds her Charisma bonus on weapon attack and damage rolls against targets of her death vow, and automatically confirms threatened critical hits against them.</p>
-<p>This ability replaces <strong className="hl">improved quarry</strong>.</p>
-<p><strong>Avatar of Vengeance (Su):</strong> A sword-devil of 20th level becomes a living avatar of vengeance, infused with supernatural powers that push her beyond the mortal. Recognized for her battle prowess and unparalleled skill at killing by a potent otherworldly entity. The sword-devil becomes the living vessel of an immortal, intangible, and inscrutable being obsessed only with slaying her foes, meting out violent retribution to those who have wronged her, or simply dispatching her enemies in dazzling display of wanton destruction. As a standard action, the sword-devil allows herself to be infused with this killing spirit. She gains a fly speed of 60-feet (perfect), a +6 morale bonus to AC, and fire resistance 30. This ability can be used for 10 minutes per day, but it must be used in 1-minute increments.</p>
-<p>This ability replaces <strong className="hl">master hunter</strong>.</p>
+<Ability id="arc-ranger-sword_devil-death-vow-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-sword_devil-death-vow-ex">Death Vow (Ex)</Pair>
+<Pair hl title="Replaces">Favored enemy</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">1 time/day + 1 per one ranger levels beyond 3rd<ByLevelPop levels={[[1,1],[4,2],[7,3],[10,4],[13,5],[16,6],[19,7]]} unit="time" postText="/day" /></Pair>
+<Pair title="Swift Action">A sword-devil may focus all her fury and determination on a single foe she swears to slay. The sword-devil gains a bonus on weapon attack and damage rolls against her sworn target equal to half her sword-devil level (minimum +1). The <em>death vow</em> effect remains until the target of the <em>death vow</em> is dead, or the next time the sword-devil rests and regains use of this ability.</Pair>
+</Ability>
+<Ability id="arc-ranger-sword_devil-slashing-fury-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-sword_devil-slashing-fury-ex">Slashing Fury (Ex)</Pair>
+<Pair hl title="Replaces">Favored terrain</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">The sword-devil can use her Charisma score in place of her Intelligence score as a prerequisite for combat feats.</Pair>
+<Pair title="Ability">She selects one type of light or one-handed slashing melee weapon. When using this weapon, she may use her Dexterity modifier instead of her Strength modifier on melee attack rolls.</Pair>
+<Pair title="At 8th Level">The sword-devil may select an additional type of light or one-handed slashing weapon she may use with this ability.</Pair>
+<Pair title="At 13th Level">The sword-devil may select an additional type of light or one-handed slashing weapon she may use with this ability.</Pair>
+<Pair title="At 18th Level">The sword-devil may select an additional type of light or one-handed slashing weapon she may use with this ability.</Pair>
+<Pair title="Special">This ability counts as having the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feat for the purpose of meeting feat prerequisites.</Pair>
+</Ability>
+<Ability id="arc-ranger-sword_devil-inspiring-example-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-sword_devil-inspiring-example-ex" flavor="The sword-devil forms a bond with her companions, inspiring them to greater zeal in combat by the example of her weaponcraft.">Inspiring Example (Ex)</Pair>
+<Pair hl title="Replaces">Hunter's bond</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Standard Action">The sword-devil may grant half her <em>death vow</em> bonus against a single victim of her <em>death vow</em> to all allies within 30 feet who can see and hear her. This bonus lasts for a number of rounds equal to the sword-devil's Charisma modifier (minimum 1).</Pair>
+<Pair title="Special">This bonus does not stack with any <em>death vow</em> bonuses possessed by the sword-devil's allies; they use whichever bonus is higher.</Pair>
+</Ability>
+<Ability id="arc-ranger-sword_devil-untouchable-ex" icon={["armor-upgrade","hazard-sign"]}>
+<Pair single id="arc-ranger-sword_devil-untouchable-ex" flavor="The sword-devil's confidence and personality distract her foes in combat, making her more difficult to hit.">Untouchable (Ex)</Pair>
+<Pair hl title="Replaces">Spellcasting ability</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">The sword-devil may add her Charisma bonus (if any) to her AC and her CMD.</Pair>
+<Pair title="At 6th Level">The sword-devil gains a +1 dodge bonus to AC.</Pair>
+<Pair title="At 9th Level">The dodge bonus becomes +2.</Pair>
+<Pair title="At 12th Level">The dodge bonus increases to +3.</Pair>
+<Pair title="At 15th Level">The dodge bonus becomes +4.</Pair>
+<Pair title="At 18th Level">The dodge bonus increases to +5.</Pair>
+<Pair title="Special">She loses these bonuses when she wears any armor, when she carries a shield, or when she carries a medium or heavy load.</Pair>
+</Ability>
+<Ability id="arc-ranger-sword_devil-second-combat-style-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-sword_devil-second-combat-style-ex">Second Combat Style (Ex)</Pair>
+<Pair hl title="Replaces">Quarry</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">The sword-devil chooses a second ranger <Link to="/ability/combat_styles">combat style</Link>. When she recieves a bonus combat feat, she may select any feat from either combat style's list.</Pair>
+</Ability>
+<Ability id="arc-ranger-sword_devil-seething-fury-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-sword_devil-seething-fury-ex" flavor={["The sword-devil's countless battles harden her soul and make her lose touch with her humanity. Her growing lack of control over her wrath fuels the potency of her ",{"tag":"em","content":"death vow.","props":{}}]}>Seething Fury (Ex)</Pair>
+<Pair hl title="Replaces">Improved quarry</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Ability">She adds her Charisma bonus on weapon attack and damage rolls against targets of her <em>death vow,</em> and automatically confirms threatened critical hits against them.</Pair>
+</Ability>
+<Ability id="arc-ranger-sword_devil-avatar-of-vengeance-su" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="arc-ranger-sword_devil-avatar-of-vengeance-su" flavor="A sword-devil becomes a living avatar of vengeance, infused with supernatural powers that push her beyond the mortal, and recognized for her battle prowess and unparalleled skill at killing by a potent otherworldly entity.">Avatar of Vengeance (Su)</Pair>
+<Pair hl title="Replaces">Master hunter</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Info">The sword-devil becomes the living vessel of an immortal, intangible, and inscrutable being obsessed only with slaying her foes, meting out violent retribution to those who have wronged her, or simply dispatching her enemies in dazzling display of wanton destruction.</Pair>
+<Pair title="Usage">10 minutes per day, but it must be used in 1-minute increments.</Pair>
+<Pair title="Standard Action">The sword-devil allows herself to be infused with this killing spirit. She gains a fly speed of 60-feet (perfect), a +6 morale bonus to AC, and fire resistance 30.</Pair>
+</Ability>
 </>};
 const _tanglebriar_demonslayer = {title: "Tanglebriar Demonslayer", jsx: <><h2 id="arc-ranger-tanglebriar_demonslayer-tanglebriar-demonslayer">Tanglebriar Demonslayer</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 46</Link><br/>During the elves' long absence from Golarion, the nascent demon lord <Link to="/monster/treerazer">Treerazer</Link> took up residence in the Fierani Forest in what is now the Elven kingdom of Kyonin. Eventually, the demon's presence in the forest drew the elves back to Golarion, who sought to purge the fiendish blight from this once-sacred land. They defeated Treerazer but could not destroy him, forcing him instead into the southern reaches of the Fierani, a corrupted region of twisted plants and fiendish denizens called Tanglebriar. Even today, the <Link to="/race/elves">elves</Link> constantly battle to keep the corruption in the Tanglebriar from spreading to the rest of the Fierani Forest and beyond. Though they are sworn foes of Treerazer and his kin, Tanglebriar demonslayers are known to venture forth from Kyonin to broaden their expertise in the destruction of demons.</p>
