@@ -452,9 +452,21 @@ const postprocess = (tables) => {
 };
 
 // Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
-const convertDescription = (temporaryFlags, desc, prefix, tables, openTag = "", closeTag = "") => {
+const checkForBadDirective = /^(?!::|;;|.+(::|;;;))|^(:::|;;;)$|^>*(::[a-z][a-zA-Z0-9_]*(\[[^{}\]\[]*\])?|(:::|;;;)[a-z][a-zA-Z0-9_]*)(\{(?:(?<=\s|\{)([a-z][-a-zA-Z0-9]*(=[0-9]+|=[a-zA-Z][-a-zA-Z_0-9~+]*|=\"[^{}\[\]"]*\"|)\s*))*\})?$/
+const convertDescription = (temporaryFlags, dirtyDesc, prefix, tables, openTag = "", closeTag = "") => {
 	$.prefix = prefix;
 	$.flags = {...temporaryFlags};
+
+	// Test for malformed directives
+	const desc = dirtyDesc.filter(d => {
+		const m = d.match(checkForBadDirective);
+		if(d.match(checkForBadDirective)) {
+			return true;
+		}
+		logError("Malformed directive: [" + JSON.stringify(d) + "]");
+		return false;
+	});
+
 	const marked = makeNewMarkedInstance(
 		{
 			gfm: true,
