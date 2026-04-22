@@ -1515,7 +1515,7 @@ const _shapeshifter = {title: "Shapeshifter", jsx: <><h2 id="arc-ranger-shapeshi
 <Pair single id="arc-ranger-shapeshifter-shifters-blessing-su">Shifter's Blessing (Su)</Pair>
 <Pair hl title="Replaces">Favored terrain</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Swift Action">The shapeshifter can take on the aspects of a wild creature once per day. He can remain in this form for a number of rounds equal to his ranger level + his Wisdom modifier. While in one of his shifter's blessing forms, the ranger gains the <Link to="/subtype/shapeshifter">shapeshifter</Link> subtype.</Pair>
+<Pair title="Swift Action">The shapeshifter can take on the aspects of a wild creature once per day. He can remain in this form for a number of rounds equal to his ranger level + his Wisdom modifier. While in one of his shifter's blessing forms, the ranger gains the <Link to="/subtype/shapechanger">shapechanger</Link> subtype.</Pair>
 <Pair title="Choice">The shapeshifter must choose one of the following forms. Once this choice is made, it cannot be changed.</Pair>
 <Pair title="At 8th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and may use this ability 2 times per day.</Pair>
 <Pair title="At 13th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and may use this ability 3 times per day.</Pair>
@@ -1873,89 +1873,251 @@ const _sword_devil = {title: "Sword-Devil", jsx: <><h2 id="arc-ranger-sword_devi
 </>};
 const _tanglebriar_demonslayer = {title: "Tanglebriar Demonslayer", jsx: <><h2 id="arc-ranger-tanglebriar_demonslayer-tanglebriar-demonslayer">Tanglebriar Demonslayer</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 46</Link><br/>During the elves' long absence from Golarion, the nascent demon lord <Link to="/monster/treerazer">Treerazer</Link> took up residence in the Fierani Forest in what is now the Elven kingdom of Kyonin. Eventually, the demon's presence in the forest drew the elves back to Golarion, who sought to purge the fiendish blight from this once-sacred land. They defeated Treerazer but could not destroy him, forcing him instead into the southern reaches of the Fierani, a corrupted region of twisted plants and fiendish denizens called Tanglebriar. Even today, the <Link to="/race/elves">elves</Link> constantly battle to keep the corruption in the Tanglebriar from spreading to the rest of the Fierani Forest and beyond. Though they are sworn foes of Treerazer and his kin, Tanglebriar demonslayers are known to venture forth from Kyonin to broaden their expertise in the destruction of demons.</p>
-<p><strong>Skills:</strong> Tanglebriar demonslayers gain Knowledge (planes) as a class skill.</p>
-<p><strong>Favored Enemy (Ex):</strong> At 1st level, a Tanglebriar demonslayer must choose favored enemy (evil outsider). At 5th level and every time he advances his favored enemy bonus, the demonslayer must advance his bonus against evil outsiders. In addition to the normal benefits of favored enemy, a Tanglebriar demonslayer gains a bonus equal to 1/2 his favored enemy bonus on saving throws against spells, spell-like abilities, and supernatural abilities of evil outsiders. This ability is otherwise identical to and replaces the favored enemy ranger class ability.</p>
-<p><strong>Demonologist (Ex):</strong> At 3rd level, a Tanglebriar demonslayer gains insight into his Abyssal enemies. The demonslayer gains a bonus equal to 1/2 his class level on Knowledge (planes) checks that relate to demons, Perception checks to pierce a demon's disguise, and Survival checks while tracking demons. This bonus stacks with any bonuses from favored enemy.</p>
-<p>This ability replaces <strong className="hl">endurance</strong>.</p>
-<p><strong>Expanded Spell List:</strong> A Tanglebriar demonslayer adds the following spells to his spell list: 1st-<Link to="/spell/protection_from_evil">protection from evil</Link>; 2nd-<Link to="/spell/align_weapon">align weapon</Link>, <Link to="/spell/magic_circle_against_evil">magic circle against evil</Link>; 4th-<Link to="/spell/dimensional_anchor">dimensional anchor</Link>, <Link to="/spell/dismissal">dismissal</Link>.</p>
-<p><strong>Fiendish Quarry (Su):</strong> At 11th level, when a Tanglebriar demonslayer chooses an evil outsider as his quarry, he can the forgo the normal +2 attack bonus and instead treat his weapon as if it were good-aligned versus his quarry. This ability is otherwise identical to quarry and replaces that ability.</p>
-<p><strong>Improved Fiendish Quarry (Su):</strong> At 19th level, when a Tanglebriar demonslayer chooses an evil outsider as his quarry, he can forgo the normal +4 attack bonus and instead treat his weapon as if it had the holy weapon special ability while attacking his quarry. This ability is otherwise identical to improved quarry and replaces that ability.</p>
+<Ability icon={["skills"]} id="arc-ranger-tanglebriar_demonslayer-undefined">
+<Pair id="arc-ranger-tanglebriar_demonslayer-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair></Ability>
+<Ability id="arc-ranger-tanglebriar_demonslayer-favored-enemy-ex" icon={["broken-shield","armor-upgrade"]}>
+<Pair single id="arc-ranger-tanglebriar_demonslayer-favored-enemy-ex">Favored Enemy (Ex)</Pair>
+<Pair hl title="Replaces">Favored enemy</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Choice">A Tanglebriar demonslayer must choose <em>favored enemy</em> (evil outsider).</Pair>
+<Pair title="Info">Every time he advances his <em>favored enemy</em> bonus, the demonslayer must advance his bonus against evil outsiders.</Pair>
+<Pair title="Passive Ability">In addition to the normal benefits of <em>favored enemy,</em> a Tanglebriar demonslayer gains a bonus equal to 1/2 his <em>favored enemy</em> bonus on saving throws against spells, spell-like abilities, and supernatural abilities of evil outsiders.</Pair>
+<Pair title="Special">This ability is otherwise identical to and replaces the <em>favored enemy</em> ranger class ability.</Pair>
+</Ability>
+<Ability id="arc-ranger-tanglebriar_demonslayer-demonologist-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-tanglebriar_demonslayer-demonologist-ex" flavor="A Tanglebriar demonslayer gains insight into his Abyssal enemies.">Demonologist (Ex)</Pair>
+<Pair hl title="Replaces">Endurance</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">The demonslayer gains a bonus equal to 1/2 his class level on Knowledge (planes) checks that relate to demons, Perception checks to pierce a demon's disguise, and Survival checks while tracking demons. This bonus stacks with any bonuses from <em>favored enemy.</em></Pair>
+</Ability>
+<Ability id="arc-ranger-tanglebriar_demonslayer-expanded-spell-list" icon={["spell-book"]}>
+<Pair single id="arc-ranger-tanglebriar_demonslayer-expanded-spell-list">Expanded Spell List</Pair>
+<Pair title="Ability">A Tanglebriar demonslayer adds the following spells to his spell list at the listed spell level.</Pair>
+<Pair plain title="1st"><Link to="/spell/protection_from_evil">Protection from evil</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/align_weapon">Align weapon</Link>, <Link to="/spell/magic_circle_against_evil">magic circle against evil</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/dimensional_anchor">Dimensional anchor</Link>, <Link to="/spell/dismissal">dismissal</Link></Pair>
+</Ability>
+<Ability id="arc-ranger-tanglebriar_demonslayer-fiendish-quarry-su" icon={["upgrade"]}>
+<Pair single id="arc-ranger-tanglebriar_demonslayer-fiendish-quarry-su">Fiendish Quarry (Su)</Pair>
+<Pair hl title="Replaces">Quarry</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">When a Tanglebriar demonslayer chooses an evil outsider as his <em>quarry,</em> he can the forgo the normal +2 attack bonus and instead treat his weapon as if it were good-aligned versus his <em>quarry.</em></Pair>
+<Pair title="Special">This ability is otherwise identical to <em>quarry</em> and replaces that ability.</Pair>
+</Ability>
+<Ability id="arc-ranger-tanglebriar_demonslayer-improved-fiendish-quarry-su" icon={["upgrade"]}>
+<Pair single id="arc-ranger-tanglebriar_demonslayer-improved-fiendish-quarry-su">Improved Fiendish Quarry (Su)</Pair>
+<Pair hl title="Replaces">Improved quarry</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Ability">When a Tanglebriar demonslayer chooses an evil outsider as his <em>quarry,</em> he can forgo the normal +4 attack bonus and instead treat his weapon as if it had the <Link to="/magic-enh/holy">holy</Link> weapon special ability while attacking his quarry.</Pair>
+<Pair title="Special">This ability is otherwise identical to <em>improved quarry</em> and replaces that ability.</Pair>
+</Ability>
 </>};
 const _tidal_hunter = {title: "Tidal Hunter", jsx: <><h2 id="arc-ranger-tidal_hunter-tidal-hunter">Tidal Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 73</Link><br/>The tidal hunter draws strength from the fish and other wildlife of the deep.</p>
-<p><strong>Waterborn (Su):</strong> A tidal hunter can breathe water for up to 10 minutes per ranger level each day. At 6th level, he can breathe underwater indefinitely.</p>
-<p>This replaces <strong className="hl">wild empathy</strong> and the 6th-level <strong className="hl">combat style feat</strong>.</p>
-<p><strong>Keen Scent (Ex):</strong> A tidal hunter gains <Link to="/umr/scent">scent</Link> as per the universal monster rule. At 12th level, while in water, the tidal hunter can detect particularly strong or distinct odors (such as blood) up to 1 mile away.</p>
-<p>This replaces <strong className="hl">track</strong> and <strong className="hl">camouflage</strong>.</p>
-<p><strong>Aquatic Mastery (Ex):</strong> At 3rd level, a tidal hunter must select water as his favored terrain, and he doesn't gain additional favored terrains. At 8th level and every 5 levels thereafter, the bonus from this favored terrain increases by 2.</p>
-<p>This alters <strong className="hl">favored terrain</strong>.</p>
-<p><strong>Wave Rush (Ex):</strong> At 7th level, a tidal hunter gains a swim speed equal to his base speed. If he already has a swim speed, it increases by 10 feet.</p>
-<p>This replaces <strong className="hl">woodland stride</strong>.</p>
-<p><strong>Tidal Surge (Sp):</strong> At 16th level, a tidal hunter gains control over water, and he can use the tides to attack his foes. Once per day, he can cast <Link to="/spell/tidal_surge">tidal surge</Link> as a spell-like ability.</p>
-<p>This replaces <strong className="hl">improved evasion</strong>.</p>
+<Ability id="arc-ranger-tidal_hunter-waterborn-su" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-tidal_hunter-waterborn-su">Waterborn (Su)</Pair>
+<Pair hl title="Replaces">Wild empathy, 6th-level combat style feat</Pair>
+<Pair title="Ability">A tidal hunter can breathe water for up to 10 minutes per ranger level each day.</Pair>
+<Pair title="At 6th Level">He can breathe underwater indefinitely.</Pair>
+</Ability>
+<Ability id="arc-ranger-tidal_hunter-keen-scent-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-tidal_hunter-keen-scent-ex">Keen Scent (Ex)</Pair>
+<Pair hl title="Replaces">Track, camouflage</Pair>
+<Pair title="Ability">A tidal hunter gains <Link to="/umr/scent">scent</Link> as per the universal monster rule.</Pair>
+<Pair title="At 12th Level">While in water, the tidal hunter can detect particularly strong or distinct odors (such as blood) up to 1 mile away.</Pair>
+</Ability>
+<Ability id="arc-ranger-tidal_hunter-aquatic-mastery-ex" icon={["broken-shield"]}>
+<Pair single id="arc-ranger-tidal_hunter-aquatic-mastery-ex">Aquatic Mastery (Ex)</Pair>
+<Pair hl title="Alters">Favored terrain</Pair>
+<Pair title="At 3rd Level">A tidal hunter must select water as his <em>favored terrain,</em> and he doesn't gain additional <em>favored terrains.</em></Pair>
+<Pair title="At 8th Level">The bonus from this <em>favored terrain</em> increases by 2.</Pair>
+<Pair title="At 13th Level">The bonus from this <em>favored terrain</em> increases by 2.</Pair>
+<Pair title="At 18th Level">The bonus from this <em>favored terrain</em> increases by 2.</Pair>
+</Ability>
+<Ability id="arc-ranger-tidal_hunter-wave-rush-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-tidal_hunter-wave-rush-ex">Wave Rush (Ex)</Pair>
+<Pair hl title="Replaces">Woodland stride</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A tidal hunter gains a swim speed equal to his base speed. If he already has a swim speed, it increases by 10 feet.</Pair>
+</Ability>
+<Ability id="arc-ranger-tidal_hunter-tidal-surge-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-ranger-tidal_hunter-tidal-surge-sp" flavor="A tidal hunter gains control over water, and he can use the tides to attack his foes.">Tidal Surge (Sp)</Pair>
+<Pair hl title="Replaces">Improved evasion</Pair>
+<Pair title="Gained">At 16th Level</Pair>
+<Pair title="Ability">Once per day, he can cast <Link to="/spell/tidal_surge">tidal surge</Link> as a spell-like ability.</Pair>
+</Ability>
 </>};
 const _toxic_herbalist = {title: "Toxic Herbalist", jsx: <><h2 id="arc-ranger-toxic_herbalist-toxic-herbalist">Toxic Herbalist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 74</Link><br/>Saviors and destroyers in equal measure, toxic herbalists use nature's bounty to craft remedies and poisons.</p>
-<p><strong>Toxic Touch (Ex):</strong> A toxic herbalist studies the safe handling of deadly substances. He cannot accidentally poison himself when he applies poison to a weapon.</p>
-<p>This replaces <strong className="hl">wild empathy</strong>.</p>
-<p><strong>Nature's Mercy (Ex and Su):</strong> At 3rd level, a toxic herbalist's knowledge of the natural world offers respite from wounds and illness. Once per day, he can spend 1 hour in a wilderness area gathering herbs and other natural materials and combine them into a medicinal poultice - this hour can be integrated with the hour required for the ranger to prepare spells.</p>
-<p>Placing the poultice on a wound or ingesting it is a standard action; the creature receiving the poultice heals a number of hit points equal to 1d6 + the ranger's Wisdom modifier.</p>
-<p>At 8th level and every 5 levels thereafter, the ranger creates one additional poultice when using this ability, to a maximum of four at 18th level. Poultices remain potent for 1 hour.</p>
-<p>Additionally, at 8th level, the poultice neutralizes one poison affecting the recipient, as per <Link to="/spell/neutralize_poison">neutralize poison</Link>. At 13th level, it also attempts to cure one disease affecting the recipient, as per <Link to="/spell/remove_disease">remove disease</Link>. The caster level of both of these effects is equal to the toxic herbalist's level. These additional effects are supernatural effects.</p>
-<p>This replaces <strong className="hl">endurance</strong>.</p>
-<p><strong>Sudden Onset (Ex):</strong> At 4th level, a toxic herbalist can administer a poultice he created via nature's mercy or poison a weapon as a swift action. Additionally, the toxic herbalist adds the following spells to the ranger spell list at the indicated spell levels: 1st-<Link to="/spell/nauseating_dart">nauseating dart</Link>, <Link to="/spell/ray_of_sickening">ray of sickening</Link>; 2nd-<Link to="/spell/pernicious_poison">pernicious poison</Link>, <Link to="/spell/pox_pustules">pox pustules</Link>; 3rd-<Link to="/spell/poison">poison</Link>, <Link to="/spell/toxic_gift">toxic gift</Link>; 4th-<Link to="/spell/absorb_toxicity">absorb toxicity</Link>, <Link to="/spell/cloudkill">cloudkill</Link>.</p>
-<p>This replaces <strong className="hl">hunter's bond</strong>.</p>
-<p><strong>Grim Harvest (Ex):</strong> At 8th level, a toxic herbalist can spend 1 hour foraging for poisonous substances to create a dose of poison (this hour can be integrated with the hour required to prepare spells or poultices). The toxic herbalist rolls 1d20 and adds his ranger level and his Intelligence modifier. The DC of this check is equal to the Craft DC of the poison he wishes to create. If he succeeds at this check, the ranger creates 1 dose of the chosen poison. The poison remains potent for a number of hours equal to the toxic herbalist's level, regardless of the means used in attempts to preserve it, and it can't be sold. This ability functions only while the toxic herbalist is within one of his favored terrains.</p>
-<p>This replaces <strong className="hl">swift tracker</strong>.</p>
-<p><strong>Potent Venom (Ex):</strong> At 11th level, a toxic herbalist's poisons become even deadlier. When he poisons a favored enemy, the DC of the poison's saving throw increases by half the toxic herbalist's favored enemy bonus against that target.</p>
-<p>This replaces <strong className="hl">quarry</strong>.</p>
-<p><strong>Poisonous Reaper (Ex):</strong> At 19th level, a single dose of poison on a toxic herbalist's weapon remains potent for the entirety of a full attack, instead of for a single strike.</p>
-<p>This replaces <strong className="hl">improved quarry</strong>.</p>
+<Ability id="arc-ranger-toxic_herbalist-toxic-touch-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-toxic_herbalist-toxic-touch-ex">Toxic Touch (Ex)</Pair>
+<Pair hl title="Replaces">Wild empathy</Pair>
+<Pair title="Passive Ability">A toxic herbalist studies the safe handling of deadly substances. He cannot accidentally poison himself when he applies poison to a weapon.</Pair>
+</Ability>
+<Ability id="arc-ranger-toxic_herbalist-natures-mercy-ex-and-su" icon={["stairs-goal","heart-plus"]}>
+<Pair single id="arc-ranger-toxic_herbalist-natures-mercy-ex-and-su" flavor="A toxic herbalist's knowledge of the natural world offers respite from wounds and illness.">Nature's Mercy (Ex and Su)</Pair>
+<Pair hl title="Replaces">Endurance</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">Once per day, he can spend 1 hour in a wilderness area gathering herbs and other natural materials and combine them into a medicinal poultice - this hour can be integrated with the hour required for the ranger to prepare spells.</Pair>
+<Pair title="Ability">Placing the poultice on a wound or ingesting it is a <strong className="hl">standard action</strong>; the creature receiving the poultice heals a number of hit points equal to 1d6 + the ranger's Wisdom modifier.</Pair>
+<Pair title="At 8th Level">A poultice neutralizes one poison affecting the recipient, as per <Link to="/spell/neutralize_poison">neutralize poison</Link>.</Pair>
+<Pair title="At 11th Level">The ranger can now create 2 poultices per day.</Pair>
+<Pair title="At 13th Level">A poultice also attempts to cure one disease affecting the recipient, as per <Link to="/spell/remove_disease">remove disease</Link>.</Pair>
+<Pair title="At 19th Level">The ranger can now create 3 poultices per day.</Pair>
+<Pair title="Special">The caster level of the neutralizing/curing effects is equal to the toxic herbalist's level. These additional effects are supernatural effects.</Pair>
+</Ability>
+<Ability id="arc-ranger-toxic_herbalist-sudden-onset-ex" icon={["upgrade","spell-book"]}>
+<Pair single id="arc-ranger-toxic_herbalist-sudden-onset-ex">Sudden Onset (Ex)</Pair>
+<Pair hl title="Replaces">Hunter's bond</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Swift Action">A toxic herbalist can administer a poultice he created via <em>nature's mercy</em> or poison a weapon as a swift action.</Pair>
+<Pair title="Info">Additionally, the toxic herbalist adds the following spells to the ranger spell list at the indicated spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/nauseating_dart">Nauseating dart</Link>, <Link to="/spell/ray_of_sickening">ray of sickening</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/pernicious_poison">Pernicious poison</Link>, <Link to="/spell/pox_pustules">pox pustules</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/poison">Poison</Link>, <Link to="/spell/toxic_gift">toxic gift</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/absorb_toxicity">Absorb toxicity</Link>, <Link to="/spell/cloudkill">cloudkill</Link></Pair>
+</Ability>
+<Ability id="arc-ranger-toxic_herbalist-grim-harvest-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-toxic_herbalist-grim-harvest-ex">Grim Harvest (Ex)</Pair>
+<Pair hl title="Replaces">Swift tracker</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">A toxic herbalist can spend 1 hour foraging for poisonous substances to create a dose of poison (this hour can be integrated with the hour required to prepare spells or poultices). The toxic herbalist rolls 1d20 and adds his ranger level and his Intelligence modifier. The DC of this check is equal to the Craft DC of the poison he wishes to create. If he succeeds at this check, the ranger creates 1 dose of the chosen poison. The poison remains potent for a number of hours equal to the toxic herbalist's level, regardless of the means used in attempts to preserve it, and it can't be sold.</Pair>
+<Pair title="Special">This ability functions only while the toxic herbalist is within one of his <em>favored terrains.</em></Pair>
+</Ability>
+<Ability id="arc-ranger-toxic_herbalist-potent-venom-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-toxic_herbalist-potent-venom-ex" flavor="A toxic herbalist's poisons become even deadlier.">Potent Venom (Ex)</Pair>
+<Pair hl title="Replaces">Quarry</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">When he poisons a <em>favored enemy,</em> the DC of the poison's saving throw increases by half the toxic herbalist's <em>favored enemy</em> bonus against that target.</Pair>
+</Ability>
+<Ability id="arc-ranger-toxic_herbalist-poisonous-reaper-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-toxic_herbalist-poisonous-reaper-ex">Poisonous Reaper (Ex)</Pair>
+<Pair hl title="Replaces">Improved quarry</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Passive Ability">A single dose of poison on a toxic herbalist's weapon remains potent for the entirety of a full attack, instead of for a single strike.</Pair>
+</Ability>
 </>};
 const _toxophilite = {title: "Toxophilite", jsx: <><h2 id="arc-ranger-toxophilite-toxophilite">Toxophilite</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 11</Link><br/>While many rangers use bows and arrows, the toxophilite takes special pride in her skill at archery. The toxophilite emulates the sharpshooting rangers of legend, who could pin a fly to the wall with a single shot or split one arrow with another. A truly talented toxophilite can even shoot down an enemy's arrow while it's still in flight.</p>
-<p><strong>Arrow-Splitter (Ex):</strong> A toxophilite gains a +1 bonus on ranged attack rolls against creatures or objects two or more size categories smaller than her. The toxophilite's ranged attacks also deal full damage to objects instead of half damage.</p>
-<p>This ability replaces <strong className="hl">wild empathy</strong>.</p>
-<p><strong>Combat Style Feat (Ex):</strong> At 2nd level, a toxophilite must select one of two ranged <Link to="/ability/combat_styles">combat styles</Link> to pursue: archery or crossbow.</p>
-<p><strong>Intercept Arrow (Ex):</strong> At 3rd level, a toxophilite can ready a ranged attack to deflect a ranged weapon attack against her or an ally within 30 feet. To deflect the attack, the toxophilite makes an attack with a ranged weapon. If her attack roll is greater than the attacking opponent's roll, the opponent's initial attack automatically misses. For each size category the attacking creature is larger than the toxophilite, the toxophilite takes a -4 penalty on her attack roll. The toxophilite must declare the use of this ability after the attack is announced, but before the roll is made. Unusually massive ranged weapons, such as boulders or ballista bolts, and ranged attacks by firearms or generated by natural attacks or spell effects can't be deflected.</p>
-<p>This ability replaces <strong className="hl">endurance</strong>.</p>
-<p><strong>Improved Intercept (Ex):</strong> At 11th level, when the toxophilite takes a full-attack action with a ranged weapon, she can choose to forgo one of her attacks. If she does so, she can use her intercept arrow ability as an immediate action instead of a readied action at any time before her next turn. Her attack roll to intercept uses the same bonuses as the attack she chose to forgo during her previous action.</p>
-<p>This ability replaces <strong className="hl">quarry</strong>.</p>
-<p><strong>Greater Intercept (Ex):</strong> At 19th level, whenever a toxophilite successfully deflects an attack with her intercept arrow ability, she can redirect the attack against a target within 30 feet, using the intercepted attack's attack roll against the new target's AC.</p>
-<p>This ability replaces <strong className="hl">improved quarry</strong>.</p>
+<Ability id="arc-ranger-toxophilite-arrow-splitter-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-toxophilite-arrow-splitter-ex">Arrow-Splitter (Ex)</Pair>
+<Pair hl title="Replaces">Wild empathy</Pair>
+<Pair title="Ability">A toxophilite gains a +1 bonus on ranged attack rolls against creatures or objects two or more size categories smaller than her. The toxophilite's ranged attacks also deal full damage to objects instead of half damage.</Pair>
+</Ability>
+<Ability id="arc-ranger-toxophilite-combat-style-feat-ex" icon={["broken-shield"]}>
+<Pair single id="arc-ranger-toxophilite-combat-style-feat-ex">Combat Style Feat (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Choice">A toxophilite must select one of two ranged <Link to="/ability/combat_styles">combat styles</Link> to pursue: archery or crossbow.</Pair>
+</Ability>
+<Ability id="arc-ranger-toxophilite-intercept-arrow-ex" icon={["shield-reflect"]}>
+<Pair single id="arc-ranger-toxophilite-intercept-arrow-ex">Intercept Arrow (Ex)</Pair>
+<Pair hl title="Replaces">Endurance</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A toxophilite can <Link to="/rule/ready">ready</Link> a ranged attack to deflect a ranged weapon attack against her or an ally within 30 feet. To deflect the attack, the toxophilite makes an attack with a ranged weapon. If her attack roll is greater than the attacking opponent's roll, the opponent's initial attack automatically misses. For each size category the attacking creature is larger than the toxophilite, the toxophilite takes a -4 penalty on her attack roll.</Pair>
+<Pair title="Special">The toxophilite must declare the use of this ability after the attack is announced, but before the roll is made. Unusually massive ranged weapons, such as boulders or ballista bolts, and ranged attacks by firearms or generated by natural attacks or spell effects can't be deflected.</Pair>
+</Ability>
+<Ability id="arc-ranger-toxophilite-improved-intercept-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-toxophilite-improved-intercept-ex">Improved Intercept (Ex)</Pair>
+<Pair hl title="Replaces">Quarry</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">When the toxophilite takes a full-attack action with a ranged weapon, she can choose to forgo one of her attacks. If she does so, she can use her <em>intercept arrow</em> ability as an <strong className="hl">immediate action</strong> instead of a readied action at any time before her next turn. Her attack roll to intercept uses the same bonuses as the attack she chose to forgo during her previous action.</Pair>
+</Ability>
+<Ability id="arc-ranger-toxophilite-greater-intercept-ex" icon={["bowman"]}>
+<Pair single id="arc-ranger-toxophilite-greater-intercept-ex">Greater Intercept (Ex)</Pair>
+<Pair hl title="Replaces">Improved quarry</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Ability">Whenever a toxophilite successfully deflects an attack with her <em>intercept arrow</em> ability, she can redirect the attack against a target within 30 feet, using the intercepted attack's attack roll against the new target's AC.</Pair>
+</Ability>
 </>};
 const _transporter = {title: "Transporter", jsx: <><h2 id="arc-ranger-transporter-transporter">Transporter</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 43</Link><br/>Transporters specialize in smuggling people as efficiently as possible through harsh and difficult environments. Individuals such as escaped political exiles, refugees fleeing danger, and various criminals all seek the transporter's services. While some transporters actively work to serve justice or a political cause, others are wily opportunists filling a need and profiting from the high price that desperate people are willing to pay for safe, discrete passage.</p>
-<p><strong>Trailbreaker (Ex):</strong> A transporter constantly works to obscure his trail. He increases the Survival DC to track him, or a group of which he is a part, by an amount equal to half his ranger level (minimum 1). This does not stack with similar abilities, such as a traceless operative's trackless ability.</p>
-<p>This ability replaces <strong className="hl">wild empathy</strong>.</p>
-<p><strong>Plot Course (Ex):</strong> At 3rd level, a transporter can spend 1d4 hours and attempt a DC 15 Knowledge (geography) check to plot a subtle course of travel between his current location and another destination. The transporter's course of travel is almost never direct, as it is optimized for smuggling. Thereafter, the transporter gains a +2 bonus on initiative, Knowledge (geography), Perception, Stealth, and Survival checks involving traveling along his plotted course.</p>
-<p>At 8th level, if the transporter's Knowledge (geography) check exceeds the DC by 10, the bonuses increase to +4. At 13th level, if his Knowledge (geography) check exceeds the DC by 20, the bonuses increase to +6, and at 18th level, if the transporter's check exceeds the DC by 30, the bonuses increase to +8.</p>
-<p>A transporter can gain the benefits of only a single plotted course at any given time. If the transporter ever strays from the course or attempts to plot a new course for any reason, he loses the benefits of his current course immediately. A transporter can retry his Knowledge (geography) check to plot a course as long as he spends 1d4 hours each time.</p>
-<p>This ability replaces <strong className="hl">favored terrain</strong>.</p>
-<p><strong>Smuggler's Bond (Ex):</strong> At 4th level, a transporter must choose his allies as his hunter's bond, not an animal companion. Instead of granting the transporter's favored enemy bonus to his allies as a move action, he instead grants his plot course bonus to his allies constantly.</p>
-<p>This ability alters <strong className="hl">hunter's bond</strong>.</p>
-<p><strong>Hideaway (Ex):</strong> A transporter can spend 1 hour and attempt a DC 20 Survival check to create a hidden shelter, useful for staying unseen by patrols of enemy creatures. The transporter's shelter can hold the transporter and one additional creature for every 2 by which the transporter exceeds the DC. The created shelter incorporates scents from the local area, preventing creatures on the inside from being detected by the <Link to="/umr/scent">scent</Link> ability of creatures outside of the shelter, and vice versa. Additionally, its floor is either elevated or constructed of a different substance than the nearby ground, preventing creatures outside of the shelter from using <Link to="/umr/tremorsense">tremorsense</Link> to detect creatures inside, and vice versa. Finally, the clever structure of the hideaway causes creatures outside of the shelter to take a -10 penalty on Perception checks to notice creatures inside, as if through a 1-foot-thick wall, while only causing creatures inside to take a -2 penalty on Perception checks to notice creatures outside.</p>
-<p>These bonuses do not apply if the enemy creatures are intimately familiar with the area in which the hideaway was built (such as an area right near their home).</p>
-<p>This ability replaces <strong className="hl">woodland stride</strong>.</p>
-</>};
+<Ability id="arc-ranger-transporter-trailbreaker-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-transporter-trailbreaker-ex" flavor="A transporter constantly works to obscure his trail.">Trailbreaker (Ex)</Pair>
+<Pair hl title="Replaces">Wild empathy</Pair>
+<Pair title="Passive Ability">He increases the Survival DC to track him, or a group of which he is a part, by an amount equal to half his ranger level (minimum 1). This does not stack with similar abilities, such as a <Link to="/arc-inquisitor/traceless_operative">traceless operative's</Link> <em>trackless</em> ability.</Pair>
+</Ability>
+<Ability id="arc-ranger-transporter-plot-course-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-ranger-transporter-plot-course-ex">Plot Course (Ex)</Pair>
+<Pair hl title="Replaces">Favored terrain</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A transporter can spend 1d4 hours and attempt a DC 15 Knowledge (geography) check to plot a subtle course of travel between his current location and another destination. The transporter's course of travel is almost never direct, as it is optimized for smuggling. Thereafter, the transporter gains a +2 bonus on initiative, Knowledge (geography), Perception, Stealth, and Survival checks involving traveling along his plotted course.</Pair>
+<Pair title="At 8th Level">If the transporter's Knowledge (geography) check exceeds the DC by 10, the bonuses increase to +4.</Pair>
+<Pair title="At 13th Level">If the transporter's Knowledge (geography) check exceeds the DC by 20, the bonuses increase to +6.</Pair>
+<Pair title="At 18th Level">If the transporter's Knowledge (geography) check exceeds the DC by 30, the bonuses increase to +8.</Pair>
+<Pair title="Special">A transporter can gain the benefits of only a single plotted course at any given time. If the transporter ever strays from the course or attempts to plot a new course for any reason, he loses the benefits of his current course immediately. A transporter can retry his Knowledge (geography) check to plot a course as long as he spends 1d4 hours each time.</Pair>
+</Ability>
+<Ability id="arc-ranger-transporter-smugglers-bond-ex" icon={["broken-shield","upgrade"]}>
+<Pair single id="arc-ranger-transporter-smugglers-bond-ex">Smuggler's Bond (Ex)</Pair>
+<Pair hl title="Alters">Hunter's bond</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Info">A transporter must choose his allies as his <em>hunter's bond,</em> not an animal companion.</Pair>
+<Pair title="Passive Ability">Instead of granting the transporter's <em>favored enemy</em> bonus to his allies as a move action, he instead grants his <em>plot course</em> bonus to his allies constantly.</Pair>
+</Ability>
+<Ability id="arc-ranger-transporter-hideaway-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-transporter-hideaway-ex">Hideaway (Ex)</Pair>
+<Pair hl title="Replaces">Woodland stride</Pair>
+<Pair title="Ability">A transporter<sup><InnerLink showBacklink="backlink-arc-ranger-transporter-fake-fn-1" id="arc-ranger-transporter-fake-fn-1" data-hash-target to="arc-ranger-transporter-fake-fn-1-target">1</InnerLink></sup> can spend 1 hour and attempt a DC 20 Survival check to create a hidden shelter, useful for staying unseen by patrols of enemy creatures. The transporter's shelter can hold the transporter and one additional creature for every 2 by which the transporter exceeds the DC. The created shelter incorporates scents from the local area, preventing creatures on the inside from being detected by the <Link to="/umr/scent">scent</Link> ability of creatures outside of the shelter, and vice versa. Additionally, its floor is either elevated or constructed of a different substance than the nearby ground, preventing creatures outside of the shelter from using <Link to="/umr/tremorsense">tremorsense</Link> to detect creatures inside, and vice versa. Finally, the clever structure of the hideaway causes creatures outside of the shelter to take a -10 penalty on Perception checks to notice creatures inside, as if through a 1-foot-thick wall, while only causing creatures inside to take a -2 penalty on Perception checks to notice creatures outside.</Pair>
+<Pair title="Special">These bonuses do not apply if the enemy creatures are intimately familiar with the area in which the hideaway was built (such as an area right near their home).</Pair>
+</Ability>
+<section data-footnotes><h3 id="arc-ranger-transporter-label">Footnotes</h3><ol>
+<li id="arc-ranger-transporter-fake-fn-1-target"><p>There is no listed level at which this ability is granted. Given that it replaces a 7th-level ability, the intention was probably that this ability would also be gained at 7th level. Consult your GM. <InnerLink aria-label="Back to reference 1" id="backlink-arc-ranger-transporter-fake-fn-1" data-hash-target to="arc-ranger-transporter-fake-fn-1">↩</InnerLink></p></li>
+</ol></section></>};
 const _trapper = {title: "Trapper", jsx: <><h2 id="arc-ranger-trapper-trapper">Trapper</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 65</Link><br/>A trapper is a ranger who focuses exclusively on traps, rather than learning conventional magic. A trapper has the following class features.</p>
 <Ability icon={["skills"]} id="arc-ranger-trapper-undefined">
 <Pair id="arc-ranger-trapper-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair></Ability>
-<p><strong>Trapfinding:</strong> A trapper adds 1/2 her ranger level on Perception skill checks made to locate traps and on Disable Device skill checks (minimum +1). A trapper can use Disable Device to disarm magic traps.</p>
-<p><strong>Trap:</strong> At 5th level, a trapper learns how to create a <Link to="/rangertrap/snare_trap">snare trap</Link> and one other <Link to="/ability/ranger_traps">ranger trap</Link> of her choice. At 7th level and every two levels thereafter, she learns another trap. The trapper can use these traps a total number of times per day equal to 1/2 her ranger level + her Wisdom modifier. Once a trap is learned, it can't be unlearned and replaced with a different type of trap. The trapper cannot select an individual trap more than once.</p>
-<p>This ability replaces the ranger's <strong className="hl">spells</strong> class feature. Trappers do not gain any spells or spellcasting ability, do not have a caster level, and cannot use spell trigger and spell completion magic items.</p>
-<p><strong>Launch Trap:</strong> At 10th level, a trapper can affix a magical ranger trap to an arrow, crossbow bolt, or thrown weapon, allowing her to set the trap remotely or use it as a direct attack. Attaching the trap to the projectile is part of the full-round action of creating a new trap. The trapped projectile is fired or thrown in the normal manner. If fired at a square, the trap is treated as if the ranger had set the trap in that square, except the DC is 5 lower than normal. If fired at a creature, the target takes damage from the ranged weapon and is treated as if it had triggered the trap (saving throw applies, if any). The attack has a maximum range of 60 feet, and range increments apply to the attack roll. The duration of the trapped projectile starts from when it is created, not from when it is used.</p>
+<Ability id="arc-ranger-trapper-trapfinding" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-ranger-trapper-trapfinding">Trapfinding</Pair>
+<Pair title="Passive Ability">A trapper adds 1/2 her ranger level on Perception skill checks made to locate traps and on Disable Device skill checks (minimum +1).</Pair>
+<Pair title="Ability">A trapper can use Disable Device to disarm magic traps.</Pair>
+</Ability>
+<Ability id="arc-ranger-trapper-trap" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-trapper-trap">Trap</Pair>
+<Pair hl title="Replaces">Spellcasting ability</Pair>
+<Pair title="At 5th Level">A trapper learns how to create a <Link to="/rangertrap/snare_trap">snare trap</Link> and one other <Link to="/ability/ranger_traps">ranger trap</Link> of her choice.</Pair>
+<Pair title="At 7th Level">She learns another trap.</Pair>
+<Pair title="At 9th Level">She learns another trap.</Pair>
+<Pair title="At 11th Level">She learns another trap.</Pair>
+<Pair title="At 13th Level">She learns another trap.</Pair>
+<Pair title="At 15th Level">She learns another trap.</Pair>
+<Pair title="At 17th Level">She learns another trap.</Pair>
+<Pair title="At 19th Level">She learns another trap.</Pair>
+<Pair title="Special">The trapper can use these traps a total number of times per day equal to 1/2 her ranger level + her Wisdom modifier. Once a trap is learned, it can't be unlearned and replaced with a different type of trap. The trapper cannot select an individual trap more than once.</Pair>
+</Ability>
+<Ability id="arc-ranger-trapper-launch-trap" icon={["bowman"]}>
+<Pair single id="arc-ranger-trapper-launch-trap">Launch Trap</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">A trapper can affix a magical ranger trap to an arrow, crossbow bolt, or thrown weapon, allowing her to set the trap remotely or use it as a direct attack. Attaching the trap to the projectile is part of the <strong className="hl">full-round action</strong> of creating a new trap. The trapped projectile is fired or thrown in the normal manner. If fired at a square, the trap is treated as if the ranger had set the trap in that square, except the DC is 5 lower than normal. If fired at a creature, the target takes damage from the ranged weapon and is treated as if it had triggered the trap (saving throw applies, if any). The attack has a maximum range of 60 feet, and range increments apply to the attack roll.</Pair>
+<Pair title="Special">The duration of the trapped projectile starts from when it is created, not from when it is used.</Pair>
+</Ability>
 </>};
 const _trophy_hunter = {title: "Trophy Hunter", jsx: <><h2 id="arc-ranger-trophy_hunter-trophy-hunter">Trophy Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 67</Link><br/>Some rangers have taken up the mysteries of black powder in order to become big game hunters. Finding firearms useful for taking down large and dangerous prey, they enter the fight with the crack of black powder fire, often ranging far and wide in their safaris and searches for ever-more-dangerous denizens of the wild to track, study, appreciate - and kill. While this might strike some as going against the ranger's usual respect for nature and the creatures of the wild, trophy hunters understand that they are just more pieces in nature's grand puzzle, and that the laws of the jungle - the right to kill and feed on those weaker than you, and the need to establish dominance through cunning and bloodshed - are both their rights and their duty as the current top of the food chain.</p>
-<p><strong>Improved Tracking (Ex):</strong> At 1st level, a trophy hunter gains a +2 bonus on Survival skill checks when following or identifying tracks. When he tracks, he can also attempt a Knowledge (nature) check at DC 15. On a success, the trophy hunter can discern the type and condition of any animals or magical beasts he tracks. By studying their tracks, the trophy hunter is able to identify a rough approximation of their health, maneuverability, and their general behavior as compared to the norm.</p>
-<p>This ability replaces <strong className="hl">wild empathy</strong>.</p>
-<p><strong>Firearm Style:</strong> At 2nd level, a trophy hunter gains the <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat and <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (firearms), and can use any 1st-level <Link to="/ability/gunslinger_deeds">gunslinger deed</Link>. At every four levels thereafter, the trophy hunter can take a <Link to="/main/grit_feat">grit feat</Link> or select a gunslinger deed of his level or lower, ranger's choice.</p>
-<p>This ability replaces all <strong className="hl">combat style feats</strong>.</p>
-<p><strong>Hunter's Aim (Ex):</strong> At 4th level, a trophy hunter gains a specific understanding of the weaknesses and vulnerabilities of his favored enemies, and his careful study of these enemies reveals the best way to hurt them. When the trophy hunter makes a firearm attack against a favored enemy, he can target touch AC in the first two range increments of his firearm. This ability stacks with other effects that increase the range increments to target touch AC, adding one range increment to the effect.</p>
-<p>This ability replaces <strong className="hl">hunter's bond</strong>.</p>
+<Ability id="arc-ranger-trophy_hunter-improved-tracking-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-ranger-trophy_hunter-improved-tracking-ex">Improved Tracking (Ex)</Pair>
+<Pair hl title="Replaces">Wild empathy</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A trophy hunter gains a +2 bonus on Survival skill checks when following or identifying tracks. When he tracks, he can also attempt a Knowledge (nature) check at DC 15. On a success, the trophy hunter can discern the type and condition of any animals or magical beasts he tracks. By studying their tracks, the trophy hunter is able to identify a rough approximation of their health, maneuverability, and their general behavior as compared to the norm.</Pair>
+</Ability>
+<Ability id="arc-ranger-trophy_hunter-firearm-style" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-trophy_hunter-firearm-style">Firearm Style</Pair>
+<Pair hl title="Replaces">All combat style feats</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A trophy hunter gains the <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat and <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (firearms), and can use any 1st-level <Link to="/ability/gunslinger_deeds">gunslinger deed</Link>.</Pair>
+<Pair title="At 6th Level">The trophy hunter can take a <Link to="/main/grit_feat">grit feat</Link> or select a gunslinger deed of his level or lower, ranger's choice.</Pair>
+<Pair title="At 10th Level">The trophy hunter can take a <Link to="/main/grit_feat">grit feat</Link> or select a gunslinger deed of his level or lower, ranger's choice.</Pair>
+<Pair title="At 14th Level">The trophy hunter can take a <Link to="/main/grit_feat">grit feat</Link> or select a gunslinger deed of his level or lower, ranger's choice.</Pair>
+<Pair title="At 18th Level">The trophy hunter can take a <Link to="/main/grit_feat">grit feat</Link> or select a gunslinger deed of his level or lower, ranger's choice.</Pair>
+</Ability>
+<Ability id="arc-ranger-trophy_hunter-hunters-aim-ex" icon={["smoking-finger"]}>
+<Pair single id="arc-ranger-trophy_hunter-hunters-aim-ex" flavor={["A trophy hunter gains a specific understanding of the weaknesses and vulnerabilities of his ",{"tag":"em","content":"favored enemies,","props":{}}," and his careful study of these enemies reveals the best way to hurt them."]}>Hunter's Aim (Ex)</Pair>
+<Pair hl title="Replaces">Hunter's bond</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">When the trophy hunter makes a firearm attack against a <em>favored enemy,</em> he can target touch AC in the first two range increments of his firearm.</Pair>
+<Pair title="Special">This ability stacks with other effects that increase the range increments to target touch AC, adding one range increment to the effect.</Pair>
+</Ability>
 </>};
 const _urban_ranger = {title: "Urban Ranger", jsx: <><h2 id="arc-ranger-urban_ranger-urban-ranger">Urban Ranger</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 130</Link><br/>For the urban ranger, the streets and sewers of the city are just as dangerous as the barren wastelands or the deep forests. An urban ranger has the following class features.</p>
