@@ -340,13 +340,7 @@ const _ranger = {hasJL:true,title: "Ranger", jsx: <><div className="jumpList" id
 <Ability id="class-ranger-favored-terrain-ex" icon={["upgrade"]}>
 <Pair single id="class-ranger-favored-terrain-ex">Favored Terrain (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">You may select a type of terrain from the list below. You gain a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival skill checks when you are in this terrain. When traveling through your favored terrain, you leave no trail and cannot be tracked (though you may leave a trail if you so choose).</Pair>
-<Pair title="At 8th Level">You may select a new favorite terrain. The bonuses in any one favored terrain (including the one just selected, if so desired) increase by +2.</Pair>
-<Pair title="At 13th Level">You may select a new favorite terrain. The bonuses in any one favored terrain (including the one just selected, if so desired) increase by +2.</Pair>
-<Pair title="At 18th Level">You may select a new favorite terrain. The bonuses in any one favored terrain (including the one just selected, if so desired) increase by +2.</Pair>
-<Pair title="Special">If a specific terrain falls into more than one category of favored terrain, the ranger's bonuses do not stack; he simply uses whichever bonus is higher.</Pair>
-</Ability>
-<div className="columnar">
+<Pair title="Ability"><p>You may select a type of terrain from the list below. You gain a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival skill checks when you are in this terrain. When traveling through your favored terrain, you leave no trail and cannot be tracked (though you may leave a trail if you so choose).</p>
 <ul>
 <li>Cold (ice, glaciers, snow, and tundra)</li>
 <li>Desert (sand and wastelands)</li>
@@ -358,9 +352,14 @@ const _ranger = {hasJL:true,title: "Ranger", jsx: <><div className="jumpList" id
 <li>Swamp</li>
 <li>Underground (caves and dungeons)</li>
 <li>Urban (buildings, streets, and sewers)</li>
-<li>Water (above and below the surface) |</li>
+<li>Water (above and below the surface)</li>
 </ul>
-</div>
+</Pair>
+<Pair title="At 8th Level">You may select a new favorite terrain. The bonuses in any one favored terrain (including the one just selected, if so desired) increase by +2.</Pair>
+<Pair title="At 13th Level">You may select a new favorite terrain. The bonuses in any one favored terrain (including the one just selected, if so desired) increase by +2.</Pair>
+<Pair title="At 18th Level">You may select a new favorite terrain. The bonuses in any one favored terrain (including the one just selected, if so desired) increase by +2.</Pair>
+<Pair title="Special">If a specific terrain falls into more than one category of favored terrain, the ranger's bonuses do not stack; he simply uses whichever bonus is higher.</Pair>
+</Ability>
 <Ability id="class-ranger-hunters-bond-ex" extraClasses="hasSubs" icon={["upgrade"]}>
 <Pair single id="class-ranger-hunters-bond-ex">Hunter's Bond (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -372,11 +371,11 @@ const _ranger = {hasJL:true,title: "Ranger", jsx: <><div className="jumpList" id
 </Ability>
 <Ability id="class-ranger-animal-companion" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
 <Pair single id="class-ranger-animal-companion">Animal Companion</Pair>
-<Pair title="Ability">You select an <Link to="/sidekick/animal_companion">animal companion</Link> from the list below. This animal is a loyal companion that accompanies you on your adventures as appropriate for its kind. Your animal companion shares your favored enemy and favored terrain bonuses.</Pair>
+<Pair title="Ability"><p>You select an <Link to="/sidekick/animal_companion">animal companion</Link> from the list below. This animal is a loyal companion that accompanies you on your adventures as appropriate for its kind. Your animal companion shares your favored enemy and favored terrain bonuses.</p>
+<p><strong className="hl">List of possible companions:</strong> <Link to="/companion/antelope">Antelope</Link>, <Link to="/companion/armorfish">Armorfish</Link>, <Link to="/companion/baboon">Baboon</Link>, <Link to="/companion/badger">Badger</Link>, <Link to="/companion/bird">Bird (Eagle, Hawk, or Owl)</Link>, <Link to="/companion/bustard">Bustard</Link>, <Link to="/companion/camel">Camel</Link>, <Link to="/companion/capybara">Capybara</Link>, <Link to="/companion/cheetah">Cheetah</Link>, <Link to="/companion/constrictor_snake">Constrictor Snake</Link>, <Link to="/companion/dire_rat">Dire Rat</Link>, <Link to="/companion/dog">Dog</Link>, <Link to="/companion/elk">Elk</Link>, <Link to="/companion/falcon">Falcon</Link>, <Link to="/companion/giant_gecko">Giant Gecko</Link>, <Link to="/companion/hobbe_hound">Hobbe Hound</Link>, <Link to="/companion/horse">Horse</Link>, <Link to="/companion/kangaroo">Kangaroo</Link>, <Link to="/companion/leopard">Leopard</Link>, <Link to="/companion/marsupial_devil">Marsupial Devil</Link>, <Link to="/companion/pony">Pony</Link>, <Link to="/companion/ram">Ram</Link>, <Link to="/companion/reef_snake">Reef Snake</Link>, <Link to="/companion/reindeer">Reindeer</Link>, <Link to="/companion/shark">Shark</Link>, <Link to="/companion/spitting_cobra">Spitting Cobra</Link>, <Link to="/companion/stag">Stag</Link>, <Link to="/companion/stingray">Stingray</Link>, <Link to="/companion/trumpeter_swan">Swan, Trumpeter</Link>, <Link to="/companion/thylacine">Thylacine</Link>, <Link to="/companion/viper">Viper</Link>, <Link to="/companion/wolf">Wolf</Link>, <Link to="/companion/wolfdog">Wolfdog</Link>, <Link to="/companion/yak">Yak</Link>, <Link to="/companion/zebra">Zebra</Link>.</p><p>If the campaign takes place wholly or partly in an aquatic environment, you may choose from <strong className="hl">this list</strong> instead: <Link to="/companion/armorfish">Armorfish</Link>, <Link to="/companion/reef_snake">Reef Snake</Link>, <Link to="/companion/shark">Shark</Link>, <Link to="/companion/stingray">Stingray</Link>.</p>
+</Pair>
 <Pair title="Special">This ability functions like the druid <Link to="/ability/animal_companion">animal companion</Link> ability (which is part of the Nature Bond class feature), except that your effective druid level is equal to your ranger level - 3.</Pair>
 </Ability>
-<p><strong className="hl">List of possible companions:</strong> <Link to="/companion/antelope">Antelope</Link>, <Link to="/companion/armorfish">Armorfish</Link>, <Link to="/companion/baboon">Baboon</Link>, <Link to="/companion/badger">Badger</Link>, <Link to="/companion/bird">Bird (Eagle, Hawk, or Owl)</Link>, <Link to="/companion/bustard">Bustard</Link>, <Link to="/companion/camel">Camel</Link>, <Link to="/companion/capybara">Capybara</Link>, <Link to="/companion/cheetah">Cheetah</Link>, <Link to="/companion/constrictor_snake">Constrictor Snake</Link>, <Link to="/companion/dire_rat">Dire Rat</Link>, <Link to="/companion/dog">Dog</Link>, <Link to="/companion/elk">Elk</Link>, <Link to="/companion/falcon">Falcon</Link>, <Link to="/companion/giant_gecko">Giant Gecko</Link>, <Link to="/companion/hobbe_hound">Hobbe Hound</Link>, <Link to="/companion/horse">Horse</Link>, <Link to="/companion/kangaroo">Kangaroo</Link>, <Link to="/companion/leopard">Leopard</Link>, <Link to="/companion/marsupial_devil">Marsupial Devil</Link>, <Link to="/companion/pony">Pony</Link>, <Link to="/companion/ram">Ram</Link>, <Link to="/companion/reef_snake">Reef Snake</Link>, <Link to="/companion/reindeer">Reindeer</Link>, <Link to="/companion/shark">Shark</Link>, <Link to="/companion/spitting_cobra">Spitting Cobra</Link>, <Link to="/companion/stag">Stag</Link>, <Link to="/companion/stingray">Stingray</Link>, <Link to="/companion/trumpeter_swan">Swan, Trumpeter</Link>, <Link to="/companion/thylacine">Thylacine</Link>, <Link to="/companion/viper">Viper</Link>, <Link to="/companion/wolf">Wolf</Link>, <Link to="/companion/wolfdog">Wolfdog</Link>, <Link to="/companion/yak">Yak</Link>, <Link to="/companion/zebra">Zebra</Link>.</p>
-<p>If the campaign takes place wholly or partly in an aquatic environment, you may choose from <strong className="hl">this list</strong> instead: <Link to="/companion/armorfish">Armorfish</Link>, <Link to="/companion/reef_snake">Reef Snake</Link>, <Link to="/companion/shark">Shark</Link>, <Link to="/companion/stingray">Stingray</Link>.</p>
 <Ability id="class-ranger-spells" icon={["magic-swirl"]}>
 <Pair single id="class-ranger-spells">Spells</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -2139,7 +2138,7 @@ const _barbarian = {hasJL:true,title: "Barbarian", jsx: <><div className="jumpLi
 <Pair title="Passive Ability">Your land speed is faster than the norm for your race by +10 feet.</Pair>
 <Pair title="Special">This benefit applies only when you are wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying your speed because of any load carried or armor worn. This bonus stacks with any other bonuses to your land speed.</Pair>
 </Ability>
-<Ability id="class-barbarian-rage-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="class-barbarian-rage-ex" icon={["upgrade","broken-shield"]}>
 <Pair single id="class-barbarian-rage-ex" flavor="A barbarian can call upon inner reserves of strength and ferocity, granting her additional combat prowess.">Rage (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">2 rounds/day + double your barbarian level + your Constitution modifier</Pair>
