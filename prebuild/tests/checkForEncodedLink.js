@@ -160,13 +160,16 @@ export const convertTextToLink = (input) => {
 
 export const convertSpecialTextToLink = (input) => {
 	let m, matched = input;
+	let linkpre = "", linkpost = "";
 	// pre_>link
 	if(m = matched.match(/(^[^<]*?)>(.*$)/)) {
+		linkpre = m[1];
 		matched = m[2];
 	}
 	// post<_link
 	if(m = matched.match(/(^.*)<([^>]*$)/)) {
 		matched = m[1];
+		linkpost = m[2];
 	}
 	// pre»text
 	if(m = matched.match(/(^[^«]*?)»(.*$)/)) {
@@ -186,7 +189,7 @@ export const convertSpecialTextToLink = (input) => {
 		temp = post;
 	}
 	linkmatched = linkmatched + temp;
-	return convertTextToLink(linkmatched);
+	return convertTextToLink(linkpre + linkmatched + linkpost);
 };
 
 export const getCleanText = (input) => {
