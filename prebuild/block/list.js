@@ -1,4 +1,4 @@
-import { convertTextToLink } from '../tests/checkForEncodedLink.js';
+import { convertTextToLink, convertSpecialTextToLink, getCleanText } from '../tests/checkForEncodedLink.js';
 
 // ::list[Header]{all="one~two|parenthetical~three..." link="protocol" and?="and" hl? sep?="~" comma?=", "}
 export const makeListBlock = ({
@@ -10,8 +10,10 @@ export const makeListBlock = ({
 }) => {
 	const {
 		all, link, and, hl, em,
+		end = "",
 		sep = "~",
-		comma = ", "
+		comma = ", ",
+		special
 	} = attrs;
 	//
 	// SANITY CHECK
@@ -25,14 +27,16 @@ export const makeListBlock = ({
 	// HEADER
 	//
 	const head = `${maybeClear}${inline ? "" : "<p>"}<strong${hl ? ` className="hl"` : ""}>${em ? "<em>" : ""}${text}:${em ? "</em>" : ""}</strong>`;
-	const tail = inline ? "" : "</p>";
+	const tail = end + (inline ? "" : "</p>");
 	//
 	// CONSTRUCT LINKS
 	//
+	const func = special ? convertSpecialTextToLink : convertTextToLink
+	const func2 = special ? getCleanText : (x) => x;
 	const output = all.split(sep).map(item => {
 		const [base, parens] = item.split(/\|/);
 		const extra = parens ? ` (${parens})` : "";
-		return `<Link to="/${link}/${convertTextToLink(base)}">${base}</Link>${extra}`;
+		return `<Link to="/${link}/${func(base)}">${func2(base)}</Link>${extra}`;
 	});
 	if(and) {
 		// Return list with 'and' if needed
