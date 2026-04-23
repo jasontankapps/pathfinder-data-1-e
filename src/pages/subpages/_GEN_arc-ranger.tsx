@@ -2121,125 +2121,348 @@ const _trophy_hunter = {title: "Trophy Hunter", jsx: <><h2 id="arc-ranger-trophy
 </>};
 const _urban_ranger = {title: "Urban Ranger", jsx: <><h2 id="arc-ranger-urban_ranger-urban-ranger">Urban Ranger</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 130</Link><br/>For the urban ranger, the streets and sewers of the city are just as dangerous as the barren wastelands or the deep forests. An urban ranger has the following class features.</p>
-<p><strong>Urban Ranger:</strong> At 1st level, an urban ranger adds Disable Device and Knowledge (local) to his list of class skills and removes Handle Animal and Knowledge (nature) from his list of class skills.</p>
-<p><strong>Favored Community (Ex):</strong> At 3rd level, the urban ranger forms a bond with a community. While inside the limits of this community, he gains a +2 bonus on initiative checks and Knowledge (local), Perception, Stealth, and Survival skill checks. An urban ranger traveling through his favored community leaves no trail and cannot be tracked (although he may leave a trail if he so desires).</p>
-<p>At 8th level, and every five levels thereafter, an urban ranger may select an additional favored community. In addition, at each such interval, the skill bonus and initiative bonus in any one favored community (including the one just selected, if so desired) increases by +2.</p>
-<p>For the purposes of this ability, a community is any settlement consisting of 100 or more individuals. The community may be larger than this minimum. Outlying farms, fields, and houses are not considered part of a community.</p>
-<p>This ability replaces <strong className="hl">favored terrain</strong>.</p>
-<p><strong>Trapfinding (Ex):</strong> At 3rd level, an urban ranger can find and disable traps, as the rogue class feature of the <Link to="/ability/trapfinding">same name</Link>.</p>
-<p>This ability replaces <strong className="hl">endurance</strong>.</p>
-<p><strong>Push Through (Ex):</strong> At 7th level, an urban ranger is never slowed by <Link to="/rule/difficult_terrain">difficult terrain</Link> in his favored communities. In addition, he can move through the space occupied by local citizens as if they were allies. This does not apply to creatures intent on harming the ranger. Areas that are enchanted or magically manipulated to impede motion, however, still affect him.</p>
-<p>This replaces <strong className="hl">woodland stride</strong>.</p>
-<p><strong>Blend In (Ex):</strong> An urban ranger of 12th level or higher can use his Stealth bonus in place of a Disguise skill check in any of his favored communities. This disguise does not take an action to don. He must make a check whenever someone attempts to pick him out from the local citizens. If his check is successful, he blends into the crowd. While not invisible, enemies do not notice his presence and take no actions against him unless they are taking actions against the local citizens in general.</p>
-<p>This replaces <strong className="hl">camouflage</strong>.</p>
-<p><strong>Invisibility Trick (Sp):</strong> At 17th level, the urban ranger can cast <Link to="/spell/greater_invisibility">greater invisibility</Link> on himself as a wizard of his ranger level as a swift action. He can use this spell-like ability a number of times per day equal to his Wisdom modifier (minimum 1).</p>
-<p>This ability replaces <strong className="hl">hide in plain sight</strong>.</p>
+<Ability icon={["skills"]} id="arc-ranger-urban_ranger-undefined">
+<Pair id="arc-ranger-urban_ranger-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Handle Animal, Knowledge (nature)</Pair></Ability>
+<Ability id="arc-ranger-urban_ranger-favored-community-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-urban_ranger-favored-community-ex">Favored Community (Ex)</Pair>
+<Pair hl title="Replaces">Favored terrain</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">The urban ranger forms a bond with a community. While inside the limits of this community, he gains a +2 bonus on initiative checks and Knowledge (local), Perception, Stealth, and Survival skill checks. An urban ranger traveling through his favored community leaves no trail and cannot be tracked (although he may leave a trail if he so desires).</Pair>
+<Pair title="At 8th Level">An urban ranger may select an additional favored community. In addition, the skill bonus and initiative bonus in any one favored community (including the one just selected, if so desired) increases by +2.</Pair>
+<Pair title="At 13th Level">An urban ranger may select an additional favored community. In addition, the skill bonus and initiative bonus in any one favored community (including the one just selected, if so desired) increases by +2.</Pair>
+<Pair title="At 18th Level">An urban ranger may select an additional favored community. In addition, the skill bonus and initiative bonus in any one favored community (including the one just selected, if so desired) increases by +2.</Pair>
+<Pair title="Special">For the purposes of this ability, a community is any settlement consisting of 100 or more individuals. The community may be larger than this minimum. Outlying farms, fields, and houses are not considered part of a community.</Pair>
+</Ability>
+<Ability id="arc-ranger-urban_ranger-trapfinding-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-urban_ranger-trapfinding-ex">Trapfinding (Ex)</Pair>
+<Pair hl title="Replaces">Endurance</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">An urban ranger can find and disable traps, as the rogue class feature of the <Link to="/ability/trapfinding">same name</Link>.</Pair>
+</Ability>
+<Ability id="arc-ranger-urban_ranger-push-through-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-urban_ranger-push-through-ex">Push Through (Ex)</Pair>
+<Pair hl title="Replaces">Woodland stride</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">An urban ranger is never slowed by <Link to="/rule/difficult_terrain">difficult terrain</Link> in his favored communities. In addition, he can move through the space occupied by local citizens as if they were allies. This does not apply to creatures intent on harming the ranger. Areas that are enchanted or magically manipulated to impede motion, however, still affect him.</Pair>
+</Ability>
+<Ability id="arc-ranger-urban_ranger-blend-in-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-ranger-urban_ranger-blend-in-ex">Blend In (Ex)</Pair>
+<Pair hl title="Replaces">Camouflage</Pair>
+<Pair title="At 12th Level">An urban ranger of 12th level or higher can use his Stealth bonus in place of a Disguise skill check in any of his favored communities. This disguise does not take an action to don. He must make a check whenever someone attempts to pick him out from the local citizens. If his check is successful, he blends into the crowd. While not invisible, enemies do not notice his presence and take no actions against him unless they are taking actions against the local citizens in general.</Pair>
+</Ability>
+<Ability id="arc-ranger-urban_ranger-invisibility-trick-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-ranger-urban_ranger-invisibility-trick-sp">Invisibility Trick (Sp)</Pair>
+<Pair hl title="Replaces">Hide in plain sight</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Usage">Wisdom modifier times/day (minimum 1)</Pair>
+<Pair title="Swift Action">The urban ranger can cast <Link to="/spell/greater_invisibility">greater invisibility</Link> on himself as a wizard of his ranger level.</Pair>
+</Ability>
 </>};
 const _warden = {title: "Warden", jsx: <><h2 id="arc-ranger-warden-warden">Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 68</Link><br/>All rangers have a bond with the wilderness, but the warden may have the strongest. This protector sits guard in the middle of the wilderness, keeping a lookout for any dangers that might spill from the deeper wilderness beyond, and protecting civilization from the savagery of nature - and vice versa. His long weeks, months, and sometimes years of isolation cause him to "hear" what the land is saying. Not all are crazy.</p>
-<p><strong>Master of Terrain (Ex):</strong> At 1st level, a warden selects his first favored terrain. He gains another one at 3rd level, and then every five levels thereafter (for a maximum of five favored terrains at 18th level).</p>
-<p>This ability replaces the ranger's first <strong className="hl">favored enemy</strong> ability.</p>
-<p><strong>Live in Comfort (Ex):</strong> At 2nd level, a warden is truly at home within his favored terrains. He knows all the signs of the wilderness. He rarely gets lost. He can easily live off the land in comfort, and can provide for companions. The warden can take 10 on any Survival check involving any of his favored terrains, even when in immediate danger and distracted. If the warden is not in immediate danger and distracted, he can take 20 even if the check has a penalty for failure.</p>
-<p>This ability replaces all <strong className="hl">combat style feats</strong>.</p>
-<p><strong>Terrain Bond (Ex):</strong> At 4th level, a warden forms a bond with the land itself, enabling him to direct others in such terrain. When in his favored terrain, the warden grants all allies within line of sight and that can hear him a +2 bonus on initiative checks and Perception, Stealth, and Survival skill checks. Also, as long as they travel with him, the warden's allies leave no trail and can't be tracked. The warden can choose for the group to leave a trail, or even for specific members of the group to leave a trail if he so desires.</p>
-<p>This ability replaces <strong className="hl">hunter's bond</strong>.</p>
-<p><strong>Able Explorer (Ex):</strong> At 5th level, when making an Acrobatics, Climb, Fly, Ride, or Swim check in any of his favored terrains, a warden can make two skill checks and take the higher.</p>
-<p>This ability replaces the ranger's second, third, and fourth <strong className="hl">favored enemies</strong>.</p>
-<p><strong>Wilderness Whispers (Su):</strong> At 20th level, a warden cannot be surprised and always acts as if he had rolled a natural 20 on any initiative check while within any of his favored terrains. A warden can always move at full speed while using Survival to follow tracks without penalty.</p>
-<p>This ability replaces the ranger's fifth <strong className="hl">favorite enemy</strong> and <strong className="hl">master hunter</strong>.</p>
+<Ability id="arc-ranger-warden-master-of-terrain-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-warden-master-of-terrain-ex">Master of Terrain (Ex)</Pair>
+<Pair hl title="Replaces">1st favored enemy</Pair>
+<Pair title="At 1st Level">A warden selects his first <em>favored terrain.</em></Pair>
+<Pair title="At 3rd Level">He gains another favored terrain.</Pair>
+<Pair title="At 8th Level">He gains another favored terrain.</Pair>
+<Pair title="At 13th Level">He gains another favored terrain.</Pair>
+<Pair title="At 18th Level">He gains another favored terrain.</Pair>
+</Ability>
+<Ability id="arc-ranger-warden-live-in-comfort-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-warden-live-in-comfort-ex">Live in Comfort (Ex)</Pair>
+<Pair hl title="Replaces">All combat style feats</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Info">A warden is truly at home within his <em>favored terrains.</em> He knows all the signs of the wilderness. He rarely gets lost. He can easily live off the land in comfort, and can provide for companions.</Pair>
+<Pair title="Ability">The warden can take 10 on any Survival check involving any of his <em>favored terrains,</em> even when in immediate danger and distracted. If the warden is not in immediate danger and distracted, he can take 20 even if the check has a penalty for failure.</Pair>
+</Ability>
+<Ability id="arc-ranger-warden-terrain-bond-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-ranger-warden-terrain-bond-ex" flavor="A warden forms a bond with the land itself, enabling him to direct others in such terrain.">Terrain Bond (Ex)</Pair>
+<Pair hl title="Replaces">Hunter's bond</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">When in his <em>favored terrain,</em> the warden grants all allies within line of sight and that can hear him a +2 bonus on initiative checks and Perception, Stealth, and Survival skill checks. Also, as long as they travel with him, the warden's allies leave no trail and can't be tracked. The warden can choose for the group to leave a trail, or even for specific members of the group to leave a trail if he so desires.</Pair>
+</Ability>
+<Ability id="arc-ranger-warden-able-explorer-ex" icon={["rolling-dices"]}>
+<Pair single id="arc-ranger-warden-able-explorer-ex">Able Explorer (Ex)</Pair>
+<Pair hl title="Replaces">2nd, 3rd, and 4th favored enemies</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Passive Ability">When making an Acrobatics, Climb, Fly, Ride, or Swim check in any of his <em>favored terrains,</em> a warden can make two skill checks and take the higher.</Pair>
+</Ability>
+<Ability id="arc-ranger-warden-wilderness-whispers-su" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="arc-ranger-warden-wilderness-whispers-su">Wilderness Whispers (Su)</Pair>
+<Pair hl title="Replaces">5th favored enemy, master hunter</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">A warden cannot be surprised and always acts as if he had rolled a natural 20 on any initiative check while within any of his <em>favored terrains.</em> A warden can always move at full speed while using Survival to follow tracks without penalty.</Pair>
+</Ability>
 </>};
 const _wave_warden = {title: "Wave Warden", jsx: <><h2 id="arc-ranger-wave_warden-wave-warden">Wave Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 194</Link><br/>The wave warden patrols beneath the sea, preserving the safety and secrets of merfolk communities. Though he fares best beneath the water, dry land is no haven to his quarry.</p>
-<p><strong>Deep Sentinel (Ex):</strong> A wave warden adds half his level (minimum +1) on Perception checks made to notice creatures underwater.</p>
-<p>This ability replaces <strong className="hl">track</strong>.</p>
-<p><strong>Aquatic Prowess Feat (Ex):</strong> At 2nd level and every four levels thereafter, a wave warden selects a bonus feat that improves his prowess in aquatic environments. He can choose these feats even if he does not meet the prerequisites. Initially, he may choose from the following feats: <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/net_adept">Net Adept</Link>, <Link to="/feat/net_and_trident">Net and Trident</Link>, <Link to="/feat/net_maneuvering">Net Maneuvering</Link>, <Link to="/feat/precise_shot">Precise Shot</Link>, <Link to="/feat/rapid_reload">Rapid Reload</Link>, <Link to="/feat/sea_hunter">Sea Hunter</Link>, and <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link>. At 6th level, he adds <Link to="/feat/improved_two_weapon_fighting">Improved Two-Weapon Fighting</Link>, <Link to="/feat/net_trickery">Net Trickery</Link>, and <Link to="/feat/spring_attack">Spring Attack</Link> to the list. At 10th level, he adds <Link to="/feat/greater_two_weapon_fighting">Greater Two-Weapon Fighting</Link> and <Link to="/feat/improved_precise_shot">Improved Precise Shot</Link> to the list. This ability otherwise functions like and replaces the standard ranger's combat style bonus feats, including the limitations on armor worn.</p>
-<p><strong>Favored Terrain (Ex):</strong> At 3rd level, a wave warden gains water as a favored terrain. At 8th level and every five levels thereafter, his bonus in aquatic terrain increases by +2. He does not gain additional favored terrains. This otherwise functions like the standard ranger's favored terrain ability and replaces that ability.</p>
-<p><strong>Seaborn (Ex):</strong> At 7th level, a wave warden may move through any sort of aquatic growth (such as coral or seaweed) or across a wet surface at his normal speed and without taking damage or suffering any other impairment. Obstacles that are enchanted or magically manipulated to impede motion still affect him.</p>
-<p>This ability replaces <strong className="hl">woodland stride</strong>.</p>
-<p><strong>Watery Summons (Sp):</strong> At 8th level, a wave warden can summon allies once per day as a full-round action. This functions as <Link to="/spell/summon_natures_ally_iii">summon nature's ally III</Link>, except it can only be used to summon creatures with the aquatic or water subtypes. At 11th level, this ability improves to <Link to="/spell/summon_natures_ally_iv">summon nature's ally IV</Link>, with this progression continuing every three levels thereafter. The warden's caster level is equal to his ranger level.</p>
-<p>This ability replaces <strong className="hl">swift tracker</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-wave_warden--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/merfolk">Merfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-ranger-wave_warden-deep-sentinel-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-wave_warden-deep-sentinel-ex">Deep Sentinel (Ex)</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair title="Passive Ability">A wave warden adds half his level (minimum +1) on Perception checks made to notice creatures underwater.</Pair>
+</Ability>
+<Ability id="arc-ranger-wave_warden-aquatic-prowess-feat-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-wave_warden-aquatic-prowess-feat-ex">Aquatic Prowess Feat (Ex)</Pair>
+<Pair hl title="Replaces">All combat style bonus feats</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">And every four levels thereafter, a wave warden selects a bonus feat that improves his prowess in aquatic environments. He can choose these feats even if he does not meet the prerequisites. Initially, he may choose from the following feats: <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/net_adept">Net Adept</Link>, <Link to="/feat/net_and_trident">Net and Trident</Link>, <Link to="/feat/net_maneuvering">Net Maneuvering</Link>, <Link to="/feat/precise_shot">Precise Shot</Link>, <Link to="/feat/rapid_reload">Rapid Reload</Link>, <Link to="/feat/sea_hunter">Sea Hunter</Link>, and <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link>.</Pair>
+<Pair title="At 6th Level">He can select another bonus feat, following the rules above. He adds <Link to="/feat/improved_two_weapon_fighting">Improved Two-Weapon Fighting</Link>, <Link to="/feat/net_trickery">Net Trickery</Link>, and <Link to="/feat/spring_attack">Spring Attack</Link> to the list of feats.</Pair>
+<Pair title="At 10th Level">He can select another bonus feat, following the rules above. He adds <Link to="/feat/greater_two_weapon_fighting">Greater Two-Weapon Fighting</Link> and <Link to="/feat/improved_precise_shot">Improved Precise Shot</Link> to the list.</Pair>
+<Pair title="At 14th Level">He can select another bonus feat, following the rules above.</Pair>
+<Pair title="At 18th Level">He can select another bonus feat, following the rules above.</Pair>
+<Pair title="Special">This ability otherwise functions like and replaces the standard ranger's combat style bonus feats, including the limitations on armor worn.</Pair>
+</Ability>
+<Ability id="arc-ranger-wave_warden-favored-terrain-ex" icon={["broken-shield"]}>
+<Pair single id="arc-ranger-wave_warden-favored-terrain-ex">Favored Terrain (Ex)</Pair>
+<Pair hl title="Replaces">Favored terrain</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A wave warden gains water as a <em>favored terrain.</em> He does not gain additional <em>favored terrains.</em> This otherwise functions like the standard ranger's <em>favored terrain</em> ability and replaces that ability.</Pair>
+<Pair title="At 8th Level">His bonus in aquatic terrain increases by +2.</Pair>
+<Pair title="At 13th Level">His bonus in aquatic terrain increases by +2.</Pair>
+<Pair title="At 18th Level">His bonus in aquatic terrain increases by +2.</Pair>
+</Ability>
+<Ability id="arc-ranger-wave_warden-seaborn-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-wave_warden-seaborn-ex">Seaborn (Ex)</Pair>
+<Pair hl title="Replaces">Woodland stride</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A wave warden may move through any sort of aquatic growth (such as coral or seaweed) or across a wet surface at his normal speed and without taking damage or suffering any other impairment. Obstacles that are enchanted or magically manipulated to impede motion still affect him.</Pair>
+</Ability>
+<Ability id="arc-ranger-wave_warden-watery-summons-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-ranger-wave_warden-watery-summons-sp">Watery Summons (Sp)</Pair>
+<Pair hl title="Replaces">Swift tracker</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Full-Round Action">A wave warden can summon allies once per day. This functions as <Link to="/spell/summon_natures_ally_iii">summon nature's ally III</Link>, except it can only be used to summon creatures with the aquatic or water subtypes. The warden's caster level is equal to his ranger level.</Pair>
+<Pair title="At 14th Level">This ability improves to <Link to="/spell/summon_natures_ally_iv">summon nature's ally IV</Link>.</Pair>
+<Pair title="At 17th Level">This ability improves to <Link to="/spell/summon_natures_ally_v">summon nature's ally V</Link>.</Pair>
+<Pair title="At 20th Level">This ability improves to <Link to="/spell/summon_natures_ally_vi">summon nature's ally VI</Link>.</Pair>
+</Ability>
 </>};
 const _wild_hunter = {title: "Wild Hunter", jsx: <><h2 id="arc-ranger-wild_hunter-wild-hunter">Wild Hunter</h2>
-<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 108</Link><br/>A wild hunter seeks to emulate the animals around him to keep him safe while he tracks his prey. Instead of studying the traits and behaviors of a favored enemy, a wild hunter studies those of various animals, incorporating those attributes into his hunting strategy.</p>
-<p><strong>Animal Focus (Su):</strong> At 1st level, as a swift action a wild hunter can take on the <Link to="/ability/animal_foci">aspect of an animal</Link>, gaining a bonus or special ability based on the type of animal emulated. This functions as the hunter's <Link to="/ability/animal_focus">animal focus</Link> class feature, though this only applies to the wild hunter and not an animal companion (see shared focus, below). The wild hunter can use this ability for 1 minute per day per ranger level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. He can only emulate one animal at a time.</p>
-<p>This ability replaces all instances of the <strong className="hl">favored enemy</strong> class ability.</p>
-<p><strong>Shared Focus (Su):</strong> At 7th level, a wild hunter can share his current animal focus with one creature appropriate to his hunter's bond. If the wild hunter's bond is with an animal companion, the companion automatically gains the benefits of the wild hunter's current animal focus. If the wild hunter's bond is with his companions, as a swift action he can select one bonded ally to gain the benefits of the hunter's current animal focus; this lasts until the hunter's bond ends, the animal focus ends for the wild hunter, or the wild hunter selects a different companion.</p>
-<p>This ability replaces <strong className="hl">woodland stride</strong> and <strong className="hl">swift tracker</strong>.</p>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 108</Link><br/>A wild hunter seeks to emulate the animals around him to keep him safe while he tracks his prey. Instead of studying the traits and behaviors of a <em>favored enemy,</em> a wild hunter studies those of various animals, incorporating those attributes into his hunting strategy.</p>
+<Ability id="arc-ranger-wild_hunter-animal-focus-su" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-wild_hunter-animal-focus-su">Animal Focus (Su)</Pair>
+<Pair hl title="Replaces">Favored enemy</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">1 minute/day per ranger level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Swift Action">A wild hunter can take on the <Link to="/ability/animal_foci">aspect of an animal</Link>, gaining a bonus or special ability based on the type of animal emulated. This functions as the hunter's <em>animal focus</em> class feature, though this only applies to the wild hunter and not an animal companion (see <em>shared focus,</em> below).</Pair>
+<Pair title="Special">He can only emulate one animal at a time.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_hunter-shared-focus-su" icon={["upgrade"]}>
+<Pair single id="arc-ranger-wild_hunter-shared-focus-su">Shared Focus (Su)</Pair>
+<Pair hl title="Replaces">Woodland stride, swift tracker</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A wild hunter can share his current animal focus with one creature appropriate to his <em>hunter's bond.</em> If the wild <em>hunter's bond</em> is with an animal companion, the companion automatically gains the benefits of the wild hunter's current animal focus. If the wild <em>hunter's bond</em> is with his companions, as a <strong className="hl">swift action</strong> he can select one bonded ally to gain the benefits of the hunter's current animal focus; this lasts until the <em>hunter's bond</em> ends, the animal focus ends for the wild hunter, or the wild hunter selects a different companion.</Pair>
+</Ability>
 </>};
 const _wild_shadow = {title: "Wild Shadow", jsx: <><h2 id="arc-ranger-wild_shadow-wild-shadow">Wild Shadow</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 45</Link><br/>The isolation that some <Link to="/race/half_elves">half-elves</Link> feel leads them to live a life of isolation amid the wild places of the world. Such rangers stalk the wild like shadows, creating close bonds with the wild itself instead of seeking the solace and aid of companions. While ill at ease within cities and other urban areas, they are adept at using the terrain to tactical advantage; they dart through brambles and rough terrain with uncommon grace and use the land itself to lock down enemies. A wild shadow has the following class features.</p>
-<p><strong>Wild at Heart (Ex):</strong> At 1st level, a wild shadow adds only 1/2 his class level when making wild empathy checks while in urban areas, and adds only 1/4 his class level to follow or identify tracks in such areas. In non-urban settings, he is considered two levels higher when determining the bonuses for such checks.</p>
-<p>This ability alters the <strong className="hl">track</strong> and <strong className="hl">wild empathy</strong> class features.</p>
-<p><strong>Favored Terrain (Ex):</strong> At 3rd level, when a wild shadow chooses a favored terrain, he cannot choose urban as the terrain type. Furthermore, at 8th level and every five levels thereafter, when he chooses a new favorite terrain type, he cannot choose the urban terrain type.</p>
-<p>This ability alters the <strong className="hl">favored terrain</strong> class feature.</p>
-<p><strong>Woodland Stride (Ex):</strong> This ability functions as the 7th-level ranger class feature of the same name, but the wild shadow gains it at 4th level instead.</p>
-<p>This ability replaces the <strong className="hl">hunter's bond</strong> class feature.</p>
-<p><strong>Unfettered Step (Ex):</strong> At 7th level, a wild shadow's woodland stride class feature functions in any <Link to="/rule/difficult_terrain">difficult terrain</Link> within any of his favored terrains, even in areas that are enchanted or magically manipulated to impede motion.</p>
-<p>This ability replaces the ranger's <strong className="hl">woodland stride</strong> class feature gained at 7th level.</p>
-<p><strong>Harrying Attack (Ex):</strong> At 11th level, a wild shadow can use his knowledge of terrain to make shrewd attacks in combat. Such attacks can make foes fumble or cause them to become entangled within areas of the wild shadow's favored terrain. As a standard action, the wild shadow denotes one target within line of sight and within one of his favored terrains as his harried prey. Once the foe is so designated, every time the wild shadow hits this harried prey with a melee or ranged weapon attack (either manufactured or natural), that creature is entangled for 1 round. A wild shadow can have no more than one harried prey at a time and that creature must correspond to one of his favored enemy types. He can dismiss this effect at any time as a free action, be he cannot select a new harried prey for 24 hours. If the wild shadow sees proof that his harried prey is dead, he can select a new harried prey after waiting 1 hour.</p>
-<p>This ability replaces the <strong className="hl">quarry</strong> class feature.</p>
-<p><strong>Wild Stalker (Ex):</strong> At 14th level, a wild shadow learns to better use natural surroundings to obscure his position in combat. Whenever a wild shadow is within one of his favored terrains and a feature of that terrain grants him cover, the bonuses to AC and Reflex saves for that cover improve by 1. Additionally, while he is within one of his favored terrains, if he gains <Link to="/rule/concealment">concealment</Link> or total concealment, the miss chance of either type of concealment improves by 10%. Furthermore, at 16th level and 19th level, the bonuses granted by cover increase by 1 and the miss chance increases by another 10% (maximum +3 and +30% respectively at 20th level).</p>
-<p>This ability replaces the <strong className="hl">camouflage</strong> class feature.</p>
-<p><strong>Master of Terrain (Ex):</strong> At 19th level, a wild shadow can use his harrying attack against creatures other than his favored enemy or he can spend a standard action to designate up to two of his favored enemies as his harried prey instead.</p>
-<p>This ability replaces the <strong className="hl">improved quarry</strong> class feature.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-wild_shadow--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/half_elf">Half-elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-ranger-wild_shadow-wild-at-heart-ex" icon={["broken-shield","upgrade"]}>
+<Pair single id="arc-ranger-wild_shadow-wild-at-heart-ex">Wild at Heart (Ex)</Pair>
+<Pair hl title="Alters">Track, wild empathy</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">A wild shadow adds only 1/2 his class level when making <em>wild empathy</em> checks while in urban areas, and adds only 1/4 his class level to follow or identify tracks in such areas. In non-urban settings, he is considered two levels higher when determining the bonuses for such checks.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_shadow-favored-terrain-ex" icon={["broken-shield"]}>
+<Pair single id="arc-ranger-wild_shadow-favored-terrain-ex">Favored Terrain (Ex)</Pair>
+<Pair hl title="Alters">Favored terrain</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Info">When a wild shadow chooses a <em>favored terrain,</em> he cannot choose urban as the terrain type. Furthermore, when he chooses a new <em>favored terrain</em> type, he cannot choose the urban terrain type.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_shadow-woodland-stride-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-wild_shadow-woodland-stride-ex">Woodland Stride (Ex)</Pair>
+<Pair hl title="Replaces">Hunter's bond</Pair>
+<Pair title="At 4th Level">This ability functions as the 7th-level ranger class feature <Link to="/ability/woodland_stride">of the same name</Link>, but the wild shadow gains it at 4th level instead.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_shadow-unfettered-step-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-wild_shadow-unfettered-step-ex">Unfettered Step (Ex)</Pair>
+<Pair hl title="Replaces">Woodland stride</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A wild shadow's <em>woodland stride</em> class feature functions in any <Link to="/rule/difficult_terrain">difficult terrain</Link> within any of his <em>favored terrains,</em> even in areas that are enchanted or magically manipulated to impede motion.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_shadow-harrying-attack-ex" icon={["stairs-goal","armor-downgrade"]}>
+<Pair single id="arc-ranger-wild_shadow-harrying-attack-ex" flavor={["A wild shadow can use his knowledge of terrain to make shrewd attacks in combat. Such attacks can make foes fumble or cause them to become entangled within areas of the wild shadow's ",{"tag":"em","content":"favored terrain.","props":{}}]}>Harrying Attack (Ex)</Pair>
+<Pair hl title="Replaces">Quarry</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Standard Action">The wild shadow denotes one target within line of sight and within one of his <em>favored terrains</em> as his <em>harried prey.</em> Once the foe is so designated, every time the wild shadow hits this <em>harried prey</em> with a melee or ranged weapon attack (either manufactured or natural), that creature is <Link to="/rule/entangled">entangled</Link> for 1 round. A wild shadow can have no more than one <em>harried prey</em> at a time and that creature must correspond to one of his <em>favored enemy</em> types.</Pair>
+<Pair title="Special">He can dismiss this effect at any time as a <strong className="hl">free action</strong>, be he cannot select a new <em>harried prey</em> for 24 hours. If the wild shadow sees proof that his <em>harried prey</em> is dead, he can select a new <em>harried prey</em> after waiting 1 hour.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_shadow-wild-stalker-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-wild_shadow-wild-stalker-ex" flavor="A wild shadow learns to better use natural surroundings to obscure his position in combat.">Wild Stalker (Ex)</Pair>
+<Pair hl title="Replaces">Camouflage</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Passive Ability">Whenever a wild shadow is within one of his <em>favored terrains</em> and a feature of that terrain grants him <Link to="/rule/cover">cover</Link>, the bonuses to AC and Reflex saves for that cover improve by 1. Additionally, while he is within one of his <em>favored terrains,</em> if he gains <Link to="/rule/concealment">concealment</Link> or total concealment, the miss chance of either type of concealment improves by 10%.</Pair>
+<Pair title="At 16th Level">The bonuses granted by cover increase by 1 and the miss chance increases by another 10%.</Pair>
+<Pair title="At 19th Level">The bonuses granted by cover increase by 1 and the miss chance increases by another 10%.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_shadow-master-of-terrain-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-wild_shadow-master-of-terrain-ex">Master of Terrain (Ex)</Pair>
+<Pair hl title="Replaces">Improved quarry</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Choice">A wild shadow can use his <em>harrying attack</em> against creatures other than his <em>favored enemy</em> or he can spend a <strong className="hl">standard action</strong> to designate up to two of his <em>favored enemies</em> as his <em>harried prey</em> instead.</Pair>
+</Ability>
 </>};
 const _wild_soul = {title: "Wild Soul", jsx: <><h2 id="arc-ranger-wild_soul-wild-soul">Wild Soul</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 75</Link><br/>Hailing from primitive roots in the wild, some rangers venture to more civilized lands and learn their ways. Wild souls carry these more refined teachings back to the frontier lands of their birth, and they employ that knowledge in defense of their homes.</p>
-<p><strong>Unfettered Soul:</strong> A wild soul swears to himself never to make use of advanced technology, alchemy, arcane magic, or firearms. He also must oppose their use on his person, refusing to be a willing target and attempting a saving throw if possible (even if the effect is harmless or beneficial). Violating this oath causes a wild soul to lose the abilities granted by this archetype until he <Link to="/spell/atonement">atones</Link>.</p>
-<p><strong>Nemesis (Ex):</strong> A wild soul gains a +2 bonus on Intimidate, Knowledge, Perception, Sense Motive, Spellcraft, and Survival checks against creatures that wield advanced technology, alchemical weapons (including an alchemist's bombs), or firearms and against those that cast arcane spells (this does not apply to creatures that use spell-like abilities). Likewise, he gains a +2 bonus on weapon attack and damage rolls against such opponents. The wild soul can attempt Craft (alchemy), Knowledge (arcana), and Spellcraft checks untrained when attempting to identify enemy magic or advanced technology.</p>
-<p>At 5th level and every 5 levels thereafter, these bonuses increase by 1 (to a maximum of +5 at 20th level).</p>
-<p>This replaces <strong className="hl">favored enemy</strong>.</p>
-<p><strong>Nemesis Defense (Ex):</strong> At 8th level, a wild soul adds his nemesis bonus on saving throws against advanced technology, alchemical items (including an alchemist's bombs and extracts), and arcane spells. He also adds this bonus to his AC against advanced technological items, alchemical items (including alchemist bombs), arcane spells that require attack rolls, and firearms.</p>
-<p>This replaces <strong className="hl">swift tracker</strong>.</p>
-<p><strong>Break the Interloper (Su):</strong> At 11th level, when a wild soul hits an arcane spellcaster, a creature with extract slots, or a creature with grit (but not grit-like pools such as panache) with a weapon attack, the target either loses its highest-level available spell or extract slot or loses 1 point of grit, and the wild soul gains 5 temporary hit points. A target of this ability can negate this effect with a successful Fortitude save (DC = 10 + half the ranger's level + his Wisdom modifier). Regardless of the outcome of the saving throw, the target is immune to this ability for 24 hours.</p>
-<p>This replaces <strong className="hl">quarry</strong>.</p>
-<p><strong>Dizzying Onslaught (Ex):</strong> At 19th level, a wild soul lands punishing blows that devastate his nemeses' ability to focus. When he confirms a critical hit against a creature against whom his nemesis bonus applies, for 1 minute the target must succeed at a <Link to="/rule/concentration">concentration</Link> check (DC = 20 + the wild soul's Wisdom modifier + twice the spell's level) to cast an arcane spell, create an extract, or use an alchemist's bomb, and the target can't spend or gain grit.</p>
-<p>This replaces <strong className="hl">improved quarry</strong>.</p>
-<p><strong>Nemesis Slayer (Ex):</strong> At 20th level, a wild soul becomes death incarnate to his nemeses. As a standard action, he can make a single attack against a nemesis at his full attack bonus. If the attack hits, the target takes damage normally and must succeed at a Fortitude save (DC = 10 + half the wild soul's level + his Wisdom modifier) or die. The wild soul can instead deal an amount of nonlethal damage equal to the creature's current hit points, which the target can negate with a successful save at the same DC. The ranger can use this ability up to five times per day, but he cannot use it against the same creature more than once in a 24-hour period.</p>
-<p>This replaces <strong className="hl">master hunter</strong>.</p>
+<Ability id="arc-ranger-wild_soul-unfettered-soul" icon={["hazard-sign"]}>
+<Pair single id="arc-ranger-wild_soul-unfettered-soul">Unfettered Soul</Pair>
+<Pair title="Info">A wild soul swears to himself never to make use of advanced technology, alchemy, arcane magic, or firearms. He also must oppose their use on his person, refusing to be a willing target and attempting a saving throw if possible (even if the effect is harmless or beneficial). Violating this oath causes a wild soul to lose the abilities granted by this archetype until he <Link to="/spell/atonement">atones</Link>.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_soul-nemesis-ex" icon={["upgrade"]}>
+<Pair single id="arc-ranger-wild_soul-nemesis-ex">Nemesis (Ex)</Pair>
+<Pair hl title="Replaces">Favored enemy</Pair>
+<Pair title="Passive Ability">A wild soul gains a +2 bonus on Intimidate, Knowledge, Perception, Sense Motive, Spellcraft, and Survival checks against creatures that wield advanced technology, alchemical weapons (including an alchemist's bombs), or firearms and against those that cast arcane spells (this does not apply to creatures that use spell-like abilities). Likewise, he gains a +2 bonus on weapon attack and damage rolls against such opponents.</Pair>
+<Pair title="Ability">The wild soul can attempt Craft (alchemy), Knowledge (arcana), and Spellcraft checks untrained when attempting to identify enemy magic or advanced technology.</Pair>
+<Pair title="At 5th Level">These bonuses become +3.</Pair>
+<Pair title="At 10th Level">These bonuses increase to +4.</Pair>
+<Pair title="At 15th Level">These bonuses become +5.</Pair>
+<Pair title="At 20th Level">These bonuses increase to +6.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_soul-nemesis-defense-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-wild_soul-nemesis-defense-ex">Nemesis Defense (Ex)</Pair>
+<Pair hl title="Replaces">Swift tracker</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability">A wild soul adds his <em>nemesis</em> bonus on saving throws against advanced technology, alchemical items (including an alchemist's bombs and extracts), and arcane spells. He also adds this bonus to his AC against advanced technological items, alchemical items (including alchemist bombs), arcane spells that require attack rolls, and firearms.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_soul-break-the-interloper-su" icon={["armor-downgrade","heart-plus"]}>
+<Pair single id="arc-ranger-wild_soul-break-the-interloper-su">Break the Interloper (Su)</Pair>
+<Pair hl title="Replaces">Quarry</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">When a wild soul hits an arcane spellcaster, a creature with <em>extract</em> slots, or a creature with <em>grit</em> (but not grit-like pools such as <em>panache</em>) with a weapon attack, the target either loses its highest-level available spell or extract slot or loses 1 point of grit, and the wild soul gains 5 <Link to="/rule/temporary_hit_points">temporary hit points</Link>.</Pair>
+<Pair title="Special">A target of this ability can negate this effect with a successful Fortitude save (DC = 10 + half the ranger's level + his Wisdom modifier). Regardless of the outcome of the saving throw, the target is immune to this ability for 24 hours.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_soul-dizzying-onslaught-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-ranger-wild_soul-dizzying-onslaught-ex" flavor="A wild soul lands punishing blows that devastate his nemeses' ability to focus.">Dizzying Onslaught (Ex)</Pair>
+<Pair hl title="Replaces">Improved quarry</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Ability">When he confirms a critical hit against a creature against whom his <em>nemesis</em> bonus applies, for 1 minute the target must succeed at a <Link to="/rule/concentration">concentration</Link> check (DC = 20 + the wild soul's Wisdom modifier + twice the spell's level) to cast an arcane spell, create an <em>extract,</em> or use an alchemist's bomb, and the target can't spend or gain <em>grit.</em></Pair>
+</Ability>
+<Ability id="arc-ranger-wild_soul-nemesis-slayer-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-wild_soul-nemesis-slayer-ex" flavor="A wild soul becomes death incarnate to his nemeses.">Nemesis Slayer (Ex)</Pair>
+<Pair hl title="Replaces">Master hunter</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Usage">Five times per day, but cannot be used against the same creature more than once in a 24-hour period</Pair>
+<Pair title="Standard Action">He can make a single attack against a <em>nemesis</em> at his full attack bonus. If the attack hits, the target takes damage normally and must succeed at a Fortitude save (DC = 10 + half the wild soul's level + his Wisdom modifier) or die. The wild soul can instead deal an amount of nonlethal damage equal to the creature's current hit points, which the target can negate with a successful save at the same DC.</Pair>
+</Ability>
 </>};
 const _wild_stalker = {title: "Wild Stalker", jsx: <><h2 id="arc-ranger-wild_stalker-wild-stalker">Wild Stalker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 68</Link><br/>Civilization grows stronger and more decadent with each passing year. It tears into unclaimed wilderness and destroys the fragile ecology in its constant push for expansion and exploitation. The wild stalker forsakes the bonds of community and lives in the trackless wilds far from others of his kind, or perhaps grew up there, never knowing of civilization as anything more than his enemy. He drives pioneers back to civilization and strives to keep the land unspoiled.</p>
-<p><strong>Strong Senses (Ex):</strong> At 1st level, a wild stalker's life among the wild has sharpened his senses. He gains low-light vision and a +1 bonus on Perception checks. If he already has low-light vision, he gains a +2 bonus on Perception checks instead. This bonus increases by +1 for every four levels after 1st (to a maximum of +6 at 20th level, or +7 if the character did not gain low-light vision from this ability).</p>
-<p>This ability replaces the ranger's first <strong className="hl">favored enemy</strong> ability.</p>
-<p><strong>Uncanny Dodge (Ex):</strong> At 2nd level, a wild stalker gains <Link to="/ability/uncanny_dodge">uncanny dodge</Link> as the <Link to="/class/barbarian">barbarian's</Link> class feature.</p>
-<p>This ability replaces the ranger's 2nd-level <strong className="hl">combat style feat</strong>.</p>
-<p><strong>Rage of the Wild (Ex):</strong> At 4th level, a wild stalker gains the rage ability as the barbarian class feature, but its barbarian level is considered to be his ranger level - 3.</p>
-<p>This ability replaces <strong className="hl">hunter's bond</strong>.</p>
-<p><strong>Rage Powers:</strong> At 5th level, a wild stalker ranger gains a single <Link to="/ability/rage_powers">rage power</Link>, as the barbarian class feature. He gains another rage power each five levels after 5th (to a maximum of four rage powers at 20th level).</p>
-<p>This ability replaces the ranger's second, third, fourth, and fifth <strong className="hl">favored enemy</strong> abilities.</p>
-<p><strong>Wild Talents (Ex):</strong> At 6th level, a wild stalker can either take a rage power, or gains a +2 insight bonus into any one of the following skills: Acrobatics, Climb, Perception, Stealth, Survival, or Swim. The wild stalker can gain one of these two benefits again every five levels after 6th (to a maximum of 4 times at 20th level).</p>
-<p>This ability replaces the ranger's 6th-, 10th-, 14th-, and 18th-level <strong className="hl">combat style feat</strong> abilities.</p>
-</>};
+<Ability id="arc-ranger-wild_stalker-strong-senses-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-ranger-wild_stalker-strong-senses-ex" flavor="A wild stalker's life among the wild has sharpened his senses.">Strong Senses (Ex)</Pair>
+<Pair hl title="Replaces">1st favored enemy</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">He gains low-light vision and a bonus on Perception checks equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of his ranger level. If he already has low-light vision, the bonus becomes 2 + one-fourth of his ranger level.<sup><InnerLink showBacklink="backlink-arc-ranger-wild_stalker-fake-fn-1" id="arc-ranger-wild_stalker-fake-fn-1" data-hash-target to="arc-ranger-wild_stalker-fake-fn-1-target">1</InnerLink></sup></Pair>
+</Ability>
+<Ability id="arc-ranger-wild_stalker-uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-wild_stalker-uncanny-dodge-ex">Uncanny Dodge (Ex)</Pair>
+<Pair hl title="Replaces">2nd-level combat style feat</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A wild stalker gains <Link to="/ability/uncanny_dodge">uncanny dodge</Link> as the barbarian class feature.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_stalker-rage-of-the-wild-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-wild_stalker-rage-of-the-wild-ex">Rage of the Wild (Ex)</Pair>
+<Pair hl title="Replaces">Hunter's bond</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A wild stalker gains the <em>rage</em> ability as the <Link to="/class/barbarian">barbarian</Link> class feature, but its barbarian level is considered to be his ranger level - 3.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_stalker-rage-ex" extraClasses="subAbility" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-ranger-wild_stalker-rage-ex" flavor="Text from the barbarian class.">Rage (Ex)</Pair>
+<Pair title="Usage">2 rounds/day + double your barbarian level + your Constitution modifier</Pair>
+<Pair title="Free Action">You can enter (or end) a rage. You gain a +4 morale bonus to your Strength and Constitution, as well as a +2 morale bonus on Will saves. The increase to Constitution grants you 2 hit points per Hit Dice, but these disappear when the rage ends and are not lost first like <Link to="/rule/temporary_hit_points">temporary hit points</Link>.</Pair>
+<Pair title="Passive Ability">While in rage, you take a -2 penalty to Armor Class, and you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration. You are <Link to="/misc/fatigued">fatigued</Link> after <em>rage</em> for a number of rounds equal to 2 times the number of rounds spent in the rage. You cannot enter a new <em>rage</em> while fatigued or <Link to="/misc/exhausted">exhausted</Link> but can otherwise enter <em>rage</em> multiple times during a single encounter or combat. If you fall unconscious, your rage immediately ends, placing you in peril of death.</Pair>
+<Pair title="Special">Temporary increases to Constitution, such as those gained from rage and spells like <Link to="/spell/bears_endurance">bear's endurance</Link>, do not increase the total number of rounds that a barbarian can rage per day. The total number of rounds of rage per day is renewed after resting for 8 hours, although these hours do not need to be consecutive.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_stalker-rage-powers" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-wild_stalker-rage-powers">Rage Powers</Pair>
+<Pair hl title="Replaces">2nd, 3rd, 4th, and 5th favored enemy</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">A wild stalker ranger gains a single <Link to="/ability/rage_powers">rage power</Link>, as the barbarian class feature.</Pair>
+<Pair title="At 10th Level">He gains another rage power.</Pair>
+<Pair title="At 15th Level">He gains another rage power.</Pair>
+<Pair title="At 20th Level">He gains another rage power.</Pair>
+</Ability>
+<Ability id="arc-ranger-wild_stalker-wild-talents-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-ranger-wild_stalker-wild-talents-ex">Wild Talents (Ex)</Pair>
+<Pair hl title="Replaces">6th-, 10th-, 14th-, and 18th-level combat style feat</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Choice">A wild stalker can either take a rage power, or gains a +2 insight bonus into any one of the following skills: Acrobatics, Climb, Perception, Stealth, Survival, or Swim.<sup><InnerLink showBacklink="backlink-arc-ranger-wild_stalker-fake-fn-2" id="arc-ranger-wild_stalker-fake-fn-2" data-hash-target to="arc-ranger-wild_stalker-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="At 10th Level">The wild stalker can gain one of these two benefits again.</Pair>
+<Pair title="At 14th Level">The wild stalker can gain one of these two benefits again.</Pair>
+<Pair title="At 18th Level">The wild stalker can gain one of these two benefits again.</Pair>
+</Ability>
+<section data-footnotes><h3 id="arc-ranger-wild_stalker-label">Footnotes</h3><ol>
+<li id="arc-ranger-wild_stalker-fake-fn-1-target"><p>The original text reads: <em>"This bonus increases by +1 for every four levels after 1st."</em> This implies a 1/5/9/13/17 progression, which would only reach +5/+6 at 20th level, but the text continues, <em>"(to a maximum of +6 [or +7] at 20th level),"</em> which only makes sense if the bonus increases <em>at 4th level</em> and every four levels thereafter. This is the interpretation used here. <InnerLink aria-label="Back to reference 1" id="backlink-arc-ranger-wild_stalker-fake-fn-1" data-hash-target to="arc-ranger-wild_stalker-fake-fn-1">↩</InnerLink></p></li>
+<li id="arc-ranger-wild_stalker-fake-fn-2-target"><p>The original text reads: <em>"The wild stalker can gain one of these two benefits again every five levels after 6th (to a maximum of 4 times at 20th level)."</em> The listed progression only gives three benefits (at levels 6/11/16), whereas the abilities replaced are at levels 6/10/14/18. The latter interpretation is used here. <InnerLink aria-label="Back to reference 2" id="backlink-arc-ranger-wild_stalker-fake-fn-2" data-hash-target to="arc-ranger-wild_stalker-fake-fn-2">↩</InnerLink></p></li>
+</ol></section></>};
 const _wilderness_explorer = {title: "Wilderness Explorer", jsx: <><h2 id="arc-ranger-wilderness_explorer-wilderness-explorer">Wilderness Explorer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 74</Link><br/>Wilderness explorers are adept at making peaceful contact with remote societies.</p>
 <Ability icon={["skills"]} id="arc-ranger-wilderness_explorer-undefined">
 <Pair id="arc-ranger-wilderness_explorer-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Intimidate, Knowledge (dungeoneering)</Pair></Ability>
-<p><strong>Cultural Contact (Ex):</strong> A wilderness explorer gains the ability to communicate with creatures with which he doesn't share a common language. Only basic concepts can be conveyed or understood, such as "I need help," "I come in peace," "Come over here," "Go over there," and the like. This allows the wilderness explorer to ignore the common language requirement of social interaction and language-dependent spells and effects, but he can do so only when the information being shared is relatively simple. The creature with which the wilderness explorer communicates must understand at least one language for this ability to function.</p>
-<p>Additionally, a wilderness explorer can peacefully influence the initial attitude of humanoids that have Intelligence scores of 2 or lower. This ability functions just like wild empathy, but it works on humanoids instead of on animals. The wilderness explorer can also use this ability to influence a monstrous humanoid with 2 or lower Intelligence, but the wilderness explorer takes a -4 penalty on the check.</p>
-<p>This replaces <strong className="hl">wild empathy</strong>.</p>
-<p><strong>Hazard Sense (Ex):</strong> At 4th level, a wilderness explorer gains an intuitive understanding of natural hazards and traps fashioned from a natural environment. He gains a +1 bonus on Reflex saves against natural hazards and wilderness traps and a +1 dodge bonus to AC against attacks from wilderness traps. This bonus increases by 1 at 8th level and every 4 levels thereafter.</p>
-<p>This replaces <strong className="hl">hunter's bond</strong>.</p>
-<p><strong>Indigenous Spirit (Su):</strong> At 8th level, a wilderness explorer attracts the aid of native spirits, which reward his appreciation of their home with whispered warnings. The wilderness explorer gains <Link to="/ability/uncanny_dodge">uncanny dodge</Link> as long as he remains within one of his chosen favored terrains. This works like the <Link to="/class/barbarian">barbarian</Link> ability of the same name.</p>
-<p>This replaces <strong className="hl">swift tracker</strong> and alters <strong className="hl">favored terrain</strong>.</p>
-<p><strong>Guardian Spirit (Su):</strong> At 11th level, a wilderness explorer gains the aid of indigenous spirits, which favor him when he is defending himself against multiple foes that surround him. He gains <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link>; this ability functions only while the ranger is within one of his favored terrains.</p>
-<p>This replaces <strong className="hl">quarry</strong> and alters <strong className="hl">favored terrain</strong>.</p>
-<p><strong>Manifest Spirit (Su):</strong> At 19th level, a wilderness explorer is shielded from magic by those guardian spirits that favor him. He gains spell resistance equal to 11 + his ranger level. This ability functions only while the wilderness explorer is within one of his favored terrains.</p>
-<p>This replaces <strong className="hl">improved quarry</strong> and alters <strong className="hl">favored terrain</strong>.</p>
+<Ability id="arc-ranger-wilderness_explorer-cultural-contact-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-wilderness_explorer-cultural-contact-ex">Cultural Contact (Ex)</Pair>
+<Pair hl title="Replaces">Wild empathy</Pair>
+<Pair title="Passive Ability">A wilderness explorer gains the ability to communicate with creatures with which he doesn't share a common language. Only basic concepts can be conveyed or understood, such as "I need help," "I come in peace," "Come over here," "Go over there," and the like. This allows the wilderness explorer to ignore the common language requirement of social interaction and language-dependent spells and effects, but he can do so only when the information being shared is relatively simple. The creature with which the wilderness explorer communicates must understand at least one language for this ability to function.</Pair>
+<Pair title="Ability">Additionally, a wilderness explorer can peacefully influence the initial attitude of humanoids that have Intelligence scores of 2 or lower. This ability functions just like <em>wild empathy,</em> but it works on humanoids instead of on animals. The wilderness explorer can also use this ability to influence a monstrous humanoid with 2 or lower Intelligence, but the wilderness explorer takes a -4 penalty on the check.</Pair>
+</Ability>
+<Ability id="arc-ranger-wilderness_explorer-hazard-sense-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-wilderness_explorer-hazard-sense-ex" flavor="A wilderness explorer gains an intuitive understanding of natural hazards and traps fashioned from a natural environment.">Hazard Sense (Ex)</Pair>
+<Pair hl title="Replaces">Hunter's bond</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">He gains a bonus on Reflex saves against natural hazards and wilderness traps and a dodge bonus to AC against attacks from wilderness traps. Both of these bonuses are equal to <Link to="/misc/one_fourth">one-fourth</Link> of his ranger level.</Pair>
+</Ability>
+<Ability id="arc-ranger-wilderness_explorer-indigenous-spirit-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-wilderness_explorer-indigenous-spirit-su" flavor="A wilderness explorer attracts the aid of native spirits, which reward his appreciation of their home with whispered warnings.">Indigenous Spirit (Su)</Pair>
+<Pair hl title="Replaces">Swift tracker</Pair>
+<Pair hl title="Alters">Favored terrain</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">The wilderness explorer gains <Link to="/ability/uncanny_dodge">uncanny dodge</Link> as long as he remains within one of his chosen <em>favored terrains.</em> This works like the barbarian ability of the same name.</Pair>
+</Ability>
+<Ability id="arc-ranger-wilderness_explorer-guardian-spirit-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-wilderness_explorer-guardian-spirit-su" flavor="A wilderness explorer gains the aid of indigenous spirits, which favor him when he is defending himself against multiple foes that surround him.">Guardian Spirit (Su)</Pair>
+<Pair hl title="Replaces">Quarry</Pair>
+<Pair hl title="Alters">Favored terrain</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">He gains <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link>; this ability functions only while the ranger is within one of his <em>favored terrains.</em></Pair>
+</Ability>
+<Ability id="arc-ranger-wilderness_explorer-manifest-spirit-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-wilderness_explorer-manifest-spirit-su" flavor="A wilderness explorer is shielded from magic by those guardian spirits that favor him.">Manifest Spirit (Su)</Pair>
+<Pair hl title="Replaces">Improved quarry</Pair>
+<Pair hl title="Alters">Favored terrain</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Special">He gains spell resistance equal to 11 + his ranger level. This ability functions only while the wilderness explorer is within one of his <em>favored terrains.</em></Pair>
+</Ability>
 </>};
 const _wilderness_medic = {title: "Wilderness Medic", jsx: <><h2 id="arc-ranger-wilderness_medic-wilderness-medic">Wilderness Medic</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 5</Link><br/>Wilderness medics know a variety of ways they can supply and preserve a rebellion or similar movement without requiring any resources that might make them easier to track down.</p>
-<p><strong>Herbalist Training (Ex):</strong> At 1st level, a wilderness medic can attempt Profession (herbalism) checks untrained and the wilderness medic gains a bonus equal to 1/2 his ranger level (minimum +1) on Heal checks and Profession (herbalism) checks. When he successfully <Link to="/rule/foraging">forages</Link> for herbs, he finds twice as many doses of any herb he would normally.</p>
-<p>This ability replaces <strong className="hl">wild empathy</strong>.</p>
-<p><strong>Herbal Medicine (Ex):</strong> At 3rd level, a wilderness medic can mimic the effects of <Link to="/spell/stabilize">stabilize</Link> at will in any wilderness area by spending one use of a healer's kit as long as he can see the target.</p>
-<p>Additionally, as a standard action a number of times per day equal to 3 + his Wisdom modifier, the wilderness medic can use encouraging words and herbs to lessen the severity of certain conditions affecting a touched target. If the target is exhausted, it becomes fatigued instead. If the target is frightened, it becomes shaken instead. If the target is nauseated, it becomes sickened instead. The duration of the effect is unchanged; the effect is simply reduced to the lesser version.</p>
-<p>At 9th level, the wilderness medic can lessen the severity of additional conditions for the target and cure other conditions that the target suffers. If the target creature is blinded, it becomes dazzled instead. If the target is panicked, it becomes shaken instead. If it has any of the following conditions, they are cured: deafened, fatigued, shaken, and sickened. The wilderness medic is able to use this ability on a given touched target once every 24 hours.</p>
-<p>This ability replaces the <strong className="hl">endurance</strong> and <strong className="hl">evasion</strong> abilities.</p>
-<p><strong>Rallying Bond (Sp):</strong> At 4th level, a wilderness medic must choose his companions for his hunter's bond. At 9th level, the wilderness medic can encourage all of his companions when he uses his hunter's bond to benefit his companions (see the ranger's hunter's bond ability). As a free action when the wilderness medic uses a move action to grant affected allies half his favored enemy bonus, he can also grant affected allies the benefits of <Link to="/spell/remove_fear">remove fear</Link>. The wilderness medic can use this ability a number of times per day equal to his Wisdom modifier.</p>
-<p>At 14th level, when the wilderness medic uses this ability, he can instead affect all allies that benefit from his hunter's bond with <Link to="/spell/blessing_of_fervor">blessing of fervor</Link>, using his ranger level as his caster level.</p>
-<p>This ability alters <strong className="hl">hunter's bond</strong> and replaces <strong className="hl">improved evasion</strong>.</p>
+<Ability id="arc-ranger-wilderness_medic-herbalist-training-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-ranger-wilderness_medic-herbalist-training-ex">Herbalist Training (Ex)</Pair>
+<Pair hl title="Replaces">Wild empathy</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A wilderness medic can attempt Profession (herbalism) checks untrained and the wilderness medic gains a bonus equal to 1/2 his ranger level (minimum +1) on Heal checks and Profession (herbalism) checks. When he successfully <Link to="/rule/foraging">forages</Link> for herbs, he finds twice as many doses of any herb he would normally.</Pair>
+</Ability>
+<Ability id="arc-ranger-wilderness_medic-herbal-medicine-ex" icon={["heart-plus"]}>
+<Pair single id="arc-ranger-wilderness_medic-herbal-medicine-ex">Herbal Medicine (Ex)</Pair>
+<Pair hl title="Replaces">Endurance, evasion</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A wilderness medic can mimic the effects of <Link to="/spell/stabilize">stabilize</Link> at will in any wilderness area by spending one use of a <Link to="/eq-misc/healers_kit">healer's kit</Link> as long as he can see the target.</Pair>
+<Pair title="Standard Action">The wilderness medic can use encouraging words and herbs to lessen the severity of certain conditions affecting a touched target. If the target is <Link to="/misc/exhausted">exhausted</Link>, it becomes <Link to="/misc/fatigued">fatigued</Link> instead. If the target is <Link to="/misc/frightened">frightened</Link>, it becomes <Link to="/misc/shaken">shaken</Link> instead. If the target is <Link to="/misc/nauseated">nauseated</Link>, it becomes <Link to="/misc/sickened">sickened</Link> instead. The duration of the effect is unchanged; the effect is simply reduced to the lesser version.</Pair>
+<Pair title="Usage">3 + Wisdom modifier times/day</Pair>
+<Pair title="At 9th Level">The wilderness medic can lessen the severity of additional conditions for the target and cure other conditions that the target suffers. If the target creature is <Link to="/misc/blinded">blinded</Link>, it becomes <Link to="/misc/dazzled">dazzled</Link> instead. If the target is <Link to="/misc/panicked">panicked</Link>, it becomes shaken instead. If it has any of the following conditions, they are cured: <Link to="/misc/deafened">deafened</Link>, fatigued, shaken, and sickened.</Pair>
+<Pair title="Special">The wilderness medic is able to use the non-<em>stabilize</em> ability on a given touched target once every 24 hours.</Pair>
+</Ability>
+<Ability id="arc-ranger-wilderness_medic-rallying-bond-sp" icon={["broken-shield"]}>
+<Pair single id="arc-ranger-wilderness_medic-rallying-bond-sp">Rallying Bond (Sp)</Pair>
+<Pair hl title="Replaces">Improved evasion</Pair>
+<Pair hl title="Alters">Hunter's bond</Pair>
+<Pair title="At 4th Level">A wilderness medic must choose his companions for his <em>hunter's bond.</em></Pair>
+<Pair title="At 9th Level">The wilderness medic can encourage all of his companions when he uses his <em>hunter's bond</em> to benefit his companions (see the ranger's <em>hunter's bond</em> ability). As a <strong className="hl">free action</strong> when the wilderness medic uses a <strong className="hl">move action</strong> to grant affected allies half his <em>favored enemy</em> bonus, he can also grant affected allies the benefits of <Link to="/spell/remove_fear">remove fear</Link>.</Pair>
+<Pair title="At 14th Level">When the wilderness medic uses this ability, he can instead affect all allies that benefit from his <em>hunter's bond</em> with <Link to="/spell/blessing_of_fervor">blessing of fervor</Link>, using his ranger level as his caster level.</Pair>
+<Pair title="Usage">Wisdom modifier times/day</Pair>
+</Ability>
 </>};
 const _witchguard = {title: "Witchguard", jsx: <><h2 id="arc-ranger-witchguard-witchguard">Witchguard</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North pg. 25</Link><br/>Witchguards are the sworn defenders of the White Witches of Irrisen. Although the White Witches are spellcasters of immense power, even they cannot defend themselves against every attack. Witchguards dedicate their lives to protecting their charges, and they gain some arcane knowledge in return. They are trained to work closely with witches and defend their charges from harm. Witchguards learn magical abilities from the same patrons that grant witches their powers, though they can use their abilities to protect any kind of spellcaster, not just a witch. A witchguard is ready to face any foe that might threaten his charge, and he is ever prepared to lay down his life to protect the life of the person he is sworn to defend.</p>
@@ -2247,23 +2470,60 @@ const _witchguard = {title: "Witchguard", jsx: <><h2 id="arc-ranger-witchguard-w
 <Pair id="arc-ranger-witchguard-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (dungeoneering)</Pair></Ability>
-<p><strong>Defend Charge (Ex):</strong> At 4th level, a witchguard forms a bond with a spellcaster he has sworn to defend. Once per day, this bond allows the witchguard to spend a move action to grant an adjacent spellcaster a +2 dodge bonus to AC and a +2 circumstance bonus on <Link to="/rule/concentration">concentration</Link> checks. At 5th level and every 5 levels thereafter, these bonuses increase by 2. The bonuses last for a number of rounds equal to the witchguard's Wisdom modifier (minimum 1).</p>
-<p>At 4th level and every 3 levels thereafter, the witchguard can use this ability one additional time per day.</p>
-<p>This ability replaces <strong className="hl">hunter's bond</strong>.</p>
-<p><strong>Bodyguard (Ex):</strong> At 3rd level, a witchguard gains <Link to="/feat/bodyguard">Bodyguard</Link> as a bonus feat, even if he doesn't meet the prerequisite.</p>
-<p>This ability replaces <strong className="hl">endurance</strong>.</p>
-<p><strong>Patron (Su):</strong> A witchguard learns something of arcane magic from the witches he defends. At 4th level, when a witchguard gains the ability to cast spells, he must also select a <Link to="/ability/patrons">patron</Link>, as the <Link to="/class/witch">witch</Link> class feature. This patron is usually the same as the patron of the witch he is sworn to protect, but the witchguard may choose any patron. The witchguard adds the first four spells from his patron's spell list to his ranger spell list. The witchguard cannot cast patron spells of a level he is unable to cast.</p>
-<p><strong>Sworn Defender (Ex):</strong> At 7th level, a witchguard gains <Link to="/feat/in_harms_way">In Harm's Way</Link> as a bonus feat.</p>
-<p>This ability replaces <strong className="hl">woodland stride</strong>.</p>
+<Ability id="arc-ranger-witchguard-defend-charge-ex" icon={["shield-reflect"]}>
+<Pair single id="arc-ranger-witchguard-defend-charge-ex">Defend Charge (Ex)</Pair>
+<Pair hl title="Replaces">Hunter's bond</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per three ranger levels beyond 4th<ByLevelPop levels={[[4,1],[7,2],[10,3],[13,4],[16,5],[19,6]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">A witchguard forms a bond with a spellcaster he has sworn to defend. This bond allows the witchguard to spend a <strong className="hl">move action</strong> to grant an adjacent spellcaster a +2 dodge bonus to AC and a +2 circumstance bonus on <Link to="/rule/concentration">concentration</Link> checks. The bonuses last for a number of rounds equal to the witchguard's Wisdom modifier (minimum 1).</Pair>
+<Pair title="At 5th Level">These bonuses become +4.</Pair>
+<Pair title="At 10th Level">These bonuses increase to +6.</Pair>
+<Pair title="At 15th Level">These bonuses become +8.</Pair>
+<Pair title="At 20th Level">These bonuses increase to +10.</Pair>
+</Ability>
+<Ability id="arc-ranger-witchguard-bodyguard-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-witchguard-bodyguard-ex">Bodyguard (Ex)</Pair>
+<Pair hl title="Replaces">Endurance</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A witchguard gains <Link to="/feat/bodyguard">Bodyguard</Link> as a bonus feat, even if he doesn't meet the prerequisite.</Pair>
+</Ability>
+<Ability id="arc-ranger-witchguard-patron-su" icon={["spell-book"]}>
+<Pair single id="arc-ranger-witchguard-patron-su" flavor="A witchguard learns something of arcane magic from the witches he defends.">Patron (Su)</Pair>
+<Pair title="At 4th Level">When a witchguard gains the ability to cast spells, he must also select a <Link to="/ability/patrons">patron</Link>, as the witch class feature. This patron is usually the same as the patron of the witch he is sworn to protect, but the witchguard may choose any patron. The witchguard adds the first four spells from his patron's spell list to his ranger spell list. The witchguard cannot cast patron spells of a level he is unable to cast.</Pair>
+</Ability>
+<Ability id="arc-ranger-witchguard-sworn-defender-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-witchguard-sworn-defender-ex">Sworn Defender (Ex)</Pair>
+<Pair hl title="Replaces">Woodland stride</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A witchguard gains <Link to="/feat/in_harms_way">In Harm's Way</Link> as a bonus feat.</Pair>
+</Ability>
 </>};
 const _yokai_hunter = {title: "Yokai Hunter", jsx: <><h2 id="arc-ranger-yokai_hunter-yokai-hunter">Yokai Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer pg. 23</Link><br/>Yokai hunters possess a supernatural tether to the spirit worlds that shroud mortal existence. They use their powers to peer into the realm of the dead, and are adept at hunting those who dwell in the realm between the Material Plane and the Great Beyond, the supernatural beings Tians refer to as yokai. The yokai hunter is an archetype of the ranger class.</p>
-<p><strong>Favored Yokai (Su):</strong> A yokai hunter possesses a supernatural ability to sense beings connected to the spirit world, such as <Link to="/family/kami">kami</Link>, <Link to="/family/oni">oni</Link>, and <Link to="/template/ghost">ghosts</Link>, and is formidable at fighting them. At 1st level, a yokai hunter gains a +2 bonus on weapon attacks and damage rolls against one of the following creature types (and subtypes, if applicable), which are considered yokai for the purposes of this archetype: aberration, dragon, fey, magical beast, outsider (native), and undead (incorporeal). (A GM may choose to alter this list for the purposes of her campaign.) At 5th level and every five levels thereafter, a yokai hunter may select another favored yokai from this list, gaining a +2 bonus on weapon attacks and damage rolls against that yokai.</p>
-<p>In addition, whenever a yokai hunter sees a favored yokai that is disguised or has not made its otherworldly essence known, he gains an automatic check to identify the creature as such. To make this check, a yokai hunter rolls 1d20 and adds his yokai hunter level and Charisma modifier (DC 10 + 1/2 the yokai's Hit Dice + the yokai's Cha modifier). A successful check means that the yokai hunter recognizes the creature's ties to the spiritual world. Regardless of whether the check is successful, a yokai hunter gains the bonus on weapon attacks and damage rolls against favored yokai.</p>
-<p>This ability replaces <strong className="hl">favored enemy</strong>. Ranger abilities that rely on a favored enemy instead rely on this ability.</p>
-<p><strong>Yokai Sense (Su):</strong> At 7th level, a yokai hunter can sense yokai he has identified with his favored yokai ability as though he had <Link to="/umr/blindsense">blindsense</Link> out to a range of 60 feet.</p>
-<p>This ability replaces <strong className="hl">woodland stride</strong>.</p>
-<p><strong>Resist Yokai (Su):</strong> At 12th level, a yokai hunter can attempt to shrug off the magical energies of a yokai. He gains a +4 insight bonus on saving throws to resist the spells, spell-like abilities, and supernatural abilities of favored yokai. In addition, once per day as a standard action, a yokai hunter can shed an effect placed on him by a yokai as <Link to="/spell/break_enchantment">break enchantment</Link>, using his yokai hunter level as his caster level.</p>
-<p>This ability replaces <strong className="hl">camouflage</strong>.</p>
+<Ability id="arc-ranger-yokai_hunter-favored-yokai-su" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-ranger-yokai_hunter-favored-yokai-su" flavor={["A yokai hunter possesses a supernatural ability to sense beings connected to the spirit world, such as ",{"tag":"Link","content":"kami","props":{"to":"/family/kami"}},", ",{"tag":"Link","content":"oni","props":{"to":"/family/oni"}},", and ",{"tag":"Link","content":"ghosts","props":{"to":"/template/ghost"}},", and is formidable at fighting them."]}>Favored Yokai (Su)</Pair>
+<Pair hl title="Replaces">Favored enemy</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">A yokai hunter gains a +2 bonus on weapon attacks and damage rolls against one of the following creature types (and subtypes, if applicable), which are considered yokai for the purposes of this archetype: aberration, dragon, fey, magical beast, outsider (native), and undead (incorporeal). (A GM may choose to alter this list for the purposes of her campaign.)</Pair>
+<Pair title="Ability">In addition, whenever a yokai hunter sees a <em>favored yokai</em> that is disguised or has not made its otherworldly essence known, he gains an automatic check to identify the creature as such. To make this check, a yokai hunter rolls 1d20 and adds his yokai hunter level and Charisma modifier (DC 10 + 1/2 the yokai's Hit Dice + the yokai's Cha modifier). A successful check means that the yokai hunter recognizes the creature's ties to the spiritual world. Regardless of whether the check is successful, a yokai hunter gains the bonus on weapon attacks and damage rolls against <em>favored yokai.</em></Pair>
+<Pair title="At 5th Level">A yokai hunter may select another <em>favored yokai</em> from the list above, gaining a +2 bonus on weapon attacks and damage rolls against that yokai.</Pair>
+<Pair title="At 10th Level">A yokai hunter may select another <em>favored yokai</em> from the list above, gaining a +2 bonus on weapon attacks and damage rolls against that yokai.</Pair>
+<Pair title="At 15th Level">A yokai hunter may select another <em>favored yokai</em> from the list above, gaining a +2 bonus on weapon attacks and damage rolls against that yokai.</Pair>
+<Pair title="At 20th Level">A yokai hunter may select another <em>favored yokai</em> from the list above, gaining a +2 bonus on weapon attacks and damage rolls against that yokai.</Pair>
+<Pair title="Special">Ranger abilities that rely on a <em>favored enemy</em> instead rely on this ability.</Pair>
+</Ability>
+<Ability id="arc-ranger-yokai_hunter-yokai-sense-su" icon={["stairs-goal"]}>
+<Pair single id="arc-ranger-yokai_hunter-yokai-sense-su">Yokai Sense (Su)</Pair>
+<Pair hl title="Replaces">Woodland stride</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A yokai hunter can sense yokai he has identified with his <em>favored yokai</em> ability as though he had <Link to="/umr/blindsense">blindsense</Link> out to a range of 60 feet.</Pair>
+</Ability>
+<Ability id="arc-ranger-yokai_hunter-resist-yokai-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-ranger-yokai_hunter-resist-yokai-su">Resist Yokai (Su)</Pair>
+<Pair hl title="Replaces">Camouflage</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Passive Ability">A yokai hunter can attempt to shrug off the magical energies of a yokai. He gains a +4 insight bonus on saving throws to resist the spells, spell-like abilities, and supernatural abilities of <em>favored yokai.</em></Pair>
+<Pair title="Standard Action">Once per day, a yokai hunter can shed an effect placed on him by a yokai as <Link to="/spell/break_enchantment">break enchantment</Link>, using his yokai hunter level as his caster level.</Pair>
+</Ability>
 </>};
 export default {abendego_diver:_abendego_diver,battle_scout:_battle_scout,beast_master:_beast_master,blightwarden:_blightwarden,bow_nomad:_bow_nomad,cinderwalker:_cinderwalker,code_runner:_code_runner,corpse_hunter:_corpse_hunter,dandy:_dandy,darklands_sailor:_darklands_sailor,deep_walker:_deep_walker,divine_tracker:_divine_tracker,dragon_hunter:_dragon_hunter,drake_warden:_drake_warden,dungeon_rover:_dungeon_rover,dusk_stalker:_dusk_stalker,elemental_envoy:_elemental_envoy,falconer:_falconer,flamewarden:_flamewarden,fortune_finder:_fortune_finder,freebooter:_freebooter,galvanic_saboteur:_galvanic_saboteur,groom:_groom,guide:_guide,guildbreaker:_guildbreaker,hooded_champion:_hooded_champion,horse_lord:_horse_lord,ilsurian_archer:_ilsurian_archer,infiltrator:_infiltrator,jungle_lord:_jungle_lord,lantern_lighter:_lantern_lighter,nirmathi_irregular:_nirmathi_irregular,planar_scout:_planar_scout,poison_darter:_poison_darter,raven_master:_raven_master,realm_wanderer:_realm_wanderer,sable_company_marine:_sable_company_marine,sentinel:_sentinel,shapeshifter:_shapeshifter,skirmisher:_skirmisher,spirit_ranger:_spirit_ranger,stormwalker:_stormwalker,summit_sentinel:_summit_sentinel,sword_devil:_sword_devil,tanglebriar_demonslayer:_tanglebriar_demonslayer,tidal_hunter:_tidal_hunter,toxic_herbalist:_toxic_herbalist,toxophilite:_toxophilite,transporter:_transporter,trapper:_trapper,trophy_hunter:_trophy_hunter,urban_ranger:_urban_ranger,warden:_warden,wave_warden:_wave_warden,wild_hunter:_wild_hunter,wild_shadow:_wild_shadow,wild_soul:_wild_soul,wild_stalker:_wild_stalker,wilderness_explorer:_wilderness_explorer,wilderness_medic:_wilderness_medic,witchguard:_witchguard,yokai_hunter:_yokai_hunter}
