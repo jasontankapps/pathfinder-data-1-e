@@ -785,7 +785,7 @@
 			"",
 			"::ab[Wild Warrior (Ex)]{icon=down note=\"A saurian champion hails from primeval lands where the civilized orders hold little sway. He does not select an *order* or gain any *order*-related benefits.\" replace=Order}",
 			"",
-			":::ab{icon=power title=\"Dinosaur Mount (Ex)\" action=Ability alter=Mount replace=\"Tactician]~greater tactician, and @HL[master tactician\"}",
+			":::ab{icon=power title=\"Dinosaur Mount (Ex)\" action=Ability alter=Mount replace=\"Tactician~greater tactician~master tactician\"}",
 			"",
 			"A saurian champion bonds with a dinosaur companion that willingly serves as his mount. This mount functions as a cavalier's normal mount with the following adjustments:",
 			"",

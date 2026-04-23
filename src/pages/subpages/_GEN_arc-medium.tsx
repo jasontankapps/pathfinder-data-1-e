@@ -313,7 +313,7 @@ const _relic_channeler = {title: "Relic Channeler", jsx: <><h2 id="arc-medium-re
 </>};
 const _rivethun_spirit_channeler = {title: "Rivethun Spirit Channeler", jsx: <><h2 id="arc-medium-rivethun_spirit_channeler-rivethun-spirit-channeler">Rivethun Spirit Channeler</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 21</Link><br/><Link to="/rule/rivethun">Rivethun</Link> spirit channelers are mediums who practice the ancient dwarven philosophy of the rivethun, which teaches that power lies in the connection between physical bodies and immaterial souls. Most rivethun spirit channelers are dwarven adherents of this ancient philosophy, but mediums of other races are accepted with equal fervor, for the rivethun teachings state that discord and heterogeneousness are the most surefire way to open one's senses to the spiritual world. Rivethun spirit channelers act as ambassadors and negotiators between the denizens of the natural and supernatural worlds.</p>
-<Ability id="arc-medium-rivethun_spirit_channeler-mind-and-soul-ex" icon={["info"]}>
+<Ability id="arc-medium-rivethun_spirit_channeler-mind-and-soul-ex" icon={["info","broken-shield"]}>
 <Pair single id="arc-medium-rivethun_spirit_channeler-mind-and-soul-ex">Mind and Soul (Ex)</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Gained">At 1st Level</Pair>

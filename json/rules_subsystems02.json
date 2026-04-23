@@ -2072,7 +2072,7 @@
 			"",
 			"A Blind is a semi-solid wall constructed out of area-appropriate debris and flora. Between 10 and 15 feet high, a Blind helps to conceal any structures behind it as it blends in with the nearby landscape. Structures behind a Blind can be seen only with a successful DC 15 Perception check, and targets of ranged attacks made through a blind gain ‹rule/concealment›. One Blind can cover 20 squares' worth of structures; multiple Blinds can be used to conceal larger structures. A Blind can be thickened for double the construction cost, increasing the DC of the Perception check to see through the Blind to 20 and granting total concealment to creatures hiding behind it.",
 			"",
-			"::room[Grotto]{eGp eInfluence e=4 cGoods= cLabor=10 c=500 t=30 s1=5 s2=10}",
+			"::room[Grotto]{eGp eInfluence e=4 cGoods=15 cLabor=10 c=500 t=30 s1=5 s2=10}",
 			"",
 			"A Grotto is a naturally or artificially shaped cave in which people can live. Compared to a standard cave, a Grotto will usually boast features that make habitation more pleasant, such as door-sized openings, access to neighboring caves or water, and adequate ventilation.",
 			"",

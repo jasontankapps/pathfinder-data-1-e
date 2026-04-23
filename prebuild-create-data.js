@@ -452,7 +452,7 @@ const postprocess = (tables) => {
 };
 
 // Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
-const checkForBadDirective = /^(?!::|;;|.+(::|;;;))|^(:::|;;;)$|^>*(::[a-z][a-zA-Z0-9_]*(\[[^{}\]\[]*\])?|(:::|;;;)[a-z][a-zA-Z0-9_]*)(\{(?:(?<=\s|\{)([a-z][-a-zA-Z0-9]*(=[0-9]+|=[a-zA-Z][-a-zA-Z_0-9~+]*|=\"[^{}\[\]"]*\"|)\s*))*\})?$/
+const checkForBadDirective = /^(?!::|;;|.+(::|;;;))|^>*(:::|;;;)$|^>*(::[a-z][a-zA-Z0-9_]*(\[[^{}\]\[]*\])?|(:::|;;;)[a-z][a-zA-Z0-9_]*)(\{(?:(?<=\s|\{)([a-z][-a-zA-Z0-9]*(=[0-9]+|=[-a-zA-Z+()&!][-a-zA-Z_0-9;/&#~+()!]*|=\"[^{}\[\]"]*\"|)\s*))*\})?$/
 const convertDescription = (temporaryFlags, dirtyDesc, prefix, tables, openTag = "", closeTag = "") => {
 	$.prefix = prefix;
 	$.flags = {...temporaryFlags};
@@ -491,7 +491,7 @@ const convertDescription = (temporaryFlags, dirtyDesc, prefix, tables, openTag =
 };
 
 // Convert compilation templates into descriptions
-const parseTemplate = (template, title, suffix, sourceText, desc, split = true) => {
+const parseTemplate = (template, title, suffix, sourceText, d, split = true) => {
 	// !-DESC-! becomes the entry description
 	// !-TITLE-! becomes the entry title
 	// !-SUFFIX-! becomes the entry nameSuffix
@@ -514,8 +514,18 @@ const parseTemplate = (template, title, suffix, sourceText, desc, split = true) 
 			constructed = `${pre}${post}`;
 		}
 	}
+	let desc = d.join("!-N-!");
+	const double = (split ? "!-N-!!-N-!" : "!-N-!!-BQ-!!-N-!!-BQ-!");
+	if(m = d[0].match(/^\s*>*\s*::|;;;/)) {
+		// Add two newlines if the description starts with a block- or container-level directive.
+		desc = double + desc;
+	}
+	if(m = d[d.length - 1].match(/^\s*>*\s*(::|;;;)/)) {
+		// Ditto if it ends with a block- or container-level directive.
+		desc = desc + double;
+	}
 	constructed = constructed
-		.replace(/!-DESC-!/g, desc.join("!-N-!"))
+		.replace(/!-DESC-!/g, desc)
 		.replace(/!-TITLE-!/g, title)
 		.replace(/!-SUFFIX-!/g, suffix)
 		.replace(/!-SOURCE-!/g, sourceText);

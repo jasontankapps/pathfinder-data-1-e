@@ -1153,7 +1153,7 @@ const _saurian_champion = {title: "Saurian Champion", jsx: <><h2 id="arc-cavalie
 </Ability>
 <Ability id="arc-cavalier-saurian_champion-dinosaur-mount-ex" icon={["stairs-goal"]}>
 <Pair single id="arc-cavalier-saurian_champion-dinosaur-mount-ex">Dinosaur Mount (Ex)</Pair>
-<Pair hl title="Replaces">Tactician], greater tactician, and <strong className="hl"></strong>[master tactician</Pair>
+<Pair hl title="Replaces">Tactician, greater tactician, master tactician</Pair>
 <Pair hl title="Alters">Mount</Pair>
 <Pair title="Ability"><p>A saurian champion bonds with a dinosaur companion that willingly serves as his mount. This mount functions as a cavalier's normal mount with the following adjustments:</p>
 <ul>
