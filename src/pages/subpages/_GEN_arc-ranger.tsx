@@ -1817,7 +1817,7 @@ const _sword_devil = {title: "Sword-Devil", jsx: <><h2 id="arc-ranger-sword_devi
 <Pair single id="arc-ranger-sword_devil-death-vow-ex">Death Vow (Ex)</Pair>
 <Pair hl title="Replaces">Favored enemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Usage">1 time/day + 1 per one ranger levels beyond 3rd<ByLevelPop levels={[[1,1],[4,2],[7,3],[10,4],[13,5],[16,6],[19,7]]} unit="time" postText="/day" /></Pair>
+<Pair title="Usage">1 time/day + 1 per three ranger levels beyond 1st<ByLevelPop levels={[[1,1],[4,2],[7,3],[10,4],[13,5],[16,6],[19,7]]} unit="time" postText="/day" /></Pair>
 <Pair title="Swift Action">A sword-devil may focus all her fury and determination on a single foe she swears to slay. The sword-devil gains a bonus on weapon attack and damage rolls against her sworn target equal to half her sword-devil level (minimum +1). The <em>death vow</em> effect remains until the target of the <em>death vow</em> is dead, or the next time the sword-devil rests and regains use of this ability.</Pair>
 </Ability>
 <Ability id="arc-ranger-sword_devil-slashing-fury-ex" icon={["upgrade"]}>
@@ -2150,7 +2150,7 @@ const _urban_ranger = {title: "Urban Ranger", jsx: <><h2 id="arc-ranger-urban_ra
 <Ability id="arc-ranger-urban_ranger-blend-in-ex" icon={["upgrade","stairs-goal"]}>
 <Pair single id="arc-ranger-urban_ranger-blend-in-ex">Blend In (Ex)</Pair>
 <Pair hl title="Replaces">Camouflage</Pair>
-<Pair title="At 12th Level">An urban ranger of 12th level or higher can use his Stealth bonus in place of a Disguise skill check in any of his favored communities. This disguise does not take an action to don. He must make a check whenever someone attempts to pick him out from the local citizens. If his check is successful, he blends into the crowd. While not invisible, enemies do not notice his presence and take no actions against him unless they are taking actions against the local citizens in general.</Pair>
+<Pair title="At 12th Level">An urban ranger can use his Stealth bonus in place of a Disguise skill check in any of his favored communities. This disguise does not take an action to don. He must make a check whenever someone attempts to pick him out from the local citizens. If his check is successful, he blends into the crowd. While not invisible, enemies do not notice his presence and take no actions against him unless they are taking actions against the local citizens in general.</Pair>
 </Ability>
 <Ability id="arc-ranger-urban_ranger-invisibility-trick-sp" icon={["magic-swirl"]}>
 <Pair single id="arc-ranger-urban_ranger-invisibility-trick-sp">Invisibility Trick (Sp)</Pair>
@@ -2287,7 +2287,7 @@ const _wild_shadow = {title: "Wild Shadow", jsx: <><h2 id="arc-ranger-wild_shado
 <Pair hl title="Replaces">Quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Standard Action">The wild shadow denotes one target within line of sight and within one of his <em>favored terrains</em> as his <em>harried prey.</em> Once the foe is so designated, every time the wild shadow hits this <em>harried prey</em> with a melee or ranged weapon attack (either manufactured or natural), that creature is <Link to="/rule/entangled">entangled</Link> for 1 round. A wild shadow can have no more than one <em>harried prey</em> at a time and that creature must correspond to one of his <em>favored enemy</em> types.</Pair>
-<Pair title="Special">He can dismiss this effect at any time as a <strong className="hl">free action</strong>, be he cannot select a new <em>harried prey</em> for 24 hours. If the wild shadow sees proof that his <em>harried prey</em> is dead, he can select a new <em>harried prey</em> after waiting 1 hour.</Pair>
+<Pair title="Special">He can dismiss this effect at any time as a <strong className="hl">free action</strong>, but he cannot select a new <em>harried prey</em> for 24 hours. If the wild shadow sees proof that his <em>harried prey</em> is dead, he can select a new <em>harried prey</em> after waiting 1 hour.</Pair>
 </Ability>
 <Ability id="arc-ranger-wild_shadow-wild-stalker-ex" icon={["armor-upgrade"]}>
 <Pair single id="arc-ranger-wild_shadow-wild-stalker-ex" flavor="A wild shadow learns to better use natural surroundings to obscure his position in combat.">Wild Stalker (Ex)</Pair>
@@ -2387,14 +2387,14 @@ const _wild_stalker = {title: "Wild Stalker", jsx: <><h2 id="arc-ranger-wild_sta
 <Pair single id="arc-ranger-wild_stalker-wild-talents-ex">Wild Talents (Ex)</Pair>
 <Pair hl title="Replaces">6th-, 10th-, 14th-, and 18th-level combat style feat</Pair>
 <Pair title="Gained">At 6th Level</Pair>
-<Pair title="Choice">A wild stalker can either take a rage power, or gains a +2 insight bonus into any one of the following skills: Acrobatics, Climb, Perception, Stealth, Survival, or Swim.<sup><InnerLink showBacklink="backlink-arc-ranger-wild_stalker-fake-fn-2" id="arc-ranger-wild_stalker-fake-fn-2" data-hash-target to="arc-ranger-wild_stalker-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Choice">A wild stalker can either take a rage power, or gain a +2 insight bonus into any one of the following skills: Acrobatics, Climb, Perception, Stealth, Survival, or Swim.<sup><InnerLink showBacklink="backlink-arc-ranger-wild_stalker-fake-fn-2" id="arc-ranger-wild_stalker-fake-fn-2" data-hash-target to="arc-ranger-wild_stalker-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="At 10th Level">The wild stalker can gain one of these two benefits again.</Pair>
 <Pair title="At 14th Level">The wild stalker can gain one of these two benefits again.</Pair>
 <Pair title="At 18th Level">The wild stalker can gain one of these two benefits again.</Pair>
 </Ability>
 <section data-footnotes><h3 id="arc-ranger-wild_stalker-label">Footnotes</h3><ol>
 <li id="arc-ranger-wild_stalker-fake-fn-1-target"><p>The original text reads: <em>"This bonus increases by +1 for every four levels after 1st."</em> This implies a 1/5/9/13/17 progression, which would only reach +5/+6 at 20th level, but the text continues, <em>"(to a maximum of +6 [or +7] at 20th level),"</em> which only makes sense if the bonus increases <em>at 4th level</em> and every four levels thereafter. This is the interpretation used here. <InnerLink aria-label="Back to reference 1" id="backlink-arc-ranger-wild_stalker-fake-fn-1" data-hash-target to="arc-ranger-wild_stalker-fake-fn-1">↩</InnerLink></p></li>
-<li id="arc-ranger-wild_stalker-fake-fn-2-target"><p>The original text reads: <em>"The wild stalker can gain one of these two benefits again every five levels after 6th (to a maximum of 4 times at 20th level)."</em> The listed progression only gives three benefits (at levels 6/11/16), whereas the abilities replaced are at levels 6/10/14/18. The latter interpretation is used here. <InnerLink aria-label="Back to reference 2" id="backlink-arc-ranger-wild_stalker-fake-fn-2" data-hash-target to="arc-ranger-wild_stalker-fake-fn-2">↩</InnerLink></p></li>
+<li id="arc-ranger-wild_stalker-fake-fn-2-target"><p>The original text reads: <em>"The wild stalker can gain one of these two benefits again every five levels after 6th (to a maximum of 4 times at 20th level)."</em> The listed progression only gives three benefits (at levels 6/11/16), not four. Either the maximum is wrong, or the level progression is wrong. Given that this ability replaces four bonus feats (at levels 6/10/14/18), the latter interpretation has been used here, and the ability is granted every <em>four</em> levels instead of five (which matches the levels of the bonus feats). <InnerLink aria-label="Back to reference 2" id="backlink-arc-ranger-wild_stalker-fake-fn-2" data-hash-target to="arc-ranger-wild_stalker-fake-fn-2">↩</InnerLink></p></li>
 </ol></section></>};
 const _wilderness_explorer = {title: "Wilderness Explorer", jsx: <><h2 id="arc-ranger-wilderness_explorer-wilderness-explorer">Wilderness Explorer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 74</Link><br/>Wilderness explorers are adept at making peaceful contact with remote societies.</p>
@@ -2454,7 +2454,7 @@ const _wilderness_medic = {title: "Wilderness Medic", jsx: <><h2 id="arc-ranger-
 <Pair title="At 9th Level">The wilderness medic can lessen the severity of additional conditions for the target and cure other conditions that the target suffers. If the target creature is <Link to="/misc/blinded">blinded</Link>, it becomes <Link to="/misc/dazzled">dazzled</Link> instead. If the target is <Link to="/misc/panicked">panicked</Link>, it becomes shaken instead. If it has any of the following conditions, they are cured: <Link to="/misc/deafened">deafened</Link>, fatigued, shaken, and sickened.</Pair>
 <Pair title="Special">The wilderness medic is able to use the non-<em>stabilize</em> ability on a given touched target once every 24 hours.</Pair>
 </Ability>
-<Ability id="arc-ranger-wilderness_medic-rallying-bond-sp" icon={["broken-shield"]}>
+<Ability id="arc-ranger-wilderness_medic-rallying-bond-sp" icon={["broken-shield","heart-plus","upgrade"]}>
 <Pair single id="arc-ranger-wilderness_medic-rallying-bond-sp">Rallying Bond (Sp)</Pair>
 <Pair hl title="Replaces">Improved evasion</Pair>
 <Pair hl title="Alters">Hunter's bond</Pair>
