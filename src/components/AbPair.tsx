@@ -1,4 +1,4 @@
-import { createElement, PropsWithChildren, ReactElement } from 'react';
+import { createElement, PropsWithChildren, Fragment, ReactNode } from 'react';
 import Link from './Link';
 
 interface HtmlObject {
@@ -32,11 +32,11 @@ type PairProps = TitleProps | AbilityProps;
 
 const parseHtmlArrayKludge = (title: ComplexTitle) => {
 	const input = [...title];
-	const output: ReactElement[] = [];
+	const output: ReactNode[] = [];
 	while(input.length > 0) {
 		const bit = input.shift()!;
 		if(typeof bit === "string") {
-			output.push(<>{bit}</>);
+			output.push(bit);
 			continue;
 		}
 		const {tag, content, props} = bit;
@@ -45,10 +45,10 @@ const parseHtmlArrayKludge = (title: ComplexTitle) => {
 			output.push(<Link to={to}>{content}</Link>);
 			continue;
 		}
-		const node = createElement(tag, null, content);
+		const node = createElement(tag, {}, content);
 		output.push(node);
 	}
-	return <>{output}</>;
+	return createElement(Fragment, {}, ...output);
 };
 
 const Pair: React.FC<PropsWithChildren<PairProps>> = (props) => {
