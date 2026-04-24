@@ -252,7 +252,7 @@ const _argent_voice = {title: "Argent Voice", jsx: <><h2 id="arc-bard-argent_voi
 <Pair title="At 18th Level">This ability can be used on effects that can be removed by the spell <Link to="/spell/break_enchantment">break enchantment</Link>.</Pair>
 </Ability>
 <Ability id="arc-bard-argent_voice-devilbane-refrain-su" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-bard-argent_voice-devilbane-refrain-su" flavor="The argent voice learns how to mimic aspects of the magical "Song of Silver" with his performance, enhancing his allies' ability to combat devils and similar fiends.">Devilbane Refrain (Su)</Pair>
+<Pair single id="arc-bard-argent_voice-devilbane-refrain-su" flavor={`The argent voice learns how to mimic aspects of the magical "Song of Silver" with his performance, enhancing his allies' ability to combat devils and similar fiends.`}>Devilbane Refrain (Su)</Pair>
 <Pair hl title="Replaces">Dirge of doom, frightening tune</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">A creature must be able to hear the argent voice's singing and be within 30 feet of him to be affected. Natural and manufactured weapons wielded by affected allies are treated as though they were silver for the purpose of bypassing damage reduction.</Pair>

@@ -362,13 +362,23 @@ const makeAbilityBlock = ({
 	// TITLE
 	//
 
+	const convertQuotes = (input) => {
+		const q = input.match(/"|&quot[&;]/);
+		const a = input.match(/'|&(apos|#39)[&;]/);
+		if (q && a) {
+			return "{`" + input + "`}";
+		} else if(q) {
+			return "{'" + input + "'}";
+		}
+		return `"${input}"`;
+	};
 	const maybeFlavor = () => {
 		if(!flavor) {
 			return "";
 		}
 		const flavory = doParse(flavor);
 		if (!flavory.match(/[<>‹›]/)) {
-			return ` flavor="${flavory}"`;
+			return ` flavor=${convertQuotes(flavory)}`;
 		}
 		let m;
 		let test = flavory;
