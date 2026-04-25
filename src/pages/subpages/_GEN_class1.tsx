@@ -1,4 +1,3 @@
-import {IonIcon} from '@ionic/react';
 import DisplayTable from '../../components/DisplayTable';
 import Link from '../../components/Link';
 import Pair from '../../components/AbPair';

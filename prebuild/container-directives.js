@@ -30,8 +30,7 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 			switch(n) {
 				case "ab": {
 					const marked2 = makeNewMarkedInstance();
-					flags.icon = true;
-					flags.link = true;
+					flags.ability = true;
 					const {logError} = $;
 					const {title, action, ...etc} = attrs;
 					if(!action) {

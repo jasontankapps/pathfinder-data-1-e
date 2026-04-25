@@ -395,8 +395,6 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					/^use(F|NC|L3?|M(od)?|Inc|Unit)$/,
 					/^increment(At|End|Plain|Desc|Ord|Multi|Max|Roman)?$/
 				], logError);
-				flags.icon = true;
-				flags.link = true;
 				flags.ability = true;
 				const marked2 = makeNewMarkedInstance();
 				const jlid = prefix + (attrs.id || makeValidID(text));
@@ -412,8 +410,6 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				churn(n, attrs, [
 					"gain", "lose", "pre", "post", "preTitle", "postTitle", "preHL", "postHL", "noAlter"
 				], [], logError);
-				flags.icon = true;
-				flags.link = true;
 				flags.ability = true;
 				const marked2 = makeNewMarkedInstance();
 				return makeClassSkillsAbilityBlock({
@@ -436,8 +432,6 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"limited", "limitedFull", "cureInflict", "summonNature",
 					"trade53", "trade42", "tradeLimit"
 				], [], logError);
-				flags.icon = true;
-				flags.link = true;
 				flags.ability = true;
 				const jlid = prefix + "spells";
 				addToJumpList("Spells", jlid, "jl");
@@ -496,8 +490,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				const type = (c === "knacks") ? "psychic" : ((c === "orisons") ? "divine" : "arcane");
 				const text = c.slice(0,1).toUpperCase() + c.slice(1);
 				const prepcast = p ? "prepared" : "cast";
-				flags.icon = true;
-				flags.link = true;
+				flags.ability = true;
 				return makeAbilityBlock({
 					maybeClear, prefix, logError, text,
 					marked2: { parseInline: (x) => x },
