@@ -1,79 +1,157 @@
 import {IonIcon} from '@ionic/react';
-import Link from '../../components/Link';
+import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
+import ScrollContainer from '../../components/ScrollContainer';
+import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 const _acrobat = {title: "Acrobat", jsx: <><h2 id="arc-rogue-acrobat-acrobat">Acrobat</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 132</Link><br/>Agility and daring are both excellent rogue traits, and their confluence can create spectacular feats of acrobatics. Whether they are daring thieves, infiltrating assassins, or intrepid spies, proper training in acrobatics is a valuable boon for rogues.</p>
-<p><strong>Expert Acrobat (Ex):</strong> At 1st level, an acrobat does not suffer any armor check penalties on Acrobatics, Climb, Fly, Sleight of Hand, or Stealth skill checks while wearing light armor. When she is not wearing armor, she gains a +2 competency bonus on Acrobatics and Fly skill checks.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Second Chance (Ex):</strong> At 3rd level, an acrobat can reroll any Acrobatics, Climb, or Fly skill check she has just made. This reroll is made at a -5 penalty. She must take the second result, even if it is worse. An acrobat can use this ability only once on any given skill check. She can use this ability once per day at 3rd level, plus one additional time per day for every 3 levels beyond 3rd.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the acrobat archetype: <Link to="/talent/rogue_crawl">rogue crawl</Link>, and <Link to="/talent/stand_up">stand up</Link> (<em>Combat Talents</em> group); <Link to="/talent/fast_getaway">fast getaway</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/expert_leaper">expert leaper</Link>, <Link to="/talent/ledge_walker">ledge walker</Link>, <Link to="/talent/nimble_climber">nimble climber</Link>, and <Link to="/talent/peerless_maneuver">peerless maneuver</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the acrobat archetype: <Link to="/talent/defensive_roll">defensive roll</Link>, <Link to="/talent/fast_tumble">fast tumble</Link>, and <Link to="/talent/improved_evasion">improved evasion</Link> (<em>Combat Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-acrobat-expert-acrobat-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-acrobat-expert-acrobat-ex">Expert Acrobat (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">An acrobat does not suffer any armor check penalties on Acrobatics, Climb, Fly, Sleight of Hand, or Stealth skill checks while wearing light armor. When she is not wearing armor, she gains a +2 competency bonus on Acrobatics and Fly skill checks.</Pair>
+</Ability>
+<Ability id="arc-rogue-acrobat-second-chance-ex" icon={["rolling-dices"]}>
+<Pair single id="arc-rogue-acrobat-second-chance-ex">Second Chance (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Usage">1 time/day per three rogue levels<ByLevelPop levels={[[3,1],[6,2],[9,3],[12,4],[15,5],[18,6]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">An acrobat can reroll any Acrobatics, Climb, or Fly skill check she has just made. This reroll is made at a -5 penalty. She must take the second result, even if it is worse. An acrobat can use this ability only once on any given skill check.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/expert_leaper">Expert leaper</Link>, <Link to="/talent/fast_getaway">fast getaway</Link>, <Link to="/talent/ledge_walker">ledge walker</Link>, <Link to="/talent/nimble_climber">nimble climber</Link>, <Link to="/talent/peerless_maneuver">peerless maneuver</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/stand_up">stand up</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/defensive_roll">Defensive roll</Link>, <Link to="/talent/fast_tumble">fast tumble</Link>, <Link to="/talent/improved_evasion">improved evasion</Link></p></>};
 const _bandit = {title: "Bandit", jsx: <><h2 id="arc-rogue-bandit-bandit">Bandit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 71</Link><br/>Bandits, brigands, and highwaymen hone their craft along the roadsides and byways of the world, where they leap from the shadows to plunder the spoils of passing travelers. Bandits tend to have a variety of skills; sometimes these skills are similar to a ranger's, but a bandit's tactics always deal with surprise followed by intimidation, with the clear threat of naked force if intimidation does not do the trick. But not all bandits are ruthless thugs. There are those who become outlaws in opposition to tyrants or similar oppressors. These bandits target the status quo and distribute their spoils back into the needy hands of the peasantry.</p>
-<p><strong>Ambush (Ex):</strong> At 4th level, a bandit becomes fully practiced in the art of ambushing. When she acts in the surprise round, she can take a move action, standard action, and swift action during the surprise round, not just a move or standard action.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Fearsome Strike (Ex):</strong> At 8th level, a bandit can terrify an opponent with a single hit. A number of times per day equal to her Charisma modifier (minimum 1), when a bandit confirms a critical hit and deals sneak attack damage to an opponent, she can choose to make the opponent frightened for a number of rounds equal to her Charisma modifier (minimum 1). She cannot use this ability in conjunction with a critical feat.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the bandit archetype: <Link to="/talent/underhanded">underhanded</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/assault_leader">assault leader</Link> (<em>Ally-Related Talents</em> group); <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/snap_shot">snap shot</Link>, and <Link to="/talent/weapon_training">weapon training</Link> (<em>Combat Talents</em> group); <Link to="/talent/cunning_trigger">cunning trigger</Link> (<em>Trap Talents</em> group); <Link to="/talent/surprise_attack">surprise attack</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/terrain_mastery">terrain mastery</Link> (<em>Deception Talents</em> group); <Link to="/talent/strong_impression">strong impression</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the bandit archetype: <Link to="/talent/knock_out_blow">knock-out blow</Link> and <Link to="/talent/opportunist">opportunist</Link> (<em>Combat Talents</em> group); <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-bandit-ambush-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-bandit-ambush-ex" flavor="A bandit becomes fully practiced in the art of ambushing.">Ambush (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">When she acts in the surprise round, she can take a move action, standard action, and swift action during the surprise round, not just a move or standard action.</Pair>
+</Ability>
+<Ability id="arc-rogue-bandit-fearsome-strike-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-rogue-bandit-fearsome-strike-ex" flavor="A bandit can terrify an opponent with a single hit.">Fearsome Strike (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">Charisma modifier times/day (minimum 1)</Pair>
+<Pair title="Ability">When a bandit confirms a critical hit and deals sneak attack damage to an opponent, she can choose to make the opponent <Link to="/misc/frightened">frightened</Link> for a number of rounds equal to her Charisma modifier (minimum 1). She cannot use this ability in conjunction with a critical feat.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/assault_leader">Assault leader</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/cunning_trigger">cunning trigger</Link>, <Link to="/talent/snap_shot">snap shot</Link>, <Link to="/talent/strong_impression">strong impression</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>, <Link to="/talent/underhanded">underhanded</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hide_in_plain_sight">Hide in plain sight</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/opportunist">opportunist</Link></p></>};
 const _bekyar_kidnapper = {title: "Bekyar Kidnapper", jsx: <><h2 id="arc-rogue-bekyar_kidnapper-bekyar-kidnapper">Bekyar Kidnapper</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 36</Link><br/>One of the many ethnicities found in the Mwangi Expanse, the Bekyar people are slavers and demon worshipers. A Bekyar kidnapper is not only adept at hiding herself in thick jungles and quickly subduing her prey, but also at spreading rumors of hidden ruins, buried treasure, and other such valuables that might lure an unwary foreigner into her traps.</p>
-<p><strong>Clean Capture (Ex):</strong> At 1st level, a Bekyar kidnapper reduces the penalty to her combat maneuver check to tie up a pinned or otherwise restrained target by an amount equal to 1/2 her rogue level. In addition, she can take the feats <Link to="/feat/improved_grapple">Improved Grapple</Link> and <Link to="/feat/greater_grapple">Greater Grapple</Link> as rogue talents. She can ignore the <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> requirement when selecting these feats as rogue talents, but must meet all other prerequisites.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Abductor (Ex):</strong> At 3rd level, a Bekyar kidnapper gains a +1 bonus on combat maneuver checks to grapple a foe. In addition, the Bekyar kidnapper treats her combat maneuver bonus as 1 higher when a foe tries to grapple her or when a grappled target attempts to break free of her grapple. These bonuses increase by 1 for every 3 levels beyond 3rd.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the Bekyar kidnapper archetype: <Link to="/talent/black_market_connections">black market connections</Link> (<em>Other Magic-Related Talents</em> group); <Link to="/talent/camouflage">camouflage</Link> and <Link to="/talent/terrain_mastery">terrain mastery</Link> (<em>Deception Talents</em> group); <Link to="/talent/combat_trick">combat trick</Link> (<em>Combat Talents</em> group); <Link to="/talent/rope_master">rope master</Link> and <Link to="/talent/survivalist">survivalist</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the Bekyar kidnapper archetype: <Link to="/talent/crippling_strike">crippling strike</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/knock_out_blow">knock-out blow</Link> and <Link to="/talent/weapon_snatcher">weapon snatcher</Link> (<em>Combat Talents</em> group); <Link to="/talent/rumormonger">rumormonger</Link> and <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-bekyar_kidnapper-clean-capture-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-bekyar_kidnapper-clean-capture-ex">Clean Capture (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">A Bekyar kidnapper reduces the penalty to her combat maneuver check to tie up a pinned or otherwise restrained target by an amount equal to 1/2 her rogue level.</Pair>
+<Pair title="Ability">She can take the feats <Link to="/feat/improved_grapple">Improved Grapple</Link> and <Link to="/feat/greater_grapple">Greater Grapple</Link> as rogue talents. She can ignore the <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> requirement when selecting these feats as rogue talents, but must meet all other prerequisites.</Pair>
+</Ability>
+<Ability id="arc-rogue-bekyar_kidnapper-abductor-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-rogue-bekyar_kidnapper-abductor-ex">Abductor (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">A Bekyar kidnapper gains a bonus on combat maneuver checks to grapple a foe. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level. In addition, the Bekyar kidnapper adds this bonus to her combat maneuver bonus when a foe tries to grapple her or when a grappled target attempts to break free of her grapple.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/black_market_connections">Black market connections</Link>, <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/rope_master">rope master</Link>, <Link to="/talent/survivalist">survivalist</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/crippling_strike">Crippling strike</Link>, <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/rumormonger">rumormonger</Link>, <Link to="/talent/weapon_snatcher">weapon snatcher</Link></p></>};
 const _bellflower_irrigator = {title: "Bellflower Irrigator", jsx: <><h2 id="arc-rogue-bellflower_irrigator-bellflower-irrigator">Bellflower Irrigator</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 43</Link><br/>Bellflower irrigators take on tasks that many other agents of the <Link to="/rule/bellflower_network">Bellflower Network</Link> find distasteful. Rather than focusing on saving slaves, Bellflower irrigators seek to defeat slavery by aiming to eliminate the source. They gauge the precise moment to strike from the shadows and annihilate slave traders and masters alike. Bellflower irrigators realize that for every slave released today, another will be shackled tomorrow - until all the masters are dead. This cynicism leads Bellflower irrigators to target anyone who owns or sells slaves on Golarion, especially cruel masters within Cheliax.</p>
 <p>Though most Bellflower irrigators are <Link to="/race/halfling">halflings</Link>, this branch of the Network is more diverse than many of the others - anyone with a hatred of slavery and a talent for stealth and martial combat is free to join. Bellflower irrigators employ combat methods that many find questionable, such as the use of poison and calculated strikes meant to kill rather than incapacitate. The Bellflower Network does not knowingly allow evil members, but very few Bellflower irrigators are good - most are chaotic neutral in alignment, as their methods of solving the problem of slavery often force them into moral and ethical gray areas. A few Bellflower irrigators are in fact evil, but these rarities do their best to hide their personal lack of morals and addiction to cruelty in order to maintain their positions and connection to the Bellflowers, for as evil as they may be, they share a hatred of slavery with their more altruistic kin. An evil Bellflower irrigator who is found out is typically exiled from the group, yet most continue to fight slavery even after they are sent away in this way.</p>
-<p><strong>Bellflower Crop (Ex):</strong> As a standard action, a Bellflower irrigator can designate a number of allies equal to 3 + his Charisma modifier as part of his Bellflower crop. Members of a Bellflower crop must remain within 30 feet of the Bellflower irrigator to gain any benefits from abilities that affect a Bellflower crop, regardless of the ability's source (whether it's a Bellflower harvester, irrigator, or tiller). If the allies leave this range, the Bellflower irrigator must designate them again to include them in his crop.</p>
-<p><strong>Poison Use (Ex):</strong> A Bellflower irrigator is trained in the use of poison and cannot accidentally poison himself when applying poison to a weapon.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Grafting (Ex):</strong> At 4th level, a Bellflower irrigator is considered to be flanking an opponent if at least two members of his Bellflower crop are threatening that opponent, regardless of the irrigator's actual positioning.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong> and the <strong className="hl">rogue talent</strong> gained at 4th level.</p>
-<p><strong>Irrigation (Ex):</strong> At 8th level, if a Bellflower irrigator studies his target for 3 rounds (spending a standard action each round to do so) and then makes a sneak attack with a melee weapon that successfully deals damage, the attack has the additional effect of possibly either paralyzing or killing the target (Bellflower irrigator's choice). The death attack fails if the target detects the Bellflower irrigator or recognizes him as an enemy. If the victim of the attack fails a Fortitude save (DC = 10 + 1/2 the Bellflower irrigator's class level + the Bellflower irrigator's Intelligence modifier) against the kill effect, she dies. If the saving throw fails against the paralysis effect, the victim is rendered helpless and unable to act for 1d6 rounds plus 1 round per 2 rogue levels that the Bellflower irrigator has. If the victim's saving throw succeeds, the attack is just a normal sneak attack. Once the Bellflower irrigator has completed the 3 rounds of study, he must make the irrigation attempt within the next 3 rounds. A Bellflower irrigator can attempt to kill or paralyze a creature in this way once per day, plus one additional time per day for every 4 additional rogue levels he has after 8th.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
+<Ability id="arc-rogue-bellflower_irrigator-bellflower-crop-ex" icon={["abstract-091"]}>
+<Pair single id="arc-rogue-bellflower_irrigator-bellflower-crop-ex">Bellflower Crop (Ex)</Pair>
+<Pair title="Standard Action">A Bellflower irrigator can designate a number of allies equal to 3 + his Charisma modifier as part of his <em>Bellflower crop.</em> Members of a <em>Bellflower crop</em> must remain within 30 feet of the Bellflower irrigator to gain any benefits from abilities that affect a <em>Bellflower crop,</em> regardless of the ability's source (whether it's a Bellflower harvester, irrigator, or tiller). If the allies leave this range, the Bellflower irrigator must designate them again to include them in his crop.</Pair>
+</Ability>
+<Ability id="arc-rogue-bellflower_irrigator-poison-use-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-bellflower_irrigator-poison-use-ex">Poison Use (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Ability">A Bellflower irrigator is trained in the use of poison and cannot accidentally poison himself when applying poison to a weapon.</Pair>
+</Ability>
+<Ability id="arc-rogue-bellflower_irrigator-grafting-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-rogue-bellflower_irrigator-grafting-ex">Grafting (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge, rogue talent gained at 4th level</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">A Bellflower irrigator is considered to be <Link to="/rule/flanking">flanking</Link> an opponent if at least two members of his <em>Bellflower crop</em> are threatening that opponent, regardless of the irrigator's actual positioning.</Pair>
+</Ability>
+<Ability id="arc-rogue-bellflower_irrigator-irrigation-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-bellflower_irrigator-irrigation-ex">Irrigation (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four rogue levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">If a Bellflower irrigator studies his target for 3 rounds (spending a <strong className="hl">standard action</strong> each round to do so) and then makes a sneak attack with a melee weapon that successfully deals damage, the attack has the additional effect of possibly either <Link to="/rule/paralyzed">paralyzing</Link> or killing the target (Bellflower irrigator's choice). The death attack fails if the target detects the Bellflower irrigator or recognizes him as an enemy. If the victim of the attack fails a Fortitude save (DC = 10 + 1/2 the Bellflower irrigator's class level + the Bellflower irrigator's Intelligence modifier) against the kill effect, she dies. If the saving throw fails against the paralysis effect, the victim is rendered helpless and unable to act for 1d6 rounds plus 1 round per 2 rogue levels that the Bellflower irrigator has. If the victim's saving throw succeeds, the attack is just a normal sneak attack. Once the Bellflower irrigator has completed the 3 rounds of study, he must make the irrigation attempt within the next 3 rounds.</Pair>
+</Ability>
 </>};
 const _burglar = {title: "Burglar", jsx: <><h2 id="arc-rogue-burglar-burglar">Burglar</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 132</Link><br/>Adept at infiltration, trap removal, and lock picking, burglars prey on the homes of the wealthy and forgotten tombs alike. Such riches are guarded with vicious traps and hazards, but the devious mind of the burglar allows her to find such dangers and avoid them.</p>
-<p><strong>Careful Disarm (Ex):</strong> At 4th level, whenever a burglar attempts to disarm a trap using Disable Device, she does not spring the trap unless she fails by 10 or more. If she does set off a trap she was attempting to disarm, she adds double her trap sense bonus to avoid the trap.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Distraction (Ex):</strong> At 8th level, whenever a burglar is detected while using Stealth, she can immediately attempt a Bluff skill check opposed by the Sense Motive skill of the creature that spotted her. If this check succeeds, the target assumes that the noise was something innocent and disregards the detection. This only functions if the creature cannot see the rogue. This ability can only be used once during a given Stealth attempt. If the same creature detects the rogue's presence again, the ability has no effect.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the burglar archetype: <Link to="/talent/fast_picks">fast picks</Link>, <Link to="/talent/quick_disable">quick disable</Link> (<em>Disable Device Talents</em> group); <Link to="/talent/fast_stealth">fast stealth</Link> (<em>Deception Talents</em> group); <Link to="/talent/nimble_climber">nimble climber</Link> (<em>Other Talents</em> group); and <Link to="/talent/trap_spotter">trap spotter</Link> (<em>Trap Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the burglar archetype: <Link to="/talent/knock_out_blow">knock-out blow</Link> (<em>Combat Talents</em> group); <Link to="/talent/skill_mastery">skill mastery</Link> and <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-burglar-careful-disarm-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-burglar-careful-disarm-ex">Careful Disarm (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">Whenever a burglar attempts to disarm a trap using Disable Device, she does not spring the trap unless she fails by 10 or more. If she does set off a trap she was attempting to disarm, she adds double her <em>trap sense</em> bonus to avoid the trap.</Pair>
+</Ability>
+<Ability id="arc-rogue-burglar-distraction-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-burglar-distraction-ex">Distraction (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Whenever a burglar is detected while using Stealth, she can immediately attempt a Bluff skill check opposed by the Sense Motive skill of the creature that spotted her. If this check succeeds, the target assumes that the noise was something innocent and disregards the detection. This only functions if the creature cannot see the rogue. This ability can only be used once during a given Stealth attempt. If the same creature detects the rogue's presence again, the ability has no effect.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/fast_picks">Fast picks</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/nimble_climber">nimble climber</Link>, <Link to="/talent/quick_disable">quick disable</Link>, <Link to="/talent/trap_spotter">trap spotter</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/knock_out_blow">Knock-out blow</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link></p></>};
 const _carnivalist = {title: "Carnivalist", jsx: <><h2 id="arc-rogue-carnivalist-carnivalist">Carnivalist</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 6</Link><br/>Carnivalists train their miniature minions to perform acts of larceny and often hide their true talents behind theatrical sideshows.</p>
 <Ability icon={["skills"]} id="arc-rogue-carnivalist-undefined">
 <Pair id="arc-rogue-carnivalist-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA)</Pair></Ability>
-<p><strong>Familiar:</strong> At 1st level, a carnivalist gains a <Link to="/sidekick/familiar">familiar</Link> as a wizard of equal level. Levels in a class that grants a familiar stack with carnivalist levels for determining the familiar's abilities.</p>
-<p><strong>Pet Performance (Ex):</strong> A carnivalist gains use of several <Link to="/ability/bardic_performances">bardic performances</Link>, making Handle Animal checks in place of any Perform checks. At 2nd level, she gains the <Link to="/performance/distraction">distraction</Link> bardic performance. At 4th level, she gains the <Link to="/performance/fascinate">fascinate</Link> bardic performance. At 6th level, she also gains use of the following performance.</p>
-<blockquote>
-<p><strong>Trained Legerdemain (Ex):</strong> At 6th level, a carnivalist can command a familiar or pet within 30 feet to make a Disable Device or Sleight of Hand check as if trained in the skill, using its own skill ranks (if any), Dexterity modifier, and equipment, with a competence bonus equal to 1/2 her rogue level. The check requires the normal amount of time to complete and the DC increases by 5. The carnivalist must maintain this pet performance each round her familiar or pet attempts a Disable Device or Sleight of Hand check.</p>
-</blockquote>
-<p>The pet performance ability otherwise functions identically to bardic performance. Levels in a class with the <em>distraction</em> or <em>fascinate</em> bardic performances stack with carnivalist levels for the purpose of determining bonuses granted by these performances.</p>
-<p>This ability replaces the <strong className="hl">rogue talents</strong> gained at 2nd, 4th, and 6th level.</p>
-<p><strong>Sneak Attack (Ex):</strong> A carnivalist gains this ability starting at 2nd level. The sneak attack damage dealt is 1d6 points at 2nd level, and increases by 1d6 points every 4 carnivalist levels thereafter. A carnivalist's familiar can also deal sneak attack damage as appropriate to foes as long as it is within 30 feet of her (though only Small and larger creatures may flank enemies, as usual).</p>
-<p><strong>Animal Trainer (Ex):</strong> Starting at 3rd level, a carnivalist receives a bonus equal to 1/2 her rogue level whenever she uses Handle Animal on a Tiny or Small animal. In addition, she can increase the DC by 5 to reduce the time needed to teach an animal a new trick or train an animal for a general purpose to 1 day for every week normally required. She can also train more than one animal at once, although each animal after the first adds 2 to the DC.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
+<Ability id="arc-rogue-carnivalist-familiar" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-carnivalist-familiar">Familiar</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A carnivalist gains a <Link to="/sidekick/familiar">familiar</Link> as a wizard of equal level. Levels in a class that grants a familiar stack with carnivalist levels for determining the familiar's abilities.</Pair>
+</Ability>
+<Ability id="arc-rogue-carnivalist-pet-performance-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-carnivalist-pet-performance-ex">Pet Performance (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talents gained at 2nd, 4th, and 6th level</Pair>
+<Pair title="Ability">A carnivalist gains use of several <Link to="/ability/bardic_performances">bardic performances</Link>, making Handle Animal checks in place of any Perform checks.</Pair>
+<Pair title="At 2nd Level">She gains the <Link to="/performance/distraction">distraction</Link> bardic performance.</Pair>
+<Pair title="At 4th Level">She gains the <Link to="/performance/fascinate">fascinate</Link> bardic performance.</Pair>
+<Pair title="At 6th Level">She gains use of the performance below.</Pair>
+</Ability>
+<Ability id="arc-rogue-carnivalist-trained-legerdemain-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-rogue-carnivalist-trained-legerdemain-ex">Trained Legerdemain (Ex)</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">A carnivalist can command a familiar or pet within 30 feet to make a Disable Device or Sleight of Hand check as if trained in the skill, using its own skill ranks (if any), Dexterity modifier, and equipment, with a competence bonus equal to 1/2 her rogue level. The check requires the normal amount of time to complete and the DC increases by 5. The carnivalist must maintain this pet performance each round her familiar or pet attempts a Disable Device or Sleight of Hand check.</Pair>
+<Pair title="Special">The pet performance ability otherwise functions identically to bardic performance. Levels in a class with the <em>distraction</em> or <em>fascinate</em> bardic performances stack with carnivalist levels for the purpose of determining bonuses granted by these performances.</Pair>
+</Ability>
+<Ability id="arc-rogue-carnivalist-sneak-attack-ex" icon={["broken-shield","stairs-goal"]}>
+<Pair single id="arc-rogue-carnivalist-sneak-attack-ex">Sneak Attack (Ex)</Pair>
+<Pair hl title="Alters">Sneak attack</Pair>
+<Pair title="Ability">A carnivalist gains this ability starting at 2nd level. The sneak attack damage dealt is 1d6 points. A carnivalist's familiar can also deal sneak attack damage as appropriate to foes as long as it is within 30 feet of her (though only Small and larger creatures may flank enemies, as usual).</Pair>
+<Pair title="At 6th Level">The sneak attack damage becomes 2d6 points.</Pair>
+<Pair title="At 10th Level">The sneak attack damage increases to 3d6 points.</Pair>
+<Pair title="At 14th Level">The sneak attack damage becomes 4d6 points.</Pair>
+<Pair title="At 18th Level">The sneak attack damage increases to 5d6 points.</Pair>
+</Ability>
+<Ability id="arc-rogue-carnivalist-animal-trainer-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-rogue-carnivalist-animal-trainer-ex">Animal Trainer (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A carnivalist receives a bonus equal to 1/2 her rogue level whenever she uses Handle Animal on a Tiny or Small animal. In addition, she can increase the DC by 5 to reduce the time needed to teach an animal a new trick or train an animal for a general purpose to 1 day for every week normally required. She can also train more than one animal at once, although each animal after the first adds 2 to the DC.</Pair>
+</Ability>
 </>};
 const _cat_burglar = {title: "Cat Burglar", jsx: <><h2 id="arc-rogue-cat_burglar-cat-burglar">Cat Burglar</h2>
-<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 92</Link><br/>Gifted with finesse and stealth, <Link to="/race/catfolk">catfolk</Link> make excellent burglars. Cat burglars are masters of breaking and entering, using their feline grace to make it seem as though no crime was ever committed in the first place. Few locks can withstand skilled cat burglars, and such nimble rogues are capable of bypassing traps without activating them and enabling associates to do the same. A cat burglar has the following class features.</p>
-<p><strong>Phantom Presence (Ex):</strong> At 4th level, a cat burglar masters stealthy movement and leaves no trace of her passing in dungeons and cities. While in dungeon and urban environments, she leaves no trail and cannot be tracked, though she can choose to leave behind a trail if she so desires. Furthermore, she can always choose to take 10 when making a Stealth check.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Trap Saboteur (Su):</strong> At 8th level, a cat burglar becomes a master of avoiding and manipulating traps and locks. She can attempt to open a lock as a standard action and takes 1/2 the normal amount of time to disable traps (minimum 1 round). When she has bypassed a trap without disarming it, she can also choose to suppress its trigger for up to 1 minute. If she does, she can also choose to end this suppression prematurely as a free action.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the cat burglar archetype: <Link to="/talent/fast_stealth">fast stealth</Link> (<em>Deception Talents</em> group); <Link to="/talent/fast_picks">fast picks</Link>, <Link to="/talent/quick_disable">quick disable</Link> (<em>Disable Device Talents</em> group); <Link to="/talent/terrain_mastery">terrain mastery</Link> (<em>Other Talents</em> group); <em>convincing fakes</em> and <em>dodge trap</em> (these talents do not appear in the source material - the former may refer to the Deception Talent <Link to="/talent/sczarni_smuggler">sczarni smuggler</Link>, though).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the cat burglar archetype: <Link to="/talent/another_day">another day</Link> and <Link to="/talent/fast_tumble">fast tumble</Link> (<em>Combat Talents</em> group); <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link> (<em>Other Talents</em> group).</p>
-</>};
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 92</Link><br/>Gifted with finesse and stealth, catfolk make excellent burglars. Cat burglars are masters of breaking and entering, using their feline grace to make it seem as though no crime was ever committed in the first place. Few locks can withstand skilled cat burglars, and such nimble rogues are capable of bypassing traps without activating them and enabling associates to do the same. A cat burglar has the following class features.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-cat_burglar--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/catfolk">Catfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-rogue-cat_burglar-phantom-presence-ex" icon={["armor-upgrade","upgrade"]}>
+<Pair single id="arc-rogue-cat_burglar-phantom-presence-ex" flavor="A cat burglar masters stealthy movement and leaves no trace of her passing in dungeons and cities.">Phantom Presence (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">While in dungeon and urban environments, she leaves no trail and cannot be tracked, though she can choose to leave behind a trail if she so desires. Furthermore, she can always choose to take 10 when making a Stealth check.</Pair>
+</Ability>
+<Ability id="arc-rogue-cat_burglar-trap-saboteur-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-rogue-cat_burglar-trap-saboteur-su" flavor="A cat burglar becomes a master of avoiding and manipulating traps and locks.">Trap Saboteur (Su)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">She can attempt to open a lock as a <strong className="hl">standard action</strong> and takes 1/2 the normal amount of time to disable traps (minimum 1 round). When she has bypassed a trap without disarming it, she can also choose to suppress its trigger for up to 1 minute. If she does, she can also choose to end this suppression prematurely as a free action.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/fast_picks">Fast picks</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/quick_disable">quick disable</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link><sup><InnerLink showBacklink="backlink-arc-rogue-cat_burglar-fake-fn-1" id="arc-rogue-cat_burglar-fake-fn-1" data-hash-target to="arc-rogue-cat_burglar-fake-fn-1-target">1</InnerLink></sup></p>
+<p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/another_day">Another day</Link>, <Link to="/talent/fast_tumble">fast tumble</Link>, <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link></p><section data-footnotes><h3 id="arc-rogue-cat_burglar-label">Footnotes</h3><ol>
+<li id="arc-rogue-cat_burglar-fake-fn-1-target"><p>The original text also recommended <em>convincing fakes</em> and <em>dodge trap.</em> However, these talents do not exist - the former may refer to the Deception Talent <Link to="/talent/sczarni_smuggler">sczarni smuggler</Link>, though. <InnerLink aria-label="Back to reference 1" id="backlink-arc-rogue-cat_burglar-fake-fn-1" data-hash-target to="arc-rogue-cat_burglar-fake-fn-1">↩</InnerLink></p></li>
+</ol></section></>};
 const _chameleon = {title: "Chameleon", jsx: <><h2 id="arc-rogue-chameleon-chameleon">Chameleon</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 71</Link><br/>An absolute master of disguise, a chameleon effortlessly blends into any environment. Whether disappearing into crowded city streets, vanishing into desert sands, or slipping into the darkness of subterranean tunnels, the chameleon relies upon her ability to become part of her surroundings.</p>
 <p><strong>Misdirection (Ex):</strong> At 1st level, a chameleon begins her career knowing that the secret to disappearing lies in deceiving the senses of her observers. Every day she gains a pool of stealth points equal to her ranks in Bluff. These points refresh at the start of each day. Before making a Stealth check, she can choose to put stealth points into the roll, gaining a bonus on Stealth checks equal to the number of stealth points she puts into the roll. If she gains a bonus on Bluff checks because of a feat (such as <Link to="/feat/skill_focus">Skill Focus</Link> [Bluff]), she adds a number of points to her stealth pool equal to the bonus the feat grants.</p>
