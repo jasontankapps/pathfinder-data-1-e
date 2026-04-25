@@ -1253,7 +1253,7 @@
 			"‹SOURCE Chronicle of Legends/28›  ",
 			"@altCapstoneDesc",
 			"",
-			"::altCapstone[Incredible Luck (Ex)]{oldDogNewTricks capstone=\"At 20th level, the swashbuckler has had so many close calls that she barely notices them anymore. The swashbuckler gains three additional uses of charmed life and can activate the ability as a free action, even outside of her turn.\"}",
+			"::altCapstone[Incredible Luck (Ex)]{oldDogNewTricks capstone=\"At 20th level, the swashbuckler has had so many close calls that she barely notices them anymore. The swashbuckler gains three additional uses of charmed life and can activate the ability as a @HLfree_action, even outside of her turn.\"}",
 			"",
 			"::hl3[rule/Favored Class« Bonuses]{jl}",
 			"",
