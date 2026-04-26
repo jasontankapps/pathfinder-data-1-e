@@ -154,67 +154,140 @@ const _cat_burglar = {title: "Cat Burglar", jsx: <><h2 id="arc-rogue-cat_burglar
 </ol></section></>};
 const _chameleon = {title: "Chameleon", jsx: <><h2 id="arc-rogue-chameleon-chameleon">Chameleon</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 71</Link><br/>An absolute master of disguise, a chameleon effortlessly blends into any environment. Whether disappearing into crowded city streets, vanishing into desert sands, or slipping into the darkness of subterranean tunnels, the chameleon relies upon her ability to become part of her surroundings.</p>
-<p><strong>Misdirection (Ex):</strong> At 1st level, a chameleon begins her career knowing that the secret to disappearing lies in deceiving the senses of her observers. Every day she gains a pool of stealth points equal to her ranks in Bluff. These points refresh at the start of each day. Before making a Stealth check, she can choose to put stealth points into the roll, gaining a bonus on Stealth checks equal to the number of stealth points she puts into the roll. If she gains a bonus on Bluff checks because of a feat (such as <Link to="/feat/skill_focus">Skill Focus</Link> [Bluff]), she adds a number of points to her stealth pool equal to the bonus the feat grants.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Effortless Sneak (Sp):</strong> At 3rd level, the chameleon chooses a single terrain from the ranger's <Link to="/ability/favored_terrain">favored terrain</Link> class feature. While she is within that terrain, she can take 10 on any Stealth check she can make within that terrain. When the chameleon reaches 6th level, and every three levels thereafter, she chooses a new type of terrain from the ranger's favored terrain list. She gains this ability with the newly picked terrain.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the chameleon archetype: <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, and <Link to="/talent/quick_disguise">quick disguise</Link> (<em>Deceptions Talents</em> group); <Link to="/talent/terrain_mastery">terrain mastery</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the chameleon archetype: <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link> and <Link to="/talent/master_of_disguise">master of disguise</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-chameleon-misdirection-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-chameleon-misdirection-ex" flavor="A chameleon begins her career knowing that the secret to disappearing lies in deceiving the senses of her observers.">Misdirection (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">Every day she gains a pool of stealth points equal to her ranks in Bluff. These points refresh at the start of each day. Before making a Stealth check, she can choose to put stealth points into the roll, gaining a bonus on Stealth checks equal to the number of stealth points she puts into the roll.</Pair>
+<Pair title="Special">If she gains a bonus on Bluff checks because of a feat (such as <Link to="/feat/skill_focus">Skill Focus</Link> [Bluff]), she adds a number of points to her stealth pool equal to the bonus the feat grants.</Pair>
+</Ability>
+<Ability id="arc-rogue-chameleon-effortless-sneak-sp" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-chameleon-effortless-sneak-sp">Effortless Sneak (Sp)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">The chameleon chooses a single terrain from the ranger's <Link to="/ability/favored_terrain">favored terrain</Link> class feature. While she is within that terrain, she can take 10 on any Stealth check she can make within that terrain.</Pair>
+<Pair title="At 6th Level">She chooses a new type of terrain and gains this ability with the newly picked terrain.</Pair>
+<Pair title="At 9th Level">She chooses a new type of terrain and gains this ability with the newly picked terrain.</Pair>
+<Pair title="At 12th Level">She chooses a new type of terrain and gains this ability with the newly picked terrain.</Pair>
+<Pair title="At 15th Level">She chooses a new type of terrain and gains this ability with the newly picked terrain.</Pair>
+<Pair title="At 18th Level">She chooses a new type of terrain and gains this ability with the newly picked terrain.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/camouflage">Camouflage</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/quick_disguise">quick disguise</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hide_in_plain_sight">Hide in plain sight</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link></p></>};
 const _charlatan = {title: "Charlatan", jsx: <><h2 id="arc-rogue-charlatan-charlatan">Charlatan</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 72</Link><br/>A charlatan is a master of lies and deception. Whether creating simple cons or elaborately woven hoaxes capable of swaying the masses and those in positions of power, a charlatan is often a purveyor of snake-oil, forgeries, and rumormongering.</p>
-<p><strong>Natural Born Liar (Ex):</strong> At 1st level, when a charlatan successfully deceives a creature with a Bluff, that creature takes a -2 penalty on the charlatan's Bluff checks for the next 24 hours. This ability does not stack with itself.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Grand Hoax (Ex):</strong> At 3rd level, the charlatan begins to master the art of the grand hoax and learns to create deceptions designed to bestow harm upon her foes. She gains the <Link to="/talent/rumormonger">rumormonger</Link> advanced talent, even though she is not yet 10th level. This ability takes the place of trap sense.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the charlatan archetype: <Link to="/talent/black_market_connections">black market connections</Link> (<em>Other Magic-Related Talents</em> group); <Link to="/talent/coax_information">coax information</Link>, <Link to="/talent/convincing_lie">convincing lie</Link>, and <Link to="/talent/honeyed_words">honeyed words</Link> (<em>Deception Talents</em> group); <Link to="/talent/underhanded">underhanded</Link> (<em>Primary Sneak Attack Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the charlatan archetype: <Link to="/talent/hard_minded">hard minded</Link> and <Link to="/talent/unwitting_ally">unwitting ally</Link> (<em>Combat Talents</em> group); <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-charlatan-natural-born-liar-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-rogue-charlatan-natural-born-liar-ex">Natural Born Liar (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">When a charlatan successfully deceives a creature with a Bluff, that creature takes a -2 penalty on the charlatan's Bluff checks for the next 24 hours. This ability does not stack with itself.</Pair>
+</Ability>
+<Ability id="arc-rogue-charlatan-grand-hoax-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-charlatan-grand-hoax-ex" flavor={["The charlatan begins to master the art of the ",{"tag":"em","content":"grand hoax","props":{}}," and learns to create deceptions designed to bestow harm upon her foes."]}>Grand Hoax (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">She gains the <Link to="/talent/rumormonger">rumormonger</Link> advanced talent, even though she is not yet 10th level.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/black_market_connections">Black market connections</Link>, <Link to="/talent/coax_information">coax information</Link>, <Link to="/talent/convincing_lie">convincing lie</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/underhanded">underhanded</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hard_minded">Hard minded</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _consigliere = {title: "Consigliere", jsx: <><h2 id="arc-rogue-consigliere-consigliere">Consigliere</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 44</Link><br/>Consiglieres act as trusted mediators and administrators for crime families and various criminal organizations, and many serve as the right hand to the leaders of such groups. Other consiglieres prefer to work as independent operators and sell their advice and expertise to the highest bidder. Though some consiglieres insulate themselves from violence and criminal activities, many enjoy getting their hands dirty leading strike teams or gangs of hardened thugs.</p>
 <Ability icon={["skills"]} id="arc-rogue-consigliere-undefined">
 <Pair id="arc-rogue-consigliere-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
-<p><strong>Convincing Attitude (Ex):</strong> At 1st level, a consigliere gains <Link to="/feat/persuasive">Persuasive</Link> as a bonus feat. At 2nd level, he gains the <Link to="/talent/charmer">charmer</Link> rogue talent (or the <Link to="/talent/certainty">certainty</Link> [Diplomacy] rogue talent if he is an unchained rogue). At 3rd level, if a consigliere attempts a Diplomacy check and fails to influence a creature's attitude by 5 or more, the creature's attitude remains unchanged instead of decreasing by one step.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong> and <strong className="hl">evasion</strong>.</p>
-<p><strong>Combat Advisor (Ex):</strong> At 4th level, whenever a consigliere misses with a melee attack against an opponent, he can designate an ally within 30 feet of the target to receive a +1 insight bonus on her next attack roll against that opponent before the consigliere's next turn. At 8th level, the insight bonus increases to +2.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong> and <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Bonus Feats (Ex):</strong> Starting at 4th level, a consigliere can choose to gain a single <Link to="/main/teamwork_feat">teamwork feat</Link> instead of a single rogue talent. Starting at 12th level, the consigliere can choose to gain teamwork feats instead of rogue talents as many times as he chooses.</p>
-<p>This ability replaces all instances of <strong className="hl">trap sense</strong>.</p>
-<p><strong>Field Boss (Ex):</strong> At 10th level, as a standard action, a consigliere can grant a teamwork feat to all allies within 30 feet who can see and hear her. This teamwork feat must be one the consigliere knows. Allies retain the use of this feat for 3 rounds plus 1 round for every 2 rogue levels the consigliere has. Allies do not need to meet the prerequisites of this teamwork feat. The consigliere can use this ability once per day at 10th level, plus 1 additional time per day every 4 rogue levels thereafter.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> normally gained at 10th level.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the consigliere archetype: <Link to="/talent/assault_leader">assault leader</Link> (<em>Ally-Related Talents</em> group); <Link to="/talent/black_market_connections">black market connections</Link> and <Link to="/talent/shades_of_gray">shades of gray</Link> (<em>Other Magic-Related Talents</em> group); <Link to="/talent/coax_information">coax information</Link> and <Link to="/talent/honeyed_words">honeyed words</Link> (<em>Deception Talents</em> group); <Link to="/talent/certainty">certainty</Link> [Bluff] (<em>Other Talents</em> group - unchained rogue only).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the consigliere archetype: <Link to="/talent/hard_minded">hard minded</Link>, <Link to="/talent/opportunist">opportunist</Link>, <Link to="/talent/redirect_attack">redirect attack</Link>, and <Link to="/talent/unwitting_ally">unwitting ally</Link> (<em>Combat Talents</em> group); <Link to="/talent/slippery_mind">slippery mind</Link> (<em>Magical Talents</em> group); <Link to="/talent/rumormonger">rumormonger</Link> and <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-consigliere-convincing-attitude-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-consigliere-convincing-attitude-ex">Convincing Attitude (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding, evasion</Pair>
+<Pair title="At 1st Level">A consigliere gains <Link to="/feat/persuasive">Persuasive</Link> as a bonus feat.</Pair>
+<Pair title="At 2nd Level">He gains the <Link to="/talent/charmer">charmer</Link> rogue talent (or the <Link to="/talent/certainty">certainty</Link> [Diplomacy] rogue talent if he is an unchained rogue).</Pair>
+<Pair title="At 3rd Level">If a consigliere attempts a Diplomacy check and fails to influence a creature's attitude by 5 or more, the creature's attitude remains unchanged instead of decreasing by one step.</Pair>
+</Ability>
+<Ability id="arc-rogue-consigliere-combat-advisor-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-consigliere-combat-advisor-ex">Combat Advisor (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
+<Pair title="At 4th Level">Whenever a consigliere misses with a melee attack against an opponent, he can designate an ally within 30 feet of the target to receive a +1 insight bonus on her next attack roll against that opponent before the consigliere's next turn.</Pair>
+<Pair title="At 8th Level">The insight bonus increases to +2.</Pair>
+</Ability>
+<Ability id="arc-rogue-consigliere-bonus-feats-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-consigliere-bonus-feats-ex">Bonus Feats (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="At 4th Level">A consigliere can choose to gain a single <Link to="/main/teamwork_feat">teamwork feat</Link> instead of a single rogue talent. (This substitution can only be used once, at either 4th, 6th, or 8th level.)</Pair>
+<Pair title="At 12th Level">The consigliere can choose to gain teamwork feats instead of rogue talents as many times as he chooses.</Pair>
+</Ability>
+<Ability id="arc-rogue-consigliere-field-boss-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-consigliere-field-boss-ex">Field Boss (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent normally gained at 10th level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four rogue levels beyond 10th</Pair>
+<Pair title="Standard Action">A consigliere can grant a teamwork feat to all allies within 30 feet who can see and hear her. This teamwork feat must be one the consigliere knows. Allies retain the use of this feat for 3 rounds plus 1 round for every 2 rogue levels the consigliere has. Allies do not need to meet the prerequisites of this teamwork feat.</Pair>
+</Ability>
+<p><strong>These rogue talents complement this archetype:</strong> <Link to="/talent/assault_leader">assault leader</Link>, <Link to="/talent/black_market_connections">black market connections</Link>, <Link to="/talent/shades_of_gray">shades of gray</Link>, <Link to="/talent/coax_information">coax information</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/certainty">certainty</Link> (Bluff; unchained rogue only)</p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hard_minded">Hard minded</Link>, <Link to="/talent/opportunist">opportunist</Link>, <Link to="/talent/redirect_attack">redirect attack</Link>, <Link to="/talent/rumormonger">rumormonger</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/slippery_mind">slippery mind</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _construct_saboteur = {title: "Construct Saboteur", jsx: <><h2 id="arc-rogue-construct_saboteur-construct-saboteur">Construct Saboteur</h2>
 <p><strong>Sources</strong> <Link to="/source/construct_handbook">Construct Handbook pg. 12</Link><br/>The construct saboteur harnesses arcane energy to combat the golems and eldritch guardians that prowl the depths of ancient ruins and forgotten tombs.</p>
 <Ability icon={["skills"]} id="arc-rogue-construct_saboteur-undefined">
 <Pair id="arc-rogue-construct_saboteur-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (local)</Pair></Ability>
-<p><strong>Arcane Strike (Ex):</strong> A construct saboteur gains <Link to="/feat/arcane_strike">Arcane Strike</Link> as a bonus feat, even if she does not meet the prerequisites. She uses her construct saboteur class level in place of her caster level for the purposes of the feat's effects.</p>
-<p>This replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Arcane Sabotage (Su):</strong> At 2nd level, a construct saboteur can user her arcane prowess to hinder constructs. Whenever she uses Arcane Strike to attack a construct, she can activate one of the following sabotage abilities that she has gained. She gains one sabotage ability at 2nd level and can thereafter select any sabotage ability in place of a rogue talent. The DC for any sabotage ability that requires a saving throw is 10 + half the construct saboteur's level + the construct saboteur's Intelligence modifier.</p>
-<blockquote>
-<p><strong>Diminish Senses:</strong> A jolt of energy overwhelms the construct's senses. The construct is blinded for 1 round. A construct saboteur can forgo dealing sneak attack damage to extend the duration of the blindness by 1 round for every 2d6 points of sneak attack damage forgone in this way. A construct can negate this effect with a successful Will save.</p>
-<p><strong>Magic Vulnerability:</strong> A field of energy enshrouds the construct, disabling its immunity to magic for 1 round. The construct instead gains spell resistance equal to 15 + its CR. A construct saboteur can forgo dealing sneak attack damage to reduce this spell resistance. The construct's spell resistance is reduced by 1 for every 1d6 points of sneak attack damage forgone in this way. A construct can negate this effect with a successful Will save.</p>
-<p><strong>Overwhelming Jolt:</strong> A sudden burst of power moves over the surface of the construct, giving it the staggered condition for 1 round. A construct can negate this effect with a successful Will save.</p>
-<p><strong>Slowing Pulse:</strong> A surge of slowing energy ripples through the construct, reducing its speed by 5 feet for a number of rounds equal to the construct saboteur's Intelligence modifier. A construct saboteur can forgo dealing sneak attack damage to reduce the construct's speed by an additional 5 feet for every 1d6 points of sneak attack damage forgone in this way. This ability cannot lower a construct's movement speed below 5 feet. A construct can reduce the duration of this effect to 1 round with a successful Reflex save.</p>
-</blockquote>
-<p>This replaces the <strong className="hl">rogue talent</strong> gained at 2nd level.</p>
-<p><strong>Dismantling Strikes (Ex):</strong> At 3rd level, a construct saboteur ignores the first 2 points of DR or hardness when attacking constructs. This value increases by 2 every 3 levels after 3rd, to a total of 12 points of DR or hardness ignored at level 18.</p>
-<p>This replaces <strong className="hl">trap sense</strong>.</p>
+<Ability id="arc-rogue-construct_saboteur-arcane-strike-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-construct_saboteur-arcane-strike-ex">Arcane Strike (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Ability">A construct saboteur gains <Link to="/feat/arcane_strike">Arcane Strike</Link> as a bonus feat, even if she does not meet the prerequisites. She uses her construct saboteur class level in place of her caster level for the purposes of the feat's effects.</Pair>
+</Ability>
+<Ability id="arc-rogue-construct_saboteur-arcane-sabotage-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-construct_saboteur-arcane-sabotage-su" flavor="A construct saboteur can user her arcane prowess to hinder constructs.">Arcane Sabotage (Su)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">She gains one sabotage ability (listed below). Whenever she uses Arcane Strike to attack a construct, she can activate one of her sabotage abilities that she has gained.</Pair>
+<Pair title="At 4th Level">From here on out, she can select any sabotage ability in place of a rogue talent.</Pair>
+<Pair title="Special">The DC for any sabotage ability that requires a saving throw is 10 + half the construct saboteur's level + the construct saboteur's Intelligence modifier.</Pair>
+</Ability>
+<Ability id="arc-rogue-construct_saboteur-diminish-senses" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-rogue-construct_saboteur-diminish-senses">Diminish Senses</Pair>
+<Pair title="Ability">A jolt of energy overwhelms the construct's senses. The construct is <Link to="/misc/blinded">blinded</Link> for 1 round. A construct saboteur can forgo dealing sneak attack damage to extend the duration of the blindness by 1 round for every 2d6 points of sneak attack damage forgone in this way. A construct can negate this effect with a successful Will save.</Pair>
+</Ability>
+<Ability id="arc-rogue-construct_saboteur-magic-vulnerability" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-rogue-construct_saboteur-magic-vulnerability">Magic Vulnerability</Pair>
+<Pair title="Ability">A field of energy enshrouds the construct, disabling its immunity to magic for 1 round. The construct instead gains spell resistance equal to 15 + its CR. A construct saboteur can forgo dealing sneak attack damage to reduce this spell resistance. The construct's spell resistance is reduced by 1 for every 1d6 points of sneak attack damage forgone in this way. A construct can negate this effect with a successful Will save.</Pair>
+</Ability>
+<Ability id="arc-rogue-construct_saboteur-overwhelming-jolt" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-rogue-construct_saboteur-overwhelming-jolt">Overwhelming Jolt</Pair>
+<Pair title="Ability">A sudden burst of power moves over the surface of the construct, giving it the <Link to="/misc/staggered">staggered</Link> condition for 1 round. A construct can negate this effect with a successful Will save.</Pair>
+</Ability>
+<Ability id="arc-rogue-construct_saboteur-slowing-pulse" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-rogue-construct_saboteur-slowing-pulse">Slowing Pulse</Pair>
+<Pair title="Ability">A surge of slowing energy ripples through the construct, reducing its speed by 5 feet for a number of rounds equal to the construct saboteur's Intelligence modifier. A construct saboteur can forgo dealing sneak attack damage to reduce the construct's speed by an additional 5 feet for every 1d6 points of sneak attack damage forgone in this way. This ability cannot lower a construct's movement speed below 5 feet. A construct can reduce the duration of this effect to 1 round with a successful Reflex save.</Pair>
+</Ability>
+<Ability id="arc-rogue-construct_saboteur-dismantling-strikes-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-construct_saboteur-dismantling-strikes-ex">Dismantling Strikes (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="At 3rd Level">A construct saboteur ignores the first 2 points of DR or hardness when attacking constructs.</Pair>
+<Pair title="At 6th Level">The amount of DR ignored becomes 4.</Pair>
+<Pair title="At 9th Level">The amount of DR ignored increases to 6.</Pair>
+<Pair title="At 12th Level">The amount of DR ignored becomes 8.</Pair>
+<Pair title="At 15th Level">The amount of DR ignored increases to 10.</Pair>
+<Pair title="At 18th Level">The amount of DR ignored becomes 12.</Pair>
+</Ability>
 </>};
 const _counterfeit_mage = {title: "Counterfeit Mage", jsx: <><h2 id="arc-rogue-counterfeit_mage-counterfeit-mage">Counterfeit Mage</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 109</Link><br/>Charlatans and stage magicians use sleight of hand to fake magic. A counterfeit mage goes a step further, parroting the motions and activation phrases used by arcane casters to activate wands or other magical accoutrements. While counterfeit mages rarely fool a real wizard, their command of the arcane is enough to convince most lay people.</p>
-<p><strong>Magical Expertise (Ex):</strong> At 1st level, a counterfeit mage adds 1/2 his level to Disable Device checks to disarm magical traps, Perception checks to find magical traps, and Use Magic Device checks to activate scrolls and wands. A counterfeit mage can use Disable Device to disarm magic traps.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Signature Wand (Ex):</strong> At 4th level, a counterfeit mage can spend 1 hour practicing with a wand to designate it as his signature wand. He can draw that wand as a free action, and can activate it without having to succeed at a Use Magic Device check. He can change his signature wand once per day.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 4th level.</p>
-<p><strong>Wand Adept (Ex):</strong> At 6th level, a counterfeit mage can use his Dexterity modifier in place of his Charisma modifier when attempting Use Magic Device checks to activate wands.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the counterfeit mage archetype: <Link to="/talent/deft_palm">deft palm</Link> (<em>Combat Talents</em> group); <Link to="/talent/trap_spotter">trap spotter</Link> (<em>Trap Talents</em> group); <Link to="/talent/honeyed_words">honeyed words</Link> (<em>Deception Talents</em> group); <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link> (<em>Spellcasting Talents</em> group); <Link to="/talent/esoteric_scholar">esoteric scholar</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the counterfeit mage archetype: <Link to="/talent/dispelling_attack">dispelling attack</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/familiar">familiar</Link> and <Link to="/talent/slippery_mind">slippery mind</Link> (<em>Magical Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-counterfeit_mage-magical-expertise-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-rogue-counterfeit_mage-magical-expertise-ex">Magical Expertise (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">A counterfeit mage adds 1/2 his level to Disable Device checks to disarm magical traps, Perception checks to find magical traps, and Use Magic Device checks to activate scrolls and wands.</Pair>
+<Pair title="Ability">A counterfeit mage can use Disable Device to disarm magic traps.</Pair>
+</Ability>
+<Ability id="arc-rogue-counterfeit_mage-signature-wand-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-counterfeit_mage-signature-wand-ex">Signature Wand (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 4th level</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A counterfeit mage can spend 1 hour practicing with a wand to designate it as his signature wand. He can draw that wand as a <strong className="hl">free action</strong>, and can activate it without having to succeed at a Use Magic Device check. He can change his signature wand once per day.</Pair>
+</Ability>
+<Ability id="arc-rogue-counterfeit_mage-wand-adept-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-counterfeit_mage-wand-adept-ex">Wand Adept (Ex)</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">A counterfeit mage can use his Dexterity modifier in place of his Charisma modifier when attempting Use Magic Device checks to activate wands.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/deft_palm">Deft palm</Link>, <Link to="/talent/esoteric_scholar">esoteric scholar</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link>, <Link to="/talent/trap_spotter">trap spotter</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/dispelling_attack">Dispelling attack</Link>, <Link to="/talent/familiar">familiar</Link>, <Link to="/talent/slippery_mind">slippery mind</Link></p></>};
 const _cutpurse = {title: "Cutpurse", jsx: <><h2 id="arc-rogue-cutpurse-cutpurse">Cutpurse</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 132</Link><br/>Everyone who lives in the city understands that a wealthy man stays wealthy by guarding his purse while wandering the streets and markets. Cutpurses are often trained by guilds to collect the guild's tax from local businesses on a daily basis, whether through intimidation or pickpocketing. Some find themselves taking up the mantle of adventurer, and their talents are generally appreciated in this role, but the cutpurse is still the first person her companions look to when an item goes missing.</p>
 <p><strong>Measure the Mark (Ex):</strong> When a cutpurse makes a Sleight of Hand check to take something from a creature, the target makes its Perception check before the rogue makes her Sleight of Hand check, and the rogue knows the Perception check result. She can decide whether or not to make the check based on the results of the target's Perception check. If the rogue elects not to make the check, she can make a Bluff check, opposed by the target's Sense Motive, to prevent the target from noticing the attempt.</p>
