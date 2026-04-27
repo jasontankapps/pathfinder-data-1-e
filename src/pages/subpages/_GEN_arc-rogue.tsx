@@ -290,99 +290,193 @@ const _counterfeit_mage = {title: "Counterfeit Mage", jsx: <><h2 id="arc-rogue-c
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/deft_palm">Deft palm</Link>, <Link to="/talent/esoteric_scholar">esoteric scholar</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link>, <Link to="/talent/trap_spotter">trap spotter</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/dispelling_attack">Dispelling attack</Link>, <Link to="/talent/familiar">familiar</Link>, <Link to="/talent/slippery_mind">slippery mind</Link></p></>};
 const _cutpurse = {title: "Cutpurse", jsx: <><h2 id="arc-rogue-cutpurse-cutpurse">Cutpurse</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 132</Link><br/>Everyone who lives in the city understands that a wealthy man stays wealthy by guarding his purse while wandering the streets and markets. Cutpurses are often trained by guilds to collect the guild's tax from local businesses on a daily basis, whether through intimidation or pickpocketing. Some find themselves taking up the mantle of adventurer, and their talents are generally appreciated in this role, but the cutpurse is still the first person her companions look to when an item goes missing.</p>
-<p><strong>Measure the Mark (Ex):</strong> When a cutpurse makes a Sleight of Hand check to take something from a creature, the target makes its Perception check before the rogue makes her Sleight of Hand check, and the rogue knows the Perception check result. She can decide whether or not to make the check based on the results of the target's Perception check. If the rogue elects not to make the check, she can make a Bluff check, opposed by the target's Sense Motive, to prevent the target from noticing the attempt.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Stab and Grab (Ex):</strong> At 3rd level, as a full-round action, a cutpurse can make an attack and also make a Sleight of Hand check to steal something from the target of the attack. If the attack deals sneak attack damage, the rogue can use Sleight of Hand to take an item from the creature during combat; otherwise this ability can only be used in a surprise round before the target has acted. If the attack is successful, the target takes a -5 penalty on the Perception check to notice the theft.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the cutpurse archetype: <Link to="/talent/slow_reactions">slow reactions</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/combat_swipe">combat swipe</Link> (<em>Combat Talents</em> group); <Link to="/talent/fast_fingers">fast fingers</Link> (<em>Deception Talents</em> group); <Link to="/talent/fast_getaway">fast getaway</Link> and <Link to="/talent/surprise_attack">surprise attack</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/minor_magic">minor magic</Link> (<em>Spellcasting Talents</em> group); <Link to="/talent/hard_to_fool">hard to fool</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the cutpurse archetype: <Link to="/talent/crippling_strike">crippling strike</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/fast_tumble">fast tumble</Link> (<em>Combat Talents</em> group); <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-cutpurse-measure-the-mark-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-cutpurse-measure-the-mark-ex">Measure the Mark (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Ability">When a cutpurse makes a Sleight of Hand check to take something from a creature, the target makes its Perception check before the rogue makes her Sleight of Hand check, and the rogue knows the Perception check result. She can decide whether or not to make the check based on the results of the target's Perception check. If the rogue elects not to make the check, she can make a Bluff check, opposed by the target's Sense Motive, to prevent the target from noticing the attempt.</Pair>
+</Ability>
+<Ability id="arc-rogue-cutpurse-stab-and-grab-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-cutpurse-stab-and-grab-ex">Stab and Grab (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Full-Round Action">A cutpurse can make an attack and also make a Sleight of Hand check to steal something from the target of the attack. If the attack deals sneak attack damage, the rogue can use Sleight of Hand to take an item from the creature during combat; otherwise this ability can only be used in a surprise round before the target has acted. If the attack is successful, the target takes a -5 penalty on the Perception check to notice the theft.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/combat_swipe">Combat swipe</Link>, <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/fast_getaway">fast getaway</Link>, <Link to="/talent/hard_to_fool">hard to fool</Link>, <Link to="/talent/minor_magic">minor magic</Link>, <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/surprise_attack">surprise attack</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/crippling_strike">Crippling strike</Link>, <Link to="/talent/fast_tumble">fast tumble</Link>, <Link to="/talent/skill_mastery">skill mastery</Link></p></>};
 const _dark_lurker = {title: "Dark Lurker", jsx: <><h2 id="arc-rogue-dark_lurker-dark-lurker">Dark Lurker</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 26</Link><br/>Dark lurkers use darkness as an ally. They are widely feared in many major metropolises, spoken of as "living shadows" by guards of Magnimar who patrol under the Irespan and called "the hungry night" by citizens of Absalom who mistake them for fetchling assassins.</p>
-<p><strong>Blades from the Shadows (Ex):</strong> At 2nd level, a dark lurker gains <Link to="/feat/shadow_strike">Shadow Strike</Link> as a bonus feat. (A character using the unchained rogue class instead gains the ability to make attacks of opportunity against foes with <Link to="/rule/cover">cover</Link>, though not foes with improved cover or total cover). At 6th level, the dark lurker can deal <Link to="/misc/precision_damage">precision damage</Link> to targets with <Link to="/rule/concealment">total concealment</Link> (though any miss chance applies normally, and may prevent an attack from hitting in the first place).</p>
-<p>This ability replaces <strong className="hl">evasion</strong>; the dark lurker can take <Link to="/ability/evasion">evasion</Link> as a rogue talent.</p>
-<p><strong>Blind-Fight (Ex):</strong> At 2nd level, a dark lurker gains <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 2nd level.</p>
-<p><strong>Improved Blind-Fight (Ex):</strong> At 8th level, a dark lurker gains <Link to="/feat/improved_blind_fight">Improved Blind-Fight</Link> as a bonus feat.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 8th level.</p>
-<p><strong>Greater Blind-Fight (Ex):</strong> At 14th level, a dark lurker gains <Link to="/feat/greater_blind_fight">Greater Blind-Fight</Link> as a bonus feat.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 14th level.</p>
-<p><strong>Instinctual Sense (Ex):</strong> At 20th level, a dark lurker gains blindsight with a range of 30 feet.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 20th level.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the dark lurker archetype: <Link to="/talent/befuddling_strike">befuddling strike</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/fast_getaway">fast getaway</Link>, <Link to="/talent/snipers_eye">sniper's eye</Link>, and <Link to="/talent/surprise_attack">surprise attack</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/fast_stealth">fast stealth</Link> (<em>Deception Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talent</Link> complements the dark lurker archetype: <Link to="/talent/opportunist">opportunist</Link> (<em>Combat Talents</em> group).</p>
+<Ability id="arc-rogue-dark_lurker-blades-from-the-shadows-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-dark_lurker-blades-from-the-shadows-ex">Blades from the Shadows (Ex)</Pair>
+<Pair hl title="Replaces">Evasion</Pair>
+<Pair title="At 2nd Level">A dark lurker gains <Link to="/feat/shadow_strike">Shadow Strike</Link> as a bonus feat. (A character using the unchained rogue class instead gains the ability to make attacks of opportunity against foes with <Link to="/rule/cover">cover</Link>, though not foes with improved cover or total cover).</Pair>
+<Pair title="At 6th Level">The dark lurker can deal <Link to="/misc/precision_damage">precision damage</Link> to targets with <Link to="/rule/concealment">total concealment</Link> (though any miss chance applies normally, and may prevent an attack from hitting in the first place).</Pair>
+<Pair title="Special">The dark lurker can take <Link to="/ability/evasion">evasion</Link> as a rogue talent.</Pair>
+</Ability>
+<Ability id="arc-rogue-dark_lurker-blind-fight-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-dark_lurker-blind-fight-ex">Blind-Fight (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A dark lurker gains <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-rogue-dark_lurker-improved-blind-fight-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-dark_lurker-improved-blind-fight-ex">Improved Blind-Fight (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 8th level</Pair>
+<Pair title="At 8th Level">A dark lurker gains <Link to="/feat/improved_blind_fight">Improved Blind-Fight</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-rogue-dark_lurker-greater-blind-fight-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-dark_lurker-greater-blind-fight-ex">Greater Blind-Fight (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 14th level</Pair>
+<Pair title="At 14th Level">A dark lurker gains <Link to="/feat/greater_blind_fight">Greater Blind-Fight</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-rogue-dark_lurker-instinctual-sense-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-dark_lurker-instinctual-sense-ex">Instinctual Sense (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 20th level</Pair>
+<Pair title="At 20th Level">A dark lurker gains blindsight with a range of 30 feet.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/befuddling_strike">Befuddling strike</Link>, <Link to="/talent/fast_getaway">fast getaway</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/snipers_eye">sniper's eye</Link>, <Link to="/talent/surprise_attack">surprise attack</Link></p><p><strong className="hl">This advanced rogue talent complements this archetype:</strong> <Link to="/talent/opportunist">Opportunist</Link>.</p>
 </>};
 const _deadly_courtesan = {title: "Deadly Courtesan", jsx: <><h2 id="arc-rogue-deadly_courtesan-deadly-courtesan">Deadly Courtesan</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 208</Link><br/>Skilled at manipulation and diversion, the deadly courtesan builds up those around her and periodically takes them down. She can be a spy, entertainer, assassin, bodyguard, or just an intimate to someone who needs it most. A deadly courtesan has the following class features.</p>
-<Ability icon={["skills"]} id="arc-rogue-deadly_courtesan-undefined">
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-deadly_courtesan--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/vishkanya">Vishkanya</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-rogue-deadly_courtesan-undefined">
 <Pair id="arc-rogue-deadly_courtesan-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
-<p><strong>Bardic Performance (Su):</strong> At 2nd level, a deadly courtesan gains the <Link to="/ability/bardic_performance">bardic performance</Link> ability and the <Link to="/performance/fascinate">fascinate</Link> bardic performance. Her fascinate DC is 10 + 1/2 her rogue level + her Charisma modifier. She can use this bardic performance for a number of rounds per day equal to 1 + her Charisma modifier. At each level after 2nd, she can use bardic performance for 1 additional round per day. If the courtesan also has bard levels, she may use these rounds for either class's <em>fascinate</em> bardic performance, and her bard and rogue levels stack for determining her fascinate DC.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 2nd level.</p>
-<p><strong>Inspire Competence (Su):</strong> At 3rd level, a deadly courtesan can use her bardic performance to inspire competence. The bonus begins at +2 and increases by +1 for every six levels the courtesan has attained beyond 3rd (+3 at 9th and +4 at 15th).</p>
-<p>This ability replaces all levels of <strong className="hl">trap sense</strong>.</p>
-<p><strong>Performance Strike (Sp):</strong> At 8th level, as a swift action, a deadly courtesan may expend rounds of bardic performance to gain a morale bonus on one attack roll. The amount of the bonus is equal to the number of bardic performance rounds expended (maximum bonus equal to 1/2 her deadly courtesan level).</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the deadly courtesan archetype: <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/stand_up">stand up</Link>, <Link to="/talent/deft_palm">deft palm</Link> (<em>Combat Talents</em> group); <Link to="/talent/charmer">charmer</Link>, <Link to="/talent/coax_information">coax information</Link>, <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/convincing_lie">convincing lie</Link> (<em>Deception Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the deadly courtesan archetype: <Link to="/talent/slippery_mind">slippery mind</Link> (<em>Magical Talents</em> group); <Link to="/talent/unwitting_ally">unwitting ally</Link> (<em>Combat Talents</em> group); <Link to="/talent/master_of_disguise">master of disguise</Link> and <Link to="/talent/rumormonger">rumormonger</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-deadly_courtesan-bardic-performance-su" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-deadly_courtesan-bardic-performance-su">Bardic Performance (Su)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Usage">A number of rounds/day equal to her rogue level - 1 + her Charisma modifier</Pair>
+<Pair title="Ability">A deadly courtesan gains the <Link to="/ability/bardic_performance">bardic performance</Link> ability and the <Link to="/performance/fascinate">fascinate</Link> bardic performance. Her fascinate DC is 10 + 1/2 her rogue level + her Charisma modifier.</Pair>
+<Pair title="Special">If the courtesan also has bard levels, she may use these rounds for either class's <em>fascinate</em> bardic performance, and her bard and rogue levels stack for determining her fascinate DC.</Pair>
+</Ability>
+<Ability id="arc-rogue-deadly_courtesan-inspire-competence-su" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-deadly_courtesan-inspire-competence-su">Inspire Competence (Su)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A deadly courtesan can use her bardic performance to <Link to="/performance/inspire_competence">inspire competence</Link>. The bonus begins at +2.</Pair>
+<Pair title="At 9th Level">The bonus becomes +3.</Pair>
+<Pair title="At 15th Level">The bonus increases to +4.</Pair>
+</Ability>
+<Ability id="arc-rogue-deadly_courtesan-performance-strike-sp" icon={["upgrade"]}>
+<Pair single id="arc-rogue-deadly_courtesan-performance-strike-sp">Performance Strike (Sp)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Swift Action">A deadly courtesan may expend rounds of bardic performance to gain a morale bonus on one attack roll. The amount of the bonus is equal to the number of bardic performance rounds expended (maximum bonus equal to 1/2 her deadly courtesan level).</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/charmer">Charmer</Link>, <Link to="/talent/coax_information">coax information</Link>, <Link to="/talent/convincing_lie">convincing lie</Link>, <Link to="/talent/deft_palm">deft palm</Link>, <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/stand_up">stand up</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/master_of_disguise">Master of disguise</Link>, <Link to="/talent/rumormonger">rumormonger</Link>, <Link to="/talent/slippery_mind">slippery mind</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _desert_raider = {title: "Desert Raider", jsx: <><h2 id="arc-rogue-desert_raider-desert-raider">Desert Raider</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 76</Link><br/>Desert raiders constantly threaten caravans that cross vast, desolate expanses. Some desert raiders are tribespeople who raid to supplement their hardscrabble existence, while others are career thieves who take to the desert to avoid the noose. To survive, a desert raider must learn the secrets of the deserts and become inured to their dangers. Though most often associated with hot deserts, desert raiders can also operate in tundra, where sunlight on snow can blind as easily as on sand.</p>
 <Ability icon={["skills"]} id="arc-rogue-desert_raider-undefined">
 <Pair id="arc-rogue-desert_raider-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Swim</Pair></Ability>
-<p><strong>Desert Tracker (Ex):</strong> A desert raider is immune to the dazzled condition. A desert raider adds half her level (minimum 1) as a bonus on Survival skill checks to follow or identify tracks in desert terrain.</p>
-<p>This replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Sun at Your Back (Ex):</strong> At 2nd level, a desert raider can use the reflected light of the blinding sun to conceal her presence. A desert raider in bright light can attempt Stealth checks without cover or concealment but takes a -5 penalty on her check. The desert raider cannot use this ability to hide from creatures immune to the blinded or dazzled conditions.</p>
-<p>This replaces the <strong className="hl">rogue talent</strong> gained at 2nd level.</p>
-<p><strong>Light Step (Ex):</strong> At 3rd level, the DC of Survival checks to track the desert raider increase by 3. In addition, she gains a +1 bonus on Perception checks to avoid being surprised by a foe. The DC increase and the bonus on Perception checks increase by 1 every 3 rogue levels thereafter (to a maximum increase of 8 and a maximum bonus of +6 at 18th level).</p>
-<p>This replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the desert raider archetype: <Link to="/talent/surprise_attack">surprise attack</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/stand_up">stand up</Link> (<em>Combat Talents</em> group); <Link to="/talent/fast_stealth">fast stealth</Link> (<em>Deception Talents</em> group); <Link to="/talent/getaway_artist">getaway artist</Link>, <Link to="/talent/ledge_walker">ledge walker</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the desert raider archetype: <Link to="/talent/stealthy_sniper">stealthy sniper</Link> (<em>Combat Talents</em> group); <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-desert_raider-desert-tracker-ex" icon={["armor-upgrade","upgrade"]}>
+<Pair single id="arc-rogue-desert_raider-desert-tracker-ex">Desert Tracker (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Passive Ability">A desert raider is immune to the <Link to="/misc/dazzled">dazzled</Link> condition. A desert raider adds half her level (minimum 1) as a bonus on Survival skill checks to follow or identify tracks in desert terrain.</Pair>
+</Ability>
+<Ability id="arc-rogue-desert_raider-sun-at-your-back-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-desert_raider-sun-at-your-back-ex" flavor="A desert raider can use the reflected light of the blinding sun to conceal her presence.">Sun at Your Back (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A desert raider in bright light can attempt Stealth checks without cover or concealment but takes a -5 penalty on her check. The desert raider cannot use this ability to hide from creatures immune to the <Link to="/misc/blinded">blinded</Link> or dazzled conditions.</Pair>
+</Ability>
+<Ability id="arc-rogue-desert_raider-light-step-ex" icon={["armor-upgrade","upgrade"]}>
+<Pair single id="arc-rogue-desert_raider-light-step-ex">Light Step (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">The DC of Survival checks to track the desert raider increase by 2 + <Link to="/misc/one_third">one-third</Link> of her rogue level. In addition, she gains a bonus on Perception checks to avoid being surprised by a foe. This bonus on is equal to one-third of her rogue level.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/fast_stealth">Fast stealth</Link>, <Link to="/talent/getaway_artist">getaway artist</Link>, <Link to="/talent/ledge_walker">ledge walker</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/stand_up">stand up</Link>, <Link to="/talent/surprise_attack">surprise attack</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hide_in_plain_sight">Hide in plain sight</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link></p></>};
 const _discretion_specialist = {title: "Discretion Specialist", jsx: <><h2 id="arc-rogue-discretion_specialist-discretion-specialist">Discretion Specialist</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 25</Link><br/>Often brought in to handle messy situations, discretion specialists deal with bodies, inconvenient witnesses, and other loose ends. Many organizations employ them to cover up activities that might be unpopular - should they become known to the general populace.</p>
 <p>This archetype is appropriate for rogues and unchained rogues.</p>
-<p><strong>Fast Talker (Ex):</strong> A discretion specialist adds half her rogue level (minimum +1) as a bonus on Bluff, Diplomacy, and Intimidate checks.</p>
-<p>This replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Obfuscation (Su):</strong> A discretion specialist is highly skilled at convincing others not to trust their own senses. At 3rd level as a full-round action, the discretion specialist can convince one living creature within 30 feet that up to 5 minutes of its memories from the past hour are unreliable. If the target fails a Will saving throw (DC = 10 + half the discretion specialist's rogue level + her Intelligence modifier), the target is convinced that those memories didn't happen or that it's confusing the memories with a dream (or is otherwise hazy as to the memories' reality). Each hour after the discretion specialist uses this ability, the target can attempt a new Will saving throw to realize that its relevant memories have been tampered with, although not necessarily that the discretion specialist was the originator of the tampering.</p>
-<p>The discretion specialist can use this ability once per day, and one additional time per day for every 5 rogue levels she has. At 6th level and every 3 levels thereafter, the discretion specialist can obfuscate memories from an additional hour in the past (to a maximum of 6 hours at 18th level).</p>
-<p>This replaces <strong className="hl">trap sense</strong> (for a core rogue) or <strong className="hl">danger sense</strong> (for an unchained rogue).</p>
-<p><strong>Evidence Disposal (Sp):</strong> A discretion specialist can cover up a corpse's cause of a death - or dispose of it entirely. At 4th level, the discretion specialist gains the ability to cast <Link to="/spell/dress_corpse">dress corpse</Link> as a spell-like ability, using her rogue level as her caster level. She can use this ability once per day, plus one additional time per day for every 5 rogue levels she has (to a maximum of five times at 20th level).</p>
-<p>At 12th level, she can spend two uses of this ability to disintegrate a corpse entirely as a full-round action, leaving behind only a trace of fine dust (a disintegrated creature's equipment is unaffected). The target cannot be an undead creature. A corpse disintegrated this way cannot be brought back to life except by <Link to="/spell/resurrection">resurrection</Link> or more powerful magic, including <Link to="/spell/miracle">miracle</Link> or <Link to="/spell/wish">wish</Link>.</p>
-<p>This replaces the <strong className="hl">rogue talents</strong> gained at 4th and 12th levels.</p>
-<p><strong>No Loose Ends (Ex):</strong> At 4th level, the discretion specialist can prevent opponents from escaping. Opponents damaged by the discretion specialist's sneak attack are unable to take the withdraw action for 1 round, though they can still move as normal.</p>
-<p>At 8th level, a creature damaged by the discretion specialist's sneak attack is hampered in casting spells of the teleportation subschool (such as <Link to="/spell/dimension_door">dimension door</Link>) as well as using methods of magical transport such as shadow walk. A target attempting to cast such a spell before the end of the discretion specialist's next turn must succeed at a <Link to="/rule/concentration">concentration</Link> check (in addition to any concentration checks required for casting while threatened or other circumstances) or lose the spell. The DC of this check is equal to 10 + half the discretion specialist's rogue level + her Intelligence modifier.</p>
-<p>This replaces <strong className="hl">uncanny dodge</strong> and <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement this archetype: <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/charmer">charmer</Link>, <Link to="/talent/convincing_lie">convincing lie</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/quick_disguise">quick disguise</Link> (<em>Deception Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement this archetype: <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-discretion_specialist-fast-talker-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-discretion_specialist-fast-talker-ex">Fast Talker (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Passive Ability">A discretion specialist adds half her rogue level (minimum +1) as a bonus on Bluff, Diplomacy, and Intimidate checks.</Pair>
+</Ability>
+<Ability id="arc-rogue-discretion_specialist-obfuscation-su" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-discretion_specialist-obfuscation-su" flavor="A discretion specialist is highly skilled at convincing others not to trust their own senses.">Obfuscation (Su)</Pair>
+<Pair hl title="Replaces">Trap sense (for a core rogue), danger sense (for an unchained rogue)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Usage">1 time/day + 1 per five rogue levels<ByLevelPop levels={[[3,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Full-Round Action">The discretion specialist can convince one living creature within 30 feet that up to 5 minutes of its memories from the past hour are unreliable. If the target fails a Will saving throw (DC = 10 + half the discretion specialist's rogue level + her Intelligence modifier), the target is convinced that those memories didn't happen or that it's confusing the memories with a dream (or is otherwise hazy as to the memories' reality). Each hour after the discretion specialist uses this ability, the target can attempt a new Will saving throw to realize that its relevant memories have been tampered with, although not necessarily that the discretion specialist was the originator of the tampering.</Pair>
+<Pair title="At 6th Level">The discretion specialist can obfuscate memories from up to 2 hours in the past.</Pair>
+<Pair title="At 9th Level">The discretion specialist can obfuscate memories from up to 3 hours in the past.</Pair>
+<Pair title="At 12th Level">The discretion specialist can obfuscate memories from up to 4 hours in the past.</Pair>
+<Pair title="At 15th Level">The discretion specialist can obfuscate memories from up to 5 hours in the past.</Pair>
+<Pair title="At 18th Level">The discretion specialist can obfuscate memories from up to 6 hours in the past.</Pair>
+</Ability>
+<Ability id="arc-rogue-discretion_specialist-evidence-disposal-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-discretion_specialist-evidence-disposal-sp" flavor="A discretion specialist can cover up a corpse's cause of a death - or dispose of it entirely.">Evidence Disposal (Sp)</Pair>
+<Pair hl title="Replaces">Rogue talents gained at 4th and 12th levels</Pair>
+<Pair title="At 4th Level">The discretion specialist gains the ability to cast <Link to="/spell/dress_corpse">dress corpse</Link> as a spell-like ability, using her rogue level as her caster level. She can use this ability a number of times per day equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of her rogue level.</Pair>
+<Pair title="At 12th Level">She can spend two uses of this ability to disintegrate a corpse entirely as a <strong className="hl">full-round action</strong>, leaving behind only a trace of fine dust (a disintegrated creature's equipment is unaffected). The target cannot be an undead creature. A corpse disintegrated this way cannot be brought back to life except by <Link to="/spell/resurrection">resurrection</Link> or more powerful magic, including <Link to="/spell/miracle">miracle</Link> or <Link to="/spell/wish">wish</Link>.</Pair>
+</Ability>
+<Ability id="arc-rogue-discretion_specialist-no-loose-ends-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-rogue-discretion_specialist-no-loose-ends-ex" flavor="The discretion specialist can prevent opponents from escaping.">No Loose Ends (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
+<Pair title="At 4th Level">Opponents damaged by the discretion specialist's sneak attack are unable to take the <Link to="/rule/withdraw">withdraw</Link> action for 1 round, though they can still move as normal.</Pair>
+<Pair title="At 8th Level">A creature damaged by the discretion specialist's sneak attack is hampered in casting spells of the teleportation subschool (such as <Link to="/spell/dimension_door">dimension door</Link>) as well as using methods of magical transport such as <Link to="/spell/shadow_walk">shadow walk</Link>. A target attempting to cast such a spell before the end of the discretion specialist's next turn must succeed at a <Link to="/rule/concentration">concentration</Link> check (in addition to any concentration checks required for casting while threatened or other circumstances) or lose the spell. The DC of this check is equal to 10 + half the discretion specialist's rogue level + her Intelligence modifier.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/camouflage">Camouflage</Link>, <Link to="/talent/charmer">charmer</Link>, <Link to="/talent/convincing_lie">convincing lie</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/quick_disguise">quick disguise</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hide_in_plain_sight">Hide in plain sight</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link></p></>};
 const _dreamthief = {title: "Dreamthief", jsx: <><h2 id="arc-rogue-dreamthief-dreamthief">Dreamthief</h2>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 12</Link><br/>The dreamthief is master of both waking and dreaming worlds. Each dreamthief bears a focused fragment of emotion, known as a dreamshard, within her soul. Some are born with such fragments, while others gain their dreamshards during traumatic moments, especially those involving nightmares, attacks by ethereal beings, or incidents that take place in the Dimension of Dreams. Whether a dreamshard is shaped from the dreamer's aggregated emotions or manifested from a repressed aspect of herself, this metaphysical crystal grants a dreamthief supernatural powers, which she supplements with skill and grace.</p>
 <p>Dreamthieves' powers grant them enhanced access to <Link to="/rule/dimension_of_dreams">dreamscapes</Link>. Using the unique power of her dreamshard, a knowledgeable dreamthief can crystallize and steal dreamers' deepest emotions. Such theft can alter dreamers in profound ways, whether for better or worse.</p>
-<p><strong>Skills:</strong> Knowledge (arcana) and Knowledge (planes) are class skills for a dreamthief.</p>
-<p>This alters the rogue's <strong className="hl">class skills</strong>.</p>
-<p><strong>Dreamshard Focus (Su):</strong> At 1st level, a dreamthief selects an <Link to="/ability/emotional_focus">emotional focus</Link> from among those available to a spiritualist's phantom. She gains the abilities granted by that emotional focus (with the exception of the focus determining her <Link to="/misc/good_saving_throws">good saving throws</Link> - she retains the typical rogue saves). For each of the two skills associated with that emotional focus, a dreamthief gains ranks in that skill equal to her rogue level; this does not allow her ranks in these skills to exceed her Hit Dice.</p>
-<p>A dreamthief is considered to be both a phantom and a spiritualist for the purpose of emotional focus abilities whose effect references both a phantom and a spiritualist, such as dutiful strike, and she treats her rogue level as both her spiritualist level and her phantom Hit Dice when determining abilities and save DCs.</p>
-<p>Once per round when a dreamthief makes a melee attack, she can declare that attack to be a dreamstrike. This does not require an action, but a dreamthief must declare a dreamstrike before making the attack roll. A dreamstrike is treated as a slam attack for the purpose of emotional focus abilities that apply to a phantom's slam attacks, such as miserable strike. At 20th level, any melee attack a dreamthief makes automatically gains this benefit.</p>
-<p>This replaces <strong className="hl">sneak attack</strong> and <strong className="hl">master strike</strong>.</p>
-<p><strong>Lucid Dreamer (Ex):</strong> At 3rd level, a dreamthief can control her dreams, and gains <Link to="/feat/lucid_dreamer">Lucid Dreamer</Link> as a bonus feat.</p>
-<p>This replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Soothe Dreaming (Su):</strong> At 4th level, a dreamthief can steal negative emotions, freeing allies from harmful conditions. This acts as the <Link to="/class/mesmerist">mesmerist's</Link> touch treatment ability, treating her rogue level as her mesmerist level; a dreamthief can use this ability once per day for every 3 rogue levels she has.</p>
-<p>This replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Dream Infiltrator (Sp):</strong> A dreamthief can enter dreams, whether to learn secrets or meddle more directly. At 8th level, a dreamthief can cast <Link to="/spell/dream_scan">dream scan</Link> once per day as a spell-like ability. At 12th level, once per day she can cast either dream scan or <Link to="/spell/dream_travel">dream travel</Link> as a spell-like ability. The caster level of these spell-like abilities is equal to her rogue level.</p>
-<p>This replaces <strong className="hl">improved uncanny dodge</strong> and the <strong className="hl">rogue talent</strong> gained at 12th level.</p>
+<Ability icon={["skills"]} id="arc-rogue-dreamthief-undefined">
+<Pair id="arc-rogue-dreamthief-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair></Ability>
+<Ability id="arc-rogue-dreamthief-dreamshard-focus-su" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="arc-rogue-dreamthief-dreamshard-focus-su">Dreamshard Focus (Su)</Pair>
+<Pair hl title="Replaces">Sneak attack, master strike</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Choice">A dreamthief selects an <Link to="/ability/emotional_focus">emotional focus</Link> from among those available to a spiritualist's phantom. She gains the abilities granted by that emotional focus (with the exception of the focus determining her <Link to="/misc/good_saving_throws">good saving throws</Link> - she retains the typical rogue saves). For each of the two skills associated with that emotional focus, a dreamthief gains ranks in that skill equal to her rogue level; this does not allow her ranks in these skills to exceed her Hit Dice.</Pair>
+<Pair title="Passive Ability">A dreamthief is considered to be both a phantom and a spiritualist for the purpose of emotional focus abilities whose effect references both a phantom and a spiritualist, such as <em>dutiful strike,</em> and she treats her rogue level as both her spiritualist level and her phantom Hit Dice when determining abilities and save DCs.</Pair>
+<Pair title="Ability">Once per round when a dreamthief makes a melee attack, she can declare that attack to be a <em>dreamstrike.</em> This does not require an action, but a dreamthief must declare a <em>dreamstrike</em> before making the attack roll. A <em>dreamstrike</em> is treated as a slam attack for the purpose of emotional focus abilities that apply to a phantom's slam attacks, such as <em>miserable strike.</em></Pair>
+<Pair title="At 20th Level">Any melee attack a dreamthief makes automatically gains this benefit.</Pair>
+</Ability>
+<Ability id="arc-rogue-dreamthief-lucid-dreamer-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-dreamthief-lucid-dreamer-ex">Lucid Dreamer (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A dreamthief can control her dreams, and gains <Link to="/feat/lucid_dreamer">Lucid Dreamer</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-rogue-dreamthief-soothe-dreaming-su" icon={["heart-plus"]}>
+<Pair single id="arc-rogue-dreamthief-soothe-dreaming-su">Soothe Dreaming (Su)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per three rogue levels<ByLevelPop levels={[[4,1],[6,2],[9,3],[12,4],[15,5],[18,6]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">A dreamthief can steal negative emotions, freeing allies from harmful conditions. This acts as the <Link to="/class/mesmerist">mesmerist's</Link> <em>touch treatment</em> ability, treating her rogue level as her mesmerist level.</Pair>
+</Ability>
+<Ability id="arc-rogue-dreamthief-dream-infiltrator-sp" extraClasses="hasSubs" icon={["heart-plus"]}>
+<Pair single id="arc-rogue-dreamthief-dream-infiltrator-sp" flavor="A dreamthief can enter dreams, whether to learn secrets or meddle more directly.">Dream Infiltrator (Sp)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge, rogue talent gained at 12th level</Pair>
+<Pair title="At 8th Level">A dreamthief can cast <Link to="/spell/dream_scan">dream scan</Link> once per day as a spell-like ability.</Pair>
+<Pair title="At 12th Level">Once per day she can cast either <em>dream scan</em> or <Link to="/spell/dream_travel">dream travel</Link> as a spell-like ability.</Pair>
+<Pair title="Special">The caster level of these spell-like abilities is equal to her rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-dreamthief-touch-treatment-su" extraClasses="subAbility" icon={["heart-plus"]}>
+<Pair single id="arc-rogue-dreamthief-touch-treatment-su" flavor="Text from the mesmerist ability.">Touch Treatment (Su)</Pair>
+<Pair title="At 3rd Level">You can help allies shake off harmful conditions - especially those that affect their minds - by channeling psychic energy through your healing hands. You must be able to touch your target. You can remove the <em>fascinated</em> or <em>shaken</em> condition from your target each time you use this ability. This is the "minor" ability.</Pair>
+<Pair title="At 6th Level">You can now also remove the <em>confused, dazed, frightened,</em> and <em>sickened</em> conditions. This is the "moderate" ability.</Pair>
+<Pair title="At 10th Level">You can now also remove the <em>cowering, nauseated, panicked,</em> and <em>stunned</em> conditions. This is the "greater" ability.</Pair>
+<Pair title="At 14th Level">You can instead expend one use of touch treatment to replicate the effects of <Link to="/spell/break_enchantment">break enchantment</Link>. This targets only one creature you are touching and follows all other restrictions of touch treatment.</Pair>
+</Ability>
 </>};
 const _driver = {title: "Driver", jsx: <><h2 id="arc-rogue-driver-driver">Driver</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 72</Link><br/>A driver makes her living driving vehicles in the service of those who can pay for her considerable talents. She may be a wagon-driver practiced at smuggling contraband, an accomplished musher blazing arctic trails, or a seemingly refined coach driver placing her roguish talents in the service of a wealthy patron.</p>
-<p><strong>Hard Drive (Ex):</strong> When driving a vehicle that uses a group of animals or magical beasts as muscle propulsion, the DCs of all driving checks are reduced by 2, the maximum speed of the vehicle increases by 10 feet, and the acceleration increases by 5 feet. This ability takes the place of trapfinding.</p>
-<p><strong>Driver's Fortitude (Ex):</strong> At 3rd level, the driver learns to keep driving and maintain control of her vehicle, even when mortally wounded. If the driver drops below 0 hit points but is not dead, she can attempt a DC 15 Fortitude save each round to remain conscious and in control of her vehicle, though she may take no other actions.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the driver archetype: <Link to="/talent/firearm_training">firearm training</Link> (<em>Combat Talents</em> group); <Link to="/talent/getaway_artist">getaway artist</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the driver archetype: <Link to="/talent/feat">feat</Link>, <Link to="/talent/getaway_master">getaway master</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-driver-hard-drive-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-driver-hard-drive-ex">Hard Drive (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Passive Ability">When driving a vehicle that uses a group of animals or magical beasts as muscle propulsion, the DCs of all driving checks are reduced by 2, the maximum speed of the vehicle increases by 10 feet, and the acceleration increases by 5 feet.</Pair>
+</Ability>
+<Ability id="arc-rogue-driver-drivers-fortitude-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-driver-drivers-fortitude-ex" flavor="The driver learns to keep driving and maintain control of her vehicle, even when mortally wounded.">Driver's Fortitude (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">If the driver drops below 0 hit points but is not dead, she can attempt a DC 15 Fortitude save each round to remain conscious and in control of her vehicle, though she may take no other actions.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/firearm_training">Firearm training</Link>, <Link to="/talent/getaway_artist">getaway artist</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/feat">Feat</Link>, <Link to="/talent/getaway_master">getaway master</Link></p></>};
 const _earthshadow = {title: "Earthshadow", jsx: <><h2 id="arc-rogue-earthshadow-earthshadow">Earthshadow</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 8</Link><br/>When the dwarves began their Quest for Sky millennia ago to reach the world's surface, they already had a deep understanding of the earth's secrets. In the centuries since, the mystic lore the dwarves call earthcraft has been passed down through the generations, and its practitioners are called earthshadows. While many earthshadows are dwarves, their secrets have been shared with a worthy few members of other races over the ages.</p>
 <p><strong>Earthlink (Su):</strong> The earth grants an earthshadow swiftness and hones her senses. When an earthshadow is in direct contact with an expanse of natural earth or unworked stone that is at least as large as she is, she adds half her rogue level (minimum 1) to Acrobatics and Perception checks.</p>
