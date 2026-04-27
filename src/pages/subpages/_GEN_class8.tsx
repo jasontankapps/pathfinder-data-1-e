@@ -2416,17 +2416,12 @@ const _mesmerist = {hasJL:true,title: "Mesmerist", jsx: <><div className="jumpLi
 <Pair single id="class-mesmerist-touch-treatment-su">Touch Treatment (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>
-<Pair title="Standard Action">You can help allies shake off harmful conditions - especially those that affect their minds - by channeling psychic energy through your healing hands. You must be able to touch your target. You can remove one condition on the <strong className="hl">minor conditions</strong> list from your target each time you use this ability.</Pair>
+<Pair title="Standard Action">You can help allies shake off harmful conditions - especially those that affect their minds - by channeling psychic energy through your healing hands. You must be able to touch your target. You can remove the <em>fascinated</em> or <em>shaken</em> condition from your target each time you use this ability. This is the "minor" ability.</Pair>
 <Pair title="Swift Action">You can use <em>touch treatment</em> on yourself.</Pair>
-<Pair title="At 6th Level">You can remove one condition from the <strong className="hl">minor</strong> or <strong className="hl">moderate condition</strong> lists.</Pair>
-<Pair title="At 10th Level">You can remove one condition from the <strong className="hl">minor</strong>, <strong className="hl">moderate</strong> or <strong className="hl">greater condition</strong> lists.</Pair>
+<Pair title="At 6th Level">You can now also remove the <em>confused, dazed, frightened,</em> and <em>sickened</em> conditions. This is the "moderate" ability.</Pair>
+<Pair title="At 10th Level">You can now also remove the <em>cowering, nauseated, panicked,</em> and <em>stunned</em> conditions. This is the "greater" ability.</Pair>
 <Pair title="At 14th Level">You can instead expend one use of touch treatment to replicate the effects of <Link to="/spell/break_enchantment">break enchantment</Link>. This targets only one creature you are touching and follows all other restrictions of touch treatment.</Pair>
 </Ability>
-<blockquote>
-<p><strong className="hl">Minor Conditions:</strong> Fascinated, shaken.</p>
-<p><strong className="hl">Moderate Conditions:</strong> Confused, dazed, frightened, sickened.</p>
-<p><strong className="hl">Greater Conditions:</strong> Cowering, nauseated, panicked, stunned.</p>
-</blockquote>
 <Ability id="class-mesmerist-manifold-tricks-su" icon={["upgrade"]}>
 <Pair single id="class-mesmerist-manifold-tricks-su">Manifold Tricks (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>

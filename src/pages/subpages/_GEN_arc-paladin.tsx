@@ -1039,12 +1039,19 @@ const _mind_sword = {title: "Mind Sword", jsx: <><h2 id="arc-paladin-mind_sword-
 <Pair title="At 6th Level">A mind sword can expend two uses of this ability as a <strong className="hl">full-round action</strong> to attack the same opponent multiple times, as if using the full-attack action.</Pair>
 <Pair title="At 12th Level">A mind sword can expend one use of this ability as a <strong className="hl">full-round action</strong> to combine melee attacks and ranged attacks aimed at different targets within 60 feet as part of a single full-attack action.</Pair>
 </Ability>
-<Ability id="arc-paladin-mind_sword-touch-treatment-su" icon={["heart-plus"]}>
+<Ability id="arc-paladin-mind_sword-touch-treatment-su" extraClasses="hasSubs" icon={["heart-plus"]}>
 <Pair single id="arc-paladin-mind_sword-touch-treatment-su">Touch Treatment (Su)</Pair>
 <Pair hl title="Replaces">Mercy</Pair>
-<Pair title="At 3rd Level">A mind sword can expend one use of her <em>mind arsenal</em> ability to remove minor harmful mental conditions, as per the <Link to="/class/mesmerist">mesmerist</Link> <em>touch treatment</em> class feature. The minor conditions are fascinated and shaken.</Pair>
-<Pair title="At 9th Level">She can remove moderate conditions: confused, dazed, frightened, and sickened.</Pair>
-<Pair title="At 15th Level">She can remove major conditions: cowering, nauseated, panicked, and stunnned.</Pair>
+<Pair title="At 3rd Level">A mind sword can expend one use of her <em>mind arsenal</em> ability to remove minor harmful mental conditions, as per the <Link to="/class/mesmerist">mesmerist</Link> <em>touch treatment</em> class feature (minor ability).</Pair>
+<Pair title="At 9th Level">Her <em>treatment</em> expands to the "moderate" version of the ability.</Pair>
+<Pair title="At 15th Level">She can remove conditions as per the "greater" ability of <em>touch treatment.</em></Pair>
+</Ability>
+<Ability id="arc-paladin-mind_sword-touch-treatment-su" extraClasses="subAbility" icon={["heart-plus"]}>
+<Pair single id="arc-paladin-mind_sword-touch-treatment-su" flavor="Text from the mesmerist ability.">Touch Treatment (Su)</Pair>
+<Pair title="At 3rd Level">You can help allies shake off harmful conditions - especially those that affect their minds - by channeling psychic energy through your healing hands. You must be able to touch your target. You can remove the <em>fascinated</em> or <em>shaken</em> condition from your target each time you use this ability. This is the "minor" ability.</Pair>
+<Pair title="At 6th Level">You can now also remove the <em>confused, dazed, frightened,</em> and <em>sickened</em> conditions. This is the "moderate" ability.</Pair>
+<Pair title="At 10th Level">You can now also remove the <em>cowering, nauseated, panicked,</em> and <em>stunned</em> conditions. This is the "greater" ability.</Pair>
+<Pair title="At 14th Level">You can instead expend one use of touch treatment to replicate the effects of <Link to="/spell/break_enchantment">break enchantment</Link>. This targets only one creature you are touching and follows all other restrictions of touch treatment.</Pair>
 </Ability>
 <Ability id="arc-paladin-mind_sword-spells" icon={["spell-book"]}>
 <Pair single id="arc-paladin-mind_sword-spells">Spells</Pair>

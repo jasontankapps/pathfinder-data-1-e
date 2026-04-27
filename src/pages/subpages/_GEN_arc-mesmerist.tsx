@@ -3,6 +3,7 @@ import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
+import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 const _aromaphile = {title: "Aromaphile", jsx: <><h2 id="arc-mesmerist-aromaphile-aromaphile">Aromaphile</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 18</Link><br/>Rather than employ the baleful glares of the typical mesmerist, aromaphiles hypnotize others using an array of sickeningly sweet scents developed from their unique ghoran physiology.</p>
@@ -29,7 +30,7 @@ const _aromaphile = {title: "Aromaphile", jsx: <><h2 id="arc-mesmerist-aromaphil
 <Pair hl title="Replaces">Mental potency</Pair>
 <Pair hl title="Alters">Touch treatment</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Ability"><p>The aromaphile can touch a creature affected by his <em>hypnotic aroma</em> to alter its mental state. This functions as the <em>touch treatment</em> class feature, except the aromaphile cannot remove the <em>confused, cowering,</em> or <em>stunned</em> conditions, and he cannot <em>break enchantments</em> using this ability. Instead, he adds <Link to="/misc/fatigued">fatigued</Link> to his list of minor conditions and <Link to="/misc/exhausted">exhausted</Link> to his list of greater conditions.</p>
+<Pair title="Ability"><p>The aromaphile can touch a creature affected by his <em>hypnotic aroma</em> to alter its mental state. This functions as the <em>touch treatment</em> class feature, except the aromaphile cannot remove the <em>confused, cowering,</em> or <em>stunned</em> conditions, and he cannot <em>break enchantments</em> using this ability. Instead, he can remove the <Link to="/misc/fatigued">fatigued</Link> condition at 3rd level and the <Link to="/misc/exhausted">exhausted</Link> condition at 10th level.</p>
 <p>An aromaphile can also use this ability to inflict hampering conditions on a target by touching it. Initially, he can cause his target to become <Link to="/misc/fascinated">fascinated</Link> by his <em>aroma,</em> but he gains more abilities as he gains levels.</p>
 </Pair>
 <Pair title="At 6th Level">His touch can deaden the target's emotions (as per <Link to="/spell/calm_emotions">calm emotions</Link>).</Pair>
@@ -187,7 +188,7 @@ const _dreamstalker = {title: "Dreamstalker", jsx: <><h2 id="arc-mesmerist-dream
 <Pair single id="arc-mesmerist-dreamstalker-touch-of-night-su">Touch of Night (Su)</Pair>
 <Pair hl title="Alters">Touch treatment</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Ability">A dreamstalker can't remove shaken, frightened, sickened, cowering, nauseated, or panicked conditions using her <em>touch treatment.</em> However, she can remove fatigue or magical sleep (other than hard-to-remove magical sleep such as the <em>eternal slumber</em> hex) as a minor condition, <Link to="/misc/staggered">staggered</Link> as a moderate condition, and exhausted as a greater condition. As normal, removing fatigue or exhaustion only removes the condition, not the underlying cause, such as lack of sleep.</Pair>
+<Pair title="Ability">A dreamstalker can't remove shaken, frightened, sickened, cowering, nauseated, or panicked conditions using her <em>touch treatment.</em> However, she can remove fatigue or magical sleep (other than hard-to-remove magical sleep such as the <em>eternal slumber</em> hex) at 3rd level, <Link to="/misc/staggered">staggered</Link> at 6th level, and <em>exhausted</em> at 10th level. As normal, removing fatigue or exhaustion only removes the condition, not the underlying cause, such as lack of sleep.</Pair>
 </Ability>
 <Ability id="arc-mesmerist-dreamstalker-dreamwalker-su" icon={["upgrade"]}>
 <Pair single id="arc-mesmerist-dreamstalker-dreamwalker-su">Dreamwalker (Su)</Pair>
@@ -849,7 +850,7 @@ const _vox = {title: "Vox", jsx: <><h2 id="arc-mesmerist-vox-vox">Vox</h2>
 </Ability>
 <Ability id="arc-mesmerist-vox-wounding-words-su" icon={["magic-palm","mailed-fist","armor-downgrade"]}>
 <Pair single id="arc-mesmerist-vox-wounding-words-su" flavor="A vox can focus the power of his voice to magnify the force of his blows in melee.">Wounding Words (Su)</Pair>
-<Pair hl title="Replaces">Touch treatment (minor), touch treatment (moderate)</Pair>
+<Pair hl title="Replaces">Touch treatment (3rd level), touch treatment (6th level)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
 <Pair title="Standard Action">A vox can either make a melee touch attack that deals 1d6 points of sonic damage plus 1 point per mesmerist level, or he can make a single attack with a melee weapon, adding the listed sonic damage to the damage dealt by his weapon on a successful attack.</Pair>
@@ -857,10 +858,12 @@ const _vox = {title: "Vox", jsx: <><h2 id="arc-mesmerist-vox-vox">Vox</h2>
 </Ability>
 <Ability id="arc-mesmerist-vox-subsonic-strike-su" icon={["smoking-finger"]}>
 <Pair single id="arc-mesmerist-vox-subsonic-strike-su">Subsonic Strike (Su)</Pair>
-<Pair hl title="Replaces">Touch treatment (major)</Pair>
+<Pair hl title="Replaces">Touch treatment (major)<sup><InnerLink showBacklink="backlink-arc-mesmerist-vox-fake-fn-1" id="arc-mesmerist-vox-fake-fn-1" data-hash-target to="arc-mesmerist-vox-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Standard Action">A vox is able to unleash a deadly flurry of his <em>wounding words</em> at once. He can target a number of creatures or objects equal to his Charisma modifier (minimum 1) within 30 feet, requiring a ranged touch attack against each target. If the target of his <em>compelling voice</em> is within 30 feet, he can choose to instead target only that creature with a single ranged touch or melee touch attack, dealing double normal damage on a successful attack.</Pair>
 <Pair title="Special">Whatever choice he makes, the vox must expend one use of <em>wounding words.</em></Pair>
 </Ability>
-</>};
+<section data-footnotes><h3 id="arc-mesmerist-vox-label">Footnotes</h3><ol>
+<li id="arc-mesmerist-vox-fake-fn-1-target"><p>It is unclear if this refers to only the 10th-level ability (greater), and/or if it affects the 14th-level ability (break enchantment). Consult your GM. <InnerLink aria-label="Back to reference 1" id="backlink-arc-mesmerist-vox-fake-fn-1" data-hash-target to="arc-mesmerist-vox-fake-fn-1">↩</InnerLink></p></li>
+</ol></section></>};
 export default {aromaphile:_aromaphile,autohypnotist:_autohypnotist,chart_caster:_chart_caster,cult_master:_cult_master,dreamstalker:_dreamstalker,enigma:_enigma,eyebiter:_eyebiter,fey_trickster:_fey_trickster,gaslighter:_gaslighter,hate_monger:_hate_monger,material_manipulator:_material_manipulator,mindwyrm_mesmer:_mindwyrm_mesmer,projectionist:_projectionist,spirit_walker:_spirit_walker,thought_eater:_thought_eater,toxitician:_toxitician,umbral_mesmerist:_umbral_mesmerist,vexing_daredevil:_vexing_daredevil,vexing_trickster:_vexing_trickster,vizier:_vizier,vox:_vox}

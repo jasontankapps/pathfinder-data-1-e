@@ -197,9 +197,9 @@ const makeAbilityBlock = ({
 				// ~start level by increment? (if the next level is different from start level + increment)
 				// ~value at this increment? (if different from start value + increment)
 				// ~max level? (defaults to 20)
-			// Ex: Gained at 3rd level, 1 + 1 for every five levels
-				// useF=3~1~5~~5~2
-			// Ex: Gained at 12th level, 1 per every three levels
+			// Ex: Gained at 3rd level, 1 + 1 for every five levels total
+				// useF=3~1~5~~5
+			// Ex: Gained at 12th level, 1 + 1 per every three levels afterward
 				// useF=12~4~3
 			const rawUseF = useF.split(/~/);
 			const [ startLevel, startValue, lIncTemp, vIncTemp, beginLevel, initialValue, maxTemp ] = rawUseF.map(

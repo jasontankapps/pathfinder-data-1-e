@@ -16,7 +16,7 @@
 			"",
 			":::ab{l=3 icon=touch-aid-lower title=\"Aromatic Manipulation (Su)\" action=Ability alter=\"Touch treatment\" replace=\"Mental potency\" special=\"The target can attempt a Will save to negate these ill effects (DC = 10 + half the aromaphile's level + the aromaphile's Charisma modifier). On a failed save, the target gains the chosen condition for a number of rounds equal to the aromaphile's level. Each round that the target is affected, it can attempt a new Will save at the same DC to end the effect early. If the target succeeds at such a save, its turn immediately ends.\" imp6=\"His touch can deaden the target's emotions (as per ‹spell/calm emotions›).\" imp10=\"His touch can cause the target to become ‹misc/stunned›.\" imp14=\"His touch can cause the target to fall asleep (as per ‹spell/deep slumber›, except the Hit Die limit is equal to the aromaphile's level + 2).\"}",
 			"",
-			"The aromaphile can touch a creature affected by his *hypnotic aroma* to alter its mental state. This functions as the *touch treatment* class feature, except the aromaphile cannot remove the *confused, cowering,* or *stunned* conditions, and he cannot *break enchantments* using this ability. Instead, he adds ‹misc/fatigued› to his list of minor conditions and ‹misc/exhausted› to his list of greater conditions.",
+			"The aromaphile can touch a creature affected by his *hypnotic aroma* to alter its mental state. This functions as the *touch treatment* class feature, except the aromaphile cannot remove the *confused, cowering,* or *stunned* conditions, and he cannot *break enchantments* using this ability. Instead, he can remove the ‹misc/fatigued› condition at 3rd level and the ‹misc/exhausted› condition at 10th level.",
 			"",
 			"An aromaphile can also use this ability to inflict hampering conditions on a target by touching it. Initially, he can cause his target to become ‹misc/fascinated› by his *aroma,* but he gains more abilities as he gains levels.",
 			"",
@@ -114,7 +114,7 @@
 			"",
 			"::ab[Sleepless (Ex)]{l=2 icon=def passive=\"A dreamstalker gains immunity to sleep effects and a bonus equal to her Charisma bonus on saving throws against ‹misc/fatigue› and ‹misc/exhaustion›. She loses both benefits when under an effect that would prevent her from providing an ‹rule/emotion component›.\" replace=\"Towering ego\"}",
 			"",
-			"::ab[Touch of Night (Su)]{icon=down l=3 ability=\"A dreamstalker can't remove shaken, frightened, sickened, cowering, nauseated, or panicked conditions using her *touch treatment.* However, she can remove fatigue or magical sleep (other than hard-to-remove magical sleep such as the *eternal slumber* hex) as a minor condition, ‹misc/staggered› as a moderate condition, and exhausted as a greater condition. As normal, removing fatigue or exhaustion only removes the condition, not the underlying cause, such as lack of sleep.\" alter=\"Touch treatment\"}",
+			"::ab[Touch of Night (Su)]{icon=down l=3 ability=\"A dreamstalker can't remove shaken, frightened, sickened, cowering, nauseated, or panicked conditions using her *touch treatment.* However, she can remove fatigue or magical sleep (other than hard-to-remove magical sleep such as the *eternal slumber* hex) at 3rd level, ‹misc/staggered› at 6th level, and *exhausted* at 10th level. As normal, removing fatigue or exhaustion only removes the condition, not the underlying cause, such as lack of sleep.\" alter=\"Touch treatment\"}",
 			"",
 			"::ab[Dreamwalker (Su)]{l=5 icon=boost passive=\"A dreamstalker treats ‹rule/dreamscape«s› as a ‹ability/favored terrain›, as per the ‹class/ranger› ability, gaining a +2 bonus that increases by 2 every 4 mesmerist levels after 5th. While in a dreamscape, she also treats any creature from the ‹rule/Dimension of Dreams<_oa› (including dreamed figments) as her ‹ability/favored enemy›, with a bonus equal to 1/2 her favored terrain bonus.\" replace=\"Manifold tricks\"}",
 			"",
@@ -482,7 +482,13 @@
 			"",
 			"::ab[Wounding Words (Su)]{l=3 icon=touch-melee-lower flavor=\"A vox can focus the power of his voice to magnify the force of his blows in melee.\" standard=\"A vox can either make a melee touch attack that deals 1d6 points of sonic damage plus 1 point per mesmerist level, or he can make a single attack with a melee weapon, adding the listed sonic damage to the damage dealt by his weapon on a successful attack.\" useMod=Charisma3 special=\"If the target of the vox's *wounding words* is also the target of his *compelling voice,* that creature must succeed at a Will save (DC = 10 + 1/2 the vox's mesmerist level + his Charisma modifier) or take a -2 penalty on attack rolls, saving throws, skill checks, and ability checks for 1 round. This penalty doesn't stack with the effects of the ‹feat/Concussive Spell› metamagic feat.\" replace=\"Touch treatment (minor)~touch treatment (moderate)\"}",
 			"",
-			"::ab[Subsonic Strike (Su)]{l=10 icon=zap standard=\"A vox is able to unleash a deadly flurry of his *wounding words* at once. He can target a number of creatures or objects equal to his Charisma modifier (minimum 1) within 30 feet, requiring a ranged touch attack against each target. If the target of his *compelling voice* is within 30 feet, he can choose to instead target only that creature with a single ranged touch or melee touch attack, dealing double normal damage on a successful attack.\" special=\"Whatever choice he makes, the vox must expend one use of *wounding words.*\" replace=\"Touch treatment (major)\"}"
+			"::ab[Subsonic Strike (Su)]{l=10 icon=zap standard=\"A vox is able to unleash a deadly flurry of his *wounding words* at once. He can target a number of creatures or objects equal to his Charisma modifier (minimum 1) within 30 feet, requiring a ranged touch attack against each target. If the target of his *compelling voice* is within 30 feet, he can choose to instead target only that creature with a single ranged touch or melee touch attack, dealing double normal damage on a successful attack.\" special=\"Whatever choice he makes, the vox must expend one use of *wounding words.*\" replace=\"Touch treatment (major)@FN1\"}",
+			"",
+			":::fakeFootnotes",
+			"",
+			"@FN[It is unclear if this refers to only the 10th-level ability (greater), and/or if it affects the 14th-level ability (break enchantment). Consult your GM.]{from=1}",
+			"",
+			":::"
 		]
 	}
 }
