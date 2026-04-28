@@ -479,64 +479,139 @@ const _driver = {title: "Driver", jsx: <><h2 id="arc-rogue-driver-driver">Driver
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/firearm_training">Firearm training</Link>, <Link to="/talent/getaway_artist">getaway artist</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/feat">Feat</Link>, <Link to="/talent/getaway_master">getaway master</Link></p></>};
 const _earthshadow = {title: "Earthshadow", jsx: <><h2 id="arc-rogue-earthshadow-earthshadow">Earthshadow</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 8</Link><br/>When the dwarves began their Quest for Sky millennia ago to reach the world's surface, they already had a deep understanding of the earth's secrets. In the centuries since, the mystic lore the dwarves call earthcraft has been passed down through the generations, and its practitioners are called earthshadows. While many earthshadows are dwarves, their secrets have been shared with a worthy few members of other races over the ages.</p>
-<p><strong>Earthlink (Su):</strong> The earth grants an earthshadow swiftness and hones her senses. When an earthshadow is in direct contact with an expanse of natural earth or unworked stone that is at least as large as she is, she adds half her rogue level (minimum 1) to Acrobatics and Perception checks.</p>
-<p>This replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Earthcraft (Su):</strong> At 2nd level, an earthshadow can draw upon the power of earth to perform mystical tricks. At the start of each day, an earthshadow gains a pool of earthcraft points equal to half her rogue level plus her Wisdom modifier, and she can spend earthcraft points to use certain spell-like abilities. The caster level of these spell-like abilities is equal to the earthshadow's rogue level. Earthcraft effects affect only the earthshadow, even if the spell could normally affect others. She can spend 1 earthcraft point to cast <Link to="/spell/blend">blend</Link>, even if she is not an elf, but this ability works only in areas of natural earth or unworked stone.</p>
-<p>At 4th level, an earthshadow can spend 2 earthcraft points to cast <Link to="/spell/meld_into_stone">meld into stone</Link>.</p>
-<p>At 8th level, an earthshadow can spend 3 earthcraft points to cast <Link to="/spell/dimension_door">dimension door</Link>. She must be able to see her destination (or she must be able to otherwise sense its surface, such as with tremorsense), and her current location must be connected to her destination by continuous natural earth or unworked stone.</p>
-<p>At 12th level, an earthshadow can spend 5 earthcraft points to cast the spell <Link to="/spell/stone_tell">stone tell</Link> but can communicate only with unworked stone.</p>
-<p>At 16th level, an earthshadow can spend 6 earthcraft points to cast <Link to="/spell/statue">statue</Link>.</p>
-<p>This ability replaces <strong className="hl">evasion</strong> and the <strong className="hl">rogue talents</strong> gained at 4th, 8th, 12th, and 16th levels.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the earthshadow archetype: <Link to="/talent/extra_earthcraft">extra earthcraft</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link> (<em>Spellcasting Talents</em> group); <Link to="/talent/fortified_position">fortified position</Link>, <Link to="/talent/resiliency">resiliency</Link> (<em>Combat Talents</em> group); <Link to="/talent/trap_spotter">trap spotter</Link> (<em>Trap Talents</em> group); <Link to="/talent/favored_terrain">favored terrain</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the earthshadow archetype: <Link to="/talent/dispelling_attack">dispelling attack</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/slippery_mind">slippery mind</Link> (<em>Magical Talents</em> group); <Link to="/talent/against_the_wall">against the wall</Link> (<em>Combat Talents</em> group); <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/stony_skin">stony skin</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-earthshadow-earthlink-su" icon={["upgrade"]}>
+<Pair single id="arc-rogue-earthshadow-earthlink-su" flavor="The earth grants an earthshadow swiftness and hones her senses.">Earthlink (Su)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Passive Ability">When an earthshadow is in direct contact with an expanse of natural earth or unworked stone that is at least as large as she is, she adds half her rogue level (minimum 1) to Acrobatics and Perception checks.</Pair>
+</Ability>
+<Ability id="arc-rogue-earthshadow-earthcraft-su" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-earthshadow-earthcraft-su" flavor="An earthshadow can draw upon the power of earth to perform mystical tricks.">Earthcraft (Su)</Pair>
+<Pair hl title="Replaces">Evasion, rogue talents gained at 4th, 8th, 12th, and 16th levels</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">At the start of each day, an earthshadow gains a pool of earthcraft points equal to half her rogue level plus her Wisdom modifier, and she can spend earthcraft points to use certain spell-like abilities. The caster level of these spell-like abilities is equal to the earthshadow's rogue level. Earthcraft effects affect only the earthshadow, even if the spell could normally affect others.</Pair>
+<Pair title="At 2nd Level">She can spend 1 earthcraft point to cast <Link to="/spell/blend">blend</Link>, even if she is not an elf, but this ability works only in areas of natural earth or unworked stone.</Pair>
+<Pair title="At 4th Level">An earthshadow can spend 2 earthcraft points to cast <Link to="/spell/meld_into_stone">meld into stone</Link>.</Pair>
+<Pair title="At 8th Level">An earthshadow can spend 3 earthcraft points to cast <Link to="/spell/dimension_door">dimension door</Link>. She must be able to see her destination (or she must be able to otherwise sense its surface, such as with <Link to="/umr/tremorsense">tremorsense</Link>), and her current location must be connected to her destination by continuous natural earth or unworked stone.</Pair>
+<Pair title="At 12th Level">An earthshadow can spend 5 earthcraft points to cast the spell <Link to="/spell/stone_tell">stone tell</Link> but can communicate only with unworked stone.</Pair>
+<Pair title="At 16th Level">An earthshadow can spend 6 earthcraft points to cast <Link to="/spell/statue">statue</Link>.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/extra_earthcraft">Extra earthcraft</Link>, <Link to="/talent/favored_terrain">favored terrain</Link>, <Link to="/talent/fortified_position">fortified position</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link>, <Link to="/talent/resiliency">resiliency</Link>, <Link to="/talent/trap_spotter">trap spotter</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/against_the_wall">Against the wall</Link>, <Link to="/talent/dispelling_attack">dispelling attack</Link>, <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/slippery_mind">slippery mind</Link>, <Link to="/talent/stony_skin">stony skin</Link></p></>};
 const _eldritch_raider = {title: "Eldritch Raider", jsx: <><h2 id="arc-rogue-eldritch_raider-eldritch-raider">Eldritch Raider</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 189</Link><br/>An eldritch raider is a rogue who seeks to unravel the mysteries of the destruction of the gillmen's homeland. They explore old ruins that date back to the days of the old human empire and track down relics and lore from its glory days. An eldritch raider has the following class features.</p>
-<Ability icon={["skills"]} id="arc-rogue-eldritch_raider-undefined">
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-eldritch_raider--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/gillman">Gillman</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-rogue-eldritch_raider-undefined">
 <Pair id="arc-rogue-eldritch_raider-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
 <Pair title="Removed Skills">Disguise, Perform, Sleight of Hand</Pair></Ability>
-<p><strong>Skill Ranks per Level:</strong> 6 + Int modifier.</p>
-<p><strong>Detect Magic (Sp):</strong> At 2nd level, an eldritch raider gains the ability to use <Link to="/spell/detect_magic">detect magic</Link> at will. The eldritch raider treats her rogue level as her caster level for this ability. This ability counts as the <Link to="/talent/minor_magic">minor magic</Link> rogue talent for purposes of qualifying for other rogue talents.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> rogues gained at 2nd level.</p>
-<p><strong>Eldritch Intuition (Ex):</strong> At 3rd level, an eldritch raider gains an intuitive sense that allows her to more easily activate sorcerer and wizard spell completion and spell trigger items. She gains a +1 bonus on Use Magic Device checks for this purpose. This bonus increases to +2 at 6th level, +3 at 9th level, +4 at 12th level, +5 at 15th level, and +6 at 18th level.</p>
-<p>This ability replaces the <strong className="hl">trap sense</strong> class feature.</p>
-<p><strong>New Talents:</strong> An eldritch raider has access to the following new advanced talents when selecting rogue advanced talents.</p>
-<blockquote>
-<p><strong>Minor Eldritch Magic (Sp):</strong> The eldritch raider gains the ability to cast a 2nd-level spell from the <Link to="/main/spells_wizard">sorcerer/wizard spell list</Link> two times per day as a spell-like ability. The caster level for this ability is equal to her rogue level. The save DC for this spell is 12 + her Intelligence modifier. The eldritch raider must have an Intelligence of at least 12 to select this talent. The eldritch raider must have the <Link to="/talent/major_magic">major magic</Link> and minor magic rogue talents before choosing this talent.</p>
-<blockquote>
-<p><strong>Major Eldritch Magic (Sp):</strong> The eldritch raider gains the ability to cast a 3rd-level spell from the sorcerer/wizard spell list two times per day as a spell-like ability. The caster level for this ability is equal to her rogue level. The save DC for this spell is 13 + her Intelligence modifier. The eldritch raider must have an Intelligence of at least 13 to select this talent. The eldritch raider must have the major magic, minor eldritch magic, and minor magic rogue talents before choosing this talent.</p>
-</blockquote>
-</blockquote>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the eldritch raider archetype: major magic, minor magic (<em>Spellcasting Talents</em>); <Link to="/talent/black_market_connections">black market connections</Link> (<em>Other Magic-Related Talents</em> group); <Link to="/talent/trap_spotter">trap spotter</Link> (<em>Trap Talents</em> group); <Link to="/talent/fast_picks">fast picks</Link> and <Link to="/talent/quick_disable">quick disable</Link> (<em>Disable Device Talents</em> group); <Link to="/talent/ninja_trick">ninja trick</Link> [<Link to="/ninjatrick/slow_metabolism">slow metabolism</Link> and <Link to="/ninjatrick/wall_climber">wall climber</Link> - <em>Other Tricks</em> group] and <Link to="/talent/esoteric_scholar">esoteric scholar</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the eldritch raider archetype: <Link to="/talent/dispelling_attack">dispelling attack</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/slippery_mind">slippery mind</Link>, <Link to="/talent/familiar">familiar</Link> (<em>Magical Talents</em> group); <Link to="/talent/improved_evasion">improved evasion</Link>, <Link to="/talent/hard_minded">hard minded</Link> (<em>Combat Talents</em> group); <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-eldritch_raider-skill-ranks-per-level" icon={["broken-shield"]}>
+<Pair single id="arc-rogue-eldritch_raider-skill-ranks-per-level">Skill Ranks per Level</Pair>
+<Pair title="Info">The eldritch raider gains only 6 + Int modifier skill points per level.</Pair>
+</Ability>
+<Ability id="arc-rogue-eldritch_raider-detect-magic-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-eldritch_raider-detect-magic-sp">Detect Magic (Sp)</Pair>
+<Pair hl title="Replaces">Rogue talent rogues gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">An eldritch raider gains the ability to use <Link to="/spell/detect_magic">detect magic</Link> at will. The eldritch raider treats her rogue level as her caster level for this ability.</Pair>
+<Pair title="Special">This ability counts as the <Link to="/talent/minor_magic">minor magic</Link> rogue talent for purposes of qualifying for other rogue talents.</Pair>
+</Ability>
+<Ability id="arc-rogue-eldritch_raider-eldritch-intuition-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-eldritch_raider-eldritch-intuition-ex" flavor="An eldritch raider gains an intuitive sense that allows her to more easily activate sorcerer and wizard spell completion and spell trigger items.">Eldritch Intuition (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">She gains a bonus on Use Magic Device checks for this purpose. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-eldritch_raider-new-talents" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-eldritch_raider-new-talents">New Talents</Pair>
+<Pair title="Info">An eldritch raider has access to the following new advanced talents when selecting rogue advanced talents.</Pair>
+</Ability>
+<Ability id="arc-rogue-eldritch_raider-minor-eldritch-magic-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-eldritch_raider-minor-eldritch-magic-sp">Minor Eldritch Magic (Sp)</Pair>
+<Pair title="Prerequisites"><em>Minor magic</em> and <Link to="/talent/major_magic">major magic</Link> rogue talents; Intelligence 12</Pair>
+<Pair title="Ability">The eldritch raider gains the ability to cast a 2nd-level spell from the <Link to="/main/spells_wizard">sorcerer/wizard spell list</Link> two times per day as a spell-like ability. The caster level for this ability is equal to her rogue level. The save DC for this spell is 12 + her Intelligence modifier.</Pair>
+</Ability>
+<Ability id="arc-rogue-eldritch_raider-major-eldritch-magic-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-eldritch_raider-major-eldritch-magic-sp">Major Eldritch Magic (Sp)</Pair>
+<Pair title="Prerequisites">Minor Eldritch Magic; Intelligence 13</Pair>
+<Pair title="Ability">The eldritch raider gains the ability to cast a 3rd-level spell from the sorcerer/wizard spell list two times per day as a spell-like ability. The caster level for this ability is equal to her rogue level. The save DC for this spell is 13 + her Intelligence modifier.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/black_market_connections">Black market connections</Link>, <Link to="/talent/esoteric_scholar">esoteric scholar</Link>, <Link to="/talent/fast_picks">fast picks</Link>, major magic, minor magic, <Link to="/talent/ninja_trick">ninja trick</Link> [<Link to="/ninjatrick/slow_metabolism">slow metabolism</Link>, <Link to="/ninjatrick/wall_climber">wall climber</Link>], <Link to="/talent/quick_disable">quick disable</Link>, <Link to="/talent/trap_spotter">trap spotter</Link></p>
+<p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/dispelling_attack">Dispelling attack</Link>, <Link to="/talent/familiar">familiar</Link>, <Link to="/talent/hard_minded">hard minded</Link>, <Link to="/talent/improved_evasion">improved evasion</Link>, <Link to="/talent/slippery_mind">slippery mind</Link>, <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link></p></>};
 const _eldritch_scoundrel = {title: "Eldritch Scoundrel", jsx: <><h2 id="arc-rogue-eldritch_scoundrel-eldritch-scoundrel">Eldritch Scoundrel</h2>
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 23</Link><br/>Students of arcane magic, legerdemain, and stealth, eldritch scoundrels are a rare breed of adventurer most commonly found seeking lost and valuable arcane writings in the ruins of fallen empires, such as Thassilon or the Jistka Imperium.</p>
-<p><strong>Armor Proficiencies:</strong> An eldritch scoundrel is not proficient with any armor or shields. Armor sometimes interferes with an eldritch scoundrel's gestures, which can cause her spells with somatic components to fail.</p>
-<p>This alters the rogue's <strong className="hl">armor proficiencies</strong>.</p>
 <Ability icon={["skills"]} id="arc-rogue-eldritch_scoundrel-undefined">
 <Pair id="arc-rogue-eldritch_scoundrel-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
 <Pair title="Removed Skills">Diplomacy, Disguise</Pair></Ability>
-<p><strong>Skill Ranks:</strong> An eldritch scoundrel gains 4 skill ranks (plus a number of ranks equal to her Intelligence modifier) at each level instead of a normal 8.</p>
-<p>This alters the rogue's <strong className="hl">skills</strong>.</p>
-<p><strong>Spells:</strong> An eldritch scoundrel casts arcane spells drawn from the <Link to="/main/wizard_spell">wizard spell list</Link>. An eldritch scoundrel must choose and prepare her spells ahead of time. She learns, prepares, and casts spells exactly as a <Link to="/class/wizard">wizard</Link> does, including adding new spells to her spellbook and gaining two additional spells known (of any level she can cast) each time she gains a rogue level with this archetype.</p>
-<p>An eldritch scoundrel can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is the same as the <Link to="/class/magus">magus</Link> class.</p>
-<p><strong>Alarm Sense (Su):</strong> At 3rd level, an eldritch scoundrel gains an intuitive sense that warns her when she is near a magic trap. This functions as the <Link to="/talent/trap_spotter">trap spotter</Link> rogue talent, but applies only if the eldritch scoundrel comes within 10 feet of a magic trap.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Sneak Attack (Ex):</strong> The eldritch scoundrel doesn't acquire the sneak attack class feature until 3rd level, when she gains a +1d6 sneak attack. This increases by 1d6 at 7th level, and again at every 4 rogue levels thereafter. This modifies the rogue's normal sneak attack progression.</p>
-<p><strong>Rogue Talents:</strong> At 4th level and every 4 levels thereafter, the eldritch scoundrel gains a <Link to="/ability/rogue_talent">rogue talent</Link> or <Link to="/ability/ninja_tricks">ninja trick</Link> for which she meets the prerequisites (treating her rogue level as her ninja level). If a talent requires her to expend points from her ki pool, she can instead expend a spell slot with a spell level equal to the number of ki points she would normally expend. If a talent functions only if she has ki in her ki pool, it functions as long as she still has a spell of 1st level or higher prepared. At 12th level, she can select an <Link to="/ability/advanced_rogue_talent">advanced rogue talent</Link> in place of a rogue talent. This modifies the normal rogue talent progression and advanced talent.</p>
-<p><strong>Uncanny Training:</strong> An eldritch scoundrel does not gain uncanny dodge or improved uncanny dodge. Beginning at 4th level, she can take uncanny dodge instead of a rogue talent. Beginning at 12th level, the eldritch scoundrel can choose to take improved uncanny dodge in place of an advanced talent. This modifies uncanny dodge and improved uncanny dodge.</p>
+<Ability id="arc-rogue-eldritch_scoundrel-armor-proficiencies" icon={["broken-shield"]}>
+<Pair single id="arc-rogue-eldritch_scoundrel-armor-proficiencies">Armor Proficiencies</Pair>
+<Pair hl title="Alters">Armor proficiencies</Pair>
+<Pair title="Ability">An eldritch scoundrel is not proficient with any armor or shields. Armor sometimes interferes with an eldritch scoundrel's gestures, which can cause her spells with somatic components to fail.</Pair>
+</Ability>
+<Ability id="arc-rogue-eldritch_scoundrel-skill-ranks" icon={["broken-shield"]}>
+<Pair single id="arc-rogue-eldritch_scoundrel-skill-ranks">Skill Ranks</Pair>
+<Pair hl title="Alters">Skills</Pair>
+<Pair title="Info">An eldritch scoundrel gains 4 skill ranks (plus a number of ranks equal to her Intelligence modifier) at each level instead of a normal 8.</Pair>
+</Ability>
+<Ability id="arc-rogue-eldritch_scoundrel-spells" icon={["magic-swirl","spell-book"]}>
+<Pair single id="arc-rogue-eldritch_scoundrel-spells">Spells</Pair>
+<Pair title="Ability">An eldritch scoundrel casts arcane spells drawn from the <Link to="/main/wizard_spell">wizard spell list</Link>. An eldritch scoundrel must choose and prepare her spells ahead of time. She learns, prepares, and casts spells exactly as a <Link to="/class/wizard">wizard</Link> does, including adding new spells to her spellbook and gaining two additional spells known (of any level she can cast) each time she gains a rogue level with this archetype.</Pair>
+<Pair title="Special">An eldritch scoundrel can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is the same as the <Link to="/class/magus">magus</Link> class.</Pair>
+</Ability>
+<Ability id="arc-rogue-eldritch_scoundrel-alarm-sense-su" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-eldritch_scoundrel-alarm-sense-su">Alarm Sense (Su)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">An eldritch scoundrel gains an intuitive sense that warns her when she is near a magic trap. This functions as the <Link to="/talent/trap_spotter">trap spotter</Link> rogue talent, but applies only if the eldritch scoundrel comes within 10 feet of a magic trap.</Pair>
+</Ability>
+<Ability id="arc-rogue-eldritch_scoundrel-sneak-attack-ex" icon={["broken-shield"]}>
+<Pair single id="arc-rogue-eldritch_scoundrel-sneak-attack-ex">Sneak Attack (Ex)</Pair>
+<Pair hl title="Alters">Sneak attack progression</Pair>
+<Pair title="At 3rd Level">The eldritch scoundrel doesn't acquire the sneak attack class feature until 3rd level, when she gains a +1d6 sneak attack.</Pair>
+<Pair title="At 7th Level">The sneak attack damage becomes +2d6.</Pair>
+<Pair title="At 11th Level">The sneak attack damage increases to +3d6.</Pair>
+<Pair title="At 15th Level">The sneak attack damage becomes +4d6.</Pair>
+<Pair title="At 19th Level">The sneak attack damage increases to +5d6.</Pair>
+</Ability>
+<Ability id="arc-rogue-eldritch_scoundrel-rogue-talents" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-eldritch_scoundrel-rogue-talents">Rogue Talents</Pair>
+<Pair hl title="Alters">Rogue talent progression, advanced talent</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">The eldritch scoundrel gains a <Link to="/ability/rogue_talent">rogue talent</Link> or <Link to="/ability/ninja_tricks">ninja trick</Link> for which she meets the prerequisites (treating her rogue level as her ninja level). If a talent requires her to expend points from her ki pool, she can instead expend a spell slot with a spell level equal to the number of ki points she would normally expend. If a talent functions only if she has ki in her ki pool, it functions as long as she still has a spell of 1st level or higher prepared.</Pair>
+<Pair title="At 8th Level">She can select another talent or trick.</Pair>
+<Pair title="At 12th Level">She can select another talent or trick. From here on out, she can select an <Link to="/ability/advanced_rogue_talent">advanced rogue talent</Link> in place of a rogue talent.</Pair>
+<Pair title="At 16th Level">She can select another talent or trick.</Pair>
+<Pair title="At 20th Level">She can select another talent or trick.</Pair>
+</Ability>
+<Ability id="arc-rogue-eldritch_scoundrel-uncanny-training" icon={["info"]}>
+<Pair single id="arc-rogue-eldritch_scoundrel-uncanny-training">Uncanny Training</Pair>
+<Pair hl title="Alters">Uncanny dodge, improved uncanny dodge</Pair>
+<Pair title="Info">An eldritch scoundrel does not gain uncanny dodge or improved uncanny dodge.</Pair>
+<Pair title="At 4th Level">She can take <Link to="/ability/uncanny_dodge">uncanny dodge</Link> instead of a rogue talent.</Pair>
+<Pair title="At 12th Level">The eldritch scoundrel can choose to take <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link> in place of an advanced talent.</Pair>
+</Ability>
 </>};
 const _escapologist = {title: "Escapologist", jsx: <><h2 id="arc-rogue-escapologist-escapologist">Escapologist</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 123</Link><br/>The escapologist excels at escaping any confinement, whether physical, magical, or mental. Few restraints can hold an escapologist for long.</p>
-<p><strong>Elusive:</strong> An escapologist adds 1/2 her rogue level (minimum +1) as a bonus on all Disable Device and Escape Artist checks. An escapologist can use Disable Device to disarm magical traps.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>, but counts as trapfinding for the purposes of prerequisites and abilities that require trapfinding.</p>
-<p><strong>Unfettered Mind (Su):</strong> At 3rd level, an escapologist can attempt an Escape Artist check as a full-round action to remove a mind-affecting effect currently affecting her. The DC of this check is equal to the effect's original save DC + 20. She cannot remove effects that do not allow a saving throw. She can attempt to escape even if paralyzed or restrained, as long as she can take purely mental actions. She can attempt this check against a particular effect once per round if the effect is measured in rounds, once per minute if the effect is measured in minutes, once per 10 minutes if the effect is measured in 10-minute intervals, and so on.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Impossible Escape (Su):</strong> At 8th level, as an immediate action, an escapologist can attempt an Escape Artist check at a -10 penalty and apply the result in place of either a failed Reflex save or her AC against an attack that would have hit her. If she succeeds, her contortions let her avoid the attack or effect entirely. Using this ability leaves the escapologist staggered until the end of her next turn. If the escapologist can't become staggered, she can't use impossible escape.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
+<Ability id="arc-rogue-escapologist-elusive" icon={["upgrade"]}>
+<Pair single id="arc-rogue-escapologist-elusive">Elusive</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Passive Ability">An escapologist adds 1/2 her rogue level (minimum +1) as a bonus on all Disable Device and Escape Artist checks.</Pair>
+<Pair title="Ability">An escapologist can use Disable Device to disarm magical traps.</Pair>
+<Pair title="Special">This counts as <em>trapfinding</em> for the purpose of prerequisites and abilities that require trapfinding.</Pair>
+</Ability>
+<Ability id="arc-rogue-escapologist-unfettered-mind-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-escapologist-unfettered-mind-su">Unfettered Mind (Su)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Full-Round Action">An escapologist can attempt an Escape Artist check to remove a mind-affecting effect currently affecting her. The DC of this check is equal to the effect's original save DC + 20. She cannot remove effects that do not allow a saving throw. She can attempt to escape even if paralyzed or restrained, as long as she can take purely mental actions.</Pair>
+<Pair title="Special">She can attempt this check against a particular effect once per round if the effect is measured in rounds, once per minute if the effect is measured in minutes, once per 10 minutes if the effect is measured in 10-minute intervals, and so on.</Pair>
+</Ability>
+<Ability id="arc-rogue-escapologist-impossible-escape-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-escapologist-impossible-escape-su">Impossible Escape (Su)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Immediate Action">An escapologist can attempt an Escape Artist check at a -10 penalty and apply the result in place of either a failed Reflex save or her AC against an attack that would have hit her. If she succeeds, her contortions let her avoid the attack or effect entirely.</Pair>
+<Pair title="Special">Using this ability leaves the escapologist <Link to="/misc/staggered">staggered</Link> until the end of her next turn. If the escapologist can't become staggered, she can't use impossible escape.</Pair>
+</Ability>
 </>};
 const _false_medium = {title: "False Medium", jsx: <><h2 id="arc-rogue-false_medium-false-medium">False Medium</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 123</Link><br/>The false medium is a master of pretending to have occult powers in order to manipulate the emotions and atmosphere of the people and places around him, often reaping a healthy reward from the bereaved, who find solace in his comforting lies.</p>
