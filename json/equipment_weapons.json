@@ -4410,6 +4410,7 @@
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
+	"dagger_masterwork_silver": { "redirect": "masterwork_silver_dagger" },
 	"cold_iron_masterwork_longsword": {
 		"name": "Cold Iron Masterwork Longsword",
 		"sources": [
@@ -4429,6 +4430,7 @@
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
+	"longsword_masterwork_cold_iron": { "redirect": "cold_iron_masterwork_longsword" },
 	"crossbow_of_the_crab": {
 		"name": "Crossbow of the Crab",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
@@ -4466,6 +4468,7 @@
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
+	"dagger_adamantine": { "redirect": "adamantine_dagger" },
 	"adamantine_battleaxe": {
 		"name": "Adamantine Battleaxe",
 		"sources": [
@@ -4484,5 +4487,6 @@
 			"**‹ability/Weapon Group<s›** Axes"
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
-	}
+	},
+	"battleaxe_adamantine": { "redirect": "adamantine_battleaxe" }
 }

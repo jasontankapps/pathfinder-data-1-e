@@ -25,6 +25,7 @@
 			"This extremely light ‹eq-armor/chain shirt› is made of very fine ‹eq-material/mithral› links. The armor has an arcane spell failure chance of 10%, a maximum Dexterity bonus of +6, and no armor check penalty. It is considered light armor."
 		]
 	},
+	"chain_shirt_mithral": { "redirect": "mithral_shirt" },
 	"elven_chain": {
 		"name": "Elven Chain",
 		"sources": [
@@ -61,6 +62,7 @@
 			"This nonmagical ‹eq-armor/breastplate› is made of ‹eq-material/adamantine›, giving its wearer damage reduction 2/-."
 		]
 	},
+	"breastplate_adamantine": { "redirect": "adamantine_breastplate" },
 	"dragonhide_plate": {
 		"name": "Dragonhide Plate",
 		"sources": [
@@ -1097,6 +1099,7 @@
 			"**‹ability/Weapon Group<s›** Close; Tribal"
 		]
 	},
+	"shield_light_steel": { "redirect": "light_steel_shield" },
 	"light_steel_quickdraw_shield": {
 		"name": "Light steel quickdraw shield",
 		"sources": [
@@ -1119,6 +1122,7 @@
 			"**‹ability/Weapon Group<s›** Close; Tribal"
 		]
 	},
+	"shield_light_steel_quickdraw": { "redirect": "light_steel_quickdraw_shield" },
 	"light_wooden_shield": {
 		"name": "Light wooden shield",
 		"sources": [
@@ -1141,6 +1145,7 @@
 			"**‹ability/Weapon Group<s›** Close; Tribal"
 		]
 	},
+	"shield_light_wooden": { "redirect": "light_wooden_shield" },
 	"light_wooden_quickdraw_shield": {
 		"name": "Light wooden quickdraw shield",
 		"sources": [
@@ -1163,6 +1168,7 @@
 			"**‹ability/Weapon Group<s›** Close; Tribal"
 		]
 	},
+	"shield_light_wooden_quickdraw": { "redirect": "light_wooden_quickdraw_shield" },
 	"madu_shield_leather": {
 		"name": "Madu shield (leather)",
 		"sources": [
@@ -1273,6 +1279,7 @@
 			"**‹ability/Weapon Group<s›** Close; Tribal"
 		]
 	},
+	"shield_heavy_steel": { "redirect": "heavy_steel_shield" },
 	"heavy_wooden_shield": {
 		"name": "Heavy wooden shield",
 		"sources": [
@@ -1295,6 +1302,7 @@
 			"**‹ability/Weapon Group<s›** Close; Tribal"
 		]
 	},
+	"shield_heavy_wooden": { "redirect": "heavy_wooden_shield" },
 	"snarlshield_steel": {
 		"name": "Snarlshield, steel",
 		"sources": [
@@ -1373,6 +1381,7 @@
 			"This nonmagical ‹eq-armor/heavy steel shield› is made out of ‹eq-material/living steel›. It has no enhancement bonus, but its material and construction can damage metal weapons that strike it. Whenever the wielder of a metal weapon (other than one made of adamantine) rolls a natural 1 on an attack against a creature wielding this shield, the item must make a DC 20 Fortitude save or gain the ‹misc/broken› condition. If the weapon already has the broken condition, it is instead destroyed."
 		]
 	},
+	"shield_heavy_living_steel": { "redirect": "living_steel_heavy_shield" },
 	"darkwood_buckler": {
 		"name": "Darkwood Buckler",
 		"sources": [
@@ -1390,6 +1399,7 @@
 			"This nonmagical masterwork ‹eq-armor/light wooden shield› is made out of ‹eq-material/darkwood›. It has no enhancement bonus, but its construction material makes it lighter than a normal wooden shield. It has no armor check penalty."
 		]
 	},
+	"buckler_darkwood": { "redirect": "darkwood_buckler" },
 	"darkwood_shield": {
 		"name": "Darkwood Shield",
 		"sources": [
@@ -1407,6 +1417,7 @@
 			"This nonmagical masterwork ‹eq-armor/heavy wooden shield› is made out of ‹eq-material/darkwood›. It has no enhancement bonus, but its construction material makes it lighter than a normal wooden shield. It has no armor check penalty."
 		]
 	},
+	"shield_heavy_darkwood": { "redirect": "darkwood_shield" },
 	"mithral_heavy_shield": {
 		"name": "Mithral Heavy Shield",
 		"sources": [
@@ -1423,5 +1434,6 @@
 			"",
 			"This ‹eq-armor/heavy <steel_>shield› is made of ‹eq-material/mithral› and is thus much lighter than a standard steel shield. It has a 5% arcane spell failure chance and no armor check penalty."
 		]
-	}
+	},
+	"shield_heavy_mithral": { "redirect": "mithral_heavy_shield" }
 }

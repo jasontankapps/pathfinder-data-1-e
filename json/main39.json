@@ -36,8 +36,8 @@
 					[ "‹eq-weapon/brass knuckles›", [ 0, "light" ], 1, [ 1.5, "1d2" ], [ 2, "1d3" ], null, [ 99, "&mdash;" ], "monk, see text", [ 999, "&mdash;" ], 1, "B" ],
 					[ "‹eq-weapon/cestus›", [ 0, "light" ], 5, [ 2, "1d3" ], [ 2.5, "1d4" ], null, [ 2.1, "19-20" ], "monk, see text", [ 999, "&mdash;" ], 1, "B or P" ],
 					[ "‹eq-weapon/dagger›", [ 0, "light" ], 2, [ 2, "1d3" ], [ 2.5, "1d4" ], null, [ 2.1, "19-20" ], null, [ 10, "10 ft." ], 1, "P or S" ],
-					[ "‹eq-weapon/adamantine dagger›", [ 0, "light" ], 3002, [ 2, "1d3" ], [ 2.5, "1d4" ], null, [ 2.1, "19-20" ], null, [ 10, "10 ft." ], 1, "P or S" ],
-					[ "‹eq-weapon/masterwork silver dagger›", [ 0, "light" ], 322, [ 2, "1d3" ], [ 2.5, "1d4" ], null, [ 2.1, "19-20" ], null, [ 10, "10 ft." ], 1, "P or S" ],
+					[ "‹eq-weapon/dagger, adamantine›", [ 0, "light" ], 3002, [ 2, "1d3" ], [ 2.5, "1d4" ], null, [ 2.1, "19-20" ], null, [ 10, "10 ft." ], 1, "P or S" ],
+					[ "‹eq-weapon/dagger, masterwork, silver›", [ 0, "light" ], 322, [ 2, "1d3" ], [ 2.5, "1d4" ], null, [ 2.1, "19-20" ], null, [ 10, "10 ft." ], 1, "P or S" ],
 					[ "‹eq-weapon/gauntlet›", [ 0, "light" ], 2, [ 1.5, "1d2" ], [ 2, "1d3" ], null, [ 99, "&mdash;" ], null, [ 999, "&mdash;" ], 1, "B" ],
 					[ "‹eq-weapon/hanbo›", [ 0, "light" ], 1, [ 2.5, "1d4" ], [ 3.5, "1d6" ], null, [ 99, "&mdash;" ], "monk, trip", [ 999, "&mdash;" ], 2, "B" ],
 					[ "‹eq-weapon/handwraps›", [ 0, "light" ], 0.1, [ 99, "&mdash;" ], [ 99, "&mdash;" ], null, [ 99, "&mdash;" ], "see text", [ 999, "&mdash;" ], [ 0, "&mdash;" ], null ],
@@ -78,7 +78,7 @@
 					[ "‹eq-weapon/underwater heavy crossbow›", [ 3, "ranged" ], 100, [ 4.5, "1d8" ], [ 5.5, "1d10" ], null, [ 2.1, "19-20" ], null, [ 120, "120 ft." ], 8, "P" ],
 					[ "‹eq-weapon/underwater light crossbow›", [ 3, "ranged" ], 70, [ 3.5, "1d6" ], [ 4.5, "1d8" ], null, [ 2.1, "19-20" ], null, [ 80, "80 ft." ], 4, "P" ]
 				],
-				"initialColumn": 0
+				"initialColumn": 1
 			}
 		]
 	},
@@ -144,7 +144,7 @@
 					[ "‹eq-weapon/wushu dart›", [ 0, "light" ], 0.2, [ 1.5, "1d2" ], [ 2, "1d3" ], null, [ 99, "&mdash;" ], "monk", [ 10, "10 ft." ], [ 0, "&mdash;" ], "P" ],
 					[ "‹eq-weapon/ankus›", [ 1, "one-handed" ], 8, [ 3.5, "1d6" ], [ 4.5, "1d8" ], null, [ 99, "&mdash;" ], "disarm, trip", [ 999, "&mdash;" ], 5, "P" ],
 					[ "‹eq-weapon/battleaxe›", [ 1, "one-handed" ], 10, [ 3.5, "1d6" ], [ 4.5, "1d8" ], null, [ 3, "&times;3" ], null, [ 999, "&mdash;" ], 6, "S" ],
-					[ "‹eq-weapon/adamantine battleaxe›", [ 1, "one-handed" ], 3010, [ 3.5, "1d6" ], [ 4.5, "1d8" ], null, [ 3, "&times;3" ], null, [ 999, "&mdash;" ], 6, "S" ],
+					[ "‹eq-weapon/battleaxe, adamantine›", [ 1, "one-handed" ], 3010, [ 3.5, "1d6" ], [ 4.5, "1d8" ], null, [ 3, "&times;3" ], null, [ 999, "&mdash;" ], 6, "S" ],
 					[ "‹eq-weapon/combat scabbard›", [ 1, "one-handed" ], 1, [ 2.5, "1d4" ], [ 3.5, "1d6" ], null, [ 99, "&mdash;" ], "improvised, see text", [ 999, "&mdash;" ], 1, "B" ],
 					[ "‹eq-weapon/combat scabbard, sharpened›", [ 1, "one-handed" ], 10, [ 2.5, "1d4" ], [ 3.5, "1d6" ], null, [ 99, "&mdash;" ], "see text", [ 999, "&mdash;" ], 1, "S" ],
 					[ "‹eq-weapon/cutlass›", [ 1, "one-handed" ], 15, [ 2.5, "1d4" ], [ 3.5, "1d6" ], null, [ 2.2, "18-20" ], null, [ 999, "&mdash;" ], 4, "S" ],
@@ -153,7 +153,7 @@
 					[ "‹eq-weapon/heavy pick›", [ 1, "one-handed" ], 8, [ 2.5, "1d4" ], [ 3.5, "1d6" ], null, [ 4, "&times;4" ], null, [ 999, "&mdash;" ], 6, "P" ],
 					[ "‹eq-weapon/light flail›", [ 1, "one-handed" ], 8, [ 3.5, "1d6" ], [ 4.5, "1d8" ], null, [ 99, "&mdash;" ], "disarm, trip", [ 999, "&mdash;" ], 5, "B" ],
 					[ "‹eq-weapon/longsword›", [ 1, "one-handed" ], 15, [ 3.5, "1d6" ], [ 4.5, "1d8" ], null, [ 2.1, "19-20" ], null, [ 999, "&mdash;" ], 4, "S" ],
-					[ "‹eq-weapon/cold iron masterwork longsword›", [ 1, "one-handed" ], 330, [ 3.5, "1d6" ], [ 4.5, "1d8" ], null, [ 2.1, "19-20" ], null, [ 999, "&mdash;" ], 4, "S" ],
+					[ "‹eq-weapon/longsword, masterwork, cold iron›", [ 1, "one-handed" ], 330, [ 3.5, "1d6" ], [ 4.5, "1d8" ], null, [ 2.1, "19-20" ], null, [ 999, "&mdash;" ], 4, "S" ],
 					[ "‹eq-weapon/manople›", [ 1, "one-handed" ], 17, [ 3.5, "1d6" ], [ 4.5, "1d8" ], null, [ 99, "&mdash;" ], "blocking, disarm", [ 999, "&mdash;" ], 4, "P or S" ],
 					[ "‹eq-weapon/nine-ring broadsword›", [ 1, "one-handed" ], 15, [ 3.5, "1d6" ], [ 4.5, "1d8" ], null, [ 3, "&times;3" ], "monk", [ 999, "&mdash;" ], 4, "S" ],
 					[ "‹eq-weapon/rapier›", [ 1, "one-handed" ], 20, [ 2.5, "1d4" ], [ 3.5, "1d6" ], null, [ 2.2, "18-20" ], null, [ 999, "&mdash;" ], 2, "P" ],
@@ -216,7 +216,7 @@
 					[ "‹eq-weapon/throwing arrow cord›", [ 3, "ranged" ], 0, [ 2, "1d3" ], [ 2.5, "1d4" ], null, [ 99, "&mdash;" ], null, [ 60, "60 ft." ], [ 0, "&mdash;" ], "P" ],
 					[ "‹eq-weapon/tube arrow shooter›", [ 3, "ranged" ], 3, [ 2, "1d3" ], [ 2.5, "1d4" ], null, [ 99, "&mdash;" ], null, [ 40, "40 ft." ], 0.5, "P" ]
 				],
-				"initialColumn": 0
+				"initialColumn": 1
 			}
 		]
 	},
@@ -403,7 +403,7 @@
 					[ "‹eq-weapon/thorn bow›", [ 3, "ranged" ], 50, [ 2.5, "1d4" ], [ 3.5, "1d6" ], null, [ 3, "&times;3" ], null, [ 40, "40 ft." ], 2, "P" ],
 					[ "‹eq-weapon/wrist launcher›", [ 3, "ranged" ], 200, [ 99, "&mdash;" ], [ 99, "&mdash;" ], null, [ 99, "&mdash;" ], null, [ 20, "20 ft." ], 1, "P" ]
 				],
-				"initialColumn": 0
+				"initialColumn": 1
 			}
 		]
 	}
