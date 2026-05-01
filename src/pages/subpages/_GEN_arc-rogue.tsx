@@ -615,75 +615,167 @@ const _escapologist = {title: "Escapologist", jsx: <><h2 id="arc-rogue-escapolog
 </>};
 const _false_medium = {title: "False Medium", jsx: <><h2 id="arc-rogue-false_medium-false-medium">False Medium</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 123</Link><br/>The false medium is a master of pretending to have occult powers in order to manipulate the emotions and atmosphere of the people and places around him, often reaping a healthy reward from the bereaved, who find solace in his comforting lies.</p>
-<p><strong>Dim the Lights (Ex):</strong> At 1st level, while in <Link to="/rule/dim_light">dim light</Link> or darkness, a false medium adds 1/2 his rogue level as a bonus on Bluff, Disguise, and Sleight of Hand checks, and creatures without low-light vision or darkvision take an equal penalty on skill checks to oppose the false medium's Bluff, Disguise, and Sleight of Hand checks.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>False Sensitivity (Ex):</strong> At 2nd level, a charlatan can convincingly fake the ability to use occult skill unlocks such as <Link to="/skill/automatic_writing">automatic writing</Link> and <Link to="/skill/dowsing">dowsing</Link>. An untrained onlooker can't tell the difference between the false medium's scams and a true use of occult skill unlocks. An onlooker capable of using the particular occult skill unlock that the false medium is faking can attempt the appropriate skill check for that unlock, opposed by the false medium's Bluff check, to detect the fraud. In any case, any results of the false medium's charades are fabricated (for instance, the false medium might ask leading questions to elicit false memories while pretending to use hypnotism).</p>
-<p>This ability replaces the 2nd-level <strong className="hl">rogue talent</strong>.</p>
-<p><strong>Haunting Presences (Ex):</strong> At 3rd level, the false medium exploits his natural talent for deception to convince others of the presence of false supernatural entities. As long as the false medium is in conditions of dim light or darkness, he can use Bluff skill checks to emulate the effects of <Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/ghost_sound">ghost sound</Link>, <Link to="/spell/silent_image">silent image</Link>, or <Link to="/spell/ventriloquism">ventriloquism</Link> by throwing his voice, subtly misdirecting or convincing subjects, or manipulating light and shadows. The range of these effects is 10 feet from the false medium, plus an additional 5 feet for every 3 rogue levels he possesses beyond 3rd. The effects last for 1 round, though they can be maintained with additional checks. Only one of these effects can be created or maintained in a given round. Observers can attempt either a Perception or Sense Motive check (whichever of their bonuses is higher) to oppose this Bluff check; the GM should roll these checks secretly. This is an extraordinary ability and not an illusion, so if the false medium succeeds at the opposed check, even powerful effects like <Link to="/spell/true_seeing">true seeing</Link> don't detect the fakery.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the false medium rogue archetype: <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link> (<em>Spellcasting Talents</em> group); <Link to="/talent/quick_trapsmith">quick trapsmith</Link> (<em>Trap Talents</em> group); <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/honeyed_words">honeyed words</Link> (<em>Deception Talents</em> group); <Link to="/talent/esoteric_scholar">esoteric scholar</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the false medium rogue archetype: <Link to="/talent/feat">feat</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>, <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-false_medium-dim-the-lights-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-false_medium-dim-the-lights-ex">Dim the Lights (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">While in <Link to="/rule/dim_light">dim light</Link> or darkness, a false medium adds 1/2 his rogue level as a bonus on Bluff, Disguise, and Sleight of Hand checks, and creatures without low-light vision or darkvision take an equal penalty on skill checks to oppose the false medium's Bluff, Disguise, and Sleight of Hand checks.</Pair>
+</Ability>
+<Ability id="arc-rogue-false_medium-false-sensitivity-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-false_medium-false-sensitivity-ex">False Sensitivity (Ex)</Pair>
+<Pair hl title="Replaces">2nd-level rogue talent</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A charlatan can convincingly fake the ability to use occult skill unlocks such as <Link to="/skill/automatic_writing">automatic writing</Link> and <Link to="/skill/dowsing">dowsing</Link>. An untrained onlooker can't tell the difference between the false medium's scams and a true use of occult skill unlocks. An onlooker capable of using the particular occult skill unlock that the false medium is faking can attempt the appropriate skill check for that unlock, opposed by the false medium's Bluff check, to detect the fraud. In any case, any results of the false medium's charades are fabricated (for instance, the false medium might ask leading questions to elicit false memories while pretending to use hypnotism).</Pair>
+</Ability>
+<Ability id="arc-rogue-false_medium-haunting-presences-ex" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-false_medium-haunting-presences-ex" flavor="The false medium exploits his natural talent for deception to convince others of the presence of false supernatural entities.">Haunting Presences (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">As long as the false medium is in conditions of dim light or darkness, he can use Bluff skill checks to emulate the effects of <Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/ghost_sound">ghost sound</Link>, <Link to="/spell/silent_image">silent image</Link>, or <Link to="/spell/ventriloquism">ventriloquism</Link> by throwing his voice, subtly misdirecting or convincing subjects, or manipulating light and shadows. The range of these effects is 10 feet from the false medium. The effects last for 1 round, though they can be maintained with additional checks.</Pair>
+<Pair title="At 6th Level">The range of his effects can now reach up to 15 feet from him.</Pair>
+<Pair title="At 9th Level">The range of his effects increase to 20 feet from him.</Pair>
+<Pair title="At 12th Level">The range of his effects now extend to reach 25 feet from him.</Pair>
+<Pair title="At 15th Level">The range of his effects can now reach up to 30 feet from him.</Pair>
+<Pair title="At 18th Level">The range of his effects increase to 35 feet from him.</Pair>
+<Pair title="Special">Only one of these effects can be created or maintained in a given round. Observers can attempt either a Perception or Sense Motive check (whichever of their bonuses is higher) to oppose this Bluff check; the GM should roll these checks secretly. This is an extraordinary ability and not an illusion, so if the false medium succeeds at the opposed check, even powerful effects like <Link to="/spell/true_seeing">true seeing</Link> don't detect the fakery.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/esoteric_scholar">Esoteric scholar</Link>, <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link>, <Link to="/talent/quick_trapsmith">quick trapsmith</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/feat">Feat</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>, <Link to="/talent/skill_mastery">skill mastery</Link></p></>};
 const _fey_prankster = {title: "Fey Prankster", jsx: <><h2 id="arc-rogue-fey_prankster-fey-prankster">Fey Prankster</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 12</Link><br/>Fey pranksters specialize in tricking others to teach a lesson or for their own entertainment.</p>
-<p><strong>Treacherous Plants (Sp):</strong> The fey prankster can cause plants to distract nearby creatures. To use this ability, the fey prankster attempts a Bluff check to create a distraction to hide as a swift action or to feint against an adjacent opponent as a move action, so long as the target is adjacent to plants. He gains a bonus on this check equal to half his rogue level (minimum +1).</p>
-<p>This replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Improved Dirty Trick:</strong> At 2nd level, the fey prankster gains <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> as a bonus feat. He need not meet the prerequisites.</p>
-<p>This replaces the <strong className="hl">rogue talent</strong> gained at 2nd level.</p>
-<p><strong>Steal Appearance (Sp):</strong> At 4th level, the fey prankster can exchange the appearance of two adjacent items of the same size. He can also exchange the appearance of two creatures if at least one is willing and both are adjacent. Affecting an unwilling creature or an item it wears or carries requires a successful dirty trick combat maneuver against that creature. If he succeeds, the objects or creatures are each disguised as the other as if with <Link to="/spell/veil">veil</Link> cast at his rogue level. The Will save DC to resist or disbelieve the illusion is equal to 10 + half the rogue's level + his Intelligence modifier.</p>
-<p>At 8th level, the fey prankster can also exchange the locations of the two targets by succeeding at a DC 20 Sleight of Hand check. If he succeeds, observers can't tell which is the original based on movement without succeeding at a Perception check against his Sleight of Hand result.</p>
-<p>This replaces <strong className="hl">uncanny dodge</strong> and <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Greater Dirty Trick:</strong> At 6th level, the fey prankster gains <Link to="/feat/greater_dirty_trick">Greater Dirty Trick</Link> as a bonus feat. He does not need to meet the prerequisites.</p>
-<p>This replaces the <strong className="hl">rogue talent</strong> gained at 6th level.</p>
-<p><strong>Plant Traps (Su):</strong> At 8th level, the fey trickster can modify a plant (but not plant creatures) into a trap as a full-round action up to three times per day. The Perception and Disable Device DCs for the trap are each equal to 15 + his rogue level. A Tiny or larger plant can be used to perform a trip or dirty trick combat maneuver using the fey trickster's CMB and the plant's size. A Large or larger plant can be used to create a snare as per the spell. The save DC is equal to 12 + the rogue's Intelligence modifier. The fey trickster can trigger any plant trap he created as a standard action as long as he is within 60 feet of it.</p>
-<p>This replaces the <strong className="hl">rogue talent</strong> gained at 8th level.</p>
-<p><strong>Unseen Trickster:</strong> At 12th level, the fey trickster can attempt Stealth checks in areas with plants even if he does not have cover or concealment.</p>
-<p>This replaces the <strong className="hl">rogue talent</strong> gained at 12th level.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-fey_prankster--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/gathlain">Gathlain</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-rogue-fey_prankster-treacherous-plants-sp" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-fey_prankster-treacherous-plants-sp">Treacherous Plants (Sp)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Ability">The fey prankster can cause plants to distract nearby creatures. To use this ability, the fey prankster attempts a Bluff check to create a distraction to hide as a <strong className="hl">swift action</strong> or to <Link to="/rule/feint">feint</Link> against an adjacent opponent as a <strong className="hl">move action</strong>, so long as the target is adjacent to plants. He gains a bonus on this check equal to half his rogue level (minimum +1).</Pair>
+</Ability>
+<Ability id="arc-rogue-fey_prankster-improved-dirty-trick" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-fey_prankster-improved-dirty-trick">Improved Dirty Trick</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">The fey prankster gains <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> as a bonus feat. He need not meet the prerequisites.</Pair>
+</Ability>
+<Ability id="arc-rogue-fey_prankster-steal-appearance-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-fey_prankster-steal-appearance-sp">Steal Appearance (Sp)</Pair>
+<Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">The fey prankster can exchange the appearance of two adjacent items of the same size. He can also exchange the appearance of two creatures if at least one is willing and both are adjacent. Affecting an unwilling creature or an item it wears or carries requires a successful <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver against that creature. If he succeeds, the objects or creatures are each disguised as the other as if with <Link to="/spell/veil">veil</Link> cast at his rogue level. The Will save DC to resist or disbelieve the illusion is equal to 10 + half the rogue's level + his Intelligence modifier.</Pair>
+<Pair title="At 8th Level">The fey prankster can also exchange the locations of the two targets by succeeding at a DC 20 Sleight of Hand check. If he succeeds, observers can't tell which is the original based on movement without succeeding at a Perception check against his Sleight of Hand result.</Pair>
+</Ability>
+<Ability id="arc-rogue-fey_prankster-greater-dirty-trick" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-fey_prankster-greater-dirty-trick">Greater Dirty Trick</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">The fey prankster gains <Link to="/feat/greater_dirty_trick">Greater Dirty Trick</Link> as a bonus feat. He does not need to meet the prerequisites.</Pair>
+</Ability>
+<Ability id="arc-rogue-fey_prankster-plant-traps-su" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-fey_prankster-plant-traps-su">Plant Traps (Su)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 8th level</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">3 times/day</Pair>
+<Pair title="Full-Round Action">The fey trickster can modify a plant (but not plant creatures) into a trap. The Perception and Disable Device DCs for the trap are each equal to 15 + his rogue level. A Tiny or larger plant can be used to perform a <Link to="/rule/trip">trip</Link> or dirty trick combat maneuver using the fey trickster's CMB and the plant's size. A Large or larger plant can be used to create a <Link to="/spell/snare">snare</Link> as per the spell. The save DC is equal to 12 + the rogue's Intelligence modifier.</Pair>
+<Pair title="Special">The fey trickster can trigger any plant trap he created as a <strong className="hl">standard action</strong> as long as he is within 60 feet of it.</Pair>
+</Ability>
+<Ability id="arc-rogue-fey_prankster-unseen-trickster" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-fey_prankster-unseen-trickster">Unseen Trickster</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 12th level</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">The fey trickster can attempt Stealth checks in areas with plants even if he does not have <Link to="/rule/cover">cover</Link> or <Link to="/rule/concealment">concealment</Link>.</Pair>
+</Ability>
 </>};
 const _filcher = {title: "Filcher", jsx: <><h2 id="arc-rogue-filcher-filcher">Filcher</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 64</Link><br/>A filcher steals valuables without their owners even realizing it. Whether cutting purses in the midst of combat or replacing prized items with fakes under the noses of their owners, the filcher is the master of the quick and quiet steal. A filcher has the following class features.</p>
-<p><strong>Quicker than the Eye (Ex):</strong> At 2nd level, a filcher develops an amazingly swift and delicate touch. When she uses Sleight of Hand, creatures take a penalty on their Perception checks to notice the attempt equal to half the filcher's class level. The filcher also subtracts her class level from the normal -20 penalty when attempting to make a Sleight of Hand check as a move action instead of as a standard action. Lastly, the filcher can withdraw an object hidden on her person, including a weapon, as a move action instead of the usual standard action.</p>
-<p>This ability replaces <strong className="hl">evasion</strong>.</p>
-<p><strong>Rummage (Ex):</strong> At 3rd level, a filcher learns how to assess the value of items at the quickest glance. She can even make startlingly accurate guesses about particular items merely by observing the bulges they make in pouches, backpacks, or similar containers. She gains a +1 bonus on Appraise checks and an additional +1 bonus every three levels thereafter.</p>
-<p>As a swift action, a filcher can make an Appraise check in order to determine the relative value of each object carried by her target (DC = 10 + 1 for every object the filcher is trying to ascertain the relative value of). Though she never learns the actual prices of items when using rummage, she does gain enough information to list these items in order, from the most valuable to the least valuable. She can, by taking a -20 penalty on the check, add to this assessment any items carried by her target that she cannot see.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong> +1, +2, +3, +4, +5, and +6.</p>
-<p><strong>Filch (Ex):</strong> At 4th level, a filcher learns how pluck items off her opponents even in combat. She gains <Link to="/feat/improved_steal">Improved Steal</Link> as a bonus feat and can use her Sleight of Hand bonus instead of her CMB when performing a steal combat maneuver. If the filcher gains bonuses on combat maneuver checks from any feats, spells, magic items, or similar effects, they are added to the Sleight of Hand bonus when using the steal maneuver.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Superior Filching (Ex):</strong> At 8th level, a filcher becomes a master at separating owners from their property. She gains <Link to="/feat/greater_steal">Greater Steal</Link> as a bonus feat, and opponents do not gain a +5 bonus to their CMD when she tries to remove items fastened to them.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the filcher archetype: <Link to="/talent/slow_reactions">slow reactions</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/fast_getaway">fast getaway</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/black_market_connections">black market connections</Link> (<em>Other Magic-Related Talents</em> group); <Link to="/talent/deft_palm">deft palm</Link> (<em>Combat Talents</em> group); <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/fast_fingers">fast fingers</Link> (<em>Deception Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the filcher archetype: <Link to="/talent/fast_tumble">fast tumble</Link>, <Link to="/talent/weapon_snatcher">weapon snatcher</Link> (<em>Combat Talents</em> group); <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-filcher--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/halfling">Halfling</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-rogue-filcher-quicker-than-the-eye-ex" icon={["armor-downgrade","upgrade"]}>
+<Pair single id="arc-rogue-filcher-quicker-than-the-eye-ex" flavor="A filcher develops an amazingly swift and delicate touch.">Quicker than the Eye (Ex)</Pair>
+<Pair hl title="Replaces">Evasion</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">When she uses Sleight of Hand, creatures take a penalty on their Perception checks to notice the attempt equal to half the filcher's class level. The filcher also subtracts her class level from the normal -20 penalty when attempting to make a Sleight of Hand check as a <strong className="hl">move action</strong> instead of as a standard action. Lastly, the filcher can withdraw an object hidden on her person, including a weapon, as a move action instead of the usual standard action.</Pair>
+</Ability>
+<Ability id="arc-rogue-filcher-rummage-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-filcher-rummage-ex" flavor="A filcher learns how to assess the value of items at the quickest glance. She can even make startlingly accurate guesses about particular items merely by observing the bulges they make in pouches, backpacks, or similar containers.">Rummage (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense +1, +2, +3, +4, +5, and +6</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">She gains a bonus on Appraise checks equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Swift Action">A filcher can make an Appraise check in order to determine the relative value of each object carried by her target (DC = 10 + 1 for every object the filcher is trying to ascertain the relative value of). Though she never learns the actual prices of items when using <em>rummage,</em> she does gain enough information to list these items in order, from the most valuable to the least valuable. She can, by taking a -20 penalty on the check, add to this assessment any items carried by her target that she cannot see.</Pair>
+</Ability>
+<Ability id="arc-rogue-filcher-filch-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-rogue-filcher-filch-ex" flavor="A filcher learns how pluck items off her opponents even in combat.">Filch (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">She gains <Link to="/feat/improved_steal">Improved Steal</Link> as a bonus feat and can use her Sleight of Hand bonus instead of her CMB when performing a <Link to="/rule/steal">steal</Link> combat maneuver. If the filcher gains bonuses on combat maneuver checks from any feats, spells, magic items, or similar effects, they are added to the Sleight of Hand bonus when using the steal maneuver.</Pair>
+</Ability>
+<Ability id="arc-rogue-filcher-superior-filching-ex" icon={["stairs-goal","armor-downgrade"]}>
+<Pair single id="arc-rogue-filcher-superior-filching-ex" flavor="A filcher becomes a master at separating owners from their property.">Superior Filching (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">She gains <Link to="/feat/greater_steal">Greater Steal</Link> as a bonus feat, and opponents do not gain a +5 bonus to their CMD when she tries to remove items fastened to them.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/black_market_connections">Black market connections</Link>, <Link to="/talent/deft_palm">deft palm</Link>, <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/fast_getaway">fast getaway</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/slow_reactions">slow reactions</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/fast_tumble">Fast tumble</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/weapon_snatcher">weapon snatcher</Link></p></>};
 const _galtan_agitator = {title: "Galtan Agitator", jsx: <><h2 id="arc-rogue-galtan_agitator-galtan-agitator">Galtan Agitator</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 39</Link><br/>Galtan agitators fight mightily to cast down the enemies of their ideals within the shambles of the tumultuous nation of Galt. Any rogue (including unchained rogues) can select the Galtan agitator archetype.</p>
-<p><strong>Reputation (Ex):</strong> This ability functions as the <Link to="/soctalent/renown">renown</Link> vigilante social talent. In addition to improving attitudes, it also improves the Galtan agitator's starting <Link to="/rule/influence">influence</Link> and reputation with <Link to="/rule/contacts">contacts</Link> in the area by one level or step. For the purpose of vigilante social talents, the Galtan agitator does not have a vigilante identity and is always considered to be in her social identity, unless she has another identity (such as from the <Link to="/class/vigilante">vigilante</Link> class). If the Galtan agitator has another identity, she does not gain any benefits from renown while in that identity unless she has the renown social talent or a similar ability.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Ready for Betrayal (Ex):</strong> At 3rd level, a Galtan agitator gains a +1 bonus on Perception checks to recognize disguises and notice hiding creatures and on Sense Motive checks to disbelieve lies. These bonuses increase by 1 every 3 rogue levels thereafter (to a maximum of +6 at 18th level).</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Enthralling Agitation (Su):</strong> At 4th level, a Galtan agitator can captivate a crowd once per day, as per the spell <Link to="/spell/enthrall">enthrall</Link>. (DC = 10 + 1/2 the Galtan agitator's rogue level + her Charisma modifier). During the spell's effect, the Galtan agitator can attempt a DC 15 Charisma check to increase her individual or organizational influence with the members of the crowd by 1 rank or step. Or, if the crowd members' attitudes toward the Galtan agitator are indifferent or worse, this check can improve their attitudes by 1 step. The Galtan agitator can never use this ability to increase her individual or organization influence or improve the crowd's attitude by more than 2 ranks or steps.</p>
-<p>This replaces the <strong className="hl">rogue talent</strong> gained at 4th level.</p>
-<p><strong>Revolutionary's Cause (Su):</strong> At 8th level, the Galtan agitator can lift an enthralled crowd's emotions and turn them toward a common purpose. As a standard action after she has used her enthralling agitation, but before the enthrall effect wears off, she can target the affected creatures with a plausible <Link to="/spell/suggestion">suggestion</Link> (DC = 10 + 1/2 her rogue level + her Charisma modifier). that has a duration of up to 1 day.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 8th level.</p>
-<p><strong>Leadership (Ex):</strong> At 12th level, a Galtan agitator gains <Link to="/feat/leadership">Leadership</Link> as a bonus feat. If the Galtan agitator already has the Leadership feat, she doubles her Charisma modifier when calculating her base Leadership score.</p>
-<p>This replaces the <strong className="hl">rogue talent</strong> gained at 12th level.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the Galtan agitator archetype: <Link to="/talent/canny_observer">canny observer</Link> (<em>Trap Talents</em> group); <Link to="/talent/coax_information">coax information</Link> (<em>Deception Talents</em> group); <Link to="/talent/follow_clues">follow clues</Link>, <Link to="/talent/hard_to_fool">hard to fool</Link>, <Link to="/talent/strong_impression">strong impression</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Rogue Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the Galtan agitator archetype: <Link to="/talent/feat">feat</Link>, <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link>, <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-galtan_agitator-reputation-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-galtan_agitator-reputation-ex">Reputation (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Ability">This ability functions as the <Link to="/soctalent/renown">renown</Link> vigilante social talent. In addition to improving attitudes, it also improves the Galtan agitator's starting <Link to="/rule/influence">influence</Link> and reputation with <Link to="/rule/contacts">contacts</Link> in the area by one level or step.</Pair>
+<Pair title="Special">For the purpose of vigilante social talents, the Galtan agitator does not have a vigilante identity and is always considered to be in her social identity, unless she has another identity (such as from the <Link to="/class/vigilante">vigilante</Link> class). If the Galtan agitator has another identity, she does not gain any benefits from <em>renown</em> while in that identity unless she has the <em>renown</em> social talent or a similar ability.</Pair>
+</Ability>
+<Ability id="arc-rogue-galtan_agitator-ready-for-betrayal-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-galtan_agitator-ready-for-betrayal-ex">Ready for Betrayal (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">A Galtan agitator gains a bonus on Perception checks to recognize disguises and notice hiding creatures and on Sense Motive checks to disbelieve lies. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-galtan_agitator-enthralling-agitation-su" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-galtan_agitator-enthralling-agitation-su">Enthralling Agitation (Su)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 4th level</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A Galtan agitator can captivate a crowd once per day, as per the spell <Link to="/spell/enthrall">enthrall</Link> (DC = 10 + 1/2 the Galtan agitator's rogue level + her Charisma modifier). During the spell's effect, the Galtan agitator can attempt a DC 15 Charisma check to increase her individual or organizational influence with the members of the crowd by 1 rank or step. Or, if the crowd members' attitudes toward the Galtan agitator are indifferent or worse, this check can improve their attitudes by 1 step.</Pair>
+<Pair title="Special">The Galtan agitator can never use this ability to increase her individual or organization influence or improve the crowd's attitude by more than 2 ranks or steps.</Pair>
+</Ability>
+<Ability id="arc-rogue-galtan_agitator-revolutionarys-cause-su" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-galtan_agitator-revolutionarys-cause-su" flavor="The Galtan agitator can lift an enthralled crowd's emotions and turn them toward a common purpose.">Revolutionary's Cause (Su)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 8th level</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Standard Action">After she has used her <em>enthralling agitation,</em> but before the <em>enthrall</em> effect wears off, she can target the affected creatures with a plausible <Link to="/spell/suggestion">suggestion</Link> (DC = 10 + 1/2 her rogue level + her Charisma modifier) that has a duration of up to 1 day.</Pair>
+</Ability>
+<Ability id="arc-rogue-galtan_agitator-leadership-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-rogue-galtan_agitator-leadership-ex">Leadership (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 12th level</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">A Galtan agitator gains <Link to="/feat/leadership">Leadership</Link> as a bonus feat. If the Galtan agitator already has the Leadership feat, she doubles her Charisma modifier when calculating her base Leadership score.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/canny_observer">Canny observer</Link>, <Link to="/talent/coax_information">coax information</Link>, <Link to="/talent/follow_clues">follow clues</Link>, <Link to="/talent/hard_to_fool">hard to fool</Link>, <Link to="/talent/strong_impression">strong impression</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/feat">Feat</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link></p></>};
 const _guerrilla = {title: "Guerrilla", jsx: <><h2 id="arc-rogue-guerrilla-guerrilla">Guerrilla</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 41</Link><br/>Guerrillas fight against oppressive leadership and governments - often under cover of night - including Chelish colonization in Sargava and the power structures in Cheliax proper, Nidal, and Razmiran. Any rogue (including the unchained rogue) can select the guerrilla archetype.</p>
-<p><strong>Skilled Liar (Ex):</strong> Whenever a guerrilla uses Bluff to attempt to deceive someone, she gains a bonus on the opposed roll equal to 1/2 her rogue level (minimum +1). A guerrilla can still use Disable Device to disarm magic traps.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Cover of Night (Ex):</strong> At 2nd level, a guerrilla learns to use darkness to her advantage. She gains a +5 bonus on Disguise, Sleight of Hand, and Stealth checks while she is in areas of <Link to="/rule/dim_light">dim light</Link> or darkness, and can create mundane disguises in dim light or darkness with a full-round action (instead of the normal 1d3 &times; 10 minutes). Additionally, while in dim light or darkness, if a guerrilla would have <Link to="/rule/concealment">concealment</Link>, she instead has total concealment.</p>
-<p>This ability replaces <strong className="hl">evasion</strong>.</p>
-<p><strong>Secret Messenger (Ex):</strong> At 3rd level, a guerrilla gains a +1 bonus on Bluff checks to convey secret messages and on Sense Motive checks to discern secret messages. These bonuses increase by 1 every 3 rogue levels thereafter (to a maximum of +6 at 18th level).</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Guerrilla Sniping (Ex):</strong> At 4th level, when a guerrilla is in an area of dim light or darkness, she takes only a -10 penalty on her Stealth check to maintain her obscured location while sniping.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Uncanny Dodge (Ex):</strong> At 8th level, a guerrilla gains <Link to="/ability/uncanny_dodge">uncanny dodge</Link>.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the guerrilla archetype: <Link to="/talent/powerful_sneak">powerful sneak</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/surprise_attack">surprise attack</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/stand_up">stand up</Link> (<em>Combat Talents</em> group); <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/fast_stealth">fast stealth</Link> (<em>Deception Talents</em> group).</p>
-<p><strong>Advanced Rogue Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the guerrilla archetype: <Link to="/talent/deadly_sneak">deadly sneak</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/stealthy_sniper">stealthy sniper</Link>, <Link to="/talent/opportunist">opportunist</Link> (<em>Combat Talents</em> group); <Link to="/talent/master_of_disguise">master of disguise</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-guerrilla-skilled-liar-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-rogue-guerrilla-skilled-liar-ex">Skilled Liar (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Ability">Whenever a guerrilla uses Bluff to attempt to deceive someone, she gains a bonus on the opposed roll equal to 1/2 her rogue level (minimum +1). A guerrilla can still use Disable Device to disarm magic traps.</Pair>
+</Ability>
+<Ability id="arc-rogue-guerrilla-cover-of-night-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-rogue-guerrilla-cover-of-night-ex" flavor="A guerrilla learns to use darkness to her advantage.">Cover of Night (Ex)</Pair>
+<Pair hl title="Replaces">Evasion</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">She gains a +5 bonus on Disguise, Sleight of Hand, and Stealth checks while she is in areas of <Link to="/rule/dim_light">dim light</Link> or darkness. Additionally, while in dim light or darkness, if a guerrilla would have <Link to="/rule/concealment">concealment</Link>, she instead has total concealment.</Pair>
+<Pair title="Full-Round Action">She can create mundane disguises in dim light or darkness (at a faster rate than the normal 1d3 &times; 10 minutes).</Pair>
+</Ability>
+<Ability id="arc-rogue-guerrilla-secret-messenger-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-guerrilla-secret-messenger-ex">Secret Messenger (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">A guerrilla gains a bonus on Bluff checks to convey secret messages and on Sense Motive checks to discern secret messages. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-guerrilla-guerrilla-sniping-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-guerrilla-guerrilla-sniping-ex">Guerrilla Sniping (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">When a guerrilla is in an area of dim light or darkness, she takes only a -10 penalty on her Stealth check to maintain her obscured location while sniping.</Pair>
+</Ability>
+<Ability id="arc-rogue-guerrilla-uncanny-dodge-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-guerrilla-uncanny-dodge-ex">Uncanny Dodge (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">A guerrilla gains <Link to="/ability/uncanny_dodge">uncanny dodge</Link>.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/camouflage">Camouflage</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/powerful_sneak">powerful sneak</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/stand_up">stand up</Link>, <Link to="/talent/surprise_attack">surprise attack</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/deadly_sneak">Deadly sneak</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>, <Link to="/talent/opportunist">opportunist</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link></p></>};
 const _guild_agent = {title: "Guild Agent", jsx: <><h2 id="arc-rogue-guild_agent-guild-agent">Guild Agent</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 45</Link><br/>Guild agents are members of a thieves' guild or other shadowy organization. What they lose in independence, they more than make up for in benefits gained due to their association's infrastructure. Guild agents come at all levels of the organization, from a lowly recruit all the way up to the guildmaster himself.</p>
 <p><strong>Honor Among Thieves (Ex):</strong> A guild agent must remain a member in good standing of a thieves' guild (he starts at rank 1 with her guild when using the organizational influence system). If the guild agent leaves his guild, he loses all of the abilities granted by this archetype and does not gain their replacements. If he joins a new guild, the guild agent regains his abilities, though depending on how he joins the guild, he may regain his abilities all at once or gradually over time. Even if the guild in question operates in multiple locations, the guild agent chooses a settlement as a base of operations for his own activities.</p>
