@@ -33,7 +33,7 @@ import {
 	useIonAlert
 } from '@ionic/react';
 import Circle from '@uiw/react-color-circle';
-import getPageName, { doesPageExist } from '../components/getPageName';
+import usePageName, { doesPageExist } from '../components/usePageName';
 import { goTo } from '../store/historySlice';
 import {
 	addDivider, Color, universalBookmarkDividerId, editBookmark,
@@ -161,6 +161,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	const [disabled, setDisabled] = useState(true);
 	const [openModal, setOpenModal] = useState(false);
 	const [newColor, setNewColor] = useState<Color>("red");
+	const getPageName = usePageName();
 	const dispatch = useAppDispatch();
 	const defaultTitle = "Bookmarks";
 	const [possiblyUnsavedTitle, setPossiblyUnsavedTitle] = useState(title);

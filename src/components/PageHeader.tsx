@@ -13,13 +13,14 @@ import { useLocation } from 'wouter';
 import { addBookmark, removeBookmark } from '../store/bookmarksSlice';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { FinderContext } from './contexts';
-import getPageName from './getPageName';
+import usePageName from './usePageName';
 import './Bookmarks.css';
 
 const Bookmarks: FC<{location: string}> = ({location}) => {
 	const dispatch = useAppDispatch();
 	const { db, order, catalog } = useAppSelector((state) => state.bookmarks);
 	const bookmarked = useMemo(() => catalog[location] || [], [catalog, location]);
+	const getPageName = usePageName();
 	const checkboxes = useMemo(() => {
 		return order.filter(id => !db[id].hidden).map(id => {
 			const checked = bookmarked.indexOf(id) > -1;

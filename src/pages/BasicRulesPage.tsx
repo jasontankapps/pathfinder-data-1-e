@@ -1,7 +1,7 @@
-import { FC, ReactElement, useMemo } from 'react';
+import { FC, ReactElement, useCallback, useMemo } from 'react';
 import { IonRippleEffect } from '@ionic/react';
 import Link from '../components/Link';
-import getPageName from '../components/getPageName';
+import usePageName from '../components/usePageName';
 import data from '../json/_GEN_rule.json';
 import { Hierarchy } from '../types';
 import BasicPage from './BasicPage';
@@ -37,10 +37,6 @@ const HierarchyRulesInset: FC<HierarchyProps> = ({extraHierarchy}) => {
 	return <div className="hierarchyRulesInset">{h}</div>;
 };
 
-const getName = (input: string) => {
-	return getPageName("/rule/" + input);
-};
-
 const BasicRulesPage: FC<BasicRulesProps> = ({
 	hasJL,
 	title,
@@ -52,7 +48,8 @@ const BasicRulesPage: FC<BasicRulesProps> = ({
 	siblings,
 	noFinder
 }) => {
-
+	const getPageName = usePageName();
+	const getName = useCallback((input: string) => getPageName("/rule/" + input), [getPageName]);
 	const [previous, next]: (string[] | null)[] = useMemo(() => {
 		if(siblings && siblings.length > 1) {
 			const pos = siblings.indexOf((id as Name));

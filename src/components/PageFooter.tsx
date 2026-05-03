@@ -10,7 +10,7 @@ import { useLongPress } from '@uidotdev/usehooks';
 import { Haptics, ImpactStyle } from '@capacitor/haptics';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { goBack, goForward, goBackNum, goForwardNum, goTo } from '../store/historySlice';
-import getPageName from './getPageName';
+import usePageName from './usePageName';
 import './PageFooter.css';
 
 const Slotless: FC<{
@@ -34,6 +34,7 @@ const PageFooter: FC<{
 	const [ , navigate ] = useLocation();
 	const {previous, next} = useAppSelector(state => state.history);
 	const dispatch = useAppDispatch();
+	const getPageName = usePageName();
 	const [prevOpen, setPrevOpen] = useState<boolean>(false);
 	const [nextOpen, setNextOpen] = useState<boolean>(false);
 	const longPressPrev = useLongPress(() => {

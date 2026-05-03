@@ -1,6 +1,9 @@
+import { useCallback } from 'react';
+import { useAppSelector } from '../store/hooks';
+import { BookmarkDB } from '../store/bookmarksSlice';
 import index from '../json/_GEN_allLinks';
 
-const switchback = (link: string) => {
+const switchback = (link: string, db: BookmarkDB = {}): string => {
 	// This matches only the non-fused pages
 	switch (link) {
 		case "":
@@ -20,10 +23,11 @@ const switchback = (link: string) => {
 		case "bookmarks":
 			return "Bookmarks";
 	};
-	if(link.match(/^bookmarks[/]/)) {
-		return "[Bookmark Group]";
+	const m = link.match(/^[/]?bookmarks[/](.+)$/);
+	if(m) {
+		return "[B] " + ((db[m[1]] && db[m[1]].title) || "(Unknown Bookmark Group)");
 	}
-	return null;
+	return `[Error: ${link} not found]`;
 }
 
 export const doesPageExist = (id: string): boolean => {
@@ -32,10 +36,10 @@ export const doesPageExist = (id: string): boolean => {
 	return (switchback(link) || index[link]) ? true : false;
 };
 
-const getPageName = (id: string): string => {
-	// Remove initial slash ("/main" => "main")
-	const link = id.slice(1);
-	return switchback(link) || index[link] || `[Error: ${id} not found]`;
+const usePageName = (): ((id: string) => string) => {
+	const db = useAppSelector(state => state.bookmarks.db);
+	const getPageName = useCallback((x: string) => switchback(x, db), [db]);
+	return getPageName;
 };
 
-export default getPageName;
+export default usePageName;

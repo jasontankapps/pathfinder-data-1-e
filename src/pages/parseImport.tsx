@@ -1,5 +1,5 @@
 import { BookmarkGroup, universalBookmarkDividerId, colorNames } from "../store/bookmarksSlice";
-import { doesPageExist } from "../components/getPageName";
+import { doesPageExist } from "../components/usePageName";
 import { hasRedirect } from "../components/getLink";
 
 type BG = Omit<BookmarkGroup, "hidden">;
