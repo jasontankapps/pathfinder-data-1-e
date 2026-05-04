@@ -395,6 +395,7 @@
 			"general_glitches"
 		]
 	},
+	"glitch": { "redirect": "timeworn_technology" },
 	"armor_glitches": {
 		"name": "Armor Glitches",
 		"subtitle": "Timeworn Technology",

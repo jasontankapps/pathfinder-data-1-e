@@ -919,97 +919,230 @@ const _knife_master = {title: "Knife Master", jsx: <><h2 id="arc-rogue-knife_mas
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/befuddling_strike">Befuddling strike</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/offensive_defense">offensive defense</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/underhanded">underhanded</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/another_day">Another day</Link>, <Link to="/talent/confounding_blades">confounding blades</Link>, <Link to="/talent/deadly_sneak">deadly sneak</Link>, <Link to="/talent/entanglement_of_blades">entanglement of blades</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _makeshift_scrapper = {title: "Makeshift Scrapper", jsx: <><h2 id="arc-rogue-makeshift_scrapper-makeshift-scrapper">Makeshift Scrapper</h2>
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 15</Link><br/>Some combatants specialize in the study of certain weapons, but those without formal training often learn to survive a fight by making brilliant use of whatever is lying around.</p>
-<p><strong>Weapon Proficiency:</strong> The makeshift scrapper is proficient with only simple weapons.</p>
-<p><strong>Improvised Weapons (Ex):</strong> At 1st level, a makeshift scrapper gains <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> and <Link to="/feat/throw_anything">Throw Anything</Link> as bonus feats.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Supernatural Improvisation (Su):</strong> At 3rd level, a makeshift scrapper gains the ability to enhance an item, making it a more effective weapon or changing the way it can be used. As a swift action, she can alter a single <Link to="/misc/improvised_weapon">improvised weapon</Link> to either grant it a +1 enhancement bonus on attack rolls and damage rolls or use it to gain a +1 shield bonus to her AC. The makeshift scrapper can use this ability for a number of rounds per day equal to her rogue level. These rounds need not be consecutive, and the makeshift scrapper can change the enhancement each time she activates the ability. The bonus increases by 1 every 4 levels thereafter, up to a maximum bonus of +5 at 19th level.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Improvised Weapon Mastery (Ex):</strong> At 12th level, the makeshift scrapper gains <Link to="/feat/improvised_weapon_mastery">Improvised Weapon Mastery</Link> as a bonus feat.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 12th level.</p>
-<p><strong>Rogue Talents/Ninja Tricks:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the makeshift scrapper archetype: <Link to="/talent/offensive_defense">offensive defense</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/fast_getaway">fast getaway</Link> and <Link to="/talent/surprise_attack">surprise attack</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/expert_leaper">expert leaper</Link>, <Link to="/talent/ki_pool">ki pool</Link>, <Link to="/talent/ninja_trick">ninja trick</Link> [<Link to="/ninjatrick/acrobatic_master">acrobatic master</Link> - <em>Ki Tricks</em> group], <Link to="/talent/peerless_maneuver">peerless maneuver</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the makeshift scrapper archetype: <Link to="/talent/another_day">another day</Link>, <Link to="/talent/defensive_roll">defensive roll</Link>, <Link to="/talent/opportunist">opportunist</Link> (<em>Combat Talents</em> group); <Link to="/talent/getaway_master">getaway master</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-makeshift_scrapper-weapon-proficiency" icon={["broken-shield"]}>
+<Pair single id="arc-rogue-makeshift_scrapper-weapon-proficiency">Weapon Proficiency</Pair>
+<Pair title="Info">The makeshift scrapper is proficient with only simple weapons.</Pair>
+</Ability>
+<Ability id="arc-rogue-makeshift_scrapper-improvised-weapons-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-makeshift_scrapper-improvised-weapons-ex">Improvised Weapons (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A makeshift scrapper gains <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> and <Link to="/feat/throw_anything">Throw Anything</Link> as bonus feats.</Pair>
+</Ability>
+<Ability id="arc-rogue-makeshift_scrapper-supernatural-improvisation-su" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-rogue-makeshift_scrapper-supernatural-improvisation-su" flavor="A makeshift scrapper gains the ability to enhance an item, making it a more effective weapon or changing the way it can be used.">Supernatural Improvisation (Su)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Usage">1 round/day per rogue level; these rounds need not be consecutive</Pair>
+<Pair title="Swift Action">She can alter a single <Link to="/misc/improvised_weapon">improvised weapon</Link> to either grant it a +1 enhancement bonus on attack rolls and damage rolls or use it to gain a +1 shield bonus to her AC.</Pair>
+<Pair title="At 7th Level">The bonus becomes +2.</Pair>
+<Pair title="At 11th Level">The bonus increases to +3.</Pair>
+<Pair title="At 15th Level">The bonus becomes +4.</Pair>
+<Pair title="At 19th Level">The bonus increases to +5.</Pair>
+<Pair title="Special">The makeshift scrapper can change the enhancement each time she activates the ability.</Pair>
+</Ability>
+<Ability id="arc-rogue-makeshift_scrapper-improvised-weapon-mastery-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-makeshift_scrapper-improvised-weapon-mastery-ex">Improvised Weapon Mastery (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 12th level</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">The makeshift scrapper gains <Link to="/feat/improvised_weapon_mastery">Improvised Weapon Mastery</Link> as a bonus feat.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/expert_leaper">Expert leaper</Link>, <Link to="/talent/fast_getaway">fast getaway</Link>, <Link to="/talent/ki_pool">ki pool</Link>, <Link to="/talent/offensive_defense">offensive defense</Link>, <Link to="/talent/ninja_trick">ninja trick</Link> [<Link to="/ninjatrick/acrobatic_master">acrobatic master</Link>], <Link to="/talent/peerless_maneuver">peerless maneuver</Link>, <Link to="/talent/surprise_attack">surprise attack</Link></p>
+<p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/another_day">Another day</Link>, <Link to="/talent/defensive_roll">defensive roll</Link>, <Link to="/talent/getaway_master">getaway master</Link>, <Link to="/talent/opportunist">opportunist</Link></p></>};
 const _master_of_disguise = {title: "Master of Disguise", jsx: <><h2 id="arc-rogue-master_of_disguise-master-of-disguise">Master of Disguise</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 46</Link><br/>A master of disguise feels no need to advertise her skills to build a reputation. Instead, she believes that never letting her adversaries know her true identity protects her from bad luck or missteps on a job.</p>
-<p><strong>Consummate Actor (Ex):</strong> A master of disguise adds half her rogue level (minimum 1) on all Disguise checks and on Bluff checks to stay in character while using Disguise. At 2nd level, she gains the <Link to="/talent/quick_disguise">quick disguise</Link> rogue talent, and she can create a disguise twice as quickly as normal even for that rogue talent (she can create a disguise that encompasses only minor details as a standard action).</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong> and the <strong className="hl">rogue talent</strong> gained at 2nd level.</p>
-<p><strong>Grandmaster of Disguise (Ex):</strong> At 10th level, a master of disguise gains the <Link to="/talent/master_of_disguise">master of disguise</Link> advanced rogue talent and can use it an unlimited number of times per day. Because she must still don a physical disguise to gain this bonus, it doesn't stack with the bonuses from spells like alter self and disguise self, but since it is completely nonmagical, it is more reliable when scrutinized under magical detection.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 10th level.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the master of disguise archetype: <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link> (<em>Spellcasting Talents</em> group); <Link to="/talent/shades_of_gray">shades of gray</Link> (<em>Other Magic-Related Talents</em> group); <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/false_friend">false friend</Link>, <Link to="/talent/obfuscate_story">obfuscate story</Link>, <Link to="/talent/steal_the_story">steal the story</Link> (<em>Deception Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the master of disguise archetype: <Link to="/talent/hidden_mind">hidden mind</Link>, <Link to="/talent/slippery_mind">slippery mind</Link> (<em>Magical Talents</em> group); <Link to="/talent/hard_minded">hard minded</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link> (<em>Combat Talents</em> group); <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-master_of_disguise-consummate-actor-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-rogue-master_of_disguise-consummate-actor-ex">Consummate Actor (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding, rogue talent gained at 2nd level</Pair>
+<Pair title="At 1st Level">A master of disguise adds half her rogue level (minimum 1) on all Disguise checks and on Bluff checks to stay in character while using Disguise.</Pair>
+<Pair title="At 2nd Level">She gains the <Link to="/talent/quick_disguise">quick disguise</Link> rogue talent, and she can create a disguise twice as quickly as normal even for that rogue talent (she can create a disguise that encompasses only minor details as a <strong className="hl">standard action</strong>).</Pair>
+</Ability>
+<Ability id="arc-rogue-master_of_disguise-grandmaster-of-disguise-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-master_of_disguise-grandmaster-of-disguise-ex">Grandmaster of Disguise (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 10th level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">A master of disguise gains the <Link to="/talent/master_of_disguise">master of disguise</Link> advanced rogue talent and can use it an unlimited number of times per day. Because she must still don a physical disguise to gain this bonus, it doesn't stack with the bonuses from spells like <Link to="/spell/alter_self">alter self</Link> and <Link to="/spell/disguise_self">disguise self</Link>, but since it is completely nonmagical, it is more reliable when scrutinized under magical detection.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/camouflage">Camouflage</Link>, <Link to="/talent/false_friend">false friend</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link>, <Link to="/talent/obfuscate_story">obfuscate story</Link>, <Link to="/talent/shades_of_gray">shades of gray</Link>, <Link to="/talent/steal_the_story">steal the story</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hard_minded">Hard minded</Link>, <Link to="/talent/hidden_mind">hidden mind</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/slippery_mind">slippery mind</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _nameless_shadow = {title: "Nameless Shadow", jsx: <><h2 id="arc-rogue-nameless_shadow-nameless-shadow">Nameless Shadow</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 30</Link><br/>Where bandits and tyrants prey on merchants and caravans, the nameless shadow preys on bandits and tyrants. Posing as mundane merchants or other harmless travelers, these assassins can hide both within darkness and in the anonymity of a seemingly unimportant crowd. This archetype is appropriate for rogues built using the rules from the Pathfinder RPG Core Rulebook as well as for unchained rogues.</p>
-<p><strong>Harmless Guise (Ex):</strong> A nameless shadow gains the dual identity and seamless guise <Link to="/class/vigilante">vigilante</Link> class features, with the following restrictions. Her social identity must be that of a mundane and non-threatening member of society, such as a farmer or a merchant. At 6th level, the nameless shadow gains the <Link to="/soctalent/many_guises">many guises</Link> vigilante social talent. At 8th level, the nameless shadow gains the <Link to="/soctalent/quick_change">quick change</Link> vigilante social talent. At 14th level, the nameless shadow gains the <Link to="/soctalent/everyman">everyman</Link> vigilante social talent. At 18th level, the nameless shadow gains the <Link to="/soctalent/any_guise">any guise</Link> vigilante social talent.</p>
-<p>Additionally, when a nameless shadow attacks a foe while in a social or mundane identity, her target takes a -2 penalty to AC for the purpose of resolving that attack. This use of harmless guise forces the nameless shadow into her vigilante identity after the attack is completed, and the target (if it survives) then becomes aware of the nameless shadow's secret. This ability cannot be used on targets that are aware of the nameless shadow's dual identity.</p>
-<p>This replaces <strong className="hl">trapfinding</strong> and the <strong className="hl">rogue talents</strong> gained at 2nd, 6th, 10th, 14th, and 18th levels.</p>
-<p><strong>Face in the Crowd (Ex):</strong> At 4th level, so long as there are at least 10 other non-hostile creatures within 30 feet of her, a nameless shadow can use Bluff or Disguise in place of Stealth to hide or for sniping. At 8th level, she can use this ability to hide within a crowd even if she is being observed.</p>
-<p>This replaces the <strong className="hl">rogue talents</strong> gained at 4th and 8th levels.</p>
+<Ability id="arc-rogue-nameless_shadow-harmless-guise-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-nameless_shadow-harmless-guise-ex">Harmless Guise (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding, rogue talents gained at 2nd, 6th, 10th, 14th, and 18th levels</Pair>
+<Pair title="Ability">A nameless shadow gains the dual identity and <em>seamless guise</em> <Link to="/class/vigilante">vigilante</Link> class features, with the following restrictions. Her social identity must be that of a mundane and non-threatening member of society, such as a farmer or a merchant.</Pair>
+<Pair title="At 6th Level">The nameless shadow gains the <Link to="/soctalent/many_guises">many guises</Link> vigilante social talent.</Pair>
+<Pair title="At 8th Level">The nameless shadow gains the <Link to="/soctalent/quick_change">quick change</Link> vigilante social talent.</Pair>
+<Pair title="At 14th Level">The nameless shadow gains the <Link to="/soctalent/everyman">everyman</Link> vigilante social talent.</Pair>
+<Pair title="At 18th Level">The nameless shadow gains the <Link to="/soctalent/any_guise">any guise</Link> vigilante social talent.</Pair>
+<Pair title="Special">Additionally, when a nameless shadow attacks a foe while in a social or mundane identity, her target takes a -2 penalty to AC for the purpose of resolving that attack. This use of <em>harmless guise</em> forces the nameless shadow into her vigilante identity after the attack is completed, and the target (if it survives) then becomes aware of the nameless shadow's secret. This ability cannot be used on targets that are aware of the nameless shadow's dual identity.</Pair>
+</Ability>
+<Ability id="arc-rogue-nameless_shadow-dual-identity-ex" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="arc-rogue-nameless_shadow-dual-identity-ex" flavor="Text from the vigilante class">Dual Identity (Ex)</Pair>
+<Pair title="Ability"><p>You hide your true identity, allowing you to move about social circles and nobility without carrying the stigma of your ruthless actions. In effect, you have two identities: one is a polite member of society while the other is a skilled and cunning warrior. To keep up this charade, you usually have two names: your true name, used in polite company, and your vigilante name, used to strike fear in the hearts of those who oppose you. Knowledge checks about one do not reveal information about the other, unless your true identity is revealed to the world at large.</p>
+<p>You can start each day in either of your identities, referred to simply as <strong className="hl">social</strong> or <strong className="hl">vigilante</strong>. Changing from one identity to another takes 1 minute and must be done out of sight from other creatures to preserve your secret. Changing identities is more than just changing outfits and clothing (although that is certainly a part of it); the process often also involves applying make-up, altering your hair, and adjusting other personal effects. Furthermore, the change is as much a state of mind as of body, so items such as a <Link to="/magic-wondrous/hat_of_disguise">hat of disguise</Link> and similar spells and effects that change the user's appearance do not reduce the time required to change identities. Most <em>social talents</em> require you to be in your social identity, but a vigilante who uses <em>vigilante talents</em> in his social identity risks exposing his secret.</p>
+<p>Despite being a single person, your dual nature allows you to have two alignments, one for each of your identities. When in an identity, you are treated as having that identity's alignment for all spells, magic items, and abilities that rely on alignment. For the purpose of meeting a qualification for a feat, class, or any ability, you are only eligible if both of your alignments meet the requirements. A vigilante's two alignments cannot be more than one step from each other on a single alignment axis. For example, a vigilante with a lawful neutral social identity could have a vigilante identity that is lawful good, lawful neutral, lawful evil, neutral, neutral good, or neutral evil. If you are the target of an effect that would change your alignment, it changes both of your alignments to the new alignment.</p>
+<p>Any attempts to scry or otherwise locate you work only if you are currently in the identity the creature is attempting to locate (or if the creature knows that the two identities are the same individual). Otherwise, the spell or effect has no effect, revealing nothing but darkness, as if the target were invalid or did not exist.</p>
+</Pair>
+</Ability>
+<Ability id="arc-rogue-nameless_shadow-seamless-guise-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-nameless_shadow-seamless-guise-ex" flavor="Text from the vigilante class">Seamless Guise (Ex)</Pair>
+<Pair title="Ability">A vigilante knows how to behave in a way that appears perfectly proper and normal for his current identity. Should anyone suspect you of being anything other than what you appear to be while either in your social or vigilante identity, you can attempt a Disguise check with a +20 circumstance bonus to appear as your current identity, and not as your other identity.</Pair>
+</Ability>
+<Ability id="arc-rogue-nameless_shadow-face-in-the-crowd-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-rogue-nameless_shadow-face-in-the-crowd-ex">Face in the Crowd (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talents gained at 4th and 8th levels</Pair>
+<Pair title="At 4th Level">So long as there are at least 10 other non-hostile creatures within 30 feet of her, a nameless shadow can use Bluff or Disguise in place of Stealth to hide or for sniping.</Pair>
+<Pair title="At 8th Level">She can use this ability to hide within a crowd even if she is being observed.</Pair>
+</Ability>
 </>};
 const _needler = {title: "Needler", jsx: <><h2 id="arc-rogue-needler-needler">Needler</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 12</Link><br/>While some assassins and killers prefer to be up front with their poison use, others favor a covert approach. Needlers use subtlety and misdirection to deliver deadly poisons to unsuspecting victims in creative and unorthodox ways. This archetype is appropriate for rogues built using the rules from the Pathfinder RPG Core Rulebook as well as for unchained rogues.</p>
-<p><strong>Adroit Poisoner (Ex):</strong> At 2nd level, a needler gains a +2 bonus on Sleight of Hand checks. This bonus increases to +4 when the needler uses Sleight of Hand to draw a hidden weapon that is coated in poison. At 8th level, these bonuses increase to +4 and +6, respectively.</p>
-<p>This replaces <strong className="hl">evasion</strong>.</p>
-<p><strong>Subtle Poisoning (Ex):</strong> At 4th level, a needler can apply a contact or ingested poison to her weapon and deliver it as if it were an injury poison. The poison must be delivered within 1 minute of this application, or it is wasted. The DC of the saving throw to resist the poison decreases by 1 when the needler uses this ability to deliver a contact or ingested poison via injury.</p>
-<p>This replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Needle Poisoner (Ex):</strong> At 6th level, a needler can apply a dose of poison to a weapon as a swift action. This ability counts as <em>swift poisoning</em> for the purpose of meeting prerequisites.</p>
-<p>This replaces the <strong className="hl">rogue talent</strong> gained at 6th level.</p>
-<p><strong>Concealed Delivery (Ex):</strong> At 8th level, a needler learns how to deliver all types of poisons with subtlety. As a standard action, she can deliver an ingested or inhaled poison to a creature within reach by placing a dose of poison on the target's lips, on the target's neck, or through other similar contact with the target's skin as if the poison were a contact poison. Delivering poison in this way requires a successful Sleight of Hand check opposed by the target's Perception check. The poison is not lost on a failed check, but it must be successfully delivered within 1 minute of the first attempt, or it is wasted.</p>
-<p>This replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-</>};
+<Ability id="arc-rogue-needler-adroit-poisoner-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-needler-adroit-poisoner-ex">Adroit Poisoner (Ex)</Pair>
+<Pair hl title="Replaces">Evasion</Pair>
+<Pair title="At 2nd Level">A needler gains a +2 bonus on Sleight of Hand checks. This bonus increases to +4 when the needler uses Sleight of Hand to draw a hidden weapon that is coated in poison.</Pair>
+<Pair title="At 8th Level">These bonuses increase to +4 and +6, respectively.</Pair>
+</Ability>
+<Ability id="arc-rogue-needler-subtle-poisoning-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-rogue-needler-subtle-poisoning-ex">Subtle Poisoning (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A needler can apply a contact or ingested poison to her weapon and deliver it as if it were an injury poison. The poison must be delivered within 1 minute of this application, or it is wasted. The DC of the saving throw to resist the poison decreases by 1 when the needler uses this ability to deliver a contact or ingested poison via injury.</Pair>
+</Ability>
+<Ability id="arc-rogue-needler-needle-poisoner-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-needler-needle-poisoner-ex">Needle Poisoner (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Swift Action">A needler can apply a dose of poison to a weapon.</Pair>
+<Pair title="Special">This ability counts as <em>swift poisoning</em> for the purpose of meeting prerequisites.<sup><InnerLink showBacklink="backlink-arc-rogue-needler-fake-fn-1" id="arc-rogue-needler-fake-fn-1" data-hash-target to="arc-rogue-needler-fake-fn-1-target">1</InnerLink></sup></Pair>
+</Ability>
+<Ability id="arc-rogue-needler-concealed-delivery-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-needler-concealed-delivery-ex" flavor="A needler learns how to deliver all types of poisons with subtlety.">Concealed Delivery (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Standard Action">She can deliver an ingested or inhaled poison to a creature within reach by placing a dose of poison on the target's lips, on the target's neck, or through other similar contact with the target's skin as if the poison were a contact poison. Delivering poison in this way requires a successful Sleight of Hand check opposed by the target's Perception check. The poison is not lost on a failed check, but it must be successfully delivered within 1 minute of the first attempt, or it is wasted.</Pair>
+</Ability>
+<section data-footnotes><h3 id="arc-rogue-needler-label">Footnotes</h3><ol>
+<li id="arc-rogue-needler-fake-fn-1-target"><p>The only ability named "swift poisoning" is the <Link to="/class/alchemist">alchemist</Link> class feature. <InnerLink aria-label="Back to reference 1" id="backlink-arc-rogue-needler-fake-fn-1" data-hash-target to="arc-rogue-needler-fake-fn-1">↩</InnerLink></p></li>
+</ol></section></>};
 const _numerian_scavenger = {title: "Numerian Scavenger", jsx: <><h2 id="arc-rogue-numerian_scavenger-numerian-scavenger">Numerian Scavenger</h2>
 <p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 13</Link><br/>A Numerian scavenger lives for the discovery of new technological wonders scraped from the depths of the strange ruins, metal caverns, and outlandish junkyards of Numeria. She is well-versed in all the ways that technology can be used to protect sites, as well as the ways in which it can malfunction.</p>
-<p><strong>Technic Training (Ex):</strong> A Numerian scavenger adds 1/2 her rogue level to Perception skill checks to locate mechanical or high-tech traps and to Disable Device skill checks against these traps (minimum +1). She gains <Link to="/feat/technologist">Technologist</Link> as a bonus feat. She cannot use Disable Device to disarm magical traps.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Lucky Glitch (Ex):</strong> Starting at 4th level, whenever a Numerian scavenger triggers a glitch when using a timeworn technological item, she rolls twice and can choose which of the two glitch effects actually occurs. A Numerian scavenger always adds her level to rolls to determine what kind of glitch occurs, and treats rolls of over 100 as 100.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Robot Slayer (Ex):</strong> At 8th level, a Numerian scavenger knows just where to strike robots to incapacitate and disable them. When she deals sneak attack damage to a robot, she ignores all hardness that robot possesses.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
+<Ability id="arc-rogue-numerian_scavenger-technic-training-ex" icon={["upgrade","stairs-goal","broken-shield"]}>
+<Pair single id="arc-rogue-numerian_scavenger-technic-training-ex">Technic Training (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Passive Ability">A Numerian scavenger adds 1/2 her rogue level to Perception skill checks to locate mechanical or high-tech traps and to Disable Device skill checks against these traps (minimum +1).</Pair>
+<Pair title="Ability">She gains <Link to="/feat/technologist">Technologist</Link> as a bonus feat.</Pair>
+<Pair title="Special">She cannot use Disable Device to disarm magical traps.</Pair>
+</Ability>
+<Ability id="arc-rogue-numerian_scavenger-lucky-glitch-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-numerian_scavenger-lucky-glitch-ex">Lucky Glitch (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">Whenever a Numerian scavenger triggers a <Link to="/rule/glitch">glitch</Link> when using a timeworn technological item, she rolls twice and can choose which of the two glitch effects actually occurs. A Numerian scavenger always adds her level to rolls to determine what kind of glitch occurs, and treats rolls of over 100 as 100.</Pair>
+</Ability>
+<Ability id="arc-rogue-numerian_scavenger-robot-slayer-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-numerian_scavenger-robot-slayer-ex" flavor="A Numerian scavenger knows just where to strike robots to incapacitate and disable them.">Robot Slayer (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">When she deals sneak attack damage to a robot, she ignores all hardness that robot possesses.</Pair>
+</Ability>
 </>};
 const _okeno_liberator = {title: "Okeno Liberator", jsx: <><h2 id="arc-rogue-okeno_liberator-okeno-liberator">Okeno Liberator</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 41</Link><br/>The sight of yellow sails on the Inner Sea signals the approach of a ship from Okeno, home port of the most ruthless and feared of all slaving operations. Most who see these sails flee in terror, but some freedom fighters actually endeavor to be captured, knowing that being taken to Stonespine Island in manacles is the easiest way to infiltrate the city, liberate other slaves, and lead them to freedom.</p>
-<p><strong>Bond Breaker (Ex):</strong> An Okeno liberator adds 1/2 her class level to Escape Artist checks, and never takes a penalty on Disable Device checks when using improvised tools to open locks.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Covert Commander (Ex):</strong> An Okeno liberator grants all allies within 30 feet who are in her line of sight (but not herself) a +1 competence bonus on Disguise and Stealth checks. This bonus increases by 1 for every 3 levels beyond 3rd.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Catch Off-Guard (Ex):</strong> At 4th level, the Okeno liberator is adept at improvising weapons. She gains <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> as a bonus feat.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the Okeno liberator archetype: <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/underhanded">underhanded</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/deft_palm">deft palm</Link> (<em>Combat Talents</em> group); <Link to="/talent/fast_picks">fast picks</Link> (<em>Disable Device Talents</em> group); <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/quick_disguise">quick disguise</Link> (<em>Deception Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the Okeno liberator archetype: <Link to="/talent/defensive_roll">defensive roll</Link>, <Link to="/talent/fast_tumble">fast tumble</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/weapon_snatcher">weapon snatcher</Link> (<em>Combat Talents</em> group); <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-okeno_liberator-bond-breaker-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-okeno_liberator-bond-breaker-ex">Bond Breaker (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Passive Ability">An Okeno liberator adds 1/2 her class level to Escape Artist checks, and never takes a penalty on Disable Device checks when using improvised tools to open locks.</Pair>
+</Ability>
+<Ability id="arc-rogue-okeno_liberator-covert-commander-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-okeno_liberator-covert-commander-ex">Covert Commander (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Ability">An Okeno liberator grants all allies within 30 feet who are in her line of sight (but not herself) a competence bonus on Disguise and Stealth checks. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-okeno_liberator-catch-off-guard-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-okeno_liberator-catch-off-guard-ex" flavor="The Okeno liberator is adept at improvising weapons.">Catch Off-Guard (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">She gains <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> as a bonus feat.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/deft_palm">Deft palm</Link>, <Link to="/talent/fast_picks">fast picks</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/quick_disguise">quick disguise</Link>, <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/underhanded">underhanded</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/defensive_roll">Defensive roll</Link>, <Link to="/talent/fast_tumble">fast tumble</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/weapon_snatcher">weapon snatcher</Link></p></>};
 const _phantom_thief = {title: "Phantom Thief", jsx: <><h2 id="arc-rogue-phantom_thief-phantom-thief">Phantom Thief</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 46</Link><br/>Also known as gentleman thieves or lady thieves, phantom thieves don't know the desperation of a hard life like many rogues. Instead, they come from the ranks of the elite, having grown bored with their finery, and seek thrills from acts of daring, skill, and crime. Phantom thieves don't need the money, so they often perform acts such as breaking into a secure vault for the thrill, leaving a calling card rather than robbing the place.</p>
-<p><strong>Refined Education (Ex):</strong> A phantom thief adds Handle Animal, Heal, Ride, Spellcraft, Survival, and all Knowledge skills to her list of class skills. Furthermore, she selects one of her rogue class skills and adds half her rogue level on all skill checks using that skill. At 3rd level and every 2 rogue levels thereafter, she selects an additional rogue class skill and adds half her rogue level on all skill checks using that skill as well. Starting at 4th level, if the phantom thief is an unchained rogue, she gains rogue's edge skill unlocks with each of these skills rather than selecting one skill every 5 levels, and she adds half her rogue level to her number of ranks to determine when she receives a skill unlock (so a 7th level rogue (phantom thief) with 7 ranks in a chosen skill would count as having 10 ranks and receive the second skill unlock).</p>
-<p>This ability alters the rogue's <strong className="hl">class skills</strong> and replaces <strong className="hl">sneak attack</strong> and <strong className="hl">trapfinding</strong>. For an unchained rogue, it also alters <strong className="hl">rogue's edge</strong> and replaces <strong className="hl">debilitating injury</strong>.</p>
-<p><strong>Broad Education (Ex):</strong> A phantom thief's broad studies with expensive tutors keep her up to speed in both martial and magical knowledge, as well as in her skills. She can select the <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/minor_magic">minor magic</Link>, and <Link to="/talent/major_magic">major magic</Link> rogue talents as many times as she likes, and she can select the <Link to="/feat/skill_focus">Skill Focus</Link> feat as a rogue talent, also as many times as she likes. Finally, she can select a vigilante <Link to="/ability/social_talents">social talent</Link> instead of a rogue talent, except for social grace and vigilante social talents that would require her to be a craftsman or professional. For the purpose of vigilante social talents, a phantom thief does not have a vigilante identity and is always considered to be in her social identity.</p>
-<p>This ability alters <strong className="hl">rogue talent</strong>.</p>
-<p><strong>Social Sense (Ex):</strong> At 3rd level, a phantom thief's social sixth sense allows her to avoid danger in social situations and to act first when it breaks out. She receives a +1 bonus on Sense Motive checks to avoid being surprised by a foe, on Bluff checks to surprise a foe, and on initiative checks for surprise rounds that involved Bluff and Sense Motive checks to determine surprise. This bonus increases by 1 at 3rd level and every 3 rogue levels thereafter.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Master of All (Ex):</strong> At 20th level, a phantom thief can reroll any skill check as long as it is a class skill in which she is trained. She must take the second result, even if it is worse. She can use this ability no more than once per minute.</p>
-<p>This ability replaces <strong className="hl">master strike</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the phantom thief archetype: major magic, minor magic (<em>Spellcasting Talents</em> group); combat trick (<em>Combat Talents</em> group); <Link to="/talent/certainty">certainty</Link> (<em>Other Talents</em> group - unchained rogue only).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the phantom thief archetype: <Link to="/talent/hidden_mind">hidden mind</Link> (<em>Magical Talents</em> group), <Link to="/talent/cutting_edge">cutting edge</Link> (unchained rogue only), <Link to="/talent/feat">feat</Link>, <Link to="/talent/rumormonger">rumormonger</Link>, and <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability icon={["skills"]} id="arc-rogue-phantom_thief-undefined">
+<Pair id="arc-rogue-phantom_thief-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA), <Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/ride">Ride</Link> (DEX), <Link to="/skill/spellcraft">Spellcraft</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
+<Ability id="arc-rogue-phantom_thief-refined-education-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-phantom_thief-refined-education-ex">Refined Education (Ex)</Pair>
+<Pair hl title="Replaces">Debilitating injury, sneak attack, trapfinding</Pair>
+<Pair hl title="Alters">rogue's edge (unchained rogue only)</Pair>
+<Pair title="At 1st Level">The phantom thief selects one of her rogue class skills and adds half her rogue level on all skill checks using that skill.</Pair>
+<Pair title="At 3rd Level">She selects an additional rogue class skill and adds half her rogue level on all skill checks using that skill as well.</Pair>
+<Pair title="At 4th Level">She gains <em>rogue's edge</em> skill unlocks with each of these skills rather than selecting one skill every 5 levels, and she adds half her rogue level to her number of ranks to determine when she receives a skill unlock (so a 7th level rogue (phantom thief) with 7 ranks in a chosen skill would count as having 10 ranks and receive the second skill unlock).</Pair>
+<Pair title="At 5th Level">She selects an additional rogue class skill and adds half her rogue level on all skill checks using that skill as well.</Pair>
+<Pair title="At 7th Level">She selects an additional rogue class skill and adds half her rogue level on all skill checks using that skill as well.</Pair>
+<Pair title="At 9th Level">She selects an additional rogue class skill and adds half her rogue level on all skill checks using that skill as well.</Pair>
+<Pair title="At 11th Level">She selects an additional rogue class skill and adds half her rogue level on all skill checks using that skill as well.</Pair>
+<Pair title="At 13th Level">She selects an additional rogue class skill and adds half her rogue level on all skill checks using that skill as well.</Pair>
+<Pair title="At 15th Level">She selects an additional rogue class skill and adds half her rogue level on all skill checks using that skill as well.</Pair>
+<Pair title="At 17th Level">She selects an additional rogue class skill and adds half her rogue level on all skill checks using that skill as well.</Pair>
+<Pair title="At 19th Level">She selects an additional rogue class skill and adds half her rogue level on all skill checks using that skill as well.</Pair>
+</Ability>
+<Ability id="arc-rogue-phantom_thief-broad-education-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-phantom_thief-broad-education-ex" flavor="A phantom thief's broad studies with expensive tutors keep her up to speed in both martial and magical knowledge, as well as in her skills.">Broad Education (Ex)</Pair>
+<Pair hl title="Alters">Rogue talent</Pair>
+<Pair title="Ability">She can select the <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/minor_magic">minor magic</Link>, and <Link to="/talent/major_magic">major magic</Link> rogue talents as many times as she likes, and she can select the <Link to="/feat/skill_focus">Skill Focus</Link> feat as a rogue talent, also as many times as she likes. Finally, she can select a vigilante <Link to="/ability/social_talents">social talent</Link> instead of a rogue talent, except for <em>social grace</em> and vigilante social talents that would require her to be a craftsman or professional.</Pair>
+<Pair title="Special">For the purpose of vigilante social talents, a phantom thief does not have a vigilante identity and is always considered to be in her social identity.</Pair>
+</Ability>
+<Ability id="arc-rogue-phantom_thief-social-sense-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-phantom_thief-social-sense-ex" flavor="A phantom thief's social sixth sense allows her to avoid danger in social situations and to act first when it breaks out.">Social Sense (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">She receives a bonus on Sense Motive checks to avoid being surprised by a foe, on Bluff checks to surprise a foe, and on initiative checks for surprise rounds that involved Bluff and Sense Motive checks to determine surprise. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-phantom_thief-master-of-all-ex" icon={["rolling-dices"]}>
+<Pair single id="arc-rogue-phantom_thief-master-of-all-ex">Master of All (Ex)</Pair>
+<Pair hl title="Replaces">Master strike</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Usage">Once per minute</Pair>
+<Pair title="Ability">A phantom thief can reroll any skill check as long as it is a class skill in which she is trained. She must take the second result, even if it is worse.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/certainty">Certainty</Link> (unchained rogue only), <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/cutting_edge">Cutting edge</Link> (unchained rogue only), <Link to="/talent/feat">feat</Link>, <Link to="/talent/hidden_mind">hidden mind</Link>, <Link to="/talent/rumormonger">rumormonger</Link>, <Link to="/talent/skill_mastery">skill mastery</Link></p></>};
 const _pirate = {title: "Pirate", jsx: <><h2 id="arc-rogue-pirate-pirate">Pirate</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 73</Link><br/>A pirate breaks from the confines of country and king to commit her crimes upon the high seas. She holds allegiance only to her ship and its captain (if even that much is true), and lives a lawless life upon the waves, plundering ships and shorelines as suits her whim.</p>
-<p><strong>Sea Legs (Ex):</strong> At 1st level, a pirate becomes adept at moving on ships, boats, and similar vessels. She gains the <Link to="/feat/sea_legs">Sea Legs</Link> feat as a bonus feat, even if she does not meet the prerequisites.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Swinging Reposition (Ex):</strong> At 2nd level, a pirate incorporates a ship's masts, rigging, ropes, sails, and other such structures into her combat style. Provided she is wearing light armor or no armor, when fighting in an environment where such structures exist, the rogue incorporates them into her movement, and does not have to move in a straight line when making either a charge attack or a bull rush combat maneuver. Once she completes her attack or maneuver, she can reposition herself. Immediately after making the charge or bull rush, she can move 5 feet as a free action, even if the charge ends her turn. This movement does not provoke attacks of opportunity.</p>
-<p>This ability replaces the 2nd-level <strong className="hl">rogue talent</strong>.</p>
-<p><strong>Unflinching (Ex):</strong> Pirates are a salty and steadfast lot. At 3rd level, a pirate gains a +1 bonus on saving throws against fear and mind-affecting effects. This bonus increases by +1 for every three levels, to a maximum of +6 at 18th level.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the pirate archetype: <Link to="/talent/black_market_connections">black market connections</Link> (<em>Other Magic-Related Talents</em> group); <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/firearm_training">firearm training</Link> (<em>Combat Talents</em> group); <Link to="/talent/hold_breath">hold breath</Link>, <Link to="/talent/rope_master">rope master</Link>, <Link to="/talent/strong_stroke">strong stroke</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the pirate archetype: <Link to="/talent/hard_minded">hard minded</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link> (<em>Combat Talents</em> group); <Link to="/talent/getaway_master">getaway master</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-pirate-sea-legs-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-pirate-sea-legs-ex" flavor="A pirate becomes adept at moving on ships, boats, and similar vessels.">Sea Legs (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">She gains the <Link to="/feat/sea_legs">Sea Legs</Link> feat as a bonus feat, even if she does not meet the prerequisites.</Pair>
+</Ability>
+<Ability id="arc-rogue-pirate-swinging-reposition-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-pirate-swinging-reposition-ex">Swinging Reposition (Ex)</Pair>
+<Pair hl title="Replaces">2nd-level rogue talent</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A pirate incorporates a ship's masts, rigging, ropes, sails, and other such structures into her combat style. Provided she is wearing light armor or no armor, when fighting in an environment where such structures exist, the rogue incorporates them into her movement, and does not have to move in a straight line when making either a <Link to="/rule/charge">charge</Link> attack or a <Link to="/rule/bull_rush">bull rush</Link> combat maneuver.</Pair>
+<Pair title="Special">Once she completes her attack or maneuver, she can reposition herself. Immediately after making the charge or bull rush, she can move 5 feet as a <strong className="hl">free action</strong>, even if the charge ends her turn. This movement does not provoke attacks of opportunity.</Pair>
+</Ability>
+<Ability id="arc-rogue-pirate-unflinching-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-pirate-unflinching-ex" flavor="Pirates are a salty and steadfast lot.">Unflinching (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="At 3rd Level">A pirate gains a bonus on saving throws against fear and mind-affecting effects. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/black_market_connections">Black market connections</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/firearm_training">firearm training</Link>, <Link to="/talent/hold_breath">hold breath</Link>, <Link to="/talent/rope_master">rope master</Link>, <Link to="/talent/strong_stroke">strong stroke</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/getaway_master">Getaway master</Link>, <Link to="/talent/hard_minded">hard minded</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _planar_sneak = {title: "Planar Sneak", jsx: <><h2 id="arc-rogue-planar_sneak-planar-sneak">Planar Sneak</h2>
 <p><strong>Sources</strong> <Link to="/source/planes_of_power">Planes of Power pg. 8</Link><br/>A planar sneak finds creative ways to defy conventional limitations when trying to overcome extraplanar obstacles.</p>
-<p><strong>Planar Sense (Ex):</strong> At 3rd level, a planar sneak gains a +1 bonus on saving throws against all effects with the air, chaos, earth, evil, fire, good, law, or water descriptors. This bonus increases by 1 for every 3 rogue levels thereafter (to a maximum of +6 at 18th level).</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Elemental Execution (Su):</strong> At 4th level, a planar sneak treats creatures with the elemental subtype as though they were vulnerable to her sneak attack, but she deals only half as much sneak attack damage as she normally would. She can confirm critical hits against such creatures, though 50% of the time, the critical hit is automatically negated and damage is instead rolled normally. At 8th level, this ability also applies to all outsiders otherwise immune to critical hits and sneak attack damage.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong> and <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the planar sneak archetype: <Link to="/talent/terrain_mastery">terrain mastery</Link> (<em>Deception Talents</em> group); <Link to="/talent/guileful_polyglot">guileful polyglot</Link>, <Link to="/talent/strong_stroke">strong stroke</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Rogue Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement this archetype: <Link to="/talent/defensive_roll">defensive roll</Link> (<em>Combat Talents</em> group); <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-planar_sneak-planar-sense-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-planar_sneak-planar-sense-ex">Planar Sense (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">A planar sneak gains a bonus on saving throws against all effects with the air, chaos, earth, evil, fire, good, law, or water descriptors. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-planar_sneak-elemental-execution-su" icon={["upgrade"]}>
+<Pair single id="arc-rogue-planar_sneak-elemental-execution-su">Elemental Execution (Su)</Pair>
+<Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
+<Pair title="At 4th Level">A planar sneak treats creatures with the elemental subtype as though they were vulnerable to her sneak attack, but she deals only half as much sneak attack damage as she normally would. She can confirm critical hits against such creatures, though 50% of the time, the critical hit is automatically negated and damage is instead rolled normally.</Pair>
+<Pair title="At 8th Level">This ability also applies to all outsiders otherwise immune to critical hits and sneak attack damage.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/guileful_polyglot">Guileful polyglot</Link>, <Link to="/talent/strong_stroke">strong stroke</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/defensive_roll">Defensive roll</Link>, <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/skill_mastery">skill mastery</Link></p></>};
 const _poisoner = {title: "Poisoner", jsx: <><h2 id="arc-rogue-poisoner-poisoner">Poisoner</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 134</Link><br/>Some consider poisoning an evil act. The poisoner knows poison is just a tool toward an end, and is no different than any other weapon. Some poisoners see themselves as great equalizers, as they are able to craft weapons that the weakest of creatures can wield to devastating effect, but most have no lofty delusions about their work.</p>
 <p><strong>Poison Use (Ex):</strong> At 1st level, a poisoner is trained in the use of poison and cannot accidentally poison herself when applying poison to a blade.</p>
