@@ -47,6 +47,64 @@ div.basicContent.bookmarks ion-item.divider ion-label ion-icon {
 	width: 100%;
 }
 
+ion-item#colorCircleItems::part(native) div.item-inner {
+	display: block;
+	height: 100%;
+}
+
+div#colorCircles {
+	padding-block: 0.5rem;
+	height: calc(100% - 3.25rem);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+}
+div#colorCircles div.outer {
+	padding: 1rem;
+	flex: 1 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div#colorCircles div.select-circle {
+	border-radius: 100%;
+	border-width: 0;
+	border-style: solid;
+	height: 2rem;
+	width: 2rem;
+	margin: 1rem;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+div#colorCircles div.select-circle.selected {
+	border-width: 0.5rem !important;
+	background: var(--ion-text-color) !important;
+	cursor: pointer;
+	margin: 0.5rem;
+	height: 3rem;
+	width: 3rem;
+}
+div#postCircles {
+	height: 2.5rem;
+	margin: 0;
+	padding: 0.75rem 3rem;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	text-align: start;
+	border-block-start: 0.25rem solid var(--ion-color-step-100);
+	font-weight: bold;
+}
+div#postCircles:last-child ::first-letter {
+	text-transform: capitalize;
+}
+
+.cancelModal .dangerous {
+	color: var(--ion-color-danger);
+}
+
 ion-item.color-red {
 	/* colored items get a color suitable as a background */
 	--background: var(--red-bg);

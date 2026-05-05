@@ -8,6 +8,7 @@ import {
 	chevronExpand, closeCircle, save
 } from 'ionicons/icons';
 import {
+	IonAlert,
 	IonButton,
 	IonButtons,
 	IonContent,
@@ -32,7 +33,6 @@ import {
 	ItemReorderEventDetail,
 	useIonAlert
 } from '@ionic/react';
-import Circle from '@uiw/react-color-circle';
 import usePageName, { doesPageExist } from '../components/usePageName';
 import { goTo } from '../store/historySlice';
 import {
@@ -48,7 +48,6 @@ import { GenStrict } from '../types';
 import BasicPage from './BasicPage';
 import '../components/Bookmarks.css';
 import './Page.css';
-
 
 interface BaseProps {
 	id: string
@@ -157,20 +156,24 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	const [scrollObj, setScrollObj] = useState<HTMLIonContentElement | null>(null);
 	const data = useAppSelector(state => state.bookmarks.db[id]);
 	const {color, title, contents} = data || { color: "red", title: "(error)", contents: blank };
+	const [alert] = useIonAlert();
 
 	const [disabled, setDisabled] = useState(true);
-	const [openModal, setOpenModal] = useState(false);
+	const [openChangeColorModal, setOpenChangeColorModal] = useState(false);
 	const [newColor, setNewColor] = useState<Color>("red");
 	const getPageName = usePageName();
 	const dispatch = useAppDispatch();
 	const defaultTitle = "Bookmarks";
 	const [possiblyUnsavedTitle, setPossiblyUnsavedTitle] = useState(title);
-	const isDark = useDarkMode();
 
 	const [inputElement, inputRef] = useElement<HTMLIonInputElement>();
 	const [listElement, listRef] = useElement<HTMLIonListElement>();
 
-	const colors = useMemo(() => isDark ? darkColors : lightColors, [isDark]);
+	const isDark = useDarkMode();
+	const colorsHexed = useMemo(() => {
+		const base = isDark ? darkColors : lightColors;
+		return colorNames.map(c => base[c]);
+	}, [isDark]);
 
 	const scrollHook = useCallback((input: HTMLIonContentElement | null) => {
 		setScrollObj(input);
@@ -239,8 +242,8 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 
 	const maybeSaveColor = useCallback((color: Color) => {
 		dispatch(changeGroupColor({id, color}));
-		setOpenModal(false);
-	}, [dispatch, setOpenModal, id]);
+		setOpenChangeColorModal(false);
+	}, [dispatch, setOpenChangeColorModal, id]);
 
 	const members = useMemo(() => {
 		return contents.map((info, position) => {
@@ -254,8 +257,30 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 
 	const openColorModal = () => {
 		setNewColor(color);
-		setOpenModal(true);
+		setOpenChangeColorModal(true);
 	}
+
+	const maybeCloseColorModal = () => {
+		if(newColor !== color) {
+			return alert({
+				header: "Unsaved Work",
+				message: "You haven't saved your new color choice. Are you sure you want to cancel?",
+				cssClass: "cancelModal",
+				buttons: [{
+					text: "Yes, Cancel",
+					role: "destructive",
+					handler: () => {
+						setOpenChangeColorModal(false);
+					},
+					cssClass: "dangerous"
+				}, {
+					text: "No, Go Back",
+					role: "cancel"
+				}]
+			});
+		}
+		setOpenChangeColorModal(false);
+	};
 
 	return (
 		<BasicPage
@@ -266,28 +291,47 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 			fab={<Fab color={color} id={id} func={scrollToBottom} />}
 			scrollHook={scrollHook}
 		>
-			<IonModal isOpen={openModal} onIonModalDidDismiss={() => setOpenModal(false)}>
+			<IonModal
+				isOpen={openChangeColorModal}
+				onIonModalDidDismiss={() => setOpenChangeColorModal(false)}
+				backdropDismiss={false}
+			>
 				<IonHeader>
 					<IonToolbar>
 						<IonTitle>Change Group Color</IonTitle>
 						<IonButtons slot="end">
-							<IonButton onClick={() => setOpenModal(false)}>
+							<IonButton onClick={maybeCloseColorModal}>
 								<IonIcon icon={closeCircle} slot="icon-only" />
 							</IonButton>
 						</IonButtons>
 					</IonToolbar>
 				</IonHeader>
 				<IonContent>
-					<IonList lines="full">
-						<IonItem style={{paddingBlock: "0.5rem"}}>
-							<Circle style={{margin: "0.5rem"}} colors={colorNames.map(c => colors[c])} color={colors[newColor]} onChange={hex => setNewColor(getColor(hex.hex))} />
-						</IonItem>
-					</IonList>
+					<div id="colorCircles">
+						{colorsHexed.map(c => {
+							const color = getColor(c);
+							const className = "select-circle" + (color === newColor ? " selected" : "");
+							const style = { background: c, borderColor: c };
+							return (
+								<div className="outer" key={`circle-${c}`}>
+									<div
+										className={className}
+										style={style}
+										onClick={() => setNewColor(color)}
+									></div>
+								</div>
+							);
+						})}
+					</div>
+					<div id="postCircles">
+						<div>Current color:</div>
+						<div>{newColor.replace(/^(red(?=or)|blue(?=gr))/, "$1-").replace(/^(sky|light)/, "$1 ")}</div>
+					</div>
 				</IonContent>
 				<IonFooter>
 					<IonToolbar>
 						<IonButtons slot="end">
-							<IonButton color="success" onClick={() => maybeSaveColor(newColor)}>
+							<IonButton fill="solid" color="success" onClick={() => maybeSaveColor(newColor)}>
 								<IonIcon icon={save} slot="start" />
 								Save
 							</IonButton>
@@ -295,7 +339,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 					</IonToolbar>
 				</IonFooter>
 			</IonModal>
-			<ListContext.Provider value={listElement}><IonList lines="full" id={id + "BookmarkList"} ref={listRef}>
+			<ListContext value={listElement}><IonList lines="full" id={id + "BookmarkList"} ref={listRef}>
 				<IonItem>
 					<IonButton color="secondary" slot="start" fill="clear" onClick={openColorModal}>
 						<IonIcon className={`color-${color}`} slot="icon-only" icon={bookmark} />
@@ -319,7 +363,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 				<IonReorderGroup disabled={false} onIonItemReorder={handleReorder}>
 					{members}
 				</IonReorderGroup>
-			</IonList></ListContext.Provider>
+			</IonList></ListContext>
 		</BasicPage>
 	);
 };
