@@ -1145,34 +1145,66 @@ const _planar_sneak = {title: "Planar Sneak", jsx: <><h2 id="arc-rogue-planar_sn
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/guileful_polyglot">Guileful polyglot</Link>, <Link to="/talent/strong_stroke">strong stroke</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/defensive_roll">Defensive roll</Link>, <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/skill_mastery">skill mastery</Link></p></>};
 const _poisoner = {title: "Poisoner", jsx: <><h2 id="arc-rogue-poisoner-poisoner">Poisoner</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 134</Link><br/>Some consider poisoning an evil act. The poisoner knows poison is just a tool toward an end, and is no different than any other weapon. Some poisoners see themselves as great equalizers, as they are able to craft weapons that the weakest of creatures can wield to devastating effect, but most have no lofty delusions about their work.</p>
-<p><strong>Poison Use (Ex):</strong> At 1st level, a poisoner is trained in the use of poison and cannot accidentally poison herself when applying poison to a blade.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Master Poisoner (Ex):</strong> At 3rd level, a poisoner can use Craft (alchemy) to change the type of a poison. This requires 1 hour of work with an alchemist's lab and a Craft (alchemy) skill check with a DC equal to the poison's DC. If successful, the poison's type changes to contact, ingested, inhaled, or injury. If the check fails, the poison is ruined. The poisoner also receives a bonus on Craft (alchemy) skill checks when working with poison equal to 1/2 her rogue level.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the poisoner archetype: <Link to="/talent/distracting_attack">distracting attack</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/surprise_attack">surprise attack</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/lasting_poison">lasting poison</Link>, <Link to="/talent/swift_poison">swift poison</Link> (<em>Poison Talents</em> group); <Link to="/talent/weapon_training">weapon training</Link> (<em>Combat Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the poisoner archetype: <Link to="/talent/deadly_cocktail">deadly cocktail</Link>, <Link to="/talent/hunters_surprise">hunter's surprise</Link>, <Link to="/talent/opportunist">opportunist</Link> (<em>Combat Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-poisoner-poison-use-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-poisoner-poison-use-ex">Poison Use (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A poisoner is trained in the use of poison and cannot accidentally poison herself when applying poison to a blade.</Pair>
+</Ability>
+<Ability id="arc-rogue-poisoner-master-poisoner-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-rogue-poisoner-master-poisoner-ex">Master Poisoner (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A poisoner can use Craft (alchemy) to change the type of a <Link to="/rule/poison">poison</Link>. This requires 1 hour of work with an <Link to="/eq-misc/alchemists_lab">alchemist's lab</Link> and a Craft (alchemy) skill check with a DC equal to the poison's DC. If successful, the poison's type changes to contact, ingested, inhaled, or injury. If the check fails, the poison is ruined.</Pair>
+<Pair title="Passive Ability">The poisoner also receives a bonus on Craft (alchemy) skill checks when working with poison equal to 1/2 her rogue level.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/distracting_attack">Distracting attack</Link>, <Link to="/talent/lasting_poison">lasting poison</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/swift_poison">swift poison</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/deadly_cocktail">Deadly cocktail</Link>, <Link to="/talent/hunters_surprise">hunter's surprise</Link>, <Link to="/talent/opportunist">opportunist</Link></p></>};
 const _rake = {title: "Rake", jsx: <><h2 id="arc-rogue-rake-rake">Rake</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 134</Link><br/>The rake is a rogue who is open about her skills and talents, often to the point of being boastful. Usually she has the protection of an important figure who finds her services useful, but sometimes her bravado is enough to keep enemies away. She is often used as a face for the group for diplomacy, gathering information, negotiations, or to gain the most lucrative contracts and quests from local authorities.</p>
-<p><strong>Bravado's Blade (Ex):</strong> When a rake hits an opponent and deals sneak attack damage, she can forgo 1d6 points of that damage and make a free Intimidate check to demoralize the foe. For every additional 1d6 points of sneak attack damage she forgoes, she receives a +5 circumstance bonus on this check.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Rake's Smile (Ex):</strong> At 3rd level, a rake gains a +1 morale bonus on Bluff and Diplomacy checks. This bonus increases by +1 for every 3 levels beyond 3rd.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the rake archetype: <Link to="/talent/befuddling_strike">befuddling strike</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/surprise_attack">surprise attack</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/charmer">charmer</Link>, <Link to="/talent/honeyed_words">honeyed words</Link> (<em>Deception Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the rake archetype: <Link to="/talent/another_day">another day</Link>, <Link to="/talent/redirect_attack">redirect attack</Link> (<em>Combat Talents</em> group); <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-rake-bravados-blade-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-rake-bravados-blade-ex">Bravado's Blade (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Ability">When a rake hits an opponent and deals sneak attack damage, she can forgo 1d6 points of that damage and make a free <Link to="/skill/intimidate">Intimidate</Link> check to demoralize the foe. For every additional 1d6 points of sneak attack damage she forgoes, she receives a +5 circumstance bonus on this check.</Pair>
+</Ability>
+<Ability id="arc-rogue-rake-rakes-smile-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-rake-rakes-smile-ex">Rake's Smile (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">A rake gains a morale bonus on Bluff and Diplomacy checks equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/befuddling_strike">Befuddling strike</Link>, <Link to="/talent/charmer">charmer</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/surprise_attack">surprise attack</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/another_day">Another day</Link>, <Link to="/talent/redirect_attack">redirect attack</Link>, <Link to="/talent/skill_mastery">skill mastery</Link></p></>};
 const _relic_raider = {title: "Relic Raider", jsx: <><h2 id="arc-rogue-relic_raider-relic-raider">Relic Raider</h2>
 <p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 27</Link><br/>Relic raiders are rogues who specialize in recovering treasures from ruins and tombs, some in a quest for knowledge, others out of a desire for riches. In addition to natural dangers and mundane traps, these locations are often protected by ancient curses or the psychic imprints of former occupants. Though not versed in magic, relic raiders learn to unweave these maledictions as easily as they unlock ancient vaults.</p>
-<p><strong>Curse Sense (Ex):</strong> At 4th level, a relic raider adds 1/2 her rogue level on Perception checks to notice haunts and on Spellcraft checks to identify cursed items (using detect magic or similar effects).</p>
-<p>In addition, the relic raider gains a +1 bonus on saving throws against curses and haunts and a +1 dodge bonus to AC against attacks by haunts. These bonuses increase by 1 at 6th level and every 3 rogue levels thereafter (to a maximum of +6 at 18th level).</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Disable Curse (Su):</strong> At 8th level, a relic raider can attempt to disable a curse as she would a magical trap. This ability acts as <Link to="/spell/remove_curse">remove curse</Link>, except instead of a caster level check, the relic raider attempts a Disable Device check (DC = 15 + the DC of the curse). Disabling a curse takes 2d4 rounds, and the relic raider cannot take 10 or 20 on this check. A relic raider can use this ability once per day at 8th level. At 12th level and every 4 rogue levels thereafter, a relic raider can use disable curse one additional time per day.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Advanced Talents:</strong> A relic raider can select the following new <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link>. These talents are considered Primary Sneak Attack Talents, and add effects to a rogue's sneak attack. Only one Primary Sneak Attack Talent can be applied to an individual attack, and the decision must be made before making the attack roll.</p>
-<blockquote>
-<p><em>Cursed Strike (Su):</em> Once per day, when the relic raider would normally deal sneak attack damage, she can instead forgo all bonus damage to attempt to curse her target (as per the spell <Link to="/spell/bestow_curse">bestow curse</Link>). The save is DC equal to 10 + 1/2 the relic raider's rogue level + her Intelligence modifier. A relic raider must have the <Link to="/talent/major_magic">major magic</Link> rogue talent before choosing cursed strike. The relic raider can use this ability an additional time per day at 15th level and 20th level.</p>
-<p><em>Etheric Strike (Su):</em> With a successful sneak attack against haunts or undead, the relic raider can deal her sneak attack damage as positive energy damage rather than physical damage. The additional damage affects undead that are normally immune to sneak attacks because of their lack of a discernible anatomy (such as <Link to="/template/ghost">ghosts</Link>). A relic raider can make an etheric strike a number of times per day equal to 3 + her Charisma modifier.</p>
-</blockquote>
+<Ability id="arc-rogue-relic_raider-curse-sense-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-relic_raider-curse-sense-ex">Curse Sense (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A relic raider adds 1/2 her rogue level on Perception checks to notice haunts and on Spellcraft checks to identify cursed items (using <Link to="/spell/detect_magic">detect magic</Link> or similar effects).</Pair>
+<Pair title="Passive Ability">In addition, the relic raider gains a bonus on saving throws against curses and haunts and a dodge bonus to AC against attacks by haunts. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-relic_raider-disable-curse-su" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-relic_raider-disable-curse-su">Disable Curse (Su)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four rogue levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">A relic raider can attempt to disable a curse as she would a magical trap. This ability acts as <Link to="/spell/remove_curse">remove curse</Link>, except instead of a caster level check, the relic raider attempts a Disable Device check (DC = 15 + the DC of the curse). Disabling a curse takes 2d4 rounds, and the relic raider cannot take 10 or 20 on this check.</Pair>
+</Ability>
+<Ability id="arc-rogue-relic_raider-advanced-rogue-talents" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-relic_raider-advanced-rogue-talents">Advanced Rogue Talents</Pair>
+<Pair title="Ability">A relic raider can select the following new <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link>. These talents are considered Primary Sneak Attack Talents, and add effects to a rogue's sneak attack. Only one Primary Sneak Attack Talent can be applied to an individual attack, and the decision must be made before making the attack roll.</Pair>
+</Ability>
+<Ability id="arc-rogue-relic_raider-cursed-strike-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-relic_raider-cursed-strike-su">Cursed Strike (Su)</Pair>
+<Pair title="Prerequisites"><Link to="/talent/major_magic">Major magic</Link> rogue talent</Pair>
+<Pair title="Ability">Once per day, when the relic raider would normally deal sneak attack damage, she can instead forgo all bonus damage to attempt to curse her target (as per the spell <Link to="/spell/bestow_curse">bestow curse</Link>). The save is DC equal to 10 + 1/2 the relic raider's rogue level + her Intelligence modifier.</Pair>
+<Pair title="At 15th Level">She can use this twice a day.</Pair>
+<Pair title="At 20th Level">She can use this three times per day.</Pair>
+</Ability>
+<Ability id="arc-rogue-relic_raider-etheric-strike-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-relic_raider-etheric-strike-su">Etheric Strike (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">With a successful sneak attack against haunts or undead, the relic raider can deal her sneak attack damage as positive energy damage rather than physical damage. The additional damage affects undead that are normally immune to sneak attacks because of their lack of a discernible anatomy (such as <Link to="/template/ghost">ghosts</Link>).</Pair>
+</Ability>
 </>};
 const _river_rat = {title: "River Rat", jsx: <><h2 id="arc-rogue-river_rat-river-rat">River Rat</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 76</Link>, <Link to="/source/people_of_the_river">People of the River pg. 21</Link><br/>What highway robbers are to roads, river rats are to waterways. Skilled at hiding amid reeds and roots, these rogues strike the unwary from the shallows as others would from the shadows. Despite their strong association with banditry, river rats make excellent guides and hunters.</p>
@@ -1180,88 +1212,188 @@ const _river_rat = {title: "River Rat", jsx: <><h2 id="arc-rogue-river_rat-river
 <Pair id="arc-rogue-river_rat-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
-<p><strong>Swamper (Ex):</strong> At 1st level, a river rat gains a bonus equal to half her rogue level on Swim checks (minimum +1).</p>
-<p>A river rat ignores <Link to="/rule/difficult_terrain">difficult terrain</Link> caused by light undergrowth and shallow bogs, and it costs her only 2 squares of movement to enter a square of deep bog or heavy undergrowth, rather than 4 squares of movement. She takes no penalty on Acrobatics or Stealth checks for being in bogs and undergrowth. All of these abilities apply only when she is wearing light or no armor and carrying no more than a light load.</p>
-<p>This replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Rat's Resilience (Ex):</strong> A river rat is inured to dangers presented by disease-carrying parasites, poisonous fish, and other toxic river denizens. At 3rd level, a river rat gains a +1 bonus on saving throws against disease and poison effects. This bonus increases by 1 every 3 levels thereafter, to a maximum bonus of +6 at 18th level.</p>
-<p>This replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the river rat archetype: <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/stand_up">stand up</Link> (<em>Combat Talents</em> group); <Link to="/talent/camouflage">camouflage</Link> (<em>Deception Talents</em> group); <Link to="/talent/hold_breath">hold breath</Link>, <Link to="/talent/strong_stroke">strong stroke</Link>, <Link to="/talent/survivalist">survivalist</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the river rat archetype: <Link to="/talent/opportunist">opportunist</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link> (<em>Combat Talents</em> group); <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-river_rat-swamper-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-river_rat-swamper-ex">Swamper (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">A river rat gains a bonus equal to half her rogue level on Swim checks (minimum +1). She takes no penalty on Acrobatics or Stealth checks for being in bogs and undergrowth.</Pair>
+<Pair title="Ability">A river rat ignores <Link to="/rule/difficult_terrain">difficult terrain</Link> caused by light undergrowth and shallow bogs, and it costs her only 2 squares of movement to enter a square of <Link to="/rule/deep_bog">deep bog</Link> or <Link to="/rule/heavy_undergrowth">heavy undergrowth</Link>, rather than 4 squares of movement.</Pair>
+<Pair title="Special">All of these abilities apply only when she is wearing light or no armor and carrying no more than a light load.</Pair>
+</Ability>
+<Ability id="arc-rogue-river_rat-rats-resilience-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-river_rat-rats-resilience-ex" flavor="A river rat is inured to dangers presented by disease-carrying parasites, poisonous fish, and other toxic river denizens.">Rat's Resilience (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Passive Ability">A river rat gains a bonus on saving throws against disease and poison effects. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/camouflage">Camouflage</Link>, <Link to="/talent/hold_breath">hold breath</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/stand_up">stand up</Link>, <Link to="/talent/strong_stroke">strong stroke</Link>, <Link to="/talent/survivalist">survivalist</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hide_in_plain_sight">Hide in plain sight</Link>, <Link to="/talent/opportunist">opportunist</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link></p></>};
 const _roof_runner = {title: "Roof Runner", jsx: <><h2 id="arc-rogue-roof_runner-roof-runner">Roof Runner</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 74</Link><br/>A specialized urban acrobat, the roof runner makes her home high atop the spires and gables of great cities. She is skilled at traveling these uneven surfaces at full speed, performing daring leaps and deftly balancing upon narrow and precarious ledges.</p>
-<p><strong>Roof Running (Ex):</strong> At 1st level, a roof runner becomes entirely adept at moving across the tops of buildings, spires, and similar locations. Provided she is wearing light armor or no armor, the roof runner can move at full speed while traveling across the tops of buildings or similar structures, and takes no penalties on any Dexterity-based Skill checks or Reflex saves that might be incurred from moving about on a roof.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Tumbling Descent (Ex):</strong> At 2nd level, a roof runner can use her acrobatics skill to attempt a rapid descent from a rooftop or another surface, ricocheting against another surface and then diving through an opening (such as a balcony or window) directly below. So long as she has at least two surfaces no farther than 10 feet apart to bounce against, she can ricochet her body back from one to the next, descending great distances with a single check. The DC is 10 + 5 for every additional 10-foot increment descended beyond the initial 10 feet dropped. If she fails, she falls the full distance.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the roof runner archetype: <Link to="/talent/stand_up">stand up</Link> (<em>Combat Talents</em> group); <Link to="/talent/terrain_mastery">terrain mastery</Link> (<em>Deception Talents</em> group); <Link to="/talent/expert_leaper">expert leaper</Link>, <Link to="/talent/ledge_walker">ledge walker</Link>, <Link to="/talent/nimble_climber">nimble climber</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talent</Link> complements the roof runner archetype: <Link to="/talent/fast_tumble">fast tumble</Link> (<em>Combat Talents</em> group).</p>
+<Ability id="arc-rogue-roof_runner-roof-running-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-roof_runner-roof-running-ex" flavor="A roof runner becomes entirely adept at moving across the tops of buildings, spires, and similar locations.">Roof Running (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">Provided she is wearing light armor or no armor, the roof runner can move at full speed while traveling across the tops of buildings or similar structures, and takes no penalties on any Dexterity-based Skill checks or Reflex saves that might be incurred from moving about on a roof.</Pair>
+</Ability>
+<Ability id="arc-rogue-roof_runner-tumbling-descent-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-roof_runner-tumbling-descent-ex">Tumbling Descent (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A roof runner can use her Acrobatics skill to attempt a rapid descent from a rooftop or another surface, ricocheting against another surface and then diving through an opening (such as a balcony or window) directly below. So long as she has at least two surfaces no farther than 10 feet apart to bounce against, she can ricochet her body back from one to the next, descending great distances with a single check. The DC is 10 + 5 for every additional 10-foot increment descended beyond the initial 10 feet dropped. If she fails, she falls the full distance.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/expert_leaper">Expert leaper</Link>, <Link to="/talent/ledge_walker">ledge walker</Link>, <Link to="/talent/nimble_climber">nimble climber</Link>, <Link to="/talent/stand_up">stand up</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link></p><p><strong className="hl">This advanced rogue talent complements this archetype:</strong> <Link to="/talent/fast_tumble">Fast tumble</Link></p>
 </>};
 const _rotdrinker = {title: "Rotdrinker", jsx: <><h2 id="arc-rogue-rotdrinker-rotdrinker">Rotdrinker</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 12</Link><br/>Poisons are common tools in a rogue's trade, and some poison-using rogues are so frequently exposed to these toxins that they have developed resistances to particular poisons. Known as rotdrinkers, these rogues purposefully consume poisons to augment their minds and bodies, though they do so at the expense of traditional roguish nimbleness. This archetype is appropriate for rogues built using the Core Rulebook as well for unchained rogues.</p>
-<p><strong>Poison Resistance (Ex):</strong> At 2nd level, a rotdrinker gains a +2 bonus on saving throws against all poisons. This bonus increases to +4 at 8th level.</p>
-<p>This replaces <strong className="hl">evasion</strong>.</p>
-<p><strong>Unnatural Ingestion (Ex):</strong> At 4th level, a rotdrinker gains immunity to all ingested poisons, including poisons that are converted to or considered ingested poisons (such as a poison converted to an ingested poison using the alchemist's poison conversion discovery).</p>
-<p>Further, when the rotdrinker ingests an ingested poison, she gains a number of temporary hit points equal to half her rogue level. These temporary hit points stack with temporary hit points from other effects, and they last until they are lost or for a number of rounds equal to the rotdrinker's rogue level, whichever comes first.</p>
-<p>Additionally, the rotdrinker gains benefits from the ingested poisons that she ingests depending on the poison's details, as explained below. A rotdrinker can gain hit points and additional benefits from only one ingested poison at a time. If she ingests another poison while she has temporary hit points and additional benefits from another poison, the previous temporary hit points and benefits are lost. At 8th level, the temporary hit points and additional benefits last for a number of minutes equal to the rotdrinker's rogue level.</p>
-<p>Ingested poisons provide an alchemical bonus equal to the number of consecutive saving throws required to cure the poison (for example, lich dust provides a +2 bonus). An ingested poison that affects Strength, Dexterity, or Constitution grants this bonus on the rotdrinker's damage rolls and Fortitude saving throws. An ingested poison that affects Intelligence, Wisdom, or Charisma instead grants this bonus on the rotdrinker's attack rolls and Will saving throws. An ingested poison that does not affect any ability scores (such as <Link to="/eq-poison/oil_of_taggit">oil of taggit</Link>) grants this bonus to the rotdrinker's AC. If an ingested poison falls into more than one of these categories, the rotdrinker chooses which benefit she receives at the time of ingestion.</p>
-<p>This replaces <strong className="hl">improved uncanny dodge</strong> and <strong className="hl">uncanny dodge</strong>.</p>
+<Ability id="arc-rogue-rotdrinker-poison-resistance-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-rotdrinker-poison-resistance-ex">Poison Resistance (Ex)</Pair>
+<Pair hl title="Replaces">Evasion</Pair>
+<Pair title="At 2nd Level">A rotdrinker gains a +2 bonus on saving throws against all poisons.</Pair>
+<Pair title="At 8th Level">This bonus increases to +4.</Pair>
+</Ability>
+<Ability id="arc-rogue-rotdrinker-unnatural-ingestion-ex" icon={["armor-upgrade","heart-plus","upgrade"]}>
+<Pair single id="arc-rogue-rotdrinker-unnatural-ingestion-ex">Unnatural Ingestion (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge, uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">A rotdrinker gains immunity to all ingested poisons, including poisons that are converted to or considered ingested poisons (such as a poison converted to an ingested poison using the alchemist's poison conversion discovery).</Pair>
+<Pair title="Ability"><p>Further, when the rotdrinker ingests an ingested poison, she gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to half her rogue level. These temporary hit points stack with temporary hit points from other effects, and they last until they are lost or for a number of rounds equal to the rotdrinker's rogue level, whichever comes first.</p>
+<p>Additionally, the rotdrinker gains benefits from the ingested poisons that she ingests depending on the poison's details, as explained below. A rotdrinker can gain hit points and additional benefits from only one ingested poison at a time. If she ingests another poison while she has temporary hit points and additional benefits from another poison, the previous temporary hit points and benefits are lost.</p>
+<p>Ingested poisons provide an alchemical bonus equal to the number of consecutive saving throws required to cure the poison (for example, <Link to="/eq-poison/lich_dust">lich dust</Link> provides a +2 bonus).</p>
+<ul>
+<li>An ingested poison that affects Strength, Dexterity, or Constitution grants this bonus on the rotdrinker's damage rolls and Fortitude saving throws.</li>
+<li>An ingested poison that affects Intelligence, Wisdom, or Charisma instead grants this bonus on the rotdrinker's attack rolls and Will saving throws.</li>
+<li>An ingested poison that does not affect any ability scores (such as <Link to="/eq-poison/oil_of_taggit">oil of taggit</Link>) grants this bonus to the rotdrinker's AC.</li>
+</ul>
+<p>If an ingested poison falls into more than one of these categories, the rotdrinker chooses which benefit she receives at the time of ingestion.</p>
+</Pair>
+<Pair title="At 8th Level">The temporary hit points and additional benefits last for a number of minutes equal to the rotdrinker's rogue level.</Pair>
+</Ability>
 </>};
 const _sanctified_rogue = {title: "Sanctified Rogue", jsx: <><h2 id="arc-rogue-sanctified_rogue-sanctified-rogue">Sanctified Rogue</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 74</Link><br/>The sanctified rogue serves a higher purpose, acting as a representative of a church or cult, or following the tenets of a specific faith or deity. While most sanctified rogues share the beliefs or ideals of the religions they represent, not all of them are necessarily pious. A handful of disreputable holy thieves serve purely as mercenaries. At the other end of spectrum, however, more sanctified rogues adhere to the tenets of their faith with fanatical devotion. Regardless, all seem blessed with the ability to call upon divine favor to aid them in times of need.</p>
-<p><strong>Divine Purpose (Su):</strong> At 4th level, the favor of a deity or religious institution grants a special blessing on a sanctified rogue, shoring up some of her weaknesses. She gains a +1 sacred bonus on Fortitude and Will saving throws.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Divine Epiphany (Su):</strong> At 8th level, once per day, a sanctified rogue can peer into the immediate future and predict the results of a specific action as if she had cast an <Link to="/spell/augury">augury</Link> spell. The caster level of this spell is equal to the sanctified rogue's rogue class level.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the sanctified rogue archetype: <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link> (<em>Spellcasting Talents</em> group); <Link to="/talent/esoteric_scholar">esoteric scholar</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the sanctified rogue archetype: <Link to="/talent/feat">feat</Link>, <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-sanctified_rogue-divine-purpose-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-sanctified_rogue-divine-purpose-su" flavor="The favor of a deity or religious institution grants a special blessing on a sanctified rogue, shoring up some of her weaknesses.">Divine Purpose (Su)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">She gains a +1 sacred bonus on Fortitude and Will saving throws.</Pair>
+</Ability>
+<Ability id="arc-rogue-sanctified_rogue-divine-epiphany-su" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-sanctified_rogue-divine-epiphany-su">Divine Epiphany (Su)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Once per day, a sanctified rogue can peer into the immediate future and predict the results of a specific action as if she had cast an <Link to="/spell/augury">augury</Link> spell. The caster level of this spell is equal to the sanctified rogue's rogue class level.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/esoteric_scholar">Esoteric scholar</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/feat">Feat</Link>, <Link to="/talent/skill_mastery">skill mastery</Link></p></>};
 const _sapper = {title: "Sapper", jsx: <><h2 id="arc-rogue-sapper-sapper">Sapper</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 21</Link><br/>The sapper is a trained siege engineer and can deal with traps and other obstacles given plenty of time.</p>
-<p><strong>Destructive Dismantle (Ex):</strong> A sapper is able to quickly breach obstacles. Using a combination of engineering, explosives, alchemical reagents, and sheer bloodymindedness, she can deal up to 10 points of damage per sapper level upon an object once per day, ignoring the object's hardness. She might crack open a stone wall with an explosive charge, or collapse a ceiling by tunneling through its supports. This ability requires 1d4+1 hours of preparation, so it can be used only on immobile and unresisting objects.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Sapping (Ex):</strong> At 2nd level, a sapper gains a +4 bonus on Perception or Disable Device checks to find or disable traps. She also grants a +4 bonus when using the aid another action to assist with Strength checks to lift gates, bend bars, or force open doors. However, the sapper is focused, so it takes her a full-round action to complete any aid another action.</p>
-<p>This ability replaces her 2nd-level <strong className="hl">rogue talent</strong>.</p>
-<p><strong>Fence (Ex):</strong> At 4th level, a sapper loots a dungeon or other adventuring complex of its mundane goods and sells them to her various contacts. These mundane goods include things like brass fittings, stewpots, scrap metal, and so on. The sapper automatically loots this junk while in the dungeon, and must spend 24 uninterrupted hours selling the objects in town. She shares a portion of the proceeds with the adventurers; the amount typically equals 1d10 gp per sapper level per dungeon.</p>
-<p>This ability replaces her 4th-level <strong className="hl">rogue talent</strong>.</p>
+<Ability id="arc-rogue-sapper-destructive-dismantle-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-sapper-destructive-dismantle-ex" flavor="A sapper is able to quickly breach obstacles.">Destructive Dismantle (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Usage">Once a day</Pair>
+<Pair title="Ability">Using a combination of engineering, explosives, alchemical reagents, and sheer bloody-mindedness, she can deal up to 10 points of damage per sapper level upon an object, ignoring the object's hardness. She might crack open a stone wall with an explosive charge, or collapse a ceiling by tunneling through its supports.</Pair>
+<Pair title="Special">This ability requires 1d4+1 hours of preparation, so it can be used only on immobile and unresisting objects.</Pair>
+</Ability>
+<Ability id="arc-rogue-sapper-sapping-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-sapper-sapping-ex">Sapping (Ex)</Pair>
+<Pair hl title="Replaces">2nd-level rogue talent</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">A sapper gains a +4 bonus on Perception or Disable Device checks to find or disable traps.</Pair>
+<Pair title="Ability">She also grants a +4 bonus when using the <Link to="/rule/aid_another">aid another</Link> action to assist with <Link to="/rule/strength">Strength</Link> checks to lift gates, bend bars, or force open doors. However, the sapper is focused, so it takes her a <strong className="hl">full-round action</strong> to complete any aid another action.</Pair>
+</Ability>
+<Ability id="arc-rogue-sapper-fence-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-sapper-fence-ex">Fence (Ex)</Pair>
+<Pair hl title="Replaces">4th-level rogue talent</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A sapper loots a dungeon or other adventuring complex of its mundane goods and sells them to her various contacts. These mundane goods include things like brass fittings, stewpots, scrap metal, and so on. The sapper automatically loots this junk while in the dungeon, and must spend 24 uninterrupted hours selling the objects in town. She shares a portion of the proceeds with the adventurers; the amount typically equals 1d10 gp per sapper level per dungeon.</Pair>
+</Ability>
 </>};
 const _scout = {title: "Scout", jsx: <><h2 id="arc-rogue-scout-scout">Scout</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 134</Link><br/>Not all rogues live in the city. Scouts frequently roam the wilderness, often banding together as bandits, but sometimes serving as guides, as trailblazers, or as companions to a ranger or barbarian warrior. More comfortable with sneaking and hiding outdoors, the scout is still effective in the city and the dungeon.</p>
-<p><strong>Scout's Charge (Ex):</strong> At 4th level, whenever a scout makes a charge, her attack deals sneak attack damage as if the target were flat-footed. Foes with uncanny dodge are immune to this ability.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Skirmisher (Ex):</strong> At 8th level, whenever a scout moves more than 10 feet in a round and makes an attack action, the attack deals sneak attack damage as if the target was flat-footed. If the scout makes more than one attack this turn, this ability only applies to the first attack. Foes with uncanny dodge are immune to this ability.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the scout archetype: <Link to="/talent/assault_leader">assault leader</Link> (<em>Ally-Related Talents</em> group); <Link to="/talent/cunning_trigger">cunning trigger</Link>, <Link to="/talent/trap_spotter">trap spotter</Link> (<em>Trap Talents</em> group); <Link to="/talent/camouflage">camouflage</Link> (<em>Deception Talents</em> group); <Link to="/talent/survivalist">survivalist</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the scout archetype: <Link to="/talent/hunters_surprise">hunter's surprise</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link> (<em>Combat Talents</em> group); <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-scout-scouts-charge-ex" icon={["mailed-fist"]}>
+<Pair single id="arc-rogue-scout-scouts-charge-ex">Scout's Charge (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">Whenever a scout makes a <Link to="/rule/charge">charge</Link>, her attack deals sneak attack damage as if the target were <Link to="/rule/flat_footed">flat-footed</Link>. Foes with <em>uncanny dodge</em> are immune to this ability.</Pair>
+</Ability>
+<Ability id="arc-rogue-scout-skirmisher-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-scout-skirmisher-ex">Skirmisher (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Whenever a scout moves more than 10 feet in a round and makes an attack action, the attack deals sneak attack damage as if the target was flat-footed. If the scout makes more than one attack this turn, this ability only applies to the first attack. Foes with <em>uncanny dodge</em> are immune to this ability.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/assault_leader">Assault leader</Link>, <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/cunning_trigger">cunning trigger</Link>, <Link to="/talent/survivalist">survivalist</Link>, <Link to="/talent/trap_spotter">trap spotter</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hunters_surprise">Hunter's surprise</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link></p></>};
 const _scroll_scoundrel = {title: "Scroll Scoundrel", jsx: <><h2 id="arc-rogue-scroll_scoundrel-scroll-scoundrel">Scroll Scoundrel</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 27</Link><br/>The scroll scoundrel is a rogue archetype that relies on cunning and quick wits to stay alive. He excels in exploiting overconfidence and predictability, using knowledge he's gained from his extensive research and field experience combined with hearsay and recent observations to react to problems as soon as they arise with swift but unnaturally accurate guesswork. A scroll scoundrel is often called upon by the Pathfinders to undertake missions where killing a foe isn't nearly as important as humiliating them in public duels or similar conflicts. A scroll scoundrel has the following class features.</p>
-<p><strong>Fast Talker (Ex):</strong> At 2nd level, a scroll scoundrel's penalty on Bluff checks that are unlikely, farfetched, or impossible to achieve is reduced by 5. When he makes a Diplomacy check to adjust a creature's starting attitude, he gains a +3 competence bonus on the skill check.</p>
-<p>This ability replaces the rogue's 2nd-level <strong className="hl">rogue talent</strong>.</p>
-<p><strong>Adaptive Learning (Ex):</strong> At 3rd level, a scroll scoundrel gains a +1 bonus on saving throws against abilities and spells he has already successfully saved against within the past minute (even if the spells or abilities in question were used by different creatures). This bonus increases by +1 when the scroll scoundrel reaches 6th level, and by an additional +1 for every three levels thereafter, to a maximum of +6 at 18th level.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Pay it Back (Ex):</strong> At 4th level, a scroll scoundrel receives a +1 bonus on attack rolls and weapon damage rolls against foes who made melee attacks against him in the previous round. This bonus increases to +2 at 10th level.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Elusive Gambit (Ex):</strong> At 6th level, a scroll scoundrel's movement can leave a foe off-balance. If a scroll scoundrel provokes an attack of opportunity by moving past an opponent and that opponent then misses with the attack, that foe is considered to be flat-footed against the scroll scoundrel's next melee attack, provided that melee attack comes within 1 round of the missed attack of opportunity.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Spot Weakness (Ex):</strong> At 10th level, a scroll scoundrel can discover a weakness in his enemy's defenses as a swift action. His next successful hit in the same round ignores 5 points of the foe's damage reduction or hardness. At 15th level, he ignores the first 10 points, and at 20th level, the first 15 points. If the attack deals any sneak attack damage, he ignores all of the foe's damage reduction or hardness for that attack. He cannot use this ability on foes that are immune to critical hits.</p>
-<p>This ability replaces the scroll scoundrel's 10th-level <strong className="hl">rogue talent</strong>.</p>
+<Ability id="arc-rogue-scroll_scoundrel-fast-talker-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-scroll_scoundrel-fast-talker-ex">Fast Talker (Ex)</Pair>
+<Pair hl title="Replaces">2nd-level rogue talent</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">A scroll scoundrel's penalty on Bluff checks that are unlikely, farfetched, or impossible to achieve is reduced by 5. When he makes a Diplomacy check to adjust a creature's starting attitude, he gains a +3 competence bonus on the skill check.</Pair>
+</Ability>
+<Ability id="arc-rogue-scroll_scoundrel-adaptive-learning-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-scroll_scoundrel-adaptive-learning-ex">Adaptive Learning (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">A scroll scoundrel gains a bonus on saving throws against abilities and spells he has already successfully saved against within the past minute (even if the spells or abilities in question were used by different creatures). This bonus is equal to <Link to="/misc/one_third">one-third</Link> of his rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-scroll_scoundrel-pay-it-back-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-scroll_scoundrel-pay-it-back-ex">Pay it Back (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="At 4th Level">A scroll scoundrel receives a +1 bonus on attack rolls and weapon damage rolls against foes who made melee attacks against him in the previous round.</Pair>
+<Pair title="At 10th Level">This bonus increases to +2.</Pair>
+</Ability>
+<Ability id="arc-rogue-scroll_scoundrel-elusive-gambit-ex" icon={["mailed-fist"]}>
+<Pair single id="arc-rogue-scroll_scoundrel-elusive-gambit-ex" flavor="A scroll scoundrel's movement can leave a foe off-balance.">Elusive Gambit (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">If a scroll scoundrel provokes an attack of opportunity by moving past an opponent and that opponent then misses with the attack, that foe is considered to be <Link to="/rule/flat_footed">flat-footed</Link> against the scroll scoundrel's next melee attack, provided that melee attack comes within 1 round of the missed attack of opportunity.</Pair>
+</Ability>
+<Ability id="arc-rogue-scroll_scoundrel-spot-weakness-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-scroll_scoundrel-spot-weakness-ex">Spot Weakness (Ex)</Pair>
+<Pair hl title="Replaces">10th-level rogue talent</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Swift Action">A scroll scoundrel can discover a weakness in his enemy's defenses. His next successful hit in the same round ignores 5 points of the foe's damage reduction or hardness.</Pair>
+<Pair title="At 15th Level">He ignores the first 15 points of DR or hardness.</Pair>
+<Pair title="At 20th Level">He ignores the first 20 points of DR or hardness.</Pair>
+<Pair title="Special">If the attack deals any sneak attack damage, he ignores all of the foe's damage reduction or hardness for that attack. He cannot use this ability on foes that are immune to critical hits.</Pair>
+</Ability>
 </>};
 const _sczarni_swindler = {title: "Sczarni Swindler", jsx: <><h2 id="arc-rogue-sczarni_swindler-sczarni-swindler">Sczarni Swindler</h2>
 <p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 13</Link><br/>If life is a game, the Sczarni play to win. When skill and luck aren't enough, cheating is often the best option.</p>
-<p><strong>Let Fate Decide (Ex):</strong> At 1st level, the Sczarni swindler can declare two different actions that rely on different types of rolls or checks, such as attacking a creature (an attack roll) or sneaking past the same creature (a Stealth check). As a standard action, the swindler then uses a random method to choose one of the declared activities, such as flipping a coin, rolling a die, or drawing a harrow card. The specific method doesn't matter as long as there is an equal chance of either activity being chosen. If the swindler then performs the chosen activity within the next round, she gains a luck bonus on the roll type required for that activity - attack rolls with a specific weapon, a specific skill check, a specific ability check, or a specific saving throw - equal to half her rogue level (minimum +1) for 1 minute. If the swindler performs any other action (whether declared or not) in the round after using this ability, she becomes shaken for 1 minute instead. The swindler can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Quicker Than the Eye (Ex):</strong> At 2nd level, when the Sczarni swindler uses Sleight of Hand, creatures take a penalty on their Perception checks equal to half the swindler's class level to notice the attempt. The swindler also reduces the normal -20 penalty by an amount equal to her class level when attempting a Sleight of Hand check as a move action instead of as a standard action. Lastly, the swindler can draw hidden weapons or objects from her person as a move action instead of the usual standard action.</p>
-<p>This ability replaces <strong className="hl">evasion</strong>.</p>
-<p><strong>Poker Face (Ex):</strong> At 3rd level, the Sczarni swindler gains a +1 bonus on Bluff, Profession (gambler), and Sense Motive checks. This bonus increases by 1 for every 3 levels beyond 3rd. The Sczarni swindler can also attempt to feint against non-humanoid targets without penalty, though she still takes a -8 penalty on feint attempts against creatures with animal intelligence and she cannot feint against mindless creatures.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>No Fool (Ex):</strong> At 4th level, the Sczarni swindler gains a +1 bonus on Will saving throws. This bonus increases by 1 for every 4 levels beyond 4th (to a maximum of +5 at 20th level).</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Cheat Fate (Ex):</strong> At 8th level, once per day, the Sczarni swindler can reroll any one d20 roll she has just made before the GM has revealed the result. She must take the result of the second roll, even if it is worse. The swindler can use this ability twice per day at 14th level, and three times per day at 20th.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the Sczarni swindler archetype: <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link> (<em>Spellcasting Talents</em> group); <Link to="/talent/canny_observer">canny observer</Link> (<em>Trap Talents</em> group); <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/honeyed_words">honeyed words</Link> (<em>Deception Talents</em> group); <Link to="/talent/hard_to_fool">hard to fool</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the Sczarni swindler archetype: <Link to="/talent/slippery_mind">slippery mind</Link> (<em>Magical Talents</em> group); <Link to="/talent/master_of_disguise">master of disguise</Link>, <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-sczarni_swindler-let-fate-decide-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-rogue-sczarni_swindler-let-fate-decide-ex">Let Fate Decide (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">The Sczarni swindler can declare two different actions that rely on different types of rolls or checks, such as attacking a creature (an attack roll) or sneaking past the same creature (a Stealth check). As a <strong className="hl">standard action</strong>, the swindler then uses a random method to choose one of the declared activities, such as flipping a coin, rolling a die, or drawing a harrow card. The specific method doesn't matter as long as there is an equal chance of either activity being chosen. If the swindler then performs the chosen activity within the next round, she gains a luck bonus on the roll type required for that activity - attack rolls with a specific weapon, a specific skill check, a specific ability check, or a specific saving throw - equal to half her rogue level (minimum +1) for 1 minute.</Pair>
+<Pair title="Special">If the swindler performs any other action (whether declared or not) in the round after using this ability, she becomes <Link to="/misc/shaken">shaken</Link> for 1 minute instead.</Pair>
+</Ability>
+<Ability id="arc-rogue-sczarni_swindler-quicker-than-the-eye-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-rogue-sczarni_swindler-quicker-than-the-eye-ex">Quicker Than the Eye (Ex)</Pair>
+<Pair hl title="Replaces">Evasion</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">When the Sczarni swindler uses Sleight of Hand, creatures take a penalty on their Perception checks equal to half the swindler's class level to notice the attempt. The swindler also reduces the normal -20 penalty by an amount equal to her class level when attempting a <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check as a move action instead of as a standard action. Lastly, the swindler can draw hidden weapons or objects from her person as a <strong className="hl">move action</strong> instead of the usual standard action.</Pair>
+</Ability>
+<Ability id="arc-rogue-sczarni_swindler-poker-face-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-rogue-sczarni_swindler-poker-face-ex">Poker Face (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">The Sczarni swindler gains a bonus on Bluff, Profession (gambler), and Sense Motive checks equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+<Pair title="Ability">The Sczarni swindler can also attempt to feint against non-humanoid targets without penalty, though she still takes a -8 penalty on feint attempts against creatures with animal intelligence and she cannot feint against mindless creatures.</Pair>
+</Ability>
+<Ability id="arc-rogue-sczarni_swindler-no-fool-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-sczarni_swindler-no-fool-ex">No Fool (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">The Sczarni swindler gains a bonus on Will saving throws equal to one-fourth of her rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-sczarni_swindler-cheat-fate-ex" icon={["rolling-dices"]}>
+<Pair single id="arc-rogue-sczarni_swindler-cheat-fate-ex">Cheat Fate (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="At 8th Level">Once per day, the Sczarni swindler can reroll any one d20 roll she has just made before the GM has revealed the result. She must take the result of the second roll, even if it is worse.</Pair>
+<Pair title="At 14th Level">The swindler can use this ability twice per day.</Pair>
+<Pair title="At 20th Level">She can use this ability three times per day.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/canny_observer">Canny observer</Link>, <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/hard_to_fool">hard to fool</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/master_of_disguise">Master of disguise</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/slippery_mind">slippery mind</Link></p></>};
 const _seeker_of_the_lost = {title: "Seeker of the Lost", jsx: <><h2 id="arc-rogue-seeker_of_the_lost-seeker-of-the-lost">Seeker of the Lost</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 5</Link><br/>Aquatic elven adventurers descending into the ruins of sunken Azlant developed techniques to ease their explorations, and they now share these techniques among a loose group of acquaintances calling themselves the seekers of the lost. These aquatic elves eagerly explore trap-laden ruins of all types, using their skills to bypass traps and dispatch animated guardians put in place long ago by the lost cities' original founders. These seekers rarely travel far inland, though they may journey to larger landlocked bodies of water, such as Lake Encarthan, to explore submerged ruins there.</p>
 <p><strong>Arcana Breaker (Su):</strong> Typically, only magical traps survive for long periods underwater, so a seeker of the lost specializes in noticing and disarming such traps. At 3rd level, a seeker of the lost gains a +1 competence bonus on Perception checks to notice magical traps and on Disable Device checks to disarm magical traps. This bonus increases by an additional +1 every 3 levels beyond 3rd (to a maximum of +6 at 18th level).</p>
