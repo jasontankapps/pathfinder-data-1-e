@@ -150,20 +150,20 @@ const Fab: FC<{color: Color, id: string, func: () => void}> = ({color, id, func}
 type Params = { id: string };
 
 const blank: [string, string][] = [];
+const defaultData = { color: "red", title: "(error)", contents: blank };
+const defaultTitle = "Bookmarks";
 
 const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	const [doAlert] = useIonAlert();
 	const [scrollObj, setScrollObj] = useState<HTMLIonContentElement | null>(null);
 	const data = useAppSelector(state => state.bookmarks.db[id]);
-	const {color, title, contents} = data || { color: "red", title: "(error)", contents: blank };
-	const [alert] = useIonAlert();
+	const {color, title, contents} = data || defaultData;
 
 	const [disabled, setDisabled] = useState(true);
 	const [openChangeColorModal, setOpenChangeColorModal] = useState(false);
 	const [newColor, setNewColor] = useState<Color>("red");
 	const getPageName = usePageName();
 	const dispatch = useAppDispatch();
-	const defaultTitle = "Bookmarks";
 	const [possiblyUnsavedTitle, setPossiblyUnsavedTitle] = useState(title);
 
 	const [inputElement, inputRef] = useElement<HTMLIonInputElement>();
@@ -261,25 +261,26 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	}
 
 	const maybeCloseColorModal = () => {
-		if(newColor !== color) {
-			return alert({
-				header: "Unsaved Work",
-				message: "You haven't saved your new color choice. Are you sure you want to cancel?",
-				cssClass: "cancelModal",
-				buttons: [{
-					text: "Yes, Cancel",
-					role: "destructive",
-					handler: () => {
-						setOpenChangeColorModal(false);
-					},
-					cssClass: "dangerous"
-				}, {
-					text: "No, Go Back",
-					role: "cancel"
-				}]
-			});
+		if(newColor === color) {
+			// Ok to close.
+			return setOpenChangeColorModal(false);
 		}
-		setOpenChangeColorModal(false);
+		doAlert({
+			header: "Unsaved Work",
+			message: "You haven't saved your new color choice. Are you sure you want to cancel?",
+			cssClass: "cancelModal",
+			buttons: [{
+				text: "Yes, Cancel",
+				role: "destructive",
+				handler: () => {
+					setOpenChangeColorModal(false);
+				},
+				cssClass: "dangerous"
+			}, {
+				text: "No, Go Back",
+				role: "cancel"
+			}]
+		});
 	};
 
 	return (
