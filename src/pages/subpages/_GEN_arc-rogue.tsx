@@ -1396,111 +1396,271 @@ const _sczarni_swindler = {title: "Sczarni Swindler", jsx: <><h2 id="arc-rogue-s
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/canny_observer">Canny observer</Link>, <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/hard_to_fool">hard to fool</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/master_of_disguise">Master of disguise</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/slippery_mind">slippery mind</Link></p></>};
 const _seeker_of_the_lost = {title: "Seeker of the Lost", jsx: <><h2 id="arc-rogue-seeker_of_the_lost-seeker-of-the-lost">Seeker of the Lost</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 5</Link><br/>Aquatic elven adventurers descending into the ruins of sunken Azlant developed techniques to ease their explorations, and they now share these techniques among a loose group of acquaintances calling themselves the seekers of the lost. These aquatic elves eagerly explore trap-laden ruins of all types, using their skills to bypass traps and dispatch animated guardians put in place long ago by the lost cities' original founders. These seekers rarely travel far inland, though they may journey to larger landlocked bodies of water, such as Lake Encarthan, to explore submerged ruins there.</p>
-<p><strong>Arcana Breaker (Su):</strong> Typically, only magical traps survive for long periods underwater, so a seeker of the lost specializes in noticing and disarming such traps. At 3rd level, a seeker of the lost gains a +1 competence bonus on Perception checks to notice magical traps and on Disable Device checks to disarm magical traps. This bonus increases by an additional +1 every 3 levels beyond 3rd (to a maximum of +6 at 18th level).</p>
-<p>This ability replaces the 2nd-level <strong className="hl">rogue talent</strong>.</p>
-<p><strong>Underwater Striker (Ex):</strong> At 4th level, a seeker of the lost gains the ability to strike precisely underwater. When a seeker of the lost makes a sneak attack with a melee weapon, the damage is not halved for being made underwater, as is usually the case for attacks that deal slashing or bludgeoning damage or, if the rogue is <Link to="/rule/underwater_combat">off-balance</Link>, attacks that deal piercing damage. In addition, when a seeker of the lost makes a sneak attack with a melee weapon against a construct, she ignores any hardness the construct has.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Wary Disarm (Ex):</strong> At 8th level, whenever a seeker of the lost attempts to disarm a trap using Disable Device, she does not spring the trap unless she fails by an amount equal to her rogue level or more. If she does set off a trap she was attempting to disarm, she doubles her trap sense bonus to avoid the trap.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the seeker of the lost archetype: <Link to="/talent/canny_observer">canny observer</Link>, <Link to="/talent/trap_spotter">trap spotter</Link> (<em>Trap Talents</em> group); <Link to="/talent/terrain_mastery">terrain mastery</Link> [water] (<em>Deception Talents</em> group); <Link to="/talent/strong_stroke">strong stroke</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the seeker of the lost archetype: <Link to="/talent/dispelling_attack">dispelling attack</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/defensive_roll">defensive roll</Link> (<em>Combat Talents</em> group); <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link> [water] (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-seeker_of_the_lost-arcana-breaker-su" icon={["upgrade"]}>
+<Pair single id="arc-rogue-seeker_of_the_lost-arcana-breaker-su" flavor="Typically, only magical traps survive for long periods underwater, so a seeker of the lost specializes in noticing and disarming such traps.">Arcana Breaker (Su)</Pair>
+<Pair hl title="Replaces">2nd-level rogue talent</Pair>
+<Pair title="At 3rd Level">A seeker of the lost gains a competence bonus on Perception checks to notice magical traps and on Disable Device checks to disarm magical traps. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-seeker_of_the_lost-underwater-striker-ex" icon={["mailed-fist"]}>
+<Pair single id="arc-rogue-seeker_of_the_lost-underwater-striker-ex" flavor="A seeker of the lost gains the ability to strike precisely underwater.">Underwater Striker (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">When a seeker of the lost makes a sneak attack with a melee weapon, the damage is not halved for <Link to="/rule/physical_attacks_underwater">being made underwater</Link>, as is usually the case for attacks that deal slashing or bludgeoning damage or, if the rogue is <Link to="/rule/off_balance">off-balance</Link>, attacks that deal piercing damage.</Pair>
+<Pair title="Special">In addition, when a seeker of the lost makes a sneak attack with a melee weapon against a construct, she ignores any hardness the construct has.</Pair>
+</Ability>
+<Ability id="arc-rogue-seeker_of_the_lost-wary-disarm-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-seeker_of_the_lost-wary-disarm-ex">Wary Disarm (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Whenever a seeker of the lost attempts to disarm a trap using Disable Device, she does not spring the trap unless she fails by an amount equal to her rogue level or more.</Pair>
+<Pair title="Special">If she does set off a trap she was attempting to disarm, she doubles her <em>trap sense</em> bonus to avoid the trap.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/canny_observer">Canny observer</Link>, <Link to="/talent/strong_stroke">strong stroke</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link> (water), <Link to="/talent/trap_spotter">trap spotter</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/defensive_roll">Defensive roll</Link>, <Link to="/talent/dispelling_attack">dispelling attack</Link>, <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link> (water)</p></>};
 const _shadow_scion = {title: "Shadow Scion", jsx: <><h2 id="arc-rogue-shadow_scion-shadow-scion">Shadow Scion</h2>
-<p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 15</Link><br/>Count Ranalc's worshipers congregate in the places between dark and light, searching for secrets that might one day free their patron from his mysterious exile. Shadow scions have learned some of these secrets and draw power from the shadows themselves. Many shadow scions are dedicated <Link to="/race/fetchling">fetchling</Link> or <Link to="/race/wayang">wayang</Link> devotees of Count Ranalc.</p>
-<p><strong>Shadow Dweller (Ex):</strong> A shadow scion gains darkvision with a range of 30 feet and a +1 competence bonus on Stealth checks in <Link to="/rule/dim_light">dim light</Link> and darkness. If she already has darkvision, the range of her darkvision increases by 10 feet. At 3rd level, and every 2 levels thereafter, the range of her darkvision increases by 10 feet and her bonus on Stealth checks increases by 1.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Shadow Strike:</strong> At 2nd level, a shadow scion gains <Link to="/feat/shadow_strike">Shadow Strike</Link> as a bonus feat. A character using the unchained rogue class instead gains <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 2nd level.</p>
-<p><strong>Shadow Step (Sp):</strong> At 8th level, a shadow scion can walk through the Shadow Plane and reappear elsewhere on the Material Plane as a standard action. The shadow scion can travel up to 30 feet per rogue level per day in this fashion, either in a single round or broken up across multiple shadow steps. This movement must be used in increments of at least 5 feet and does not provoke attacks of opportunity. Travel through the Shadow Plane is imprecise; when the shadow scion arrives back on the Material Plane, she reenters 1 square off target, as per the rules for <Link to="/rule/throw_splash_weapon">thrown splash weapons</Link>. If this would place her in an occupied square, she instead arrives in the nearest safe location. When the shadow scion arrives on the Material Plane, she is cloaked in shadow and gains concealment as per the <Link to="/spell/blur">blur</Link> spell for 1 round.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 8th level.</p>
-<p><strong>Shadow Speaker (Sp):</strong> At 14th level, a shadow scion can spend 1 minute meditating within a patch of dim light or darkness; at the end of the time, she can draw information from the shadows. This functions as <Link to="/spell/commune_with_nature">commune with nature</Link>, except that it functions in any terrain to a radius of 100 feet per rogue level, and it cannot reveal information about any object or subject that is not currently in dim light or darkness. The shadow scion can use this ability once per day at 14th level and twice per day at 19th level.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 14th level.</p>
-<p><strong>Shadow Master (Su):</strong> At 20th level, whenever a shadow scion is in an area of dim light, she gains DR 10/cold iron and a +2 luck bonus on all saving throws. In addition, whenever she confirms a critical hit against a foe that is in an area of dim light, that foe is blinded for 1d6 rounds.</p>
-<p>This ability replaces <strong className="hl">master strike</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the shadow scion archetype: <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/underhanded">underhanded</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/surprise_attack">surprise attack</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/false_friend">false friend</Link>, <Link to="/talent/fast_stealth">fast stealth</Link> (<em>Deception Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the shadow walker archetype: <Link to="/talent/slippery_mind">slippery mind</Link> (<em>Magical Talents</em> group); <Link to="/talent/improved_evasion">improved evasion</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link> (<em>Combat Talents</em> group); <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link> (<em>Other Talents</em> group).</p>
-</>};
+<p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 15</Link><br/>Count Ranalc's worshipers congregate in the places between dark and light, searching for secrets that might one day free their patron from his mysterious exile. Shadow scions have learned some of these secrets and draw power from the shadows themselves. Many shadow scions are dedicated <Link to="/race/fetchling">fetchling</Link> or <Link to="/race/wayang">wayang</Link> devotees of <Link to="/faith/count_ranalc">Count Ranalc</Link>.</p>
+<Ability id="arc-rogue-shadow_scion-shadow-dweller-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-rogue-shadow_scion-shadow-dweller-ex">Shadow Dweller (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="At 1st Level">A shadow scion gains darkvision with a range of 30 feet and a +1 competence bonus on Stealth checks in <Link to="/rule/dim_light">dim light</Link> and darkness. If she already has darkvision, the range of her darkvision increases by 10 feet.</Pair>
+<Pair title="At 3rd Level">Her darkvision's range increases by 10 feet, and her Stealth bonus becomes +2.</Pair>
+<Pair title="At 5th Level">Her darkvision's range increases by 10 feet, and her Stealth bonus increases to +3.</Pair>
+<Pair title="At 7th Level">Her darkvision's range increases by 10 feet, and her Stealth bonus becomes +4.</Pair>
+<Pair title="At 9th Level">Her darkvision's range increases by 10 feet, and her Stealth bonus increases to +5.</Pair>
+<Pair title="At 11th Level">Her darkvision's range increases by 10 feet, and her Stealth bonus becomes +6.</Pair>
+<Pair title="At 13th Level">Her darkvision's range increases by 10 feet, and her Stealth bonus increases to +7.</Pair>
+<Pair title="At 15th Level">Her darkvision's range increases by 10 feet, and her Stealth bonus becomes +8.</Pair>
+<Pair title="At 17th Level">Her darkvision's range increases by 10 feet, and her Stealth bonus increases to +9.</Pair>
+<Pair title="At 19th Level">Her darkvision's range increases by 10 feet, and her Stealth bonus becomes +10.</Pair>
+</Ability>
+<Ability id="arc-rogue-shadow_scion-shadow-strike" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-shadow_scion-shadow-strike">Shadow Strike</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 2nd level</Pair>
+<Pair title="At 2nd Level">A shadow scion gains <Link to="/feat/shadow_strike">Shadow Strike</Link> as a bonus feat. A character using the unchained rogue class instead gains <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-rogue-shadow_scion-shadow-step-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-shadow_scion-shadow-step-sp">Shadow Step (Sp)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 8th level</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Standard Action">A shadow scion can walk through the Shadow Plane and reappear elsewhere on the Material Plane. The shadow scion can travel up to 30 feet per rogue level per day in this fashion, either in a single round or broken up across multiple shadow steps. This movement must be used in increments of at least 5 feet and does not provoke attacks of opportunity.</Pair>
+<Pair title="Special">Travel through the Shadow Plane is imprecise; when the shadow scion arrives back on the Material Plane, she reenters 1 square off target, as per the rules for <Link to="/rule/throw_splash_weapon">thrown splash weapons</Link>. If this would place her in an occupied square, she instead arrives in the nearest safe location. When the shadow scion arrives on the Material Plane, she is cloaked in shadow and gains <Link to="/rule/concealment">concealment</Link> as per the <Link to="/spell/blur">blur</Link> spell for 1 round.</Pair>
+</Ability>
+<Ability id="arc-rogue-shadow_scion-shadow-speaker-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-shadow_scion-shadow-speaker-sp">Shadow Speaker (Sp)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 14th level</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Ability">Once per day, a shadow scion can spend 1 minute meditating within a patch of dim light or darkness; at the end of the time, she can draw information from the shadows. This functions as <Link to="/spell/commune_with_nature">commune with nature</Link>, except that it functions in any terrain to a radius of 100 feet per rogue level, and it cannot reveal information about any object or subject that is not currently in dim light or darkness.</Pair>
+<Pair title="At 19th Level">The shadow scion can use this ability twice per day.</Pair>
+</Ability>
+<Ability id="arc-rogue-shadow_scion-shadow-master-su" icon={["armor-upgrade","armor-downgrade"]}>
+<Pair single id="arc-rogue-shadow_scion-shadow-master-su">Shadow Master (Su)</Pair>
+<Pair hl title="Replaces">Master strike</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">Whenever a shadow scion is in an area of dim light, she gains DR 10/cold iron and a +2 luck bonus on all saving throws.</Pair>
+<Pair title="Ability">In addition, whenever she confirms a critical hit against a foe that is in an area of dim light, that foe is <Link to="/misc/blinded">blinded</Link> for 1d6 rounds.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/false_friend">False friend</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/underhanded">underhanded</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hide_in_plain_sight">Hide in plain sight</Link>, <Link to="/talent/improved_evasion">improved evasion</Link>, <Link to="/talent/slippery_mind">slippery mind</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _shadow_walker = {title: "Shadow Walker", jsx: <><h2 id="arc-rogue-shadow_walker-shadow-walker">Shadow Walker</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_shadows">Blood of Shadows pg. 9</Link><br/>Shadow walkers are comfortable in light, darkness, and the shadows in between. Fetchling rogues naturally gravitate toward becoming shadow walkers, but shadow walkers exist among other creatures both above and below the surface.</p>
-<p><strong>Expanded Sight (Su):</strong> At 1st level, a shadow walker gains darkvision with a range of 30 feet. If she already has darkvision, the range of her darkvision increases by 10 feet. When the shadow walker reaches 3rd level, and every 2 rogue levels thereafter, the range of her darkvision increases by 10 feet. Also at 3rd level, the shadow walker loses the light sensitivity weakness, if she has it. If she has light blindness, she instead treats it as light sensitivity.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Illumination Control (Sp):</strong> At 3rd level, a shadow walker can manipulate nearby illumination. At the start of each day, a shadow walker gains a number of illumination points equal to half her rogue level and can spend illumination points to use certain spell-like abilities. As long as she has at least 1 illumination point, she can cast <Link to="/spell/light">light</Link> at will. She can spend 2 illumination points to cast <Link to="/spell/darkness">darkness</Link>, and 3 illumination points to cast <Link to="/spell/daylight">daylight</Link>, <Link to="/spell/deeper_darkness">deeper darkness</Link>, or <Link to="/spell/motes_of_dusk_and_dawn">motes of dusk and dawn</Link>. These spell-like abilities have a caster level equal to the shadow walker's rogue level. Using these spell-like abilities does not hamper the shadow walker's vision; for example, she can see through the deeper darkness she creates, and does not take penalties for light sensitivity in the area of her own daylight.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 2nd level and <strong className="hl">trap sense</strong>.</p>
-<p><strong>Favored Illumination (Su):</strong> At 4th level, a shadow walker chooses one <Link to="/rule/illumination_level">illumination level</Link>: bright light, normal light, dim light, or darkness (including supernatural darkness). While she is within her chosen illumination level, she gains a +2 bonus on initiative checks and Acrobatics, Perception, and Sleight of Hand skill checks, and can take 10 on any Stealth check attempted within that illumination level. When the shadow walker confirms a critical hit with a melee attack that deals sneak attack damage while in her chosen illumination level, she regains 1 illumination point (to a maximum of half her rogue level). Confirming a critical hit on a creature that has fewer Hit Dice than half the shadow walker's character level doesn't restore illumination points. When the shadow walker reaches 6th level, and every 3 rogue levels thereafter, the bonuses she gains within her chosen illumination level increase by 1.</p>
-<p>This ability replaces the rogue's <strong className="hl">uncanny dodge</strong> and <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the shadow walker archetype: <Link to="/talent/obscuring_blow">obscuring blow</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/surprise_attack">surprise attack</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/gloom_magic">gloom magic</Link>, <Link to="/talent/greater_gloom_magic">greater gloom magic</Link> (<em>Spellcasting Talents</em> group); <Link to="/talent/umbral_gear">umbral gear</Link> (<em>Other Magic-Related Talents</em> group); <Link to="/talent/deft_palm">deft palm</Link> (<em>Combat Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the shadow walker archetype: <Link to="/talent/slippery_mind">slippery mind</Link> (<em>Magical Talents</em> group); <Link to="/talent/unwitting_ally">unwitting ally</Link>, <Link to="/talent/weapon_snatcher">weapon snatcher</Link> (<em>Combat Talents</em> group); <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/see_in_darkness">see in darkness</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-shadow_walker-expanded-sight-su" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="arc-rogue-shadow_walker-expanded-sight-su">Expanded Sight (Su)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">A shadow walker gains darkvision with a range of 30 feet. If she already has darkvision, the range of her darkvision increases by 10 feet.</Pair>
+<Pair title="At 3rd Level">The range of her darkvision increases by 10 feet. The shadow walker loses the <Link to="/umr/light_sensitivity">light sensitivity</Link> weakness, if she has it. If she has <Link to="/umr/light_blindness">light blindness</Link>, she instead treats it as light sensitivity.</Pair>
+<Pair title="At 5th Level">The range of her darkvision increases by 10 feet.</Pair>
+<Pair title="At 7th Level">The range of her darkvision increases by 10 feet.</Pair>
+<Pair title="At 9th Level">The range of her darkvision increases by 10 feet.</Pair>
+<Pair title="At 11th Level">The range of her darkvision increases by 10 feet.</Pair>
+<Pair title="At 13th Level">The range of her darkvision increases by 10 feet.</Pair>
+<Pair title="At 15th Level">The range of her darkvision increases by 10 feet.</Pair>
+<Pair title="At 17th Level">The range of her darkvision increases by 10 feet.</Pair>
+<Pair title="At 19th Level">The range of her darkvision increases by 10 feet.</Pair>
+</Ability>
+<Ability id="arc-rogue-shadow_walker-illumination-control-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-shadow_walker-illumination-control-sp" flavor="A shadow walker can manipulate nearby illumination.">Illumination Control (Sp)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 2nd level, trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">At the start of each day, a shadow walker gains a number of illumination points equal to half her rogue level and can spend illumination points to use certain spell-like abilities. As long as she has at least 1 illumination point, she can cast <Link to="/spell/light">light</Link> at will. She can spend 2 illumination points to cast <Link to="/spell/darkness">darkness</Link>, and 3 illumination points to cast <Link to="/spell/daylight">daylight</Link>, <Link to="/spell/deeper_darkness">deeper darkness</Link>, or <Link to="/spell/motes_of_dusk_and_dawn">motes of dusk and dawn</Link>.</Pair>
+<Pair title="Special">These spell-like abilities have a caster level equal to the shadow walker's rogue level. Using these spell-like abilities does not hamper the shadow walker's vision; for example, she can see through the <em>deeper darkness</em> she creates, and does not take penalties for light sensitivity in the area of her own <em>daylight.</em></Pair>
+</Ability>
+<Ability id="arc-rogue-shadow_walker-favored-illumination-su" icon={["upgrade"]}>
+<Pair single id="arc-rogue-shadow_walker-favored-illumination-su">Favored Illumination (Su)</Pair>
+<Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Choice">A shadow walker chooses one <Link to="/rule/illumination_level">illumination level</Link>: bright light, normal light, dim light, or darkness (including supernatural darkness).</Pair>
+<Pair title="Ability">While she is within her chosen illumination level, she gains a bonus (equal to 1 + <Link to="/misc/one_third">one-third</Link> of her rogue level) on initiative checks and Acrobatics, Perception, and Sleight of Hand skill checks, and can take 10 on any Stealth check attempted within that illumination level.</Pair>
+<Pair title="Special">When the shadow walker confirms a critical hit with a melee attack that deals sneak attack damage while in her chosen illumination level, she regains 1 illumination point (to a maximum of half her rogue level). Confirming a critical hit on a creature that has fewer Hit Dice than half the shadow walker's character level doesn't restore illumination points.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/deft_palm">Deft palm</Link>, <Link to="/talent/gloom_magic">gloom magic</Link>, <Link to="/talent/greater_gloom_magic">greater gloom magic</Link>, <Link to="/talent/obscuring_blow">obscuring blow</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/umbral_gear">umbral gear</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hide_in_plain_sight">Hide in plain sight</Link>, <Link to="/talent/see_in_darkness">see in darkness</Link>, <Link to="/talent/slippery_mind">slippery mind</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link>, <Link to="/talent/weapon_snatcher">weapon snatcher</Link></p></>};
 const _sharper = {title: "Sharper", jsx: <><h2 id="arc-rogue-sharper-sharper">Sharper</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 47</Link><br/>Sharpers use trickery and deception to part an owner from his valuables. Pathological risk-takers, they distinguish themselves from con artists and burglars by virtue of the simplicity and boldness of their schemes, which are usually impromptu, rather than carefully orchestrated. Many sharpers consider themselves romantic figures and foster the image of a resourceful, dashing rogue living by wits and luck while subverting authority at every turn.</p>
-<p><strong>Scam Artist (Ex):</strong> A sharper gains a bonus equal to half her rogue level (minimum +1) on all Bluff and Sleight of Hand checks.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Sticky Fingers (Ex):</strong> At 2nd level, a sharper receives <Link to="/feat/improved_steal">Improved Steal</Link> as a bonus feat. At 6th level, she receives <Link to="/feat/greater_steal">Greater Steal</Link> as a bonus feat, and at 8th level, she receives <Link to="/feat/quick_steal">Quick Steal</Link> as a bonus feat. The sharper gains these feats even if she doesn't meet the prerequisites.</p>
-<p>This ability replaces the <strong className="hl">rogue talents</strong> gained at 2nd, 6th, and 8th levels.</p>
-<p><strong>Lucky Save (Su):</strong> At 3rd level, when a sharper's wits aren't enough to pull her out of a bad situation, her luck still just might save her. She gains a +1 luck bonus on all saving throws. This bonus increases to +2 at 9th level and to +3 at 15th level.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Audacious Overconfidence (Ex):</strong> At 4th level, after failing an attack roll, skill check, or saving throw, a sharper can reduce her saving throw bonus from lucky save by 1 for 24 hours in order to reroll the failed roll. She can use this ability once per day at 4th level, plus an additional time per day at 10th level and again at 16th level. The decreases to her bonus from lucky save stack with each other.</p>
-<p>This ability replaces the <strong className="hl">rogue talents</strong> gained at 4th, 10th, and 16th levels.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the sharper archetype: <Link to="/talent/follow_along">follow along</Link>, <Link to="/talent/shades_of_gray">shades of gray</Link> (<em>Other Magic-Related Talents</em> group); <Link to="/talent/deft_palm">deft palm</Link> (<em>Combat Talents</em> group); <Link to="/talent/charmer">charmer</Link>, <Link to="/talent/convincing_lie">convincing lie</Link>, <Link to="/talent/false_friend">false friend</Link>, <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/obfuscate_story">obfuscate story</Link>, <Link to="/talent/steal_the_story">steal the story</Link> (<em>Deception Talents</em> group); <Link to="/talent/certainty">certainty</Link> (<em>Other Talents</em> group - unchained rogue only).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the sharper archetype: <Link to="/talent/another_day">another day</Link>, <Link to="/talent/defensive_roll">defensive roll</Link>, <Link to="/talent/improved_evasion">improved evasion</Link>, <Link to="/talent/redirect_attack">redirect attack</Link> (<em>Combat Talents</em> group); <Link to="/talent/hidden_mind">hidden mind</Link> (<em>Magical Talents</em> group); <Link to="/talent/cutting_edge">cutting edge</Link> (unchained rogue only), <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-sharper-scam-artist-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-sharper-scam-artist-ex">Scam Artist (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Passive Ability">A sharper gains a bonus equal to half her rogue level (minimum +1) on all Bluff and Sleight of Hand checks.</Pair>
+</Ability>
+<Ability id="arc-rogue-sharper-sticky-fingers-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-sharper-sticky-fingers-ex">Sticky Fingers (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talents gained at 2nd, 6th, and 8th levels</Pair>
+<Pair title="At 2nd Level">A sharper receives <Link to="/feat/improved_steal">Improved Steal</Link> as a bonus feat.</Pair>
+<Pair title="At 6th Level">She receives <Link to="/feat/greater_steal">Greater Steal</Link> as a bonus feat.</Pair>
+<Pair title="At 8th Level">She receives <Link to="/feat/quick_steal">Quick Steal</Link> as a bonus feat.</Pair>
+<Pair title="Special">The sharper gains these feats even if she doesn't meet the prerequisites.</Pair>
+</Ability>
+<Ability id="arc-rogue-sharper-lucky-save-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-sharper-lucky-save-su" flavor="When a sharper's wits aren't enough to pull her out of a bad situation, her luck still just might save her.">Lucky Save (Su)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="At 3rd Level">She gains a +1 luck bonus on all saving throws.</Pair>
+<Pair title="At 9th Level">This bonus becomes +2.</Pair>
+<Pair title="At 15th Level">This bonus increases to +3.</Pair>
+</Ability>
+<Ability id="arc-rogue-sharper-audacious-overconfidence-ex" icon={["rolling-dices","armor-upgrade"]}>
+<Pair single id="arc-rogue-sharper-audacious-overconfidence-ex">Audacious Overconfidence (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talents gained at 4th, 10th, and 16th levels</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per six rogue levels beyond 4th<ByLevelPop levels={[[4,1],[10,2],[16,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">After failing an attack roll, skill check, or saving throw, a sharper can reduce her saving throw bonus from <em>lucky save</em> by 1 for 24 hours in order to reroll the failed roll.</Pair>
+<Pair title="Special">The decreases to her bonus from <em>lucky save</em> stack with each other.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/certainty">Certainty</Link> (unchained rogue only), <Link to="/talent/charmer">charmer</Link>, <Link to="/talent/convincing_lie">convincing lie</Link>, <Link to="/talent/deft_palm">deft palm</Link>, <Link to="/talent/false_friend">false friend</Link>, <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/follow_along">follow along</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/obfuscate_story">obfuscate story</Link>, <Link to="/talent/shades_of_gray">shades of gray</Link>, <Link to="/talent/steal_the_story">steal the story</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/another_day">Another day</Link>, <Link to="/talent/cutting_edge">cutting edge</Link> (unchained rogue only), <Link to="/talent/defensive_roll">defensive roll</Link>, <Link to="/talent/hidden_mind">hidden mind</Link>, <Link to="/talent/improved_evasion">improved evasion</Link>, <Link to="/talent/redirect_attack">redirect attack</Link>, <Link to="/talent/skill_mastery">skill mastery</Link></p></>};
 const _skulking_slayer = {title: "Skulking Slayer", jsx: <><h2 id="arc-rogue-skulking_slayer-skulking-slayer">Skulking Slayer</h2>
-<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 55</Link><br/>Pushed into a life of crime by the society around them, half-orcs gravitate toward criminal activities that suit them best. <Link to="/race/half_orc">Half-orc</Link> rogues leave subtle tactics and finesse to halflings and elves, and rely on brute strength and thuggery when they go about making mischief. Skulking slayers have turned the use of raw strength and surprise into an art form. A skulking slayer has the following class features.</p>
-<p><strong>Weapon and Armor Proficiency:</strong> The skulking slayer gains proficiency with <Link to="/eq-weapon/greatclub">greatclubs</Link> and <Link to="/eq-weapon/whip">whips</Link>, but loses proficiency with rapiers and hand crossbows.</p>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 55</Link><br/>Pushed into a life of crime by the society around them, half-orcs gravitate toward criminal activities that suit them best. Half-orc rogues leave subtle tactics and finesse to halflings and elves, and rely on brute strength and thuggery when they go about making mischief. Skulking slayers have turned the use of raw strength and surprise into an art form. A skulking slayer has the following class features.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-skulking_slayer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/half_orc">Half-Orc</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-rogue-skulking_slayer-weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-rogue-skulking_slayer-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair title="Info">The skulking slayer gains proficiency with <Link to="/eq-weapon/greatclub">greatclubs</Link> and <Link to="/eq-weapon/whip">whips</Link>, but loses proficiency with rapiers and hand crossbows.</Pair>
+</Ability>
 <Ability icon={["skills"]} id="arc-rogue-skulking_slayer-undefined">
 <Pair id="arc-rogue-skulking_slayer-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="Removed Skills">Disable Device, Linguistics, Sleight of Hand</Pair></Ability>
-<p><strong>Skill Ranks per Level:</strong> 6 + Int modifier.</p>
-<p><strong>Pass for Human (Ex):</strong> At 1st level, when trying to conceal her half-orc heritage, a skulking slayer gains a bonus on Disguise checks equal to half her level. When using disguise to appear as a specific individual, skulking stalkers ignore the normal -2 penalty to appear as another race.</p>
-<p><strong>Underhanded Maneuvers (Ex):</strong> At 1st level, when she could normally make a sneak attack, a slayer may instead make a dirty trick or steal combat maneuver with a bonus on her roll. This bonus is equal to her number of sneak attack dice for a dirty trick combat maneuver, or 1-1/2 &times; her number of sneak attack dice for a steal combat maneuver.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Bonus Feats:</strong> At 2nd level, a skulking slayer can select the <Link to="/feat/surprise_follow_through">Surprise Follow-Through</Link> feat in place of a rogue talent. At 10th level, she can select the <Link to="/feat/improved_surprise_follow_through">Improved Surprise Follow-Through</Link> feat (if she already has Surprise Follow-Through) in place of an advanced rogue talent.</p>
-<p><strong>Bold Strike (Ex):</strong> At 3rd level, when a skulking slayer charges and makes a sneak attack with a two-handed weapon, she rolls d8s instead of d6s for her sneak attack damage.</p>
-<p>This ability replaces <strong className="hl">trap sense +1 and +4</strong>.</p>
-<p><strong>Shifty (Ex):</strong> At 6th level, a skulking slayer gains a bonus on Bluff checks to feint equal to half her level.</p>
-<p>This ability replaces <strong className="hl">trap sense +2</strong>.</p>
-<p><strong>Unexpected Charge (Ex):</strong> At 9th level, a skulking slayer can make a Bluff check to feint as a swift action before a charge.</p>
-<p>This ability replaces <strong className="hl">trap sense +3</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the skulking slayer archetype: <Link to="/talent/powerful_sneak">powerful sneak</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/surprise_attack">surprise attack</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/combat_swipe">combat swipe</Link> (<em>Combat Talents</em> group); <Link to="/talent/terrain_mastery">terrain mastery</Link> (<em>Deception Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the skulking slayer archetype: <Link to="/talent/crippling_strike">crippling strike</Link>, <Link to="/talent/deadly_sneak">deadly sneak</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/unwitting_ally">unwitting ally</Link> (<em>Combat Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-skulking_slayer-skill-ranks-per-level" icon={["broken-shield"]}>
+<Pair single id="arc-rogue-skulking_slayer-skill-ranks-per-level">Skill Ranks per Level</Pair>
+<Pair title="Info">She gains 6 + Int modifier skill points each level.</Pair>
+</Ability>
+<Ability id="arc-rogue-skulking_slayer-pass-for-human-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-skulking_slayer-pass-for-human-ex">Pass for Human (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">When trying to conceal her half-orc heritage, a skulking slayer gains a bonus on Disguise checks equal to <Link to="/misc/half">half</Link> her level. When using disguise to appear as a specific individual, skulking stalkers ignore the normal -2 penalty to appear as another race.</Pair>
+</Ability>
+<Ability id="arc-rogue-skulking_slayer-underhanded-maneuvers-ex" icon={["mailed-fist"]}>
+<Pair single id="arc-rogue-skulking_slayer-underhanded-maneuvers-ex">Underhanded Maneuvers (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">When she could normally make a sneak attack, a slayer may instead make a <Link to="/rule/dirty_trick">dirty trick</Link> or <Link to="/rule/steal">steal</Link> combat maneuver with a bonus on her roll. This bonus is equal to her number of sneak attack dice for a dirty trick combat maneuver, or 1-1/2 &times; her number of sneak attack dice for a steal combat maneuver.</Pair>
+</Ability>
+<Ability id="arc-rogue-skulking_slayer-bonus-feats" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-skulking_slayer-bonus-feats">Bonus Feats</Pair>
+<Pair title="At 2nd Level">A skulking slayer can select the <Link to="/feat/surprise_follow_through">Surprise Follow-Through</Link> feat in place of a rogue talent.</Pair>
+<Pair title="At 10th Level">She can select the <Link to="/feat/improved_surprise_follow_through">Improved Surprise Follow-Through</Link> feat (if she already has Surprise Follow-Through) in place of an advanced rogue talent.</Pair>
+</Ability>
+<Ability id="arc-rogue-skulking_slayer-bold-strike-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-skulking_slayer-bold-strike-ex">Bold Strike (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense +1 and +4</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">When a skulking slayer <Link to="/rule/charge">charges</Link> and makes a sneak attack with a two-handed weapon, she rolls d8s instead of d6s for her sneak attack damage.</Pair>
+</Ability>
+<Ability id="arc-rogue-skulking_slayer-shifty-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-skulking_slayer-shifty-ex">Shifty (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense +2</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Passive Ability">A skulking slayer gains a bonus on Bluff checks to feint equal to half her level.</Pair>
+</Ability>
+<Ability id="arc-rogue-skulking_slayer-unexpected-charge-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-skulking_slayer-unexpected-charge-ex">Unexpected Charge (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense +3</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Swift Action">A skulking slayer can make a <Link to="/skill/bluff">Bluff</Link> check to feint before a charge.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/combat_swipe">Combat swipe</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/powerful_sneak">powerful sneak</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/crippling_strike">Crippling strike</Link>, <Link to="/talent/deadly_sneak">deadly sneak</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _sly_saboteur = {title: "Sly Saboteur", jsx: <><h2 id="arc-rogue-sly_saboteur-sly-saboteur">Sly Saboteur</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 77</Link><br/>Sly saboteurs are irregular soldiers who specialize in sabotage and surprise attacks. Though they often face enemies with greater numbers or resources (or both), sly saboteurs have the advantage of knowing the local people and terrain. They might be rebels fighting against a corrupt government, or they might be members of a militia opposing an invading force. Some are environmentalists who sabotage the tools of industry in order to protect unspoiled nature.</p>
 <Ability icon={["skills"]} id="arc-rogue-sly_saboteur-undefined">
 <Pair id="arc-rogue-sly_saboteur-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
-<p><strong>Scamper (Ex):</strong> At 3rd level, a sly saboteur can move through 5 feet of <Link to="/rule/difficult_terrain">difficult terrain</Link> each round as if it were normal terrain. At 6th level and every 3 levels thereafter, this distance increases by 5 feet (to a maximum of 30 feet at 18th level). This ability allows the sly saboteur to take a 5-foot step into difficult terrain. This ability applies only when she is wearing light armor or no armor and carrying no more than a light load, and it stacks with the <Link to="/feat/acrobatic_steps">Acrobatic Steps</Link> and <Link to="/feat/nimble_moves">Nimble Moves</Link> feats.</p>
-<p>This replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Catastrophic Failure (Ex):</strong> At 4th level, when a sly saboteur uses Disable Device to rig a device to fail, she can increase the DC of the check by 5. If she does so and succeeds at the check, when the device fails, users take damage equal to the sly saboteur's sneak attack, or they take half that amount with a successful Reflex save (DC = 10 + half the sly saboteur's level + her Dexterity modifier). The type of damage depends on the nature of the device but is typically bludgeoning, fire, piercing, or slashing.</p>
-<p>This replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Disable Magic Device (Su):</strong> At 8th level, a sly saboteur can use Disable Device to rig a magic item to fail as if it were an extremely complex device. If the item's effect is instantaneous, the effect is countered the next time the item is activated, but the activation still consumes a charge or use. If the item's effect is continuous or has a duration, the effect fails after 1d4 rounds or minutes of use (sly saboteur's choice). This ends the duration or suppresses a continuous effect for 1d4 rounds (as the spell <Link to="/spell/dispel_magic">dispel magic</Link>). This ability cannot be used on artifacts.</p>
-<p>If this ability is combined with the catastrophic failure ability, the resulting damage is untyped magic and is not reduced by damage reduction or energy resistance.</p>
-<p>This replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the sly saboteur archetype: <Link to="/talent/rogue_crawl">rogue crawl</Link> (<em>Combat Talents</em> group); <Link to="/talent/cunning_trigger">cunning trigger</Link>, <Link to="/talent/quick_trapsmith">quick trapsmith</Link>, <Link to="/talent/trap_spotter">trap spotter</Link> (<em>Trap Talents</em> group); <Link to="/talent/quick_disable">quick disable</Link> (<em>Disable Device Talents</em> group); <Link to="/talent/fast_stealth">fast stealth</Link> (<em>Deception Talents</em> group); <Link to="/talent/getaway_artist">getaway artist</Link>, <Link to="/talent/wall_scramble">wall scramble</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the sly saboteur archetype: <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link> (<em>Combat Talents</em> group); <Link to="/talent/frugal_trapsmith">frugal trapsmith</Link>, <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/rumormonger">rumormonger</Link>, <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-sly_saboteur-scamper-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-sly_saboteur-scamper-ex">Scamper (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A sly saboteur can move through 5 feet of <Link to="/rule/difficult_terrain">difficult terrain</Link> each round as if it were normal terrain.</Pair>
+<Pair title="At 6th Level">This distance becomes 10 feet.</Pair>
+<Pair title="At 9th Level">This distance increases to 15 feet.</Pair>
+<Pair title="At 12th Level">This distance becomes 20 feet.</Pair>
+<Pair title="At 15th Level">This distance increases to 25 feet.</Pair>
+<Pair title="At 18th Level">This distance becomes 30 feet.</Pair>
+<Pair title="Special">This ability allows the sly saboteur to take a 5-foot step into difficult terrain. This ability applies only when she is wearing light armor or no armor and carrying no more than a light load, and it stacks with the <Link to="/feat/acrobatic_steps">Acrobatic Steps</Link> and <Link to="/feat/nimble_moves">Nimble Moves</Link> feats.</Pair>
+</Ability>
+<Ability id="arc-rogue-sly_saboteur-catastrophic-failure-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-sly_saboteur-catastrophic-failure-ex">Catastrophic Failure (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">When a sly saboteur uses Disable Device to rig a device to fail, she can increase the DC of the check by 5. If she does so and succeeds at the check, when the device fails, users take damage equal to the sly saboteur's sneak attack, or they take half that amount with a successful Reflex save (DC = 10 + half the sly saboteur's level + her Dexterity modifier).</Pair>
+<Pair title="Special">The type of damage depends on the nature of the device but is typically bludgeoning, fire, piercing, or slashing.</Pair>
+</Ability>
+<Ability id="arc-rogue-sly_saboteur-disable-magic-device-su" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-sly_saboteur-disable-magic-device-su">Disable Magic Device (Su)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">A sly saboteur can use Disable Device to rig a magic item to fail as if it were an extremely complex device. If the item's effect is instantaneous, the effect is countered the next time the item is activated, but the activation still consumes a charge or use. If the item's effect is continuous or has a duration, the effect fails after 1d4 rounds or minutes of use (sly saboteur's choice). This ends the duration or suppresses a continuous effect for 1d4 rounds (as the spell <Link to="/spell/dispel_magic">dispel magic</Link>). This ability cannot be used on artifacts.</Pair>
+<Pair title="Special">If this ability is combined with the <em>catastrophic failure</em> ability, the resulting damage is untyped magic and is not reduced by damage reduction or energy resistance.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/cunning_trigger">Cunning trigger</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/getaway_artist">getaway artist</Link>, <Link to="/talent/quick_disable">quick disable</Link>, <Link to="/talent/quick_trapsmith">quick trapsmith</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/trap_spotter">trap spotter</Link>, <Link to="/talent/wall_scramble">wall scramble</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/frugal_trapsmith">Frugal trapsmith</Link>, <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/rumormonger">rumormonger</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link></p></>};
 const _smuggler = {title: "Smuggler", jsx: <><h2 id="arc-rogue-smuggler-smuggler">Smuggler</h2>
 <p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 23</Link><br/>Smugglers specialize in moving contraband from one area to another while avoiding detection by authorities. Sometimes a smuggler's cargo is illegal goods, such as drugs or slaves. Other times, a smuggler hides legal goods to avoid paying duties or taxes, and some may even use their abilities to help smuggle escaped slaves to freedom. Smugglers may work on a ship that does nothing but smuggle goods from one port to another, or they may freelance, working on ships that require a smuggler's services for a short time.</p>
-<p><strong>Bribery:</strong> An experienced smuggler knows how to smooth over interactions with customs officials. At 3rd level, when dealing with officials working at a checkpoint, conducting an inspection, or performing another such activity, a smuggler can make a Diplomacy check opposed by the presiding official's Sense Motive check to ensure her contraband makes it through. She gains a +1 bonus on this Diplomacy check. On a successful check, the smuggler pays a small bribe (5d4 gp) to guarantee her cargo remains undisturbed. This bonus rises to +2 when the smuggler reaches 6th level, +3 at 9th level, +4 at 12th level, +5 at 15th level, and +6 at 18th level.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Conceal Item:</strong> A smuggler adds 1/2 her level on Sleight of Hand checks (minimum +1). A smuggler can use Sleight of Hand to conceal a small item in a container or room, such as the false bottom of a chest or beneath floorboards. Anyone attempting to find an item concealed by a smuggler makes a Perception check opposed by the Sleight of Hand check made by the smuggler when she concealed the object.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Distraction:</strong> A smuggler uses patter and body language to deflect searchers from hidden items. At 2nd level, a smuggler may make a Bluff check opposed by a searcher's Perception check when a searcher looks for items the smuggler has concealed. If the smuggler's Bluff check succeeds, the searcher must make a second Perception check and take the lower of the two rolls.</p>
-<p>This ability replaces <strong className="hl">Evasion</strong>.</p>
+<Ability id="arc-rogue-smuggler-conceal-item" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-rogue-smuggler-conceal-item">Conceal Item</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Passive Ability">A smuggler adds 1/2 her level on Sleight of Hand checks (minimum +1).</Pair>
+<Pair title="Ability">A smuggler can use Sleight of Hand to conceal a small item in a container or room, such as the false bottom of a chest or beneath floorboards. Anyone attempting to find an item concealed by a smuggler makes a Perception check opposed by the Sleight of Hand check made by the smuggler when she concealed the object.</Pair>
+</Ability>
+<Ability id="arc-rogue-smuggler-distraction" icon={["rolling-dices"]}>
+<Pair single id="arc-rogue-smuggler-distraction" flavor="A smuggler uses patter and body language to deflect searchers from hidden items.">Distraction</Pair>
+<Pair hl title="Replaces">Evasion</Pair>
+<Pair title="At 2nd Level">A smuggler may make a Bluff check opposed by a searcher's Perception check when a searcher looks for items the smuggler has concealed. If the smuggler's Bluff check succeeds, the searcher must make a second Perception check and take the lower of the two rolls.</Pair>
+</Ability>
+<Ability id="arc-rogue-smuggler-bribery" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-smuggler-bribery" flavor="An experienced smuggler knows how to smooth over interactions with customs officials.">Bribery</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="At 3rd Level">When dealing with officials working at a checkpoint, conducting an inspection, or performing another such activity, a smuggler can make a Diplomacy check opposed by the presiding official's Sense Motive check to ensure her contraband makes it through. She gains a bonus on this Diplomacy check equal to <Link to="/misc/one_third">one-third</Link> of her rogue level. On a successful check, the smuggler pays a small bribe (5d4 gp) to guarantee her cargo remains undisturbed.</Pair>
+</Ability>
 </>};
 const _snare_setter = {title: "Snare Setter", jsx: <><h2 id="arc-rogue-snare_setter-snare-setter">Snare Setter</h2>
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 23</Link><br/>Deep in darkness, the snare setter constructs his deadly traps and brutal mechanisms to confound and destroy any who try to invade his domain.</p>
-<p><strong>Trapper (Ex):</strong> At 1st level, a snare setter gains <Link to="/feat/learn_ranger_trap">Learn Ranger Trap</Link> as a bonus feat. In addition to the trap granted by this feat, he learns how to construct the <Link to="/rangertrap/tripwire">tripwire</Link> trap for free. For the purposes of this feat, he's considered a ranger of his snare setter level, and uses his Intelligence in place of Wisdom to determine uses per day and the DC of his ranger traps. Whenever the snare setter could learn a new rogue trick, he may instead learn a new ranger trap.</p>
-<p>This ability replaces <strong className="hl">sneak attack</strong> (but see below).</p>
-<p><strong>Trapsmithing (Ex):</strong> A snare setter gains a bonus on Perception skill checks to detect traps and on Craft (traps) checks equal to 1/2 his snare setter level. He can use Craft (traps) in place of Disable Device to disarm traps, including magical traps.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Deadly Traps (Ex):</strong> At 3rd level, the snare setter's traps deal an additional 1d6 points of damage on the first round they're activated. This damage is of the same type the trap normally deals. Traps that don't deal damage are unaffected by this ability. This additional damage increases by 1d6 points every 4 levels beyond 3rd (7th, 11th, 15th, and 19th).</p>
-<p><strong>Sneak Attack (Su):</strong> At 5th level, the snare setter gains sneak attack +1d6. This functions as the rogue ability of the same name, but the damage increases by 1d6 every 4 levels after 5th (9th, 13th, and 17th).</p>
-<p><strong>Master Snare Setter (Ex):</strong> At 20th level, the snare setter can attach one of a rogue's master strike effects to a trap he creates. When the trap is triggered, the subject makes an additional Fortitude save at the same DC as the trap to avoid this effect. A snare setter can have only one trap affected by this ability active at any time. He may remove this ability from a trap at any range as a free action.</p>
-<p>This ability replaces <strong className="hl">master strike</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the snare setter archetype: <Link to="/talent/snipers_eye">sniper's eye</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/cunning_trigger">cunning trigger</Link> (<em>Trap Talents</em> group); <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/fast_stealth">fast stealth</Link> (<em>Deception Talents</em> group).</p>
-</>};
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-snare_setter--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/kobold">Kobold</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-rogue-snare_setter-trapper-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-snare_setter-trapper-ex">Trapper (Ex)</Pair>
+<Pair hl title="Replaces">Sneak attack (but see below)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A snare setter gains <Link to="/feat/learn_ranger_trap">Learn Ranger Trap</Link> as a bonus feat. In addition to the trap granted by this feat, he learns how to construct the <Link to="/rangertrap/tripwire">tripwire</Link> trap for free. For the purposes of this feat, he's considered a ranger of his snare setter level, and uses his Intelligence in place of Wisdom to determine uses per day and the DC of his ranger traps.</Pair>
+<Pair title="Special">Whenever the snare setter could learn a new rogue trick, he may instead learn a new ranger trap.</Pair>
+</Ability>
+<Ability id="arc-rogue-snare_setter-trapsmithing-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-rogue-snare_setter-trapsmithing-ex">Trapsmithing (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Ability">A snare setter gains a bonus on Perception skill checks to detect traps and on Craft (traps) checks equal to 1/2 his snare setter level. He can use Craft (traps) in place of Disable Device to disarm traps, including magical traps.</Pair>
+</Ability>
+<Ability id="arc-rogue-snare_setter-deadly-traps-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-snare_setter-deadly-traps-ex">Deadly Traps (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">The snare setter's traps deal an additional 1d6 points of damage on the first round they're activated. This damage is of the same type the trap normally deals. Traps that don't deal damage are unaffected by this ability.</Pair>
+<Pair title="At 7th Level">This additional damage becomes 2d6.</Pair>
+<Pair title="At 11th Level">This additional damage increases to 3d6.</Pair>
+<Pair title="At 15th Level">This additional damage becomes 4d6.</Pair>
+<Pair title="At 19th Level">This additional damage increases to 5d6.</Pair>
+</Ability>
+<Ability id="arc-rogue-snare_setter-sneak-attack-su" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-snare_setter-sneak-attack-su">Sneak Attack (Su)</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">The snare setter gains <Link to="/ability/sneak_attack">sneak attack</Link> +1d6. This functions as the rogue ability of the same name.</Pair>
+<Pair title="At 9th Level">The sneak attack damage becomes +2d6.</Pair>
+<Pair title="At 13th Level">The sneak attack damage increases to +3d6.</Pair>
+<Pair title="At 17th Level">The sneak attack damage becomes +4d6.</Pair>
+</Ability>
+<Ability id="arc-rogue-snare_setter-master-snare-setter-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-snare_setter-master-snare-setter-ex">Master Snare Setter (Ex)</Pair>
+<Pair hl title="Replaces">Master strike</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">The snare setter can attach one of a rogue's <em>master strike</em> effects to a trap he creates. When the trap is triggered, the subject makes an additional Fortitude save at the same DC as the trap to avoid this effect. A snare setter can have only one trap affected by this ability active at any time. He may remove this ability from a trap at any range as a <strong className="hl">free action</strong>.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/camouflage">Camouflage</Link>, <Link to="/talent/cunning_trigger">cunning trigger</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/snipers_eye">sniper's eye</Link></p></>};
 const _sniper = {title: "Sniper", jsx: <><h2 id="arc-rogue-sniper-sniper">Sniper</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 134</Link><br/>Some say that the sniper is the worst kind of assassin: a killer who waits silently in the shadows and then strikes from a distance without remorse. Snipers, of course, understand that such protestations about "cowardice" and "honor" regarding their profession are in fact merely the bleatings of sheep fearing the slaughter and pay them no heed. Most snipers take pride in their formidable abilities, which allow them to take life quickly, quietly, and efficiently, then disappear into their surroundings without a trace.</p>
 <p><strong>Accuracy (Ex):</strong> At 1st level, a sniper halves all range increment penalties when making ranged attacks with a bow or crossbow.</p>
