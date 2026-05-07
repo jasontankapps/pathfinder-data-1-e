@@ -17,9 +17,6 @@ import {
 	IonLabel,
 	IonList,
 	IonModal,
-	IonPicker,
-	IonPickerColumn,
-	IonPickerColumnOption,
 	IonText,
 	IonTitle,
 	IonToggle,
@@ -79,19 +76,6 @@ interface RowItem {
 	}
 }
 
-// IonPicker expects number | string | undefined, but we only use numbers...
-const clamp = (input: string | number | undefined, max: number, min: number = 0): number => {
-	const n = Number(input);
-	if(n !== n) {
-		return 0;
-	} else if (n > max) {
-		return max;
-	} else if (n < min) {
-		return min;
-	}
-	return n;
-};
-
 const FilterOption: FC<{
 	filter: FilterObject,
 	index: number,
@@ -106,26 +90,21 @@ const FilterOption: FC<{
 			<IonModal className="pickerSheet" isOpen={open} onDidDismiss={() => setOpen(false)} breakpoints={[0, 1]} initialBreakpoint={1}>
 				<IonHeader>
 					<IonToolbar>
-						<IonTitle>Filter Table Content</IonTitle>
+						<IonTitle>Where {text}:</IonTitle>
 						<IonButtons slot="end">
 							<IonButton color="primary" onClick={() => setOpen(false)}>Done</IonButton>
 						</IonButtons>
 					</IonToolbar>
 				</IonHeader>
 				<IonContent>
-					<IonPicker class="myPicker">
-						<IonPickerColumn
-							value={currentValue}
-							onIonChange={e => setCurrentValue(clamp(e.detail.value, options.length - 1))}
-						>
-							<div slot="prefix">Where {text}</div>
-							{options.map((opt, i) =>
-								<IonPickerColumnOption key={`filter${index}option${i}:${opt}`} value={i}>
-									{opt}
-								</IonPickerColumnOption>
-							)}
-						</IonPickerColumn>
-					</IonPicker>
+					{options.map((opt, i) =>
+						<IonButton
+							key={`filter${index}option${i}:${opt}`}
+							onClick={() => setCurrentValue(i)}
+							color={i === currentValue ? "primary" : "medium"}
+							fill="outline"
+						>{opt}</IonButton>
+					)}
 				</IonContent>
 			</IonModal>
 			<IonLabel className="picker" onClick={() => setOpen(true)}>Where {text}: <IonText className="pickedText">{options[currentValue]}</IonText></IonLabel>

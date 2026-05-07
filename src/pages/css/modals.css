@@ -37,16 +37,11 @@ ion-modal ion-item.item ion-label.picker ion-text.pickedText::after {
 ion-modal.pickerSheet {
 	--height: calc((1.25rem * 13) + 3rem);
 }
-ion-modal.pickerSheet ion-content {
+ion-modal.pickerSheet ion-content::part(scroll) {
 	display: flex;
-	flex-flow: column nowrap;
+	flex-flow: row wrap;
 	justify-content: safe center;
-}
-
-ion-picker.myPicker ion-picker-column {
-	font-size: 1.25rem;
-}
-ion-picker.myPicker ion-picker-column [slot=prefix] {
-	font-size: 1.5rem;
-	max-width: 100%;
+	align-content: safe center;
+	min-height: calc(1.25rem * 12);
+	width: 100%;
 }
