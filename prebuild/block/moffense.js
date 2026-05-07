@@ -78,8 +78,10 @@ export const makeMonsterOffenseBlock = (marked2, convertEncodedInfo, maybeClear,
 	//
 	// SPACE/REACH LINE
 	//
-	if(space && reach) {
+	if(space !== undefined && reach !== undefined) {
 		output.push(doParse(`**Space** ${space}, **Reach** ${reach}` + (reachP ? ` (${reachP})` : "")));
+	} else if (space || reach) {
+		logError("Space or Reach property provided without its counterpart.");
 	}
 	//
 	// SPECIAL ATTACKS LINE
@@ -397,6 +399,7 @@ export const makeMonsterSpellBlock = (marked2, convertEncodedInfo, maybeClear, a
 };
 
 export const makeMonsterFootnoteBlock = (marked2, convertEncodedInfo, text) => {
+	// all="1~Footnote one.|2~Footnote two..."
 	const all = text.split(/\|/);
 	const output = [];
 	all.forEach(line => {
