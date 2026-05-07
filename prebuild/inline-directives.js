@@ -27,9 +27,9 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 			let tag = meta.name;
 			if(tag === "ripple" || tag === "hll") {
 				// @ripple[link/Text]
-				flags.link = true;
 				const m = checkForEncodedLink(text, { bare: true });
 				if(m) {
+					flags.link = true;
 					const {link, text} = m;
 					if(tag === "ripple") {
 						flags.ripple = true;
@@ -67,6 +67,20 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				// Fake footnotes
 				const { from, multi } = attrs;
 				return fn({text: tag.slice(2), prefix, from, multi, makeNewMarkedInstance, flags});
+			} else if (tag.startsWith("B-")) {
+				// Bonus equal to fraction of level
+				//  @B-3mp?-class(-x)?
+				const m = tag.slice(2).match(/([234])([mfy])(p)?-([^- ]+)(-x)?$/);
+				if(!m) {
+					logError(`Invalid [${tag}].`);
+					return "";
+				}
+				const [, n, g, p, c, nolink] = m;
+				const amount = n === "2" ? "half" : `one-${n === "3" ? "third" : "fourth"}`;
+				const pronoun = g === "m" ? "his" : (g === "f" ? "her" : "your");
+				flags.link = true;
+				const link = nolink  ? amount : `<Link to="/misc/${amount.replace(/-/g, "_")}">${amount}</Link>`;
+				return `${p ? "These bonuses are" : "This bonus is"} equal to ${link} of ${pronoun} ${c} level`;
 			} else if (tag === "list") {
 				return makeListBlock({
 					text,

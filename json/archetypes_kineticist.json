@@ -358,7 +358,7 @@
 			"",
 			"::ab[Mental Prowess (Su)]{icon=def-down ability=\"An overwhelming soul's mind is strong enough to protect her body from the stress of channeling the elements. However, in exchange, she is unable to push her limits quite as far as other kineticists. She can't choose to accept burn, though she can use wild talents with a burn cost if she can reduce that cost to 0 points with abilities such as *gather power* and *infusion specialization.* If she would be forced to accept burn against her will (for example, if she fails a concentration check), instead of taking burn she takes 1 temporary ‹rule/negative level›, which never kills her and can't be removed with ‹spell/restoration› or ‹spell/greater restoration›, but which disappears automatically after 24 hours.\" imp6=\"Once per day, she can reduce the total burn cost of any wild talent by 1.\" incrementPlain=\"She can reduce the burn~6~4\" incrementDesc=cost incrementEnd=\" times per day.\" alter=Burn replace=\"Internal buffer\"}",
 			"",
-			"::ab[Overwhelming Power (Ex)]{l=3 icon=boost passive=\"An overwhelming soul gains a bonus on attack rolls and damage rolls with her kinetic blasts. This bonus is equal to ‹misc/one-third› of her kineticist level. The damage bonus doesn't apply to ‹kinetic/kinetic blade›, ‹kinetic/kinetic whip›, or other infusions that don't apply the damage bonus from *elemental overflow.*\" replace=\"Elemental overflow\"}"
+			"::ab[Overwhelming Power (Ex)]{l=3 icon=boost passive=\"An overwhelming soul gains a bonus on attack rolls and damage rolls with her kinetic blasts. @B-3f-kineticist. The damage bonus doesn't apply to ‹kinetic/kinetic blade›, ‹kinetic/kinetic whip›, or other infusions that don't apply the damage bonus from *elemental overflow.*\" replace=\"Elemental overflow\"}"
 		]
 	},
 	"psammokinetic": {
@@ -390,11 +390,11 @@
 			"",
 			":::ab{l=3 icon=power-boost-def title=\"Ki Pool (Su)\" action=Ability replace=\"Elemental overflow\" imp7=\"As long as she has at least 1 point in her *ki pool,* her *sand blast* is treated as cold iron for the purpose of overcoming damage reduction (regardless of what infusion it is used with).\" imp10=\"Her *sand blast* is treated as a lawful weapon.\" imp16=\"Her *sand blast* is treated as ‹eq-material/adamantine› for the purpose of overcoming damage reduction and bypassing hardness.\"}",
 			"",
-			"A psammokinetic gains a pool of ki points, supernatural energy she can use to accomplish amazing feats. The number of points in a psammokinetic's *ki pool* is equal to ‹misc/half› her kineticist level plus her Constitution modifier. As long as she has at least 1 point in her *ki pool,* she gains a bonus on damage rolls with kinetic blasts. This bonus is equal to one-third of her kineticist level. The *kinetic blade* infusion does not add the bonus damage from this ability.",
+			"A psammokinetic gains a pool of ki points, supernatural energy she can use to accomplish amazing feats. The number of points in a psammokinetic's *ki pool* is equal to ‹misc/half› her kineticist level plus her Constitution modifier. As long as she has at least 1 point in her *ki pool,* she gains a bonus on damage rolls with kinetic blasts. @B-3f-kineticist-x. The *kinetic blade* infusion does not add the bonus damage from this ability.",
 			"",
 			"By spending 1 point from her *ki pool* as a @HL[swift action], a psammokinetic can do one of the following:",
 			"",
-			"- Double her bonus (if any) on damage rolls for having at least 1 point in her *ki pool,* and gain a bonus on attack rolls with her kinetic blasts. This bonus is equal to one-third of her kineticist level. This effect remains for 1d4 rounds.",
+			"- Double her bonus (if any) on damage rolls for having at least 1 point in her *ki pool,* and gain a bonus on attack rolls with her kinetic blasts. @B-3f-kineticist-x. This effect remains for 1d4 rounds.",
 			"- Gain a +2 dodge bonus to AC for 1 round.",
 			"- Increase her base speed by 20 feet for 1 round.",
 			"",

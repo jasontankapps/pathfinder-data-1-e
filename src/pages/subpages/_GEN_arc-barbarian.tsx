@@ -157,7 +157,7 @@ const _cave_dweller = {title: "Cave Dweller", jsx: <><h2 id="arc-barbarian-cave_
 <Pair single id="arc-barbarian-cave_dweller-tunnel-vision-ex">Tunnel Vision (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A cave dweller gains darkvision to a range of 60 feet and a bonus on Perception checks to detect ambushes, movement, and sound while in darkness. This bonus is equal to <Link to="/misc/one_third">one-third</Link> her barbarian level.</Pair>
+<Pair title="Passive Ability">A cave dweller gains darkvision to a range of 60 feet and a bonus on Perception checks to detect ambushes, movement, and sound while in darkness. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
 </Ability>
 <Ability id="arc-barbarian-cave_dweller-sun-walker-ex" icon={["armor-upgrade"]}>
 <Pair single id="arc-barbarian-cave_dweller-sun-walker-ex">Sun Walker (Ex)</Pair>
@@ -885,7 +885,7 @@ const _sea_reaver = {title: "Sea Reaver", jsx: <><h2 id="arc-barbarian-sea_reave
 <Pair single id="arc-barbarian-sea_reaver-savage-sailor-ex">Savage Sailor (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A sea reaver gains a bonus on Acrobatics, Climb, Profession (sailor), Survival, and Swim checks made in aquatic terrain, including aboard a ship or along shorelines. This bonus is equal to <Link to="/misc/one_third">one-third</Link> your barbarian level.</Pair>
+<Pair title="Passive Ability">A sea reaver gains a bonus on Acrobatics, Climb, Profession (sailor), Survival, and Swim checks made in aquatic terrain, including aboard a ship or along shorelines. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
 </Ability>
 <Ability id="arc-barbarian-sea_reaver-sure-footed-ex" icon={["upgrade"]}>
 <Pair single id="arc-barbarian-sea_reaver-sure-footed-ex">Sure-Footed (Ex)</Pair>
