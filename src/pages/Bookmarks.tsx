@@ -37,7 +37,7 @@ import {
 import { goTo } from '../store/historySlice';
 import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 const BookmarksPage: FC = () => {
 	const { db, order } = useAppSelector(state => state.bookmarks);

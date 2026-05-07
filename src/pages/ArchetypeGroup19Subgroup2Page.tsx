@@ -2,7 +2,7 @@ import getItem from '../components/getItem';
 import fighter from './subpages/_GEN_arc-fighter2';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested fighter archetype.</p></>, title: "Unknown"},

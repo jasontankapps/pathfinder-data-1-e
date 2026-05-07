@@ -21,7 +21,7 @@ import magic_tattoo from './subpages/_GEN_magic-tattoo';
 import magic_throne from './subpages/_GEN_magic-throne';
 import BasicPage from './BasicPage';
 import { Hierarchy } from '../types';
-import './Page.css';
+import './css/Page.css';
 
 const magic = {
 	...magic_altar,

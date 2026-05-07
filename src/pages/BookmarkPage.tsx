@@ -47,7 +47,7 @@ import useDarkMode from '../components/useDarkMode';
 import { GenStrict } from '../types';
 import BasicPage from './BasicPage';
 import '../components/Bookmarks.css';
-import './Page.css';
+import './css/Page.css';
 
 interface BaseProps {
 	id: string

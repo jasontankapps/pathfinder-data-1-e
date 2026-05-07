@@ -2,7 +2,7 @@ import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import misc from './subpages/_GEN_misc';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 type Data = typeof misc;
 

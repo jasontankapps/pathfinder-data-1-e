@@ -1,7 +1,7 @@
 import getItem from '../components/getItem';
 import families from './subpages/_GEN_family1';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 type Data = typeof families;
 

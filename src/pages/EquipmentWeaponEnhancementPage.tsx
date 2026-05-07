@@ -3,7 +3,7 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import equipment from './subpages/_GEN_eq-weaponenh';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 type Data = typeof equipment;
 

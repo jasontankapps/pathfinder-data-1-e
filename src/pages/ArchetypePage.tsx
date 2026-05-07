@@ -1,7 +1,7 @@
 import { ReactNode, lazy } from 'react';
 import { useParams } from 'wouter';
 import { GenStrict } from '../types';
-import './Page.css';
+import './css/Page.css';
 
 export interface ArchetypeProps {
 	id: string,

@@ -2,7 +2,7 @@ import { getGuaranteedItem } from '../components/getItem';
 import { Hierarchy } from '../types';
 import domains from './subpages/_GEN_domain3';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 type Data = typeof domains;
 

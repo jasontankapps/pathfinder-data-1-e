@@ -9,7 +9,7 @@ import hkdiscipline from './subpages/_GEN_hkdiscipline';
 import rangertrap from './subpages/_GEN_rangertrap';
 import BasicTalentPage from './BasicTalentPage';
 import { Gen, GenStrict } from '../types';
-import './Page.css';
+import './css/Page.css';
 
 const allTalents = {
 	talent,

@@ -3,7 +3,7 @@ import PageHeader from './components/PageHeader';
 import PageFooter from './components/PageFooter';
 import { AboutInfo } from './AboutOnlyPage';
 import main from './pages/subpages/_GEN_main1';
-import './pages/Page.css';
+import './pages/css/Page.css';
 
 const FrontPage: React.FC = () => {
 	const { title, jsx } = main.main;

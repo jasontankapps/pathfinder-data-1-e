@@ -4,7 +4,7 @@ import { setConstraint, toggleNoElephant, toggleNoMythic, toggleNoStamina } from
 import PageHeader from './components/PageHeader';
 import PageFooter from './components/PageFooter';
 import Link from './components/Link';
-import './pages/Page.css';
+import './pages/css/Page.css';
 
 const SettingsPage: React.FC = () => {
 	const { noStamina, noMythic, noElephant, constraint = 0 } = useAppSelector(state => state.settings);

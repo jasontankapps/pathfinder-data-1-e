@@ -1,7 +1,7 @@
 import { useLocation } from "wouter";
 import { prefixMatcher } from '../json/_GEN_prefixes';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 const matcher = new RegExp("^/($|(" + prefixMatcher + ")/)");
 

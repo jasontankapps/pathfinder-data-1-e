@@ -8,7 +8,7 @@ import kipower from './subpages/_GEN_kipower';
 import stylestrike from './subpages/_GEN_stylestrike';
 import BasicTalentPage from './BasicTalentPage';
 import { Gen, GenStrict } from '../types';
-import './Page.css';
+import './css/Page.css';
 
 const allTalents = {
 	invtalent,

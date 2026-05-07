@@ -2,7 +2,7 @@ import { useParams } from 'wouter';
 import sources from '../json/sources.json';
 import sourceRefMap from './subpages/_GEN_sources';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 export interface SourceProps {
 	title: string

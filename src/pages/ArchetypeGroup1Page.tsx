@@ -2,7 +2,7 @@ import getItem from '../components/getItem';
 import samurai from './subpages/_GEN_arc-samurai';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested samurai archetype.</p></>, title: "Unknown"},

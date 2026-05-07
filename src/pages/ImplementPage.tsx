@@ -3,7 +3,7 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import psychic_implements from './subpages/_GEN_implement';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 type Data = typeof psychic_implements;
 

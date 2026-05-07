@@ -19,7 +19,7 @@ import PageHeader from '../components/PageHeader';
 import Link from '../components/Link';
 import { FinderContext } from '../components/contexts';
 import { DisplayItemProps, Gen, Hierarchy } from '../types';
-import './Page.css';
+import './css/Page.css';
 
 interface PageProps extends Partial<DisplayItemProps> {
 	hasJL?: boolean

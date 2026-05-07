@@ -1,7 +1,7 @@
 import { lazy } from 'react';
 import data from '../json/_GEN_arc-monk.json';
 import ErrorPage from './ErrorPage';
-import './Page.css';
+import './css/Page.css';
 
 const ArchetypeGroup28Subgroup1Page = lazy(() => import("./ArchetypeGroup28Subgroup1Page"));
 const ArchetypeGroup28Subgroup2Page = lazy(() => import("./ArchetypeGroup28Subgroup2Page"));

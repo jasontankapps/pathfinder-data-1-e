@@ -4,7 +4,7 @@ import { Hierarchy } from '../types';
 import monster_types from './subpages/_GEN_type';
 import monster_subtypes from './subpages/_GEN_subtype';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 const topLinkT: Hierarchy = ["Creature Types", "main/umr_types"];
 const topLinkS: Hierarchy = ["Creature Subtypes", "main/umr_subtypes"];

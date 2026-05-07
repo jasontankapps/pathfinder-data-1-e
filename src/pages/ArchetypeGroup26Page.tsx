@@ -2,7 +2,7 @@ import getItem from '../components/getItem';
 import hunter from './subpages/_GEN_arc-hunter';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested hunter archetype.</p></>, title: "Unknown"},

@@ -49,8 +49,8 @@ import { setSearchQuery, setSearchFilter, SearchIndex } from '../store/searchSli
 import prefixes from '../json/_GEN_prefixes';
 //import fuseTranslatedIndex from '../json/_GEN_fuse-translated_data.json';
 import { Gen, Item, ParallelItem } from '../types';
-import './Page.css';
-import './SearchPage.css';
+import './css/Page.css';
+import './css/SearchPage.css';
 
 /*type SearchGroup =
 	"class" // 1

@@ -3,7 +3,7 @@ import medium from './subpages/_GEN_arc-medium';
 import ninja from './subpages/_GEN_arc-ninja';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},

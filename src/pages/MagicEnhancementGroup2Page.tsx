@@ -2,7 +2,7 @@ import { getGuaranteedItem } from '../components/getItem';
 import enhancements from './subpages/_GEN_magic-enh2';
 import { Hierarchy } from '../types';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 type Data = typeof enhancements;
 

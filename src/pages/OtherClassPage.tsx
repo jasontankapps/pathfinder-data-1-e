@@ -3,7 +3,7 @@ import { useLocation, useParams } from 'wouter';
 import npcclasses from './subpages/_GEN_npcclass';
 import sidekicks from './subpages/_GEN_sidekick';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 const classes = {...npcclasses, ...sidekicks};
 

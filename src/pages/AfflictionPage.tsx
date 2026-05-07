@@ -5,7 +5,7 @@ import diseases from './subpages/_GEN_disease';
 import infestations from './subpages/_GEN_infestation';
 import BasicPage from './BasicPage';
 import { Hierarchy } from '../types';
-import './Page.css';
+import './css/Page.css';
 
 type Affliction = "curse" | "disease" | "infestation";
 

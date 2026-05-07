@@ -3,7 +3,7 @@ import getItem from '../components/getItem';
 import magic from './subpages/_GEN_magic-rod';
 import BasicPage from './BasicPage';
 import { Hierarchy } from '../types';
-import './Page.css';
+import './css/Page.css';
 
 const topLink: Hierarchy = ["Magic Rods", "main/magic_rods"];
 

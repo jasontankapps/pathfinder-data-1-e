@@ -3,7 +3,7 @@ import summoner from './subpages/_GEN_arc-summoner';
 import swashbuckler from './subpages/_GEN_arc-swashbuckler';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},

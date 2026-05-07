@@ -3,7 +3,7 @@ import getItem from '../components/getItem';
 import rage_powers from './subpages/_GEN_ragepower';
 import BasicPage from './BasicPage';
 import { Hierarchy } from '../types';
-import './Page.css';
+import './css/Page.css';
 
 const tL: Hierarchy = ["Rage Powers", "ability/rage_powers"];
 

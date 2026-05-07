@@ -2,7 +2,7 @@ import getItem from '../components/getItem';
 import bard from './subpages/_GEN_arc-bard1';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested bard archetype.</p></>, title: "Unknown"},

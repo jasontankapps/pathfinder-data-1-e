@@ -2,7 +2,7 @@ import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import traps from './subpages/_GEN_trap';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 type Data = typeof traps;
 

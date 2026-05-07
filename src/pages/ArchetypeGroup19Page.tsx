@@ -1,7 +1,7 @@
 import { lazy } from 'react';
 import data from '../json/_GEN_arc-fighter.json';
 import ErrorPage from './ErrorPage';
-import './Page.css';
+import './css/Page.css';
 
 const ArchetypeGroup19Subgroup1Page = lazy(() => import("./ArchetypeGroup19Subgroup1Page"));
 const ArchetypeGroup19Subgroup2Page = lazy(() => import("./ArchetypeGroup19Subgroup2Page"));

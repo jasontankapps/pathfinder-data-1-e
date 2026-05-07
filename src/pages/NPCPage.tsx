@@ -2,7 +2,7 @@ import { lazy } from 'react';
 import { useParams } from 'wouter';
 import data from '../json/_GEN_npc.json';
 import ErrorPage from './ErrorPage';
-import './Page.css';
+import './css/Page.css';
 
 type Params = { id?: keyof typeof data };
 

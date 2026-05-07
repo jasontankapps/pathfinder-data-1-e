@@ -4,7 +4,7 @@ import kineticist from './subpages/_GEN_arc-kineticist';
 import antipaladin from './subpages/_GEN_arc-antipaladin';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
-import './Page.css';
+import './css/Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},

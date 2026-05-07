@@ -2,7 +2,7 @@ import { IonContent, IonList, IonPage, IonItem, IonItemDivider, IonLabel, IonIco
 import PageHeader from './components/PageHeader';
 import PageFooter from './components/PageFooter';
 import Link from './components/Link';
-import './pages/Page.css';
+import './pages/css/Page.css';
 
 export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 	<div className={className}>
