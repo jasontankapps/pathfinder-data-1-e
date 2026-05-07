@@ -1,0 +1,73 @@
+/* Find in Page */
+
+div.finder {
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: calc(100% - 2rem);
+	margin-inline: 1rem;
+	z-index: 9999;
+	background: var(--ion-color-step-100);
+	padding-inline: 0.5rem;
+	border-radius: 0 0 1rem 1rem;
+	border-width: 0.0625rem;
+	border-color: var(--ion-color-step-200);
+	border-style: solid;
+	border-block-start-width: 0;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	max-height: 3.5rem;
+	overflow: hidden;
+	transition:
+		transform ease-out 0.5s,
+		max-height ease-out 0.5s,
+		padding-block ease-out 0.5s,
+		opacity 0s;
+}
+div.finder.hidden {
+	transform: translateY(-2rem);
+	max-height: 0;
+	padding-block: 0;
+	opacity: 0;
+	transition:
+		transform ease-in 0.5s,
+		max-height ease-in 0.5s,
+		padding-block ease-in 0.5s,
+		opacity 0s 0.5s;
+}
+div.finder > * {
+	flex: 0 0 auto;
+}
+div.finder ion-searchbar {
+	margin-inline-end: 0.5rem;
+	height: 2rem;
+	flex: 1 1 50%;
+}
+div.finder ion-searchbar input {
+	background: transparent;
+}
+div.finder span.count {
+	margin: 0 1rem;
+}
+mark {
+	background: var(--ion-color-tertiary);
+	color: var(--ion-color-tertiary-contrast);
+}
+mark.current {
+	background: var(--ion-color-success);
+	color: var(--ion-color-success-contrast);
+}
+ion-popover ion-list[lines=full] {
+	padding-block: 0;
+}
+ion-popover ion-list[lines=full] ion-item:last-child::part(native) {
+	border-block-end: 0;
+}
+div.finder ion-icon.searchbar-search-icon {
+	display: none !important;
+}
+div.finder input.searchbar-input {
+	padding-inline: 1rem;
+}

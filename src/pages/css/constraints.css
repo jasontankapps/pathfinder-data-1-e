@@ -1,0 +1,102 @@
+/*
+	Select breakpoints are 20rem through 60rem
+	Side panel opens at 60rem or greater, adds about 20rem
+*/
+.selectTertiary ion-select::part(text) {
+	color: var(--ion-color-tertiary);
+}
+
+.settingsPage :is(.cxs,.cs,.cm,.cl,.cxl) { display: none; }
+@media (max-width: 20rem) {
+	.settingsPage .cnone { display: none; }
+}
+@media (20rem < width < 30rem) {
+	.settingsPage .cxs { display: initial; }
+}
+@media (30rem < width < 40rem) {
+	.settingsPage .cs { display: initial; }
+}
+@media (40rem < width < 50rem), (60rem < width < 70rem) {
+	.settingsPage .cm { display: initial; }
+}
+@media (70rem < width < 80rem), (60rem > width > 50rem) {
+	.settingsPage .cl { display: initial; }
+}
+@media (min-width: 80rem) {
+	.settingsPage .cxl { display: initial; }
+}
+
+.constraintXS ion-item:not(.mainItem) :is(ion-label, ion-label p),
+.constraintXS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
+	max-width: 20rem;
+}
+.constraintXS .subAbility {
+	max-width: 17.5rem !important;
+}
+
+.constraintS :is(ion-label,ion-label > p),
+.constraintS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
+	max-width: 30rem;
+}
+.constraintS .subAbility {
+	max-width: 27.5rem !important;
+}
+
+.constraintM :is(ion-label,ion-label > p),
+.constraintM div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
+	max-width: 40rem;
+}
+.constraintM .subAbility {
+	max-width: 37.5rem !important;
+}
+
+.constraintL :is(ion-label,ion-label > p),
+.constraintL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
+	max-width: 50rem;
+}
+.constraintL .subAbility {
+	max-width: 47.5rem !important;
+}
+
+.constraintXL :is(ion-label,ion-label > p),
+.constraintXL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
+	max-width: 60rem;
+}
+.constraintXL .subAbility {
+	max-width: 57.5rem !important;
+}
+
+/*
+	The 'columnar' class attempts to split
+	giant lists into vertical columns.
+*/
+
+div.columnar {
+	margin-inline: 0;
+	margin-block: 1em;
+}
+div.columnar :is(ul,ol) {
+	margin-block: 0;
+}
+@media (34rem > width > 25rem) {
+	div.columnar:not(.max2) {
+		columns: 2
+	}
+}
+@media (55rem > width > 34rem) {
+	div.columnar:not(.max2) {
+		columns: 3
+	}
+}
+@media (min-width: 55rem) {
+	div.columnar {
+		columns: 4
+	}
+	div.columnar.max3 {
+		columns: 3
+	}
+	div.columnar.max2 {
+		columns: 2
+	}
+}
+

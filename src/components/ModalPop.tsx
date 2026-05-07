@@ -11,7 +11,7 @@ const ModalPop: FC<PropsWithChildren<ModalProps>> = (props) => {
 	return (
 		<div
 			onClick={() => presentAlert(alertProps)}
-			className={"fakeButton" + (className ? " " + className : "")}
+			className={"fakePopButton" + (className ? " " + className : "")}
 		>{children || "?"}</div>
 	);
 };

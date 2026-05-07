@@ -1,0 +1,242 @@
+/* Ability Boxes */
+
+div.ability {
+	--ab-background: var(--ion-color-quaternary);
+	--ab-header: var(--ion-color-quaternary-header);
+	--ab-subheader: var(--ion-color-quaternary-subheader);
+	--ab-border: var(--ion-color-quaternary-border);
+}
+div.ability:nth-of-type(even) {
+	--ab-background: var(--ion-color-quinary);
+	--ab-header: var(--ion-color-quinary-header);
+	--ab-subheader: var(--ion-color-quinary-subheader);
+	--ab-border: var(--ion-color-quinary-border);
+}
+div.ability {
+	background: var(--ab-background);
+	margin-inline: 0.25rem;
+	display: grid;
+	grid-template-columns: calc(2.5rem + 2px) 4fr;
+	grid-auto-rows: min-content;
+	justify-content: center;
+	border-radius: 0.75rem;
+}
+div.ability.indent {
+	margin-inline-start: 1.25rem;
+}
+div.ability.indent2 {
+	margin-inline-start: 2.25rem;
+}
+div.ability div.sideNoteWrap div.tableWrap {
+	max-width: 100%;
+	width: auto;
+}
+div.abIcon {
+	grid-column: 1;
+	grid-row: 1 / span 20;
+	place-self: stretch;
+	font-size: 2rem;
+	padding: 0.25rem;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	border-color: var(--ab-border);
+	border-style: solid;
+	border-width: 0;
+	border-inline-end-width: 2px;
+}
+div.abIcon a {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+div.abSingle {
+	font-size: 1rem;
+	line-height: 1.15em;
+	grid-column: 2;
+	place-self: stretch;
+	border-style: solid;
+	border-color: var(--ab-border);
+	border-width: 0;
+	border-block-end-width: 2px;
+}
+div.abSingle.title {
+	color: var(--ion-color-step-950);
+	background: var(--ab-header);
+	border-start-end-radius: 0.75rem;
+	font-weight: bold;
+	text-align: center;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+div.abSingle.title div.flavor {
+	font-style: italic;
+	font-weight: normal;
+	margin: 0 0.25rem;
+	font-size: 0.9em;
+	line-height: 1em;
+	text-align: center;
+}
+div.abPair {
+	grid-column: 2;
+	place-self: stretch;
+	border-style: solid;
+	border-color: var(--ab-border);
+	border-width: 0;
+	border-block-end-width: 2px;
+	position: relative;
+}
+div:is(.abStart,.abEnd),
+div.abEnd p {
+	font-size: 1rem;
+	line-height: 1.25em;
+	border-width: 0;
+	text-align: start;
+}
+div.abEnd p:first-child {
+	margin-block-start: 0;
+}
+div.abEnd p:last-child {
+	margin-block-end: 0;
+}
+div.abStart {
+	float: inline-start;
+	text-align: end;
+	width: min-content;
+	min-width: 25%;
+	max-width: 75%;
+	background-color: var(--ab-subheader);
+	margin: 0;
+	margin-inline-end: 0.5rem;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-end;
+}
+div.abEnd li + li {
+	margin-block-start: 0.1rem;
+}
+div.abEnd.simple a {
+	text-decoration: none;
+}
+div.abStart:not(.plain) {
+	font-weight: bold;
+}
+div.abSingle:last-child,
+div.abPair:last-child {
+	border-block-end-width: 0;
+}
+div.abSingle,
+div.abPair,
+div.abStart {
+	min-height: 1.75rem;
+}
+div.ability.hasSubs {
+	margin-block-start: 1rem;
+	margin-block-end: 0;
+	border-radius: 0.75rem 0.75rem 0 0.75rem;
+	counter-reset: subcount 0;
+}
+div.ability.hasSubs :is(div.abSingle:last-child, div.abPair:last-child) {
+	border-block-end: 2px solid var(--ab-border);
+}
+div.subAbility {
+	--ab-background: var(--ion-color-quaternary-bg);
+	--ab-header: var(--ion-color-quaternary-subheader);
+	--ab-subheader: var(--ion-color-quaternary);
+	margin-inline-start: 2.75rem;
+	margin-inline-end: 0.25rem;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	border-radius: 0;
+	grid-template-columns: calc(2.5rem + 2px) 4fr;
+}
+div.ability:nth-of-type(even):is(div.subAbility) {
+	--ab-background: var(--ion-color-quinary-bg);
+	--ab-header: var(--ion-color-quinary-subheader);
+	--ab-subheader: var(--ion-color-quinary);
+}
+div.subAbility div.abIcon {
+	grid-column: 1;
+	grid-row: 2 / span 19;
+}
+div.subAbility div.abIcon + div.abSingle {
+	grid-column: 1 / span 2;
+}
+div.subAbility div.abSingle.title {
+	counter-increment: subcount 1;
+	text-align: start;
+	border-radius: 0;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: flex-start;
+}
+div.subAbility.numbered div.abSingle.title {
+	counter-increment: subcount 1;
+}
+div.subAbility + div.subAbility {
+	border-block-start: 2px solid var(--ab-border);
+}
+div.subAbility div.abSingle.title {
+	counter-increment: subcount 1;
+}
+div.subAbility.numbered div.abSingle.title {
+	counter-increment: subcount 1;
+}
+div.subAbility.numbered div.abSingle.title::before {
+	padding-inline-start: 0.5rem;
+	content: "(" counter(subcount) ") ";
+}
+/* div.subAbility:not(div.subAbility + div.subAbility):has(+ *:not(div.subAbility)) */
+div.subAbility:has(+ *:not(div.subAbility)),
+div.subAbility:last-child {
+	margin-block-end: 1rem;
+	border-radius: 0 0 0.75rem 0.75rem;
+}
+div:is(.ability, .subAbility) div.box {
+	padding-block: 0.25rem;
+	padding-inline: 0.5rem;
+}
+div.ability div.box div.tableWrap {
+	width: auto;
+	max-width: calc(
+		100vw
+		- 1rem    /* .box padding */
+		- 2rem    /* div.basicContent.simple padding */
+		- 0.5rem  /* div.ability margin */
+		- 2.5rem  /* Icon column */
+		- 2px     /* Icon column border */
+	);
+}
+div.subAbility div.box div.tableWrap {
+	max-width: calc(
+		100vw
+		- 1rem    /* .box padding */
+		- 2rem    /* div.basicContent.simple padding */
+		- 3rem    /* div.subAbility margin */
+		- 2.5rem  /* Icon column */
+		- 2px     /* Icon column border */
+	);
+}
+
+ion-alert.levelPop div.alert-message table {
+	margin: 0 auto;
+}
+ion-alert.levelPop div.alert-button-group button.alert-button {
+	background: var(--ion-color-tertiary);
+	color: var(--ion-color-tertiary-contrast);
+}
+div.fakePopButton {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 0.75rem;
+	margin: 0 0.5rem;
+	padding: 0 0.25rem;
+	background: var(--ion-color-tertiary);
+	color: var(--ion-color-tertiary-contrast);
+	border-radius: 0.25rem;
+}

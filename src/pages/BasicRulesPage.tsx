@@ -5,7 +5,6 @@ import usePageName from '../components/usePageName';
 import data from '../json/_GEN_rule.json';
 import { Hierarchy } from '../types';
 import BasicPage from './BasicPage';
-import './css/BasicRulesPage.css';
 import './css/Page.css';
 
 type Data = typeof data;

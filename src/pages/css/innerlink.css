@@ -1,0 +1,41 @@
+/* Scrolling via InnerLink */
+
+span.innerlink {
+	color: var(--ion-color-primary);
+	text-decoration: underline;
+	cursor: pointer;
+}
+*[data-hash-target],
+ion-item-divider[id],
+section[data-footnotes] li[id] {
+	transition:
+		background-color 0.5s ease-in 1.5s,
+		color 0.5s ease-in 1.5s;
+}
+:is(*[data-hash-target], ion-item-divider[id]) a,
+ion-item-divider[id] ion-label,
+section[data-footnotes] li[id]::before {
+	transition: color 0.5s ease-in 1.5s;
+}
+:is(a,span.innerlink).backToPreviousLink {
+	color: var(--ion-color-danger) !important;
+}
+
+*.highlight,
+ion-item-divider[id].highlight {
+	color: var(--ion-color-success-contrast) !important;
+	background-color: var(--ion-color-success) !important;
+	transition:
+		background-color 0.25s ease-out 0s,
+		color 0.25s ease-out 0s
+		!important;
+}
+section[data-footnotes] li[id].highlight::before {
+	color: var(--ion-color-success) !important;
+	transition: color 0.25s ease-out 0s !important;
+}
+*.highlight a,
+ion-item-divider[id].highlight :is(a, ion-label) {
+	color: var(--ion-color-success-contrast) !important;
+	transition: color 0.25s ease-out 0s !important;
+}

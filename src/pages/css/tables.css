@@ -1,0 +1,151 @@
+/* General Tables */
+
+ion-button.tableFilterButton {
+	float: inline-end;
+	font-size: 0.65rem;
+	margin-block: 0.5rem;
+}
+div.listLike ion-item.itemLike::part(native) {
+	border-block-end-width: 0.1875rem;
+	border-block-end-color: var(--ion-color-step-50);
+	border-block-end-style: solid;
+	height: 3.125rem;
+	box-sizing: border-box;
+	background: var(--ion-color-step-100);
+}
+
+div.tableWrap {
+	overflow-x: auto;
+	overflow-y: auto;
+	width: max-content;
+	scroll-margin-block-start: 80px;
+	max-width: calc(100% - 2rem);
+	/*
+		56px page header, (3.5rem)
+		56px page footer, (3.5rem)
+		16px extra margin (1rem)
+	*/
+	max-height: calc(100vh - 3.5rem - 3.5rem - 1rem);
+	margin: 0 auto;
+}
+div.displayTable { /* Dunno if this is needed, but... */
+	display: contents;
+}
+div:is(.displayTable,.tableWrap) + div:is(.displayTable,.tableWrap) {
+	margin-block-start: 1rem;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label div.tableWrap + :is(h2,h3,h4,h5,h6) {
+	margin-block-start: 0.75em;
+	margin-block-end: 0.5em;
+}
+table {
+	--half-width: 0.0625rem;
+	--full-width: 0.125rem;
+	background: var(--table-bg);
+	border-style: solid;
+	border-color: var(--table-border-color);
+	border-width: var(--half-width) var(--full-width) var(--half-width) 0;
+	border-collapse: separate !important;
+	border-spacing: 0 !important;
+	table-layout: fixed;
+	position: relative;
+}
+table tr :is(th, td) {
+	font-variant-numeric: tabular-nums;
+	padding-inline: 0.5rem;
+	padding-block: 0.4rem;
+	border-style: solid;
+	border-color: var(--table-border-color);
+	border-width: 0 var(--full-width) var(--half-width) 0;
+	text-align: center;
+	vertical-align: middle;
+	/* This is so linked cells will ripple */
+	position: relative;
+}
+table tr :is(th, td),
+table tr :is(th, td) li {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+table tr :is(th, td) li + li {
+	margin-block-start: 0.25rem;
+}
+.lastColumnStart table tr td:last-child,
+.firstColumnStart table tr td:first-child {
+	text-align: start;
+}
+.firstColumnEnd table tr td:first-child {
+	text-align: end;
+}
+table tr th:last-child {
+	border-width: var(--half-width) 0 var(--full-width) 0;
+}
+table tr td:last-child {
+	border-width: var(--half-width) 0;
+}
+table thead tr th {
+	position: sticky;
+	inset-block-start: 0;
+	color: var(--table-header-fg);
+	background: var(--table-header-bg);
+	border-width: var(--half-width) var(--full-width) var(--full-width) 0;
+	z-index: 3;
+}
+table tbody tr td:first-child {
+	inset-inline-start: 0;
+	border-width: 0 var(--full-width) var(--half-width) var(--full-width);
+}
+table thead tr th:first-child {
+	inset-inline-start: 0;
+	border-width: var(--half-width) var(--full-width) var(--full-width) var(--full-width);
+	z-index: 4;
+}
+table tbody tr td:first-child {
+	position: sticky;
+	background: var(--table-bg);
+	z-index: 2;
+}
+table tr td a {
+	text-decoration: none;
+}
+table tr p {
+	margin-block: 0;
+}
+table tr p + p {
+	margin-block: 0.5rem;
+}
+table tr td.cell-link {
+	color: var(--ion-color-primary);
+	cursor: pointer;
+}
+table thead tr th.sortable {
+	cursor: pointer;
+}
+table thead tr th.sortable div {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+table thead tr th.sortable div ion-icon {
+	padding: 0;
+	flex-shrink: 0;
+}
+table thead tr th.sortable div ion-icon.sortNil {
+	color: var(--ion-color-step-250);
+}
+table thead tr th.sortable div ion-icon.sortArrow {
+	color: var(--ion-color-secondary);
+}
+
+
+/* Basic Tables */
+
+table.basic {
+	border-width: var(--full-width);
+	border-collapse: collapse !important;
+	margin: 1rem auto;
+}
+table.basic tr :is(th, td) {
+	border-width: var(--full-width) !important;
+}

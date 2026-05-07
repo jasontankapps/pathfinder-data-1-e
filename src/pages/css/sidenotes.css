@@ -1,0 +1,129 @@
+/* SideNoteWrap */
+
+div.sideNoteWrap {
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-end;
+}
+div.sideNoteWrap.startAlign {
+	justify-content: flex-start;
+	padding-inline-start: 1rem;
+}
+div.sideNoteWrap div.tableWrap {
+	max-width: calc(100% - 1.75rem);
+	margin: 0 0 0 auto;
+}
+div.sideNoteWrap.startAlign div.tableWrap {
+	max-width: calc(100% - 1.75rem);
+	margin: 0 auto 0 0;
+}
+div.sideNoteWrap + div.sideNoteWrap {
+	margin-block-start: 1em;
+}
+div.sideNoteWrap table {
+	border-width: var(--half-width);
+	border-radius: 1.5em;
+}
+div.sideNoteWrap table tbody tr th:not([rowSpan]),
+div.sideNoteWrap.singular table tbody tr th {
+	color: var(--table-header-fg);
+	background: var(--table-header-bg);
+}
+div.sideNoteWrap table tbody tr :is(th, td) {
+	border-width: var(--half-width);
+}
+div.sideNoteWrap table tr:first-of-type th[rowSpan]:first-child,
+div.sideNoteWrap.singular table tr th:first-child {
+	border-start-start-radius: 1.5em;
+	border-end-start-radius: 1.5em;
+}
+div.sideNoteWrap.noIcon table tr:first-of-type th:first-child {
+	border-start-start-radius: 1.5em;
+}
+div.sideNoteWrap.noIcon table tr:last-of-type th:first-child {
+	border-end-start-radius: 1.5em;
+}
+div.sideNoteWrap table tr:first-of-type th[rowSpan]:first-child ion-icon {
+	font-size: 1.5rem;
+	line-height: 1rem;
+}
+div.sideNoteWrap.singular table tr th:first-child ion-icon {
+	font-size: 2rem;
+	line-height: 1rem;
+}
+div.sideNoteWrap table tr:first-of-type th[rowSpan]:first-child,
+div.sideNoteWrap.singular table tr th:first-child {
+	line-height: 0.5rem;
+}
+div.sideNoteWrap table tr:first-of-type > *:last-child {
+	border-start-end-radius: 1.5em;
+}
+div.sideNoteWrap table tr:last-of-type > *:last-child {
+	border-end-end-radius: 1.5em;
+}
+div.sideNoteWrap table tbody th[scope=row],
+div.sideNoteWrap:not(.singular) table tbody th[id] {
+	text-align: end;
+}
+div.sideNoteWrap table tbody tr td {
+	text-align: start;
+}
+div.sideNoteWrap table tbody td.extra {
+	text-align: end;
+	font-style: italic;
+}
+div.sideNoteWrap table tbody tr th.thLink ion-icon {
+	color: var(--ion-color-secondary);
+}
+div.sideNoteWrap.optional table tbody tr th.thLink ion-icon {
+	color: var(--ion-color-tertiary);
+}
+div.sideNoteWrap table tbody tr th.thLink {
+	cursor: pointer;
+	overflow: hidden;
+}
+div.sideNoteWrap.delist table ul {
+	margin-block: 0;
+	padding-inline-start: 0;
+	list-style-type: none;
+}
+div.sideNoteWrap.delist table ul li {
+	font-size: 0.875rem;
+	line-height: 1rem;
+}
+div.sideNoteWrap.delist table ul li + li {
+	margin-block-start: 0.25rem;
+}
+div.compilation div.sideNoteWrap table,
+div.compilation div.sideNoteWrap table :is(th, td) {
+	border-radius: 0 !important;
+}
+
+ion-content.noStamina div.sideNoteWrap.stamina,
+ion-content.noMythic div.sideNoteWrap.mythic,
+ion-content.noElephant div.sideNoteWrap.elephant,
+:is(div, blockquote):is(.showIfNoStamina,.showIfNoMythic,.showIfNoElephant) {
+	display: none;
+}
+:is(
+	ion-content.noStamina div.sideNoteWrap.stamina,
+	ion-content.noMythic div.sideNoteWrap.mythic,
+	ion-content.noElephant div.sideNoteWrap.elephant
+) + div.sideNoteWrap {
+	margin-block-start: 0;
+}
+ion-content#main.noMythic:not(.noStamina):not(.noElephant) div.sideNoteWrap.stamina + div.sideNoteWrap.mythic + div.sideNoteWrap.elephant {
+	/*
+		In feats, the order is ALWAYS [stamina -> mythic -> elephant],
+		therefore the margin must be preserved if a hidden mythic
+		exists between the stamina and elephant entries.
+	*/
+	margin-block-start: 1em;
+}
+ion-content#main.noStamina :is(div, blockquote).showIfNoStamina,
+ion-content#main.noMythic :is(div, blockquote).showIfNoMythic,
+ion-content#main.noElephant :is(div, blockquote).showIfNoElephant {
+	display: block;
+}

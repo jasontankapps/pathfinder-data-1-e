@@ -1,0 +1,336 @@
+ion-content {
+	scroll-margin-block-start: 80px;
+	scroll-margin-block-end: 80px;
+	position: relative;
+}
+ion-content hr {
+	border-color: var(--ion-color-step-150);
+	border-width: 0;
+	border-top-width: 0.0625rem;
+	border-style: solid;
+}
+
+ion-split-pane {
+	--side-width: 20rem;
+	--side-max-width: 20rem;
+}
+
+p,
+div.p {
+	margin-block: 1rem;
+	line-height: 1.5em;
+}
+
+ion-toast {
+	--width: max-content;
+	--max-width: 95vw;
+}
+ion-toast::part(container),
+ion-toast::part(message) {
+	text-align: center;
+}
+ion-checkbox div.label {
+	white-space: normal;
+}
+ion-alert.horizontalButtons div.alert-button-group {
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: flex-end;
+	align-content: space-between;
+}
+ion-alert.horizontalButtons div.alert-button-group button.alert-button {
+	margin: 0.25rem;
+}
+ion-alert button.alert-button:is(.delete,.overwrite) {
+	background: var(--ion-color-danger);
+	color: var(--ion-color-danger-contrast);
+}
+ion-alert button.alert-button.save {
+	background: var(--ion-color-success);
+	color: var(--ion-color-success-contrast);
+}
+ion-alert button.alert-button.cancel {
+	background: var(--ion-color-medium);
+	color: var(--ion-color-medium-contrast);
+}
+ion-alert h3.alert-sub-title {
+	border-block-start: 0;
+}
+ion-alert div.alert-wrapper {
+	border: 0.25rem solid var(--ion-color-step-250);
+	border-radius: 0.5rem !important;
+}
+
+div.hanging {
+	margin-block: 1rem;
+}
+blockquote.hanging {
+	margin-block: 1rem;
+	margin-inline-start: 0.5rem;
+	margin-inline-end: 0.25rem;
+}
+:is(blockquote,div).hanging p {
+	margin-block: 0.5rem;
+	padding-inline-start: 1.5rem;
+	text-indent: -1.5rem;
+}
+*.striped p:nth-child(odd) {
+	background: var(--ion-color-step-100);
+}
+:is(blockquote,div).hanging.striped p {
+	margin-block: 0;
+	padding-block: 0.4rem;
+	padding-inline-start: 2rem;
+	padding-inline-end: 0.5rem;
+	text-indent: -1.5rem;
+}
+:is(blockquote,div).hanging.striped p:first-child {
+	margin-block-start: 0.25rem;
+}
+:is(blockquote,div).hanging.striped p:last-child {
+	margin-block-end: 0.25rem;
+}
+:is(blockquote,div).hanging.striped p:nth-child(odd) {
+	padding-block: 0.1rem;
+	border-radius: 0.25rem 1rem 1rem 0.25rem;
+}
+
+:is(blockquote,p).no-top-margin {
+	margin-block-start: 0 !important;
+}
+p.no-bottom-margin {
+	margin-block-end: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6, div.headerLike {
+	border-block-start-width: 0.3125rem;
+	border-block-end-width: 0.125rem;
+	border-inline-start-width: 0;
+	border-inline-end-width: 0;
+	padding-block-start: 0.25rem;
+	padding-inline-start: 0.1rem;
+	border-block-start-color: var(--ion-color-light);
+	border-block-end-color: var(--ion-color-light-shade);
+	border-style: solid;
+}
+h3 {
+	border-block-start-width: 0.25rem;
+}
+h4 {
+	border-block-start-width: 0.1875rem;
+	padding-block-start: 0.1875rem;
+}
+h5, h6 {
+	border-block-start-width: 0.125rem;
+	border-block-end-width: 0.0625rem;
+	padding-block-start: 0.125rem;
+}
+h6 {
+	border-block-start-width: 0.0625rem;
+}
+:is(h1,h2,h3,h4,h5,h6,div.headerLike):first-child,
+:is(.hierarchyInset,.jumpList,p.diminishNextHeader) + :is(h1,h2,h3,h4,h5,h6,div.headerLike) {
+	border-block-start-width: 0;
+}
+div.headerLike {
+	font-size: 1.5rem;
+	margin-block-end: 1.35rem;
+	font-weight: bold;
+	line-height: 1.75rem;
+}
+div.headerLike div {
+	margin-block-end: 0;
+}
+div.headerLike div.sub {
+	font-size: 1.25rem;
+	padding-block-start: 0;
+	padding-inline-start: 1rem;
+}
+
+aside {
+	margin-inline-start: 3.5rem;
+	margin-inline-end: 2rem;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	box-shadow: inset var(--ion-color-light) 0 0 1.5rem 1rem;
+}
+aside p {
+	margin-block: 0;
+	text-align: justify;
+	line-height: 1.25rem;
+	font-size: 0.9rem;
+}
+aside p:first-child::first-letter {
+	font-size: 1.25rem;
+}
+aside p + p {
+	margin-block-start: 0.5rem;
+}
+div.tableWrap + aside {
+	margin-block-start: 1rem;
+}
+
+div.compressed > :is(p,div,blockquote),
+div.compressed > blockquote > p {
+	margin-block: 0;
+}
+
+ion-content.standalone ion-list {
+	padding-block: 0;
+}
+ion-item.user-focus::part(native) {
+	background: rgba( var(--ion-color-tertiary-rgb) , 0.25);
+}
+
+li {
+	font-size: 1rem;
+	line-height: 1.35rem;
+}
+li + li {
+	margin-block-start: 0.5rem;
+}
+section[data-footnotes] ol {
+	padding-inline: 40px; /* Matches base style */
+}
+section[data-footnotes] ol li::before {
+	display: inline-block;
+	padding: 0;
+	padding-inline-end: 0.25rem;
+	min-width: 40px; /* Matches base style */
+	box-sizing: border-box;
+	text-align: end;
+	content: counter(index, numeric) '.';
+	counter-increment:index;
+
+}
+section[data-footnotes] ol li:first-child {
+	counter-reset:index;
+}
+section[data-footnotes] ol li {
+	list-style: none;
+	font-size: 0.875rem;
+	margin: 0;
+	text-indent: -40px;
+}
+section[data-footnotes] ol li p {
+	display: contents;
+}
+
+strong.hl,
+div.hl {
+	color: var(--ion-color-tertiary);
+}
+
+strong.hl a,
+div.hl a {
+	color: var(--ion-color-secondary);
+}
+
+div.basicContent.simple,
+div.basicContent ion-item.mainItem {
+	user-select: text;
+}
+div.basicContent.simple {
+	padding-inline: 1rem;
+	padding-block-end: 1rem;
+}
+ion-list ion-item.item-lines-default::part(native) {
+	--border-width: 0 0 0.1875rem 0;
+}
+ion-list ion-item-divider {
+	--color: var(--faded-text);
+	font-weight: bold;
+	font-size: 1rem;
+	border-block-end-width: 0.1875rem;
+}
+
+ion-button[slot=end] + ion-button[slot=end],
+ion-buttons[slot=end] ion-button + ion-button {
+	margin-inline-start: 0.5rem;
+}
+ion-button[slot=start] + ion-button[slot=start],
+ion-buttons[slot=start] ion-button + ion-button {
+	margin-inline-end: 0.5rem;
+}
+
+/* Rules: Hierarchy */
+
+div.hierarchyInset {
+	text-align: end;
+	font-style: italic;
+	font-weight: bold;
+	margin-inline: 0.5rem;
+	margin-block-start: 0.5rem;
+	margin-block-end: 0;
+}
+div.basicContent.hasInset > div:nth-child(2) h2 {
+	margin-top: 0;
+}
+
+/* JumpList */
+
+div.jumpList {
+	background: var(--ion-color-light-shade);
+	border: 0.125rem solid var(--ion-color-light-tint);
+	border-radius: 1rem;
+	margin: 0.5rem;
+	text-align: end;
+	float: inline-end;
+	padding-inline: 0.625rem;
+	padding-block: 0.25rem;
+	margin-block-start: 0;
+	max-width: calc(60% - 1rem - 0.25rem);
+	z-index: 2;
+	position: relative;
+}
+div.jumpList h2 {
+	font-size: 1rem !important;
+	margin-block-start: 0 !important;
+	margin-block-end: 0.5rem !important;
+}
+div.jumpList ul {
+	margin: 0;
+	padding: 0;
+}
+div.jumpList ul li {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	color: var(--ion-color-primary);
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	text-align: end;
+}
+div.jumpList ul li::after {
+	content: "\204d"; /* Equals &#8269; */
+	display: block;
+	padding-inline-start: 0.25em;
+}
+div.jumpToTop {
+	position: fixed;
+	z-index: 1;
+	bottom: 6.5rem;
+	right: calc(50% - 0.75rem);
+	font-weight: bold;
+	padding: 0.25rem;
+	background: var(--ion-color-light-tint);
+	border: 0.125rem solid var(--ion-color-secondary-shade);
+	border-radius: 1rem;
+	width: 1.5rem;
+	text-align: center;
+	color: var(--ion-color-secondary);
+	text-decoration: none;
+	cursor: pointer;
+}
+ion-content ion-fab.goToTop {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 1s ease-out,visibility 0s;
+	margin-top: 1.5rem;
+}
+ion-content.atTop ion-fab.goToTop {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 250ms ease-in,visibility 0s 255ms;
+}

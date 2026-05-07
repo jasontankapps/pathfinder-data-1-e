@@ -1,0 +1,59 @@
+/* Class Blocks */
+
+table.class th {
+	text-align: end;
+	background: var(--table-header-bg);
+	color: var(--table-header-fg);
+}
+table.class td {
+	text-align: start;
+}
+table.class td.c {
+	text-align: center;
+}
+
+table.class {
+	border-radius: 1rem;
+	border-width: var(--full-width) 0 0 var(--full-width);
+	margin: 1rem auto;
+}
+table.class > tbody > tr > :is(th, td),
+table.class > thead > tr > th {
+	border-width: 0 var(--full-width) var(--full-width) 0;
+	position: relative;
+	border-radius: 0 0 0 0;
+}
+table.class :is(th, td).nw {
+	border-start-start-radius: 1rem;
+}
+table.class :is(th, td).ne {
+	border-start-end-radius: 1rem;
+}
+table.class :is(th, td).sw {
+	border-end-start-radius: 1rem;
+}
+table.class :is(th, td).se {
+	border-end-end-radius: 1rem;
+}
+
+table.class td .colFlex {
+	display: inline-flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+table.alignment,
+table.alignment td {
+	border-color: transparent;
+	margin: 0.5rem;
+	text-align: center;
+}
+table.alignment tbody tr td {
+	color: var(--ion-color-danger);
+	background: rgba( var(--ion-background-color-rgb) , 0.25);
+}
+table.alignment td[data-lit] {
+	background: var(--ion-text-color);
+	color: var(--ion-background-color);
+}

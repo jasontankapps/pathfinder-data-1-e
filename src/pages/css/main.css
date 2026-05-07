@@ -1,0 +1,80 @@
+/* Main */
+
+div.main ion-list {
+	padding-block: 0;
+}
+div.main ion-list ion-item.mainItem:first-child {
+	padding-block-start: 0.25rem;
+}
+div.main ion-list ion-item.mainItem {
+	text-align: start;
+}
+div.main ion-list ion-item.mainItem.indented {
+	text-align: start;
+}
+div.main ion-list ion-item.mainItem.indented ion-label {
+	padding-inline-start: 2rem;
+}
+div.main ion-list ion-item.mainItem.reversed {
+	text-align: end;
+}
+div.main.basicContent ion-list ion-item.mainItem.linked ion-label,
+div.main.basicContent ion-list ion-item.mainItem.linked {
+	--color: var(--ion-color-primary);
+	cursor: pointer;
+}
+div.main ion-list ion-item-divider.mainItem ion-label {
+	--color: var(--faded-text);
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label {
+	--color: var(--ion-text-color);
+	text-align: start;
+	display: block;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label p {
+	color: var(--ion-text-color);
+	margin-block-end: 0.85rem;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label :is(th, td) p {
+	margin-block-end: 0;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label h2 {
+	font-size: 1.5rem;
+	margin-block-end: 1.35rem;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label h3 {
+	font-size: 1.35rem;
+	margin-block-end: 1.25rem;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label h4 {
+	font-size: 1.25rem;
+	margin-block-end: 1.15rem;
+}
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label h5 {
+	font-size: 1.15rem;
+	margin-block-end: 1rem;
+}
+div.main.basicContent :is(h2,h3,h4,h5,h6) a {
+	text-decoration: none;
+}
+
+
+/* Main: Non-basic pages */
+
+ion-item.mainItem.linked ion-label.endcap {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+ion-item.mainItem.linked ion-label.bottomcap {
+	display: block;
+}
+ion-item.mainItem.linked ion-label.bottomcap div:nth-child(2) {
+	font-style: italic;
+	font-size: 0.75rem;
+	color: var(--ion-color-dark-tint);
+}
