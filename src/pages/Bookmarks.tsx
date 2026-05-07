@@ -51,7 +51,10 @@ const BookmarksPage: FC = () => {
 	const isDark = useDarkMode();
 	const [listObj, listRef] = useElement<HTMLIonListElement>();
 
-	const colors = useMemo(() => isDark ? darkColors : lightColors, [isDark]);
+	const { colors, names } = useMemo(() => {
+		const base = isDark ? darkColors : lightColors;
+		return { colors: base, names: colorNames.map(c => base[c]) };
+	}, [isDark]);
 
 	const ImportExport = useMemo(() => (
 		<IonButton onClick={() => { navigate(`/importexport`); dispatch(goTo(`/importexport`)); }}>
@@ -185,7 +188,7 @@ const BookmarksPage: FC = () => {
 							/>
 						</IonItem>
 						<IonItem>
-							<Circle colors={colorNames.map(c => colors[c])} color={colors[newColor]} onChange={hex => setNewColor(getColor(hex.hex))} />
+							<Circle colors={names} color={colors[newColor]} onChange={hex => setNewColor(getColor(hex.hex))} />
 						</IonItem>
 					</IonList>
 				</IonContent>

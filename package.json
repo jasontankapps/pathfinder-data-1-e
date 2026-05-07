@@ -31,6 +31,7 @@
     "@ionic/react": "^8.4.3",
     "@reduxjs/toolkit": "^2.5.1",
     "@uidotdev/usehooks": "^2.4.1",
+    "@uiw/react-color-circle": "^2.10.1",
     "axios": "^1.13.2",
     "electron-squirrel-startup": "^1.0.1",
     "fuse.js": "^7.0.0",

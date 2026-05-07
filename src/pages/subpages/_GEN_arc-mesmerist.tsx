@@ -850,7 +850,7 @@ const _vox = {title: "Vox", jsx: <><h2 id="arc-mesmerist-vox-vox">Vox</h2>
 </Ability>
 <Ability id="arc-mesmerist-vox-wounding-words-su" icon={["magic-palm","mailed-fist","armor-downgrade"]}>
 <Pair single id="arc-mesmerist-vox-wounding-words-su" flavor="A vox can focus the power of his voice to magnify the force of his blows in melee.">Wounding Words (Su)</Pair>
-<Pair hl title="Replaces">Touch treatment (3rd level), touch treatment (6th level)</Pair>
+<Pair hl title="Replaces">Touch treatment (minor), touch treatment (moderate)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
 <Pair title="Standard Action">A vox can either make a melee touch attack that deals 1d6 points of sonic damage plus 1 point per mesmerist level, or he can make a single attack with a melee weapon, adding the listed sonic damage to the damage dealt by his weapon on a successful attack.</Pair>
