@@ -940,6 +940,7 @@
 			"other_move_actions"
 		]
 	},
+	"drawing_a_weapon": { "redirect": "draw_or_sheathe_a_weapon" },
 	"mount_dismount_a_steed": {
 		"name": "Mount/Dismount a Steed",
 		"subtitle": "Move Action",

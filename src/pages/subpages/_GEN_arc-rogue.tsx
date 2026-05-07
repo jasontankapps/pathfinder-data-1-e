@@ -859,6 +859,9 @@ const _heister = {title: "Heister", jsx: <><h2 id="arc-rogue-heister-heister">He
 </Ability>
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/certainty">Certainty</Link> (unchained rogue only), <Link to="/talent/expert_leaper">expert leaper</Link>, <Link to="/talent/fast_getaway">fast getaway</Link>, <Link to="/talent/fast_picks">fast picks</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/getaway_artist">getaway artist</Link>, <Link to="/talent/ledge_walker">ledge walker</Link>, <Link to="/talent/quick_disable">quick disable</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/cutting_edge">Cutting edge</Link> (unchained rogue only), <Link to="/talent/fast_tumble">fast tumble</Link>, <Link to="/talent/getaway_master">getaway master</Link>, <Link to="/talent/hidden_mind">hidden mind</Link>, <Link to="/talent/skill_mastery">skill mastery</Link></p></>};
 const _investigator = {title: "Investigator", jsx: <><h2 id="arc-rogue-investigator-investigator">Investigator</h2>
+<blockquote>
+<p><em><strong>Note:</strong> This is a rogue archetype, and has no relation to the <Link to="/class/investigator">investigator</Link> hybrid class.</em></p>
+</blockquote>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 133</Link><br/>Not all rogues work against the law. Investigators use their skills to serve the law, often in the employ of nobles or in the pursuit of noble causes. In some cities cabals of investigators work for rulers or bureaucracies, but often an investigator is a free agent who pursues whatever mysteries come across her path. Of course, not all investigators serve the law. Crime lords and guildmasters often have squads of investigators serving their own nefarious purposes.</p>
 <Ability id="arc-rogue-investigator-follow-up-ex" icon={["rolling-dices","upgrade"]}>
 <Pair single id="arc-rogue-investigator-follow-up-ex">Follow Up (Ex)</Pair>
@@ -1663,177 +1666,387 @@ const _snare_setter = {title: "Snare Setter", jsx: <><h2 id="arc-rogue-snare_set
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/camouflage">Camouflage</Link>, <Link to="/talent/cunning_trigger">cunning trigger</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/snipers_eye">sniper's eye</Link></p></>};
 const _sniper = {title: "Sniper", jsx: <><h2 id="arc-rogue-sniper-sniper">Sniper</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 134</Link><br/>Some say that the sniper is the worst kind of assassin: a killer who waits silently in the shadows and then strikes from a distance without remorse. Snipers, of course, understand that such protestations about "cowardice" and "honor" regarding their profession are in fact merely the bleatings of sheep fearing the slaughter and pay them no heed. Most snipers take pride in their formidable abilities, which allow them to take life quickly, quietly, and efficiently, then disappear into their surroundings without a trace.</p>
-<p><strong>Accuracy (Ex):</strong> At 1st level, a sniper halves all range increment penalties when making ranged attacks with a bow or crossbow.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Deadly Range (Ex):</strong> At 3rd level, a sniper increases the range at which she can apply her sneak attack damage by 10 feet. This range increases by 10 feet for every 3 levels after 3rd.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the sniper archetype: <Link to="/talent/snipers_eye">sniper's eye</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/snap_shot">snap shot</Link>, <Link to="/talent/weapon_training">weapon training</Link> (<em>Combat Talents</em> group); <Link to="/talent/camouflage">camouflage</Link> (<em>Deception Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the sniper archetype: <Link to="/talent/defensive_roll">defensive roll</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link> (<em>Combat Talents</em> group); <Link to="/talent/master_of_disguise">master of disguise</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-sniper-accuracy-ex" icon={["bowman","upgrade"]}>
+<Pair single id="arc-rogue-sniper-accuracy-ex">Accuracy (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">A sniper halves all range increment penalties when making ranged attacks with a bow or crossbow.</Pair>
+</Ability>
+<Ability id="arc-rogue-sniper-deadly-range-ex" icon={["bowman","upgrade"]}>
+<Pair single id="arc-rogue-sniper-deadly-range-ex">Deadly Range (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="At 3rd Level">A sniper increases the range at which she can apply her sneak attack damage by 10 feet.</Pair>
+<Pair title="At 6th Level">This range becomes 20 feet.</Pair>
+<Pair title="At 9th Level">This range increases to 30 feet.</Pair>
+<Pair title="At 12th Level">This range becomes 40 feet.</Pair>
+<Pair title="At 15th Level">This range increases to 50 feet.</Pair>
+<Pair title="At 18th Level">This range becomes 60 feet.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/camouflage">Camouflage</Link>, <Link to="/talent/snap_shot">snap shot</Link>, <Link to="/talent/snipers_eye">sniper's eye</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/defensive_roll">Defensive roll</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link></p></>};
 const _snoop = {title: "Snoop", jsx: <><h2 id="arc-rogue-snoop-snoop">Snoop</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 47</Link><br/>Snoops are the underworld's version of detectives. They often act as information peddlers, specializing in gathering secrets through investigation, subterfuge, and coercion, and selling or trading those secrets for personal gain.</p>
-<p><strong>Inspiration (Ex):</strong> At 1st level, a snoop gains an ability similar to the <Link to="/class/investigator">investigator's</Link> inspiration class ability. The snoop begins with an inspiration pool equal to half her rogue level plus her Intelligence modifier (minimum of 1). Unlike an investigator, a snoop can only use inspiration on skill checks, not on attack rolls or saving throws. This ability is otherwise identical to the investigator class ability of the same name.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong> and <strong className="hl">evasion</strong>.</p>
-<p><strong>Investigator Talents (Ex):</strong> Beginning at 2nd level, and each time she selects a new rogue talent, a snoop can instead select one of the following investigator talents: <Link to="/invtalent/eidetic_recollection">eidetic recollection</Link>, <Link to="/invtalent/empathy">empathy</Link>, <Link to="/invtalent/hidden_agendas">hidden agendas</Link>, <Link to="/invtalent/inspired_alertness">inspired alertness</Link>, <Link to="/invtalent/inspired_intimidator">inspired intimidator</Link>, <Link to="/invtalent/item_lore">item lore</Link>, or <Link to="/invtalent/underworld_inspiration">underworld inspiration</Link>. Her effective investigator level for the purpose of these talents is equal to her rogue level. She still can't use inspiration on attack rolls or saving throws (so, for instance, she can't use the second part of hidden agendas).</p>
-<p><strong>Uncanny Snoop (Ex):</strong> At 4th level, a snoop gains a +2 bonus on Intimidate checks when trying to force an opponent to give her information (or Bluff and Diplomacy checks for the same purpose if she has the coax information rogue talent). She also gains a +2 bonus on Sense Motive checks to tell if someone's information is false. At 8th level, these bonuses increase to +4.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong> and <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Master of Whispers (Ex):</strong> At 8th level, a snoop receives the <Link to="/talent/rumormonger">rumormonger</Link> advanced rogue talent.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 8th level.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the snoop archetype: <Link to="/talent/black_market_connections">black market connections</Link> (<em>Other Magic-Related Talents</em> group); <Link to="/talent/coax_information">coax information</Link>, <Link to="/talent/fast_stealth">fast stealth</Link> (<em>Deception Talents</em> group); <Link to="/talent/follow_clues">follow clues</Link>, <Link to="/talent/strong_impression">strong impression</Link> (<em>Other Talents</em> group); <Link to="/talent/certainty">certainty</Link> (<em>Other Talents</em> group - unchained rogue only).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the snoop archetype: <Link to="/talent/hard_minded">hard minded</Link> (<em>Combat Talents</em> group); <Link to="/talent/hidden_mind">hidden mind</Link> (<em>Magical Talents</em> group); <Link to="/talent/cutting_edge">cutting edge</Link> (unchained rogue only), <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-snoop-inspiration-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-snoop-inspiration-ex">Inspiration (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding, evasion</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A snoop gains an ability similar to the <Link to="/class/investigator">investigator's</Link> inspiration class ability. The snoop begins with an inspiration pool equal to <Link to="/misc/half">half</Link> her rogue level plus her Intelligence modifier (minimum of 1). Unlike an investigator, a snoop can only use inspiration on skill checks, not on attack rolls or saving throws. This ability is otherwise identical to the investigator class ability of the same name.</Pair>
+</Ability>
+<Ability id="arc-rogue-snoop-inspiration-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-rogue-snoop-inspiration-ex" flavor="Text from the investigator class.">Inspiration (Ex)</Pair>
+<Pair title="Ability">Your inspiration pool refreshes each day, typically after you get a restful night's sleep.</Pair>
+<Pair title="Free Action">You can expend one use of inspiration from your pool to add 1d6 to the result of a check, including any on which you take 10 or 20. This choice is made after the check is rolled and before the results are revealed.</Pair>
+<Pair title="Usage">You can only use inspiration once per check or roll.</Pair>
+<Pair title="Special">You can use inspiration on any Knowledge, Linguistics, or Spellcraft skill checks without expending a use of inspiration, if you're trained in the skill.</Pair>
+</Ability>
+<Ability id="arc-rogue-snoop-investigator-talents-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-snoop-investigator-talents-ex">Investigator Talents (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">Each time she selects a new rogue talent, a snoop can instead select one of the following investigator talents: <Link to="/invtalent/eidetic_recollection">eidetic recollection</Link>, <Link to="/invtalent/empathy">empathy</Link>, <Link to="/invtalent/hidden_agendas">hidden agendas</Link>, <Link to="/invtalent/inspired_alertness">inspired alertness</Link>, <Link to="/invtalent/inspired_intimidator">inspired intimidator</Link>, <Link to="/invtalent/item_lore">item lore</Link>, or <Link to="/invtalent/underworld_inspiration">underworld inspiration</Link>. Her effective investigator level for the purpose of these talents is equal to her rogue level.</Pair>
+<Pair title="Special">She still can't use inspiration on attack rolls or saving throws (so, for instance, she can't use the second part of <em>hidden agendas</em>).</Pair>
+</Ability>
+<Ability id="arc-rogue-snoop-uncanny-snoop-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-snoop-uncanny-snoop-ex">Uncanny Snoop (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
+<Pair title="At 4th Level">A snoop gains a +2 bonus on Intimidate checks when trying to force an opponent to give her information (or Bluff and Diplomacy checks for the same purpose if she has the <em>coax information</em> rogue talent). She also gains a +2 bonus on Sense Motive checks to tell if someone's information is false.</Pair>
+<Pair title="At 8th Level">These bonuses increase to +4.</Pair>
+</Ability>
+<Ability id="arc-rogue-snoop-master-of-whispers-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-snoop-master-of-whispers-ex">Master of Whispers (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 8th level</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">A snoop receives the <Link to="/talent/rumormonger">rumormonger</Link> advanced rogue talent.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/black_market_connections">Black market connections</Link>, <Link to="/talent/certainty">certainty</Link> (unchained rogue only), <Link to="/talent/coax_information">coax information</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/follow_clues">follow clues</Link>, <Link to="/talent/strong_impression">strong impression</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/cutting_edge">Cutting edge</Link> (unchained rogue only), <Link to="/talent/hard_minded">hard minded</Link>, <Link to="/talent/hidden_mind">hidden mind</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link></p></>};
 const _spy = {title: "Spy", jsx: <><h2 id="arc-rogue-spy-spy">Spy</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 135</Link><br/>The best spies are like chameleons, but not only can they change their appearances to fit the situation, they can also change their personalities, allegiances, and even loves if that's what it takes to achieve their clandestine goals. Spies are the ultimate manipulators, and even those who commission their services sometimes find that they've merely served the spies' own interests.</p>
-<p><strong>Skilled Liar (Ex):</strong> Whenever a spy uses Bluff to attempt to deceive someone, she gains a bonus on the opposed roll equal to 1/2 her rogue level (minimum +1). This bonus does not apply to feint attempts or attempts to pass secret messages.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Poison Use (Ex):</strong> A 3rd level, a spy is trained in the use of poison and cannot accidentally poison herself when applying poison to a blade.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the spy archetype: <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link> (<em>Spellcasting Talents</em> group); <Link to="/talent/canny_observer">canny observer</Link> (<em>Trap Talents</em> group); <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/quick_disguise">quick disguise</Link> (<em>Deception Talents</em> group); <Link to="/talent/guileful_polyglot">guileful polyglot</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the spy archetype: <Link to="/talent/crippling_strike">crippling strike</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/stealthy_sniper">stealthy sniper</Link> (<em>Combat Talents</em> group); <Link to="/talent/master_of_disguise">master of disguise</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-spy-skilled-liar-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-spy-skilled-liar-ex">Skilled Liar (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Passive Ability">Whenever a spy uses <Link to="/skill/bluff">Bluff</Link> to attempt to deceive someone, she gains a bonus on the opposed roll equal to 1/2 her rogue level (minimum +1). This bonus does not apply to feint attempts or attempts to pass secret messages.</Pair>
+</Ability>
+<Ability id="arc-rogue-spy-poison-use-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-spy-poison-use-ex">Poison Use (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="At 3rd Level">A spy is trained in the use of poison and cannot accidentally poison herself when applying poison to a blade.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/canny_observer">Canny observer</Link>, <Link to="/talent/guileful_polyglot">guileful polyglot</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link>, <Link to="/talent/quick_disguise">quick disguise</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/crippling_strike">Crippling strike</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link></p></>};
 const _survivalist = {title: "Survivalist", jsx: <><h2 id="arc-rogue-survivalist-survivalist">Survivalist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 74</Link><br/>The survivalist focuses her talents on surviving harsh and unforgiving conditions that would kill a lesser rogue. Whether in blazing deserts or frigid arctic wastes - or simply the cold, hard reality of the streets - the survivalist uses her training to both ensure her own success and provide for the safety of her allies.</p>
-<p><strong>Hardy (Ex):</strong> At 1st level, a survivalist is already prepared to endure extreme hardships and environmental conditions. She can go twice the normal number of days without water and triple the normal number of days without food before feeling the effects of either thirst or starvation.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Endure Elements (Sp):</strong> At 3rd level, a survivalist rogue can use <Link to="/spell/endure_elements">endure elements</Link> once per day as a spell-like ability. The survivalist's caster level is the same as her rogue level.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the survivalist archetype: <Link to="/talent/iron_guts">iron guts</Link> (<em>Poison Talents</em> group); <Link to="/talent/resiliency">resiliency</Link> (<em>Combat Talents</em> group); <Link to="/talent/terrain_mastery">terrain mastery</Link> (<em>Deception Talents</em> group); <Link to="/talent/hold_breath">hold breath</Link>, <Link to="/talent/strong_stroke">strong stroke</Link>, <Link to="/talent/survivalist">survivalist</Link>, <Link to="/talent/wall_scramble">wall scramble</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the survivalist archetype: <Link to="/talent/another_day">another day</Link>, <Link to="/talent/defensive_roll">defensive roll</Link> (<em>Combat Talents</em> group); <Link to="/talent/feat">feat</Link>, <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-survivalist-hardy-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-survivalist-hardy-ex">Hardy (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A survivalist is already prepared to endure extreme hardships and environmental conditions. She can go twice the normal number of days without water and triple the normal number of days without food before feeling the effects of either thirst or starvation.</Pair>
+</Ability>
+<Ability id="arc-rogue-survivalist-endure-elements-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-rogue-survivalist-endure-elements-sp">Endure Elements (Sp)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A survivalist rogue can use <Link to="/spell/endure_elements">endure elements</Link> once per day as a spell-like ability. The survivalist's caster level is the same as her rogue level.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/hold_breath">Hold breath</Link>, <Link to="/talent/iron_guts">iron guts</Link>, <Link to="/talent/resiliency">resiliency</Link>, <Link to="/talent/strong_stroke">strong stroke</Link>, <Link to="/talent/survivalist">survivalist</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>, <Link to="/talent/wall_scramble">wall scramble</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/another_day">Another day</Link>, <Link to="/talent/defensive_roll">defensive roll</Link>, <Link to="/talent/feat">feat</Link>, <Link to="/talent/skill_mastery">skill mastery</Link></p></>};
 const _swamp_poisoner = {title: "Swamp Poisoner", jsx: <><h2 id="arc-rogue-swamp_poisoner-swamp-poisoner">Swamp Poisoner</h2>
-<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 4</Link><br/>Swamp poisoners use their own toxins to defend their homes and level the playing field. The swamp poisoner is an archetype available to <Link to="/race/grippli">grippli</Link> characters, and it is appropriate for rogues built using the rules from the Pathfinder RPG Core Rulebook as well as for unchained rogues.</p>
-<p><strong>Prerequisites:</strong> A swamp poisoner must have selected the toxic skin grippli alternate racial trait.</p>
-<p><strong>Mucous Membrane (Ex):</strong> A swamp poisoner gains a bonus equal to half his class level on Escape Artist checks and to his CMD when resisting grapple attempts (minimum 1).</p>
-<p>This replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Mark the Vein (Ex):</strong> At 2nd level, when the swamp poisoner attacks a target that is currently affected by his grippli racial poison, that target is denied its Dexterity bonus to AC. The target must be actively poisoned, not just suffering the effects of poison, such as lingering ability damage.</p>
-<p>This replaces the <strong className="hl">rogue talent</strong> gained at 2nd level.</p>
-<p><strong>Poison the Well (Ex):</strong> At 3rd level as a standard action, a swamp poisoner can smear the poison generated through the use of his toxic skin alternate racial trait onto the ground in a 5-foot area, instead of onto a weapon or his own body. The first creature other than the swamp poisoner to enter the area is exposed to the poison. The poison loses its potency after 1 hour. This area is considered a trap, and the DCs of Perception checks to notice it and Disable Device checks to disable it are equal to 10 + half the swamp poisoner's level + the swamp poisoner's Constitution modifier.</p>
-<p>The swamp poisoner also gains an extra use per day of his toxic skin alternate racial trait, plus one additional use per day for every 3 levels beyond 3rd.</p>
-<p>This replaces <strong className="hl">trap sense</strong>. An unchained rogue replaces <strong className="hl">danger sense</strong> instead.</p>
+<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 4</Link><br/>Swamp poisoners use their own toxins to defend their homes and level the playing field. The swamp poisoner is an archetype available to grippli characters, and it is appropriate for rogues built using the rules from the Pathfinder RPG Core Rulebook as well as for unchained rogues.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-swamp_poisoner--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><ul><li><Link to="/race/grippli">Grippli</Link></li><li><em>Toxic skin</em> alternate racial trait</li></ul></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-rogue-swamp_poisoner-mucous-membrane-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-rogue-swamp_poisoner-mucous-membrane-ex">Mucous Membrane (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Passive Ability">A swamp poisoner gains a bonus equal to half his class level on Escape Artist checks and to his CMD when resisting grapple attempts (minimum 1).</Pair>
+</Ability>
+<Ability id="arc-rogue-swamp_poisoner-mark-the-vein-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-rogue-swamp_poisoner-mark-the-vein-ex">Mark the Vein (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">When the swamp poisoner attacks a target that is currently affected by his grippli racial poison, that target is denied its Dexterity bonus to AC. The target must be actively poisoned, not just suffering the effects of poison, such as lingering ability damage.</Pair>
+</Ability>
+<Ability id="arc-rogue-swamp_poisoner-poison-the-well-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-swamp_poisoner-poison-the-well-ex">Poison the Well (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense (core rogue), danger sense (unchained rogue)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Standard Action">A swamp poisoner can smear the poison generated through the use of his toxic skin alternate racial trait onto the ground in a 5-foot area, instead of onto a weapon or his own body. The first creature other than the swamp poisoner to enter the area is exposed to the poison. The poison loses its potency after 1 hour. This area is considered a <Link to="/rule/traps">trap</Link>, and the DCs of Perception checks to notice it and Disable Device checks to disable it are equal to 10 + half the swamp poisoner's level + the swamp poisoner's Constitution modifier.</Pair>
+<Pair title="Ability">The swamp poisoner also gains extra uses per day of his toxic skin alternate racial trait equal to <Link to="/misc/one_third">one-third</Link> of his rogue level.</Pair>
+</Ability>
 </>};
 const _swashbuckler = {title: "Swashbuckler", jsx: <><h2 id="arc-rogue-swashbuckler-swashbuckler">Swashbuckler</h2>
+<blockquote>
+<p><em><strong>Note:</strong> This is a rogue archetype, and has no relation to the <Link to="/class/swashbuckler">swashbuckler</Link> hybrid class.</em></p>
+</blockquote>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 135</Link><br/>A paragon of mobile swordplay, the swashbuckler is a rogue who focuses almost exclusively on honing her skill at arms and perfecting daring acrobatic moves and elaborate flourishes that border on performance.</p>
-<p><strong>Martial Training (Ex):</strong> At 1st level, the swashbuckler may select one martial weapon to add to her list of weapon proficiencies. In addition, she may take the <Link to="/talent/combat_trick">combat trick</Link> rogue talent up to two times.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Daring (Ex):</strong> At 3rd level, a swashbuckler gains a +1 morale bonus on Acrobatics checks and saving throws against fear. This bonus increases by +1 for every 3 levels beyond 3rd.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the swashbuckler archetype: <Link to="/talent/offensive_defense">offensive defense</Link>, <Link to="/talent/powerful_sneak">powerful sneak</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/positioning_attack">positioning attack</Link>, <Link to="/talent/weapon_training">weapon training</Link> (<em>Combat Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the swashbuckler archetype: <Link to="/talent/crippling_strike">crippling strike</Link>, <Link to="/talent/entanglement_of_blades">entanglement of blades</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/redirect_attack">redirect attack</Link> (<em>Combat Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-swashbuckler-martial-training-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-swashbuckler-martial-training-ex">Martial Training (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The swashbuckler may select one martial weapon to add to her list of weapon proficiencies. In addition, she may take the <Link to="/talent/combat_trick">combat trick</Link> rogue talent up to two times.</Pair>
+</Ability>
+<Ability id="arc-rogue-swashbuckler-daring-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-swashbuckler-daring-ex">Daring (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">A swashbuckler gains a morale bonus on Acrobatics checks and saving throws against fear. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/offensive_defense">Offensive defense</Link>, <Link to="/talent/positioning_attack">positioning attack</Link>, <Link to="/talent/powerful_sneak">powerful sneak</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/crippling_strike">Crippling strike</Link>, <Link to="/talent/entanglement_of_blades">entanglement of blades</Link>, <Link to="/talent/redirect_attack">redirect attack</Link></p></>};
 const _swordmaster = {title: "Swordmaster", jsx: <><h2 id="arc-rogue-swordmaster-swordmaster">Swordmaster</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 164</Link><br/>A swordmaster meditates to strengthen her spiritual connection to her blade. She strives to perfect her skills by mastering six deadly trances. A swordmaster has the following class features.</p>
-<Ability icon={["skills"]} id="arc-rogue-swordmaster-undefined">
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-swordmaster--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/tengu">Tengu</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-rogue-swordmaster-undefined">
 <Pair id="arc-rogue-swordmaster-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Disguise, Knowledge (dungeoneering)</Pair></Ability>
-<p><strong>Trance (Ex):</strong> At 3rd level, a swordmaster learns to focus her martial prowess using an intense meditative trance. Under the influence of a trance, the swordmaster can perform fantastic martial feats. Entering a trance is a full-round action that provokes attacks of opportunity. The swordmaster can maintain the trance for a number of rounds per day equal to 4 + her Wisdom modifier. At each level beyond 3rd, she can remain in the trance for 1 additional round. She can end her trance as a free action. Following a trance, the swordmaster is fatigued for a number of rounds equal to 2 &times; the number of rounds she spent in the trance. A swordmaster cannot enter a new trance while fatigued but can otherwise enter a trance multiple times during a single encounter or combat. If a swordmaster falls unconscious, her trance immediately ends.</p>
-<p>At 3rd level, the swordmaster chooses one trance from the list below. She chooses another trance at 6th, 9th, 12th, 15th, and 18th level. She can only use one type of trance at a time.</p>
-<blockquote>
-<p><strong>Crane Trance (Ex):</strong> The swordmaster's blade rises and falls with the graceful sweeping arcs of the mountain crane. When in this trance, a swordmaster gains the benefits of the <Link to="/feat/crane_style">Crane Style</Link> feat.</p>
-<p><strong>Dragon Trance (Ex):</strong> Like the dragon, the swordmaster has honed the steadiness of her mind and body. When in this trance, a swordmaster gains the benefits of the <Link to="/feat/dragon_style">Dragon Style</Link> feat.</p>
-<p><strong>Leopard Trance (Ex):</strong> Using the swiftness of the leopard, a swordmaster's evasive footwork confuses her opponents. When in this trance, a swordmaster gains the benefits of the <Link to="/feat/mobility">Mobility</Link> feat.</p>
-<p><strong>Monkey Trance (Ex):</strong> As the monkey springs, the swordmaster leaps from the reach of her enemies. While in this trance, a swordmaster can make an Acrobatics check opposed by an opponent's CMD. If she succeeds, she may move 5 feet as a swift action within the opponent's threatened area; this movement does not provoke attacks of opportunity and does not count as a 5-foot step.</p>
-<p><strong>Serpent Trance (Ex):</strong> Like the serpent, the swordmaster's quick movements allow her to catch her opponent unawares. While in this trance, a swordmaster receives a +4 bonus on Bluff checks made to feint during combat.</p>
-<p><strong>Tiger Trance (Ex):</strong> The swordmaster pounces upon her opponents, striking with the ferocity and brute force of a wild tiger. While in this trance, a swordmaster can make a combat maneuver check against an opponent within charge range. If she succeeds, she may charge that opponent and make a full attack against that opponent.</p>
-</blockquote>
-<p>This ability replaces all increments of <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the swordmaster archetype: <Link to="/talent/befuddling_strike">befuddling strike</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/surprise_attack">surprise attack</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/stand_up">stand up</Link>, <Link to="/talent/weapon_training">weapon training</Link>, <Link to="/talent/positioning_attack">positioning attack</Link> (<em>Combat Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the swordmaster archetype: <Link to="/talent/crippling_strike">crippling strike</Link>, <Link to="/talent/confounding_blades">confounding blades</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/defensive_roll">defensive roll</Link>, <Link to="/talent/hunters_surprise">hunter's surprise</Link>, <Link to="/talent/redirect_attack">redirect attack</Link> (<em>Combat Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-swordmaster-trance-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-swordmaster-trance-ex">Trance (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Info">A swordmaster learns to focus her martial prowess using an intense meditative trance. Under the influence of a trance, the swordmaster can perform fantastic martial feats.</Pair>
+<Pair title="Full-Round Action">Entering a trance provokes attacks of opportunity. The swordmaster can maintain the trance for a number of rounds per day equal to 1 + her rogue level + her Wisdom modifier. She can end her trance as a <strong className="hl">free action</strong>.</Pair>
+<Pair title="Choice">The swordmaster chooses one trance from the list below.</Pair>
+<Pair title="At 6th Level">She chooses another trance from the list below.</Pair>
+<Pair title="At 9th Level">She chooses another trance from the list below.</Pair>
+<Pair title="At 12th Level">She chooses another trance from the list below.</Pair>
+<Pair title="At 15th Level">She chooses another trance from the list below.</Pair>
+<Pair title="At 18th Level">She chooses another trance from the list below.</Pair>
+<Pair title="Special">The swordmaster can only use one type of trance at a time. Following a trance, the swordmaster is <Link to="/misc/fatigued">fatigued</Link> for a number of rounds equal to 2 &times; the number of rounds she spent in the trance. A swordmaster cannot enter a new trance while fatigued but can otherwise enter a trance multiple times during a single encounter or combat. If a swordmaster falls unconscious, her trance immediately ends.</Pair>
+</Ability>
+<Ability id="arc-rogue-swordmaster-crane-trance-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-swordmaster-crane-trance-ex" flavor="The swordmaster's blade rises and falls with the graceful sweeping arcs of the mountain crane.">Crane Trance (Ex)</Pair>
+<Pair title="Ability">When in this trance, a swordmaster gains the benefits of the <Link to="/feat/crane_style">Crane Style</Link> feat.</Pair>
+</Ability>
+<Ability id="arc-rogue-swordmaster-dragon-trance-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-swordmaster-dragon-trance-ex" flavor="Like the dragon, the swordmaster has honed the steadiness of her mind and body.">Dragon Trance (Ex)</Pair>
+<Pair title="Ability">When in this trance, a swordmaster gains the benefits of the <Link to="/feat/dragon_style">Dragon Style</Link> feat.</Pair>
+</Ability>
+<Ability id="arc-rogue-swordmaster-leopard-trance-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-swordmaster-leopard-trance-ex" flavor="Using the swiftness of the leopard, a swordmaster's evasive footwork confuses her opponents.">Leopard Trance (Ex)</Pair>
+<Pair title="Ability">When in this trance, a swordmaster gains the benefits of the <Link to="/feat/mobility">Mobility</Link> feat.</Pair>
+</Ability>
+<Ability id="arc-rogue-swordmaster-monkey-trance-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-swordmaster-monkey-trance-ex" flavor="As the monkey springs, the swordmaster leaps from the reach of her enemies.">Monkey Trance (Ex)</Pair>
+<Pair title="Ability">While in this trance, a swordmaster can make an Acrobatics check opposed by an opponent's CMD. If she succeeds, she may move 5 feet as a <strong className="hl">swift action</strong> within the opponent's threatened area; this movement does not provoke attacks of opportunity and does not count as a 5-foot step.</Pair>
+</Ability>
+<Ability id="arc-rogue-swordmaster-serpent-trance-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-rogue-swordmaster-serpent-trance-ex" flavor="Like the serpent, the swordmaster's quick movements allow her to catch her opponent unawares.">Serpent Trance (Ex)</Pair>
+<Pair title="Ability">While in this trance, a swordmaster receives a +4 bonus on Bluff checks made to feint during combat.</Pair>
+</Ability>
+<Ability id="arc-rogue-swordmaster-tiger-trance-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-rogue-swordmaster-tiger-trance-ex" flavor="The swordmaster pounces upon her opponents, striking with the ferocity and brute force of a wild tiger.">Tiger Trance (Ex)</Pair>
+<Pair title="Ability">While in this trance, a swordmaster can make a combat maneuver check against an opponent within <Link to="/rule/charge">charge</Link> range. If she succeeds, she may charge that opponent and make a full attack against that opponent.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/befuddling_strike">Befuddling strike</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/positioning_attack">positioning attack</Link>, <Link to="/talent/stand_up">stand up</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/confounding_blades">Confounding blades</Link>, <Link to="/talent/crippling_strike">crippling strike</Link>, <Link to="/talent/defensive_roll">defensive roll</Link>, <Link to="/talent/hunters_surprise">hunter's surprise</Link>, <Link to="/talent/redirect_attack">redirect attack</Link></p></>};
 const _sylvan_trickster = {title: "Sylvan Trickster", jsx: <><h2 id="arc-rogue-sylvan_trickster-sylvan-trickster">Sylvan Trickster</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 77</Link><br/>Sylvan tricksters are rogues who model themselves after the mischievous fey of legend. Though not spellcasters, sylvan tricksters learn minor magical abilities reminiscent of those favored by fey creatures. The journey for many sylvan tricksters began in childhood, learning at an elder's knee the stories of the fey and the secrets of how to resist their tricks. Sylvan tricksters often live in areas where the boundary with the First World is thin, and a few have even been there: voluntarily or not.</p>
-<p><strong>Class Skills:</strong> A sylvan trickster adds Knowledge (nature) to her list of class skills and learns Sylvan as a bonus language. She does not gain Knowledge (dungeoneering) as a class skill.</p>
-<p>This alters the rogue's <strong className="hl">class skills</strong>.</p>
-<p><strong>Wild Empathy (Ex):</strong> A sylvan trickster can improve an animal's attitude. This ability functions as the <Link to="/class/druid">druid</Link> ability of the <Link to="/ability/wild_empathy">same name</Link>, using the sylvan trickster's rogue level as her effective druid level.</p>
-<p>This replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Fey Tricks:</strong> A sylvan trickster can select a witch <Link to="/ability/hexes">hex</Link> in place of a rogue talent. At 10th level, the sylvan trickster can select a hex or <Link to="/ability/major_hexes">major hex</Link> in place of a rogue talent. At 18th level, a sylvan trickster can select a hex, major hex, or <Link to="/ability/grand_hexes">grand hex</Link> in place of a rogue talent. She cannot select any hex more than once.</p>
-<p>This alters <strong className="hl">rogue talents</strong>.</p>
-<p><strong>Resist Nature's Lure (Ex):</strong> At 4th level, a sylvan trickster gains <Link to="/ability/resist_natures_lure">resist nature's lure</Link> as the druid ability of the same name.</p>
-<p>This replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Fey Resistance (Ex):</strong> At 8th level, a sylvan trickster gains DR 2/cold iron. At 11th level and every 3 levels thereafter, this damage reduction increases by 2 (to a maximum of DR 10/cold iron at 20th level).</p>
-<p>This replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the sylvan trickster archetype: <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link> (<em>Spellcasting Talents</em> group); <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/charmer">charmer</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link> (<em>Deception Talents</em> group); <Link to="/talent/survivalist">survivalist</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the sylvan trickster archetype: <Link to="/talent/familiar">familiar</Link> (<em>Magical Talents</em> group); <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability icon={["skills"]} id="arc-rogue-sylvan_trickster-undefined">
+<Pair id="arc-rogue-sylvan_trickster-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
+<Ability id="arc-rogue-sylvan_trickster-languages" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-sylvan_trickster-languages">Languages</Pair>
+<Pair title="Ability">A sylvan trickster learns Sylvan as a bonus language.</Pair>
+</Ability>
+<Ability id="arc-rogue-sylvan_trickster-wild-empathy-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-sylvan_trickster-wild-empathy-ex">Wild Empathy (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Ability">A sylvan trickster can improve an animal's attitude. This ability functions as the <Link to="/class/druid">druid</Link> ability of the <Link to="/ability/wild_empathy">same name</Link>, using the sylvan trickster's rogue level as her effective druid level.</Pair>
+</Ability>
+<Ability id="arc-rogue-sylvan_trickster-fey-tricks" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-sylvan_trickster-fey-tricks">Fey Tricks</Pair>
+<Pair hl title="Alters">Rogue talents</Pair>
+<Pair title="Ability">A sylvan trickster can select a witch <Link to="/ability/hexes">hex</Link> in place of a rogue talent.</Pair>
+<Pair title="At 10th Level">The sylvan trickster can select a hex or <Link to="/ability/major_hexes">major hex</Link> in place of a rogue talent.</Pair>
+<Pair title="At 18th Level">A sylvan trickster can select a hex, major hex, or <Link to="/ability/grand_hexes">grand hex</Link> in place of a rogue talent.</Pair>
+<Pair title="Special">She cannot select any hex more than once.</Pair>
+</Ability>
+<Ability id="arc-rogue-sylvan_trickster-resist-natures-lure-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-sylvan_trickster-resist-natures-lure-ex">Resist Nature's Lure (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A sylvan trickster gains <Link to="/ability/resist_natures_lure">resist nature's lure</Link> as the druid ability of the same name.</Pair>
+</Ability>
+<Ability id="arc-rogue-sylvan_trickster-fey-resistance-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-sylvan_trickster-fey-resistance-ex">Fey Resistance (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="At 8th Level">A sylvan trickster gains DR 2/cold iron.</Pair>
+<Pair title="At 14th Level">This damage reduction becomes 4/cold iron.</Pair>
+<Pair title="At 17th Level">This damage reduction increases to 6/cold iron.</Pair>
+<Pair title="At 20th Level">This damage reduction becomes 8/cold iron.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/camouflage">Camouflage</Link>, <Link to="/talent/charmer">charmer</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link>, <Link to="/talent/survivalist">survivalist</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/familiar">Familiar</Link>, <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link></p></>};
 const _thug = {title: "Thug", jsx: <><h2 id="arc-rogue-thug-thug">Thug</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 135</Link><br/>Some criminals steal with finesse, their victims only discovering the crime when the rogue is long gone and the coin already spent. A thug, on the other hand, cares nothing for finesse. Through both threat and violence, the thug gets what she wants by the promise of force, and has no problem making good on that promise as needed.</p>
-<p><strong>Frightening (Ex):</strong> Whenever a thug successfully uses Intimidate to demoralize a creature, the duration of the shaken condition is increased by 1 round. In addition, if the target is shaken for 4 or more rounds, the thug can instead decide to make the target frightened for 1 round.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Brutal Beating (Ex):</strong> At 3rd level, whenever a thug deals sneak attack damage, she can choose to forgo 1d6 points of sneak attack damage to make the target sickened for a number of rounds equal to 1/2 her rogue level. This ability does not stack with itself - only the most recent duration applies.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the thug archetype: <Link to="/talent/offensive_defense">offensive defense</Link>, <Link to="/talent/powerful_sneak">powerful sneak</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/weapon_training">weapon training</Link> (<em>Combat Talents</em> group); <Link to="/talent/strong_impression">strong impression</Link> (<em>Other Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the thug archetype: <Link to="/talent/crippling_strike">crippling strike</Link>, <Link to="/talent/deadly_sneak">deadly sneak</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/knock_out_blow">knock-out blow</Link> (<em>Combat Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-thug-frightening-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-rogue-thug-frightening-ex">Frightening (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Ability">Whenever a thug successfully uses <Link to="/skill/intimidate">Intimidate</Link> to demoralize a creature, the duration of the <Link to="/misc/shaken">shaken</Link> condition is increased by 1 round. In addition, if the target is shaken for 4 or more rounds, the thug can instead decide to make the target <Link to="/misc/frightened">frightened</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="arc-rogue-thug-brutal-beating-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-rogue-thug-brutal-beating-ex">Brutal Beating (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">Whenever a thug deals sneak attack damage, she can choose to forgo 1d6 points of sneak attack damage to make the target <Link to="/misc/sickened">sickened</Link> for a number of rounds equal to 1/2 her rogue level. This ability does not stack with itself - only the most recent duration applies.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/offensive_defense">Offensive defense</Link>, <Link to="/talent/powerful_sneak">powerful sneak</Link>, <Link to="/talent/strong_impression">strong impression</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/crippling_strike">Crippling strike</Link>, <Link to="/talent/deadly_sneak">deadly sneak</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link></p></>};
 const _tidal_trickster = {title: "Tidal Trickster", jsx: <><h2 id="arc-rogue-tidal_trickster-tidal-trickster">Tidal Trickster</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 55</Link><br/>Tidal tricksters roam the seas, using their skillful mastery of the currents to move across aquatic battlefields and throw their enemies off-balance.</p>
-<p><strong>Wisdom of the Waves (Ex):</strong> A tidal trickster gains a swim speed equal to her unmodified base land speed (or increases her swim speed by 10 feet, if she has a racial swim speed). Instead of the +8 bonus granted by a swim speed, she gains a racial bonus on Swim checks equal to 4 + half her rogue level (if she has a racial swim speed, she uses the better bonus). She gains a bonus on Bluff checks equal to half her rogue level. At 3rd level, she gains a +1 bonus on Will saves whenever she is underwater; this bonus increases by 1 at 6th level and every 3 levels thereafter.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong> and <strong className="hl">trap sense</strong>.</p>
-<p><strong>Liquid Disruption (Ex):</strong> At 4th level, a tidal trickster can use her knowledge of the cohesion of liquids to disrupt certain foes. She can deal sneak attack damage to oozes and creatures with the water subtype that are normally immune to <Link to="/misc/precision_damage">precision damage</Link> (such as <Link to="/monster/water_elemental">water elementals</Link>), and she ignores a <Link to="/class/kineticist">hydrokineticist's</Link> chance to negate precision damage from elemental overflow.</p>
-<p>This ability alters <strong className="hl">sneak attack</strong> and replaces <strong className="hl">uncanny dodge</strong> and the 4th-level <strong className="hl">rogue talent</strong>.</p>
-<p><strong>Tidal Distortion (Ex):</strong> At 8th level, while making a full attack underwater, a tidal trickster can give up one attack to create a tidal distortion. When she creates a tidal distortion, the tidal trickster moves up to 10 feet. If any part of her movement includes a square adjacent to one or more foes, she can choose one of those foes and attempt a Bluff check with a DC of 11 + either the enemy's Sense Motive or Swim modifier, whichever is higher. Her Bluff check is subject to any penalties the attack roll she sacrificed would have taken, and if she trades an iterative attack gained from having a high base attack bonus, she also takes a penalty based on that attack's lower base attack bonus (a -5 penalty for the second iterative attack, a -10 penalty for the third iterative attack, and a -15 penalty for the fourth iterative attack, if she manages to gain one). If she succeeds at the Bluff check, the movement doesn't provoke an attack of opportunity from that foe and the foe becomes <Link to="/rule/underwater_combat">off-balance</Link> until its next turn. A tidal trickster can give up any number of her attacks in a given full attack to create tidal distortions, but she can't give up two consecutive attacks.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong> and the 8th-level <strong className="hl">rogue talent</strong>.</p>
+<Ability id="arc-rogue-tidal_trickster-wisdom-of-the-waves-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-rogue-tidal_trickster-wisdom-of-the-waves-ex">Wisdom of the Waves (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding, trap sense</Pair>
+<Pair title="Ability">A tidal trickster gains a swim speed equal to her unmodified base land speed (or increases her swim speed by 10 feet, if she has a racial swim speed). Instead of the +8 bonus granted by a swim speed, she gains a racial bonus on Swim checks equal to 4 + half her rogue level (if she has a racial swim speed, she uses the better bonus).</Pair>
+<Pair title="Passive Ability">She gains a bonus on Bluff checks equal to half her rogue level.</Pair>
+<Pair title="At 3rd Level">She gains a bonus on Will saves whenever she is underwater. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-tidal_trickster-liquid-disruption-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="arc-rogue-tidal_trickster-liquid-disruption-ex" flavor="A tidal trickster can use her knowledge of the cohesion of liquids to disrupt certain foes.">Liquid Disruption (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge and the 4th-level, rogue talent</Pair>
+<Pair hl title="Alters">Sneak attack</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">She can deal sneak attack damage to oozes and creatures with the water subtype that are normally immune to <Link to="/misc/precision_damage">precision damage</Link> (such as <Link to="/monster/water_elemental">water elementals</Link>), and she ignores a <Link to="/class/kineticist">hydrokineticist's</Link> chance to negate precision damage from <em>elemental overflow.</em></Pair>
+</Ability>
+<Ability id="arc-rogue-tidal_trickster-tidal-distortion-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-tidal_trickster-tidal-distortion-ex">Tidal Distortion (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge and the 8th-level, rogue talent</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">While making a full attack underwater, a tidal trickster can give up one attack to create a <em>tidal distortion.</em> When she creates a <em>tidal distortion,</em> the tidal trickster moves up to 10 feet. If any part of her movement includes a square adjacent to one or more foes, she can choose one of those foes and attempt a Bluff check with a DC of 11 + either the enemy's Sense Motive or Swim modifier, whichever is higher. Her Bluff check is subject to any penalties the attack roll she sacrificed would have taken, and if she trades an iterative attack gained from having a high base attack bonus, she also takes a penalty based on that attack's lower base attack bonus (a -5 penalty for the second iterative attack, a -10 penalty for the third iterative attack, and a -15 penalty for the fourth iterative attack, if she manages to gain one). If she succeeds at the Bluff check, the movement doesn't provoke an attack of opportunity from that foe and the foe becomes <Link to="/rule/off_balance">off-balance</Link> until its next turn.</Pair>
+<Pair title="Special">A tidal trickster can give up any number of her attacks in a given full attack to create <em>tidal distortions,</em> but she can't give up two consecutive attacks.</Pair>
+</Ability>
 </>};
 const _toxic_talon = {title: "Toxic Talon", jsx: <><h2 id="arc-rogue-toxic_talon-toxic-talon">Toxic Talon</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 75</Link><br/>Twilight Talons might pursue many tasks, from relatively passive information gathering to staging massive coups meant to depose tyrants. A toxic talon, however, is trained and deployed for one very specific purpose: to defeat foes with unusual and potent poisons. After adopting a profession to serve as a cover for his activities, a toxic talon spends resources and time combining easy-to-obtain materials into dangerous toxins to aid in the defense of Andoran. A toxic talon can use rare, complex, slow-release poisons to make a death look like it happened naturally, but sometimes the toxic talon will use specific poisons to cast suspicion on other organizations, stirring internal conflict that other Twilight Talons can use to their advantage.</p>
 <p>The use of poisons in the defense of a good nation is controversial, and other branches of the <Link to="/rule/eagle_knights">Eagle Knights</Link> generally disavow the existence of toxic talons among their organization. Many influential leaders among the Eagle Knights, particularly in the Steel Falcons, have pushed to have the practices of the toxic talons banned from use, but these efforts have only pushed the toxic talons into further obscurity. Their role is particularly protected by the Twilight Talons, who sometimes go as far as to outright lie to others in the Eagle Knights about the operations of a toxic talon. At other times, a toxic talon may choose to martyr his freedom by publicly accepting blame for a mission that has had unfortunate public repercussions. In such a case, the toxic talon is not abandoned by his kin - instead, he is placed on a fair and public trial whose purpose is as much to appease the masses as it is to determine whether any moral lines were crossed. In cases where such a toxic talon is found guilty, he is generally sentenced to hard labor or prison (in which case he often continues to run missions inside of prisons or other fortifications for the Eagle Knights as best suits his talents) or to exile (in which case his role in serving Andoran shifts to one of clandestine missions in other nations). A toxic talon who martyrs his freedom in this way and is then captured again understands that it's unlikely he'll be afforded the same level of support from the Eagle Knights, and that the organization may well disavow any official knowledge of his actions. To a toxic talon, this is all merely a deeper, more significant level of service to the well-being of the nation of Andoran. By serving as a sort of sineater for the rest of the Twilight Talons (and at times, for the other branches of the Eagle Knights), such selfless characters can ensure that the organization survives scandal and public outcry to carry on their good work. In such cases, while public recognition for their deeds may never manifest, their brothers and sisters never forget the toxic talon's sacrifice.</p>
-<p><strong>Forceful Breath (Ex):</strong> A toxic talon is proficient with <Link to="/eq-weapon/blowgun">blowguns</Link> instead of hand crossbows. He can use a blowgun without penalty while prone.</p>
-<p>This alters the rogue's <strong className="hl">weapon proficiencies</strong>.</p>
-<p><strong>Poison Adept (Ex):</strong> A toxic talon is trained in the use of poison and cannot accidentally poison himself when applying poison to a projectile weapon. He can apply poison to a projectile as a move action. This counts as the <Link to="/ability/poison_use">poison use</Link> ability for the purposes of qualifying for feats, prestige classes, and other options.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Toxin Resistance (Ex):</strong> A toxic talon's constant exposure to varied poisons grants him increasing resistance to them. At 3rd level, a toxic talon gains a +1 bonus on saving throws against diseases and poisons, and he gains a +1 bonus on Heal checks to treat diseases and poisons. He also gains a +1 bonus on caster level checks (including when he activates a magic item) to treat or remove poisons and diseases, such as when using <Link to="/spell/remove_disease">remove disease</Link> or <Link to="/spell/neutralize_poison">neutralize poison</Link>. Finally, he gains a +1 bonus on Perception checks to identify traps that utilize diseases or poisons. These bonuses increase to +2 at 6th level, to +3 at 9th level, to +4 at 12th level, to +5 at 15th level, and to +6 at 18th level.</p>
-<p>This replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Catalyst (Su):</strong> At 4th level, a toxic talon can use secret alchemical techniques to enhance a poison as he applies it to a weapon, increasing the save DC of the poison by 1 (this bonus increases to +2 at 12th level). This increase to the save DC lasts for 1 minute or until the poison is used up, whichever comes first. A toxic talon can use catalyst once per hour.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Split Toxin (Su):</strong> At 8th level, when a toxic talon uses catalyst to enhance poison as he applies it, he can envenom two ranged weapons or units of ammunition simultaneously with the same dose.</p>
-<p>This ability replaces the rogue's <strong className="hl">improved uncanny dodge</strong>.</p>
+<Ability id="arc-rogue-toxic_talon-forceful-breath-ex" icon={["broken-shield","stairs-goal"]}>
+<Pair single id="arc-rogue-toxic_talon-forceful-breath-ex">Forceful Breath (Ex)</Pair>
+<Pair hl title="Alters">Weapon proficiencies</Pair>
+<Pair title="Ability">A toxic talon is proficient with <Link to="/eq-weapon/blowgun">blowguns</Link> instead of hand crossbows. He can use a blowgun without penalty while prone.</Pair>
+</Ability>
+<Ability id="arc-rogue-toxic_talon-poison-adept-ex" icon={["armor-upgrade","stairs-goal"]}>
+<Pair single id="arc-rogue-toxic_talon-poison-adept-ex">Poison Adept (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Passive Ability">A toxic talon is trained in the use of poison and cannot accidentally poison himself when applying poison to a projectile weapon.</Pair>
+<Pair title="Move-Equivalent Action">He can apply poison to a projectile.</Pair>
+<Pair title="Special">This counts as the <Link to="/ability/poison_use">poison use</Link> ability for the purposes of qualifying for feats, prestige classes, and other options.</Pair>
+</Ability>
+<Ability id="arc-rogue-toxic_talon-toxin-resistance-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-toxic_talon-toxin-resistance-ex" flavor="A toxic talon's constant exposure to varied poisons grants him increasing resistance to them.">Toxin Resistance (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">A toxic talon gains a bonus on saving throws against diseases and poisons, and he gains a bonus on Heal checks to treat diseases and poisons. He also gains a bonus on caster level checks (including when he activates a magic item) to treat or remove poisons and diseases, such as when using <Link to="/spell/remove_disease">remove disease</Link> or <Link to="/spell/neutralize_poison">neutralize poison</Link>. Finally, he gains a bonus on Perception checks to identify traps that utilize diseases or poisons. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of his rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-toxic_talon-catalyst-su" icon={["upgrade"]}>
+<Pair single id="arc-rogue-toxic_talon-catalyst-su">Catalyst (Su)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A toxic talon can use secret alchemical techniques to enhance a poison as he applies it to a weapon, increasing the save DC of the poison by 1. This increase to the save DC lasts for 1 minute or until the poison is used up, whichever comes first.</Pair>
+<Pair title="At 12th Level">The save DC now increases by 2.</Pair>
+<Pair title="Special">A toxic talon can use <em>catalyst</em> once per hour.</Pair>
+</Ability>
+<Ability id="arc-rogue-toxic_talon-split-toxin-su" icon={["upgrade"]}>
+<Pair single id="arc-rogue-toxic_talon-split-toxin-su">Split Toxin (Su)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">When a toxic talon uses <em>catalyst</em> to enhance poison as he applies it, he can envenom two ranged weapons or units of ammunition simultaneously with the same dose.</Pair>
+</Ability>
 </>};
 const _trapsmith = {title: "Trapsmith", jsx: <><h2 id="arc-rogue-trapsmith-trapsmith">Trapsmith</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 135</Link><br/>Some rogues are not content with just disabling traps - they love to build them, finding a captivating beauty in the turning of gears and the slither of ropes over pulleys. The trapsmith may have started out putting together traps in order to better understand how to disable them, but for most, it's long since gone beyond that - they now relish the challenge of creating the perfect combat machine.</p>
-<p><strong>Careful Disarm (Ex):</strong> At 4th level, whenever a trapsmith attempts to disarm a trap using Disable Device, she does not spring the trap unless she fails by 10 or more. If she does set off a trap she was attempting to disarm, she adds double her trap sense bonus to avoid the trap.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Trap Master (Ex):</strong> At 8th level, whenever a trapsmith disarms a trap using Disable Device, she can bypass it even if her check did not exceed the DC by 10 or more. If it is a magic trap that allows specific creatures to pass it without danger, she can modify which creatures it allows to pass, adding her allies and restricting enemies if she desires.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the trapsmith archetype: <Link to="/talent/befuddling_strike">befuddling strike</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/cunning_trigger">cunning trigger</Link>, <Link to="/talent/quick_trapsmith">quick trapsmith</Link> (<em>Trap Talents</em> group); <Link to="/talent/quick_disable">quick disable</Link> (<em>Disable Device Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the trapsmith archetype: <Link to="/talent/another_day">another day</Link> (<em>Combat Talents</em> group); <Link to="/talent/frugal_trapsmith">frugal trapsmith</Link>, <Link to="/talent/skill_mastery">skill mastery</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-trapsmith-careful-disarm-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-rogue-trapsmith-careful-disarm-ex">Careful Disarm (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">Whenever a trapsmith attempts to disarm a trap using Disable Device, she does not spring the trap unless she fails by 10 or more. If she does set off a trap she was attempting to disarm, she adds double her <em>trap sense</em> bonus to avoid the trap.</Pair>
+</Ability>
+<Ability id="arc-rogue-trapsmith-trap-master-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-trapsmith-trap-master-ex">Trap Master (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Whenever a trapsmith disarms a trap using Disable Device, she can bypass it even if her check did not exceed the DC by 10 or more. If it is a magic trap that allows specific creatures to pass it without danger, she can modify which creatures it allows to pass, adding her allies and restricting enemies if she desires.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/befuddling_strike">Befuddling strike</Link>, <Link to="/talent/cunning_trigger">cunning trigger</Link>, <Link to="/talent/quick_disable">quick disable</Link>, <Link to="/talent/quick_trapsmith">quick trapsmith</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/another_day">Another day</Link>, <Link to="/talent/frugal_trapsmith">frugal trapsmith</Link>, <Link to="/talent/skill_mastery">skill mastery</Link></p></>};
 const _underground_chemist = {title: "Underground Chemist", jsx: <><h2 id="arc-rogue-underground_chemist-underground-chemist">Underground Chemist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 109</Link><br/>Underground chemists are part of the rotting, fetid underbelly of the alchemical world. While underground chemists can't hold a candle to dedicated alchemists, they're tricky and dangerous with alchemical substances and potions.</p>
-<p><strong>Chemical Weapons (Ex):</strong> At 2nd level, an underground chemist is able to retrieve an alchemical item as if drawing a weapon. She adds her Intelligence modifier to damage dealt with splash weapons, including any splash damage. She adds 1/2 her level to Craft (alchemy) checks.</p>
-<p>This ability replaces <strong className="hl">evasion</strong>.</p>
-<p><strong>Precise Splash Weapons (Ex):</strong> At 4th level, an underground chemist can deal sneak attack damage with splash weapons. The attack must be her first attack that round, qualify for dealing sneak attack damage (such as against a flat-footed target), and be directed at a creature rather than a square.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 4th level.</p>
-<p><strong>Discovery (Su):</strong> At 10th level, an underground chemist can select one of the following <Link to="/ability/discoveries">alchemist discoveries</Link> in place of a rogue talent: <Link to="/discovery/concentrate_poison">concentrate poison</Link>, <Link to="/discovery/dilution">dilution</Link>, <Link to="/discovery/enhance_potion">enhance potion</Link>, <Link to="/discovery/extend_potion">extend potion</Link>, <Link to="/discovery/mummification">mummification</Link>, <Link to="/discovery/nauseating_flesh">nauseating flesh</Link>, <Link to="/discovery/poison_conversion">poison conversion</Link>, <Link to="/discovery/preserve_organs">preserve organs</Link>, <Link to="/discovery/spontaneous_healing">spontaneous healing</Link>, or <Link to="/discovery/sticky_poison">sticky poison</Link>. She uses her rogue level as her alchemist level for determining the effects of her discoveries and whether she is able to select one.</p>
-<p>This ability alters <strong className="hl">advanced talents</strong>.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the underground chemist archetype: <Link to="/talent/snipers_eye">sniper's eye</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/lasting_poison">lasting poison</Link>, <Link to="/talent/swift_poison">swift poison</Link> (<em>Poison Talents</em> group); <Link to="/talent/black_market_connections">black market connections</Link> (<em>Other Magic-Related Talents</em> group); <Link to="/talent/fast_fingers">fast fingers</Link> (<em>Deception Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the underground chemist archetype: <Link to="/talent/deadly_cocktail">deadly cocktail</Link> (<em>Combat Talents</em> group); <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-underground_chemist-chemical-weapons-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-rogue-underground_chemist-chemical-weapons-ex">Chemical Weapons (Ex)</Pair>
+<Pair hl title="Replaces">Evasion</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">An underground chemist is able to retrieve an alchemical item as if <Link to="/rule/drawing_a_weapon">drawing a weapon</Link>.</Pair>
+<Pair title="Passive Ability">She adds her Intelligence modifier to damage dealt with <Link to="/rule/splash_weapon">splash weapons</Link>, including any splash damage. She adds 1/2 her level to Craft (alchemy) checks.</Pair>
+</Ability>
+<Ability id="arc-rogue-underground_chemist-precise-splash-weapons-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-underground_chemist-precise-splash-weapons-ex">Precise Splash Weapons (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 4th level</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">An underground chemist can deal sneak attack damage with splash weapons. The attack must be her first attack that round, qualify for dealing <Link to="/ability/sneak_attack">sneak attack</Link> damage (such as against a <Link to="/rule/flat_footed">flat-footed</Link> target), and be directed at a creature rather than a square.</Pair>
+</Ability>
+<Ability id="arc-rogue-underground_chemist-discovery-su" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-underground_chemist-discovery-su">Discovery (Su)</Pair>
+<Pair hl title="Alters">Advanced talents</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">An underground chemist can select one of the following <Link to="/ability/discoveries">alchemist discoveries</Link> in place of a rogue talent: <Link to="/discovery/concentrate_poison">concentrate poison</Link>, <Link to="/discovery/dilution">dilution</Link>, <Link to="/discovery/enhance_potion">enhance potion</Link>, <Link to="/discovery/extend_potion">extend potion</Link>, <Link to="/discovery/mummification">mummification</Link>, <Link to="/discovery/nauseating_flesh">nauseating flesh</Link>, <Link to="/discovery/poison_conversion">poison conversion</Link>, <Link to="/discovery/preserve_organs">preserve organs</Link>, <Link to="/discovery/spontaneous_healing">spontaneous healing</Link>, or <Link to="/discovery/sticky_poison">sticky poison</Link>. She uses her rogue level as her alchemist level for determining the effects of her discoveries and whether she is able to select one.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/black_market_connections">Black market connections</Link>, <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/lasting_poison">lasting poison</Link>, <Link to="/talent/snipers_eye">sniper's eye</Link>, <Link to="/talent/swift_poison">swift poison</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/deadly_cocktail">Deadly cocktail</Link>, <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link></p></>};
 const _vexing_dodger = {title: "Vexing Dodger", jsx: <><h2 id="arc-rogue-vexing_dodger-vexing-dodger">Vexing Dodger</h2>
 <p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook pg. 21</Link><br/>Vexing dodgers take advantage of their smaller size to outmaneuver larger foes such as giants. Vexing dodgers have the following class features.</p>
-<p><strong>Limb-Climber (Ex):</strong> When adjacent to or in the space of a corporeal creature at least one size category larger than herself, a vexing dodger can climb that creature's body with a successful Climb check against a DC equal to the target creature's CMD. Although the vexing dodger is holding on to the creature, this action isn't a grapple; it doesn't provoke attacks of opportunity from the creature, and neither the vexing dodger nor the creature she climbs gains the grappled condition. While the vexing dodger is on the climbed creature, the creature takes a penalty on attack rolls against the vexing dodger equal to the number of sneak attack dice the dodger possesses.</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Improved Dirty Trick (Ex):</strong> At 2nd level, a vexing dodger gains <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> as a bonus feat, even if she doesn't meet the prerequisites.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 2nd level.</p>
-<p><strong>Underfoot Agility (Ex):</strong> At 3rd level, a vexing dodger gains a +1 morale bonus on Acrobatics, Climb, and Escape Artist attempts against creatures at least one size category larger than herself. This bonus increases by 1 for every 3 levels beyond 3rd.</p>
-<p>This ability replaces <strong className="hl">trap sense</strong>.</p>
-<p><strong>Underfoot Trickster (Ex):</strong> At 4th level, a vexing dodger can move through the space of a creature two size categories larger than herself without needing to attempt an Acrobatics check. She would still need to succeed at Acrobatics checks to avoid attacks of opportunity provoked by leaving a threatened space; this ability covers only the ability to move. Additionally, whenever the vexing dodger hits a larger foe with a melee sneak attack, she can choose to forgo the sneak attack bonus damage and instead attempt make a dirty trick combat maneuver as a swift action.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Distracting Climber (Ex):</strong> At 8th level, when a vexing dodger attempts a dirty trick maneuver against a creature she's climbing, she gets a bonus on the combat maneuver check equal to the number of sneak attack dice she has. If she chooses to sicken the target with her dirty trick and succeeds at her combat maneuver check, the target must succeed at a Fortitude saving throw (DC = 10 + 1/2 the vexing dodger's level + her Intelligence modifier) or be nauseated for 1 round.</p>
-<p>This ability replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Rogue Talents (Ex):</strong> A vexing dodger can choose uncanny dodge as a rogue talent starting at 4th level, and she can choose improved uncanny dodge as an advanced rogue talent. The following talents complement the vexing dodger archetype: <Link to="/talent/befuddling_strike">befuddling strike</Link>, <Link to="/talent/confounding_blades">confounding blades</Link>, <Link to="/talent/peerless_maneuver">peerless maneuver</Link>, <Link to="/talent/positioning_attack">positioning attack</Link>, <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/wall_scramble">wall scramble</Link>.</p>
-</>};
+<Ability id="arc-rogue-vexing_dodger-limb-climber-ex" icon={["stairs-goal","armor-downgrade"]}>
+<Pair single id="arc-rogue-vexing_dodger-limb-climber-ex">Limb-Climber (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Ability">When adjacent to or in the space of a corporeal creature at least one size category larger than herself, a vexing dodger can climb that creature's body with a successful <Link to="/skill/climb">Climb</Link> check against a DC equal to the target creature's CMD. Although the vexing dodger is holding on to the creature, this action isn't a grapple; it doesn't provoke attacks of opportunity from the creature, and neither the vexing dodger nor the creature she climbs gains the grappled condition.</Pair>
+<Pair title="Passive Ability">While the vexing dodger is on the climbed creature, the creature takes a penalty on attack rolls against the vexing dodger equal to the number of sneak attack dice the dodger possesses.</Pair>
+</Ability>
+<Ability id="arc-rogue-vexing_dodger-improved-dirty-trick-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-vexing_dodger-improved-dirty-trick-ex">Improved Dirty Trick (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A vexing dodger gains <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> as a bonus feat, even if she doesn't meet the prerequisites.</Pair>
+</Ability>
+<Ability id="arc-rogue-vexing_dodger-underfoot-agility-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-vexing_dodger-underfoot-agility-ex">Underfoot Agility (Ex)</Pair>
+<Pair hl title="Replaces">Trap sense</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">A vexing dodger gains a morale bonus on Acrobatics, Climb, and Escape Artist attempts against creatures at least one size category larger than herself. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her rogue level.</Pair>
+</Ability>
+<Ability id="arc-rogue-vexing_dodger-underfoot-trickster-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-vexing_dodger-underfoot-trickster-ex">Underfoot Trickster (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A vexing dodger can move through the space of a creature two size categories larger than herself without needing to attempt an Acrobatics check. She would still need to succeed at Acrobatics checks to avoid attacks of opportunity provoked by leaving a threatened space; this ability covers only the ability to move.</Pair>
+<Pair title="Swift Action">Additionally, whenever the vexing dodger hits a larger foe with a melee sneak attack, she can choose to forgo the sneak attack bonus damage and instead attempt make a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver.</Pair>
+</Ability>
+<Ability id="arc-rogue-vexing_dodger-distracting-climber-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-vexing_dodger-distracting-climber-ex">Distracting Climber (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">When a vexing dodger attempts a dirty trick maneuver against a creature she's climbing, she gets a bonus on the combat maneuver check equal to the number of sneak attack dice she has. If she chooses to <Link to="/misc/sicken">sicken</Link> the target with her dirty trick and succeeds at her combat maneuver check, the target must succeed at a Fortitude saving throw (DC = 10 + 1/2 the vexing dodger's level + her Intelligence modifier) or be <Link to="/misc/nauseated">nauseated</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="arc-rogue-vexing_dodger-rogue-talents-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-vexing_dodger-rogue-talents-ex">Rogue Talents (Ex)</Pair>
+<Pair title="Ability">A vexing dodger can choose <Link to="/ability/uncanny_dodge">uncanny dodge</Link> as a rogue talent starting at 4th level, and she can choose <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link> as an advanced rogue talent.</Pair>
+</Ability>
+<p><strong>These rogue talents complement this archetype:</strong> <Link to="/talent/befuddling_strike">befuddling strike</Link>, <Link to="/talent/confounding_blades">confounding blades</Link>, <Link to="/talent/peerless_maneuver">peerless maneuver</Link>, <Link to="/talent/positioning_attack">positioning attack</Link>, <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/wall_scramble">wall scramble</Link></p></>};
 const _waylayer = {title: "Waylayer", jsx: <><h2 id="arc-rogue-waylayer-waylayer">Waylayer</h2>
 <p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 13</Link><br/>A clever rogue knows the easiest battle to win is the one that's over before your foe knows it has begun. Some rogues thus specialize in setting up ambushes to catch their opponents off guard.</p>
-<p><strong>Staggering Reflexes (Ex):</strong> At 1st level, a waylayer gains a bonus on initiative checks equal to 1/2 her level (minimum +1) if she acts in a surprise round, and is never flat-footed at the start of combat (even if she fails to act during the surprise round).</p>
-<p>This ability replaces <strong className="hl">trapfinding</strong>.</p>
-<p><strong>Ambuscading Sneak Attack (Ex):</strong> At 4th level, a waylayer becomes especially skilled at attacking unaware foes. When she makes a sneak attack during a surprise round, she uses d8s to roll sneak attack damage instead of d6s.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>.</p>
-<p><strong>Danger Awareness (Ex):</strong> At 8th level, a waylayer is never considered an unaware combatant and is always able to act in the surprise round.</p>
-<p>This replaces <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Exceptional Reflexes (Ex):</strong> At 12th level, a waylayer can move up to her speed before taking her action in a surprise round.</p>
-<p>This replaces the <strong className="hl">rogue talent</strong> gained at 12th level.</p>
-<p><strong>Masterful Reflexes (Ex):</strong> At 20th level, a waylayer's initiative roll is automatically a natural 20.</p>
-<p>This ability replaces the <strong className="hl">rogue talent</strong> gained at 20th level.</p>
-<p><strong>Rogue Talents:</strong> The following <Link to="/ability/rogue_talents">rogue talents</Link> complement the waylayer archetype: <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/underhanded">underhanded</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/surprise_attack">surprise attack</Link> (<em>Other Sneak Attack Talents</em> group); <Link to="/talent/cunning_trigger">cunning trigger</Link>, <Link to="/talent/quick_trapsmith">quick trapsmith</Link> (<em>Trap Talents</em> group); <Link to="/talent/camouflage">camouflage</Link> (<em>Deception Talents</em> group).</p>
-<p><strong>Advanced Talents:</strong> The following <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link> complement the waylayer archetype: <Link to="/talent/entanglement_of_blades">entanglement of blades</Link> (<em>Primary Sneak Attack Talents</em> group); <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/weapon_snatcher">weapon snatcher</Link> (<em>Combat Talents</em> group); <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link> (<em>Other Talents</em> group).</p>
-</>};
+<Ability id="arc-rogue-waylayer-staggering-reflexes-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-waylayer-staggering-reflexes-ex">Staggering Reflexes (Ex)</Pair>
+<Pair hl title="Replaces">Trapfinding</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">A waylayer gains a bonus on initiative checks equal to 1/2 her level (minimum +1) if she acts in a surprise round, and is never <Link to="/rule/flat_footed">flat-footed</Link> at the start of combat (even if she fails to act during the surprise round).</Pair>
+</Ability>
+<Ability id="arc-rogue-waylayer-ambuscading-sneak-attack-ex" icon={["upgrade"]}>
+<Pair single id="arc-rogue-waylayer-ambuscading-sneak-attack-ex" flavor="A waylayer becomes especially skilled at attacking unaware foes.">Ambuscading Sneak Attack (Ex)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">When she makes a sneak attack during a surprise round, she uses d8s to roll sneak attack damage instead of d6s.</Pair>
+</Ability>
+<Ability id="arc-rogue-waylayer-danger-awareness-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="arc-rogue-waylayer-danger-awareness-ex">Danger Awareness (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability">A waylayer is never considered an unaware combatant and is always able to act in the surprise round.</Pair>
+</Ability>
+<Ability id="arc-rogue-waylayer-exceptional-reflexes-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-rogue-waylayer-exceptional-reflexes-ex">Exceptional Reflexes (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 12th level</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">A waylayer can move up to her speed before taking her action in a surprise round.</Pair>
+</Ability>
+<Ability id="arc-rogue-waylayer-masterful-reflexes-ex" icon={["rolling-dices"]}>
+<Pair single id="arc-rogue-waylayer-masterful-reflexes-ex">Masterful Reflexes (Ex)</Pair>
+<Pair hl title="Replaces">Rogue talent gained at 20th level</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">A waylayer's initiative roll is automatically a natural 20.</Pair>
+</Ability>
+<p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/camouflage">Camouflage</Link>, <Link to="/talent/cunning_trigger">cunning trigger</Link>, <Link to="/talent/quick_trapsmith">quick trapsmith</Link>, <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/underhanded">underhanded</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/entanglement_of_blades">Entanglement of blades</Link>, <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/weapon_snatcher">weapon snatcher</Link></p></>};
 export default {acrobat:_acrobat,bandit:_bandit,bekyar_kidnapper:_bekyar_kidnapper,bellflower_irrigator:_bellflower_irrigator,burglar:_burglar,carnivalist:_carnivalist,cat_burglar:_cat_burglar,chameleon:_chameleon,charlatan:_charlatan,consigliere:_consigliere,construct_saboteur:_construct_saboteur,counterfeit_mage:_counterfeit_mage,cutpurse:_cutpurse,dark_lurker:_dark_lurker,deadly_courtesan:_deadly_courtesan,desert_raider:_desert_raider,discretion_specialist:_discretion_specialist,dreamthief:_dreamthief,driver:_driver,earthshadow:_earthshadow,eldritch_raider:_eldritch_raider,eldritch_scoundrel:_eldritch_scoundrel,escapologist:_escapologist,false_medium:_false_medium,fey_prankster:_fey_prankster,filcher:_filcher,galtan_agitator:_galtan_agitator,guerrilla:_guerrilla,guild_agent:_guild_agent,gun_smuggler:_gun_smuggler,heister:_heister,investigator:_investigator,kintargo_rebel:_kintargo_rebel,kitsune_trickster:_kitsune_trickster,knife_master:_knife_master,makeshift_scrapper:_makeshift_scrapper,master_of_disguise:_master_of_disguise,nameless_shadow:_nameless_shadow,needler:_needler,numerian_scavenger:_numerian_scavenger,okeno_liberator:_okeno_liberator,phantom_thief:_phantom_thief,pirate:_pirate,planar_sneak:_planar_sneak,poisoner:_poisoner,rake:_rake,relic_raider:_relic_raider,river_rat:_river_rat,roof_runner:_roof_runner,rotdrinker:_rotdrinker,sanctified_rogue:_sanctified_rogue,sapper:_sapper,scout:_scout,scroll_scoundrel:_scroll_scoundrel,sczarni_swindler:_sczarni_swindler,seeker_of_the_lost:_seeker_of_the_lost,shadow_scion:_shadow_scion,shadow_walker:_shadow_walker,sharper:_sharper,skulking_slayer:_skulking_slayer,sly_saboteur:_sly_saboteur,smuggler:_smuggler,snare_setter:_snare_setter,sniper:_sniper,snoop:_snoop,spy:_spy,survivalist:_survivalist,swamp_poisoner:_swamp_poisoner,swashbuckler:_swashbuckler,swordmaster:_swordmaster,sylvan_trickster:_sylvan_trickster,thug:_thug,tidal_trickster:_tidal_trickster,toxic_talon:_toxic_talon,trapsmith:_trapsmith,underground_chemist:_underground_chemist,vexing_dodger:_vexing_dodger,waylayer:_waylayer}
