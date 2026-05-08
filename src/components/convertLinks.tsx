@@ -43,7 +43,7 @@ export const checkForEncodedLink = (input: string, options: Options = {}): false
 			};
 		}
 	}
-	const [, pre, startbrackets, protocol, matchedx, post] = m;
+	const [, pre, startbrackets, protocol, matchedx, post] = m!;
 	if (startbrackets === "‹‹") {
 		// This is a verbatim link
 		// Sub in main.main as a fake link so we fool the invalidity tests
@@ -134,7 +134,7 @@ export const checkForEncodedLink = (input: string, options: Options = {}): false
 const convertLinks = (input: string[]): string => {
 	// Converts ‹some/Link: Text/s› into [Link: Texts](some/link_text)
 	let output: string[] = [];
-	let m: false | string[] = false;
+	let m: false | EncodedLinkOutput = false;
 	input.forEach(line => {
 		let converted = "";
 		let base = line;
@@ -150,6 +150,7 @@ const convertLinks = (input: string[]): string => {
 
 export const convertTextToLink = (input: string) => {
 	// Converts "Some link text/s>ing" to "some_link_texting"
+	// Use checkForEncodedLink for proper formatting of «»<> stuff
 	return input.toLowerCase().replace(/[-_ /]/g, "_").replace(/[^0-9_a-z]/g, "");
 };
 
