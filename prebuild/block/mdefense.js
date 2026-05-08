@@ -170,7 +170,7 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 			doParse(`**Weaknesses** ${w.sort((a, b) => a[0].localeCompare(b[0])).map(ww => ww[1]).join(", ")}`)
 		);
 	}
-	return `${maybeClear}<p className="statblockSubHeader">Defense</p>\n<p>${output.join("<br>")}</p>`;
+	return `${maybeClear}<Header sub>Defense</Header>\n<p>${output.join("<br>")}</p>`;
 };
 
 export default makeMonsterDefenseBlock;

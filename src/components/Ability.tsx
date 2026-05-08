@@ -1,5 +1,5 @@
 import { IonIcon } from '@ionic/react';
-import { PropsWithChildren } from 'react';
+import { FC, PropsWithChildren } from 'react';
 import Link from './Link';
 
 interface AbilityProps {
@@ -13,7 +13,7 @@ interface IconProps {
 	icon: string[]
 }
 
-const Icon: React.FC<IconProps> = ({icon, id}) => {
+const Icon: FC<IconProps> = ({icon, id}) => {
 	return icon.map(
 		(ic, i) => (
 			<Link to={"/icons/" + ic} key={`${id} icon ${ic} ${i}`}>
@@ -23,7 +23,7 @@ const Icon: React.FC<IconProps> = ({icon, id}) => {
 	);
 };
 
-const Ability: React.FC<PropsWithChildren<AbilityProps>> = (props) => {
+const Ability: FC<PropsWithChildren<AbilityProps>> = (props) => {
 	const {id, icon = [], extraClasses, children} = props;
 	const className = "ability p" + (extraClasses ? " " + extraClasses : "");
 	return (

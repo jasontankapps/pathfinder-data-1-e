@@ -18,6 +18,7 @@ import { makeClassBlock, makeProfBlock } from './block/class.js';
 import makeCapstoneBlock from './block/altCapstone.js';
 import makeRoomBlock from './block/room.js';
 import makeClassSkillsAbilityBlock from './block/cskill.js';
+import convertToHtmlArrayKludge from './convertToHtmlArrayKludge.js';
 
 const churn = (n, attrs, list, regex, logError) => {
 	const found = [];
@@ -60,32 +61,41 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			if(n === "gh") {
 				// General Header
 				churn(n, attrs, ["clear"], [], logError);
-				return `${maybeClear}<p className="statblockHeader">${text}</p>\n`;
+				flags.header = true;
+				return `${maybeClear}<Header>${text}</Header>\n`;
 			} else if (n === "mh") {
 				// Monster Header
 				churn(n, attrs, ["cr", "mr", "clear", "jl", "id"], [], logError);
 				const {cr, mr, jl} = attrs;
+				flags.header = true;
 				let filler = "";
 				if(jl) {
 					const id = prefix + (attrs.id || makeValidID(text));
 					addToJumpList(text, id, jl);
-					filler = ` id="${id}" data-hash-target`;
+					filler = ` id="${id}"`;
 				}
 				if(cr || mr) {
 					const ender = (cr && mr) ? `CR ${cr}/MR ${mr}` : (cr ? `CR ${cr}` : `MR ${mr}`);
-					return `${maybeClear}<p className="statblockHeaderFull"${filler}><span>${text}</span><span>${ender}</span></p>\n`;
+					return `${maybeClear}<Header contents={${JSON.stringify([
+						convertToHtmlArrayKludge(text),
+						ender
+					])}}${filler} />\n`;
 				}
-				return `${maybeClear}<p className="statblockHeader"${filler}>${text}</p>\n`;
+				return `${maybeClear}<Header${filler}>${text}</Header>\n`;
 			} else if (n === "sh") {
 				// Subheader
 				churn(n, attrs, ["clear"], [], logError);
-				return `${maybeClear}<p className="statblockSubHeader">${text}</p>\n`;
+				flags.header = true;
+				return `${maybeClear}<Header sub>${text}</Header>\n`;
 			} else if (n === "th") {
 				// Template Header
 				churn(n, attrs, ["clear", "cr", "source", "acquired", "inherited", "simple", "summonable", "maybesummon"], [], logError);
 				const {cr, source, acquired, inherited, simple, summonable, maybesummon} = attrs;
-				const head = `<div style={{clear:"both"}}></div><p className="statblockHeaderFull">`
-					+ `<span>${text}</span><span>CR ${cr}</span></p>\n`;
+				const head = `<div style={{clear:"both"}}></div><Header contents={${JSON.stringify([
+						convertToHtmlArrayKludge(text),
+						`CR ${cr}`
+					])}} />\n`;
+				flags.header = true;
 				const marked2 = makeNewMarkedInstance();
 				const sourcing = marked2.parseInline(parseSOURCE(source, true));
 				const typing = acquired && inherited ? "Both" : acquired ? "Acquired" : "Inherited";
@@ -107,9 +117,10 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				// Plane Header
 				churn(n, attrs, ["clear", "sub", "desc", "cat"], [], logError);
 				const {sub, desc, cat} = attrs;
-				let main = `<p className="statblockHeader"><span>${text}</span></p>`;
+				flags.header = true;
+				let main = `<Header${sub ? ` extraClasses="withSub"` : ""}>${text}</Header>`;
 				if(sub) {
-					main = `<p className="statblockHeader withSub"><span>${text}</span></p><div className="sub">${sub}</div>`;
+					main = main + `<div className="sub">${sub}</div>`;
 				}
 				if(desc) {
 					main = main + `<div className="indent"><em>${desc}</em></div>`;
@@ -309,6 +320,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"eva", "impEva", "unc", "impUnc",
 					"weak", "vulner"
 				], [], logError);
+				flags.header = true;
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterDefenseBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "moffense") {
@@ -329,6 +341,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"pounce", "smother", "strangle",
 					"next"
 				], [], logError);
+				flags.header = true;
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterOffenseBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "mspell") {
@@ -354,10 +367,12 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"combat", "othergear", "gear",
 					"faith", "next"
 				], [], logError);
+				flags.header = true;
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterStatisticsBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "meco") {
 				churn(n, attrs, [ "clear", "env", "org", "treasure" ], [], logError);
+				flags.header = true;
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterEcologyBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "archetype") {

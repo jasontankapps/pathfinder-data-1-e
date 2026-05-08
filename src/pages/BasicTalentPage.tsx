@@ -1,4 +1,4 @@
-import { PropsWithChildren, ReactElement } from 'react';
+import { PropsWithChildren, ReactElement, FC } from 'react';
 import { convertTextToLink } from '../components/convertLinks';
 import Link from '../components/Link';
 import { Gen, GenStrict, Hierarchy } from '../types';
@@ -19,7 +19,7 @@ interface BasicTalentProps {
 	addendaObj: GenStrict<string, string>
 }
 
-const BasicTalentPage: React.FC<PropsWithChildren<BasicTalentProps>> = (props) => {
+const BasicTalentPage: FC<PropsWithChildren<BasicTalentProps>> = (props) => {
 	const {
 		id,
 		hasJL,

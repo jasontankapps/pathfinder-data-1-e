@@ -1040,6 +1040,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	ionic.length > 0 && imports.push(`import {${ionic.join(",")}} from '@ionic/react';`);
 	// Check groupFlags for other components
 	groupFlags.displaytable && imports.push(`import DisplayTable from '../../components/DisplayTable';`);
+	groupFlags.header && imports.push(`import Header from '../../components/Header';`);
 	groupFlags.link ? imports.push(
 			`import Link${groupFlags.thlink ? ", {ThLink}" : ""} from '../../components/Link';`
 		) : (

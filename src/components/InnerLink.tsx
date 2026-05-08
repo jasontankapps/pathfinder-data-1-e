@@ -1,4 +1,4 @@
-import { useCallback, KeyboardEvent, PropsWithChildren } from 'react';
+import { useCallback, KeyboardEvent, PropsWithChildren, FC } from 'react';
 
 interface ScrollOptions {
 	toCenter?: boolean
@@ -59,7 +59,7 @@ const scroller = (id:string, options: ScrollOptions = {}) => {
 	});
 };
 
-const InnerLink: React.FC<PropsWithChildren<LinkProps>> = (props) => {
+const InnerLink: FC<PropsWithChildren<LinkProps>> = (props) => {
 	const { to, toCenter, toTop, noHighlight, showBacklink, ...etc } = props;
 	const clickTo = useCallback(
 		() => scroller(to, { toCenter, toTop, noHighlight, showBacklink }),
