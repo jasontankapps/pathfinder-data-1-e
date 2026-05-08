@@ -972,7 +972,7 @@ const _nameless_shadow = {title: "Nameless Shadow", jsx: <><h2 id="arc-rogue-nam
 <Ability id="arc-rogue-nameless_shadow-harmless-guise-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-rogue-nameless_shadow-harmless-guise-ex">Harmless Guise (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding, rogue talents gained at 2nd, 6th, 10th, 14th, and 18th levels</Pair>
-<Pair title="Ability">A nameless shadow gains the dual identity and <em>seamless guise</em> <Link to="/class/vigilante">vigilante</Link> class features, with the following restrictions. Her social identity must be that of a mundane and non-threatening member of society, such as a farmer or a merchant.</Pair>
+<Pair title="Ability">A nameless shadow gains the <em>dual identity</em> and <em>seamless guise</em> <Link to="/class/vigilante">vigilante</Link> class features, with the following restrictions. Her social identity must be that of a mundane and non-threatening member of society, such as a farmer or a merchant.</Pair>
 <Pair title="At 6th Level">The nameless shadow gains the <Link to="/soctalent/many_guises">many guises</Link> vigilante social talent.</Pair>
 <Pair title="At 8th Level">The nameless shadow gains the <Link to="/soctalent/quick_change">quick change</Link> vigilante social talent.</Pair>
 <Pair title="At 14th Level">The nameless shadow gains the <Link to="/soctalent/everyman">everyman</Link> vigilante social talent.</Pair>
@@ -1026,7 +1026,7 @@ const _needler = {title: "Needler", jsx: <><h2 id="arc-rogue-needler-needler">Ne
 <Pair title="Standard Action">She can deliver an ingested or inhaled poison to a creature within reach by placing a dose of poison on the target's lips, on the target's neck, or through other similar contact with the target's skin as if the poison were a contact poison. Delivering poison in this way requires a successful Sleight of Hand check opposed by the target's Perception check. The poison is not lost on a failed check, but it must be successfully delivered within 1 minute of the first attempt, or it is wasted.</Pair>
 </Ability>
 <section data-footnotes><h3 id="arc-rogue-needler-label">Footnotes</h3><ol>
-<li id="arc-rogue-needler-fake-fn-1-target"><p>The only ability named "swift poisoning" is the <Link to="/class/alchemist">alchemist</Link> class feature. <InnerLink aria-label="Back to reference 1" id="backlink-arc-rogue-needler-fake-fn-1" data-hash-target to="arc-rogue-needler-fake-fn-1">↩</InnerLink></p></li>
+<li id="arc-rogue-needler-fake-fn-1-target"><p>The only ability named "swift poisoning" is the <Link to="/class/alchemist">alchemist</Link> class feature. There is also a <Link to="/talent/swift_poison">swift poison</Link> rogue talent and a <Link to="/ninjatrick/swift_poisoner">swift poisoner</Link> ninja trick that this could be referring to. Consult your GM. <InnerLink aria-label="Back to reference 1" id="backlink-arc-rogue-needler-fake-fn-1" data-hash-target to="arc-rogue-needler-fake-fn-1">↩</InnerLink></p></li>
 </ol></section></>};
 const _numerian_scavenger = {title: "Numerian Scavenger", jsx: <><h2 id="arc-rogue-numerian_scavenger-numerian-scavenger">Numerian Scavenger</h2>
 <p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 13</Link><br/>A Numerian scavenger lives for the discovery of new technological wonders scraped from the depths of the strange ruins, metal caverns, and outlandish junkyards of Numeria. She is well-versed in all the ways that technology can be used to protect sites, as well as the ways in which it can malfunction.</p>
@@ -1037,7 +1037,7 @@ const _numerian_scavenger = {title: "Numerian Scavenger", jsx: <><h2 id="arc-rog
 <Pair title="Ability">She gains <Link to="/feat/technologist">Technologist</Link> as a bonus feat.</Pair>
 <Pair title="Special">She cannot use Disable Device to disarm magical traps.</Pair>
 </Ability>
-<Ability id="arc-rogue-numerian_scavenger-lucky-glitch-ex" icon={["armor-upgrade"]}>
+<Ability id="arc-rogue-numerian_scavenger-lucky-glitch-ex" icon={["armor-upgrade","rolling-dices"]}>
 <Pair single id="arc-rogue-numerian_scavenger-lucky-glitch-ex">Lucky Glitch (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 4th Level</Pair>

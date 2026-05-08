@@ -794,7 +794,7 @@
 			"‹SOURCE Merchant's Manifest/30›  ",
 			"Where bandits and tyrants prey on merchants and caravans, the nameless shadow preys on bandits and tyrants. Posing as mundane merchants or other harmless travelers, these assassins can hide both within darkness and in the anonymity of a seemingly unimportant crowd. This archetype is appropriate for rogues built using the rules from the Pathfinder RPG Core Rulebook as well as for unchained rogues.",
 			"",
-			"::ab[Harmless Guise (Ex)]{head icon=power ability=\"A nameless shadow gains the dual identity and *seamless guise* ‹class/vigilante› class features, with the following restrictions. Her social identity must be that of a mundane and non-threatening member of society, such as a farmer or a merchant.\" imp6=\"The nameless shadow gains the ‹soctalent/many guises› vigilante social talent.\" imp8=\"The nameless shadow gains the ‹soctalent/quick change› vigilante social talent.\" imp14=\"The nameless shadow gains the ‹soctalent/everyman› vigilante social talent.\" imp18=\"The nameless shadow gains the ‹soctalent/any guise› vigilante social talent.\" special=\"Additionally, when a nameless shadow attacks a foe while in a social or mundane identity, her target takes a -2 penalty to AC for the purpose of resolving that attack. This use of *harmless guise* forces the nameless shadow into her vigilante identity after the attack is completed, and the target (if it survives) then becomes aware of the nameless shadow's secret. This ability cannot be used on targets that are aware of the nameless shadow's dual identity.\" replace=\"Trapfinding~rogue talents gained at 2nd, 6th, 10th, 14th, and 18th levels\"}",
+			"::ab[Harmless Guise (Ex)]{head icon=power ability=\"A nameless shadow gains the *dual identity* and *seamless guise* ‹class/vigilante› class features, with the following restrictions. Her social identity must be that of a mundane and non-threatening member of society, such as a farmer or a merchant.\" imp6=\"The nameless shadow gains the ‹soctalent/many guises› vigilante social talent.\" imp8=\"The nameless shadow gains the ‹soctalent/quick change› vigilante social talent.\" imp14=\"The nameless shadow gains the ‹soctalent/everyman› vigilante social talent.\" imp18=\"The nameless shadow gains the ‹soctalent/any guise› vigilante social talent.\" special=\"Additionally, when a nameless shadow attacks a foe while in a social or mundane identity, her target takes a -2 penalty to AC for the purpose of resolving that attack. This use of *harmless guise* forces the nameless shadow into her vigilante identity after the attack is completed, and the target (if it survives) then becomes aware of the nameless shadow's secret. This ability cannot be used on targets that are aware of the nameless shadow's dual identity.\" replace=\"Trapfinding~rogue talents gained at 2nd, 6th, 10th, 14th, and 18th levels\"}",
 			"",
 			":::ab{title=\"Dual Identity (Ex)\" flavor=\"Text from the vigilante class\" next icon=power-def action=Ability}",
 			"",
@@ -832,7 +832,7 @@
 			"",
 			":::fakeFootnotes",
 			"",
-			"@FN[The only ability named \"swift poisoning\" is the ‹class/alchemist› class feature.]{from=1}",
+			"@FN[The only ability named \"swift poisoning\" is the ‹class/alchemist› class feature. There is also a ‹talent/swift poison› rogue talent and a ‹ninjatrick/swift poisoner› ninja trick that this could be referring to. Consult your GM.]{from=1}",
 			"",
 			":::"
 		]
@@ -848,7 +848,7 @@
 			"",
 			"::ab[Technic Training (Ex)]{icon=boost-power-down order=pa passive=\"A Numerian scavenger adds 1/2 her rogue level to Perception skill checks to locate mechanical or high-tech traps and to Disable Device skill checks against these traps (minimum +1).\" ability=\"She gains ‹feat/Technologist› as a bonus feat.\" special=\"She cannot use Disable Device to disarm magical traps.\" replace=Trapfinding}",
 			"",
-			"::ab[Lucky Glitch (Ex)]{l=4 icon=def ability=\"Whenever a Numerian scavenger triggers a ‹rule/glitch› when using a timeworn technological item, she rolls twice and can choose which of the two glitch effects actually occurs. A Numerian scavenger always adds her level to rolls to determine what kind of glitch occurs, and treats rolls of over 100 as 100.\" replace=\"Uncanny dodge\"}",
+			"::ab[Lucky Glitch (Ex)]{l=4 icon=def-roll ability=\"Whenever a Numerian scavenger triggers a ‹rule/glitch› when using a timeworn technological item, she rolls twice and can choose which of the two glitch effects actually occurs. A Numerian scavenger always adds her level to rolls to determine what kind of glitch occurs, and treats rolls of over 100 as 100.\" replace=\"Uncanny dodge\"}",
 			"",
 			"::ab[Robot Slayer (Ex)]{l=8 icon=boost flavor=\"A Numerian scavenger knows just where to strike robots to incapacitate and disable them.\" ability=\"When she deals sneak attack damage to a robot, she ignores all hardness that robot possesses.\" replace=\"Improved uncanny dodge\"}"
 		]
