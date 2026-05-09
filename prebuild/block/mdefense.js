@@ -1,6 +1,8 @@
-const clean = (bit) => bit.replace(/\*/g, "").replace(/‹[-a-z_]+[/]([^›]+)›/g, "$1");
+import convertToHtmlArrayKludge from "../convertToHtmlArrayKludge.js";
 
-const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs, logError) => {
+const clean = (bit) => bit.replace(/‹[-a-z_]+[/]([^›]+)›/g, "$1").replace(/[^-a-zA-Z_ 0-9]/g, "");
+
+const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs, id, logError) => {
 	const {
 		ac, mod,
 		hp, hpRaw, fh, regen,
@@ -13,152 +15,171 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 		weak, vulner
 	} = attrs;
 	const output = [];
-	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
+	const doConvert = (input, stringify = false) => convertToHtmlArrayKludge(marked2.parseInline(convertEncodedInfo(input)), stringify);
+	let flag = true;
+	const log = (...args) => {
+		logError(...args);
+		flag = false;
+	};
 	//
 	// AC LINE
 	//
 	if(ac) {
-		const [all, touch, ff] = ac.split("/");
-		output.push(`<strong>AC</strong> ${all}, touch ${touch}, flat-footed ${ff}${mod ? ` (${mod})` : ""}`);
+		const [all, touch, ff] = `${ac}//`.split("/").slice(0,3).map(bit => {
+			const x = Number(bit);
+			if(bit && x !== x) {
+				//NaN
+				log(`Bad AC bit: [${bit}]`);
+			}
+			return x === 0 ? x : Math.round(x || -500);
+		});
+		if(all === -500 || touch === -500 || ff === -500) {
+			log(`Bad AC: [${ac}]`);
+		} else {
+			output.push(`ac={[${all},${touch},${ff}]}`);
+			mod && output.push(`mod="${mod}"`);
+		}
 	} else {
-		logError("Missing AC")
+		log("Missing AC");
 	}
 	//
 	// HP LINE
 	//
 	if(hp || hpRaw) {
-		let line;
 		if(hpRaw) {
-			line = `<strong>hp</strong> ${hpRaw}`;
+			output.push(`hpRaw="${hpRaw}"`)
 		} else {
-			const [, h, formula, hd, forcefield] = hp.match(/([^~]+)~([^~]+)(?:~([^~]*))?(?:~([^~]*))?/);
-			let paren = formula;
-			if(hd) {
-				paren = `${hd} HD; ${paren}`;
+			const h = `${hp}~~~`.split(/~/).slice(0,4);
+			if(!h[0]) {
+				log(`Bad hp: [${hp}]`);
+			} else {
+				output.push(`hp={${JSON.stringify(h)}}`);
+				if(fh) {
+					output.push(`fh="${fh}"`)
+				}
+				if(regen) {
+					output.push(`regen="${regen}"`)
+				}
 			}
-			if(forcefield) {
-				paren = paren + ` plus ${forcefield} hp force field`;
-			}
-			line = `<strong>hp</strong> ${h} (${paren})`;
 		}
-		if(fh) {
-			line = line + doParse(`; ‹umr/fast healing› ${fh}`);
-		}
-		if(regen) {
-			line = line + doParse(`; ‹umr/regeneration› ${regen}`);
-		}
-		output.push(line);
 	} else {
-		logError("Missing hp")
+		log("Missing hp")
 	}
 	//
 	// SAVING THROWS LINE
 	//
-	let line = "";
 	if(fort) {
-		line = `<strong>Fort</strong> ${fort}`;
+		output.push(`fort="${fort}"`);
 	} else {
-		logError("Missing fortitude save");
+		log("Missing fortitude save");
 	}
 	if(ref) {
-		line = line + `, <strong>Reflex</strong> ${ref}`;
+		output.push(`ref="${ref}"`);
 	} else {
-		logError("Missing reflex save");
+		log("Missing reflex save");
 	}
 	if(will) {
-		line = line + `, <strong>Will</strong> ${will}`;
+		output.push(`will={${doConvert(String(will), true)}}`);
 	} else {
-		logError("Missing will save");
+		log("Missing will save");
 	}
-	output.push(line);
 	//
 	// DEFENSES LINE
 	//
-	line = "";
+	let line = "";
 	const deff = [];
 	if(def) {
-		//line = `**Defensive Abilities** ${def}`;
 		def.split(/~/).forEach(bit => {
-			deff.push([clean(bit), bit]);
+			deff.push([clean(bit), doConvert(bit)]);
 		});
+		output.push(`def={${JSON.stringify(deff)}}`);
 	}
 	if(chanRes) {
-		deff.push([`channel resistance ${chanRes}`, `‹umr/channel resistance› ${chanRes}`]);
+		output.push(`chanRes="${chanRes}"`)
 	}
 	if(fortif) {
-		deff.push([`fortification (${fortif}%)`, `‹umr/fortification› (${fortif}%)`]);
+		const f = Number(fortif);
+		if(f !== f) {
+			// NaN
+			log(`Bad fortif: [${fortif}]`);
+		} else {
+			output.push(`fortif={${Math.round(f)}}`);
+		}
 	}
 	if(split) {
-		deff.push([`split (${split})`, `‹umr/split› (${split})`]);
+		output.push(`split="${split}"`)
 	}
 	if(ink) {
-		deff.push([`ink cloud (${ink}-ft. radius})`, `‹umr/ink cloud› (${ink}-ft. radius})`]);
+		const i = Number(ink);
+		if(i !== i) {
+			// NaN
+			log(`Bad ink: [${ink}]`);
+		} else {
+			output.push(`ink={${Math.round(i)}}`);
+		}
 	}
 	if(pBlood) {
-		deff.push([`poisonous blood (${pBlood})`, `‹umr/poisonous blood› (‹eq-poison/${pBlood}›)`]);
+		output.push(`pBlood="${pBlood}"`)
 	}
 	if(trapS) {
-		deff.push([`trap sense ${trapS}`, `‹ability/trap sense› ${trapS}`]);
+		output.push(`trapS="${trapS}"`)
 	}
 	if(unstop) {
-		deff.push([`unstoppable`, `‹umr/unstoppable›`]);
+		output.push("unstop");
 	}
 	if(blockAt) {
-		deff.push([`block attacks`, `‹umr/block attacks›`]);
+		output.push("blockAt");
 	}
 	if(rockCt) {
-		deff.push([`rock catching`, `‹umr/rock catching›`]);
+		output.push("rockCt");
 	}
 	if(secSave) {
-		deff.push([`second save`, `‹umr/second save›`]);
+		output.push("secSave");
 	}
 	if(ferocity) {
-		deff.push([`ferocity`, `‹umr/ferocity›`]);
+		output.push("ferocity");
 	}
 	if(amorph) {
-		deff.push([`amorphous`, `‹umr/amorphous›`]);
+		output.push("amorph");
 	}
 	if(aav) {
-		deff.push([`all-around vision`, `‹umr/all-around vision›`]);
+		output.push("aav");
 	}
 	if(incorp) {
-		deff.push([`incorporeal`, `‹umr/incorporeal›`]);
+		output.push("incorp");
 	}
 	if(noB) {
-		deff.push([`no breath`, `‹umr/no breath›`]);
+		output.push("noB");
 	}
 	if(eva) {
-		deff.push([`evasion`, `‹ability/evasion›`]);
+		output.push("eva");
 	}
 	if(unc) {
-		deff.push([`uncanny dodge`, `‹ability/uncanny dodge›`]);
+		output.push("unc");
 	}
 	if(impEva) {
-		deff.push([`improved evasion`, `‹ability/improved evasion›`]);
+		output.push("impEva");
 	}
 	if(impUnc) {
-		deff.push([`improved uncanny dodge`, `‹ability/improved uncanny dodge›`]);
-	}
-	if(deff.length > 0) {
-		line = `**Defensive Abilities** ${deff.sort((a, b) => a[0].localeCompare(b[0])).map(d => d[1]).join(", ")}`
+		output.push("impUnc");
 	}
 	if(dr) {
-		line = (line ? line + "; " : "") + `**DR** ${dr}`;
+		output.push(`dr={${doConvert(dr, true)}}`);
 	}
 	if(immune) {
-		line = (line ? line + "; " : "") + `**Immune** ${immune}`;
+		output.push(`immune={${doConvert(immune, true)}}`);
 	}
 	if(resist) {
-		line = (line ? line + "; " : "") + `**Resist** ${resist}`;
+		output.push(`resist={${doConvert(resist, true)}}`);
 	}
 	if(sr) {
-		line = (line ? line + "; " : "") + `**SR** ${sr}`;
+		output.push(`sr="${sr}"`);
 	}
-	line && output.push(doParse(line));
 	//
 	// WEAKNESSES LINE
 	//
 	const w = [];
+	// SORT BEFORE SENDING, then ignore the sortable bits
 	if(vulner) {
 		w.push([`vulnerable to ${clean(vulner)}`, `‹umr/vulnerable› to ${vulner}`])
 	}
@@ -166,11 +187,13 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 		weak.split(/~/).forEach(bit => w.push([clean(bit), bit]));
 	}
 	if(w.length > 0) {
-		output.push(
-			doParse(`**Weaknesses** ${w.sort((a, b) => a[0].localeCompare(b[0])).map(ww => ww[1]).join(", ")}`)
-		);
+		w.sort((a, b) => a[0].localeCompare(b[0]));
+		output.push(`weak={${JSON.stringify(w.map(bit => doConvert(bit[1])))}}`);
 	}
-	return `${maybeClear}<Header sub>Defense</Header>\n<p>${output.join("<br>")}</p>`;
+	if(flag) {
+		return `${maybeClear}<Defense id="${id}" ${output.join(" ")} />\n`;
+	}
+	return "<Header sub>Defense</Header><p><em>Error.</em></p>\n";
 };
 
 export default makeMonsterDefenseBlock;

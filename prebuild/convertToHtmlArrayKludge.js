@@ -1,17 +1,8 @@
-const convertQuotes = (input) => {
-	const q = input.match(/"|&quot[&;]/);
-	const a = input.match(/'|&(apos|#39)[&;]/);
-	if (q && a) {
-		return "`" + input + "`";
-	} else if(q) {
-		return "'" + input + "'";
-	}
-	return `"${input}"`;
-};
+import checkForEncodedLink from "./tests/checkForEncodedLink.js";
 
-const convertToHtmlArrayKludge = (input) => {
+const convertToHtmlArrayKludge = (input, stringify = false) => {
 	if(!input || !input.match(/[<>‹›]/)) {
-		return convertQuotes(input || "");
+		return stringify ? JSON.stringify(input || "") : (input || "");
 	}
 	let m;
 	let test = input;
@@ -54,7 +45,7 @@ const convertToHtmlArrayKludge = (input) => {
 		}
 		test && output2.push(test);
 	}
-	return JSON.stringify(output2);
+	return stringify ? JSON.stringify(output2) : output2;
 };
 
 export default convertToHtmlArrayKludge;

@@ -76,10 +76,11 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				}
 				if(cr || mr) {
 					const ender = (cr && mr) ? `CR ${cr}/MR ${mr}` : (cr ? `CR ${cr}` : `MR ${mr}`);
-					return `${maybeClear}<Header contents={${JSON.stringify([
-						convertToHtmlArrayKludge(text),
+					return `${maybeClear}<Header contents={[${
+						convertToHtmlArrayKludge(text, true)
+					},"${
 						ender
-					])}}${filler} />\n`;
+					}"]}${filler} />\n`;
 				}
 				return `${maybeClear}<Header${filler}>${text}</Header>\n`;
 			} else if (n === "sh") {
@@ -318,11 +319,13 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"unstop", "blockAt", "rockCt", "secSave",
 					"ferocity", "amorph", "aav", "incorp", "noB",
 					"eva", "impEva", "unc", "impUnc",
-					"weak", "vulner"
+					"weak", "vulner", "id"
 				], [], logError);
 				flags.header = true;
+				flags.mdef = true;
+				const id = prefix + makeValidID(text + "-defense");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterDefenseBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
+				return makeMonsterDefenseBlock(marked2, convertEncodedInfo, maybeClear, attrs, id, logError);
 			} else if (n === "moffense") {
 				churn(n, attrs, [
 					"clear", "sp", "spP", "br", "brP", "cl", "clP", "sw", "swP",

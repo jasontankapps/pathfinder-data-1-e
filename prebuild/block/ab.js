@@ -364,7 +364,7 @@ const makeAbilityBlock = ({
 	//
 
 	const maybeFlavor = () => {
-		return flavor ? ` flavor={${convertToHtmlArrayKludge(flavor)}}` : "";
+		return flavor ? ` flavor={${convertToHtmlArrayKludge(flavor, true)}}` : "";
 	};
 	const abId = jlid || prefix + id;
 	output.push(`<Pair single id="${abId}"${maybeFlavor()}>${doParse(text)}</Pair>`);

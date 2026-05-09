@@ -2187,7 +2187,7 @@
 			"",
 			"::minfo{source=\"Pathfinder RPG Bestiary/227\" xp=\"51,200\" ng gargantuan magicalBeast subs=fire init=+11 senSpell=\"detect magic~detect poison~see invisibility\" dv=60 llv pcp=+37 aura=\"shroud of flame (20 ft., 4d6 fire, DC 25)\"}",
 			"",
-			"::mdefense{ac=\"28/14/20\" mod=\"+7 Dex, +1 dodge, +14 natural, -4 size\" hp=\"210~20d10+100\" regen=\"10 (cold or evil)\" fort=+17 ref=+19 will=+14 def=self-resurrection dr=\"15/evil\" immune=fire resist=26 vulner=cold}",
+			"::mdefense{ac=\"28/14/20\" mod=\"+7 Dex, +1 dodge, +14 natural, -4 size\" hp=\"210~20d10+100\" regen=\"10 (cold or evil)\" fort=+17 ref=+19 will=+14 def=self-resurrection dr=\"15/evil\" immune=fire sr=26 vulner=cold}",
 			"",
 			"::moffense{sp=30 fl=90 good melee=\"2 talons +24 (2d6+8/19-20 plus 1d6 fire) and bite +24 (2d8+8 plus 1d6 fire)\" space=20 reach=20 next}",
 			"",

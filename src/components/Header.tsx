@@ -15,7 +15,7 @@ const Contents: FC<ContentsProps> = ({contents}) => {
 	if(!contents) {
 		return <></>;
 	}
-	return createElement(Fragment, {}, ...contents.map(c => parseHtmlArrayKludge(c)));
+	return createElement(Fragment, {}, ...contents.map(c => <span>{parseHtmlArrayKludge(c)}</span>));
 };
 
 const Header: FC<PropsWithChildren<HeaderProps>> = (props) => {
