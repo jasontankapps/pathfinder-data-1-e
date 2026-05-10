@@ -961,7 +961,7 @@
 			"",
 			"::mh[Kortash Khain]{cr=23 mr=6}",
 			"",
-			"::minfo[Male ghoul ‹class/cleric› of ‹faith/Kabriri› 5/‹class/sorcerer› (wildblooded) 5/mystic theurge 10/hierophant 6]{source=\"Mythic Realms/54\" xp=\"819,200\" ce medium undead init=+11 senSpell=\"deathwatch *30 ft.~* true seeing\" dv=60 pcp=+11}",
+			"::minfo[Male ghoul ‹class/cleric› of ‹faith/Kabriri› 5/‹class/sorcerer› (wildblooded) 5/mystic theurge 10/hierophant 6]{source=\"Mythic Realms/54\" xp=\"819,200\" ce medium undead init=+11 senSpell=\"deathwatch (30 ft.)~true seeing\" dv=60 pcp=+11}",
 			"",
 			"::mdefense{ac=\"39/22/34\" mod=\"+5 armor, +5 deflection, +5 Dex, +2 luck, +7 natural, +5 shield\" hp=\"391~2d8+5d8+5d6+10d6+308~22\" fort=+25 ref=+17 will=+34 chanRes=+2 def=\"*contingencies*~hard to kill~*mind blank*~mythic saving throws\" immune=\"‹umr/undead traits›\"}",
 			"",

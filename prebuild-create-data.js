@@ -55,11 +55,15 @@ const makeNewMarkedInstance = (initialUse = { gfm: true }, ...midArguments) => {
 	return marked;
 };
 
-const parseSOURCE = (input, plain = false) => {
+const parseSOURCE = (input, plain = false, bare = false) => {
 	// Changes {SOURCE Source Title/1;Source Title} using makeSourceLink() below
+	if(plain || bare) {
+		const sources = input.split(/;/).map(source => makeSourceLink(source)).join(", ");
+		return plain ? ("**Sources** " + sources) : sources;
+	}
 	let m = false;
 	let newline = "";
-	let tester = plain ? `‹SOURCE ${input}›` : input;
+	let tester = input;
 	while(m = tester.match(/^(.*)‹SOURCE ([^›]+?)›(.*)$/)) {
 		const sources = m[2].split(/;/).map(source => makeSourceLink(source));
 		newline = newline + `${m[1]}**Sources** ${sources.join(", ")}`;
@@ -1054,6 +1058,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	groupFlags.scrollcontainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
 	(groupFlags.innerlink || groupFlags.jumplist) && imports.push(`import InnerLink from '../../components/InnerLink';`);
 	groupFlags.bylevelpop && imports.push(`import ByLevelPop from '../../components/ByLevelPop';`);
+	groupFlags.mdef && imports.push(`import Defense from '../../components/monsters/Defense';`);
 	// Add saved info;
 	const allprops = [];
 	const output = imports.concat(final.map(([prop, object]) => {

@@ -18,7 +18,7 @@ interface AcProps extends Id {
 		regen?: never
 	}
 	interface HpPlain extends Id {
-		hp: string[]
+		hp: [number, string] | [number, string, number] | [number, string, (number | null), number]
 		fh?: string
 		regen?: string
 		hpRaw?: never
@@ -208,7 +208,7 @@ const Weakness: FC<WeaknessProps> = ({weak, id}) => {
 
 type DefProps = AcProps & HpProps & SaveProps & DefenseProps & WeaknessProps;
 
-const makeMonsterDefenseBlock: FC<DefProps> = (attrs) => {
+const Defense: FC<DefProps> = (attrs) => {
 	const {
 		id,
 		ac, mod,
@@ -259,4 +259,4 @@ const makeMonsterDefenseBlock: FC<DefProps> = (attrs) => {
 	);
 };
 
-export default makeMonsterDefenseBlock;
+export default Defense;

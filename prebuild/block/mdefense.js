@@ -2,7 +2,7 @@ import convertToHtmlArrayKludge from "../convertToHtmlArrayKludge.js";
 
 const clean = (bit) => bit.replace(/‹[-a-z_]+[/]([^›]+)›/g, "$1").replace(/[^-a-zA-Z_ 0-9]/g, "");
 
-const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs, id, logError) => {
+const makeMonsterDefenseBlock = ({marked2, convertEncodedInfo, maybeClear, attrs, id, logError}) => {
 	const {
 		ac, mod,
 		hp, hpRaw, fh, regen,
@@ -15,7 +15,7 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 		weak, vulner
 	} = attrs;
 	const output = [];
-	const doConvert = (input, stringify = false) => convertToHtmlArrayKludge(marked2.parseInline(convertEncodedInfo(input)), stringify);
+	const doConvert = (input, stringify = true) => convertToHtmlArrayKludge(marked2.parseInline(convertEncodedInfo(input)), stringify);
 	let flag = true;
 	const log = (...args) => {
 		logError(...args);
@@ -47,23 +47,33 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 	//
 	if(hp || hpRaw) {
 		if(hpRaw) {
-			output.push(`hpRaw="${hpRaw}"`)
+			output.push(`hpRaw="${hpRaw}"`);
 		} else {
-			const h = `${hp}~~~`.split(/~/).slice(0,4);
-			if(!h[0]) {
+			const [a, b, c, d] = `${hp}~~~`.split(/~/).slice(0,4);
+			const x = Number(a);
+			const y = c ? Number(c) : null;
+			const z = d ? Number(d) : null;
+			if(!a || !b || x !== x || y !== y || z !== z) {
 				log(`Bad hp: [${hp}]`);
 			} else {
-				output.push(`hp={${JSON.stringify(h)}}`);
+				const final = [Math.round(a), b];
+				if(y !== null) {
+					final.push(Math.round(y));
+					(z !== null) && final.push(Math.round(z));
+				} else if (z !== null) {
+					final.push(null, Math.round(z));
+				}
+				output.push(`hp={${JSON.stringify(final)}}`);
 				if(fh) {
-					output.push(`fh="${fh}"`)
+					output.push(`fh="${fh}"`);
 				}
 				if(regen) {
-					output.push(`regen="${regen}"`)
+					output.push(`regen="${regen}"`);
 				}
 			}
 		}
 	} else {
-		log("Missing hp")
+		log("Missing hp");
 	}
 	//
 	// SAVING THROWS LINE
@@ -79,7 +89,7 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 		log("Missing reflex save");
 	}
 	if(will) {
-		output.push(`will={${doConvert(String(will), true)}}`);
+		output.push(`will={${doConvert(String(will))}}`);
 	} else {
 		log("Missing will save");
 	}
@@ -90,12 +100,12 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 	const deff = [];
 	if(def) {
 		def.split(/~/).forEach(bit => {
-			deff.push([clean(bit), doConvert(bit)]);
+			deff.push([clean(bit), doConvert(bit, false)]);
 		});
 		output.push(`def={${JSON.stringify(deff)}}`);
 	}
 	if(chanRes) {
-		output.push(`chanRes="${chanRes}"`)
+		output.push(`chanRes="${chanRes}"`);
 	}
 	if(fortif) {
 		const f = Number(fortif);
@@ -107,7 +117,7 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 		}
 	}
 	if(split) {
-		output.push(`split="${split}"`)
+		output.push(`split="${split}"`);
 	}
 	if(ink) {
 		const i = Number(ink);
@@ -119,10 +129,10 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 		}
 	}
 	if(pBlood) {
-		output.push(`pBlood="${pBlood}"`)
+		output.push(`pBlood="${pBlood}"`);
 	}
 	if(trapS) {
-		output.push(`trapS="${trapS}"`)
+		output.push(`trapS="${trapS}"`);
 	}
 	if(unstop) {
 		output.push("unstop");
@@ -164,13 +174,13 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 		output.push("impUnc");
 	}
 	if(dr) {
-		output.push(`dr={${doConvert(dr, true)}}`);
+		output.push(`dr={${doConvert(dr)}}`);
 	}
 	if(immune) {
-		output.push(`immune={${doConvert(immune, true)}}`);
+		output.push(`immune={${doConvert(immune)}}`);
 	}
 	if(resist) {
-		output.push(`resist={${doConvert(resist, true)}}`);
+		output.push(`resist={${doConvert(resist)}}`);
 	}
 	if(sr) {
 		output.push(`sr="${sr}"`);
@@ -181,14 +191,14 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 	const w = [];
 	// SORT BEFORE SENDING, then ignore the sortable bits
 	if(vulner) {
-		w.push([`vulnerable to ${clean(vulner)}`, `‹umr/vulnerable› to ${vulner}`])
+		w.push([`vulnerable to ${clean(vulner)}`, `‹umr/vulnerable› to ${vulner}`]);
 	}
 	if(weak) {
 		weak.split(/~/).forEach(bit => w.push([clean(bit), bit]));
 	}
 	if(w.length > 0) {
 		w.sort((a, b) => a[0].localeCompare(b[0]));
-		output.push(`weak={${JSON.stringify(w.map(bit => doConvert(bit[1])))}}`);
+		output.push(`weak={${JSON.stringify(w.map(bit => doConvert(bit[1], false)))}}`);
 	}
 	if(flag) {
 		return `${maybeClear}<Defense id="${id}" ${output.join(" ")} />\n`;

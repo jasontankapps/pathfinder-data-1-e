@@ -325,7 +325,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				flags.mdef = true;
 				const id = prefix + makeValidID(text + "-defense");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterDefenseBlock(marked2, convertEncodedInfo, maybeClear, attrs, id, logError);
+				return makeMonsterDefenseBlock({marked2, convertEncodedInfo, maybeClear, attrs, id, logError});
 			} else if (n === "moffense") {
 				churn(n, attrs, [
 					"clear", "sp", "spP", "br", "brP", "cl", "clP", "sw", "swP",
