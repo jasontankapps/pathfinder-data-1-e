@@ -304,11 +304,15 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 						"monstrousHumanoid", "ooze", "outsider", "plant", "undead", "vermin",
 					"subs", "othersubs", "augment", "subtypes", "init",
 					"sen", "senSpell", "dv", "llv", "keenScent", "scent", "thoughtsense", "greensight", "lifesense",
-						"xray", "aav", "mistsight", "sid", "blindsight", "blindsense", "tremorsense", "pcp",
+						"xray", "aav", "mistsight", "sid", "blindsight", "blindsightParens", "blindsense",
+						"tremorsense", "tremorParens", "pcp",
 					"aura"
 				], [], logError);
+				flags.header = true;
+				flags.minfo = true;
+				const id = prefix + makeValidID(text + "-info");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterInfoBlock(marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, text, logError);
+				return makeMonsterInfoBlock({marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, id, text, logError});
 			} else if (n === "mdefense") {
 				churn(n, attrs, [
 					"clear", "ac", "mod",

@@ -1521,7 +1521,7 @@
 			"",
 			"::mh[Bog Strider]{cr=2}",
 			"",
-			"::minfo{source=\"Pathfinder #34: Blood for Blood/82\" xp=600 n medium monstrousHumanoid init=+2 sen=\"‹umr/tremorsense› 120 ft. (in water)\" dv=60 pcp=+6}",
+			"::minfo{source=\"Pathfinder #34: Blood for Blood/82\" xp=600 n medium monstrousHumanoid init=+2 tremorsense=120 tremorParens=\"in water\" dv=60 pcp=+6}",
 			"",
 			"::mdefense{ac=\"16/13/13\" mod=\"+2 Dex, +1 dodge, +3 natural\" hp=\"15~2d10+4\" fort=+2 ref=+5 will=+4}",
 			"",

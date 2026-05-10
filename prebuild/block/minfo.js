@@ -1,4 +1,6 @@
-const makeMonsterInfoBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, text, logError) => {
+import convertToHtmlArrayKludge from "../convertToHtmlArrayKludge.js";
+
+const makeMonsterInfoBlock = ({marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, id, text, logError}) => {
 	const {
 		source, xp, al, lg, ln, le, ng, n, ne, cg, cn, ce,
 		fine, diminutive, tiny, small, medium, large, huge, gargantuan, colossal,
@@ -6,155 +8,147 @@ const makeMonsterInfoBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeCle
 			monstrousHumanoid, ooze, outsider, plant, undead, vermin,
 		subs, othersubs, augment, subtypes, init,
 		sen, senSpell, dv, llv, keenScent, scent, thoughtsense, greensight, lifesense,
-			xray, aav, mistsight, sid, blindsight, blindsense, tremorsense, pcp,
+			xray, aav, mistsight, sid, blindsight, blindsightParens, blindsense,
+			tremorsense, tremorParens, pcp,
 		aura
 	} = attrs;
 	const output = [];
-	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
+	const doConvert = (input, stringify = true) => convertToHtmlArrayKludge(marked2.parseInline(convertEncodedInfo(input)), stringify);
+	let flag = true;
+	const log = (...lines) => {
+		flag = false;
+		logError(...lines);
+	};
 	if(source) {
-		output.push(marked2.parseInline(parseSOURCE(source, true)));
+		output.push(`source={${JSON.stringify(source.split(";").map(bit => {
+			const [s, p] = bit.split(/[/]/);
+			return p !== undefined ? [s, Math.round(Number(p))] : [s];
+		}))}}`);
 	}
 	//
 	// XP LINE
 	//
 	if(xp !== undefined) {
-		output.push(`<strong>XP</strong> ${xp}`);
+		output.push(`xp="${xp}"`);
 	} else {
-		logError("Missing XP")
+		log("Missing XP");
 	}
 	//
 	// RACE/CLASS LINE
 	//
 	if(text) {
-		output.push(doParse(text));
+		output.push(`text={${doConvert(text)}}`);
 	}
 	//
 	// ALIGNMENT/SIZE/TYPE LINE
 	//
-	let line = "";
-	if(al) { line = al + " "; }
-	else if(lg) { line = "LG "; }
-	else if(ln) { line = "LN "; }
-	else if(le) { line = "LE "; }
-	else if(ng) { line = "NG "; }
-	else if(n) { line = "N "; }
-	else if(ne) { line = "NE "; }
-	else if(cg) { line = "CG "; }
-	else if(cn) { line = "CN "; }
-	else if(ce) { line = "CE "; }
+	if(al) { output.push(`al={"${al}"}`); }
+	else if(lg) { output.push("lg"); }
+	else if(ln) { output.push("ln"); }
+	else if(le) { output.push("le"); }
+	else if(ng) { output.push("ng"); }
+	else if(n) { output.push("n"); }
+	else if(ne) { output.push("ne"); }
+	else if(cg) { output.push("cg"); }
+	else if(cn) { output.push("cn"); }
+	else if(ce) { output.push("ce"); }
 	else {
-		logError("Missing alignment");
+		log("Missing alignment");
 	}
-	if(fine) { line = line + "Fine "; }
-	else if(diminutive) { line = line + "Diminutive "; }
-	else if(tiny) { line = line + "Tiny "; }
-	else if(small) { line = line + "Small "; }
-	else if(medium) { line = line + "Medium "; }
-	else if(large) { line = line + "Large "; }
-	else if(huge) { line = line + "Huge "; }
-	else if(gargantuan) { line = line + "Gargantuan "; }
-	else if(colossal) { line = line + "Colossal "; }
+	if(fine) { output.push("fine"); }
+	else if(diminutive) { output.push("diminutive"); }
+	else if(tiny) { output.push("tiny"); }
+	else if(small) { output.push("small"); }
+	else if(medium) { output.push("medium"); }
+	else if(large) { output.push("large"); }
+	else if(huge) { output.push("huge"); }
+	else if(gargantuan) { output.push("gargantuan"); }
+	else if(colossal) { output.push("colossal"); }
 	else {
-		logError("Missing size");
+		log("Missing size");
 	}
-	if(aberration) { line = line + "‹type/aberration›"; }
-	else if(animal) { line = line + "‹type/animal›"; }
-	else if(construct) { line = line + "‹type/construct›"; }
-	else if(dragon) { line = line + "‹type/dragon›"; }
-	else if(fey) { line = line + "‹type/fey›"; }
-	else if(humanoid) { line = line + "‹type/humanoid›"; }
-	else if(magicalBeast) { line = line + "‹type/magical beast›"; }
-	else if(monstrousHumanoid) { line = line + "‹type/monstrous humanoid›"; }
-	else if(ooze) { line = line + "‹type/ooze›"; }
-	else if(outsider) { line = line + "‹type/outsider›"; }
-	else if(plant) { line = line + "‹type/plant›"; }
-	else if(undead) { line = line + "‹type/undead›"; }
-	else if(vermin) { line = line + "‹type/vermin›"; }
+	if(aberration) { output.push("aberration"); }
+	else if(animal) { output.push("animal"); }
+	else if(construct) { output.push("construct"); }
+	else if(dragon) { output.push("dragon"); }
+	else if(fey) { output.push("fey"); }
+	else if(humanoid) { output.push("humanoid"); }
+	else if(magicalBeast) { output.push("magicalBeast"); }
+	else if(monstrousHumanoid) { output.push("monstrousHumanoid"); }
+	else if(ooze) { output.push("ooze"); }
+	else if(outsider) { output.push("outsider"); }
+	else if(plant) { output.push("plant"); }
+	else if(undead) { output.push("undead"); }
+	else if(vermin) { output.push("vermin"); }
 	else {
-		logError("Missing type");
+		log("Missing type");
 	}
 	if(subtypes) {
-		line = line + " (" + subtypes + ")";
+		output.push(`subtypes={${doConvert(subtypes)}}`);
 	} else {
 		const found = [];
 		if(augment) {
-			found.push([`augmented ${augment}`, `‹subtype/augmented› ‹type/${augment}›`]);
+			output.push(`augment="${augment}"`);
 		}
 		if (subs) {
 			const s = subs.split(/~/);
-			s.forEach(sub => {
-				found.push([sub, `‹subtype/${sub}›`]);
-			});
+			output.push(`subs={${JSON.stringify(s)}}`)
 		}
 		if(othersubs) {
 			const s = othersubs.split(/~/);
-			s.forEach(sub => {
-				found.push([sub, sub]);
-			});
-		}
-		if(found.length) {
-			line = line + ` (${
-				found.toSorted((a,b) => a[0].localeCompare(b[0])).map(f => f[1]).join(", ")
-			})`;
+			output.push(`othersubs={${JSON.stringify(s)}}`)
 		}
 	}
-	output.push(doParse(line));
 	//
 	// INITIATIVE/SENSES LINE
 	//
-	line = "";
 	if(init !== undefined) {
-		line = `<strong>Init</strong> ${init}`;
+		output.push(`init="${init}"`);
 	} else {
-		logError("No initiative");
+		log("No initiative");
 	}
-	const senses = sen ? sen.split(/~/).map(x => [x, x]) : [];
-	if(senSpell) { senses.push(...senSpell.split(/~/).map(x => [x, `*${x}*`])) }
-	if(dv) { senses.push(["darkvision", `darkvision ${dv} ft.`]); }
-	if(llv) { senses.push(["low-light vision", "low-light vision"]); }
+	if(sen) {
+		output.push(`sen={${JSON.stringify(sen.split(/~/).map(e => doConvert(e, false)))}}`);
+	}
+	if(senSpell) { output.push(`senSpell={${JSON.stringify(senSpell.split(/~/))}}`) }
+	if(dv) { output.push(`dv={${dv}}`); }
+	if(llv) { output.push("llv"); }
 	if(keenScent) {
-		if(keenScent === true) { senses.push(["keen scent", `‹umr/keen scent›`]);}
-		else { senses.push(["keen scent", `‹umr/keen scent› ${keenScent} ft.`]); }
+		output.push(keenScent === "keenScent" ? "keenScent" : `keenScent={${keenScent}}`);
 	}
-	if(scent) { senses.push(["scent", `‹umr/scent›`]); }
-	if(thoughtsense) { senses.push(["thoughtsense", `‹umr/thoughtsense› ${thoughtsense} ft.`]); }
+	if(scent) { output.push("scent"); }
+	if(thoughtsense) { output.push(`thoughtsense={${thoughtsense}}`); }
 	if(greensight) {
-		if(greensight === true) { senses.push(["greensight", `‹umr/greensight›`]);}
-		else { senses.push(["greensight", `‹umr/greensight› ${greensight} ft.`]); }
+		output.push(greensight === "greensight" ? "greensight" : `greensight={${greensight}}`);
 	}
 	if(lifesense) {
-		if(lifesense === true) { senses.push(["lifesense", `‹umr/lifesense›`]);}
-		else { senses.push(["lifesense", `‹umr/lifesense› ${lifesense} ft.`]); }
+		output.push(lifesense === "lifesense" ? "lifesense" : `lifesense={${lifesense}}`);
 	}
-	if(blindsight) { senses.push(["blindsight", `‹umr/blindsight› ${blindsight} ft.`]); }
-	if(blindsense) { senses.push(["blindsense", `‹umr/blindsense› ${blindsense} ft.`]); }
-	if(tremorsense) { senses.push(["tremorsense", `‹umr/tremorsense› ${tremorsense} ft.`]); }
-	if(mistsight) { senses.push(["mistsight", `‹umr/mistsight›`]); }
-	if(xray) { senses.push(["x-ray vision", "‹umr/x-ray vision›"]); }
-	if(aav) { senses.push(["all-around vision", `‹umr/all-around vision›`]); }
-	if(sid) { senses.push(["see in darkness", `‹umr/see in darkness›`]); }
-	if(senses.length) {
-		line =
-			line
-			+ "; **Senses** "
-			+ senses
-				.sort((a, b) => a[0].localeCompare(b[0]))
-				.map(x => x[1])
-				.join(", ")
-				.replace(/(\*+), \1(?!\*)/g, ", ")
-				.replace(/(\*+),/g, ",$1")
-	}
+	if(blindsight) { output.push(`blindsight={${blindsight}}`); }
+	if(blindsightParens) { output.push(`blindsightParens={${doConvert(blindsightParens)}}`); }
+	if(blindsense) { output.push(`blindsense={${blindsense}}`); }
+	if(tremorsense) { output.push(`tremorsense={${tremorsense}}`); }
+	if(tremorParens) { output.push(`tremorParens={${doConvert(tremorParens)}}`); }
+	if(mistsight) { output.push("mistsight"); }
+	if(xray) { output.push("xray"); }
+	if(aav) { output.push("aav"); }
+	if(sid) { output.push("sid"); }
 	if(pcp !== undefined) {
-		line = line + `; Perception ${pcp}`;
+		output.push(`pcp="${pcp}"`)
 	}
-	line && output.push(doParse(line));
 	//
 	// AURA LINE
 	//
 	if(aura) {
-		output.push(doParse(`**Aura** ${aura}`));
+		output.push(`aura={${doConvert(aura)}}`)
 	}
-	return `${maybeClear}<p>${output.join("<br>")}</p>`;
+	//
+	// DONE
+	//
+	if(flag) {
+		return `${maybeClear}<Info id="${id}" ${output.join(" ")} />\n`;
+	}
+	return "<p><em>Error fetching basic info.</em></p>\n";
 };
 
 export default makeMonsterInfoBlock;

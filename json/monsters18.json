@@ -505,7 +505,7 @@
 			"",
 			"::mh[Oceanid]{cr=7}",
 			"",
-			"::minfo{source=\"Bestiary 4/208\" xp=\"3,200\" cn medium fey subs=water init=+8 sen=\"‹umr/tremorsense› 30 ft. (in water only)\" dv=120 llv pcp=+16}",
+			"::minfo{source=\"Bestiary 4/208\" xp=\"3,200\" cn medium fey subs=water init=+8 tremorsense=30 tremorParens=\"in water only\" dv=120 llv pcp=+16}",
 			"",
 			"::mdefense{ac=\"21/15/16\" mod=\"+4 Dex, +1 dodge, +6 natural\" hp=\"76~9d6+45\" fh=\"10 (in salt water only)\" fort=+8 ref=+10 will=+10 dr=\"10/cold iron\" immune=acid resist=\"cold 30\" vulner=fire weak=\"water dependency~water magic\"}",
 			"",

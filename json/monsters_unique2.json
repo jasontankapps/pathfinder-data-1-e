@@ -377,7 +377,7 @@
 			"",
 			"::mh[Rhan-Tegoth]{cr=28}",
 			"",
-			"::minfo{source=\"Bestiary 6/146\" xp=\"4,915,200\" ce large aberration subs=\"aquatic~chaotic~evil~Great Old One\" init=+24 sen=\"‹umr/tremorsense› 120 ft. (640 ft. when in statue form)\" senSpell=\"true seeing\" dv=60 llv pcp=+47 aura=\"unspeakable presence (300 ft., DC 35)\"}",
+			"::minfo{source=\"Bestiary 6/146\" xp=\"4,915,200\" ce large aberration subs=\"aquatic~chaotic~evil~Great Old One\" init=+24 tremorsense=120 tremorParens=\"640 ft. when in statue form\" senSpell=\"true seeing\" dv=60 llv pcp=+47 aura=\"unspeakable presence (300 ft., DC 35)\"}",
 			"",
 			"::mdefense{ac=\"46/30/35\" mod=\"+10 Dex, +1 dodge, +10 insight, +16 natural, -1 size\" hp=\"676~33d8+528\" fh=25 fort=+29 ref=+23 will=+31 def=\"immortality~insanity (DC 35)\" dr=\"15/epic and lawful\" immune=\"ability damage, ability drain, aging, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, petrification, poison\" resist=\"fire 30, sonic 30\" sr=39}",
 			"",

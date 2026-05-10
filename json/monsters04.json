@@ -2348,7 +2348,7 @@
 			"",
 			"::mh[Cauldron Bloom]{cr=15}",
 			"",
-			"::minfo{source=\"Pathfinder #142: Gardens of Gallowspire/86\" xp=\"51,200\" n colossal plant init=+6 sen=\"‹umr/tremorsense› 1 mi.\" senSpell=\"true seeing\" blindsight=120 llv pcp=+33}",
+			"::minfo{source=\"Pathfinder #142: Gardens of Gallowspire/86\" xp=\"51,200\" n colossal plant init=+6 tremorsense=5280 tremorParens=\"1 mile\" senSpell=\"true seeing\" blindsight=120 llv pcp=+33}",
 			"",
 			"::mdefense{ac=\"28/4/26\" mod=\"+2 Dex, +24 natural, -8 size\" hp=\"231~22d8+132\" fort=+21 ref=+11 will=+11 immune=\"‹umr/plant traits›\" sr=26}",
 			"",

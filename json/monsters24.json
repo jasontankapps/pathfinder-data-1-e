@@ -2518,7 +2518,7 @@
 		"description": [
 			"::mh[Vampire Warrior]{cr=8}",
 			"",
-			"::minfo[Vishkanya jiang-shi vampire ‹class/fighter› 7]{source=\"Monster Codex/240\" xp=\"4,800\" le medium undead augment=humanoid subs=vishkanya init=+9 sen=\"‹umr/blindsight› 60 ft. (breathing creatures only)\" dv=60 llv pcp=+21}",
+			"::minfo[Vishkanya jiang-shi vampire ‹class/fighter› 7]{source=\"Monster Codex/240\" xp=\"4,800\" le medium undead augment=humanoid subs=vishkanya init=+9 blindsight=60 blindsightParens=\"breathing creatures only\" dv=60 llv pcp=+21}",
 			"",
 			"::mdefense{ac=\"25/15/20\" mod=\"+8 armor, +4 Dex, +1 dodge, +2 natural\" hp=\"78~7d10+35\" fh=5 fort=+9 ref=+7 will=\"+4 (+2 vs. fear); +2 vs. poison\" chanRes=+4 def=\"bravery +2prayer scroll\" dr=\"10/magic and slashing\" immune=\"‹umr/undead traits›\" resist=\"cold 20\" weak=\"jiang-shi weaknesses\"}",
 			"",

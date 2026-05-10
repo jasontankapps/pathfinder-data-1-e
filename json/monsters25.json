@@ -553,7 +553,7 @@
 			"",
 			"::mh[Nymph Water Strider]{cr=\"1/4\"}",
 			"",
-			"::minfo{source=\"Bestiary 4/273\" xp=100 n small vermin init=+2 sen=\"‹umr/tremorsense› 60 ft. (see ‹monster/giant water strider›)\" dv=60 pcp=+4}",
+			"::minfo{source=\"Bestiary 4/273\" xp=100 n small vermin init=+2 tremorsense=60 tremorParens=\"see ‹monster/giant water strider›\" dv=60 pcp=+4}",
 			"",
 			"::mdefense{ac=\"13/13/11\" mod=\"+2 Dex, +1 size\" hp=\"4~1d8\" fort=+2 ref=+2 will=+0 immune=\"mind-affecting effects\"}",
 			"",

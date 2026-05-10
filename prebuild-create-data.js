@@ -1059,6 +1059,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	(groupFlags.innerlink || groupFlags.jumplist) && imports.push(`import InnerLink from '../../components/InnerLink';`);
 	groupFlags.bylevelpop && imports.push(`import ByLevelPop from '../../components/ByLevelPop';`);
 	groupFlags.mdef && imports.push(`import Defense from '../../components/monsters/Defense';`);
+	groupFlags.minfo && imports.push(`import Info from '../../components/monsters/Info';`);
 	// Add saved info;
 	const allprops = [];
 	const output = imports.concat(final.map(([prop, object]) => {

@@ -2433,7 +2433,7 @@
 			"",
 			"::mh[Stygira]{cr=7}",
 			"",
-			"::minfo{source=\"Pathfinder #33: The Varnhold Vanishing/88\" xp=\"3,200\" le medium monstrousHumanoid init=+7 sen=\"‹umr/blindsight› 30 ft. (120 ft. with green eyes)~*true seeing* with gem eye\" scent pcp=+23}",
+			"::minfo{source=\"Pathfinder #33: The Varnhold Vanishing/88\" xp=\"3,200\" le medium monstrousHumanoid init=+7 blindsight=30 blindsightParens=\"120 ft. with green eyes), *true seeing* (with gem eye\" scent pcp=+23}",
 			"",
 			"::mdefense{ac=\"19/13/16\" mod=\"+3 Dex, +6 natural\" hp=\"76~8d10+32\" fort=+6 ref=+9 will=+14 dr=\"10/adamantine\" immune=\"gaze attacks, paralysis, petrification\" sr=18 weak=\"‹umr/light blindness›\"}",
 			"",
