@@ -1,8 +1,8 @@
 import {FC, ReactNode, Fragment as F} from 'react';
-import Header from '../Header';
 import Link from '../Link';
 import parseHtmlArrayKludge, { StringOrHtmlKludge } from '../parseHtmlArrayKludge';
 import { convertTextToLink } from '../convertLinks';
+import mapNodes from '../mapNodes';
 
 type AtLeastOne<T, U = { [K in keyof T]: Pick<T, K> }> = Partial<T> & U[keyof U];
 interface Base {
@@ -96,15 +96,7 @@ const Source: FC<SourceProps> = ({id, source}) => {
 	}
 	return (
 		<p><strong>Sources</strong> {
-			source.map((bit, i) => {
-				const key = `${id}-source-${i}`;
-				const [title, page] = bit;
-				return i ? (
-					<F key={key}>, <Link to={"/source/" + convertTextToLink(title)}>{title}{page ? " " + page : ""}</Link></F>
-				) : (
-					<Link key={key} to={"/source/" + convertTextToLink(title)}>{title}{page ? " " + page : ""}</Link>
-				);
-			})
+			mapNodes(source.map(([title, page]) => <Link to={"/source/" + convertTextToLink(title)}>{title}{page ? " " + page : ""}</Link>), `${id}-source`)
 		}</p>
 	);
 };
@@ -136,8 +128,7 @@ const getSubtypes = (props: Subtypes2): ReactNode | false => {
 	if(found.length) {
 		found.sort((a,b) => a[0].localeCompare(b[0]));
 		return <F>{
-			found.map((f, i) => (
-				i ? <F key={`${id}-subtyping-${i}`}>, {f[1]}</F> : f[1]))
+			mapNodes(found.map(m => m[1]), `${id}-subtyping`)
 		}</F>;
 	}
 	return false;
@@ -238,15 +229,11 @@ const getSenses = (props: Senses) => {
 		senses.sort((a, b) => a[0].localeCompare(b[0]));
 		return (
 			<F key={`${id}-senses-line`}><strong>Senses</strong> {
-				senses.map((x, i) => i ? <F key={`${id}-senseline-${i}`}>, {x[1]}</F> : x[1])
+				mapNodes(senses.map(m => m[1]), `${id}-senseline`)
 			}</F>
 		);
 	}
 	return false;
-};
-
-const x = (props: Subtypes) => {
-	const {subs} = props;
 };
 
 const Info: FC<InfoProps> = (attrs) => {
@@ -284,7 +271,7 @@ const Info: FC<InfoProps> = (attrs) => {
 	const parens = subtypes !== undefined ? parseHtmlArrayKludge(subtypes) : getSubtypes({subs, augment, othersubs, id});
 	const sensing = getSenses({sen, senSpell, dv, llv, keenScent, scent, thoughtsense, greensight, lifesense,
 			xray, aav, mistsight, sid, blindsight, blindsightParens, blindsense,
-			tremorsense, tremorParens, id})
+			tremorsense, tremorParens, id});
 	return (
 		<div className="reduce">
 			<Source id={id} source={source} />

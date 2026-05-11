@@ -2499,7 +2499,7 @@
 			"",
 			"::mdefense{ac=\"24/16/18\" mod=\"+6 Dex, +8 natural\" hp=\"105~10d10+50\" fort=+8 ref=+13 will=+11 dr=\"10/cold iron and good\" immune=\"fire, poison\" resist=\"acid 10, electricity 10\" sr=19}",
 			"",
-			"::moffense{sp=30 fl=60 perfect melee=\"bite +16 (1d6+4 plus disease), 2 claws +16 (1d4+4 plus distraction)\" distraction=\"DC 20\" specAtt=disease~droning next}",
+			"::moffense{sp=30 fl=60 perfect melee=\"bite +16 (1d6+4 plus disease), 2 claws +16 (1d4+4 plus distraction)\" distraction=20 specAtt=disease~droning next}",
 			"",
 			"::mspell{sla cl=10 con=+16 constant=\"detect good~detect magic\" atWill=\"invisibility|self only~putrefy food and drink~see invisibility~summon swarm\" day=\"3~bestow curse|DC 20~command undead|DC 18~enervation~~1~animate dead~insect plague~!‹umr/summon› (level 6; 1 ‹monster/pairaka› or 1d6 ‹template/fiendish› ‹monster/giant fl«ies<y› 50%)\"}",
 			"",

@@ -11,7 +11,7 @@ type HtmlKludge = (string | HtmlObject)[];
 
 export type StringOrHtmlKludge = (string | HtmlKludge);
 
-const parseHtmlArrayKludge = (incoming: StringOrHtmlKludge) => {
+const parseHtmlArrayKludge = (incoming: StringOrHtmlKludge): ReactNode => {
 	if (typeof incoming === "string") {
 		return incoming;
 	}

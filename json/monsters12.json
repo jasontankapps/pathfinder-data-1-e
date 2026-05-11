@@ -2255,7 +2255,7 @@
 			"",
 			"::mdefense{ac=\"29/29/18\" mod=\"+10 Dex, +1 dodge, +8 size\" hp=\"123~19d10+19\" fort=+8 ref=+18 will=+8 def=\"dispersion~swarm traits\" immune=\"‹umr/construct traits›, weapon damage\"}",
 			"",
-			"::moffense{fl=50 perfect melee=\"swarm (6d6 plus dismantle and distraction)\" space=10 reach=0 distraction=\"DC 21\" specAtt=dismantle~infest}",
+			"::moffense{fl=50 perfect melee=\"swarm (6d6 plus dismantle and distraction)\" space=10 reach=0 distraction=21 specAtt=dismantle~infest}",
 			"",
 			"::mstats{str=1 dex=30 con=\"-\" int=5 wis=10 cha=1 bab=+19 cmb=\"-\" cmd=\"-\" feats=\"Ability Focus=distraction~Dodge~Great Fortitude~Improved Lightning Reflexes~Iron Will~Lightning Reflexes~Lightning Stance~Mobility~Toughness~Wind Stance\" skills=\"Fly +26~Perception +13~Stealth +32 (+42 when dispersed)\" racial=\"+10 Stealth when dispersed\" lang=\"Common (can't speak)\"}",
 			"",

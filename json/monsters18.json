@@ -476,7 +476,7 @@
 			"",
 			"::mdefense{ac=\"20/20/14\" mod=\"+5 Dex, +1 dodge, +4 size\" hp=\"82~11d8+33\" fort=+8 ref=+10 will=+10 def=\"swarm traits\" immune=\"weapon damage\" weak=\"‹umr/light blindness›\"}",
 			"",
-			"::moffense{sp=10 fl=40 perfect melee=\"swarm (3d6)\" space=10 reach=0 distraction=\"DC 18\" specAtt=\"capitulating gaze~eye possession~multigaze\"}",
+			"::moffense{sp=10 fl=40 perfect melee=\"swarm (3d6)\" space=10 reach=0 distraction=18 specAtt=\"capitulating gaze~eye possession~multigaze\"}",
 			"",
 			"::mstats{str=4 dex=21 con=17 int=14 wis=17 cha=16 bab=+8 cmb=\"-\" cmd=\"-\" feats=\"Dodge~Flyby Attack~Great Fortitude~Improved Initiative~Improved Lightning Reflexes~Lightning Reflexes\" skills=\"Bluff +11~Diplomacy +11~Fly +29~Knowledge (dungeoneering) +12~Knowledge (local) +12~Linguistics +6~Perception +26~Stealth +22~Survival +13\" racial=\"+10 Perception\" lang=\"Aklo, Common, Dwarven, Orc, Terran, Undercommon (can't speak); ‹umr/telepathy› 100 ft.\" sq=\"unavoidable gaze\"}",
 			"",

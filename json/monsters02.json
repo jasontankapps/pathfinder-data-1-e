@@ -1043,7 +1043,7 @@
 			"",
 			"::mdefense{ac=\"28/28/18\" mod=\"+9 Dex, +1 dodge, +8 size\" hp=\"189~18d10+90\" fort=+18 ref=+15 will=\"+16; +4 vs. poison, +2 resistance vs. evil\" def=\"swarm traits\" dr=\"10/evil\" immune=\"disease, electricity, petrification, weapon damage\" resist=\"fire 20\" sr=26}",
 			"",
-			"::moffense{fl=30 perfect melee=\"swarm (5d6 plus distraction)\" space=10 reach=0 distraction=\"DC 24\" heat=\"3d6 fire\" specAtt=\"3d6 firevibrating combustion\" next}",
+			"::moffense{fl=30 perfect melee=\"swarm (5d6 plus distraction)\" space=10 reach=0 distraction=24 heat=\"3d6 fire\" specAtt=\"3d6 firevibrating combustion\" next}",
 			"",
 			"::mspell{sla cl=18 con=+22 constant=\"deathwatch~magic circle against evil\" atWill=\"detect evil~greater teleport|self only\" day=\"7~lesser restoration~~5~mass cure light wounds~neutralize poison~~3~greater restoration~heal\"}",
 			"",

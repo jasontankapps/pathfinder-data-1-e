@@ -224,7 +224,7 @@
 			"",
 			"::mdefense{ac=\"13/13/13\" mod=\"-5 Dex, +8 size\" hp=\"9~2d8\" fort=+0 ref=-5 will=-5 def=\"ooze and swarm traits\" immune=\"weapon damage\"}",
 			"",
-			"::moffense{sp=10 cl=10 sw=20 melee=\"swarm (1d6 acid plus distraction)\" space=10 reach=0 distraction=\"DC 11\"}",
+			"::moffense{sp=10 cl=10 sw=20 melee=\"swarm (1d6 acid plus distraction)\" space=10 reach=0 distraction=11}",
 			"",
 			"::mstats{str=1 dex=1 con=10 int=\"-\" wis=1 cha=1 bab=+1 cmb=\"-\" cmd=\"-\" skills=\"Climb +3~Swim +3\" sq=\"‹umr/amphibious›\"}",
 			"",

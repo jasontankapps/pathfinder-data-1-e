@@ -1903,7 +1903,7 @@
 			"",
 			"::mdefense{ac=\"23/17/18\" mod=\"+4 Dex, +1 dodge, +6 natural, +2 size\" hp=\"117~18d10+18\" fort=+6 ref=+12 will=+12 aav def=\"hardness 10~swarm traits\" immune=\"‹umr/construct traits›\" vulner=electricity}",
 			"",
-			"::moffense{sp=30 fl=60 perfect melee=\"swarm (4d6 plus distraction and 2d6 fire)\" space=10 reach=0 distraction=\"DC 19\"}",
+			"::moffense{sp=30 fl=60 perfect melee=\"swarm (4d6 plus distraction and 2d6 fire)\" space=10 reach=0 distraction=19}",
 			"",
 			"::mstats{str=12 dex=19 con=\"-\" int=11 wis=18 cha=3 bab=+18 cmb=\"-\" cmd=\"-\" feats=\"Alertness~Dodge~Following Step~Improved Initiative~Improved Lightning Reflexes~Iron Will~Lightning Reflexes~Step Up~Toughness\" skills=\"Fly +20~Perception +30~Sense Motive +10~Stealth +20~Survival +9\" racial=\"+4 Perception\" lang=\"Androffan, Common\" sq=\"camouflage, transmit senses\"}",
 			"",

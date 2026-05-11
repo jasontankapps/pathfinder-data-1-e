@@ -1808,7 +1808,7 @@
 			"",
 			"::mdefense{ac=\"14/14/12\" mod=\"+2 Dex, +2 size\" hp=\"39~6d8+12\" fort=+4 ref=+6 will=+6 def=\"half damage from piercing and slashing~incorporeal form~shadow blend~swarm traits\" immune=\"‹umr/undead traits›\"}",
 			"",
-			"::moffense{sp=40 cl=15 melee=\"swarm (2d6 plus 1d4 ‹rule/Strength damage› and disease)\" space=10 reach=0 distraction=\"DC 15\"}",
+			"::moffense{sp=40 cl=15 melee=\"swarm (2d6 plus 1d4 ‹rule/Strength damage› and disease)\" space=10 reach=0 distraction=15}",
 			"",
 			"::mstats{str=6 dex=15 con=\"-\" int=2 wis=12 cha=15 bab=+4 cmb=\"-\" cmd=\"-\" feats=\"Improved Initiative~Lightning Reflexes~Skill Focus=Perception\" skills=\"Climb +10~Perception +10~Stealth +20\" racial=\"+4 Stealth; uses Dex to modify Climb\"}",
 			"",

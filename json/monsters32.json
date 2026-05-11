@@ -2357,7 +2357,7 @@
 			"",
 			"::mdefense{ac=\"15/15/14\" mod=\"+1 Dex, +4 size\" hp=\"11~2d8+2\" fort=+4 ref=+1 will=+0 def=\"swarm traits\" immune=\"mind-affecting effects, weapon damage\"}",
 			"",
-			"::moffense{sp=10 fl=30 average melee=\"swarm (1d6 plus bleed and distraction)\" space=10 reach=0 bleed=1 distraction=\"DC 12\"}",
+			"::moffense{sp=10 fl=30 average melee=\"swarm (1d6 plus bleed and distraction)\" space=10 reach=0 bleed=1 distraction=12}",
 			"",
 			"::mstats{str=1 dex=12 con=12 int=\"-\" wis=11 cha=1 bab=+1 cmb=\"-\" cmd=\"-\" skills=\"Fly +7\" sq=gestate}",
 			"",

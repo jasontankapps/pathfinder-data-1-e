@@ -349,8 +349,10 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"next"
 				], [], logError);
 				flags.header = true;
+				flags.moffense = true;
+				const id = prefix + makeValidID(text + "-offense");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterOffenseBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
+				return makeMonsterOffenseBlock({marked2, convertEncodedInfo, maybeClear, attrs, id, logError});
 			} else if (n === "mspell") {
 				churn(n, attrs, [
 					"clear", "cl", "con",

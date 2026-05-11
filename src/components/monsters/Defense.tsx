@@ -3,6 +3,7 @@ import Header from '../Header';
 import Link from '../Link';
 import parseHtmlArrayKludge, { StringOrHtmlKludge } from '../parseHtmlArrayKludge';
 import { convertTextToLink } from '../convertLinks';
+import mapNodes from '../mapNodes';
 
 interface Id {
 	id?: string
@@ -77,13 +78,11 @@ const Hp: FC<HpProps> = ({hpRaw, hp, fh, regen}) => {
 	if(forcefield) {
 		paren = paren + ` plus ${forcefield} hp force field`;
 	}
-	const fast = fh ? (
+	return <p><strong>hp</strong> {h} ({paren}){fh ? (
 		<>; <Link to="/umr/fast_healing">fast healing</Link> {fh}</>
-	) : <></>;
-	const reg = regen ? (
+	) : ""}{regen ? (
 		<>; <Link to="/umr/regeneration">regeneration</Link> {regen}</>
-	) : <></>;
-	return <p><strong>hp</strong> {h} ({paren}){fast}{reg}</p>;
+	) : ""}</p>;
 };
 
 const Save: FC<SaveProps> = ({fort, ref, will}) => {
@@ -189,10 +188,8 @@ const Defenses: FC<DefenseProps> = (props) => {
 	}
 	deff.sort((a, b) => a[0].localeCompare(b[0]));
 	return <p><strong>Defensive Abilities</strong> {
-		deff.map((pair, i) => {
-			return i ? <F key={`${id}-def-ab-${i}`}>, {pair[1]}</F> : <F key={`${id}-def-ab-${i}`}>{pair[1]}</F>;
-		})
-	}; {final}</p>;
+		mapNodes(deff.map(m => m[1]), `${id}-def-ab`)
+	}{flag ? <>; {final}</> : <></>}</p>;
 };
 
 const Weakness: FC<WeaknessProps> = ({weak, id}) => {
@@ -200,9 +197,7 @@ const Weakness: FC<WeaknessProps> = ({weak, id}) => {
 		return <></>;
 	}
 	return <p><strong>Weaknesses</strong> {
-		weak.map((w, i) => {
-			return i ? <F key={`${id}-weak-${i}`}>, {parseHtmlArrayKludge(w)}</F> : <F key={`${id}-weak-${i}`}>{parseHtmlArrayKludge(w)}</F>;
-		})
+		mapNodes(weak.map(w => parseHtmlArrayKludge(w)), `${id}-weak`, true)
 	}</p>;
 };
 

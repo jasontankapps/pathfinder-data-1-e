@@ -3535,7 +3535,7 @@
 			"",
 			"::mdefense{ac=\"15/13/14\" mod=\"+1 Dex, +2 natural, +2 size\" hp=\"19~3d8+6\" fort=+3 ref=+4 will=+3 def=\"swarm traits\" immune=\"mind-affecting effects\" sr=13}",
 			"",
-			"::moffense{sp=30 cl=10 melee=\"swarm (1d6 plus distraction)\" space=10 reach=0 distraction=\"DC 13\"}",
+			"::moffense{sp=30 cl=10 melee=\"swarm (1d6 plus distraction)\" space=10 reach=0 distraction=13}",
 			"",
 			"::mstats{str=2 dex=13 con=15 int=2 wis=11 cha=2 bab=+2 cmb=\"-\" cmd=\"-\" feats=\"Improved Initiative~Lightning Reflexes\" skills=\"Perception +5~Stealth +13\" sq=\"arcane bite\"}",
 			"",

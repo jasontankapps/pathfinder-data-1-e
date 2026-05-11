@@ -1,9 +1,32 @@
 import isALink from "../get-all-links.js";
+import convertToHtmlArrayKludge from "../convertToHtmlArrayKludge.js";
 import { convertTextToLink } from "../tests/checkForEncodedLink.js";
 
 const linkify = (spell) => convertTextToLink(spell.replace(/#[A-Z0-9]/g, ""));
 
-export const makeMonsterOffenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs, logError) => {
+const parseChEn = (input, x) => {
+	const output = {};
+	let m;
+	input.split(/, /).forEach(bit => {
+		if(m = bit.match(/([0-9]+)[/]day/)) {
+			output.perDay = Math.round(Number(m[1]));
+		} else if(m = bit.match(/([0-9]+)d6/)) {
+			output.d6 = Math.round(Number(m[1]));
+		} else if(m = bit.match(/DC ([0-9]+)/)) {
+			output.dc = Math.round(Number(m[1]));
+		} else if (bit === "command undead only") {
+			output.d6 = "command";
+		} else {
+			output.misc = bit
+		}
+	});
+	if(x !== undefined) {
+		output.pos = x;
+	}
+	return output;
+};
+
+export const makeMonsterOffenseBlock = ({marked2, convertEncodedInfo, maybeClear, attrs, id, logError}) => {
 	const {
 		sp, spP, br, brP, cl, clP, sw, swP,
 		fl, flP, clumsy, poor, average, good, perfect,
@@ -23,18 +46,27 @@ export const makeMonsterOffenseBlock = (marked2, convertEncodedInfo, maybeClear,
 	} = attrs;
 	const output = [];
 	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
+	let flag = true;
+	const log = (...lines) => {
+		flag = false;
+		logError(...lines);
+	};
+	const doConvert = (input, stringify = true) => convertToHtmlArrayKludge(marked2.parseInline(convertEncodedInfo(input)), stringify);
 	//
 	// SPEED LINE
 	//
-	const speeds = [];
 	if(sp) {
-		speeds.push(`${sp} ft.${spP ? ` (${spP})` : ""}`);
+		output.push(`sp={${sp}}`);
+		// only spP and flP have embedded html
+		spP && output.push(`spP={${doConvert(spP)}}`);
 	}
 	if(br) {
-		speeds.push(`burrow ${br} ft.${brP ? ` (${brP})` : ""}`);
+		output.push(`br={${br}}`);
+		brP && output.push(`brP={"${brP}"}`);
 	}
 	if(cl) {
-		speeds.push(`climb ${cl} ft.${clP ? ` (${clP})` : ""}`);
+		output.push(`cl={${cl}}`);
+		clP && output.push(`clP={"${clP}"}`);
 	}
 	if(fl) {
 		let p = "";
@@ -51,185 +83,127 @@ export const makeMonsterOffenseBlock = (marked2, convertEncodedInfo, maybeClear,
 		} else if (perfect) {
 			p = "perfect";
 		} else {
-			logError("Missing fly speed maneuverability");
+			log("Missing fly speed maneuverability");
 		}
-		speeds.push(`fly ${fl} ft.${p ? ` (${p})` : ""}`);
+		output.push(`fl={${fl}}`);
+		// only spP and flP have embedded html
+		p && output.push(`flP={${doConvert(p)}}`);
 	}
 	if(jet) {
-		speeds.push(`‹umr/jet› ${jet} ft.`);
+		output.push(`br={${br}}`);
+		brP && output.push(`brP={"${brP}"}`);
 	}
 	if(sw) {
-		speeds.push(`swim ${sw} ft.${swP ? ` (${swP})` : ""}`);
+		output.push(`sw={${sw}}`);
+		swP && output.push(`swP={"${swP}"}`);
 	}
-	if(spOther) {
-		speeds.push(spOther);
-	}
-	const finalspeed = "**Speed** " + speeds.join(", ") + (spExtra ? ("; " + spExtra) : "");
-	output.push(doParse(finalspeed));
+	spOther && output.push(`spOther="${spOther}"`);
+	spExtra && output.push(`spExtra={${doConvert(spExtra)}}`);
 	//
 	// MELEE, RANGED LINES
 	//
-	if(melee) {
-		output.push(doParse(`**Melee** ${melee}`));
-	}
-	if(ranged) {
-		output.push(doParse(`**Ranged** ${ranged}`));
-	}
+	melee && output.push(`melee={${doConvert(melee)}}`);
+	ranged && output.push(`ranged={${doConvert(ranged)}}`);
 	//
 	// SPACE/REACH LINE
 	//
 	if(space !== undefined && reach !== undefined) {
-		output.push(doParse(`**Space** ${space}, **Reach** ${reach}` + (reachP ? ` (${reachP})` : "")));
-	} else if (space || reach) {
-		logError("Space or Reach property provided without its counterpart.");
+		output.push(`space={"${space}"} reach={"${reach}"}`);
+		reachP && output.push(`reachP={"${reachP}"}`);
+	} else if (space !== undefined || reach !== undefined) {
+		log("Space or Reach property provided without its counterpart.");
 	}
 	//
 	// SPECIAL ATTACKS LINE
 	//
-	const spAtt = [];
 	if(specAtt) {
+		const spAtt = [];
 		spAtt.push(...specAtt.split("~").map(x => {
 			const clean = x.replace(/‹[-a-z_]+[/]([^›]+?)›/g, "$1").replace(/[^-a-zA-Z 0-9]/g, "");
-			return [clean, x];
+			return [clean, doConvert(x, false)];
 		}));
+		output.push(`specAtt={${JSON.stringify(spAtt)}}`);
 	}
-	if(attach) {
-		spAtt.push(["attach", "‹umr/attach›"]);
-	}
+	attach && output.push("attach");
 	if(bleed && bleed === "bleed") {
-		spAtt.push(["bleed", `‹umr/bleed›`]);
-	} else if (bleed) {
-		spAtt.push(["bleed", `‹umr/bleed› (${bleed})`]);
+		output.push("bleed");
+	} else if (bleed !== undefined) {
+		output.push(`bleed="${bleed}"`);
 	}
-	if(bDrain) {
-		spAtt.push(["blood drain", `‹umr/blood drain› (${bDrain})`]);
-	}
-	if(bloodRage) {
-		spAtt.push(["blood rage", "‹umr/blood rage›"]);
-	}
-	if(brWeap) {
-		spAtt.push(["breath weapon", `‹umr/breath weapon› (${brWeap})`]);
-	}
-	if(burn) {
-		spAtt.push(["burn", `‹umr/burn› (${burn})`]);
-	}
+	bDrain && output.push(`bDrain="${bDrain}"`);
+	bloodRage && output.push("bloodRage");
+	brWeap && output.push(`brWeap={${doConvert(brWeap)}}`);
+	burn && output.push(`burn="${burn}"`);
 	if(capsize && capsize === "capsize") {
-		spAtt.push(["capsize", `‹umr/capsize›`]);
+		output.push("capsize");
 	} else if (capsize) {
-		spAtt.push(["capsize", `‹umr/capsize› (${capsize})`]);
+		output.push(`capsize={${capsize}}`);
 	}
-	if(chEn) {
-		spAtt.push(["channel energy", `‹ability/channel energy› (${chEn})`]);
-	}
-	if(chNEn) {
-		spAtt.push(["channel negative energy", `‹ability/channel negative energy› (${chNEn})`]);
-	}
-	if(chPEn) {
-		spAtt.push(["channel positive energy", `‹ability/channel positive energy› (${chPEn})`]);
-	}
+	chEn && output.push(`chEn={${JSON.stringify(parseChEn(chEn))}}`);
+	chNEn && output.push(`chEn={${JSON.stringify(parseChEn(chNEn, false))}}`);
+	chPEn && output.push(`chEn={${JSON.stringify(parseChEn(chPEn), true)}}`);
 	if(constrict && constrict === "constrict") {
-		spAtt.push(["constrict", `‹umr/constrict›`]);
+		output.push("constrict");
 	} else if (constrict) {
-		spAtt.push(["constrict", `‹umr/constrict› (${constrict})`]);
+		output.push(`constrict="${constrict}"`);
 	}
 	if(distraction && distraction === "distraction") {
-		spAtt.push(["distraction", `‹umr/distraction›`]);
+		output.push("distraction");
 	} else if (distraction) {
-		spAtt.push(["distraction", `‹umr/distraction› (${distraction})`]);
+		if(typeof distraction === "number" || distraction.match(/^[0-9]+$/)) {
+			output.push(`distraction={${distraction}}`);
+		} else {
+			output.push(`distraction="${distraction}"`);
+		}
 	}
-	if(eDrain) {
-		spAtt.push(["energy drain", `‹umr/energy drain› (${eDrain})`]);
-	}
-	if(engulf) {
-		spAtt.push(["engulf", `‹umr/engulf› (${engulf})`]);
-	}
-	if(entrap) {
-		spAtt.push(["entrap", `‹umr/entrap› (${entrap})`]);
-	}
-	if(fSwallow) {
-		spAtt.push(["fast swallow", "‹umr/fast swallow›"]);
-	}
-	if(favEn) {
-		spAtt.push(["favored enemy", `‹ability/favored enemy› (${favEn})`]);
-	}
-	if(ferocity) {
-		spAtt.push(["ferocity", "‹umr/ferocity›"]);
-	}
-	if(gaze) {
-		spAtt.push(["gaze", "‹umr/gaze›"]);
-	}
+	eDrain && output.push(`eDrain="${eDrain}"`);
+	engulf && output.push(`engulf="${engulf}"`);
+	entrap && output.push(`entrap="${entrap}"`);
+	fSwallow && output.push("fSwallow");
+	favEn && output.push(`favEn="${favEn}"`);
+	ferocity && output.push("ferocity");
+	gaze && output.push("gaze");
 	if(grab && grab === "grab") {
-		spAtt.push(["grab", `‹umr/grab›`]);
+		output.push("grab");
 	} else if (grab) {
-		spAtt.push(["grab", `‹umr/grab› (${grab})`]);
+		output.push(`grab="${grab}"`);
 	}
 	if(heat && heat === "heat") {
-		spAtt.push(["heat", `‹umr/heat›`]);
+		output.push("heat");
 	} else if (heat) {
-		spAtt.push(["heat", `‹umr/heat› (${heat})`]);
+		output.push(`heat="${heat}"`);
 	}
-	if(mMagic) {
-		spAtt.push(["mythic magic", `‹umr/mythic magic› (${mMagic})`]);
-	}
-	if(mPower) {
-		spAtt.push(["mythic power", `‹umr/mythic power› (${mPower})`]);
-	}
-	if(paralysis) {
-		spAtt.push(["paralysis", `‹umr/paralysis› (${paralysis})`]);
-	}
-	if(powCh) {
-		spAtt.push(["powerful charge", `‹umr/powerful charge› (${powCh})`]);
-	}
-	if(pounce) {
-		spAtt.push(["pounce", "‹umr/pounce›"]);
-	}
-	if(pull) {
-		spAtt.push(["pull", `‹umr/pull› (${pull})`]);
-	}
+	mMagic && output.push(`mMagic="${mMagic}"`);
+	mPower && output.push(`mPower="${mPower}"`);
+	paralysis && output.push(`paralysis="${paralysis}"`);
+	powCh && output.push(`powCh="${powCh}"`);
+	pounce && output.push("pounce");
+	pull && output.push(`pull="${pull}"`);
 	if(push && push === "push") {
-		spAtt.push(["push", `‹umr/push›`]);
+		output.push("push");
 	} else if (push) {
-		spAtt.push(["push", `‹umr/push› (${push})`]);
+		output.push(`push="${push}"`);
 	}
-	if(rake) {
-		spAtt.push(["rake", `‹umr/rake› (${rake})`]);
-	}
-	if(rend) {
-		spAtt.push(["rend", `‹umr/rend› (${rend})`]);
-	}
-	if(rockTh) {
-		spAtt.push(["rock throwing", `‹umr/rock throwing› (${rockTh})`]);
-	}
-	if(smother) {
-		spAtt.push(["smother", "‹umr/smother›"]);
-	}
-	if(sneak) {
-		spAtt.push(["sneak attack", `‹ability/sneak attack› (${sneak})`]);
-	}
-	if(strangle) {
-		spAtt.push(["strangle", "‹umr/strangle›"]);
-	}
+	rake && output.push(`rake="${rake}"`);
+	rend && output.push(`rend="${rend}"`);
+	rockTh && output.push(`rockTh="${rockTh}"`);
+	smother && output.push("smother");
+	sneak && output.push(`sneak="${sneak}"`);
+	strangle && output.push("strangle");
 	if(swallow && swallow === "swallow") {
-		spAtt.push(["swallow whole", `‹umr/swallow whole›`]);
+		output.push("swallow");
 	} else if (swallow) {
-		spAtt.push(["swallow whole", `‹umr/swallow whole› (${swallow})`]);
+		output.push(`swallow="${swallow}"`);
 	}
-	if(trample) {
-		spAtt.push(["trample", `‹umr/trample› (${trample})`]);
-	}
+	trample && output.push(`trample="${trample}"`);
 	if(web && web === "web") {
-		spAtt.push(["web", `‹umr/web›`]);
+		output.push("web");
 	} else if (web) {
-		spAtt.push(["web", `‹umr/web› (${web})`]);
+		output.push(`web="${web}"`);
 	}
-	if(whirlwind) {
-		spAtt.push(["whirlwind", `‹umr/whirlwind› (${whirlwind})`]);
-	}
-	if(spAtt.length > 0) {
-		spAtt.sort((a,b) => a[0].localeCompare(b[0]));
-		output.push(doParse(`**Special Attacks** ${spAtt.map(sa => sa[1]).join(", ")}`));
-	}
-	return `${maybeClear}<Header sub>Offense</Header>\n<p${next ? ' className="no-bottom-margin"' : ""}>${output.join("<br>")}</p>`;
+	whirlwind && output.push(`whirlwind="${whirlwind}"`);
+	next && output.push("hasNeighbor");
+	return flag ? `${maybeClear}<Offense id="${id}" ${output.join(" ")} />\n` : "";
 };
 
 export const makeMonsterSpellBlock = (marked2, convertEncodedInfo, maybeClear, attrs, logError) => {
