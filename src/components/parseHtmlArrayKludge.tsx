@@ -4,7 +4,7 @@ import Link from './Link';
 interface HtmlObject {
 	tag: string
 	content: string
-	props: { [key: string]: string }
+	props?: { [key: string]: string }
 }
 
 type HtmlKludge = (string | HtmlObject)[];
@@ -23,9 +23,9 @@ const parseHtmlArrayKludge = (incoming: StringOrHtmlKludge): ReactNode => {
 			output.push(bit);
 			continue;
 		}
-		const {tag, content, props} = bit;
+		const {tag, content, props = {}} = bit;
 		if(tag === "Link") {
-			const {to} = props;
+			const {to = "/"} = props;
 			output.push(<Link to={to}>{content}</Link>);
 			continue;
 		}

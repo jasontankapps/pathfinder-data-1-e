@@ -10,19 +10,21 @@ const convertToHtmlArrayKludge = (input, stringify = false) => {
 	while(m = test.match(/^(.*?)<([^ <>]+) ?([^<>]*)>([^<>]*)<[/]\2>(.*)$/)) {
 		const [, pre, tag, p, content, post] = m;
 		const props = {};
+		let flag = false;
 		if(p) {
 			let test = p;
 			while(m = test.match(/^([^=]+)="([^"]*)"(.*)$/)) {
 				const [, att, value, post] = m;
 				test = post;
 				props[att] = value;
+				flag = true;
 			}
 		}
-		output.push(pre, {
-			tag,
-			content,
-			props
-		});
+		const out = {
+			tag, content
+		};
+		flag && (out.props = props);
+		output.push(pre, out);
 		test = post;
 	}
 	const cycle = [...output, test];

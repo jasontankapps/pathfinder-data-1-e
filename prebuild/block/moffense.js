@@ -476,7 +476,7 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 		} else {
 			info.push(doConvert(`**${title}** ${data}`));
 		}
-		output.push(`other={${JSON.stringify(info)}}`)
+		output.push(`other={["${title}", ${JSON.stringify(info)}]}`)
 	}
 	flags.$feats = $feats;
 	flags.$spells = $spells;
