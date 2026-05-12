@@ -407,7 +407,7 @@
 			"",
 			"::moffense{sp=10 fl=50 perfect melee=\"8 claws +18 (1d4+2 plus attach &#91&once per round if two or more claws hit the same creature&#93&)\" specAtt=\"body thief\" next}",
 			"",
-			"::mspell{sla cl=10 constant=\"analyze aura\" atWill=\"invisibility~!reduce size (as ‹spell/reduce person› but self only and affects aberrations)\" next}",
+			"::mspell{sla cl=10 constant=\"analyze aura\" atWill=\"invisibility~!*reduce size*|as ‹spell/reduce person› but self only and affects aberrations\" next}",
 			"",
 			"::mspell{psy cl=10 con=+14 pe=24 psyMag=\"anticipate thoughts|2 PE, DC 16~ego whip IV|6 PE, DC 20~globe of invulnerability|4 PE~id insinuation III|4 PE, DC 17\"}",
 			"",

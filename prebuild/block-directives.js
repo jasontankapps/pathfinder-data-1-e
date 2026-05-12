@@ -362,8 +362,10 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"title", "data", "newLine",
 					"next"
 				], [ /^l[0-9]$/ ], logError);
+				const id = prefix + makeValidID(text + "-spells");
+				flags.mspell = true;
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterSpellBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
+				return makeMonsterSpellBlock({marked2, convertEncodedInfo, maybeClear, attrs, logError, flags, id});
 			} else if (n === "mfn") {
 				churn(n, attrs, ["clear"], [], logError);
 				const marked2 = makeNewMarkedInstance();

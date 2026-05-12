@@ -2582,7 +2582,7 @@
 			"",
 			"::moffense{sp=30 melee=\"2 claws +20 (1d6+6 plus 1d4 bleed), bite +20 (1d6+6)\" specAtt=\"shaping touch\" next}",
 			"",
-			"::mspell{sla cl=14 con=+18 constant=\"detect good~detect magic~detect thoughts|DC 16\" atWill=\"contagion|DC 17~cure light wounds~diminish plants~inflict light wounds|DC 15~invisibility|self only~minor creation~poison|DC 17\" day=\"3~bestow curse|DC 17~blindness/deafness|DC 16~!empowered ‹spell/cone of cold› (DC 19)~crushing despair|DC 17~silence|DC 16~~1~control weather\"}",
+			"::mspell{sla cl=14 con=+18 constant=\"detect good~detect magic~detect thoughts|DC 16\" atWill=\"contagion|DC 17~cure light wounds~diminish plants~inflict light wounds|DC 15~invisibility|self only~minor creation~poison|DC 17\" day=\"3~bestow curse|DC 17~blindness/deafness|DC 16~&EM cone of cold|DC 19~crushing despair|DC 17~silence|DC 16~~1~control weather\"}",
 			"",
 			"::mstats{str=23 dex=21 con=22 int=20 wis=19 cha=18 bab=+14 cmb=+20 cmd=35 feats=\"Alertness~Blind-Fight~Combat Casting~Empower Spell-Like Ability=cone of cold~Great Fortitude~Persuasive~Toughness\" skills=\"Bluff +14~Craft (leather) +16~Diplomacy +18~Heal +12~Intimidate +21~Knowledge (arcana) +11~Knowledge (history) +19~Knowledge (local) +11~Knowledge (nature) +11~Perception +21~Sense Motive +18~Sleight of Hand +12~Spellcraft +16~Stealth +18\" lang=\"Aklo, Common, Draconic, Giant, Goblin, Sylvan (cannot speak)\" sq=\"blind and mute, ‹umr/change shape› (any humanoid; ‹spell/alter self›)\"}",
 			"",

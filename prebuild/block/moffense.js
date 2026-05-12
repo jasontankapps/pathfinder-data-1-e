@@ -1,5 +1,6 @@
 import isALink from "../get-all-links.js";
 import convertToHtmlArrayKludge from "../convertToHtmlArrayKludge.js";
+import ordinal from "../ordinal.js";
 import { convertTextToLink } from "../tests/checkForEncodedLink.js";
 
 const linkify = (spell) => convertTextToLink(spell.replace(/#[A-Z0-9]/g, ""));
@@ -203,10 +204,19 @@ export const makeMonsterOffenseBlock = ({marked2, convertEncodedInfo, maybeClear
 	}
 	whirlwind && output.push(`whirlwind="${whirlwind}"`);
 	next && output.push("hasNeighbor");
-	return flag ? `${maybeClear}<Offense id="${id}" ${output.join(" ")} />\n` : "";
+	return flag ? `${maybeClear}<Offense id="${id}" ${output.join(" ")} />\n` : "<Header sub>Offense</Header><p><em>Error.</em></p>\n";
 };
 
-export const makeMonsterSpellBlock = (marked2, convertEncodedInfo, maybeClear, attrs, logError) => {
+const checkIfDupe = (input, $collection) => {
+	const test = input.toLowerCase();
+	if($collection[test]) {
+		return `*${input}*`;
+	}
+	$collection[test] = true;
+	return false;
+};
+
+export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, attrs, logError, flags, id}) => {
 	const {
 		cl, con,
 		sla, atWill, constant, day, hour, week, month, year, other,
@@ -217,159 +227,264 @@ export const makeMonsterSpellBlock = (marked2, convertEncodedInfo, maybeClear, a
 		next
 	} = attrs;
 	const output = [];
-	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
-	const CL = `${cl}${cl === 1 ? "st" : (cl === 2 ? "nd" : (cl === 3 ? "rd" : "th"))}`;
+	let flag = true;
+	const log = (...lines) => {
+		flag = false;
+		logError(...lines);
+	};
+	const doConvert = (input, stringify = false) => convertToHtmlArrayKludge(marked2.parseInline(convertEncodedInfo(input)), stringify);
+	const casterlevel = data ? 1 : Number(cl);
+	if(casterlevel !== casterlevel || casterlevel < 1) {
+		log(`Invalid caster level [${cl}]`);
+		return "";
+	}
+	const CL = Math.floor(casterlevel);
+	const $spells = flags.$spells || {};
+	const $feats = flags.$feats || {};
 	const parseSpells = (input) => {
 		const all = input.split(/~/);
 		const found = [];
-		let pre = "", post = "";
+		let pre = undefined, post = undefined;
 		while(all.length) {
-			const item = all.shift();
+			const shifted = all.shift();
 			let test = "";
-			let m = item.match(/^!(.+)$/);
-			if(m) {
-				found.push(m[1]);
+			let notes = "";
+			let m = shifted.match(/^(.*)((?:#(?:[A-Z0-9]))+)(.*)$/);
+			const item = (() => {
+				if(m) {
+					const [, pre, found, post] = m;
+					let test = found;
+					let q;
+					while(q = test.match(/^#(.)(.*)$/)) {
+						notes = notes + `<sup>${Number(q[1]) ? ordinal(q[1]) : q[1]}</sup>`;
+						test = q[2];
+					}
+					return pre + post;
+				}
+				return shifted;
+			})();
+			if(m = item.match(/^!(.+)(?:\|(.+))?$/)) {
+				// !html text
+				found.push(m[2] ? `${m[1]}${notes} (${m[2]})` : m[1] + notes);
+			} else if(m = item.match(/^&S (.+)$/)) {
+				// &S summon info
+				const prefix = checkIfDupe("summon", $feats) || "[summon](umr/summon)";
+				found.push(`${prefix}${notes} (${m[1]})`);
+			} else if(m = item.match(/^&([A-Z&]+)(?: (.+)(?:\|(.+)))$/)) {
+				// &Q, &maximized, etc
+				const [, f, sp, parens] = m;
+				let prefix = "";
+				if(f === "Q&EM") {
+					prefix = (checkIfDupe("quickened", $feats) || "[quickened](feat/quicken_spell)")
+						+ " "
+						+ (checkIfDupe("empowered", $feats) || "[empowered](feat/empower_spell)");
+				} else {
+					const feat = f === "Q" ? "quickened" : (
+						f === "EM" ? "empowered" : (
+							f === "EX" ? "extended" : f
+						)
+					);
+					prefix = checkIfDupe(feat, $feats) || `[${feat}](feat/${linkify(feat)})`;
+				}
+				const link = linkify(sp);
+				const spell = isALink(link) ? (
+					checkIfDupe(sp, $spells) || `[${sp}](spell/${link})`
+				) : (
+					`*${sp}*`
+				);
+				found.push(`${prefix} ${spell}${notes}` + (parens ? ` (${parens})` : ""));
 			} else if(m = item.match(/^\^(.+)$/)) {
 				pre = m[1] + " ";
 			} else if(m = item.match(/^\$(.+)$/)) {
 				post = m[1];
-			} else if(m = item.match(/^(.+?)\|(.+)$/)) {
+			} else if((m = item.match(/^(.+?)\|(.+)$/)) && isALink("spell", m[1])) {
 				test = linkify(m[1]);
-				found.push(`[${m[1]}](spell/${test}) (${m[2]})`);
+				if(isALink("spell", test)) {
+					const text = checkIfDupe(m[1], $spells) || `[${m[1]}](spell/${test})`;
+					found.push(`${text}${notes} (${m[2]})`);
+				} else {
+					found.push(`*${m[1]}*${notes} (${m[2]})`);
+				}
 			} else {
 				test = linkify(item);
-				found.push(`[${item}](spell/${test})`);
-			}
-			if(test && !isALink("spell", test)) {
-				logError(`Bad spell [${test}]`);
+				if(isALink("spell", test)) {
+					found.push((checkIfDupe(item, $spells) || `[${item}](spell/${test})`) + notes);
+				} else {
+					found.push(`*${item}*${notes}`);
+				}
 			}
 		}
-		return pre + found.map(
-			f => doParse(f)
-				.replace(/((?:#(?:[A-Z0-9]))+)<[/]Link>/g, "</Link>$1")
-				.replace(/#([A-Z])/g, "<sup>$1</sup>")
-				.replace(/#1\b/g, "<sup>1st</sup>")
-				.replace(/#2\b/g, "<sup>2nd</sup>")
-				.replace(/#3\b/g, "<sup>3rd</sup>")
-				.replace(/#([4-9])/g, "<sup>$1th</sup>")
-		).join(", ").replace(/<[/]sup><sup>/g, " ")
-			.replace(/<[/]em>, <em>/g, ", ")
-			.replace(/<[/]em>,/g, ",</em>")
-		+ post;
+		return (pre || "")
+			+ found.join(", ")
+				.replace(/<[/]sup><sup>/g, " ")
+				.replace(/<[/]([^<>]+)>, <\1>/g, ", ")
+				.replace(/<[/]([^<>]+)>,/g, ",</$1>")
+			+ (post || "");
 	};
 	//
 	// SPELL-LIKE ABILITIES
 	//
 	if(sla) {
-		output.push(`<strong>${sla !== "sla" ? sla + " " : ""}Spell-Like Abilities</strong> (CL ${CL}${con ? `; concentration ${con}` : ""})`);
+		const obj = {
+			cl,
+			content: []
+		};
+		con && (obj.con = String(con));
+		if(sla !== "sla") {
+			obj.sla = sla;
+		}
 		if(constant) {
-			output.push("<em>Constant</em>-" + parseSpells(constant));
+			obj.content.push({constant: true, content: doConvert(parseSpells(constant))});
 		}
 		if(atWill) {
-			output.push("<em>At will</em>-" + parseSpells(atWill));
+			obj.content.push({will: true, content: doConvert(parseSpells(atWill))});
 		}
 		if(hour) {
-			output.push("<em>1/hour</em>-" + parseSpells(hour));
+			obj.content.push({per: "hour", content: doConvert(parseSpells(hour))});
 		}
 		if(day) {
 			const days = day.split(/~~/);
 			days.forEach(d => {
 				const [, times, spells] = d.match(/^([^~]+)~(.+)$/);
-				output.push(`<em>${times}/day</em>-` + parseSpells(spells));
+				obj.content.push({
+					day: Math.round(Number(times) || 0),
+					content: doConvert(parseSpells(spells))
+				});
 			});
 		}
 		if(week) {
-			output.push("<em>1/week</em>-" + parseSpells(week));
+			obj.content.push({per: "week", content: doConvert(parseSpells(week))});
 		}
 		if(month) {
-			output.push("<em>1/month</em>-" + parseSpells(month));
+			obj.content.push({per: "month", content: doConvert(parseSpells(month))});
 		}
 		if(year) {
-			output.push("<em>1/year</em>-" + parseSpells(year));
+			obj.content.push({per: "year", content: doConvert(parseSpells(year))});
 		}
 		if(other) {
 			const [, duration, spells] = other.match(/^([^~]+)~(.+)$/);
-			output.push(`<em>${duration}</em>-` + parseSpells(spells));
+			obj.content.push({
+				other: duration,
+				content: doConvert(parseSpells(spells))
+			});
 		}
+		output.push(`sla={${JSON.stringify(obj)}}`)
 	}
 	//
 	// PREPARED SPELLS/EXTRACTS
 	//
 	if(prep || ex) {
-		prep && output.push(`<strong>${prep !== "prep" ? prep + " " : ""}Spells Prepared</strong> (CL ${CL}${con ? `; concentration ${con}` : ""})`);
-		ex && output.push(`<strong>${ex !== "ex" ? ex + " " : ""}Extracts Prepared</strong> (CL ${CL}${con ? `; concentration ${con}` : ""})`);
+		const obj = {
+			cl: CL
+		};
+		con && (obj.con = String(con));
+		ex ? (ex === "ex" || (obj.ex = ex)) : (prep === "prep" || (obj.prep = prep));
 		if(l9) {
-			output.push("<em>9th</em>-" + parseSpells(l9));
+			obj.l9 = doConvert(parseSpells(l9));
 		}
 		if(l8) {
-			output.push("<em>8th</em>-" + parseSpells(l8));
+			obj.l8 = doConvert(parseSpells(l8));
 		}
 		if(l7) {
-			output.push("<em>7th</em>-" + parseSpells(l7));
+			obj.l7 = doConvert(parseSpells(l7));
 		}
 		if(l6) {
-			output.push("<em>6th</em>-" + parseSpells(l6));
+			obj.l6 = doConvert(parseSpells(l6));
 		}
 		if(l5) {
-			output.push("<em>5th</em>-" + parseSpells(l5));
+			obj.l5 = doConvert(parseSpells(l5));
 		}
 		if(l4) {
-			output.push("<em>4th</em>-" + parseSpells(l4));
+			obj.l4 = doConvert(parseSpells(l4));
 		}
 		if(l3) {
-			output.push("<em>3rd</em>-" + parseSpells(l3));
+			obj.l3 = doConvert(parseSpells(l3));
 		}
 		if(l2) {
-			output.push("<em>2nd</em>-" + parseSpells(l2));
+			obj.l2 = doConvert(parseSpells(l2));
 		}
 		if(l1) {
-			output.push("<em>1st</em>-" + parseSpells(l1));
+			obj.l1 = doConvert(parseSpells(l1));
 		}
 		if(l0) {
-			output.push("<em>0 (at will)</em>-" + parseSpells(l0));
+			obj.l0 = doConvert(parseSpells(l0));
 		}
+		output.push((ex ? "ex" : "prep") + `={${JSON.stringify(obj)}}`);
 	}
 	//
 	// KNOWN SPELLS
 	//
 	if(know) {
-		output.push(`<strong>${know !== "know" ? know + " " : ""}Spells Known</strong> (CL ${CL}${con ? `; concentration ${con}` : ""})`);
+		const obj = {
+			cl: CL
+		};
+		con && (obj.con = String(con));
+		know !== "know" && (obj.known = know);
 		const convert = (line, num) => {
 			const [, times, spells] = line.match(/^([^~]+)~(.+)$/);
-			output.push(`<em>${num} (${times})</em>-` + parseSpells(spells));
+			const t = times === "at will" ? 0 : Number(times);
+			if(t !== t || t < 0) {
+				log(`Invalid number of times in ${num}: [${times}]`);
+			}
+			obj[num] = [Math.floor(t) || true, doConvert(parseSpells(spells))]
 		};
-		l9 && convert(l9, "9th");
-		l8 && convert(l8, "8th");
-		l7 && convert(l7, "7th");
-		l6 && convert(l6, "6th");
-		l5 && convert(l5, "5th");
-		l4 && convert(l4, "4th");
-		l3 && convert(l3, "3rd");
-		l2 && convert(l2, "2nd");
-		l1 && convert(l1, "1st");
-		l0 && convert(l0, "0");
+		l9 && convert(l9, "l9");
+		l8 && convert(l8, "l8");
+		l7 && convert(l7, "l7");
+		l6 && convert(l6, "l6");
+		l5 && convert(l5, "l5");
+		l4 && convert(l4, "l4");
+		l3 && convert(l3, "l3");
+		l2 && convert(l2, "l2");
+		l1 && convert(l1, "l1");
+		l0 && convert(l0, "l0");
+		if(!flag) {
+			return "";
+		}
+		output.push(`known={${JSON.stringify(obj)}}`);
 	}
 	//
 	// PSYCHIC MAGIC
 	//
 	if(psy) {
-		output.push(`<strong>Psychic Magic</strong> (CL ${CL}${con ? `; concentration ${con}` : ""})`);
-		output.push(`<em>${pe} PE${peP ? ` (${peP})` : ""}</em>-` + parseSpells(psyMag));
+		const x = Number(pe);
+		if(x !== x || x < 0) {
+			log(`Invalid PE [${pe}]`);
+			return "";
+		}
+		const obj = {
+			pe: Math.floor(x),
+			cl: CL,
+			content: doConvert(parseSpells(psyMag))
+		};
+		con && (obj.con = String(con));
+		peP && (obj.peP = convertToHtmlArrayKludge(peP));
+		output.push(`psy={${
+			JSON.stringify(obj)
+		}}`);
 	}
 	//
 	// OTHER LINES (domain, patron, opp. schools, etc.)
 	//
 	if(title) {
+		const info = [];
 		if(newLine) {
-			output.push(
-				`<strong>${title}</strong>`,
-				...data.split(/~/).map(d => doParse(d))
+			info.push(
+				doConvert(`**${title}**`),
+				...data.split(/~/).map(bit => doConvert(bit))
 			);
 		} else {
-			output.push(doParse(`**${title}** ${data}`));
+			info.push(doConvert(`**${title}** ${data}`));
 		}
+		output.push(`other={${JSON.stringify(info)}}`)
 	}
-	return `${maybeClear}<p className="no-top-margin${next ? ' no-bottom-margin' : ""}">${output.join("<br>")}</p>`;
+	flags.$feats = $feats;
+	flags.$spells = $spells;
+	let count = flags.$spellblocks || 0;
+	count++;
+	flags.$spellblocks = count;
+	next && output.push("hasNeighbor");
+	return `${maybeClear}<SpellBlock id="${id}-monster-spellblock-${count}" ${output.join(" ")} />\n`;
 };
 
 export const makeMonsterFootnoteBlock = (marked2, convertEncodedInfo, text) => {

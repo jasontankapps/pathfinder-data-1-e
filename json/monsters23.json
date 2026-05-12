@@ -13,7 +13,7 @@
 			"",
 			"::moffense{sp=40 melee=\"4 vines +28 (2d8+16/19-20 plus ‹umr/grab›)\" space=30 reach=30 constrict=\"2d8+16\" trample=\"4d6+24, DC 39\" specAtt=encage next}",
 			"",
-			"::mspell{sla cl=17 con=+20 constant=\"freedom of movement\" atWill=\"entangle|DC 14~hallucinatory terrain|DC 17\" day=\"3~!quickened *entangle* (DC 14)~~1~wall of thorns\"}",
+			"::mspell{sla cl=17 con=+20 constant=\"freedom of movement\" atWill=\"entangle|DC 14~hallucinatory terrain|DC 17\" day=\"3~&Q entangle|DC 14~~1~wall of thorns\"}",
 			"",
 			"::mstats{str=42 dex=30 con=26 int=13 wis=25 cha=17 bab=+19 cmb=\"+43 (+45 bull rush, +47 grapple)\" cmd=\"63 (65 vs. bull rush, 71 vs. trip)\" feats=\"Awesome Blow~Combat Expertise~Critical Focus~Improved Bull Rush~Improved Critical=vine~Improved Initiative~Improved Vital Strike~Iron Will~Power Attack~Quicken Spell-Like Ability=entangle~Staggering Critical~Vital Strike~Weapon Focus=vine\" skills=\"Knowledge (nature) +27~Perception +36~Stealth +23 (+39 in forests)\" racial=\"+16 Stealth in forests\" lang=\"Sylvan (cannot speak)\" sq=\"‹umr/freeze› (as grove of trees)\"}",
 			"",
