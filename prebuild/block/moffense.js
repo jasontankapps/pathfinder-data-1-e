@@ -487,7 +487,7 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 	return `${maybeClear}<SpellBlock id="${id}-monster-spellblock-${count}" ${output.join(" ")} />\n`;
 };
 
-export const makeMonsterFootnoteBlock = (marked2, convertEncodedInfo, text) => {
+export const makeMonsterFootnoteBlock = ({marked2, convertEncodedInfo, text}) => {
 	// all="1~Footnote one.|2~Footnote two..."
 	const all = text.split(/\|/);
 	const output = [];

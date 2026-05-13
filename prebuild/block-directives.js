@@ -369,7 +369,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "mfn") {
 				churn(n, attrs, ["clear"], [], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterFootnoteBlock(marked2, convertEncodedInfo, text);
+				return makeMonsterFootnoteBlock({marked2, convertEncodedInfo, text});
 			} else if (n === "mstats") {
 				churn(n, attrs, [
 					"clear", "str", "dex", "con", "int", "wis", "cha",
@@ -379,8 +379,10 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"faith", "next"
 				], [], logError);
 				flags.header = true;
+				flags.mstats = true;
+				const id = prefix + makeValidID(text + "-stats");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterStatisticsBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
+				return makeMonsterStatisticsBlock({marked2, convertEncodedInfo, maybeClear, attrs, logError, id});
 			} else if (n === "meco") {
 				churn(n, attrs, [ "clear", "env", "org", "treasure" ], [], logError);
 				flags.header = true;

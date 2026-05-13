@@ -1062,6 +1062,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	groupFlags.minfo && imports.push(`import Info from '../../components/monsters/Info';`);
 	groupFlags.moffense && imports.push(`import Offense from '../../components/monsters/Offense';`);
 	groupFlags.mspell && imports.push(`import SpellBlock from '../../components/monsters/SpellBlock';`);
+	groupFlags.mstats && imports.push(`import Stats from '../../components/monsters/Stats';`);
 	// Add saved info;
 	const allprops = [];
 	const output = imports.concat(final.map(([prop, object]) => {
