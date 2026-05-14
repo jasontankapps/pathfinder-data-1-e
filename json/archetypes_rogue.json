@@ -1255,7 +1255,7 @@
 			"",
 			"::ab[Weapon and Armor Proficiency]{icon=power-down note=\"The skulking slayer gains proficiency with ‹eq-weapon/greatclub«s› and ‹eq-weapon/whip«s›, but loses proficiency with rapiers and hand crossbows.\"}",
 			"",
-			"::cskill{lose=ddev~ling~soh}",
+			"::cskill{lose=dd~ling~soh}",
 			"",
 			"::ab[Skill Ranks per Level]{icon=down note=\"She gains 6 + Int modifier skill points each level.\"}",
 			"",

@@ -710,7 +710,7 @@
 			"",
 			"::prereq{r=Goblin}",
 			"",
-			"::cskill{gain=acro~ha~ride lose=ddev~soh~umd}",
+			"::cskill{gain=acro~ha~ride lose=dd~soh~umd}",
 			"",
 			"::ab[Flying Beast Tamer (Ex)]{l=1 icon=power ability=\"A winged marauder acquires a flying mount as an ‹sidekick/animal companion›. This works as the druid ‹ability/animal companion› class feature, except the marauder must select a ‹companion/dire bat› or ‹companion/giant vulture›. The marauder's effective druid level is equal to his alchemist level.\" special=\"A marauder and his companion don't gain the *share spells* ability.\" replace=\"Mutagen~persistent mutagen\"}",
 			"",

@@ -149,8 +149,8 @@ const convertLinks = (input: string[]): string => {
 };
 
 export const convertTextToLink = (input: string) => {
-	// Converts "Some link text/s>ing" to "some_link_texting"
-	// Use checkForEncodedLink for proper formatting of «»<> stuff
+	// Converts "Bob's link-text/stuff" to "bobs_link_text_stuff"
+	// * Use checkForEncodedLink for proper formatting of «»<> stuff
 	return input.toLowerCase().replace(/[-_ /]/g, "_").replace(/[^0-9_a-z]/g, "");
 };
 

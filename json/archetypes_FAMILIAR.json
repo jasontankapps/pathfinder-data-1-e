@@ -276,7 +276,7 @@
 			"‹SOURCE Ultimate Wilderness/212;Animal Archive/20›  ",
 			"Some familiars are stealthy pilferers that perform tricks of thievery or simple spying on their master's behalf.",
 			"",
-			"::cskill{gain=ddev~ea~soh}",
+			"::cskill{gain=dd~ea~soh}",
 			"",
 			"::ab[Improved Steal (Ex)]{icon=power passive=\"A pilferer gains ‹feat/Improved Steal› as a bonus feat.\" replace=Alertness}",
 			"",

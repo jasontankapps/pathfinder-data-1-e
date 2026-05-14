@@ -14,7 +14,7 @@ const getSkillBaseAtt = (input, logError) => {
 			return "‹skill/Diplomacy› (CHA)";
 		case "dis":
 			return "‹skill/Disguise› (CHA)";
-		case "ddev":
+		case "dd":
 			return "‹skill/Disable Device› (DEX)";
 		case "ea":
 			return "‹skill/Escape Artist› (DEX)";
@@ -93,7 +93,7 @@ const getSkill = (input, logError) => {
 			return "Diplomacy";
 		case "dis":
 			return "Disguise";
-		case "ddev":
+		case "dd":
 			return "Disable Device";
 		case "ea":
 			return "Escape Artist";

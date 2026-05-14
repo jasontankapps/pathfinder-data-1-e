@@ -299,7 +299,7 @@
 			"‹SOURCE Ultimate Wilderness/53;Magic Tactics Toolbox/14›  ",
 			"Wandering the wilds, some hunters eschew the bond of innate teamwork with their animal companions. Instead, these hunters master the creation and deployment of intricate ranger traps, often using themselves or their animal companions to lure foes into their snares.",
 			"",
-			"::cskill{gain=ddev}",
+			"::cskill{gain=dd}",
 			"",
 			"::ab[Trapfinding (Ex)]{icon=boost-power passive=\"A patient ambusher adds half her hunter level (minimum +1) on Perception checks to locate traps and on Disable Device skill checks.\" order=pa ability=\"A patient ambusher can use Disable Device to disarm magic traps.\" replace=\"Nature training~wild empathy\"}",
 			"",

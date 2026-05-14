@@ -252,7 +252,7 @@
 			"",
 			"::prereq{r=Ratfolk}",
 			"",
-			"::cskill{gain=ddev~ea~kd lose=kl~ride~swim}",
+			"::cskill{gain=dd~ea~kd lose=kl~ride~swim}",
 			"",
 			"::ab[Grit (Ex)]{head l=1 icon=info note=\"A gulch gunner gains grit as a standard gunslinger. However, the close-combat focus of the gulch gunner results in a slightly different set of circumstances for regaining grit.\" alter=Grit}",
 			"",

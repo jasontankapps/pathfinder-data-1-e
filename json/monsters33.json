@@ -2530,7 +2530,7 @@
 			"",
 			"::mspell{sla cl=7 con=+11 atWill=\"augury~deathwatch~doom|DC 15\" day=\"3~death knell|DC 16~rage~speak with dead|DC 17~~1~bestow curse|DC 18~confusion|DC 18~divination~fear|DC 18~tongues\"}",
 			"",
-			"::mstats{str=20 dex=12 con=19 int=14 wis=17 cha=19 bab=+9 cmb=+14 cmd=29 feats=\"Alertness~Combat Casting~Great Fortitude~Power Attack~Skill Focus|Intimidate\" skills=\"intm|19~k|planes|11~per|17~sm|14~spc|11\" lang=Ak~C}",
+			"::mstats{str=20 dex=12 con=19 int=14 wis=17 cha=19 bab=+9 cmb=+14 cmd=29 feats=\"Alertness~Combat Casting~Great Fortitude~Power Attack~Skill Focus|Intimidate\" skills=\"intm|19~k|p|11~per|17~sm|14~spc|11\" lang=Ak~C}",
 			"",
 			"::meco{env=\"any (‹rule/Boneyard›)\" org=\"solitary or coven (three hags of any kind)\" treasure=standard}",
 			"",

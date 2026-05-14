@@ -4,9 +4,9 @@ const mapNodes = (input: ReactNode[], id: string, needId: boolean = false): Reac
 	return input.map((node, i) => {
 		return i ?
 			<Fragment key={`${id}-${i}`}>, {node}</Fragment>
-			: (
-				needId ? <Fragment key={`${id}-${i}`}>{node}</Fragment> : node
-			);
+		: (
+			needId ? <Fragment key={`${id}-${i}`}>{node}</Fragment> : node
+		);
 	})
 };
 

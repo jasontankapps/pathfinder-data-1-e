@@ -746,7 +746,7 @@
 			"‹SOURCE Magic Tactics Toolbox/15›  ",
 			"Spell trappers are found in lands where hunting and magic are abundant, particularly the deserts of Thuvia and the harsh lands of Geb and Nex. They forsake much of their arcane skill and martial knowledge in exchange for the ability to conjure magical traps to hinder their foes.",
 			"",
-			"::cskill{gain=ddev lose=kp}",
+			"::cskill{gain=dd lose=kp}",
 			"",
 			"::ab[Diminished Arcana]{icon=down-power note=\"A spell trapper treats his effective magus level as 3 lower when determining which arcana he can select. A spell trapper can choose to learn a new trap (see *Spell Traps* below) in place of learning a new magus arcana.\" alter=\"Magus arcana\"}",
 			"",

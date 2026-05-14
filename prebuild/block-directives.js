@@ -494,7 +494,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"lg", "ln", "le", "ng", "n", "ne", "cg", "cn", "ce",
 					"hd", "parent", "wealth", "skp",
 					"acro", "app", "bluff", "climb", "craft", "diplo",
-					"dis", "ddev", "ea", "fly", "ha", "heal", "intm",
+					"dis", "dd", "ea", "fly", "ha", "heal", "intm",
 					"ka", "kd", "ke", "kg", "kh", "kl", "kna", "kno", "kp", "kr",
 					"ling", "per", "perf", "prof", "ride", "sm", "soh",
 					"spc", "stl", "sur", "swim", "umd", "skillNote"

@@ -60,7 +60,6 @@ export const makeMonsterStatisticsBlock = ({id, marked2, convertEncodedInfo, may
 	//
 	// ATTRIBUTES LINE
 	//
-//	output.push(`<strong>Str</strong> ${str}, <strong>Dex</strong> ${dex}, <strong>Con</strong> ${con}, <strong>Int</strong> ${int}, <strong>Wis</strong> ${wis}, <strong>Cha</strong> ${cha}`);
 	const atts = [];
 	if(str === "-") {
 		atts.push(0);
@@ -109,7 +108,6 @@ export const makeMonsterStatisticsBlock = ({id, marked2, convertEncodedInfo, may
 	//
 	// BAB/CMB/CMD LINE
 	//
-//	output.push(`<strong>Base Atk</strong> ${bab}; <strong>CMB</strong> ${cmb}; <strong>CMD</strong> ${cmd}`)
 	if(typeof bab === "number") {
 		output.push(`bab={${bab}}`);
 	} else if (bab.startsWith("+")) {
@@ -151,7 +149,6 @@ export const makeMonsterStatisticsBlock = ({id, marked2, convertEncodedInfo, may
 	// SKILLS LINE
 	//
 	if(skills) {
-//		output.push(`<strong>Skills</strong> ${skills.split(/~/).join(", ")}${racial ? `; <strong>Racial Modifiers</strong> ${racial}` : ""}`);
 		const total = {};
 		const s = skills.split(/~/);
 		s.forEach(skill => {
@@ -160,9 +157,8 @@ export const makeMonsterStatisticsBlock = ({id, marked2, convertEncodedInfo, may
 			switch(sk) {
 				case "craft":
 				case "perf":
-				case "prof":
-				case "k":{
-					const ps = ["of", "b", "p"];
+				case "prof": {
+					const ps = ["of", "b", "x"];
 					while(data.length > 0) {
 						const p = ps.shift();
 						const v = data.shift();
@@ -174,8 +170,30 @@ export const makeMonsterStatisticsBlock = ({id, marked2, convertEncodedInfo, may
 					}
 					break;
 				}
+				case "k": {
+					const [what, b, x] = data;
+					if(what.match(/^[adeghlnopr]\b/)) {
+						what.split(/[/]/).forEach(bit => {
+							obj[bit] = Math.floor(Number(b));
+						});
+					} else {
+						obj.of = what;
+						obj.b = Math.floor(Number(b));
+					}
+					x && (obj.x = x);
+					if(total.k) {
+						Object.entries(total.k).forEach(([key, v]) => {
+							if(obj[key]) {
+								log(`Duplicate knowledge key [${key}]`);
+							} else {
+								obj[key] = v;
+							}
+						});
+					}
+					break;
+				}
 				default: {
-					const ps = ["b", "p"];
+					const ps = ["b", "x"];
 					while(data.length > 0) {
 						const p = ps.shift();
 						const v = data.shift();

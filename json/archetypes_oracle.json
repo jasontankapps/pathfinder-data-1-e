@@ -474,7 +474,7 @@
 			"‹SOURCE Pathfinder Society Field Guide/29›  ",
 			"Oracles and sorcerers gain their magical powers through strange and mysterious ways, be they chosen by fate or blood. While most might be content with their strange powers, some oracles and sorcerers join the Pathfinders specifically to find out more about their mysteries and bloodlines and determine the genesis and history of their eldritch talents. These spellcasters are known among the Spells as seekers, after their obsession with researching ancient texts and obscure ruins for any clues they can find about their heritage and histories. A seeker has the following class features.",
 			"",
-			"::cskill{gain=ddev noAlter preTitle=Replaces pre=\"Bonus skills from the oracle's mystery\" preHL}",
+			"::cskill{gain=dd noAlter preTitle=Replaces pre=\"Bonus skills from the oracle's mystery\" preHL}",
 			"",
 			"::ab[Tinkering (Ex)]{l=1 flavor=\"Seekers often look to ancient devices, old tomes, and strange magical items in order to learn more about their oracle mysteries.\" icon=boost-power passive=\"A seeker adds half his oracle level on Perception checks made to locate traps and on all Disable Device skill checks (minimum +1).\" ability=\"A seeker can use Disable Device to disarm magical traps. If the seeker also possesses levels in ‹class/rogue› or another class that provides the ‹ability/trapfinding› ability, those levels stack with his oracle levels for determining his overall bonus on these skill checks.\" order=pa}",
 			"",

@@ -15,7 +15,7 @@ export const makeClassBlock = ({maybeClear, attrs, marked2, convertEncodedInfo})
 		lg, ln, le, ng, n, ne, cg, cn, ce,
 		hd, wealth, parent, skp,
 		acro, app, bluff, climb, craft, diplo,
-		dis, ddev, ea, fly, ha, heal, intm,
+		dis, dd, ea, fly, ha, heal, intm,
 		ka, kd, ke, kg, kh, kl, kna, kno, kp, kr,
 		ling, per, perf, prof, ride, sm, soh,
 		spc, stl, sur, swim, umd, skillNote
@@ -65,7 +65,7 @@ export const makeClassBlock = ({maybeClear, attrs, marked2, convertEncodedInfo})
 	].filter(x => x[1]);
 	const dex = [
 		["Acrobatics", acro],
-		["Disable Device", ddev],
+		["Disable Device", dd],
 		["Escape Artist", ea],
 		["Fly", fly],
 		["Ride", ride],

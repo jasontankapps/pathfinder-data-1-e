@@ -1138,7 +1138,7 @@
 			"",
 			"**Role:** Investigators live to solve mysteries and find inventive ways to get out of jams. They serve as advisors and support for their adventuring parties, but can take center stage when knowledge and cunning are needed. No slouches in battle, they know how to make surprise attacks and use inspiration to bring those attacks home.",
 			"",
-			"::class{any hd=8 parent=\"‹class/Alchemist› and ‹class/rogue›.\" wealth=3 skp=6 acro app bluff climb craft diplo ddev dis ea heal intm ka kd ke kg kh kl kna kno kp kr ling per perf prof sm soh spc stl umd}",
+			"::class{any hd=8 parent=\"‹class/Alchemist› and ‹class/rogue›.\" wealth=3 skp=6 acro app bluff climb craft diplo dd dis ea heal intm ka kd ke kg kh kl kna kno kp kr ling per perf prof sm soh spc stl umd}",
 			"",
 			"### Class Features and Spells Per Day",
 			"",

@@ -572,7 +572,7 @@
 			"‹SOURCE Technology Guide/12›  ",
 			"Iron priests preach of the messengers from beyond the stars, envoys of the divine brought to Golarion in a falling star. Iron priests can affect robots and other unliving constructs with channeled energy, but lack power over the undead. Appropriate deities for an Iron Priest include ‹faith/Brigh›, ‹faith/Nethys›, ‹faith/Gorum›, and ‹faith/Haagenti›. An iron priest has the following class features.",
 			"",
-			"::cskill{gain=ddev~ke~kl~sur lose=ka~kno~kp~sm}",
+			"::cskill{gain=dd~ke~kl~sur lose=ka~kno~kp~sm}",
 			"",
 			"::ab[Channel Energy (Su)]{icon=magic ability=\"When an iron priest *channels energy* to heal or harm living creatures, she heals or harms constructs with the clockwork or robot subtypes as well. Constructs without those subtypes are also affected, but gain only half the normal amount of healing or take only half the normal amount of damage, as appropriate. An iron priest cannot harm or heal undead with *channel energy.*\" alter=\"Channel energy\"}",
 			"",
