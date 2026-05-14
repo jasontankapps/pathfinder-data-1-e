@@ -103,7 +103,17 @@ const makeMonsterInfoBlock = ({marked2, parseSOURCE, convertEncodedInfo, maybeCl
 	// INITIATIVE/SENSES LINE
 	//
 	if(init !== undefined) {
-		output.push(`init="${init}"`);
+		if(typeof init === "number") {
+			output.push(`init={${init}}`);
+		} else {
+			const m = init.match(/^(?:\+|(-))([0-9]+)$/);
+			if(m) {
+				const [, s, n] = m;
+				output.push(`init={${(s || "") + n}}`);
+			} else {
+				output.push(`init={${convertToHtmlArrayKludge(init)}}`);
+			}
+		}
 	} else {
 		log("No initiative");
 	}
@@ -134,7 +144,19 @@ const makeMonsterInfoBlock = ({marked2, parseSOURCE, convertEncodedInfo, maybeCl
 	if(aav) { output.push("aav"); }
 	if(sid) { output.push("sid"); }
 	if(pcp !== undefined) {
-		output.push(`pcp="${pcp}"`)
+		if(typeof pcp === "number") {
+			output.push(`pcp={${pcp}}`);
+		} else {
+			const m = pcp.match(/^(?:\+|(-))([0-9]+)$/);
+			if(m) {
+				const [, s, n] = m;
+				output.push(`pcp={${(s || "") + n}}`);
+			} else {
+				output.push(`pcp="${pcp}"`);
+			}
+		}
+	} else {
+		log("Missing pcp");
 	}
 	//
 	// AURA LINE

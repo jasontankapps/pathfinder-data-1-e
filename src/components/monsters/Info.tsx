@@ -86,8 +86,8 @@ interface Senses extends Base {
 interface InfoBase extends Base {
 	xp: string
 	text?: StringOrHtmlKludge
-	init: string
-	pcp: string
+	init: number | StringOrHtmlKludge
+	pcp: number | string
 	aura?: StringOrHtmlKludge
 }
 const Source: FC<SourceProps> = ({id, source}) => {
@@ -236,6 +236,13 @@ const getSenses = (props: Senses) => {
 	return false;
 };
 
+const parseInitPcp = (input: number | StringOrHtmlKludge) => {
+	if(typeof input === "number") {
+		return (input < 0 ? "" : "+") + String(input);
+	}
+	return parseHtmlArrayKludge(input);
+}
+
 const Info: FC<InfoProps> = (attrs) => {
 	const {
 		source, xp, al, lg, ln, le, ng, n, ne, cg, cn, ce,
@@ -280,9 +287,9 @@ const Info: FC<InfoProps> = (attrs) => {
 			<p>{alignment} {size} {
 				type ? <Link to={"/type/" + type.toLowerCase().replace(/ /g, "_")}>{type}</Link> : "[missing type]"
 			}{parens ? <> ({parens})</> : ""}</p>
-			<p><strong>Init</strong> {init}{
+			<p><strong>Init</strong> {parseInitPcp(init)}{
 				sensing ? <>; {sensing}</> : <></>
-			}; <strong>Perception</strong> {pcp}</p>
+			}; <strong>Perception</strong> {parseInitPcp(pcp)}</p>
 			{aura ? <p><strong>Aura</strong> {parseHtmlArrayKludge(aura)}</p> : <></>}
 		</div>
 	);
