@@ -100,7 +100,6 @@ const Source: FC<SourceProps> = ({id, source}) => {
 		}</p>
 	);
 };
-
 type InfoProps = SourceProps & DescBase & Subtypes & Senses & InfoBase;
 
 const getSubtypes = (props: Subtypes2): ReactNode | false => {
@@ -138,7 +137,6 @@ const getSenses = (props: Senses) => {
 	const {sen, senSpell, dv, llv, keenScent, scent, thoughtsense, greensight, lifesense,
 			xray, aav, mistsight, sid, blindsight, blindsightParens, blindsense,
 			tremorsense, tremorParens, id} = props;
-	let line = "";
 	const senses: [string, ReactNode][] = sen ? sen.map(x => [x, x] as [string, string]) : [];
 	if(senSpell) {
 		senses.push(...senSpell.map(

@@ -386,8 +386,10 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "meco") {
 				churn(n, attrs, [ "clear", "env", "org", "treasure" ], [], logError);
 				flags.header = true;
+				flags.meco = true;
+				const id = prefix + makeValidID(text + "-eco");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterEcologyBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
+				return makeMonsterEcologyBlock({marked2, convertEncodedInfo, maybeClear, attrs, id, logError});
 			} else if (n === "archetype") {
 				// Archetype
 				churn(n, attrs, ["clear", "c", "r", "e"], [], logError);

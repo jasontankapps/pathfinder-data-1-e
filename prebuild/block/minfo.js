@@ -111,7 +111,7 @@ const makeMonsterInfoBlock = ({marked2, parseSOURCE, convertEncodedInfo, maybeCl
 				const [, s, n] = m;
 				output.push(`init={${(s || "") + n}}`);
 			} else {
-				output.push(`init={${convertToHtmlArrayKludge(init)}}`);
+				output.push(`init={${convertToHtmlArrayKludge(init, true)}}`);
 			}
 		}
 	} else {

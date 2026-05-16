@@ -1,31 +1,60 @@
-export const makeMonsterEcologyBlock = (marked2, convertEncodedInfo, maybeClear, attrs, logError) => {
+import convertToHtmlArrayKludge from "../convertToHtmlArrayKludge.js";
+
+const parseTreasure = (type, input) => {
+	const incoming = input.split(/~/);
+	const items = [];
+	let final = false;
+	incoming.forEach(item => {
+		if(item.startsWith("!")) {
+			final = convertToHtmlArrayKludge(item.slice(1));
+			return;
+		}
+		const bits = item.split(/\|/);
+		items.push(bits);
+	});
+	return final ? { [type]: items, final } : { [type]: items };
+};
+
+export const makeMonsterEcologyBlock = ({marked2, convertEncodedInfo, maybeClear, attrs, logError, id}) => {
 	const {
 		env, org, treasure
 	} = attrs;
 	const output = [];
-	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
+	const doConvert = (input, stringify = true) => convertToHtmlArrayKludge(marked2.parseInline(convertEncodedInfo(input)), stringify);
 	//
 	// ENVIRONMENT LINE
 	//
 	if(env) {
-		output.push(doParse(`**Environment** ${env}`));
+		output.push(`env={${doConvert(env)}}`);
 	} else {
 		logError("Missing environment");
+		return "<Header sub>Ecology</Header>\n<p>Error.</p>\n";
 	}
 	//
 	// ORGANIZATION LINE
 	//
-	org && output.push(doParse(`**Organization** ${org}`));
+	org && output.push(`org={${doConvert(org)}}`);
 	//
 	// TREASURE LINE
 	//
-	const m = treasure && treasure.match(/^(standard|double|triple|none|incidental|npc)?=(.+$)/);
-	if(m) {
-		const [,type,parenthetical] = m;
-		const t = type === "npc" ? "NPC gear" : (type || false);
-		output.push(doParse(`**Treasure** ${t ? `‹rule/${t}› (${parenthetical})` : parenthetical}`));
+	if(treasure) {
+		const m = treasure.match(/^([SDTXIN!])(?:=(.*))?$/);
+		if(m) {
+			const [,type,parens] = m;
+			if(parens) {
+				const p = type === "!" ? "other" : type;
+				output.push(`treasure={${
+					JSON.stringify(
+						type === "!" ? {other: doConvert(parens, false)} : parseTreasure(p, parens)
+					)
+				}}`)
+			}
+			//
+		} else {
+			output.push(`treasure={{"${treasure}": false}}`);
+		}
 	}
-	return `${maybeClear}<Header sub>Ecology</Header>\n<p>${output.join("<br>")}</p>`;
+	return `${maybeClear}<Header sub>Ecology</Header>\n<Ecology id="${id + "-eco"}" ${output.join(" ")} />\n`;
 };
 
 export default makeMonsterEcologyBlock;
