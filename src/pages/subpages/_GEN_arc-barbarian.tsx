@@ -483,7 +483,7 @@ const _giant_stalker = {title: "Giant Stalker", jsx: <><h2 id="arc-barbarian-gia
 <Ability id="arc-barbarian-giant_stalker-underfoot-ex" extraClasses="subAbility" icon={["upgrade","armor-downgrade"]}>
 <Pair single id="arc-barbarian-giant_stalker-underfoot-ex">Underfoot (Ex)</Pair>
 <Pair title="Move-Equivalent Action">When raging, the giant stalker can attempt to enter a giant's space, provided she is at least one size category smaller than the giant. Doing so requires a successful combat maneuver check against the giant's CMD. If she succeeds, she enters a square in the giant's space. If she makes an attack against the giant while sharing its space, the giant is treated as being <Link to="/rule/flat_footed">flat-footed</Link> against her. At the end of her turn, she exits the giant's space into any square adjacent to the giant's space.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 </>};
 const _hateful_rager = {title: "Hateful Rager", jsx: <><h2 id="arc-barbarian-hateful_rager-hateful-rager">Hateful Rager</h2>
@@ -557,7 +557,7 @@ const _jungle_rager = {title: "Jungle Rager", jsx: <><h2 id="arc-barbarian-jungl
 <Pair title="Passive Ability">A jungle rager gains a bonus on Fortitude saves to resist the effects of <Link to="/rule/hot_weather">hot weather</Link> and diseases. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
 </Ability>
 <Ability id="arc-barbarian-jungle_rager-home-ground-supremacy-ex" icon={["stairs-goal","armor-upgrade"]}>
-<Pair single id="arc-barbarian-jungle_rager-home-ground-supremacy-ex" flavor={["A jungle rager becomes even more capable when navigating and fighting in her preferred terrain. She gains the ",{"tag":"Link","content":"woodland stride","props":{"to":"/ability/woodland_stride"}}," ranger ability, though this ability works only in the terrain she selected for the home ground advantage ability. In this terrain, she gains an additional +1 bonus to AC when benefiting from cover or improved cover (but not soft cover)."]}>Home Ground Supremacy (Ex)</Pair>
+<Pair single id="arc-barbarian-jungle_rager-home-ground-supremacy-ex" flavor={<>A jungle rager becomes even more capable when navigating and fighting in her preferred terrain. She gains the <Link to="/ability/woodland_stride">woodland stride</Link> ranger ability, though this ability works only in the terrain she selected for the home ground advantage ability. In this terrain, she gains an additional +1 bonus to AC when benefiting from cover or improved cover (but not soft cover).</>}>Home Ground Supremacy (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 </Ability>

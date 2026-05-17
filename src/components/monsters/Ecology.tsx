@@ -1,7 +1,6 @@
 import {FC, ReactNode, Fragment as F} from 'react';
 import Header from '../Header';
 import Link from '../Link';
-import parseHtmlArrayKludge, { StringOrHtmlKludge } from '../parseHtmlArrayKludge';
 import { convertTextToLink } from '../convertLinks';
 import mapNodes from '../mapNodes';
 
@@ -9,12 +8,12 @@ import mapNodes from '../mapNodes';
 type NeverExcept<Type, K extends keyof Type> = Omit<Partial<{ [Property in keyof Type]: never }>, K> & Pick<Type, K>;
 type TreasureKeys = "S" | "D" | "T" | "X" | "I" | "N";
 type Treasure1 = { [key in TreasureKeys]?: string[][] | false} & { other: never };
-type Treasure2 = { other?: StringOrHtmlKludge } & { [Property in TreasureKeys]?: never };
+type Treasure2 = { other?: ReactNode } & { [Property in TreasureKeys]?: never };
 type Treasure = (
 	Treasure2 | NeverExcept<Treasure1, "S"> | NeverExcept<Treasure1, "D">
 	| NeverExcept<Treasure1, "T"> | NeverExcept<Treasure1, "X">
 	| NeverExcept<Treasure1, "I"> | NeverExcept<Treasure1, "N">
-) & { final?: StringOrHtmlKludge };
+) & { final?: ReactNode };
 interface TreasureProps {
 	t: Treasure
 	id: string
@@ -22,8 +21,8 @@ interface TreasureProps {
 
 interface EcoProps {
 	id: string
-	env: StringOrHtmlKludge
-	org?: StringOrHtmlKludge
+	env: ReactNode
+	org?: ReactNode
 	treasure?: Treasure
 }
 
@@ -417,7 +416,7 @@ const Treasure: FC<TreasureProps> = (props) => {
 	const {t, id} = props;
 	const {other, final} = t;
 	if(other) {
-		return <p><strong>Treasure</strong> {parseHtmlArrayKludge(other)}</p>;
+		return <p><strong>Treasure</strong> {other}</p>;
 	}
 	const [text, link, content] = findTreasure(t);
 	if(!content) {
@@ -427,7 +426,7 @@ const Treasure: FC<TreasureProps> = (props) => {
 	return <p><strong>Treasure</strong> <Link to={
 		"/rule/" + link
 	}>{text}</Link> ({found}{
-		final ? <>, {parseHtmlArrayKludge(final)}</> : ""
+		final ? <>, {final}</> : ""
 	})</p>;
 };
 
@@ -438,8 +437,8 @@ const Ecology: FC<EcoProps> = (props) => {
 	return (
 		<div className="reduce">
 			<Header sub>Ecology</Header>
-			<p><strong>Environment</strong> {parseHtmlArrayKludge(env)}</p>
-			{org ? <p><strong>Organization</strong> {parseHtmlArrayKludge(org)}</p> : ""}
+			<p><strong>Environment</strong> {env}</p>
+			{org ? <p><strong>Organization</strong> {org}</p> : ""}
 			{treasure ? <Treasure t={treasure} id={id} /> : ""}
 		</div>
 	);

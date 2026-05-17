@@ -1,246 +1,247 @@
+import Header from '../../components/Header';
 import Link from '../../components/Link';
 import InnerLink from '../../components/InnerLink';
 const _not_found = {title: "Unknown", jsx: <><h2 id="npc-not_found-error">Error</h2>
 <p>Unable to find the requested NPC.</p>
 </>};
-const _acolyte = {title: "Acolyte", jsx: <><p className="statblockHeaderFull"><span>Acolyte</span><span>CR 1/3</span></p>
+const _acolyte = {title: "Acolyte", jsx: <><Header full><span>Acolyte</span><span>CR 1/3</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 244</Link><br/><strong>XP</strong> 135<br/>Human <Link to="/npcclass/adept">adept</Link> 1<br/>N Medium humanoid (human)<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +1</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 14, touch 11, flat-footed 13 (+3 armor, +1 Dex)<br/><strong>hp</strong> 5 (1d6+2)<br/><strong>Fort</strong> -1, <strong>Ref</strong> +1, <strong>Will</strong> +3</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> morningstar +0 (1d8) or silver dagger +0 (1d4/19-20)<br/><strong>Ranged</strong> silver dagger +1 (1d4/19-20)<br/><strong>Adept Spells Prepared</strong> (CL 1st; concentration +2)<br/><em>1st</em>-<Link to="/spell/bless">bless</Link>, cure light wounds<br/><em>0 (at will)</em>-<Link to="/spell/guidance">guidance</Link>, <Link to="/spell/light">light</Link>, <Link to="/spell/mending">mending</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The adept reads her scroll of sleep and commands her dog to attack. She then casts bless and attacks with her morningstar.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 12, <strong>Con</strong> 8, <strong>Int</strong> 9, <strong>Wis</strong> 13, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +0; <strong>CMD</strong> 11<br/><strong>Feats</strong> <Link to="/feat/skill_focus">Skill Focus</Link> (Handle Animal), <Link to="/feat/toughness">Toughness</Link><br/><strong>Skills</strong> Handle Animal +7, Heal +7, Spellcraft +3<br/><strong>Languages</strong> Common<br/><strong>Combat Gear</strong> scroll of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, scroll of <Link to="/spell/sleep">sleep</Link>, <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/studded_leather">studded leather</Link>, <Link to="/eq-weapon/morningstar">morningstar</Link>, <Link to="/eq-material/silver">silver</Link> <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-misc/guard_dog">guard dog</Link>, <Link to="/eq-misc/healers_kit">healer's kit</Link>, <Link to="/eq-misc/silver_holy_symbol">silver holy symbol</Link>, <Link to="/eq-misc/smokestick">smokestick</Link>, <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link>, <Link to="/eq-misc/tindertwig">tindertwig</Link>, 9 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>An acolyte has just begun to unravel the mysteries of her faith, and lacks the fervent zeal that more indoctrinated members of her religion have. She is eager to learn, but her incomplete teachings mean she is more easily swayed by contrary rhetoric.</p>
 <p>Settlements that have adepts rather than clerics are often primitive or remote. Their religious practices may be a strange or heretical offshoot of a main religion, weaker than the common form but giving access to spells that are normally unavailable to true clerics (such as minor creation and sleep). A person trained by a cleric who instead manifests adept abilities may be cast out as a blasphemer or witch.</p>
 </>};
-const _apprentice_jeweler = {title: "Apprentice Jeweler", jsx: <><p className="statblockHeaderFull"><span>Apprentice Jeweler</span><span>CR 1/3</span></p>
+const _apprentice_jeweler = {title: "Apprentice Jeweler", jsx: <><Header full><span>Apprentice Jeweler</span><span>CR 1/3</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 260</Link><br/><strong>XP</strong> 135<br/>Human <Link to="/npcclass/expert">expert</Link> 1<br/>N Medium humanoid (human)<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +4</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 13, touch 12, flat-footed 11 (+1 armor, +2 Dex)<br/><strong>hp</strong> 4 (1d8)<br/><strong>Fort</strong> +0, <strong>Ref</strong> +2, <strong>Will</strong> +2</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> dagger -1 (1d4-1/19-20)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The expert calls for help and makes a fighting retreat.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 8, <strong>Dex</strong> 15, <strong>Con</strong> 11, <strong>Int</strong> 12, <strong>Wis</strong> 10, <strong>Cha</strong> 9<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> -1; <strong>CMD</strong> 11<br/><strong>Feats</strong> <Link to="/feat/run">Run</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Craft [jewelry])<br/><strong>Skills</strong> Appraise +5, Craft (jewelry) +8, Diplomacy +3, Disable Device +6, Knowledge (history, local, nobility) +5, Perception +4, Use Magic Device +3<br/><strong>Languages</strong> Common<br/><strong>Combat Gear</strong> <Link to="/eq-weapon/acid">acid</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/padded_armor">padded armor</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, masterwork <Link to="/eq-misc/artisans_tools_mwk">artisan's tools</Link>, 188 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>An apprentice delivers orders when not practicing her craft. She usually begins her apprenticeship as a young adult, serves for 7 years, and is paid mostly in room and board at the master's home or shop. After this duration, the apprentice becomes a journeyman in the craft and is paid a daily wage by the master. Some, however may instead leave to start their own businesses with employees once they reach the journeyman stage. A typical artisan has only one apprentice at a time, but a famous or wealthy one may have multiple apprentices at once.</p>
 <p>The above stat block can be used for any sort of trade that requires fine skill but not great strength, such as cobbling, dyeing, weaving, glass-blowing, locksmithing, or pottery-making. It can also be used to represent skilled professionals such as carriage drivers and house servants.</p>
 </>};
-const _beggar = {title: "Beggar", jsx: <><p className="statblockHeaderFull"><span>Beggar</span><span>CR 1/3</span></p>
+const _beggar = {title: "Beggar", jsx: <><Header full><span>Beggar</span><span>CR 1/3</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 256</Link><br/><strong>XP</strong> 135<br/>Half-elf <Link to="/npcclass/commoner">commoner</Link> 1<br/>CN Medium humanoid (elf, human)<br/><strong>Init</strong> +2; <strong>Senses</strong> low-light vision; Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 12, touch 12, flat-footed 10 (+2 Dex)<br/><strong>hp</strong> 4 (1d6+1)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +2, <strong>Will</strong> -1; +2 vs. enchantments<br/><strong>Immune</strong> sleep</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> dagger -1 (1d4-1/19-20)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The commoner offers his pitiful handful of copper pieces to buy his life. If refused, he lashes out with his dagger while screaming for help.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 8, <strong>Dex</strong> 14, <strong>Con</strong> 13, <strong>Int</strong> 11, <strong>Wis</strong> 9, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> -1; <strong>CMD</strong> 11<br/><strong>Feats</strong> <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Bluff)<br/><strong>Skills</strong> Bluff +4, Disguise +2, Perception +5, Perform (wind)<br/><strong>Languages</strong> Common, Elven<br/><strong>SQ</strong> elf blood<br/><strong>Gear</strong> <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-misc/disguise_kit">disguise kit</Link>, <Link to="/eq-misc/musical_instrument">wooden flute</Link>, 203 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>A beggar has had a hard life. He might be honest in his begging, or he might pretend to be something he's not - such as disfigured or a war hero - to evoke sympathy.</p>
 </>};
-const _crusader_squire = {title: "Crusader (Squire)", jsx: <><p className="statblockHeaderFull"><span>Crusader (Squire)</span><span>CR 1/3</span></p>
+const _crusader_squire = {title: "Crusader (Squire)", jsx: <><Header full><span>Crusader (Squire)</span><span>CR 1/3</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 268</Link><br/><strong>XP</strong> 135<br/>Human <Link to="/npcclass/aristocrat">aristocrat</Link> 1<br/>N Medium humanoid<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception -1</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 13, touch 11, flat-footed 12 (+1 armor, +1 Dex, +1 shield)<br/><strong>hp</strong> 5 (1d8+1)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +1, <strong>Will</strong> +1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> lance +1 (1d8+1/&times;3) or light pick +1 (1d4+1/&times;4)<br/><strong>Ranged</strong> shortbow +1 (1d6/&times;3)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 13, <strong>Con</strong> 12, <strong>Int</strong> 9, <strong>Wis</strong> 8, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +1; <strong>CMD</strong> 12<br/><strong>Feats</strong> <Link to="/feat/animal_affinity">Animal Affinity</Link>, <Link to="/feat/mounted_combat">Mounted Combat</Link><br/><strong>Skills</strong> Craft (armor) +3, Craft (weapons) +3, Handle Animal +6, Knowledge (nobility) +3, Ride +6<br/><strong>Languages</strong> Common<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/padded_armor">padded armor</Link>, <Link to="/eq-armor/light_wooden_shield">light wooden shield</Link>, <Link to="/eq-weapon/lance">lance</Link>, <Link to="/eq-weapon/light_pick">light pick</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link> with 20 arrows, <Link to="/eq-misc/light_horse_combat_trained">light horse (combat trained)</Link> with <Link to="/eq-misc/riding_saddle">riding saddle</Link><br/><strong>Boon</strong> A squire can make a personal introduction to a knight or help the PCs buy a combat trained mount or riding gear at a 5% discount. A squire might also agree to serve a fighter, paladin, or ranger PC, either for a limited time, or until granted knighthood.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Squires are aspiring knights, robust youths who train in skill at arms but also busy themselves with tending and caring for their master's gear, keeping it sharp, clean, and ready to use. Squires also learn the courtly arts and etiquette. After proving their loyalty and skill in battle, squires usually become knights. In lands where knighthood is only granted by a king or other monarch, some squires remain so for their entire lives.</p>
 <p>Squires can be used as heralds, standardbearers, scouts, or royal messengers. They might also be used as skirmishers or light cavalry, or perhaps as the guards of a minor noble's manor house. A group of squires could also serve as a noble hunting party.</p>
 <p>Simply giving a squire heavier armor can make a more formidable mounted combatant, while replacing the pick with a scimitar or longsword creates a nomadic horselord warrior.</p>
 <p>A squire often accompanies a knight (CR 7), or a pair of squires may accompany a noble scion (CR 3). Six squires can make a patrol of scouts or a hunting party (CR 3). Three squires can serve as outriders for a caravan, along with three caravan guards (CR 5), or six squires might work with a highwayman (CR 7).</p>
 </>};
-const _military_foot_soldier = {title: "Military (Foot Soldier)", jsx: <><p className="statblockHeaderFull"><span>Military (Foot Soldier)</span><span>CR 1/3</span></p>
+const _military_foot_soldier = {title: "Military (Foot Soldier)", jsx: <><Header full><span>Military (Foot Soldier)</span><span>CR 1/3</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 286</Link><br/><strong>XP</strong> 135<br/>Human <Link to="/npcclass/warrior">warrior</Link> 1<br/>N Medium humanoid<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +0</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)<br/><strong>hp</strong> 8 (1d10+3)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +1, <strong>Will</strong> +0</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> longspear +3 (1d8+3/&times;3) or greatsword +3 (2d6+3/19-20) or dagger +3 (1d4+2/19-20)<br/><strong>Ranged</strong> javelin +2 (1d6+2)<br/><strong>Space</strong> 5 ft., <strong>Reach</strong> 5 ft. (10 ft. with longspear)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 15, <strong>Dex</strong> 12, <strong>Con</strong> 11, <strong>Int</strong> 8, <strong>Wis</strong> 10, <strong>Cha</strong> 9<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +3; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/step_up">Step Up</Link>, <Link to="/feat/toughness">Toughness</Link><br/><strong>Skills</strong> Craft (weapons) +3, Profession (soldier) +4, Survival +1<br/><strong>Languages</strong> Common<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/chainmail">chainmail</Link>, <Link to="/eq-weapon/greatsword">greatsword</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/javelin">javelin</Link>, <Link to="/eq-weapon/longspear">longspear</Link>, 2 gp<br/><strong>Boon</strong> Foot soldiers can help PCs buy normal (non-masterwork) simple or martial weapons at a 10% discount, or may agree to accompany the PCs as men-at-arms for a 10% share of the treasure.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Foot soldiers are the backbone of any army, stout soldiers who "hold the line" in the face of the enemy's charge with a bristling wall of pikes, decimate an opposing force's ranks with a hail of javelins, or hew with their swords in the bloody grind of close combat. Foot soldiers close the gap when their foes try to flee the field, and are tough enough to shrug off blows that would fell a common man.</p>
 <p>Changing a foot soldier's character class from warrior to fighter creates a professional veteran soldier. This necessitates a number of changes, the foremost of which is using the heroic numbers for his ability scores (15, 14, 13, 12, 10, and 8). In addition, the foot soldier receives a bonus fighter feat such as <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/power_attack">Power Attack</Link>, or <Link to="/feat/weapon_focus">Weapon Focus</Link>.</p>
 <p>Different varieties of foot soldier can be easily created by exchanging weapons and armor. For example, replacing the longspear and greatsword with a shortspear, longsword, and heavy steel shield increases the foot soldier's AC by 2.</p>
 <p>Foot soldiers can serve as bodyguards or hired muscle for mid-level NPCs, or as the rank-and-file guards at a city gate, in front of a temple, or manning a castle's walls.</p>
 <p>Foot soldiers are usually found in squads of six (CR 3), sometimes accompanied by a guard sergeant (CR 4).</p>
 </>};
-const _page = {title: "Page", jsx: <><p className="statblockHeaderFull"><span>Page</span><span>CR 1/3</span></p>
+const _page = {title: "Page", jsx: <><Header full><span>Page</span><span>CR 1/3</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 250</Link><br/><strong>XP</strong> 135<br/>Halfling <Link to="/npcclass/aristocrat">aristocrat</Link> 1<br/>N Small humanoid (halfling)<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +6</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 13, touch 13, flat-footed 11 (+2 Dex, +1 size)<br/><strong>hp</strong> 3 (1d8-1)<br/><strong>Fort</strong> +0, <strong>Ref</strong> +3, <strong>Will</strong> +3; +2 vs. fear</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 25 ft.<br/><strong>Melee</strong> dagger -1 (1d3-2/19-20)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The aristocrat fights as best he can with his dagger, but flees as soon as possible to find a guard.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 6, <strong>Dex</strong> 15, <strong>Con</strong> 9, <strong>Int</strong> 12, <strong>Wis</strong> 10, <strong>Cha</strong> 12<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> -3; <strong>CMD</strong> 9<br/><strong>Feats</strong> <Link to="/feat/fleet">Fleet</Link><br/><strong>Skills</strong> Acrobatics +4, Climb +0, Diplomacy +5, Escape Artist +3, Knowledge (local, nobility) +5, Perception +6, Stealth +7<br/><strong>Languages</strong> Common, Halfling<br/><strong>Gear</strong> <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-misc/courtiers_outfit">courtier's outfit</Link>, 228 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>This nervous young page alternates between avoiding unwanted attention and desperately trying to impress any nobles who send him on errands. His duties involve carrying messages (whether on parchment or memorized) within the palace grounds or a city, delivering packages, escorting the retainers of visiting officials, and so on.</p>
 <p>Sometimes a package carried by a page contains something quite valuable, though if that is the case, the page is usually accompanied by one or more guards (warriors 3). The additional wealth in the page's stat block may account for such items, though in most cases the page only carries a few silver coins for his own personal use plus a few gold pieces for his employer's expenses.</p>
 </>};
-const _recruit = {title: "Recruit", jsx: <><p className="statblockHeaderFull"><span>Recruit</span><span>CR 1/3</span></p>
+const _recruit = {title: "Recruit", jsx: <><Header full><span>Recruit</span><span>CR 1/3</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 266</Link><br/><strong>XP</strong> 135<br/>Dwarf <Link to="/npcclass/warrior">warrior</Link> 1<br/>N Medium humanoid (dwarf)<br/><strong>Init</strong> +0; <strong>Senses</strong> darkvision 60 ft.; Perception +1</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 18, touch 10, flat-footed 18 (+6 armor, +2 shield)<br/><strong>hp</strong> 8 (1d10+3)<br/><strong>Fort</strong> +4, <strong>Ref</strong> +0, <strong>Will</strong> +0; +2 vs. poison, spells, and spell-like abilities<br/><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants)</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> dwarven waraxe +3 (1d10+1/&times;3) or dagger +2 (1d4+1/19-20)<br/><strong>Ranged</strong> light crossbow +1 (1d8/19-20)<br/><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and orc humanoids</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The warrior prefers melee combat and working with other soldiers. He uses alchemist's fire against targets resistant to weapon damage.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 11, <strong>Con</strong> 14, <strong>Int</strong> 10, <strong>Wis</strong> 10, <strong>Cha</strong> 7<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +2; <strong>CMD</strong> 12 (16 vs. bull rush or trip)<br/><strong>Feats</strong> <Link to="/feat/weapon_focus">Weapon Focus</Link> (dwarven waraxe)<br/><strong>Skills</strong> Intimidate +2, Perception +1 (+3 to notice unusual stonework)<br/><strong>Languages</strong> Common, Dwarven<br/><strong>Combat Gear</strong> <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/chainmail">chainmail</Link>, <Link to="/eq-armor/heavy_wooden_shield">heavy wooden shield</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/dwarven_waraxe">dwarven waraxe</Link>, <Link to="/eq-weapon/light_crossbow">light crossbow</Link> with 20 bolts, 12 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Filled with bluster and swagger, a recruit lacks the discipline of an experienced soldier and can quickly lose resolve if he finds himself in over his head. A recruit works best in a large group under a strong leader who can keep all the soldiers in line and working together.</p>
 <p>Left to his own devices, a recruit becomes bored and looks for entertainments such as drinking and gambling to pass the time.</p>
 </>};
-const _villager_village_idiot = {title: "Villager (Village Idiot)", jsx: <><p className="statblockHeaderFull"><span>Villager (Village Idiot)</span><span>CR 1/3</span></p>
+const _villager_village_idiot = {title: "Villager (Village Idiot)", jsx: <><Header full><span>Villager (Village Idiot)</span><span>CR 1/3</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 308</Link><br/><strong>XP</strong> 135<br/>Human <Link to="/npcclass/commoner">commoner</Link> 1<br/>N Medium humanoid<br/><strong>Init</strong> +0; <strong>Senses</strong> Perception +3</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 10, touch 10, flat-footed 10<br/><strong>hp</strong> 6 (1d6+3)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +0, <strong>Will</strong> -1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> improvised club +1 (1d4+1)<br/><strong>Ranged</strong> sling -1 (1d3+1)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 11, <strong>Con</strong> 15, <strong>Int</strong> 4, <strong>Wis</strong> 9, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +1; <strong>CMD</strong> 11<br/><strong>Feats</strong> <Link to="/feat/catch_off_guard">Catch Off-Guard</Link>, <Link to="/feat/endurance">Endurance</Link><br/><strong>Skills</strong> Climb +5, Perception +3<br/><strong>Languages</strong> Common<br/><strong>Gear</strong> <Link to="/misc/improvised">improvised</Link> <Link to="/eq-weapon/club">club</Link>, <Link to="/eq-weapon/sling">sling</Link> with 10 stones, turnip<br/><strong>Boon</strong> The village idiot can lead PCs to something secret or hidden inside the town that he has come across, granting a +5 bonus on one Perception check to search an area.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The village idiot is an amiable simpleton, eking out a meager existence through charity, begging, odd jobs, or occasionally bringing down small game with his sling. While usually a gentle soul, the village idiot is prone to anger if provoked, and may lash out blindly with whatever item is at hand.</p>
 <p>Giving a village idiot the <Link to="/feat/skill_focus">Skill Focus</Link> feat in place of Endurance creates an idiot savant, displaying great knowledge in one specific area, usually a Craft or Knowledge skill. Switching an idiot savant's Constitution and Charisma scores, and giving him <Link to="/feat/animal_affinity">Animal Affinity</Link>, Skill Focus (Handle Animal), and the Handle Animal skill instead of Climb, creates a horse whisperer or someone who relates better to animals than to humans (hp 4, Fort +0, Handle Animal +11). A village idiot might also carry a crude knife, or could have learned to defend himself from the taunts of cruel villagers with his fists (and the <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> feat).</p>
 <p>Village idiots can also be used as prisoners, galley slaves, or incarcerated lunatics in an asylum. A village idiot can also represent any simple commoner, by replacing his Climb skill with an appropriate Craft or Profession skill. A stableboy might have the Ride skill instead, while a dock rat may possess the Swim skill. An urchin runner might have the <Link to="/feat/fleet">Fleet</Link> and <Link to="/feat/run">Run</Link> feats instead.</p>
 <p>A village idiot is usually encountered alone, but may also be found tagging along with an acolyte, drunkard, farmer, or shopkeep.</p>
 </>};
-const _brigand = {title: "Brigand", jsx: <><p className="statblockHeaderFull"><span>Brigand</span><span>CR 1/2</span></p>
+const _brigand = {title: "Brigand", jsx: <><Header full><span>Brigand</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 266</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/npcclass/warrior">warrior</Link> 2<br/>NE Medium humanoid (human)<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +0</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 13, touch 11, flat-footed 12 (+2 armor, +1 Dex)<br/><strong>hp</strong> 15 (2d10+4)<br/><strong>Fort</strong> +4, <strong>Ref</strong> +1, <strong>Will</strong> +0</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> longsword +3 (1d8+1/19-20) or sap +3 (1d6+1 nonlethal)<br/><strong>Ranged</strong> longbow +3 (1d8/&times;3)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The warrior snipes with arrows until her foes are close, then uses her sword. She hurls thunderstones at spellcasters, and tanglefoot bags at foes wearing heavy armor.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 13, <strong>Con</strong> 12, <strong>Int</strong> 9, <strong>Wis</strong> 10, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +3; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/point_blank_shot">Point-Blank Shot</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Stealth)<br/><strong>Skills</strong> Intimidate +4, Stealth +6<br/><strong>Languages</strong> Common<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, masterwork <Link to="/eq-weapon/arrow">arrows</Link> (5), <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bags</Link> (2), <Link to="/eq-weapon/thunderstone">thunderstone</Link> (2); <strong>Other Gear</strong> <Link to="/eq-armor/leather_armor">leather armor</Link>, <Link to="/eq-weapon/longbow">longbow</Link> with 20 arrows, <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-weapon/sap">sap</Link>, 48 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>A brigand has no sense of mercy, and is happy to kill for a handful of silver. Brigands waylay caravans, create illegal turnpikes on roads to collect tolls from travelers, attack noisy camps at night, and harass villages for protection money. They are easily routed but carry a grudge and remain a recurring problem until imprisoned or killed.</p>
 <p>Many brigands are former soldiers who lacked the discipline to stay in the military or a mercenary company, and may even be deserters from a local or invading army. They rarely use group tactics, and form into gangs under the toughest member of the group, typically a grizzled mercenary (warrior 6).</p>
 </>};
-const _brigand_bandit = {title: "Brigand (Bandit)", jsx: <><p className="statblockHeaderFull"><span>Brigand (Bandit)</span><span>CR 1/2</span></p>
+const _brigand_bandit = {title: "Brigand (Bandit)", jsx: <><Header full><span>Brigand (Bandit)</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 258</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/npcclass/warrior">warrior</Link> 2<br/>CN Medium humanoid<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception -1</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 13, flat-footed 14 (+3 armor, +2 Dex, +1 dodge, +1 shield)<br/><strong>hp</strong> 11 (2d10)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +2, <strong>Will</strong> -1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> rapier +3 (1d6+1/18-20) or sap +3 (1d6+1 nonlethal)<br/><strong>Ranged</strong> composite longbow +4 (1d8+1/&times;3)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 14, <strong>Con</strong> 11, <strong>Int</strong> 10, <strong>Wis</strong> 8, <strong>Cha</strong> 9<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +3; <strong>CMD</strong> 16<br/><strong>Feats</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/point_blank_shot">Point Blank Shot</Link><br/><strong>Skills</strong> Climb +4, Handle Animal +3, Intimidate +3, Ride +5, Stealth +2<br/><strong>Languages</strong> Common<br/><strong>Gear</strong> <Link to="/eq-armor/studded_leather">studded leather</Link>, <Link to="/eq-armor/buckler">buckler</Link>, <Link to="/eq-weapon/composite_longbow">composite longbow</Link> (+1 Str) with 20 arrows, <Link to="/eq-weapon/rapier">rapier</Link>, <Link to="/eq-weapon/sap">sap</Link>, <Link to="/eq-misc/light_horse_combat_trained">light horse (combat trained)</Link><br/><strong>Boon</strong> Bandits can allow the PCs to pass without robbing them and can alert them to ambush sites within a day's travel, granting a +2 circumstance bonus on Perception checks to notice ambushes. They might also be able to get the PCs an audience with a powerful local bandit lord.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Bandits are the scourge of the highway, robbing the rich and poor alike. Freebooting scoundrels simply out for a good time, bandits care only about themselves and their band of rogues. They accost and shake down innocent travelers, hijack poorly-guarded merchant caravans, charge tolls at remote bridges, or simply plunder isolated farmsteads and villages.</p>
 <p>Bandits can be deserters from an army, disaffected huntsmen, rootless drifters with no taste for hard work, cattle rustlers or horse thieves, or even folk-hero freedom fighters who rob from the rich to feed the poor.</p>
 <p>Bandits can be used as low-level archer soldiers (N alignment, replace Dodge feat with <Link to="/feat/weapon_focus">Weapon Focus</Link> [longbow]) or crossbowmen (replace longbow with light or heavy crossbow), or as guards manning city walls (LN alignment, replace rapiers with longswords and replace Dodge feat with Weapon Focus [longsword]). They can also be used as bored young nobles or dandies out on a hunt or as low-level scouts or outriders.</p>
 <p>Bandits are usually found in pairs (CR 1) or in a gang of a dozen accompanying a highwayman (CR 8). They often make up the rank-and-file members of a bandit lord's gang (CR 12).</p>
 </>};
-const _callous_rake = {title: "Callous Rake", jsx: <><p className="statblockHeaderFull"><span>Callous Rake</span><span>CR 1/2</span></p>
+const _callous_rake = {title: "Callous Rake", jsx: <><Header full><span>Callous Rake</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 112</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/class/paladin">paladin</Link> of <Link to="/faith/iomedae">Iomedae</Link> 1<br/>LG Medium humanoid (human)<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +0</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 20, touch 11, flat-footed 19 (+7 armor, +1 Dex, +2 shield)<br/><strong>hp</strong> 12 (1d10+2)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +1, <strong>Will</strong> +2</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> longsword +5 (1d8+3/19-20)<br/><strong>Ranged</strong> dagger +2 (1d4+3/19-20)<br/><strong>Special Attacks</strong> smite evil 1/day (+2 attack and AC, +1 damage)<br/><strong>Spell-Like Abilities</strong> (CL 1st; concentration +3)<br/><em>At will</em>-<Link to="/spell/detect_evil">detect evil</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The paladin begins with Dazzling Display, then uses smite evil on the strongest evil opponent. If he is confident he will win the battle, he continues to demoralize opponents.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 17, <strong>Dex</strong> 12, <strong>Con</strong> 13, <strong>Int</strong> 8, <strong>Wis</strong> 10, <strong>Cha</strong> 14<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +4; <strong>CMD</strong> 15<br/><strong>Feats</strong> <Link to="/feat/dazzling_display">Dazzling Display</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link> (longsword)<br/><strong>Skills</strong> Intimidate +3, Sense Motive +4<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> aura, code of conduct<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/banded_mail">banded mail</Link>, <Link to="/eq-armor/heavy_wooden_shield">heavy wooden shield</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-armorenh/locked_gauntlet">locked gauntlet</Link>, <Link to="/eq-misc/silver_holy_symbol">silver holy symbol</Link>, 33 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The callous rake is a young paladin exhibiting un-paladin-like behavior. If unchecked, these habits become the first step toward disgrace.</p>
 <h3 id="npc-callous_rake-tristram-reis">Tristram Reis</h3>
 <p>Tall, lean, and exceedingly handsome, Tristram Reis is the vision of a true and noble paladin-until he opens his mouth. The son of a lesser noble, he has faith in the goddess of valor, but is a bit arrogant and enamored with his own status as a holy warrior.</p>
 </>};
-const _careful_initiate = {title: "Careful Initiate", jsx: <><p className="statblockHeaderFull"><span>Careful Initiate</span><span>CR 1/2</span></p>
+const _careful_initiate = {title: "Careful Initiate", jsx: <><Header full><span>Careful Initiate</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 96</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/class/monk">monk</Link> 1<br/>LN Medium humanoid (human)<br/><strong>Init</strong> +3; <strong>Senses</strong> Perception +6</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 16, touch 16, flat-footed 12 (+3 Dex, +1 dodge, +2 Wis)<br/><strong>hp</strong> 9 (1d8+1)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +5, <strong>Will</strong> +4</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> unarmed strike +3 (1d6+1) or kama +3 (1d6+1) or unarmed strike flurry of blows +2/+2 (1d6+1)<br/><strong>Ranged</strong> light crossbow +3 (1d8/19-20) or shuriken +3 (1d2+1) or shuriken flurry of blows +2/+2 (1d2+1)<br/><strong>Special Attacks</strong> flurry of blows, stunning fist (1/day, DC 12)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Before Combat</strong> The monk uses Stealth to catch enemies off-guard, starting any surprise round with Stunning Fist.<br/><strong>During Combat</strong> The monk never fights multiple opponents if she can help it, and prefers to use her shuriken with a flurry of blows before entering melee.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 16, <strong>Con</strong> 10, <strong>Int</strong> 13, <strong>Wis</strong> 15, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +1; <strong>CMD</strong> 17<br/><strong>Feats</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>, <Link to="/feat/stunning_fist">Stunning Fist</Link>, <Link to="/feat/weapon_finesse">Weapon Finesse</Link><br/><strong>Skills</strong> Acrobatics +7, Knowledge (history, religion) +5, Perception +6, Sense Motive +6, Stealth +7<br/><strong>Languages</strong> Common, Dwarven<br/><strong>Combat Gear</strong> potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), potions of <Link to="/spell/mage_armor">mage armor</Link> (2), potions of <Link to="/spell/magic_weapon">magic weapon</Link> (2); <strong>Other Gear</strong> <Link to="/eq-weapon/kama">kama</Link>, <Link to="/eq-weapon/light_crossbow">light crossbow</Link> with 10 bolts, <Link to="/eq-weapon/shuriken">shuriken</Link> (20), 50 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Neophyte monks are often eager to prove their mettle in battle, but just as often their strict training means they tend to act tentatively when deprived of their master's guidance.</p>
 </>};
-const _cautious_mage = {title: "Cautious Mage", jsx: <><p className="statblockHeaderFull"><span>Cautious Mage</span><span>CR 1/2</span></p>
+const _cautious_mage = {title: "Cautious Mage", jsx: <><Header full><span>Cautious Mage</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 178</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/class/wizard">wizard</Link> 1<br/>N Medium humanoid (human)<br/><strong>Init</strong> +5; <strong>Senses</strong> Perception +4</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 11, flat-footed 14 (+4 armor, +1 Dex)<br/><strong>hp</strong> 9 (1d6+3)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +1, <strong>Will</strong> +3</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> quarterstaff +0 (1d6)<br/><strong>Special Attacks</strong> hand of the apprentice (6/day)<br/><strong>Wizard Spells Prepared</strong> (CL 1st; concentration +4)<br/><em>1st</em>-<Link to="/spell/burning_hands">burning hands</Link> (DC 14), <Link to="/spell/mage_armor">mage armor</Link><br/><em>0 (at will)</em>-<Link to="/spell/bleed">bleed</Link> (DC 13), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/resistance">resistance</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Before Combat</strong> The wizard casts mage armor.<br/><strong>During Combat</strong> The wizard uses hand of the apprentice to throw her quarterstaff or casts burning hands. She offers to use her scroll of enlarge person on an ally who'll protect her.<br/><strong>Base Statistics</strong> Without mage armor, the wizard's statistics are <strong>AC</strong> 11, touch 11, flat-footed 10.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 13, <strong>Con</strong> 14, <strong>Int</strong> 17, <strong>Wis</strong> 12, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +0; <strong>CMD</strong> 11<br/><strong>Feats</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/scribe_scroll">Scribe Scroll</Link><br/><strong>Skills</strong> Knowledge (arcana, history, planes) +7, Linguistics +7, Perception +4, Sense Motive +3, Spellcraft +7<br/><strong>Languages</strong> Common, Draconic, Dwarven, Elven, Infernal<br/><strong>SQ</strong> arcane bond (raven)<br/><strong>Combat Gear</strong> potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), potion of <Link to="/spell/shield_of_faith">shield of faith</Link>, scrolls of <Link to="/spell/comprehend_languages">comprehend languages</Link> (2), scroll of <Link to="/spell/endure_elements">endure elements</Link>, scroll of <Link to="/spell/enlarge_person">enlarge person</Link>, scroll of <Link to="/spell/grease">grease</Link>, scroll of <Link to="/spell/mount">mount</Link>, scrolls of <Link to="/spell/shield">shield</Link> (2), <Link to="/eq-misc/smokestick">smokesticks</Link> (2); <strong>Other Gear</strong> <Link to="/eq-weapon/quarterstaff">quarterstaff</Link>, <Link to="/eq-misc/antitoxin">antitoxin</Link>, <Link to="/eq-misc/spellbook">spellbook</Link>, <Link to="/eq-misc/sunrod">sunrods</Link> (5), 40 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>These mages are new adventurers looking for protectors.</p>
 <h3 id="npc-cautious_mage-holdreda-danton">Holdreda Danton</h3>
 <p>Holdreda loves magic, but not risking her life. After low-paying jobs for the captain of the guard, she decided to go adventuring, but wants a strong group to keep her safe.</p>
 </>};
 const _city_guard_magnimar = {title: "City Guard (Magnimar)", jsx: <><p><em>Clad in blue-tinted scale mail and carrying a halberd, this guard patrols the city with a keen eye.</em></p>
-<p className="statblockHeaderFull"><span>City Guard (Magnimar)</span><span>CR 1/2</span></p>
+<Header full><span>City Guard (Magnimar)</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/magnimar_city_of_monuments">Magnimar, City of Monuments pg. 54</Link><br/><strong>XP</strong> 200<br/>Male human <Link to="/npcclass/warrior">warrior</Link> 2<br/>N Medium humanoid (human)<br/><strong>Init</strong> +4; <strong>Senses</strong> Perception +3</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 10, flat-footed 15 (+5 armor)<br/><strong>hp</strong> 13 (2d10+2)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +0, <strong>Will</strong> +1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> halberd +4 (1d10+1/&times;3) or sap +3 (1d6+1 nonlethal)<br/><strong>Ranged</strong> light crossbow +2 (1d8/19-20)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 11, <strong>Con</strong> 10, <strong>Int</strong> 8, <strong>Wis</strong> 12, <strong>Cha</strong> 11<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +3; <strong>CMD</strong> 13<br/><strong>Feats</strong> <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link> (halberd)<br/><strong>Skills</strong> Intimidate +5, Perception +3<br/><strong>Languages</strong> Common</p>
-<p className="statblockSubHeader">Ecology</p>
+<Header sub>Ecology</Header>
 <p><strong>Environment</strong> any (Magnimar)<br/><strong>Organization</strong> solitary, pair, patrol (3-5), or squad (6-10)<br/><strong>Treasure</strong> <Link to="/rule/npc_gear">NPC gear</Link> (masterwork <Link to="/eq-armor/scale_mail">scale mail</Link>, <Link to="/eq-weapon/halberd">halberd</Link>, <Link to="/eq-weapon/light_crossbow">light crossbow</Link> with 20 bolts, <Link to="/eq-weapon/sap">sap</Link>, <Link to="/eq-misc/bullseye_lantern">bullseye lantern</Link>, <Link to="/eq-misc/manacles">manacles</Link>, <Link to="/eq-misc/signal_whistle">signal whistle</Link>, other treasure)</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Magnimar has few laws for a city its size, but it still employs a sizable force of guards, centralized within the towering Arvensoar. Guards walk the streets regularly, policing the various quarters and maintaining peace throughout the city, though the wealthier districts see noticeably more protection than areas such as the Shadow. Magnimar's city guards are trained to detain criminals and keep the peace without needless violence, using nonlethal force in all but the most extreme cases.</p>
 </>};
-const _criminal_pickpocket = {title: "Criminal (Pickpocket)", jsx: <><p className="statblockHeaderFull"><span>Criminal (Pickpocket)</span><span>CR 1/2</span></p>
+const _criminal_pickpocket = {title: "Criminal (Pickpocket)", jsx: <><Header full><span>Criminal (Pickpocket)</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 264</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/class/rogue">rogue</Link> 1<br/>N Medium humanoid<br/><strong>Init</strong> +3; <strong>Senses</strong> Perception +3</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 14, touch 12, flat-footed 12 (+1 armor, +3 Dex)<br/><strong>hp</strong> 5 (1d8+1)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +5, <strong>Will</strong> -1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> sap +0 (1d6 nonlethal)<br/><strong>Ranged</strong> dart +3 (1d4)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +1d6</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 17, <strong>Con</strong> 12, <strong>Int</strong> 13, <strong>Wis</strong> 8, <strong>Cha</strong> 14<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +0; <strong>CMD</strong> 13<br/><strong>Feats</strong> <Link to="/feat/deft_hands">Deft Hands</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Sleight of Hand)<br/><strong>Skills</strong> Acrobatics +7, Appraise +5, Bluff +6, Disable Device +9, Disguise +8, Escape Artist +7, Knowledge (local) +5, Perception +3 (+4 to find traps), Sense Motive +3, Sleight of Hand +12, Stealth +7<br/><strong>Languages</strong> Common, Halfling<br/><strong>SQ</strong> <Link to="/ability/trapfinding">trapfinding</Link> +1<br/><strong>Combat Gear</strong> bag of <Link to="/eq-misc/caltrops">caltrops</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/padded_armor">padded armor</Link>, <Link to="/eq-weapon/dart">darts</Link> (4), <Link to="/eq-weapon/sap">sap</Link>, <Link to="/eq-misc/disguise_kit">disguise kit</Link>, <Link to="/eq-misc/thieves_tools">thieves' tools</Link><br/><strong>Boon</strong> A pickpocket can attempt to steal a small item for the PCs or plant a small item on a target.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Pickpockets are the bane of the marketplace-innocuous waifs with innocent smiles and deft hands who can cut a purse in an eyeblink. Pickpockets could also serve as any of the countless street urchins or guttersnipes found on the streets of any large city.</p>
 <p>Adding a dagger or short sword turns a pickpocket into a desperate mugger. Replacing Deft Hands with <Link to="/feat/deceitful">Deceitful</Link> and changing Skill Focus from Sleight of Hand to Bluff can make a con artist pickpocket, while changing Skill Focus to Disable Device makes for a good apprentice lock-picker or trapspringer. Replacing the Appraise skill with Perform creates common acrobats, jugglers, or mummers, perhaps members of a troupe that engages in a little larceny on the side.</p>
 <p>In pairs (CR 1), one pickpocket usually provides a distraction for her partner to take advantage of. In large cities and markets, pickpockets often work in gangs of six (CR 4) or even more. A wanderer might employ a pickpocket assistant (CR 3), while a storyteller or minstrel might employ half a dozen pickpockets to help "work" the crowd (CR 5 or 6). A shady barkeep might keep two pickpockets on staff disguised as serving girls, along with his two regular barmaids, to supplement his tavern's income (CR 5).</p>
 </>};
-const _cutpurse = {title: "Cutpurse", jsx: <><p className="statblockHeaderFull"><span>Cutpurse</span><span>CR 1/2</span></p>
+const _cutpurse = {title: "Cutpurse", jsx: <><Header full><span>Cutpurse</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 144</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/class/rogue">rogue</Link> 1<br/>NE Medium humanoid (human)<br/><strong>Init</strong> +7; <strong>Senses</strong> Perception +3</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 16, touch 13, flat-footed 13 (+3 armor, +3 Dex)<br/><strong>hp</strong> 10 (1d8+2)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +5, <strong>Will</strong> -1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> short sword +3 (1d6+2/19-20)<br/><strong>Ranged</strong> dagger +3 (1d4+2/19-20)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +1d6</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Before Combat</strong> The rogue hides so he can use sneak attack.<br/><strong>During Combat</strong> The rogue continues to engage his initial opponent in melee, or throws acid if all his opponents are at range.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 14, <strong>Dex</strong> 17, <strong>Con</strong> 13, <strong>Int</strong> 10, <strong>Wis</strong> 8, <strong>Cha</strong> 12<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +2; <strong>CMD</strong> 15<br/><strong>Feats</strong> <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/weapon_finesse">Weapon Finesse</Link><br/><strong>Skills</strong> Acrobatics +7, Climb +6, Disable Device +7, Escape Artist +7, Knowledge (local) +4, Perception +3, Sleight of Hand +7, Stealth +7, Swim +6<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> <Link to="/ability/trapfinding">trapfinding</Link> +1<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/eq-weapon/acid">acid</Link> (2), <Link to="/eq-misc/smokestick">smokestick</Link>, <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bag</Link>; <strong>Other Gear</strong> masterwork <Link to="/eq-armor/studded_leather">studded leather</Link>, <Link to="/eq-weapon/dagger">daggers</Link> (5), <Link to="/eq-weapon/short_sword">short sword</Link>, <Link to="/eq-misc/thieves_tools">thieves' tools</Link>, 25 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The cutpurse is a dirty sneak who uses surprise and stealth to rob unsuspecting victims.</p>
 <h3 id="npc-cutpurse-avem-the-blade">Avem the Blade</h3>
 <p>A young tough trying to make a name for himself, Avem prefers robbery and burglary to outright murder - but isn't afraid to kill.</p>
 <p><strong>Combat Encounters:</strong> Avem might target a solitary PC in a dangerous part of town, or may be the leader of a gang of unskilled thugs.</p>
 <p><strong>Roleplaying Suggestions:</strong> Avem is skilled at many kinds of theft, and can be hired to commit petty larceny or create a distraction at reasonable rates.</p>
 </>};
-const _initiate_of_flame = {title: "Initiate of Flame", jsx: <><p className="statblockHeaderFull"><span>Initiate of Flame</span><span>CR 1/2</span></p>
+const _initiate_of_flame = {title: "Initiate of Flame", jsx: <><Header full><span>Initiate of Flame</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 62</Link><br/><strong>XP</strong> 200<br/>Dwarf <Link to="/class/druid">druid</Link> 1<br/>LN Medium humanoid (dwarf)<br/><strong>Init</strong> +0; <strong>Senses</strong> Perception +6</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 14, touch 10, flat-footed 14 (+4 armor)<br/><strong>hp</strong> 15 (1d8+7)<br/><strong>Fort</strong> +5, <strong>Ref</strong> +0, <strong>Will</strong> +4; +2 vs. poison, spells, and spell-like abilities<br/><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants)</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> spear +2 (1d8+3/&times;3)<br/><strong>Ranged</strong> sling +0 (1d4+2)<br/><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and orc humanoids<br/><strong>Spell-Like Abilities</strong> (CL 1st; concentration +3)<br/><em>5/day</em>-fire bolt<br/><strong>Druid Spells Prepared</strong> (CL 1st; concentration +3)<br/><em>1st</em>-<Link to="/spell/burning_hands">burning hands</Link><sup><InnerLink showBacklink="backlink-npc-initiate_of_flame-ref-D-1" id="npc-initiate_of_flame-ref-D-1" data-hash-target to="npc-initiate_of_flame-D">1</InnerLink></sup> (DC 13), <Link to="/spell/endure_elements">endure elements</Link>, <Link to="/spell/faerie_fire">faerie fire</Link><br/><em>0 (at will)</em>-<Link to="/spell/detect_poison">detect poison</Link>, <Link to="/spell/flare">flare</Link> (DC 12), <Link to="/spell/stabilize">stabilize</Link><br/><strong>Domain</strong> Fire</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Before Combat</strong> The druid casts endure elements each day.<br/><strong>During Combat</strong> The druid casts faerie fire, then drops a smokestick at his feet, letting foes come to him, and possibly sets his spear against a charge. He then fights with his spear or casts burning hands.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 15, <strong>Dex</strong> 10, <strong>Con</strong> 16, <strong>Int</strong> 12, <strong>Wis</strong> 15, <strong>Cha</strong> 6<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +2; <strong>CMD</strong> 12 (16 vs. bull rush or trip)<br/><strong>Feats</strong> <Link to="/feat/toughness">Toughness</Link><br/><strong>Skills</strong> Climb +4, Handle Animal +2, Knowledge (geography) +5, Knowledge (nature) +3, Perception +6 (+8 to notice unusual stonework), Survival +8<br/><strong>Languages</strong> Common, Druidic, Dwarven, Giant<br/><strong>SQ</strong> nature bond (Fire domain), nature sense, <Link to="/ability/wild_empathy">wild empathy</Link> -1<br/><strong>Combat Gear</strong> <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link> (2), <Link to="/eq-misc/smokestick">smokesticks</Link> (2); <strong>Other Gear</strong> masterwork <Link to="/eq-armor/hide_armor">hide armor</Link>, <Link to="/eq-weapon/sling">sling</Link> with 20 bullets, <Link to="/eq-weapon/spear">spear</Link>, <Link to="/eq-misc/climbers_kit">climber's kit</Link>, <Link to="/eq-misc/healers_kit">healer's kit</Link>, <Link to="/eq-misc/holly_and_mistletoe">holly and mistletoe</Link>, <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link>, 8 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>These hostile guardians of volcanic mountain regions have tempers to match their fiery environs, and tolerate no intruders.</p>
 <section data-footnotes>
 <h3 id="npc-initiate_of_flame-label">Footnotes</h3>
@@ -251,17 +252,17 @@ const _initiate_of_flame = {title: "Initiate of Flame", jsx: <><p className="sta
 </ol>
 </section>
 </>};
-const _mercenary_healer = {title: "Mercenary Healer", jsx: <><p className="statblockHeaderFull"><span>Mercenary Healer</span><span>CR 1/2</span></p>
+const _mercenary_healer = {title: "Mercenary Healer", jsx: <><Header full><span>Mercenary Healer</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 44</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/class/cleric">cleric</Link> of <Link to="/faith/abadar">Abadar</Link> 1<br/>LE Medium humanoid (human)<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +2</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)<br/><strong>hp</strong> 9 (1d8+1)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +1, <strong>Will</strong> +4</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> morningstar -1 (1d8-1)<br/><strong>Ranged</strong> light crossbow +2 (1d8/19-20)<br/><strong>Special Attacks</strong> channel negative energy 6/day (DC 13, 1d6)<br/><strong>Spell-Like Abilities</strong> (CL 1st; concentration +3)<br/><em>5/day</em>-inspiring word (1 round)<br/><strong>Cleric Spells Prepared</strong> (CL 1st; concentration +3)<br/><em>1st</em>-<strong>cure light wounds</strong>, <Link to="/spell/longstrider">longstrider</Link><sup><InnerLink showBacklink="backlink-npc-mercenary_healer-ref-D-1" id="npc-mercenary_healer-ref-D-1" data-hash-target to="npc-mercenary_healer-D">1</InnerLink></sup>, <Link to="/spell/protection_from_good">protection from good</Link><br/><em>0 (at will)</em>-<Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/mending">mending</Link>, <Link to="/spell/read_magic">read magic</Link><br/><strong>Domains</strong> <Link to="/domain/nobility">Nobility</Link>, <Link to="/domain/travel">Travel</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The cleric uses channeled energy, tanglefoot bags, and longstrider to escape.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 8, <strong>Dex</strong> 12, <strong>Con</strong> 13, <strong>Int</strong> 10, <strong>Wis</strong> 14, <strong>Cha</strong> 17<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> -1; <strong>CMD</strong> 10<br/><strong>Feats</strong> <Link to="/feat/selective_channeling">Selective Channeling</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link> (light crossbow)<br/><strong>Skills</strong> Appraise +4, Diplomacy +7, Knowledge (religion) +4, Spellcraft +4<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> aura, +10 base speed from Travel domain, agile feet (5/day)<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bags</Link> (2); <strong>Other Gear</strong> <Link to="/eq-armor/chainmail">chainmail</Link>, <Link to="/eq-weapon/light_crossbow">light crossbow</Link> with 20 bolts, <Link to="/eq-weapon/morningstar">morningstar</Link>, <Link to="/eq-misc/silver_unholy_symbol">silver unholy symbol</Link>, 22 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Mercenary healers exploit loopholes in laws for their own profit.</p>
 <h3 id="npc-mercenary_healer-zened-mirces">Zened Mirces</h3>
 <p>Zened adventures to gain seed money to start a business.</p>
@@ -276,193 +277,193 @@ const _mercenary_healer = {title: "Mercenary Healer", jsx: <><p className="statb
 </ol>
 </section>
 </>};
-const _mercenary_magician = {title: "Mercenary Magician", jsx: <><p className="statblockHeaderFull"><span>Mercenary Magician</span><span>CR 1/2</span></p>
+const _mercenary_magician = {title: "Mercenary Magician", jsx: <><Header full><span>Mercenary Magician</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 160</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/class/sorcerer">sorcerer</Link> 1<br/>LN Medium humanoid (human)<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +1</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 12, touch 12, flat-footed 10 (+2 Dex)<br/><strong>hp</strong> 8 (1d6+2)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +2, <strong>Will</strong> +3</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> quarterstaff +0 (1d6)<br/><strong>Ranged</strong> dart +2 (1d4)<br/><strong>Sorcerer Spells Known</strong> (CL 1st; concentration +4)<br/><em>1st (4/day)</em>-<Link to="/spell/color_spray">color spray</Link> (DC 14), <Link to="/spell/magic_missile">magic missile</Link><br/><em>0 (at will)</em>-<Link to="/spell/daze">daze</Link> (DC 13), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/ray_of_frost">ray of frost</Link>, <Link to="/spell/read_magic">read magic</Link><br/><strong>Bloodline</strong> <Link to="/sorcbloodline/arcane">arcane</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The sorcerer casts color spray to neutralize groups of foes, followed by magic missile at any foes left standing.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 14, <strong>Con</strong> 13, <strong>Int</strong> 12, <strong>Wis</strong> 8, <strong>Cha</strong> 17<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +0; <strong>CMD</strong> 12<br/><strong>Feats</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/eschew_materials">Eschew Materials</Link>, <Link to="/feat/iron_will">Iron Will</Link><br/><strong>Skills</strong> Bluff +7, Intimidate +7, Knowledge (local) +5, Perception +1, Sense Motive +1, Spellcraft +5<br/><strong>Languages</strong> Common, Draconic<br/><strong>SQ</strong> arcane bond (familiar [rat named Slivikin]), bloodline arcana (+1 DC for metamagic spells that increase spell level)<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, scrolls of <Link to="/spell/disguise_self">disguise self</Link> (2), scrolls of <Link to="/spell/shield">shield</Link> (2), wand of <Link to="/spell/sleep">sleep</Link> (11 charges), <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link> (2); <strong>Other Gear</strong> <Link to="/eq-weapon/dart">darts</Link> (5), <Link to="/eq-weapon/quarterstaff">quarterstaff</Link>, 33 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The mercenary magician serves whoever can pay her, but is not particularly loyal to her employers.</p>
 <h3 id="npc-mercenary_magician-maron-blackthorne">Maron Blackthorne</h3>
 <p>Though she's fond of gambling, Maron doesn't always have the best luck. When the odds turn against her, she leaves town in a hurry to avoid paying her debts, and picks jobs that get her quickly out of range of collectors, even if those jobs are dangerous.</p>
 </>};
-const _novice_scout = {title: "Novice Scout", jsx: <><p className="statblockHeaderFull"><span>Novice Scout</span><span>CR 1/2</span></p>
+const _novice_scout = {title: "Novice Scout", jsx: <><Header full><span>Novice Scout</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 128</Link><br/><strong>XP</strong> 200<br/>Half-elf <Link to="/class/ranger">ranger</Link> 1<br/>LN Medium humanoid (elf, human)<br/><strong>Init</strong> +3; <strong>Senses</strong> low-light vision; Perception +10</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 16, touch 13, flat-footed 13 (+3 armor, +3 Dex)<br/><strong>hp</strong> 12 (1d10+2)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +5, <strong>Will</strong> +1; +2 vs. enchantments<br/><strong>Immune</strong> sleep</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> longsword +3 (1d8+3/19-20) or shortspear +3 (1d6+2)<br/><strong>Ranged</strong> longbow +4 (1d8/&times;3)<br/><strong>Special Attacks</strong> favored enemy (orcs +2)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The ranger ambushes her target from stealth or takes cover in tree branches. If she has allies, she attacks enemies that her allies have injured. She uses a smokestick to signal trouble or cover her retreat.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 14, <strong>Dex</strong> 17, <strong>Con</strong> 12, <strong>Int</strong> 10, <strong>Wis</strong> 13, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +3; <strong>CMD</strong> 16<br/><strong>Feats</strong> <Link to="/feat/point_blank_shot">Point-Blank Shot</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Perception)<br/><strong>Skills</strong> Climb +6, Knowledge (local) +1, Knowledge (nature) +4, Perception +10, Stealth +7, Survival +5<br/><strong>Languages</strong> Common, Elven<br/><strong>SQ</strong> elf blood, track +1, <Link to="/ability/wild_empathy">wild empathy</Link> +0<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>, masterwork <Link to="/eq-weapon/arrow">arrows</Link> (3), <Link to="/eq-misc/smokestick">smokestick</Link>; <strong>Other Gear</strong> masterwork <Link to="/eq-armor/studded_leather">studded leather</Link>, <Link to="/eq-weapon/longbow">longbow</Link> with 20 arrows, <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-weapon/shortspear">shortspear</Link>, 15 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The novice scout is alert and eager to prove her worth.</p>
 <h3 id="npc-novice_scout-atanya">Atanya</h3>
 <p>Atanya is gruff but shrewd, more concerned about doing a good job than getting along with anyone. Secretly she hopes she has what it takes to be a hero and leader.</p>
 <p><strong>Combat Encounters:</strong> Atanya fires an arrow to wound a tough-looking PC, then demands surrender.</p>
 <p><strong>Roleplaying Suggestions:</strong> Atanya calls out a warning that the PCs are surrounded, hoping to bluff her way out of a lethal conflict.</p>
 </>};
-const _old_sailor = {title: "Old Sailor", jsx: <><p className="statblockHeaderFull"><span>Old Sailor</span><span>CR 1/2</span></p>
+const _old_sailor = {title: "Old Sailor", jsx: <><Header full><span>Old Sailor</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 260</Link><br/><strong>XP</strong> 200<br/>Elf <Link to="/npcclass/expert">expert</Link> 2<br/>CN Medium humanoid (elf)<br/><strong>Init</strong> +1; <strong>Senses</strong> low-light vision; Perception +6</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 13, touch 11, flat-footed 12 (+2 armor, +1 Dex)<br/><strong>hp</strong> 11 (2d8+2)<br/><strong>Fort</strong> +0, <strong>Ref</strong> +1, <strong>Will</strong> +3; +2 vs. enchantments<br/><strong>Immune</strong> sleep</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk dagger +3 (1d4+1/19-20) or handaxe +2 (1d6+1/&times;3)<br/><strong>Ranged</strong> mwk dagger +3 (1d4+1/19-20) or shortbow +2 (1d6/&times;3)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The expert keeps his back to the wall, seeks the high ground, and uses Acrobatics to maintain a tactical advantage.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 13, <strong>Con</strong> 11, <strong>Int</strong> 10, <strong>Wis</strong> 10, <strong>Cha</strong> 9<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +2; <strong>CMD</strong> 13<br/><strong>Feats</strong> <Link to="/feat/athletic">Athletic</Link><br/><strong>Skills</strong> Acrobatics +5, Climb +8, Craft (scrimshaw) +4, Knowledge (religion) +4, Perception +6, Perform (string) +3, Profession (sailor) +4, Sleight of Hand +5, Survival +4, Swim +8<br/><strong>Languages</strong> Common, Elven<br/><strong>SQ</strong> elven magic, weapon familiarity</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Quite weathered for an elf, a sailor spends most of his free time playing cards, making music, or whittling away at wood or ivory. Old sailors are superstitious and wary of bad omens before or during a voyage.</p>
 <p>Though an old sailor is able to defend himself if attacked, his work relates to ship maintenance and transporting cargo rather than repelling boarders. For an experienced military sailor, use the <Link to="/npc/veteran_buccaneer">veteran buccaneer</Link> stat block or apply the advanced creature simple template to the old sailor stat block. You can also use this stat block for laborers whose work requires strength and maneuverability, such as lumberjacks.</p>
 </>};
-const _pig_farmer = {title: "Pig Farmer", jsx: <><p className="statblockHeaderFull"><span>Pig Farmer</span><span>CR 1/2</span></p>
+const _pig_farmer = {title: "Pig Farmer", jsx: <><Header full><span>Pig Farmer</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 256</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/npcclass/commoner">commoner</Link> 2<br/>CN Medium humanoid (human)<br/><strong>Init</strong> -1; <strong>Senses</strong> Perception +0</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 9, touch 9, flat-footed 9 (-1 Dex)<br/><strong>hp</strong> 9 (2d6+2)<br/><strong>Fort</strong> +1, <strong>Ref</strong> -1, <strong>Will</strong> +0</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> scythe -2 (2d4+1/&times;4) or club +2 (1d6+1)<br/><strong>Ranged</strong> club +0 (1d6+1)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The commoner threatens aggressors with her scythe, but switches to her club if she actually has to attack.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 9, <strong>Con</strong> 12, <strong>Int</strong> 10, <strong>Wis</strong> 11, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +2; <strong>CMD</strong> 11<br/><strong>Feats</strong> <Link to="/feat/skill_focus">Skill Focus</Link> (Handle Animal, Heal)<br/><strong>Skills</strong> Craft (carpentry) +6, Handle Animal +7, Heal +5, Knowledge (nature) +1, Profession (farmer) +5<br/><strong>Languages</strong> Common<br/><strong>Gear</strong> <Link to="/eq-weapon/club">club</Link>, <Link to="/eq-weapon/scythe">scythe</Link>, <Link to="/eq-misc/artisans_tools">artisan's tools</Link>, <Link to="/eq-misc/pig">pigs</Link> (8), <Link to="/eq-misc/bit_and_bridle">bit and bridle</Link>, <Link to="/eq-misc/light_horse">light horse</Link>, <Link to="/eq-misc/pack_saddle">pack saddle</Link>, 251 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Despite her muddy appearance, a pig farmer has many useful skills.</p>
 </>};
 const _pirate_sailor = {title: "Pirate (Sailor)", jsx: <><p><em>This rugged character is clad in colorful, mismatched clothing, his hair tied back in a bandana.</em></p>
-<p className="statblockHeaderFull"><span>Pirate (Sailor)</span><span>CR 1/2</span></p>
+<Header full><span>Pirate (Sailor)</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/isles_of_the_shackles">Isles of the Shackles pg. 57</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/class/rogue">rogue</Link> 1<br/>CN Medium humanoid (human)<br/><strong>Init</strong> +3; <strong>Senses</strong> Perception +4</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 16, touch 14, flat-footed 12 (+2 armor, +3 Dex, +1 dodge)<br/><strong>hp</strong> 9 (1d8+1)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +5, <strong>Will</strong> +0</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> falchion +2 (2d4+3/18-20) or mwk dagger +3 (1d4+3/19-20)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +1d6</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 15, <strong>Dex</strong> 16, <strong>Con</strong> 13, <strong>Int</strong> 12, <strong>Wis</strong> 10, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +2; <strong>CMD</strong> 16<br/><strong>Feats</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/dodge">Dodge</Link><br/><strong>Skills</strong> Acrobatics +7, Bluff +3, Climb +6, Diplomacy +3, Disable Device +7, Escape Artist +7, Intimidate +3, Knowledge (local) +5, Perception +4, Sense Motive +4, Swim +6<br/><strong>Languages</strong> Common, Polyglot<br/><strong>SQ</strong> <Link to="/ability/trapfinding">trapfinding</Link> +1</p>
-<p className="statblockSubHeader">Ecology</p>
+<Header sub>Ecology</Header>
 <p><strong>Environment</strong> any oceans or coastlines<br/><strong>Organization</strong> solitary, pair, or gang (3-8)<br/><strong>Treasure</strong> <Link to="/rule/npc_gear">NPC gear</Link> (<Link to="/eq-armor/leather_armor">leather armor</Link>, <Link to="/eq-weapon/falchion">falchion</Link>, masterwork <Link to="/eq-weapon/dagger">dagger</Link>, other treasure)</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The average pirate is a free-spirited renegade who would have great difficulty surviving in the cultured depths of polite, civilized society. Rogues and fighters typically make up the majority of a pirate ship's crew of sailors, as they possess both the skill and brawn necessary for day-to-day raids and heists. These colorful, adventurous characters chafe at society's laws and restrictions, and the exciting life of the buccaneer is well suited to pirates' ferocious independence.</p>
 </>};
-const _princess = {title: "Princess", jsx: <><p className="statblockHeaderFull"><span>Princess</span><span>CR 1/2</span></p>
+const _princess = {title: "Princess", jsx: <><Header full><span>Princess</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 250</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/npcclass/aristocrat">aristocrat</Link> 2<br/>N Medium humanoid (human)<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +0</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 12, touch 12, flat-footed 10 (+1 Dex, +1 dodge)<br/><strong>hp</strong> 7 (2d8-2)<br/><strong>Fort</strong> -1, <strong>Ref</strong> +1, <strong>Will</strong> +3</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> unarmed strike +0 (1d3-1) or light mace +0 (1d6-1) or short sword +0 (1d6-1/19-20)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> If forced into a fight, the aristocrat borrows, improvises, or steals a weapon such as a light mace or short sword (as an aristocrat, she is proficient with all simple and martial weapons). If she has no allies and believes her life is in danger, she flees.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 8, <strong>Dex</strong> 13, <strong>Con</strong> 9, <strong>Int</strong> 11, <strong>Wis</strong> 10, <strong>Cha</strong> 14<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +0; <strong>CMD</strong> 12<br/><strong>Feats</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Diplomacy)<br/><strong>Skills</strong> Bluff +6, Diplomacy +10, Knowledge (nobility) +5, Knowledge (religion) +4, Perform (dance) +7, Perform (sing, string) +6, Ride +5, Sense Motive +4<br/><strong>Languages</strong> Common<br/><strong>Gear</strong> <Link to="/eq-misc/nobles_outfit">noble's outfit</Link>, <Link to="/eq-misc/signet_ring">signet ring</Link>, 310 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Well-rounded in her training, the princess is a demure lady of the court who handles herself quite well in a fight. She has a stubborn streak and a taste for adventure, and doesn't like commoners telling her what she can and can't do.</p>
 <p>Most of her remaining wealth is in the form of fine jewelry, such as rings, necklaces, a tiara, or a scepter. These items are quite recognizable as belonging to the royal family and sure to cause suspicion if they are found in the hands of anyone else.</p>
 </>};
-const _sailor_shipmate = {title: "Sailor (Shipmate)", jsx: <><p className="statblockHeaderFull"><span>Sailor (Shipmate)</span><span>CR 1/2</span></p>
+const _sailor_shipmate = {title: "Sailor (Shipmate)", jsx: <><Header full><span>Sailor (Shipmate)</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 294</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/npcclass/expert">expert</Link> 1/<Link to="/npcclass/warrior">warrior</Link> 1<br/>N Medium humanoid<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +4</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 12, flat-footed 13 (+3 armor, +1 Dex, +1 dodge)<br/><strong>hp</strong> 11 (2 HD; 1d8+1d10+2)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +1, <strong>Will</strong> +2</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> scimitar +2 (1d6+1/18-20) or dagger +2 (1d4+1/19-20)<br/><strong>Ranged</strong> composite longbow +2 (1d8+1/&times;3)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 13, <strong>Con</strong> 12, <strong>Int</strong> 8, <strong>Wis</strong> 10, <strong>Cha</strong> 9<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +2; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Profession [sailor])<br/><strong>Skills</strong> Acrobatics +5, Climb +5, Craft (ships) +3, Perception +4, Profession (fisherman) +4, Profession (sailor) +8, Survival +4, Swim +5<br/><strong>Languages</strong> Common<br/><strong>Gear</strong> masterwork <Link to="/eq-armor/studded_leather">studded leather</Link>, <Link to="/eq-weapon/dagger">daggers</Link> (2), <Link to="/eq-weapon/composite_longbow">composite longbow</Link> (+1 Str) with 20 arrows, <Link to="/eq-weapon/scimitar">scimitar</Link><br/><strong>Boon</strong> A shipmate can smuggle a small item onto or off of a ship, or help PCs get on or off of a ship by creating a distraction for any other watchers (-4 on Perception checks to notice the PCs for up to 1 minute).</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Shipmates are ordinary sailors, the rank-and-file deckhands who keep any vessel, great or small, afloat and moving. They are alert for danger and quick on their feet, weathered by wind and wave and sun, but always with an eye for what waits beyond the horizon.</p>
 <p>Shipmates can be used as low-level marines, rivermen, bargefolk, or even swamp rats living in stilt-houses.</p>
 <p>Replacing a shipmate's Dodge feat with <Link to="/feat/athletic">Athletic</Link> reduces his AC and CMD by 1, but increases his Climb and Swim skills by 2 each. Replacing his Profession (fisherman) skill with ranks in Linguistics or a Knowledge skill creates a sailor who has traveled the world and has knowledge of distant lands or languages.</p>
 <p>On board a ship, shipmates might serve as crew for a variety of characters: eight shipmates could work for an evil slaver (CR 6), a seagoing traveling merchant (CR 7), a marauding viking (CR 8), or a pirate captain and her first mate (CR 12).</p>
 <p>Away from seagoing vessels, six shipmates could form a press gang looking for easy prey to add to a pirate ship's crew (CR 4). A single shipmate might be found in the company of a barmaid (CR 1), or with a vagabond or storyteller (CR 2). A pair of shipmates might take up with a drunkard or prostitute while on shore leave (CR 3).</p>
 </>};
-const _savage_mercenary = {title: "Savage Mercenary", jsx: <><p className="statblockHeaderFull"><span>Savage Mercenary</span><span>CR 1/2</span></p>
+const _savage_mercenary = {title: "Savage Mercenary", jsx: <><Header full><span>Savage Mercenary</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 10</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/class/barbarian">barbarian</Link> 1<br/>CN Medium humanoid (human)<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 9, flat-footed 14 (+6 armor, +1 Dex, -2 rage)<br/><strong>hp</strong> 17 (1d12+5)<br/><strong>Fort</strong> +6, <strong>Ref</strong> +1, <strong>Will</strong> +3</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> greatsword +6 (2d6+7/19-20) or heavy flail +6 (1d10+7/19-20)<br/><strong>Special Attacks</strong> rage (6 rounds/day)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The barbarian favors her greatsword and Power Attack when fighting monsters, but uses her flail against weapon-using foes to make disarm and trip combat maneuvers.<br/><strong>Base Statistics</strong> When not raging, the barbarian's statistics are <strong>AC</strong> 17, touch 11, flat-footed 16; <strong>hp</strong> 15; <strong>Fort</strong> +4, <strong>Will</strong> +1; <strong>Melee</strong> greatsword +4 (2d6+4/19-20) or heavy flail +4 (1d10+4/19-20); <strong>Ranged</strong> sling +2 (1d4+3); <strong>Str</strong> 17, <strong>Con</strong> 14; <strong>CMB</strong> +4; <strong>Skills</strong> Climb +3, Swim +3.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 21, <strong>Dex</strong> 13, <strong>Con</strong> 18, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +6; <strong>CMD</strong> 15<br/><strong>Feats</strong> <Link to="/feat/cleave">Cleave</Link>, <Link to="/feat/power_attack">Power Attack</Link><br/><strong>Skills</strong> Climb +5, Knowledge (nature) +4, Perception +5, Survival +5, Swim +5<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> fast movement<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, potion of <Link to="/spell/remove_fear">remove fear</Link>, <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/breastplate">breastplate</Link>, <Link to="/eq-weapon/greatsword">greatsword</Link>, <Link to="/eq-weapon/heavy_flail">heavy flail</Link>, <Link to="/eq-weapon/sling">sling</Link> with 10 bullets, 5 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>This cold, merciless barbarian fights for gold and glory.</p>
 <h3 id="npc-savage_mercenary-arjana">Arjana</h3>
 <p>This mercenary once roamed the wilderness, but now fights to pay for the comforts of civilization.</p>
 <p><strong>Combat Encounters:</strong> Arjana may be in the hire of a merchant lord, local princeling, or cult leader. She offers no quarter and expects none.</p>
 <p><strong>Roleplaying Suggestions:</strong> Arjana is amiable if she feels respected.</p>
 </>};
-const _shaman = {title: "Shaman", jsx: <><p className="statblockHeaderFull"><span>Shaman</span><span>CR 1/2</span></p>
+const _shaman = {title: "Shaman", jsx: <><Header full><span>Shaman</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 244</Link><br/><strong>XP</strong> 200<br/>Half-orc <Link to="/npcclass/adept">adept</Link> 2<br/>NE Medium humanoid (human, orc)<br/><strong>Init</strong> -1; <strong>Senses</strong> darkvision 60 ft.; Perception +2</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 11, touch 9, flat-footed 11 (+2 armor, -1 Dex)<br/><strong>hp</strong> 11 (2d6+4)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +1, <strong>Will</strong> +5<br/><strong>Defensive Abilities</strong> orc ferocity</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> dagger +0 (1d4-1/19-20)<br/><strong>Ranged</strong> dart +0 (1d4-1)<br/><strong>Adept Spells Prepared</strong> (CL 2nd; concentration +4)<br/><em>1st</em>-<Link to="/spell/burning_hands">burning hands</Link> (DC 13), <Link to="/spell/sleep">sleep</Link> (DC 13)<br/><em>0 (at will)</em>-<Link to="/spell/ghost_sound">ghost sound</Link> (DC 12), <Link to="/spell/read_magic">read magic</Link>, <Link to="/spell/touch_of_fatigue">touch of fatigue</Link> (DC 12)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> If fighting foes that lack darkvision, the adept reads his scroll of darkness. He looks for groups to target with burning hands or sleep, resorting to darts or alchemist's fire otherwise.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 9, <strong>Dex</strong> 8, <strong>Con</strong> 12, <strong>Int</strong> 10, <strong>Wis</strong> 15, <strong>Cha</strong> 11<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +0; <strong>CMD</strong> 9<br/><strong>Feats</strong> <Link to="/feat/combat_casting">Combat Casting</Link><br/><strong>Skills</strong> Heal +9, Intimidate +2, Knowledge (religion) +5<br/><strong>Languages</strong> Common, Orc<br/><strong>SQ</strong> orc blood, summon familiar (weasel), weapon familiarity<br/><strong>Combat Gear</strong> scroll of <Link to="/spell/bless">bless</Link>, scrolls of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), scroll of <Link to="/spell/darkness">darkness</Link>, scroll of <Link to="/spell/protection_from_good">protection from good</Link>, <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link> (2); <strong>Other Gear</strong> <Link to="/eq-armor/leather_armor">leather armor</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/dart">darts</Link> (10), <Link to="/eq-misc/healers_kit">healer's kit</Link>, <Link to="/eq-misc/smokestick">smokestick</Link>, <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link>, <Link to="/eq-misc/tindertwig">tindertwig</Link>, unholy symbol (bone-and-tooth necklace worth 5 gp), 2 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>A shaman serves a small tribe as a visionary and source of wisdom - the sole authority on supernatural matters, and the only one who can communicate with the worlds beyond. His familiar may be a representation of his spirit animal or a spy who allows him to learn more about other tribesfolk and appear wiser than he is.</p>
 <p>This stat block can also be used as a lesser adept apprenticed to an initiate (adept 3), doom prophet (adept 4), or guru (adept 6).</p>
 </>};
-const _superstitious_mercenary = {title: "Superstitious Mercenary", jsx: <><p className="statblockHeaderFull"><span>Superstitious Mercenary</span><span>CR 1/2</span></p>
+const _superstitious_mercenary = {title: "Superstitious Mercenary", jsx: <><Header full><span>Superstitious Mercenary</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 80</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/class/fighter">fighter</Link> 1<br/>N Medium humanoid (human)<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +2</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 20, touch 12, flat-footed 18 (+6 armor, +2 Dex, +2 shield)<br/><strong>hp</strong> 14 (1d10+4)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +2, <strong>Will</strong> +3</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> longsword +4 (1d8+3/19-20) or cold iron dagger +4 (1d4+3/19-20)<br/><strong>Ranged</strong> heavy crossbow +3 (1d10/19-20)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The fighter fires his crossbow, then readies his sword and shield. He saves his alchemist's fire for foes he can't harm or can't hit with his sword.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 17, <strong>Dex</strong> 14, <strong>Con</strong> 12, <strong>Int</strong> 8, <strong>Wis</strong> 13, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +4; <strong>CMD</strong> 16<br/><strong>Feats</strong> <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/toughness">Toughness</Link><br/><strong>Skills</strong> Heal +2, Perception +2, Survival +5<br/><strong>Languages</strong> Common<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>, <Link to="/eq-weapon/holy_water">holy water</Link>, <Link to="/eq-misc/oil">oil</Link> (2), <Link to="/eq-misc/healers_kit">healer's kit</Link> (2 uses remaining); <strong>Other Gear</strong> <Link to="/eq-armor/breastplate">breastplate</Link>, <Link to="/eq-armor/heavy_wooden_shield">heavy wooden shield</Link>, <Link to="/eq-material/cold_iron">cold iron</Link> <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link> with 20 bolts, <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-misc/bedroll">bedroll</Link>, <Link to="/eq-misc/tindertwig">tindertwigs</Link> (2), <Link to="/eq-misc/whetstone">whetstone</Link>, <Link to="/eq-misc/wooden_holy_symbol">wooden holy symbol</Link>, 3 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Some mercenaries believe their survival has less to do with skill and more to do with their ability to gain the gods' favor.</p>
 <h3 id="npc-superstitious_mercenary-corwyn-klas">Corwyn Klas</h3>
 <p>When between jobs, Corwyn faithfully maintains his clothes, armor, and weapons, but once hired, he stops keeping up his appearance and grows more disheveled as the days pass.</p>
 <p>Corwyn fears the supernatural, and keeps a holy symbol with him at all times. He blows his wages on worthless talismans sold with promises to work against fiends and spirits.</p>
 </>};
-const _tavern_barmaid = {title: "Tavern (Barmaid)", jsx: <><p className="statblockHeaderFull"><span>Tavern (Barmaid)</span><span>CR 1/2</span></p>
+const _tavern_barmaid = {title: "Tavern (Barmaid)", jsx: <><Header full><span>Tavern (Barmaid)</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 302</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/npcclass/commoner">commoner</Link> 2<br/>N Medium humanoid<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +4</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 11, touch 11, flat-footed 10 (+1 Dex)<br/><strong>hp</strong> 7 (2d6)<br/><strong>Fort</strong> +0, <strong>Ref</strong> +1, <strong>Will</strong> -1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> serving tray +1 (1d4) or frying pan +1 (1d6 plus 1 fire [if hot])<br/><strong>Ranged</strong> drinking glass +2 (1d4 plus dazzled 1 round [drink in eyes])</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 12, <strong>Con</strong> 11, <strong>Int</strong> 10, <strong>Wis</strong> 9, <strong>Cha</strong> 13<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +1; <strong>CMD</strong> 12<br/><strong>Feats</strong> <Link to="/feat/catch_off_guard">Catch Off-Guard</Link>, <Link to="/feat/throw_anything">Throw Anything</Link><br/><strong>Skills</strong> Perception +4, Perform (dance) +3, Profession (barmaid) +4, Profession (cook) +3, Sleight of Hand +2<br/><strong>Languages</strong> Common<br/><strong>Combat Gear</strong> <Link to="/eq-misc/antitoxin">antitoxin</Link> (2); <strong>Other Gear</strong> serving tray or frying pan, drinking glasses (2 to 4)<br/><strong>Boon</strong> A barmaid can get PCs a free round of drinks or whisper the local gossip (granting a +2 bonus on the PCs' next Diplomacy check to gather information in that community).</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Barmaids are serving wenches, dancing girls, and even harried cooks in inns and taverns throughout the cities and towns of the world. Although usually young, some barmaids are older goodwives working in the family business.</p>
 <p>A barmaid might also be used as a farmer's, fisherman's, or shopkeep's wife, or any type of servant, whether in an inn or a noble's manor. Changing a barmaid's Profession skills can create any type of servant needed. Profession (courtesan) creates an inexperienced prostitute, or simply a serving girl who works in a brothel.</p>
 <p>While skilled in improvised weapons, changing a barmaid's feats can create a servant with other useful skills. <Link to="/feat/alertness">Alertness</Link> or <Link to="/feat/skill_focus">Skill Focus</Link> (Perception) makes a barmaid good at overhearing conversations, while a barmaid working in a dangerous dive might carry a concealed dagger and have the <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> and <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feats.</p>
 <p>A typical small tavern may have only a barkeep and a pair of barmaids (CR 4), while a large inn might have half a dozen barmaids serving the barkeep, with a street thug bouncer for protection (CR 6). A barmaid is often found in the company of a pair of farmers or shipmates (CR 2) or a noble scion (CR 3), or two barmaids might serve a pair of drunkards, street thugs, or vagabonds (CR 4).</p>
 </>};
-const _tavern_singer = {title: "Tavern Singer", jsx: <><p className="statblockHeaderFull"><span>Tavern Singer</span><span>CR 1/2</span></p>
+const _tavern_singer = {title: "Tavern Singer", jsx: <><Header full><span>Tavern Singer</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 26</Link><br/><strong>XP</strong> 200<br/>Half-elf <Link to="/class/bard">bard</Link> 1<br/>CN Medium humanoid (elf, human)<br/><strong>Init</strong> +2; <strong>Senses</strong> low-light vision; Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 12, flat-footed 13 (+3 armor, +2 Dex)<br/><strong>hp</strong> 9 (1d8+1)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +4, <strong>Will</strong> +1; +2 vs. enchantments<br/><strong>Immune</strong> sleep</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> rapier +2 (1d6/18-20)<br/><strong>Ranged</strong> shortbow +2 (1d6/&times;3)<br/><strong>Special Attacks</strong> bardic performance 7 rounds/day (<Link to="/performance/countersong">countersong</Link>, <Link to="/performance/distraction">distraction</Link>, <Link to="/performance/fascinate">fascinate</Link>, <Link to="/performance/inspire_courage">inspire courage</Link> +1)<br/><strong>Bard Spells Known</strong> (CL 1st; concentration +4)<br/><em>1st (2/day)</em>-<Link to="/spell/grease">grease</Link>, <Link to="/spell/hideous_laughter">hideous laughter</Link> (DC 14)<br/><em>0 (at will)</em>-<Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/ghost_sound">ghost sound</Link> (DC 13), <Link to="/spell/message">message</Link>, <Link to="/spell/prestidigitation">prestidigitation</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The bard uses grease to escape.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 14, <strong>Con</strong> 12, <strong>Int</strong> 13, <strong>Wis</strong> 8, <strong>Cha</strong> 17<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +0; <strong>CMD</strong> 12<br/><strong>Feats</strong> <Link to="/feat/skill_focus">Skill Focus</Link> (Perform [wind]), <Link to="/feat/weapon_finesse">Weapon Finesse</Link><br/><strong>Skills</strong> Bluff +7, Diplomacy +7, Perception +5, Perform (wind) +12, Sense Motive +3, Sleight of Hand +6, Stealth +5, Use Magic Device +7<br/><strong>Languages</strong> Common, Elven<br/><strong>SQ</strong> bardic knowledge +1, elf blood<br/><strong>Combat Gear</strong> potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>, <Link to="/eq-misc/sunrod">sunrod</Link>, <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bag</Link>, <Link to="/eq-weapon/thunderstone">thunderstone</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/studded_leather">studded leather</Link>, <Link to="/eq-weapon/rapier">rapier</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link> with 20 arrows, <Link to="/eq-misc/masterwork_flute">masterwork flute</Link>, 13 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>These performers entertain to earn drinks and tips.</p>
 <h3 id="npc-tavern_singer-calvos">Calvos</h3>
 <p>He loves life on the road, but Calvos's erratic behavior keeps him out of the best shows.</p>
 </>};
-const _temple_acolyte = {title: "Temple (Acolyte)", jsx: <><p className="statblockHeaderFull"><span>Temple (Acolyte)</span><span>CR 1/2</span></p>
+const _temple_acolyte = {title: "Temple (Acolyte)", jsx: <><Header full><span>Temple (Acolyte)</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 304</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/class/cleric">cleric</Link> 1<br/>LN Medium humanoid<br/><strong>Init</strong> +0; <strong>Senses</strong> Perception +2</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 10, flat-footed 17 (+5 armor, +2 shield)<br/><strong>hp</strong> 5 (1d8+1)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +0, <strong>Will</strong> +4</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> shortspear +1 (1d6+1)<br/><strong>Ranged</strong> shortspear +0 (1d6+1)<br/><strong>Special Attacks</strong> channel positive energy 7/day (DC 12, 1d6)<br/><strong>Spell-Like Abilities</strong> (CL 1st; concentration +3)<br/><em>5/day</em>-rebuke death, touch of law<br/><strong>Cleric Spells Prepared</strong> (CL 1st; concentration +3)<br/><em>1st</em>-<Link to="/spell/bless">bless</Link>, <Link to="/spell/command">command</Link> (DC 13), <Link to="/spell/cure_light_wounds">cure light wounds</Link><sup><InnerLink showBacklink="backlink-npc-temple_acolyte-ref-D-1" id="npc-temple_acolyte-ref-D-1" data-hash-target to="npc-temple_acolyte-D">1</InnerLink></sup><br/><em>0 (at will)</em>-<Link to="/spell/guidance">guidance</Link>, <Link to="/spell/resistance">resistance</Link>, <Link to="/spell/virtue">virtue</Link><br/><strong>Domains</strong> <Link to="/domain/healing">Healing</Link>, <Link to="/domain/law">Law</Link></p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 10, <strong>Con</strong> 13, <strong>Int</strong> 10, <strong>Wis</strong> 15, <strong>Cha</strong> 14<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +1; <strong>CMD</strong> 11<br/><strong>Feats</strong> <Link to="/feat/extra_channel">Extra Channel</Link>, <Link to="/feat/selective_channeling">Selective Channeling</Link><br/><strong>Skills</strong> Diplomacy +6, Heal +8, Knowledge (religion) +4, Sense Motive +6<br/><strong>Languages</strong> Common<br/><strong>Combat Gear</strong> scroll of <Link to="/spell/protection_from_chaos">protection from chaos</Link>, scroll of <Link to="/spell/sanctuary">sanctuary</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/scale_mail">scale mail</Link>, <Link to="/eq-armor/heavy_wooden_shield">heavy wooden shield</Link>, <Link to="/eq-weapon/shortspear">shortspears</Link> (2), <Link to="/eq-misc/healers_kit">healer's kit</Link>, <Link to="/eq-misc/silver_holy_symbol">silver holy symbol</Link><br/><strong>Boon</strong> An acolyte can tend a character's wounds or provide a free wooden holy symbol or sacred tract (granting a +2 circumstance bonus on Knowledge [religion] checks about the acolyte's faith). An acolyte can also make holy water for PCs at a 20% discount.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>An acolyte is a priest in training, often a callow youth fresh from the cloisters, loaded with zeal but not much practiced in proselytism. They are found in temples and monasteries throughout the world, and their enthusiasm and devotion makes them eager to take up arms and armor to defend their faith and flocks.</p>
 <p>Acolytes of different faiths can be easily created by simply changing their domains, spells, armor, or weapons. Evil acolytes might have the Death and Evil domains, for example, and channel negative energy instead. An acolyte of nature could have the Animal and Plant domains, and wear leather armor.</p>
 <p>Acolytes can be temple caretakers or messengers, attendants at small roadside shrines and chapels, or assistants to more experienced priests. A pair of acolytes may accompany a temple guard (CR 3), a pilgrim (CR 4), or a medium (CR 5).</p>
@@ -476,260 +477,260 @@ const _temple_acolyte = {title: "Temple (Acolyte)", jsx: <><p className="statblo
 </section>
 </>};
 const _ulfen_raider = {title: "Ulfen Raider", jsx: <><p><em>This fur-clad and fiercely rugged barbarian stands ready to do battle with a deadly looking battleaxe clenched in one hand.</em></p>
-<p className="statblockHeaderFull"><span>Ulfen Raider</span><span>CR 1/2</span></p>
+<Header full><span>Ulfen Raider</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/lands_of_the_linnorm_kings">Lands of the Linnorm Kings pg. 63</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/class/barbarian">barbarian</Link> 1<br/>CN Medium humanoid (human)<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 9, flat-footed 16 (+6 armor, +1 Dex, -2 rage, +2 shield)<br/><strong>hp</strong> 17 (1d12+5)<br/><strong>Fort</strong> +6, <strong>Ref</strong> +1, <strong>Will</strong> +3</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> battleaxe +6 (1d8+4/&times;3)<br/><strong>Special Attacks</strong> rage (6 rounds/day)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 19, <strong>Dex</strong> 12, <strong>Con</strong> 18, <strong>Int</strong> 10, <strong>Wis</strong> 13, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +5; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link> (battleaxe)<br/><strong>Skills</strong> Intimidate +3, Perception +5, Profession (sailor) +2, Survival +5, Swim +1<br/><strong>Languages</strong> Common, Skald<br/><strong>SQ</strong> fast movement</p>
-<p className="statblockSubHeader">Ecology</p>
+<Header sub>Ecology</Header>
 <p><strong>Environment</strong> any<br/><strong>Organization</strong> solitary, pair, or raiding party (2d6 Ulfen raiders and one longboat captain)<br/><strong>Treasure</strong> <Link to="/rule/npc_gear">NPC gear</Link> (<Link to="/eq-armor/chainmail">chainmail</Link>, <Link to="/eq-armor/heavy_wooden_shield">heavy wooden shield</Link>, <Link to="/eq-weapon/battleaxe">battleaxe</Link>, potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, other treasure)</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Raiders from the Linnorm Kingdoms seek to prove themselves by sailing to distant lands and returning with riches, either obtained by shrewd trading or taken as plunder from a successful raid. All raiders seek to show their courage in battle, fighting fiercely for pillage or honor.</p>
 <p>While raiding, these barbarians employ the element of surprise; in the faint predawn light, they quietly row their longship with muffled oars as they draw near the targeted settlement. Sometimes Ulfen raiders might put in at a nearby, uninhabited harbor so as to approach their quarry on foot from inland, using nearby terrain as cover. However they approach, the raiders aim to catch their prize unawares to prevent their prey from fleeing with valuable plunder. When a group of raiders attacks, the clamorous sound of their Ulfen war songs floats over the din of battle, and the battle plan changes from stealth to intimidation. While Ulfen raiders have a keen sense of tactics, they prefer to fight as bold individuals, rather than in strict formations, in hopes of gaining personal glory. Once battle commences, Ulfen raiders often form a wedge of spears to drive their way through enemy lines. They use shield wall tactics when outnumbered or when they encounter stiff opposition.</p>
 <p>After a successful attack, Ulfen raiders quickly gather loot and valuable captives onto their longships. As well as coins and other riches, the raiders often take bulky luxury goods that are hard to obtain in their homeland, such as well-made furniture or carpets, and even appropriate highpedigree livestock to increase the quality of their own herds. Slaves are often harvested from the ranks of a village's ablebodied youths. While Ulfen raiders seize anything of value that they can bring on board their longships, they are unlikely to wantonly destroy a raided settlement. After all, if the settlement is able to eventually recover from the attack, it can provide more plunder in the next raiding season.</p>
 <p>In large groups, Ulfen raiders can take over a wide area of countryside, and often demand an exorbitant payment from local leaders to move on. Smaller communities frequently pay, rather than attempting the expensive process of raising an army and then fighting an uncertain battle against these bloodthirsty raiders.</p>
 </>};
-const _villager_farmer = {title: "Villager (Farmer)", jsx: <><p className="statblockHeaderFull"><span>Villager (Farmer)</span><span>CR 1/2</span></p>
+const _villager_farmer = {title: "Villager (Farmer)", jsx: <><Header full><span>Villager (Farmer)</span><span>CR 1/2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 309</Link><br/><strong>XP</strong> 200<br/>Human <Link to="/npcclass/commoner">commoner</Link> 1/<Link to="/npcclass/expert">expert</Link> 1<br/>N Medium humanoid<br/><strong>Init</strong> +0; <strong>Senses</strong> Perception +1</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 10, touch 10, flat-footed 10<br/><strong>hp</strong> 10 (2 HD, 1d6+1d8+2)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +0, <strong>Will</strong> +3</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> club +0 (1d6) or sickle +0 (1d6)<br/><strong>Ranged</strong> sling +0 (1d4) or club +0 (1d6)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 11, <strong>Dex</strong> 10, <strong>Con</strong> 12, <strong>Int</strong> 10, <strong>Wis</strong> 13, <strong>Cha</strong> 9<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +0; <strong>CMD</strong> 10<br/><strong>Feats</strong> <Link to="/feat/animal_affinity">Animal Affinity</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Profession [farmer])<br/><strong>Skills</strong> Craft (carpentry) +5, Handle Animal +6, Heal +5, Knowledge (local) +4, Knowledge (nature) +4, Profession (farmer) +9, Ride +7<br/><strong>Languages</strong> Common<br/><strong>Gear</strong> <Link to="/eq-weapon/club">club</Link>, <Link to="/eq-weapon/sickle">sickle</Link>, <Link to="/eq-weapon/sling">sling</Link> with 10 bullets, <Link to="/eq-misc/heavy_horse">heavy horse</Link>, <Link to="/eq-misc/wagon">wagon</Link><br/><strong>Boon</strong> A farmer can provide enough food and drink for the PCs for 1 week free of charge, or offer them a place to sleep for the night in his barn.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Farmers are the backbone of any economy, producing the foodstuffs and livestock for the world. A typical farmer is fair-minded, sensible, and trustworthy, but suspicious of outsiders. A farmer can be a good source of local gossip, and knows the area around his farm like the back of his hand.</p>
 <p>Farmers in particularly dangerous areas might have a shabby suit of leather armor to don in times of trouble (AC 12), and often have an old spear or crossbow somewhere in the house, left over from militia training. A retired veteran farmer, or one who has had to defend his lands too many times from the creatures of the wilds, could have a level of warrior instead of commoner. Such a farmer has the same skills, but his hit points increase to 11, his Fortitude saves to +3, and his Base Attack Bonus to +1. He also normally has a suit of light armor and better weapons he can use to protect his house and family.</p>
 <p>Farmers are usually found in families of two to six (CR 1 to 4). Outside, a farmer might be found working with his three stout farmer sons in the fields (CR 3). In town, a farmer could be haggling with a shopkeep (CR 2), or three farmers may be conversing with a lovely barmaid at the local tavern (CR 3). A dozen farmers outfitted with torches and pitchforks (treat as spears) creates an angry peasant mob (CR 6).</p>
 </>};
-const _bullying_brawler = {title: "Bullying Brawler", jsx: <><p className="statblockHeaderFull"><span>Bullying Brawler</span><span>CR 1</span></p>
+const _bullying_brawler = {title: "Bullying Brawler", jsx: <><Header full><span>Bullying Brawler</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 96</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/class/monk">monk</Link> 2<br/>LE Medium humanoid (human)<br/><strong>Init</strong> +5; <strong>Senses</strong> Perception +7</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 14, touch 14, flat-footed 12 (+1 Dex, +1 dodge, +2 Wis)<br/><strong>hp</strong> 17 (2d8+5)<br/><strong>Fort</strong> +5, <strong>Ref</strong> +4, <strong>Will</strong> +5<br/><strong>Defensive Abilities</strong> <Link to="/ability/evasion">evasion</Link></p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> unarmed strike +5 (1d6+4) or mwk nunchaku +6 (1d6+4) or mwk nunchaku flurry of blows +4/+4 (1d6+4)<br/><strong>Ranged</strong> light crossbow +2 (1d8/19-20)<br/><strong>Special Attacks</strong> flurry of blows, stunning fist (2/day, DC 13)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Before Combat</strong> The monk drinks his potion of bull's strength if facing more than two opponents.<br/><strong>During Combat</strong> The monk uses flurry of blows whenever possible, especially against opponents successfully affected by his stunning fist. If reduced to 5 hit points or fewer, he withdraws to drink one of his potions of cure light wounds before returning to the fray.<br/><strong>Base Statistics</strong> Without bull's strength, the monk's statistics are <strong>Melee</strong> unarmed strike +3 (1d6+2) or mwk nunchaku +4 (1d6+2) or flurry of blows (nunchaku) +2/+2 (1d6+2); <strong>Str</strong> 15; <strong>CMB</strong> +3; <strong>CMD</strong> 17.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 19, <strong>Dex</strong> 12, <strong>Con</strong> 15, <strong>Int</strong> 8, <strong>Wis</strong> 14, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +5; <strong>CMD</strong> 19<br/><strong>Feats</strong> <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>, <Link to="/feat/scorpion_style">Scorpion Style</Link>, <Link to="/feat/stunning_fist">Stunning Fist</Link><br/><strong>Skills</strong> Acrobatics +5, Bluff +1, Intimidate +5, Perception +7, Sense Motive +7, Stealth +5<br/><strong>Languages</strong> Common<br/><strong>Combat Gear</strong> potion of <Link to="/spell/bulls_strength">bull's strength</Link>, potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), <Link to="/eq-weapon/acid">acid</Link> (2); <strong>Other Gear</strong> <Link to="/eq-weapon/light_crossbow">light crossbow</Link> with 20 bolts, masterwork <Link to="/eq-weapon/nunchaku">nunchaku</Link>, 23 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Bullying brawlers are often sent to confront those who cross an order of monks. They are relentless in their pursuit of vengeance.</p>
 </>};
-const _city_watch_guard = {title: "City Watch (Guard)", jsx: <><p className="statblockHeaderFull"><span>City Watch (Guard)</span><span>CR 1</span></p>
+const _city_watch_guard = {title: "City Watch (Guard)", jsx: <><Header full><span>City Watch (Guard)</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 260</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/npcclass/warrior">warrior</Link> 3<br/>LN Medium humanoid<br/><strong>Init</strong> +0; <strong>Senses</strong> Perception +3</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 18, touch 10, flat-footed 18 (+8 armor)<br/><strong>hp</strong> 19 (3d10+3)<br/><strong>Fort</strong> +4, <strong>Ref</strong> +1, <strong>Will</strong> +1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> halberd +5 (1d10+3/&times;3) or heavy flail +5 (1d10+3/19-20) or sap +5 (1d6+2 nonlethal)<br/><strong>Ranged</strong> heavy crossbow +3 (1d10/19-20)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 14, <strong>Dex</strong> 11, <strong>Con</strong> 13, <strong>Int</strong> 9, <strong>Wis</strong> 10, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +5 (+7 sunder); <strong>CMD</strong> 15 (17 vs. sunder)<br/><strong>Feats</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/improved_sunder">Improved Sunder</Link>, <Link to="/feat/power_attack">Power Attack</Link><br/><strong>Skills</strong> Intimidate +5, Perception +3, Ride -3, Sense Motive +2<br/><strong>Languages</strong> Common<br/><strong>Combat Gear</strong> potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2); <strong>Other Gear</strong> <Link to="/eq-armor/half_plate">half-plate</Link>, <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link> with 10 bolts, <Link to="/eq-weapon/halberd">halberd</Link>, <Link to="/eq-weapon/heavy_flail">heavy flail</Link>, <Link to="/eq-weapon/sap">sap</Link>, 5 gp<br/><strong>Boon</strong> A guard can give accurate directions to any non-secret location in the city and can allow a PC to enter or leave through a gate after hours or without paying a gate tax.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Guards of the city watch are vigilant soldiers, dedicated to keeping the peace and maintaining order. They defend the city walls and gates against external threats, but they also stand ready to break up fights and brawls, disarming or sundering weapons drawn in anger, forcing unruly citizens apart, and tending the wounded.</p>
 <p>Different types of guards may be created with lighter armor (breastplates and heavy shields) and one-handed weapons (battle axes or longswords). Replacing guards' halberds with glaives, guisarmes, or ranseurs gives them a reach attack. Outfitting guards with pikes makes a group of pikemen, while giving them tower shields and short swords creates crossbowmen for a siege. Temple guards can replace Improved Sunder with <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (two-bladed sword). Prison guards might replace Improved Sunder with <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> and Power Attack with Exotic Weapon Proficiency (whip). Four guards and a turnkey (CR 6) or a torturer (CR 7) can provide security for a small prison or dungeon.</p>
 <p>Guards may be encountered alone, in pairs (CR 3), in groups of four (CR 5), or as a patrol of six accompanied by a guard officer (CR 7), depending on how dangerous their city or neighborhood is.</p>
 </>};
-const _criminal_street_thug = {title: "Criminal (Street Thug)", jsx: <><p className="statblockHeaderFull"><span>Criminal (Street Thug)</span><span>CR 1</span></p>
+const _criminal_street_thug = {title: "Criminal (Street Thug)", jsx: <><Header full><span>Criminal (Street Thug)</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 265</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/class/fighter">fighter</Link> 1/<Link to="/class/rogue">rogue</Link> 1<br/>NE Medium humanoid<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 12, flat-footed 13 (+3 armor, +2 Dex)<br/><strong>hp</strong> 16 (2 HD; 1d10+1d8+6)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +4, <strong>Will</strong> +0</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> quarterstaff +4 (1d6+3) or quarterstaff +2/+2 (1d6+3/1d6+1) or dagger +4 (1d4+3/19-20) or sap +4 (1d6+3 nonlethal)<br/><strong>Ranged</strong> dagger +3 (1d4+3/19-20)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +1d6</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 16, <strong>Dex</strong> 15, <strong>Con</strong> 13, <strong>Int</strong> 8, <strong>Wis</strong> 10, <strong>Cha</strong> 12<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +4; <strong>CMD</strong> 16<br/><strong>Feats</strong> <Link to="/feat/skill_focus">Skill Focus</Link> (Intimidate), <Link to="/feat/toughness">Toughness</Link>, <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link><br/><strong>Skills</strong> Climb +8, Intimidate +9, Knowledge (local) +4, Perception +5 (+6 to find traps), Stealth +7<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> <Link to="/ability/trapfinding">trapfinding</Link> +1<br/><strong>Gear</strong> masterwork <Link to="/eq-armor/studded_leather">studded leather</Link>, <Link to="/eq-weapon/dagger">daggers</Link> (2), <Link to="/eq-weapon/quarterstaff">quarterstaff</Link>, <Link to="/eq-weapon/sap">sap</Link>, <Link to="/eq-misc/manacles">manacles</Link> (2)<br/><strong>Boon</strong> A street thug could attempt to kidnap or threaten a particular NPC, deliver a message, or create a disturbance with a street brawl whose distraction causes a -2 penalty on opposed Perception checks for 1 minute.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Street thugs are the alleybashers and bullyboys of the streets. They are the crude muscle employed by other criminals to keep rivals at bay and shake down hapless shopkeeps and business owners. Innocent townsfolk live in fear of a street thug slipping out of the shadows to administer a brutal beating.</p>
 <p>In more lawless cities, street thugs can serve as corrupt guardsmen or as a vigilante militia. Street thugs can also be used as bouncers in a tavern or casino. Replacing Two-Weapon Fighting with <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link> makes a street thug a better extortionist. Outside of cities and towns, street thugs can also be used as bandits or brigands, or as low-level guards for a merchant caravan.</p>
 <p>A single street thug can be a prostitute's pimp (CR 3) or the intimidating partner of a pickpocket (CR 2). A pair of street thugs might operate with a slaver (CR 5) or torturer (CR 6), or they might work as bodyguards for a dealer acting as a minor crimelord (CR 5). Six street thugs might form a riot-busting brute squad (CR 6).</p>
 </>};
-const _daring_bravo = {title: "Daring Bravo", jsx: <><p className="statblockHeaderFull"><span>Daring Bravo</span><span>CR 1</span></p>
+const _daring_bravo = {title: "Daring Bravo", jsx: <><Header full><span>Daring Bravo</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 80</Link><br/><strong>XP</strong> 400<br/>Gnome <Link to="/class/fighter">fighter</Link> 2<br/>CN Small humanoid (gnome)<br/><strong>Init</strong> +2; <strong>Senses</strong> low-light vision; Perception +2</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 18, touch 14, flat-footed 15 (+3 armor, +2 Dex, +1 dodge, +1 shield, +1 size)<br/><strong>hp</strong> 21 (2d10+6)<br/><strong>Fort</strong> +5, <strong>Ref</strong> +2, <strong>Will</strong> +0; +2 vs. illusions, +1 vs. fear<br/><strong>Defensive Abilities</strong> bravery +1, defensive training (+4 dodge bonus to AC vs. giants)</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> mwk rapier +6 (1d4+1/18-20) or dagger +5 (1d3+1/18-20)<br/><strong>Ranged</strong> composite longbow +5 (1d6+1/&times;3)<br/><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and reptilian humanoids</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The fighter shifts to maintain an advantageous position. If facing a similarly mobile foe, she resorts to her tanglefoot bag.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 15, <strong>Con</strong> 14, <strong>Int</strong> 13, <strong>Wis</strong> 10, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +2; <strong>CMD</strong> 15<br/><strong>Feats</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/weapon_finesse">Weapon Finesse</Link><br/><strong>Skills</strong> Acrobatics +3 (-1 when jumping), Intimidate +4, Knowledge (nobility) +2, Perception +2, Stealth +7<br/><strong>Languages</strong> Common, Gnome, Halfling, Sylvan<br/><strong>Combat Gear</strong> <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bag</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/studded_leather">studded leather</Link>, masterwork <Link to="/eq-armor/buckler">buckler</Link>, <Link to="/eq-weapon/composite_longbow">composite longbow</Link> with 20 arrows, <Link to="/eq-weapon/dagger">dagger</Link>, masterwork <Link to="/eq-weapon/rapier">rapier</Link>, <Link to="/eq-misc/wineskin">wineskin</Link>, 16 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>These small, quick warriors are also clever and brave. They know when to strike fast and hard - and when to run.</p>
 <h3 id="npc-daring_bravo-tala-hankelthorn">Tala Hankelthorn</h3>
 <p>Tala considers her size more an asset than a liability. She knows most enemies underestimate her skills, and takes full advantage.</p>
 </>};
-const _dwarven_rager = {title: "Dwarven Rager", jsx: <><p className="statblockHeaderFull"><span>Dwarven Rager</span><span>CR 1</span></p>
+const _dwarven_rager = {title: "Dwarven Rager", jsx: <><Header full><span>Dwarven Rager</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 10</Link><br/><strong>XP</strong> 400<br/>Dwarf <Link to="/class/barbarian">barbarian</Link> 2<br/>CN Medium humanoid (dwarf)<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +7</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 18, touch 10, flat-footed 16 (+6 armor, +2 Dex, -2 rage, +2 shield)<br/><strong>hp</strong> 28 (2d12+10)<br/><strong>Fort</strong> +7, <strong>Ref</strong> +2, <strong>Will</strong> +4; +2 vs. poison, spells, and spell-like abilities<br/><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants), <Link to="/ability/uncanny_dodge">uncanny dodge</Link></p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk dwarven waraxe +7 (1d10+4/&times;3) or mwk dwarven waraxe +5 (1d10+4/&times;3), armor spikes +4 (1d6+2) or spiked heavy steel shield +4 (1d8+4)<br/><strong>Ranged</strong> throwing axe +4 (1d6+4)<br/><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and orc humanoids, rage (8 rounds/day), rage powers (knockback)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The barbarian uses his shield primarily for defense.<br/><strong>Base Statistics</strong> When not raging, the barbarian's statistics are <strong>AC</strong> 20, touch 12, flat-footed 18; <strong>hp</strong> 24; <strong>Fort</strong> +5, <strong>Will</strong> +2; <strong>Melee</strong> mwk dwarven waraxe +5 (1d10+2/&times;3) or mwk dwarven waraxe +3 (1d10+2/&times;3), armor spikes +2 (1d6+1) or spiked heavy shield +2 (1d8+2); <strong>Ranged</strong> throwing axe +4 (1d6+2); <strong>Str</strong> 14, <strong>Con</strong> 15; <strong>CMB</strong> +4; <strong>Skills</strong> Climb +1.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 18, <strong>Dex</strong> 15, <strong>Con</strong> 19, <strong>Int</strong> 10, <strong>Wis</strong> 14, <strong>Cha</strong> 6<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +6; <strong>CMD</strong> 16 (20 vs. bull rush or trip)<br/><strong>Feats</strong> <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link><br/><strong>Skills</strong> Climb +3, Knowledge (dungeoneering, engineering) +2, Perception +7 (+9 to notice unusual stonework), Survival +6<br/><strong>Languages</strong> Common, Dwarven<br/><strong>SQ</strong> fast movement<br/><strong>Combat Gear</strong> <Link to="/eq-weapon/acid">acid</Link>; <strong>Other Gear</strong> masterwork <Link to="/eq-armor/breastplate">breastplate</Link> with <Link to="/eq-armorenh/armor_spikes">armor spikes</Link>, spiked <Link to="/eq-armor/heavy_steel_shield">heavy steel shield</Link>, masterwork <Link to="/eq-weapon/dwarven_waraxe">dwarven waraxe</Link>, <Link to="/eq-weapon/throwing_axe">throwing axe</Link>, 2 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The most adventurous, thrill-seeking, and foolhardy dwarves can go a little mad, roaming the land in their search for blood and battle.</p>
 </>};
-const _entertainer_storyteller = {title: "Entertainer (Storyteller)", jsx: <><p className="statblockHeaderFull"><span>Entertainer (Storyteller)</span><span>CR 1</span></p>
+const _entertainer_storyteller = {title: "Entertainer (Storyteller)", jsx: <><Header full><span>Entertainer (Storyteller)</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 272</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/class/bard">bard</Link> 2<br/>N Medium humanoid<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +4</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 13, flat-footed 14 (+3 armor, +2 Dex, +1 dodge, +1 shield)<br/><strong>hp</strong> 11 (2d8+2)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +5, <strong>Will</strong> +2; +4 vs. bardic performance, language-dependent, and sonic</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> rapier +1 (1d6/18-20) or whip +1 (1d3)<br/><strong>Ranged</strong> shortbow +3 (1d6/&times;3)<br/><strong>Space</strong> 5 ft., <strong>Reach</strong> 5 ft. (15 ft. with whip)<br/><strong>Special Attacks</strong> bardic performance 9 rounds/day (<Link to="/performance/countersong">countersong</Link>, <Link to="/performance/distraction">distraction</Link>, <Link to="/performance/fascinate">fascinate</Link> [DC 14], <Link to="/performance/inspire_courage">inspire courage</Link> +1)<br/><strong>Bard Spells Known</strong> (CL 2nd; concentration +5)<br/><em>1st (3/day)</em>-<Link to="/spell/comprehend_languages">comprehend languages</Link>, <Link to="/spell/hideous_laughter">hideous laughter</Link> (DC 14), <Link to="/spell/ventriloquism">ventriloquism</Link><br/><em>0 (at will)</em>-<Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/daze">daze</Link> (DC 13), <Link to="/spell/ghost_sound">ghost sound</Link> (DC 13), <Link to="/spell/message">message</Link>, <Link to="/spell/prestidigitation">prestidigitation</Link></p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 14, <strong>Con</strong> 12, <strong>Int</strong> 13, <strong>Wis</strong> 8, <strong>Cha</strong> 17<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +1; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Perform [Oratory])<br/><strong>Skills</strong> Bluff +8, Diplomacy +11, Disguise +10, Intimidate +8, Knowledge (local) +7, Perception +4, Perform (act) +8, Perform (oratory) +11, Sense Motive +11, Sleight of Hand +7, Stealth +6<br/><strong>Languages</strong> Common, Elven<br/><strong>SQ</strong> bardic knowledge +1, versatile performance (oratory)<br/><strong>Gear</strong> masterwork <Link to="/eq-armor/studded_leather">studded leather</Link>, <Link to="/eq-armor/buckler">buckler</Link>, <Link to="/eq-weapon/rapier">rapier</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link> with 20 arrows, <Link to="/eq-weapon/whip">whip</Link>, <Link to="/eq-misc/disguise_kit">disguise kit</Link>, <Link to="/eq-misc/light_horse_combat_trained">light horse (combat trained)</Link> with <Link to="/eq-misc/riding_saddle">riding saddle</Link><br/><strong>Boon</strong> A storyteller can pass along a small bit of lore or gossip that grants a +2 circumstance bonus on a PC's next Knowledge (history or local) check.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>A storyteller is a traveling raconteur, a collector and performer of tall tales, epic poems, and ancient history. They move from town to town reciting their repertoire and picking up new bits of lore and gossip to pass on at the next town. Taverns and inns frequently contain a storyteller entertaining patrons, but storytellers can also be found performing on the street or in market squares. A storyteller could be used as a town crier or herald, or as a revolutionary or rabble-rouser working to stir up public opinion.</p>
 <p>A storyteller can be found working for a barkeep (CR 4) or traveling with an out-of-work caravan guard (CR 3).</p>
 </>};
-const _fighting_school_initiate = {title: "Fighting School (Initiate)", jsx: <><p className="statblockHeaderFull"><span>Fighting School (Initiate)</span><span>CR 1</span></p>
+const _fighting_school_initiate = {title: "Fighting School (Initiate)", jsx: <><Header full><span>Fighting School (Initiate)</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 274</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/class/monk">monk</Link> 2<br/>LN Medium humanoid<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +7</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 15, flat-footed 12 (+2 Dex, +1 dodge, +2 Wis)<br/><strong>hp</strong> 13 (2d8+4)<br/><strong>Fort</strong> +4, <strong>Ref</strong> +5, <strong>Will</strong> +5<br/><strong>Defensive Abilities</strong> <Link to="/ability/evasion">evasion</Link></p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> unarmed strike +3 (1d6+2) or unarmed strike flurry of blows +2/+2 (1d6+2) or mwk shortspear +4 (1d6+2)<br/><strong>Ranged</strong> mwk light crossbow +4 (1d8/19-20) or mwk shortspear +4 (1d6+2)<br/><strong>Special Attacks</strong> flurry of blows, stunning fist (2/day, DC 13)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 15, <strong>Dex</strong> 14, <strong>Con</strong> 12, <strong>Int</strong> 10, <strong>Wis</strong> 15, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +3; <strong>CMD</strong> 18<br/><strong>Feats</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/deflect_arrows">Deflect Arrows</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>, <Link to="/feat/stand_still">Stand Still</Link>, <Link to="/feat/stunning_fist">Stunning Fist</Link><br/><strong>Skills</strong> Acrobatics +7, Climb +6, Escape Artist +7, Perception +7, Sense Motive +7, Stealth +6<br/><strong>Languages</strong> Common<br/><strong>Combat Gear</strong> oil of <Link to="/spell/magic_fang">magic fang</Link> +1, potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link> (2); <strong>Other Gear</strong> masterwork <Link to="/eq-weapon/light_crossbow">light crossbow</Link> with 10 bolts, masterwork <Link to="/eq-weapon/shortspear">shortspear</Link>, 3 gp<br/><strong>Boon</strong> Initiates can assist the PCs in a single fight or offer the PCs free temporary lodging at their academy.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Initiates are the novice members of martial arts academies or monasteries, learning hand-to-hand fighting, agility, meditation, and humility at the hands of their masters. They may spend their entire lives in the monastery, honing their minds and bodies to perfection.</p>
 <p>Initiates can serve as bodyguards in areas where weapons are forbidden or as unconventional foot soldiers and skirmishers. They could also be used as unarmed brawlers, boxers, gladiators, or pit fighters.</p>
 <p>Exchanging an initiate's monk bonus feats creates NPCs with different combat abilities, such as <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> and <Link to="/feat/throw_anything">Throw Anything</Link> for an improvised weapon master, <Link to="/feat/improved_grapple">Improved Grapple</Link> for a wrestler, or <Link to="/feat/scorpion_style">Scorpion Style</Link> for different unarmed combat flavor.</p>
 <p>An initiate may be found escorting a pair of acolytes (CR 3), or four initiates could be responsible for protecting a group of six pilgrims on a pilgrimage to a distant temple (CR 9). A group of six initiates might be encountered traveling between two monasteries (CR 6), or five initiates could form a training class under the tutelage of a battle monk (CR 7).</p>
 </>};
-const _first_guard_of_absalom = {title: "First Guard of Absalom", jsx: <><p className="statblockHeaderFull"><span>First Guard of Absalom</span><span>CR 1</span></p>
+const _first_guard_of_absalom = {title: "First Guard of Absalom", jsx: <><Header full><span>First Guard of Absalom</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_npc_codex">Inner Sea NPC Codex pg. 22</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/class/fighter">fighter</Link> 2<br/>LN Medium humanoid (human)<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +1</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)<br/><strong>hp</strong> 21 (2d10+6)<br/><strong>Fort</strong> +5, <strong>Ref</strong> +1, <strong>Will</strong> +3 (+1 vs. fear)<br/><strong>Defensive Abilities</strong> bravery +1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> mwk guisarme +5 (2d4+3/&times;3) or short sword +4 (1d6+3/19-20)<br/><strong>Ranged</strong> heavy crossbow +3 (1d10/19-20)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 15, <strong>Dex</strong> 12, <strong>Con</strong> 14, <strong>Int</strong> 13, <strong>Wis</strong> 12, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +4 (+6 trip); <strong>CMD</strong> 15 (17 vs. trip)<br/><strong>Feats</strong> <Link to="/feat/combat_expertise">Combat Expertise</Link>, <Link to="/feat/improved_trip">Improved Trip</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/power_attack">Power Attack</Link><br/><strong>Skills</strong> Climb +3, Intimidate +4, Knowledge (engineering) +6, Profession (soldier) +6<br/><strong>Languages</strong> Common, any one human language<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/eq-weapon/thunderstone">thunderstone</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/breastplate">breastplate</Link>, <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link> with 10 bolts, mwk <Link to="/eq-weapon/guisarme">guisarme</Link>, <Link to="/eq-weapon/short_sword">short sword</Link>, <Link to="/eq-misc/everburning_torch">everburning torch</Link>, 20 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The First Guard of Absalom is an elite military force tasked with protecting the city of Absalom in case of siege. Founded in 23 AR by the god Aroden, who commanded soldiers to defend the city walls against the First Siege of Absalom, the First Guard has stood vigil over the city ever since, and its members play a large role in the City at the Center of the World's impenetrable defenses. Thanks to the efforts of the First Guard, the city has never, in the course of its nearly 5 millennia of existence, fallen to either outside invaders or plots from within its walls.</p>
 <p>The First Guard today consists not only of elite soldiers, but also of skilled wizards and scouts who dedicate themselves to uncovering any threats to the safety of the city and to dealing with any dangers as they arise. While each member of the First Guard brings her own talents and training to her post, all soldiers are drilled in melee combat (usually with both a polearm and a sword), military tactics, the laws of Absalom, and the use of siege engines in the event the city's walls should need to be defended at a moment's notice.</p>
 <p>Members of the First Guard serve in a much more militaristic role than their counterparts on the city watch, with whom they share their headquarters in Azlanti Keep. Unlike the city watch, whose duties consist of keeping the peace and policing the city's laws, the First Guard is ever vigilant for threats to the city from both beyond and within its walls. The First Guard wards Azlanti Keep and makes up the core of the Absalom military, commanding other troops - both enlisted and conscripted - in times of war.</p>
 <p>The First Guard is unique in that each soldier within the unit swears an oath to defend the city of Absalom, but not specifically to defend the Grand Council. In the millennia since the First Guard's founding, such a stipulation has saved the city on numerous occasions when the guards' investigations into members of the council uncovered treasonous plots. Bringing these conspiracies to justice has always been a relatively simple matter because no First Guard soldier ever questions where her true loyalties lie.</p>
 </>};
-const _gem_sorcerer = {title: "Gem Sorcerer", jsx: <><p className="statblockHeaderFull"><span>Gem Sorcerer</span><span>CR 1</span></p>
+const _gem_sorcerer = {title: "Gem Sorcerer", jsx: <><Header full><span>Gem Sorcerer</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 160</Link><br/><strong>XP</strong> 400<br/>Dwarf <Link to="/class/sorcerer">sorcerer</Link> 2<br/>LE Medium humanoid (dwarf)<br/><strong>Init</strong> +0; <strong>Senses</strong> darkvision 60 ft.; Perception +2</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 12, touch 10, flat-footed 12 (+2 armor)<br/><strong>hp</strong> 18 (2d6+9)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +0, <strong>Will</strong> +3; +2 vs. poison, spells, and spell-like abilities<br/><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants)</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> spiked gauntlet +3 (1d4+2) or heavy mace +3 (1d8+2)<br/><strong>Ranged</strong> mwk heavy crossbow +2 (1d10/19-20)<br/><strong>Special Attacks</strong> +1 on attack rolls vs. goblinoid and orc humanoids<br/><strong>Spell-Like Abilities</strong> (CL 2nd; concentration +3)<br/><em>4/day</em>-elemental ray (1d6+1 fire)<br/><strong>Sorcerer Spells Known</strong> (CL 2nd; concentration +3; arcane spell failure 10%)<br/><em>1st (5/day)</em>-<Link to="/spell/burning_hands">burning hands</Link> (DC 12), <Link to="/spell/shocking_grasp">shocking grasp</Link> (fire)<br/><em>0 (at will)</em>-<Link to="/spell/acid_splash">acid splash</Link> (fire), <Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/mending">mending</Link>, <Link to="/spell/read_magic">read magic</Link>, <Link to="/spell/touch_of_fatigue">touch of fatigue</Link> (DC 11)<br/><strong>Bloodline</strong> <Link to="/sorcbloodline/elemental">elemental</Link> (fire)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The sorcerer uses burning hands and shocking grasp to scorch his foes.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 14, <strong>Dex</strong> 10, <strong>Con</strong> 15, <strong>Int</strong> 12, <strong>Wis</strong> 10, <strong>Cha</strong> 13<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +3; <strong>CMD</strong> 13 (17 vs. bull rush or trip)<br/><strong>Feats</strong> <Link to="/feat/eschew_materials">Eschew Materials</Link>, <Link to="/feat/toughness">Toughness</Link><br/><strong>Skills</strong> Appraise +5 (+7 to assess metals or gemstones), Craft (jewelry) +5, Perception +2 (+4 to notice unusual stonework), Spellcraft +5, Use Magic Device +5<br/><strong>Languages</strong> Common, Dwarven, Giant<br/><strong>SQ</strong> bloodline arcana (change energy damage spells to fire)<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, scroll of <Link to="/spell/flaming_sphere">flaming sphere</Link>, <Link to="/eq-weapon/acid">acid</Link> (2), <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link> (3); <strong>Other Gear</strong> <Link to="/eq-armor/leather_armor">leather armor</Link>, <Link to="/eq-weapon/heavy_mace">heavy mace</Link>, masterwork <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link> with 20 bolts, <Link to="/eq-weapon/spiked_gauntlet">spiked gauntlet</Link>, uncut gems (worth 100 gp), 23 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The gem sorcerer is unusual among dwarves, using arcane magic to satisfy his insatiable greed for gems.</p>
 </>};
-const _guard = {title: "Guard", jsx: <><p className="statblockHeaderFull"><span>Guard</span><span>CR 1</span></p>
+const _guard = {title: "Guard", jsx: <><Header full><span>Guard</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 267</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/npcclass/warrior">warrior</Link> 3<br/>LN Medium humanoid (human)<br/><strong>Init</strong> -1; <strong>Senses</strong> Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 13, touch 9, flat-footed 13 (+4 armor, -1 Dex)<br/><strong>hp</strong> 22 (3d10+6)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +0, <strong>Will</strong> +2</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk guisarme +7 (2d4+3/&times;3) or mwk longsword +6 (1d8+2/19-20)<br/><strong>Ranged</strong> javelin +2 (1d6+2)<br/><strong>Space</strong> 5 ft., <strong>Reach</strong> 5 ft. (10 ft. with guisarme)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The warrior uses his reach to trip foes as they close, and switches to his sword if necessary.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 15, <strong>Dex</strong> 9, <strong>Con</strong> 10, <strong>Int</strong> 8, <strong>Wis</strong> 12, <strong>Cha</strong> 11<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +5; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/toughness">Toughness</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link> (guisarme)<br/><strong>Skills</strong> Intimidate +6, Perception +5, Sense Motive +4<br/><strong>Languages</strong> Common<br/><strong>Gear</strong> <Link to="/eq-armor/chain_shirt">chain shirt</Link>, <Link to="/eq-weapon/javelin">javelins</Link> (3), masterwork <Link to="/eq-weapon/guisarme">guisarme</Link>, masterwork <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-misc/manacles">manacles</Link>, 36 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>A guard's job is to protect others and respond to trouble. Whether sentries in a fort, members of a city or town watch, caravan guards, or bodyguards for a nervous merchant, guards are trained to look for intruders or suspicious activity and respond with steel if violence is necessary. Most operate in pairs or larger groups, allowing one to run for help if the group is outmatched.</p>
 <p>The above stat block represents a professional guard or soldier who has seen many battles (unlike guards, soldiers do not generally carry manacles). Their armor and weapons may belong to their employer (or the army), but career guards buy high-quality armor and weapons of their own, making sure to retain enough mobility to chase down attackers. To create a lower-ranking officer, apply the advanced creature simple template to this stat block.</p>
 </>};
-const _honorable_outcast = {title: "Honorable Outcast", jsx: <><p className="statblockHeaderFull"><span>Honorable Outcast</span><span>CR 1</span></p>
+const _honorable_outcast = {title: "Honorable Outcast", jsx: <><Header full><span>Honorable Outcast</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 112</Link><br/><strong>XP</strong> 400<br/>Half-orc <Link to="/class/paladin">paladin</Link> of <Link to="/faith/torag">Torag</Link> 2<br/>LG Medium humanoid (human, orc)<br/><strong>Init</strong> -1; <strong>Senses</strong> darkvision 60 ft.; Perception +2</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 16, touch 9, flat-footed 16 (+7 armor, -1 Dex)<br/><strong>hp</strong> 23 (2d10+8)<br/><strong>Fort</strong> +7, <strong>Ref</strong> 0, <strong>Will</strong> +5<br/><strong>Defensive Abilities</strong> orc ferocity</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> mwk greataxe +5 (1d12+3/&times;3)<br/><strong>Ranged</strong> shortbow +1 (1d6/&times;3)<br/><strong>Special Attacks</strong> smite evil 1/day (+1 attack and AC, +2 damage)<br/><strong>Spell-Like Abilities</strong> (CL 2nd; concentration +3)<br/><em>At will</em>-<Link to="/spell/detect_evil">detect evil</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The paladin prefers to attack with her bow before entering melee with her greataxe. She uses Power Attack unless she fights heavily armored enemies.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 15, <strong>Dex</strong> 8, <strong>Con</strong> 16, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 13<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +4; <strong>CMD</strong> 13<br/><strong>Feats</strong> <Link to="/feat/power_attack">Power Attack</Link><br/><strong>Skills</strong> Heal +5, Intimidate +3, Perception +2, Sense Motive +6<br/><strong>Languages</strong> Common, Orc<br/><strong>SQ</strong> aura, code of conduct, <Link to="/ability/lay_on_hands">lay on hands</Link> (1d6, 2/day), orc blood, weapon familiarity<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bags</Link> (2); <strong>Other Gear</strong> <Link to="/eq-armor/banded_mail">banded mail</Link>, masterwork <Link to="/eq-weapon/greataxe">greataxe</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link> with 20 arrows, <Link to="/eq-misc/wooden_holy_symbol">wooden holy symbol</Link>, 28 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Honorable outcasts are far from their homes and often found alone. Some have been questing in the wild for so long that they have lost any semblance of social graces and tact.</p>
 </>};
-const _initiate = {title: "Initiate", jsx: <><p className="statblockHeaderFull"><span>Initiate</span><span>CR 1</span></p>
+const _initiate = {title: "Initiate", jsx: <><Header full><span>Initiate</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 245</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/npcclass/adept">adept</Link> 3<br/>CE Medium humanoid (human)<br/><strong>Init</strong> +0; <strong>Senses</strong> Perception +1</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 12, touch 10, flat-footed 12 (+2 armor); +2 vs. good<br/><strong>hp</strong> 16 (3d6+6)<br/><strong>Fort</strong> +4, <strong>Ref</strong> +1, <strong>Will</strong> +4; +2 vs. good</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> spear +1 (1d8/&times;3) or mwk cold iron dagger +2 (1d4/19-20)<br/><strong>Ranged</strong> dart +1 (1d4)<br/><strong>Adept Spells Prepared</strong> (CL 3rd; concentration +4)<br/><em>1st</em>-burning hands (DC 12), <Link to="/spell/detect_good">detect good</Link>, <Link to="/spell/protection_from_good">protection from good</Link><br/><em>0 (at will)</em>-<Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/light">light</Link>, <Link to="/spell/read_magic">read magic</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Before Combat</strong> The adept casts protection from good.<br/><strong>During Combat</strong> The adept casts burning hands whenever she can catch two or more foes in the area. When she runs out of spells, scrolls, and acid, she fights with her spear.<br/><strong>Base Statistics</strong> Without protection from good, the adept's statistics are <strong>AC</strong> no bonus vs. good; <strong>Saves</strong> no bonus vs. good.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 11, <strong>Con</strong> 12, <strong>Int</strong> 8, <strong>Wis</strong> 13, <strong>Cha</strong> 11<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +1; <strong>CMD</strong> 11<br/><strong>Feats</strong> <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/scribe_scroll">Scribe Scroll</Link><br/><strong>Skills</strong> Knowledge (arcana, local, planes) +3, Knowledge (religion) +5, Spellcraft +5<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> summon familiar (toad)<br/><strong>Combat Gear</strong> scrolls of <Link to="/spell/burning_hands">burning hands</Link> (2, CL 3rd), scrolls of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), scroll of <Link to="/spell/obscuring_mist">obscuring mist</Link> (CL 3rd), scroll of <Link to="/spell/sleep">sleep</Link> (CL 3rd), <Link to="/eq-weapon/acid">acid</Link> (2); <strong>Other Gear</strong> <Link to="/eq-armor/leather_armor">leather armor</Link>, <Link to="/eq-weapon/dart">darts</Link> (6), masterwork <Link to="/eq-material/cold_iron">cold iron</Link> <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/spear">spear</Link>, <Link to="/eq-misc/belt_pouch">belt pouch</Link>, masterwork <Link to="/eq-misc/manacles_mwk">manacles</Link>, <Link to="/eq-misc/scroll_case">scroll case</Link>, <Link to="/eq-misc/silver_holy_symbol">silver holy symbol</Link> (cracked moon), <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link>, 9 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The initiate never knew her true calling until strange visions opened her eyes to the terrors beyond reality. Now touched by madness, she tries to bring others into the darkness.</p>
 </>};
-const _mercenary_caravan_guard = {title: "Mercenary (Caravan Guard)", jsx: <><p className="statblockHeaderFull"><span>Mercenary (Caravan Guard)</span><span>CR 1</span></p>
+const _mercenary_caravan_guard = {title: "Mercenary (Caravan Guard)", jsx: <><Header full><span>Mercenary (Caravan Guard)</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 282</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/class/fighter">fighter</Link> 2<br/>N Medium humanoid<br/><strong>Init</strong> +5; <strong>Senses</strong> Perception +4</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 19, touch 11, flat-footed 18 (+7 armor, +1 Dex, +1 shield)<br/><strong>hp</strong> 16 (2d10+5)<br/><strong>Fort</strong> +5, <strong>Ref</strong> +1, <strong>Will</strong> +1; +1 vs. fear<br/><strong>Defensive Abilities</strong> bravery +1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> lance +5 (1d8+3/&times;3) or longsword +5 (1d8+3/19-20) or kukri +5 (1d4+3/18-20)<br/><strong>Ranged</strong> heavy crossbow +3 (1d10/19-20)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 17, <strong>Dex</strong> 13, <strong>Con</strong> 14, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +5; <strong>CMD</strong> 16<br/><strong>Feats</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/animal_affinity">Animal Affinity</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/rapid_reload">Rapid Reload</Link><br/><strong>Skills</strong> Handle Animal +5, Intimidate +3, Perception +4, Profession (driver) +5, Ride +1, Sense Motive +3, Survival +5<br/><strong>Languages</strong> Common<br/><strong>Gear</strong> <Link to="/eq-armor/banded_mail">banded mail</Link>, <Link to="/eq-armor/buckler">buckler</Link>, <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link> with 10 bolts, <Link to="/eq-weapon/kukri">kukri</Link>, <Link to="/eq-weapon/lance">lance</Link>, <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-misc/light_horse_combat_trained">light horse (combat trained)</Link> with <Link to="/eq-misc/riding_saddle">saddle</Link>, 1 gp<br/><strong>Boon</strong> Caravan guards can arrange for PCs to travel with a caravan to a destination of their choice, either as guests or as guards.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Caravan guards are sturdy veterans with an eye for troublemakers. Often surly and pugnacious, they ride alongside pack and wagon trains with crossbows at the ready, but if real danger threatens most are more comfortable fighting with their boots safely on the ground and sword and shield in hand.</p>
 <p>Caravan guards can serve as scouts, messengers, or outriders. Replacing a caravan guard's Alertness and Animal Affinity feats with <Link to="/feat/mounted_combat">Mounted Combat</Link> and <Link to="/feat/mounted_archery">Mounted Archery</Link> makes him more adept at fighting from horseback. Replacing Rapid Reload with <Link to="/feat/ride_by_attack">Ride-By Attack</Link> or <Link to="/feat/trample">Trample</Link>, coupled with the Mounted Combat feats, creates a low-level nomadic horse warrior. For better flavor, exchange his longsword and heavy crossbow for a scimitar and composite shortbow.</p>
 <p>Two slavers might use four caravan guards to watch their chattel (CR 7), while a squad of six caravan guards might accompany a highwayman (CR 8), or guard a group of six vagabonds (CR 8) or five pilgrims (CR 9). A troop of eight caravan guards is usually led by a sellsword (CR 9), or a traveling merchant or merchant prince can hire eight caravan guards to guard his caravan (CR 8 or 10).</p>
 </>};
-const _merchant_shopkeep = {title: "Merchant (Shopkeep)", jsx: <><p className="statblockHeaderFull"><span>Merchant (Shopkeep)</span><span>CR 1</span></p>
+const _merchant_shopkeep = {title: "Merchant (Shopkeep)", jsx: <><Header full><span>Merchant (Shopkeep)</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 284</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/npcclass/expert">expert</Link> 3<br/>N Medium humanoid<br/><strong>Init</strong> +0; <strong>Senses</strong> Perception +8</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 10, touch 10, flat-footed 10<br/><strong>hp</strong> 13 (3d8)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +1, <strong>Will</strong> +4</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> dagger +1 (1d4-1/19-20)<br/><strong>Ranged</strong> dagger +2 (1d4-1/19-20)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 9, <strong>Dex</strong> 10, <strong>Con</strong> 10, <strong>Int</strong> 11, <strong>Wis</strong> 13, <strong>Cha</strong> 12<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +1; <strong>CMD</strong> 11<br/><strong>Feats</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/deceitful">Deceitful</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Profession [merchant])<br/><strong>Skills</strong> Appraise +6, Bluff +9, Diplomacy +7, Disguise +6, Knowledge (local) +6, Linguistics +6, Perception +8, Profession (merchant) +10, Sense Motive +9<br/><strong>Languages</strong> Common, Dwarven, Gnome, Halfling<br/><strong>Combat Gear</strong> <Link to="/eq-misc/smokestick">smokestick</Link>, <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bag</Link>; <strong>Other Gear</strong> <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-misc/disguise_kit">disguise kit</Link>, <Link to="/eq-misc/heavy_horse">heavy horse</Link>, <Link to="/eq-misc/wagon">wagon</Link>, 433 gp worth of trade goods<br/><strong>Boon</strong> A shopkeep can give a 10% discount on any item of equipment less than 400 gp.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Shopkeeps operate a city's trade emporiums, a town's shops, a village's general store, and the frontier's isolated trading posts. Whether a canny traveling peddler, a wheeling and dealing bazaar stallholder, or a respected businessman with a position on the town council, shopkeeps are found across the world, forming the backbone of a settlement's economy as they keep the river of trade flowing freely through its gates.</p>
 <p>Shopkeeps can be used to represent a variety of minor occupations in villages, towns, and cities. Changing the focus of a shopkeep's Profession skill can create a wide variety of characters, from bakers to fishermen to millers. Replacing a shopkeep's Profession skill with a Craft skill creates a craftsman rather than a salesman, whether it be an alchemist, weaver, or smith. Exchanging Profession for a Knowledge skill or two makes a sage or scholar. In this case, the trade goods listed in the stat block above can represent books, maps, or scrolls.</p>
 <p>Shopkeeps are not skilled in combat, but could be used to represent a citizens' militia mobilized in times of war. In this case, adding padded or leather armor, and perhaps replacing the dagger with a club or spear, or even a crossbow, can make them into more effective combatants.</p>
 <p>A shopkeep will often partner with another shopkeep or a vagabond (CR 3) for long journeys, sometimes hiring a guard if they deal in expensive commodities (CR 4).</p>
 </>};
-const _miner = {title: "Miner", jsx: <><p className="statblockHeaderFull"><span>Miner</span><span>CR 1</span></p>
+const _miner = {title: "Miner", jsx: <><Header full><span>Miner</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 256</Link><br/><strong>XP</strong> 400<br/>Dwarf <Link to="/npcclass/commoner">commoner</Link> 3<br/>CN Medium humanoid (dwarf)<br/><strong>Init</strong> -1; <strong>Senses</strong> darkvision 60 ft.; Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 11, touch 9, flat-footed 11 (+2 armor, -1 Dex)<br/><strong>hp</strong> 16 (3d6+6)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +0, <strong>Will</strong> +2; +2 vs. poison, spells, and spell-like abilities<br/><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants)</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> miner's pick -2 (1d6+1) or heavy mace +2 (1d8+1)<br/><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and orc humanoids</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The commoner uses whatever materials are available to avoid melee combat, such as a lantern he can smash to create a fire.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 8, <strong>Con</strong> 14, <strong>Int</strong> 9, <strong>Wis</strong> 13, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +2; <strong>CMD</strong> 11 (15 vs. bull rush or trip)<br/><strong>Feats</strong> <Link to="/feat/skill_focus">Skill Focus</Link> (Appraise, Profession [miner])<br/><strong>Skills</strong> Appraise +3 (+5 to assess nonmagical metals or gemstones), Climb +5, Knowledge (dungeoneering) +0, Perception +5 (+7 to notice unusual stonework), Profession (miner) +9<br/><strong>Languages</strong> Common, Dwarven<br/><strong>Gear</strong> <Link to="/eq-armor/leather_armor">leather armor</Link>, <Link to="/eq-weapon/heavy_mace">heavy mace</Link>, <Link to="/eq-misc/miners_pick">miner's pick</Link>, <Link to="/eq-misc/piton">pitons</Link> (10), <Link to="/eq-misc/rope_50_ft">rope (50 ft.)</Link>, 753 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>A miner labors long hours in the dark, and spends his earnings freely during rare visits to the surface.</p>
 </>};
-const _road_vagabond = {title: "Road (Vagabond)", jsx: <><p className="statblockHeaderFull"><span>Road (Vagabond)</span><span>CR 1</span></p>
+const _road_vagabond = {title: "Road (Vagabond)", jsx: <><Header full><span>Road (Vagabond)</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 291</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/npcclass/commoner">commoner</Link> 2/<Link to="/npcclass/warrior">warrior</Link> 1<br/>N Medium humanoid<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +7</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 16, touch 11, flat-footed 15 (+4 armor, +1 Dex, +1 shield)<br/><strong>hp</strong> 15 (3 HD; 2d6+1d10+3)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +1, <strong>Will</strong> -1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> battleaxe +3 (1d8+1/&times;3) or dagger +3 (1d4+1/19-20)<br/><strong>Ranged</strong> mwk composite longbow +4 (1d8+1/&times;3) or mwk composite longbow +2/+2 (1d8+1/&times;3) or dagger +3 (1d4+1/19-20)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 13, <strong>Con</strong> 12, <strong>Int</strong> 10, <strong>Wis</strong> 8, <strong>Cha</strong> 9<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +3; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/point_blank_shot">Point Blank Shot</Link>, <Link to="/feat/rapid_shot">Rapid Shot</Link><br/><strong>Skills</strong> Climb +3, Handle Animal +3, Knowledge (geography) +1, Knowledge (local) +1, Perception +7, Ride +3, Sense Motive +2, Survival +1, Swim +3<br/><strong>Languages</strong> Common<br/><strong>Gear</strong> masterwork <Link to="/eq-armor/chain_shirt">chain shirt</Link>, <Link to="/eq-armor/buckler">buckler</Link>, <Link to="/eq-weapon/battleaxe">battleaxe</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, masterwork <Link to="/eq-weapon/composite_longbow">composite longbow</Link> (+1 Str) with 20 arrows, <Link to="/eq-misc/mule">mule</Link>, <Link to="/eq-misc/saddle_riding">saddle</Link><br/><strong>Boon</strong> A vagabond can give accurate directions to any known landmark or settlement within 50 miles (+5 on Survival checks to avoid getting lost) and general information about likely dangers (terrain or hostile creatures) along the way.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Vagabonds are drifters who wander the roads, picking up odd jobs but rarely letting the sun set on them in the same place twice. Vagabonds have a few skills that can help them get odd jobs in communities they pass through, but often possess skills in combat as well, as no road is ever truly safe.</p>
 <p>Vagabonds serve well as hunters, woodsmen, and herders who live on the fringes of society. A vagabond might also work as a traveling peddler or merchant, or serve as a scout for a town militia.</p>
 <p>Vagabonds make good low-level archers, and this skill can be improved by replacing the Alertness feat with <Link to="/feat/far_shot">Far Shot</Link>, <Link to="/feat/precise_shot">Precise Shot</Link>, or <Link to="/feat/weapon_focus">Weapon Focus</Link> (longbow). Alternatively, you can replace the archery feats with <Link to="/feat/power_attack">Power Attack</Link> and <Link to="/feat/toughness">Toughness</Link> to make a vagabond better in melee combat.</p>
 <p>Vagabonds are usually loners, but may partner with a caravan guard, storyteller, or pair of farmers (CR 3). Two vagabonds might join a troupe of four wanderers (CR 7), or occasionally travel in small groups of four, accompanied by a single wanderer, pilgrim, or trapper (CR 6).</p>
 </>};
-const _sail_master = {title: "Sail Master", jsx: <><p className="statblockHeaderFull"><span>Sail Master</span><span>CR 1</span></p>
+const _sail_master = {title: "Sail Master", jsx: <><Header full><span>Sail Master</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 62</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/class/druid">druid</Link> 2<br/>NE Medium humanoid (human)<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 12, flat-footed 15 (+2 armor, +1 Dex, +1 dodge, +3 shield)<br/><strong>hp</strong> 18 (2d8+6)<br/><strong>Fort</strong> +5, <strong>Ref</strong> +1, <strong>Will</strong> +4</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk club +5 (1d6+3)<br/><strong>Ranged</strong> shortspear +2 (1d6+3)<br/><strong>Spell-Like Abilities</strong> (CL 2nd; concentration +3)<br/><em>4/day</em>-storm burst<br/><strong>Druid Spells Prepared</strong> (CL 2nd; concentration +3)<br/><em>1st</em>-cure light wounds, <Link to="/spell/jump">jump</Link>, <Link to="/spell/obscuring_mist">obscuring mist</Link><sup><InnerLink showBacklink="backlink-npc-sail_master-ref-D-1" id="npc-sail_master-ref-D-1" data-hash-target to="npc-sail_master-D">1</InnerLink></sup>, <Link to="/spell/shillelagh">shillelagh</Link><br/><em>0 (at will)</em>-<Link to="/spell/flare">flare</Link> (DC 11), <Link to="/spell/know_direction">know direction</Link>, <Link to="/spell/light">light</Link>, <Link to="/spell/stabilize">stabilize</Link><br/><strong>Domain</strong> Weather</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The druid casts obscuring mist at the start of combat and shillelagh before moving into melee range.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 17, <strong>Dex</strong> 13, <strong>Con</strong> 14, <strong>Int</strong> 8, <strong>Wis</strong> 12, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +4; <strong>CMD</strong> 16<br/><strong>Feats</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/shield_focus">Shield Focus</Link><br/><strong>Skills</strong> Handle Animal +5, Heal +5, Knowledge (geography) +3, Knowledge (nature) +1, Perception +5, Profession (sailor) +5, Survival +7, Swim +5<br/><strong>Languages</strong> Common, Druidic<br/><strong>SQ</strong> nature bond (Weather domain), nature sense, <Link to="/ability/wild_empathy">wild empathy</Link> +2, <Link to="/ability/woodland_stride">woodland stride</Link><br/><strong>Combat Gear</strong> scrolls of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), scroll of <Link to="/spell/entangle">entangle</Link> (2), <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link> (4); <strong>Other Gear</strong> masterwork <Link to="/eq-armor/leather_armor">leather armor</Link>, <Link to="/eq-armor/heavy_wooden_shield">heavy wooden shield</Link>, masterwork <Link to="/eq-weapon/club">club</Link>, <Link to="/eq-weapon/shortspear">shortspear</Link>, <Link to="/eq-weapon/grappling_hook">grappling hook</Link>, <Link to="/eq-misc/healers_kit">healer's kit</Link>, <Link to="/eq-misc/rope_50_ft">hemp rope (50 ft.)</Link>, <Link to="/eq-misc/holly_and_mistletoe">holly and mistletoe</Link>, <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link>, amber necklace (worth 25 gp), 45 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Mastery of the wind and weather is a boon on any ship, and many northern druids thus serve as captains, navigators, and battle support.</p>
 <section data-footnotes>
 <h3 id="npc-sail_master-label">Footnotes</h3>
@@ -741,191 +742,191 @@ const _sail_master = {title: "Sail Master", jsx: <><p className="statblockHeader
 </section>
 </>};
 const _sczarni_thug = {title: "Sczarni Thug", jsx: <><p><em>This thuggish Varisian wears black garb and tattered rags that conceal his myriad small blades and reveal runic tattoos.</em></p>
-<p className="statblockHeaderFull"><span>Sczarni Thug</span><span>CR 1</span></p>
+<Header full><span>Sczarni Thug</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/magnimar_city_of_monuments">Magnimar, City of Monuments pg. 57</Link><br/><strong>XP</strong> 400<br/>Male human <Link to="/class/rogue">rogue</Link> 2<br/>LE Medium humanoid (human)<br/><strong>Init</strong> +3; <strong>Senses</strong> Perception +6</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 14, touch 13, flat-footed 11 (+1 armor, +3 Dex)<br/><strong>hp</strong> 18 (2d8+6)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +6, <strong>Will</strong> +1<br/><strong>Defensive Abilities</strong> <Link to="/ability/evasion">evasion</Link></p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk short sword +3 (1d6+1/19-20) or dagger +2 (1d4+1/19-20)<br/><strong>Ranged</strong> dagger +4 (1d4+1/19-20)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +1d6</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 17, <strong>Con</strong> 14, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +4; <strong>CMD</strong> 15<br/><strong>Feats</strong> <Link to="/feat/agile_maneuvers">Agile Maneuvers</Link>, <Link to="/feat/combat_reflexes">Combat Reflexes</Link><br/><strong>Skills</strong> Acrobatics +8, Bluff +4, Climb +6, Disable Device +8, Escape Artist +8, Intimidate +4, Perception +6, Sleight of Hand +8, Stealth +8<br/><strong>Languages</strong> Common, Varisian<br/><strong>SQ</strong> rogue talents (<Link to="/talent/bleeding_attack">bleeding attack</Link> +1), <Link to="/ability/trapfinding">trapfinding</Link> +1</p>
-<p className="statblockSubHeader">Ecology</p>
+<Header sub>Ecology</Header>
 <p><strong>Environment</strong> any (Varisia)<br/><strong>Organization</strong> solitary, pair, or gang (3-12)<br/><strong>Treasure</strong> <Link to="/rule/npc_gear">NPC gear</Link> (masterwork <Link to="/eq-armor/padded_armor">padded armor</Link>, <Link to="/eq-weapon/dagger">daggers</Link> (3), masterwork <Link to="/eq-weapon/short_sword">short sword</Link>, masterwork <Link to="/eq-misc/thieves_tools_mwk">thieves' tools</Link>, other treasure)</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The notorious ruffians known as the Sczarni constantly prowl the civilized areas of Varisia in search of easily bamboozled merchants, travelers, and aristocrats to prey upon. Countless Sczarni thugs operate throughout Magnimar, their sheer quantity spawning numerous gangs that each possesses its own illicit specialty as well as a clearly defined turf. Indisputably, the most powerful Sczarni gang in the city is the Gallowed, who operate from a caravan of wagons perched directly below Lord-Mayor Grobaras's home, Defiant's Garden. The Gallowed sports a large number of thugs and leg-breakers, as well as its infamous Fish Tank, a 4-foot-tall glass aquarium hidden in one of the caravan's wagons and filled with swamp barracuda used to coax information out of unwilling victims.</p>
 <p>As a rule, Sczarni thugs are not needlessly violent, and prefer to concentrate their efforts on crimes that will make them the most money rather than spill the most blood. Sczarni tend toward swindles and illicit trade instead of rape or murder, leaving such brutal acts of violence to sociopaths and unscrupulous thieves' guilds.</p>
 <p>Though the Gallowed make up the most powerful Sczarni gang in Magnimar, they are far from alone, and numerous other small families constantly vie for turf and wealth throughout the City of Monuments.</p>
 <p>The Tower Girls specialize in robbery as well as extortion, and are often hired by quarreling nobles to help shame or blackmail rivals with evidence of infidelity, bastard children, or other secret failures. When not ruining lives, the Tower Girls display their impressive acrobatics onstage in the various playhouses and nightclubs of Lowcleft.</p>
 <p>Shunned even by other Sczarni gangs, the Creepers seed the streets with drugs and other illicit substances. They concoct many of the drugs in their base near Underbridge, using their runners to keep the whole city stocked with a handful of vices at any time.</p>
 </>};
-const _seasoned_trapper = {title: "Seasoned Trapper", jsx: <><p className="statblockHeaderFull"><span>Seasoned Trapper</span><span>CR 1</span></p>
+const _seasoned_trapper = {title: "Seasoned Trapper", jsx: <><Header full><span>Seasoned Trapper</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 261</Link><br/><strong>XP</strong> 400<br/>Halfling <Link to="/npcclass/expert">expert</Link> 3<br/>N Small humanoid (halfling)<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +7</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 16, touch 13, flat-footed 14 (+3 armor, +2 Dex, +1 size)<br/><strong>hp</strong> 13 (3d8)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +4, <strong>Will</strong> +4; +2 vs. fear</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> spear +3 (1d6/&times;3)<br/><strong>Ranged</strong> mwk light crossbow +6 (1d6/19-20)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The expert seeks concealment or cover and attacks with her crossbow.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 15, <strong>Con</strong> 10, <strong>Int</strong> 9, <strong>Wis</strong> 10, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +1; <strong>CMD</strong> 13<br/><strong>Feats</strong> <Link to="/feat/deadly_aim">Deadly Aim</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Survival)<br/><strong>Skills</strong> Acrobatics +3 (-1 when jumping), Climb +5, Craft (leather) +5, Craft (traps) +7, Heal +6, Knowledge (nature) +3, Perception +7, Ride +5, Stealth +11, Survival +9, Swim +4<br/><strong>Languages</strong> Common, Halfling<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/studded_leather">studded leather</Link>, masterwork <Link to="/eq-weapon/light_crossbow">light crossbow</Link> with 40 bolts, <Link to="/eq-weapon/spear">spear</Link>, masterwork <Link to="/eq-misc/artisans_tools_mwk">artisan's tools</Link> (leather, traps), <Link to="/eq-misc/bit_and_bridle">bit and bridle</Link>, <Link to="/eq-misc/riding_dog">riding dog</Link>, <Link to="/eq-misc/riding_saddle">riding saddle</Link>, 92 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>A trapper catches animals with snares, then turns their hides into leather and fur goods. Most are independent folk, content to live on the edge of civilization so they don't have to deal with the niceties of polite society. A few find themselves trying to escape a past crime or tragedy, using the wilderness to hide and eking out a livelihood from the natural world. Most know the best places to hunt and trap, hidden paths that lead to observation points, and the locations of caves and dangerous natural hazards.</p>
 <p>In frontier areas, a seasoned trapper is the next best thing to a guide, scout, tracker, or sniper, and in wartime many serve in the local militia, using their keen eyes and deadly skills to keep villagers safe and provide food. In exchange for a few coins, they may lead adventurers to the edge of monster territory or provide food or shelter in a storm.</p>
 </>};
-const _seer_doomsayer = {title: "Seer (Doomsayer)", jsx: <><p className="statblockHeaderFull"><span>Seer (Doomsayer)</span><span>CR 1</span></p>
+const _seer_doomsayer = {title: "Seer (Doomsayer)", jsx: <><Header full><span>Seer (Doomsayer)</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 298</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/npcclass/adept">adept</Link> 3<br/>N Medium humanoid<br/><strong>Init</strong> -1; <strong>Senses</strong> Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 11, touch 9, flat-footed 11 (+2 armor, -1 Dex)<br/><strong>hp</strong> 10 (3d6)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +0, <strong>Will</strong> +5</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> sickle +1 (1d6)<br/><strong>Ranged</strong> dart +0 (1d4)<br/><strong>Adept Spells Prepared</strong> (CL 3rd; concentration +5)<br/><em>1st</em>-<Link to="/spell/bless">bless</Link>, <Link to="/spell/burning_hands">burning hands</Link> (DC 13), <Link to="/spell/obscuring_mist">obscuring mist</Link><br/><em>0</em>-<Link to="/spell/ghost_sound">ghost sound</Link> (DC 12), <Link to="/spell/guidance">guidance</Link>, <Link to="/spell/touch_of_fatigue">touch of fatigue</Link> (DC 12)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 11, <strong>Dex</strong> 9, <strong>Con</strong> 10, <strong>Int</strong> 8, <strong>Wis</strong> 15, <strong>Cha</strong> 12<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +1; <strong>CMD</strong> 10<br/><strong>Feats</strong> <Link to="/feat/persuasive">Persuasive</Link>, <Link to="/feat/scribe_scroll">Scribe Scroll</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Intimidate)<br/><strong>Skills</strong> Diplomacy +4, Heal +6, Intimidate +7, Knowledge (religion) +3, Perception +5, Perform (oratory) +2, Profession (scribe) +6, Sense Motive +4, Spellcraft +3, Survival +6<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> summon familiar (toad)<br/><strong>Combat Gear</strong> scrolls of <Link to="/spell/cause_fear">cause fear</Link> (4), <Link to="/spell/command">command</Link> (4), <Link to="/spell/cure_light_wounds">cure light wounds</Link> (4), <Link to="/spell/sleep">sleep</Link> (4); <strong>Other Gear</strong> <Link to="/eq-armor/leather_armor">leather armor</Link>, <Link to="/eq-weapon/sickle">sickle</Link>, <Link to="/eq-weapon/dart">darts</Link> (4)<br/><strong>Boon</strong> A doomsayer can spread word of the party's fearsome reputation, granting a +2 circumstance bonus on Intimidate checks in that community for 1 week. A doomsayer can also scribe scrolls for PCs at a 10% discount.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Doomsayers are ranting demagogues who continuously predict doom, cataclysm, and ruin, crying in the town square and distributing pamphlets in literate communities. A doomsayer may build up a cult of personality, but they are happiest when they can ensure that others are miserable.</p>
 <p>Doomsayers can be used as primitive witch doctors or shamans, dark cultists, witches, or rough frontier "priests" in remote villages or other areas without organized clergy.</p>
 <p>A doomsayer often keeps a pair of acolytes or beggars as disciples (CR 3 or 4), or works with a group of three wanderers or cultists (CR 6). A doomsayer might also be apprenticed to a hedge wizard (CR 5), while an urban doomsayer could partner with a gang of four pickpockets (CR 4) who work the crowd that gathers to hear the doomsayer speak. Replacing Skill Focus (Intimidate) with Skill Focus (Heal) creates a lay healer who might be found with a pilgrim (CR 4).</p>
 </>};
-const _skulking_brute = {title: "Skulking Brute", jsx: <><p className="statblockHeaderFull"><span>Skulking Brute</span><span>CR 1</span></p>
+const _skulking_brute = {title: "Skulking Brute", jsx: <><Header full><span>Skulking Brute</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 144</Link><br/><strong>XP</strong> 400<br/>Half-orc <Link to="/class/rogue">rogue</Link> 2<br/>CE Medium humanoid (human, orc)<br/><strong>Init</strong> +2; <strong>Senses</strong> darkvision 60 ft.; Perception +6</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 16, touch 12, flat-footed 14 (+4 armor, +2 Dex)<br/><strong>hp</strong> 19 (2d8+7)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +5, <strong>Will</strong> +1<br/><strong>Defensive Abilities</strong> <Link to="/ability/evasion">evasion</Link>, orc ferocity</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk greataxe +5 (1d12+4/&times;3)<br/><strong>Ranged</strong> shortspear +3 (1d6+3)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +1d6</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The rogue charges at the nearest foe.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 17, <strong>Dex</strong> 14, <strong>Con</strong> 13, <strong>Int</strong> 8, <strong>Wis</strong> 12, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +4; <strong>CMD</strong> 16<br/><strong>Feats</strong> <Link to="/feat/toughness">Toughness</Link><br/><strong>Skills</strong> Acrobatics +5, Climb +6, Intimidate +7, Perception +6, Ride +2, Sense Motive +6, Stealth +5<br/><strong>Languages</strong> Common, Orc<br/><strong>SQ</strong> orc blood, rogue talents (<Link to="/talent/bleeding_attack">bleeding attack</Link> +1), <Link to="/ability/trapfinding">trapfinding</Link> +1, weapon familiarity<br/><strong>Combat Gear</strong> potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), potion of <Link to="/spell/disguise_self">disguise self</Link>, potion of <Link to="/spell/divine_favor">divine favor</Link>, potion of <Link to="/spell/feather_fall">feather fall</Link>, potion of <Link to="/spell/hide_from_undead">hide from undead</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/chain_shirt">chain shirt</Link>, masterwork <Link to="/eq-weapon/greataxe">greataxe</Link>, <Link to="/eq-weapon/shortspear">shortspear</Link>, 59 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The skulking brute extorts illegal tolls from travelers, attacking those who refuse to pay.</p>
 <h3 id="npc-skulking_brute-blarta">Blarta</h3>
 <p>Blarta is a bully, and prefers intimidation to fighting, since it requires less work from him.</p>
 <p><strong>Combat Encounters:</strong> Blarta might harass the PCs on the road or scout for bandits.</p>
 <p><strong>Roleplaying Suggestions:</strong> Blarta sees a lot of people on the road, and may know things of interest to the PCs. For the right price, he might even be persuaded to join them, though he's unreliable at best.</p>
 </>};
-const _squire = {title: "Squire", jsx: <><p className="statblockHeaderFull"><span>Squire</span><span>CR 1</span></p>
+const _squire = {title: "Squire", jsx: <><Header full><span>Squire</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 251</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/npcclass/aristocrat">aristocrat</Link> 3<br/>N Medium humanoid (human)<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)<br/><strong>hp</strong> 19 (3d8+6)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +2, <strong>Will</strong> +2</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> mwk longsword +4 (1d8+1/19-20) or dagger +3 (1d4+1/19-20)<br/><strong>Ranged</strong> composite shortbow +3 (1d6+1/&times;3)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> If serving a knight, the aristocrat fights near his master, making frequent use of flanking and aid another. He stays mounted to take advantage of his horse's attacks.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 12, <strong>Con</strong> 10, <strong>Int</strong> 8, <strong>Wis</strong> 9, <strong>Cha</strong> 11<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +3; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/mounted_combat">Mounted Combat</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/toughness">Toughness</Link><br/><strong>Skills</strong> Diplomacy +4, Handle Animal +6, Intimidate +4, Knowledge (nobility) +3, Perception +5, Ride +2<br/><strong>Languages</strong> Common<br/><strong>Combat Gear</strong> <Link to="/eq-weapon/holy_water">holy water</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/chainmail">chainmail</Link>, <Link to="/eq-weapon/composite_shortbow">composite shortbow</Link> (+1 Str) with 20 arrows, <Link to="/eq-weapon/dagger">dagger</Link>, masterwork <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-misc/bit_and_bridle">bit and bridle</Link>, <Link to="/eq-misc/light_horse_combat_trained">light horse (combat trained)</Link>, <Link to="/eq-misc/riding_saddle">riding saddle</Link>, <Link to="/eq-misc/saddlebags">saddlebags</Link>, 11 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>This squire has begun his knightly training, but not yet earned his spurs. He aspires to match the valor and chivalry of the finest knights. Most of his duties involve caring for his knight's armor, weapons, and horse, holding prisoners taken by the knight, and giving the knight an honorable burial if he is killed.</p>
 <p>The knight may instruct the squire to follow him into battle. If the squire proves himself loyal, skilled, and reliable in combat, his knight may choose to elevate him to full knight status (though in some lands this ceremony may only be performed by the ruler). A knight may have many squires, but a squire serves only one knight.</p>
 </>};
-const _street_beggar = {title: "Street (Beggar)", jsx: <><p className="statblockHeaderFull"><span>Street (Beggar)</span><span>CR 1</span></p>
+const _street_beggar = {title: "Street (Beggar)", jsx: <><Header full><span>Street (Beggar)</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 300</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/npcclass/commoner">commoner</Link> 1/<Link to="/class/rogue">rogue</Link> 1<br/>N Medium humanoid<br/><strong>Init</strong> +3; <strong>Senses</strong> Perception +6</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 13, touch 13, flat-footed 10 (+3 Dex)<br/><strong>hp</strong> 13 (2 HD; 1d8+1d6+5)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +5, <strong>Will</strong> +1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> club +1 (1d6+1)<br/><strong>Ranged</strong> club +3 (1d6+1)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +1d6</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 17, <strong>Con</strong> 14, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> +1; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Survival)<br/><strong>Skills</strong> Climb +6, Knowledge (local) +5, Perception +6, Sleight of Hand +8, Stealth +8, Survival +6<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> <Link to="/ability/trapfinding">trapfinding</Link> +1<br/><strong>Gear</strong> <Link to="/eq-weapon/club">club</Link>, begging bowl<br/><strong>Boon</strong> A beggar can watch a particular location or person in their city or town for 1 day and report back to the PC on what they observed.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Beggars are the homeless and hopeless wretches that eke out a meager existence at the fringes of society in cities and towns. Some are once farmers, craftsmen, or other working folk stricken blind or lame, while others are orphans from birth, subsisting on alms and charity so long they have known nothing else.</p>
 <p>Beggars can serve as apprentice thieves and pickpockets (and not a few beggars supplement their begging this way). They might also be used as urchins, link boys, the inhabitants of a leper colony, or even cultists of a dark god of disease, thievery, or murder. Exchanging a beggar's Skill Focus (Survival) with Skill Focus (Sleight of Hand) or Skill Focus (Stealth) creates a better pickpocket or thief. Replacing Endurance with <Link to="/feat/weapon_finesse">Weapon Finesse</Link>, as well as adding some light armor or an additional weapon, makes a beggar more effective in combat, as does replacing both of a beggar's feats with <Link to="/feat/dodge">Dodge</Link> and <Link to="/feat/mobility">Mobility</Link>.</p>
 <p>A beggar might be accompanied by a village idiot (CR 2), or may team up with a street thug or a pair of pickpockets (CR 3). A pair of beggars may also trail after a dealer or pilgrim (CR 5), or work with a troupe of four wanderers (CR 7). Beggars working as thieves or pickpockets might form gangs of six (CR 6), while four thieving beggars might add their skills to a gang of eight bandits (CR 7).</p>
 </>};
-const _street_prostitute = {title: "Street (Prostitute)", jsx: <><p className="statblockHeaderFull"><span>Street (Prostitute)</span><span>CR 1</span></p>
+const _street_prostitute = {title: "Street (Prostitute)", jsx: <><Header full><span>Street (Prostitute)</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 301</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/npcclass/expert">expert</Link> 1/<Link to="/class/rogue">rogue</Link> 1<br/>N Medium humanoid<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 12, touch 12, flat-footed 10 (+2 Dex)<br/><strong>hp</strong> 11 (2d8+2)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +4, <strong>Will</strong> +2</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> dagger -1 (1d4-1/19-20) or sap -1 (1d6-1 nonlethal)<br/><strong>Ranged</strong> dagger +2 (1d4-1/19-20)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +1d6</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 8, <strong>Dex</strong> 14, <strong>Con</strong> 13, <strong>Int</strong> 12, <strong>Wis</strong> 10, <strong>Cha</strong> 17<br/><strong>Base Atk</strong> +0; <strong>CMB</strong> -1; <strong>CMD</strong> 11<br/><strong>Feats</strong> <Link to="/feat/deceitful">Deceitful</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Profession [courtesan])<br/><strong>Skills</strong> Acrobatics +6, Bluff +10, Diplomacy +8, Disguise +11, Knowledge (local) +5, Perception +5, Perform (act) +8, Perform (dance) +8, Profession (courtesan) +8, Sense Motive +5, Sleight of Hand +7<br/><strong>Languages</strong> Common, Elven<br/><strong>SQ</strong> <Link to="/ability/trapfinding">trapfinding</Link> +1<br/><strong>Gear</strong> <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/sap">sap</Link>, <Link to="/magic-wondrous/elixir_of_love">elixir of love</Link>, <Link to="/eq-misc/disguise_kit">disguise kit</Link><br/><strong>Boon</strong> A prostitute can set up a meeting with a current or former client. Because the PCs know of the client's connection to the prostitute, they suffer a -2 penalty on Diplomacy checks with that person, but gain a +2 bonus on Intimidate and Sense Motive checks.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Prostitutes are workers for hire in the field of love. From cheap trollops to brazen strumpets, saucy tarts to haughty courtesans, they work the streets and backroom brothels of cities and towns, tending to the wants, needs, and dark desires of their clients, often in elaborate costume and makeup for erotic roleplay. Most prostitutes have at least a little larceny in their hearts, however, and those who procure their services would be well advised to keep a close eye on their purses.</p>
 <p>Prostitutes could be used as members of a harem or an actors' troupe. A prostitute might also be a noble's or wealthy businessman's mistress, or even a barmaid looking to make a little money on the side. Prostitutes also make good low-level spies or undercover agents.</p>
 <p>A dealer might serve as pimp for a group of four prostitutes (CR 6), or eight prostitutes might be performers in a minstrel's show (CR 8). A harem of six prostitutes is usually guarded by a eunuch slaver (CR 7). A barkeep might have a prostitute on his staff, along with two barmaids (CR 5), or a prostitute may be found in the company of a pair of noble scions (CR 5).</p>
 </>};
-const _street_magician = {title: "Street Magician", jsx: <><p className="statblockHeaderFull"><span>Street Magician</span><span>CR 1</span></p>
+const _street_magician = {title: "Street Magician", jsx: <><Header full><span>Street Magician</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 178</Link><br/><strong>XP</strong> 400<br/>Gnome enchanter 2<br/>CN Small humanoid (gnome)<br/><strong>Init</strong> +1; <strong>Senses</strong> low-light vision; Perception +2</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 13, touch 13, flat-footed 11 (+1 Dex, +1 dodge, +1 size)<br/><strong>hp</strong> 14 (2d6+5)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +1, <strong>Will</strong> +2; +2 vs. illusions<br/><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants)</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> dagger +3 (1d3+1/19-20)<br/><strong>Ranged</strong> light crossbow +4 (1d6/19-20)<br/><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and reptilian humanoids<br/><strong>Spell-Like Abilities</strong> (CL 2nd; concentration +3)<br/><em>1/day</em>-<Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/ghost_sound">ghost sound</Link>, <Link to="/spell/prestidigitation">prestidigitation</Link>, <Link to="/spell/speak_with_animals">speak with animals</Link><br/><strong>Arcane School Spell-Like Abilities</strong> (CL 2nd; concentration +4)<br/><em>5/day</em>-dazing touch<br/><strong>Enchanter Spells Prepared</strong> (CL 2nd; concentration +4)<br/><em>1st</em>-<Link to="/spell/charm_person">charm person</Link> (DC 13), <Link to="/spell/color_spray">color spray</Link> (DC 14), <Link to="/spell/grease">grease</Link>, <Link to="/spell/sleep">sleep</Link> (DC 13)<br/><em>0 (at will)</em>-<em>dancing lights, ghost sound</em> (2, DC 13), <Link to="/spell/mage_hand">mage hand</Link><br/><strong>Opposition Schools</strong> abjuration, necromancy</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The wizard casts color spray, then casts grease between himself and foes. If threatened, he drinks his potion of invisibility.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 13, <strong>Con</strong> 14, <strong>Int</strong> 15, <strong>Wis</strong> 8, <strong>Cha</strong> 12<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +1; <strong>CMD</strong> 13<br/><strong>Feats</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/scribe_scroll">Scribe Scroll</Link><br/><strong>Skills</strong> Bluff +3, Knowledge (arcana, geography, history) +6, Knowledge (local) +7, Perception +2, Spellcraft +6<br/><strong>Languages</strong> Common, Dwarven, Gnome, Halfling<br/><strong>SQ</strong> arcane bond (amulet), enchanting smile<br/><strong>Combat Gear</strong> potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), scrolls of <Link to="/spell/disguise_self">disguise self</Link> (2), scrolls of <Link to="/spell/expeditious_retreat">expeditious retreat</Link> (2), scroll of <Link to="/spell/invisibility">invisibility</Link>, scrolls of <Link to="/spell/obscuring_mist">obscuring mist</Link> (2), <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link> (2), <Link to="/eq-weapon/thunderstone">thunderstones</Link> (2); <strong>Other Gear</strong> <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/light_crossbow">light crossbow</Link> with 10 masterwork bolts, <Link to="/magic-wondrous/brooch_of_shielding">brooch of shielding</Link> (10 charges), <Link to="/eq-misc/smokestick">smokesticks</Link> (2), <Link to="/eq-misc/spellbook">spellbook</Link>, 67 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The street magician uses his talents to make money.</p>
 </>};
-const _street_performer = {title: "Street Performer", jsx: <><p className="statblockHeaderFull"><span>Street Performer</span><span>CR 1</span></p>
+const _street_performer = {title: "Street Performer", jsx: <><Header full><span>Street Performer</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 26</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/class/bard">bard</Link> 2<br/>CN Medium humanoid (human)<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 16, touch 12, flat-footed 14 (+4 armor, +2 Dex)<br/><strong>hp</strong> 14 (2d8+1)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +5, <strong>Will</strong> +4; +4 vs. bardic performance, language-dependent, and sonic</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> dagger +1 (1d4/19-20)<br/><strong>Ranged</strong> dagger +3 (1d4/19-20)<br/><strong>Special Attacks</strong> bardic performance 9 rounds/day (<Link to="/performance/countersong">countersong</Link>, <Link to="/performance/distraction">distraction</Link>, <Link to="/performance/fascinate">fascinate</Link>, <Link to="/performance/inspire_courage">inspire courage</Link> +1)<br/><strong>Bard Spells Known</strong> (CL 2nd; concentration +5)<br/><em>1st (3/day)</em>-<Link to="/spell/charm_person">charm person</Link> (DC 14), <Link to="/spell/expeditious_retreat">expeditious retreat</Link>, <Link to="/spell/sleep">sleep</Link> (DC 14)<br/><em>0 (at will)</em>-<Link to="/spell/daze">daze</Link> (DC 13), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/flare">flare</Link> (DC 13), <Link to="/spell/ghost_sound">ghost sound</Link> (DC 13), <Link to="/spell/prestidigitation">prestidigitation</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The bard stays at a safe distance, supporting allies with music and using spells to deter fights.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 14, <strong>Con</strong> 13, <strong>Int</strong> 8, <strong>Wis</strong> 12, <strong>Cha</strong> 17<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +1; <strong>CMD</strong> 13<br/><strong>Feats</strong> <Link to="/feat/point_blank_shot">Point-Blank Shot</Link>, <Link to="/feat/precise_shot">Precise Shot</Link><br/><strong>Skills</strong> Acrobatics +5, Bluff +7, Diplomacy +8, Handle Animal +8, Knowledge (local) +4, Perception +5, Perform (wind) +8, Sense Motive +5, Sleight of Hand +7, Stealth +5<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> bardic knowledge +1, versatile performance (wind)<br/><strong>Combat Gear</strong> potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), potion of <Link to="/spell/invisibility">invisibility</Link>, <Link to="/eq-misc/caltrops">caltrops</Link>, <Link to="/eq-misc/silk_rope_50_ft">silk rope (50 ft.)</Link>, <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bags</Link> (2); <strong>Other Gear</strong> masterwork <Link to="/eq-armor/chain_shirt">chain shirt</Link>, <Link to="/eq-weapon/dagger">daggers</Link> (3), 8 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>A bard without a regular tavern as a base can busk in various streets and markets.</p>
 <h3 id="npc-street_performer-jelks-the-piper">Jelks the Piper</h3>
 <p>After growing up an orphan on the streets, Jelks earns a living by playing music and guiding newcomers through the city. She hopes adventurer clients will take her along with them.</p>
 </>};
-const _tavern_drunkard = {title: "Tavern (Drunkard)", jsx: <><p className="statblockHeaderFull"><span>Tavern (Drunkard)</span><span>CR 1</span></p>
+const _tavern_drunkard = {title: "Tavern (Drunkard)", jsx: <><Header full><span>Tavern (Drunkard)</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 303</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/npcclass/commoner">commoner</Link> 1/<Link to="/npcclass/warrior">warrior</Link> 2<br/>N Medium humanoid<br/><strong>Init</strong> +0; <strong>Senses</strong> Perception -1</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 12, touch 10, flat-footed 12 (+2 armor)<br/><strong>hp</strong> 23 (3 HD; 1d6+2d10+9)<br/><strong>Fort</strong> +7, <strong>Ref</strong> +0, <strong>Will</strong> -1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> club +3 (1d6+1) or dagger +3 (1d4+1/19-20)<br/><strong>Ranged</strong> club +2 (1d6+1) or dagger +2 (1d4+1/19-20)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 11, <strong>Con</strong> 14, <strong>Int</strong> 10, <strong>Wis</strong> 9, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +3; <strong>CMD</strong> 13<br/><strong>Feats</strong> <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_bull_rush">Improved Bull Rush</Link>, <Link to="/feat/power_attack">Power Attack</Link><br/><strong>Skills</strong> Climb +5, Handle Animal +4, Intimidate +5, Profession (choose one) +3, Ride +4, Swim +5<br/><strong>Languages</strong> Common<br/><strong>Gear</strong> <Link to="/eq-armor/leather_armor">leather armor</Link>, <Link to="/eq-weapon/club">club</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-misc/ale_gallon">gallon jug of ale</Link><br/><strong>Boon</strong> A drunkard can be persuaded to make a loud, obnoxious disturbance as a distraction, imposing a -2 penalty on opposed Perception checks (as against Stealth or Sleight of Hand) for up to 1 minute for any NPCs who can see and hear him.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>As ubiquitous as the barkeeps and serving wenches who serve them, drunkards may be found in almost every tavern in every town. Drunkards are wine-sodden louts who frequent pubs far too often, sousing away their meager earnings and often becoming surly and belligerent, especially against those from outside their home community. These are the men who leap up to start or join bar brawls, provided they're not passed out in the corner, sleeping off their latest binge.</p>
 <p>Drunkards might be used as common sailors on shore leave, young country boys visiting town for the first time who can't hold their liquor, or drunk and disreputable offduty guardsmen. A drunkard could even be used as a surly barkeep who samples his own wares a little too often.</p>
 <p>A drunkard may be found alone, or a pair of down-on-their-luck drunkards might try to mug lone vagabonds for coin for their next drink (CR 3). A table of four drunkards might be sitting in a tavern (CR 5), possibly with a barkeep (CR 6), or perhaps listening to tales from a trapper (CR 6) or minstrel (CR 7). A pair of drunkards might also be found carousing on the street with a couple of shipmates (CR 4), two caravan guards on leave (CR 5), or a pair of slovenly prostitutes (CR 5), or trying to buy some illicit substances from a dealer (CR 5).</p>
 </>};
-const _town_watcher = {title: "Town Watcher", jsx: <><p className="statblockHeaderFull"><span>Town Watcher</span><span>CR 1</span></p>
+const _town_watcher = {title: "Town Watcher", jsx: <><Header full><span>Town Watcher</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 128</Link><br/><strong>XP</strong> 400<br/>Halfling <Link to="/class/ranger">ranger</Link> 2<br/>LN Small humanoid (halfling)<br/><strong>Init</strong> +3; <strong>Senses</strong> Perception +8</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 14, flat-footed 14 (+3 armor, +3 Dex, +1 size)<br/><strong>hp</strong> 15 (2d10)<br/><strong>Fort</strong> +4, <strong>Ref</strong> +7, <strong>Will</strong> +2; +2 vs. fear</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> short sword +4 (1d4+1/19-20)<br/><strong>Ranged</strong> mwk shortbow +7 (1d4/&times;3)<br/><strong>Special Attacks</strong> favored enemy (fey +2)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The ranger shoots at opponents who attempt to harm innocents or his allies. If trying to capture someone alive, he uses a tanglefoot bag. If trying to disperse a hostile crowd, he throws a thunderstone.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 17, <strong>Con</strong> 10, <strong>Int</strong> 13, <strong>Wis</strong> 12, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +2; <strong>CMD</strong> 15<br/><strong>Feats</strong> <Link to="/feat/point_blank_shot">Point-Blank Shot</Link>, <Link to="/feat/precise_shot">Precise Shot</Link><br/><strong>Skills</strong> Acrobatics +7 (+3 when jumping), Climb +8, Diplomacy +1, Intimidate +4, Knowledge (geography, nature) +5, Knowledge (local) +2, Perception +8, Stealth +12, Survival +6, Swim +5<br/><strong>Languages</strong> Common, Halfling<br/><strong>SQ</strong> track +1, <Link to="/ability/wild_empathy">wild empathy</Link> +2<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bags</Link> (2), <Link to="/eq-weapon/thunderstone">thunderstone</Link>; <strong>Other Gear</strong> masterwork <Link to="/eq-armor/studded_leather">studded leather</Link>, masterwork <Link to="/eq-weapon/shortbow">shortbow</Link> with 20 arrows, <Link to="/eq-weapon/short_sword">short sword</Link>, 84 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The town watcher protects a settlement from hostile creatures.</p>
 <h3 id="npc-town_watcher-colin-fletcher">Colin Fletcher</h3>
 <p>Colin vigilantly guards his town, and is quick to respond if any visitors start fights or cause trouble with locals.</p>
 <p><strong>Combat Encounters:</strong> Colin fires a warning shot from a rooftop to distract unruly adventurers in town, or uses a tanglefoot bag on a PC who's obviously drunk, raging, or out of control.</p>
 <p><strong>Roleplaying Suggestions:</strong> Colin is the eyes and ears for his town, and is a source of valuable information about the comings and goings of strangers.</p>
 </>};
-const _tribe_cannibal = {title: "Tribe (Cannibal)", jsx: <><p className="statblockHeaderFull"><span>Tribe (Cannibal)</span><span>CR 1</span></p>
+const _tribe_cannibal = {title: "Tribe (Cannibal)", jsx: <><Header full><span>Tribe (Cannibal)</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 306</Link><br/><strong>XP</strong> 400<br/>Human <Link to="/class/barbarian">barbarian</Link> 2<br/>CN Medium humanoid<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +6</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 13, touch 9, flat-footed 12 (+4 armor, +1 Dex, -2 rage)<br/><strong>hp</strong> 25 (2d12+12)<br/><strong>Fort</strong> +8, <strong>Ref</strong> +1, <strong>Will</strong> +3<br/><strong>Defensive Abilities</strong> <Link to="/ability/uncanny_dodge">uncanny dodge</Link></p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 40 ft.<br/><strong>Melee</strong> greatclub +6 (1d10+6) and bite +1 (1d4+2) or unarmed strike +6 (1d3+4) and bite +1 (1d4+2) or bite +6 (1d4+4 plus +2 bonus on grapple)<br/><strong>Ranged</strong> throwing axe +3 (1d6+4)<br/><strong>Special Attacks</strong> rage (9 rounds/day), rage power (animal fury)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Base Statistics</strong> When not raging, the barbarian's statistics are <strong>AC</strong> 15, touch 11, flat-footed 14; <strong>hp</strong> 21; <strong>Fort</strong> +6, <strong>Will</strong> +1; <strong>Melee</strong> greatclub +4 (1d10+3) or unarmed strike +4 (1d3+2), no bite; <strong>Ranged</strong> throwing axe +3 (1d6+2); <strong>Str</strong> 15, <strong>Con</strong> 16; <strong>CMB</strong> +4 (+6 grapple); Climb +4, Swim +4</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 19, <strong>Dex</strong> 13, <strong>Con</strong> 20, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +6 (+8 grapple); <strong>CMD</strong> 15 (17 vs. grapple)<br/><strong>Feats</strong> <Link to="/feat/improved_grapple">Improved Grapple</Link>, <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link><br/><strong>Skills</strong> Climb +6, Handle Animal +4, Perception +6, Survival +6, Swim +6<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> fast movement<br/><strong>Gear</strong> <Link to="/eq-armor/hide_armor">hide armor</Link>, <Link to="/eq-weapon/greatclub">greatclub</Link>, <Link to="/eq-weapon/throwing_axe">throwing axes</Link> (2)<br/><strong>Boon</strong> A cannibal can assist the PCs by tracking a single sentient creature (or a single group of sentient creatures) through the wilderness for up to 3 days.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Cannibals are ferocious, savage humanoids, feral people with a taste for sentient flesh. In battle, they charge with savage war cries, often tossing their weapons aside to hurl themselves onto their foes with hunger and abandon, eager to taste the blood and flesh in the ecstatic heat of battle.</p>
 <p>Cannibals can also be used as regular barbarian tribesmen. In these cases, they might have different rage powers (such as intimidating glare, powerful blow, or superstition), and their feats can be replaced with <Link to="/feat/endurance">Endurance</Link> and <Link to="/feat/diehard">Diehard</Link>, or <Link to="/feat/power_attack">Power Attack</Link> and <Link to="/feat/cleave">Cleave</Link>. A cannibal with the scent rage power makes a skilled tracker, while one with swift foot can easily run down prey.</p>
 <p>Cannibals are usually found in hunting parties of four to six (CR 5 or 6), often accompanied by an equal number of half-tamed large dogs (CR 6 or 7). Eight cannibals might accompany a shaman (CR 8) or a chieftain (CR 11).</p>
 </>};
-const _war_priest = {title: "War Priest", jsx: <><p className="statblockHeaderFull"><span>War Priest</span><span>CR 1</span></p>
+const _war_priest = {title: "War Priest", jsx: <><Header full><span>War Priest</span><span>CR 1</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 44</Link><br/><strong>XP</strong> 400<br/>Dwarf <Link to="/class/cleric">cleric</Link> of <Link to="/faith/gorum">Gorum</Link> 2<br/>CE Medium humanoid (dwarf)<br/><strong>Init</strong> +0; <strong>Senses</strong> darkvision 60 ft.; Perception +4</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 10, flat-footed 15 (+5 armor) (+4 dodge vs. giants)<br/><strong>hp</strong> 21 (2d8+9)<br/><strong>Fort</strong> +5, <strong>Ref</strong> +0, <strong>Will</strong> +6; +2 vs. poison, spells, and spell-like abilities</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> mwk greatsword with magic weapon +4 (2d6+4/19-20)<br/><strong>Ranged</strong> light crossbow +1 (1d8/19-20)<br/><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and orc humanoids, channel negative energy 3/day (DC 11, 1d6), destructive smite (+1, 6/day)<br/><strong>Spell-Like Abilities</strong> (CL 2nd; concentration +5)<br/><em>6/day</em>-touch of chaos<br/><strong>Cleric Spells Prepared</strong> (CL 2nd; concentration +5)<br/><em>1st</em>-<strong>bane</strong> (DC 14), <Link to="/spell/magic_stone">magic stone</Link>, <Link to="/spell/magic_weapon">magic weapon</Link>, <Link to="/spell/true_strike">true strike</Link><sup><InnerLink showBacklink="backlink-npc-war_priest-ref-D-1" id="npc-war_priest-ref-D-1" data-hash-target to="npc-war_priest-D">1</InnerLink></sup><br/><em>0 (at will)</em>-<Link to="/spell/bleed">bleed</Link> (DC 13), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/detect_poison">detect poison</Link>, <Link to="/spell/read_magic">read magic</Link><br/><strong>Domains</strong> <Link to="/domain/chaos">Chaos</Link>, <Link to="/domain/destruction">Destruction</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Before Combat</strong> The cleric casts magic weapon.<br/><strong>During Combat</strong> The cleric uses destructive smite as often as possible.<br/><strong>Base Statistics</strong> Without magic weapon, the cleric's statistics are <strong>Melee</strong> mwk greatsword +4 (2d6+3/19-20).</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 15, <strong>Dex</strong> 10, <strong>Con</strong> 15, <strong>Int</strong> 8, <strong>Wis</strong> 16, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +3; <strong>CMD</strong> 13 (17 vs. bull rush or trip)<br/><strong>Feats</strong> <Link to="/feat/toughness">Toughness</Link><br/><strong>Skills</strong> Knowledge (religion) +5, Perception +4 (+6 to notice unusual stonework)<br/><strong>Languages</strong> Common, Dwarven<br/><strong>SQ</strong> aura<br/><strong>Combat Gear</strong> potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2); <strong>Other Gear</strong> masterwork <Link to="/eq-armor/scale_mail">scale mail</Link>, <Link to="/eq-weapon/light_crossbow">light crossbow</Link> with 20 bolts, masterwork <Link to="/eq-weapon/greatsword">greatsword</Link>, <Link to="/eq-misc/wooden_unholy_symbol">wooden unholy symbol</Link>, 94 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The dwarven war priest serves the god of strength, and uses her divine powers for the glory of war itself.</p>
 <section data-footnotes>
 <h3 id="npc-war_priest-label">Footnotes</h3>
@@ -936,171 +937,171 @@ const _war_priest = {title: "War Priest", jsx: <><p className="statblockHeaderFu
 </ol>
 </section>
 </>};
-const _accomplished_angler = {title: "Accomplished Angler", jsx: <><p className="statblockHeaderFull"><span>Accomplished Angler</span><span>CR 2</span></p>
+const _accomplished_angler = {title: "Accomplished Angler", jsx: <><Header full><span>Accomplished Angler</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 256</Link><br/><strong>XP</strong> 600<br/>Halfling <Link to="/npcclass/commoner">commoner</Link> 4<br/>CN Small humanoid (halfling)<br/><strong>Init</strong> +3; <strong>Senses</strong> Perception +10</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 14, touch 14, flat-footed 11 (+3 Dex, +1 size)<br/><strong>hp</strong> 10 (4d6-4)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +5, <strong>Will</strong> +3; +2 vs. fear</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> fishing pole -3 (1d4-2)<br/><strong>Ranged</strong> sling +6 (1d3-2)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The commoner uses her sling and retreats to a safe location.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 6, <strong>Dex</strong> 16, <strong>Con</strong> 9, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 13<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> -1; <strong>CMD</strong> 12<br/><strong>Feats</strong> <Link to="/feat/point_blank_shot">Point-Blank Shot</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Perception)<br/><strong>Skills</strong> Acrobatics +5 (+1 when jumping), Climb +0, Craft (cook) +6, Knowledge (geography, local, nature) +2, Perception +10, Profession (fisherman) +6, Survival +2, Swim +2<br/><strong>Languages</strong> Common, Halfling<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>; <strong>Other Gear</strong> <Link to="/eq-weapon/sling">sling</Link> with 10 bullets, <Link to="/eq-misc/fishing_net">fishing net</Link>, <Link to="/eq-misc/everburning_torch">everburning torch</Link>, masterwork <Link to="/eq-misc/artisans_tools_mwk">artisan's tools</Link> (fishing), 1,480 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>An accomplished angler prides herself on handling life's trials with aplomb.</p>
 </>};
-const _axe_warrior = {title: "Axe Warrior", jsx: <><p className="statblockHeaderFull"><span>Axe Warrior</span><span>CR 2</span></p>
+const _axe_warrior = {title: "Axe Warrior", jsx: <><Header full><span>Axe Warrior</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 11</Link><br/><strong>XP</strong> 600<br/>Half-orc <Link to="/class/barbarian">barbarian</Link> 3<br/>CE Medium humanoid (human, orc)<br/><strong>Init</strong> +1; <strong>Senses</strong> darkvision 60 ft.; Perception +6</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 9, flat-footed 14 (+6 armor, +1 Dex, -2 rage)<br/><strong>hp</strong> 40 (3d12+15)<br/><strong>Fort</strong> +7, <strong>Ref</strong> +2, <strong>Will</strong> +3<br/><strong>Defensive Abilities</strong> orc ferocity, <Link to="/ability/trap_sense">trap sense</Link> +1, <Link to="/ability/uncanny_dodge">uncanny dodge</Link></p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk greataxe +9 (1d12+7/&times;3)<br/><strong>Ranged</strong> mwk sling +5 (1d4+5)<br/><strong>Special Attacks</strong> rage (10 rounds/day), rage powers (intimidating glare)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The barbarian uses intimidating glare each round, attacking first, then focusing her glare upon the uninjured.<br/><strong>Base Statistics</strong> When not raging, the barbarian's statistics are <strong>AC</strong> 17, touch 11, flat-footed 16; <strong>hp</strong> 34; <strong>Fort</strong> +5, <strong>Will</strong> +1; <strong>Melee</strong> mwk greataxe +7 (1d12+4/&times;3); <strong>Ranged</strong> mwk sling +5 (1d4+3); <strong>Str</strong> 17, <strong>Con</strong> 14; <strong>CMB</strong> +6; <strong>Skills</strong> Climb +5, Intimidate +12, Swim +3.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 21, <strong>Dex</strong> 13, <strong>Con</strong> 18, <strong>Int</strong> 8, <strong>Wis</strong> 10, <strong>Cha</strong> 12<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +8; <strong>CMD</strong> 17<br/><strong>Feats</strong> <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/power_attack">Power Attack</Link><br/><strong>Skills</strong> Climb +7, Intimidate +14, Perception +6, Survival +4, Swim +5<br/><strong>Languages</strong> Common, Orc<br/><strong>SQ</strong> fast movement, orc blood, weapon familiarity<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, potion of <Link to="/spell/lesser_restoration">lesser restoration</Link>, potion of <Link to="/spell/protection_from_good">protection from good</Link>; <strong>Other Gear</strong> mwk <Link to="/eq-armor/chainmail">chainmail</Link>, mwk <Link to="/eq-weapon/greataxe">greataxe</Link>, mwk <Link to="/eq-weapon/sling">sling</Link> with 10 bullets, <Link to="/eq-misc/climbers_kit">climber's kit</Link>, 250 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>There are few things more terrifying than a half-orc barbarian with a greataxe.</p>
 <h3 id="npc-axe_warrior-bloody-barru">Bloody Barru</h3>
 <p>Bloody Barru licks the blood from her axe each time she fells a foe.</p>
 <p><strong>Combat Encounters:</strong> Bloody Barru allies with almost anyone who promises excessive carnage.</p>
 <p><strong>Roleplaying Suggestions:</strong> Barru is hard to get along with. She would rather kill a person than engage in conversation.</p>
 </>};
-const _battle_mage = {title: "Battle Mage", jsx: <><p className="statblockHeaderFull"><span>Battle Mage</span><span>CR 2</span></p>
+const _battle_mage = {title: "Battle Mage", jsx: <><Header full><span>Battle Mage</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 179</Link><br/><strong>XP</strong> 600<br/>Elf <Link to="/class/wizard">wizard</Link> 3<br/>NE Medium humanoid (elf)<br/><strong>Init</strong> +2; <strong>Senses</strong> low-light vision; Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 16, touch 12, flat-footed 14 (+4 armor, +2 Dex)<br/><strong>hp</strong> 19 (3d6+6)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +3, <strong>Will</strong> +3; +2 vs. enchantments<br/><strong>Immune</strong> sleep</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk rapier +3 (1d6/18-20)<br/><strong>Ranged</strong> mwk longbow +4 (1d8+1/&times;3)<br/><strong>Special Attacks</strong> hand of the apprentice (6/day)<br/><strong>Wizard Spells Prepared</strong> (CL 3rd; concentration +6)<br/><em>2nd</em>-mirror image, scorching ray<br/><em>1st</em>-<Link to="/spell/magic_missile">magic missile</Link>, <Link to="/spell/shield">shield</Link>, <Link to="/spell/shocking_grasp">shocking grasp</Link><br/><em>0 (at will)</em>-<Link to="/spell/daze">daze</Link> (DC 13), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/light">light</Link>, <Link to="/spell/resistance">resistance</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Before Combat</strong> The wizard uses her wand to cast mage armor.<br/><strong>During Combat</strong> The wizard attacks with scorching ray, her longbow, and hand of the apprentice. If forced into melee, she casts mirror image and obscuring mist.<br/><strong>Base Statistics</strong> Without mage armor, the wizard's statistics are <strong>AC</strong> 12, touch 12, flat-footed 10.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 15, <strong>Con</strong> 12, <strong>Int</strong> 17, <strong>Wis</strong> 10, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +2; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/point_blank_shot">Point-Blank Shot</Link>, <Link to="/feat/scribe_scroll">Scribe Scroll</Link><br/><strong>Skills</strong> Acrobatics +4, Climb +2, Knowledge (arcana) +9, Knowledge (history) +7, Perception +5, Spellcraft +9 (+11 to identify magic item properties), Stealth +4<br/><strong>Languages</strong> Common, Draconic, Elven, Orc, Sylvan<br/><strong>SQ</strong> arcane bond (rapier), elven magic, weapon familiarity<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link>, scroll of <Link to="/spell/glitterdust">glitterdust</Link>, scroll of <Link to="/spell/invisibility">invisibility</Link>, scroll of <Link to="/spell/magic_weapon">magic weapon</Link>, scrolls of <Link to="/spell/mirror_image">mirror image</Link> (2), scroll of <Link to="/spell/obscuring_mist">obscuring mist</Link>, scroll of <Link to="/spell/protection_from_evil">protection from evil</Link>, scroll of <Link to="/spell/scorching_ray">scorching ray</Link>, wand of <Link to="/spell/mage_armor">mage armor</Link> (20 charges); <strong>Other Gear</strong> masterwork <Link to="/eq-weapon/longbow">longbow</Link> with 20 arrows, masterwork <Link to="/eq-weapon/rapier">rapier</Link>, <Link to="/eq-misc/spellbook">spellbook</Link>, 113 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>These mercenary wizards are able to fill many roles, and demand a high fee for their versatility.</p>
 </>};
-const _criminal_burglar = {title: "Criminal (Burglar)", jsx: <><p className="statblockHeaderFull"><span>Criminal (Burglar)</span><span>CR 2</span></p>
+const _criminal_burglar = {title: "Criminal (Burglar)", jsx: <><Header full><span>Criminal (Burglar)</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 265</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/class/rogue">rogue</Link> 3<br/>N Medium humanoid<br/><strong>Init</strong> +3; <strong>Senses</strong> Perception +9</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 13, flat-footed 12 (+2 armor, +3 Dex)<br/><strong>hp</strong> 16 (3d8+3)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +6, <strong>Will</strong> +1<br/><strong>Defensive Abilities</strong> <Link to="/ability/evasion">evasion</Link>, <Link to="/ability/trap_sense">trap sense</Link> +1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> sap +3 (1d6+1 nonlethal) or dagger +3 (1d4+1/19-20)<br/><strong>Ranged</strong> mwk composite shortbow +6 (1d6+1/&times;3) or dagger +5 (1d4+1/19-20)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +2d6</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 17, <strong>Con</strong> 12, <strong>Int</strong> 14, <strong>Wis</strong> 10, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +3; <strong>CMD</strong> 16<br/><strong>Feats</strong> <Link to="/feat/deft_hands">Deft Hands</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Perception), <Link to="/feat/stealthy">Stealthy</Link><br/><strong>Skills</strong> Acrobatics +9, Appraise +8, Bluff +5, Climb +9, Disable Device +13, Disguise +5, Escape Artist +11, Knowledge (local) +8, Perception +9 (+10 to find traps), Sleight of Hand +11, Stealth +11, Swim +7<br/><strong>Languages</strong> Common, Elven, Halfling<br/><strong>SQ</strong> rogue talent (<Link to="/talent/quick_disable">quick disable</Link>), <Link to="/ability/trapfinding">trapfinding</Link> +1<br/><strong>Combat Gear</strong> potion of <Link to="/spell/feather_fall">feather fall</Link>, potion of <Link to="/spell/jump">jump</Link>, <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bag</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/leather_armor">leather armor</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/sap">sap</Link>, masterwork <Link to="/eq-weapon/composite_shortbow">composite shortbow</Link> (+1 Str) with 20 arrows, <Link to="/magic-wondrous/universal_solvent">universal solvent</Link>, <Link to="/eq-misc/climbers_kit">climber's kit</Link>, <Link to="/eq-misc/silk_rope_50_ft">silk rope (50 ft.)</Link>, <Link to="/eq-weapon/grappling_hook">grappling hook</Link>, masterwork <Link to="/eq-misc/thieves_tools_mwk">thieves' tools</Link><br/><strong>Boon</strong> A burglar can open a trapped item for PCs or search a building for traps. She might break into a house to recover an item for the PCs or break a PC out of jail.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Burglars are prowlers of cities and towns, dancing cat-like along rooftops and slipping quietly into homes and shops by night.</p>
 <p>Changing Skill Focus (Perception) to Skill Focus (Disable Device) turns a burglar into an expert safecracker, while replacing Deft Hands and Skill Focus (Perception) with <Link to="/feat/point_blank_shot">Point Blank Shot</Link> and <Link to="/feat/weapon_focus">Weapon Focus</Link> (shortbow) makes a skulking sniper. Replacing Skill Focus (Perception) with Skill Focus (Acrobatics), and changing the quick disable rogue talent to ledge walker or stand up creates a thief-acrobat. Changing a burglar's rogue talent is a good way to customize further.</p>
 <p>Burglars usually work alone but will sometimes hire a pickpocket as a lookout (CR 3). A trio of burglars might cooperate to rob a large house or bank, with three street thugs for muscle and a pickpocket lookout (CR 7). A burglar may also work in concert with a barkeep and barmaid (CR 5) to rob patrons' rooms of valuables.</p>
 </>};
-const _doom_prophet = {title: "Doom Prophet", jsx: <><p className="statblockHeaderFull"><span>Doom Prophet</span><span>CR 2</span></p>
+const _doom_prophet = {title: "Doom Prophet", jsx: <><Header full><span>Doom Prophet</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 245</Link><br/><strong>XP</strong> 600<br/>Half-orc <Link to="/npcclass/adept">adept</Link> 4<br/>CE Medium humanoid (human, orc)<br/><strong>Init</strong> +0; <strong>Senses</strong> darkvision 60 ft.; Perception +2</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 13, touch 10, flat-footed 13 (+3 armor)<br/><strong>hp</strong> 30 (4d6+16)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +1, <strong>Will</strong> +6<br/><strong>Defensive Abilities</strong> orc ferocity</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk heavy mace +7 (1d8+4)<br/><strong>Ranged</strong> mwk sling +3 (1d4+4)<br/><strong>Adept Spells Prepared</strong> (CL 4th; concentration +6)<br/><em>2nd</em>-<Link to="/spell/darkness">darkness</Link><br/><em>1st</em>-<Link to="/spell/burning_hands">burning hands</Link> (DC 13), <Link to="/spell/cause_fear">cause fear</Link> (DC 13), <Link to="/spell/command">command</Link> (DC 13)<br/><em>0 (at will)</em>-<Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/guidance">guidance</Link>, <Link to="/spell/read_magic">read magic</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Before Combat</strong> The adept reads his scrolls of bear's endurance and bull's strength.<br/><strong>During Combat</strong> The adept casts darkness on his mace, then casts scorching ray or burning hands.<br/><strong>Base Statistics</strong> Without bear's endurance and bull's strength, the adept's statistics are <strong>hp</strong> 22; <strong>Fort</strong> +1; <strong>Melee</strong> mwk heavy mace +5 (1d8+2); <strong>Ranged</strong> mwk sling +3 (1d4+2); <strong>Str</strong> 14, <strong>Con</strong> 11; <strong>CMB</strong> +4; <strong>CMD</strong> 14.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 18, <strong>Dex</strong> 10, <strong>Con</strong> 15, <strong>Int</strong> 9, <strong>Wis</strong> 14, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +6; <strong>CMD</strong> 16<br/><strong>Feats</strong> <Link to="/feat/skill_focus">Skill Focus</Link> (Intimidate), <Link to="/feat/toughness">Toughness</Link><br/><strong>Skills</strong> Fly +3, Intimidate +7, Knowledge (religion) +3<br/><strong>Languages</strong> Common, Orc<br/><strong>SQ</strong> orc blood, summon familiar (bat), weapon familiarity<br/><strong>Combat Gear</strong> scroll of <Link to="/spell/bears_endurance">bear's endurance</Link>, scroll of <Link to="/spell/bulls_strength">bull's strength</Link>, scroll of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, scroll of <Link to="/spell/scorching_ray">scorching ray</Link> (3), <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link> (2); <strong>Other Gear</strong> masterwork <Link to="/eq-armor/studded_leather">studded leather</Link>, masterwork <Link to="/eq-weapon/heavy_mace">heavy mace</Link>, masterwork <Link to="/eq-weapon/sling">sling</Link> with 10 bullets, <Link to="/eq-misc/silver_unholy_symbol">silver unholy symbol</Link>, <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link>, 118 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>A doom prophet preaches his dire portents to any who listen.</p>
 </>};
-const _duergar_slaver = {title: "Duergar Slaver", jsx: <><p className="statblockHeaderFull"><span>Duergar Slaver</span><span>CR 2</span></p>
+const _duergar_slaver = {title: "Duergar Slaver", jsx: <><Header full><span>Duergar Slaver</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_npc_codex">Inner Sea NPC Codex pg. 20</Link><br/><strong>XP</strong> 600<br/>Duergar <Link to="/class/ranger">ranger</Link> 3<br/>LE Medium humanoid (dwarf)<br/><strong>Init</strong> +1; <strong>Senses</strong> darkvision 120 ft.; Perception +8</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)<br/><strong>hp</strong> 21 (3d10)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +4, <strong>Will</strong> +3; +2 vs. spells and spell-like abilities<br/><strong>Immune</strong> paralysis, phantasms, poison<br/><strong>Weaknesses</strong> <Link to="/umr/light_sensitivity">light sensitivity</Link></p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> mwk light hammer +6 (1d4+2) or scourge +5 (1d4+2)<br/><strong>Ranged</strong> mwk light crossbow +5 (1d8/19-20)<br/><strong>Special Attacks</strong> favored enemy (dwarves +2)<br/><strong>Spell-Like Abilities</strong> (CL 3rd)<br/><em>1/day</em>-<Link to="/spell/enlarge_person">enlarge person</Link> (self only), <Link to="/spell/invisibility">invisibility</Link> (self only)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 15, <strong>Dex</strong> 12, <strong>Con</strong> 10, <strong>Int</strong> 10, <strong>Wis</strong> 15, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +5; <strong>CMD</strong> 16 (20 vs. bull rush, 20 vs. trip)<br/><strong>Feats</strong> <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/rapid_reload">Rapid Reload</Link> (light crossbow), <Link to="/feat/skill_focus">Skill Focus</Link> (Intimidate), <Link to="/feat/stealthy">Stealthy</Link><br/><strong>Skills</strong> Escape Artist +3, Intimidate +9, Knowledge (dungeoneering) +6, Knowledge (local) +3, Perception +8, Stealth +6, Survival +8<br/><strong>Languages</strong> Common, Dwarven, Undercommon<br/><strong>SQ</strong> <Link to="/ability/favored_terrain">favored terrain</Link> (underground +2), track +1, <Link to="/ability/wild_empathy">wild empathy</Link> +3<br/><strong>Combat Gear</strong> oil of <Link to="/spell/magic_weapon">magic weapon</Link>, potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bags</Link> (2); <strong>Other Gear</strong> mwk <Link to="/eq-armor/breastplate">breastplate</Link>, mwk <Link to="/eq-weapon/light_crossbow">light crossbow</Link> with 20 bolts, mwk <Link to="/eq-weapon/light_hammer">light hammer</Link>, scourge (as <Link to="/eq-weapon/cat_o_nine_tails">cat-o'-nine-tails</Link> that deals lethal damage), <Link to="/eq-misc/average_lock">average locks</Link> (3), <Link to="/eq-misc/chain_10_ft">chain (50 ft.)</Link>, mwk <Link to="/eq-misc/manacles_mwk">manacles</Link> (3), 41 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Those who travel the benighted tunnels of the Darklands soon learn to fear the duergar. Cruel and heartless, these gray dwarves are followers of the dark dwarven god Droskar, who teaches that all are destined for an eternity of harsh toil. This outlook serves the duergar well, for in the Darklands slaves are among the most highly sought after commodities.</p>
 <p>Duergar slavers lurk along the roadways of Nar-Voth, especially those branching from or leading to the Long Walk, waiting to ambush unwary travelers. They rely on strength in numbers and their innate magical powers to capture their prey. A standard tactic is to use their invisibility to hide, then to grow to massive size before attacking. Duergar tend to focus on capturing individuals from races that are already adapted to life in the Darklands, particularly their dwarven kin, but they aren't averse to making slaves of those who originated on the surface or of other Darklands denizens with valuable skills should an easy opportunity arise.</p>
 <p>Those who fall prey to the slavers' traps are usually taken to the slave markets of the duergar capital city of Hagegraf, located beneath the Five Kings Mountains, where they are sold to the highest bidder. The slavers use the threat of sadistic torture to keep their prisoners in line, but they rarely injure their property permanently, and kill slaves even less often. After all, a lame slave is worth less gold at market than one with who has his full physical faculties. Mental scars, in contrast, may actually add value if they help ensure the slave's compliance.</p>
 </>};
-const _dungeon_prisoner = {title: "Dungeon (Prisoner)", jsx: <><p className="statblockHeaderFull"><span>Dungeon (Prisoner)</span><span>CR 2</span></p>
+const _dungeon_prisoner = {title: "Dungeon (Prisoner)", jsx: <><Header full><span>Dungeon (Prisoner)</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 270</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/npcclass/expert">expert</Link> 4<br/>N Medium humanoid<br/><strong>Init</strong> -1; <strong>Senses</strong> Perception +8</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 9, touch 9, flat-footed 9 (-1 Dex)<br/><strong>hp</strong> 26 (4d8+8)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +0, <strong>Will</strong> +5</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> improvised dagger +2 (1d4)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 9, <strong>Dex</strong> 8, <strong>Con</strong> 14, <strong>Int</strong> 13, <strong>Wis</strong> 12, <strong>Cha</strong> 10<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +2; <strong>CMD</strong> 11<br/><strong>Feats</strong> <Link to="/feat/catch_off_guard">Catch Off-Guard</Link>, <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/endurance">Endurance</Link><br/><strong>Skills</strong> Craft (choose one) +8, Climb +5, Escape Artist +5, Knowledge (dungeoneering) +8, Knowledge (engineering) +8, Perception +8, Profession (choose one) +8, Sleight of Hand +5, Survival +8, Swim +5<br/><strong>Languages</strong> Aklo, Common<br/><strong>Boon</strong> A prisoner can impart secrets of a prison they have inhabited, granting a +2 circumstance bonus on Perception, Survival, and Knowledge (dungeoneering or engineering) checks within that prison. A prisoner can also draw a map of a prison, or might have information about other prisoners or know which guards are corrupt.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Prisoners are hapless wretches who have spent uncounted years locked away in the deepest cells. Battered and bruised, their minds assaulted by the endless imprisonment and the mad ravings of weak-minded cellmates, prisoners endure through sheer force of will and the hope that one day they shall see their freedom. Prisoners may be found in town jails, large prisons, or underground dungeons, either as convicted criminals, political prisoners, or wretched captives.</p>
 <p>Prisoners can be used for escaped convicts, beggars, galley slaves, shipwreck survivors, escaped slaves, or similar outlaws or desperate folk. Giving a prisoner the <Link to="/feat/throw_anything">Throw Anything</Link> feat makes a prisoner skilled with improvised melee and ranged weapons. Giving him a <Link to="/feat/skill_focus">Skill Focus</Link> feat makes an expert being held prisoner for his skill or knowledge, perhaps someone the PCs are hired to rescue. Prisoners might have <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/iron_will">Iron Will</Link>, or <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link> to represent the hardships they have overcome.</p>
 <p>Prisoners may be found alone or in a work gang of a half-dozen under the watchful eye of a slaver (CR 6). Five prisoners can serve as the crazed flock of a cultist (CR 7). A dozen prisoners outfitted with pitchforks and other farm implements makes an angry peasant mob (CR 9).</p>
 </>};
 const _eagle_knight = {title: "Eagle Knight", jsx: <><p><em>Golden eagles shine proudly on the steel armor of this blue-uniformed soldier.</em></p>
-<p className="statblockHeaderFull"><span>Eagle Knight</span><span>CR 2</span></p>
+<Header full><span>Eagle Knight</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/andoran_birthplace_of_freedom">Andoran, Birthplace of Freedom pg. 54</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/class/fighter">fighter</Link> 3<br/>LG Medium humanoid (human)<br/><strong>Init</strong> +3; <strong>Senses</strong> Perception +2</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 19, touch 13, flat-footed 16 (+6 armor, +3 Dex)<br/><strong>hp</strong> 24 (3d10+3)<br/><strong>Fort</strong> +4, <strong>Ref</strong> +4, <strong>Will</strong> +2 (+1 vs. fear)<br/><strong>Defensive Abilities</strong> bravery +1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk greatsword +6 (2d6+1/19-20)<br/><strong>Ranged</strong> mwk composite longbow +7 (1d8+1/&times;3)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 17, <strong>Con</strong> 12, <strong>Int</strong> 10, <strong>Wis</strong> 8, <strong>Cha</strong> 14<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +4; <strong>CMD</strong> 17<br/><strong>Feats</strong> <Link to="/feat/cleave">Cleave</Link>, <Link to="/feat/deadly_aim">Deadly Aim</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link> (greatsword), <Link to="/feat/weapon_finesse">Weapon Finesse</Link><br/><strong>Skills</strong> Knowledge (history) +1, Knowledge (local) +1, Perception +2, Sense Motive +2, Stealth +4, Survival +3<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> armor training 1</p>
-<p className="statblockSubHeader">Ecology</p>
+<Header sub>Ecology</Header>
 <p><strong>Environment</strong> any land (Andoran and surrounding nations)<br/><strong>Organization</strong> solitary, pair, or team (3-6)<br/><strong>Treasure</strong> <Link to="/rule/npc_gear">NPC gear</Link> (mwk <Link to="/eq-armor/breastplate">breastplate</Link>, mwk <Link to="/eq-weapon/greatsword">greatsword</Link>, mwk <Link to="/eq-weapon/composite_longbow">composite longbow</Link> with 20 arrows, <Link to="/eq-misc/wooden_holy_symbol">wooden holy symbol</Link>, <Link to="/eq-misc/backpack">backpack</Link>)</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p><Link to="/rule/eagle_knights">Eagle Knights</Link> are the public face of Andoran in the eyes of surrounding nations - an army of citizen-soldiers who rose up to defend the hard-won freedoms of the Andoren people. The Eagle Knights serve at the forefront of their nation's armed forces, acting as scouts in dangerous regions and enemy territory, elite troops for the most perilous missions, officers for militias, and advisors to communities threatened by bandits, foreign raids, or dangerous wildlife. Eagle Knights put their lives on the line on a regular basis, and that risk earns them the respect of their fellow citizens.</p>
 <p>However, the war Eagle Knights wage is not merely one of military combat. In a world dominated by monarchy and despotism, the citizen-soldiers must also fight on the vanguard of an ideological army, championing the strange notion that the ordinary citizens of a nation have both the right and responsibility to govern themselves. The Eagle Knights hold faith that the common folk are more than capable of holding a large nation together without being crushed beneath the weight of bureaucracy or dissolving into factional, sectional, and ideological squabbling that could hurl the nation into anarchy in the face of a crisis.</p>
 <p>Among the Eagle Knights, the members of the Steel Falcons faction serve as Andoran's armed ambassadors to the world at large. While the larger part of the Eagle Knights is concerned with the nation's safety and order, the Steel Falcons travel abroad to bring awareness of the history and culture of Andoran to other lands and to spread the gospel of liberty. They travel not as seditionists (unless they are subverting tyranny), but rather as emissaries sharing the national narrative that makes Andoran unique among the nations. They are also trained listeners, culling important intelligence from information commonly available in the foreign lands they roam, returning to Andoran with invaluable details about attitudes and activities abroad.</p>
 </>};
-const _haughty_avenger = {title: "Haughty Avenger", jsx: <><p className="statblockHeaderFull"><span>Haughty Avenger</span><span>CR 2</span></p>
+const _haughty_avenger = {title: "Haughty Avenger", jsx: <><Header full><span>Haughty Avenger</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 113</Link><br/><strong>XP</strong> 600<br/>Half-elf <Link to="/class/paladin">paladin</Link> 3<br/>LG Medium humanoid (elf, human)<br/><strong>Init</strong> +2; <strong>Senses</strong> low-light vision; Perception +4<br/>Aura courage (10 ft.)</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 18, touch 12, flat-footed 16 (+5 armor, +2 Dex, +1 shield)<br/><strong>hp</strong> 21 (3d10)<br/><strong>Fort</strong> +5, <strong>Ref</strong> +5, <strong>Will</strong> +6; +2 vs. enchantments</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk rapier +4 (1d6+2/18-20), dagger +3 (1d4+1/19-20) or mwk rapier +6 (1d6+2/18-20)<br/><strong>Ranged</strong> dagger +5 (1d4+2/19-20)<br/><strong>Special Attacks</strong> smite evil 1/day (+2 attack and AC, +3 damage)<br/><strong>Spell-Like Abilities</strong> (CL 3rd; concentration +5)<br/><em>At will</em>-<Link to="/spell/detect_evil">detect evil</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The paladin uses her quick speed and athletic skill to outmaneuver opponents, wearing them down with smite evil.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 15, <strong>Dex</strong> 15, <strong>Con</strong> 10, <strong>Int</strong> 8, <strong>Wis</strong> 12, <strong>Cha</strong> 14<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +5; <strong>CMD</strong> 17<br/><strong>Feats</strong> <Link to="/feat/skill_focus">Skill Focus</Link> (Acrobatics), <Link to="/feat/two_weapon_defense">Two-Weapon Defense</Link>, <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link><br/><strong>Skills</strong> Acrobatics +7, Diplomacy +7, Perception +4<br/><strong>Languages</strong> Common, Elven<br/><strong>SQ</strong> aura, code of conduct, elf blood, <Link to="/ability/lay_on_hands">lay on hands</Link> (1d6, 3/day), mercy (<Link to="/mercy/shaken">shaken</Link>)<br/><strong>Combat Gear</strong> <Link to="/eq-weapon/holy_water">holy water</Link>; <strong>Other Gear</strong> +1 <Link to="/eq-armor/chain_shirt">chain shirt</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, masterwork <Link to="/eq-weapon/rapier">rapier</Link>, 53 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Haughty avengers often serve as diplomats and bodyguards.</p>
 <h3 id="npc-haughty_avenger-nyalil-stormstrike">Nyalil Stormstrike</h3>
 <p>Nyalil sees herself as a full elf, not a half-breed. She so thoroughly rejects her human side that she treats humans as lesser creatures - but can be so charming that humans often love her anyway.</p>
 <p><strong>Combat Encounters:</strong> Nyalil is often in the company of elven knights, wizards, and priests, who only halfway accept her.</p>
 <p><strong>Roleplaying Suggestions:</strong> Nyalil is both charming and arrogant, and her words are often a stream of veiled insultsand clever quips, especially when she's dealing with humans.</p>
 </>};
-const _heir_apparent = {title: "Heir Apparent", jsx: <><p className="statblockHeaderFull"><span>Heir Apparent</span><span>CR 2</span></p>
+const _heir_apparent = {title: "Heir Apparent", jsx: <><Header full><span>Heir Apparent</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 251</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/npcclass/aristocrat">aristocrat</Link> 4<br/>LG Medium humanoid (human)<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +3</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)<br/><strong>hp</strong> 22 (4d8+4)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +2, <strong>Will</strong> +3</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> mwk longsword +4 (1d8/19-20)<br/><strong>Ranged</strong> dagger +4 (1d4/19-20)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The aristocrat fights with skill and caution, as suits one whose duty is to the throne. If in the company of others, she suggests clever tactics even if she is not actually in command of the group.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 12, <strong>Con</strong> 10, <strong>Int</strong> 11, <strong>Wis</strong> 8, <strong>Cha</strong> 13<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +3; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Diplomacy), <Link to="/feat/toughness">Toughness</Link><br/><strong>Skills</strong> Diplomacy +11, Knowledge (engineering, religion) +4, Knowledge (history) +5, Knowledge (nobility) +7, Linguistics +4, Perception +3, Perform (dance) +5, Ride +5, Sense Motive +4, Survival +5<br/><strong>Languages</strong> Common, Elven<br/><strong>Combat Gear</strong> oil of <Link to="/spell/bless_weapon">bless weapon</Link>, potion of <Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link>, potion of <Link to="/spell/spider_climb">spider climb</Link>; <strong>Other Gear</strong> masterwork <Link to="/eq-armor/breastplate">breastplate</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, masterwork <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-misc/nobles_outfit">noble's outfit</Link>, <Link to="/eq-misc/signet_ring">signet ring</Link>, 253 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The heir apparent has been groomed to rule since birth, yet aspires to an even greater destiny. She welcomes the obligations of a ruling queen, and hopes to accomplish deeds of great heroism, justice, and mercy during her time on the throne. She is normally accompanied by guards (warriors 3) or officers (aristocrats 6).</p>
 <p>Some of her remaining wealth is in the form of royal regalia, such as a circlet, and is easily recognized as royal property.</p>
 </>};
-const _hellknight_armiger = {title: "Hellknight Armiger", jsx: <><p className="statblockHeaderFull"><span>Hellknight Armiger</span><span>CR 2</span></p>
+const _hellknight_armiger = {title: "Hellknight Armiger", jsx: <><Header full><span>Hellknight Armiger</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_npc_codex">Inner Sea NPC Codex pg. 31</Link><br/><strong>XP</strong> 600<br/>Half-orc <Link to="/class/fighter">fighter</Link> 3<br/>LN Medium humanoid (human, orc)<br/><strong>Init</strong> +1; <strong>Senses</strong> darkvision 60 ft.; Perception +1</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 19, touch 11, flat-footed 18 (+8 armor, +1 Dex)<br/><strong>hp</strong> 27 (3d10+6)<br/><strong>Fort</strong> +5, <strong>Ref</strong> +2, <strong>Will</strong> +2 (+1 vs. fear)<br/><strong>Defensive Abilities</strong> bravery +1, orc ferocity</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> mwk alchemical silver glaive +7 (1d10+2/&times;3)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 15, <strong>Dex</strong> 13, <strong>Con</strong> 14, <strong>Int</strong> 8, <strong>Wis</strong> 12, <strong>Cha</strong> 12<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +5; <strong>CMD</strong> 16<br/><strong>Feats</strong> <Link to="/feat/furious_focus">Furious Focus</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link> (glaive)<br/><strong>Skills</strong> Intimidate +10, Knowledge (planes) +1, Sense Motive +3<br/><strong>Languages</strong> Common, Orc<br/><strong>SQ</strong> armor training 1, orc blood, weapon familiarity<br/><strong>Combat Gear</strong> oil of <Link to="/spell/magic_weapon">magic weapon</Link>, potion of <Link to="/spell/bulls_strength">bull's strength</Link>, potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>; <strong>Other Gear</strong> mwk <Link to="/eq-armor/half_plate">half-plate</Link>, mwk <Link to="/eq-material/alchemical_silver">alchemical silver</Link> <Link to="/eq-weapon/glaive">glaive</Link>, 12 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>One does not step lightly on the path to becoming a <Link to="/rule/hellknights">Hellknight</Link>. A Hellknight is not simply a disciplined warrior, nor is she just a strict supporter of a lawful society. A Hellknight is an instrument of unyielding, inevitable order. Every Hellknight knows that she and her fellows are the tools by which society will be broken and remade in accordance with the teachings of their code, which they call "The Measure and the Chain." By that code, all who live must be forced to obey the law. Only by imposing order can the Hellknights establish justice; only by overcoming the most difficult trials can a mortal be made worthy and able to impose that order.</p>
 <p>A Hellknight armiger has chosen to subject herself to the Measure and to bear the Chain. She has not yet earned a rank or title from her chosen order and instead serves one or more Hellknights as a squire or banner bearer while she prepares herself to undertake the tests of knighthood. An armiger strives to emulate her betters by mastering the order's favored weapons - such as the glaive for those among the Order of the Pyre - and learning the Measure's seemingly endless list of infractions and violations and the required punishments for each.</p>
 <p>An armiger also studies the lore of Hell of the infernal realms. This study serves two purposes. First, it allows her to understand and apply infernal law without mercy-valued because that infernal realm is an unflinching example of absolute order. Second, it prepares her to do battle with Hell's minions. These battles are required for admittance into the ranks of the Hellknights, but they continue throughout a knight's development, as her courage and strength are constantly tested to ensure that she remains worthy.</p>
 <p>Hellknight armigers are most likely to be found in the lands and towns surrounding their order's citadel. Because they are not yet full Hellknights, they may not travel outside of the areas controlled by their order without permission. When they do travel with a contingent of Hellknights, it is usually as part of a test of discipline, loyalty, or courage. Those who fail are subjected to the same terrible punishments as any who break the law.</p>
 </>};
-const _heretic_cultist = {title: "Heretic (Cultist)", jsx: <><p className="statblockHeaderFull"><span>Heretic (Cultist)</span><span>CR 2</span></p>
+const _heretic_cultist = {title: "Heretic (Cultist)", jsx: <><Header full><span>Heretic (Cultist)</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 278</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/class/cleric">cleric</Link> 3<br/>NE Medium humanoid<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +3</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 18, touch 11, flat-footed 17 (+6 armor, +1 Dex, +1 shield)<br/><strong>hp</strong> 16 (3d8+3)<br/><strong>Fort</strong> +4, <strong>Ref</strong> +2, <strong>Will</strong> +5</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> mwk sickle +3 (1d6)<br/><strong>Ranged</strong> dart +3 (1d4)<br/><strong>Special Attacks</strong> channel negative energy 6/day (DC 14, 2d6)<br/><strong>Spell-Like Abilities</strong> (CL 3rd; concentration +5)<br/><em>6/day</em>-rebuke death (1d4+1), touch of evil (1 round)<br/><strong>Cleric Spells Prepared</strong> (CL 3rd; concentration +5)<br/><em>2nd</em>-<Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link><sup><InnerLink showBacklink="backlink-npc-heretic_cultist-ref-D-1" id="npc-heretic_cultist-ref-D-1" data-hash-target to="npc-heretic_cultist-D">1</InnerLink></sup>, <Link to="/spell/death_knell">death knell</Link> (DC 14), <Link to="/spell/hold_person">hold person</Link> (DC 14)<br/><em>1st</em>-<Link to="/spell/bane">bane</Link> (DC 13), <Link to="/spell/cause_fear">cause fear</Link> (DC 13), <Link to="/spell/cure_light_wounds">cure light wounds</Link><sup><InnerLink showBacklink="backlink-npc-heretic_cultist-ref-D-2" id="npc-heretic_cultist-ref-D-2" data-hash-target to="npc-heretic_cultist-D">1</InnerLink></sup>, <Link to="/spell/doom">doom</Link> (DC 13)<br/><em>0 (at will)</em>-<Link to="/spell/bleed">bleed</Link> (DC 12), <Link to="/spell/guidance">guidance</Link>, <Link to="/spell/light">light</Link>, <Link to="/spell/resistance">resistance</Link><br/><strong>Domains</strong> <Link to="/domain/evil">Evil</Link>, <Link to="/domain/healing">Healing</Link></p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 13, <strong>Con</strong> 12, <strong>Int</strong> 8, <strong>Wis</strong> 15, <strong>Cha</strong> 16<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +2; <strong>CMD</strong> 13<br/><strong>Feats</strong> <Link to="/feat/alignment_channel">Alignment Channel</Link>, <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/selective_channeling">Selective Channeling</Link><br/><strong>Skills</strong> Knowledge (planes) +4, Knowledge (religion) +4, Linguistics +4, Perception +3, Sense Motive +6, Spellcraft +3<br/><strong>Languages</strong> Abyssal, Common, Infernal<br/><strong>Combat Gear</strong> <Link to="/eq-poison/bloodroot">bloodroot</Link> poison (1 dose), vials of <Link to="/eq-weapon/unholy_water">unholy water</Link> (2); <strong>Other Gear</strong> <Link to="/eq-armor/chainmail">chainmail</Link>, <Link to="/eq-armor/light_steel_shield">light steel shield</Link>, <Link to="/eq-weapon/dart">darts</Link> (4), masterwork <Link to="/eq-weapon/sickle">sickle</Link>, <Link to="/eq-misc/silver_unholy_symbol">silver unholy symbol</Link><br/><strong>Boon</strong> A cultist can hide the PCs or others they designate within a secret cult sanctuary for up to 3 days. They could also plant false evidence implicating an NPC as a cult member.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Cultists are members of secret societies, meeting hooded and masked in dark masses and unspeakable, blasphemous rites. They gather the lay cult members and lead them in their maledictions, channeling for them the shadowed powers of the nether planes.</p>
 <p>Cultists can be found leading small cult cells or congregations of a half-dozen farmers, shipmates, bloodthirsty cannibals, or even misguided acolytes (CR 5). A pair of cultists might lead a larger cult of nine doomsayers or initiates (CR 8).</p>
 <p>Cultists might also serve as disciples of more powerful spellcasters. A pair of cultists can be acolytes of an evil medium (CR 6), three cultists might be apprenticed to a shaman (CR 7), four could follow a conjurist (CR 8), or up to a dozen cultists might follow a cult leader (CR 12).</p>
@@ -1114,76 +1115,76 @@ const _heretic_cultist = {title: "Heretic (Cultist)", jsx: <><p className="statb
 </section>
 </>};
 const _jinx_eater = {title: "Jinx Eater", jsx: <><p><em>Black feathers cover this crow-headed swashbuckler, his hands and legs ending in powerful talons. He wields a long, curved sword and wears brightly colored studded leather armor.</em></p>
-<p className="statblockHeaderFull"><span>Jinx Eater</span><span>CR 2</span></p>
+<Header full><span>Jinx Eater</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/isles_of_the_shackles">Isles of the Shackles pg. 50</Link><br/><strong>XP</strong> 600<br/>Male <Link to="/class/rogue">rogue</Link> (<Link to="/arc-rogue/charlatan">charlatan</Link>) 3<br/>CN Medium humanoid (tengu)<br/><strong>Init</strong> +7; <strong>Senses</strong> low-light vision; Perception +10</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 16, touch 13, flat-footed 13 (+3 armor, +3 Dex)<br/><strong>hp</strong> 20 (3d8+3)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +6, <strong>Will</strong> +3<br/><strong>Defensive Abilities</strong> <Link to="/ability/evasion">evasion</Link></p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk rapier +6 (1d6-1/18-20)<br/><strong>Ranged</strong> mwk light crossbow +6 (1d8/19-20)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +2d6</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 8, <strong>Dex</strong> 17, <strong>Con</strong> 12, <strong>Int</strong> 10, <strong>Wis</strong> 14, <strong>Cha</strong> 13<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +1; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/weapon_finesse">Weapon Finesse</Link><br/><strong>Skills</strong> Acrobatics +5, Bluff +7, Climb +1, Diplomacy +7, Escape Artist +9, Intimidate +7, Knowledge (local) +6, Linguistics +4, Perception +10, Sense Motive +8, Sleight of Hand +9, Stealth +11; Racial Modifiers +4 Linguistics, +2 Perception, +2 Stealth<br/><strong>Languages</strong> Common, Tengu<br/><strong>SQ</strong> advanced rogue talents (<Link to="/talent/rumormonger">rumormonger</Link>), swordtrained</p>
-<p className="statblockSubHeader">Ecology</p>
+<Header sub>Ecology</Header>
 <p><strong>Environment</strong> any<br/><strong>Organization</strong> solitary<br/><strong>Treasure</strong> <Link to="/rule/npc_gear">NPC gear</Link> (masterwork <Link to="/eq-armor/studded_leather">studded leather</Link>, masterwork <Link to="/eq-weapon/rapier">rapier</Link>, masterwork <Link to="/eq-weapon/light_crossbow">light crossbow</Link> with 20 bolts, potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), potion of <Link to="/spell/invisibility">invisibility</Link>, <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>, <Link to="/eq-misc/antitoxin">antitoxin</Link>, <Link to="/eq-misc/smokestick">smokesticks</Link> (2), <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bag</Link>, <Link to="/eq-weapon/thunderstone">thunderstone</Link>, other treasure)</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Perhaps nowhere in the Inner Sea region are tengus a more common sight than aboard a pirate vessel in the Shackles. Superstitious by nature, many sailors in this region have assigned to these feathered humanoids the dual role of good luck charm and mascot, based on the misguided belief that tengus can absorb ill omens and bad luck. Where this notion came from is anyone's guess, though some scholars have suggested that tengus may have been confused with the chickcharney, with whom they have nothing in common aside from their feathered forms. While this old sailor's conceit may earn such tengus, referred to as "jinx eaters," some special treatment aboard ship, perhaps exempting them from the rough bullying so common in pirate crews, it does not mean they do not have the same responsibilities and duties of all mariners engaged in piracy. Jinx eaters must be able to hold their own in a fight, though most adopt methods of avoiding such conflicts altogether, honing their skills of guile and misdirection instead of brawn and steel.</p>
 <p>Jinx eaters are typically mad for plunder, especially seeking out jewelry and other such baubles, at times even lifting them from unsuspecting shipmates. Such pilfering inevitably leads to angry confrontations onboard, and the kleptomaniacal tengu must rely on his reputation as a source of good luck if he is to be spared a severe beating at the hands of his cohorts.</p>
 <p>Several settlements around the Shackles host rookeries of decent size, and it is common to find retired jinx eaters in such districts; often these are particularly boastful individuals who have given up on the life at sea or have been ousted from their old ship by their increasingly jaded crew members.</p>
 </>};
-const _journeyman_carpenter = {title: "Journeyman Carpenter", jsx: <><p className="statblockHeaderFull"><span>Journeyman Carpenter</span><span>CR 2</span></p>
+const _journeyman_carpenter = {title: "Journeyman Carpenter", jsx: <><Header full><span>Journeyman Carpenter</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 261</Link><br/><strong>XP</strong> 600<br/>Half-orc <Link to="/npcclass/expert">expert</Link> 4<br/>N Medium humanoid (human, orc)<br/><strong>Init</strong> +0; <strong>Senses</strong> darkvision 60 ft.; Perception +4</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 10, touch 10, flat-footed 10<br/><strong>hp</strong> 22 (4d8+4)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +1, <strong>Will</strong> +3<br/><strong>Defensive Abilities</strong> orc ferocity</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> light hammer +4 (1d4+1)<br/><strong>Ranged</strong> light hammer +3 (1d4+1)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The expert uses the terrain to his advantage, including ladders and narrow ledges.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 13, <strong>Dex</strong> 10, <strong>Con</strong> 12, <strong>Int</strong> 12, <strong>Wis</strong> 8, <strong>Cha</strong> 11<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +4; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Craft [carpentry])<br/><strong>Skills</strong> Acrobatics +6, Bluff +5, Climb +6, Craft (carpentry) +11, Diplomacy +5, Disable Device +6, Escape Artist +2, Intimidate +9, Knowledge (engineering, local) +8, Perception +4<br/><strong>Languages</strong> Common, Orc<br/><strong>SQ</strong> orc blood, weapon familiarity<br/><strong>Combat Gear</strong> oil of <Link to="/spell/mending">mending</Link> (5), potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), potions of <Link to="/spell/spider_climb">spider climb</Link> (2); <strong>Other Gear</strong> <Link to="/eq-weapon/light_hammer">light hammer</Link>, <Link to="/eq-misc/block_and_tackle">block and tackle</Link>, <Link to="/eq-misc/chain_10_ft">chain (20 ft.)</Link>, <Link to="/eq-misc/crowbar">crowbars</Link> (2), <Link to="/eq-misc/everburning_torch">everburning torch</Link>, <Link to="/eq-misc/hammer">hammers</Link> (2), <Link to="/eq-misc/ladder">ladder</Link>, masterwork <Link to="/eq-misc/artisans_tools_mwk">artisan's tools</Link>, <Link to="/eq-misc/bit_and_bridle">bits and bridles</Link> (2), <Link to="/eq-misc/mule">mules</Link> (2), <Link to="/eq-misc/pack_saddle">pack saddles</Link> (2), <Link to="/eq-misc/wagon">wagon</Link>, 561 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>A journeyman carpenter is skilled with a hammer, but tries to avoid violence except to defend himself and his family. Tools can be rebuilt or replaced, and he will not waste his life protecting mere objects.</p>
 <p>The above stat block can be used for any journeyman whose trade requires skill and strength, such as a blacksmith, stonemason, or teamster. The stat block can also be used for older warriors in orc or hobgoblin tribes who are not as vigorous but are still able to fight.</p>
 </>};
-const _kitharodian_academy_performer = {title: "Kitharodian Academy Performer", jsx: <><p className="statblockHeaderFull"><span>Kitharodian Academy Performer</span><span>CR 2</span></p>
+const _kitharodian_academy_performer = {title: "Kitharodian Academy Performer", jsx: <><Header full><span>Kitharodian Academy Performer</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_npc_codex">Inner Sea NPC Codex pg. 33</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/class/bard">bard</Link> 3<br/>CN Medium humanoid (human)<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 12, flat-footed 15 (+4 armor, +2 Dex, +1 shield)<br/><strong>hp</strong> 20 (3d8+3)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +5, <strong>Will</strong> +4; +4 vs. bardic performance, language-dependent, and sonic</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk rapier +5 (1d6+1/18-20) or whip +4 (1d3+1 nonlethal)<br/><strong>Ranged</strong> shortbow +4 (1d6/&times;3)<br/><strong>Special Attacks</strong> bardic performance 11 rounds/day (<Link to="/performance/countersong">countersong</Link>, <Link to="/performance/distraction">distraction</Link>, <Link to="/performance/fascinate">fascinate</Link>, <Link to="/performance/inspire_competence">inspire competence</Link> +2, <Link to="/performance/inspire_courage">inspire courage</Link> +1)<br/><strong>Bard Spells Known</strong> (CL 3rd; concentration +6)<br/><em>1st (4/day)</em>-<Link to="/spell/charm_person">charm person</Link> (DC 14), <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/spell/hypnotism">hypnotism</Link> (DC 14), <Link to="/spell/sleep">sleep</Link> (DC 14)<br/><em>0 (at will)</em>-<Link to="/spell/daze">daze</Link> (DC 13), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/ghost_sound">ghost sound</Link> (DC 13), <Link to="/spell/lullaby">lullaby</Link> (DC 13), <Link to="/spell/prestidigitation">prestidigitation</Link>, <Link to="/spell/read_magic">read magic</Link></p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 14, <strong>Con</strong> 10, <strong>Int</strong> 13, <strong>Wis</strong> 8, <strong>Cha</strong> 17<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +3; <strong>CMD</strong> 15<br/><strong>Feats</strong> <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Perform [string]), <Link to="/feat/weapon_finesse">Weapon Finesse</Link><br/><strong>Skills</strong> Acrobatics +7, Bluff +14, Diplomacy +14, Disguise +8, Knowledge (history) +6, Knowledge (local) +6, Knowledge (nobility) +6, Perception +5, Perform (sing) +9, Perform (string) +14, Spellcraft +5, Stealth +7, Use Magic Device +9<br/><strong>Languages</strong> Common, Elven<br/><strong>SQ</strong> bardic knowledge +1, versatile performance (string)<br/><strong>Combat Gear</strong> scroll of <Link to="/spell/disguise_self">disguise self</Link>, scroll of <Link to="/spell/grease">grease</Link>, wand of <Link to="/spell/hideous_laughter">hideous laughter</Link> (48 charges); <strong>Other Gear</strong> mwk <Link to="/eq-armor/chain_shirt">chain shirt</Link>, mwk <Link to="/eq-armor/buckler">buckler</Link>, mwk <Link to="/eq-weapon/rapier">rapier</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link> with 20 arrows, <Link to="/eq-weapon/whip">whip</Link>, <Link to="/eq-misc/entertainers_outfit">entertainer's outfit</Link>, <Link to="/eq-misc/mwk_musical_instrument">mwk musical instrument</Link> (kithara), <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link>, 8 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The graduates of the <Link to="/rule/kitharodian_academy">Kitharodian Academy</Link>, Oppara's famed bardic college, number among the Inner Sea region's most talented performers. While members of Taldor's secretive Lion Blades are drawn from the ranks of the college's most gifted students, the vast majority of its graduates go on to promising careers in artistic performance - usually as kitharodes, virtuosos with the traditional Taldan lyre known as the kithara. Often skilled singers as well, kitharodes play the kithara as accompaniment to dances, epic recitations, odes, and songs, as well as the odd solo performance.</p>
 <p>Regardless of their eventual vocation, Kitharodian Academy performers are trained in far more than just music and culture. During their time at the college, students are taught the fine arts of persuasion and deception, and they spend vast amounts of time studying history, languages, law, magical theory, religion, and science, to say nothing of more esoteric subjects. They are drilled in combat as well as magic, and learn to use their performances to sway the thoughts and attitudes of any audience. To successfully pass the rigorous final exams, a prospective graduate must demonstrate that her mind and body have both been honed to keen precision.</p>
 <p>A Kitharodian Academy performer is a darling of Oppara's social scene, and the most accomplished ones find themselves in great demand for the banquets, parties, and receptions hosted by Taldor's aristocratic elite. Kitharodian Academy performers are also frequently skilled duelists, as competition for engagements, noble favors, and prestigious awards is fierce and sometimes violent. A graduate of the academy can easily become a popular celebrity, but fame and fortune are fickle and fleeting, never more so than in Oppara's cutthroat high society - the toast of the town today can find herself penniless and forgotten tomorrow.</p>
 <p>As a result, many Kitharodian Academy performers leave the capital, and some flee Taldor entirely, in search of friendlier audiences who will honestly appreciate them more for their art than for their social standing. Others forsake the performance halls of the cities for the open road, seeking fame of a different sort, drawn by the lure of a life filled with adventure.</p>
 </>};
-const _local_celebrity = {title: "Local Celebrity", jsx: <><p className="statblockHeaderFull"><span>Local Celebrity</span><span>CR 2</span></p>
+const _local_celebrity = {title: "Local Celebrity", jsx: <><Header full><span>Local Celebrity</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 27</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/class/bard">bard</Link> 3<br/>LE Medium humanoid (human)<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +4</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 12, touch 11, flat-footed 11 (+1 armor, +1 Dex)<br/><strong>hp</strong> 20 (3d8+3)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +4, <strong>Will</strong> +3; +4 vs. bardic performance, language-dependent, and sonic</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk dagger +4 (1d4-1/19-20)<br/><strong>Ranged</strong> dagger +3 (1d4-1/19-20)<br/><strong>Special Attacks</strong> bardic performance 10 rounds/day (<Link to="/performance/countersong">countersong</Link>, <Link to="/performance/distraction">distraction</Link>, <Link to="/performance/fascinate">fascinate</Link>, <Link to="/performance/inspire_competence">inspire competence</Link> +2, <Link to="/performance/inspire_courage">inspire courage</Link> +1)<br/><strong>Bard Spells Known</strong> (CL 3rd; concentration +5)<br/><em>1st (4/day)</em>-<Link to="/spell/charm_person">charm person</Link> (DC 14), <Link to="/spell/cure_light_wounds">cure light wounds</Link> (DC 13), <Link to="/spell/hypnotism">hypnotism</Link> (DC 14), <Link to="/spell/sleep">sleep</Link> (DC 14)<br/><em>0 (at will)</em>-<Link to="/spell/daze">daze</Link> (DC 13), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/light">light</Link>, <Link to="/spell/lullaby">lullaby</Link> (DC 13), <Link to="/spell/mage_hand">mage hand</Link>, <Link to="/spell/resistance">resistance</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The bard uses bardic performance to bolster his entourage, and spells to impede enemies.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 8, <strong>Dex</strong> 13, <strong>Con</strong> 12, <strong>Int</strong> 14, <strong>Wis</strong> 10, <strong>Cha</strong> 15<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +1; <strong>CMD</strong> 12<br/><strong>Feats</strong> <Link to="/feat/skill_focus">Skill Focus</Link> (Bluff), <Link to="/feat/spell_focus">Spell Focus</Link> (enchantment), <Link to="/feat/weapon_finesse">Weapon Finesse</Link><br/><strong>Skills</strong> Appraise +6, Bluff +11, Diplomacy +8, Disguise +8, Intimidate +6, Knowledge (arcana, nobility) +7, Knowledge (local) +9, Perception +4, Perform (act, dance) +8, Perform (sing) +7, Sense Motive +5, Spellcraft +8<br/><strong>Languages</strong> Common, Elven, Infernal<br/><strong>SQ</strong> bardic knowledge +1, versatile performance (act)<br/><strong>Combat Gear</strong> potion of <Link to="/spell/invisibility">invisibility</Link>; <strong>Other Gear</strong> masterwork <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/magic-wondrous/bracers_of_armor_1">bracers of armor +1</Link>, 48 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Celebrity bards love the spotlight and their throngs of admiring fans.</p>
 <h3 id="npc-local_celebrity-tremin-kaylos">Tremin Kaylos</h3>
 <p>An up-and-coming local star, Tremin is the son of a crime boss. He uses his social clout to smear rivals.</p>
 </>};
 const _mystery_cultist = {title: "Mystery Cultist", jsx: <><p><em>Every step this fashionable Varisian takes seems like part of a dance, her dozens of strange baubles tinkling with her every movement.</em></p>
-<p className="statblockHeaderFull"><span>Mystery Cultist</span><span>CR 2</span></p>
+<Header full><span>Mystery Cultist</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/magnimar_city_of_monuments">Magnimar, City of Monuments pg. 55</Link><br/><strong>XP</strong> 600<br/>Female human <Link to="/class/cleric">cleric</Link> of <Link to="/faith/ashava">Ashava</Link> 3<br/>CG Medium humanoid (human)<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +3</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 14, touch 13, flat-footed 11 (+1 armor, +2 Dex, +1 dodge)<br/><strong>hp</strong> 20 (3d8+3)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +3, <strong>Will</strong> +6</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk bladed scarf +5 (1d6+1) or dagger +4 (1d4+1/19-20)<br/><strong>Ranged</strong> light crossbow +4 (1d8/19-20)<br/><strong>Special Attacks</strong> channel positive energy 4/day (DC 12, 2d6)<br/><strong>Spell-Like Abilities</strong> (CL 3rd; concentration +6)<br/><em>6/day</em>-touch of darkness (1 rounds)<br/><em>6/day</em>-touch of good (+1)<br/><strong>Cleric Spells Prepared</strong> (CL 3rd; concentration +6)<br/><em>2nd</em>-<Link to="/spell/blindness_deafness">blindness/deafness</Link><sup><InnerLink showBacklink="backlink-npc-mystery_cultist-ref-D-1" id="npc-mystery_cultist-ref-D-1" data-hash-target to="npc-mystery_cultist-D">1</InnerLink></sup> (DC 15), <Link to="/spell/lesser_restoration">lesser restoration</Link><br/><em>1st</em>-<Link to="/spell/command">command</Link> (DC 14), <Link to="/spell/detect_undead">detect undead</Link>, <Link to="/spell/faerie_fire">faerie fire</Link>, <Link to="/spell/magic_weapon">magic weapon</Link><br/><em>0 (at will)</em>-<Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/guidance">guidance</Link>, <Link to="/spell/light">light</Link>, <Link to="/spell/purify_food_and_drink">purify food and drink</Link><br/><strong>Domains</strong> <Link to="/domain/good">Good</Link>, <Link to="/domain/moon">Moon</Link></p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 14, <strong>Con</strong> 10, <strong>Int</strong> 8, <strong>Wis</strong> 17, <strong>Cha</strong> 13<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +3; <strong>CMD</strong> 16<br/><strong>Feats</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/weapon_finesse">Weapon Finesse</Link><br/><strong>Skills</strong> Diplomacy +6, Heal +8, Knowledge (religion) +4<br/><strong>Languages</strong> Common, Varisian<br/><strong>SQ</strong> aura</p>
-<p className="statblockSubHeader">Ecology</p>
+<Header sub>Ecology</Header>
 <p><strong>Environment</strong> any (Magnimar)<br/><strong>Organization</strong> solitary, ensemble (2-4), or cult (5-9)<br/><strong>Treasure</strong> <Link to="/rule/npc_gear">NPC gear</Link> (masterwork <Link to="/eq-weapon/bladed_scarf">bladed scarf</Link>, <Link to="/eq-weapon/light_crossbow">light crossbow</Link> with 20 bolts, <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/magic-wondrous/bracers_of_armor_1">bracers of armor +1</Link>, potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, other treasure)</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Just as the legendary Mistress Ordellia Whilwren once prayed to a mysterious angel to save Magnimar from a devastating deluge, other dwellers of the city have likewise devoted themselves to holy figures, including angels, azatas, and agathions. Called "mystery cultists" by most Magnimarians because of their small numbers and esoteric manner of worship, the dedicated followers of the empyreal lords keep to themselves and rarely proselytize. Most mystery cults hold at least one of Magnimar's numerous monuments in high esteem, whether for their importance in local traditions or their part in Varisian legends. Practitioners of these religions often congregate around structures such as the Arvensoar, the Irespan, or the Mistress of Angels to practice their faith, sometimes forming assemblies of over a hundred worshipers. Although the cults' gatherings can occasionally be disruptive to the flow of traffic throughout the City of Monuments, Magnimar's leaders do little to dissuade the cults' practices, which are almost wholly harmless and serve to promote life, freedom, and other righteous virtues.</p>
 <p>Three of the most commonly worshiped figures among the mystery cults of Magnimar are the empyreal lords Ashava, Soralyon, and Ylimancha, though smaller cults to other celestial beings are not uncommon in the City of Monuments.</p>
 <section data-footnotes>
@@ -1195,72 +1196,72 @@ const _mystery_cultist = {title: "Mystery Cultist", jsx: <><p><em>Every step thi
 </ol>
 </section>
 </>};
-const _noble_noble_scion = {title: "Noble (Noble Scion)", jsx: <><p className="statblockHeaderFull"><span>Noble (Noble Scion)</span><span>CR 2</span></p>
+const _noble_noble_scion = {title: "Noble (Noble Scion)", jsx: <><Header full><span>Noble (Noble Scion)</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 288</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/npcclass/aristocrat">aristocrat</Link> 4<br/>N Medium humanoid<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +3</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 11, flat-footed 16 (+4 armor, +1 Dex, +2 shield)<br/><strong>hp</strong> 20 (4d8+2)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +2, <strong>Will</strong> +3</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk longsword +5 (1d8+1/19-20) or mwk lance +5 (1d8+1/&times;3) or dagger +4 (1d4+1/19-20)<br/><strong>Ranged</strong> shortbow +4 (1d6/&times;3) or dagger +4 (1d4+1/19-20)</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 12, <strong>Con</strong> 11, <strong>Int</strong> 10, <strong>Wis</strong> 8, <strong>Cha</strong> 13<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +3; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/mounted_combat">Mounted Combat</Link>, <Link to="/feat/ride_by_attack">Ride-By Attack</Link>, <Link to="/feat/trample">Trample</Link><br/><strong>Skills</strong> Bluff +5, Diplomacy +8, Intimidate +8, Knowledge (history) +4, Knowledge (local) +4, Knowledge (nobility) +5, Linguistics +5, Perception +3, Perform (dance) +5, Ride +6, Sense Motive +3<br/><strong>Languages</strong> Common<br/><strong>Combat Gear</strong> potion of <Link to="/spell/invisibility">invisibility</Link>; <strong>Other Gear</strong> masterwork <Link to="/eq-armor/chain_shirt">chain shirt</Link>, masterwork <Link to="/eq-armor/heavy_steel_shield">heavy steel shield</Link>, masterwork <Link to="/eq-weapon/lance">lance</Link>, masterwork <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link> with 20 arrows, <Link to="/eq-misc/nobles_outfit">noble's outfit</Link>, <Link to="/eq-misc/light_horse_combat_trained">light horse (combat trained)</Link> with <Link to="/eq-misc/military_saddle">military saddle</Link> and <Link to="/eq-armor/studded_leather">studded leather</Link> <Link to="/eq-armor/barding">barding</Link>, 32 gp<br/><strong>Boon</strong> A noble scion might pass on an especially juicy bit of palace gossip, granting a +5 bonus on a Knowledge (nobility) check or Diplomacy check to gather information, or could arrange a face-to-face meeting with a noble, prince, or princess.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Noble scions are the haughty and proud offspring of aristocratic sires, full of the fresh vigor of youth and all the hauteur of those born in a manor. They have received fine education and know a modicum of social graces, but typically practice them only when other highborn are present. Noble scions are scornful of commoners and vagabonds, who return the sentiment toward these peacocks strutting in their finery.</p>
 <p>If used as minor court functionaries and sycophants, noble scions can be sources of palace gossip and intrigue. They can also be used as experienced squires who have not yet risen to the knighthood, or as aristocratic cavalry.</p>
 <p>A noble scion might be appointed to lead a lance of cavarly (CR 9). A pair of noble scions might dog the footsteps of a princess (CR 7), three noble scions could make up a knight's entourage (CR 8), or eight noble scions can form a gang of rakes with a noble (CR 10).</p>
 </>};
 const _pirate_smuggler = {title: "Pirate (Smuggler)", jsx: <><p><em>This shady-looking sailor has a knowing glint in his eyes, which shift from side to side as he evaluates his surroundings.</em></p>
-<p className="statblockHeaderFull"><span>Pirate (Smuggler)</span><span>CR 2</span></p>
+<Header full><span>Pirate (Smuggler)</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/isles_of_the_shackles">Isles of the Shackles pg. 57</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/class/rogue">rogue</Link> (<Link to="/arc-rogue/smuggler">smuggler</Link>) 3<br/>CN Medium humanoid (human)<br/><strong>Init</strong> +6; <strong>Senses</strong> Perception +7</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 12, flat-footed 13 (+3 armor, +2 Dex)<br/><strong>hp</strong> 20 (3d8+3)<br/><strong>Fort</strong> +0, <strong>Ref</strong> +5, <strong>Will</strong> +2</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk scimitar +3 (1d6/18-20), sap +4 (1d6 nonlethal)<br/><strong>Ranged</strong> shortbow +4 (1d6/&times;3)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +2d6</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 14, <strong>Con</strong> 8, <strong>Int</strong> 12, <strong>Wis</strong> 13, <strong>Cha</strong> 17<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +2; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/toughness">Toughness</Link>, <Link to="/feat/weapon_finesse">Weapon Finesse</Link><br/><strong>Skills</strong> Appraise +7, Bluff +9, Diplomacy +9, Disguise +9, Intimidate +9, Knowledge (local) +7, Perception +7, Sense Motive +7, Sleight of Hand +8, Stealth +8<br/><strong>SQ</strong> bribery, conceal item, distraction, rogue talents (<Link to="/talent/fast_stealth">fast stealth</Link>)</p>
-<p className="statblockSubHeader">Ecology</p>
+<Header sub>Ecology</Header>
 <p><strong>Environment</strong> any oceans or coastlines<br/><strong>Organization</strong> solitary, pair, or team (3-5)<br/><strong>Treasure</strong> <Link to="/rule/npc_gear">NPC gear</Link> (masterwork <Link to="/eq-armor/studded_leather">studded leather</Link>, <Link to="/eq-weapon/sap">sap</Link>, masterwork <Link to="/eq-weapon/scimitar">scimitar</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link> with 20 arrows, potion of <Link to="/spell/eagles_splendor">eagle's splendor</Link>, potions of <Link to="/spell/invisibility">invisibility</Link> (2), other treasure)</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Smugglers sneak their ill-gotten gains past nosey port functionaries as well as naval inspections and blockades, and are typically stealthy rapscallions, marvelously gifted beguilers, and nimblefingered pickpockets.</p>
 </>};
-const _poacher = {title: "Poacher", jsx: <><p className="statblockHeaderFull"><span>Poacher</span><span>CR 2</span></p>
+const _poacher = {title: "Poacher", jsx: <><Header full><span>Poacher</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 129</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/class/ranger">ranger</Link> 3<br/>CE Medium humanoid (human)<br/><strong>Init</strong> +1; <strong>Senses</strong> Perception +7</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 14, touch 11, flat-footed 13 (+3 armor, +1 Dex)<br/><strong>hp</strong> 30 (3d10+9)<br/><strong>Fort</strong> +5, <strong>Ref</strong> +4, <strong>Will</strong> +2</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> 2 mwk handaxes +6 (1d6+3/&times;3)<br/><strong>Ranged</strong> mwk heavy crossbow +5 (1d10/19-20)<br/><strong>Special Attacks</strong> favored enemy (animals +2)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Before Combat</strong> If hunting an animal, the ranger drinks his potion of hide from animals.<br/><strong>During Combat</strong> The ranger sneaks close, then charges into melee. If his target is more powerful than expected, he retreats and drinks his potion of bull's strength.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 17, <strong>Dex</strong> 12, <strong>Con</strong> 14, <strong>Int</strong> 10, <strong>Wis</strong> 13, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +6; <strong>CMD</strong> 17<br/><strong>Feats</strong> <Link to="/feat/double_slice">Double Slice</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/quick_draw">Quick Draw</Link>, <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link> (handaxe)<br/><strong>Skills</strong> Climb +9, Intimidate +4, Knowledge (geography) +5, Knowledge (local) +2, Knowledge (nature) +6, Perception +7, Stealth +7, Survival +7<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> <Link to="/ability/favored_terrain">favored terrain</Link> (forest +2), track +1, <Link to="/ability/wild_empathy">wild empathy</Link> +2<br/><strong>Combat Gear</strong> potion of <Link to="/spell/bulls_strength">bull's strength</Link>, potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), potion of <Link to="/spell/hide_from_animals">hide from animals</Link>; <strong>Other Gear</strong> masterwork <Link to="/eq-armor/studded_leather">studded leather</Link>, masterwork <Link to="/eq-weapon/handaxe">handaxes</Link> (2), masterwork <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link> with 20 bolts, 63 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Poachers hunt animals for meat or trophies in areas where hunting is forbidden.</p>
 <h3 id="npc-poacher-brayvek-the-butcher">Brayvek the Butcher</h3>
 <p>Brayvek is a sadist who enjoys cutting up animals; selling the meat, horns, and tusks is merely a side benefit.</p>
 </>};
-const _road_wanderer = {title: "Road (Wanderer)", jsx: <><p className="statblockHeaderFull"><span>Road (Wanderer)</span><span>CR 2</span></p>
+const _road_wanderer = {title: "Road (Wanderer)", jsx: <><Header full><span>Road (Wanderer)</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 290</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/class/bard">bard</Link> 1/<Link to="/class/rogue">rogue</Link> 2<br/>N Medium humanoid<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +5</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 13, flat-footed 12 (+2 armor, +2 Dex, +1 dodge)<br/><strong>hp</strong> 16 (3d8+3)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +7, <strong>Will</strong> +1<br/><strong>Defensive Abilities</strong> <Link to="/ability/evasion">evasion</Link></p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> dagger +2 (1d4+1/19-20)<br/><strong>Ranged</strong> dagger +3 (1d4+1/19-20)<br/><strong>Special Attacks</strong> bardic performance 7 rounds/day (<Link to="/performance/countersong">countersong</Link>, <Link to="/performance/distraction">distraction</Link>, <Link to="/performance/fascinate">fascinate</Link> [DC 13], <Link to="/performance/inspire_courage">inspire courage</Link> +1), <Link to="/ability/sneak_attack">sneak attack</Link> +1d6<br/><strong>Bard Spells Known</strong> (CL 1st; concentration +4)<br/><em>1st (2/day)</em>-<Link to="/spell/silent_image">silent image</Link> (DC 14), <Link to="/spell/sleep">sleep</Link> (DC 14)<br/><em>0 (at will)</em>-<Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/lullaby">lullaby</Link> (DC 13), <Link to="/spell/mending">mending</Link>, <Link to="/spell/prestidigitation">prestidigitation</Link></p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 15, <strong>Con</strong> 13, <strong>Int</strong> 10, <strong>Wis</strong> 8, <strong>Cha</strong> 16<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +2; <strong>CMD</strong> 15<br/><strong>Feats</strong> <Link to="/feat/deceitful">Deceitful</Link>, <Link to="/feat/deft_hands">Deft Hands</Link>, <Link to="/feat/dodge">Dodge</Link><br/><strong>Skills</strong> Acrobatics +7, Bluff +11, Disable Device +12, Disguise +13, Escape Artist +6, Handle Animal +4, Knowledge (local) +5, Perception +5, Perform (dance) +8, Perform (percussion) +10, Sleight of Hand +10, Stealth +8<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> bardic knowledge +1, rogue talent (<Link to="/talent/stand_up">stand up</Link>), <Link to="/ability/trapfinding">trapfinding</Link> +1<br/><strong>Combat Gear</strong> scrolls of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/spell/disguise_self">disguise self</Link>, <Link to="/spell/invisibility">invisibility</Link> (2), <Link to="/eq-misc/smokestick">smokesticks</Link> (2), <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bag</Link>, <Link to="/eq-weapon/thunderstone">thunderstones</Link> (2); <strong>Other Gear</strong> <Link to="/eq-armor/leather_armor">leather armor</Link>, <Link to="/eq-weapon/dagger">daggers</Link> (5), <Link to="/eq-misc/disguise_kit">disguise kit</Link>, <Link to="/eq-misc/masterwork_tambourine">masterwork tambourine</Link>, masterwork <Link to="/eq-misc/thieves_tools_mwk">thieves' tools</Link>, <Link to="/eq-misc/mule">mule</Link>, <Link to="/eq-misc/wagon">wagon</Link>, 25 gp<br/><strong>Boon</strong> A wanderer can smuggle an item or person into or out of a guarded city or encampment in their wagons or as part of their troupe.</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>A wanderer is a member of a band of traveling folk who ply the back roads and alleys of more settled lands, often chased by rumors of thievery or kidnapping, mending pots and knives and giving exotic performances that arouse the ire of the staid.</p>
 <p>Wanderers are often excellent entertainers, whether musicians, dancers, or actors, but can also serve as exotic cutpurses and charlatans.</p>
 <p>Wanderers often travel in troupes of four entertainers (CR 6), or in larger groups of a dozen or more (CR 9+). A lone wanderer might accompany a vagabond (CR 4) or hedge wizard (CR 5), while a troupe of five or six might work with a fortune teller (CR 8) or highwayman (CR 9).</p>
 </>};
-const _scholar_priest = {title: "Scholar Priest", jsx: <><p className="statblockHeaderFull"><span>Scholar Priest</span><span>CR 2</span></p>
+const _scholar_priest = {title: "Scholar Priest", jsx: <><Header full><span>Scholar Priest</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 45</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/class/cleric">cleric</Link> of <Link to="/faith/nethys">Nethys</Link> 3<br/>CN Medium humanoid (human)<br/><strong>Init</strong> -1; <strong>Senses</strong> Perception +3</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 9, flat-footed 15 (+6 armor, -1 Dex)<br/><strong>hp</strong> 23 (3d8+6)<br/><strong>Fort</strong> +4, <strong>Ref</strong> +0, <strong>Will</strong> +6</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> quarterstaff +3 (1d6+1)<br/><strong>Ranged</strong> light crossbow +1 (1d8/19-20)<br/><strong>Special Attacks</strong> channel negative energy 7/day (DC 13, 2d6), hand of the acolyte (6/day)<br/><strong>Spell-Like Abilities</strong> (CL 3rd; concentration +6)<br/><em>6/day</em>-blast rune (1d6+1 energy damage, 3 rounds)<br/><strong>Cleric Spells Prepared</strong> (CL 3rd; concentration +6)<br/><em>2nd</em>-<Link to="/spell/hold_person">hold person</Link> (DC 16), <Link to="/spell/magic_mouth">magic mouth</Link><sup><InnerLink showBacklink="backlink-npc-scholar_priest-ref-D-1" id="npc-scholar_priest-ref-D-1" data-hash-target to="npc-scholar_priest-D">1</InnerLink></sup>, <Link to="/spell/spiritual_weapon">spiritual weapon</Link><br/><em>1st</em>-<Link to="/spell/command">command</Link> (2, DC 15), <Link to="/spell/erase">erase</Link><sup><InnerLink showBacklink="backlink-npc-scholar_priest-ref-D-2" id="npc-scholar_priest-ref-D-2" data-hash-target to="npc-scholar_priest-D">1</InnerLink></sup>, <Link to="/spell/obscuring_mist">obscuring mist</Link><br/><em>0 (at will)</em>-<Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/detect_poison">detect poison</Link>, <Link to="/spell/purify_food_and_drink">purify food and drink</Link>, <Link to="/spell/stabilize">stabilize</Link><br/><strong>Domains</strong> <Link to="/domain/magic">Magic</Link>, <Link to="/domain/rune">Rune</Link></p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The cleric uses his scroll of darkness, then follows with ranged spells.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 8, <strong>Con</strong> 13, <strong>Int</strong> 10, <strong>Wis</strong> 16, <strong>Cha</strong> 15<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +3; <strong>CMD</strong> 12<br/><strong>Feats</strong> <Link to="/feat/extra_channel">Extra Channel</Link>, <Link to="/feat/scribe_scroll">Scribe Scroll</Link>, <Link to="/feat/selective_channeling">Selective Channeling</Link>, <Link to="/feat/spell_focus">Spell Focus</Link> (enchantment)<br/><strong>Skills</strong> Knowledge (arcana) +7, Perception +6, Sense Motive +9, Spellcraft +7<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> aura<br/><strong>Combat Gear</strong> potion of <Link to="/spell/invisibility">invisibility</Link>, scroll of <Link to="/spell/comprehend_languages">comprehend languages</Link>, scroll of <Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link>, scroll of <Link to="/spell/darkness">darkness</Link>, scroll of <Link to="/spell/find_traps">find traps</Link>, <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link> (2), <Link to="/eq-misc/everburning_torch">everburning torch</Link>, <Link to="/eq-misc/smokestick">smokesticks</Link> (2); <strong>Other Gear</strong> masterwork <Link to="/eq-armor/breastplate">breastplate</Link>, <Link to="/eq-weapon/light_crossbow">light crossbow</Link> with 20 bolts, <Link to="/eq-weapon/quarterstaff">quarterstaff</Link>, <Link to="/eq-misc/silver_unholy_symbol">silver unholy symbol</Link>, 537 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The scholar priest is a devotee of magical knowledge, securing it from the unworthy at all costs.</p>
 <section data-footnotes>
 <h3 id="npc-scholar_priest-label">Footnotes</h3>
@@ -1271,79 +1272,79 @@ const _scholar_priest = {title: "Scholar Priest", jsx: <><p className="statblock
 </ol>
 </section>
 </>};
-const _sczarni_thief = {title: "Sczarni Thief", jsx: <><p className="statblockHeaderFull"><span>Sczarni Thief</span><span>CR 2</span></p>
+const _sczarni_thief = {title: "Sczarni Thief", jsx: <><Header full><span>Sczarni Thief</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_npc_codex">Inner Sea NPC Codex pg. 49</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/class/rogue">rogue</Link> 3<br/>CN Medium humanoid (human)<br/><strong>Init</strong> +7; <strong>Senses</strong> Perception +7</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 18, touch 14, flat-footed 14 (+4 armor, +3 Dex, +1 dodge)<br/><strong>hp</strong> 20 (3d8+3)<br/><strong>Fort</strong> +1, <strong>Ref</strong> +6 (+1 vs. traps), <strong>Will</strong> +2<br/><strong>Defensive Abilities</strong> <Link to="/ability/evasion">evasion</Link>, <Link to="/ability/trap_sense">trap sense</Link> +1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk short sword +6 (1d6+2/19-20) or dagger +5 (1d4+3/19-20)<br/><strong>Ranged</strong> dagger +5 (1d4+2/19-20)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +2d6</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 14, <strong>Dex</strong> 17, <strong>Con</strong> 10, <strong>Int</strong> 8, <strong>Wis</strong> 12, <strong>Cha</strong> 13<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +4; <strong>CMD</strong> 18<br/><strong>Feats</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/weapon_finesse">Weapon Finesse</Link><br/><strong>Skills</strong> Acrobatics +9, Bluff +7, Climb +7, Disable Device +9, Escape Artist +7, Knowledge (local) +5, Perception +7, Sense Motive +5, Sleight of Hand +8, Stealth +9<br/><strong>Languages</strong> Common, Varisian<br/><strong>SQ</strong> rogue talents (<Link to="/talent/finesse_rogue">finesse rogue</Link>), <Link to="/ability/trapfinding">trapfinding</Link> +1<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>; <strong>Other Gear</strong> +1 <Link to="/eq-armor/studded_leather">studded leather</Link>, mwk <Link to="/eq-weapon/short_sword">short sword</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, mwk <Link to="/eq-misc/thieves_tools_mwk">thieves tools</Link>, 13 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Some good-hearted Varisians try to forget that the Sczarni exist. They tire of the shame with which that small branch of their ethnicity has tainted outsiders' perceptions of them. Unfortunately, the Sczarni are all over Varisia and are here to stay. If you ask the Sczarni, they'll tell you Varisia is their land and it always has been.</p>
 <p>The Sczarni often prey on those foreign to their lands who set up citystates throughout the countryside, but they also rip off and burglarize other Varisians. While some Varisians struggle against the newcomers staking their claims to the Varisian frontier, the Sczarni recognize that they collect more gold these days by ripping off these settlers than they did when they were just bandits and swindlers preying on their own. The Sczarni have all kinds of rackets running, from cutpurses to con artists' scams to outright banditry, but it's Sczarni thieves who profit the most from foreigners. This Sczarni thief represents a typical burglar, pickpocket, or second-story operator, while the Sczarni thug represents a common thug or low-level leg-breaker. Sczarni thieves operate most often in the various cities and towns of Varisia.</p>
 <p>Depending on how they are approached or encountered, Sczarni thieves can be allies in a heist or cagey opponents in a game of cat and mouse. Many different gangs operate throughout Varisia, so Sczarni thieves working with the Tower Girls might be slightly different from the drugdealing Creepers infesting Underbridge. Sczarni thieves break into homes and warehouses, pilfer important items from aristocrats and adventurers alike, and generally operate in the shadows of the Sczarni - and the citizenry as a whole. Sczarni thieves come from many different walks of life. Some are born into Sczarni families, but others grow up in wealthy merchant households and succumb to the urge to pull off complicated burglary schemes. Varisians who join Sczarni families later in life are more closely scrutinized by their superiors than other Sczarni thieves.</p>
 <p>In recent years, a Sczarni family in Absalom has formed a growing alliance with the <Link to="/rule/pathfinder_society">Pathfinder Society</Link>, under the guidance of the unscrupulous smuggler and blackmailer Guaril Karela (CN human male rogue 11). The Sczarni use the Pathfinders' good name throughout the Inner Sea region to gain access to people, places, and information that would otherwise be inaccessible to them, while the Pathfinders appreciate the Sczarni's knack for getting contraband into and out of hostile areas. Many a field agent has been extracted from danger in the back of a Sczarni caravan wagon, and just as many Sczarni have tagged along with Pathfinders in order to enter a city where their kind would normally be unwelcome.</p>
 </>};
 const _shifty_noble = {title: "Shifty Noble", jsx: <><p><em>This well-dressed noble carries herself with poise, and her eyes seem to catalog everything she observes.</em></p>
-<p className="statblockHeaderFull"><span>Shifty Noble</span><span>CR 2</span></p>
+<Header full><span>Shifty Noble</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/magnimar_city_of_monuments">Magnimar, City of Monuments pg. 58</Link><br/><strong>XP</strong> 600<br/>Female human <Link to="/npcclass/aristocrat">aristocrat</Link> 2/<Link to="/class/rogue">rogue</Link> 1<br/>LN Medium humanoid (human)<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +9</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 13, touch 12, flat-footed 11 (+1 armor, +2 Dex)<br/><strong>hp</strong> 13 (3 HD; 1d8+2d8+)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +4, <strong>Will</strong> +4</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk dagger +1 (1d4-1/19-20)<br/><strong>Ranged</strong> mwk dagger +4 (1d4-1/19-20)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +1d6</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 8, <strong>Dex</strong> 14, <strong>Con</strong> 10, <strong>Int</strong> 12, <strong>Wis</strong> 13, <strong>Cha</strong> 17<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +0; <strong>CMD</strong> 12<br/><strong>Feats</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Bluff)<br/><strong>Skills</strong> Bluff +12, Diplomacy +8, Disable Device +7, Disguise +8, Escape Artist +7, Knowledge (local) +6, Perception +9, Sense Motive +8, Sleight of Hand +8, Stealth +8<br/><strong>Languages</strong> Common, Infernal<br/><strong>SQ</strong> <Link to="/ability/trapfinding">trapfinding</Link> +1</p>
-<p className="statblockSubHeader">Ecology</p>
+<Header sub>Ecology</Header>
 <p><strong>Environment</strong> any urban<br/><strong>Organization</strong> solitary<br/><strong>Treasure</strong> <Link to="/rule/npc_gear">NPC gear</Link> (masterwork <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/magic-wondrous/bracers_of_armor_1">bracers of armor +1</Link>, potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/eq-misc/sunrod">sunrods</Link> (2), other treasure)</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The shifty noble represents any one of the dozens of aristocrats vying for power and wealth in Magnimar. Some nobles may hail from families with a long lineage in the city, while others might trace their power to one of Magnimar's numerous merchant houses, and still others might have used inherited or hard-earned wealth to buy their way into the Council of Ushers. In Magnimar, money often speaks louder than words, and those with the coin to spare inevitably rise to power either within the ranks of the council or through the city's various other facets of political strength. While the council is primarily made up of long-lived families who have ruled Magnimar for years, new money has managed to grasp some political power in recent times as Magnimar's importance in trade continues to increase throughout the region.</p>
 <p>When the citizens of Magnimar established their formal government in 4608 AR and instated the Council of Ushers as a means of checking and balancing the power of the lord-mayor, they scarcely thought their seemingly simple political structure would become the convoluted mess it is today. What were originally 15 seats on the council belonging to the most influential and significant families of Magnimar have since ballooned into 117 seats filled by blas&eacute; nobles, scheming aristocrats, and avaricious merchants. Though there remain some honest members of the council who faithfully seek to represent the will of Magnimar's citizenry, such honorable endeavors are more often than not stopped up in the city's byzantine political machine.</p>
 <p>While most of the city's day-to-day business runs on the up and up, corruption and bribery find their way into numerous facets of the city-state's governing body. Spies and aristocratic messengers from Korvosa often travel to Magnimar bearing ill will or financial threats against its councilors, swaying corrupt politicians to aid their cause as the rival city-state to the east attempts to absorb one or more of Magnimar's holdings. Many of the representatives in the Council of Ushers work toward improving Magnimar's holdings and status, though some seek instead to undermine progress and sabotage their counterparts' efforts, putting personal goals and aspirations before the good of the citizens. Agents from Cheliax and Korvosa spend a significant amount of coin in their attempts to subvert the council and sow seeds of destruction among Magnimar, and these traitors to the City of Monuments are easily among the most prominent threats to the city.</p>
 </>};
 const _shoanti_gladiator = {title: "Shoanti Gladiator", jsx: <><p><em>This shaven-headed brute wields a massive spiked hammer and bears scars from dozens of battles.</em></p>
-<p className="statblockHeaderFull"><span>Shoanti Gladiator</span><span>CR 2</span></p>
+<Header full><span>Shoanti Gladiator</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/magnimar_city_of_monuments">Magnimar, City of Monuments pg. 59</Link><br/><strong>XP</strong> 600<br/>Male human <Link to="/class/barbarian">barbarian</Link> 3<br/>CN Medium humanoid (human)<br/><strong>Init</strong> +0; <strong>Senses</strong> Perception +8</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 8, flat-footed 15 (+7 armor, -2 rage)<br/><strong>hp</strong> 34 (3d12+9)<br/><strong>Fort</strong> +6, <strong>Ref</strong> +1, <strong>Will</strong> +5<br/><strong>Defensive Abilities</strong> <Link to="/ability/uncanny_dodge">uncanny dodge</Link>, <Link to="/ability/trap_sense">trap sense</Link> +1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk earth breaker* +8 (2d6+6/&times;3) or spiked gauntlet +7 (1d4+6)<br/><strong>Special Attacks</strong> rage (9 rounds/day), rage powers (knockback)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Base Statistics</strong> When not raging, the barbarian's statistics are <strong>AC</strong> 17, touch 10, flat-footed 17; <strong>hp</strong> 28; <strong>Fort</strong> +4, <strong>Will</strong> +3; <strong>Melee</strong> mwk earth breaker* +6 (2d6+3/&times;3), spiked gauntlet +5 (1d4+3); <strong>Str</strong> 15, <strong>Con</strong> 12; <strong>CMB</strong> 5, <strong>CMD</strong> 15.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 19, <strong>Dex</strong> 10, <strong>Con</strong> 16, <strong>Int</strong> 8, <strong>Wis</strong> 15, <strong>Cha</strong> 14<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +7; <strong>CMD</strong> 15<br/><strong>Feats</strong> <Link to="/feat/cleave">Cleave</Link>, <Link to="/feat/improved_bull_rush">Improved Bull Rush</Link>, <Link to="/feat/power_attack">Power Attack</Link><br/><strong>Skills</strong> Handle Animal +8, Intimidate +8, Perception +8, Ride +3, Survival +8<br/><strong>Languages</strong> Common, Shoanti<br/><strong>SQ</strong> fast movement</p>
-<p className="statblockSubHeader">Ecology</p>
+<Header sub>Ecology</Header>
 <p><strong>Environment</strong> any (Magnimar)<br/><strong>Organization</strong> solitary<br/><strong>Treasure</strong> <Link to="/rule/npc_gear">NPC gear</Link> (+1 <Link to="/eq-armor/breastplate">breastplate</Link>, masterwork <Link to="/eq-weapon/earth_breaker">earth breaker</Link>, <Link to="/eq-weapon/spiked_gauntlet">spiked gauntlet</Link>, other treasure)</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Easily the most popular public venue in Magnimar, the massive hippodrome known as Serpent's Run hosts a number of spectacles and events year-round to entertain both the citizens of Magnimar and visitors to the city. In addition to magic performances, circus acts, and sporting events, this enormous arena also plays host to the most impressive mock gladiatorial battles in western Varisia. Competitions take the form of duels or massive battles royal wherein participants use lethal weapons to deal their opponents felling blows.</p>
 <p>Many of the most successful gladiators in Magnimar are of Shoanti descent. Their unique fighting style and unusual weapons bring numerous spectators to gladiatorial events, and their strength, skill, and fearlessness make them exciting to watch. Outside the ring, Shoanti gladiators live well. Tavern owners gift brawlers with free drinks and meals after a successful bout, and canny bartenders often sponsor gladiatorial warriors, using their local celebrity to drum up more business and set their establishment apart from the rest. Such subsidized fighters are usually garnered from among the many toughs that frequent Magnimar's dives, and one can never be sure when an accidental bar brawl might turn into a potential business opportunity.</p>
 </>};
-const _skilled_sniper = {title: "Skilled Sniper", jsx: <><p className="statblockHeaderFull"><span>Skilled Sniper</span><span>CR 2</span></p>
+const _skilled_sniper = {title: "Skilled Sniper", jsx: <><Header full><span>Skilled Sniper</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 145</Link><br/><strong>XP</strong> 600<br/>Half-elf <Link to="/class/rogue">rogue</Link> 3<br/>CN Medium humanoid (elf, human)<br/><strong>Init</strong> +3; <strong>Senses</strong> low-light vision; Perception +11</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 16, touch 13, flat-footed 13 (+3 armor, +3 Dex)<br/><strong>hp</strong> 23 (3d8+6)<br/><strong>Fort</strong> +3, <strong>Ref</strong> +6, <strong>Will</strong> +1; +2 vs. enchantments<br/><strong>Defensive Abilities</strong> <Link to="/ability/evasion">evasion</Link>, <Link to="/ability/trap_sense">trap sense</Link> +1; <strong>Immune</strong> sleep</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> rapier +3 (1d6+1/18-20)<br/><strong>Ranged</strong> mwk composite longbow +6 (1d8+1/&times;3)<br/><strong>Special Attacks</strong> <Link to="/ability/sneak_attack">sneak attack</Link> +2d6</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Before Combat</strong> The rogue picks a perch that's hard to reach and waits for targets to come into range.<br/><strong>During Combat</strong> The rogue uses her sleep arrow against ranged attackers or anyone she needs to keep alive.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 17, <strong>Con</strong> 14, <strong>Int</strong> 13, <strong>Wis</strong> 10, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +3; <strong>CMD</strong> 16<br/><strong>Feats</strong> <Link to="/feat/point_blank_shot">Point-Blank Shot</Link>, <Link to="/feat/precise_shot">Precise Shot</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Perception)<br/><strong>Skills</strong> Acrobatics +9, Climb +7, Disguise +5, Escape Artist +9, Perception +11, Perform (wind) +5, Ride +6, Stealth +9, Survival +3, Swim +7<br/><strong>Languages</strong> Common, Dwarven, Elven<br/><strong>SQ</strong> elf blood, rogue talents (<Link to="/talent/surprise_attack">surprise attack</Link>), <Link to="/ability/trapfinding">trapfinding</Link> +1<br/><strong>Combat Gear</strong> oil of <Link to="/spell/magic_weapon">magic weapon</Link> (2), potion of <Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link>, potion of <Link to="/spell/invisibility">invisibility</Link>, <Link to="/magic-weapon/sleep_arrow">sleep arrow</Link>; <strong>Other Gear</strong> masterwork <Link to="/eq-armor/studded_leather">studded leather</Link>, masterwork <Link to="/eq-weapon/composite_longbow">composite longbow</Link> with 20 arrows, <Link to="/eq-weapon/rapier">rapier</Link>, 73 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The skilled sniper waits for the perfect opportunity to strike.</p>
 <h3 id="npc-skilled_sniper-diata-the-poacher">Diata the Poacher</h3>
 <p>Diata specializes in capturing live targets, such as exotic animals or escaped criminals. She doesn't care what she hunts, captures, or kills as long as she's paid on time.</p>
 <p><strong>Combat Encounters:</strong> Diata may be hired to capture PCs or their animal companions.</p>
 <p><strong>Roleplaying Suggestions:</strong> Diata avoids dungeons, but can be hired as a scout or sniper in an outdoor fight.</p>
 </>};
-const _skinsaw_cultist = {title: "Skinsaw Cultist", jsx: <><p className="statblockHeaderFull"><span>Skinsaw Cultist</span><span>CR 2</span></p>
+const _skinsaw_cultist = {title: "Skinsaw Cultist", jsx: <><Header full><span>Skinsaw Cultist</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_npc_codex">Inner Sea NPC Codex pg. 54</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/class/cleric">cleric</Link> of <Link to="/faith/norgorber">Norgorber</Link> 3<br/>NE Medium humanoid (human)<br/><strong>Init</strong> +2; <strong>Senses</strong> Perception +3</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 15, touch 12, flat-footed 13 (+3 armor, +2 Dex)<br/><strong>hp</strong> 20 (3d8+3)<br/><strong>Fort</strong> +4, <strong>Ref</strong> +3, <strong>Will</strong> +6</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk war razor +5 (1d4/19-20)<br/><strong>Special Attacks</strong> channel negative energy 4/day (DC 12, 2d6), sudden shift<br/><strong>Spell-Like Abilities</strong> (CL 3rd; concentration +6)<br/><em>6/day</em>-bleeding touch (1 rounds)<br/><strong>Cleric Spells Prepared</strong> (CL 3rd; concentration +6)<br/><em>2nd</em>-<Link to="/spell/invisibility">invisibility</Link><sup><InnerLink showBacklink="backlink-npc-skinsaw_cultist-ref-D-1" id="npc-skinsaw_cultist-ref-D-1" data-hash-target to="npc-skinsaw_cultist-D">1</InnerLink></sup>, <Link to="/spell/mirror_image">mirror image</Link>, <Link to="/spell/undetectable_alignment">undetectable alignment</Link><br/><em>1st</em>-<Link to="/spell/disguise_self">disguise self</Link><sup><InnerLink showBacklink="backlink-npc-skinsaw_cultist-ref-D-2" id="npc-skinsaw_cultist-ref-D-2" data-hash-target to="npc-skinsaw_cultist-D">1</InnerLink></sup>, <Link to="/spell/murderous_command">murderous command</Link> (DC 15), <Link to="/spell/protection_from_good">protection from good</Link>, <Link to="/spell/shield_of_faith">shield of faith</Link><br/><em>0 (at will)</em>-<Link to="/spell/bleed">bleed</Link> (DC 13), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/guidance">guidance</Link>, <Link to="/spell/resistance">resistance</Link><br/><strong>Domains</strong> <Link to="/domain/death">Death</Link>, <Link to="/domain/deception">Deception</Link></p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 14, <strong>Con</strong> 12, <strong>Int</strong> 8, <strong>Wis</strong> 17, <strong>Cha</strong> 13<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +2; <strong>CMD</strong> 14<br/><strong>Feats</strong> <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/martial_weapon_proficiency">Martial Weapon Proficiency</Link> (war razor), <Link to="/feat/weapon_finesse">Weapon Finesse</Link><br/><strong>Skills</strong> Bluff +3, Disguise +4, Spellcraft +3, Stealth +5<br/><strong>Languages</strong> Common<br/><strong>SQ</strong> aura<br/><strong>Combat Gear</strong> oil of <Link to="/spell/magic_weapon">magic weapon</Link>, potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), scroll of <Link to="/spell/death_knell">death knell</Link>, scroll of <Link to="/spell/owls_wisdom">owl's wisdom</Link>; <strong>Other Gear</strong> +1 <Link to="/eq-armor/leather_armor">leather armor</Link>, mwk <Link to="/eq-weapon/war_razor">war razor</Link>, leather <Link to="/magic-wondrous/skinsaw_mask">skinsaw mask</Link> (unholy symbol), 30 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Skinsaw cultists are insane murderers performing what they consider unholy sacrifices to their god Norgorber. This splinter cult of serial killers originated in the Chelish city of Vyre, but has since spread throughout the Inner Sea. Any place Norgorber's dark followers are found, one could expect at least one who follows the aspect of Father Skinsaw.</p>
 <p>Skinsaw cultists seek ecstasy with every slaying. They offer their acts of murder in the name of Father Skinsaw, and believe that when they finally meet death, every kill they made in his name will grant them a higher status in the afterlife. Skinsaw cultists don't waste their efforts on those they consider lesser targets, like vagrants, prostitutes, or commoners, instead choosing their marks from influential members of society and others who exhibit strength and hold power. This is not for any sort of political gain, but rather to offer Norgorber only the best possible sacrifices.</p>
 <p>Worshipers of Norgorber following one of the god's other three aspects interact with Skinsaw cultists in different ways. Those who revere Blackfingers may work with Skinsaw cultists in order to provide their deadly poisons for the Skinsaw cultists' blades, more concerned about proliferating poison than the act of murder. Followers of the Reaper of Reputation may guide Skinsaw cultists toward choice targets, using them as tools to enact their political machinations, preferring that those they wish dead be slain by a fellow Norgorberite. Many who follow Norgorber's fourth aspect, that of the Gray Master, tend to avoid Skinsaw cultists unless they have a need to sow chaos and terror. While they believe murder is certainly a tool of thievery, it is a secondary aspect, and makes for a sloppier job in the eyes of their masked deity.</p>
@@ -1357,15 +1358,15 @@ const _skinsaw_cultist = {title: "Skinsaw Cultist", jsx: <><p className="statblo
 </ol>
 </section>
 </>};
-const _sylvan_protector = {title: "Sylvan Protector", jsx: <><p className="statblockHeaderFull"><span>Sylvan Protector</span><span>CR 2</span></p>
+const _sylvan_protector = {title: "Sylvan Protector", jsx: <><Header full><span>Sylvan Protector</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 63</Link><br/><strong>XP</strong> 600<br/>Gnome <Link to="/class/druid">druid</Link> 3<br/>CN Small humanoid (gnome)<br/><strong>Init</strong> +2; <strong>Senses</strong> low-light vision; Perception +8</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 18, touch 13, flat-footed 16 (+3 armor, +2 Dex, +2 shield, +1 size)<br/><strong>hp</strong> 24 (3d8+7)<br/><strong>Fort</strong> +5, <strong>Ref</strong> +3, <strong>Will</strong> +5; +2 vs. illusions<br/><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants)</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 20 ft.<br/><strong>Melee</strong> sickle +1 (1d4-2)<br/><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and reptilian humanoids<br/><strong>Spell-Like Abilities</strong> (CL 3rd; concentration +5)<br/><em>5/day</em>-<Link to="/spell/lightning_arc">lightning arc</Link><br/><em>1/day</em>-<Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/ghost_sound">ghost sound</Link>, <Link to="/spell/prestidigitation">prestidigitation</Link>, <Link to="/spell/speak_with_animals">speak with animals</Link><br/><strong>Druid Spells Prepared</strong> (CL 3rd; concentration +5)<br/><em>2nd</em>-<Link to="/spell/flaming_sphere">flaming sphere</Link> (DC 14), <Link to="/spell/summon_swarm">summon swarm</Link>, <Link to="/spell/wind_wall">wind wall</Link><sup><InnerLink showBacklink="backlink-npc-sylvan_protector-ref-D-1" id="npc-sylvan_protector-ref-D-1" data-hash-target to="npc-sylvan_protector-D">1</InnerLink></sup><br/><em>1st</em>-cure light wounds (2), <Link to="/spell/obscuring_mist">obscuring mist</Link><sup><InnerLink showBacklink="backlink-npc-sylvan_protector-ref-D-2" id="npc-sylvan_protector-ref-D-2" data-hash-target to="npc-sylvan_protector-D">1</InnerLink></sup>, speak with animals<br/><em>0 (at will)</em>-<Link to="/spell/flare">flare</Link> (DC 12), <Link to="/spell/light">light</Link>, <Link to="/spell/stabilize">stabilize</Link>, <Link to="/spell/virtue">virtue</Link><br/><strong>Domain</strong> Air</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The druid casts spider climb and hides, then casts obscuring mist.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 6, <strong>Dex</strong> 14, <strong>Con</strong> 15, <strong>Int</strong> 10, <strong>Wis</strong> 15, <strong>Cha</strong> 14<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> -1; <strong>CMD</strong> 11<br/><strong>Feats</strong> <Link to="/feat/augment_summoning">Augment Summoning</Link>, <Link to="/feat/spell_focus">Spell Focus</Link> (conjuration)<br/><strong>Skills</strong> Handle Animal +7, Heal +6, Knowledge (nature) +6, Perception +8, Spellcraft +6, Stealth +8, Survival +10<br/><strong>Languages</strong> Common, Druidic, Gnome<br/><strong>SQ</strong> nature bond (Air domain), nature sense, <Link to="/ability/wild_empathy">wild empathy</Link> +5, <Link to="/ability/woodland_stride">woodland stride</Link>, trackless step<br/><strong>Combat Gear</strong> scrolls of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (3), scroll of <Link to="/spell/spider_climb">spider climb</Link>, <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bags</Link> (2); <strong>Other Gear</strong> +1 <Link to="/eq-armor/leather_armor">leather armor</Link>, masterwork <Link to="/eq-armor/heavy_wooden_shield">heavy wooden shield</Link>, <Link to="/eq-weapon/sickle">sickle</Link>, <Link to="/eq-misc/holly_and_mistletoe">holly and mistletoe</Link>, <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link>, 95 gp</p>
 <section data-footnotes>
 <h3 id="npc-sylvan_protector-label">Footnotes</h3>
@@ -1376,59 +1377,59 @@ const _sylvan_protector = {title: "Sylvan Protector", jsx: <><p className="statb
 </ol>
 </section>
 </>};
-const _traitorous_brigand = {title: "Traitorous Brigand", jsx: <><p className="statblockHeaderFull"><span>Traitorous Brigand</span><span>CR 2</span></p>
+const _traitorous_brigand = {title: "Traitorous Brigand", jsx: <><Header full><span>Traitorous Brigand</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 81</Link><br/><strong>XP</strong> 600<br/>Half-orc <Link to="/class/fighter">fighter</Link> 3<br/>NE Medium humanoid (human, orc)<br/><strong>Init</strong> +5; <strong>Senses</strong> darkvision 60 ft.; Perception -1</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 11, flat-footed 16 (+6 armor)<br/><strong>hp</strong> 30 (3d10+9)<br/><strong>Fort</strong> +5, <strong>Ref</strong> +2, <strong>Will</strong> +2; +1 vs. fear<br/><strong>Defensive Abilities</strong> bravery +1, orc ferocity</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk greataxe +7 (1d12+4/&times;3) or sap +6 (1d6+3 nonlethal)<br/><strong>Ranged</strong> javelin +4 (1d6+3)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The fighter opens with an Intimidate check to demoralize the nearest enemy, then wades in with his axe using Cleave when possible.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 17, <strong>Dex</strong> 12, <strong>Con</strong> 14, <strong>Int</strong> 10, <strong>Wis</strong> 8, <strong>Cha</strong> 13<br/><strong>Base Atk</strong> +3; <strong>CMB</strong> +6; <strong>CMD</strong> 17<br/><strong>Feats</strong> <Link to="/feat/cleave">Cleave</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/power_attack">Power Attack</Link><br/><strong>Skills</strong> Climb +5, Intimidate +9, Survival +3, Swim +5<br/><strong>Languages</strong> Common, Orc<br/><strong>SQ</strong> armor training 1, orc blood, weapon familiarity<br/><strong>Combat Gear</strong> potion of <Link to="/spell/bulls_strength">bull's strength</Link>, potion of <Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link>, potion of <Link to="/spell/enlarge_person">enlarge person</Link> (CL 3rd); <strong>Other Gear</strong> masterwork <Link to="/eq-armor/breastplate">breastplate</Link>, <Link to="/eq-weapon/javelin">javelins</Link> (4), masterwork <Link to="/eq-weapon/greataxe">greataxe</Link>, <Link to="/eq-weapon/sap">sap</Link>, <Link to="/eq-misc/sack">sack</Link>, gold necklace (worth 100 gp), 124 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Brigands are hard as nails and always look out for themselves first.</p>
 <h3 id="npc-traitorous_brigand-rorn-the-black">Rorn the Black</h3>
 <p>Rorn has made a good living as a bandit, but the same can't be said for his allies. Sometimes he runs out on them when their luck turns bad, sometimes he's the only survivor, and sometimes he cuts down his own allies to claim all the loot.</p>
 </>};
-const _veteran_buccaneer = {title: "Veteran Buccaneer", jsx: <><p className="statblockHeaderFull"><span>Veteran Buccaneer</span><span>CR 2</span></p>
+const _veteran_buccaneer = {title: "Veteran Buccaneer", jsx: <><Header full><span>Veteran Buccaneer</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 267</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/npcclass/warrior">warrior</Link> 4<br/>CE Medium humanoid (human)<br/><strong>Init</strong> +3; <strong>Senses</strong> Perception -1</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 14, flat-footed 13 (+3 armor, +3 Dex, +1 dodge)<br/><strong>hp</strong> 26 (4d10+4)<br/><strong>Fort</strong> +4, <strong>Ref</strong> +4, <strong>Will</strong> +0</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> mwk scimitar +6 (1d6+1/18-20)<br/><strong>Ranged</strong> mwk heavy crossbow +8 (1d10/19-20) or throwing axe +7 (1d6+1)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>During Combat</strong> The warrior uses her crossbow until she is in boarding range, then switches to her scimitar.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 12, <strong>Dex</strong> 16, <strong>Con</strong> 11, <strong>Int</strong> 10, <strong>Wis</strong> 8, <strong>Cha</strong> 9<br/><strong>Base Atk</strong> +4; <strong>CMB</strong> +5; <strong>CMD</strong> 19<br/><strong>Feats</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/toughness">Toughness</Link><br/><strong>Skills</strong> Acrobatics +6, Climb +6, Intimidate +6, Profession (sailor) +3, Swim +17<br/><strong>Languages</strong> Common, Orc<br/><strong>Combat Gear</strong> <Link to="/magic-wondrous/elixir_of_swimming">elixir of swimming</Link>, potion of <Link to="/spell/bulls_strength">bull's strength</Link>, potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (2), potion of <Link to="/spell/jump">jump</Link>, <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>; <strong>Other Gear</strong> <Link to="/eq-armor/studded_leather">studded leather</Link>, masterwork <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link> with 10 bolts, masterwork <Link to="/eq-weapon/scimitar">scimitar</Link>, <Link to="/eq-weapon/throwing_axe">throwing axe</Link>, 231 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>A veteran buccaneer lives to murder and plunder. Like a shark, she constantly hunts for prey. Buccaneers prefer easy targets like heavy, slow-moving merchant ships that quickly surrender their booty rather than fast military vessels that at best have a stockpile of weapons and at worst carry a full crew of angry sailors itching to spill pirate blood. Some buccaneers take only cargo, some take slaves, and some leave no survivors.</p>
 <p>Larger pirate vessels may have slave rowers (use the <Link to="/npc/old_sailor">old sailor</Link> stat block, expert 2) who are prodded to the decks as reluctant fighters and living shields for the actual buccaneers; these slaves are easily replaced from surviving members of the opposing crew. A typical pirate captain uses the grizzled mercenary stat block (warrior 6) or has a PC class like the pirate king (fighter 15), pirate queen (ranger 10), or sea captain (druid 8).</p>
 </>};
-const _vigilant_bodyguard = {title: "Vigilant Bodyguard", jsx: <><p className="statblockHeaderFull"><span>Vigilant Bodyguard</span><span>CR 2</span></p>
+const _vigilant_bodyguard = {title: "Vigilant Bodyguard", jsx: <><Header full><span>Vigilant Bodyguard</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 97</Link><br/><strong>XP</strong> 600<br/>Human <Link to="/class/monk">monk</Link> 3<br/>LN Medium humanoid (human)<br/><strong>Init</strong> +5; <strong>Senses</strong> Perception +10</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 20, touch 16, flat-footed 18 (+4 armor, +1 Dex, +1 dodge, +4 Wis)<br/><strong>hp</strong> 20 (3d8+3)<br/><strong>Fort</strong> +4, <strong>Ref</strong> +4, <strong>Will</strong> +7; +2 vs. enchantments<br/><strong>Defensive Abilities</strong> <Link to="/ability/evasion">evasion</Link></p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 40 ft.<br/><strong>Melee</strong> unarmed strike +5 (1d6+2) or nunchaku +4 (1d6+2) or unarmed strike flurry of blows +3/+3 (1d6+2)<br/><strong>Ranged</strong> shuriken +3 (1d2+2)<br/><strong>Special Attacks</strong> flurry of blows, stunning fist (3/day, DC 15)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Before Combat</strong> The monk drinks her potion of owl's wisdom to enhance her AC and Perception, as well as a potion of mage armor.<br/><strong>During Combat</strong> The monk uses a flurry of blows to make disarm attempts with her nunchaku. If protecting someone, she uses Stunning Fist before withdrawing with her charge.<br/><strong>Base Statistics</strong> Without owl's wisdom and mage armor, the monk's statistics are <strong>Senses</strong> Perception +8; <strong>AC</strong> 15, touch 14, flat-footed 13; <strong>Wis</strong> 15; <strong>CMD</strong> 18; <strong>Skills</strong> Perception +8, Sense Motive +8, Survival +3.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 14, <strong>Dex</strong> 13, <strong>Con</strong> 12, <strong>Int</strong> 10, <strong>Wis</strong> 19, <strong>Cha</strong> 8<br/><strong>Base Atk</strong> +2; <strong>CMB</strong> +5; <strong>CMD</strong> 20<br/><strong>Feats</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>, <Link to="/feat/stunning_fist">Stunning Fist</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link> (unarmed strike)<br/><strong>Skills</strong> Acrobatics +7 (+11 when jumping), Climb +6, Intimidate +5, Perception +10, Sense Motive +10, Stealth +7, Survival +5, Swim +6<br/><strong>SQ</strong> fast movement, maneuver training<br/><strong>Combat Gear</strong> potions of <Link to="/spell/cure_light_wounds">cure light wounds</Link> (3), potion of <Link to="/spell/mage_armor">mage armor</Link>, potion of <Link to="/spell/magic_weapon">magic weapon</Link>, potion of <Link to="/spell/owls_wisdom">owl's wisdom</Link>, <Link to="/eq-misc/smokestick">smokesticks</Link> (3); <strong>Other Gear</strong> <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/nunchaku">nunchaku</Link>, <Link to="/eq-weapon/shuriken">shuriken</Link> (20), <Link to="/magic-wondrous/bracers_of_armor_1">bracers of armor +1</Link>, 30 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>Some monk orders hire out vigilant bodyguards to princelings, merchants, and priests with compatible interests and philosophies.</p>
 </>};
-const _whiteclaw_sorcerer = {title: "Whiteclaw Sorcerer", jsx: <><p className="statblockHeaderFull"><span>Whiteclaw Sorcerer</span><span>CR 2</span></p>
+const _whiteclaw_sorcerer = {title: "Whiteclaw Sorcerer", jsx: <><Header full><span>Whiteclaw Sorcerer</span><span>CR 2</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 161</Link><br/><strong>XP</strong> 600<br/>Elf <Link to="/class/sorcerer">sorcerer</Link> 3<br/>NE Medium humanoid (elf)<br/><strong>Init</strong> +2; <strong>Senses</strong> low-light vision; Perception +7</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 17, touch 12, flat-footed 15 (+4 armor, +2 Dex, +1 natural)<br/><strong>hp</strong> 19 (3d6+6)<br/><strong>Fort</strong> +2, <strong>Ref</strong> +5, <strong>Will</strong> +2; +2 vs. enchantments<br/><strong>Immune</strong> sleep; <strong>Resist</strong> cold 5</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Speed</strong> 30 ft.<br/><strong>Melee</strong> 2 claws +1 (1d4) or mwk longsword +2 (1d8/19-20)<br/><strong>Ranged</strong> longbow +3 (1d8/&times;3)<br/><strong>Special Attacks</strong> claws (2, 1d4, 5 rounds/day)<br/><strong>Sorcerer Spells Known</strong> (CL 3rd; concentration +5)<br/><em>1st (6/day)</em>-<Link to="/spell/cause_fear">cause fear</Link> (DC 13), <Link to="/spell/endure_elements">endure elements</Link>, <Link to="/spell/mage_armor">mage armor</Link>, <Link to="/spell/magic_missile">magic missile</Link><br/><em>0 (at will)</em>-<Link to="/spell/bleed">bleed</Link> (DC 12), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/light">light</Link>, <Link to="/spell/ray_of_frost">ray of frost</Link>, <Link to="/spell/read_magic">read magic</Link><br/><strong>Bloodline</strong> <Link to="/sorcbloodline/draconic">draconic</Link> (white)</p>
-<p className="statblockSubHeader">Tactics</p>
+<Header sub>Tactics</Header>
 <p><strong>Before Combat</strong> The sorcerer casts mage armor.<br/><strong>During Combat</strong> The sorcerer casts cause fear at any dangerous-looking opponent, then casts magic missile at her foes. When her spells are exhausted, she casts bull's strength from a scroll and attacks with her claws or longsword.<br/><strong>Base Statistics</strong> Without mage armor, the sorcerer's statistics are <strong>AC</strong> 13, touch 12, flat-footed 11.</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Str</strong> 10, <strong>Dex</strong> 14, <strong>Con</strong> 12, <strong>Int</strong> 15, <strong>Wis</strong> 8, <strong>Cha</strong> 15<br/><strong>Base Atk</strong> +1; <strong>CMB</strong> +1; <strong>CMD</strong> 13<br/><strong>Feats</strong> <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/eschew_materials">Eschew Materials</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link><br/><strong>Skills</strong> Intimidate +8, Knowledge (arcana) +8, Perception +7, Spellcraft +8 (+10 to identify magic item properties)<br/><strong>Languages</strong> Common, Draconic, Elven, Goblin<br/><strong>SQ</strong> bloodline arcana (cold spells deal +1 damage per die), elven magic, weapon familiarity<br/><strong>Combat Gear</strong> potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>, potion of <Link to="/spell/fly">fly</Link>, scrolls of <Link to="/spell/bulls_strength">bull's strength</Link> (2), scroll of <Link to="/spell/fog_cloud">fog cloud</Link>; <strong>Other Gear</strong> <Link to="/eq-weapon/longbow">longbow</Link> with 20 arrows, masterwork <Link to="/eq-weapon/longsword">longsword</Link>, 10 gp</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The whiteclaw sorcerer revels in her draconic blood, using her powers to terrify and kill enemies in her territory.</p>
 </>};
 export default {not_found:_not_found,acolyte:_acolyte,apprentice_jeweler:_apprentice_jeweler,beggar:_beggar,crusader_squire:_crusader_squire,military_foot_soldier:_military_foot_soldier,page:_page,recruit:_recruit,villager_village_idiot:_villager_village_idiot,brigand:_brigand,brigand_bandit:_brigand_bandit,callous_rake:_callous_rake,careful_initiate:_careful_initiate,cautious_mage:_cautious_mage,city_guard_magnimar:_city_guard_magnimar,criminal_pickpocket:_criminal_pickpocket,cutpurse:_cutpurse,initiate_of_flame:_initiate_of_flame,mercenary_healer:_mercenary_healer,mercenary_magician:_mercenary_magician,novice_scout:_novice_scout,old_sailor:_old_sailor,pig_farmer:_pig_farmer,pirate_sailor:_pirate_sailor,princess:_princess,sailor_shipmate:_sailor_shipmate,savage_mercenary:_savage_mercenary,shaman:_shaman,superstitious_mercenary:_superstitious_mercenary,tavern_barmaid:_tavern_barmaid,tavern_singer:_tavern_singer,temple_acolyte:_temple_acolyte,ulfen_raider:_ulfen_raider,villager_farmer:_villager_farmer,bullying_brawler:_bullying_brawler,city_watch_guard:_city_watch_guard,criminal_street_thug:_criminal_street_thug,daring_bravo:_daring_bravo,dwarven_rager:_dwarven_rager,entertainer_storyteller:_entertainer_storyteller,fighting_school_initiate:_fighting_school_initiate,first_guard_of_absalom:_first_guard_of_absalom,gem_sorcerer:_gem_sorcerer,guard:_guard,honorable_outcast:_honorable_outcast,initiate:_initiate,mercenary_caravan_guard:_mercenary_caravan_guard,merchant_shopkeep:_merchant_shopkeep,miner:_miner,road_vagabond:_road_vagabond,sail_master:_sail_master,sczarni_thug:_sczarni_thug,seasoned_trapper:_seasoned_trapper,seer_doomsayer:_seer_doomsayer,skulking_brute:_skulking_brute,squire:_squire,street_beggar:_street_beggar,street_prostitute:_street_prostitute,street_magician:_street_magician,street_performer:_street_performer,tavern_drunkard:_tavern_drunkard,town_watcher:_town_watcher,tribe_cannibal:_tribe_cannibal,war_priest:_war_priest,accomplished_angler:_accomplished_angler,axe_warrior:_axe_warrior,battle_mage:_battle_mage,criminal_burglar:_criminal_burglar,doom_prophet:_doom_prophet,duergar_slaver:_duergar_slaver,dungeon_prisoner:_dungeon_prisoner,eagle_knight:_eagle_knight,haughty_avenger:_haughty_avenger,heir_apparent:_heir_apparent,hellknight_armiger:_hellknight_armiger,heretic_cultist:_heretic_cultist,jinx_eater:_jinx_eater,journeyman_carpenter:_journeyman_carpenter,kitharodian_academy_performer:_kitharodian_academy_performer,local_celebrity:_local_celebrity,mystery_cultist:_mystery_cultist,noble_noble_scion:_noble_noble_scion,pirate_smuggler:_pirate_smuggler,poacher:_poacher,road_wanderer:_road_wanderer,scholar_priest:_scholar_priest,sczarni_thief:_sczarni_thief,shifty_noble:_shifty_noble,shoanti_gladiator:_shoanti_gladiator,skilled_sniper:_skilled_sniper,skinsaw_cultist:_skinsaw_cultist,sylvan_protector:_sylvan_protector,traitorous_brigand:_traitorous_brigand,veteran_buccaneer:_veteran_buccaneer,vigilant_bodyguard:_vigilant_bodyguard,whiteclaw_sorcerer:_whiteclaw_sorcerer}

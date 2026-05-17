@@ -77,7 +77,7 @@ const _conjuration = {hasJL:true,title: "Conjuration", jsx: <><div className="ju
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">You can travel up to 30 feet per wizard level per day. This teleportation must be used in 5-foot increments.</Pair>
 <Pair title="Standard Action">You can use this ability to teleport from one place to another. You can bring other willing creatures with you, but you must expend an equal amount of distance for each additional creature brought with you.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 <h3 id="arcaneschool-conjuration-cheliax-egorian-academy-infernal-binder-school" data-hash-target>Cheliax: Egorian Academy Infernal Binder School</h3>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer pg. 29</Link><br/>The prestigious Egorian Academy of the Magical Arts in Cheliax's capital city teaches a full spectrum of magic, both specialized and universalist, but the college is best known for its Infernal Binding program in the school of conjuration. An infernal binder learns the Names of <Link to="/rule/hell">Hell</Link>, and can use those powers to summon and bind <Link to="/family/devil">devils</Link> to do her bidding. If she makes a single mistake in the binding, she opens herself to an eternity of torment. Egorian Academy wizards are recognized across Avistan as premier practitioners of the arcane arts. Many hold high positions in magical colleges across Golarion, but most seek to return one day to teach at their alma mater in Egorian.</p>
@@ -136,7 +136,7 @@ const _conjuration = {hasJL:true,title: "Conjuration", jsx: <><div className="ju
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Swift Action">You can teleport to a nearby space as if using <Link to="/spell/dimension_door">dimension door</Link>. You must be able to see the space that you are moving into. You cannot take other creatures with you when you use this ability (except for familiars). You can move 5 feet for every two wizard levels you possess (minimum 5 feet).</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 </>};
 const _divination = {hasJL:true,title: "Divination", jsx: <><div className="jumpList" id="arcaneschool-divination-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-divination-foresight-school">Foresight School</InnerLink></li><li><InnerLink toTop to="arcaneschool-divination-prophecy-school">Prophecy School</InnerLink></li><li><InnerLink toTop to="arcaneschool-divination-scryer-school">Scryer School</InnerLink></li></ul></div><h2 id="arcaneschool-divination-divination">Divination</h2>
@@ -395,7 +395,7 @@ const _illusion = {hasJL:true,title: "Illusion", jsx: <><div className="jumpList
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">You have 30 feet of travel per wizard level you can use per day. This movement must be used in 5-foot increments.</Pair>
 <Pair title="Standard Action">You can use this ability to walk through the <Link to="/rule/shadow_plane">Shadow Plane</Link> and reappear. You can travel either in a single round or broken up across multiple shadow steps. Travel through the Shadow Plane is imprecise; when you arrive, you re-enter 1 square off target, as per the rules for <Link to="/rule/splash_weapon">thrown splash weapons</Link>. If this would place you in an occupied square, you instead arrive in the nearest safe location. When you arrive, you are cloaked in shadow and gain concealment as the <Link to="/spell/blur">blur</Link> spell for 1 round. You may bring other willing creatures with you, but you must expend an equal amount of distance for each additional creature brought with you. They likewise re-enter off target (roll location for each creature) and are cloaked in shadow for 1 round.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 </>};
 const _necromancy = {hasJL:true,title: "Necromancy", jsx: <><div className="jumpList" id="arcaneschool-necromancy-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-necromancy-life-school">Life School</InnerLink></li><li><InnerLink toTop to="arcaneschool-necromancy-undead-school">Undead School</InnerLink></li></ul></div><h2 id="arcaneschool-necromancy-necromancy">Necromancy</h2>

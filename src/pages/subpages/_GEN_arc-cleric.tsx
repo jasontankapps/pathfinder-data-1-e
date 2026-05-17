@@ -226,7 +226,7 @@ const _crashing_wave = {title: "Crashing Wave", jsx: <><h2 id="arc-cleric-crashi
 <p>If the crashing wave chooses to harm, creatures within the burst that are chaotic good, chaotic evil, lawful good, or lawful evil take 1d6 points of damage plus 1d6 points of damage for every 2 levels the cleric has beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). Creatures with a neutral alignment component are unaffected by this energy. Creatures that take damage from the channeled energy can attempt a Fortitude save (DC = 10 + <Link to="/misc/half">half</Link> the crashing wave's level + her Charisma modifier) for half damage. This damage is neither negative nor positive energy, so a creature's resistance to positive or negative energy does not reduce this damage. (However, resistance to channeled energy in particular, such as that provided by <Link to="/umr/channel_resistance">channel resistance</Link>, applies normally.)</p>
 <p>If the crashing wave chooses to heal, creatures within the burst that have any neutral alignment component are healed 1d6 points of damage plus 1d6 points of damage for every 2 levels the cleric has beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). This healing does not affect creatures that are chaotic good, chaotic evil, lawful good, or lawful evil. This healing is positive energy, so any creatures not healed by positive energy (such as undead) receive no healing from this effect, even if they have a neutral alignment.</p>
 </Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="Special">The cleric must be able to present her holy symbol to use this ability.</Pair>
 </Ability>
 <Ability id="arc-cleric-crashing_wave-spontaneous-casting" icon={["broken-shield","spell-book"]}>
@@ -284,7 +284,7 @@ const _demonic_apostle = {title: "Demonic Apostle", jsx: <><h2 id="arc-cleric-de
 <Pair hl title="Replaces">Channel energy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Standard Action">A demonic apostle can channel demonic energy to damage creatures of lawful and good alignment, or, at higher levels, bolster the abilities of chaotic evil allies. Channeling this energy causes a 30-foot-radius <Link to="/misc/burst">burst</Link> centered on the cleric. Creatures within the burst that are lawful or good take 1d6 points of damage, plus 1d6 points of damage for every two levels the cleric possesses beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on).</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="At 5th Level">Chaotic evil allies within the burst are affected as if targeted by a <Link to="/spell/rage">rage</Link> spell with a duration of 1 round.</Pair>
 <Pair title="At 9th Level">Lawful or good enemies are also <Link to="/misc/sickened">sickened</Link> for 1d6 rounds if they fail their saving throw against the demonic channel.</Pair>
 <Pair title="Special">Creatures that take damage from the channeled demonic energy receive a Fortitude save to halve the damage. The DC of this save is equal to 10 + <Link to="/misc/half">half</Link> the demonic apostle's level + the demonic apostle's Charisma modifier. Lawful good creatures take a -2 penalty on this saving throw.</Pair>
@@ -472,7 +472,7 @@ const _fiendish_vessel = {title: "Fiendish Vessel", jsx: <><h2 id="arc-cleric-fi
 <Pair single id="arc-cleric-fiendish_vessel-domains">Domains</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>
 <Pair title="Info">A fiendish vessel must select the <Link to="/domain/daemon">Daemon</Link>, <Link to="/domain/demon">Demon</Link>, or <Link to="/domain/devil">Devil</Link> subdomain as one of her domain choices, based on the fiendish patron she chooses to serve.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 <Ability id="arc-cleric-fiendish_vessel-channel-evil-su" icon={["abstract-091"]}>
 <Pair single id="arc-cleric-fiendish_vessel-channel-evil-su">Channel Evil (Su)</Pair>

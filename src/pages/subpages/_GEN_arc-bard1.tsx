@@ -252,7 +252,7 @@ const _argent_voice = {title: "Argent Voice", jsx: <><h2 id="arc-bard-argent_voi
 <Pair title="At 18th Level">This ability can be used on effects that can be removed by the spell <Link to="/spell/break_enchantment">break enchantment</Link>.</Pair>
 </Ability>
 <Ability id="arc-bard-argent_voice-devilbane-refrain-su" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-bard-argent_voice-devilbane-refrain-su" flavor={`The argent voice learns how to mimic aspects of the magical "Song of Silver" with his performance, enhancing his allies' ability to combat devils and similar fiends.`}>Devilbane Refrain (Su)</Pair>
+<Pair single id="arc-bard-argent_voice-devilbane-refrain-su" flavor="The argent voice learns how to mimic aspects of the magical &quot;Song of Silver&quot; with his performance, enhancing his allies' ability to combat devils and similar fiends.">Devilbane Refrain (Su)</Pair>
 <Pair hl title="Replaces">Dirge of doom, frightening tune</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">A creature must be able to hear the argent voice's singing and be within 30 feet of him to be affected. Natural and manufactured weapons wielded by affected allies are treated as though they were silver for the purpose of bypassing damage reduction.</Pair>
@@ -910,7 +910,7 @@ const _dervish_dancer = {title: "Dervish Dancer", jsx: <><h2 id="arc-bard-dervis
 <Pair title="Ability">A dervish dancer can attack more than once as he moves while performing a <em>battle dance.</em> He can combine a full-attack action with a single move, taking the attacks at any point during his movement, but must move at least 5 feet between each attack. This movement provokes attacks of opportunity as normal.</Pair>
 </Ability>
 <Ability id="arc-bard-dervish_dancer-battle-fury-su" icon={["mailed-fist","upgrade"]}>
-<Pair single id="arc-bard-dervish_dancer-battle-fury-su" flavor={["The dervish dancer can unleash a whirlwind of blows while performing a ",{"tag":"em","content":"battle dance.","props":{}}]}>Battle Fury (Su)</Pair>
+<Pair single id="arc-bard-dervish_dancer-battle-fury-su" flavor={<>The dervish dancer can unleash a whirlwind of blows while performing a <em>battle dance.</em></>}>Battle Fury (Su)</Pair>
 <Pair hl title="Replaces">Deadly performance</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Full-Round Action">He can take a single move action and unleash a single attack at his highest bonus against each target within his reach during any point of his move, up to a maximum number of attacks equal to the dervish dancer's character level. This movement provokes attacks of opportunity as normal.</Pair>
@@ -1430,7 +1430,7 @@ const _flame_dancer = {title: "Flame Dancer", jsx: <><h2 id="arc-bard-flame_danc
 <Pair title="Special"><em>Fire dance</em> relies on audible or visual components.</Pair>
 </Ability>
 <Ability id="arc-bard-flame_dancer-song-of-the-fiery-gaze-su" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-bard-flame_dancer-song-of-the-fiery-gaze-su" flavor={["A fire dancer can allow allies to see through flames without any distortion. Any ally within 30 feet of the bard who can hear the performance can see through fire, fog, and smoke without penalty as long as the light is sufficient to allow him to see normally, as with the base effect of the ",{"tag":"Link","content":"gaze of flames","props":{"to":"/mystery/flame"}}," oracle revelation."]}>Song of the Fiery Gaze (Su)</Pair>
+<Pair single id="arc-bard-flame_dancer-song-of-the-fiery-gaze-su" flavor={<>A fire dancer can allow allies to see through flames without any distortion. Any ally within 30 feet of the bard who can hear the performance can see through fire, fog, and smoke without penalty as long as the light is sufficient to allow him to see normally, as with the base effect of the <Link to="/mystery/flame">gaze of flames</Link> oracle revelation.</>}>Song of the Fiery Gaze (Su)</Pair>
 <Pair hl title="Replaces">Inspire competence</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Special"><em>Song of the fiery gaze</em> relies on audible components.</Pair>

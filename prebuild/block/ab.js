@@ -2,7 +2,7 @@ import ordinal from "../ordinal.js";
 import writtenNumber from "written-number";
 import romans from "romans";
 import checkForEncodedLink from "../tests/checkForEncodedLink.js";
-import convertToHtmlArrayKludge from "../convertToHtmlArrayKludge.js";
+import noteTags from "../noteTags.js";
 
 const parseAtts = (attrs) => {
 	const {standard, move, free, immediate, swift, passive, ability, ability2, fullround, note, choice} = attrs;
@@ -364,7 +364,7 @@ const makeAbilityBlock = ({
 	//
 
 	const maybeFlavor = () => {
-		return flavor ? ` flavor={${convertToHtmlArrayKludge(flavor, true)}}` : "";
+		return flavor ? ` flavor={${noteTags(flags, doParse(flavor), true)}}`.replace(/\{"([^"]+)"\}/g, '"$1"') : "";
 	};
 	const abId = jlid || prefix + id;
 	output.push(`<Pair single id="${abId}"${maybeFlavor()}>${doParse(text)}</Pair>`);
@@ -541,7 +541,7 @@ const makeAbilityBlock = ({
 	//
 	if(provokes) {
 		output.push(
-				`<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>`
+				`<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>`
 				+ (
 					provokes === "provokes" ? "Yes" : provokes
 				)

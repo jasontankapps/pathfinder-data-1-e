@@ -1749,7 +1749,7 @@ const _inquisitor = {hasJL:true,title: "Inquisitor", jsx: <><div className="jump
 <Pair title="Special">With the GM's approval, you can be devoted to an ideal instead of a deity, selecting one domain to represent your personal inclination and abilities. The restriction on alignment domains still applies.</Pair>
 </Ability>
 <Ability id="class-inquisitor-judgment-su" icon={["stairs-goal"]}>
-<Pair single id="class-inquisitor-judgment-su" flavor={["You can pronounce ",{"tag":"Link","content":"judgment","props":{"to":"/ability/judgments"}}," upon your foes."]}>Judgment (Su)</Pair>
+<Pair single id="class-inquisitor-judgment-su" flavor={<>You can pronounce <Link to="/ability/judgments">judgment</Link> upon your foes.</>}>Judgment (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Swift Action"><p>Starting when the judgment is made, you receive a bonus or special ability based on the type of judgment made.</p>

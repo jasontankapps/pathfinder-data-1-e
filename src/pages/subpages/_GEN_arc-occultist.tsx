@@ -455,7 +455,7 @@ const _necroccultist = {title: "Necroccultist", jsx: <><h2 id="arc-occultist-nec
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 time/day per two occultist levels<ByLevelPop levels={[[2,1],[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></Pair>
 <Pair title="Full-Round Action">A necroccultist can learn the answers to a specific set of questions concerning a dead or undead creature. The necroccultist must consume at least one drop of the creature's blood, a small portion of its flesh, or a fragment of one of its bones as a part of this action. This ability otherwise functions as <Link to="/spell/blood_biography">blood biography</Link>, using the necroccultist's occultist level as his caster level.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>Yes</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 </Ability>
 <Ability id="arc-occultist-necroccultist-ghostly-horde-su" icon={["magic-swirl"]}>
 <Pair single id="arc-occultist-necroccultist-ghostly-horde-su">Ghostly Horde (Su)</Pair>
@@ -463,7 +463,7 @@ const _necroccultist = {title: "Necroccultist", jsx: <><h2 id="arc-occultist-nec
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Usage">1 time/day per five occultist levels<ByLevelPop levels={[[5,1],[10,2],[15,3],[20,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">A necroccultist can spend 1 point of mental focus from a necromancy implement to summon a mob of ghostly spirits to harass his enemies. The ghostly horde appears within 60 feet of the necroccultist, fills an area 20 feet in diameter, and always hovers a few inches off the ground (thus ignoring any <Link to="/rule/difficult_terrain">difficult terrain</Link>). The necroccultist can command the ghostly horde to move up to 30 feet each round as a <strong className="hl">move action</strong>, though the farthest edge of the ghostly horde can never be more than 60 feet from the necroccultist. Any creature caught inside the ghostly horde takes 1d6 points of damage per 2 occultist levels at the start of its turn (up to a maximum of 10d6 points of damage at 20th level). A successful Fortitude save (DC = 10 + 1/2 the necroccultist's occultist level + the necroccultist's Intelligence modifier) halves this damage. This damage is not negative energy - it manifests in the form of physical wounds and aches as if from supernatural aging. Nonliving creatures and creatures immune to magical aging are immune to this damage, but otherwise the damage bypasses all forms of damage reduction.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="Special">The ghostly horde remains for 1 round, though at the beginning of his turn, the necroccultist can expend 1 point of mental focus as a <strong className="hl">swift action</strong> to extend the duration for 1 additional round.</Pair>
 </Ability>
 <Ability id="arc-occultist-necroccultist-life-drain-sp" icon={["smoking-finger","heart-plus"]}>
@@ -630,7 +630,7 @@ const _psychodermist = {title: "Psychodermist", jsx: <><h2 id="arc-occultist-psy
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 time/day + 1 per three occultist levels beyond 2nd<ByLevelPop levels={[[2,1],[5,2],[8,3],[11,4],[14,5],[17,6],[20,7]]} unit="time" postText="/day" /></Pair>
 <Pair title="Full-Round Action">A psychodermist can glean information from a creature's corpse. The psychodermist must study at least one drop of the creature's blood, a small portion of its flesh, or a fragment of one of its bones as a part of this action. This ability otherwise functions as <Link to="/spell/blood_biography">blood biography</Link>, using the psychodermist's occultist level as his caster level.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>Yes</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 </Ability>
 <Ability id="arc-occultist-psychodermist-seek-prey-su" icon={["magic-swirl"]}>
 <Pair single id="arc-occultist-psychodermist-seek-prey-su">Seek Prey (Su)</Pair>
@@ -898,7 +898,7 @@ const _tome_eater = {title: "Tome Eater", jsx: <><h2 id="arc-occultist-tome_eate
 <Pair hl title="Replaces">Shift focus, 6th-level implement, magic circles, outside contact, binding circles, fast circles</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Full-Round Action">A tome eater can devour books and scrolls in order to gain various benefits (described below). A devoured book or scroll is absorbed into the tome eater's body and completely destroyed.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>Yes</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 <Pair title="At 4th Level">Once per day a tome eater can devour a spell scroll or a book to regain mental focus, which she can divide as she likes among her schools of magic, to a maximum of the amount of mental focus she assigned to that school at the beginning of the day. If she devours a scroll, a tome eater regains a number of points of mental focus equal to the spell level of the highest-level spell contained on the scroll. If she devours a nonmagical book that contains at least 100 pages of written text and is worth at least 25 gp, a tome eater regains 1 point of mental focus. If she devours a magical book, she regains a number of points of mental focus equal to half the caster level of the item. If the tome eater devours a spellbook with at least 50 pages of spells of 1st level or higher, she regains 4 points of mental focus.</Pair>
 <Pair title="At 6th Level">A tome eater can <Link to="/rule/ready_an_action">ready an action</Link> to devour an enemy's spell when an enemy within 30 feet attempts to cast a spell from a scroll. This ability works as the <Link to="/rule/counterspells">counterspell</Link> action as if the tome eater were using <Link to="/spell/dispel_magic">dispel magic</Link>, though the tome eater doesn't need to cast a spell to counter the enemy's spell. A tome eater can use this ability a number of times per day equal to <Link to="/misc/one_sixth">one-sixth</Link> of her occultist level.</Pair>
 <Pair title="At 8th Level">A tome eater can devour a book or scroll as a <strong className="hl">standard action</strong>. Additionally, whenever a tome eater successfully uses this ability to counter a spell being cast from a scroll, she can devour the enemy's scroll without spending any additional actions if she hasn't devoured a scroll or book yet that day.</Pair>

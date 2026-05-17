@@ -1,7 +1,6 @@
 import {FC, ReactNode, Fragment as F} from 'react';
 import Header from '../Header';
 import Link from '../Link';
-import parseHtmlArrayKludge, { StringOrHtmlKludge } from '../parseHtmlArrayKludge';
 import { convertTextToLink } from '../convertLinks';
 import mapNodes from '../mapNodes';
 
@@ -28,9 +27,9 @@ type HpProps = HpRaw | HpPlain;
 interface SaveProps extends Id {
 	fort: string
 	ref: string
-	will: StringOrHtmlKludge
+	will: ReactNode
 }
-type SortablePair = [string, StringOrHtmlKludge];
+type SortablePair = [string, ReactNode];
 interface DefenseProps extends Id {
 	chanRes?: string
 	fortif?: number
@@ -52,13 +51,13 @@ interface DefenseProps extends Id {
 	unc?: boolean
 	impUnc?: boolean
 	def?: SortablePair[]
-	dr?: StringOrHtmlKludge
-	immune?: StringOrHtmlKludge
-	resist?: StringOrHtmlKludge
-	sr?: StringOrHtmlKludge
+	dr?: ReactNode
+	immune?: ReactNode
+	resist?: ReactNode
+	sr?: ReactNode
 }
 interface WeaknessProps extends Id {
-	weak?: StringOrHtmlKludge[]
+	weak?: ReactNode[]
 }
 
 const Ac: FC<AcProps> = ({ac, mod}) => {
@@ -86,7 +85,7 @@ const Hp: FC<HpProps> = ({hpRaw, hp, fh, regen}) => {
 };
 
 const Save: FC<SaveProps> = ({fort, ref, will}) => {
-	return <p><strong>Fort</strong> {fort}, <strong>Reflex</strong> {ref}, <strong>Will</strong> {parseHtmlArrayKludge(will)}</p>;
+	return <p><strong>Fort</strong> {fort}, <strong>Reflex</strong> {ref}, <strong>Will</strong> {will}</p>;
 };
 
 const Defenses: FC<DefenseProps> = (props) => {
@@ -102,7 +101,7 @@ const Defenses: FC<DefenseProps> = (props) => {
 		//line = `**Defensive Abilities** ${def}`;
 		def.forEach((bit: SortablePair, i) => {
 			const [sorter, value] = bit;
-			deff.push([sorter, <F key={`${id}-def-ab-${i}`}>{parseHtmlArrayKludge(value)}</F>]);
+			deff.push([sorter, <F key={`${id}-def-ab-${i}`}>{value}</F>]);
 		});
 	}
 	if(chanRes) {
@@ -168,18 +167,18 @@ const Defenses: FC<DefenseProps> = (props) => {
 		const bool = dr ? [true, true, true] : [false, ...(immune ? [true, true] : [false, !!resist])];
 		flag = true;
 		final = <F key={id+"-dr-imm-res-sr"}>{
-			dr ? <><strong>DR</strong> {parseHtmlArrayKludge(dr)}</> : <></>
+			dr ? <><strong>DR</strong> {dr}</> : <></>
 		}{
 			immune ? (
-				<>{bool[0] ? <>; </> : <></>}<strong>Immune</strong> {parseHtmlArrayKludge(immune)}</>
+				<>{bool[0] ? <>; </> : <></>}<strong>Immune</strong> {immune}</>
 			) : <></>
 		}{
 			resist ? (
-				<>{bool[1] ? <>; </> : <></>}<strong>Resist</strong> {parseHtmlArrayKludge(resist)}</>
+				<>{bool[1] ? <>; </> : <></>}<strong>Resist</strong> {resist}</>
 			) : <></>
 		}{
 			sr ? (
-				<>{bool[2] ? <>; </> : <></>}<strong>SR</strong> {parseHtmlArrayKludge(sr)}</>
+				<>{bool[2] ? <>; </> : <></>}<strong>SR</strong> {sr}</>
 			) : <></>
 		}</F>;
 	}
@@ -197,7 +196,7 @@ const Weakness: FC<WeaknessProps> = ({weak, id}) => {
 		return <></>;
 	}
 	return <p><strong>Weaknesses</strong> {
-		mapNodes(weak.map(w => parseHtmlArrayKludge(w)), `${id}-weak`, true)
+		mapNodes(weak, `${id}-weak`, true)
 	}</p>;
 };
 

@@ -1,5 +1,4 @@
 import {FC, ReactNode} from 'react';
-import parseHtmlArrayKludge, { StringOrHtmlKludge } from '../parseHtmlArrayKludge';
 
 type NeverExcept<Type, K extends keyof Type> = Omit<Partial<{ [Property in keyof Type]: never }>, K> & Pick<Type, K>;
 
@@ -16,7 +15,7 @@ type SlaSpellList = (
 	| NeverExcept<SlaSpellListBase, "per">
 	| NeverExcept<SlaSpellListBase, "day">
 	| NeverExcept<SlaSpellListBase, "other">
-) & { content: StringOrHtmlKludge };
+) & { content: ReactNode };
 
 interface BaseSpellInfoProps {
 	con?: string
@@ -28,25 +27,25 @@ interface SlaProps extends BaseSpellInfoProps {
 }
 
 	interface PrepBase extends BaseSpellInfoProps {
-		l6?: StringOrHtmlKludge
-		l5?: StringOrHtmlKludge
-		l4?: StringOrHtmlKludge
-		l3?: StringOrHtmlKludge
-		l2?: StringOrHtmlKludge
-		l1?: StringOrHtmlKludge
+		l6?: ReactNode
+		l5?: ReactNode
+		l4?: ReactNode
+		l3?: ReactNode
+		l2?: ReactNode
+		l1?: ReactNode
 	}
 interface PreparedProps extends PrepBase {
-	l9?: StringOrHtmlKludge
-	l8?: StringOrHtmlKludge
-	l7?: StringOrHtmlKludge
-	l0?: StringOrHtmlKludge
+	l9?: ReactNode
+	l8?: ReactNode
+	l7?: ReactNode
+	l0?: ReactNode
 	prep?: string
 }
 interface ExtractProps extends PrepBase {
 	ex?: string
 }
 
-	type KnownLevel = [boolean | number, StringOrHtmlKludge];
+	type KnownLevel = [boolean | number, ReactNode];
 interface KnownProps extends BaseSpellInfoProps {
 	known?: string
 	l9?: KnownLevel
@@ -63,8 +62,8 @@ interface KnownProps extends BaseSpellInfoProps {
 
 interface PsyProps extends BaseSpellInfoProps {
 	pe: number
-	peP?: StringOrHtmlKludge
-	content: StringOrHtmlKludge
+	peP?: ReactNode
+	content: ReactNode
 }
 
 interface BaseProps {
@@ -78,7 +77,7 @@ interface Root {
 	ex: ExtractProps
 	known: KnownProps
 	psy: PsyProps
-	other: [string, StringOrHtmlKludge[]]
+	other: [string, ReactNode[]]
 }
 
 type SpellBlockProps =
@@ -128,7 +127,7 @@ const SpellBlock: FC<SpellBlockProps> = (props) => {
 			const {content} = block;
 			const title = parseSLA(block);
 			output.push(
-				<p key={key(title)}><em>title</em>-{parseHtmlArrayKludge(content)}</p>
+				<p key={key(title)}><em>title</em>-{content}</p>
 			);
 		});
 	} else if (prep) {
@@ -141,16 +140,16 @@ const SpellBlock: FC<SpellBlockProps> = (props) => {
 				con ? `; concentration ${con}` : ""
 			})</p>
 		);
-		l9 && output.push(<p key={key("l9")}><em>9th</em>-{parseHtmlArrayKludge(l9)}</p>);
-		l8 && output.push(<p key={key("l8")}><em>8th</em>-{parseHtmlArrayKludge(l8)}</p>);
-		l7 && output.push(<p key={key("l7")}><em>7th</em>-{parseHtmlArrayKludge(l7)}</p>);
-		l6 && output.push(<p key={key("l6")}><em>6th</em>-{parseHtmlArrayKludge(l6)}</p>);
-		l5 && output.push(<p key={key("l5")}><em>5th</em>-{parseHtmlArrayKludge(l5)}</p>);
-		l4 && output.push(<p key={key("l4")}><em>4th</em>-{parseHtmlArrayKludge(l4)}</p>);
-		l3 && output.push(<p key={key("l3")}><em>3rd</em>-{parseHtmlArrayKludge(l3)}</p>);
-		l2 && output.push(<p key={key("l2")}><em>2nd</em>-{parseHtmlArrayKludge(l2)}</p>);
-		l1 && output.push(<p key={key("l1")}><em>1st</em>-{parseHtmlArrayKludge(l1)}</p>);
-		l0 && output.push(<p key={key("l0")}><em>0 (at will)</em>-{parseHtmlArrayKludge(l0)}</p>);
+		l9 && output.push(<p key={key("l9")}><em>9th</em>-{l9}</p>);
+		l8 && output.push(<p key={key("l8")}><em>8th</em>-{l8}</p>);
+		l7 && output.push(<p key={key("l7")}><em>7th</em>-{l7}</p>);
+		l6 && output.push(<p key={key("l6")}><em>6th</em>-{l6}</p>);
+		l5 && output.push(<p key={key("l5")}><em>5th</em>-{l5}</p>);
+		l4 && output.push(<p key={key("l4")}><em>4th</em>-{l4}</p>);
+		l3 && output.push(<p key={key("l3")}><em>3rd</em>-{l3}</p>);
+		l2 && output.push(<p key={key("l2")}><em>2nd</em>-{l2}</p>);
+		l1 && output.push(<p key={key("l1")}><em>1st</em>-{l1}</p>);
+		l0 && output.push(<p key={key("l0")}><em>0 (at will)</em>-{l0}</p>);
 	} else if (ex) {
 		store(id + "-extracts-");
 		const {ex: p, l1, l2, l3, l4, l5, l6, cl, con} = ex;
@@ -161,12 +160,12 @@ const SpellBlock: FC<SpellBlockProps> = (props) => {
 				con ? `; concentration ${con}` : ""
 			})</p>
 		);
-		l6 && output.push(<p key={key("l6")}><em>6th</em>-{parseHtmlArrayKludge(l6)}</p>);
-		l5 && output.push(<p key={key("l5")}><em>5th</em>-{parseHtmlArrayKludge(l5)}</p>);
-		l4 && output.push(<p key={key("l4")}><em>4th</em>-{parseHtmlArrayKludge(l4)}</p>);
-		l3 && output.push(<p key={key("l3")}><em>3rd</em>-{parseHtmlArrayKludge(l3)}</p>);
-		l2 && output.push(<p key={key("l2")}><em>2nd</em>-{parseHtmlArrayKludge(l2)}</p>);
-		l1 && output.push(<p key={key("l1")}><em>1st</em>-{parseHtmlArrayKludge(l1)}</p>);
+		l6 && output.push(<p key={key("l6")}><em>6th</em>-{l6}</p>);
+		l5 && output.push(<p key={key("l5")}><em>5th</em>-{l5}</p>);
+		l4 && output.push(<p key={key("l4")}><em>4th</em>-{l4}</p>);
+		l3 && output.push(<p key={key("l3")}><em>3rd</em>-{l3}</p>);
+		l2 && output.push(<p key={key("l2")}><em>2nd</em>-{l2}</p>);
+		l1 && output.push(<p key={key("l1")}><em>1st</em>-{l1}</p>);
 	} else if (known) {
 		store(id + "-known-");
 		const {known: p, l0, l1, l2, l3, l4, l5, l6, l7, l8, l9, cl, con} = known;
@@ -177,28 +176,28 @@ const SpellBlock: FC<SpellBlockProps> = (props) => {
 				con ? `; concentration ${con}` : ""
 			})</p>
 		);
-		l9 && output.push(<p key={key("l9")}><em>9th ({l9[0]})</em>-{parseHtmlArrayKludge(l9[1])}</p>);
-		l8 && output.push(<p key={key("l8")}><em>8th ({l8[0]})</em>-{parseHtmlArrayKludge(l8[1])}</p>);
-		l7 && output.push(<p key={key("l7")}><em>7th ({l7[0]})</em>-{parseHtmlArrayKludge(l7[1])}</p>);
-		l6 && output.push(<p key={key("l6")}><em>6th ({l6[0]})</em>-{parseHtmlArrayKludge(l6[1])}</p>);
-		l5 && output.push(<p key={key("l5")}><em>5th ({l5[0]})</em>-{parseHtmlArrayKludge(l5[1])}</p>);
-		l4 && output.push(<p key={key("l4")}><em>4th ({l4[0]})</em>-{parseHtmlArrayKludge(l4[1])}</p>);
-		l3 && output.push(<p key={key("l3")}><em>3rd ({l3[0]})</em>-{parseHtmlArrayKludge(l3[1])}</p>);
-		l2 && output.push(<p key={key("l2")}><em>2nd ({l2[0]})</em>-{parseHtmlArrayKludge(l2[1])}</p>);
-		l1 && output.push(<p key={key("l1")}><em>1st ({l1[0]})</em>-{parseHtmlArrayKludge(l1[1])}</p>);
-		l0 && output.push(<p key={key("l0")}><em>0 (at will)</em>-{parseHtmlArrayKludge(l0[1])}</p>);
+		l9 && output.push(<p key={key("l9")}><em>9th ({l9[0]})</em>-{l9[1]}</p>);
+		l8 && output.push(<p key={key("l8")}><em>8th ({l8[0]})</em>-{l8[1]}</p>);
+		l7 && output.push(<p key={key("l7")}><em>7th ({l7[0]})</em>-{l7[1]}</p>);
+		l6 && output.push(<p key={key("l6")}><em>6th ({l6[0]})</em>-{l6[1]}</p>);
+		l5 && output.push(<p key={key("l5")}><em>5th ({l5[0]})</em>-{l5[1]}</p>);
+		l4 && output.push(<p key={key("l4")}><em>4th ({l4[0]})</em>-{l4[1]}</p>);
+		l3 && output.push(<p key={key("l3")}><em>3rd ({l3[0]})</em>-{l3[1]}</p>);
+		l2 && output.push(<p key={key("l2")}><em>2nd ({l2[0]})</em>-{l2[1]}</p>);
+		l1 && output.push(<p key={key("l1")}><em>1st ({l1[0]})</em>-{l1[1]}</p>);
+		l0 && output.push(<p key={key("l0")}><em>0 (at will)</em>-{l0[1]}</p>);
 	} else if (psy) {
 		store(`-psychic-`);
 		const {cl, con, pe, peP, content} = psy;
 		output.push(
 			<p key={key("title")}><strong>Psychic Magic</strong> (CL ${cl}${con ? `; concentration ${con}` : ""})</p>,
-			<p key={key("content")}><em>{pe} PE{peP ? ` (${peP})` : ""}</em>-{parseHtmlArrayKludge(content)}</p>
+			<p key={key("content")}><em>{pe} PE{peP ? ` (${peP})` : ""}</em>-{content}</p>
 		);
 	} else {
 		const [title, content] = other;
 		store(`-other-${title}-`);
 		output.push(...content.map((bit, i) => (
-			<p key={key(String(i))}>{parseHtmlArrayKludge(bit)}</p>
+			<p key={key(String(i))}>{bit}</p>
 		)));
 	}
 	return <div className={"reduce" + hasNeighbor ? " no-bottom-margin" : ""}>{output}</div>;

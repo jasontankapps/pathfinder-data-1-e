@@ -1,8 +1,8 @@
-import convertToHtmlArrayKludge from "../convertToHtmlArrayKludge.js";
+import noteTags from "../noteTags.js";
 
 const clean = (bit) => bit.replace(/‹[-a-z_]+[/]([^›]+)›/g, "$1").replace(/[^-a-zA-Z_ 0-9]/g, "");
 
-const makeMonsterDefenseBlock = ({marked2, convertEncodedInfo, maybeClear, attrs, id, logError}) => {
+const makeMonsterDefenseBlock = ({marked2, flags, convertEncodedInfo, maybeClear, attrs, id, logError}) => {
 	const {
 		ac, mod,
 		hp, hpRaw, fh, regen,
@@ -15,7 +15,7 @@ const makeMonsterDefenseBlock = ({marked2, convertEncodedInfo, maybeClear, attrs
 		weak, vulner
 	} = attrs;
 	const output = [];
-	const doConvert = (input, stringify = true) => convertToHtmlArrayKludge(marked2.parseInline(convertEncodedInfo(input)), stringify);
+	const doConvert = (input, stringify = true) => noteTags(flags, marked2.parseInline(convertEncodedInfo(input)), stringify);
 	let flag = true;
 	const log = (...args) => {
 		logError(...args);
@@ -89,7 +89,7 @@ const makeMonsterDefenseBlock = ({marked2, convertEncodedInfo, maybeClear, attrs
 		log("Missing reflex save");
 	}
 	if(will) {
-		output.push(`will={${doConvert(String(will))}}`);
+		output.push(`will={${doConvert(String(will))}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 	} else {
 		log("Missing will save");
 	}
@@ -99,10 +99,9 @@ const makeMonsterDefenseBlock = ({marked2, convertEncodedInfo, maybeClear, attrs
 	let line = "";
 	const deff = [];
 	if(def) {
-		def.split(/~/).forEach(bit => {
-			deff.push([clean(bit), doConvert(bit, false)]);
-		});
-		output.push(`def={${JSON.stringify(deff)}}`);
+		output.push(`def={[${def.split(/~/).map(
+			bit => `["${clean(bit)}",${doConvert(bit)}]`
+		).join(",")}]}`);
 	}
 	if(chanRes) {
 		output.push(`chanRes="${chanRes}"`);
@@ -174,13 +173,13 @@ const makeMonsterDefenseBlock = ({marked2, convertEncodedInfo, maybeClear, attrs
 		output.push("impUnc");
 	}
 	if(dr) {
-		output.push(`dr={${doConvert(dr)}}`);
+		output.push(`dr={${doConvert(dr)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 	}
 	if(immune) {
-		output.push(`immune={${doConvert(immune)}}`);
+		output.push(`immune={${doConvert(immune)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 	}
 	if(resist) {
-		output.push(`resist={${doConvert(resist)}}`);
+		output.push(`resist={${doConvert(resist)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 	}
 	if(sr) {
 		output.push(`sr="${sr}"`);
@@ -198,7 +197,7 @@ const makeMonsterDefenseBlock = ({marked2, convertEncodedInfo, maybeClear, attrs
 	}
 	if(w.length > 0) {
 		w.sort((a, b) => a[0].localeCompare(b[0]));
-		output.push(`weak={${JSON.stringify(w.map(bit => doConvert(bit[1], false)))}}`);
+		output.push(`weak={[${w.map(bit => doConvert(bit[1])).join(",")}]}`);
 	}
 	if(flag) {
 		return `${maybeClear}<Defense id="${id}" ${output.join(" ")} />\n`;

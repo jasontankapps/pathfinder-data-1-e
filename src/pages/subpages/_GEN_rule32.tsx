@@ -1,4 +1,5 @@
 import {IonRippleEffect} from '@ionic/react';
+import Header from '../../components/Header';
 import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
@@ -852,111 +853,111 @@ const _ships_and_ship_statistics = {title: "Ships and Ship Statistics", parent_t
 <p><strong className="hl">Decks:</strong> The usual number of decks on a ship and any important information about those decks is given in this section.</p>
 <p><strong className="hl">Cargo/Passengers:</strong> The amount of cargo (in tons) a ship can hold, as well as the number of non-crew passengers it can carry.</p>
 </>};
-const _ss_galley = {title: "Galley", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><p className="statblockHeader">Galley</p>
+const _ss_galley = {title: "Galley", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><Header>Galley</Header>
 <p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 23</Link><br/>Colossal ship<br/><strong>Squares</strong> 4 (20 ft. by 130 ft.); <strong>Cost</strong> 30,000 gp</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 2; <strong>Hardness</strong> 5<br/><strong>hp</strong> 1,560 (oars 1,400, sails 320)<br/><strong>Base Save</strong> +8</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Maximum Speed</strong> 60 ft. (muscle), 60 ft. (wind), or 120 ft. (muscle and wind); <strong>Acceleration</strong> 30 ft.<br/><strong>CMB</strong> +8; <strong>CMD</strong> 18<br/><strong>Ramming Damage</strong> 8d8</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Propulsion</strong> muscle, wind, or current<br/><strong>Sailing Check</strong> Diplomacy or Intimidate (when using muscle); Profession (sailor) (when using wind or current)<br/><strong>Control Device</strong> tiller<br/><strong>Means of Propulsion</strong> 140 oars, 80 squares of sails (two masts)<br/><strong>Crew</strong> 200 (60+140 Medium rowers)<br/><strong>Decks</strong> 3<br/><strong>Cargo/Passengers</strong> 150 tons/250 passengers</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>One of the largest sailing ships on the sea, a galley has 70 oars on either side. A <Link to="/eq-misc/galley">galley</Link> can be any large ship that primarily relies on oars for propulsion, but also contains one to three masts with sails. Galleys typically stick close to the coast, as long ocean voyages are risky in such vessels. This stat block can be used to represent a variety of historical galleys, from biremes and triremes to galliots and dromons.</p>
 <p><strong>Weapons:</strong> Up to 40 Large direct-fire <Link to="/rule/siege_engines_uc">siege engines</Link> in banks of 20 positioned on the port and starboard sides of the ship, or up to 12 Huge direct-fire siege engines in banks of six on the port and starboard sides of the ship. These siege engines may only fire out the sides of the ship that they are positioned on and cannot fire toward the forward or aft sides of the ship. These siege engines cannot be used while the galley is being rowed.</p>
 <p>For an additional 8,000 gp, a galley can be fitted with a ram and castles with firing platforms fore, aft, and amidships. Each of these firing platforms can hold a single Large or Huge direct-fire or indirect-fire siege engine. Siege engines on the fore and aft firing platforms can be swiveled to fire out the sides of the ship or either forward or aft, depending on their position. A siege engine on the amidships can be swiveled to fire out either side of the ship.</p>
 </>};
-const _ss_junk = {title: "Junk", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><p className="statblockHeader">Junk</p>
+const _ss_junk = {title: "Junk", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><Header>Junk</Header>
 <p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 23</Link><br/>Colossal ship<br/><strong>Squares</strong> 3 (20 ft. by 75 ft.) <strong>Cost</strong> 15,000 gp</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 2; <strong>Hardness</strong> 5<br/><strong>hp</strong> 900 (sails 360)<br/><strong>Base Save</strong> +6</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Maximum Speed</strong> 90 ft. (wind); <strong>Acceleration</strong> 30 ft.<br/><strong>CMB</strong> +8; <strong>CMD</strong> 18<br/><strong>Ramming Damage</strong> 8d8</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Propulsion</strong> wind or current<br/><strong>Sailing Check</strong> Profession (sailor)<br/><strong>Control Device</strong> tiller<br/><strong>Means of Propulsion</strong> 90 squares of sails (three masts)<br/><strong>Crew</strong> 10<br/><strong>Decks</strong> 2<br/><strong>Cargo/Passengers</strong> 100 tons/100 passengers</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>This flat-bottomed sailing ship from Tian Xia has two or three masts with junk-rigged sails, allowing it to be easily sailed by a small crew. <Link to="/eq-misc/junk">Junks</Link> typically have a high poop deck and a flat bottom with no keel, and so rely on daggerboards, leeboards, or large rudders for stability. A junk's hull is divided into several watertight compartments, like a stalk of bamboo, which strengthen the hull and slow flooding. Junks are capable of ocean travel, and have a waterborne speed of 2 miles per hour or 48 miles per day.</p>
 <p><strong>Weapons:</strong> Up to 12 Large direct-fire or indirect-fire <Link to="/rule/siege_engines_uc">siege engines</Link> in banks of six positioned on the port and starboard sides of the ship, or up to four Huge direct-fire siege engines in banks of two on the port and starboard sides of the ship. These siege engines may only fire out the sides of the ship that they are positioned on and cannot fire toward the forward or aft sides of the ship.</p>
 <p>In addition, up to two Large direct-fire or indirect-fire siege engines may be positioned one each on the forward and aft sides of the ship (one Huge direct-fire or indirect-fire siege engine may be positioned on the aft side of the ship instead, but the forward side can only fit a Large siege weapon). These siege engines can be swiveled to fire out either side of the ship, or either forward or aft, depending on their position.</p>
 </>};
-const _ss_keelboat = {title: "Keelboat", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><p className="statblockHeader">Keelboat</p>
+const _ss_keelboat = {title: "Keelboat", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><Header>Keelboat</Header>
 <p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 24</Link><br/>Gargantuan ship<br/><strong>Squares</strong> 2 (15 ft. by 50 ft.) <strong>Cost</strong> 3,000 gp</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 6; <strong>Hardness</strong> 5<br/><strong>hp</strong> 600 (oars 80, sails 80)<br/><strong>Base Save</strong> +4</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Maximum Speed</strong> 30 ft. (muscle), 30 ft. (wind), or 60 ft. (muscle and wind); <strong>Acceleration</strong> 30 ft.<br/><strong>CMB</strong> +4; <strong>CMD</strong> 14<br/><strong>Ramming Damage</strong> 4d8</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Propulsion</strong> muscle, wind, or current<br/><strong>Sailing Check</strong> Diplomacy or Intimidate (when using muscle); Profession (sailor) (when using wind or current)<br/><strong>Control Device</strong> tiller<br/><strong>Means of Propulsion</strong> 8 oars, 20 squares of sails (one mast)<br/><strong>Crew</strong> 15 (7+8 Medium rowers)<br/><strong>Decks</strong> 1<br/><strong>Cargo/Passengers</strong> 50 tons/100 passengers</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>This flat-bottomed ship has a few oars to supplement its single mast with a square sail. It can make both sea and river voyages. <Link to="/eq-misc/keelboat">Keelboats</Link> are designed to carry cargo, rather than for fighting. Types of keelboats include the cog, hoy, hulk, karve, and knarr.</p>
 <p><strong>Weapons:</strong> One Large direct-fire or indirect-fire <Link to="/rule/siege_engines_uc">siege engine</Link> positioned on the forward or aft side of the ship. This siege engine can be swiveled to fire out either side of the ship, or either forward or aft, depending on its position.</p>
 </>};
-const _ss_longship = {title: "Longship", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><p className="statblockHeader">Longship</p>
+const _ss_longship = {title: "Longship", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><Header>Longship</Header>
 <p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 24</Link><br/>Colossal ship<br/><strong>Squares</strong> 3 (15 ft. by 75 ft.) <strong>Cost</strong> 10,000 gp</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 2; <strong>Hardness</strong> 5<br/><strong>hp</strong> 675 (oars 400, sails 120)<br/><strong>Base Save</strong> +5</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Maximum Speed</strong> 30 ft. (muscle), 60 ft. (wind), or 90 ft. (muscle and wind); <strong>Acceleration</strong> 30 ft.<br/><strong>CMB</strong> +8; <strong>CMD</strong> 18<br/><strong>Ramming Damage</strong> 8d8</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Propulsion</strong> muscle, wind, or current<br/><strong>Sailing Check</strong> Diplomacy or Intimidate (when using muscle); Profession (sailor) (when using wind or current)<br/><strong>Control Device</strong> tiller<br/><strong>Means of Propulsion</strong> 40 oars, 30 squares of sails (one mast)<br/><strong>Crew</strong> 50 (10+40 Medium rowers)<br/><strong>Decks</strong> 1 (with small cargo area under the deck)<br/><strong>Cargo/Passengers</strong> 50 tons/100 passengers</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>This long and relatively narrow boat has a single mast with a square sail and 40 oars. It can traverse lakes, oceans, and deep rivers. This stat block can be used to represent Norse <Link to="/eq-misc/longship">longships</Link> such as the karvi, snekkja, and skei, as well as the balinger and birlinn.</p>
 <p><strong>Weapons:</strong> Up to two Large direct-fire or indirect-fire <Link to="/rule/siege_engines_uc">siege engines</Link> positioned one each on the forward and aft sides of the ship. These siege engines can be swiveled to fire out either side of the ship, or either forward or aft, depending on their position.</p>
 </>};
-const _ss_raft = {title: "Raft", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><p className="statblockHeader">Raft</p>
+const _ss_raft = {title: "Raft", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><Header>Raft</Header>
 <p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 24</Link><br/>Large ship<br/><strong>Squares</strong> 1 (10 ft. by 10 ft.) <strong>Cost</strong> -</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 9; <strong>Hardness</strong> 5<br/><strong>hp</strong> 30 (oars 20)<br/><strong>Base Save</strong> +0</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Maximum Speed</strong> 30 ft. (muscle); <strong>Acceleration</strong> 30 ft.<br/><strong>CMB</strong> +1; <strong>CMD</strong> 11<br/><strong>Ramming Damage</strong> 1d8</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Propulsion</strong> muscle or current<br/><strong>Sailing Check</strong> Diplomacy or Intimidate (when using muscle); Profession (sailor) (when using current)<br/><strong>Control Device</strong> oars<br/><strong>Means of Propulsion</strong> 2 oars<br/><strong>Crew</strong> 1 (the pilot, who is also a rower, plus up to 3 additional Medium rowers)<br/><strong>Decks</strong> 1<br/><strong>Cargo/Passengers</strong> 1,000 pounds/up to 3 passengers (a raft can carry a total of 4 Medium creatures, either as crew or passengers)</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>The most basic and primitive type of ship, a <Link to="/eq-misc/raft">raft</Link> is a simple, flat boat with no hull, often made of logs lashed together, using two to four oars for propulsion. Rafts are not designed for ocean travel. A raft cannot carry any siege engines.</p>
 </>};
-const _ss_rowboat = {title: "Rowboat", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><p className="statblockHeader">Rowboat</p>
+const _ss_rowboat = {title: "Rowboat", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><Header>Rowboat</Header>
 <p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 25</Link><br/>Large ship<br/><strong>Squares</strong> 1 (5 ft. by 10 ft.) <strong>Cost</strong> 50 gp</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 9; <strong>Hardness</strong> 5<br/><strong>hp</strong> 60 (oars 20)<br/><strong>Base Save</strong> +1</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Maximum Speed</strong> 30 ft. (muscle); <strong>Acceleration</strong> 30 ft.<br/><strong>CMB</strong> +1; <strong>CMD</strong> 11<br/><strong>Ramming Damage</strong> 1d8</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Propulsion</strong> muscle or current<br/><strong>Sailing Check</strong> Diplomacy or Intimidate (when using muscle); Profession (sailor) (when using current)<br/><strong>Control Device</strong> oars<br/><strong>Means of Propulsion</strong> 2 to 4 oars<br/><strong>Crew</strong> 1 (the pilot, who is also a rower, plus up to 1 additional Medium rower)<br/><strong>Decks</strong> 1<br/><strong>Cargo/Passengers</strong> 1,000 pounds/up to 3 passengers (a rowboat can carry a total of 4 Medium creatures, either as crew or passengers)</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>This small boat has two to four oars and is primarily used to ferry a few passengers across small areas of water such as a harbor, stream, or small lake. Larger ships use <Link to="/eq-misc/rowboat">rowboats</Link> as tenders or lifeboats. A rowboat cannot carry any siege engines. This stat block can be used to represent any of a number small open boats propelled by oars, such as dinghies, dories, skiffs, and wherries.</p>
 </>};
-const _ss_sailing_ship = {title: "Sailing Ship", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><p className="statblockHeader">Sailing Ship</p>
+const _ss_sailing_ship = {title: "Sailing Ship", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><Header>Sailing Ship</Header>
 <p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 25</Link><br/>Colossal ship<br/><strong>Squares</strong> 3 (30 ft. by 90 ft.) <strong>Cost</strong> 10,000 gp</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 2; <strong>Hardness</strong> 5<br/><strong>hp</strong> 1,620 (sails 360)<br/><strong>Base Save</strong> +6</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Maximum Speed</strong> 90 ft. (wind); <strong>Acceleration</strong> 30 ft.<br/><strong>CMB</strong> +8; <strong>CMD</strong> 18<br/><strong>Ramming Damage</strong> 8d8</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Propulsion</strong> wind or current<br/><strong>Sailing Check</strong> Profession (sailor)<br/><strong>Control Device</strong> steering wheel<br/><strong>Means of Propulsion</strong> 90 squares of sails (three masts)<br/><strong>Crew</strong> 20<br/><strong>Decks</strong> 2 or 3<br/><strong>Cargo/Passengers</strong> 150 tons/120 passengers</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>This massive sailing ship has one to four masts (usually two or three) with either square or lateen sails. Often they have raised forecastles and sterncastles. <Link to="/eq-misc/sailing_ship">Sailing ships</Link> are primarily used for ocean travel. Most merchant ships, and many military and pirate vessels are sailing ships of one type or another. Sailing ships come in a variety of different designs, including barques, brigantines, caravels, carracks, larger cogs, frigates, galleons, schooners, sloops, and xebecs. A sailing ship with four masts and outfitted with siege engines is often known as a man-o'-war.</p>
 <p><strong>Weapons:</strong> Up to 20 Large direct-fire <Link to="/rule/siege_engines_uc">siege engines</Link> in banks of 10 positioned on the port and starboard sides of the ship, or up to six Huge direct-fire siege engines in banks of three on the port and starboard sides of the ship. These siege engines may only fire out the sides of the ship that they are positioned on and cannot fire toward the forward or aft sides of the ship.</p>
 <p>In addition, up to two Large or one Huge direct-fire or indirect-fire siege engine may be positioned on both the forecastle and sterncastle of the ship. These siege engines can be swiveled to fire out the sides of the ship or either forward or aft, depending on their position.</p>
 </>};
-const _ss_ships_boat = {title: "Ship's Boat", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><p className="statblockHeader">Ship's Boat</p>
+const _ss_ships_boat = {title: "Ship's Boat", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><Header>Ship's Boat</Header>
 <p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 25</Link><br/>Large ship<br/><strong>Squares</strong> 1 (10 ft. by 20 ft.) <strong>Cost</strong> 500 gp</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 9; <strong>Hardness</strong> 5<br/><strong>hp</strong> 120 (oars 60, sails 40)<br/><strong>Base Save</strong> +2</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Maximum Speed</strong> 30 ft. (muscle or wind); <strong>Acceleration</strong> 30 ft.<br/><strong>CMB</strong> +1; <strong>CMD</strong> 11<br/><strong>Ramming Damage</strong> 1d8</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Propulsion</strong> muscle, wind, or current<br/><strong>Sailing Check</strong> Diplomacy or Intimidate (when using muscle); Profession (sailor) (when using wind or current)<br/><strong>Control Device</strong> oars<br/><strong>Means of Propulsion</strong> 6 oars, 10 squares of sails (one mast)<br/><strong>Crew</strong> 4 to 10 Medium rowers<br/><strong>Decks</strong> 1<br/><strong>Cargo/Passengers</strong> 2 tons/up to 12 passengers (depending on size, a ship's boat can carry up to a total of 16 Medium creatures, either as crew or passengers)</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p><Link to="/eq-misc/ships_boat">Ship's boats</Link> are usually carried on the decks of larger ships to use as tenders to ferry passengers and cargo from ship to shore or between ships. Some ship's boats are reserved for the use of officers, while others are used as landing craft or to carry boarding parties. An average ship's boat is 16 to 24 feet long (though the largest ship's boats can be upward of 30 feet long) and has anywhere from four to 10 oars as well as a single mast with a square or lateen sail. A ship's boat has a waterborne speed of 2 miles per hour or 20 miles per day. A ship's boat cannot carry any siege engines. This stat block can be used to represent any of several types of ship's boats, such as cutters, gigs, jolly boats, launches, longboats, or pinnaces, as well as other small, open boats such as faerings, sampans, and whaleboats.</p>
 </>};
-const _ss_warship = {title: "Warship", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><p className="statblockHeader">Warship</p>
+const _ss_warship = {title: "Warship", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","ships_and_ship_statistics"], siblings: ["ss_galley","ss_junk","ss_keelboat","ss_longship","ss_raft","ss_rowboat","ss_sailing_ship","ss_ships_boat","ss_warship","ship_modifications"], className: "hasStatblock", jsx: <><Header>Warship</Header>
 <p><strong>Sources</strong> <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 26</Link><br/>Colossal ship<br/><strong>Squares</strong> 4 (20 ft. by 100 ft.) <strong>Cost</strong> 25,000 gp</p>
-<p className="statblockSubHeader">Defense</p>
+<Header sub>Defense</Header>
 <p><strong>AC</strong> 2; <strong>Hardness</strong> 10<br/><strong>hp</strong> 1,200 (oars 600, sails 320)<br/><strong>Base Save</strong> +7</p>
-<p className="statblockSubHeader">Offense</p>
+<Header sub>Offense</Header>
 <p><strong>Maximum Speed</strong> 60 ft. (muscle), 30 ft. (wind), or 90 ft. (muscle and wind); <strong>Acceleration</strong> 30 ft.<br/><strong>CMB</strong> +8; <strong>CMD</strong> 18<br/><strong>Ramming Damage</strong> 8d8</p>
-<p className="statblockSubHeader">Statistics</p>
+<Header sub>Statistics</Header>
 <p><strong>Propulsion</strong> muscle, wind, or current<br/><strong>Sailing Check</strong> Diplomacy or Intimidate (when using muscle); Profession (sailor) (when using wind or current)<br/><strong>Control Device</strong> tiller<br/><strong>Means of Propulsion</strong> 60 oars, 40 squares of magically-treated sails (one mast)<br/><strong>Crew</strong> 80 (20+60 Medium rowers)<br/><strong>Decks</strong> 2<br/><strong>Cargo/Passengers</strong> 50 tons/160 passengers</p>
-<p className="statblockSubHeader">Description</p>
+<Header sub>Description</Header>
 <p>This ship is crafted of reinforced wood with a single mast and magically treated sails, although oars can also propel it. A <Link to="/eq-misc/warship">warship</Link> is used for short-distance forays and troop deployment, as it does not have cargo space to carry supplies for large numbers of passengers over a long distance. Like galleys, warships are not designed for sea voyages and tend to stick close to the coast. A warship is not used for cargo. The largest Norse longships, called drekar or drakkar, as well as very large galleys such as galleasses and lantern galleys, are all considered warships.</p>
 <p><strong>Weapons:</strong> Up to 20 Large direct-fire <Link to="/rule/siege_engines_uc">siege engines</Link> in banks of 10 are positioned on the port and starboard sides of the ship, or up to six Huge direct-fire siege engines in banks of three on the ship's port and starboard sides. These siege engines may only fire out the sides of the ship that they are positioned on and cannot fire toward the forward or aft sides of the ship. These siege engines cannot be used while the warship is being rowed. For an additional 8,000 gp, a warship can be fitted with a ram and castles with firing platforms fore, aft, and amidships. Each of these firing platforms can hold a single Large or Huge direct-fire or indirect-fire siege engine. Siege engines on the fore and aft firing platforms can be swiveled to fire out the sides of the ship or either forward or aft, depending on their position. A siege engine on the amidships can be swiveled to fire out either side of the ship.</p>
 </>};
@@ -1005,12 +1006,12 @@ const _reading_a_fleet_stat_block = {title: "Reading a Fleet Stat Block", parent
 <p><strong className="hl">Damage:</strong> This lists the damage the squadron deals on a successful hit.</p>
 <p><strong className="hl">Morale Check:</strong> This lists the squadron's morale check modifier.</p>
 </>};
-const _sample_fleet = {title: "Sample Fleet", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","mass_naval_combat","fleet_basics","reading_a_fleet_stat_block"], siblings: ["sample_fleet"], className: "hasStatblock", jsx: <><div className="compressed"><p className="statblockHeader">Sample Fleet</p>
+const _sample_fleet = {title: "Sample Fleet", parent_topics: ["gm_specific_campaigns","seafaring_and_piracy_rules","mass_naval_combat","fleet_basics","reading_a_fleet_stat_block"], siblings: ["sample_fleet"], className: "hasStatblock", jsx: <><div className="compressed"><Header>Sample Fleet</Header>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_59_the_price_of_infamy">Pathfinder #59: The Price of Infamy pg. 36</Link><br/><strong>XP</strong> 19,200<br/><strong>Admiral</strong> Addy Miral (Profession [sailor] +17 [+25 to determine initiative])<br/><strong>Flagship</strong> <em>Bandero</em><br/><strong>Significant Characters</strong></p>
 <blockquote>
 <p>Emil Uno (<em>Bandero</em>, Arcane Artillery)<br/>Jakarta (<em>Bandero</em>, Swift to Battle)<br/>Leroy Jenkins (<em>Bandero</em>, Vengeance)<br/>Tam Cuarto (<em>Bandero</em>, Swift to Battle)</p>
 </blockquote>
-<p className="statblockSubHeader">Squadrons</p>
+<Header sub>Squadrons</Header>
 <p><strong>Maverick Squadron</strong></p>
 <blockquote>
 <p><strong>Configuration</strong> 6 warships<br/><strong>Commodore</strong> Crusan Tim (Profession [sailor] +15, Charisma modifier +3)<br/><strong>Hits</strong> 24; <strong>Morale</strong> 3<br/><strong>Defense Value</strong> 25<br/><strong>Attack Value</strong> +15; <strong>Damage</strong> 1d6+7<br/><strong>Morale Check</strong> +5</p>

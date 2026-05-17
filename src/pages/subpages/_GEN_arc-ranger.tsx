@@ -193,7 +193,7 @@ const _bow_nomad = {title: "Bow Nomad", jsx: <><h2 id="arc-ranger-bow_nomad-bow-
 <Ability id="arc-ranger-bow_nomad-deflecting-arrow" extraClasses="subAbility" icon={["armor-upgrade","shield-reflect"]}>
 <Pair single id="arc-ranger-bow_nomad-deflecting-arrow">Deflecting Arrow</Pair>
 <Pair title="Immediate Action">A bow nomad can deflect a single ranged attack. This ability functions as the <Link to="/feat/deflect_arrows">Deflect Arrows</Link> feat, except the bow nomad need not have a hand free and can deflect an attack targeting any creature within 30 feet.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 <Ability id="arc-ranger-bow_nomad-hampering-strike" extraClasses="subAbility" icon={["bowman"]}>
 <Pair single id="arc-ranger-bow_nomad-hampering-strike">Hampering Strike</Pair>
@@ -1586,7 +1586,7 @@ const _shapeshifter = {title: "Shapeshifter", jsx: <><h2 id="arc-ranger-shapeshi
 const _skirmisher = {title: "Skirmisher", jsx: <><h2 id="arc-ranger-skirmisher-skirmisher">Skirmisher</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 128</Link><br/>Many rangers rely on spells, but there are some who eschew aid from divine powers for their own reasons. Skirmishers rely on their wits, their wisdom, and sometimes even instinct to aid in their quests. A skirmisher has the following class features.</p>
 <Ability id="arc-ranger-skirmisher-hunters-tricks" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-ranger-skirmisher-hunters-tricks" flavor={["A skirmisher ranger learns the use of ",{"tag":"em","content":"hunter's tricks,","props":{}}," which typically grant a boon or bonus to the ranger or a nearby ally."]}>Hunter's Tricks</Pair>
+<Pair single id="arc-ranger-skirmisher-hunters-tricks" flavor={<>A skirmisher ranger learns the use of <em>hunter's tricks,</em> which typically grant a boon or bonus to the ranger or a nearby ally.</>}>Hunter's Tricks</Pair>
 <Pair hl title="Replaces">Spellcasting ability</Pair>
 <Pair title="At 5th Level">The ranger learns one trick, selected from the list below.</Pair>
 <Pair title="Usage">A number of times per day equal to 1/2 his ranger level + his Wisdom modifier</Pair>
@@ -1857,7 +1857,7 @@ const _sword_devil = {title: "Sword-Devil", jsx: <><h2 id="arc-ranger-sword_devi
 <Pair title="Ability">The sword-devil chooses a second ranger <Link to="/ability/combat_styles">combat style</Link>. When she recieves a bonus combat feat, she may select any feat from either combat style's list.</Pair>
 </Ability>
 <Ability id="arc-ranger-sword_devil-seething-fury-ex" icon={["upgrade"]}>
-<Pair single id="arc-ranger-sword_devil-seething-fury-ex" flavor={["The sword-devil's countless battles harden her soul and make her lose touch with her humanity. Her growing lack of control over her wrath fuels the potency of her ",{"tag":"em","content":"death vow.","props":{}}]}>Seething Fury (Ex)</Pair>
+<Pair single id="arc-ranger-sword_devil-seething-fury-ex" flavor={<>The sword-devil's countless battles harden her soul and make her lose touch with her humanity. Her growing lack of control over her wrath fuels the potency of her <em>death vow.</em></>}>Seething Fury (Ex)</Pair>
 <Pair hl title="Replaces">Improved quarry</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Ability">She adds her Charisma bonus on weapon attack and damage rolls against targets of her <em>death vow,</em> and automatically confirms threatened critical hits against them.</Pair>
@@ -2112,7 +2112,7 @@ const _trophy_hunter = {title: "Trophy Hunter", jsx: <><h2 id="arc-ranger-trophy
 <Pair title="At 18th Level">The trophy hunter can take a <Link to="/main/grit_feat">grit feat</Link> or select a gunslinger deed of his level or lower, ranger's choice.</Pair>
 </Ability>
 <Ability id="arc-ranger-trophy_hunter-hunters-aim-ex" icon={["smoking-finger"]}>
-<Pair single id="arc-ranger-trophy_hunter-hunters-aim-ex" flavor={["A trophy hunter gains a specific understanding of the weaknesses and vulnerabilities of his ",{"tag":"em","content":"favored enemies,","props":{}}," and his careful study of these enemies reveals the best way to hurt them."]}>Hunter's Aim (Ex)</Pair>
+<Pair single id="arc-ranger-trophy_hunter-hunters-aim-ex" flavor={<>A trophy hunter gains a specific understanding of the weaknesses and vulnerabilities of his <em>favored enemies,</em> and his careful study of these enemies reveals the best way to hurt them.</>}>Hunter's Aim (Ex)</Pair>
 <Pair hl title="Replaces">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">When the trophy hunter makes a firearm attack against a <em>favored enemy,</em> he can target touch AC in the first two range increments of his firearm.</Pair>
@@ -2283,7 +2283,7 @@ const _wild_shadow = {title: "Wild Shadow", jsx: <><h2 id="arc-ranger-wild_shado
 <Pair title="Ability">A wild shadow's <em>woodland stride</em> class feature functions in any <Link to="/rule/difficult_terrain">difficult terrain</Link> within any of his <em>favored terrains,</em> even in areas that are enchanted or magically manipulated to impede motion.</Pair>
 </Ability>
 <Ability id="arc-ranger-wild_shadow-harrying-attack-ex" icon={["stairs-goal","armor-downgrade"]}>
-<Pair single id="arc-ranger-wild_shadow-harrying-attack-ex" flavor={["A wild shadow can use his knowledge of terrain to make shrewd attacks in combat. Such attacks can make foes fumble or cause them to become entangled within areas of the wild shadow's ",{"tag":"em","content":"favored terrain.","props":{}}]}>Harrying Attack (Ex)</Pair>
+<Pair single id="arc-ranger-wild_shadow-harrying-attack-ex" flavor={<>A wild shadow can use his knowledge of terrain to make shrewd attacks in combat. Such attacks can make foes fumble or cause them to become entangled within areas of the wild shadow's <em>favored terrain.</em></>}>Harrying Attack (Ex)</Pair>
 <Pair hl title="Replaces">Quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Standard Action">The wild shadow denotes one target within line of sight and within one of his <em>favored terrains</em> as his <em>harried prey.</em> Once the foe is so designated, every time the wild shadow hits this <em>harried prey</em> with a melee or ranged weapon attack (either manufactured or natural), that creature is <Link to="/rule/entangled">entangled</Link> for 1 round. A wild shadow can have no more than one <em>harried prey</em> at a time and that creature must correspond to one of his <em>favored enemy</em> types.</Pair>
@@ -2501,7 +2501,7 @@ const _witchguard = {title: "Witchguard", jsx: <><h2 id="arc-ranger-witchguard-w
 const _yokai_hunter = {title: "Yokai Hunter", jsx: <><h2 id="arc-ranger-yokai_hunter-yokai-hunter">Yokai Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer pg. 23</Link><br/>Yokai hunters possess a supernatural tether to the spirit worlds that shroud mortal existence. They use their powers to peer into the realm of the dead, and are adept at hunting those who dwell in the realm between the Material Plane and the Great Beyond, the supernatural beings Tians refer to as yokai. The yokai hunter is an archetype of the ranger class.</p>
 <Ability id="arc-ranger-yokai_hunter-favored-yokai-su" icon={["upgrade","stairs-goal"]}>
-<Pair single id="arc-ranger-yokai_hunter-favored-yokai-su" flavor={["A yokai hunter possesses a supernatural ability to sense beings connected to the spirit world, such as ",{"tag":"Link","content":"kami","props":{"to":"/family/kami"}},", ",{"tag":"Link","content":"oni","props":{"to":"/family/oni"}},", and ",{"tag":"Link","content":"ghosts","props":{"to":"/template/ghost"}},", and is formidable at fighting them."]}>Favored Yokai (Su)</Pair>
+<Pair single id="arc-ranger-yokai_hunter-favored-yokai-su" flavor={<>A yokai hunter possesses a supernatural ability to sense beings connected to the spirit world, such as <Link to="/family/kami">kami</Link>, <Link to="/family/oni">oni</Link>, and <Link to="/template/ghost">ghosts</Link>, and is formidable at fighting them.</>}>Favored Yokai (Su)</Pair>
 <Pair hl title="Replaces">Favored enemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">A yokai hunter gains a +2 bonus on weapon attacks and damage rolls against one of the following creature types (and subtypes, if applicable), which are considered yokai for the purposes of this archetype: aberration, dragon, fey, magical beast, outsider (native), and undead (incorporeal). (A GM may choose to alter this list for the purposes of her campaign.)</Pair>

@@ -1,6 +1,6 @@
-import convertToHtmlArrayKludge from "../convertToHtmlArrayKludge.js";
+import noteTags from "../noteTags.js";
 
-const makeMonsterInfoBlock = ({marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, id, text, logError}) => {
+const makeMonsterInfoBlock = ({marked2, flags, parseSOURCE, convertEncodedInfo, maybeClear, attrs, id, text, logError}) => {
 	const {
 		source, xp, al, lg, ln, le, ng, n, ne, cg, cn, ce,
 		fine, diminutive, tiny, small, medium, large, huge, gargantuan, colossal,
@@ -13,7 +13,7 @@ const makeMonsterInfoBlock = ({marked2, parseSOURCE, convertEncodedInfo, maybeCl
 		aura
 	} = attrs;
 	const output = [];
-	const doConvert = (input, stringify = true) => convertToHtmlArrayKludge(marked2.parseInline(convertEncodedInfo(input)), stringify);
+	const doConvert = (input, stringify = true) => noteTags(flags, marked2.parseInline(convertEncodedInfo(input)), stringify);
 	let flag = true;
 	const log = (...lines) => {
 		flag = false;
@@ -111,7 +111,7 @@ const makeMonsterInfoBlock = ({marked2, parseSOURCE, convertEncodedInfo, maybeCl
 				const [, s, n] = m;
 				output.push(`init={${(s || "") + n}}`);
 			} else {
-				output.push(`init={${convertToHtmlArrayKludge(init, true)}}`);
+				output.push(`init={${noteTags(flags, init, true)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 			}
 		}
 	} else {

@@ -226,7 +226,7 @@ const _drunken_master = {title: "Drunken Master", jsx: <><h2 id="arc-monk-drunke
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Standard Action">A drunken master can drink a tankard of ale or strong alcohol and gain one temporary ki point. This does not provoke attacks of opportunity. The monk can have a maximum of 1 <em>drunken ki point.</em></Pair>
 <Pair title="Swift Action">As long as he has at least 1 <em>drunken ki point,</em> the monk can spend 1 ki point to move 5 feet without provoking attacks of opportunity.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="At 5th Level">The monk's maximum becomes 2 <em>drunken ki points.</em></Pair>
 <Pair title="At 7th Level">The monk's maximum increases to 3 <em>drunken ki points.</em></Pair>
 <Pair title="At 9th Level">The monk's maximum becomes 4 <em>drunken ki points.</em></Pair>
@@ -2082,7 +2082,7 @@ const _nimble_guardian = {title: "Nimble Guardian", jsx: <><h2 id="arc-monk-nimb
 <Pair hl title="Replaces">Wholeness of body</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Standard Action">A nimble guardian can transform himself into a feline creature by spending 2 ki points. The effect lasts for 1 hour or until the nimble guardian changes back. The chosen form must be some form of feline (<Link to="/monster/cheetah">cheetah</Link>, <Link to="/monster/lion">lion</Link>, etc.). This ability is otherwise identical to <Link to="/spell/beast_shape_ii">beast shape II</Link>.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="At 9th Level">This ability functions as <Link to="/spell/beast_shape_iii">beast shape III</Link>.</Pair>
 </Ability>
 <Ability id="arc-monk-nimble_guardian-evasion-ex" icon={["armor-upgrade"]}>

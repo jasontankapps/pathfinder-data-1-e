@@ -1,3 +1,4 @@
+import Header from '../../components/Header';
 import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
@@ -1008,46 +1009,46 @@ const _teams_m = {title: "Teams", parent_topics: ["gm_specific_campaigns","milit
 </>};
 const _espionage_teams = {title: "Espionage Teams", parent_topics: ["gm_specific_campaigns","militias","teams_m"], siblings: ["espionage_teams","intelligence_teams","military_teams","treasury_teams","team_conditions"], jsx: <><p><strong>Sources</strong> <Link to="/source/lands_of_conflict">Lands of Conflict pg. 52</Link></p>
 <p>Espionage teams help undermine and infiltrate enemies.</p>
-<p className="statblockHeader">Moles (Tier 1 Espionage)</p>
+<Header>Moles (Tier 1 Espionage)</Header>
 <p><strong>Recruitment</strong> Secrecy DC 15<br/><strong>Granted Actions</strong> Secure Cache<br/><strong>Size</strong> three people<br/><strong>Upgrades To</strong> propagandists<br/>A team of moles can place minor <Link to="/rule/caches">caches</Link> of equipment for later use.</p>
-<p className="statblockHeader">Propagandists (Tier 2 Espionage)</p>
+<Header>Propagandists (Tier 2 Espionage)</Header>
 <p><strong>Cost</strong> 250 gp<br/><strong>Granted Actions</strong> Secure Cache, Spread Propaganda<br/><strong>Size</strong> three people<br/><strong>Upgrades From</strong> moles<br/>Propagandists can spread the militia's message to other towns and cities. They can also place intermediate caches.</p>
-<p className="statblockHeader">Saboteurs (Tier 3 Espionage)</p>
+<Header>Saboteurs (Tier 3 Espionage)</Header>
 <p><strong>Cost</strong> 1,000 gp<br/><strong>Granted Actions</strong> Sabotage, Secure Cache, Spread Propaganda<br/><strong>Size</strong> three people<br/><strong>Upgrades From</strong> propagandists<br/>Saboteurs can undermine the actions of opposing governments. They can also place major caches.</p>
-<p className="statblockHeader">Spies (Tier 3 Espionage)</p>
+<Header>Spies (Tier 3 Espionage)</Header>
 <p><strong>Cost</strong> 1,000 gp<br/><strong>Granted Actions</strong> Covert Action, Secure Cache, Spread Propaganda<br/><strong>Size</strong> three people<br/><strong>Upgrades From</strong> propagandists<br/>Spies can orchestrate covert actions and are capable of stashing and retrieving major caches.</p>
 </>};
 const _intelligence_teams = {title: "Intelligence Teams", parent_topics: ["gm_specific_campaigns","militias","teams_m"], siblings: ["espionage_teams","intelligence_teams","military_teams","treasury_teams","team_conditions"], jsx: <><p><strong>Sources</strong> <Link to="/source/lands_of_conflict">Lands of Conflict pg. 53</Link></p>
 <p>The militia's intelligence branch can find information about enemies and safe places to lie low in hostile areas.</p>
-<p className="statblockHeader">Informants (Tier 1 Intelligence)</p>
+<Header>Informants (Tier 1 Intelligence)</Header>
 <p><strong>Recruitment</strong> Loyalty DC 10<br/><strong>Granted Actions</strong> Gather Information<br/><strong>Size</strong> six people<br/><strong>Upgrades To</strong> conspirators<br/>Informants help your militia easily find information about things happening nearby.</p>
-<p className="statblockHeader">Conspirators (Tier 2 Intelligence)</p>
+<Header>Conspirators (Tier 2 Intelligence)</Header>
 <p><strong>Cost</strong> 250 gp<br/><strong>Granted Actions</strong> Activate Refuge, Gather Information<br/><strong>Size</strong> six people<br/><strong>Upgrades From</strong> informants<br/>Conspirators can help you find contacts and secure a refuge for your militia and allies who are in trouble.</p>
-<p className="statblockHeader">Scholars (Tier 3 Intelligence)</p>
+<Header>Scholars (Tier 3 Intelligence)</Header>
 <p><strong>Cost</strong> 1,000 gp<br/><strong>Granted Actions</strong> Activate Refuge, Gather Information, Knowledge Check<br/><strong>Size</strong> six people<br/><strong>Upgrades From</strong> conspirators<br/>Scholars can find the information the militia needs as well as identify any items it comes across.</p>
-<p className="statblockHeader">Spellcasters (Tier 3 Intelligence)</p>
+<Header>Spellcasters (Tier 3 Intelligence)</Header>
 <p><strong>Cost</strong> 1,000 gp<br/><strong>Granted Actions</strong> Activate Refuge, Gather Information, Restore Character<br/><strong>Size</strong> six people<br/><strong>Upgrades From</strong> conspirators<br/>Spellcasters can help restore a dead character to life, given the proper resources.</p>
 </>};
 const _military_teams = {title: "Military Teams", parent_topics: ["gm_specific_campaigns","militias","teams_m"], siblings: ["espionage_teams","intelligence_teams","military_teams","treasury_teams","team_conditions"], jsx: <><p><strong>Sources</strong> <Link to="/source/lands_of_conflict">Lands of Conflict pg. 53</Link></p>
 <p>Military teams can ward off threats and place themselves between the PCs and their enemies.</p>
-<p className="statblockHeader">Defenders (Tier 1 Military)</p>
+<Header>Defenders (Tier 1 Military)</Header>
 <p><strong>Recruitment</strong> Security DC 15<br/><strong>Granted Actions</strong> Reduce Danger<br/><strong>Size</strong> six people<br/><strong>Upgrades To</strong> infiltrators<br/>Defenders help to keep the militia members and its assets safe and can distract enemy organizations.</p>
-<p className="statblockHeader">Infiltrators (Tier 2 Military)</p>
+<Header>Infiltrators (Tier 2 Military)</Header>
 <p><strong>Cost</strong> 250 gp<br/><strong>Granted Actions</strong> Reduce Danger, Rescue Character<br/><strong>Size</strong> six people<br/><strong>Upgrades From</strong> defenders<br/>Infiltrators can attempt daring rescues of imprisoned characters.</p>
-<p className="statblockHeader">Guardians (Tier 3 Military)</p>
+<Header>Guardians (Tier 3 Military)</Header>
 <p><strong>Cost</strong> 1,000 gp<br/><strong>Granted Actions</strong> Manipulate Events, Reduce Danger, Rescue Character<br/><strong>Size</strong> six people<br/><strong>Upgrades From</strong> infiltrators<br/>Guardians watch over regional events and protect the militia safe from foreign manipulation.</p>
-<p className="statblockHeader">Specialists (Tier 3 Military)</p>
+<Header>Specialists (Tier 3 Military)</Header>
 <p><strong>Cost</strong> 1,000 gp<br/><strong>Granted Actions</strong> Reduce Danger, Rescue Character, Strike Team<br/><strong>Size</strong> six people<br/><strong>Upgrades From</strong> infiltrators<br/>Specialists help change the way locals feel about the militia.</p>
 </>};
 const _treasury_teams = {title: "Treasury Teams", parent_topics: ["gm_specific_campaigns","militias","teams_m"], siblings: ["espionage_teams","intelligence_teams","military_teams","treasury_teams","team_conditions"], jsx: <><p><strong>Sources</strong> <Link to="/source/lands_of_conflict">Lands of Conflict pg. 54</Link></p>
 <p>Treasury teams help raise funds and gain access to other markets and hard-to-come-by items and services.</p>
-<p className="statblockHeader">Patrons (Tier 1 Treasury)</p>
+<Header>Patrons (Tier 1 Treasury)</Header>
 <p><strong>Recruitment</strong> Loyalty DC 10<br/><strong>Granted Actions</strong> Earn Gold<br/><strong>Size</strong> six people<br/><strong>Upgrades To</strong> merchants<br/>Patrons are supporters with social influence who can help secure funding for the militia's efforts.</p>
-<p className="statblockHeader">Merchants (Tier 2 Treasury)</p>
+<Header>Merchants (Tier 2 Treasury)</Header>
 <p><strong>Cost</strong> 50 gp<br/><strong>Granted Actions</strong> Broker Market, Earn Gold<br/><strong>Size</strong> six people<br/><strong>Upgrades From</strong> patrons<br/>Merchants can earn gold for the militia, or they can give the militia another source for procuring magic items.</p>
-<p className="statblockHeader">Black Marketeers (Tier 3 Treasury)</p>
+<Header>Black Marketeers (Tier 3 Treasury)</Header>
 <p><strong>Cost</strong> 200 gp<br/><strong>Granted Actions</strong> Activate Black Market, Broker Market, Earn Gold<br/><strong>Size</strong> six people<br/><strong>Upgrades From</strong> merchants<br/>Black marketeers maintain contacts with illegal sources and allow the PCs to sell items at a slightly higher profit.</p>
-<p className="statblockHeader">Fixers (Tier 3 Treasury)</p>
+<Header>Fixers (Tier 3 Treasury)</Header>
 <p><strong>Cost</strong> 200 gp<br/><strong>Granted Actions</strong> Broker Market, Earn Gold, Special Order<br/><strong>Size</strong> six people<br/><strong>Upgrades From</strong> merchants<br/>Fixers use their specialized connections to help the militia find specific services that can improve its members' magic items.</p>
 </>};
 const _team_conditions = {title: "Team Conditions", parent_topics: ["gm_specific_campaigns","militias","teams_m"], siblings: ["espionage_teams","intelligence_teams","military_teams","treasury_teams","team_conditions"], jsx: <><p><strong>Sources</strong> <Link to="/source/lands_of_conflict">Lands of Conflict pg. 54</Link></p>

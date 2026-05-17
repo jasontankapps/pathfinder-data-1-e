@@ -133,7 +133,7 @@ const _chosen_one = {title: "Chosen One", jsx: <><h2 id="arc-paladin-chosen_one-
 <Pair title="Ability">A chosen one gains an <Link to="/arc-familiar/emissary">emissary</Link> <Link to="/ability/familiar">familiar</Link>, treating her paladin level as her <Link to="/class/wizard">wizard</Link> level for the purpose of this ability.</Pair>
 </Ability>
 <Ability id="arc-paladin-chosen_one-religious-mentor-ex" icon={["upgrade","broken-shield","skills"]}>
-<Pair single id="arc-paladin-chosen_one-religious-mentor-ex" flavor={["The ",{"tag":"Link","content":"familiar's","props":{"to":"/sidekick/familiar"}}," sworn duty is to help train the chosen one for her future glory."]}>Religious Mentor (Ex)</Pair>
+<Pair single id="arc-paladin-chosen_one-religious-mentor-ex" flavor={<>The <Link to="/sidekick/familiar">familiar's</Link> sworn duty is to help train the chosen one for her future glory.</>}>Religious Mentor (Ex)</Pair>
 <Pair title="Passive Ability">The familiar is treated as having a number of ranks in Knowledge (religion) equal to the chosen one's paladin level.</Pair>
 <Pair title="Special">The chosen one doesn't gain Knowledge (religion) as a class skill.</Pair>
 </Ability>
@@ -198,7 +198,7 @@ const _divine_defender = {title: "Divine Defender", jsx: <><h2 id="arc-paladin-d
 <Pair title="Special">These bonuses are cumulative with each other. Allies only benefit from these bonuses while in the listed area.</Pair>
 </Ability>
 <Ability id="arc-paladin-divine_defender-divine-bond-su" icon={["armor-upgrade","hazard-sign"]}>
-<Pair single id="arc-paladin-divine_defender-divine-bond-su" flavor={["Instead of forming a ",{"tag":"em","content":"divine bond","props":{}}," with her weapon or a mount, a divine defender can form a bond with her armor."]}>Divine Bond (Su)</Pair>
+<Pair single id="arc-paladin-divine_defender-divine-bond-su" flavor={<>Instead of forming a <em>divine bond</em> with her weapon or a mount, a divine defender can form a bond with her armor.</>}>Divine Bond (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per three paladin levels beyond 5th<ByLevelPop levels={[[5,1],[8,2],[11,3],[14,4],[17,5],[20,6]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">A divine defender can enhance her armor by calling upon the aid of a celestial spirit. This bond lasts for 1 minute per paladin level. When called, the spirit causes the armor to shed light like a <Link to="/eq-misc/torch">torch</Link>. The spirit grants the armor a +1 enhancement bonus.</Pair>
@@ -337,7 +337,7 @@ const _empyreal_knight = {title: "Empyreal Knight", jsx: <><h2 id="arc-paladin-e
 <Pair title="Ability">An empyreal knight learns to speak and read Celestial, if she could not already.</Pair>
 </Ability>
 <Ability id="arc-paladin-empyreal_knight-celestial-heart-su" icon={["armor-upgrade","stairs-goal","shield-reflect"]}>
-<Pair single id="arc-paladin-empyreal_knight-celestial-heart-su" flavor={["As an empyreal knight advances, her ties with the celestial realms grant her a portion of the abilities and defenses of true ",{"tag":"Link","content":"angels","props":{"to":"/family/angel"}},"."]}>Celestial Heart (Su)</Pair>
+<Pair single id="arc-paladin-empyreal_knight-celestial-heart-su" flavor={<>As an empyreal knight advances, her ties with the celestial realms grant her a portion of the abilities and defenses of true <Link to="/family/angel">angels</Link>.</>}>Celestial Heart (Su)</Pair>
 <Pair hl title="Replaces">Mercy</Pair>
 <Pair title="At 3rd Level">She gains resistance 5 against acid, cold, and electricity.</Pair>
 <Pair title="At 6th Level">She gains a +4 racial bonus on saves against poison.</Pair>
@@ -1161,7 +1161,7 @@ const _sacred_servant = {title: "Sacred Servant", jsx: <><h2 id="arc-paladin-sac
 <Pair title="Ability">When a sacred servant gains the ability to cast spells, she also chooses one <Link to="/ability/domains">domain</Link> associated with her deity. Her effective <Link to="/class/cleric">cleric</Link> level for this domain is equal to her paladin level - 3. In addition, she also gains one domain spell slot for each level of paladin spells she can cast. Every day she must prepare the domain spell from her chosen domain in that spell slot.</Pair>
 </Ability>
 <Ability id="arc-paladin-sacred_servant-divine-bond-su" icon={["upgrade","hazard-sign"]}>
-<Pair single id="arc-paladin-sacred_servant-divine-bond-su" flavor={["Instead of forming a ",{"tag":"em","content":"divine bond","props":{}}," with her weapon or a mount, a sacred servant forms a bond with her holy symbol."]}>Divine Bond (Su)</Pair>
+<Pair single id="arc-paladin-sacred_servant-divine-bond-su" flavor={<>Instead of forming a <em>divine bond</em> with her weapon or a mount, a sacred servant forms a bond with her holy symbol.</>}>Divine Bond (Su)</Pair>
 <Pair hl title="Alters">Divine bond</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Standard Action"><p>Once a day, a sacred servant can bind a celestial spirit to her holy symbol for 1 minute per paladin level. When called, the spirit causes the sacred servant's holy symbol to shed light like a <Link to="/eq-misc/torch">torch</Link>.</p>
@@ -1214,7 +1214,7 @@ const _sacred_shield = {title: "Sacred Shield", jsx: <><h2 id="arc-paladin-sacre
 <Pair title="Special">Using this ability consumes two uses of the sacred shield's <em>lay on hands</em> ability, and the effects last for 3 rounds plus a number of rounds equal to her Charisma bonus (if any).</Pair>
 </Ability>
 <Ability id="arc-paladin-sacred_shield-divine-bond-su" icon={["armor-upgrade","hazard-sign"]}>
-<Pair single id="arc-paladin-sacred_shield-divine-bond-su" flavor={["Instead of forming a ",{"tag":"em","content":"divine bond","props":{}}," with her weapon or a mount, a sacred shield forms a bond with her shield."]}>Divine Bond (Su)</Pair>
+<Pair single id="arc-paladin-sacred_shield-divine-bond-su" flavor={<>Instead of forming a <em>divine bond</em> with her weapon or a mount, a sacred shield forms a bond with her shield.</>}>Divine Bond (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four paladin levels beyond 5th<ByLevelPop levels={[[5,1],[9,2],[13,3],[17,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">A sacred shield can enhance her shield by calling on the aid of a celestial spirit. This bond lasts for 1 minute per paladin level. When called, the spirit causes the shield to shed light like a <Link to="/eq-misc/torch">torch</Link>. The spirit grants the shield a +1 enhancement bonus.</Pair>
@@ -1403,7 +1403,7 @@ const _stonelord = {title: "Stonelord", jsx: <><h2 id="arc-paladin-stonelord-sto
 <Pair title="Passive Ability">When using <em>stonestrike,</em> a stonelord's attack gains the <Link to="/magic-enh/bane">bane</Link> weapon special ability against creatures with the earth subtype and constructs or objects made of earth or stone.</Pair>
 </Ability>
 <Ability id="arc-paladin-stonelord-phase-strike-su" icon={["armor-downgrade"]}>
-<Pair single id="arc-paladin-stonelord-phase-strike-su" flavor={["A stonelord's ",{"tag":"em","content":"stonestrike","props":{}}," may pass through stone and metal as if they weren't there."]}>Phase Strike (Su)</Pair>
+<Pair single id="arc-paladin-stonelord-phase-strike-su" flavor={<>A stonelord's <em>stonestrike</em> may pass through stone and metal as if they weren't there.</>}>Phase Strike (Su)</Pair>
 <Pair hl title="Replaces">12th-level mercy</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">By spending 2 uses of her <em>stonestrike</em> ability, she may ignore any cover less than total cover provided by stone or metal, and she ignores any AC bonus from stone or metal armor or shields as if wielding a <Link to="/magic-enh/brilliant_energy">brilliant energy</Link> weapon.</Pair>

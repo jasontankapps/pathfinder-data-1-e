@@ -173,7 +173,7 @@ const _divine_numerologist = {title: "Divine Numerologist", jsx: <><h2 id="arc-o
 <Pair single id="arc-oracle-divine_numerologist-calculate-the-odds-su">Calculate the Odds (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Swift Action">Once per day, the divine numerologist can quickly tabulate the variables affecting the current situation. This grants the divine numerologist a circumstance bonus equal to her Charisma modifier (minimum +1) to her next d20 roll within 1 round. If the divine numerologist does not use this bonus within 1 round, the use of this ability is wasted.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="At 7th Level">The divine numerologist can use this ability twice a day.</Pair>
 <Pair title="At 15th Level">She may use this 3 times per day.</Pair>
 </Ability>
@@ -181,7 +181,7 @@ const _divine_numerologist = {title: "Divine Numerologist", jsx: <><h2 id="arc-o
 <Pair single id="arc-oracle-divine_numerologist-program-the-divine-algorithm-su" flavor="The divine numerologist's mastery of the divine mathematics allows her to set specific parameters in the divine equation to adjust the outcome of an event right as it is about to occur.">Program the Divine Algorithm (Su)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Immediate Action">Once per day, the divine numerologist can take the average of a single roll of one or more dice, averaging each die separately (for example, the average of a d20 roll is 10, the average of 3d6 is 9, and so on). When using this ability, the divine numerologist can add any modifiers to the roll as normal.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="At 11th Level">She may use this ability twice a day.</Pair>
 <Pair title="At 15th Level">She can use this three times a day, and instead of treating a roll as its average, she can instead treat the roll as its maximum result (for example, the divine numerologist can treat a d20 roll as if the result were 20).</Pair>
 <Pair title="Special">The divine numerologist must decide to use this ability immediately before the roll she chooses to affect, and the divine numerologist cannot reroll this roll, even if she has a feat or another ability that would normally allow her to do so.</Pair>

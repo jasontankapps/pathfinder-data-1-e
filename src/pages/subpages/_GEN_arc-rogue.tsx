@@ -182,7 +182,7 @@ const _charlatan = {title: "Charlatan", jsx: <><h2 id="arc-rogue-charlatan-charl
 <Pair title="Ability">When a charlatan successfully deceives a creature with a Bluff, that creature takes a -2 penalty on the charlatan's Bluff checks for the next 24 hours. This ability does not stack with itself.</Pair>
 </Ability>
 <Ability id="arc-rogue-charlatan-grand-hoax-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-rogue-charlatan-grand-hoax-ex" flavor={["The charlatan begins to master the art of the ",{"tag":"em","content":"grand hoax","props":{}}," and learns to create deceptions designed to bestow harm upon her foes."]}>Grand Hoax (Ex)</Pair>
+<Pair single id="arc-rogue-charlatan-grand-hoax-ex" flavor={<>The charlatan begins to master the art of the <em>grand hoax</em> and learns to create deceptions designed to bestow harm upon her foes.</>}>Grand Hoax (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">She gains the <Link to="/talent/rumormonger">rumormonger</Link> advanced talent, even though she is not yet 10th level.</Pair>

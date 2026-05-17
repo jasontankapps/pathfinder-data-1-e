@@ -1,30 +1,19 @@
-import { PropsWithChildren, FC, createElement, Fragment } from 'react';
-import parseHtmlArrayKludge, { StringOrHtmlKludge } from './parseHtmlArrayKludge';
+import { PropsWithChildren, FC } from 'react';
 
-interface ContentsProps {
-	contents?: StringOrHtmlKludge[]
-}
-
-interface HeaderProps extends ContentsProps {
+interface HeaderProps {
 	id?: string
 	extraClasses?: string
 	sub?: boolean
+	full?: boolean
 }
 
-const Contents: FC<ContentsProps> = ({contents}) => {
-	if(!contents) {
-		return <></>;
-	}
-	return createElement(Fragment, {}, ...contents.map(c => <span>{parseHtmlArrayKludge(c)}</span>));
-};
-
 const Header: FC<PropsWithChildren<HeaderProps>> = (props) => {
-	const {id, extraClasses, contents, sub, children} = props;
-	const base = sub ? "statblockSubHeader" : (contents ? "statblockHeaderFull" : "statblockHeader");
+	const {id, extraClasses, sub, full, children} = props;
+	const base = sub ? "statblockSubHeader" : (full ? "statblockHeaderFull" : "statblockHeader");
 	const className = base + (extraClasses ? " " + extraClasses : "");
 	const etc = id ? {id, dataHashTarget: true} : {};
 	return (
-		<div className={className} {...etc}>{children}<Contents contents={contents} /></div>
+		<div className={className} {...etc}>{children}</div>
 	);
 };
 

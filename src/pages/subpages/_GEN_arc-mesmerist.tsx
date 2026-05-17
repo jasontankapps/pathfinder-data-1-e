@@ -321,7 +321,7 @@ const _fey_trickster = {title: "Fey Trickster", jsx: <><h2 id="arc-mesmerist-fey
 <Pair title="Ability">A fey trickster's time with the fey has granted her strange powers, as well as resistance to further fey mischief. The fey trickster gains the druid's <Link to="/ability/resist_natures_lure">resist nature's lure</Link> and <Link to="/ability/woodland_stride">woodland stride</Link> abilities, and she counts as both <Link to="/type/fey">fey</Link> and her original creature type for the purpose of spells and effects.</Pair>
 </Ability>
 <Ability id="arc-mesmerist-fey_trickster-fey-veil-sp-su" icon={["upgrade"]}>
-<Pair single id="arc-mesmerist-fey_trickster-fey-veil-sp-su" flavor={["A fey trickster's physical form begins to shift, as she gains some of the impossible allure of the fey. At the same time, she begins able to use ",{"tag":"em","content":"fey veils","props":{}}," to assist herself and her allies in befuddling and bewitching their opponents."]}>Fey Veil (Sp, Su)</Pair>
+<Pair single id="arc-mesmerist-fey_trickster-fey-veil-sp-su" flavor={<>A fey trickster's physical form begins to shift, as she gains some of the impossible allure of the fey. At the same time, she begins able to use <em>fey veils</em> to assist herself and her allies in befuddling and bewitching their opponents.</>}>Fey Veil (Sp, Su)</Pair>
 <Pair hl title="Replaces">Touch treatment</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
@@ -475,7 +475,7 @@ const _mindwyrm_mesmer = {title: "Mindwyrm Mesmer", jsx: <><h2 id="arc-mesmerist
 <Pair title="Passive Ability">A mindwyrm mesmer gains a bonus equal to 1/2 his mesmerist level (minimum 1) on Intimidate checks. In addition, a mindwyrm mesmer never takes penalties on Intimidate checks for being smaller than his target.</Pair>
 </Ability>
 <Ability id="arc-mesmerist-mindwyrm_mesmer-phantasmagorical-breath-su" icon={["tornado-discs","barbed-arrow"]}>
-<Pair single id="arc-mesmerist-mindwyrm_mesmer-phantasmagorical-breath-su" flavor={["A mindwyrm mesmer has learned to mimic a ",{"tag":"Link","content":"true dragon's","props":{"to":"/family/true_dragon"}}," destructive breath using his psychic ability."]}>Phantasmagorical Breath (Su)</Pair>
+<Pair single id="arc-mesmerist-mindwyrm_mesmer-phantasmagorical-breath-su" flavor={<>A mindwyrm mesmer has learned to mimic a <Link to="/family/true_dragon">true dragon's</Link> destructive breath using his psychic ability.</>}>Phantasmagorical Breath (Su)</Pair>
 <Pair hl title="Replaces">Painful stare</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">Charisma modifier times/day (minimum 1)</Pair>

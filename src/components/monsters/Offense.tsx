@@ -1,13 +1,12 @@
 import {FC, ReactNode, Fragment as F, useMemo} from 'react';
 import Header from '../Header';
 import Link from '../Link';
-import parseHtmlArrayKludge, { StringOrHtmlKludge } from '../parseHtmlArrayKludge';
 import mapNodes from '../mapNodes';
 
 	interface SpeedPropsBase {
 		id: string
 		sp?: number
-		spP?: StringOrHtmlKludge
+		spP?: ReactNode
 		br?: number
 		brP?: string
 		cl?: number
@@ -16,11 +15,11 @@ import mapNodes from '../mapNodes';
 		swP?: string
 		jet?: number
 		spOther?: string
-		spExtra?: StringOrHtmlKludge
+		spExtra?: ReactNode
 	}
 	interface SpeedPropsFl1 extends SpeedPropsBase {
 		fl: number
-		flP: StringOrHtmlKludge
+		flP: ReactNode
 	}
 	interface SpeedPropsFl2 extends SpeedPropsBase {
 		fl?: never
@@ -37,13 +36,13 @@ type SpeedProps = SpeedPropsFl1 | SpeedPropsFl2;
 	}
 interface SpecialAttackProps {
 	id: string
-	specAtt?: [string, StringOrHtmlKludge][]
+	specAtt?: [string, ReactNode][]
 	attach?: boolean // <attach>
 	bleed?: string | boolean // <bleed> (bleed)
 	capsize?: number | boolean // <capsize> DC ##
 	bDrain?: string // <blood drain> (bDrain)
 	bloodRage?: boolean // <blood rage>
-	brWeap?: StringOrHtmlKludge // <breath weapon> (brWeap)
+	brWeap?: ReactNode // <breath weapon> (brWeap)
 	burn?: string
 	chEn?: ChannelEnergy
 	constrict?: boolean | string // <constrict> (constrict)
@@ -77,9 +76,9 @@ interface SpecialAttackProps {
 }
 
 	interface Space1 {
-		space: StringOrHtmlKludge
-		reach: StringOrHtmlKludge
-		reachP?: StringOrHtmlKludge
+		space: ReactNode
+		reach: ReactNode
+		reachP?: ReactNode
 	}
 	interface Space2 {
 		space?: never
@@ -90,8 +89,8 @@ type SpaceReach = Space1 | Space2;
 
 interface Base {
 	id: string
-	melee?: StringOrHtmlKludge
-	ranged?: StringOrHtmlKludge
+	melee?: ReactNode
+	ranged?: ReactNode
 	hasNeighbor?: boolean
 }
 
@@ -105,7 +104,7 @@ const getSpeed = (props: SpeedProps): ReactNode => {
 	const output: ReactNode[] = [];
 	const speeds: [string, ReactNode][] = [];
 	if(sp !== undefined) {
-		output.push(<F key={`${id}-base-speed`}>{sp} ft.{spP ? <> ({parseHtmlArrayKludge(spP)})</> : ""}</F>);
+		output.push(<F key={`${id}-base-speed`}>{sp} ft.{spP ? <> ({spP})</> : ""}</F>);
 	}
 	if(br !== undefined) {
 		speeds.push(["burrow", <F key={`${id}-burrow`}>burrow {br} ft.{brP ? ` (${brP})` : ""}</F>]);
@@ -117,7 +116,7 @@ const getSpeed = (props: SpeedProps): ReactNode => {
 		speeds.push(["swim", <F key={`${id}-swim`}>swim {sw} ft.{swP ? ` (${swP})` : ""}</F>]);
 	}
 	if(fl !== undefined) {
-		speeds.push(["fly", <F key={`${id}-fly`}>fly {fl} ft. ({parseHtmlArrayKludge(flP)})</F>]);
+		speeds.push(["fly", <F key={`${id}-fly`}>fly {fl} ft. ({flP})</F>]);
 	}
 	if(jet !== undefined) {
 		speeds.push(["jet", <F key={`${id}-jet`}><Link to="/umr/jet">jet</Link> {jet} ft.</F>]);
@@ -130,7 +129,7 @@ const getSpeed = (props: SpeedProps): ReactNode => {
 		<p><strong>Speed</strong> {
 			mapNodes(output, `${id}-speeds`)
 		}{
-			spExtra ? <>; {parseHtmlArrayKludge(spExtra)}</> : ""
+			spExtra ? <>; {spExtra}</> : ""
 		}</p>
 	) : "";
 }
@@ -149,8 +148,8 @@ const getSpecialAttacks = (props: SpecialAttackProps) => {
 	const spAtt: [string, ReactNode][] = [];
 	if(specAtt) {
 		specAtt.forEach(bit => {
-			const [sorter, kludgemaybe] = bit;
-			spAtt.push([sorter, <F key={key+sorter.replace(/ /g, "-")}>{parseHtmlArrayKludge(kludgemaybe)}</F>])
+			const [sorter, output] = bit;
+			spAtt.push([sorter, <F key={key+sorter.replace(/ /g, "-")}>{output}</F>])
 		});
 	}
 	if(attach) {
@@ -168,7 +167,7 @@ const getSpecialAttacks = (props: SpecialAttackProps) => {
 		spAtt.push(["blood rage", <Link key={key+"blood-rage"} to="/umr/blood_rage">blood rage</Link>]);
 	}
 	if(brWeap) {
-		spAtt.push(["breath weapon", <F key={key+"breath-weapon"}><Link to="/umr/breath_weapon">breath weapon</Link> ({parseHtmlArrayKludge(brWeap)})</F>]);
+		spAtt.push(["breath weapon", <F key={key+"breath-weapon"}><Link to="/umr/breath_weapon">breath weapon</Link> ({brWeap})</F>]);
 	}
 	if(burn) {
 		spAtt.push(["burn", <F key={key+"burn"}><Link to="/umr/burn">burn</Link> ({burn})</F>]);
@@ -343,15 +342,11 @@ const Offense : FC<OffenseProps> = (props) => {
 		<div className={"reduce" + hasNeighbor ? " no-bottom-margin" : ""}>
 			<Header sub>Offense</Header>
 			{getSpeed(speedObject)}
-			{melee ? <p><strong>Melee</strong> {parseHtmlArrayKludge(melee)}</p> : ""}
-			{ranged ? <p><strong>Ranged</strong> {parseHtmlArrayKludge(ranged)}</p> : ""}
+			{melee ? <p><strong>Melee</strong> {melee}</p> : ""}
+			{ranged ? <p><strong>Ranged</strong> {ranged}</p> : ""}
 			{space ? (
-				<p><strong>Space</strong> {
-					parseHtmlArrayKludge(space)
-				}, <strong>Reach</strong> {
-					parseHtmlArrayKludge(reach)
-				}{
-					reachP ? <> ({parseHtmlArrayKludge(reachP)})</> : ""
+				<p><strong>Space</strong> {space}, <strong>Reach</strong> {reach}{
+					reachP ? <> ({reachP})</> : ""
 				}</p>
 			) : ""}
 			{specialAttacks ? (

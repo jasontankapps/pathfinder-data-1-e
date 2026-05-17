@@ -18,7 +18,7 @@ import { makeClassBlock, makeProfBlock } from './block/class.js';
 import makeCapstoneBlock from './block/altCapstone.js';
 import makeRoomBlock from './block/room.js';
 import makeClassSkillsAbilityBlock from './block/cskill.js';
-import convertToHtmlArrayKludge from './convertToHtmlArrayKludge.js';
+import noteTags from './noteTags.js';
 
 const churn = (n, attrs, list, regex, logError) => {
 	const found = [];
@@ -75,12 +75,11 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					filler = ` id="${id}"`;
 				}
 				if(cr || mr) {
+					const marked2 = makeNewMarkedInstance();
 					const ender = (cr && mr) ? `CR ${cr}/MR ${mr}` : (cr ? `CR ${cr}` : `MR ${mr}`);
-					return `${maybeClear}<Header contents={[${
-						convertToHtmlArrayKludge(text, true)
-					},"${
-						ender
-					}"]}${filler} />\n`;
+					return `${maybeClear}<Header full${filler}><span>${
+						noteTags(flags, marked2.parseInline(convertEncodedInfo(text)))
+					}</span><span>${ender}</span></Header>\n`;
 				}
 				return `${maybeClear}<Header${filler}>${text}</Header>\n`;
 			} else if (n === "sh") {
@@ -91,13 +90,12 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "th") {
 				// Template Header
 				churn(n, attrs, ["clear", "cr", "source", "acquired", "inherited", "simple", "summonable", "maybesummon"], [], logError);
-				const {cr, source, acquired, inherited, simple, summonable, maybesummon} = attrs;
-				const head = `<div style={{clear:"both"}}></div><Header contents={${JSON.stringify([
-						convertToHtmlArrayKludge(text),
-						`CR ${cr}`
-					])}} />\n`;
-				flags.header = true;
 				const marked2 = makeNewMarkedInstance();
+				const {cr, source, acquired, inherited, simple, summonable, maybesummon} = attrs;
+				const head = `<div style={{clear:"both"}}></div><Header full><span>${
+					noteTags(flags, marked2.parseInline(convertEncodedInfo(text)))
+				}</span><span>CR ${cr}</span></Header>\n`;
+				flags.header = true;
 				const sourcing = marked2.parseInline(parseSOURCE(source, true));
 				const typing = acquired && inherited ? "Both" : acquired ? "Acquired" : "Inherited";
 				const simp = simple ? "Yes" : "No";
@@ -312,7 +310,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				flags.minfo = true;
 				const id = prefix + makeValidID(text + "-info");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterInfoBlock({marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, id, text, logError});
+				return makeMonsterInfoBlock({marked2, flags, parseSOURCE, convertEncodedInfo, maybeClear, attrs, id, text, logError});
 			} else if (n === "mdefense") {
 				churn(n, attrs, [
 					"clear", "ac", "mod",
@@ -329,7 +327,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				flags.mdef = true;
 				const id = prefix + makeValidID(text + "-defense");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterDefenseBlock({marked2, convertEncodedInfo, maybeClear, attrs, id, logError});
+				return makeMonsterDefenseBlock({marked2, flags, convertEncodedInfo, maybeClear, attrs, id, logError});
 			} else if (n === "moffense") {
 				churn(n, attrs, [
 					"clear", "sp", "spP", "br", "brP", "cl", "clP", "sw", "swP",
@@ -352,7 +350,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				flags.moffense = true;
 				const id = prefix + makeValidID(text + "-offense");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterOffenseBlock({marked2, convertEncodedInfo, maybeClear, attrs, id, logError});
+				return makeMonsterOffenseBlock({marked2, convertEncodedInfo, flags, maybeClear, attrs, id, logError});
 			} else if (n === "mspell") {
 				churn(n, attrs, [
 					"clear", "cl", "con",
@@ -365,7 +363,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				const id = prefix + makeValidID(text + "-spells");
 				flags.mspell = true;
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterSpellBlock({marked2, convertEncodedInfo, maybeClear, attrs, logError, flags, id});
+				return makeMonsterSpellBlock({marked2, convertEncodedInfo, flags, maybeClear, attrs, logError, flags, id});
 			} else if (n === "mfn") {
 				churn(n, attrs, ["clear"], [], logError);
 				const marked2 = makeNewMarkedInstance();
@@ -382,14 +380,14 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				flags.mstats = true;
 				const id = prefix + makeValidID(text + "-stats");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterStatisticsBlock({marked2, convertEncodedInfo, maybeClear, attrs, logError, id});
+				return makeMonsterStatisticsBlock({marked2, flags, convertEncodedInfo, maybeClear, attrs, logError, id});
 			} else if (n === "meco") {
 				churn(n, attrs, [ "clear", "env", "org", "treasure" ], [], logError);
 				flags.header = true;
 				flags.meco = true;
 				const id = prefix + makeValidID(text + "-eco");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterEcologyBlock({marked2, convertEncodedInfo, maybeClear, attrs, id, logError});
+				return makeMonsterEcologyBlock({marked2, flags, convertEncodedInfo, maybeClear, attrs, id, logError});
 			} else if (n === "archetype") {
 				// Archetype
 				churn(n, attrs, ["clear", "c", "r", "e"], [], logError);

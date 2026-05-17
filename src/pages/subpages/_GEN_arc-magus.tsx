@@ -1000,7 +1000,7 @@ const _puppetmaster = {title: "Puppetmaster", jsx: <><h2 id="arc-magus-puppetmas
 <Pair title="Ability">A puppetmaster can cast spells from the bard and magus spell lists, and treats <Link to="/main/bard_spell">bard spells</Link> as magus spells. Because he does not have a bardic performance ability, some bard spells (which modify or require bardic performance) are poor choices for a puppetmaster. He must add bard spells to his spellbook prior to preparing them as normal. A puppetmaster can learn bard spells from a formula book or spellbook (if they are also alchemist extracts or wizard spells) or a scroll (as if learning a wizard spell from a scroll), or can select them to be one or more of the two magus spells he adds to his spellbook at each magus level.</Pair>
 </Ability>
 <Ability id="arc-magus-puppetmaster-arcane-pool" icon={["upgrade"]}>
-<Pair single id="arc-magus-puppetmaster-arcane-pool" flavor={["A puppetmaster cannot expend points from his ",{"tag":"em","content":"arcane pool","props":{}}," to grant enhancement bonuses or weapon special abilities to a weapon he is holding."]}>Arcane Pool</Pair>
+<Pair single id="arc-magus-puppetmaster-arcane-pool" flavor={<>A puppetmaster cannot expend points from his <em>arcane pool</em> to grant enhancement bonuses or weapon special abilities to a weapon he is holding.</>}>Arcane Pool</Pair>
 <Pair hl title="Alters">Arcane pool</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Swift Action">Whenever the puppetmaster casts a spell of the enchantment or illusion school, he can expend 1 point from his <em>arcane pool</em> to increase the spell's save DC or caster level by 1.</Pair>
@@ -1187,7 +1187,7 @@ const _soul_forger = {title: "Soul Forger", jsx: <><h2 id="arc-magus-soul_forger
 <Pair hl title="Replaces">Greater spell access</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Standard Action">A soul forger can reforge a destroyed item with a touch.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 <p><strong>Magus Arcana:</strong> The following magus arcana complement the soul forger archetype: <Link to="/arcana/arcane_accuracy">arcane accuracy</Link>, <Link to="/arcana/bane_blade">bane blade</Link>, <Link to="/arcana/devoted_blade">devoted blade</Link>, <Link to="/arcana/dispelling_strike">dispelling strike</Link>, <Link to="/arcana/enduring_blade">enduring blade</Link>, and <Link to="/arcana/ghost_blade">ghost blade</Link>.</p>
 </>};

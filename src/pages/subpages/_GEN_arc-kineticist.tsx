@@ -398,7 +398,7 @@ const _elysiokineticist = {title: "Elysiokineticist", jsx: <><h2 id="arc-kinetic
 <Pair title="Standard Action">She can cast <Link to="/spell/resistance">resistance</Link>, <Link to="/spell/stabilize">stabilize</Link>, or <Link to="/spell/virtue">virtue</Link> as a spell-like ability at will.</Pair>
 </Ability>
 <Ability id="arc-kineticist-elysiokineticist-elysian-infusion-su" icon={["upgrade"]}>
-<Pair single id="arc-kineticist-elysiokineticist-elysian-infusion-su" flavor={["An elysiokineticist can infuse her ",{"tag":"em","content":"positive blast","props":{}}," with the power of Elysium to battle evil."]}>Elysian Infusion (Su)</Pair>
+<Pair single id="arc-kineticist-elysiokineticist-elysian-infusion-su" flavor={<>An elysiokineticist can infuse her <em>positive blast</em> with the power of Elysium to battle evil.</>}>Elysian Infusion (Su)</Pair>
 <Pair hl title="Replaces">Infusion gained at 1st level</Pair>
 <Pair title="Ability">The infused <em>positive blast</em> damages evil outsiders as if they were undead and counts as both chaotic and good. This is a 1st-level substance infusion that costs 1 point of burn and can be used with <em>positive blast.</em></Pair>
 </Ability>

@@ -845,7 +845,7 @@ const _cleric = {hasJL:true,title: "Cleric", jsx: <><div className="jumpList" id
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>
 <Pair title="Standard Action">You must present your holy symbol to channel energy. This causes a <Link to="/misc/burst">burst</Link> that affects all creatures of one type (either undead or living) in a 30-foot radius centered on you. This deals or heals (see below) 1d6 damage. You can choose whether or not to include yourself in this effect. Creatures that take damage from channeled energy receive a Will save to halve the damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your cleric level + your Charisma modifier.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="At 3rd Level">The damage becomes 2d6.</Pair>
 <Pair title="At 5th Level">The damage becomes 3d6.</Pair>
 <Pair title="At 7th Level">The damage becomes 4d6.</Pair>
@@ -1513,7 +1513,7 @@ const _druid = {hasJL:true,title: "Druid", jsx: <><div className="jumpList" id="
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Standard Action">You gain the ability to turn yourself into any Small or Medium animal and back again. Your options for new forms include all creatures with the <Link to="/main/monsters_animals">animal</Link> type. This ability functions like the <Link to="/spell/beast_shape_i">beast shape I</Link> spell, except as noted here. The effect lasts for 1 hour per druid level, or until you change back. The form chosen must be that of an animal with which you are familiar.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="At 6th Level">You can <em>wild shape</em> twice a day as <Link to="/spell/beast_shape_ii">beast shape II</Link>, and you can now change into a Large or Tiny animal or a Small <Link to="/main/monsters_outsiders_elemental">elemental</Link> (as <Link to="/spell/elemental_body_i">elemental body I</Link>).</Pair>
 <Pair title="At 8th Level">You can <em>wild shape</em> 3 times/day as <Link to="/spell/beast_shape_iii">beast shape III</Link>, and you can now change into a Huge or Diminutive animal, a Small or Medium elemental (as <Link to="/spell/elemental_body_ii">elemental body II</Link>), or a Small or Medium <Link to="/main/monsters_plants">plant</Link> creature (as <Link to="/spell/plant_shape_i">plant shape I</Link>).</Pair>
 <Pair title="At 10th Level">You can <em>wild shape</em> 4 times/day, and can choose to change into a Small, Medium, or Large elemental (as <Link to="/spell/elemental_body_iii">elemental body III</Link>) or a Small, Medium, or Large plant creature (as <Link to="/spell/plant_shape_ii">plant shape II</Link>).</Pair>

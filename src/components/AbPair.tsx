@@ -1,9 +1,8 @@
-import { PropsWithChildren, FC } from 'react';
-import parseHtmlArrayKludge, { StringOrHtmlKludge } from './parseHtmlArrayKludge';
+import { PropsWithChildren, FC, ReactNode } from 'react';
 
 interface BaseProps {
 	id?: string
-	flavor?: StringOrHtmlKludge
+	flavor?: ReactNode
 }
 
 interface TitleProps extends BaseProps {
@@ -14,7 +13,7 @@ interface TitleProps extends BaseProps {
 }
 
 interface AbilityProps extends BaseProps {
-	title: StringOrHtmlKludge
+	title: ReactNode
 	hl?: boolean
 	plain?: boolean
 	single?: never
@@ -29,7 +28,7 @@ const Pair: FC<PropsWithChildren<PairProps>> = (props) => {
 			<div className={"title abSingle"} id={id} data-hash-target>
 				<div className="box">{children}</div>
 				{ flavor
-					? <div className="flavor">{parseHtmlArrayKludge(flavor)}</div>
+					? <div className="flavor">{flavor}</div>
 					: <></>
 				}
 			</div>
@@ -39,7 +38,7 @@ const Pair: FC<PropsWithChildren<PairProps>> = (props) => {
 	return (
 		<div className="abPair">
 			<div className={"abStart" + (plain ? " plain" : "")}>
-				<div className={className}>{parseHtmlArrayKludge(title)}</div>
+				<div className={className}>{title}</div>
 			</div>
 			<div className={"abEnd" + (plain ? " simple" : "")}>
 				<div className="box">{children}</div>

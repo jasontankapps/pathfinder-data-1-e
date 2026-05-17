@@ -1017,7 +1017,7 @@ const _earth = {hasJL:true,title: "Earth", jsx: <><div className="jumpList" id="
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-earth-dart">acid dart</InnerLink> power of the Earth domain</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Standard Action">You can irradiate any unattended object for a number of rounds equal to your cleric level. While an object is irradiated, it emits a faint aura of transmutation. Any creature that passes within 5 feet of the aura must succeed at a Will save (DC equal to 10 + 1/2 your cleric level + your Wisdom modifier) or become <Link to="/misc/sickened">sickened</Link>. You're immune to this object's effect.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>Yes</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 </Ability>
 <table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>magic stone</em></td></tr>
 <tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/defoliate">defoliate<IonRippleEffect /></Link></td></tr>

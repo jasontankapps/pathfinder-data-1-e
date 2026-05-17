@@ -74,6 +74,8 @@ const parseSOURCE = (input, plain = false, bare = false) => {
 
 // Remove curly brackets
 const removeCurlyBrackets = (input, inlineText) => {
+	return input;
+	// Decomissioning this for the time being.
 	const replacer = (input) => input.replace(/\{/g, "&#123;").replace(/\}/g, "&#125;");
 	const obfuscate = (input) => {
 		return input
@@ -332,8 +334,6 @@ const postprocess = (tables) => {
 			.replace(/<h2([^>]+)>Footnotes<[/]h2>/g, "<h3$1>Footnotes</h3>")
 			// Replace unneeded HTML entity for the apostrophe
 			.replace(/&#39;/g, "'")
-			// Replace unneeded HTML entity for the quotation mark
-			.replace(/&quot;/g, "\"")
 			// Replace unneeded HTML entity for the open and close brackets
 			.replace(/&#91;/g, "[").replace(/&#93;/g, "]")
 			// Fix incorrect React syntax on ordered lists
@@ -430,7 +430,16 @@ const postprocess = (tables) => {
 			output = output + `${pre}${br}/>`;
 			text = post;
 		}
-		output = output + text;
+		text = output + text;
+		output = "";
+		// Replace unneeded HTML entity for the quotation mark
+		// ...but only when NOT inside of string attributes
+		while(m = text.match(/^(.*?)(\b[a-z][-a-zA-Z0-9]*="[^"]+")(.*)$/)) {
+			const [, toCheck, attribute, post] = m;
+			output = output + toCheck.replace(/&quot;/g, "\"") + attribute;
+			text = post;
+		}
+		output = output + text.replace(/&quot;/g, "\"");
 		//Create implicit jumplists
 		if(flags.implicitJumplist) {
 			// WHY isn't this just InnerLink??
@@ -1063,6 +1072,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	groupFlags.moffense && imports.push(`import Offense from '../../components/monsters/Offense';`);
 	groupFlags.mspell && imports.push(`import SpellBlock from '../../components/monsters/SpellBlock';`);
 	groupFlags.mstats && imports.push(`import Stats from '../../components/monsters/Stats';`);
+	groupFlags.meco && imports.push(`import Ecology from '../../components/monsters/Ecology';`);
 	// Add saved info;
 	const allprops = [];
 	const output = imports.concat(final.map(([prop, object]) => {

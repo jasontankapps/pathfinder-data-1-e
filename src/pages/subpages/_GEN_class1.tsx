@@ -344,7 +344,7 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 <Pair title="Info"><p>In addition to magical extracts, alchemists are adept at swiftly mixing various volatile chemicals and infusing them with their magical reserves to create powerful bombs that they can hurl at their enemies. Bombs are unstable, and if not used in the round they are created, they degrade and become inert - their method of creation prevents large volumes of explosive material from being created and stored. In order to create a bomb, you must use a small vial containing an ounce of liquid catalyst - you can create this liquid catalyst from small amounts of chemicals from an alchemy lab, and these supplies can be readily refilled in the same manner as a spellcaster's component pouch. Most alchemists create a number of catalyst vials at the start of the day equal to the total number of bombs they can create in that day - once created, a catalyst vial remains usable by you for years.</p>
 <p>Bombs are considered weapons and can be selected using feats such as <Link to="/feat/point_blank_shot">Point-Blank Shot</Link> and <Link to="/feat/weapon_focus">Weapon Focus</Link>. Alchemists can learn new types of bombs as <strong className="hl">discoveries</strong> as they level up. Your bombs, like your extracts, become inert if used or carried by anyone else.</p>
 </Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>Yes</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 <Pair title="At 3rd Level">The base bomb damage becomes 2d6.</Pair>
 <Pair title="At 5th Level">The base bomb damage becomes 3d6.</Pair>
 <Pair title="At 7th Level">The base bomb damage becomes 4d6.</Pair>
@@ -941,7 +941,7 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair title="Standard Action"><p>You surround your hand with a fiendish flame, causing terrible wounds to open on those you touch. As a touch attack, you can cause 1d6 points of damage for every two antipaladin levels you possess.</p>
 <p>Alternatively, you can use this power to heal undead creatures, restoring 1d6 hit points for every two levels the you possess.</p>
 </Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="Special">This ability is modified by any feat, spell, or effect that specifically works with the <Link to="/ability/lay_on_hands">lay on hands</Link> paladin class feature. For example, the <Link to="/feat/extra_lay_on_hands">Extra Lay On Hands</Link> feat grants an antipaladin 2 additional uses of the <em>touch of corruption</em> class feature.</Pair>
 </Ability>
 <Ability id="class-antipaladin-aura-of-cowardice-su" icon={["armor-downgrade"]}>

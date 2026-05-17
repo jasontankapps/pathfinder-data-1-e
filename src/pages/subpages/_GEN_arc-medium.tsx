@@ -120,7 +120,7 @@ const _medium_of_the_master = {title: "Medium of the Master", jsx: <><h2 id="arc
 <Pair title="Ability">A medium of the master can use her <em>spirit surge</em> ability twice per day without incurring any influence (this stacks with any additional uses she gains from accepting a <em>taboo,</em> starting at 2nd level). In addition, when she uses <em>spirit surge,</em> the die she rolls is one step larger (1d8 at 1st level, 1d10 at 10th level, and 2d6 at 20th level).</Pair>
 </Ability>
 <Ability id="arc-medium-medium_of_the_master-spirit-call-su" icon={["stairs-goal"]}>
-<Pair single id="arc-medium-medium_of_the_master-spirit-call-su" flavor={["The medium of the master's unique bond allows her to briefly call on a champion spirit without performing a ",{"tag":"em","content":"seance.","props":{}}]}>Spirit Call (Su)</Pair>
+<Pair single id="arc-medium-medium_of_the_master-spirit-call-su" flavor={<>The medium of the master's unique bond allows her to briefly call on a champion spirit without performing a <em>seance.</em></>}>Spirit Call (Su)</Pair>
 <Pair title="Standard Action">She can allow a spirit to gain 1 point of influence over her to channel it for a number of minutes equal to her level. This influence remains for 24 hours, stacking with any influence the medium gains by using this ability multiple times or by channeling a spirit in a <em>seance</em> during that time.</Pair>
 </Ability>
 <Ability id="arc-medium-medium_of_the_master-masters-power-su" icon={["mailed-fist"]}>
@@ -179,13 +179,13 @@ const _nexian_channeler = {title: "Nexian Channeler", jsx: <><h2 id="arc-medium-
 <Pair title="At 18th Level">While his <em>third eye</em> is open, his <em>arcane sight</em> improves to <Link to="/spell/greater_arcane_sight">greater arcane sight</Link>.</Pair>
 </Ability>
 <Ability id="arc-medium-nexian_channeler-third-eye-mastery-su" icon={["upgrade"]}>
-<Pair single id="arc-medium-nexian_channeler-third-eye-mastery-su" flavor={["A Nexian channeler can open his ",{"tag":"em","content":"third eye","props":{}}," for longer than normal."]}>Third Eye Mastery (Su)</Pair>
+<Pair single id="arc-medium-nexian_channeler-third-eye-mastery-su" flavor={<>A Nexian channeler can open his <em>third eye</em> for longer than normal.</>}>Third Eye Mastery (Su)</Pair>
 <Pair hl title="Replaces">Spirit mastery</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Ability">He can open his <em>third eye</em> for 5 minutes per medium level (increasing to 10 minutes per medium level if he selects a <em>taboo</em>); this duration must be used in 5-minute increments. Uses of <em>analyze dweomer</em> cost him 5-minute increments instead of 1-minute increments, and he can use the <Link to="/skill/read_aura">read aura</Link> occult skill unlock with his <em>third eye</em> multiple times per day; each use takes only 1 minute but costs 5 minutes of the duration he can keep his <em>third eye</em> open.</Pair>
 </Ability>
 <Ability id="arc-medium-nexian_channeler-living-third-eye-su" icon={["upgrade"]}>
-<Pair single id="arc-medium-nexian_channeler-living-third-eye-su" flavor={["A Nexian channeler is as one with his ",{"tag":"em","content":"third eye.","props":{}}]}>Living Third Eye (Su)</Pair>
+<Pair single id="arc-medium-nexian_channeler-living-third-eye-su" flavor={<>A Nexian channeler is as one with his <em>third eye.</em></>}>Living Third Eye (Su)</Pair>
 <Pair hl title="Replaces">Astral beacon</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">His <em>third eye</em> is open at all times, he can use <em>analyze dweomer</em> and the <em>read aura</em> occult skill unlock at will, and the destruction of his <em>arcane eye</em> does not adversely affect him.</Pair>

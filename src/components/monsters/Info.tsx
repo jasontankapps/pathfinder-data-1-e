@@ -1,6 +1,5 @@
 import {FC, ReactNode, Fragment as F} from 'react';
 import Link from '../Link';
-import parseHtmlArrayKludge, { StringOrHtmlKludge } from '../parseHtmlArrayKludge';
 import { convertTextToLink } from '../convertLinks';
 import mapNodes from '../mapNodes';
 
@@ -51,7 +50,7 @@ interface SourceProps extends Base {
 	}
 type DescBase = AtLeastOne<DescBase1> & AtLeastOne<DescBase2> & AtLeastOne<DescBase3>;
 	interface Subtypes1 extends Base {
-		subtypes?: StringOrHtmlKludge
+		subtypes?: ReactNode
 		augment?: never
 		subs?: never
 		othersubs?: never
@@ -74,10 +73,10 @@ interface Senses extends Base {
 	greensight?: boolean | number
 	lifesense?: boolean | number
 	blindsight?: number
-	blindsightParens?: StringOrHtmlKludge
+	blindsightParens?: ReactNode
 	blindsense?: number
 	tremorsense?: number
-	tremorParens? : StringOrHtmlKludge
+	tremorParens? : ReactNode
 	mistsight?: boolean
 	sid?: boolean
 	aav?: boolean
@@ -85,10 +84,10 @@ interface Senses extends Base {
 }
 interface InfoBase extends Base {
 	xp: string
-	text?: StringOrHtmlKludge
-	init: number | StringOrHtmlKludge
+	text?: ReactNode
+	init: ReactNode
 	pcp: number | string
-	aura?: StringOrHtmlKludge
+	aura?: ReactNode
 }
 const Source: FC<SourceProps> = ({id, source}) => {
 	if(!source) {
@@ -188,7 +187,7 @@ const getSenses = (props: Senses) => {
 	if(blindsight) { senses.push([
 		"blindsight",
 		<F key={`${id}-blindsight`}><Link to="/umr/blindsight">blindsight</Link> {blindsight} ft.{
-			blindsightParens ? <> ({parseHtmlArrayKludge(blindsightParens)})</> : ""
+			blindsightParens ? <> ({blindsightParens})</> : ""
 		}</F>
 	]); }
 	if(blindsense) {
@@ -201,7 +200,7 @@ const getSenses = (props: Senses) => {
 		senses.push([
 			"tremorsense",
 			<F key={`${id}-tremorsense`}><Link to="/umr/tremorsense">tremorsense</Link> {tremorsense} ft.{
-				tremorParens ? <> ({parseHtmlArrayKludge(tremorParens)})</> : ""
+				tremorParens ? <> ({tremorParens})</> : ""
 			}</F>
 		]);
 	}
@@ -234,11 +233,11 @@ const getSenses = (props: Senses) => {
 	return false;
 };
 
-const parseInitPcp = (input: number | StringOrHtmlKludge) => {
+const parseInitPcp = (input: ReactNode) => {
 	if(typeof input === "number") {
 		return (input < 0 ? "" : "+") + String(input);
 	}
-	return parseHtmlArrayKludge(input);
+	return input;
 }
 
 const Info: FC<InfoProps> = (attrs) => {
@@ -273,7 +272,7 @@ const Info: FC<InfoProps> = (attrs) => {
 			)))
 		))))))
 	);
-	const parens = subtypes !== undefined ? parseHtmlArrayKludge(subtypes) : getSubtypes({subs, augment, othersubs, id});
+	const parens = subtypes !== undefined ? subtypes : getSubtypes({subs, augment, othersubs, id});
 	const sensing = getSenses({sen, senSpell, dv, llv, keenScent, scent, thoughtsense, greensight, lifesense,
 			xray, aav, mistsight, sid, blindsight, blindsightParens, blindsense,
 			tremorsense, tremorParens, id});
@@ -281,14 +280,14 @@ const Info: FC<InfoProps> = (attrs) => {
 		<div className="reduce">
 			<Source id={id} source={source} />
 			<p><strong>XP</strong> {xp}</p>
-			{text ? <p>{parseHtmlArrayKludge(text)}</p> : <></>}
+			{text ? <p>{text}</p> : <></>}
 			<p>{alignment} {size} {
 				type ? <Link to={"/type/" + type.toLowerCase().replace(/ /g, "_")}>{type}</Link> : "[missing type]"
 			}{parens ? <> ({parens})</> : ""}</p>
 			<p><strong>Init</strong> {parseInitPcp(init)}{
 				sensing ? <>; {sensing}</> : <></>
 			}; <strong>Perception</strong> {parseInitPcp(pcp)}</p>
-			{aura ? <p><strong>Aura</strong> {parseHtmlArrayKludge(aura)}</p> : <></>}
+			{aura ? <p><strong>Aura</strong> {aura}</p> : <></>}
 		</div>
 	);
 };

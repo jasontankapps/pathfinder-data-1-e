@@ -1,5 +1,4 @@
 import {FC, ReactNode, Fragment as F, useMemo} from 'react';
-import parseHtmlArrayKludge, { StringOrHtmlKludge } from '../parseHtmlArrayKludge';
 import { convertTextToLink } from '../convertLinks';
 import mapNodes from '../mapNodes';
 import Header from '../Header';
@@ -12,11 +11,11 @@ type LangsX =
 	| "E" | "G" | "Gb" | "Ht" | "I" | "Ig"
 	| "O" | "P" | "S" | "Sx" | "T" | "Th" | "U";
 type Lang = Langs | LangsX | `${LangsX}X`;
-type LangProps = (Lang | [StringOrHtmlKludge] | ";")[];
+type LangProps = (Lang | [ReactNode] | ";")[];
 
 type Feat1 = ["M", string];
-type Feat2 = ["M", string, StringOrHtmlKludge];
-type Feat3 = [string, StringOrHtmlKludge];
+type Feat2 = ["M", string, ReactNode];
+type Feat3 = [string, ReactNode];
 type Feat = string | Feat1 | Feat2 | Feat3;
 
 type KnowSkills = "a" | "d" | "e" | "g" | "h" | "l" | "n" | "o" | "p" | "r";
@@ -47,10 +46,10 @@ interface StatsProps {
 	skills?: Skill
 	racial?: string
 	lang?: LangProps | null // null = "none"
-	combat?: StringOrHtmlKludge
-	gear?: StringOrHtmlKludge
-	othergear?: StringOrHtmlKludge
-	sq?: StringOrHtmlKludge
+	combat?: ReactNode
+	gear?: ReactNode
+	othergear?: ReactNode
+	sq?: ReactNode
 	faith?: string
 	hasNeighbor?: boolean
 }
@@ -147,7 +146,7 @@ const parseLangs = (lang : LangProps | null, id: string) => {
 		} else if (typeof l === "string") {
 			(flag ? post : pre).push(getLang(l));
 		} else {
-			(flag ? post : pre).push(parseHtmlArrayKludge(l[0]));
+			(flag ? post : pre).push(l[0]);
 		}
 	});
 	if(flag) {
@@ -237,8 +236,13 @@ const getFeats = (input: Feat[]) => {
 	input.forEach(feat => {
 		let name = "";
 		let link = "";
-		let post: StringOrHtmlKludge | undefined = "";
+		let post: ReactNode | undefined = "";
 		if(typeof feat === "string") {
+			const m = feat.match(/^#(.)$/);
+			if(m) {
+				final.push(<sup>${m[1]}</sup>);
+				return;
+			}
 			name = feat;
 			link = convertTextToLink(feat);
 		} else if(feat[0] === "M") {
@@ -254,7 +258,7 @@ const getFeats = (input: Feat[]) => {
 		}
 		final.push(
 			post ?
-				<><Link to={"/feat/" + link}>{name}</Link>{parseHtmlArrayKludge(post)}</>
+				<><Link to={"/feat/" + link}>{name}</Link>{post}</>
 			:
 				<Link to={"/feat/" + link}>{name}</Link>
 		);
@@ -282,17 +286,15 @@ const Stats: FC<StatsProps> = (props) => {
 			}</p>
 		: "";
 	}, [s, racial]);
-	const sqline = useMemo(() => sq ? <p><strong>SQ</strong> {parseHtmlArrayKludge(sq)}</p> : "", [sq]);
+	const sqline = useMemo(() => sq ? <p><strong>SQ</strong> {sq}</p> : "", [sq]);
 	const langs = useMemo(() => lang ? parseLangs(lang, id) : "", [lang]);
 	const gears = useMemo(() => {
 		if(combat) {
-			return <p><strong>Combat Gear</strong> {parseHtmlArrayKludge(combat)}{
-				othergear ? <>; <strong>Other Gear</strong> {
-					parseHtmlArrayKludge(othergear)
-				}</> : ""
+			return <p><strong>Combat Gear</strong> {combat}{
+				othergear ? <>; <strong>Other Gear</strong> {othergear}</> : ""
 			}</p>;
 		} else if (gear) {
-			return <p><strong>Gear</strong> {parseHtmlArrayKludge(gear)}</p>
+			return <p><strong>Gear</strong> {gear}</p>
 		}
 		return "";
 	}, [gear, combat, othergear]);

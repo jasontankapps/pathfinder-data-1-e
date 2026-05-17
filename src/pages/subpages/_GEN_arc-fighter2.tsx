@@ -32,7 +32,7 @@ const _opportunist = {title: "Opportunist", jsx: <><h2 id="arc-fighter-opportuni
 <Pair single id="arc-fighter-opportunist-alchemical-admixture-ex">Alchemical Admixture (Ex)</Pair>
 <Pair title="Usage">1 time/day per four fighter levels<ByLevelPop levels={[[4,1],[8,2],[12,3],[16,4],[20,5]]} unit="time" postText="/day" /></Pair>
 <Pair title="Full-Round Action">The opportunist can combine two alchemical weapons into a single vial. When thrown as a splash weapon, the mixture has the effects of both component substances and targets are affected as if hit by both. The mixture becomes inert after 1 hour. Combining identical alchemical weapons has no effect.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>Yes</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 </Ability>
 <Ability id="arc-fighter-opportunist-alchemical-refinement-ex" extraClasses="subAbility" icon={["armor-downgrade"]}>
 <Pair single id="arc-fighter-opportunist-alchemical-refinement-ex">Alchemical Refinement (Ex)</Pair>
@@ -1224,14 +1224,14 @@ const _unarmed_fighter = {title: "Unarmed Fighter", jsx: <><h2 id="arc-fighter-u
 <Pair hl title="Replaces">The 8th-level bonus feat</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Immediate Action">When an unarmed fighter successfully <Link to="/rule/trip">trips</Link> an opponent with an unarmed attack, he can attempt a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver against that creature (before the opponent becomes prone).</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 <Ability id="arc-fighter-unarmed_fighter-takedown-ex" icon={["mailed-fist"]}>
 <Pair single id="arc-fighter-unarmed_fighter-takedown-ex">Takedown (Ex)</Pair>
 <Pair hl title="Replaces">The 12th-level bonus feat</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Swift Action">If an unarmed fighter succeeds on a <Link to="/rule/drag">drag</Link> maneuver, he can attempt a trip maneuver against the same target.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="At 15th Level">He may do so after a successful grapple check.</Pair>
 </Ability>
 <Ability id="arc-fighter-unarmed_fighter-eye-gouge-ex" icon={["mailed-fist"]}>
@@ -1239,7 +1239,7 @@ const _unarmed_fighter = {title: "Unarmed Fighter", jsx: <><h2 id="arc-fighter-u
 <Pair hl title="Replaces">Weapon training 3</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Swift Action">If an unarmed fighter confirms a critical hit with his unarmed strike or begins his turn grappled, he may attempt a dirty trick maneuver to <Link to="/misc/blind">blind</Link> his target.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="Special">A target more than one size category larger is unaffected.</Pair>
 </Ability>
 <Ability id="arc-fighter-unarmed_fighter-sucker-punch-ex" icon={["mailed-fist"]}>

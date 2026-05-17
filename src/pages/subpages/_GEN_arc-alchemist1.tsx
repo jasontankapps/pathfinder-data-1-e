@@ -99,7 +99,7 @@ const _alchemical_trapper = {title: "Alchemical Trapper", jsx: <><h2 id="arc-alc
 <Pair hl title="Replaces">The discovery at 2nd level</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Full-Round Action">Creating a bomb trap uses one of the alchemical trapper's bombs per day. A bomb trap fills a single 5-foot square and cannot be placed in the same area as any other trap.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>Yes</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 <Pair title="Special">The alchemical trapper needs the same materials required for making a bomb. The DCs for Perception checks to notice the trap, Disable Device checks to disable it, and saving throws to avoid it are equal to the DC for the alchemical trapper's bombs. All bomb traps have location triggers and do not reset. The alchemical trapper can use any one discovery that applies to a bomb (Primary Bomb Discovery) when making a bomb trap. The bomb trap lasts 10 minutes for each alchemist level the trapper possesses. If the bomb trap is not disabled or exploded within that time frame, the trap becomes inert.</Pair>
 </Ability>
 <Ability id="arc-alchemist-alchemical_trapper-trapfinding-ex" icon={["stairs-goal"]}>
@@ -645,7 +645,7 @@ const _dragonblood_chymist = {title: "Dragonblood Chymist", jsx: <><h2 id="arc-a
 <Pair hl title="Replaces">Throw Anything</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Standard Action">A dragonblood chymist gains the <Link to="/discovery/breath_weapon_bomb">breath weapon bomb</Link> alchemist discovery but must apply this discovery to every bomb he creates.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>no</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>no</Pair>
 </Ability>
 <Ability id="arc-alchemist-dragonblood_chymist-draconic-resistances-ex" icon={["armor-upgrade"]}>
 <Pair single id="arc-alchemist-dragonblood_chymist-draconic-resistances-ex">Draconic Resistances (Ex)</Pair>

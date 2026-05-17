@@ -662,7 +662,7 @@ const _dinosaur_druid = {title: "Dinosaur Druid", jsx: <><h2 id="arc-druid-dinos
 <Pair title="Choice">A dinosaur druid must choose an animal companion as her <em>nature's bond,</em> and the animal companion must be a <Link to="/family/dinosaur">dinosaur</Link>.</Pair>
 </Ability>
 <Ability id="arc-druid-dinosaur_druid-dinosaur-shape-su" icon={["upgrade","broken-shield"]}>
-<Pair single id="arc-druid-dinosaur_druid-dinosaur-shape-su" flavor={["A dinosaur druid specializes in assuming the form of dinosaurs when using ",{"tag":"em","content":"wild shape.","props":{}}]}>Dinosaur Shape (Su)</Pair>
+<Pair single id="arc-druid-dinosaur_druid-dinosaur-shape-su" flavor={<>A dinosaur druid specializes in assuming the form of dinosaurs when using <em>wild shape.</em></>}>Dinosaur Shape (Su)</Pair>
 <Pair hl title="Alters">Wild shape</Pair>
 <Pair title="Ability">When she assumes the form of a dinosaur via <em>wild shape,</em> she gains a +2 size bonus to her Constitution in addition to the other modifiers granted by <em>beast shape.</em> When she uses <em>wild shape</em> to assume the form of a creature other than a dinosaur, the <em>wild shape</em> effect lasts for only 1 minute per level, rather than 1 hour per level.</Pair>
 </Ability>

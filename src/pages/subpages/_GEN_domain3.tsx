@@ -34,7 +34,7 @@ const _evil = {hasJL:true,title: "Evil", jsx: <><div className="jumpList" id="do
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-evil-touch">touch of evil</InnerLink> ability of the Evil domain</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Full-Round Action">As an <Link to="/spelldef/evil">evil</Link> act, you can bite a helpless living or freshly killed creature, dealing 1d3 points of damage. By consuming the creature's flesh, you gain a profane bonus on saving throw DCs for all spells, spell-like abilities, and supernatural abilities you use against creatures of the same type (and subtype, if humanoid or outsider) as the cannibalized creature. The profane bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your cleric level. This effect lasts for a number of minutes equal to 1/2 your cleric level or until you use this ability against a different creature.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>Yes</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 </Ability>
 <table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/magic_fang">magic fang<IonRippleEffect /></Link></td></tr>
 <tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/enemys_heart">enemy's heart<IonRippleEffect /></Link></td></tr>
@@ -657,7 +657,7 @@ const _travel = {hasJL:true,title: "Travel", jsx: <><div className="jumpList" id
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">You can travel up to 10 feet per cleric level per day. This teleportation must be used in 5-foot increments.</Pair>
 <Pair title="Move-Equivalent Action">You can teleport. You must have line of sight to your destination to use this ability. You can bring other willing creatures with you, but you must expend an equal amount of distance for each creature brought.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 <table className="basic spellList"><thead><tr><th colSpan={2}>Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/longstrider">longstrider<IonRippleEffect /></Link></td></tr>
 <tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/locate_object">locate object<IonRippleEffect /></Link></td></tr>

@@ -1,5 +1,5 @@
 import isALink from "../get-all-links.js";
-import convertToHtmlArrayKludge from "../convertToHtmlArrayKludge.js";
+import noteTags from "../noteTags.js";
 import ordinal from "../ordinal.js";
 import { convertTextToLink } from "../tests/checkForEncodedLink.js";
 
@@ -27,7 +27,7 @@ const parseChEn = (input, x) => {
 	return output;
 };
 
-export const makeMonsterOffenseBlock = ({marked2, convertEncodedInfo, maybeClear, attrs, id, logError}) => {
+export const makeMonsterOffenseBlock = ({marked2, flags, convertEncodedInfo, maybeClear, attrs, id, logError}) => {
 	const {
 		sp, spP, br, brP, cl, clP, sw, swP,
 		fl, flP, clumsy, poor, average, good, perfect,
@@ -52,22 +52,22 @@ export const makeMonsterOffenseBlock = ({marked2, convertEncodedInfo, maybeClear
 		flag = false;
 		logError(...lines);
 	};
-	const doConvert = (input, stringify = true) => convertToHtmlArrayKludge(marked2.parseInline(convertEncodedInfo(input)), stringify);
+	const doConvert = (input, stringify = true) => noteTags(flags, marked2.parseInline(convertEncodedInfo(input)), stringify);
 	//
 	// SPEED LINE
 	//
 	if(sp) {
 		output.push(`sp={${sp}}`);
 		// only spP and flP have embedded html
-		spP && output.push(`spP={${doConvert(spP)}}`);
+		spP && output.push(`spP={${doConvert(spP)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 	}
 	if(br) {
 		output.push(`br={${br}}`);
-		brP && output.push(`brP={"${brP}"}`);
+		brP && output.push(`brP="${brP}"`);
 	}
 	if(cl) {
 		output.push(`cl={${cl}}`);
-		clP && output.push(`clP={"${clP}"}`);
+		clP && output.push(`clP="${clP}"`);
 	}
 	if(fl) {
 		let p = "";
@@ -88,23 +88,23 @@ export const makeMonsterOffenseBlock = ({marked2, convertEncodedInfo, maybeClear
 		}
 		output.push(`fl={${fl}}`);
 		// only spP and flP have embedded html
-		p && output.push(`flP={${doConvert(p)}}`);
+		p && output.push(`flP={${doConvert(p)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 	}
 	if(jet) {
 		output.push(`br={${br}}`);
-		brP && output.push(`brP={"${brP}"}`);
+		brP && output.push(`brP="${brP}"`);
 	}
 	if(sw) {
 		output.push(`sw={${sw}}`);
-		swP && output.push(`swP={"${swP}"}`);
+		swP && output.push(`swP="${swP}"`);
 	}
 	spOther && output.push(`spOther="${spOther}"`);
-	spExtra && output.push(`spExtra={${doConvert(spExtra)}}`);
+	spExtra && output.push(`spExtra={${doConvert(spExtra)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 	//
 	// MELEE, RANGED LINES
 	//
-	melee && output.push(`melee={${doConvert(melee)}}`);
-	ranged && output.push(`ranged={${doConvert(ranged)}}`);
+	melee && output.push(`melee={${doConvert(melee)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
+	ranged && output.push(`ranged={${doConvert(ranged)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 	//
 	// SPACE/REACH LINE
 	//
@@ -133,7 +133,7 @@ export const makeMonsterOffenseBlock = ({marked2, convertEncodedInfo, maybeClear
 	}
 	bDrain && output.push(`bDrain="${bDrain}"`);
 	bloodRage && output.push("bloodRage");
-	brWeap && output.push(`brWeap={${doConvert(brWeap)}}`);
+	brWeap && output.push(`brWeap={${doConvert(brWeap)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 	burn && output.push(`burn="${burn}"`);
 	if(capsize && capsize === "capsize") {
 		output.push("capsize");
@@ -232,7 +232,7 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 		flag = false;
 		logError(...lines);
 	};
-	const doConvert = (input, stringify = false) => convertToHtmlArrayKludge(marked2.parseInline(convertEncodedInfo(input)), stringify);
+	const doConvert = (input, stringify = true) => noteTags(flags, marked2.parseInline(convertEncodedInfo(input)), stringify);
 	const casterlevel = data ? 1 : Number(cl);
 	if(casterlevel !== casterlevel || casterlevel < 1) {
 		log(`Invalid caster level [${cl}]`);
@@ -325,108 +325,101 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 	// SPELL-LIKE ABILITIES
 	//
 	if(sla) {
-		const obj = {
-			cl,
-			content: []
-		};
-		con && (obj.con = String(con));
+		const obj = [`"cl":${CL}`];
+		const content = [];
+		con && obj.push(`"con":"${con}"`);
 		if(sla !== "sla") {
-			obj.sla = sla;
+			obj.push(`"sla":"${sla}"`);
 		}
 		if(constant) {
-			obj.content.push({constant: true, content: doConvert(parseSpells(constant))});
+			content.push(`{"constant":true,"content":${doConvert(parseSpells(constant))}}`);
 		}
 		if(atWill) {
-			obj.content.push({will: true, content: doConvert(parseSpells(atWill))});
+			content.push(`{"will":true,"content":${doConvert(parseSpells(atWill))}}`);
 		}
 		if(hour) {
-			obj.content.push({per: "hour", content: doConvert(parseSpells(hour))});
+			content.push(`{"per":"hour","content":${doConvert(parseSpells(hour))}}`);
 		}
 		if(day) {
 			const days = day.split(/~~/);
 			days.forEach(d => {
 				const [, times, spells] = d.match(/^([^~]+)~(.+)$/);
-				obj.content.push({
-					day: Math.round(Number(times) || 0),
-					content: doConvert(parseSpells(spells))
-				});
+				content.push(`{"day":${
+					Math.round(Number(times) || 0)
+				},"content":${
+					doConvert(parseSpells(spells))
+				}}`);
 			});
 		}
 		if(week) {
-			obj.content.push({per: "week", content: doConvert(parseSpells(week))});
+			content.push(`{"per":"week","content":${doConvert(parseSpells(week))}}`);
 		}
 		if(month) {
-			obj.content.push({per: "month", content: doConvert(parseSpells(month))});
+			content.push(`{"per":"month","content":${doConvert(parseSpells(month))}}`);
 		}
 		if(year) {
-			obj.content.push({per: "year", content: doConvert(parseSpells(year))});
+			content.push(`{"per":"year","content":${doConvert(parseSpells(year))}}`);
 		}
 		if(other) {
 			const [, duration, spells] = other.match(/^([^~]+)~(.+)$/);
-			obj.content.push({
-				other: duration,
-				content: doConvert(parseSpells(spells))
-			});
+			content.push(`{"other":"${duration}","content":${doConvert(parseSpells(spells))}}`);
 		}
-		output.push(`sla={${JSON.stringify(obj)}}`)
+		obj.push(`"content":[${content.join(",")}]`);
+		output.push(`sla={{${obj.join(",")}}}`);
 	}
 	//
 	// PREPARED SPELLS/EXTRACTS
 	//
 	if(prep || ex) {
-		const obj = {
-			cl: CL
-		};
-		con && (obj.con = String(con));
-		ex ? (ex === "ex" || (obj.ex = ex)) : (prep === "prep" || (obj.prep = prep));
+		const obj = [`"cl":${CL}`];
+		con && obj.push(`"con":"${con}"`);
+		ex ? (ex === "ex" || obj.push(`"ex":"${ex}"`)) : (prep === "prep" || obj.push(`"prep":"${prep}"`));
 		if(l9) {
-			obj.l9 = doConvert(parseSpells(l9));
+			obj.push(`"l9":${doConvert(parseSpells(l9))}`);
 		}
 		if(l8) {
-			obj.l8 = doConvert(parseSpells(l8));
+			obj.push(`"l8":${doConvert(parseSpells(l8))}`);
 		}
 		if(l7) {
-			obj.l7 = doConvert(parseSpells(l7));
+			obj.push(`"l7":${doConvert(parseSpells(l7))}`);
 		}
 		if(l6) {
-			obj.l6 = doConvert(parseSpells(l6));
+			obj.push(`"l6":${doConvert(parseSpells(l6))}`);
 		}
 		if(l5) {
-			obj.l5 = doConvert(parseSpells(l5));
+			obj.push(`"l5":${doConvert(parseSpells(l5))}`);
 		}
 		if(l4) {
-			obj.l4 = doConvert(parseSpells(l4));
+			obj.push(`"l4":${doConvert(parseSpells(l4))}`);
 		}
 		if(l3) {
-			obj.l3 = doConvert(parseSpells(l3));
+			obj.push(`"l3":${doConvert(parseSpells(l3))}`);
 		}
 		if(l2) {
-			obj.l2 = doConvert(parseSpells(l2));
+			obj.push(`"l2":${doConvert(parseSpells(l2))}`);
 		}
 		if(l1) {
-			obj.l1 = doConvert(parseSpells(l1));
+			obj.push(`"l1":${doConvert(parseSpells(l1))}`);
 		}
 		if(l0) {
-			obj.l0 = doConvert(parseSpells(l0));
+			obj.push(`"l0":${doConvert(parseSpells(l0))}`);
 		}
-		output.push((ex ? "ex" : "prep") + `={${JSON.stringify(obj)}}`);
+		output.push((ex ? "ex" : "prep") + `={{${obj.join(",")}}}`);
 	}
 	//
 	// KNOWN SPELLS
 	//
 	if(know) {
-		const obj = {
-			cl: CL
-		};
-		con && (obj.con = String(con));
-		know !== "know" && (obj.known = know);
+		const obj = [`"cl":${CL}`];
+		con && obj.push(`"con":"${con}"`);
+		know !== "know" && obj.push(`"known":"${know}"`);
 		const convert = (line, num) => {
 			const [, times, spells] = line.match(/^([^~]+)~(.+)$/);
 			const t = times === "at will" ? 0 : Number(times);
 			if(t !== t || t < 0) {
 				log(`Invalid number of times in ${num}: [${times}]`);
 			}
-			obj[num] = [Math.floor(t) || true, doConvert(parseSpells(spells))]
+			obj.push(`"${num}":[${Math.floor(t)},${doConvert(parseSpells(spells))}]`);
 		};
 		l9 && convert(l9, "l9");
 		l8 && convert(l8, "l8");
@@ -441,7 +434,7 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 		if(!flag) {
 			return "";
 		}
-		output.push(`known={${JSON.stringify(obj)}}`);
+		output.push(`known={{${obj.join(",")}}}`);
 	}
 	//
 	// PSYCHIC MAGIC
@@ -452,16 +445,14 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 			log(`Invalid PE [${pe}]`);
 			return "";
 		}
-		const obj = {
-			pe: Math.floor(x),
-			cl: CL,
-			content: doConvert(parseSpells(psyMag))
-		};
-		con && (obj.con = String(con));
-		peP && (obj.peP = convertToHtmlArrayKludge(peP));
-		output.push(`psy={${
-			JSON.stringify(obj)
-		}}`);
+		const obj = [
+			`"pe":${Math.floor(x)}`,
+			`"cl":${CL}`,
+			`"content":${doConvert(parseSpells(psyMag))}`
+		];
+		con && obj.push(`"con":"${con}"`);
+		peP && obj.push(`"peP":${doConvert(peP)}`);
+		output.push(`psy={{${obj.join(",")}}}`);
 	}
 	//
 	// OTHER LINES (domain, patron, opp. schools, etc.)
@@ -476,7 +467,7 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 		} else {
 			info.push(doConvert(`**${title}** ${data}`));
 		}
-		output.push(`other={["${title}", ${JSON.stringify(info)}]}`)
+		output.push(`other={["${title}",[${info.join(",")}]]}`);
 	}
 	flags.$feats = $feats;
 	flags.$spells = $spells;
@@ -495,5 +486,5 @@ export const makeMonsterFootnoteBlock = ({marked2, convertEncodedInfo, text}) =>
 		const [id, text = ""] = line.split(/~/);
 		output.push(`<sup><strong>${id}</strong></sup> ` + marked2.parseInline(convertEncodedInfo(text)));
 	});
-	return `<blockquote className="no-top-margin">${output.join("<br>")}</blockquote>`;
+	return `<blockquote className="no-top-margin">${output.join("<br>")}</blockquote>\n`;
 };

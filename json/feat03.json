@@ -243,7 +243,7 @@
 			"",
 			"Many familiars are able to turn into other animals, but a few familiars have greater talents, and can transform into humanoid bodies of their own.  ",
 			"**Prerequisites:** ‹ability/Familiar<s› class feature, caster level 9th, your ‹sidekick/familiar› must have the change shape universal monster ability.  ",
-			"**Benefit:** Your familiar's ‹umr/change shape› universal monster ability} can function as ‹spell/alter self›, and it gains a single alternate form of either Small or Medium size. This form is of a child or teenager of its master's species, and once chosen cannot be changed. Such changeling familiars always bear some kind of visible mark of their original nature, such as a cat's eyes, a serpent's tongue, or small demonic horns. The changeling familiar does not gain any new languages with this transformation, so changeling familiars are often mute."
+			"**Benefit:** Your familiar's ‹umr/change shape› universal monster ability can function as ‹spell/alter self›, and it gains a single alternate form of either Small or Medium size. This form is of a child or teenager of its master's species, and once chosen cannot be changed. Such changeling familiars always bear some kind of visible mark of their original nature, such as a cat's eyes, a serpent's tongue, or small demonic horns. The changeling familiar does not gain any new languages with this transformation, so changeling familiars are often mute."
 		]
 	},
 	"channel_deific_essence": {
@@ -2000,7 +2000,7 @@
 			"‹SOURCE Horror Adventures/84›",
 			"",
 			"Creatures that you swallow are quickly absorbed and soon utterly annihilated.  ",
-			"**Prerequisites:** Base attack bonus +6; evil alignment; ‹umr/swallow whole› universal monster ability}; must be of the magical beast, outsider, or undead type.  ",
+			"**Prerequisites:** Base attack bonus +6; evil alignment; ‹umr/swallow whole› universal monster ability; must be of the magical beast, outsider, or undead type.  ",
 			"**Benefit:** When you start your turn having swallowed at least one creature, each swallowed creature must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) or gain a temporary ‹rule/negative levels›. Swallowed creatures that die from these negative levels are consumed as per ‹spell/disintegrate›. This is a death effect.  ",
 			"**Special:** If you are of the undead type, each time a swallowed creature gains a temporary negative level from his ability, you add 5 ‹rule/temporary hit points› to the number of hit points that swallowed creatures must deal to escape, up to a maximum of 15 temporary hit points. These temporary hit points last for 10 minutes."
 		]

@@ -1,10 +1,10 @@
-import convertToHtmlArrayKludge from "../convertToHtmlArrayKludge.js";
+import noteTags from "../noteTags.js";
 import isALink from "../get-all-links.js";
 import { getCleanText, convertSpecialTextToLink } from "../tests/checkForEncodedLink.js";
 
 const linkify = (thing) => convertSpecialTextToLink(thing.replace(/#[A-Z]/g, ""));
 
-export const makeMonsterStatisticsBlock = ({id, marked2, convertEncodedInfo, maybeClear, attrs, logError}) => {
+export const makeMonsterStatisticsBlock = ({id, flags, marked2, convertEncodedInfo, maybeClear, attrs, logError}) => {
 	const {
 		str, dex, con, int, wis, cha,
 		bab, cmb, cmd,
@@ -18,7 +18,7 @@ export const makeMonsterStatisticsBlock = ({id, marked2, convertEncodedInfo, may
 		flag = true;
 		logError(...args);
 	};
-	const doConvert = (input, stringify = false) => convertToHtmlArrayKludge(doParse(input), stringify);
+	const doConvert = (input, stringify = true) => noteTags(flags, doParse(input), stringify);
 	const doParse = (input) => marked2
 		.parseInline(convertEncodedInfo(input))
 		.replace(/((?:#(?:[A-Z]))+)<[/]Link>/g, "</Link><sup>$1</sup>")
@@ -38,18 +38,19 @@ export const makeMonsterStatisticsBlock = ({id, marked2, convertEncodedInfo, may
 				if(!isALink("feat", test)) {
 					log(`Bad feat [${test}]`);
 				} else if(!mythic && !fn && !parens) {
-					found.push(feat);
+					found.push(`"${feat}"`);
 				} else {
 					const data = [];
-					mythic && data.push("M");
-					data.push(feat);
+					mythic && data.push('"M"');
+					data.push(`"${feat}"`);
 					if(fn && parens) {
 						data.push(doConvert(`<sup>${fn}</sup> (${parens})`));
 					} else if(fn) {
-						data.push(doConvert(`<sup>${fn}</sup>`));
+						data.push(`<sup>${fn}</sup>`);
 					} else if(parens) {
 						data.push(doConvert(` (${parens})`));
 					}
+					found.push(`[${data.join(",")}]`);
 				}
 			} else {
 				log(`Unable to parse feat [${item}]`);
@@ -143,7 +144,7 @@ export const makeMonsterStatisticsBlock = ({id, marked2, convertEncodedInfo, may
 	// FEATS LINE
 	//
 	if(feats) {
-		output.push(`feats={${JSON.stringify(parseFeats(feats))}}`);
+		output.push(`feats={[${parseFeats(feats).join(",")}]}`);
 	}
 	//
 	// SKILLS LINE
@@ -240,16 +241,16 @@ export const makeMonsterStatisticsBlock = ({id, marked2, convertEncodedInfo, may
 	// SQ LINE
 	//
 	if(sq) {
-		output.push(`sq={${doConvert(sq, true)}}`);
+		output.push(`sq={${doConvert(sq)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 	}
 	//
 	// COMBAT/OTHER GEAR LINE
 	//
 	if(combat) {
-		output.push(`combat={${doConvert(combat, true)}}`);
-		othergear && output.push(`othergear={${doConvert(othergear, true)}}`);
+		output.push(`combat={${doConvert(combat)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
+		othergear && output.push(`othergear={${doConvert(othergear)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 	} else if (gear) {
-		output.push(`gear={${doConvert(gear, true)}}`);
+		output.push(`gear={${doConvert(gear)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 		othergear && log("Extraneous othergear prop");
 	} else if (othergear) {
 		log("Extraneous othergear prop");

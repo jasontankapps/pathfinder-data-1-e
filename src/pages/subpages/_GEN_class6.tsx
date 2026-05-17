@@ -884,7 +884,7 @@ const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" 
 <Pair title="Special">Effects that only trigger on a critical hit do not trigger when you use this ability.</Pair>
 </Ability>
 <Ability id="class-samurai-honorable-stand-ex" icon={["armor-upgrade","rolling-dices"]}>
-<Pair single id="class-samurai-honorable-stand-ex" flavor={["A samurai can make an honorable stand, deciding to fight the target of his ",{"tag":"em","content":"challenge","props":{}}," to the bitter end, no matter the cost."]}>Honorable Stand (Ex)</Pair>
+<Pair single id="class-samurai-honorable-stand-ex" flavor={<>A samurai can make an honorable stand, deciding to fight the target of his <em>challenge</em> to the bitter end, no matter the cost.</>}>Honorable Stand (Ex)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Swift Action">You can make an honorable stand. While doing so, you are immune to the shaken, frightened, and <Link to="/misc/panicked">panicked</Link> conditions. You do not fall unconscious while your hit point total is below 0. Finally, if you are making an honorable stand and must make a saving throw, you can spend one daily use of your <em>resolve</em> to reroll the saving throw after the first roll is made. You must take the result of the second roll, even if it is worse.</Pair>
@@ -2078,7 +2078,7 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain the ability to <Link to="/ability/channel_energy">channel energy</Link> like a cleric, by presenting your holy (or unholy) symbol.</Pair>
 <Pair title="Standard Action">By expending two uses of your <em>fervor,</em> you cause a <Link to="/misc/burst">burst</Link> that heals (or deals damage to) all creatures in a 30-foot radius centered on you (following the same rules as your <em>fervor</em>). The amount of damage healed or dealt is equal to that of your <em>fervor</em> ability. You can choose whether or not to include yourself in this effect.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>No</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="Special">Creatures that take damage from channeled energy must succeed at a Will saving throw to halve the damage. The save DC is 10 + 1/2 your warpriest level + your Wisdom modifier.</Pair>
 </Ability>
 <Ability id="class-warpriest-sacred-armor-su" icon={["armor-upgrade"]}>

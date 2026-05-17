@@ -496,7 +496,7 @@ const _kinslayer = {title: "Kinslayer", jsx: <><h2 id="arc-inquisitor-kinslayer-
 <Pair title="Special">A <em>slayer's brand</em> lasts until the undead creature is destroyed or until the kinslayer uses this ability on another creature.</Pair>
 </Ability>
 <Ability id="arc-inquisitor-kinslayer-greater-brand-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-inquisitor-kinslayer-greater-brand-su" flavor={["A kinslayer learns to modify her ",{"tag":"em","content":"slayer's brand","props":{}}," judgment as she gains levels."]}>Greater Brand (Su)</Pair>
+<Pair single id="arc-inquisitor-kinslayer-greater-brand-su" flavor={<>A kinslayer learns to modify her <em>slayer's brand</em> judgment as she gains levels.</>}>Greater Brand (Su)</Pair>
 <Pair hl title="Alters">Teamwork feats</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Whenever she gains the ability to learn a teamwork feat, she can instead opt to learn one of the following modifications to her <em>slayer's brand</em> judgment.</Pair>
@@ -1040,7 +1040,7 @@ const _suit_seeker = {title: "Suit Seeker", jsx: <><h2 id="arc-inquisitor-suit_s
 <Pair title="Info">The DR provided by this <em>judgment</em> can change from magic to an alignment type (chaotic, evil, good, or lawful) only if the selected alignment is represented on one of the suit seeker's cards in her current <em>improvised array.</em> If multiple alignments are represented in the <em>improvised array,</em> the suit seeker must select one. If the array contains only neutral cards, the suit seeker cannot benefit from this <em>judgment.</em> She can change the alignment of this <em>judgment</em> to another alignment represented in the array as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
 <Ability id="arc-inquisitor-suit_seeker-eye-of-the-harrow-su" icon={["upgrade"]}>
-<Pair single id="arc-inquisitor-suit_seeker-eye-of-the-harrow-su" flavor={["A suit seeker can use the magic of her ",{"tag":"em","content":"improvised array","props":{}}," to hone her attacks against targets that match the cards' alignment."]}>Eye of the Harrow (Su)</Pair>
+<Pair single id="arc-inquisitor-suit_seeker-eye-of-the-harrow-su" flavor={<>A suit seeker can use the magic of her <em>improvised array</em> to hone her attacks against targets that match the cards' alignment.</>}>Eye of the Harrow (Su)</Pair>
 <Pair hl title="Replaces">Detect alignment</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">If any of the cards in her <em>improvised array</em> matches the alignment of an enemy creature within 60 feet on either the good-evil axis or the lawful-chaotic axis, the card glows faintly and the inquisitor gains a +1 sacred bonus on attack rolls against enemies of the matching alignment as long as the card is in her array. If a card matches the alignment of an enemy within 60 feet on both alignment axes, the card glows brightly and the inquisitor gains a +1 sacred bonus on attack rolls and damage rolls against enemies of the matching alignment.</Pair>

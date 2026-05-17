@@ -234,7 +234,7 @@ const _iron_tyrant = {title: "Iron Tyrant", jsx: <><h2 id="arc-antipaladin-iron_
 <Pair title="Passive Ability">When wearing heavy armor, an iron tyrant is not slowed by terrain that halves movement (such as dense rubble, light undergrowth, and shallow bogs). Terrain that has been magically manipulated to impede motion or terrain that reduces movement by more than half still affects him.</Pair>
 </Ability>
 <Ability id="arc-antipaladin-iron_tyrant-fiendish-bond-su" extraClasses="hasSubs" icon={["stairs-goal","hazard-sign"]}>
-<Pair single id="arc-antipaladin-iron_tyrant-fiendish-bond-su" flavor={["Instead of forming a ",{"tag":"em","content":"fiendish bond","props":{}}," with his weapon or a servant, an iron tyrant can form a bond with his armor."]}>Fiendish Bond (Su)</Pair>
+<Pair single id="arc-antipaladin-iron_tyrant-fiendish-bond-su" flavor={<>Instead of forming a <em>fiendish bond</em> with his weapon or a servant, an iron tyrant can form a bond with his armor.</>}>Fiendish Bond (Su)</Pair>
 <Pair hl title="Replaces">Fiendish boon</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Standard Action">An iron tyrant can enhance his armor by calling upon a fiendish spirit's aid. This bond lasts for 1 minute per antipaladin level. When called, the spirit causes the armor to shed unholy light like a <Link to="/eq-misc/torch">torch</Link>.</Pair>

@@ -78,7 +78,7 @@ const _hoaxer = {title: "Hoaxer", jsx: <><h2 id="arc-bard-hoaxer-hoaxer">Hoaxer<
 <Pair single id="arc-bard-hoaxer-bad-deal-su" flavor="A hoaxer can use his performance to coax a bit of luck (good or bad) into a valuable-seeming object.">Bad Deal (Su)</Pair>
 <Pair hl title="Replaces">Inspire courage, inspire competence, and inspire greatness</Pair>
 <Pair title="Standard Action">The hoaxer can use 1 round of bardic performance to invest a single object in his possession with a hex he knows. This object must be light enough to hold in one hand, and cannot already have any magical properties. The object remains hexed as long as the hoaxer continues to spend 1 round of bardic performance each round as a <strong className="hl">swift action</strong> to maintain it, until the hoaxer drops the item, or until triggered. The hex triggers immediately upon being willingly accepted by another creature, targeting its new owner.</Pair>
-<Pair title={["Provokes ", { tag: "Link", props: { to: "/rule/aoo" }, content: "AoO?"}]}>Yes</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 <Pair title="At 1st Level">The hoaxer knows one <Link to="/ability/hexes">witch hex</Link> from the following list: <Link to="/hex/blight">blight</Link>, <Link to="/hex/charm">charm</Link>, <Link to="/hex/evil_eye">evil eye</Link>, <Link to="/hex/fortune">fortune</Link>, <Link to="/hex/healing">healing</Link>, <Link to="/hex/misfortune">misfortune</Link>, <Link to="/hex/slumber">slumber</Link>, or <Link to="/hex/unnerve_beasts">unnerve beasts</Link>.</Pair>
 <Pair title="At 3rd Level">He can learn one additional hex.</Pair>
 <Pair title="At 6th Level">He can learn one additional hex.</Pair>

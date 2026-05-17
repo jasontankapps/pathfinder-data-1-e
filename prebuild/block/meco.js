@@ -1,12 +1,12 @@
-import convertToHtmlArrayKludge from "../convertToHtmlArrayKludge.js";
+import noteTags from "../noteTags.js";
 
-const parseTreasure = (type, input) => {
+const parseTreasure = (type, input, flags) => {
 	const incoming = input.split(/~/);
 	const items = [];
 	let final = false;
 	incoming.forEach(item => {
 		if(item.startsWith("!")) {
-			final = convertToHtmlArrayKludge(item.slice(1));
+			final = noteTags(flags, item.slice(1));
 			return;
 		}
 		const bits = item.split(/\|/);
@@ -15,17 +15,17 @@ const parseTreasure = (type, input) => {
 	return final ? { [type]: items, final } : { [type]: items };
 };
 
-export const makeMonsterEcologyBlock = ({marked2, convertEncodedInfo, maybeClear, attrs, logError, id}) => {
+export const makeMonsterEcologyBlock = ({marked2, flags, convertEncodedInfo, maybeClear, attrs, logError, id}) => {
 	const {
 		env, org, treasure
 	} = attrs;
 	const output = [];
-	const doConvert = (input, stringify = true) => convertToHtmlArrayKludge(marked2.parseInline(convertEncodedInfo(input)), stringify);
+	const doConvert = (input, stringify = true) => noteTags(flags, marked2.parseInline(convertEncodedInfo(input)), stringify);
 	//
 	// ENVIRONMENT LINE
 	//
 	if(env) {
-		output.push(`env={${doConvert(env)}}`);
+		output.push(`env={${doConvert(env)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 	} else {
 		logError("Missing environment");
 		return "<Header sub>Ecology</Header>\n<p>Error.</p>\n";
@@ -33,7 +33,7 @@ export const makeMonsterEcologyBlock = ({marked2, convertEncodedInfo, maybeClear
 	//
 	// ORGANIZATION LINE
 	//
-	org && output.push(`org={${doConvert(org)}}`);
+	org && output.push(`org={${doConvert(org)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
 	//
 	// TREASURE LINE
 	//
@@ -44,9 +44,9 @@ export const makeMonsterEcologyBlock = ({marked2, convertEncodedInfo, maybeClear
 			if(parens) {
 				const p = type === "!" ? "other" : type;
 				output.push(`treasure={${
-					JSON.stringify(
-						type === "!" ? {other: doConvert(parens, false)} : parseTreasure(p, parens)
-					)
+					type === "!"
+						? `{"other":${doConvert(parens)}}`
+						: JSON.stringify(parseTreasure(p, parens, flags))
 				}}`)
 			}
 			//
