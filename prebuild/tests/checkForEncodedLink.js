@@ -132,12 +132,12 @@ const checkForEncodedLink = (input, options = {}) => {
 	matched = "";
 	while(m = temp.match(/^(.*?)(?:«(.*?)»|<(.*?)>)(.*)$/)) {
 		const [, pre, extraText, extraLink, post] = m;
-		matched = matched + pre + (extraText || "");
-		linkmatched = linkmatched + pre + (extraLink || "");
+		matched += pre + (extraText || "");
+		linkmatched += pre + (extraLink || "");
 		temp = post;
 	}
-	matched = matched + temp;
-	linkmatched = linkmatched + temp;
+	matched += temp;
+	linkmatched += temp;
 	const text = `${textpre}${matched}${textpost}`;
 	const property = `${linkpre}${linkmatched}${linkpost}`
 		.replace(/[- /]/g, "_")
@@ -185,10 +185,10 @@ export const convertSpecialTextToLink = (input) => {
 	matched = "";
 	while(m = temp.match(/^(.*?)(?:«(.*?)»|<(.*?)>)(.*)$/)) {
 		const [, pre, , extraLink, post] = m;
-		linkmatched = linkmatched + pre + (extraLink || "");
+		linkmatched += pre + (extraLink || "");
 		temp = post;
 	}
-	linkmatched = linkmatched + temp;
+	linkmatched += temp;
 	return convertTextToLink(linkpre + linkmatched + linkpost);
 };
 
@@ -216,7 +216,7 @@ export const getCleanText = (input) => {
 	matched = "";
 	while(m = temp.match(/^(.*?)(?:«(.*?)»|<(.*?)>)(.*)$/)) {
 		const [, pre, bracketed, , post] = m;
-		textmatched = textmatched + pre + (bracketed || "");
+		textmatched += pre + (bracketed || "");
 		temp = post;
 	}
 	return textmatched + temp;

@@ -281,7 +281,7 @@ const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, at
 			logError(`Found ${c} duration notations instead of 1`);
 		}
 		if(durD) {
-			dur = dur + " (D)";
+			dur += " (D)";
 		}
 		output.push(`<strong>Duration</strong> ${dur}`);
 	}
@@ -318,7 +318,7 @@ const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, at
 	(svObject || object) && mods1.push("object");
 	(svHarmless || harmless) && mods1.push("harmless");
 	if(mods1.length > 0) {
-		saving = saving + ` (${mods1.join(", ")})`
+		saving += ` (${mods1.join(", ")})`
 	}
 	let resist = "";
 	if(sr) {
@@ -332,7 +332,7 @@ const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, at
 	(srObject || object) && mods2.push("object");
 	(srHarmless || harmless) && mods2.push("harmless");
 	if(mods2.length > 0) {
-		resist = resist + ` (${mods2.join(", ")})`
+		resist += ` (${mods2.join(", ")})`
 	}
 	if(saving && resist) {
 		output.push(`<strong>Saving Throw</strong> ${saving}; <strong>Spell Resistance</strong> ${resist}`);

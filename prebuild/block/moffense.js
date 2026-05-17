@@ -256,7 +256,7 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 					let test = found;
 					let q;
 					while(q = test.match(/^#(.)(.*)$/)) {
-						notes = notes + `<sup>${Number(q[1]) ? ordinal(q[1]) : q[1]}</sup>`;
+						notes += `<sup>${Number(q[1]) ? ordinal(q[1]) : q[1]}</sup>`;
 						test = q[2];
 					}
 					return pre + post;

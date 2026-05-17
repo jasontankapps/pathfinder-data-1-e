@@ -84,12 +84,12 @@ export const checkForEncodedLink = (input: string, options: Options = {}): false
 	matched = "";
 	while(m = temp.match(/^(.*?)(?:«(.*?)»|<(.*?)>)(.*)$/)) {
 		const [, pre, extraText, extraLink, post] = m;
-		matched = matched + pre + (extraText || "");
-		linkmatched = linkmatched + pre + (extraLink || "");
+		matched += pre + (extraText || "");
+		linkmatched += pre + (extraLink || "");
 		temp = post;
 	}
-	matched = matched + temp;
-	linkmatched = linkmatched + temp;
+	matched += temp;
+	linkmatched += temp;
 	const text = `${textpre}${matched}${textpost}`;
 	const property = `${linkpre}${linkmatched}${linkpost}`
 		.replace(/[- /]/g, "_")
@@ -140,7 +140,7 @@ const convertLinks = (input: string[]): string => {
 		let base = line;
 		while(m = checkForEncodedLink(base)) {
 			const {pre, link, text, post} = m;
-			converted = converted + `${pre}[${text}](${link})`;
+			converted += `${pre}[${text}](${link})`;
 			base = post;
 		}
 		output.push(converted + base);

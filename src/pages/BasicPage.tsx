@@ -82,7 +82,7 @@ const checkElementsForText = (nodes: HTMLElement[], search: string, separateWord
 			const el = nodes.shift()!;
 			const test = (el.textContent || "").replace(/[:;.,(){}[\]!'?*"]/g, "").toLowerCase();
 			if(hold !== null) {
-				hold = hold + test;
+				hold += test;
 				if(possibles.some(p => (hold === p || (hold!.indexOf(p) > -1)))) {
 					count++;
 					hold = null;
@@ -105,7 +105,7 @@ const checkElementsForText = (nodes: HTMLElement[], search: string, separateWord
 			const el = nodes.shift()!;
 			const test = (el.textContent || "").replace(/[:;.,(){}[\]!'?*"]/g, "").toLowerCase();
 			if(hold !== null) {
-				hold = hold + test;
+				hold += test;
 				if (hold === text || (hold.indexOf(text) > -1)) {
 					count++;
 					hold = null;

@@ -6,7 +6,7 @@ const convertEncodedInfo = (input) => {
 	let output = "";
 	while(m = checkForEncodedLink(test)) {
 		const {pre, link, text, post} = m;
-		output = output + `${pre}[${text}](${link})`;
+		output += `${pre}[${text}](${link})`;
 		test = post;
 	}
 	return (output + test)

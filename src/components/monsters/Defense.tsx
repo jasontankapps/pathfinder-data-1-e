@@ -75,7 +75,7 @@ const Hp: FC<HpProps> = ({hpRaw, hp, fh, regen}) => {
 		paren = `${hd} HD; ${paren}`;
 	}
 	if(forcefield) {
-		paren = paren + ` plus ${forcefield} hp force field`;
+		paren += ` plus ${forcefield} hp force field`;
 	}
 	return <p><strong>hp</strong> {h} ({paren}){fh ? (
 		<>; <Link to="/umr/fast_healing">fast healing</Link> {fh}</>

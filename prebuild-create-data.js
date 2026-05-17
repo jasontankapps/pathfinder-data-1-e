@@ -66,7 +66,7 @@ const parseSOURCE = (input, plain = false, bare = false) => {
 	let tester = input;
 	while(m = tester.match(/^(.*)‹SOURCE ([^›]+?)›(.*)$/)) {
 		const sources = m[2].split(/;/).map(source => makeSourceLink(source));
-		newline = newline + `${m[1]}**Sources** ${sources.join(", ")}`;
+		newline += `${m[1]}**Sources** ${sources.join(", ")}`;
 		tester = m[3];
 	}
 	return newline + tester;
@@ -114,12 +114,12 @@ const removeCurlyBrackets = (input, inlineText) => {
 	}
 	while(test && (m = test.match(/(^<.*?>)([^<]*)(.*$)/))) {
 		const [, tag, content, etc] = m;
-		final = final + tag + replacer(content);
+		final += tag + replacer(content);
 		test = etc;
 	}
 	if(test) {
 		if(inlineText) {
-			final = final + replacer(test);
+			final += replacer(test);
 		} else {
 			logError(`Incomplete tag? <${input}>\n>> ${test}`);
 		}
@@ -241,7 +241,7 @@ const convertLinks = (input) => {
 		let base = line;
 		while(m = checkForEncodedLink(base)) {
 			const {pre, link, text, post} = m;
-			converted = converted + `${pre}[${text}](${link})`;
+			converted += `${pre}[${text}](${link})`;
 			base = post;
 		}
 		output.push(converted + base);
@@ -358,7 +358,7 @@ const postprocess = (tables) => {
 				footnotedata[id] = 0;
 			}
 			const noteNumber = ++footnotedata[id];
-			output = output + `${pre}<sup><InnerLink showBacklink="backlink-${prefix}${id}-${noteNumber}" id="${prefix}${id}-${noteNumber}" data-hash-target to="${prefix}${to}">${linktext}</InnerLink></sup>`;
+			output += `${pre}<sup><InnerLink showBacklink="backlink-${prefix}${id}-${noteNumber}" id="${prefix}${id}-${noteNumber}" data-hash-target to="${prefix}${to}">${linktext}</InnerLink></sup>`;
 			text = post;
 			flags.innerlink = true;
 		}
@@ -376,7 +376,7 @@ const postprocess = (tables) => {
 		while(m = text.match(backmatcher)) {
 			const [, pre, to, aria, linktext, linknumber, post] = m;
 			const noteNumber = linknumber || "1";
-			output = output + `${pre}<InnerLink id="backlink-${prefix}${to}-${noteNumber}" data-hash-target to="${prefix}${to}-${noteNumber}"${aria}-${noteNumber}">${linktext}</InnerLink>`;
+			output += `${pre}<InnerLink id="backlink-${prefix}${to}-${noteNumber}" data-hash-target to="${prefix}${to}-${noteNumber}"${aria}-${noteNumber}">${linktext}</InnerLink>`;
 			text = post;
 			flags.innerlink = true;
 		}
@@ -387,13 +387,13 @@ const postprocess = (tables) => {
 		// Check for curly brackets or their HTML entities, as they may get accidentally converted along the way.
 		while(m = text.match(/^(.*?)<p>‹table([0-9]+)›<[/]p>(.*)$/)) {
 			const [, pre, table, post] = m;
-			output = output + pre;
+			output += pre;
 			const index = parseInt(table);
 			if(index >= 0 && tables && index < tables.length) {
-				output = output + `<DisplayTable table={${JSON.stringify(tables[index])}} />`;
+				output += `<DisplayTable table={${JSON.stringify(tables[index])}} />`;
 				flags.displaytable = true;
 			} else {
-				output = output + `<p><code>‹table${table}›</code></p>`;
+				output += `<p><code>‹table${table}›</code></p>`;
 				logError(`ERROR: Bad Table: "‹table${table}›" in ${prefix}`);
 			}
 			text = post;
@@ -404,7 +404,7 @@ const postprocess = (tables) => {
 		//Add "tableWrap" <div> around plain <table>s so they can be contained to one pageview and scroll horizontally
 		while(m = text.match(/^(.*?)(<table>.+?<[/]table>)(.*)$/)) {
 			const [, pre, table, post] = m;
-			output = output + `${pre}<ScrollContainer id="${`${prefix}-table-${counter++}`}">${table}</ScrollContainer>`;
+			output += `${pre}<ScrollContainer id="${`${prefix}-table-${counter++}`}">${table}</ScrollContainer>`;
 			text = post;
 			flags.scrollcontainer = true;
 		}
@@ -418,7 +418,7 @@ const postprocess = (tables) => {
 			/^(.*?)<td( align="[^"]+")?>(\s*<Link to="[^"]+">[^<]+<IonRippleEffect [/]><[/]Link>\s*<[/]td>)(.*)$/)
 		) {
 			const [, pre, align, td, post] = m;
-			output = output + `${pre}<td${align || ""} className="ion-activatable">${td}`;
+			output += `${pre}<td${align || ""} className="ion-activatable">${td}`;
 			text = post;
 		}
 		text = output + text;
@@ -427,7 +427,7 @@ const postprocess = (tables) => {
 		//Reformat <br> and <hr> into JSX <br/> and <hr/>
 		while(m = text.match(/^(.*?)(<[bh]r[^>]*)(?<![/])>(.*)$/)) {
 			const [, pre, br, post] = m;
-			output = output + `${pre}${br}/>`;
+			output += `${pre}${br}/>`;
 			text = post;
 		}
 		text = output + text;
@@ -436,19 +436,19 @@ const postprocess = (tables) => {
 		// ...but only when NOT inside of string attributes
 		while(m = text.match(/^(.*?)(\b[a-z][-a-zA-Z0-9]*="[^"]+")(.*)$/)) {
 			const [, toCheck, attribute, post] = m;
-			output = output + toCheck.replace(/&quot;/g, "\"") + attribute;
+			output += toCheck.replace(/&quot;/g, "\"") + attribute;
 			text = post;
 		}
-		output = output + text.replace(/&quot;/g, "\"");
+		output += text.replace(/&quot;/g, "\"");
 		//Create implicit jumplists
 		if(flags.implicitJumplist) {
 			// WHY isn't this just InnerLink??
 			let div = `<div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
 			flags.implicitJumplist.forEach(pair => {
 				const [text, id] = pair;
-				div = div + `<li><InnerLink toTop to="${id}">${text}</InnerLink></li>`;
+				div += `<li><InnerLink toTop to="${id}">${text}</InnerLink></li>`;
 			});
-			div = div + `</ul></div>`;
+			div += `</ul></div>`;
 			flags.jumplist = true;
 			// Use a marker if a jumplist needs to be placed specially.
 			const m = output.match(/^(.*)<p>‹jumplist›<[/]p>(.*)$/);
@@ -535,7 +535,7 @@ const parseTemplate = (template, title, suffix, sourceText, d, split = true) => 
 	}
 	if(m = d[d.length - 1].match(/^\s*>*\s*(::|;;;)/)) {
 		// Ditto if it ends with a block- or container-level directive.
-		desc = desc + double;
+		desc += double;
 	}
 	constructed = constructed
 		.replace(/!-DESC-!/g, desc)
@@ -665,7 +665,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 				let bq = "";
 				let l = level;
 				while(l > 0) {
-					bq = bq + ">";
+					bq += ">";
 					l--;
 				}
 				// Handle the end-bits of `join`
@@ -748,29 +748,29 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 const createItem = (info, prop) => {
 	const { title, description, parent_topics, siblings, subtopics, topLink, noFinder, addenda, tree, disambiguation, className } = info;
 	let output = `const _${prop} = {title: "${title}"`;
-	parent_topics && (output = output + `, parent_topics: ${JSON.stringify(parent_topics)}`);
-	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
-	subtopics && (output = output + `, subtopics: ${JSON.stringify(subtopics)}`);
-	topLink && (output = output + `, topLink: ${JSON.stringify(topLink)}`);
-	noFinder && (output = output + ", noFinder: true");
-	addenda && (output = output + `, addenda: ${JSON.stringify(addenda)}`);
-	tree && (output = output + `, tree: ${JSON.stringify(tree)}`);
-	className && (output = output + `, className: "${className}"`);
-	disambiguation && (output = output + `, notBookmarkable: true`);
-	output = output + `, jsx: ${description}};`;
+	parent_topics && (output += `, parent_topics: ${JSON.stringify(parent_topics)}`);
+	siblings && (output += `, siblings: ${JSON.stringify(siblings)}`);
+	subtopics && (output += `, subtopics: ${JSON.stringify(subtopics)}`);
+	topLink && (output += `, topLink: ${JSON.stringify(topLink)}`);
+	noFinder && (output += ", noFinder: true");
+	addenda && (output += `, addenda: ${JSON.stringify(addenda)}`);
+	tree && (output += `, tree: ${JSON.stringify(tree)}`);
+	className && (output += `, className: "${className}"`);
+	disambiguation && (output += `, notBookmarkable: true`);
+	output += `, jsx: ${description}};`;
 	return output;
 };
 
 const createCopyItem = (info, prop, copy) => {
 	const { title, parent_topics, siblings, subtopics, topLink, noFinder, className } = info;
 	let output = `const _${prop} = {..._${copy}`;
-	title && (output = output + `, title: "${title}"`);
-	parent_topics && (output = output + `, parent_topics: ${JSON.stringify(parent_topics)}`);
-	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
-	subtopics && (output = output + `, subtopics: ${JSON.stringify(subtopics)}`);
-	topLink && (output = output + `, topLink: ${JSON.stringify(topLink)}`);
-	noFinder && (output = output + ", noFinder: true");
-	className && (output = output + `, className: "${className}"`);
+	title && (output += `, title: "${title}"`);
+	parent_topics && (output += `, parent_topics: ${JSON.stringify(parent_topics)}`);
+	siblings && (output += `, siblings: ${JSON.stringify(siblings)}`);
+	subtopics && (output += `, subtopics: ${JSON.stringify(subtopics)}`);
+	topLink && (output += `, topLink: ${JSON.stringify(topLink)}`);
+	noFinder && (output += ", noFinder: true");
+	className && (output += `, className: "${className}"`);
 	return output + "};";
 };
 

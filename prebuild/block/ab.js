@@ -699,7 +699,7 @@ const makeAbilityBlock = ({
 					do {
 						let [bonus, inc, ord] = bonuses.shift();
 						const joiner = ord ? ordinal(bonus) : String(bonus);
-						msg = msg + joiner + etc.shift();
+						msg += joiner + etc.shift();
 						bonus += inc;
 						bonuses.push([bonus, inc, ord]);
 					} while(etc.length > 0);

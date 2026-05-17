@@ -40,7 +40,7 @@ const convertEncodedInfo = (input) => {
 	let output = "";
 	while(m = checkForEncodedLink(test)) {
 		const {pre, link, text, post} = m;
-		output = output + `${pre}[${text}](${link})`;
+		output += `${pre}[${text}](${link})`;
 		test = post;
 	}
 	return (output + test)
@@ -119,13 +119,13 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				flags.header = true;
 				let main = `<Header${sub ? ` extraClasses="withSub"` : ""}>${text}</Header>`;
 				if(sub) {
-					main = main + `<div className="sub">${sub}</div>`;
+					main += `<div className="sub">${sub}</div>`;
 				}
 				if(desc) {
-					main = main + `<div className="indent"><em>${desc}</em></div>`;
+					main += `<div className="indent"><em>${desc}</em></div>`;
 				}
 				if(cat) {
-					main = main + `<div><strong>Category</strong> ${cat}</div>`;
+					main += `<div><strong>Category</strong> ${cat}</div>`;
 				}
 				return maybeClear + main + "\n";
 			} else if (n === "mhr") {
@@ -145,7 +145,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				let cn;
 				let output = "<MainLink ";
 				if(to) {
-					output = output + `to="/${to}" `;
+					output += `to="/${to}" `;
 				}
 				if(ind) {
 					cn = "indented";
@@ -153,16 +153,16 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					cn = "reversed";
 				}
 				if(cn) {
-					output = output + `className="${cn}" `;
+					output += `className="${cn}" `;
 				}
 				if(end) {
-					output = output + `end="${end}" `;
+					output += `end="${end}" `;
 				}
 				if(endem) {
-					output = output + `endem="${endem}" `;
+					output += `endem="${endem}" `;
 				}
 				if(bottom) {
-					output = output + `bottom="${bottom}" `;
+					output += `bottom="${bottom}" `;
 				}
 				return `${maybeClear}${output}info="${text}" />`;
 			} else if ((n.length === 2) && (("h2h3h4h5h6".indexOf(n) % 2) === 0)) {
@@ -195,7 +195,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					inner = pre + inner;
 				}
 				if(post) {
-					inner = inner + post;
+					inner += post;
 				}
 				if(attrs.jl) {
 					const id = prefix + (attrs.id || makeValidID(linktext));

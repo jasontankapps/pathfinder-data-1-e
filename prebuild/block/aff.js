@@ -141,7 +141,7 @@ const makeAfflictionBlock = ({marked2, flags, convertEncodedInfo, maybeClear, te
 	//
 	let supertype = poison ? "Poison" : curse ? "Curse" : infest ? "Infestation" : disease ? "Disease" : "";
 	if(type && supertype) {
-		supertype = supertype + "; " + type;
+		supertype += "; " + type;
 	} else if (type) {
 		supertype = type;
 	} else if (!supertype) {
