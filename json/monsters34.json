@@ -1524,7 +1524,7 @@
 			"",
 			"::mspell{sla cl=10 con=+12 constant=\"detect chaos~detect evil~detect good~detect law\" atWill=darkness day=\"1~dancing lights~deeper darkness~detect thoughts|DC 14~disguise self~dispel magic~entangle|DC 13~shield\"}",
 			"",
-			"::mstats{str=7 dex=20 con=12 int=16 wis=15 cha=15 bab=+5 cmb=+2 cmd=18 feats=\"Dodge~Point-Blank Shot~Precise Shot~Weapon Finesse~Weapon Focus|shortbow\" skills=\"acro|16~bluff|13~dis|13~sm|13~stl|22~umd|13\" lang=C~S~U gear=\"+1 ‹eq-weapon/shortbow›\"}",
+			"::mstats{str=7 dex=20 con=12 int=16 wis=15 cha=15 bab=+5 cmb=+2 cmd=18 feats=\"Dodge~Point-Blank Shot~Precise Shot~Weapon Finesse~Weapon Focus|shortbow\" skills=\"acro|16~bluff|13~dis|13~sm|13~stl|22~umd|13\" lang=C~S~U gear=\"+1|Wsb\"}",
 			"",
 			"::meco{env=\"temperate forests and urban\" org=\"solitary, pair, or band (3-5)\" treasure=\"S=+1|Wsb~!other treasure\"}",
 			"",

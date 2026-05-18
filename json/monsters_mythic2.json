@@ -330,7 +330,7 @@
 			"",
 			"::mstats{str=8 dex=14 con=\"-\" int=15 wis=26 cha=20 bab=+9 cmb=+8 cmd=22 feats=\"Combat Casting~Craft Wondrous Item~Extra Channel~M/Improved Channel~M/Improved Initiative~Iron Will~Mythic Spell Lore~M/Spell Focus|necromancy~M/Toughness\" skills=\"heal|16~intm|18~k|a/r|18~per|29~sm|27~spc|26~stl|9\" racial=\"+8 Perception, +8 Sense Motive, +8 Spellcraft, +8 Stealth\" lang=A~C sq=\"mythic phylactery, rejuvenation\"}",
 			"",
-			"::meco{env=any org=solitary treasure=\"N=2|Pinvisibility~+3|Acs~+1|Whm~WIamu3~WIbeltd2~WIclk3~WIhbmp4wc~Rprot2~!other treasure\"}",
+			"::meco{env=any org=solitary treasure=\"N=2|Pinvisibility~+3|Acs~+1|Whm~WIamu3~WIboid2~WIclk3~WIhbmp4wc~Rprot2~!other treasure\"}",
 			"",
 			"::sh[Description]",
 			"",

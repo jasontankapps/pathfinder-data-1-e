@@ -25,7 +25,10 @@ const noteTags = (flags, input, stringify = false) => {
 		flags.link = true;
 		found = true;
 	}
-	return stringify ? `<>${input}</>` : input;
+	if(stringify && !input.match(/^<([^ ]+)(?!.*<\1).*<[/]\1>$/)) {
+		return `<>${input}</>`;
+	}
+	return input;
 };
 
 export default noteTags;

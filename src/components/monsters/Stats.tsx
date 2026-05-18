@@ -3,6 +3,7 @@ import { convertTextToLink } from '../convertLinks';
 import mapNodes from '../mapNodes';
 import Header from '../Header';
 import Link from '../Link';
+import parseLoot from './parseLoot';
 
 type Langs = "Ab" | "ALL" | "AO" | "An" | "Cy" | "Gl" | "Gm" | "H" | "N" | "Po" | "Sh";
 type LangsX =
@@ -34,6 +35,8 @@ type Skill2 = { [key in SubSkills]?: SubSkill };
 type Skill3 = { k?: KnowSkill };
 type Skill = Skill1 & Skill2 & Skill3;
 
+type Gear = string[] | ReactNode;
+
 interface StatsProps {
 	id: string
 	atts: [number, number, number, number, number, number]
@@ -46,9 +49,9 @@ interface StatsProps {
 	skills?: Skill
 	racial?: string
 	lang?: LangProps | null // null = "none"
-	combat?: ReactNode
-	gear?: ReactNode
-	othergear?: ReactNode
+	combat?: Gear[]
+	gear?: Gear[]
+	othergear?: Gear[]
 	sq?: ReactNode
 	faith?: string
 	hasNeighbor?: boolean
@@ -290,11 +293,11 @@ const Stats: FC<StatsProps> = (props) => {
 	const langs = useMemo(() => lang ? parseLangs(lang, id) : "", [lang]);
 	const gears = useMemo(() => {
 		if(combat) {
-			return <p><strong>Combat Gear</strong> {combat}{
-				othergear ? <>; <strong>Other Gear</strong> {othergear}</> : ""
+			return <p><strong>Combat Gear</strong> {parseLoot(combat, `${id}-combat`)}{
+				othergear ? <>; <strong>Other Gear</strong> {parseLoot(othergear, `${id}-othergear`)}</> : ""
 			}</p>;
 		} else if (gear) {
-			return <p><strong>Gear</strong> {gear}</p>
+			return <p><strong>Gear</strong> {parseLoot(gear, `${id}-gear`)}</p>
 		}
 		return "";
 	}, [gear, combat, othergear]);

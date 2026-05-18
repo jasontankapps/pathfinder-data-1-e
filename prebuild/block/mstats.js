@@ -4,6 +4,22 @@ import { getCleanText, convertSpecialTextToLink } from "../tests/checkForEncoded
 
 const linkify = (thing) => convertSpecialTextToLink(thing.replace(/#[A-Z]/g, ""));
 
+const parseGear = (input, converter) => {
+	const incoming = input.split(/~/);
+	const items = [];
+	incoming.forEach(item => {
+		if(item.startsWith("!")) {
+			const output = converter(item.slice(1));
+			items.push(output);
+			return;
+		}
+		const bits = item.split(/\|/).map(i => `"${i}"`);
+		items.push(`[${bits.join(",")}]`);
+	});
+	return items.join(",");
+};
+
+
 export const makeMonsterStatisticsBlock = ({id, flags, marked2, convertEncodedInfo, maybeClear, attrs, logError}) => {
 	const {
 		str, dex, con, int, wis, cha,
@@ -226,15 +242,15 @@ export const makeMonsterStatisticsBlock = ({id, flags, marked2, convertEncodedIn
 			const [normal, special] = lang.split(/~~/);
 			normal.split(/~/).forEach(l => {
 				if(l.match(/^(A[bkquOnz]?|ALL|[BEONU]|C[ey]?|D[Frw]?|G[lmb]?|Ht?|Ig?|Po?|S[hx]?|Th?)X?$/)) {
-					found.push(l);
+					found.push(`"${l}"`);
 				} else {
-					found.push([doConvert(l)]);
+					found.push(`[${doConvert(l)}]`);
 				}
 			});
 			if(special) {
-				found.push(";", [doConvert(special)]);
+				found.push(`";"`, `[${doConvert(special)}]`);
 			}
-			output.push(`lang={${JSON.stringify(found)}}`);
+			output.push(`lang={[${found.join(",")}]}`);
 		}
 	}
 	//
@@ -247,10 +263,10 @@ export const makeMonsterStatisticsBlock = ({id, flags, marked2, convertEncodedIn
 	// COMBAT/OTHER GEAR LINE
 	//
 	if(combat) {
-		output.push(`combat={${doConvert(combat)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
-		othergear && output.push(`othergear={${doConvert(othergear)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
+		output.push(`combat={[${parseGear(combat, doConvert)}]}`);
+		othergear && output.push(`othergear={[${parseGear(othergear, doConvert)}]}`);
 	} else if (gear) {
-		output.push(`gear={${doConvert(gear)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
+		output.push(`gear={[${parseGear(gear, doConvert)}]}`);
 		othergear && log("Extraneous othergear prop");
 	} else if (othergear) {
 		log("Extraneous othergear prop");

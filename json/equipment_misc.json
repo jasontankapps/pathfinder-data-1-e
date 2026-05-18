@@ -1794,6 +1794,7 @@
 	},
 	"backpack_mwk": { "redirect": "backpack_masterwork" },
 	"masterwork_backpack": { "redirect": "backpack_masterwork" },
+	"mwk_backpack": { "redirect": "backpack_masterwork" },
 	"backpack_weaponrack": {
 		"name": "Backpack (weaponrack)",
 		"copyof": "backpack_common"

@@ -464,7 +464,7 @@
 			"",
 			"::mspell{sla cl=14 con=+16 constant=\"see invisibility\" atWill=\"deeper darkness~dimension door~dispel magic\" day=\"3~dominate monster|DC 21~fear|DC 16\"}",
 			"",
-			"::mstats{str=21 dex=17 con=18 int=12 wis=14 cha=14 bab=+12 cmb=+18 cmd=31 feats=\"Cleave~Combat Reflexes~Iron Will~Multiweapon Fighting~Power Attack~Weapon Focus|throwing axe\" skills=\"climb|20~intm|11~k|r|14~per|11\" lang=A~C~Po sq=\"martial training\" gear=\"masterwork ‹eq-armor/hide armor›, masterwork ‹eq-weapon/throwing axe«s› (8), leather axe harness\"}",
+			"::mstats{str=21 dex=17 con=18 int=12 wis=14 cha=14 bab=+12 cmb=+18 cmd=31 feats=\"Cleave~Combat Reflexes~Iron Will~Multiweapon Fighting~Power Attack~Weapon Focus|throwing axe\" skills=\"climb|20~intm|11~k|r|14~per|11\" lang=A~C~Po sq=\"martial training\" gear=\"M|Ah~8|M|Wtas~!leather axe harness\"}",
 			"",
 			"::meco{env=\"warm jungle\" org=\"solitary, tribe (2-4 angazhani, 4-8 ‹monster/girallon«s›, and 12-24 ‹monster/charau-ka›), or empire (8-12 angazhani, 12-20 girallons, and 50-100 charau-ka)\" treasure=S}",
 			"",

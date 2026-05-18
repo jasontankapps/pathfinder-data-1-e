@@ -4718,6 +4718,7 @@
 	},
 	"masterwork_thieves_tools": { "redirect": "thieves_tools_masterwork" },
 	"thieves_tools_mwk": { "redirect": "thieves_tools_masterwork" },
+	"mwk_thieves_tools": { "redirect": "thieves_tools_masterwork" },
 	"thinkers_tipple": {
 		"name": "Thinker's tipple",
 		"sources": [ "Potions and Poisons" ],
