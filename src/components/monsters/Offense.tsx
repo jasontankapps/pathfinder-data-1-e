@@ -91,7 +91,6 @@ interface Base {
 	id: string
 	melee?: ReactNode
 	ranged?: ReactNode
-	hasNeighbor?: boolean
 }
 
 type OffenseProps = Base & SpecialAttackProps & SpeedProps & SpaceReach;
@@ -135,7 +134,8 @@ const getSpeed = (props: SpeedProps): ReactNode => {
 }
 
 const getSpecialAttacks = (props: SpecialAttackProps) => {
-	const {specAtt, bDrain, bleed, brWeap, burn, capsize,
+	const {
+		specAtt, bDrain, bleed, brWeap, burn, capsize,
 		chEn, constrict, distraction,
 		eDrain, engulf, entrap, favEn, grab, heat,
 		mMagic, mPower, paralysis, powCh, pull, push,
@@ -313,8 +313,7 @@ const Offense : FC<OffenseProps> = (props) => {
 		rake, rend, rockTh, sneak, swallow, trample,
 		web, whirlwind,
 		attach, bloodRage, fSwallow, ferocity, gaze,
-		pounce, smother, strangle,
-		hasNeighbor
+		pounce, smother, strangle
 	} = props;
 	const speedObject = useMemo(() => {
 		if(fl !== undefined) {
@@ -339,7 +338,7 @@ const Offense : FC<OffenseProps> = (props) => {
 		return false;
 	}, []);
 	return (
-		<div className={"reduce" + hasNeighbor ? " no-bottom-margin" : ""}>
+		<>
 			<Header sub>Offense</Header>
 			{getSpeed(speedObject)}
 			{melee ? <p><strong>Melee</strong> {melee}</p> : ""}
@@ -354,7 +353,7 @@ const Offense : FC<OffenseProps> = (props) => {
 					mapNodes(specialAttacks, `${id}-special-attacks`)
 				}</p>
 			) : ""}
-		</div>
+		</>
 	);
 };
 

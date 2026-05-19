@@ -216,7 +216,7 @@ const Defense: FC<DefProps> = (attrs) => {
 		weak
 	} = attrs;
 	return (
-		<div className="reduce">
+		<>
 			<Header sub>Defense</Header>
 			<Ac ac={ac} mod={mod} />
 			{hpRaw !== undefined ? <Hp hpRaw={hpRaw} /> : <Hp hp={hp} fh={fh} regen={regen} />}
@@ -249,7 +249,7 @@ const Defense: FC<DefProps> = (attrs) => {
 				sr={sr}
 			/>
 			<Weakness weak={weak} id={id} />
-		</div>
+		</>
 	);
 };
 

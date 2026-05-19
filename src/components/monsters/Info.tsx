@@ -69,13 +69,13 @@ interface Senses extends Base {
 	llv?: boolean
 	keenScent?: boolean | number
 	scent?: boolean
-	thoughtsense?: number
+	thoughtsense?: number | boolean
 	greensight?: boolean | number
 	lifesense?: boolean | number
 	blindsight?: number
 	blindsightParens?: ReactNode
 	blindsense?: number
-	tremorsense?: number
+	tremorsense?: number | boolean
 	tremorParens? : ReactNode
 	mistsight?: boolean
 	sid?: boolean
@@ -95,7 +95,7 @@ const Source: FC<SourceProps> = ({id, source}) => {
 	}
 	return (
 		<p><strong>Sources</strong> {
-			mapNodes(source.map(([title, page]) => <Link to={"/source/" + convertTextToLink(title)}>{title}{page ? " " + page : ""}</Link>), `${id}-source`)
+			mapNodes(source.map(([title, page], i) => <Link key={`${id}-sourceline-${i}`} to={"/source/" + convertTextToLink(title)}>{title}{page ? " " + page : ""}</Link>), `${id}-source`)
 		}</p>
 	);
 };
@@ -159,7 +159,11 @@ const getSenses = (props: Senses) => {
 	if(thoughtsense) {
 		senses.push([
 			"thoughtsense",
-			<F key={`${id}-thoughtsense-n`}><Link to="/umr/thoughtsense">thoughtsense</Link> {thoughtsense} ft.</F>
+			(typeof thoughtsense === "number"
+				? <F key={`${id}-thoughtsense-n`}><Link to="/umr/thoughtsense">thoughtsense</Link> {
+					thoughtsense
+				} ft.</F>
+				: <Link to="/umr/thoughtsense">thoughtsense</Link>)
 		]);
 	}
 	if(greensight) {
@@ -197,12 +201,19 @@ const getSenses = (props: Senses) => {
 		]);
 	}
 	if(tremorsense) {
-		senses.push([
-			"tremorsense",
-			<F key={`${id}-tremorsense`}><Link to="/umr/tremorsense">tremorsense</Link> {tremorsense} ft.{
-				tremorParens ? <> ({tremorParens})</> : ""
-			}</F>
-		]);
+		senses.push(
+			typeof tremorsense === "number" ? [
+				"tremorsense",
+				<F key={`${id}-tremorsense`}><Link to="/umr/tremorsense">tremorsense</Link> {tremorsense} ft.{
+					tremorParens ? <> ({tremorParens})</> : ""
+				}</F>
+			] : [
+				"tremorsense",
+				<F key={`${id}-tremorsense`}><Link to="/umr/tremorsense">tremorsense</Link>{
+					tremorParens ? <> ({tremorParens})</> : ""
+				}</F>
+			]
+		);
 	}
 	if(mistsight) {
 		senses.push(["mistsight", <Link key={`${id}-mistsight`} to="/umr/mistsight">mistsight</Link>]);
@@ -277,7 +288,7 @@ const Info: FC<InfoProps> = (attrs) => {
 			xray, aav, mistsight, sid, blindsight, blindsightParens, blindsense,
 			tremorsense, tremorParens, id});
 	return (
-		<div className="reduce">
+		<>
 			<Source id={id} source={source} />
 			<p><strong>XP</strong> {xp}</p>
 			{text ? <p>{text}</p> : <></>}
@@ -288,7 +299,7 @@ const Info: FC<InfoProps> = (attrs) => {
 				sensing ? <>; {sensing}</> : <></>
 			}; <strong>Perception</strong> {parseInitPcp(pcp)}</p>
 			{aura ? <p><strong>Aura</strong> {aura}</p> : <></>}
-		</div>
+		</>
 	);
 };
 

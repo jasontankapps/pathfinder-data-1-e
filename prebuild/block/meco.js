@@ -38,7 +38,7 @@ export const makeMonsterEcologyBlock = ({marked2, flags, convertEncodedInfo, may
 	// TREASURE LINE
 	//
 	if(treasure) {
-		const m = treasure.match(/^([SDTXIN!])(?:=(.*))?$/);
+		const m = treasure.match(/^([SDTXIN!])(?:=(.*))$/);
 		if(m) {
 			const [,type,parens] = m;
 			if(parens) {
@@ -48,13 +48,14 @@ export const makeMonsterEcologyBlock = ({marked2, flags, convertEncodedInfo, may
 						? `{"other":${doConvert(parens)}}`
 						: JSON.stringify(parseTreasure(p, parens, flags))
 				}}`)
+			} else {
+				output.push(`treasure={{"${type}":false}}`)
 			}
-			//
 		} else {
-			output.push(`treasure={{"${treasure}": false}}`);
+			output.push(`treasure={{"${treasure}":false}}`);
 		}
 	}
-	return `${maybeClear}<Header sub>Ecology</Header>\n<Ecology id="${id + "-eco"}" ${output.join(" ")} />\n`;
+	return `${maybeClear}<Ecology id="${id + "-eco"}" ${output.join(" ")} />\n`;
 };
 
 export default makeMonsterEcologyBlock;

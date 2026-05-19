@@ -68,7 +68,6 @@ interface PsyProps extends BaseSpellInfoProps {
 
 interface BaseProps {
 	id: string
-	hasNeighbor?: boolean
 }
 
 interface Root {
@@ -111,7 +110,7 @@ const parseSLA = (block: SlaSpellList): string => {
 };
 
 const SpellBlock: FC<SpellBlockProps> = (props) => {
-	const {id, sla, prep, ex, known, psy, other, hasNeighbor} = props;
+	const {id, sla, prep, ex, known, psy, other} = props;
 	const output: ReactNode[] = [];
 	if(sla) {
 		store(id + "-SLA-");
@@ -127,7 +126,7 @@ const SpellBlock: FC<SpellBlockProps> = (props) => {
 			const {content} = block;
 			const title = parseSLA(block);
 			output.push(
-				<p key={key(title)}><em>title</em>-{content}</p>
+				<p key={key(title)} className="spells"><em>{title}</em>-{content}</p>
 			);
 		});
 	} else if (prep) {
@@ -140,16 +139,16 @@ const SpellBlock: FC<SpellBlockProps> = (props) => {
 				con ? `; concentration ${con}` : ""
 			})</p>
 		);
-		l9 && output.push(<p key={key("l9")}><em>9th</em>-{l9}</p>);
-		l8 && output.push(<p key={key("l8")}><em>8th</em>-{l8}</p>);
-		l7 && output.push(<p key={key("l7")}><em>7th</em>-{l7}</p>);
-		l6 && output.push(<p key={key("l6")}><em>6th</em>-{l6}</p>);
-		l5 && output.push(<p key={key("l5")}><em>5th</em>-{l5}</p>);
-		l4 && output.push(<p key={key("l4")}><em>4th</em>-{l4}</p>);
-		l3 && output.push(<p key={key("l3")}><em>3rd</em>-{l3}</p>);
-		l2 && output.push(<p key={key("l2")}><em>2nd</em>-{l2}</p>);
-		l1 && output.push(<p key={key("l1")}><em>1st</em>-{l1}</p>);
-		l0 && output.push(<p key={key("l0")}><em>0 (at will)</em>-{l0}</p>);
+		l9 && output.push(<p key={key("l9")} className="spells"><em>9th</em>-{l9}</p>);
+		l8 && output.push(<p key={key("l8")} className="spells"><em>8th</em>-{l8}</p>);
+		l7 && output.push(<p key={key("l7")} className="spells"><em>7th</em>-{l7}</p>);
+		l6 && output.push(<p key={key("l6")} className="spells"><em>6th</em>-{l6}</p>);
+		l5 && output.push(<p key={key("l5")} className="spells"><em>5th</em>-{l5}</p>);
+		l4 && output.push(<p key={key("l4")} className="spells"><em>4th</em>-{l4}</p>);
+		l3 && output.push(<p key={key("l3")} className="spells"><em>3rd</em>-{l3}</p>);
+		l2 && output.push(<p key={key("l2")} className="spells"><em>2nd</em>-{l2}</p>);
+		l1 && output.push(<p key={key("l1")} className="spells"><em>1st</em>-{l1}</p>);
+		l0 && output.push(<p key={key("l0")} className="spells"><em>0 (at will)</em>-{l0}</p>);
 	} else if (ex) {
 		store(id + "-extracts-");
 		const {ex: p, l1, l2, l3, l4, l5, l6, cl, con} = ex;
@@ -160,12 +159,12 @@ const SpellBlock: FC<SpellBlockProps> = (props) => {
 				con ? `; concentration ${con}` : ""
 			})</p>
 		);
-		l6 && output.push(<p key={key("l6")}><em>6th</em>-{l6}</p>);
-		l5 && output.push(<p key={key("l5")}><em>5th</em>-{l5}</p>);
-		l4 && output.push(<p key={key("l4")}><em>4th</em>-{l4}</p>);
-		l3 && output.push(<p key={key("l3")}><em>3rd</em>-{l3}</p>);
-		l2 && output.push(<p key={key("l2")}><em>2nd</em>-{l2}</p>);
-		l1 && output.push(<p key={key("l1")}><em>1st</em>-{l1}</p>);
+		l6 && output.push(<p key={key("l6")} className="spells"><em>6th</em>-{l6}</p>);
+		l5 && output.push(<p key={key("l5")} className="spells"><em>5th</em>-{l5}</p>);
+		l4 && output.push(<p key={key("l4")} className="spells"><em>4th</em>-{l4}</p>);
+		l3 && output.push(<p key={key("l3")} className="spells"><em>3rd</em>-{l3}</p>);
+		l2 && output.push(<p key={key("l2")} className="spells"><em>2nd</em>-{l2}</p>);
+		l1 && output.push(<p key={key("l1")} className="spells"><em>1st</em>-{l1}</p>);
 	} else if (known) {
 		store(id + "-known-");
 		const {known: p, l0, l1, l2, l3, l4, l5, l6, l7, l8, l9, cl, con} = known;
@@ -176,22 +175,22 @@ const SpellBlock: FC<SpellBlockProps> = (props) => {
 				con ? `; concentration ${con}` : ""
 			})</p>
 		);
-		l9 && output.push(<p key={key("l9")}><em>9th ({l9[0]})</em>-{l9[1]}</p>);
-		l8 && output.push(<p key={key("l8")}><em>8th ({l8[0]})</em>-{l8[1]}</p>);
-		l7 && output.push(<p key={key("l7")}><em>7th ({l7[0]})</em>-{l7[1]}</p>);
-		l6 && output.push(<p key={key("l6")}><em>6th ({l6[0]})</em>-{l6[1]}</p>);
-		l5 && output.push(<p key={key("l5")}><em>5th ({l5[0]})</em>-{l5[1]}</p>);
-		l4 && output.push(<p key={key("l4")}><em>4th ({l4[0]})</em>-{l4[1]}</p>);
-		l3 && output.push(<p key={key("l3")}><em>3rd ({l3[0]})</em>-{l3[1]}</p>);
-		l2 && output.push(<p key={key("l2")}><em>2nd ({l2[0]})</em>-{l2[1]}</p>);
-		l1 && output.push(<p key={key("l1")}><em>1st ({l1[0]})</em>-{l1[1]}</p>);
-		l0 && output.push(<p key={key("l0")}><em>0 (at will)</em>-{l0[1]}</p>);
+		l9 && output.push(<p key={key("l9")} className="spells"><em>9th ({l9[0]})</em>-{l9[1]}</p>);
+		l8 && output.push(<p key={key("l8")} className="spells"><em>8th ({l8[0]})</em>-{l8[1]}</p>);
+		l7 && output.push(<p key={key("l7")} className="spells"><em>7th ({l7[0]})</em>-{l7[1]}</p>);
+		l6 && output.push(<p key={key("l6")} className="spells"><em>6th ({l6[0]})</em>-{l6[1]}</p>);
+		l5 && output.push(<p key={key("l5")} className="spells"><em>5th ({l5[0]})</em>-{l5[1]}</p>);
+		l4 && output.push(<p key={key("l4")} className="spells"><em>4th ({l4[0]})</em>-{l4[1]}</p>);
+		l3 && output.push(<p key={key("l3")} className="spells"><em>3rd ({l3[0]})</em>-{l3[1]}</p>);
+		l2 && output.push(<p key={key("l2")} className="spells"><em>2nd ({l2[0]})</em>-{l2[1]}</p>);
+		l1 && output.push(<p key={key("l1")} className="spells"><em>1st ({l1[0]})</em>-{l1[1]}</p>);
+		l0 && output.push(<p key={key("l0")} className="spells"><em>0 (at will)</em>-{l0[1]}</p>);
 	} else if (psy) {
 		store(`-psychic-`);
 		const {cl, con, pe, peP, content} = psy;
 		output.push(
-			<p key={key("title")}><strong>Psychic Magic</strong> (CL ${cl}${con ? `; concentration ${con}` : ""})</p>,
-			<p key={key("content")}><em>{pe} PE{peP ? ` (${peP})` : ""}</em>-{content}</p>
+			<p key={key("title")}><strong>Psychic Magic</strong> (CL {cl}{con ? `; concentration ${con}` : ""})</p>,
+			<p key={key("content")} className="spells"><em>{pe} PE{peP ? ` (${peP})` : ""}</em>-{content}</p>
 		);
 	} else {
 		const [title, content] = other;
@@ -200,7 +199,7 @@ const SpellBlock: FC<SpellBlockProps> = (props) => {
 			<p key={key(String(i))}>{bit}</p>
 		)));
 	}
-	return <div className={"reduce" + hasNeighbor ? " no-bottom-margin" : ""}>{output}</div>;
+	return output;
 };
 
 export default SpellBlock

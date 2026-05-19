@@ -26,7 +26,7 @@ export const makeMonsterStatisticsBlock = ({id, flags, marked2, convertEncodedIn
 		bab, cmb, cmd,
 		feats, skills, racial, lang, sq,
 		combat, othergear, gear,
-		faith, next
+		faith
 	} = attrs;
 	const output = [];
 	let flag = true;
@@ -275,9 +275,8 @@ export const makeMonsterStatisticsBlock = ({id, flags, marked2, convertEncodedIn
 	// FAITH LINE
 	//
 	faith && output.push(`faith="${faith}"`);
-	next && output.push("hasNeighbor");
 	return flag ?
-		`${maybeClear}<Header sub>Statistics</Header>\n<Stats id="${id}" ${output.join(" ")} />\n`
+		`${maybeClear}<Stats id="${id}" ${output.join(" ")} />\n`
 	: "<Header sub>Statistics</Header><p><em>Error.</em></p>\n";
 };
 

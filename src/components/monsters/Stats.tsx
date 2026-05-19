@@ -17,7 +17,7 @@ type LangProps = (Lang | [ReactNode] | ";")[];
 type Feat1 = ["M", string];
 type Feat2 = ["M", string, ReactNode];
 type Feat3 = [string, ReactNode];
-type Feat = string | Feat1 | Feat2 | Feat3;
+type Feat = ReactNode | Feat1 | Feat2 | Feat3;
 
 type KnowSkills = "a" | "d" | "e" | "g" | "h" | "l" | "n" | "o" | "p" | "r";
 type SubSkills = "craft" | "perf" | "prof";
@@ -54,7 +54,6 @@ interface StatsProps {
 	othergear?: Gear[]
 	sq?: ReactNode
 	faith?: string
-	hasNeighbor?: boolean
 }
 
 const getLang = (input: Lang, x: boolean = false): ReactNode => {
@@ -248,6 +247,9 @@ const getFeats = (input: Feat[]) => {
 			}
 			name = feat;
 			link = convertTextToLink(feat);
+		} else if (!Array.isArray(feat)) {
+			final.push(feat);
+			return;
 		} else if(feat[0] === "M") {
 			const [, txt, etc] = feat as (Feat1 | Feat2);
 			name = "Mythic " + txt;
@@ -274,7 +276,7 @@ const Stats: FC<StatsProps> = (props) => {
 		id, atts, bab, cmb, cmbP, cmd, cmdP,
 		feats: f, skills: s, racial, lang,
 		combat, gear, othergear, sq,
-		faith, hasNeighbor
+		faith
 	} = props;
 	const [str, dex, con, int, wis, cha] = atts;
 	const feats = useMemo(
@@ -302,8 +304,8 @@ const Stats: FC<StatsProps> = (props) => {
 		return "";
 	}, [gear, combat, othergear]);
 	return (
-		<div className={"reduce" + hasNeighbor ? " no-bottom-margin" : ""}>
-			<Header sub>Stats</Header>
+		<>
+			<Header sub>Statistics</Header>
 			<p><strong>Str</strong> {
 				str ? (str < 0 ? `- (${0 - str} while corporeal)` : str) : "-"
 			}, <strong>Dex</strong> {dex}, <strong>Con</strong> {
@@ -326,7 +328,7 @@ const Stats: FC<StatsProps> = (props) => {
 					"/faith/" + convertTextToLink(faith)
 				}>{faith}</Link></p>
 			: ""}
-		</div>
+		</>
 	);
 };
 

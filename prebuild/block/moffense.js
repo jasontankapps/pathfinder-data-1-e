@@ -42,8 +42,7 @@ export const makeMonsterOffenseBlock = ({marked2, flags, convertEncodedInfo, may
 		rake, rend, rockTh, sneak, swallow, trample,
 		web, whirlwind,
 		attach, bloodRage, fSwallow, ferocity, gaze,
-		pounce, smother, strangle,
-		next
+		pounce, smother, strangle
 	} = attrs;
 	const output = [];
 	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
@@ -121,9 +120,9 @@ export const makeMonsterOffenseBlock = ({marked2, flags, convertEncodedInfo, may
 		const spAtt = [];
 		spAtt.push(...specAtt.split("~").map(x => {
 			const clean = x.replace(/‹[-a-z_]+[/]([^›]+?)›/g, "$1").replace(/[^-a-zA-Z 0-9]/g, "");
-			return [clean, doConvert(x, false)];
+			return `["${clean}",${doConvert(x)}]`;
 		}));
-		output.push(`specAtt={${JSON.stringify(spAtt)}}`);
+		output.push(`specAtt={[${spAtt.join(",")}]}`);
 	}
 	attach && output.push("attach");
 	if(bleed && bleed === "bleed") {
@@ -203,7 +202,6 @@ export const makeMonsterOffenseBlock = ({marked2, flags, convertEncodedInfo, may
 		output.push(`web="${web}"`);
 	}
 	whirlwind && output.push(`whirlwind="${whirlwind}"`);
-	next && output.push("hasNeighbor");
 	return flag ? `${maybeClear}<Offense id="${id}" ${output.join(" ")} />\n` : "<Header sub>Offense</Header><p><em>Error.</em></p>\n";
 };
 
@@ -223,8 +221,7 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 		l0, l1, l2, l3, l4, l5, l6, l7, l8, l9,
 		prep, ex, know,
 		psy, psyMag, pe, peP,
-		title, data, newLine,
-		next
+		title, data, newLine
 	} = attrs;
 	const output = [];
 	let flag = true;
@@ -263,14 +260,14 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 				}
 				return shifted;
 			})();
-			if(m = item.match(/^!(.+)(?:\|(.+))?$/)) {
+			if(m = item.match(/^!(.+)(?:[|](.+))?$/)) {
 				// !html text
 				found.push(m[2] ? `${m[1]}${notes} (${m[2]})` : m[1] + notes);
 			} else if(m = item.match(/^&S (.+)$/)) {
 				// &S summon info
 				const prefix = checkIfDupe("summon", $feats) || "[summon](umr/summon)";
 				found.push(`${prefix}${notes} (${m[1]})`);
-			} else if(m = item.match(/^&([A-Z&]+)(?: (.+)(?:\|(.+)))$/)) {
+			} else if(m = item.match(/^&([A-Z&a-z]+)(?: (.+?)(?:[|](.+))?)$/)) {
 				// &Q, &maximized, etc
 				const [, f, sp, parens] = m;
 				let prefix = "";
@@ -297,7 +294,7 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 				pre = m[1] + " ";
 			} else if(m = item.match(/^\$(.+)$/)) {
 				post = m[1];
-			} else if((m = item.match(/^(.+?)\|(.+)$/)) && isALink("spell", m[1])) {
+			} else if((m = item.match(/^(.+?)\|(.+)$/))) {
 				test = linkify(m[1]);
 				if(isALink("spell", test)) {
 					const text = checkIfDupe(m[1], $spells) || `[${m[1]}](spell/${test})`;
@@ -474,7 +471,6 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 	let count = flags.$spellblocks || 0;
 	count++;
 	flags.$spellblocks = count;
-	next && output.push("hasNeighbor");
 	return `${maybeClear}<SpellBlock id="${id}-monster-spellblock-${count}" ${output.join(" ")} />\n`;
 };
 
@@ -486,5 +482,5 @@ export const makeMonsterFootnoteBlock = ({marked2, convertEncodedInfo, text}) =>
 		const [id, text = ""] = line.split(/~/);
 		output.push(`<sup><strong>${id}</strong></sup> ` + marked2.parseInline(convertEncodedInfo(text)));
 	});
-	return `<blockquote className="no-top-margin">${output.join("<br>")}</blockquote>\n`;
+	return `<p className="spells indented">${output.join('</p><p className="spells indented">')}</p>\n`;
 };

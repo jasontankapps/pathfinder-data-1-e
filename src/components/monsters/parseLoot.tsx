@@ -290,9 +290,9 @@ const getEnhancement = (input: string) => {
 			return ["speed"];
 		case "MF":
 			return ["moderate_fortification", "moderate fortification"];
-		case "SB":
+		case "SHB":
 			return ["shocking_burst", "shocking burst"];
-		case "S":
+		case "SH":
 			return ["shock"];
 		case "I":
 			return ["icy_burst", "icy burst"];
@@ -414,7 +414,7 @@ const parseLoot = (input: (string[]|ReactNode)[], id: string, treasure: boolean 
 				case "WIhbw2":
 					m = m || "headband of inspired wisdom +2";
 					l = l || "headband_of_inspired_wisdom_2";
-				case "WIhbw2":
+				case "WIhbw4":
 					m = m || "headband of inspired wisdom +4";
 					l = l || "headband_of_inspired_wisdom_4";
 				case "WIhbms2":
@@ -489,6 +489,8 @@ const parseLoot = (input: (string[]|ReactNode)[], id: string, treasure: boolean 
 				return <>oil of {makeLink("spell", m[1], convertTextToLink(m[1]))}{end}</>;
 			} else if (m = test.match(/^M-(.+)$/)) {
 				return <>{makeLink("eq-material", m[1], convertTextToLink(m[1]))}{end}</>;
+			} else if (m = test.match(/^Q(.+)$/)) {
+				return <>{makeLink("eq-misc", m[1], convertTextToLink(m[1]))}{end}</>;
 			} else if (m = test.match(/^PX-(.+)$/)) {
 				return <>{makeLink("eq-poison", m[1], convertTextToLink(m[1]))}{end}</>;
 			} else if (m = test.match(/^WI-(.+)$/)) {

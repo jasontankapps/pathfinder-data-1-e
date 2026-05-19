@@ -127,7 +127,11 @@ const makeMonsterInfoBlock = ({marked2, flags, parseSOURCE, convertEncodedInfo, 
 		output.push(keenScent === "keenScent" ? "keenScent" : `keenScent={${keenScent}}`);
 	}
 	if(scent) { output.push("scent"); }
-	if(thoughtsense) { output.push(`thoughtsense={${thoughtsense}}`); }
+	if(thoughtsense) { output.push(
+		thoughtsense !== "thoughtsense"
+			? `thoughtsense={${thoughtsense}}`
+			: "thoughtsense"
+	); }
 	if(greensight) {
 		output.push(greensight === "greensight" ? "greensight" : `greensight={${greensight}}`);
 	}
@@ -137,7 +141,7 @@ const makeMonsterInfoBlock = ({marked2, flags, parseSOURCE, convertEncodedInfo, 
 	if(blindsight) { output.push(`blindsight={${blindsight}}`); }
 	if(blindsightParens) { output.push(`blindsightParens={${doConvert(blindsightParens)}}`); }
 	if(blindsense) { output.push(`blindsense={${blindsense}}`); }
-	if(tremorsense) { output.push(`tremorsense={${tremorsense}}`); }
+	if(tremorsense) { output.push(tremorsense === "tremorsense" ? `tremorsense` : `tremorsense={${tremorsense}}`); }
 	if(tremorParens) { output.push(`tremorParens={${doConvert(tremorParens)}}`); }
 	if(mistsight) { output.push("mistsight"); }
 	if(xray) { output.push("xray"); }

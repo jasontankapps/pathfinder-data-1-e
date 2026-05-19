@@ -1,5 +1,14 @@
 /* Statblocks */
 
+/* Striped */
+
+.hasStatblock div.reduce p {
+	--sb-header: var(--ion-color-tertiary);
+}
+.hasStatblock div.reduce p:nth-of-type(even) {
+	--sb-background: var(--ion-color-light);
+}
+
 /*statblockHeader(Full)?|statblockSubHeader*/
 
 .hasStatblock :is(p, div.reduce) {
@@ -8,6 +17,21 @@
 
 .hasStatblock div.reduce p {
 	margin-block: 0;
+	padding-block: 0.125rem;
+	padding-inline: 0.25rem;
+	background: var(--sb-background);
+}
+
+.hasStatblock div.reduce p strong {
+	color: var(--sb-header);
+}
+
+.hasStatblock div.reduce p.indented {
+	padding-inline-start: 2.5rem;
+}
+
+.hasStatblock div.reduce p.spells {
+	text-indent: 0.5rem;
 }
 
 .hasStatblock div.statblockHeaderFull {

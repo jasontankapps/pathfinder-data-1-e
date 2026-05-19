@@ -343,8 +343,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"rake", "rend", "rockTh", "sneak", "swallow", "trample",
 					"web", "whirlwind",
 					"attach", "bloodRage", "fSwallow", "ferocity", "gaze",
-					"pounce", "smother", "strangle",
-					"next"
+					"pounce", "smother", "strangle"
 				], [], logError);
 				flags.header = true;
 				flags.moffense = true;
@@ -357,8 +356,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"sla", "atWill", "constant", "day", "hour", "week", "month", "year", "other",
 					"prep", "ex", "know",
 					"psy", "psyMag", "pe", "peP",
-					"title", "data", "newLine",
-					"next"
+					"title", "data", "newLine"
 				], [ /^l[0-9]$/ ], logError);
 				const id = prefix + makeValidID(text + "-spells");
 				flags.mspell = true;
@@ -374,7 +372,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"bab", "cmb", "cmd",
 					"feats", "skills", "racial", "lang", "sq",
 					"combat", "othergear", "gear",
-					"faith", "next"
+					"faith"
 				], [], logError);
 				flags.header = true;
 				flags.mstats = true;
@@ -407,7 +405,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "ab") {
 				churn(n, attrs, [
 					"clear", "jl", "id", "flavor", "indent",
-					"sub", "head", "icon", "next",
+					"sub", "head", "icon",
 					"l", "imp",
 					"repeat", "repeatAt",
 					"standard", "swift", "immediate",

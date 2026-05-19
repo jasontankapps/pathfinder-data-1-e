@@ -30,19 +30,19 @@ const findTreasure = (t: Treasure): [string, string, false | string[][]] => {
 	let type = "";
 	let link = "";
 	let what: false | string[][] = false;
-	if(S) {
+	if(S !== undefined) {
 		type = "standard";
 		what = S;
-	} else if (D) {
+	} else if (D !== undefined) {
 		type = "double";
 		what = D;
-	} else if (T) {
+	} else if (T !== undefined) {
 		type = "triple";
 		what = T;
-	} else if (X) {
+	} else if (X !== undefined) {
 		type = "none";
 		what = X;
-	} else if (I) {
+	} else if (I !== undefined) {
 		type = "incidental";
 		what = I;
 	} else {
@@ -77,12 +77,12 @@ const Ecology: FC<EcoProps> = (props) => {
 		env, org, treasure, id
 	} = props;
 	return (
-		<div className="reduce">
+		<>
 			<Header sub>Ecology</Header>
 			<p><strong>Environment</strong> {env}</p>
 			{org ? <p><strong>Organization</strong> {org}</p> : ""}
 			{treasure ? <Treasure t={treasure} id={id} /> : ""}
-		</div>
+		</>
 	);
 };
 
