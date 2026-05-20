@@ -804,7 +804,7 @@ const _zomok = {title: "Zomok", jsx: <><p><em>At first glance, this creature res
 <p>Rather than having a distinct physical body, a zomok is more like a spirit animating a collective mass of vegetation, and over time it sheds and acquires new material from its environment, changing its appearance to match its current location. Zomoks do not need to eat, and any creature they swallow is usually left behind as a mashed corpse to decay and provide nutrition for plants.</p>
 <p>A typical zomok is about 18 feet tall and 30 feet long, and weighs 30 tons.</p>
 </>};
-const _zoog = {title: "Zoog", jsx: <><p><em>This skittish amalgam of beast parts has luminous eyes, a rat's tail, simian appendages, and tendrils extending from a mole-like nose</em></p>
+const _zoog = {title: "Zoog", jsx: <><p><em>This skittish amalgam of beast parts has luminous eyes, a rat's tail, simian appendages, and tendrils extending from a mole-like nose.</em></p>
 <Header full><span>Zoog</span><span>CR 1</span></Header>
 <div className="reduce">
 <Info id="monster-zoog--info" source={[["Bestiary 3",288]]} xp="400" ce tiny magicalBeast init={2} sen={["spell sight"]} senSpell={["detect magic"]} dv={60} llv scent pcp={5} />

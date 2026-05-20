@@ -1077,7 +1077,7 @@ const _phantom_thief = {title: "Phantom Thief", jsx: <><h2 id="arc-rogue-phantom
 <Ability id="arc-rogue-phantom_thief-refined-education-ex" icon={["upgrade"]}>
 <Pair single id="arc-rogue-phantom_thief-refined-education-ex">Refined Education (Ex)</Pair>
 <Pair hl title="Replaces">Debilitating injury, sneak attack, trapfinding</Pair>
-<Pair hl title="Alters">rogue's edge (unchained rogue only)</Pair>
+<Pair hl title="Alters">Rogue's edge (unchained rogue only)</Pair>
 <Pair title="At 1st Level">The phantom thief selects one of her rogue class skills and adds half her rogue level on all skill checks using that skill.</Pair>
 <Pair title="At 3rd Level">She selects an additional rogue class skill and adds half her rogue level on all skill checks using that skill as well.</Pair>
 <Pair title="At 4th Level">She gains <em>rogue's edge</em> skill unlocks with each of these skills rather than selecting one skill every 5 levels, and she adds half her rogue level to her number of ranks to determine when she receives a skill unlock (so a 7th level rogue (phantom thief) with 7 ranks in a chosen skill would count as having 10 ranks and receive the second skill unlock).</Pair>
@@ -1330,7 +1330,7 @@ const _scroll_scoundrel = {title: "Scroll Scoundrel", jsx: <><h2 id="arc-rogue-s
 <Pair single id="arc-rogue-scroll_scoundrel-fast-talker-ex">Fast Talker (Ex)</Pair>
 <Pair hl title="Replaces">2nd-level rogue talent</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
-<Pair title="Passive Ability">A scroll scoundrel's penalty on Bluff checks that are unlikely, farfetched, or impossible to achieve is reduced by 5. When he makes a Diplomacy check to adjust a creature's starting attitude, he gains a +3 competence bonus on the skill check.</Pair>
+<Pair title="Passive Ability">A scroll scoundrel's penalty on <Link to="/skill/bluff">Bluff</Link> checks that are unlikely, farfetched, or impossible to achieve is reduced by 5. When he makes a <Link to="/skill/diplomacy">Diplomacy</Link> check to adjust a creature's starting attitude, he gains a +3 competence bonus on the skill check.</Pair>
 </Ability>
 <Ability id="arc-rogue-scroll_scoundrel-adaptive-learning-ex" icon={["armor-upgrade"]}>
 <Pair single id="arc-rogue-scroll_scoundrel-adaptive-learning-ex">Adaptive Learning (Ex)</Pair>
@@ -1707,7 +1707,7 @@ const _snoop = {title: "Snoop", jsx: <><h2 id="arc-rogue-snoop-snoop">Snoop</h2>
 <Ability id="arc-rogue-snoop-uncanny-snoop-ex" icon={["upgrade"]}>
 <Pair single id="arc-rogue-snoop-uncanny-snoop-ex">Uncanny Snoop (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
-<Pair title="At 4th Level">A snoop gains a +2 bonus on Intimidate checks when trying to force an opponent to give her information (or Bluff and Diplomacy checks for the same purpose if she has the <em>coax information</em> rogue talent). She also gains a +2 bonus on Sense Motive checks to tell if someone's information is false.</Pair>
+<Pair title="At 4th Level">A snoop gains a +2 bonus on Intimidate checks when trying to force an opponent to give her information (or Bluff and Diplomacy checks for the same purpose if she has the <Link to="/talent/coax_information">coax information</Link> rogue talent). She also gains a +2 bonus on Sense Motive checks to tell if someone's information is false.</Pair>
 <Pair title="At 8th Level">These bonuses increase to +4.</Pair>
 </Ability>
 <Ability id="arc-rogue-snoop-master-of-whispers-ex" icon={["stairs-goal"]}>
@@ -1790,7 +1790,7 @@ const _swordmaster = {title: "Swordmaster", jsx: <><h2 id="arc-rogue-swordmaster
 <Pair id="arc-rogue-swordmaster-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Disguise, Knowledge (dungeoneering)</Pair></Ability>
-<Ability id="arc-rogue-swordmaster-trance-ex" icon={["stairs-goal"]}>
+<Ability id="arc-rogue-swordmaster-trance-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-rogue-swordmaster-trance-ex">Trance (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -1892,14 +1892,14 @@ const _tidal_trickster = {title: "Tidal Trickster", jsx: <><h2 id="arc-rogue-tid
 </Ability>
 <Ability id="arc-rogue-tidal_trickster-liquid-disruption-ex" icon={["stairs-goal","armor-upgrade"]}>
 <Pair single id="arc-rogue-tidal_trickster-liquid-disruption-ex" flavor="A tidal trickster can use her knowledge of the cohesion of liquids to disrupt certain foes.">Liquid Disruption (Ex)</Pair>
-<Pair hl title="Replaces">Uncanny dodge and the 4th-level, rogue talent</Pair>
+<Pair hl title="Replaces">Uncanny dodge, 4th-level rogue talent</Pair>
 <Pair hl title="Alters">Sneak attack</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Ability">She can deal sneak attack damage to oozes and creatures with the water subtype that are normally immune to <Link to="/misc/precision_damage">precision damage</Link> (such as <Link to="/monster/water_elemental">water elementals</Link>), and she ignores a <Link to="/class/kineticist">hydrokineticist's</Link> chance to negate precision damage from <em>elemental overflow.</em></Pair>
+<Pair title="Ability">She can deal sneak attack damage to <Link to="/type/ooze">oozes</Link> and creatures with the <Link to="/subtype/water">water</Link> subtype that are normally immune to <Link to="/misc/precision_damage">precision damage</Link> (such as <Link to="/monster/water_elemental">water elementals</Link>), and she ignores a <Link to="/class/kineticist">hydrokineticist's</Link> chance to negate precision damage from <em>elemental overflow.</em></Pair>
 </Ability>
 <Ability id="arc-rogue-tidal_trickster-tidal-distortion-ex" icon={["stairs-goal"]}>
 <Pair single id="arc-rogue-tidal_trickster-tidal-distortion-ex">Tidal Distortion (Ex)</Pair>
-<Pair hl title="Replaces">Improved uncanny dodge and the 8th-level, rogue talent</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge, 8th-level rogue talent</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">While making a full attack underwater, a tidal trickster can give up one attack to create a <em>tidal distortion.</em> When she creates a <em>tidal distortion,</em> the tidal trickster moves up to 10 feet. If any part of her movement includes a square adjacent to one or more foes, she can choose one of those foes and attempt a Bluff check with a DC of 11 + either the enemy's Sense Motive or Swim modifier, whichever is higher. Her Bluff check is subject to any penalties the attack roll she sacrificed would have taken, and if she trades an iterative attack gained from having a high base attack bonus, she also takes a penalty based on that attack's lower base attack bonus (a -5 penalty for the second iterative attack, a -10 penalty for the third iterative attack, and a -15 penalty for the fourth iterative attack, if she manages to gain one). If she succeeds at the Bluff check, the movement doesn't provoke an attack of opportunity from that foe and the foe becomes <Link to="/rule/off_balance">off-balance</Link> until its next turn.</Pair>
 <Pair title="Special">A tidal trickster can give up any number of her attacks in a given full attack to create <em>tidal distortions,</em> but she can't give up two consecutive attacks.</Pair>
@@ -2013,7 +2013,7 @@ const _vexing_dodger = {title: "Vexing Dodger", jsx: <><h2 id="arc-rogue-vexing_
 </Ability>
 <Ability id="arc-rogue-vexing_dodger-rogue-talents-ex" icon={["stairs-goal"]}>
 <Pair single id="arc-rogue-vexing_dodger-rogue-talents-ex">Rogue Talents (Ex)</Pair>
-<Pair title="Ability">A vexing dodger can choose <Link to="/ability/uncanny_dodge">uncanny dodge</Link> as a rogue talent starting at 4th level, and she can choose <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link> as an advanced rogue talent.</Pair>
+<Pair title="Ability">A vexing dodger can choose <Link to="/ability/uncanny_dodge">uncanny dodge</Link> as a rogue talent starting at 4th level, and she can choose to gain <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link> when she gains access to advanced rogue talents.</Pair>
 </Ability>
 <p><strong>These rogue talents complement this archetype:</strong> <Link to="/talent/befuddling_strike">befuddling strike</Link>, <Link to="/talent/confounding_blades">confounding blades</Link>, <Link to="/talent/peerless_maneuver">peerless maneuver</Link>, <Link to="/talent/positioning_attack">positioning attack</Link>, <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/wall_scramble">wall scramble</Link></p></>};
 const _waylayer = {title: "Waylayer", jsx: <><h2 id="arc-rogue-waylayer-waylayer">Waylayer</h2>

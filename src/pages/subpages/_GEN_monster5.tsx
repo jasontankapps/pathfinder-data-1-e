@@ -406,7 +406,7 @@ const _choxani = {title: "Choxani", jsx: <><p><em>This faceless, spindly humanoi
 <Header sub>Description</Header>
 <p>Also called "picture people," choxani embody those aspects of nature that resemble other things, from a chameleon changing color to a cloud blown into the shape of a dog. Choxani see these moments of representation as proof of the plan underlying all reality, and honor them with religious fervor. They communicate primarily through hand gestures and their constantly changing markings, which can form text or images. When eating, the colors on their fingers or faces stretch out into funnels, sucking in the colors of other organisms and leaving them lifeless gray husks. A typical choxani is 7 feet tall and 150 pounds.</p>
 </>};
-const _chronogeist = {title: "Chronogeist", jsx: <><p><em>This translucent, orange-tinged creature looks like it was once a living person, though its face is a twisted mask of confusion and terror and its vestments surround</em></p>
+const _chronogeist = {title: "Chronogeist", jsx: <><p><em>This translucent, orange-tinged creature looks like it was once a living person, though its face is a twisted mask of confusion and terror and its vestments surround it like a ghostly shroud.</em></p>
 <Header full><span>Chronogeist</span><span>CR 14</span></Header>
 <div className="reduce">
 <Info id="monster-chronogeist--info" source={[["Pathfinder #137: The City Outside of Time",82]]} xp="38,400" ce medium undead subs={["incorporeal"]} init={15} dv={60} lifesense pcp={31} />

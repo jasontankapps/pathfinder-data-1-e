@@ -405,7 +405,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "ab") {
 				churn(n, attrs, [
 					"clear", "jl", "id", "flavor", "indent",
-					"sub", "head", "icon",
+					"sub", "next", "head", "icon",
 					"l", "imp",
 					"repeat", "repeatAt",
 					"standard", "swift", "immediate",

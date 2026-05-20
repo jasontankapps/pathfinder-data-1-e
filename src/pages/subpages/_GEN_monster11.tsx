@@ -523,7 +523,7 @@ const _ghoul = {title: "Ghoul", jsx: <><p><em>This humanoid creature has long, s
 <p><strong>Lycanthrope:</strong> While a ghoul cannot become a lycanthrope, a living lycanthrope who succumbs to ghoul fever could rise as a ghoul. In most cases, this transformation removes the lycanthropic curse, resulting in a standard ghoul, but in rare events the resulting monster is a true ghoul lycanthrope. To create stats for such a creature, simply apply the <Link to="/template/lycanthrope">lycanthrope</Link> template to a ghoul-this is an exception to the general rule that you can normally only add the lycanthrope template to a humanoid.</p>
 </blockquote>
 </>};
-const _ghoul_hound = {title: "Ghoul Hound", jsx: <><p><em>This canine creature has sallow, dead skin stretched tight across</em></p>
+const _ghoul_hound = {title: "Ghoul Hound", jsx: <><p><em>This canine creature has sallow, dead skin stretched tight across its bones. Its teeth are long and yellowed.</em></p>
 <Header full><span>Ghoul Hound</span><span>CR 1</span></Header>
 <div className="reduce">
 <Info id="monster-ghoul_hound--info" source={[["Monster Codex",88],["Pathfinder Comics #3",33]]} xp="400" ce medium undead init={6} dv={60} pcp={6} />

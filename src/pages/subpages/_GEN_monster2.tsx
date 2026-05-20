@@ -1211,7 +1211,7 @@ const _asura_asurendra = {title: "Asurendra (Asura)", jsx: <><p><em>This four-ar
 </blockquote>
 <p><strong>Family:</strong> <Link to="/family/asura">Asura</Link></p>
 </>};
-const _asura_hishandura = {title: "Hishandura (Asura)", jsx: <><p><em>This muscular fiend has two vertically mirrored faces, four arms, and a quartet of sinister punching daggers</em></p>
+const _asura_hishandura = {title: "Hishandura (Asura)", jsx: <><p><em>This muscular fiend has two vertically mirrored faces, four arms, and a quartet of sinister punching daggers.</em></p>
 <Header full><span>Hishandura</span><span>CR 15</span></Header>
 <div className="reduce">
 <Info id="monster-asura_hishandura--info" source={[["Pathfinder #136: Temple of the Peacock Spirit",82]]} xp="51,200" le large outsider subs={["asura","evil","extraplanar","lawful"]} init={7} sen={["scent of carnage","smoke sight"]} dv={60} scent pcp={29} aura={"elusive (75 ft.)"} />

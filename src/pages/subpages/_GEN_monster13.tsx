@@ -995,7 +995,7 @@ const _hive_hive_brute = {title: "Hive Brute", jsx: <><p><em>This hulking, four-
 <p>Often found wandering the Uskwood alone or in pairs rather than as part of the central hive near Uskheart, hive brutes lack the intelligence and cunning of their kin, but they make up for the deficit with more primal physical abilities. When in a large group of other hive creatures, brutes assist both workers and warriors in their tasks, serving as beasts of burden and war beasts in equal measure.</p>
 <p><strong>Family:</strong> <Link to="/family/hive">Hive</Link></p>
 </>};
-const _hive_hive_larva_swarm = {title: "Hive Larva Swarm", jsx: <><p><em>This mass of writhing, maggot-like creatures secretes a caustic odor</em></p>
+const _hive_hive_larva_swarm = {title: "Hive Larva Swarm", jsx: <><p><em>This mass of writhing, maggot-like creatures secretes a caustic odor.</em></p>
 <Header full><span>Hive Larva Swarm</span><span>CR 5</span></Header>
 <div className="reduce">
 <Info id="monster-hive_hive_larva_swarm--info" source={[["Horror Adventures",236]]} xp="1,600" n fine aberration subs={["hive","swarm"]} init={2} sen={["hive mind"]} blindsight={10} blindsense={60} pcp={0} />
