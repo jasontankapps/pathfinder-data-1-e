@@ -106,7 +106,7 @@ const PageHeader: FC<PropsWithChildren<{
 							{findInPage
 								? (
 									<IonButton
-										onClick={() => findInPage(!findingInPage)}
+										onClick={() => findInPage(findingInPage)}
 										color={findingInPage ? "tertiary" : undefined}
 									>
 										<IonIcon slot="icon-only" icon="/icons/find-in-page.svg" />

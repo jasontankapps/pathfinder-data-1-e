@@ -5,9 +5,9 @@ import {
 	IonActionSheet, ActionSheetButton
 } from '@ionic/react';
 import { chevronBack, chevronForward, search } from 'ionicons/icons';
-import { useLocation } from 'wouter';
 import { useLongPress } from '@uidotdev/usehooks';
 import { Haptics, ImpactStyle } from '@capacitor/haptics';
+import { useLocation } from 'wouter';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { goBack, goForward, goBackNum, goForwardNum, goTo } from '../store/historySlice';
 import usePageName from './usePageName';
@@ -30,7 +30,8 @@ const Slotless: FC<{
 
 const PageFooter: FC<{
 	noSearchButton?: boolean
-}> = ({ noSearchButton }) => {
+	closeFinder?: (close: boolean) => void
+}> = ({ noSearchButton, closeFinder }) => {
 	const [ , navigate ] = useLocation();
 	const {previous, next} = useAppSelector(state => state.history);
 	const dispatch = useAppDispatch();
@@ -48,7 +49,8 @@ const PageFooter: FC<{
 	const goToSearch = useCallback(() => {
 		dispatch(goTo("/search"));
 		navigate("/search");
-	}, [navigate, dispatch]);
+		closeFinder && closeFinder(true);
+	}, [navigate, closeFinder, dispatch]);
 	return (
 		<IonFooter>
 			<IonActionSheet
@@ -86,6 +88,7 @@ const PageFooter: FC<{
 					<IonButton {...longPressPrev} id="prevButton" onClick={() => {
 						// Back Button
 						Haptics.impact({ style: ImpactStyle.Light });
+						closeFinder && closeFinder(true);
 						dispatch(goBack());
 						navigate(previous[0]);
 					}} disabled={previous.length === 0}>
@@ -99,6 +102,7 @@ const PageFooter: FC<{
 					<IonButton {...longPressNext} id="nextButton" onClick={() => {
 						// Forward Button
 						Haptics.impact({ style: ImpactStyle.Light });
+						closeFinder && closeFinder(true);
 						dispatch(goForward());
 						navigate(next[0]);
 					}} disabled={next.length === 0}>

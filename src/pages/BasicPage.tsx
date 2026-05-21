@@ -273,8 +273,8 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		setHighlightedText
 	), [markers, highlightedText, setHighlightedText]);
 
-	const openOrCloseFindInPageFunc = useCallback(() => {
-		if(searchBoxOpen) {
+	const openOrCloseFindInPageFunc = useCallback((close: boolean) => {
+		if(close) {
 			onInput(null);
 			setSearchBoxOpen(false);
 		} else {
@@ -287,7 +287,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 					505
 				);
 		}
-	}, [searchBoxOpen, setSearchBoxOpen, onInput, findInPageSearchbarObj]);
+	}, [setSearchBoxOpen, onInput, findInPageSearchbarObj]);
 
 	return (
 		<AnimatePresence>
@@ -295,7 +295,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 			initial={unopaque}
 			animate={opaque}
 			exit={unopaque}
-		><IonPage><FinderContext.Provider value={searchBoxOpen}>
+		><IonPage><FinderContext value={searchBoxOpen}>
 			<PageHeader
 				title={title}
 				findInPage={ (!noFinder && marker) ? openOrCloseFindInPageFunc : undefined }
@@ -373,8 +373,8 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 					{children}
 				</div>
 			</IonContent>
-			<PageFooter />
-		</FinderContext.Provider></IonPage></motion.div>}
+			<PageFooter closeFinder={ (!noFinder && marker) ? openOrCloseFindInPageFunc : undefined } />
+		</FinderContext></IonPage></motion.div>}
 		</AnimatePresence>
 	);
 };
