@@ -12,6 +12,8 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 				<p>This app uses trademarks and/or copyrights owned by Paizo Inc., used under <a href="https://paizo.com/communityuse">Paizo's Community Use Policy (paizo.com/communityuse)</a>. We are expressly prohibited from charging you to use or access this content. <em>Pf Data 1e</em> is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit <a href="https://paizo.com/">paizo.com</a>.</p>
 				<p>The game rules herein are covered by the <Link to="/main/ogc">Open Game License</Link>.</p>
 			</IonLabel></IonItem>
+			<IonItemDivider><IonLabel>App Info</IonLabel></IonItemDivider>
+			<IonItem><IonLabel><p>v.0.12.0</p></IonLabel></IonItem>
 			<IonItemDivider><IonLabel>Bug Reports</IonLabel></IonItemDivider>
 			<IonItem><IonLabel>
 				<p>If you run into any issues or find any bad information, please report it to the <a href="https://github.com/jasontankapps/pathfinder-data-1-e/issues">Github</a>.</p>
@@ -114,8 +116,6 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 			<IonItem><IonLabel>
 				<p>The font is <a href="https://fonts.google.com/specimen/Taviraj">Taviraj</a> by <a href="https://fonts.google.com/?query=Cadson%20Demak">Cadson Demak</a>, with some symbols being rendered as <a href="https://www.onlinewebfonts.com/download/bd95c919d5566390c0565bea43f95495">Symbola</a> by George Douros.</p>
 			</IonLabel></IonItem>
-			<IonItemDivider><IonLabel>App Info</IonLabel></IonItemDivider>
-			<IonItem><IonLabel><p>v.0.12.0</p></IonLabel></IonItem>
 		</IonList>
 	</div>
 );
