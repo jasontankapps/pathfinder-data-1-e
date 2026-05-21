@@ -1389,7 +1389,7 @@ const _sohei = {title: "Sohei", jsx: <><h2 id="arc-monk-sohei-sohei">Sohei</h2>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Swift Action">A sohei may spend 1 point from his <em>ki pool</em> to grant any weapon he wields (including his unarmed strike) an enhancement bonus on attack and damage rolls until the end of his next turn. This bonus is equal to <Link to="/misc/one_fourth">one-fourth</Link> of his monk level.</Pair>
 </Ability>
-<Ability id="arc-monk-sohei-weapon-training-ex" icon={["stairs-goal"]}>
+<Ability id="arc-monk-sohei-weapon-training-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-monk-sohei-weapon-training-ex">Weapon Training (Ex)</Pair>
 <Pair hl title="Replaces">Purity of body, diamond body, quivering palm, timeless body, tongue of sun and moon</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -1397,6 +1397,12 @@ const _sohei = {title: "Sohei", jsx: <><h2 id="arc-monk-sohei-sohei">Sohei</h2>
 <Pair title="At 12th Level">He may select an additional group of weapons.</Pair>
 <Pair title="At 18th Level">He may select an additional group of weapons.</Pair>
 <Pair title="Special">A sohei may use <em>flurry of blows</em> and <em>ki strike</em> with any weapon in which he has weapon training.</Pair>
+</Ability>
+<Ability id="arc-monk-sohei-weapon-training-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-monk-sohei-weapon-training-ex" flavor="Text from the fighter class ability, with levels adjusted.">Weapon Training (Ex)</Pair>
+<Pair title="At 6th Level">Select one <Link to="/ability/weapon_groups">weapon group</Link>. Whenever you attack with a weapon from this group, you gain a +1 bonus on attack and damage rolls. You also add this bonus to any combat maneuver checks made with weapons from this group. This bonus also applies to your <Link to="/rule/cmd">CMD</Link> when defending against <Link to="/rule/disarm">disarm</Link> and <Link to="/rule/sunder">sunder</Link> attempts made against weapons from this group.</Pair>
+<Pair title="At 12th Level">You select a new weapon group and gain the +1 bonus when using weapons from that group. Your previously selected group's bonus increases to +2.</Pair>
+<Pair title="At 18th Level">You select a new weapon group and gain the +1 bonus when using weapons from that group. Your previously selected groups' bonuses increase to +2 and +3.</Pair>
 </Ability>
 </>};
 const _soul_shepherd = {title: "Soul Shepherd", jsx: <><h2 id="arc-monk-soul_shepherd-soul-shepherd">Soul Shepherd</h2>

@@ -381,11 +381,18 @@ const _disciple_of_the_pike = {title: "Disciple of the Pike", jsx: <><h2 id="arc
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A disciple of the pike has an uncanny ability to identify monsters. He can attempt Knowledge checks untrained to identify monsters and their weaknesses, and gains a bonus equal to <Link to="/misc/half">half</Link> of his cavalier level on Knowledge checks to identify monsters.</Pair>
 </Ability>
-<Ability id="arc-cavalier-disciple_of_the_pike-weapon-training-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="arc-cavalier-disciple_of_the_pike-weapon-training-ex" extraClasses="hasSubs" icon={["stairs-goal","upgrade"]}>
 <Pair single id="arc-cavalier-disciple_of_the_pike-weapon-training-ex">Weapon Training (Ex)</Pair>
 <Pair hl title="Replaces">Banner, greater banner</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A disciple of the pike gains weapon training, just like a <Link to="/class/fighter">fighter</Link>. He must select polearms or spears as his weapon group, and never gains another weapon group. His bonuses with the selected group otherwise progress as though his fighter level were equal to his cavalier level.</Pair>
+</Ability>
+<Ability id="arc-cavalier-disciple_of_the_pike-weapon-training-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-cavalier-disciple_of_the_pike-weapon-training-ex" flavor="Text from the fighter class ability.">Weapon Training (Ex)</Pair>
+<Pair title="At 5th Level">Select one <Link to="/ability/weapon_groups">weapon group</Link>. Whenever you attack with a weapon from this group, you gain a +1 bonus on attack and damage rolls. You also add this bonus to any combat maneuver checks made with weapons from this group. This bonus also applies to your <Link to="/rule/cmd">CMD</Link> when defending against <Link to="/rule/disarm">disarm</Link> and <Link to="/rule/sunder">sunder</Link> attempts made against weapons from this group.</Pair>
+<Pair title="At 9th Level">Your previously selected group's bonus increases to +2.</Pair>
+<Pair title="At 13th Level">Your previously selected group's bonus increases to +3.</Pair>
+<Pair title="At 17th Level">Your previously selected group's bonus increases to +4.</Pair>
 </Ability>
 <Ability id="arc-cavalier-disciple_of_the_pike-agile-charger-ex" icon={["upgrade"]}>
 <Pair single id="arc-cavalier-disciple_of_the_pike-agile-charger-ex">Agile Charger (Ex)</Pair>

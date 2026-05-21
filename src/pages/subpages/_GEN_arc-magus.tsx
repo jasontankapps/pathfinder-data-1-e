@@ -21,13 +21,17 @@ const _armored_battlemage = {title: "Armored Battlemage", jsx: <><h2 id="arc-mag
 <Pair title="At 17th Level">The enhancement bonus increases to +5.</Pair>
 <Pair title="Special">These bonuses stack with existing armor enhancement bonuses to a maximum of +5. If the armor is not magical, at least a +1 enhancement bonus must be added before any other special abilities can be added. These bonuses and special abilities are decided when the <em>arcane pool</em> point is spent and cannot be changed until the next time the armored battlemage uses this ability. These bonuses do not function if the armor is worn by anyone other than the magus. Multiple uses of this ability do not stack with themselves. An armored battlemage can enhance only one suit of armor in this way at one time. If he uses this ability again, the first use immediately ends.</Pair>
 </Ability>
-<Ability id="arc-magus-armored_battlemage-armor-training-ex" icon={["stairs-goal"]}>
+<Ability id="arc-magus-armored_battlemage-armor-training-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-magus-armored_battlemage-armor-training-ex">Armor Training (Ex)</Pair>
 <Pair hl title="Replaces">Magus arcana gained at 3rd and 18th levels, improved spell combat</Pair>
-<Pair title="At 3rd Level">An armored battlemage gains <em>armor training,</em> as per the <Link to="/class/fighter">fighter</Link> ability.</Pair>
-<Pair title="At 8th Level">He gains <em>armor training 2.</em></Pair>
-<Pair title="At 13th Level">He gains <em>armor training 3.</em></Pair>
-<Pair title="At 18th Level">He gains <em>armor training 4.</em></Pair>
+<Pair title="At 3rd Level">An armored battlemage gains <em>armor training,</em> as per the <Link to="/class/fighter">fighter</Link> ability, although some of its benefits are delayed (see below).</Pair>
+</Ability>
+<Ability id="arc-magus-armored_battlemage-armor-training-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-magus-armored_battlemage-armor-training-ex" flavor="Text from the fighter class ability, with levels adjusted.">Armor Training (Ex)</Pair>
+<Pair title="At 3rd Level">Whenever you wear armor, you reduce the armor check penalty by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by the armor by 1. You can also move at your normal speed while wearing medium armor.</Pair>
+<Pair title="At 8th Level">The penalty is now reduced by 2 (minimum 0) and the maximum Dex bonus is now increased by +2. You can also move at your normal speed while wearing heavy armor.</Pair>
+<Pair title="At 13th Level">The penalty is now reduced by 3 (minimum 0) and the maximum Dex bonus is now increased by +3.</Pair>
+<Pair title="At 18th Level">The penalty is now reduced by 4 (minimum 0) and the maximum Dex bonus is now increased by +4.</Pair>
 </Ability>
 <Ability id="arc-magus-armored_battlemage-heavy-armor-ex" icon={["stairs-goal"]}>
 <Pair single id="arc-magus-armored_battlemage-heavy-armor-ex">Heavy Armor (Ex)</Pair>
@@ -923,11 +927,18 @@ const _myrmidarch = {title: "Myrmidarch", jsx: <><h2 id="arc-magus-myrmidarch-my
 <Pair title="Ability">A myrmidarch can use <em>spellstrike</em> to cast a single-target touch attack ranged spell and deliver it through a ranged weapon attack. Even if the spell can normally affect multiple targets, only a single missile, ray, or effect accompanies the attack.</Pair>
 <Pair title="At 11th Level">A myrmidarch can spend a <strong className="hl">full-round action</strong> to cast a spell that includes multiple ranged touch attacks and deliver more than one using ranged attacks. The spell must have a casting time of 1 full-round action or less. This functions similarly to the base ability of <em>ranged spellstrike,</em> but the myrmidarch can deliver a number of missiles, rays, or effect up to the number of attacks he could make with a full attack. Attacks beyond the first take penalties as if the myrmidarch were making a full attack. Any effects not used in the round the spell is cast are lost, as are any additional ranged touch attacks the spell would allow beyond the myrmidarch's maximum number of attacks.</Pair>
 </Ability>
-<Ability id="arc-magus-myrmidarch-weapon-training-ex" icon={["stairs-goal","upgrade"]}>
+<Ability id="arc-magus-myrmidarch-weapon-training-ex" extraClasses="hasSubs" icon={["stairs-goal","upgrade"]}>
 <Pair single id="arc-magus-myrmidarch-weapon-training-ex">Weapon Training (Ex)</Pair>
 <Pair hl title="Replaces">Magus arcana gained at 6th, 12th, and 18th levels</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">A myrmidarch gains <em>weapon training,</em> as the <Link to="/class/fighter">fighter</Link> ability, adding an additional weapon group every six levels after 6th (to a maximum of three groups at 18th level) and increasing the bonus on attack and damage rolls for weapon groups already chosen by +1.</Pair>
+</Ability>
+<Ability id="arc-magus-myrmidarch-weapon-training-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-magus-myrmidarch-weapon-training-ex" flavor="Text from the fighter class ability, with levels adjusted.">Weapon Training (Ex)</Pair>
+<Pair title="At 6th Level">Select one <Link to="/ability/weapon_groups">weapon group</Link>. Whenever you attack with a weapon from this group, you gain a +1 bonus on attack and damage rolls. You also add this bonus to any combat maneuver checks made with weapons from this group. This bonus also applies to your <Link to="/rule/cmd">CMD</Link> when defending against <Link to="/rule/disarm">disarm</Link> and <Link to="/rule/sunder">sunder</Link> attempts made against weapons from this group.</Pair>
+<Pair title="At 12th Level">You select a new weapon group and gain the +1 bonus when using weapons from that group. Your previously selected group's bonus increases to +2.</Pair>
+<Pair title="At 18th Level">You select a new weapon group and gain the +1 bonus when using weapons from that group. Your previously selected groups' bonuses increase to +2 and +3.</Pair>
+<Pair title="Special">Bonuses granted from overlapping groups do not stack. Take the highest bonus granted for a weapon if it resides in two or more groups.</Pair>
 </Ability>
 <Ability id="arc-magus-myrmidarch-fighter-training-ex" icon={["stairs-goal","upgrade"]}>
 <Pair single id="arc-magus-myrmidarch-fighter-training-ex">Fighter Training (Ex)</Pair>
@@ -936,12 +947,16 @@ const _myrmidarch = {title: "Myrmidarch", jsx: <><h2 id="arc-magus-myrmidarch-my
 <Pair title="Passive Ability">A myrmidarch counts his magus level - 3 as his fighter level for the purpose of qualifying for feats (if he has levels in fighter, these levels stack).</Pair>
 <Pair title="At 10th Level">The myrmidarch treats his magus levels as fighter levels for the purposes of <em>fighter training.</em></Pair>
 </Ability>
-<Ability id="arc-magus-myrmidarch-armor-training-ex" icon={["armor-upgrade"]}>
+<Ability id="arc-magus-myrmidarch-armor-training-ex" extraClasses="hasSubs" icon={["armor-upgrade"]}>
 <Pair single id="arc-magus-myrmidarch-armor-training-ex">Armor Training (Ex)</Pair>
 <Pair hl title="Replaces">Improved spell combat, greater spell combat</Pair>
 <Pair title="Gained">At 8th Level</Pair>
-<Pair title="Ability">A myrmidarch gains <em>armor training,</em> as the fighter ability.</Pair>
-<Pair title="At 14th Level">He gains <em>armor training 2.</em></Pair>
+<Pair title="Ability">A myrmidarch gains <em>armor training,</em> as the fighter ability, but he only receives the first two benefits, and at a slower rate (see below).</Pair>
+</Ability>
+<Ability id="arc-magus-myrmidarch-armor-training-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-magus-myrmidarch-armor-training-ex" flavor="Text from the fighter class ability, with levels adjusted.">Armor Training (Ex)</Pair>
+<Pair title="At 8th Level">Whenever you wear armor, you reduce the armor check penalty by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by the armor by 1. You can also move at your normal speed while wearing medium armor.</Pair>
+<Pair title="At 14th Level">The penalty is now reduced by 2 (minimum 0) and the maximum Dex bonus is now increased by +2. You can also move at your normal speed while wearing heavy armor.</Pair>
 </Ability>
 <Ability id="arc-magus-myrmidarch-armor-mastery-ex" icon={["armor-upgrade"]}>
 <Pair single id="arc-magus-myrmidarch-armor-mastery-ex">Armor Mastery (Ex)</Pair>
