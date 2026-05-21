@@ -1,3 +1,0 @@
-import Link from '../../components/Link';
-const References: React.FC = () => <><h3>Artifact</h3><div className="columnar"><ul><li><Link key="/magic-artifact/sword_of_lust_asheia" to="/magic-artifact/sword_of_lust_asheia">Sword of Lust, Asheia</Link></li></ul></div><h3>Creature Template</h3><div className="columnar"><ul><li><Link key="/template/granule_construct_host" to="/template/granule_construct_host">Granule Construct Host</Link></li></ul></div></>;
-export default References;

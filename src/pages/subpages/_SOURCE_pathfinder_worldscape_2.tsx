@@ -1,3 +1,0 @@
-import Link from '../../components/Link';
-const References: React.FC = () => <><h3>Race</h3><div className="columnar"><ul><li><Link key="/race/green_martian" to="/race/green_martian">Green Martian</Link></li></ul></div><h3>Rules (Basic)</h3><div className="columnar"><ul><li><Link key="/rule/rare_races" to="/rule/rare_races">Rare Races</Link></li></ul></div><h3>Weapon</h3><div className="columnar"><ul><li><Link key="/eq-weapon/radium_pistol" to="/eq-weapon/radium_pistol">Radium pistol</Link></li><li><Link key="/eq-weapon/radium_rifle" to="/eq-weapon/radium_rifle">Radium rifle</Link></li><li><Link key="/eq-weapon/thark_rifle" to="/eq-weapon/thark_rifle">Thark rifle</Link></li></ul></div></>;
-export default References;

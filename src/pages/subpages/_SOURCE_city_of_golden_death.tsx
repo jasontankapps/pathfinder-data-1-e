@@ -1,3 +1,0 @@
-import Link from '../../components/Link';
-const References: React.FC = () => <><h3>Artifact</h3><div className="columnar"><ul><li><Link key="/magic-artifact/the_jewel_of_everlasting_gold" to="/magic-artifact/the_jewel_of_everlasting_gold">The Jewel of Everlasting Gold</Link></li></ul></div><h3>Creature Template</h3><div className="columnar"><ul><li><Link key="/template/terror_creature" to="/template/terror_creature">Terror Creature</Link></li></ul></div><h3>Monster</h3><div className="columnar"><ul><li><Link key="/monster/golden_guardian" to="/monster/golden_guardian">Golden Guardian</Link></li></ul></div></>;
-export default References;

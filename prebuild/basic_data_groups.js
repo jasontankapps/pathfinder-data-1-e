@@ -6,7 +6,7 @@
 //
 //
 
-import sources from '../src/json/sources.json' with {type: 'json'};
+import sources from '../json/sources.json' with {type: 'json'};
 
 import archetypealchemist from '../json/archetypes_alchemist.json' with {type: 'json'};
 import archetypealchemist2 from '../json/archetypes_alchemist2.json' with {type: 'json'};

@@ -1,3 +1,0 @@
-import Link from '../../components/Link';
-const References: React.FC = () => <><h3>Armor</h3><div className="columnar"><ul><li><Link key="/eq-armor/rosewood_armor" to="/eq-armor/rosewood_armor">Rosewood armor</Link></li></ul></div><h3>Monster</h3><div className="columnar"><ul><li><Link key="/monster/drake_flame_drake" to="/monster/drake_flame_drake">Flame Drake</Link></li></ul></div><h3>Spell</h3><div className="columnar"><ul><li><Link key="/spell/thorn_snare" to="/spell/thorn_snare">Thorn Snare</Link></li></ul></div><h3>Weapon</h3><div className="columnar"><ul><li><Link key="/eq-weapon/thorn_bow" to="/eq-weapon/thorn_bow">Thorn bow</Link></li></ul></div></>;
-export default References;

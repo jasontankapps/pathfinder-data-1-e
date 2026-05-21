@@ -1,52 +1,72 @@
+import axios from 'axios';
+import { useState, FC, useEffect } from 'react';
 import { useParams } from 'wouter';
-import sources from '../json/sources.json';
-import sourceRefMap from './subpages/_GEN_sources';
+import Link from '../components/Link';
+import Sources from './subpages/_GEN_sourceIndex';
+import ErrorPage from './ErrorPage';
 import BasicPage from './BasicPage';
+import Loading from '../Loading';
 import './css/Page.css';
 
-export interface SourceProps {
+type Pairing = [string, string];
+type Pairings = Pairing[];
+type Displayable = [string, ...Pairings];
+type Sortables = Pairing | Displayable;
+interface Protocol {
+	[key: string]: Pairings
+}
+interface Group {
+	[key: string]: Protocol
+}
+interface Data {
 	title: string
 	url: string
-	unknown?: boolean
+	data: Group
 }
-interface CopyOf<T> extends Partial<SourceProps> {
-	copyof?: T
+interface Source {
+	[key: string]: Data
 }
 
-function getItem<T extends { not_found: SourceProps }> (id: keyof T | undefined, json: T): SourceProps {
-	let data = (json[id || "not_found"] || json.not_found) as CopyOf<keyof T>;
-	while(data.copyof) {
-		const { copyof, ...etc } = data;
-		data = {...((json[copyof || "not_found"] || json.not_found) as CopyOf<keyof T>), ...etc};
-	}
-	return data as SourceProps;
+type Params = { id: string };
+
+const $empty = {};
+
+const DisplayInfo: FC<{display: Displayable, id: string}> = ({display, id}) => {
+	const [title, ...info] = display;
+	return (
+		<>
+			<h3>{title}</h3>
+			<div className="columnar">
+				<ul>
+					{info.map(pair => {
+						const [item, url] = pair;
+						return <li key={`${id}-${url}`}><Link to={url}>{item}</Link></li>;
+					})}
+				</ul>
+			</div>
+		</>
+	);
 };
 
-type Data = typeof sources;
+const sortPairings = (a: Sortables, b: Sortables) =>  a[0].localeCompare(b[0]);
 
-type Params = { id?: keyof Data };
-
-type SourceMap = keyof typeof sourceRefMap;
-
-const SourcePage: React.FC = () => {
-
-	const { id } = useParams<Params>();
-
-	const { title, url, unknown } = getItem<Data>(id, sources);
-
-	if(unknown) {
-		return (
-			<BasicPage title={title} pageId={"/source/" + id}>
-				<>
-					<h2>Unknown</h2>
-					<p>Unable to find the requested source.</p>
-				</>
-			</BasicPage>
-		);
-	}
-
-	const References = sourceRefMap[id as SourceMap] || <></>;
-
+const DataParsed: FC<{group: Data, id: string}> = ({group, id}) => {
+	const {title, url, data} = group;
+	const info: [string, ...Pairings][] = [];
+	Object.entries(data).forEach(pair => {
+		const [category, object] = pair;
+		const pairings: Pairings = [];
+		Object.entries(object).forEach(pair => {
+			const [protocol, items] = pair;
+			items.forEach(pair => {
+				const [title, prop] = pair;
+				pairings.push([title, `/${protocol}/${prop}`]);
+			});
+		});
+		pairings.sort(sortPairings);
+		info.push([category, ...pairings]);
+	});
+	info.sort(sortPairings);
 	return (
 		<BasicPage title={title} pageId={"/source/" + id}>
 			<>
@@ -54,9 +74,43 @@ const SourcePage: React.FC = () => {
 				<blockquote><em>{title}</em><br /><a href={url}>{url}</a></blockquote>
 				<hr/>
 				<p className="diminishNextHeader"><strong className="hl">Entries That Reference This Source:</strong></p>
-				{References}
+				{
+					info.map(
+						(listing, i) =>
+							<DisplayInfo
+								display={listing}
+								id={`${id}-${i}`}
+								key={`${id}-displayblock-${i}`}
+							/>
+					)
+				}
 			</>
 		</BasicPage>
+	);
+};
+
+const SourcePage: FC = () => {
+	const [group, setGroup] = useState<Source>($empty);
+	const [lastSource, setLastSource] = useState("");
+	const { id } = useParams<Params>();
+	const index = Sources[id];
+	useEffect(() => {
+		setGroup($empty);
+		axios.get(`/_SOURCE_group${index}.json`).then(res => {
+			const grouping = res.data;
+			setGroup(grouping);
+			setLastSource(id);
+		});
+	}, [id, index, setGroup, setLastSource]);
+	return group === $empty ? (
+		id === lastSource ? (
+			<ErrorPage />
+		) : (
+			<Loading text="Finding sources..." />
+		)
+	) : ( group[id] ?
+		<DataParsed group={group[id]} id={id} />
+		: <ErrorPage />
 	);
 };
 

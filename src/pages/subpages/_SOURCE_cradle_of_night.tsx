@@ -1,3 +1,0 @@
-import Link from '../../components/Link';
-const References: React.FC = () => <><h3>Artifact</h3><div className="columnar"><ul><li><Link key="/magic-artifact/cradle_of_night" to="/magic-artifact/cradle_of_night">Cradle of Night</Link></li></ul></div><h3>Monster</h3><div className="columnar"><ul><li><Link key="/monster/dark_folk_dark_champion" to="/monster/dark_folk_dark_champion">Dark Champion (Dark Folk)</Link></li><li><Link key="/monster/nimbral_child" to="/monster/nimbral_child">Nimbral Child</Link></li><li><Link key="/monster/owb_owb_prophet" to="/monster/owb_owb_prophet">Owb Prophet</Link></li></ul></div></>;
-export default References;

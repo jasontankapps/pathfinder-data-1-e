@@ -1,3 +1,0 @@
-import Link from '../../components/Link';
-const References: React.FC = () => <><h3>Cleric Domain</h3><div className="columnar"><ul><li><Link key="/domain/death" to="/domain/death">Death</Link></li><li><Link key="/domain/repose" to="/domain/repose">Repose</Link></li><li><Link key="/domain/scalykind" to="/domain/scalykind">Scalykind</Link></li><li><Link key="/domain/void" to="/domain/void">Void</Link></li></ul></div></>;
-export default References;

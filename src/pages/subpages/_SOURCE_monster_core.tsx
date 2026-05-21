@@ -1,3 +1,0 @@
-import Link from '../../components/Link';
-const References: React.FC = () => <><h3>Monster Family</h3><div className="columnar"><ul><li><Link key="/family/alghollthu" to="/family/alghollthu">Alghollthu</Link></li><li><Link key="/family/dark_folk" to="/family/dark_folk">Dark Folk</Link></li><li><Link key="/family/dinosaur" to="/family/dinosaur">Dinosaur</Link></li><li><Link key="/family/drake" to="/family/drake">Drake</Link></li><li><Link key="/family/genie" to="/family/genie">Genie</Link></li><li><Link key="/family/naga" to="/family/naga">Naga</Link></li><li><Link key="/family/troll" to="/family/troll">Troll</Link></li></ul></div></>;
-export default References;

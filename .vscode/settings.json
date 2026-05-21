@@ -5,17 +5,9 @@
 	"json.schemas": [
 		{
 			"fileMatch": [
-				"/json/*.json",
-				"!src/json/*.json"
+				"/json/*.json"
 			],
 			"url": "./schema.json"
-		},
-		{
-			"fileMatch": [
-				"/src/json/*.json",
-				"!/src/json/_*.json"
-			],
-			"url": "./schemaSources.json"
 		}
 	]
 }

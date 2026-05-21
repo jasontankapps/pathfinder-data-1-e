@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 import fs from 'fs';
 import capitalize from 'capitalize';
+import sizeof from 'object-sizeof';
 
 import basic_data_groups from './prebuild/basic_data_groups.js';
 import { convertTextToLink } from './prebuild/tests/checkForEncodedLink.js';
+import sourcesJson from './json/sources.json' with {type: 'json'};
 
 const SEARCHGROUPS = [
 	"class", // 1
@@ -211,11 +213,12 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 			$dataIndex.push(obj);
 			sources && sources.forEach(source => {
 				const s = convertTextToLink(source);
-				if(!$sources[s]) {
-					$sources[s] = [];
+				if(!$sources[source]) {
+					$sources[source] = [];
 				}
 				const {t,p} = obj;
-				$sources[s].push([t,p,prop,named]);
+				// Save: type of info, link prefix, info property name, search group name
+				$sources[source].push([t,p,prop,named]);
 			});
 		}
 		// Save for other functions to find a page name quickly
@@ -243,39 +246,75 @@ const $allSourcesMap = [
 const $allSourcesElements = [
 	"import {lazy} from 'react';\n"
 ];
-Object.entries($sources).forEach(([prop, value]) => {
-	const transformedProp = convertTextToLink(prop);
-	const transformedElement =
-		"Source"
-		+ transformedProp.slice(0,1).toUpperCase()
-		+ transformedProp.slice(1).replace(/_([a-z])/g, (x, m) => (m || "").toUpperCase()).replace(/_/g, "");
-	const baseurl = `_SOURCE_${transformedProp}`;
-	const url = `./src/pages/subpages/${baseurl}.tsx`;
-	$allSourcesElements.push(`const ${transformedElement} = lazy(() => import("./${baseurl}"));\n`);
-	$allSourcesMap.push(`${transformedProp}: <${transformedElement} />,`);
+const sourceData = [];
+Object.entries($sources).forEach(([sourceTitle, value]) => {
+	// Make a property/variable name
+	const transformedProp = convertTextToLink(sourceTitle);
+	// Analyze the data saved in $sources
 	const data = {};
-	const types = [];
-	const output = [];
 	value.forEach(page => {
 		const [typeNumber, prefixNumber, prop, title] = page;
+		// Determine the category
 		const type = $allTypes[typeNumber];
-		const link = `${$allPrefixes[prefixNumber]}/${prop}`;
+		// Save this info
 		if(data[type]) {
-			data[type].push([title, link]);
+			const pref = $allPrefixes[prefixNumber];
+			if(data[type][pref]) {
+				data[type][pref].push([title, prop]);
+			} else {
+				data[type][pref] = [[title, prop]];
+			}
 		} else {
-			types.push(type);
-			data[type] = [[title, link]];
+			data[type] = { [$allPrefixes[prefixNumber]]: [[title, prop]] };
 		}
 	});
-	types.sort().forEach(t => {
-		output.push(`<h3>${t}</h3><div className="columnar"><ul>`);
-		data[t].sort((a, b) => a[0].localeCompare(b[0])).forEach(pair => {
-			const [title, link] = pair;
-			output.push(`<li><Link key="/${link}" to="/${link}">${title}</Link></li>`);
-		});
-		output.push(`</ul></div>`);
+	sourceData.push([
+		sizeof(data),
+		transformedProp,
+		data
+	]);
+});
+$allSourcesMap.push(`};\nexport default output;`);
+
+// Sort the source data into <200k chunks
+const organizingSourceData = [ [0] ];
+sourceData.forEach(bit => {
+	let n = 0;
+	let l = organizingSourceData.length;
+	let flag = true;
+	const [ size, prop, data ] = bit;
+	while(flag) {
+		const [nn, ...rest] = organizingSourceData[n];
+		if((nn + size) <= 200000) {
+			// Save new size and add new data
+			organizingSourceData[n] = [nn + size, ...rest, [prop, data]];
+			// Go to next
+			flag = false;
+		} else {
+			// Increment
+			++n;
+			if(n === l) {
+				// Add a new group
+				organizingSourceData.push([size, [prop, data]]);
+				// Go to next
+				flag = false;
+			}
+		}
+	}
+});
+const finalSourceData = {};
+organizingSourceData.map(([size, ...rest]) => rest).map((group, i) => {
+	const ind = i + 1;
+	const obj = {};
+	group.forEach(pair => {
+		const [prop, data] = pair;
+		obj[prop] = {data, ...sourcesJson[prop]};
+		finalSourceData[prop] = ind;
 	});
-	const file = `import Link from '../../components/Link';\nconst References: React.FC = () => <>${output.join("")}</>;\nexport default References;`;
+	// Create the file's text
+	const file = JSON.stringify(obj);
+	// Save file
+	const url = `./public/_SOURCE_group${ind}.json`;
 	if(get(url).trim() === file) {
 		announce(`UNCHANGED ${url}`);
 		$counter++;
@@ -286,7 +325,22 @@ Object.entries($sources).forEach(([prop, value]) => {
 		$counter++;
 	}
 });
-$allSourcesMap.push(`};\nexport default output;`)
+const sourceKeyFile = `export type Index = ${
+	organizingSourceData.map((x, i) => i + 1).join(" | ")
+};\nconst Sources: { [key: string]: Index } = ${
+	JSON.stringify(finalSourceData)
+}\nexport default Sources;\n`;
+let url = `./src/pages/subpages/_GEN_sourceIndex.tsx`;
+if(get(url).trim() === sourceKeyFile.trim()) {
+	announce(`UNCHANGED ${url}`);
+	$counter++;
+} else {
+	fs.writeFileSync(url, sourceKeyFile);
+	announce(`Saved ${url}`, 1);
+	$changed++;
+	$counter++;
+}
+
 
 const $allLinks = {};
 const $featLinks = {};
@@ -344,10 +398,6 @@ const $data_pairs = [
 		`import {Gen} from "../types";\nconst links: Gen<string, string> = ${
 			JSON.stringify($redirects)
 		};\nexport default links;`
-	],
-	[
-		'./src/pages/subpages/_GEN_sources.tsx',
-		$allSourcesElements.concat($allSourcesMap).join("")
 	],
 	[
 		'./public/_GEN_fuse-translated_data.json',

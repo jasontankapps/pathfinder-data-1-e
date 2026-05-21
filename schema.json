@@ -212,6 +212,24 @@
 			},
 			"required": [ "light", "dark" ],
 			"unevaluatedProperties": false
+		},
+		{
+			"$comment": "This is for sources.json",
+			"type": "object",
+			"patternProperties": {
+				"^[a-z_][a-z0-9_]*$": {
+					"type": "object",
+					"properties": {
+						"title": { "type": "string" },
+						"url": {
+							"type": "string",
+							"pattern": "^https?://[a-z.]+/[^\" ]*$",
+							"$comment": "THIS IS NOT A GOOD URL VALIDATION REGEXP, it's just good enough for this project."
+						}
+					}
+				}
+			},
+			"unevaluatedProperties": false
 		}
 	],
 	"$defs": {
