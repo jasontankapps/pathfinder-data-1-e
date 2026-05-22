@@ -1,10 +1,23 @@
 import Link from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
+import ByLevelPop from '../../components/ByLevelPop';
 const _animist = {title: "Animist", jsx: <><h2 id="arc-shaman-animist-animist">Animist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 110</Link><br/>Even among mystical practitioners, the animist has a strange perspective and even stranger magic. The animist perceives that all things have a spirit, including objects, constructs, illnesses, buildings, and the environment.</p>
-<p><strong>Animist Spirit Magic:</strong> The animist adds the following spells to the list of spells he can cast using spirit magic: <Link to="/spell/speak_with_animals">speak with animals</Link> (1st), <Link to="/spell/skinsend">skinsend</Link> (2nd), <Link to="/spell/speak_with_plants">speak with plants</Link> (3rd), <Link to="/spell/malfunction">malfunction</Link> (4th), <Link to="/spell/dream">dream</Link> (5th), <Link to="/spell/stone_tell">stone tell</Link> (6th), <Link to="/spell/control_construct">control construct</Link> (7th), <Link to="/spell/trap_the_soul">trap the soul</Link> (8th), <Link to="/spell/soul_bind">soul bind</Link> (9th).</p>
-<p>This ability replaces the <strong className="hl">spirit magic spells</strong> gained from the shaman's spirit.</p>
+<Ability id="arc-shaman-animist-animist-spirit-magic" icon={["spell-book"]}>
+<Pair single id="arc-shaman-animist-animist-spirit-magic">Animist Spirit Magic</Pair>
+<Pair hl title="Replaces">Spirit magic spells gained from the shaman's spirit</Pair>
+<Pair title="Info">The animist adds the following spells to the list of spells he can cast using <em>spirit magic</em> at the given spell levels:</Pair>
+<Pair plain title="1st"><Link to="/spell/speak_with_animals">Speak with animals</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/skinsend">Skinsend</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/speak_with_plants">Speak with plants</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/malfunction">Malfunction</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/dream">Dream</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/stone_tell">Stone tell</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/control_construct">Control construct</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/trap_the_soul">Trap the soul</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/soul_bind">Soul bind</Link></Pair>
+</Ability>
 <Ability id="arc-shaman-animist-wrangle-condition" icon={["heart-plus"]}>
 <Pair single id="arc-shaman-animist-wrangle-condition">Wrangle Condition</Pair>
 <Pair hl title="Replaces">2nd-level hex</Pair>
@@ -25,74 +38,195 @@ const _animist = {title: "Animist", jsx: <><h2 id="arc-shaman-animist-animist">A
 <Pair title="At 17th Level">He can dispatch dire conditions automatically.</Pair>
 <Pair title="Special">Even if he doesn't need to roll, removing a condition still requires one use of this ability per condition.</Pair>
 </Ability>
-<p><strong>Exorcism (Su):</strong> At 8th level, the animist can attempt to end effects that control a creature or object, such as <Link to="/spell/magic_jar">magic jar</Link>, <Link to="/spell/possess_object">possess object</Link>, <Link to="/spell/dominate_person">dominate person</Link>, and <Link to="/spell/dominate_monster">dominate monster</Link>, or possessing entities such as <Link to="/template/ghost">ghosts</Link>. This is a full-round action that requires the animist to touch the target. The possessing or dominating creature must attempt a Will save with a DC equal to 10 + 1/2 the shaman level + her Wisdom modifier. Failure means that the controlling effect ends or the entity is immediately cast out of the target, as appropriate. If the possessing entity is exorcised, it cannot attempt to dominate or possess that target again for 24 hours. The animist can exorcise the same entity out of different targets, but once the entity successfully saves against the animist's exorcism, it cannot be affected by this ability again for 24 hours.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 8th level.</p>
-<p><strong>Dominate Spirit (Sp):</strong> At 10th level, the animist can attempt to possess creatures or objects as <em>magic jar</em> or <em>possess object.</em> When the animist is attempting to possess the creature, his familiar acts as the jar and must be within 10 feet when the animist attempts to possess a creature. The animist's soul can perceive his surroundings through the familiar's senses, clearly evaluate potential targets for possession, and communicate with his familiar telepathically. The familiar retains its autonomy while acting as the jar, and is not harmed by being used as a vessel for the animist's soul. The animist can use this ability once per day at 10th level, plus an additional time per day every 4 levels thereafter.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 10th level.</p>
-<p><strong>Contact with the Spirit World (Su):</strong> At 12th level, the shaman can interact with incorporeal entities as if his unarmed strikes and melee weapons had the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon special ability. While using this ability, he can also see nearby ethereal entities and likewise strike at them as if they were incorporeal. He can use this ability for a number of rounds per day equal to his shaman level. The rounds need not be consecutive.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 12th level.</p>
-<p><strong>Etherealness (Sp):</strong> At 18th level, the animist can cast <Link to="/spell/etherealness">etherealness</Link> once per day as a spell-like ability.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 18th level.</p>
-<p><strong>Spirit Shaman (Sp):</strong> At 20th level, the animist can use <Link to="/spell/ethereal_jaunt">ethereal jaunt</Link> as at will as a spell-like ability, and cast <Link to="/spell/astral_projection">astral projection</Link> once per day as a spell-like ability.</p>
-<p>This ability replaces <strong className="hl">manifestation</strong>.</p>
+<Ability id="arc-shaman-animist-exorcism-su" icon={["shield-reflect"]}>
+<Pair single id="arc-shaman-animist-exorcism-su">Exorcism (Su)</Pair>
+<Pair hl title="Replaces">Hex gained at 8th level</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Full-Round Action">The animist can attempt to end effects that control a creature or object, such as <Link to="/spell/magic_jar">magic jar</Link>, <Link to="/spell/possess_object">possess object</Link>, <Link to="/spell/dominate_person">dominate person</Link>, and <Link to="/spell/dominate_monster">dominate monster</Link>, or possessing entities such as <Link to="/template/ghost">ghosts</Link>. This requires the animist to touch the target. The possessing or dominating creature must attempt a Will save with a DC equal to 10 + 1/2 the shaman level + her Wisdom modifier. Failure means that the controlling effect ends or the entity is immediately cast out of the target, as appropriate.</Pair>
+<Pair title="Special">If the possessing entity is exorcised, it cannot attempt to dominate or possess that target again for 24 hours. The animist can exorcise the same entity out of different targets, but once the entity successfully saves against the animist's exorcism, it cannot be affected by this ability again for 24 hours.</Pair>
+</Ability>
+<Ability id="arc-shaman-animist-dominate-spirit-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-shaman-animist-dominate-spirit-sp">Dominate Spirit (Sp)</Pair>
+<Pair hl title="Replaces">Hex gained at 10th level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four shaman levels beyond 10th<ByLevelPop levels={[[10,1],[14,2],[18,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">The animist can attempt to possess creatures or objects as <em>magic jar</em> or <em>possess object.</em> When the animist is attempting to possess the creature, his familiar acts as the jar and must be within 10 feet when the animist attempts to possess a creature. The animist's soul can perceive his surroundings through the familiar's senses, clearly evaluate potential targets for possession, and communicate with his familiar telepathically. The familiar retains its autonomy while acting as the jar, and is not harmed by being used as a vessel for the animist's soul.</Pair>
+</Ability>
+<Ability id="arc-shaman-animist-contact-with-the-spirit-world-su" icon={["mailed-fist"]}>
+<Pair single id="arc-shaman-animist-contact-with-the-spirit-world-su">Contact with the Spirit World (Su)</Pair>
+<Pair hl title="Replaces">Hex gained at 12th level</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Usage">1 round/day per shaman level; these rounds need not be consecutive</Pair>
+<Pair title="Ability">The shaman can interact with incorporeal entities as if his unarmed strikes and melee weapons had the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon special ability. While using this ability, he can also see nearby ethereal entities and likewise strike at them as if they were incorporeal.</Pair>
+</Ability>
+<Ability id="arc-shaman-animist-etherealness-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-shaman-animist-etherealness-sp">Etherealness (Sp)</Pair>
+<Pair hl title="Replaces">Hex gained at 18th level</Pair>
+<Pair title="Gained">At 18th Level</Pair>
+<Pair title="Ability">The animist can cast <Link to="/spell/etherealness">etherealness</Link> once per day as a spell-like ability.</Pair>
+</Ability>
+<Ability id="arc-shaman-animist-spirit-shaman-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-shaman-animist-spirit-shaman-sp">Spirit Shaman (Sp)</Pair>
+<Pair hl title="Replaces">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">The animist can use <Link to="/spell/ethereal_jaunt">ethereal jaunt</Link> as at will as a spell-like ability, and cast <Link to="/spell/astral_projection">astral projection</Link> once per day as a spell-like ability.</Pair>
+</Ability>
 </>};
 const _benefactor = {title: "Benefactor", jsx: <><h2 id="arc-shaman-benefactor-benefactor">Benefactor</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 26</Link><br/>Though most shamans dole out banes and boons equally, a benefactor seeks to improve the lives of others by primarily offering powerful supportive abilities and magic to her allies and others she deems worthy.</p>
-<p><strong>Benefactor Ethos:</strong> Benefactors cannot cast shaman spells with the curse descriptor; for the benefactor's purpose, they are considered not on the shaman spell list. A benefactor can't use spell completion or spell trigger magic items that use shaman spells with the curse descriptor unless she succeeds at a Use Magic Device check.</p>
-<p>This alters the shaman's <strong className="hl">spellcasting</strong>.</p>
-<p><strong>Benefactor Hexes:</strong> A benefactor adds the following hexes to the list of shaman hexes she can choose from whenever she gains a new hex or a wandering hex. A benefactor cannot gain a hex that is a curse effect or that has the word "curse" in its name as a hex or a wandering hex.</p>
-<p>This ability alters <strong className="hl">hexes</strong>.</p>
-<blockquote>
-<p><em>Boon Reservoir (Su):</em> Once per day, a benefactor can perform a 10-minute ritual with one of her allies, plus one additional ally for every 3 shaman levels she has. All creatures that participate in the ritual (including the benefactor) gain a boon reservoir with a number of points equal to 1/2 the benefactor's shaman level (minimum 1) for 24 hours. As an immediate action, a creature can spend 1 point from its boon reservoir to gain a +2 insight bonus on all saving throws it attempts until the start of its next turn. Boon reservoir points that are not spent within 24 hours are wasted.</p>
-<blockquote>
-<p><em>Expanded Boon (Su):</em> When a benefactor gains this hex, she chooses one of the following: ability checks, attack rolls, or skill checks. Instead of gaining an insight bonus on saving throws, any creature with a boon reservoir granted by the benefactor can spend 1 point as an immediate action to gain a +2 insight bonus on rolls or checks of the chosen kind until the start of its next turn. This hex can be chosen multiple times. Each time, it applies to a different roll or check. A benefactor must have the boon reservoir hex before choosing this hex.</p>
-</blockquote>
-<p><em>Suppress Curse (Sp):</em> As a standard action, a benefactor can attempt to suppress one curse effect that is affecting a creature or object with a touch. This functions as per <Link to="/spell/remove_curse">remove curse</Link>, except the curse's effects are suppressed for 1 hour, even if it is a cursed shield, weapon, or suit of armor. This allows a creature afflicted with any such cursed item to remove or get rid of it. The benefactor uses her shaman level as her caster level for the purpose of this hex.</p>
-</blockquote>
+<Ability id="arc-shaman-benefactor-benefactor-ethos" icon={["broken-shield"]}>
+<Pair single id="arc-shaman-benefactor-benefactor-ethos">Benefactor Ethos</Pair>
+<Pair hl title="Alters">Spellcasting</Pair>
+<Pair title="Info">Benefactors cannot cast shaman spells with the curse descriptor; for the benefactor's purpose, they are considered not on the shaman spell list. A benefactor can't use spell completion or spell trigger magic items that use shaman spells with the curse descriptor unless she succeeds at a Use Magic Device check.</Pair>
+</Ability>
+<Ability id="arc-shaman-benefactor-benefactor-hexes" extraClasses="hasSubs" icon={["magic-swirl","broken-shield"]}>
+<Pair single id="arc-shaman-benefactor-benefactor-hexes">Benefactor Hexes</Pair>
+<Pair hl title="Alters">Hexes</Pair>
+<Pair title="Ability">A benefactor adds the following hexes to the list of shaman hexes she can choose from whenever she gains a new <em>hex</em> or a <em>wandering hex.</em> A benefactor cannot gain a <em>hex</em> that is a curse effect or that has the word "curse" in its name as a <em>hex</em> or a <em>wandering hex.</em></Pair>
+</Ability>
+<Ability id="arc-shaman-benefactor-boon-reservoir-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-shaman-benefactor-boon-reservoir-su">Boon Reservoir (Su)</Pair>
+<Pair title="Ability">Once per day, a benefactor can perform a 10-minute ritual with one of her allies, plus one additional ally for every 3 shaman levels she has. All creatures that participate in the ritual (including the benefactor) gain a boon reservoir with a number of points equal to 1/2 the benefactor's shaman level (minimum 1) for 24 hours.</Pair>
+<Pair title="Immediate Action">A creature can spend 1 point from its boon reservoir to gain a +2 insight bonus on all saving throws it attempts until the start of its next turn.</Pair>
+<Pair title="Special">Boon reservoir points that are not spent within 24 hours are wasted.</Pair>
+</Ability>
+<Ability id="arc-shaman-benefactor-expanded-boon-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-shaman-benefactor-expanded-boon-su">Expanded Boon (Su)</Pair>
+<Pair title="Prerequisites"><em>Boon reservoir</em> hex</Pair>
+<Pair title="Choice">When a benefactor gains this hex, she chooses one of the following: ability checks, attack rolls, or skill checks. Instead of gaining an insight bonus on saving throws, any creature with a boon reservoir granted by the benefactor can spend 1 point as an <strong className="hl">immediate action</strong> to gain a +2 insight bonus on rolls or checks of the chosen kind until the start of its next turn.</Pair>
+<Pair title="Special">This hex can be chosen multiple times. Each time, it applies to a different roll or check.</Pair>
+</Ability>
+<Ability id="arc-shaman-benefactor-suppress-curse-sp" extraClasses="subAbility" icon={["heart-plus"]}>
+<Pair single id="arc-shaman-benefactor-suppress-curse-sp">Suppress Curse (Sp)</Pair>
+<Pair title="Standard Action">A benefactor can attempt to suppress one curse effect that is affecting a creature or object with a touch. This functions as per <Link to="/spell/remove_curse">remove curse</Link>, except the curse's effects are suppressed for 1 hour, even if it is a cursed shield, weapon, or suit of armor. This allows a creature afflicted with any such cursed item to remove or get rid of it.</Pair>
+<Pair title="Special">The benefactor uses her shaman level as her caster level for the purpose of this hex.</Pair>
+</Ability>
 </>};
 const _crystal_tender = {title: "Crystal Tender", jsx: <><h2 id="arc-shaman-crystal_tender-crystal-tender">Crystal Tender</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 22</Link><br/>Crystal tenders are most often found among subterranean races and races bearing a strong connection to the earth. A crystal tender focuses on the spirits of metal and stone, using crystals as a means to focus the power of the spirits she venerates. Many crystal tenders take it upon themselves to guard rich gem veins and other mineral treasures from those who would mine them out of greed, much in the way that surface-dwelling druids might defend a sacred grove from woodcutters.</p>
 <p>The crystal tenders of Orv meditate within the Crystal Womb, often near the churning vortex that makes up the heart of the Vault. They learn to focus the cavern's energies through ley lines in the stone, and they study the birth of crystals within the Womb in order to mimic the process.</p>
-<p><strong>Scion of the Stones (Ex):</strong> A crystal tender forms a mystic connection with the precious stones and gems she has sworn to protect. Her spirit animal always appears to be composed of a crystalline substance and gains a +2 bonus to its natural armor. Her spirit animal is treated as an outsider with both the earth and native subtypes, and counts as a crystalline creature for the purposes of spells and abilities. The unique nature of her spirit animal increases the cost of replacing it to 750 gp per shaman level.</p>
-<p>This alters <strong className="hl">spirit animal</strong>.</p>
-<p><strong>Reciprocal Resonance (Su):</strong> At 4th level, a crystal tender learns to form a temporary bond with a spirit of crystal. When selecting her wandering spirit, she can forgo gaining a spirit ability to instead grant herself and her spirit animal DR 1/adamantine as long as they're within 10 feet of one another. While benefiting from this ability, the crystal tender's skin takes on a crystalline sheen. The DR gained from this ability increases to 2/adamantine at 8th level, 3/adamantine at 12th level, 4/adamantine at 16th level, and 5/adamantine at 20th level.</p>
-<p>This alters <strong className="hl">wandering spirit</strong>.</p>
-<p><strong>Invoke Latent Facets (Su):</strong> At 8th level, both a crystal tender and her spirit animal gain all of the benefits of any <Link to="/magic-wondrous/ioun_stone">ioun stones</Link> worn by one another, as long as they're within 100 feet of each other. The crystal tender's spirit animal can also embed a number of ioun stones equal to the crystal tender's Charisma modifier into its crystalline form. Embedded ioun stones don't gain any additional abilities, save that they don't orbit the spirit animal and can't be separately targeted. A slain or unconscious spirit animal immediately loses all embedded ioun stones, which tumble to the ground beside its body.</p>
-<p>This replaces the <strong className="hl">shaman hex</strong> gained at 8th level.</p>
-<p><strong>Cabochon Form (Sp):</strong> At 20th level, as a standard action, a crystal tender can transform her body into a living gemstone as per <Link to="/spell/iron_body">iron body</Link> with a duration of 12 hours. Instead of being vulnerable to effects that can harm an iron golem while in this form, she is vulnerable to effects that can harm a crystalline creature (such as <Link to="/spell/shatter">shatter</Link>). She can use this ability once per day.</p>
-<p>This replaces <strong className="hl">manifestation</strong>.</p>
+<Ability id="arc-shaman-crystal_tender-scion-of-the-stones-ex" icon={["info","armor-upgrade","broken-shield"]}>
+<Pair single id="arc-shaman-crystal_tender-scion-of-the-stones-ex" flavor="A crystal tender forms a mystic connection with the precious stones and gems she has sworn to protect.">Scion of the Stones (Ex)</Pair>
+<Pair hl title="Alters">Spirit animal</Pair>
+<Pair title="Info">Her spirit animal always appears to be composed of a crystalline substance and gains a +2 bonus to its natural armor. Her spirit animal is treated as an outsider with both the earth and native subtypes, and counts as a crystalline creature for the purposes of spells and abilities. The unique nature of her spirit animal increases the cost of replacing it to 750 gp per shaman level.</Pair>
+</Ability>
+<Ability id="arc-shaman-crystal_tender-reciprocal-resonance-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-shaman-crystal_tender-reciprocal-resonance-su" flavor="A crystal tender learns to form a temporary bond with a spirit of crystal.">Reciprocal Resonance (Su)</Pair>
+<Pair hl title="Alters">Wandering spirit</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">When selecting her <em>wandering spirit,</em> she can forgo gaining a spirit ability to instead grant herself and her spirit animal DR 1/adamantine as long as they're within 10 feet of one another. While benefiting from this ability, the crystal tender's skin takes on a crystalline sheen.</Pair>
+<Pair title="At 8th Level">The DR gained from this ability increases to <Link to="/misc/one_fourth">one-fourth</Link> of her shaman level.</Pair>
+</Ability>
+<Ability id="arc-shaman-crystal_tender-invoke-latent-facets-su" icon={["upgrade"]}>
+<Pair single id="arc-shaman-crystal_tender-invoke-latent-facets-su">Invoke Latent Facets (Su)</Pair>
+<Pair hl title="Replaces">Shaman hex gained at 8th level</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Both a crystal tender and her spirit animal gain all of the benefits of any <Link to="/magic-wondrous/ioun_stone">ioun stones</Link> worn by one another, as long as they're within 100 feet of each other. The crystal tender's spirit animal can also embed a number of ioun stones equal to the crystal tender's Charisma modifier into its crystalline form. Embedded ioun stones don't gain any additional abilities, save that they don't orbit the spirit animal and can't be separately targeted. A slain or unconscious spirit animal immediately loses all embedded ioun stones, which tumble to the ground beside its body.</Pair>
+</Ability>
+<Ability id="arc-shaman-crystal_tender-cabochon-form-sp" icon={["armor-upgrade"]}>
+<Pair single id="arc-shaman-crystal_tender-cabochon-form-sp">Cabochon Form (Sp)</Pair>
+<Pair hl title="Replaces">Manifestation</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Usage">Once a day</Pair>
+<Pair title="Standard Action">A crystal tender can transform her body into a living gemstone as per <Link to="/spell/iron_body">iron body</Link> with a duration of 12 hours. Instead of being vulnerable to effects that can harm an iron golem while in this form, she is vulnerable to effects that can harm a crystalline creature (such as <Link to="/spell/shatter">shatter</Link>).</Pair>
+</Ability>
 </>};
 const _deep_shaman = {title: "Deep Shaman", jsx: <><h2 id="arc-shaman-deep_shaman-deep-shaman">Deep Shaman</h2>
-<p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 51</Link><br/>While most shamans of the waves spirit have powers associated with surface waters, deep shamans are tied to spirits from the depths. Some say that the first deep shamans served Besmara back when she was a water spirit, before she achieved full godhood.</p>
-<p><strong>Deep Spirit:</strong> A deep shaman must choose the <Link to="/shamanspirit/waves">waves</Link> spirit. The deep shaman must choose a spirit animal with the aquatic subtype, and it gains the <Link to="/umr/amphibious">amphibious</Link> special quality instead of gaining the ability to breathe in water. A deep shaman gains Swim as a class skill.</p>
-<p>This alters <strong className="hl">spirit</strong>, <strong className="hl">spirit animal</strong>, and the shaman's <strong className="hl">class skills</strong>.</p>
-<p><strong>Aquatic Hexes (Su):</strong> When a deep shaman uses <em>beckoning chill</em> on a creature in the water, that creature becomes fatigued due to hypothermia for the duration, and it also becomes entangled if the creature takes damage from the deep shaman's spirit abilities and from spells and abilities with the water descriptor. Her <em>crashing waves</em> hex applies to her spirit abilities that deal damage as if they were spells with the water descriptor, raising her effective shaman level for those abilities. Instead of <em>mist's shroud</em> and <em>watersight,</em> she can select the two hexes below.</p>
-<p>This alters <strong className="hl">hexes</strong>.</p>
-<blockquote>
-<p><em>Buoyancy Control (Sp):</em> The deep shaman touches a willing creature and changes its <Link to="/rule/buoyancy">buoyancy</Link> to whichever of the five states she wishes for 1 minute. A creature affected by this hex can't be affected by it again for 24 hours. The deep shaman has neutral buoyancy, regardless of what her normal buoyancy would be, though she can end or resume the effect as a standard action.</p>
-<p><em>Deep Heart (Su):</em> The deep shaman gains the ability to breathe underwater and gains a swim speed equal to her unmodified base land speed. At 8th level, she takes only half the normal amount of <Link to="/rule/pressure_damage">pressure damage</Link> and she <Link to="/rule/oceanic_zones">adjusts to a new pressure</Link> all at once after succeeding at five Fortitude saves, rather than 100 feet at a time.</p>
-</blockquote>
-<p><strong>Aquatic Spirit Abilities (Su):</strong> When used underwater, a deep shaman's wave strike deals lethal bludgeoning damage and pushes the target away 5 feet + an additional 5 feet for every 6 shaman levels she has. At 11th level, whenever the deep shaman is underwater, all weapons she holds are treated as if they had the <Link to="/magic-enh/impact">impact</Link> special ability instead of quenching. Instead of a swim speed and the ability to breathe underwater, fluid mastery provides <Link to="/umr/tremorsense">tremorsense</Link> with a range of 30 feet while in the water, and when underwater, fluid mastery's torrent deals 1d6 points of damage per shaman level in a 30-foot cone.</p>
-<p>This alters <strong className="hl">spirit ability</strong> and <strong className="hl">greater spirit ability</strong>.</p>
-<p><strong>Brine Dragon Form (Su):</strong> When a deep shaman gains access to the true version of the waves spirit, she can assume the form of a Large (or smaller) <Link to="/family/brine_dragon">brine dragon</Link> as per <Link to="/spell/form_of_the_dragon_ii">form of the dragon II</Link>, with a line of acid breath weapon, acid resistance 20, and a swim speed of 60 feet. She can use this ability for 1 hour per shaman level each day, divided any way she chooses in 1 hour increments, though the spell's breath weapon limit applies across the whole day. Time she spends underwater doesn't count against this limit, but every minute (or fraction thereof) that she spends flying expends 1 hour of her daily uses. At 18th level, she can assume the form of a Huge or smaller brine dragon as per <Link to="/spell/form_of_the_dragon_iii">form of the dragon III</Link> instead.</p>
-<p>This ability replaces the elemental form of the <strong className="hl">true spirit</strong> ability.</p>
+<p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 51</Link><br/>While most shamans of the <em>waves</em> spirit have powers associated with surface waters, deep shamans are tied to spirits from the depths. Some say that the first deep shamans served <Link to="/faith/besmara">Besmara</Link> back when she was a water spirit, before she achieved full godhood.</p>
+<Ability id="arc-shaman-deep_shaman-deep-spirit" icon={["broken-shield","stairs-goal"]}>
+<Pair single id="arc-shaman-deep_shaman-deep-spirit">Deep Spirit</Pair>
+<Pair hl title="Alters">Spirit, spirit animal</Pair>
+<Pair title="Info">A deep shaman must choose the <Link to="/shamanspirit/waves">waves</Link> spirit. The deep shaman must choose a spirit animal with the <Link to="/subtype/aquatic">aquatic</Link> subtype, and it gains the <Link to="/umr/amphibious">amphibious</Link> special quality instead of gaining the ability to breathe in water.</Pair>
+</Ability>
+<Ability icon={["skills"]} id="arc-shaman-deep_shaman-undefined">
+<Pair id="arc-shaman-deep_shaman-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
+<Ability id="arc-shaman-deep_shaman-aquatic-hexes-su" extraClasses="hasSubs" icon={["armor-downgrade"]}>
+<Pair single id="arc-shaman-deep_shaman-aquatic-hexes-su">Aquatic Hexes (Su)</Pair>
+<Pair hl title="Alters">Hexes</Pair>
+<Pair title="Ability">When a deep shaman uses <em>beckoning chill</em> on a creature in the water, that creature becomes <Link to="/misc/fatigued">fatigued</Link> due to hypothermia for the duration, and it also becomes <Link to="/rule/entangled">entangled</Link> if the creature takes damage from the deep shaman's spirit abilities and from spells and abilities with the water descriptor.</Pair>
+<Pair title="Ability">Her <em>crashing waves</em> hex applies to her spirit abilities that deal damage as if they were spells with the water descriptor, raising her effective shaman level for those abilities.</Pair>
+<Pair title="Special">Instead of <em>mist's shroud</em> and <em>watersight,</em> she can select the two hexes below.</Pair>
+</Ability>
+<Ability id="arc-shaman-deep_shaman-buoyancy-control-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-shaman-deep_shaman-buoyancy-control-sp">Buoyancy Control (Sp)</Pair>
+<Pair title="Ability">The deep shaman touches a willing creature and changes its <Link to="/rule/buoyancy">buoyancy</Link> to whichever of the five states she wishes for 1 minute. A creature affected by this hex can't be affected by it again for 24 hours.</Pair>
+<Pair title="Passive Ability">The deep shaman has neutral buoyancy, regardless of what her normal buoyancy would be, though she can end or resume the effect as a <strong className="hl">standard action</strong>.</Pair>
+</Ability>
+<Ability id="arc-shaman-deep_shaman-deep-heart-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-deep_shaman-deep-heart-su">Deep Heart (Su)</Pair>
+<Pair title="Ability">The deep shaman gains the ability to breathe underwater and gains a swim speed equal to her unmodified base land speed.</Pair>
+<Pair title="At 8th Level">She takes only half the normal amount of <Link to="/rule/pressure_damage">pressure damage</Link> and she <Link to="/rule/oceanic_zones">adjusts to a new pressure</Link> all at once after succeeding at five Fortitude saves, rather than 100 feet at a time.</Pair>
+</Ability>
+<Ability id="arc-shaman-deep_shaman-aquatic-spirit-abilities-su" icon={["upgrade"]}>
+<Pair single id="arc-shaman-deep_shaman-aquatic-spirit-abilities-su">Aquatic Spirit Abilities (Su)</Pair>
+<Pair hl title="Alters">Spirit ability, greater spirit ability</Pair>
+<Pair title="Ability">When used underwater, a deep shaman's <em>wave strike</em> deals lethal bludgeoning damage and pushes the target away 5 feet + an additional 5 feet for every 6 shaman levels she has.</Pair>
+<Pair title="At 11th Level">Whenever the deep shaman is underwater, all weapons she holds are treated as if they had the <Link to="/magic-enh/impact">impact</Link> special ability instead of <Link to="/magic-enh/quenching">quenching</Link>. Instead of a swim speed and the ability to breathe underwater, <em>fluid mastery</em> provides <Link to="/umr/tremorsense">tremorsense</Link> with a range of 30 feet while in the water, and when underwater, <em>fluid mastery's</em> torrent deals 1d6 points of damage per shaman level in a 30-foot cone.</Pair>
+</Ability>
+<Ability id="arc-shaman-deep_shaman-brine-dragon-form-su" icon={["magic-swirl"]}>
+<Pair single id="arc-shaman-deep_shaman-brine-dragon-form-su">Brine Dragon Form (Su)</Pair>
+<Pair hl title="Replaces">Elemental form of the true spirit ability</Pair>
+<Pair title="Usage">She can use this ability for 1 hour per shaman level each day, divided any way she chooses in 1 hour increments, though the spell's breath weapon limit applies across the whole day. Time she spends underwater doesn't count against this limit, but every minute (or fraction thereof) that she spends flying expends 1 hour of her daily uses.</Pair>
+<Pair title="Ability">When a deep shaman gains access to the <em>true</em> version of the waves spirit, she can assume the form of a Large (or smaller) <Link to="/family/brine_dragon">brine dragon</Link> as per <Link to="/spell/form_of_the_dragon_ii">form of the dragon II</Link>, with a line of acid breath weapon, acid resistance 20, and a swim speed of 60 feet.</Pair>
+<Pair title="At 18th Level">She can assume the form of a Huge or smaller brine dragon as per <Link to="/spell/form_of_the_dragon_iii">form of the dragon III</Link> instead.</Pair>
+</Ability>
 </>};
 const _draconic_shaman = {title: "Draconic Shaman", jsx: <><h2 id="arc-shaman-draconic_shaman-draconic-shaman">Draconic Shaman</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons pg. 24</Link><br/>In some regions of Tian Xia, shamans are unusually common, and may have strong ties to dragon gods and imperial dragons who act as mentors. Some of these shamans draw their powers from the might of dragons, rather than from spirits. These shamans each gain a powerful drake as an ally, and view caring for that drake as a sacred duty.</p>
-<p><strong>Drake Companion:</strong> A draconic shaman gains a <Link to="/sidekick/drake">drake companion</Link> instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains wandering spirit at 4th level. She must select all her hexes (other than her wandering hexes) from the list of <Link to="/ability/shaman_hexes">shaman hexes</Link>, and she can't select the <em>witch hex</em> shaman hex. She doesn't gain spirit magic slots until 4th level when she gains her wandering spirit. Any ability granted by a wandering spirit that would normally affect a spirit animal (such as nature's true spirit ability) has no effect for a draconic shaman.</p>
-<p>This ability replaces <strong className="hl">spirit</strong>, <strong className="hl">spirit animal</strong>, and the <strong className="hl">hexes</strong> gained at 4th and 10th levels and alters <strong className="hl">spirit magic</strong>.</p>
+<Ability id="arc-shaman-draconic_shaman-drake-companion" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-shaman-draconic_shaman-drake-companion">Drake Companion</Pair>
+<Pair hl title="Replaces">Spirit, spirit animal, hexes gained at 4th and 10th levels</Pair>
+<Pair hl title="Alters">Spirit magic</Pair>
+<Pair title="Info">A draconic shaman gains a <Link to="/sidekick/drake">drake companion</Link> instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains <em>wandering spirit</em> at 4th level. She must select all her hexes (other than her wandering hexes) from the list of <Link to="/ability/shaman_hexes">shaman hexes</Link>, and she can't select the <em>witch hex</em> shaman hex. She doesn't gain <em>spirit magic</em> slots until 4th level when she gains her <em>wandering spirit.</em> Any ability granted by a <em>wandering spirit</em> that would normally affect a spirit animal (such as <Link to="/shamanspirit/natures">nature</Link> <em>true spirit</em> ability) has no effect for a draconic shaman.</Pair>
+</Ability>
 </>};
 const _grasping_vine = {title: "Grasping Vine", jsx: <><h2 id="arc-shaman-grasping_vine-grasping-vine">Grasping Vine</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 16</Link><br/>Grasping vine shamans are typically adherents of one of several scattered sects dedicated to the Green Mother. They revere plant life in all its forms, with a special fondness for poisonous or carnivorous plants. Unlike most shamans, a grasping vine is guided by a plant-like creature rather than a spirit animal.</p>
-<p><strong>Spirit:</strong> Though a grasping vine is not limited to a particular choice of spirit, common selections are Life, Nature, or Wood.</p>
-<p><strong>Plant Spirit (Ex):</strong> A shaman's spirit animal is made of leaves and thorny vines. This plant spirit has the statistics and abilities as a shaman's spirit animal, but it is treated as a creature of the plant type rather than a native outsider.</p>
-<p>This ability alters the shaman's <strong className="hl">spirit animal</strong>.</p>
-<p><strong>Verdant Magic:</strong> A grasping vine adds the following spells to the list of spells she can cast using spirit magic: <Link to="/spell/entangle">entangle</Link> (1st), <Link to="/spell/barkskin">barkskin</Link> (2nd), <Link to="/spell/thorny_entanglement">thorny entanglement</Link> (3rd), <Link to="/spell/command_plants">command plants</Link> (4th), <Link to="/spell/wall_of_thorns">wall of thorns</Link> (5th), <Link to="/spell/fire_seeds">fire seeds</Link> (6th), <Link to="/spell/animate_plants">animate plants</Link> (7th), <Link to="/spell/horrid_wilting">horrid wilting</Link> (8th), and <Link to="/spell/shambler">shambler</Link> (9th).</p>
-<p>This ability replaces the <strong className="hl">spirit magic spells</strong> granted by the shaman's spirit.</p>
-<p><strong>Greentongue (Sp):</strong> At 2nd level, as a standard action, a grasping vine can use <Link to="/spell/speak_with_plants">speak with plants</Link> as a spell-like ability. The grasping vine can use this ability a number of times per day equal to half her shaman level. In addition, while under the effects of speak with plants, the grasping vine can deliver a <Link to="/spell/suggestion">suggestion</Link> (as per the spell) to a single plant creature within 30 feet, ignoring the plant's immunity to mind-affecting effects. The grasping vine can use this ability once per day at 2nd level, plus an additional time per day every 4 levels after 2nd level.</p>
-<p>This ability replaces the <strong className="hl">shaman's hex</strong> gained at 2nd level.</p>
-<p><strong>Flower's Form (Sp):</strong> At 8th level, as a standard action, a grasping vine can assume the form of a Small or Medium plant creature, as per <Link to="/spell/plant_shape_i">plant shape I</Link>. At 12th level, this ability functions as <Link to="/spell/plant_shape_ii">plant shape II</Link>. At 16th level, this ability functions as <Link to="/spell/plant_shape_iii">plant shape III</Link>. The grasping vine can use this ability for 1 minute per shaman level per day. This duration does not need to be used consecutively, but it must be spent in 1-minute increments.</p>
-<p>This ability replaces the <strong className="hl">shaman's hex</strong> gained at 8th level.</p>
+<Ability id="arc-shaman-grasping_vine-spirit" icon={["info"]}>
+<Pair single id="arc-shaman-grasping_vine-spirit">Spirit</Pair>
+<Pair title="Info">Though a grasping vine is not limited to a particular choice of spirit, common selections are <Link to="/shamanspirit/life">Life</Link>, <Link to="/shamanspirit/nature">Nature</Link>, or <Link to="/shamanspirit/wood">Wood</Link>.</Pair>
+</Ability>
+<Ability id="arc-shaman-grasping_vine-plant-spirit-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-grasping_vine-plant-spirit-ex">Plant Spirit (Ex)</Pair>
+<Pair hl title="Alters">Spirit animal</Pair>
+<Pair title="Ability">A shaman's spirit animal is made of leaves and thorny vines. This plant spirit has the statistics and abilities as a shaman's spirit animal, but it is treated as a creature of the <Link to="/type/plant">plant</Link> type rather than a native outsider.</Pair>
+</Ability>
+<Ability id="arc-shaman-grasping_vine-verdant-magic" icon={["spell-book"]}>
+<Pair single id="arc-shaman-grasping_vine-verdant-magic">Verdant Magic</Pair>
+<Pair hl title="Replaces">Spirit magic spells granted by the shaman's spirit</Pair>
+<Pair title="Info">A grasping vine adds the following spells to the list of spells she can cast using <em>spirit magic</em> at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/entangle">Entangle</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/barkskin">Barkskin</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/thorny_entanglement">Thorny entanglement</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/command_plants">Command plants</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/wall_of_thorns">Wall of thorns</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/fire_seeds">Fire seeds</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/animate_plants">Animate plants</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/horrid_wilting">Horrid wilting</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/shambler">Shambler</Link></Pair>
+</Ability>
+<Ability id="arc-shaman-grasping_vine-greentongue-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-shaman-grasping_vine-greentongue-sp">Greentongue (Sp)</Pair>
+<Pair hl title="Replaces">Shaman's hex gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Usage">1 time/day per two shaman levels<ByLevelPop levels={[[2,1],[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">A grasping vine can use <Link to="/spell/speak_with_plants">speak with plants</Link> as a spell-like ability.</Pair>
+<Pair title="Ability">In addition, while under the effects of <em>speak with plants,</em> the grasping vine can deliver a <Link to="/spell/suggestion">suggestion</Link> (as per the spell) to a single plant creature within 30 feet, ignoring the plant's immunity to mind-affecting effects. The grasping vine can use this second ability once per day at 2nd level.</Pair>
+<Pair title="At 6th Level">The <em>suggestion</em> can be used times 2 per day.</Pair>
+<Pair title="At 10th Level">The <em>suggestion</em> can be used times 3 per day.</Pair>
+<Pair title="At 14th Level">The <em>suggestion</em> can be used times 4 per day.</Pair>
+<Pair title="At 18th Level">The <em>suggestion</em> can be used times 5 per day.</Pair>
+</Ability>
+<Ability id="arc-shaman-grasping_vine-flowers-form-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-shaman-grasping_vine-flowers-form-sp">Flower's Form (Sp)</Pair>
+<Pair hl title="Replaces">Shaman's hex gained at 8th level</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">1 minute/day per shaman level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Standard Action">A grasping vine can assume the form of a Small or Medium plant creature, as per <Link to="/spell/plant_shape_i">plant shape I</Link>.</Pair>
+<Pair title="At 12th Level">This ability functions as <Link to="/spell/plant_shape_ii">plant shape II</Link>.</Pair>
+<Pair title="At 16th Level">This ability functions as <Link to="/spell/plant_shape_iii">plant shape III</Link>.</Pair>
+</Ability>
 </>};
 const _name_keeper = {title: "Name-Keeper", jsx: <><h2 id="arc-shaman-name_keeper-name-keeper">Name-Keeper</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 145</Link><br/>Pathfinders who perish in the pursuit of greater knowledge are commemorated on the Wall of Names, a curving monument of black glass at the Grand Lodge. Originally started as a humble memorial, the Wall of Names is now a moving testament to all those who have given their lives to further the cause of the <Link to="/rule/pathfinder_society">Pathfinder Society</Link>, and for many agents, an expedition to Absalom is as much a chance to visit the Wall of Names and seek out a vanished loved one, relation, or departed friend as it is an opportunity to visit the place where it all began.</p>
@@ -101,26 +235,87 @@ const _name_keeper = {title: "Name-Keeper", jsx: <><h2 id="arc-shaman-name_keepe
 <Pair id="arc-shaman-name_keeper-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature), Knowledge (planes), Survival</Pair></Ability>
-<p><strong>Inherited Wayfinder (Su):</strong> A name-keeper forms a powerful bond with a damaged <Link to="/magic-wondrous/wayfinder">wayfinder</Link> inherited from another Pathfinder. It functions for her alone. This functions as a <Link to="/class/wizard">wizard's</Link> bonded object except it can be used to cast shaman spells (instead of wizard spells).</p>
-<p>This ability replaces <strong className="hl">spirit animal</strong>.</p>
-<p><strong>Keeper Spirit Magic:</strong> The namekeeper adds the following spells to the list of spells she can cast using spirit magic: <Link to="/spell/stone_shield">stone shield</Link> (1st), <Link to="/spell/object_reading">object reading</Link> (2nd), <Link to="/spell/speak_with_dead">speak with dead</Link> (3rd), <Link to="/spell/wall_of_stone">wall of stone</Link> (4th), <Link to="/spell/breath_of_life">breath of life</Link> (5th), <Link to="/spell/stone_tell">stone tell</Link> (6th), <Link to="/spell/vision">vision</Link> (7th), <Link to="/spell/word_of_recall">word of recall</Link> (8th), and <Link to="/spell/true_resurrection">true resurrection</Link> (9th).</p>
-<p>This ability replaces the <strong className="hl">spirit magic spells</strong> gained from the shaman's spirit.</p>
-<p><strong>Pathfinders Past (Su):</strong> At 4th level, a name-keeper can form a temporary bond with a deceased Pathfinder who is commemorated on the Wall of Names. The namekeeper must make this selection each day when preparing her spells. While this feature is active, she gains one or more benefits tied to the Pathfinder's former focus in the Society: Scrolls, Spells, or Swords. Each allows her to select one or more options (such as a weapon or shaman spirit), and she can choose different options each time she forms this bond.</p>
-<blockquote>
-<p><strong>Scrolls:</strong> The name-keeper selects an oracle mystery. She can use any of the mystery's associated skills untrained, and she treats them as class skills. For any of those skills that were already class skills, she instead gains a +2 sacred bonus on those checks. At 12th level, she gains <Link to="/feat/skill_focus">Skill Focus</Link> for one of the associated skills as a bonus feat. At 20th level, she gains Skill Focus a second time as a bonus feat, and she always counts as having at least 10 ranks in those skills for calculating these temporary feats' benefits.</p>
-<p><strong>Spells:</strong> The name-keeper selects a second shaman spirit and adds the spells granted by that spirit to her list of spells that she can cast using spirit magic. She gains one additional spirit magic spell slot of her highest spell level. At 12th level, she selects two shaman spirits and adds both their granted spells to the list of spells she can cast using spirit magic. At 20th level, her number of spirit magic spell slots at each spell level increases to two.</p>
-<p><strong>Swords:</strong> The name-keeper gains proficiency in all martial weapons and one exotic weapon of her choice. At 12th level, whenever she makes a full attack, she gains one additional attack at her highest base attack bonus; this ability stacks with the extra attack from haste, but it doesn't stack with other abilities that grant extra attacks. At 20th level, she gains two combat feats for which she qualifies.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">wandering spirit</strong>.</p>
-<p><strong>Versatile Hex (Su):</strong> At 6th level, a namekeeper can temporarily gain a shaman hex or one of the hexes that her spirit has when she prepares her spells, lasting until the next time she prepares spells. At 14th level, she can select two such hexes each day.</p>
-<p>This ability replaces <strong className="hl">wandering hex</strong>.</p>
+<Ability id="arc-shaman-name_keeper-inherited-wayfinder-su" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-name_keeper-inherited-wayfinder-su">Inherited Wayfinder (Su)</Pair>
+<Pair hl title="Replaces">Spirit animal</Pair>
+<Pair title="Ability">A name-keeper forms a powerful bond with a damaged <Link to="/magic-wondrous/wayfinder">wayfinder</Link> inherited from another Pathfinder. It functions for her alone. This functions as a <Link to="/class/wizard">wizard's</Link> bonded object except it can be used to cast shaman spells (instead of wizard spells).</Pair>
+</Ability>
+<Ability id="arc-shaman-name_keeper-bonded-object" extraClasses="subAbility numbered" icon={["magic-swirl"]}>
+<Pair single id="arc-shaman-name_keeper-bonded-object" flavor="Text from the wizard ability.">Bonded Object</Pair>
+<Pair title="Ability"><p>If you attempt to cast a spell without your bonded object worn or in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
+<p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities. The bonded object cannot be used to cast spells from your opposition schools.</p>
+<p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). If the bonded object is a wand, it loses its wand abilities when its last charge is consumed, but it is not destroyed and it retains all of its bonded object properties and can be used to craft a new wand. The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary item of the appropriate type.</p>
+<p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item.</p>
+</Pair>
+</Ability>
+<Ability id="arc-shaman-name_keeper-keeper-spirit-magic" icon={["spell-book"]}>
+<Pair single id="arc-shaman-name_keeper-keeper-spirit-magic">Keeper Spirit Magic</Pair>
+<Pair hl title="Replaces">Spirit magic spells gained from the shaman's spirit</Pair>
+<Pair title="Info">The namekeeper adds the following spells to the list of spells she can cast using <em>spirit magic</em> at the listed spell level:</Pair>
+<Pair plain title="1st"><Link to="/spell/stone_shield">Stone shield</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/object_reading">Object reading</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/speak_with_dead">Speak with dead</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/wall_of_stone">Wall of stone</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/breath_of_life">Breath of life</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/stone_tell">Stone tell</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/vision">Vision</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/word_of_recall">Word of recall</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/true_resurrection">True resurrection</Link></Pair>
+</Ability>
+<Ability id="arc-shaman-name_keeper-pathfinders-past-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-name_keeper-pathfinders-past-su">Pathfinders Past (Su)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A name-keeper can form a temporary bond with a deceased Pathfinder who is commemorated on the Wall of Names. The namekeeper must make this selection each day when preparing her spells. While this feature is active, she gains one or more benefits tied to the Pathfinder's former focus in the Society: Scrolls, Spells, or Swords. Each allows her to select one or more options (such as a weapon or shaman spirit), and she can choose different options each time she forms this bond.</Pair>
+</Ability>
+<Ability id="arc-shaman-name_keeper-scrolls" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-shaman-name_keeper-scrolls">Scrolls</Pair>
+<Pair title="Ability">The name-keeper selects an oracle <Link to="/ability/mystery">mystery</Link>. She can use any of the mystery's associated skills untrained, and she treats them as class skills. For any of those skills that were already class skills, she instead gains a +2 sacred bonus on those checks.</Pair>
+<Pair title="At 12th Level">She gains <Link to="/feat/skill_focus">Skill Focus</Link> for one of the associated skills as a bonus feat.</Pair>
+<Pair title="At 20th Level">She gains Skill Focus a second time as a bonus feat, and she always counts as having at least 10 ranks in those skills for calculating these temporary feats' benefits.</Pair>
+</Ability>
+<Ability id="arc-shaman-name_keeper-spells" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="arc-shaman-name_keeper-spells">Spells</Pair>
+<Pair title="Ability">The name-keeper selects a second shaman spirit and adds the spells granted by that spirit to her list of spells that she can cast using <em>spirit magic.</em> She gains one additional <em>spirit magic</em> spell slot of her highest spell level.</Pair>
+<Pair title="At 12th Level">She selects two shaman spirits and adds both their granted spells to the list of spells she can cast using <em>spirit magic.</em></Pair>
+<Pair title="At 20th Level">Her number of <em>spirit magic</em> spell slots at each spell level increases to two.</Pair>
+</Ability>
+<Ability id="arc-shaman-name_keeper-swords" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-name_keeper-swords">Swords</Pair>
+<Pair hl title="Replaces">Wandering spirit</Pair>
+<Pair title="Ability">The name-keeper gains proficiency in all martial weapons and one exotic weapon of her choice.</Pair>
+<Pair title="At 12th Level">Whenever she makes a full attack, she gains one additional attack at her highest base attack bonus; this ability stacks with the extra attack from <Link to="/spell/haste">haste</Link>, but it doesn't stack with other abilities that grant extra attacks.</Pair>
+<Pair title="At 20th Level">She gains two combat feats for which she qualifies.</Pair>
+</Ability>
+<Ability id="arc-shaman-name_keeper-versatile-hex-su" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-name_keeper-versatile-hex-su">Versatile Hex (Su)</Pair>
+<Pair hl title="Replaces">Wandering hex</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">A namekeeper can temporarily gain a shaman hex or one of the hexes that her spirit has when she prepares her spells, lasting until the next time she prepares spells.</Pair>
+<Pair title="At 14th Level">She can select two such hexes each day.</Pair>
+</Ability>
 </>};
 const _overseer = {title: "Overseer", jsx: <><h2 id="arc-shaman-overseer-overseer">Overseer</h2>
 <p><strong>Sources</strong> <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 23</Link><br/>While all shamans use their connection to the spirits of the world to draw upon otherworldly magic powers, the shamans of the Lands of the Linnorm Kings have a unique tradition in which they use the power of patron spirits to directly control their enemies. Such overseers may assume roles as religious leaders and protectors of their tribes, turning foes into short-term allies for the tribe's greater good. Other overseers become tyrants who enforce their will upon the weak for personal gain. In combat, an overseer manages the battlefield by debilitating foes using her hexes and specialized spells.</p>
-<p><strong>Controlling Magic (Su):</strong> The overseer adds the following spells to the list of spells she can cast using spirit magic: <Link to="/spell/charm_person">charm person</Link> (1st), <Link to="/spell/hideous_laughter">hideous laughter</Link> (2nd), <Link to="/spell/hold_person">hold person</Link> (3rd), <Link to="/spell/crushing_despair">crushing despair</Link> (4th), <Link to="/spell/feeblemind">feeblemind</Link> (5th), <Link to="/spell/mass_suggestion">mass suggestion</Link> (6th), <Link to="/spell/power_word_blind">power word blind</Link> (7th), <Link to="/spell/irresistible_dance">irresistible dance</Link> (8th), and <Link to="/spell/dominate_monster">dominate monster</Link> (9th).</p>
-<p>This ability replaces the <strong className="hl">spirit magic spells</strong> gained from the shaman's spirit.</p>
-<p><strong>Spirit Surge (Ex):</strong> At 3rd level, an overseer gains the ability to cast any of her mind-affecting spells that target a single creature through her spirit animal. When she's using this ability, the selected spell's range becomes touch, and she must deliver the spell through the spirit animal via the spirit animal's deliver touch spells supernatural ability. The shaman's effective caster level for these spells is 2 higher than her normal caster level. The overseer can deliver any other spells via the deliver touch spells spirit animal ability.</p>
-<p>This alters the <strong className="hl">deliver touch spells</strong> spirit animal ability.</p>
+<Ability id="arc-shaman-overseer-controlling-magic-su" icon={["spell-book"]}>
+<Pair single id="arc-shaman-overseer-controlling-magic-su">Controlling Magic (Su)</Pair>
+<Pair hl title="Replaces">Spirit magic spells gained from the shaman's spirit</Pair>
+<Pair title="Info">The overseer adds the following spells to the list of spells she can cast using <em>spirit magic</em> at the given spell level:</Pair>
+<Pair plain title="1st"><Link to="/spell/charm_person">Charm person</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/hideous_laughter">Hideous laughter</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/hold_person">Hold person</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/crushing_despair">Crushing despair</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/feeblemind">Feeblemind</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/mass_suggestion">Mass suggestion</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/power_word_blind">Power word blind</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/irresistible_dance">Irresistible dance</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/dominate_monster">Dominate monster</Link></Pair>
+</Ability>
+<Ability id="arc-shaman-overseer-spirit-surge-ex" icon={["magic-swirl","upgrade"]}>
+<Pair single id="arc-shaman-overseer-spirit-surge-ex">Spirit Surge (Ex)</Pair>
+<Pair hl title="Alters">Deliver touch spells spirit animal ability</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">An overseer gains the ability to cast any of her mind-affecting spells that target a single creature through her spirit animal. When she's using this ability, the selected spell's range becomes touch, and she must deliver the spell through the spirit animal via the spirit animal's <em>deliver touch spells</em> supernatural ability. The shaman's effective caster level for these spells is 2 higher than her normal caster level. The overseer can deliver any other spells via the <em>deliver touch spells</em> spirit animal ability.</Pair>
+</Ability>
 </>};
 const _possessed_shaman = {title: "Possessed Shaman", jsx: <><h2 id="arc-shaman-possessed_shaman-possessed-shaman">Possessed Shaman</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 111</Link><br/>For a possessed shaman, merely communing with the spirit world is insufficient. Instead, she invites the spirits to share her body, granting them the chance to experience corporeal existence. In return, they grant her their skills and protect her from otherworldly influence.</p>
