@@ -1,0 +1,23 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://jasontank.net/sources.pfdata.schema.json",
+	"title": "Pf Data 1e - Sources",
+	"description": "A collection of information about a specific part of the Pathfinder system.",
+	"$comment": "This is for sources.json",
+	"type": "object",
+	"patternProperties": {
+		"^[a-z_][a-z0-9_]*$": {
+			"type": "object",
+			"properties": {
+				"title": { "type": "string" },
+				"url": {
+					"type": "string",
+					"pattern": "^https?://[a-z.]+/[^\" ]*$",
+					"$comment": "THIS IS NOT A GOOD URL VALIDATION REGEXP, it's just good enough for this project."
+				},
+				"unevaluatedProperties": false
+			}
+		}
+	},
+	"unevaluatedProperties": false
+}

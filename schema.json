@@ -4,234 +4,166 @@
 	"title": "Pf Data 1e",
 	"description": "A collection of information about a specific part of the Pathfinder system.",
 	"$comment": "This schema is for the files in ./json",
-	"anyOf": [
-		{
-			"$comment": "This is for 99% of the JSON files",
+	"type": "object",
+	"patternProperties": {
+		"^[a-z_][a-z0-9_]*$": {
 			"type": "object",
-			"patternProperties": {
-				"^[a-z_][a-z0-9_]*$": {
-					"type": "object",
-					"anyOf": [
-						{
-							"$comment": "Basic item",
-							"properties": {
-								"name": { "type": "string" },
-								"subtitle": { "type": "string" },
-								"tags": { "type": "string" },
-								"category": { "type": "string" },
-								"sources": { "$ref": "#uniqueArray" },
-								"description": { "$ref": "#descriptionArray" },
-								"tables": { "$ref": "#tables" },
-								"searchgroup": { "$ref": "#searchgroup" },
-								"topLink": { "$ref": "#link" },
-								"type": { "type": "string" },
-								"className": { "type": "string" },
-								"disambiguation": { "type": "boolean" }
-							},
-							"required": [ "description", "name" ],
-							"unevaluatedProperties": false
-						},
-						{
-							"$comment": "Basic rules item",
-							"properties": {
-								"name": { "type": "string" },
-								"subtitle": { "type": "string" },
-								"tags": { "type": "string" },
-								"sources": { "$ref": "#uniqueArray" },
-								"description": { "$ref": "#descriptionArray" },
-								"tables": { "$ref": "#tables" },
-								"parent_topics": { "$ref": "#uniquePropArray" },
-								"siblings": { "$ref": "#uniquePropArray" },
-								"subtopics": { "$ref": "#uniquePropArray" },
-								"className": { "type": "string" }
-							},
-							"required": [ "description", "name" ],
-							"dependentRequired": {
-								"parent_topics": [ "siblings" ],
-								"siblings": [ "parent_topics" ]
-							},
-							"unevaluatedProperties": false
-						},
-						{
-							"$comment": "Basic main.json item",
-							"properties": {
-								"title": { "type": "string" },
-								"subtitle": { "type": "string" },
-								"tags": { "type": "string" },
-								"sources": { "$ref": "#uniqueArray" },
-								"description": { "$ref": "#descriptionArray" },
-								"searchgroup": { "$ref": "#searchgroup" },
-								"tables": { "$ref": "#tables" },
-								"className": { "type": "string" }
-							},
-							"required": [ "description", "title" ],
-							"unevaluatedProperties": false
-						},
-						{
-							"$comment": "Basic main.json compilation",
-							"properties": {
-								"title": { "type": "string" },
-								"subtitle": { "type": "string" },
-								"tags": { "type": "string" },
-								"sources": { "$ref": "#uniqueArray" },
-								"searchgroup": { "$ref": "#searchgroup" },
-								"compileFrom": { "$ref": "#compileFrom" }
-							},
-							"required": [ "compileFrom", "title" ],
-							"unevaluatedProperties": false
-						},
-						{
-							"$comment": "Basic redirect",
-							"properties": {
-								"redirect": { "type": "string" }
-							},
-							"required": [ "redirect" ],
-							"unevaluatedProperties": false
-						},
-						{
-							"$comment": "Basic copy",
-							"properties": {
-								"name": { "type": "string" },
-								"copyof": { "type": "string" }
-							},
-							"required": [ "copyof", "name" ],
-							"unevaluatedProperties": false
-						},
-						{
-							"$comment": "Basic alternate",
-							"properties": {
-								"name": { "type": "string" },
-								"topLink": { "$ref": "#link" },
-								"alternateOf": { "type": "string" },
-								"regex": {
-									"type": "array",
-									"items": {
-										"type": "array",
-										"items": { "type": "string" },
-										"minItems": 2,
-										"maxItems": 2,
-										"unevaluatedItems": false
-									},
-									"unevaluatedItems": false
-								}
-							},
-							"required": [ "alternateOf", "regex" ],
-							"unevaluatedProperties": false
-						},
-						{
-							"$comment": "Basic Compileable Item",
-							"properties": {
-								"name": { "type": "string" },
-								"nameSuffix": { "type": "string" },
-								"tags": { "type": "string" },
-								"category": { "type": "string" },
-								"compilationSources": {
-									"type": "array",
-									"items": {
-										"type": "array",
-										"prefixItems": [
-											{ "type": "string" },
-											{ "type": "number" }
-										],
-										"items": false
-									},
-									"unevaluatedItems": false
-								},
-								"description": { "$ref": "#descriptionArray" },
-								"addenda": { "$ref": "#stringArray" },
-								"tree": { "$ref": "#uniqueArray" },
-								"topLink": { "$ref": "#link" },
-								"level": {
-									"type": "number",
-									"minimum": 1,
-									"multipleOf": 1
-								}
-							},
-							"required": [ "description", "name", "compilationSources" ],
-							"unevaluatedProperties": false
-						},
-						{
-							"$comment": "Basic compilation",
-							"properties": {
-								"name": { "type": "string" },
-								"subtitle": { "type": "string" },
-								"tags": { "type": "string" },
-								"sources": { "$ref": "#uniqueArray" },
-								"topLink": { "$ref": "#link" },
-								"compileFrom": { "$ref": "#compileFrom" }
-							},
-							"required": [ "compileFrom", "name" ],
-							"unevaluatedProperties": false
-						}
-					]
-				}
-			},
-			"unevaluatedProperties": false
-		},
-		{
-			"$comment": "This is exclusively for feat_tree_data.json",
-			"type": "array",
-			"items": {
-				"type": "object",
-				"properties": {
-					"prop": { "type": "string" },
-					"primary": { "type": "boolean" },
-					"leaves": {
-						"type": "array",
-						"items": { "$ref": "#subfeat" },
-						"unevaluatedItems": false
-					}
+			"anyOf": [
+				{
+					"$comment": "Basic item",
+					"properties": {
+						"name": { "type": "string" },
+						"subtitle": { "type": "string" },
+						"tags": { "type": "string" },
+						"category": { "type": "string" },
+						"sources": { "$ref": "#uniqueArray" },
+						"description": { "$ref": "#descriptionArray" },
+						"tables": { "$ref": "#tables" },
+						"searchgroup": { "$ref": "#searchgroup" },
+						"topLink": { "$ref": "#link" },
+						"type": { "type": "string" },
+						"className": { "type": "string" },
+						"disambiguation": { "type": "boolean" }
+					},
+					"required": [ "description", "name" ],
+					"unevaluatedProperties": false
 				},
-				"required": [ "prop" ],
-				"unevaluatedProperties": false
-			},
-			"unevaluatedItems": false
-		},
-		{
-			"$comment": "This is for colors.json",
-			"type": "object",
-			"properties": {
-				"light": {
-					"patternProperties": {
-						"^[a-z]+(-(bg|text)(-dim)?)?$": {
-							"type": "string",
-							"pattern": "^(var *[(]--[-a-z]+[)]|#[a-f0-9A-F]{6})$"
-						}
+				{
+					"$comment": "Basic rules item",
+					"properties": {
+						"name": { "type": "string" },
+						"subtitle": { "type": "string" },
+						"tags": { "type": "string" },
+						"sources": { "$ref": "#uniqueArray" },
+						"description": { "$ref": "#descriptionArray" },
+						"tables": { "$ref": "#tables" },
+						"parent_topics": { "$ref": "#uniquePropArray" },
+						"siblings": { "$ref": "#uniquePropArray" },
+						"subtopics": { "$ref": "#uniquePropArray" },
+						"className": { "type": "string" }
+					},
+					"required": [ "description", "name" ],
+					"dependentRequired": {
+						"parent_topics": [ "siblings" ],
+						"siblings": [ "parent_topics" ]
 					},
 					"unevaluatedProperties": false
 				},
-				"dark": {
-					"patternProperties": {
-						"^[a-z]+(-(bg|text)(-dim)?)?$": {
-							"type": "string",
-							"pattern": "^(var *[(]--[-a-z]+[)]|#[a-f0-9A-F]{6})$"
-						}
-					},
-					"unevaluatedProperties": false
-				}
-			},
-			"required": [ "light", "dark" ],
-			"unevaluatedProperties": false
-		},
-		{
-			"$comment": "This is for sources.json",
-			"type": "object",
-			"patternProperties": {
-				"^[a-z_][a-z0-9_]*$": {
-					"type": "object",
+				{
+					"$comment": "Basic main.json item",
 					"properties": {
 						"title": { "type": "string" },
-						"url": {
-							"type": "string",
-							"pattern": "^https?://[a-z.]+/[^\" ]*$",
-							"$comment": "THIS IS NOT A GOOD URL VALIDATION REGEXP, it's just good enough for this project."
+						"subtitle": { "type": "string" },
+						"tags": { "type": "string" },
+						"sources": { "$ref": "#uniqueArray" },
+						"description": { "$ref": "#descriptionArray" },
+						"searchgroup": { "$ref": "#searchgroup" },
+						"tables": { "$ref": "#tables" },
+						"className": { "type": "string" }
+					},
+					"required": [ "description", "title" ],
+					"unevaluatedProperties": false
+				},
+				{
+					"$comment": "Basic main.json compilation",
+					"properties": {
+						"title": { "type": "string" },
+						"subtitle": { "type": "string" },
+						"tags": { "type": "string" },
+						"sources": { "$ref": "#uniqueArray" },
+						"searchgroup": { "$ref": "#searchgroup" },
+						"compileFrom": { "$ref": "#compileFrom" }
+					},
+					"required": [ "compileFrom", "title" ],
+					"unevaluatedProperties": false
+				},
+				{
+					"$comment": "Basic redirect",
+					"properties": {
+						"redirect": { "type": "string" }
+					},
+					"required": [ "redirect" ],
+					"unevaluatedProperties": false
+				},
+				{
+					"$comment": "Basic copy",
+					"properties": {
+						"name": { "type": "string" },
+						"copyof": { "type": "string" }
+					},
+					"required": [ "copyof", "name" ],
+					"unevaluatedProperties": false
+				},
+				{
+					"$comment": "Basic alternate",
+					"properties": {
+						"name": { "type": "string" },
+						"topLink": { "$ref": "#link" },
+						"alternateOf": { "type": "string" },
+						"regex": {
+							"type": "array",
+							"items": {
+								"type": "array",
+								"items": { "type": "string" },
+								"minItems": 2,
+								"maxItems": 2,
+								"unevaluatedItems": false
+							},
+							"unevaluatedItems": false
 						}
-					}
+					},
+					"required": [ "alternateOf", "regex" ],
+					"unevaluatedProperties": false
+				},
+				{
+					"$comment": "Basic Compileable Item",
+					"properties": {
+						"name": { "type": "string" },
+						"nameSuffix": { "type": "string" },
+						"tags": { "type": "string" },
+						"category": { "type": "string" },
+						"compilationSources": {
+							"type": "array",
+							"items": {
+								"type": "array",
+								"prefixItems": [
+									{ "type": "string" },
+									{ "type": "number" }
+								],
+								"items": false
+							},
+							"unevaluatedItems": false
+						},
+						"description": { "$ref": "#descriptionArray" },
+						"addenda": { "$ref": "#stringArray" },
+						"tree": { "$ref": "#uniqueArray" },
+						"topLink": { "$ref": "#link" },
+						"level": {
+							"type": "number",
+							"minimum": 1,
+							"multipleOf": 1
+						}
+					},
+					"required": [ "description", "name", "compilationSources" ],
+					"unevaluatedProperties": false
+				},
+				{
+					"$comment": "Basic compilation",
+					"properties": {
+						"name": { "type": "string" },
+						"subtitle": { "type": "string" },
+						"tags": { "type": "string" },
+						"sources": { "$ref": "#uniqueArray" },
+						"topLink": { "$ref": "#link" },
+						"compileFrom": { "$ref": "#compileFrom" }
+					},
+					"required": [ "compileFrom", "name" ],
+					"unevaluatedProperties": false
 				}
-			},
-			"unevaluatedProperties": false
+			]
 		}
-	],
+	},
+	"unevaluatedProperties": false,
 	"$defs": {
 		"stringArray": {
 			"$anchor": "stringArray",
@@ -435,26 +367,6 @@
 			},
 			"minItems": 1,
 			"unevaluatedItems": false
-		},
-		"subfeat": {
-			"$anchor": "subfeat",
-			"type": "object",
-			"properties": {
-				"prop": { "type": "string" },
-				"primary": { "type": "boolean" },
-				"coparents": { "$ref": "#uniqueArray" },
-				"coparentsNoLink": { "type": "boolean" },
-				"leaves": {
-					"type": "array",
-					"items": { "$ref": "#subfeat" },
-					"unevaluatedItems": false
-				}
-			},
-			"dependentRequired": {
-				"coparentsNoLink": [ "coparents" ]
-			},
-			"required": [ "prop" ],
-			"unevaluatedProperties": false
 		},
 		"compileFrom": {
 			"$anchor": "compileFrom",

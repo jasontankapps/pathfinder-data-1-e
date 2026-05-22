@@ -1,0 +1,30 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://jasontank.net/colors.pfdata.schema.json",
+	"title": "Pf Data 1e",
+	"description": "A collection of information about a specific part of the Pathfinder system.",
+	"$comment": "This schema is for the files in ./json",
+	"type": "object",
+	"properties": {
+		"light": {
+			"patternProperties": {
+				"^[a-z]+(-(bg|text)(-dim)?)?$": {
+					"type": "string",
+					"pattern": "^(var *[(]--[-a-z]+[)]|#[a-f0-9A-F]{6})$"
+				}
+			},
+			"unevaluatedProperties": false
+		},
+		"dark": {
+			"patternProperties": {
+				"^[a-z]+(-(bg|text)(-dim)?)?$": {
+					"type": "string",
+					"pattern": "^(var *[(]--[-a-z]+[)]|#[a-f0-9A-F]{6})$"
+				}
+			},
+			"unevaluatedProperties": false
+		}
+	},
+	"required": [ "light", "dark" ],
+	"unevaluatedProperties": false
+}

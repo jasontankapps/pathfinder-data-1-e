@@ -5,9 +5,31 @@
 	"json.schemas": [
 		{
 			"fileMatch": [
-				"/json/*.json"
+				"/json/*.json",
+				"!src/json/*.json",
+				"!feat_tree_data.json",
+				"!sources.json",
+				"!colors.json"
 			],
 			"url": "./schema.json"
+		},
+		{
+			"fileMatch": [
+				"feat_tree_data.json"
+			],
+			"url": "./schemaFeats.json"
+		},
+		{
+			"fileMatch": [
+				"sources.json"
+			],
+			"url": "./schemaSources.json"
+		},
+		{
+			"fileMatch": [
+				"colors.json"
+			],
+			"url": "./schemaColors.json"
 		}
 	]
 }
