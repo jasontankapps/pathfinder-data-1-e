@@ -1,6 +1,9 @@
-import Link from '../../components/Link';
+import {IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
+import ScrollContainer from '../../components/ScrollContainer';
+import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 const _animist = {title: "Animist", jsx: <><h2 id="arc-shaman-animist-animist">Animist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 110</Link><br/>Even among mystical practitioners, the animist has a strange perspective and even stranger magic. The animist perceives that all things have a spirit, including objects, constructs, illnesses, buildings, and the environment.</p>
@@ -178,7 +181,7 @@ const _draconic_shaman = {title: "Draconic Shaman", jsx: <><h2 id="arc-shaman-dr
 <Pair single id="arc-shaman-draconic_shaman-drake-companion">Drake Companion</Pair>
 <Pair hl title="Replaces">Spirit, spirit animal, hexes gained at 4th and 10th levels</Pair>
 <Pair hl title="Alters">Spirit magic</Pair>
-<Pair title="Info">A draconic shaman gains a <Link to="/sidekick/drake">drake companion</Link> instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains <em>wandering spirit</em> at 4th level. She must select all her hexes (other than her wandering hexes) from the list of <Link to="/ability/shaman_hexes">shaman hexes</Link>, and she can't select the <em>witch hex</em> shaman hex. She doesn't gain <em>spirit magic</em> slots until 4th level when she gains her <em>wandering spirit.</em> Any ability granted by a <em>wandering spirit</em> that would normally affect a spirit animal (such as <Link to="/shamanspirit/natures">nature</Link> <em>true spirit</em> ability) has no effect for a draconic shaman.</Pair>
+<Pair title="Info">A draconic shaman gains a <Link to="/sidekick/drake">drake companion</Link> instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains <em>wandering spirit</em> at 4th level. She must select all her hexes (other than her wandering hexes) from the list of <Link to="/ability/shaman_hexes">shaman hexes</Link>, and she can't select the <em>witch hex</em> shaman hex. She doesn't gain <em>spirit magic</em> slots until 4th level when she gains her <em>wandering spirit.</em> Any ability granted by a <em>wandering spirit</em> that would normally affect a spirit animal (such as <Link to="/shamanspirit/nature">nature's</Link> <em>true spirit</em> ability) has no effect for a draconic shaman.</Pair>
 </Ability>
 </>};
 const _grasping_vine = {title: "Grasping Vine", jsx: <><h2 id="arc-shaman-grasping_vine-grasping-vine">Grasping Vine</h2>
@@ -319,59 +322,168 @@ const _overseer = {title: "Overseer", jsx: <><h2 id="arc-shaman-overseer-oversee
 </>};
 const _possessed_shaman = {title: "Possessed Shaman", jsx: <><h2 id="arc-shaman-possessed_shaman-possessed-shaman">Possessed Shaman</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 111</Link><br/>For a possessed shaman, merely communing with the spirit world is insufficient. Instead, she invites the spirits to share her body, granting them the chance to experience corporeal existence. In return, they grant her their skills and protect her from otherworldly influence.</p>
-<p><strong>Shared Skill (Su):</strong> At 1st level, a possessed shaman selects two skills. Both of these skills must use the same ability score. The possessed shaman treats these skills as if she had a number of ranks in them equal to her shaman level, and uses her Wisdom modifier in place of the ability modifier the skills would normally use. If either of the skills are class skills, she receives the usual +3 bonus on those skill checks for having ranks in those skills. These ranks do not stack with her other skill ranks (only the higher number of ranks applies).</p>
-<p>This ability replaces <strong className="hl">spirit magic</strong>.</p>
-<p><strong>Crowded Vessel (Su):</strong> At 2nd level, whenever a possessed shaman fails a saving throw against a charm or compulsion spell or effect, she can attempt a new saving throw (using the original DC) at the end of her next turn as the spirits inside her attempt to regain control. If the saving throw is successful, the charm or compulsion effect ends. If the saving throw fails, she is affected as normal for the remainder of the duration.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 2nd level.</p>
-<p><strong>Wandering Skills (Su):</strong> At 6th level, a possessed shaman is able to make room for another spirit. When choosing her wandering spirit for the day, the possessed shaman chooses one skill. The possessed shaman treats this skill as if she had a number of ranks in it equal to her shaman level, and uses her Wisdom modifier in place of the ability modifier the skill would normally use. If the skill is a class skill, she receives the usual +3 bonus on skill checks for having ranks in that skill. Each time the possessed shaman changes her wandering spirit, she can also change the skill gained through this ability. These ranks do not stack with her other skill ranks (only the higher number of ranks applies).</p>
-<p>This ability replaces the <strong className="hl">wandering hex</strong> gained at 6th level.</p>
+<Ability id="arc-shaman-possessed_shaman-shared-skill-su" icon={["upgrade"]}>
+<Pair single id="arc-shaman-possessed_shaman-shared-skill-su">Shared Skill (Su)</Pair>
+<Pair hl title="Replaces">Spirit magic</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Choice">A possessed shaman selects two skills. Both of these skills must use the same ability score. The possessed shaman treats these skills as if she had a number of ranks in them equal to her shaman level, and uses her Wisdom modifier in place of the ability modifier the skills would normally use.</Pair>
+<Pair title="Special">If either of the skills are class skills, she receives the usual +3 bonus on those skill checks for having ranks in those skills. These ranks do not stack with her other skill ranks (only the higher number of ranks applies).</Pair>
+</Ability>
+<Ability id="arc-shaman-possessed_shaman-crowded-vessel-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-shaman-possessed_shaman-crowded-vessel-su">Crowded Vessel (Su)</Pair>
+<Pair hl title="Replaces">Hex gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">Whenever a possessed shaman fails a saving throw against a charm or compulsion spell or effect, she can attempt a new saving throw (using the original DC) at the end of her next turn as the spirits inside her attempt to regain control. If the saving throw is successful, the charm or compulsion effect ends. If the saving throw fails, she is affected as normal for the remainder of the duration.</Pair>
+</Ability>
+<Ability id="arc-shaman-possessed_shaman-wandering-skills-su" icon={["upgrade"]}>
+<Pair single id="arc-shaman-possessed_shaman-wandering-skills-su" flavor="A possessed shaman is able to make room for another spirit.">Wandering Skills (Su)</Pair>
+<Pair hl title="Replaces">Wandering hex gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">When choosing her <em>wandering spirit</em> for the day, the possessed shaman chooses one skill. The possessed shaman treats this skill as if she had a number of ranks in it equal to her shaman level, and uses her Wisdom modifier in place of the ability modifier the skill would normally use. If the skill is a class skill, she receives the usual +3 bonus on skill checks for having ranks in that skill.</Pair>
+<Pair title="Special">Each time the possessed shaman changes her <em>wandering spirit,</em> she can also change the skill gained through this ability. These ranks do not stack with her other skill ranks (only the higher number of ranks applies).</Pair>
+</Ability>
 </>};
 const _primal_warden = {title: "Primal Warden", jsx: <><h2 id="arc-shaman-primal_warden-primal-warden">Primal Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 7</Link><br/>The influence of <Link to="/rule/primal_magic">primal magic</Link> extends beyond what is visible and material. Spirits that linger in areas where primal magic reigns can become warped, losing touch with their former selves and experiencing random surges of power. A shaman who communes with such spirits learns to stabilize these erratic energies and draw upon them to her benefit. Such shamans gradually learn to guide their spirits toward coherence and lucidity, and in the process learn to bend chance and fortune in their favor.</p>
-<p><strong>Spirit Animal:</strong> A primal warden's spirit animal exhibits unusual physical features for a creature of its type, such as unnatural colorations and extra or missing appendages. Each day, the spirit animal gains resistance 10 against a random element. Roll 1d4 to determine the type of resistance (1 = acid, 2 = cold, 3 = electricity, 4 = fire).</p>
-<p>This replaces the abilities the shaman's <strong className="hl">spirit animal</strong> gains from the shaman's chosen spirit.</p>
-<p><strong>Unstable Spellcasting:</strong> A primal warden's spirit is ever shifting, and the spells it grants the primal warden change from moment to moment.</p>
-<p>When the primal warden would spontaneously cast a 1st- through 8th-level spell using the spirit magic class feature, she produces a random spell from the <Link to="/main/spells_shaman">list of shaman spells</Link> of 1 spell level higher than the spell slot expended; use an appropriate die or another randomization method to determine the spell. When she would spontaneously cast a 9th-level spell using spirit magic, she instead casts a random 9th-level spell from the shaman spell list, treating her caster level as 2 higher. There is no way to predict the spell before the shaman begins casting it using spirit magic, and she cannot enhance the spell using metamagic feats. The spell uses the shaman's caster level, even if that caster level would normally be too low to cast the spell. There are 47 potential 2nd-level spells, 46 potential 3rd-level spells, 41 potential 4th-level spells, 30 potential 5th-level spells, 22 potential 6th-level spells, 22 potential 7th-level spells, 18 potential 8th-level spells, and 14 potential 9th-level spells.</p>
-<p>At 8th level, after determining the spell that she would cast using spirit magic, once per day as a free action, the primal warden shaman can choose to randomly select another spell instead, using the same method of randomization as she used before (if she obtains the same result a second time, she must keep that result). At 12th level and every 4 shaman levels thereafter, she can choose to randomly select a different spirit magic spell one additional time per day, up to a maximum of four times per day at 20th level. She cannot use this ability more than once in the same round.</p>
-<p>This alters <strong className="hl">spirit magic</strong> and replaces the <strong className="hl">hex</strong> gained at 8th level.</p>
-<p><strong>Hexes:</strong> A primal warden shaman gains the hexes below at the specified levels.</p>
-<p>A primal warden shaman cannot select the chant hex, the evil eye hex, the misfortune hex, or any witch hexes.</p>
-<p>This alters <strong className="hl">hexes</strong> and replaces the hexes gained at 4th and 12th levels.</p>
-<blockquote>
-<p><strong>Primal Blessing (Su):</strong> At 4th level, the shaman gains the ability to channel primal magic into a target within 30 feet. Roll 1d4 to determine the effect. On a result of 1, the target takes a -2 penalty on attack rolls, saving throws, and skill checks. On a result of 2, the target's size is enlarged or reduced, as per enlarge person or reduce person, and the effect functions even if the target is not a humanoid; roll randomly to determine the effect. On a result of 3, the target gains a +20-foot enhancement bonus to her base speed. On a result of 4, all attacks against the target suffer a 20% miss chance. The effects of this hex last for 1 minute. A creature affected by this hex cannot be affected by it again for 24 hours.</p>
-<p><strong>Greater Primal Blessing (Su):</strong> At 12th level, the shaman's primal blessing hex improves. This functions as the primal blessing hex in all ways, except that the shaman has a chance to bestow greater benefits upon her targets. Roll 1d6 to determine the effect. On a result of 1-4, refer to the primal blessing ability to determine the effect. On a roll of 5, the target gains a luck bonus on attack rolls and saving throws and to her Armor Class. On a roll of 6, the target gains the benefit of the haste spell, using the primal warden's shaman level as her caster level.</p>
-</blockquote>
-</>};
+<Ability id="arc-shaman-primal_warden-spirit-animal" icon={["armor-upgrade"]}>
+<Pair single id="arc-shaman-primal_warden-spirit-animal">Spirit Animal</Pair>
+<Pair hl title="Replaces">Abilities the spirit animal gains from the shaman's chosen spirit</Pair>
+<Pair title="Info">A primal warden's spirit animal exhibits unusual physical features for a creature of its type, such as unnatural colorations and extra or missing appendages.</Pair>
+<Pair title="Passive Ability">Each day, the spirit animal gains resistance 10 against a random element. Roll 1d4 to determine the type of resistance (1 = acid, 2 = cold, 3 = electricity, 4 = fire).</Pair>
+</Ability>
+<Ability id="arc-shaman-primal_warden-unstable-spellcasting" icon={["magic-swirl"]}>
+<Pair single id="arc-shaman-primal_warden-unstable-spellcasting" flavor="A primal warden's spirit is ever shifting, and the spells it grants the primal warden change from moment to moment.">Unstable Spellcasting</Pair>
+<Pair hl title="Replaces">Hex gained at 8th level</Pair>
+<Pair hl title="Alters">Spirit magic</Pair>
+<Pair title="Ability">When the primal warden would spontaneously cast a 1st- through 8th-level spell using the <em>spirit magic</em> class feature, she produces a random spell from the <Link to="/main/spells_shaman">list of shaman spells</Link> of 1 spell level higher than the spell slot expended; use an appropriate die or another randomization method to determine the spell. When she would spontaneously cast a 9th-level spell using <em>spirit magic,</em> she instead casts a random 9th-level spell from the shaman spell list, treating her caster level as 2 higher. There is no way to predict the spell before the shaman begins casting it using <em>spirit magic,</em> and she cannot enhance the spell using metamagic feats. The spell uses the shaman's caster level, even if that caster level would normally be too low to cast the spell.</Pair>
+<Pair title="At 8th Level">After determining the spell that she would cast using <em>spirit magic,</em> once per day as a <strong className="hl">free action</strong>, the primal warden shaman can choose to randomly select another spell instead, using the same method of randomization as she used before (if she obtains the same result a second time, she must keep that result).</Pair>
+<Pair title="At 12th Level">She can choose to randomly select a different <em>spirit magic</em> spell 2 times per day. She cannot use this ability more than once in the same round.</Pair>
+<Pair title="At 16th Level">She can choose to randomly select a different <em>spirit magic</em> spell 3 times per day.</Pair>
+<Pair title="At 20th Level">She can choose to randomly select a different <em>spirit magic</em> spell 4 times per day.</Pair>
+<Pair title="Special">There are 126 potential 2nd-level spells, 111 potential 3rd-level spells, 102 potential 4th-level spells, 71 potential 5th-level spells, 50 potential 6th-level spells, 40 potential 7th-level spells, 28 potential 8th-level spells, and 20 potential 9th-level spells.<sup><InnerLink showBacklink="backlink-arc-shaman-primal_warden-fake-fn-1" id="arc-shaman-primal_warden-fake-fn-1" data-hash-target to="arc-shaman-primal_warden-fake-fn-1-target">1</InnerLink></sup></Pair>
+</Ability>
+<Ability id="arc-shaman-primal_warden-hexes" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-primal_warden-hexes">Hexes</Pair>
+<Pair hl title="Replaces">Hexes gained at 4th and 12th levels</Pair>
+<Pair hl title="Alters">Hexes</Pair>
+<Pair title="Ability">A primal warden shaman gains the hexes below at the specified levels. A primal warden shaman cannot select the <em>chant</em> hex, the <em>evil eye</em> hex, the <em>misfortune</em> hex, or any witch hexes.</Pair>
+</Ability>
+<Ability id="arc-shaman-primal_warden-primal-blessing-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-shaman-primal_warden-primal-blessing-su">Primal Blessing (Su)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">The shaman gains the ability to channel primal magic into a target within 30 feet. Roll 1d4 to determine the effect. <strong>On a result of 1,</strong> the target takes a -2 penalty on attack rolls, saving throws, and skill checks. <strong>On a result of 2,</strong> the target's size is enlarged or reduced, as per <Link to="/spell/enlarge_person">enlarge person</Link> or <Link to="/spell/reduce_person">reduce person</Link>, and the effect functions even if the target is not a humanoid; roll randomly to determine the effect. <strong>On a result of 3,</strong> the target gains a +20-foot enhancement bonus to her base speed. <strong>On a result of 4,</strong> all attacks against the target suffer a 20% miss chance.</Pair>
+<Pair title="Special">The effects of this hex last for 1 minute. A creature affected by this hex cannot be affected by it again for 24 hours.</Pair>
+</Ability>
+<Ability id="arc-shaman-primal_warden-greater-primal-blessing-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-shaman-primal_warden-greater-primal-blessing-su">Greater Primal Blessing (Su)</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">The shaman's <em>primal blessing</em> hex improves. This functions as the <em>primal blessing</em> hex in all ways, except that the shaman has a chance to bestow greater benefits upon her targets. Roll 1d6 to determine the effect. On a result of 1-4, refer to the primal blessing ability to determine the effect. <strong>On a roll of 5,</strong> the target gains a luck bonus on attack rolls and saving throws and to her Armor Class. <strong>On a roll of 6,</strong> the target gains the benefit of the <Link to="/spell/haste">haste</Link> spell, using the primal warden's shaman level as her caster level.</Pair>
+</Ability>
+<section data-footnotes><h3 id="arc-shaman-primal_warden-label">Footnotes</h3><ol>
+<li id="arc-shaman-primal_warden-fake-fn-1-target"><p>As a suggestion: <strong>2nd level:</strong> Roll a d8, rerolling any 8s. Subtract 1 from that number, then multiply it by 20 and add 1d20. Reroll for results over 126. <strong>3rd level:</strong> Roll a d6 and subtract 1 from the result, then multiply it by 20 and add 1d20. Reroll for results higher than 111. <strong>4th level:</strong> Use the 3rd-level process, or roll a d10, rerolling any 10s. Subtract 1 from that number, then multiply it by 12 and add 1d12. Reroll for numbers higher than 102. <strong>5th level:</strong> Roll a d6 and subtract 1 from the result, then multiply it by 12 and add 1d12. Reroll if the result is 72. <strong>6th level:</strong> Roll 1d100, then divide the result by 2, rounding up. <strong>7th level:</strong> Roll a d4, subtract 1 from the result, then multiply it by 10 and add 1d10. <strong>8th level:</strong> Roll a d8, rerolling any 8s. Subtract 1 from that number, then multiply it by 4 and add 1d4. <strong>9th level:</strong> Roll 1d20. <InnerLink aria-label="Back to reference 1" id="backlink-arc-shaman-primal_warden-fake-fn-1" data-hash-target to="arc-shaman-primal_warden-fake-fn-1">↩</InnerLink></p></li>
+</ol></section></>};
 const _serendipity_shaman = {title: "Serendipity Shaman", jsx: <><h2 id="arc-shaman-serendipity_shaman-serendipity-shaman">Serendipity Shaman</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 5</Link><br/>Although some <Link to="/race/catfolk">catfolk</Link> venerate elven and human deities, the traditional worship of the so-called "spirits of creation" is by far the most prevalent religion among their kind, especially in the catfolk nation of Murraseth. The serendipitous, shamanistic rites associated with this faith focus upon attracting good fortune and banishing ill fortune in the name of these spirits. Although the ancient practices of the serendipity shaman were once exclusive to the mysterious catfolk nation, the catfolk's curiosity and willingness to travel have spread them across Golarion, where today many with a tendency toward good fortune embrace the faith.</p>
-<p><strong>Limited Calling:</strong> A shaman must have a racial trait with "luck" in its name to select this archetype, such as cat's luck or <Link to="/race/halfling">halfling</Link> luck. A character with the <Link to="/feat/defiant_luck">Defiant Luck</Link> feat also qualifies for this archetype.</p>
-<p><strong>Luck Magic:</strong> A serendipity shaman adds the domain spells from the <Link to="/domain/luck">Luck</Link> cleric domain to the list of spells she can cast with the spirit magic ability instead of her spirit's spirit magic spells.</p>
-<p>This ability alters <strong className="hl">spirit</strong>.</p>
-<p><strong>Luck Hexes:</strong> A serendipity shaman can select from any of the following hexes, in addition to general shaman hexes and the hexes granted by her spirit. When she gains the wandering spirit class feature, she can select one of these hexes in place of a wandering hex.</p>
-<blockquote>
-<p><em>Channel Luck (Su):</em> A serendipity shaman gains the ability to channel luck, as the cleric <Link to="/ability/variant_channeling">variant channeling</Link> ability of the same name, using her shaman level to determine her effective cleric level for the purpose of her <Link to="/ability/channel_energy">channel energy</Link> ability. She does not count as having the channel energy ability for the purpose of meeting feat prerequisites or prestige class requirements with the exception of <Link to="/feat/selective_channeling">Selective Channeling</Link>, which the shaman can take as normal. A shaman must be at least 8th level before selecting this hex.</p>
-<p><em>Fortune (Ex):</em> This hex functions as the <Link to="/arc-oracle/dual_cursed_oracle">dual-cursed oracle</Link> revelation of the same name, using the shaman's class level as her effective oracle level.</p>
-<p><em>Misfortune (Ex):</em> As a standard action, a serendipity shaman can afflict one target within 30 feet with misfortune, causing it to take a -2 penalty on all saving throws against the shaman's spells. The effect lasts for 1 minute or until the target hits the shaman with an attack.</p>
-<p><em>Spirit Magic:</em> A serendipity shaman adds both her spirit's spirit magic spells and the domain spells from the Luck cleric domain to the list of spells she can cast with the spirit magic ability. This hex cannot be taken as a wandering hex.</p>
-<p><em>Tweak the Odds (Su):</em> Whenever the serendipity shaman or one of her allies within 30 feet rolls an ability check, attack roll, saving throw, or skill check, the shaman can use this ability as an immediate action to tweak the odds in her favor, increasing the result of the die roll or check by 1. This can turn a normal hit into a critical threat, but it cannot make an attack roll an automatic hit (this bonus does not stack with effects that increase a weapon's critical threat range, such as <Link to="/feat/improved_critical">Improved Critical</Link> or keen edge). The shaman can use this ability a number of times per day equal to her shaman level. At 4th level and every 4 shaman levels thereafter, she can spend an additional use of this ability to further increase the die result of the target's roll by an additional 1. For example, a 12th-level shaman can spend up to three uses of this ability to increase an ally's roll by 1 per use expended.</p>
-</blockquote>
-</>};
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-shaman-serendipity_shaman--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A shaman must have a racial trait with "luck" in its name to select this archetype, such as cat's luck or <Link to="/race/halfling">halfling</Link> luck. A character with the <Link to="/feat/defiant_luck">Defiant Luck</Link> feat also qualifies for this archetype.</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-shaman-serendipity_shaman-luck-magic" icon={["spell-book"]}>
+<Pair single id="arc-shaman-serendipity_shaman-luck-magic">Luck Magic</Pair>
+<Pair hl title="Alters">Spirit</Pair>
+<Pair title="Info">A serendipity shaman adds the domain spells from the <Link to="/domain/luck">Luck</Link> cleric domain to the list of spells she can cast with the <em>spirit magic</em> ability instead of her spirit's <em>spirit magic</em> spells.</Pair>
+</Ability>
+<Ability id="arc-shaman-serendipity_shaman-luck-hexes" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-serendipity_shaman-luck-hexes">Luck Hexes</Pair>
+<Pair title="Ability">A serendipity shaman can select from any of the following hexes, in addition to general shaman hexes and the hexes granted by her spirit. When she gains the <em>wandering spirit</em> class feature, she can select one of these hexes in place of a <em>wandering hex.</em></Pair>
+</Ability>
+<Ability id="arc-shaman-serendipity_shaman-channel-luck-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-shaman-serendipity_shaman-channel-luck-su">Channel Luck (Su)</Pair>
+<Pair title="Prerequisites">8th-level shaman</Pair>
+<Pair title="Ability">A serendipity shaman gains the ability to channel luck, as the cleric <Link to="/ability/variant_channeling">variant channeling</Link> ability of the same name, using her shaman level to determine her effective cleric level for the purpose of her <Link to="/ability/channel_energy">channel energy</Link> ability.</Pair>
+<Pair title="Special">She does not count as having the channel energy ability for the purpose of meeting feat prerequisites or prestige class requirements with the exception of <Link to="/feat/selective_channeling">Selective Channeling</Link>, which the shaman can take as normal.</Pair>
+</Ability>
+<Ability id="arc-shaman-serendipity_shaman-fortune-ex" extraClasses="subAbility" icon={["rolling-dices"]}>
+<Pair single id="arc-shaman-serendipity_shaman-fortune-ex">Fortune (Ex)</Pair>
+<Pair title="Prerequisites">5th-level shaman<sup><InnerLink showBacklink="backlink-arc-shaman-serendipity_shaman-fake-fn-1" id="arc-shaman-serendipity_shaman-fake-fn-1" data-hash-target to="arc-shaman-serendipity_shaman-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Usage">1 time/day + 1 per six shaman levels beyond 5th<ByLevelPop levels={[[5,1],[11,2],[17,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Immediate Action">You can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll.</Pair>
+</Ability>
+<Ability id="arc-shaman-serendipity_shaman-misfortune-ex" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-shaman-serendipity_shaman-misfortune-ex">Misfortune (Ex)</Pair>
+<Pair title="Standard Action">A serendipity shaman can afflict one target within 30 feet with misfortune, causing it to take a -2 penalty on all saving throws against the shaman's spells. The effect lasts for 1 minute or until the target hits the shaman with an attack.</Pair>
+</Ability>
+<Ability id="arc-shaman-serendipity_shaman-spirit-magic" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="arc-shaman-serendipity_shaman-spirit-magic">Spirit Magic</Pair>
+<Pair title="Ability">A serendipity shaman adds both her spirit's <em>spirit magic</em> spells and the domain spells from the Luck cleric domain to the list of spells she can cast with the <em>spirit magic</em> ability.</Pair>
+<Pair title="Special">This hex cannot be taken as a <em>wandering hex.</em></Pair>
+</Ability>
+<Ability id="arc-shaman-serendipity_shaman-tweak-the-odds-su" extraClasses="subAbility" icon={["rolling-dices"]}>
+<Pair single id="arc-shaman-serendipity_shaman-tweak-the-odds-su">Tweak the Odds (Su)</Pair>
+<Pair title="Usage">1 time/day per shaman level</Pair>
+<Pair title="Immediate Action">Whenever the serendipity shaman or one of her allies within 30 feet rolls an ability check, attack roll, saving throw, or skill check, the shaman can use this ability to tweak the odds in her favor, increasing the result of the die roll or check by 1. This can turn a normal hit into a critical threat, but it cannot make an attack roll an automatic hit (this bonus does not stack with effects that increase a weapon's critical threat range, such as <Link to="/feat/improved_critical">Improved Critical</Link> or keen edge).</Pair>
+<Pair title="At 4th Level">She can spend additional uses of this ability, up to <Link to="/misc/one_fourth">one-fourth</Link> of her shaman level, to further increase the die result of the target's roll by an additional 1. For example, a 12th-level shaman can spend up to three uses of this ability to increase an ally's roll by 1 per use expended.</Pair>
+</Ability>
+<section data-footnotes><h3 id="arc-shaman-serendipity_shaman-label">Footnotes</h3><ol>
+<li id="arc-shaman-serendipity_shaman-fake-fn-1-target"><p>Original text reads: <em>"This hex functions as the <Link to="/arc-oracle/dual_cursed_oracle">dual-cursed oracle</Link> revelation of the same name, using the shaman's class level as her effective oracle level."</em> The prerequisite comes from the revelation. <InnerLink aria-label="Back to reference 1" id="backlink-arc-shaman-serendipity_shaman-fake-fn-1" data-hash-target to="arc-shaman-serendipity_shaman-fake-fn-1">↩</InnerLink></p></li>
+</ol></section></>};
 const _speaker_for_the_past = {title: "Speaker for the Past", jsx: <><h2 id="arc-shaman-speaker_for_the_past-speaker-for-the-past">Speaker for the Past</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 111</Link><br/>A speaker for the past is a shaman who specifically serves as the voice for spirits from her people's history. A speaker for the past is often an advocate of the ancestors of a specific group, the voice of experience, and a powerful resource that allows the past to aid the present.</p>
-<p><strong>Mysteries of the Past:</strong> A speaker for the past gains Linguistics, Knowledge (history), Knowledge (local), Perception, and Use Magic Device as class skills. She also adds the spells from the <Link to="/mystery/ancestor">ancestor</Link> and <Link to="/mystery/time">time</Link> oracle mysteries to her class spell list (as the oracle level for those spells). The speaker for the past must choose a time when she must spend 1 hour each day in quiet contemplation to regain her daily allotment of spells, but does not need to commune with a familiar during this time.</p>
-<p>This ability replaces the shaman's <strong className="hl">familiar</strong>. Because she has no familiar, she does not gain a <strong className="hl">spirit familiar</strong> feature from any spirit she bonds with.</p>
-<p><strong>Revelations of the Past:</strong> At 4th, 6th, 12th, 14th, and 20th levels, the speaker for the past can select a revelation from the ancestor or time mysteries. She uses her shaman level as her oracle level for these revelations, and uses her Wisdom modifier in place of her Charisma modifier for the purposes of the revelation.</p>
-<p>This ability replaces <strong className="hl">wandering spirit</strong> and <strong className="hl">wandering hex</strong>.</p>
+<Ability icon={["skills"]} id="arc-shaman-speaker_for_the_past-undefined">
+<Pair id="arc-shaman-speaker_for_the_past-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair></Ability>
+<Ability id="arc-shaman-speaker_for_the_past-mysteries-of-the-past" icon={["spell-book"]}>
+<Pair single id="arc-shaman-speaker_for_the_past-mysteries-of-the-past">Mysteries of the Past</Pair>
+<Pair hl title="Replaces">Familiar</Pair>
+<Pair title="Info">A speaker for the past adds the spells from the <Link to="/mystery/ancestor">ancestor</Link> and <Link to="/mystery/time">time</Link> oracle mysteries to her class spell list (at the oracle level for those spells).</Pair>
+<Pair title="Choice">The speaker for the past must choose a time when she must spend 1 hour each day in quiet contemplation to regain her daily allotment of spells, but does not need to commune with a familiar during this time.</Pair>
+<Pair title="Special">Because she has no familiar, she does not gain a <strong className="hl">spirit familiar</strong> feature from any spirit she bonds with.</Pair>
+</Ability>
+<Ability id="arc-shaman-speaker_for_the_past-revelations-of-the-past" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-speaker_for_the_past-revelations-of-the-past">Revelations of the Past</Pair>
+<Pair hl title="Replaces">Wandering spirit, wandering hex</Pair>
+<Pair title="At 4th Level">The speaker for the past can select a revelation from the ancestor or time mysteries.</Pair>
+<Pair title="At 6th Level">She selects another such revelation.</Pair>
+<Pair title="At 12th Level">She selects another such revelation.</Pair>
+<Pair title="At 14th Level">She selects another such revelation.</Pair>
+<Pair title="At 20th Level">She selects another such revelation.</Pair>
+<Pair title="Special">She uses her shaman level as her oracle level for these revelations, and uses her Wisdom modifier in place of her Charisma modifier for the purposes of the revelation.</Pair>
+</Ability>
 </>};
 const _spirit_warden = {title: "Spirit Warden", jsx: <><h2 id="arc-shaman-spirit_warden-spirit-warden">Spirit Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 112</Link><br/>Not all spirits deserve reverence and respect. Some are twisted and despicable. It's a spirit warden's duty to end these spirits' existence.</p>
-<p><strong>Unnatural Mien (Ex):</strong> At 1st level, the spirit warden's dealings with the spirit world give her an unsettling demeanor. Diplomacy and Handle Animal are not class skills for a spirit warden. Intimidate is added as a class skill, and she gains a +2 bonus on Intimidate checks to demoralize a foe.</p>
-<p><strong>Restless Magic (Su):</strong> The spirit warden adds the following spells to the list of spells she can cast using spirit magic: <Link to="/spell/detect_undead">detect undead</Link> (1st), <Link to="/spell/command_undead">command undead</Link> (2nd), <Link to="/spell/halt_undead">halt undead</Link> (3rd), <Link to="/spell/death_ward">death ward</Link> (4th), <Link to="/spell/possess_object">possess object</Link> (5th), <Link to="/spell/undeath_to_death">undeath to death</Link> (6th), <Link to="/spell/ethereal_jaunt">ethereal jaunt</Link> (7th), <Link to="/spell/control_undead">control undead</Link> (8th), <Link to="/spell/foresight">foresight</Link> (9th).</p>
-<p>This ability replaces the <strong className="hl">spirit magic spells</strong> gained from the shaman's spirit.</p>
-<p><strong>Rebuke Spirits (Su):</strong> At 2nd level, the spirit warden gains the ability to <Link to="/ability/channel_positive_energy">channel positive energy</Link> as a cleric of her level. Regardless of her alignment, she can only use this ability to harm undead creatures. The spirit warden can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 2nd level.</p>
-<p><strong>Laugh at Death (Su):</strong> At 10th level, the spirit warden's familiarity with the dead has filled her with contempt for death itself. She gains a +4 insight bonus on saving throws against death effects and to avoid or remove negative levels.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 10th level.</p>
+<Ability icon={["skills"]} id="arc-shaman-spirit_warden-undefined">
+<Pair id="arc-shaman-spirit_warden-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair>
+<Pair title="Removed Skills">Diplomacy, Handle Animal</Pair></Ability>
+<Ability id="arc-shaman-spirit_warden-unnatural-mien-ex" icon={["upgrade"]}>
+<Pair single id="arc-shaman-spirit_warden-unnatural-mien-ex" flavor="The spirit warden's dealings with the spirit world give her an unsettling demeanor.">Unnatural Mien (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">She gains a +2 bonus on Intimidate checks to demoralize a foe.</Pair>
+</Ability>
+<Ability id="arc-shaman-spirit_warden-restless-magic-su" icon={["spell-book"]}>
+<Pair single id="arc-shaman-spirit_warden-restless-magic-su">Restless Magic (Su)</Pair>
+<Pair hl title="Replaces">Spirit magic spells gained from the shaman's spirit</Pair>
+<Pair title="Info">The spirit warden adds the following spells to the list of spells she can cast using <em>spirit magic</em> at the listed spell level:</Pair>
+<Pair plain title="1st"><Link to="/spell/detect_undead">Detect undead</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/command_undead">Command undead</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/halt_undead">Halt undead</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/death_ward">Death ward</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/possess_object">Possess object</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/undeath_to_death">Undeath to death</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/ethereal_jaunt">Ethereal jaunt</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/control_undead">Control undead</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/foresight">Foresight</Link></Pair>
+</Ability>
+<Ability id="arc-shaman-spirit_warden-rebuke-spirits-su" icon={["abstract-091"]}>
+<Pair single id="arc-shaman-spirit_warden-rebuke-spirits-su">Rebuke Spirits (Su)</Pair>
+<Pair hl title="Replaces">Hex gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">The spirit warden gains the ability to <Link to="/ability/channel_positive_energy">channel positive energy</Link> as a cleric of her level. Regardless of her alignment, she can only use this ability to harm undead creatures.</Pair>
+</Ability>
+<Ability id="arc-shaman-spirit_warden-laugh-at-death-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-shaman-spirit_warden-laugh-at-death-su" flavor="The spirit warden's familiarity with the dead has filled her with contempt for death itself.">Laugh at Death (Su)</Pair>
+<Pair hl title="Replaces">Hex gained at 10th level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Passive Ability">She gains a +4 insight bonus on saving throws against death effects and to avoid or remove negative levels.</Pair>
+</Ability>
 </>};
 const _true_silvered_throne = {title: "True Silvered Throne", jsx: <><h2 id="arc-shaman-true_silvered_throne-true-silvered-throne">True Silvered Throne</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 23</Link><br/>Members in good standing who have risen to a prestigious rank within the Esoteric Order of the Palatine Eye, true silvered thrones have managed to discover rituals and occult secrets within the lore of their order. They are scholars of ancient mysteries and keepers of forbidden secrets who go beyond simply learning eldritch traditions to make the occult a part of their very souls.</p>
@@ -379,50 +491,146 @@ const _true_silvered_throne = {title: "True Silvered Throne", jsx: <><h2 id="arc
 <Pair id="arc-shaman-true_silvered_throne-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Handle Animal, Survival</Pair></Ability>
-<p><strong>Occult Grimoire (Ex):</strong> A true silvered throne's divine magic arises from communion with spirits alongside study of archaic lore compiled into a personal occult grimoire. Unlike a wizard's spellbook, this grimoire doesn't contain specific spells. By studying his grimoire, a true silvered throne can prepare any spell on the shaman spell list or provided by his spirit. If this grimoire is lost or destroyed, he cannot prepare new spells or use his spirit magic class feature until it is replaced, which requires 1 week of work.</p>
-<p>This ability replaces <strong className="hl">spirit animal</strong>.</p>
-<p><strong>Ritual Hex:</strong> A true silvered throne gains <Link to="/feat/ritual_hex">Ritual Hex</Link> as a bonus feat.</p>
-<p><strong>Scarab of the Second Throne (Ex):</strong> At 4th level, a true silvered throne successfully constructs a golden scarab that is infused with some of his occult potential. Treat this construct as a <Link to="/monster/clockwork_spy">clockwork spy</Link>, except it has half its master's total hit points regardless of its Hit Dice and can write and take dictation rather than record audio. If worn in the true silvered throne's amulet slot, the golden scarab provides a +4 bonus to AC against sneak attacks and attacks of opportunity, as the scarab animates and moves to intercept attacks. If lost or destroyed, the golden scarab can be replaced in a week-long ritual costing 250 gp.</p>
-<p><strong>Wandering Ritual (Su):</strong> At 6th level, a true silvered throne can attempt to coax a nearby spirit into service with a 1-minute-long ritual once per day, gaining that spirit's spirit ability and adding its list of spells to those he can cast using his spirit magic. The silvered throne can maintain this bond for 1 hour, or until he dismisses the spirit as a free action. At 12th level, he also gains this spirit's greater spirit power while bonded, and at 20th level gains its true spirit power as well. He can perform a wandering ritual one additional time per day at 8th level and 14th level.</p>
-<p>This ability replaces <strong className="hl">wandering spirit</strong> and <strong className="hl">wandering hex</strong>.</p>
-<p><strong>Esoteric Rites (Ex):</strong> At 8th level, a true silvered throne gains a +1 insight bonus on skill checks attempted as part of an occult ritual. This bonus increases by 1 for every 4 shaman levels beyond 8th (to a maximum of +5 at 20th level). If the true silvered throne is the ritual's primary caster, he also adds this bonus to the caster level of the ritual's effect.</p>
-<p>This ability replaces the 8th-level <strong className="hl">hex</strong>.</p>
-</>};
+<Ability id="arc-shaman-true_silvered_throne-occult-grimoire-ex" icon={["spell-book","hazard-sign"]}>
+<Pair single id="arc-shaman-true_silvered_throne-occult-grimoire-ex">Occult Grimoire (Ex)</Pair>
+<Pair hl title="Replaces">Spirit animal</Pair>
+<Pair title="Ability">A true silvered throne's divine magic arises from communion with spirits alongside study of archaic lore compiled into a personal <em>occult grimoire.</em> Unlike a wizard's spellbook, this <em>grimoire</em> doesn't contain specific spells. By studying his <em>grimoire,</em> a true silvered throne can prepare any spell on the shaman spell list or provided by his spirit.</Pair>
+<Pair title="Special">If this <em>grimoire</em> is lost or destroyed, he cannot prepare new spells or use his <em>spirit magic</em> class feature until it is replaced, which requires 1 week of work.</Pair>
+</Ability>
+<Ability id="arc-shaman-true_silvered_throne-ritual-hex" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-true_silvered_throne-ritual-hex">Ritual Hex</Pair>
+<Pair title="Ability">A true silvered throne gains <Link to="/feat/ritual_hex">Ritual Hex</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-shaman-true_silvered_throne-scarab-of-the-second-throne-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="arc-shaman-true_silvered_throne-scarab-of-the-second-throne-ex">Scarab of the Second Throne (Ex)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A true silvered throne successfully constructs a golden scarab that is infused with some of his occult potential. Treat this construct as a <Link to="/monster/clockwork_spy">clockwork spy</Link>, except it has half its master's total hit points regardless of its Hit Dice and can write and take dictation rather than record audio.</Pair>
+<Pair title="Passive Ability">If worn in the true silvered throne's amulet slot, the golden scarab provides a +4 bonus to AC against sneak attacks and attacks of opportunity, as the scarab animates and moves to intercept attacks.</Pair>
+<Pair title="Special">If lost or destroyed, the golden scarab can be replaced in a week-long ritual costing 250 gp.</Pair>
+</Ability>
+<Ability id="arc-shaman-true_silvered_throne-wandering-ritual-su" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-true_silvered_throne-wandering-ritual-su">Wandering Ritual (Su)</Pair>
+<Pair hl title="Replaces">Wandering spirit, wandering hex</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">A true silvered throne can attempt to coax a nearby spirit into service with a 1-minute-long ritual once per day, gaining that spirit's <em>spirit</em> ability and adding its list of spells to those he can cast using his <em>spirit magic.</em> The silvered throne can maintain this bond for 1 hour, or until he dismisses the spirit as a <strong className="hl">free action</strong>.</Pair>
+<Pair title="At 8th Level">He can perform a <em>wandering ritual</em> twice a day.</Pair>
+<Pair title="At 12th Level">He also gains this spirit's <em>greater spirit power</em> while bonded.</Pair>
+<Pair title="At 14th Level">He can perform a <em>wandering ritual</em> three times per day.</Pair>
+<Pair title="At 20th Level">He gains its <em>true spirit power</em> as well.</Pair>
+</Ability>
+<Ability id="arc-shaman-true_silvered_throne-esoteric-rites-ex" icon={["upgrade"]}>
+<Pair single id="arc-shaman-true_silvered_throne-esoteric-rites-ex">Esoteric Rites (Ex)</Pair>
+<Pair hl title="Replaces">8th-level hex</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">A true silvered throne gains a +1 insight bonus on skill checks attempted as part of an <Link to="/rule/occult_rituals">occult ritual</Link>. This bonus increases by 1 for every 4 shaman levels beyond 8th (to a maximum of +5 at 20th level).<sup><InnerLink showBacklink="backlink-arc-shaman-true_silvered_throne-fake-fn-1" id="arc-shaman-true_silvered_throne-fake-fn-1" data-hash-target to="arc-shaman-true_silvered_throne-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Special">If the true silvered throne is the ritual's primary caster, he also adds this bonus to the caster level of the ritual's effect.</Pair>
+</Ability>
+<section data-footnotes><h3 id="arc-shaman-true_silvered_throne-label">Footnotes</h3><ol>
+<li id="arc-shaman-true_silvered_throne-fake-fn-1-target"><p>This math doesn't add up. Following the written rules, you would only get a +4 bonus at 20th level. This only makes sense if the starting bonus is +2. Consult your GM if you wish to interpret the ability this way. <InnerLink aria-label="Back to reference 1" id="backlink-arc-shaman-true_silvered_throne-fake-fn-1" data-hash-target to="arc-shaman-true_silvered_throne-fake-fn-1">↩</InnerLink></p></li>
+</ol></section></>};
 const _unsworn_shaman = {title: "Unsworn Shaman", jsx: <><h2 id="arc-shaman-unsworn_shaman-unsworn-shaman">Unsworn Shaman</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 112</Link><br/>An unsworn shaman never binds herself to one specific spirit, always making new deals as she deems necessary for the circumstances that she finds herself in. While this weakens the powers she can access from any one spirit, it gives her access to a broader overall range of abilities.</p>
-<p><strong>Minor Spirit (Su):</strong> At 1st level, the unsworn shaman also forms a temporary bond with a minor spirit each day, granting her access to a <Link to="/ability/shaman_hexes">shaman</Link> or <Link to="/ability/hexes">witch hex</Link> of her choosing, but not a major hex or a grand hex. She must make this selection each day when she prepares her spells for the day. Until she changes the minor spirit, she continues to have access to the shaman or witch hex. At 2nd level, she can instead select a hex from one of her wandering spirits selected for that day. If she selects a witch hex, she treats her shaman level as her witch level, and uses her Wisdom in place of her Intelligence for the purpose of that hex.</p>
-<p>She can make temporary bonds with two minor spirits (thus gaining two hexes) at 4th level, and with one additional minor spirit (and hex) every 4 levels thereafter.</p>
-<p>This ability replaces <strong className="hl">spirit</strong> and alters <strong className="hl">hex</strong>.</p>
-<p><strong>Spirit Animal:</strong> At 2nd level, an unsworn shaman's spirit animal gains the spirit animal bonus from one of her wandering spirits (see below). This bonus can be changed each day when the shaman prepares spells, but it must correspond to one of the shaman's wandering spirits.</p>
-<p>This ability alters <strong className="hl">spirit animal</strong>.</p>
-<p><strong>Wandering Spirit (Su):</strong> At 2nd level, the unsworn shaman gains access to the wandering spirit class feature. At 10th level, she gains the abilities listed in the greater version of her wandering spirit. At 18th level, she gains the abilities listed in the true version of her wandering spirit.</p>
-<p>Additionally, at 6th level, she also gains a second wandering spirit, gaining the abilities listed in the greater version of that spirit at 14th level, and the abilities listed in the true version at 20th level.</p>
-<p>This ability alters <strong className="hl">wandering spirit</strong> and replaces <strong className="hl">wandering hex</strong>.</p>
-<p><strong>Spirit Magic (Sp):</strong> The unsworn shaman gains this ability at 2nd level rather than at 1st.</p>
-<p>This ability alters <strong className="hl">spirit magic</strong>.</p>
+<Ability id="arc-shaman-unsworn_shaman-minor-spirit-su" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-unsworn_shaman-minor-spirit-su">Minor Spirit (Su)</Pair>
+<Pair hl title="Replaces">Spirit</Pair>
+<Pair hl title="Alters">Hex</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The unsworn shaman forms a temporary bond with a minor spirit each day, granting her access to a <Link to="/ability/shaman_hexes">shaman</Link> or <Link to="/ability/hexes">witch hex</Link> of her choosing, but not a <em>major hex</em> or a <em>grand hex.</em> She must make this selection each day when she prepares her spells for the day. Until she changes the minor spirit, she continues to have access to the shaman or witch hex.</Pair>
+<Pair title="At 2nd Level">She can instead select a hex from one of her wandering spirits selected for that day. If she selects a witch hex, she treats her shaman level as her witch level, and uses her Wisdom in place of her Intelligence for the purpose of that hex.</Pair>
+<Pair title="At 4th Level">She can make temporary bonds with 2 minor spirits (thus gaining 2 hexes).</Pair>
+<Pair title="At 8th Level">She can make temporary bonds with 3 minor spirits (thus gaining 3 hexes).</Pair>
+<Pair title="At 12th Level">She can make temporary bonds with 4 minor spirits (thus gaining 4 hexes).</Pair>
+<Pair title="At 16th Level">She can make temporary bonds with 5 minor spirits (thus gaining 5 hexes).</Pair>
+<Pair title="At 20th Level">She can make temporary bonds with 6 minor spirits (thus gaining 6 hexes).</Pair>
+</Ability>
+<Ability id="arc-shaman-unsworn_shaman-spirit-animal" icon={["upgrade"]}>
+<Pair single id="arc-shaman-unsworn_shaman-spirit-animal">Spirit Animal</Pair>
+<Pair hl title="Alters">Spirit animal</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">An unsworn shaman's spirit animal gains the spirit animal bonus from one of her <em>wandering spirits</em> (see below). This bonus can be changed each day when the shaman prepares spells, but it must correspond to one of the shaman's wandering spirits.</Pair>
+</Ability>
+<Ability id="arc-shaman-unsworn_shaman-wandering-spirit-su" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-unsworn_shaman-wandering-spirit-su">Wandering Spirit (Su)</Pair>
+<Pair hl title="Replaces">Wandering hex</Pair>
+<Pair hl title="Alters">Wandering spirit</Pair>
+<Pair title="At 2nd Level">The unsworn shaman gains access to the <em>wandering spirit</em> class feature.</Pair>
+<Pair title="At 6th Level">She also gains a second <em>wandering spirit.</em></Pair>
+<Pair title="At 10th Level">She gains the abilities listed in the <em>greater</em> version of her <em>wandering spirit.</em></Pair>
+<Pair title="At 14th Level">She gains the abilities listed in the <em>greater</em> version of her second <em>wandering spirit.</em></Pair>
+<Pair title="At 18th Level">She gains the abilities listed in the <em>true</em> version of her <em>wandering spirit.</em></Pair>
+<Pair title="At 20th Level">She gains the abilities listed in the <em>true</em> version of her second <em>wandering spirit.</em></Pair>
+</Ability>
+<Ability id="arc-shaman-unsworn_shaman-spirit-magic-sp" icon={["broken-shield"]}>
+<Pair single id="arc-shaman-unsworn_shaman-spirit-magic-sp">Spirit Magic (Sp)</Pair>
+<Pair hl title="Alters">Spirit magic</Pair>
+<Pair title="Info">The unsworn shaman gains this ability at 2nd level rather than at 1st.</Pair>
+</Ability>
 </>};
 const _visionary = {title: "Visionary", jsx: <><h2 id="arc-shaman-visionary-visionary">Visionary</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 112</Link><br/>The visionary is a master at divination, drawing upon her intimate relationship with the spirit world to ferret out all manner of secrets and insights about the world around her and beyond.</p>
-<p><strong>Bonus Feat:</strong> At 4th level, the visionary gains <Link to="/feat/diviners_delving">Diviner's Delving</Link> as a bonus feat, even if she does not meet the prerequisites.</p>
-<p><strong>Discern Magical Expertise (Ex):</strong> At 4th level, the shaman can determine what type of spellcasting expertise a creature possesses by studying the creature for 2 rounds with <Link to="/spell/detect_magic">detect magic</Link> or any of the following spells: <Link to="/spell/detect_chaos">detect chaos</Link>, <Link to="/spell/detect_evil">detect evil</Link>, <Link to="/spell/detect_good">detect good</Link>, or <Link to="/spell/detect_law">detect law</Link> (if the creature belongs to the alignment). This ability tells the visionary what bloodlines, domains, hexes, schools, or mysteries (if any) the creature possesses. A successful Will saving throw negates this effect (DC = 10 + 1/2 the shaman's level + the shaman's Wisdom modifier). A creature affected by this ability cannot be affected by it again for 24 hours. This ability functions through magical sensors as with <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link> and <Link to="/spell/scrying">scrying</Link>.</p>
-<p>This ability replaces <strong className="hl">wandering spirit</strong> gained at 4th level.</p>
-<p><strong>Vision Spirit Magic:</strong> At 4th level, the visionary adds the following spells to the list of spells she can cast using spirit magic: <Link to="/spell/see_alignment">see alignment</Link> (1st), <Link to="/spell/see_invisibility">see invisibility</Link> (2nd), clairaudience/clairvoyance (3rd), <Link to="/spell/detect_scrying">detect scrying</Link> (4th), <Link to="/spell/prying_eyes">prying eyes</Link> (5th), <Link to="/spell/legend_lore">legend lore</Link> (6th), <Link to="/spell/vision">vision</Link> (7th), <Link to="/spell/moment_of_prescience">moment of prescience</Link> (8th), <Link to="/spell/foresight">foresight</Link> (9th).</p>
-<p>This ability replaces the <strong className="hl">spirit magic spells</strong> gained from the shaman's wandering spirit.</p>
-<p><strong>Improved Divination (Su):</strong> At 6th level, the visionary becomes more adept at divination magic. When she casts the <Link to="/spell/augury">augury</Link> spell, her chance for an accurate answer is automatically the maximum of 90%. Likewise, when she casts <Link to="/spell/divination">divination</Link>, she has the maximum 90% chance of an accurate answer.</p>
-<p>Finally, the visionary can prepare <em>scrying</em> as a 4th-level spell, and it requires only 1 minute to cast. The visionary also has a 10% chance per caster level to cast the spells listed in the scrying spell description, instead of 5% per caster level (to a maximum of 100%).</p>
-<p>The visionary must still prepare these spells to receive these benefits.</p>
-<p>This ability replaces the <strong className="hl">wandering hex</strong> gained at 6th level.</p>
-<p><strong>Wandering Spirit (Su):</strong> At 12th level, the visionary forms a temporary bond with another spirit (other than the one she selected using her spirit class feature). This is identical to the 4th-level shaman class feature. This adds the wandering spirit magic spells to the list of spells she can cast using spirit magic, along with vision spirit magic and her original spirit. At 20th level, she gains the abilities listed in the greater version of her wandering spirit.</p>
-<p>This ability replaces the <strong className="hl">greater version of wandering spirit</strong> gained at 12th level and <strong className="hl">true version of wandering spirit</strong> gained at 20th level.</p>
+<Ability id="arc-shaman-visionary-bonus-feat" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-visionary-bonus-feat">Bonus Feat</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">The visionary gains <Link to="/feat/diviners_delving">Diviner's Delving</Link> as a bonus feat, even if she does not meet the prerequisites.</Pair>
+</Ability>
+<Ability id="arc-shaman-visionary-discern-magical-expertise-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-visionary-discern-magical-expertise-ex">Discern Magical Expertise (Ex)</Pair>
+<Pair hl title="Replaces">Wandering spirit gained at 4th level</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">The shaman can determine what type of spellcasting expertise a creature possesses by studying the creature for 2 rounds with <Link to="/spell/detect_magic">detect magic</Link> or any of the following spells: <Link to="/spell/detect_chaos">detect chaos</Link>, <Link to="/spell/detect_evil">detect evil</Link>, <Link to="/spell/detect_good">detect good</Link>, or <Link to="/spell/detect_law">detect law</Link> (if the creature belongs to the alignment). This ability tells the visionary what bloodlines, domains, hexes, schools, or mysteries (if any) the creature possesses. A successful Will saving throw negates this effect (DC = 10 + 1/2 the shaman's level + the shaman's Wisdom modifier).</Pair>
+<Pair title="Special">A creature affected by this ability cannot be affected by it again for 24 hours. This ability functions through magical sensors as with <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link> and <Link to="/spell/scrying">scrying</Link>.</Pair>
+</Ability>
+<Ability id="arc-shaman-visionary-vision-spirit-magic" icon={["spell-book"]}>
+<Pair single id="arc-shaman-visionary-vision-spirit-magic">Vision Spirit Magic</Pair>
+<Pair hl title="Replaces">Spirit magic spells gained from the shaman's wandering spirit</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Info">The visionary adds the following spells to the list of spells she can cast using <em>spirit magic</em> at the listed spell level:</Pair>
+<Pair plain title="1st"><Link to="/spell/see_alignment">See alignment</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/see_invisibility">See invisibility</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/clairaudience_clairvoyance">Clairaudience/clairvoyance</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/detect_scrying">Detect scrying</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/prying_eyes">Prying eyes</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/legend_lore">Legend lore</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/vision">Vision</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/moment_of_prescience">Moment of prescience</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/foresight">Foresight</Link></Pair>
+</Ability>
+<Ability id="arc-shaman-visionary-improved-divination-su" icon={["upgrade","spell-book"]}>
+<Pair single id="arc-shaman-visionary-improved-divination-su">Improved Divination (Su)</Pair>
+<Pair hl title="Replaces">Wandering hex gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">The visionary becomes more adept at divination magic. When she casts the <Link to="/spell/augury">augury</Link> spell, her chance for an accurate answer is automatically the maximum of 90%. Likewise, when she casts <Link to="/spell/divination">divination</Link>, she has the maximum 90% chance of an accurate answer.</Pair>
+<Pair title="Ability">The visionary can prepare <em>scrying</em> as a 4th-level spell, and it requires only 1 minute to cast. The visionary also has a 10% chance per caster level to cast the spells listed in the <em>scrying</em> spell description, instead of 5% per caster level (to a maximum of 100%). The visionary must still prepare these spells to receive these benefits.</Pair>
+</Ability>
+<Ability id="arc-shaman-visionary-wandering-spirit-su" icon={["stairs-goal"]}>
+<Pair single id="arc-shaman-visionary-wandering-spirit-su">Wandering Spirit (Su)</Pair>
+<Pair hl title="Replaces">Greater version of wandering spirit gained at 12th level, true version of wandering spirit gained at 20th level</Pair>
+<Pair title="At 12th Level">The visionary forms a temporary bond with another spirit (other than the one she selected using her <em>spirit</em> class feature). This is identical to the 4th-level shaman class feature. This adds the <em>wandering spirit magic</em> spells to the list of spells she can cast using <em>spirit magic,</em> along with <em>vision spirit magic</em> and her original spirit.</Pair>
+<Pair title="At 20th Level">She gains the abilities listed in the <em>greater</em> version of her wandering spirit.</Pair>
+</Ability>
 </>};
 const _witch_doctor = {title: "Witch Doctor", jsx: <><h2 id="arc-shaman-witch_doctor-witch-doctor">Witch Doctor</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 113</Link><br/>The witch doctor is a healer who specializes in afflictions of the soul. Often misunderstood, she protects her tribe with healing powers, powerful defensive magic, and her own divine "witchcraft."</p>
-<p><strong>Alignment:</strong> A witch doctor cannot be of evil alignment.</p>
-<p><strong>Channel Energy (Su):</strong> At 4th level, the witch doctor can draw transcendental energies to her location, flooding it with positive energy as the cleric class feature. The witch doctor uses her shaman level - 3 as her effective cleric level, and can <Link to="/ability/channel_energy">channel energy</Link> a number of times per day equal to 3 + her Charisma modifier. This is a separate pool of channel energy that does not stack with the life spirit's channel spirit ability.</p>
-<p>This ability replaces the <strong className="hl">hexes</strong> gained at 4th and 12th levels.</p>
-<p><strong>Counter Curse (Su):</strong> At 8th level, the witch doctor can choose to lose any prepared spirit magic spell that is 3rd level or higher in order to spontaneously cast <Link to="/spell/dispel_magic">dispel magic</Link> or <Link to="/spell/remove_curse">remove curse</Link>. This ability can only target a spell effect that is on an ally (including herself). If she forfeits a spirit magic spell higher than 3rd level, she gains a +2 sacred bonus on her caster level check to dispel the spell or to remove the curse for every spell level higher than 3rd that she sacrifices.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 8th level.</p>
-<p><strong>Countering Hex (Su):</strong> At 10th level, the witch doctor can use her hex magic to <Link to="/rule/counterspells">counterspell</Link> as a readied action as dispel magic instead. She must succeed at a dispel check (1d20 + her shaman level) with a DC equal to 11 + the spell's caster level. If countering hex succeeds, the spell fizzles away and is lost. Failure means the spell is not countered. In either case, the witch doctor cannot attempt to use this hex against any of that caster's spells again for 24 hours. The witch doctor cannot use countering hex on an ongoing effect, a magic item, or a hex.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 10th level.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-shaman-witch_doctor--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Nonevil alignment</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-shaman-witch_doctor-channel-energy-su" icon={["abstract-091"]}>
+<Pair single id="arc-shaman-witch_doctor-channel-energy-su">Channel Energy (Su)</Pair>
+<Pair hl title="Replaces">Hexes gained at 4th and 12th levels</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">The witch doctor can draw transcendental energies to her location, flooding it with positive energy as the cleric class feature. The witch doctor uses her shaman level - 3 as her effective cleric level. This is a separate pool of <em>channel energy</em> that does not stack with the <Link to="/shamanspirit/life">life</Link> spirit's <em>channel spirit</em> ability.</Pair>
+</Ability>
+<Ability id="arc-shaman-witch_doctor-counter-curse-su" icon={["armor-upgrade","shield-reflect"]}>
+<Pair single id="arc-shaman-witch_doctor-counter-curse-su">Counter Curse (Su)</Pair>
+<Pair hl title="Replaces">Hex gained at 8th level</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">The witch doctor can choose to lose any prepared <em>spirit magic</em> spell that is 3rd level or higher in order to spontaneously cast <Link to="/spell/dispel_magic">dispel magic</Link> or <Link to="/spell/remove_curse">remove curse</Link>. This ability can only target a spell effect that is on an ally (including herself).</Pair>
+<Pair title="Special">If she forfeits a <em>spirit magic</em> spell higher than 3rd level, she gains a +2 sacred bonus on her caster level check to dispel the spell or to remove the curse for every spell level higher than 3rd that she sacrifices.</Pair>
+</Ability>
+<Ability id="arc-shaman-witch_doctor-countering-hex-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-shaman-witch_doctor-countering-hex-su">Countering Hex (Su)</Pair>
+<Pair hl title="Replaces">Hex gained at 10th level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">The witch doctor can use her hex magic to <Link to="/rule/counterspells">counterspell</Link> as a <Link to="/rule/readied_action">readied action</Link> as dispel magic instead. She must succeed at a dispel check (1d20 + her shaman level) with a DC equal to 11 + the spell's caster level. If <em>countering hex</em> succeeds, the spell fizzles away and is lost. Failure means the spell is not countered. In either case, the witch doctor cannot attempt to use this hex against any of that caster's spells again for 24 hours.</Pair>
+<Pair title="Special">The witch doctor cannot use <em>countering hex</em> on an ongoing effect, a magic item, or a hex.</Pair>
+</Ability>
 </>};
 export default {animist:_animist,benefactor:_benefactor,crystal_tender:_crystal_tender,deep_shaman:_deep_shaman,draconic_shaman:_draconic_shaman,grasping_vine:_grasping_vine,name_keeper:_name_keeper,overseer:_overseer,possessed_shaman:_possessed_shaman,primal_warden:_primal_warden,serendipity_shaman:_serendipity_shaman,speaker_for_the_past:_speaker_for_the_past,spirit_warden:_spirit_warden,true_silvered_throne:_true_silvered_throne,unsworn_shaman:_unsworn_shaman,visionary:_visionary,witch_doctor:_witch_doctor}
