@@ -2560,7 +2560,7 @@
 			"",
 			"**Base Statistics** When not raging and not affected by barkskin, the champion's statistics are AC 21, touch 11, flat-footed 18; hp 105; Fort +12, Will +8; Melee +1 trident +16/+11 (1d8+10), claw +13 (1d4+3), mwk spiked heavy steel shield +16 (1d6+6), bite +13 (1d4+3) or 4 claws +15 (1d4+6), bite +15 (1d4+6); Ranged mwk heavy crossbow +13 (1d10/19-20); Str 22, Con 17; CMB +15, CMD 28; Skills Intimidate +18, Swim +25.",
 			"",
-			"::mstats{str=26 dex=16 con=21 int=12 wis=13 cha=10 bab=+9 cmb=+17 cmd=28 feats=\"Great Fortitude~Improved Initiative~Improved Shield Bash~Intimidating Prowess~Multiattack~Power Attack~Toughness\" skills=\"acro|14|+18 when jumping~intm|20~per|13~ride|8\" lang=\"Aq~C~~speak with sharks\" sq=\"fast movement\" combat=\"Pbarkskin\" othergear=\"Mw|Asl~Mw|AS|Ahss~+1|Wt~Mw|Wuhc20~WIbogs2~WIclk2~!1,038 gp\"}",
+			"::mstats{str=26 dex=16 con=21 int=12 wis=13 cha=10 bab=+9 cmb=+17 cmd=28 feats=\"Great Fortitude~Improved Initiative~Improved Shield Bash~Intimidating Prowess~Multiattack~Power Attack~Toughness\" skills=\"acro|14|+18 when jumping~intm|20~per|13~ride|8\" lang=\"Aq~C~~speak with sharks\" sq=\"fast movement\" combat=Pbarkskin othergear=\"Mw|Asl~Mw|AS|Ahss~+1|Wt~Mw|Wuhc20~WIbogs2~WIclk2~!1,038 gp\"}",
 			"",
 			"::meco{env=\"temperate or warm ocean\"}",
 			"",

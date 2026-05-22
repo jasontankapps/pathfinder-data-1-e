@@ -2454,7 +2454,7 @@
 			"",
 			"**Base Statistics** When not using savage fury, the ragewight's statistics are AC 19, touch 11, flat-footed 18 (+1 Dex, +8 natural); hp 49 (11d8); Fort +3, Will +8; Melee mwk greatsword +9/+4 (2d6+1/17-20 plus energy drain); Ranged javelin +9 (1d6+4); Str 12, Cha 11; CMB +9; CMD 21; Skills Climb +15, Intimidate +11",
 			"",
-			"::mstats{str=18 dex=14 con=\"-\" int=11 wis=13 cha=17 bab=+8 cmb=+12 cmd=24 feats=\"Cleave~Furious Focus~Great Cleave~Improved Critical|greatsword~Lunge~Power Attack\" skills=\"climb|18~intm|16~k|r|7~per|15~stl|20\" racial=\"+8 Stealth\" lang=C gear=\"Wgs~Wj\"}",
+			"::mstats{str=18 dex=14 con=\"-\" int=11 wis=13 cha=17 bab=+8 cmb=+12 cmd=24 feats=\"Cleave~Furious Focus~Great Cleave~Improved Critical|greatsword~Lunge~Power Attack\" skills=\"climb|18~intm|16~k|r|7~per|15~stl|20\" racial=\"+8 Stealth\" lang=C gear=Wgs~Wj}",
 			"",
 			"::meco{env=\"temperate hills (necropolis of Nogortha)\" org=\"solitary, war band (1 ragewight plus 2-5 ‹monster/cairn wight«s›), or war clan (2-5 ragewights plus 3-10 cairn wights)\" treasure=S}",
 			"",

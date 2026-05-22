@@ -1941,7 +1941,7 @@
 			"",
 			"::mspell{sla cl=5 con=+8 constant=\"see invisibility~ventriloquism|DC 14\" day=\"3~dimension door~hideous laughter|DC 15~ray of enfeeblement|DC 14~scorching ray~~1~blur~glitterdust|DC 15\"}",
 			"",
-			"::mstats{str=15 dex=19 con=18 int=12 wis=15 cha=16 bab=+6 cmb=+8 cmd=22 feats=\"Combat Casting~Combat Reflexes~Improved Initiative\" skills=\"acro|13~bluff|12~dis|12~stl|13\" racial=\"+4 Perception\" lang=C~Tengu~Tien sq=\"‹umr/change shape› (Medium humanoid; ‹spell/alter self›), yamabushi weapons\" gear=\"Al\"}",
+			"::mstats{str=15 dex=19 con=18 int=12 wis=15 cha=16 bab=+6 cmb=+8 cmd=22 feats=\"Combat Casting~Combat Reflexes~Improved Initiative\" skills=\"acro|13~bluff|12~dis|12~stl|13\" racial=\"+4 Perception\" lang=C~Tengu~Tien sq=\"‹umr/change shape› (Medium humanoid; ‹spell/alter self›), yamabushi weapons\" gear=Al}",
 			"",
 			"::meco{env=\"temperate mountains\" org=\"solitary, pair, or patrol (1-2 plus 3-8 tengus or dire corbies)\" treasure=\"D=Al~+1|W-kusarigama~Wcl20+2~!other treasure\"}",
 			"",

@@ -226,6 +226,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 	});
 });
 
+// Save info to disk
 Object.entries($groupingData).forEach(([prop, value]) => {
 	const url = `./src/json/_GEN_${prop}.json`;
 	const file = JSON.stringify(value);
@@ -240,16 +241,11 @@ Object.entries($groupingData).forEach(([prop, value]) => {
 	}
 });
 
-const $allSourcesMap = [
-	`const output = {`
-];
-const $allSourcesElements = [
-	"import {lazy} from 'react';\n"
-];
+// Save _SOURCE_ info
 const sourceData = [];
 Object.entries($sources).forEach(([sourceTitle, value]) => {
 	// Make a property/variable name
-	const transformedProp = convertTextToLink(sourceTitle);
+	const sourceAsProp = convertTextToLink(sourceTitle);
 	// Analyze the data saved in $sources
 	const data = {};
 	value.forEach(page => {
@@ -270,11 +266,10 @@ Object.entries($sources).forEach(([sourceTitle, value]) => {
 	});
 	sourceData.push([
 		sizeof(data),
-		transformedProp,
+		sourceAsProp,
 		data
 	]);
 });
-$allSourcesMap.push(`};\nexport default output;`);
 
 // Sort the source data into <200k chunks
 const organizingSourceData = [ [0] ];

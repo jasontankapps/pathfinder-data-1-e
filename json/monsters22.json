@@ -498,7 +498,7 @@
 			"",
 			"::moffense{sp=30 spP=\"40 ft. base\" melee=\"greatclub +7 (2d8+7) or 2 claws +7 (1d6+5)\" space=10 reach=10}",
 			"",
-			"::mstats{str=21 dex=10 con=\"-\" int=\"-\" wis=10 cha=10 bab=+3 cmb=+9 cmd=19 feats=\"Improved Initiative#B\" gear=\"Ahp~Wgc\"}",
+			"::mstats{str=21 dex=10 con=\"-\" int=\"-\" wis=10 cha=10 bab=+3 cmb=+9 cmd=19 feats=\"Improved Initiative#B\" gear=Ahp~Wgc}",
 			"",
 			"::mfn[B~Bonus feat.]",
 			"",

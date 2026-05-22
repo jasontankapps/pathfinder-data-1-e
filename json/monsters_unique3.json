@@ -878,7 +878,7 @@
 			"",
 			"::moffense{sp=50 cl=30 melee=\"2 +1 claws +17 (1d6+8/19-20 plus 1d6 cold) or +1 flurry of blows +16/+16/+11/+6 (1d6+8/19-20 plus 1d6 cold)\" space=10 reach=10 rend=\"2 claws, 1d6+10\" specAtt=\"flurry of blows~frightful gaze (DC 14)~stunning fist (6/day, DC 15)\"}",
 			"",
-			"::mstats{str=24 dex=14 con=17 int=9 wis=16 cha=8 bab=+9 cmb=+19 cmd=33 feats=\"Cleave~Combat Reflexes~Deflect Arrows~Feral Combat Training~Great Fortitude~Improved Critical|claw~Improved Unarmed Strike~Power Attack~Stunning Fist~Weapon Focus|claw\" skills=\"acro|10|+23 when jumping~climb|24~intm|8~per|12\" racial=\"+13 Acrobatics when jumping, +4 Stealth (+12 in snow)\" lang=Ak sq=\"fast movement, high jump, ki pool (5 points, magic), maneuver training, purity of body, slow fall 20 ft.\" gear=\"WIfist1\"}",
+			"::mstats{str=24 dex=14 con=17 int=9 wis=16 cha=8 bab=+9 cmb=+19 cmd=33 feats=\"Cleave~Combat Reflexes~Deflect Arrows~Feral Combat Training~Great Fortitude~Improved Critical|claw~Improved Unarmed Strike~Power Attack~Stunning Fist~Weapon Focus|claw\" skills=\"acro|10|+23 when jumping~climb|24~intm|8~per|12\" racial=\"+13 Acrobatics when jumping, +4 Stealth (+12 in snow)\" lang=Ak sq=\"fast movement, high jump, ki pool (5 points, magic), maneuver training, purity of body, slow fall 20 ft.\" gear=WIfist1}",
 			"",
 			":::",
 			"",
