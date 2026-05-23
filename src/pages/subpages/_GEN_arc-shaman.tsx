@@ -85,7 +85,8 @@ const _benefactor = {title: "Benefactor", jsx: <><h2 id="arc-shaman-benefactor-b
 <Ability id="arc-shaman-benefactor-benefactor-hexes" extraClasses="hasSubs" icon={["magic-swirl","broken-shield"]}>
 <Pair single id="arc-shaman-benefactor-benefactor-hexes">Benefactor Hexes</Pair>
 <Pair hl title="Alters">Hexes</Pair>
-<Pair title="Ability">A benefactor adds the following hexes to the list of shaman hexes she can choose from whenever she gains a new <em>hex</em> or a <em>wandering hex.</em> A benefactor cannot gain a <em>hex</em> that is a curse effect or that has the word "curse" in its name as a <em>hex</em> or a <em>wandering hex.</em></Pair>
+<Pair title="Ability">A benefactor adds the following hexes to the list of shaman hexes she can choose from whenever she gains a new <em>hex</em> or a <em>wandering hex.</em></Pair>
+<Pair title="Special">A benefactor cannot gain a <em>hex</em> that is a curse effect or that has the word "curse" in its name as a <em>hex</em> or a <em>wandering hex.</em></Pair>
 </Ability>
 <Ability id="arc-shaman-benefactor-boon-reservoir-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
 <Pair single id="arc-shaman-benefactor-boon-reservoir-su">Boon Reservoir (Su)</Pair>
@@ -181,7 +182,7 @@ const _draconic_shaman = {title: "Draconic Shaman", jsx: <><h2 id="arc-shaman-dr
 <Pair single id="arc-shaman-draconic_shaman-drake-companion">Drake Companion</Pair>
 <Pair hl title="Replaces">Spirit, spirit animal, hexes gained at 4th and 10th levels</Pair>
 <Pair hl title="Alters">Spirit magic</Pair>
-<Pair title="Info">A draconic shaman gains a <Link to="/sidekick/drake">drake companion</Link> instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains <em>wandering spirit</em> at 4th level. She must select all her hexes (other than her wandering hexes) from the list of <Link to="/ability/shaman_hexes">shaman hexes</Link>, and she can't select the <em>witch hex</em> shaman hex. She doesn't gain <em>spirit magic</em> slots until 4th level when she gains her <em>wandering spirit.</em> Any ability granted by a <em>wandering spirit</em> that would normally affect a spirit animal (such as <Link to="/shamanspirit/nature">nature's</Link> <em>true spirit</em> ability) has no effect for a draconic shaman.</Pair>
+<Pair title="Info">A draconic shaman gains a <Link to="/sidekick/drake">drake companion</Link> instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains <em>wandering spirit</em> at 4th level. She must select all her hexes (other than her wandering hexes) from the list of <Link to="/ability/shaman_hexes">shaman hexes</Link>, and she can't select the <em>witch hex</em> shaman hex. She doesn't gain <em>spirit magic</em> slots until 4th level when she gains her <em>wandering spirit.</em> Any ability granted by a <em>wandering spirit</em> that would normally affect a spirit animal (such as <Link to="/shamanspirit/nature">nature's</Link> <em>true spirit ability</em>) has no effect for a draconic shaman.</Pair>
 </Ability>
 </>};
 const _grasping_vine = {title: "Grasping Vine", jsx: <><h2 id="arc-shaman-grasping_vine-grasping-vine">Grasping Vine</h2>
@@ -238,7 +239,7 @@ const _name_keeper = {title: "Name-Keeper", jsx: <><h2 id="arc-shaman-name_keepe
 <Pair id="arc-shaman-name_keeper-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature), Knowledge (planes), Survival</Pair></Ability>
-<Ability id="arc-shaman-name_keeper-inherited-wayfinder-su" icon={["stairs-goal"]}>
+<Ability id="arc-shaman-name_keeper-inherited-wayfinder-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-shaman-name_keeper-inherited-wayfinder-su">Inherited Wayfinder (Su)</Pair>
 <Pair hl title="Replaces">Spirit animal</Pair>
 <Pair title="Ability">A name-keeper forms a powerful bond with a damaged <Link to="/magic-wondrous/wayfinder">wayfinder</Link> inherited from another Pathfinder. It functions for her alone. This functions as a <Link to="/class/wizard">wizard's</Link> bonded object except it can be used to cast shaman spells (instead of wizard spells).</Pair>
@@ -433,7 +434,7 @@ const _speaker_for_the_past = {title: "Speaker for the Past", jsx: <><h2 id="arc
 <Pair hl title="Replaces">Familiar</Pair>
 <Pair title="Info">A speaker for the past adds the spells from the <Link to="/mystery/ancestor">ancestor</Link> and <Link to="/mystery/time">time</Link> oracle mysteries to her class spell list (at the oracle level for those spells).</Pair>
 <Pair title="Choice">The speaker for the past must choose a time when she must spend 1 hour each day in quiet contemplation to regain her daily allotment of spells, but does not need to commune with a familiar during this time.</Pair>
-<Pair title="Special">Because she has no familiar, she does not gain a <strong className="hl">spirit familiar</strong> feature from any spirit she bonds with.</Pair>
+<Pair title="Special">Because she has no familiar, she does not gain a <em>spirit familiar</em> feature from any spirit she bonds with.</Pair>
 </Ability>
 <Ability id="arc-shaman-speaker_for_the_past-revelations-of-the-past" icon={["stairs-goal"]}>
 <Pair single id="arc-shaman-speaker_for_the_past-revelations-of-the-past">Revelations of the Past</Pair>

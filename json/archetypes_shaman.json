@@ -47,7 +47,7 @@
 			"",
 			"::ab[Benefactor Ethos]{icon=down note=\"Benefactors cannot cast shaman spells with the curse descriptor; for the benefactor's purpose, they are considered not on the shaman spell list. A benefactor can't use spell completion or spell trigger magic items that use shaman spells with the curse descriptor unless she succeeds at a Use Magic Device check.\" alter=Spellcasting}",
 			"",
-			"::ab[Benefactor Hexes]{head icon=magic-down ability=\"A benefactor adds the following hexes to the list of shaman hexes she can choose from whenever she gains a new *hex* or a *wandering hex.* A benefactor cannot gain a *hex* that is a curse effect or that has the word &quot&curse&quot& in its name as a *hex* or a *wandering hex.*\" alter=Hexes}",
+			"::ab[Benefactor Hexes]{head icon=magic-down ability=\"A benefactor adds the following hexes to the list of shaman hexes she can choose from whenever she gains a new *hex* or a *wandering hex.*\" special=\"A benefactor cannot gain a *hex* that is a curse effect or that has the word &quot&curse&quot& in its name as a *hex* or a *wandering hex.*\" alter=Hexes}",
 			"",
 			"::ab[Boon Reservoir (Su)]{next icon=def ability=\"Once per day, a benefactor can perform a 10-minute ritual with one of her allies, plus one additional ally for every 3 shaman levels she has. All creatures that participate in the ritual (including the benefactor) gain a boon reservoir with a number of points equal to 1/2 the benefactor's shaman level (minimum 1) for 24 hours.\" immediate=\"A creature can spend 1 point from its boon reservoir to gain a +2 insight bonus on all saving throws it attempts until the start of its next turn.\" order=ai special=\"Boon reservoir points that are not spent within 24 hours are wasted.\"}",
 			"",
@@ -109,7 +109,7 @@
 			"‹SOURCE Legacy of Dragons/24›  ",
 			"In some regions of Tian Xia, shamans are unusually common, and may have strong ties to dragon gods and imperial dragons who act as mentors. Some of these shamans draw their powers from the might of dragons, rather than from spirits. These shamans each gain a powerful drake as an ally, and view caring for that drake as a sacred duty.",
 			"",
-			"::ab[Drake Companion]{icon=power-down note=\"A draconic shaman gains a ‹sidekick/drake« companion› instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains *wandering spirit* at 4th level. She must select all her hexes (other than her wandering hexes) from the list of ‹ability/shaman hexes›, and she can't select the *witch hex* shaman hex. She doesn't gain *spirit magic* slots until 4th level when she gains her *wandering spirit.* Any ability granted by a *wandering spirit* that would normally affect a spirit animal (such as ‹shamanspirit/nature«'s› *true spirit* ability) has no effect for a draconic shaman.\" replace=\"Spirit~spirit animal~hexes gained at 4th and 10th levels\" alter=\"Spirit magic\"}"
+			"::ab[Drake Companion]{icon=power-down note=\"A draconic shaman gains a ‹sidekick/drake« companion› instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains *wandering spirit* at 4th level. She must select all her hexes (other than her wandering hexes) from the list of ‹ability/shaman hexes›, and she can't select the *witch hex* shaman hex. She doesn't gain *spirit magic* slots until 4th level when she gains her *wandering spirit.* Any ability granted by a *wandering spirit* that would normally affect a spirit animal (such as ‹shamanspirit/nature«'s› *true spirit ability*) has no effect for a draconic shaman.\" replace=\"Spirit~spirit animal~hexes gained at 4th and 10th levels\" alter=\"Spirit magic\"}"
 		]
 	},
 	"grasping_vine": {
@@ -145,7 +145,7 @@
 			"",
 			"::cskill{gain=ke~kh~ling lose=kna~kp~sur}",
 			"",
-			"::ab[Inherited Wayfinder (Su)]{icon=power ability=\"A name-keeper forms a powerful bond with a damaged ‹magic-wondrous/wayfinder› inherited from another Pathfinder. It functions for her alone. This functions as a ‹class/wizard«'s› bonded object except it can be used to cast shaman spells (instead of wizard spells).\" replace=\"Spirit animal\"}",
+			"::ab[Inherited Wayfinder (Su)]{icon=power head ability=\"A name-keeper forms a powerful bond with a damaged ‹magic-wondrous/wayfinder› inherited from another Pathfinder. It functions for her alone. This functions as a ‹class/wizard«'s› bonded object except it can be used to cast shaman spells (instead of wizard spells).\" replace=\"Spirit animal\"}",
 			"",
 			":::ab{sub title=\"Bonded Object\" flavor=\"Text from the wizard ability.\" icon=magic action=Ability}",
 			"",
@@ -271,7 +271,7 @@
 			"",
 			"::cskill{gain=ling~kh~kl~per~umd}",
 			"",
-			"::ab[Mysteries of the Past]{icon=learn order=nc note=\"A speaker for the past adds the spells from the ‹mystery/ancestor› and ‹mystery/time› oracle mysteries to her class spell list (at the oracle level for those spells).\" choice=\"The speaker for the past must choose a time when she must spend 1 hour each day in quiet contemplation to regain her daily allotment of spells, but does not need to commune with a familiar during this time.\" replace=Familiar special=\"Because she has no familiar, she does not gain a @HLspirit_familiar feature from any spirit she bonds with.\"}",
+			"::ab[Mysteries of the Past]{icon=learn order=nc note=\"A speaker for the past adds the spells from the ‹mystery/ancestor› and ‹mystery/time› oracle mysteries to her class spell list (at the oracle level for those spells).\" choice=\"The speaker for the past must choose a time when she must spend 1 hour each day in quiet contemplation to regain her daily allotment of spells, but does not need to commune with a familiar during this time.\" replace=Familiar special=\"Because she has no familiar, she does not gain a *spirit familiar* feature from any spirit she bonds with.\"}",
 			"",
 			"::ab[Revelations of the Past]{icon=power l4=\"The speaker for the past can select a revelation from the ancestor or time mysteries.\" special=\"She uses her shaman level as her oracle level for these revelations, and uses her Wisdom modifier in place of her Charisma modifier for the purposes of the revelation.\" repeatAt=\"She selects another such revelation.~6~12~14~20\" replace=\"Wandering spirit~wandering hex\"}"
 		]
