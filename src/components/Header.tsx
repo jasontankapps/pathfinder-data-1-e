@@ -11,7 +11,7 @@ const Header: FC<PropsWithChildren<HeaderProps>> = (props) => {
 	const {id, extraClasses, sub, full, children} = props;
 	const base = sub ? "statblockSubHeader" : (full ? "statblockHeaderFull" : "statblockHeader");
 	const className = base + (extraClasses ? " " + extraClasses : "");
-	const etc = id ? {id, dataHashTarget: true} : {};
+	const etc = id ? {id, "data-hash-target": true} : {};
 	return (
 		<div className={className} {...etc}>{children}</div>
 	);

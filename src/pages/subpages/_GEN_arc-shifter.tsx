@@ -32,23 +32,23 @@ const _adaptive_shifter = {title: "Adaptive Shifter", jsx: <><h2 id="arc-shifter
 <Pair title="At 16th Level">An adaptive shifter learns her 9th <em>reactive form.</em></Pair>
 <Pair title="At 18th Level">An adaptive shifter chooses her 10th <em>reactive form.</em></Pair>
 <Pair title="At 20th Level">An adaptive shifter gains her 11th <em>reactive form.</em></Pair>
-<Pair title="Special">Forms marked with an asterisk (&amp;ast&amp;) are lasting forms. An adaptive shifter can spend two uses of <em>reactive aspect</em> to increase a lasting form's duration to 1 minute. Forms not marked with an asterisk always last only until the beginning of her next turn.</Pair>
+<Pair title="Special">Forms marked with an asterisk (&#42;) are <em>lasting forms.</em> An adaptive shifter can spend two uses of <em>reactive aspect</em> to increase a <em>lasting form's</em> duration to 1 minute. Forms not marked with an asterisk always last only until the beginning of her next turn.</Pair>
 </Ability>
 <Ability id="arc-shifter-adaptive_shifter-adaptive-defense" extraClasses="subAbility" icon={["armor-upgrade"]}>
 <Pair single id="arc-shifter-adaptive_shifter-adaptive-defense">Adaptive Defense</Pair>
 <Pair title="Passive Ability">When assuming this form, the adaptive shifter chooses one saving throw and gains a competence bonus on the selected save equal to her Wisdom modifier.</Pair>
 </Ability>
-<Ability id="arc-shifter-adaptive_shifter-aligned-adaptationast" extraClasses="subAbility" icon={["magic-swirl","upgrade"]}>
-<Pair single id="arc-shifter-adaptive_shifter-aligned-adaptationast">Aligned Adaptation&amp;ast&amp;</Pair>
+<Ability id="arc-shifter-adaptive_shifter-aligned-adaptation42" extraClasses="subAbility" icon={["magic-swirl","upgrade"]}>
+<Pair single id="arc-shifter-adaptive_shifter-aligned-adaptation42">Aligned Adaptation&#42;</Pair>
 <Pair title="Passive Ability">When assuming this form, the adaptive shifter chooses one alignment within one step of her own alignment on either the law/chaos axis or the good/evil axis. All spells, effects, and magic items affect the adaptive shifter as though that were her actual alignment.</Pair>
 <Pair title="At 10th Level">Her natural weapon attacks overcome damage reduction as if they were weapons of her assumed alignment.</Pair>
 </Ability>
-<Ability id="arc-shifter-adaptive_shifter-aquatic-formast" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-shifter-adaptive_shifter-aquatic-formast">Aquatic Form&amp;ast&amp;</Pair>
+<Ability id="arc-shifter-adaptive_shifter-aquatic-form42" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-shifter-adaptive_shifter-aquatic-form42">Aquatic Form&#42;</Pair>
 <Pair title="Passive Ability">The adaptive shifter gains a swim speed equal to her base speed, and she can breathe underwater.</Pair>
 </Ability>
-<Ability id="arc-shifter-adaptive_shifter-climbing-formast" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-shifter-adaptive_shifter-climbing-formast">Climbing Form&amp;ast&amp;</Pair>
+<Ability id="arc-shifter-adaptive_shifter-climbing-form42" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-shifter-adaptive_shifter-climbing-form42">Climbing Form&#42;</Pair>
 <Pair title="Passive Ability">The adaptive shifter gains a climb speed equal to her base speed.</Pair>
 </Ability>
 <Ability id="arc-shifter-adaptive_shifter-durable-form" extraClasses="subAbility" icon={["armor-upgrade"]}>
@@ -62,17 +62,17 @@ const _adaptive_shifter = {title: "Adaptive Shifter", jsx: <><h2 id="arc-shifter
 <Pair title="At 18th Level">This becomes DR 10/adamantine.</Pair>
 <Pair title="At 20th Level">This becomes DR 11/adamantine.</Pair>
 </Ability>
-<Ability id="arc-shifter-adaptive_shifter-evasive-formast" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade","upgrade"]}>
-<Pair single id="arc-shifter-adaptive_shifter-evasive-formast">Evasive Form&amp;ast&amp;</Pair>
+<Ability id="arc-shifter-adaptive_shifter-evasive-form42" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade","upgrade"]}>
+<Pair single id="arc-shifter-adaptive_shifter-evasive-form42">Evasive Form&#42;</Pair>
 <Pair title="Passive Ability">The adaptive shifter gains <Link to="/umr/compression">compression</Link>, a +4 dodge bonus to her CMD against grapple combat maneuvers, and a competence bonus equal to her Wisdom modifier on Escape Artist checks.</Pair>
 </Ability>
-<Ability id="arc-shifter-adaptive_shifter-giant-formast" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-shifter-adaptive_shifter-giant-formast">Giant Form&amp;ast&amp;</Pair>
+<Ability id="arc-shifter-adaptive_shifter-giant-form42" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-shifter-adaptive_shifter-giant-form42">Giant Form&#42;</Pair>
 <Pair title="Passive Ability">The adaptive shifter increases in size, as per <Link to="/spell/enlarge_person">enlarge person</Link>.</Pair>
 <Pair title="Special">The adaptive shifter can assume this form only as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="arc-shifter-adaptive_shifter-resistant-formast" extraClasses="subAbility" icon={["armor-upgrade"]}>
-<Pair single id="arc-shifter-adaptive_shifter-resistant-formast">Resistant Form&amp;ast&amp;</Pair>
+<Ability id="arc-shifter-adaptive_shifter-resistant-form42" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-shifter-adaptive_shifter-resistant-form42">Resistant Form&#42;</Pair>
 <Pair title="Passive Ability">When assuming this form, the adaptive shifter chooses acid, cold, electricity, fire, or sonic damage. She gains <Link to="/umr/resistance">resistance</Link> to the chosen damage type equal to 5 plus <Link to="/misc/half">half</Link> her level.</Pair>
 <Pair title="Special">She can learn this form a second time, increasing the resistance granted to 10 plus her level.</Pair>
 </Ability>
@@ -86,29 +86,29 @@ const _adaptive_shifter = {title: "Adaptive Shifter", jsx: <><h2 id="arc-shifter
 <Pair title="At 20th Level">This increases to 6d8.</Pair>
 <Pair title="Special">The adaptive shifter can assume this form only as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="arc-shifter-adaptive_shifter-scouting-formast" extraClasses="subAbility" icon={["upgrade","stairs-goal"]}>
-<Pair single id="arc-shifter-adaptive_shifter-scouting-formast">Scouting Form&amp;ast&amp;</Pair>
+<Ability id="arc-shifter-adaptive_shifter-scouting-form42" extraClasses="subAbility" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-shifter-adaptive_shifter-scouting-form42">Scouting Form&#42;</Pair>
 <Pair title="Passive Ability">The adaptive shifter gains a competence bonus equal to her Wisdom modifier on Stealth checks, and she gains the benefits of the shifter's <em>trackless step</em> ability.</Pair>
 <Pair title="At 12th Level">She can use Stealth to hide, even if she does not have cover or concealment (but not if observed).</Pair>
 </Ability>
-<Ability id="arc-shifter-adaptive_shifter-sensory-formast" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-shifter-adaptive_shifter-sensory-formast">Sensory Form&amp;ast&amp;</Pair>
+<Ability id="arc-shifter-adaptive_shifter-sensory-form42" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-shifter-adaptive_shifter-sensory-form42">Sensory Form&#42;</Pair>
 <Pair title="Passive Ability">The adaptive shifter gains low-light vision and <Link to="/umr/scent">scent</Link>.</Pair>
 <Pair title="Special">She can learn this form a second time to also gain darkvision with a range of 60 feet and a competence bonus on Perception checks equal to her Wisdom modifier.</Pair>
 </Ability>
-<Ability id="arc-shifter-adaptive_shifter-sky-hunter-formast" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-shifter-adaptive_shifter-sky-hunter-formast">Sky Hunter Form&amp;ast&amp;</Pair>
+<Ability id="arc-shifter-adaptive_shifter-sky-hunter-form42" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-shifter-adaptive_shifter-sky-hunter-form42">Sky Hunter Form&#42;</Pair>
 <Pair title="Prerequisites">6th-level shifter</Pair>
 <Pair title="Passive Ability">The adaptive shifter gains a fly speed equal to her base speed with average maneuverability.</Pair>
 <Pair title="Special">She can learn this form a second time, increasing her fly speed by 20 feet and improving her maneuverability to good.</Pair>
 </Ability>
-<Ability id="arc-shifter-adaptive_shifter-spiked-formast" extraClasses="subAbility" icon={["armor-upgrade","bowman"]}>
-<Pair single id="arc-shifter-adaptive_shifter-spiked-formast">Spiked Form&amp;ast&amp;</Pair>
+<Ability id="arc-shifter-adaptive_shifter-spiked-form42" extraClasses="subAbility" icon={["armor-upgrade","bowman"]}>
+<Pair single id="arc-shifter-adaptive_shifter-spiked-form42">Spiked Form&#42;</Pair>
 <Pair title="Passive Ability">The adaptive shifter grows spines over her body. Any foe striking her with an unarmed strike or a melee natural weapon takes an amount of piercing damage equal to the base damage of her <em>shifter claws,</em> which ignores any damage reduction her <em>shifter claws</em> would ignore.</Pair>
 <Pair title="Special">She can learn this form a second time, allowing her to fling her spines as thrown natural weapons that deal piercing damage, have a range increment of 30 feet, and allow her to make multiple attacks with her spines as part of a full attack; these otherwise deal damage and overcome damage reduction as her <em>shifter claws.</em></Pair>
 </Ability>
-<Ability id="arc-shifter-adaptive_shifter-sprinting-formast" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-shifter-adaptive_shifter-sprinting-formast">Sprinting Form&amp;ast&amp;</Pair>
+<Ability id="arc-shifter-adaptive_shifter-sprinting-form42" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-shifter-adaptive_shifter-sprinting-form42">Sprinting Form&#42;</Pair>
 <Pair title="Passive Ability">The adaptive shifter's base speed increases by 20 feet.</Pair>
 </Ability>
 <Ability id="arc-shifter-adaptive_shifter-stretching-form" extraClasses="subAbility" icon={["mailed-fist"]}>
@@ -120,7 +120,7 @@ const _adaptive_shifter = {title: "Adaptive Shifter", jsx: <><h2 id="arc-shifter
 <Pair hl title="Replaces">Wild empathy, track, woodland stride, trackless step</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">An adaptive shifter can spend 1 minute willing her body to adapt in a more enduring way. At the end of the minute, she expends two uses of her <em>reactive aspect</em> and selects one <em>lasting form</em> she knows. She assumes this form and can maintain it until she regains her daily uses of <em>reactive aspect</em> or uses this ability again. This adaptation does not count against the maximum number of forms she can assume at once.</Pair>
-<Pair title="At 15th Level">The adaptive shifter can maintain up to two lasting adaptations simultaneously, spending an additional minute and two uses of her <em>reactive aspect</em> each time she assumes a new adaptation.</Pair>
+<Pair title="At 15th Level">The adaptive shifter can maintain up to two <em>lasting adaptations</em> simultaneously, spending an additional minute and two uses of her <em>reactive aspect</em> each time she assumes a new adaptation.</Pair>
 <Pair title="Special">She can select a form that has a minimum level only if her character level is at least 3 higher than the minimum level.</Pair>
 </Ability>
 <Ability id="arc-shifter-adaptive_shifter-unfettered-wild-shape-su" icon={["magic-swirl"]}>
@@ -235,7 +235,7 @@ const _elementalist_shifter = {hasJL:true,title: "Elementalist Shifter", jsx: <>
 <Pair single id="arc-shifter-elementalist_shifter-elemental-aspect-su">Elemental Aspect (Su)</Pair>
 <Pair hl title="Alters">Shifter aspect</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Choice">An elementalist shifter chooses one elemental aspect (<InnerLink toTop to="arc-shifter-elementalist_shifter-elemental_aspects">see below</InnerLink>) rather than a <em>shifter aspect.</em> This ability otherwise functions as <em>shifter aspect.</em></Pair>
+<Pair title="Choice">An elementalist shifter chooses one elemental aspect (<InnerLink toTop to="arc-shifter-elementalist_shifter-elemental-aspects">see below</InnerLink>) rather than a <em>shifter aspect.</em> This ability otherwise functions as <em>shifter aspect.</em></Pair>
 <Pair title="At 5th Level">She gains her 2nd elemental aspect.</Pair>
 <Pair title="At 10th Level">She gains a 3rd elemental aspect.</Pair>
 <Pair title="At 15th Level">She gains her 4th elemental aspect.</Pair>
@@ -249,7 +249,7 @@ const _elementalist_shifter = {hasJL:true,title: "Elementalist Shifter", jsx: <>
 <Pair single id="arc-shifter-elementalist_shifter-elemental-strike-su">Elemental Strike (Su)</Pair>
 <Pair hl title="Replaces">Shifter claws</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Swift Action">An elementalist shifter can charge her melee attacks with elemental energy. The elementalist shifter can charge her attacks only with an element she has chosen with <em>elemental aspect.</em> Once charged, each melee attack the elementalist shifter makes until the start of her next turn deal additional 1d6 points of energy damage based on the element she chooses when taking this action (see <InnerLink toTop to="arc-shifter-elementalist_shifter-elemental_aspects">Elemental Aspects</InnerLink> below).</Pair>
+<Pair title="Swift Action">An elementalist shifter can charge her melee attacks with elemental energy. The elementalist shifter can charge her attacks only with an element she has chosen with <em>elemental aspect.</em> Once charged, each melee attack the elementalist shifter makes until the start of her next turn deal additional 1d6 points of energy damage based on the element she chooses when taking this action (see <InnerLink toTop to="arc-shifter-elementalist_shifter-elemental-aspects">Elemental Aspects</InnerLink> below).</Pair>
 <Pair title="At 4th Level">This additional damage becomes +2d6 points of energy damage.</Pair>
 <Pair title="At 8th Level">This additional damage increases to +3d6 points of energy damage.</Pair>
 <Pair title="At 12th Level">This additional damage becomes +4d6 points of energy damage.</Pair>
@@ -295,59 +295,67 @@ const _elementalist_shifter = {hasJL:true,title: "Elementalist Shifter", jsx: <>
 </Ability>
 <h3 id="arc-shifter-elementalist_shifter-elemental-aspects" data-hash-target>Elemental Aspects</h3>
 <p>Elementalist shifters do not infuse their bodies with bestial qualities taken from animal aspects. Rather, they take into themselves raw elemental power from the planes of Air, Earth, Fire, and Water. The following aspects are used by the elementalist shifter archetype; they cannot be selected as aspects by other shifters.</p>
-<h4 id="arc-shifter-elementalist_shifter-air">Air</h4>
-<p>You take on the power of an <Link to="/monster/air_elemental">air elemental</Link>, gaining the ability to fly and to control powerful gusts of wind. You take inspiration from the patterns of clouds in the sky, the tumultuous fury of the storm, and the gentle caress of a cooling breeze. Flying creatures, such as bats and birds, are your favorites. Spring is your favored season - a time when storms bring freshness to the world but that lacks the brutality of winter's devastation.</p>
-<Ability id="arc-shifter-elementalist_shifter-minor-form" icon={["upgrade"]}>
+<Ability id="arc-shifter-elementalist_shifter-air" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-shifter-elementalist_shifter-air">Air</Pair>
+<Pair title="Info">You take on the power of an air elemental, gaining the ability to fly and to control powerful gusts of wind. You take inspiration from the patterns of clouds in the sky, the tumultuous fury of the storm, and the gentle caress of a cooling breeze. Flying creatures, such as bats and birds, are your favorites. Spring is your favored season - a time when storms bring freshness to the world but that lacks the brutality of winter's devastation.</Pair>
+</Ability>
+<Ability id="arc-shifter-elementalist_shifter-minor-form" extraClasses="subAbility" icon={["upgrade"]}>
 <Pair single id="arc-shifter-elementalist_shifter-minor-form">Minor Form</Pair>
 <Pair title="Ability">You gain a +2 enhancement bonus to your Dexterity score.</Pair>
 <Pair title="At 8th Level">This bonus increases to +4.</Pair>
 <Pair title="At 15th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="arc-shifter-elementalist_shifter-major-form" icon={["magic-swirl","armor-upgrade"]}>
+<Ability id="arc-shifter-elementalist_shifter-major-form" extraClasses="subAbility" icon={["magic-swirl","armor-upgrade"]}>
 <Pair single id="arc-shifter-elementalist_shifter-major-form">Major Form</Pair>
-<Pair title="Ability">Your shape changes to that of a Medium air elemental. While you are in this form, you gain a fly speed of 60 feet (average maneuverability) and airborne creatures take a -1 penalty on attack and damage rolls against you.</Pair>
+<Pair title="Ability">Your shape changes to that of a <Link to="/monster/medium_air_elemental">Medium air elemental</Link>. While you are in this form, you gain a fly speed of 60 feet (average maneuverability) and airborne creatures take a -1 penalty on attack and damage rolls against you.</Pair>
 <Pair title="At 8th Level">Your fly speed increases to 100 feet (perfect) and you gain the ability to transform yourself into a whirlwind as a standard action for 1 round per 2 shifter levels you have. This otherwise functions as per the <Link to="/umr/whirlwind">whirlwind</Link> universal monster rule.</Pair>
 <Pair title="At 15th Level">You gain <Link to="/feat/improved_natural_attack">Improved Natural Attack</Link> with your slam.</Pair>
 </Ability>
-<h4 id="arc-shifter-elementalist_shifter-earth">Earth</h4>
-<p>You take on the power of an <Link to="/monster/earth_elemental">earth elemental</Link>, gaining the ability to burrow through the earth and deliver powerful blows. You take comfort in caverns, mountainous regions, and areas rent by canyons and chasms, and you feel a deep kinship to burrowing animals of all types. Be it the soothing feel of fresh topsoil or the devastating fury of an earthquake, you understand the raw power of earth. Your favored season is fall - the traditional time of the harvest, when bounty from the earth is offered.</p>
-<Ability id="arc-shifter-elementalist_shifter-minor-form" icon={["magic-swirl"]}>
+<Ability id="arc-shifter-elementalist_shifter-earth" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-shifter-elementalist_shifter-earth">Earth</Pair>
+<Pair title="Info">You take on the power of an earth elemental, gaining the ability to burrow through the earth and deliver powerful blows. You take comfort in caverns, mountainous regions, and areas rent by canyons and chasms, and you feel a deep kinship to burrowing animals of all types. Be it the soothing feel of fresh topsoil or the devastating fury of an earthquake, you understand the raw power of earth. Your favored season is fall - the traditional time of the harvest, when bounty from the earth is offered.</Pair>
+</Ability>
+<Ability id="arc-shifter-elementalist_shifter-minor-form" extraClasses="subAbility" icon={["magic-swirl"]}>
 <Pair single id="arc-shifter-elementalist_shifter-minor-form">Minor Form</Pair>
 <Pair title="Ability">You gain a +2 enhancement bonus to your Constitution score.</Pair>
 <Pair title="At 8th Level">This bonus increases to +4.</Pair>
 <Pair title="At 15th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="arc-shifter-elementalist_shifter-major-form" icon={["magic-swirl","upgrade","broken-shield"]}>
+<Ability id="arc-shifter-elementalist_shifter-major-form" extraClasses="subAbility" icon={["magic-swirl","upgrade","broken-shield"]}>
 <Pair single id="arc-shifter-elementalist_shifter-major-form">Major Form</Pair>
-<Pair title="Ability">Your shape changes to that of a Medium earth elemental. While you are in this form, your base speed is reduced to 20 feet, but you gain a burrow speed of 10 feet, and you gain a +1 bonus on attack and damage rolls if both you and your target are touching the ground. If the target is airborne or waterborne, you take a -4 penalty on attack and damage rolls against it. These modifiers also apply to <Link to="/rule/bull_rush">bull rush</Link> and <Link to="/rule/overrun">overrun</Link> combat maneuvers, whether you are initiating or resisting these kinds of attacks.</Pair>
+<Pair title="Ability">Your shape changes to that of a <Link to="/monster/medium_earth_elemental">Medium earth elemental</Link>. While you are in this form, your base speed is reduced to 20 feet, but you gain a burrow speed of 10 feet, and you gain a +1 bonus on attack and damage rolls if both you and your target are touching the ground. If the target is airborne or waterborne, you take a -4 penalty on attack and damage rolls against it. These modifiers also apply to <Link to="/rule/bull_rush">bull rush</Link> and <Link to="/rule/overrun">overrun</Link> combat maneuvers, whether you are initiating or resisting these kinds of attacks.</Pair>
 <Pair title="At 8th Level">Your burrow speed increases to 20 feet and you gain <Link to="/umr/earth_glide">earth glide</Link> as per the universal monster rule.</Pair>
 <Pair title="At 15th Level">You gain Improved Natural Attack with your slam.</Pair>
 </Ability>
-<h4 id="arc-shifter-elementalist_shifter-fire">Fire</h4>
-<p>You take on the power of a <Link to="/monster/fire_elemental">fire elemental</Link>, becoming a being of living flame that can burn enemies and move with great speed. You enjoy regions where precipitation rarely intrudes, such as desert landscapes and dry savannas, but the slopes of volcanoes hold the greatest majesty to you. You enjoy the companionship of swiftly moving creatures and those who enjoy basking in the sun, for you empathize with their appreciation of the daytime's warmth. Forest fires are things of beauty to you, yet you respect fire and would never think to wantonly inflict it upon the natural world. Summer is your favorite season, for this is a time of heat waves and blistering sunny days.</p>
-<Ability id="arc-shifter-elementalist_shifter-minor-form" icon={["magic-swirl"]}>
+<Ability id="arc-shifter-elementalist_shifter-fire" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-shifter-elementalist_shifter-fire">Fire</Pair>
+<Pair title="Info">You take on the power of a fire elemental, becoming a being of living flame that can burn enemies and move with great speed. You enjoy regions where precipitation rarely intrudes, such as desert landscapes and dry savannas, but the slopes of volcanoes hold the greatest majesty to you. You enjoy the companionship of swiftly moving creatures and those who enjoy basking in the sun, for you empathize with their appreciation of the daytime's warmth. Forest fires are things of beauty to you, yet you respect fire and would never think to wantonly inflict it upon the natural world. Summer is your favorite season, for this is a time of heat waves and blistering sunny days.</Pair>
+</Ability>
+<Ability id="arc-shifter-elementalist_shifter-minor-form" extraClasses="subAbility" icon={["magic-swirl"]}>
 <Pair single id="arc-shifter-elementalist_shifter-minor-form">Minor Form</Pair>
 <Pair title="Ability">You gain a +2 enhancement bonus to your Dexterity score.</Pair>
 <Pair title="At 8th Level">This bonus increases to +4.</Pair>
 <Pair title="At 15th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="arc-shifter-elementalist_shifter-major-form" icon={["magic-swirl","armor-upgrade","broken-shield","stairs-goal"]}>
+<Ability id="arc-shifter-elementalist_shifter-major-form" extraClasses="subAbility" icon={["magic-swirl","armor-upgrade","broken-shield","stairs-goal"]}>
 <Pair single id="arc-shifter-elementalist_shifter-major-form">Major Form</Pair>
-<Pair title="Ability">Your shape changes to that of a Medium fire elemental. While you are in this form, your base speed changes to 50 feet and you gain <Link to="/umr/immunity">immunity</Link> to fire, <Link to="/umr/vulnerability">vulnerability</Link> to cold, and the <Link to="/umr/burn">burn</Link> special attack as per the universal monster rule, dealing damage equal to your slam attack whenever a creature fails its Reflex save against that ability.</Pair>
+<Pair title="Ability">Your shape changes to that of a <Link to="/monster/medium_fire_elemental">Medium fire elemental</Link>. While you are in this form, your base speed changes to 50 feet and you gain <Link to="/umr/immunity">immunity</Link> to fire, <Link to="/umr/vulnerability">vulnerability</Link> to cold, and the <Link to="/umr/burn">burn</Link> special attack as per the universal monster rule, dealing damage equal to your slam attack whenever a creature fails its Reflex save against that ability.</Pair>
 <Pair title="At 8th Level">You gain Improved Natural Attack with your slam.</Pair>
 <Pair title="At 15th Level">You deal fire damage equal to double your slam damage against opponents that fail their saves against your burn ability.</Pair>
 </Ability>
-<h4 id="arc-shifter-elementalist_shifter-water">Water</h4>
-<p>You take on the power of a <Link to="/monster/water_elemental">water elemental</Link>, gaining the ability to move swiftly in water, rain down crashing blows on your enemies, and transform into a swirling vortex. You identify with aquatic animals of all types, be they water-breathing creatures such as fish, amphibians such as newts or frogs, or air-breathing mammals such as whales or walruses. The unrelenting churn of waves on the shoreline, the soothing babble of a gentle stream, and the pounding kiss of a deluge of rain all bring joy to your heart. Your favored season is winter, for it is at this time that the most powerful of storms bring water to all the world.</p>
-<Ability id="arc-shifter-elementalist_shifter-minor-form" icon={["magic-swirl"]}>
+<Ability id="arc-shifter-elementalist_shifter-water" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-shifter-elementalist_shifter-water">Water</Pair>
+<Pair title="Info">You take on the power of a water elemental, gaining the ability to move swiftly in water, rain down crashing blows on your enemies, and transform into a swirling vortex. You identify with aquatic animals of all types, be they water-breathing creatures such as fish, amphibians such as newts or frogs, or air-breathing mammals such as whales or walruses. The unrelenting churn of waves on the shoreline, the soothing babble of a gentle stream, and the pounding kiss of a deluge of rain all bring joy to your heart. Your favored season is winter, for it is at this time that the most powerful of storms bring water to all the world.</Pair>
+</Ability>
+<Ability id="arc-shifter-elementalist_shifter-minor-form" extraClasses="subAbility" icon={["magic-swirl"]}>
 <Pair single id="arc-shifter-elementalist_shifter-minor-form">Minor Form</Pair>
 <Pair title="Ability">You gain a +2 enhancement bonus to your Strength score.</Pair>
 <Pair title="At 8th Level">This bonus increases to +4.</Pair>
 <Pair title="At 15th Level">This bonus increases to +6.</Pair>
 </Ability>
-<Ability id="arc-shifter-elementalist_shifter-major-form" icon={["magic-swirl","upgrade","broken-shield","magic-swirl"]}>
+<Ability id="arc-shifter-elementalist_shifter-major-form" extraClasses="subAbility" icon={["magic-swirl","upgrade","broken-shield","magic-swirl"]}>
 <Pair single id="arc-shifter-elementalist_shifter-major-form">Major Form</Pair>
-<Pair title="Ability">Your shape changes to that of a Medium water elemental. While you are in this form, your base speed is reduced to 20 feet but you gain a swim speed of 60 feet, and if both you and your target are touching water, you also gain a +1 bonus on attack and damage rolls. If the target is touching the ground, you take a -4 penalty on attack and damage rolls against it. These modifiers apply to bull rush and overrun combat maneuvers, whether you are initiating or resisting these kinds of attacks.</Pair>
+<Pair title="Ability">Your shape changes to that of a <Link to="/monster/medium_water_elemental">Medium water elemental</Link>. While you are in this form, your base speed is reduced to 20 feet but you gain a swim speed of 60 feet, and if both you and your target are touching water, you also gain a +1 bonus on attack and damage rolls. If the target is touching the ground, you take a -4 penalty on attack and damage rolls against it. These modifiers apply to bull rush and overrun combat maneuvers, whether you are initiating or resisting these kinds of attacks.</Pair>
 <Pair title="At 8th Level">Your swim speed increases to 90 feet, your touch automatically extinguishes nonmagical flames of size Large or smaller, and you can dispel magical fires as per <Link to="/spell/dispel_magic">dispel magic</Link> using your shifter level as your effective caster level.</Pair>
 <Pair title="At 15th Level">You gain Improved Natural Attack with your slam and the <em>vortex</em> special ability, which functions identically to the air aspect's <em>whirlwind</em> ability but can form only underwater and cannot leave the water.</Pair>
 </Ability>
@@ -496,7 +504,7 @@ const _leafshifter = {title: "Leafshifter", jsx: <><h2 id="arc-shifter-leafshift
 <Ability id="arc-shifter-leafshifter-leafshifters-aspect-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-shifter-leafshifter-leafshifters-aspect-su">Leafshifter's Aspect (Su)</Pair>
 <Pair hl title="Alters">Shifter aspect</Pair>
-<Pair title="Ability">This ability functions as the <em>shifter aspect</em> ability of the standard shifter, except a leafshifter doesn't gain the minor forms of her aspects. Instead, whenever she gains a new aspect, she chooses one of the plant focus abilities (see below) from the <Link to="/arc-hunter/plant_master">plant master</Link> hunter archetype to associate with her new aspect. This choice cannot be changed once made.</Pair>
+<Pair title="Ability">This ability functions as the <em>shifter aspect</em> ability of the standard shifter, except a leafshifter doesn't gain the minor forms of her aspects. Instead, whenever she gains a new aspect, she chooses one of the plant focus abilities from the <Link to="/arc-hunter/plant_master">plant master</Link> hunter archetype (listed below) to associate with her new aspect. This choice cannot be changed once made.</Pair>
 </Ability>
 <Ability id="arc-shifter-leafshifter-assassin-vine" extraClasses="subAbility" icon={["upgrade"]}>
 <Pair single id="arc-shifter-leafshifter-assassin-vine">Assassin Vine</Pair>
@@ -573,7 +581,7 @@ const _oozemorph = {title: "Oozemorph", jsx: <><h2 id="arc-shifter-oozemorph-ooz
 <Pair title="At 8th Level">The oozemorph can treat this ability as <Link to="/spell/beast_shape_i">beast shape I</Link></Pair>
 <Pair title="At 15th Level">She can treat this ability as <Link to="/spell/beast_shape_ii">beast shape II</Link> or <Link to="/spell/giant_form_i">giant form I</Link>.</Pair>
 <Pair title="Special"><p><em>Fluidic Body</em> is essentially two effects in one. The first, which is a permanent part of your character once you become an oozemorph, is that your base form is now an ooze shape. Even if you lose fluidic body for some reason (<Link to="/spell/antimagic_field">antimagic field</Link>, violating your code of conduct, etc) your base form is still the amorphous ooze-like form. The other half of the ability is a supernatural <Link to="/spelldef/polymorph">polymorph</Link> effect to transform into humanoid (and later bestial) forms.</p>
-<p>Despite having an ooze-like shape, an oozemorph's base form is not an ooze, though it does also count as an ooze for the purposes of effects targeting creatures by type. The ooze-like form doesn't gain any abilities of the ooze creature type except as stated by the archetype itself. This form retains the base senses and land speed of the oozemorph's original race, as well as racial abilities like <Link to="/race/dwarf">dwarfs'</Link> <em>greed</em> or <Link to="/race/gnome">gnomes'</Link> <em>obsession</em> that don't depend on shape, but it loses abilities dependent on form, including form-based speeds like <Link to="/race/strix">strix's</Link> flight (and most other racial speeds beyond land speed), racial natural attacks like <Link to="/race/catfolk">catfolks'</Link> claws, and other abilities like <Link to="/race/tiefling">tieflings'</Link> prehensile tail. However, if the oozemorph possesses a racial ability denied her in her ooze-like form and transforms into a member of her own race with fluidic body, she gains the full benefits of that racial ability for that duration, even if it isn't usually granted when using alter self (or the appropriate spell for a non-humanoid oozemorph). An oozemorph's compression, damage reduction, and morphic weaponry function in its ooze-like form and any form it takes via fluidic body, though not in forms it takes via other polymorph effects.</p>
+<p>Despite having an ooze-like shape, an oozemorph's base form is not an ooze, though it does also count as an ooze for the purposes of effects targeting creatures by type. The ooze-like form doesn't gain any abilities of the ooze creature type except as stated by the archetype itself. This form retains the base senses and land speed of the oozemorph's original race, as well as racial abilities like <Link to="/race/dwarf">dwarfs'</Link> <em>greed</em> or <Link to="/race/gnome">gnomes'</Link> <em>obsession</em> that don't depend on shape, but it loses abilities dependent on form, including form-based speeds like <Link to="/race/strix">strix's</Link> flight (and most other racial speeds beyond land speed), racial natural attacks like <Link to="/race/catfolk">catfolks'</Link> claws, and other abilities like <Link to="/race/tiefling">tieflings'</Link> prehensile tail. However, if the oozemorph possesses a racial ability denied her in her ooze-like form and transforms into a member of her own race with fluidic body, she gains the full benefits of that racial ability for that duration, even if it isn't usually granted when using <em>alter self</em> (or the appropriate spell for a non-humanoid oozemorph). An oozemorph's compression, damage reduction, and morphic weaponry function in its ooze-like form and any form it takes via fluidic body, though not in forms it takes via other polymorph effects.</p>
 <p>An oozemorph can carry items floating in its mass that are considered to be attuned. When it turns into a humanoid form via fluidic body, it can equip any number of those items (even armor, which usually takes time to don), leaving the rest on the ground in its space. If it turns into an animal via fluidic form, the items meld into the new form and grant some passive benefits, as normal for polymorph effects.</p>
 </Pair>
 </Ability>
@@ -692,7 +700,7 @@ const _style_shifter = {title: "Style Shifter", jsx: <><h2 id="arc-shifter-style
 <Pair title="Ability">A style shifter gains access to <em>style aspects.</em> A style aspect provides benefits only while the style shifter is in the style feat stance associated with the appropriate aspect (such as <Link to="/feat/boar_style">Boar Style</Link> with <em>Form of the Boar</em>).</Pair>
 <Pair title="Special">A style shifter can shift into a style aspect as a <strong className="hl">free action</strong> as part of entering a style feat's stance. Otherwise, shifting into a style aspect is a <strong className="hl">swift action</strong>, while ending the effect is a <strong className="hl">free action</strong> that can be taken only on the style shifter's turn. He can shift between any aspects he has during the duration without additional cost.</Pair>
 </Ability>
-<Ability id="arc-shifter-style_shifter-form-of-the-boar" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="arc-shifter-style_shifter-form-of-the-boar" extraClasses="subAbility" icon={["mailed-fist","armor-downgrade"]}>
 <Pair single id="arc-shifter-style_shifter-form-of-the-boar">Form of the Boar</Pair>
 <Pair title="Ability">Once per round when you hit a single foe with two or more unarmed strikes, you can tear flesh. When you do, you deal an additional 1 point of <Link to="/umr/bleed">bleed</Link> damage with the attack.</Pair>
 <Pair title="At 8th Level">When you tear flesh, the target becomes <Link to="/misc/sickened">sickened</Link> for 1 round.</Pair>
@@ -704,13 +712,13 @@ const _style_shifter = {title: "Style Shifter", jsx: <><h2 id="arc-shifter-style
 <Pair title="At 8th Level">When an attack misses you, you can move 5 feet as an <strong className="hl">immediate action</strong> without provoking attacks of opportunity.</Pair>
 <Pair title="At 15th Level">When an attack misses you, you can move up to half your speed as an <strong className="hl">immediate action</strong> without provoking attacks of opportunity.</Pair>
 </Ability>
-<Ability id="arc-shifter-style_shifter-form-of-the-dragon" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Ability id="arc-shifter-style_shifter-form-of-the-dragon" extraClasses="subAbility" icon={["armor-upgrade","upgrade","armor-downgrade"]}>
 <Pair single id="arc-shifter-style_shifter-form-of-the-dragon">Form of the Dragon</Pair>
 <Pair title="Ability">You gain a +1 dodge bonus to your AC for each ally you <Link to="/rule/charge">charge</Link> through when charging, up to a total equal to your Dexterity modifier (minimum +0).</Pair>
 <Pair title="At 8th Level">Your unarmed strike's damage die increases by one step against <Link to="/misc/shaken">shaken</Link> targets.</Pair>
 <Pair title="At 15th Level">Whenever you confirm a critical hit against a shaken target, the target becomes <Link to="/misc/frightened">frightened</Link> for 1 round.</Pair>
 </Ability>
-<Ability id="arc-shifter-style_shifter-form-of-the-monkey" extraClasses="subAbility" icon={["upgrade"]}>
+<Ability id="arc-shifter-style_shifter-form-of-the-monkey" extraClasses="subAbility" icon={["upgrade","armor-downgrade"]}>
 <Pair single id="arc-shifter-style_shifter-form-of-the-monkey">Form of the Monkey</Pair>
 <Pair title="Ability">You gain a bonus on damage rolls while prone equal to your Wisdom modifier (minimum +0).</Pair>
 <Pair title="Move-Equivalent Action">You can crawl up to half your speed.</Pair>
@@ -723,7 +731,7 @@ const _style_shifter = {title: "Style Shifter", jsx: <><h2 id="arc-shifter-style
 <Pair title="At 8th Level">This bonus increases to twice your Wisdom modifier.</Pair>
 <Pair title="At 15th Level">If a creature misses an attack of opportunity against you prompted by your movement through a threatened square, you can make a retaliatory unarmed strike against that creature, even if you would not normally be able to make any more retaliatory strikes this turn.</Pair>
 </Ability>
-<Ability id="arc-shifter-style_shifter-form-of-the-snake" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Ability id="arc-shifter-style_shifter-form-of-the-snake" extraClasses="subAbility" icon={["mailed-fist","armor-downgrade"]}>
 <Pair single id="arc-shifter-style_shifter-form-of-the-snake">Form of the Snake</Pair>
 <Pair title="Ability">Once per round when you hit a single foe with two or more unarmed strikes and deal piercing damage on your turn, you knock that foe off-balance. The foe is flat-footed until the start of its turn.</Pair>
 <Pair title="At 8th Level">A foe you knock off-balance can't take attacks of opportunity until the start of its turn and remains flat-footed until the end of its turn.</Pair>
