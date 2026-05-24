@@ -169,7 +169,7 @@ const _combat_healer_squire = {title: "Combat Healer Squire", jsx: <><h2 id="arc
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">A combat healer squire provokes no attacks of opportunity when she uses the <Link to="/skill/heal">Heal</Link> skill to stabilize a creature or treat poison. In addition, when she administers long-term care with the Heal skill, she can restore a total number of additional hit points equal to her character level, divided as she wishes among those she is tending.</Pair>
 </Ability>
-<Ability id="arc-paladin-combat_healer_squire-dress-wounds-su" icon={["heart-plus"]}>
+<Ability id="arc-paladin-combat_healer_squire-dress-wounds-su" icon={["remedy"]}>
 <Pair single id="arc-paladin-combat_healer_squire-dress-wounds-su">Dress Wounds (Su)</Pair>
 <Pair hl title="Replaces">Divine grace</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -262,7 +262,7 @@ const _divine_hunter = {title: "Divine Hunter", jsx: <><h2 id="arc-paladin-divin
 <Pair title="Ability">A divine hunter forms a bond with her deity. This functions as the paladin's <em>divine bond</em> ability, except the bond must always take the form of a ranged or throwing weapon (excluding ammunition). In addition to the listed abilities, a divine hunter can add the <Link to="/magic-enh/distance">distance</Link>, <Link to="/magic-enh/returning">returning</Link>, or <Link to="/magic-enh/seeking">seeking</Link> special abilities to her weapon, but she cannot add the <em>defending</em> or <em>disruption</em> special abilities.</Pair>
 <Pair title="Special">Special abilities added to throwing weapons function normally when the weapon is used in melee.</Pair>
 </Ability>
-<Ability id="arc-paladin-divine_hunter-distant-mercy-sp" icon={["heart-plus"]}>
+<Ability id="arc-paladin-divine_hunter-distant-mercy-sp" icon={["remedy"]}>
 <Pair single id="arc-paladin-divine_hunter-distant-mercy-sp">Distant Mercy (Sp)</Pair>
 <Pair hl title="Replaces">6th-level mercy</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -503,7 +503,7 @@ const _forgefathers_seeker = {title: "Forgefather's Seeker", jsx: <><h2 id="arc-
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">A Forgefather's seeker's weapons are treated as <Link to="/eq-material/adamantine">adamantine</Link> for the purpose of overcoming damage reduction. Any attack made against an enemy within 10 feet of her is treated as adamantine for the purpose of overcoming damage reduction. This ability functions only while a Forgefather's seeker is conscious, not if she is unconscious or dead.</Pair>
 </Ability>
-<Ability id="arc-paladin-forgefathers_seeker-forgefathers-champion-su" icon={["armor-upgrade","heart-plus","stairs-goal"]}>
+<Ability id="arc-paladin-forgefathers_seeker-forgefathers-champion-su" icon={["armor-upgrade","remedy","stairs-goal"]}>
 <Pair single id="arc-paladin-forgefathers_seeker-forgefathers-champion-su" flavor="A Forgefather's seeker becomes capable of completely dismantling constructs.">Forgefather's Champion (Su)</Pair>
 <Pair hl title="Replaces">Holy champion</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -518,7 +518,7 @@ const _ghost_hunter = {title: "Ghost Hunter", jsx: <><h2 id="arc-paladin-ghost_h
 <Pair hl title="Alters">Smite evil</Pair>
 <Pair title="Ability">A ghost hunter's <em>smite evil</em> ability does not automatically bypass DR (other than DR/good). However, she treats her weapon as a <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon against the target of her <em>smite.</em> She does not deal extra damage on the first attack against evil outsiders and evil dragons, but she deals 3 points of damage per paladin level she possesses to undead creatures on the first attack (instead of 2 points).</Pair>
 </Ability>
-<Ability id="arc-paladin-ghost_hunter-exorcise-possession-su" icon={["magic-swirl","heart-plus"]}>
+<Ability id="arc-paladin-ghost_hunter-exorcise-possession-su" icon={["magic-swirl","remedy"]}>
 <Pair single id="arc-paladin-ghost_hunter-exorcise-possession-su">Exorcise Possession (Su)</Pair>
 <Pair hl title="Replaces">6th-level mercy</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -703,14 +703,14 @@ const _hospitaler = {title: "Hospitaler", jsx: <><h2 id="arc-paladin-hospitaler-
 <Pair title="Info">This functions as the paladin ability, with the adjusted advancement stated below.</Pair>
 <Pair title="Usage">1 time/day + 1 per six paladin levels beyond 1st<ByLevelPop levels={[[1,1],[7,2],[13,3],[19,4]]} unit="time" postText="/day" /></Pair>
 </Ability>
-<Ability id="arc-paladin-hospitaler-channel-positive-energy-su" icon={["abstract-091"]}>
+<Ability id="arc-paladin-hospitaler-channel-positive-energy-su" icon={["aura"]}>
 <Pair single id="arc-paladin-hospitaler-channel-positive-energy-su">Channel Positive Energy (Su)</Pair>
 <Pair hl title="Replaces">Channel positive energy</Pair>
 <Pair title="At 4th Level">A hospitaler gains the ability to channel positive energy as a <Link to="/class/cleric">cleric</Link> equal to her paladin level - 3.</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
 <Pair title="Special">Using this ability does not expend uses of <em>lay on hands,</em> as it does with other paladins.</Pair>
 </Ability>
-<Ability id="arc-paladin-hospitaler-aura-of-healing-su" icon={["abstract-091","heart-plus"]}>
+<Ability id="arc-paladin-hospitaler-aura-of-healing-su" icon={["aura","remedy"]}>
 <Pair single id="arc-paladin-hospitaler-aura-of-healing-su">Aura of Healing (Su)</Pair>
 <Pair hl title="Replaces">Aura of justice</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -777,7 +777,7 @@ const _invigorator = {title: "Invigorator", jsx: <><h2 id="arc-paladin-invigorat
 <Pair title="At 20th Level">The invigorator may choose a number of nonevil allies equal to her Charisma modifier + 2.</Pair>
 <Pair title="Special">The DR this ability grants does not stack with the DR the invigorator receives from <em>aura of righteousness</em> or <em>holy champion.</em></Pair>
 </Ability>
-<Ability id="arc-paladin-invigorator-holy-fount-su" icon={["heart-plus","abstract-091"]}>
+<Ability id="arc-paladin-invigorator-holy-fount-su" icon={["remedy","aura"]}>
 <Pair single id="arc-paladin-invigorator-holy-fount-su">Holy Fount (Su)</Pair>
 <Pair hl title="Replaces">Aura of justice</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -807,7 +807,7 @@ const _iomedaen_enforcer = {title: "Iomedaen Enforcer", jsx: <><h2 id="arc-palad
 <Pair hl title="Replaces">Smite evil</Pair>
 <Pair title="Ability">This ability functions as the paladin's <em>smite evil</em> ability, but against chaotic-aligned creatures. Smite chaos is twice as effective against chaotic-aligned aberrations, outsiders with the chaotic subtype, and fey.</Pair>
 </Ability>
-<Ability id="arc-paladin-iomedaen_enforcer-aura-of-order" icon={["armor-downgrade","abstract-091"]}>
+<Ability id="arc-paladin-iomedaen_enforcer-aura-of-order" icon={["armor-downgrade","aura"]}>
 <Pair single id="arc-paladin-iomedaen_enforcer-aura-of-order">Aura of Order</Pair>
 <Pair hl title="Alters">Aura of faith</Pair>
 <Pair title="Gained">At 14th Level</Pair>
@@ -1039,14 +1039,14 @@ const _mind_sword = {title: "Mind Sword", jsx: <><h2 id="arc-paladin-mind_sword-
 <Pair title="At 6th Level">A mind sword can expend two uses of this ability as a <strong className="hl">full-round action</strong> to attack the same opponent multiple times, as if using the full-attack action.</Pair>
 <Pair title="At 12th Level">A mind sword can expend one use of this ability as a <strong className="hl">full-round action</strong> to combine melee attacks and ranged attacks aimed at different targets within 60 feet as part of a single full-attack action.</Pair>
 </Ability>
-<Ability id="arc-paladin-mind_sword-touch-treatment-su" extraClasses="hasSubs" icon={["heart-plus"]}>
+<Ability id="arc-paladin-mind_sword-touch-treatment-su" extraClasses="hasSubs" icon={["remedy"]}>
 <Pair single id="arc-paladin-mind_sword-touch-treatment-su">Touch Treatment (Su)</Pair>
 <Pair hl title="Replaces">Mercy</Pair>
 <Pair title="At 3rd Level">A mind sword can expend one use of her <em>mind arsenal</em> ability to remove minor harmful mental conditions, as per the <Link to="/class/mesmerist">mesmerist</Link> <em>touch treatment</em> class feature (minor ability).</Pair>
 <Pair title="At 9th Level">Her <em>treatment</em> expands to the "moderate" version of the ability.</Pair>
 <Pair title="At 15th Level">She can remove conditions as per the "greater" ability of <em>touch treatment.</em></Pair>
 </Ability>
-<Ability id="arc-paladin-mind_sword-touch-treatment-su" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-paladin-mind_sword-touch-treatment-su" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-paladin-mind_sword-touch-treatment-su" flavor="Text from the mesmerist ability.">Touch Treatment (Su)</Pair>
 <Pair title="At 3rd Level">You can help allies shake off harmful conditions - especially those that affect their minds - by channeling psychic energy through your healing hands. You must be able to touch your target. You can remove the <em>fascinated</em> or <em>shaken</em> condition from your target each time you use this ability. This is the "minor" ability.</Pair>
 <Pair title="At 6th Level">You can now also remove the <em>confused, dazed, frightened,</em> and <em>sickened</em> conditions. This is the "moderate" ability.</Pair>
@@ -1086,7 +1086,7 @@ const _pearl_seeker = {title: "Pearl Seeker", jsx: <><h2 id="arc-paladin-pearl_s
 <Pair title="Ability">A pearl seeker gains the 1st-level domain power (Sealord) of the <Link to="/druiddomain/aquatic">Aquatic</Link> terrain domain, using her paladin level as her effective druid level.</Pair>
 <Pair title="At 8th Level">She gains the 6th-level domain power (Seastrike) of the Aquatic terrain domain.</Pair>
 </Ability>
-<Ability id="arc-paladin-pearl_seeker-sealord-su" extraClasses="subAbility" icon={["abstract-091","heart-plus"]}>
+<Ability id="arc-paladin-pearl_seeker-sealord-su" extraClasses="subAbility" icon={["aura","remedy"]}>
 <Pair single id="arc-paladin-pearl_seeker-sealord-su" flavor="From the Aquatic domain">Sealord (Su)</Pair>
 <Pair title="At 1st Level">You can <Link to="/ability/channel_energy">channel energy</Link> (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the aquatic or water subtype or to command them (similar to using the <Link to="/feat/command_undead">Command Undead</Link> feat against undead). You can take other feats to add to this ability, such as <Link to="/feat/extra_channel">Extra Channel</Link> and <Link to="/feat/improved_channel">Improved Channel</Link>, but not feats that alter this ability, such as <Link to="/feat/elemental_channel">Elemental Channel</Link> and <Link to="/feat/alignment_channel">Alignment Channel</Link>. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.</Pair>
 </Ability>
@@ -1229,13 +1229,13 @@ const _sacred_shield = {title: "Sacred Shield", jsx: <><h2 id="arc-paladin-sacre
 <p>The bonus and special abilities granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The celestial spirit imparts no bonuses if the shield is used by anyone other than the sacred shield, but it resumes giving bonuses if the sacred shield resumes using the shield.</p>
 </Pair>
 </Ability>
-<Ability id="arc-paladin-sacred_shield-improved-bastion" icon={["abstract-091"]}>
+<Ability id="arc-paladin-sacred_shield-improved-bastion" icon={["aura"]}>
 <Pair single id="arc-paladin-sacred_shield-improved-bastion">Improved Bastion</Pair>
 <Pair hl title="Replaces">Aura of justice</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">The radius of a sacred shield's <em>bastion of good</em> ability increases to 20 feet.</Pair>
 </Ability>
-<Ability id="arc-paladin-sacred_shield-perfect-bastion" icon={["heart-plus"]}>
+<Ability id="arc-paladin-sacred_shield-perfect-bastion" icon={["remedy"]}>
 <Pair single id="arc-paladin-sacred_shield-perfect-bastion">Perfect Bastion</Pair>
 <Pair hl title="Replaces">Holy champion</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -1324,7 +1324,7 @@ const _silver_champion = {title: "Silver Champion", jsx: <><h2 id="arc-paladin-s
 </>};
 const _soul_sentinel = {title: "Soul Sentinel", jsx: <><h2 id="arc-paladin-soul_sentinel-soul-sentinel">Soul Sentinel</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 65</Link><br/>In a world of horrors, some holy warriors fight to safeguard the minds and spirits of those exposed to evil. Soul sentinels use the strength of their resolve to stem the tide of corruption and insanity, as they believe that the greatest tragedy is a soul lost to evil when it was within their power to save it.</p>
-<Ability id="arc-paladin-soul_sentinel-reprieve-su" icon={["heart-plus"]}>
+<Ability id="arc-paladin-soul_sentinel-reprieve-su" icon={["remedy"]}>
 <Pair single id="arc-paladin-soul_sentinel-reprieve-su" flavor="A soul sentinel relieves manic and tortured souls exposed to the harsh evil of the world.">Reprieve (Su)</Pair>
 <Pair hl title="Replaces">6th-level mercy</Pair>
 <Pair title="At 6th Level">When the soul sentinel uses her <em>lay on hands</em> ability to heal a living creature, she can remove <Link to="/misc/confused">confusion</Link> effects in place of applying one of her other mercies. If used on a creature suffering from a permanent confusion effect, this removes the effect for only 1 minute.</Pair>
@@ -1336,7 +1336,7 @@ const _soul_sentinel = {title: "Soul Sentinel", jsx: <><h2 id="arc-paladin-soul_
 <Pair title="Passive Ability">A sacred soul is immune to hexes and curse spells or abilities. Each ally within 10 feet of her gains a +4 morale bonus on saving throws against hexes or curses.</Pair>
 <Pair title="Special">This ability functions only while the paladin is conscious, not if she is unconscious or dead.</Pair>
 </Ability>
-<Ability id="arc-paladin-soul_sentinel-greater-reprieve-su" icon={["heart-plus"]}>
+<Ability id="arc-paladin-soul_sentinel-greater-reprieve-su" icon={["remedy"]}>
 <Pair single id="arc-paladin-soul_sentinel-greater-reprieve-su" flavor="The soul sentinel suppresses the stain of corruption on the spirits of those she heals.">Greater Reprieve (Su)</Pair>
 <Pair hl title="Replaces">12th-level mercy</Pair>
 <Pair title="At 12th Level">At 12th level, whenever she uses her <em>lay on hands</em> ability to heal a living creature (other than herself) or damage an undead creature, in place of applying one of her other mercies, she can suppress the stain from a <Link to="/rule/corruption">corrupted</Link> creature's most recent manifestation for 1 minute. Any gift from that manifestation is unaffected and remains available, unless the manifestation has a special note requiring the gift and stain be taken together, in which case greater reprieve also suppresses the gift.</Pair>
@@ -1430,7 +1430,7 @@ const _sword_of_valor = {title: "Sword of Valor", jsx: <><h2 id="arc-paladin-swo
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A sword of valor can spend 1 use of <em>smite evil</em> or <em>lay on hands</em> to act in the surprise round, even if she is surprised. When the paladin makes an Initiative check, she gains a bonus to the check equal to her Charisma bonus.</Pair>
 </Ability>
-<Ability id="arc-paladin-sword_of_valor-prayer-of-the-fourth-act-su" icon={["heart-plus"]}>
+<Ability id="arc-paladin-sword_of_valor-prayer-of-the-fourth-act-su" icon={["remedy"]}>
 <Pair single id="arc-paladin-sword_of_valor-prayer-of-the-fourth-act-su">Prayer of the Fourth Act (Su)</Pair>
 <Pair hl title="Replaces">6th-level mercy</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -1632,7 +1632,7 @@ const _undead_scourge = {title: "Undead Scourge", jsx: <><h2 id="arc-paladin-und
 <Pair single id="arc-paladin-undead_scourge-smite-evil-su">Smite Evil (Su)</Pair>
 <Pair title="Info">This functions as the paladin ability of the same name, but the undead scourge does not deal 2 points of damage per level on the first successful attack against evil dragons and evil outsiders. She does deal 2 points of damage per level on all smite attacks made against evil undead creatures.</Pair>
 </Ability>
-<Ability id="arc-paladin-undead_scourge-aura-of-life-su" icon={["abstract-091","armor-downgrade"]}>
+<Ability id="arc-paladin-undead_scourge-aura-of-life-su" icon={["aura","armor-downgrade"]}>
 <Pair single id="arc-paladin-undead_scourge-aura-of-life-su">Aura of Life (Su)</Pair>
 <Pair hl title="Replaces">Aura of resolve</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -1796,7 +1796,7 @@ const _virtuous_bravo = {title: "Virtuous Bravo", jsx: <><h2 id="arc-paladin-vir
 </>};
 const _warrior_of_the_holy_light = {title: "Warrior of the Holy Light", jsx: <><h2 id="arc-paladin-warrior_of_the_holy_light-warrior-of-the-holy-light">Warrior of the Holy Light</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 118</Link><br/>Some paladins use their gifts to focus on the holy light that shines within their souls. With the gifts of purity and redemption, these paladins spend much of their lives helping others find the true path. Unleashing this power takes patience and comes at a steep price. Warriors of the holy light have the following class features.</p>
-<Ability id="arc-paladin-warrior_of_the_holy_light-power-of-faith-su" icon={["broken-shield","upgrade","armor-upgrade","shield-reflect","heart-plus"]}>
+<Ability id="arc-paladin-warrior_of_the_holy_light-power-of-faith-su" icon={["broken-shield","upgrade","armor-upgrade","shield-reflect","remedy"]}>
 <Pair single id="arc-paladin-warrior_of_the_holy_light-power-of-faith-su">Power of Faith (Su)</Pair>
 <Pair hl title="Replaces">Spells</Pair>
 <Pair title="Info">A warrior of the holy light learns to use the power of her faith to bolster her defenses and aid her allies. A warrior of the holy light does not gain any spells or spellcasting abilities, does not have a caster level, and cannot use spell trigger or spell completion magic items.</Pair>
@@ -1806,7 +1806,7 @@ const _warrior_of_the_holy_light = {title: "Warrior of the Holy Light", jsx: <><
 <Pair title="At 16th Level">The warrior of the holy light gains one additional use of her <em>lay on hands</em> ability per day. The nimbus of light grants the warrior of the holy light and her allies protection from critical hits. There is a 25% chance that critical hits made against the warrior of the holy light and her allies in the area are instead treated as normal hits. This does not stack with other abilities that grant similar protection (such as <Link to="/magic-enh/light_fortification">light fortification</Link>).</Pair>
 <Pair title="At 20th Level">The warrior of the holy light gains one additional use of her <em>lay on hands</em> ability per day. The nimbus of light increases in size out to a range of 60 feet. In addition, all of its bonuses increase. The morale bonus to AC and on attack rolls, damage rolls, and saving throws against fear increases to +2. The amount of ability damage healed increases to 2d4. The energy resistance increases to 20 against one energy type. Finally, protection against critical hits increases to 50%.</Pair>
 </Ability>
-<Ability id="arc-paladin-warrior_of_the_holy_light-shining-light-su" icon={["abstract-091","armor-downgrade","heart-plus"]}>
+<Ability id="arc-paladin-warrior_of_the_holy_light-shining-light-su" icon={["aura","armor-downgrade","remedy"]}>
 <Pair single id="arc-paladin-warrior_of_the_holy_light-shining-light-su">Shining Light (Su)</Pair>
 <Pair hl title="Replaces">Aura of faith</Pair>
 <Pair title="Gained">At 14th Level</Pair>

@@ -2364,7 +2364,7 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <p><strong className="hl" id="class-paladin-code-of-conduct" data-hash-target>Code of Conduct:</strong> A paladin must be of lawful good alignment and loses all class features except proficiencies if she ever willingly commits an evil act.</p>
 <p>Additionally, a paladin's code requires that she respect legitimate authority, act with honor (not lying, not cheating, not using poison, and so forth), help those in need (provided they do not use the help for evil or chaotic ends), and punish those who harm or threaten innocents.</p>
 <p><strong className="hl">Associates:</strong> While she may adventure with good or neutral allies, a paladin avoids working with evil characters or with anyone who consistently offends her moral code. Under exceptional circumstances, a paladin can ally with evil associates, but only to defeat what she believes to be a greater evil. A paladin should seek an <Link to="/spell/atonement">atonement</Link> spell periodically during such an unusual alliance, and should end the alliance immediately should she feel it is doing more harm than good. A paladin may accept only <Link to="/feat/leadership">henchmen, followers, or cohorts</Link> who are lawful good.</p>
-<Ability id="class-paladin-aura-of-good-ex" icon={["abstract-091"]}>
+<Ability id="class-paladin-aura-of-good-ex" icon={["aura"]}>
 <Pair single id="class-paladin-aura-of-good-ex">Aura of Good (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">The power of your aura of good (see <Link to="/spell/detect_good">detect good</Link>) is equal to your paladin level.</Pair>
@@ -2396,7 +2396,7 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a bonus equal to your Charisma bonus (if any) on all saving throws.</Pair>
 </Ability>
-<Ability id="class-paladin-lay-on-hands-su" icon={["heart-plus"]}>
+<Ability id="class-paladin-lay-on-hands-su" icon={["remedy"]}>
 <Pair single id="class-paladin-lay-on-hands-su" flavor="A paladin can heal wounds (her own or those of others) by touch.">Lay On Hands (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">Half your paladin level, plus your Cha modifier, times/day.</Pair>
@@ -2404,7 +2404,7 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="Swift Action">You can heal yourself instead of another creature, as above.</Pair>
 <Pair title="Ability">Alternatively, as a melee touch attack, you can use this healing power to deal damage to undead creatures, dealing 1d6 points of damage for every two paladin levels you possess. This doesn't provoke an attack of opportunity. Undead do not receive a saving throw against this damage.</Pair>
 </Ability>
-<Ability id="class-paladin-aura-of-courage-su" icon={["armor-upgrade","abstract-091"]}>
+<Ability id="class-paladin-aura-of-courage-su" icon={["armor-upgrade","aura"]}>
 <Pair single id="class-paladin-aura-of-courage-su">Aura of Courage (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You are immune to fear (magical or otherwise). Each ally <Link to="/misc/emanation">within 10 feet of you</Link> gains a +4 morale bonus on saving throws against fear effects. This ability functions only while you are conscious, not if you're unconscious or dead.</Pair>
@@ -2414,7 +2414,7 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You are immune to all diseases, including supernatural and magical diseases, including <Link to="/curse/mummy_rot">mummy rot</Link>.</Pair>
 </Ability>
-<Ability id="class-paladin-mercy-su" icon={["upgrade","heart-plus"]}>
+<Ability id="class-paladin-mercy-su" icon={["upgrade","remedy"]}>
 <Pair single id="class-paladin-mercy-su">Mercy (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You gain one <Link to="/ability/mercy">mercy</Link>, which adds an effect to your <em>lay on hands</em> ability. Whenever you use <em>lay on hands</em> to heal damage to one target, the target also receives the additional effects from <strong>all</strong> of the mercies you possess. Once a condition or spell effect is chosen, it can't be changed.</Pair>
@@ -2498,7 +2498,7 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">You gain DR 5/evil and immunity to compulsion spells and spell-like abilities. Each ally within 10 feet of you gains a +4 morale bonus on saving throws against compulsion effects. This ability functions only while you are conscious, not if you are unconscious or dead.</Pair>
 </Ability>
-<Ability id="class-paladin-holy-champion-su" icon={["armor-upgrade","upgrade","heart-plus"]}>
+<Ability id="class-paladin-holy-champion-su" icon={["armor-upgrade","upgrade","remedy"]}>
 <Pair single id="class-paladin-holy-champion-su" flavor="You become a conduit for the power of your god.">Holy Champion (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">Your DR increases to 10/evil. Whenever you use <em>smite evil</em> and successfully strikes an evil outsider, the outsider is also subject to a <Link to="/spell/banishment">banishment</Link>, using your paladin level as the caster level (your weapon and holy symbol automatically count as objects that the subject hates). After the <em>banishment</em> effect and the damage from the attack is resolved, the <em>smite</em> immediately ends. In addition, whenever you channel positive energy or use <em>lay on hands</em> to heal a creature, you heal the maximum possible amount.</Pair>

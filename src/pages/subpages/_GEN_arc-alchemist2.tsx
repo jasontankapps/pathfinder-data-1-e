@@ -1169,7 +1169,7 @@ const _wasteland_blightbreaker = {title: "Wasteland Blightbreaker", jsx: <><h2 i
 <Pair title="Passive Ability">The blightbreaker can prepare extracts of the <Link to="/spelldef/healing">healing</Link> subschool as if he had the <Link to="/discovery/infusion">infusion</Link> discovery and can choose to render any such extracts inert and prepare other extracts to replace them (unlike infusions, which continue to occupy the alchemist's daily extract slots until consumed or used).</Pair>
 <Pair title="Standard Action">If the blightbreaker has the infusion discovery, or if he is also a chirurgeon, he can use <Link to="/spell/touch_injection">touch injection</Link> as a spell-like ability once per day, but only to absorb an infusion of the healing subschool.</Pair>
 </Ability>
-<Ability id="arc-alchemist-wasteland_blightbreaker-swift-healing-infusions-sp" icon={["heart-plus"]}>
+<Ability id="arc-alchemist-wasteland_blightbreaker-swift-healing-infusions-sp" icon={["remedy"]}>
 <Pair single id="arc-alchemist-wasteland_blightbreaker-swift-healing-infusions-sp">Swift Healing Infusions (Sp)</Pair>
 <Pair hl title="Replaces">Swift poisoning</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -1202,7 +1202,7 @@ const _winged_marauder = {title: "Winged Marauder", jsx: <><h2 id="arc-alchemist
 <Pair single id="arc-alchemist-winged_marauder-discovery">Discovery</Pair>
 <Pair title="Passive Ability">A winged marauder can select the following additional discovery.</Pair>
 </Ability>
-<Ability id="arc-alchemist-winged_marauder-sipping-pet-ex" extraClasses="subAbility numbered" icon={["heart-plus"]}>
+<Ability id="arc-alchemist-winged_marauder-sipping-pet-ex" extraClasses="subAbility numbered" icon={["remedy"]}>
 <Pair single id="arc-alchemist-winged_marauder-sipping-pet-ex">Sipping Pet (Ex)</Pair>
 <Pair title="Prerequisites">The <Link to="/discovery/infusion">infusion</Link> discovery.</Pair>
 <Pair title="Standard Action">The marauder can administer a dose of a liquid (such as an extract, infusion, potion, or an alchemical liquid like <Link to="/eq-misc/antitoxin">antitoxin</Link>) to his animal companion, even if the companion is unconscious. The alchemist must be adjacent to or riding the companion to use this ability.</Pair>

@@ -149,7 +149,7 @@ const _nature_priest = {title: "Nature Priest", jsx: <><h2 id="arc-druid-nature_
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Choice">If a nature priest chooses a domain for her <em>nature bond,</em> she must choose one of her deity's domains (or subdomains) in place of those typically available to a druid.</Pair>
 </Ability>
-<Ability id="arc-druid-nature_priest-shepherd-of-the-faithful-su" icon={["armor-upgrade","abstract-091"]}>
+<Ability id="arc-druid-nature_priest-shepherd-of-the-faithful-su" icon={["armor-upgrade","aura"]}>
 <Pair single id="arc-druid-nature_priest-shepherd-of-the-faithful-su">Shepherd of the Faithful (Su)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -257,7 +257,7 @@ const _plains_druid = {title: "Plains Druid", jsx: <><h2 id="arc-druid-plains_dr
 const _planar_extremist = {title: "Planar Extremist", jsx: <><h2 id="arc-druid-planar_extremist-planar-extremist">Planar Extremist</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 13</Link><br/>Through determined interest or repeated exposure to those places where the borders between planes are weaker, some druids lose their neutral stance and find themselves gravitating toward one of the four most extreme alignments: chaotic evil, chaotic good, lawful evil, or lawful good. While no longer able to harness the forces of nature like their neutral kin, these planar extremists find that their powers have shifted to reflect the Outer Plane most closely associated with their alignment. This is an ex-class archetype and can be taken by a character immediately upon becoming an ex-druid.</p>
 <p><strong className="hl">The following archetype can be taken by an ex-druid immediately upon becoming an ex-druid, regardless of character level, replacing some or all of the lost class abilities.</strong> If another archetype the character had before she became an ex-druid replaces the same ability as the ex-class archetype, she loses the old archetype in favor of the new one; otherwise, she can retain both archetypes as normal. Planar extremixts can gain further levels in the druid class, even though becoming an ex-druid normally prohibits further advancement in the class. While an ex-member of a class can recant her failings and atone for her fall from her original class (typically involving an <Link to="/spell/atonement">atonement</Link> spell), her acceptance of her ex-class archetype means she must atone both for her initial fall and for further straying from the path. As a result, such a character must be the target of two atonement spells or a similar effect to regain her lost class features. Upon doing so, she immediately loses this archetype and regains her original class (and archetype, if she had one).</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-planar_extremist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must have an alignment of chaotic evil, chaotic good, lawful evil, or lawful good.</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-druid-planar_extremist-aura-ex" icon={["abstract-091"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-planar_extremist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must have an alignment of chaotic evil, chaotic good, lawful evil, or lawful good.</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-druid-planar_extremist-aura-ex" icon={["aura"]}>
 <Pair single id="arc-druid-planar_extremist-aura-ex">Aura (Ex)</Pair>
 <Pair title="Passive Ability">The planar extremist radiates an aura matching her alignment as if she were a <Link to="/class/cleric">cleric</Link> of her druid level.</Pair>
 </Ability>
@@ -601,14 +601,14 @@ const _season_keeper = {title: "Season Keeper", jsx: <><h2 id="arc-druid-season_
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Each day when she prepares spells, a season keeper can imbue her animal companion with the spirit of summer or the spirit of winter.</Pair>
 </Ability>
-<Ability id="arc-druid-season_keeper-spirit-of-summer" extraClasses="subAbility" icon={["abstract-091","upgrade"]}>
+<Ability id="arc-druid-season_keeper-spirit-of-summer" extraClasses="subAbility" icon={["aura","upgrade"]}>
 <Pair single id="arc-druid-season_keeper-spirit-of-summer">Spirit of Summer</Pair>
 <Pair title="Passive Ability">The season keeper's animal companion projects a 15-foot-radius aura of cooling and vigor. Allies in the aura can exist comfortably in hot conditions as if they each had the <em>seasoned</em> racial ability of a Summerborn Triaxian.</Pair>
 <Pair title="At 3rd Level">The aura increases the power of the season keeper's healing magic - whenever the season keeper targets an ally with a spell that has the healing descriptor, the target also gains <Link to="/umr/fast_healing">fast healing</Link> 2 for a number of rounds equal to the spell's level.</Pair>
 <Pair title="At 9th Level">Allies within the aura leave no trails in natural grassy or forest environments, thus can't be tracked in such terrain.</Pair>
 <Pair title="At 15th Level">The duration of the fast healing effect increases to 2 rounds per spell level and affected allies can ignore <Link to="/rule/difficult_terrain">difficult terrain</Link> caused by natural undergrowth such as nonmagical thorns, briars, overgrowth, and similar terrain.</Pair>
 </Ability>
-<Ability id="arc-druid-season_keeper-spirit-of-winter" extraClasses="subAbility" icon={["abstract-091","armor-upgrade"]}>
+<Ability id="arc-druid-season_keeper-spirit-of-winter" extraClasses="subAbility" icon={["aura","armor-upgrade"]}>
 <Pair single id="arc-druid-season_keeper-spirit-of-winter">Spirit of Winter</Pair>
 <Pair hl title="Replaces">Trackless step, venom immunity, timeless body</Pair>
 <Pair hl title="Alters">Nature bond</Pair>
@@ -650,7 +650,7 @@ const _season_sage = {title: "Season Sage", jsx: <><h2 id="arc-druid-season_sage
 <Pair single id="arc-druid-season_sage-winter-frost">Winter Frost</Pair>
 <Pair title="Ability">A touched creature or object takes 1d6 points of cold damage per 2 druid levels.</Pair>
 </Ability>
-<Ability id="arc-druid-season_sage-seasons-veil-su" extraClasses="hasSubs" icon={["abstract-091"]}>
+<Ability id="arc-druid-season_sage-seasons-veil-su" extraClasses="hasSubs" icon={["aura"]}>
 <Pair single id="arc-druid-season_sage-seasons-veil-su">Season's Veil (Su)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per two druid levels beyond 6th<ByLevelPop levels={[[6,1],[8,2],[10,3],[12,4],[14,5],[16,6],[18,7],[20,8]]} unit="time" postText="/day" /></Pair>
@@ -948,19 +948,19 @@ const _sunrider = {title: "Sunrider", jsx: <><h2 id="arc-druid-sunrider-sunrider
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">While wearing light or no armor, a sunrider does not need to attempt Ride checks for any task listed in the Ride skill with a DC of 15 or lower. She does not take an armor check penalty on Ride checks while riding her mount.</Pair>
 </Ability>
-<Ability id="arc-druid-sunrider-mounted-advantage-su" icon={["upgrade","abstract-091"]}>
+<Ability id="arc-druid-sunrider-mounted-advantage-su" icon={["upgrade","aura"]}>
 <Pair single id="arc-druid-sunrider-mounted-advantage-su">Mounted Advantage (Su)</Pair>
 <Pair hl title="Replaces">Trackless step</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">Any allied mount within 30 feet of a sunrider can ignore the effects of rocky or sandy <Link to="/rule/difficult_terrain">difficult terrain</Link>.</Pair>
 </Ability>
-<Ability id="arc-druid-sunrider-desert-born-ex" icon={["upgrade","abstract-091"]}>
+<Ability id="arc-druid-sunrider-desert-born-ex" icon={["upgrade","aura"]}>
 <Pair single id="arc-druid-sunrider-desert-born-ex" flavor="A sunrider is at home in the desert.">Desert Born (Ex)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">She gains a +2 bonus on initiative checks and on Knowledge (geography), Perception, Stealth, and Survival checks while she is in desert terrain. Mounted allies traveling with her likewise gain a +1 bonus on initiative checks and Perception and Survival checks while in desert terrain, as long as they are within 30 feet of the sunrider.</Pair>
 </Ability>
-<Ability id="arc-druid-sunrider-concerted-effort-ex" icon={["stairs-goal","abstract-091","armor-upgrade","upgrade"]}>
+<Ability id="arc-druid-sunrider-concerted-effort-ex" icon={["stairs-goal","aura","armor-upgrade","upgrade"]}>
 <Pair single id="arc-druid-sunrider-concerted-effort-ex" flavor="A sunrider can extend the bond she shares with her horse to other nearby mounted companions, forming them into a fighting force that seems to share a single mind.">Concerted Effort (Ex)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>

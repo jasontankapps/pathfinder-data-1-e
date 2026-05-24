@@ -178,7 +178,7 @@ const _ward_speaker = {title: "Ward Speaker", jsx: <><h2 id="arc-samurai-ward_sp
 <Pair title="At 17th Level">Once per day, the ward speaker can instead dismiss this <em>fortune</em> to cast <Link to="/spell/temporal_stasis">temporal stasis</Link> as a spell-like ability.</Pair>
 <Pair title="Special">The ward speaker's caster level for these spell-like abilities is equal to his samurai level.</Pair>
 </Ability>
-<Ability id="arc-samurai-ward_speaker-zuishin-sp" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-samurai-ward_speaker-zuishin-sp" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-samurai-ward_speaker-zuishin-sp">Zuishin (Sp)</Pair>
 <Pair title="Immediate Action">The ward speaker can dismiss this <em>fortune</em> to cast <Link to="/spell/cure_light_wounds">cure light wounds</Link> as a spell-like ability.</Pair>
 <Pair title="At 9th Level">The ward speaker can dismiss this <em>fortune</em> to cast <Link to="/spell/cure_serious_wounds">cure serious wounds</Link>, <Link to="/spell/lesser_restoration">lesser restoration</Link>, <Link to="/spell/remove_curse">remove curse</Link>, or <Link to="/spell/remove_disease">remove disease</Link>.</Pair>

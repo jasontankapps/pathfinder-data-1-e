@@ -81,7 +81,7 @@ const _bloodline_familiars = {title: "Bloodline Familiars", jsx: <><h2 id="arc-b
 <Pair title="Prerequisites"><Link to="/blrgbloodline/arcane">Arcane</Link> bloodline</Pair>
 <Pair title="Ability">Spells you cast that target your familiar are treated as having a caster level 2 levels higher than your actual caster level.</Pair>
 </Ability>
-<Ability id="arc-bloodrager-bloodline_familiars-heavenly-touch-su" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-bloodrager-bloodline_familiars-heavenly-touch-su" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-bloodrager-bloodline_familiars-heavenly-touch-su">Heavenly Touch (Su)</Pair>
 <Pair title="Prerequisites"><Link to="/blrgbloodline/celestial">Celestial</Link> bloodline</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>
@@ -439,7 +439,7 @@ const _rageshaper = {title: "Rageshaper", jsx: <><h2 id="arc-bloodrager-rageshap
 </>};
 const _spelleater = {title: "Spelleater", jsx: <><h2 id="arc-bloodrager-spelleater-spelleater">Spelleater</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 85</Link><br/>Where other bloodragers learn to avoid or shrug off minor damage of all sorts, spelleaters tap into the power of their bloodline in order to heal damage as it comes, and can even cannibalize their own magical energy to heal more damage and continue taking the fight to the enemy.</p>
-<Ability id="arc-bloodrager-spelleater-blood-of-life-su" icon={["heart-plus"]}>
+<Ability id="arc-bloodrager-spelleater-blood-of-life-su" icon={["remedy"]}>
 <Pair single id="arc-bloodrager-spelleater-blood-of-life-su" flavor="A spelleater's blood empowers him to slowly recover from his wounds.">Blood of Life (Su)</Pair>
 <Pair hl title="Replaces">Uncanny dodge, damage reduction</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -451,7 +451,7 @@ const _spelleater = {title: "Spelleater", jsx: <><h2 id="arc-bloodrager-spelleat
 <Pair title="At 19th Level">This increases to fast healing 6.</Pair>
 <Pair title="Special">If the spelleater gains an increase to damage reduction from a bloodline, feat, or other ability, he is considered to have an effective damage reduction of 0, and the increase is added to this effective damage reduction.</Pair>
 </Ability>
-<Ability id="arc-bloodrager-spelleater-spell-eating-su" icon={["heart-plus"]}>
+<Ability id="arc-bloodrager-spelleater-spell-eating-su" icon={["remedy"]}>
 <Pair single id="arc-bloodrager-spelleater-spell-eating-su" flavor="A spelleater can consume spell slots for an extra dose of healing.">Spell Eating (Su)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>

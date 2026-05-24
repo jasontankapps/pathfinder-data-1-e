@@ -321,7 +321,7 @@ const makeAbilityBlock = ({
 					return "spell-book";
 				}
 				case "aura": { // aura
-					return "abstract-091";
+					return "aura";
 				}
 				case "power": { // gain a new ability or companion
 					return "stairs-goal";
@@ -330,7 +330,7 @@ const makeAbilityBlock = ({
 					return "upgrade";
 				}
 				case "aid": { // aid another
-					return "heart-plus";
+					return "remedy";
 				}
 				case "protect": { // protect another
 					return "shield-reflect";

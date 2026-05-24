@@ -365,7 +365,7 @@ const _masked_performer = {title: "Masked Performer", jsx: <><h2 id="arc-bard-ma
 <Pair title="Ability">A masked performer gains the benefit of a <Link to="/main/combat_feat">combat feat</Link> she doesn't have as long as she maintains this performance. The masked performer chooses the feat when she starts this performance. The masked performer must meet all the feat's prerequisites.</Pair>
 <Pair title="Special">As usual when temporarily gaining a feat, if the feat she chooses has any limitations on uses, such as <Link to="/feat/stunning_fist">Stunning Fist's</Link> daily uses, all uses of that combat feat while maintaining <em>stage combat</em> count toward that feat's limit. In the case of Stunning Fist, if the masked performer gained that feat again later the same day, the expended uses would remain expended. <em>Stage combat</em> relies on visual components.</Pair>
 </Ability>
-<Ability id="arc-bard-masked_performer-multiplicity-of-masks-su" extraClasses="subAbility" icon={["magic-swirl","abstract-091"]}>
+<Ability id="arc-bard-masked_performer-multiplicity-of-masks-su" extraClasses="subAbility" icon={["magic-swirl","aura"]}>
 <Pair single id="arc-bard-masked_performer-multiplicity-of-masks-su">Multiplicity of Masks (Su)</Pair>
 <Pair hl title="Replaces">Mass suggestion</Pair>
 <Pair title="Gained">At 18th Level</Pair>
@@ -402,7 +402,7 @@ const _mute_musician = {title: "Mute Musician", jsx: <><h2 id="arc-bard-mute_mus
 <Pair single id="arc-bard-mute_musician-bardic-performance">Bardic Performance</Pair>
 <Pair title="Info">A mute musician gains the following bardic performances.</Pair>
 </Ability>
-<Ability id="arc-bard-mute_musician-symphony-of-silence-su" extraClasses="subAbility" icon={["abstract-091","shield-reflect"]}>
+<Ability id="arc-bard-mute_musician-symphony-of-silence-su" extraClasses="subAbility" icon={["aura","shield-reflect"]}>
 <Pair single id="arc-bard-mute_musician-symphony-of-silence-su">Symphony of Silence (Su)</Pair>
 <Pair hl title="Replaces">Inspire competence</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -413,7 +413,7 @@ const _mute_musician = {title: "Mute Musician", jsx: <><h2 id="arc-bard-mute_mus
 <Pair title="At 19th Level">The bonus becomes +6.</Pair>
 <Pair title="Special">Symphony of silence relies on audible components.</Pair>
 </Ability>
-<Ability id="arc-bard-mute_musician-maddening-harmonics-su" extraClasses="subAbility" icon={["abstract-091","armor-downgrade"]}>
+<Ability id="arc-bard-mute_musician-maddening-harmonics-su" extraClasses="subAbility" icon={["aura","armor-downgrade"]}>
 <Pair single id="arc-bard-mute_musician-maddening-harmonics-su">Maddening Harmonics (Su)</Pair>
 <Pair hl title="Replaces">Frightening tune</Pair>
 <Pair title="Gained">At 14th Level</Pair>
@@ -540,7 +540,7 @@ const _phrenologist = {title: "Phrenologist", jsx: <><h2 id="arc-bard-phrenologi
 <Pair single id="arc-bard-phrenologist-bardic-performance">Bardic Performance</Pair>
 <Pair title="Info">A phrenologist gains the following types of bardic performance.</Pair>
 </Ability>
-<Ability id="arc-bard-phrenologist-skull-sonata-su" extraClasses="subAbility" icon={["abstract-091"]}>
+<Ability id="arc-bard-phrenologist-skull-sonata-su" extraClasses="subAbility" icon={["aura"]}>
 <Pair single id="arc-bard-phrenologist-skull-sonata-su">Skull Sonata (Su)</Pair>
 <Pair hl title="Replaces">Inspire courage</Pair>
 <Pair title="Ability">A phrenologist learns to use the resonance of other creatures' skulls to increase sonic damage. All enemies within 30 feet of the phrenologist that have skulls take an amount of additional sonic damage equal to half the phrenologist's bard level (minimum 1) each time they take sonic damage.</Pair>
@@ -991,14 +991,14 @@ const _songhealer = {title: "Songhealer", jsx: <><h2 id="arc-bard-songhealer-son
 <Pair single id="arc-bard-songhealer-bardic-performance">Bardic Performance</Pair>
 <Pair title="Info">A songhealer gains the following type of bardic performance.</Pair>
 </Ability>
-<Ability id="arc-bard-songhealer-healing-performance-su" extraClasses="subAbility" icon={["magic-swirl","heart-plus"]}>
+<Ability id="arc-bard-songhealer-healing-performance-su" extraClasses="subAbility" icon={["magic-swirl","remedy"]}>
 <Pair single id="arc-bard-songhealer-healing-performance-su">Healing Performance (Su)</Pair>
 <Pair hl title="Replaces">Frightening tune</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Ability">A songhealer can use his performance to create an effect equivalent to <Link to="/spell/heal">heal</Link> on a living target (or <Link to="/spell/harm">harm</Link> on an undead target), using the bard's level as the caster level. Using this ability requires 5 rounds of continuous performance, and the target must be able to see and hear the bard throughout the performance.</Pair>
 <Pair title="Special">The <em>healing performance</em> relies on audible and visual components.</Pair>
 </Ability>
-<Ability id="arc-bard-songhealer-funereal-ballad-su" extraClasses="subAbility" icon={["magic-swirl","heart-plus"]}>
+<Ability id="arc-bard-songhealer-funereal-ballad-su" extraClasses="subAbility" icon={["magic-swirl","remedy"]}>
 <Pair single id="arc-bard-songhealer-funereal-ballad-su">Funereal Ballad (Su)</Pair>
 <Pair hl title="Replaces">Deadly performance</Pair>
 <Pair title="Gained">At 20th Level</Pair>
@@ -1124,7 +1124,7 @@ const _stonesinger = {title: "Stonesinger", jsx: <><h2 id="arc-bard-stonesinger-
 <Pair title="At 17th Level">The penalty becomes -4.</Pair>
 <Pair title="Special">Creatures levitating or flying above the ground are unaffected by this ability.</Pair>
 </Ability>
-<Ability id="arc-bard-stonesinger-quake-su" icon={["abstract-091"]}>
+<Ability id="arc-bard-stonesinger-quake-su" icon={["aura"]}>
 <Pair single id="arc-bard-stonesinger-quake-su">Quake (Su)</Pair>
 <Pair hl title="Replaces">Dirge of doom</Pair>
 <Pair title="At 8th Level">A stonesinger causes the ground to shudder and buckle with his song. All enemies within 30 feet of the stonesinger must succeed at a Reflex save (DC = 10 + <Link to="/misc/half">half</Link> the stonesinger's level + his Charisma bonus) when he begins a bardic performance or be knocked <Link to="/rule/prone">prone</Link>.</Pair>
@@ -1137,7 +1137,7 @@ const _street_performer = {title: "Street Performer", jsx: <><h2 id="arc-bard-st
 <Pair single id="arc-bard-street_performer-bardic-performance">Bardic Performance</Pair>
 <Pair title="Info">A street performer gains the following types of bardic performance.</Pair>
 </Ability>
-<Ability id="arc-bard-street_performer-disappearing-act-su" extraClasses="subAbility" icon={["stairs-goal","abstract-091"]}>
+<Ability id="arc-bard-street_performer-disappearing-act-su" extraClasses="subAbility" icon={["stairs-goal","aura"]}>
 <Pair single id="arc-bard-street_performer-disappearing-act-su">Disappearing Act (Su)</Pair>
 <Pair hl title="Replaces">Inspire courage</Pair>
 <Pair title="At 1st Level">A street performer can use performance to divert attention from an ally. All creatures within 30 feet that fail a Will save (DC 10 + <Link to="/misc/half">half</Link> the bard's level + the bard's Cha modifier) treat one creature chosen by the bard as if it were <Link to="/rule/invisible">invisible</Link>.</Pair>
@@ -1235,7 +1235,7 @@ const _thundercaller = {title: "Thundercaller", jsx: <><h2 id="arc-bard-thunderc
 <Pair title="At 19th Level">The damage becomes 9d8.</Pair>
 <Pair title="Special">A creature that succeeds at its saving throw against thunder call is immune to the stunning effect but still takes sonic damage. Beginning this performance is always a <strong className="hl">standard action</strong>.</Pair>
 </Ability>
-<Ability id="arc-bard-thundercaller-incite-rage-su" extraClasses="subAbility" icon={["magic-swirl","abstract-091"]}>
+<Ability id="arc-bard-thundercaller-incite-rage-su" extraClasses="subAbility" icon={["magic-swirl","aura"]}>
 <Pair single id="arc-bard-thundercaller-incite-rage-su">Incite Rage (Su)</Pair>
 <Pair hl title="Replaces">Suggestion, mass suggestion</Pair>
 <Pair title="At 6th Level">The thundercaller can induce a furious rage in one creature within 30 feet. This effect functions as the <Link to="/spell/rage">rage</Link> spell and lasts as long as the target can hear the thundercaller's performance. Any unwilling creature targeted is affected if it fails a Will saving throw (DC = 10 + half the thundercaller's level + the thundercaller's Charisma modifier). A target that succeeds at its saving throw is immune to this power for 24 hours. The thundercaller cannot target herself with this ability.</Pair>

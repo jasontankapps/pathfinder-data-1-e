@@ -1327,7 +1327,7 @@ const _wildborn = {title: "Wildborn", jsx: <><h2 id="arc-barbarian-wildborn-wild
 <Pair hl title="Alters">Rage powers</Pair>
 <Pair title="Special">At 4th level, 10th level and 16th level, a wildborn can choose a bonus feat from the following rather than select a rage power: <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/animal_affinity">Animal Affinity</Link>, <Link to="/feat/athletic">Athletic</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improvised_weapon_mastery">Improvised Weapon Mastery</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/self_sufficient">Self-Sufficient</Link>, <Link to="/feat/stealthy">Stealthy</Link>, or <Link to="/feat/throw_anything">Throw Anything</Link>.</Pair>
 </Ability>
-<Ability id="arc-barbarian-wildborn-inexhaustible-ex" icon={["heart-plus","armor-upgrade"]}>
+<Ability id="arc-barbarian-wildborn-inexhaustible-ex" icon={["remedy","armor-upgrade"]}>
 <Pair single id="arc-barbarian-wildborn-inexhaustible-ex">Inexhaustible (Ex)</Pair>
 <Pair hl title="Alters">Damage reduction</Pair>
 <Pair title="Gained">At 7th Level</Pair>

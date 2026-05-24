@@ -35,7 +35,7 @@ const _abjuration = {hasJL:true,title: "Abjuration", jsx: <><div className="jump
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Ability">As a melee touch attack, you can cause a summoned or called creature to become <Link to="/misc/shaken">shaken</Link> and <Link to="/misc/staggered">staggered</Link> for a number of rounds equal to 1/2 your wizard level (minimum 1).</Pair>
 </Ability>
-<Ability id="arcaneschool-abjuration-aura-of-banishment-su" icon={["abstract-091"]}>
+<Ability id="arcaneschool-abjuration-aura-of-banishment-su" icon={["aura"]}>
 <Pair single id="arcaneschool-abjuration-aura-of-banishment-su">Aura of Banishment (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -288,7 +288,7 @@ const _evocation = {hasJL:true,title: "Evocation", jsx: <><div className="jumpLi
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Ability">When you cast an evocation spell that does acid, cold, electricity, or fire damage, you may change the damage dealt to one of the other four energy types. This changes the descriptor of the spell to match the new energy type. Any non-damaging effects remain unchanged unless the new energy type invalidates them (an <Link to="/spell/ice_storm">ice storm</Link> that deals fire damage might still provide a penalty on Perception checks due to smoke, but it would not create difficult terrain). Such effects are subject to GM discretion.</Pair>
 </Ability>
-<Ability id="arcaneschool-evocation-elemental-manipulation-su" icon={["abstract-091","magic-swirl"]}>
+<Ability id="arcaneschool-evocation-elemental-manipulation-su" icon={["aura","magic-swirl"]}>
 <Pair single id="arcaneschool-evocation-elemental-manipulation-su">Elemental Manipulation (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -425,14 +425,14 @@ const _necromancy = {hasJL:true,title: "Necromancy", jsx: <><div className="jump
 <h3 id="arcaneschool-necromancy-life-school" data-hash-target>Life School</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 146</Link><br/><strong>Associated School:</strong> Necromancy.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>power over undead</em> and <em>grave touch</em> powers of the necromancy school.</p>
-<Ability id="arcaneschool-necromancy-healing-grace-su" icon={["heart-plus"]}>
+<Ability id="arcaneschool-necromancy-healing-grace-su" icon={["remedy"]}>
 <Pair single id="arcaneschool-necromancy-healing-grace-su">Healing Grace (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Whenever you cast a spell that has targets, affects creatures in an area, or requires an attack roll, you may heal creatures affected by the spell a total of 1 point of damage per level of the spell. This healing may be spread out between the targets of the spell in any way you choose. This healing occurs when the spell is cast and has no effect on creatures that enter its area after the spell is in place. If you assign any of the healing to an undead creature, it instead takes 1 point of damage for each point assigned.</Pair>
 <Pair title="At 11th Level">The amount of damage cured increases to 2 points of damage per level of the spell.</Pair>
 <Pair title="At 20th Level">The amount of damage cured increases to 3 points of damage per level of the spell.</Pair>
 </Ability>
-<Ability id="arcaneschool-necromancy-share-essence-sp" icon={["broken-shield","heart-plus"]}>
+<Ability id="arcaneschool-necromancy-share-essence-sp" icon={["broken-shield","remedy"]}>
 <Pair single id="arcaneschool-necromancy-share-essence-sp">Share Essence (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
@@ -579,13 +579,13 @@ const _air = {hasJL:true,title: "Air", jsx: <><div className="jumpList" id="arca
 <Pair title="At 10th Level">You can cast <Link to="/spell/fly">fly</Link> on yourself at will.</Pair>
 <Pair title="At 20th Level">Whenever you make a Fly skill check, assume the roll resulted in a natural 20.</Pair>
 </Ability>
-<Ability id="arcaneschool-air-lightning-flash-su" icon={["abstract-091"]}>
+<Ability id="arcaneschool-air-lightning-flash-su" icon={["aura"]}>
 <Pair single id="arcaneschool-air-lightning-flash-su">Lightning Flash (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can unleash a flash of electricity. This flash deals 1d6 points of electricity damage + 1 point for every two wizard levels you possess to all creatures within 5 feet of you and <Link to="/misc/dazzle">dazzles</Link> them for 1d4 rounds. A successful Reflex save negates the dazzled effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier.</Pair>
 </Ability>
-<Ability id="arcaneschool-air-cyclone-su" icon={["abstract-091"]}>
+<Ability id="arcaneschool-air-cyclone-su" icon={["aura"]}>
 <Pair single id="arcaneschool-air-cyclone-su">Cyclone (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
@@ -594,7 +594,7 @@ const _air = {hasJL:true,title: "Air", jsx: <><div className="jumpList" id="arca
 <h3 id="arcaneschool-air-ice-school" data-hash-target>Ice School</h3>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 21</Link><br/><strong>Associated School:</strong> Air or Water.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>lightning flash</em> and <em>cyclone</em> powers of the air school.</p>
-<Ability id="arcaneschool-air-freezing-shards-su" icon={["abstract-091"]}>
+<Ability id="arcaneschool-air-freezing-shards-su" icon={["aura"]}>
 <Pair single id="arcaneschool-air-freezing-shards-su">Freezing Shards (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
@@ -784,7 +784,7 @@ const _metal = {hasJL:true,title: "Metal", jsx: <><div className="jumpList" id="
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You gain an armor bonus to your Armor Class for 10 minutes. This bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of your wizard level.</Pair>
 </Ability>
-<Ability id="arcaneschool-metal-shrapnel-burst-su" icon={["abstract-091"]}>
+<Ability id="arcaneschool-metal-shrapnel-burst-su" icon={["aura"]}>
 <Pair single id="arcaneschool-metal-shrapnel-burst-su">Shrapnel Burst (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per five wizard levels beyond 8th<ByLevelPop levels={[[8,1],[13,2],[18,3]]} unit="time" postText="/day" /></Pair>
@@ -858,7 +858,7 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <Pair title="At 10th Level">You gain a swim speed equal to your base speed.</Pair>
 <Pair title="At 20th Level">Whenever you make a Swim skill check, assume the roll resulted in a natural 20.</Pair>
 </Ability>
-<Ability id="arcaneschool-water-cold-blast-su" icon={["abstract-091"]}>
+<Ability id="arcaneschool-water-cold-blast-su" icon={["aura"]}>
 <Pair single id="arcaneschool-water-cold-blast-su">Cold Blast (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>
@@ -873,7 +873,7 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <h3 id="arcaneschool-water-ice-school" data-hash-target>Ice School</h3>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 21</Link><br/><strong>Associated School:</strong> Air or Water.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>cold blast</em> and <em>wave powers</em> of the water school.</p>
-<Ability id="arcaneschool-water-freezing-shards-su" icon={["abstract-091"]}>
+<Ability id="arcaneschool-water-freezing-shards-su" icon={["aura"]}>
 <Pair single id="arcaneschool-water-freezing-shards-su">Freezing Shards (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Int modifier times/day</Pair>

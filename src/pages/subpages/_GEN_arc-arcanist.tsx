@@ -20,7 +20,7 @@ const _aeromancer = {title: "Aeromancer", jsx: <><h2 id="arc-arcanist-aeromancer
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">An aeromancer can expend 2 points from her arcane reservoir to call upon the winds to gently carry her through the air while protecting her from harm. She is affected as though by the spell <Link to="/spell/air_walk">air walk</Link> and is surrounded by protective winds that function similarly to a <Link to="/spell/wind_wall">wind wall</Link> spell, except the effect surrounds only the aeromancer and moves with her wherever she goes. Both of these effects last for 1 minute.</Pair>
 </Ability>
-<Ability id="arc-arcanist-aeromancer-rebuking-gale-su" icon={["abstract-091","tornado-discs"]}>
+<Ability id="arc-arcanist-aeromancer-rebuking-gale-su" icon={["aura","tornado-discs"]}>
 <Pair single id="arc-arcanist-aeromancer-rebuking-gale-su">Rebuking Gale (Su)</Pair>
 <Pair hl title="Replaces">The arcane exploit gained at 11th level</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -212,7 +212,7 @@ const _harrowed_society_student = {title: "Harrowed Society Student", jsx: <><h2
 <Pair title="Ability">A Harrowed Society student can select a <Link to="/main/spells_divination">divination</Link> spell from the spell list of any class, including classes that cast divine or psychic spells, and add it to her list of spells known. This spell must be at least 1 level lower than the highest-level spell she can cast.</Pair>
 <Pair title="Special">At every odd-numbered level beyond 5th (7th, 9th, 11th, and so on), a Harrowed Society student can select a new divination spell, following the same restrictions as above. She casts these spells as arcane spells, using her normal spell slots, but must use a harrow deck as an additional focus component. If such a spell is normally a psychic spell with an emotion or thought component, she must also add that component.</Pair>
 </Ability>
-<Ability id="arc-arcanist-harrowed_society_student-trump-card-su" icon={["upgrade","armor-upgrade","heart-plus","armor-downgrade"]}>
+<Ability id="arc-arcanist-harrowed_society_student-trump-card-su" icon={["upgrade","armor-upgrade","remedy","armor-downgrade"]}>
 <Pair single id="arc-arcanist-harrowed_society_student-trump-card-su">Trump Card (Su)</Pair>
 <Pair hl title="Replaces">The 9th-level arcanist exploit</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -235,7 +235,7 @@ const _magaambyan_initiate = {title: "Magaambyan Initiate", jsx: <><h2 id="arc-a
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 122</Link>, <Link to="/source/arcane_anthology">Arcane Anthology pg. 16</Link><br/>Aspiring students of the <Link to="/rule/magaambya">Magaambya</Link> often spend decades researching arcane magic while learning to follow in the footsteps of the academy's founder, Old-Mage Jatembe. Those particularly gifted in the art of sculpting spells are sometimes schooled privately in the art of traditional, esoteric, and righteous spells, in the hope that such knowledge will pave the way for the initiate's acceptance into the school proper as a <Link to="/pclass/magaambyan_arcanist">Magaambyan arcanist</Link>.</p>
 <p>But many initiates find themselves overwhelmed by the extensive training and end up leaving the Magaambya before completing their studies. These spellcasters retain many of the Magaambya's techniques and philosophical bents, but are not considered to be graduates of the school. Yet they are still respected and valued, for the Magaambya's staff fully understand that its teachings and the scholastic, often hermetic lifestyle required to master the techniques are not to everyone's tastes. For the teachers of the Magaambya, there are no truly failed students save those who abandon their philosophy and succumb to the lure of cruelty and evil.</p>
 <p>Because they hold the Magaambya's interests close to their hearts but are not hindered by the need to remain close at hand to study or serve as teachers or assistants, Magaambyan initiates often serve as strong supporters beyond the normal reach of the Magaambya. Furthermore, Magaambyan initiates can act immediately against the forces of evil without waiting to be officially sent out into the world.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-arcanist-magaambyan_initiate--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A Magaambyan initiate must be of a good alignment.</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-arcanist-magaambyan_initiate-aura-of-good-ex" icon={["abstract-091"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-arcanist-magaambyan_initiate--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A Magaambyan initiate must be of a good alignment.</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-arcanist-magaambyan_initiate-aura-of-good-ex" icon={["aura"]}>
 <Pair single id="arc-arcanist-magaambyan_initiate-aura-of-good-ex">Aura of Good (Ex)</Pair>
 <Pair title="Passive Ability">A Magaambyan arcanist radiates an aura of good as if she were a <Link to="/class/cleric">cleric</Link> of a level equal to her class level (see the <Link to="/spell/detect_good">detect good</Link> spell).</Pair>
 </Ability>
@@ -308,7 +308,7 @@ const _spell_specialist = {title: "Spell Specialist", jsx: <><h2 id="arc-arcanis
 <Pair single id="arc-arcanist-spell_specialist-spell-bender-su">Spell Bender (Su)</Pair>
 <Pair title="Ability">The spell specialist can bend the line of a spell that has a line area of effect up to 90 degrees at any single point along the line's length.</Pair>
 </Ability>
-<Ability id="arc-arcanist-spell_specialist-spellwarp-su" extraClasses="subAbility numbered" icon={["abstract-091","tornado-discs","barbed-arrow"]}>
+<Ability id="arc-arcanist-spell_specialist-spellwarp-su" extraClasses="subAbility numbered" icon={["aura","tornado-discs","barbed-arrow"]}>
 <Pair single id="arc-arcanist-spell_specialist-spellwarp-su">Spellwarp (Su)</Pair>
 <Pair title="Ability">A spell specialist can reduce the radius of a <Link to="/misc/spread">spread or burst</Link> effect or shorten the length of a cone. All changes must occur in 5-foot increments, to a minimum of 5 feet. Alternatively, the spell specialist can change the area of effect of a cone spell to a line with a length equal to the spell's range.</Pair>
 </Ability>
@@ -330,7 +330,7 @@ const _twilight_sage = {title: "Twilight Sage", jsx: <><h2 id="arc-arcanist-twil
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A twilight sage must choose the <Link to="/exploit/arcane_barrier">arcane barrier</Link> exploit as her first arcanist exploit. Whenever an attack removes the last temporary hit point from the twilight sage's arcane barrier, the barrier's negative energy lashes back at the attacker, dealing an amount of negative energy damage equal to the barrier's maximum temporary hit point capacity.</Pair>
 </Ability>
-<Ability id="arc-arcanist-twilight_sage-twilight-transfer-su" icon={["heart-plus","magic-swirl"]}>
+<Ability id="arc-arcanist-twilight_sage-twilight-transfer-su" icon={["remedy","magic-swirl"]}>
 <Pair single id="arc-arcanist-twilight_sage-twilight-transfer-su" flavor="A twilight sage's mastery over life and death allows her to transfer life energy into a fading vessel.">Twilight Transfer (Su)</Pair>
 <Pair hl title="Replaces">The arcanist exploit gained at 11th level</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -359,7 +359,7 @@ const _unlettered_arcanist = {title: "Unlettered Arcanist", jsx: <><h2 id="arc-a
 </>};
 const _white_mage = {title: "White Mage", jsx: <><h2 id="arc-arcanist-white_mage-white-mage">White Mage</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 79</Link><br/>A white mage is an arcanist touched by a divine power and gifted with the ability to heal others.</p>
-<Ability id="arc-arcanist-white_mage-spontaneous-healing-su" icon={["heart-plus"]}>
+<Ability id="arc-arcanist-white_mage-spontaneous-healing-su" icon={["remedy"]}>
 <Pair single id="arc-arcanist-white_mage-spontaneous-healing-su">Spontaneous Healing (Su)</Pair>
 <Pair hl title="Replaces">The arcanist exploits gained at 1st and 9th levels</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -370,7 +370,7 @@ const _white_mage = {title: "White Mage", jsx: <><h2 id="arc-arcanist-white_mage
 <Pair single id="arc-arcanist-white_mage-greater-exploit">Greater Exploit</Pair>
 <Pair title="Info">A white mage can select the following greater exploit.</Pair>
 </Ability>
-<Ability id="arc-arcanist-white_mage-fast-healing-su" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-arcanist-white_mage-fast-healing-su" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-arcanist-white_mage-fast-healing-su">Fast Healing (Su)</Pair>
 <Pair title="Prerequisites">11th-level arcanist</Pair>
 <Pair title="Ability">A white mage can spend 1 point from her arcane reservoir and expend a spell slot of at least 2nd level to grant her allies the <em>fast healing</em> ability. Allies within 30 feet gain <Link to="/umr/fast_healing">fast healing</Link> equal to <Link to="/misc/half">half</Link> the level of the spell slot sacrificed. This effect lasts for a number of rounds equal to the arcanist's Charisma modifier (minimum 1).</Pair>

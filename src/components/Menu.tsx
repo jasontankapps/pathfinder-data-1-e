@@ -119,7 +119,7 @@ const appPages: AppPage[] = [
 	{
 		title: "Magic Items",
 		url: "/main/magic",
-		icon: "/icons/orb-wand.svg",
+		icon: "/icons/magic-shield.svg",
 		prefix: "magic"
 	},
 	{

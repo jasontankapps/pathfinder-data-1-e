@@ -136,7 +136,7 @@ const _exarch = {title: "Exarch", jsx: <><h2 id="arc-inquisitor-exarch-exarch">E
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Swift Action">An exarch can imbue one of her weapons with the <Link to="/magic-enh/jurist">jurist</Link> or <Link to="/magic-enh/menacing">menacing</Link> weapon special ability, and may switch between these properties as another swift action. When using either special ability, her weapon's critical threat range doubles against chaotic creatures. This does not stack with <Link to="/spell/keen_edge">keen edge</Link>, <Link to="/feat/improved_critical">Improved Critical</Link>, or similar effects. This ability otherwise functions as <em>bane.</em></Pair>
 </Ability>
-<Ability id="arc-inquisitor-exarch-aura-of-repetition-su" icon={["abstract-091"]}>
+<Ability id="arc-inquisitor-exarch-aura-of-repetition-su" icon={["aura"]}>
 <Pair single id="arc-inquisitor-exarch-aura-of-repetition-su">Aura of Repetition (Su)</Pair>
 <Pair hl title="Replaces">Second judgment</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -149,7 +149,7 @@ const _exarch = {title: "Exarch", jsx: <><h2 id="arc-inquisitor-exarch-exarch">E
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">Whenever an exarch uses her <em>fearsome jurist</em> ability, she may choose to affect two weapons, with one gaining the <em>jurist</em> weapon special ability and the other the <em>menacing</em> special ability as above. Both special abilities may be combined in a single weapon, whose critical threat range doubles. This does not stack with <em>keen edge,</em> Improved Critical, or similar effects.</Pair>
 </Ability>
-<Ability id="arc-inquisitor-exarch-aura-of-reversion-su" icon={["abstract-091","armor-downgrade"]}>
+<Ability id="arc-inquisitor-exarch-aura-of-reversion-su" icon={["aura","armor-downgrade"]}>
 <Pair single id="arc-inquisitor-exarch-aura-of-reversion-su">Aura of Reversion (Su)</Pair>
 <Pair hl title="Replaces">Third judgment</Pair>
 <Pair title="Gained">At 16th Level</Pair>
@@ -185,7 +185,7 @@ const _exorcist = {title: "Exorcist", jsx: <><h2 id="arc-inquisitor-exorcist-exo
 </>};
 const _expulsionist = {title: "Expulsionist", jsx: <><h2 id="arc-inquisitor-expulsionist-expulsionist">Expulsionist</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 14</Link><br/>Most common among <Link to="/faith/pharasma">Pharasmins</Link> but found within any faith that loathes undead or evil spirits, expulsionists are inquisitors who seek to rid the material world of the corrupting influences of wicked spirits that twist mortals to their own ends.</p>
-<Ability id="arc-inquisitor-expulsionist-expel-spirit-su" icon={["stairs-goal","abstract-091","magic-palm"]}>
+<Ability id="arc-inquisitor-expulsionist-expel-spirit-su" icon={["stairs-goal","aura","magic-palm"]}>
 <Pair single id="arc-inquisitor-expulsionist-expel-spirit-su">Expel Spirit (Su)</Pair>
 <Pair hl title="Replaces">Domain</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -909,7 +909,7 @@ const _secret_seeker = {title: "Secret Seeker", jsx: <><h2 id="arc-inquisitor-se
 </>};
 const _sin_eater = {title: "Sin Eater", jsx: <><h2 id="arc-inquisitor-sin_eater-sin-eater">Sin Eater</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 46</Link><br/>There is a sect of inquisitors in some religions that believes it is not enough to hunt the enemies of the church - one must also devour those enemies' sins. More benign versions of the practice believe that sin, or evil, is taken out of the world when a sin is devoured, denying the enemy's soul to the enemy's god and purifying the world of its taint. Followers of malevolent churches believe that consuming the sins of good folk not only corrupts the enemy soul to keep it from the celestial planes, but also taints the souls of those who witness the sin-eating or the corpse of its victim. Consuming sins empowers the sin eater, at least for a time.</p>
-<Ability id="arc-inquisitor-sin_eater-eat-sin-sp" icon={["stairs-goal","heart-plus"]}>
+<Ability id="arc-inquisitor-sin_eater-eat-sin-sp" icon={["stairs-goal","remedy"]}>
 <Pair single id="arc-inquisitor-sin_eater-eat-sin-sp">Eat Sin (Sp)</Pair>
 <Pair hl title="Replaces">Domain</Pair>
 <Pair title="Gained">At 1st Level</Pair>

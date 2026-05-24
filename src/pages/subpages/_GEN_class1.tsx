@@ -903,7 +903,7 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light, Medium, and Heavy armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
 <p><strong className="hl" id="class-antipaladin-code-of-conduct" data-hash-target>Code of Conduct:</strong> An antipaladin must be of chaotic evil alignment and loses all class features except proficiencies if he willingly and altruistically commits good acts. This does not mean that an antipaladin cannot take actions someone else might qualify as good, only that such actions must always be in service of his own dark ends. An antipaladin's code requires that he place his own interests and desires above all else, as well as impose tyranny, take advantage whenever possible, and punish the good and just, provided such actions don't interfere with his goals.</p>
 <p><strong className="hl">Associates:</strong> While he may adventure with evil or neutral allies, an antipaladin avoids working with good characters or with anyone who consistently attempts to do good deeds. Under exceptional circumstances, an antipaladin can ally with good associates, but only to defeat them from within and bring ruin to their ranks. An antipaladin does not need an <Link to="/spell/atonement">atonement</Link> spell during such an unusual alliance as long as his nefarious goals are met in the end - evil cares only about results. An antipaladin may accept only <Link to="/feat/leadership">henchmen, followers, or cohorts</Link> who are chaotic evil.</p>
-<Ability id="class-antipaladin-aura-of-evil-ex" icon={["abstract-091"]}>
+<Ability id="class-antipaladin-aura-of-evil-ex" icon={["aura"]}>
 <Pair single id="class-antipaladin-aura-of-evil-ex">Aura of Evil (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">The power of your aura of evil (see <Link to="/spell/detect_evil">detect evil</Link>) is equal to your antipaladin level.</Pair>
@@ -934,7 +934,7 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a bonus equal to your Charisma bonus (if any) on all saving throws.</Pair>
 </Ability>
-<Ability id="class-antipaladin-touch-of-corruption-su" icon={["magic-palm","heart-plus"]}>
+<Ability id="class-antipaladin-touch-of-corruption-su" icon={["magic-palm","remedy"]}>
 <Pair single id="class-antipaladin-touch-of-corruption-su">Touch of Corruption (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">Half your antipaladin level, plus your Cha modifier, times/day.</Pair>

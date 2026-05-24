@@ -7,7 +7,7 @@ import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 const _aromaphile = {title: "Aromaphile", jsx: <><h2 id="arc-mesmerist-aromaphile-aromaphile">Aromaphile</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 18</Link><br/>Rather than employ the baleful glares of the typical mesmerist, aromaphiles hypnotize others using an array of sickeningly sweet scents developed from their unique ghoran physiology.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-mesmerist-aromaphile--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ghoran">Ghoran</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-mesmerist-aromaphile-hypnotic-aroma-su" icon={["abstract-091","armor-downgrade"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-mesmerist-aromaphile--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ghoran">Ghoran</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-mesmerist-aromaphile-hypnotic-aroma-su" icon={["aura","armor-downgrade"]}>
 <Pair single id="arc-mesmerist-aromaphile-hypnotic-aroma-su">Hypnotic Aroma (Su)</Pair>
 <Pair hl title="Replaces">Hypnotic stare, painful stare, towering ego</Pair>
 <Pair title="Swift Action">An aromaphile can use unique aspects of ghoran biology to release intoxicating aromas in a 10-foot-radius <Link to="/misc/burst">burst</Link> centered on him. All creatures within this area, as well as creatures with <Link to="/umr/scent">scent</Link> within 30 feet, take a -2 penalty on Will saving throws. The aroma hovers around the aromaphile, moving with him, and lasts for 1 minute.</Pair>
@@ -25,7 +25,7 @@ const _aromaphile = {title: "Aromaphile", jsx: <><h2 id="arc-mesmerist-aromaphil
 <Pair title="At 19th Level">The aromaphile selects a new <em>debilitating aroma.</em></Pair>
 <Pair title="Special">The aromaphile chooses one option each time he gains a new debilitating aroma improvement, and the choice can't be changed later. The aromaphile can't choose the same debilitating aroma more than once unless otherwise noted.</Pair>
 </Ability>
-<Ability id="arc-mesmerist-aromaphile-aromatic-manipulation-su" icon={["magic-palm","heart-plus","armor-downgrade"]}>
+<Ability id="arc-mesmerist-aromaphile-aromatic-manipulation-su" icon={["magic-palm","remedy","armor-downgrade"]}>
 <Pair single id="arc-mesmerist-aromaphile-aromatic-manipulation-su">Aromatic Manipulation (Su)</Pair>
 <Pair hl title="Replaces">Mental potency</Pair>
 <Pair hl title="Alters">Touch treatment</Pair>
@@ -49,7 +49,7 @@ const _autohypnotist = {title: "Autohypnotist", jsx: <><h2 id="arc-mesmerist-aut
 <p>An autohypnotist can reduce or negate the penalty he imposes upon himself with his <em>hypnotic stare,</em> but doing so allows his opponent an opportunity to escape from the stare as well. The autohypnotist can reduce the penalty he takes from his <em>hypnotic stare</em> ability by <Link to="/misc/half">half</Link> for 1 round as a <strong className="hl">swift action</strong>. If he does so, there is a 25% chance that his <em>hypnotic stare</em> ends altogether. Alternatively, he can choose to negate the penalty he takes from his <em>hypnotic stare</em> for 1 round, but his <em>hypnotic stare</em> then has a 50% chance of ending.</p>
 </Pair>
 </Ability>
-<Ability id="arc-mesmerist-autohypnotist-wide-stare-su" icon={["stairs-goal","abstract-091"]}>
+<Ability id="arc-mesmerist-autohypnotist-wide-stare-su" icon={["stairs-goal","aura"]}>
 <Pair single id="arc-mesmerist-autohypnotist-wide-stare-su">Wide Stare (Su)</Pair>
 <Pair hl title="Replaces">Mental potency</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -111,7 +111,7 @@ const _cult_master = {title: "Cult Master", jsx: <><h2 id="arc-mesmerist-cult_ma
 <Pair hl title="Alters">Mesmerist tricks</Pair>
 <Pair title="Ability">A mental compulsion causes a cohort or follower to extol the virtues of the cult master. The cult master can trigger this trick whenever he attempts a Diplomacy check, as long as he is within 60 feet of the subject. The subject takes the <Link to="/rule/aid_another">aid another</Link> action on the cult master's Diplomacy check. If the subject is successful, the cult master gains a +4 bonus on his check. This is an enchantment (compulsion) effect.</Pair>
 </Ability>
-<Ability id="arc-mesmerist-cult_master-false-healing-su" icon={["heart-plus"]}>
+<Ability id="arc-mesmerist-cult_master-false-healing-su" icon={["remedy"]}>
 <Pair single id="arc-mesmerist-cult_master-false-healing-su" flavor="A cult master can provide temporary healing by using his psychic powers to trick the mind.">False Healing (Su)</Pair>
 <Pair hl title="Replaces">3rd- and 6th-level touch treatments</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -275,7 +275,7 @@ const _eyebiter = {title: "Eyebiter", jsx: <><h2 id="arc-mesmerist-eyebiter-eyeb
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">The eyebiter can cause the target to become dazzled for 1 minute and suffer a 20% miss chance on all attacks the target makes against opponents within 60 feet. Opponents more than 60 feet away have <Link to="/rule/concealment">total concealment</Link> from the target.</Pair>
 </Ability>
-<Ability id="arc-mesmerist-eyebiter-cause-or-cure-blindness" extraClasses="subAbility" icon={["armor-downgrade","heart-plus"]}>
+<Ability id="arc-mesmerist-eyebiter-cause-or-cure-blindness" extraClasses="subAbility" icon={["armor-downgrade","remedy"]}>
 <Pair single id="arc-mesmerist-eyebiter-cause-or-cure-blindness">Cause or Cure Blindness</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">The eyebiter can blind the target for 1 minute or affect it as per the spell <Link to="/spell/remove_blindness">remove blindness</Link>.</Pair>
@@ -666,7 +666,7 @@ const _toxitician = {title: "Toxitician", jsx: <><h2 id="arc-mesmerist-toxiticia
 <Pair title="Ability">The target's actions become sluggish, reducing its base movement by 10 feet and imposing a -1 penalty on attack rolls.</Pair>
 <Pair title="At 11th Level">The penalty on attack rolls becomes -2.</Pair>
 </Ability>
-<Ability id="arc-mesmerist-toxitician-treatment-vials-su" icon={["heart-plus"]}>
+<Ability id="arc-mesmerist-toxitician-treatment-vials-su" icon={["remedy"]}>
 <Pair single id="arc-mesmerist-toxitician-treatment-vials-su">Treatment Vials (Su)</Pair>
 <Pair hl title="Alters">Touch treatment</Pair>
 <Pair title="Gained">At 3rd Level</Pair>

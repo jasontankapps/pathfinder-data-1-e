@@ -162,7 +162,7 @@ const _brazen_disciple_uc = {title: "Brazen Disciple (Unchained)", topLink: ["Un
 </>};
 const _disciple_of_wholeness = {title: "Disciple of Wholeness", jsx: <><h2 id="arc-monk-disciple_of_wholeness-disciple-of-wholeness">Disciple of Wholeness</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 4</Link><br/>Disciples of wholeness train to bring themselves and others closer to physical and spiritual perfection.</p>
-<Ability id="arc-monk-disciple_of_wholeness-healing-ki-su" icon={["heart-plus"]}>
+<Ability id="arc-monk-disciple_of_wholeness-healing-ki-su" icon={["remedy"]}>
 <Pair single id="arc-monk-disciple_of_wholeness-healing-ki-su">Healing Ki (Su)</Pair>
 <Pair hl title="Replaces">The ability to spend ki to gain an extra attack during a <em>flurry of blows</em></Pair>
 <Pair hl title="Alters">Ki pool</Pair>
@@ -191,7 +191,7 @@ const _disciple_of_wholeness = {title: "Disciple of Wholeness", jsx: <><h2 id="a
 </>};
 const _disciple_of_wholeness_uc = {title: "Disciple of Wholeness (Unchained)", topLink: ["Unchained Monk","class/unchained_monk"], jsx: <><h2 id="arc-monk-disciple_of_wholeness_uc-disciple-of-wholeness">Disciple of Wholeness</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 4</Link><br/>Disciples of wholeness train to bring themselves and others closer to physical and spiritual perfection.</p>
-<Ability id="arc-monk-disciple_of_wholeness_uc-healing-ki-su" icon={["heart-plus"]}>
+<Ability id="arc-monk-disciple_of_wholeness_uc-healing-ki-su" icon={["remedy"]}>
 <Pair single id="arc-monk-disciple_of_wholeness_uc-healing-ki-su">Healing Ki (Su)</Pair>
 <Pair hl title="Replaces">4th-level ki power</Pair>
 <Pair hl title="Alters">Ki pool</Pair>
@@ -443,7 +443,7 @@ const _gray_disciple = {title: "Gray Disciple", jsx: <><h2 id="arc-monk-gray_dis
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Swift Action">The gray disciple can enlarge himself (as the <Link to="/spell/enlarge_person">enlarge person</Link> spell) for 1 minute by spending 1 ki point. To use this ability, the gray disciple must already have <em>enlarge person</em> available as a spell-like ability.</Pair>
 </Ability>
-<Ability id="arc-monk-gray_disciple-born-in-darkness-sp" icon={["magic-swirl","abstract-091"]}>
+<Ability id="arc-monk-gray_disciple-born-in-darkness-sp" icon={["magic-swirl","aura"]}>
 <Pair single id="arc-monk-gray_disciple-born-in-darkness-sp">Born in Darkness (Sp)</Pair>
 <Pair hl title="Replaces">Wholeness of body</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -618,20 +618,20 @@ const _hungry_ghost_monk = {title: "Hungry Ghost Monk", jsx: <><h2 id="arc-monk-
 <Pair title="Ability">If the monk scores a confirmed critical hit against a living enemy or reduces a living enemy to 0 or fewer hit points, he can steal some of that creature's ki. This ability replenishes 1 spent ki point to the monk's <em>ki pool,</em> as long as the monk has at least 1 ki point in his pool. He cannot exceed his *ki pool's maximum.</Pair>
 <Pair title="At 11th Level">Each time the monk successfully steals ki, he can make an immediate saving throw against one disease he is suffering from. There is no penalty for failing this saving throw. The monk gains a bonus equal to his Wisdom modifier on the saving throw.</Pair>
 </Ability>
-<Ability id="arc-monk-hungry_ghost_monk-life-funnel-su" icon={["heart-plus"]}>
+<Ability id="arc-monk-hungry_ghost_monk-life-funnel-su" icon={["remedy"]}>
 <Pair single id="arc-monk-hungry_ghost_monk-life-funnel-su" flavor="A hungry ghost monk can steal a creature's life force to replenish his own.">Life Funnel (Su)</Pair>
 <Pair hl title="Replaces">Wholeness of body</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">If the monk has at least 1 ki point in his <em>ki pool</em> and scores a confirmed critical hit against a living enemy or reduces a living enemy to 0 or fewer hit points, he heals a number of hit points equal to his monk level. As with <em>steal ki,</em> some monks believe that <em>life funnel</em> is an unsavory act, no better than what the undead do to the living.</Pair>
 <Pair title="Special">A monk with this ability cannot steal both ki and hit points at the same time.</Pair>
 </Ability>
-<Ability id="arc-monk-hungry_ghost_monk-life-from-a-stone-su" icon={["armor-upgrade","heart-plus"]}>
+<Ability id="arc-monk-hungry_ghost_monk-life-from-a-stone-su" icon={["armor-upgrade","remedy"]}>
 <Pair single id="arc-monk-hungry_ghost_monk-life-from-a-stone-su" flavor="A hungry ghost monk can steal ki or life force from any creature, not just living creatures.">Life from a Stone (Su)</Pair>
 <Pair hl title="Replaces">Diamond body</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">If the monk has at least 1 ki point in his pool, he gains the benefit of <em>life funnel</em> and <em>steal ki</em> when he confirms a critical hit against any creature or reduces any creature to 0 or fewer hit points.</Pair>
 </Ability>
-<Ability id="arc-monk-hungry_ghost_monk-sipping-demon-su" icon={["heart-plus"]}>
+<Ability id="arc-monk-hungry_ghost_monk-sipping-demon-su" icon={["remedy"]}>
 <Pair single id="arc-monk-hungry_ghost_monk-sipping-demon-su">Sipping Demon (Su)</Pair>
 <Pair hl title="Replaces">Diamond soul</Pair>
 <Pair title="Gained">At 13th Level</Pair>
@@ -1519,7 +1519,7 @@ const _ki_mystic = {title: "Ki Mystic", jsx: <><h2 id="arc-monk-ki_mystic-ki-mys
 <Pair title="At 13th Level">A ki mystic gains a +2 insight bonus to AC and CMD.</Pair>
 <Pair title="At 20th Level">The bonus increases to +4.</Pair>
 </Ability>
-<Ability id="arc-monk-ki_mystic-mystic-persistence-su" icon={["abstract-091","rolling-dices"]}>
+<Ability id="arc-monk-ki_mystic-mystic-persistence-su" icon={["aura","rolling-dices"]}>
 <Pair single id="arc-monk-ki_mystic-mystic-persistence-su">Mystic Persistence (Su)</Pair>
 <Pair hl title="Replaces">Empty body</Pair>
 <Pair title="Gained">At 19th Level</Pair>
@@ -1879,7 +1879,7 @@ const _monk_of_the_four_winds = {title: "Monk of the Four Winds", jsx: <><h2 id=
 </>};
 const _monk_of_the_healing_hand = {title: "Monk of the Healing Hand", jsx: <><h2 id="arc-monk-monk_of_the_healing_hand-monk-of-the-healing-hand">Monk of the Healing Hand</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 113</Link><br/>Monks of the healing hand seek perfection through helping others. By focusing their meditations on the flow of life within themselves and all creation they gain an understanding of how to share their ki with others, healing wounds and even bringing the dead back to life. For such a monk, sacrificing himself to save another is the surest way to achieve transcendence. A monk of the healing hand has the following class features.</p>
-<Ability id="arc-monk-monk_of_the_healing_hand-ancient-healing-hand-su" icon={["heart-plus"]}>
+<Ability id="arc-monk-monk_of_the_healing_hand-ancient-healing-hand-su" icon={["remedy"]}>
 <Pair single id="arc-monk-monk_of_the_healing_hand-ancient-healing-hand-su" flavor="A monk of the healing hand can heal another creature's wounds with a touch.">Ancient Healing Hand (Su)</Pair>
 <Pair hl title="Replaces">Wholeness of body</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -1893,7 +1893,7 @@ const _monk_of_the_healing_hand = {title: "Monk of the Healing Hand", jsx: <><h2
 <Pair title="At 15th Level">The monk may sacrifice his ki to cast <Link to="/spell/resurrection">resurrection</Link>. The monk must have at least 8 points of ki in his <em>ki pool</em> to use this ability.</Pair>
 <Pair title="Special">These rituals do not require material components. When this ability is used, the monk's <em>ki pool</em> is not replenished until 24 hours have passed.</Pair>
 </Ability>
-<Ability id="arc-monk-monk_of_the_healing_hand-true-sacrifice-su" icon={["abstract-091","magic-swirl","broken-shield"]}>
+<Ability id="arc-monk-monk_of_the_healing_hand-true-sacrifice-su" icon={["aura","magic-swirl","broken-shield"]}>
 <Pair single id="arc-monk-monk_of_the_healing_hand-true-sacrifice-su">True Sacrifice (Su)</Pair>
 <Pair hl title="Replaces">Perfect self</Pair>
 <Pair title="Gained">At 20th Level</Pair>

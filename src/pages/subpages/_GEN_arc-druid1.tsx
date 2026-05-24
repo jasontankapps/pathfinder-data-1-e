@@ -231,7 +231,7 @@ const _ashvawg_tamer = {title: "Ashvawg Tamer", jsx: <><h2 id="arc-druid-ashvawg
 <Pair id="arc-druid-ashvawg_tamer-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Diplomacy, Heal</Pair></Ability>
-<Ability id="arc-druid-ashvawg_tamer-bestial-bond-sp" icon={["heart-plus","armor-downgrade"]}>
+<Ability id="arc-druid-ashvawg_tamer-bestial-bond-sp" icon={["remedy","armor-downgrade"]}>
 <Pair single id="arc-druid-ashvawg_tamer-bestial-bond-sp">Bestial Bond (Sp)</Pair>
 <Pair hl title="Replaces">Resist nature's lure</Pair>
 <Pair title="Gained">At 4th Level</Pair>

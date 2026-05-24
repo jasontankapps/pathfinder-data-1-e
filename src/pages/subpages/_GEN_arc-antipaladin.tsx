@@ -21,7 +21,7 @@ const _blighted_myrmidon = {title: "Blighted Myrmidon", jsx: <><h2 id="arc-antip
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Passive Ability">When the blighted myrmidon damages a creature with her <em>smite nature</em> ability, she gains a +1 morale bonus on attack rolls, damage rolls, and saving throws for 1 round.</Pair>
 </Ability>
-<Ability id="arc-antipaladin-blighted_myrmidon-aura-of-decay-su" icon={["abstract-091"]}>
+<Ability id="arc-antipaladin-blighted_myrmidon-aura-of-decay-su" icon={["aura"]}>
 <Pair single id="arc-antipaladin-blighted_myrmidon-aura-of-decay-su">Aura of Decay (Su)</Pair>
 <Pair hl title="Replaces">Aura of vengeance</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -43,7 +43,7 @@ const _blighted_myrmidon = {title: "Blighted Myrmidon", jsx: <><h2 id="arc-antip
 const _dread_vanguard = {title: "Dread Vanguard", jsx: <><h2 id="arc-antipaladin-dread_vanguard-dread-vanguard">Dread Vanguard</h2>
 <p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption pg. 22</Link><br/>Some antipaladins serve or ally themselves with villains who are bent on earthly conquest. They care nothing for the intricacies of divine spellcasting, but malevolent energy still surrounds them. Whether alone or at the head of a marauding host, these cruel warriors bring suffering and death - but their presence also heralds the coming of a greater evil.</p>
 <p>Dread vanguards have the following class features.</p>
-<Ability id="arc-antipaladin-dread_vanguard-beacon-of-evil-su" icon={["upgrade","abstract-091","heart-plus","armor-upgrade"]}>
+<Ability id="arc-antipaladin-dread_vanguard-beacon-of-evil-su" icon={["upgrade","aura","remedy","armor-upgrade"]}>
 <Pair single id="arc-antipaladin-dread_vanguard-beacon-of-evil-su" flavor="A dread vanguard unleashes the powers of his vile masters to strengthen both himself and his allies.">Beacon of Evil (Su)</Pair>
 <Pair hl title="Replaces">Spells</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -123,13 +123,13 @@ const _insinuator = {title: "Insinuator", jsx: <><h2 id="arc-antipaladin-insinua
 <Pair title="At 19th Level">The insinuator can smite seven times a day.</Pair>
 <Pair title="Special">The smite effect remains until the target is defeated or the next time the insinuator rests and regains his uses of this ability.</Pair>
 </Ability>
-<Ability id="arc-antipaladin-insinuator-selfish-healing-su" icon={["heart-plus"]}>
+<Ability id="arc-antipaladin-insinuator-selfish-healing-su" icon={["remedy"]}>
 <Pair single id="arc-antipaladin-insinuator-selfish-healing-su">Selfish Healing (Su)</Pair>
 <Pair hl title="Replaces">Touch of corruption</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Swift Action">An insinuator can heal his wounds by touch. This is treated exactly like the paladin's <Link to="/ability/lay_on_hands">lay on hands</Link> class feature, except it can be used only to heal the insinuator and cannot be used on other creatures.</Pair>
 </Ability>
-<Ability id="arc-antipaladin-insinuator-aura-of-ego-su" icon={["abstract-091","armor-upgrade","armor-downgrade"]}>
+<Ability id="arc-antipaladin-insinuator-aura-of-ego-su" icon={["aura","armor-upgrade","armor-downgrade"]}>
 <Pair single id="arc-antipaladin-insinuator-aura-of-ego-su">Aura of Ego (Su)</Pair>
 <Pair hl title="Replaces">Aura of cowardice</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -141,13 +141,13 @@ const _insinuator = {title: "Insinuator", jsx: <><h2 id="arc-antipaladin-insinua
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">An insinuator takes only half damage from diseases and poisons, and none of his ability scores can be reduced below 1 by these effects.</Pair>
 </Ability>
-<Ability id="arc-antipaladin-insinuator-greeds-su" icon={["heart-plus"]}>
+<Ability id="arc-antipaladin-insinuator-greeds-su" icon={["remedy"]}>
 <Pair single id="arc-antipaladin-insinuator-greeds-su">Greeds (Su)</Pair>
 <Pair hl title="Replaces">Cruelty</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">An insinuator can heal himself of certain conditions. This functions as the <em>mercy</em> paladin class ability, but these <em>mercies</em> can only be applied to the insinuator himself.</Pair>
 </Ability>
-<Ability id="arc-antipaladin-insinuator-channel-energy-su" icon={["abstract-091"]}>
+<Ability id="arc-antipaladin-insinuator-channel-energy-su" icon={["aura"]}>
 <Pair single id="arc-antipaladin-insinuator-channel-energy-su">Channel Energy (Su)</Pair>
 <Pair hl title="Alters">Channel negative energy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -177,7 +177,7 @@ const _insinuator = {title: "Insinuator", jsx: <><h2 id="arc-antipaladin-insinua
 <Pair single id="arc-antipaladin-insinuator-outsider-servant">Outsider Servant</Pair>
 <Pair title="Ability">This functions as the antipaladin ability, except the insinuator gains a new outsider servant each day, whose alignment must match the alignment of the outsider invoked for the day. The outsider servant functions as much as an agent for the patron invoked by the insinuator as an ally of the insinuator himself, and may turn against him if he violates his patron's alignment or interests.</Pair>
 </Ability>
-<Ability id="arc-antipaladin-insinuator-aura-of-ambition-su" icon={["abstract-091","armor-downgrade","upgrade"]}>
+<Ability id="arc-antipaladin-insinuator-aura-of-ambition-su" icon={["aura","armor-downgrade","upgrade"]}>
 <Pair single id="arc-antipaladin-insinuator-aura-of-ambition-su">Aura of Ambition (Su)</Pair>
 <Pair hl title="Replaces">Aura of despair</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -318,19 +318,19 @@ const _knight_of_the_sepulcher = {title: "Knight of the Sepulcher", jsx: <><h2 i
 </>};
 const _rough_rampager = {title: "Rough Rampager", jsx: <><h2 id="arc-antipaladin-rough_rampager-rough-rampager">Rough Rampager</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 43</Link><br/>Rough rampagers venerate <Link to="/faith/rovagug">Rovagug</Link>, reveling in the destruction the dark god represents. Where others seek power, wealth, or revenge, the rough rampager merely focuses on slaughter and mayhem. Because of their sheer destructive nature, most rough rampagers live short, brutal lives swathed in blood and carnage before someone puts them to the blade. Legends speak of dozens of rough rampagers wreaking havoc when Rovagug's spawn escape, acting as heralds and harbingers of the greater destruction created by the Rough Beast's terrifying children.</p>
-<Ability id="arc-antipaladin-rough_rampager-aura-of-blood-su" icon={["abstract-091","armor-downgrade"]}>
+<Ability id="arc-antipaladin-rough_rampager-aura-of-blood-su" icon={["aura","armor-downgrade"]}>
 <Pair single id="arc-antipaladin-rough_rampager-aura-of-blood-su">Aura of Blood (Su)</Pair>
 <Pair hl title="Replaces">Aura of cowardice</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A rough rampager radiates a palpably daunting aura that causes all enemies within 10 feet to take a -4 penalty on Constitution or Heal checks to stop <Link to="/rule/bleed">bleed</Link> damage and checks to stabilize while <Link to="/misc/dying">dying</Link>. This ability functions only while the antipaladin is conscious.</Pair>
 </Ability>
-<Ability id="arc-antipaladin-rough_rampager-aura-of-putrefaction-su" icon={["abstract-091","armor-downgrade"]}>
+<Ability id="arc-antipaladin-rough_rampager-aura-of-putrefaction-su" icon={["aura","armor-downgrade"]}>
 <Pair single id="arc-antipaladin-rough_rampager-aura-of-putrefaction-su">Aura of Putrefaction (Su)</Pair>
 <Pair hl title="Replaces">Aura of despair</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">A rough rampager radiates an aura that causes the wounds of enemies within 10 feet to weep blood. Injured enemies in the area take 1 point of bleed damage per round. This ability functions only while the antipaladin is conscious.</Pair>
 </Ability>
-<Ability id="arc-antipaladin-rough_rampager-aura-of-quietus-su" icon={["abstract-091","armor-downgrade"]}>
+<Ability id="arc-antipaladin-rough_rampager-aura-of-quietus-su" icon={["aura","armor-downgrade"]}>
 <Pair single id="arc-antipaladin-rough_rampager-aura-of-quietus-su">Aura of Quietus (Su)</Pair>
 <Pair hl title="Replaces">Aura of sin</Pair>
 <Pair title="Gained">At 14th Level</Pair>
@@ -363,7 +363,7 @@ const _seal_breaker = {title: "Seal-Breaker", jsx: <><h2 id="arc-antipaladin-sea
 <Pair single id="arc-antipaladin-seal_breaker-undead-mount">Undead Mount</Pair>
 <Pair title="Ability">The sealbreaker gains the ability to reanimate any Large corpse (or a Medium corpse for Small seal-breakers) as his corpse mount. If no such corpse is present, the seal-breaker cannot summon his mount. The corpse animates as a quadruped of the same size that the seal-breaker can ride, regardless of the corpse's living form. This corpse mount functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link> using the seal-breaker's level as his effective druid level. The mount has the same base statistics as a <Link to="/companion/horse">heavy horse</Link>, <Link to="/companion/pony">pony</Link>, <Link to="/companion/boar">boar</Link>, <Link to="/companion/camel">camel</Link>, or <Link to="/companion/dog">dog</Link> (based on its size) with the following changes: its type changes to <Link to="/type/undead">undead</Link>, it has a <Link to="/misc/good_saves">good Will save and bad Fortitude and Reflex saves</Link>, it uses the base creature's Constitution score as its Charisma score (and likewise applies all level-based advancements to Charisma instead of Constitution), and it has an Intelligence score of at least 6.</Pair>
 </Ability>
-<Ability id="arc-antipaladin-seal_breaker-aura-of-death-su" icon={["abstract-091","armor-upgrade"]}>
+<Ability id="arc-antipaladin-seal_breaker-aura-of-death-su" icon={["aura","armor-upgrade"]}>
 <Pair single id="arc-antipaladin-seal_breaker-aura-of-death-su">Aura of Death (Su)</Pair>
 <Pair hl title="Replaces">Aura of despair</Pair>
 <Pair title="Gained">At 8th Level</Pair>

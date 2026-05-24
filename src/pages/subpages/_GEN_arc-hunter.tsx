@@ -837,7 +837,7 @@ const _scarab_stalker = {title: "Scarab Stalker", jsx: <><h2 id="arc-hunter-scar
 <Pair title="At 8th Level">This bonus becomes +6.</Pair>
 <Pair title="At 15th Level">This bonus increases to +8.</Pair>
 </Ability>
-<Ability id="arc-hunter-scarab_stalker-kite" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-hunter-scarab_stalker-kite" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-hunter-scarab_stalker-kite">Kite</Pair>
 <Pair title="Passive Ability">The creature recovers 1 additional hit point whenever it receives magical healing.</Pair>
 <Pair title="At 8th Level">This increases to 2 additional hit points.</Pair>

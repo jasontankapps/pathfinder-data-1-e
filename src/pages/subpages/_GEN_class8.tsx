@@ -2412,7 +2412,7 @@ const _mesmerist = {hasJL:true,title: "Mesmerist", jsx: <><div className="jumpLi
 <Pair title="Special">You can't choose the same <em>bold stare improvement</em> more than once unless otherwise noted. All of your <em>bold stare improvements</em> affect the target as long as it is affected by your <em>hypnotic stare.</em></Pair>
 </Ability>
 <aside><p>A mesmerist may take the <Link to="/feat/manifold_stare">Manifold Stare</Link> feat in place of a bold stare improvement. The mesmerist must meet the feat's prerequisites.</p>
-</aside><Ability id="class-mesmerist-touch-treatment-su" icon={["heart-plus"]}>
+</aside><Ability id="class-mesmerist-touch-treatment-su" icon={["remedy"]}>
 <Pair single id="class-mesmerist-touch-treatment-su">Touch Treatment (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>

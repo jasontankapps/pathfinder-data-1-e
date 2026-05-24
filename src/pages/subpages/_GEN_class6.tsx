@@ -834,7 +834,7 @@ const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" 
 <Pair title="Usage">1 time/day + 1 per two samurai levels beyond 1st<ByLevelPop levels={[[1,1],[3,2],[5,3],[7,4],[9,5],[11,6],[13,7],[15,8],[17,9],[19,10]]} unit="time" postText="/day" /></Pair>
 <Pair title="Passive Ability">You gain <em>resolve</em> that you can call upon to endure even the most devastating wounds and afflictions. Whenever you defeat the target of your challenge, you regain one daily use of your <em>resolve,</em> up to your maximum number of uses per day. Defeating the target of your challenge usually involves reducing the target to 0 hit points or fewer, but the GM might rule that an enemy who surrenders or flees the battle is also defeated. You can use this <em>resolve</em> in a number of ways.</Pair>
 </Ability>
-<Ability id="class-samurai-determined" extraClasses="subAbility numbered" icon={["heart-plus"]}>
+<Ability id="class-samurai-determined" extraClasses="subAbility numbered" icon={["remedy"]}>
 <Pair single id="class-samurai-determined">Determined</Pair>
 <Pair title="Standard Action">You can spend one use of your <em>resolve</em> to remove the <Link to="/misc/fatigued">fatigued</Link>, <Link to="/misc/shaken">shaken</Link>, or <Link to="/misc/sickened">sickened</Link> condition.</Pair>
 <Pair title="At 8th Level">You can now remove the <Link to="/misc/exhausted">exhausted</Link>, <Link to="/misc/frightened">frightened</Link>, <Link to="/misc/nauseated">nauseated</Link>, or <Link to="/misc/staggered">staggered</Link> conditions, instead.</Pair>
@@ -1953,7 +1953,7 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Your bonus language options include Abyssal, Celestial, and Infernal. These choices are in addition to the bonus languages available because of your race.</Pair>
 </Ability>
-<Ability id="class-warpriest-aura-ex" icon={["abstract-091"]}>
+<Ability id="class-warpriest-aura-ex" icon={["aura"]}>
 <Pair single id="class-warpriest-aura-ex">Aura (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">If you are a warpriest of a chaotic, evil, good, or lawful deity, you have a particularly powerful aura (as a <Link to="/class/cleric">cleric</Link>) corresponding to your deity's alignment (see <Link to="/spell/detect_evil">detect evil</Link>).</Pair>
@@ -2050,7 +2050,7 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <p>If multiple weapons are enhanced, each one consumes rounds of use individually. The enhancement bonus and special abilities are determined the first time the ability is used each day, and cannot be changed until the next day. These bonuses do not apply if another creature is wielding the weapon, but they continue to be in effect if the weapon otherwise leaves your possession (such as if the weapon is thrown). This ability can be ended as a <strong className="hl">free action</strong> at the start of your turn (that round does not count against the total duration, unless the ability is resumed during the same round). If you use this ability on a <Link to="/misc/double">double</Link> weapon, the effects apply to only one end of the weapon.</p>
 </Pair>
 </Ability>
-<Ability id="class-warpriest-fervor-su" icon={["heart-plus","magic-palm","magic-swirl"]}>
+<Ability id="class-warpriest-fervor-su" icon={["remedy","magic-palm","magic-swirl"]}>
 <Pair single id="class-warpriest-fervor-su" flavor="A warpriest can draw upon the power of his faith to heal wounds or harm foes. He can also use this ability to quickly cast spells that aid in his struggles.">Fervor (Su)</Pair>
 <Pair title="Ability">If you spontaneously cast <em>cure</em> spells, this ability harms undead (no save) and heals other creatures as positive energy. Otherwise, it heals undead and harms other creatures (no save) as negative energy.</Pair>
 <Pair title="Usage">Wis modifier times/day + 1/2 your warpriest level</Pair>
@@ -2073,7 +2073,7 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <Pair title="At 15th Level">You gain another bonus combat feat, following the same restrictions as above.</Pair>
 <Pair title="At 18th Level">You gain another bonus combat feat, following the same restrictions as above.</Pair>
 </Ability>
-<Ability id="class-warpriest-channel-energy-su" icon={["abstract-091","heart-plus"]}>
+<Ability id="class-warpriest-channel-energy-su" icon={["aura","remedy"]}>
 <Pair single id="class-warpriest-channel-energy-su">Channel Energy (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain the ability to <Link to="/ability/channel_energy">channel energy</Link> like a cleric, by presenting your holy (or unholy) symbol.</Pair>

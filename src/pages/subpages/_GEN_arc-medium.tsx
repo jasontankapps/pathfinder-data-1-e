@@ -5,7 +5,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 const _fiend_keeper = {title: "Fiend Keeper", jsx: <><h2 id="arc-medium-fiend_keeper-fiend-keeper">Fiend Keeper</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 8</Link><br/>Among the most sacred roles a grippli can play is that of fiend keeper, a vessel to contain one of the world's evil spirits so that it cannot inflict further harm. As the host performs goodly acts, he slowly cleanses the spirit, continuing this process over many generations, until the entity's vileness is no more. In turn, the spirit tempts the fiend keeper with blasphemous power that a cautious medium can direct toward righteous ends. Many tribes boast a resident fiend keeper who bears this local burden and trains replacements who might take over when their mentor dies.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-medium-fiend_keeper--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><ul><li><Link to="/race/grippli">Grippli</Link></li><li>Alignment must be nonevil</li></ul></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-medium-fiend_keeper-evil-spirit-su" icon={["stairs-goal","broken-shield","abstract-091"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-medium-fiend_keeper--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><ul><li><Link to="/race/grippli">Grippli</Link></li><li>Alignment must be nonevil</li></ul></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-medium-fiend_keeper-evil-spirit-su" icon={["stairs-goal","broken-shield","aura"]}>
 <Pair single id="arc-medium-fiend_keeper-evil-spirit-su">Evil Spirit (Su)</Pair>
 <Pair hl title="Alters">Spirit</Pair>
 <Pair title="Ability">A fiend keeper serves as the vessel for a powerful evil spirit that fights and bargains for dominance. The legends a fiend keeper channels are all aspects of this evil presence. Willingly performing an evil act automatically grants the evil spirit 1 point of influence over him. <Link to="/spell/protection_from_evil">Protection from evil</Link> temporarily suppresses all the spirit's benefits while the fiend keeper is under the spell's effects. When the spirit gains at least 3 points of influence over the fiend keeper, in addition to the penalties associated with each legend, he gains an evil aura as per a <Link to="/class/cleric">cleric</Link> of his level and treats his alignment as evil for the purposes of resisting or being vulnerable to spells and abilities (such as <Link to="/spell/unholy_blight">unholy blight</Link> or a paladin's <em>smite evil</em> class ability).</Pair>
@@ -341,12 +341,12 @@ const _rivethun_spirit_channeler = {title: "Rivethun Spirit Channeler", jsx: <><
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A rivethun spirit channeler adds 1/2 her medium level to Diplomacy checks attempted against fey, elementals, outsiders (except native outsiders), and undead creatures, as well as on Diplomacy checks attempted as part of the <em>wrangle condition</em> ability (see below).</Pair>
 </Ability>
-<Ability id="arc-medium-rivethun_spirit_channeler-wrangle-condition-su" extraClasses="hasSubs" icon={["heart-plus"]}>
+<Ability id="arc-medium-rivethun_spirit_channeler-wrangle-condition-su" extraClasses="hasSubs" icon={["remedy"]}>
 <Pair single id="arc-medium-rivethun_spirit_channeler-wrangle-condition-su">Wrangle Condition (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A rivethun spirit channeler can interact directly with unwholesome spirits of the ills that trouble her or her allies. This functions like the <Link to="/arc-shaman/animist">animist shaman's</Link> <em>wrangle condition</em> ability.</Pair>
 </Ability>
-<Ability id="arc-medium-rivethun_spirit_channeler-text-from-the-animist-ability" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-medium-rivethun_spirit_channeler-text-from-the-animist-ability" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-medium-rivethun_spirit_channeler-text-from-the-animist-ability">Text from the Animist ability</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability"><p>The animist interacts directly with unwholesome spirits of the ills that trouble him or his people. To the animist, negative conditions manifest as anthropomorphic spirits or are caused by such spirits (visited upon the creature by bad magic). Either way, the animist can attempt to persuade the spirit to leave its victim alone, thus performing a miraculous healing. As the animist grows in power, he can simply inform these spirits that they are unwelcome and command them to depart.</p>
@@ -389,7 +389,7 @@ const _spirit_dancer = {title: "Spirit Dancer", jsx: <><h2 id="arc-medium-spirit
 <Pair single id="arc-medium-spirit_dancer-nothing-is-taboo-ex">Nothing Is Taboo (Ex)</Pair>
 <Pair title="Ability">A spirit dancer doesn't gain the <em>taboo</em> class feature.</Pair>
 </Ability>
-<Ability id="arc-medium-spirit_dancer-spirit-aura-su" icon={["abstract-091","upgrade"]}>
+<Ability id="arc-medium-spirit_dancer-spirit-aura-su" icon={["aura","upgrade"]}>
 <Pair single id="arc-medium-spirit_dancer-spirit-aura-su">Spirit Aura (Su)</Pair>
 <Pair hl title="Replaces">Shared seance</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -607,7 +607,7 @@ const _voice_of_the_void = {title: "Voice of the Void", jsx: <><h2 id="arc-mediu
 <Pair title="At 10th Level">The <em>surge</em> die becomes 1d10.</Pair>
 <Pair title="At 20th Level">The <em>surge</em> die becomes 1d12.</Pair>
 </Ability>
-<Ability id="arc-medium-voice_of_the_void-void-channeler-su" icon={["abstract-091"]}>
+<Ability id="arc-medium-voice_of_the_void-void-channeler-su" icon={["aura"]}>
 <Pair single id="arc-medium-voice_of_the_void-void-channeler-su" flavor="The voice of the void can funnel energy from the emissaries' realm through himself.">Void Channeler (Su)</Pair>
 <Pair hl title="Replaces">Haunt channeler</Pair>
 <Pair title="Gained">At 3rd Level</Pair>

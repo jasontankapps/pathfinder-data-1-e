@@ -102,7 +102,7 @@ const _arcane_duelist = {title: "Arcane Duelist", jsx: <><h2 id="arc-bard-arcane
 </>};
 const _arcane_healer = {title: "Arcane Healer", jsx: <><h2 id="arc-bard-arcane_healer-arcane-healer">Arcane Healer</h2>
 <p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies pg. 13</Link><br/>Though bards may have different reasons for wanting to heal the sick and injured, both out of pure altruism and in order to keep adventuring companions safe, the ability to heal also makes it much easier for a bard to pose as a cleric or other divine healer, opening the door for a wide array of swindles and scams.</p>
-<Ability id="arc-bard-arcane_healer-channel-energy-su" icon={["stairs-goal","abstract-091"]}>
+<Ability id="arc-bard-arcane_healer-channel-energy-su" icon={["stairs-goal","aura"]}>
 <Pair single id="arc-bard-arcane_healer-channel-energy-su">Channel Energy (Su)</Pair>
 <Pair hl title="Replaces">Versatile performance</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -237,7 +237,7 @@ const _argent_voice = {title: "Argent Voice", jsx: <><h2 id="arc-bard-argent_voi
 <Pair single id="arc-bard-argent_voice-bardic-performance">Bardic Performance</Pair>
 <Pair title="Info">An argent voice gains the following bardic performances. The argent voice must use Perform (sing) with these performances.</Pair>
 </Ability>
-<Ability id="arc-bard-argent_voice-limning-verse-su" extraClasses="subAbility" icon={["armor-downgrade","abstract-091"]}>
+<Ability id="arc-bard-argent_voice-limning-verse-su" extraClasses="subAbility" icon={["armor-downgrade","aura"]}>
 <Pair single id="arc-bard-argent_voice-limning-verse-su">Limning Verse (Su)</Pair>
 <Pair hl title="Replaces">Fascinate</Pair>
 <Pair title="Ability">An argent voice can sing a song that causes fiends to glow with an aura of silvery light. Outsiders with the evil subtype within 10 feet of the argent voice are affected as per <Link to="/spell/faerie_fire">faerie fire</Link>.</Pair>
@@ -664,7 +664,7 @@ const _court_fool = {title: "Court Fool", jsx: <><h2 id="arc-bard-court_fool-cou
 <Pair title="Ability">A court fool can startle his allies back to their senses with erratic capering or by fluttering multicolored clothing. Each round, he attempts an Acrobatics check. Any ally (including the court fool) within 30 feet can use this check in place of her own saving throw against confusion and fascination effects. Those already under a confusion or fascination effect can attempt a new save each round using the court fool's Acrobatics check. A court fool wearing an <Link to="/eq-misc/entertainers_outfit">entertainer's outfit</Link> gains a +2 bonus on these Acrobatics checks.</Pair>
 <Pair title="Special"><em>Distracting motley</em> doesn't work on effects that don't allow saves. This is a mind-affecting effect that uses visual components.</Pair>
 </Ability>
-<Ability id="arc-bard-court_fool-defuse-tension-su" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-bard-court_fool-defuse-tension-su" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-bard-court_fool-defuse-tension-su">Defuse Tension (Su)</Pair>
 <Pair hl title="Replaces">Inspire competence</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -802,7 +802,7 @@ const _dawnflower_dervish = {title: "Dawnflower Dervish", jsx: <><h2 id="arc-bar
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">A Dawnflower dervish gains a +4 bonus on <Link to="/rule/concentration">concentration</Link> checks to cast spells defensively.</Pair>
 </Ability>
-<Ability id="arc-bard-dawnflower_dervish-meditative-whirl-ex" icon={["magic-swirl","heart-plus"]}>
+<Ability id="arc-bard-dawnflower_dervish-meditative-whirl-ex" icon={["magic-swirl","remedy"]}>
 <Pair single id="arc-bard-dawnflower_dervish-meditative-whirl-ex" flavor="When using battle dance, the Dawnflower dervish can enter a trance-like state where his spinning motion represents the movement of the planets around the sun, and his spirit is attuned to the healing aspects of Sarenrae.">Meditative Whirl (Ex)</Pair>
 <Pair hl title="Replaces">Dirge of doom</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -1111,7 +1111,7 @@ const _dragon_yapper = {title: "Dragon Yapper", jsx: <><h2 id="arc-bard-dragon_y
 <Pair title="At 17th Level">These penalties become -4.</Pair>
 <Pair title="Special">Yapping song is a mind-affecting ability that uses audible components, but is not language-dependent.</Pair>
 </Ability>
-<Ability id="arc-bard-dragon_yapper-frightful-song-su" extraClasses="subAbility" icon={["armor-downgrade","abstract-091"]}>
+<Ability id="arc-bard-dragon_yapper-frightful-song-su" extraClasses="subAbility" icon={["armor-downgrade","aura"]}>
 <Pair single id="arc-bard-dragon_yapper-frightful-song-su">Frightful Song (Su)</Pair>
 <Pair hl title="Replaces">Dirge of doom</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -1526,7 +1526,7 @@ const _fortune_teller = {title: "Fortune-Teller", jsx: <><h2 id="arc-bard-fortun
 <Pair single id="arc-bard-fortune_teller-bardic-performance">Bardic Performance</Pair>
 <Pair title="Info">A fortune-teller gains the following bardic performance.</Pair>
 </Ability>
-<Ability id="arc-bard-fortune_teller-transparent-fate-su" extraClasses="subAbility" icon={["armor-downgrade","abstract-091"]}>
+<Ability id="arc-bard-fortune_teller-transparent-fate-su" extraClasses="subAbility" icon={["armor-downgrade","aura"]}>
 <Pair single id="arc-bard-fortune_teller-transparent-fate-su">Transparent Fate (Su)</Pair>
 <Pair hl title="Replaces">Dirge of doom</Pair>
 <Pair title="Gained">At 8th Level</Pair>

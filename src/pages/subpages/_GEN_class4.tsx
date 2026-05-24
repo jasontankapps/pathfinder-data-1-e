@@ -544,7 +544,7 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/scribe_scroll">Scribe Scroll</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="class-skald-raging-song-su" extraClasses="hasSubs" icon={["stairs-goal","abstract-091"]}>
+<Ability id="class-skald-raging-song-su" extraClasses="hasSubs" icon={["stairs-goal","aura"]}>
 <Pair single id="class-skald-raging-song-su" flavor="A skald is trained to use music, oration, and similar performances to inspire his allies to feats of strength and ferocity.">Raging Song (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 + twice your skald level + your Cha modifier rounds/day.</Pair>
@@ -556,7 +556,7 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 7th Level">You can begin a raging song as a <strong className="hl">move-equivalent action</strong>.</Pair>
 <Pair title="At 13th Level">You can begin a raging song as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="class-skald-inspired-rage-su" extraClasses="subAbility" icon={["upgrade","broken-shield","abstract-091"]}>
+<Ability id="class-skald-inspired-rage-su" extraClasses="subAbility" icon={["upgrade","broken-shield","aura"]}>
 <Pair single id="class-skald-inspired-rage-su">Inspired Rage (Su)</Pair>
 <Pair title="At 1st Level"><p>Affected allies gain a +2 morale bonus to Strength and Constitution and a +1 morale bonus on Will saving throws, but also take a -1 penalty to AC. The bonuses increase as you gain levels.</p>
 <p>While under the effects of <em>inspired rage,</em> allies other than you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration. (Unlike the barbarian's <em>rage</em> ability, those affected are not fatigued after the song ends.)</p>
@@ -567,15 +567,15 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 12th Level">The bonus to Will becomes +4.</Pair>
 <Pair title="At 16th Level">The bonus to Will becomes +5, and the bonus to Str and Con becomes +6.</Pair>
 </Ability>
-<Ability id="class-skald-song-of-marching-su" extraClasses="subAbility" icon={["upgrade","abstract-091"]}>
+<Ability id="class-skald-song-of-marching-su" extraClasses="subAbility" icon={["upgrade","aura"]}>
 <Pair single id="class-skald-song-of-marching-su">Song of Marching (Su)</Pair>
 <Pair title="At 3rd Level">You can use <em>raging song</em> to inspire your allies to move faster without suffering from fatigue. By expending 1 round of <em>raging song,</em> you invigorate allies within 60 feet, who may <Link to="/rule/hustle">hustle</Link> for the next hour; this movement counts as a walk (not a hustle) for the purpose of accruing nonlethal damage and fatigue. You must continue to perform the song for the remainder of the hour, otherwise its effects end, but only 1 round of <em>raging song</em> is expended for that hour.</Pair>
 </Ability>
-<Ability id="class-skald-song-of-strength-su" extraClasses="subAbility" icon={["upgrade","abstract-091"]}>
+<Ability id="class-skald-song-of-strength-su" extraClasses="subAbility" icon={["upgrade","aura"]}>
 <Pair single id="class-skald-song-of-strength-su">Song of Strength (Su)</Pair>
 <Pair title="At 6th Level">You can use <em>raging song</em> to inspire your allies to superhuman feats of strength. Once each round while you use this performance, allies within 60 feet who can hear you may add 1/2 your level to a Strength check or Strength-based skill check.</Pair>
 </Ability>
-<Ability id="class-skald-dirge-of-doom-su" extraClasses="subAbility" icon={["armor-downgrade","abstract-091"]}>
+<Ability id="class-skald-dirge-of-doom-su" extraClasses="subAbility" icon={["armor-downgrade","aura"]}>
 <Pair single id="class-skald-dirge-of-doom-su">Dirge of Doom (Su)</Pair>
 <Pair title="At 10th Level">You can create a sense of growing dread in your enemies, causing them to become <Link to="/misc/shaken">shaken</Link>. This only affects enemies that are within 30 feet and able to hear your performance. The effect persists for as long as the enemy is within 30 feet and you continue your performance. This cannot cause a creature to become frightened or panicked, even if the targets are already shaken from another effect.</Pair>
 <Pair title="Special">This is a sonic mind-affecting fear effect, and relies on audible components.</Pair>

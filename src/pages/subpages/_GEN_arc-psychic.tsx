@@ -478,7 +478,7 @@ const _psychic_marauder = {title: "Psychic Marauder", jsx: <><h2 id="arc-psychic
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A psychic marauder becomes alienated from reality as others perceive it. The psychic marauder uses her Charisma modifier on Will saves instead of her Wisdom modifier.</Pair>
 </Ability>
-<Ability id="arc-psychic-psychic_marauder-aura-of-insanity-su" icon={["abstract-091","armor-downgrade","rolling-dices"]}>
+<Ability id="arc-psychic-psychic_marauder-aura-of-insanity-su" icon={["aura","armor-downgrade","rolling-dices"]}>
 <Pair single id="arc-psychic-psychic_marauder-aura-of-insanity-su" flavor="A psychic marauder's madness begins to leak out.">Aura of Insanity (Su)</Pair>
 <Pair hl title="Replaces">3rd-, 11th-, and 19th-level phrenic amplifications</Pair>
 <Pair title="Gained">At 3rd Level</Pair>

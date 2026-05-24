@@ -358,7 +358,7 @@ const _chirurgeon = {title: "Chirurgeon", jsx: <><h2 id="arc-alchemist-chirurgeo
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A chirurgeon's extracts of <Link to="/main/cure_spells">cure spells</Link> automatically act as infusions, and can be used by non-alchemists. When a chirurgeon prepares his extracts, he may choose to render any or all of his infused curatives inert and prepare other extracts to replace them (unlike infusions, which continue to occupy the alchemist's daily extract slots until consumed or used).</Pair>
 </Ability>
-<Ability id="arc-alchemist-chirurgeon-anaesthetic" icon={["stairs-goal","heart-plus"]}>
+<Ability id="arc-alchemist-chirurgeon-anaesthetic" icon={["stairs-goal","remedy"]}>
 <Pair single id="arc-alchemist-chirurgeon-anaesthetic">Anaesthetic</Pair>
 <Pair hl title="Replaces">Poison resistance +4</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -533,7 +533,7 @@ const _cruorchymist = {title: "Cruorchymist", jsx: <><h2 id="arc-alchemist-cruor
 <Pair title="At 3rd Level">If the cruorchymist has the infusion <Link to="/ability/discovery">discovery</Link>, a blood familiar can deliver extracts that have a range of touch for its cruorchymist master.</Pair>
 <Pair title="Special">A cruorchymist can never gain the <em>mutagen, cognatogen,</em> or <em>inspired cognatogen</em> ability, even from a discovery or another class.</Pair>
 </Ability>
-<Ability id="arc-alchemist-cruorchymist-blood-treatment-ex" icon={["heart-plus"]}>
+<Ability id="arc-alchemist-cruorchymist-blood-treatment-ex" icon={["remedy"]}>
 <Pair single id="arc-alchemist-cruorchymist-blood-treatment-ex">Blood Treatment (Ex)</Pair>
 <Pair hl title="Replaces">Brew Potion</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -778,7 +778,7 @@ const _eldritch_poisoner = {title: "Eldritch Poisoner", jsx: <><h2 id="arc-alche
 <Pair title="Passive Ability">An eldritch poisoner can select any of the following eleven discoveries, in addition to those available to other alchemists.</Pair>
 <Pair title="Special">Arcanotoxin discoveries with a save DC use her arcanotoxin's save DC.</Pair>
 </Ability>
-<Ability id="arc-alchemist-eldritch_poisoner-antidote-su" extraClasses="subAbility numbered" icon={["heart-plus"]}>
+<Ability id="arc-alchemist-eldritch_poisoner-antidote-su" extraClasses="subAbility numbered" icon={["remedy"]}>
 <Pair single id="arc-alchemist-eldritch_poisoner-antidote-su">Antidote (Su)</Pair>
 <Pair title="Ability">The eldritch poisoner can sacrifice one use of her arcanotoxin to create an extract of <Link to="/spell/delay_poison">delay poison</Link> which she can feed to an adjacent, willing creature as a <strong className="hl">standard action</strong>.</Pair>
 <Pair title="At 10th Level">She can instead use this ability to create an extract of <Link to="/spell/neutralize_poison">neutralize poison</Link>.</Pair>
@@ -860,7 +860,7 @@ const _energist = {title: "Energist", jsx: <><h2 id="arc-alchemist-energist-ener
 <Pair title="At 10th Level">Undead damaged by his positive energy bombs must succeed at a Will save or flee for 1 round as if affected by the <Link to="/feat/turn_undead">Turn Undead</Link> feat, while living creatures damaged by an energist's negative energy bombs must succeed at a Fortitude save or be <Link to="/misc/sickened">sickened</Link> for 1 round.</Pair>
 <Pair title="Special">He can't apply other discoveries to his bombs, except those that do <strong>not</strong> have a one-per-bomb limitation. An energist's bombs don't heal creatures normally healed by the energist's chosen energy type.</Pair>
 </Ability>
-<Ability id="arc-alchemist-energist-healing-ampoule-su" icon={["heart-plus"]}>
+<Ability id="arc-alchemist-energist-healing-ampoule-su" icon={["remedy"]}>
 <Pair single id="arc-alchemist-energist-healing-ampoule-su">Healing Ampoule (Su)</Pair>
 <Pair hl title="Replaces">2nd-level discovery, swift poisoning</Pair>
 <Pair hl title="Alters">Throw anything</Pair>
@@ -1019,7 +1019,7 @@ const _gloom_chymist = {title: "Gloom Chymist", jsx: <><h2 id="arc-alchemist-glo
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A gloom chymist is skilled at mixing potent concoctions known as glooms, which are infused with shadow energy. A gloom is identical to a bomb except that it deals 1d6 points of cold damage + additional damage equal to the gloom chymist's Intelligence modifier. This damage increases by 1d6 for every 2 alchemist levels beyond 1st the gloom chymist has. A gloom does not qualify as a bomb for the purposes of feats or discoveries.</Pair>
 </Ability>
-<Ability id="arc-alchemist-gloom_chymist-umbral-gloom-su" icon={["stairs-goal","abstract-091"]}>
+<Ability id="arc-alchemist-gloom_chymist-umbral-gloom-su" icon={["stairs-goal","aura"]}>
 <Pair single id="arc-alchemist-gloom_chymist-umbral-gloom-su">Umbral Gloom (Su)</Pair>
 <Pair hl title="Replaces">Poison resistance, poison use, swift poisoning</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -1051,21 +1051,21 @@ const _gloom_chymist = {title: "Gloom Chymist", jsx: <><h2 id="arc-alchemist-glo
 <Pair title="Prerequisites">12th-level alchemist, <em>debilitating gloom</em> and <em>draining gloom</em> discoveries</Pair>
 <Pair title="Ability">A creature struck by the gloom must succeed at a Fortitude save or gain 1d4 negative levels.</Pair>
 </Ability>
-<Ability id="arc-alchemist-gloom_chymist-glutinous-gloom" icon={["smoking-finger","abstract-091"]}>
+<Ability id="arc-alchemist-gloom_chymist-glutinous-gloom" icon={["smoking-finger","aura"]}>
 <Pair single id="arc-alchemist-gloom_chymist-glutinous-gloom">Glutinous Gloom</Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Ability">The gloom creates an area in its splash radius that functions as <Link to="/spell/web">web</Link>. The webbing lasts for a number of rounds equal to <Link to="/misc/half">half</Link> the alchemist's level.</Pair>
 </Ability>
-<Ability id="arc-alchemist-gloom_chymist-grasping-gloom" icon={["smoking-finger","abstract-091"]}>
+<Ability id="arc-alchemist-gloom_chymist-grasping-gloom" icon={["smoking-finger","aura"]}>
 <Pair single id="arc-alchemist-gloom_chymist-grasping-gloom">Grasping Gloom</Pair>
 <Pair title="Prerequisites">8th-level alchemist</Pair>
 <Pair title="Ability">The gloom creates an area equal to double its splash radius that functions as <Link to="/spell/black_tentacles">black tentacles</Link>. The effect lasts for a number of rounds equal to half the alchemist's level.</Pair>
 </Ability>
-<Ability id="arc-alchemist-gloom_chymist-mucilaginous-gloom" icon={["smoking-finger","abstract-091"]}>
+<Ability id="arc-alchemist-gloom_chymist-mucilaginous-gloom" icon={["smoking-finger","aura"]}>
 <Pair single id="arc-alchemist-gloom_chymist-mucilaginous-gloom">Mucilaginous Gloom</Pair>
 <Pair title="Ability">The gloom leaves a chilly gray residue that turns each square in its splash radius into <Link to="/rule/difficult_terrain">difficult terrain</Link>. This effect lasts for a number of rounds equal to the alchemist's level.</Pair>
 </Ability>
-<Ability id="arc-alchemist-gloom_chymist-rime-bound-gloom" icon={["smoking-finger","abstract-091"]}>
+<Ability id="arc-alchemist-gloom_chymist-rime-bound-gloom" icon={["smoking-finger","aura"]}>
 <Pair single id="arc-alchemist-gloom_chymist-rime-bound-gloom">Rime-Bound Gloom</Pair>
 <Pair title="Prerequisites">6th-level alchemist</Pair>
 <Pair title="Ability">The gloom creates an area of freezing shadow in its splash radius that deals 2d6 points of cold damage to all creatures in the area each turn. This effect lasts 1 round for every 2 alchemist levels.</Pair>

@@ -76,7 +76,7 @@ const _adaptive_shifter = {title: "Adaptive Shifter", jsx: <><h2 id="arc-shifter
 <Pair title="Passive Ability">When assuming this form, the adaptive shifter chooses acid, cold, electricity, fire, or sonic damage. She gains <Link to="/umr/resistance">resistance</Link> to the chosen damage type equal to 5 plus <Link to="/misc/half">half</Link> her level.</Pair>
 <Pair title="Special">She can learn this form a second time, increasing the resistance granted to 10 plus her level.</Pair>
 </Ability>
-<Ability id="arc-shifter-adaptive_shifter-restoring-form" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-shifter-adaptive_shifter-restoring-form" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-shifter-adaptive_shifter-restoring-form">Restoring Form</Pair>
 <Pair title="Passive Ability">The adaptive shifter regains 1d8 hit points. For every 4 levels she has, the number of hit points she regains increases by 1d8.</Pair>
 <Pair title="At 4th Level">This increases to 2d8.</Pair>
@@ -277,15 +277,15 @@ const _elementalist_shifter = {hasJL:true,title: "Elementalist Shifter", jsx: <>
 <Pair single id="arc-shifter-elementalist_shifter-downpour-su">Downpour (Su)</Pair>
 <Pair title="Ability">The elementalist shifter combines the powers of air and water to generate a torrential downpour in her square and squares adjacent to her. This rain automatically extinguishes all nonmagical fires in her square and squares adjacent to her (including flames on creatures that have caught on fire). It also has a chance to extinguish ongoing magical fire (but not instantaneous magical fire effects such as <Link to="/spell/fireball">fireball</Link>) within or that enters the area, as if the elementalist shifter had cast <Link to="/spell/dispel_magic">dispel magic</Link>, using her elementalist shifter level as her caster level for the effect.</Pair>
 </Ability>
-<Ability id="arc-shifter-elementalist_shifter-mudslide-su" extraClasses="subAbility" icon={["abstract-091"]}>
+<Ability id="arc-shifter-elementalist_shifter-mudslide-su" extraClasses="subAbility" icon={["aura"]}>
 <Pair single id="arc-shifter-elementalist_shifter-mudslide-su">Mudslide (Su)</Pair>
 <Pair title="Ability">Combining the elements of earth and water causes the elementalist shifter to generate an aura of mud. This mud extends out to all squares adjacent to her and counts as <Link to="/rule/difficult_terrain">difficult terrain</Link>; it moves with her and vanishes when she ends her <em>elemental aspect.</em></Pair>
 </Ability>
-<Ability id="arc-shifter-elementalist_shifter-sandstorm-su" extraClasses="subAbility" icon={["abstract-091"]}>
+<Ability id="arc-shifter-elementalist_shifter-sandstorm-su" extraClasses="subAbility" icon={["aura"]}>
 <Pair single id="arc-shifter-elementalist_shifter-sandstorm-su">Sandstorm (Su)</Pair>
 <Pair title="Ability">Combining the high winds of air and fine particulates of earth produces a sandstorm that extends out to a radius of 20 feet from the elementalist shifter. All <Link to="/rule/light_level">light levels</Link> in the area diminish by one step, and creatures caught in the effect take 1d6 points of nonlethal damage each round they remain within the <em>sandstorm.</em></Pair>
 </Ability>
-<Ability id="arc-shifter-elementalist_shifter-steam-cloud-su" extraClasses="subAbility" icon={["abstract-091"]}>
+<Ability id="arc-shifter-elementalist_shifter-steam-cloud-su" extraClasses="subAbility" icon={["aura"]}>
 <Pair single id="arc-shifter-elementalist_shifter-steam-cloud-su">Steam Cloud (Su)</Pair>
 <Pair title="Ability">When the elementalist shifter enters a minor form of fire and water at the same time, the heat of fire and moisture of water generate an explosive area of steam around her out to a radius of 20 feet as per <Link to="/spell/obscuring_mist">obscuring mist</Link>. The mist remains in place until she ends her <em>elemental aspect;</em> it doesn't move with her.</Pair>
 </Ability>

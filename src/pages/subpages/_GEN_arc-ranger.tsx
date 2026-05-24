@@ -642,7 +642,7 @@ const _flamewarden = {title: "Flamewarden", jsx: <><h2 id="arc-ranger-flamewarde
 <Pair hl title="Alters">Spells</Pair>
 <Pair title="Info">A flamewarden can prepare spells from the <Link to="/main/spells_druid">druid list</Link> that have the fire descriptor.</Pair>
 </Ability>
-<Ability id="arc-ranger-flamewarden-stoking-the-embers-sp" icon={["heart-plus"]}>
+<Ability id="arc-ranger-flamewarden-stoking-the-embers-sp" icon={["remedy"]}>
 <Pair single id="arc-ranger-flamewarden-stoking-the-embers-sp" flavor="A flamewarden can fan the last spark of a recently slain creature's life force back into a full flame.">Stoking the Embers (Sp)</Pair>
 <Pair hl title="Replaces">Evasion</Pair>
 <Pair title="Gained">At 9th Level</Pair>
@@ -657,7 +657,7 @@ const _flamewarden = {title: "Flamewarden", jsx: <><h2 id="arc-ranger-flamewarde
 <Pair title="Ability">If the flamewarden takes 10 or more points of fire damage, he can remove one of the following conditions: exhausted, frightened, or nauseated. Alternatively, he can remove 1d6 points of ability damage or drain from an ability score of his choice.</Pair>
 <Pair title="Special">The ranger can use this ability only once each time he takes fire damage, regardless of how much damage it deals over the required amount. If the flamewarden has fire <Link to="/umr/resistance">resistance</Link> or <Link to="/umr/immunity">immunity</Link> to fire, fire damage he would have otherwise taken still counts toward activating <em>burning renewal.</em></Pair>
 </Ability>
-<Ability id="arc-ranger-flamewarden-phoenix-rising-su" icon={["abstract-091","magic-swirl","heart-plus"]}>
+<Ability id="arc-ranger-flamewarden-phoenix-rising-su" icon={["aura","magic-swirl","remedy"]}>
 <Pair single id="arc-ranger-flamewarden-phoenix-rising-su">Phoenix Rising (Su)</Pair>
 <Pair hl title="Replaces">Improved evasion, master hunter</Pair>
 <Pair title="Gained">At 16th Level</Pair>
@@ -1304,7 +1304,7 @@ const _planar_scout = {title: "Planar Scout", jsx: <><h2 id="arc-ranger-planar_s
 <Pair title="Ability">The planar scout can damage incorporeal creatures with mundane weapons as if they were <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapons.</Pair>
 <Pair title="At 10th Level">He can inflict critical hits and deal <Link to="/misc/precision_damage">precision damage</Link> to incorporeal creatures.</Pair>
 </Ability>
-<Ability id="arc-ranger-planar_scout-first-world" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-ranger-planar_scout-first-world" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-ranger-planar_scout-first-world">First World</Pair>
 <Pair title="Usage">Wisdom modifier times/day</Pair>
 <Pair title="Swift Action">A planar scout can gain <Link to="/umr/fast_healing">fast healing</Link> 2 for a number of rounds equal to his ranger level.</Pair>
@@ -1488,7 +1488,7 @@ const _sentinel = {title: "Sentinel", jsx: <><h2 id="arc-ranger-sentinel-sentine
 <Pair title="Passive Ability">A sentinel is never <Link to="/rule/flat_footed">flat-footed</Link> before acting in combat, even if she is surprised (she can still become flat-footed by any other effect or situation that would render her flat-footed).</Pair>
 <Pair title="At 7th Level">The sentinel also always acts on the surprise round. If she would have acted on the surprise round anyway, or if there is no surprise round, she gains a bonus on initiative checks equal to half her ranger level.</Pair>
 </Ability>
-<Ability id="arc-ranger-sentinel-sense-intruder-su" icon={["abstract-091"]}>
+<Ability id="arc-ranger-sentinel-sense-intruder-su" icon={["aura"]}>
 <Pair single id="arc-ranger-sentinel-sense-intruder-su" flavor="A sentinel gains the ability to establish an incredibly effective watch by standing still and focusing on all of her senses as once.">Sense Intruder (Su)</Pair>
 <Pair hl title="Replaces">Combat style feat gained at 6th level</Pair>
 <Pair hl title="Alters">Combat style feats</Pair>
@@ -1646,7 +1646,7 @@ const _skirmisher = {title: "Skirmisher", jsx: <><h2 id="arc-ranger-skirmisher-s
 <Pair single id="arc-ranger-skirmisher-quick-climb-ex">Quick Climb (Ex)</Pair>
 <Pair title="Move-Equivalent Action">The ranger can climb at his full speed without penalty.</Pair>
 </Ability>
-<Ability id="arc-ranger-skirmisher-quick-healing-ex" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-ranger-skirmisher-quick-healing-ex" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-ranger-skirmisher-quick-healing-ex">Quick Healing (Ex)</Pair>
 <Pair title="Swift Action">The ranger can make a Heal check to administer first aid on an adjacent dying character.</Pair>
 <Pair title="Move-Equivalent Action">Alternatively, the ranger can administer a potion to an unconscious character.</Pair>
@@ -1955,7 +1955,7 @@ const _toxic_herbalist = {title: "Toxic Herbalist", jsx: <><h2 id="arc-ranger-to
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Passive Ability">A toxic herbalist studies the safe handling of deadly substances. He cannot accidentally poison himself when he applies poison to a weapon.</Pair>
 </Ability>
-<Ability id="arc-ranger-toxic_herbalist-natures-mercy-ex-and-su" icon={["stairs-goal","heart-plus"]}>
+<Ability id="arc-ranger-toxic_herbalist-natures-mercy-ex-and-su" icon={["stairs-goal","remedy"]}>
 <Pair single id="arc-ranger-toxic_herbalist-natures-mercy-ex-and-su" flavor="A toxic herbalist's knowledge of the natural world offers respite from wounds and illness.">Nature's Mercy (Ex and Su)</Pair>
 <Pair hl title="Replaces">Endurance</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -2326,7 +2326,7 @@ const _wild_soul = {title: "Wild Soul", jsx: <><h2 id="arc-ranger-wild_soul-wild
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">A wild soul adds his <em>nemesis</em> bonus on saving throws against advanced technology, alchemical items (including an alchemist's bombs and extracts), and arcane spells. He also adds this bonus to his AC against advanced technological items, alchemical items (including alchemist bombs), arcane spells that require attack rolls, and firearms.</Pair>
 </Ability>
-<Ability id="arc-ranger-wild_soul-break-the-interloper-su" icon={["armor-downgrade","heart-plus"]}>
+<Ability id="arc-ranger-wild_soul-break-the-interloper-su" icon={["armor-downgrade","remedy"]}>
 <Pair single id="arc-ranger-wild_soul-break-the-interloper-su">Break the Interloper (Su)</Pair>
 <Pair hl title="Replaces">Quarry</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -2444,7 +2444,7 @@ const _wilderness_medic = {title: "Wilderness Medic", jsx: <><h2 id="arc-ranger-
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A wilderness medic can attempt Profession (herbalism) checks untrained and the wilderness medic gains a bonus equal to 1/2 his ranger level (minimum +1) on Heal checks and Profession (herbalism) checks. When he successfully <Link to="/rule/foraging">forages</Link> for herbs, he finds twice as many doses of any herb he would normally.</Pair>
 </Ability>
-<Ability id="arc-ranger-wilderness_medic-herbal-medicine-ex" icon={["heart-plus"]}>
+<Ability id="arc-ranger-wilderness_medic-herbal-medicine-ex" icon={["remedy"]}>
 <Pair single id="arc-ranger-wilderness_medic-herbal-medicine-ex">Herbal Medicine (Ex)</Pair>
 <Pair hl title="Replaces">Endurance, evasion</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -2454,7 +2454,7 @@ const _wilderness_medic = {title: "Wilderness Medic", jsx: <><h2 id="arc-ranger-
 <Pair title="At 9th Level">The wilderness medic can lessen the severity of additional conditions for the target and cure other conditions that the target suffers. If the target creature is <Link to="/misc/blinded">blinded</Link>, it becomes <Link to="/misc/dazzled">dazzled</Link> instead. If the target is <Link to="/misc/panicked">panicked</Link>, it becomes shaken instead. If it has any of the following conditions, they are cured: <Link to="/misc/deafened">deafened</Link>, fatigued, shaken, and sickened.</Pair>
 <Pair title="Special">The wilderness medic is able to use the non-<em>stabilize</em> ability on a given touched target once every 24 hours.</Pair>
 </Ability>
-<Ability id="arc-ranger-wilderness_medic-rallying-bond-sp" icon={["broken-shield","heart-plus","upgrade"]}>
+<Ability id="arc-ranger-wilderness_medic-rallying-bond-sp" icon={["broken-shield","remedy","upgrade"]}>
 <Pair single id="arc-ranger-wilderness_medic-rallying-bond-sp">Rallying Bond (Sp)</Pair>
 <Pair hl title="Replaces">Improved evasion</Pair>
 <Pair hl title="Alters">Hunter's bond</Pair>

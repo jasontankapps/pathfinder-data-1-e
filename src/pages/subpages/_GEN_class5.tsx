@@ -823,7 +823,7 @@ const _cleric = {hasJL:true,title: "Cleric", jsx: <><div className="jumpList" id
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Your bonus language options include Celestial, Abyssal, and Infernal (the languages of good, chaotic evil, and lawful evil outsiders, respectively). These choices are in addition to the bonus languages available to you because of your race.</Pair>
 </Ability>
-<Ability id="class-cleric-aura-ex" icon={["abstract-091"]}>
+<Ability id="class-cleric-aura-ex" icon={["aura"]}>
 <Pair single id="class-cleric-aura-ex">Aura (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">If you are a cleric of a chaotic, evil, good, or lawful deity, you have a particularly powerful aura corresponding to your deity's alignment (see <Link to="/spell/detect_evil">detect evil</Link>).</Pair>
@@ -840,7 +840,7 @@ const _cleric = {hasJL:true,title: "Cleric", jsx: <><div className="jumpList" id
 <Pair single id="class-cleric-chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
 <Pair title="Passive Ability">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</Pair>
 </Ability>
-<Ability id="class-cleric-channel-energy-su" icon={["stairs-goal","abstract-091"]}>
+<Ability id="class-cleric-channel-energy-su" icon={["stairs-goal","aura"]}>
 <Pair single id="class-cleric-channel-energy-su" flavor="Regardless of alignment, any cleric can release a wave of energy by channeling the power of her faith through her holy (or unholy) symbol. This energy can be used to cause or heal damage, depending on the type of energy channeled and the creatures targeted.">Channel Energy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>

@@ -20,11 +20,77 @@ ion-list.aboutPage {
 	padding-block: 0;
 }
 ion-list.aboutPage p.icons {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: center;
-	justify-content: space-around;
+	display: grid;
 	gap: 0.75rem;
+	justify-items: center;
+	justify-content: space-around;
+}
+ion-list.aboutPage p.icons {
+	grid-template-columns: repeat( auto-fit, minmax(2.75rem, 1fr) );
+}
+@media (width >= 87.5rem) { /* Base */
+	ion-list.aboutPage p.icons.icons24 {
+		grid-template-columns: repeat(24, 1fr);
+	}
+}
+@media (35.5rem <= width < 87.5rem) { /* 12 per row */
+	ion-list.aboutPage p.icons.icons24 {
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(2, auto);
+	}
+}
+@media (23.5rem <= width < 35.5rem) { /* 8 per row */
+	ion-list.aboutPage p.icons.icons24 {
+		grid-template-columns: repeat(8, 1fr);
+		grid-template-rows: repeat(3, auto);
+	}
+}
+@media (17.5rem <= width < 23.5rem) { /* 6 per row */
+	ion-list.aboutPage p.icons.icons24 {
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: repeat(4, auto);
+	}
+}
+@media (15.5rem <= width < 17.5rem) { /* 4 per row */
+	ion-list.aboutPage p.icons.icons24 {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(6, auto);
+	}
+}
+@media (width > 78rem) { /* Base */
+	ion-list.aboutPage p.icons.icons16 {
+		grid-template-columns: repeat(16, 1fr);
+	}
+}
+@media (60rem <= width <= 78rem) { /* 8 per row */
+	ion-list.aboutPage p.icons.icons16 {
+		grid-template-columns: repeat(8, 1fr);
+		grid-template-rows: repeat(2, auto);
+	}
+}
+@media (57.5rem < width < 60rem) { /* Base, again */
+	ion-list.aboutPage p.icons.icons16 {
+		grid-template-columns: repeat(16, 1fr);
+		grid-template-rows: auto;
+	}
+}
+@media (23.5rem <= width < 57.5rem) { /* 8 per row */
+	ion-list.aboutPage p.icons.icons16 {
+		grid-template-columns: repeat(8, 1fr);
+		grid-template-rows: repeat(2, auto);
+	}
+}
+@media (23.5rem <= width < 42.5rem) { /* 8 per row */
+	ion-list.aboutPage p.icons.icons16 {
+		grid-template-columns: repeat(8, 1fr);
+		grid-template-rows: repeat(2, auto);
+	}
+}
+@media (15.5rem <= width < 23.5rem) { /* 4 per row */
+	ion-list.aboutPage p.icons.icons16 {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(4, auto);
+	}
 }
 ion-list.aboutPage ion-icon {
 	color: var(--ion-text-color);

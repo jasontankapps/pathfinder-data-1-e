@@ -88,7 +88,7 @@ const _abyssal = {title: "Abyssal", jsx: <><h2 id="blrgbloodline-abyssal-abyssal
 <Pair title="At 16th Level">The bonus to Strength increases by 4 instead.</Pair>
 <Pair title="At 20th Level">The bonus increases by 6 instead.</Pair>
 </Ability>
-<Ability id="blrgbloodline-abyssal-demonic-aura-su" icon={["abstract-091"]}>
+<Ability id="blrgbloodline-abyssal-demonic-aura-su" icon={["aura"]}>
 <Pair single id="blrgbloodline-abyssal-demonic-aura-su">Demonic Aura (Su)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Ability">When entering a bloodrage you can choose to exude an aura of fire. The aura is a 5-foot <Link to="/misc/burst">burst</Link> centered on you, and deals 2d6 + your Constitution modifier points of fire damage to creatures that end their turns within it.</Pair>
@@ -1019,7 +1019,7 @@ const _phoenix = {title: "Phoenix", jsx: <><h2 id="blrgbloodline-phoenix-phoenix
 <Pair title="Passive Ability">You gain fire <Link to="/umr/resistance">resistance</Link> 5. Whenever you are subjected to a magical healing effect from a <Link to="/main/cure_spells">cure spell</Link>, you regain 1 additional hit point per die rolled.</Pair>
 <Pair title="At 8th Level">Your fire resistance increases to 10, and you regain 2 additional hit points per die rolled when you are healed by a <em>cure</em> spell.</Pair>
 </Ability>
-<Ability id="blrgbloodline-phoenix-blazing-vitality-su" icon={["abstract-091"]}>
+<Ability id="blrgbloodline-phoenix-blazing-vitality-su" icon={["aura"]}>
 <Pair single id="blrgbloodline-phoenix-blazing-vitality-su">Blazing Vitality (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">When tensions run high and your emotions flare, you let forth waves of restorative energy from within. You emit a 10-foot-radius aura of energizing fire while bloodraging. Any ally that ends their turn within this aura gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to your Constitution modifier. These temporary hit points last for 1 minute.</Pair>
@@ -1036,7 +1036,7 @@ const _phoenix = {title: "Phoenix", jsx: <><h2 id="blrgbloodline-phoenix-phoenix
 <Pair title="Passive Ability">From the ashes of your body springs forth new life. Once per day when you are reduced below 0 hit points while you are bloodraging, you can call upon the power in your blood to pull yourself back from death. This functions as a <Link to="/spell/breath_of_life">breath of life</Link> spell cast upon yourself. Using this ability does not take an action. This ability does not function if your body is completely destroyed by an effect such as <Link to="/spell/disintegrate">disintegrate</Link>.</Pair>
 <Pair title="At 20th Level">This instead functions as a <Link to="/spell/heal">heal</Link> spell, except that the healing can return you to life as per <em>breath of life,</em> using your bloodrager level as your caster level.</Pair>
 </Ability>
-<Ability id="blrgbloodline-phoenix-phoenix-fire-su" icon={["mailed-fist","abstract-091","armor-upgrade"]}>
+<Ability id="blrgbloodline-phoenix-phoenix-fire-su" icon={["mailed-fist","aura","armor-upgrade"]}>
 <Pair single id="blrgbloodline-phoenix-phoenix-fire-su">Phoenix Fire (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">The power of the phoenix brings righteous destruction to any who oppose it. While bloodraging, you gain the following effects: your melee attacks deal an additional 2d6 points of fire damage, any enemies within 20 feet of you must succeed at a Reflex save (DC = 10 + 1/2 your bloodrager level + your Constitution modifier) or take 4d6 points of fire damage at the start of their turn, and any creature that attacks you with a natural or non-reach weapon takes 1d6 points of fire damage (no save) with each successful hit.</Pair>
@@ -1109,7 +1109,7 @@ const _shadow = {title: "Shadow", jsx: <><h2 id="blrgbloodline-shadow-shadow-blo
 <Pair title="Passive Ability">While bloodraging, you gain low-light vision if you don't already have it. If you already have low-light vision, you gain darkvision to a distance of 30 feet.</Pair>
 <Pair title="At 10th Level">You gain darkvision with a range of 30 feet, or add 30 feet to the range of your darkvision if you already have it.</Pair>
 </Ability>
-<Ability id="blrgbloodline-shadow-shades-of-rage-su" icon={["abstract-091"]}>
+<Ability id="blrgbloodline-shadow-shades-of-rage-su" icon={["aura"]}>
 <Pair single id="blrgbloodline-shadow-shades-of-rage-su">Shades of Rage (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">Whenever you enter a bloodrage, the <Link to="/rule/light_level">light level</Link> within 30 feet of you decreases by one step. Natural light is always affected, but magical illumination dispels this ability if the caster of the light effect succeeds at a caster level check against a DC equal to 10 + your class level.</Pair>

@@ -523,7 +523,7 @@ const _fell_rider = {title: "Fell Rider", jsx: <><h2 id="arc-cavalier-fell_rider
 <Pair title="Passive Ability">A fell rider gains a bonus equal to <Link to="/misc/half">half</Link> his level on Intimidate checks made while mounted.</Pair>
 <Pair title="Free Action">Once per round, he can make an Intimidate check to demoralize a foe he has trampled or charged while mounted.</Pair>
 </Ability>
-<Ability id="arc-cavalier-fell_rider-fell-presence-ex" icon={["armor-downgrade","abstract-091"]}>
+<Ability id="arc-cavalier-fell_rider-fell-presence-ex" icon={["armor-downgrade","aura"]}>
 <Pair single id="arc-cavalier-fell_rider-fell-presence-ex">Fell Presence (Ex)</Pair>
 <Pair hl title="Replaces">Banner</Pair>
 <Pair title="At 5th Level">A fell rider inspires dread while mounted. As long as the fell rider is mounted, all enemies within 60 feet receive a -2 penalty on savings throws against fear.</Pair>
@@ -537,7 +537,7 @@ const _fell_rider = {title: "Fell Rider", jsx: <><h2 id="arc-cavalier-fell_rider
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">A mounted fell rider no longer provokes attacks of opportunity when he attempts to overrun a creature. He can make a single melee attack against the creature as a <strong className="hl">free action</strong> if the overrun attempt succeeds.</Pair>
 </Ability>
-<Ability id="arc-cavalier-fell_rider-terror-ex" icon={["armor-downgrade","abstract-091"]}>
+<Ability id="arc-cavalier-fell_rider-terror-ex" icon={["armor-downgrade","aura"]}>
 <Pair single id="arc-cavalier-fell_rider-terror-ex">Terror (Ex)</Pair>
 <Pair hl title="Replaces">Greater banner</Pair>
 <Pair title="Gained">At 14th Level</Pair>
@@ -584,7 +584,7 @@ const _gallant = {title: "Gallant", jsx: <><h2 id="arc-cavalier-gallant-gallant"
 <Pair hl title="Alters">The cavalier's order</Pair>
 <Pair title="Info">A gallant must belong to either the <Link to="/order/order_of_the_blue_rose">order of the blue rose</Link>, the <Link to="/order/order_of_the_guard">order of the guard</Link>, the <Link to="/order/order_of_the_lion">order of the lion</Link>, or the <Link to="/order/order_of_the_sword">order of the sword</Link>. A gallant must also be of lawful good or neutral good alignment. A gallant who ceases to be lawful good or neutral good, or who violates his order's edicts, loses all class features except armor and weapon proficiencies until he restores his alignment or atones for his violation (see the <Link to="/spell/atonement">atonement</Link> spell), as appropriate.</Pair>
 </Ability>
-<Ability id="arc-cavalier-gallant-symbol-of-inspiration-ex" icon={["armor-upgrade","abstract-091"]}>
+<Ability id="arc-cavalier-gallant-symbol-of-inspiration-ex" icon={["armor-upgrade","aura"]}>
 <Pair single id="arc-cavalier-gallant-symbol-of-inspiration-ex" flavor="The gallant's personal crest becomes an inspirational symbol of his chivalrous ideals.">Symbol of Inspiration (Ex)</Pair>
 <Pair hl title="Replaces">Banner</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -1391,42 +1391,42 @@ const _verdivant = {title: "Verdivant", jsx: <><h2 id="arc-cavalier-verdivant-ve
 <Pair title="At 12th Level">A verdivant can effloresce as a <strong className="hl">swift action</strong>, and he can have two <em>efflorescences</em> in effect simultaneously.</Pair>
 <Pair title="At 17th Level">A verdivant can effloresce twice as part of the same action.</Pair>
 </Ability>
-<Ability id="arc-cavalier-verdivant-shieldvines-ex" extraClasses="subAbility" icon={["armor-upgrade","abstract-091"]}>
+<Ability id="arc-cavalier-verdivant-shieldvines-ex" extraClasses="subAbility" icon={["armor-upgrade","aura"]}>
 <Pair single id="arc-cavalier-verdivant-shieldvines-ex">Shieldvines (Ex)</Pair>
 <Pair title="At 2nd Level">Allies within 10 feet do not provoke attacks of opportunity when leaving threatened squares.</Pair>
 <Pair title="At 9th Level">This increases to 20 feet.</Pair>
 </Ability>
-<Ability id="arc-cavalier-verdivant-floatflower-ex" extraClasses="subAbility" icon={["upgrade","abstract-091"]}>
+<Ability id="arc-cavalier-verdivant-floatflower-ex" extraClasses="subAbility" icon={["upgrade","aura"]}>
 <Pair single id="arc-cavalier-verdivant-floatflower-ex">Floatflower (Ex)</Pair>
 <Pair title="At 2nd Level">Allies within 10 feet ignore the effects of nonmagical <Link to="/rule/difficult_terrain">difficult terrain</Link>.</Pair>
 <Pair title="At 9th Level">They also gain the effects of <Link to="/spell/air_walk">air walk</Link> while within 10 feet of the verdivant.</Pair>
 </Ability>
-<Ability id="arc-cavalier-verdivant-innervating-pollen-ex" extraClasses="subAbility" icon={["upgrade","armor-upgrade","abstract-091"]}>
+<Ability id="arc-cavalier-verdivant-innervating-pollen-ex" extraClasses="subAbility" icon={["upgrade","armor-upgrade","aura"]}>
 <Pair single id="arc-cavalier-verdivant-innervating-pollen-ex">Innervating Pollen (Ex)</Pair>
 <Pair title="At 5th Level">The verdivant and his allies within 30 feet gain a competence bonus either on attack rolls or to saving throws (the verdivant's choice; all allies gain the same benefit) equal to <Link to="/misc/one_third">one-third</Link> the verdivant's cavalier level.</Pair>
 </Ability>
-<Ability id="arc-cavalier-verdivant-bolsterbloom-su" extraClasses="subAbility" icon={["heart-plus","abstract-091"]}>
+<Ability id="arc-cavalier-verdivant-bolsterbloom-su" extraClasses="subAbility" icon={["remedy","aura"]}>
 <Pair single id="arc-cavalier-verdivant-bolsterbloom-su">Bolsterbloom (Su)</Pair>
 <Pair title="At 5th Level">The verdivant and his allies within 30 feet gain fast healing 1.</Pair>
 <Pair title="At 14th Level">This becomes fast healing 3.</Pair>
 <Pair title="At 17th Level">This becomes fast healing 4.</Pair>
 <Pair title="At 9th Level">This becomes fast healing 2.</Pair>
 </Ability>
-<Ability id="arc-cavalier-verdivant-charged-blossoms-su" extraClasses="subAbility" icon={["armor-upgrade","abstract-091"]}>
+<Ability id="arc-cavalier-verdivant-charged-blossoms-su" extraClasses="subAbility" icon={["armor-upgrade","aura"]}>
 <Pair single id="arc-cavalier-verdivant-charged-blossoms-su">Charged Blossoms (Su)</Pair>
 <Pair title="At 9th Level">Choose an energy type: acid, cold, electricity, or fire. The verdivant and his allies within 10 feet gain energy resistance 10 to the chosen energy type.</Pair>
 <Pair title="At 14th Level">This affects allies within 20 feet, and the energy resistance increases to 20.</Pair>
 </Ability>
-<Ability id="arc-cavalier-verdivant-slipstrands-su" extraClasses="subAbility" icon={["upgrade","abstract-091"]}>
+<Ability id="arc-cavalier-verdivant-slipstrands-su" extraClasses="subAbility" icon={["upgrade","aura"]}>
 <Pair single id="arc-cavalier-verdivant-slipstrands-su">Slipstrands (Su)</Pair>
 <Pair title="At 9th Level">The verdivant and his allies within 10 feet are affected by <Link to="/spell/freedom_of_movement">freedom of movement</Link>.</Pair>
 <Pair title="At 17th Level">This increases to 20 feet.</Pair>
 </Ability>
-<Ability id="arc-cavalier-verdivant-ambrosia-su" extraClasses="subAbility" icon={["armor-upgrade","abstract-091"]}>
+<Ability id="arc-cavalier-verdivant-ambrosia-su" extraClasses="subAbility" icon={["armor-upgrade","aura"]}>
 <Pair single id="arc-cavalier-verdivant-ambrosia-su">Ambrosia (Su)</Pair>
 <Pair title="At 14th Level">The <em>efflorescence</em> temporarily suppresses enchantments, transmutations, and curses on the verdivant and his allies within 30 feet, as <Link to="/spell/break_enchantment">break enchantment</Link> with a caster level equal to the verdivant's cavalier level. Affected creatures ignore the effects of such conditions for the duration of the <em>efflorescence,</em> after which the conditions' full effects resume. The duration of suppressed conditions continues to elapse while the condition is suppressed.</Pair>
 </Ability>
-<Ability id="arc-cavalier-verdivant-luckleaf-su" extraClasses="subAbility" icon={["rolling-dices","abstract-091"]}>
+<Ability id="arc-cavalier-verdivant-luckleaf-su" extraClasses="subAbility" icon={["rolling-dices","aura"]}>
 <Pair single id="arc-cavalier-verdivant-luckleaf-su">Luckleaf (Su)</Pair>
 <Pair title="At 14th Level">When attempting a d20 roll, allies of the verdivant within 30 feet of him can roll twice and use the better result; each ally can benefit from this ability only once per <em>efflorescence.</em></Pair>
 <Pair title="Special">Luckleaf can be activated once per minute.</Pair>

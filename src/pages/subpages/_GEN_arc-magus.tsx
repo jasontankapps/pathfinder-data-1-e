@@ -226,7 +226,7 @@ const _bladebound = {title: "Bladebound", jsx: <><h2 id="arc-magus-bladebound-bl
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Free Action">A magus can expend an arcane point from his weapon's <em>arcane pool;</em> he then gains SR equal to his <em>black blade's</em> ego until the start of his next turn.</Pair>
 </Ability>
-<Ability id="arc-magus-bladebound-life-drinker-su" extraClasses="subAbility" icon={["stairs-goal","heart-plus"]}>
+<Ability id="arc-magus-bladebound-life-drinker-su" extraClasses="subAbility" icon={["stairs-goal","remedy"]}>
 <Pair single id="arc-magus-bladebound-life-drinker-su">Life Drinker (Su)</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Ability"><p>Each time the magus kills a living creature with the <em>black blade,</em> he can pick one of the following effects:</p>
@@ -1184,7 +1184,7 @@ const _soul_forger = {title: "Soul Forger", jsx: <><h2 id="arc-magus-soul_forger
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A soul forger may spend 1 point from his <em>arcane pool</em> to increase the hardness and hit points of his <em>bonded item</em> by an amount equal to his magus level. These hit points last until expended or until the soul forger next prepares spells. Multiple uses of this ability overlap and do not stack.</Pair>
 </Ability>
-<Ability id="arc-magus-soul_forger-reforge-su" icon={["heart-plus"]}>
+<Ability id="arc-magus-soul_forger-reforge-su" icon={["remedy"]}>
 <Pair single id="arc-magus-soul_forger-reforge-su">Reforge (Su)</Pair>
 <Pair hl title="Replaces">Improved spell recall</Pair>
 <Pair title="Gained">At 11th Level</Pair>
@@ -1197,7 +1197,7 @@ const _soul_forger = {title: "Soul Forger", jsx: <><h2 id="arc-magus-soul_forger
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Passive Ability">An opponent who activates a magical item while threatened by a soul forger provokes an attack of opportunity, either against the target or to <Link to="/rule/sunder">sunder</Link> the item. If the item is destroyed, its effects are negated.</Pair>
 </Ability>
-<Ability id="arc-magus-soul_forger-instantaneous-reconstruction-su" icon={["heart-plus"]}>
+<Ability id="arc-magus-soul_forger-instantaneous-reconstruction-su" icon={["remedy"]}>
 <Pair single id="arc-magus-soul_forger-instantaneous-reconstruction-su">Instantaneous Reconstruction (Su)</Pair>
 <Pair hl title="Replaces">Greater spell access</Pair>
 <Pair title="Gained">At 19th Level</Pair>

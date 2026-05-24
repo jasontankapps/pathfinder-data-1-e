@@ -1022,7 +1022,7 @@ const _scarred_monk = {title: "Scarred Monk", jsx: <><h2 id="arc-monk-scarred_mo
 <Pair title="Standard Action">By spending 1 ki point when she makes a single unarmed strike against a living creature, the scarred monk can link her own pain to the creature struck. For a number of rounds equal to the total number of mortifications the scarred monk has, any time the scarred monk takes lethal damage, the creature she has bound her pain to must succeed at a Will save (DC = 10 + 1/2 the monk's level + the monk's Charisma modifier) or take an equal amount of nonlethal damage.</Pair>
 <Pair title="Special">The effects of pain binding end immediately once the pain-bound creature falls unconscious.</Pair>
 </Ability>
-<Ability id="arc-monk-scarred_monk-rings-of-pain-su" extraClasses="subAbility" icon={["abstract-091"]}>
+<Ability id="arc-monk-scarred_monk-rings-of-pain-su" extraClasses="subAbility" icon={["aura"]}>
 <Pair single id="arc-monk-scarred_monk-rings-of-pain-su">Rings of Pain (Su)</Pair>
 <Pair title="Prerequisites">10th-level monk</Pair>
 <Pair title="Info">The scarred monk has pierced her flesh with numerous large metal rings.</Pair>
@@ -1071,7 +1071,7 @@ const _sensei = {title: "Sensei", jsx: <><h2 id="arc-monk-sensei-sensei">Sensei<
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A sensei may use his Wisdom bonus in lieu of his Strength or Dexterity on attack rolls and combat maneuver checks with unarmed strikes or monk weapons.</Pair>
 </Ability>
-<Ability id="arc-monk-sensei-mystic-wisdom-su" icon={["upgrade","abstract-091"]}>
+<Ability id="arc-monk-sensei-mystic-wisdom-su" icon={["upgrade","aura"]}>
 <Pair single id="arc-monk-sensei-mystic-wisdom-su">Mystic Wisdom (Su)</Pair>
 <Pair hl title="Replaces">Bonus feats gained at 6th, 10th, and 14th level</Pair>
 <Pair title="At 6th Level">A sensei may use his <em>advice</em> ability when spending points from his <em>ki pool</em> to activate a class ability (using the normal actions required for each) in order to have that ability affect one ally within 30 feet rather than the sensei himself.</Pair>
@@ -1196,7 +1196,7 @@ const _sin_monk = {title: "Sin Monk", jsx: <><h2 id="arc-monk-sin_monk-sin-monk"
 <Pair title="At 10th Level">This bonus increases to +6.</Pair>
 <Pair title="At 16th Level">This bonus increases to +8.</Pair>
 </Ability>
-<Ability id="arc-monk-sin_monk-gluttony" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-monk-sin_monk-gluttony" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-monk-sin_monk-gluttony">Gluttony</Pair>
 <Pair title="Ability">Each time the sin monk deals lethal damage with a melee attack, he regains a number of hit points equal to the amount of damage dealt (maximum 2). He can't exceed his maximum number of hit points.</Pair>
 <Pair title="At 10th Level">The maximum number of hit points he regains increases to 4.</Pair>
@@ -1286,7 +1286,7 @@ const _softstrike_monk = {title: "Softstrike Monk", jsx: <><h2 id="arc-monk-soft
 <Pair title="Free Action">If he hits an undead foe with an unarmed attack, he can spend 1 ki point to remove the target's immunity to nonlethal damage for a number of minutes equal to his Wisdom modifier. If, during this time, the target's nonlethal damage exceeds its current hit points, it is destroyed.</Pair>
 <Pair title="At 10th Level">A softstrike monk can also use this ability against constructs.</Pair>
 </Ability>
-<Ability id="arc-monk-softstrike_monk-wholeness-of-body-and-spirit-su" icon={["broken-shield","heart-plus","armor-upgrade"]}>
+<Ability id="arc-monk-softstrike_monk-wholeness-of-body-and-spirit-su" icon={["broken-shield","remedy","armor-upgrade"]}>
 <Pair single id="arc-monk-softstrike_monk-wholeness-of-body-and-spirit-su">Wholeness of Body and Spirit (Su)</Pair>
 <Pair hl title="Alters">Wholeness of body</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -1333,7 +1333,7 @@ const _softstrike_monk_uc = {title: "Softstrike Monk (Unchained)", topLink: ["Un
 <Pair title="Free Action">If he hits an undead foe with an unarmed attack, he can spend 1 ki point to remove the target's immunity to nonlethal damage for a number of minutes equal to his Wisdom modifier. If, during this time, the target's nonlethal damage exceeds its current hit points, it is destroyed.</Pair>
 <Pair title="At 10th Level">A softstrike monk can also use this ability against constructs.</Pair>
 </Ability>
-<Ability id="arc-monk-softstrike_monk_uc-wholeness-of-body-and-spirit-su" icon={["broken-shield","heart-plus","armor-upgrade"]}>
+<Ability id="arc-monk-softstrike_monk_uc-wholeness-of-body-and-spirit-su" icon={["broken-shield","remedy","armor-upgrade"]}>
 <Pair single id="arc-monk-softstrike_monk_uc-wholeness-of-body-and-spirit-su">Wholeness of Body and Spirit (Su)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A softstrike monk can use wholeness of body on both himself and other creatures, though it heals only nonlethal damage. If he uses this ability on an unconscious foe, he can spend 1 additional ki point to force the creature to accept a pact of life. The creature must succeed at a Will saving throw (DC = 10 + half the softstrike monk's level + his Wisdom modifier) or the pact renders it unable to directly attack the monk and any allies within 60 feet, as per <Link to="/spell/sanctuary">sanctuary</Link>, for a number of days equal to the softstrike monk's level.</Pair>
@@ -1377,7 +1377,7 @@ const _sohei = {title: "Sohei", jsx: <><h2 id="arc-monk-sohei-sohei">Sohei</h2>
 <Pair single id="arc-monk-sohei-unarmed-strike">Unarmed Strike</Pair>
 <Pair title="Info">A sohei's unarmed strike damage does not increase at 4th level and above.</Pair>
 </Ability>
-<Ability id="arc-monk-sohei-monastic-mount-su" icon={["heart-plus","shield-reflect","stairs-goal"]}>
+<Ability id="arc-monk-sohei-monastic-mount-su" icon={["remedy","shield-reflect","stairs-goal"]}>
 <Pair single id="arc-monk-sohei-monastic-mount-su">Monastic Mount (Su)</Pair>
 <Pair hl title="Replaces">Fast movement, increased unarmed damage</Pair>
 <Pair title="Gained">At 4th Level</Pair>
@@ -1427,7 +1427,7 @@ const _soul_shepherd = {title: "Soul Shepherd", jsx: <><h2 id="arc-monk-soul_she
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Swift Action">A soul shepherd can spend 1 point from his <em>ki pool</em> to grant himself the ability to notice, locate, and distinguish between living and undead creatures within 30 feet, just as if he had a <Link to="/subtype/psychopomp">psychopomp's</Link> <em>spiritsense</em> ability, for a number of rounds equal to his Wisdom modifier (minimum 1).</Pair>
 </Ability>
-<Ability id="arc-monk-soul_shepherd-yamarajs-judgment-sp" icon={["heart-plus"]}>
+<Ability id="arc-monk-soul_shepherd-yamarajs-judgment-sp" icon={["remedy"]}>
 <Pair single id="arc-monk-soul_shepherd-yamarajs-judgment-sp">Yamaraj's Judgment (Sp)</Pair>
 <Pair hl title="Replaces">Quivering palm</Pair>
 <Pair title="Gained">At 15th Level</Pair>
@@ -1456,7 +1456,7 @@ const _soul_shepherd_uc = {title: "Soul Shepherd (Unchained)", topLink: ["Unchai
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Swift Action">A soul shepherd can spend 1 point from his <em>ki pool</em> to grant himself the ability to notice, locate, and distinguish between living and undead creatures within 30 feet, just as if he had a <Link to="/subtype/psychopomp">psychopomp's</Link> <em>spiritsense</em> ability, for a number of rounds equal to his Wisdom modifier (minimum 1).</Pair>
 </Ability>
-<Ability id="arc-monk-soul_shepherd_uc-yamarajs-judgment-sp" icon={["heart-plus"]}>
+<Ability id="arc-monk-soul_shepherd_uc-yamarajs-judgment-sp" icon={["remedy"]}>
 <Pair single id="arc-monk-soul_shepherd_uc-yamarajs-judgment-sp">Yamaraj's Judgment (Sp)</Pair>
 <Pair hl title="Replaces">16th-level ki power</Pair>
 <Pair title="Gained">At 16th Level</Pair>
@@ -1486,7 +1486,7 @@ const _spirit_master = {title: "Spirit Master", jsx: <><h2 id="arc-monk-spirit_m
 <Pair title="Ability">Once per day when attempting a Fortitude save to remove a temporary negative level, the spirit master may choose to automatically succeed.</Pair>
 <Pair title="Special">The spirit master still dies if his number of negative levels equals or exceeds his number of Hit Dice.</Pair>
 </Ability>
-<Ability id="arc-monk-spirit_master-spirit-burst-su" icon={["abstract-091"]}>
+<Ability id="arc-monk-spirit_master-spirit-burst-su" icon={["aura"]}>
 <Pair single id="arc-monk-spirit_master-spirit-burst-su">Spirit Burst (Su)</Pair>
 <Pair hl title="Replaces">Wholeness of body</Pair>
 <Pair title="Gained">At 7th Level</Pair>

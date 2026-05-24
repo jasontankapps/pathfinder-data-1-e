@@ -82,7 +82,7 @@ const _blightburner = {title: "Blightburner", jsx: <><h2 id="arc-kineticist-blig
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">Whenever a blightburner would take <Link to="/rule/ability_damage">ability damage</Link> from radiation, she can accept 1 point of burn to reduce the ability damage by 4 points. Any remaining ability damage is applied normally.</Pair>
 </Ability>
-<Ability id="arc-kineticist-blightburner-blightburn-aura-su" icon={["stairs-goal","armor-upgrade","abstract-091"]}>
+<Ability id="arc-kineticist-blightburner-blightburn-aura-su" icon={["stairs-goal","armor-upgrade","aura"]}>
 <Pair single id="arc-kineticist-blightburner-blightburn-aura-su">Blightburn Aura (Su)</Pair>
 <Pair hl title="Replaces">Ability score boosts granted by elemental overflow, earth's elemental defense</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -378,7 +378,7 @@ const _elemental_purist = {title: "Elemental Purist", jsx: <><h2 id="arc-kinetic
 </>};
 const _elysiokineticist = {title: "Elysiokineticist", jsx: <><h2 id="arc-kineticist-elysiokineticist-elysiokineticist">Elysiokineticist</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 18</Link><br/>Similar to how phytokineticists draw their power from the First World, elysiokineticists trace their abilities to the riotous wilderness of the plane known as Elysium. Many such kineticists vow to fight against evil planar intrusions into the Material Plane, particularly the Worldwound.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-kineticist-elysiokineticist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must be chaotic good</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-kineticist-elysiokineticist-elysiums-soul" icon={["abstract-091","info","hazard-sign"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-kineticist-elysiokineticist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must be chaotic good</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-kineticist-elysiokineticist-elysiums-soul" icon={["aura","info","hazard-sign"]}>
 <Pair single id="arc-kineticist-elysiokineticist-elysiums-soul">Elysium's Soul</Pair>
 <Pair hl title="Replaces">Expanded element</Pair>
 <Pair hl title="Alters">Elemental focus</Pair>
@@ -477,7 +477,7 @@ const _kinetic_chirurgeon = {title: "Kinetic Chirurgeon", jsx: <><h2 id="arc-kin
 <Pair title="At 19th Level">She can pick a 10th mercy (of an appropriate level).</Pair>
 <Pair title="Special">A kinetic chirurgeon can never use infusions.</Pair>
 </Ability>
-<Ability id="arc-kineticist-kinetic_chirurgeon-metahealer-su" icon={["stairs-goal","upgrade","heart-plus"]}>
+<Ability id="arc-kineticist-kinetic_chirurgeon-metahealer-su" icon={["stairs-goal","upgrade","remedy"]}>
 <Pair single id="arc-kineticist-kinetic_chirurgeon-metahealer-su">Metahealer (Su)</Pair>
 <Pair hl title="Replaces">Metakinesis, infusion specialization</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -539,7 +539,7 @@ const _kinetic_knight = {title: "Kinetic Knight", jsx: <><h2 id="arc-kineticist-
 <Pair title="Usage">1 time/day + 1 per two samurai levels beyond 1st<ByLevelPop levels={[[1,1],[3,2],[5,3],[7,4],[9,5],[11,6],[13,7],[15,8],[17,9],[19,10]]} unit="time" postText="/day" /></Pair>
 <Pair title="Passive Ability">You gain <em>resolve</em> that you can call upon to endure even the most devastating wounds and afflictions. Whenever you defeat the target of your challenge, you regain one daily use of your <em>resolve,</em> up to your maximum number of uses per day. Defeating the target of your challenge usually involves reducing the target to 0 hit points or fewer, but the GM might rule that an enemy who surrenders or flees the battle is also defeated. You can use this <em>resolve</em> in a number of ways.</Pair>
 </Ability>
-<Ability id="arc-kineticist-kinetic_knight-determined" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-kineticist-kinetic_knight-determined" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-kineticist-kinetic_knight-determined" flavor="Text from the samurai class">Determined</Pair>
 <Pair title="Standard Action">You can spend one use of your <em>resolve</em> to remove the <Link to="/misc/fatigued">fatigued</Link>, <Link to="/misc/shaken">shaken</Link>, or <Link to="/misc/sickened">sickened</Link> condition.</Pair>
 <Pair title="At 8th Level">You can now remove the <Link to="/misc/exhausted">exhausted</Link>, <Link to="/misc/frightened">frightened</Link>, <Link to="/misc/nauseated">nauseated</Link>, or <Link to="/misc/staggered">staggered</Link> conditions, instead.</Pair>

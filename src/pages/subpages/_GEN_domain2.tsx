@@ -212,7 +212,7 @@ const _liberation = {hasJL:true,title: "Liberation", jsx: <><div className="jump
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Passive Ability">You have the ability to ignore impediments to your mobility. For as long as you have rounds available, you can move normally regardless of magical effects that impede movement, as if you were affected by <Link to="/spell/freedom_of_movement">freedom of movement</Link>. This effect occurs automatically as soon as it applies.</Pair>
 </Ability>
-<Ability id="domain-liberation-free" icon={["abstract-091"]}>
+<Ability id="domain-liberation-free" icon={["aura"]}>
 <Pair single id="domain-liberation-free">Freedom's Call (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
@@ -336,7 +336,7 @@ const _luck = {hasJL:true,title: "Luck", jsx: <><div className="jumpList" id="do
 <tr><th scope="row">8th</th><td><em>moment of prescience</em></td></tr>
 <tr><th scope="row">9th</th><td><em>miracle</em></td></tr></tbody></table><h3 id="domain-luck-imagination-subdomain" data-hash-target>Imagination Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity pg. 21</Link></p>
-<p><strong className="hl">Associated Deities:</strong> <Link to="/faith/bes">Bes</Link></p><Ability id="domain-luck-haze-of-daydreams-su" icon={["abstract-091"]}>
+<p><strong className="hl">Associated Deities:</strong> <Link to="/faith/bes">Bes</Link></p><Ability id="domain-luck-haze-of-daydreams-su" icon={["aura"]}>
 <Pair single id="domain-luck-haze-of-daydreams-su">Haze of Daydreams (Su)</Pair>
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-luck-good">good fortune</InnerLink> ability of the Luck domain</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -360,7 +360,7 @@ const _madness = {hasJL:true,title: "Madness", jsx: <><div className="jumpList" 
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Ability">You can give a creature a vision of madness as a melee touch attack. Choose one of the following: attack rolls, saving throws, or skill checks. The target receives a bonus to the chosen rolls equal to 1/2 your cleric level (minimum +1) and a penalty to the other two types of rolls equal to 1/2 your cleric level (minimum -1). This effect fades after 3 rounds.</Pair>
 </Ability>
-<Ability id="domain-madness-aura" icon={["abstract-091"]}>
+<Ability id="domain-madness-aura" icon={["aura"]}>
 <Pair single id="domain-madness-aura">Aura of Madness (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
@@ -465,7 +465,7 @@ const _magic = {hasJL:true,title: "Magic", jsx: <><div className="jumpList" id="
 <tr><th scope="row">8th</th><td><em>protection from spells</em></td></tr>
 <tr><th scope="row">9th</th><td><em>mage's disjunction</em></td></tr></tbody></table><h3 id="domain-magic-arcane-subdomain" data-hash-target>Arcane Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 86</Link></p>
-<p><strong className="hl">Associated Deities:</strong> <Link to="/faith/abraxas">Abraxas</Link>, <Link to="/faith/aerekostes">Aerekostes</Link>, <Link to="/faith/aesdurath">Aesdurath</Link>, <Link to="/faith/alseta">Alseta</Link>, <Link to="/faith/amaznen">Amaznen</Link>, <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/barbatos">Barbatos</Link>, <Link to="/faith/isis">Isis</Link>, <Link to="/faith/lorthact">Lorthact</Link>, <Link to="/faith/nalinivati">Nalinivati</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/nyarlathotep_black_pharaoh">Nyarlathotep (Black Pharaoh)</Link>, <Link to="/faith/nyarlathotep_faceless_sphinx">Nyarlathotep (Faceless Sphinx)</Link>, <Link to="/faith/nyarlathotep_haunter_of_the_dark">Nyarlathotep (Haunter of the Dark)</Link>, <Link to="/faith/shiggarreb">Shiggarreb</Link>, <Link to="/faith/shyka">Shyka</Link>, <Link to="/faith/thoth">Thoth</Link>, <Link to="/faith/tsathoggua">Tsathoggua</Link>, <Link to="/faith/yuelral">Yuelral</Link></p><Ability id="domain-magic-arcane-beacon-su" icon={["abstract-091"]}>
+<p><strong className="hl">Associated Deities:</strong> <Link to="/faith/abraxas">Abraxas</Link>, <Link to="/faith/aerekostes">Aerekostes</Link>, <Link to="/faith/aesdurath">Aesdurath</Link>, <Link to="/faith/alseta">Alseta</Link>, <Link to="/faith/amaznen">Amaznen</Link>, <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/barbatos">Barbatos</Link>, <Link to="/faith/isis">Isis</Link>, <Link to="/faith/lorthact">Lorthact</Link>, <Link to="/faith/nalinivati">Nalinivati</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/nyarlathotep_black_pharaoh">Nyarlathotep (Black Pharaoh)</Link>, <Link to="/faith/nyarlathotep_faceless_sphinx">Nyarlathotep (Faceless Sphinx)</Link>, <Link to="/faith/nyarlathotep_haunter_of_the_dark">Nyarlathotep (Haunter of the Dark)</Link>, <Link to="/faith/shiggarreb">Shiggarreb</Link>, <Link to="/faith/shyka">Shyka</Link>, <Link to="/faith/thoth">Thoth</Link>, <Link to="/faith/tsathoggua">Tsathoggua</Link>, <Link to="/faith/yuelral">Yuelral</Link></p><Ability id="domain-magic-arcane-beacon-su" icon={["aura"]}>
 <Pair single id="domain-magic-arcane-beacon-su">Arcane Beacon (Su)</Pair>
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-magic-hand">hand of the acolyte</InnerLink> power of the Magic domain</Pair>
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
@@ -609,7 +609,7 @@ const _nobility = {hasJL:true,title: "Nobility", jsx: <><div className="jumpList
 <h4 id="domain-nobility-naderi">Naderi</h4>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 9</Link></p>
 <p>As worshipers of the goddess of drowning, romantic tragedy, and suicide, <Link to="/faith/naderi">Naderi's</Link> faithful are often fraught with encounters of the supernatural variety. Her followers contend more with undead than they do outsiders or magical possession, more as a matter of her portfolio than because of any actual training against such forces. Her divine worshipers use conventional means of defeating haunts or possessing spirits, but have additional power over those tied to means of death in Naderi's portfolio.</p>
-<Ability id="domain-nobility-romance-beyond-death-su" icon={["abstract-091"]}>
+<Ability id="domain-nobility-romance-beyond-death-su" icon={["aura"]}>
 <Pair single id="domain-nobility-romance-beyond-death-su">Romance Beyond Death (Su)</Pair>
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-nobility-lead">leadership</InnerLink> domain power of the Nobility domain</Pair>
 <Pair title="Passive Ability">You receive <Link to="/feat/command_undead">Command Undead</Link> or <Link to="/feat/turn_undead">Turn Undead</Link> as a bonus feat, depending on the type of energy you channel. Increase the DC of the saving throw against these feats' effects by 2 as long as the spirits involved were slain by drowning or killed themselves. If the circumstances of the affected undead's creation was linked to romance, increase the save DC by 4 instead.</Pair>
@@ -1154,7 +1154,7 @@ const _sun = {hasJL:true,title: "Sun", jsx: <><div className="jumpList" id="doma
 <Pair single id="domain-sun-sun">Sun's Blessing (Su)</Pair>
 <Pair title="Passive Ability">Whenever you <Link to="/ability/channel_positive_energy">channel positive energy</Link> to harm undead creatures, add your cleric level to the damage dealt. Undead do not add their <Link to="/umr/channel_resistance">channel resistance</Link> to their saves when you channel positive energy.</Pair>
 </Ability>
-<Ability id="domain-sun-light" icon={["abstract-091"]}>
+<Ability id="domain-sun-light" icon={["aura"]}>
 <Pair single id="domain-sun-light">Nimbus of Light (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
@@ -1170,7 +1170,7 @@ const _sun = {hasJL:true,title: "Sun", jsx: <><div className="jumpList" id="doma
 <tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/sunburst">sunburst<IonRippleEffect /></Link></td></tr>
 <tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/prismatic_sphere">prismatic sphere<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-sun-day-subdomain" data-hash-target>Day Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 88</Link></p>
-<p><strong className="hl">Associated Deities:</strong> <Link to="/faith/easivra">Easivra</Link>, <Link to="/faith/horus">Horus</Link>, <Link to="/faith/iaozrael">Iaozrael</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/jaidi">Jaidi</Link>, <Link to="/faith/keltheald">Keltheald</Link>, <Link to="/faith/khepri">Khepri</Link>, <Link to="/faith/muronna">Muronna</Link>, <Link to="/faith/nurgal">Nurgal</Link>, <Link to="/faith/ra">Ra</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/shizuru">Shizuru</Link>, <Link to="/faith/skode">Skode</Link></p><Ability id="domain-sun-days-resurgence-su" icon={["heart-plus"]}>
+<p><strong className="hl">Associated Deities:</strong> <Link to="/faith/easivra">Easivra</Link>, <Link to="/faith/horus">Horus</Link>, <Link to="/faith/iaozrael">Iaozrael</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/jaidi">Jaidi</Link>, <Link to="/faith/keltheald">Keltheald</Link>, <Link to="/faith/khepri">Khepri</Link>, <Link to="/faith/muronna">Muronna</Link>, <Link to="/faith/nurgal">Nurgal</Link>, <Link to="/faith/ra">Ra</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/shizuru">Shizuru</Link>, <Link to="/faith/skode">Skode</Link></p><Ability id="domain-sun-days-resurgence-su" icon={["remedy"]}>
 <Pair single id="domain-sun-days-resurgence-su">Day's Resurgence (Su)</Pair>
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-sun-light">nimbus of light</InnerLink> power of the Sun domain</Pair>
 <Pair title="Gained">At 8th Level</Pair>
@@ -1224,7 +1224,7 @@ const _sun = {hasJL:true,title: "Sun", jsx: <><div className="jumpList" id="doma
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Standard Action">You can leach moisture and vitality from a living, corporeal creature you can see within 30 feet. The target takes an amount of nonlethal damage equal to 1d6 + 1 for every 2 cleric levels you have and becomes <Link to="/misc/fatigued">fatigued</Link> until the beginning of your next turn (Fortitude negates). Plant creatures and those with the aquatic or water subtype take lethal damage from this ability, and they are fatigued for a number of rounds equal to your Wisdom modifier.</Pair>
 </Ability>
-<Ability id="domain-sun-withering-nimbus-su" icon={["abstract-091"]}>
+<Ability id="domain-sun-withering-nimbus-su" icon={["aura"]}>
 <Pair single id="domain-sun-withering-nimbus-su">Withering Nimbus (Su)</Pair>
 <Pair hl title="Alters">The <InnerLink toTop to="domain-sun-light">nimbus of light</InnerLink> power of the Sun domain</Pair>
 <Pair title="Gained">At 8th Level</Pair>

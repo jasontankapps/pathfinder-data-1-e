@@ -291,7 +291,7 @@ const _dread_investigator = {title: "Dread Investigator", jsx: <><h2 id="arc-inv
 <Pair single id="arc-investigator-dread_investigator-investigator-talent">Investigator Talent</Pair>
 <Pair title="Ability">When a dread investigator selects the <Link to="/invtalent/alchemist_discovery">alchemist discovery</Link> talent, he can select from the following additional discoveries: <Link to="/discovery/alchemical_zombie">alchemical zombie</Link>, <Link to="/discovery/mummification">mummification</Link>, or <Link to="/discovery/preserve_organs">preserve organs</Link>.</Pair>
 </Ability>
-<Ability id="arc-investigator-dread_investigator-reanimation-fluid-ex" icon={["spell-book","heart-plus"]}>
+<Ability id="arc-investigator-dread_investigator-reanimation-fluid-ex" icon={["spell-book","remedy"]}>
 <Pair single id="arc-investigator-dread_investigator-reanimation-fluid-ex">Reanimation Fluid (Ex)</Pair>
 <Pair hl title="Replaces">Investigator talents gained at 7th, 13th, and 19th level</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -1402,7 +1402,7 @@ const _toxin_codexer = {title: "Toxin Codexer", jsx: <><h2 id="arc-investigator-
 <p>The Fortitude save DC of these poisons is 10 + the toxin codexer's Intelligence modifier + the extract level of the poison. Poisons created in this way are unstable and become inert after 1 day if not used. Once the poison is administered to a target, the duration is as normal for that poison's type, even if longer than 1 day. These poisons can be applied to weapons (if applicable) only by the toxin codexer, unless he has the <Link to="/discovery/infusion">infusion</Link> alchemist discovery.</p>
 </Pair>
 </Ability>
-<Ability id="arc-investigator-toxin_codexer-modify-toxin-ex" icon={["armor-upgrade","armor-downgrade","heart-plus"]}>
+<Ability id="arc-investigator-toxin_codexer-modify-toxin-ex" icon={["armor-upgrade","armor-downgrade","remedy"]}>
 <Pair single id="arc-investigator-toxin_codexer-modify-toxin-ex">Modify Toxin (Ex)</Pair>
 <Pair hl title="Replaces">Keen recollection, trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>

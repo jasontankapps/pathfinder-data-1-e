@@ -21,7 +21,7 @@ const _animist = {title: "Animist", jsx: <><h2 id="arc-shaman-animist-animist">A
 <Pair plain title="8th"><Link to="/spell/trap_the_soul">Trap the soul</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/soul_bind">Soul bind</Link></Pair>
 </Ability>
-<Ability id="arc-shaman-animist-wrangle-condition" icon={["heart-plus"]}>
+<Ability id="arc-shaman-animist-wrangle-condition" icon={["remedy"]}>
 <Pair single id="arc-shaman-animist-wrangle-condition">Wrangle Condition</Pair>
 <Pair hl title="Replaces">2nd-level hex</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -100,7 +100,7 @@ const _benefactor = {title: "Benefactor", jsx: <><h2 id="arc-shaman-benefactor-b
 <Pair title="Choice">When a benefactor gains this hex, she chooses one of the following: ability checks, attack rolls, or skill checks. Instead of gaining an insight bonus on saving throws, any creature with a boon reservoir granted by the benefactor can spend 1 point as an <strong className="hl">immediate action</strong> to gain a +2 insight bonus on rolls or checks of the chosen kind until the start of its next turn.</Pair>
 <Pair title="Special">This hex can be chosen multiple times. Each time, it applies to a different roll or check.</Pair>
 </Ability>
-<Ability id="arc-shaman-benefactor-suppress-curse-sp" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-shaman-benefactor-suppress-curse-sp" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-shaman-benefactor-suppress-curse-sp">Suppress Curse (Sp)</Pair>
 <Pair title="Standard Action">A benefactor can attempt to suppress one curse effect that is affecting a creature or object with a touch. This functions as per <Link to="/spell/remove_curse">remove curse</Link>, except the curse's effects are suppressed for 1 hour, even if it is a cursed shield, weapon, or suit of armor. This allows a creature afflicted with any such cursed item to remove or get rid of it.</Pair>
 <Pair title="Special">The benefactor uses her shaman level as her caster level for the purpose of this hex.</Pair>
@@ -472,7 +472,7 @@ const _spirit_warden = {title: "Spirit Warden", jsx: <><h2 id="arc-shaman-spirit
 <Pair plain title="8th"><Link to="/spell/control_undead">Control undead</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/foresight">Foresight</Link></Pair>
 </Ability>
-<Ability id="arc-shaman-spirit_warden-rebuke-spirits-su" icon={["abstract-091"]}>
+<Ability id="arc-shaman-spirit_warden-rebuke-spirits-su" icon={["aura"]}>
 <Pair single id="arc-shaman-spirit_warden-rebuke-spirits-su">Rebuke Spirits (Su)</Pair>
 <Pair hl title="Replaces">Hex gained at 2nd level</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -612,7 +612,7 @@ const _visionary = {title: "Visionary", jsx: <><h2 id="arc-shaman-visionary-visi
 </>};
 const _witch_doctor = {title: "Witch Doctor", jsx: <><h2 id="arc-shaman-witch_doctor-witch-doctor">Witch Doctor</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 113</Link><br/>The witch doctor is a healer who specializes in afflictions of the soul. Often misunderstood, she protects her tribe with healing powers, powerful defensive magic, and her own divine "witchcraft."</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-shaman-witch_doctor--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Nonevil alignment</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-shaman-witch_doctor-channel-energy-su" icon={["abstract-091"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-shaman-witch_doctor--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Nonevil alignment</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-shaman-witch_doctor-channel-energy-su" icon={["aura"]}>
 <Pair single id="arc-shaman-witch_doctor-channel-energy-su">Channel Energy (Su)</Pair>
 <Pair hl title="Replaces">Hexes gained at 4th and 12th levels</Pair>
 <Pair title="Gained">At 4th Level</Pair>

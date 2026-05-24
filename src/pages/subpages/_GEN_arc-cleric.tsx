@@ -217,7 +217,7 @@ const _crashing_wave = {title: "Crashing Wave", jsx: <><h2 id="arc-cleric-crashi
 <Pair hl title="Alters">Bonus languages</Pair>
 <Pair title="Info">A crashing wave's bonus language options include Aquan in addition to the bonus languages available to the character from her race. The crashing wave does not gain Abyssal, Celestial, or Infernal as bonus language options.</Pair>
 </Ability>
-<Ability id="arc-cleric-crashing_wave-balanced-channel-su" icon={["abstract-091","smoking-finger","heart-plus"]}>
+<Ability id="arc-cleric-crashing_wave-balanced-channel-su" icon={["aura","smoking-finger","remedy"]}>
 <Pair single id="arc-cleric-crashing_wave-balanced-channel-su" flavor="A crashing wave can channel the pure balance of the ocean - its wildness, its calm, its cruelty, and its gentleness.">Balanced Channel (Su)</Pair>
 <Pair hl title="Replaces">Channel energy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -279,7 +279,7 @@ const _demonic_apostle = {title: "Demonic Apostle", jsx: <><h2 id="arc-cleric-de
 <Pair title="At 3rd Level">Her familiar gains the <Link to="/template/fiendish">fiendish</Link> template.</Pair>
 <Pair title="At 7th Level">The demonic apostle exchanges her familiar for a <Link to="/monster/quasit">quasit</Link> without the need to take the <Link to="/feat/improved_familiar">Improved Familiar</Link> feat.</Pair>
 </Ability>
-<Ability id="arc-cleric-demonic_apostle-demonic-channel-su" icon={["stairs-goal","abstract-091"]}>
+<Ability id="arc-cleric-demonic_apostle-demonic-channel-su" icon={["stairs-goal","aura"]}>
 <Pair single id="arc-cleric-demonic_apostle-demonic-channel-su">Demonic Channel (Su)</Pair>
 <Pair hl title="Replaces">Channel energy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -303,7 +303,7 @@ const _divine_paragon = {title: "Divine Paragon", jsx: <><h2 id="arc-cleric-divi
 <Pair title="At 14th Level">She gains access to the third boon.</Pair>
 <Pair title="Special">In order to retain access to her domain spells, the domain powers of her devoted domain, and the boons granted by Deific Obedience, the divine paragon must perform her obedience daily. If she fails to do so, she loses access to these abilities until she next performs her obedience (but she can still cast spells, channel energy, and perform other abilities granted by her cleric levels).</Pair>
 </Ability>
-<Ability id="arc-cleric-divine_paragon-divine-brand-ex" icon={["stairs-goal","abstract-091"]}>
+<Ability id="arc-cleric-divine_paragon-divine-brand-ex" icon={["stairs-goal","aura"]}>
 <Pair single id="arc-cleric-divine_paragon-divine-brand-ex">Divine Brand (Ex)</Pair>
 <Pair hl title="Alters">Aura</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -413,7 +413,7 @@ const _elder_mythos_cultist = {title: "Elder Mythos Cultist", jsx: <><h2 id="arc
 <Pair title="Info">An Elder Mythos cultist uses Charisma instead of Wisdom as his key spellcasting ability score (to determine his spell DCs, <Link to="/rule/bonus_spells">bonus spells</Link> per day, bonus on concentration checks, and so on), to determine the effects and umber of uses of his domain powers, and to modify his Will saving throws.</Pair>
 <Pair title="Passive Ability">Because of the fragile state of his mind, the Elder Mythos cultist takes a -2 penalty on Will saves to resist mind-affecting effects. An Elder Mythos cultist automatically fails any save to resist the effects of <Link to="/spell/confusion">confusion</Link>, <Link to="/spell/insanity">insanity</Link>, and <Link to="/spell/nightmare">nightmare</Link>, and other similar effects so long as the effect's caster level is higher than his character level.</Pair>
 </Ability>
-<Ability id="arc-cleric-elder_mythos_cultist-channel-the-void-su" icon={["abstract-091"]}>
+<Ability id="arc-cleric-elder_mythos_cultist-channel-the-void-su" icon={["aura"]}>
 <Pair single id="arc-cleric-elder_mythos_cultist-channel-the-void-su">Channel the Void (Su)</Pair>
 <Pair hl title="Replaces">Spontaneous casting</Pair>
 <Pair hl title="Alters">Channel energy</Pair>
@@ -474,7 +474,7 @@ const _fiendish_vessel = {title: "Fiendish Vessel", jsx: <><h2 id="arc-cleric-fi
 <Pair title="Info">A fiendish vessel must select the <Link to="/domain/daemon">Daemon</Link>, <Link to="/domain/demon">Demon</Link>, or <Link to="/domain/devil">Devil</Link> subdomain as one of her domain choices, based on the fiendish patron she chooses to serve.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
-<Ability id="arc-cleric-fiendish_vessel-channel-evil-su" icon={["abstract-091"]}>
+<Ability id="arc-cleric-fiendish_vessel-channel-evil-su" icon={["aura"]}>
 <Pair single id="arc-cleric-fiendish_vessel-channel-evil-su">Channel Evil (Su)</Pair>
 <Pair hl title="Replaces">Channel energy</Pair>
 <Pair title="Standard Action"><p>A fiendish vessel, rather than channeling positive or negative energy, instead channels the pure evil power of her fiendish patron. This ability is similar to channeling negative energy, but instead of healing undead and dealing damage to living creatures, this blast of evil energy automatically heals evil creatures and debilitates good creatures within its burst.</p>
@@ -565,7 +565,7 @@ const _forgemaster = {title: "Forgemaster", jsx: <><h2 id="arc-cleric-forgemaste
 <Pair title="Prerequisites">4th-level cleric</Pair>
 <Pair title="Passive Ability">The inscribed weapon, shield, or armor gains the ghost touch (<Link to="/magic-enh/ghost_touch_armor">armor</Link> or <Link to="/magic-enh/ghost_touch_weapon">weapon</Link>) special ability.</Pair>
 </Ability>
-<Ability id="arc-cleric-forgemaster-glowglyph" extraClasses="subAbility" icon={["stairs-goal","abstract-091"]}>
+<Ability id="arc-cleric-forgemaster-glowglyph" extraClasses="subAbility" icon={["stairs-goal","aura"]}>
 <Pair single id="arc-cleric-forgemaster-glowglyph">Glowglyph</Pair>
 <Pair title="Passive Ability">The inscribed item sheds light as a <Link to="/eq-misc/torch">torch</Link>.</Pair>
 <Pair title="Standard Action">The bearer can command the rune to erupt in a burst of light as a shield with the <Link to="/magic-enh/blinding">blinding</Link> special ability with a <Link to="/misc/burst">burst</Link> radius of 5 feet per glowglyph rune inscribed on the item. This expends all glowglyph runes on the item.</Pair>
@@ -630,7 +630,7 @@ const _foundation_of_faith = {title: "Foundation of Faith", jsx: <><h2 id="arc-c
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Move-Equivalent Action">The foundation of faith centers herself, allowing her to add her Constitution modifier to any <Link to="/rule/concentration">concentration</Link> checks attempted as part of casting cleric spells until the end of her turn.</Pair>
 </Ability>
-<Ability id="arc-cleric-foundation_of_faith-rooted-vitality-su" icon={["heart-plus"]}>
+<Ability id="arc-cleric-foundation_of_faith-rooted-vitality-su" icon={["remedy"]}>
 <Pair single id="arc-cleric-foundation_of_faith-rooted-vitality-su" flavor="A foundation of faith draws healing from the earth.">Rooted Vitality (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Usage">1 time/day per five cleric levels<ByLevelPop levels={[[5,1],[10,2],[15,3],[20,4]]} unit="time" postText="/day" /></Pair>
@@ -897,7 +897,7 @@ const _merciful_healer = {title: "Merciful Healer", jsx: <><h2 id="arc-cleric-me
 <Pair single id="arc-cleric-merciful_healer-combat-medic-ex">Combat Medic (Ex)</Pair>
 <Pair title="Passive Ability">A merciful healer does not provoke attacks of opportunity when using the Heal skill to stabilize another creature or casting healing spells.</Pair>
 </Ability>
-<Ability id="arc-cleric-merciful_healer-merciful-healing-su" icon={["stairs-goal","heart-plus"]}>
+<Ability id="arc-cleric-merciful_healer-merciful-healing-su" icon={["stairs-goal","remedy"]}>
 <Pair single id="arc-cleric-merciful_healer-merciful-healing-su">Merciful Healing (Su)</Pair>
 <Pair title="At 3rd Level">A merciful healer can channel positive energy to relieve one or more harmful conditions. The merciful healer chooses one of the following harmful conditions: <Link to="/misc/fatigued">fatigued</Link>, <Link to="/misc/shaken">shaken</Link>, or <Link to="/misc/sickened">sickened</Link>. When the merciful healer channels energy she can remove the chosen condition from one living creature that she heals within her channel energy burst.</Pair>
 <Pair title="At 6th Level">She can choose another condition. It can be one of those she didn't choose at 3rd level, or one of the following conditions: <Link to="/misc/dazed">dazed</Link>, diseased, or <Link to="/misc/staggered">staggered</Link>. She can remove either selected condition from up to two creatures within her channel energy burst.</Pair>
@@ -1083,7 +1083,7 @@ const _triadic_priest = {title: "Triadic Priest", jsx: <><h2 id="arc-cleric-tria
 <p>The bonded allies gain numerous benefits and can help empower the triadic priest's spellcasting, as noted in the abilities below. However, if a bonded ally dies, the other members of the bond must each succeed at a Fortitude save (DC = 10 + the triadic priest's class level) or gain 1 permanent <Link to="/rule/negative_level">negative level</Link>.</p>
 </Pair>
 </Ability>
-<Ability id="arc-cleric-triadic_priest-bonded-channeler-su" icon={["abstract-091"]}>
+<Ability id="arc-cleric-triadic_priest-bonded-channeler-su" icon={["aura"]}>
 <Pair single id="arc-cleric-triadic_priest-bonded-channeler-su">Bonded Channeler (Su)</Pair>
 <Pair title="Choice">When a triadic priest uses her channel energy ability, she must choose to affect either only her bonded allies or everyone except her bonded allies.</Pair>
 </Ability>
@@ -1133,7 +1133,7 @@ const _undead_lord = {title: "Undead Lord", jsx: <><h2 id="arc-cleric-undead_lor
 <Pair title="At 1st Level">All undead lords gain <Link to="/feat/command_undead">Command Undead</Link> as a bonus feat.</Pair>
 <Pair title="At 10th Level">She may select one of the following as a bonus feat: <Link to="/feat/channel_smite">Channel Smite</Link>, <Link to="/feat/extra_channel">Extra Channel</Link>, <Link to="/feat/improved_channel">Improved Channel</Link>, <Link to="/feat/quick_channel">Quick Channel</Link>, <Link to="/feat/skeleton_summoner">Skeleton Summoner</Link>, <Link to="/feat/undead_master">Undead Master</Link>.</Pair>
 </Ability>
-<Ability id="arc-cleric-undead_lord-unlife-healer-su" icon={["heart-plus"]}>
+<Ability id="arc-cleric-undead_lord-unlife-healer-su" icon={["remedy"]}>
 <Pair single id="arc-cleric-undead_lord-unlife-healer-su">Unlife Healer (Su)</Pair>
 <Pair title="At 8th Level">The undead lord's spells, spell-like abilities, and supernatural abilities used to heal undead heal an extra 50% damage.</Pair>
 <Pair title="At 16th Level">These effects automatically heal the maximum possible damage for the effect + the extra 50%. This does not stack with abilities or feats such as <Link to="/feat/empower_spell">Empower Spell</Link> or <Link to="/feat/maximize_spell">Maximize Spell</Link>.</Pair>

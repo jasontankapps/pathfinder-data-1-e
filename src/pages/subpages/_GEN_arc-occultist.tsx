@@ -466,7 +466,7 @@ const _necroccultist = {title: "Necroccultist", jsx: <><h2 id="arc-occultist-nec
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="Special">The ghostly horde remains for 1 round, though at the beginning of his turn, the necroccultist can expend 1 point of mental focus as a <strong className="hl">swift action</strong> to extend the duration for 1 additional round.</Pair>
 </Ability>
-<Ability id="arc-occultist-necroccultist-life-drain-sp" icon={["smoking-finger","heart-plus"]}>
+<Ability id="arc-occultist-necroccultist-life-drain-sp" icon={["smoking-finger","remedy"]}>
 <Pair single id="arc-occultist-necroccultist-life-drain-sp">Life Drain (Sp)</Pair>
 <Pair hl title="Replaces">Outside contact</Pair>
 <Pair title="Gained">At 8th Level</Pair>

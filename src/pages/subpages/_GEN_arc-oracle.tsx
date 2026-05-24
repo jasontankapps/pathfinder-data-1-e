@@ -88,7 +88,7 @@ const _community_guardian = {title: "Community Guardian", jsx: <><h2 id="arc-ora
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
 <Pair title="Move-Equivalent Action">You call upon the spirits of community. For the next round, you grant every ally within 30 feet a +1 competence bonus on a single skill check (of the ally's choice) that it makes before the end of this revelation's duration. Furthermore, allies within 30 feet can, as a <strong className="hl">free action</strong>, choose to forgo this bonus, and instead grant a single ally a +1 increase to its competence bonus granted by this ability (maximum +5).</Pair>
 </Ability>
-<Ability id="arc-oracle-community_guardian-renewing-radiance-su" extraClasses="subAbility" icon={["shield-reflect","heart-plus"]}>
+<Ability id="arc-oracle-community_guardian-renewing-radiance-su" extraClasses="subAbility" icon={["shield-reflect","remedy"]}>
 <Pair single id="arc-oracle-community_guardian-renewing-radiance-su">Renewing Radiance (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">Once per day you can produce a <Link to="/misc/burst">burst</Link> of swirling white light that provides a measure of protection and renewal to allies within 30 feet for 1 round. On their turn, the allies can choose either to gain a +1 sacred bonus to AC for 1 round or to heal a number of hit points equal to 1d6 + your Charisma bonus (their choice). If an ally is <Link to="/misc/dying">dying</Link>, it is <Link to="/misc/stabilize">stabilized</Link> instead.</Pair>
@@ -474,33 +474,33 @@ const _pei_zin_practitioner = {title: "Pei Zin Practitioner", jsx: <><h2 id="arc
 <Pair title="Passive Ability">A Pei Zin practitioner has mastered countless alchemical techniques that supplement her divine powers and greatly aid her when she heals the sick and wounded. She gains a competence bonus on Profession (herbalist) checks equal to 1/2 her oracle level (minimum 1), and uses her Charisma modifier in place of her Wisdom modifier when attempting Profession (herbalist) checks.</Pair>
 <Pair title="Special">Additionally, a Pei Zin practitioner can identify potions as if via <Link to="/spell/detect_magic">detect magic</Link> using Profession (herbalist) instead of Spellcraft, and she can attempt such a check after holding a potion for 1 round.</Pair>
 </Ability>
-<Ability id="arc-oracle-pei_zin_practitioner-healers-way-su" icon={["heart-plus"]}>
+<Ability id="arc-oracle-pei_zin_practitioner-healers-way-su" icon={["remedy"]}>
 <Pair single id="arc-oracle-pei_zin_practitioner-healers-way-su" flavor="A Pei Zin practitioner combines alchemy, acupuncture, and divine magic to heal wounds by touch.">Healer's Way (Su)</Pair>
 <Pair hl title="Replaces">Revelation gained at 1st level</Pair>
 <Pair title="Usage">1 + Charisma modifier times/day</Pair>
 <Pair title="Standard Action">With one use of this ability, she uses positive energy to heal the target of 1d6 hit points for every 2 oracle levels she has. Using this ability is a standard action unless the oracle targets herself, in which case it is a <strong className="hl">swift action</strong>. Using this ability requires only one free hand.</Pair>
 <Pair title="Special">This ability counts as a paladin's <Link to="/ability/lay_on_hands">lay on hands</Link> ability for the purposes of feats, spells, and effects that work with that class feature when it is used for healing purposes. Unlike <em>lay on hands,</em> this ability cannot be used to harm undead.</Pair>
 </Ability>
-<Ability id="arc-oracle-pei_zin_practitioner-master-healing-technique-su" extraClasses="hasSubs" icon={["heart-plus"]}>
+<Ability id="arc-oracle-pei_zin_practitioner-master-healing-technique-su" extraClasses="hasSubs" icon={["remedy"]}>
 <Pair single id="arc-oracle-pei_zin_practitioner-master-healing-technique-su">Master Healing Technique (Su)</Pair>
 <Pair hl title="Replaces">Revelation gained at 7th level</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Free Action">Whenever a Pei Zin practitioner heals a living creature with her <em>healer's way</em> ability, she can attempt a Profession (herbalist) check to remove a condition from the target, with each condition having an accompanying Profession (herbalist) DC (see the list below). She cannot take 10 or 20 on this check, nor can she receive aid from any creature except another Pei Zin practitioner (though the practitioner need not be an oracle).</Pair>
 <Pair title="Special">Failure by 5 or more causes the target to become <Link to="/misc/sickened">sickened</Link> for 1 round (if the Pei Zin practitioner is attempting to remove the sickened condition, this extends it by 1 round). Similarly, failure by 10 or more instead causes the target to become <Link to="/misc/nauseated">nauseated</Link> for 1 round or to have its existing nauseated condition extended by 1 round. A creature that cannot be sickened or nauseated cannot have conditions removed by this ability.</Pair>
 </Ability>
-<Ability id="arc-oracle-pei_zin_practitioner-minor-conditions-dc-20" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-oracle-pei_zin_practitioner-minor-conditions-dc-20" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-oracle-pei_zin_practitioner-minor-conditions-dc-20">Minor Conditions (DC 20)</Pair>
 <Pair title="Ability">She can remove the fatigued, shaken, and sickened conditions.</Pair>
 </Ability>
-<Ability id="arc-oracle-pei_zin_practitioner-major-conditions-dc-25" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-oracle-pei_zin_practitioner-major-conditions-dc-25" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-oracle-pei_zin_practitioner-major-conditions-dc-25">Major Conditions (DC 25)</Pair>
 <Pair title="Ability">She can remove the dazed and staggered conditions.</Pair>
 </Ability>
-<Ability id="arc-oracle-pei_zin_practitioner-severe-conditions-dc-30" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-oracle-pei_zin_practitioner-severe-conditions-dc-30" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-oracle-pei_zin_practitioner-severe-conditions-dc-30">Severe Conditions (DC 30)</Pair>
 <Pair title="Ability">She can remove the confused, exhausted, frightened, and nauseated conditions.</Pair>
 </Ability>
-<Ability id="arc-oracle-pei_zin_practitioner-dire-conditions-dc-35" extraClasses="subAbility" icon={["heart-plus"]}>
+<Ability id="arc-oracle-pei_zin_practitioner-dire-conditions-dc-35" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-oracle-pei_zin_practitioner-dire-conditions-dc-35">Dire Conditions (DC 35)</Pair>
 <Pair title="Ability">She can remove the blinded, deafened, paralyzed, and stunned conditions.</Pair>
 </Ability>
@@ -644,7 +644,7 @@ const _purifier = {title: "Purifier", jsx: <><h2 id="arc-oracle-purifier-purifie
 <Pair title="Usage">Charisma modifier times/day</Pair>
 <Pair title="Special">If the target is possessed (such as by a <Link to="/spell/magic_jar">magic jar</Link> effect or a <Link to="/template/ghost">ghost's</Link> malevolence ability), the possessor is forced out on a successful check. Whether the check succeeds or fails, the possessor is sickened for 2d4 rounds.</Pair>
 </Ability>
-<Ability id="arc-oracle-purifier-sacred-scourge-su" icon={["abstract-091"]}>
+<Ability id="arc-oracle-purifier-sacred-scourge-su" icon={["aura"]}>
 <Pair single id="arc-oracle-purifier-sacred-scourge-su">Sacred Scourge (Su)</Pair>
 <Pair title="At 5th Level">A purifier may channel holy power to harm evil outsiders as a cleric of her level using the <Link to="/feat/alignment_channel">Alignment Channel</Link> feat.</Pair>
 <Pair title="Usage">1 + Charisma modifier times/day</Pair>

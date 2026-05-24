@@ -21,7 +21,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 			<IonItemDivider><IonLabel>Credits</IonLabel></IonItemDivider>
 			<IonItem><IonLabel>
 				<p>App Icon is based on "Gift of Knowledge" by <a href="https://lorcblog.blogspot.com/">Lorc</a>. The following icons are also by Lorc. (CC BY 3.0)</p>
-				<p className="icons">
+				<p className="icons icons24">
 					<IonIcon icon="/icons/battle-gear.svg" />
 					<IonIcon icon="/icons/croc-jaws.svg" />
 					<IonIcon icon="/icons/bolt-eye.svg" />
@@ -44,11 +44,13 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 					<IonIcon icon="/icons/smoking-finger.svg" />
 					<IonIcon icon="/icons/tornado-discs.svg" />
 					<IonIcon icon="/icons/hazard-sign.svg" />
+					<IonIcon icon="/icons/aura.svg" />
+					<IonIcon icon="/icons/magic-shield.svg" />
 				</p>
 			</IonLabel></IonItem>
 			<IonItem><IonLabel>
 				<p>The following icons are by <a href="https://delapouite.com/">Delapouite</a>. (CC BY 3.0)</p>
-				<p className="icons">
+				<p className="icons icons16">
 					<IonIcon icon="/icons/skills.svg" />
 					<IonIcon icon="/icons/person.svg" />
 					<IonIcon icon="/icons/mighty-force.svg" />
@@ -64,26 +66,9 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 					<IonIcon icon="/icons/rolling-dices.svg" />
 					<IonIcon icon="/icons/spell-book.svg" />
 					<IonIcon icon="/icons/info.svg" />
+					<IonIcon icon="/icons/remedy.svg" />
 				</p>
 			</IonLabel></IonItem>
-			<IonItem>
-				<IonIcon icon="/icons/abstract-091.svg" slot="start" />
-				<IonLabel>
-					<p>Icon by <a href="https://viscious-speed.deviantart.com/">Viscious Speed</a>. (Public Domain)</p>
-				</IonLabel>
-			</IonItem>
-			<IonItem>
-				<IonIcon icon="/icons/heart-plus.svg" slot="start" />
-				<IonLabel>
-					<p>Icon by <a href="https://game-icons.net/">Zeromancer</a>. (Public Domain)</p>
-				</IonLabel>
-			</IonItem>
-			<IonItem>
-				<IonIcon icon="/icons/orb-wand.svg" slot="start" />
-				<IonLabel>
-					<p>Icon by <a href="https://wjbstories.blogspot.com/">Wildabeast</a>. (CC BY 3.0)</p>
-				</IonLabel>
-			</IonItem>
 			<IonItem>
 				<IonIcon icon="/icons/read.svg" slot="start" />
 				<IonLabel>

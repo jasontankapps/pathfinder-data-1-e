@@ -60,7 +60,7 @@ const Icons: FC = () => {
 					<Icon incoming={icon} icon="magic-swirl">General magical, supernatural, or uncanny ability.</Icon>
 					<Icon incoming={icon} icon="barbed-arrow">A line-effect magical attack.</Icon>
 					<Icon incoming={icon} icon="tornado-discs">A cone-effect magical attack.</Icon>
-					<Icon incoming={icon} icon="abstract-091">Some sort of magical aura or other radius-limited effect.</Icon>
+					<Icon incoming={icon} icon="aura">Some sort of magical aura or other radius-limited effect.</Icon>
 					<Icon incoming={icon} icon="spell-book">Gain one or more spells known.</Icon>
 					<Icon incoming={icon} icon="rolling-dices">A change to the outcome of a die roll.</Icon>
 					<Icon incoming={icon} icon="armor-upgrade">A defensive ability.</Icon>
@@ -68,8 +68,8 @@ const Icons: FC = () => {
 					<Icon incoming={icon} icon="stairs-goal">Gain a new ability or companion.</Icon>
 					<Icon incoming={icon} icon="skills">A change to class skills.</Icon>
 					<Icon incoming={icon} icon="upgrade">Boost your own abilities, or an ally's.</Icon>
-					<Icon incoming={icon} icon="heart-plus">Some sort of healing or otherwise helpful action.</Icon>
-					<Icon incoming={icon} icon="armor-downgrade">An effect that lowers the defenses of others.</Icon>
+					<Icon incoming={icon} icon="remedy">Some sort of healing or otherwise helpful action.</Icon>
+					<Icon incoming={icon} icon="armor-downgrade">An effect that lowers the capabilities of non-allies.</Icon>
 					<Icon incoming={icon} icon="broken-shield">A downgrade of your own abilities, or an ally's.</Icon>
 				</IonList>
 			</IonContent>
