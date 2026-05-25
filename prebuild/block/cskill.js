@@ -1,75 +1,77 @@
-const getSkillBaseAtt = (input, logError) => {
+const getSkillBaseAtt = (potentialSkill, logError) => {
+	const [input, subskill] = potentialSkill.split(/[|]/);
+	const specific = subskill ? `(${subskill}) ` : ""
 	switch(input) {
 		case "acro":
-			return "‹skill/Acrobatics› (DEX)";
+			return `‹skill/Acrobatics› ${specific}(DEX)`;
 		case "app":
-			return "‹skill/Appraise› (INT)";
+			return `‹skill/Appraise› ${specific}(INT)`;
 		case "bluff":
-			return "‹skill/Bluff› (CHA)";
+			return `‹skill/Bluff› ${specific}(CHA)`;
 		case "climb":
-			return "‹skill/Climb› (STR)";
+			return `‹skill/Climb› ${specific}(STR)`;
 		case "craft":
-			return "‹skill/Craft› (INT)";
+			return `‹skill/Craft› ${specific}(INT)`;
 		case "diplo":
-			return "‹skill/Diplomacy› (CHA)";
+			return `‹skill/Diplomacy› ${specific}(CHA)`;
 		case "dis":
-			return "‹skill/Disguise› (CHA)";
+			return `‹skill/Disguise› ${specific}(CHA)`;
 		case "dd":
-			return "‹skill/Disable Device› (DEX)";
+			return `‹skill/Disable Device› ${specific}(DEX)`;
 		case "ea":
-			return "‹skill/Escape Artist› (DEX)";
+			return `‹skill/Escape Artist› ${specific}(DEX)`;
 		case "fly":
-			return "‹skill/Fly› (DEX)";
+			return `‹skill/Fly› ${specific}(DEX)`;
 		case "ha":
-			return "‹skill/Handle Animal› (CHA)";
+			return `‹skill/Handle Animal› ${specific}(CHA)`;
 		case "heal":
-			return "‹skill/Heal› (WIS)";
+			return `‹skill/Heal› ${specific}(WIS)`;
 		case "intm":
-			return "‹skill/Intimidate› (CHA)";
+			return `‹skill/Intimidate› ${specific}(CHA)`;
 		case "ka":
-			return "‹skill/Knowledge (arcana)› (INT)";
+			return `‹skill/Knowledge (arcana)› ${specific}(INT)`;
 		case "kd":
-			return "‹skill/Knowledge (dungeoneering)› (INT)";
+			return `‹skill/Knowledge (dungeoneering)› ${specific}(INT)`;
 		case "ke":
-			return "‹skill/Knowledge (engineering)› (INT)";
+			return `‹skill/Knowledge (engineering)› ${specific}(INT)`;
 		case "kg":
-			return "‹skill/Knowledge (geography)› (INT)";
+			return `‹skill/Knowledge (geography)› ${specific}(INT)`;
 		case "kh":
-			return "‹skill/Knowledge (history)› (INT)";
+			return `‹skill/Knowledge (history)› ${specific}(INT)`;
 		case "kl":
-			return "‹skill/Knowledge (local)› (INT)";
+			return `‹skill/Knowledge (local)› ${specific}(INT)`;
 		case "kna":
-			return "‹skill/Knowledge (nature)› (INT)";
+			return `‹skill/Knowledge (nature)› ${specific}(INT)`;
 		case "kno":
-			return "‹skill/Knowledge (nobility)› (INT)";
+			return `‹skill/Knowledge (nobility)› ${specific}(INT)`;
 		case "kp":
-			return "‹skill/Knowledge (planes)› (INT)";
+			return `‹skill/Knowledge (planes)› ${specific}(INT)`;
 		case "kr":
-			return "‹skill/Knowledge (religion)› (INT)";
+			return `‹skill/Knowledge (religion)› ${specific}(INT)`;
 		case "ling":
-			return "‹skill/Linguistics› (INT)";
+			return `‹skill/Linguistics› ${specific}(INT)`;
 		case "per":
-			return "‹skill/Perception› (WIS)";
+			return `‹skill/Perception› ${specific}(WIS)`;
 		case "perf":
-			return "‹skill/Perform› (CHA)";
+			return `‹skill/Perform› ${specific}(CHA)`;
 		case "prof":
-			return "‹skill/Profession› (WIS)";
+			return `‹skill/Profession› ${specific}(WIS)`;
 		case "ride":
-			return "‹skill/Ride› (DEX)";
+			return `‹skill/Ride› ${specific}(DEX)`;
 		case "sm":
-			return "‹skill/Sense Motive› (WIS)";
+			return `‹skill/Sense Motive› ${specific}(WIS)`;
 		case "soh":
-			return "‹skill/Sleight of Hand› (DEX)";
+			return `‹skill/Sleight of Hand› ${specific}(DEX)`;
 		case "spc":
-			return "‹skill/Spellcraft› (INT)";
+			return `‹skill/Spellcraft› ${specific}(INT)`;
 		case "stl":
-			return "‹skill/Stealth› (DEX)";
+			return `‹skill/Stealth› ${specific}(DEX)`;
 		case "sur":
-			return "‹skill/Survival› (WIS)";
+			return `‹skill/Survival› ${specific}(WIS)`;
 		case "swim":
-			return "‹skill/Swim› (STR)";
+			return `‹skill/Swim› ${specific}(STR)`;
 		case "umd":
-			return "‹skill/Use Magic Device› (CHA)";
+			return `‹skill/Use Magic Device› ${specific}(CHA)`;
 	}
 	if(input.match(/^[a-z]+$/)) {
 		logError(`Unknown skill abbrevation [${input}]`);
@@ -77,78 +79,80 @@ const getSkillBaseAtt = (input, logError) => {
 	return input;
 };
 
-const getSkill = (input, logError) => {
+const getSkill = (potentialSkill, logError) => {
+	const [input, subskill] = potentialSkill.split(/[|]/);
+	const specific = subskill ? ` (${subskill})` : ""
 	switch(input) {
 		case "acro":
-			return "Acrobatics";
+			return "Acrobatics" + specific;
 		case "app":
-			return "Appraise";
+			return "Appraise" + specific;
 		case "bluff":
-			return "Bluff";
+			return "Bluff" + specific;
 		case "climb":
-			return "Climb";
+			return "Climb" + specific;
 		case "craft":
-			return "Craft";
+			return "Craft" + specific;
 		case "diplo":
-			return "Diplomacy";
+			return "Diplomacy" + specific;
 		case "dis":
-			return "Disguise";
+			return "Disguise" + specific;
 		case "dd":
-			return "Disable Device";
+			return "Disable Device" + specific;
 		case "ea":
-			return "Escape Artist";
+			return "Escape Artist" + specific;
 		case "fly":
-			return "Fly";
+			return "Fly" + specific;
 		case "ha":
-			return "Handle Animal";
+			return "Handle Animal" + specific;
 		case "heal":
-			return "Heal";
+			return "Heal" + specific;
 		case "intm":
-			return "Intimidate";
+			return "Intimidate" + specific;
 		case "ka":
-			return "Knowledge (arcana)";
+			return "Knowledge (arcana)" + specific;
 		case "kd":
-			return "Knowledge (dungeoneering)";
+			return "Knowledge (dungeoneering)" + specific;
 		case "ke":
-			return "Knowledge (engineering)";
+			return "Knowledge (engineering)" + specific;
 		case "kg":
-			return "Knowledge (geography)";
+			return "Knowledge (geography)" + specific;
 		case "kh":
-			return "Knowledge (history)";
+			return "Knowledge (history)" + specific;
 		case "kl":
-			return "Knowledge (local)";
+			return "Knowledge (local)" + specific;
 		case "kna":
-			return "Knowledge (nature)";
+			return "Knowledge (nature)" + specific;
 		case "kno":
-			return "Knowledge (nobility)";
+			return "Knowledge (nobility)" + specific;
 		case "kp":
-			return "Knowledge (planes)";
+			return "Knowledge (planes)" + specific;
 		case "kr":
-			return "Knowledge (religion)";
+			return "Knowledge (religion)" + specific;
 		case "ling":
-			return "Linguistics";
+			return "Linguistics" + specific;
 		case "per":
-			return "Perception";
+			return "Perception" + specific;
 		case "perf":
-			return "Perform";
+			return "Perform" + specific;
 		case "prof":
-			return "Profession";
+			return "Profession" + specific;
 		case "ride":
-			return "Ride";
+			return "Ride" + specific;
 		case "sm":
-			return "Sense Motive";
+			return "Sense Motive" + specific;
 		case "soh":
-			return "Sleight of Hand";
+			return "Sleight of Hand" + specific;
 		case "spc":
-			return "Spellcraft";
+			return "Spellcraft" + specific;
 		case "stl":
-			return "Stealth";
+			return "Stealth" + specific;
 		case "sur":
-			return "Survival";
+			return "Survival" + specific;
 		case "swim":
-			return "Swim";
+			return "Swim" + specific;
 		case "umd":
-			return "Use Magic Device";
+			return "Use Magic Device" + specific;
 	}
 	if(input.match(/[^‹›]/)) {
 		logError(`Unknown skill abbrevation [${input}]`);

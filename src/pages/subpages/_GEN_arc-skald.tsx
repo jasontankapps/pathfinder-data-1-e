@@ -1,115 +1,282 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 const _augur = {title: "Augur", jsx: <><h2 id="arc-skald-augur-augur">Augur</h2>
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 25</Link><br/>Tales of Merivesta Olinchi are surprisingly common among the Bekyar of the Mwangi Expanse, who claim she spent some time studying their traditions and history. Most historians find it more likely that a Bekyar skald spent time in Nex, was exposed to the idea of divination as a tool of war from a copy of Cold Irony, and fabricated tales of how that knowledge came to be in his hands.</p>
-<p><strong>Monster Insight (Ex):</strong> At 2nd level, the augur applies his Charisma modifier in addition to his Intelligence modifier when attempting Knowledge checks to identify the abilities and weaknesses of creatures. Monster insight counts as the monster lore class feature for prerequisites.</p>
-<p>This ability replaces <strong className="hl">well-versed</strong>.</p>
-<p><strong>Signs and Portents (Su):</strong> At 2nd level, an augur can read signs and portents to attempt to ascertain how events in the near future will play out. This allows the augur to cast <Link to="/spell/augury">augury</Link> as a spell-like ability. At 7th level, he can instead use signs and portents to cast <Link to="/spell/divination">divination</Link> as a spell-like ability, and at 12th level, he can instead cast <Link to="/spell/commune">commune</Link> as a spell-like ability. At 17th level, he can use signs and portents twice per day.</p>
-<p>This ability replaces all types of <strong className="hl">versatile performance</strong>.</p>
-<p><strong>Predictive Strike (Su):</strong> At 5th level, the augur accurately divines the possible movements of his enemies in combat. Once per day as a free action, he can declare one of his melee attacks to be a predictive strike. Against the augur's attack, the target is flat-footed and gains no benefits from <Link to="/rule/concealment">concealment</Link> or <Link to="/rule/cover">cover</Link>. Attacks from other creatures are treated normally. The target still benefits from total concealment and total cover normally. At 11th level, the augur can use this ability a total of two attacks per day, and at 17th, three attacks per day.</p>
-<p>This replaces <strong className="hl">spell kenning</strong>.</p>
+<Ability id="arc-skald-augur-monster-insight-ex" icon={["upgrade"]}>
+<Pair single id="arc-skald-augur-monster-insight-ex">Monster Insight (Ex)</Pair>
+<Pair hl title="Replaces">Well-versed</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">The augur applies his Charisma modifier in addition to his Intelligence modifier when attempting Knowledge checks to identify the abilities and weaknesses of creatures.</Pair>
+<Pair title="Special">Monster insight counts as the <em>monster lore</em> class feature for prerequisites.</Pair>
+</Ability>
+<Ability id="arc-skald-augur-signs-and-portents-su" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-augur-signs-and-portents-su">Signs and Portents (Su)</Pair>
+<Pair hl title="Replaces">All types of versatile performance</Pair>
+<Pair title="At 2nd Level">An augur can read signs and portents to attempt to ascertain how events in the near future will play out. This allows the augur to cast <Link to="/spell/augury">augury</Link> as a spell-like ability.</Pair>
+<Pair title="At 7th Level">He can instead use signs and portents to cast <Link to="/spell/divination">divination</Link> as a spell-like ability.</Pair>
+<Pair title="At 12th Level">He can instead cast <Link to="/spell/commune">commune</Link> as a spell-like ability.</Pair>
+<Pair title="At 17th Level">He can use signs and portents twice per day.</Pair>
+</Ability>
+<Ability id="arc-skald-augur-predictive-strike-su" icon={["mailed-fist"]}>
+<Pair single id="arc-skald-augur-predictive-strike-su" flavor="The augur accurately divines the possible movements of his enemies in combat.">Predictive Strike (Su)</Pair>
+<Pair hl title="Replaces">Spell kenning</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Free Action">Once per day, he can declare one of his melee attacks to be a <em>predictive strike.</em> Against the augur's attack, the target is <Link to="/rule/flat_footed">flat-footed</Link> and gains no benefits from <Link to="/rule/concealment">concealment</Link> or <Link to="/rule/cover">cover</Link>. Attacks from other creatures are treated normally. The target still benefits from total concealment and total cover normally.</Pair>
+<Pair title="At 11th Level">The augur can use this ability on a total of two attacks per day.</Pair>
+<Pair title="At 17th Level">He can use this on three attacks per day.</Pair>
+</Ability>
 </>};
 const _bacchanal = {title: "Bacchanal", jsx: <><h2 id="arc-skald-bacchanal-bacchanal">Bacchanal</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 84</Link><br/>Bacchanals are skalds who use ecstatic dancing and ribald songs to influence the primal instincts of listeners. To these skalds, the passionate frenzy of a celebration or feast shares many features with the violence of combat, and several of their talents blur the line between festival and battle in dramatic ways.</p>
-<p><strong>Fermented Fruit (Sp):</strong> A bacchanal adds <Link to="/spell/goodberry">goodberry</Link> to his list of 1st-level skald spells known. In addition, he can cast it as a spell-like ability once per day. When he casts goodberry as a spell or spell-like ability, the targeted berries ferment; this causes each berry to act as a serving of an alcoholic beverage. A creature that eats a fermented berry does not gain a meal's nourishment, but it is cured of 1 point of damage and becomes slightly foolhardy as if tipsy, gaining a +1 bonus on saves against fear effects for 1 minute after eating the berry.</p>
-<p>This replaces <strong className="hl">Scribe Scroll</strong>.</p>
-<p><strong>Drunken Dancer (Su):</strong> At 2nd level, while maintaining a raging song, a bacchanal can consume a berry affected by goodberry, a potion, or a serving of alcohol as a move action that does not provoke attacks of opportunity. A berry affected by goodberry or a potion has its normal effect, while an alcoholic drink or a berry affected by goodberry via fermented fruit (see above) allows the skald to maintain his raging song that round without expending a round of raging song for the day (instead of the normal effects of the alcohol or fermented berry). For each alcoholic drink or fermented berry consumed while raging, the skald is nauseated for 1 round after his raging song ends. The <Link to="/ragepower/internal_fortitude">internal fortitude</Link> rage power prevents this nauseated condition from occurring.</p>
-<p>At 7th level, when the bacchanal consumes an alcoholic drink or fermented berry while maintaining his rage song, he can gain the benefits of <Link to="/spell/cure_light_wounds">cure light wounds</Link> or <Link to="/spell/remove_fear">remove fear</Link> (for the duration of the raging song) at his caster level by spending 2 rounds of raging song. At 12th level, the bacchanal can gain the benefits of <Link to="/spell/heroism">heroism</Link> (for the duration of the raging song) in this manner. At 17th level, he can gain the benefits of <Link to="/spell/persistent_vigor">persistent vigor</Link> (for the duration of the raging song) in this manner.</p>
-<p>This replaces <strong className="hl">versatile performance</strong>.</p>
-<p><strong>Raging Song (Su):</strong> A bacchanal gains access to the following raging songs.</p>
-<blockquote>
-<p><strong>Song of Urging (Su):</strong> At 3rd level, the bacchanal's raging song can wordlessly influence creatures of the wild. This raging song functions just like a Diplomacy check to make a simple request or an Intimidate check but can influence only animals. The bacchanal rolls 1d20 and adds his skald level and his Charisma modifier to determine the urging check's result. Bonuses and penalties that apply to wild empathy checks apply to these urging checks. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly. The song can influence plants or magical beasts with Intelligence scores of 1 or 2 as well as drunken creatures of any Intelligence (even without sharing a language), but against these non-animals, the bacchanal takes a -4 penalty on this check. The bacchanal must continue to perform the song for the entire time required for the check; otherwise, its effect is wasted, but only 1 round of raging song is expended regardless of how long the check takes.</p>
-<p>This raging song replaces song of marching.</p>
-<p><strong>Maddening Dance (Su):</strong> At 10th level, the bacchanal's raging song can compel a creature within 30 feet to perform an ecstatic dance. Unless it succeeds at its Will save, the victim becomes confused, takes a -2 penalty to its AC and on Reflex saving throws, and loses the benefit of any shield it holds. The effect ends when the target can no longer hear the bacchanal from within 30 feet. As an immediate action, an ally of the bacchanal within 30 feet can dance along as a full-round action (taking all penalties except the confused condition for that round) to allow the bacchanal to target an additional creature. A creature that succeeds at the Will saving throw against this raging song is immune to this effect for 24 hours. This is a compulsion, emotion, enchantment, and mind-affecting effect.</p>
-<p>This raging song replaces dirge of doom.</p>
-</blockquote>
-<p><strong>Rage Powers:</strong> The following rage powers complement the bacchanal archetype: <Link to="/ragepower/animal_fury">animal fury</Link>, <Link to="/ragepower/boasting_taunt">boasting taunt</Link>, <Link to="/ragepower/fearless_rage">fearless rage</Link>, <Link to="/ragepower/fierce_fortitude">fierce fortitude</Link>, <Link to="/ragepower/increased_damage_reduction">increased damage reduction</Link>, internal fortitude, <Link to="/ragepower/liquid_courage">liquid courage</Link>, <Link to="/ragepower/night_vision">night vision</Link>, <Link to="/ragepower/roaring_drunk">roaring drunk</Link>, and <Link to="/ragepower/staggering_drunk">staggering drunk</Link>.</p>
+<Ability id="arc-skald-bacchanal-fermented-fruit-sp" icon={["spell-book","magic-swirl","armor-upgrade"]}>
+<Pair single id="arc-skald-bacchanal-fermented-fruit-sp">Fermented Fruit (Sp)</Pair>
+<Pair hl title="Replaces">Scribe Scroll</Pair>
+<Pair title="Ability">A bacchanal adds <Link to="/spell/goodberry">goodberry</Link> to his list of 1st-level skald spells known. In addition, he can cast it as a spell-like ability once per day. When he casts <em>goodberry</em> as a spell or spell-like ability, the targeted berries ferment; this causes each berry to act as a serving of an alcoholic beverage. A creature that eats a fermented berry does not gain a meal's nourishment, but it is cured of 1 point of damage and becomes slightly foolhardy as if tipsy, gaining a +1 bonus on saves against fear effects for 1 minute after eating the berry.</Pair>
+</Ability>
+<Ability id="arc-skald-bacchanal-drunken-dancer-su" icon={["stairs-goal","magic-swirl","armor-upgrade","upgrade"]}>
+<Pair single id="arc-skald-bacchanal-drunken-dancer-su">Drunken Dancer (Su)</Pair>
+<Pair hl title="Replaces">Versatile performance</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Move-Equivalent Action">While maintaining a <em>raging song,</em> a bacchanal can consume a berry affected by <em>goodberry,</em> a potion, or a serving of alcohol. A berry affected by <em>goodberry</em> or a potion has its normal effect, while an alcoholic drink or a berry affected by <em>goodberry</em> via <em>fermented fruit</em> (see above) allows the skald to maintain his <em>raging song</em> that round without expending a round of <em>raging song</em> for the day (instead of the normal effects of the alcohol or fermented berry).</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
+<Pair title="At 7th Level">When the bacchanal consumes an alcoholic drink or fermented berry while maintaining his rage song, he can gain the benefits of <Link to="/spell/cure_light_wounds">cure light wounds</Link> or <Link to="/spell/remove_fear">remove fear</Link> (for the duration of the <em>raging song</em>) at his caster level by spending 2 rounds of <em>raging song.</em></Pair>
+<Pair title="At 12th Level">The bacchanal can gain the benefits of <Link to="/spell/heroism">heroism</Link> (for the duration of the <em>raging song</em>) in this manner.</Pair>
+<Pair title="At 17th Level">He can gain the benefits of <Link to="/spell/persistent_vigor">persistent vigor</Link> (for the duration of the <em>raging song</em>) in this manner.</Pair>
+<Pair title="Special">For each alcoholic drink or fermented berry consumed while raging, the skald is <Link to="/misc/nauseated">nauseated</Link> for 1 round after his <em>raging song</em> ends. The <Link to="/ragepower/internal_fortitude">internal fortitude</Link> rage power prevents this nauseated condition from occurring.</Pair>
+</Ability>
+<Ability id="arc-skald-bacchanal-raging-song-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-bacchanal-raging-song-su">Raging Song (Su)</Pair>
+<Pair title="Info">A bacchanal gains access to the following <em>raging songs.</em></Pair>
+</Ability>
+<Ability id="arc-skald-bacchanal-song-of-urging-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-bacchanal-song-of-urging-su" flavor={<>The bacchanal's <em>raging song</em> can wordlessly influence creatures of the wild.</>}>Song of Urging (Su)</Pair>
+<Pair hl title="Replaces">Song of marching</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">This <em>raging song</em> functions just like a <Link to="/skill/diplomacy">Diplomacy</Link> check to make a simple request or an Intimidate check but can influence only animals. The bacchanal rolls 1d20 and adds his skald level and his Charisma modifier to determine the <em>urging</em> check's result. Bonuses and penalties that apply to wild empathy checks apply to these <em>urging</em> checks. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly. The song can influence plants or magical beasts with Intelligence scores of 1 or 2 as well as drunken creatures of any Intelligence (even without sharing a language), but against these non-animals, the bacchanal takes a -4 penalty on this check. The bacchanal must continue to perform the song for the entire time required for the check; otherwise, its effect is wasted, but only 1 round of <em>raging song</em> is expended regardless of how long the check takes.</Pair>
+</Ability>
+<Ability id="arc-skald-bacchanal-maddening-dance-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-skald-bacchanal-maddening-dance-su">Maddening Dance (Su)</Pair>
+<Pair hl title="Replaces">Dirge of doom</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">The bacchanal's <em>raging song</em> can compel a creature within 30 feet to perform an ecstatic dance. Unless it succeeds at its Will save, the victim becomes <Link to="/misc/confused">confused</Link>, takes a -2 penalty to its AC and on Reflex saving throws, and loses the benefit of any shield it holds. The effect ends when the target can no longer hear the bacchanal from within 30 feet.</Pair>
+<Pair title="Info">As an <strong className="hl">immediate action</strong>, an ally of the bacchanal within 30 feet can dance along as a <strong className="hl">full-round action</strong> (taking all penalties except the confused condition for that round) to allow the bacchanal to target an additional creature.</Pair>
+<Pair title="Special">A creature that succeeds at the Will saving throw against this <em>raging song</em> is immune to this effect for 24 hours. This is a compulsion, emotion, enchantment, and mind-affecting effect.</Pair>
+</Ability>
+<p><strong className="hl">Rage Powers:</strong> The following rage powers complement the bacchanal archetype: <Link to="/ragepower/animal_fury">animal fury</Link>, <Link to="/ragepower/boasting_taunt">boasting taunt</Link>, <Link to="/ragepower/fearless_rage">fearless rage</Link>, <Link to="/ragepower/fierce_fortitude">fierce fortitude</Link>, <Link to="/ragepower/increased_damage_reduction">increased damage reduction</Link>, internal fortitude, <Link to="/ragepower/liquid_courage">liquid courage</Link>, <Link to="/ragepower/night_vision">night vision</Link>, <Link to="/ragepower/roaring_drunk">roaring drunk</Link>, and <Link to="/ragepower/staggering_drunk">staggering drunk</Link>.</p>
 </>};
 const _battle_scion = {title: "Battle Scion", jsx: <><h2 id="arc-skald-battle_scion-battle-scion">Battle Scion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 48</Link><br/>The battle scion possesses a unique mixture of courtly grace alongside martial and magical prowess. She is a warrior-poet, as skilled with her words as she is with blades. Battle scions sometimes rule as queens over courts of brave knights who scour the world championing bold quests.</p>
-<p><strong>Courtly Presence (Ex):</strong> At 1st level, a battle scion's bearing radiates command and presence, allowing her to tower over her opponents in social situations. The battle scion adds 1/2 her character level to Intimidate checks, and she starts any <Link to="/rule/verbal_duels">verbal duel</Link> with an extra edge that she can use for the presence tactic so long as she is not at a significant or extreme disadvantage in the duel. However, her bardic knowledge ability applies to only Knowledge (geography), Knowledge (history), Knowledge (local), and Knowledge (nobility).</p>
-<p>This ability alters <strong className="hl">bardic knowledge</strong>.</p>
-<p><strong>Battle Prowess (Ex):</strong> Whenever a battle scion would gain a rage power from the skald's rage power ability (at 3rd level and every 3 skald levels thereafter), she can instead choose to gain a <Link to="/main/combat_feat">combat feat</Link> or <Link to="/main/teamwork_feat">teamwork feat</Link> for which she meets the prerequisites. Like rage powers she selects in this way, the battle scion can grant this feat to allies under the effect of inspired rage, as long as those allies also meet the prerequisites, but she must expend 2 rounds of raging song for each round in which she grants a combat feat or teamwork feat. If the battle scion gains multiple feats from battle prowess, allies can use these feats to meet the prerequisites for other feats while they're affected by battle prowess (for example, a battle scion with <Link to="/feat/power_attack">Power Attack</Link> and <Link to="/feat/cleave">Cleave</Link> from battle prowess could grant both, allowing allies with a +1 base attack bonus and a Strength score of 13 to gain both, since they can use Power Attack to qualify for Cleave).</p>
-<p>This alters the <strong className="hl">rage power</strong> ability.</p>
-<p><strong>Raging Song (Su):</strong> A battle scion gains the following raging song.</p>
-<blockquote>
-<p><strong>Song of Questing (Su):</strong> At 10th level, the battle scion can spend 4 rounds of raging song to draw upon a target's honor, ambition, and sense of self in order to bind the target to an agreed-upon task, often a noble quest. This works like <Link to="/spell/geas_quest">geas/quest</Link>, except it applies only if the target is truly willing (not magically compelled or tricked), and the target automatically understands the full terms of the agreement before deciding whether he is willing.</p>
-<p>The battle scion can offer a reward for the completion of the noble quest, but if she does so and fails to live up to her agreement, she becomes an ex-battle scion and loses all benefits gained from the archetype (she does not gain the abilities they replaced, either). At 14th level, she can offer the same quest to up to one willing creature per skald level. If she does so, the effect ends for all creatures as soon as anyone completes the quest, though only the creature who completes it earns any offered reward.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">dirge of doom</strong> and <strong className="hl">song of the fallen</strong>.</p>
-<p><strong>Once and Future Scion (Su):</strong> At 20th level, a battle scion becomes extremely difficult to kill. Whenever she is slain, as long as her body isn't destroyed, she enters a deathlike sleep for 3 days, after which she returns to life as per <Link to="/spell/raise_dead">raise dead</Link>, except that it can restore her even if she was slain by a death effect. Spells that would restore her to life function as if she were dead during this time, allowing her to recover sooner.</p>
-<p>This ability replaces <strong className="hl">master skald</strong>.</p>
+<Ability id="arc-skald-battle_scion-courtly-presence-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-skald-battle_scion-courtly-presence-ex" flavor="A battle scion's bearing radiates command and presence, allowing her to tower over her opponents in social situations.">Courtly Presence (Ex)</Pair>
+<Pair hl title="Replaces">Bardic knowledge</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The battle scion adds 1/2 her character level to <Link to="/skill/intimidate">Intimidate</Link> checks, and she starts any <Link to="/rule/verbal_duels">verbal duel</Link> with an extra edge that she can use for the presence tactic so long as she is not at a significant or extreme disadvantage in the duel. However, her bardic knowledge ability applies to only Knowledge (geography), Knowledge (history), Knowledge (local), and Knowledge (nobility).</Pair>
+</Ability>
+<Ability id="arc-skald-battle_scion-battle-prowess-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-battle_scion-battle-prowess-ex">Battle Prowess (Ex)</Pair>
+<Pair hl title="Replaces">Rage power</Pair>
+<Pair title="Ability">Whenever a battle scion would gain a rage power from the skald's <em>rage power</em> ability (at 3rd level and every 3 skald levels thereafter), she can instead choose to gain a <Link to="/main/combat_feat">combat feat</Link> or <Link to="/main/teamwork_feat">teamwork feat</Link> for which she meets the prerequisites. Like rage powers she selects in this way, the battle scion can grant this feat to allies under the effect of <em>inspired rage,</em> as long as those allies also meet the prerequisites, but she must expend 2 rounds of <em>raging song</em> for each round in which she grants a combat feat or teamwork feat.</Pair>
+<Pair title="Special">If the battle scion gains multiple feats from <em>battle prowess,</em> allies can use these feats to meet the prerequisites for other feats while they're affected by <em>battle prowess</em> (for example, a battle scion with <Link to="/feat/power_attack">Power Attack</Link> and <Link to="/feat/cleave">Cleave</Link> from <em>battle prowess</em> could grant both, allowing allies with a +1 base attack bonus and a Strength score of 13 to gain both, since they can use Power Attack to qualify for Cleave).</Pair>
+</Ability>
+<Ability id="arc-skald-battle_scion-raging-song-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-battle_scion-raging-song-su">Raging Song (Su)</Pair>
+<Pair title="Info">A battle scion gains the following <em>raging song.</em></Pair>
+</Ability>
+<Ability id="arc-skald-battle_scion-song-of-questing-su" extraClasses="subAbility" icon={["magic-swirl","hazard-sign"]}>
+<Pair single id="arc-skald-battle_scion-song-of-questing-su">Song of Questing (Su)</Pair>
+<Pair hl title="Replaces">Dirge of doom, song of the fallen</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">The battle scion can spend 4 rounds of <em>raging song</em> to draw upon a target's honor, ambition, and sense of self in order to bind the target to an agreed-upon task, often a noble quest. This works like <Link to="/spell/geas_quest">geas/quest</Link>, except it applies only if the target is truly willing (not magically compelled or tricked), and the target automatically understands the full terms of the agreement before deciding whether he is willing.</Pair>
+<Pair title="Info">The battle scion can offer a reward for the completion of the noble quest, but if she does so and fails to live up to her agreement, she becomes an ex-battle scion and loses all benefits gained from the archetype (she does not gain the abilities they replaced, either).</Pair>
+<Pair title="At 14th Level">She can offer the same quest to up to one willing creature per skald level. If she does so, the effect ends for all creatures as soon as anyone completes the quest, though only the creature who completes it earns any offered reward.</Pair>
+</Ability>
+<Ability id="arc-skald-battle_scion-once-and-future-scion-su" icon={["magic-swirl","armor-upgrade"]}>
+<Pair single id="arc-skald-battle_scion-once-and-future-scion-su" flavor="A battle scion becomes extremely difficult to kill.">Once and Future Scion (Su)</Pair>
+<Pair hl title="Replaces">Master skald</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">Whenever she is slain, as long as her body isn't destroyed, she enters a deathlike sleep for 3 days, after which she returns to life as per <Link to="/spell/raise_dead">raise dead</Link>, except that it can restore her even if she was slain by a death effect. Spells that would restore her to life function as if she were dead during this time, allowing her to recover sooner.</Pair>
+</Ability>
 </>};
 const _bekyar_demon_dancer = {title: "Bekyar Demon Dancer", jsx: <><h2 id="arc-skald-bekyar_demon_dancer-bekyar-demon-dancer">Bekyar Demon Dancer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 18</Link><br/>While the twisted power of the demon-worshiping Bekyar's skalds is great, it comes at a terrible price.</p>
-<p><strong>Skills:</strong> A Bekyar demon dancer gains Perform (dance) as a class skill.</p>
-<p><strong>Versatile Performance (Ex):</strong> A Bekyar demon dancer can choose Perform (dance) for the versatile performance class feature. Its associated skills are Acrobatics and Fly.</p>
-<p>This ability alters <strong className="hl">versatile performance</strong>.</p>
-<p><strong>Fiendish Maw (Su):</strong> At 3rd level, whenever a Bekyar demon dancer inspires rage, all who accept his rage gain a bite attack dealing 1d6 points of damage (for Medium allies; 1d4 points of damage if Small). This damage increases to 1d8 (1d6 if Small) at 7th level, to 2d6 (1d8 if Small) at 12th level, and to 3d6 (2d6 if Small) at 17th level. These increases effectively treat the affected creatures as though their sizes had increased by one size category, and so don't stack with any similar damage increases (such as the increase from the <Link to="/spell/strong_jaw">strong jaw</Link> spell) other than those due to an actual increase in size. If used as part of a full attack action, the bite attack is made at the creature's full base attack bonus - 5.</p>
-<p>This ability replaces the <strong className="hl">rage power</strong> gained at 3rd level.</p>
-<p><strong>Abyssal Wrath (Su):</strong> At 6th level, the Bekyar demon dancer gains the <Link to="/ragepower/fiend_totem">fiend totem</Link> rage power, even if he doesn't qualify for it. At 9th level, he gains the <Link to="/ragepower/greater_fiend_totem">greater fiend totem</Link> rage power, ignoring the prerequisites.</p>
-<p>This ability alters the <strong className="hl">rage powers</strong> gained at 6th and 9th levels.</p>
-<p><strong>Demonic Conquest (Su):</strong> At 7th level, the Bekyar demon dancer's dances warp the minds of those who accept them even further. Whenever anyone affected by his inspired rage makes an attack against a creature, the urge to dominate this foe rises within the affected ally. The ally can attempt to resist this urge with a Will save (DC = 10 + 1/2 the skald's class level + his Charisma modifier). If she fails the save or chooses not to attempt one, the Strength and Constitution bonuses of the demon dancer's inspire rage increase by 2, and she must continue to attack the same target each round. Once the target is defeated, she must burn or cut the symbol of a demon the Bekyar demon dancer worships into the target's flesh, which is a full-round action. The need to conquer and brand foes ends after this action or after the demon dancer stops performing, whichever comes first.</p>
+<Ability icon={["skills"]} id="arc-skald-bekyar_demon_dancer-undefined">
+<Pair id="arc-skald-bekyar_demon_dancer-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perform">Perform</Link> (dance) (CHA)</Pair></Ability>
+<Ability id="arc-skald-bekyar_demon_dancer-versatile-performance-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-bekyar_demon_dancer-versatile-performance-ex">Versatile Performance (Ex)</Pair>
+<Pair hl title="Alters">Versatile performance</Pair>
+<Pair title="Info">A Bekyar demon dancer can choose Perform (dance) for the <em>versatile performance</em> class feature. Its associated skills are Acrobatics and Fly.</Pair>
+</Ability>
+<Ability id="arc-skald-bekyar_demon_dancer-fiendish-maw-su" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-bekyar_demon_dancer-fiendish-maw-su">Fiendish Maw (Su)</Pair>
+<Pair hl title="Replaces">Rage power gained at 3rd level</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">Whenever a Bekyar demon dancer <em>inspires rage,</em> all who accept his rage gain a bite attack dealing 1d6 points of damage (for Medium allies; 1d4 points of damage if Small). If used as part of a full attack action, the bite attack is made at the creature's full base attack bonus - 5.</Pair>
+<Pair title="At 7th Level">The bite damage increases to 1d8 (1d6 if Small).</Pair>
+<Pair title="At 12th Level">The bite becomes 2d6 (1d8 if Small).</Pair>
+<Pair title="At 17th Level">The bite increases to 3d6 (2d6 if Small).</Pair>
+<Pair title="Special">The increases to bite damage effectively treat the affected creatures as though their sizes had increased by one size category, and so don't stack with any similar damage increases (such as the increase from the <Link to="/spell/strong_jaw">strong jaw</Link> spell) other than those due to an actual increase in size.</Pair>
+</Ability>
+<Ability id="arc-skald-bekyar_demon_dancer-abyssal-wrath-su" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-bekyar_demon_dancer-abyssal-wrath-su">Abyssal Wrath (Su)</Pair>
+<Pair hl title="Alters">Rage powers gained at 6th and 9th levels</Pair>
+<Pair title="At 6th Level">The Bekyar demon dancer gains the <Link to="/ragepower/fiend_totem">fiend totem</Link> rage power, even if he doesn't qualify for it.</Pair>
+<Pair title="At 9th Level">He gains the <Link to="/ragepower/greater_fiend_totem">greater fiend totem</Link> rage power, ignoring the prerequisites.</Pair>
+</Ability>
+<Ability id="arc-skald-bekyar_demon_dancer-demonic-conquest-su" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-bekyar_demon_dancer-demonic-conquest-su" flavor="The Bekyar demon dancer's dances warp the minds of those who accept them even further.">Demonic Conquest (Su)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">Whenever anyone affected by his <em>inspired rage</em> makes an attack against a creature, the urge to dominate this foe rises within the affected ally. The ally can attempt to resist this urge with a Will save (DC = 10 + 1/2 the skald's class level + his Charisma modifier). If she fails the save or chooses not to attempt one, the Strength and Constitution bonuses of the demon dancer's <em>inspire rage</em> increase by 2, and she must continue to attack the same target each round.</Pair>
+<Pair title="Special">Once the target is defeated, she must burn or cut the symbol of a demon the Bekyar demon dancer worships into the target's flesh, which is a <strong className="hl">full-round action</strong>. The need to conquer and brand foes ends after this action or after the demon dancer stops performing, whichever comes first.</Pair>
+</Ability>
 </>};
 const _belkzen_war_drummer = {title: "Belkzen War Drummer", jsx: <><h2 id="arc-skald-belkzen_war_drummer-belkzen-war-drummer">Belkzen War Drummer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 19</Link><br/>These fierce drummers are equally adept at tapping out a driving rhythm and rapping enemies upside the head with the same massive clubs they use to beat the crude hidecovered drums they carry into battle.</p>
-<p><strong>Weapon Proficiency:</strong> A war drummer is proficient with all simple weapons and the <Link to="/eq-weapon/greatclub">greatclub</Link>.</p>
-<p><strong>Fearsome Mien (Ex):</strong> A war drummer adds 1/2 his class level (minimum 1) to all Intimidate and Bluff skill checks.</p>
-<p>This ability replaces <strong className="hl">bardic knowledge</strong>.</p>
-<p><strong>Deadly Rhythm (Ex):</strong> At 1st level, during his raging song, a Belkzen war drummer can draw clubs and greatclubs as a free action as if he had the <Link to="/feat/quick_draw">Quick Draw</Link> feat. At 3rd level, the war drummer gains a +1 bonus on damage rolls for attacks made with clubs or greatclubs. At 7th level and every 4 levels thereafter, this bonus increases by 1 (to a maximum of +5). At 6th level, the war drummer gains <Link to="/feat/improved_critical">Improved Critical</Link> with the club or the greatclub as a bonus feat.</p>
-<p>This ability replaces <strong className="hl">Scribe Scroll</strong>.</p>
-<p><strong>Weapon Master (Ex):</strong> At 7th level, a war drummer gains <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link> as a bonus feat.</p>
-<p>This ability replaces <strong className="hl">lore master</strong>.</p>
-<p><strong>Raging Song (Su):</strong> A war drummer gains access to the following raging song.</p>
-<blockquote>
-<p><strong>Siege Drums (Su):</strong> At 7th level, the Belkzen war drummer can shatter massive walls, doors, and other inanimate obstacles using his war drums. This ability works as the <Link to="/spell/shatter">shatter</Link> spell, except the drummer can increase the amount of damage and size of the object damaged by playing for longer periods. The siege drummer can affect objects weighing up to 10 pounds per level, plus an additional 5 pounds per level for each additional round he plays. The damage dealt increases by 2d6 per round (to a maximum of 20d6 after 10 rounds). The damage is dealt only after the drummer ceases playing.</p>
-</blockquote>
-<p>This ability replaces the <strong className="hl">versatile performance</strong> gained benefit at 7th level.</p>
+<Ability id="arc-skald-belkzen_war_drummer-weapon-proficiency" icon={["broken-shield"]}>
+<Pair single id="arc-skald-belkzen_war_drummer-weapon-proficiency">Weapon Proficiency</Pair>
+<Pair title="Info">A war drummer is proficient with all simple weapons and the <Link to="/eq-weapon/greatclub">greatclub</Link>.</Pair>
+</Ability>
+<Ability id="arc-skald-belkzen_war_drummer-fearsome-mien-ex" icon={["upgrade"]}>
+<Pair single id="arc-skald-belkzen_war_drummer-fearsome-mien-ex">Fearsome Mien (Ex)</Pair>
+<Pair hl title="Replaces">Bardic knowledge</Pair>
+<Pair title="Passive Ability">A war drummer adds 1/2 his class level (minimum 1) to all Intimidate and Bluff skill checks.</Pair>
+</Ability>
+<Ability id="arc-skald-belkzen_war_drummer-deadly-rhythm-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-skald-belkzen_war_drummer-deadly-rhythm-ex">Deadly Rhythm (Ex)</Pair>
+<Pair hl title="Replaces">Scribe Scroll</Pair>
+<Pair title="At 1st Level">During his <em>raging song,</em> a Belkzen war drummer can draw <Link to="/eq-weapon/club">clubs</Link> and greatclubs as a <strong className="hl">free action</strong> as if he had the <Link to="/feat/quick_draw">Quick Draw</Link> feat.</Pair>
+<Pair title="At 3rd Level">The war drummer gains a +1 bonus on damage rolls for attacks made with clubs or greatclubs.</Pair>
+<Pair title="At 6th Level">The war drummer gains <Link to="/feat/improved_critical">Improved Critical</Link> with the club or the greatclub as a bonus feat.</Pair>
+<Pair title="At 7th Level">This bonus becomes +2.</Pair>
+<Pair title="At 11th Level">This bonus increases to +3.</Pair>
+<Pair title="At 15th Level">This bonus becomes +4.</Pair>
+<Pair title="At 19th Level">This bonus increases to +5.</Pair>
+</Ability>
+<Ability id="arc-skald-belkzen_war_drummer-weapon-master-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-belkzen_war_drummer-weapon-master-ex">Weapon Master (Ex)</Pair>
+<Pair hl title="Replaces">Lore master</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A war drummer gains <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-skald-belkzen_war_drummer-raging-song-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-belkzen_war_drummer-raging-song-su">Raging Song (Su)</Pair>
+<Pair title="Info">A war drummer gains access to the following <em>raging song.</em></Pair>
+</Ability>
+<Ability id="arc-skald-belkzen_war_drummer-siege-drums-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-belkzen_war_drummer-siege-drums-su">Siege Drums (Su)</Pair>
+<Pair hl title="Replaces">7th-level versatile performance gained benefit</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">The Belkzen war drummer can shatter massive walls, doors, and other inanimate obstacles using his war drums. This ability works as the <Link to="/spell/shatter">shatter</Link> spell, except the drummer can increase the amount of damage and size of the object damaged by playing for longer periods. The siege drummer can affect objects weighing up to 10 pounds per level, plus an additional 5 pounds per level for each additional round he plays. The damage dealt increases by 2d6 per round (to a maximum of 20d6 after 10 rounds). The damage is dealt only after the drummer ceases playing.</Pair>
+</Ability>
 </>};
 const _boaster = {title: "Boaster", jsx: <><h2 id="arc-skald-boaster-boaster">Boaster</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 84</Link><br/>Boasters use incredible tales and claims to challenge themselves and their allies to accomplish remarkable feats. With a properly delivered boast, a boaster can inspire listeners to attempt, and more often than not, succeed at stunts or tasks they may not have realized they were capable of doing.</p>
-<p><strong>Endurance:</strong> The boaster gains <Link to="/feat/endurance">Endurance</Link> as a bonus feat.</p>
-<p>This replaces <strong className="hl">Scribe Scroll</strong>.</p>
-<p><strong>Raging Song (Su):</strong> A boaster gains access to the following raging songs.</p>
-<blockquote>
-<p><strong>Song of Endurance (Su):</strong> At 3rd level, the boaster's raging song can inspire his allies to great feats of endurance. This raging song functions as song of marching except affected allies also gain the benefits of the Endurance feat in addition to the benefits of any of the following feats the boaster has (even if they don't meet the prerequisites): <Link to="/feat/deathless_initiate">Deathless Initiate</Link>, <Link to="/feat/deathless_master">Deathless Master</Link>, <Link to="/feat/deathless_zealot">Deathless Zealot</Link>, <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/fast_healer">Fast Healer</Link>, <Link to="/feat/heroic_defiance">Heroic Defiance</Link>, and <Link to="/feat/heroic_recovery">Heroic Recovery</Link>.</p>
-<p>This raging song replaces uncanny dodge and alters song of marching.</p>
-<p><strong>Song of Surmounting (Su):</strong> At 7th level, the boaster's raging song can inspire allies to move quickly and easily. By spending 1 round of raging song, the boaster can affect all allies within 90 feet for 1 hour. Affected allies gain a benefit according to the surrounding terrain (the benefits don't stack): a climb speed equal to half their base speed (forest, jungle, mountain, underground), a swim speed equal to their base speed (swamp, water), or a +10 foot enhancement bonus to their base speed (cold, desert, hill, plains, or urban). The skald must continue to perform the song for the remainder of the hour; otherwise, its effects end, but only 1 round of raging song is expended for that hour. At 13th level, the speed or bonus granted by this ability doubles. At 19th level, this ability grants triple the listed speed or bonus.</p>
-<p>This raging song replaces lore master.</p>
-<p><strong>Frightful Boast (Su):</strong> At 14th level, the boaster's raging song can frighten foes, as per the <Link to="/performance/frightening_tune">frightening tune</Link> bardic performance.</p>
-</blockquote>
-<p>This replaces <strong className="hl">song of the fallen</strong>.</p>
-<p><strong>Rage Power (Ex):</strong> The boaster does not gain this ability until 4th level.</p>
-<p>This alters the skald's <strong className="hl">rage powers</strong>.</p>
-<p><strong>Greater Endurance:</strong> At 6th level, the boaster gains a bonus feat that he qualifies for. The feat must have Endurance as a prerequisite (such as Diehard or Fast Healer).</p>
-<p>This replaces the <strong className="hl">rage power</strong> gained at 6th level.</p>
-<p><strong>Rage Powers:</strong> The following rage powers complement the boaster archetype: <Link to="/ragepower/boasting_taunt">boasting taunt</Link>, <Link to="/ragepower/come_and_get_me">come and get me</Link>, <Link to="/ragepower/fearless_rage">fearless rage</Link>, <Link to="/ragepower/fierce_fortitude">fierce fortitude</Link>, <Link to="/ragepower/intimidating_glare">intimidating glare</Link>, <Link to="/ragepower/raging_climber">raging climber</Link>, <Link to="/ragepower/raging_flier">raging flier</Link>, <Link to="/ragepower/raging_leaper">raging leaper</Link>, <Link to="/ragepower/raging_swimmer">raging swimmer</Link>, <Link to="/ragepower/sprint">sprint</Link>, <Link to="/ragepower/strength_surge">strength surge</Link>, and <Link to="/ragepower/swift_foot">swift foot</Link>.</p>
+<Ability id="arc-skald-boaster-endurance" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-boaster-endurance">Endurance</Pair>
+<Pair hl title="Replaces">Scribe Scroll</Pair>
+<Pair title="Ability">The boaster gains <Link to="/feat/endurance">Endurance</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-skald-boaster-raging-song-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-boaster-raging-song-su">Raging Song (Su)</Pair>
+<Pair title="Info">A boaster gains access to the following <em>raging songs.</em></Pair>
+</Ability>
+<Ability id="arc-skald-boaster-song-of-endurance-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-skald-boaster-song-of-endurance-su">Song of Endurance (Su)</Pair>
+<Pair hl title="Replaces">Uncanny dodge</Pair>
+<Pair hl title="Alters">Song of marching</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">The boaster's <em>raging song</em> can inspire his allies to great feats of endurance. This <em>raging song</em> functions as <em>song of marching</em> except affected allies also gain the benefits of the Endurance feat in addition to the benefits of any of the following feats the boaster has (even if they don't meet the prerequisites): <Link to="/feat/deathless_initiate">Deathless Initiate</Link>, <Link to="/feat/deathless_master">Deathless Master</Link>, <Link to="/feat/deathless_zealot">Deathless Zealot</Link>, <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/fast_healer">Fast Healer</Link>, <Link to="/feat/heroic_defiance">Heroic Defiance</Link>, and <Link to="/feat/heroic_recovery">Heroic Recovery</Link>.</Pair>
+</Ability>
+<Ability id="arc-skald-boaster-song-of-surmounting-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-boaster-song-of-surmounting-su">Song of Surmounting (Su)</Pair>
+<Pair hl title="Replaces">Lore master</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">The boaster's <em>raging song</em> can inspire allies to move quickly and easily. By spending 1 round of <em>raging song,</em> the boaster can affect all allies within 90 feet for 1 hour. Affected allies gain a benefit according to the surrounding terrain (the benefits don't stack): a climb speed equal to half their base speed (forest, jungle, mountain, underground), a swim speed equal to their base speed (swamp, water), or a +10 foot enhancement bonus to their base speed (cold, desert, hill, plains, or urban). The skald must continue to perform the song for the remainder of the hour; otherwise, its effects end, but only 1 round of <em>raging song</em> is expended for that hour.</Pair>
+<Pair title="At 13th Level">The speed or bonus granted by this ability doubles.</Pair>
+<Pair title="At 19th Level">This ability grants triple the listed speed or bonus.</Pair>
+</Ability>
+<Ability id="arc-skald-boaster-frightful-boast-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-skald-boaster-frightful-boast-su">Frightful Boast (Su)</Pair>
+<Pair hl title="Replaces">Song of the fallen</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Ability">The boaster's <em>raging song</em> can frighten foes, as per the <Link to="/performance/frightening_tune">frightening tune</Link> bardic performance.</Pair>
+</Ability>
+<Ability id="arc-skald-boaster-rage-power-ex" icon={["broken-shield"]}>
+<Pair single id="arc-skald-boaster-rage-power-ex">Rage Power (Ex)</Pair>
+<Pair hl title="Alters">Rage powers</Pair>
+<Pair title="Info">The boaster does not gain this ability until 4th level.</Pair>
+</Ability>
+<Ability id="arc-skald-boaster-greater-endurance" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-boaster-greater-endurance">Greater Endurance</Pair>
+<Pair hl title="Replaces">Rage power gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">The boaster gains a bonus feat that he qualifies for. The feat must have Endurance as a prerequisite (such as Diehard or Fast Healer).</Pair>
+</Ability>
+<p><strong className="hl">Rage Powers:</strong> The following rage powers complement the boaster archetype: <Link to="/ragepower/boasting_taunt">boasting taunt</Link>, <Link to="/ragepower/come_and_get_me">come and get me</Link>, <Link to="/ragepower/fearless_rage">fearless rage</Link>, <Link to="/ragepower/fierce_fortitude">fierce fortitude</Link>, <Link to="/ragepower/intimidating_glare">intimidating glare</Link>, <Link to="/ragepower/raging_climber">raging climber</Link>, <Link to="/ragepower/raging_flier">raging flier</Link>, <Link to="/ragepower/raging_leaper">raging leaper</Link>, <Link to="/ragepower/raging_swimmer">raging swimmer</Link>, <Link to="/ragepower/sprint">sprint</Link>, <Link to="/ragepower/strength_surge">strength surge</Link>, and <Link to="/ragepower/swift_foot">swift foot</Link>.</p>
 </>};
 const _bold_schemer = {title: "Bold Schemer", jsx: <><h2 id="arc-skald-bold_schemer-bold-schemer">Bold Schemer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 48</Link><br/>The bold schemer combines wrath, wits, and daring to win battles and wars in unconventional ways, often through infiltration and deception. If raw force of arms is insufficient, she improvises ways to pull victory from the jaws of defeat.</p>
-<p><strong>Skills:</strong> A bold schemer gains Disable Device, Sleight of Hand, and Stealth as class skills, instead of Knowledge (arcana), Knowledge (dungeoneering), and Knowledge (planes). Her bardic knowledge does not apply to those skills.</p>
-<p>This ability alters the skald's <strong className="hl">class skills</strong> and <strong className="hl">bardic knowledge</strong>.</p>
-<p><strong>Skald of Twists and Turns (Su):</strong> At 4th level, a bold schemer becomes increasingly adept at infiltration and devising cunning strategies to overcome enemy fortifications.</p>
-<p>A bold schemer can spend 8 hours observing a physical location (such as a fortress, a walled city, or perhaps even a section of an underground dungeon or cavern complex), contemplating methods to infiltrate the location and engage its defenders in battle in ways that subvert their defensive advantages.</p>
-<p>At the end of the 8 hours, the bold schemer gains a +2 insight bonus on her Bluff, Disable Device, Disguise, Sleight of Hand, and Stealth checks while in that same physical location. This bonus increases by 2 at 8th level and every 4 skald levels thereafter, to a maximum of +10 at 20th level. The bonus lasts until the bold schemer observes a new location. While observing a location, the bold schemer must fully focus her attention; any distractions, such as engaging in combat, immediately ends the observation and the bold schemer must start a new period of observing a physical location to receive the bonus.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong>, <strong className="hl">improved uncanny dodge</strong>, and <strong className="hl">damage reduction</strong>.</p>
-<p><strong>Bold Strategy (Su):</strong> At 10th level, a bold schemer can tailor her plans and observations so they are able to assist her allies as well. As long as they can see or hear the bold schemer while inside the observed location, all of her allies gain half the insight bonus she gains from the skald of twists and turns ability.</p>
-<p>This ability replaces <strong className="hl">dirge of doom</strong>.</p>
+<Ability icon={["skills"]} id="arc-skald-bold_schemer-undefined">
+<Pair id="arc-skald-bold_schemer-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Knowledge (arcana), Knowledge (dungeoneering), Knowledge (planes)</Pair></Ability>
+<Ability id="arc-skald-bold_schemer-bardic-knowledge" icon={["broken-shield"]}>
+<Pair single id="arc-skald-bold_schemer-bardic-knowledge">Bardic knowledge</Pair>
+<Pair hl title="Alters">Bardic knowledge</Pair>
+<Pair title="Info">A bold schemer's <em>bardic knowledge</em> does not apply to Knowledge (arcana), Knowledge (dungeoneering), or Knowledge (planes).</Pair>
+</Ability>
+<Ability id="arc-skald-bold_schemer-skald-of-twists-and-turns-su" icon={["upgrade"]}>
+<Pair single id="arc-skald-bold_schemer-skald-of-twists-and-turns-su" flavor="A bold schemer becomes increasingly adept at infiltration and devising cunning strategies to overcome enemy fortifications.">Skald of Twists and Turns (Su)</Pair>
+<Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge, damage reduction</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability"><p>A bold schemer can spend 8 hours observing a physical location (such as a fortress, a walled city, or perhaps even a section of an underground dungeon or cavern complex), contemplating methods to infiltrate the location and engage its defenders in battle in ways that subvert their defensive advantages.</p>
+<p>At the end of the 8 hours, the bold schemer gains a +2 insight bonus on her Bluff, Disable Device, Disguise, Sleight of Hand, and Stealth checks while in that same physical location. The bonus lasts until the bold schemer observes a new location. While observing a location, the bold schemer must fully focus her attention; any distractions, such as engaging in combat, immediately ends the observation and the bold schemer must start a new period of observing a physical location to receive the bonus.</p>
+</Pair>
+<Pair title="At 8th Level">The insight bonus becomes +4.</Pair>
+<Pair title="At 12th Level">The insight bonus increases to +6.</Pair>
+<Pair title="At 16th Level">The insight bonus becomes +8.</Pair>
+<Pair title="At 20th Level">The insight bonus increases to +10.</Pair>
+</Ability>
+<Ability id="arc-skald-bold_schemer-bold-strategy-su" icon={["upgrade"]}>
+<Pair single id="arc-skald-bold_schemer-bold-strategy-su" flavor="A bold schemer can tailor her plans and observations so they are able to assist her allies as well.">Bold Strategy (Su)</Pair>
+<Pair hl title="Replaces">Dirge of doom</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Passive Ability">As long as they can see or hear the bold schemer while inside the observed location, all of her allies gain half the insight bonus she gains from the <em>skald of twists and turns</em> ability.</Pair>
+</Ability>
 </>};
 const _court_poet = {title: "Court Poet", jsx: <><h2 id="arc-skald-court_poet-court-poet">Court Poet</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 6</Link><br/>Many courts are places of artistic refinement, attracting those performers who wish to revel in an aristocratic art scene. Such artists may aim to become a darling of the court, focusing on the aesthetic requirements of a particular tradition as well as learning details about that court's history and culture. Court poets elevate the skald's love of history and poetry to an aristocratic ideal, captivating courts with complicated poetic traditions and inspiring others with their craft. Some court poets go on to create their own works, weaving their magic and force of personality into their unique performances.</p>
-<p><strong>Raging Song (Su):</strong> A court poet gains the following raging songs, allowing her to use oratory, music, and other performances to elevate the aesthetic sensibilities of her allies.</p>
-<blockquote>
-<p><strong>Insightful Contemplation (Su):</strong> At 1st level, affected allies gain a +2 morale bonus to Intelligence and Charisma and a +1 morale bonus on Will saving throws, but they also take a -1 penalty to AC. While under the effects of insightful contemplation, allies other than the court poet can't use any Strength-based skills or make any physical effort that requires a Constitution check. At 4th level and every 4 skald levels thereafter, the song's bonus on Will saves increases by 1; the penalty to AC doesn't change. At 8th and 16th levels, the song's bonuses to Intelligence and Charisma increase by 2. (Unlike the barbarian's rage ability, those affected are not fatigued after the song ends.)</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">inspired rage</strong>.</p>
-<blockquote>
-<p><strong>Song of Inspiration (Su):</strong> At 6th level, a court poet can use raging song to inspire her allies to greater mental clarity. Once each round while the court poet uses this performance, allies within 60 feet who can hear her can add 1/2 the court poet's skald level to a single Wisdom check or Wisdom-based skill check.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">song of strength</strong>.</p>
-<p><strong>Handling the Crowd (Ex):</strong> At 2nd level, a court poet gains a +1 bonus to AC and on Perform checks when adjacent to two or more creatures. In addition, her movement is not impeded by crowds and she gains a bonus equal to 1/2 her skald level on Diplomacy checks to influence crowds.</p>
-<p>This ability replaces <strong className="hl">well-versed</strong>.</p>
+<Ability id="arc-skald-court_poet-raging-song-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-court_poet-raging-song-su">Raging Song (Su)</Pair>
+<Pair title="Info">A court poet gains the following <em>raging songs,</em> allowing her to use oratory, music, and other performances to elevate the aesthetic sensibilities of her allies.</Pair>
+</Ability>
+<Ability id="arc-skald-court_poet-insightful-contemplation-su" extraClasses="subAbility" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-skald-court_poet-insightful-contemplation-su">Insightful Contemplation (Su)</Pair>
+<Pair hl title="Replaces">Inspired rage</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">Affected allies gain a +2 morale bonus to Intelligence and Charisma and a +1 morale bonus on Will saving throws, but they also take a -1 penalty to AC. While under the effects of <em>insightful contemplation,</em> allies other than the court poet can't use any Strength-based skills or make any physical effort that requires a Constitution check.</Pair>
+<Pair title="At 4th Level">The song's bonus on Will saves increases to +2.</Pair>
+<Pair title="At 8th Level">The song's bonuses to Intelligence and Charisma become +4. The song's bonus on Will saves increases to +3.</Pair>
+<Pair title="At 12th Level">The song's bonus on Will saves increases to +4.</Pair>
+<Pair title="At 16th Level">The song's bonuses to Intelligence and Charisma become +6. The song's bonus on Will saves increases to +5.</Pair>
+<Pair title="At 20th Level">The song's bonus on Will saves increases to +6.</Pair>
+<Pair title="Special">Unlike the barbarian's rage ability, those affected are not fatigued after the song ends.</Pair>
+</Ability>
+<Ability id="arc-skald-court_poet-song-of-inspiration-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-skald-court_poet-song-of-inspiration-su" flavor={<>A court poet can use <em>raging song</em> to inspire her allies to greater mental clarity.</>}>Song of Inspiration (Su)</Pair>
+<Pair hl title="Replaces">Song of strength</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">Once each round while the court poet uses this performance, allies within 60 feet who can hear her can add 1/2 the court poet's skald level to a single Wisdom check or Wisdom-based skill check.</Pair>
+</Ability>
+<Ability id="arc-skald-court_poet-handling-the-crowd-ex" icon={["armor-upgrade","upgrade"]}>
+<Pair single id="arc-skald-court_poet-handling-the-crowd-ex">Handling the Crowd (Ex)</Pair>
+<Pair hl title="Replaces">Well-versed</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">A court poet gains a +1 bonus to AC and on Perform checks when adjacent to two or more creatures. In addition, her movement is not impeded by crowds and she gains a bonus equal to 1/2 her skald level on Diplomacy checks to influence crowds.</Pair>
+</Ability>
 </>};
 const _dragon_skald = {title: "Dragon Skald", jsx: <><h2 id="arc-skald-dragon_skald-dragon-skald">Dragon Skald</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 19</Link><br/>The Ulfen prize skalds on sea raids and linnorm hunts. Dragon skald performances involve song, whistling, or blowing mighty horns, and viking sailors often talk about having a skald along to whistle up a wind or sing away the mists on the morning of a momentous raid.</p>
