@@ -1078,10 +1078,18 @@ const _skirnir = {title: "Skirnir", jsx: <><h2 id="arc-magus-skirnir-skirnir">Sk
 <Pair single id="arc-magus-skirnir-diminished-spellcasting">Diminished Spellcasting</Pair>
 <Pair title="Ability">A skirnir casts one fewer spell of each level than normal. If this reduces the number to 0, he may cast spells of that level only if his Intelligence allows <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
 </Ability>
-<Ability id="arc-magus-skirnir-arcane-bond-su" icon={["stairs-goal"]}>
+<Ability id="arc-magus-skirnir-arcane-bond-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-magus-skirnir-arcane-bond-su">Arcane Bond (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A skirnir gains a shield (except for a tower shield) as an <em>arcane bond</em> item. This is identical to the <Link to="/class/wizard">wizard</Link> class ability, but the skirnir may only bond with a shield, not a familiar or other item.</Pair>
+</Ability>
+<Ability id="arc-magus-skirnir-bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-magus-skirnir-bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
+<Pair title="Ability"><p>You begin play with a bonded object at no cost. This object is always masterwork quality. Weapons acquired at 1st level are not made of any special material. If the object is an amulet or ring, it must be worn to have effect, while staves, wands, and weapons must be wielded. If you attempt to cast a spell without your bonded object in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
+<p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities.</p>
+<p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
+<p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as your bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
+</Pair>
 </Ability>
 <Ability id="arc-magus-skirnir-arcane-pool" icon={["upgrade"]}>
 <Pair single id="arc-magus-skirnir-arcane-pool">Arcane Pool</Pair>
@@ -1157,10 +1165,18 @@ const _soul_forger = {title: "Soul Forger", jsx: <><h2 id="arc-magus-soul_forger
 <Pair single id="arc-magus-soul_forger-diminished-spellcasting">Diminished Spellcasting</Pair>
 <Pair title="Ability">A soul forger casts one fewer spell of each level than normal. If this reduces the number to 0, he may cast spells of that level only if his Intelligence allows <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
 </Ability>
-<Ability id="arc-magus-soul_forger-arcane-bond-su" icon={["stairs-goal"]}>
+<Ability id="arc-magus-soul_forger-arcane-bond-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-magus-soul_forger-arcane-bond-su">Arcane Bond (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A soul forger gains a weapon as an <em>arcane bond</em> item. This is identical to the <Link to="/class/wizard">wizard</Link> class ability, but the soul forger must select a weapon.</Pair>
+</Ability>
+<Ability id="arc-magus-soul_forger-bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-magus-soul_forger-bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
+<Pair title="Ability"><p>You begin play with a bonded object at no cost. This object is always masterwork quality. Weapons acquired at 1st level are not made of any special material. Weapons must be wielded to have an effect. If you attempt to cast a spell without your bonded object in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
+<p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities.</p>
+<p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
+<p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as your bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
+</Pair>
 </Ability>
 <Ability id="arc-magus-soul_forger-spell-combat-su" icon={["broken-shield"]}>
 <Pair single id="arc-magus-soul_forger-spell-combat-su">Spell Combat (Su)</Pair>

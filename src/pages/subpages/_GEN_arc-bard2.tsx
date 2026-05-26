@@ -317,16 +317,24 @@ const _magician = {title: "Magician", jsx: <><h2 id="arc-bard-magician-magician"
 <Pair title="At 14th Level">He can add another spell, following the same limitations.</Pair>
 <Pair title="At 18th Level">He can add another spell, following the same limitations.</Pair>
 </Ability>
-<Ability id="arc-bard-magician-arcane-bond-ex" icon={["upgrade"]}>
+<Ability id="arc-bard-magician-arcane-bond-ex" extraClasses="hasSubs" icon={["upgrade"]}>
 <Pair single id="arc-bard-magician-arcane-bond-ex">Arcane Bond (Ex)</Pair>
 <Pair hl title="Replaces">Lore master</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A magician gains the <em>arcane bond</em> ability as a <Link to="/class/wizard">wizard</Link>. He may not choose a familiar or a weapon as a bonded item.</Pair>
 </Ability>
+<Ability id="arc-bard-magician-arcane-bond-bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-bard-magician-arcane-bond-bonded-object" flavor="Relevant text from the wizard ability.">Arcane Bond: Bonded Object</Pair>
+<Pair title="Ability"><p>If you select a bonded object, you begin play with one at no cost. Objects that are the subject of an arcane bond must fall into one of the following categories: amulet, ring, staff, wand, or weapon. These objects are always masterwork quality. If the object is an amulet or ring, it must be worn to have effect, while staves, wands, and weapons must be wielded. If you attempt to cast a spell without your bonded object worn or in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level. If the object is a ring or amulet, it occupies the <Link to="/rule/neck_slot">ring or neck slot</Link> accordingly.</p>
+<p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities. The bonded object cannot be used to cast spells from your opposition schools.</p>
+<p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). If the bonded object is a wand, it loses its wand abilities when its last charge is consumed, but it is not destroyed and it retains all of its bonded object properties and can be used to craft a new wand. The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
+<p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as your bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
+</Pair>
+</Ability>
 <Ability id="arc-bard-magician-wand-mastery-ex" icon={["upgrade"]}>
 <Pair single id="arc-bard-magician-wand-mastery-ex">Wand Mastery (Ex)</Pair>
 <Pair hl title="Replaces">Jack of all trades</Pair>
-<Pair title="At 10th Level">When a magician uses a wand containing a spell on his spell list, he uses his Charisma bonus to set the wand's savel</Pair>
+<Pair title="At 10th Level">When a magician uses a wand containing a spell on his spell list, he uses his Charisma bonus to set the wand's save.</Pair>
 <Pair title="At 16th Level">When using such a wand, he uses his caster level in place of the wand's caster level.</Pair>
 </Ability>
 </>};

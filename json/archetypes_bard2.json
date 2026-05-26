@@ -182,9 +182,21 @@
 			"",
 			"::ab[Expanded Repertoire (Ex)]{icon=learn l2=\"A magician can add one spell to his spells known from the spell list of any arcane spellcasting class. The spell must be of a level he can cast.\" l6=\"He can add another spell, following the same limitations.\" l10=\"He can add another spell, following the same limitations.\" l14=\"He can add another spell, following the same limitations.\" l18=\"He can add another spell, following the same limitations.\" replace=\"Versatile performance\"}",
 			"",
-			"::ab[Arcane Bond (Ex)]{l=5 icon=boost ability=\"A magician gains the *arcane bond* ability as a ‹class/wizard›. He may not choose a familiar or a weapon as a bonded item.\" replace=\"Lore master\"}",
+			"::ab[Arcane Bond (Ex)]{l=5 head icon=boost ability=\"A magician gains the *arcane bond* ability as a ‹class/wizard›. He may not choose a familiar or a weapon as a bonded item.\" replace=\"Lore master\"}",
 			"",
-			"::ab[Wand Mastery (Ex)]{icon=boost l10=\"When a magician uses a wand containing a spell on his spell list, he uses his Charisma bonus to set the wand's savel\" imp16=\"When using such a wand, he uses his caster level in place of the wand's caster level.\" replace=\"Jack of all trades\"}"
+			":::ab{next title=\"Arcane Bond: Bonded Object\" flavor=\"Relevant text from the wizard ability.\" icon=magic action=Ability}",
+			"",
+			"If you select a bonded object, you begin play with one at no cost. Objects that are the subject of an arcane bond must fall into one of the following categories: amulet, ring, staff, wand, or weapon. These objects are always masterwork quality. If the object is an amulet or ring, it must be worn to have effect, while staves, wands, and weapons must be wielded. If you attempt to cast a spell without your bonded object worn or in hand, you must make a ‹rule/concentration› check or lose the spell. The DC for this check is equal to 20 + the spell's level. If the object is a ring or amulet, it occupies the ‹rule/ring or »neck slot› accordingly.",
+			"",
+			"A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities. The bonded object cannot be used to cast spells from your opposition schools.",
+			"",
+			"You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see ‹feat/Craft Magic Arms and Armor›). If the bonded object is a wand, it loses its wand abilities when its last charge is consumed, but it is not destroyed and it retains all of its bonded object properties and can be used to craft a new wand. The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.",
+			"",
+			"If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as your bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.",
+			"",
+			":::",
+			"",
+			"::ab[Wand Mastery (Ex)]{icon=boost l10=\"When a magician uses a wand containing a spell on his spell list, he uses his Charisma bonus to set the wand's save.\" imp16=\"When using such a wand, he uses his caster level in place of the wand's caster level.\" replace=\"Jack of all trades\"}"
 		]
 	},
 	"masked_performer": {

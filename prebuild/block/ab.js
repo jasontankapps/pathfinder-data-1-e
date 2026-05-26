@@ -198,11 +198,16 @@ const makeAbilityBlock = ({
 				// ~start level by increment? (if the next level is different from start level + increment)
 				// ~value at this increment? (if different from start value + increment)
 				// ~max level? (defaults to 20)
+				// +text (extra static bonus added to the beginning of the line)
 			// Ex: Gained at 3rd level, 1 + 1 for every five levels total
 				// useF=3~1~5~~5
 			// Ex: Gained at 12th level, 1 + 1 per every three levels afterward
 				// useF=12~4~3
-			const rawUseF = useF.split(/~/);
+			// Ex: Gained at first level, 3 + 2 per level afterward
+				// useF=1~3~1~2+ Charisma modifier
+					// "Charisma modifier + # units/day"
+			const [formula, plus] = useF.split(/[+]/)
+			const rawUseF = formula.split(/~/);
 			const [ startLevel, startValue, lIncTemp, vIncTemp, beginLevel, initialValue, maxTemp ] = rawUseF.map(
 				text => Math.round(Number(text) || 0)
 			);
@@ -225,16 +230,20 @@ const makeAbilityBlock = ({
 				return "";
 			}
 			// Turn this into something usable by ByLevelPop [[1, 2], [4, 3], [8, 4], ...]
-			const formula = [ [startLevel, startValue] ];
+			const arrayFormula = [ [startLevel, startValue] ];
 			let level = beginLevel || (startLevel + levelInc);
 			let value = initialValue || (startValue + valueInc);
 			while(level <= max) {
-				formula.push([level, value]);
+				arrayFormula.push([level, value]);
 				level += levelInc;
 				value += valueInc;
 			}
 			flags.bylevelpop = true;
-			return `<ByLevelPop levels={${JSON.stringify(formula)}} unit="${unit}" postText="/day" />`;
+			return `<ByLevelPop levels={${
+				JSON.stringify(arrayFormula)
+			}}${
+				plus ? ` preText="${plus} + "` : ""
+			} unit="${unit}" postText="/day" />`;
 		})();
 		const consecutive = () => {
 			if(useNC) {

@@ -871,7 +871,8 @@
 			"| @ripple[emotionalfocus/Suffering] | Phantoms with this focus stand on trembling legs, with hands quivering and tears constantly streaming from their eyes. |",
 			"| @ripple[emotionalfocus/Whimsey] | Phantoms with this emotional focus carry a simplistic, childlike wonder and are fond of games and playing tricks. |",
 			"| @ripple[emotionalfocus/Zeal] | A phantom with this emotional focus fixates on every task given as if it were the phantom's last. |"
-		]
+		],
+		"topLink": [ "Spiritualist", "class/spiritualist" ]
 	},
 	"evolutions": {
 		"name": "Eidolon Evolutions",
