@@ -3,6 +3,7 @@ import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
+import ByLevelPop from '../../components/ByLevelPop';
 const _augur = {title: "Augur", jsx: <><h2 id="arc-skald-augur-augur">Augur</h2>
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 25</Link><br/>Tales of Merivesta Olinchi are surprisingly common among the Bekyar of the Mwangi Expanse, who claim she spent some time studying their traditions and history. Most historians find it more likely that a Bekyar skald spent time in Nex, was exposed to the idea of divination as a tool of war from a copy of Cold Irony, and fabricated tales of how that knowledge came to be in his hands.</p>
 <Ability id="arc-skald-augur-monster-insight-ex" icon={["upgrade"]}>
@@ -280,52 +281,151 @@ const _court_poet = {title: "Court Poet", jsx: <><h2 id="arc-skald-court_poet-co
 </>};
 const _dragon_skald = {title: "Dragon Skald", jsx: <><h2 id="arc-skald-dragon_skald-dragon-skald">Dragon Skald</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 19</Link><br/>The Ulfen prize skalds on sea raids and linnorm hunts. Dragon skald performances involve song, whistling, or blowing mighty horns, and viking sailors often talk about having a skald along to whistle up a wind or sing away the mists on the morning of a momentous raid.</p>
-<p><strong>Wind Whistler (Su):</strong> At 1st level, a dragon skald adds <Link to="/spell/alter_winds">alter winds</Link>, <Link to="/spell/fog_cloud">fog cloud</Link>, and <Link to="/spell/obscuring_mist">obscuring mist</Link> to his class spell list, at the same levels the wizard gains them. He still must add these spells to his spells known as normal.</p>
-<p>This ability replaces <strong className="hl">Scribe Scroll</strong>.</p>
-<p><strong>Sea Legs (Ex):</strong> A dragon skald adds 1/2 his class level (minimum 1) on all Profession (sailor) checks, Survival checks while at sea, Acrobatics and Climb checks made while aboard a boat, and Swim checks.</p>
-<p>This ability replaces <strong className="hl">bardic knowledge</strong>.</p>
-<p><strong>Fearless Raider (Ex):</strong> At 2nd level, the dragon skald becomes resistant to fear effects. The dragon skald gains a +4 bonus on saving throws against fear effects, and DCs to affect the dragon skald with the Intimidate skill increase by 4.</p>
-<p>This ability replaces <strong className="hl">well-versed</strong>.</p>
-<p><strong>Raging Song (Su):</strong> A dragon skald gains access to the following raging song.</p>
-<blockquote>
-<p><strong>Glorious Epic (Su):</strong> At 3rd level, a dragon skald learns how to truly extol the virtues and prowess of the heroic figures in his epic tales. By performing for 10 minutes and expending 1 round of raging song, the dragon skald can influence opinions positively towards a heroic subject of the dragon skald's choice. If the subject of the epic attempts a Diplomacy or Intimidate check against anyone who listened to the full performance, he receives a circumstance bonus on that check equal to the Will save bonus granted by the dragon skald's inspired rage.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">song of marching</strong>.</p>
+<Ability id="arc-skald-dragon_skald-wind-whistler-su" icon={["spell-book"]}>
+<Pair single id="arc-skald-dragon_skald-wind-whistler-su">Wind Whistler (Su)</Pair>
+<Pair hl title="Replaces">Scribe Scroll</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A dragon skald adds <Link to="/spell/alter_winds">alter winds</Link>, <Link to="/spell/fog_cloud">fog cloud</Link>, and <Link to="/spell/obscuring_mist">obscuring mist</Link> to his class spell list, at the same levels the wizard gains them. He still must add these spells to his spells known as normal.</Pair>
+</Ability>
+<Ability id="arc-skald-dragon_skald-sea-legs-ex" icon={["upgrade"]}>
+<Pair single id="arc-skald-dragon_skald-sea-legs-ex">Sea Legs (Ex)</Pair>
+<Pair hl title="Replaces">Bardic knowledge</Pair>
+<Pair title="Passive Ability">A dragon skald adds 1/2 his class level (minimum 1) on all Profession (sailor) checks, Survival checks while at sea, Acrobatics and Climb checks made while aboard a boat, and Swim checks.</Pair>
+</Ability>
+<Ability id="arc-skald-dragon_skald-fearless-raider-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-skald-dragon_skald-fearless-raider-ex" flavor="The dragon skald becomes resistant to fear effects.">Fearless Raider (Ex)</Pair>
+<Pair hl title="Replaces">Well-versed</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">The dragon skald gains a +4 bonus on saving throws against fear effects, and DCs to affect the dragon skald with the Intimidate skill increase by 4.</Pair>
+</Ability>
+<Ability id="arc-skald-dragon_skald-raging-song-su" extraClasses="hasSubs" icon={["info"]}>
+<Pair single id="arc-skald-dragon_skald-raging-song-su">Raging Song (Su)</Pair>
+<Pair title="Info">A dragon skald gains access to the following <em>raging song.</em></Pair>
+</Ability>
+<Ability id="arc-skald-dragon_skald-glorious-epic-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-skald-dragon_skald-glorious-epic-su">Glorious Epic (Su)</Pair>
+<Pair hl title="Replaces">Song of marching</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A dragon skald learns how to truly extol the virtues and prowess of the heroic figures in his epic tales. By performing for 10 minutes and expending 1 round of <em>raging song,</em> the dragon skald can influence opinions positively towards a heroic subject of the dragon skald's choice. If the subject of the epic attempts a Diplomacy or Intimidate check against anyone who listened to the full performance, he receives a circumstance bonus on that check equal to the Will save bonus granted by the dragon skald's <em>inspired rage.</em></Pair>
+</Ability>
 </>};
 const _elegist = {title: "Elegist", jsx: <><h2 id="arc-skald-elegist-elegist">Elegist</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_spiral_of_bones_4">Pathfinder Spiral of Bones #4 pg. 29</Link><br/>Some skalds internalize the saddest and must mournful of stories, so much that they are able to manifest the emotions caused by these tales in physical form. These spirits are able to inflict the misery onto the elegist's enemies.</p>
-<p><strong>Melancholic Apparition (Su):</strong> By using music, oration, and similar performances, an elegist can call forth a physical manifestation of the sorrow of his tales. This functions as a <Link to="/class/spiritualist">spiritualist's</Link> phantom with the <Link to="/emotionalfocus/despair">despair</Link> focus. He can manifest his melancholic apparition as a standard action and dismiss it as a free action. The <Link to="/sidekick/phantom">phantom</Link> appears adjacent to the skald and can act immediately. The melancholic apparition is immediately dismissed if the elegist is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action each round to maintain the performance that keeps the phantom manifested. At 1st level, an elegist can keep his apparition manifested for a total number of rounds each day equal to 3 + his Charisma modifier. For each skald level beyond 1st, he can manifest his apparition 2 additional rounds per day.</p>
-<p>Unlike a spiritualist's phantom, a melancholic apparition can't be harbored in the elegist's consciousness. When manifested, the melancholic apparition has the same number of hit points it had when previously manifested that day. It regains all of its hit points when the elegist regains his spells for the day. If the melancholic apparition is slain, the elegist can manifest it again in the same day by spending a number of additional rounds of this ability equal to half his skald level (minimum 1); the melancholic apparition returns with half its normal total of hit points.</p>
-<p>This replaces <strong className="hl">raging song</strong> and all related <strong className="hl">performances</strong>, as well as <strong className="hl">rage powers</strong>.</p>
-<p><strong>Steady Hearted (Ex):</strong> At 2nd level, an elegist receives a +4 bonus to saving throws against emotion effects.</p>
-<p>This replaces <strong className="hl">well-versed</strong>.</p>
-<p><strong>Somber Damage Reduction (Ex):</strong> The damage reduction an elegist gains at 9th level is shared by his melancholic apparition when it is manifested.</p>
-<p>This alters <strong className="hl">damage reduction</strong>.</p>
-<p><strong>Master Elegist (Su):</strong> At 20th level, the elegist can manifest his melancholic apparition as a swift action. If it is slain. the elegist can manifest a new phantom in the same day with no additional expenditure of rounds of the melancholic apparition ability, and the new phantom has all of its hit points.</p>
+<Ability id="arc-skald-elegist-melancholic-apparition-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-elegist-melancholic-apparition-su">Melancholic Apparition (Su)</Pair>
+<Pair hl title="Replaces">Raging song and all related performances, rage powers</Pair>
+<Pair title="Usage">An elegist can keep his apparition manifested for a total number of rounds each day equal to 1 + twice his skald level + his Charisma modifier.<ByLevelPop levels={[[1,3],[2,5],[3,7],[4,9],[5,11],[6,13],[7,15],[8,17],[9,19],[10,21],[11,23],[12,25],[13,27],[14,29],[15,31],[16,33],[17,35],[18,37],[19,39],[20,41]]} preText="Charisma modifier + " unit="round" postText="/day" /></Pair>
+<Pair title="Ability">By using music, oration, and similar performances, an elegist can call forth a physical manifestation of the sorrow of his tales. This functions as a <Link to="/class/spiritualist">spiritualist's</Link> phantom with the <Link to="/emotionalfocus/despair">despair</Link> focus. He can manifest his melancholic apparition as a <strong className="hl">standard action</strong> and dismiss it as a <strong className="hl">free action</strong>. The <Link to="/sidekick/phantom">phantom</Link> appears adjacent to the skald and can act immediately. The melancholic apparition is immediately dismissed if the elegist is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a <strong className="hl">free action</strong> each round to maintain the performance that keeps the phantom manifested.</Pair>
+<Pair title="Special">Unlike a spiritualist's phantom, a melancholic apparition can't be harbored in the elegist's consciousness. When manifested, the melancholic apparition has the same number of hit points it had when previously manifested that day. It regains all of its hit points when the elegist regains his spells for the day. If the melancholic apparition is slain, the elegist can manifest it again in the same day by spending a number of additional rounds of this ability equal to <Link to="/misc/half">half</Link> his skald level (minimum 1); the melancholic apparition returns with half its normal total of hit points.</Pair>
+</Ability>
+<Ability id="arc-skald-elegist-phantom" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-elegist-phantom" flavor="Relevant text from the spiritualist ability.">Phantom</Pair>
+<Pair title="Ability"><p>You can manifest the phantom as an ectoplasmic or incorporeal entity. A phantom has the same alignment as you, and it can speak all the languages you can. Each phantom has an <Link to="/ability/emotional_focus">emotional focus</Link> - a powerful emotion based on some experience in life that keeps it tethered to the Material and Ethereal planes. This emotional focus also grants the phantom abilities that it can use while manifested. The type of each ability and its power are determined by your level. The emotional focus determines which bonus skill ranks the phantom gains. It also determines the saving throws of the manifested phantom and the special abilities the phantom gains as it increases in level.</p>
+<p>The phantom does not heal naturally, and can be healed only with magic or by being tended to with the Heal skill while fully manifested in ectoplasmic form. If the phantom is banished to the Ethereal Plane, it can't manifest again for 24 hours.</p>
+<p>While fully manifested, a phantom can't be returned to the Ethereal Plane by means of <Link to="/spell/dispel_magic">dispel magic</Link>, but spells such as <Link to="/spell/dismissal">dismissal</Link> and <Link to="/spell/banishment">banishment</Link> work normally.</p>
+<p>Fully manifested phantoms can wear armor and use items (though not wield weapons) appropriate to their forms. Any items worn, carried, or held by a phantom are dropped when the phantom demanifests, and must be retrieved and donned anew if the phantom wishes to use them when it fully manifests in the future.</p>
+<p>Phantoms are self-involved, even jealous, creatures that do not play well with other summoned companions. A phantom refuses to manifest in the presence of an eidolon or shadow you have summoned. Furthermore, if a phantom is manifested when such a creature is summoned, it immediately retreats and will not manifest again until the eidolon or shadow is dismissed.</p>
+<p>A fully manifested phantom's abilities, feats, Hit Dice, saving throws, and skills are tied to your class level and increase as you gain levels.</p>
+</Pair>
+<Pair title="Special">When the phantom is fully manifested, you can change the form of the phantom's manifestation (either from ectoplasmic to incorporeal or vice versa) as a <strong className="hl">full-round action</strong> that provokes attacks of opportunity. A fully manifested phantom is treated as a summoned creature from the <Link to="/rule/ethereal_plane">Ethereal Plane</Link>, except it is not sent back to the Ethereal Plane until it is reduced to a negative amount of hit points equal to or greater than its Constitution score.</Pair>
+</Ability>
+<Ability id="arc-skald-elegist-despair" extraClasses="subAbility" icon={["upgrade","armor-upgrade","armor-downgrade"]}>
+<Pair single id="arc-skald-elegist-despair" flavor="Relevant text from the emotional focus.">Despair</Pair>
+<Pair title="Info">Despair phantoms often appear twisted or wounded, showing the grisly circumstances of their demise. Their coloration tends to have a grayish or sickly green cast. When they speak, they do so in terrifying whispers or high-pitched screeches.</Pair>
+<Pair title="Passive Ability">The phantom gains a number of ranks in Intimidate and Stealth equal to its number of Hit Dice. Its <Link to="/misc/good_saving_throws">good saving throws</Link> are Fortitude and Will. The phantom gains a +2 bonus on attack and damage rolls against creatures that are shaken, frightened, panicked, cowering, or subject to effects such as <em>aura of despair</em> or <em>crushing despair.</em></Pair>
+<Pair title="Ability"><em>"Miserable Strike"</em> - If the phantom hits a creature with a slam attack, that creature must succeed at a Will saving throw (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) or take a -2 penalty on attack and damage rolls for 1 round. This is a mind-affecting fear and emotion effect. Penalties from multiple hits don't stack with themselves.</Pair>
+<Pair title="At 7th Level">As a <strong className="hl">swift action</strong>, the phantom can emit a 10-foot <em>aura of despair.</em> Enemies within the aura take a -2 penalty on all saving throws. This is a fear effect. Deactivating the aura is a <strong className="hl">free action</strong>.</Pair>
+<Pair title="At 12th Level">Three times per day as a <strong className="hl">standard action</strong>, the phantom can emit a shout that acts as <Link to="/spell/crushing_despair">crushing despair</Link>. The phantom uses its Hit Dice as its caster level for the effect, and the DC of the effect equals 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier.</Pair>
+<Pair title="At 17th Level">If the phantom hits with its slam attack, the creature hit doesn't get a save to resist the effects of <em>miserable strike.</em></Pair>
+</Ability>
+<Ability id="arc-skald-elegist-steady-hearted-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-skald-elegist-steady-hearted-ex">Steady Hearted (Ex)</Pair>
+<Pair hl title="Replaces">Well-versed</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">An elegist receives a +4 bonus to saving throws against emotion effects.</Pair>
+</Ability>
+<Ability id="arc-skald-elegist-somber-damage-reduction-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-skald-elegist-somber-damage-reduction-ex">Somber Damage Reduction (Ex)</Pair>
+<Pair hl title="Alters">Damage reduction</Pair>
+<Pair title="At 9th Level">The damage reduction an elegist gains at 9th level is shared by his melancholic apparition when it is manifested.</Pair>
+</Ability>
+<Ability id="arc-skald-elegist-master-elegist-su" icon={["upgrade"]}>
+<Pair single id="arc-skald-elegist-master-elegist-su">Master Elegist (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">The elegist can manifest his melancholic apparition as a <strong className="hl">swift action</strong>. If it is slain. the elegist can manifest a new phantom in the same day with no additional expenditure of rounds of the melancholic apparition ability, and the new phantom has all of its hit points.</Pair>
+</Ability>
 </>};
 const _fated_champion = {title: "Fated Champion", jsx: <><h2 id="arc-skald-fated_champion-fated-champion">Fated Champion</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 114</Link><br/>Many cultures see fate as a limit that is both stifling and unwanted, regardless of the destiny that lurks in the days and years ahead. Among cultures where skalds are the keepers of lore and wisdom, there are those who learn to read the winds of fate and take up the mantle of the fated champion, knowing and embracing their destined paths with strength borne of conviction.</p>
-<p><strong>Watcher of the Weave (Ex):</strong> At 2nd level, a fated champion learns to see the tapestry of events moments before it is woven. He gains an insight bonus on initiative checks equal to 1/2 his skald level.</p>
-<p>This ability replaces <strong className="hl">well-versed</strong>.</p>
-<p><strong>Far Seer (Su):</strong> At 5th level, a fated champion learns a method of spell kenning that is especially suited for divining and understanding the future, but not for directly harming opponents. For the purpose of determining what level spell slot he expends when using spell kenning, the skald treats the spell level of spells that predict the future (such as augury and divination) as one spell level lower (minimum spell level 1st), and treats the spell level of spells that deal damage as one spell level higher.</p>
-<p>This alters the <strong className="hl">spell kenning</strong> class feature.</p>
-<p><strong>Shield of Foresight (Su):</strong> At 10th level, a fated champion's certainty of his own fate grants him the ability to stare down fear and remain unbowed. When using raging song, he is immune to fear effects, and allies affected by his raging song gain a +5 bonus on saves attempted against fear effects.</p>
-<p>This ability replaces the <strong className="hl">dirge of doom</strong> raging song.</p>
-<p><strong>Not This Day (Su):</strong> At 20th level, the fated champion gains the ability to reweave the strands of fate. As an immediate action, he can expend 10 rounds of raging song to either reroll a saving throw or force an opponent to reroll an attack roll. The decision to use this ability must be made before the results of the initial roll are revealed, and the champion or his opponent must take the result of the reroll.</p>
-<p>This ability replaces <strong className="hl">master skald</strong>.</p>
-<p><strong>Rage Powers:</strong> The following rage powers complement the fated champion archetype: <Link to="/ragepower/boasting_taunt">boasting taunt</Link>, <Link to="/ragepower/clear_mind">clear mind</Link>, <Link to="/ragepower/eater_of_magic">eater of magic</Link>, <Link to="/ragepower/fierce_fortitude">fierce fortitude</Link>, <Link to="/ragepower/flesh_wound">flesh wound</Link>, <Link to="/ragepower/guarded_life">guarded life</Link>, <Link to="/ragepower/intimidating_glare">intimidating glare</Link>, <Link to="/ragepower/cairn_linnorm_death_curse">cairn linnorm death curse</Link>, <Link to="/ragepower/tarn_linnorm_death_curse">tarn linnorm death curse</Link>, and <Link to="/ragepower/renewed_vitality">renewed vitality</Link>.</p>
+<Ability id="arc-skald-fated_champion-watcher-of-the-weave-ex" icon={["upgrade"]}>
+<Pair single id="arc-skald-fated_champion-watcher-of-the-weave-ex" flavor="A fated champion learns to see the tapestry of events moments before it is woven.">Watcher of the Weave (Ex)</Pair>
+<Pair hl title="Replaces">Well-versed</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">He gains an insight bonus on initiative checks equal to 1/2 his skald level.</Pair>
+</Ability>
+<Ability id="arc-skald-fated_champion-far-seer-su" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-fated_champion-far-seer-su">Far Seer (Su)</Pair>
+<Pair hl title="Alters">Spell kenning</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">A fated champion learns a method of <em>spell kenning</em> that is especially suited for divining and understanding the future, but not for directly harming opponents. For the purpose of determining what level spell slot he expends when using <em>spell kenning,</em> the skald treats the spell level of spells that predict the future (such as <Link to="/spell/augury">augury</Link> and <Link to="/spell/divination">divination</Link>) as one spell level lower (minimum spell level 1st), and treats the spell level of spells that deal damage as one spell level higher.</Pair>
+</Ability>
+<Ability id="arc-skald-fated_champion-shield-of-foresight-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-skald-fated_champion-shield-of-foresight-su" flavor="A fated champion's certainty of his own fate grants him the ability to stare down fear and remain unbowed.">Shield of Foresight (Su)</Pair>
+<Pair hl title="Replaces">Dirge of doom <em>raging song</em></Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Passive Ability">When using <em>raging song,</em> he is immune to fear effects, and allies affected by his <em>raging song</em> gain a +5 bonus on saves attempted against fear effects.</Pair>
+</Ability>
+<Ability id="arc-skald-fated_champion-not-this-day-su" icon={["rolling-dices"]}>
+<Pair single id="arc-skald-fated_champion-not-this-day-su" flavor="The fated champion gains the ability to reweave the strands of fate.">Not This Day (Su)</Pair>
+<Pair hl title="Replaces">Master skald</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Immediate Action">He can expend 10 rounds of <em>raging song</em> to either reroll a saving throw or force an opponent to reroll an attack roll. The decision to use this ability must be made before the results of the initial roll are revealed, and the champion or his opponent must take the result of the reroll.</Pair>
+</Ability>
+<p><strong className="hl">Rage Powers:</strong> The following rage powers complement the fated champion archetype: <Link to="/ragepower/boasting_taunt">boasting taunt</Link>, <Link to="/ragepower/clear_mind">clear mind</Link>, <Link to="/ragepower/eater_of_magic">eater of magic</Link>, <Link to="/ragepower/fierce_fortitude">fierce fortitude</Link>, <Link to="/ragepower/flesh_wound">flesh wound</Link>, <Link to="/ragepower/guarded_life">guarded life</Link>, <Link to="/ragepower/intimidating_glare">intimidating glare</Link>, <Link to="/ragepower/cairn_linnorm_death_curse">cairn linnorm death curse</Link>, <Link to="/ragepower/tarn_linnorm_death_curse">tarn linnorm death curse</Link>, and <Link to="/ragepower/renewed_vitality">renewed vitality</Link>.</p>
 </>};
 const _herald_of_the_horn = {title: "Herald of the Horn", jsx: <><h2 id="arc-skald-herald_of_the_horn-herald-of-the-horn">Herald of the Horn</h2>
-<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 115</Link><br/>Even the loudest voice can often times be drowned out by the din of battle. Whether with the polished metal trumpet of a standing army or the crude curved animal horn of savage raiders, a herald of the horn sounds his raging song with thunderous blasts, which can bolster allies or shatter castle walls.</p>
-<p><strong>Arcane Bond (Ex):</strong> At 1st level, a herald of the horn forms a powerful bond with a horn (musical instrument). This functions like an <Link to="/sorcbloodline/arcane">arcane</Link> bloodline <Link to="/class/sorcerer">sorcerer's</Link> arcane bond with an object. Like a weapon, wand, or staff, the horn must be held in one hand when the herald of the horn casts skald spells.</p>
-<p>This ability replaces <strong className="hl">Scribe Scroll</strong>.</p>
-<p><strong>Rousing Retort (Su):</strong> At 5th level, a herald of the horn can use raging song to free allies from enchantment effects and fear. When beginning a raging song, he can expend 4 rounds of that ability to grant all allies within 60 feet a new saving throw against an ongoing enchantment or fear effect. The allies gain a +2 bonus on this new saving throw.</p>
-<p>This ability replaces the first daily use of <strong className="hl">spell kenning</strong> gained at 5th level.</p>
-<p><strong>Horn Call (Su):</strong> At 7th level, a herald's horn enhances his sonic spells. If a skald spell with the sonic descriptor is cast using the horn, its DC increases by 1. These DCs increase by an additional 1 at 13th and 19th levels.</p>
-<p>This ability replaces <strong className="hl">lore master</strong>.</p>
-<p><strong>Crumbling Blast (Su):</strong> At 11th level, a herald of the horn can use his horn to create a devastating shock wave of energy. Once per day, he can sound a note on the horn that functions like a <Link to="/magic-wondrous/horn_of_blasting">horn of blasting</Link> (DC = 10 + 1/2 the herald of the horn's level + his Charisma bonus). At 17th level, the herald of the horn can use this ability twice per day and it functions like a <Link to="/magic-wondrous/greater_horn_of_blasting">greater horn of blasting</Link>. Unlike an actual horn of blasting, this ability does not carry the risk of destroying the horn.</p>
-<p>This ability replaces the second and third daily uses of <strong className="hl">spell kenning</strong> gained at 11th and 17th levels.</p>
-<p><strong>Rage Powers:</strong> The following rage powers complement the herald of the horn archetype: <Link to="/ragepower/battle_roar">battle roar</Link>, <Link to="/ragepower/energy_absorption">energy absorption</Link>, <Link to="/ragepower/energy_eruption">energy eruption</Link>, <Link to="/ragepower/fearless_rage">fearless rage</Link>, <Link to="/ragepower/knockback">knockback</Link>, <Link to="/ragepower/knockdown">knockdown</Link>, <Link to="/ragepower/smasher">smasher</Link>, and <Link to="/ragepower/swift_foot">swift foot</Link>.</p>
+<p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 115</Link><br/>Even the loudest voice can often times be drowned out by the din of battle. Whether with the polished metal trumpet of a standing army or the crude curved animal horn of savage raiders, a herald of the horn sounds his <em>raging song</em> with thunderous blasts, which can bolster allies or shatter castle walls.</p>
+<Ability id="arc-skald-herald_of_the_horn-arcane-bond-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-herald_of_the_horn-arcane-bond-ex">Arcane Bond (Ex)</Pair>
+<Pair hl title="Replaces">Scribe Scroll</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A herald of the horn forms a powerful bond with a horn (<Link to="/eq-misc/mwk_musical_instrument">musical instrument</Link>). This functions like an <Link to="/sorcbloodline/arcane">arcane</Link> bloodline <Link to="/class/sorcerer">sorcerer's</Link> arcane bond with an object. Like a weapon, wand, or staff, the horn must be held in one hand when the herald of the horn casts skald spells.</Pair>
+</Ability>
+<Ability id="arc-skald-herald_of_the_horn-arcane" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-herald_of_the_horn-arcane" flavor="Relevant text from the sorcerer bloodline.">Arcane</Pair>
+<Pair title="Ability">Your sorcerer levels stack with any wizard levels you possess when determining the powers of your bonded object. Once per day, your bonded item allows you to cast any one of your spells known (unlike a wizard's bonded item, which allows him to cast any one spell in his spellbook).</Pair>
+</Ability>
+<Ability id="arc-skald-herald_of_the_horn-bonded-object" extraClasses="subAbility" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="arc-skald-herald_of_the_horn-bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability"><p>You begin play with a bonded object at no cost. This object is always masterwork quality. Weapons must be wielded to have an effect. If you attempt to cast a spell without your bonded object in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
+<p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities.</p>
+<p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
+<p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as your bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
+</Pair>
+</Ability>
+<Ability id="arc-skald-herald_of_the_horn-rousing-retort-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-skald-herald_of_the_horn-rousing-retort-su" flavor={<>A herald of the horn can use <em>raging song</em> to free allies from enchantment effects and fear.</>}>Rousing Retort (Su)</Pair>
+<Pair hl title="Replaces">The first daily use of spell kenning gained at 5th level</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">When beginning a <em>raging song,</em> he can expend 4 rounds of that ability to grant all allies within 60 feet a new saving throw against an ongoing enchantment or fear effect. The allies gain a +2 bonus on this new saving throw.</Pair>
+</Ability>
+<Ability id="arc-skald-herald_of_the_horn-horn-call-su" icon={["upgrade"]}>
+<Pair single id="arc-skald-herald_of_the_horn-horn-call-su" flavor="A herald's horn enhances his sonic spells.">Horn Call (Su)</Pair>
+<Pair hl title="Replaces">Lore master</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Passive Ability">If a skald spell with the sonic descriptor is cast using the horn, its DC increases by 1.</Pair>
+<Pair title="At 13th Level">The DC now increases by 2.</Pair>
+<Pair title="At 19th Level">The DC now increases by 3.</Pair>
+</Ability>
+<Ability id="arc-skald-herald_of_the_horn-crumbling-blast-su" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-herald_of_the_horn-crumbling-blast-su" flavor="A herald of the horn can use his horn to create a devastating shock wave of energy.">Crumbling Blast (Su)</Pair>
+<Pair hl title="Replaces">The second and third daily uses of spell kenning gained at 11th and 17th levels</Pair>
+<Pair title="At 11th Level">Once per day, he can sound a note on the horn that functions like a <Link to="/magic-wondrous/horn_of_blasting">horn of blasting</Link> (DC = 10 + 1/2 the herald of the horn's level + his Charisma bonus).</Pair>
+<Pair title="At 17th Level">The herald of the horn can use this ability twice per day and it functions like a <Link to="/magic-wondrous/greater_horn_of_blasting">greater horn of blasting</Link>.</Pair>
+<Pair title="Special">Unlike an actual horn of blasting, this ability does not carry the risk of destroying the horn.</Pair>
+</Ability>
+<p><strong className="hl">Rage Powers:</strong> The following rage powers complement the herald of the horn archetype: <Link to="/ragepower/battle_roar">battle roar</Link>, <Link to="/ragepower/energy_absorption">energy absorption</Link>, <Link to="/ragepower/energy_eruption">energy eruption</Link>, <Link to="/ragepower/fearless_rage">fearless rage</Link>, <Link to="/ragepower/knockback">knockback</Link>, <Link to="/ragepower/knockdown">knockdown</Link>, <Link to="/ragepower/smasher">smasher</Link>, and <Link to="/ragepower/swift_foot">swift foot</Link>.</p>
 </>};
 const _hunt_caller = {title: "Hunt Caller", jsx: <><h2 id="arc-skald-hunt_caller-hunt-caller">Hunt Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 85</Link><br/>Hunt callers are skalds whose songs draw their allies into the animal world. They can invoke the inner beasts of those who observe their supernatural performances - a talent that causes many to mistake the hunt caller and her allies for lycanthropes or other shapechanging creatures.</p>
