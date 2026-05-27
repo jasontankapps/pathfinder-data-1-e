@@ -46,7 +46,7 @@ const _bacchanal = {title: "Bacchanal", jsx: <><h2 id="arc-skald-bacchanal-bacch
 <Pair title="At 7th Level">When the bacchanal consumes an alcoholic drink or fermented berry while maintaining his rage song, he can gain the benefits of <Link to="/spell/cure_light_wounds">cure light wounds</Link> or <Link to="/spell/remove_fear">remove fear</Link> (for the duration of the <em>raging song</em>) at his caster level by spending 2 rounds of <em>raging song.</em></Pair>
 <Pair title="At 12th Level">The bacchanal can gain the benefits of <Link to="/spell/heroism">heroism</Link> (for the duration of the <em>raging song</em>) in this manner.</Pair>
 <Pair title="At 17th Level">He can gain the benefits of <Link to="/spell/persistent_vigor">persistent vigor</Link> (for the duration of the <em>raging song</em>) in this manner.</Pair>
-<Pair title="Special">For each alcoholic drink or fermented berry consumed while raging, the skald is <Link to="/misc/nauseated">nauseated</Link> for 1 round after his <em>raging song</em> ends. The <Link to="/ragepower/internal_fortitude">internal fortitude</Link> rage power prevents this nauseated condition from occurring.</Pair>
+<Pair title="Special">For each alcoholic drink or fermented berry consumed while raging, the skald is <Link to="/misc/nauseated">nauseated</Link> for 1 round after his <em>raging song</em> ends. The <em>internal fortitude</em> rage power prevents this nauseated condition from occurring.</Pair>
 </Ability>
 <Ability id="arc-skald-bacchanal-raging-song-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-skald-bacchanal-raging-song-su">Raging Song (Su)</Pair>
@@ -66,8 +66,7 @@ const _bacchanal = {title: "Bacchanal", jsx: <><h2 id="arc-skald-bacchanal-bacch
 <Pair title="Info">As an <strong className="hl">immediate action</strong>, an ally of the bacchanal within 30 feet can dance along as a <strong className="hl">full-round action</strong> (taking all penalties except the confused condition for that round) to allow the bacchanal to target an additional creature.</Pair>
 <Pair title="Special">A creature that succeeds at the Will saving throw against this <em>raging song</em> is immune to this effect for 24 hours. This is a compulsion, emotion, enchantment, and mind-affecting effect.</Pair>
 </Ability>
-<p><strong className="hl">Rage Powers:</strong> The following rage powers complement the bacchanal archetype: <Link to="/ragepower/animal_fury">animal fury</Link>, <Link to="/ragepower/boasting_taunt">boasting taunt</Link>, <Link to="/ragepower/fearless_rage">fearless rage</Link>, <Link to="/ragepower/fierce_fortitude">fierce fortitude</Link>, <Link to="/ragepower/increased_damage_reduction">increased damage reduction</Link>, internal fortitude, <Link to="/ragepower/liquid_courage">liquid courage</Link>, <Link to="/ragepower/night_vision">night vision</Link>, <Link to="/ragepower/roaring_drunk">roaring drunk</Link>, and <Link to="/ragepower/staggering_drunk">staggering drunk</Link>.</p>
-</>};
+<p><strong className="hl">The following rage powers complement the bacchanal archetype:</strong> <Link to="/ragepower/animal_fury">animal fury</Link>, <Link to="/ragepower/boasting_taunt">boasting taunt</Link>, <Link to="/ragepower/fearless_rage">fearless rage</Link>, <Link to="/ragepower/fierce_fortitude">fierce fortitude</Link>, <Link to="/ragepower/increased_damage_reduction">increased damage reduction</Link>, <Link to="/ragepower/internal_fortitude">internal fortitude</Link>, <Link to="/ragepower/liquid_courage">liquid courage</Link>, <Link to="/ragepower/night_vision">night vision</Link>, <Link to="/ragepower/roaring_drunk">roaring drunk</Link>, <Link to="/ragepower/staggering_drunk">staggering drunk</Link></p></>};
 const _battle_scion = {title: "Battle Scion", jsx: <><h2 id="arc-skald-battle_scion-battle-scion">Battle Scion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 48</Link><br/>The battle scion possesses a unique mixture of courtly grace alongside martial and magical prowess. She is a warrior-poet, as skilled with her words as she is with blades. Battle scions sometimes rule as queens over courts of brave knights who scour the world championing bold quests.</p>
 <Ability id="arc-skald-battle_scion-courtly-presence-ex" icon={["upgrade","broken-shield"]}>
@@ -216,8 +215,7 @@ const _boaster = {title: "Boaster", jsx: <><h2 id="arc-skald-boaster-boaster">Bo
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">The boaster gains a bonus feat that he qualifies for. The feat must have Endurance as a prerequisite (such as Diehard or Fast Healer).</Pair>
 </Ability>
-<p><strong className="hl">Rage Powers:</strong> The following rage powers complement the boaster archetype: <Link to="/ragepower/boasting_taunt">boasting taunt</Link>, <Link to="/ragepower/come_and_get_me">come and get me</Link>, <Link to="/ragepower/fearless_rage">fearless rage</Link>, <Link to="/ragepower/fierce_fortitude">fierce fortitude</Link>, <Link to="/ragepower/intimidating_glare">intimidating glare</Link>, <Link to="/ragepower/raging_climber">raging climber</Link>, <Link to="/ragepower/raging_flier">raging flier</Link>, <Link to="/ragepower/raging_leaper">raging leaper</Link>, <Link to="/ragepower/raging_swimmer">raging swimmer</Link>, <Link to="/ragepower/sprint">sprint</Link>, <Link to="/ragepower/strength_surge">strength surge</Link>, and <Link to="/ragepower/swift_foot">swift foot</Link>.</p>
-</>};
+<p><strong className="hl">The following rage powers complement the boaster archetype:</strong> <Link to="/ragepower/boasting_taunt">boasting taunt</Link>, <Link to="/ragepower/come_and_get_me">come and get me</Link>, <Link to="/ragepower/fearless_rage">fearless rage</Link>, <Link to="/ragepower/fierce_fortitude">fierce fortitude</Link>, <Link to="/ragepower/intimidating_glare">intimidating glare</Link>, <Link to="/ragepower/raging_climber">raging climber</Link>, <Link to="/ragepower/raging_flier">raging flier</Link>, <Link to="/ragepower/raging_leaper">raging leaper</Link>, <Link to="/ragepower/raging_swimmer">raging swimmer</Link>, <Link to="/ragepower/sprint">sprint</Link>, <Link to="/ragepower/strength_surge">strength surge</Link>, <Link to="/ragepower/swift_foot">swift foot</Link></p></>};
 const _bold_schemer = {title: "Bold Schemer", jsx: <><h2 id="arc-skald-bold_schemer-bold-schemer">Bold Schemer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 48</Link><br/>The bold schemer combines wrath, wits, and daring to win battles and wars in unconventional ways, often through infiltration and deception. If raw force of arms is insufficient, she improvises ways to pull victory from the jaws of defeat.</p>
 <Ability icon={["skills"]} id="arc-skald-bold_schemer-undefined">
@@ -381,8 +379,7 @@ const _fated_champion = {title: "Fated Champion", jsx: <><h2 id="arc-skald-fated
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Immediate Action">He can expend 10 rounds of <em>raging song</em> to either reroll a saving throw or force an opponent to reroll an attack roll. The decision to use this ability must be made before the results of the initial roll are revealed, and the champion or his opponent must take the result of the reroll.</Pair>
 </Ability>
-<p><strong className="hl">Rage Powers:</strong> The following rage powers complement the fated champion archetype: <Link to="/ragepower/boasting_taunt">boasting taunt</Link>, <Link to="/ragepower/clear_mind">clear mind</Link>, <Link to="/ragepower/eater_of_magic">eater of magic</Link>, <Link to="/ragepower/fierce_fortitude">fierce fortitude</Link>, <Link to="/ragepower/flesh_wound">flesh wound</Link>, <Link to="/ragepower/guarded_life">guarded life</Link>, <Link to="/ragepower/intimidating_glare">intimidating glare</Link>, <Link to="/ragepower/cairn_linnorm_death_curse">cairn linnorm death curse</Link>, <Link to="/ragepower/tarn_linnorm_death_curse">tarn linnorm death curse</Link>, and <Link to="/ragepower/renewed_vitality">renewed vitality</Link>.</p>
-</>};
+<p><strong className="hl">The following rage powers complement the fated champion archetype:</strong> <Link to="/ragepower/boasting_taunt">boasting taunt</Link>, <Link to="/ragepower/clear_mind">clear mind</Link>, <Link to="/ragepower/eater_of_magic">eater of magic</Link>, <Link to="/ragepower/fierce_fortitude">fierce fortitude</Link>, <Link to="/ragepower/flesh_wound">flesh wound</Link>, <Link to="/ragepower/guarded_life">guarded life</Link>, <Link to="/ragepower/intimidating_glare">intimidating glare</Link>, <Link to="/ragepower/cairn_linnorm_death_curse">cairn linnorm death curse</Link>, <Link to="/ragepower/tarn_linnorm_death_curse">tarn linnorm death curse</Link>, <Link to="/ragepower/renewed_vitality">renewed vitality</Link></p></>};
 const _herald_of_the_horn = {title: "Herald of the Horn", jsx: <><h2 id="arc-skald-herald_of_the_horn-herald-of-the-horn">Herald of the Horn</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 115</Link><br/>Even the loudest voice can often times be drowned out by the din of battle. Whether with the polished metal trumpet of a standing army or the crude curved animal horn of savage raiders, a herald of the horn sounds his <em>raging song</em> with thunderous blasts, which can bolster allies or shatter castle walls.</p>
 <Ability id="arc-skald-herald_of_the_horn-arcane-bond-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
@@ -425,140 +422,315 @@ const _herald_of_the_horn = {title: "Herald of the Horn", jsx: <><h2 id="arc-ska
 <Pair title="At 17th Level">The herald of the horn can use this ability twice per day and it functions like a <Link to="/magic-wondrous/greater_horn_of_blasting">greater horn of blasting</Link>.</Pair>
 <Pair title="Special">Unlike an actual horn of blasting, this ability does not carry the risk of destroying the horn.</Pair>
 </Ability>
-<p><strong className="hl">Rage Powers:</strong> The following rage powers complement the herald of the horn archetype: <Link to="/ragepower/battle_roar">battle roar</Link>, <Link to="/ragepower/energy_absorption">energy absorption</Link>, <Link to="/ragepower/energy_eruption">energy eruption</Link>, <Link to="/ragepower/fearless_rage">fearless rage</Link>, <Link to="/ragepower/knockback">knockback</Link>, <Link to="/ragepower/knockdown">knockdown</Link>, <Link to="/ragepower/smasher">smasher</Link>, and <Link to="/ragepower/swift_foot">swift foot</Link>.</p>
-</>};
+<p><strong className="hl">The following rage powers complement the herald of the horn archetype:</strong> <Link to="/ragepower/battle_roar">battle roar</Link>, <Link to="/ragepower/energy_absorption">energy absorption</Link>, <Link to="/ragepower/energy_eruption">energy eruption</Link>, <Link to="/ragepower/fearless_rage">fearless rage</Link>, <Link to="/ragepower/knockback">knockback</Link>, <Link to="/ragepower/knockdown">knockdown</Link>, <Link to="/ragepower/smasher">smasher</Link>, <Link to="/ragepower/swift_foot">swift foot</Link></p></>};
 const _hunt_caller = {title: "Hunt Caller", jsx: <><h2 id="arc-skald-hunt_caller-hunt-caller">Hunt Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 85</Link><br/>Hunt callers are skalds whose songs draw their allies into the animal world. They can invoke the inner beasts of those who observe their supernatural performances - a talent that causes many to mistake the hunt caller and her allies for lycanthropes or other shapechanging creatures.</p>
-<p><strong>Raging Song (Su):</strong> A hunt caller gains access to the following raging songs.</p>
-<blockquote>
-<p><strong>Song of the Senses (Su):</strong> At 2nd level, the hunt caller's raging song unlocks animalistic senses in her allies. By spending 1 round of raging song, the hunt caller can affect all allies within 60 feet for 1 hour. The allies gain low-light vision and a +2 competence bonus on Perception and Survival checks. If an ally already has low-light vision, the range doubles. The skald must continue to perform the song for the remainder of the hour; otherwise, its effects end, but only 1 round of raging song is expended for that hour.</p>
-<p>This raging song replaces well-versed.</p>
-<p><strong>Call of the Wild (Su):</strong> At 6th level, the hunt caller's raging song can transform herself and her allies within 60 feet into animalistic shapes, as per <Link to="/spell/beast_shape_i">beast shape I</Link> (Small animals only) at her caster level. The same transformation applies to all targets. By spending 1 round of raging song per target, the hunt caller can affect any number of allies within 60 feet for 1 hour. When in animal form, the hunt caller is treated as able to speak normally for the purpose of using raging song, but not for using other abilities that require speech (such as spellcasting). The skald must continue to perform the song for the remainder of the hour; otherwise, its effects end, but only 1 round of raging song per target is expended for that hour.</p>
-<p>At 10th level, the hunt caller can instead choose a Medium animal shape. At 14th level, the hunt caller can choose shapechanger's gift or the effects of <Link to="/spell/beast_shape_ii">beast shape II</Link>. At 18th level, she can choose the effects of <Link to="/spell/beast_shape_iii">beast shape III</Link>.</p>
-<p>This raging song replaces song of strength, song of the fallen, and the rage power gained at 18th level.</p>
-</blockquote>
-<p><strong>Wilderness Magic (Su):</strong> At 5th level and again at 11th level and 17th level, the hunt caller adds two spells of any level she can cast from the <Link to="/main/druid_spell">druid spell list</Link> to her class spell list and list of skald spells known.</p>
-<p>This replaces <strong className="hl">spell kenning</strong>.</p>
-<p><strong>Inspire Scent (Ex):</strong> At 6th level, the hunt caller gains the <Link to="/ragepower/scent">scent</Link> rage power. Her song of the senses and inspired rage raging songs both grant affected allies this rage power.</p>
-<p>This replaces the <strong className="hl">rage power</strong> gained at 6th level.</p>
-<p><strong>Rage Powers:</strong> The following rage powers complement the hunt caller archetype: <Link to="/ragepower/animal_fury">animal fury</Link>, <Link to="/ragepower/battle_roar">battle roar</Link>, <Link to="/ragepower/beast_totem_greater">beast totem (lesser, normal, and greater)</Link>, <Link to="/ragepower/intimidating_glare">intimidating glare</Link>, <Link to="/ragepower/low_light_vision">low-light vision</Link>, <Link to="/ragepower/no_escape">no escape</Link>, <Link to="/ragepower/primal_scent">primal scent</Link>, <Link to="/ragepower/quick_reflexes">quick reflexes</Link>, <Link to="/ragepower/sprint">sprint</Link>, and <Link to="/ragepower/swift_foot">swift foot</Link>.</p>
-</>};
+<Ability id="arc-skald-hunt_caller-raging-song-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-hunt_caller-raging-song-su">Raging Song (Su)</Pair>
+<Pair title="Info">A hunt caller gains access to the following <em>raging songs.</em></Pair>
+</Ability>
+<Ability id="arc-skald-hunt_caller-song-of-the-senses-su" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-skald-hunt_caller-song-of-the-senses-su" flavor={<>The hunt caller's <em>raging song</em> unlocks animalistic senses in her allies.</>}>Song of the Senses (Su)</Pair>
+<Pair hl title="Replaces">Well-versed</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">By spending 1 round of <em>raging song,</em> the hunt caller can affect all allies within 60 feet for 1 hour. The allies gain low-light vision and a +2 competence bonus on Perception and Survival checks. If an ally already has low-light vision, the range doubles. The skald must continue to perform the song for the remainder of the hour; otherwise, its effects end, but only 1 round of <em>raging song</em> is expended for that hour.</Pair>
+</Ability>
+<Ability id="arc-skald-hunt_caller-call-of-the-wild-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-hunt_caller-call-of-the-wild-su">Call of the Wild (Su)</Pair>
+<Pair hl title="Replaces">Song of strength, song of the fallen, rage power gained at 18th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">The hunt caller's <em>raging song</em> can transform herself and her allies within 60 feet into animalistic shapes, as per <Link to="/spell/beast_shape_i">beast shape I</Link> (Small animals only) at her caster level. The same transformation applies to all targets. By spending 1 round of <em>raging song</em> per target, the hunt caller can affect any number of allies within 60 feet for 1 hour. When in animal form, the hunt caller is treated as able to speak normally for the purpose of using <em>raging song,</em> but not for using other abilities that require speech (such as spellcasting). The skald must continue to perform the song for the remainder of the hour; otherwise, its effects end, but only 1 round of <em>raging song</em> per target is expended for that hour.</Pair>
+<Pair title="At 10th Level">The hunt caller can instead choose a Medium animal shape.</Pair>
+<Pair title="At 14th Level">The hunt caller can choose <Link to="/spell/shapechangers_gift">shapechanger's gift</Link> or the effects of <Link to="/spell/beast_shape_ii">beast shape II</Link>.</Pair>
+<Pair title="At 18th Level">She can choose the effects of <Link to="/spell/beast_shape_iii">beast shape III</Link>.</Pair>
+</Ability>
+<Ability id="arc-skald-hunt_caller-wilderness-magic-su" icon={["spell-book"]}>
+<Pair single id="arc-skald-hunt_caller-wilderness-magic-su">Wilderness Magic (Su)</Pair>
+<Pair hl title="Replaces">Spell kenning</Pair>
+<Pair title="At 5th Level">The hunt caller adds two spells of any level she can cast from the <Link to="/main/druid_spell">druid spell list</Link> to her class spell list and list of skald spells known.</Pair>
+<Pair title="At 11th Level">She adds two more spells.</Pair>
+<Pair title="At 17th Level">She adds two more spells.</Pair>
+</Ability>
+<Ability id="arc-skald-hunt_caller-inspire-scent-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-hunt_caller-inspire-scent-ex">Inspire Scent (Ex)</Pair>
+<Pair hl title="Replaces">Rage power gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">The hunt caller gains the <Link to="/ragepower/scent">scent</Link> rage power. Her <em>song of the senses</em> and <em>inspired rage raging songs</em> both grant affected allies this rage power.</Pair>
+</Ability>
+<p><strong className="hl">The following rage powers complement the hunt caller archetype:</strong> <Link to="/ragepower/animal_fury">animal fury</Link>, <Link to="/ragepower/battle_roar">battle roar</Link>, <Link to="/ragepower/beast_totem">beast totem</Link> (lesser, normal, and greater), <Link to="/ragepower/intimidating_glare">intimidating glare</Link>, <Link to="/ragepower/low_light_vision">low-light vision</Link>, <Link to="/ragepower/no_escape">no escape</Link>, <Link to="/ragepower/primal_scent">primal scent</Link>, <Link to="/ragepower/quick_reflexes">quick reflexes</Link>, <Link to="/ragepower/sprint">sprint</Link>, <Link to="/ragepower/swift_foot">swift foot</Link></p></>};
 const _instigator = {title: "Instigator", jsx: <><h2 id="arc-skald-instigator-instigator">Instigator</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 49</Link><br/>The instigator influences the will of the people, turning them toward his own purposes. Regardless of whether what the instigator says is true or not, he inflames emotions in others and suspends their reason. Instigators are often revolutionaries, political or otherwise, but they might also be warmongering firebrands or wicked souls who spread prejudice against others.</p>
-<p><strong>Raging Song (Su):</strong> An instigator gains the following raging songs.</p>
-<blockquote>
-<p><strong>Song of Rabble-Rousing (Sp):</strong> At 5th level, the instigator can perform for 1 full round and spend 4 rounds of raging song. This affects those who hear the song for up to 1 hour as per <Link to="/spell/enthrall">enthrall</Link>.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">spell kenning</strong>.</p>
-<blockquote>
-<p><strong>Song of Riot (Sp, Su):</strong> At 10th level, the instigator can fill the hearts of his listeners with hatred and rouse them into a frenzy. He can use this performance on all targets with fewer than 4 Hit Dice and a Wisdom score lower than 16 who are currently enthralled, without disrupting the enthrall effect (even if a creature succeeds at its saving throw). This ability requires a standard action to activate and costs 4 additional rounds of raging song.</p>
-<p>Enthralled creatures must each attempt a new saving throw against an effect that functions as the <Link to="/spell/foster_hatred">foster hatred</Link> spell, except that, unlike with the spell, the instigator is free to choose subgroups, organizations, religions, or the like regardless of the targets' races. Creatures that fail the saving throw or choose to forego it also gain the effects of the instigator's raging song whenever they attack the target of their hatred, for as long as the foster hatred effect lasts; however, they do not gain the effects of the instigator's rage powers when they're under the effects of raging song in this way.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">dirge of doom</strong>.</p>
-<p><strong>Revolutionary Heart (Su):</strong> At 7th level, an instigator's tumultuous mastery of demagoguery and revolution makes it difficult for others' compulsions to sway him. Once per day, when he fails a saving throw against a compulsion effect, he can attempt another saving throw after 1 time increment (1 round if the effect is measured in rounds, 1 minute if the effect is measured in minutes, 10 minutes if the spell is measured in 10-minute increments, and so on). Every 6 skald levels thereafter, he gains an additional daily use of this ability (to a maximum of 3 per day at 19th level).</p>
-<p>This ability replaces <strong className="hl">lore master</strong>.</p>
+<Ability id="arc-skald-instigator-raging-song-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-instigator-raging-song-su">Raging Song (Su)</Pair>
+<Pair title="Info">An instigator gains the following <em>raging songs.</em></Pair>
+</Ability>
+<Ability id="arc-skald-instigator-song-of-rabble-rousing-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-instigator-song-of-rabble-rousing-sp">Song of Rabble-Rousing (Sp)</Pair>
+<Pair hl title="Replaces">Spell kenning</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">The instigator can perform for 1 full round and spend 4 rounds of <em>raging song.</em> This affects those who hear the song for up to 1 hour as per <Link to="/spell/enthrall">enthrall</Link>.</Pair>
+</Ability>
+<Ability id="arc-skald-instigator-song-of-riot-sp-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-instigator-song-of-riot-sp-su" flavor="The instigator can fill the hearts of his listeners with hatred and rouse them into a frenzy.">Song of Riot (Sp, Su)</Pair>
+<Pair hl title="Replaces">Dirge of doom</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">He can use this performance on all targets with fewer than 4 Hit Dice and a Wisdom score lower than 16 who are currently <em>enthralled,</em> without disrupting the <em>enthrall</em> effect (even if a creature succeeds at its saving throw). This ability requires a <strong className="hl">standard action</strong> to activate and costs 4 additional rounds of <em>raging song.</em></Pair>
+<Pair title="Special">Enthralled creatures must each attempt a new saving throw against an effect that functions as the <Link to="/spell/foster_hatred">foster hatred</Link> spell, except that, unlike with the spell, the instigator is free to choose subgroups, organizations, religions, or the like regardless of the targets' races. Creatures that fail the saving throw or choose to forego it also gain the effects of the instigator's <em>raging song</em> whenever they attack the target of their hatred, for as long as the <em>foster hatred</em> effect lasts; however, they do not gain the effects of the instigator's rage powers when they're under the effects of <em>raging song</em> in this way.</Pair>
+</Ability>
+<Ability id="arc-skald-instigator-revolutionary-heart-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-skald-instigator-revolutionary-heart-su" flavor="An instigator's tumultuous mastery of demagoguery and revolution makes it difficult for others' compulsions to sway him.">Revolutionary Heart (Su)</Pair>
+<Pair hl title="Replaces">Lore master</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">Once per day, when he fails a saving throw against a compulsion effect, he can attempt another saving throw after 1 time increment (1 round if the effect is measured in rounds, 1 minute if the effect is measured in minutes, 10 minutes if the spell is measured in 10-minute increments, and so on).</Pair>
+<Pair title="At 13th Level">The number of times per day becomes 2.</Pair>
+<Pair title="At 19th Level">The number of times per day increases to 3.</Pair>
+</Ability>
 </>};
 const _red_tongue = {title: "Red Tongue", jsx: <><h2 id="arc-skald-red_tongue-red-tongue">Red Tongue</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 26</Link><br/>In the young tengu nation of Kwanlai, politicos argue endlessly over how best to rule and guide a people who have been parasites and vassals to other nations for millennia. The <Link to="/race/tengu">tengu</Link> tendency toward dramatic flourishes and rhetoric only complicates this debate, creating an environment in which political clubs led by hot-blooded firebrands - referred to as red tongues in polite company - dominate the political scene by swaying emotions in the moment and wielding magic in the shadows. Many political debates in Hisuikarasu end in violent brawls or daring duels.</p>
-<p><strong>Great Orator:</strong> A red tongue can activate his raging song performances only by using the Perform (oratory) skill. He must select Perform (oratory) as his versatile performance choice at 2nd level.</p>
-<p>This ability modifies the <strong className="hl">raging song</strong> and <strong className="hl">versatile performance</strong> abilities.</p>
-<p><strong>Seed of Discord (Su):</strong> The fiery outlook of the red tongue imparts instinctual knowledge to invest arcane energy into his proclamations and denouncements. The red tongue gains the following bonus spells known as he reaches the appropriate level to cast each spell: <Link to="/spell/doom">doom</Link> (1st), <Link to="/spell/castigate">castigate</Link> (2nd), <Link to="/spell/charm_monster">charm monster</Link> (3rd), <Link to="/spell/denounce">denounce</Link> (4th), <Link to="/spell/greater_command">greater command</Link> (5th), <Link to="/spell/mass_eagles_splendor">mass eagle's splendor</Link> (6th).</p>
-<p><strong>Rile (Ex):</strong> The red tongue is particularly skilled at provoking others to action, even when ignorant on a subject. He adds 1/2 his skald level on Bluff checks to deceive or conceal his motives and on Intimidate checks to improve a creature's attitude.</p>
-<p>This ability replaces <strong className="hl">bardic knowledge</strong>.</p>
-<p><strong>Rogue Talents (Ex):</strong> At 7th level, the red tongue learns a <Link to="/ability/rogue_talent">rogue talent</Link> of his choice, treating his skald level as his rogue level. He cannot select a talent that requires or modifies a class feature he does not have (such as sneak attack), and he must meet all other prerequisites. For every 5 skald levels beyond 7th, he gains a new rogue talent.</p>
-<p>This ability replaces the <strong className="hl">versatile performance</strong> selections normally gained at 7th, 12th, and 17th levels.</p>
-<p><strong>Duplicitous Rhetoric (Su):</strong> At 7th level, when a red tongue begins a raging song, he can select a single rogue talent he knows and grant it to all creatures under the influence of his inspired rage. If a rogue talent is limited to a certain number of uses per day, each creature affected is limited to a single use and cannot gain additional uses from a raging song for 24 hours, even if the red tongue ends his raging song and starts again.</p>
+<Ability id="arc-skald-red_tongue-great-orator" icon={["broken-shield"]}>
+<Pair single id="arc-skald-red_tongue-great-orator">Great Orator</Pair>
+<Pair hl title="Alters">Raging song, versatile performance</Pair>
+<Pair title="Info">A red tongue can activate his <em>raging song</em> performances only by using the Perform (oratory) skill.</Pair>
+<Pair title="At 2nd Level">He must select Perform (oratory) as his versatile performance choice.</Pair>
+</Ability>
+<Ability id="arc-skald-red_tongue-seed-of-discord-su" icon={["spell-book"]}>
+<Pair single id="arc-skald-red_tongue-seed-of-discord-su" flavor="The fiery outlook of the red tongue imparts instinctual knowledge to invest arcane energy into his proclamations and denouncements.">Seed of Discord (Su)</Pair>
+<Pair title="Ability">The red tongue gains the following bonus spells known at the listed spell level as he reaches the appropriate level to cast each spell.</Pair>
+<Pair plain title="1st"><Link to="/spell/doom">Doom</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/castigate">Castigate</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/charm_monster">Charm monster</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/denounce">Denounce</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/greater_command">Greater command</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/mass_eagles_splendor">Mass eagle's splendor</Link></Pair>
+</Ability>
+<Ability id="arc-skald-red_tongue-rile-ex" icon={["upgrade"]}>
+<Pair single id="arc-skald-red_tongue-rile-ex" flavor="The red tongue is particularly skilled at provoking others to action, even when ignorant on a subject.">Rile (Ex)</Pair>
+<Pair hl title="Replaces">Bardic knowledge</Pair>
+<Pair title="Passive Ability">He adds 1/2 his skald level on Bluff checks to deceive or conceal his motives and on Intimidate checks to improve a creature's attitude.</Pair>
+</Ability>
+<Ability id="arc-skald-red_tongue-rogue-talents-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-red_tongue-rogue-talents-ex">Rogue Talents (Ex)</Pair>
+<Pair hl title="Replaces">Versatile performance selections normally gained at 7th, 12th, and 17th levels</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">The red tongue learns a <Link to="/ability/rogue_talent">rogue talent</Link> of his choice, treating his skald level as his rogue level. He cannot select a talent that requires or modifies a class feature he does not have (such as sneak attack), and he must meet all other prerequisites.</Pair>
+<Pair title="At 12th Level">He gains a new rogue talent, following the rules above.</Pair>
+<Pair title="At 17th Level">He gains a new rogue talent, following the rules above.</Pair>
+</Ability>
+<Ability id="arc-skald-red_tongue-duplicitous-rhetoric-su" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-red_tongue-duplicitous-rhetoric-su">Duplicitous Rhetoric (Su)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">When a red tongue begins a <em>raging song,</em> he can select a single rogue talent he knows and grant it to all creatures under the influence of his <em>inspired rage.</em></Pair>
+<Pair title="Special">If a rogue talent is limited to a certain number of uses per day, each creature affected is limited to a single use and cannot gain additional uses from a <em>raging song</em> for 24 hours, even if the red tongue ends his <em>raging song</em> and starts again.</Pair>
+</Ability>
 </>};
 const _serpent_herald = {title: "Serpent Herald", jsx: <><h2 id="arc-skald-serpent_herald-serpent-herald">Serpent Herald</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 28</Link><br/>Warrior bands devoted to Ragadahn are often led by a serpent herald, whose deep roars shake the earth itself. Rumors tell of waves of snakes slithering forth from their nests in awe as these bellowing commanders take on serpentine features.</p>
-<p><strong>Serpentine Rage (Su):</strong> At 3rd level, a serpent herald can call down Ragadahn's features onto his allies. Allies affected by the serpent herald's inspired rage ability gain a serpentine aspect of the serpent herald's choice (all affected allies gain the same aspect). The serpent herald may choose from the following aspects:</p>
+<Ability id="arc-skald-serpent_herald-serpentine-rage-su" icon={["upgrade","armor-upgrade","stairs-goal","mailed-fist"]}>
+<Pair single id="arc-skald-serpent_herald-serpentine-rage-su">Serpentine Rage (Su)</Pair>
+<Pair hl title="Replaces">Rage power gained at 3rd level</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability"><p>A serpent herald can call down Ragadahn's features onto his allies. Allies affected by the serpent herald's <em>inspired rage</em> ability gain a serpentine aspect of the serpent herald's choice (all affected allies gain the same aspect). The serpent herald may choose from the following aspects:</p>
 <ul>
 <li><em>Movement</em> (+8 competence bonus on Climb and Swim checks, and targets can take 10 on these checks even when rushed or threatened)</li>
 <li><em>Scales</em> (+2 natural armor bonus)</li>
 <li><em>Senses</em> (low-light vision and <Link to="/umr/scent">scent</Link>)</li>
 <li><em>Natural bite attack</em> (1d4 damage <Link to="/umr/natural_attack">for a Medium creature</Link>, plus poison).</li>
 </ul>
-<div className="sideNoteWrap"><ScrollContainer id="arc-skald-serpent_herald--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Poison</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the serpent herald's level + his Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><p>This is a polymorph effect; a creature under another polymorph effect, such as wild shape, does not gain the aspect. If the serpent herald grants one of these aspects to himself, he also gains the ability to <Link to="/spell/speak_with_animals">speak with animals</Link> (reptiles and creatures with the aquatic subtype only) for as long as he has the aspect. The serpent herald must have the <em>inspired rage</em> raging song to use this ability.</p>
-<p>This ability replaces the <strong className="hl">rage power</strong> gained at 3rd level.</p>
-<p><strong>Serpent Shape (Su):</strong> At 5th level, a serpent herald gains the ability to use wild shape to take the form of a reptile or an aquatic animal once per day, as the <Link to="/class/druid">druid</Link> class feature. His effective druid level for this ability is equal to his serpent herald level - 1. This doesn't allow him to assume other forms, such as elementals or other kinds of animals. When in animal form, the serpent herald is treated as able to speak normally for the purpose of using raging song, but not for using other abilities that require speech (such as spellcasting).</p>
-<p>At 11th level, a serpent herald can use this ability twice per day and gains the benefits of the <Link to="/feat/wild_speech">Wild Speech</Link> feat while using this ability, treating his druid level as his serpent herald level - 1.</p>
-<p>At 17th level, a serpent herald can use this ability three times per day. In addition, he gains the supernatural resiliency of a linnorm, gaining the effects of freedom of movement while using this ability.</p>
-<p>This ability replaces <strong className="hl">spell kenning</strong>.</p>
-<p><strong>Rage Powers:</strong> The following <Link to="/ability/rage_powers">rage powers</Link> complement the serpent herald archetype: animal fury, <Link to="/ragepower/battle_roar">battle roar</Link> <Link to="/ragepower/knockback">knockback</Link>, <Link to="/ragepower/knockdown">knockdown</Link>, linnorm death curse (any), <Link to="/ragepower/low_light_vision">low-light vision</Link>, <Link to="/ragepower/sprint">sprint</Link>, and <Link to="/ragepower/swift_foot">swift foot</Link>.</p>
-</>};
+<div className="sideNoteWrap"><ScrollContainer id="arc-skald-serpent_herald--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Poison</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the serpent herald's level + his Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><p>This is a polymorph effect; a creature under another polymorph effect, such as <em>wild shape,</em> does not gain the aspect. If the serpent herald grants one of these aspects to himself, he also gains the ability to <Link to="/spell/speak_with_animals">speak with animals</Link> (reptiles and creatures with the aquatic subtype only) for as long as he has the aspect.</p>
+</Pair>
+<Pair title="Info">The serpent herald must have the <em>inspired rage raging song</em> to use this ability.</Pair>
+</Ability>
+<Ability id="arc-skald-serpent_herald-serpent-shape-su" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-serpent_herald-serpent-shape-su">Serpent Shape (Su)</Pair>
+<Pair hl title="Replaces">Spell kenning</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">A serpent herald gains the ability to use <em>wild shape</em> to take the form of a reptile or an aquatic animal once per day, as the <Link to="/class/druid">druid</Link> class feature. His effective druid level for this ability is equal to his serpent herald level - 1. This doesn't allow him to assume other forms, such as elementals or other kinds of animals. When in animal form, the serpent herald is treated as able to speak normally for the purpose of using <em>raging song,</em> but not for using other abilities that require speech (such as spellcasting).</Pair>
+<Pair title="At 11th Level">A serpent herald can use this ability twice per day and gains the benefits of the <Link to="/feat/wild_speech">Wild Speech</Link> feat while using this ability, treating his druid level as his serpent herald level - 1.</Pair>
+<Pair title="At 17th Level">A serpent herald can use this ability three times per day. In addition, he gains the supernatural resiliency of a <Link to="/family/linnorm">linnorm</Link>, gaining the effects of <Link to="/spell/freedom_of_movement">freedom of movement</Link> while using this ability.</Pair>
+</Ability>
+<Ability id="arc-skald-serpent_herald-wild-shape-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-serpent_herald-wild-shape-su" flavor="Relevant text from the druid class ability.">Wild Shape (Su)</Pair>
+<Pair title="Standard Action">You gain the ability to turn yourself into any Small or Medium animal and back again. Your options for new forms include all creatures with the <Link to="/main/monsters_animals">animal</Link> type. This ability functions like the <Link to="/spell/beast_shape_i">beast shape I</Link> spell, except as noted here. The effect lasts for 1 hour per druid level, or until you change back. The form chosen must be that of an animal with which you are familiar.</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
+<Pair title="At 6th Level">You can <em>wild shape</em> twice a day as <Link to="/spell/beast_shape_ii">beast shape II</Link>, and you can now change into a Large or Tiny animal.</Pair>
+<Pair title="At 8th Level">You can <em>wild shape</em> 3 times/day as <Link to="/spell/beast_shape_iii">beast shape III</Link>, and you can now change into a Huge or Diminutive animal.</Pair>
+<Pair title="Special">You lose your ability to speak while in animal form because you are limited to the sounds that a normal, untrained animal can make, but you can communicate normally with other animals of the same general grouping as your new form.</Pair>
+</Ability>
+<p><strong className="hl">The following rage powers complement the serpent herald archetype:</strong> <Link to="/ragepower/animal_fury">animal fury</Link>, <Link to="/ragepower/battle_roar">battle roar</Link>, <Link to="/ragepower/knockback">knockback</Link>, <Link to="/ragepower/knockdown">knockdown</Link>, <Link to="/ragepower/linnorm_death_curse">linnorm death curse</Link> (any), <Link to="/ragepower/low_light_vision">low-light vision</Link>, <Link to="/ragepower/sprint">sprint</Link>, <Link to="/ragepower/swift_foot">swift foot</Link></p></>};
 const _spell_warrior = {title: "Spell Warrior", jsx: <><h2 id="arc-skald-spell_warrior-spell-warrior">Spell Warrior</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 116</Link><br/>The spell warrior uses his arcane knowledge rather than his rage to turn the tide of battle in favor of himself and his allies. With a clash of bracers and a sonorous chant, the Spell Warrior's song reaches out to touch the weapons of his allies, lending them arcane power. While his song does not inspire rage, he can use the power of his music to enchant the weapons of his allies and counter the spells of his foes.</p>
-<p><strong>Improved Counterspell:</strong> At 1st level, the spell warrior receives the <Link to="/feat/improved_counterspell">Improved Counterspell</Link> feat as a bonus feat.</p>
-<p>This ability replaces <strong className="hl">Scribe Scroll</strong>.</p>
-<p><strong>Weapon Song (Su):</strong> A spell warrior gains the following raging song, allowing him to grant his ally's weapons enhancement bonuses and special powers.</p>
-<blockquote>
-<p><strong>Enhance Weapons (Su):</strong> At 1st level, the spell warrior can grant a +1 enhancement bonus to the weapons (including ammunition) of allies within 60 feet. At 5th level and every 5 levels thereafter, this enhancement bonus increases by 1. The maximum bonus gained is based upon the number of weapons affected: +5 to one weapon, +4 to two weapons, +3 to three weapons, or +2 to four or more weapons. Fifty pieces of ammunition count as one weapon for this purpose. The wielder of a weapon enhanced by this raging song counts as if he were under the effect of an inspired rage raging song for all purposes involving the skald's rage powers.</p>
+<Ability id="arc-skald-spell_warrior-improved-counterspell" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-spell_warrior-improved-counterspell">Improved Counterspell</Pair>
+<Pair hl title="Replaces">Scribe Scroll</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The spell warrior receives the <Link to="/feat/improved_counterspell">Improved Counterspell</Link> feat as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-skald-spell_warrior-weapon-song-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-spell_warrior-weapon-song-su">Weapon Song (Su)</Pair>
+<Pair title="Ability">A spell warrior gains the following <em>raging song,</em> allowing him to grant his ally's weapons enhancement bonuses and special powers.</Pair>
+</Ability>
+<Ability id="arc-skald-spell_warrior-enhance-weapons-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-skald-spell_warrior-enhance-weapons-su">Enhance Weapons (Su)</Pair>
+<Pair hl title="Replaces">Inspired rage</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability"><p>The spell warrior can grant an enhancement bonus to the weapons (including ammunition) of allies within 60 feet. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of his skald level. The maximum bonus gained is based upon the number of weapons affected: +5 to one weapon, +4 to two weapons, +3 to three weapons, or +2 to four or more weapons. Fifty pieces of ammunition count as one weapon for this purpose. The wielder of a weapon enhanced by this <em>raging song</em> counts as if he were under the effect of an <em>inspired rage raging song</em> for all purposes involving the skald's rage powers.</p>
 <p>These bonuses can also be used to add any of the following weapon special abilities to the weapons enhanced by this ability: <Link to="/magic-enh/dancing">dancing</Link>, <Link to="/magic-enh/defending">defending</Link>, <Link to="/magic-enh/distance">distance</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/ghost_touch">ghost touch</Link>, <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/mighty_cleaving">mighty cleaving</Link>, <Link to="/magic-enh/returning">returning</Link>, <Link to="/magic-enh/shock">shock</Link>, <Link to="/magic-enh/seeking">seeking</Link>, or <Link to="/magic-enh/speed">speed</Link>. Adding these weapon special abilities consumes an amount of bonus equal to the <Link to="/main/magic_enhancements">special ability's cost</Link>. These enhancement bonuses and special abilities overlap with any enhancements or special abilities the weapon already has, though duplicate special abilities do not stack. If an affected weapon is not magical, at least a +1 enhancement bonus must be added before any other special abilities can be.</p>
-<p>The bonus and special abilities granted by this raging song are determined when the song begins, and cannot be changed until the raging song ends and another is begun. These bonuses apply to only one end of a double weapon.</p>
-</blockquote>
-<p>This ability replaces the <strong className="hl">inspired rage</strong> raging song.</p>
-<p><strong>Greater Counterspell (Su):</strong> At 5th level, the spell warrior gains increased versatility when attempting to counteract enemy spellcasting. When counterspelling, he can expend two skald spell slots of the same level or higher than the opponent's spell, regardless of the school of that spell.</p>
-<p>At 11th level, when counterspelling an opponent's spell, the spell warrior only has to expend one skald spell slot of the level of the spell being cast.</p>
-<p>At 17th level, the spell warrior gains <Link to="/feat/parry_spell">Parry Spell</Link> as a bonus feat. The skald does not have to meet the prerequisites for this feat.</p>
-<p>This ability replaces <strong className="hl">spell kenning</strong>.</p>
-<p><strong>Song of Arcane Manipulation (Su):</strong> At 10th level, a spell warrior can sacrifice his own rage magic to counter an opponent's spell. When using raging song, he can counterspell as an immediate action without interrupting his raging song. However, in addition to expending a spell slot (or spell slots) to attempt to counter the opponent's spell, the skald must expend 1 round of raging song per spell level of the opponent's spell (for example, if attempting to counterspell a 3rd-level spell, the skald must expend one of his own 3rd-level spell slots and 3 rounds of raging song).</p>
-<p>This ability replaces the <strong className="hl">dirge of doom</strong> raging song.</p>
-<p><strong>Spell Tamper (Su):</strong> At 20th level, when a spell warrior successfully counterspells an opponent's spell, the opponent suffers a backlash of magical energy and takes 1d6 points of damage per spell level of the countered spell. If the opponent succeeds at a Will saving throw (DC = 10 + 1/2 the skald's level + the skald's Charisma modifier), the damage is reduced by half. This damage is magical and is not subject to damage reduction or energy resistance.</p>
-<p>This ability replaces <strong className="hl">master skald</strong>.</p>
-<p><strong>Rage Powers:</strong> The following rage powers complement the spell warrior archetype: <Link to="/ragepower/clear_mind">clear mind</Link>, <Link to="/ragepower/disruptive">disruptive</Link>, <Link to="/ragepower/eater_of_magic">eater of magic</Link>, <Link to="/ragepower/elemental_rage_greater">elemental rage (lesser, normal, and greater)</Link>, <Link to="/ragepower/energy_resistance">energy resistance</Link>, <Link to="/ragepower/spell_sunder">spell sunder</Link>, <Link to="/ragepower/spellbreaker">spellbreaker</Link>, <Link to="/ragepower/sunder_enchantment">sunder enchantment</Link>, <Link to="/ragepower/superstition">superstition</Link>, and <Link to="/ragepower/witch_hunter">witch hunter</Link>.</p>
-</>};
+</Pair>
+<Pair title="Special">The bonus and special abilities granted by this <em>raging song</em> are determined when the song begins, and cannot be changed until the <em>raging song</em> ends and another is begun. These bonuses apply to only one end of a double weapon.</Pair>
+</Ability>
+<Ability id="arc-skald-spell_warrior-greater-counterspell-su" icon={["upgrade"]}>
+<Pair single id="arc-skald-spell_warrior-greater-counterspell-su" flavor="The spell warrior gains increased versatility when attempting to counteract enemy spellcasting.">Greater Counterspell (Su)</Pair>
+<Pair hl title="Replaces">Spell kenning</Pair>
+<Pair title="At 5th Level">When counterspelling, he can expend two skald spell slots of the same level or higher than the opponent's spell, regardless of the school of that spell.</Pair>
+<Pair title="At 11th Level">When counterspelling an opponent's spell, the spell warrior only has to expend one skald spell slot of the level of the spell being cast.</Pair>
+<Pair title="At 17th Level">The spell warrior gains <Link to="/feat/parry_spell">Parry Spell</Link> as a bonus feat. The skald does not have to meet the prerequisites for this feat.</Pair>
+</Ability>
+<Ability id="arc-skald-spell_warrior-song-of-arcane-manipulation-su" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-spell_warrior-song-of-arcane-manipulation-su" flavor="A spell warrior can sacrifice his own rage magic to counter an opponent's spell.">Song of Arcane Manipulation (Su)</Pair>
+<Pair hl title="Replaces">Dirge of doom</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Immediate Action">When using <em>raging song,</em> he can counterspell without interrupting his <em>raging song.</em> However, in addition to expending a spell slot (or spell slots) to attempt to counter the opponent's spell, the skald must expend 1 round of <em>raging song</em> per spell level of the opponent's spell (for example, if attempting to counterspell a 3rd-level spell, the skald must expend one of his own 3rd-level spell slots and 3 rounds of <em>raging song</em>).</Pair>
+</Ability>
+<Ability id="arc-skald-spell_warrior-spell-tamper-su" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-spell_warrior-spell-tamper-su">Spell Tamper (Su)</Pair>
+<Pair hl title="Replaces">Master skald</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">When a spell warrior successfully counterspells an opponent's spell, the opponent suffers a backlash of magical energy and takes 1d6 points of damage per spell level of the countered spell. If the opponent succeeds at a Will saving throw (DC = 10 + 1/2 the skald's level + the skald's Charisma modifier), the damage is reduced by half. This damage is magical and is not subject to damage reduction or energy resistance.</Pair>
+</Ability>
+<p><strong className="hl">The following rage powers complement the spell warrior archetype:</strong> <Link to="/ragepower/clear_mind">clear mind</Link>, <Link to="/ragepower/disruptive">disruptive</Link>, <Link to="/ragepower/eater_of_magic">eater of magic</Link>, <Link to="/ragepower/elemental_rage">elemental rage</Link> (lesser, normal, and greater), <Link to="/ragepower/energy_resistance">energy resistance</Link>, <Link to="/ragepower/spell_sunder">spell sunder</Link>, <Link to="/ragepower/spellbreaker">spellbreaker</Link>, <Link to="/ragepower/sunder_enchantment">sunder enchantment</Link>, <Link to="/ragepower/superstition">superstition</Link>, <Link to="/ragepower/witch_hunter">witch hunter</Link></p></>};
 const _sunsinger = {title: "Sunsinger", jsx: <><h2 id="arc-skald-sunsinger-sunsinger">Sunsinger</h2>
 <p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East pg. 33</Link><br/>Qadiran sunsingers are particularly religious skalds of Sarenrae who call down their goddess's glory to fill soldiers with fire.</p>
-<p><strong>Alignment:</strong> A sunsinger skald must be lawful good, neutral good, or neutral, and must worship <Link to="/faith/sarenrae">Sarenrae</Link>.</p>
-<p><strong>Pillar of Light (Su):</strong> At 3rd level, a sunsinger skald can use her raging song to call upon her goddess to imbue her with glory and make all who see it pay heed. A great beam of sunlight shines down upon the skald, casting bright light in a 30-foot radius, and allows the skald's raging song to function as the <Link to="/performance/fascinate">fascinate</Link> bardic performance.</p>
-<p>This ability replaces <strong className="hl">song of marching</strong>.</p>
-<p><strong>Channel Solar Energy (Su):</strong> At 5th level, a sunsinger skald can <Link to="/ability/channel_energy">channel energy</Link> as a cleric once per day to heal wounds or harm undead like a good-aligned cleric. When she does so, she fills the area affected by the channeled energy with light, and can outline creatures in the area of effect as per <Link to="/spell/faerie_fire">faerie fire</Link>. The sunsinger uses her skald level as her effective cleric level when channeling positive energy. Undead who are particularly harmed by sunlight take a -2 penalty on saving throws against this channeled energy, and take 1 additional point of damage per die of damage dealt by the effect.</p>
-<p>At 11th level, a sunsinger can channel energy twice per day. At 17th level, she can use this ability three times per day.</p>
-<p>This ability replaces <strong className="hl">spell kenning</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-skald-sunsinger--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must be lawful good, neutral good, or neutral, and must worship <Link to="/faith/sarenrae">Sarenrae</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-skald-sunsinger-pillar-of-light-su" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-sunsinger-pillar-of-light-su" flavor={<>A sunsinger skald can use her <em>raging song</em> to call upon her goddess to imbue her with glory and make all who see it pay heed.</>}>Pillar of Light (Su)</Pair>
+<Pair hl title="Replaces">Song of marching</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A great beam of sunlight shines down upon the skald, casting <Link to="/rule/bright_light">bright light</Link> in a 30-foot radius, and allows the skald's <em>raging song</em> to function as the <Link to="/performance/fascinate">fascinate</Link> bardic performance.</Pair>
+</Ability>
+<Ability id="arc-skald-sunsinger-channel-solar-energy-su" icon={["aura"]}>
+<Pair single id="arc-skald-sunsinger-channel-solar-energy-su">Channel Solar Energy (Su)</Pair>
+<Pair hl title="Replaces">Spell kenning</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">A sunsinger skald can <Link to="/ability/channel_energy">channel energy</Link> as a cleric once per day to heal wounds or harm undead like a good-aligned cleric. When she does so, she fills the area affected by the channeled energy with light, and can outline creatures in the area of effect as per <Link to="/spell/faerie_fire">faerie fire</Link>. The sunsinger uses her skald level as her effective cleric level when channeling positive energy.</Pair>
+<Pair title="At 11th Level">A sunsinger can channel energy twice per day.</Pair>
+<Pair title="At 17th Level">She can use this ability three times per day.</Pair>
+<Pair title="Special">Undead who are particularly harmed by sunlight take a -2 penalty on saving throws against this channeled energy, and take 1 additional point of damage per die of damage dealt by the effect.</Pair>
+</Ability>
 </>};
 const _totem_channeler = {title: "Totem Channeler", jsx: <><h2 id="arc-skald-totem_channeler-totem-channeler">Totem Channeler</h2>
 <p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 24</Link><br/>Some Shoanti skalds discover deeper truths in their tribes' totems. These skalds, known as totem channelers, learn how to share the totems' gifts with their allies in the heat of battle.</p>
-<p><strong>Totemic Versatility (Ex):</strong> When a totem channeler learns a new rage power, he can select from more than one group of <Link to="/arc-barbarian/totem_rage_power">totem rage powers</Link>, even though he normally could not do so. Totem rage powers grant benefits related to a theme, are organized in groups of three, and usually have the word "totem" in their name. When the totem channeler starts an inspired rage raging song, he can add totem rage powers from only one group at a time. He can change the group of added totem rage powers by ending the current inspired rage and starting a new one.</p>
-<p>This replaces <strong className="hl">bardic knowledge</strong> and alters <strong className="hl">rage powers</strong>.</p>
-<p><strong>Tandem Totems (Ex):</strong> At 5th level, when a totem channeler starts an inspired rage raging song and adds a totem rage power, he can add totem rage powers from a different group. Adding or maintaining totem rage powers from the additional group requires spending 1 additional round of raging song each round. He can activate up to two additional totem groups at 11th level and up to three additional totem groups at 17th level. He must spend 1 additional round of raging song each round for each additional totem group. If the totem channeler does not have enough rounds of raging song remaining to maintain his inspired rage, the song ends.</p>
-<p>This replaces <strong className="hl">spell kenning</strong>.</p>
-<p><strong>Totem's Guidance (Su):</strong> At 9th level, the totem channeler can draw strength and protection from his totem powers when he wades into battle with song on his lips. When he adds a totem rage power to his inspired rage, he and his allies gain a +1 insight bonus to AC and on saving throws for the duration of the totem channeler's raging song. At 14th level, this bonus increases to +2. This bonus applies only to the first totem rage power he applies to his inspired rage.</p>
-<p>This replaces <strong className="hl">damage reduction</strong>.</p>
+<Ability id="arc-skald-totem_channeler-totemic-versatility-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-totem_channeler-totemic-versatility-ex">Totemic Versatility (Ex)</Pair>
+<Pair hl title="Replaces">Bardic knowledge</Pair>
+<Pair hl title="Alters">Rage powers</Pair>
+<Pair title="Choice">When a totem channeler learns a new rage power, he can select from more than one group of <Link to="/arc-barbarian/totem_rage_power">totem rage powers</Link>, even though he normally could not do so. Totem rage powers grant benefits related to a theme, are organized in groups of three, and usually have the word "totem" in their name.</Pair>
+<Pair title="Special">When the totem channeler starts an <em>inspired rage raging song,</em> he can add totem rage powers from only one group at a time. He can change the group of added totem rage powers by ending the current <em>inspired rage</em> and starting a new one.</Pair>
+</Ability>
+<Ability id="arc-skald-totem_channeler-tandem-totems-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-totem_channeler-tandem-totems-ex">Tandem Totems (Ex)</Pair>
+<Pair hl title="Replaces">Spell kenning</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">When a totem channeler starts an <em>inspired rage raging song</em> and adds a totem rage power, he can add totem rage powers from a different group. Adding or maintaining totem rage powers from the additional group requires spending 1 additional round of <em>raging song</em> each round.</Pair>
+<Pair title="At 11th Level">He can activate up to two additional totem groups.</Pair>
+<Pair title="At 17th Level">He can add up to three additional totem groups.</Pair>
+<Pair title="Special">He must spend 1 additional round of <em>raging song</em> each round for each additional totem group. If the totem channeler does not have enough rounds of <em>raging song</em> remaining to maintain his <em>inspired rage,</em> the song ends.</Pair>
+</Ability>
+<Ability id="arc-skald-totem_channeler-totems-guidance-su" icon={["upgrade"]}>
+<Pair single id="arc-skald-totem_channeler-totems-guidance-su" flavor="The totem channeler can draw strength and protection from his totem powers when he wades into battle with song on his lips.">Totem's Guidance (Su)</Pair>
+<Pair hl title="Replaces">Damage reduction</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Ability">When he adds a totem rage power to his <em>inspired rage,</em> he and his allies gain a +1 insight bonus to AC and on saving throws for the duration of the totem channeler's <em>raging song.</em></Pair>
+<Pair title="At 14th Level">This bonus increases to +2.</Pair>
+<Pair title="Special">This bonus applies only to the first totem rage power he applies to his <em>inspired rage.</em></Pair>
+</Ability>
 </>};
 const _totemic_skald = {title: "Totemic Skald", jsx: <><h2 id="arc-skald-totemic_skald-totemic-skald">Totemic Skald</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 117</Link><br/>The totemic skald forms a close connection to an animal totem. Through the power of this mystical ally, the skald can change shapes, assuming its form as his own. Additionally, the totem animal grants the skald a measure of its spiritual power that he can share with his allies.</p>
-<p><strong>Totem (Su):</strong> At 3rd level, the totemic skald chooses one animal from the hunter's <Link to="/ability/animal_focus">animal focus</Link> list. Once selected, this choice cannot be changed. This animal becomes the skald's personal totem animal and influences his later abilities. He gains the following rage power.</p>
-<blockquote>
-<p><strong>Song of the Beast (Su):</strong> The totemic skald grants the animal focus abilities of his totem animal (as the hunter's animal focus ability) to all allies affected by his raging song. He treats his skald level as his hunter level for determining the abilities of the animal focus (such as the improvements gained at 8th and 15th level).</p>
-</blockquote>
-<p>This ability replaces the <strong className="hl">rage power</strong> gained at 3rd level.</p>
-<p><strong>Totem Empathy (Ex and Sp):</strong> At 4th level, the totemic skald can improve the attitude of animals of the same type as his totem. This ability functions just like a Diplomacy check to improve the attitude of a person. The skald rolls 1d20 and adds his skald level and his Charisma modifier to determine the totem empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.</p>
-<p>In addition, at 4th level, the totemic skald can cast <Link to="/spell/charm_animal">charm animal</Link> once per day as a spell-like ability, using his skald level as his caster level and his Charisma modifier to determine the DC. This only functions against animals that are of the same type as his totem animal (subject to GM discretion). At 8th level, and every 4 levels thereafter, he can use this ability one additional time per day.</p>
-<p>This ability replaces <strong className="hl">uncanny dodge</strong> and <strong className="hl">improved uncanny dodge</strong>.</p>
-<p><strong>Wild Shape (Su):</strong> At 5th level, a totemic skald gains the ability to wild shape into the form of a Small or Medium version of his totem animal, as the <Link to="/class/druid">druid</Link> class feature. His effective druid level for this ability is equal to his skald level - 1. He can use this ability twice per day at 11th level, and three times per day at 17th level. This doesn't allow the skald to assume other forms, such as elementals, plants, or other kinds of animals.</p>
-<p>When in animal form, the skald is treated as able to speak normally for the purpose of using raging song, but not for using other abilities that require speech (such as spellcasting). The skald uses his class level as his druid level for the purpose of qualifying for feats that affect wild shape (such as <Link to="/feat/wild_speech">Wild Speech</Link>).</p>
-<p>This ability replaces <strong className="hl">spell kenning</strong>.</p>
-<p><strong>Rage Powers:</strong> The following rage powers complement the totemic skald archetype: <Link to="/ragepower/animal_fury">animal fury</Link>, <Link to="/ragepower/beast_totem_greater">beast totem (lesser, normal, and greater)</Link>, <Link to="/ragepower/knockback">knockback</Link>, <Link to="/ragepower/knockdown">knockdown</Link>, <Link to="/ragepower/low_light_vision">low-light vision</Link>, <Link to="/ragepower/primal_scent">primal scent</Link>, <Link to="/ragepower/scent">scent</Link>, <Link to="/ragepower/sprint">sprint</Link>, and <Link to="/ragepower/swift_foot">swift foot</Link>.</p>
-</>};
+<Ability id="arc-skald-totemic_skald-totem-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-totemic_skald-totem-su">Totem (Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Choice">The totemic skald chooses one animal from the hunter's <Link to="/ability/animal_focus">animal focus</Link> list. Once selected, this choice cannot be changed. This animal becomes the skald's personal totem animal and influences his later abilities. He gains the following rage power.</Pair>
+</Ability>
+<Ability id="arc-skald-totemic_skald-song-of-the-beast-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-skald-totemic_skald-song-of-the-beast-su">Song of the Beast (Su)</Pair>
+<Pair hl title="Replaces">Rage power gained at 3rd level</Pair>
+<Pair title="Ability">The totemic skald grants the <em>animal focus</em> abilities of his totem animal (as the hunter's <em>animal focus</em> ability) to all allies affected by his <em>raging song.</em> He treats his skald level as his hunter level for determining the abilities of the animal focus (such as the improvements gained at 8th and 15th level).</Pair>
+</Ability>
+<Ability id="arc-skald-totemic_skald-totem-empathy-ex-and-sp" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-totemic_skald-totem-empathy-ex-and-sp">Totem Empathy (Ex and Sp)</Pair>
+<Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">The totemic skald can improve the attitude of animals of the same type as his totem. This ability functions just like a Diplomacy check to improve the attitude of a person. The skald rolls 1d20 and adds his skald level and his Charisma modifier to determine the totem empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.</Pair>
+<Pair title="Ability">In addition, the totemic skald can cast <Link to="/spell/charm_animal">charm animal</Link> as a spell-like ability, using his skald level as his caster level and his Charisma modifier to determine the DC. He can do this a number of times a day equal to <Link to="/misc/one_fourth">one-fourth</Link> of his skald level. This only functions against animals that are of the same type as his totem animal (subject to GM discretion).</Pair>
+</Ability>
+<Ability id="arc-skald-totemic_skald-wild-shape-su" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-totemic_skald-wild-shape-su">Wild Shape (Su)</Pair>
+<Pair hl title="Replaces">Spell kenning</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">A totemic skald gains the ability to <em>wild shape</em> into the form of a Small or Medium version of his totem animal, as the <Link to="/class/druid">druid</Link> class feature. His effective druid level for this ability is equal to his skald level - 1.</Pair>
+<Pair title="At 11th Level">He can use this ability 2 times per day.</Pair>
+<Pair title="At 17th Level">He can use this ability 3 times per day.</Pair>
+<Pair title="Special">This doesn't allow the skald to assume other forms, such as elementals, plants, or other kinds of animals. When in animal form, the skald is treated as able to speak normally for the purpose of using <em>raging song,</em> but not for using other abilities that require speech (such as spellcasting). The skald uses his class level as his druid level for the purpose of qualifying for feats that affect wild shape (such as <Link to="/feat/wild_speech">Wild Speech</Link>).</Pair>
+</Ability>
+<Ability id="arc-skald-totemic_skald-wild-shape-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-totemic_skald-wild-shape-su" flavor="Relevant text from the druid class ability.">Wild Shape (Su)</Pair>
+<Pair title="Standard Action">You gain the ability to turn yourself into any Small or Medium animal and back again. Your options for new forms include all creatures with the <Link to="/main/monsters_animals">animal</Link> type. This ability functions like the <Link to="/spell/beast_shape_i">beast shape I</Link> spell, except as noted here. The effect lasts for 1 hour per druid level, or until you change back. The form chosen must be that of an animal with which you are familiar.</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
+<Pair title="At 6th Level">You can <em>wild shape</em> twice a day as <Link to="/spell/beast_shape_ii">beast shape II</Link>, and you can now change into a Large or Tiny animal.</Pair>
+<Pair title="At 8th Level">You can <em>wild shape</em> 3 times/day as <Link to="/spell/beast_shape_iii">beast shape III</Link>, and you can now change into a Huge or Diminutive animal.</Pair>
+<Pair title="Special">You lose your ability to speak while in animal form because you are limited to the sounds that a normal, untrained animal can make, but you can communicate normally with other animals of the same general grouping as your new form. (The normal sound a wild parrot makes is a squawk, so changing to this form does not permit speech.)</Pair>
+</Ability>
+<p><strong className="hl">The following rage powers complement the totemic skald archetype:</strong> <Link to="/ragepower/animal_fury">animal fury</Link>, <Link to="/ragepower/beast_totem">beast totem</Link> (lesser, normal, and greater), <Link to="/ragepower/knockback">knockback</Link>, <Link to="/ragepower/knockdown">knockdown</Link>, <Link to="/ragepower/low_light_vision">low-light vision</Link>, <Link to="/ragepower/primal_scent">primal scent</Link>, <Link to="/ragepower/scent">scent</Link>, <Link to="/ragepower/sprint">sprint</Link>, <Link to="/ragepower/swift_foot">swift foot</Link></p></>};
 const _twilight_speaker = {title: "Twilight Speaker", jsx: <><h2 id="arc-skald-twilight_speaker-twilight-speaker">Twilight Speaker</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 12</Link><br/>From the extraordinarily reclusive Snowcaster elves come the twilight speakers, who consider it a sacred duty to seek out and befriend non-elven communities. These elves travel among outsiders as envoys, diplomats, traders, and even spies as events demand. Deeply devoted to the elven goddess Findeladlara, twilight speakers wander far and wide, vigilant for threats to their homes and their people.</p>
-<p>Twilight speaker is a skald archetype that is available only to <Link to="/race/elves">elves</Link>.</p>
-<p><strong>Devout:</strong> A twilight speaker must worship the elven goddess <Link to="/faith/findeladlara">Findeladlara</Link>, and his alignment must be within one step of chaotic good. A twilight speaker who does not meet these requirements cannot use inspired devotion or Findeladlara's blessing.</p>
-<p><strong>Twilight Envoy:</strong> A twilight speaker gains a bonus equal to half his skald level on Bluff, Diplomacy, and Sense Motive checks.</p>
-<p>This replaces <strong className="hl">bardic knowledge</strong>.</p>
-<p><strong>Raging Song (Su):</strong> A twilight speaker gains the following raging songs.</p>
-<blockquote>
-<p><strong>Inspired Devotion (Su):</strong> The twilight speaker inspires fervor rather than fury. Affected allies gain a +1 competence bonus on attack rolls and a +1 morale bonus on saving throws. At 6th, 12th, and 18th levels, these bonuses increase by 1.</p>
-<p><strong>Song of Understanding (Su):</strong> At 6th level, a twilight speaker can use his raging song to create an aura that allows creatures to speak and understand each others' languages. By expending 4 rounds of raging song, the twilight speaker creates an aura that grants him and creatures in a 60-foot <Link to="/misc/spread">spread</Link> centered on him the effects of <Link to="/spell/tongues">tongues</Link>. This aura uses the skald's level as the caster level for all purposes, including duration. A twilight speaker can dismiss this aura as a standard action.</p>
-<p><strong>Song of Secrecy (Su):</strong> At 10th level, a twilight speaker can use his song to shroud allies from detection. Affected allies gain a bonus equal to half the twilight speaker's skald level on Stealth checks, and they can attempt such checks without cover or concealment. Song of secrecy is audible only to those affected.</p>
-</blockquote>
-<p>This replaces <strong className="hl">inspired rage</strong>, <strong className="hl">song of strength</strong>, and <strong className="hl">dirge of doom</strong>.</p>
-<p><strong>Community Domain:</strong> At 2nd level, a twilight speaker gains the <Link to="/domain/community">Community</Link> domain and gains the powers and spells of the domain. He treats his skald level as his cleric level, and he uses his Charisma modifier in place of his Wisdom modifier for the purposes of the domain's abilities.</p>
-<p>This replaces <strong className="hl">versatile performance</strong> and <strong className="hl">well-versed</strong>.</p>
-<p><strong>Findeladlara's Blessing (Su):</strong> At 7th level, once per day a twilight speaker can activate any spell trigger or spell completion item as though the spell were on the skald spell list. He can use this ability an additional time per day at 13th and 19th levels.</p>
-<p>This ability replaces <strong className="hl">lore master</strong>.</p>
-<p><strong>Findeladlara's Hand:</strong> At 20th level, the twilight speaker can use Findeladlara's blessing at will.</p>
-<p>This replaces <strong className="hl">master skald</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-skald-twilight_speaker--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-skald-twilight_speaker-devout" icon={["hazard-sign"]}>
+<Pair single id="arc-skald-twilight_speaker-devout">Devout</Pair>
+<Pair title="Ability">A twilight speaker must worship the elven goddess <Link to="/faith/findeladlara">Findeladlara</Link>, and his alignment must be within one step of chaotic good. A twilight speaker who does not meet these requirements cannot use <em>inspired devotion</em> or <em>Findeladlara's blessing.</em></Pair>
+</Ability>
+<Ability id="arc-skald-twilight_speaker-twilight-envoy" icon={["upgrade"]}>
+<Pair single id="arc-skald-twilight_speaker-twilight-envoy">Twilight Envoy</Pair>
+<Pair hl title="Replaces">Bardic knowledge</Pair>
+<Pair title="Passive Ability">A twilight speaker gains a bonus equal to half his skald level on Bluff, Diplomacy, and Sense Motive checks.</Pair>
+</Ability>
+<Ability id="arc-skald-twilight_speaker-raging-song-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-twilight_speaker-raging-song-su">Raging Song (Su)</Pair>
+<Pair title="Info">A twilight speaker gains the following <em>raging songs.</em></Pair>
+</Ability>
+<Ability id="arc-skald-twilight_speaker-inspired-devotion-su" extraClasses="subAbility" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-skald-twilight_speaker-inspired-devotion-su" flavor="The twilight speaker inspires fervor rather than fury.">Inspired Devotion (Su)</Pair>
+<Pair title="Ability">Affected allies gain a competence bonus on attack rolls and a morale bonus on saving throws. Both of these bonuses are equal to 1 + <Link to="/misc/one_sixth">one-sixth</Link> of his skald level.</Pair>
+</Ability>
+<Ability id="arc-skald-twilight_speaker-song-of-understanding-su" extraClasses="subAbility" icon={["aura","stairs-goal"]}>
+<Pair single id="arc-skald-twilight_speaker-song-of-understanding-su">Song of Understanding (Su)</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">A twilight speaker can use his <em>raging song</em> to create an aura that allows creatures to speak and understand each others' languages. By expending 4 rounds of <em>raging song,</em> the twilight speaker creates an aura that grants him and creatures in a 60-foot <Link to="/misc/spread">spread</Link> centered on him the effects of <Link to="/spell/tongues">tongues</Link>. This aura uses the skald's level as the caster level for all purposes, including duration. A twilight speaker can dismiss this aura as a <strong className="hl">standard action</strong>.</Pair>
+</Ability>
+<Ability id="arc-skald-twilight_speaker-song-of-secrecy-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-skald-twilight_speaker-song-of-secrecy-su">Song of Secrecy (Su)</Pair>
+<Pair hl title="Replaces">Inspired rage, song of strength, dirge of doom</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">A twilight speaker can use his song to shroud allies from detection. Affected allies gain a bonus equal to half the twilight speaker's skald level on Stealth checks, and they can attempt such checks without <Link to="/rule/cover">cover</Link> or <Link to="/rule/concealment">concealment</Link>. Song of secrecy is audible only to those affected.</Pair>
+</Ability>
+<Ability id="arc-skald-twilight_speaker-community-domain" icon={["magic-swirl","spell-book"]}>
+<Pair single id="arc-skald-twilight_speaker-community-domain">Community Domain</Pair>
+<Pair hl title="Replaces">Versatile performance, well-versed</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A twilight speaker gains the <Link to="/domain/community">Community</Link> domain and gains the powers and spells of the domain. He treats his skald level as his cleric level, and he uses his Charisma modifier in place of his Wisdom modifier for the purposes of the domain's abilities.</Pair>
+</Ability>
+<Ability id="arc-skald-twilight_speaker-findeladlaras-blessing-su" icon={["upgrade"]}>
+<Pair single id="arc-skald-twilight_speaker-findeladlaras-blessing-su">Findeladlara's Blessing (Su)</Pair>
+<Pair hl title="Replaces">Lore master</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">Once per day a twilight speaker can activate any spell trigger or spell completion item as though the spell were on the skald spell list.</Pair>
+<Pair title="At 13th Level">He can use this ability twice a day.</Pair>
+<Pair title="At 19th Level">He can use this three times a day.</Pair>
+</Ability>
+<Ability id="arc-skald-twilight_speaker-findeladlaras-hand" icon={["upgrade"]}>
+<Pair single id="arc-skald-twilight_speaker-findeladlaras-hand">Findeladlara's Hand</Pair>
+<Pair hl title="Replaces">Master skald</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">The twilight speaker can use <em>Findeladlara's blessing</em> at will.</Pair>
+</Ability>
 </>};
 const _undying_word = {title: "Undying Word", jsx: <><h2 id="arc-skald-undying_word-undying-word">Undying Word</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 5</Link><br/>Some who have survived the Mana Wastes cannot accept defeat, and those who have learned to speak the undying word can lend others the strength to endure.</p>

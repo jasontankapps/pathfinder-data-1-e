@@ -1309,7 +1309,7 @@ const _star_watcher = {title: "Star Watcher", jsx: <><h2 id="arc-investigator-st
 </Ability>
 <Ability id="arc-investigator-star_watcher-shooting-star-ex" extraClasses="subAbility" icon={["upgrade"]}>
 <Pair single id="arc-investigator-star_watcher-shooting-star-ex" flavor="A star watcher can calculate trajectories with terrifying accuracy.">Shooting Star (Ex)</Pair>
-<Pair title="Ability">He can apply the benefits of <em>studied combat,</em> <em>studied strike,</em> and investigator talents that add effects to <em>studied combat</em> or <em>studied strike</em> while using a starknife as a thrown weapon.</Pair>
+<Pair title="Ability">He can apply the benefits of <em>studied combat, studied strike,</em> and investigator talents that add effects to <em>studied combat</em> or <em>studied strike</em> while using a starknife as a thrown weapon.</Pair>
 </Ability>
 <Ability id="arc-investigator-star_watcher-returning-star-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
 <Pair single id="arc-investigator-star_watcher-returning-star-ex">Returning Star (Ex)</Pair>

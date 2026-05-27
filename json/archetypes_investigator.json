@@ -814,7 +814,7 @@
 			"",
 			"::ab[Precognition (Su)]{prereq=\"4th-level investigator\" next icon=magic flavor=\"A star watcher can glimpse into the mysterious possibilities of the future and prepare a horoscope he knows he'll need later.\" swift=\"Once per day, a star watcher can treat an open extract slot as though he had prepared a horoscope keyed to himself in it, choosing one formula of the appropriate level from his formula book.\"}",
 			"",
-			"::ab[Shooting Star (Ex)]{next flavor=\"A star watcher can calculate trajectories with terrifying accuracy.\" icon=boost ability=\"He can apply the benefits of *studied combat,* *studied strike,* and investigator talents that add effects to *studied combat* or *studied strike* while using a starknife as a thrown weapon.\"}",
+			"::ab[Shooting Star (Ex)]{next flavor=\"A star watcher can calculate trajectories with terrifying accuracy.\" icon=boost ability=\"He can apply the benefits of *studied combat, studied strike,* and investigator talents that add effects to *studied combat* or *studied strike* while using a starknife as a thrown weapon.\"}",
 			"",
 			"::ab[Returning Star (Ex)]{next prereq=\"*Shooting Star* talent\" icon=power ability=\"Whenever the star watcher uses a starknife as a thrown weapon against a target of his *studied combat,* the starknife automatically returns as if it had the ‹magic-enh/returning› property.\"}"
 		]
