@@ -620,6 +620,24 @@
 			"Once per rage, the barbarian can make a trip attack against one target in place of a melee attack. If successful, the target takes damage equal to the barbarian's Strength modifier and is knocked ‹rule/prone›. This does not provoke an attack of opportunity."
 		]
 	},
+	"linnorm_death_curse": {
+		"name": "Linnorm Death Curse",
+		"category": "Disambiguation",
+		"disambiguation": true,
+		"description": [
+			"## Linnorm Death Curse",
+			"",
+			"\"Linnorm Death Curse\" can refer to seven different rage powers.",
+			"",
+			"1. ‹ragepower/Cairn Linnorm Death Curse›",
+			"2. ‹ragepower/Crag Linnorm Death Curse›",
+			"3. ‹ragepower/Fjord Linnorm Death Curse›",
+			"4. ‹ragepower/Ice Linnorm Death Curse›",
+			"5. ‹ragepower/Taiga Linnorm Death Curse›",
+			"6. ‹ragepower/Tarn Linnorm Death Curse›",
+			"7. ‹ragepower/Tor Linnorm Death Curse›"
+		]
+	},
 	"cairn_linnorm_death_curse": {
 		"name": "Cairn Linnorm Death Curse",
 		"nameSuffix": "(Su)",

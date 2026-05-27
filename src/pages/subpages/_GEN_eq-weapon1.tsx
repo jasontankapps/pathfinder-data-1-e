@@ -254,23 +254,23 @@ const _fiery_boulder = {title: "Fiery boulder", topLink: ["Alchemical Weapons","
 const _fireworks = {title: "Fireworks", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], notBookmarkable: true, jsx: <><h2 id="eq-weapon-fireworks-fireworks">Fireworks</h2>
 <p>"Fireworks" can refer to seventeen different types of firework.</p>
 <ol>
-<li>Firework (banshee ballerina)</li>
-<li>Firework (coughing dragon)</li>
-<li>Firework (dancing peonies)</li>
-<li>Firework (fire wheel)</li>
-<li>Firework (firecracker)</li>
-<li>Firework (firecracker, spirit)</li>
-<li>Firework (flame fountain)</li>
-<li>Firework (flashing fiend)</li>
-<li>Firework (holy fountain)</li>
-<li>Firework (jumping jenny)</li>
-<li>Firework (paper candle)</li>
-<li>Firework (signal rocket)</li>
-<li>Firework (skydragon)</li>
-<li>Firework (skyrocket)</li>
-<li>Firework (sparking pinwheel)</li>
-<li>Firework (star candle)</li>
-<li>Firework (starfountain)</li>
+<li><Link to="/eq-weapon/firework_banshee_ballerina">Firework (banshee ballerina)</Link></li>
+<li><Link to="/eq-weapon/firework_coughing_dragon">Firework (coughing dragon)</Link></li>
+<li><Link to="/eq-weapon/firework_dancing_peonies">Firework (dancing peonies)</Link></li>
+<li><Link to="/eq-weapon/firework_fire_wheel">Firework (fire wheel)</Link></li>
+<li><Link to="/eq-weapon/firework_firecracker">Firework (firecracker)</Link></li>
+<li><Link to="/eq-weapon/firework_firecracker_spirit">Firework (firecracker, spirit)</Link></li>
+<li><Link to="/eq-weapon/firework_flame_fountain">Firework (flame fountain)</Link></li>
+<li><Link to="/eq-weapon/firework_flashing_fiend">Firework (flashing fiend)</Link></li>
+<li><Link to="/eq-weapon/firework_holy_fountain">Firework (holy fountain)</Link></li>
+<li><Link to="/eq-weapon/firework_jumping_jenny">Firework (jumping jenny)</Link></li>
+<li><Link to="/eq-weapon/firework_paper_candle">Firework (paper candle)</Link></li>
+<li><Link to="/eq-weapon/firework_signal_rocket">Firework (signal rocket)</Link></li>
+<li><Link to="/eq-weapon/firework_skydragon">Firework (skydragon)</Link></li>
+<li><Link to="/eq-weapon/firework_skyrocket">Firework (skyrocket)</Link></li>
+<li><Link to="/eq-weapon/firework_sparking_pinwheel">Firework (sparking pinwheel)</Link></li>
+<li><Link to="/eq-weapon/firework_star_candle">Firework (star candle)</Link></li>
+<li><Link to="/eq-weapon/firework_starfountain">Firework (starfountain)</Link></li>
 </ol>
 </>};
 const _firework_banshee_ballerina = {title: "Firework (banshee ballerina)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_banshee_ballerina-firework-banshee-ballerina">Firework (banshee ballerina)</h2>
