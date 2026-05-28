@@ -734,78 +734,186 @@ const _twilight_speaker = {title: "Twilight Speaker", jsx: <><h2 id="arc-skald-t
 </>};
 const _undying_word = {title: "Undying Word", jsx: <><h2 id="arc-skald-undying_word-undying-word">Undying Word</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 5</Link><br/>Some who have survived the Mana Wastes cannot accept defeat, and those who have learned to speak the undying word can lend others the strength to endure.</p>
-<p><strong>Bonus Feat:</strong> At 1st level and every 6 skald levels thereafter, an undying word gains a bonus feat in addition to those gained from normal advancement. He must meet the prerequisites for the feat, and it must include Endurance as a prerequisite or be selected from the following list: <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, or <Link to="/feat/improved_great_fortitude">Improved Great Fortitude</Link>.</p>
-<p>This replaces <strong className="hl">scribe scroll</strong> and <strong className="hl">lore master</strong>.</p>
-<p><strong>Undying Song (Su):</strong> An undying word gains the following raging songs, granting his allies the ability to withstand punishment.</p>
-<blockquote>
-<p><strong>Inspire Resilience (Su):</strong> At 1st level, the undying word can grant his companions supernatural endurance. This functions as inspired rage, but it grants neither a bonus to his allies' Strength nor a -1 penalty to their AC.</p>
-<p>This raging song replaces inspired rage.</p>
-<p><strong>Song of Defiance (Su):</strong> At 6th level, an undying word can shield his allies against the environment. By expending 1 round of raging song, the undying word grants all allies within 60 feet the effects of <Link to="/spell/endure_elements">endure elements</Link> for the next hour. The undying word must continue to perform for the remainder of the hour; otherwise its effects end, but only 1 round of raging song is expended for that hour.</p>
-<p>This raging song replaces song of strength.</p>
-<p><strong>Dirge of Determination (Su):</strong> At 10th level, an undying word can urge his allies within 30 feet to overcome hardships. Affected allies treat ability damage, ability drain, and penalties to ability scores as though each were 2 lower. This reduction increases to 4 at 15th level, and to 6 at 20th level. The undying word can never reduce a penalty below 0 or increase an ability score beyond its original value in this manner.</p>
-<p>This raging song replaces dirge of doom.</p>
-</blockquote>
-<p><strong>Endurance Power (Su):</strong> At 5th level and every 6 skald levels thereafter, an undying word learns an additional rage power that affects him and any allies under the influence of his inspire resilience. This rage power must be selected from the following list: <Link to="/ragepower/clear_mind">clear mind</Link>, <Link to="/ragepower/energy_absorption">energy absorption</Link>, <Link to="/ragepower/energy_resistance">energy resistance</Link>, <Link to="/ragepower/flesh_wound">flesh wound</Link>, <Link to="/ragepower/greater_energy_resistance">greater energy resistance</Link>, <Link to="/ragepower/greater_guarded_life">greater guarded life</Link>, <Link to="/ragepower/guarded_life">guarded life</Link>, <Link to="/ragepower/increased_damage_reduction">increased damage reduction</Link>, <Link to="/ragepower/internal_fortitude">internal fortitude</Link>, or <Link to="/ragepower/superstition">superstition</Link>. This otherwise functions as the skald's rage powers ability.</p>
-<p>This replaces <strong className="hl">spell kenning</strong>.</p>
+<Ability id="arc-skald-undying_word-bonus-feat" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-undying_word-bonus-feat">Bonus Feat</Pair>
+<Pair hl title="Replaces">Scribe scroll, lore master</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">An undying word gains a bonus feat in addition to those gained from normal advancement. He must meet the prerequisites for the feat, and it must include Endurance as a prerequisite or be selected from the following list: <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, or <Link to="/feat/improved_great_fortitude">Improved Great Fortitude</Link>.</Pair>
+<Pair title="At 7th Level">He gains another bonus feat, following the restrictions above.</Pair>
+<Pair title="At 13th Level">He gains another bonus feat, following the restrictions above.</Pair>
+<Pair title="At 19th Level">He gains another bonus feat, following the restrictions above.</Pair>
+</Ability>
+<Ability id="arc-skald-undying_word-undying-song-su" extraClasses="hasSubs" icon={["info"]}>
+<Pair single id="arc-skald-undying_word-undying-song-su">Undying Song (Su)</Pair>
+<Pair title="Info">An undying word gains the following <em>raging songs,</em> granting his allies the ability to withstand punishment.</Pair>
+</Ability>
+<Ability id="arc-skald-undying_word-inspire-resilience-su" extraClasses="subAbility" icon={["broken-shield","armor-upgrade"]}>
+<Pair single id="arc-skald-undying_word-inspire-resilience-su">Inspire Resilience (Su)</Pair>
+<Pair hl title="Replaces">Inspired rage</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The undying word can grant his companions supernatural endurance. This functions as <em>inspired rage,</em> but it grants neither a bonus to his allies' Strength nor a -1 penalty to their AC.</Pair>
+</Ability>
+<Ability id="arc-skald-undying_word-song-of-defiance-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-undying_word-song-of-defiance-su" flavor="An undying word can shield his allies against the environment.">Song of Defiance (Su)</Pair>
+<Pair hl title="Replaces">Song of strength</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">By expending 1 round of <em>raging song,</em> the undying word grants all allies within 60 feet the effects of <Link to="/spell/endure_elements">endure elements</Link> for the next hour. The undying word must continue to perform for the remainder of the hour; otherwise its effects end, but only 1 round of <em>raging song</em> is expended for that hour.</Pair>
+</Ability>
+<Ability id="arc-skald-undying_word-dirge-of-determination-su" extraClasses="subAbility" icon={["remedy"]}>
+<Pair single id="arc-skald-undying_word-dirge-of-determination-su" flavor="An undying word can urge his allies within 30 feet to overcome hardships.">Dirge of Determination (Su)</Pair>
+<Pair hl title="Replaces">Dirge of doom</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Passive Ability">Affected allies treat <Link to="/rule/ability_damage">ability damage, ability drain</Link>, and penalties to ability scores as though each were 2 lower.</Pair>
+<Pair title="At 15th Level">This reduction becomes 4.</Pair>
+<Pair title="At 20th Level">This reduction increases to 6.</Pair>
+<Pair title="Special">The undying word can never reduce a penalty below 0 or increase an ability score beyond its original value in this manner.</Pair>
+</Ability>
+<Ability id="arc-skald-undying_word-endurance-power-su" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-undying_word-endurance-power-su">Endurance Power (Su)</Pair>
+<Pair hl title="Replaces">Spell kenning</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">An undying word learns an additional rage power that affects him and any allies under the influence of his <em>inspire resilience.</em> This rage power must be selected from the following list: <Link to="/ragepower/clear_mind">clear mind</Link>, <Link to="/ragepower/energy_absorption">energy absorption</Link>, <Link to="/ragepower/energy_resistance">energy resistance</Link>, <Link to="/ragepower/flesh_wound">flesh wound</Link>, <Link to="/ragepower/greater_energy_resistance">greater energy resistance</Link>, <Link to="/ragepower/greater_guarded_life">greater guarded life</Link>, <Link to="/ragepower/guarded_life">guarded life</Link>, <Link to="/ragepower/increased_damage_reduction">increased damage reduction</Link>, <Link to="/ragepower/internal_fortitude">internal fortitude</Link>, or <Link to="/ragepower/superstition">superstition</Link>. This otherwise functions as the skald's <em>rage powers</em> ability.</Pair>
+<Pair title="At 11th Level">He learns another rage power, following the restrictions above.</Pair>
+<Pair title="At 17th Level">He learns another rage power, following the restrictions above.</Pair>
+</Ability>
 </>};
 const _urban_skald = {title: "Urban Skald", jsx: <><h2 id="arc-skald-urban_skald-urban-skald">Urban Skald</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 25</Link><br/>The urban skald finds that challenging and mocking foes is sometimes more effective than inspiring uncontrolled rage in a city.</p>
-<p><strong>Weapon and Armor Proficiency:</strong> An urban skald is not proficient with medium armor. This ability modifies the skald's weapon and armor proficiencies.</p>
-<p><strong>Raging Song (Su):</strong> An urban skald gains a different selection of raging songs, as noted below. The save DC for a raging song that allows a save is equal to 10 + 1/2 the urban skald's skald level + his Charisma modifier.</p>
-<blockquote>
-<p><strong>Controlled Inspired Rage (Su):</strong> When the urban skald inspires rage, he does not grant the normal benefits. Instead, he can apply a +2 morale bonus to his allies' Strength, Dexterity, or Constitution. This bonus increases to +4 at 8th level and to +6 at 16th level. The urban skald can apply the full bonus to one ability score or split the bonus between several scores in increments of 2. The choice applies to all affected allies. The controlled inspired rage grants no bonus on Will saves, imposes no penalties to AC, and does not prevent affected allies from using Intelligence-, Dexterity-, or Charisma-based skills.</p>
-</blockquote>
-<p>This alters <strong className="hl">inspired rage</strong>.</p>
-<blockquote>
-<p><strong>Infuriating Mockery (Su):</strong> At 3rd level, the urban skald can inspire reckless fury in one foe within 30 feet. If the foe fails a Will saving throw, it takes a -2 penalty to AC and on attack rolls, cannot use any Intelligence-, Dexterity-, or Charisma-based skills, and must succeed at a <Link to="/rule/concentration">concentration</Link> check to cast spells (DC = 15 + spell level) for as long as it remains in range of the skald and the performance is maintained. At 7th level and every 4 levels thereafter, the urban skald can target an additional foe with this ability.</p>
-</blockquote>
-<p>This replaces <strong className="hl">song of marching</strong> and <strong className="hl">damage reduction</strong>.</p>
-<blockquote>
-<p><strong>Humiliating Defamation (Su):</strong> At 10th level, the urban skald can ostracize a foe. The song has one primary target, who the skald must see and name or describe. That target must attempt a Will save. On a failed save, the primary target cannot benefit from any morale bonus or teamwork feats, cannot treat any creature as an ally, and must attempt to save against any spell cast on it (including harmless spells, even if it casts them on itself). These effects remain as long as the primary target can hear the skald and the skald maintains the performance.</p>
-<p>All other foes within 60 feet of the skald are secondary targets. Secondary targets must succeed at Will saves or they cannot treat the primary target as an ally, and cannot target it with spells or abilities that are harmless. These effects remain as long as the secondary targets are within 60 feet of the skald and the skald maintains the performance. This is a sonic mind-affecting charm effect.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">dirge of doom</strong>.</p>
-<p><strong>Back of the Crowd (Ex):</strong> At 3rd level, an urban skald has learned to maximize the defensive benefit of being near allies. He gains a +1 dodge bonus to AC when adjacent to 2 or more allies. This bonus increases to +2 at 9th level and to +3 at 15th level.</p>
+<Ability id="arc-skald-urban_skald-weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Pair single id="arc-skald-urban_skald-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Alters">Weapon and armor proficiencies</Pair>
+<Pair title="Info">An urban skald is not proficient with medium armor.</Pair>
+</Ability>
+<Ability id="arc-skald-urban_skald-raging-song-su" extraClasses="hasSubs" icon={["info"]}>
+<Pair single id="arc-skald-urban_skald-raging-song-su">Raging Song (Su)</Pair>
+<Pair title="Info">An urban skald gains a different selection of <em>raging songs,</em> as noted below. The save DC for a <em>raging song</em> that allows a save is equal to 10 + 1/2 the urban skald's skald level + his Charisma modifier.</Pair>
+</Ability>
+<Ability id="arc-skald-urban_skald-controlled-inspired-rage-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-skald-urban_skald-controlled-inspired-rage-su">Controlled Inspired Rage (Su)</Pair>
+<Pair hl title="Alters">Inspired rage</Pair>
+<Pair title="Ability">When the urban skald <em>inspires rage,</em> he does not grant the normal benefits. Instead, he can apply a +2 morale bonus to his allies' Strength, Dexterity, or Constitution.</Pair>
+<Pair title="At 8th Level">The bonus becomes +2.</Pair>
+<Pair title="At 16th Level">The bonus increases to +3.</Pair>
+<Pair title="Special">The urban skald can apply the full bonus to one ability score or split the bonus between several scores in increments of 2. The choice applies to all affected allies. The controlled <em>inspired rage</em> grants no bonus on Will saves, imposes no penalties to AC, and does not prevent affected allies from using Intelligence-, Dexterity-, or Charisma-based skills.</Pair>
+</Ability>
+<Ability id="arc-skald-urban_skald-infuriating-mockery-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-skald-urban_skald-infuriating-mockery-su">Infuriating Mockery (Su)</Pair>
+<Pair hl title="Replaces">Song of marching, damage reduction</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">The urban skald can inspire reckless fury in one foe within 30 feet. If the foe fails a Will saving throw, it takes a -2 penalty to AC and on attack rolls, cannot use any Intelligence-, Dexterity-, or Charisma-based skills, and must succeed at a <Link to="/rule/concentration">concentration</Link> check to cast spells (DC = 15 + spell level) for as long as it remains in range of the skald and the performance is maintained.</Pair>
+<Pair title="At 7th Level">The urban skald can target an additional foe with this ability.</Pair>
+<Pair title="At 11th Level">The urban skald can target an additional foe with this ability.</Pair>
+<Pair title="At 15th Level">The urban skald can target an additional foe with this ability.</Pair>
+<Pair title="At 19th Level">The urban skald can target an additional foe with this ability.</Pair>
+</Ability>
+<Ability id="arc-skald-urban_skald-humiliating-defamation-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-skald-urban_skald-humiliating-defamation-su">Humiliating Defamation (Su)</Pair>
+<Pair hl title="Replaces">Dirge of doom</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">The urban skald can ostracize a foe. The song has one primary target, who the skald must see and name or describe. That target must attempt a Will save. On a failed save, the primary target cannot benefit from any morale bonus or teamwork feats, cannot treat any creature as an ally, and must attempt to save against any spell cast on it (including harmless spells, even if it casts them on itself). These effects remain as long as the primary target can hear the skald and the skald maintains the performance.</Pair>
+<Pair title="Passive Ability">All other foes within 60 feet of the skald are secondary targets. Secondary targets must succeed at Will saves or they cannot treat the primary target as an ally, and cannot target it with spells or abilities that are harmless. These effects remain as long as the secondary targets are within 60 feet of the skald and the skald maintains the performance.</Pair>
+<Pair title="Special">This is a sonic mind-affecting charm effect.</Pair>
+</Ability>
+<Ability id="arc-skald-urban_skald-back-of-the-crowd-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-skald-urban_skald-back-of-the-crowd-ex" flavor="An urban skald has learned to maximize the defensive benefit of being near allies.">Back of the Crowd (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">He gains a +1 dodge bonus to AC when adjacent to 2 or more allies.</Pair>
+<Pair title="At 9th Level">This bonus becomes +2.</Pair>
+<Pair title="At 15th Level">This bonus increases to +3.</Pair>
+</Ability>
 </>};
 const _war_painter = {title: "War Painter", jsx: <><h2 id="arc-skald-war_painter-war-painter">War Painter</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 10</Link><br/>The gripplis of the Valashmai Jungle exhibit savage strength for their size - attributed in part to the frightful magical pigments applied to their skin by the tribes' mystical lore keepers.</p>
-<p><strong>Furious Paint (Su):</strong> By spending 10 minutes preparing and applying special paints to his or an ally's skin, a war painter can create patterns that store the effects of one of his raging songs. The war painter must expend 1 or more rounds of his raging song class ability while anointing the ally, and the paint retains its potency until the war painter recovers his daily uses of raging song. The ally can activate the paint as a move action, gaining the benefits of the raging song, including any rage powers as appropriate. This effect lasts a number of rounds equal to the rounds of raging song the war painter expended + the war painter's ranks in Craft (calligraphy, paintings, or tattoos) - but no more than double the number of rounds of raging song expended. By halving the remaining number of rounds of raging song, an ally can suspend the paint's effects as a free action and activate the paint again later as a move action.</p>
-<p>A war painter can apply the effects of any feats that affect bardic performance to his furious paint, except effects that extend the effects of performances, such as the <Link to="/feat/lingering_performance">Lingering Performance</Link> feat. A creature can be subject to only one application of furious paint at a time.</p>
-<p>This ability modifies the <strong className="hl">raging song</strong> class feature and does not prevent a war painter from performing other raging songs.</p>
-<p><strong>Thousand Totems (Su):</strong> At 5th level, a war painter can channel a powerful totem into his furious paints while applying the pigments on an ally. This grants the painted ally the benefits of one additional rage power when the ally activates the furious paints. The war painter does not need to know the rage power, but it must be one for which he qualifies. Furthermore, the war painter can select only <Link to="/ability/rage_powers">a blood rage power</Link> or a <Link to="/arc-barbarian/totem_rage_power">totem rage power</Link>. If the war painter already has a different blood rage or totem rage power that would be applied to the painted ally, this new rage power replaces it and any other rage powers that require it as a prerequisite.</p>
-<p>A war painter can use this ability once per day at 5th level, and he gains one additional use at 11th and 17th levels. He can apply this ability multiple times to the same creature, though only to give it rage powers that use the granted rage power as a prerequisite (such as beast totem and greater beast totem).</p>
-<p>This ability replaces <strong className="hl">spell kenning</strong>.</p>
-<p><strong>Arcane Flourish (Su):</strong> At 7th level, once per day as he finishes applying his furious paint to a creature, a war painter can cast one skald spell with a casting time of no more than 1 standard action and infuse the spell into the paint. Once while benefiting from the paint's raging song, the painted ally can use a standard action to cast the infused spell on herself as if the war painter had cast it. The spell ends when the paint's other effects end. A war painter can infuse only a skald spell whose level is at least 2 levels lower than the highest-level skald spell he can cast. He can infuse any targeted spell in a painted ally, even if its range is personal. The war painter can use this ability twice per day at 13th level and three times per day at 19th level.</p>
-<p>This ability replaces <strong className="hl">lore master</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-skald-war_painter--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/grippli">Grippli</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-skald-war_painter-furious-paint-su" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-war_painter-furious-paint-su">Furious Paint (Su)</Pair>
+<Pair hl title="Alters">Raging song</Pair>
+<Pair title="Ability">By spending 10 minutes preparing and applying special paints to his or an ally's skin, a war painter can create patterns that store the effects of one of his <em>raging songs.</em> The war painter must expend 1 or more rounds of his <em>raging song</em> class ability while anointing the ally, and the paint retains its potency until the war painter recovers his daily uses of <em>raging song.</em> The ally can activate the paint as a <strong className="hl">move action</strong>, gaining the benefits of the <em>raging song,</em> including any rage powers as appropriate. This effect lasts a number of rounds equal to the rounds of <em>raging song</em> the war painter expended + the war painter's ranks in <Link to="/skill/craft">Craft</Link> (calligraphy, paintings, or tattoos) - but no more than double the number of rounds of <em>raging song</em> expended.</Pair>
+<Pair title="Free Action">By halving the remaining number of rounds of <em>raging song,</em> an ally can suspend the paint's effects and activate the paint again later as a <strong className="hl">move action</strong>.</Pair>
+<Pair title="Special">A war painter can apply the effects of any feats that affect <Link to="/ability/bardic_performance">bardic performance</Link> to his furious paint, except effects that extend the effects of performances, such as the <Link to="/feat/lingering_performance">Lingering Performance</Link> feat. A creature can be subject to only one application of furious paint at a time. The war painter can still use his <em>raging song</em> ability in the normal way.</Pair>
+</Ability>
+<Ability id="arc-skald-war_painter-thousand-totems-su" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-war_painter-thousand-totems-su">Thousand Totems (Su)</Pair>
+<Pair hl title="Replaces">Spell kenning</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Usage">Once per day</Pair>
+<Pair title="Ability">A war painter can channel a powerful totem into his furious paints while applying the pigments on an ally. This grants the painted ally the benefits of one additional rage power when the ally activates the furious paints. The war painter does not need to know the rage power, but it must be one for which he qualifies. Furthermore, the war painter can select only <Link to="/ability/rage_powers">a blood rage power</Link> or a <Link to="/arc-barbarian/totem_rage_power">totem rage power</Link>. If the war painter already has a different blood rage or totem rage power that would be applied to the painted ally, this new rage power replaces it and any other rage powers that require it as a prerequisite.</Pair>
+<Pair title="At 11th Level">He can use this ability 2 times/day.</Pair>
+<Pair title="At 17th Level">He can use this ability 3 times/day.</Pair>
+<Pair title="Special">He can apply this ability multiple times to the same creature, though only to give it rage powers that use the granted rage power as a prerequisite (such as <Link to="/ragepower/beast_totem">beast totem</Link> and <Link to="/ragepower/greater_beast_totem">greater beast totem</Link>).</Pair>
+</Ability>
+<Ability id="arc-skald-war_painter-arcane-flourish-su" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-war_painter-arcane-flourish-su">Arcane Flourish (Su)</Pair>
+<Pair hl title="Replaces">Lore master</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">Once per day as he finishes applying his furious paint to a creature, a war painter can cast one skald spell with a casting time of no more than 1 standard action and infuse the spell into the paint. Once while benefiting from the paint's <em>raging song,</em> the painted ally can use a <strong className="hl">standard action</strong> to cast the infused spell on herself as if the war painter had cast it. The spell ends when the paint's other effects end.</Pair>
+<Pair title="At 13th Level">The war painter can use this ability twice per day.</Pair>
+<Pair title="At 19th Level">He can use this ability three times per day.</Pair>
+<Pair title="Special">A war painter can infuse only a skald spell whose level is at least 2 levels lower than the highest-level skald spell he can cast. He can infuse any targeted spell in a painted ally, even if its range is personal.</Pair>
+</Ability>
 </>};
 const _warlord = {title: "Warlord", jsx: <><h2 id="arc-skald-warlord-warlord">Warlord</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 49</Link><br/>The warlord wields his force of personality like a weapon, intimidating his allies and ensuring that his followers heed his commands. The warlord doesn't inspire his followers so much as instill fear in them. Always watching his foes for moments of vulnerability, the warlord seeks to exploit his enemies' weaknesses to gain victory.</p>
-<p><strong>Intimidating Prowess:</strong> A warlord gains <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link> as a bonus feat.</p>
-<p>This feat replaces the Scribe Scroll feat.</p>
-<p><strong>Unshakable (Ex):</strong> At 2nd level, a warlord develops an unshakable resolve, gaining a +2 bonus on saving throws against fear effects.</p>
-<p>This ability replaces <strong className="hl">well-versed</strong>.</p>
-<p><strong>Raging Song (Su):</strong> A warlord gains the following raging song.</p>
-<blockquote>
-<p><strong>Fear Me (Su):</strong> At 5th level, the warlord can remind his allies that failing him is far more frightening than the opposition. This raging song works like distraction, except that it applies to saving throws against fear effects instead of patterns and figments, and the warlord attempts an Intimidate check with a -10 penalty instead of a Perform check. Additionally, the warlord's allies can use the warlord's Intimidate check result (with the -10 penalty) as the DC for attempts to demoralize them using Intimidate.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">spell kenning</strong>.</p>
-<p><strong>Minions (Ex):</strong> At 7th level, a warlord attracts a group of followers through his fearsome reputation and gains the <Link to="/feat/leadership">Leadership</Link> feat as a bonus feat.</p>
-<p>This replaces the <strong className="hl">lore master</strong> ability.</p>
-<p><strong>Intimidated Push (Ex):</strong> At 8th level, a warlord inspires fear in his cohort and followers, ensuring they do not fail and thus suffer his wrath. When he uses inspired rage, his cohort increases her morale bonus on Will saves from inspired rage by 1 and his followers increase their morale bonuses on Will saves from inspired rage by 2.</p>
-<p>This replaces <strong className="hl">improved uncanny dodge</strong>.</p>
+<Ability id="arc-skald-warlord-intimidating-prowess" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-warlord-intimidating-prowess">Intimidating Prowess</Pair>
+<Pair hl title="Replaces">Scribe Scroll feat</Pair>
+<Pair title="Ability">A warlord gains <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-skald-warlord-unshakable-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-skald-warlord-unshakable-ex">Unshakable (Ex)</Pair>
+<Pair hl title="Replaces">Well-versed</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">A warlord develops an unshakable resolve, gaining a +2 bonus on saving throws against fear effects.</Pair>
+</Ability>
+<Ability id="arc-skald-warlord-raging-song-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-warlord-raging-song-su">Raging Song (Su)</Pair>
+<Pair title="Info">A warlord gains the following <em>raging song.</em></Pair>
+</Ability>
+<Ability id="arc-skald-warlord-fear-me-su" extraClasses="subAbility" icon={["shield-reflect"]}>
+<Pair single id="arc-skald-warlord-fear-me-su">Fear Me (Su)</Pair>
+<Pair hl title="Replaces">Spell kenning</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">The warlord can remind his allies that failing him is far more frightening than the opposition. This <em>raging song</em> works like <Link to="/performance/distraction">distraction</Link>, except that it applies to saving throws against fear effects instead of patterns and figments, and the warlord attempts an Intimidate check with a -10 penalty instead of a Perform check. Additionally, the warlord's allies can use the warlord's Intimidate check result (with the -10 penalty) as the DC for attempts to demoralize them using Intimidate.</Pair>
+</Ability>
+<Ability id="arc-skald-warlord-distraction" extraClasses="subAbility" icon={["armor-upgrade","shield-reflect"]}>
+<Pair single id="arc-skald-warlord-distraction" flavor={<>Text from the <em>distraction</em> ability</>}>Distraction</Pair>
+<Pair title="Ability">A bard can use his performance to counter magic effects that depend on sight. Each round of the <em>distraction,</em> he makes a Perform (act, comedy, dance, or oratory) skill check. Any creature within 30 feet of the bard (including the bard himself) that is affected by an illusion (pattern) or illusion (figment) magical attack may use the bard's Perform check result in place of its saving throw if, after the saving throw is rolled, the Perform skill check proves to be higher. If a creature within range of the <em>distraction</em> is already under the effect of a non-instantaneous illusion (pattern) or illusion (figment) magical attack, it gains another saving throw against the effect each round it sees the <em>distraction,</em> but it must use the bard's Perform skill check result for the save. <em>Distraction</em> does not work on effects that don't allow saves. <em>Distraction</em> relies on visual components.</Pair>
+</Ability>
+<Ability id="arc-skald-warlord-minions-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-warlord-minions-ex">Minions (Ex)</Pair>
+<Pair hl title="Replaces">Lore master</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A warlord attracts a group of followers through his fearsome reputation and gains the <Link to="/feat/leadership">Leadership</Link> feat as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-skald-warlord-intimidated-push-ex" icon={["upgrade"]}>
+<Pair single id="arc-skald-warlord-intimidated-push-ex">Intimidated Push (Ex)</Pair>
+<Pair hl title="Replaces">Improved uncanny dodge</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">A warlord inspires fear in his cohort and followers, ensuring they do not fail and thus suffer his wrath. When he uses <em>inspired rage,</em> his cohort increases her morale bonus on Will saves from <em>inspired rage</em> by 1 and his followers increase their morale bonuses on Will saves from <em>inspired rage</em> by 2.</Pair>
+</Ability>
 </>};
 const _wyrm_singer = {title: "Wyrm Singer", jsx: <><h2 id="arc-skald-wyrm_singer-wyrm-singer">Wyrm Singer</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons pg. 14</Link><br/>Wyrm singers spin fragments of the story of the ongoing struggle between noble Apsu and wicked Dahak.</p>
-<p><strong>Wyrm Song (Su):</strong> A wyrm singer gains the following raging songs.</p>
-<blockquote>
-<p><strong>Draconic Rage (Su):</strong> At 1st level, a wyrm singer can kindle an echo of ancient rage felt between warring dragon clans in his allies. This ability acts as inspired rage, except those affected gain a +2 morale bonus on melee attack and damage rolls and a +2 morale bonus on saving throws against paralysis and sleep effects (but they still take a -1 penalty to their AC), rather than inspired rage's normal bonuses. At 4th level and every 4 skald levels thereafter, the song's bonuses on saves against paralysis and sleep effects increase by 1. At 8th and 16th levels, the song's bonus on melee attack and damage rolls increases by 1.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">inspired rage</strong>.</p>
-<blockquote>
-<p><strong>Wyrm Saga (Su):</strong> At 14th level, a wyrm singer embraces the essence of the draconic histories, allowing his allies to manifest aspects of a dragon in their physical forms. The wyrm singer selects a single ally within 60 feet to take on a draconic aspect (as per <Link to="/spell/form_of_the_dragon_i">form of the dragon I</Link>) of a type of the wyrm singer's choice. The ally cannot use the breath weapon attack provided by form of the dragon. The wyrm singer must expend 1 round of raging song each round to maintain wyrm saga, and can affect only a single ally at a time.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">song of the fallen</strong>.</p>
-<p><strong>Breath Weapon (Su):</strong> At 12th level, once per day as a swift action, a wyrm singer can grant a breath weapon attack to himself or an ally affected by his draconic rage raging song. Using the breath weapon is a standard action, and it affects creatures in a 30-foot cone or a 60-foot line. The breath weapons deals 1d6 points of damage per 2 skald levels the wyrm singer has, and is of an energy type of the wyrm singer's choice (acid, cold, electricity, or fire). Creatures caught in the area can attempt a Reflex save (DC = 10 + 1/2 the wyrm singer's skald level + his Charisma modifier) to halve the damage.</p>
-<p>This ability replaces the <strong className="hl">rage power</strong> gained at 12th level.</p>
+<Ability id="arc-skald-wyrm_singer-wyrm-song-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-skald-wyrm_singer-wyrm-song-su">Wyrm Song (Su)</Pair>
+<Pair title="Info">A wyrm singer gains the following <em>raging songs.</em></Pair>
+</Ability>
+<Ability id="arc-skald-wyrm_singer-draconic-rage-su" extraClasses="subAbility" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-skald-wyrm_singer-draconic-rage-su">Draconic Rage (Su)</Pair>
+<Pair hl title="Replaces">Inspired rage</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A wyrm singer can kindle an echo of ancient rage felt between warring dragon clans in his allies. This ability acts as <em>inspired rage,</em> except instead of <em>inspire rage's</em> normal bonuses, those affected gain a morale bonus on melee attack and damage rolls equal to 2 + <Link to="/misc/one_eighth">one-eighth</Link> of his skald level. Those affected also gain a morale bonus on saving throws against paralysis and sleep effects equal to 2 + one-fourth of his skald level. They still take a -1 penalty to their AC.</Pair>
+</Ability>
+<Ability id="arc-skald-wyrm_singer-wyrm-saga-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-skald-wyrm_singer-wyrm-saga-su">Wyrm Saga (Su)</Pair>
+<Pair hl title="Replaces">Song of the fallen</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Ability">A wyrm singer embraces the essence of the draconic histories, allowing his allies to manifest aspects of a dragon in their physical forms. The wyrm singer selects a single ally within 60 feet to take on a draconic aspect (as per <Link to="/spell/form_of_the_dragon_i">form of the dragon I</Link>) of a type of the wyrm singer's choice. The ally cannot use the breath weapon attack provided by form of the dragon. The wyrm singer must expend 1 round of <em>raging song</em> each round to maintain wyrm saga, and can affect only a single ally at a time.</Pair>
+</Ability>
+<Ability id="arc-skald-wyrm_singer-breath-weapon-su" icon={["tornado-discs","barbed-arrow"]}>
+<Pair single id="arc-skald-wyrm_singer-breath-weapon-su">Breath Weapon (Su)</Pair>
+<Pair hl title="Replaces">Rage power gained at 12th level</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Swift Action">Once per day, a wyrm singer can grant a breath weapon attack to himself or an ally affected by his draconic rage <em>raging song.</em> Using the breath weapon is a <strong className="hl">standard action</strong>, and it affects creatures in a 30-foot cone or a 60-foot line. The breath weapons deals 1d6 points of damage per 2 skald levels the wyrm singer has, and is of an energy type of the wyrm singer's choice (acid, cold, electricity, or fire). Creatures caught in the area can attempt a Reflex save (DC = 10 + 1/2 the wyrm singer's skald level + his Charisma modifier) to halve the damage.</Pair>
+</Ability>
 </>};
 export default {augur:_augur,bacchanal:_bacchanal,battle_scion:_battle_scion,bekyar_demon_dancer:_bekyar_demon_dancer,belkzen_war_drummer:_belkzen_war_drummer,boaster:_boaster,bold_schemer:_bold_schemer,court_poet:_court_poet,dragon_skald:_dragon_skald,elegist:_elegist,fated_champion:_fated_champion,herald_of_the_horn:_herald_of_the_horn,hunt_caller:_hunt_caller,instigator:_instigator,red_tongue:_red_tongue,serpent_herald:_serpent_herald,spell_warrior:_spell_warrior,sunsinger:_sunsinger,totem_channeler:_totem_channeler,totemic_skald:_totemic_skald,twilight_speaker:_twilight_speaker,undying_word:_undying_word,urban_skald:_urban_skald,war_painter:_war_painter,warlord:_warlord,wyrm_singer:_wyrm_singer}
