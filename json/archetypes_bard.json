@@ -368,7 +368,7 @@
 			"",
 			"::ab[Defuse Tension (Su)]{next l=3 icon=aid ability=\"A court fool can use a silly performance to comfort a beleaguered ally. That ally must be within 30 feet and be able to see the court fool. The ally ignores the ‹misc/fatigued› and ‹misc/shaken› conditions (but not more extreme conditions, such as exhausted or frightened) as long as she continues to see the court fool's performance.\" imp7=\"The court fool can affect two allies at once.\" imp11=\"The court fool can affect three allies.\" imp15=\"The court fool can affect four allies.\" imp19=\"The court fool can affect five allies.\" special=\"A court fool can't use *defuse tension* on himself. *Defuse tension* relies on visual components.\" replace=\"Inspire competence\"}",
 			"",
-			"::ab[Caper and Jeer (Ex)]{l=5 icon=boost order=paw passive=\"A court fool can take 10 on Acrobatics and Bluff checks, even when in danger or distracted.\" ability=\"He can take 20 on an Acrobatics or Bluff check once per day, even when in danger or distracted.\" swift=\"A court fool can use Bluff to create a diversion to hide (as per the ‹skill/Stealth› skill).\" imp11=\"He can take 20 as above twice per day.\" imp17=\"He can take 20 as above three times per day.\" replace=\"Lore master\"}"
+			"::ab[Caper and Jeer (Ex)]{l=5 icon=boost order=paw passive=\"A court fool can take 10 on Acrobatics and Bluff checks, even when in danger or distracted.\" ability=\"He can take 20 on an Acrobatics or Bluff check once per day, even when in danger or distracted.\" swift=\"A court fool can use Bluff to create a diversion to hide (as per the ‹skill/Stealth› skill).\" incrementUse=\"He can take 20~5~6\" incrementDesc=\"as above\" replace=\"Lore master\"}"
 		]
 	},
 	"cultivator": {

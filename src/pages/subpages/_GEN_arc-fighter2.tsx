@@ -1287,17 +1287,17 @@ const _unbreakable = {title: "Unbreakable", jsx: <><h2 id="arc-fighter-unbreakab
 <Pair hl title="Replaces">Weapon training 1</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">An unbreakable gains the <Link to="/feat/heroic_recovery">Heroic Recovery</Link> feat as a bonus feat, if he does not have it already. If he already has this feat, the unbreakable can choose any <Link to="/main/combat_feat">combat feat</Link> instead.</Pair>
-<Pair title="At 9th Level">He may use this feat 2 times per day.</Pair>
-<Pair title="At 13th Level">He may use this feat 3 times per day.</Pair>
-<Pair title="At 17th Level">He may use this feat 4 times per day.</Pair>
+<Pair title="At 9th Level">He may use this feat 2 times/day.</Pair>
+<Pair title="At 13th Level">He may use this feat 3 times/day.</Pair>
+<Pair title="At 17th Level">He may use this feat 4 times/day.</Pair>
 </Ability>
 <Ability id="arc-fighter-unbreakable-heroic-defiance-ex" icon={["stairs-goal"]}>
 <Pair single id="arc-fighter-unbreakable-heroic-defiance-ex">Heroic Defiance (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training 2</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">An unbreakable gains the <Link to="/feat/heroic_defiance">Heroic Defiance</Link> feat as a bonus feat, if he does not have it already. If he already has this feat, the unbreakable can choose any combat feat instead.</Pair>
-<Pair title="At 13th Level">He may use this feat 2 times per day.</Pair>
-<Pair title="At 17th Level">He may use this feat 3 times per day.</Pair>
+<Pair title="At 13th Level">He may use this feat 2 times/day.</Pair>
+<Pair title="At 17th Level">He may use this feat 3 times/day.</Pair>
 </Ability>
 <Ability id="arc-fighter-unbreakable-quick-recovery-ex" icon={["upgrade"]}>
 <Pair single id="arc-fighter-unbreakable-quick-recovery-ex">Quick Recovery (Ex)</Pair>

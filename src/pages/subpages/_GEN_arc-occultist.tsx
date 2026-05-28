@@ -121,11 +121,11 @@ const _curator = {title: "Curator", jsx: <><h2 id="arc-occultist-curator-curator
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A curator acquires a collection of esoteric relics that function as occultist implements associated with two schools of magic; he must select these schools and their associated spells when he gains this feature.</Pair>
 <Pair title="Move-Equivalent Action">Once a day, the curator can empower a single piece of his collection, choosing one of the two selected schools, gaining that school's focus power, and accessing the selected spells for 10 minutes. The curator can empower only a single relic at a time in this way, and activating this ability a second time ends any other relic's ongoing benefits. A curator's relic collection has a number of points of mental focus equal to his Intelligence modifier. Empowered relics are automatically invested with these mental focus points; expending a relic's mental focus reduces this total for the day.</Pair>
-<Pair title="At 2nd Level">A curator can use this ability 2 times per day.</Pair>
-<Pair title="At 6th Level">A curator can empower a relic 3 times per day. A curator chooses two additional schools of magic - in addition to their spells - and adds them to his collection.</Pair>
-<Pair title="At 10th Level">A curator can use this ability 4 times per day.</Pair>
-<Pair title="At 14th Level">A curator can empower a relic 5 times per day. A curator chooses two additional schools of magic - in addition to their spells - and adds them to his collection.</Pair>
-<Pair title="At 18th Level">A curator can use this ability 6 times per day.</Pair>
+<Pair title="At 2nd Level">A curator can use this ability 2 times/day.</Pair>
+<Pair title="At 6th Level">A curator can use this ability 3 times/day. A curator chooses two additional schools of magic - in addition to their spells - and adds them to his collection.</Pair>
+<Pair title="At 10th Level">A curator can use this ability 4 times/day.</Pair>
+<Pair title="At 14th Level">A curator can use this ability 5 times/day. A curator chooses two additional schools of magic - in addition to their spells - and adds them to his collection.</Pair>
+<Pair title="At 18th Level">A curator can use this ability 6 times/day.</Pair>
 </Ability>
 <Ability id="arc-occultist-curator-split-focus-su" icon={["broken-shield"]}>
 <Pair single id="arc-occultist-curator-split-focus-su">Split Focus (Su)</Pair>

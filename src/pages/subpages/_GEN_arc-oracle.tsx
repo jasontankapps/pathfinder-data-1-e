@@ -52,8 +52,8 @@ const _black_blooded_oracle = {title: "Black-Blooded Oracle", jsx: <><h2 id="arc
 <Ability id="arc-oracle-black_blooded_oracle-dark-resilience-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
 <Pair single id="arc-oracle-black_blooded_oracle-dark-resilience-su" flavor="The black blood flowing through a black-blooded oracle's veins gives her resistance to many effects to which undead are immune.">Dark Resilience (Su)</Pair>
 <Pair title="Immediate Action">Once per day whenever she fails a saving throw against an <Link to="/rule/ability_drain">ability drain</Link>, a death effect, disease, <Link to="/rule/energy_drain">energy drain</Link>, paralysis, or poison, she may attempt that saving throw again with a +4 circumstance bonus. She must take the second result, even if it is worse.</Pair>
-<Pair title="At 7th Level">She can use this ability twice per day.</Pair>
-<Pair title="At 15th Level">She can use the ability 3 times per day.</Pair>
+<Pair title="At 7th Level">She can use this ability 2 times/day.</Pair>
+<Pair title="At 15th Level">She can use this ability 3 times/day.</Pair>
 </Ability>
 <Ability id="arc-oracle-black_blooded_oracle-darkvision-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
 <Pair single id="arc-oracle-black_blooded_oracle-darkvision-ex">Darkvision (Ex)</Pair>
@@ -174,8 +174,8 @@ const _divine_numerologist = {title: "Divine Numerologist", jsx: <><h2 id="arc-o
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Swift Action">Once per day, the divine numerologist can quickly tabulate the variables affecting the current situation. This grants the divine numerologist a circumstance bonus equal to her Charisma modifier (minimum +1) to her next d20 roll within 1 round. If the divine numerologist does not use this bonus within 1 round, the use of this ability is wasted.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
-<Pair title="At 7th Level">The divine numerologist can use this ability twice a day.</Pair>
-<Pair title="At 15th Level">She may use this 3 times per day.</Pair>
+<Pair title="At 7th Level">The divine numerologist can use this ability 2 times/day.</Pair>
+<Pair title="At 15th Level">The divine numerologist can use this ability 3 times/day.</Pair>
 </Ability>
 <Ability id="arc-oracle-divine_numerologist-program-the-divine-algorithm-su" extraClasses="subAbility" icon={["rolling-dices"]}>
 <Pair single id="arc-oracle-divine_numerologist-program-the-divine-algorithm-su" flavor="The divine numerologist's mastery of the divine mathematics allows her to set specific parameters in the divine equation to adjust the outcome of an event right as it is about to occur.">Program the Divine Algorithm (Su)</Pair>

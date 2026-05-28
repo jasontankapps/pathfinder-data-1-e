@@ -1200,8 +1200,8 @@ const _relic_raider = {title: "Relic Raider", jsx: <><h2 id="arc-rogue-relic_rai
 <Pair single id="arc-rogue-relic_raider-cursed-strike-su">Cursed Strike (Su)</Pair>
 <Pair title="Prerequisites"><Link to="/talent/major_magic">Major magic</Link> rogue talent</Pair>
 <Pair title="Ability">Once per day, when the relic raider would normally deal sneak attack damage, she can instead forgo all bonus damage to attempt to curse her target (as per the spell <Link to="/spell/bestow_curse">bestow curse</Link>). The save is DC equal to 10 + 1/2 the relic raider's rogue level + her Intelligence modifier.</Pair>
-<Pair title="At 15th Level">She can use this twice a day.</Pair>
-<Pair title="At 20th Level">She can use this three times per day.</Pair>
+<Pair title="At 15th Level">She can use this ability 2 times/day.</Pair>
+<Pair title="At 20th Level">She can use this ability 3 times/day.</Pair>
 </Ability>
 <Ability id="arc-rogue-relic_raider-etheric-strike-su" extraClasses="subAbility" icon={["magic-swirl"]}>
 <Pair single id="arc-rogue-relic_raider-etheric-strike-su">Etheric Strike (Su)</Pair>

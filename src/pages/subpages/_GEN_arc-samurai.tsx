@@ -69,8 +69,8 @@ const _ironbound_sword = {title: "Ironbound Sword", jsx: <><h2 id="arc-samurai-i
 <Pair hl title="Replaces">Banner</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">Once per day, an ironbound sword can unleash a devastating attack that can instantly knock a target unconscious. She must announce this intent before making her attack roll. If the ironbound sword's attack hits and the target takes damage from the blow, the target must succeed at a Fortitude saving throw (DC = 10 + half the ironbound sword's level + the higher of the ironbound sword's Strength or Dexterity modifier) or fall unconscious for 1d6 rounds. Each round on its turn, the unconscious target can attempt a new saving throw to end the effect as a full-round action that does not provoke attacks of opportunity. Creatures immune to critical hits or nonlethal damage are immune to this ability.</Pair>
-<Pair title="At 10th Level">The ironbound sword can use this ability twice per day.</Pair>
-<Pair title="At 15th Level">She can use this three times per day.</Pair>
+<Pair title="At 10th Level">The ironbound sword can use this ability 2 times/day.</Pair>
+<Pair title="At 15th Level">The ironbound sword can use this ability 3 times/day.</Pair>
 </Ability>
 <Ability id="arc-samurai-ironbound_sword-blade-reversal-ex" icon={["armor-upgrade"]}>
 <Pair single id="arc-samurai-ironbound_sword-blade-reversal-ex" flavor="An ironbound sword can turn the force of an opponent's attacks back against them.">Blade Reversal (Ex)</Pair>

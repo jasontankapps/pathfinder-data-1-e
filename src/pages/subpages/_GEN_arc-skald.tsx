@@ -5,7 +5,7 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
 const _augur = {title: "Augur", jsx: <><h2 id="arc-skald-augur-augur">Augur</h2>
-<p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 25</Link><br/>Tales of Merivesta Olinchi are surprisingly common among the Bekyar of the Mwangi Expanse, who claim she spent some time studying their traditions and history. Most historians find it more likely that a Bekyar skald spent time in Nex, was exposed to the idea of divination as a tool of war from a copy of Cold Irony, and fabricated tales of how that knowledge came to be in his hands.</p>
+<p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 25</Link><br/>Tales of Merivesta Olinchi are surprisingly common among the Bekyar of the Mwangi Expanse, who claim she spent some time studying their traditions and history. Most historians find it more likely that a Bekyar skald spent time in Nex, was exposed to the idea of divination as a tool of war from a copy of <Link to="/eq-spellbook/cold_irony">Cold Irony</Link>, and fabricated tales of how that knowledge came to be in his hands.</p>
 <Ability id="arc-skald-augur-monster-insight-ex" icon={["upgrade"]}>
 <Pair single id="arc-skald-augur-monster-insight-ex">Monster Insight (Ex)</Pair>
 <Pair hl title="Replaces">Well-versed</Pair>
@@ -394,8 +394,7 @@ const _herald_of_the_horn = {title: "Herald of the Horn", jsx: <><h2 id="arc-ska
 </Ability>
 <Ability id="arc-skald-herald_of_the_horn-bonded-object" extraClasses="subAbility" icon={["stairs-goal","magic-swirl"]}>
 <Pair single id="arc-skald-herald_of_the_horn-bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
-<Pair title="Gained">At 1st Level</Pair>
-<Pair title="Ability"><p>You begin play with a bonded object at no cost. This object is always masterwork quality. Weapons must be wielded to have an effect. If you attempt to cast a spell without your bonded object in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
+<Pair title="Ability"><p>You begin play with a bonded object at no cost. This object is always masterwork quality. If you attempt to cast a spell without your bonded object in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
 <p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities.</p>
 <p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
 <p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as your bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
@@ -482,13 +481,13 @@ const _instigator = {title: "Instigator", jsx: <><h2 id="arc-skald-instigator-in
 <Pair hl title="Replaces">Lore master</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">Once per day, when he fails a saving throw against a compulsion effect, he can attempt another saving throw after 1 time increment (1 round if the effect is measured in rounds, 1 minute if the effect is measured in minutes, 10 minutes if the spell is measured in 10-minute increments, and so on).</Pair>
-<Pair title="At 13th Level">The number of times per day becomes 2.</Pair>
-<Pair title="At 19th Level">The number of times per day increases to 3.</Pair>
+<Pair title="At 13th Level">The skald can use this ability 2 times/day.</Pair>
+<Pair title="At 19th Level">The skald can use this ability 3 times/day.</Pair>
 </Ability>
 </>};
 const _red_tongue = {title: "Red Tongue", jsx: <><h2 id="arc-skald-red_tongue-red-tongue">Red Tongue</h2>
-<p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 26</Link><br/>In the young tengu nation of Kwanlai, politicos argue endlessly over how best to rule and guide a people who have been parasites and vassals to other nations for millennia. The <Link to="/race/tengu">tengu</Link> tendency toward dramatic flourishes and rhetoric only complicates this debate, creating an environment in which political clubs led by hot-blooded firebrands - referred to as red tongues in polite company - dominate the political scene by swaying emotions in the moment and wielding magic in the shadows. Many political debates in Hisuikarasu end in violent brawls or daring duels.</p>
-<Ability id="arc-skald-red_tongue-great-orator" icon={["broken-shield"]}>
+<p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 26</Link><br/>In the young tengu nation of Kwanlai, politicos argue endlessly over how best to rule and guide a people who have been parasites and vassals to other nations for millennia. The tengu tendency toward dramatic flourishes and rhetoric only complicates this debate, creating an environment in which political clubs led by hot-blooded firebrands - referred to as red tongues in polite company - dominate the political scene by swaying emotions in the moment and wielding magic in the shadows. Many political debates in Hisuikarasu end in violent brawls or daring duels.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-skald-red_tongue--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/tengu">Tengu</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-skald-red_tongue-great-orator" icon={["broken-shield"]}>
 <Pair single id="arc-skald-red_tongue-great-orator">Great Orator</Pair>
 <Pair hl title="Alters">Raging song, versatile performance</Pair>
 <Pair title="Info">A red tongue can activate his <em>raging song</em> performances only by using the Perform (oratory) skill.</Pair>
@@ -525,7 +524,7 @@ const _red_tongue = {title: "Red Tongue", jsx: <><h2 id="arc-skald-red_tongue-re
 </Ability>
 </>};
 const _serpent_herald = {title: "Serpent Herald", jsx: <><h2 id="arc-skald-serpent_herald-serpent-herald">Serpent Herald</h2>
-<p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 28</Link><br/>Warrior bands devoted to Ragadahn are often led by a serpent herald, whose deep roars shake the earth itself. Rumors tell of waves of snakes slithering forth from their nests in awe as these bellowing commanders take on serpentine features.</p>
+<p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 28</Link><br/>Warrior bands devoted to <Link to="/faith/ragadahn">Ragadahn</Link> are often led by a serpent herald, whose deep roars shake the earth itself. Rumors tell of waves of snakes slithering forth from their nests in awe as these bellowing commanders take on serpentine features.</p>
 <Ability id="arc-skald-serpent_herald-serpentine-rage-su" icon={["upgrade","armor-upgrade","stairs-goal","mailed-fist"]}>
 <Pair single id="arc-skald-serpent_herald-serpentine-rage-su">Serpentine Rage (Su)</Pair>
 <Pair hl title="Replaces">Rage power gained at 3rd level</Pair>
@@ -541,13 +540,13 @@ const _serpent_herald = {title: "Serpent Herald", jsx: <><h2 id="arc-skald-serpe
 </Pair>
 <Pair title="Info">The serpent herald must have the <em>inspired rage raging song</em> to use this ability.</Pair>
 </Ability>
-<Ability id="arc-skald-serpent_herald-serpent-shape-su" icon={["magic-swirl"]}>
+<Ability id="arc-skald-serpent_herald-serpent-shape-su" extraClasses="hasSubs" icon={["magic-swirl"]}>
 <Pair single id="arc-skald-serpent_herald-serpent-shape-su">Serpent Shape (Su)</Pair>
 <Pair hl title="Replaces">Spell kenning</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A serpent herald gains the ability to use <em>wild shape</em> to take the form of a reptile or an aquatic animal once per day, as the <Link to="/class/druid">druid</Link> class feature. His effective druid level for this ability is equal to his serpent herald level - 1. This doesn't allow him to assume other forms, such as elementals or other kinds of animals. When in animal form, the serpent herald is treated as able to speak normally for the purpose of using <em>raging song,</em> but not for using other abilities that require speech (such as spellcasting).</Pair>
-<Pair title="At 11th Level">A serpent herald can use this ability twice per day and gains the benefits of the <Link to="/feat/wild_speech">Wild Speech</Link> feat while using this ability, treating his druid level as his serpent herald level - 1.</Pair>
-<Pair title="At 17th Level">A serpent herald can use this ability three times per day. In addition, he gains the supernatural resiliency of a <Link to="/family/linnorm">linnorm</Link>, gaining the effects of <Link to="/spell/freedom_of_movement">freedom of movement</Link> while using this ability.</Pair>
+<Pair title="At 11th Level">A serpent herald can use this ability 2 times/day. He gains the benefits of the <Link to="/feat/wild_speech">Wild Speech</Link> feat while using this ability, treating his druid level as his serpent herald level - 1.</Pair>
+<Pair title="At 17th Level">A serpent herald can use this ability 3 times/day. In addition, he gains the supernatural resiliency of a <Link to="/family/linnorm">linnorm</Link>, gaining the effects of <Link to="/spell/freedom_of_movement">freedom of movement</Link> while using this ability.</Pair>
 </Ability>
 <Ability id="arc-skald-serpent_herald-wild-shape-su" extraClasses="subAbility" icon={["stairs-goal"]}>
 <Pair single id="arc-skald-serpent_herald-wild-shape-su" flavor="Relevant text from the druid class ability.">Wild Shape (Su)</Pair>
@@ -612,8 +611,8 @@ const _sunsinger = {title: "Sunsinger", jsx: <><h2 id="arc-skald-sunsinger-sunsi
 <Pair hl title="Replaces">Spell kenning</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A sunsinger skald can <Link to="/ability/channel_energy">channel energy</Link> as a cleric once per day to heal wounds or harm undead like a good-aligned cleric. When she does so, she fills the area affected by the channeled energy with light, and can outline creatures in the area of effect as per <Link to="/spell/faerie_fire">faerie fire</Link>. The sunsinger uses her skald level as her effective cleric level when channeling positive energy.</Pair>
-<Pair title="At 11th Level">A sunsinger can channel energy twice per day.</Pair>
-<Pair title="At 17th Level">She can use this ability three times per day.</Pair>
+<Pair title="At 11th Level">A sunsinger can use this ability 2 times/day.</Pair>
+<Pair title="At 17th Level">A sunsinger can use this ability 3 times/day.</Pair>
 <Pair title="Special">Undead who are particularly harmed by sunlight take a -2 penalty on saving throws against this channeled energy, and take 1 additional point of damage per die of damage dealt by the effect.</Pair>
 </Ability>
 </>};
@@ -663,13 +662,13 @@ const _totemic_skald = {title: "Totemic Skald", jsx: <><h2 id="arc-skald-totemic
 <Pair title="Ability">The totemic skald can improve the attitude of animals of the same type as his totem. This ability functions just like a Diplomacy check to improve the attitude of a person. The skald rolls 1d20 and adds his skald level and his Charisma modifier to determine the totem empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.</Pair>
 <Pair title="Ability">In addition, the totemic skald can cast <Link to="/spell/charm_animal">charm animal</Link> as a spell-like ability, using his skald level as his caster level and his Charisma modifier to determine the DC. He can do this a number of times a day equal to <Link to="/misc/one_fourth">one-fourth</Link> of his skald level. This only functions against animals that are of the same type as his totem animal (subject to GM discretion).</Pair>
 </Ability>
-<Ability id="arc-skald-totemic_skald-wild-shape-su" icon={["magic-swirl"]}>
+<Ability id="arc-skald-totemic_skald-wild-shape-su" extraClasses="hasSubs" icon={["magic-swirl"]}>
 <Pair single id="arc-skald-totemic_skald-wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Replaces">Spell kenning</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A totemic skald gains the ability to <em>wild shape</em> into the form of a Small or Medium version of his totem animal, as the <Link to="/class/druid">druid</Link> class feature. His effective druid level for this ability is equal to his skald level - 1.</Pair>
-<Pair title="At 11th Level">He can use this ability 2 times per day.</Pair>
-<Pair title="At 17th Level">He can use this ability 3 times per day.</Pair>
+<Pair title="At 11th Level">He can use this ability 2 times/day.</Pair>
+<Pair title="At 17th Level">He can use this ability 3 times/day.</Pair>
 <Pair title="Special">This doesn't allow the skald to assume other forms, such as elementals, plants, or other kinds of animals. When in animal form, the skald is treated as able to speak normally for the purpose of using <em>raging song,</em> but not for using other abilities that require speech (such as spellcasting). The skald uses his class level as his druid level for the purpose of qualifying for feats that affect wild shape (such as <Link to="/feat/wild_speech">Wild Speech</Link>).</Pair>
 </Ability>
 <Ability id="arc-skald-totemic_skald-wild-shape-su" extraClasses="subAbility" icon={["stairs-goal"]}>
@@ -722,8 +721,8 @@ const _twilight_speaker = {title: "Twilight Speaker", jsx: <><h2 id="arc-skald-t
 <Pair hl title="Replaces">Lore master</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">Once per day a twilight speaker can activate any spell trigger or spell completion item as though the spell were on the skald spell list.</Pair>
-<Pair title="At 13th Level">He can use this ability twice a day.</Pair>
-<Pair title="At 19th Level">He can use this three times a day.</Pair>
+<Pair title="At 13th Level">He can use this ability 2 times/day.</Pair>
+<Pair title="At 19th Level">He can use this ability 3 times/day.</Pair>
 </Ability>
 <Ability id="arc-skald-twilight_speaker-findeladlaras-hand" icon={["upgrade"]}>
 <Pair single id="arc-skald-twilight_speaker-findeladlaras-hand">Findeladlara's Hand</Pair>
@@ -792,8 +791,8 @@ const _urban_skald = {title: "Urban Skald", jsx: <><h2 id="arc-skald-urban_skald
 <Pair single id="arc-skald-urban_skald-controlled-inspired-rage-su">Controlled Inspired Rage (Su)</Pair>
 <Pair hl title="Alters">Inspired rage</Pair>
 <Pair title="Ability">When the urban skald <em>inspires rage,</em> he does not grant the normal benefits. Instead, he can apply a +2 morale bonus to his allies' Strength, Dexterity, or Constitution.</Pair>
-<Pair title="At 8th Level">The bonus becomes +2.</Pair>
-<Pair title="At 16th Level">The bonus increases to +3.</Pair>
+<Pair title="At 8th Level">The bonus becomes +4.</Pair>
+<Pair title="At 16th Level">The bonus increases to +6.</Pair>
 <Pair title="Special">The urban skald can apply the full bonus to one ability score or split the bonus between several scores in increments of 2. The choice applies to all affected allies. The controlled <em>inspired rage</em> grants no bonus on Will saves, imposes no penalties to AC, and does not prevent affected allies from using Intelligence-, Dexterity-, or Charisma-based skills.</Pair>
 </Ability>
 <Ability id="arc-skald-urban_skald-infuriating-mockery-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
@@ -846,8 +845,8 @@ const _war_painter = {title: "War Painter", jsx: <><h2 id="arc-skald-war_painter
 <Pair hl title="Replaces">Lore master</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">Once per day as he finishes applying his furious paint to a creature, a war painter can cast one skald spell with a casting time of no more than 1 standard action and infuse the spell into the paint. Once while benefiting from the paint's <em>raging song,</em> the painted ally can use a <strong className="hl">standard action</strong> to cast the infused spell on herself as if the war painter had cast it. The spell ends when the paint's other effects end.</Pair>
-<Pair title="At 13th Level">The war painter can use this ability twice per day.</Pair>
-<Pair title="At 19th Level">He can use this ability three times per day.</Pair>
+<Pair title="At 13th Level">He can use this ability 2 times/day.</Pair>
+<Pair title="At 19th Level">He can use this ability 3 times/day.</Pair>
 <Pair title="Special">A war painter can infuse only a skald spell whose level is at least 2 levels lower than the highest-level skald spell he can cast. He can infuse any targeted spell in a painted ally, even if its range is personal.</Pair>
 </Ability>
 </>};
@@ -884,7 +883,7 @@ const _warlord = {title: "Warlord", jsx: <><h2 id="arc-skald-warlord-warlord">Wa
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A warlord attracts a group of followers through his fearsome reputation and gains the <Link to="/feat/leadership">Leadership</Link> feat as a bonus feat.</Pair>
 </Ability>
-<Ability id="arc-skald-warlord-intimidated-push-ex" icon={["upgrade"]}>
+<Ability id="arc-skald-warlord-intimidated-push-ex" icon={["shield-reflect"]}>
 <Pair single id="arc-skald-warlord-intimidated-push-ex">Intimidated Push (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 8th Level</Pair>

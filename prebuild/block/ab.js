@@ -83,6 +83,7 @@ const makeAbilityBlock = ({
 		increment,incrementAt,incrementEnd,
 		incrementPlain,incrementDesc,incrementOrd,
 		incrementMulti,incrementMax,incrementRoman,
+		incrementUse,
 		repeat, repeatAt,
 		standard, swift, immediate,
 		fullround, move, free,
@@ -591,7 +592,7 @@ const makeAbilityBlock = ({
 		imp1 || imp2 || imp3 || imp4 || imp5 || imp6 || imp7 || imp8 || imp9 || imp10
 		|| imp11 || imp12 || imp13 || imp14 || imp15 || imp16 || imp17 || imp18 || imp19 || imp20
 		|| increment || incrementAt || incrementEnd || incrementPlain || incrementOrd || incrementDesc
-		|| incrementMulti || incrementMax || incrementRoman || repeat || repeatAt
+		|| incrementMulti || incrementMax || incrementRoman || incrementUse || repeat || repeatAt
 	) {
 		const imps = [imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20];
 		if(repeat) {
@@ -722,6 +723,65 @@ const makeAbilityBlock = ({
 			incrementRoman && logError("Extraneous `incrementRoman` attribute while using `incrementMulti`.");
 			incrementEnd && logError("Extraneous `incrementEnd` attribute while using `incrementMulti`.");
 			incrementDesc && logError("Extraneous `incrementDesc` attribute while using `incrementMulti`.");
+			incrementUse && logError("Extraneous `incrementUse` attribute while using `incrementMulti`.");
+		} else if (incrementUse) {
+			// who ~ lev start ~ lev inc ~ b start (defaults to 2) ~ be inc (defaults to 1)
+			const [who, ...etc] = incrementUse.split(/~/);
+			const mid = incrementDesc || "can use this ability";
+			const end = incrementEnd || " times/day.";
+			const max = makeMax(incrementMax, logError);
+			if(etc.length < 2) {
+				logError(`Invalid length of \`incrementUse\` attribute.`);
+				etc.push("1", "1", "1"); // pad it out
+			}
+			const [start, add, bb = 2, bi = 1] = etc.map((e, i) => {
+				const n = Number(e);
+				if(!n && (i || n !== n)) {
+					// `start` can be 0
+					logError(`Invalid value [${e}] in \`incrementUse\` attribute [index ${i}].`);
+					return 1;
+				}
+				return Math.floor(n);
+			});
+			let bonus = bb,
+				inc = bi,
+				level = start + add;
+			if(level <= 0) {
+				logError(`Invalid level formula in \`incrementUse\` attribute: [${etc[0]} + ${etc[1]} = ${level}]`);
+				level = 25;
+			} else if (add <= 0) {
+				logError(`Invalid level increment [${add}] in \`incrementUse\` attribute.`);
+				level = 25;
+			} else if (bonus < 0 || bi < 1) {
+				logError(`Invalid bonus [${bonus}] and/or increment [${bi}] in \`incrementUse\` attribute.`);
+				level = 25;
+			}
+			const ats = [];
+			while (level <= max) {
+				ats.push(level);
+				level += add;
+			}
+			ats.sort((a,b) => (a - b));
+			let last = 0;
+			const descriptor = mid && mid.split(/~/);
+			while(ats.length > 0) {
+				const next = ats.shift();
+				if(next === last) {
+					logError(`Duplicate value [${next}] in \`incrementUse\` attribute.`);
+				} else {
+					const i = next - 1;
+					const b = (
+						incrementRoman ? romans.romanize(bonus)
+						: (
+							incrementOrd ? ordinal(bonus)
+							: bonus
+						)
+					);
+					imps[i] = `${who} ${swap({descriptor})} ${b}${end}${imps[i] ? " " + imps[i] : ""}`;
+					last = next;
+					bonus += inc;
+				}
+			}
 		} else if (increment || incrementPlain || incrementAt || incrementOrd || incrementRoman) {
 			// msg ~ lev start ~ lev inc ~ b start (defaults to 2) ~ b inc (defaults to 1)
 			//      increment "(p!)?This bonus~Ls~Li~Bs?~Bi?" (also incrementPlain, -Ord, and -Roman)

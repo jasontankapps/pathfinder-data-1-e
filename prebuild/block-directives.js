@@ -419,7 +419,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					/^(s0|([sl]|imp)(1?[1-9]|[12]0))$/,
 					/^ability[23]?$/,
 					/^use(F|NC|L3?|M(od)?|Inc|Unit)$/,
-					/^increment(At|End|Plain|Desc|Ord|Multi|Max|Roman)?$/
+					/^increment(At|End|Plain|Desc|Ord|Multi|Max|Roman|Use)?$/
 				], logError);
 				flags.ability = true;
 				const marked2 = makeNewMarkedInstance();

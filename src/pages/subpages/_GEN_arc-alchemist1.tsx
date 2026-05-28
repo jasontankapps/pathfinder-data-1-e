@@ -53,10 +53,10 @@ const _alchemical_sapper = {title: "Alchemical Sapper", jsx: <><h2 id="arc-alche
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">An alchemical sapper can only expend one use of his bomb class feature to create a demolition bomb once per day.</Pair>
 <Pair title="Ability">An alchemical sapper can create a demolition bomb. This bomb deals double his normal bomb damage, half of which is bludgeoning and piercing damage, the other half of which is fire damage. This bomb ignores a number of points of hardness up to <Link to="/misc/half">half</Link> the alchemical sapper's level (minimum 1).</Pair>
-<Pair title="At 5th Level">He can create two demolition bombs per day.</Pair>
-<Pair title="At 9th Level">He can create three demolition bombs per day.</Pair>
-<Pair title="At 13th Level">He can create four demolition bombs per day.</Pair>
-<Pair title="At 17th Level">He can create five demolition bombs per day.</Pair>
+<Pair title="At 5th Level">He can create 2 demolition bombs per day.</Pair>
+<Pair title="At 9th Level">He can create 3 demolition bombs per day.</Pair>
+<Pair title="At 13th Level">He can create 4 demolition bombs per day.</Pair>
+<Pair title="At 17th Level">He can create 5 demolition bombs per day.</Pair>
 <Pair title="Special">This counts as an ability that modifies the alchemical sapper's bomb, so it doesn't stack with other discoveries that modify bombs (Primary Bomb Discoveries). The alchemical sapper can't use his demolition bomb with the <Link to="/discovery/fast_bombs">fast bombs</Link> discovery.</Pair>
 </Ability>
 <Ability id="arc-alchemist-alchemical_sapper-delayed-bomb-su" icon={["stairs-goal"]}>

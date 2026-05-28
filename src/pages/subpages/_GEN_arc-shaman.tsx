@@ -514,9 +514,9 @@ const _true_silvered_throne = {title: "True Silvered Throne", jsx: <><h2 id="arc
 <Pair hl title="Replaces">Wandering spirit, wandering hex</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">A true silvered throne can attempt to coax a nearby spirit into service with a 1-minute-long ritual once per day, gaining that spirit's <em>spirit</em> ability and adding its list of spells to those he can cast using his <em>spirit magic.</em> The silvered throne can maintain this bond for 1 hour, or until he dismisses the spirit as a <strong className="hl">free action</strong>.</Pair>
-<Pair title="At 8th Level">He can perform a <em>wandering ritual</em> twice a day.</Pair>
+<Pair title="At 8th Level">He can perform a <em>wandering ritual</em> 2 times/day.</Pair>
 <Pair title="At 12th Level">He also gains this spirit's <em>greater spirit power</em> while bonded.</Pair>
-<Pair title="At 14th Level">He can perform a <em>wandering ritual</em> three times per day.</Pair>
+<Pair title="At 14th Level">He can perform a <em>wandering ritual</em> 3 times/day.</Pair>
 <Pair title="At 20th Level">He gains its <em>true spirit power</em> as well.</Pair>
 </Ability>
 <Ability id="arc-shaman-true_silvered_throne-esoteric-rites-ex" icon={["upgrade"]}>

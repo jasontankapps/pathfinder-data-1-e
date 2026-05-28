@@ -769,8 +769,8 @@ const _galvanic_saboteur = {title: "Galvanic Saboteur", jsx: <><h2 id="arc-range
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Standard Action">Once per day, the ranger can make a <em>static strike</em> as a melee attack at his full base attack bonus. If the attack hits, it deals an additional 1d6 points of electricity damage and the ranger can make an additional attack at his full base attack bonus against a foe that is adjacent to the previous foe and still within his reach, as if he had <Link to="/feat/cleave">Cleave</Link>, except he doesn't take a -2 penalty to his AC and the second attack deals an additional 2d6 points of electricity damage.</Pair>
 <Pair title="At 12th Level">The ranger can continue to make attacks against adjacent creatures, as if he had <Link to="/feat/great_cleave">Great Cleave</Link>, with each hit increasing the amount of electricity damage dealt to the next foe in line.</Pair>
-<Pair title="At 14th Level">The ranger can use this ability twice per day.</Pair>
-<Pair title="At 20th Level">The ranger can use this ability three times per day.</Pair>
+<Pair title="At 14th Level">The ranger can use this ability 2 times/day.</Pair>
+<Pair title="At 20th Level">The ranger can use this ability 3 times/day.</Pair>
 </Ability>
 <Ability id="arc-ranger-galvanic_saboteur-sensor-evasion-su" icon={["armor-upgrade"]}>
 <Pair single id="arc-ranger-galvanic_saboteur-sensor-evasion-su" flavor="A galvanic saboteur has mastered the art of evading technological and magical observation.">Sensor Evasion (Su)</Pair>
@@ -1348,13 +1348,13 @@ const _planar_scout = {title: "Planar Scout", jsx: <><h2 id="arc-ranger-planar_s
 </>};
 const _poison_darter = {title: "Poison Darter", jsx: <><h2 id="arc-ranger-poison_darter-poison-darter">Poison Darter</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 9</Link><br/>In dense jungles, foliage and tight spaces hinder all but the most deceptively humble weapons: <Link to="/eq-weapon/blowgun">blowguns</Link> and poison.</p>
-<Ability id="arc-ranger-poison_darter-debilitating-venom-ex" icon={["stairs-goal"]}>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-poison_darter--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/grippli">Grippli</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-ranger-poison_darter-debilitating-venom-ex" icon={["stairs-goal"]}>
 <Pair single id="arc-ranger-poison_darter-debilitating-venom-ex" flavor="A poison darter can concoct potent toxins that he can apply to his weapons.">Debilitating Venom (Ex)</Pair>
 <Pair hl title="Replaces">Favored enemy, master hunter</Pair>
 <Pair title="Usage">A number of times/day equal to <Link to="/misc/half">half</Link> his ranger level + his Wisdom modifier</Pair>
-<Pair title="Info">If he has the <Link to="/race/grippli">toxic skin alternate racial trait</Link>, he can expend a daily use of that poison to employ his <em>debilitating venom</em> ability an additional time.</Pair>
+<Pair title="Info">If he has the <em>toxic skin</em> alternate racial trait*, he can expend a daily use of that poison to employ his <em>debilitating venom</em> ability an additional time.</Pair>
 <Pair title="Ability"><p>The <em>debilitating venom</em> functions only for the poison darter and becomes inert if not used within 1 hour. Creating a <em>debilitating venom</em> is a <strong className="hl">standard action</strong>, and it can be applied to a weapon as a <strong className="hl">move action</strong>.</p>
-<div className="sideNoteWrap"><ScrollContainer id="arc-ranger-poison_darter--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Debilitating Venom</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the the poison darter's level + his Wis modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d3 <Link to="/rule/dex_damage">Dex damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></Pair>
+<div className="sideNoteWrap"><ScrollContainer id="arc-ranger-poison_darter--table-1"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Debilitating Venom</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the the poison darter's level + his Wis modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d3 <Link to="/rule/dex_damage">Dex damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></Pair>
 <Pair title="At 5th Level">The frequency increases to 6 rounds, and the toxin <Link to="/misc/sicken">sickens</Link> a creature for 1 round every time it fails its saving throw to resist the poison.</Pair>
 <Pair title="At 10th Level">The the poison's Dexterity damage increases to 1d4, and two successful saving throws are needed to cure the poison.</Pair>
 <Pair title="At 15th Level">The poison dart can choose to deal Strength, Dexterity, or Constitution damage with the <em>debilitating venom,</em> selected when he creates the toxin.</Pair>
@@ -1517,9 +1517,9 @@ const _shapeshifter = {title: "Shapeshifter", jsx: <><h2 id="arc-ranger-shapeshi
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Swift Action">The shapeshifter can take on the aspects of a wild creature once per day. He can remain in this form for a number of rounds equal to his ranger level + his Wisdom modifier. While in one of his shifter's blessing forms, the ranger gains the <Link to="/subtype/shapechanger">shapechanger</Link> subtype.</Pair>
 <Pair title="Choice">The shapeshifter must choose one of the following forms. Once this choice is made, it cannot be changed.</Pair>
-<Pair title="At 8th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and may use this ability 2 times per day.</Pair>
-<Pair title="At 13th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and may use this ability 3 times per day.</Pair>
-<Pair title="At 18th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and may use this ability 4 times per day.</Pair>
+<Pair title="At 8th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and can use this ability 2 times/day.</Pair>
+<Pair title="At 13th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and can use this ability 3 times/day.</Pair>
+<Pair title="At 18th Level">The ranger may select an additional form for his <em>shifter's blessing</em> and can use this ability 4 times/day.</Pair>
 <Pair title="Special">This is not a polymorph ability; a ranger with <em>shifter's blessing</em> in one of his shifted forms can be affected by a polymorph ability and retain his bonus and traits gained by the class feature.</Pair>
 </Ability>
 <Ability id="arc-ranger-shapeshifter-form-of-the-bear" extraClasses="subAbility" icon={["upgrade","broken-shield"]}>

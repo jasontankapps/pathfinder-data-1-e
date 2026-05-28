@@ -600,9 +600,9 @@
 			"",
 			"::ab[Bonus Feats]{l=12 icon=power ability=\"A martial artist gains an additional bonus feat, selected from those available in the monk class feature.\" replace=\"Abundant step\"}",
 			"",
-			"::ab[Defensive Roll (Ex)]{l=13 icon=def ability=\"A martial artist may use the defensive roll ‹ability/advanced rogue talent› once per day.\" incrementPlain=\"He may use~13~3\" incrementDesc=it incrementEnd=\" times per day.\" replace=\"Diamond soul\"}",
+			"::ab[Defensive Roll (Ex)]{l=13 icon=def ability=\"A martial artist may use the defensive roll ‹ability/advanced rogue talent› once per day.\" incrementUse=\"He~13~3\" replace=\"Diamond soul\"}",
 			"",
-			"::ab[Quivering Palm]{alter=\"Quivering palm\" icon=boost l16=\"A martial artist may use this ability one additional time per day.\" incrementPlain=\"He can now use~16~1\" incrementDesc=this incrementEnd=\" additional times per day.\" special=\"A martial artis may not have more than one *quivering palm* in effect at a time.\"}",
+			"::ab[Quivering Palm]{alter=\"Quivering palm\" icon=boost l16=\"A martial artist may use this ability one additional time per day.\" incrementUse=\"He~16~1\" incrementEnd=\" additional times per day.\" special=\"A martial artis may not have more than one *quivering palm* in effect at a time.\"}",
 			"",
 			"::ab[Greater Defensive Roll (Ex)]{l=19 icon=def passive=\"A martial artist suffers no damage on a successful defensive roll, and only half damage if the Reflex saving throw fails.\" replace=\"Empty body\"}"
 		]

@@ -690,8 +690,8 @@ const _court_fool = {title: "Court Fool", jsx: <><h2 id="arc-bard-court_fool-cou
 <Pair title="Passive Ability">A court fool can take 10 on Acrobatics and Bluff checks, even when in danger or distracted.</Pair>
 <Pair title="Ability">He can take 20 on an Acrobatics or Bluff check once per day, even when in danger or distracted.</Pair>
 <Pair title="Swift Action">A court fool can use Bluff to create a diversion to hide (as per the <Link to="/skill/stealth">Stealth</Link> skill).</Pair>
-<Pair title="At 11th Level">He can take 20 as above twice per day.</Pair>
-<Pair title="At 17th Level">He can take 20 as above three times per day.</Pair>
+<Pair title="At 11th Level">He can take 20 as above 2 times/day.</Pair>
+<Pair title="At 17th Level">He can take 20 as above 3 times/day.</Pair>
 </Ability>
 </>};
 const _cultivator = {title: "Cultivator", jsx: <><h2 id="arc-bard-cultivator-cultivator">Cultivator</h2>

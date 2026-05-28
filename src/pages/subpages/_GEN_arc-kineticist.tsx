@@ -606,9 +606,9 @@ const _overwhelming_soul = {title: "Overwhelming Soul", jsx: <><h2 id="arc-kinet
 <Pair hl title="Alters">Burn</Pair>
 <Pair title="Ability">An overwhelming soul's mind is strong enough to protect her body from the stress of channeling the elements. However, in exchange, she is unable to push her limits quite as far as other kineticists. She can't choose to accept burn, though she can use wild talents with a burn cost if she can reduce that cost to 0 points with abilities such as <em>gather power</em> and <em>infusion specialization.</em> If she would be forced to accept burn against her will (for example, if she fails a concentration check), instead of taking burn she takes 1 temporary <Link to="/rule/negative_level">negative level</Link>, which never kills her and can't be removed with <Link to="/spell/restoration">restoration</Link> or <Link to="/spell/greater_restoration">greater restoration</Link>, but which disappears automatically after 24 hours.</Pair>
 <Pair title="At 6th Level">Once per day, she can reduce the total burn cost of any wild talent by 1.</Pair>
-<Pair title="At 10th Level">She can reduce the burn cost 2 times per day.</Pair>
-<Pair title="At 14th Level">She can reduce the burn cost 3 times per day.</Pair>
-<Pair title="At 18th Level">She can reduce the burn cost 4 times per day.</Pair>
+<Pair title="At 10th Level">She can reduce the burn cost 2 times/day.</Pair>
+<Pair title="At 14th Level">She can reduce the burn cost 3 times/day.</Pair>
+<Pair title="At 18th Level">She can reduce the burn cost 4 times/day.</Pair>
 </Ability>
 <Ability id="arc-kineticist-overwhelming_soul-overwhelming-power-ex" icon={["upgrade"]}>
 <Pair single id="arc-kineticist-overwhelming_soul-overwhelming-power-ex">Overwhelming Power (Ex)</Pair>

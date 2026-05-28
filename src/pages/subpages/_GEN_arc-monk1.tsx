@@ -1686,17 +1686,17 @@ const _martial_artist = {title: "Martial Artist", jsx: <><h2 id="arc-monk-martia
 <Pair hl title="Replaces">Diamond soul</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Ability">A martial artist may use the defensive roll <Link to="/ability/advanced_rogue_talent">advanced rogue talent</Link> once per day.</Pair>
-<Pair title="At 16th Level">He may use it 2 times per day.</Pair>
-<Pair title="At 19th Level">He may use it 3 times per day.</Pair>
+<Pair title="At 16th Level">He can use this ability 2 times/day.</Pair>
+<Pair title="At 19th Level">He can use this ability 3 times/day.</Pair>
 </Ability>
 <Ability id="arc-monk-martial_artist-quivering-palm" icon={["upgrade"]}>
 <Pair single id="arc-monk-martial_artist-quivering-palm">Quivering Palm</Pair>
 <Pair hl title="Alters">Quivering palm</Pair>
 <Pair title="At 16th Level">A martial artist may use this ability one additional time per day.</Pair>
-<Pair title="At 17th Level">He can now use this 2 additional times per day.</Pair>
-<Pair title="At 18th Level">He can now use this 3 additional times per day.</Pair>
-<Pair title="At 19th Level">He can now use this 4 additional times per day.</Pair>
-<Pair title="At 20th Level">He can now use this 5 additional times per day.</Pair>
+<Pair title="At 17th Level">He can use this ability 2 additional times per day.</Pair>
+<Pair title="At 18th Level">He can use this ability 3 additional times per day.</Pair>
+<Pair title="At 19th Level">He can use this ability 4 additional times per day.</Pair>
+<Pair title="At 20th Level">He can use this ability 5 additional times per day.</Pair>
 <Pair title="Special">A martial artis may not have more than one <em>quivering palm</em> in effect at a time.</Pair>
 </Ability>
 <Ability id="arc-monk-martial_artist-greater-defensive-roll-ex" icon={["armor-upgrade"]}>
