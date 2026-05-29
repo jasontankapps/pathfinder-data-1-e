@@ -3,81 +3,212 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 const _ankous_shadow = {title: "Ankou's Shadow", jsx: <><h2 id="arc-slayer-ankous_shadow-ankous-shadow">Ankou's Shadow</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 14</Link><br/>Ankous are terrifying, winged fey assassins dispatched by the greatest lords of the First World to eliminate rivals. Some mortals emulate ankous to become the perfect assassins; others believe themselves to be ankous incarnated in mortal shells on a deep cover mission. In either case, an ankou's shadow practices the deadliest skills of the First World's most feared enforcers.</p>
-<p><strong>Shadow Double (Sp):</strong> An ankou's shadow can take a full-round action to create a single, quasi-real, shadowy duplicate. This shadow double remains in his square, mimicking his movements as a single <Link to="/spell/mirror_image">mirror image</Link>, except that it lasts until it is destroyed or he chooses to dismiss it as a swift action. This ability does not stack with the mirror image spell or with similar abilities, such as the copycat ability of the <Link to="/domain/trickery">Trickery</Link> domain.</p>
-<p>At 5th level, an ankou's shadow gains a second shadow double. In addition to using these shadow doubles as mirror images in his square, he can move his doubles as part of his own move action, dividing his movement between himself and his doubles. When outside his square, shadow doubles do not protect the ankou's shadow as mirror image and are limited in the actions they can take. Shadow doubles provide flanking for the ankou's shadow and his allies, but they do not possess teamwork feats or special abilities that alter the effects of flanking or aiding another. As a swift action, the ankou's shadow can direct his shadow doubles to use the aid another action, using his own base attack bonus plus his Intelligence modifier for the roll. Although a shadow double appears to duplicate the ankou's shadow's gear, this gear is part of its form; a shadow double's gear cannot be destroyed, dropped, or stolen. A shadow double disappears if it ventures more than 50 feet from the ankou's shadow or if it leaves his line of sight or effect. A shadow double that is hit by an attack roll or takes any damage is destroyed. The AC of a shadow double is equal to the ankou's shadow's touch AC, and it has the same CMD and saving throw bonuses as the ankou's shadow. Shadow doubles possess <Link to="/ability/evasion">evasion</Link> if the ankou's shadow does. Mind-affecting effects targeting a shadow double affect the ankou's shadow instead, though he isn't affected twice by effects that target both him and a shadow double.</p>
-<p>At 10th level, an ankou's shadow gains a third shadow double. He can divide his actions between his actual body and his shadow doubles, using them as the origin point for attacks or abilities. For example, an ankou's shadow making three attacks as a part of a full attack could make his primary attack from his own body and his other two attacks from two of his shadow doubles.</p>
-<p>At 15th level, an ankou's shadow gains a fourth shadow double. In addition to the abilities above, an ankou's shadow can assign the doubles to perform simple tasks on their own, as the <Link to="/spell/unseen_servant">unseen servant</Link> spell, except that the shadow doubles have an effective Strength score of 10.</p>
-<p>This ability replaces <strong className="hl">studied target</strong>.</p>
-<p><strong>Ankou's Vision (Sp):</strong> At 7th level, an ankou's shadow can use <Link to="/spell/see_invisibility">see invisibility</Link>, as per the spell, as a swift action for 1 minute per level per day. This duration does not need to be consecutive, but it must be used in 1-minute increments.</p>
-<p>This ability replaces <strong className="hl">stalker</strong>.</p>
-<p><strong>Shadow Prey (Ex):</strong> An ankou's shadow cannot denote a target as his quarry unless he has a shadow double present, but unlike other slayers, the target does not need to be one of his studied targets.</p>
-<p>This ability alters <strong className="hl">quarry</strong> and <strong className="hl">improved quarry</strong>.</p>
-<p><strong>Unfettered Shadows (Su):</strong> At 20th level, as a standard action an ankou's shadow can unfetter all of his shadow doubles for 1 minute. While unfettered, each shadow double can move and attack as if it were the ankou's shadow without using any of his actions. A creature struck by a shadow double can attempt a Will save (DC 20 + the ankou's shadow's Intelligence modifier) each time it takes damage to recognize the illusion. If it succeeds, the target treats all the shadow doubles as 20% real, as the spell <Link to="/spell/shadow_conjuration">shadow conjuration</Link>. The shadow doubles cannot use the shadow double ability. The ankou's shadow can use this ability a number of times per day equal to 3 + his Intelligence modifier.</p>
-<p><strong>Slayer Talents:</strong> The following slayer talents (and rogue talents) complement the ankou's shadow archetype: <Link to="/talent/bleeding_attack">bleeding attack</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/slayertalent/slowing_strike">slowing strike</Link>, and <Link to="/talent/surprise_attack">surprise attack</Link>.</p>
-<p><strong>Advanced Slayer Talents:</strong> The following advanced slayer talents (and advanced rogue talents) complement the ankou's shadow archetype: <Link to="/slayertalent/assassinate">assassinate</Link>, <Link to="/talent/hunters_surprise">hunter's surprise</Link>, and <Link to="/slayertalent/woodland_stride">woodland stride</Link>.</p>
-</>};
+<Ability id="arc-slayer-ankous_shadow-shadow-double-sp" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-ankous_shadow-shadow-double-sp">Shadow Double (Sp)</Pair>
+<Pair hl title="Replaces">Studied target</Pair>
+<Pair title="Full-Round Action">An ankou's shadow can create a single, quasi-real, shadowy duplicate. This <em>shadow double</em> remains in his square, mimicking his movements as a single <Link to="/spell/mirror_image">mirror image</Link>, except that it lasts until it is destroyed or he chooses to dismiss it as a <strong className="hl">swift action</strong>. This ability does not stack with the <em>mirror image</em> spell or with similar abilities, such as the <em>copycat</em> ability of the <Link to="/domain/trickery">Trickery</Link> domain.</Pair>
+<Pair title="At 5th Level">An ankou's shadow gains a second <em>shadow double.</em> In addition to using these <em>shadow doubles</em> as <em>mirror images</em> in his square, he can move his doubles as part of his own move action, dividing his movement between himself and his doubles. When outside his square, <em>shadow doubles</em> do not protect the ankou's shadow as <em>mirror image</em> and are limited in the actions they can take. Shadow doubles provide <Link to="/rule/flanking">flanking</Link> for the ankou's shadow and his allies, but they do not possess teamwork feats or special abilities that alter the effects of flanking or aiding another. As a <strong className="hl">swift action</strong>, the ankou's shadow can direct his <em>shadow doubles</em> to use the <Link to="/rule/aid_another_2">aid another</Link> action, using his own base attack bonus plus his Intelligence modifier for the roll. Although a <em>shadow double</em> appears to duplicate the ankou's shadow's gear, this gear is part of its form; a <em>shadow double's</em> gear cannot be destroyed, dropped, or stolen. A <em>shadow double</em> disappears if it ventures more than 50 feet from the ankou's shadow or if it leaves his line of sight or effect. A <em>shadow double</em> that is hit by an attack roll or takes any damage is destroyed. The AC of a <em>shadow double</em> is equal to the ankou's shadow's touch AC, and it has the same CMD and saving throw bonuses as the ankou's shadow. Shadow doubles possess <Link to="/ability/evasion">evasion</Link> if the ankou's shadow does. Mind-affecting effects targeting a <em>shadow double</em> affect the ankou's shadow instead, though he isn't affected twice by effects that target both him and a <em>shadow double.</em></Pair>
+<Pair title="At 10th Level">An ankou's shadow gains a third <em>shadow double.</em> He can divide his actions between his actual body and his <em>shadow doubles,</em> using them as the origin point for attacks or abilities. For example, an ankou's shadow making three attacks as a part of a full attack could make his primary attack from his own body and his other two attacks from two of his <em>shadow doubles.</em></Pair>
+<Pair title="At 15th Level">An ankou's shadow gains a fourth <em>shadow double.</em> In addition to the abilities above, an ankou's shadow can assign the doubles to perform simple tasks on their own, as the <Link to="/spell/unseen_servant">unseen servant</Link> spell, except that the <em>shadow doubles</em> have an effective Strength score of 10.</Pair>
+</Ability>
+<Ability id="arc-slayer-ankous_shadow-ankous-vision-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-slayer-ankous_shadow-ankous-vision-sp">Ankou's Vision (Sp)</Pair>
+<Pair hl title="Replaces">Stalker</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Swift Action">An ankou's shadow can use <Link to="/spell/see_invisibility">see invisibility</Link>, as per the spell, for 1 minute per level per day. This duration does not need to be consecutive, but it must be used in 1-minute increments.</Pair>
+</Ability>
+<Ability id="arc-slayer-ankous_shadow-shadow-prey-ex" icon={["broken-shield","info"]}>
+<Pair single id="arc-slayer-ankous_shadow-shadow-prey-ex">Shadow Prey (Ex)</Pair>
+<Pair hl title="Alters">Quarry, improved quarry</Pair>
+<Pair title="Info">An ankou's shadow cannot denote a target as his <em>quarry</em> unless he has a <em>shadow double</em> present, but unlike other slayers, the target does not need to be one of his <em>studied targets.</em></Pair>
+</Ability>
+<Ability id="arc-slayer-ankous_shadow-unfettered-shadows-su" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-ankous_shadow-unfettered-shadows-su">Unfettered Shadows (Su)</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Usage">3 + Intelligence modifier times/day</Pair>
+<Pair title="Standard Action">An ankou's shadow can unfetter all of his <em>shadow doubles</em> for 1 minute. While unfettered, each <em>shadow double</em> can move and attack as if it were the ankou's shadow without using any of his actions. A creature struck by a <em>shadow double</em> can attempt a Will save (DC 20 + the ankou's shadow's Intelligence modifier) each time it takes damage to recognize the illusion. If it succeeds, the target treats all the <em>shadow doubles</em> as 20% real, as the spell <Link to="/spell/shadow_conjuration">shadow conjuration</Link>.</Pair>
+<Pair title="Special">The <em>shadow doubles</em> cannot use the <em>shadow double</em> ability.</Pair>
+</Ability>
+<p><strong className="hl">The following slayer talents complement the ankou's shadow archetype:</strong> <Link to="/slayertalent/rogue_talent">rogue talent</Link> (<Link to="/talent/bleeding_attack">bleeding attack</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>), <Link to="/slayertalent/slowing_strike">slowing strike</Link></p><p><strong className="hl">The following advanced slayer talents complement the ankou's shadow archetype:</strong> <Link to="/slayertalent/advanced_rogue_talent">advanced rogue talent</Link> (hunter's surprise), <Link to="/slayertalent/assassinate">assassinate</Link>, <Link to="/slayertalent/woodland_stride">woodland stride</Link></p></>};
 const _avalancher = {title: "Avalancher", jsx: <><h2 id="arc-slayer-avalancher-avalancher">Avalancher</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 86</Link><br/>Avalanchers attack from overhead cliffs and mesas like a landslide of arrows and blades.</p>
-<p><strong>Falling Strike (Ex):</strong> An avalancher excels at dropping onto opponents from higher ground. He gains a +1 bonus on Stealth checks and attack and damage rolls when he falls at least 10 feet before attacking an opponent. These bonuses stack with any bonuses the avalancher receives for charging or attacking from higher ground.</p>
-<p>At 5th, 10th, 15th, and 20th levels, the bonuses from falling strike increase by 1.</p>
-<p>This replaces <strong className="hl">studied target</strong>.</p>
-<p><strong>Cliff Jumper (Ex):</strong> An avalancher adds half his level on Acrobatics checks to jump or soften a fall. Whenever he attempts an Acrobatics check to soften an intentional fall, he reduces the falling damage he takes by an additional 1d6 for every increment of 10 by which his Acrobatics check result exceeds the DC (a 2d6 reduction at DC 25, 3d6 at DC 35, and so on). At 11th level, the avalancher reduces the DC of his Acrobatics checks to soften a fall by 5.</p>
-<p>This replaces <strong className="hl">track</strong> and <strong className="hl">swift tracker</strong>.</p>
-<p><strong>Falling Dodge (Ex):</strong> At 7th level, an avalancher gains his bonus to AC from the falling strike ability when a jump or fall carries him through threatened squares. This bonus applies only when he's jumping, not when he's using Acrobatics to try to avoid attacks of opportunity from moving through threatened squares.</p>
-<p>This replaces <strong className="hl">stalker</strong>.</p>
-<p><strong>Fall-By Attack (Ex):</strong> At 14th level, if the avalancher makes a single jump of at least 20 feet in any direction and lands at an elevation at least 10 feet lower than his starting elevation, he can make ranged or melee attacks during his fall as if he were making a full-round attack. He can make any number of attacks in any combination of squares along this single jump, up to his maximum number of attacks, but he can attack a given creature once at most. If the avalancher attempts a jump but fails the Acrobatics check, he makes no attacks and suffers the consequences of his failed jump normally. At 19th level, he can add his extra damage from sneak attack against each creature he hits while using this ability, even if the targets have acted in combat or retain their Dexterity bonuses to AC.</p>
-<p>This replaces <strong className="hl">quarry</strong> and <strong className="hl">improved quarry</strong>.</p>
-<p><strong>Death from Above (Ex):</strong> At 20th level, an avalancher can take down his foe with a single attack. During a round, if he falls at least 10 feet (the action type depends on how he comes to be falling), he can make a single attack at his full base attack bonus as a standard action, choosing one of the following effects: kill, knock unconscious for 1d4 hours, or paralyze for 2d6 rounds. If the attack hits, the target takes damage normally and must succeed at a Fortitude save or suffer the additional effect. The save DC is equal to 20 + 1 for every 10 feet the avalancher fell before making the attack (to a maximum of DC 30 for a fall of 100 feet or more). Whether or not the target succeeds, it can't be targeted by this ability again (by any avalancher) for 24 hours.</p>
-<p>This replaces <strong className="hl">master slayer</strong>.</p>
+<Ability id="arc-slayer-avalancher-falling-strike-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-avalancher-falling-strike-ex" flavor="An avalancher excels at dropping onto opponents from higher ground.">Falling Strike (Ex)</Pair>
+<Pair hl title="Replaces">Studied target</Pair>
+<Pair title="Passive Ability">He gains a bonus on Stealth checks and attack and damage rolls when he falls at least 10 feet before attacking an opponent. These bonuses are equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of his slayer level, and they stack with any bonuses the avalancher receives for <Link to="/rule/charging">charging</Link> or attacking from <Link to="/rule/higher_ground">higher ground</Link>.</Pair>
+</Ability>
+<Ability id="arc-slayer-avalancher-cliff-jumper-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-slayer-avalancher-cliff-jumper-ex">Cliff Jumper (Ex)</Pair>
+<Pair hl title="Replaces">Track, swift tracker</Pair>
+<Pair title="Passive Ability">An avalancher adds half his level on Acrobatics checks to jump or soften a fall.</Pair>
+<Pair title="Ability">Whenever he attempts an <Link to="/skill/acrobatics">Acrobatics</Link> check to soften an intentional fall, he reduces the falling damage he takes by an additional 1d6 for every increment of 10 by which his Acrobatics check result exceeds the DC (a 2d6 reduction at DC 25, 3d6 at DC 35, and so on).</Pair>
+<Pair title="At 11th Level">The avalancher reduces the DC of his Acrobatics checks to soften a fall by 5.</Pair>
+</Ability>
+<Ability id="arc-slayer-avalancher-falling-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-slayer-avalancher-falling-dodge-ex">Falling Dodge (Ex)</Pair>
+<Pair hl title="Replaces">Stalker</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">An avalancher gains his bonus to AC from the <em>falling strike</em> ability when a jump or fall carries him through threatened squares.</Pair>
+<Pair title="Special">This bonus applies only when he's jumping, not when he's using Acrobatics to try to avoid attacks of opportunity from moving through threatened squares.</Pair>
+</Ability>
+<Ability id="arc-slayer-avalancher-fall-by-attack-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-avalancher-fall-by-attack-ex">Fall-By Attack (Ex)</Pair>
+<Pair hl title="Replaces">Quarry, improved quarry</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Ability">If the avalancher makes a single jump of at least 20 feet in any direction and lands at an elevation at least 10 feet lower than his starting elevation, he can make ranged or melee attacks during his fall as if he were making a full-round attack. He can make any number of attacks in any combination of squares along this single jump, up to his maximum number of attacks, but he can attack a given creature once at most. If the avalancher attempts a jump but fails the Acrobatics check, he makes no attacks and suffers the consequences of his failed jump normally.</Pair>
+<Pair title="At 19th Level">He can add his extra damage from <em>sneak attack</em> against each creature he hits while using this ability, even if the targets have acted in combat or retain their Dexterity bonuses to AC.</Pair>
+</Ability>
+<Ability id="arc-slayer-avalancher-death-from-above-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-avalancher-death-from-above-ex" flavor="An avalancher can take down his foe with a single attack.">Death from Above (Ex)</Pair>
+<Pair hl title="Replaces">Master slayer</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">During a round, if he falls at least 10 feet (the action type depends on how he comes to be falling), he can make a single attack at his full base attack bonus as a <strong className="hl">standard action</strong>, choosing one of the following effects: kill, knock unconscious for 1d4 hours, or paralyze for 2d6 rounds. If the attack hits, the target takes damage normally and must succeed at a Fortitude save or suffer the additional effect. The save DC is equal to 20 + 1 for every 10 feet the avalancher fell before making the attack (to a maximum of DC 30 for a fall of 100 feet or more).</Pair>
+<Pair title="Special">Whether or not the target succeeds, it can't be targeted by this ability again (by any avalancher) for 24 hours.</Pair>
+</Ability>
 </>};
 const _bloody_jake = {title: "Bloody Jake", jsx: <><h2 id="arc-slayer-bloody_jake-bloody-jake">Bloody Jake</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 66</Link><br/>Bloody jakes are cruel backwoods folk who prey upon their country cousins while terrorizing civilized people who venture into their rural range.</p>
-<p><strong>Alignment:</strong> A bloody jake must be of an evil alignment. A bloody jake who becomes nonevil cannot gain new levels as a slayer but retains all his class abilities.</p>
-<p><strong>Favored Terrain (Ex):</strong> At 1st level, a bloody jake can select a type of terrain from the <Link to="/ability/favored_terrain">favored terrain</Link> table for <Link to="/class/ranger">rangers</Link>, though he is restricted to cold, desert, forest, jungle, mountains, plains, and swamp. His bonuses when in this terrain increase by 2 at 5th level and every 5 slayer levels thereafter, though he does not gain the ability to select additional favored terrains unless he takes the <Link to="/talent/terrain_mastery">terrain mastery</Link> rogue talent.</p>
-<p>This ability replaces the slayer's <strong className="hl">proficiency in medium armor and shields</strong>.</p>
-<p><strong>Cruel Tricks:</strong> Bloody jakes use backwoods folk magic to confuse, terrify, and weaken their prey. A bloody jake can use this ability a number of times per day equal to his slayer level + his Charisma modifier. He gains the cruel tricks below at the indicated slayer levels.</p>
-<blockquote>
-<p><strong>Distant Voices (Sp):</strong> At 1st level, a bloody jake can cause his voice to seem to emanate from somewhere else, as per ventriloquism. This ability doesn't take any other action to activate and can be used as part of speaking (as a free action); it costs one use of cruel tricks to affect his speech for 1 round.</p>
-<p><strong>Lose Your Way (Sp):</strong> At 4th level, as a standard action, a bloody jake can spend one use of cruel tricks to cause a creature that is within 30 feet and within the bloody jake's favored terrain to become disoriented, taking a penalty on Survival checks equal to the bloody jake's slayer level and a -2 penalty on saving throws against fear and illusions. This effect lasts for 1 hour per slayer level of the bloody jake or for as long as the affected creature remains within the bloody jake's favored terrain, whichever is shorter.</p>
-<p><strong>Something's Not Right (Su):</strong> At 8th level, as a move action, a bloody jake can spend one use of cruel tricks to cause all foes within 30 feet to become shaken for 1 round. This is a fear effect that doesn't increase in strength by applying other effects that cause creatures to become shaken. At 12th level, he can use this ability as a swift action. At 16th level, a bloody jake can make any number of the affected foes frightened for 1 round, though such foes receive a Will save (DC = 10 + 1/2 the loody jake's slayer level + his Charisma modifier) to negate the frightened condition; even so, such a foe is still shaken.</p>
-<p><strong>The Woods Have Eyes (Sp):</strong> At 12th level, a bloody jake in his favored terrain can spend one use of cruel tricks as a swift action to gain <Link to="/umr/blindsense">blindsense</Link> in a 30-foot radius for 1 round; this blindsense is sound-based.</p>
-</blockquote>
-<p>This replaces the 1st-level studied target and the <strong className="hl">slayer talents</strong> gained at 4th, 8th, 12th, and 16th level.</p>
-<p><strong>Poor Study (Ex):</strong> A bloody jake gains this ability at 5th level rather than 1st level, beginning with a bonus of +1 at 5th level and increasing by 1 for every 5 slayer levels thereafter. A bloody jake must be 11th level to study an opponent as a move or swift action.</p>
-<p>This ability alters <strong className="hl">studied target</strong>.</p>
-<p><strong>Sadistic Snare (Ex):</strong> At 6th level, a bloody jake gains <Link to="/feat/learn_ranger_trap">Learn Ranger Trap</Link> as a bonus feat, benefiting from it as if he were a ranger. He can expend two uses of his traps ability to add his sneak attack damage to the trap's damage; any slayer talents or rogue talents he has that modify sneak attack damage, such as bleeding attack, also apply to sneak attack damage dealt by his ranger traps.</p>
-<p>This replaces the <strong className="hl">slayer talent</strong> gained at 6th level.</p>
-<p><strong>Cruel Trick (Ex):</strong> At 11th level, a bloody jake can maim or humiliate his target with a sneak attack, substituting 1 point of <Link to="/rule/charisma_damage">Dexterity or Charisma damage</Link> per die of sneak attack damage forfeited. A successful Will save negates this ability damage (DC = 10 + 1/2 the bloody jake's slayer level + his Charisma modifier).</p>
-<p>This ability replaces <strong className="hl">swift tracker</strong>.</p>
-<p><strong>Woodland Shortcut (Sp):</strong> At 13th level, a bloody jake can move with supernatural ease among the trees once per day, as if using <Link to="/spell/tree_stride">tree stride</Link> with a caster level equal to his slayer level.</p>
-<p>This ability replaces <strong className="hl">slayer's advance</strong>.</p>
+<Ability id="arc-slayer-bloody_jake-alignment" icon={["hazard-sign"]}>
+<Pair single id="arc-slayer-bloody_jake-alignment">Alignment</Pair>
+<Pair title="Prerequisites">A bloody jake must be of an evil alignment.</Pair>
+<Pair title="Info">A bloody jake who becomes nonevil cannot gain new levels as a slayer but retains all his class abilities.</Pair>
+</Ability>
+<Ability id="arc-slayer-bloody_jake-favored-terrain-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-bloody_jake-favored-terrain-ex">Favored Terrain (Ex)</Pair>
+<Pair hl title="Replaces">Proficiency in medium armor and shields</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Choice">A bloody jake can select a type of terrain from the <Link to="/ability/favored_terrain">favored terrain</Link> table for <Link to="/class/ranger">rangers</Link>, though he is restricted to cold, desert, forest, jungle, mountains, plains, and swamp.</Pair>
+<Pair title="At 5th Level">His bonuses in the selected terrain increase by 2.</Pair>
+<Pair title="At 10th Level">His bonuses in the selected terrain now increase by 4.</Pair>
+<Pair title="At 15th Level">His bonuses in the selected terrain now increase by 6.</Pair>
+<Pair title="At 20th Level">His bonuses in the selected terrain now increase by 8.</Pair>
+<Pair title="Special">He does not gain the ability to select additional <em>favored terrains</em> unless he takes the <Link to="/talent/terrain_mastery">terrain mastery</Link> rogue talent.</Pair>
+</Ability>
+<Ability id="arc-slayer-bloody_jake-cruel-tricks" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-bloody_jake-cruel-tricks">Cruel Tricks</Pair>
+<Pair hl title="Replaces">The 1st-level studied target, slayer talents gained at 4th, 8th, 12th, and 16th level</Pair>
+<Pair title="Usage">Slayer level + Charisma modifier times/day</Pair>
+<Pair title="Ability">Bloody jakes use backwoods folk magic to confuse, terrify, and weaken their prey. He gains the <em>cruel tricks</em> below at the indicated slayer levels.</Pair>
+</Ability>
+<Ability id="arc-slayer-bloody_jake-distant-voices-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-slayer-bloody_jake-distant-voices-sp">Distant Voices (Sp)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A bloody jake can cause his voice to seem to emanate from somewhere else, as per <Link to="/spell/ventriloquism">ventriloquism</Link>. This ability doesn't take any other action to activate and can be used as part of speaking (as a <strong className="hl">free action</strong>); it costs one use of <em>cruel tricks</em> to affect his speech for 1 round.</Pair>
+</Ability>
+<Ability id="arc-slayer-bloody_jake-lose-your-way-sp" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-slayer-bloody_jake-lose-your-way-sp">Lose Your Way (Sp)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Standard Action">A bloody jake can spend one use of <em>cruel tricks</em> to cause a creature that is within 30 feet and within the bloody jake's <em>favored terrain</em> to become disoriented, taking a penalty on Survival checks equal to the bloody jake's slayer level and a -2 penalty on saving throws against fear and illusions. This effect lasts for 1 hour per slayer level of the bloody jake or for as long as the affected creature remains within the bloody jake's <em>favored terrain,</em> whichever is shorter.</Pair>
+</Ability>
+<Ability id="arc-slayer-bloody_jake-somethings-not-right-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-slayer-bloody_jake-somethings-not-right-su">Something's Not Right (Su)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Move-Equivalent Action">A bloody jake can spend one use of <em>cruel tricks</em> to cause all foes within 30 feet to become <Link to="/misc/shaken">shaken</Link> for 1 round. This is a fear effect that doesn't increase in strength by applying other effects that cause creatures to become shaken.</Pair>
+<Pair title="At 12th Level">He can use this ability as a <strong className="hl">swift action</strong>.</Pair>
+<Pair title="At 16th Level">A bloody jake can make any number of the affected foes <Link to="/misc/frightened">frightened</Link> for 1 round, though such foes receive a Will save (DC = 10 + 1/2 the loody jake's slayer level + his Charisma modifier) to negate the frightened condition; even so, such a foe is still shaken.</Pair>
+</Ability>
+<Ability id="arc-slayer-bloody_jake-the-woods-have-eyes-sp" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-bloody_jake-the-woods-have-eyes-sp">The Woods Have Eyes (Sp)</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Swift Action">A bloody jake in his <em>favored terrain</em> can spend one use of <em>cruel tricks</em> to gain <Link to="/umr/blindsense">blindsense</Link> in a 30-foot radius for 1 round; this blindsense is sound-based.</Pair>
+</Ability>
+<Ability id="arc-slayer-bloody_jake-poor-study-ex" icon={["broken-shield"]}>
+<Pair single id="arc-slayer-bloody_jake-poor-study-ex">Poor Study (Ex)</Pair>
+<Pair hl title="Alters">Studied target</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">A bloody jake gains <em>studied target</em> at 5th level rather than 1st level, with a bonus equal to <Link to="/misc/one_fifth">one-fifth</Link> of his slayer level.</Pair>
+<Pair title="At 11th Level">A bloody jake may study an opponent as a <strong className="hl">move</strong> or <strong className="hl">swift action</strong>.</Pair>
+</Ability>
+<Ability id="arc-slayer-bloody_jake-sadistic-snare-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-bloody_jake-sadistic-snare-ex">Sadistic Snare (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">A bloody jake gains <Link to="/feat/learn_ranger_trap">Learn Ranger Trap</Link> as a bonus feat, benefiting from it as if he were a ranger. He can expend two uses of his traps ability to add his sneak attack damage to the trap's damage; any slayer talents or rogue talents he has that modify sneak attack damage, such as <Link to="/talent/bleeding_attack">bleeding attack</Link>, also apply to sneak attack damage dealt by his ranger traps.</Pair>
+</Ability>
+<Ability id="arc-slayer-bloody_jake-cruel-trick-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-slayer-bloody_jake-cruel-trick-ex">Cruel Trick (Ex)</Pair>
+<Pair hl title="Replaces">Swift tracker</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">A bloody jake can maim or humiliate his target with a sneak attack, substituting 1 point of <Link to="/rule/charisma_damage">Dexterity or Charisma damage</Link> per die of sneak attack damage forfeited. A successful Will save negates this ability damage (DC = 10 + 1/2 the bloody jake's slayer level + his Charisma modifier).</Pair>
+</Ability>
+<Ability id="arc-slayer-bloody_jake-woodland-shortcut-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-slayer-bloody_jake-woodland-shortcut-sp">Woodland Shortcut (Sp)</Pair>
+<Pair hl title="Replaces">Slayer's advance</Pair>
+<Pair title="Gained">At 13th Level</Pair>
+<Pair title="Ability">A bloody jake can move with supernatural ease among the trees once per day, as if using <Link to="/spell/tree_stride">tree stride</Link> with a caster level equal to his slayer level.</Pair>
+</Ability>
 </>};
 const _bounty_hunter = {title: "Bounty Hunter", jsx: <><h2 id="arc-slayer-bounty_hunter-bounty-hunter">Bounty Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 118</Link><br/>Whether tasked with bringing in wanted criminals or paid to drag debtors back to their loan sharks, bounty hunters are valued for their ability to capture targets alive.</p>
-<p><strong>Weapon and Armor Proficiency:</strong> A bounty hunter is proficient with all simple and martial weapons plus the <Link to="/eq-weapon/aklys">aklys</Link>, <Link to="/eq-weapon/bolas">bolas</Link>, <Link to="/eq-weapon/dan_bong">dan bong</Link>, <Link to="/eq-weapon/lasso">lasso</Link>, and <Link to="/eq-weapon/net">net</Link>. Bounty hunters are proficient with light armor, light shields, and bucklers, but not heavy shields or tower shields.</p>
-<p>This ability replaces the slayer's .</p>
-<p><strong>Dirty Trick (Ex):</strong> At 2nd level, anytime a bounty hunter is able to deal sneak attack damage to a studied target, he can instead attempt to hamper the target. The bounty hunter must declare that he's using this ability before the attack roll is made. If the attack hits, it deals damage normally, but instead of rolling sneak attack damage, the bounty hunter can attempt a dirty trick combat maneuver against the studied target as a free action, adding 1 to the combat maneuver check for each die of the bounty hunter's sneak attack damage. This combat maneuver does not provoke attacks of opportunity.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 2nd level.</p>
-<p><strong>Submission Hold (Ex):</strong> At 6th level, when a bounty hunter attempts a grapple combat maneuver check to deal damage, he can choose to add his sneak attack damage to the grapple damage for that attack. He takes a -5 penalty on the combat maneuver check if he does this. This sneak attack damage is nonlethal damage, unless the bounty hunter is able to deal normal damage with a grapple and chooses to do so.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 6th level.</p>
-<p><strong>Incapacitate (Ex):</strong> At 10th level, a bounty hunter can incapacitate a studied target. This functions like the <Link to="/slayertalent/assassinate">assassinate</Link> slayer talent, except instead of killing the target, the bounty hunter's successful attack knocks the target unconscious for 1d6 rounds unless it succeeds at its saving throw. If the target does succeed at its saving throw, it still takes the sneak attack damage as normal, but the damage is nonlethal, and the target is immune to that slayer's incapacitate ability for 24 hours.</p>
-<p>This ability replaces the advanced <strong className="hl">slayer talent</strong> gained at 10th level.</p>
-<p><strong>Slayer Talents:</strong> The following slayer talents (and rogue talents) complement the bounty hunter archetype: <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/hard_to_fool">hard to fool</Link>, <Link to="/slayertalent/slowing_strike">slowing strike</Link>, <Link to="/talent/snap_shot">snap shot</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, and <Link to="/talent/terrain_mastery">terrain mastery</Link>.</p>
-<p><strong>Advanced Slayer Talents:</strong> The following advanced slayer talents (and advanced rogue talents) complement the bounty hunter archetype: <Link to="/talent/hunters_surprise">hunter's surprise</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>, and <Link to="/slayertalent/woodland_stride">woodland stride</Link>.</p>
-</>};
+<Ability id="arc-slayer-bounty_hunter-weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-slayer-bounty_hunter-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Replaces">Weapon and armor proficiencies</Pair>
+<Pair title="Info">A bounty hunter is proficient with all simple and martial weapons plus the <Link to="/eq-weapon/aklys">aklys</Link>, <Link to="/eq-weapon/bolas">bolas</Link>, <Link to="/eq-weapon/dan_bong">dan bong</Link>, <Link to="/eq-weapon/lasso">lasso</Link>, and <Link to="/eq-weapon/net">net</Link>. Bounty hunters are proficient with light armor, light shields, and bucklers, but not heavy shields or tower shields.</Pair>
+</Ability>
+<Ability id="arc-slayer-bounty_hunter-dirty-trick-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-slayer-bounty_hunter-dirty-trick-ex">Dirty Trick (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">Anytime a bounty hunter is able to deal sneak attack damage to a <em>studied target,</em> he can instead attempt to hamper the target. The bounty hunter must declare that he's using this ability before the attack roll is made. If the attack hits, it deals damage normally, but instead of rolling sneak attack damage, the bounty hunter can attempt a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver against the <em>studied target</em> as a free action, adding 1 to the combat maneuver check for each die of the bounty hunter's sneak attack damage. This combat maneuver does not provoke attacks of opportunity.</Pair>
+</Ability>
+<Ability id="arc-slayer-bounty_hunter-submission-hold-ex" icon={["mailed-fist"]}>
+<Pair single id="arc-slayer-bounty_hunter-submission-hold-ex">Submission Hold (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">When a bounty hunter attempts a <Link to="/rule/grapple">grapple</Link> combat maneuver check to deal damage, he can choose to add his sneak attack damage to the grapple damage for that attack. He takes a -5 penalty on the combat maneuver check if he does this. This sneak attack damage is nonlethal damage, unless the bounty hunter is able to deal normal damage with a grapple and chooses to do so.</Pair>
+</Ability>
+<Ability id="arc-slayer-bounty_hunter-incapacitate-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-slayer-bounty_hunter-incapacitate-ex">Incapacitate (Ex)</Pair>
+<Pair hl title="Replaces">The advanced slayer talent gained at 10th level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">A bounty hunter can incapacitate a <em>studied target.</em> This functions like the <Link to="/slayertalent/assassinate">assassinate</Link> slayer talent, except instead of killing the target, the bounty hunter's successful attack knocks the target unconscious for 1d6 rounds unless it succeeds at its saving throw. If the target does succeed at its saving throw, it still takes the sneak attack damage as normal, but the damage is nonlethal, and the target is immune to that slayer's incapacitate ability for 24 hours.</Pair>
+</Ability>
+<p><strong className="hl">The following slayer talents complement the bounty hunter archetype:</strong> <Link to="/slayertalent/rogue_talent">rogue talent</Link> (<Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/hard_to_fool">hard to fool</Link>, <Link to="/talent/snap_shot">snap shot</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>), <Link to="/slayertalent/slowing_strike">slowing strike</Link></p><p><strong className="hl">The following advanced slayer talents complement the bounty hunter archetype:</strong> <Link to="/slayertalent/advanced_rogue_talent">advanced rogue talent</Link> (<Link to="/talent/hunters_surprise">hunter's surprise</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>), <Link to="/slayertalent/woodland_stride">woodland stride</Link></p></>};
 const _butterfly_blade = {title: "Butterfly Blade", jsx: <><h2 id="arc-slayer-butterfly_blade-butterfly-blade">Butterfly Blade</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 24</Link><br/>Followers of a tradition dating back to the ancient empire of Yixing, the yellow-robed agents known as butterfly blades now operate primarily in Goka, where many serve the city's politically savvy ruler. Butterfly blades work in the shadows, eliminating threats with their namesake weapons and intimidating troublesome nobles.</p>
-<p><strong>Studied Stalker (Ex):</strong> A butterfly blade gains the stalker class feature at 1st level, rather than at 7th level. The butterfly blade doesn't add his studied target bonus on Knowledge or Survival checks.</p>
-<p>This ability alters <strong className="hl">studied target</strong> and replaces <strong className="hl">track</strong>.</p>
-<p><strong>Bonus Feats:</strong> Whenever a butterfly blade would gain a slayer talent, he can instead select a feat from the following list: <Link to="/feat/cutting_humiliation">Cutting Humiliation</Link>, <Link to="/feat/enforcer">Enforcer</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/nerve_racking_negotiator">Nerve-Racking Negotiator</Link>, or <Link to="/feat/threatening_negotiator">Threatening Negotiator</Link>. The butterfly blade does not need to meet the feat's prerequisites.</p>
-<p>This alters <strong className="hl">slayer talents</strong>.</p>
-<p><strong>Butterfly's Kiss (Ex):</strong> Butterfly blades train to inflict painful cuts rather than lethal ones. A butterfly blade can deal nonlethal damage with butterfly swords without taking a penalty on attack rolls. At 3rd level, a butterfly blade gets a +1 bonus on attack rolls with butterfly swords, and the damage die of any butterfly sword he wields increases by one step; at 9th level and again at 15th level, the attack bonus increases by 1 and the damage die increases by an additional step.</p>
-<p>At 6th level, the butterfly blade gains the knockout class feature, as per a <Link to="/class/brawler">brawler</Link> of his class level - 2.</p>
-<p>This ability replaces <strong className="hl">sneak attack</strong>.</p>
-<p><strong>Innocent Butterfly (Sp):</strong> At 7th level, a butterfly blade can use <Link to="/spell/aura_of_the_unremarkable">aura of the unremarkable</Link> once per day as a spell-like ability. At 11th level, he can use it twice per day, and at 14th level, it becomes a constant spell-like ability that he can activate or deactivate as a free action. The ability's caster level is equal to his slayer class level, and the DC is equal to 10 + the number of ranks the butterfly blade has in either Bluff or Intimidate, whichever is higher.</p>
-<p>This ability replaces <strong className="hl">stalker</strong>, <strong className="hl">swift tracker</strong>, and <strong className="hl">quarry</strong>.</p>
-<p><strong>Deadly Butterfly (Ex):</strong> At 19th level, a butterfly blade becomes a bloody whirlwind in combat. When he strikes a foe with a butterfly sword, he automatically confirms critical threats. In addition, any butterfly sword he wields is treated as if it has the <Link to="/magic-enh/speed">speed</Link> weapon special ability. If the weapon already has the speed weapon special ability, this doesn't stack.</p>
-<p>This ability replaces <strong className="hl">improved quarry</strong>.</p>
+<Ability id="arc-slayer-butterfly_blade-studied-stalker-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-slayer-butterfly_blade-studied-stalker-ex">Studied Stalker (Ex)</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair hl title="Alters">Studied target</Pair>
+<Pair title="Ability">A butterfly blade gains the <em>stalker</em> class feature at 1st level, rather than at 7th level.</Pair>
+<Pair title="Special">The butterfly blade doesn't add his <em>studied target</em> bonus on Knowledge or Survival checks.</Pair>
+</Ability>
+<Ability id="arc-slayer-butterfly_blade-bonus-feats" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-butterfly_blade-bonus-feats">Bonus Feats</Pair>
+<Pair hl title="Alters">Slayer talents</Pair>
+<Pair title="Choice">Whenever a butterfly blade would gain a slayer talent, he can instead select a feat from the following list: <Link to="/feat/cutting_humiliation">Cutting Humiliation</Link>, <Link to="/feat/enforcer">Enforcer</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/nerve_racking_negotiator">Nerve-Racking Negotiator</Link>, or <Link to="/feat/threatening_negotiator">Threatening Negotiator</Link>. The butterfly blade does not need to meet the feat's prerequisites.</Pair>
+</Ability>
+<Ability id="arc-slayer-butterfly_blade-butterflys-kiss-ex" extraClasses="hasSubs" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-slayer-butterfly_blade-butterflys-kiss-ex" flavor="Butterfly blades train to inflict painful cuts rather than lethal ones.">Butterfly's Kiss (Ex)</Pair>
+<Pair hl title="Replaces">Sneak attack</Pair>
+<Pair title="Ability">A butterfly blade can deal nonlethal damage with <Link to="/eq-weapon/butterfly_sword">butterfly swords</Link> without taking a penalty on attack rolls.</Pair>
+<Pair title="At 3rd Level">A butterfly blade gets a +1 bonus on attack rolls with butterfly swords, and the damage die of any butterfly sword he wields increases <Link to="/misc/by_one_step">by one step</Link>.</Pair>
+<Pair title="At 6th Level">The butterfly blade gains the <em>knockout</em> class feature, as per a <Link to="/class/brawler">brawler</Link> of his class level - 2.</Pair>
+<Pair title="At 9th Level">The bonus becomes +2 and the damage die increases another step.</Pair>
+<Pair title="At 15th Level">The bonus increases to +3 and the damage die increases another step.</Pair>
+</Ability>
+<Ability id="arc-slayer-butterfly_blade-knockout-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-slayer-butterfly_blade-knockout-ex" flavor="Text from the brawler class ability.">Knockout (Ex)</Pair>
+<Pair title="Standard Action">Once a day, you can unleash a devastating attack that can instantly knock a target unconscious. You must announce this intent before making your attack roll. If you hit and the target takes damage from the blow, the target must succeed at a Fortitude saving throw (DC = 10 + <Link to="/misc/half">half</Link> your brawler level + the higher of your Strength or Dexterity modifier) or fall unconscious for 1d6 rounds.</Pair>
+<Pair title="At 10th Level">You can use this twice a day.</Pair>
+<Pair title="At 16th Level">You can use this three times per day.</Pair>
+<Pair title="Special">Each round on its turn, the unconscious target may attempt a new saving throw to end the effect as a <strong className="hl">full-round action</strong> that does not provoke attacks of opportunity. Creatures immune to critical hits or nonlethal damage are immune to this ability.</Pair>
+</Ability>
+<Ability id="arc-slayer-butterfly_blade-innocent-butterfly-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-slayer-butterfly_blade-innocent-butterfly-sp">Innocent Butterfly (Sp)</Pair>
+<Pair hl title="Replaces">Stalker, swift tracker, quarry</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A butterfly blade can use <Link to="/spell/aura_of_the_unremarkable">aura of the unremarkable</Link> once per day as a spell-like ability.</Pair>
+<Pair title="At 11th Level">He can use it twice per day.</Pair>
+<Pair title="At 14th Level">It becomes a constant spell-like ability that he can activate or deactivate as a <strong className="hl">free action</strong>.</Pair>
+<Pair title="Special">The ability's caster level is equal to his slayer class level, and the DC is equal to 10 + the number of ranks the butterfly blade has in either Bluff or Intimidate, whichever is higher.</Pair>
+</Ability>
+<Ability id="arc-slayer-butterfly_blade-deadly-butterfly-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-butterfly_blade-deadly-butterfly-ex" flavor="A butterfly blade becomes a bloody whirlwind in combat.">Deadly Butterfly (Ex)</Pair>
+<Pair hl title="Replaces">Improved quarry</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Passive Ability">When he strikes a foe with a butterfly sword, he automatically confirms critical threats. In addition, any butterfly sword he wields is treated as if it has the <Link to="/magic-enh/speed">speed</Link> weapon special ability. If the weapon already has the <em>speed</em> weapon special ability, this doesn't stack.</Pair>
+</Ability>
 </>};
 const _cleaner = {title: "Cleaner", jsx: <><h2 id="arc-slayer-cleaner-cleaner">Cleaner</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 118</Link><br/>A cleaner is responsible for destroying or removing incriminating evidence from a crime scene, disposing of corpses and eliminating witnesses to make a crime look like an accident or a mere disappearance.</p>
