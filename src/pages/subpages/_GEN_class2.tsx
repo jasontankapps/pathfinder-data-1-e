@@ -2742,7 +2742,7 @@ const _kineticist = {hasJL:true,title: "Kineticist", jsx: <><div className="jump
 <Pair title="Ability"><p>You can overexert yourself to channel more power than normal, pushing past the limit of what is safe for your body by accepting <em>burn</em>. Some of your wild talents allow you to accept burn in exchange for a greater effect, while others require you to accept a certain amount of burn to use that talent at all.</p>
 <p>For each point of burn you accept, you take 1 point of nonlethal damage per character level. This damage can't be healed by any means other than getting a full night's rest, which removes all burn and associated nonlethal damage. Nonlethal damage from burn can't be reduced or redirected, and a kineticist incapable of taking nonlethal damage can't accept burn. A kineticist who has accepted burn never benefits from abilities that allow her to ignore or alter the effects she receives from nonlethal damage.</p>
 </Pair>
-<Pair title="Usage">You can accept a number of points of burn per round equal to one-third of your kineticist level.</Pair>
+<Pair title="Usage">You can accept a number of points of burn per round equal to <Link to="/misc/one_third">one-third</Link> of your kineticist level.</Pair>
 <Pair title="Special">You can't choose to accept burn if it would raise your total points of burn higher than 3 + your Constitution modifier (though you can be forced to accept more burn from a source outside your control).</Pair>
 </Ability>
 <Ability id="class-kineticist-kinetic-blast-sp" icon={["stairs-goal"]}>

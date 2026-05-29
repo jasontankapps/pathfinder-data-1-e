@@ -286,7 +286,7 @@
 			"",
 			"::ab[Bonus Spells]{icon=learn note=\"The oracle gains these bonus spells at the listed levels.\" replace=\"The bonus spells gained at 4th, 8th, 10th, 12th, and 14th levels from the oracle's mystery\" s4=\"Sound burst\" s8=Shout s10=\"Song of discord\" s12=\"Greater shout\" s14=\"Pied piping\"}",
 			"",
-			"::ab[Inspiring Song (Ex)]{flavor=\"The voice of an ocean's echo provides inspiration to allies.\" icon=power-boost ability=\"This ability is identical to ‹ability/bardic performance› (using Perform &#91&sing&#93& only), as a bard of the ocean's echo's level.\" imp1=\"She can ‹performance/inspire courage›.\" imp3=\"She can ‹performance/inspire competence›.\" imp15=\"She learns to ‹performance/inspire heroics›.\" usage=\"A number of rounds/day equal to her level + her Charisma modifier (minimum 1).\" replace=\"Revelations gained at 1st, 3rd, and 15th level\"}",
+			"::ab[Inspiring Song (Ex)]{flavor=\"The voice of an ocean's echo provides inspiration to allies.\" icon=power-boost ability=\"This ability is identical to ‹ability/bardic performance› (using Perform &#91&sing&#93& only), as a bard of the ocean's echo's level.\" imp1=\"She can ‹performance/inspire courage›.\" imp3=\"She can ‹performance/inspire competence›.\" imp15=\"She learns to ‹performance/inspire heroics›.\" useUnit=round useLMod=oracle~Charisma useM replace=\"Revelations gained at 1st, 3rd, and 15th level\"}",
 			"",
 			"@HL[Recommended Mysteries:] ‹mystery/Ancestor›, ‹mystery/heavens›, ‹mystery/life›, ‹mystery/lore›, ‹mystery/nature›, ‹mystery/time›, ‹mystery/waves›, ‹mystery/wind›."
 		]

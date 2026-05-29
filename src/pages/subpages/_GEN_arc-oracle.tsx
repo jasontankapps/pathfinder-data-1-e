@@ -457,7 +457,7 @@ const _oceans_echo = {title: "Ocean's Echo", jsx: <><h2 id="arc-oracle-oceans_ec
 <Ability id="arc-oracle-oceans_echo-inspiring-song-ex" icon={["stairs-goal","upgrade"]}>
 <Pair single id="arc-oracle-oceans_echo-inspiring-song-ex" flavor="The voice of an ocean's echo provides inspiration to allies.">Inspiring Song (Ex)</Pair>
 <Pair hl title="Replaces">Revelations gained at 1st, 3rd, and 15th level</Pair>
-<Pair title="Usage">A number of rounds/day equal to her level + her Charisma modifier (minimum 1).</Pair>
+<Pair title="Usage">Oracle level + Charisma modifier rounds/day (minimum 1)</Pair>
 <Pair title="Ability">This ability is identical to <Link to="/ability/bardic_performance">bardic performance</Link> (using Perform [sing] only), as a bard of the ocean's echo's level.</Pair>
 <Pair title="At 1st Level">She can <Link to="/performance/inspire_courage">inspire courage</Link>.</Pair>
 <Pair title="At 3rd Level">She can <Link to="/performance/inspire_competence">inspire competence</Link>.</Pair>

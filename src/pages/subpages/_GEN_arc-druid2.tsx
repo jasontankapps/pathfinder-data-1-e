@@ -176,7 +176,7 @@ const _nithveil_adept = {title: "Nithveil Adept", jsx: <><h2 id="arc-druid-nithv
 <Ability id="arc-druid-nithveil_adept-animal-speech-su" icon={["magic-swirl"]}>
 <Pair single id="arc-druid-nithveil_adept-animal-speech-su" flavor="A Nithveil adept can imbue normal animals with the ability to speak for a brief period.">Animal Speech (Su)</Pair>
 <Pair hl title="Replaces">Spontaneous casting</Pair>
-<Pair title="Usage">A number of times per day equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her druid level.</Pair>
+<Pair title="Usage">1 time/day + 1 per four druid levels</Pair>
 <Pair title="Standard Action">The Nithveil adept can touch an animal to grant it the ability to speak any language the druid knows for 1 minute per druid level. This does not increase the animal's Intelligence or improve its attitude, and the animal behaves as though communicating with someone under the effects of a <Link to="/spell/speak_with_animals">speak with animals</Link> spell, save that it can speak with anyone who understands the language the Nithveil adept grants it.</Pair>
 </Ability>
 <Ability id="arc-druid-nithveil_adept-resist-fey-influence-ex" icon={["armor-upgrade","rolling-dices"]}>
@@ -320,13 +320,13 @@ const _progenitor = {title: "Progenitor", jsx: <><h2 id="arc-druid-progenitor-pr
 <Pair single id="arc-druid-progenitor-magic">Magic</Pair>
 <Pair title="Info">A progenitor who chooses magic as her primal bond can draw upon wild magic to attempt to cast a prepared spell without losing that spell from its spell slot.</Pair>
 <Pair title="Swift Action">To use this ability, she casts the spell as she would normally, but as the spell's effects take place, she must use a <strong className="hl">swift action</strong> to attempt a <Link to="/rule/concentration">concentration</Link> check (DC = 20 + twice the spell's level). If she fails, she expends the spell normally as if she had cast it, but its effects are replaced by <Link to="/rule/magic_traits_pa">a wild magic effect</Link> with a CR equal to her caster level and she is <Link to="/misc/staggered">staggered</Link> until the end of her next turn. If she succeeds, she casts the spell normally and it is not expended from her prepared spell slot, allowing her to cast that spell again at a later point.</Pair>
-<Pair title="Usage">A number of times/day equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> her druid level</Pair>
+<Pair title="Usage">1 time/day + 1 per five druid levels</Pair>
 </Ability>
 <Ability id="arc-druid-progenitor-nature" extraClasses="subAbility numbered" icon={["magic-swirl","armor-upgrade","armor-downgrade"]}>
 <Pair single id="arc-druid-progenitor-nature">Nature</Pair>
 <Pair title="Info">A progenitor who chooses nature as her primal bond can create plants.</Pair>
 <Pair title="Full-Round Action">At the start of her next turn, so long as she is touching a solid surface underfoot, a 5-foot radius of mobile undergrowth springs to life around the progenitor for a number of rounds equal to 3 plus the progenitor's Wisdom bonus. Upon activating this ability, the progenitor chooses whether the undergrowth provides <Link to="/rule/cover">cover</Link> or <Link to="/rule/difficult_terrain">difficult terrain</Link>. If the progenitor chooses cover, her undergrowth provides a cover bonus to AC to the progenitor and allies within the radius. If she chooses difficult terrain, enemies who enter the radius of undergrowth treat it as difficult terrain. A progenitor's undergrowth is treated as forest terrain if it provides cover and plains terrain if it provides difficult terrain. This radius increases by 5 feet at 5th level and every 5 levels thereafter.</Pair>
-<Pair title="Usage">A number of times/day equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> her druid level</Pair>
+<Pair title="Usage">1 time/day + 1 per five druid levels</Pair>
 </Ability>
 <Ability id="arc-druid-progenitor-fey-shape-su" icon={["broken-shield","upgrade"]}>
 <Pair single id="arc-druid-progenitor-fey-shape-su">Fey Shape (Su)</Pair>

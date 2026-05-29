@@ -82,12 +82,26 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				const link = nolink  ? amount : `<Link to="/misc/${amount.replace(/-/g, "_")}">${amount}</Link>`;
 				return `${p ? "These bonuses are" : "This bonus is"} equal to ${link} of ${pronoun} ${c} level`;
 			} else if (tag === "list") {
+				const convertEncodedInfo = (input) => {
+					let m;
+					let test = input;
+					let output = "";
+					while(m = checkForEncodedLink(test)) {
+						const {pre, link, text, post} = m;
+						output += `${pre}[${text}](${link})`;
+						test = post;
+					}
+					return (output + test)
+						.replace(/&(times|quot|[nm]dash|deg|[dD]agger|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;");
+				};
 				return makeListBlock({
 					text,
 					attrs,
 					logError,
 					inline: true,
-					maybeClear: ""
+					maybeClear: "",
+					marked2: makeNewMarkedInstance(),
+					convertEncodedInfo
 				});
 			} else if (tag === "altCapstoneDesc") {
 				flags.link = true;

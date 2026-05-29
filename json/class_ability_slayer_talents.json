@@ -377,6 +377,8 @@
 		],
 		"topLink": [ "Advanced Slayer Talents", "ability/advanced_slayer_talents" ]
 	},
+	"advanced_rogue_talent": { "redirect": "rogue_and_ninja_advanced_talents" },
+	"ninja_master_trick": { "redirect": "rogue_and_ninja_advanced_talents" },
 	"slayer_camouflage": {
 		"name": "Slayer Camouflage",
 		"nameSuffix": "(Ex)",

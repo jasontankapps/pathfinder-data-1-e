@@ -996,7 +996,7 @@ const _martyr = {title: "Martyr", jsx: <><h2 id="arc-paladin-martyr-martyr">Mart
 <Pair single id="arc-paladin-martyr-stigmata">Stigmata</Pair>
 <Pair hl title="Replaces">Smite evil</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Usage">A number of rounds per day equal to 3 + your Charisma modifier + your paladin level.</Pair>
+<Pair title="Usage">3 + paladin level + Charisma modifier rounds/day</Pair>
 <Pair title="Standard Action">The martyr can chant hymns of faith and cause bleeding stigmata to visibly appear on his body. While his <em>stigmata</em> are active, he takes 1 point of <Link to="/umr/bleed">bleed</Link> damage, which automatically ceases when he ends this ability but otherwise does not relent, even in the face of magical healing or Heal checks. His <em>stigmata</em> assist his allies, duplicating the effect of the <Link to="/performance/countersong">countersong</Link>, <Link to="/performance/distraction">distraction</Link>, or <Link to="/performance/inspire_courage">inspire courage</Link> bardic performance of a bard of his paladin level, though both <em>countersong</em> and <em>distraction</em> use Heal skill checks instead of Perform skill checks.</Pair>
 <Pair title="At 7th Level">He can manifest <em>stigmata</em> as a <strong className="hl">move action</strong>.</Pair>
 <Pair title="At 10th Level">He can choose to duplicate the effects of <Link to="/performance/inspire_greatness">inspire greatness</Link>.</Pair>

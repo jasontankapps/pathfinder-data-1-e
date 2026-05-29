@@ -83,7 +83,7 @@
 			"",
 			"::ab[Class Skill (Ex)]{passive=\"You treat Knowledge (nature) as a class skill.\" icon=power}",
 			"",
-			"::ab[Speak with Animals (Sp)]{id=speak icon=magic standard=\"You can ‹spell/speak with animals›, as per the spell.\" useL3=cleric useNC}",
+			"::ab[Speak with Animals (Sp)]{id=speak icon=magic standard=\"You can ‹spell/speak with animals›, as per the spell.\" useL=cleric3 useNC}",
 			"",
 			"::ab[Animal Companion (Ex)]{l=4 icon=power passive=\"You gain the service of an ‹sidekick/animal companion›. Your effective druid level for this animal companion is equal to your cleric level - 3. (Druids who take this ability through their nature bond class feature use their druid level - 3 to determine the abilities of their animal companions).\"}",
 			"",

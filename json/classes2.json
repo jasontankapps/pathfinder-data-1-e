@@ -1494,7 +1494,7 @@
 			"",
 			":::",
 			"",
-			":::ab{jl=Burn title=\"Burn (Ex)\" l=1 icon=power action=Ability usage=\"You can accept a number of points of burn per round equal to one-third of your kineticist level.\" order=Cu special=\"You can't choose to accept burn if it would raise your total points of burn higher than 3 + your Constitution modifier (though you can be forced to accept more burn from a source outside your control).\"}",
+			":::ab{jl=Burn title=\"Burn (Ex)\" l=1 icon=power action=Ability usage=\"You can accept a number of points of burn per round equal to ‹misc/one-third› of your kineticist level.\" order=Cu special=\"You can't choose to accept burn if it would raise your total points of burn higher than 3 + your Constitution modifier (though you can be forced to accept more burn from a source outside your control).\"}",
 			"",
 			"You can overexert yourself to channel more power than normal, pushing past the limit of what is safe for your body by accepting *burn*. Some of your wild talents allow you to accept burn in exchange for a greater effect, while others require you to accept a certain amount of burn to use that talent at all.",
 			"",

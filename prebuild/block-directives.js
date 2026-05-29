@@ -418,7 +418,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], [
 					/^(s0|([sl]|imp)(1?[1-9]|[12]0))$/,
 					/^ability[23]?$/,
-					/^use(F|NC|L3?|M(od)?|Inc|Unit)$/,
+					/^use([FL]|NC|L?M(od)?|Inc|Unit)$/,
 					/^increment(At|End|Plain|Desc|Ord|Multi|Max|Roman|Use)?$/
 				], logError);
 				flags.ability = true;
@@ -473,7 +473,9 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				attrs.link && (flags.link = true);
 				return makeListBlock({
 					text, maybeClear,
-					attrs, logError
+					attrs, logError,
+					marked2: makeNewMarkedInstance(),
+					convertEncodedInfo
 				});
 			} else if (n === "spelllist") {
 				churn(n, attrs, [

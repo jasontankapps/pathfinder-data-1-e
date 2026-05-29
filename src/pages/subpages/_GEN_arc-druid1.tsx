@@ -768,7 +768,7 @@ const _drovier = {title: "Drovier", jsx: <><h2 id="arc-druid-drovier-drovier">Dr
 <Pair single id="arc-druid-drovier-communal-aspect-su" flavor="A drovier can imbue her allies (including herself) with an aspect of a wild animal.">Communal Aspect (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Usage">10 minutes per druid level per day; these minutes need not be consecutive, but they must be spent in 10-minute increments</Pair>
+<Pair title="Usage">10 minutes/day per druid level; these minutes need not be consecutive, but they must be spent in 10-minute increments</Pair>
 <Pair title="Standard Action">She chooses an animal totem and grants the abilities of that totem to every ally within 30 feet. This otherwise functions like the spell <Link to="/spell/animal_aspect">animal aspect</Link>. If she uses the ability to grant a new aspect, any previous aspect immediately ends.</Pair>
 <Pair title="At 6th Level">The drovier's communal aspect ability grants the benefits of the spell <Link to="/spell/greater_animal_aspect">greater animal aspect</Link>. The drovier can still choose only one aspect to grant her allies.</Pair>
 <Pair title="At 8th Level">The drovier can choose to grant her allies the benefits of the spell <Link to="/spell/aspect_of_the_falcon">aspect of the falcon</Link> instead of an animal aspect.</Pair>
@@ -990,7 +990,7 @@ const _fungal_pilgrim = {title: "Fungal Pilgrim", jsx: <><h2 id="arc-druid-funga
 <Pair title="Ability"><p>A fungal pilgrim who selected the Plant domain for her nature bond gains the ability to grow fungal creatures from the spores of her body. Once per day, when casting a <em>summon nature's ally</em> spell to summon a single creature, the fungal pilgrim can infuse her fungal connection into the casting. The creature summoned must be selected from the <Link to="/spell/summon_natures_ally">summon nature's ally</Link> list for 1 spell level lower than the spell cast. For example, if the fungal pilgrim casts <em>summon nature's ally III,</em> she must choose a creature from the list in <em>summon nature's ally II.</em></p>
 <p>Creatures summoned in this manner gain the <Link to="/template/fungal_creature">fungal creature</Link> template, except they do not gain the <em>create spawn</em> and <em>poison spore cloud</em> special attacks. A creature summoned in this manner cannot be harvested for its poison.</p>
 </Pair>
-<Pair title="Usage">Once a day, plus one additional time for every two levels after 4th.</Pair>
+<Pair title="Usage">1 time/day + 1 per two druid levels beyond 4th</Pair>
 <Pair title="At 20th Level">The druid can use this ability any number of times a day.</Pair>
 </Ability>
 <Ability id="arc-druid-fungal_pilgrim-fungal-companion" icon={["upgrade"]}>

@@ -144,7 +144,7 @@ const _exemplar = {title: "Exemplar", jsx: <><h2 id="arc-brawler-exemplar-exempl
 <Pair single id="arc-brawler-exemplar-inspiring-prowess-ex">Inspiring Prowess (Ex)</Pair>
 <Pair hl title="Replaces">Maneuver training, AC bonus</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Usage">2 + brawler level + Cha modifier rounds/day</Pair>
+<Pair title="Usage">2 + brawler level + Charisma modifier rounds/day</Pair>
 <Pair title="Ability">An exemplar gains the ability to use certain <Link to="/ability/bardic_performances">bardic performances</Link>. The exemplar's effective bard level for this ability is equal to her brawler level - 2.</Pair>
 <Pair title="At 3rd Level">The exemplar can use <Link to="/performance/inspire_courage">inspire courage</Link>.</Pair>
 <Pair title="At 11th Level">The exemplar can use <Link to="/performance/inspire_greatness">inspire greatness</Link>.</Pair>

@@ -92,8 +92,8 @@ const makeAbilityBlock = ({
 		passive, ability, ability2, ability3,
 		order,
 		usage, useNC,
-		useL, useM, useL3, // default useUnit is "round"
-		useMod, useInc, // default useUnit is "time"
+		useL, useM, // default useUnit is "round"
+		useLMod, useMod, useInc, // default useUnit is "time"
 		useF,
 		useUnit,
 		containerInfo,
@@ -148,22 +148,29 @@ const makeAbilityBlock = ({
 					} ${levelClass} levels beyond ${ordinal(startFromLevel)}`,
 					unit
 				];
-			} else if (useL3) {
-				const unit = useUnit || "round";
-				return [`3 ${unit}s/day + 1 ${unit} per ${useL3} level`, unit];
-				//3 rounds/day + 1 round per cleric level
 			} else if (useL) {
-				const [clss, amt = "1"] = useL.split(/~/);
+				const [cls, amt = "1"] = useL.split(/~/);
+				const [clss, plus] = cls.split(/(?<![0-9])(?=[0-9]+)/);
 				const unit = useUnit || "round";
 				const amount = Math.round(Number(amt));
 				if(!amount || amount < 0) {
 					logError(`Invalid amount [${amount}] from useL=\"${useL}\".`);
 					return [`1 ${unit}/day per ${clss} level`, unit];
+				} else if(plus) {
+					return [`${plus} ${unit}${
+						plus == 1 ? "" : "s"  // Note this is NOT strict equality: that's on purpose
+					}/day + ${amount} ${unit}${
+						amount === 1 ? "" : "s"
+					} per ${clss} level`, unit];
+					//useL=cleric3
+					//3 rounds/day + 1 per cleric level
+					//useL=hunter10~1
+					//10 rounds/day + 1 per hunter level
 				}
 				return [`${amount} ${unit}${amount === 1 ? "" : "s"}/day per ${clss} level`, unit];
 				//useL=cleric
 				//1 round/day per cleric level
-				//useL="hunter~10"
+				//useL=hunter~10
 				//10 rounds/day per hunter level
 			} else if (useMod) {
 				const unit = useUnit || "time";
@@ -176,6 +183,22 @@ const makeAbilityBlock = ({
 				return [`${mod} modifier ${unit}s/day`, unit];
 				//useMod=Wis
 				//Wis modifier times/day
+			} else if (useLMod) {
+				const unit = useUnit || "time";
+				const m = useLMod.match(/([^~]+)~(.*?)([0-9]*)$/);
+				if(!m) {
+					logError(`Invalid useLMod attribute [${useLMod}]`);
+					return [`1 ${unit}/ERROR`, unit];
+				}
+				const [, clss, mod, plus] = m;
+				return [`${
+					plus ? `${plus} + ${clss}`
+						: (clss.slice(0,1).toUpperCase() + clss.slice(1))
+				} level + ${mod} modifier ${unit}s/day`, unit];
+				//useLMod=slayer~Charisma
+				//Slayer level + Charisma modifier times/day
+				//useLMod=slayer~Charisma3
+				//3 + Slayer level + Charisma modifier times/day
 			}
 			return null;
 		})();

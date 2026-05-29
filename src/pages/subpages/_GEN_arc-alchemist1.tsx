@@ -666,7 +666,7 @@ const _ectochymist = {title: "Ectochymist", jsx: <><h2 id="arc-alchemist-ectochy
 <Ability id="arc-alchemist-ectochymist-ectoplasmic-blanche-su" icon={["mailed-fist","magic-swirl"]}>
 <Pair single id="arc-alchemist-ectochymist-ectoplasmic-blanche-su">Ectoplasmic Blanche (Su)</Pair>
 <Pair hl title="Replaces">Bombs</Pair>
-<Pair title="Usage">Alchemist level + Intelligence modifier times/day.</Pair>
+<Pair title="Usage">Alchemist level + Intelligence modifier times/day</Pair>
 <Pair title="Full-Round Action">An ectochymist can alchemically treat a melee weapon so that it deals full damage to incorporeal creatures. This lasts until the next time that weapon is used to make an attack.</Pair>
 </Ability>
 <Ability id="arc-alchemist-ectochymist-cool-headed-ex" icon={["armor-upgrade"]}>
@@ -739,7 +739,7 @@ const _eldritch_poisoner = {title: "Eldritch Poisoner", jsx: <><h2 id="arc-alche
 <Pair single id="arc-alchemist-eldritch_poisoner-arcanotoxin-su" flavor="An eldritch poisoner can blend volatile chemicals and her own personal magic to create deadly poisons known as arcanotoxins.">Arcanotoxin (Su)</Pair>
 <Pair hl title="Replaces">Bomb</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Usage">Alchemist level + Int modifier times/day.</Pair>
+<Pair title="Usage">Alchemist level + Intelligence modifier times/day</Pair>
 <Pair title="Standard Action">Create an arcanotoxin.</Pair>
 <Pair title="Move-Equivalent Action">Apply an arcanotoxin to a weapon.</Pair>
 <Pair title="Choice"><p><em>The base stats for the arcanotoxin are presented below this ability block.</em></p>

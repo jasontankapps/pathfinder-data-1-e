@@ -14,7 +14,7 @@ const _adaptive_shifter = {title: "Adaptive Shifter", jsx: <><h2 id="arc-shifter
 <Ability id="arc-shifter-adaptive_shifter-reactive-aspect-su" icon={["armor-upgrade","upgrade"]}>
 <Pair single id="arc-shifter-adaptive_shifter-reactive-aspect-su">Reactive Aspect (Su)</Pair>
 <Pair hl title="Replaces">Shifter aspect, chimeric aspect, greater chimeric aspect, final aspect</Pair>
-<Pair title="Usage">3 + her Wisdom modifier + her shifter level times/day</Pair>
+<Pair title="Usage">3 + shifter level + Wisdom modifier times/day</Pair>
 <Pair title="Ability">An adaptive shifter gains the ability to change parts of her body to avoid harm, gain a physical advantage, or overcome an obstacle. By activating this ability, either as an <strong className="hl">immediate action</strong> or as a <strong className="hl">swift action</strong>, an adaptive shifter gains the benefits of one of her <em>reactive forms</em> until the beginning of her next turn (see below). An adaptive shifter can assume only one <em>reactive form</em> at a time. Activating a new <em>reactive form</em> (or forms) ends all <em>reactive forms</em> currently manifested.</Pair>
 <Pair title="At 9th Level">An adaptive shifter gains the benefits of up to two <em>reactive forms</em> whenever she uses this ability.</Pair>
 <Pair title="At 14th Level">She can assume up to three forms.</Pair>
