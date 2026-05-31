@@ -8,7 +8,8 @@ const parseAtts = (attrs) => {
 	const {
 		standard, move, free, immediate, swift,
 		passive, ability, ability2, ability3,
-		fullround, info, choice
+		fullround, note, choice, benefit, normal,
+		goal, compbenefit, info, x, y, z, X, Y, Z
 	} = attrs;
 	if(passive) {
 		return [passive, "Passive Ability"];
@@ -28,8 +29,20 @@ const parseAtts = (attrs) => {
 		return [free, "Free Action"];
 	} else if (info) {
 		return [info, "Info"];
+	} else if (note) {
+		return [note, "Note"];
 	} else if (choice) {
 		return [choice, "Choice"];
+	} else if (benefit) {
+		return [choice, "Benefit"];
+	} else if (normal) {
+		return [normal, "Normal"];
+	} else if (goal) {
+		return [goal, "Goal"];
+	} else if (compbenefit) {
+		return [compbenefit, "Completion Benefit"];
+	} else if (x || y || z || X || Y || Z) {
+		return (x || y || z || X || Y || Z);
 	}
 	return false;
 };
@@ -92,8 +105,9 @@ const makeAbilityBlock = ({
 		standard, swift, immediate,
 		fullround, move, free,
 		provokes, special, specialP,
-		info, choice,
+		info, choice, note,
 		passive, ability, ability2, ability3,
+		benefit, normal, goal, compbenefit,
 		order,
 		usage, useNC,
 		useL, useM, // default useUnit is "round"
@@ -101,8 +115,27 @@ const makeAbilityBlock = ({
 		useF,
 		useUnit,
 		containerInfo,
-		replace, alter, type, prereq
+		replace, alter, type, prereq,
+		...etc
 	} = attrs;
+	const {x, y, z, X, Y, Z} = (() => {
+		const result = {};
+		const log = (x, y, z) => {
+			if(result[x]) {
+				logError(`Duplicate ${x}... attr`);
+			}
+			result[x] = [z, y];
+		};
+		Object.values(etc).forEach(([key, value]) => {
+			["x","y","z","X","Y","Z"].some(x => {
+				if(key.startsWith(x)) {
+					log(x, key.slice(1).replace(/_/g, " "), value);
+					return true;
+				}
+				return false;
+			});
+		});
+	})();
 	resetSwaps();
 	const output = [];
 	const doParse = (input) => {
@@ -301,8 +334,15 @@ const makeAbilityBlock = ({
 			"3": ability3,
 			u: use,
 			n: info,
+			N: note,
 			c: choice,
-			C: containerInfo
+			C: containerInfo,
+			x,
+			y,
+			z,
+			X,
+			Y,
+			Z
 		};
 		const missing = [];
 		order.split("").forEach(x => {
@@ -318,7 +358,9 @@ const makeAbilityBlock = ({
 		const all = [
 			standard, swift, immediate, fullround,
 			move, free, passive, ability, ability2,
-			ability3, info, choice, containerInfo
+			ability3, info, choice, benefit, normal,
+			goal, compbenefit, containerInfo,
+			x, y, z, X, Y, Z
 		].filter(x => x);
 		if(all.length > 1) {
 			logError(`${all.length} abilities found, but no "order" prop was given. [${text}]`);
@@ -531,9 +573,37 @@ const makeAbilityBlock = ({
 					title = "Info";
 					what = info;
 					break;
+				case "N":
+					title = "Note";
+					what = info;
+					break;
 				case "c":
 					title = "Choice";
 					what = choice;
+					break;
+				case "x":
+					title = x[1];
+					what = x[0];
+					break;
+				case "y":
+					title = y[1];
+					what = y[0];
+					break;
+				case "z":
+					title = z[1];
+					what = z[0];
+					break;
+				case "X":
+					title = X[1];
+					what = X[0];
+					break;
+				case "Y":
+					title = Y[1];
+					what = Y[0];
+					break;
+				case "Z":
+					title = Z[1];
+					what = Z[0];
 					break;
 				default:
 					logError(`Invalid token [${ab}] in order attribute [${text}]`);
@@ -562,7 +632,7 @@ const makeAbilityBlock = ({
 				+ "</Pair>"
 			);
 		} else {
-			const ab = parseAtts(attrs);
+			const ab = parseAtts({...attrs, x, y, z, X, Y, Z});
 			if(ab) {
 				const [description, title] = ab;
 				output.push(

@@ -411,7 +411,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"standard", "swift", "immediate",
 					"fullround", "move", "free",
 					"passive", "special", "specialP",
-					"info", "choice",
+					"note", "choice", "info", "benefit",
+					"normal", "goal", "compbenefit",
 					"provokes", "order",
 					"usage",
 					"replace", "alter", "type", "prereq"
@@ -419,7 +420,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					/^(s0|([sl]|imp)(1?[1-9]|[12]0))$/,
 					/^ability[23]?$/,
 					/^use([FL]|NC|L?M(od)?|Inc|Unit)$/,
-					/^increment(At|End|Plain|Desc|Ord|Multi|Max|Roman|Use)?$/
+					/^increment(At|End|Plain|Desc|Ord|Multi|Max|Roman|Use)?$/,
+					/^[xyzXYZ]/
 				], logError);
 				flags.ability = true;
 				const marked2 = makeNewMarkedInstance();
