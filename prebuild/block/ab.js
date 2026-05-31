@@ -5,11 +5,15 @@ import checkForEncodedLink from "../tests/checkForEncodedLink.js";
 import noteTags from "../noteTags.js";
 
 const parseAtts = (attrs) => {
-	const {standard, move, free, immediate, swift, passive, ability, ability2, fullround, note, choice} = attrs;
+	const {
+		standard, move, free, immediate, swift,
+		passive, ability, ability2, ability3,
+		fullround, info, choice
+	} = attrs;
 	if(passive) {
 		return [passive, "Passive Ability"];
-	} else if (ability || ability2) {
-		return [ability, "Ability"];
+	} else if (ability || ability2 || ability3) {
+		return [ability || ability2 || ability3, "Ability"];
 	} else if (standard) {
 		return [standard, "Standard Action"];
 	} else if (swift) {
@@ -22,8 +26,8 @@ const parseAtts = (attrs) => {
 		return [immediate, "Immediate Action"];
 	} else if (free) {
 		return [free, "Free Action"];
-	} else if (note) {
-		return [note, "Info"];
+	} else if (info) {
+		return [info, "Info"];
 	} else if (choice) {
 		return [choice, "Choice"];
 	}
@@ -88,7 +92,7 @@ const makeAbilityBlock = ({
 		standard, swift, immediate,
 		fullround, move, free,
 		provokes, special, specialP,
-		note, choice,
+		info, choice,
 		passive, ability, ability2, ability3,
 		order,
 		usage, useNC,
@@ -296,7 +300,7 @@ const makeAbilityBlock = ({
 			"2": ability2,
 			"3": ability3,
 			u: use,
-			n: note,
+			n: info,
 			c: choice,
 			C: containerInfo
 		};
@@ -314,7 +318,7 @@ const makeAbilityBlock = ({
 		const all = [
 			standard, swift, immediate, fullround,
 			move, free, passive, ability, ability2,
-			ability3, note, choice, containerInfo
+			ability3, info, choice, containerInfo
 		].filter(x => x);
 		if(all.length > 1) {
 			logError(`${all.length} abilities found, but no "order" prop was given. [${text}]`);
@@ -525,7 +529,7 @@ const makeAbilityBlock = ({
 					break;
 				case "n":
 					title = "Info";
-					what = note;
+					what = info;
 					break;
 				case "c":
 					title = "Choice";

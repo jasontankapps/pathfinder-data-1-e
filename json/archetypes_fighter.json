@@ -30,7 +30,7 @@
 			"",
 			"::prereq{r=Strix}",
 			"",
-			"::ab[Weapon and Armor Proficiency]{icon=down note=\"An airborne ambusher is not proficient with heavy armor or tower shields.\"}",
+			"::ab[Weapon and Armor Proficiency]{icon=down info=\"An airborne ambusher is not proficient with heavy armor or tower shields.\"}",
 			"",
 			"::cskill{gain=fly lose=climb}",
 			"",
@@ -77,7 +77,7 @@
 			"‹SOURCE Aquatic Adventures/51›  ",
 			"Aquanaut fighters master the movement of water, using its flow to their advantage in combat.",
 			"",
-			"::ab[Armor Proficiency]{icon=down note=\"An aquanaut is proficient with light and medium armor, but not with shields.\" alter=\"Armor proficiency\"}",
+			"::ab[Armor Proficiency]{icon=down info=\"An aquanaut is proficient with light and medium armor, but not with shields.\" alter=\"Armor proficiency\"}",
 			"",
 			"::ab[Piercing Focus]{icon=boost ability=\"If an aquanaut takes a fighter bonus feat that normally requires selecting a single weapon (except weapon proficiency feats), he can instead apply the feat to all melee piercing weapons with which he is already proficient and that meet all other prerequisites for that feat.\" special=\"This ability counts as having the feat for each such individual weapon for the purpose of meeting prerequisites. This ability also applies to the *weapon mastery* class feature.\" alter=\"Bonus feats~weapon mastery\"}",
 			"",
@@ -111,7 +111,7 @@
 			"",
 			"::ab[Ranged Defense (Ex)]{l=19 icon=def passive=\"An archer gains DR 5/- against ranged attacks.\" order=pi immediate=\"He can catch an arrow fired at him and shoot it any target he chooses, as if he had the ‹feat/Snatch Arrows› feat.\" replace=\"Armor mastery\"}",
 			"",
-			"::ab[Weapon Mastery (Ex)]{icon=info note=\"An archer must choose a type of bow.\" alter=\"Weapon mastery\"}"
+			"::ab[Weapon Mastery (Ex)]{icon=info info=\"An archer must choose a type of bow.\" alter=\"Weapon mastery\"}"
 		]
 	},
 	"armiger": {
@@ -127,11 +127,11 @@
 			"",
 			"On occasion, some armigers travel farther from their citadels, searching out those who mock the law and bringing them to justice by any means necessary. While a few do so as squires to full-fledged Hellknights, others strike out on their own or join bands of adventurers. To make up for the broken routine of adventuring life and the frequent compromises necessary in the presence of such allies, such roaming armigers are expected to perform frequent reckonings. These painful acts of mortification, such as scourging oneself or drinking boiling water, keep the would-be Hellknight disciplined and focused on the strictures of the Measure and the Chain.",
 			"",
-			"::ab[Bonus Feats]{icon=power note=\"When selecting fighter bonus feats, the armiger can select any feats whose names include the word &quot&Hellknight&quot& as though they were combat feats.\" alter=\"Bonus feats\"}",
+			"::ab[Bonus Feats]{icon=power info=\"When selecting fighter bonus feats, the armiger can select any feats whose names include the word &quot&Hellknight&quot& as though they were combat feats.\" alter=\"Bonus feats\"}",
 			"",
 			"::ab[Hellknight Order]{l=1 icon=info choice=\"An armiger must select which Hellknight order she intends to join. If the armiger later gains levels in a Hellknight prestige class, she must select that same order.\"}",
 			"",
-			"::ab[Studious Squire]{icon=skill-boost note=\"An armiger gains 2 additional skill ranks at each level. These ranks must be put into Intimidate and Knowledge (planes). In addition, the armiger treats ‹skill/Knowledge (local)› (INT) and ‹skill/Knowledge (planes)› (INT) as class skills.\" alter=\"Class skills~skill points per level\" replace=\"Bonus feats gained at 1st and 10th levels\"}",
+			"::ab[Studious Squire]{icon=skill-boost info=\"An armiger gains 2 additional skill ranks at each level. These ranks must be put into Intimidate and Knowledge (planes). In addition, the armiger treats ‹skill/Knowledge (local)› (INT) and ‹skill/Knowledge (planes)› (INT) as class skills.\" alter=\"Class skills~skill points per level\" replace=\"Bonus feats gained at 1st and 10th levels\"}",
 			"",
 			"::ab[Ardent (Su)]{l=2 icon=def flavor=\"Armigers are difficult to sway from their beliefs.\" passive=\"An armiger gains a +1 bonus on Will saves against charm effects.\" order=pa ability=\"Once per day, if an armiger is forced to take an action that is diametrically opposed to her order's beliefs and values while under the influence of a charm or compulsion effect, she can immediately attempt a Will save against the effect's DC to resist acting out that order. Success does not remove the existing charm or compulsion effect, but does allow the armiger to resist betraying her beliefs.\" increment=\"The Will save bonus~2~4\" replace=Bravery}"
 		]
@@ -187,7 +187,7 @@
 			"‹SOURCE Ultimate Combat/45›  ",
 			"In combat, most fighters have some sort of code of honor. Some believe that one should not kick enemies when they are down, or should limit use of other such dirty tricks to the most dire of circumstances. The cad places no such limitations on himself. Battles are for winning, and anything that gives the cad the upper hand against his enemies is a legitimate tactic. No trick is too treacherous if it leads to victory.",
 			"",
-			"::ab[Weapon and Armor Proficiency]{icon=down note=\"A cad is not proficient with medium armor, heavy armor, or tower shields.\"}",
+			"::ab[Weapon and Armor Proficiency]{icon=down info=\"A cad is not proficient with medium armor, heavy armor, or tower shields.\"}",
 			"",
 			"::cskill{gain=acro~bluff~ea~soh~stl}",
 			"",
@@ -219,7 +219,7 @@
 			"‹SOURCE Inner Sea Combat/36›  ",
 			"Not every ‹faith/Calistria«n› who dedicates himself to the goddess can channel divine magic to track down those who deserve punishment. Like a bounty hunter following his own rules, a Calistrian hunter tracks down elusive prey using his wits and delivers long-overdue retribution while easily ignoring his own injuries thanks to the joy he receives from a job well done.",
 			"",
-			"::ab[Weapon and Armor Proficiency]{icon=power-down note=\"A Calistrian hunter is proficient with all simple and martial weapons, plus the ‹eq-weapon/whip›. In addition, the hunter is proficient with light and medium armor as well as shields (except tower shields).\" replace=\"Armor and weapon proficiencies\"}",
+			"::ab[Weapon and Armor Proficiency]{icon=power-down info=\"A Calistrian hunter is proficient with all simple and martial weapons, plus the ‹eq-weapon/whip›. In addition, the hunter is proficient with light and medium armor as well as shields (except tower shields).\" replace=\"Armor and weapon proficiencies\"}",
 			"",
 			"::cskill{gain=diplo~kl~per lose=kd~ke}",
 			"",
@@ -271,9 +271,9 @@
 			"‹SOURCE Arcane Anthology/10›  ",
 			"The child of ‹faith/Acavna› and ‹faith/Amaznen› has trained in the nearly forgotten arts of Azlant passed down by Aroden, which combine martial prowess with elementary wizardry. Inspired by the deities ‹faith/Aroden› once worshiped long ago, children of Acavna and Amaznen strive to understand the dangers of the world and overcome them with knowledge and strength of arms.",
 			"",
-			"::ab[Weapon and Armor Proficiency]{icon=down note=\"A child of Acavna and Amaznen is not proficient with two-handed martial weapons or tower shields.\" alter=\"Weapon and armor proficiency\"}",
+			"::ab[Weapon and Armor Proficiency]{icon=down info=\"A child of Acavna and Amaznen is not proficient with two-handed martial weapons or tower shields.\" alter=\"Weapon and armor proficiency\"}",
 			"",
-			"::ab[Eldritch Lore]{icon=skill note=\"A child of Acavna and Amaznen gains 4 skill ranks + a number of skill ranks equal to her Intelligence modifier at each level, instead of the normal 2 skill ranks + her Intelligence modifier at each level. Furthermore, ‹skill/Knowledge› (arcana, religion) (INT), ‹skill/Linguistics› (INT), and ‹skill/Spellcraft› (INT) are all class skills for the child of Acavna and Amaznen.\" alter=Skills replace=\"Bonus fighter combat feat gained at 1st level\"}",
+			"::ab[Eldritch Lore]{icon=skill info=\"A child of Acavna and Amaznen gains 4 skill ranks + a number of skill ranks equal to her Intelligence modifier at each level, instead of the normal 2 skill ranks + her Intelligence modifier at each level. Furthermore, ‹skill/Knowledge› (arcana, religion) (INT), ‹skill/Linguistics› (INT), and ‹skill/Spellcraft› (INT) are all class skills for the child of Acavna and Amaznen.\" alter=Skills replace=\"Bonus fighter combat feat gained at 1st level\"}",
 			"",
 			":::ab{l=2 title=\"Lore of Acavna and Amaznen (Ex)\" icon=learn-boost action=Ability order=Cp passive=\"She also gains a +2 bonus on Knowledge checks relating to Azlant and the Azlanti, and on Knowledge checks to identify and learn the powers and weaknesses of aboleths, demons, serpentfolk, and undead.\" replace=\"Bonus feat gained at 2nd level\"}",
 			"",
@@ -362,7 +362,7 @@
 			"",
 			"::ab[Penetrating Shot (Ex)]{l=19 icon=boost passive=\"When a crossbowman confirms a critical hit with a crossbow, the bolt pierces the target and can strike another creature in line behind it. The crossbowman must be able to trace a line starting at his space and passing through both targets to make this additional attack. The secondary attack is made at a -4 penalty, in addition to any modifiers for added range. If this attack is also a critical hit, the bolt can continue to hit another target, but the penalties stack.\" replace=\"Armor mastery\"}",
 			"",
-			"::ab[Weapon Mastery (Ex)]{icon=info note=\"A crossbowman must choose a type of crossbow when he receives *weapon mastery.*\" alter=\"Weapon mastery\"}"
+			"::ab[Weapon Mastery (Ex)]{icon=info info=\"A crossbowman must choose a type of crossbow when he receives *weapon mastery.*\" alter=\"Weapon mastery\"}"
 		]
 	},
 	"cyber_soldier": {
@@ -376,7 +376,7 @@
 			"",
 			"::ab[Cybernetic Combat (Ex)]{l=5 icon=melee-boost order=ap passive=\"A cyber-soldier gains a +1 bonus on attack rolls and damage rolls with ‹tech-cyber/implanted weapons›, ‹tech-cyber/cybernetic arm«s›, and melee or thrown weapons wielded with a *cybernetic arm.* Weapons wielded with two *cybernetic arms* receive double the bonus, except when such weapons are thrown. This attack bonus does not stack with the attack bonus for weapon training.\" increment=\"The damage bonus~5~4\" ability=\"A cyber-soldier gains a slam attack for each *cybernetic arm.* These attacks deal 1d6 points of bludgeoning damage for a Medium cyber-soldier and 1d4 points of bludgeoning damage for a Small cyber-soldier.\" replace=\"Weapon training 1\"}",
 			"",
-			"::ab[Improved Implantation (Ex)]{l=7 icon=boost note=\"A cyber-soldier can exceed the normal limitations on ‹rule/cybertech› implantation. Her brain and body slots each accommodate one more piece of cybertech than normal. In addition, her limit on implantation points increases by ‹misc/half› her cyber-soldier level. She can allocate these points between her Intelligence and Constitution scores as she chooses.\" imp15=\"Her body slot can accommodate two more pieces of cybertech than normal.\" replace=\"Armor training 2 and 4\"}",
+			"::ab[Improved Implantation (Ex)]{l=7 icon=boost info=\"A cyber-soldier can exceed the normal limitations on ‹rule/cybertech› implantation. Her brain and body slots each accommodate one more piece of cybertech than normal. In addition, her limit on implantation points increases by ‹misc/half› her cyber-soldier level. She can allocate these points between her Intelligence and Constitution scores as she chooses.\" imp15=\"Her body slot can accommodate two more pieces of cybertech than normal.\" replace=\"Armor training 2 and 4\"}",
 			"",
 			"::ab[Resilience (Ex)]{l=19 icon=def passive=\"A cyber-soldier has a reservoir of 5 ‹rule/temporary hit points› for each piece of implanted cybertech in her body. Lost temporary hit points are recovered at the rate of 10 points per hour.\" replace=\"Armor mastery\"}"
 		]
@@ -464,7 +464,7 @@
 			"‹SOURCE Ultimate Combat/46›  ",
 			"These gallant lancers serve in the vanguard of many armies or as knights-errant. They are born leaders and masters of the mounted charge.",
 			"",
-			"::ab[Weapon and Armor Proficiency]{icon=down note=\"A dragoon is not proficient with tower shields.\"}",
+			"::ab[Weapon and Armor Proficiency]{icon=down info=\"A dragoon is not proficient with tower shields.\"}",
 			"",
 			"::ab[Skilled Rider (Ex)]{l=1 icon=power ability=\"A dragoon gains both the ‹feat/Mounted Combat› and ‹feat/Skill Focus› (Ride) feats as bonus feats.\" replace=\"The 1st-level fighter bonus combat feat\"}",
 			"",
@@ -574,7 +574,7 @@
 			"",
 			"::ab[Devastating Blow (Ex)]{l=19 icon=melee standard=\"A foehammer may make a single melee attack with a weapon from the hammer weapon training group at a -5 penalty. If the attack hits, it is treated as a critical threat. Weapon special abilities that only activate on a critical hit do not activate if this critical hit is confirmed.\" replace=\"Armor mastery\"}",
 			"",
-			"::ab[Weapon Mastery (Ex)]{icon=info note=\"A foehammer must choose a weapon from the hammer group.\" alter=\"Weapon mastery\"}"
+			"::ab[Weapon Mastery (Ex)]{icon=info info=\"A foehammer must choose a weapon from the hammer group.\" alter=\"Weapon mastery\"}"
 		]
 	},
 	"free_hand_fighter": {
@@ -673,7 +673,7 @@
 			"‹SOURCE Adventurer's Guide/144›  ",
 			"Quick wits and deceptive techniques can often succeed where brute force might not. A lore warden is the consummate warrior-scholar of the ‹rule/Pathfinder Society›, outsmarting her competition even when locking blades with powerful foes. Outside of combat, a lore warden's extensive education also helps her document the past and survive great danger.",
 			"",
-			"::ab[Scholastic (Ex)]{icon=skill note=\"A lore warden gains 2 additional skill ranks each level. These ranks must be spent on Intelligence-based skills. All ‹skill/Craft› (CHA) and ‹skill/Knowledge› (INT) skills are class skills for lore wardens, as are ‹skill/Linguistics› (INT) and ‹skill/Spellcraft› (INT).\" replace=\"Proficiency with medium armor, heavy armor, and shields\"}",
+			"::ab[Scholastic (Ex)]{icon=skill info=\"A lore warden gains 2 additional skill ranks each level. These ranks must be spent on Intelligence-based skills. All ‹skill/Craft› (CHA) and ‹skill/Knowledge› (INT) skills are class skills for lore wardens, as are ‹skill/Linguistics› (INT) and ‹skill/Spellcraft› (INT).\" replace=\"Proficiency with medium armor, heavy armor, and shields\"}",
 			"",
 			"::ab[Skill Over Strength (Ex)]{l=2 icon=power passive=\"A lore warden qualifies for feats and other abilities as though she had the ‹feat/Combat Expertise› feat.\" imp6=\"Se gains Combat Expertise as a bonus feat, even if she would not normally qualify for the feat. If she already has Combat Expertise, she instead gains any one combat feat that includes Combat Expertise as a prerequisite (and for which she otherwise qualifies).\" imp10=\"She can treat her base attack bonus as though it were 2 higher for the purpose of calculating the effects of Combat Expertise.\" replace=\"Bravery~fighter bonus feat gained at 2nd level\"}",
 			"",
@@ -699,7 +699,7 @@
 			"‹SOURCE Pathfinder Society Field Guide/31›  ",
 			"Quick thinking and deception can often carry the day where raw force might not. Lore wardens are the bodyguards, guardians, and soldiers of the ‹rule/Pathfinder Society›. Not only are they often called upon to protect and watch over important repositories of lore, but they themselves are impressive keepers of all manner of knowledge. Lore wardens are fighters who benefit from learning to outsmart and outmaneuver their foes rather than just overpower them. Even out of combat, lore wardens have a quick wit and a surprising breadth of knowledge that can often grant them significant advantages over enemies even before a battle begins. Indeed, for many lore wardens, a fight that can be won without a single weapon being drawn is the best kind of victory. A lore warden has the following class features.",
 			"",
-			"::ab[Scholastic (Ex)]{icon=skill note=\"Lore wardens gain 2 additional skill ranks each level. These ranks must be spent on Intelligence-based skills. All Intelligence-based skills are class skills for lore wardens.\" replace=\"Proficiency with medium armor, heavy armor, and shields\"}",
+			"::ab[Scholastic (Ex)]{icon=skill info=\"Lore wardens gain 2 additional skill ranks each level. These ranks must be spent on Intelligence-based skills. All Intelligence-based skills are class skills for lore wardens.\" replace=\"Proficiency with medium armor, heavy armor, and shields\"}",
 			"",
 			"::ab[Expertise (Ex)]{l=2 icon=power ability=\"A lore warden gains ‹feat/Combat Expertise› as a bonus feat, even if he would not normally qualify for this feat.\" replace=\"Bravery 1\"}",
 			"",

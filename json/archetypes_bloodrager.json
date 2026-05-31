@@ -39,9 +39,9 @@
 			"",
 			"::prereq{other=\"Must have one of these bloodlines: aberrant, abyssal, arcane, celestial, destined, draconic, elemental, fey, infernal, or undead.\"}",
 			"",
-			"::ab[Bloodline Familiar]{flavor=\"Those with an inherent connection to magic often attract creatures who feel a similar instinctive pull toward magical forces.\" l=1 icon=power-down ability=\"The bloodrager gains a ‹sidekick/familiar› (as a wizard's ‹ability/familiar›), treating her class level as her wizard level for the purposes of this ability.\" order=an note=\"In addition, the character gains bonus spells from her bloodline one level later than she normally would.\" replace=\"The 1st-level bloodline power\"}",
+			"::ab[Bloodline Familiar]{flavor=\"Those with an inherent connection to magic often attract creatures who feel a similar instinctive pull toward magical forces.\" l=1 icon=power-down ability=\"The bloodrager gains a ‹sidekick/familiar› (as a wizard's ‹ability/familiar›), treating her class level as her wizard level for the purposes of this ability.\" order=an info=\"In addition, the character gains bonus spells from her bloodline one level later than she normally would.\" replace=\"The 1st-level bloodline power\"}",
 			"",
-			"::ab[Familiar Abilities]{head icon=power note=\"GMs may use the following bloodline familiar abilities as written, or employ them as guidelines for devising bloodline familiar abilities for bloodlines not listed below.\"}",
+			"::ab[Familiar Abilities]{head icon=power info=\"GMs may use the following bloodline familiar abilities as written, or employ them as guidelines for devising bloodline familiar abilities for bloodlines not listed below.\"}",
 			"",
 			"::ab[Squeezer (Ex)]{next prereq=\"‹blrgbloodline/Aberrant› bloodline\" icon=power ability=\"The familiar gains the ‹umr/compression› ability, allowing it to move through an area as small as one-quarter its space without ‹misc/squeezing› or one-eighth its space when squeezing.\"}",
 			"",
@@ -89,9 +89,9 @@
 			"‹SOURCE Melee Tactics Toolbox/13›  ",
 			"Bloodragers are frequently rough-and-ready, untrained scrappers who learn to exploit any advantage to gain the upper hand in a fight. The bloody-knuckled rowdy focuses on tricks and maneuvers that are quick and effective, duplicating combat styles from professional brawlers, street thugs, and even trapped animals. Rather than focusing on a single style, most bloody-knuckled rowdies dabble in multiple techniques, mixing and matching their array of vicious maneuvers to suit the occasion.",
 			"",
-			"::ab[Bloody Knuckles]{icon=down note=\"The bloody-knuckled rowdy does not gain damage reduction.\"}",
+			"::ab[Bloody Knuckles]{icon=down info=\"The bloody-knuckled rowdy does not gain damage reduction.\"}",
 			"",
-			"::ab[Reduced Spells Known]{icon=down note=\"The bloody-knuckled rowdy focuses more on fighting tactics and less on his natural arcane powers. He receives one fewer spell known at each spell level.\" alter=Spellcasting}",
+			"::ab[Reduced Spells Known]{icon=down info=\"The bloody-knuckled rowdy focuses more on fighting tactics and less on his natural arcane powers. He receives one fewer spell known at each spell level.\" alter=Spellcasting}",
 			"",
 			"::ab[Pugilist (Ex)]{icon=power l=1 ability=\"A bloody-knuckled rowdy gains ‹feat/Improved Unarmed Strike› as a bonus feat.\" replace=\"Fast movement\"}",
 			"",
@@ -111,7 +111,7 @@
 			"",
 			"::ab[Two Bloodlines]{icon=power choice=\"A crossblooded rager selects two different bloodlines. He gains access to the feats, bonus spells, and some of the powers of both bloodlines he is descended from, but at the cost of reducing mental clarity (see Drawbacks below).\" special=\"If the crossblooded rager already has a bloodline from another class, one of the chosen bloodlines must be that bloodline.\"}",
 			"",
-			"::ab[Bonus Feats]{icon=info note=\"A crossblooded rager combines the bonus feat lists from both of his bloodlines and can select his bloodline bonus feats from this combined list.\"}",
+			"::ab[Bonus Feats]{icon=info info=\"A crossblooded rager combines the bonus feat lists from both of his bloodlines and can select his bloodline bonus feats from this combined list.\"}",
 			"",
 			"::ab[Bonus Spells]{icon=info choice=\"A crossblooded rager can select his bonus spells from either of his bloodlines.\" order=ca ability=\"He can also learn a lower-level bonus spell he did not choose in place of the higher-level bonus spell he would normally gain. Lower-level bonus spells learned in this manner are always the spell level that they would be if the crossblooded rager had learned them with the appropriate bonus spell.\"}",
 			"",
@@ -119,7 +119,7 @@
 			"",
 			"::ab[Bloodline Powers]{icon=power choice=\"At 1st, 4th, 8th, 12th, 16th, and 20th levels, a crossblooded rager gains one of the two new bloodline powers available to him at that level. He can instead select a lower-level bloodline power he did not choose in place of one of these high-level powers.\"}",
 			"",
-			"::ab[Drawbacks]{icon=down note=\"The furious mix of arcane power inside a crossblooded rager forces him to constantly expend mental effort to remain focused on his current situation and needs. This leaves him with less mental resolve available to deal with external threats.\" order=np passive=\"A crossblooded rager takes a -2 penalty to all Will saving throws at all times, and does not gain the +2 morale bonus on Will saving throws while bloodraging - though he does gain a +1 morale bonus Will saving throws when he gains the *greater bloodrage* class feature, which increases to a +2 morale bonus on saving throws upon gaining the *mighty bloodrage* class feature.\"}"
+			"::ab[Drawbacks]{icon=down info=\"The furious mix of arcane power inside a crossblooded rager forces him to constantly expend mental effort to remain focused on his current situation and needs. This leaves him with less mental resolve available to deal with external threats.\" order=np passive=\"A crossblooded rager takes a -2 penalty to all Will saving throws at all times, and does not gain the +2 morale bonus on Will saving throws while bloodraging - though he does gain a +1 morale bonus Will saving throws when he gains the *greater bloodrage* class feature, which increases to a +2 morale bonus on saving throws upon gaining the *mighty bloodrage* class feature.\"}"
 		]
 	},
 	"enlightened_bloodrager": {
@@ -140,7 +140,7 @@
 			"",
 			"::ab[Enlightened Bloodrage (Su)]{icon=power l=4 passive=\"While bloodraging, an enlightened bloodrager can still use Intelligence-, Dexterity-, and Charisma-based skills and can use abilities that require patience or concentration.\" alter=Bloodrage replace=\"The bloodline power gained at 4th level\"}",
 			"",
-			"::ab[Bloodline Feat]{l=6 icon=power order=an ability=\"An enlightened bloodrager adds ‹feat/Expanded Arcana›, ‹feat/Nameless One›, and all feats that list Nameless One as a prerequisite to the list of feats she can select as a bloodline feat.\" replace=\"Damage reduction the bloodrager gains at 7th, 13th, and 19th levels\" note=\"The bloodrager gains DR 1/- at 10th level, and this increases to DR 2/- at 16th level.\"}",
+			"::ab[Bloodline Feat]{l=6 icon=power order=an ability=\"An enlightened bloodrager adds ‹feat/Expanded Arcana›, ‹feat/Nameless One›, and all feats that list Nameless One as a prerequisite to the list of feats she can select as a bloodline feat.\" replace=\"Damage reduction the bloodrager gains at 7th, 13th, and 19th levels\" info=\"The bloodrager gains DR 1/- at 10th level, and this increases to DR 2/- at 16th level.\"}",
 			"",
 			"::ab[Bloodline Powers]{icon=power l8=\"An enlightened bloodrager gains the bloodline power normally granted at 1st level.\" l12=\"She gains the bloodline power normally granted at 4th level.\" l16=\"She gains the bloodline power normally granted at 8th level.\" l20=\"She gains the bloodline power normally gained at 12th level.\" special=\"She still uses her full bloodrager level when making level-based calculations in regard to these abilities.\" alter=\"The bloodrager's bloodline powers\"}"
 		]
@@ -382,7 +382,7 @@
 			"",
 			"::cskill{gain=diplo~kl~ling~prof lose=ha~kna~sur}",
 			"",
-			"::ab[Weapon and Armor Proficiency]{icon=down note=\"An urban bloodrager isn't proficient with shields.\" alter=\"Weapon and armor proficiencies\"}",
+			"::ab[Weapon and Armor Proficiency]{icon=down info=\"An urban bloodrager isn't proficient with shields.\" alter=\"Weapon and armor proficiencies\"}",
 			"",
 			"::ab[Controlled Bloodrage]{icon=down-boost ability=\"When an urban bloodrager rages, she does not gain the normal benefits. Instead, she can apply a +4 morale bonus to her Constitution, Dexterity, or Strength. This bonus increases to +6 when she gains *greater bloodrage* and to +8 when she gains *mighty bloodrage.* She can apply the full bonus to one ability score or split the bonus between several scores in increments of 2.\" special=\"When using a controlled bloodrage, an urban bloodrager gains no bonus on Will saves, takes no penalties to AC, and can still use Charisma-, Dexterity-, and Intelligence-based skills. A controlled bloodrage still counts as a bloodrage for the purposes of any spells, feats, and other effects.\" alter=Bloodrage}",
 			"",

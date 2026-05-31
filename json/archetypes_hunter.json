@@ -8,7 +8,7 @@
 			"‹SOURCE Blood of the Sea/22›  ",
 			"Hunters beneath the sea are just as committed as their surface-dwelling counterparts to working alongside their animal companions to eradicate threats. Although many aquatic beastmasters simply want to be left alone in the areas they have claimed as their own, others use their abilities to fight against aboleth masterminds, sahuagin tribes, and other villains that haunt the oceans.",
 			"",
-			"::ab[Animal Focus (Su)]{head icon=info note=\"An aquatic beastmaster emulates animals found beneath the waves. This functions as ‹ability/animal focus›, but it allows only the following choices.\" alter=\"Animal focus\"}",
+			"::ab[Animal Focus (Su)]{head icon=info info=\"An aquatic beastmaster emulates animals found beneath the waves. This functions as ‹ability/animal focus›, but it allows only the following choices.\" alter=\"Animal focus\"}",
 			"",
 			"::ab[Crab]{next icon=boost passive=\"The creature gains a +4 competence bonus on Swim checks and a +2 competence bonus on ‹rule/grapple› combat maneuver checks.@FN1\" imp8=\"These bonuses increase to +6 and +4, respectively.\" imp15=\"They increase to +8 and +6.\"}",
 			"",
@@ -158,7 +158,7 @@
 			"‹SOURCE Advanced Class Guide/95›  ",
 			"A feral hunter has forged a bond with nature that's so strong that she doesn't merely channel the aspects of animals' she actually becomes an animal herself. Though she lacks an animal companion, a feral hunter is in tune with the beast lurking within her flesh and spirit, and lives in a near-wild state of being. A feral hunter often resembles a lycanthrope, but her power comes from her own nature and is not influenced by moonlight or silver.",
 			"",
-			"::ab[Solitary]{icon=down note=\"Unlike most hunters, a feral hunter does not gain an animal companion.\"}",
+			"::ab[Solitary]{icon=down info=\"Unlike most hunters, a feral hunter does not gain an animal companion.\"}",
 			"",
 			":::ab{title=\"Feral Focus (Su)\" action=Ability l=1 icon=power alter=\"Animal focus\" replace=\"Hunter tactics~speak with master\"}",
 			"",
@@ -307,7 +307,7 @@
 			"",
 			"::ab[Additional Traps (Ex or Su)]{l=3 icon=power ability=\"A patient ambusher can learn a new type of trap, selected from the list of ‹ability/ranger traps›. Once a trap is learned, it can't be unlearned and replaced with a different type of trap.\" incrementOrd=She~3~3 incrementDesc=\"gains a~learns a\" incrementEnd=\" ranger trap.\" special=\"The patient ambusher cannot learn an individual trap more than once.\" replace=\"Teamwork feats\"}",
 			"",
-			"::ab[Launch Trap (Su)]{l=10 icon=power order=an ability=\"A patient ambusher can affix a magical ranger trap to an arrow, a crossbow bolt, or a thrown weapon, allowing her to set the trap remotely or use it as a direct attack. Attaching the trap to the projectile is part of the @HLfull-round_action to create a new trap. The trapped projectile is fired or thrown in the normal manner.\" note=\"If fired at a square, the trap is treated as if the hunter had set the trap in that square, except the DC is 5 lower than normal. If the trap is fired at a creature, the target takes damage from the ranged weapon and is treated as if it had triggered the trap (attempting a saving throw, if any).\" special=\"The attack has a maximum range of 60 feet, and penalties from range increments apply on the attack roll. The duration of the trap starts when it is created, not when it is triggered.\" replace=\"Raise animal companion\"}"
+			"::ab[Launch Trap (Su)]{l=10 icon=power order=an ability=\"A patient ambusher can affix a magical ranger trap to an arrow, a crossbow bolt, or a thrown weapon, allowing her to set the trap remotely or use it as a direct attack. Attaching the trap to the projectile is part of the @HLfull-round_action to create a new trap. The trapped projectile is fired or thrown in the normal manner.\" info=\"If fired at a square, the trap is treated as if the hunter had set the trap in that square, except the DC is 5 lower than normal. If the trap is fired at a creature, the target takes damage from the ranged weapon and is treated as if it had triggered the trap (attempting a saving throw, if any).\" special=\"The attack has a maximum range of 60 feet, and penalties from range increments apply on the attack roll. The duration of the trap starts when it is created, not when it is triggered.\" replace=\"Raise animal companion\"}"
 		]
 	},
 	"pelagic_hunter": {
@@ -531,7 +531,7 @@
 			"‹SOURCE Ultimate Wilderness/55›  ",
 			"Some hunters are masters of the wild. Whether raised by apes or having some other link with simian creatures, these hunters glide through the wilderness with ease.",
 			"",
-			"::ab[Animal Companion]{icon=info note=\"A treestrider must select an ‹companion/ape› as her animal companion.\" alter=\"Animal companion\"}",
+			"::ab[Animal Companion]{icon=info info=\"A treestrider must select an ‹companion/ape› as her animal companion.\" alter=\"Animal companion\"}",
 			"",
 			"::ab[Brachiation (Ex)]{icon=power useL=hunter useUnit=minute useNC=1 free=\"A treestrider can gain a climb speed equal to half her base speed. In addition, she can use her climb speed to move through the canopies of forests or jungles, provided the limbs of the trees are strong enough to support her weight. The treestrider's companion gains a +10-foot enhancement bonus to its climb speed.\" imp8=\"The treestrider's climb speed increases to equal her base speed, the duration of her *brachiation* increases to 10 minutes per hunter level per day (usable in 10-minute increments), and the enhancement bonus to her companion's climb speed increases to +20 feet.\" imp15=\"She can use *brachiation* with no limit on the duration.\" replace=\"Animal focus~second animal focus\"}",
 			"",
@@ -591,7 +591,7 @@
 			"‹SOURCE Advanced Class Guide/98›  ",
 			"A verminous hunter calls on the ceaseless, single-minded dedication of vermin to hunt and overwhelm her prey. Where other hunters invoke the cunning, animalistic powers of the alpha predators, she calls on the powers of the lowest life forms, reaching out to the spider instead of the monkey, the mantis instead of the snake, or the moth instead of the owl.",
 			"",
-			"::ab[Vermin Companion (Ex)]{l=1 icon=info note=\"A verminous hunter must choose a vermin companion instead of an animal companion. The *hunter tactics* class ability allows a verminous hunter to grant her teamwork feats to a mindless vermin companion.\" alter=\"Animal companion~hunter tactics\"}",
+			"::ab[Vermin Companion (Ex)]{l=1 icon=info info=\"A verminous hunter must choose a vermin companion instead of an animal companion. The *hunter tactics* class ability allows a verminous hunter to grant her teamwork feats to a mindless vermin companion.\" alter=\"Animal companion~hunter tactics\"}",
 			"",
 			"::ab[Vermin Empathy (Ex)]{icon=power ability=\"A verminous hunter gains the *wild empathy* ability, but can use it only to influence vermin (not animals or magical beasts).\" alter=\"Wild empathy\"}",
 			"",

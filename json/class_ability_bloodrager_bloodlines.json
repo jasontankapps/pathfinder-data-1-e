@@ -345,7 +345,7 @@
 			"",
 			"::list[Bonus Feats]{link=feat all=\"Cleave~Dodge~Great Fortitude~Improved Initiative~Lightning Reflexes~Power Attack~Weapon Focus\"}",
 			"",
-			"::ab[Bonus Spells by Bloodrager Level]{icon=learn s7=\"Burning hands~ &#42&\" s10=\"Scorching ray~ &#42&\" s13=\"Protection from energy\" s16=\"Elemental body I\" note=\"Spells marked with an asterisk (&#42&) always deal a type of energy damage determined by your element, regardless of the spell's normal effects. In addition, the subtype of these spells changes to match the energy type of your element.\"}",
+			"::ab[Bonus Spells by Bloodrager Level]{icon=learn s7=\"Burning hands~ &#42&\" s10=\"Scorching ray~ &#42&\" s13=\"Protection from energy\" s16=\"Elemental body I\" info=\"Spells marked with an asterisk (&#42&) always deal a type of energy damage determined by your element, regardless of the spell's normal effects. In addition, the subtype of these spells changes to match the energy type of your element.\"}",
 			"",
 			"### Bloodline Powers",
 			"",

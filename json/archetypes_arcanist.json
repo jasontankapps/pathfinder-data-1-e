@@ -275,7 +275,7 @@
 			"",
 			"::ab[Consume Life (Su)]{icon=magic flavor=\"By wresting a soul from life to death, a twilight sage gains a slightly deeper understanding of mortality, fueling her curiosity and eldritch power.\" fullround=\"She can consume the life energy of a helpless living creature, killing it. This creature must have 2 or more Hit Dice and be below 0 hit points. The twilight sage adds 2 points to her *arcane reservoir* if the creature's Hit Dice equaled or exceeded the sage's character level, or 1 point if the creature's Hit Dice equaled at least ‹misc/half› her character level. This ability is a death effect.\" replace=\"Consume spells\"}",
 			"",
-			"::ab[Necromantic Focus (Ex)]{icon=magic note=\"Twilight sages consider their research into life and death to be paramount, beyond all other concerns. Each day, a twilight sage must prepare at least one necromancy spell of each spell level she can cast.\"}",
+			"::ab[Necromantic Focus (Ex)]{icon=magic info=\"Twilight sages consider their research into life and death to be paramount, beyond all other concerns. Each day, a twilight sage must prepare at least one necromancy spell of each spell level she can cast.\"}",
 			"",
 			"::ab[Twilight Barrier (Ex)]{icon=magic-def-power flavor=\"A twilight sage's arcane barrier differs from those of other arcanists, as it draws upon both negative and positive energy to protect the sage.\" l=1 ability=\"A twilight sage must choose the ‹exploit/arcane barrier› exploit as her first arcanist exploit. Whenever an attack removes the last temporary hit point from the twilight sage's arcane barrier, the barrier's negative energy lashes back at the attacker, dealing an amount of negative energy damage equal to the barrier's maximum temporary hit point capacity.\" alter=\"The arcanist exploit gained at 1st level\"}",
 			"",
@@ -309,7 +309,7 @@
 			"",
 			"::ab[Spontaneous Healing (Su)]{l=1 icon=aid ability=\"A white mage can expend 1 point from her arcane reservoir to use one of her spell slots to cast a ‹main/cure spell<s› (any spell with &quot&cure&quot& in its name) from the cleric spell list as if it were on her spell list and prepared. The spell must be of a level the arcanist can cast.\" imp10=\"The white mage can expend 5 points from her arcane reservoir and a spell slot of at least 5th level to cast ‹spell/breath of life›.\" replace=\"The arcanist exploits gained at 1st and 9th levels\"}",
 			"",
-			"::ab[Greater Exploit]{icon=power head note=\"A white mage can select the following greater exploit.\"}",
+			"::ab[Greater Exploit]{icon=power head info=\"A white mage can select the following greater exploit.\"}",
 			"",
 			"::ab[Fast Healing (Su)]{next prereq=\"11th-level arcanist\" icon=aid ability=\"A white mage can spend 1 point from her arcane reservoir and expend a spell slot of at least 2nd level to grant her allies the *fast healing* ability. Allies within 30 feet gain ‹umr/fast healing› equal to ‹misc/half› the level of the spell slot sacrificed. This effect lasts for a number of rounds equal to the arcanist's Charisma modifier (minimum 1).\"}"
 		]

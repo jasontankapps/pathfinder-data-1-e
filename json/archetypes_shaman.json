@@ -8,7 +8,7 @@
 			"‹SOURCE Advanced Class Guide/110›  ",
 			"Even among mystical practitioners, the animist has a strange perspective and even stranger magic. The animist perceives that all things have a spirit, including objects, constructs, illnesses, buildings, and the environment.",
 			"",
-			"::ab[Animist Spirit Magic]{icon=learn note=\"The animist adds the following spells to the list of spells he can cast using *spirit magic* at the given spell levels:\" s1=\"Speak with animals\" s2=Skinsend s3=\"Speak with plants\" s4=Malfunction s5=Dream s6=\"Stone tell\" s7=\"Control construct\" s8=\"Trap the soul\" s9=\"Soul bind\" replace=\"Spirit magic spells gained from the shaman's spirit\"}",
+			"::ab[Animist Spirit Magic]{icon=learn info=\"The animist adds the following spells to the list of spells he can cast using *spirit magic* at the given spell levels:\" s1=\"Speak with animals\" s2=Skinsend s3=\"Speak with plants\" s4=Malfunction s5=Dream s6=\"Stone tell\" s7=\"Control construct\" s8=\"Trap the soul\" s9=\"Soul bind\" replace=\"Spirit magic spells gained from the shaman's spirit\"}",
 			"",
 			":::ab{title=\"Wrangle Condition\" action=Ability l=2 icon=aid imp5=\"The animist can use this ability to exorcise minor conditions without needing to attempt a Diplomacy check.\" imp9=\"He can dispatch major conditions without a roll.\" imp13=\"He can remove severe conditions without rolling.\" imp17=\"He can dispatch dire conditions automatically.\" special=\"Even if he doesn't need to roll, removing a condition still requires one use of this ability per condition.\" replace=\"2nd-level hex\"}",
 			"",
@@ -45,7 +45,7 @@
 			"‹SOURCE Healer's Handbook/26›  ",
 			"Though most shamans dole out banes and boons equally, a benefactor seeks to improve the lives of others by primarily offering powerful supportive abilities and magic to her allies and others she deems worthy.",
 			"",
-			"::ab[Benefactor Ethos]{icon=down note=\"Benefactors cannot cast shaman spells with the curse descriptor; for the benefactor's purpose, they are considered not on the shaman spell list. A benefactor can't use spell completion or spell trigger magic items that use shaman spells with the curse descriptor unless she succeeds at a Use Magic Device check.\" alter=Spellcasting}",
+			"::ab[Benefactor Ethos]{icon=down info=\"Benefactors cannot cast shaman spells with the curse descriptor; for the benefactor's purpose, they are considered not on the shaman spell list. A benefactor can't use spell completion or spell trigger magic items that use shaman spells with the curse descriptor unless she succeeds at a Use Magic Device check.\" alter=Spellcasting}",
 			"",
 			"::ab[Benefactor Hexes]{head icon=magic-down ability=\"A benefactor adds the following hexes to the list of shaman hexes she can choose from whenever she gains a new *hex* or a *wandering hex.*\" special=\"A benefactor cannot gain a *hex* that is a curse effect or that has the word &quot&curse&quot& in its name as a *hex* or a *wandering hex.*\" alter=Hexes}",
 			"",
@@ -67,7 +67,7 @@
 			"",
 			"The crystal tenders of Orv meditate within the Crystal Womb, often near the churning vortex that makes up the heart of the Vault. They learn to focus the cavern's energies through ley lines in the stone, and they study the birth of crystals within the Womb in order to mimic the process.",
 			"",
-			"::ab[Scion of the Stones (Ex)]{icon=info-def-down flavor=\"A crystal tender forms a mystic connection with the precious stones and gems she has sworn to protect.\" note=\"Her spirit animal always appears to be composed of a crystalline substance and gains a +2 bonus to its natural armor. Her spirit animal is treated as an outsider with both the earth and native subtypes, and counts as a crystalline creature for the purposes of spells and abilities. The unique nature of her spirit animal increases the cost of replacing it to 750 gp per shaman level.\" alter=\"Spirit animal\"}",
+			"::ab[Scion of the Stones (Ex)]{icon=info-def-down flavor=\"A crystal tender forms a mystic connection with the precious stones and gems she has sworn to protect.\" info=\"Her spirit animal always appears to be composed of a crystalline substance and gains a +2 bonus to its natural armor. Her spirit animal is treated as an outsider with both the earth and native subtypes, and counts as a crystalline creature for the purposes of spells and abilities. The unique nature of her spirit animal increases the cost of replacing it to 750 gp per shaman level.\" alter=\"Spirit animal\"}",
 			"",
 			"::ab[Reciprocal Resonance (Su)]{l=4 icon=def flavor=\"A crystal tender learns to form a temporary bond with a spirit of crystal.\" ability=\"When selecting her *wandering spirit,* she can forgo gaining a spirit ability to instead grant herself and her spirit animal DR 1/adamantine as long as they're within 10 feet of one another. While benefiting from this ability, the crystal tender's skin takes on a crystalline sheen.\" imp8=\"The DR gained from this ability increases to ‹misc/one-fourth› of her shaman level.\" alter=\"Wandering spirit\"}",
 			"",
@@ -85,7 +85,7 @@
 			"‹SOURCE Aquatic Adventures/51›  ",
 			"While most shamans of the *waves* spirit have powers associated with surface waters, deep shamans are tied to spirits from the depths. Some say that the first deep shamans served ‹faith/Besmara› back when she was a water spirit, before she achieved full godhood.",
 			"",
-			"::ab[Deep Spirit]{icon=down-power note=\"A deep shaman must choose the ‹shamanspirit/waves› spirit. The deep shaman must choose a spirit animal with the ‹subtype/aquatic› subtype, and it gains the ‹umr/amphibious› special quality instead of gaining the ability to breathe in water.\" alter=\"Spirit~spirit animal\"}",
+			"::ab[Deep Spirit]{icon=down-power info=\"A deep shaman must choose the ‹shamanspirit/waves› spirit. The deep shaman must choose a spirit animal with the ‹subtype/aquatic› subtype, and it gains the ‹umr/amphibious› special quality instead of gaining the ability to breathe in water.\" alter=\"Spirit~spirit animal\"}",
 			"",
 			"::cskill{gain=swim}",
 			"",
@@ -109,7 +109,7 @@
 			"‹SOURCE Legacy of Dragons/24›  ",
 			"In some regions of Tian Xia, shamans are unusually common, and may have strong ties to dragon gods and imperial dragons who act as mentors. Some of these shamans draw their powers from the might of dragons, rather than from spirits. These shamans each gain a powerful drake as an ally, and view caring for that drake as a sacred duty.",
 			"",
-			"::ab[Drake Companion]{icon=power-down note=\"A draconic shaman gains a ‹sidekick/drake« companion› instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains *wandering spirit* at 4th level. She must select all her hexes (other than her wandering hexes) from the list of ‹ability/shaman hexes›, and she can't select the *witch hex* shaman hex. She doesn't gain *spirit magic* slots until 4th level when she gains her *wandering spirit.* Any ability granted by a *wandering spirit* that would normally affect a spirit animal (such as ‹shamanspirit/nature«'s› *true spirit ability*) has no effect for a draconic shaman.\" replace=\"Spirit~spirit animal~hexes gained at 4th and 10th levels\" alter=\"Spirit magic\"}"
+			"::ab[Drake Companion]{icon=power-down info=\"A draconic shaman gains a ‹sidekick/drake« companion› instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains *wandering spirit* at 4th level. She must select all her hexes (other than her wandering hexes) from the list of ‹ability/shaman hexes›, and she can't select the *witch hex* shaman hex. She doesn't gain *spirit magic* slots until 4th level when she gains her *wandering spirit.* Any ability granted by a *wandering spirit* that would normally affect a spirit animal (such as ‹shamanspirit/nature«'s› *true spirit ability*) has no effect for a draconic shaman.\" replace=\"Spirit~spirit animal~hexes gained at 4th and 10th levels\" alter=\"Spirit magic\"}"
 		]
 	},
 	"grasping_vine": {
@@ -121,11 +121,11 @@
 			"‹SOURCE Legacy of the First World/16›  ",
 			"Grasping vine shamans are typically adherents of one of several scattered sects dedicated to the Green Mother. They revere plant life in all its forms, with a special fondness for poisonous or carnivorous plants. Unlike most shamans, a grasping vine is guided by a plant-like creature rather than a spirit animal.",
 			"",
-			"::ab[Spirit]{icon=info note=\"Though a grasping vine is not limited to a particular choice of spirit, common selections are ‹shamanspirit/Life›, ‹shamanspirit/Nature›, or ‹shamanspirit/Wood›.\"}",
+			"::ab[Spirit]{icon=info info=\"Though a grasping vine is not limited to a particular choice of spirit, common selections are ‹shamanspirit/Life›, ‹shamanspirit/Nature›, or ‹shamanspirit/Wood›.\"}",
 			"",
 			"::ab[Plant Spirit (Ex)]{icon=power ability=\"A shaman's spirit animal is made of leaves and thorny vines. This plant spirit has the statistics and abilities as a shaman's spirit animal, but it is treated as a creature of the ‹type/plant› type rather than a native outsider.\" alter=\"Spirit animal\"}",
 			"",
-			"::ab[Verdant Magic]{icon=learn note=\"A grasping vine adds the following spells to the list of spells she can cast using *spirit magic* at the listed spell levels.\" s1=Entangle s2=Barkskin s3=\"Thorny entanglement\" s4=\"Command plants\" s5=\"Wall of thorns\" s6=\"Fire seeds\" s7=\"Animate plants\" s8=\"Horrid wilting\" s9=Shambler replace=\"Spirit magic spells granted by the shaman's spirit\"}",
+			"::ab[Verdant Magic]{icon=learn info=\"A grasping vine adds the following spells to the list of spells she can cast using *spirit magic* at the listed spell levels.\" s1=Entangle s2=Barkskin s3=\"Thorny entanglement\" s4=\"Command plants\" s5=\"Wall of thorns\" s6=\"Fire seeds\" s7=\"Animate plants\" s8=\"Horrid wilting\" s9=Shambler replace=\"Spirit magic spells granted by the shaman's spirit\"}",
 			"",
 			"::ab[Greentongue (Sp)]{l=2 icon=magic useInc=shaman~2 useF=\"2~1\" standard=\"A grasping vine can use ‹spell/speak with plants› as a spell-like ability.\" ability=\"In addition, while under the effects of *speak with plants,* the grasping vine can deliver a ‹spell/suggestion› (as per the spell) to a single plant creature within 30 feet, ignoring the plant's immunity to mind-affecting effects. The grasping vine can use this second ability once per day at 2nd level.\" order=usa incrementPlain=\"The *suggestion* can be used~2~4\" incrementEnd=\" per day.\" incrementDesc=times replace=\"Shaman's hex gained at 2nd level\"}",
 			"",
@@ -159,7 +159,7 @@
 			"",
 			":::",
 			"",
-			"::ab[Keeper Spirit Magic]{icon=learn note=\"The namekeeper adds the following spells to the list of spells she can cast using *spirit magic* at the listed spell level:\" s1=\"Stone shield\" s2=\"Object reading\" s3=\"Speak with dead\" s4=\"Wall of stone\" s5=\"Breath of life\" s6=\"Stone tell\" s7=Vision s8=\"Word of recall\" s9=\"True resurrection\" replace=\"Spirit magic spells gained from the shaman's spirit\"}",
+			"::ab[Keeper Spirit Magic]{icon=learn info=\"The namekeeper adds the following spells to the list of spells she can cast using *spirit magic* at the listed spell level:\" s1=\"Stone shield\" s2=\"Object reading\" s3=\"Speak with dead\" s4=\"Wall of stone\" s5=\"Breath of life\" s6=\"Stone tell\" s7=Vision s8=\"Word of recall\" s9=\"True resurrection\" replace=\"Spirit magic spells gained from the shaman's spirit\"}",
 			"",
 			"::ab[Pathfinders Past (Su)]{head l=4 icon=power ability=\"A name-keeper can form a temporary bond with a deceased Pathfinder who is commemorated on the Wall of Names. The namekeeper must make this selection each day when preparing her spells. While this feature is active, she gains one or more benefits tied to the Pathfinder's former focus in the Society: Scrolls, Spells, or Swords. Each allows her to select one or more options (such as a weapon or shaman spirit), and she can choose different options each time she forms this bond.\"}",
 			"",
@@ -181,7 +181,7 @@
 			"‹SOURCE Magic Tactics Toolbox/23›  ",
 			"While all shamans use their connection to the spirits of the world to draw upon otherworldly magic powers, the shamans of the Lands of the Linnorm Kings have a unique tradition in which they use the power of patron spirits to directly control their enemies. Such overseers may assume roles as religious leaders and protectors of their tribes, turning foes into short-term allies for the tribe's greater good. Other overseers become tyrants who enforce their will upon the weak for personal gain. In combat, an overseer manages the battlefield by debilitating foes using her hexes and specialized spells.",
 			"",
-			"::ab[Controlling Magic (Su)]{icon=learn note=\"The overseer adds the following spells to the list of spells she can cast using *spirit magic* at the given spell level:\" s1=\"Charm person\" s2=\"Hideous laughter\" s3=\"Hold person\" s4=\"Crushing despair\" s5=Feeblemind s6=\"Mass suggestion\" s7=\"Power word blind\" s8=\"Irresistible dance\" s9=\"Dominate monster\" replace=\"Spirit magic spells gained from the shaman's spirit\"}",
+			"::ab[Controlling Magic (Su)]{icon=learn info=\"The overseer adds the following spells to the list of spells she can cast using *spirit magic* at the given spell level:\" s1=\"Charm person\" s2=\"Hideous laughter\" s3=\"Hold person\" s4=\"Crushing despair\" s5=Feeblemind s6=\"Mass suggestion\" s7=\"Power word blind\" s8=\"Irresistible dance\" s9=\"Dominate monster\" replace=\"Spirit magic spells gained from the shaman's spirit\"}",
 			"",
 			"::ab[Spirit Surge (Ex)]{l=3 icon=magic-boost ability=\"An overseer gains the ability to cast any of her mind-affecting spells that target a single creature through her spirit animal. When she's using this ability, the selected spell's range becomes touch, and she must deliver the spell through the spirit animal via the spirit animal's *deliver touch spells* supernatural ability. The shaman's effective caster level for these spells is 2 higher than her normal caster level. The overseer can deliver any other spells via the *deliver touch spells* spirit animal ability.\" alter=\"Deliver touch spells spirit animal ability\"}"
 		]
@@ -211,7 +211,7 @@
 			"‹SOURCE People of the Wastes/7›  ",
 			"The influence of ‹rule/primal magic› extends beyond what is visible and material. Spirits that linger in areas where primal magic reigns can become warped, losing touch with their former selves and experiencing random surges of power. A shaman who communes with such spirits learns to stabilize these erratic energies and draw upon them to her benefit. Such shamans gradually learn to guide their spirits toward coherence and lucidity, and in the process learn to bend chance and fortune in their favor.",
 			"",
-			"::ab[Spirit Animal]{icon=def note=\"A primal warden's spirit animal exhibits unusual physical features for a creature of its type, such as unnatural colorations and extra or missing appendages.\" passive=\"Each day, the spirit animal gains resistance 10 against a random element. Roll 1d4 to determine the type of resistance (1 = acid, 2 = cold, 3 = electricity, 4 = fire).\" order=np replace=\"Abilities the spirit animal gains from the shaman's chosen spirit\"}",
+			"::ab[Spirit Animal]{icon=def info=\"A primal warden's spirit animal exhibits unusual physical features for a creature of its type, such as unnatural colorations and extra or missing appendages.\" passive=\"Each day, the spirit animal gains resistance 10 against a random element. Roll 1d4 to determine the type of resistance (1 = acid, 2 = cold, 3 = electricity, 4 = fire).\" order=np replace=\"Abilities the spirit animal gains from the shaman's chosen spirit\"}",
 			"",
 			"::ab[Unstable Spellcasting]{icon=magic flavor=\"A primal warden's spirit is ever shifting, and the spells it grants the primal warden change from moment to moment.\" alter=\"Spirit magic\" replace=\"Hex gained at 8th level\" ability=\"When the primal warden would spontaneously cast a 1st- through 8th-level spell using the *spirit magic* class feature, she produces a random spell from the ‹main/spells>list of» shaman« spells› of 1 spell level higher than the spell slot expended; use an appropriate die or another randomization method to determine the spell. When she would spontaneously cast a 9th-level spell using *spirit magic,* she instead casts a random 9th-level spell from the shaman spell list, treating her caster level as 2 higher. There is no way to predict the spell before the shaman begins casting it using *spirit magic,* and she cannot enhance the spell using metamagic feats. The spell uses the shaman's caster level, even if that caster level would normally be too low to cast the spell.\" special=\"There are 126 potential 2nd-level spells, 111 potential 3rd-level spells, 102 potential 4th-level spells, 71 potential 5th-level spells, 50 potential 6th-level spells, 40 potential 7th-level spells, 28 potential 8th-level spells, and 20 potential 9th-level spells.@FN1\" imp8=\"After determining the spell that she would cast using *spirit magic,* once per day as a @HLfree_action, the primal warden shaman can choose to randomly select another spell instead, using the same method of randomization as she used before (if she obtains the same result a second time, she must keep that result).\" imp12=\"She cannot use this ability more than once in the same round.\" incrementPlain=\"She can choose to randomly select a different *spirit magic*~8~4\" incrementDesc=spell incrementEnd=\" times per day.\"}",
 			"",
@@ -239,7 +239,7 @@
 			"",
 			"::prereq{other=\"A shaman must have a racial trait with &quot&luck&quot& in its name to select this archetype, such as cat's luck or ‹race/halfling› luck. A character with the ‹feat/Defiant Luck› feat also qualifies for this archetype.\"}",
 			"",
-			"::ab[Luck Magic]{icon=learn note=\"A serendipity shaman adds the domain spells from the ‹domain/Luck› cleric domain to the list of spells she can cast with the *spirit magic* ability instead of her spirit's *spirit magic* spells.\" alter=Spirit}",
+			"::ab[Luck Magic]{icon=learn info=\"A serendipity shaman adds the domain spells from the ‹domain/Luck› cleric domain to the list of spells she can cast with the *spirit magic* ability instead of her spirit's *spirit magic* spells.\" alter=Spirit}",
 			"",
 			"::ab[Luck Hexes]{head icon=power ability=\"A serendipity shaman can select from any of the following hexes, in addition to general shaman hexes and the hexes granted by her spirit. When she gains the *wandering spirit* class feature, she can select one of these hexes in place of a *wandering hex.*\"}",
 			"",
@@ -271,7 +271,7 @@
 			"",
 			"::cskill{gain=ling~kh~kl~per~umd}",
 			"",
-			"::ab[Mysteries of the Past]{icon=learn order=nc note=\"A speaker for the past adds the spells from the ‹mystery/ancestor› and ‹mystery/time› oracle mysteries to her class spell list (at the oracle level for those spells).\" choice=\"The speaker for the past must choose a time when she must spend 1 hour each day in quiet contemplation to regain her daily allotment of spells, but does not need to commune with a familiar during this time.\" replace=Familiar special=\"Because she has no familiar, she does not gain a *spirit familiar* feature from any spirit she bonds with.\"}",
+			"::ab[Mysteries of the Past]{icon=learn order=nc info=\"A speaker for the past adds the spells from the ‹mystery/ancestor› and ‹mystery/time› oracle mysteries to her class spell list (at the oracle level for those spells).\" choice=\"The speaker for the past must choose a time when she must spend 1 hour each day in quiet contemplation to regain her daily allotment of spells, but does not need to commune with a familiar during this time.\" replace=Familiar special=\"Because she has no familiar, she does not gain a *spirit familiar* feature from any spirit she bonds with.\"}",
 			"",
 			"::ab[Revelations of the Past]{icon=power l4=\"The speaker for the past can select a revelation from the ancestor or time mysteries.\" special=\"She uses her shaman level as her oracle level for these revelations, and uses her Wisdom modifier in place of her Charisma modifier for the purposes of the revelation.\" repeatAt=\"She selects another such revelation.~6~12~14~20\" replace=\"Wandering spirit~wandering hex\"}"
 		]
@@ -289,7 +289,7 @@
 			"",
 			"::ab[Unnatural Mien (Ex)]{l=1 icon=boost flavor=\"The spirit warden's dealings with the spirit world give her an unsettling demeanor.\" passive=\"She gains a +2 bonus on Intimidate checks to demoralize a foe.\"}",
 			"",
-			"::ab[Restless Magic (Su)]{icon=learn note=\"The spirit warden adds the following spells to the list of spells she can cast using *spirit magic* at the listed spell level:\" s1=\"Detect undead\" s2=\"Command undead\" s3=\"Halt undead\" s4=\"Death ward\" s5=\"Possess object\" s6=\"Undeath to death\" s7=\"Ethereal jaunt\" s8=\"Control undead\" s9=Foresight replace=\"Spirit magic spells gained from the shaman's spirit\"}",
+			"::ab[Restless Magic (Su)]{icon=learn info=\"The spirit warden adds the following spells to the list of spells she can cast using *spirit magic* at the listed spell level:\" s1=\"Detect undead\" s2=\"Command undead\" s3=\"Halt undead\" s4=\"Death ward\" s5=\"Possess object\" s6=\"Undeath to death\" s7=\"Ethereal jaunt\" s8=\"Control undead\" s9=Foresight replace=\"Spirit magic spells gained from the shaman's spirit\"}",
 			"",
 			"::ab[Rebuke Spirits (Su)]{l=2 icon=aura ability=\"The spirit warden gains the ability to ‹ability/channel positive energy› as a cleric of her level. Regardless of her alignment, she can only use this ability to harm undead creatures.\" useMod=Charisma3 replace=\"Hex gained at 2nd level\"}",
 			"",
@@ -339,7 +339,7 @@
 			"",
 			"::ab[Wandering Spirit (Su)]{icon=power l2=\"The unsworn shaman gains access to the *wandering spirit* class feature.\" l10=\"She gains the abilities listed in the *greater* version of her *wandering spirit.*\" l18=\"She gains the abilities listed in the *true* version of her *wandering spirit.*\" l6=\"She also gains a second *wandering spirit.*\" l14=\"She gains the abilities listed in the *greater* version of her second *wandering spirit.*\" l20=\"She gains the abilities listed in the *true* version of her second *wandering spirit.*\" alter=\"Wandering spirit\" replace=\"Wandering hex\"}",
 			"",
-			"::ab[Spirit Magic (Sp)]{icon=down note=\"The unsworn shaman gains this ability at 2nd level rather than at 1st.\" alter=\"Spirit magic\"}"
+			"::ab[Spirit Magic (Sp)]{icon=down info=\"The unsworn shaman gains this ability at 2nd level rather than at 1st.\" alter=\"Spirit magic\"}"
 		]
 	},
 	"visionary": {
@@ -355,7 +355,7 @@
 			"",
 			"::ab[Discern Magical Expertise (Ex)]{l=4 icon=power ability=\"The shaman can determine what type of spellcasting expertise a creature possesses by studying the creature for 2 rounds with ‹spell/detect magic› or any of the following spells: ‹spell/detect chaos›, ‹spell/detect evil›, ‹spell/detect good›, or ‹spell/detect law› (if the creature belongs to the alignment). This ability tells the visionary what bloodlines, domains, hexes, schools, or mysteries (if any) the creature possesses. A successful Will saving throw negates this effect (DC = 10 + 1/2 the shaman's level + the shaman's Wisdom modifier).\" special=\"A creature affected by this ability cannot be affected by it again for 24 hours. This ability functions through magical sensors as with ‹spell/clairaudience/clairvoyance› and ‹spell/scrying›.\" replace=\"Wandering spirit gained at 4th level\"}",
 			"",
-			"::ab[Vision Spirit Magic]{l=4 icon=learn note=\"The visionary adds the following spells to the list of spells she can cast using *spirit magic* at the listed spell level:\" s1=\"See alignment\" s2=\"See invisibility\" s3=\"Clairaudience/clairvoyance\" s4=\"Detect scrying\" s5=\"Prying eyes\" s6=\"Legend lore\" s7=Vision s8=\"Moment of prescience\" s9=Foresight replace=\"Spirit magic spells gained from the shaman's wandering spirit\"}",
+			"::ab[Vision Spirit Magic]{l=4 icon=learn info=\"The visionary adds the following spells to the list of spells she can cast using *spirit magic* at the listed spell level:\" s1=\"See alignment\" s2=\"See invisibility\" s3=\"Clairaudience/clairvoyance\" s4=\"Detect scrying\" s5=\"Prying eyes\" s6=\"Legend lore\" s7=Vision s8=\"Moment of prescience\" s9=Foresight replace=\"Spirit magic spells gained from the shaman's wandering spirit\"}",
 			"",
 			"::ab[Improved Divination (Su)]{l=6 icon=boost-learn ability=\"The visionary becomes more adept at divination magic. When she casts the ‹spell/augury› spell, her chance for an accurate answer is automatically the maximum of 90%. Likewise, when she casts ‹spell/divination›, she has the maximum 90% chance of an accurate answer.\" ability2=\"The visionary can prepare *scrying* as a 4th-level spell, and it requires only 1 minute to cast. The visionary also has a 10% chance per caster level to cast the spells listed in the *scrying* spell description, instead of 5% per caster level (to a maximum of 100%). The visionary must still prepare these spells to receive these benefits.\" order=a2 replace=\"Wandering hex gained at 6th level\"}",
 			"",
