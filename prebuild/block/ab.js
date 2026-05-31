@@ -135,6 +135,7 @@ const makeAbilityBlock = ({
 				return false;
 			});
 		});
+		return result;
 	})();
 	resetSwaps();
 	const output = [];

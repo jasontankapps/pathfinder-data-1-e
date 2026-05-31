@@ -553,7 +553,7 @@ const _weapon_evoker_mastery = {title: "Weapon Evoker Mastery", jsx: <><h2 id="f
 const _weapon_finesse = {title: "Weapon Finesse", jsx: <><h2 id="feat-weapon_finesse-weapon-finesse-combat">Weapon Finesse (Combat)</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 136</Link></p>
 <p>You are trained in using your agility in melee combat, as opposed to brute strength.<br/><strong>Benefit:</strong> With a light weapon, <Link to="/eq-weapon/rapier">rapier</Link>, <Link to="/eq-weapon/whip">whip</Link>, or <Link to="/eq-weapon/spiked_chain">spiked chain</Link> made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.<br/><strong>Special:</strong> Natural weapons are considered light weapons.</p>
-<p><strong>Extra:</strong> Further publications expanded the number of weapons that can be used with Weapon Finesse. Sometimes there are restrictions on this behavior: check the weapon entry to be sure.</p>
+<p><strong>Note:</strong> Further publications expanded the number of weapons that can be used with Weapon Finesse. Sometimes there are restrictions on this behavior: check the weapon entry to be sure.</p>
 <ul>
 <li><Link to="/eq-weapon/aldori_dueling_sword">Aldori dueling sword</Link></li>
 <li><Link to="/eq-weapon/bladed_scarf">Bladed scarf</Link></li>
