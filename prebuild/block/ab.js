@@ -123,7 +123,7 @@ const makeAbilityBlock = ({
 		repeat, repeatAt,
 		standard, swift, immediate,
 		fullround, move, free,
-		provokes, special, specialP,
+		provokes, special,
 		info, choice, note,
 		passive, ability, ability2, ability3,
 		benefit, normal, goal, compbenefit,
@@ -140,16 +140,17 @@ const makeAbilityBlock = ({
 	const {x, y, z, X, Y, Z} = parseXYZ(etc, logError);
 	resetSwaps();
 	const output = [];
-	const doParse = (input) => {
-		return marked2.parseInline(convertEncodedInfo(input));
-	};
+	const doParse = (input, split) =>
+			split && (input.indexOf("~~~") > -1)
+				? marked2.parse(convertEncodedInfo(input).split(/~~~/).join("\n\n"))
+				: marked2.parseInline(convertEncodedInfo(input));
 	//
 	// DETERMINE ANY USAGE LIMITS
 	//
 	const use = (() => {
 		const base = (() => {
 			if (usage) {
-				return [doParse(usage), useUnit || "round"];
+				return [doParse(usage, false), useUnit || "round"];
 			} else if (useInc) {
 				const [levelClass, levelInterval, startFromLevel, initial = "1"] = useInc.split(/~/);
 				const starting = Math.round(Number(initial) || 1);
@@ -445,16 +446,16 @@ const makeAbilityBlock = ({
 	//
 
 	const maybeFlavor = () => {
-		return flavor ? ` flavor={${noteTags(flags, doParse(flavor), true)}}`.replace(/\{"([^"]+)"\}/g, '"$1"') : "";
+		return flavor ? ` flavor={${noteTags(flags, doParse(flavor, false), true)}}`.replace(/\{"([^"]+)"\}/g, '"$1"') : "";
 	};
 	const abId = jlid || prefix + id;
-	output.push(`<Pair single id="${abId}"${maybeFlavor()}>${doParse(text)}</Pair>`);
+	output.push(`<Pair single id="${abId}"${maybeFlavor()}>${doParse(text, false)}</Pair>`);
 	//
 	// TYPE/CATEGORY
 	//
 	type && output.push(
 		`<Pair title="Type">`
-		+ doParse(type)
+		+ doParse(type, false)
 		+ "</Pair>"
 	);
 	//
@@ -462,7 +463,7 @@ const makeAbilityBlock = ({
 	//
 	prereq && output.push(
 			`<Pair title="Prerequisites">`
-			+ doParse(prereq)
+			+ doParse(prereq, false)
 			+ "</Pair>"
 		);
 	//
@@ -471,14 +472,14 @@ const makeAbilityBlock = ({
 	if(replace) {
 		output.push(
 			`<Pair hl title="Replaces">`
-			+ doParse(replace.replace(/~/g, ", "))
+			+ doParse(replace.replace(/~/g, ", "), false)
 			+ "</Pair>"
 		);
 	}
 	if(alter) {
 		output.push(
 			`<Pair hl title="Alters">`
-			+ doParse(alter.replace(/~/g, ", "))
+			+ doParse(alter.replace(/~/g, ", "), false)
 			+ "</Pair>"
 		);
 	}
@@ -498,7 +499,7 @@ const makeAbilityBlock = ({
 				const level = ordinal(i + 1);
 				output.push(
 					`<Pair title="At ${level} Level">`
-					+ doParse(text)
+					+ doParse(text, true)
 					+ "</Pair>"
 				);
 			}
@@ -613,7 +614,7 @@ const makeAbilityBlock = ({
 			}
 			output.push(
 				`<Pair title="${title}">`
-				+ (parsed ? what : doParse(what || "MISSING"))
+				+ (parsed ? what : doParse(what || "MISSING", true))
 				+ "</Pair>"
 			);
 		});
@@ -639,7 +640,7 @@ const makeAbilityBlock = ({
 				const [description, title] = ab;
 				output.push(
 					`<Pair title="${title}">`
-					+ doParse(description)
+					+ doParse(description, true)
 					+ "</Pair>"
 				);
 			}
@@ -678,7 +679,7 @@ const makeAbilityBlock = ({
 				const level = i && ordinal(i);
 				output.push(
 					`<Pair plain title="${level}">`
-					+ doParse(spells)
+					+ doParse(spells, false)
 					+ "</Pair>"
 				);
 			}
@@ -991,7 +992,7 @@ const makeAbilityBlock = ({
 			}
 			output.push(
 				`<Pair title="At ${ordinal(i + 1)} Level">`
-				+ doParse(text)
+				+ doParse(text, true)
 				+ "</Pair>"
 			);
 		});
@@ -1000,17 +1001,9 @@ const makeAbilityBlock = ({
 	// SPECIAL
 	//
 	if(special) {
-		specialP && logError("Extraneous `specialP` attribute.");
 		output.push(
 				`<Pair title="Special">`
-				+ doParse(special)
-				+ "</Pair>"
-			);
-	} else if (specialP) {
-		const parsed = marked2.parse(convertEncodedInfo(specialP).split(/~~~/).join("\n\n"))
-		output.push(
-				`<Pair title="Special">`
-				+ parsed
+				+ doParse(special, true)
 				+ "</Pair>"
 			);
 	}
