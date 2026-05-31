@@ -42,10 +42,29 @@ const parseAtts = (attrs) => {
 	} else if (compbenefit) {
 		return [compbenefit, "Completion Benefit"];
 	} else if (x || y || z || X || Y || Z) {
+		// These are already in [info, "title"] format
 		return (x || y || z || X || Y || Z);
 	}
 	return false;
 };
+
+const parseXYZ = (etc, logError) => {
+	const result = {};
+	Object.values(etc).forEach(([key, value]) => {
+		["x","y","z","X","Y","Z"].some(x => {
+			if(key.startsWith(x)) {
+				if(result[x]) {
+					logError(`Duplicate ${x}... attr`);
+				}
+				result[x] = [value, key.slice(1).replace(/_/g, " ")];
+				return true;
+			}
+			return false;
+		});
+	});
+	return result;
+};
+
 
 let $swap = "";
 let $swaps = "";
@@ -118,25 +137,7 @@ const makeAbilityBlock = ({
 		replace, alter, type, prereq,
 		...etc
 	} = attrs;
-	const {x, y, z, X, Y, Z} = (() => {
-		const result = {};
-		const log = (x, y, z) => {
-			if(result[x]) {
-				logError(`Duplicate ${x}... attr`);
-			}
-			result[x] = [z, y];
-		};
-		Object.values(etc).forEach(([key, value]) => {
-			["x","y","z","X","Y","Z"].some(x => {
-				if(key.startsWith(x)) {
-					log(x, key.slice(1).replace(/_/g, " "), value);
-					return true;
-				}
-				return false;
-			});
-		});
-		return result;
-	})();
+	const {x, y, z, X, Y, Z} = parseXYZ(etc, logError);
 	resetSwaps();
 	const output = [];
 	const doParse = (input) => {

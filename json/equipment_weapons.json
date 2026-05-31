@@ -3217,6 +3217,17 @@
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
+	"underwater_crossbow": {
+		"name": "Underwater Crossbow",
+		"disambiguation": true,
+		"description": [
+			"There are two types of underwater crossbow.",
+			"",
+			"- ‹eq-weapon/Underwater light crossbow›",
+			"- ‹eq-weapon/Underwater heavy crossbow›"
+		],
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+	},
 	"underwater_light_crossbow": {
 		"name": "Underwater light crossbow",
 		"sources": [
