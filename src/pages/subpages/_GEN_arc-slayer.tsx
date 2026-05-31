@@ -1,6 +1,9 @@
-import Link from '../../components/Link';
+import {IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
+import ScrollContainer from '../../components/ScrollContainer';
+import InnerLink from '../../components/InnerLink';
 const _ankous_shadow = {title: "Ankou's Shadow", jsx: <><h2 id="arc-slayer-ankous_shadow-ankous-shadow">Ankou's Shadow</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 14</Link><br/>Ankous are terrifying, winged fey assassins dispatched by the greatest lords of the First World to eliminate rivals. Some mortals emulate ankous to become the perfect assassins; others believe themselves to be ankous incarnated in mortal shells on a deep cover mission. In either case, an ankou's shadow practices the deadliest skills of the First World's most feared enforcers.</p>
 <Ability id="arc-slayer-ankous_shadow-shadow-double-sp" icon={["stairs-goal"]}>
@@ -212,78 +215,180 @@ const _butterfly_blade = {title: "Butterfly Blade", jsx: <><h2 id="arc-slayer-bu
 </>};
 const _cleaner = {title: "Cleaner", jsx: <><h2 id="arc-slayer-cleaner-cleaner">Cleaner</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 118</Link><br/>A cleaner is responsible for destroying or removing incriminating evidence from a crime scene, disposing of corpses and eliminating witnesses to make a crime look like an accident or a mere disappearance.</p>
-<p><strong>Deceitful:</strong> At 1st level, a cleaner becomes skilled at deceiving others, and gains <Link to="/feat/deceitful">Deceitful</Link> as a bonus feat.</p>
-<p>This ability replaces <strong className="hl">track</strong>.</p>
-<p><strong>Without a Trace (Ex):</strong> At 4th level, a cleaner is able to study a location, conceal evidence, and hide in or extricate himself quickly from that location. Studying a location takes 1 minute for each 10-foot square. Once he has studied an area, the cleaner can attempt a Disguise check to alter evidence or a Stealth check to conceal evidence (by doing things such as cleaning up bloodstains, obscuring footprints, moving a dead body, and so on). Altering an area takes 1d3 &times; 10 minutes of work per 10-foot square. Anyone attempting to determine what actually happened in that area must succeed at an opposed Perception check against the result of the cleaner's Disguise or Stealth check (cleaner's choice) or accept the altered scene as truth. The cleaner gains a +4 bonus on this check, on Sleight of Hand checks to hide objects from that location on his person, and on Stealth checks to hide within or escape from that location. This lasts as long as the scene remains unaltered (except by the cleaner).</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 4th level.</p>
-<p><strong>Mislead (Sp):</strong> At 7th level, a cleaner can cast <Link to="/spell/misdirection">misdirection</Link> on himself at will. This lasts until the cleaner uses the ability again or ends the effect as a standard action.</p>
-<p>This ability replaces <strong className="hl">stalker</strong>.</p>
-<p><strong>Slayer Talents:</strong> The following slayer talents (and rogue talents) complement the cleaner archetype: <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/slayertalent/foil_scrutiny">foil scrutiny</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, and <Link to="/talent/terrain_mastery">terrain mastery</Link>.</p>
-<p><strong>Advanced Slayer Talents:</strong> The following advanced slayer talents (and advanced rogue talents) complement the cleaner archetype: <Link to="/slayertalent/assassinate">assassinate</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>, and <Link to="/slayertalent/slayer_camouflage">slayer camouflage</Link>.</p>
-</>};
+<Ability id="arc-slayer-cleaner-deceitful" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-cleaner-deceitful">Deceitful</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A cleaner becomes skilled at deceiving others, and gains <Link to="/feat/deceitful">Deceitful</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-slayer-cleaner-without-a-trace-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-slayer-cleaner-without-a-trace-ex">Without a Trace (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 4th level</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A cleaner is able to study a location, conceal evidence, and hide in or extricate himself quickly from that location. Studying a location takes 1 minute for each 10-foot square. Once he has studied an area, the cleaner can attempt a Disguise check to alter evidence or a Stealth check to conceal evidence (by doing things such as cleaning up bloodstains, obscuring footprints, moving a dead body, and so on). Altering an area takes 1d3 &times; 10 minutes of work per 10-foot square. Anyone attempting to determine what actually happened in that area must succeed at an opposed Perception check against the result of the cleaner's Disguise or Stealth check (cleaner's choice) or accept the altered scene as truth. The cleaner gains a +4 bonus on this check, on Sleight of Hand checks to hide objects from that location on his person, and on Stealth checks to hide within or escape from that location. This lasts as long as the scene remains unaltered (except by the cleaner).</Pair>
+</Ability>
+<Ability id="arc-slayer-cleaner-mislead-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-slayer-cleaner-mislead-sp">Mislead (Sp)</Pair>
+<Pair hl title="Replaces">Stalker</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A cleaner can cast <Link to="/spell/misdirection">misdirection</Link> on himself at will. This lasts until the cleaner uses the ability again or ends the effect as a <strong className="hl">standard action</strong>.</Pair>
+</Ability>
+<p><strong className="hl">The following slayer talents complement the cleaner archetype:</strong> <Link to="/slayertalent/foil_talent">foil talent</Link>, <Link to="/slayertalent/rogue_talent">rogue talent</Link> (<Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>)</p><p><strong className="hl">The following advanced slayer talents complement the cleaner archetype:</strong> <Link to="/slayertalent/advanced_rogue_talent">advanced rogue talent</Link> (<Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>), <Link to="/slayertalent/assassinate">assassinate</Link>, <Link to="/slayertalent/slayer_camouflage">slayer camouflage</Link></p></>};
 const _covenbane = {title: "Covenbane", jsx: <><h2 id="arc-slayer-covenbane-covenbane">Covenbane</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 26</Link><br/>Covenbane slayers are scarred by arcane magic at a young age, and that resonance gives them supernatural insight into the psychic bonds between others. They are adept at fighting tight-knit groups, exploiting their connections to hunt and wound teams. The churches of <Link to="/faith/iomedae">Iomedae</Link> and <Link to="/faith/milani">Milani</Link> in particular dispatch special agents to rescue hexed children from Irrisen, Razmiran, and other lands plagued by abusive arcanists and then raise them in this deadly art.</p>
-<p><strong>Hag Sense (Su):</strong> A covenbane's magical scars throb in the presence of magic. A covenbane adds half his level (minimum +1) on Perception, Sense Motive, and Survival checks to identify, recognize, or track a <Link to="/family/hag">hag</Link>, arcane spellcaster, or creature with spell-like abilities. He can also use his hag sense to recognize whether someone within 30 feet of him is using magic to hide her true form. To do this, he must succeed at a Perception check against a DC equal to 15 + the target's CR; success indicates the presence of a magical disguise, but it does not reveal the creature's true form.</p>
-<p>This replaces <strong className="hl">track</strong>.</p>
-<p><strong>Studied Coven (Su):</strong> At 2nd level, a covenbane can designate an entire coven as his studied target by studying any single member. He applies his studied target bonus against all members of the studied creature's coven, and all members of the coven count as one target for the purposes of determining the maximum number of studied targets a slayer can maintain. This bonus remains even if one or more members of the coven die after the covenbane studies them. Beginning at 7th level, the covenbane can designate other magically linked creatures, such as those bound by a hivemind or a <Link to="/spell/telepathic_bond">telepathic bond</Link> spell, as a coven, but he can target only three members of such a link. Studying a coven always requires a move action, even if the slayer could normally study a target with a swift or immediate action.</p>
-<p>This replaces the <strong className="hl">slayer talent</strong> gained at 2nd level.</p>
-<p><strong>Disrupt Coven (Su):</strong> Anyone the slayer threatens no longer counts as an ally for the purposes of friendly spellcasting or employing teamwork feats and cannot access any special abilities gained from being part of a coven (including coven spellcasting).</p>
-<p>This replaces <strong className="hl">stalker</strong>.</p>
-<p><strong>Unseen Sense (Su):</strong> At 11th level, the covenbane learns to use his hag sense to help target concealed or invisible opponents in combat. He can use his hag sense to detect invisible opponents as well as magically disguised creatures. He also gains <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat but gains its benefits only against spellcasters and creatures with spell-like abilities.</p>
-<p>This replaces <strong className="hl">swift tracker</strong>.</p>
-</>};
+<Ability id="arc-slayer-covenbane-hag-sense-su" icon={["upgrade"]}>
+<Pair single id="arc-slayer-covenbane-hag-sense-su">Hag Sense (Su)</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair title="Passive Ability">A covenbane's magical scars throb in the presence of magic. A covenbane adds half his level (minimum +1) on Perception, Sense Motive, and Survival checks to identify, recognize, or track a <Link to="/family/hag">hag</Link>, arcane spellcaster, or creature with spell-like abilities.</Pair>
+<Pair title="Ability">He can also use his <em>hag sense</em> to recognize whether someone within 30 feet of him is using magic to hide her true form. To do this, he must succeed at a Perception check against a DC equal to 15 + the target's CR; success indicates the presence of a magical disguise, but it does not reveal the creature's true form.</Pair>
+</Ability>
+<Ability id="arc-slayer-covenbane-studied-coven-su" icon={["upgrade"]}>
+<Pair single id="arc-slayer-covenbane-studied-coven-su">Studied Coven (Su)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 2nd level</Pair>
+<Pair hl title="Alters">Studied target</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A covenbane can designate an entire coven as his <em>studied target</em> by studying any single member. He applies his <em>studied target</em> bonus against all members of the studied creature's coven, and all members of the coven count as one target for the purposes of determining the maximum number of <em>studied targets</em> a slayer can maintain. This bonus remains even if one or more members of the coven die after the covenbane studies them.</Pair>
+<Pair title="At 7th Level">The covenbane can designate other magically linked creatures, such as those bound by a <Link to="/template/hivemind_swarm">hivemind</Link> or a <Link to="/spell/telepathic_bond">telepathic bond</Link> spell, as a coven, but he can target only three members of such a link.</Pair>
+<Pair title="Special">Studying a coven always requires a <strong className="hl">move action</strong>, even if the slayer could normally study a target with a swift or immediate action.</Pair>
+</Ability>
+<Ability id="arc-slayer-covenbane-disrupt-coven-su" icon={["armor-downgrade"]}>
+<Pair single id="arc-slayer-covenbane-disrupt-coven-su">Disrupt Coven (Su)</Pair>
+<Pair hl title="Replaces">Stalker</Pair>
+<Pair title="At 7th Level">Anyone the slayer threatens no longer counts as an ally for the purposes of friendly spellcasting or employing teamwork feats and cannot access any special abilities gained from being part of a coven (including coven spellcasting).<sup><InnerLink showBacklink="backlink-arc-slayer-covenbane-fake-fn-1" id="arc-slayer-covenbane-fake-fn-1" data-hash-target to="arc-slayer-covenbane-fake-fn-1-target">1</InnerLink></sup></Pair>
+</Ability>
+<Ability id="arc-slayer-covenbane-unseen-sense-su" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-slayer-covenbane-unseen-sense-su">Unseen Sense (Su)</Pair>
+<Pair hl title="Replaces">Swift tracker</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">The covenbane learns to use his <em>hag sense</em> to help target concealed or invisible opponents in combat. He can use his <em>hag sense</em> to detect invisible opponents as well as magically disguised creatures.</Pair>
+<Pair title="Special">He also gains <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat but gains its benefits only against spellcasters and creatures with spell-like abilities.</Pair>
+</Ability>
+<section data-footnotes><h3 id="arc-slayer-covenbane-label">Footnotes</h3><ol>
+<li id="arc-slayer-covenbane-fake-fn-1-target"><p>It's not explicitly stated, but since this replaces Stalker and is listed between a 2nd-level and 11th-level ability, it has been listed here as a 7th-level ability. <InnerLink aria-label="Back to reference 1" id="backlink-arc-slayer-covenbane-fake-fn-1" data-hash-target to="arc-slayer-covenbane-fake-fn-1">↩</InnerLink></p></li>
+</ol></section></>};
 const _cutthroat = {title: "Cutthroat", jsx: <><h2 id="arc-slayer-cutthroat-cutthroat">Cutthroat</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 119</Link><br/>Street-smart and extremely resourceful, cutthroats stalk city streets and alleyways, preying on those unfortunate enough to catch their eye. More opportunists than careful planners, they don't care who they rob or kill, and take advantage of whatever circumstances put them near a suitable target.</p>
 <Ability icon={["skills"]} id="arc-slayer-cutthroat-undefined">
 <Pair id="arc-slayer-cutthroat-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (geography), Survival</Pair></Ability>
-<p><strong>Street Stalker (Ex):</strong> At 1st level, a cutthroat selects the Acrobatics, Climb, or Knowledge (local) skill. Once selected, this cannot be changed. When in urban environments, the cutthroat adds 1/2 his slayer level (minimum 1) to checks attempted with this skill.</p>
-<p>This ability replaces <strong className="hl">track</strong>.</p>
-<p><strong>Opportune Target (Ex):</strong> At 2nd level, a cutthroat who catches a foe by surprise can quickly study that foe to find its weaknesses. If a cutthroat can act in the surprise round, once during that surprise round he can study a foe as a free action (instead of a move action) and select it as his studied target.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 2nd level.</p>
-<p><strong>Stab and Grab (Ex):</strong> At 6th level, as a swift action a cutthroat can attempt a steal combat maneuver against a dead or unconscious target or a studied target he has just confirmed a critical hit against. A dead or unconscious opponent takes a -10 penalty to its CMD against this maneuver.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 6th level.</p>
-<p><strong>Slayer Talents:</strong> The following slayer talents (and rogue talents) complement the cutthroat archetype: <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/slayertalent/poison_use">poison use</Link>, <Link to="/slayertalent/slowing_strike">slowing strike</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, and <Link to="/talent/terrain_mastery">terrain mastery</Link>.</p>
-<p><strong>Advanced Slayer Talents:</strong> The following advanced slayer talents (and advanced rogue talents) complement the cutthroat archetype: <Link to="/slayertalent/assassinate">assassinate</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/opportunist">opportunist</Link>, and <Link to="/slayertalent/slayer_camouflage">slayer camouflage</Link>.</p>
-</>};
+<Ability id="arc-slayer-cutthroat-street-stalker-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-cutthroat-street-stalker-ex">Street Stalker (Ex)</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Choice">A cutthroat selects the Acrobatics, Climb, or Knowledge (local) skill. Once selected, this cannot be changed.</Pair>
+<Pair title="Passive Ability">When in urban environments, the cutthroat adds 1/2 his slayer level (minimum 1) to checks attempted with this skill.</Pair>
+</Ability>
+<Ability id="arc-slayer-cutthroat-opportune-target-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-cutthroat-opportune-target-ex" flavor="A cutthroat who catches a foe by surprise can quickly study that foe to find its weaknesses.">Opportune Target (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">If a cutthroat can act in the surprise round, once during that surprise round he can study a foe as a <strong className="hl">free action</strong> (instead of a move action) and select it as his <em>studied target.</em></Pair>
+</Ability>
+<Ability id="arc-slayer-cutthroat-stab-and-grab-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-cutthroat-stab-and-grab-ex">Stab and Grab (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Swift Action">A cutthroat can attempt a <Link to="/rule/steal">steal</Link> combat maneuver against a dead or unconscious target or a <em>studied target</em> he has just confirmed a critical hit against. A dead or unconscious opponent takes a -10 penalty to its CMD against this maneuver.</Pair>
+</Ability>
+<p><strong className="hl">The following slayer talents complement the cutthroat archetype:</strong> <Link to="/slayertalent/poison_use">poison use</Link>, <Link to="/slayertalent/rogue_talent">rogue talent</Link> (<Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>), <Link to="/slayertalent/slowing_strike">slowing strike</Link></p><p><strong className="hl">The following advanced slayer talents complement the cutthroat archetype:</strong> <Link to="/slayertalent/advanced_rogue_talent">advanced rogue talent</Link> (<Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/opportunist">opportunist</Link>), <Link to="/slayertalent/assassinate">assassinate</Link>, <Link to="/slayertalent/slayer_camouflage">slayer camouflage</Link></p></>};
 const _deliverer = {title: "Deliverer", jsx: <><h2 id="arc-slayer-deliverer-deliverer">Deliverer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 119</Link><br/>Also known as a divine assassin, god's blade, or wrath-bringer, a deliverer is a weapon chosen by a god to punish those who have committed an affront to that deity. Evil deities are more likely to use assassins than deliverers, but some good deities use deliverers to deal with problems of a subtler nature than a cleric, inquisitor, paladin, or warpriest can typically handle.</p>
-<p><strong>Weapon and Armor Proficiency:</strong> A deliverer gains proficiency with his deity's favored weapon, in addition to the slayer's normal weapon proficiencies.</p>
-<p>This ability alters the slayer's <strong className="hl">weapon and armor proficiency</strong>.</p>
-<p><strong>Determined Zeal (Ex):</strong> At 2nd level, a deliverer shrugs off attempts by his moral opposite to control or kill him. On any round in which deliverer attacks an opponent whose alignment is at least two steps away from his own (such as a lawful good deliverer fighting a chaotic good or lawful evil foe, or a neutral foe with no other alignment components), he gains a +2 bonus on Will saving throws against that opponent's abilities, as well as the benefit of the <Link to="/feat/diehard">Diehard</Link> feat until the end of his next turn.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 2nd level.</p>
-<p><strong>True Believer (Ex):</strong> At 6th level, mortal wounds cannot stop a deliverer from performing his divine duty. On any round in which he attacks an opponent whose alignment is at least two steps away from his own (see Determined Zeal, above) while benefiting from the Diehard feat, he isn't staggered from having negative hit points, nor does he automatically lose 1 hit point per round.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 6th level.</p>
-<p><strong>Divine Anathema (Ex):</strong> At 10th level, as a free action a deliverer can declare a studied target to be his divine anathema. The studied target's alignment must be at least two steps away from that of the deliverer. Against this target, the deliverer's attacks deal an additional 2d6 points of damage; this damage is directly from divine power and does not stack with the bonus damage from a holy or unholy weapon, or a weapon with a similar weapon special ability or effect. A deliverer can have only one divine anathema at a time.</p>
-<p>This ability replaces the <strong className="hl">advanced slayer talent</strong> gained at 10th level.</p>
-<p><strong>Slayer Talents:</strong> The following slayer talents (and rogue talents) complement the deliverer archetype: <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/slayertalent/foil_scrutiny">foil scrutiny</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>, <Link to="/talent/trap_spotter">trap spotter</Link>, and <Link to="/slayertalent/trapfinding">trapfinding</Link>.</p>
-<p><strong>Advanced Slayer Talents:</strong> The following advanced slayer talents (and advanced rogue talents) complement the deliverer archetype: <Link to="/slayertalent/assassinate">assassinate</Link>, <Link to="/ninjatrick/evasion">evasion</Link>, <Link to="/talent/hunters_surprise">hunter's surprise</Link>, and <Link to="/talent/master_of_disguise">master of disguise</Link>.</p>
-<p><strong>Ex-Deliverers:</strong> A deliverer who grossly violates the code of conduct required by his deity loses all class features granted by this archetype, except for the weapon proficiencies. (He does not gain the slayer class abilities that the archetype replaces.) He cannot thereafter gain levels as a deliverer of that deity until he atones for his deeds (see the <Link to="/spell/atonement">atonement</Link> spell description).</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-slayer-deliverer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Follower of a deity</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-slayer-deliverer-weapon-and-armor-proficiency" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-deliverer-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Alters">Weapon and armor proficiency</Pair>
+<Pair title="Ability">A deliverer gains proficiency with his deity's favored weapon, in addition to the slayer's normal weapon proficiencies.</Pair>
+</Ability>
+<Ability id="arc-slayer-deliverer-determined-zeal-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-slayer-deliverer-determined-zeal-ex" flavor="A deliverer shrugs off attempts by his moral opposite to control or kill him.">Determined Zeal (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">On any round in which deliverer attacks an opponent whose alignment is at least two steps away from his own (such as a lawful good deliverer fighting a chaotic good or lawful evil foe, or a neutral foe with no other alignment components), he gains a +2 bonus on Will saving throws against that opponent's abilities, as well as the benefit of the <Link to="/feat/diehard">Diehard</Link> feat until the end of his next turn.</Pair>
+</Ability>
+<Ability id="arc-slayer-deliverer-true-believer-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-slayer-deliverer-true-believer-ex" flavor="Mortal wounds cannot stop a deliverer from performing his divine duty.">True Believer (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Passive Ability">On any round in which he attacks an opponent whose alignment is at least two steps away from his own (see Determined Zeal, above) while benefiting from the Diehard feat, he isn't staggered from having negative hit points, nor does he automatically lose 1 hit point per round.</Pair>
+</Ability>
+<Ability id="arc-slayer-deliverer-divine-anathema-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-deliverer-divine-anathema-ex">Divine Anathema (Ex)</Pair>
+<Pair hl title="Replaces">Advanced slayer talent gained at 10th level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Free Action">A deliverer can declare a <em>studied target</em> to be his divine anathema. The <em>studied target's</em> alignment must be at least two steps away from that of the deliverer. Against this target, the deliverer's attacks deal an additional 2d6 points of damage; this damage is directly from divine power and does not stack with the bonus damage from a holy or unholy weapon, or a weapon with a similar weapon special ability or effect.</Pair>
+<Pair title="Special">A deliverer can have only one divine anathema at a time.</Pair>
+</Ability>
+<p><strong className="hl">The following slayer talents complement the deliverer archetype:</strong> <Link to="/slayertalent/foil_scrutiny">foil scrutiny</Link>, <Link to="/slayertalent/rogue_talent">rogue talent</Link> (<Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>, <Link to="/talent/trap_spotter">trap spotter</Link>), <Link to="/slayertalent/trapfinding">trapfinding›</Link></p><p><strong className="hl">The following advanced slayer talents complement the deliverer archetype:</strong> <Link to="/slayertalent/advanced_rogue_talent">advanced rogue talent</Link> (<Link to="/talent/hunters_surprise">hunter's surprise</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>), <Link to="/slayertalent/assassinate">assassinate</Link>, <Link to="/slayertalent/nina_master_trick">nina master trick</Link> (<Link to="/ninjatrick/evasion">evasion</Link>)</p><Ability id="arc-slayer-deliverer-ex-deliverers" icon={["hazard-sign"]}>
+<Pair single id="arc-slayer-deliverer-ex-deliverers">Ex-Deliverers</Pair>
+<Pair title="Info">A deliverer who grossly violates the code of conduct required by his deity loses all class features granted by this archetype, except for the weapon proficiencies. (He does not gain the slayer class abilities that the archetype replaces.) He cannot thereafter gain levels as a deliverer of that deity until he atones for his deeds (see the <Link to="/spell/atonement">atonement</Link> spell description).</Pair>
+</Ability>
 </>};
 const _dune_rider = {title: "Dune Rider", jsx: <><h2 id="arc-slayer-dune_rider-dune-rider">Dune Rider</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 86</Link><br/>Mounted harriers, saboteurs, and skirmishers, dune riders can disrupt even the most organized opposition.</p>
-<p><strong>Sand Foot (Ex):</strong> The dune rider adds half his level as a bonus on Ride checks in warm deserts, hills, and mountains. At 11th level, the dune rider and his mount no longer treat sand or rocky ground as <Link to="/rule/difficult_terrain">difficult terrain</Link>, and they gain a +10-foot enhancement bonus to their base speed in warm deserts, hills, and mountains.</p>
-<p>This replaces <strong className="hl">track</strong> and <strong className="hl">fast tracker</strong>.</p>
-<p><strong>Desert Skirmisher (Ex):</strong> The dune rider excels in combat in warm deserts, hills, and mountains. While in such terrain, he gains a +2 bonus on initiative, Perception, and Stealth checks, and a +1 bonus on attack and damage rolls. At 5th level and every 5 levels thereafter, the bonus on initiative, Perception, and Stealth checks increases by 2 (maximum +10) and the bonus on attack and damage rolls increases by 1 (maximum +5).</p>
-<p>This replaces <strong className="hl">studied target</strong>.</p>
-<p><strong>Galloping Fire (Ex):</strong> At 4th level, the penalties for the dune rider's ranged attacks while mounted decrease by 2. These penalties decrease by an additional 2 at 7th level.</p>
-<p>This replaces <strong className="hl">stalker</strong> and the <strong className="hl">slayer talent</strong> normally gained at 4th level.</p>
-<p><strong>Dust Vision (Ex):</strong> At 8th level, the dune rider is at home in the desert. He exists comfortably in hot conditions up to 140&deg; Fahrenheit without having to attempt Fortitude saves. His equipment is likewise protected. He takes no penalties on Perception checks from blowing sand, dust, or heat shimmers, nor do these effects grant <Link to="/rule/concealment">concealment</Link> to the dune rider's enemies within 30 feet. Effects that would grant total concealment work normally.</p>
-<p>This replaces the <strong className="hl">slayer talent</strong> normally gained at 8th level.</p>
-<p><strong>Dunes of Death (Su):</strong> At 20th level, a dune rider can use the desert's heat to finish off his foes. As a standard action, he can make a single attack at his full base attack bonus while in warm desert, hills, or mountains, choosing one of the following effects: kill, knock unconscious for 1d4 hours, or paralyze for 2d6 rounds. If the attack hits, the target takes damage normally and must succeed at a Fortitude save or suffer the additional effect. The DC of this save is 20 + the dune rider's Intelligence modifier. Whether or not the target succeeds, it can't be targeted by this ability again for 24 hours.</p>
-<p>This replaces <strong className="hl">master slayer</strong>.</p>
+<Ability id="arc-slayer-dune_rider-sand-foot-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-dune_rider-sand-foot-ex">Sand Foot (Ex)</Pair>
+<Pair hl title="Replaces">Track, fast tracker</Pair>
+<Pair title="Passive Ability">The dune rider adds half his level as a bonus on Ride checks in warm deserts, hills, and mountains.</Pair>
+<Pair title="At 11th Level">The dune rider and his mount no longer treat sand or rocky ground as <Link to="/rule/difficult_terrain">difficult terrain</Link>, and they gain a +10-foot enhancement bonus to their base speed in warm deserts, hills, and mountains.</Pair>
+</Ability>
+<Ability id="arc-slayer-dune_rider-desert-skirmisher-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-dune_rider-desert-skirmisher-ex">Desert Skirmisher (Ex)</Pair>
+<Pair hl title="Replaces">Studied target</Pair>
+<Pair title="Passive Ability">The dune rider excels in combat in warm deserts, hills, and mountains. While in such terrain, he gains a +2 bonus on initiative, Perception, and Stealth checks, and a +1 bonus on attack and damage rolls.</Pair>
+<Pair title="At 5th Level">The bonus on initiative, Perception, and Stealth checks becomes +4, and the bonus on attack and damage rolls increases to +2.</Pair>
+<Pair title="At 10th Level">The bonus on initiative, Perception, and Stealth checks becomes +6, and the bonus on attack and damage rolls increases to +3.</Pair>
+<Pair title="At 15th Level">The bonus on initiative, Perception, and Stealth checks becomes +8, and the bonus on attack and damage rolls increases to +4.</Pair>
+<Pair title="At 20th Level">The bonus on initiative, Perception, and Stealth checks becomes +10, and the bonus on attack and damage rolls increases to +5.</Pair>
+</Ability>
+<Ability id="arc-slayer-dune_rider-galloping-fire-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-dune_rider-galloping-fire-ex">Galloping Fire (Ex)</Pair>
+<Pair hl title="Replaces">Stalker, slayer talent gained at 4th level</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">The penalties for the dune rider's ranged attacks while mounted decrease by 2.</Pair>
+<Pair title="At 7th Level">These penalties now decrease by 4.</Pair>
+</Ability>
+<Ability id="arc-slayer-dune_rider-dust-vision-ex" icon={["armor-upgrade","upgrade"]}>
+<Pair single id="arc-slayer-dune_rider-dust-vision-ex" flavor="The dune rider is at home in the desert.">Dust Vision (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 8th level</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability">He exists comfortably in hot conditions up to 140&deg; Fahrenheit without having to attempt Fortitude saves. His equipment is likewise protected. He takes no penalties on Perception checks from blowing sand, dust, or heat shimmers, nor do these effects grant <Link to="/rule/concealment">concealment</Link> to the dune rider's enemies within 30 feet. Effects that would grant total concealment work normally.</Pair>
+</Ability>
+<Ability id="arc-slayer-dune_rider-dunes-of-death-su" icon={["armor-downgrade"]}>
+<Pair single id="arc-slayer-dune_rider-dunes-of-death-su" flavor="A dune rider can use the desert's heat to finish off his foes.">Dunes of Death (Su)</Pair>
+<Pair hl title="Replaces">Master slayer</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Standard Action">He can make a single attack at his full base attack bonus while in warm desert, hills, or mountains, choosing one of the following effects: kill, knock unconscious for 1d4 hours, or paralyze for 2d6 rounds. If the attack hits, the target takes damage normally and must succeed at a Fortitude save or suffer the additional effect. The DC of this save is 20 + the dune rider's Intelligence modifier.</Pair>
+<Pair title="Special">Whether or not the target succeeds, it can't be targeted by this ability again for 24 hours.</Pair>
+</Ability>
 </>};
 const _family_hunter = {title: "Family Hunter", jsx: <><h2 id="arc-slayer-family_hunter-family-hunter">Family Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 66</Link><br/>Most slayers focus their efforts on single targets, but family hunters try to root out every branch of a tainted tree of life.</p>
-<p><strong>Find Family (Sp):</strong> At 2nd level, a family hunter chooses a particular family line of mortal creatures to cleanse (she must choose an actual family line like "The Montrose family," rather than something generic that would cover all creatures of a given kind like "All humans descended from the first human created by the gods"). She can target any creature from that family line with <Link to="/spell/discern_next_of_kin">discern next of kin</Link> (with a caster level equal to her slayer level) at will as a spell-like ability. The save DC is Charisma-based and is modified by the slayer's studied target bonus if the creature is also her studied target. A creature that successfully saves against this effect is immune to this ability for 24 hours. If the family hunter's chosen family line is completely eradicated, she can choose a new one after 1 month of studying.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 2nd level.</p>
-<p><strong>Kinslayer (Su):</strong> At 3rd level, a family hunter's sneak attack deals an additional 1d6 points of damage to any creature with a blood relation to the family line she seeks to cleanse.</p>
-<p>This ability alters <strong className="hl">sneak attack</strong>.</p>
-<p><strong>Studied Target (Ex):</strong> At 5th level and above, a slayer can maintain more than one studied target at a time only if all targets are closely related to one another (even if they aren't part of the family line she seeks to cleanse). This includes blood relatives; undead spawn; constructs or undead and their creator; summoned creatures and their summoner; creatures that are charmed, dominated, or otherwise under direct magical control and their controller; and cohorts, followers, animal companions, familiars, and similar associates of one master.</p>
-<p>This ability alters <strong className="hl">studied target</strong>.</p>
-<p><strong>Disrupt Teamwork (Ex):</strong> At 6th level, a family hunter's studied target never counts as an ally to its allies for the purpose of flanking the family hunter or using teamwork feats or the aid another action against the family hunter.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 6th level.</p>
+<Ability id="arc-slayer-family_hunter-find-family-sp" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-family_hunter-find-family-sp">Find Family (Sp)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Choice">A family hunter chooses a particular family line of mortal creatures to cleanse (she must choose an actual family line like "The Montrose family," rather than something generic that would cover all creatures of a given kind like "All humans descended from the first human created by the gods").</Pair>
+<Pair title="Ability">She can target any creature from that family line with <Link to="/spell/discern_next_of_kin">discern next of kin</Link> (with a caster level equal to her slayer level) at will as a spell-like ability. The save DC is Charisma-based and is modified by the slayer's <em>studied target</em> bonus if the creature is also her <em>studied target.</em> A creature that successfully saves against this effect is immune to this ability for 24 hours.</Pair>
+<Pair title="Special">If the family hunter's chosen family line is completely eradicated, she can choose a new one after 1 month of studying.</Pair>
+</Ability>
+<Ability id="arc-slayer-family_hunter-kinslayer-su" icon={["upgrade"]}>
+<Pair single id="arc-slayer-family_hunter-kinslayer-su">Kinslayer (Su)</Pair>
+<Pair hl title="Alters">Sneak attack</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A family hunter's sneak attack deals an additional 1d6 points of damage to any creature with a blood relation to the family line she seeks to cleanse.</Pair>
+</Ability>
+<Ability id="arc-slayer-family_hunter-studied-target-ex" icon={["broken-shield"]}>
+<Pair single id="arc-slayer-family_hunter-studied-target-ex">Studied Target (Ex)</Pair>
+<Pair hl title="Alters">Studied target</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Info">A slayer can maintain more than one <em>studied target</em> at a time only if all targets are closely related to one another (even if they aren't part of the family line she seeks to cleanse). This includes blood relatives; undead spawn; constructs or undead and their creator; summoned creatures and their summoner; creatures that are charmed, dominated, or otherwise under direct magical control and their controller; and cohorts, followers, animal companions, familiars, and similar associates of one master.</Pair>
+</Ability>
+<Ability id="arc-slayer-family_hunter-disrupt-teamwork-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-slayer-family_hunter-disrupt-teamwork-ex">Disrupt Teamwork (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Passive Ability">A family hunter's <em>studied target</em> never counts as an ally to its allies for the purpose of <Link to="/rule/flanking">flanking</Link> the family hunter or using teamwork feats or the <Link to="/rule/aid_another_2">aid another</Link> action against the family hunter.</Pair>
+</Ability>
 </>};
 const _grave_warden = {title: "Grave Warden", jsx: <><h2 id="arc-slayer-grave_warden-grave-warden">Grave Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 120</Link><br/>While paladins and inquisitors use their connection with the divine to fight undead hordes and other horrors of the night, a grave warden relies on knowledge, skill with weapons, and tenacity to put an end to these night-born terrors.</p>
