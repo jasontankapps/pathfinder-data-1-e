@@ -392,84 +392,209 @@ const _family_hunter = {title: "Family Hunter", jsx: <><h2 id="arc-slayer-family
 </>};
 const _grave_warden = {title: "Grave Warden", jsx: <><h2 id="arc-slayer-grave_warden-grave-warden">Grave Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 120</Link><br/>While paladins and inquisitors use their connection with the divine to fight undead hordes and other horrors of the night, a grave warden relies on knowledge, skill with weapons, and tenacity to put an end to these night-born terrors.</p>
-<p><strong>Holy Water Sprinkler (Ex):</strong> At 2nd level, a grave warden can draw a flask of <Link to="/eq-weapon/holy_water">holy water</Link> as if it were a weapon (and can thus use the <Link to="/feat/quick_draw">Quick Draw</Link> feat to draw flasks of holy water). As a swift action, he can open a flask of holy water and pour it onto a held or adjacent melee weapon. If the weapon successfully hits an undead creature before the end of the grave warden's next turn, the undead takes damage as if it took a direct hit from the holy water, in addition to the damage from the weapon, if any.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 2nd level.</p>
-<p><strong>Death Ward (Sp):</strong> At 7th level, a grave warden learns to perform a short ritual that grants the benefits of <Link to="/spell/death_ward">death ward</Link>, using his slayer level as his caster level. Performing this ritual takes 1 minute and uses 4 flasks of holy water. The grave warden can protect only himself with this ability.</p>
-<p>This ability replaces <strong className="hl">stalker</strong>.</p>
-<p><strong>Dustbringer (Ex):</strong> At 10th level, a grave warden can slay a studied undead opponent. This functions as the <Link to="/slayertalent/assassinate">assassinate</Link> slayer talent, except it requires a successful Will saving throw instead of a successful Fortitude save, affects only undead, and destroys the target instead of killing it. If the target succeeds at its saving throw, it becomes immune to that grave warden's dustbringer ability for 24 hours.</p>
-<p>This ability replaces the <strong className="hl">advanced slayer talent</strong> gained at 10th level.</p>
-<p><strong>Slayer Talents:</strong> The following slayer talents (and rogue talents) complement the grave warden archetype: <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/swift_poison">swift poison</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>, <Link to="/talent/trap_spotter">trap spotter</Link>, and <Link to="/talent/unwitting_ally">unwitting ally</Link>.</p>
-<p><strong>Advanced Slayer Talents:</strong> The following advanced slayer talents (also available to rogues) complement the grave warden archetype: <Link to="/talent/hunters_surprise">hunter's surprise</Link>, and <Link to="/slayertalent/slayer_camouflage">slayer camouflage</Link>.</p>
-</>};
+<Ability id="arc-slayer-grave_warden-holy-water-sprinkler-ex" icon={["stairs-goal","mailed-fist"]}>
+<Pair single id="arc-slayer-grave_warden-holy-water-sprinkler-ex">Holy Water Sprinkler (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A grave warden can draw a flask of <Link to="/eq-weapon/holy_water">holy water</Link> as if it were a weapon (and can thus use the <Link to="/feat/quick_draw">Quick Draw</Link> feat to draw flasks of holy water).</Pair>
+<Pair title="Swift Action">He can open a flask of holy water and pour it onto a held or adjacent melee weapon. If the weapon successfully hits an undead creature before the end of the grave warden's next turn, the undead takes damage as if it took a direct hit from the holy water, in addition to the damage from the weapon, if any.</Pair>
+</Ability>
+<Ability id="arc-slayer-grave_warden-death-ward-sp" icon={["armor-upgrade"]}>
+<Pair single id="arc-slayer-grave_warden-death-ward-sp">Death Ward (Sp)</Pair>
+<Pair hl title="Replaces">Stalker</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A grave warden learns to perform a short ritual that grants the benefits of <Link to="/spell/death_ward">death ward</Link>, using his slayer level as his caster level. Performing this ritual takes 1 minute and uses 4 flasks of holy water. The grave warden can protect only himself with this ability.</Pair>
+</Ability>
+<Ability id="arc-slayer-grave_warden-dustbringer-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-grave_warden-dustbringer-ex">Dustbringer (Ex)</Pair>
+<Pair hl title="Replaces">Advanced slayer talent gained at 10th level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">A grave warden can slay a <em>studied</em> undead opponent. This functions as the <Link to="/slayertalent/assassinate">assassinate</Link> slayer talent, except it requires a successful Will saving throw instead of a successful Fortitude save, affects only undead, and destroys the target instead of killing it. If the target succeeds at its saving throw, it becomes immune to that grave warden's dustbringer ability for 24 hours.</Pair>
+</Ability>
+<p><strong className="hl">The following rogue talents complement the grave warden archetype:</strong> <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/swift_poison">swift poison</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>, <Link to="/talent/trap_spotter">trap spotter</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p><p><strong className="hl">The following advanced slayer talents complement the grave warden archetype:</strong> <Link to="/slayertalent/advanced_rogue_talent">advanced rogue talent</Link> (<Link to="/talent/hunters_surprise">hunter's surprise</Link>), <Link to="/slayertalent/slayer_camouflage">slayer camouflage</Link></p></>};
 const _guerrilla = {title: "Guerrilla", jsx: <><h2 id="arc-slayer-guerrilla-guerrilla">Guerrilla</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 87</Link><br/>Slayers characterized by cunning and patience, guerrillas specialize in ambush and harassment of enemies.</p>
-<p><strong>Strike First, Strike Last (Ex):</strong> A guerrilla adds half his level on Stealth checks when remaining motionless and reduces the penalty on Stealth checks when sniping by an equal amount. He also gains this bonus on his initiative checks in surprise rounds whenever he is aware of the surprise round and at least one enemy is unaware.</p>
-<p>This replaces <strong className="hl">track</strong> and <strong className="hl">swift tracker</strong>.</p>
-<p><strong>Quick Start (Ex):</strong> At 6th level, the guerrilla can take a normal charge action during the surprise round, rather than a charge with half the usual distance.</p>
-<p>This replaces the 6th-level <strong className="hl">slayer talent</strong>.</p>
-<p><strong>Astonishing Strike (Ex):</strong> At 14th level, when the guerrilla deals sneak attack damage to a target of his studied target ability during the surprise round, that target is denied its Dexterity bonus to AC against attacks from the same guerrilla until the end of the guerrilla's next turn. When the guerrilla reaches 19th level, this ability works any time he deals sneak attack damage to a target of his studied target ability during the first round of combat, whether or not it's a surprise round.</p>
-<p>This replaces <strong className="hl">quarry</strong> and <strong className="hl">improved quarry</strong>.</p>
+<Ability id="arc-slayer-guerrilla-strike-first-strike-last-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-guerrilla-strike-first-strike-last-ex">Strike First, Strike Last (Ex)</Pair>
+<Pair hl title="Replaces">Track, swift tracker</Pair>
+<Pair title="Passive Ability">A guerrilla adds half his level on Stealth checks when remaining motionless and reduces the penalty on Stealth checks when sniping by an equal amount. He also gains this bonus on his initiative checks in surprise rounds whenever he is aware of the surprise round and at least one enemy is unaware.</Pair>
+</Ability>
+<Ability id="arc-slayer-guerrilla-quick-start-ex" icon={["mailed-fist"]}>
+<Pair single id="arc-slayer-guerrilla-quick-start-ex">Quick Start (Ex)</Pair>
+<Pair hl title="Replaces">6th-level slayer talent</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">The guerrilla can take a normal <Link to="/rule/charge">charge</Link> action during the surprise round, rather than a charge with half the usual distance.</Pair>
+</Ability>
+<Ability id="arc-slayer-guerrilla-astonishing-strike-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-slayer-guerrilla-astonishing-strike-ex">Astonishing Strike (Ex)</Pair>
+<Pair hl title="Replaces">Quarry, improved quarry</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Ability">When the guerrilla deals sneak attack damage to a target of his <em>studied target</em> ability during the surprise round, that target is denied its Dexterity bonus to AC against attacks from the same guerrilla until the end of the guerrilla's next turn.</Pair>
+<Pair title="At 19th Level">This ability works any time he deals sneak attack damage to a target of his <em>studied target</em> ability during the first round of combat, whether or not it's a surprise round.</Pair>
+</Ability>
 </>};
 const _pureblade = {title: "Pureblade", jsx: <><h2 id="arc-slayer-pureblade-pureblade">Pureblade</h2>
-<p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 20</Link><br/>First known in Numeria, these aberration hunters have spread to other regions of Golarion, even as far as the lands bordering the Mana Wastes. In Numeria, Pureblades are skilled at slaying naturally arising aberrations and any creatures that have been mutated by exposure to the bizarre alien technology that pervades the land. Pureblades from Alkenstar and Nex lead forays into the magic-starved Mana Wastes to eliminate aberrations before the creatures can threaten their lands.</p>
-<p><strong>Aberration Hunter (Ex):</strong> If a Pureblade deals damage to an aberration, as an immediate action he can apply his studied target bonus against that target even if he didn't sneak attack it. In addition, a Pureblade can attempt Knowledge (dungeoneering) skill checks untrained when trying to identify aberrations.</p>
-<p>This ability replaces <strong className="hl">track</strong>.</p>
-<p><strong>Alien Prescience (Sp):</strong> At 2nd level, as a standard action a Pureblade can detect aberrations. This works like <Link to="/spell/detect_undead">detect undead</Link>, except it detects aberrations instead of undead.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> received at 2nd level.</p>
-<p><strong>Discern Weakness (Ex):</strong> At 7th level, a Pureblade becomes an expert at locating an aberration's weak points. The Pureblade rolls twice to confirm critical hits against aberrations and keeps the higher roll.</p>
-<p>This ability replaces <strong className="hl">stalker</strong>.</p>
-<p><strong>Steely Mind (Ex):</strong> At 8th level, a Pureblade gains a +2 resistance bonus on saving throws against mind-affecting spells and effects. This bonus increases to +4 at 12th level and +6 at 16th level. In addition, once per day as a standard action, a Pureblade can shed a magical effect placed on him by an aberration as <Link to="/spell/break_enchantment">break enchantment</Link>, using his slayer level as his caster level. A Pureblade can use this ability twice per day at 12th level and three times per day at 16th level.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> received at 8th level.</p>
-<p><strong>Aberration Slayer (Ex):</strong> At 20th level, a Pureblade can use his master slayer ability on any aberration, even if it's not his studied target.</p>
-<p>This ability alters <strong className="hl">master slayer</strong>.</p>
-</>};
+<p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 20</Link><br/>First known in Numeria, these aberration hunters have spread to other regions of Golarion, even as far as the lands bordering the Mana Wastes. In Numeria, Pureblades are skilled at slaying naturally arising <Link to="/type/aberration">aberrations</Link> and any creatures that have been mutated by exposure to the bizarre alien technology that pervades the land. Pureblades from Alkenstar and Nex lead forays into the magic-starved Mana Wastes to eliminate aberrations before the creatures can threaten their lands.</p>
+<Ability id="arc-slayer-pureblade-aberration-hunter-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-pureblade-aberration-hunter-ex">Aberration Hunter (Ex)</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair title="Immediate Action">If a Pureblade deals damage to an aberration, he can apply his <em>studied target</em> bonus against that target even if he didn't sneak attack it.</Pair>
+<Pair title="Ability">In addition, a Pureblade can attempt Knowledge (dungeoneering) skill checks untrained when trying to identify aberrations.</Pair>
+</Ability>
+<Ability id="arc-slayer-pureblade-alien-prescience-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-slayer-pureblade-alien-prescience-sp">Alien Prescience (Sp)</Pair>
+<Pair hl title="Replaces">Slayer talent received at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Standard Action">A Pureblade can <em>detect aberrations.</em> This works like <Link to="/spell/detect_undead">detect undead</Link>, except it detects aberrations instead of undead.<sup><InnerLink showBacklink="backlink-arc-slayer-pureblade-fake-fn-1" id="arc-slayer-pureblade-fake-fn-1" data-hash-target to="arc-slayer-pureblade-fake-fn-1-target">1</InnerLink></sup></Pair>
+</Ability>
+<Ability id="arc-slayer-pureblade-discern-weakness-ex" icon={["rolling-dices"]}>
+<Pair single id="arc-slayer-pureblade-discern-weakness-ex" flavor="A Pureblade becomes an expert at locating an aberration's weak points.">Discern Weakness (Ex)</Pair>
+<Pair hl title="Replaces">Stalker</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">The Pureblade rolls twice to confirm critical hits against aberrations and keeps the higher roll.</Pair>
+</Ability>
+<Ability id="arc-slayer-pureblade-steely-mind-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-slayer-pureblade-steely-mind-ex">Steely Mind (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent received at 8th level</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability">A Pureblade gains a +2 resistance bonus on saving throws against mind-affecting spells and effects.</Pair>
+<Pair title="Standard Action">Once per day, a Pureblade can shed a magical effect placed on him by an aberration as <Link to="/spell/break_enchantment">break enchantment</Link>, using his slayer level as his caster level.</Pair>
+<Pair title="At 12th Level">The resistance bonus becomes +4. A Pureblade can shed a magical effect twice per day.</Pair>
+<Pair title="At 16th Level">The resistance bonus increases to +6. He can shed a magical effect three times per day.</Pair>
+</Ability>
+<Ability id="arc-slayer-pureblade-aberration-slayer-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-pureblade-aberration-slayer-ex">Aberration Slayer (Ex)</Pair>
+<Pair hl title="Alters">Master slayer</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">A Pureblade can use his <em>master slayer</em> ability on any aberration, even if it's not his <em>studied target.</em></Pair>
+</Ability>
+<section data-footnotes><h3 id="arc-slayer-pureblade-label">Footnotes</h3><ol>
+<li id="arc-slayer-pureblade-fake-fn-1-target"><p>This archetype was published before the spell <Link to="/spell/detect_aberration">detect aberration</Link> was created. It has a greater range and longer duration than <em>detect undead.</em> Consult your GM if you wish to use that spell. <InnerLink aria-label="Back to reference 1" id="backlink-arc-slayer-pureblade-fake-fn-1" data-hash-target to="arc-slayer-pureblade-fake-fn-1">↩</InnerLink></p></li>
+</ol></section></>};
 const _sczarni_executioner = {title: "Sczarni Executioner", jsx: <><h2 id="arc-slayer-sczarni_executioner-sczarni-executioner">Sczarni Executioner</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 21</Link><br/>These professional killers are trained and used almost exclusively by the various Sczarni crime families. Streetwise and ruthless, they operate independently, often making their talents available to the highest bidder. Though a few unscrupulous Sczarni executioners exploit this arrangement and force families to pay higher rates for their services, most of these assassins follow a strict personal code and maintain absolute transparency with their employers.</p>
-<p>Talents marked with an asterisk (*) are considered Primary Sneak Attack Talents. Only one of these talents can be applied to an individual attack, and the decision of which to use must be made before the attack roll is made.</p>
 <Ability icon={["skills"]} id="arc-slayer-sczarni_executioner-undefined">
 <Pair id="arc-slayer-sczarni_executioner-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/appraise">Appraise</Link> (INT), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (geography), Ride, Survival</Pair></Ability>
-<p><strong>Bloodstained Hands (Ex):</strong> A Sczarni executioner must be evil. If he ever becomes nonevil, he loses this archetype and becomes a regular slayer.</p>
-<p><strong>Focused Killer (Ex):</strong> At 1st level, a Sczarni executioner's studied target bonuses and the DCs of his slayer abilities increase by 1 against humanoid opponents, but decrease by 1 against non-humanoid targets.</p>
-<p>This ability alters <strong className="hl">studied target</strong>.</p>
-<p><strong>Painful Strike* (Ex):</strong> At 4th level, a Sczarni executioner automatically gains this talent. Sczarni executioners are trained to cause excruciating pain when striking targets, often leaving them reeling in agony or completely incapacitated as they slowly bleed out. A creature that takes sneak attack damage from a Sczarni executioner must make a successful a Fortitude save (DC = 10 + 1/2 the Sczarni executioner's class level + his Intelligence modifier) or become sickened for 1d4 rounds.</p>
-<p>This ability alters the <strong className="hl">slayer talent</strong> received at 4th level and replaces <strong className="hl">swift tracker</strong>.</p>
-<p><strong>Assassinate (Ex):</strong> At 10th level, a Sczarni executioner must select the <Link to="/slayertalent/assassinate">assassinate</Link> advanced slayer talent.</p>
-<p><strong>Swift Death (Ex):</strong> At 14th level, once per day a Sczarni executioner can attempt to assassinate a foe without studying his foe beforehand. He must still succeed at a sneak attack against the target. At 19th level, he can make two such attacks per day.</p>
-<p>This ability replaces <strong className="hl">quarry</strong> and <strong className="hl">improved quarry</strong>.</p>
+<Ability id="arc-slayer-sczarni_executioner-bloodstained-hands-ex" icon={["hazard-sign"]}>
+<Pair single id="arc-slayer-sczarni_executioner-bloodstained-hands-ex">Bloodstained Hands (Ex)</Pair>
+<Pair title="Prerequisites">A Sczarni executioner must be evil.</Pair>
+<Pair title="Note">If he ever becomes nonevil, he loses this archetype and becomes a regular slayer.</Pair>
+</Ability>
+<Ability id="arc-slayer-sczarni_executioner-focused-killer-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-slayer-sczarni_executioner-focused-killer-ex">Focused Killer (Ex)</Pair>
+<Pair hl title="Alters">Studied target</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">A Sczarni executioner's <em>studied target</em> bonuses and the DCs of his slayer abilities increase by 1 against humanoid opponents, but decrease by 1 against non-humanoid targets.</Pair>
+</Ability>
+<Ability id="arc-slayer-sczarni_executioner-painful-strike-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-sczarni_executioner-painful-strike-ex" flavor="Sczarni executioners are trained to cause excruciating pain when striking targets, often leaving them reeling in agony or completely incapacitated as they slowly bleed out.">Painful Strike (Ex)</Pair>
+<Pair hl title="Replaces">Swift tracker</Pair>
+<Pair hl title="Alters">Slayer talent received at 4th level</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A Sczarni executioner automatically gains this talent. A creature that takes sneak attack damage from a Sczarni executioner must make a successful a Fortitude save (DC = 10 + 1/2 the Sczarni executioner's class level + his Intelligence modifier) or become <Link to="/misc/sickened">sickened</Link> for 1d4 rounds.</Pair>
+<Pair title="Special">This is considered a Primary Sneak Attack Talent. Only one such talent can be applied to an individual attack, and the decision of which to use must be made before the attack roll is made.</Pair>
+</Ability>
+<Ability id="arc-slayer-sczarni_executioner-assassinate-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-sczarni_executioner-assassinate-ex">Assassinate (Ex)</Pair>
+<Pair hl title="Alters">Slayer talent received at 10th level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">A Sczarni executioner must select the <Link to="/slayertalent/assassinate">assassinate</Link> advanced slayer talent.</Pair>
+</Ability>
+<Ability id="arc-slayer-sczarni_executioner-swift-death-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-sczarni_executioner-swift-death-ex">Swift Death (Ex)</Pair>
+<Pair hl title="Replaces">Quarry, improved quarry</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Ability">Once per day a Sczarni executioner can attempt to assassinate a foe without studying his foe beforehand. He must still succeed at a sneak attack against the target.</Pair>
+<Pair title="At 19th Level">He can make two such attacks per day.</Pair>
+</Ability>
 </>};
 const _sniper = {title: "Sniper", jsx: <><h2 id="arc-slayer-sniper-sniper">Sniper</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 120</Link><br/>Whether it's with a bullet from a sling, a quarrel from a crossbow, or even an expertly thrown dagger, the sniper ensures that a single shot disables his targets.</p>
-<p><strong>Accuracy (Ex):</strong> At 1st level, a sniper halves all range increment penalties when making ranged attacks with a bow, crossbow, or firearm.</p>
-<p>This ability replaces <strong className="hl">track</strong>.</p>
-<p><strong>Deadly Sniper (Ex):</strong> At 2nd level, when the sniper makes an attack against a target who is within his weapon's first range increment and completely unaware of his presence, that attack ignores the 30 foot range limit on ranged sneak attacks, and if it is a sneak attack, he adds his sniper level as a bonus on his sneak attack damage roll. After this first attack, the target is aware of the sniper's presence.</p>
-<p><strong>Slayer Talents:</strong> The following slayer talents (and rogue talents) complement the sniper archetype: <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/snap_shot">snap shot</Link>, <Link to="/talent/snipers_eye">sniper's eye</Link>, and <Link to="/talent/weapon_training">weapon training</Link>.</p>
-<p><strong>Advanced Slayer Talents:</strong> The following advanced slayer talents (which are also available to rogues) complement the sniper archetype: <Link to="/talent/deadly_sneak">deadly sneak</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>, and <Link to="/talent/stealthy_sniper">stealthy sniper</Link>.</p>
-</>};
+<Ability id="arc-slayer-sniper-accuracy-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-sniper-accuracy-ex">Accuracy (Ex)</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A sniper halves all range increment penalties when making ranged attacks with a bow, crossbow, or firearm.</Pair>
+</Ability>
+<Ability id="arc-slayer-sniper-deadly-sniper-ex" icon={["bowman"]}>
+<Pair single id="arc-slayer-sniper-deadly-sniper-ex">Deadly Sniper (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">When the sniper makes an attack against a target who is within his weapon's first range increment and completely unaware of his presence, that attack ignores the 30 foot range limit on ranged sneak attacks, and if it is a sneak attack, he adds his sniper level as a bonus on his sneak attack damage roll.</Pair>
+<Pair title="Special">After this first attack, the target is aware of the sniper's presence.</Pair>
+</Ability>
+<p><strong className="hl">The following rogue talents complement the sniper archetype:</strong> <Link to="/talent/camouflage">camouflage</Link>, <Link to="/talent/snap_shot">snap shot</Link>, <Link to="/talent/snipers_eye">sniper's eye</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">The following advanced rogue talents complement the sniper archetype:</strong> <Link to="/talent/deadly_sneak">deadly sneak</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link></p></>};
 const _spawn_slayer = {title: "Spawn Slayer", jsx: <><h2 id="arc-slayer-spawn_slayer-spawn-slayer">Spawn Slayer</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 24</Link><br/>Generations of Ninshaburian warriors fought the Spawn of Rovagug, holding the line against impossible odds. Some of their ancient techniques persist to this day.</p>
-<p><strong>Studied Spawn (Ex):</strong> A spawn slayer specializes in fighting against larger, single targets. At 5th, 10th, 15th, and 20th levels, the bonuses on weapon attack rolls, damage rolls, and skill checks against a studied target increase by 1, as do the DCs of slayer abilities against a studied target. He can also ignore size restrictions against a studied target when attempting combat maneuvers against larger foes. At 5th level, if the target is Large or larger, these bonuses increase by an additional 1. At 10th level, if the target is Huge or larger, the bonuses increase by an additional 2. At 15th level, if the target is Gargantuan or larger, the bonuses increase by an additional 3. At 20th level, if the target is Colossal in size, the bonuses increase by an additional 4. A spawn slayer cannot maintain these bonuses against more than one target at a time. He does not gain the ability to study an opponent as a swift action at 7th level.</p>
-<p>This alters <strong className="hl">studied target</strong>.</p>
-<p><strong>Gain Leverage (Ex):</strong> At 7th level, a spawn slayer learns techniques to counteract a foe's size advantage. When performing a combat maneuver against a studied target of Large or larger size, the spawn slayer gains a bonus on the check equal to the creature's size modifier to CMB (Large +1, Huge +2, Gargantuan +4, and Colossal +8). The spawn slayer adds this same bonus to his CMD when defending against combat maneuvers from a Large or larger studied target.</p>
-<p>This replaces <strong className="hl">stalker</strong>.</p>
-<p><strong>Force Vulnerability (Ex):</strong> At 20th level, a spawn slayer can create an opening in even an invulnerable foe's defenses. As a standard action, he can make a single attack against a studied target at his full attack bonus. If the attack hits, the damage bypasses any damage reduction and the target must succeed at a Will saving throw (DC 10 + half the slayer's level + the slayer's Intelligence modifier) or lose one of its defensive abilities for 2d6 rounds. The slayer can choose which defensive ability is lost from the following options: a single immunity, all resistances, regeneration, or spell resistance. Whether or not the target fails this save, it cannot be targeted by force vulnerability again (by you or another slayer) for 24 hours.</p>
-<p>This replaces <strong className="hl">master slayer</strong>.</p>
+<Ability id="arc-slayer-spawn_slayer-studied-spawn-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-spawn_slayer-studied-spawn-ex" flavor="A spawn slayer specializes in fighting against larger, single targets.">Studied Spawn (Ex)</Pair>
+<Pair hl title="Replaces">The ability to study an opponent as a swift action at 7th level</Pair>
+<Pair hl title="Alters">Studied target</Pair>
+<Pair title="At 5th Level">The bonuses on weapon attack rolls, damage rolls, and skill checks against a <em>studied target</em> increase by <Link to="/misc/one_fifth">one-fifth</Link> of his slayer level, as do the DCs of slayer abilities against a <em>studied target.</em> If the target is Large or larger, these bonuses increase by an additional 1.</Pair>
+<Pair title="At 10th Level">If the target is Huge or larger, the bonuses increase by an additional 2.</Pair>
+<Pair title="At 15th Level">If the target is Gargantuan or larger, the bonuses increase by an additional 3.</Pair>
+<Pair title="At 20th Level">If the target is Colossal in size, the bonuses increase by an additional 4.</Pair>
+<Pair title="Special">A spawn slayer cannot maintain these bonuses against more than one target at a time.</Pair>
+</Ability>
+<Ability id="arc-slayer-spawn_slayer-gain-leverage-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-slayer-spawn_slayer-gain-leverage-ex" flavor="A spawn slayer learns techniques to counteract a foe's size advantage.">Gain Leverage (Ex)</Pair>
+<Pair hl title="Replaces">Stalker</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Passive Ability">When performing a combat maneuver against a <em>studied target</em> of Large or larger size, the spawn slayer gains a bonus on the check equal to the creature's size modifier to CMB (Large +1, Huge +2, Gargantuan +4, and Colossal +8). The spawn slayer adds this same bonus to his CMD when defending against combat maneuvers from a Large or larger <em>studied target.</em></Pair>
+</Ability>
+<Ability id="arc-slayer-spawn_slayer-force-vulnerability-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-slayer-spawn_slayer-force-vulnerability-ex" flavor="A spawn slayer can create an opening in even an invulnerable foe's defenses.">Force Vulnerability (Ex)</Pair>
+<Pair hl title="Replaces">Master slayer</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Standard Action">He can make a single attack against a <em>studied target</em> at his full attack bonus. If the attack hits, the damage bypasses any damage reduction and the target must succeed at a Will saving throw (DC 10 + half the slayer's level + the slayer's Intelligence modifier) or lose one of its defensive abilities for 2d6 rounds. The slayer can choose which defensive ability is lost from the following options: a single immunity, all resistances, regeneration, or spell resistance.</Pair>
+<Pair title="Special">Whether or not the target fails this save, it cannot be targeted by <em>force vulnerability</em> again (by you or another slayer) for 24 hours.</Pair>
+</Ability>
 </>};
 const _spire_diver = {title: "Spire Diver", jsx: <><h2 id="arc-slayer-spire_diver-spire-diver">Spire Diver</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_124_city_in_the_deep">Pathfinder #124: City in the Deep pg. 80</Link><br/>Peerless divers, assassins, and scouts, spire divers operate in and out of water using the same weapons and equipment. Although the elves of the Mordant Spire originally developed the techniques that spire divers use, people living in coastal areas and archipelagos near the Mwangi Expanse and Tian Xia have similar, independently developed warrior and diving traditions.</p>
-<p><strong>Studied Target (Ex):</strong> A spire diver does not gain the ability to add her studied target bonus on Bluff and Survival checks against an opponent she has studied. At 7th level, she cannot add her studied target bonus on Disguise checks. Instead, when using any bow or crossbow against her studied target underwater, the spire diver ignores the normal penalty for shooting underwater and instead treats the weapon as though its range increment were 10 feet. At 5th, 10th, 15th, and 20th levels, the range increment increases by 10 feet, to a maximum of 50 feet.</p>
-<p>When using a bow or crossbow that already has an underwater range increment, such as an <Link to="/eq-weapon/underwater_light_crossbow">underwater crossbow</Link>, the spire diver adds the range increment gained from studied target as a bonus to the weapon's usual underwater range increment, though the combined range increment cannot exceed the weapon's normal range increment.</p>
-<p>This alters <strong className="hl">studied target</strong> and <strong className="hl">stalker</strong>.</p>
-<p><strong>Hold Breath (Ex):</strong> A spire diver increases the number of rounds she can <Link to="/misc/hold_her_breath">hold her breath</Link> before she is required to start attempting Constitution checks to avoid drowning by 2 per slayer level she has.</p>
-<p>This replaces <strong className="hl">track</strong>.</p>
-<p><strong>Slayer Talents:</strong> A spire diver can select the <Link to="/talent/strong_stroke">strong stroke</Link> rogue talent as a slayer talent.</p>
-<p><strong>Swift Swimmer (Ex):</strong> At 11th level, a spire diver gains a swim speed equal to her base speed.</p>
-<p>This replaces <strong className="hl">swift tracker</strong>.</p>
-<p><strong>Diver's Advance (Ex):</strong> At 13th level, a spire diver can swim up to twice her swim speed once per day as a move action. She can use Stealth as part of this movement but takes a -10 penalty on her check for doing so. At 17th level, she can use this ability twice per day.</p>
-<p>This replaces <strong className="hl">slayer's advance</strong>.</p>
-<p><strong>Diver's Quarry (Ex):</strong> A spire diver gains quarry and improved quarry as a normal slayer, but she does not gain the ability to take 10 or take 20 on Survival checks while moving at normal speed without penalty. Instead, at 14th level, a spire diver can take 10 on Knowledge checks to identify a monster she has selected as her quarry. At 19th level, she can take 20 on these checks without spending extra time to do so. The spire diver must be trained in the appropriate Knowledge skill to use this ability.</p>
-<p>This alters <strong className="hl">quarry</strong> and <strong className="hl">improved quarry</strong>.</p>
+<Ability id="arc-slayer-spire_diver-studied-target-ex" icon={["broken-shield","upgrade"]}>
+<Pair single id="arc-slayer-spire_diver-studied-target-ex">Studied Target (Ex)</Pair>
+<Pair hl title="Alters">Studied target, stalker</Pair>
+<Pair title="Info">A spire diver does not gain the ability to add her <em>studied target</em> bonus on Bluff and Survival checks against an opponent she has studied.</Pair>
+<Pair title="Ability">When using any bow or crossbow against her <em>studied target</em> underwater, the spire diver ignores the normal penalty for shooting underwater and instead treats the weapon as though its range increment were 10 feet.</Pair>
+<Pair title="At 5th Level">The range increment becomes 20.</Pair>
+<Pair title="At 7th Level">She she cannot add her <em>studied target</em> bonus on Disguise checks.</Pair>
+<Pair title="At 10th Level">The range increment increases to 30.</Pair>
+<Pair title="At 15th Level">The range increment becomes 40.</Pair>
+<Pair title="At 20th Level">The range increment increases to 50.</Pair>
+<Pair title="Special">When using a bow or crossbow that already has an underwater range increment, such as an <Link to="/eq-weapon/underwater_crossbow">underwater crossbow</Link>, the spire diver adds the range increment gained from <em>studied target</em> as a bonus to the weapon's usual underwater range increment, though the combined range increment cannot exceed the weapon's normal range increment.</Pair>
+</Ability>
+<Ability id="arc-slayer-spire_diver-hold-breath-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-slayer-spire_diver-hold-breath-ex">Hold Breath (Ex)</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair title="Ability">A spire diver increases the number of rounds she can <Link to="/misc/hold_her_breath">hold her breath</Link> before she is required to start attempting Constitution checks to avoid drowning by an amount equal to twice her slayer level.</Pair>
+</Ability>
+<Ability id="arc-slayer-spire_diver-slayer-talents" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-spire_diver-slayer-talents">Slayer Talents</Pair>
+<Pair title="Ability">A spire diver can select the <Link to="/talent/strong_stroke">strong stroke</Link> rogue talent as a slayer talent.</Pair>
+</Ability>
+<Ability id="arc-slayer-spire_diver-swift-swimmer-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-spire_diver-swift-swimmer-ex">Swift Swimmer (Ex)</Pair>
+<Pair hl title="Replaces">Swift tracker</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">A spire diver gains a swim speed equal to her base speed.</Pair>
+</Ability>
+<Ability id="arc-slayer-spire_diver-divers-advance-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-spire_diver-divers-advance-ex">Diver's Advance (Ex)</Pair>
+<Pair hl title="Replaces">Slayer's advance</Pair>
+<Pair title="Gained">At 13th Level</Pair>
+<Pair title="Move-Equivalent Action">A spire diver can swim up to twice her swim speed once per day. She can use Stealth as part of this movement but takes a -10 penalty on her check for doing so.</Pair>
+<Pair title="At 17th Level">She can use this ability twice per day.</Pair>
+</Ability>
+<Ability id="arc-slayer-spire_diver-divers-quarry-ex" icon={["broken-shield","upgrade"]}>
+<Pair single id="arc-slayer-spire_diver-divers-quarry-ex">Diver's Quarry (Ex)</Pair>
+<Pair hl title="Alters">Quarry, improved quarry</Pair>
+<Pair title="Ability">A spire diver gains <em>quarry</em> and <em>improved quarry</em> as a normal slayer, but she does not gain the ability to take 10 or take 20 on Survival checks while moving at normal speed without penalty.</Pair>
+<Pair title="At 14th Level">A spire diver can take 10 on Knowledge checks to identify a monster she has selected as her <em>quarry.</em></Pair>
+<Pair title="At 19th Level">She can take 20 on these checks without spending extra time to do so.</Pair>
+<Pair title="Special">The spire diver must be trained in the appropriate Knowledge skill to use this ability.</Pair>
+</Ability>
 </>};
 const _spiritslayer = {title: "Spiritslayer", jsx: <><h2 id="arc-slayer-spiritslayer-spiritslayer">Spiritslayer</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 15</Link><br/>Originally trained and employed by the enforcers of the Pure Legion seeking to defend Rahadoum from divine spellcasters, Rahadoumi spiritslayers have proven so invaluable in culling ghosts, shadow demons, and other incorporeal creatures that their techniques have spread across the Inner Sea region and beyond. Ironically, most now are trained and employed by the church of Pharasma to cull wicked spirits.</p>
