@@ -1,56 +1,176 @@
-import Link from '../../components/Link';
+import {IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
+import ScrollContainer from '../../components/ScrollContainer';
+import ByLevelPop from '../../components/ByLevelPop';
 const _bloodline_familiars = {title: "Bloodline Familiars", jsx: <><h2 id="arc-sorcerer-bloodline_familiars-bloodline-familiars">Bloodline Familiars</h2>
-<p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 16</Link><br/>Those with an inherent connection to magic often attract creatures who feel a similar instinctive pull toward magical forces. At 1st level, a sorcerer, bloodrager, or any other character with one of the following bloodlines can choose to gain a bloodline familiar. The character gains a <Link to="/sidekick/familiar">familiar</Link> (as a wizard's <Link to="/ability/familiar">familiar</Link>), treating her class level as her wizard level for the purposes of this ability. This familiar has an additional ability listed below based on the master's bloodline.</p>
-<p>This replaces the 1st-level bloodline power granted by the character's bloodline; in addition, the character gains bonus spells from her bloodline one level later than she normally would. For example, a sorcerer with the <Link to="/sorcbloodline/aberrant">aberrant</Link> bloodline who takes a bloodline familiar would not gain the acidic ray bloodline power, and she would gain her first bonus spell at 4th level, her second bonus spell at 6th level, and so on.</p>
+<p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 16</Link><br/>Those with an inherent connection to magic often attract creatures who feel a similar instinctive pull toward magical forces. At 1st level, a sorcerer, bloodrager, or any other character with one of the following bloodlines can choose to gain a bloodline familiar.</p>
+<Ability id="arc-sorcerer-bloodline_familiars-familiar" extraClasses="hasSubs" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-sorcerer-bloodline_familiars-familiar">Familiar</Pair>
+<Pair hl title="Replaces">1st-level bloodline power</Pair>
+<Pair title="At 1st Level">The character gains a <Link to="/sidekick/familiar">familiar</Link> (as a wizard's <Link to="/ability/familiar">familiar</Link>), treating her class level as her wizard level for the purposes of this ability. This familiar has an additional ability listed below based on the master's bloodline.</Pair>
+<Pair title="Special"><p>The character gains bonus spells from her bloodline one level later than she normally would. For example, a sorcerer with the <Link to="/sorcbloodline/aberrant">aberrant</Link> bloodline who takes a bloodline familiar would not gain the <em>acidic ray</em> bloodline power, and she would gain her first bonus spell at 4th level, her second bonus spell at 6th level, and so on.</p>
 <p>GMs may use the following bloodline familiar abilities as written, or employ them as guidelines for devising bloodline familiar abilities for bloodlines not listed below.</p>
-<blockquote className="hanging">
-<p><strong className="hl"><Link to="/sorcbloodline/aberrant">Aberrant</Link></strong><strong>-Squeezer (Ex):</strong> The familiar gains the <Link to="/umr/compression">compression</Link> ability, allowing it to move through an area as small as one-quarter its space without <Link to="/misc/squeezing">squeezing</Link> or one-eighth its space when squeezing.</p>
-<p><strong className="hl"><Link to="/sorcbloodline/abyssal">Abyssal</Link></strong><strong>-Grotesque Appendages (Ex):</strong> The damage dice of each of the familiar's natural attacks increases <Link to="/misc/by_one_step">by one die step</Link>.</p>
-<p><strong className="hl"><Link to="/sorcbloodline/arcane">Arcane</Link></strong><strong>-Spell Catalyst (Su):</strong> Spells you cast that target your familiar are treated as having a caster level 2 levels higher than your actual caster level.</p>
-<p><strong className="hl"><Link to="/sorcbloodline/celestial">Celestial</Link></strong><strong>-Heavenly Touch (Su):</strong> A number of times per day equal to 3 + your Charisma modifier, your familiar can grant <Link to="/umr/fast_healing">fast healing</Link> 1 to an allied creature it's touching. This effect lasts a number of rounds equal to your Charisma modifier (minimum 1) or until the familiar stops touching the creature, whichever comes first. At 10th level, the familiar grants fast healing 2 instead. At 20th level, the familiar grants fast healing 3 instead.</p>
-<p><strong className="hl"><Link to="/sorcbloodline/destined">Destined</Link></strong><strong>-Foretold Touch (Su):</strong> The familiar gains a +1 luck bonus on attack rolls to deliver touch spells, and the DC of touch spells delivered by the familiar increases by 1. These benefits increase by 1 at 10th level and again at 20th level.</p>
-<p><strong className="hl"><Link to="/sorcbloodline/draconic">Draconic</Link></strong><strong>-Dragon's Flight (Ex):</strong> The familiar can sprout draconic wings, granting it a fly speed of 30 feet with average maneuverability for a number of minutes per day equal to 1/2 your caster level (minimum 1). These minutes need not be consecutive, but they must be spent in 1-minute increments. At 10th level, the familiar's fly speed increases to 60 feet with good maneuverability. At 20th level, the familiar's fly speed increases to 90 feet.</p>
-<p><strong className="hl"><Link to="/sorcbloodline/elemental">Elemental</Link></strong><strong>-Dualistic Energy (Su):</strong> When your familiar delivers a touch spell that deals energy damage of a type other than your chosen energy type, your familiar can choose to alter the spell so that half of the energy damage dealt is of the spell's original type and the other half is of your chosen energy type.</p>
-<p><strong className="hl"><Link to="/sorcbloodline/fey">Fey</Link></strong><strong>-Amusing Familiar (Su):</strong> The familiar can fascinate other creatures as the <Link to="/performance/fascinate">fascinate</Link> bardic performance, treating your caster level as its bard level and using your Charisma modifier for the purpose of calculating the Will save DC. The familiar cannot perform any other actions while using this ability.</p>
-<p><strong className="hl"><Link to="/sorcbloodline/infernal">Infernal</Link></strong><strong>-Hellish Aura (Su):</strong> Animals don't willingly approach the familiar unless the animal's master succeeds at a DC 15 Handle Animal, Ride, or wild empathy check. This DC increases to 20 at 10th level, and to 25 at 20th level. Animal companions, familiars and mounts are immune to this effect.</p>
-<p><strong className="hl"><Link to="/sorcbloodline/undead">Undead</Link></strong><strong>-Unliving Physiology (Su):</strong> The familiar is alive, but is treated as undead for all effects that affect undead differently from living creatures, such as <Link to="/main/cure_spells">cure spells</Link> and channeled energy.</p>
-</blockquote>
+</Pair>
+</Ability>
+<Ability id="arc-sorcerer-bloodline_familiars-squeezer-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-sorcerer-bloodline_familiars-squeezer-ex">Squeezer (Ex):</Pair>
+<Pair title="Prerequisites"><Link to="/sorcbloodline/aberrant">Aberrant</Link> bloodline</Pair>
+<Pair title="Ability">The familiar gains the <Link to="/umr/compression">compression</Link> ability, allowing it to move through an area as small as one-quarter its space without <Link to="/misc/squeezing">squeezing</Link> or one-eighth its space when squeezing.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-bloodline_familiars-grotesque-appendages-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-sorcerer-bloodline_familiars-grotesque-appendages-ex">Grotesque Appendages (Ex):</Pair>
+<Pair title="Prerequisites"><Link to="/sorcbloodline/abyssal">Abyssal</Link> bloodline</Pair>
+<Pair title="Ability">The damage dice of each of the familiar's natural attacks increases <Link to="/misc/by_one_step">by one die step</Link>.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-bloodline_familiars-spell-catalyst-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-sorcerer-bloodline_familiars-spell-catalyst-su">Spell Catalyst (Su):</Pair>
+<Pair title="Prerequisites"><Link to="/sorcbloodline/arcane">Arcane</Link> bloodline</Pair>
+<Pair title="Ability">Spells you cast that target your familiar are treated as having a caster level 2 levels higher than your actual caster level.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-bloodline_familiars-heavenly-touch-su" extraClasses="subAbility" icon={["remedy"]}>
+<Pair single id="arc-sorcerer-bloodline_familiars-heavenly-touch-su">Heavenly Touch (Su):</Pair>
+<Pair title="Prerequisites"><Link to="/sorcbloodline/celestial">Celestial</Link> bloodline</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">Your familiar can grant <Link to="/umr/fast_healing">fast healing</Link> 1 to an allied creature it's touching. This effect lasts a number of rounds equal to your Charisma modifier (minimum 1) or until the familiar stops touching the creature, whichever comes first.</Pair>
+<Pair title="At 10th Level">The familiar grants fast healing 2 instead.</Pair>
+<Pair title="At 20th Level">The familiar grants fast healing 3 instead.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-bloodline_familiars-foretold-touch-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-sorcerer-bloodline_familiars-foretold-touch-su">Foretold Touch (Su):</Pair>
+<Pair title="Prerequisites"><Link to="/sorcbloodline/destined">Destined</Link> bloodline</Pair>
+<Pair title="Ability">The familiar gains a +1 luck bonus on attack rolls to deliver touch spells, and the DC of touch spells delivered by the familiar increases by 1.</Pair>
+<Pair title="At 10th Level">These benefits increase to +2.</Pair>
+<Pair title="At 20th Level">These benefits increase again to +3.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-bloodline_familiars-dragons-flight-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-sorcerer-bloodline_familiars-dragons-flight-ex">Dragon's Flight (Ex):</Pair>
+<Pair title="Prerequisites"><Link to="/sorcbloodline/draconic">Draconic</Link> bloodline</Pair>
+<Pair title="Usage">1 minute/day per two sorcerer levels (minimum 1); these minutes need not be consecutive, but they must be spent in 1-minute increments<ByLevelPop levels={[[1,1],[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="minute" postText="/day" /></Pair>
+<Pair title="Ability">The familiar can sprout draconic wings, granting it a fly speed of 30 feet with average maneuverability.</Pair>
+<Pair title="At 10th Level">The familiar's fly speed increases to 60 feet with good maneuverability.</Pair>
+<Pair title="At 20th Level">The familiar's fly speed increases to 90 feet.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-bloodline_familiars-dualistic-energy-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-sorcerer-bloodline_familiars-dualistic-energy-su">Dualistic Energy (Su):</Pair>
+<Pair title="Prerequisites"><Link to="/sorcbloodline/elemental">Elemental</Link> bloodline</Pair>
+<Pair title="Ability">When your familiar delivers a touch spell that deals energy damage of a type other than your chosen energy type, your familiar can choose to alter the spell so that half of the energy damage dealt is of the spell's original type and the other half is of your chosen energy type.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-bloodline_familiars-amusing-familiar-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-sorcerer-bloodline_familiars-amusing-familiar-su">Amusing Familiar (Su):</Pair>
+<Pair title="Prerequisites"><Link to="/sorcbloodline/fey">Fey</Link> bloodline</Pair>
+<Pair title="Ability">The familiar can fascinate other creatures as the <Link to="/performance/fascinate">fascinate</Link> bardic performance, treating your caster level as its bard level and using your Charisma modifier for the purpose of calculating the Will save DC. The familiar cannot perform any other actions while using this ability.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-bloodline_familiars-hellish-aura-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-sorcerer-bloodline_familiars-hellish-aura-su">Hellish Aura (Su):</Pair>
+<Pair title="Prerequisites"><Link to="/sorcbloodline/infernal">Infernal</Link> bloodline</Pair>
+<Pair title="Ability">Animals don't willingly approach the familiar unless the animal's master succeeds at a DC 15 Handle Animal, Ride, or wild empathy check.</Pair>
+<Pair title="At 10th Level">This DC<del>0</del>10<del>15</del>5</Pair>
+<Pair title="Special">Animal companions, familiars and mounts are immune to this effect.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-bloodline_familiars-unliving-physiology-su" extraClasses="subAbility" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-sorcerer-bloodline_familiars-unliving-physiology-su">Unliving Physiology (Su):</Pair>
+<Pair title="Prerequisites"><Link to="/sorcbloodline/undead">Undead</Link> bloodline</Pair>
+<Pair title="Ability">The familiar is alive, but is treated as undead for all effects that affect undead differently from living creatures, such as <Link to="/main/cure_spells">cure spells</Link> and <Link to="/ability/channel_energy">channeled energy</Link>.</Pair>
+</Ability>
 </>};
 const _crossblooded = {title: "Crossblooded", jsx: <><h2 id="arc-sorcerer-crossblooded-crossblooded">Crossblooded</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 69</Link><br/>A crossblooded bloodline combines the powers of two distinct heritages. In most cases, sorcerers with this bloodline are the offspring of two sorcerers from different ancestries, but occasionally a crossblooded sorcerer arises from the conjunction of other powers. A draconic sorcerer who is also the culmination of a great destiny, an abyssal sorcerer from a family that dealt with devils, and an arcane sorcerer raised from birth by fey are all possible sources for crossblooded bloodlines.</p>
-<p>A crossblooded sorcerer selects two different <Link to="/ability/sorcerer_bloodlines">sorcerer_bloodlines</Link>. The sorcerer may gain access to the skills, feats, and some of the powers of both bloodlines she is descended from, but at the cost of reduced mental clarity and choice (see Drawbacks below).</p>
-<p><strong>Class Skill:</strong> A crossblooded sorcerer receives the bonus class skill from both of her bloodlines. If these are the same skill, this does not grant any additional benefit.</p>
-<p><strong>Bonus Spells:</strong> A crossblooded sorcerer may select her bonus spells from either of her bloodlines. The sorcerer also has the choice to learn a lower-level bonus spell she did not choose in place of the higher-level bonus spell she would normally gain. Lower-level bonus spells learned this way always use the spell level that they would be if the sorcerer had learned them with the appropriate bonus spell.</p>
-<blockquote>
-<p><strong>Example:</strong> A 3rd-level <Link to="/sorcbloodline/aberrant">aberrant</Link>/<Link to="/sorcbloodline/abyssal">abyssal</Link> crossblooded sorcerer has the choice of learning <Link to="/spell/cause_fear">cause fear</Link> or <Link to="/spell/enlarge_person">enlarge person</Link> as her bloodline bonus spell. If she selected cause fear as her 3rd-level bonus spell, at 5th level she could use her new bonus spell to learn enlarge person instead of <Link to="/spell/bulls_strength">bull's strength</Link> or <Link to="/spell/see_invisibility">see invisibility</Link>, and she would add it to her list of 1st-level spells known (just as if she had learned it as her 3rd-level bonus spell).</p>
-</blockquote>
-<p><strong>Bonus Feat:</strong> A crossblooded sorcerer combines the bonus feat lists from both of her bloodlines and may select her bloodline bonus feats from this combined list.</p>
-<p><strong>Bloodline Arcana:</strong> A crossblooded sorcerer gains the bloodline arcana of both her bloodlines.</p>
-<p><strong>Bloodline Powers:</strong> At 1st, 3rd, 9th, 15th, and 20th levels, a crossblooded sorcerer gains one of the two new bloodline powers available to her at that level. She may instead select a lower-level bloodline power she did not choose in place of one of these higher-level powers.</p>
-<p><strong>Drawbacks:</strong> A crossblooded sorcerer has one fewer spell known at each level (including cantrips) than is presented on the sorcerer spells known table. Furthermore, the conflicting urges created by the divergent nature of the crossblooded sorcerer's dual heritage forces her to constantly take some mental effort just to remain focused on her current situation and needs. This leaves her with less mental resolve to deal with external threats. A crossblooded sorcerer always takes a -2 penalty on Will saves.</p>
+<p>The sorcerer may gain access to the skills, feats, and some of the powers of both bloodlines she is descended from, but at the cost of reduced mental clarity and choice (see <em>Drawbacks</em> below).</p>
+<Ability id="arc-sorcerer-crossblooded-bloodlines" icon={["stairs-goal"]}>
+<Pair single id="arc-sorcerer-crossblooded-bloodlines">Bloodlines</Pair>
+<Pair title="Choice">A crossblooded sorcerer selects two different <Link to="/ability/sorcerer_bloodlines">sorcerer_bloodlines</Link>.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-crossblooded-class-skill" icon={["skills"]}>
+<Pair single id="arc-sorcerer-crossblooded-class-skill">Class Skill</Pair>
+<Pair title="Info">A crossblooded sorcerer receives the bonus class skill from both of her bloodlines. If these are the same skill, this does not grant any additional benefit.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-crossblooded-bonus-spells" icon={["spell-book"]}>
+<Pair single id="arc-sorcerer-crossblooded-bonus-spells">Bonus Spells</Pair>
+<Pair title="Info"><p>A crossblooded sorcerer may select her bonus spells from either of her bloodlines. The sorcerer also has the choice to learn a lower-level bonus spell she did not choose in place of the higher-level bonus spell she would normally gain. Lower-level bonus spells learned this way always use the spell level that they would be if the sorcerer had learned them with the appropriate bonus spell.</p>
+<p>For example, a 3rd-level <Link to="/sorcbloodline/aberrant">aberrant</Link>/<Link to="/sorcbloodline/abyssal">abyssal</Link> crossblooded sorcerer has the choice of learning <Link to="/spell/cause_fear">cause fear</Link> or <Link to="/spell/enlarge_person">enlarge person</Link> as her bloodline bonus spell. If she selected <em>cause fear</em> as her 3rd-level bonus spell, at 5th level she could use her new bonus spell to learn <em>enlarge person</em> instead of <Link to="/spell/bulls_strength">bull's strength</Link> or <Link to="/spell/see_invisibility">see invisibility</Link>, and she would add it to her list of 1st-level spells known (just as if she had learned it as her 3rd-level bonus spell).</p>
+</Pair>
+</Ability>
+<Ability id="arc-sorcerer-crossblooded-bonus-feat" icon={["stairs-goal"]}>
+<Pair single id="arc-sorcerer-crossblooded-bonus-feat">Bonus Feat</Pair>
+<Pair title="Info">A crossblooded sorcerer combines the bonus feat lists from both of her bloodlines and may select her bloodline bonus feats from this combined list.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-crossblooded-bloodline-arcana" icon={["stairs-goal"]}>
+<Pair single id="arc-sorcerer-crossblooded-bloodline-arcana">Bloodline Arcana</Pair>
+<Pair title="Ability">A crossblooded sorcerer gains the bloodline arcana of both her bloodlines.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-crossblooded-bloodline-powers" icon={["stairs-goal"]}>
+<Pair single id="arc-sorcerer-crossblooded-bloodline-powers">Bloodline Powers</Pair>
+<Pair title="At 1st Level">A crossblooded sorcerer gains one of the two new bloodline powers available to her at this level.</Pair>
+<Pair title="At 3rd Level">A crossblooded sorcerer gains one of the two new bloodline powers available to her at this level.</Pair>
+<Pair title="At 9th Level">A crossblooded sorcerer gains one of the two new bloodline powers available to her at this level.</Pair>
+<Pair title="At 15th Level">A crossblooded sorcerer gains one of the two new bloodline powers available to her at this level.</Pair>
+<Pair title="At 20th Level">A crossblooded sorcerer gains one of the two new bloodline powers available to her at this level.</Pair>
+<Pair title="Special">At 3rd-level and above, when given the choice of a two new bloodline powers, she may instead select a lower-level bloodline power she did not previous choose.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-crossblooded-drawbacks" icon={["broken-shield"]}>
+<Pair single id="arc-sorcerer-crossblooded-drawbacks">Drawbacks</Pair>
+<Pair title="Info">A crossblooded sorcerer has one fewer spell known at each level (including cantrips) than is presented on the sorcerer spells known table. Furthermore, the conflicting urges created by the divergent nature of the crossblooded sorcerer's dual heritage forces her to constantly take some mental effort just to remain focused on her current situation and needs. This leaves her with less mental resolve to deal with external threats. A crossblooded sorcerer always takes a -2 penalty on Will saves.</Pair>
+</Ability>
 </>};
 const _dragon_drinker = {title: "Dragon Drinker", jsx: <><h2 id="arc-sorcerer-dragon_drinker-dragon-drinker">Dragon Drinker</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 22</Link><br/>The blood of dragons not only flows through a dragon drinker's veins, but also empowers her spells and magical abilities when consumed. Dragon drinkers have the following class features.</p>
-<p><strong>Bloodline:</strong> A dragon drinker must belong to the <Link to="/sorcbloodline/draconic">draconic</Link> bloodline.</p>
-<p><strong>Bleeding Spells (Su):</strong> Whenever a dragon drinker casts a spell that deals damage, the spell deals 1 point of bleed damage per spell level to any creatures of the dragon type damaged.</p>
-<p>This ability replaces the <strong className="hl">bloodline arcana</strong> ability.</p>
-<p><strong>Blood Drinking (Su):</strong> Starting at first level, a dragon drinker gains the ability to drink <Link to="/eq-misc/dragons_blood">dragon's blood</Link> to alter or augment her spellcasting abilities. For the purposes of harvesting dragon's blood, treat the dragon drinker as though she has <Link to="/feat/dragoncrafting">Dragoncrafting</Link> feat. At 5th level, drinking a vial of dragon's blood is a standard action that provides the dragon drinker with the normal benefits of the item, as well as a +1 bonus to her caster level for purposes of level-dependent spell effects on a single spell cast within 1 minute. At 7th level, a consumed vial of dragon blood also heals 1d8 points of damage instead of the standard 1d4. At 11th level, the alchemical bonus on Fortitude and Reflex saves granted by the blood increases to +2.</p>
-<p>In the absence of true dragon's blood, the dragon drinker may tap into the draconic blood flowing through her veins to gain the temporary effects of having consumed dragon's blood. As a free action, she can activate this ability, healing 1d4 points of damage and gaining a +1 resistance bonus on Will and Fortitude saves for 1 round. This action may only be performed once per round, and can be performed a number of times per day equal to 3 + her Charisma modifier.</p>
-<p>This ability replaces the claws 1st-level <strong className="hl">bloodline power</strong>.</p>
-<p><strong>Energy Assimilation (Su):</strong> At 7th level, when the dragon drinker drinks true dragon's blood from a dragon with a breath weapon that deals a different type of energy damage than her chosen energy type, she may adopt the energy resistance of the blood's source dragon as if it were her selected bloodline. This effect lasts for 1 minute per dose of dragon's blood, after which the dragon drinker's energy resistance reverts back to her normal energy type.</p>
-<p>This ability replaces the 7th-level <strong className="hl">bloodline feat</strong>.</p>
-<p><strong>Breath Mimicry (Su):</strong> At 13th level, when the dragon drinker drinks true dragon's blood from a dragon with a breath weapon of a shape or energy type different from her own, she may use the shape and energy type of the blood's source dragon when she next uses her breath weapon.</p>
-<p>This ability replaces the 13th-level <strong className="hl">bloodline feat</strong>.</p>
-<p><strong>Blood Siphon (Su):</strong> At 19th level, when the dragon drinker is within 60 feet of a creature of the dragon type that is suffering bleed damage, she can, as a swift action, draw a dose of its blood into herself as though she had consumed it from a vial. Additionally, when she consumes dragon's blood, it heals 3d8 points of damage and provides a +3 resistance bonus on Fortitude and Will saves for 1 minute in place of its normal effects.</p>
-<p>This ability replaces the 19th-level <strong className="hl">bloodline feat</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-sorcerer-dragon_drinker--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/sorcbloodline/draconic">Draconic</Link> bloodline</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-sorcerer-dragon_drinker-bleeding-spells-su" icon={["upgrade"]}>
+<Pair single id="arc-sorcerer-dragon_drinker-bleeding-spells-su">Bleeding Spells (Su)</Pair>
+<Pair hl title="Replaces">Bloodline arcana</Pair>
+<Pair title="Ability">Whenever a dragon drinker casts a spell that deals damage, the spell deals 1 point of <Link to="/rule/bleed">bleed</Link> damage per spell level to any creatures of the dragon type damaged.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-dragon_drinker-blood-drinking-su" icon={["stairs-goal","upgrade","remedy","armor-upgrade"]}>
+<Pair single id="arc-sorcerer-dragon_drinker-blood-drinking-su">Blood Drinking (Su)</Pair>
+<Pair hl title="Replaces">1st-level bloodline power</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A dragon drinker gains the ability to drink <Link to="/eq-misc/dragons_blood">dragon's blood</Link> to alter or augment her spellcasting abilities. For the purposes of harvesting dragon's blood, treat the dragon drinker as though she has <Link to="/feat/dragoncrafting">Dragoncrafting</Link> feat.</Pair>
+<Pair title="At 5th Level">Drinking a vial of dragon's blood is a <strong className="hl">standard action</strong> that provides the dragon drinker with the normal benefits of the item, as well as a +1 bonus to her caster level for purposes of level-dependent spell effects on a single spell cast within 1 minute.</Pair>
+<Pair title="At 7th Level">A consumed vial of dragon blood also heals 1d8 points of damage instead of the standard 1d4.</Pair>
+<Pair title="At 11th Level">The alchemical bonus on Fortitude and Reflex saves granted by the blood increases to +2.</Pair>
+<Pair title="Special">In the absence of true dragon's blood, the dragon drinker may tap into the draconic blood flowing through her veins to gain the temporary effects of having consumed dragon's blood. As a <strong className="hl">free action</strong>, she can activate this ability, healing 1d4 points of damage and gaining a +1 resistance bonus on Will and Fortitude saves for 1 round. This action may only be performed once per round, and can be performed a number of times per day equal to 3 + her Charisma modifier.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-dragon_drinker-energy-assimilation-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-sorcerer-dragon_drinker-energy-assimilation-su">Energy Assimilation (Su)</Pair>
+<Pair hl title="Replaces">7th-level bloodline feat</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">When the dragon drinker drinks true dragon's blood from a dragon with a breath weapon that deals a different type of energy damage than her chosen energy type, she may adopt the energy resistance of the blood's source dragon as if it were her selected bloodline. This effect lasts for 1 minute per dose of dragon's blood, after which the dragon drinker's energy resistance reverts back to her normal energy type.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-dragon_drinker-breath-mimicry-su" icon={["tornado-discs","barbed-arrow"]}>
+<Pair single id="arc-sorcerer-dragon_drinker-breath-mimicry-su">Breath Mimicry (Su)</Pair>
+<Pair hl title="Replaces">13th-level bloodline feat</Pair>
+<Pair title="Gained">At 13th Level</Pair>
+<Pair title="Ability">When the dragon drinker drinks true dragon's blood from a dragon with a breath weapon of a shape or energy type different from her own, she may use the shape and energy type of the blood's source dragon when she next uses her breath weapon.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-dragon_drinker-blood-siphon-su" icon={["stairs-goal","remedy","armor-upgrade"]}>
+<Pair single id="arc-sorcerer-dragon_drinker-blood-siphon-su">Blood Siphon (Su)</Pair>
+<Pair hl title="Replaces">19th-level bloodline feat</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Swift Action">When the dragon drinker is within 60 feet of a creature of the dragon type that is suffering bleed damage, she can draw a dose of its blood into herself as though she had consumed it from a vial.</Pair>
+<Pair title="Ability">Additionally, when she consumes dragon's blood, it heals 3d8 points of damage and provides a +3 resistance bonus on Fortitude and Will saves for 1 minute in place of its normal effects.</Pair>
+</Ability>
 </>};
 const _eldritch_scrapper = {title: "Eldritch Scrapper", jsx: <><h2 id="arc-sorcerer-eldritch_scrapper-eldritch-scrapper">Eldritch Scrapper</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 122</Link><br/>An eldritch scrapper is usually spoiling for a fight, looking to prove that she's just as tough as a martial character. A veteran of many brawls against opponents who were suspicious of her manifesting magic, an eldritch scrapper has a thick skin and a fighting style that blends weapons with spells.</p>
-<p><strong>Martial Flexibility (Ex):</strong> At 1st level, an eldritch scrapper gains the <Link to="/class/brawler">brawler's</Link> martial flexibility class feature, using her sorcerer level as her brawler level for the purposes of uses per day. The scrapper treats <Link to="/feat/arcane_strike">Arcane Strike</Link> and <Link to="/feat/combat_casting">Combat Casting</Link> as combat feats for the purpose of this ability.</p>
-<p>At 9th level, an eldritch scrapper can use this ability to gain the benefit of two combat feats at the same time. She can select one feat as a move action or two feats as a standard action. She can use one of these feats to meet a prerequisite of the second feat; doing so means she cannot replace the feat that is currently fulfilling another feat's prerequisites without also replacing all feats that require it. Each individual feat selected counts toward her daily uses of this ability.</p>
-<p>At 15th level, an eldritch scrapper can use this ability to gain the benefit of three combat feats at the same time. She can select one feat as a swift action, two feats as a move action, or three feats as a standard action. She can use one of the feats to meet a prerequisite of the second and third feats, and use the second feat to meet a prerequisite of the third feat. Each individual feat selected counts toward her daily uses of this ability.</p>
-<p>This ability replaces the sorcerer's <strong className="hl">bloodline powers</strong> gained 1st, 9th, and 15th levels.</p>
-<p><strong>Bloodline Weapons:</strong> If an eldritch scrapper's 1st-level bloodline power would normally grant her natural attacks (such as bite or claws), at 3rd level she can select that 1st-level bloodline power in place of her 3rd-level bloodline power.</p>
+<Ability id="arc-sorcerer-eldritch_scrapper-martial-flexibility-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-sorcerer-eldritch_scrapper-martial-flexibility-ex">Martial Flexibility (Ex)</Pair>
+<Pair hl title="Replaces">Bloodline powers gained at 1st, 9th, and 15th level</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">An eldritch scrapper gains the <Link to="/class/brawler">brawler's</Link> <em>martial flexibility</em> class feature, using her sorcerer level as her brawler level for the purposes of uses per day. The scrapper treats <Link to="/feat/arcane_strike">Arcane Strike</Link> and <Link to="/feat/combat_casting">Combat Casting</Link> as combat feats for the purpose of this ability.</Pair>
+<Pair title="At 9th Level">An eldritch scrapper can use this ability to gain the benefit of two combat feats at the same time. She can select one feat as a <strong className="hl">move action</strong> or two feats as a <strong className="hl">standard action</strong>. She can use one of these feats to meet a prerequisite of the second feat; doing so means she cannot replace the feat that is currently fulfilling another feat's prerequisites without also replacing all feats that require it. Each individual feat selected counts toward her daily uses of this ability.</Pair>
+<Pair title="At 15th Level">An eldritch scrapper can use this ability to gain the benefit of three combat feats at the same time. She can select one feat as a <strong className="hl">swift action</strong>, two feats as a <strong className="hl">move action</strong>, or three feats as a <strong className="hl">standard action</strong>. She can use one of the feats to meet a prerequisite of the second and third feats, and use the second feat to meet a prerequisite of the third feat. Each individual feat selected counts toward her daily uses of this ability.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-eldritch_scrapper-martial-flexibility-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-sorcerer-eldritch_scrapper-martial-flexibility-ex" flavor="Text from the brawler class ability.">Martial Flexibility (Ex)</Pair>
+<Pair title="Usage">3 times/day + 1 per two brawler levels<ByLevelPop levels={[[1,3],[2,4],[4,5],[6,6],[8,7],[10,8],[12,9],[14,10],[16,11],[18,12],[20,13]]} unit="time" postText="/day" /></Pair>
+<Pair title="Move-Equivalent Action">You gain the benefit of a combat feat you don't possess. This effect lasts for 1 minute. You must meet all the feat's prerequisites.</Pair>
+<Pair title="Special">You can use this ability again before the duration expires in order to replace the previous combat feat with another choice. If a combat feat has a daily use limitation (such as <Link to="/feat/stunning_fist">Stunning Fist</Link>), any uses of that combat feat while using this ability count toward that feat's daily limit.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-eldritch_scrapper-bloodline-weapons" icon={["mailed-fist"]}>
+<Pair single id="arc-sorcerer-eldritch_scrapper-bloodline-weapons">Bloodline Weapons</Pair>
+<Pair title="At 3rd Level">If an eldritch scrapper's 1st-level bloodline power would normally grant her natural attacks (such as bite or claws), she can select that 1st-level bloodline power in place of her 3rd-level bloodline power.</Pair>
+</Ability>
 </>};
 const _mongrel_mage = {title: "Mongrel Mage", jsx: <><h2 id="arc-sorcerer-mongrel_mage-mongrel-mage">Mongrel Mage</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 122</Link><br/>A mongrel mage is a sorcerer whose bloodline is so weak, or mixed with so many others, that her power isn't clearly associated with any bloodline source. A mongrel mage's bloodline powers can change on a daily basis, but always fall short of those of a full-blooded sorcerer's powers. A mongrel mage is a dabbler in all bloodlines but a master of none, and she is looked down upon by true sorcerers.</p>
@@ -68,9 +188,17 @@ const _mongrel_mage = {title: "Mongrel Mage", jsx: <><h2 id="arc-sorcerer-mongre
 </>};
 const _nine_tailed_heir = {title: "Nine-Tailed Heir", jsx: <><h2 id="arc-sorcerer-nine_tailed_heir-nine-tailed-heir">Nine-Tailed Heir</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 13</Link><br/>Tian stories often tell of kitsune with multiple tails, but not many realize that fewer than one kitsune in every thousand has this potential, and those that do usually have a magical quirk in their blood or have been blessed by their race's deific matron, Daikitsu. As a result, most that harness the mystic powers of their newfound tails often gain sorcerous powers, becoming nine-tailed heirs.</p>
-<p>This archetype is available only to <Link to="/race/kitsune">kitsune</Link> characters.</p>
-<p><strong>Magical Tail:</strong> At 3rd level and every 4 levels thereafter, a nine-tailed heir gains <Link to="/feat/magical_tail">Magical Tail</Link> as a bonus feat. If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.</p>
-<p>This ability replaces the <strong className="hl">bloodline spell</strong> class feature.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-sorcerer-nine_tailed_heir--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/kitsune">Kitsune</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-sorcerer-nine_tailed_heir-magical-tail" icon={["stairs-goal"]}>
+<Pair single id="arc-sorcerer-nine_tailed_heir-magical-tail">Magical Tail</Pair>
+<Pair hl title="Replaces">Bloodline spell</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A nine-tailed heir gains <Link to="/feat/magical_tail">Magical Tail</Link> as a bonus feat.</Pair>
+<Pair title="At 7th Level">The sorcerer again gains Magical Tail as a bonus feat.</Pair>
+<Pair title="At 11th Level">The sorcerer again gains Magical Tail as a bonus feat.</Pair>
+<Pair title="At 15th Level">The sorcerer again gains Magical Tail as a bonus feat.</Pair>
+<Pair title="At 19th Level">The sorcerer again gains Magical Tail as a bonus feat.</Pair>
+<Pair title="Special">If the nine-tailed heir already has nine tails, each additional time the feat is taken, the sorcerer gains one additional daily use of the lowest level Magical Tail ability not already affected by this effect.</Pair>
+</Ability>
 </>};
 const _razmiran_priest = {title: "Razmiran Priest", jsx: <><h2 id="arc-sorcerer-razmiran_priest-razmiran-priest">Razmiran Priest</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 38</Link><br/>The so-called "priests" of Razmir are magical charlatans - missionary servants of the Living God who spread his fervent devotion wherever they travel. Altered by Razmir's magic, he can perform feats impossible for other sorcerers. A Razmiran priest has the following class features.</p>
