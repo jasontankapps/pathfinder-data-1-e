@@ -21,7 +21,7 @@ const makeMonsterInfoBlock = ({marked2, flags, parseSOURCE, convertEncodedInfo, 
 	};
 	if(source) {
 		output.push(`source={${JSON.stringify(source.split(";").map(bit => {
-			const [s, p] = bit.split(/[/]/);
+			const [s, p] = bit.split("/");
 			return p !== undefined ? [s, Math.round(Number(p))] : [s];
 		}))}}`);
 	}
@@ -91,11 +91,11 @@ const makeMonsterInfoBlock = ({marked2, flags, parseSOURCE, convertEncodedInfo, 
 			output.push(`augment="${augment}"`);
 		}
 		if (subs) {
-			const s = subs.split(/~/);
+			const s = subs.split("~");
 			output.push(`subs={${JSON.stringify(s)}}`)
 		}
 		if(othersubs) {
-			const s = othersubs.split(/~/);
+			const s = othersubs.split("~");
 			output.push(`othersubs={${JSON.stringify(s)}}`)
 		}
 	}
@@ -118,9 +118,9 @@ const makeMonsterInfoBlock = ({marked2, flags, parseSOURCE, convertEncodedInfo, 
 		log("No initiative");
 	}
 	if(sen) {
-		output.push(`sen={${JSON.stringify(sen.split(/~/).map(e => doConvert(e, false)))}}`);
+		output.push(`sen={${JSON.stringify(sen.split("~").map(e => doConvert(e, false)))}}`);
 	}
-	if(senSpell) { output.push(`senSpell={${JSON.stringify(senSpell.split(/~/))}}`) }
+	if(senSpell) { output.push(`senSpell={${JSON.stringify(senSpell.split("~"))}}`) }
 	if(dv) { output.push(`dv={${dv}}`); }
 	if(llv) { output.push("llv"); }
 	if(keenScent) {

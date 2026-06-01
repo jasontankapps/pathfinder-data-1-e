@@ -58,14 +58,14 @@ const makeNewMarkedInstance = (initialUse = { gfm: true }, ...midArguments) => {
 const parseSOURCE = (input, plain = false, bare = false) => {
 	// Changes {SOURCE Source Title/1;Source Title} using makeSourceLink() below
 	if(plain || bare) {
-		const sources = input.split(/;/).map(source => makeSourceLink(source)).join(", ");
+		const sources = input.split(";").map(source => makeSourceLink(source)).join(", ");
 		return plain ? ("**Sources** " + sources) : sources;
 	}
 	let m = false;
 	let newline = "";
 	let tester = input;
 	while(m = tester.match(/^(.*)‹SOURCE ([^›]+?)›(.*)$/)) {
-		const sources = m[2].split(/;/).map(source => makeSourceLink(source));
+		const sources = m[2].split(";").map(source => makeSourceLink(source));
 		newline += `${m[1]}**Sources** ${sources.join(", ")}`;
 		tester = m[3];
 	}
@@ -311,7 +311,7 @@ const renderer = (instance) => {
 const preprocess = () => {
 	return (text) => {
 		let output = [];
-		text.split(/\n/).forEach(line => output.push(parseSOURCE(line)));
+		text.split("\n").forEach(line => output.push(parseSOURCE(line)));
 		return output.join("\n");
 	}
 };
@@ -543,7 +543,7 @@ const parseTemplate = (template, title, suffix, sourceText, d, split = true) => 
 		.replace(/!-SUFFIX-!/g, suffix)
 		.replace(/!-SOURCE-!/g, sourceText);
 
-	return split ? constructed.split(/!-N-!/) : constructed;
+	return split ? constructed.split("!-N-!") : constructed;
 };
 
 // Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
@@ -687,7 +687,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 					}
 					return footnotes[detail];
 				});
-				const dd = (rx ? d.replace(rx, replacement) : d).split(/!-N-!/);
+				const dd = (rx ? d.replace(rx, replacement) : d).split("!-N-!");
 				const parsing = parseTemplate(
 					template,
 					obj.name,

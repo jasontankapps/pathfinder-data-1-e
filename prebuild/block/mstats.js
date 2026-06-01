@@ -5,7 +5,7 @@ import { getCleanText, convertSpecialTextToLink } from "../tests/checkForEncoded
 const linkify = (thing) => convertSpecialTextToLink(thing.replace(/#[A-Z]/g, ""));
 
 const parseGear = (input, converter) => {
-	const incoming = input.split(/~/);
+	const incoming = input.split("~");
 	const items = [];
 	incoming.forEach(item => {
 		if(item.startsWith("!")) {
@@ -13,7 +13,7 @@ const parseGear = (input, converter) => {
 			items.push(output);
 			return;
 		}
-		const bits = item.split(/\|/).map(i => `"${i}"`);
+		const bits = item.split("|").map(i => `"${i}"`);
 		items.push(`[${bits.join(",")}]`);
 	});
 	return items.join(",");
@@ -41,7 +41,7 @@ export const makeMonsterStatisticsBlock = ({id, flags, marked2, convertEncodedIn
 		.replace(/#([A-Z])/g, "<sup>$1</sup>")
 		.replace(/<[/]([a-z]+)>, <\1>/g, ", ");
 	const parseFeats = (input) => {
-		const all = input.split(/~/);
+		const all = input.split("~");
 		const found = [];
 		while(all.length) {
 			const item = all.shift();
@@ -167,9 +167,9 @@ export const makeMonsterStatisticsBlock = ({id, flags, marked2, convertEncodedIn
 	//
 	if(skills) {
 		const total = {};
-		const s = skills.split(/~/);
+		const s = skills.split("~");
 		s.forEach(skill => {
-			const [sk, ...data] = skill.split(/[|]/);
+			const [sk, ...data] = skill.split("|");
 			const obj = {};
 			switch(sk) {
 				case "craft":
@@ -190,7 +190,7 @@ export const makeMonsterStatisticsBlock = ({id, flags, marked2, convertEncodedIn
 				case "k": {
 					const [what, b, x] = data;
 					if(what.match(/^[adeghlnopr]\b/)) {
-						what.split(/[/]/).forEach(bit => {
+						what.split("/").forEach(bit => {
 							obj[bit] = Math.floor(Number(b));
 						});
 					} else {
@@ -239,8 +239,8 @@ export const makeMonsterStatisticsBlock = ({id, flags, marked2, convertEncodedIn
 			output.push(`lang={null}`);
 		} else {
 			const found = [];
-			const [normal, special] = lang.split(/~~/);
-			normal.split(/~/).forEach(l => {
+			const [normal, special] = lang.split("~~");
+			normal.split("~").forEach(l => {
 				if(l.match(/^(A[bkquOnz]?|ALL|[BEONU]|C[ey]?|D[Frw]?|G[lmb]?|Ht?|Ig?|Po?|S[hx]?|Th?)X?$/)) {
 					found.push(`"${l}"`);
 				} else {

@@ -150,7 +150,7 @@ export const makeProfBlock = ({maybeClear, attrs, marked2, flags, convertEncoded
 		wL.push(`All <Link to="/main/equipment_weapons_martial">martial weapons</Link>`);
 		flags.link = true;
 	}
-	const w = weaps.split(/~/).map(wp => {
+	const w = weaps.split("~").map(wp => {
 		if(!wp) {
 			return "";
 		} else if(wp.slice(0,1) === "!") {

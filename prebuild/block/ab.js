@@ -142,7 +142,7 @@ const makeAbilityBlock = ({
 	const output = [];
 	const doParse = (input, split) =>
 			split && (input.indexOf("~~~") > -1)
-				? marked2.parse(convertEncodedInfo(input).split(/~~~/).join("\n\n"))
+				? marked2.parse(convertEncodedInfo(input).split("~~~").join("\n\n"))
 				: marked2.parseInline(convertEncodedInfo(input));
 	//
 	// DETERMINE ANY USAGE LIMITS
@@ -152,7 +152,7 @@ const makeAbilityBlock = ({
 			if (usage) {
 				return [doParse(usage, false), useUnit || "round"];
 			} else if (useInc) {
-				const [levelClass, levelInterval, startFromLevel, initial = "1"] = useInc.split(/~/);
+				const [levelClass, levelInterval, startFromLevel, initial = "1"] = useInc.split("~");
 				const starting = Math.round(Number(initial) || 1);
 				const interval = Math.round(Number(levelInterval));
 				const unit = useUnit || "time";
@@ -189,7 +189,7 @@ const makeAbilityBlock = ({
 					unit
 				];
 			} else if (useL) {
-				const [cls, amt = "1"] = useL.split(/~/);
+				const [cls, amt = "1"] = useL.split("~");
 				const [clss, plus] = cls.split(/(?<![0-9])(?=[0-9]+)/);
 				const unit = useUnit || "round";
 				const amount = Math.round(Number(amt));
@@ -270,8 +270,8 @@ const makeAbilityBlock = ({
 			// Ex: Gained at first level, 3 + 2 per level afterward
 				// useF=1~3~1~2+ Charisma modifier
 					// "Charisma modifier + # units/day"
-			const [formula, plus] = useF.split(/[+]/)
-			const rawUseF = formula.split(/~/);
+			const [formula, plus] = useF.split("+")
+			const rawUseF = formula.split("~");
 			const [ startLevel, startValue, lIncTemp, vIncTemp, beginLevel, initialValue, maxTemp ] = rawUseF.map(
 				text => Math.round(Number(text) || 0)
 			);
@@ -672,8 +672,8 @@ const makeAbilityBlock = ({
 				if(!bit) {
 					return;
 				}
-				const spells = bit.split(/~~/).map(line => {
-					const [text, extra] = line.split(/~/);
+				const spells = bit.split("~~").map(line => {
+					const [text, extra] = line.split("~");
 					return `‹spell/${text}›${extra || ""}`;
 				}).join(", ");
 				const level = i && ordinal(i);
@@ -697,9 +697,9 @@ const makeAbilityBlock = ({
 		const imps = [imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20];
 		if(repeat) {
 			// msg ~ lev start ~ lev inc (~ lev max)? ~~ msg... ~~ msg...
-			const all = repeat.split(/~~/);
+			const all = repeat.split("~~");
 			while(all.length > 0) {
-				const [msg, starter, increment = 1, maximum = 20] = all.shift().split(/~/);
+				const [msg, starter, increment = 1, maximum = 20] = all.shift().split("~");
 				const m = Number(maximum);
 				let max = 20;
 				if(m !== m || m < 2 || m >= 21) {
@@ -727,9 +727,9 @@ const makeAbilityBlock = ({
 		}
 		if(repeatAt) {
 			// msg ~ lev ~ lev ~ lev... ~~ msg ~ lev... ...
-			const all = repeatAt.split(/~~/);
+			const all = repeatAt.split("~~");
 			while(all.length > 0) {
-				const [msg, ...etc] = all.shift().split(/~/);
+				const [msg, ...etc] = all.shift().split("~");
 				etc.map(e => {
 					const x = Number(e);
 					if(l !== l || l >= 21 || l < 1) {
@@ -745,12 +745,12 @@ const makeAbilityBlock = ({
 		}
 		if(incrementMulti) {
 			// msg ~ msg ~ ... ~ lev start / lev inc? / lev max? ; b start? / b inc? / ORD? ; ... ~~ ...
-			const messages = incrementMulti.split(/~~/);
+			const messages = incrementMulti.split("~~");
 			messages.forEach(bit => {
-				const message = bit.split(/~/);
+				const message = bit.split("~");
 				const bonuses = [];
 				const [levelData, ...incrementData] = (message.pop() || "").trim().split(/ *; */);
-				const [start, add = 1, maxlev = undefined] = levelData.split(/[/]/).map((x, i) => {
+				const [start, add = 1, maxlev = undefined] = levelData.split("/").map((x, i) => {
 					const n = Number(x);
 					if(!n && (i || n !== n)) {
 						// `start` can be 0
@@ -826,7 +826,7 @@ const makeAbilityBlock = ({
 			incrementUse && logError("Extraneous `incrementUse` attribute while using `incrementMulti`.");
 		} else if (incrementUse) {
 			// who ~ lev start ~ lev inc ~ b start (defaults to 2) ~ be inc (defaults to 1)
-			const [who, ...etc] = incrementUse.split(/~/);
+			const [who, ...etc] = incrementUse.split("~");
 			const mid = incrementDesc || "can use this ability";
 			const end = incrementEnd || " times/day.";
 			const max = makeMax(incrementMax, logError);
@@ -863,7 +863,7 @@ const makeAbilityBlock = ({
 			}
 			ats.sort((a,b) => (a - b));
 			let last = 0;
-			const descriptor = mid && mid.split(/~/);
+			const descriptor = mid && mid.split("~");
 			while(ats.length > 0) {
 				const next = ats.shift();
 				if(next === last) {
@@ -889,7 +889,7 @@ const makeAbilityBlock = ({
 			//   OR incrementPlain/incrementOrd can be used as a flag with `increment` OR `incrementAt`
 			const [message, ...etc] = (
 				incrementAt || increment || incrementPlain || incrementOrd || incrementRoman
-			).split(/~/);
+			).split("~");
 			let plural = false;
 			const msg = (() => {
 				if(message.startsWith("p!")) {
@@ -904,7 +904,7 @@ const makeAbilityBlock = ({
 			let inc = 0;
 			const max = makeMax(incrementMax, logError);
 			if(incrementAt) {
-				const bonuses = (etc.pop() || "").split(/[/]/);
+				const bonuses = (etc.pop() || "").split("/");
 				const [bb, bi = 1] = bonuses.map(b => {
 					const n = Number(b);
 					if(!n) {
@@ -959,7 +959,7 @@ const makeAbilityBlock = ({
 			}
 			ats.sort((a,b) => (a - b));
 			let last = 0;
-			const descriptor = incrementDesc && incrementDesc.split(/~/);
+			const descriptor = incrementDesc && incrementDesc.split("~");
 			while(ats.length > 0) {
 				const next = ats.shift();
 				if(next === last) {

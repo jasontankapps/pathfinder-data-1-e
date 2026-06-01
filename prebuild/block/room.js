@@ -102,14 +102,14 @@ const makeRoomBlock = ({marked2, convertEncodedInfo, id, maybeClear, text, attrs
 	from && output.push(
 		`<tr><th scope="row">Upgrades From</th><td colSpan={3}>${
 			marked2.parseInline(convertEncodedInfo(
-				from.split(/~/).map(bit => `‹misc/${bit}›`).join(", ")
+				from.split("~").map(bit => `‹misc/${bit}›`).join(", ")
 			))
 		}</td></tr>`
 	);
 	to && output.push(
 		`<tr><th scope="row">Upgrades To</th><td colSpan={3}>${
 			marked2.parseInline(convertEncodedInfo(
-				to.split(/~/).map(bit => `‹misc/${bit}›`).join(", ")
+				to.split("~").map(bit => `‹misc/${bit}›`).join(", ")
 			))
 		}</td></tr>`
 	);

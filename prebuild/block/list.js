@@ -36,7 +36,7 @@ export const makeListBlock = ({
 	const func = special ? convertSpecialTextToLink : convertTextToLink
 	const func2 = special ? getCleanText : (x) => x;
 	const output = all.split(sep).map(item => {
-		const [base, parens] = item.split(/\|/);
+		const [base, parens] = item.split("|");
 		const extra = parens ? ` (${marked2.parseInline(convertEncodedInfo(parens))})` : "";
 		return `<Link to="/${link}/${func(base)}">${func2(base)}</Link>${extra}`;
 	});

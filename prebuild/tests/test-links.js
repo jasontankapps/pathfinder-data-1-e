@@ -121,7 +121,7 @@ const testLinks = (all, tree = true) => {
 				// Testing ‹SOURCE Title/##›
 				while(m = temp.match(/‹SOURCE ([^›]+)›(.*$)/)) {
 					if (m) {
-						m[1].split(/;/).forEach(bit => {
+						m[1].split(";").forEach(bit => {
 							const xx = bit.match(/([^/]+)([/][-, 0-9]+)?$/);
 							if(!xx) {
 								msg.push(`\t‹SOURCE› error [${bit}]`);

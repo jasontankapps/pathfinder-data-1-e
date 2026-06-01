@@ -8,7 +8,7 @@ const linkify = (spell) => convertTextToLink(spell.replace(/#[A-Z0-9]/g, ""));
 const parseChEn = (input, x) => {
 	const output = {};
 	let m;
-	input.split(/, /).forEach(bit => {
+	input.split(", ").forEach(bit => {
 		if(m = bit.match(/([0-9]+)[/]day/)) {
 			output.perDay = Math.round(Number(m[1]));
 		} else if(m = bit.match(/([0-9]+)d6/)) {
@@ -239,7 +239,7 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 	const $spells = flags.$spells || {};
 	const $feats = flags.$feats || {};
 	const parseSpells = (input) => {
-		const all = input.split(/~/);
+		const all = input.split("~");
 		const found = [];
 		let pre = undefined, post = undefined;
 		while(all.length) {
@@ -338,7 +338,7 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 			content.push(`{"per":"hour","content":${doConvert(parseSpells(hour))}}`);
 		}
 		if(day) {
-			const days = day.split(/~~/);
+			const days = day.split("~~");
 			days.forEach(d => {
 				const [, times, spells] = d.match(/^([^~]+)~(.+)$/);
 				content.push(`{"day":${
@@ -459,7 +459,7 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 		if(newLine) {
 			info.push(
 				doConvert(`**${title}**`),
-				...data.split(/~/).map(bit => doConvert(bit))
+				...data.split("~").map(bit => doConvert(bit))
 			);
 		} else {
 			info.push(doConvert(`**${title}** ${data}`));
@@ -476,10 +476,10 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 
 export const makeMonsterFootnoteBlock = ({marked2, convertEncodedInfo, text}) => {
 	// all="1~Footnote one.|2~Footnote two..."
-	const all = text.split(/\|/);
+	const all = text.split("|");
 	const output = [];
 	all.forEach(line => {
-		const [id, text = ""] = line.split(/~/);
+		const [id, text = ""] = line.split("~");
 		output.push(`<sup><strong>${id}</strong></sup> ` + marked2.parseInline(convertEncodedInfo(text)));
 	});
 	return `<p className="spells indented">${output.join('</p><p className="spells indented">')}</p>\n`;

@@ -1,5 +1,5 @@
 const getSkillBaseAtt = (potentialSkill, logError) => {
-	const [input, subskill] = potentialSkill.split(/[|]/);
+	const [input, subskill] = potentialSkill.split("|");
 	const specific = subskill ? `(${subskill}) ` : ""
 	switch(input) {
 		case "acro":
@@ -80,7 +80,7 @@ const getSkillBaseAtt = (potentialSkill, logError) => {
 };
 
 const getSkill = (potentialSkill, logError) => {
-	const [input, subskill] = potentialSkill.split(/[|]/);
+	const [input, subskill] = potentialSkill.split("|");
 	const specific = subskill ? ` (${subskill})` : ""
 	switch(input) {
 		case "acro":
@@ -186,14 +186,14 @@ const makeClassSkillsAbilityBlock = ({
 	if(gain) {
 		contents.push([
 			"New Class Skills",
-			gain.split(/~/).map(g => getSkillBaseAtt(g, logError)).join(", "),
+			gain.split("~").map(g => getSkillBaseAtt(g, logError)).join(", "),
 			false
 		]);
 	}
 	if(lose) {
 		contents.push([
 			"Removed Skills",
-			lose.split(/~/).map(g => getSkill(g, logError)).join(", "),
+			lose.split("~").map(g => getSkill(g, logError)).join(", "),
 			false
 		]);
 	}

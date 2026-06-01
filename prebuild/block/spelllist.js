@@ -33,7 +33,7 @@ export const makeSpellListBlock = ({
 	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
 	const base = {...(from ? temp[from] : (all ? $all : $all0))};
 	if(all || all0) {
-		const incoming = (all || all0).split(/~/);
+		const incoming = (all || all0).split("~");
 		const mod = all ? 1 : 0;
 		for(let c = 0; c <= 9; c++) {
 			if(all && !c) {

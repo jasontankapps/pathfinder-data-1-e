@@ -1,7 +1,7 @@
 import noteTags from "../noteTags.js";
 
 const parseTreasure = (type, input, flags) => {
-	const incoming = input.split(/~/);
+	const incoming = input.split("~");
 	const items = [];
 	let final = false;
 	incoming.forEach(item => {
@@ -9,7 +9,7 @@ const parseTreasure = (type, input, flags) => {
 			final = noteTags(flags, item.slice(1));
 			return;
 		}
-		const bits = item.split(/\|/);
+		const bits = item.split("|");
 		items.push(bits);
 	});
 	return final ? { [type]: items, final } : { [type]: items };

@@ -49,7 +49,7 @@ const makeMonsterDefenseBlock = ({marked2, flags, convertEncodedInfo, maybeClear
 		if(hpRaw) {
 			output.push(`hpRaw="${hpRaw}"`);
 		} else {
-			const [a, b, c, d] = `${hp}~~~`.split(/~/).slice(0,4);
+			const [a, b, c, d] = `${hp}~~~`.split("~").slice(0,4);
 			const x = Number(a);
 			const y = c ? Number(c) : null;
 			const z = d ? Number(d) : null;
@@ -99,7 +99,7 @@ const makeMonsterDefenseBlock = ({marked2, flags, convertEncodedInfo, maybeClear
 	let line = "";
 	const deff = [];
 	if(def) {
-		output.push(`def={[${def.split(/~/).map(
+		output.push(`def={[${def.split("~").map(
 			bit => `["${clean(bit)}",${doConvert(bit)}]`
 		).join(",")}]}`);
 	}
@@ -193,7 +193,7 @@ const makeMonsterDefenseBlock = ({marked2, flags, convertEncodedInfo, maybeClear
 		w.push([`vulnerable to ${clean(vulner)}`, `‹umr/vulnerable› to ${vulner}`]);
 	}
 	if(weak) {
-		weak.split(/~/).forEach(bit => w.push([clean(bit), bit]));
+		weak.split("~").forEach(bit => w.push([clean(bit), bit]));
 	}
 	if(w.length > 0) {
 		w.sort((a, b) => a[0].localeCompare(b[0]));
