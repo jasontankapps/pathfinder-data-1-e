@@ -124,7 +124,7 @@ const _decoy_trigger_decoy_pressure_switch = {title: "Decoy trigger (decoy press
 </blockquote>
 </>};
 const _deep_breath = {title: "Deep breath", jsx: <><h2 id="eq-misc-deep_breath-deep-breath">Deep breath</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 30</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 28</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
 <p>Darklands explorers who frequently run afoul of <Link to="/monster/troglodyte">troglodytes</Link>, pockets of natural gas, and toxic fumes from magma flows use this dense flask to ease their breathing. You can open the flask as a standard action or throw it as a splash weapon. When opened or broken, the flask releases a burst of cleansing, breathable air in a 10-foot-radius <Link to="/misc/burst">burst</Link>, providing a +4 alchemical bonus on saving throws against gases, inhaled poisons, or other breathable hazards. The cloud of fresh air lasts for 1d4 rounds. If you hit a creature that has the <Link to="/umr/stench">stench</Link> ability with a thrown flask of deep breath, the DC of its stench is reduced by 4 for the duration of the cloud.</p>
 </>};
 const _defoliant = {title: "Defoliant", jsx: <><h2 id="eq-misc-defoliant-defoliant">Defoliant</h2>
@@ -353,7 +353,7 @@ const _drill = {title: "Drill", jsx: <><h2 id="eq-misc-drill-drill">Drill</h2>
 <p>A drill can create a 1-inch-diameter hole in stone, wood, or metal as a standard action. Harder materials wear down or break the drill more quickly. Hearing the sound of drilling requires a DC 15 Perception check.</p>
 </>};
 const _drought_powder = {title: "Drought powder", jsx: <><h2 id="eq-misc-drought_powder-drought-powder">Drought powder</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 30</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 28</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
 <p>This unique, salty alchemical powder is crafted in Darklands communities where fresh water is either scarce or guarded by dangerous predators. Consuming 1 dose allows you to go without water for 3 days instead of 1, in growing discomfort but without any negative effects. After this time, you must attempt a Constitution check once every 6 hours instead of once per hour to avoid taking nonlethal damage. One dose of drought powder functions for 1 week, after which penalties for <Link to="/rule/thirst">thirst</Link> accrue at their normal pace.</p>
 </>};
 const _drowners_helm = {title: "Drowner's helm", jsx: <><h2 id="eq-misc-drowners_helm-drowners-helm">Drowner's helm</h2>
@@ -621,7 +621,7 @@ const _mug_tankard = {title: "Mug/tankard", jsx: <><h2 id="eq-misc-mug_tankard-m
 <p>Whether it is a simple pottery cup or an elaborate drinking stein with a handle and decorative lid that flips up, this cup may be used to hold any sort of beverage. Tankards are commonly made out of clay or tin.</p>
 </>};
 const _muscle_grout = {title: "Muscle grout", jsx: <><h2 id="eq-misc-muscle_grout-muscle-grout">Muscle grout</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 30</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Remedies</p>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 28</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Remedies</p>
 <p>A gritty salve with an earthy odor, muscle grout is frequently sold in areas where <Link to="/monster/giant_spider">giant spiders</Link> or <Link to="/monster/roper">ropers</Link> haunt local trade routes. When massaged into the muscles as a full-round action, this ointment provides a +2 alchemical bonus on saving throws to resist nonmagical effects that cause <Link to="/rule/strength_damage">Strength damage</Link>. Any Strength damage you take manifests gradually as the salve slows muscle decay; anytime you take Strength damage, you take only 1 point per round until the full amount of damage is dealt. Additional Strength damage adds to the total, but is dealt only at a maximum rate of 1 point per round, as long as the grout is active. A dose of muscle grout lasts for 10 minutes. One dose of muscle grout is sufficient for a Medium or smaller creature; Large creatures require 2 doses, Huge creatures require 4 doses, and so on.</p>
 </>};
 const _musical_instrument_common = {title: "Musical instrument (common)", jsx: <><h2 id="eq-misc-musical_instrument_common-musical-instrument">Musical instrument</h2>
@@ -781,7 +781,7 @@ const _oldlaw_whiskey_bottle = {title: "Oldlaw whiskey (bottle)", jsx: <><h2 id=
 <p>This single-malt whiskey is made with a recipe that's nearly 200 years old, and is a favorite alcoholic beverage of old soldiers everywhere.</p>
 </>};
 const _ooze_attractant = {title: "Ooze attractant", jsx: <><h2 id="eq-misc-ooze_attractant-ooze-attractant">Ooze attractant</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 31</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 29</Link><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
 <p>Drow alchemists of House Tracinoa developed this mixture to function as a lure for mindless oozes. You can throw a flask of ooze attractant as a <Link to="/rule/splash_weapon">splash weapon</Link>. On a direct hit, each mindless ooze within 60 feet must succeed at a DC 12 Will save or be compelled to approach the target for the next 1d4+1 rounds. On a miss, an ooze still attempts a Will save, but on a failure it instead approaches the square in which the flask landed. Once an ooze moves adjacent to the targeted creature or into the targeted square, it resumes its normal behavior. An ooze can be affected by ooze attractant only once in a 24-hour period.</p>
 </>};
 const _ooze_grease = {title: "Ooze grease", jsx: <><h2 id="eq-misc-ooze_grease-ooze-grease">Ooze grease</h2>

@@ -992,7 +992,7 @@ const _blanket = {title: "Blanket", jsx: <><h2 id="eq-misc-blanket-blanket">Blan
 <p>This warm, woven blanket has straps so it can be rolled up and tied. Blankets are often used in conjunction with <Link to="/eq-misc/bedroll">bedrolls</Link> to provide additional warmth or a ground cushion.</p>
 </>};
 const _blasting_jelly = {title: "Blasting jelly", jsx: <><h2 id="eq-misc-blasting_jelly-blasting-jelly">Blasting jelly</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 30</Link><br/><strong>Price</strong> 45 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 28</Link><br/><strong>Price</strong> 45 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Alchemical Tools</p>
 <p>This volatile gray paste sticks to solid surfaces and creates a concentrated blast when exposed to fire, making it a valuable excavation tool. You can apply 1 dose of blasting jelly to a 5-foot square as a standard action. The paste can be ignited with another standard action by striking it from an adjacent square with a metal weapon or object. When thus ignited or otherwise exposed to fire, the jelly explodes, dealing 2d6 points of fire damage to creatures and unattended objects within the treated square. If the ignited square is adjacent to another square containing blasting jelly, that square ignites as well. Blasting jelly deals full damage to objects made of stone or softer material. Blasting jelly decays relatively quickly when exposed to air, becoming inert after 4 hours if not ignited.</p>
 </>};
 const _blight_tonic = {title: "Blight tonic", jsx: <><h2 id="eq-misc-blight_tonic-blight-tonic">Blight tonic</h2>
@@ -1007,7 +1007,7 @@ const _blightburn_paste = {title: "Blightburn paste", jsx: <><h2 id="eq-misc-bli
 <p>The mineral blightburn is the deadliest radioactive substance in the Darklands. The green-glowing crystal burns anyone who touches it, dealing 2d6 points of fire damage per round of contact, and its radiation causes blightburn sickness. The substance also limits teleportation. Anyone casting a teleportation spell in or teleporting to a cavern with blightburn in its walls must succeed at a DC 30 caster level check.</p>
 </>};
 const _blightburn_reader = {title: "Blightburn reader", jsx: <><h2 id="eq-misc-blightburn_reader-blightburn-reader">Blightburn reader</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 10</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 8</Link><br/><strong>Price</strong> 25 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
 <p>A blightburn reader is a small wooden or metal frame, roughly 2 inches wide and 4 inches long, containing a specially prepared alchemical paper pressed between two thin panes of glass. Whenever a character wearing a blightburn reader enters an area with a radiation hazard, the paper within changes from white to black over the course of 1 minute. Once the paper turns black, it is destroyed and must be replaced at a cost of 15 gp before the blightburn reader can be used again.</p>
 </>};
 const _block_and_tackle = {title: "Block and tackle", jsx: <><h2 id="eq-misc-block_and_tackle-block-and-tackle">Block and tackle</h2>
@@ -1565,7 +1565,7 @@ const _city_map = {title: "City map", jsx: <><h2 id="eq-misc-city_map-city-map">
 <p>This map aids in navigating a single city. You can consult the map for 1 minute to gain a +2 bonus when attempting a Knowledge (local) check to identify a location in that city (and can attempt checks for DCs above 10 even if untrained) or when attempting a DC 15 Survival check to avoid getting lost in that city.</p>
 </>};
 const _clatterstone = {title: "Clatterstone", jsx: <><h2 id="eq-misc-clatterstone-clatterstone">Clatterstone</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 30</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Alchemical Tools</p>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 28</Link><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Alchemical Tools</p>
 <p>Comprising several chunks of magnetized ore connected by twine, a clatterstone creates an intense racket when it strikes a solid surface. The combination of magnetic disturbances, noise, and vibrations interferes with <Link to="/umr/blindsight">blindsight</Link>. A creature using blindsight perceives a detonated clatterstone as a Medium target until it attempts to interact with the perceived "creature" or identifies it with some other sense, such as darkvision. You can throw a clatterstone as a ranged attack with a range increment of 20 feet, and it remains active for 1d4+1 rounds before becoming inert.</p>
 </>};
 const _clay_whippoorwill = {title: "Clay whippoorwill", jsx: <><h2 id="eq-misc-clay_whippoorwill-clay-whippoorwill">Clay whippoorwill</h2>

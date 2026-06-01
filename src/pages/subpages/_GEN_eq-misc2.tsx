@@ -30,7 +30,7 @@ const _filter_hood = {title: "Filter hood", jsx: <><h2 id="eq-misc-filter_hood-f
 <p>This snug leather hood has built-in goggles and a filtration tube containing sponges. A filter hood uses your helm slot and imposes a -2 penalty on hearing- and sight-based Perception checks. While the sponges are moist, the hood grants you a +2 resistance bonus on saving throws against inhaled poisons and other airborne attacks that require you to breathe them. Moistening the sponges with water is a standard action. The sponges dry out after 1d4 &times; 10 minutes and should be thoroughly rinsed after each use.</p>
 </>};
 const _filter_mask = {title: "Filter mask", jsx: <><h2 id="eq-misc-filter_mask-filter-mask">Filter mask</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 10</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 4 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 8</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 4 lbs.<br/><strong>Category</strong> Adventuring Gear</p>
 <p>A filter mask is a rubber-sealed leather mask with a filtering respiration apparatus. Ordinary filter masks have cloth filters laced with floral perfumes, while masterwork filter masks use alchemical charcoal filters. When worn, a filter mask provides a +2 bonus on Fortitude saves against inhaled poisons or diseases and other inhaled particles such as smoke or spores.</p>
 </>};
 const _filter_scarf = {title: "Filter scarf", jsx: <><h2 id="eq-misc-filter_scarf-filter-scarf">Filter scarf</h2>
@@ -152,7 +152,7 @@ const _foaming_powder = {title: "Foaming powder", jsx: <><h2 id="eq-misc-foaming
 <p><strong>Construction:</strong> Craft (Alchemy) DC 20</p>
 </>};
 const _focus_chew = {title: "Focus chew", jsx: <><h2 id="eq-misc-focus_chew-focus-chew">Focus chew</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 30</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 28</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Tools</p>
 <p>When chewed, this spongy gum releases mild stimulants that heighten your focus. Derros use focus chew in an effort to improve their experiments, though spellcasters from other Darklands cultures have adopted their recipe for use in research. For up to 1 hour while chewing focus chew, you gain a +2 alchemical bonus on <Link to="/rule/concentration">concentration</Link> checks and a +1 alchemical bonus on Intelligence-based skill checks.</p>
 </>};
 const _folding_chair = {title: "Folding chair", jsx: <><h2 id="eq-misc-folding_chair-folding-chair">Folding chair</h2>
@@ -1508,7 +1508,7 @@ const _mindburn_incense = {title: "Mindburn incense", jsx: <><h2 id="eq-misc-min
 <p>The scent of this light brown incense carries a distinct tang of peppermint oil. Once the incense is lit in a censer or appropriate container, its smoke permeates a 20-foot-by-20-foot area to a height of 10 feet. Living creatures within the area that breathe the incense fumes for more than 1 minute gain a +1 morale bonus on saves against pain effects, while taking a -1 penalty on saves against mind-affecting effects. This effect lasts for as long as the creature remains within the area of the incense, and for an additional minute after leaving. The incense burns for 1 hour before dissipating, unless dispersed before then by wind.</p>
 </>};
 const _miners_bird = {title: "Miner's bird", jsx: <><h2 id="eq-misc-miners_bird-miners-bird">Miner's bird</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 10</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 8</Link><br/><strong>Price</strong> 5 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Adventuring Gear</p>
 <p>A miner's bird is a Diminutive, semi-trained animal (typically a canary or other delicate songbird) in a portable cage. The enclosure is most often made of wood or metal. The bird within has 1 hit point, a Constitution score of 3, and a Fortitude save bonus of -2 (otherwise, its statistics are identical to a <Link to="/monster/thrush">thrush</Link>). When the bird fails its first saving throw against a poison-based effect, it emits a loud chirping, audible within 60 feet.</p>
 </>};
 const _miners_lantern = {title: "Miner's lantern", jsx: <><h2 id="eq-misc-miners_lantern-miners-lantern">Miner's lantern</h2>
@@ -1598,7 +1598,7 @@ const _monkey = {title: "Monkey", jsx: <><h2 id="eq-misc-monkey-monkey">Monkey</
 <p>These Tiny herbivorous primates can be found in a variety of habitats, but typically favor warm forests and jungles. They can grasp and carry objects that weigh under a pound. They are sometimes used as familiars.</p>
 </>};
 const _monochrome_camouflage = {title: "Monochrome Camouflage", jsx: <><h2 id="eq-misc-monochrome_camouflage-monochrome-camouflage">Monochrome Camouflage</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 30</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 28</Link><br/><strong>Price</strong> 40 gp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Alchemical Tools</p>
 <p>This slimy gray unguent distorts wavelengths of light beyond of the normal visual spectrum, causing you to appear blurry to creatures using darkvision. Applying the camouflage takes 1 minute and provides a +4 alchemical bonus on Stealth checks against creatures relying on darkvision to see. One dose of monochrome camouflage lasts for 1 hour.</p>
 </>};
 const _monster_bait = {title: "Monster bait", jsx: <><h2 id="eq-misc-monster_bait-monster-bait">Monster bait</h2>
