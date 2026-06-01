@@ -4,6 +4,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 const _ankous_shadow = {title: "Ankou's Shadow", jsx: <><h2 id="arc-slayer-ankous_shadow-ankous-shadow">Ankou's Shadow</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 14</Link><br/>Ankous are terrifying, winged fey assassins dispatched by the greatest lords of the First World to eliminate rivals. Some mortals emulate ankous to become the perfect assassins; others believe themselves to be ankous incarnated in mortal shells on a deep cover mission. In either case, an ankou's shadow practices the deadliest skills of the First World's most feared enforcers.</p>
 <Ability id="arc-slayer-ankous_shadow-shadow-double-sp" icon={["stairs-goal"]}>
@@ -480,7 +481,7 @@ const _sczarni_executioner = {title: "Sczarni Executioner", jsx: <><h2 id="arc-s
 <Ability id="arc-slayer-sczarni_executioner-bloodstained-hands-ex" icon={["hazard-sign"]}>
 <Pair single id="arc-slayer-sczarni_executioner-bloodstained-hands-ex">Bloodstained Hands (Ex)</Pair>
 <Pair title="Prerequisites">A Sczarni executioner must be evil.</Pair>
-<Pair title="Note">If he ever becomes nonevil, he loses this archetype and becomes a regular slayer.</Pair>
+<Pair title="Info">If he ever becomes nonevil, he loses this archetype and becomes a regular slayer.</Pair>
 </Ability>
 <Ability id="arc-slayer-sczarni_executioner-focused-killer-ex" icon={["upgrade","broken-shield"]}>
 <Pair single id="arc-slayer-sczarni_executioner-focused-killer-ex">Focused Killer (Ex)</Pair>
@@ -598,113 +599,277 @@ const _spire_diver = {title: "Spire Diver", jsx: <><h2 id="arc-slayer-spire_dive
 </>};
 const _spiritslayer = {title: "Spiritslayer", jsx: <><h2 id="arc-slayer-spiritslayer-spiritslayer">Spiritslayer</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 15</Link><br/>Originally trained and employed by the enforcers of the Pure Legion seeking to defend Rahadoum from divine spellcasters, Rahadoumi spiritslayers have proven so invaluable in culling ghosts, shadow demons, and other incorporeal creatures that their techniques have spread across the Inner Sea region and beyond. Ironically, most now are trained and employed by the church of Pharasma to cull wicked spirits.</p>
-<p><strong>Spirit Sense (Ex):</strong> At 2nd level, a spiritslayer manifests an uncanny sixth sense regarding the presence of invisible creatures. He gains <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat and ignores the usual +20 bonus to the DC of any Perception check to pinpoint the location of an invisible creature. If the spiritslayer manages to pinpoint an invisible creature's location using a Perception check, he can study that creature with his studied target ability as a swift action.</p>
-<p>In addition, whenever the spiritslayer studies a possessed creature, he can automatically switch his studied target from the possessed creature to the possessing entity should that entity be expelled from his studied target. A spiritslayer adds his studied target bonus on attack rolls to all saving throws he attempts against possession effects used by his studied targets.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 2nd level.</p>
-<p><strong>Spiritslayer Talents:</strong> A spiritslayer can select the following slayer talents, in addition to general slayer talents.</p>
-<blockquote>
-<p><strong>Disrupt Possession (Ex):</strong> Whenever a spiritslayer with this talent deals sneak attack damage to a creature that is being possessed, he also deals his sneak attack damage to the possessing entity. Once per round, a possessed creature that is damaged by disrupt possession can attempt a new Will saving throw to end the possession, gaining a +1 bonus on its save for each sneak attack damage die the spiritslayer rolled. This talent is considered a Primary Sneak Attack Talent, alters the spiritslayer's sneak attack, and doesn't stack with other talents that alter sneak attack. A spiritslayer must be at least 8th level before selecting this talent.</p>
-<p><strong>Improved Spirit Sense:</strong> A spiritslayer who selects this talent gains <Link to="/feat/improved_blind_fight">Improved Blind-Fight</Link> as a bonus feat, ignoring its prerequisites. In addition, he adds 1/2 his slayer level on Perception checks to pinpoint the location of an invisible creature. He can use Perception to pinpoint the location of an ethereal creature, but he doesn't gain this bonus on Perception checks when doing so. A spiritslayer must be at least 6th level before selecting this talent.</p>
-<blockquote>
-<p><strong>Greater Spirit Sense:</strong> A spiritslayer who selects this talent gains <Link to="/feat/greater_blind_fight">Greater Blind-Fight</Link> as a bonus feat, ignoring its prerequisites. In addition, he adds 1/2 his slayer level to his Perception checks to pinpoint the location of ethereal creatures, and once per round he can attempt a Perception check to pinpoint the locations of all invisible creatures within 30 feet of him without needing to take an action. A spiritslayer must be at least 10th level and have the improved spirit sense spiritslayer talent before selecting this talent.</p>
-</blockquote>
-</blockquote>
-<p><strong>Ghost Slayer (Ex):</strong> At 7th level, whenever a spiritslayer makes an outsider or undead creature with the incorporeal subtype his studied target, his attacks count as magic for the purpose of striking that creature (though this doesn't give his attacks an enhancement bonus) and he can deal precision-based damage to such creatures (though his <Link to="/misc/precision_damage">precision damage</Link> is reduced by 50% unless he has a means to bypass the creature's reduction in damage from corporeal sources, such as a <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon). At 14th level, the spiritslayer's attacks against outsiders or undead creatures with the incorporeal subtype ignore the 50% reduction in damage from magical corporeal sources that such creatures have and can deal precision-based damage to incorporeal creatures.</p>
-<p>This ability replaces <strong className="hl">stalker</strong>.</p>
+<Ability id="arc-slayer-spiritslayer-spirit-sense-ex" icon={["stairs-goal","upgrade","armor-upgrade"]}>
+<Pair single id="arc-slayer-spiritslayer-spirit-sense-ex" flavor="A spiritslayer manifests an uncanny sixth sense regarding the presence of invisible creatures.">Spirit Sense (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">He gains <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat and ignores the usual +20 bonus to the DC of any Perception check to pinpoint the location of an invisible creature.</Pair>
+<Pair title="Ability">If the spiritslayer manages to pinpoint an invisible creature's location using a Perception check, he can study that creature with his <em>studied target</em> ability as a <strong className="hl">swift action</strong>.</Pair>
+<Pair title="Ability">In addition, whenever the spiritslayer studies a possessed creature, he can automatically switch his <em>studied target</em> from the possessed creature to the possessing entity should that entity be expelled from his <em>studied target.</em></Pair>
+<Pair title="Passive Ability">A spiritslayer adds his <em>studied target</em> bonus on attack rolls to all saving throws he attempts against possession effects used by his <em>studied targets.</em></Pair>
+</Ability>
+<Ability id="arc-slayer-spiritslayer-spiritslayer-talents" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-spiritslayer-spiritslayer-talents">Spiritslayer Talents</Pair>
+<Pair title="Ability">A spiritslayer can select the following slayer talents, in addition to general slayer talents.</Pair>
+</Ability>
+<Ability id="arc-slayer-spiritslayer-disrupt-possession-ex" extraClasses="subAbility" icon={["upgrade","shield-reflect"]}>
+<Pair single id="arc-slayer-spiritslayer-disrupt-possession-ex">Disrupt Possession (Ex)</Pair>
+<Pair title="Prerequisites">8th-level slayer</Pair>
+<Pair title="Ability">Whenever a spiritslayer with this talent deals sneak attack damage to a creature that is being possessed, he also deals his sneak attack damage to the possessing entity. Once per round, a possessed creature that is damaged by <em>disrupt possession</em> can attempt a new Will saving throw to end the possession, gaining a +1 bonus on its save for each sneak attack damage die the spiritslayer rolled.</Pair>
+<Pair title="Special">This talent is considered a Primary Sneak Attack Talent, alters the spiritslayer's sneak attack, and doesn't stack with other talents that alter sneak attack.</Pair>
+</Ability>
+<Ability id="arc-slayer-spiritslayer-improved-spirit-sense" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-slayer-spiritslayer-improved-spirit-sense">Improved Spirit Sense</Pair>
+<Pair title="Prerequisites">6th-level slayer</Pair>
+<Pair title="Ability">A spiritslayer who selects this talent gains <Link to="/feat/improved_blind_fight">Improved Blind-Fight</Link> as a bonus feat, ignoring its prerequisites. In addition, he adds 1/2 his slayer level on Perception checks to pinpoint the location of an invisible creature.</Pair>
+<Pair title="Ability">He can use Perception to pinpoint the location of an ethereal creature, but he doesn't gain this bonus on Perception checks when doing so.</Pair>
+</Ability>
+<Ability id="arc-slayer-spiritslayer-greater-spirit-sense" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-slayer-spiritslayer-greater-spirit-sense">Greater Spirit Sense</Pair>
+<Pair title="Prerequisites">10th-level slayer, Improved Spirit Sense</Pair>
+<Pair title="Ability">A spiritslayer who selects this talent gains <Link to="/feat/greater_blind_fight">Greater Blind-Fight</Link> as a bonus feat, ignoring its prerequisites. In addition, he adds 1/2 his slayer level to his Perception checks to pinpoint the location of ethereal creatures, and once per round he can attempt a Perception check to pinpoint the locations of all invisible creatures within 30 feet of him without needing to take an action.</Pair>
+</Ability>
+<Ability id="arc-slayer-spiritslayer-ghost-slayer-ex" icon={["armor-downgrade","upgrade"]}>
+<Pair single id="arc-slayer-spiritslayer-ghost-slayer-ex">Ghost Slayer (Ex)</Pair>
+<Pair hl title="Replaces">Stalker</Pair>
+<Pair title="At 7th Level">Whenever a spiritslayer makes an outsider or undead creature with the <Link to="/subtype/incorporeal">incorporeal</Link> subtype his <em>studied target,</em> his attacks count as magic for the purpose of striking that creature (though this doesn't give his attacks an enhancement bonus) and he can deal precision-based damage to such creatures (though his <Link to="/misc/precision_damage">precision damage</Link> is reduced by 50% unless he has a means to bypass the creature's reduction in damage from corporeal sources, such as a <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon).</Pair>
+<Pair title="At 14th Level">The spiritslayer's attacks against outsiders or undead creatures with the incorporeal subtype ignore the 50% reduction in damage from magical corporeal sources that such creatures have and can deal precision-based damage to incorporeal creatures.</Pair>
+</Ability>
 </>};
 const _stygian_slayer = {title: "Stygian Slayer", jsx: <><h2 id="arc-slayer-stygian_slayer-stygian-slayer">Stygian Slayer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 120</Link><br/>A stygian slayer crawls out of the darkest shadows to strike fear into the hearts of civilized folk. He's a merciless killer who can control a sliver of magic, allowing him to arrive unseen, commit murder, and depart without detection.</p>
-<p><strong>Weapon and Armor Proficiency:</strong> A stygian slayer is proficient with light armor, but not with medium armor, heavy armor, or any kind of shield (including tower shields).</p>
-<p>This replaces the slayer's <strong className="hl">armor proficiency</strong>.</p>
-<p><strong>Invisibility (Sp):</strong> At 4th level, a stygian slayer can cast <Link to="/spell/invisibility">invisibility</Link> once per day, using his slayer level as his caster level. The slayer uses his Intelligence modifier for <Link to="/rule/concentration">concentration</Link> checks when using this ability. The slayer can use this an additional time per day at 8th level and every 4 levels thereafter.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 4th level.</p>
-<p><strong>Spell Use:</strong> At 7th level, a stygian slayer is able to use spell completion and spell trigger items as if he were an arcane caster with these spells on his spell list: darkness, forced quiet, modify memory, nondetection, obscuring mist, phantom steed, shadow walk, and wizard spells of the illusion school of spell level 0 through 4th. The slayer's uses his class level as his caster level for this ability.</p>
-<p>This ability replaces <strong className="hl">stalker</strong>.</p>
-<p><strong>Shadowy Mist Form (Sp):</strong> At 10th level, a stygian slayer can transform into an inky black cloud of mist. This functions as <Link to="/spell/gaseous_form">gaseous form</Link>, except it also obscures vision as <Link to="/spell/fog_cloud">fog cloud</Link>. The slayer can use this ability for a number of minutes per day equal to his level. These minutes need not be consecutive, but must be used in 1-minute increments.</p>
-<p>This ability replaces the <strong className="hl">advanced slayer talent</strong> gained at 10th level.</p>
-<p><strong>Slayer Talents:</strong> The following slayer talents (and rogue talents) complement the stygian slayer archetype: <Link to="/talent/bleeding_attack">bleeding attack</Link>, <Link to="/talent/lasting_poison">lasting poison</Link>, <Link to="/slayertalent/poison_use">poison use</Link>, <Link to="/talent/powerful_sneak">powerful sneak</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, and <Link to="/talent/swift_poison">swift poison</Link>.</p>
-<p><strong>Advanced Slayer Talents:</strong> The following advanced slayer talents (and advanced rogue talents) complement the stygian slayer archetype: <Link to="/slayertalent/assassinate">assassinate</Link>, <Link to="/talent/hunters_surprise">hunter's surprise</Link>, and <Link to="/slayertalent/slayer_camouflage">slayer camouflage</Link>.</p>
-</>};
+<Ability id="arc-slayer-stygian_slayer-weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Pair single id="arc-slayer-stygian_slayer-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Replaces">Armor proficiency</Pair>
+<Pair title="Info">A stygian slayer is proficient with light armor, but not with medium armor, heavy armor, or any kind of shield (including tower shields).</Pair>
+</Ability>
+<Ability id="arc-slayer-stygian_slayer-invisibility-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-slayer-stygian_slayer-invisibility-sp">Invisibility (Sp)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 4th level</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Usage">1 time/day per four slayer levels<ByLevelPop levels={[[4,1],[8,2],[12,3],[16,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">A stygian slayer can cast <Link to="/spell/invisibility">invisibility</Link>, using his slayer level as his caster level. The slayer uses his Intelligence modifier for <Link to="/rule/concentration">concentration</Link> checks when using this ability.</Pair>
+</Ability>
+<Ability id="arc-slayer-stygian_slayer-spell-use" icon={["magic-swirl"]}>
+<Pair single id="arc-slayer-stygian_slayer-spell-use">Spell Use</Pair>
+<Pair hl title="Replaces">Stalker</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A stygian slayer is able to use spell completion and spell trigger items as if he were an arcane caster with these spells on his spell list: <Link to="/spell/darkness">darkness</Link>, <Link to="/spell/forced_quiet">forced quiet</Link>, <Link to="/spell/modify_memory">modify memory</Link>, <Link to="/spell/nondetection">nondetection</Link>, <Link to="/spell/obscuring_mist">obscuring mist</Link>, <Link to="/spell/phantom_steed">phantom steed</Link>, <Link to="/spell/shadow_walk">shadow walk</Link>, and wizard spells of the illusion school of spell level 0 through 4th. The slayer's uses his class level as his caster level for this ability.</Pair>
+</Ability>
+<Ability id="arc-slayer-stygian_slayer-shadowy-mist-form-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-slayer-stygian_slayer-shadowy-mist-form-sp">Shadowy Mist Form (Sp)</Pair>
+<Pair hl title="Replaces">Advanced slayer talent gained at 10th level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Usage">1 minute/day per slayer level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability">A stygian slayer can transform into an inky black cloud of mist. This functions as <Link to="/spell/gaseous_form">gaseous form</Link>, except it also obscures vision as <Link to="/spell/fog_cloud">fog cloud</Link>.</Pair>
+</Ability>
+<p><strong className="hl">The following slayer talents complement the stygian slayer archetype:</strong> <Link to="/slayertalent/poison_use">poison use</Link>, <Link to="/slayertalent/rogue_talent">rogue talent</Link> (<Link to="/talent/bleeding_attack">bleeding attack</Link>, <Link to="/talent/lasting_poison">lasting poison</Link>, <Link to="/talent/powerful_sneak">powerful sneak</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/swift_poison">swift poison</Link>)</p><p><strong className="hl">The following advanced slayer talents complement the stygian slayer archetype:</strong> <Link to="/slayertalent/advanced_rogue_talent">advanced rogue talent</Link> (<Link to="/talent/hunters_surprise">hunter's surprise</Link>), <Link to="/slayertalent/assassinate">assassinate</Link>, <Link to="/slayertalent/slayer_camouflage">slayer camouflage›</Link></p></>};
 const _toxic_sniper = {title: "Toxic Sniper", jsx: <><h2 id="arc-slayer-toxic_sniper-toxic-sniper">Toxic Sniper</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 27</Link><br/>Followers of the daemonic harbinger Cixyron hide throughout the Mana Wastes, scavenging for guns. With significant firepower in hand, the Furious Thunder's snipers bring poisonous death to the wastes.</p>
-<p><strong>Weapon and Armor Proficiency:</strong> A toxic sniper is proficient with all simple weapons and firearms. He is proficient with light armor.</p>
-<p>This alters the toxic sniper's <strong className="hl">weapon and armor proficiency</strong>.</p>
-<p><strong>Scrapper's Gun:</strong> A toxic sniper gains the <Link to="/feat/gunsmithing">Gunsmithing</Link> feat, a battered gun identical to that gained by a 1st-level <Link to="/class/gunslinger">gunslinger</Link>, and the ability to restore his battered gun as if he were a gunslinger.</p>
-<p>This replaces <strong className="hl">track</strong>.</p>
-<p><strong>Sharpshooter's Study (Ex):</strong> A toxic sniper's focus makes him extremely deadly with ranged weapons. He gains a bonus on attack and damage rolls against his studied target only when attacking with a ranged weapon.</p>
-<p>This alters <strong className="hl">studied target</strong>.</p>
-<p><strong>Toxic Grit (Ex):</strong> At 2nd level, the toxic sniper gains the <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat as a bonus feat.</p>
-<p>This replaces the <strong className="hl">slayer talent</strong> gained at 2nd level.</p>
-<p><strong>Toxic Shots (Ex):</strong> At 4th level, a toxic sniper can coat his ammunition in poison without requiring a pitted bullet. He is trained in applying poison in this way and cannot accidentally poison himself when applying poison to his ammunition. The toxic sniper can create a number of toxic shots per day equal to half his slayer level plus his Wisdom modifier. The penetrating nature of a toxic shot increases the DC of any poisons applied in this way by 2. A toxic sniper cannot create a toxic shot that is part of an alchemical cartridge.</p>
-<p>This replaces the <strong className="hl">slayer talent</strong> gained at 4th level.</p>
-<p><strong>Marksman (Ex):</strong> At 6th level, a toxic sniper reduces the penalty on Stealth checks while sniping by 5. He reduces the penalty by 5 again at 12th level and at 18th level. At 8th level, he increases the distance from which he can deliver a ranged sneak attack against his studied target by 10 feet. This increases by 10 feet again at 14th level and at 20th level.</p>
-<p>This replaces <strong className="hl">slayer talents</strong> gained at 6th, 8th, 12th, 14th, 16th, 18th, and 20th levels.</p>
-<p><strong>Precise Toxin (Ex):</strong> At 10th level, a toxic sniper can deliver a toxic shot to especially vulnerable areas. When he hits an opponent with a toxic shot and deals sneak attack damage, he can forgo all his bonus damage to increase the DC of the his toxic shot's poison. The DC increases by 1 for every 2d6 points of sneak attack damage he forgoes in this way.</p>
-<p>This replaces the <strong className="hl">slayer talent</strong> gained at 10th level.</p>
+<Ability id="arc-slayer-toxic_sniper-weapon-and-armor-proficiency" icon={["broken-shield","stairs-goal"]}>
+<Pair single id="arc-slayer-toxic_sniper-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Alters">Weapon and armor proficiency</Pair>
+<Pair title="Ability">A toxic sniper is proficient with all simple weapons and firearms. He is proficient with light armor.</Pair>
+</Ability>
+<Ability id="arc-slayer-toxic_sniper-scrappers-gun" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-toxic_sniper-scrappers-gun">Scrapper's Gun</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair title="Ability">A toxic sniper gains the <Link to="/feat/gunsmithing">Gunsmithing</Link> feat, a battered gun identical to that gained by a 1st-level <Link to="/class/gunslinger">gunslinger</Link>, and the ability to restore his battered gun as if he were a gunslinger.</Pair>
+</Ability>
+<Ability id="arc-slayer-toxic_sniper-sharpshooters-study-ex" icon={["broken-shield"]}>
+<Pair single id="arc-slayer-toxic_sniper-sharpshooters-study-ex" flavor="A toxic sniper's focus makes him extremely deadly with ranged weapons.">Sharpshooter's Study (Ex)</Pair>
+<Pair hl title="Alters">Studied target</Pair>
+<Pair title="Info">He gains a bonus on attack and damage rolls against his <em>studied target</em> only when attacking with a ranged weapon.</Pair>
+</Ability>
+<Ability id="arc-slayer-toxic_sniper-toxic-grit-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-toxic_sniper-toxic-grit-ex">Toxic Grit (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">The toxic sniper gains the <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> feat as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-slayer-toxic_sniper-toxic-shots-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-slayer-toxic_sniper-toxic-shots-ex">Toxic Shots (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 4th level</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A toxic sniper can coat his ammunition in poison without requiring a <Link to="/eq-weapon/pitted_bullet">pitted bullet</Link>. He is trained in applying poison in this way and cannot accidentally poison himself when applying poison to his ammunition. The toxic sniper can create a number of <em>toxic shots</em> per day equal to <Link to="/misc/half">half</Link> his slayer level plus his Wisdom modifier. The penetrating nature of a <em>toxic shot</em> increases the DC of any poisons applied in this way by 2.</Pair>
+<Pair title="Special">A toxic sniper cannot create a <em>toxic shot</em> that is part of an <Link to="/eq-weapon/alchemical_cartridge">alchemical cartridge</Link>.</Pair>
+</Ability>
+<Ability id="arc-slayer-toxic_sniper-marksman-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-toxic_sniper-marksman-ex">Marksman (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talents gained at 6th, 8th, 12th, 14th, 16th, 18th, and 20th levels</Pair>
+<Pair title="At 6th Level">A toxic sniper reduces the penalty on Stealth checks while sniping by 5.</Pair>
+<Pair title="At 8th Level">He increases the distance from which he can deliver a ranged sneak attack against his <em>studied target</em> by 10 feet.</Pair>
+<Pair title="At 12th Level">The sniping penalty is now reduced by 10.</Pair>
+<Pair title="At 14th Level">Ranged sneak attack distance is now increased by 20 feet.</Pair>
+<Pair title="At 18th Level">The sniping penalty is now reduced by 15.</Pair>
+<Pair title="At 20th Level">Ranged sneak attack distance is now increased by 30 feet.</Pair>
+</Ability>
+<Ability id="arc-slayer-toxic_sniper-precise-toxin-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-toxic_sniper-precise-toxin-ex" flavor={<>A toxic sniper can deliver a <em>toxic shot</em> to especially vulnerable areas.</>}>Precise Toxin (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 10th level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">When he hits an opponent with a <em>toxic shot</em> and deals sneak attack damage, he can forgo all his bonus damage to increase the DC of the his <em>toxic shot's</em> poison. The DC increases by 1 for every 2d6 points of sneak attack damage he forgoes in this way.</Pair>
+</Ability>
 </>};
 const _turncoat = {title: "Turncoat", jsx: <><h2 id="arc-slayer-turncoat-turncoat">Turncoat</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 17</Link><br/>In Sekamina, betraying others before they have the chance to betray you can be a necessary survival technique. While not all adventurers have the heart for such underhanded dealings, others have developed a knack for it. The turncoat's natural talents for deception and treachery are fitting when negotiating with the untrustworthy inhabitants of Sekamina and other notoriously unscrupulous areas, and his ability to adapt allows him to preempt opponents' schemes. Not all party members may be comfortable with having someone so adept at backstabbing among their ranks, but most tend to be grateful that he uses his skills to their benefit.</p>
-<p><strong>Dubious Recognition (Ex):</strong> A turncoat adds half his level (minimum 1) to Sense Motive checks to recognize when a creature is lying or attempting to take advantage of the turncoat and his allies.</p>
-<p>This replaces <strong className="hl">track</strong>.</p>
-<p><strong>Double Speak (Ex):</strong> At 7th level, a turncoat can attempt a Bluff check in place of a Diplomacy check against a studied target. The target can attempt an opposed Sense Motive check.</p>
-<p>This ability replaces <strong className="hl">stalker</strong>.</p>
-<p><strong>Sudden Betrayal (Ex):</strong> At 14th level, as a standard action a turncoat can choose a single creature within 30 feet. He gains a +4 circumstance bonus on Diplomacy checks against this target. If the target has an attitude of indifferent or better toward him, the first attack roll the turncoat makes against that target is automatically treated as threatening a critical hit. If the target's attitude is friendly or better, a successful attack is treated as a confirmed critical hit. This ability can be used only once per day.</p>
-<p>At 19th level, the bonus increases to +6, and the attack is treated as a confirmed critical hit if the target is at least indifferent to the turncoat.</p>
-<p>This ability replaces <strong className="hl">quarry</strong> and <strong className="hl">improved quarry</strong>.</p>
+<Ability id="arc-slayer-turncoat-dubious-recognition-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-turncoat-dubious-recognition-ex">Dubious Recognition (Ex)</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair title="Passive Ability">A turncoat adds half his level (minimum 1) to Sense Motive checks to recognize when a creature is lying or attempting to take advantage of the turncoat and his allies.</Pair>
+</Ability>
+<Ability id="arc-slayer-turncoat-double-speak-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-turncoat-double-speak-ex">Double Speak (Ex)</Pair>
+<Pair hl title="Replaces">Stalker</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A turncoat can attempt a Bluff check in place of a Diplomacy check against a <em>studied target.</em> The target can attempt an opposed Sense Motive check.</Pair>
+</Ability>
+<Ability id="arc-slayer-turncoat-sudden-betrayal-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-turncoat-sudden-betrayal-ex">Sudden Betrayal (Ex)</Pair>
+<Pair hl title="Replaces">Quarry, improved quarry</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Standard Action">A turncoat can choose a single creature within 30 feet. He gains a +4 circumstance bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks against this target. If the target has an attitude of indifferent or better toward him, the first attack roll the turncoat makes against that target is automatically treated as threatening a critical hit. If the target's attitude is friendly or better, a successful attack is treated as a confirmed critical hit. This ability can be used only once per day.</Pair>
+<Pair title="At 19th Level">The bonus increases to +6, and the attack is treated as a confirmed critical hit if the target is at least indifferent to the turncoat.</Pair>
+</Ability>
 </>};
 const _vanguard = {title: "Vanguard", jsx: <><h2 id="arc-slayer-vanguard-vanguard">Vanguard</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 121</Link><br/>Vanguards are battlefield commanders who focus on the brutality of combat and lead their allies to bloody victory. Quick to react to danger, a vanguard is a valuable scout, capable officer, and skilled tactician.</p>
-<p><strong>Lookout (Ex):</strong> At 1st level, a vanguard adds 1/2 his level (minimum 1) to initiative checks.</p>
-<p>This ability replaces <strong className="hl">track</strong>.</p>
-<p><strong>Tactician (Ex):</strong> At 2nd level, a vanguard receives a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. He must meet the prerequisites for this feat. Once per day as a standard action, the vanguard can grant one of his teamwork feats to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 levels the vanguard possesses. Allies do not need to meet the prerequisites of this bonus feat. Whenever the vanguard is able to select a new slayer talent, he can instead choose to gain an additional use per day of this ability.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 2nd level.</p>
-<p><strong>Vanguard's Bond (Ex):</strong> At 4th level, a vanguard forms a bond with his fighting companions. As a move action, he can choose one of his current studied targets and grant half his studied target bonus against that target to all allies within 30 feet who can see or hear him. This bonus lasts for a number of rounds equal to the slayer's Intelligence modifier (minimum 1). This bonus does not stack with any <Link to="/ability/favored_enemy">favored enemy</Link> or studied target bonuses possessed by his allies; they use whichever bonus is higher.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 4th level.</p>
-<p><strong>Ever Ready (Ex):</strong> At 7th level, a vanguard is never considered an <Link to="/rule/surprise">unaware combatant</Link> and is always able to act in the surprise round. The vanguard is still flat-footed in the surprise round until he acts.</p>
-<p>This ability replaces <strong className="hl">stalker</strong>.</p>
-<p><strong>Slayer Talents:</strong> The following slayer talents complement the vanguard archetype: <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/hard_to_fool">hard to fool</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>, and <Link to="/talent/weapon_training">weapon training</Link>.</p>
-<p><strong>Advanced Slayer Talents:</strong> The following advanced slayer talents (and advanced rogue talents) complement the vanguard archetype: <Link to="/talent/feat">feat</Link>, <Link to="/talent/opportunist">opportunist</Link>, <Link to="/slayertalent/slayer_camouflage">slayer camouflage</Link>, and <Link to="/talent/unwitting_ally">unwitting ally</Link>.</p>
-</>};
+<Ability id="arc-slayer-vanguard-lookout-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-vanguard-lookout-ex">Lookout (Ex)</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">A vanguard adds 1/2 his level (minimum 1) to initiative checks.</Pair>
+</Ability>
+<Ability id="arc-slayer-vanguard-tactician-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-vanguard-tactician-ex">Tactician (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A vanguard receives a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. He must meet the prerequisites for this feat.</Pair>
+<Pair title="Standard Action">Once per day, the vanguard can grant one of his teamwork feats to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 levels the vanguard possesses. Allies do not need to meet the prerequisites of this bonus feat.</Pair>
+<Pair title="Special">Whenever the vanguard is able to select a new slayer talent, he can instead choose to gain an additional use per day of this ability.</Pair>
+</Ability>
+<Ability id="arc-slayer-vanguard-vanguards-bond-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-vanguard-vanguards-bond-ex" flavor="A vanguard forms a bond with his fighting companions.">Vanguard's Bond (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 4th level</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Move-Equivalent Action">He can choose one of his current <em>studied targets</em> and grant <Link to="/misc/half">half</Link> his <em>studied target</em> bonus against that target to all allies within 30 feet who can see or hear him. This bonus lasts for a number of rounds equal to the slayer's Intelligence modifier (minimum 1).</Pair>
+<Pair title="Special">This bonus does not stack with any <Link to="/ability/favored_enemy">favored enemy</Link> or <em>studied target</em> bonuses possessed by his allies; they use whichever bonus is higher.</Pair>
+</Ability>
+<Ability id="arc-slayer-vanguard-ever-ready-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-vanguard-ever-ready-ex">Ever Ready (Ex)</Pair>
+<Pair hl title="Replaces">Stalker</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Passive Ability">A vanguard is never considered an <Link to="/rule/surprise">unaware combatant</Link> and is always able to act in the surprise round. The vanguard is still <Link to="/rule/flat_footed">flat-footed</Link> in the surprise round until he acts.</Pair>
+</Ability>
+<p><strong className="hl">The following rogue talents complement the vanguard archetype:</strong> <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/hard_to_fool">hard to fool</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">The following advanced slayer talents complement the vanguard archetype:</strong> <Link to="/slayertalent/advanced_rogue_talent">advanced rogue talent</Link> (<Link to="/talent/feat">feat</Link>, <Link to="/talent/opportunist">opportunist</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link>), <Link to="/slayertalent/slayer_camouflage">slayer camouflage</Link></p></>};
 const _velvet_blade = {title: "Velvet Blade", jsx: <><h2 id="arc-slayer-velvet_blade-velvet-blade">Velvet Blade</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 70</Link><br/>Velvet blades specialize in infiltrating the upper echelons of society, mingling with nobles and courtiers, and killing them. Velvet blades are often born into the aristocracy, with an intricate understanding of the inner workings of upper-class society. Though a few velvet blades are unhinged maniacs who enjoy preying on their peers, most of these well-heeled slayers assume a professional demeanor and hire themselves out to other nobles or well-connected criminal organizations.</p>
 <Ability icon={["skills"]} id="arc-slayer-velvet_blade-undefined">
 <Pair id="arc-slayer-velvet_blade-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
-<p><strong>Armor Proficiency:</strong> A velvet blade is not proficient with medium armor or shields.</p>
-<p>This alters the slayer's <strong className="hl">armor proficiency</strong>.</p>
-<p><strong>Studied Socialite (Ex):</strong> A velvet blade focuses her studies on social infiltration rather than brute force, believing it is easier to kill an opponent quietly and unprepared than in a loud battle. She adds her studied target bonus on Bluff, Diplomacy, Disguise, Intimidate, Knowledge, Perception, Sense Motive, Stealth, and Survival checks against studied opponents, as well as to the DCs of slayer class abilities she uses against such opponents. She never gains a bonus on weapon attack and damage rolls from her studied target ability.</p>
-<p>This ability alters <strong className="hl">studied target</strong>.</p>
-<p><strong>Courtly Graces (Ex):</strong> A velvet blade spends long hours memorizing etiquette and family lineages of royalty and other prominent families. She gains a bonus on Knowledge (nobility checks) equal to half her slayer level (minimum +1).</p>
-<p>This ability replaces <strong className="hl">track</strong>.</p>
-<p><strong>Treacherous Blade (Ex):</strong> At 7th level, a velvet blade can capitalize on how others underestimate her and allow her close to them, assuming she is harmless. She gains the <Link to="/feat/betrayer">Betrayer</Link> feat as a bonus feat, whether or not she meets the prerequisites. Additionally, when making her first attack against a studied target that believes her to be harmless or to be an ally, the attack counts as a sneak attack, even if the target isn't flanked or denied its Dexterity bonus to AC, and the velvet blade gains +2d6 sneak attack damage, increasing by 1d6 at 10th level and every 5 levels thereafter. Even if she immediately attacks the target again (such as by continuing a full attack), only the first attack gains these benefits, since the target immediately realizes the velvet blade is something more than she seemed.</p>
-<p><strong>Silent Dispatch (Ex):</strong> At 11th level, a velvet blade becomes adept at taking out her targets quietly. She gains the <Link to="/vigtalent/silent_dispatch">silent dispatch</Link> vigilante talent without meeting the talent's prerequisites.</p>
-<p>This ability replaces <strong className="hl">swift tracker</strong>.</p>
+<Ability id="arc-slayer-velvet_blade-armor-proficiency" icon={["broken-shield"]}>
+<Pair single id="arc-slayer-velvet_blade-armor-proficiency">Armor Proficiency</Pair>
+<Pair hl title="Alters">Armor proficiency</Pair>
+<Pair title="Info">A velvet blade is not proficient with medium armor or shields.</Pair>
+</Ability>
+<Ability id="arc-slayer-velvet_blade-studied-socialite-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-slayer-velvet_blade-studied-socialite-ex" flavor="A velvet blade focuses her studies on social infiltration rather than brute force, believing it is easier to kill an opponent quietly and unprepared than in a loud battle.">Studied Socialite (Ex)</Pair>
+<Pair hl title="Alters">Studied target</Pair>
+<Pair title="Passive Ability">She adds her <em>studied target</em> bonus on Bluff, Diplomacy, Disguise, Intimidate, Knowledge, Perception, Sense Motive, Stealth, and Survival checks against <em>studied</em> opponents, as well as to the DCs of slayer class abilities she uses against such opponents.</Pair>
+<Pair title="Special">She never gains a bonus on weapon attack and damage rolls from her <em>studied target</em> ability.</Pair>
+</Ability>
+<Ability id="arc-slayer-velvet_blade-courtly-graces-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-velvet_blade-courtly-graces-ex" flavor="A velvet blade spends long hours memorizing etiquette and family lineages of royalty and other prominent families.">Courtly Graces (Ex)</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair title="Passive Ability">She gains a bonus on Knowledge (nobility) checks equal to <Link to="/misc/half">half</Link> her slayer level (minimum +1).</Pair>
+</Ability>
+<Ability id="arc-slayer-velvet_blade-treacherous-blade-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-slayer-velvet_blade-treacherous-blade-ex" flavor="A velvet blade can capitalize on how others underestimate her and allow her close to them, assuming she is harmless.">Treacherous Blade (Ex)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">She gains the <Link to="/feat/betrayer">Betrayer</Link> feat as a bonus feat, whether or not she meets the prerequisites. Additionally, when making her first attack against a <em>studied target</em> that believes her to be harmless or to be an ally, the attack counts as a sneak attack, even if the target isn't flanked or denied its Dexterity bonus to AC, and the velvet blade gains +2d6 sneak attack damage.</Pair>
+<Pair title="At 10th Level">The sneak attack damage becomes +3d6.</Pair>
+<Pair title="At 15th Level">The sneak attack damage increases to +4d6.</Pair>
+<Pair title="At 20th Level">The sneak attack damage becomes +5d6.</Pair>
+<Pair title="Special">Even if she immediately attacks the target again (such as by continuing a full attack), only the first attack gains these benefits, since the target immediately realizes the velvet blade is something more than she seemed.</Pair>
+</Ability>
+<Ability id="arc-slayer-velvet_blade-silent-dispatch-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-velvet_blade-silent-dispatch-ex" flavor="A velvet blade becomes adept at taking out her targets quietly.">Silent Dispatch (Ex)</Pair>
+<Pair hl title="Replaces">Swift tracker</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">She gains the <Link to="/vigtalent/silent_dispatch">silent dispatch</Link> vigilante talent without meeting the talent's prerequisites.</Pair>
+</Ability>
 </>};
 const _witch_killer = {title: "Witch Killer", jsx: <><h2 id="arc-slayer-witch_killer-witch-killer">Witch Killer</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 67</Link><br/>Born into cultures where magic users are hated and feared, witch killers devote their lives to purge the arcane taint from the world.</p>
 <Ability icon={["skills"]} id="arc-slayer-witch_killer-undefined">
 <Pair id="arc-slayer-witch_killer-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair></Ability>
-<p><strong>Studied Witch (Ex):</strong> A witch killer's studied combat bonus applies on Spellcraft checks and saving throws against arcane spells and spell-like abilities and hexes. This bonus is reduced by 1 (minimum 0) if the target is not an arcane spellcaster, or a being called or summoned by arcane magic. He does not gain the increases to the maximum number of studied targets he can have at a time normally attained at 5th, 10th, 15th, and 20th levels, but his bonuses still increase at those levels.</p>
-<p>This ability alters <strong className="hl">studied target</strong>.</p>
-<p><strong>Superstitous (Ex):</strong> Instead of being able to select ranger combat style feats as slayer talents, a witch killer can select any of the following barbarian rage powers as slayer talents, treating his slayer level as his barbarian level: <Link to="/ragepower/clear_mind">clear mind</Link>, <Link to="/ragepower/disruptive">disruptive</Link>, <Link to="/ragepower/eater_of_magic">eater of magic</Link>, <Link to="/ragepower/spell_sunder">spell sunder</Link>, <Link to="/ragepower/spellbreaker">spellbreaker</Link>, <Link to="/ragepower/sunder_enchantment">sunder enchantment</Link>, <Link to="/ragepower/superstition">superstition</Link>, or <Link to="/ragepower/witch_hunter">witch hunter</Link>. If the witch killer selects a rage power that can normally be used only once per rage (eater of magic, spell sunder, or sunder enchantment), he can use it once per day per 5 slayer levels he possesses, though no more than once per round in any event. The other rage powers affect the slayer constantly, though the superstition and witch hunter rage powers apply only against arcane spells and spell-like abilities and the creatures that use them.</p>
-<p><strong>Lingering Thrust (Ex):</strong> At 4th level, when a witch killer's attack against an arcane spellcaster in the midst of casting forces the spellcaster to attempt a <Link to="/rule/concentration">concentration</Link> check, the witch killer adds half his slayer level to the check's DC. When he makes a sneak attack against an arcane spellcaster, up to 1 point of sneak attack damage per slayer level counts as ongoing damage for the purpose of forcing the spellcaster to attempt concentration checks (the witch killer does not add half his slayer level to this DC).</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> gained at 4th level.</p>
-<p><strong>Scent Magic (Su):</strong> At 5th level, a witch killer can detect arcane magic by scent. He can use <Link to="/spell/detect_magic">detect magic</Link> at will (as per a <Link to="/class/paladin">paladin's</Link> ability to detect evil), but only against arcane magic, and the ability is scent-based and thus defeated by effects like <Link to="/spell/negate_aroma">negate aroma</Link>. Even when he isn't concentrating on using his magic scent, when a creature within scent range casts an arcane spell (including arcane spell-like abilities or magic item effects), the witch killer automatically pinpoints the caster's location.</p>
-<p><strong>Burn the Witch (Sp):</strong> At 10th level, once per day when a witch killer observes a creature within 30 feet cast an arcane spell or use an arcane spell-like ability, he can use foster hatred on that character, or target one creature harmed by the arcane effect with vengeful outrage, identifying the caster as the enemy. He can use this ability twice per day at 15th level, and he can use this ability three times per day at 20th level. The save DC is Charisma-based and uses the witch killer's slayer level as his caster level.</p>
-<p>This ability replaces the <strong className="hl">slayer talent</strong> normally gained at 10th level.</p>
+<Ability id="arc-slayer-witch_killer-studied-witch-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-slayer-witch_killer-studied-witch-ex">Studied Witch (Ex)</Pair>
+<Pair hl title="Alters">Studied target</Pair>
+<Pair title="Ability">A witch killer's <em>studied combat</em> bonus applies on Spellcraft checks and saving throws against arcane spells and spell-like abilities and hexes. This bonus is reduced by 1 (minimum 0) if the target is not an arcane spellcaster, or a being called or summoned by arcane magic.</Pair>
+<Pair title="Special">He does not gain the increases to the maximum number of <em>studied targets</em> he can have at a time normally attained at 5th, 10th, 15th, and 20th levels, but his bonuses still increase at those levels.</Pair>
+</Ability>
+<Ability id="arc-slayer-witch_killer-superstitous-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-witch_killer-superstitous-ex">Superstitous (Ex)</Pair>
+<Pair title="Ability">Instead of being able to select ranger combat style feats as slayer talents, a witch killer can select any of the following barbarian rage powers as slayer talents, treating his slayer level as his barbarian level: <Link to="/ragepower/clear_mind">clear mind</Link>, <Link to="/ragepower/disruptive">disruptive</Link>, <Link to="/ragepower/eater_of_magic">eater of magic</Link>, <Link to="/ragepower/spell_sunder">spell sunder</Link>, <Link to="/ragepower/spellbreaker">spellbreaker</Link>, <Link to="/ragepower/sunder_enchantment">sunder enchantment</Link>, <Link to="/ragepower/superstition">superstition</Link>, or <Link to="/ragepower/witch_hunter">witch hunter</Link>.</Pair>
+<Pair title="Special">If the witch killer selects a rage power that can normally be used only once per rage (<em>eater of magic, spell sunder,</em> or <em>sunder enchantment</em>), he can use it once per day per 5 slayer levels he possesses, though no more than once per round in any event. The other rage powers affect the slayer constantly, though the <em>superstition</em> and <em>witch hunter</em> rage powers apply only against arcane spells and spell-like abilities and the creatures that use them.</Pair>
+</Ability>
+<Ability id="arc-slayer-witch_killer-lingering-thrust-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-slayer-witch_killer-lingering-thrust-ex">Lingering Thrust (Ex)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 4th level</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">When a witch killer's attack against an arcane spellcaster in the midst of casting forces the spellcaster to attempt a <Link to="/rule/concentration">concentration</Link> check, the witch killer adds half his slayer level to the check's DC.</Pair>
+<Pair title="Ability">When he makes a sneak attack against an arcane spellcaster, up to 1 point of sneak attack damage per slayer level counts as ongoing damage for the purpose of forcing the spellcaster to attempt concentration checks (the witch killer does not add half his slayer level to this DC).</Pair>
+</Ability>
+<Ability id="arc-slayer-witch_killer-scent-magic-su" icon={["magic-swirl"]}>
+<Pair single id="arc-slayer-witch_killer-scent-magic-su" flavor="A witch killer can detect arcane magic by scent.">Scent Magic (Su)</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">He can use <Link to="/spell/detect_magic">detect magic</Link> at will (as per a <Link to="/class/paladin">paladin's</Link> ability to <em>detect evil</em>), but only against arcane magic, and the ability is scent-based and thus defeated by effects like <Link to="/spell/negate_aroma">negate aroma</Link>.</Pair>
+<Pair title="Passive Ability">Even when he isn't concentrating on using his <em>magic scent,</em> when a creature within scent range casts an arcane spell (including arcane spell-like abilities or magic item effects), the witch killer automatically pinpoints the caster's location.</Pair>
+</Ability>
+<Ability id="arc-slayer-witch_killer-burn-the-witch-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-slayer-witch_killer-burn-the-witch-sp">Burn the Witch (Sp)</Pair>
+<Pair hl title="Replaces">Slayer talent gained at 10th level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">Once per day when a witch killer observes a creature within 30 feet cast an arcane spell or use an arcane spell-like ability, he can use <Link to="/spell/foster_hatred">foster hatred</Link> on that character, or target one creature harmed by the arcane effect with <Link to="/spell/vengeful_outrage">vengeful outrage</Link>, identifying the caster as the enemy.</Pair>
+<Pair title="At 15th Level">He can use this ability 2 times a day.</Pair>
+<Pair title="At 20th Level">He can use this ability 3 times a day.</Pair>
+<Pair title="Special">The save DC is Charisma-based and uses the witch killer's slayer level as his caster level.</Pair>
+</Ability>
 </>};
 const _woodland_sniper = {title: "Woodland Sniper", jsx: <><h2 id="arc-slayer-woodland_sniper-woodland-sniper">Woodland Sniper</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 87</Link><br/>Woodland snipers are guardians of forest and grove, keeping vigil on their borders and hunting bounties and trespassers from the shelter of sturdy branches.</p>
-<p><strong>Tree Climber (Ex):</strong> A woodland sniper adds half his level to Acrobatics and Climb checks to move between, through, or up trees. With a successful DC 15 Acrobatics check, he can make ranged attacks with bows while balancing on branches.</p>
-<p>This replaces <strong className="hl">track</strong>.</p>
-<p><strong>Ranged Sneak Attack (Ex):</strong> At 3rd level, whenever a woodland sniper makes a ranged attack against a creature within 30 feet that is denied its Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), he deals an additional 1d6 points of damage. This damage increases by 1d6 every 3 levels thereafter. Should the woodland sniper score a critical hit with his ranged attack, this additional damage is not multiplied. A woodland sniper cannot use sneak attack with a melee attack.</p>
-<p>At 6th level and every 3rd level thereafter, the range at which he can make a sneak attack increases by 10 feet.</p>
-<p>This alters <strong className="hl">sneak attack</strong>.</p>
-<p><strong>Still Shot (Ex):</strong> At 7th level, when he has cover provided by one or more trees, the woodland sniper reduces the penalty on Stealth checks to remain hidden while sniping by half his slayer level.</p>
-<p>This replaces <strong className="hl">stalker</strong>.</p>
-<p><strong>Branchwalking (Ex):</strong> At 11th level, the woodland sniper gains a climb speed equal to his base speed. In addition, at 13th level, he can move from one tree to another via connecting branches by adding 5 to the DC of an Acrobatics or Climb check to move within the canopy. The woodland sniper cannot end his movement on a branch that cannot support his weight.</p>
-<p>This replaces <strong className="hl">swift tracker</strong> and <strong className="hl">slayer's advance</strong>.</p>
+<Ability id="arc-slayer-woodland_sniper-tree-climber-ex" icon={["upgrade","bowman"]}>
+<Pair single id="arc-slayer-woodland_sniper-tree-climber-ex">Tree Climber (Ex)</Pair>
+<Pair hl title="Replaces">Track</Pair>
+<Pair title="Passive Ability">A woodland sniper adds half his level to Acrobatics and Climb checks to move between, through, or up trees.</Pair>
+<Pair title="Ability">With a successful DC 15 Acrobatics check, he can make ranged attacks with bows while balancing on branches.</Pair>
+</Ability>
+<Ability id="arc-slayer-woodland_sniper-ranged-sneak-attack-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-woodland_sniper-ranged-sneak-attack-ex">Ranged Sneak Attack (Ex)</Pair>
+<Pair hl title="Alters">Sneak attack</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">Whenever a woodland sniper makes a ranged attack against a creature within 30 feet that is denied its Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), he deals additional damage. This damage is a number of d6 equal to <Link to="/misc/one_third">one-third</Link> of his slayer level. Should the woodland sniper score a critical hit with his ranged attack, this additional damage is not multiplied.</Pair>
+<Pair title="At 6th Level">The range at which he can make a sneak attack increases by 10 feet.</Pair>
+<Pair title="At 9th Level">The range at which he can make a sneak attack is now increased by 20 feet.</Pair>
+<Pair title="At 12th Level">The range at which he can make a sneak attack is now increased by 30 feet.</Pair>
+<Pair title="At 15th Level">The range at which he can make a sneak attack is now increased by 40 feet.</Pair>
+<Pair title="At 18th Level">The range at which he can make a sneak attack is now increased by 50 feet.</Pair>
+<Pair title="Special">A woodland sniper cannot use sneak attack with a melee attack.</Pair>
+</Ability>
+<Ability id="arc-slayer-woodland_sniper-still-shot-ex" icon={["upgrade"]}>
+<Pair single id="arc-slayer-woodland_sniper-still-shot-ex">Still Shot (Ex)</Pair>
+<Pair hl title="Replaces">Stalker</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Passive Ability">When he has <Link to="/rule/cover">cover</Link> provided by one or more trees, the woodland sniper reduces the penalty on Stealth checks to remain hidden while sniping by half his slayer level.</Pair>
+</Ability>
+<Ability id="arc-slayer-woodland_sniper-branchwalking-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-slayer-woodland_sniper-branchwalking-ex">Branchwalking (Ex)</Pair>
+<Pair hl title="Replaces">Swift tracker, slayer's advance</Pair>
+<Pair title="At 11th Level">The woodland sniper gains a climb speed equal to his base speed.</Pair>
+<Pair title="At 13th Level">He can move from one tree to another via connecting branches by adding 5 to the DC of an Acrobatics or Climb check to move within the canopy. The woodland sniper cannot end his movement on a branch that cannot support his weight.</Pair>
+</Ability>
 </>};
 export default {ankous_shadow:_ankous_shadow,avalancher:_avalancher,bloody_jake:_bloody_jake,bounty_hunter:_bounty_hunter,butterfly_blade:_butterfly_blade,cleaner:_cleaner,covenbane:_covenbane,cutthroat:_cutthroat,deliverer:_deliverer,dune_rider:_dune_rider,family_hunter:_family_hunter,grave_warden:_grave_warden,guerrilla:_guerrilla,pureblade:_pureblade,sczarni_executioner:_sczarni_executioner,sniper:_sniper,spawn_slayer:_spawn_slayer,spire_diver:_spire_diver,spiritslayer:_spiritslayer,stygian_slayer:_stygian_slayer,toxic_sniper:_toxic_sniper,turncoat:_turncoat,vanguard:_vanguard,velvet_blade:_velvet_blade,witch_killer:_witch_killer,woodland_sniper:_woodland_sniper}
