@@ -101,7 +101,7 @@ const makeAbilityBlock = ({
 	marked2,
 	prefix,
 	jlid,
-	text,
+	text: txt,
 	convertEncodedInfo,
 	maybeClear,
 	flags,
@@ -133,11 +133,12 @@ const makeAbilityBlock = ({
 		useLMod, useMod, useInc, // default useUnit is "time"
 		useF,
 		useUnit,
-		containerInfo,
+		containerInfo, title,
 		replace, alter, type, prereq,
 		...etc
 	} = attrs;
 	const {x, y, z, X, Y, Z} = parseXYZ(etc, logError);
+	const text = txt || title;
 	resetSwaps();
 	const output = [];
 	const doParse = (input, split) =>
