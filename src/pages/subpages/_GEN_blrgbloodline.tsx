@@ -10,7 +10,7 @@ const _not_found = {title: "Unknown", jsx: <><h2 id="blrgbloodline-not_found-err
 </>};
 const _aberrant = {title: "Aberrant", jsx: <><h2 id="blrgbloodline-aberrant-aberrant-bloodline">Aberrant Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 17</Link></p>
-<p>There is a taint in your blood that is both alien and bizarre. When you bloodrage, this manifests in peculiar and terrifying ways.</p>
+<p>There is a taint in your blood that is both alien and bizarre. When you <em>bloodrage,</em> this manifests in peculiar and terrifying ways.</p>
 <p><strong>Bonus Feats:</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_disarm">Improved Disarm</Link>, <Link to="/feat/improved_grapple">Improved Grapple</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>, <Link to="/feat/iron_will">Iron Will</Link></p><Ability id="blrgbloodline-aberrant-bonus-spells-by-bloodrager-level" icon={["spell-book"]}>
 <Pair single id="blrgbloodline-aberrant-bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/enlarge_person">Enlarge person</Link></Pair>
@@ -19,7 +19,7 @@ const _aberrant = {title: "Aberrant", jsx: <><h2 id="blrgbloodline-aberrant-aber
 <Pair plain title="16th"><Link to="/spell/black_tentacles">Black tentacles</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-aberrant-bloodline-powers">Bloodline Powers</h3>
-<p>While bloodraging, you gain the abilities and immunities of some <Link to="/type/aberration">aberrations</Link>, but show signs of your tainted heritage.</p>
+<p>While <em>bloodraging,</em> you gain the abilities and immunities of some <Link to="/type/aberration">aberrations</Link>, but show signs of your tainted heritage.</p>
 <Ability id="blrgbloodline-aberrant-staggering-strike-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-aberrant-staggering-strike-su">Staggering Strike (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -48,12 +48,12 @@ const _aberrant = {title: "Aberrant", jsx: <><h2 id="blrgbloodline-aberrant-aber
 <Ability id="blrgbloodline-aberrant-aberrant-form-su" icon={["armor-upgrade","stairs-goal"]}>
 <Pair single id="blrgbloodline-aberrant-aberrant-form-su">Aberrant Form (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">Your body becomes truly unnatural. You are immune to critical hits and sneak attacks. In addition, you gain <Link to="/umr/blindsight">blindsight</Link> with a range of 60 feet and your bloodrager damage reduction increases by 1. You have these benefits constantly, even while not bloodraging.</Pair>
+<Pair title="Passive Ability">Your body becomes truly unnatural. You are immune to critical hits and sneak attacks. In addition, you gain <Link to="/umr/blindsight">blindsight</Link> with a range of 60 feet and your bloodrager damage reduction increases by 1. You have these benefits constantly, even while not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _abyssal = {title: "Abyssal", jsx: <><h2 id="blrgbloodline-abyssal-abyssal-bloodline">Abyssal Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 17</Link></p>
-<p>Generations ago, a demon spread its filth into the essence of your bloodline. While it doesn't manifest in all of your kin, in those moments when you're bloodraging, you embody its terrifying presence.</p>
+<p>Generations ago, a demon spread its filth into the essence of your bloodline. While it doesn't manifest in all of your kin, in those moments when you're <em>bloodraging,</em> you embody its terrifying presence.</p>
 <p><strong>Bonus Feats:</strong> <Link to="/feat/cleave">Cleave</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_bull_rush">Improved Bull Rush</Link>, <Link to="/feat/improved_sunder">Improved Sunder</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/toughness">Toughness</Link></p><Ability id="blrgbloodline-abyssal-bonus-spells-by-bloodrager-level" icon={["spell-book"]}>
 <Pair single id="blrgbloodline-abyssal-bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/ray_of_enfeeblement">Ray of enfeeblement</Link></Pair>
@@ -62,11 +62,11 @@ const _abyssal = {title: "Abyssal", jsx: <><h2 id="blrgbloodline-abyssal-abyssal
 <Pair plain title="16th"><Link to="/spell/stoneskin">Stoneskin</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-abyssal-bloodline-powers">Bloodline Powers</h3>
-<p>The power of the Abyss courses through your veins, causing horrific transformations during your bloodrage.</p>
+<p>The power of the Abyss courses through your veins, causing horrific transformations during your <em>bloodrage.</em></p>
 <Ability id="blrgbloodline-abyssal-claws-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-abyssal-claws-su">Claws (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">You grow claws while bloodraging. These claws are treated as <Link to="/umr/natural_weapons">natural weapons</Link>, allowing you to make two claw attacks as a full attack, using your full base attack bonus. These attacks deal 1d6 points of damage each (1d4 if you are Small) plus your Strength modifier.</Pair>
+<Pair title="Passive Ability">You grow claws while <em>bloodraging.</em> These claws are treated as <Link to="/umr/natural_weapons">natural weapons</Link>, allowing you to make two claw attacks as a full attack, using your full base attack bonus. These attacks deal 1d6 points of damage each (1d4 if you are Small) plus your Strength modifier.</Pair>
 <Pair title="At 4th Level">Your claws are considered magic weapons for the purpose of overcoming damage reduction.</Pair>
 <Pair title="At 8th Level">The base damage your claws deal increases to 1d8 points (1d6 if you are small).</Pair>
 <Pair title="At 12th Level">Your claws become <Link to="/magic-enh/flaming">flaming</Link> weapons, which deal an additional 1d6 points of fire damage on a hit.</Pair>
@@ -74,7 +74,7 @@ const _abyssal = {title: "Abyssal", jsx: <><h2 id="blrgbloodline-abyssal-abyssal
 <Ability id="blrgbloodline-abyssal-demonic-bulk-su" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-abyssal-demonic-bulk-su">Demonic Bulk (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Ability">When entering a bloodrage, you can choose to grow one size category larger than your base size (as <Link to="/spell/enlarge_person">enlarge person</Link>) even if you aren't humanoid.</Pair>
+<Pair title="Ability">When entering a <em>bloodrage,</em> you can choose to grow one size category larger than your base size (as <Link to="/spell/enlarge_person">enlarge person</Link>) even if you aren't humanoid.</Pair>
 </Ability>
 <Ability id="blrgbloodline-abyssal-demon-resistances-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-abyssal-demon-resistances-su">Demon Resistances (Su)</Pair>
@@ -84,19 +84,19 @@ const _abyssal = {title: "Abyssal", jsx: <><h2 id="blrgbloodline-abyssal-abyssal
 <Ability id="blrgbloodline-abyssal-abyssal-bloodrage-su" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-abyssal-abyssal-bloodrage-su">Abyssal Bloodrage (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Passive Ability">The morale bonus to Strength granted by your bloodrage increases by 2, but the penalty to AC becomes -4 instead of -2.</Pair>
+<Pair title="Passive Ability">The morale bonus to Strength granted by your <em>bloodrage</em> increases by 2, but the penalty to AC becomes -4 instead of -2.</Pair>
 <Pair title="At 16th Level">The bonus to Strength increases by 4 instead.</Pair>
 <Pair title="At 20th Level">The bonus increases by 6 instead.</Pair>
 </Ability>
 <Ability id="blrgbloodline-abyssal-demonic-aura-su" icon={["aura"]}>
 <Pair single id="blrgbloodline-abyssal-demonic-aura-su">Demonic Aura (Su)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
-<Pair title="Ability">When entering a bloodrage you can choose to exude an aura of fire. The aura is a 5-foot <Link to="/misc/burst">burst</Link> centered on you, and deals 2d6 + your Constitution modifier points of fire damage to creatures that end their turns within it.</Pair>
+<Pair title="Ability">When entering a <em>bloodrage</em> you can choose to exude an aura of fire. The aura is a 5-foot <Link to="/misc/burst">burst</Link> centered on you, and deals 2d6 + your Constitution modifier points of fire damage to creatures that end their turns within it.</Pair>
 </Ability>
 <Ability id="blrgbloodline-abyssal-demonic-immunities-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-abyssal-demonic-immunities-su">Demonic Immunities (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">You're <Link to="/umr/immune">immune</Link> to electricity and poison. You have this benefit constantly, even while not bloodraging.</Pair>
+<Pair title="Passive Ability">You're <Link to="/umr/immune">immune</Link> to electricity and poison. You have this benefit constantly, even while not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _aquatic = {title: "Aquatic", jsx: <><h2 id="blrgbloodline-aquatic-aquatic-bloodline">Aquatic Bloodline</h2>
@@ -120,7 +120,7 @@ const _aquatic = {title: "Aquatic", jsx: <><h2 id="blrgbloodline-aquatic-aquatic
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You gain a swim speed of 30 feet and the ability to breathe both underwater and in air.</Pair>
 <Pair title="At 8th Level">You gain cold <Link to="/umr/resistance">resistance</Link> 5.</Pair>
-<Pair title="At 12th Level">Your swim speed increases to 60 feet, and you have the 4th-level benefits of aquatic adaptation constantly, even when not in bloodrage (but not the 8th- and 12th-level benefits).</Pair>
+<Pair title="At 12th Level">Your swim speed increases to 60 feet, and you have the 4th-level benefits of aquatic adaptation constantly, even when not in <em>bloodrage</em> (but not the 8th- and 12th-level benefits).</Pair>
 </Ability>
 <Ability id="blrgbloodline-aquatic-watersense-ex" icon={["stairs-goal"]}>
 <Pair single id="blrgbloodline-aquatic-watersense-ex">Watersense (Ex)</Pair>
@@ -130,7 +130,7 @@ const _aquatic = {title: "Aquatic", jsx: <><h2 id="blrgbloodline-aquatic-aquatic
 <Ability id="blrgbloodline-aquatic-wavedarter-sp-su" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-aquatic-wavedarter-sp-su">Wavedarter (Sp, Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Passive Ability">Your bloodrage directs the flow of water to assist you in battle. While underwater, your reach increases by 5 feet and you gain the effects of <Link to="/spell/haste">haste</Link>.</Pair>
+<Pair title="Passive Ability">Your <em>bloodrage</em> directs the flow of water to assist you in battle. While underwater, your reach increases by 5 feet and you gain the effects of <Link to="/spell/haste">haste</Link>.</Pair>
 </Ability>
 <Ability id="blrgbloodline-aquatic-currentcaller-su" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-aquatic-currentcaller-su">Currentcaller (Su)</Pair>
@@ -141,7 +141,7 @@ const _aquatic = {title: "Aquatic", jsx: <><h2 id="blrgbloodline-aquatic-aquatic
 <Ability id="blrgbloodline-aquatic-deep-fury-su" icon={["stairs-goal","armor-upgrade"]}>
 <Pair single id="blrgbloodline-aquatic-deep-fury-su">Deep Fury (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">You gain tremorsense 120 feet in water, as well as <Link to="/ability/evasion">evasion</Link> and <Link to="/umr/immunity">immunity</Link> to cold and <Link to="/rule/pressure_damage">pressure damage</Link>. You have these benefits constantly, even when not in bloodrage.</Pair>
+<Pair title="Passive Ability">You gain tremorsense 120 feet in water, as well as <Link to="/ability/evasion">evasion</Link> and <Link to="/umr/immunity">immunity</Link> to cold and <Link to="/rule/pressure_damage">pressure damage</Link>. You have these benefits constantly, even when not in <em>bloodrage.</em></Pair>
 </Ability>
 </>};
 const _arcane = {title: "Arcane", jsx: <><h2 id="blrgbloodline-arcane-arcane-bloodline">Arcane Bloodline</h2>
@@ -157,7 +157,7 @@ const _arcane = {title: "Arcane", jsx: <><h2 id="blrgbloodline-arcane-arcane-blo
 <Pair plain title="16th"><Link to="/spell/dimension_door">Dimension door</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-arcane-bloodline-powers">Bloodline Powers</h3>
-<p>When you bloodrage, arcane power transforms you into an arcane juggernaut who can cut down even the most careful caster.</p>
+<p>When you <em>bloodrage,</em> arcane power transforms you into an arcane juggernaut who can cut down even the most careful caster.</p>
 <Ability id="blrgbloodline-arcane-disruptive-bloodrage-su" icon={["armor-downgrade"]}>
 <Pair single id="blrgbloodline-arcane-disruptive-bloodrage-su">Disruptive Bloodrage (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -166,27 +166,27 @@ const _arcane = {title: "Arcane", jsx: <><h2 id="blrgbloodline-arcane-arcane-blo
 <Ability id="blrgbloodline-arcane-arcane-bloodrage-sp" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-arcane-arcane-bloodrage-sp">Arcane Bloodrage (Sp)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Ability">When entering a bloodrage you can choose one of the following spells and apply its effects to yourself: <Link to="/spell/blur">blur</Link>, <Link to="/spell/protection_from_arrows">protection from arrows</Link>, <Link to="/spell/resist_energy">resist energy</Link> (choose one energy type), or <Link to="/spell/spider_climb">spider climb</Link>. These effects last for as long as you continue bloodraging, regardless of the spell's normal duration.</Pair>
+<Pair title="Ability">When entering a <em>bloodrage</em> you can choose one of the following spells and apply its effects to yourself: <Link to="/spell/blur">blur</Link>, <Link to="/spell/protection_from_arrows">protection from arrows</Link>, <Link to="/spell/resist_energy">resist energy</Link> (choose one energy type), or <Link to="/spell/spider_climb">spider climb</Link>. These effects last for as long as you continue <em>bloodraging,</em> regardless of the spell's normal duration.</Pair>
 </Ability>
 <Ability id="blrgbloodline-arcane-greater-arcane-bloodrage-sp" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-arcane-greater-arcane-bloodrage-sp">Greater Arcane Bloodrage (Sp)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
-<Pair title="Ability">When entering a bloodrage, you can choose to apply the effects of either <Link to="/spell/displacement">displacement</Link> or <Link to="/spell/haste">haste</Link> to yourself. This is in addition to <em>arcane bloodrage,</em> and otherwise works as that ability.</Pair>
+<Pair title="Ability">When entering a <em>bloodrage,</em> you can choose to apply the effects of either <Link to="/spell/displacement">displacement</Link> or <Link to="/spell/haste">haste</Link> to yourself. This is in addition to <em>arcane bloodrage,</em> and otherwise works as that ability.</Pair>
 </Ability>
 <Ability id="blrgbloodline-arcane-casters-scourge-ex" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-arcane-casters-scourge-ex">Caster's Scourge (Ex)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Ability">You gain a number of extra attacks of opportunity equal to your Dexterity modifier (minimum 1). You can use these attacks of opportunity only against spellcasters in your threatened area who cast or attempt to cast defensively. The <Link to="/feat/spellbreaker">Spellbreaker</Link> feat, the <em>caster's bane</em> bloodrage power, or some similar effect is still required to make attacks of opportunity against spellcasters who are casting defensively. You have this ability constantly, even while not bloodraging.</Pair>
+<Pair title="Ability">You gain a number of extra attacks of opportunity equal to your Dexterity modifier (minimum 1). You can use these attacks of opportunity only against spellcasters in your threatened area who cast or attempt to cast defensively. The <Link to="/feat/spellbreaker">Spellbreaker</Link> feat, the <em>caster's bane</em> bloodrage power, or some similar effect is still required to make attacks of opportunity against spellcasters who are casting defensively. You have this ability constantly, even while not <em>bloodraging.</em></Pair>
 </Ability>
 <Ability id="blrgbloodline-arcane-true-arcane-bloodrage-sp" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-arcane-true-arcane-bloodrage-sp">True Arcane Bloodrage (Sp)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
-<Pair title="Ability">When entering a bloodrage you can choose one of the following spells and apply its effects to yourself: <Link to="/spell/beast_shape_iv">beast shape IV</Link> (choose a creature your size or larger only), <Link to="/spell/form_of_the_dragon_i">form of the dragon I</Link>, or <Link to="/spell/transformation">transformation</Link>. This is in addition to <em>arcane bloodrage</em> and <em>greater arcane bloodrage,</em> and otherwise works as those abilities.</Pair>
+<Pair title="Ability">When entering a <em>bloodrage</em> you can choose one of the following spells and apply its effects to yourself: <Link to="/spell/beast_shape_iv">beast shape IV</Link> (choose a creature your size or larger only), <Link to="/spell/form_of_the_dragon_i">form of the dragon I</Link>, or <Link to="/spell/transformation">transformation</Link>. This is in addition to <em>arcane bloodrage</em> and <em>greater arcane bloodrage,</em> and otherwise works as those abilities.</Pair>
 </Ability>
 <Ability id="blrgbloodline-arcane-casters-bane-ex" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-arcane-casters-bane-ex">Caster's Bane (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">Spellcasters with a caster level lower than your bloodrager level always provoke attacks of opportunity within your threatened area, even when casting defensively. You have this ability constantly, even while not bloodraging.</Pair>
+<Pair title="Passive Ability">Spellcasters with a caster level lower than your bloodrager level always provoke attacks of opportunity within your threatened area, even when casting defensively. You have this ability constantly, even while not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _black_blood = {title: "Black Blood", jsx: <><h2 id="blrgbloodline-black_blood-black-blood-bloodline">Black Blood Bloodline</h2>
@@ -204,13 +204,13 @@ const _black_blood = {title: "Black Blood", jsx: <><h2 id="blrgbloodline-black_b
 <Ability id="blrgbloodline-black_blood-black-blood-immunity-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-black_blood-black-blood-immunity-su">Black Blood-Immunity (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">Your blood runs black with the blood of Orv. You are immune to the effects (both beneficial and destructive) of black blood. You have this benefit constantly, even while not bloodraging.</Pair>
+<Pair title="Passive Ability">Your blood runs black with the blood of Orv. You are immune to the effects (both beneficial and destructive) of black blood. You have this benefit constantly, even while not <em>bloodraging.</em></Pair>
 </Ability>
 <Ability id="blrgbloodline-black_blood-black-blood-cold-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-black_blood-black-blood-cold-su">Black Blood-Cold (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 times/day</Pair>
-<Pair title="Immediate Action">When you take damage from a slashing or piercing attack while bloodraging, you can grant your melee attacks the <Link to="/magic-enh/frost">frost</Link> weapon special ability for 2 rounds.</Pair>
+<Pair title="Immediate Action">When you take damage from a slashing or piercing attack while <em>bloodraging,</em> you can grant your melee attacks the <Link to="/magic-enh/frost">frost</Link> weapon special ability for 2 rounds.</Pair>
 </Ability>
 <Ability id="blrgbloodline-black_blood-abnormal-reach-su" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-black_blood-abnormal-reach-su">Abnormal Reach (Su)</Pair>
@@ -236,12 +236,12 @@ const _black_blood = {title: "Black Blood", jsx: <><h2 id="blrgbloodline-black_b
 <Ability id="blrgbloodline-black_blood-black-blood-immunity-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-black_blood-black-blood-immunity-su">Black Blood Immunity (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">You gain <Link to="/umr/immunity">immunity</Link> to cold, nonlethal damage, critical hits, and <Link to="/ability/sneak_attack">sneak attacks</Link>. You have this benefit constantly, even when not bloodraging.</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/immunity">immunity</Link> to cold, nonlethal damage, critical hits, and <Link to="/ability/sneak_attack">sneak attacks</Link>. You have this benefit constantly, even when not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _celestial = {title: "Celestial", jsx: <><h2 id="blrgbloodline-celestial-celestial-bloodline">Celestial Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 19</Link></p>
-<p>By way of a celestial ancestor or divine intervention, the blood of angels fills your body with a holy potency, granting you a majestic visage and angelic powers when you enter your bloodrage.</p>
+<p>By way of a celestial ancestor or divine intervention, the blood of angels fills your body with a holy potency, granting you a majestic visage and angelic powers when you enter your <em>bloodrage.</em></p>
 <p><strong>Bonus Feats:</strong> <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/mounted_combat">Mounted Combat</Link>, <Link to="/feat/ride_by_attack">Ride-By Attack</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link></p><Ability id="blrgbloodline-celestial-bonus-spells-by-bloodrager-level" icon={["spell-book"]}>
 <Pair single id="blrgbloodline-celestial-bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/bless">Bless</Link></Pair>
@@ -250,7 +250,7 @@ const _celestial = {title: "Celestial", jsx: <><h2 id="blrgbloodline-celestial-c
 <Pair plain title="16th"><Link to="/spell/holy_smite">Holy smite</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-celestial-bloodline-powers">Bloodline Powers</h3>
-<p>Your bloodline grants a number of resistances and changes your form to something angelic and terrible to behold when you bloodrage.</p>
+<p>Your bloodline grants a number of resistances and changes your form to something angelic and terrible to behold when you <em>bloodrage.</em></p>
 <Ability id="blrgbloodline-celestial-angelic-attacks-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-celestial-angelic-attacks-su">Angelic Attacks (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -265,7 +265,7 @@ const _celestial = {title: "Celestial", jsx: <><h2 id="blrgbloodline-celestial-c
 <Ability id="blrgbloodline-celestial-conviction-su" icon={["magic-swirl"]}>
 <Pair single id="blrgbloodline-celestial-conviction-su">Conviction (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
-<Pair title="Ability">Once per bloodrage you can reroll one ability check, skill check, or saving throw you just made. You must decide to use this ability after the die is rolled, but before the GM reveals the results. You must take the second result, even if it's worse.</Pair>
+<Pair title="Ability">Once per <em>bloodrage</em> you can reroll one ability check, skill check, or saving throw you just made. You must decide to use this ability after the die is rolled, but before the GM reveals the results. You must take the second result, even if it's worse.</Pair>
 </Ability>
 <Ability id="blrgbloodline-celestial-wings-of-heaven-su" icon={["stairs-goal"]}>
 <Pair single id="blrgbloodline-celestial-wings-of-heaven-su">Wings of Heaven (Su)</Pair>
@@ -281,12 +281,12 @@ const _celestial = {title: "Celestial", jsx: <><h2 id="blrgbloodline-celestial-c
 <Ability id="blrgbloodline-celestial-ascension-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-celestial-ascension-su">Ascension (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">You become infused with the power of the heavens. You gain <Link to="/umr/immunity">immunity</Link> to acid, cold, and petrification. You also gain resistance 10 to electricity and fire, as well as a +4 racial bonus on saving throws against poison. You have these benefits constantly, even while not bloodraging.</Pair>
+<Pair title="Passive Ability">You become infused with the power of the heavens. You gain <Link to="/umr/immunity">immunity</Link> to acid, cold, and petrification. You also gain resistance 10 to electricity and fire, as well as a +4 racial bonus on saving throws against poison. You have these benefits constantly, even while not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _destined = {title: "Destined", jsx: <><h2 id="blrgbloodline-destined-destined-bloodline">Destined Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 19</Link></p>
-<p>Your bloodline is destined for great things. When you bloodrage, you exude a greatness that makes all but the most legendary creatures seem lesser.</p>
+<p>Your bloodline is destined for great things. When you <em>bloodrage,</em> you exude a greatness that makes all but the most legendary creatures seem lesser.</p>
 <p><strong>Bonus Feats:</strong> <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/leadership">Leadership</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/weapon_focus">Weapon Focus</Link></p><Ability id="blrgbloodline-destined-bonus-spells-by-bloodrager-level" icon={["spell-book"]}>
 <Pair single id="blrgbloodline-destined-bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/shield">Shield</Link></Pair>
@@ -311,7 +311,7 @@ const _destined = {title: "Destined", jsx: <><h2 id="blrgbloodline-destined-dest
 <Ability id="blrgbloodline-destined-certain-strike-su" icon={["rolling-dices"]}>
 <Pair single id="blrgbloodline-destined-certain-strike-su">Certain Strike (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
-<Pair title="Ability">You may reroll an attack roll once during a bloodrage. You must decide to use this ability after the die is rolled, but before the GM reveals the results. You must take the second result, even if it's worse.</Pair>
+<Pair title="Ability">You may reroll an attack roll once during a <em>bloodrage.</em> You must decide to use this ability after the die is rolled, but before the GM reveals the results. You must take the second result, even if it's worse.</Pair>
 </Ability>
 <Ability id="blrgbloodline-destined-defy-death-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-destined-defy-death-su">Defy Death (Su)</Pair>
@@ -327,12 +327,12 @@ const _destined = {title: "Destined", jsx: <><h2 id="blrgbloodline-destined-dest
 <Ability id="blrgbloodline-destined-victory-or-death-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-destined-victory-or-death-su">Victory or Death (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">You are immune to paralysis and petrification, as well as to the stunned, dazed, and staggered conditions. You have these benefits constantly, even while not bloodraging.</Pair>
+<Pair title="Passive Ability">You are immune to paralysis and petrification, as well as to the stunned, dazed, and staggered conditions. You have these benefits constantly, even while not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _draconic = {hasJL:true,title: "Draconic", jsx: <><div className="jumpList" id="blrgbloodline-draconic-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="blrgbloodline-draconic-expanded-bloodlines">Expanded Bloodlines</InnerLink></li><li><InnerLink toTop to="blrgbloodline-draconic-esoteric-dragons">Esoteric Dragons</InnerLink></li><li><InnerLink toTop to="blrgbloodline-draconic-imperial-dragons">Imperial Dragons</InnerLink></li><li><InnerLink toTop to="blrgbloodline-draconic-outer-dragons">Outer Dragons</InnerLink></li><li><InnerLink toTop to="blrgbloodline-draconic-primal-dragons">Primal Dragons</InnerLink></li></ul></div><h2 id="blrgbloodline-draconic-draconic-bloodline">Draconic Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 19</Link></p>
-<p>At some point in your family's history, a dragon interbred with your bloodline. Now, the sublime monster's ancient power fuels your bloodrage.</p>
+<p>At some point in your family's history, a dragon interbred with your bloodline. Now, the sublime monster's ancient power fuels your <em>bloodrage.</em></p>
 <p><strong>Bonus Feats:</strong> <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/cleave">Cleave</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Fly), <Link to="/feat/toughness">Toughness</Link></p><Ability id="blrgbloodline-draconic-bonus-spells-by-bloodrager-level" icon={["spell-book"]}>
 <Pair single id="blrgbloodline-draconic-bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/shield">Shield</Link></Pair>
@@ -427,18 +427,18 @@ const _draconic = {hasJL:true,title: "Draconic", jsx: <><div className="jumpList
 <Ability id="blrgbloodline-draconic-dragon-wings-su" icon={["stairs-goal"]}>
 <Pair single id="blrgbloodline-draconic-dragon-wings-su">Dragon Wings (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Ability">When entering a bloodrage, you can choose to have leathery wings grow from your back, giving you a fly speed of 60 feet with average maneuverability.</Pair>
+<Pair title="Ability">When entering a <em>bloodrage,</em> you can choose to have leathery wings grow from your back, giving you a fly speed of 60 feet with average maneuverability.</Pair>
 <Pair title="At 16th Level">Your fly speed increases to 80 feet with good maneuverability.</Pair>
 </Ability>
 <Ability id="blrgbloodline-draconic-dragon-form-su" icon={["magic-swirl"]}>
 <Pair single id="blrgbloodline-draconic-dragon-form-su">Dragon Form (Su)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
-<Pair title="Ability">When entering a bloodrage, you can choose to take the form of your chosen dragon type (as <Link to="/spell/form_of_the_dragon_ii">form of the dragon II</Link>, but with average or good maneuverability, as you would gain from the dragon wings bloodrage power above).</Pair>
+<Pair title="Ability">When entering a <em>bloodrage,</em> you can choose to take the form of your chosen dragon type (as <Link to="/spell/form_of_the_dragon_ii">form of the dragon II</Link>, but with average or good maneuverability, as you would gain from the dragon wings bloodrage power above).</Pair>
 </Ability>
 <Ability id="blrgbloodline-draconic-power-of-wyrms-su" icon={["armor-upgrade","stairs-goal"]}>
 <Pair single id="blrgbloodline-draconic-power-of-wyrms-su">Power of Wyrms (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">You gain <Link to="/umr/immunity">immunity</Link> to paralysis, sleep, and damage from your energy type. You also gain <Link to="/umr/blindsense">blindsense</Link> with a range of 60 feet. You have these benefits constantly, even while not bloodraging.</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/immunity">immunity</Link> to paralysis, sleep, and damage from your energy type. You also gain <Link to="/umr/blindsense">blindsense</Link> with a range of 60 feet. You have these benefits constantly, even while not <em>bloodraging.</em></Pair>
 </Ability>
 <h3 id="blrgbloodline-draconic-expanded-bloodlines" data-hash-target>Expanded Bloodlines</h3>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons pg. 4</Link></p>
@@ -602,7 +602,7 @@ const _elemental = {title: "Elemental", jsx: <><h2 id="blrgbloodline-elemental-e
 <Pair plain title="16th"><Link to="/spell/elemental_body_i">Elemental body I</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-elemental-bloodline-powers">Bloodline Powers</h3>
-<p>One of the four elements infuses your being, and you can draw upon its power while bloodraging. At first level, you must select an element: air, earth, fire, or water. Once chosen, this cannot be changed. A number of your abilities deal damage and grant resistances based on your element, as noted below.</p>
+<p>One of the four elements infuses your being, and you can draw upon its power while <em>bloodraging.</em> At first level, you must select an element: air, earth, fire, or water. Once chosen, this cannot be changed. A number of your abilities deal damage and grant resistances based on your element, as noted below.</p>
 <p><strong>Element:</strong> Choose one.</p>
 <ScrollContainer id="blrgbloodline-elemental--table-0"><table>
 <thead>
@@ -660,17 +660,17 @@ const _elemental = {title: "Elemental", jsx: <><h2 id="blrgbloodline-elemental-e
 <Pair single id="blrgbloodline-elemental-elemental-form-su">Elemental Form (Su)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
-<Pair title="Ability">When entering a bloodrage you can take an elemental form as <Link to="/spell/elemental_body_iv">elemental body IV</Link>.</Pair>
+<Pair title="Ability">When entering a <em>bloodrage</em> you can take an elemental form as <Link to="/spell/elemental_body_iv">elemental body IV</Link>.</Pair>
 </Ability>
 <Ability id="blrgbloodline-elemental-elemental-body-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-elemental-elemental-body-su">Elemental Body (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">Elemental power surges through your body. You gain immunity to <Link to="/ability/sneak_attack">sneak attacks</Link>, critical hits, and damage from your energy type. You have this benefit constantly, even while not bloodraging.</Pair>
+<Pair title="Passive Ability">Elemental power surges through your body. You gain immunity to <Link to="/ability/sneak_attack">sneak attacks</Link>, critical hits, and damage from your energy type. You have this benefit constantly, even while not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _fey = {title: "Fey", jsx: <><h2 id="blrgbloodline-fey-fey-bloodline">Fey Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 21</Link></p>
-<p>One of your ancestors was <Link to="/type/fey">fey</Link>, or the fey realm somehow intermixed with your bloodline. It affects your bloodrage in tricky and surprising ways.</p>
+<p>One of your ancestors was <Link to="/type/fey">fey</Link>, or the fey realm somehow intermixed with your bloodline. It affects your <em>bloodrage</em> in tricky and surprising ways.</p>
 <p><strong>Bonus Feats:</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/step_up">Step Up</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link></p><Ability id="blrgbloodline-fey-bonus-spells-by-bloodrager-level" icon={["spell-book"]}>
 <Pair single id="blrgbloodline-fey-bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/entangle">Entangle</Link></Pair>
@@ -679,7 +679,7 @@ const _fey = {title: "Fey", jsx: <><h2 id="blrgbloodline-fey-fey-bloodline">Fey 
 <Pair plain title="16th"><Link to="/spell/confusion">Confusion</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-fey-bloodline-powers">Bloodline Powers</h3>
-<p>The power of the natural world saturates your being, and manifests itself when you bloodrage.</p>
+<p>The power of the natural world saturates your being, and manifests itself when you <em>bloodrage.</em></p>
 <Ability id="blrgbloodline-fey-confusing-critical-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-fey-confusing-critical-su">Confusing Critical (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -698,7 +698,7 @@ const _fey = {title: "Fey", jsx: <><h2 id="blrgbloodline-fey-fey-bloodline">Fey 
 <Ability id="blrgbloodline-fey-quickling-bloodrage-sp" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-fey-quickling-bloodrage-sp">Quickling Bloodrage (Sp)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Passive Ability">While bloodraging you're treated as if you are under the effects of <em>haste.</em></Pair>
+<Pair title="Passive Ability">While <em>bloodraging</em> you're treated as if you are under the effects of <em>haste.</em></Pair>
 </Ability>
 <Ability id="blrgbloodline-fey-one-with-nature-su" icon={["magic-swirl","armor-upgrade"]}>
 <Pair single id="blrgbloodline-fey-one-with-nature-su">One with Nature (Su)</Pair>
@@ -706,13 +706,13 @@ const _fey = {title: "Fey", jsx: <><h2 id="blrgbloodline-fey-fey-bloodline">Fey 
 <Pair title="Usage">Three times a day.</Pair>
 <Pair title="Move-Equivalent Action"><p>You can transport yourself from one tree to another tree, as <Link to="/spell/tree_stride">tree stride</Link> with half the transport range.</p>
 <p>Creatures of the animal or plant types don't attack you unless compelled to do so by magic or you attack them first.</p>
-<p>You gain these abilities even while not bloodraging.</p>
+<p>You gain these abilities even while not <em>bloodraging.</em></p>
 </Pair>
 </Ability>
 <Ability id="blrgbloodline-fey-fury-of-the-fey-su" icon={["armor-downgrade"]}>
 <Pair single id="blrgbloodline-fey-fury-of-the-fey-su">Fury of the Fey (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Ability">When entering a bloodrage you can choose one type of creature (and subtype for humanoids or outsiders) that can be affected by the <Link to="/magic-enh/bane">bane</Link> weapon special ability. All of your melee attacks are considered to have <em>bane</em> against that type. This ability doesn't stack with other forms of <em>bane.</em></Pair>
+<Pair title="Ability">When entering a <em>bloodrage</em> you can choose one type of creature (and subtype for humanoids or outsiders) that can be affected by the <Link to="/magic-enh/bane">bane</Link> weapon special ability. All of your melee attacks are considered to have <em>bane</em> against that type. This ability doesn't stack with other forms of <em>bane.</em></Pair>
 </Ability>
 </>};
 const _hag = {title: "Hag", jsx: <><h2 id="blrgbloodline-hag-hag-bloodline">Hag Bloodline</h2>
@@ -726,7 +726,7 @@ const _hag = {title: "Hag", jsx: <><h2 id="blrgbloodline-hag-hag-bloodline">Hag 
 <Pair plain title="16th"><Link to="/spell/charm_monster">Charm monster</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-hag-bloodline-powers">Bloodline Powers</h3>
-<p>While bloodraging, you manifest the physical power and arcane corruption of your hag ancestor.</p>
+<p>While <em>bloodraging,</em> you manifest the physical power and arcane corruption of your hag ancestor.</p>
 <Ability id="blrgbloodline-hag-evil-eye-su" icon={["armor-downgrade"]}>
 <Pair single id="blrgbloodline-hag-evil-eye-su">Evil Eye (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -742,8 +742,8 @@ const _hag = {title: "Hag", jsx: <><h2 id="blrgbloodline-hag-hag-bloodline">Hag 
 <Ability id="blrgbloodline-hag-hag-transformation-su" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-hag-hag-transformation-su">Hag Transformation (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Passive Ability">Your form grows more twisted and powerful while bloodraging, but clumsy, blind aggression clouds your mind. Your morale bonus to Strength increases by 2, and you gain low-light vision and darkvision (60 feet), but you take a -2 penalty to both Dexterity and Wisdom for the duration of your bloodrage.</Pair>
-<Pair title="At 16th Level">You apply your morale bonus on Will saving throws while bloodraging to Fortitude and Reflex saving throws against spells and spell-like abilities.</Pair>
+<Pair title="Passive Ability">Your form grows more twisted and powerful while <em>bloodraging,</em> but clumsy, blind aggression clouds your mind. Your morale bonus to Strength increases by 2, and you gain low-light vision and darkvision (60 feet), but you take a -2 penalty to both Dexterity and Wisdom for the duration of your <em>bloodrage.</em></Pair>
+<Pair title="At 16th Level">You apply your morale bonus on Will saving throws while <em>bloodraging</em> to Fortitude and Reflex saving throws against spells and spell-like abilities.</Pair>
 </Ability>
 <Ability id="blrgbloodline-hag-covenguard-su" icon={["magic-swirl"]}>
 <Pair single id="blrgbloodline-hag-covenguard-su">Covenguard (Su)</Pair>
@@ -770,7 +770,7 @@ const _infernal = {title: "Infernal", jsx: <><h2 id="blrgbloodline-infernal-infe
 <Pair plain title="16th"><Link to="/spell/fire_shield">Fire shield</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-infernal-bloodline-powers">Bloodline Powers</h3>
-<p>When you bloodrage, hellfire infuses your blood with terrifying effects.</p>
+<p>When you <em>bloodrage,</em> hellfire infuses your blood with terrifying effects.</p>
 <Ability id="blrgbloodline-infernal-hellfire-strike-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-infernal-hellfire-strike-su">Hellfire Strike (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -792,7 +792,7 @@ const _infernal = {title: "Infernal", jsx: <><h2 id="blrgbloodline-infernal-infe
 <Ability id="blrgbloodline-infernal-dark-wings-su" icon={["stairs-goal"]}>
 <Pair single id="blrgbloodline-infernal-dark-wings-su">Dark Wings (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Ability">When entering a bloodrage you can choose to have bat-like wings grow from your back, giving you a fly speed of 60 feet with average maneuverability.</Pair>
+<Pair title="Ability">When entering a <em>bloodrage</em> you can choose to have bat-like wings grow from your back, giving you a fly speed of 60 feet with average maneuverability.</Pair>
 <Pair title="At 16th Level">Your fly speed increases to 80 feet with good maneuverability.</Pair>
 </Ability>
 <Ability id="blrgbloodline-infernal-hellfire-charge-su" icon={["mailed-fist"]}>
@@ -803,7 +803,7 @@ const _infernal = {title: "Infernal", jsx: <><h2 id="blrgbloodline-infernal-infe
 <Ability id="blrgbloodline-infernal-fiend-of-the-pit-su" icon={["armor-upgrade","stairs-goal"]}>
 <Pair single id="blrgbloodline-infernal-fiend-of-the-pit-su">Fiend of the Pit (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">You gain <Link to="/umr/immunity">immunity</Link> to fire and poison. You also gain resistance 10 to acid and cold, and gain the <Link to="/umr/see_in_darkness">see in darkness</Link> ability. You have these benefits constantly, even while not bloodraging.</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/immunity">immunity</Link> to fire and poison. You also gain resistance 10 to acid and cold, and gain the <Link to="/umr/see_in_darkness">see in darkness</Link> ability. You have these benefits constantly, even while not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _kyton = {title: "Kyton", jsx: <><h2 id="blrgbloodline-kyton-kyton-bloodline">Kyton Bloodline</h2>
@@ -817,7 +817,7 @@ const _kyton = {title: "Kyton", jsx: <><h2 id="blrgbloodline-kyton-kyton-bloodli
 <Pair plain title="16th"><Link to="/spell/fear">Fear</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-kyton-bloodline-powers">Bloodline Powers</h3>
-<p>The sadistic power of the kytons flows through you, twisting you into a creature of pain and darkness when you bloodrage.</p>
+<p>The sadistic power of the kytons flows through you, twisting you into a creature of pain and darkness when you <em>bloodrage.</em></p>
 <Ability id="blrgbloodline-kyton-painful-strike-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-kyton-painful-strike-su">Painful Strike (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -838,7 +838,7 @@ const _kyton = {title: "Kyton", jsx: <><h2 id="blrgbloodline-kyton-kyton-bloodli
 <Ability id="blrgbloodline-kyton-agonys-embrace-su" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-kyton-agonys-embrace-su">Agony's Embrace (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Passive Ability">Whenever you're hit by a critical hit, your morale bonus to Strength from your bloodrage increases by 2 for 1d6 rounds or until your rage ends.</Pair>
+<Pair title="Passive Ability">Whenever you're hit by a critical hit, your morale bonus to Strength from your <em>bloodrage</em> increases by 2 for 1d6 rounds or until your <em>rage</em> ends.</Pair>
 <Pair title="At 16th Level">The bonus to Strength instead increases by 4.</Pair>
 <Pair title="At 20th Level">The bonus to Strength instead increases by +6.</Pair>
 </Ability>
@@ -850,12 +850,12 @@ const _kyton = {title: "Kyton", jsx: <><h2 id="blrgbloodline-kyton-kyton-bloodli
 <Ability id="blrgbloodline-kyton-kyton-immunities-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-kyton-kyton-immunities-su">Kyton Immunities (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">You gain <Link to="/umr/immunity">immunity</Link> to cold and DR 10/good and silver. You have this benefit constantly, even when not bloodraging.</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/immunity">immunity</Link> to cold and DR 10/good and silver. You have this benefit constantly, even when not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _martyred = {title: "Martyred", jsx: <><h2 id="blrgbloodline-martyred-martyred-bloodline">Martyred Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 19</Link></p>
-<p>One of your ancestors paid the ultimate price for her beliefs. This distant relative martyred herself out of a devout dedication to some specific cause, and that sacrifice has infused you with power that you can use for good - or for ill. When you bloodrage, an inspiring fury conjures echoes of your forebear's incredible determination and selfless dedication, both offering you protection and amplifying your ability to punish any who dare incur your wrath.</p>
+<p>One of your ancestors paid the ultimate price for her beliefs. This distant relative martyred herself out of a devout dedication to some specific cause, and that sacrifice has infused you with power that you can use for good - or for ill. When you <em>bloodrage,</em> an inspiring fury conjures echoes of your forebear's incredible determination and selfless dedication, both offering you protection and amplifying your ability to punish any who dare incur your wrath.</p>
 <p><strong>Bonus Feats:</strong> <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/heroic_defiance">Heroic Defiance</Link>, <Link to="/feat/heroic_recovery">Heroic Recovery</Link>, <Link to="/feat/leadership">Leadership</Link>, <Link to="/feat/persuasive">Persuasive</Link>, <Link to="/feat/toughness">Toughness</Link></p><Ability id="blrgbloodline-martyred-bonus-spells-by-bloodrager-level" icon={["spell-book"]}>
 <Pair single id="blrgbloodline-martyred-bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/endure_elements">Endure elements</Link></Pair>
@@ -864,7 +864,7 @@ const _martyred = {title: "Martyred", jsx: <><h2 id="blrgbloodline-martyred-mart
 <Pair plain title="16th"><Link to="/spell/blessing_of_fervor">Blessing of fervor</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-martyred-bloodline-powers">Bloodline Powers</h3>
-<p>When you bloodrage, you channel the power of your ancestor's self-sacrifice to urge yourself and your allies on to greater feats of strength than would otherwise be possible.</p>
+<p>When you <em>bloodrage,</em> you channel the power of your ancestor's self-sacrifice to urge yourself and your allies on to greater feats of strength than would otherwise be possible.</p>
 <Ability id="blrgbloodline-martyred-ancestral-strikes-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-martyred-ancestral-strikes-su">Ancestral Strikes (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -882,7 +882,7 @@ const _martyred = {title: "Martyred", jsx: <><h2 id="blrgbloodline-martyred-mart
 <Ability id="blrgbloodline-martyred-forebears-reserves-su" icon={["magic-swirl"]}>
 <Pair single id="blrgbloodline-martyred-forebears-reserves-su">Forebear's Reserves (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
-<Pair title="Ability">You can reroll a saving throw once during a bloodrage. You must decide to use this ability after the die is rolled but before the GM reveals the result. You must take the second result, even if it's worse.</Pair>
+<Pair title="Ability">You can reroll a saving throw once during a <em>bloodrage.</em> You must decide to use this ability after the die is rolled but before the GM reveals the result. You must take the second result, even if it's worse.</Pair>
 </Ability>
 <Ability id="blrgbloodline-martyred-ancestral-champion-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-martyred-ancestral-champion-su">Ancestral Champion (Su)</Pair>
@@ -893,18 +893,18 @@ const _martyred = {title: "Martyred", jsx: <><h2 id="blrgbloodline-martyred-mart
 <Pair single id="blrgbloodline-martyred-sacrificial-exchange-su">Sacrificial Exchange (Su)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
-<Pair title="Swift Action">While you are bloodraging, you can take a -2 penalty to Armor Class to grant one ally within 30 feet a +4 morale bonus to one ability score. (This penalty to your AC stacks with the penalty from your bloodrage.) The penalty and bonus last for the duration of your bloodrage.</Pair>
+<Pair title="Swift Action">While you are <em>bloodraging,</em> you can take a -2 penalty to Armor Class to grant one ally within 30 feet a +4 morale bonus to one ability score. (This penalty to your AC stacks with the penalty from your <em>bloodrage.</em>) The penalty and bonus last for the duration of your <em>bloodrage.</em></Pair>
 <Pair title="At 20th Level">The penalty this ability imposes changes to -4, and the ally's bonus increases to +6.</Pair>
 </Ability>
 <Ability id="blrgbloodline-martyred-eternal-martyr-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-martyred-eternal-martyr-su">Eternal Martyr (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">Your ancestor's act of martyrdom infuses your spirit. Your ancestor's sacrifice transcends time and space, keeping you alive when you otherwise shouldn't be and sanctifying your form. You become immune to death effects. Material components for spells and effects to bring you back to life (such as <Link to="/spell/raise_dead">raise dead</Link> or <Link to="/spell/resurrection">resurrection</Link>) cost half as much as normal. Your body cannot be turned into an undead creature, as though you were affected by a permanent <Link to="/spell/hallow">hallow</Link> effect (caster level = your bloodrager level). You have these benefits constantly, even while not bloodraging.</Pair>
+<Pair title="Passive Ability">Your ancestor's act of martyrdom infuses your spirit. Your ancestor's sacrifice transcends time and space, keeping you alive when you otherwise shouldn't be and sanctifying your form. You become immune to death effects. Material components for spells and effects to bring you back to life (such as <Link to="/spell/raise_dead">raise dead</Link> or <Link to="/spell/resurrection">resurrection</Link>) cost half as much as normal. Your body cannot be turned into an undead creature, as though you were affected by a permanent <Link to="/spell/hallow">hallow</Link> effect (caster level = your bloodrager level). You have these benefits constantly, even while not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _medusa = {title: "Medusa", jsx: <><h2 id="blrgbloodline-medusa-medusa-bloodline">Medusa Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 16</Link></p>
-<p>No magical creature is more iconic in Iblydan lore than the <Link to="/monster/medusa">medusa</Link>. Perhaps your lineage traces back to a medusa, or an ancestor survived a medusa's petrifying gaze and was forever changed by the experience. However the medusa's influence entered your bloodline, when you bloodrage, you gain fearsome and ancient powers.</p>
+<p>No magical creature is more iconic in Iblydan lore than the <Link to="/monster/medusa">medusa</Link>. Perhaps your lineage traces back to a medusa, or an ancestor survived a medusa's petrifying gaze and was forever changed by the experience. However the medusa's influence entered your bloodline, when you <em>bloodrage,</em> you gain fearsome and ancient powers.</p>
 <p><strong>Bonus Feats:</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/blind_fight">Blind-Fight</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/toughness">Toughness</Link></p><Ability id="blrgbloodline-medusa-bonus-spells-by-bloodrager-level" icon={["spell-book"]}>
 <Pair single id="blrgbloodline-medusa-bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/cause_fear">Cause fear</Link></Pair>
@@ -948,7 +948,7 @@ const _medusa = {title: "Medusa", jsx: <><h2 id="blrgbloodline-medusa-medusa-blo
 </>};
 const _naga = {title: "Naga", jsx: <><h2 id="blrgbloodline-naga-naga-bloodline">Naga Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 16</Link></p>
-<p>The blood of the powerful, serpentine aberrations known as nagas runs through your veins, fueling your bloodrage.</p>
+<p>The blood of the powerful, serpentine aberrations known as nagas runs through your veins, fueling your <em>bloodrage.</em></p>
 <p><strong>Bonus Feats:</strong> <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/combat_casting">Combat Casting</Link>, <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/stealthy">Stealthy</Link></p><Ability id="blrgbloodline-naga-bonus-spells-by-bloodrager-level" icon={["spell-book"]}>
 <Pair single id="blrgbloodline-naga-bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/ray_of_enfeeblement">Ray of enfeeblement</Link></Pair>
@@ -957,7 +957,7 @@ const _naga = {title: "Naga", jsx: <><h2 id="blrgbloodline-naga-naga-bloodline">
 <Pair plain title="16th"><Link to="/spell/poison">Poison</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-naga-bloodline-powers">Bloodline Powers</h3>
-<p>When you bloodrage, arcane power surges through your body, infusing you with the aberrant power and terrible strength of the <Link to="/family/naga">nagas</Link>.</p>
+<p>When you <em>bloodrage,</em> arcane power surges through your body, infusing you with the aberrant power and terrible strength of the <Link to="/family/naga">nagas</Link>.</p>
 <Ability id="blrgbloodline-naga-serpent-fangs-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-naga-serpent-fangs-su">Serpent Fangs (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -973,7 +973,7 @@ const _naga = {title: "Naga", jsx: <><h2 id="blrgbloodline-naga-naga-bloodline">
 <Ability id="blrgbloodline-naga-naga-defenses-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-naga-naga-defenses-su">Naga Defenses (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
-<Pair title="Passive Ability">When entering a bloodrage, you gain a +2 enhancement bonus to your natural armor bonus and a +4 bonus on saves against poison.</Pair>
+<Pair title="Passive Ability">When entering a <em>bloodrage,</em> you gain a +2 enhancement bonus to your natural armor bonus and a +4 bonus on saves against poison.</Pair>
 <Pair title="At 16th Level">The bonus to your natural armor increases to +4 and the bonus on saves against poison increases to +8.</Pair>
 <Pair title="At 20th Level">The bonus to your natural armor increases to +6, and you gain immunity to poison.</Pair>
 </Ability>
@@ -985,17 +985,17 @@ const _naga = {title: "Naga", jsx: <><h2 id="blrgbloodline-naga-naga-bloodline">
 <div className="sideNoteWrap"><ScrollContainer id="blrgbloodline-naga--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 your bloodrager level + your Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><Ability id="blrgbloodline-naga-naga-form-sp" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-naga-naga-form-sp">Naga Form (Sp)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
-<Pair title="Ability">When entering a bloodrage, you can assume the form of a naga (as per <Link to="/spell/naga_shape_iii">naga shape III</Link>).</Pair>
+<Pair title="Ability">When entering a <em>bloodrage,</em> you can assume the form of a naga (as per <Link to="/spell/naga_shape_iii">naga shape III</Link>).</Pair>
 </Ability>
 <Ability id="blrgbloodline-naga-naga-thoughts-sp-su" icon={["armor-upgrade","stairs-goal"]}>
 <Pair single id="blrgbloodline-naga-naga-thoughts-sp-su">Naga Thoughts (Sp, Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">When entering a bloodrage, you become immune to charm effects and all forms of mind reading, you gain a +2 bonus on saving throws against other mind-affecting effects, you gain the effects of the spell <Link to="/spell/see_invisibility">see invisibility</Link>, and you can use <Link to="/spell/detect_thoughts">detect thoughts</Link> at will.</Pair>
+<Pair title="Passive Ability">When entering a <em>bloodrage,</em> you become immune to charm effects and all forms of mind reading, you gain a +2 bonus on saving throws against other mind-affecting effects, you gain the effects of the spell <Link to="/spell/see_invisibility">see invisibility</Link>, and you can use <Link to="/spell/detect_thoughts">detect thoughts</Link> at will.</Pair>
 </Ability>
 </>};
 const _phoenix = {title: "Phoenix", jsx: <><h2 id="blrgbloodline-phoenix-phoenix-bloodline">Phoenix Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_144_midwives_to_death">Pathfinder #144: Midwives to Death pg. 82</Link></p>
-<p>One of your ancestors may have witnessed the fiery resurrection of a <Link to="/monster/phoenix">phoenix</Link> or been healed by the grace of this legendary bird. Whatever the case, the flames of the phoenix burn brightly within your soul, filling you with an inextinguishable vitality that can withstand the most harrowing of assaults. When you bloodrage, vibrant energy boils forth from beneath your skin, granting you both the soothing warmth to heal a friend's wounds and the brutal power to burn flesh from bone. Your rage is an awesome and terrible thing to behold, as the raw power of your untamed life force can allow you to pull yourself back from the grasp of death itself.</p>
+<p>One of your ancestors may have witnessed the fiery resurrection of a <Link to="/monster/phoenix">phoenix</Link> or been healed by the grace of this legendary bird. Whatever the case, the flames of the phoenix burn brightly within your soul, filling you with an inextinguishable vitality that can withstand the most harrowing of assaults. When you <em>bloodrage,</em> vibrant energy boils forth from beneath your skin, granting you both the soothing warmth to heal a friend's wounds and the brutal power to burn flesh from bone. Your rage is an awesome and terrible thing to behold, as the raw power of your untamed life force can allow you to pull yourself back from the grasp of death itself.</p>
 <p><strong>Bonus Feats:</strong> <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/critical_focus">Critical Focus</Link>, <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/improved_initiative">Improved Initiative</Link>, <Link to="/feat/mobility">Mobility</Link></p><Ability id="blrgbloodline-phoenix-bonus-spells-by-bloodrager-level" icon={["spell-book"]}>
 <Pair single id="blrgbloodline-phoenix-bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/burning_hands">Burning hands</Link></Pair>
@@ -1004,7 +1004,7 @@ const _phoenix = {title: "Phoenix", jsx: <><h2 id="blrgbloodline-phoenix-phoenix
 <Pair plain title="16th"><Link to="/spell/fire_shield">Fire shield</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-phoenix-bloodline-powers">Bloodline Powers</h3>
-<p>When you bloodrage, you channel the molten fires of the <Link to="/monster/phoenix">phoenix</Link> to sear your foes and fill your allies with an unquenchable vigor.</p>
+<p>When you <em>bloodrage,</em> you channel the molten fires of the <Link to="/monster/phoenix">phoenix</Link> to sear your foes and fill your allies with an unquenchable vigor.</p>
 <Ability id="blrgbloodline-phoenix-dispelling-strikes-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-phoenix-dispelling-strikes-su">Dispelling Strikes (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -1022,24 +1022,24 @@ const _phoenix = {title: "Phoenix", jsx: <><h2 id="blrgbloodline-phoenix-phoenix
 <Ability id="blrgbloodline-phoenix-blazing-vitality-su" icon={["aura"]}>
 <Pair single id="blrgbloodline-phoenix-blazing-vitality-su">Blazing Vitality (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
-<Pair title="Passive Ability">When tensions run high and your emotions flare, you let forth waves of restorative energy from within. You emit a 10-foot-radius aura of energizing fire while bloodraging. Any ally that ends their turn within this aura gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to your Constitution modifier. These temporary hit points last for 1 minute.</Pair>
+<Pair title="Passive Ability">When tensions run high and your emotions flare, you let forth waves of restorative energy from within. You emit a 10-foot-radius aura of energizing fire while <em>bloodraging.</em> Any ally that ends their turn within this aura gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to your Constitution modifier. These temporary hit points last for 1 minute.</Pair>
 </Ability>
 <Ability id="blrgbloodline-phoenix-molten-wings-su" icon={["stairs-goal"]}>
 <Pair single id="blrgbloodline-phoenix-molten-wings-su">Molten Wings (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Ability">When entering a bloodrage you can choose to have wings of flame sprout from your back, giving you a fly speed of 60 feet with average maneuverability.</Pair>
+<Pair title="Ability">When entering a <em>bloodrage</em> you can choose to have wings of flame sprout from your back, giving you a fly speed of 60 feet with average maneuverability.</Pair>
 <Pair title="At 16th Level">Your fly speed increases to 80 feet with good maneuverability.</Pair>
 </Ability>
 <Ability id="blrgbloodline-phoenix-self-resurrection-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-phoenix-self-resurrection-su">Self-Resurrection (Su)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
-<Pair title="Passive Ability">From the ashes of your body springs forth new life. Once per day when you are reduced below 0 hit points while you are bloodraging, you can call upon the power in your blood to pull yourself back from death. This functions as a <Link to="/spell/breath_of_life">breath of life</Link> spell cast upon yourself. Using this ability does not take an action. This ability does not function if your body is completely destroyed by an effect such as <Link to="/spell/disintegrate">disintegrate</Link>.</Pair>
+<Pair title="Passive Ability">From the ashes of your body springs forth new life. Once per day when you are reduced below 0 hit points while you are <em>bloodraging,</em> you can call upon the power in your blood to pull yourself back from death. This functions as a <Link to="/spell/breath_of_life">breath of life</Link> spell cast upon yourself. Using this ability does not take an action. This ability does not function if your body is completely destroyed by an effect such as <Link to="/spell/disintegrate">disintegrate</Link>.</Pair>
 <Pair title="At 20th Level">This instead functions as a <Link to="/spell/heal">heal</Link> spell, except that the healing can return you to life as per <em>breath of life,</em> using your bloodrager level as your caster level.</Pair>
 </Ability>
 <Ability id="blrgbloodline-phoenix-phoenix-fire-su" icon={["mailed-fist","aura","armor-upgrade"]}>
 <Pair single id="blrgbloodline-phoenix-phoenix-fire-su">Phoenix Fire (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">The power of the phoenix brings righteous destruction to any who oppose it. While bloodraging, you gain the following effects: your melee attacks deal an additional 2d6 points of fire damage, any enemies within 20 feet of you must succeed at a Reflex save (DC = 10 + 1/2 your bloodrager level + your Constitution modifier) or take 4d6 points of fire damage at the start of their turn, and any creature that attacks you with a natural or non-reach weapon takes 1d6 points of fire damage (no save) with each successful hit.</Pair>
+<Pair title="Passive Ability">The power of the phoenix brings righteous destruction to any who oppose it. While <em>bloodraging,</em> you gain the following effects: your melee attacks deal an additional 2d6 points of fire damage, any enemies within 20 feet of you must succeed at a Reflex save (DC = 10 + 1/2 your bloodrager level + your Constitution modifier) or take 4d6 points of fire damage at the start of their turn, and any creature that attacks you with a natural or non-reach weapon takes 1d6 points of fire damage (no save) with each successful hit.</Pair>
 </Ability>
 </>};
 const _salamander = {title: "Salamander", jsx: <><h2 id="blrgbloodline-salamander-salamander-bloodline">Salamander Bloodline</h2>
@@ -1053,7 +1053,7 @@ const _salamander = {title: "Salamander", jsx: <><h2 id="blrgbloodline-salamande
 <Pair plain title="16th"><Link to="/spell/fire_shield">Fire shield</Link> (warm only)</Pair>
 </Ability>
 <h3 id="blrgbloodline-salamander-bloodline-powers">Bloodline Powers</h3>
-<p>When you bloodrage, you gain the form and flame of the <Link to="/monster/salamander">salamander</Link> and the following powers.</p>
+<p>When you <em>bloodrage,</em> you gain the form and flame of the <Link to="/monster/salamander">salamander</Link> and the following powers.</p>
 <Ability id="blrgbloodline-salamander-serpents-tail-su" icon={["stairs-goal"]}>
 <Pair single id="blrgbloodline-salamander-serpents-tail-su">Serpent's Tail (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -1072,7 +1072,7 @@ const _salamander = {title: "Salamander", jsx: <><h2 id="blrgbloodline-salamande
 <Ability id="blrgbloodline-salamander-bloodsmith-su" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-salamander-bloodsmith-su">Bloodsmith (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
-<Pair title="Ability">When entering a bloodrage, you can choose one manufactured weapon you wield, shield you wield, or piece of armor you wear to gain the benefit of <Link to="/spell/greater_magic_weapon">greater magic weapon</Link> (weapon) or <Link to="/spell/magic_vestment">magic vestment</Link> (shield or armor). The caster level of this effect is equal to your bloodrager level, and its effects end when your bloodrage ends or when you no longer wear or wield the weapon, shield, or armor.</Pair>
+<Pair title="Ability">When entering a <em>bloodrage,</em> you can choose one manufactured weapon you wield, shield you wield, or piece of armor you wear to gain the benefit of <Link to="/spell/greater_magic_weapon">greater magic weapon</Link> (weapon) or <Link to="/spell/magic_vestment">magic vestment</Link> (shield or armor). The caster level of this effect is equal to your bloodrager level, and its effects end when your <em>bloodrage</em> ends or when you no longer wear or wield the weapon, shield, or armor.</Pair>
 </Ability>
 <Ability id="blrgbloodline-salamander-scorching-heat-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-salamander-scorching-heat-su">Scorching Heat (Su)</Pair>
@@ -1088,7 +1088,7 @@ const _salamander = {title: "Salamander", jsx: <><h2 id="blrgbloodline-salamande
 <Ability id="blrgbloodline-salamander-essence-of-fire-ex" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-salamander-essence-of-fire-ex">Essence of Fire (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">You become <Link to="/umr/immune">immune</Link> to fire damage. In addition, your bloodrager damage reduction increases by 5. If you don't have bloodrager damage reduction, you gain DR 10/magic instead. You have these benefits constantly, even while you are not bloodraging.</Pair>
+<Pair title="Passive Ability">You become <Link to="/umr/immune">immune</Link> to fire damage. In addition, your bloodrager damage reduction increases by 5. If you don't have bloodrager damage reduction, you gain DR 10/magic instead. You have these benefits constantly, even while you are not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _shadow = {title: "Shadow", jsx: <><h2 id="blrgbloodline-shadow-shadow-bloodline">Shadow Bloodline</h2>
@@ -1106,13 +1106,13 @@ const _shadow = {title: "Shadow", jsx: <><h2 id="blrgbloodline-shadow-shadow-blo
 <Ability id="blrgbloodline-shadow-shadow-vision-su" icon={["stairs-goal"]}>
 <Pair single id="blrgbloodline-shadow-shadow-vision-su">Shadow Vision (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">While bloodraging, you gain low-light vision if you don't already have it. If you already have low-light vision, you gain darkvision to a distance of 30 feet.</Pair>
+<Pair title="Passive Ability">While <em>bloodraging,</em> you gain low-light vision if you don't already have it. If you already have low-light vision, you gain darkvision to a distance of 30 feet.</Pair>
 <Pair title="At 10th Level">You gain darkvision with a range of 30 feet, or add 30 feet to the range of your darkvision if you already have it.</Pair>
 </Ability>
 <Ability id="blrgbloodline-shadow-shades-of-rage-su" icon={["aura"]}>
 <Pair single id="blrgbloodline-shadow-shades-of-rage-su">Shades of Rage (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Passive Ability">Whenever you enter a bloodrage, the <Link to="/rule/light_level">light level</Link> within 30 feet of you decreases by one step. Natural light is always affected, but magical illumination dispels this ability if the caster of the light effect succeeds at a caster level check against a DC equal to 10 + your class level.</Pair>
+<Pair title="Passive Ability">Whenever you enter a <em>bloodrage,</em> the <Link to="/rule/light_level">light level</Link> within 30 feet of you decreases by one step. Natural light is always affected, but magical illumination dispels this ability if the caster of the light effect succeeds at a caster level check against a DC equal to 10 + your class level.</Pair>
 </Ability>
 <Ability id="blrgbloodline-shadow-strength-of-shadows-su" icon={["armor-upgrade","mailed-fist"]}>
 <Pair single id="blrgbloodline-shadow-strength-of-shadows-su">Strength of Shadows (Su)</Pair>
@@ -1149,36 +1149,36 @@ const _shapechanger = {title: "Shapechanger", jsx: <><h2 id="blrgbloodline-shape
 <Pair plain title="16th"><Link to="/spell/stoneskin">Stoneskin</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-shapechanger-bloodline-powers">Bloodline Powers</h3>
-<p>Transformative powers in your blood emerge when you bloodrage.</p>
+<p>Transformative powers in your blood emerge when you <em>bloodrage.</em></p>
 <Ability id="blrgbloodline-shapechanger-shifting-aspect-su" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-shapechanger-shifting-aspect-su">Shifting Aspect (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Ability">You gain the benefit of the <Link to="/feat/aspect_of_the_beast">Aspect of the Beast</Link> feat while bloodraging. As part of the action to enter a bloodrage, you can choose any one of the four manifestations to affect you for the duration of your bloodrage.</Pair>
+<Pair title="Ability">You gain the benefit of the <Link to="/feat/aspect_of_the_beast">Aspect of the Beast</Link> feat while <em>bloodraging.</em> As part of the action to enter a <em>bloodrage,</em> you can choose any one of the four manifestations to affect you for the duration of your <em>bloodrage.</em></Pair>
 </Ability>
 <Ability id="blrgbloodline-shapechanger-spontaneous-change-sp" icon={["magic-swirl"]}>
 <Pair single id="blrgbloodline-shapechanger-spontaneous-change-sp">Spontaneous Change (Sp)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Swift Action">When entering a bloodrage, you can cast a transmutation spell that affects only you, provided that the spell's normal casting time is 1 round or shorter. The spell lasts for as long as you continue bloodraging, regardless of the spell's normal duration. You can use this ability only to cast bloodrager spells you know.</Pair>
+<Pair title="Swift Action">When entering a <em>bloodrage,</em> you can cast a transmutation spell that affects only you, provided that the spell's normal casting time is 1 round or shorter. The spell lasts for as long as you continue <em>bloodraging,</em> regardless of the spell's normal duration. You can use this ability only to cast bloodrager spells you know.</Pair>
 </Ability>
 <Ability id="blrgbloodline-shapechanger-evolving-aspect-su" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-shapechanger-evolving-aspect-su">Evolving Aspect (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
-<Pair title="Ability">You gain <em>Aspect of the Beast</em> as a bonus feat even if you don't meet the prerequisites. As normal for the feat, you must choose one of the manifestations, and you gain its benefits even while not bloodraging. When you enter a bloodrage, you can choose a second manifestation to affect you simultaneously for the duration of your bloodrage.</Pair>
+<Pair title="Ability">You gain <em>Aspect of the Beast</em> as a bonus feat even if you don't meet the prerequisites. As normal for the feat, you must choose one of the manifestations, and you gain its benefits even while not <em>bloodraging.</em> When you enter a <em>bloodrage,</em> you can choose a second manifestation to affect you simultaneously for the duration of your <em>bloodrage.</em></Pair>
 </Ability>
 <Ability id="blrgbloodline-shapechanger-beastskin-su" icon={["armor-upgrade","mailed-fist"]}>
 <Pair single id="blrgbloodline-shapechanger-beastskin-su">Beastskin (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Ability">When entering a bloodrage, you can cause your skin to grow thicker and more bestial. Your <Link to="/rule/damage_reduction">damage reduction</Link> from your bloodrager levels increases by 2, but it can be bypassed with silver weapons. Your natural attacks (including unarmed strikes) are then treated as silver for the purpose of overcoming damage reduction.</Pair>
+<Pair title="Ability">When entering a <em>bloodrage,</em> you can cause your skin to grow thicker and more bestial. Your <Link to="/rule/damage_reduction">damage reduction</Link> from your bloodrager levels increases by 2, but it can be bypassed with silver weapons. Your natural attacks (including unarmed strikes) are then treated as silver for the purpose of overcoming damage reduction.</Pair>
 </Ability>
 <Ability id="blrgbloodline-shapechanger-shed-skin-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-shapechanger-shed-skin-su">Shed Skin (Su)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
-<Pair title="Immediate Action">When your bloodrage ends, you can choose one spell or spell-like ability affecting you and attempt to shake it off. Attempt a dispel check (1d20 + your bloodrager level) as if you were casting <Link to="/spell/dispel_magic">dispel magic</Link>. If you succeed, the effect is dispelled.</Pair>
+<Pair title="Immediate Action">When your <em>bloodrage</em> ends, you can choose one spell or spell-like ability affecting you and attempt to shake it off. Attempt a dispel check (1d20 + your bloodrager level) as if you were casting <Link to="/spell/dispel_magic">dispel magic</Link>. If you succeed, the effect is dispelled.</Pair>
 </Ability>
 <Ability id="blrgbloodline-shapechanger-true-shapechanger-su" icon={["armor-upgrade","upgrade"]}>
 <Pair single id="blrgbloodline-shapechanger-true-shapechanger-su">True Shapechanger (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">You are immune to all transmutation spells and effects unless you are a willing target. You can also use <Link to="/spell/greater_polymorph">greater polymorph</Link> at will as a spell-like ability with a caster level equal to your bloodrager level targeting only yourself. These effects function even while you're not bloodraging.</Pair>
+<Pair title="Passive Ability">You are immune to all transmutation spells and effects unless you are a willing target. You can also use <Link to="/spell/greater_polymorph">greater polymorph</Link> at will as a spell-like ability with a caster level equal to your bloodrager level targeting only yourself. These effects function even while you're not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _sphinx = {title: "Sphinx", jsx: <><h2 id="blrgbloodline-sphinx-sphinx-bloodline">Sphinx Bloodline</h2>
@@ -1192,11 +1192,11 @@ const _sphinx = {title: "Sphinx", jsx: <><h2 id="blrgbloodline-sphinx-sphinx-blo
 <Pair plain title="16th"><Link to="/spell/bestow_curse">Bestow curse</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-sphinx-bloodline-powers">Bloodline Powers</h3>
-<p>You gain the ruthless claws and implacable voice of the <Link to="/family/sphinx">sphinx</Link> while bloodraging.</p>
+<p>You gain the ruthless claws and implacable voice of the <Link to="/family/sphinx">sphinx</Link> while <em>bloodraging.</em></p>
 <Ability id="blrgbloodline-sphinx-claws-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-sphinx-claws-su">Claws (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">You grow claws while bloodraging. These claws are treated as <Link to="/umr/natural_weapons">natural weapons</Link>, allowing you to make two claw attacks as a full attack, using your full base attack bonus. These attacks deal 1d6 points of damage each (1d4 if you are Small) plus your Strength modifier.</Pair>
+<Pair title="Passive Ability">You grow claws while <em>bloodraging.</em> These claws are treated as <Link to="/umr/natural_weapons">natural weapons</Link>, allowing you to make two claw attacks as a full attack, using your full base attack bonus. These attacks deal 1d6 points of damage each (1d4 if you are Small) plus your Strength modifier.</Pair>
 <Pair title="At 4th Level">Your claws are considered magic weapons for the purpose of overcoming damage reduction.</Pair>
 <Pair title="At 8th Level">The base damage your claws deal increases to 1d8 points (1d6 if you are small).</Pair>
 <Pair title="At 12th Level">The critical threat range for your claws increases to 19-20.</Pair>
@@ -1229,12 +1229,12 @@ const _sphinx = {title: "Sphinx", jsx: <><h2 id="blrgbloodline-sphinx-sphinx-blo
 <Ability id="blrgbloodline-sphinx-final-riddle-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-sphinx-final-riddle-su">Final Riddle (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">You gain <Link to="/umr/immunity">immunity</Link> to fire and electricity and ignore environmental penalties due to temperature. Your competence bonus on saving throws against arcane spells increases to +6. You have these benefits constantly, even while not raging.</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/immunity">immunity</Link> to fire and electricity and ignore environmental penalties due to temperature. Your competence bonus on saving throws against arcane spells increases to +6. You have these benefits constantly, even while not <em>raging.</em></Pair>
 </Ability>
 </>};
 const _undead = {title: "Undead", jsx: <><h2 id="blrgbloodline-undead-undead-bloodline">Undead Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 22</Link></p>
-<p>The foul corruption of undeath is a part of you. Somewhere in the past, death became infused with your lineage. Your connection to the attributes of the undead bestows frightening power when your bloodrage.</p>
+<p>The foul corruption of undeath is a part of you. Somewhere in the past, death became infused with your lineage. Your connection to the attributes of the undead bestows frightening power when your <em>bloodrage.</em></p>
 <p><strong>Bonus Feats:</strong> <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/intimidating_prowess">Intimidating Prowess</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/mobility">Mobility</Link>, <Link to="/feat/toughness">Toughness</Link></p><Ability id="blrgbloodline-undead-bonus-spells-by-bloodrager-level" icon={["spell-book"]}>
 <Pair single id="blrgbloodline-undead-bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/chill_touch">Chill touch</Link></Pair>
@@ -1243,7 +1243,7 @@ const _undead = {title: "Undead", jsx: <><h2 id="blrgbloodline-undead-undead-blo
 <Pair plain title="16th"><Link to="/spell/enervation">Enervation</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-undead-bloodline-powers">Bloodline Powers</h3>
-<p>When you enter a bloodrage, the powers of undeath manifest, empowering your attacks with fear and your body with foul resistances.</p>
+<p>When you enter a <em>bloodrage,</em> the powers of undeath manifest, empowering your attacks with fear and your body with foul resistances.</p>
 <Ability id="blrgbloodline-undead-frightful-charger-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-undead-frightful-charger-su">Frightful Charger (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -1262,7 +1262,7 @@ const _undead = {title: "Undead", jsx: <><h2 id="blrgbloodline-undead-undead-blo
 <Ability id="blrgbloodline-undead-frightful-strikes-su" icon={["mailed-fist"]}>
 <Pair single id="blrgbloodline-undead-frightful-strikes-su">Frightful Strikes (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Usage">Once per bloodrage.</Pair>
+<Pair title="Usage">Once per <em>bloodrage.</em></Pair>
 <Pair title="Swift Action">You can empower your melee attacks with fear. For 1 round, creatures you hit with your melee attacks become shaken. Creatures who are already shaken become <Link to="/misc/frightened">frightened</Link>. This is a mind-affecting fear effect.</Pair>
 <Pair title="At 16th Level">Those who are already frightened become <Link to="/misc/panicked">panicked</Link>.</Pair>
 </Ability>
@@ -1275,12 +1275,12 @@ const _undead = {title: "Undead", jsx: <><h2 id="blrgbloodline-undead-undead-blo
 <Ability id="blrgbloodline-undead-one-foot-in-the-grave-ex" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-undead-one-foot-in-the-grave-ex">One Foot in the Grave (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">You gain <Link to="/umr/immunity">immunity</Link> to cold, nonlethal damage, paralysis, and sleep. The DR from your damage reduction ability increases to 8. Unintelligent undead don't notice you unless you attack them. You gain a +4 morale bonus on saving throws made against spells and spell-like abilities cast by undead. You have these benefits constantly, even while not bloodraging.</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/immunity">immunity</Link> to cold, nonlethal damage, paralysis, and sleep. The DR from your damage reduction ability increases to 8. Unintelligent undead don't notice you unless you attack them. You gain a +4 morale bonus on saving throws made against spells and spell-like abilities cast by undead. You have these benefits constantly, even while not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _verdant = {title: "Verdant", jsx: <><h2 id="blrgbloodline-verdant-verdant-bloodline">Verdant Bloodline</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 17</Link></p>
-<p>Your body is suffused with raw plant life. When you bloodrage, your plant-like characteristics bolster your durability and grant you some control over vegetation.</p>
+<p>Your body is suffused with raw plant life. When you <em>bloodrage,</em> your plant-like characteristics bolster your durability and grant you some control over vegetation.</p>
 <p><strong>Bonus Feats:</strong> <Link to="/feat/bolstered_resilience">Bolstered Resilience</Link>, <Link to="/feat/diehard">Diehard</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/power_attack">Power Attack</Link>, <Link to="/feat/raging_vitality">Raging Vitality</Link>, <Link to="/feat/toughness">Toughness</Link></p><Ability id="blrgbloodline-verdant-bonus-spells-by-bloodrager-level" icon={["spell-book"]}>
 <Pair single id="blrgbloodline-verdant-bonus-spells-by-bloodrager-level">Bonus Spells by Bloodrager Level</Pair>
 <Pair plain title="7th"><Link to="/spell/entangle">Entangle</Link></Pair>
@@ -1289,11 +1289,11 @@ const _verdant = {title: "Verdant", jsx: <><h2 id="blrgbloodline-verdant-verdant
 <Pair plain title="16th"><Link to="/spell/command_plants">Command plants</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-verdant-bloodline-powers">Bloodline Powers</h3>
-<p>While bloodraging, you gain plant-like abilities and immunities as you become overgrown with jagged branches, rugged bark, and thick vines.</p>
+<p>While <em>bloodraging,</em> you gain plant-like abilities and immunities as you become overgrown with jagged branches, rugged bark, and thick vines.</p>
 <Ability id="blrgbloodline-verdant-verdant-growth-su" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-verdant-verdant-growth-su">Verdant Growth (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">You gain <Link to="/umr/fast_healing">fast healing</Link> 1 while bloodraging. If you have a bloodrager class feature that also grants you fast healing (such as the <Link to="/arc-bloodrager/spelleater">spelleater's</Link> blood of life class feature), you can stack up to half of your fast healing from such abilities with the fast healing gained from this ability, but you cannot do so by an amount that exceeds your Charisma bonus (minimum 0).</Pair>
+<Pair title="Passive Ability">You gain <Link to="/umr/fast_healing">fast healing</Link> 1 while <em>bloodraging.</em> If you have a bloodrager class feature that also grants you fast healing (such as the <Link to="/arc-bloodrager/spelleater">spelleater's</Link> blood of life class feature), you can stack up to half of your fast healing from such abilities with the fast healing gained from this ability, but you cannot do so by an amount that exceeds your Charisma bonus (minimum 0).</Pair>
 <Pair title="At 4th Level">You instead gain fast healing 2.</Pair>
 <Pair title="At 7th Level">You instead gain fast healing 3.</Pair>
 <Pair title="At 10th Level">You instead gain fast healing 4.</Pair>
@@ -1304,7 +1304,7 @@ const _verdant = {title: "Verdant", jsx: <><h2 id="blrgbloodline-verdant-verdant
 <Ability id="blrgbloodline-verdant-oaken-skin-ex" icon={["armor-upgrade"]}>
 <Pair single id="blrgbloodline-verdant-oaken-skin-ex">Oaken Skin (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Passive Ability">When entering a bloodrage, your skin thickens like bark and you gain a +2 enhancement bonus to your natural armor.</Pair>
+<Pair title="Passive Ability">When entering a <em>bloodrage,</em> your skin thickens like bark and you gain a +2 enhancement bonus to your natural armor.</Pair>
 <Pair title="At 8th Level">The bonus becomes +3.</Pair>
 <Pair title="At 12th Level">The bonus becomes +4.</Pair>
 <Pair title="At 16th Level">The bonus becomes +5.</Pair>
@@ -1318,7 +1318,7 @@ const _verdant = {title: "Verdant", jsx: <><h2 id="blrgbloodline-verdant-verdant
 <Ability id="blrgbloodline-verdant-verdant-call-sp" icon={["magic-swirl"]}>
 <Pair single id="blrgbloodline-verdant-verdant-call-sp">Verdant Call (Sp)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Swift Action">When entering a bloodrage, you can animate nearby plants to aid you in combat, functioning as <Link to="/spell/wilderness_soldiers">wilderness soldiers</Link>, using your Charisma modifier instead of your Wisdom modifier. This effect lasts for as long as you continue bloodraging, regardless of the spell's normal duration.</Pair>
+<Pair title="Swift Action">When entering a <em>bloodrage,</em> you can animate nearby plants to aid you in combat, functioning as <Link to="/spell/wilderness_soldiers">wilderness soldiers</Link>, using your Charisma modifier instead of your Wisdom modifier. This effect lasts for as long as you continue <em>bloodraging,</em> regardless of the spell's normal duration.</Pair>
 </Ability>
 <Ability id="blrgbloodline-verdant-natures-thorns-su" icon={["armor-downgrade"]}>
 <Pair single id="blrgbloodline-verdant-natures-thorns-su">Nature's Thorns (Su)</Pair>
@@ -1328,7 +1328,7 @@ const _verdant = {title: "Verdant", jsx: <><h2 id="blrgbloodline-verdant-verdant
 <Ability id="blrgbloodline-verdant-verdant-apotheosis-su" icon={["stairs-goal","armor-upgrade"]}>
 <Pair single id="blrgbloodline-verdant-verdant-apotheosis-su">Verdant Apotheosis (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
-<Pair title="Passive Ability">Verdant power surges throughout your being. While bloodraging, you gain <Link to="/umr/tremorsense">tremorsense</Link> out to 30 feet. In addition, you gain immunity to paralysis, poison, sleep, and stunning effects, even while you are not bloodraging.</Pair>
+<Pair title="Passive Ability">Verdant power surges throughout your being. While <em>bloodraging,</em> you gain <Link to="/umr/tremorsense">tremorsense</Link> out to 30 feet. In addition, you gain immunity to paralysis, poison, sleep, and stunning effects, even while you are not <em>bloodraging.</em></Pair>
 </Ability>
 </>};
 const _vestige = {title: "Vestige", jsx: <><h2 id="blrgbloodline-vestige-vestige-bloodline">Vestige Bloodline</h2>
@@ -1344,26 +1344,26 @@ const _vestige = {title: "Vestige", jsx: <><h2 id="blrgbloodline-vestige-vestige
 <Pair plain title="16th"><Link to="/spell/mass_enlarge_person">Mass enlarge person</Link></Pair>
 </Ability>
 <h3 id="blrgbloodline-vestige-bloodline-powers">Bloodline Powers</h3>
-<p>When you bloodrage, you transform into an ancestor or another notable figure from a lost civilization.</p>
+<p>When you <em>bloodrage,</em> you transform into an ancestor or another notable figure from a lost civilization.</p>
 <Ability id="blrgbloodline-vestige-warriors-discipline-su" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-vestige-warriors-discipline-su">Warrior's Discipline (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Swift Action">You tap into untold generations of battle experience to control your battle fury. You can halve any morale bonuses gained from bloodrage to be able to use Intelligence- or Charisma-based skills, or any abilities requiring patience or concentration. This effect lasts for 1 round.</Pair>
+<Pair title="Swift Action">You tap into untold generations of battle experience to control your battle fury. You can halve any morale bonuses gained from <em>bloodrage</em> to be able to use Intelligence- or Charisma-based skills, or any abilities requiring patience or concentration. This effect lasts for 1 round.</Pair>
 </Ability>
 <Ability id="blrgbloodline-vestige-ancient-tactics-su" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-vestige-ancient-tactics-su">Ancient Tactics (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Passive Ability">While you are bloodraging, whenever you or an ally within 30 feet of you would gain a bonus on attack rolls or to AC due to battlefield position (such as <Link to="/rule/flanking">flanking</Link> or <Link to="/rule/cover">cover</Link>), that bonus is increased by 1. Allies must be able to see and hear you to gain this bonus. You can expend a spell slot as an immediate action to further increase this bonus by 1 per level of the spell slot expended until the beginning of your next turn.</Pair>
+<Pair title="Passive Ability">While you are <em>bloodraging,</em> whenever you or an ally within 30 feet of you would gain a bonus on attack rolls or to AC due to battlefield position (such as <Link to="/rule/flanking">flanking</Link> or <Link to="/rule/cover">cover</Link>), that bonus is increased by 1. Allies must be able to see and hear you to gain this bonus. You can expend a spell slot as an immediate action to further increase this bonus by 1 per level of the spell slot expended until the beginning of your next turn.</Pair>
 </Ability>
 <Ability id="blrgbloodline-vestige-legacy-style-su" icon={["stairs-goal"]}>
 <Pair single id="blrgbloodline-vestige-legacy-style-su">Legacy Style (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
-<Pair title="Ability">Select any one <Link to="/main/style_feat">style feat</Link>. You can use this style feat while bloodraging; however, if you do not meet all of the style feat's prerequisites, you must expend a spell slot when entering the style's stance, and the benefits last for only 1 round per level of the spell slot expended or for the duration of your bloodrage, whichever is shorter. If you already have this style feat, you can enter the style's stance as part of the free action to bloodrage.</Pair>
+<Pair title="Ability">Select any one <Link to="/main/style_feat">style feat</Link>. You can use this style feat while <em>bloodraging;</em> however, if you do not meet all of the style feat's prerequisites, you must expend a spell slot when entering the style's stance, and the benefits last for only 1 round per level of the spell slot expended or for the duration of your <em>bloodrage,</em> whichever is shorter. If you already have this style feat, you can enter the style's stance as part of the free action to <em>bloodrage.</em></Pair>
 </Ability>
 <Ability id="blrgbloodline-vestige-wars-memory-sp" icon={["magic-swirl","armor-downgrade"]}>
 <Pair single id="blrgbloodline-vestige-wars-memory-sp">War's Memory (Sp)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Standard Action">You can manifest an illusion of an ancestor's bloody battlefield once per day. This functions as <Link to="/spell/hallucinatory_terrain">hallucinatory terrain</Link>, except it can create only battlefields drawn from a civilization's past, and the effect ends when your bloodrage ends. The saving throw to disbelieve is equal to 10 + 1/2 your bloodrager level + your Constitution modifier. The horrifying scene causes creatures within the area of effect to take a -2 penalty on saves versus fear effects until they disbelieve the illusion. If a creature fails the Will save to disbelieve the illusion, it gains the <Link to="/misc/shaken">shaken</Link> condition until your bloodrage ends, or until it leaves the area of effect. This is an illusion (glamer) and fear effect.</Pair>
+<Pair title="Standard Action">You can manifest an illusion of an ancestor's bloody battlefield once per day. This functions as <Link to="/spell/hallucinatory_terrain">hallucinatory terrain</Link>, except it can create only battlefields drawn from a civilization's past, and the effect ends when your <em>bloodrage</em> ends. The saving throw to disbelieve is equal to 10 + 1/2 your bloodrager level + your Constitution modifier. The horrifying scene causes creatures within the area of effect to take a -2 penalty on saves versus fear effects until they disbelieve the illusion. If a creature fails the Will save to disbelieve the illusion, it gains the <Link to="/misc/shaken">shaken</Link> condition until your <em>bloodrage</em> ends, or until it leaves the area of effect. This is an illusion (glamer) and fear effect.</Pair>
 </Ability>
 <Ability id="blrgbloodline-vestige-legacy-conduit-su" icon={["upgrade"]}>
 <Pair single id="blrgbloodline-vestige-legacy-conduit-su">Legacy Conduit (Su)</Pair>
@@ -1374,7 +1374,7 @@ const _vestige = {title: "Vestige", jsx: <><h2 id="blrgbloodline-vestige-vestige
 <Pair single id="blrgbloodline-vestige-call-to-arms-su">Call to Arms (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Usage">Once per day.</Pair>
-<Pair title="Standard Action">You can summon a ghostly army from a fallen civilization once per day. This functions as <Link to="/spell/spiritual_ally">spiritual ally</Link> with a caster level equal to your level, except that it summons a number of allies equal to your Constitution modifier, and the allies use your Strength modifier for attack rolls. You can direct all of these allies with a single swift action. Each ally can attack a different target or the same target, as you direct. The allies remain until the spell's duration ends or your bloodrage ends, whichever comes first.</Pair>
+<Pair title="Standard Action">You can summon a ghostly army from a fallen civilization once per day. This functions as <Link to="/spell/spiritual_ally">spiritual ally</Link> with a caster level equal to your level, except that it summons a number of allies equal to your Constitution modifier, and the allies use your Strength modifier for attack rolls. You can direct all of these allies with a single swift action. Each ally can attack a different target or the same target, as you direct. The allies remain until the spell's duration ends or your <em>bloodrage</em> ends, whichever comes first.</Pair>
 </Ability>
 </>};
 export default {not_found:_not_found,aberrant:_aberrant,abyssal:_abyssal,aquatic:_aquatic,arcane:_arcane,black_blood:_black_blood,celestial:_celestial,destined:_destined,draconic:_draconic,elemental:_elemental,fey:_fey,hag:_hag,infernal:_infernal,kyton:_kyton,martyred:_martyred,medusa:_medusa,naga:_naga,phoenix:_phoenix,salamander:_salamander,shadow:_shadow,shapechanger:_shapechanger,sphinx:_sphinx,undead:_undead,verdant:_verdant,vestige:_vestige}

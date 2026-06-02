@@ -15,13 +15,13 @@ const _ancestral_harbinger = {title: "Ancestral Harbinger", jsx: <><h2 id="arc-b
 <Pair title="At 12th Level">Her ancestor can manifest physically as a ghostly figure, functioning as per <Link to="/spell/spiritual_ally">spiritual ally</Link>.</Pair>
 <Pair title="At 18th Level">Her ancestral spirit can manifest either as a single powerful creature or as multiple lesser ancestors, functioning as per <Link to="/spell/summon_natures_ally_vi">summon nature's ally VI</Link>.</Pair>
 <Pair title="Usage">1 time/day + 1 per four bloodrager levels beyond 2nd<ByLevelPop levels={[[2,1],[6,2],[10,3],[14,4],[18,5]]} unit="time" postText="/day" /></Pair>
-<Pair title="Special">The harbinger chooses which spell this ability functions as at the time of casting, and can use this ability while in a bloodrage.</Pair>
+<Pair title="Special">The harbinger chooses which spell this ability functions as at the time of casting, and can use this ability while in a <em>bloodrage.</em></Pair>
 </Ability>
 <Ability id="arc-bloodrager-ancestral_harbinger-spirit-servants" icon={["spell-book","magic-swirl","upgrade"]}>
 <Pair single id="arc-bloodrager-ancestral_harbinger-spirit-servants">Spirit Servants</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge, the bloodline feat gained at 12th level</Pair>
 <Pair title="Ability">An ancestral harbinger adds <em>summon monster</em> spells to her class spell list and gain them as spells known at the levels shown below. These spells can be used only to summon types of monsters with strong ties to the ancestral harbinger's family history, ranging from clan totems to monsters of the same type as those famously killed by her forebears. For each of these spells, the ancestral harbinger selects a number of monsters she can summon equal to her Charisma bonus (minimum 1) to represent these spirits. These monsters are selected from the options on the summon monster creature list or the expanded summoning list that are appropriate for the spell level.</Pair>
-<Pair title="Passive Ability">The ancestral harbinger has a mystic tie to the spirit servants summoned with this ability. When the ancestral harbinger is in a bloodrage, all of her spirit servants gain a +2 morale bonus to AC and on attack rolls, damage rolls, and saving throws. The spirit servants also gain 2 <Link to="/rule/temporary_hit_points">temporary hit points</Link> per Hit Die. The morale bonus and temporary hit points last until the bloodrage ends.</Pair>
+<Pair title="Passive Ability">The ancestral harbinger has a mystic tie to the spirit servants summoned with this ability. When the ancestral harbinger is in a <em>bloodrage,</em> all of her spirit servants gain a +2 morale bonus to AC and on attack rolls, damage rolls, and saving throws. The spirit servants also gain 2 <Link to="/rule/temporary_hit_points">temporary hit points</Link> per Hit Die. The morale bonus and temporary hit points last until the <em>bloodrage</em> ends.</Pair>
 <Pair plain title="5th"><Link to="/spell/summon_monster_i">Summon monster I</Link></Pair>
 <Pair plain title="8th"><Link to="/spell/summon_monster_ii">Summon monster II</Link></Pair>
 <Pair plain title="11th"><Link to="/spell/summon_monster_iii">Summon monster III</Link></Pair>
@@ -140,13 +140,13 @@ const _bloodrider = {title: "Bloodrider", jsx: <><h2 id="arc-bloodrager-bloodrid
 <Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">The bloodrider gains the service of a feral mount. This ability functions as the druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using the bloodrager's level - 4 as his effective druid level. This companion must be one he is capable of riding and suitable as a mount. A Medium bloodrider can select a <Link to="/companion/camel">camel</Link> or a <Link to="/companion/horse">horse</Link>. A Small bloodrider can select a <Link to="/companion/pony">pony</Link> or <Link to="/companion/wolf">wolf</Link>, but can also select a <Link to="/companion/boar">boar</Link> or <Link to="/companion/dog">riding dog</Link> if he is at least 8th level.</Pair>
-<Pair title="Special">Whenever a bloodrider is bloodraging, this feral mount gains a +2 morale bonus to its Strength.</Pair>
+<Pair title="Special">Whenever a bloodrider is <em>bloodraging,</em> this feral mount gains a +2 morale bonus to its Strength.</Pair>
 </Ability>
 <Ability id="arc-bloodrager-bloodrider-blood-bond-su" icon={["upgrade"]}>
 <Pair single id="arc-bloodrager-bloodrider-blood-bond-su" flavor="The bloodrider and his feral mount gain a closer bond that allows the bloodrider to augment his mount based on his bloodline.">Blood Bond (Su)</Pair>
 <Pair hl title="Replaces">The bloodline feat gained at 9th level</Pair>
 <Pair title="Gained">At 9th Level</Pair>
-<Pair title="Passive Ability">While the bloodrider is bloodraging and on his feral mount, he grants the mount all the immunities and resistances he gains from bloodline powers. Furthermore, whenever the bloodrager is affected by a spell or spell-like ability with the range of personal while on the feral mount, the feral mount also gains the benefit of that spell.</Pair>
+<Pair title="Passive Ability">While the bloodrider is <em>bloodraging</em> and on his feral mount, he grants the mount all the immunities and resistances he gains from bloodline powers. Furthermore, whenever the bloodrager is affected by a spell or spell-like ability with the range of personal while on the feral mount, the feral mount also gains the benefit of that spell.</Pair>
 </Ability>
 </>};
 const _bloody_knuckled_rowdy = {title: "Bloody-Knuckled Rowdy", jsx: <><h2 id="arc-bloodrager-bloody_knuckled_rowdy-bloody-knuckled-rowdy">Bloody-Knuckled Rowdy</h2>
@@ -203,7 +203,7 @@ const _crossblooded_rager = {title: "Crossblooded Rager", jsx: <><h2 id="arc-blo
 <Ability id="arc-bloodrager-crossblooded_rager-drawbacks" icon={["broken-shield"]}>
 <Pair single id="arc-bloodrager-crossblooded_rager-drawbacks">Drawbacks</Pair>
 <Pair title="Info">The furious mix of arcane power inside a crossblooded rager forces him to constantly expend mental effort to remain focused on his current situation and needs. This leaves him with less mental resolve available to deal with external threats.</Pair>
-<Pair title="Passive Ability">A crossblooded rager takes a -2 penalty to all Will saving throws at all times, and does not gain the +2 morale bonus on Will saving throws while bloodraging - though he does gain a +1 morale bonus Will saving throws when he gains the <em>greater bloodrage</em> class feature, which increases to a +2 morale bonus on saving throws upon gaining the <em>mighty bloodrage</em> class feature.</Pair>
+<Pair title="Passive Ability">A crossblooded rager takes a -2 penalty to all Will saving throws at all times, and does not gain the +2 morale bonus on Will saving throws while <em>bloodraging</em> - though he does gain a +1 morale bonus Will saving throws when he gains the <em>greater bloodrage</em> class feature, which increases to a +2 morale bonus on saving throws upon gaining the <em>mighty bloodrage</em> class feature.</Pair>
 </Ability>
 </>};
 const _enlightened_bloodrager = {title: "Enlightened Bloodrager", jsx: <><h2 id="arc-bloodrager-enlightened_bloodrager-enlightened-bloodrager">Enlightened Bloodrager</h2>
@@ -225,7 +225,7 @@ const _enlightened_bloodrager = {title: "Enlightened Bloodrager", jsx: <><h2 id=
 <Pair hl title="Replaces">The bloodline power gained at 4th level</Pair>
 <Pair hl title="Alters">Bloodrage</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Passive Ability">While bloodraging, an enlightened bloodrager can still use Intelligence-, Dexterity-, and Charisma-based skills and can use abilities that require patience or concentration.</Pair>
+<Pair title="Passive Ability">While <em>bloodraging,</em> an enlightened bloodrager can still use Intelligence-, Dexterity-, and Charisma-based skills and can use abilities that require patience or concentration.</Pair>
 </Ability>
 <Ability id="arc-bloodrager-enlightened_bloodrager-bloodline-feat" icon={["stairs-goal"]}>
 <Pair single id="arc-bloodrager-enlightened_bloodrager-bloodline-feat">Bloodline Feat</Pair>
@@ -249,7 +249,7 @@ const _greenrager = {title: "Greenrager", jsx: <><h2 id="arc-bloodrager-greenrag
 <Ability id="arc-bloodrager-greenrager-unfettered-fury-ex" icon={["stairs-goal"]}>
 <Pair single id="arc-bloodrager-greenrager-unfettered-fury-ex">Unfettered Fury (Ex)</Pair>
 <Pair hl title="Replaces">Blood sanctuary</Pair>
-<Pair title="At 3rd Level">A greenrager's fury allows him to move through undergrowth with frightening speed and grace. This functions as the druid's <Link to="/ability/woodland_stride">woodland stride</Link> class feature, but only while the greenrager is bloodraging.</Pair>
+<Pair title="At 3rd Level">A greenrager's fury allows him to move through undergrowth with frightening speed and grace. This functions as the druid's <Link to="/ability/woodland_stride">woodland stride</Link> class feature, but only while the greenrager is <em>bloodraging.</em></Pair>
 </Ability>
 <Ability id="arc-bloodrager-greenrager-summoning-rager-sp" icon={["spell-book"]}>
 <Pair single id="arc-bloodrager-greenrager-summoning-rager-sp">Summoning Rager (Sp)</Pair>
@@ -325,7 +325,7 @@ const _id_rager = {title: "Id Rager", jsx: <><h2 id="arc-bloodrager-id_rager-id-
 <li><strong><Link to="/emotionalfocus/zeal">Zeal</Link>:</strong> Acrobatics or Survival</li>
 </ul>
 </Pair>
-<Pair title="At 1st Level">When the id rager enters a bloodrage, he gains additional powers as if he were a <Link to="/sidekick/phantom">phantom</Link> with the emotional focus he selected as his atavistic focus. He is considered to be both a phantom and a <Link to="/class/spiritualist">spiritualist</Link> for the purposes of abilities whose effect references both a phantom and a spiritualist, such as a dedication phantom's <em>dutiful strike,</em> and treats his bloodrager level as both his spiritualist level and his phantom Hit Dice when determining abilities and save DCs. This ability does not allow the id rager to become incorporeal.</Pair>
+<Pair title="At 1st Level">When the id rager enters a <em>bloodrage,</em> he gains additional powers as if he were a <Link to="/sidekick/phantom">phantom</Link> with the emotional focus he selected as his atavistic focus. He is considered to be both a phantom and a <Link to="/class/spiritualist">spiritualist</Link> for the purposes of abilities whose effect references both a phantom and a spiritualist, such as a dedication phantom's <em>dutiful strike,</em> and treats his bloodrager level as both his spiritualist level and his phantom Hit Dice when determining abilities and save DCs. This ability does not allow the id rager to become incorporeal.</Pair>
 <Pair title="At 4th Level">The id rager gains <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, or <Link to="/feat/iron_will">Iron Will</Link> as a bonus feat.</Pair>
 <Pair title="At 8th Level">The id rager can meditate for 1 hour to change his atavistic focus for 24 hours or until he decides to return to his permanent atavistic focus as a <strong className="hl">free action</strong>. When he changes his focus, he loses access to his Skill Focus feat and the feat he gained at 4th level, and he wields emotional focus powers as if his spiritualist level and phantom Hit Dice were 3 lower.</Pair>
 <Pair title="At 12th Level">The id rager gains Skill Focus in both of the skills associated with his atavistic focus. If circumstances cause him to lose one Skill Focus feat, he loses both.</Pair>
@@ -334,7 +334,7 @@ const _id_rager = {title: "Id Rager", jsx: <><h2 id="arc-bloodrager-id_rager-id-
 <Pair single id="arc-bloodrager-id_rager-atavistic-caster">Atavistic Caster</Pair>
 <Pair hl title="Replaces">Eschew materials</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
-<Pair title="At 4th Level">An id rager's bloodrager spells are treated as <Link to="/rule/psychic_magic">psychic magic</Link>. The bloodrager's bloodrage does not prevent him from casting spells with emotional components, and he is considered to be a psychic spellcaster for the purposes of prerequisites (such as for the prerequisites of psychic duels and occult skill unlocks).</Pair>
+<Pair title="At 4th Level">An id rager's bloodrager spells are treated as <Link to="/rule/psychic_magic">psychic magic</Link>. The bloodrager's <em>bloodrage</em> does not prevent him from casting spells with emotional components, and he is considered to be a psychic spellcaster for the purposes of prerequisites (such as for the prerequisites of psychic duels and occult skill unlocks).</Pair>
 </Ability>
 <Ability id="arc-bloodrager-id_rager-bonus-feats" icon={["stairs-goal"]}>
 <Pair single id="arc-bloodrager-id_rager-bonus-feats">Bonus Feats</Pair>
@@ -355,7 +355,7 @@ const _metamagic_rager = {title: "Metamagic Rager", jsx: <><h2 id="arc-bloodrage
 <Pair single id="arc-bloodrager-metamagic_rager-meta-rage-su">Meta-Rage (Su)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
-<Pair title="Ability">A metamagic rager can sacrifice additional rounds of bloodrage to apply a <Link to="/main/metamagic_feat">metamagic feat</Link> he knows to a bloodrager spell. This costs a number of rounds of bloodrage equal to twice what the spell's adjusted level would normally be with the metamagic feat applied (minimum 2 rounds). The metamagic rager does not have to be bloodraging to use this ability. The metamagic effect is applied without increasing the level of the spell slot expended, though the casting time is increased as normal. The metamagic rager can apply only one metamagic feat he knows in this manner with each casting.</Pair>
+<Pair title="Ability">A metamagic rager can sacrifice additional rounds of <em>bloodrage</em> to apply a <Link to="/main/metamagic_feat">metamagic feat</Link> he knows to a bloodrager spell. This costs a number of rounds of <em>bloodrage</em> equal to twice what the spell's adjusted level would normally be with the metamagic feat applied (minimum 2 rounds). The metamagic rager does not have to be <em>bloodraging</em> to use this ability. The metamagic effect is applied without increasing the level of the spell slot expended, though the casting time is increased as normal. The metamagic rager can apply only one metamagic feat he knows in this manner with each casting.</Pair>
 <Pair title="Special">Additionally, when the metamagic rager takes a bloodline feat, he can choose to take a metamagic feat instead.</Pair>
 </Ability>
 </>};
@@ -365,7 +365,7 @@ const _primalist = {title: "Primalist", jsx: <><h2 id="arc-bloodrager-primalist-
 <Pair single id="arc-bloodrager-primalist-primal-choices">Primal Choices</Pair>
 <Pair hl title="Alters">Bloodline</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Choice">At 4th level and every four levels thereafter, a primalist can choose to take either his bloodline power or two <Link to="/ability/rage_powers">barbarian rage powers</Link>. If the primalist chooses rage powers, those rage powers can be used in conjunction with his bloodrage, and his bloodrager level acts as his barbarian level when determining the effect of those bloodrage powers and any prerequisites. Any other prerequisites for a rage power must be met before a primalist can choose it.</Pair>
+<Pair title="Choice">At 4th level and every four levels thereafter, a primalist can choose to take either his bloodline power or two <Link to="/ability/rage_powers">barbarian rage powers</Link>. If the primalist chooses rage powers, those rage powers can be used in conjunction with his <em>bloodrage,</em> and his bloodrager level acts as his barbarian level when determining the effect of those bloodrage powers and any prerequisites. Any other prerequisites for a rage power must be met before a primalist can choose it.</Pair>
 <Pair title="Special">This ability does not count as the rage power class feature for determining feat prerequisites and other requirements.</Pair>
 </Ability>
 </>};
@@ -410,8 +410,8 @@ const _prowler_at_worlds_end = {title: "Prowler at World's End", jsx: <><h2 id="
 <Pair single id="arc-bloodrager-prowler_at_worlds_end-chosen-of-the-spirits-su">Chosen of the Spirits (Su)</Pair>
 <Pair hl title="Alters">Greater bloodrage, mighty bloodrage</Pair>
 <Pair title="Gained">At 11th Level</Pair>
-<Pair title="Ability">Whenever a prowler at world's end enters a bloodrage, he can apply the effects of <Link to="/spell/beast_shape_iv">beast shape IV</Link> to himself instead of using <em>greater bloodrage</em> or <em>mighty bloodrage</em> to apply the effects of a bloodrager spell to himself. He must assume the form of a great cat of the same kind as a channeled spirit (cheetah, leopard, lion, or tiger).</Pair>
-<Pair title="Special">This effect lasts for as long as the prowler continues bloodraging, regardless of its normal duration, and using it does not consume a spell slot.</Pair>
+<Pair title="Ability">Whenever a prowler at world's end enters a <em>bloodrage,</em> he can apply the effects of <Link to="/spell/beast_shape_iv">beast shape IV</Link> to himself instead of using <em>greater bloodrage</em> or <em>mighty bloodrage</em> to apply the effects of a bloodrager spell to himself. He must assume the form of a great cat of the same kind as a channeled spirit (cheetah, leopard, lion, or tiger).</Pair>
+<Pair title="Special">This effect lasts for as long as the prowler continues <em>bloodraging,</em> regardless of its normal duration, and using it does not consume a spell slot.</Pair>
 </Ability>
 <Ability id="arc-bloodrager-prowler_at_worlds_end-shapeshifted-spellcasting-su" icon={["magic-swirl"]}>
 <Pair single id="arc-bloodrager-prowler_at_worlds_end-shapeshifted-spellcasting-su">Shapeshifted Spellcasting (Su)</Pair>
@@ -433,8 +433,8 @@ const _rageshaper = {title: "Rageshaper", jsx: <><h2 id="arc-bloodrager-rageshap
 <Pair single id="arc-bloodrager-rageshaper-furious-transformation-su">Furious Transformation (Su)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
-<Pair title="Ability">A rageshaper can attempt to bolster any transmutation spell from the bloodrager spell list with the polymorph subschool while bloodraging. The rageshaper must succeed at a <Link to="/rule/concentration">concentration</Link> check as if casting defensively to modify the spell; otherwise, the spell is wasted. If he succeeds, the spell is treated as if the rageshaper had the <Link to="/feat/extend_spell">Extend Spell</Link> metamagic feat.</Pair>
-<Pair title="Special">The rageshaper must be the spell's intended target or cast a spell with a range of personal to gain this effect. If the rageshaper casts a spell that is linked to the rageshaper's own bloodline, such as a rageshaper with the <Link to="/blrgbloodline/elemental">elemental</Link> bloodline who casts <Link to="/spell/elemental_body_i">elemental body I</Link>, the spell is automatically extended without forcing the concentration check, so long as the rageshaper casts it while in a bloodrage.</Pair>
+<Pair title="Ability">A rageshaper can attempt to bolster any transmutation spell from the bloodrager spell list with the polymorph subschool while <em>bloodraging.</em> The rageshaper must succeed at a <Link to="/rule/concentration">concentration</Link> check as if casting defensively to modify the spell; otherwise, the spell is wasted. If he succeeds, the spell is treated as if the rageshaper had the <Link to="/feat/extend_spell">Extend Spell</Link> metamagic feat.</Pair>
+<Pair title="Special">The rageshaper must be the spell's intended target or cast a spell with a range of personal to gain this effect. If the rageshaper casts a spell that is linked to the rageshaper's own bloodline, such as a rageshaper with the <Link to="/blrgbloodline/elemental">elemental</Link> bloodline who casts <Link to="/spell/elemental_body_i">elemental body I</Link>, the spell is automatically extended without forcing the concentration check, so long as the rageshaper casts it while in a <em>bloodrage.</em></Pair>
 </Ability>
 </>};
 const _spelleater = {title: "Spelleater", jsx: <><h2 id="arc-bloodrager-spelleater-spelleater">Spelleater</h2>
@@ -443,7 +443,7 @@ const _spelleater = {title: "Spelleater", jsx: <><h2 id="arc-bloodrager-spelleat
 <Pair single id="arc-bloodrager-spelleater-blood-of-life-su" flavor="A spelleater's blood empowers him to slowly recover from his wounds.">Blood of Life (Su)</Pair>
 <Pair hl title="Replaces">Uncanny dodge, damage reduction</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
-<Pair title="Passive Ability">While bloodraging, a spelleater gains <Link to="/umr/fast_healing">fast healing 1</Link>.</Pair>
+<Pair title="Passive Ability">While <em>bloodraging,</em> a spelleater gains <Link to="/umr/fast_healing">fast healing 1</Link>.</Pair>
 <Pair title="At 7th Level">This increases to fast healing 2.</Pair>
 <Pair title="At 10th Level">This increases to fast healing 3.</Pair>
 <Pair title="At 13th Level">This increases to fast healing 4.</Pair>
@@ -528,13 +528,13 @@ const _untouchable_rager = {title: "Untouchable Rager", jsx: <><h2 id="arc-blood
 <Pair single id="arc-bloodrager-untouchable_rager-raging-resistance-ex" flavor="Instead of gaining spells, a bloodrager becomes resistant to spells.">Raging Resistance (Ex)</Pair>
 <Pair hl title="Replaces">Spells, blood casting, eschew materials, bloodline spells</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Passive Ability">While bloodraging, he gains spell resistance equal to 8 + his bloodrager level. Unlike normal spell resistance, the untouchable rager's spell resistance cannot be voluntarily lowered. As long as the untouchable is bloodraging, the spell resistance is persistent, and can only be lowered by ending the bloodrage.</Pair>
-<Pair title="Special">At 7th, 10th, 13th, and 16th levels (when other bloodragers would gain bloodline spells), an untouchable rager's spell resistance from raging resistance is increased by 1.</Pair>
+<Pair title="Passive Ability">While <em>bloodraging,</em> he gains spell resistance equal to 8 + his bloodrager level. Unlike normal spell resistance, the untouchable rager's spell resistance cannot be voluntarily lowered. As long as the untouchable is <em>bloodraging,</em> the spell resistance is persistent, and can only be lowered by ending the <em>bloodrage.</em></Pair>
+<Pair title="Special">At 7th, 10th, 13th, and 16th levels (when other bloodragers would gain bloodline spells), an untouchable rager's spell resistance from <em>raging resistance</em> is increased by 1.</Pair>
 </Ability>
 <Ability id="arc-bloodrager-untouchable_rager-resistance-control-ex" icon={["armor-upgrade"]}>
 <Pair single id="arc-bloodrager-untouchable_rager-resistance-control-ex">Resistance Control (Ex)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
-<Pair title="Passive Ability">An untouchable rager gains the spell resistance from raging resistance even while not in a bloodrage. Additionally, as long as the untouchable rager isn't bloodraging, he can turn off this spell resistance.</Pair>
+<Pair title="Passive Ability">An untouchable rager gains the spell resistance from <em>raging resistance</em> even while not in a <em>bloodrage.</em> Additionally, as long as the untouchable rager isn't <em>bloodraging,</em> he can turn off this spell resistance.</Pair>
 </Ability>
 </>};
 const _urban_bloodrager = {title: "Urban Bloodrager", jsx: <><h2 id="arc-bloodrager-urban_bloodrager-urban-bloodrager">Urban Bloodrager</h2>
@@ -552,7 +552,7 @@ const _urban_bloodrager = {title: "Urban Bloodrager", jsx: <><h2 id="arc-bloodra
 <Pair single id="arc-bloodrager-urban_bloodrager-controlled-bloodrage">Controlled Bloodrage</Pair>
 <Pair hl title="Alters">Bloodrage</Pair>
 <Pair title="Ability">When an urban bloodrager rages, she does not gain the normal benefits. Instead, she can apply a +4 morale bonus to her Constitution, Dexterity, or Strength. This bonus increases to +6 when she gains <em>greater bloodrage</em> and to +8 when she gains <em>mighty bloodrage.</em> She can apply the full bonus to one ability score or split the bonus between several scores in increments of 2.</Pair>
-<Pair title="Special">When using a controlled bloodrage, an urban bloodrager gains no bonus on Will saves, takes no penalties to AC, and can still use Charisma-, Dexterity-, and Intelligence-based skills. A controlled bloodrage still counts as a bloodrage for the purposes of any spells, feats, and other effects.</Pair>
+<Pair title="Special">When using a <em>controlled bloodrage,</em> an urban bloodrager gains no bonus on Will saves, takes no penalties to AC, and can still use Charisma-, Dexterity-, and Intelligence-based skills. A <em>controlled bloodrage</em> still counts as a <em>bloodrage</em> for the purposes of any spells, feats, and other effects.</Pair>
 </Ability>
 <Ability id="arc-bloodrager-urban_bloodrager-restrained-magic-su" icon={["shield-reflect"]}>
 <Pair single id="arc-bloodrager-urban_bloodrager-restrained-magic-su" flavor="An urban bloodrager can attune her spells so they are less likely to impact her allies or innocent bystanders.">Restrained Magic (Su)</Pair>

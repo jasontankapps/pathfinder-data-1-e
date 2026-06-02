@@ -966,7 +966,7 @@ const _caravan_drover = {title: "Caravan Drover", topLink: ["Race Traits","main/
 </>};
 const _cruel_rager = {title: "Cruel Rager", topLink: ["Race Traits","main/traits_race"], jsx: <><h2 id="trait-cruel_rager-cruel-rager">Cruel Rager</h2>
 <p><strong>Type:</strong> Race<br/><strong>Requirements:</strong> Half-orc</p>
-<p>If you successfully confirm a critical hit against an enemy while raging, you regain 1 round of rage. This can occur only once per rage.</p>
+<p>If you successfully confirm a critical hit against an enemy while <em>raging,</em> you regain 1 round of <em>rage.</em> This can occur only once per <em>rage.</em></p>
 <blockquote>
 <p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
 </blockquote>
