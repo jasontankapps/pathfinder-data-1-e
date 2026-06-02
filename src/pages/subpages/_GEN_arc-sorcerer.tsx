@@ -324,7 +324,7 @@ const _tattooed_sorcerer = {title: "Tattooed Sorcerer", jsx: <><h2 id="arc-sorce
 <Pair title="Standard Action">A tattooed sorcerer can create a <Link to="/magic-tattoo/spell_tattoo">spell tattoo</Link> once per day with a single touch. The recipient of the spell tattoo must be willing to receive the spell tattoo.</Pair>
 <Pair title="At 11th Level">She can use this ability twice per day.</Pair>
 <Pair title="At 15th Level">She can use this ability three times per day.</Pair>
-<Pair title="Special">If she gives the spell tattoo to herself, it does not count against the regular limit of magic tattoos she can have. The spell tattoo must be of a spell that she knows that has no material or focus component. She can maintain one spell tattoo created by this ability at a time - if she uses this ability again, the previous spell tattoo she created fades away. Spell tattoos she creates with <Link to="/feat/inscribe_magic_tattoo">Inscribe Magic Tattoo</Link> do not count against this limit.</Pair>
+<Pair title="Special">If she gives the spell tattoo to herself, it does not count against the regular limit of magic tattoos she can have. The spell tattoo must be of a spell that she knows that has no material or focus component. She can maintain one spell tattoo created by this ability at a time - if she uses this ability again, the previous spell tattoo she created fades away. Spell tattoos she creates with <Link to="/feat/inscribe_magical_tattoo">Inscribe Magical Tattoo</Link> do not count against this limit.</Pair>
 </Ability>
 <Ability id="arc-sorcerer-tattooed_sorcerer-enhanced-varisian-tattoo-su" icon={["magic-swirl"]}>
 <Pair single id="arc-sorcerer-tattooed_sorcerer-enhanced-varisian-tattoo-su">Enhanced Varisian Tattoo (Su)</Pair>

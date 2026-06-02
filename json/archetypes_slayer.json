@@ -132,7 +132,7 @@
 			"",
 			"::ab[Mislead (Sp)]{l=7 icon=magic ability=\"A cleaner can cast ‹spell/misdirection› on himself at will. This lasts until the cleaner uses the ability again or ends the effect as a @HLstandard_action.\" replace=Stalker}",
 			"",
-			"::list[The following slayer talents complement the cleaner archetype]{hl link=slayertalent all=\"foil talent~rogue talent|‹talent/camouflage›, ‹talent/fast stealth›, ‹talent/rogue crawl›, ‹talent/surprise attack›, ‹talent/terrain mastery›\"}",
+			"::list[The following slayer talents complement the cleaner archetype]{hl link=slayertalent all=\"foil scrutiny~rogue talent|‹talent/camouflage›, ‹talent/fast stealth›, ‹talent/rogue crawl›, ‹talent/surprise attack›, ‹talent/terrain mastery›\"}",
 			"",
 			"::list[The following advanced slayer talents complement the cleaner archetype]{hl link=slayertalent all=\"advanced rogue talent|‹talent/knock-out blow›, ‹talent/master of disguise›~assassinate~slayer camouflage\"}"
 		]
@@ -204,7 +204,7 @@
 			"",
 			"::list[The following slayer talents complement the deliverer archetype]{hl link=slayertalent all=\"foil scrutiny~rogue talent|‹talent/combat trick›, ‹talent/finesse rogue›, ‹talent/terrain mastery›, ‹talent/trap spotter›~trapfinding›\"}",
 			"",
-			"::list[The following advanced slayer talents complement the deliverer archetype]{hl link=slayertalent all=\"advanced rogue talent|‹talent/hunter's surprise›, ‹talent/master of disguise›~assassinate~nina master trick|‹ninjatrick/evasion›\"}",
+			"::list[The following advanced slayer talents complement the deliverer archetype]{hl link=slayertalent all=\"advanced rogue talent|‹talent/hunter's surprise›, ‹talent/master of disguise›~assassinate~ninja master trick|‹ninjatrick/evasion›\"}",
 			"",
 			"::ab[Ex-Deliverers]{icon=warning info=\"A deliverer who grossly violates the code of conduct required by his deity loses all class features granted by this archetype, except for the weapon proficiencies. (He does not gain the slayer class abilities that the archetype replaces.) He cannot thereafter gain levels as a deliverer of that deity until he atones for his deeds (see the ‹spell/atonement› spell description).\"}"
 		]

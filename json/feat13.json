@@ -399,6 +399,7 @@
 			"Spells that do not have a range of touch, close, or medium do not benefit from this feat."
 		]
 	},
+	"reach": { "redirect": "reach_spell" },
 	"reach_spell_like_ability": {
 		"name": "Reach Spell-Like Ability",
 		"sources": [ "Horror Adventures" ],
@@ -2495,6 +2496,7 @@
 			"| 9th | 20th |"
 		]
 	},
+	"scarring": { "redirect": "scarring_spell_like_ability" },
 	"scavengers_eye": {
 		"name": "Scavenger's Eye",
 		"sources": [ "Advanced Race Guide" ],
