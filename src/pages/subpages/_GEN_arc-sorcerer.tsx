@@ -174,17 +174,25 @@ const _eldritch_scrapper = {title: "Eldritch Scrapper", jsx: <><h2 id="arc-sorce
 </>};
 const _mongrel_mage = {title: "Mongrel Mage", jsx: <><h2 id="arc-sorcerer-mongrel_mage-mongrel-mage">Mongrel Mage</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 122</Link><br/>A mongrel mage is a sorcerer whose bloodline is so weak, or mixed with so many others, that her power isn't clearly associated with any bloodline source. A mongrel mage's bloodline powers can change on a daily basis, but always fall short of those of a full-blooded sorcerer's powers. A mongrel mage is a dabbler in all bloodlines but a master of none, and she is looked down upon by true sorcerers.</p>
-<p><strong>Mongrel Reservoir (Su):</strong> At 1st level, a mongrel mage has an innate pool of magical energy, known as her mongrel reservoir, that she can draw upon to activate her weakened bloodline. Her mongrel reservoir can hold an amount of magical energy equal to 3 + her sorcerer level. Each day when refreshing her spell slots, her mongrel reservoir is restored to full. The mongrel reservoir can never hold more points that the total mentioned above; points gained in excess of this maximum are lost.</p>
-<p>Each day when she refreshes her spell slots, the mongrel mage selects one <Link to="/ability/sorcerer_bloodlines">sorcerer bloodline</Link>. She must select an ordinary bloodline with this ability, not one altered by the wildblooded archetype or any other archetype. She gains this bloodline's 1st-level bloodline power for that day, using it as if she were only a 1st-level sorcerer. (If this ability is used to gain an arcane bond and the bonded item is selected, she can use the item only to cast a 1st-level spell known, as she counts as only a 1st-level sorcerer.) A mongrel mage can have only one bloodline selected at a time.</p>
-<p>As a swift action, she can expend 1 point from her mongrel reservoir to activate that bloodline, allowing her to use its 1st-level bloodline powers as well as its bloodline arcana at her full sorcerer level, including using a bonded item from an arcane bond. This lasts for a number of rounds equal to her Charisma modifier (minimum 1).</p>
-<p>At 3rd level, when activating her selected bloodline, a mongrel mage can instead spend 2 points from her mongrel reservoir to allow her to use the bloodline's 1st- and 3rd-level powers as well as its bloodline arcana at her full sorcerer level for a number of rounds equal to her Charisma modifier (minimum 1).</p>
-<p>At 7th level, when a mongrel mage is activating her selected bloodline, the mongrel mage can instead spend 3 points from her mongrel reservoir, allowing her to use the bloodline's 1st-, 3rd-, and 7th-level powers as well as its bloodline arcana at her full sorcerer level for a number of rounds equal to her Charisma bonus.</p>
-<p>At 20th level, when activating her selected bloodline, a mongrel mage can instead spend 5 points from her mongrel reservoir, allowing her to use all of the bloodline's powers as well as its bloodline arcana at her full sorcerer level for a number of rounds equal to her Charisma modifier (minimum 1).</p>
-<p>This ability alters the <strong className="hl">bloodline</strong> class feature, <strong className="hl">bloodline powers</strong>, and <strong className="hl">bloodline spells</strong>.</p>
-<p><strong>Bloodline Spells:</strong> At 7th level, each day when she selects her bloodline, a mongrel mage adds the 1st-, 2nd-, and 3rd-level spells from her selected bloodline to her current list of spells known.</p>
-<p>At 13th level, each day when she selects her bloodline, a mongrel mage adds the 4th-, 5th-, and 6th-level spells from her selected bloodline to her current list of spells known.</p>
-<p>At 19th level, each day when she selects her bloodline, a mongrel mage adds the 7th-, 8th-, and 9th-level spells from her selected bloodline to her current list of spells known.</p>
-<p>This ability replaces the <strong className="hl">bloodline feats</strong> gained at 7th, 13th, and 19th level.</p>
+<Ability id="arc-sorcerer-mongrel_mage-mongrel-reservoir-su" icon={["magic-swirl"]}>
+<Pair single id="arc-sorcerer-mongrel_mage-mongrel-reservoir-su">Mongrel Reservoir (Su)</Pair>
+<Pair hl title="Alters">Bloodline, bloodline powers, bloodline spells</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability"><p>A mongrel mage has an innate pool of magical energy, known as her mongrel reservoir, that she can draw upon to activate her weakened bloodline. Her mongrel reservoir can hold an amount of magical energy equal to 3 + her sorcerer level. Each day when refreshing her spell slots, her mongrel reservoir is restored to full. The mongrel reservoir can never hold more points that the total mentioned above; points gained in excess of this maximum are lost.</p>
+<p>Each day when she refreshes her spell slots, the mongrel mage selects one <Link to="/ability/sorcerer_bloodlines">sorcerer bloodline</Link>. She must select an ordinary bloodline with this ability, not a wildblooded version or one altered by any other archetype. She gains this bloodline's 1st-level bloodline power for that day, using it as if she were only a 1st-level sorcerer. (If this ability is used to gain an <em>arcane bond</em> and the <em>bonded item</em> is selected, she can use the item only to cast a 1st-level spell known, as she counts as only a 1st-level sorcerer.) A mongrel mage can have only one bloodline selected at a time.</p>
+<p>As a <strong className="hl">swift action</strong>, she can expend 1 point from her mongrel reservoir to activate that bloodline, allowing her to use its 1st-level bloodline powers as well as its bloodline arcana at her full sorcerer level, including using a <em>bonded item</em> from an <em>arcane bond.</em> This lasts for a number of rounds equal to her Charisma modifier (minimum 1).</p>
+</Pair>
+<Pair title="At 3rd Level">When activating her selected bloodline, a mongrel mage can instead spend 2 points from her mongrel reservoir to allow her to use the bloodline's 1st- and 3rd-level powers as well as its bloodline arcana at her full sorcerer level for a number of rounds equal to her Charisma modifier (minimum 1).</Pair>
+<Pair title="At 7th Level">When a mongrel mage is activating her selected bloodline, the mongrel mage can instead spend 3 points from her mongrel reservoir, allowing her to use the bloodline's 1st-, 3rd-, and 7th-level powers as well as its bloodline arcana at her full sorcerer level for a number of rounds equal to her Charisma bonus.</Pair>
+<Pair title="At 20th Level">When activating her selected bloodline, a mongrel mage can instead spend 5 points from her mongrel reservoir, allowing her to use all of the bloodline's powers as well as its bloodline arcana at her full sorcerer level for a number of rounds equal to her Charisma modifier (minimum 1).</Pair>
+</Ability>
+<Ability id="arc-sorcerer-mongrel_mage-bloodline-spells" icon={["spell-book"]}>
+<Pair single id="arc-sorcerer-mongrel_mage-bloodline-spells">Bloodline Spells</Pair>
+<Pair hl title="Replaces">Bloodline feats gained at 7th, 13th, and 19th level</Pair>
+<Pair title="At 7th Level">Each day when she selects her bloodline, a mongrel mage adds the 1st-, 2nd-, and 3rd-level spells from her selected bloodline to her current list of spells known.</Pair>
+<Pair title="At 13th Level">Each day when she selects her bloodline, a mongrel mage adds the 4th-, 5th-, and 6th-level spells from her selected bloodline to her current list of spells known.</Pair>
+<Pair title="At 19th Level">Each day when she selects her bloodline, a mongrel mage adds the 7th-, 8th-, and 9th-level spells from her selected bloodline to her current list of spells known.</Pair>
+</Ability>
 </>};
 const _nine_tailed_heir = {title: "Nine-Tailed Heir", jsx: <><h2 id="arc-sorcerer-nine_tailed_heir-nine-tailed-heir">Nine-Tailed Heir</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 13</Link><br/>Tian stories often tell of kitsune with multiple tails, but not many realize that fewer than one kitsune in every thousand has this potential, and those that do usually have a magical quirk in their blood or have been blessed by their race's deific matron, Daikitsu. As a result, most that harness the mystic powers of their newfound tails often gain sorcerous powers, becoming nine-tailed heirs.</p>
@@ -202,74 +210,211 @@ const _nine_tailed_heir = {title: "Nine-Tailed Heir", jsx: <><h2 id="arc-sorcere
 </>};
 const _razmiran_priest = {title: "Razmiran Priest", jsx: <><h2 id="arc-sorcerer-razmiran_priest-razmiran-priest">Razmiran Priest</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 38</Link><br/>The so-called "priests" of Razmir are magical charlatans - missionary servants of the Living God who spread his fervent devotion wherever they travel. Altered by Razmir's magic, he can perform feats impossible for other sorcerers. A Razmiran priest has the following class features.</p>
-<p><strong>False Piety (Ex):</strong> At 1st level, a Razmiran priest gains Knowledge (religion) and Perform as class skills, but loses Appraise and Fly as class skills. He adds half his sorcerer level to Use Magic Device checks to activate spell trigger and spell completion items that use divine spells. He gains <Link to="/feat/false_focus">False Focus</Link> as a bonus feat. In addition to replacing Appraise and Fly as class skills, this ability replaces the priest's Eschew Materials bonus feat.</p>
-<p><strong>Lay Healer (Su):</strong> At 3rd level, the Razmiran priest adds <Link to="/spell/aid">aid</Link> to his list of spells known as a 2nd-level spell. At 5th level, he adds <Link to="/spell/remove_disease">remove disease</Link> to his list of spells known as a 3rd-level spell.</p>
-<p>This ability replaces the <strong className="hl">bloodline spells</strong> gained at 3rd level and 5th level respectively.</p>
-<p><strong>Razmiran Channel (Su):</strong> At 9th level, the Razmiran priest can use his own magic to power spell completion and spell trigger items that use divine spells. He expends a sorcerer spell slot that is at least 1 level higher than the level of the spell he's trying to activate, then makes a Use Magic Device check. If he succeeds, the item's spell occurs and the item or charge is not expended. If he fails, nothing happens. Whether he succeeds or fail, his spell slot is expended.</p>
-<p>This ability replaces the <strong className="hl">bloodline power</strong> gained at 9th level.</p>
+<Ability icon={["skills"]} id="arc-sorcerer-razmiran_priest-undefined">
+<Pair id="arc-sorcerer-razmiran_priest-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA)</Pair>
+<Pair title="Removed Skills">Appraise, Fly</Pair></Ability>
+<Ability id="arc-sorcerer-razmiran_priest-false-piety-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-sorcerer-razmiran_priest-false-piety-ex">False Piety (Ex)</Pair>
+<Pair hl title="Replaces">Eschew Materials bonus feat</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">He adds <Link to="/misc/half">half</Link> his sorcerer level to Use Magic Device checks to activate spell trigger and spell completion items that use divine spells.</Pair>
+<Pair title="Ability">He gains <Link to="/feat/false_focus">False Focus</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-razmiran_priest-lay-healer-su" icon={["spell-book"]}>
+<Pair single id="arc-sorcerer-razmiran_priest-lay-healer-su">Lay Healer (Su)</Pair>
+<Pair hl title="Replaces">Bloodline spells gained at 3rd level and 5th level</Pair>
+<Pair title="At 3rd Level">The Razmiran priest adds <Link to="/spell/aid">aid</Link> to his list of spells known as a 2nd-level spell.</Pair>
+<Pair title="At 5th Level">He adds <Link to="/spell/remove_disease">remove disease</Link> to his list of spells known as a 3rd-level spell.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-razmiran_priest-razmiran-channel-su" icon={["magic-swirl"]}>
+<Pair single id="arc-sorcerer-razmiran_priest-razmiran-channel-su">Razmiran Channel (Su)</Pair>
+<Pair hl title="Replaces">9th-level bloodline power</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Ability">The Razmiran priest can use his own magic to power spell completion and spell trigger items that use divine spells. He expends a sorcerer spell slot that is at least 1 level higher than the level of the spell he's trying to activate, then makes a Use Magic Device check. If he succeeds, the item's spell occurs and the item or charge is not expended. If he fails, nothing happens. Whether he succeeds or fail, his spell slot is expended.</Pair>
+</Ability>
 </>};
 const _seeker = {title: "Seeker", jsx: <><h2 id="arc-sorcerer-seeker-seeker">Seeker</h2>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 29</Link><br/>Oracles and sorcerers gain their magical powers through strange and mysterious ways, be they chosen by fate or blood. While most might be content with their strange powers, some oracles and sorcerers join the Pathfinders specifically to find out more about their mysteries and bloodlines and determine the genesis and history of their eldritch talents. These spellcasters are known among the Spells as seekers, after their obsession with researching ancient texts and obscure ruins for any clues they can find about their heritage and histories. A seeker has the following class features.</p>
-<p><strong>Tinkering (Ex):</strong> Seekers often look to ancient devices, old tomes, and strange magical items in order to learn more about their sorcerous bloodlines. As a result of this curiosity and thanks to an innate knack at deciphering the strange and weird, a seeker gains Disable Device as a class skill. In addition, at 1st level, a seeker adds half his sorcerer level on Perception checks made to locate traps and on all Disable Device skill checks (minimum +1). A seeker can use Disable Device to disarm magical traps. If the seeker also possesses levels in <Link to="/class/rogue">rogue</Link> or another class that provides the <Link to="/ability/trapfinding">trapfinding</Link> ability, those levels stack with his sorcerer levels for determining his overall bonus on these skill checks.</p>
-<p>This ability replaces his bonus <strong className="hl">Eschew Materials</strong> feat.</p>
-<p><strong>Seeker Lore (Ex):</strong> By 3rd level, a seeker has already learned much about his bloodline, and is more comfortable using the bonus spells gained by that bloodline. He gains a +4 bonus on all <Link to="/rule/concentration">concentration</Link> checks, on caster level checks made to overcome spell resistance, and on all Knowledge (arcana) and Spellcraft checks made on topics associated with his bonus spells.</p>
-<p>This ability replaces the <strong className="hl">bloodline power</strong> gained at 3rd level.</p>
-<p><strong>Seeker Magic (Su):</strong> At 15th level, a seeker becomes skilled at modifying his bloodline spells with metamagic. When a seeker applies a metamagic feat to any bonus spells granted by his bloodline, he reduces the metamagic feat's spell level adjustment by 1. Thus, applying a Metamagic feat like <Link to="/feat/still_spell">Still Spell</Link> to a spell does not change its effective spell level at all, while applying <Link to="/feat/quicken_spell">Quicken Spell</Link> only increases the spell's effective spell level by 3 instead of by 4. This reduction to the spell level adjustment for Metamagic feats does not stack with similar reductions from other abilities.</p>
-<p>This ability replaces the <strong className="hl">bloodline power</strong> gained at 15th level.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 29</Link><br/>Oracles and sorcerers gain their magical powers through strange and mysterious ways, be they chosen by fate or blood. While most might be content with their strange powers, some oracles and sorcerers join the <Link to="/rule/pathfinders">Pathfinders</Link> specifically to find out more about their mysteries and bloodlines and determine the genesis and history of their eldritch talents. These spellcasters are known among the Spells as seekers, after their obsession with researching ancient texts and obscure ruins for any clues they can find about their heritage and histories. A seeker has the following class features.</p>
+<Ability icon={["skills"]} id="arc-sorcerer-seeker-undefined">
+<Pair id="arc-sorcerer-seeker-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair></Ability>
+<Ability id="arc-sorcerer-seeker-tinkering-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-sorcerer-seeker-tinkering-ex">Tinkering (Ex)</Pair>
+<Pair hl title="Replaces">Eschew Materials</Pair>
+<Pair title="Passive Ability">A seeker adds <Link to="/misc/half">half</Link> his sorcerer level on Perception checks made to locate traps and on all Disable Device skill checks (minimum +1).</Pair>
+<Pair title="Ability">A seeker can use Disable Device to disarm magical traps.</Pair>
+<Pair title="Special">If the seeker also possesses levels in <Link to="/class/rogue">rogue</Link> or another class that provides the <Link to="/ability/trapfinding">trapfinding</Link> ability, those levels stack with his sorcerer levels for determining his overall bonus on these skill checks.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-seeker-seeker-lore-ex" icon={["upgrade"]}>
+<Pair single id="arc-sorcerer-seeker-seeker-lore-ex" flavor="A seeker has already learned much about his bloodline, and is more comfortable using the bonus spells gained by that bloodline.">Seeker Lore (Ex)</Pair>
+<Pair hl title="Replaces">3rd-level bloodline power</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">He gains a +4 bonus on all <Link to="/rule/concentration">concentration</Link> checks, on caster level checks made to overcome spell resistance, and on all Knowledge (arcana) and Spellcraft checks made on topics associated with his bonus spells.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-seeker-seeker-magic-su" icon={["upgrade"]}>
+<Pair single id="arc-sorcerer-seeker-seeker-magic-su" flavor="A seeker becomes skilled at modifying his bloodline spells with metamagic.">Seeker Magic (Su)</Pair>
+<Pair hl title="Replaces">15th-level bloodline power</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">When a seeker applies a metamagic feat to any bonus spells granted by his bloodline, he reduces the metamagic feat's spell level adjustment by 1. Thus, applying a Metamagic feat like <Link to="/feat/still_spell">Still Spell</Link> to a spell does not change its effective spell level at all, while applying <Link to="/feat/quicken_spell">Quicken Spell</Link> only increases the spell's effective spell level by 3 instead of by 4.</Pair>
+<Pair title="Special">This reduction to the spell level adjustment for Metamagic feats does not stack with similar reductions from other abilities.</Pair>
+</Ability>
 </>};
 const _sorcerer_of_sleep = {title: "Sorcerer of Sleep", jsx: <><h2 id="arc-sorcerer-sorcerer_of_sleep-sorcerer-of-sleep">Sorcerer of Sleep</h2>
-<p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 26</Link><br/>Some sorcerers have trouble accessing their innate gifts and must find another way to unlock them. For a sorcerer of sleep, the mind-altering drug <Link to="/drug/pesh">pesh</Link> is the key. The garbled visions the drug provides allow a sorcerer of sleep to reach an ideal state for channeling her arcane power. The arcane and dreamspun bloodlines are the sorcerer heritages most often associated with pesh, though a sorcerer of sleep might exhibit any bloodline; pesh is a tool to enhance her gifts, rather than their source.</p>
-<p><strong>Pesh Expert:</strong> A sorcerer of sleep adds 1/2 her sorcerer level (minimum 1) on Appraise, Craft (alchemy), Heal, and Knowledge (local) checks related to pesh and other drugs.</p>
-<p>This ability replaces <strong className="hl">bloodline arcana</strong>.</p>
-<p><strong>Sahir-Afiyun:</strong> A sorcerer of sleep gains <Link to="/feat/sahir_afiyun">Sahir-Afiyun</Link> as a bonus feat at 1st level, even if she does not meet the prerequisites. A sorcerer of sleep adds <Link to="/feat/pesh_euphoria">Pesh Euphoria</Link>, <Link to="/feat/pesh_healing">Pesh Healing</Link>, <Link to="/feat/pesh_rejuvenation">Pesh Rejuvenation</Link>, and Sahir-Afiyun to her list of bloodline feats.</p>
-<p>This ability replaces <strong className="hl">eschew materials</strong>.</p>
-<p><strong>Pesh Touch (Su):</strong> As a standard action, a sorcerer of sleep can make a melee touch attack against a living creature to cause one of the following effects (sorcerer's choice): the target gains a +2 enhancement bonus to Strength, the target is fatigued, or the target takes a -2 penalty on saving throws against illusion and mind-affecting effects. The effects of pesh touch last a number of rounds equal to 1/2 the sorcerer of sleep's sorcerer level. The effects of pesh touch are not cumulative, and cannot make the target exhausted. A sorcerer of sleep can use pesh touch a number of times per day equal to 3 + her Charisma modifier.</p>
-<p>This ability replaces the 1st-level <strong className="hl">bloodline power</strong>.</p>
+<p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 26</Link><br/>Some sorcerers have trouble accessing their innate gifts and must find another way to unlock them. For a sorcerer of sleep, the mind-altering drug <Link to="/drug/pesh">pesh</Link> is the key. The garbled visions the drug provides allow a sorcerer of sleep to reach an ideal state for channeling her arcane power. The <Link to="/sorcbloodline/arcane">arcane</Link> and <Link to="/sorcbloodline/dreamspun">dreamspun</Link> bloodlines are the sorcerer heritages most often associated with pesh, though a sorcerer of sleep might exhibit any bloodline; pesh is a tool to enhance her gifts, rather than their source.</p>
+<Ability id="arc-sorcerer-sorcerer_of_sleep-pesh-expert" icon={["upgrade"]}>
+<Pair single id="arc-sorcerer-sorcerer_of_sleep-pesh-expert">Pesh Expert</Pair>
+<Pair hl title="Replaces">Bloodline arcana</Pair>
+<Pair title="Passive Ability">A sorcerer of sleep adds 1/2 her sorcerer level (minimum 1) on Appraise, Craft (alchemy), Heal, and Knowledge (local) checks related to pesh and other drugs.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-sorcerer_of_sleep-sahir-afiyun" icon={["stairs-goal"]}>
+<Pair single id="arc-sorcerer-sorcerer_of_sleep-sahir-afiyun">Sahir-Afiyun</Pair>
+<Pair hl title="Replaces">Eschew materials</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A sorcerer of sleep gains <Link to="/feat/sahir_afiyun">Sahir-Afiyun</Link> as a bonus feat, even if she does not meet the prerequisites.</Pair>
+<Pair title="Info">A sorcerer of sleep adds <Link to="/feat/pesh_euphoria">Pesh Euphoria</Link>, <Link to="/feat/pesh_healing">Pesh Healing</Link>, <Link to="/feat/pesh_rejuvenation">Pesh Rejuvenation</Link>, and Sahir-Afiyun to her list of bloodline feats.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-sorcerer_of_sleep-pesh-touch-su" icon={["magic-palm","upgrade","armor-downgrade"]}>
+<Pair single id="arc-sorcerer-sorcerer_of_sleep-pesh-touch-su">Pesh Touch (Su)</Pair>
+<Pair hl title="Replaces">1st-level bloodline power</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">A sorcerer of sleep can make a melee touch attack against a living creature to cause one of the following effects (sorcerer's choice): the target gains a +2 enhancement bonus to Strength, the target is <Link to="/misc/fatigued">fatigued</Link>, or the target takes a -2 penalty on saving throws against illusion and mind-affecting effects. The effects of pesh touch last a number of rounds equal to 1/2 the sorcerer of sleep's sorcerer level. The effects of pesh touch are not cumulative, and cannot make the target <Link to="/misc/exhausted">exhausted</Link>.</Pair>
+</Ability>
 </>};
 const _stone_warder = {title: "Stone Warder", jsx: <><h2 id="arc-sorcerer-stone_warder-stone-warder">Stone Warder</h2>
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 29</Link><br/>Stone warders have an innate ability to create runes that allow them to ward areas with magic traps built from their spells. These sorcerers are most common among dwarves, but have been known to appear among other races who have strong ties to earth, rock, stone, mountains, and the Darklands.</p>
-<p><strong>Blood of the Earth:</strong> Stone warders must have a bloodline with strong ties to earth and rock. A stone warder must select the <Link to="/sorcbloodline/deep_earth">deep earth</Link>, <Link to="/sorcbloodline/draconic">draconic</Link> (copper dragon only), <Link to="/sorcbloodline/elemental">elemental</Link> (earth only), <Link to="/sorcbloodline/orc">orc</Link>, or <Link to="/sorcbloodline/shaitan">shaitan</Link> bloodline.</p>
-<p><strong>Power of Stone (Su):</strong> A stone warder draws power from natural rock, and gains a +1 bonus to her caster level when in hills, mountains, or underground terrain. This bonus increases to +2 at 5th level, and by an additional 1 every 5 sorcerer levels thereafter. However, this strong elemental tie prevents a stone warder from casting spells that have the air, cold, electricity, fire, or water descriptor.</p>
-<p><strong>Rune of Warding (Sp):</strong> As a standard action, a stone warder can create a warding rune in any adjacent square. The stone warder selects a sorcerer spell known that is at least 1 level lower than the highest-level spell she can cast, and casts it as part of creating the rune of warding. The spell must have a casting time of 1 standard action or less, and it must target one or more creatures. Rather than have its normal effect, the spell is stored in the rune. The first creature to enter the square triggers the rune of warding, and becomes the target of the selected spell. Regardless of the number of targets the spell can normally affect, it affects only the creature that triggers the rune.</p>
-<p>The rune is invisible and lasts a number of rounds equal to the stone warder's level or until discharged. If placed on a solid rock or stone surface, it instead lasts 1 minute per sorcerer level the stone warder has or until discharged. The stone warder cannot create a rune of warding in a square occupied by an existing rune of warding or another creature. The rune counts as a spell of the same level as the spell stored within it for the purposes of dispelling. It is considered a magic trap and can be discovered with a successful Perception check (DC = 25 + the level of the stored spell) and disarmed with a successful Disable Device check (DC = 25 + the level of the stored spell). The stone warder can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>
-<p>This ability replaces <strong className="hl">Eschew Materials</strong>, the <strong className="hl">bloodline spell</strong> gained at 3rd level, and the <strong className="hl">bloodline feat</strong> gained at 7th level.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-sorcerer-stone_warder--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/sorcbloodline/deep_earth">deep earth</Link>, <Link to="/sorcbloodline/draconic">draconic</Link> (copper dragon only), <Link to="/sorcbloodline/elemental">elemental</Link> (earth only), <Link to="/sorcbloodline/orc">orc</Link>, or <Link to="/sorcbloodline/shaitan">shaitan</Link> bloodline</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-sorcerer-stone_warder-power-of-stone-su" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-sorcerer-stone_warder-power-of-stone-su" flavor="A stone warder draws power from natural rock.">Power of Stone (Su)</Pair>
+<Pair title="Passive Ability">When in hills, mountains, or underground terrain, a stone warden gets a bonus to her caster level equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of her sorcerer level.</Pair>
+<Pair title="Special">This strong elemental tie prevents a stone warder from casting spells that have the air, cold, electricity, fire, or water descriptor.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-stone_warder-rune-of-warding-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-sorcerer-stone_warder-rune-of-warding-sp">Rune of Warding (Sp)</Pair>
+<Pair hl title="Replaces">Eschew Materials, 3rd-level bloodline spell, 7th-level bloodline feat</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action"><p>A stone warder can create a <em>warding rune</em> in any adjacent square. The stone warder selects a sorcerer spell known that is at least 1 level lower than the highest-level spell she can cast, and casts it as part of creating the <em>rune of warding.</em> The spell must have a casting time of 1 standard action or less, and it must target one or more creatures. Rather than have its normal effect, the spell is stored in the <em>rune.</em> The first creature to enter the square triggers the <em>rune of warding,</em> and becomes the target of the selected spell. Regardless of the number of targets the spell can normally affect, it affects only the creature that triggers the <em>rune.</em></p>
+<p>The <em>rune</em> is invisible and lasts a number of rounds equal to the stone warder's level or until discharged. If placed on a solid rock or stone surface, it instead lasts 1 minute per sorcerer level the stone warder has or until discharged.</p>
+</Pair>
+<Pair title="Special">The stone warder cannot create a <em>rune of warding</em> in a square occupied by an existing <em>rune of warding</em> or another creature. The <em>rune</em> counts as a spell of the same level as the spell stored within it for the purposes of dispelling. It is considered a magic trap and can be discovered with a successful Perception check (DC = 25 + the level of the stored spell) and disarmed with a successful Disable Device check (DC = 25 + the level of the stored spell).</Pair>
+</Ability>
 </>};
 const _tattooed_sorcerer = {title: "Tattooed Sorcerer", jsx: <><h2 id="arc-sorcerer-tattooed_sorcerer-tattooed-sorcerer">Tattooed Sorcerer</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 40</Link><br/>The tattooed sorcerer has embraced the ancient traditions of Varisian spellcasting, and uses colorful and intricate tattoos to enhance her magical powers. A tattooed sorcerer has the following class features.</p>
-<p><strong>Familiar Tattoo (Su):</strong> A tattooed sorcerer gains a <Link to="/sidekick/familiar">familiar</Link> as an arcane bond, as a <Link to="/class/wizard">wizard</Link> equal to her sorcerer level. Her sorcerer levels stack with any wizard or witch levels she possesses when determining the powers of her <Link to="/ability/familiar">familiar</Link> - this ability does not allow her to have both a familiar and a bonded item.</p>
-<p>Unlike most familiars, her familiar can transform itself into a tattoo that she carries in her flesh. Transforming into a tattoo or back to normal familiar form is a move action for her familiar. In tattoo form, the familiar looks like a stylized version of itself, but does not count as a creature separate from the tattooed sorcerer. In tattoo form it continues to grant its special familiar ability, but otherwise has no abilities and can take no actions except to transform from tattoo into creature. A familiar tattoo cannot be erased or dispelled.</p>
-<p>This ability replaces her 1st-level <strong className="hl">bloodline power</strong>.</p>
-<p><strong>Varisian Tattoo (Ex):</strong> At 1st level, the tattooed sorcerer gains <Link to="/feat/varisian_tattoo">Varisian Tattoo</Link> as a bonus feat. If she doesn't have <Link to="/feat/spell_focus">Spell Focus</Link>, she may choose which school of magic her Varisian Tattoo enhances.</p>
-<p>This ability replaces her <strong className="hl">Eschew Materials</strong> bonus feat.</p>
-<p><strong>Bloodline Tattoos (Ex):</strong> Whenever a tattooed sorcerer gains a bloodline spell, a new tattoo manifests on her body to represent this spell. Her bloodline spells are always enhanced by her Varisian Tattoo feat, even if they don't match the school to which her Varisian Tattoo belongs.</p>
-<p><strong>Create Spell Tattoo (Su):</strong> At 7th level, a tattooed sorcerer can create a <Link to="/magic-tattoo/spell_tattoo">spell tattoo</Link> once per day with a single touch as a standard action. The recipient of the spell tattoo must be willing to receive the spell tattoo. If she gives the spell tattoo to herself, it does not count against the regular limit of magic tattoos she can have. The spell tattoo must be of a spell that she knows that has no material or focus component. She can maintain one spell tattoo created by this ability at a time - if she uses this ability again, the previous spell tattoo she created fades away. Spell tattoos she creates with Inscribe Magic Tattoo do not count against this limit. She can use this ability twice per day at 11th level, and three times per day at 15th level.</p>
-<p>This ability replaces the <strong className="hl">bloodline feat</strong> gained at 7th level.</p>
-<p><strong>Enhanced Varisian Tattoo (Su):</strong> At 9th level, the tattooed sorcerer can pick any one spell she knows for which she has a Varisian Tattoo feat. This spell must be one that lacks focus components and costly material components. She can now use that spell as a spell-like ability once per day. This spell-like ability is not enhanced by her Varisian Tattoo, but it functions at +2 caster levels above her sorcerer caster level. Whenever she gains a bloodline power at a later date, she may change this spell-like ability to another qualifying spell.</p>
-<p>This ability replaces the 9th-level <strong className="hl">bloodline power</strong>.</p>
+<Ability id="arc-sorcerer-tattooed_sorcerer-familiar-tattoo-su" icon={["stairs-goal"]}>
+<Pair single id="arc-sorcerer-tattooed_sorcerer-familiar-tattoo-su">Familiar Tattoo (Su)</Pair>
+<Pair hl title="Replaces">1st-level bloodline power</Pair>
+<Pair title="Ability">A tattooed sorcerer gains a <Link to="/sidekick/familiar">familiar</Link> as an <em>arcane bond,</em> as a <Link to="/class/wizard">wizard</Link> equal to her sorcerer level. Her sorcerer levels stack with any wizard or <Link to="/class/witch">witch</Link> levels she possesses when determining the powers of her <Link to="/ability/familiar">familiar</Link> - this ability does not allow her to have both a familiar and a bonded item.</Pair>
+<Pair title="Ability">Unlike most familiars, her familiar can transform itself into a tattoo that she carries in her flesh. Transforming into a tattoo or back to normal familiar form is a <strong className="hl">move action</strong> for her familiar.</Pair>
+<Pair title="Special">In tattoo form, the familiar looks like a stylized version of itself, but does not count as a creature separate from the tattooed sorcerer. In tattoo form it continues to grant its special familiar ability, but otherwise has no abilities and can take no actions except to transform from tattoo into creature. A familiar tattoo cannot be erased or dispelled.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-tattooed_sorcerer-varisian-tattoo-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-sorcerer-tattooed_sorcerer-varisian-tattoo-ex">Varisian Tattoo (Ex)</Pair>
+<Pair hl title="Replaces">Eschew Materials bonus feat</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The tattooed sorcerer gains <Link to="/feat/varisian_tattoo">Varisian Tattoo</Link> as a bonus feat. If she doesn't have <Link to="/feat/spell_focus">Spell Focus</Link>, she may choose which school of magic her Varisian Tattoo enhances.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-tattooed_sorcerer-bloodline-tattoos-ex" icon={["magic-swirl"]}>
+<Pair single id="arc-sorcerer-tattooed_sorcerer-bloodline-tattoos-ex">Bloodline Tattoos (Ex)</Pair>
+<Pair title="Passive Ability">Whenever a tattooed sorcerer gains a bloodline spell, a new tattoo manifests on her body to represent this spell. Her bloodline spells are always enhanced by her Varisian Tattoo feat, even if they don't match the school to which her Varisian Tattoo belongs.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-tattooed_sorcerer-create-spell-tattoo-su" icon={["magic-palm"]}>
+<Pair single id="arc-sorcerer-tattooed_sorcerer-create-spell-tattoo-su">Create Spell Tattoo (Su)</Pair>
+<Pair hl title="Replaces">7th-level bloodline feat</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Standard Action">A tattooed sorcerer can create a <Link to="/magic-tattoo/spell_tattoo">spell tattoo</Link> once per day with a single touch. The recipient of the spell tattoo must be willing to receive the spell tattoo.</Pair>
+<Pair title="At 11th Level">She can use this ability twice per day.</Pair>
+<Pair title="At 15th Level">She can use this ability three times per day.</Pair>
+<Pair title="Special">If she gives the spell tattoo to herself, it does not count against the regular limit of magic tattoos she can have. The spell tattoo must be of a spell that she knows that has no material or focus component. She can maintain one spell tattoo created by this ability at a time - if she uses this ability again, the previous spell tattoo she created fades away. Spell tattoos she creates with <Link to="/feat/inscribe_magic_tattoo">Inscribe Magic Tattoo</Link> do not count against this limit.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-tattooed_sorcerer-enhanced-varisian-tattoo-su" icon={["magic-swirl"]}>
+<Pair single id="arc-sorcerer-tattooed_sorcerer-enhanced-varisian-tattoo-su">Enhanced Varisian Tattoo (Su)</Pair>
+<Pair hl title="Replaces">9th-level bloodline power</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Ability">The tattooed sorcerer can pick any one spell she knows for which she has a Varisian Tattoo feat. This spell must be one that lacks focus components and costly material components. She can now use that spell as a spell-like ability once per day. This spell-like ability is not enhanced by her Varisian Tattoo, but it functions at +2 caster levels above her sorcerer caster level.</Pair>
+<Pair title="Special">Whenever she gains a bloodline power at a later date, she may change this spell-like ability to another qualifying spell.</Pair>
+</Ability>
 </>};
 const _umbral_scion = {title: "Umbral Scion", jsx: <><h2 id="arc-sorcerer-umbral_scion-umbral-scion">Umbral Scion</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_shadows">Blood of Shadows pg. 19</Link><br/>Umbral scions are sorcerers who are able to expertly control their especially potent shadow heritage. The majority of umbral sorcerers hail from the Darklands.</p>
-<p><strong>Bloodline:</strong> An umbral scion must have the <Link to="/sorcbloodline/shadow">shadow</Link> bloodline.</p>
-<p><strong>Diminished Spellcasting:</strong> An umbral scion can cast one fewer spell per day of each level than normal. If this reduces the number to 0, she can cast spells of that level only if her Charisma score grants her <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</p>
-<p>This ability alters the sorcerer's <strong className="hl">spellcasting</strong>.</p>
-<p><strong>Shrouded Spells (Su):</strong> An umbral scion is enveloped by wisps of shadow whenever she casts a spell. The DC to identify spells cast by an umbral scion increases by 2. If the spell is being cast within an area of <Link to="/rule/dim_light">dim light</Link> or darkness, the DC increases by 5 instead.</p>
-<p><strong>Encroaching Darkness (Su):</strong> An umbral scion is capable of influencing light around her. As a standard action, she can produce a 10-foot-radius veil centered on a creature or object within 30 feet. This veil decreases the light level by one step and remains for a number of rounds equal to the sorcerer's Charisma modifier. At 7th level, the veil increases to a 30-foot radius. At 8th level, the veil decreases the light level by two steps. If the light level is decreased past darkness, the veil is treated as <Link to="/spell/deeper_darkness">deeper darkness</Link>. At 14th level, the veil increases to 60 feet and grants any creature within it cover (even against senses normally able to penetrate total darkness, such as the see in darkness ability). An umbral scion can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>
-<p>This ability replaces the shadowstrike 1st-level <strong className="hl">bloodline power</strong>.</p>
-<p><strong>Potent Shadows (Su):</strong> At 7th level, when an umbral scion casts a spell of the shadow subschool or a spell with the darkness or shadow descriptor within an area of dim light or darkness, she treats her caster level as 1 higher. Only the sorcerer herself needs to be in dim light or darkness. This bonus increases by 1 every 4 sorcerer levels beyond 7th she has to a maximum of +4 at 19th level.</p>
-<p>This ability replaces the 7th-level <strong className="hl">bloodline feat</strong>.</p>
-<p><strong>Crippling Darkness (Su):</strong> At 13th level, when an umbral scion targets a creature within an area of dim light or darkness with a spell of the shadow subschool or a spell with the darkness or shadow descriptor, the DC for the spell increases by 1. This bonus increases by 1 at 18th level.</p>
-<p>This ability replaces the 13th-level <strong className="hl">bloodline feat</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-sorcerer-umbral_scion--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/sorcbloodline/shadow">Shadow</Link> bloodline</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-sorcerer-umbral_scion-diminished-spellcasting" icon={["broken-shield"]}>
+<Pair single id="arc-sorcerer-umbral_scion-diminished-spellcasting">Diminished Spellcasting</Pair>
+<Pair hl title="Alters">Spellcasting</Pair>
+<Pair title="Info">An umbral scion can cast one fewer spell per day of each level than normal. If this reduces the number to 0, she can cast spells of that level only if her Charisma score grants her <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-umbral_scion-shrouded-spells-su" icon={["upgrade"]}>
+<Pair single id="arc-sorcerer-umbral_scion-shrouded-spells-su" flavor="An umbral scion is enveloped by wisps of shadow whenever she casts a spell.">Shrouded Spells (Su)</Pair>
+<Pair title="Passive Ability">The DC to identify spells cast by an umbral scion increases by 2. If the spell is being cast within an area of <Link to="/rule/dim_light">dim light</Link> or darkness, the DC increases by 5 instead.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-umbral_scion-encroaching-darkness-su" icon={["magic-swirl"]}>
+<Pair single id="arc-sorcerer-umbral_scion-encroaching-darkness-su" flavor="An umbral scion is capable of influencing light around her.">Encroaching Darkness (Su)</Pair>
+<Pair hl title="Replaces">1st-level bloodline power</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">She can produce a 10-foot-radius veil centered on a creature or object within 30 feet. This veil decreases the <Link to="/rule/light_level">light level</Link> by one step and remains for a number of rounds equal to the sorcerer's Charisma modifier.</Pair>
+<Pair title="At 7th Level">The veil increases to a 30-foot radius.</Pair>
+<Pair title="At 8th Level">The veil decreases the light level by two steps. If the light level is decreased past darkness, the veil is treated as <Link to="/spell/deeper_darkness">deeper darkness</Link>.</Pair>
+<Pair title="At 14th Level">The veil increases to 60 feet and grants any creature within it <Link to="/rule/cover">cover</Link> (even against senses normally able to penetrate total darkness, such as the <Link to="/umr/see_in_darkness">see in darkness</Link> ability).</Pair>
+</Ability>
+<Ability id="arc-sorcerer-umbral_scion-potent-shadows-su" icon={["upgrade"]}>
+<Pair single id="arc-sorcerer-umbral_scion-potent-shadows-su">Potent Shadows (Su)</Pair>
+<Pair hl title="Replaces">7th-level bloodline feat</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Passive Ability">When an umbral scion casts a spell of the <Link to="/spelldef/shadow_subschool">shadow subschool</Link> or a spell with the <Link to="/spelldef/darkness">darkness</Link> or <Link to="/spelldef/shadow_descriptor">shadow descriptor</Link> within an area of dim light or darkness, she treats her caster level as 1 higher. Only the sorcerer herself needs to be in dim light or darkness.</Pair>
+<Pair title="At 11th Level">This bonus becomes +2.</Pair>
+<Pair title="At 15th Level">This bonus increases to +3.</Pair>
+<Pair title="At 19th Level">This bonus becomes +4.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-umbral_scion-crippling-darkness-su" icon={["upgrade"]}>
+<Pair single id="arc-sorcerer-umbral_scion-crippling-darkness-su">Crippling Darkness (Su)</Pair>
+<Pair hl title="Replaces">13th-level bloodline feat</Pair>
+<Pair title="Gained">At 13th Level</Pair>
+<Pair title="Passive Ability">When an umbral scion targets a creature within an area of dim light or darkness with a spell of the shadow subschool or a spell with the darkness or shadow descriptor, the DC for the spell increases by 1.</Pair>
+<Pair title="At 18th Level">This bonus increases by 1.</Pair>
+</Ability>
 </>};
 const _wishcrafter = {title: "Wishcrafter", jsx: <><h2 id="arc-sorcerer-wishcrafter-wishcrafter">Wishcrafter</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 128</Link><br/>Wishcrafters are born with a talent for manipulating reality inherited from their efreeti ancestors. However, like the genies they are descended from, wishcrafters can only draw upon this power to fulfill the desires of others. A wishcrafter has the following class features.</p>
-<p><strong>Wishbound Arcana (Su):</strong> At 1st level, the wishcrafter can use the wishes of non-genie creatures other than herself in place of the normal verbal components of her spells. A creature can make a wish as a free action at any time, even during the wishcrafter's turn. The wishcrafter must be able to hear and understand a wish in order to use it as a spell component. A spell that doesn't normally have a verbal component gains one when cast using this ability. A wish doesn't need to mention the name of a specific spell, but must describe an outcome that can be accomplished by casting a spell the wishcrafter knows (for example, wishing to be bigger could supply the verbal component for <Link to="/spell/enlarge_person">enlarge person</Link>). A wishcrafter gains a +1 bonus to her caster level when using a creature's wish as a verbal component in this manner, but cannot include herself as a target of such spells. She can be affected by such a spell if it affects an area rather than a target or targets. A wishcrafter is under no compulsion to grant a creature's wish. Once the wishcrafter grants a creature's wish using this ability, she cannot use this ability to grant that creature any further wishes for 24 hours.</p>
-<p>This ability replaces <strong className="hl">bloodline arcana</strong>.</p>
-<p><strong>Expanded Wishcraft:</strong> At 3rd level and every 2 levels thereafter, the wishcrafter grows more adept at altering reality to fit the whims of others. She may add an additional spell selected from the sorcerer/wizard spell list to her list of spells known. This spell must be one level lower than the highest-level spell she can cast. A wishcrafter can only use these spells in conjunction with her wishbound arcana ability. For example, if she used this ability to learn <Link to="/spell/cats_grace">cat's grace</Link>, she can only cast it when another creature wishes for it, and can't cast it on herself because it is a targeted spell. She cannot use these spells to craft or recharge magic items. These bonus spells replace the bloodline spells gained by the sorcerer's bloodline.</p>
-<p><strong>Heart's Desire (Su):</strong> At 7th level, as a swift action, a wishcrafter can force a single creature within 30 feet to confess its deepest desire. The target receives a Will save to negate this effect (DC 10 + 1/2 the wishcrafter's level + the wishcrafter's Charisma modifier). On a failed save, the creature must immediately wish aloud in a clear voice for something it truly desires, allowing the wishcrafter to activate her wishbound arcana ability if she knows a spell that can fulfill that wish. This is a mind-affecting effect. Regardless of whether the save is successful, a creature cannot be the target of the same wishcrafter's heart's desire ability again for 24 hours. The wishcrafter can use this ability a number of times per day equal to her Charisma bonus.</p>
-<p>This ability replaces the <strong className="hl">bloodline bonus feat</strong> gained at 7th level.</p>
-<p><strong>Twisted Wish (Su):</strong> At 13th level, a wishcrafter becomes adept at corrupting wishes to negatively affect the creature that wished them. When a wishcrafter affects a creature with a spell using its wish as a spell component, she may twist the wish, applying a -4 penalty to the creature's saving throws against the spell. The effects of wishes twisted this way are difficult to remove; the DC of caster level checks to dispel them increases by 5.</p>
-<p>This ability replaces the <strong className="hl">bloodline bonus feat</strong> gained at 13th level.</p>
-<p><strong>Perfect Wishcraft (Su):</strong> At 19th level, the wishcrafter perfects her ability to manipulate reality. Once per day, she may cast any spell on the sorcerer/wizard spell list as if it were on her list of spells known. Using this ability otherwise has all of the benefits and limitations of the wishbound arcana ability.</p>
-<p>This ability replaces the <strong className="hl">bloodline bonus feat</strong> gained at 19th level.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-sorcerer-wishcrafter--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ifrit">Ifrit</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-sorcerer-wishcrafter-wishbound-arcana-su" icon={["magic-swirl","upgrade"]}>
+<Pair single id="arc-sorcerer-wishcrafter-wishbound-arcana-su" flavor="The wishcrafter can use the wishes of non-genie creatures other than herself in place of the normal verbal components of her spells.">Wishbound Arcana (Su)</Pair>
+<Pair hl title="Replaces">Bloodline arcana</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A creature can make a wish as a <strong className="hl">free action</strong> at any time, even during the wishcrafter's turn. The wishcrafter must be able to hear and understand a wish in order to use it as a spell component. A spell that doesn't normally have a verbal component gains one when cast using this ability. A wish doesn't need to mention the name of a specific spell, but must describe an outcome that can be accomplished by casting a spell the wishcrafter knows (for example, wishing to be bigger could supply the verbal component for <Link to="/spell/enlarge_person">enlarge person</Link>).</Pair>
+<Pair title="Passive Ability">A wishcrafter gains a +1 bonus to her caster level when using a creature's wish as a verbal component in this manner, but cannot include herself as a target of such spells. She can be affected by such a spell if it affects an area rather than a target or targets.</Pair>
+<Pair title="Special">A wishcrafter is under no compulsion to grant a creature's wish. Once the wishcrafter grants a creature's wish using this ability, she cannot use this ability to grant that creature any further wishes for 24 hours.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-wishcrafter-expanded-wishcraft" icon={["spell-book"]}>
+<Pair single id="arc-sorcerer-wishcrafter-expanded-wishcraft" flavor="The wishcrafter grows more adept at altering reality to fit the whims of others.">Expanded Wishcraft</Pair>
+<Pair hl title="Replaces">All bloodline spells</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">She may add an additional spell selected from the sorcerer/wizard spell list to her list of spells known. This spell must be one level lower than the highest-level spell she can cast.</Pair>
+<Pair title="At 5th Level">She may add another spell, following the restrictions above.</Pair>
+<Pair title="At 7th Level">She may add another spell, following the restrictions above.</Pair>
+<Pair title="At 9th Level">She may add another spell, following the restrictions above.</Pair>
+<Pair title="At 11th Level">She may add another spell, following the restrictions above.</Pair>
+<Pair title="At 13th Level">She may add another spell, following the restrictions above.</Pair>
+<Pair title="At 15th Level">She may add another spell, following the restrictions above.</Pair>
+<Pair title="At 17th Level">She may add another spell, following the restrictions above.</Pair>
+<Pair title="At 19th Level">She may add another spell, following the restrictions above.</Pair>
+<Pair title="Special">A wishcrafter can only use these spells in conjunction with her <em>wishbound arcana</em> ability. For example, if she used this ability to learn <Link to="/spell/cats_grace">cat's grace</Link>, she can only cast it when another creature wishes for it, and can't cast it on herself because it is a targeted spell. She cannot use these spells to craft or recharge magic items.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-wishcrafter-hearts-desire-su" icon={["magic-swirl"]}>
+<Pair single id="arc-sorcerer-wishcrafter-hearts-desire-su">Heart's Desire (Su)</Pair>
+<Pair hl title="Replaces">7th-level bloodline feat</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+<Pair title="Swift Action">A wishcrafter can force a single creature within 30 feet to confess its deepest desire. The target receives a Will save to negate this effect (DC 10 + 1/2 the wishcrafter's level + the wishcrafter's Charisma modifier). On a failed save, the creature must immediately wish aloud in a clear voice for something it truly desires, allowing the wishcrafter to activate her <em>wishbound arcana</em> ability if she knows a spell that can fulfill that wish.</Pair>
+<Pair title="Special">This is a mind-affecting effect. Regardless of whether the save is successful, a creature cannot be the target of the same wishcrafter's heart's desire ability again for 24 hours.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-wishcrafter-twisted-wish-su" icon={["armor-downgrade"]}>
+<Pair single id="arc-sorcerer-wishcrafter-twisted-wish-su" flavor="A wishcrafter becomes adept at corrupting wishes to negatively affect the creature that wished them.">Twisted Wish (Su)</Pair>
+<Pair hl title="Replaces">13th-level bloodline feat</Pair>
+<Pair title="Gained">At 13th Level</Pair>
+<Pair title="Ability">When a wishcrafter affects a creature with a spell using its wish as a spell component, she may twist the wish, applying a -4 penalty to the creature's saving throws against the spell. The effects of wishes twisted this way are difficult to remove; the DC of caster level checks to dispel them increases by 5.</Pair>
+</Ability>
+<Ability id="arc-sorcerer-wishcrafter-perfect-wishcraft-su" icon={["magic-swirl"]}>
+<Pair single id="arc-sorcerer-wishcrafter-perfect-wishcraft-su" flavor="The wishcrafter perfects her ability to manipulate reality.">Perfect Wishcraft (Su)</Pair>
+<Pair hl title="Replaces">19th-level bloodline feat</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Ability">Once per day, she may cast any spell on the sorcerer/wizard spell list as if it were on her list of spells known. Using this ability otherwise has all of the benefits and limitations of the <em>wishbound arcana</em> ability.</Pair>
+</Ability>
 </>};
 export default {bloodline_familiars:_bloodline_familiars,crossblooded:_crossblooded,dragon_drinker:_dragon_drinker,eldritch_scrapper:_eldritch_scrapper,mongrel_mage:_mongrel_mage,nine_tailed_heir:_nine_tailed_heir,razmiran_priest:_razmiran_priest,seeker:_seeker,sorcerer_of_sleep:_sorcerer_of_sleep,stone_warder:_stone_warder,tattooed_sorcerer:_tattooed_sorcerer,umbral_scion:_umbral_scion,wishcrafter:_wishcrafter}
