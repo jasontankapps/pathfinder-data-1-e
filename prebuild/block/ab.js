@@ -131,7 +131,7 @@ const makeAbilityBlock = ({
 		usage, useNC,
 		useL, useM, // default useUnit is "round"
 		useLMod, useMod, useInc, // default useUnit is "time"
-		useF,
+		useF, useHD,
 		useUnit,
 		containerInfo, title,
 		replace, alter, type, prereq,
@@ -157,6 +157,7 @@ const makeAbilityBlock = ({
 				const starting = Math.round(Number(initial) || 1);
 				const interval = Math.round(Number(levelInterval));
 				const unit = useUnit || "time";
+				const levels = useHD ? "HD" : "levels";
 				const plurality = starting === 1 ? "" : "s";
 				if(!startFromLevel) {
 					//useInc=cleric~2 =>
@@ -164,7 +165,7 @@ const makeAbilityBlock = ({
 					return [
 						`${starting} ${unit + plurality}/day per ${
 							writtenNumber(interval)
-						} ${levelClass} levels`,
+						} ${levelClass} ${levels}`,
 						unit
 					];
 				} else if(startFromLevel === "+") {
@@ -175,7 +176,7 @@ const makeAbilityBlock = ({
 					return [
 						`${starting} ${unit + plurality}/day + 1 per ${
 							writtenNumber(interval)
-						} ${levelClass} levels`,
+						} ${levelClass} ${levels}`,
 						unit
 					];
 				}
@@ -186,29 +187,30 @@ const makeAbilityBlock = ({
 				return [
 					`${starting} ${unit + plurality}/day + 1 per ${
 						writtenNumber(interval)
-					} ${levelClass} levels beyond ${ordinal(startFromLevel)}`,
+					} ${levelClass} ${levels} beyond ${ordinal(startFromLevel)}`,
 					unit
 				];
 			} else if (useL) {
 				const [cls, amt = "1"] = useL.split("~");
 				const [clss, plus] = cls.split(/(?<![0-9])(?=[0-9]+)/);
 				const unit = useUnit || "round";
+				const level = useHD ? "HD" : "level";
 				const amount = Math.round(Number(amt));
 				if(!amount || amount < 0) {
 					logError(`Invalid amount [${amount}] from useL=\"${useL}\".`);
-					return [`1 ${unit}/day per ${clss} level`, unit];
+					return [`1 ${unit}/day per ${clss} ${level}`, unit];
 				} else if(plus) {
 					return [`${plus} ${unit}${
 						plus == 1 ? "" : "s"  // Note this is NOT strict equality: that's on purpose
 					}/day + ${amount} ${unit}${
 						amount === 1 ? "" : "s"
-					} per ${clss} level`, unit];
+					} per ${clss} ${level}`, unit];
 					//useL=cleric3
 					//3 rounds/day + 1 per cleric level
 					//useL=hunter10~1
 					//10 rounds/day + 1 per hunter level
 				}
-				return [`${amount} ${unit}${amount === 1 ? "" : "s"}/day per ${clss} level`, unit];
+				return [`${amount} ${unit}${amount === 1 ? "" : "s"}/day per ${clss} ${level}`, unit];
 				//useL=cleric
 				//1 round/day per cleric level
 				//useL=hunter~10
@@ -226,6 +228,7 @@ const makeAbilityBlock = ({
 				//Wis modifier times/day
 			} else if (useLMod) {
 				const unit = useUnit || "time";
+				const level = useHD ? "HD" : "level";
 				const m = useLMod.match(/([^~]+)~(.*?)([0-9]*)$/);
 				if(!m) {
 					logError(`Invalid useLMod attribute [${useLMod}]`);
@@ -235,7 +238,7 @@ const makeAbilityBlock = ({
 				return [`${
 					plus ? `${plus} + ${clss}`
 						: (clss.slice(0,1).toUpperCase() + clss.slice(1))
-				} level + ${mod} modifier ${unit}s/day`, unit];
+				} ${level} + ${mod} modifier ${unit}s/day`, unit];
 				//useLMod=slayer~Charisma
 				//Slayer level + Charisma modifier times/day
 				//useLMod=slayer~Charisma3

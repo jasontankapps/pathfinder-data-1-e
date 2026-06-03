@@ -419,7 +419,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], [
 					/^(s0|([sl]|imp)(1?[1-9]|[12]0))$/,
 					/^ability[23]?$/,
-					/^use([FL]|NC|L?M(od)?|Inc|Unit)$/,
+					/^use([FL]|NC|L?M(od)?|Inc|Unit|HD)$/,
 					/^increment(At|End|Plain|Desc|Ord|Multi|Max|Roman|Use)?$/,
 					/^[xyzXYZ]/
 				], logError);
