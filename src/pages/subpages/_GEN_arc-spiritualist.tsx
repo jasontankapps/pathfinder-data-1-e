@@ -670,29 +670,84 @@ const _necrologist = {title: "Necrologist", jsx: <><h2 id="arc-spiritualist-necr
 </>};
 const _onmyoji = {title: "Onmyoji", jsx: <><h2 id="arc-spiritualist-onmyoji-onmyoji">Onmyoji</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 111</Link><br/>Though most spiritualists are chosen by their phantoms, others deliberately call phantoms to them through years of careful preparation and study in obscure divine traditions. These spiritualists, known as onmyoji, form close bonds with their phantoms, as any other spiritualist does, but see the phantoms as partners and tools in their work. Onmyoji serve as emissaries between the mundane world and the spiritual one, either working to ensure that troubles in the spiritual world do not spill over into the world of mortals, or stirring up spiritual trouble in order to achieve their ends among the living.</p>
-<p><strong>Divine Spellcasting:</strong> An onmyoji's spellcasting ability comes from divine rather than psychic power. As a divine caster, the onmyoji's spells use verbal components instead of thought components, and somatic components instead of emotional components, and she uses an ofuda as a divine focus. Ofudas are scrolls with holy writings written on parchment, cloth, or wood (having the same cost as a wooden holy symbol) or metal (having the same cost as a silver holy symbol).</p>
-<p>This ability alters <strong className="hl">spellcasting</strong>.</p>
-<p><strong>Spiritual Resistance (Su):</strong> An onmyoji's phantom provides her with protection from supernatural forces. While the phantom is confined within the onmyoji's consciousness (not stranded on the Ethereal Plane or fully manifested), it grants her a +2 bonus on saving throws against the spell-like and supernatural abilities of fey, outsiders, and incorporeal undead. At 6th level and every 6 levels thereafter, this bonus increases by 1 (to a maximum of +5 at 18th level).</p>
-<p>This ability replaces <strong className="hl">shared consciousness</strong> and <strong className="hl">fused consciousness</strong>.</p>
-<p><strong>Divine Teachings (Su):</strong> An onmyoji gains the ability to call upon her phantom to help her cast spells she normally couldn't. At 4th level and every 3 levels thereafter, an onmyoji can choose a single spell from the <Link to="/main/cleric_spell">cleric spell list</Link> with a spell level she is currently able to cast, and add that spell to her list of spells known, at the same spell level as it appears on the cleric spell list. Because the onmyoji relies on her phantom's influence in order to cast these spells, she can cast spells added in this way only while the phantom is confined within her consciousness (not stranded on the Ethereal Plane or fully manifested).</p>
-<p>This ability replaces <strong className="hl">spiritual interference</strong> and <strong className="hl">greater spiritual interference</strong>.</p>
+<Ability id="arc-spiritualist-onmyoji-divine-spellcasting" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-onmyoji-divine-spellcasting">Divine Spellcasting</Pair>
+<Pair hl title="Alters">Spellcasting</Pair>
+<Pair title="Info">An onmyoji's spellcasting ability comes from divine rather than psychic power. As a divine caster, the onmyoji's spells use verbal components instead of thought components, and somatic components instead of emotional components, and she uses an ofuda as a divine focus. Ofudas are scrolls with holy writings written on parchment, cloth, or wood (having the same cost as a <Link to="/eq-misc/wooden_holy_symbol">wooden holy symbol</Link>) or metal (having the same cost as a <Link to="/eq-misc/silver_holy_symbol">silver holy symbol</Link>).</Pair>
+</Ability>
+<Ability id="arc-spiritualist-onmyoji-spiritual-resistance-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-spiritualist-onmyoji-spiritual-resistance-su" flavor="An onmyoji's phantom provides her with protection from supernatural forces.">Spiritual Resistance (Su)</Pair>
+<Pair hl title="Replaces">Shared consciousness, fused consciousness</Pair>
+<Pair title="Passive Ability">While the phantom is confined within the onmyoji's consciousness (not stranded on the Ethereal Plane or fully manifested), it grants her a +2 bonus on saving throws against the spell-like and supernatural abilities of fey, outsiders, and incorporeal undead.</Pair>
+<Pair title="At 6th Level">This bonus becomes +3.</Pair>
+<Pair title="At 12th Level">This bonus increases to +4.</Pair>
+<Pair title="At 18th Level">This bonus becomes +5.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-onmyoji-divine-teachings-su" icon={["spell-book"]}>
+<Pair single id="arc-spiritualist-onmyoji-divine-teachings-su" flavor="An onmyoji gains the ability to call upon her phantom to help her cast spells she normally couldn't.">Divine Teachings (Su)</Pair>
+<Pair hl title="Replaces">Spiritual interference, greater spiritual interference</Pair>
+<Pair title="At 4th Level">An onmyoji can choose a single spell from the <Link to="/main/cleric_spell">cleric spell list</Link> with a spell level she is currently able to cast, and add that spell to her list of spells known, at the same spell level as it appears on the cleric spell list.</Pair>
+<Pair title="At 7th Level">She selects another cleric spell, following the restrictions above.</Pair>
+<Pair title="At 10th Level">She selects another cleric spell, following the restrictions above.</Pair>
+<Pair title="At 13th Level">She selects another cleric spell, following the restrictions above.</Pair>
+<Pair title="At 16th Level">She selects another cleric spell, following the restrictions above.</Pair>
+<Pair title="At 19th Level">She selects another cleric spell, following the restrictions above.</Pair>
+<Pair title="Special">Because the onmyoji relies on her phantom's influence in order to cast these spells, she can cast spells added in this way only while the phantom is confined within her consciousness (not stranded on the Ethereal Plane or fully manifested).</Pair>
+</Ability>
 </>};
 const _phantom_blade = {hasJL:true,title: "Phantom Blade", jsx: <><div className="jumpList" id="arc-spiritualist-phantom_blade-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arc-spiritualist-phantom_blade-phantom-weapon-ability-descriptions">Phantom Weapon Ability Descriptions</InnerLink></li><li><InnerLink toTop to="arc-spiritualist-phantom_blade-phantom-weapon-progression">Phantom Weapon Progression</InnerLink></li></ul></div><h2 id="arc-spiritualist-phantom_blade-phantom-blade">Phantom Blade</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 4</Link><br/>A small selection of spiritualists are connected to spirits of combat and warfare, and manifest a weapon instead of a phantom. These spiritualists are known as phantom blades and fight with ectoplasmic weapons. Phantom blades are often found in Mendev and the Worldwound, where spiritualists are baptized in the blood of comrades; the last survivor of an unfortunate squad might return bearing one of these ghostly blades.</p>
-<p><strong>Weapon and Armor Proficiency:</strong> A phantom blade is proficient with all simple and martial weapons. She is also proficient with light and medium armor.</p>
-<p>This ability alters the spiritualist's <strong className="hl">weapon</strong> and <strong className="hl">armor proficiency</strong>.</p>
-<p><strong>Phantom Weapon:</strong> A phantom blade begins play with an ectoplasmic sentient weapon known as a phantom weapon whose weapon type is chosen by the phantom blade. The weapon type must be one with which the phantom blade is proficient. A phantom weapon functions similarly to the black blade of the <Link to="/arc-magus/bladebound">bladebound</Link> magus archetype except as noted on the Phantom Weapon Progression table below. A phantom blade with this class feature can't have a phantom of any kind, even from another class.</p>
-<p>This replaces <strong className="hl">phantom</strong>, <strong className="hl">phantom recall</strong>, <strong className="hl">spiritual bond</strong>, and <strong className="hl">dual bond</strong>.</p>
-<p><strong>Spell Combat (Ex):</strong> A phantom blade can cast spells and wield her phantom weapon at the same time. This functions as the <Link to="/class/magus">magus's</Link> spell combat class ability.</p>
-<p>This replaces <strong className="hl">etheric tether</strong>, <strong className="hl">shared consciousness</strong>, <strong className="hl">fused consciousness</strong>, and <strong className="hl">empowered consciousness</strong>.</p>
-<p><strong>Spellstrike (Su):</strong> At 2nd level, a phantom blade can deliver spells through her phantom weapon. This functions like the magus's spellstrike class ability except the only weapon the spiritualist can use to deliver spells is her phantom weapon.</p>
-<p>This replaces <strong className="hl">bonded senses</strong>.</p>
-<p><strong>Spirit of War (Ex):</strong> At 3rd level and every 5 spiritualist levels thereafter, a phantom blade gains a bonus combat feat. The spiritualist must meet the prerequisites for these feats, but she treats her spiritualist level as her base attack bonus (in addition to base attack bonuses gained from other classes and racial Hit Dice) for the purpose of qualifying for these feats. The phantom blade also treats her spiritualist level as her fighter level for the purpose of selecting feats with a minimum number of fighter levels as a prerequisite.</p>
-<p>This replaces <strong className="hl">bonded manifestation</strong>.</p>
-<p><strong>Etheric Focus (Ex):</strong> At 4th level, the phantom blade can use her phantom weapon to aid her in casting spells with <Link to="/rule/components_oa">thought components</Link>. She can center herself as a swift action. At 12th level, the spiritualist can center herself as a free action.</p>
-<p>This ability replaces <strong className="hl">spiritual interference</strong> and <strong className="hl">greater spiritual interference</strong>.</p>
+<Ability id="arc-spiritualist-phantom_blade-weapon-and-armor-proficiency" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-phantom_blade-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Alters">Weapon, armor proficiency</Pair>
+<Pair title="Info">A phantom blade is proficient with all simple and martial weapons. She is also proficient with light and medium armor.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-phantom-weapon" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-phantom_blade-phantom-weapon">Phantom Weapon</Pair>
+<Pair hl title="Replaces">Phantom, phantom recall, spiritual bond, dual bond</Pair>
+<Pair title="Ability">A phantom blade begins play with an ectoplasmic sentient weapon known as a <em>phantom weapon</em> whose weapon type is chosen by the phantom blade. The weapon type must be one with which the phantom blade is proficient. A <em>phantom weapon</em> functions similarly to the <em>black blade</em> of the <Link to="/arc-magus/bladebound">bladebound</Link> magus archetype except as noted on the Phantom Weapon Progression table below. A phantom blade with this class feature can't have a phantom of any kind, even from another class.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-spell-combat-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-phantom_blade-spell-combat-ex">Spell Combat (Ex)</Pair>
+<Pair hl title="Replaces">Etheric tether, shared consciousness, fused consciousness, empowered consciousness</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A phantom blade can cast spells and wield her <em>phantom weapon</em> at the same time. This functions as the <Link to="/class/magus">magus's</Link> <em>spell combat</em> class ability.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-spell-combat-ex" extraClasses="subAbility" icon={["stairs-goal","mailed-fist","magic-swirl"]}>
+<Pair single id="arc-spiritualist-phantom_blade-spell-combat-ex" flavor="Text from the magus class ability.">Spell Combat (Ex)</Pair>
+<Pair title="Info">A magus learn to cast spells and wield his weapons at the same time. This functions much like <Link to="/rule/two_weapon_fighting">two-weapon fighting</Link>, but the off-hand weapon is a spell that is being cast.</Pair>
+<Pair title="Full-Round Action">You can make all of your attacks with your melee weapon at a -2 penalty and can also cast any spell from the magus spell list with a casting time of 1 standard action (any attack roll made as part of this spell also takes this penalty). If you cast this spell defensively, you can decide to take an additional penalty on your attack rolls, up to your Intelligence bonus, and add the same amount as a circumstance bonus on your <Link to="/rule/concentration">concentration</Link> check. If the check fails, the spell is wasted, but the attacks still take the penalty. You can choose to cast the spell first or make the weapon attacks first, but if you have more than one attack, you cannot cast the spell between weapon attacks.</Pair>
+<Pair title="Special">To use this ability, you must have one hand free (even if the spell being cast does not have somatic components), while wielding a light or one-handed melee weapon in the other hand.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-spellstrike-su" extraClasses="hasSubs" icon={["mailed-fist"]}>
+<Pair single id="arc-spiritualist-phantom_blade-spellstrike-su">Spellstrike (Su)</Pair>
+<Pair hl title="Replaces">Bonded senses</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A phantom blade can deliver spells through her <em>phantom weapon.</em> This functions like the magus's <em>spellstrike</em> class ability except the only weapon the spiritualist can use to deliver spells is her <em>phantom weapon.</em></Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-spellstrike-su" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-spiritualist-phantom_blade-spellstrike-su" flavor="Text from the magus class ability.">Spellstrike (Su)</Pair>
+<Pair title="Ability">Whenever you cast a spell with a range of "touch" from the magus spell list, you can deliver the spell through any weapon you are wielding as part of a melee attack. Instead of the free melee touch attack normally allowed to deliver the spell, you can make one free melee attack with your weapon (at your highest base attack bonus) as part of casting this spell. If successful, this melee attack deals its normal damage as well as the effects of the spell. If you make this attack in concert with <em>spell combat,</em> this melee attack takes all the penalties accrued by spell combat melee attacks.</Pair>
+<Pair title="Special">This attack uses the weapon's critical range (20, 19-20, or 18-20 and modified by the <em>keen</em> weapon property or similar effects), but the spell effect only deals &times;2 damage on a successful critical hit, while the weapon damage uses its own critical modifier.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-spirit-of-war-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-phantom_blade-spirit-of-war-ex">Spirit of War (Ex)</Pair>
+<Pair hl title="Replaces">Bonded manifestation</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A phantom blade gains a bonus combat feat. The spiritualist must meet the prerequisites for these feats, but she treats her spiritualist level as her base attack bonus (in addition to base attack bonuses gained from other classes and racial Hit Dice) for the purpose of qualifying for these feats. The phantom blade also treats her spiritualist level as her fighter level for the purpose of selecting feats with a minimum number of fighter levels as a prerequisite.</Pair>
+<Pair title="At 8th Level">She gains another bonus feat, following the restrictions above.</Pair>
+<Pair title="At 13th Level">She gains another bonus feat, following the restrictions above.</Pair>
+<Pair title="At 18th Level">She gains another bonus feat, following the restrictions above.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-etheric-focus-ex" icon={["upgrade"]}>
+<Pair single id="arc-spiritualist-phantom_blade-etheric-focus-ex" flavor={<>The phantom blade can use her <em>phantom weapon</em> to aid her in casting spells with <Link to="/rule/components_oa">thought components</Link>.</>}>Etheric Focus (Ex)</Pair>
+<Pair hl title="Replaces">Spiritual interference, greater spiritual interference</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Swift Action">She can center herself (instead of as a move action).</Pair>
+<Pair title="At 12th Level">The spiritualist can center herself as a <strong className="hl">free action</strong>.</Pair>
+</Ability>
 <h3 id="arc-spiritualist-phantom_blade-phantom-weapon-ability-descriptions" data-hash-target>Phantom Weapon Ability Descriptions</h3>
-<p>A phantom weapon has special abilities (or imparts abilities to its wielder) depending on the wielder's spiritualist level. These abilities are cumulative. A phantom weapon normally refuses to use any of its abilities when wielded by anyone other than its phantom blade, and acts as an incorporeal masterwork weapon of its type.</p>
+<p>A <em>phantom weapon</em> has special abilities (or imparts abilities to its wielder) depending on the wielder's spiritualist level. These abilities are cumulative. A <em>phantom weapon</em> normally refuses to use any of its abilities when wielded by anyone other than its phantom blade, and acts as an incorporeal masterwork weapon of its type.</p>
 <h3 id="arc-spiritualist-phantom_blade-phantom-weapon-progression" data-hash-target>Phantom Weapon Progression</h3>
 <ScrollContainer id="arc-spiritualist-phantom_blade--table-0"><table>
 <thead>
@@ -786,19 +841,64 @@ const _phantom_blade = {hasJL:true,title: "Phantom Blade", jsx: <><div className
 <td>Soul eater</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Alertness (Ex):</strong> While the phantom blade is wielding or harboring her phantom weapon, she gains the <Link to="/feat/alertness">Alertness</Link> feat.</p>
-<p><strong>Phantom Touch (Ex):</strong> A phantom weapon is always treated as a <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon, regardless of weapon type or any other abilities modifying the weapon. If the phantom weapon would ever be destroyed, it is instead harbored in the spiritualist's consciousness for 24 hours.</p>
-<p><strong>Telepathy (Su):</strong> While the phantom blade is wielding or carrying her phantom weapon, she can communicate telepathically with the weapon.</p>
-<p><strong>Weapon of the Mind (Ex):</strong> The phantom blade can harbor her phantom weapon in her consciousness or manifest it in its ectoplasmic form. The phantom blade can manifest the weapon through a ritual that takes 1 minute to perform. Harboring the phantom weapon requires a full-round action. While the weapon is harbored, the phantom blade gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat and treats her unarmed strike damage as a <Link to="/class/monk">monk</Link> of her level - 2. If the phantom blade already has this feat, she instead gains <Link to="/feat/weapon_focus">Weapon Focus</Link> (unarmed strike). The phantom blade's unarmed strikes gain the phantom weapon's enhancement bonus and other abilities when the weapon is harbored. The phantom weapon also recovers a number of hit points equal to its ego score every hour that it is harbored.</p>
-<p><strong>Quick Manifest (Ex):</strong> At 3rd level, the phantom blade can manifest her phantom weapon as a swift action.</p>
-<p><strong>Ectoplasmic Pool (Ex):</strong> At 5th level, the phantom blade gains a reservoir of excess ethereal energy and ectoplasm that she can draw upon to improve her phantom weapon. This pool has a number of ectoplasmic points equal to half her spiritualist level + her Wisdom modifier. The pool refreshes once per day when the spiritualist refreshes her daily spells.</p>
-<p>The phantom blade can spend a number of ectoplasmic points to enhance or modify her phantom weapon. As a free action, she can spend 1 point to manifest or harbor her weapon. The spiritualist can also spend 2 ectoplasmic points as a free action to allow attacks made with her phantom weapon to resolve against touch AC for 1 round.</p>
-<p>As a swift action, she can spend 2 ectoplasmic points to grant the weapon one of the following weapon special abilities for 1 minute: <Link to="/magic-enh/corrosive">corrosive</Link>, <Link to="/magic-enh/defending">defending</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/merciful">merciful</Link>, <Link to="/magic-enh/shock">shock</Link>, or <Link to="/magic-enh/throwing">throwing</Link>. At 11th level, she can spend 3 ectoplasmic points to grant the weapon one of the following weapon special abilities for 1 minute: <Link to="/magic-enh/corrosive_burst">corrosive burst</Link>, <Link to="/magic-enh/disruption">disruption</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/holy">holy</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, or <Link to="/magic-enh/unholy">unholy</Link>. At 15th level, she can spend 5 ectoplasmic points to grant the weapon one of the following weapon special abilities for 1 minute: <Link to="/magic-enh/brilliant_energy">brilliant energy</Link>, <Link to="/magic-enh/dancing">dancing</Link>, or <Link to="/magic-enh/speed">speed</Link>. A phantom blade can spend an appropriate number of points to grant the weapon multiple abilities as one action. A phantom weapon cannot have a modified bonus higher than +10.</p>
-<p><strong>Reshape (Ex):</strong> At 7th level, a phantom blade can change the weapon type of her phantom weapon when she refreshes her daily spells.</p>
-<p><strong>Phantom Tether (Su):</strong> At 9th level, a phantom blade can spend 1 ectoplasmic point as a swift action to instantly recall her phantom weapon to her hand or consciousness from as far as 1 mile away.</p>
-<p><strong>Quick Reshape (Ex):</strong> At 13th level, a phantom blade can spend 1 ectoplasmic point to reshape her phantom weapon as a full-round action, 2 ectoplasmic points to reshape her weapon as a standard action, 3 ectoplasmic points to reshape her weapon as a move action, and 4 ectoplasmic points to reshape her weapon as a swift action.</p>
-<p><strong>Etheric Strikes (Sp):</strong> At 17th level, a phantom blade can spend 1 ectoplasmic point as a swift action to allow her phantom weapon to ignore a number of points of damage reduction equal to twice her Wisdom modifier or twice the weapon's Charisma modifier, whichever is higher.</p>
-<p><strong>Soul Eater (Su):</strong> At 19th level, the phantom blade and her weapon can feast on the energy of departing souls. Each time she kills a living or incorporeal creature with her phantom weapon, she can pick one of the following effects: she gains a +2 bonus on attack and damage rolls for 1 round, she recovers one 1st- or 2nd-level spell slot, or she gains a number of temporary hit points equal to the phantom weapon's ego (these temporary hit points last until lost or 1 minute, whichever is shorter). The creature killed must have a number of Hit Dice equal to or greater than half the phantom blade's spiritualist level for this to occur.</p>
+<Ability id="arc-spiritualist-phantom_blade-alertness-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-phantom_blade-alertness-ex">Alertness (Ex)</Pair>
+<Pair title="Ability">While the phantom blade is wielding or harboring her <em>phantom weapon,</em> she gains the <Link to="/feat/alertness">Alertness</Link> feat.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-phantom-touch-ex" icon={["upgrade"]}>
+<Pair single id="arc-spiritualist-phantom_blade-phantom-touch-ex">Phantom Touch (Ex)</Pair>
+<Pair title="Ability">A <em>phantom weapon</em> is always treated as a <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon, regardless of weapon type or any other abilities modifying the weapon. If the <em>phantom weapon</em> would ever be destroyed, it is instead harbored in the spiritualist's consciousness for 24 hours.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-telepathy-su" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-phantom_blade-telepathy-su">Telepathy (Su)</Pair>
+<Pair title="Ability">While the phantom blade is wielding or carrying her <em>phantom weapon,</em> she can communicate telepathically with the weapon.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-weapon-of-the-mind-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-phantom_blade-weapon-of-the-mind-ex">Weapon of the Mind (Ex)</Pair>
+<Pair title="Ability">The phantom blade can harbor her <em>phantom weapon</em> in her consciousness or manifest it in its ectoplasmic form. The phantom blade can manifest the weapon through a ritual that takes 1 minute to perform. Harboring the <em>phantom weapon</em> requires a <strong className="hl">full-round action</strong>. While the weapon is harbored, the phantom blade gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat and treats her unarmed strike damage as a <Link to="/class/monk">monk</Link> of her level - 2. If the phantom blade already has this feat, she instead gains <Link to="/feat/weapon_focus">Weapon Focus</Link> (unarmed strike).</Pair>
+<Pair title="Special">The phantom blade's unarmed strikes gain the <em>phantom weapon's</em> enhancement bonus and other abilities when the weapon is harbored. The <em>phantom weapon</em> also recovers a number of hit points equal to its ego score every hour that it is harbored.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-quick-manifest-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-phantom_blade-quick-manifest-ex">Quick Manifest (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">The phantom blade can manifest her <em>phantom weapon</em> as a <strong className="hl">swift action</strong>.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-ectoplasmic-pool-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-spiritualist-phantom_blade-ectoplasmic-pool-ex">Ectoplasmic Pool (Ex)</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">The phantom blade gains a reservoir of excess ethereal energy and ectoplasm that she can draw upon to improve her <em>phantom weapon.</em> This pool has a number of ectoplasmic points equal to half her spiritualist level + her Wisdom modifier. The pool refreshes once per day when the spiritualist refreshes her daily spells.</Pair>
+<Pair title="Ability">The phantom blade can spend a number of ectoplasmic points to enhance or modify her <em>phantom weapon.</em> As a <strong className="hl">free action</strong>, she can spend 1 point to manifest or harbor her weapon. The spiritualist can also spend 2 ectoplasmic points as a <strong className="hl">free action</strong> to allow attacks made with her <em>phantom weapon</em> to resolve against touch AC for 1 round.</Pair>
+<Pair title="Swift Action">She can spend 2 ectoplasmic points to grant the weapon one of the following weapon special abilities for 1 minute: <Link to="/magic-enh/corrosive">corrosive</Link>, <Link to="/magic-enh/defending">defending</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/merciful">merciful</Link>, <Link to="/magic-enh/shock">shock</Link>, or <Link to="/magic-enh/throwing">throwing</Link>.</Pair>
+<Pair title="At 11th Level">She can spend 3 ectoplasmic points to grant the weapon one of the following weapon special abilities for 1 minute: <Link to="/magic-enh/corrosive_burst">corrosive burst</Link>, <Link to="/magic-enh/disruption">disruption</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/holy">holy</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, or <Link to="/magic-enh/unholy">unholy</Link>.</Pair>
+<Pair title="At 15th Level">She can spend 5 ectoplasmic points to grant the weapon one of the following weapon special abilities for 1 minute: <Link to="/magic-enh/brilliant_energy">brilliant energy</Link>, <Link to="/magic-enh/dancing">dancing</Link>, or <Link to="/magic-enh/speed">speed</Link>.</Pair>
+<Pair title="Special">A phantom blade can spend an appropriate number of points to grant the weapon multiple abilities as one action. A <em>phantom weapon</em> cannot have a modified bonus higher than +10.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-reshape-ex" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-phantom_blade-reshape-ex">Reshape (Ex)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A phantom blade can change the weapon type of her <em>phantom weapon</em> when she refreshes her daily spells.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-phantom-tether-su" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-phantom_blade-phantom-tether-su">Phantom Tether (Su)</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Swift Action">A phantom blade can spend 1 ectoplasmic point to instantly recall her <em>phantom weapon</em> to her hand or consciousness from as far as 1 mile away.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-quick-reshape-ex" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-phantom_blade-quick-reshape-ex">Quick Reshape (Ex)</Pair>
+<Pair title="Gained">At 13th Level</Pair>
+<Pair title="Ability">A phantom blade can spend 1 ectoplasmic point to reshape her <em>phantom weapon</em> as a <strong className="hl">full-round action</strong>, 2 ectoplasmic points to reshape her weapon as a <strong className="hl">standard action</strong>, 3 ectoplasmic points to reshape her weapon as a <strong className="hl">move action</strong>, and 4 ectoplasmic points to reshape her weapon as a <strong className="hl">swift action</strong>.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-etheric-strikes-sp" icon={["armor-downgrade"]}>
+<Pair single id="arc-spiritualist-phantom_blade-etheric-strikes-sp">Etheric Strikes (Sp)</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Swift Action">A phantom blade can spend 1 ectoplasmic point to allow her <em>phantom weapon</em> to ignore a number of points of damage reduction equal to twice her Wisdom modifier or twice the weapon's Charisma modifier, whichever is higher.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-soul-eater-su" icon={["upgrade","magic-swirl","remedy"]}>
+<Pair single id="arc-spiritualist-phantom_blade-soul-eater-su" flavor="The phantom blade and her weapon can feast on the energy of departing souls.">Soul Eater (Su)</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Ability">Each time she kills a living or incorporeal creature with her <em>phantom weapon,</em> she can pick one of the following effects: she gains a +2 bonus on attack and damage rolls for 1 round, she recovers one 1st- or 2nd-level spell slot, or she gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the <em>phantom weapon's</em> ego (these temporary hit points last until lost or 1 minute, whichever is shorter).</Pair>
+<Pair title="Special">The creature killed must have a number of Hit Dice equal to or greater than half the phantom blade's spiritualist level for this to occur.</Pair>
+</Ability>
 </>};
 const _plague_eater = {title: "Plague Eater", jsx: <><h2 id="arc-spiritualist-plague_eater-plague-eater">Plague Eater</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 12</Link><br/>Iobaria has been ravaged by plague for centuries, and many of its dead do not rest. These ghosts often flock around specialized spiritualists called plague eaters. Such a spiritualist bears the weight of many souls within her consciousness, spirits that remember the devastation of disease and seek to protect their host from infections, cleanse others of plague, and use disease itself as a weapon.</p>
