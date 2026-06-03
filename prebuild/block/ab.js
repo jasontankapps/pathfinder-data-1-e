@@ -676,9 +676,9 @@ const makeAbilityBlock = ({
 				if(!bit) {
 					return;
 				}
-				const spells = bit.split("~~").map(line => {
-					const [text, extra] = line.split("~");
-					return `‹spell/${text}›${extra || ""}`;
+				const spells = bit.split("~").map(line => {
+					const [text, extra] = line.split("|");
+					return `‹spell/${text}›${extra ? " " + extra : ""}`;
 				}).join(", ");
 				const level = i && ordinal(i);
 				output.push(

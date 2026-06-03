@@ -808,7 +808,7 @@
 			"",
 			"::ab[Lifewater (Su)]{next icon=magic l5=\"The watersinger can spend 1 round of bardic performance as a standard action to manipulate the water, blood, and other fluids within a creature's body, causing the target to become ‹misc/sickened› for 1d4 rounds. Alternatively, he may use this ability to attempt a ‹rule/reposition› combat maneuver, using his base attack bonus and his Charisma modifier as his CMB. This ability has a range of 30 feet, only works on creatures whose bodies contain fluid, and does not affect creatures that are immune to critical hits.\" replace=\"The use of *lore master* gained at 5th level\" special=\"A watersinger still gains the use of *lore master* once per day at 11th level and twice per day at 17th.\"}",
 			"",
-			"::ab[Watersinger Spells]{icon=learn info=\"A watersinger adds certain water-themed spells to his spell list. He adds these abilities to his spell list as soon as his bard level allows him to cast spells of that spell level.\" s0=\"Create water\" s1=\"Hydraulic push~~slipstream\" s2=\"Aqueous orb~~hydraulic torrent~~water walk\" s3=\"Fluid form~~ride the waves\" s4=\"Control water~~communal water walk\" s5=Vortex s6=Seamantle}"
+			"::ab[Watersinger Spells]{icon=learn info=\"A watersinger adds certain water-themed spells to his spell list. He adds these abilities to his spell list as soon as his bard level allows him to cast spells of that spell level.\" s0=\"Create water\" s1=\"Hydraulic push~slipstream\" s2=\"Aqueous orb~hydraulic torrent~water walk\" s3=\"Fluid form~ride the waves\" s4=\"Control water~communal water walk\" s5=Vortex s6=Seamantle}"
 		]
 	},
 	"wit": {

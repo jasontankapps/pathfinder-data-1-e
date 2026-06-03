@@ -10,7 +10,7 @@
 			"",
 			"::prereq{r=Nagaji}",
 			"",
-			"::ab[Aspirant's Bond (Ex)]{icon=learn flavor=\"A naga aspirant gains a spiritual connection to the serpentine deities worshiped by the nagas.\" passive=\"At 1st level, and @HLeach_time_she_gains_a_druid_level, she may add one of the following spells to her druid spell list.\" s0=\"Acid splash~~bleed~~daze~~mage hand~~open/close~~ray of frost\" s1=\"Charm person~~divine favor~~expeditious retreat~~mage armor~~magic missile~~ray of enfeeblement~~shield~~shield of faith~~silent image~~true strike\" s2=\"Acid arrow~~detect thoughts~~invisibility~~mirror image~~scorching ray~~see invisibility\" s3=\"Dispel magic~~displacement~~fireball~~lightning bolt~~suggestion\" s4=\"Divine power~~greater invisibility\" replace=\"Spontaneous casting\"}",
+			"::ab[Aspirant's Bond (Ex)]{icon=learn flavor=\"A naga aspirant gains a spiritual connection to the serpentine deities worshiped by the nagas.\" passive=\"At 1st level, and @HLeach_time_she_gains_a_druid_level, she may add one of the following spells to her druid spell list.\" s0=\"Acid splash~bleed~daze~mage hand~open/close~ray of frost\" s1=\"Charm person~divine favor~expeditious retreat~mage armor~magic missile~ray of enfeeblement~shield~shield of faith~silent image~true strike\" s2=\"Acid arrow~detect thoughts~invisibility~mirror image~scorching ray~see invisibility\" s3=\"Dispel magic~displacement~fireball~lightning bolt~suggestion\" s4=\"Divine power~greater invisibility\" replace=\"Spontaneous casting\"}",
 			"",
 			"::ab[Aspirant's Enlightenment (Ex)]{l=4 icon=def passive=\"A naga aspirant gains a +4 bonus on saving throws against the spell-like abilities, supernatural abilities, and poison of ‹family/naga«s›.\" replace=\"Resist nature's lure\"}",
 			"",

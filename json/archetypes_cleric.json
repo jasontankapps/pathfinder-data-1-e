@@ -170,7 +170,7 @@
 			"",
 			":::",
 			"",
-			"::ab[Spontaneous Casting]{icon=down-learn ability=\"A crashing wave does not gain the ability to spontaneously cast *cure* or *inflict* spells by sacrificing prepared spells. However, a crashing wave can spontaneously cast the following spells by sacrificing a prepared spell of the noted level or higher.\" alter=\"Spontaneous casting\" s1=\"Bless water\" s2=Slipstream s3=\"Water breathing\" s4=\"Control water\" s5=Geyser s6=\"Fluid form\" s7=\"Elemental body IV~ (water only)\" s8=Seamantle s9=\"Elemental swarm~ (water only)\"}"
+			"::ab[Spontaneous Casting]{icon=down-learn ability=\"A crashing wave does not gain the ability to spontaneously cast *cure* or *inflict* spells by sacrificing prepared spells. However, a crashing wave can spontaneously cast the following spells by sacrificing a prepared spell of the noted level or higher.\" alter=\"Spontaneous casting\" s1=\"Bless water\" s2=Slipstream s3=\"Water breathing\" s4=\"Control water\" s5=Geyser s6=\"Fluid form\" s7=\"Elemental body IV|(water only)\" s8=Seamantle s9=\"Elemental swarm|(water only)\"}"
 		]
 	},
 	"crusader": {
@@ -398,7 +398,7 @@
 			"",
 			"::ab[Artificer]{icon=down info=\"A forgemaster gains only one domain, which must be the Artifice domain (not including subdomains).\"}",
 			"",
-			"::ab[Steel Spells]{icon=learn info=\"A forgemaster adds the following spells to her spell list at the listed spell level.\" s1=\"Crafter's curse~~crafter's fortune~~lead blades\" s2=\"Chill metal~~heat metal~~shatter\" s3=\"Keen edge~~versatile weapon\" s8=\"Iron body~~repel metal or stone\"}",
+			"::ab[Steel Spells]{icon=learn info=\"A forgemaster adds the following spells to her spell list at the listed spell level.\" s1=\"Crafter's curse~crafter's fortune~lead blades\" s2=\"Chill metal~heat metal~shatter\" s3=\"Keen edge~versatile weapon\" s8=\"Iron body~repel metal or stone\"}",
 			"",
 			"::ab[Divine Smith (Su)]{icon=boost passive=\"Whenever a forgemaster casts a spell that targets a weapon, shield, or armor, the spell takes effect at +1 caster level. If the spell has one or more metamagic feats applied, she reduces the total level adjustment to the spell by 1 (minimum 0).\"}",
 			"",
@@ -592,7 +592,7 @@
 			"",
 			"::ab[Divine Judgment]{icon=down info=\"A lawspeaker must select the ‹domain/Law› domain or any subdomain of Law offered by her deity. She does not gain a second domain.\" alter=Domains}",
 			"",
-			"::ab[Circumvent Obfuscation (Sp)]{icon=magic standard=\"A lawspeaker can expend two uses of *channel energy* to expose truths and banish falsehoods. The energy manifests as a spell-like ability, and this action does not count as channeling for the purposes of abilities and feats. Unless listed otherwise, the resulting abilities use the lawspeaker's cleric level as her caster level and have the same range and required components as the corresponding spell. The spell-like abilities available are cumulative and are listed below at the level at which the lawspeaker can first access them.\" s1=\"Calm emotions\" s3=\"Zone of truth\" s5=\"Invisibility purge\" s7=\"Discern lies\" s9=\"True seeing~ (self only)\" s11=\"Greater dispel magic~ (30-foot ‹misc/burst›; targets only illusion spells, polymorph effects, and spells granting a bonus on Bluff and Disguise checks)\" s13=\"Communal tongues\" s15=\"Discern location\" s17=\"Antimagic field~ (30-foot radius)\"}"
+			"::ab[Circumvent Obfuscation (Sp)]{icon=magic standard=\"A lawspeaker can expend two uses of *channel energy* to expose truths and banish falsehoods. The energy manifests as a spell-like ability, and this action does not count as channeling for the purposes of abilities and feats. Unless listed otherwise, the resulting abilities use the lawspeaker's cleric level as her caster level and have the same range and required components as the corresponding spell. The spell-like abilities available are cumulative and are listed below at the level at which the lawspeaker can first access them.\" s1=\"Calm emotions\" s3=\"Zone of truth\" s5=\"Invisibility purge\" s7=\"Discern lies\" s9=\"True seeing|(self only)\" s11=\"Greater dispel magic|(30-foot ‹misc/burst›; targets only illusion spells, polymorph effects, and spells granting a bonus on Bluff and Disguise checks)\" s13=\"Communal tongues\" s15=\"Discern location\" s17=\"Antimagic field|(30-foot radius)\"}"
 		]
 	},
 	"mendevian_priest": {

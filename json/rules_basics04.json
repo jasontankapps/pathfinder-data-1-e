@@ -1765,6 +1765,7 @@
 			"descriptive_text"
 		]
 	},
+	"hold_the_charge": { "redirect": "duration" },
 	"saving_throw": {
 		"name": "Saving Throw",
 		"subtitle": "Spell Description",

@@ -34,7 +34,7 @@
 			"",
 			"::ab[Black Blood Spray (Su)]{next icon=def-touch immediate=\"Whenever a black-blooded oracle takes piercing or slashing damage, she can cause some of her black blood to spray from the wound to strike any adjacent target. She must make a touch attack to hit the target (if she's attacking the creature that caused the wound, she gains a +4 circumstance bonus on her attack roll). If she hits, she deals 1d8 points of cold damage + an additional number of points equal to ‹misc/half› her oracle level.\" useInc=oracle~2 useF=\"2~1\" useM=1}",
 			"",
-			"::ab[Dark Resilience (Su)]{next icon=def flavor=\"The black blood flowing through a black-blooded oracle's veins gives her resistance to many effects to which undead are immune.\" immediate=\"Once per day whenever she fails a saving throw against an ‹rule/ability drain›, a death effect, disease, ‹rule/energy drain›, paralysis, or poison, she may attempt that saving throw again with a +4 circumstance bonus. She must take the second result, even if it is worse.\" incrementUse=\"She~-1~8\"}",
+			"::ab[Dark Resilience (Su)]{next icon=def flavor=\"The black blood flowing through a black-blooded oracle's veins gives her resistance to many effects to which undead are immune.\" immediate=\"Once per day whenever she fails a saving throw against an ‹rule/ability drain›, a death effect, disease, ‹rule/energy drain›, paralysis, or poison, she may attempt that saving throw again with a +4 circumstance bonus. She must take the second result, even if it is worse.\" incrementUse=She~-1~8}",
 			"",
 			"::ab[Darkvision (Ex)]{next icon=power ability=\"A black-blooded oracle gains darkvision with a range of 60 feet.\" imp15=\"The range increases to 90 feet.\"}"
 		]
@@ -155,7 +155,7 @@
 			"",
 			"@HL[Recommended Mysteries:] ‹mystery/Flame›, ‹mystery/stone›, ‹mystery/waves›, ‹mystery/wind›.",
 			"",
-			"::ab[Bonus Spells]{icon=learn info=\"The oracle gains these bonus spells at the listed levels.\" replace=\"The bonus spells gained at 4th, 6th, 8th, 10th, 12th and 18th levels from the oracle's mystery\" s4=\"Elemental touch\" s6=\"Protection from energy\" s8=\"Elemental body I\" s10=\"Summon monster V~ (elementals only)\" s12=\"Elemental body III\" s18=\"Elemental swarm\"}",
+			"::ab[Bonus Spells]{icon=learn info=\"The oracle gains these bonus spells at the listed levels.\" replace=\"The bonus spells gained at 4th, 6th, 8th, 10th, 12th and 18th levels from the oracle's mystery\" s4=\"Elemental touch\" s6=\"Protection from energy\" s8=\"Elemental body I\" s10=\"Summon monster V|(elementals only)\" s12=\"Elemental body III\" s18=\"Elemental swarm\"}",
 			"",
 			"::ab[Revelations]{head icon=info info=\"An elementalist oracle must take the following revelations at the listed levels.\"}",
 			"",
@@ -352,7 +352,7 @@
 			"",
 			"::ab[Oracle's Curse]{icon=info info=\"A possessed oracle must choose the ‹oraclecurse/haunted›, ‹oraclecurse/pranked›, or ‹oraclecurse/tongues› curse at 1st level.\"}",
 			"",
-			"::ab[Bonus Spells]{icon=learn info=\"The oracle gains these bonus spells at the listed levels.\" replace=\"The bonus spells gained at 1st,@FN1 4th, 6th, 8th, 10th, 12th, and 16th levels from the oracle's mystery\" s1=\"Ventriloquism~ @FN1-2\" s4=\"Spider climb\" s6=Screech s8=Sleepwalk s10=Telekinesis s12=\"Animate objects\" s16=\"Divine vessel\"}",
+			"::ab[Bonus Spells]{icon=learn info=\"The oracle gains these bonus spells at the listed levels.\" replace=\"The bonus spells gained at 1st,@FN1 4th, 6th, 8th, 10th, 12th, and 16th levels from the oracle's mystery\" s1=\"Ventriloquism|@FN1-2\" s4=\"Spider climb\" s6=Screech s8=Sleepwalk s10=Telekinesis s12=\"Animate objects\" s16=\"Divine vessel\"}",
 			"",
 			"::ab[Revelations]{head icon=info l1=\"A possessed oracle must take the following revelation.\"}",
 			"",
