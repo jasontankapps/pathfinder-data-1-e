@@ -1,8 +1,9 @@
 import ordinal from "../ordinal.js";
 import writtenNumber from "written-number";
 import romans from "romans";
-import checkForEncodedLink from "../tests/checkForEncodedLink.js";
+import checkForEncodedLink, { convertTextToLink } from "../tests/checkForEncodedLink.js";
 import noteTags from "../noteTags.js";
+import isALink from "../get-all-links.js";
 
 const parseAtts = (attrs) => {
 	const {
@@ -678,7 +679,12 @@ const makeAbilityBlock = ({
 				}
 				const spells = bit.split("~").map(line => {
 					const [text, extra] = line.split("|");
-					return `‹spell/${text}›${extra ? " " + extra : ""}`;
+					const test = convertTextToLink(text);
+					if(!isALink("spell", convertTextToLink(text))) {
+						logError(`Unable to parse [${line}] as a valid spell`);
+						return "[ERROR]";
+					}
+					return `‹spell/${text}›${extra ? " " + extra : ""}`; 
 				}).join(", ");
 				const level = i && ordinal(i);
 				output.push(

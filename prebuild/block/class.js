@@ -1,3 +1,4 @@
+import isALink from '../get-all-links.js';
 import { convertTextToLink } from '../tests/checkForEncodedLink.js';
 
 const constructAlignmentTable = ({any, lg, ln, le, ng, n, ne, cg, cn, ce}) => {
@@ -125,7 +126,7 @@ export const makeClassBlock = ({maybeClear, attrs, marked2, convertEncodedInfo})
 	return output.join("") + "\n";
 }
 
-export const makeProfBlock = ({maybeClear, attrs, marked2, flags, convertEncodedInfo}) => {
+export const makeProfBlock = ({maybeClear, attrs, marked2, flags, convertEncodedInfo, logError}) => {
 	const {
 		simple, martial, weaps = "",
 		wExtra,
@@ -156,8 +157,13 @@ export const makeProfBlock = ({maybeClear, attrs, marked2, flags, convertEncoded
 		} else if(wp.slice(0,1) === "!") {
 			return marked2.parseInline(convertEncodedInfo(wp.slice(1)));
 		}
+		const link = convertTextToLink(wp);
+		if(!isALink("eq-weapon", link)) {
+			logError(`::prof Unable to find weapon "${wp}" [${link}]`);
+			return wp;
+		}
 		flags.link = true;
-		return `<Link to="/eq-weapon/${convertTextToLink(wp)}">${wp}</Link>`;
+		return `<Link to="/eq-weapon/${link}">${wp}</Link>`;
 	}).filter(x => x);
 	output.push(
 		`<tr><th scope="row" rowSpan={${

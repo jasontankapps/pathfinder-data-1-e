@@ -1,6 +1,7 @@
+import isALink from '../get-all-links.js';
 import { convertSpecialTextToLink, getCleanText } from '../tests/checkForEncodedLink.js';
 
-const handleInfo = (m, list, title, prefix, sep, flags, convertEncodedInfo) => {
+const handleInfo = (m, list, title, prefix, sep, flags, convertEncodedInfo, logError) => {
 	const output = [ ];
 	if(title) {
 		output.push(`<strong>${title}:</strong>`);
@@ -9,7 +10,12 @@ const handleInfo = (m, list, title, prefix, sep, flags, convertEncodedInfo) => {
 		flags.link = true;
 		const things = list.split(sep);
 		const items = things.map(thing => {
-			return `<Link to="/${prefix}/${convertSpecialTextToLink(thing)}">${getCleanText(thing)}</Link>`;
+			const link = convertSpecialTextToLink(thing);
+			if(!isALink(prefix, link)) {
+				logError(`Invalid link in ::prereq [${prefix}/${link}] (${thing})`);
+				return getCleanText(thing);
+			}
+			return `<Link to="/${prefix}/${link}">${getCleanText(thing)}</Link>`;
 		});
 		output.push(items.join(", "));
 	} else {
@@ -18,7 +24,7 @@ const handleInfo = (m, list, title, prefix, sep, flags, convertEncodedInfo) => {
 	return output.join(" ");
 };
 
-const makePrerequisiteBlock = (marked2, flags, maybeClear, attrs, convertEncodedInfo) => {
+const makePrerequisiteBlock = ({marked2, flags, maybeClear, attrs, convertEncodedInfo, logError}) => {
 	const {
 		l, c, r,
 		g1, g1title, g1protocol,
@@ -50,13 +56,19 @@ const makePrerequisiteBlock = (marked2, flags, maybeClear, attrs, convertEncoded
 	//
 	if(r) {
 		flags.link = true;
-		lines.push(`<Link to="/race/${convertSpecialTextToLink(r)}">${getCleanText(r)}</Link>`)
+		const race = convertSpecialTextToLink(r);
+		if(!isALink("race", race)) {
+			logError(`Invalid race in ::prereq "${r}" [${race}]`);
+			lines.push(getCleanText(r));
+		} else {
+			lines.push(`<Link to="/race/${convertSpecialTextToLink(r)}">${getCleanText(r)}</Link>`);
+		}
 	}
 	//
 	// CHECK FOR SPECIAL REQUIREMENT
 	//
 	if(g1 && g1protocol) {
-		lines.push(handleInfo(marked2, g1, g1title, g1protocol, sep, flags, convertEncodedInfo));
+		lines.push(handleInfo(marked2, g1, g1title, g1protocol, sep, flags, convertEncodedInfo, logError));
 	}
 	//
 	// OTHER REQUIREMENTS

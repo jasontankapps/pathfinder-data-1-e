@@ -210,7 +210,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"other","sep"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makePrerequisiteBlock(marked2, flags, maybeClear, attrs, convertEncodedInfo);
+				return makePrerequisiteBlock({marked2, flags, maybeClear, attrs, convertEncodedInfo, logError});
 			} else if (n === "aff") {
 				// Affliction
 				churn(n, attrs, [
@@ -513,7 +513,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"extra"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeProfBlock({maybeClear, attrs, marked2, flags, convertEncodedInfo})
+				return makeProfBlock({maybeClear, attrs, marked2, flags, convertEncodedInfo, logError})
 			} else if (n === "cantrips") {
 				churn(n, attrs, ["c", "p", "clear"], [], logError);
 				const {c = "cantrips", p} = attrs;

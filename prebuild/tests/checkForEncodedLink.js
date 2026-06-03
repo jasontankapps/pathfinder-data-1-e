@@ -155,10 +155,12 @@ const checkForEncodedLink = (input, options = {}) => {
 };
 
 export const convertTextToLink = (input) => {
+	// Specifically turns something like "Barry's Dumb-bell" to "barrys_dumb_bell";
 	return input.toLowerCase().replace(/[-_ /]/g, "_").replace(/[^0-9_a-z]/g, "");
 };
 
 export const convertSpecialTextToLink = (input) => {
+	// Specifically turns something like "base_>splice-ready«-to-go" to "base_splice_ready"
 	let m, matched = input;
 	let linkpre = "", linkpost = "";
 	// pre_>link

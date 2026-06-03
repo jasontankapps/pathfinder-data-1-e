@@ -1,5 +1,6 @@
 import checkForEncodedLink from "./tests/checkForEncodedLink.js";
 
+// This modifies the flags variable to note any special <tags> being used.
 const noteTags = (flags, input, stringify = false) => {
 	if(!input || !input.match(/[<>‹›]/)) {
 		return stringify ? JSON.stringify(input || "") : (input || "");

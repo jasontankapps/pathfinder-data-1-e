@@ -1,3 +1,4 @@
+import isALink from '../get-all-links.js';
 import { convertTextToLink, convertSpecialTextToLink, getCleanText } from '../tests/checkForEncodedLink.js';
 
 // ::list[Header]{all="one~two|parenthetical~three..." link="protocol" and?="and" hl? sep?="~" comma?=", "}
@@ -37,8 +38,13 @@ export const makeListBlock = ({
 	const func2 = special ? getCleanText : (x) => x;
 	const output = all.split(sep).map(item => {
 		const [base, parens] = item.split("|");
+		const linkeditem = func(base);
 		const extra = parens ? ` (${marked2.parseInline(convertEncodedInfo(parens))})` : "";
-		return `<Link to="/${link}/${func(base)}">${func2(base)}</Link>${extra}`;
+		if(!isALink(link, linkeditem)) {
+			logError(`Unable to find [${link}/${linkeditem}] from "${base}" in ::list`);
+			return func2(base) + extra;
+		}
+		return `<Link to="/${link}/${linkeditem}">${func2(base)}</Link>${extra}`;
 	});
 	if(and) {
 		// Return list with 'and' if needed
