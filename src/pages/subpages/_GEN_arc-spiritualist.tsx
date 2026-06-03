@@ -1,9 +1,10 @@
-import {IonRippleEffect} from '@ionic/react';
-import Link from '../../components/Link';
+import {IonRippleEffect,IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 const _drowned_channeler = {title: "Drowned Channeler", jsx: <><h2 id="arc-spiritualist-drowned_channeler-drowned-channeler">Drowned Channeler</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 52</Link><br/>When a drowned spirit doomed to a watery grave descends toward the evil of undeath and seeks refuge in a mortal shell, the result is an unusual spiritualist with powers that resonate with the drowned spirit's demise.</p>
 <Ability icon={["skills"]} id="arc-spiritualist-drowned_channeler-undefined">
@@ -131,127 +132,399 @@ const _exciter = {title: "Exciter", jsx: <><h2 id="arc-spiritualist-exciter-exci
 </Ability>
 </>};
 const _fated_guide = {title: "Fated Guide", jsx: <><h2 id="arc-spiritualist-fated_guide-fated-guide">Fated Guide</h2>
-<p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 18</Link><br/>Not all phantoms are restless dead escaping the afterlife. On rare occasions, Pharasma returns a judged soul to the Material Plane - linking the spirit to a devout believer - to complete some final task, make amends for a crime, or grant a sharply divided soul a second chance. Sadly, from a soul's perspective, the journey along the River of Souls and its trials in the Boneyard last eons, and most phantoms return with little, if any, idea of who they were or the nature of their dedicated purposes. The fated guide helps her phantom uncover details about its life and what it can do to finally move on.</p>
-<p><strong>Shepherd to the Dead:</strong> A fated guide adds <Link to="/spell/disrupt_undead">disrupt undead</Link> and <Link to="/spell/sanctify_corpse">sanctify corpse</Link> to her list of spells known.</p>
-<p><strong>Phantom:</strong> A phantom who bonds with a fated guide must have the <Link to="/emotionalfocus/remorse">remorse</Link> emotional focus.</p>
-<p><strong>Divine Purpose:</strong> A fated guide's phantom gains <Link to="/feat/deific_obedience">Deific Obedience</Link> as a bonus feat, though the spiritualist must obey her god's obedience to gain any benefit.</p>
-<p>This replaces the phantom's antagonistic ability.</p>
-<p><strong>Thanatopic Bonded Manifestation (Su):</strong> A 3rd level, a fated guide can bond with her phantom to channel the influence of <Link to="/faith/pharasma">Pharasma</Link> and her servitors. When a spiritualist gains this ability, she must replace her ability to form either an ectoplasmic bonded manifestation or an incorporeal bonded manifestation.</p>
-<p>When the fated guide uses this thanatopic bond, she gains access to the benefits of her phantom's Deific Obedience feat, and can use <Link to="/spell/speak_with_dead">speak with dead</Link> as per the spell, asking a maximum of one question per spiritualist level she has each day, and no more than one question per corpse; asking a question and getting an answer requires 2 full rounds.</p>
-<p>At 8th level, the fated guide can act normally even after being reduced below 0 hit points. The spiritualist immediately dies if reduced to a number of negative hit points equal to her Constitution score. She takes 1 extra point of damage each round she performs a strenuous action, such as attacking or casting a spell, and immediately falls unconscious and begins dying if she dismisses the thanatopic bond or the duration of bonded manifestation expires. Maintaining her nearly dead form is taxing, and each round that she remains active below 0 hit points consumes 2 rounds of bonded manifestation's duration.</p>
-<p>At 13th level, while using her thanatopic bonded manifestation, the fated guide can cast <Link to="/spell/antilife_shell">antilife shell</Link> as a spell-like ability. Maintaining this spell quickly exhausts her phantom, and each round she maintains the spell consumes 2 rounds of bonded manifestation's duration.</p>
-<p>At 18th level, the fated guide's touch banishes the unquiet dead. She can deal 10d6 points of positive energy damage (Will half; DC = 10 + 1/2 the fated guide's spiritualist level + her Wisdom modifier) as a touch attack against undead creatures. An undead creature that successfully saves against this touch attack is immune to the same fated guide's positive energy touch for 24 hours.</p>
-<p>This ability modifies <strong className="hl">bonded manifestation</strong>.</p>
-<p><strong>Iron Bond (Ex):</strong> When the fated guide reaches 9th level, her phantom gains a +4 bonus on saving throws against <Link to="/spell/banishment">banishment</Link>, <Link to="/spell/dismissal">dismissal</Link>, or other similar effects.</p>
-<p>This ability replaces the <strong className="hl">see invisibility</strong> ability.</p>
-<p><strong>Undeniable Bond (Ex):</strong> When the fated guide reaches 16th level, her phantom gains an additional +4 bonus on saving throws against banishment, dismissal, or other similar effects, for a total of +8.</p>
-<p>This ability replaces the <strong className="hl">call spirit</strong> ability.</p>
+<p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 18</Link><br/>Not all phantoms are restless dead escaping the afterlife. On rare occasions, <Link to="/faith/pharasma">Pharasma</Link> returns a judged soul to the Material Plane - linking the spirit to a devout believer - to complete some final task, make amends for a crime, or grant a sharply divided soul a second chance. Sadly, from a soul's perspective, the journey along the River of Souls and its trials in the Boneyard last eons, and most phantoms return with little, if any, idea of who they were or the nature of their dedicated purposes. The fated guide helps her phantom uncover details about its life and what it can do to finally move on.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-spiritualist-fated_guide--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Phantom must have the <Link to="/emotionalfocus/remorse">remorse</Link> emotional focus</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-spiritualist-fated_guide-shepherd-to-the-dead" icon={["spell-book"]}>
+<Pair single id="arc-spiritualist-fated_guide-shepherd-to-the-dead">Shepherd to the Dead</Pair>
+<Pair title="Info">A fated guide adds <Link to="/spell/disrupt_undead">disrupt undead</Link> and <Link to="/spell/sanctify_corpse">sanctify corpse</Link> to her list of spells known.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-fated_guide-divine-purpose" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-fated_guide-divine-purpose">Divine Purpose</Pair>
+<Pair hl title="Replaces">Phantom's antagonistic ability</Pair>
+<Pair title="Ability">A fated guide's phantom gains <Link to="/feat/deific_obedience">Deific Obedience</Link> as a bonus feat, though the spiritualist must obey her god's obedience to gain any benefit.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-fated_guide-thanatopic-bonded-manifestation-su" icon={["stairs-goal","magic-swirl","armor-upgrade","magic-palm"]}>
+<Pair single id="arc-spiritualist-fated_guide-thanatopic-bonded-manifestation-su" flavor="A fated guide can bond with her phantom to channel the influence of Pharasma and her servitors.">Thanatopic Bonded Manifestation (Su)</Pair>
+<Pair hl title="Alters">Bonded manifestation</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Choice">When a spiritualist gains this ability, she must replace her ability to form either an ectoplasmic <em>bonded manifestation</em> or an incorporeal <em>bonded manifestation.</em></Pair>
+<Pair title="Ability">When the fated guide uses this <em>thanatopic bond,</em> she gains access to the benefits of her phantom's Deific Obedience feat, and can use <Link to="/spell/speak_with_dead">speak with dead</Link> as per the spell, asking a maximum of one question per spiritualist level she has each day, and no more than one question per corpse; asking a question and getting an answer requires 2 full rounds.</Pair>
+<Pair title="At 8th Level">The fated guide can act normally even after being reduced below 0 hit points. The spiritualist immediately dies if reduced to a number of negative hit points equal to her Constitution score. She takes 1 extra point of damage each round she performs a strenuous action, such as attacking or casting a spell, and immediately falls unconscious and begins dying if she dismisses the <em>thanatopic bond</em> or the duration of <em>bonded manifestation</em> expires. Maintaining her nearly dead form is taxing, and each round that she remains active below 0 hit points consumes 2 rounds of bonded manifestation's duration.</Pair>
+<Pair title="At 13th Level">While using her <em>thanatopic bonded manifestation,</em> the fated guide can cast <Link to="/spell/antilife_shell">antilife shell</Link> as a spell-like ability. Maintaining this spell quickly exhausts her phantom, and each round she maintains the spell consumes 2 rounds of bonded manifestation's duration.</Pair>
+<Pair title="At 18th Level">The fated guide's touch banishes the unquiet dead. She can deal 10d6 points of positive energy damage (Will half; DC = 10 + 1/2 the fated guide's spiritualist level + her Wisdom modifier) as a touch attack against undead creatures. An undead creature that successfully saves against this touch attack is immune to the same fated guide's positive energy touch for 24 hours.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-fated_guide-iron-bond-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-spiritualist-fated_guide-iron-bond-ex">Iron Bond (Ex)</Pair>
+<Pair hl title="Replaces">See invisibility</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Passive Ability">Her phantom gains a +4 bonus on saving throws against <Link to="/spell/banishment">banishment</Link>, <Link to="/spell/dismissal">dismissal</Link>, or other similar effects.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-fated_guide-undeniable-bond-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-spiritualist-fated_guide-undeniable-bond-ex">Undeniable Bond (Ex)</Pair>
+<Pair hl title="Replaces">Call spirit</Pair>
+<Pair title="Gained">At 16th Level</Pair>
+<Pair title="Passive Ability">Her phantom gains an additional +4 bonus on saving throws against <em>banishment, dismissal,</em> or other similar effects, for a total of +8.</Pair>
+</Ability>
 </>};
 const _fractured_mind = {title: "Fractured Mind", jsx: <><h2 id="arc-spiritualist-fractured_mind-fractured-mind">Fractured Mind</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 109</Link><br/>Most spiritualists harbor the spirits of the deceased in their psyches, but a small number of them - known as fractured minds - draw their powers instead from a fraction of their own souls that resonates with extremely powerful emotions. These spiritualists' phantoms are not spiritual allies, but rather extensions of the fractured minds' own inner thoughts and emotions.</p>
-<p><strong>Emotional Spellcasting:</strong> A fractured mind's ability to cast spells is tied to the force of her own spirit rather than her connection to the spirit world. As a result, she uses her Charisma score rather than her Wisdom score to determine the highest spell level she can cast, the saving throw DCs of spells she casts, and her bonus spells per day.</p>
-<p>This ability alters <strong className="hl">spellcasting</strong>.</p>
-<p><strong>Emotional Power (Sp):</strong> The fractured mind gains a number of spell-like abilities, which are tied to her phantom's emotional focus. She gains one spell-like ability at 5th level, a second at 7th level, a third at 9th level, and a fourth at 16th level. A fractured mind can use each of these abilities once per day, plus one additional time per day for every 4 spiritualist levels she possesses beyond the level at which she gained the spell-like ability. The saving throw DCs for these spell-like abilities are equal to 10 + 1/2 the fractured mind's spiritualist class level + the fractured mind's Charisma modifier, rather than being based on the spell's level. The spell-like abilities granted by each emotional focus are listed below.</p>
-<blockquote className="hanging">
-<p><strong>Anger:</strong> <Link to="/spell/enlarge_person">Enlarge person</Link> (5th), <Link to="/spell/rage">rage</Link> (7th), <Link to="/spell/longstrider">longstrider</Link> (9th), <Link to="/spell/shout">shout</Link> (16th).</p>
-<p><strong>Dedication:</strong> <Link to="/spell/command">Command</Link> (5th), <Link to="/spell/spiritual_weapon">spiritual weapon</Link> (7th), <Link to="/spell/bless">bless</Link> (9th), <Link to="/spell/death_ward">death ward</Link> (16th).</p>
-<p><strong>Despair:</strong> <Link to="/spell/bungle">Bungle</Link> (5th), <Link to="/spell/stricken_heart">stricken heart</Link> (7th), <Link to="/spell/doom">doom</Link> (9th), <Link to="/spell/crushing_despair">crushing despair</Link> (16th).</p>
-<p><strong>Fear:</strong> <Link to="/spell/bane">Bane</Link> (5th), <Link to="/spell/mad_hallucination">mad hallucination</Link> (7th), doom (9th), <Link to="/spell/phantasmal_killer">phantasmal killer</Link> (16th).</p>
-<p><strong>Hatred:</strong> Doom (5th), <Link to="/spell/inflict_moderate_wounds">inflict moderate wounds</Link> (7th), bane (9th), <Link to="/spell/bestow_curse">bestow curse</Link> (16th).</p>
-<p><strong>Jealousy:</strong> <Link to="/spell/sanctuary">Sanctuary</Link> (5th), <Link to="/spell/resist_energy">resist energy</Link> (7th), <Link to="/spell/entropic_shield">entropic shield</Link> (9th), <Link to="/spell/spell_immunity">spell immunity</Link> (16th).</p>
-<p><strong>Kindness:</strong> <em>Bless</em> (5th), <Link to="/spell/calm_emotions">calm emotions</Link> (7th), <Link to="/spell/heroism">heroism</Link> (9th), <Link to="/spell/good_hope">good hope</Link> (16th). &mdash; <Link to="/source/psychic_anthology">Psychic Anthology pg. 4</Link></p>
-<p><strong>Remorse:</strong> <em>Doom</em> (5th), <Link to="/spell/inflict_pain">inflict pain</Link> (7th), <em>stricken heart</em> (9th), <Link to="/spell/mind_fog">mind fog</Link> (16th). &mdash; <Link to="/source/occult_origins">Occult Origins pg. 19</Link></p>
-<p><strong>Whimsey:</strong> <Link to="/spell/ventriloquism">ventriloquism</Link> (5th), <Link to="/spell/absurdity">absurdity</Link> (7th), <Link to="/spell/major_image">major image</Link> (9th), <Link to="/spell/rainbow_pattern">rainbow pattern</Link> (16th). &mdash; <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 17</Link></p>
-<p><strong>Zeal:</strong> Bless (5th), spiritual weapon (7th), <Link to="/spell/divine_favor">divine favor</Link> (9th), <Link to="/spell/freedom_of_movement">freedom of movement</Link> (16th).</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">detect undead</strong>, <strong className="hl">calm spirit</strong>, <strong className="hl">see invisibility</strong>, and <strong className="hl">call spirit</strong>.</p>
-</>};
+<Ability id="arc-spiritualist-fractured_mind-emotional-spellcasting" icon={["info"]}>
+<Pair single id="arc-spiritualist-fractured_mind-emotional-spellcasting">Emotional Spellcasting</Pair>
+<Pair hl title="Alters">Spellcasting</Pair>
+<Pair title="Info">A fractured mind's ability to cast spells is tied to the force of her own spirit rather than her connection to the spirit world. As a result, she uses her Charisma score rather than her Wisdom score to determine the highest spell level she can cast, the saving throw DCs of spells she casts, and her bonus spells per day.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-fractured_mind-emotional-power-sp" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-fractured_mind-emotional-power-sp">Emotional Power (Sp)</Pair>
+<Pair hl title="Replaces">Detect undead, calm spirit, see invisibility, call spirit</Pair>
+<Pair title="Ability">The fractured mind gains a number of spell-like abilities, which are tied to her phantom's emotional focus. She gains one spell-like ability at 5th level, a second at 7th level, a third at 9th level, and a fourth at 16th level. A fractured mind can use each of these abilities once per day, plus one additional time per day for every 4 spiritualist levels she possesses beyond the level at which she gained the spell-like ability. The saving throw DCs for these spell-like abilities are equal to 10 + 1/2 the fractured mind's spiritualist class level + the fractured mind's Charisma modifier, rather than being based on the spell's level. The spell-like abilities granted by each emotional focus are listed below.</Pair>
+<Pair title="At 9th Level">She can use the 5th-level power 2 times a day.</Pair>
+<Pair title="At 11th Level">She can use the 7th-level power 2 times a day.</Pair>
+<Pair title="At 13th Level">She can use the 5th-level power 3 times a day and the 9th-level power 2 times a day.</Pair>
+<Pair title="At 15th Level">She can use the 7th-level power 3 times a day.</Pair>
+<Pair title="At 17th Level">She can use the 5th-level power 4 times a day and the 9th-level power 3 times a day.</Pair>
+<Pair title="At 19th Level">She can use the 7th-level power 4 times a day.</Pair>
+<Pair title="At 20th Level">She can use the 16th-level power 2 times a day.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-fractured_mind-anger" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-fractured_mind-anger">Anger</Pair>
+<Pair plain title="5th"><Link to="/spell/enlarge_person">Enlarge person</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/rage">Rage</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/longstrider">Longstrider</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/shout">Shout</Link></Pair>
+</Ability>
+<Ability id="arc-spiritualist-fractured_mind-dedication" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-fractured_mind-dedication">Dedication</Pair>
+<Pair plain title="5th"><Link to="/spell/command">Command</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/spiritual_weapon">Spiritual weapon</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/bless">Bless</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/death_ward">Death ward</Link></Pair>
+</Ability>
+<Ability id="arc-spiritualist-fractured_mind-despair" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-fractured_mind-despair">Despair</Pair>
+<Pair plain title="5th"><Link to="/spell/bungle">Bungle</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/stricken_heart">Stricken heart</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/doom">Doom</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/crushing_despair">Crushing despair</Link></Pair>
+</Ability>
+<Ability id="arc-spiritualist-fractured_mind-fear" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-fractured_mind-fear">Fear</Pair>
+<Pair plain title="5th"><Link to="/spell/bane">Bane</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/mad_hallucination">Mad hallucination</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/doom">Doom</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/phantasmal_killer">Phantasmal killer</Link></Pair>
+</Ability>
+<Ability id="arc-spiritualist-fractured_mind-hatred" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-fractured_mind-hatred">Hatred</Pair>
+<Pair plain title="5th"><Link to="/spell/doom">Doom</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/inflict_moderate_wounds">Inflict moderate wounds</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/bane">Bane</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/bestow_curse">Bestow curse</Link></Pair>
+</Ability>
+<Ability id="arc-spiritualist-fractured_mind-jealousy" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-fractured_mind-jealousy">Jealousy</Pair>
+<Pair plain title="5th"><Link to="/spell/sanctuary">Sanctuary</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/resist_energy">Resist energy</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/entropic_shield">Entropic shield</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/spell_immunity">Spell immunity</Link></Pair>
+</Ability>
+<Ability id="arc-spiritualist-fractured_mind-" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-fractured_mind-">Kindness<sup><InnerLink showBacklink="backlink-arc-spiritualist-fractured_mind-fake-fn-1" id="arc-spiritualist-fractured_mind-fake-fn-1" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair plain title="5th"><Link to="/spell/bless">Bless</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/calm_emotions">Calm emotions</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/heroism">Heroism</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/good_hope">Good hope</Link></Pair>
+</Ability>
+<Ability id="arc-spiritualist-fractured_mind-" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-fractured_mind-">Remorse<sup><InnerLink showBacklink="backlink-arc-spiritualist-fractured_mind-fake-fn-2" id="arc-spiritualist-fractured_mind-fake-fn-2" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair plain title="5th"><Link to="/spell/doom">Doom</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/inflict_pain">Inflict pain</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/stricken_heart">Stricken heart</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/mind_fog">Mind fog</Link></Pair>
+</Ability>
+<Ability id="arc-spiritualist-fractured_mind-" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-fractured_mind-">Whimsey<sup><InnerLink showBacklink="backlink-arc-spiritualist-fractured_mind-fake-fn-3" id="arc-spiritualist-fractured_mind-fake-fn-3" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair plain title="5th"><Link to="/spell/ventriloquism">Ventriloquism</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/absurdity">Absurdity</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/major_image">Major image</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/rainbow_pattern">Rainbow pattern</Link></Pair>
+</Ability>
+<Ability id="arc-spiritualist-fractured_mind-zeal" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-fractured_mind-zeal">Zeal</Pair>
+<Pair plain title="5th"><Link to="/spell/bless">Bless</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/spiritual_weapon">Spiritual weapon</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/divine_favor">Divine favor</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/freedom_of_movement">Freedom of movement</Link></Pair>
+</Ability>
+<section data-footnotes><h3 id="arc-spiritualist-fractured_mind-label">Footnotes</h3><ol>
+<li id="arc-spiritualist-fractured_mind-fake-fn-1-target"><p><Link to="/source/psychic_anthology">Psychic Anthology</Link> pg. 4 <InnerLink aria-label="Back to reference 1" id="backlink-arc-spiritualist-fractured_mind-fake-fn-1" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-1">↩</InnerLink></p></li>
+<li id="arc-spiritualist-fractured_mind-fake-fn-2-target"><p><Link to="/source/occult_origins">Occult Origins</Link> pg. 19 <InnerLink aria-label="Back to reference 2" id="backlink-arc-spiritualist-fractured_mind-fake-fn-2" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-2">↩</InnerLink></p></li>
+<li id="arc-spiritualist-fractured_mind-fake-fn-3-target"><p><Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link> pg. 17 <InnerLink aria-label="Back to reference 3" id="backlink-arc-spiritualist-fractured_mind-fake-fn-3" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-3">↩</InnerLink></p></li>
+</ol></section></>};
 const _geist_channeler = {title: "Geist Channeler", jsx: <><h2 id="arc-spiritualist-geist_channeler-geist-channeler">Geist Channeler</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 109</Link><br/>Some phantoms retain less of their personalities and memories than others. Though most phantoms maintain some semblance of their former selves, others of their kind, known as <Link to="/monster/geist">geists</Link>, came close to being lost forever before they became phantoms. Incapable of manifesting in ectoplasmic form and devoid of human emotions, these strange entities are much closer to ghosts than most other phantoms. The spiritualists who work with them, known as geist channelers, are able to call on them in unique ways.</p>
-<p><strong>Geistform Phantom (Su):</strong> A geist channeler's phantom can't manifest in ectoplasmic form, and is limited to manifesting in incorporeal form. As a result, the phantom has no Strength score, and has a starting Wisdom score of 12. Instead of gaining two slam attacks, it gains only a single slam attack that deals 1d8 points of damage. The slam attack's damage increases to 1d10 points at 5th level, to 2d6 at 10th level, to 2d8 at 15th level, and 2d10 at 20th level (assuming the phantom is Medium). The phantom does not gain the magic attacks ability at 4th level.</p>
-<p>While manifested incorporeally, a geist channeler's phantom can attack only other incorporeal creatures. Because the phantom is incorporeal, the damage it deals to such creatures is not reduced as a result of them being incorporeal. At 5th level, the phantom can take a swift action to infuse itself with trace amounts of ectoplasm so it can attack corporeal creatures for 1 round. During that time, it deals half damage to corporeal creatures with its slam, and corporeal creatures with nonmagical weapons deal half damage to the phantom. At 10th level, when the phantom infuses itself, its attacks deal normal damage to corporeal creatures.</p>
-<p>This ability alters the <strong className="hl">phantom</strong>.</p>
-<p><strong>Emotionless (Su):</strong> A geist channeler's phantom doesn't have an emotional focus; instead, it is cold and devoid of emotions. The phantom gains a number of ranks in Knowledge (arcana) and Knowledge (religion) equal to its Hit Dice. While confined in the geist channeler's consciousness, the phantom grants the geist channeler <Link to="/feat/skill_focus">Skill Focus</Link> in each of these skills. The phantom has <Link to="/misc/good_saves">good Reflex and Will saves</Link>, and gains <Link to="/feat/iron_will">Iron Will</Link> as a bonus feat, as well as the following abilities.</p>
-<p><strong>Unnerving Touch (Su):</strong> As a standard action, a geist channeler's phantom can make a melee touch attack against a living creature, even if that creature is corporeal. If the attack hits, the target is shaken for 1d4+1 rounds. A successful Will save (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) negates this effect. At 5th level, when the phantom can damage corporeal creatures with its slam attack, its slam attacks against living corporeal creatures gain this ability. Multiple attacks against the same creature don't cause the creature to become frightened. This is a mind-affecting fear effect.</p>
-<p><strong>Poltergeist's Knack (Sp):</strong> At 7th level, a geist channeler's phantom can use <Link to="/spell/telekinesis">telekinesis</Link> as a spell-like ability. It can use only the sustained force and violent thrust versions of this spell. The phantom can use this ability three times per day, plus one additional time at 10th level and every 3 levels thereafter (maximum seven times per day at 19th level). Its caster level for this spell-like ability is equal to the phantom's Hit Dice.</p>
-<p><strong>Spectral Protection (Su):</strong> At 12th level as a standard action, while a geist channeler's phantom is confined within his psyche, he can call upon its power to project an aura of spectral energy that prevents incorporeal creatures from approaching him. This takes the form of a 30-foot-radius <Link to="/misc/emanation">emanation</Link> centered on the geist channeler. Any incorporeal creature attempting to enter this area must succeed at a Will save (DC = 10 + 1/2 the geist channeler's spiritualist class level + the geist channeler's Wisdom modifier) or be unable to do so. This ability can be used only defensively, not aggressively; forcing the aura against an incorporeal creature collapses the aura. The geist channeler can use this ability for a number of minutes per day equal to his spiritualist level. The minutes don't need to be continuous, but must be spent in 1-minute increments.</p>
-<p><strong>Malevolent Possession (Sp):</strong> At 17th level, a geist channeler's phantom can invade the bodies of other creatures. This functions as <Link to="/spell/possession">possession</Link>. To use this ability, the phantom must be adjacent to the target. The target can resist the effect with a successful Will save (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier). The phantom can use this ability once per day.</p>
-<p>This ability modifies the <strong className="hl">phantom</strong> and replaces the phantom's <strong className="hl">emotional focus</strong>.</p>
-<p><strong>Spiritual Manifestation (Su):</strong> Because of the nature of her phantom, a geist channeler can use the bonded manifestation ability to manifest his phantom only in incorporeal form.</p>
-<p>This ability alters <strong className="hl">bonded manifestation</strong>.</p>
+<Ability id="arc-spiritualist-geist_channeler-geistform-phantom-su" icon={["broken-shield","upgrade"]}>
+<Pair single id="arc-spiritualist-geist_channeler-geistform-phantom-su">Geistform Phantom (Su)</Pair>
+<Pair hl title="Alters">Phantom</Pair>
+<Pair title="Info">A geist channeler's phantom can't manifest in ectoplasmic form, and is limited to manifesting in incorporeal form. As a result, the phantom has no Strength score, and has a starting Wisdom score of 12. Instead of gaining two slam attacks, it gains only a single slam attack that deals 1d8 points of damage (for a Medium phantom; perform <Link to="/misc/damage_die_adjustments">damage die adjustments</Link> for differently-sized phantoms).</Pair>
+<Pair title="Ability">While manifested incorporeally, a geist channeler's phantom can attack only other incorporeal creatures. Because the phantom is incorporeal, the damage it deals to such creatures is not reduced as a result of them being incorporeal.</Pair>
+<Pair title="At 4th Level">The phantom does not gain the <em>magic attacks</em> ability at 4th level.</Pair>
+<Pair title="At 5th Level">The slam attack's damage increases to 1d10 points (Medium). The phantom can take a <strong className="hl">swift action</strong> to infuse itself with trace amounts of ectoplasm so it can attack corporeal creatures for 1 round. During that time, it deals half damage to corporeal creatures with its slam, and corporeal creatures with nonmagical weapons deal half damage to the phantom.</Pair>
+<Pair title="At 10th Level">The slam attack's damage increases to 2d6 (Medium). When the phantom infuses itself, its attacks deal normal damage to corporeal creatures.</Pair>
+<Pair title="At 15th Level">The slam attack's damage increases to 2d8 (Medium).</Pair>
+<Pair title="At 20th Level">The slam attack's damage increases to 2d10 (Medium)</Pair>
+</Ability>
+<Ability id="arc-spiritualist-geist_channeler-spiritual-manifestation-su" icon={["broken-shield"]}>
+<Pair single id="arc-spiritualist-geist_channeler-spiritual-manifestation-su">Spiritual Manifestation (Su)</Pair>
+<Pair hl title="Alters">Bonded manifestation</Pair>
+<Pair title="Ability">Because of the nature of her phantom, a geist channeler can use the <em>bonded manifestation</em> ability to manifest his phantom only in incorporeal form.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-geist_channeler-emotionless-su" extraClasses="hasSubs" icon={["broken-shield","upgrade","stairs-goal"]}>
+<Pair single id="arc-spiritualist-geist_channeler-emotionless-su">Emotionless (Su)</Pair>
+<Pair title="Info">A geist channeler's phantom doesn't have an emotional focus; instead, it is cold and devoid of emotions.</Pair>
+<Pair title="Ability">The phantom gains a number of ranks in Knowledge (arcana) and Knowledge (religion) equal to its Hit Dice. While confined in the geist channeler's consciousness, the phantom grants the geist channeler <Link to="/feat/skill_focus">Skill Focus</Link> in each of these skills.</Pair>
+<Pair title="Special">The phantom has <Link to="/misc/good_saves">good Reflex and Will saves</Link>, and gains <Link to="/feat/iron_will">Iron Will</Link> as a bonus feat, as well as the following abilities.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-geist_channeler-unnerving-touch-su" extraClasses="subAbility" icon={["magic-palm"]}>
+<Pair single id="arc-spiritualist-geist_channeler-unnerving-touch-su">Unnerving Touch (Su)</Pair>
+<Pair title="Standard Action">A geist channeler's phantom can make a melee touch attack against a living creature, even if that creature is corporeal. If the attack hits, the target is <Link to="/misc/shaken">shaken</Link> for 1d4+1 rounds. A successful Will save (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) negates this effect.</Pair>
+<Pair title="At 5th Level">When the phantom can damage corporeal creatures with its slam attack, its slam attacks against living corporeal creatures gain this ability.</Pair>
+<Pair title="Special">Multiple attacks against the same creature don't cause the creature to become <Link to="/misc/frightened">frightened</Link>. This is a mind-affecting fear effect.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-geist_channeler-poltergeists-knack-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-geist_channeler-poltergeists-knack-sp">Poltergeist's Knack (Sp)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Usage">3 times/day + 1 per three phantom HD beyond 7th</Pair>
+<Pair title="Ability">A geist channeler's phantom can use <Link to="/spell/telekinesis">telekinesis</Link> as a spell-like ability. It can use only the <em>sustained force</em> and <em>violent thrust</em> versions of this spell. Its caster level for this spell-like ability is equal to the phantom's Hit Dice.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-geist_channeler-spectral-protection-su" extraClasses="subAbility" icon={["aura"]}>
+<Pair single id="arc-spiritualist-geist_channeler-spectral-protection-su">Spectral Protection (Su)</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Usage">1 minute/day per spiritualist level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Standard Action">While a geist channeler's phantom is confined within his psyche, he can call upon its power to project an aura of spectral energy that prevents incorporeal creatures from approaching him. This takes the form of a 30-foot-radius <Link to="/misc/emanation">emanation</Link> centered on the geist channeler. Any incorporeal creature attempting to enter this area must succeed at a Will save (DC = 10 + 1/2 the geist channeler's spiritualist class level + the geist channeler's Wisdom modifier) or be unable to do so. This ability can be used only defensively, not aggressively; forcing the aura against an incorporeal creature collapses the aura.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-geist_channeler-malevolent-possession-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-geist_channeler-malevolent-possession-sp">Malevolent Possession (Sp)</Pair>
+<Pair hl title="Replaces">The phantom's emotional focus</Pair>
+<Pair hl title="Alters">Phantom</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Ability">Once per day, a geist channeler's phantom can invade the bodies of other creatures. This functions as <Link to="/spell/possession">possession</Link>. To use this ability, the phantom must be adjacent to the target. The target can resist the effect with a successful Will save (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier).</Pair>
+</Ability>
 </>};
 const _grim_apostle = {hasJL:true,title: "Grim Apostle", jsx: <><div className="jumpList" id="arc-spiritualist-grim_apostle-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arc-spiritualist-grim_apostle-death">Death</InnerLink></li><li><InnerLink toTop to="arc-spiritualist-grim_apostle-famine">Famine</InnerLink></li><li><InnerLink toTop to="arc-spiritualist-grim_apostle-pestilence">Pestilence</InnerLink></li><li><InnerLink toTop to="arc-spiritualist-grim_apostle-war">War</InnerLink></li></ul></div><h2 id="arc-spiritualist-grim_apostle-grim-apostle">Grim Apostle</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_144_midwives_to_death">Pathfinder #144: Midwives to Death pg. 72</Link><br/>Some devotees of the Four Horsemen can form spiritual manifestations of the daemonic demigods.</p>
-<p><strong>Grim Phantom (Su):</strong> The spirit linked to a grim apostle functions in all respects as a regular spiritualist's phantom, but each day when the grim apostle regains her daily spell slots, she can choose which Horseman focus (see below) is dominant within the grim phantom.</p>
-<p>When the grim phantom is banished to the Ethereal Plane, the grim apostle takes an amount of damage equal to 1d4 &times; the grim phantom's number of Hit Dice.</p>
-<p>This ability modifies the <strong className="hl">phantom</strong> ability and replaces the phantom's <strong className="hl">emotional focus</strong>.</p>
-<p><strong>Hardened Soul (Su):</strong> At 1st level, while a grim phantom is confined in the grim apostle's consciousness, the grim apostle gains a +4 bonus on saving throws against death effects and effects that would remove or subsume the grim apostle's soul (such as <Link to="/spell/possession">possession</Link> or <Link to="/spell/trap_the_soul">trap the soul</Link>). At 6th level and every 6 levels thereafter, this bonus increases by 2 (to a maximum of +10 at 18th level).</p>
-<p>This ability replaces <strong className="hl">shared consciousness</strong> and <strong className="hl">fused consciousness</strong>.</p>
+<Ability id="arc-spiritualist-grim_apostle-grim-phantom-su" icon={["info","broken-shield"]}>
+<Pair single id="arc-spiritualist-grim_apostle-grim-phantom-su">Grim Phantom (Su)</Pair>
+<Pair hl title="Replaces">The phantom's emotional focus</Pair>
+<Pair hl title="Alters">Phantom</Pair>
+<Pair title="Ability">The spirit linked to a grim apostle functions in all respects as a regular spiritualist's phantom, but each day when the grim apostle regains her daily spell slots, she can choose which Horseman focus (see below) is dominant within the grim phantom.</Pair>
+<Pair title="Ability">When the grim phantom is banished to the Ethereal Plane, the grim apostle takes an amount of damage equal to 1d4 &times; the grim phantom's number of Hit Dice.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-hardened-soul-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-spiritualist-grim_apostle-hardened-soul-su">Hardened Soul (Su)</Pair>
+<Pair hl title="Replaces">Shared consciousness, fused consciousness</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">While a grim phantom is confined in the grim apostle's consciousness, the grim apostle gains a +4 bonus on saving throws against death effects and effects that would remove or subsume the grim apostle's soul (such as <Link to="/spell/possession">possession</Link> or <Link to="/spell/trap_the_soul">trap the soul</Link>).</Pair>
+<Pair title="At 6th Level">This bonus becomes +6.</Pair>
+<Pair title="At 12th Level">This bonus increases to +8.</Pair>
+<Pair title="At 18th Level">This bonus becomes +10.</Pair>
+</Ability>
 <h3 id="arc-spiritualist-grim_apostle-horseman-focus">Horseman Focus</h3>
 <p>Instead of an emotional focus, a grim phantom has one of the following Horseman foci.</p>
 <p>The DC for a saving throw against any of the grim phantom's abilities is equal to 10 + 1/2 the grim phantom's Hit Dice + the grim phantom's Charisma modifier. For any spell-like abilities a grim phantom receives, it uses its Hit Dice as its caster level.</p>
 <h4 id="arc-spiritualist-grim_apostle-death" data-hash-target>Death</h4>
 <p>Grim phantoms influenced by <Link to="/faith/charon">Charon</Link>, the Horseman of Death, are dark, almost shapeless specters.</p>
-<p><strong>Skills:</strong> The grim phantom gains ranks in Knowledge (history) and Stealth equal to its number of Hit Dice.</p>
-<p><strong>Good Saves:</strong> Fortitude and Will.</p>
-<p><strong>Fleet:</strong> The grim phantom gains <Link to="/feat/fleet">Fleet</Link> as a bonus feat.</p>
-<p><strong>Marked for Death (Su):</strong> When manifested in ectoplasmic form, the grim phantom gains a +1 bonus on attack rolls against a creature the grim apostle has hit with a melee or ranged attack since its last turn (the phantom's "marked target"). Additionally, such an attack by the grim phantom deals an additional 1d6 points of negative energy damage. At 5th level and every 5 spiritualist levels thereafter, the negative energy damage increases by 1d6.</p>
-<p><strong>Fatal Aura (Su):</strong> At 7th level, the grim phantom can create a 10-foot-radius aura as a swift action that makes healing more difficult. The DC of Heal checks to provide first aid and treat deadly wounds within the aura is increased by 5. Any creature within the aura that casts a conjuration (healing) spell, or casts another spell or uses an ability that restores hit points, must succeed at a Will saving throw or lose the spell or use of the ability. Ending the aura is a free action.</p>
-<p><strong>No Escape (Su):</strong> At 12th level, the grim phantom gains the benefits of the <Link to="/feat/following_step">Following Step</Link>, <Link to="/feat/step_up">Step Up</Link>, and <Link to="/feat/step_up_and_strike">Step Up and Strike</Link> feats but only against its marked target (see above).</p>
-<p><strong>Killing Word (Sp):</strong> At 17th level, the grim phantom can cast <Link to="/spell/power_word_kill">power word kill</Link> once per day as a spell-like ability.</p>
+<Ability id="arc-spiritualist-grim_apostle-skills-and-saves" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-spiritualist-grim_apostle-skills-and-saves">Skills and Saves</Pair>
+<Pair title="Ability">The grim phantom gains ranks in Knowledge (history) and Stealth equal to its number of Hit Dice. Its good saves are Fortitude and Will.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-fleet" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-grim_apostle-fleet">Fleet</Pair>
+<Pair title="Ability">The grim phantom gains <Link to="/feat/fleet">Fleet</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-marked-for-death-su" icon={["upgrade"]}>
+<Pair single id="arc-spiritualist-grim_apostle-marked-for-death-su">Marked for Death (Su)</Pair>
+<Pair title="Ability">When manifested in ectoplasmic form, the grim phantom gains a +1 bonus on attack rolls against a creature the grim apostle has hit with a melee or ranged attack since its last turn (the phantom's "marked target"). Additionally, such an attack by the grim phantom deals additional <strong>X</strong>d6 negative energy damage, where <strong>X</strong> is 1 + <Link to="/misc/one_fifth">one-fifth</Link> of his spiritualist level.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-fatal-aura-su" icon={["aura","armor-downgrade"]}>
+<Pair single id="arc-spiritualist-grim_apostle-fatal-aura-su">Fatal Aura (Su)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Swift Action">The grim phantom can create a 10-foot-radius aura that makes healing more difficult. The DC of Heal checks to provide first aid and treat deadly wounds within the aura is increased by 5. Any creature within the aura that casts a conjuration (healing) spell, or casts another spell or uses an ability that restores hit points, must succeed at a Will saving throw or lose the spell or use of the ability. Ending the aura is a <strong className="hl">free action</strong>.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-no-escape-su" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-grim_apostle-no-escape-su">No Escape (Su)</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">The grim phantom gains the benefits of the <Link to="/feat/following_step">Following Step</Link>, <Link to="/feat/step_up">Step Up</Link>, and <Link to="/feat/step_up_and_strike">Step Up and Strike</Link> feats but only against its <em>marked target</em> (see above).</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-killing-word-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-grim_apostle-killing-word-sp">Killing Word (Sp)</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Ability">The grim phantom can cast <Link to="/spell/power_word_kill">power word kill</Link> once per day as a spell-like ability.</Pair>
+</Ability>
 <h4 id="arc-spiritualist-grim_apostle-famine" data-hash-target>Famine</h4>
 <p>Grim phantoms influenced by <Link to="/faith/trelmarixian">Trelmarixian</Link>, the Horseman of Famine, are gaunt with jackal-like features.</p>
-<p><strong>Skills:</strong> The grim phantom gains ranks in Perception and Sense Motive equal to its number of Hit Dice.</p>
-<p><strong>Good Saves:</strong> Reflex and Will.</p>
-<p><strong>Weapon Finesse:</strong> The grim phantom gains <Link to="/feat/weapon_finesse">Weapon Finesse</Link> as a bonus feat.</p>
-<p><strong>Ravenous Bite (Ex):</strong> The grim phantom's natural attacks take the form of bites that deal piercing damage as a creature one size category larger than its current size. It also gains <Link to="/feat/power_attack">Power Attack</Link> as a bonus feat.</p>
-<p><strong>Aura of Starvation (Su):</strong> At 7th level, the grim phantom can create a 10-foot-radius aura of starvation as a swift action. Enemies within the aura take a -2 penalty on attack and damage rolls. Ending the aura is a free action.</p>
-<p><strong>Wail of the Hungry (Sp):</strong> At 12th level, the grim phantom can cast <Link to="/spell/waves_of_fatigue">waves of fatigue</Link> once per day as a spell-like ability.</p>
-<p><strong>Distended Gullet (Su):</strong> At 17th level, as a swift action, the grim phantom in ectoplasmic form gains the <Link to="/umr/swallow_whole">swallow whole</Link> ability (4d8 negative energy damage, AC 17, one-tenth the phantom's total hit points) for a number of rounds equal to its Charisma modifier. This ability can affect creatures no more than two size categories larger than the phantom. Each creature the grim phantom swallows is shunted into an extradimensional space that can hold any number of creatures. When the duration of this ability ends, any creatures still within the extradimensional space appear adjacent to the grim phantom. The grim phantom is exhausted for 1 hour after using this ability and can't use it again during that time.</p>
+<Ability id="arc-spiritualist-grim_apostle-skills-and-saves" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-spiritualist-grim_apostle-skills-and-saves">Skills and Saves</Pair>
+<Pair title="Ability">The grim phantom gains ranks in Perception and Sense Motive equal to its number of Hit Dice. Its good saves are Reflex and Will.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-weapon-finesse" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-grim_apostle-weapon-finesse">Weapon Finesse</Pair>
+<Pair title="Ability">The grim phantom gains <Link to="/feat/weapon_finesse">Weapon Finesse</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-ravenous-bite-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-spiritualist-grim_apostle-ravenous-bite-ex">Ravenous Bite (Ex)</Pair>
+<Pair title="Ability">The grim phantom's natural attacks take the form of bites that deal piercing damage as a creature <Link to="/misc/one_size_category_larger">one size category larger</Link> than its current size. It also gains <Link to="/feat/power_attack">Power Attack</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-aura-of-starvation-su" icon={["aura","armor-downgrade"]}>
+<Pair single id="arc-spiritualist-grim_apostle-aura-of-starvation-su">Aura of Starvation (Su)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Swift Action">The grim phantom can create a 10-foot-radius <em>aura of starvation.</em> Enemies within the aura take a -2 penalty on attack and damage rolls. Ending the aura is a <strong className="hl">free action</strong>.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-wail-of-the-hungry-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-grim_apostle-wail-of-the-hungry-sp">Wail of the Hungry (Sp)</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">The grim phantom can cast <Link to="/spell/waves_of_fatigue">waves of fatigue</Link> once per day as a spell-like ability.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-distended-gullet-su" icon={["mailed-fist"]}>
+<Pair single id="arc-spiritualist-grim_apostle-distended-gullet-su">Distended Gullet (Su)</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Swift Action">The grim phantom in ectoplasmic form gains the <Link to="/umr/swallow_whole">swallow whole</Link> ability (4d8 negative energy damage, AC 17, one-tenth the phantom's total hit points) for a number of rounds equal to its Charisma modifier. This ability can affect creatures no more than two size categories larger than the phantom. Each creature the grim phantom swallows is shunted into an extradimensional space that can hold any number of creatures. When the duration of this ability ends, any creatures still within the extradimensional space appear adjacent to the grim phantom.</Pair>
+<Pair title="Special">The grim phantom is <Link to="/misc/exhausted">exhausted</Link> for 1 hour after using this ability and can't use it again during that time.</Pair>
+</Ability>
 <h4 id="arc-spiritualist-grim_apostle-pestilence" data-hash-target>Pestilence</h4>
 <p>Grim phantoms influenced by <Link to="/faith/apollyon">Apollyon</Link>, the Horseman of Pestilence, often have rams' skulls for heads.</p>
-<p><strong>Skills:</strong> The grim phantom gains ranks in Acrobatics and Heal equal to its number of Hit Dice.</p>
-<p><strong>Good Saves:</strong> Fortitude and Will.</p>
-<p><strong>Great Fortitude:</strong> The grim phantom gains <Link to="/feat/great_fortitude">Great Fortitude</Link> as a bonus feat.</p>
-<p><strong>Weakening Strike (Su):</strong> A creature hit by the grim phantom's slam attack must succeed at a Fortitude saving throw or take a -2 penalty on ability checks, attack rolls, saving throws, and skill checks for 1d4 rounds. This is a disease effect. Penalties from multiple hits don't stack.</p>
-<p><strong>Aura of Flies (Su):</strong> At 7th level, the grim phantom can surround itself with a cloud of biting flies as a swift action. Any creature that ends its turn adjacent to the grim phantom takes 1d6 piercing damage. This damage increases by 1d6 for every 4 spiritualist levels beyond 7th. Ending the aura is a free action.</p>
-<p><strong>Contagious Touch (Sp):</strong> At 12th level, the grim phantom can cast <Link to="/spell/contagion">contagion</Link> three times per day as a spell-like ability.</p>
-<p><strong>Virulent Attack (Su):</strong> At 17th level, any creature under the effects of the grim phantom's weakening strike becomes a dangerous vector for disease. Any creature that ends its turn adjacent to the target creature is immediately exposed to any diseases the target creature has, no matter the normal method of contracting that disease. The creature must immediately attempt a saving throw against that disease, and the onset period doesn't apply.</p>
+<Ability id="arc-spiritualist-grim_apostle-skills-and-saves" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-spiritualist-grim_apostle-skills-and-saves">Skills and Saves</Pair>
+<Pair title="Ability">The grim phantom gains ranks in Acrobatics and Heal equal to its number of Hit Dice. Its good saves are Fortitude and Will.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-great-fortitude" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-grim_apostle-great-fortitude">Great Fortitude</Pair>
+<Pair title="Ability">The grim phantom gains <Link to="/feat/great_fortitude">Great Fortitude</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-weakening-strike-su" icon={["broken-shield"]}>
+<Pair single id="arc-spiritualist-grim_apostle-weakening-strike-su">Weakening Strike (Su)</Pair>
+<Pair title="Ability">A creature hit by the grim phantom's slam attack must succeed at a Fortitude saving throw or take a -2 penalty on ability checks, attack rolls, saving throws, and skill checks for 1d4 rounds.</Pair>
+<Pair title="Special">This is a disease effect. Penalties from multiple hits don't stack.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-aura-of-flies-su" icon={["aura"]}>
+<Pair single id="arc-spiritualist-grim_apostle-aura-of-flies-su">Aura of Flies (Su)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Swift Action">The grim phantom can surround itself with a cloud of biting flies. Any creature that ends its turn adjacent to the grim phantom takes 1d6 piercing damage. Ending the aura is a <strong className="hl">free action</strong>.</Pair>
+<Pair title="At 11th Level">This damage becomes 2d6.</Pair>
+<Pair title="At 15th Level">This damage increases to 3d6.</Pair>
+<Pair title="At 19th Level">This damage becomes 4d6.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-contagious-touch-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-grim_apostle-contagious-touch-sp">Contagious Touch (Sp)</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">The grim phantom can cast <Link to="/spell/contagion">contagion</Link> three times per day as a spell-like ability.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-virulent-attack-su" icon={["smoking-finger","armor-downgrade"]}>
+<Pair single id="arc-spiritualist-grim_apostle-virulent-attack-su">Virulent Attack (Su)</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Passive Ability">Any creature under the effects of the grim phantom's <em>weakening strike</em> becomes a dangerous vector for disease. Any creature that ends its turn adjacent to the target creature is immediately exposed to any diseases the target creature has, no matter the normal method of contracting that disease. The creature must immediately attempt a saving throw against that disease, and the onset period doesn't apply.</Pair>
+</Ability>
 <h4 id="arc-spiritualist-grim_apostle-war" data-hash-target>War</h4>
 <p>Grim phantoms influenced by <Link to="/faith/szuriel">Szuriel</Link>, the Horseman of War, look like sinister, black-winged angels.</p>
-<p><strong>Skills:</strong> The grim phantom gains ranks in Intimidate and Survival equal to its number of Hit Dice.</p>
-<p><strong>Good Saves:</strong> Fortitude and Reflex.</p>
-<p><strong>Strength Focus:</strong> The grim phantom gains a +2 bonus to Strength and a -2 penalty to Dexterity. The phantom gains bonuses to Strength instead of Dexterity as the grim apostle gains spiritualist levels.</p>
-<p><strong>Ruthless Combatant (Su):</strong> The grim phantom threatens a critical hit with its slam attack on a roll of 19-20. At 11th level, the phantom's critical modifier with slam attacks increases to &times;3. This doesn't stack with <Link to="/feat/improved_critical">Improved Critical</Link> or similar effects.</p>
-<p><strong>Aura of Fury (Su):</strong> At 7th level, the grim phantom can create a 20-foot-radius aura as a swift action. Creatures within the aura gain a +2 bonus on melee attack rolls but take a -2 penalty to AC. Ending the aura is a free action.</p>
-<p><strong>Bloodlust (Su):</strong> At 12th level, the grim phantom regains 1d6 hit points with each successful slam attack it makes.</p>
-<p><strong>Juggernaut (Su):</strong> At 17th level, the grim phantom becomes immune to any effects that would cause it to become cowering, exhausted, fatigued, frightened, panicked, shaken, or slowed (as the <Link to="/spell/slow">slow</Link> spell).</p>
+<Ability id="arc-spiritualist-grim_apostle-skills-and-saves" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-spiritualist-grim_apostle-skills-and-saves">Skills and Saves</Pair>
+<Pair title="Ability">The grim phantom gains ranks in Intimidate and Survival equal to its number of Hit Dice. Its good saves are Fortitude and Reflex.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-strength-focus" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-spiritualist-grim_apostle-strength-focus">Strength Focus</Pair>
+<Pair title="Info">The grim phantom gains a +2 bonus to Strength and a -2 penalty to Dexterity. The phantom gains bonuses to Strength instead of Dexterity as the grim apostle gains spiritualist levels.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-ruthless-combatant-su" icon={["upgrade"]}>
+<Pair single id="arc-spiritualist-grim_apostle-ruthless-combatant-su">Ruthless Combatant (Su)</Pair>
+<Pair title="Ability">The grim phantom threatens a critical hit with its slam attack on a roll of 19-20.</Pair>
+<Pair title="At 11th Level">The phantom's critical modifier with slam attacks increases to &times;3. This doesn't stack with <Link to="/feat/improved_critical">Improved Critical</Link> or similar effects.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-aura-of-fury-su" icon={["aura","upgrade","armor-downgrade"]}>
+<Pair single id="arc-spiritualist-grim_apostle-aura-of-fury-su">Aura of Fury (Su)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Swift Action">The grim phantom can create a 20-foot-radius aura. Creatures within the aura gain a +2 bonus on melee attack rolls but take a -2 penalty to AC. Ending the aura is a <strong className="hl">free action</strong>.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-bloodlust-su" icon={["remedy"]}>
+<Pair single id="arc-spiritualist-grim_apostle-bloodlust-su">Bloodlust (Su)</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">The grim phantom regains 1d6 hit points with each successful slam attack it makes.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-grim_apostle-juggernaut-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-spiritualist-grim_apostle-juggernaut-su">Juggernaut (Su)</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Passive Ability">The grim phantom becomes immune to any effects that would cause it to become cowering, exhausted, fatigued, frightened, panicked, shaken, or slowed (as the <Link to="/spell/slow">slow</Link> spell).</Pair>
+</Ability>
 </>};
 const _hag_haunted = {title: "Hag-Haunted", jsx: <><h2 id="arc-spiritualist-hag_haunted-hag-haunted">Hag-Haunted</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 23</Link><br/><Link to="/family/hag">Hags</Link> - those of flesh and blood, at any rate - die like any other mortals, and their souls normally depart to the Outer Planes for judgment. A hag who dies with a curse on her breath is often anchored to the Ethereal Plane by the power of her hatred - similar to vile and angry mortal souls - and some even claw their way back to the living world through the souls of those they despised or ruined... or those unfortunate souls they birthed. Hag-haunted spiritualists are tethered to these spiteful spirits, anchoring them once again in the world of the living. While this partnership imparts powerful magic, they run the constant risk of serving as little more than mounts for their overwhelming phantoms.</p>
 <p>Hag-haunted spiritualists are rarely the masters in their relationship with their phantoms, and the only tool at their disposal to control their wicked minion is to dismiss them back to the Ethereal Plane. In the best scenarios, the relationship is one of mutual competition and constant bargaining, but just as often the hag phantom dominates and abuses her spiritualist.</p>
-<p><strong>Hag Phantom:</strong> A hag phantom forms from the soul of a deceased hag. She always has an evil alignment, rather than matching the spiritualist's alignment, and must select one of the following emotional focuses: <Link to="/emotionalfocus/anger">anger</Link>, <Link to="/emotionalfocus/hatred">hatred</Link>, <Link to="/emotionalfocus/jealousy">jealousy</Link>, or <Link to="/emotionalfocus/zeal">zeal</Link>. The hag phantom starts with a +2 bonus to Strength and Intelligence and has her own agenda - usually contrary to the spiritualist's - though she recognizes that the spiritualist can unmanifest her, and therefore she typically hides suspicious actions from her spiritualist. When in the spiritualist's consciousness, the hag phantom can grant the hag-haunted <Link to="/feat/spell_focus">Spell Focus</Link> (necromancy) and <Link to="/feat/skill_focus">Skill Focus</Link> (Bluff), but she often revokes them if the spiritualist banishes her there as a punishment, and she might use them as leverage to get what she wants. When the spiritualist reaches 10th level, the hag can also grant these feats while manifested, and when the spiritualist reaches 12th level, she can also grant <Link to="/feat/greater_spell_focus">Greater Spell Focus</Link> (necromancy).</p>
-<p>This alters <strong className="hl">phantom</strong> and replaces <strong className="hl">shared consciousness</strong> and <strong className="hl">fused consciousness</strong>.</p>
-<p><strong>Hag Spellcasting:</strong> A hag-haunted spiritualist's spells come from her connection to her hag phantom. Her spells are considered arcane rather than psychic, and they use verbal and somatic components instead of thought and emotion components. She still selects her spells known from the spiritualist class list.</p>
-<p><strong>Death Curse (Sp):</strong> A hag phantom is partially animated by the power of a hag's dying curse, and at 4th level this grants her a death curse of her own. As an immediate action, whenever the hag phantom is slain and returned to the Ethereal Plane, the phantom can utter a curse on the creature that killed her, targeting it with <Link to="/spell/bestow_curse">bestow curse</Link>. At 6th level, the spiritualist gains bestow curse as an extra 3rd-level spell known. At 16th level, the spiritualist gains <Link to="/spell/major_curse">major curse</Link> as an additional 6th-level spell known.</p>
-<p>This replaces <strong className="hl">spiritual interference</strong> and <strong className="hl">greater spiritual interference</strong>.</p>
+<Ability id="arc-spiritualist-hag_haunted-hag-phantom" icon={["info","stairs-goal"]}>
+<Pair single id="arc-spiritualist-hag_haunted-hag-phantom">Hag Phantom</Pair>
+<Pair hl title="Replaces">Shared consciousness, fused consciousness</Pair>
+<Pair hl title="Alters">Phantom</Pair>
+<Pair title="Info">A hag phantom forms from the soul of a deceased hag. She always has an evil alignment, rather than matching the spiritualist's alignment, and must select one of the following emotional focuses: <Link to="/emotionalfocus/anger">anger</Link>, <Link to="/emotionalfocus/hatred">hatred</Link>, <Link to="/emotionalfocus/jealousy">jealousy</Link>, or <Link to="/emotionalfocus/zeal">zeal</Link>.</Pair>
+<Pair title="Passive Ability">The hag phantom starts with a +2 bonus to Strength and Intelligence and has her own agenda - usually contrary to the spiritualist's - though she recognizes that the spiritualist can unmanifest her, and therefore she typically hides suspicious actions from her spiritualist.</Pair>
+<Pair title="Ability">When in the spiritualist's consciousness, the hag phantom can grant the hag-haunted <Link to="/feat/spell_focus">Spell Focus</Link> (necromancy) and <Link to="/feat/skill_focus">Skill Focus</Link> (Bluff), but she often revokes them if the spiritualist banishes her there as a punishment, and she might use them as leverage to get what she wants.</Pair>
+<Pair title="At 10th Level">The hag can also grant the Skill Focus feats while manifested.</Pair>
+<Pair title="At 12th Level">The hag can also grant <Link to="/feat/greater_spell_focus">Greater Spell Focus</Link> (necromancy).</Pair>
+</Ability>
+<Ability id="arc-spiritualist-hag_haunted-hag-spellcasting" icon={["info"]}>
+<Pair single id="arc-spiritualist-hag_haunted-hag-spellcasting" flavor="A hag-haunted spiritualist's spells come from her connection to her hag phantom.">Hag Spellcasting</Pair>
+<Pair title="Info">Her spells are considered arcane rather than psychic, and they use verbal and somatic components instead of thought and emotion components. She still selects her spells known from the spiritualist class list.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-hag_haunted-death-curse-sp" icon={["magic-swirl","spell-book"]}>
+<Pair single id="arc-spiritualist-hag_haunted-death-curse-sp" flavor="A hag phantom is partially animated by the power of a hag's dying curse, and this eventually grants her a death curse of her own.">Death Curse (Sp)</Pair>
+<Pair hl title="Replaces">Spiritual interference, greater spiritual interference</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Immediate Action">Whenever the hag phantom is slain and returned to the Ethereal Plane, the phantom can utter a curse on the creature that killed her, targeting it with <Link to="/spell/bestow_curse">bestow curse</Link>.</Pair>
+<Pair title="At 6th Level">The spiritualist gains <em>bestow curse</em> as an extra 3rd-level spell known.</Pair>
+<Pair title="At 16th Level">The spiritualist gains <Link to="/spell/major_curse">major curse</Link> as an additional 6th-level spell known.</Pair>
+</Ability>
 </>};
 const _haunted = {title: "Haunted", jsx: <><h2 id="arc-spiritualist-haunted-haunted">Haunted</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 110</Link><br/>The haunted are a dangerous breed of spellcasters bound to temperamental and unpredictable phantoms that leech power from their spiritualists.</p>
-<p><strong>Usurp Manifestation (Su):</strong> At 3rd level, the haunted's phantom begins to subtly subvert the relationship with its master, gaining rather than granting power from the connection. When fully manifested in ectoplasmic form, the phantom can use its usurp manifestation ability to draw upon the haunted's body to strengthen its ectoplasmic might, temporarily weakening the spiritualist in order to increase its own power. The phantom must activate this ability as an immediate action at the start of the spiritualist's turn, and it can use this ability a number of rounds per day equal to 3 + the haunted's spiritualist level. The rounds don't need to be consecutive, and the phantom can dismiss the effects of a usurped manifestation as a free action on its turn. While this ability is in effect, the haunted's features become sunken and withdrawn, and she gains the nauseated condition until the effect ends. Conversely, the phantom surges in size and power, becoming one size category larger (as if affected by an enlarge person spell) and increasing its natural armor bonus to AC by 2 for the effect's duration. If the spiritualist prevents or mitigates the nauseated condition, the phantom is unable to siphon energy and doesn't gain the benefits of usurp manifestation.</p>
-<p>At 8th level and every 5 levels thereafter (13th and 18th levels), the phantom gains new abilities while using usurp manifestation.</p>
-<p><strong>Usurp Spell:</strong> At 8th level, while using usurp manifestation, the phantom can leech spell slots from the haunted to increase its own power. The phantom can reach through the etheric tether as a swift action to drain the nauseated haunted's psychic spell energy, effectively taking any touch spell or spell with a target of "you" that the haunted knows and casting it on itself (assuming the haunted has not yet used up her allotment of spells per day for the spell's level). This ability consumes two of the haunted's spell slots of the appropriate level and otherwise follows the rules for the share spells and deliver touch spells abilities.</p>
-<p><strong>Teleplasmic Surge:</strong> At 13th level, when using usurp manifestation, the phantom gains a +2 morale bonus on attack rolls, saving throws, and skill checks.</p>
-<p><strong>Ferocious Phantom:</strong> At 18th level, when using usurp manifestation the phantom gains DR 10/slashing and spell resistance equal to 11 + the haunted's spiritualist level (this spell resistance doesn't apply to spells originating from the spiritualist or from the usurp spell ability).</p>
-<p>This ability replaces <strong className="hl">bonded manifestation</strong>.</p>
-<p><strong>Usurped Bond (Su):</strong> At 17th level, the haunted's phantom can use usurp manifestation for a number of rounds per day equal to 3 + double the haunted's spiritualist level.</p>
-<p>This ability replaces <strong className="hl">dual bond</strong>.</p>
+<Ability id="arc-spiritualist-haunted-usurp-manifestation-su" icon={["broken-shield","upgrade","armor-upgrade"]}>
+<Pair single id="arc-spiritualist-haunted-usurp-manifestation-su">Usurp Manifestation (Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Info">The haunted's phantom begins to subtly subvert the relationship with its master, gaining rather than granting power from the connection. When fully manifested in ectoplasmic form, the phantom can use its <em>usurp manifestation</em> ability to draw upon the haunted's body to strengthen its ectoplasmic might, temporarily weakening the spiritualist in order to increase its own power.</Pair>
+<Pair title="Usage">3 rounds/day + 1 round per spiritualist level; these rounds need not be consecutive</Pair>
+<Pair title="Immediate Action">The phantom must activate this ability at the start of the spiritualist's turn. The phantom can dismiss the effects of a <em>usurped manifestation</em> as a <strong className="hl">free action</strong> on its turn. While this ability is in effect, the haunted's features become sunken and withdrawn, and she gains the <Link to="/misc/nauseated">nauseated</Link> condition until the effect ends. Conversely, the phantom surges in size and power, becoming one size category larger (as if affected by an <Link to="/spell/enlarge_person">enlarge person</Link> spell) and increasing its natural armor bonus to AC by 2 for the effect's duration.</Pair>
+<Pair title="Special">If the spiritualist prevents or mitigates the nauseated condition, the phantom is unable to siphon energy and doesn't gain the benefits of <em>usurp manifestation.</em></Pair>
+</Ability>
+<Ability id="arc-spiritualist-haunted-usurp-spell" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-haunted-usurp-spell" flavor={<>While using <em>usurp manifestation,</em> the phantom can leech spell slots from the haunted to increase its own power.</>}>Usurp Spell</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Swift Action">The phantom can reach through the etheric tether to drain the nauseated haunted's psychic spell energy, effectively taking any touch spell or spell with a target of "you" that the haunted knows and casting it on itself (assuming the haunted has not yet used up her allotment of spells per day for the spell's level).</Pair>
+<Pair title="Special">This ability consumes two of the haunted's spell slots of the appropriate level and otherwise follows the rules for the <em>share spells</em> and <em>deliver touch spells</em> abilities.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-haunted-teleplasmic-surge" icon={["upgrade"]}>
+<Pair single id="arc-spiritualist-haunted-teleplasmic-surge">Teleplasmic Surge</Pair>
+<Pair title="Gained">At 13th Level</Pair>
+<Pair title="Passive Ability">When using <em>usurp manifestation,</em> the phantom gains a +2 morale bonus on attack rolls, saving throws, and skill checks.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-haunted-usurped-bond-su" icon={["info"]}>
+<Pair single id="arc-spiritualist-haunted-usurped-bond-su">Usurped Bond (Su)</Pair>
+<Pair hl title="Replaces">Dual bond</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Info">The haunted's phantom can use <em>usurp manifestation</em> for a number of rounds per day equal to 3 + double the haunted's spiritualist level.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-haunted-ferocious-phantom" icon={["armor-upgrade"]}>
+<Pair single id="arc-spiritualist-haunted-ferocious-phantom">Ferocious Phantom</Pair>
+<Pair hl title="Replaces">Bonded manifestation</Pair>
+<Pair title="Gained">At 18th Level</Pair>
+<Pair title="Passive Ability">When using <em>usurp manifestation</em> the phantom gains DR 10/slashing and spell resistance equal to 11 + the haunted's spiritualist level (this spell resistance doesn't apply to spells originating from the spiritualist or from the <em>usurp spell</em> ability).</Pair>
+</Ability>
 </>};
 const _involutionist = {title: "Involutionist", jsx: <><h2 id="arc-spiritualist-involutionist-involutionist">Involutionist</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 167</Link><br/>The <Link to="/rule/rivethun">Rivethun</Link> teach their followers to cultivate a well of inner power and to open themselves to the spiritual world, but on occasion - especially among neophytes who join the cult later in life - these processes overlap, and the acolyte invests her spiritual reservoir into some aspect of the world around her. Rather than bond with an existing spirit as most Rivethun eventually do, the involutionist creates a spirit from a piece of her own soul. The bond is deep, and it creates a powerful minion utterly loyal to her creator, but it also cuts off the involutionist's access to the wider spiritual world.</p>
-<p><strong>Divine Spellcasting:</strong> An involutionist is a divine spellcaster. Her spells use verbal components instead of thought components and somatic components instead of emotional components. An involutionist's spirit phantom is her conduit to the divine, and it serves as her divine focus; the involutionist must either be within 5 feet on her spirit phantom or absorb her phantom into her consciousness to cast spells that require a divine focus.</p>
-<p>This ability alters <strong className="hl">spellcasting</strong>.</p>
-<p><strong>Spirit Phantom:</strong> An involutionist's phantom is manifested from her own psyche and invested into the spirit-stuff of the world around her. Rather than an emotional focus, the involutionist selects a spirit from those available to the <Link to="/class/shaman">shaman</Link>. A spirit phantom always has <Link to="/misc/good_saves">good Fortitude and Reflex saves</Link>, and it gains a number of ranks equal to the phantom's Hit Dice in two skills depending on the spirit it represents, as summarized on the table below.</p>
+<Ability id="arc-spiritualist-involutionist-divine-spellcasting" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-involutionist-divine-spellcasting">Divine Spellcasting</Pair>
+<Pair hl title="Alters">Spellcasting</Pair>
+<Pair title="Info">An involutionist is a divine spellcaster. Her spells use verbal components instead of thought components and somatic components instead of emotional components. An involutionist's spirit phantom is her conduit to the divine, and it serves as her divine focus; the involutionist must either be within 5 feet on her spirit phantom or absorb her phantom into her consciousness to cast spells that require a divine focus.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-involutionist-spirit-phantom" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-involutionist-spirit-phantom" flavor="An involutionist's phantom is manifested from her own psyche and invested into the spirit-stuff of the world around her.">Spirit Phantom</Pair>
+<Pair hl title="Replaces">Phantom's emotional focus</Pair>
+<Pair hl title="Alters">Phantom</Pair>
+<Pair title="Ability"><p>Rather than an emotional focus, the involutionist selects a spirit from those available to the <Link to="/class/shaman">shaman</Link>. A spirit phantom always has <Link to="/misc/good_saves">good Fortitude and Reflex saves</Link>, and it gains a number of ranks equal to the phantom's Hit Dice in two skills depending on the spirit it represents, as summarized on the table below.</p>
 <ScrollContainer id="arc-spiritualist-involutionist--table-0"><table>
 <thead>
 <tr>
@@ -300,37 +573,100 @@ const _involutionist = {title: "Involutionist", jsx: <><h2 id="arc-spiritualist-
 <td>Bluff and Sense Motive</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p>When fully manifested, the involutionist's spirit phantom gains the special ability normally applied to a shaman's spirit animal. The spirit phantom also gains a single hex from the list of those provided by that spirit. At 7th, 12th, and 17th levels, the spirit phantom gains one additional hex from this list.</p>
-<p>This ability alters <strong className="hl">phantom</strong> and replaces its <strong className="hl">emotional focus</strong> abilities.</p>
-<p><strong>Spirit Manifestation (Su):</strong> At 3rd level, when an involutionist uses her bonded manifestation ability, she can instead manifest her spirit phantom's spirit animal special ability and use her spirit phantom's hexes as if they were her own. Hexes used during this manifestation count toward any limited number of uses per day.</p>
-<p>This ability alters <strong className="hl">bonded manifestation</strong>.</p>
-<p><strong>Spirit Awareness (Sp):</strong> At 5th level, an involutionist gains great insight into the spiritual influence people invest into the world around them. She can cast <Link to="/spell/detect_psychic_significance">detect psychic significance</Link> as a spell-like ability at will and <Link to="/spell/analyze_aura">analyze aura</Link> once per day as a spell-like ability (CL = her character level).</p>
-<p>This ability replaces <strong className="hl">detect undead</strong>.</p>
-<p><strong>Involuate (Sp):</strong> At 11th level, an involutionist gains the ability to awaken the latent spiritual energy in inanimate objects. She gains the ability to cast <Link to="/spell/animate_objects">animate objects</Link> as a spell-like ability once per day (CL = her character level). At 15th and 19th levels, she can use this ability one additional time per day.</p>
-<p>This ability replaces the additional uses of <strong className="hl">calm spirit</strong> available at 11th, 15th, and 19th levels.</p>
+<p>When fully manifested, the involutionist's spirit phantom gains the special ability normally applied to a shaman's spirit animal. The spirit phantom also gains a single hex from the list of those provided by that spirit.</p>
+</Pair>
+<Pair title="At 7th Level">The spirit phantom gains one additional hex from their list.</Pair>
+<Pair title="At 12th Level">The spirit phantom gains one additional hex from their list.</Pair>
+<Pair title="At 17th Level">The spirit phantom gains one additional hex from their list.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-involutionist-spirit-manifestation-su" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-involutionist-spirit-manifestation-su">Spirit Manifestation (Su)</Pair>
+<Pair hl title="Alters">Bonded manifestation</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">When an involutionist uses her <em>bonded manifestation</em> ability, she can instead manifest her spirit phantom's spirit animal special ability and use her spirit phantom's hexes as if they were her own. Hexes used during this manifestation count toward any limited number of uses per day.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-involutionist-spirit-awareness-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-involutionist-spirit-awareness-sp" flavor="An involutionist gains great insight into the spiritual influence people invest into the world around them.">Spirit Awareness (Sp)</Pair>
+<Pair hl title="Replaces">Detect undead</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">She can cast <Link to="/spell/detect_psychic_significance">detect psychic significance</Link> as a spell-like ability at will and <Link to="/spell/analyze_aura">analyze aura</Link> once per day as a spell-like ability (CL = her character level).</Pair>
+</Ability>
+<Ability id="arc-spiritualist-involutionist-involuate-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-involutionist-involuate-sp" flavor="An involutionist gains the ability to awaken the latent spiritual energy in inanimate objects.">Involuate (Sp)</Pair>
+<Pair hl title="Replaces">Additional uses of calm spirit available at 11th, 15th, and 19th levels</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four spiritualist levels beyond 11th<ByLevelPop levels={[[11,1],[15,2],[19,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">She gains the ability to cast <Link to="/spell/animate_objects">animate objects</Link> as a spell-like ability (CL = her character level).</Pair>
+</Ability>
 </>};
 const _necrologist = {title: "Necrologist", jsx: <><h2 id="arc-spiritualist-necrologist-necrologist">Necrologist</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 69</Link><br/>All spiritualists call upon residual phantoms that cling to the living world through force of will and unresolved passion. The vile spiritualists known as necrologists reach farther toward the Negative Energy Plane, however, and for whatever evil purpose, they bring back malevolent spirits whose passions have turned to vengeance and hate for all life.</p>
-<p><strong>Alignment:</strong> Only an evil character can contact a malevolent undead phantom and take the necrologist archetype. If a necrologist becomes nonevil, she can continue to take spiritualist levels, but her phantom ceases to give her benefits while in her consciousness, she can't use bonded manifestation, and if she manifests the phantom, it is no longer loyal to her and likely attacks her and her allies.</p>
-<p>This alters the spiritualist's <strong className="hl">alignment</strong>.</p>
-<p><strong>Spells:</strong> A necrologist adds the following spells to her class list: 1st-<Link to="/spell/hide_from_undead">hide from undead</Link>; 2nd-<Link to="/spell/ghostly_disguise">ghostly disguise</Link>, <Link to="/spell/haunting_mists">haunting mists</Link>; 3rd-<Link to="/spell/haunting_choir">haunting choir</Link>; 4th-<Link to="/spell/lesser_age_resistance">lesser age resistance</Link>; 5th-<Link to="/spell/age_resistance">age resistance</Link>; 6th-<Link to="/spell/greater_age_resistance">greater age resistance</Link>, <Link to="/spell/create_greater_undead">create greater undead</Link>.</p>
-<p><strong>Shared Conciousness:</strong> A necrologist gains a bonus on saving throws against death effects, energy drain, and negative energy rather than against mind-affecting effects (and can shunt such an effect onto the phantom) when her undead phantom is contained within her consciousness.</p>
-<p>This ability alters <strong className="hl">shared consciousness</strong>.</p>
-<p><strong>Undead Phantom:</strong> A necrologist's phantom is undead, rather than an outsider. It has normal undead immunities and no Constitution score; uses d8 Hit Dice, each of which is modified by the phantom's Charisma modifier as normal; and gains the abilities below at the levels indicated. An undead phantom otherwise follows the standard phantom rules (for instance, its base attack bonus and skills don't change to match undead).</p>
-<p><strong>Cling of the Grave (Su):</strong> An undead phantom can hold the charge on a touch spell of the necromancy school up to a maximum of 1 round per spiritualist level of the necrologist.</p>
-<p>This ability alters <strong className="hl">share spells</strong>.</p>
-<p><strong>Unnatural Aura (Su):</strong> At 5th level, animals do not willingly approach within 30 feet of a fully manifested undead phantom unless the necrologist succeeds at a Handle Animal, Ride, or wild empathy check (DC = 10 + 1/2 the necrologist's spiritualist level + the phantom's Charisma modifier).</p>
-<p>This replaces the <strong className="hl">slam damage increase</strong> gained at 5th level.</p>
-<p><strong>Channel Resistance (Su):</strong> At 6th level, a necrologist's phantom gains a +4 bonus on saving throws to resist the effects of channel energy.</p>
-<p>This ability replaces <strong className="hl">devotion</strong>.</p>
-<p><strong>Lifedrinker (Su):</strong> At 13th level, when a necrologist's phantom reduces a creature to fewer than 0 hit points with an attack or spell, the necrologist can expend one use of her channel energy ability as a swift action to affect the same target with <Link to="/spell/death_knell">death knell</Link>. If the target fails its save, the necrologist can choose either herself or her phantom to gain the benefit of the spell.</p>
-<p>This replaces the necrologist's <strong className="hl">slam damage increase</strong> gained at 13th level.</p>
-<p><strong>Bonded Manifestation:</strong> A necrologist cannot use ectoplasmic bonded manifestation.</p>
-<p>This ability alters <strong className="hl">bonded manifestation</strong>.</p>
-<p><strong>Channel Energy (Su):</strong> At 4th level, a necrologist gains the ability to <Link to="/ability/channel_negative_energy">channel negative energy</Link>, with an effective cleric level equal to her spiritualist level - 3. She can use this ability a number of times per day equal to 1 + her Charisma modifier.</p>
-<p>This ability replaces <strong className="hl">spiritual interference</strong>.</p>
-<p><strong>Necropsychic Conduit:</strong> At 12th level, a necrologist can cast psychic spells as if she had the <Link to="/feat/thanatopic_spell">Thanatopic Spell</Link> and <Link to="/feat/threnodic_spell">Threnodic Spell</Link> metamagic feats, using her undead phantom as a conduit to pierce the defenses of undead creatures. If her phantom has been banished or is not within 30 feet of her when she casts the spells, however, these feats have no effect.</p>
-<p>This ability replaces <strong className="hl">greater spiritual interference</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-spiritualist-necrologist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Evil alignment</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-spiritualist-necrologist-alignment" icon={["hazard-sign"]}>
+<Pair single id="arc-spiritualist-necrologist-alignment">Alignment</Pair>
+<Pair hl title="Alters">Alignment</Pair>
+<Pair title="Info">If a necrologist becomes nonevil, she can continue to take spiritualist levels, but her phantom ceases to give her benefits while in her consciousness, she can't use <em>bonded manifestation,</em> and if she manifests the phantom, it is no longer loyal to her and likely attacks her and her allies.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-necrologist-spells" icon={["spell-book"]}>
+<Pair single id="arc-spiritualist-necrologist-spells">Spells</Pair>
+<Pair title="Info">A necrologist adds the following spells to her class list at the listed spell levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/hide_from_undead">Hide from undead</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/ghostly_disguise">Ghostly disguise</Link>, <Link to="/spell/haunting_mists">haunting mists</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/haunting_choir">Haunting choir</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/lesser_age_resistance">Lesser age resistance</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/age_resistance">Age resistance</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/greater_age_resistance">Greater age resistance</Link>, <Link to="/spell/create_greater_undead">create greater undead</Link></Pair>
+</Ability>
+<Ability id="arc-spiritualist-necrologist-bonded-manifestation" icon={["broken-shield"]}>
+<Pair single id="arc-spiritualist-necrologist-bonded-manifestation">Bonded Manifestation</Pair>
+<Pair hl title="Alters">Bonded manifestation</Pair>
+<Pair title="Info">A necrologist cannot use ectoplasmic bonded manifestation.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-necrologist-shared-conciousness" icon={["armor-upgrade"]}>
+<Pair single id="arc-spiritualist-necrologist-shared-conciousness">Shared Conciousness</Pair>
+<Pair hl title="Alters">Shared consciousness</Pair>
+<Pair title="Passive Ability">A necrologist gains a bonus on saving throws against death effects, energy drain, and negative energy rather than against mind-affecting effects (and can shunt such an effect onto the phantom) when her <em>undead phantom</em> is contained within her consciousness.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-necrologist-undead-phantom" icon={["info"]}>
+<Pair single id="arc-spiritualist-necrologist-undead-phantom">Undead Phantom</Pair>
+<Pair title="Info">A necrologist's phantom is undead, rather than an outsider. It has normal undead immunities and no Constitution score; uses d8 Hit Dice, each of which is modified by the phantom's Charisma modifier as normal; and gains the abilities below at the levels indicated. An undead phantom otherwise follows the standard phantom rules (for instance, its base attack bonus and skills don't change to match undead).</Pair>
+</Ability>
+<Ability id="arc-spiritualist-necrologist-cling-of-the-grave-su" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-necrologist-cling-of-the-grave-su">Cling of the Grave (Su)</Pair>
+<Pair hl title="Alters">Share spells</Pair>
+<Pair title="Ability">An undead phantom can <Link to="/rule/hold_the_charge">hold the charge</Link> on a touch spell of the necromancy school up to a maximum of 1 round per spiritualist level of the necrologist.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-necrologist-channel-energy-su" icon={["aura"]}>
+<Pair single id="arc-spiritualist-necrologist-channel-energy-su">Channel Energy (Su)</Pair>
+<Pair hl title="Replaces">Spiritual interference</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Usage">1 + Charisma modifier times/day</Pair>
+<Pair title="Ability">A necrologist gains the ability to <Link to="/ability/channel_negative_energy">channel negative energy</Link>, with an effective cleric level equal to her spiritualist level - 3.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-necrologist-unnatural-aura-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-spiritualist-necrologist-unnatural-aura-su">Unnatural Aura (Su)</Pair>
+<Pair hl title="Replaces">Slam damage increase gained at 5th level</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Passive Ability">Animals do not willingly approach within 30 feet of a fully manifested undead phantom unless the necrologist succeeds at a Handle Animal, Ride, or wild empathy check (DC = 10 + 1/2 the necrologist's spiritualist level + the phantom's Charisma modifier).</Pair>
+</Ability>
+<Ability id="arc-spiritualist-necrologist-channel-resistance-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-spiritualist-necrologist-channel-resistance-su">Channel Resistance (Su)</Pair>
+<Pair hl title="Replaces">Devotion</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Passive Ability">A necrologist's phantom gains a +4 bonus on saving throws to resist the effects of <em>channel energy.</em></Pair>
+</Ability>
+<Ability id="arc-spiritualist-necrologist-necropsychic-conduit" icon={["stairs-goal"]}>
+<Pair single id="arc-spiritualist-necrologist-necropsychic-conduit">Necropsychic Conduit</Pair>
+<Pair hl title="Replaces">Greater spiritual interference</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">A necrologist can cast psychic spells as if she had the <Link to="/feat/thanatopic_spell">Thanatopic Spell</Link> and <Link to="/feat/threnodic_spell">Threnodic Spell</Link> metamagic feats, using her undead phantom as a conduit to pierce the defenses of undead creatures.</Pair>
+<Pair title="Special">If her phantom has been banished or is not within 30 feet of her when she casts the spells, however, these feats have no effect.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-necrologist-lifedrinker-su" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-necrologist-lifedrinker-su">Lifedrinker (Su)</Pair>
+<Pair hl title="Replaces">Slam damage increase gained at 13th level</Pair>
+<Pair title="Gained">At 13th Level</Pair>
+<Pair title="Ability">When a necrologist's phantom reduces a creature to fewer than 0 hit points with an attack or spell, the necrologist can expend one use of her <em>channel energy</em> ability as a <strong className="hl">swift action</strong> to affect the same target with <Link to="/spell/death_knell">death knell</Link>. If the target fails its save, the necrologist can choose either herself or her phantom to gain the benefit of the spell.</Pair>
+</Ability>
 </>};
 const _onmyoji = {title: "Onmyoji", jsx: <><h2 id="arc-spiritualist-onmyoji-onmyoji">Onmyoji</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 111</Link><br/>Though most spiritualists are chosen by their phantoms, others deliberately call phantoms to them through years of careful preparation and study in obscure divine traditions. These spiritualists, known as onmyoji, form close bonds with their phantoms, as any other spiritualist does, but see the phantoms as partners and tools in their work. Onmyoji serve as emissaries between the mundane world and the spiritual one, either working to ensure that troubles in the spiritual world do not spill over into the world of mortals, or stirring up spiritual trouble in order to achieve their ends among the living.</p>
