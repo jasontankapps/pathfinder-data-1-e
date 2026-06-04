@@ -663,6 +663,7 @@
 			"An animal trained to bear a rider knows the tricks [come](#come), [heel](#heel), and [stay](#stay). Training an animal for riding takes 3 weeks."
 		]
 	},
+	"bonus_tricks": { "redirect": "animal_tricks" },
 	"companion_tricks": {
 		"name": "Animal Companion Tricks",
 		"sources": [ "Ultimate Wilderness" ],
