@@ -840,22 +840,23 @@ const _cleric = {hasJL:true,title: "Cleric", jsx: <><div className="jumpList" id
 <Pair single id="class-cleric-chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
 <Pair title="Passive Ability">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</Pair>
 </Ability>
-<Ability id="class-cleric-channel-energy-su" icon={["stairs-goal","aura"]}>
+<Ability id="class-cleric-channel-energy-su" icon={["aura"]}>
 <Pair single id="class-cleric-channel-energy-su" flavor="Regardless of alignment, any cleric can release a wave of energy by channeling the power of her faith through her holy (or unholy) symbol. This energy can be used to cause or heal damage, depending on the type of energy channeled and the creatures targeted.">Channel Energy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>
 <Pair title="Standard Action">You must present your holy symbol to channel energy. This causes a <Link to="/misc/burst">burst</Link> that affects all creatures of one type (either undead or living) in a 30-foot radius centered on you. This deals or heals (see below) 1d6 damage. You can choose whether or not to include yourself in this effect. Creatures that take damage from channeled energy receive a Will save to halve the damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your cleric level + your Charisma modifier.</Pair>
+<Pair title="Choice">A good cleric (or one who worships a good deity) channels <strong className="hl">positive energy</strong> and can choose to deal damage to undead creatures or to heal living creatures. An evil cleric (or one who worships an evil deity) channels <strong className="hl">negative energy</strong> and can choose to deal damage to living creatures or to heal undead creatures. A neutral cleric who worships a neutral deity (or one who is not devoted to a particular deity) must choose whether she channels positive or negative energy. Once this choice is made, it cannot be reversed. <em>This decision also determines whether the cleric casts spontaneous</em> cure <em>or</em> inflict <em>spells (see</em> Spontaneous Casting <em>below).</em></Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="At 3rd Level">The damage becomes 2d6.</Pair>
-<Pair title="At 5th Level">The damage becomes 3d6.</Pair>
+<Pair title="At 5th Level">The damage increases to 3d6.</Pair>
 <Pair title="At 7th Level">The damage becomes 4d6.</Pair>
-<Pair title="At 9th Level">The damage becomes 5d6.</Pair>
+<Pair title="At 9th Level">The damage increases to 5d6.</Pair>
 <Pair title="At 11th Level">The damage becomes 6d6.</Pair>
-<Pair title="At 13th Level">The damage becomes 7d6.</Pair>
+<Pair title="At 13th Level">The damage increases to 7d6.</Pair>
 <Pair title="At 15th Level">The damage becomes 8d6.</Pair>
-<Pair title="At 17th Level">The damage becomes 9d6.</Pair>
+<Pair title="At 17th Level">The damage increases to 9d6.</Pair>
 <Pair title="At 19th Level">The damage becomes 10d6.</Pair>
-<Pair title="Special">A good cleric (or one who worships a good deity) channels <strong className="hl">positive energy</strong> and can choose to deal damage to undead creatures or to heal living creatures. An evil cleric (or one who worships an evil deity) channels <strong className="hl">negative energy</strong> and can choose to deal damage to living creatures or to heal undead creatures. A neutral cleric who worships a neutral deity (or one who is not devoted to a particular deity) must choose whether she channels positive or negative energy. Once this choice is made, it cannot be reversed. <em>This decision also determines whether the cleric casts spontaneous</em> cure <em>or</em> inflict <em>spells (see</em> Spontaneous Casting <em>below).</em> Creatures healed by channeled energy cannot exceed their maximum hit point total - all excess healing is lost.</Pair>
+<Pair title="Special">Creatures healed by channeled energy cannot exceed their maximum hit point total - all excess healing is lost.</Pair>
 </Ability>
 <aside><p>Some deities may endow their mortal servants with the power to channel energies in other ways that more closely mirror their particular focus. You may choose one of these <Link to="/ability/variant_channeling">variant channeling abilities</Link> instead.</p>
 </aside><Ability id="class-cleric-domains" icon={["stairs-goal","magic-swirl"]}>

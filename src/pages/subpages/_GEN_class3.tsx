@@ -2425,12 +2425,28 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="At 18th Level">You gain a new mercy.</Pair>
 <Pair title="Special">A mercy can remove a condition caused by a curse, disease, or poison without curing the affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction that causes the condition.</Pair>
 </Ability>
-<Ability id="class-paladin-channel-positive-energy-su" icon={["stairs-goal"]}>
+<Ability id="class-paladin-channel-positive-energy-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="class-paladin-channel-positive-energy-su">Channel Positive Energy (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Standard Action">You gain the supernatural ability to <Link to="/ability/channel_positive_energy">channel positive energy</Link> like a cleric. Using this ability consumes two uses of your <em>lay on hands</em> ability. You use your level as your effective cleric level when channeling positive energy. This is a Charisma-based ability.</Pair>
 </Ability>
-<Ability id="class-paladin-spells" icon={["magic-swirl"]}>
+<Ability id="class-paladin-channel-energy-su" extraClasses="subAbility" icon={["aura"]}>
+<Pair single id="class-paladin-channel-energy-su" flavor="Relevant text from the cleric ability.">Channel Energy (Su)</Pair>
+<Pair title="Standard Action">You must present your holy symbol to channel energy. This causes a <Link to="/misc/burst">burst</Link> that affects all creatures of one type (either undead or living) in a 30-foot radius centered on you. This deals or heals (see below) 2d6 damage. You can choose whether or not to include yourself in this effect. Creatures that take damage from channeled energy receive a Will save to halve the damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your cleric level + your Charisma modifier.</Pair>
+<Pair title="Choice">A good cleric (or one who worships a good deity) channels <strong className="hl">positive energy</strong> and can choose to deal damage to undead creatures or to heal living creatures.</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
+<Pair title="At 5th Level">The damage becomes 3d6.</Pair>
+<Pair title="At 7th Level">The damage increases to 4d6.</Pair>
+<Pair title="At 9th Level">The damage becomes 5d6.</Pair>
+<Pair title="At 11th Level">The damage increases to 6d6.</Pair>
+<Pair title="At 13th Level">The damage becomes 7d6.</Pair>
+<Pair title="At 15th Level">The damage increases to 8d6.</Pair>
+<Pair title="At 17th Level">The damage becomes 9d6.</Pair>
+<Pair title="At 19th Level">The damage increases to 10d6.</Pair>
+<Pair title="Special">Creatures healed by channeled energy cannot exceed their maximum hit point total - all excess healing is lost.</Pair>
+</Ability>
+<aside><p>Some deities may endow their mortal servants with the power to channel energies in other ways that more closely mirror their particular focus. If you serve a deity, you may choose one of these <Link to="/ability/variant_channeling">variant channeling abilities</Link> instead.</p>
+</aside><Ability id="class-paladin-spells" icon={["magic-swirl"]}>
 <Pair single id="class-paladin-spells">Spells</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain the ability to cast a small number of divine spells which are drawn from the <Link to="/main/paladin_spell">paladin spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You must choose and prepare your spells in advance. Like other spellcasters, you can cast only a certain number of spells of each spell level per day. In addition, you receive <Link to="/rule/bonus_spells">bonus spells per day</Link> if you have a high Charisma score.</Pair>
