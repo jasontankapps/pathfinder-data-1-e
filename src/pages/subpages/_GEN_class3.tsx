@@ -287,10 +287,7 @@ const _unchained_monk = {hasJL:true,title: "Unchained Monk", jsx: <><div classNa
 <Ability id="class-unchained_monk-unarmed-strike-ex" icon={["mailed-fist"]}>
 <Pair single id="class-unchained_monk-unarmed-strike-ex">Unarmed Strike (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Ability">You gain <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. Your attacks can be with fists, elbows, knees, and feet. This means that you can make unarmed strikes with your hands full. There is no such thing as an off-hand attack when you're striking unarmed. You can apply your full Strength bonus on damage rolls for all your unarmed strikes. Your unarmed strikes deal lethal damage, although you can choose to deal nonlethal damage with no penalty on the attack roll. You can make this choice while grappling as well.</Pair>
-<Pair title="Special">Your unarmed strike is treated as both a manufactured weapon and a natural weapon for the purpose of spells and effects that enhance or improve either manufactured weapons or natural weapons. The damage of your strike is determined by your size and level, shown on the chart below.</Pair>
-</Ability>
-<div className="p">
+<Pair title="Ability"><p>You gain <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. Your attacks can be with fists, elbows, knees, and feet. This means that you can make unarmed strikes with your hands full. There is no such thing as an off-hand attack when you're striking unarmed. You can apply your full Strength bonus on damage rolls for all your unarmed strikes. Your unarmed strikes deal lethal damage, although you can choose to deal nonlethal damage with no penalty on the attack roll. You can make this choice while grappling as well.</p>
 <ScrollContainer id="class-unchained_monk--table-2"><table>
 <thead>
 <tr>
@@ -337,7 +334,9 @@ const _unchained_monk = {hasJL:true,title: "Unchained Monk", jsx: <><div classNa
 <td>4d8</td>
 </tr>
 </tbody></table></ScrollContainer>
-</div>
+</Pair>
+<Pair title="Special">Your unarmed strike is treated as both a manufactured weapon and a natural weapon for the purpose of spells and effects that enhance or improve either manufactured weapons or natural weapons. The damage of your strike is determined by your size and level, shown on the chart below.</Pair>
+</Ability>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="class-unchained_monk--table-3"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/>Instead of Improved Unarmed Strike, monks gain <strong className="hl"><Link to="/rule/unarmed_combatant">Unarmed Combatant</Link></strong> as a bonus feat.</p>
 </td></tr></tbody></table></ScrollContainer></div><Ability id="class-unchained_monk-evasion-ex" icon={["armor-upgrade"]}>
 <Pair single id="class-unchained_monk-evasion-ex" flavor="A monk can avoid damage from many area-effect attacks.">Evasion (Ex)</Pair>
