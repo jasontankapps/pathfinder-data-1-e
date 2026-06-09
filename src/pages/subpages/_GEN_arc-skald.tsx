@@ -16,10 +16,10 @@ const _augur = {title: "Augur", jsx: <><h2 id="arc-skald-augur-augur">Augur</h2>
 <Ability id="arc-skald-augur-signs-and-portents-su" icon={["magic-swirl"]}>
 <Pair single id="arc-skald-augur-signs-and-portents-su">Signs and Portents (Su)</Pair>
 <Pair hl title="Replaces">All types of versatile performance</Pair>
-<Pair title="At 2nd Level">An augur can read signs and portents to attempt to ascertain how events in the near future will play out. This allows the augur to cast <Link to="/spell/augury">augury</Link> as a spell-like ability.</Pair>
-<Pair title="At 7th Level">He can instead use signs and portents to cast <Link to="/spell/divination">divination</Link> as a spell-like ability.</Pair>
+<Pair title="At 2nd Level">An augur can read signs and portents to attempt to ascertain how events in the near future will play out. This allows the augur to cast <Link to="/spell/augury">augury</Link> as a spell-like ability once a day.</Pair>
+<Pair title="At 7th Level">He can instead use <em>signs and portents</em> to cast <Link to="/spell/divination">divination</Link> as a spell-like ability.</Pair>
 <Pair title="At 12th Level">He can instead cast <Link to="/spell/commune">commune</Link> as a spell-like ability.</Pair>
-<Pair title="At 17th Level">He can use signs and portents twice per day.</Pair>
+<Pair title="At 17th Level">He can use <em>signs and portents</em> twice per day.</Pair>
 </Ability>
 <Ability id="arc-skald-augur-predictive-strike-su" icon={["mailed-fist"]}>
 <Pair single id="arc-skald-augur-predictive-strike-su" flavor="The augur accurately divines the possible movements of his enemies in combat.">Predictive Strike (Su)</Pair>
@@ -844,7 +844,7 @@ const _war_painter = {title: "War Painter", jsx: <><h2 id="arc-skald-war_painter
 <Pair single id="arc-skald-war_painter-arcane-flourish-su">Arcane Flourish (Su)</Pair>
 <Pair hl title="Replaces">Lore master</Pair>
 <Pair title="Gained">At 7th Level</Pair>
-<Pair title="Ability">Once per day as he finishes applying his furious paint to a creature, a war painter can cast one skald spell with a casting time of no more than 1 standard action and infuse the spell into the paint. Once while benefiting from the paint's <em>raging song,</em> the painted ally can use a <strong className="hl">standard action</strong> to cast the infused spell on herself as if the war painter had cast it. The spell ends when the paint's other effects end.</Pair>
+<Pair title="Ability">Once per day as he finishes applying his <em>furious paint</em> to a creature, a war painter can cast one skald spell with a casting time of no more than 1 standard action and infuse the spell into the paint. Once while benefiting from the paint's <em>raging song,</em> the painted ally can use a <strong className="hl">standard action</strong> to cast the infused spell on herself as if the war painter had cast it. The spell ends when the paint's other effects end.</Pair>
 <Pair title="At 13th Level">He can use this ability 2 times/day.</Pair>
 <Pair title="At 19th Level">He can use this ability 3 times/day.</Pair>
 <Pair title="Special">A war painter can infuse only a skald spell whose level is at least 2 levels lower than the highest-level skald spell he can cast. He can infuse any targeted spell in a painted ally, even if its range is personal.</Pair>

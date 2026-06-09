@@ -132,7 +132,7 @@ const _ferocious_horde = {title: "Ferocious Horde", jsx: <><h2 id="feat-ferociou
 </>};
 const _ferocious_loyalty = {title: "Ferocious Loyalty", jsx: <><h2 id="feat-ferocious_loyalty-ferocious-loyalty-teamwork">Ferocious Loyalty (Teamwork)</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon pg. 11</Link></p>
-<p>You have a powerful sense of responsibility for your allies.<br/><strong>Benefit:</strong> You gain a +1 morale bonus on attack rolls against any foe that currently threatens an ally who also has this feat. Whenever an ally with this feat is rendered <Link to="/misc/helpless">helpless</Link> or killed within 30 feet of you, you gain a +2 morale bonus on attack rolls for 1 minute or until the foe responsible is rendered helpless or killed, whichever comes first.</p>
+<p>You have a powerful sense of responsibility for your allies.<br/><strong>Prerequisites:</strong> <Link to="/race/werebear_kin">Werebear-kin</Link>, werebear, or someone who associates with these creatures<br/><strong>Benefit:</strong> You gain a +1 morale bonus on attack rolls against any foe that currently threatens an ally who also has this feat. Whenever an ally with this feat is rendered <Link to="/misc/helpless">helpless</Link> or killed within 30 feet of you, you gain a +2 morale bonus on attack rolls for 1 minute or until the foe responsible is rendered helpless or killed, whichever comes first.</p>
 </>};
 const _ferocious_resolve = {title: "Ferocious Resolve", jsx: <><h2 id="feat-ferocious_resolve-ferocious-resolve">Ferocious Resolve</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 57</Link></p>

@@ -476,6 +476,16 @@
 			"- @HL[Summon (Sp):] Devils share the ability to ‹umr/summon› others of their kind, typically another of their type or a small number of less powerful devils."
 		]
 	},
+	"dhampir": {
+		"name": "Dhampir",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"## Subtype: Dhampir",
+			"‹SOURCE Advanced Race Guide›",
+			"",
+			"This ‹type/humanoid› subtype is applied to ‹race/dhampir› and creatures related to dhampir."
+		]
+	},
 	"div": {
 		"name": "Div",
 		"sources": [ "Bestiary 3" ],
@@ -1346,6 +1356,16 @@
 			"- A swarm's attacks are nonmagical, unless the swarm's description states otherwise. Damage reduction sufficient to reduce a swarm attack's damage to 0, being incorporeal, or other special abilities usually give a creature ‹umr/immunity› (or at least ‹umr/resistance›) to damage from a swarm. Some swarms also have acid, blood drain, poison, or other special attacks in addition to normal damage.",
 			"- Swarms do not threaten creatures, and do not make attacks of opportunity with their swarm attack. However, they distract foes whose squares they occupy, as described below.",
 			"- Swarms possess the ‹umr/distraction› universal monster rule. Spellcasting or concentrating on spells within the area of a swarm requires a caster level check (DC 20 + spell level). Using skills that involve patience and concentration requires a DC 20 Will save."
+		]
+	},
+	"tengu": {
+		"name": "Temgu",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"## Subtype: Tengu",
+			"‹SOURCE Advanced Race Guide›",
+			"",
+			"This ‹type/humanoid› subtype is applied to ‹race/tengu«s› and creatures related to tengus."
 		]
 	},
 	"troop": {

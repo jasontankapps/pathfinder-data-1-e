@@ -764,7 +764,7 @@ const _diplomatic_ruse = {title: "Diplomatic Ruse", jsx: <><h2 id="feat-diplomat
 </>};
 const _dire_bat_shape = {title: "Dire Bat Shape", jsx: <><h2 id="feat-dire_bat_shape-dire-bat-shape">Dire Bat Shape</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon pg. 9</Link></p>
-<p>You can become a dire bat.<br/><strong>Prerequisites:</strong> Cha 13, <Link to="/feat/bat_shape">Bat Shape</Link>, base attack bonus +3, <Link to="/race/skinwalker">werebat-kin</Link>.<br/><strong>Benefit:</strong> When you use Bat Shape to become a bat, you can choose to become a bat or a <Link to="/monster/dire_bat">dire bat</Link>.</p>
+<p>You can become a dire bat.<br/><strong>Prerequisites:</strong> Cha 13, <Link to="/feat/bat_shape">Bat Shape</Link>, base attack bonus +3, <Link to="/race/werebat_kin">werebat-kin</Link>.<br/><strong>Benefit:</strong> When you use Bat Shape to become a bat, you can choose to become a bat or a <Link to="/monster/dire_bat">dire bat</Link>.</p>
 </>};
 const _directed_disarm = {title: "Directed Disarm", jsx: <><h2 id="feat-directed_disarm-directed-disarm-combat">Directed Disarm (Combat)</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 6</Link></p>

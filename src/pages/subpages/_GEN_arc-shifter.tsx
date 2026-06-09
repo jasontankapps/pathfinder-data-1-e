@@ -54,13 +54,7 @@ const _adaptive_shifter = {title: "Adaptive Shifter", jsx: <><h2 id="arc-shifter
 <Ability id="arc-shifter-adaptive_shifter-durable-form" extraClasses="subAbility" icon={["armor-upgrade"]}>
 <Pair single id="arc-shifter-adaptive_shifter-durable-form">Durable Form</Pair>
 <Pair title="Prerequisites">8th-level shifter</Pair>
-<Pair title="Passive Ability">The adaptive shifter gains DR 5/adamantine.</Pair>
-<Pair title="At 10th Level">This becomes DR 6/adamantine.</Pair>
-<Pair title="At 12th Level">This becomes DR 7/adamantine.</Pair>
-<Pair title="At 14th Level">This becomes DR 8/adamantine.</Pair>
-<Pair title="At 16th Level">This becomes DR 9/adamantine.</Pair>
-<Pair title="At 18th Level">This becomes DR 10/adamantine.</Pair>
-<Pair title="At 20th Level">This becomes DR 11/adamantine.</Pair>
+<Pair title="Passive Ability">The adaptive shifter gains DR/adamantine. This DR is equal to 1 + <Link to="/misc/half">half</Link> her skald level.</Pair>
 </Ability>
 <Ability id="arc-shifter-adaptive_shifter-evasive-form42" extraClasses="subAbility" icon={["stairs-goal","armor-upgrade","upgrade"]}>
 <Pair single id="arc-shifter-adaptive_shifter-evasive-form42">Evasive Form&#42;</Pair>
@@ -78,7 +72,7 @@ const _adaptive_shifter = {title: "Adaptive Shifter", jsx: <><h2 id="arc-shifter
 </Ability>
 <Ability id="arc-shifter-adaptive_shifter-restoring-form" extraClasses="subAbility" icon={["remedy"]}>
 <Pair single id="arc-shifter-adaptive_shifter-restoring-form">Restoring Form</Pair>
-<Pair title="Passive Ability">The adaptive shifter regains 1d8 hit points. For every 4 levels she has, the number of hit points she regains increases by 1d8.</Pair>
+<Pair title="Passive Ability">The adaptive shifter regains 1d8 hit points.</Pair>
 <Pair title="At 4th Level">This increases to 2d8.</Pair>
 <Pair title="At 8th Level">This increases to 3d8.</Pair>
 <Pair title="At 12th Level">This increases to 4d8.</Pair>
@@ -151,43 +145,19 @@ const _dragonblood_shifter = {title: "Dragonblood Shifter", jsx: <><h2 id="arc-s
 </tr>
 </thead>
 <tbody><tr>
-<td>Black</td>
+<td>Black, Green, or Copper</td>
 <td>Acid</td>
 </tr>
 <tr>
-<td>Blue</td>
+<td>Blue or Bronze</td>
 <td>Electricity</td>
 </tr>
 <tr>
-<td>Green</td>
-<td>Acid</td>
-</tr>
-<tr>
-<td>Red</td>
+<td>Red, Brass, or Gold</td>
 <td>Fire</td>
 </tr>
 <tr>
-<td>White</td>
-<td>Cold</td>
-</tr>
-<tr>
-<td>Brass</td>
-<td>Fire</td>
-</tr>
-<tr>
-<td>Bronze</td>
-<td>Electricity</td>
-</tr>
-<tr>
-<td>Copper</td>
-<td>Acid</td>
-</tr>
-<tr>
-<td>Gold</td>
-<td>Fire</td>
-</tr>
-<tr>
-<td>Silver</td>
+<td>White or Silver</td>
 <td>Cold</td>
 </tr>
 </tbody></table></ScrollContainer>
