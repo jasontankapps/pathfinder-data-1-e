@@ -18,6 +18,7 @@ import { makeClassBlock, makeProfBlock } from './block/class.js';
 import makeCapstoneBlock from './block/altCapstone.js';
 import makeRoomBlock from './block/room.js';
 import makeClassSkillsAbilityBlock from './block/cskill.js';
+import makeRacialTraitsBlock from './block/rtraits.js';
 import noteTags from './noteTags.js';
 
 const churn = (n, attrs, list, regex, logError) => {
@@ -568,6 +569,15 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				const marked2 = makeNewMarkedInstance();
 				const id = prefix + makeValidID(text + "-team");
 				return makeRoomBlock({marked2, convertEncodedInfo, id, maybeClear, text, attrs, logError, team: true});
+			} else if (n === "rtraits") {
+				churn(n, attrs, [
+ 					"clear",
+					"plural", "main"
+				], [], logError);
+				const marked2 = makeNewMarkedInstance();
+				flags.duo = true;
+				const {plural, main} = attrs;
+				return makeRacialTraitsBlock({maybeClear, plural, main, convert: (x) => marked2.parseInline(convertEncodedInfo(x)), logError})
 			}
 			console.log(`Unknown block directive [::${n}]`);
 			return false;

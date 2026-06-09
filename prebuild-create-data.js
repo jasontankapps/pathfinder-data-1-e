@@ -1063,6 +1063,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 		`import Pair from '../../components/AbPair';`,
 		`import Ability from '../../components/Ability';`
 	);
+	groupFlags.duo && imports.push(`import Duo from '../../components/Duo';`);
 	groupFlags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
 	groupFlags.scrollcontainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
 	(groupFlags.innerlink || groupFlags.jumplist) && imports.push(`import InnerLink from '../../components/InnerLink';`);
