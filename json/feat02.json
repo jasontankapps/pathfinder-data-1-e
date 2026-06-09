@@ -45,7 +45,7 @@
 			"‹SOURCE Blood of the Moon/9›",
 			"",
 			"Your powers of transformation have been honed to the point where you can wholly become a bat.  ",
-			"**Prerequisites:** Cha 13, [werebat-kin](race/skinwalker).  ",
+			"**Prerequisites:** Cha 13, ‹race/werebat-kin›.  ",
 			"**Benefit:** You can take the form of a bat whose appearance is static and cannot be changed each time you assume this form. You gain a +10 racial bonus on Disguise checks to appear as a bat. Changing from werebat-kin to bat shape is a standard action. This ability otherwise functions as ‹spell/beast shape II›, and your ability scores change accordingly.",
 			"",
 			"If you wear a bat pelt, you may choose to adopt a form resembling the bat whose skin you wear instead of your normal bat form."
@@ -165,7 +165,7 @@
 			"‹SOURCE Blood of the Moon/11›",
 			"",
 			"You can crush your foes with your powerful arms.  ",
-			"**Prerequisites:** Str 17, ‹feat/Beartrap Bite›, ‹feat/Weapon Focus› (bite), base attack bonus +8.  ",
+			"**Prerequisites:** Str 17, ‹feat/Beartrap Bite›, ‹feat/Weapon Focus› (bite), base attack bonus +8, be ‹race/werebear-kin›, werebear, or someone who associates with these creatures.  ",
 			"**Benefit:** You can attempt to initiate a grapple against a foe trapped by your Beartrap Bite feat without provoking attacks of opportunity. You gain a +2 bonus on damage rolls against foes you are grappling."
 		]
 	},
@@ -191,7 +191,7 @@
 			"‹SOURCE Blood of the Moon/11›",
 			"",
 			"You can hold your foes even if you do not manage to grapple them.  ",
-			"**Prerequisites:** ‹feat/Weapon Focus› (bite), base attack bonus +6.  ",
+			"**Prerequisites:** ‹feat/Weapon Focus› (bite), base attack bonus +6, be ‹race/werebear-kin›, werebear, or someone who associates with these creatures.  ",
 			"**Benefit:** Whenever you confirm a critical hit against a foe with your bite attack, if your confirmation roll matches or exceeds your foe's CMD, you can clamp down on your foe to prevent it from moving away as a free action. The foe cannot move outside the area threatened by your bite attack unless it breaks free of your bite. It can attempt to free itself with a combat maneuver check or ‹skill/Escape Artist› check as if you were grappling it, but neither of you gains the grappled condition. You cannot use your bite attack while you maintain your grip on your foe, but you can release the bite as a swift action to end the effect."
 		]
 	},
@@ -1597,7 +1597,7 @@
 			"‹SOURCE Blood of the Moon/9›",
 			"",
 			"Your attunement to your werebat ancestry has allowed you to master a crude form of flight.  ",
-			"**Prerequisites:** Base attack bonus +5, [werebat-kin](race/skinwalker).  ",
+			"**Prerequisites:** Base attack bonus +5, ‹race/werebat-kin›.  ",
 			"**Benefit:** As an additional bestial feature, you can use your change shape ability to gain a fly speed of 30 feet with poor maneuverability if carrying a light load and wearing no armor or light armor, or a fly speed of 20 feet with clumsy maneuverability if carrying a medium or heavy load or wearing medium or heavy armor."
 		]
 	},
