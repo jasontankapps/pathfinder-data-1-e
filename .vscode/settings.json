@@ -9,9 +9,16 @@
 				"!src/json/*.json",
 				"!feat_tree_data.json",
 				"!sources.json",
-				"!colors.json"
+				"!colors.json",
+				"!race*.json"
 			],
 			"url": "./schema.json"
+		},
+		{
+			"fileMatch": [
+				"race*.json"
+			],
+			"url": "./schemaRaces.json"
 		},
 		{
 			"fileMatch": [

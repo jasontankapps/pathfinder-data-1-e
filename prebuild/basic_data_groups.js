@@ -788,6 +788,7 @@ const basic_data_groups = {
 	},
 	"races": {
 		data: race1,
+		datatype: "race",
 		searchgroup: 9, // race
 		link: "race",
 		num: 1,
@@ -795,6 +796,7 @@ const basic_data_groups = {
 	},
 	"races2": {
 		data: race2,
+		datatype: "race",
 		searchgroup: 9, // race
 		link: "race",
 		num: 2,
@@ -802,6 +804,7 @@ const basic_data_groups = {
 	},
 	"races3": {
 		data: race3,
+		datatype: "race",
 		searchgroup: 9, // race
 		link: "race",
 		num: 3,
@@ -809,6 +812,7 @@ const basic_data_groups = {
 	},
 	"races4": {
 		data: race4,
+		datatype: "race",
 		searchgroup: 9, // race
 		link: "race",
 		num: 4,

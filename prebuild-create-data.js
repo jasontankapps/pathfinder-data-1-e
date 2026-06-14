@@ -20,6 +20,7 @@ const logError = (...message) => {
 };
 
 // Handle implicit jumplists
+//   addToJumpList("menu text", "id", "possible other text from attrs.jl")
 const addToJumpList = (text, id, possibleText) => {
 	const jl = $.flags.implicitJumplist || [];
 	let newText = text;
@@ -502,6 +503,68 @@ const convertDescription = (temporaryFlags, dirtyDesc, prefix, tables, openTag =
 	// Return the parsed output, plus flags.
 	return [`<${openTag}>${removeCurlyBrackets(parsed)}</${closeTag}>`, flags];
 };
+const convertRace = (temporaryFlags, dirtyDesc, prefix, tables, subraces, alternates, prop) => {
+	const [d, f] = convertDescription(temporaryFlags, dirtyDesc, prefix, tables, "", "");
+
+	const m = d.match(/<p>‹race options›<[/]p>/m);
+
+	if(!m) {
+		// Nothing to do here.
+		return [d, f];
+	}
+
+	$.flags = {...f, block: true, race: true};
+	let flag = true;
+	const desc = d.split(/\n/).map(line => {
+		let m;
+		if(
+			flag
+			&& (m = line.match(
+				/^(.*<div className="jumpList" id="race-[^"]+-jumplist"><h2>Jump to:<[/]h2><ul>.*?)(<[/]ul><[/]div>.*$)/
+			))
+		) {
+			flag = true;
+			// Handle jumplist.
+			return `${m[1]}${
+				subraces ? (
+					`<li><InnerLink toTop to="${
+						prefix
+					}subraces">Subraces</InnerLink></li>`
+				) : ""
+			}${
+				alternates ? (
+					`<li><InnerLink toTop to="${
+						prefix
+					}alternate-racial-traits">Alternate Racial Traits</InnerLink></li>`
+				) : ""
+			}${
+				prop !== "sahuagin" ? (
+					`<li><InnerLink toTop to="${
+						prefix
+					}favored-class-options">Favored Class Options</InnerLink></li>`
+				) : ""
+			}${m[2]}`;
+		} else if(line !== "<p>‹race options›</p>") {
+			return line;
+		}
+		// Add RacialOptions element
+		const ddd = `<RacialOptions ${
+			subraces ? `subraces={[${
+				subraces.map(sub => {
+					const {title, sources, description} = sub;
+					return `[${JSON.stringify(title)},${JSON.stringify(sources)},<>${description.join("")}</>]`;
+				}).join(",")
+			}]} ` : ""
+		}${
+			alternates ? `alternates={${JSON.stringify(alternates)}} ` : ""
+		}race="${prop}" prefix="${prefix}"/>`;
+
+		return ddd;
+	}).join("\n");
+
+	// Return the parsed output, plus flags.
+	return [desc, {...$.flags, block: true, race: true}];
+};
 
 // Convert compilation templates into descriptions
 const parseTemplate = (template, title, suffix, sourceText, d, split = true) => {
@@ -938,7 +1001,8 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 			tables, topLink, parent_topics,
 			subtopics, siblings, noFinder, className,
 			nameSuffix, compilationSources, redirect,
-			compileFrom, addenda, disambiguation, tree
+			compileFrom, addenda, disambiguation, tree,
+			subraces, alternates
 		} = base;
 		// Convert entities in tables
 		tables && entities_in_tables.forEach(([matcher, replacer, codepoint]) => {
@@ -988,6 +1052,26 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 						`${link}-${prop}-`,
 						compilationSources
 					);
+				}
+				break;
+			case "race":
+				info.title = n;
+				info.topLink = topLink;
+				if(!copyof && !redirect) {
+					if(d) {
+						converted = convertRace(
+							temporaryFlags,
+							d,
+							`${link}-${prop}-`,
+							tables,
+							subraces,
+							alternates,
+							prop
+						);
+					} else {
+						logError(`ERROR: ${link}/${prop} does not have a description.`);
+						converted = [ "ERROR: This entry has no description.", {} ];
+					}
 				}
 				break;
 			case "rule":
@@ -1063,6 +1147,8 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 		`import Pair from '../../components/AbPair';`,
 		`import Ability from '../../components/Ability';`
 	);
+	groupFlags.race && imports.push(`import RacialOptions from '../../components/RacialOptions';`);
+	groupFlags.block && imports.push(`import {Block,Row,Cell} from '../../components/Block';`);
 	groupFlags.duo && imports.push(`import Duo from '../../components/Duo';`);
 	groupFlags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
 	groupFlags.scrollcontainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);

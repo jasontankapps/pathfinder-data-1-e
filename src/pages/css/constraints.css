@@ -27,7 +27,7 @@
 }
 
 .constraintXS ion-item:not(.mainItem) :is(ion-label, ion-label p),
-.constraintXS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
+.constraintXS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table), table.p) {
 	max-width: 20rem;
 }
 .constraintXS .subAbility {
@@ -35,7 +35,7 @@
 }
 
 .constraintS :is(ion-label,ion-label > p),
-.constraintS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
+.constraintS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table), table.p) {
 	max-width: 30rem;
 }
 .constraintS .subAbility {
@@ -43,7 +43,7 @@
 }
 
 .constraintM :is(ion-label,ion-label > p),
-.constraintM div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
+.constraintM div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table), table.p) {
 	max-width: 40rem;
 }
 .constraintM .subAbility {
@@ -51,7 +51,7 @@
 }
 
 .constraintL :is(ion-label,ion-label > p),
-.constraintL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
+.constraintL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table), table.p) {
 	max-width: 50rem;
 }
 .constraintL .subAbility {
@@ -59,7 +59,7 @@
 }
 
 .constraintXL :is(ion-label,ion-label > p),
-.constraintXL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar), table.p) {
+.constraintXL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table), table.p) {
 	max-width: 60rem;
 }
 .constraintXL .subAbility {

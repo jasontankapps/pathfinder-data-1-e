@@ -1137,6 +1137,827 @@ const _turn = {title: "Turn", topLink: ["Common Terms","rule/common_terms"], jsx
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 13</Link></p>
 <p>In a <Link to="/misc/round">round</Link>, a <Link to="/misc/creature">creature</Link> receives one turn, during which it can perform a wide variety of <Link to="/misc/action">actions</Link>. Generally in the course of one turn, a character can perform one standard action, one move action, one swift action, and a number of free actions. Less-common combinations of actions are permissible as well, see <Link to="/rule/actions_in_combat">Actions in Combat</Link> for more details.</p>
 </>};
+const _variant_aasimar_abilities = {title: "Variant Aasimar Abilities", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels pg. 18</Link><br/>Some aasimars are blessed or cursed with unusual abilities. GMs may customize their aasimar NPCs using the following chart, or allow their players to do so by rolling a d%. Players with a particular character concept in mind may consult their GM if they want to select a specific variant ability. The abilities presented here replace an aasimar's spell-like ability racial trait. Any abilities that grant spells or spell-like abilities are treated as having a caster level equal to the aasimar's character level.</p>
+<ScrollContainer id="misc-variant_aasimar_abilities--table-0"><table>
+<thead>
+<tr>
+<th>d%</th>
+<th>Abilities</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>You can channel 1d6 points of positive energy once per day as a supernatural ability.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3/day as a spell-like ability, you can lay hands on a creature and heal them of 1 point of damage (or deal 1 point of positive energy damage to an undead creature). Treat this as a 0-level spell that uses Charisma as spellcasting stat, and your character level as caster level.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>As a move action, you can manifest or dismiss a halo around your head that sheds colored light as a torch.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Once per day, you can drink a flask of holy water to heal 1d6 hit points.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>You gain a +4 racial bonus on Knowledge (religion) checks pertaining to a deity of your choice.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>You possess taloned fingers that act as natural weapons and deal 1d4 points of damage.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>You gain DR 2/evil.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>You use your Charisma score instead of your Constitution score to determine how many rounds you can <Link to="/misc/hold_your_breath">hold your breath</Link>.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>You gain an additional +2 racial bonus to your Strength score.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>You can subsist entirely on honey and wine.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>You can breathe both thin and stale air without ill effects, and you never suffer from <Link to="/rule/altitude_sickness">altitude sickness</Link>.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>You have a natural swim speed of 20 feet.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>You gain a +2 racial bonus on attack rolls made to confirm critical hits against evil outsiders.</td>
+</tr>
+<tr>
+<td>14</td>
+<td>You possess the <Link to="/umr/unnatural_aura">unnatural aura</Link> universal monster ability, except the DC to make animals come near you is equal to 10 + 1/2 your character level + your Charisma modifier.</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Once per day, when you are at 0 hit points, you can take a full round of actions without losing a hit point and falling unconscious.</td>
+</tr>
+<tr>
+<td>16</td>
+<td>You display exceptional grace and easily keep your balance. You gain a +2 racial bonus on Acrobatics checks.</td>
+</tr>
+<tr>
+<td>17</td>
+<td>You can cast <Link to="/spell/spear_of_purity">spear of purity</Link> once per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>18</td>
+<td>You gain a +2 racial bonus on saving throws made against poison.</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Once you've reached adulthood, you never appear to age, although you take aging penalties normally and die when it is your time.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>You gain an additional +2 racial bonus to your Dexterity score.</td>
+</tr>
+<tr>
+<td>21</td>
+<td>You can manipulate any metal armor you wear, causing it to appear to be made of shining silver or gold. This illusion lasts only as long as you wear your armor.</td>
+</tr>
+<tr>
+<td>22</td>
+<td>You gain a +1 racial bonus on Will saves.</td>
+</tr>
+<tr>
+<td>23</td>
+<td>You can cast <Link to="/spell/create_water">create water</Link> three times per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>24</td>
+<td>You gain sonic resistance 5.</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Once per day, you can exhibit a burst of speed, moving as if your base land speed were 50 feet for 1 round.</td>
+</tr>
+<tr>
+<td>26</td>
+<td>You gain a +2 dodge bonus to AC against attacks of opportunity made by creatures of the human subtype.</td>
+</tr>
+<tr>
+<td>27</td>
+<td>You have a knack for creating high-quality objects. You gain a +2 racial bonus on any one kind of Craft check.</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Once per day, for 1 minute, you can understand and be understood by any creature as though using <Link to="/spell/tongues">tongues</Link>.</td>
+</tr>
+<tr>
+<td>29</td>
+<td>You gain a +2 racial bonus on initiative checks during the day.</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Pick one weapon that normally deals lethal damage. You can deal nonlethal damage with that weapon without the usual -4 penalty on your attack rolls.</td>
+</tr>
+<tr>
+<td>31</td>
+<td>You gain a +2 racial bonus on saving throws against charm effects.</td>
+</tr>
+<tr>
+<td>32</td>
+<td>You can cast <Link to="/spell/shield_other">shield other</Link> once per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>33</td>
+<td>When coins or other small metal objects pass through your hands, they become perfectly clean and shiny again.</td>
+</tr>
+<tr>
+<td>34</td>
+<td>You gain a +2 dodge bonus to your AC against attacks of opportunity from evil outsiders or undead.</td>
+</tr>
+<tr>
+<td>35</td>
+<td>You can cast <Link to="/spell/aid">aid</Link> once per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Nonmagical insects never bite or sting you unless magically compelled to do so.</td>
+</tr>
+<tr>
+<td>37</td>
+<td>You gain a +2 racial bonus on checks made with any one Perform skill.</td>
+</tr>
+<tr>
+<td>38</td>
+<td>Once per day, you can generate a glowing aura that emanates in a 20-foot radius centered on you. Any creature within the aura that is at negative hit points stabilizes immediately. The aura lasts for 1 round.</td>
+</tr>
+<tr>
+<td>39</td>
+<td>You can mimic the sound of any animal perfectly.</td>
+</tr>
+<tr>
+<td>40</td>
+<td>You gain an additional +2 racial bonus to your Intelligence score.</td>
+</tr>
+<tr>
+<td>41</td>
+<td>Three times per day, you can sing for 10 minutes to put one willing creature to sleep. Any creature that falls asleep to the sound of your song is protected from <Link to="/spell/nightmare">nightmare</Link> and similar spells for the duration of its rest.</td>
+</tr>
+<tr>
+<td>42</td>
+<td>Whenever you successfully use the aid another action to help someone make a skill check, you grant a +3 bonus instead of +2.</td>
+</tr>
+<tr>
+<td>43</td>
+<td>You gain a +2 racial bonus on saving throws made against fear effects.</td>
+</tr>
+<tr>
+<td>44</td>
+<td>If you stand atop a grave and meditate for 10 minutes, you learn the name of whoever lies buried below.</td>
+</tr>
+<tr>
+<td>45</td>
+<td>You have cat-like ears that grant you a +2 racial bonus on hearing-based Perception checks.</td>
+</tr>
+<tr>
+<td>46</td>
+<td>Once per day, you can breathe frosty air in a 10-foot cone. This acts as a breath weapon that deals a number of points of cold damage equal to 1d4 + 1/2 your level, to a maximum of 1d4+5.</td>
+</tr>
+<tr>
+<td>47</td>
+<td>You feel sick to your stomach and take a -1 penalty on ability checks when within 30 feet of an evil outsider.</td>
+</tr>
+<tr>
+<td>48</td>
+<td>You can cast <Link to="/spell/weapon_of_awe">weapon of awe</Link> once per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>49</td>
+<td>You gain a +1 racial bonus on Reflex saves.</td>
+</tr>
+<tr>
+<td>50</td>
+<td>You gain an additional +2 racial bonus to your Wisdom score.</td>
+</tr>
+<tr>
+<td>51</td>
+<td>You can make fruit ripen with a touch.</td>
+</tr>
+<tr>
+<td>52</td>
+<td>You can understand any written material as though under the effects of <Link to="/spell/comprehend_languages">comprehend languages</Link>.</td>
+</tr>
+<tr>
+<td>53</td>
+<td>You gain a +2 racial bonus to your CMD.</td>
+</tr>
+<tr>
+<td>54</td>
+<td>You gain a +2 racial bonus on saving throws against spells and effects that would cause you to become dazzled.</td>
+</tr>
+<tr>
+<td>55</td>
+<td>You can cast <Link to="/spell/augury">augury</Link> once per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>56</td>
+<td>You can cast <Link to="/spell/zone_of_truth">zone of truth</Link> once per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>57</td>
+<td>You gain a +2 racial bonus on Heal checks.</td>
+</tr>
+<tr>
+<td>58</td>
+<td>Any creature that bites you must succeed at a DC 12 Fortitude save or become sickened for 1d4 rounds.</td>
+</tr>
+<tr>
+<td>59</td>
+<td>Any good creature you call via <Link to="/spell/summon_monster">summon monster</Link> remains for 3 rounds longer than usual.</td>
+</tr>
+<tr>
+<td>60</td>
+<td>You always know the current position of the sun.</td>
+</tr>
+<tr>
+<td>61</td>
+<td>You gain a +1 racial bonus on attack and damage rolls against evil outsiders.</td>
+</tr>
+<tr>
+<td>62</td>
+<td>You gain a +4 racial bonus on saving throws to remove any temporary negative levels you possess.</td>
+</tr>
+<tr>
+<td>63</td>
+<td>You have a strong and stable build. You gain a +2 racial bonus to CMD against bull rush and trip attempts.</td>
+</tr>
+<tr>
+<td>64</td>
+<td>You gain a +4 racial bonus on Intimidate checks made to demoralize foes.</td>
+</tr>
+<tr>
+<td>65</td>
+<td>Once per day as a full-round action, you can summon a silver holy symbol out of thin air. The holy symbol remains in existence for 1 hour or until you drop it.</td>
+</tr>
+<tr>
+<td>66</td>
+<td>You are immune to undead creatures' create spawn special ability.</td>
+</tr>
+<tr>
+<td>67</td>
+<td>You gain a +2 racial bonus on Sense Motive checks.</td>
+</tr>
+<tr>
+<td>68</td>
+<td>You can cast <Link to="/spell/whispering_wind">whispering wind</Link> once per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>69</td>
+<td>Your tears cure disease. You can cast <Link to="/spell/remove_disease">remove disease</Link> once per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>70</td>
+<td>You gain an additional +2 racial bonus to your Constitution score.</td>
+</tr>
+<tr>
+<td>71</td>
+<td>You gain sustenance from sunlight. Standing in direct sunlight for half an hour nourishes you as though you had just eaten a hearty meal. You still need to drink water.</td>
+</tr>
+<tr>
+<td>72</td>
+<td>You gain spell resistance equal to 10 + 1/2 your Hit Dice.</td>
+</tr>
+<tr>
+<td>73</td>
+<td>If your body is placed on consecrated ground and prayers to your deity are recited continuously for 24 hours, you return to life as if by a <Link to="/spell/raise_dead">raise dead</Link> spell. This ability works 1d4 times in your lifetime.</td>
+</tr>
+<tr>
+<td>74</td>
+<td>Your kiss invigorates others. Once per day, you can kiss a creature to change its condition from exhausted to fatigued, or from fatigued to normal.</td>
+</tr>
+<tr>
+<td>75</td>
+<td>You can sense when a creature is pregnant by standing within 10 feet of the creature.</td>
+</tr>
+<tr>
+<td>76</td>
+<td>You gain a +2 racial bonus on saving throws made against curses.</td>
+</tr>
+<tr>
+<td>77</td>
+<td>You gain a +2 racial bonus on Knowledge (planes) checks.</td>
+</tr>
+<tr>
+<td>78</td>
+<td>You are always comfortably warm. You gain a +4 racial bonus to resist environmental cold effects.</td>
+</tr>
+<tr>
+<td>79</td>
+<td>You always know the current position of the stars.</td>
+</tr>
+<tr>
+<td>80</td>
+<td>You gain fire resistance 5.</td>
+</tr>
+<tr>
+<td>81</td>
+<td>You heal double the normal amount of hit points while resting.</td>
+</tr>
+<tr>
+<td>82</td>
+<td>You can cast <Link to="/spell/mending">mending</Link> three times per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>83</td>
+<td>You feel energized and gain a +1 racial bonus on ability checks while you are within 30 feet of a good outsider.</td>
+</tr>
+<tr>
+<td>84</td>
+<td>You gain a +4 racial bonus to resist environmental heat effects.</td>
+</tr>
+<tr>
+<td>85</td>
+<td>When targeted by <Link to="/spell/lesser_restoration">lesser restoration</Link> or another spell or effect that cures temporary ability damage, you heal an extra +1 point of temporary ability damage.</td>
+</tr>
+<tr>
+<td>86</td>
+<td>You can cast <Link to="/spell/blessing_of_courage_and_life">blessing of courage and life</Link> once per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>87</td>
+<td>You gain a +2 racial bonus on Handle Animal and Ride checks.</td>
+</tr>
+<tr>
+<td>88</td>
+<td>Once per day as a move action, you can make a melee weapon you are wielding <Link to="/magic-enh/holy">holy</Link>. The enchantment lasts for 3 rounds or until you drop or give away your weapon.</td>
+</tr>
+<tr>
+<td>89</td>
+<td>You gain a +2 racial bonus on saving throws made against disease.</td>
+</tr>
+<tr>
+<td>90</td>
+<td>You gain an additional +2 racial bonus to your Charisma score.</td>
+</tr>
+<tr>
+<td>91</td>
+<td>If you die, your body can never be reanimated as an undead creature.</td>
+</tr>
+<tr>
+<td>92</td>
+<td>You gain a +1 racial bonus on Fortitude saves.</td>
+</tr>
+<tr>
+<td>93</td>
+<td>You can summon a <Link to="/monster/lantern_archon">lantern archon</Link> once per day as though by <Link to="/spell/summon_monster_iii">summon monster III</Link>.</td>
+</tr>
+<tr>
+<td>94</td>
+<td>You can speak to horses and other equine animals.</td>
+</tr>
+<tr>
+<td>95</td>
+<td>You gain a +2 racial bonus on Diplomacy checks.</td>
+</tr>
+<tr>
+<td>96</td>
+<td>You gain a +2 racial bonus on Use Magic Device checks.</td>
+</tr>
+<tr>
+<td>97</td>
+<td>You gain DR 2/magic.</td>
+</tr>
+<tr>
+<td>98</td>
+<td>You can cast <Link to="/spell/compassionate_ally">compassionate ally</Link> once per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>99</td>
+<td>You have a natural fly speed of 20 feet (poor).</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Roll on this table twice, ignoring any further rolls of 100.</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
+const _variant_tiefling_abilities = {title: "Variant Tiefling Abilities", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends pg. 16</Link><br/>Some tieflings are blessed or cursed with unusual abilities. GMs may customize their tiefling NPCs using the following chart, or allow their players to do so by rolling a d%. Players with a particular character concept in mind may consult their GM if they want to select a specific variant ability.</p>
+<p>The abilities presented here replace a tiefling's spell-like ability racial trait. Any abilities that grant spells or spell-like abilities are treated as having a caster level equal to the tiefling's character level.</p>
+<ScrollContainer id="misc-variant_tiefling_abilities--table-0"><table>
+<thead>
+<tr>
+<th>d%</th>
+<th>Ability</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>You can animate a 1 HD skeleton, as per <Link to="/spell/animate_dead">animate dead</Link>, once per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>You possess some type of extrasensory organ, granting you all-around vision.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>You enjoy being cut. The first time each day you take slashing damage, you gain a +1 bonus on attack and damage rolls for the following round.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>You can use <Link to="/spell/mage_hand">mage hand</Link> three times per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Inherited memories grant you a +2 racial bonus on one Knowledge skill of your choice.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>You can <Link to="/spell/levitate">levitate</Link> yourself plus 10 pounds at will, as per the spell. This is a supernatural ability.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>You can eat and gain nourishment from ash, cinders, dust, and sand.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>You gain a +1 bonus on all attack and damage rolls against good-aligned outsiders.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>You gain an additional +2 racial bonus to your Charisma score.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>You possess a bite that is treated as a natural weapon and deals 1d4 points of damage.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Once per day, you can exhibit a burst of speed, moving as if your base land speed were 50 feet for one move action.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>You do not need to sleep. You are not immune to sleep effects.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>You gain a +2 bonus on saving throws made against disease.</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Your base land speed increases by +5 feet.</td>
+</tr>
+<tr>
+<td>15</td>
+<td>You possess a fiendishly cunning tongue, granting you a +2 racial bonus on all Diplomacy checks.</td>
+</tr>
+<tr>
+<td>16</td>
+<td>You have oversized limbs, allowing you to use Large weapons without penalty.</td>
+</tr>
+<tr>
+<td>17</td>
+<td>You possess claws that are treated as natural weapons and deal 1d4 points of damage.</td>
+</tr>
+<tr>
+<td>18</td>
+<td>You gain DR 2/bludgeoning.</td>
+</tr>
+<tr>
+<td>19</td>
+<td>You gain a Swim speed of 30 feet.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>You gain a +2 racial bonus on combat maneuver checks.</td>
+</tr>
+<tr>
+<td>21</td>
+<td>You possess fiendish luck. Once per day, you can reroll one die roll. You must take the result of this second roll.</td>
+</tr>
+<tr>
+<td>22</td>
+<td>You can use <Link to="/spell/detect_evil">detect evil</Link>, as per the spell, three times per day.</td>
+</tr>
+<tr>
+<td>23</td>
+<td>You never need to drink to survive.</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Once per day, you can produce a sharp barb from your body. This barb is removable and is treated as a dagger.</td>
+</tr>
+<tr>
+<td>25</td>
+<td>You gain acid resistance 5.</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Your body produces intense, searing heat. Any creature that grapples you takes 1d4 points of fire damage per round.</td>
+</tr>
+<tr>
+<td>27</td>
+<td>You can speak two additional <Link to="/misc/languages">languages</Link> spoken by extraplanar beings.</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Any evil creature you call via summon monster remains for 3 rounds longer than usual.</td>
+</tr>
+<tr>
+<td>29</td>
+<td>You gain a +1 bonus on all Reflex saving throws.</td>
+</tr>
+<tr>
+<td>30</td>
+<td>You can alter your shadow to make it appear as that of any creature or object of your size or smaller.</td>
+</tr>
+<tr>
+<td>31</td>
+<td>You can burrow through dirt, sand, and loose gravel at a rate of 5 feet per round.</td>
+</tr>
+<tr>
+<td>32</td>
+<td>You can sense weakness, granting you a +1 bonus on all rolls to confirm critical hits.</td>
+</tr>
+<tr>
+<td>33</td>
+<td>You gain DR 2/silver.</td>
+</tr>
+<tr>
+<td>34</td>
+<td>You do not lose consciousness until you are reduced to -5 hit points.</td>
+</tr>
+<tr>
+<td>35</td>
+<td>You possess long limbs and a powerful grip, features that grant you a +2 racial bonus on all Climb checks.</td>
+</tr>
+<tr>
+<td>36</td>
+<td>You can communicate telepathically with any sentient creature with which you are in contact.</td>
+</tr>
+<tr>
+<td>37</td>
+<td>Once per day, you can use <Link to="/spell/death_knell">death knell</Link> as a spell-like ability.</td>
+</tr>
+<tr>
+<td>38</td>
+<td>At will, you can spend a full-round action concentrating to receive the benefits of tremorsense 60 feet for 1 round.</td>
+</tr>
+<tr>
+<td>39</td>
+<td>Once per day, you can move at double your normal speed for 1 round.</td>
+</tr>
+<tr>
+<td>40</td>
+<td>As a full-round action, you can bleed and collect 5 sp worth of precious blood per day.</td>
+</tr>
+<tr>
+<td>41</td>
+<td>You possess spell resistance equal to 10 + 1/2 your Hit Dice.</td>
+</tr>
+<tr>
+<td>42</td>
+<td>The spell <Link to="/spell/animate_dead">animate dead</Link> can return you to life as per the spell <Link to="/spell/raise_dead">raise dead</Link> 1d4 times.</td>
+</tr>
+<tr>
+<td>43</td>
+<td>Your fiendish sorcery ability treats your Charisma score as if it were 3 points higher instead of 2.</td>
+</tr>
+<tr>
+<td>44</td>
+<td>You are unusually short, granting you all the standard traits of a Small creature.</td>
+</tr>
+<tr>
+<td>45</td>
+<td>Your features are subtly malleable, granting you a +2 racial bonus on all Disguise checks.</td>
+</tr>
+<tr>
+<td>46</td>
+<td>You gain an additional +2 racial bonus to your Intelligence score.</td>
+</tr>
+<tr>
+<td>47</td>
+<td>You can use <Link to="/spell/curse_water">curse water</Link> three times per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>48</td>
+<td>You are invisible to all unintelligent undead. This is a supernatural ability.</td>
+</tr>
+<tr>
+<td>49</td>
+<td>You are healed by both positive and negative channeled energy.</td>
+</tr>
+<tr>
+<td>50</td>
+<td>Your skin is unnaturally tough, granting you a +1 natural bonus to your AC.</td>
+</tr>
+<tr>
+<td>51</td>
+<td>You can speak to all birds.</td>
+</tr>
+<tr>
+<td>52</td>
+<td>You gain a +2 bonus on saving throws against poison.</td>
+</tr>
+<tr>
+<td>53</td>
+<td>You possess the scent special ability.</td>
+</tr>
+<tr>
+<td>54</td>
+<td>You gain DR 2/piercing.</td>
+</tr>
+<tr>
+<td>55</td>
+<td>You are unnaturally sly, granting you a +2 racial bonus on all Sleight of Hands checks.</td>
+</tr>
+<tr>
+<td>56</td>
+<td>Once per day, you can spit acid. This glob deals 1d4 points of acid damage and has a range increment of 5 feet.</td>
+</tr>
+<tr>
+<td>57</td>
+<td>Your body exudes painfully freezing cold. Any creature that grapples you takes 1d4 points of cold damage per round.</td>
+</tr>
+<tr>
+<td>58</td>
+<td>You heal yourself of double the normal amount of damage by resting.</td>
+</tr>
+<tr>
+<td>59</td>
+<td>You gain a +1 bonus on all Will saving throws.</td>
+</tr>
+<tr>
+<td>60</td>
+<td>You gain a +2 bonus on initiative checks at night.</td>
+</tr>
+<tr>
+<td>61</td>
+<td>You can manipulate any armor, gauntlets, or shield you wield, causing them to grow spikes. These spikes last only as long as you wear your armor.</td>
+</tr>
+<tr>
+<td>62</td>
+<td>You can use <Link to="/spell/deathwatch">deathwatch</Link> three times per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>63</td>
+<td>You have some manner of inhuman sensory organ. You gain a +2 bonus on saving throws against all gaze attacks.</td>
+</tr>
+<tr>
+<td>64</td>
+<td>Once per day, for 1 round, you may see through any substance less than 5 feet thick - except for lead - as if it were glass. This is a supernatural ability.</td>
+</tr>
+<tr>
+<td>65</td>
+<td>Your strange physiology grants you a +2 racial bonus on all Acrobatics checks.</td>
+</tr>
+<tr>
+<td>66</td>
+<td>You can drink and gain nourishment from ash, cinders, dust, and sand.</td>
+</tr>
+<tr>
+<td>67</td>
+<td>Your eyes glow fiendishly and you possess the <Link to="/umr/see_in_darkness">see in darkness</Link> ability as if you were a devil.</td>
+</tr>
+<tr>
+<td>68</td>
+<td>You gain damage reduction 2/cold iron.</td>
+</tr>
+<tr>
+<td>69</td>
+<td>Once per day, you can use <Link to="/spell/fog_cloud">fog cloud</Link> as a spell-like ability.</td>
+</tr>
+<tr>
+<td>70</td>
+<td>You are aware of and can choose the result of any attempt to detect your alignment.</td>
+</tr>
+<tr>
+<td>71</td>
+<td>Once per day, you can spend a full-round action eating from a corpse to regain 1d6+1 hit points.</td>
+</tr>
+<tr>
+<td>72</td>
+<td>You can communicate telepathically with any evil creature within 50 feet.</td>
+</tr>
+<tr>
+<td>73</td>
+<td>You can use <Link to="/spell/minor_image">minor image</Link> three times per day as a spell-like ability.</td>
+</tr>
+<tr>
+<td>74</td>
+<td>Once per day, as a spell-like ability, you can animate a Small or smaller object for a number of rounds equal to your level. Treat this object as an <Link to="/spell/animate_objects">animated object</Link>.</td>
+</tr>
+<tr>
+<td>75</td>
+<td>You gain sonic resistance 5.</td>
+</tr>
+<tr>
+<td>76</td>
+<td>You can <Link to="/misc/hold_your_breath">hold your breath</Link> for 3 rounds longer than normal.</td>
+</tr>
+<tr>
+<td>77</td>
+<td>You can speak to insects.</td>
+</tr>
+<tr>
+<td>78</td>
+<td>Your skin is spiky. Any creature that attempts to grapple you takes 1d4 points of damage.</td>
+</tr>
+<tr>
+<td>79</td>
+<td>You receive a +1 bonus on all Fortitude saving throws.</td>
+</tr>
+<tr>
+<td>80</td>
+<td>You gain a +2 bonus to your CMD.</td>
+</tr>
+<tr>
+<td>81</td>
+<td>Once per day, you can use <Link to="/spell/rage">rage</Link> on yourself as a spell-like ability.</td>
+</tr>
+<tr>
+<td>82</td>
+<td>You gain a +2 bonus on saving throws against mind-affecting effects.</td>
+</tr>
+<tr>
+<td>83</td>
+<td>Once per day, exposure to fire heals you of 1d6 points of damage. This ability does not negate fire damage.</td>
+</tr>
+<tr>
+<td>84</td>
+<td>You are immune to magic sleep and paralysis effects.</td>
+</tr>
+<tr>
+<td>85</td>
+<td>Supernatural awareness grants you a +2 racial bonus on all Perception checks.</td>
+</tr>
+<tr>
+<td>86</td>
+<td>Your anatomy is slightly unusual, giving you a 15% chance to ignore critical hits made against you.</td>
+</tr>
+<tr>
+<td>87</td>
+<td>You can survive on one-quarter the amount of food and water a human requires.</td>
+</tr>
+<tr>
+<td>88</td>
+<td>Any damage you deal with a melee weapon is treated as evil for the purposes of overcoming damage reduction.</td>
+</tr>
+<tr>
+<td>89</td>
+<td>Once per day, you can use <Link to="/spell/inflict_light_wounds">inflict light wounds</Link> as a spell-like ability.</td>
+</tr>
+<tr>
+<td>90</td>
+<td>You gain an additional +2 racial bonus to your Wisdom score.</td>
+</tr>
+<tr>
+<td>91</td>
+<td>You gain DR 2/slashing.</td>
+</tr>
+<tr>
+<td>92</td>
+<td>You can see creatures on the Ethereal Plane.</td>
+</tr>
+<tr>
+<td>93</td>
+<td>Once per day, you may ask a corpse one yes-or-no question, as per the spell <Link to="/spell/speak_with_dead">speak with dead</Link>. This is a spell-like ability.</td>
+</tr>
+<tr>
+<td>94</td>
+<td>You gain a +2 bonus on saving throws against nausea.</td>
+</tr>
+<tr>
+<td>95</td>
+<td>You are flexible and slightly slimy, and thus gain a +2 racial bonus on all Escape Artist checks.</td>
+</tr>
+<tr>
+<td>96</td>
+<td>You can use <Link to="/spell/ventriloquism">ventriloquism</Link> at will as a spell-like ability.</td>
+</tr>
+<tr>
+<td>97</td>
+<td>Once per day as a standard action, you may suppress your unusual tiefling physical features for a number of minutes equal to your Con modifier, thus appearing human.</td>
+</tr>
+<tr>
+<td>98</td>
+<td>You receive +1 bonus hit point per level.</td>
+</tr>
+<tr>
+<td>99</td>
+<td>Once per week, you may mentally contact a fiendish ancestor to gain information, as per the spell <Link to="/spell/commune">commune</Link>. This is a spell-like ability.</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Roll on this table twice, ignoring any further rolls of 100.</td>
+</tr>
+</tbody></table></ScrollContainer>
+</>};
 const _spread = {..._burst, title: "Spread"};
 const _emanation = {..._burst, title: "Emanation"};
-export default {not_found:_not_found,blinded:_blinded,confused:_confused,dazed:_dazed,dazzled:_dazzled,deafened:_deafened,fascinated:_fascinated,helpless:_helpless,staggered:_staggered,stunned:_stunned,unconscious:_unconscious,dead:_dead,disabled:_disabled,dying:_dying,stable:_stable,exhausted:_exhausted,fatigued:_fatigued,cowering:_cowering,frightened:_frightened,panicked:_panicked,shaken:_shaken,sickened:_sickened,nauseated:_nauseated,improvised_weapons:_improvised_weapons,damage_die_adjustments:_damage_die_adjustments,weapon_size:_weapon_size,burst:_burst,blocking:_blocking,brace:_brace,broken:_broken,deadly:_deadly,disarm:_disarm,distracting:_distracting,double:_double,fragile:_fragile,grapple:_grapple,monk:_monk,nonlethal:_nonlethal,performance:_performance,reach:_reach,sunder:_sunder,trip:_trip,automatic:_automatic,semi_automatic:_semi_automatic,slow_firing:_slow_firing,touch:_touch,scatter:_scatter,alchemical_burn:_alchemical_burn,alchemical_inspiration:_alchemical_inspiration,signal:_signal,squeezing:_squeezing,total_defense:_total_defense,fighting_defensively:_fighting_defensively,dismissible:_dismissible,hold_your_breath:_hold_your_breath,spell_completion:_spell_completion,spell_trigger:_spell_trigger,precision_damage:_precision_damage,languages:_languages,good_saves:_good_saves,alchemy_lab:_alchemy_lab,altar:_altar,animal_pen:_animal_pen,armory:_armory,artisans_workshop:_artisans_workshop,auditorium:_auditorium,ballroom:_ballroom,bar:_bar,bath:_bath,battle_ring:_battle_ring,bedroom:_bedroom,bell_tower:_bell_tower,book_repository:_book_repository,brewery:_brewery,bunks:_bunks,burial_ground:_burial_ground,cell:_cell,ceremonial_room:_ceremonial_room,classroom:_classroom,clockwork_shop:_clockwork_shop,common_room:_common_room,confessional:_confessional,courtyard:_courtyard,crypt:_crypt,defensive_wall:_defensive_wall,dock:_dock,dojo:_dojo,drawbridge:_drawbridge,escape_route:_escape_route,false_front:_false_front,farmland:_farmland,forge:_forge,game_room:_game_room,garden:_garden,gatehouse:_gatehouse,gauntlet:_gauntlet,greenhouse:_greenhouse,guard_post:_guard_post,habitat:_habitat,hatchery:_hatchery,infirmary:_infirmary,kitchen:_kitchen,labyrinth:_labyrinth,laundry:_laundry,lavatory:_lavatory,leather_workshop:_leather_workshop,lodging:_lodging,magical_repository:_magical_repository,mill_room:_mill_room,nursery:_nursery,observation_dome:_observation_dome,office:_office,pit:_pit,printer:_printer,reliquary:_reliquary,sanctum:_sanctum,sauna:_sauna,scriptorium:_scriptorium,scrying_room:_scrying_room,secret_room:_secret_room,sewer_access:_sewer_access,sewing_room:_sewing_room,shack:_shack,sitting_room:_sitting_room,sports_field:_sports_field,stall:_stall,statue:_statue,storage:_storage,storefront:_storefront,summmoning_chamber:_summmoning_chamber,throne_room:_throne_room,tollbooth:_tollbooth,torture_chamber:_torture_chamber,trap:_trap,trophy_room:_trophy_room,vault:_vault,war_room:_war_room,workstation:_workstation,acolyte:_acolyte,apprentice:_apprentice,archers:_archers,bureaucrats:_bureaucrats,cavalry:_cavalry,cavalry_archers:_cavalry_archers,craftspeople:_craftspeople,cutpurses:_cutpurses,drivers:_drivers,elite_archers:_elite_archers,elite_guards:_elite_guards,elite_soldiers:_elite_soldiers,guards:_guards,laborers:_laborers,lackeys:_lackeys,mage:_mage,priest:_priest,robbers:_robbers,sage:_sage,sailors:_sailors,scofflaws:_scofflaws,soldiers:_soldiers,fractions_and_rounding:_fractions_and_rounding,shield_bash:_shield_bash,magic_items_by_category:_magic_items_by_category,natural_20_natural_1:_natural_20_natural_1,ability_score:_ability_score,action:_action,alignment:_alignment,armor_class:_armor_class,base_attack_bonus:_base_attack_bonus,bonus:_bonus,caster_level:_caster_level,class:_class,check:_check,combat_maneuver:_combat_maneuver,combat_maneuver_bonus:_combat_maneuver_bonus,combat_maneuver_defense:_combat_maneuver_defense,concentration_check:_concentration_check,creature:_creature,damage_reduction:_damage_reduction,difficulty_class:_difficulty_class,extraordinary_abilities:_extraordinary_abilities,experience_points:_experience_points,feat:_feat,game_master:_game_master,hit_dice:_hit_dice,hit_points:_hit_points,initiative:_initiative,level:_level,monster:_monster,multiplying:_multiplying,non_player_character:_non_player_character,penalty:_penalty,player_character:_player_character,round:_round,rounding:_rounding,saving_throw:_saving_throw,skill:_skill,spell:_spell,spell_like_abilities:_spell_like_abilities,spell_resistance:_spell_resistance,stacking:_stacking,supernatural_abilities:_supernatural_abilities,turn:_turn,spread:_spread,emanation:_emanation}
+export default {not_found:_not_found,blinded:_blinded,confused:_confused,dazed:_dazed,dazzled:_dazzled,deafened:_deafened,fascinated:_fascinated,helpless:_helpless,staggered:_staggered,stunned:_stunned,unconscious:_unconscious,dead:_dead,disabled:_disabled,dying:_dying,stable:_stable,exhausted:_exhausted,fatigued:_fatigued,cowering:_cowering,frightened:_frightened,panicked:_panicked,shaken:_shaken,sickened:_sickened,nauseated:_nauseated,improvised_weapons:_improvised_weapons,damage_die_adjustments:_damage_die_adjustments,weapon_size:_weapon_size,burst:_burst,blocking:_blocking,brace:_brace,broken:_broken,deadly:_deadly,disarm:_disarm,distracting:_distracting,double:_double,fragile:_fragile,grapple:_grapple,monk:_monk,nonlethal:_nonlethal,performance:_performance,reach:_reach,sunder:_sunder,trip:_trip,automatic:_automatic,semi_automatic:_semi_automatic,slow_firing:_slow_firing,touch:_touch,scatter:_scatter,alchemical_burn:_alchemical_burn,alchemical_inspiration:_alchemical_inspiration,signal:_signal,squeezing:_squeezing,total_defense:_total_defense,fighting_defensively:_fighting_defensively,dismissible:_dismissible,hold_your_breath:_hold_your_breath,spell_completion:_spell_completion,spell_trigger:_spell_trigger,precision_damage:_precision_damage,languages:_languages,good_saves:_good_saves,alchemy_lab:_alchemy_lab,altar:_altar,animal_pen:_animal_pen,armory:_armory,artisans_workshop:_artisans_workshop,auditorium:_auditorium,ballroom:_ballroom,bar:_bar,bath:_bath,battle_ring:_battle_ring,bedroom:_bedroom,bell_tower:_bell_tower,book_repository:_book_repository,brewery:_brewery,bunks:_bunks,burial_ground:_burial_ground,cell:_cell,ceremonial_room:_ceremonial_room,classroom:_classroom,clockwork_shop:_clockwork_shop,common_room:_common_room,confessional:_confessional,courtyard:_courtyard,crypt:_crypt,defensive_wall:_defensive_wall,dock:_dock,dojo:_dojo,drawbridge:_drawbridge,escape_route:_escape_route,false_front:_false_front,farmland:_farmland,forge:_forge,game_room:_game_room,garden:_garden,gatehouse:_gatehouse,gauntlet:_gauntlet,greenhouse:_greenhouse,guard_post:_guard_post,habitat:_habitat,hatchery:_hatchery,infirmary:_infirmary,kitchen:_kitchen,labyrinth:_labyrinth,laundry:_laundry,lavatory:_lavatory,leather_workshop:_leather_workshop,lodging:_lodging,magical_repository:_magical_repository,mill_room:_mill_room,nursery:_nursery,observation_dome:_observation_dome,office:_office,pit:_pit,printer:_printer,reliquary:_reliquary,sanctum:_sanctum,sauna:_sauna,scriptorium:_scriptorium,scrying_room:_scrying_room,secret_room:_secret_room,sewer_access:_sewer_access,sewing_room:_sewing_room,shack:_shack,sitting_room:_sitting_room,sports_field:_sports_field,stall:_stall,statue:_statue,storage:_storage,storefront:_storefront,summmoning_chamber:_summmoning_chamber,throne_room:_throne_room,tollbooth:_tollbooth,torture_chamber:_torture_chamber,trap:_trap,trophy_room:_trophy_room,vault:_vault,war_room:_war_room,workstation:_workstation,acolyte:_acolyte,apprentice:_apprentice,archers:_archers,bureaucrats:_bureaucrats,cavalry:_cavalry,cavalry_archers:_cavalry_archers,craftspeople:_craftspeople,cutpurses:_cutpurses,drivers:_drivers,elite_archers:_elite_archers,elite_guards:_elite_guards,elite_soldiers:_elite_soldiers,guards:_guards,laborers:_laborers,lackeys:_lackeys,mage:_mage,priest:_priest,robbers:_robbers,sage:_sage,sailors:_sailors,scofflaws:_scofflaws,soldiers:_soldiers,fractions_and_rounding:_fractions_and_rounding,shield_bash:_shield_bash,magic_items_by_category:_magic_items_by_category,natural_20_natural_1:_natural_20_natural_1,ability_score:_ability_score,action:_action,alignment:_alignment,armor_class:_armor_class,base_attack_bonus:_base_attack_bonus,bonus:_bonus,caster_level:_caster_level,class:_class,check:_check,combat_maneuver:_combat_maneuver,combat_maneuver_bonus:_combat_maneuver_bonus,combat_maneuver_defense:_combat_maneuver_defense,concentration_check:_concentration_check,creature:_creature,damage_reduction:_damage_reduction,difficulty_class:_difficulty_class,extraordinary_abilities:_extraordinary_abilities,experience_points:_experience_points,feat:_feat,game_master:_game_master,hit_dice:_hit_dice,hit_points:_hit_points,initiative:_initiative,level:_level,monster:_monster,multiplying:_multiplying,non_player_character:_non_player_character,penalty:_penalty,player_character:_player_character,round:_round,rounding:_rounding,saving_throw:_saving_throw,skill:_skill,spell:_spell,spell_like_abilities:_spell_like_abilities,spell_resistance:_spell_resistance,stacking:_stacking,supernatural_abilities:_supernatural_abilities,turn:_turn,variant_aasimar_abilities:_variant_aasimar_abilities,variant_tiefling_abilities:_variant_tiefling_abilities,spread:_spread,emanation:_emanation}

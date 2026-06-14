@@ -83,6 +83,10 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					}</span><span>${ender}</span></Header>\n`;
 				}
 				return `${maybeClear}<Header${filler}>${text}</Header>\n`;
+			} else if (n === "classoptions") {
+				churn(n, attrs, ["cls", "clear"], [], logError);
+				flags.race = true;
+				return `${maybeClear}<RacialOptions cls="${attrs.cls}" prefix="${prefix}" />\n`
 			} else if (n === "sh") {
 				// Subheader
 				churn(n, attrs, ["clear"], [], logError);

@@ -1,0 +1,83 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://jasontank.net/races.pfdata.schema.json",
+	"title": "Pf Data 1e - Sources",
+	"description": "A collection of information about a specific part of the Pathfinder system.",
+	"$comment": "This is for races#?.json files",
+	"type": "object",
+	"patternProperties": {
+		"^[a-z_][a-z0-9_]*$": {
+			"type": "object",
+			"oneOf": [
+				{
+					"properties": {
+						"name": { "type": "string" },
+						"sources": {
+							"description": "An array of unique strings of any type.",
+							"type": "array",
+							"items": { "type": "string" },
+							"uniqueItems": true,
+							"unevaluatedItems": false
+						},
+						"description": {
+							"description": "An array of strings, but they must not have invalid directives.",
+							"type": "array",
+							"items": {
+								"type": "string",
+								"pattern": "^(?!::|;;|.+(::|;;;))|^(:::|;;;)$|>*(::[a-z][a-zA-Z0-9_]*(\\[[^{}\\]\\[]*\\])?|(:::|;;;)[a-z][a-zA-Z0-9_]*)(\\{[^{}\\]\\[]*\\})?$"
+							},
+							"unevaluatedItems": false
+						},
+						"subraces": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"title": {"type": "string"},
+									"sources": {
+										"type": "array",
+										"items": {
+											"type": "array",
+											"items": { "type": "integer" },
+											"minItems": 2,
+											"maxItems": 2
+										},
+										"unevaluatedItems": false
+									},
+									"description": {
+										"type": "array",
+										"items": { "type": "string" }
+									}
+								},
+								"required": ["title","sources","description"],
+								"unevaluatedProperties": false
+							},
+							"unevaluatedItems": false
+						},
+						"alternates": {
+							"type": "array",
+							"items": {
+								"type": "array",
+								"prefixItems": [
+									{ "type": "string" }
+								],
+								"items": { "type": "number" },
+								"minItems": 2
+							},
+							"unevaluatedItems": false
+						}
+					},
+					"required": [ "name", "description" ]
+				},
+				{
+					"properties": {
+						"redirect": { "type": "string" }
+					},
+					"required": [ "redirect" ]
+				}
+			],
+			"unevaluatedProperties": false
+		}
+	},
+	"unevaluatedProperties": false
+}
