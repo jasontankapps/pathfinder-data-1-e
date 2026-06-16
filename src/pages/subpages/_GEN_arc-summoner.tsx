@@ -1,78 +1,210 @@
-import Link from '../../components/Link';
+import {IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
+import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 const _blood_god_disciple = {title: "Blood God Disciple", jsx: <><h2 id="arc-summoner-blood_god_disciple-blood-god-disciple">Blood God Disciple</h2>
-<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 53</Link><br/>A <Link to="/race/half_orc">half-orc</Link> summoner who devotes himself to one of the bloody orc gods may believe his eidolon is an avatar of that god rather than a mere supernatural creature. A blood god disciple generally fights by the avatar's side and offers it blood sacrifices in exchange for martial prowess. A blood god disciple has the following class features.</p>
-<p><strong>Blood Feast (Su):</strong> At 1st level, a blood god disciple can feed a recently fallen foe to his eidolon, allowing the outsider to channel some of its power into the summoner. The eidolon must spend a standard action to eat some of the opponent, which must be a living, corporeal creature killed or knocked unconscious by the eidolon or summoner in the past minute. This eating deals damage to the target as if the eidolon had attacked it with one natural attack (typically a bite). The fallen creature must have at least half as many Hit Dice as the summoner. Once the feeding is complete, the summoner may manifest one 1-point evolution. This lasts for 1 minute. The <Link to="/ability/evolutions">evolution's</Link> effects use the summoner's Hit Dice and ability scores rather than the eidolon's. The blood god disciple can use this ability a number of times per day equal to 3 + his Charisma modifier. He may only apply one use of this ability at a time (using it a second time replaces any evolution manifested with this ability), and can only manifest evolutions his eidolon has.</p>
-<p>At 5th level, when the blood god disciple uses blood feast, he may manifest one 2-point evolution instead of a 1-point evolution. At 9th level, he may manifest up to two evolutions worth a total of 3 evolution points or fewer. At 13th level, he may manifest up to two evolutions worth a total of 4 evolution points or fewer. At 17th level, he may manifest up to three evolutions worth a total of 5 evolution points or fewer.</p>
-<p>This ability replaces the <strong className="hl">summon monster</strong> I, III, V, VII, and IX spell-like abilities.</p>
-<p><strong>Bloody Gift (Su):</strong> At 3rd level, when a blood god disciple uses blood feast to manifest an evolution, he may touch one ally and grant it that evolution as well. Each affected ally counts as one use per day of the blood feast ability. At 7th, 11th, 15th, and 19th level, the blood god disciple can affect an additional creature with this ability (each one counting as a use per day of blood feast). If the blood god disciple can manifest multiple evolutions per use of blood feast, his selected allies manifest these multiple evolutions as well.</p>
-<p>This ability replaces the <strong className="hl">summon monster II</strong> spell-like ability.</p>
-<p><strong>Avatar Gambit (Ex):</strong> At 7th level, when a blood god disciple dismisses his eidolon, he rages like a <Link to="/class/barbarian">barbarian</Link> for a number of rounds equal to half his summoner level (he may end this rage early just like a barbarian, but if he does so, any remaining rounds of rage from this ability are lost).</p>
-<p>This replaces the <strong className="hl">summon monster IV</strong> spell-like ability.</p>
-<p><strong>Rage Power (Ex):</strong> At 11th level and 15th level, a blood god disciple selects a barbarian <Link to="/ability/rage_powers">rage power</Link>, which he may use when raging (whether from the avatar gambit ability or actual barbarian rage).</p>
-<p>This replaces the <strong className="hl">summon monster VI and VIII</strong> spell-like abilities.</p>
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 53</Link><br/>A half-orc summoner who devotes himself to one of the bloody orc gods may believe his eidolon is an avatar of that god rather than a mere supernatural creature. A blood god disciple generally fights by the avatar's side and offers it blood sacrifices in exchange for martial prowess. A blood god disciple has the following class features.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-summoner-blood_god_disciple--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/half_orc">Half-orc</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-summoner-blood_god_disciple-blood-feast-su" icon={["upgrade"]}>
+<Pair single id="arc-summoner-blood_god_disciple-blood-feast-su">Blood Feast (Su)</Pair>
+<Pair hl title="Replaces">Summon monster I, III, V, VII, and IX spell-like abilities</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability"><p>A blood god disciple can feed a recently fallen foe to his eidolon, allowing the outsider to channel some of its power into the summoner. The eidolon must spend a <strong className="hl">standard action</strong> to eat some of the opponent, which must be a living, corporeal creature killed or knocked unconscious by the eidolon or summoner in the past minute. This eating deals damage to the target as if the eidolon had attacked it with one natural attack (typically a bite). The fallen creature must have at least half as many Hit Dice as the summoner.</p>
+<p>Once the feeding is complete, the summoner may manifest one 1-point evolution. This lasts for 1 minute. The <Link to="/ability/evolutions">evolution's</Link> effects use the summoner's Hit Dice and ability scores rather than the eidolon's.</p>
+<p>The blood god disciple may only apply one use of this ability at a time (using it a second time replaces any evolution manifested with this ability), and can only manifest evolutions his eidolon has.</p>
+</Pair>
+<Pair title="At 5th Level">When the blood god disciple uses <em>blood feast,</em> he may manifest one 2-point evolution instead of a 1-point evolution.</Pair>
+<Pair title="At 9th Level">He may manifest up to two evolutions worth a total of 3 evolution points or fewer.</Pair>
+<Pair title="At 13th Level">He may manifest up to two evolutions worth a total of 4 evolution points or fewer.</Pair>
+<Pair title="At 17th Level">He may manifest up to three evolutions worth a total of 5 evolution points or fewer.</Pair>
+</Ability>
+<Ability id="arc-summoner-blood_god_disciple-bloody-gift-su" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-blood_god_disciple-bloody-gift-su">Bloody Gift (Su)</Pair>
+<Pair hl title="Replaces">Summon monster II spell-like ability</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">When a blood god disciple uses <em>blood feast</em> to manifest an evolution, he may touch one ally and grant it that evolution as well. Each affected ally counts as one use per day of the <em>blood feast</em> ability.</Pair>
+<Pair title="At 7th Level">The blood god disciple can affect an additional creature with this ability (each one counting as a use per day of <em>blood feast</em>).</Pair>
+<Pair title="At 11th Level">He can affect an additional creature, following the rules above.</Pair>
+<Pair title="At 15th Level">He can affect an additional creature, following the rules above.</Pair>
+<Pair title="At 19th Level">He can affect an additional creature, following the rules above.</Pair>
+<Pair title="Special">If the blood god disciple can manifest multiple evolutions per use of <em>blood feast,</em> his selected allies manifest these multiple evolutions as well.</Pair>
+</Ability>
+<Ability id="arc-summoner-blood_god_disciple-avatar-gambit-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-blood_god_disciple-avatar-gambit-ex">Avatar Gambit (Ex)</Pair>
+<Pair hl title="Replaces">Summon monster IV spell-like ability</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">When a blood god disciple dismisses his eidolon, he <em>rages</em> like a <Link to="/class/barbarian">barbarian</Link> for a number of rounds equal to half his summoner level (he may end this <em>rage</em> early just like a barbarian, but if he does so, any remaining rounds of rage from this ability are lost).</Pair>
+</Ability>
+<Ability id="arc-summoner-blood_god_disciple-rage-ex" extraClasses="subAbility" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-summoner-blood_god_disciple-rage-ex" flavor="Relevant text from the barbarian ability.">Rage (Ex)</Pair>
+<Pair title="Free Action">You can enter (or end) a <em>rage.</em> You gain a +4 morale bonus to your Strength and Constitution, as well as a +2 morale bonus on Will saves. The increase to Constitution grants you 2 hit points per Hit Dice, but these disappear when the <em>rage</em> ends and are not lost first like <Link to="/rule/temporary_hit_points">temporary hit points</Link>.</Pair>
+<Pair title="Passive Ability">While in <em>rage,</em> you take a -2 penalty to Armor Class, and you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration. You are <Link to="/misc/fatigued">fatigued</Link> after <em>rage</em> for a number of rounds equal to 2 times the number of rounds spent in the <em>rage.</em> You cannot enter a new <em>rage</em> while fatigued or <Link to="/misc/exhausted">exhausted</Link> but can otherwise enter <em>rage</em> multiple times during a single encounter or combat. If you fall unconscious, your <em>rage</em> immediately ends, placing you in peril of death.</Pair>
+<Pair title="Special">Temporary increases to Constitution, such as those gained from <em>rage</em> and spells like <Link to="/spell/bears_endurance">bear's endurance</Link>, do not increase the total number of rounds that a barbarian can <em>rage</em> per day. The total number of rounds of <em>rage</em> per day is renewed after resting for 8 hours, although these hours do not need to be consecutive.</Pair>
+</Ability>
+<Ability id="arc-summoner-blood_god_disciple-rage-power-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-blood_god_disciple-rage-power-ex">Rage Power (Ex)</Pair>
+<Pair hl title="Replaces">Summon monster VI and VIII spell-like abilities</Pair>
+<Pair title="At 11th Level">A blood god disciple selects a barbarian <Link to="/ability/rage_powers">rage power</Link>, which he may use when <em>raging</em> (whether from the <em>avatar gambit</em> ability or actual barbarian <em>rage</em>).</Pair>
+<Pair title="At 15th Level">He selects a second rage power.</Pair>
+</Ability>
 </>};
 const _blood_summoner = {title: "Blood Summoner", jsx: <><h2 id="arc-summoner-blood_summoner-blood-summoner">Blood Summoner</h2>
 <p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption pg. 24</Link><br/>A blood summoner conjures an eidolon born from violence and blood. These cruel spellcasters are common among the god-callers of now-shattered Sarkoris, where the influence of the Worldwound has warped them into beings of chilling malevolence.</p>
-<p><strong>Skills:</strong> A blood summoner adds Heal to his list of class skills.</p>
-<p><strong>Blood Offering (Su):</strong> At 4th level, the blood summoner can sacrifice a flask of blood, extracted up to 1 day ago from a living creature or a corpse that's been dead no longer than 1 minute, to aid and appease an evil outsider within 30 feet as a standard action. This blood can be extracted from a willing or helpless creature as a full-round action that deals 1 point of <Link to="/rule/constitution_damage">Constitution damage</Link>. The offering grants the outsider a +2 enhancement bonus to the ability score of the blood summoner's choice and grants the blood summoner a +4 circumstance bonus on Diplomacy checks and Charisma checks to bargain with it. The bonuses last for 10 minutes. The offering cannot be made to the same fiend twice in the same day.</p>
-<p>This ability replaces <strong className="hl">shield ally</strong>.</p>
-<p><strong>Blood Travel (Su):</strong> At 8th level, a blood summoner can use his maker's call ability to allow his eidolon to travel through the blood of other creatures instead of bringing it to his side. The eidolon can either emerge from the blood of a living creature within range that has fewer than its maximum hit points remaining, or burst from the corpse of a Small or larger creature within range that has been dead for no longer than 1 minute. If the eidolon emerges from an injured creature, that creature takes 4d6 points of damage, which is halved if the creature succeeds at a Fortitude save (DC = 10 + 1/2 the blood summoner's level + his Charisma modifier). The eidolon appears in its choice of the nearest unoccupied square to the creature or corpse it emerged from, and is staggered for 1 round.</p>
-<p>This ability replaces <strong className="hl">transposition</strong>.</p>
-<p><strong>Fiendish Calling (Su):</strong> At 10th level, the blood summoner's summon monster ability can additionally be used as <Link to="/spell/lesser_planar_binding">lesser planar binding</Link> as a standard action, but only to call evil outsiders. At 13th level, he can instead use it as <Link to="/spell/planar_binding">planar binding</Link>. At 16th level, he can instead use it as <Link to="/spell/greater_planar_binding">greater planar binding</Link>.</p>
-<p>This ability replaces <strong className="hl">greater shield ally</strong>.</p>
-<p><strong>Blood Possession (Su):</strong> At 16th level as a full-round action, a blood summoner's eidolon can enter and control the body of any corporeal creature that has blood. This ability functions as <Link to="/spell/marionette_possession">marionette possession</Link>, except that the eidolon's body also enters the target and the target can be unwilling. A successful Will save (DC = 10 + 1/2 the blood summoner's level + his Charisma modifier) negates this effect. This ability can be used once per day at 16th level, twice per day at 18th level, and three times per day at 20th level. The eidolon can end this possession at any time as a standard action. If the host body is slain while the eidolon is possessing it, the eidolon is immediately ejected, takes 4d6 points of damage, and is stunned for 1 round.</p>
-<p>This ability replaces <strong className="hl">merge forms</strong>.</p>
+<Ability icon={["skills"]} id="arc-summoner-blood_summoner-undefined">
+<Pair id="arc-summoner-blood_summoner-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS)</Pair></Ability>
+<Ability id="arc-summoner-blood_summoner-blood-offering-su" icon={["upgrade"]}>
+<Pair single id="arc-summoner-blood_summoner-blood-offering-su">Blood Offering (Su)</Pair>
+<Pair hl title="Replaces">Shield ally</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Standard Action">The blood summoner can sacrifice a flask of blood, extracted up to 1 day ago from a living creature or a corpse that's been dead no longer than 1 minute, to aid and appease an evil outsider within 30 feet. The offering grants the outsider a +2 enhancement bonus to the ability score of the blood summoner's choice and grants the blood summoner a +4 circumstance bonus on Diplomacy checks and Charisma checks to bargain with it.</Pair>
+<Pair title="Special">This blood can be extracted from a willing or helpless creature as a <strong className="hl">full-round action</strong> that deals 1 point of <Link to="/rule/constitution_damage">Constitution damage</Link>. The bonuses last for 10 minutes. The offering cannot be made to the same fiend twice in the same day.</Pair>
+</Ability>
+<Ability id="arc-summoner-blood_summoner-blood-travel-su" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-blood_summoner-blood-travel-su">Blood Travel (Su)</Pair>
+<Pair hl title="Replaces">Transposition</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">A blood summoner can use his <em>maker's call</em> ability to allow his eidolon to travel through the blood of other creatures instead of bringing it to his side. The eidolon can either emerge from the blood of a living creature within range that has fewer than its maximum hit points remaining, or burst from the corpse of a Small or larger creature within range that has been dead for no longer than 1 minute. If the eidolon emerges from an injured creature, that creature takes 4d6 points of damage, which is halved if the creature succeeds at a Fortitude save (DC = 10 + 1/2 the blood summoner's level + his Charisma modifier). The eidolon appears in its choice of the nearest unoccupied square to the creature or corpse it emerged from, and is <Link to="/misc/staggered">staggered</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="arc-summoner-blood_summoner-fiendish-calling-su" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-blood_summoner-fiendish-calling-su">Fiendish Calling (Su)</Pair>
+<Pair hl title="Replaces">Greater shield ally</Pair>
+<Pair title="At 10th Level">The blood summoner's <em>summon monster</em> ability can additionally be used as <Link to="/spell/lesser_planar_binding">lesser planar binding</Link> as a <strong className="hl">standard action</strong>, but only to call evil outsiders.</Pair>
+<Pair title="At 13th Level">He can instead use it as <Link to="/spell/planar_binding">planar binding</Link>.</Pair>
+<Pair title="At 16th Level">He can instead use it as <Link to="/spell/greater_planar_binding">greater planar binding</Link>.</Pair>
+</Ability>
+<Ability id="arc-summoner-blood_summoner-blood-possession-su" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-blood_summoner-blood-possession-su">Blood Possession (Su)</Pair>
+<Pair hl title="Replaces">Merge forms</Pair>
+<Pair title="Gained">At 16th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per two summoner levels beyond 16th<ByLevelPop levels={[[16,1],[18,2],[20,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Full-Round Action">A blood summoner's eidolon can enter and control the body of any corporeal creature that has blood. This ability functions as <Link to="/spell/marionette_possession">marionette possession</Link>, except that the eidolon's body also enters the target and the target can be unwilling. A successful Will save (DC = 10 + 1/2 the blood summoner's level + his Charisma modifier) negates this effect. The eidolon can end this possession at any time as a <strong className="hl">standard action</strong>.</Pair>
+<Pair title="Special">If the host body is slain while the eidolon is possessing it, the eidolon is immediately ejected, takes 4d6 points of damage, and is <Link to="/misc/stunned">stunned</Link> for 1 round.</Pair>
+</Ability>
 </>};
 const _broodmaster = {title: "Broodmaster", jsx: <><h2 id="arc-summoner-broodmaster-broodmaster">Broodmaster</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 78</Link><br/>Most summoners bond with one eidolon for their entire lives, but the broodmaster forges a link with multiple smaller eidolons that make up his brood. Separately, a broodmaster's eidolons are no match for a summoner's single eidolon, but taken as a whole, an eidolon brood makes up in quantity what it lacks in individual power.</p>
-<p><strong>Eidolon Brood:</strong> At 2nd level, instead of a single eidolon, a broodmaster summons two Small <Link to="/sidekick/eidolon">eidolons</Link> to his side, each less powerful than the single eidolon of a standard summoner. Each eidolon has it own base form and associated base statistics and free evolutions. Regardless of the number of eidolons in the brood, each eidolon has the same base attack bonus and base saving throw bonuses, but the rest of the eidolons' base statistics must be divided between the eidolons, including Hit Dice (minimum 1), skill points, number of feats, armor bonus, Str/Dex bonus, evolution pool (but see below), and maximum number of natural attacks. Individual eidolons in the brood must purchase evolutions separately. Once a broodmaster decides on the forms and abilities of his eidolons, they cannot be changed until the summoner gains a level.</p>
+<Ability id="arc-summoner-broodmaster-eidolon-brood" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-broodmaster-eidolon-brood">Eidolon Brood</Pair>
+<Pair hl title="Replaces">Eidolon</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability"><p>Instead of a single eidolon, a broodmaster summons two Small <Link to="/sidekick/eidolon">eidolons</Link> to his side, each less powerful than the single eidolon of a standard summoner. Each eidolon has it own base form and associated base statistics and free evolutions. Regardless of the number of eidolons in the brood, each eidolon has the same base attack bonus and base saving throw bonuses, but the rest of the eidolons' base statistics must be divided between the eidolons, including Hit Dice (minimum 1), skill points, number of feats, armor bonus, Str/Dex bonus, evolution pool (but see below), and maximum number of natural attacks. Individual eidolons in the brood must purchase evolutions separately. Once a broodmaster decides on the forms and abilities of his eidolons, they cannot be changed until the summoner gains a level.</p>
 <p><strong>Example:</strong> A 2nd-level broodmaster can summon two eidolons. Each eidolon has 1 Hit Dice, BAB +2, +3 on its two <Link to="/misc/good_saves">good saves</Link> and +0 on its bad save. The broodmaster decides to give the first eidolon 4 skill points, one feat, a +1 armor bonus, a +1 bonus to Strength, 2 points from the evolution pool, and a maximum of two attacks. The remaining 4 skill points, +1 armor bonus, +1 bonus to Dexterity, and 2 points from the evolution pool go to the second eidolon, but it gains no feats and can have only one natural attack.</p>
-<p>The broodmaster must dismiss all of his eidolons at one time. Likewise, all of the eidolons in a brood are banished if the broodmaster is unconscious, asleep, or killed. However, each eidolon in the brood is sent back to its home plane individually when its hit points are reduced to a negative number equal to or greater than its Constitution score.</p>
-<p>This ability replaces the summoner's normal <strong className="hl">eidolon</strong> ability.</p>
+</Pair>
+<Pair title="Special">The broodmaster must dismiss all of his eidolons at one time. Likewise, all of the eidolons in a brood are banished if the broodmaster is unconscious, asleep, or killed. However, each eidolon in the brood is sent back to its home plane individually when its hit points are reduced to a negative number equal to or greater than its Constitution score.</Pair>
+</Ability>
 <hr/>
 <p>The following are new class features of the broodmaster archetype. Those with the same name as the standard summoner class have slightly different rules, but otherwise work as and replace the standard summoner class features of the same name.</p>
-<p><strong>Brood Link (Su):</strong> At 2nd level, a broodmaster forms a close bond with his eidolons. This ability works like the standard summoner life link ability, except the broodmaster can only sacrifice hit points to prevent damage to one eidolon in the brood at a time. If two or more eidolons in the brood take enough damage to send them back to their home plane, the broodmaster can only sacrifice hit points to prevent damage to one of them.</p>
-<p>This ability replaces <strong className="hl">life link</strong>.</p>
-<p><strong>Bond Senses (Su):</strong> The broodmaster can only share the senses of one eidolon in his brood at a time.</p>
-<p><strong>Shield Ally (Ex):</strong> The broodmaster or an ally can only gain the bonuses from these abilities once, regardless of how many eidolons in the brood are within reach.</p>
-<p><strong>Maker's Call (Su):</strong> The broodmaster can only call one eidolon in the brood to his side with each use of this ability.</p>
-<p><strong>Transposition (Su):</strong> The broodmaster swaps his location with that of one eidolon in the brood with each use of this ability.</p>
-<p><strong>Larger Brood:</strong> At 8th level, the broodmaster can spend 4 evolution points from the evolution pool for the <Link to="/evolution/large">large</Link> evolution; unlike with other evolutions, he spends these 4 points before he assigns evolution points to his individual eidolons (for an 8th-level broodmaster with 11 evolution points, this leaves 7 evolution points to distribute among the eidolons). This allows him to summon two Medium eidolons, four Small eidolons, or one Medium eidolon and two Small eidolons.</p>
-<p>At 13th level, if the broodmaster has purchased the large evolution for his brood, he can spend an additional 6 evolution points from the evolution pool for the 'huge' option of the large evolution, distributing the remaining points among his eidolons. This allows him to call two Large eidolons, four Medium eidolons, eight Small eidolons, or any similar combination in which two smaller eidolons count as one eidolon of one size larger.</p>
-<p><strong>Greater Shield Ally (Su):</strong> The broodmaster or an ally can only gain the bonuses from these abilities once, regardless of how many eidolons in the brood are within reach.</p>
-<p><strong>Brood Bond (Su):</strong> At 14th level, a summoner's life becomes linked to his brood. This functions as the life bond ability, except the broodmaster can only transfer damage to one eidolon in the brood at a time. If that eidolon takes enough damage to send it back to its home plane, all excess damage remains with the broodmaster, killing him.</p>
-<p>This ability replaces <strong className="hl">life bond</strong>.</p>
-<p><strong>Merge Forms (Su):</strong> The broodmaster can only merge with one eidolon in the brood at a time. This ability otherwise works like and replaces merge forms.</p>
+<Ability id="arc-summoner-broodmaster-brood-link-su" icon={["shield-reflect"]}>
+<Pair single id="arc-summoner-broodmaster-brood-link-su">Brood Link (Su)</Pair>
+<Pair hl title="Replaces">Life link</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A broodmaster forms a close bond with his eidolons. This ability works like the standard summoner <em>life link</em> ability, except the broodmaster can only sacrifice hit points to prevent damage to one eidolon in the brood at a time. If two or more eidolons in the brood take enough damage to send them back to their home plane, the broodmaster can only sacrifice hit points to prevent damage to one of them.</Pair>
+</Ability>
+<Ability id="arc-summoner-broodmaster-bond-senses-su" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-broodmaster-bond-senses-su">Bond Senses (Su)</Pair>
+<Pair title="At 2nd Level">The broodmaster can only share the senses of one eidolon in his brood at a time.</Pair>
+</Ability>
+<Ability id="arc-summoner-broodmaster-shield-ally-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-summoner-broodmaster-shield-ally-ex">Shield Ally (Ex)</Pair>
+<Pair title="At 4th Level">The broodmaster or an ally can only gain the bonuses from <em>shield ally</em> once, regardless of how many eidolons in the brood are within reach.</Pair>
+</Ability>
+<Ability id="arc-summoner-broodmaster-makers-call-su" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-broodmaster-makers-call-su">Maker's Call (Su)</Pair>
+<Pair title="At 6th Level">The broodmaster can only call one eidolon in the brood to his side with each use of this ability.</Pair>
+</Ability>
+<Ability id="arc-summoner-broodmaster-transposition-su" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-broodmaster-transposition-su">Transposition (Su)</Pair>
+<Pair title="At 8th Level">The broodmaster swaps his location with that of one eidolon in the brood with each use of this ability.</Pair>
+</Ability>
+<Ability id="arc-summoner-broodmaster-larger-brood" icon={["upgrade"]}>
+<Pair single id="arc-summoner-broodmaster-larger-brood">Larger Brood</Pair>
+<Pair title="At 8th Level">The broodmaster can spend 4 evolution points from the evolution pool for the <Link to="/evolution/large">large</Link> evolution; unlike with other evolutions, he spends these 4 points before he assigns evolution points to his individual eidolons (for an 8th-level broodmaster with 11 evolution points, this leaves 7 evolution points to distribute among the eidolons). This allows him to summon two Medium eidolons, four Small eidolons, or one Medium eidolon and two Small eidolons.</Pair>
+<Pair title="At 13th Level">If the broodmaster has purchased the large evolution for his brood, he can spend an additional 6 evolution points from the evolution pool for the 'huge' option of the large evolution, distributing the remaining points among his eidolons. This allows him to call two Large eidolons, four Medium eidolons, eight Small eidolons, or any similar combination in which two smaller eidolons count as one eidolon of one size larger.</Pair>
+</Ability>
+<Ability id="arc-summoner-broodmaster-greater-shield-ally-su" icon={["shield-reflect"]}>
+<Pair single id="arc-summoner-broodmaster-greater-shield-ally-su">Greater Shield Ally (Su)</Pair>
+<Pair title="At 12th Level">The broodmaster or an ally can only gain the bonuses from <em>greater shield ally,</em> regardless of how many eidolons in the brood are within reach.</Pair>
+</Ability>
+<Ability id="arc-summoner-broodmaster-brood-bond-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-summoner-broodmaster-brood-bond-su">Brood Bond (Su)</Pair>
+<Pair hl title="Replaces">Life bond</Pair>
+<Pair title="At 14th Level">A summoner's life becomes linked to his brood. This functions as the <em>life bond</em> ability, except the broodmaster can only transfer damage to one eidolon in the brood at a time. If that eidolon takes enough damage to send it back to its home plane, all excess damage remains with the broodmaster, killing him.</Pair>
+</Ability>
+<Ability id="arc-summoner-broodmaster-merge-forms-su" icon={["armor-upgrade","stairs-goal"]}>
+<Pair single id="arc-summoner-broodmaster-merge-forms-su">Merge Forms (Su)</Pair>
+<Pair hl title="Replaces">Merge forms</Pair>
+<Pair title="At 16th Level">The broodmaster can only merge with one eidolon in the brood at a time.</Pair>
+</Ability>
 <h3 id="arc-summoner-broodmaster-hoarders-of-summoned-monsters">Hoarders of Summoned Monsters</h3>
 <p>The broodmaster and master summoner archetypes can potentially have 5, 10, or even more summoned creatures in play. This is a deliberate feature of these archetypes, and means that the summoner can potentially be a strong candidate for "solo" adventuring by one player. However, in the hands of an inexperienced or moderately experienced player, dealing with all of those creatures in combat can take a long time, forcing other players to wait extended periods between their turns in the initiative. It is strongly recommended that GMs only allow these archetypes for experienced players, or decide on a way to speed up the summoner's turn (such as by allowing other players to control some of the summoned monsters).</p>
 </>};
 const _counter_summoner = {title: "Counter-Summoner", jsx: <><h2 id="arc-summoner-counter_summoner-counter-summoner">Counter-Summoner</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook pg. 8</Link><br/>While most summoners excel at conjuring monsters, there are those who focus instead on disrupting the conjurations of opponents. The counter-summoner harnesses powerful abjuration magic to instantly thwart the conjuration and summoning abilities of other casters, though at the cost of weakening his own powers of conjuration.</p>
-<p><strong>Counter-Summon (Su):</strong> At 1st level, a counter-summoner can attempt to counter a conjuration spell cast by another creature. He must identify the spell being cast as normal for <Link to="/rule/counterspells">counterspelling</Link>. If he does so, he can attempt to counter the spell as a swift or immediate action. To counter the spell, the counter-summoner must attempt a dispel check as if using <Link to="/spell/dispel_magic">dispel magic</Link>. If the spell being countered is a <Link to="/spell/summon_monster">summon monster</Link> or <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spell, the counter-summoner gains a +5 bonus on the dispel check. The counter-summoner can use this ability a number of times per day equal to 3 + his Charisma modifier.</p>
-<p>This replaces <strong className="hl">summon monster</strong>.</p>
-<p><strong>Detect Summons (Su):</strong> At 2nd level, as a swift action, a counter-summoner can target a single creature he can see and determine if it has been summoned to its current plane from another. This ability reveals whether the target has been conjured by a conjuration (summoning) or (calling) spell, and allows the counter-summoner to attempt a Spellcraft check to identify the spell that conjured it (using the same DC as if the counter-summoner had witnessed the spell being cast).</p>
-<p>This ability replaces <strong className="hl">bond senses</strong>.</p>
-<p><strong>Weaken Summons (Su):</strong> At 10th level, as a standard action, a counter-summoner can attempt to weaken a summoned or called creature within 60 feet. The targeted creature takes a -2 penalty on attack and damage rolls and to Armor Class for 1 minute per summoner level. A successful Will save (DC = 10 1/2 the counter-summoner's class level his Charisma modifier) negates this effect. A given summoned creature can't be targeted by this ability more than once per 24-hour period.</p>
-<p>This ability replaces <strong className="hl">aspect</strong>.</p>
-<p><strong>Improved Weaken Summons (Su):</strong> At 18th level, the penalty for the counter-summoner's weaken summons ability changes to -4.</p>
-<p>This ability replaces <strong className="hl">greater aspect</strong>.</p>
+<Ability id="arc-summoner-counter_summoner-counter-summon-su" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-counter_summoner-counter-summon-su">Counter-Summon (Su)</Pair>
+<Pair hl title="Replaces">Summon monster</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">A counter-summoner can attempt to counter a conjuration spell cast by another creature. He must identify the spell being cast as normal for <Link to="/rule/counterspells">counterspelling</Link>. If he does so, he can attempt to counter the spell as a <strong className="hl">swift</strong> or <strong className="hl">immediate action</strong>. To counter the spell, the counter-summoner must attempt a dispel check as if using <Link to="/spell/dispel_magic">dispel magic</Link>. If the spell being countered is a <Link to="/spell/summon_monster">summon monster</Link> or <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spell, the counter-summoner gains a +5 bonus on the dispel check.</Pair>
+</Ability>
+<Ability id="arc-summoner-counter_summoner-detect-summons-su" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-counter_summoner-detect-summons-su">Detect Summons (Su)</Pair>
+<Pair hl title="Replaces">Bond senses</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Swift Action">A counter-summoner can target a single creature he can see and determine if it has been summoned to its current plane from another. This ability reveals whether the target has been conjured by a conjuration (summoning) or (calling) spell, and allows the counter-summoner to attempt a Spellcraft check to identify the spell that conjured it (using the same DC as if the counter-summoner had witnessed the spell being cast).</Pair>
+</Ability>
+<Ability id="arc-summoner-counter_summoner-weaken-summons-su" icon={["magic-swirl","armor-downgrade"]}>
+<Pair single id="arc-summoner-counter_summoner-weaken-summons-su">Weaken Summons (Su)</Pair>
+<Pair hl title="Replaces">Aspect</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Standard Action">A counter-summoner can attempt to weaken a summoned or called creature within 60 feet. The targeted creature takes a -2 penalty on attack and damage rolls and to Armor Class for 1 minute per summoner level. A successful Will save (DC = 10 1/2 the counter-summoner's class level his Charisma modifier) negates this effect. A given summoned creature can't be targeted by this ability more than once per 24-hour period.</Pair>
+</Ability>
+<Ability id="arc-summoner-counter_summoner-improved-weaken-summons-su" icon={["armor-downgrade"]}>
+<Pair single id="arc-summoner-counter_summoner-improved-weaken-summons-su">Improved Weaken Summons (Su)</Pair>
+<Pair hl title="Replaces">Greater aspect</Pair>
+<Pair title="Gained">At 18th Level</Pair>
+<Pair title="Ability">The penalty for the counter-summoner's <em>weaken summons</em> ability changes to -4.</Pair>
+</Ability>
 </>};
 const _evolutionist = {title: "Evolutionist", jsx: <><h2 id="arc-summoner-evolutionist-evolutionist">Evolutionist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 79</Link><br/>Changing an eidolon's evolutions is normally a slow process. As a summoner progresses in levels, his control over his eidolon's abilities increases. But an evolutionist possesses greater power over his eidolon's form, and is able to evolve his eidolon and its abilities to meet any challenge or face any threat as it comes up, seemingly on a whim.</p>
-<p><strong>Mutate Eidolon (Su):</strong> At 6th level, an evolutionist can change his eidolon's <Link to="/ability/evolutions">evolutions</Link> as if he had gained a level. To mutate his eidolon, the evolutionist must perform an arcane ritual that requires 24 hours of uninterrupted concentration and costs 200 gp per summoner level in material components.</p>
-<p>This ability replaces <strong className="hl">maker's call</strong>.</p>
-<p><strong>Evolve Base Form (Su):</strong> Starting at 8th level, whenever he gains a level, the evolutionist can change his eidolon's base form to a new base form. Once chosen, this base form is set until the evolutionist gains another summoner level.</p>
-<p>This ability replaces <strong className="hl">transposition</strong>.</p>
-<p><strong>Transmogrify (Sp):</strong> At 12th level, the evolutionist can cast <Link to="/spell/transmogrify">transmogrify</Link> as a spell-like ability once per day without the need for a material component. This ability has a casting time of 1 minute.</p>
-<p>This ability replaces <strong className="hl">greater shield ally</strong>.</p>
+<Ability id="arc-summoner-evolutionist-mutate-eidolon-su" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-evolutionist-mutate-eidolon-su">Mutate Eidolon (Su)</Pair>
+<Pair hl title="Replaces">Maker's call</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">An evolutionist can change his eidolon's <Link to="/ability/evolutions">evolutions</Link> as if he had gained a level. To mutate his eidolon, the evolutionist must perform an arcane ritual that requires 24 hours of uninterrupted concentration and costs 200 gp per summoner level in material components.</Pair>
+</Ability>
+<Ability id="arc-summoner-evolutionist-evolve-base-form-su" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-evolutionist-evolve-base-form-su">Evolve Base Form (Su)</Pair>
+<Pair hl title="Replaces">Transposition</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Whenever he gains a level, the evolutionist can change his eidolon's base form to a new base form. Once chosen, this base form is set until the evolutionist gains another summoner level.</Pair>
+</Ability>
+<Ability id="arc-summoner-evolutionist-transmogrify-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-evolutionist-transmogrify-sp">Transmogrify (Sp)</Pair>
+<Pair hl title="Replaces">Greater shield ally</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">The evolutionist can cast <Link to="/spell/transmogrify">transmogrify</Link> as a spell-like ability once per day without the need for a material component. This ability has a casting time of 1 minute.</Pair>
+</Ability>
 </>};
 const _first_worlder = {title: "First Worlder", jsx: <><h2 id="arc-summoner-first_worlder-first-worlder">First Worlder</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 35</Link><br/>Most summoners have a close connection to creatures from the farthest reaches of the planes. A few have a primal connection to nature, and their power is tied to the First World. It is not unusual for these summoners to associate with druids, for like druids, first worlders have a powerful tie to the natural world. Some first worlders are driven half-mad by the strange energies and intelligences that seep into their minds and bodies, though, and these poor souls are prone to lash out at loggers, druids, or innocent passers-by without considering whether or not they are threats. A first worlder's <Link to="/sidekick/eidolon">eidolon</Link> usually resembles a fey creature or a plant monster, though some are fantastic otherworldly animals with exaggerated features. A first worlder has the following class features.</p>
-<p><strong>Summon Nature's Ally (Sp):</strong> Starting at 1st level, a first worlder can cast <Link to="/spell/summon_natures_ally">summon nature's ally</Link> a number of times per day equal to 3 + his Charisma modifier. At levels where a summoner would gain a more powerful summon monster spell as a spell-like ability, he instead gains the equivalent summon nature's ally spell (at 19th level, he can use <Link to="/spell/summon_natures_ally_ix">summon nature's ally IX</Link> or <Link to="/spell/gate">gate</Link>). When a first worlder gains a summon nature's ally spell as a spell-like ability, he adds it to his class spell list (he must still select it as a spell known if he wants to cast it as an actual spell). This ability otherwise replaces the summon monster ability of a normal summoner.</p>
-<p><strong>Fey Summons (Su):</strong> At 3rd level, a first worlder adds the following creatures to the lists of what he can summon with his summon nature's ally spell-like ability:</p>
+<Ability id="arc-summoner-first_worlder-summon-natures-ally-sp" icon={["spell-book","magic-swirl"]}>
+<Pair single id="arc-summoner-first_worlder-summon-natures-ally-sp">Summon Nature's Ally (Sp)</Pair>
+<Pair hl title="Replaces">Summon monster</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">A first worlder can cast <Link to="/spell/summon_natures_ally">summon nature's ally</Link> a number of times per day equal to 3 + his Charisma modifier.</Pair>
+<Pair title="Ability">At levels where a summoner would gain a more powerful <em>summon monster</em> spell as a spell-like ability, he instead gains the equivalent <em>summon nature's ally</em> spell (at 19th level, he can use <Link to="/spell/summon_natures_ally_ix">summon nature's ally IX</Link> or <Link to="/spell/gate">gate</Link>).</Pair>
+<Pair title="Special">When a first worlder gains a <em>summon nature's ally</em> spell as a spell-like ability, he adds it to his class spell list (he must still select it as a spell known if he wants to cast it as an actual spell).</Pair>
+</Ability>
+<Ability id="arc-summoner-first_worlder-fey-summons-su" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-first_worlder-fey-summons-su">Fey Summons (Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability"><p>A first worlder adds the following creatures to the lists of what he can summon with his <em>summon nature's ally</em> spell-like ability:</p>
 <blockquote>
 <p><em>Summon nature's ally II:</em> gremlin (<Link to="/monster/jinkin">jinkin</Link>, <Link to="/monster/pugwampi">pugwampi</Link>, or <Link to="/monster/vexgit">vexgit</Link>).</p>
 <p><em>Summon nature's ally III:</em> gremlin (<Link to="/monster/nuglub">nuglub</Link>).</p>
@@ -80,12 +212,20 @@ const _first_worlder = {title: "First Worlder", jsx: <><h2 id="arc-summoner-firs
 <p><em>Summon nature's ally V:</em> <Link to="/monster/pixie">pixie</Link>, <Link to="/monster/satyr">satyr</Link>.</p>
 <p><em>Summon nature's ally VII:</em> <Link to="/monster/nymph">nymph</Link>.</p>
 </blockquote>
-<p><strong>Eidolon:</strong> Instead of an outsider, a first worlder's eidolon has the <Link to="/type/fey">fey</Link> creature type and the <Link to="/subtype/extraplanar">extraplanar</Link> subtype. Its statistics are changed from a standard eidolon as follows:</p>
+</Pair>
+</Ability>
+<Ability id="arc-summoner-first_worlder-eidolon" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-first_worlder-eidolon">Eidolon</Pair>
+<Pair hl title="Replaces">Eidolon</Pair>
+<Pair title="Info"><p>Instead of an outsider, a first worlder's eidolon has the <Link to="/type/fey">fey</Link> creature type and the <Link to="/subtype/extraplanar">extraplanar</Link> subtype. Its statistics are changed from a standard eidolon as follows:</p>
+<blockquote>
 <p><strong>Hit Dice:</strong> d6 Hit Die (instead of d10).<br/><strong>BAB:</strong> Equal to 1/2 the eidolon's Hit Dice.<br/><strong>Good/Bad Saves:</strong> The eidolon's <Link to="/misc/good_saves">good saves</Link> area always Reflex and Will.</p>
 <p><strong>Skills:</strong> The eidolon's class skills are <Link to="/skill/acrobatics">Acrobatics</Link>, <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/climb">Climb</Link>, <Link to="/skill/craft">Craft</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/disguise">Disguise</Link>, <Link to="/skill/escape_artist">Escape Artist</Link>, <Link to="/skill/fly">Fly</Link>, <Link to="/skill/knowledge_geography">Knowledge (geography)</Link>, <Link to="/skill/knowledge_nature">Knowledge (nature)</Link>, <Link to="/skill/perception">Perception</Link>, <Link to="/skill/perform">Perform</Link>, <Link to="/skill/sense_motive">Sense Motive</Link>, <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>, <Link to="/skill/stealth">Stealth</Link>, <Link to="/skill/swim">Swim</Link>, and <Link to="/skill/use_magic_device">Use Magic Device</Link>.</p>
 <p><strong>Senses:</strong> The eidolon gains low-light vision instead of darkvision. The summoner can grant the eidolon darkvision 60 ft. as a 1-point evolution.</p>
-<p><strong>Damage Reduction:</strong> If the first worlder chooses this evolution, he may select DR/cold iron instead of one of the alignment-based types of damage reduction.</p>
-<p>This otherwise works like and replaces the eidolon ability of a normal summoner.</p>
+<p><strong>Damage Reduction:</strong> If the first worlder chooses <Link to="/evolution/damage_reduction">this evolution</Link>, he may select DR/cold iron instead of one of the alignment-based types of damage reduction.</p>
+</blockquote>
+</Pair>
+</Ability>
 </>};
 const _god_caller = {title: "God Caller", jsx: <><h2 id="arc-summoner-god_caller-god-caller">God Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 40</Link><br/>God callers follow a fractured tradition that originated in the now-lost nation of Sarkoris. They speak to an assortment of ancient divine powers to lead their communities and sometimes stir up reformations in faiths with ideals similar to their personal convictions.</p>
