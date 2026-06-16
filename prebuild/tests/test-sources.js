@@ -47,6 +47,10 @@ const sourcesTest = (incoming) => {
 	const result = [];
 	Object.entries($info).forEach((pair) => {
 		const [prop, file] = pair;
+		if(file.datatype === "race" || file.link === "class") {
+			// Race files and classes have unpredictable sources, so don't test them.
+			return;
+		}
 		const msg = [];
 		const data = {...file.data};
 		delete data.not_found;

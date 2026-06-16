@@ -446,7 +446,7 @@ const _necroccultist = {title: "Necroccultist", jsx: <><h2 id="arc-occultist-nec
 <Pair hl title="Alters">Implements, implement mastery</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Info">A necroccultist gains access to only the <Link to="/implement/necromancy">necromancy</Link> school of implements. He must select necromancy for his <em>implement mastery.</em></Pair>
-<Pair title="Ability">Each time he gains an occultist level, a necroccultist can add one necromancy spell from the <Link to="/main/wizard_spell">wizard spell list</Link> to his occultist spell list and his list of spells known. The necroccultist can't choose a spell of a higher level than he is able to cast, and he adds the spell at the same spell level it appears on the wizard spell list.</Pair>
+<Pair title="Ability">Each time he gains an occultist level, a necroccultist can add one <Link to="/main/spells_necromancy">necromancy spell</Link> from the <Link to="/main/wizard_spell">wizard spell list</Link> to his occultist spell list and his list of spells known. The necroccultist can't choose a spell of a higher level than he is able to cast, and he adds the spell at the same spell level it appears on the wizard spell list.</Pair>
 <Pair title="At 14th Level">He doesn't gain an additional school of implements. Instead, the DCs of saving throws to resist a necroccultist's necromancy spells and necromancy focus powers increase by 2.</Pair>
 </Ability>
 <Ability id="arc-occultist-necroccultist-deadspeaker-su" icon={["magic-swirl"]}>

@@ -195,7 +195,7 @@ const _mongrel_mage = {title: "Mongrel Mage", jsx: <><h2 id="arc-sorcerer-mongre
 </Ability>
 </>};
 const _nine_tailed_heir = {title: "Nine-Tailed Heir", jsx: <><h2 id="arc-sorcerer-nine_tailed_heir-nine-tailed-heir">Nine-Tailed Heir</h2>
-<p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 13</Link><br/>Tian stories often tell of kitsune with multiple tails, but not many realize that fewer than one kitsune in every thousand has this potential, and those that do usually have a magical quirk in their blood or have been blessed by their race's deific matron, Daikitsu. As a result, most that harness the mystic powers of their newfound tails often gain sorcerous powers, becoming nine-tailed heirs.</p>
+<p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 13</Link><br/>Tian stories often tell of kitsune with multiple tails, but not many realize that fewer than one kitsune in every thousand has this potential, and those that do usually have a magical quirk in their blood or have been blessed by their race's deific matron, <Link to="/faith/daikitsu">Daikitsu</Link>. As a result, most that harness the mystic powers of their newfound tails often gain sorcerous powers, becoming nine-tailed heirs.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-sorcerer-nine_tailed_heir--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/kitsune">Kitsune</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-sorcerer-nine_tailed_heir-magical-tail" icon={["stairs-goal"]}>
 <Pair single id="arc-sorcerer-nine_tailed_heir-magical-tail">Magical Tail</Pair>
 <Pair hl title="Replaces">Bloodline spell</Pair>
@@ -385,7 +385,7 @@ const _wishcrafter = {title: "Wishcrafter", jsx: <><h2 id="arc-sorcerer-wishcraf
 <Pair single id="arc-sorcerer-wishcrafter-expanded-wishcraft" flavor="The wishcrafter grows more adept at altering reality to fit the whims of others.">Expanded Wishcraft</Pair>
 <Pair hl title="Replaces">All bloodline spells</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Ability">She may add an additional spell selected from the sorcerer/wizard spell list to her list of spells known. This spell must be one level lower than the highest-level spell she can cast.</Pair>
+<Pair title="Ability">She may add an additional spell selected from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list to her list of spells known. This spell must be one level lower than the highest-level spell she can cast.</Pair>
 <Pair title="At 5th Level">She may add another spell, following the restrictions above.</Pair>
 <Pair title="At 7th Level">She may add another spell, following the restrictions above.</Pair>
 <Pair title="At 9th Level">She may add another spell, following the restrictions above.</Pair>

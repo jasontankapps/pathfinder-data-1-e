@@ -291,7 +291,7 @@ const _arrowsong_minstrel = {title: "Arrowsong Minstrel", jsx: <><h2 id="arc-bar
 <Ability id="arc-bard-arrowsong_minstrel-arcane-archery" icon={["spell-book","upgrade"]}>
 <Pair single id="arc-bard-arrowsong_minstrel-arcane-archery" flavor="An Arrowsong minstrel's skill at ranged martial arts allows her to learn to cast a number of powerful, offensive spells that would otherwise be unavailable to her.">Arcane Archery</Pair>
 <Pair hl title="Replaces">Bardic knowledge, dirge of doom, distraction, fascinate, inspire competence, lore master, soothing performance</Pair>
-<Pair title="At 1st Level">She selects a number of spells from the sorcerer/wizard spell list (see <em>special</em> below) equal to her Charisma modifier (minimum 1) and adds them to her bard spell list as bard spells of the same level. The spells selected must not already be on the bard spell list, and must be 6th level or lower.</Pair>
+<Pair title="At 1st Level">She selects a number of spells from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list (see <em>special</em> below) equal to her Charisma modifier (minimum 1) and adds them to her bard spell list as bard spells of the same level. The spells selected must not already be on the bard spell list, and must be 6th level or lower.</Pair>
 <Pair title="At 4th Level">She adds an additional sorcerer/wizard spell to her bard spell list.</Pair>
 <Pair title="At 8th Level">She adds an additional spell to her bard spell list.</Pair>
 <Pair title="At 12th Level">She adds an additional spell to her bard spell list.</Pair>

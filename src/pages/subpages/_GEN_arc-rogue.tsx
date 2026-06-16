@@ -526,7 +526,7 @@ const _eldritch_raider = {title: "Eldritch Raider", jsx: <><h2 id="arc-rogue-eld
 <Ability id="arc-rogue-eldritch_raider-minor-eldritch-magic-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
 <Pair single id="arc-rogue-eldritch_raider-minor-eldritch-magic-sp">Minor Eldritch Magic (Sp)</Pair>
 <Pair title="Prerequisites"><em>Minor magic</em> and <Link to="/talent/major_magic">major magic</Link> rogue talents; Intelligence 12</Pair>
-<Pair title="Ability">The eldritch raider gains the ability to cast a 2nd-level spell from the <Link to="/main/spells_wizard">sorcerer/wizard spell list</Link> two times per day as a spell-like ability. The caster level for this ability is equal to her rogue level. The save DC for this spell is 12 + her Intelligence modifier.</Pair>
+<Pair title="Ability">The eldritch raider gains the ability to cast a 2nd-level spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">spells_</Link> spell list two times per day as a spell-like ability. The caster level for this ability is equal to her rogue level. The save DC for this spell is 12 + her Intelligence modifier.</Pair>
 </Ability>
 <Ability id="arc-rogue-eldritch_raider-major-eldritch-magic-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
 <Pair single id="arc-rogue-eldritch_raider-major-eldritch-magic-sp">Major Eldritch Magic (Sp)</Pair>

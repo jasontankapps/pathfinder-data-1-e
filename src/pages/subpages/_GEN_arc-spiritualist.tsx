@@ -14,13 +14,20 @@ const _drowned_channeler = {title: "Drowned Channeler", jsx: <><h2 id="arc-spiri
 <Ability id="arc-spiritualist-drowned_channeler-drowned-phantom" icon={["stairs-goal","broken-shield"]}>
 <Pair single id="arc-spiritualist-drowned_channeler-drowned-phantom">Drowned Phantom</Pair>
 <Pair hl title="Alters">Phantom, shared consciousness, etheric tether, bonded manifestation</Pair>
-<Pair title="Ability">A drowned channeler has a <em>drowned phantom.</em> A <em>drowned phantom's</em> ectoplasmic body drips with water and seems to bleed off watery droplets even its incorporeal form. A <em>drowned phantom</em> gains a swim speed of 30 feet in both forms and gains the <Link to="/subtype/water">water</Link> subtype in addition to the phantom subtype, meaning that it can use its natural slam attacks underwater without taking the penalty for bludgeoning attacks underwater. The drowned channeler's <em>etheric tether</em> extends twice as far underwater, but only half as far above water. Additionally, the <em>drowned phantom</em> doesn't grant any of the usual benefits while confined in the drowned channeler's consciousness unless the drowned channeler is within 25 feet of an ocean, sea, lake, or other large body of water. Both forms of <em>bonded manifestation</em> grant the <em>drowned phantom's</em> swim speed of 30 feet to the drowned channeler, and attacks from the ectoplasmic <em>bonded manifestation's</em> tendrils don't take the typical penalties for bludgeoning attacks underwater, as if the phantom itself made them.</Pair>
+<Pair title="Ability"><p>A drowned channeler has a <em>drowned phantom.</em> A <em>drowned phantom's</em> ectoplasmic body drips with water and seems to bleed off watery droplets even its incorporeal form. A <em>drowned phantom</em> gains a swim speed of 30 feet in both forms and gains the <Link to="/subtype/water">water</Link> subtype in addition to the phantom subtype, meaning that it can use its natural slam attacks underwater without taking the penalty for bludgeoning attacks underwater.</p>
+<p>The drowned channeler's <em>etheric tether</em> extends twice as far underwater, but only half as far above water. Additionally, the <em>drowned phantom</em> doesn't grant any of the usual benefits while confined in the drowned channeler's consciousness unless the drowned channeler is within 25 feet of an ocean, sea, lake, or other large body of water. Both forms of <em>bonded manifestation</em> grant the <em>drowned phantom's</em> swim speed of 30 feet to the drowned channeler, and attacks from the ectoplasmic <em>bonded manifestation's</em> tendrils don't take the typical penalties for bludgeoning attacks underwater, as if the phantom itself made them.</p>
+</Pair>
 </Ability>
 <Ability id="arc-spiritualist-drowned_channeler-drowned-spells" icon={["spell-book"]}>
 <Pair single id="arc-spiritualist-drowned_channeler-drowned-spells">Drowned Spells</Pair>
 <Pair hl title="Replaces">Bonded senses</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
-<Pair title="Ability">A drowned channeler adds <Link to="/spell/control_water">control water</Link> (4th), <Link to="/spell/fluid_form">fluid form</Link> (6th), <Link to="/spell/hydraulic_push">hydraulic push</Link> (1st), <Link to="/spell/hydraulic_torrent">hydraulic torrent</Link> (3rd), <Link to="/spell/life_current">life current</Link> (3rd), <Link to="/spell/pressure_adaptation">pressure adaptation</Link> (3rd), <Link to="/spell/ride_the_waves">ride the waves</Link> (4th), <Link to="/spell/slipstream">slipstream</Link> (2nd), <Link to="/spell/stabilize_pressure">stabilize pressure</Link> (2nd), <Link to="/spell/unlife_current">unlife current</Link> (3rd), <Link to="/spell/water_breathing">water breathing</Link> (3rd), and <Link to="/spell/wave_form">wave form</Link> (4th) to the spiritualist spell list at the listed spell level. (This is the level they appear on the cleric list or sorcerer/wizard list, whichever is lower.)</Pair>
+<Pair title="Ability">A drowned channeler adds the spells below to the spiritualist spell list at the listed spell level. (This is the level they appear on the cleric list or sorcerer/wizard list, whichever is lower.)</Pair>
+<Pair plain title="1st"><Link to="/spell/hydraulic_push">Hydraulic push</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/slipstream">Slipstream</Link>, <Link to="/spell/stabilize_pressure">stabilize pressure</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/hydraulic_torrent">Hydraulic torrent</Link>, <Link to="/spell/life_current">life current</Link>, <Link to="/spell/pressure_adaptation">pressure adaptation</Link>, <Link to="/spell/unlife_current">unlife current</Link>, <Link to="/spell/water_breathing">water breathing</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/control_water">Control water</Link>, <Link to="/spell/ride_the_waves">ride the waves</Link>, <Link to="/spell/wave_form">wave form</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/fluid_form">Fluid form</Link></Pair>
 <Pair title="Special">The drowned channeler must still select them as spells known as normal.</Pair>
 </Ability>
 <Ability id="arc-spiritualist-drowned_channeler-drowned-powers-sp" icon={["magic-swirl"]}>
@@ -83,7 +90,7 @@ const _exciter = {title: "Exciter", jsx: <><h2 id="arc-spiritualist-exciter-exci
 </Ability>
 <Ability id="arc-spiritualist-exciter-bloodrage-su" extraClasses="subAbility" icon={["stairs-goal","upgrade","armor-upgrade","broken-shield"]}>
 <Pair single id="arc-spiritualist-exciter-bloodrage-su" flavor="Text from the bloodrager class ability.">Bloodrage (Su)</Pair>
-<Pair title="Usage">You can <em>bloodrage</em> for 2 + twice your level + your Con modifier rounds/day; these rounds need not be consecutive. Temporary increases to Con (such as those gained from <em>bloodraging</em> or spells like <Link to="/spell/bears_endurance">bear's endurance</Link>) don't increase this number.</Pair>
+<Pair title="Usage">You can <em>bloodrage</em> for 2 + twice your level + your Con modifier rounds/day; these rounds need not be consecutive. Temporary increases to Con (such as those gained from <em>bloodraging</em> or spells like <Link to="/spell/bears_endurance">bear's endurance</Link>) don't increase this number.<ByLevelPop levels={[[1,4],[2,6],[3,8],[4,10],[5,12],[6,14],[7,16],[8,18],[9,20],[10,22],[11,24],[12,26],[13,28],[14,30],[15,32],[16,34],[17,36],[18,38],[19,40],[20,42]]} preText="Con modifier + " unit="round" postText="/day" /></Pair>
 <Pair title="Free Action">You can enter or leave a <em>bloodrage</em> as a free action.</Pair>
 <Pair title="Passive Ability">While in a <em>bloodrage,</em> you gain a +4 morale bonus to your Strength and Constitution, as well as a +2 morale bonus on Will saves. In addition, you take a -2 penalty to Armor Class. The increase to Constitution grants you 2 hit points per Hit Die, but these disappear when the <em>bloodrage</em> ends and are not lost first like <Link to="/rule/temporary_hit_points">temporary hit points</Link>. While <em>bloodraging,</em> you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.</Pair>
 <Pair title="Special">When the <em>bloodrage</em> ends, you are <Link to="/misc/fatigued">fatigued</Link> for a number of rounds equal to twice the number of rounds spent in the <em>bloodrage.</em> You can't enter a new <em>bloodrage</em> while fatigued or <Link to="/misc/exhausted">exhausted</Link>, but can otherwise enter <em>bloodrage</em> multiple times during a single encounter or combat. If you fall <Link to="/misc/unconscious">unconscious</Link>, your <em>bloodrage</em> immediately ends, placing you in peril of death.</Pair>
@@ -286,7 +293,7 @@ const _geist_channeler = {title: "Geist Channeler", jsx: <><h2 id="arc-spiritual
 <Ability id="arc-spiritualist-geist_channeler-unnerving-touch-su" extraClasses="subAbility" icon={["magic-palm"]}>
 <Pair single id="arc-spiritualist-geist_channeler-unnerving-touch-su">Unnerving Touch (Su)</Pair>
 <Pair title="Standard Action">A geist channeler's phantom can make a melee touch attack against a living creature, even if that creature is corporeal. If the attack hits, the target is <Link to="/misc/shaken">shaken</Link> for 1d4+1 rounds. A successful Will save (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) negates this effect.</Pair>
-<Pair title="At 5th Level">When the phantom can damage corporeal creatures with its slam attack, its slam attacks against living corporeal creatures gain this ability.</Pair>
+<Pair title="At 5th Level">When the phantom gains the ability to damage corporeal creatures with its slam attack, its slam attacks against living corporeal creatures gain this ability.</Pair>
 <Pair title="Special">Multiple attacks against the same creature don't cause the creature to become <Link to="/misc/frightened">frightened</Link>. This is a mind-affecting fear effect.</Pair>
 </Ability>
 <Ability id="arc-spiritualist-geist_channeler-poltergeists-knack-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
@@ -626,33 +633,56 @@ const _necrologist = {title: "Necrologist", jsx: <><h2 id="arc-spiritualist-necr
 <Pair hl title="Alters">Shared consciousness</Pair>
 <Pair title="Passive Ability">A necrologist gains a bonus on saving throws against death effects, energy drain, and negative energy rather than against mind-affecting effects (and can shunt such an effect onto the phantom) when her <em>undead phantom</em> is contained within her consciousness.</Pair>
 </Ability>
-<Ability id="arc-spiritualist-necrologist-undead-phantom" icon={["info"]}>
+<Ability id="arc-spiritualist-necrologist-undead-phantom" extraClasses="hasSubs" icon={["info"]}>
 <Pair single id="arc-spiritualist-necrologist-undead-phantom">Undead Phantom</Pair>
-<Pair title="Info">A necrologist's phantom is undead, rather than an outsider. It has normal undead immunities and no Constitution score; uses d8 Hit Dice, each of which is modified by the phantom's Charisma modifier as normal; and gains the abilities below at the levels indicated. An undead phantom otherwise follows the standard phantom rules (for instance, its base attack bonus and skills don't change to match undead).</Pair>
+<Pair title="Info">A necrologist's phantom is undead, rather than an outsider. It has normal <Link to="/type/undead">undead</Link> immunities and no Constitution score; uses d8 Hit Dice, each of which is modified by the phantom's Charisma modifier as normal; and gains the abilities below at the levels indicated. An undead phantom otherwise follows the standard phantom rules (for instance, its base attack bonus and skills don't change to match undead).</Pair>
 </Ability>
-<Ability id="arc-spiritualist-necrologist-cling-of-the-grave-su" icon={["magic-swirl"]}>
+<Ability id="arc-spiritualist-necrologist-cling-of-the-grave-su" extraClasses="subAbility" icon={["magic-swirl"]}>
 <Pair single id="arc-spiritualist-necrologist-cling-of-the-grave-su">Cling of the Grave (Su)</Pair>
 <Pair hl title="Alters">Share spells</Pair>
+<Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An undead phantom can <Link to="/rule/hold_the_charge">hold the charge</Link> on a touch spell of the necromancy school up to a maximum of 1 round per spiritualist level of the necrologist.</Pair>
 </Ability>
-<Ability id="arc-spiritualist-necrologist-channel-energy-su" icon={["aura"]}>
+<Ability id="arc-spiritualist-necrologist-unnatural-aura-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-spiritualist-necrologist-unnatural-aura-su">Unnatural Aura (Su)</Pair>
+<Pair hl title="Replaces">Slam damage increase gained at 5th level</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Passive Ability">Animals do not willingly approach within 30 feet of a fully manifested undead phantom unless the necrologist succeeds at a Handle Animal, Ride, or wild empathy check (DC = 10 + 1/2 the necrologist's spiritualist level + the phantom's Charisma modifier).</Pair>
+</Ability>
+<Ability id="arc-spiritualist-necrologist-channel-resistance-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-spiritualist-necrologist-channel-resistance-su">Channel Resistance (Su)</Pair>
+<Pair hl title="Replaces">Devotion</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Passive Ability">A necrologist's phantom gains a +4 bonus on saving throws to resist the effects of <em>channel energy.</em></Pair>
+</Ability>
+<Ability id="arc-spiritualist-necrologist-lifedrinker-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-spiritualist-necrologist-lifedrinker-su">Lifedrinker (Su)</Pair>
+<Pair hl title="Replaces">Slam damage increase gained at 13th level</Pair>
+<Pair title="Gained">At 13th Level</Pair>
+<Pair title="Ability">When a necrologist's phantom reduces a creature to fewer than 0 hit points with an attack or spell, the necrologist can expend one use of her <em>channel energy</em> ability as a <strong className="hl">swift action</strong> to affect the same target with <Link to="/spell/death_knell">death knell</Link>. If the target fails its save, the necrologist can choose either herself or her phantom to gain the benefit of the spell.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-necrologist-channel-energy-su" extraClasses="hasSubs" icon={["aura"]}>
 <Pair single id="arc-spiritualist-necrologist-channel-energy-su">Channel Energy (Su)</Pair>
 <Pair hl title="Replaces">Spiritual interference</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Usage">1 + Charisma modifier times/day</Pair>
 <Pair title="Ability">A necrologist gains the ability to <Link to="/ability/channel_negative_energy">channel negative energy</Link>, with an effective cleric level equal to her spiritualist level - 3.</Pair>
 </Ability>
-<Ability id="arc-spiritualist-necrologist-unnatural-aura-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-spiritualist-necrologist-unnatural-aura-su">Unnatural Aura (Su)</Pair>
-<Pair hl title="Replaces">Slam damage increase gained at 5th level</Pair>
-<Pair title="Gained">At 5th Level</Pair>
-<Pair title="Passive Ability">Animals do not willingly approach within 30 feet of a fully manifested undead phantom unless the necrologist succeeds at a Handle Animal, Ride, or wild empathy check (DC = 10 + 1/2 the necrologist's spiritualist level + the phantom's Charisma modifier).</Pair>
-</Ability>
-<Ability id="arc-spiritualist-necrologist-channel-resistance-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-spiritualist-necrologist-channel-resistance-su">Channel Resistance (Su)</Pair>
-<Pair hl title="Replaces">Devotion</Pair>
-<Pair title="Gained">At 6th Level</Pair>
-<Pair title="Passive Ability">A necrologist's phantom gains a +4 bonus on saving throws to resist the effects of <em>channel energy.</em></Pair>
+<Ability id="arc-spiritualist-necrologist-channel-energy-su" extraClasses="subAbility" icon={["stairs-goal","aura"]}>
+<Pair single id="arc-spiritualist-necrologist-channel-energy-su" flavor="Text from the cleric class ability.">Channel Energy (Su)</Pair>
+<Pair title="Standard Action">You must present your unholy symbol to channel energy. This causes a <Link to="/misc/burst">burst</Link> that affects all creatures of one type (either undead or living) in a 30-foot radius centered on you. This deals or heals (see below) 1d6 damage. You can choose whether or not to include yourself in this effect. Creatures that take damage from channeled energy receive a Will save to halve the damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your cleric level + your Charisma modifier.</Pair>
+<Pair title="Choice">An evil cleric (or one who worships an evil deity) channels <strong className="hl">negative energy</strong> and can choose to deal damage to living creatures or to heal undead creatures.</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
+<Pair title="At 3rd Level">The damage becomes 2d6.</Pair>
+<Pair title="At 5th Level">The damage increases to 3d6.</Pair>
+<Pair title="At 7th Level">The damage becomes 4d6.</Pair>
+<Pair title="At 9th Level">The damage increases to 5d6.</Pair>
+<Pair title="At 11th Level">The damage becomes 6d6.</Pair>
+<Pair title="At 13th Level">The damage increases to 7d6.</Pair>
+<Pair title="At 15th Level">The damage becomes 8d6.</Pair>
+<Pair title="At 17th Level">The damage increases to 9d6.</Pair>
+<Pair title="At 19th Level">The damage becomes 10d6.</Pair>
+<Pair title="Special">Creatures healed by channeled energy cannot exceed their maximum hit point total - all excess healing is lost.</Pair>
 </Ability>
 <Ability id="arc-spiritualist-necrologist-necropsychic-conduit" icon={["stairs-goal"]}>
 <Pair single id="arc-spiritualist-necrologist-necropsychic-conduit">Necropsychic Conduit</Pair>
@@ -660,12 +690,6 @@ const _necrologist = {title: "Necrologist", jsx: <><h2 id="arc-spiritualist-necr
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">A necrologist can cast psychic spells as if she had the <Link to="/feat/thanatopic_spell">Thanatopic Spell</Link> and <Link to="/feat/threnodic_spell">Threnodic Spell</Link> metamagic feats, using her undead phantom as a conduit to pierce the defenses of undead creatures.</Pair>
 <Pair title="Special">If her phantom has been banished or is not within 30 feet of her when she casts the spells, however, these feats have no effect.</Pair>
-</Ability>
-<Ability id="arc-spiritualist-necrologist-lifedrinker-su" icon={["magic-swirl"]}>
-<Pair single id="arc-spiritualist-necrologist-lifedrinker-su">Lifedrinker (Su)</Pair>
-<Pair hl title="Replaces">Slam damage increase gained at 13th level</Pair>
-<Pair title="Gained">At 13th Level</Pair>
-<Pair title="Ability">When a necrologist's phantom reduces a creature to fewer than 0 hit points with an attack or spell, the necrologist can expend one use of her <em>channel energy</em> ability as a <strong className="hl">swift action</strong> to affect the same target with <Link to="/spell/death_knell">death knell</Link>. If the target fails its save, the necrologist can choose either herself or her phantom to gain the benefit of the spell.</Pair>
 </Ability>
 </>};
 const _onmyoji = {title: "Onmyoji", jsx: <><h2 id="arc-spiritualist-onmyoji-onmyoji">Onmyoji</h2>
@@ -1087,7 +1111,7 @@ const _scourge = {title: "Scourge", jsx: <><h2 id="arc-spiritualist-scourge-scou
 <Pair hl title="Replaces">Greater spiritual interference</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Standard Action">A scourge with a phantom manifested in ectoplasmic form can command it to break apart in a gruesome display of gore and agony, transforming it into a swarm of Diminutive ectoplasmic organs and viscera. The phantom gains the <Link to="/subtype/swarm">swarm</Link> subtype, dealing its unmodified slam damage die as damage for its swarm attack. Its distraction DC is equal to 10 + 1/2 the phantom's Hit Dice + its Constitution modifier.</Pair>
-<Pair title="Special">In this form, the phantom is too diffuse to use inflict pain or any of its abilities from emotional focus (even passive abilities).</Pair>
+<Pair title="Special">In this form, the phantom is too diffuse to use <em>inflict pain</em> or any of its abilities from emotional focus (even passive abilities).</Pair>
 </Ability>
 </>};
 const _seeker_of_enlightenment = {title: "Seeker of Enlightenment", jsx: <><h2 id="arc-spiritualist-seeker_of_enlightenment-seeker-of-enlightenment">Seeker of Enlightenment</h2>
@@ -1185,7 +1209,7 @@ const _shadow_caller = {title: "Shadow Caller", jsx: <><h2 id="arc-spiritualist-
 <Pair single id="arc-spiritualist-shadow_caller-shadow-jump-su">Shadow Jump (Su)</Pair>
 <Pair hl title="Replaces">Phantom recall</Pair>
 <Pair title="Gained">At 6th Level</Pair>
-<Pair title="Ability">When a shadow caller's shade inhabits her shadow, she can travel between shadows as per the <Link to="/pclass/shadowdancer">shadowdancer's</Link> shadow jump ability. Each day, she can travel a total of 40 feet per spiritualist level in this way and, as with a shadowdancer, the distance is rounded to the nearest 10-foot increment.</Pair>
+<Pair title="Ability">When a shadow caller's shade inhabits her shadow, she can travel between shadows as per the <Link to="/pclass/shadowdancer">shadowdancer's</Link> <em>shadow jump</em> ability. Each day, she can travel a total of 40 feet per spiritualist level in this way and, as with a shadowdancer, the distance is rounded to the nearest 10-foot increment.</Pair>
 </Ability>
 <Ability id="arc-spiritualist-shadow_caller-shadow-jump-su" extraClasses="subAbility" icon={["magic-swirl"]}>
 <Pair single id="arc-spiritualist-shadow_caller-shadow-jump-su" flavor="Relevant text from the shadowdancer class ability.">Shadow Jump (Su)</Pair>
@@ -1262,7 +1286,7 @@ const _totem_spiritualist = {title: "Totem Spiritualist", jsx: <><h2 id="arc-spi
 <Pair single id="arc-spiritualist-totem_spiritualist-phantom-animal">Phantom Animal</Pair>
 <Pair hl title="Replaces">Phantom</Pair>
 <Pair title="Ability"><p>A totem spiritualist calls upon spirits of nature known as phantom animals to assist her in her journeys. A phantom animal functions like an <Link to="/sidekick/animal_companion">animal companion</Link> except as noted in the descriptions below.</p>
-<p>A totem spiritualist begins play with a phantom animal. The phantom animal uses the statistics of an animal companion and follows the standard animal companion progression in regard to Hit Dice, base attack bonus, saving throws, skills, feats, natural armor bonus, Strength and Dexterity bonuses, and <Link to="/ability/bonus_tricks">bonus tricks</Link>, but not its special abilities. A phantom animal instead gains the special abilities of <Link to="/sidekick/phantom">a standard phantom</Link>. A phantom animal is capable of becoming harbored in the spiritualist's consciousness or becoming fully or partially manifested. A phantom animal is otherwise considered a phantom for the purposes of all feats and abilities.</p>
+<p>A totem spiritualist begins play with a phantom animal. The phantom animal uses the statistics of an <Link to="/ability/animal_companion">animal companion</Link> and follows the standard animal companion progression in regard to Hit Dice, base attack bonus, saving throws, skills, feats, natural armor bonus, Strength and Dexterity bonuses, and <Link to="/ability/bonus_tricks">bonus tricks</Link>, but not its special abilities. A phantom animal instead gains the special abilities of <Link to="/sidekick/phantom">a standard phantom</Link>. A phantom animal is capable of becoming harbored in the spiritualist's consciousness or becoming fully or partially manifested. A phantom animal is otherwise considered a phantom for the purposes of all feats and abilities.</p>
 </Pair>
 <Pair title="At 7th Level">The totem spiritualist can either <em>gain an additional phantom animal</em> or <em>empower a phantom animal,</em> as described in the options below.</Pair>
 <Pair title="At 12th Level">She can <em>gain</em> or <em>empower</em> again.</Pair>

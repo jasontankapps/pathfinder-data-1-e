@@ -327,7 +327,7 @@ const _hexenhammer = {title: "Hexenhammer", jsx: <><h2 id="arc-inquisitor-hexenh
 <Pair single id="arc-inquisitor-hexenhammer-witchcraft-ex">Witchcraft (Ex)</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Gained">At 5th Level</Pair>
-<Pair title="Ability">And at every 3 inquisitor levels thereafter, a hexenhammer can learn a witch spell in place of a spell she already knows. In effect, she loses an old spell in exchange for a new one selected from the witch class spell list. The new spell's level must be the same as that of the spell being exchanged, and it must be at least 1 level lower than the highest-level inquisitor spell she can cast.</Pair>
+<Pair title="Ability">And at every 3 inquisitor levels thereafter, a hexenhammer can learn a witch spell in place of a spell she already knows. In effect, she loses an old spell in exchange for a new one selected from the <Link to="/main/spells_witch">witch</Link> class spell list. The new spell's level must be the same as that of the spell being exchanged, and it must be at least 1 level lower than the highest-level inquisitor spell she can cast.</Pair>
 <Pair title="At 8th Level">She can learn a 2nd spell, as above.</Pair>
 <Pair title="At 11th Level">She can learn a 3rd spell, as above.</Pair>
 <Pair title="At 14th Level">She can learn a 4th spell, as above.</Pair>

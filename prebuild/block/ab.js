@@ -273,7 +273,7 @@ const makeAbilityBlock = ({
 			// Ex: Gained at 12th level, 1 + 1 per every three levels afterward
 				// useF=12~4~3
 			// Ex: Gained at first level, 3 + 2 per level afterward
-				// useF=1~3~1~2+ Charisma modifier
+				// useF=1~3~1~2+Charisma modifier
 					// "Charisma modifier + # units/day"
 			const [formula, plus] = useF.split("+")
 			const rawUseF = formula.split("~");

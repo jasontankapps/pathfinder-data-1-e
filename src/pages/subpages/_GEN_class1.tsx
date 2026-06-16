@@ -5,6 +5,7 @@ import Ability from '../../components/Ability';
 import RacialOptions from '../../components/RacialOptions';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 const _not_found = {title: "Unknown", jsx: <><h2 id="class-not_found-error">Error</h2>
 <p>Unable to find the requested class.</p>
 </>};
@@ -2844,7 +2845,7 @@ const _bloodrager = {hasJL:true,title: "Bloodrager", jsx: <><div className="jump
 </aside><Ability id="class-bloodrager-bloodrage-su" icon={["stairs-goal","upgrade","armor-upgrade","broken-shield"]}>
 <Pair single id="class-bloodrager-bloodrage-su" flavor={<>Your source of internal power grants you the ability to <em>bloodrage.</em></>}>Bloodrage (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Usage">You can <em>bloodrage</em> for 2 + twice your level + your Con modifier rounds/day; these rounds need not be consecutive. Temporary increases to Con (such as those gained from <em>bloodraging</em> or spells like <Link to="/spell/bears_endurance">bear's endurance</Link>) don't increase this number.</Pair>
+<Pair title="Usage">You can <em>bloodrage</em> for 2 + twice your level + your Con modifier rounds/day; these rounds need not be consecutive. Temporary increases to Con (such as those gained from <em>bloodraging</em> or spells like <Link to="/spell/bears_endurance">bear's endurance</Link>) don't increase this number.<ByLevelPop levels={[[1,4],[2,6],[3,8],[4,10],[5,12],[6,14],[7,16],[8,18],[9,20],[10,22],[11,24],[12,26],[13,28],[14,30],[15,32],[16,34],[17,36],[18,38],[19,40],[20,42]]} preText="Con modifier + " unit="round" postText="/day" /></Pair>
 <Pair title="Free Action">You can enter or leave a <em>bloodrage</em> as a free action.</Pair>
 <Pair title="Passive Ability">While in a <em>bloodrage,</em> you gain a +4 morale bonus to your Strength and Constitution, as well as a +2 morale bonus on Will saves. In addition, you take a -2 penalty to Armor Class. The increase to Constitution grants you 2 hit points per Hit Die, but these disappear when the <em>bloodrage</em> ends and are not lost first like <Link to="/rule/temporary_hit_points">temporary hit points</Link>. While <em>bloodraging,</em> you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.</Pair>
 <Pair title="Special">When the <em>bloodrage</em> ends, you are <Link to="/misc/fatigued">fatigued</Link> for a number of rounds equal to twice the number of rounds spent in the <em>bloodrage.</em> You can't enter a new <em>bloodrage</em> while fatigued or <Link to="/misc/exhausted">exhausted</Link>, but can otherwise enter <em>bloodrage</em> multiple times during a single encounter or combat. If you fall <Link to="/misc/unconscious">unconscious</Link>, your <em>bloodrage</em> immediately ends, placing you in peril of death.</Pair>

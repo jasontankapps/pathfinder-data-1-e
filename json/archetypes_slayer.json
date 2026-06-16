@@ -194,9 +194,11 @@
 			"",
 			"::prereq{other=\"Follower of a deity\"}",
 			"",
+			"::ab[Ex-Deliverers]{icon=warning info=\"A deliverer who grossly violates the code of conduct required by his deity loses all class features granted by this archetype, except for the weapon proficiencies. (He does not gain the slayer class abilities that the archetype replaces.) He cannot thereafter gain levels as a deliverer of that deity until he atones for his deeds (see the ‹spell/atonement› spell description).\"}",
+			"",
 			"::ab[Weapon and Armor Proficiency]{icon=power ability=\"A deliverer gains proficiency with his deity's favored weapon, in addition to the slayer's normal weapon proficiencies.\" alter=\"Weapon and armor proficiency\"}",
 			"",
-			"::ab[Determined Zeal (Ex)]{l=2 icon=def flavor=\"A deliverer shrugs off attempts by his moral opposite to control or kill him.\" passive=\"On any round in which deliverer attacks an opponent whose alignment is at least two steps away from his own (such as a lawful good deliverer fighting a chaotic good or lawful evil foe, or a neutral foe with no other alignment components), he gains a +2 bonus on Will saving throws against that opponent's abilities, as well as the benefit of the ‹feat/Diehard› feat until the end of his next turn.\" replace=\"Slayer talent gained at 2nd level\"}",
+			"::ab[Determined Zeal (Ex)]{l=2 icon=def flavor=\"A deliverer shrugs off attempts by his moral opposite to control or kill him.\" passive=\"On any round in which the deliverer attacks an opponent whose alignment is at least two steps away from his own (such as a lawful good deliverer fighting a chaotic good or lawful evil foe, or a neutral foe with no other alignment components), he gains a +2 bonus on Will saving throws against that opponent's abilities, as well as the benefit of the ‹feat/Diehard› feat until the end of his next turn.\" replace=\"Slayer talent gained at 2nd level\"}",
 			"",
 			"::ab[True Believer (Ex)]{l=6 icon=def flavor=\"Mortal wounds cannot stop a deliverer from performing his divine duty.\" passive=\"On any round in which he attacks an opponent whose alignment is at least two steps away from his own (see *determined zeal,* above) while benefiting from the Diehard feat, he isn't staggered from having negative hit points, nor does he automatically lose 1 hit point per round.\" replace=\"Slayer talent gained at 6th level\"}",
 			"",
@@ -204,9 +206,7 @@
 			"",
 			"::list[The following slayer talents complement the deliverer archetype]{hl link=slayertalent all=\"foil scrutiny~rogue talent|‹talent/combat trick›, ‹talent/finesse rogue›, ‹talent/terrain mastery›, ‹talent/trap spotter›~trapfinding›\"}",
 			"",
-			"::list[The following advanced slayer talents complement the deliverer archetype]{hl link=slayertalent all=\"advanced rogue talent|‹talent/hunter's surprise›, ‹talent/master of disguise›~assassinate~ninja master trick|‹ninjatrick/evasion›\"}",
-			"",
-			"::ab[Ex-Deliverers]{icon=warning info=\"A deliverer who grossly violates the code of conduct required by his deity loses all class features granted by this archetype, except for the weapon proficiencies. (He does not gain the slayer class abilities that the archetype replaces.) He cannot thereafter gain levels as a deliverer of that deity until he atones for his deeds (see the ‹spell/atonement› spell description).\"}"
+			"::list[The following advanced slayer talents complement the deliverer archetype]{hl link=slayertalent all=\"advanced rogue talent|‹talent/hunter's surprise›, ‹talent/master of disguise›~assassinate~ninja master trick|‹ninjatrick/evasion›\"}"
 		]
 	},
 	"dune_rider": {
@@ -318,9 +318,9 @@
 			"‹SOURCE Advanced Class Origins/21›  ",
 			"These professional killers are trained and used almost exclusively by the various Sczarni crime families. Streetwise and ruthless, they operate independently, often making their talents available to the highest bidder. Though a few unscrupulous Sczarni executioners exploit this arrangement and force families to pay higher rates for their services, most of these assassins follow a strict personal code and maintain absolute transparency with their employers.",
 			"",
-			"::cskill{gain=app~diplo~ea lose=kd~kg~ride~sur}",
-			"",
 			"::ab[Bloodstained Hands (Ex)]{icon=warning prereq=\"A Sczarni executioner must be evil.\" info=\"If he ever becomes nonevil, he loses this archetype and becomes a regular slayer.\"}",
+			"",
+			"::cskill{gain=app~diplo~ea lose=kd~kg~ride~sur}",
 			"",
 			"::ab[Focused Killer (Ex)]{l=1 icon=boost-down passive=\"A Sczarni executioner's *studied target* bonuses and the DCs of his slayer abilities increase by 1 against humanoid opponents, but decrease by 1 against non-humanoid targets.\" alter=\"Studied target\"}",
 			"",
