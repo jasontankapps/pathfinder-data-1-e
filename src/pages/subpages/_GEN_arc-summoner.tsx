@@ -2,6 +2,7 @@ import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
+import {Block,Row,Cell} from '../../components/Block';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
@@ -9,7 +10,7 @@ const _blood_god_disciple = {title: "Blood God Disciple", jsx: <><h2 id="arc-sum
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 53</Link><br/>A half-orc summoner who devotes himself to one of the bloody orc gods may believe his eidolon is an avatar of that god rather than a mere supernatural creature. A blood god disciple generally fights by the avatar's side and offers it blood sacrifices in exchange for martial prowess. A blood god disciple has the following class features.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-summoner-blood_god_disciple--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/half_orc">Half-orc</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-summoner-blood_god_disciple-blood-feast-su" icon={["upgrade"]}>
 <Pair single id="arc-summoner-blood_god_disciple-blood-feast-su">Blood Feast (Su)</Pair>
-<Pair hl title="Replaces">Summon monster I, III, V, VII, and IX spell-like abilities</Pair>
+<Pair hl title="Replaces">Summon monster I, III, V, VII, and IX</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
 <Pair title="Ability"><p>A blood god disciple can feed a recently fallen foe to his eidolon, allowing the outsider to channel some of its power into the summoner. The eidolon must spend a <strong className="hl">standard action</strong> to eat some of the opponent, which must be a living, corporeal creature killed or knocked unconscious by the eidolon or summoner in the past minute. This eating deals damage to the target as if the eidolon had attacked it with one natural attack (typically a bite). The fallen creature must have at least half as many Hit Dice as the summoner.</p>
@@ -23,7 +24,7 @@ const _blood_god_disciple = {title: "Blood God Disciple", jsx: <><h2 id="arc-sum
 </Ability>
 <Ability id="arc-summoner-blood_god_disciple-bloody-gift-su" icon={["stairs-goal"]}>
 <Pair single id="arc-summoner-blood_god_disciple-bloody-gift-su">Bloody Gift (Su)</Pair>
-<Pair hl title="Replaces">Summon monster II spell-like ability</Pair>
+<Pair hl title="Replaces">Summon monster II</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">When a blood god disciple uses <em>blood feast</em> to manifest an evolution, he may touch one ally and grant it that evolution as well. Each affected ally counts as one use per day of the <em>blood feast</em> ability.</Pair>
 <Pair title="At 7th Level">The blood god disciple can affect an additional creature with this ability (each one counting as a use per day of <em>blood feast</em>).</Pair>
@@ -34,7 +35,7 @@ const _blood_god_disciple = {title: "Blood God Disciple", jsx: <><h2 id="arc-sum
 </Ability>
 <Ability id="arc-summoner-blood_god_disciple-avatar-gambit-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-summoner-blood_god_disciple-avatar-gambit-ex">Avatar Gambit (Ex)</Pair>
-<Pair hl title="Replaces">Summon monster IV spell-like ability</Pair>
+<Pair hl title="Replaces">Summon monster IV</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">When a blood god disciple dismisses his eidolon, he <em>rages</em> like a <Link to="/class/barbarian">barbarian</Link> for a number of rounds equal to half his summoner level (he may end this <em>rage</em> early just like a barbarian, but if he does so, any remaining rounds of rage from this ability are lost).</Pair>
 </Ability>
@@ -46,7 +47,7 @@ const _blood_god_disciple = {title: "Blood God Disciple", jsx: <><h2 id="arc-sum
 </Ability>
 <Ability id="arc-summoner-blood_god_disciple-rage-power-ex" icon={["stairs-goal"]}>
 <Pair single id="arc-summoner-blood_god_disciple-rage-power-ex">Rage Power (Ex)</Pair>
-<Pair hl title="Replaces">Summon monster VI and VIII spell-like abilities</Pair>
+<Pair hl title="Replaces">Summon monster VI and VIII spell-like</Pair>
 <Pair title="At 11th Level">A blood god disciple selects a barbarian <Link to="/ability/rage_powers">rage power</Link>, which he may use when <em>raging</em> (whether from the <em>avatar gambit</em> ability or actual barbarian <em>rage</em>).</Pair>
 <Pair title="At 15th Level">He selects a second rage power.</Pair>
 </Ability>
@@ -140,7 +141,7 @@ const _broodmaster = {title: "Broodmaster", jsx: <><h2 id="arc-summoner-broodmas
 <Pair title="At 16th Level">The broodmaster can only merge with one eidolon in the brood at a time.</Pair>
 </Ability>
 <h3 id="arc-summoner-broodmaster-hoarders-of-summoned-monsters">Hoarders of Summoned Monsters</h3>
-<p>The broodmaster and master summoner archetypes can potentially have 5, 10, or even more summoned creatures in play. This is a deliberate feature of these archetypes, and means that the summoner can potentially be a strong candidate for "solo" adventuring by one player. However, in the hands of an inexperienced or moderately experienced player, dealing with all of those creatures in combat can take a long time, forcing other players to wait extended periods between their turns in the initiative. It is strongly recommended that GMs only allow these archetypes for experienced players, or decide on a way to speed up the summoner's turn (such as by allowing other players to control some of the summoned monsters).</p>
+<p>The broodmaster and <Link to="/arc-summoner/master_summoner">master summoner</Link> archetypes can potentially have 5, 10, or even more summoned creatures in play. This is a deliberate feature of these archetypes, and means that the summoner can potentially be a strong candidate for "solo" adventuring by one player. However, in the hands of an inexperienced or moderately experienced player, dealing with all of those creatures in combat can take a long time, forcing other players to wait extended periods between their turns in the initiative. It is strongly recommended that GMs only allow these archetypes for experienced players, or decide on a way to speed up the summoner's turn (such as by allowing other players to control some of the summoned monsters).</p>
 </>};
 const _counter_summoner = {title: "Counter-Summoner", jsx: <><h2 id="arc-summoner-counter_summoner-counter-summoner">Counter-Summoner</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook pg. 8</Link><br/>While most summoners excel at conjuring monsters, there are those who focus instead on disrupting the conjurations of opponents. The counter-summoner harnesses powerful abjuration magic to instantly thwart the conjuration and summoning abilities of other casters, though at the cost of weakening his own powers of conjuration.</p>
@@ -218,12 +219,13 @@ const _first_worlder = {title: "First Worlder", jsx: <><h2 id="arc-summoner-firs
 <Pair single id="arc-summoner-first_worlder-eidolon">Eidolon</Pair>
 <Pair hl title="Replaces">Eidolon</Pair>
 <Pair title="Info"><p>Instead of an outsider, a first worlder's eidolon has the <Link to="/type/fey">fey</Link> creature type and the <Link to="/subtype/extraplanar">extraplanar</Link> subtype. Its statistics are changed from a standard eidolon as follows:</p>
-<blockquote>
-<p><strong>Hit Dice:</strong> d6 Hit Die (instead of d10).<br/><strong>BAB:</strong> Equal to 1/2 the eidolon's Hit Dice.<br/><strong>Good/Bad Saves:</strong> The eidolon's <Link to="/misc/good_saves">good saves</Link> area always Reflex and Will.</p>
-<p><strong>Skills:</strong> The eidolon's class skills are <Link to="/skill/acrobatics">Acrobatics</Link>, <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/climb">Climb</Link>, <Link to="/skill/craft">Craft</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/disguise">Disguise</Link>, <Link to="/skill/escape_artist">Escape Artist</Link>, <Link to="/skill/fly">Fly</Link>, <Link to="/skill/knowledge_geography">Knowledge (geography)</Link>, <Link to="/skill/knowledge_nature">Knowledge (nature)</Link>, <Link to="/skill/perception">Perception</Link>, <Link to="/skill/perform">Perform</Link>, <Link to="/skill/sense_motive">Sense Motive</Link>, <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>, <Link to="/skill/stealth">Stealth</Link>, <Link to="/skill/swim">Swim</Link>, and <Link to="/skill/use_magic_device">Use Magic Device</Link>.</p>
-<p><strong>Senses:</strong> The eidolon gains low-light vision instead of darkvision. The summoner can grant the eidolon darkvision 60 ft. as a 1-point evolution.</p>
-<p><strong>Damage Reduction:</strong> If the first worlder chooses <Link to="/evolution/damage_reduction">this evolution</Link>, he may select DR/cold iron instead of one of the alignment-based types of damage reduction.</p>
-</blockquote>
+<Block>
+<Row><Cell>Hit Dice</Cell><Cell>d6 Hit Die (instead of d10).</Cell></Row>
+<Row><Cell>BAB</Cell><Cell>Equal to 1/2 the eidolon's Hit Dice.</Cell></Row>
+<Row><Cell>Good/Bad Saves</Cell><Cell>The eidolon's <Link to="/misc/good_saves">good saves</Link> area always Reflex and Will.</Cell></Row>
+<Row><Cell>Skills</Cell><Cell>The eidolon's class skills are <Link to="/skill/acrobatics">Acrobatics</Link>, <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/climb">Climb</Link>, <Link to="/skill/craft">Craft</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/disguise">Disguise</Link>, <Link to="/skill/escape_artist">Escape Artist</Link>, <Link to="/skill/fly">Fly</Link>, <Link to="/skill/knowledge_geography">Knowledge (geography)</Link>, <Link to="/skill/knowledge_nature">Knowledge (nature)</Link>, <Link to="/skill/perception">Perception</Link>, <Link to="/skill/perform">Perform</Link>, <Link to="/skill/sense_motive">Sense Motive</Link>, <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>, <Link to="/skill/stealth">Stealth</Link>, <Link to="/skill/swim">Swim</Link>, and <Link to="/skill/use_magic_device">Use Magic Device</Link>.</Cell></Row>
+<Row><Cell>Senses</Cell><Cell>The eidolon gains low-light vision instead of darkvision. The summoner can grant the eidolon darkvision 60 ft. as a 1-point evolution.</Cell></Row>
+<Row><Cell>Damage Reduction</Cell><Cell>If the first worlder chooses <Link to="/evolution/damage_reduction">this evolution</Link>, he may select DR/cold iron instead of one of the alignment-based types of damage reduction.</Cell></Row></Block>
 </Pair>
 </Ability>
 </>};
@@ -233,70 +235,188 @@ const _god_caller = {title: "God Caller", jsx: <><h2 id="arc-summoner-god_caller
 <Pair id="arc-summoner-god_caller-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (engineering), Knowledge (geography), Knowledge (nature), Use Magic Device</Pair></Ability>
-<p><strong>Guidance (Sp):</strong> A god caller's eidolon has a tiny spark of divinity. It can use <Link to="/spell/guidance">guidance</Link> as a spell-like ability at will. However, the eidolon and the god caller must remain within 50 feet of one another for the eidolon to remain at full strength. If the eidolon is beyond 50 feet but closer than 1,000 feet, its current and maximum hit point totals are reduced by half.</p>
-<p>This ability alters <strong className="hl">life link</strong>.</p>
-<p><strong>Divine Word (Ex):</strong> At 8th level, if a god caller's eidolon would grant him a bonus with the aid another action on a Diplomacy or Intimidate check, the god caller can instead choose to roll twice and take the better result. He makes the choice before rolling. Once per day while his eidolon uses the aid another action to assist him in such a check, if the god caller would improve a target's attitude toward him, or gain a success if using the individual <Link to="/rule/influence">influence rules</Link>, he instead improves that target's attitude by 2 steps or it counts as 2 successes.</p>
-<p>This ability replaces <strong className="hl">transposition</strong>.</p>
-<p><strong>Divine Awareness (Sp):</strong> At 10th level, after 10 minutes of concentration, a god caller's eidolon can see from afar as per <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link>. The eidolon can do this once per day at 10th level, and an additional time per day every 4 summoner levels thereafter (maximum of 3 times per day at 18th level).</p>
-<p>This ability replaces <strong className="hl">aspect</strong>.</p>
-<p><strong>Divine Might (Ex):</strong> At 18th level, a god caller's eidolon's attacks are treated as epic for the purpose of overcoming damage reduction and harming mythic creatures.</p>
-<p>This ability replaces <strong className="hl">greater aspect</strong>.</p>
-<p><strong>Overwhelming Presence (Sp):</strong> At 20th level, a god caller's eidolon can use <Link to="/spell/overwhelming_presence">overwhelming presence</Link> three times per day. The save DC is equal to 19 + the eidolon's Charisma modifier.</p>
-<p>This ability replaces <strong className="hl">twin eidolon</strong>.</p>
+<Ability id="arc-summoner-god_caller-guidance-sp" icon={["magic-swirl","broken-shield"]}>
+<Pair single id="arc-summoner-god_caller-guidance-sp" flavor="A god caller's eidolon has a tiny spark of divinity.">Guidance (Sp)</Pair>
+<Pair hl title="Alters">Life link</Pair>
+<Pair title="Ability">The eidolon can use <Link to="/spell/guidance">guidance</Link> as a spell-like ability at will. However, the eidolon and the god caller must remain within 50 feet of one another for the eidolon to remain at full strength. If the eidolon is beyond 50 feet but closer than 1,000 feet, its current and maximum hit point totals are reduced by half.</Pair>
+</Ability>
+<Ability id="arc-summoner-god_caller-divine-word-ex" icon={["rolling-dices","upgrade"]}>
+<Pair single id="arc-summoner-god_caller-divine-word-ex">Divine Word (Ex)</Pair>
+<Pair hl title="Replaces">Transposition</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability">If a god caller's eidolon would grant him a bonus with the <Link to="/rule/aid_another">aid another</Link> action on a Diplomacy or Intimidate check, the god caller can instead choose to roll twice and take the better result. He makes the choice before rolling.</Pair>
+<Pair title="Ability">Once per day while his eidolon uses the aid another action to assist him in such a check, if the god caller would improve a target's attitude toward him, or gain a success if using the individual <Link to="/rule/influence">influence rules</Link>, he instead improves that target's attitude by 2 steps or it counts as 2 successes.</Pair>
+</Ability>
+<Ability id="arc-summoner-god_caller-divine-awareness-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-god_caller-divine-awareness-sp">Divine Awareness (Sp)</Pair>
+<Pair hl title="Replaces">Aspect</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four summoner levels beyond 10th<ByLevelPop levels={[[10,1],[14,2],[18,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">After 10 minutes of concentration, a god caller's eidolon can see from afar as per <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link>.</Pair>
+</Ability>
+<Ability id="arc-summoner-god_caller-divine-might-ex" icon={["upgrade"]}>
+<Pair single id="arc-summoner-god_caller-divine-might-ex">Divine Might (Ex)</Pair>
+<Pair hl title="Replaces">Greater aspect</Pair>
+<Pair title="Gained">At 18th Level</Pair>
+<Pair title="Passive Ability">A god caller's eidolon's attacks are treated as epic for the purpose of overcoming damage reduction and harming mythic creatures.</Pair>
+</Ability>
+<Ability id="arc-summoner-god_caller-overwhelming-presence-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-god_caller-overwhelming-presence-sp">Overwhelming Presence (Sp)</Pair>
+<Pair hl title="Replaces">Twin eidolon</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">A god caller's eidolon can use <Link to="/spell/overwhelming_presence">overwhelming presence</Link> three times per day. The save DC is equal to 19 + the eidolon's Charisma modifier.</Pair>
+</Ability>
 </>};
 const _leshy_caller = {title: "Leshy Caller", jsx: <><h2 id="arc-summoner-leshy_caller-leshy-caller">Leshy Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 94</Link><br/>A leshy caller summons creatures from the First World and forges a bond with a leshy eidolon.</p>
-<p><strong>Leshy Eidolon:</strong> When a leshy caller summons her eidolon, the eidolon's body is created from extraplanar plant material and imbued with the intelligence of a leshy spirit. Its statistics are changed from those of a standard eidolon as follows.</p>
-<p><strong>Type:</strong> The eidolon is still an outsider, and its statistics don't change, but it also counts as a plant. As it isn't truly a plant, it doesn't gain the plant immunities.</p>
-<p><strong>Base Form:</strong> The leshy caller chooses one of the base forms listed below for her eidolon. When the eidolon is summoned in an environment matching one of these base forms, the leshy caller can change the eidolon's base form to the matching form by sacrificing one daily use of her summon nature's ally ability as a free action.</p>
+<Ability id="arc-summoner-leshy_caller-leshy-eidolon" icon={["info"]}>
+<Pair single id="arc-summoner-leshy_caller-leshy-eidolon">Leshy Eidolon</Pair>
+<Pair title="Info">When a leshy caller summons her eidolon, the eidolon's body is created from extraplanar plant material and imbued with the intelligence of a leshy spirit. Its statistics are changed from those of a standard eidolon as shown below.</Pair>
+</Ability>
+<Ability id="arc-summoner-leshy_caller-type" icon={["info"]}>
+<Pair single id="arc-summoner-leshy_caller-type">Type</Pair>
+<Pair title="Info">The eidolon is still an outsider, and its statistics don't change, but it also counts as a plant. As it isn't truly a plant, it doesn't gain the plant immunities.</Pair>
+</Ability>
+<Ability id="arc-summoner-leshy_caller-base-form" extraClasses="hasSubs" icon={["info"]}>
+<Pair single id="arc-summoner-leshy_caller-base-form">Base Form</Pair>
+<Pair hl title="Alters">Eidolon</Pair>
+<Pair title="Info"><p>The leshy caller chooses one of the base forms listed below for her eidolon. When the eidolon is summoned in an environment matching one of these base forms, the leshy caller can change the eidolon's base form to the matching form by sacrificing one daily use of her <em>summon nature's ally</em> ability as a <strong className="hl">free action</strong>.</p>
 <p>Plant eidolon base forms are as follows.</p>
-<blockquote className="hanging">
-<p><strong>Cactus (Desert):</strong> <em>Size</em> Medium; <em>Speed</em> 30 ft.; <em>AC</em> +2 natural armor; <em>Saves</em> Fort (good), Ref (good), Will (bad); <em>Attack</em> sting (1d4); <em>Ability Scores</em> Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11; <em>Free Evolutions</em> <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/sting">sting</Link>.</p>
-<p><strong>Conifer (Forest, Mountain):</strong> <em>Size</em> Medium; <em>Speed</em> 30 ft.; <em>AC</em> +2 natural armor; <em>Saves</em> Fort (good), Ref (bad), Will (good); <em>Attack</em> 2 claws (1d4); <em>Ability Scores</em> Str 14, Dex 12, Con 15, Int 7, Wis 10, Cha 11; <em>Free Evolutions</em> <Link to="/evolution/claws">claws</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs).</p>
-<p><strong>Fungus (Swamp, Underground):</strong> <em>Size</em> Medium; <em>Speed</em> 30 ft.; <em>AC</em> +2 natural armor; <em>Saves</em> Fort (good), Ref (good), Will (bad); <em>Attack</em> bite (1d6); <em>Ability Scores</em> Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11; <em>Free Evolutions</em> <Link to="/evolution/bite">bite</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs).</p>
-<p><strong>Leaf (Forest, Jungle, Swamp):</strong> <em>Size</em> Medium; <em>Speed</em> 30 ft.; <em>AC</em> +2 natural armor; <em>Saves</em> Fort (good), Ref (good), Will (bad); <em>Attack</em> slam (1d8); <em>Ability Scores</em> Str 16, Dex 12, Con 13, Int 7, Wis 10, Cha 11; <em>Free Evolutions</em> <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/slam">slam</Link>.</p>
-<p><strong>Seaweed (Aquatic):</strong> <em>Size</em> Medium; <em>Speed</em> 20 ft., swim 40 ft.; <em>AC</em> +2 natural armor; <em>Saves</em> Fort (good), Ref (good), Will (bad); <em>Attack</em> slam (1d8); <em>Ability Scores</em> Str 12, Dex 14, Con 15, Int 7, Wis 10, Cha 11; <em>Free Evolutions</em> <Link to="/evolution/limbs">limbs</Link> (arms), <Link to="/evolution/slam">slam</Link>, <Link to="/evolution/swim">swim</Link> (2).</p>
-</blockquote>
-<p>This alters the summoner's <strong className="hl">eidolon</strong>.</p>
-<p><strong>Summon Nature's Ally (Sp):</strong> A leshy caller can cast <Link to="/spell/summon_natures_ally">summon nature's ally</Link> as a spell-like ability a number of times per day equal to 3 + her Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the leshy caller instead gains the equivalent summon nature's ally spell; at 19th level, she can cast <Link to="/spell/summon_natures_ally_ix">summon nature's ally IX</Link> or <Link to="/spell/gate">gate</Link>. When a leshy caller gains a summon nature's ally spell as a spell-like ability, she adds it to her class spell list (though she must still select it as a spell known if she wants to gain the ability to cast it as a normal spell). She adds <Link to="/monster/leaf_leshy">leaf leshys</Link>, <Link to="/monster/gourd_leshy">gourd leshys</Link>, <Link to="/monster/fungus_leshy">fungus leshys</Link>, <Link to="/monster/seaweed_leshy">seaweed leshys</Link>, and <Link to="/monster/lotus_leshy">lotus leshys</Link> to her list of creatures for summon nature's ally I, II, III, IV, and V, respectively.</p>
-<p>This alters <strong className="hl">summon monster</strong>.</p>
+<Block titled><Row><Cell>Cactus (Desert)</Cell></Row>
+<Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
+<Row><Cell>Speed</Cell><Cell>30 ft.</Cell></Row>
+<Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
+<Row><Cell>Saves</Cell><Cell>Fort (good), Ref (good), Will (bad)</Cell></Row>
+<Row><Cell>Attack</Cell><Cell>sting (1d4)</Cell></Row>
+<Row><Cell>Ability Scores</Cell><Cell>Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11</Cell></Row>
+<Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/sting">sting</Link></Cell></Row></Block>
+<Block titled><Row><Cell>Conifer (Forest, Mountain)</Cell></Row>
+<Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
+<Row><Cell>Speed</Cell><Cell>30 ft.</Cell></Row>
+<Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
+<Row><Cell>Saves</Cell><Cell>Fort (good), Ref (bad), Will (good)</Cell></Row>
+<Row><Cell>Attack</Cell><Cell>2 claws (1d4)</Cell></Row>
+<Row><Cell>Ability Scores</Cell><Cell>Str 14, Dex 12, Con 15, Int 7, Wis 10, Cha 11</Cell></Row>
+<Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/claws">claws</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs)</Cell></Row></Block>
+<Block titled><Row><Cell>Fungus (Swamp, Underground)</Cell></Row>
+<Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
+<Row><Cell>Speed</Cell><Cell>30 ft.</Cell></Row>
+<Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
+<Row><Cell>Saves</Cell><Cell>Fort (good), Ref (good), Will (bad)</Cell></Row>
+<Row><Cell>Attack</Cell><Cell>bite (1d6)</Cell></Row>
+<Row><Cell>Ability Scores</Cell><Cell>Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11</Cell></Row>
+<Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/bite">bite</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs)</Cell></Row></Block>
+<Block titled><Row><Cell>Leaf (Forest, Jungle, Swamp)</Cell></Row>
+<Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
+<Row><Cell>Speed</Cell><Cell>30 ft.</Cell></Row>
+<Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
+<Row><Cell>Saves</Cell><Cell>Fort (good), Ref (good), Will (bad)</Cell></Row>
+<Row><Cell>Attack</Cell><Cell>slam (1d8)</Cell></Row>
+<Row><Cell>Ability Scores</Cell><Cell>Str 16, Dex 12, Con 13, Int 7, Wis 10, Cha 11</Cell></Row>
+<Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/slam">slam</Link></Cell></Row></Block>
+<Block titled><Row><Cell>Seaweed (Aquatic)</Cell></Row>
+<Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
+<Row><Cell>Speed</Cell><Cell>20 ft., swim 40 ft.</Cell></Row>
+<Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
+<Row><Cell>Saves</Cell><Cell>Fort (good), Ref (good), Will (bad)</Cell></Row>
+<Row><Cell>Attack</Cell><Cell>slam (1d8)</Cell></Row>
+<Row><Cell>Ability Scores</Cell><Cell>Str 12, Dex 14, Con 15, Int 7, Wis 10, Cha 11</Cell></Row>
+<Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/limbs">limbs</Link> (arms), <Link to="/evolution/slam">slam</Link>, <Link to="/evolution/swim">swim</Link> (2)</Cell></Row></Block>
+</Pair>
+</Ability>
+<Ability id="arc-summoner-leshy_caller-summon-natures-ally-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-leshy_caller-summon-natures-ally-sp">Summon Nature's Ally (Sp)</Pair>
+<Pair hl title="Alters">Summon monster</Pair>
+<Pair title="Ability">A leshy caller can cast <Link to="/spell/summon_natures_ally">summon nature's ally</Link> as a spell-like ability a number of times per day equal to 3 + her Charisma modifier.</Pair>
+<Pair title="Info">At levels where a regular summoner would gain access to a new level of <em>summon monster</em> as a spell-like ability, the leshy caller instead gains the equivalent <em>summon nature's ally</em> spell; at 19th level, she can cast <Link to="/spell/summon_natures_ally_ix">summon nature's ally IX</Link> or <Link to="/spell/gate">gate</Link>.</Pair>
+<Pair title="Passive Ability">When a leshy caller gains a <em>summon nature's ally</em> spell as a spell-like ability, she adds it to her class spell list (though she must still select it as a spell known if she wants to gain the ability to cast it as a normal spell). She adds <Link to="/monster/leaf_leshy">leaf leshys</Link>, <Link to="/monster/gourd_leshy">gourd leshys</Link>, <Link to="/monster/fungus_leshy">fungus leshys</Link>, <Link to="/monster/seaweed_leshy">seaweed leshys</Link>, and <Link to="/monster/lotus_leshy">lotus leshys</Link> to her list of creatures for <em>summon nature's ally I, II, III, IV,</em> and <em>V,</em> respectively.</Pair>
+</Ability>
 </>};
 const _master_summoner = {title: "Master Summoner", jsx: <><h2 id="arc-summoner-master_summoner-master-summoner">Master Summoner</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 80</Link><br/>Most summoners forge a bond with a single, powerful eidolon, but some summoners seek to control a variety of creatures. The master summoner sacrifices the power of his eidolon in favor of summoning a plethora of otherworldly creatures to aid him.</p>
-<p><strong>Lesser Eidolon:</strong> A master summoner's class level is halved (minimum 1) for the purposes of determining his <Link to="/sidekick/eidolon">eidolon's</Link> abilities, Hit Dice, evolution pool, and so on. The eidolon otherwise functions as normal.</p>
-<p>This ability replaces the summoner's normal <strong className="hl">eidolon</strong> ability.</p>
-<p><strong>Summoning Mastery (Sp):</strong> Starting at 1st level, a master summoner can cast <Link to="/spell/summon_monster_i">summon monster I</Link> as a spell-like ability a number of times per day equal to 5 + his Charisma modifier. The summoner can use this ability when his eidolon is summoned. Only one summon monster spell may be in effect while the eidolon is summoned. If the summoner's eidolon is not summoned, the number of creatures that can be summoned with this ability is only limited by its uses per day. This ability otherwise functions as the summoner's normal summon monster I ability. Other than these restrictions, there is no limit to how many summon monster or <Link to="/spell/gate">gate</Link> spells the summoner can have active at one time.</p>
-<p>This ability replaces the summoner's normal <strong className="hl">summon monster I</strong> ability and <strong className="hl">shield ally</strong>.</p>
-<p><strong>Augment Summoning:</strong> At 2nd level, a master summoner gains <Link to="/feat/augment_summoning">Augment Summoning</Link> as a bonus feat. He does not have to meet any requirements for this feat.</p>
-<p>This ability replaces <strong className="hl">bond senses</strong>.</p>
+<Ability id="arc-summoner-master_summoner-lesser-eidolon" icon={["broken-shield"]}>
+<Pair single id="arc-summoner-master_summoner-lesser-eidolon">Lesser Eidolon</Pair>
+<Pair hl title="Replaces">Eidolon</Pair>
+<Pair title="Info">A master summoner's class level is halved (minimum 1) for the purposes of determining his <Link to="/sidekick/eidolon">eidolon's</Link> abilities, Hit Dice, evolution pool, and so on. The eidolon otherwise functions as normal.</Pair>
+</Ability>
+<Ability id="arc-summoner-master_summoner-summoning-mastery-sp" icon={["magic-swirl","upgrade"]}>
+<Pair single id="arc-summoner-master_summoner-summoning-mastery-sp">Summoning Mastery (Sp)</Pair>
+<Pair hl title="Replaces">Summon monster I, shield ally</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A master summoner can cast <Link to="/spell/summon_monster_i">summon monster I</Link> as a spell-like ability a number of times per day equal to 5 + his Charisma modifier. The summoner can use this ability when his eidolon is summoned.</Pair>
+<Pair title="Special">Only one <em>summon monster</em> spell may be in effect while the eidolon is summoned. If the summoner's eidolon is not summoned, the number of creatures that can be summoned with this ability is only limited by its uses per day. This ability otherwise functions as the summoner's normal <em>summon monster I</em> ability. Other than these restrictions, there is no limit to how many <em>summon monster</em> or <Link to="/spell/gate">gate</Link> spells the summoner can have active at one time.</Pair>
+</Ability>
+<Ability id="arc-summoner-master_summoner-augment-summoning" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-master_summoner-augment-summoning">Augment Summoning</Pair>
+<Pair hl title="Replaces">Bond senses</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A master summoner gains <Link to="/feat/augment_summoning">Augment Summoning</Link> as a bonus feat. He does not have to meet any requirements for this feat.</Pair>
+</Ability>
 <h3 id="arc-summoner-master_summoner-hordes-of-summoned-monsters">Hordes of Summoned Monsters</h3>
-<p>The broodmaster and master summoner archetypes can potentially have 5, 10, or even more summoned creatures in play. This is a deliberate feature of these archetypes, and means that the summoner can potentially be a strong candidate for "solo" adventuring by one player. However, in the hands of an inexperienced or moderately experienced player, dealing with all of those creatures in combat can take a long time, forcing other players to wait extended periods between their turns in the initiative. It is strongly recommended that GMs only allow these archetypes for experienced players, or decide on a way to speed up the summoner's turn (such as by allowing other players to control some of the summoned monsters).</p>
+<p>The <Link to="/arc-summoner/broodmaster">broodmaster</Link> and master summoner archetypes can potentially have 5, 10, or even more summoned creatures in play. This is a deliberate feature of these archetypes, and means that the summoner can potentially be a strong candidate for "solo" adventuring by one player. However, in the hands of an inexperienced or moderately experienced player, dealing with all of those creatures in combat can take a long time, forcing other players to wait extended periods between their turns in the initiative. It is strongly recommended that GMs only allow these archetypes for experienced players, or decide on a way to speed up the summoner's turn (such as by allowing other players to control some of the summoned monsters).</p>
 </>};
 const _morphic_savant = {title: "Morphic Savant", jsx: <><h2 id="arc-summoner-morphic_savant-morphic-savant">Morphic Savant</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook pg. 16</Link><br/>A morphic savant is an agent of change who draws power from the Abyss, Elysium, or the Maelstrom to fulfill whatever goals strike his fancy. Chaotic evil and chaotic neutral morphic savants often train with <Link to="/pclass/blackfire_adept">Blackfire Adepts</Link> in the hopes of learning greater powers of chaotic unmaking, and chaotic good morphic savants are most common as agents of the <Link to="/rule/bellflower_network">Bellflower Network</Link>.</p>
-<p><strong>Alignment:</strong> Any chaotic.</p>
-<p><strong>Eidolon of Chaos:</strong> A morphic savant's eidolon must be of a chaotic alignment. The morphic savant's eidolon has three base forms: biped, quadruped, and serpentine. Each form has the same feats and skills, but has its own set of evolutions. When the summoner meditates and regains his spell slots for the day, he can select any of the three base forms of his eidolon. The eidolon has 1 fewer evolution point than normal for an eidolon of the morphic savant's summoner level, and has 1 fewer skill point per Hit Die.</p>
-<p>This ability alters <strong className="hl">eidolon</strong>.</p>
-<p><strong>Morphic Monsters:</strong> Since a morphic savant's power is drawn from planar energies aligned with chaos, all the creatures he summons must be of a chaotic alignment. If a creature would normally be celestial or fiendish, it is instead an <Link to="/template/entropic">entropic creature</Link>.</p>
-<p>This also causes the morphic savant's summoning power to be less reliable than a standard summoner's. Each time he uses his summon monster spell-like ability to summon multiple creatures, there is a 50% chance he summons one more monster than normal for the summon monster spell he uses, in which case the creatures remain for only 1 round per level (instead of 1 minute per level).</p>
-<p>Also, starting at 2nd level, the morphic savant can grant one 1-point <Link to="/ability/evolutions">evolution</Link> to all the creatures he summons with his summon monster spell-like ability. He can't grant an evolution that duplicates the function of, or has the same name as, any ability the summoned creatures already possess (for example, he can't grant a creature with a bite attack another bite attack), nor can he add an evolution that causes the summoned monsters to have more attacks than his eidolon's maximum number of attacks. The creatures do not have to be of the correct subtype to gain an evolution, but do have to meet any other prerequisites.</p>
-<p>This ability alters <strong className="hl">summon monster</strong>.</p>
-<p><strong>Chaos Magic:</strong> A morphic savant gains the following bonus spells known at the listed spell level: 1st-<Link to="/spell/protection_from_law">protection from law</Link>, 2nd-<Link to="/spell/shard_of_chaos">shard of chaos</Link>, 3rd-<Link to="/spell/magic_circle_against_law">magic circle against law</Link>, 4th-<Link to="/spell/chaos_hammer">chaos hammer</Link>, 5th-<Link to="/spell/dispel_law">dispel law</Link>, 6th-<Link to="/spell/word_of_chaos">word of chaos</Link>. The morphic savant gains one fewer spell known per spell level for spell levels 1-6.</p>
-<p>This ability alters the summoner's <strong className="hl">spells</strong> known.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-summoner-morphic_savant--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Chaotic alignment</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-summoner-morphic_savant-eidolon-of-chaos" icon={["info","stairs-goal"]}>
+<Pair single id="arc-summoner-morphic_savant-eidolon-of-chaos">Eidolon of Chaos</Pair>
+<Pair hl title="Alters">Eidolon</Pair>
+<Pair title="Ability">A morphic savant's eidolon must be of a chaotic alignment. The morphic savant's eidolon has three base forms: biped, quadruped, and serpentine. Each form has the same feats and skills, but has its own set of evolutions. When the summoner meditates and regains his spell slots for the day, he can select any of the three base forms of his eidolon. The eidolon has 1 fewer evolution point than normal for an eidolon of the morphic savant's summoner level, and has 1 fewer skill point per Hit Die.</Pair>
+</Ability>
+<Ability id="arc-summoner-morphic_savant-morphic-monsters" icon={["info","magic-swirl","broken-shield","upgrade"]}>
+<Pair single id="arc-summoner-morphic_savant-morphic-monsters">Morphic Monsters</Pair>
+<Pair hl title="Alters">Summon monster</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Info"><p>Since a morphic savant's power is drawn from planar energies aligned with chaos, all the creatures he summons must be of a chaotic alignment. If a creature would normally be celestial or fiendish, it is instead an <Link to="/template/entropic">entropic creature</Link>.</p>
+<p>This also causes the morphic savant's summoning power to be less reliable than a standard summoner's. Each time he uses his <em>summon monster</em> spell-like ability to summon multiple creatures, there is a 50% chance he summons one more monster than normal for the <em>summon monster</em> spell he uses, in which case the creatures remain for only 1 round per level (instead of 1 minute per level).</p>
+</Pair>
+<Pair title="At 2nd Level">The morphic savant can grant one 1-point <Link to="/ability/evolutions">evolution</Link> to all the creatures he summons with his <em>summon monster</em> spell-like ability. He can't grant an evolution that duplicates the function of, or has the same name as, any ability the summoned creatures already possess (for example, he can't grant a creature with a bite attack another bite attack), nor can he add an evolution that causes the summoned monsters to have more attacks than his eidolon's maximum number of attacks. The creatures do not have to be of the correct subtype to gain an evolution, but do have to meet any other prerequisites.</Pair>
+</Ability>
+<Ability id="arc-summoner-morphic_savant-chaos-magic" icon={["spell-book"]}>
+<Pair single id="arc-summoner-morphic_savant-chaos-magic">Chaos Magic</Pair>
+<Pair hl title="Alters">Spells known</Pair>
+<Pair title="Info">A morphic savant gains the following bonus spells known at the listed spell level. The morphic savant gains one fewer spell known per spell level for spell levels 1-6.</Pair>
+<Pair plain title="1st"><Link to="/spell/protection_from_law">Protection from law</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/shard_of_chaos">Shard of chaos</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/magic_circle_against_law">Magic circle against law</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/chaos_hammer">Chaos hammer</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/dispel_law">Dispel law</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/word_of_chaos">Word of chaos</Link></Pair>
+</Ability>
 </>};
 const _naturalist = {title: "Naturalist", jsx: <><h2 id="arc-summoner-naturalist-naturalist">Naturalist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 123</Link><br/>A naturalist is a summoner who is in tune with the natural world, using his magic like a lens to focus various animal aspects onto his eidolon. More akin to a hunter than to other arcane spellcasters, a naturalist instinctively masters the power of such creatures as the bear, wolf, mouse, or tiger to make his exotic eidolon the perfect living tool for battle or stealth, and he eventually discovers how to apply these transformations to himself as well.</p>
-<p><strong>Nature's Call (Sp):</strong> Starting at 1st level, the naturalist can cast <Link to="/spell/summon_natures_ally_i">summon nature's ally I</Link> as a spell-like ability a number of times per day equal to 3 + his Charisma modifier. He can only use this ability to summon creatures of the animal, magical beast, or vermin type. This ability otherwise functions as the summon monster I class feature (increasing in level as the naturalist goes up in level and with the same restrictions).</p>
-<p>This ability replaces <strong className="hl">summon monster I</strong>.</p>
-<p><strong>Animal Focus (Su):</strong> At 4th level, as a swift action a naturalist can enhance his eidolon with the aspect of an animal. Each time he uses this ability, he can select a hunter's <Link to="/ability/animal_focus">animal aspect</Link> and apply it to his eidolon. His hunter level for this ability is equal to his summoner level - 2. He does not gain the ability to add an animal aspect to himself (see Shared Focus, below). This effect lasts until the eidolon is dismissed or sent back to its home plane.</p>
+<Ability id="arc-summoner-naturalist-natures-call-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-naturalist-natures-call-sp">Nature's Call (Sp)</Pair>
+<Pair hl title="Replaces">Summon monster I</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The naturalist can cast <Link to="/spell/summon_natures_ally_i">summon nature's ally I</Link> as a spell-like ability a number of times per day equal to 3 + his Charisma modifier. He can only use this ability to summon creatures of the animal, magical beast, or vermin type. This ability otherwise functions as the <em>summon monster I</em> class feature (increasing in level as the naturalist goes up in level and with the same restrictions).</Pair>
+</Ability>
+<Ability id="arc-summoner-naturalist-animal-focus-su" icon={["upgrade"]}>
+<Pair single id="arc-summoner-naturalist-animal-focus-su">Animal Focus (Su)</Pair>
+<Pair hl title="Replaces">Shield ally, greater shield ally</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Swift Action"><p>A naturalist can enhance his eidolon with the aspect of an animal. Each time he uses this ability, he can select a hunter's <Link to="/ability/animal_focus">animal aspect</Link> and apply it to his eidolon. His hunter level for this ability is equal to his summoner level - 2. He does not gain the ability to add an animal aspect to himself (see <em>Shared Focus,</em> below). This effect lasts until the eidolon is dismissed or sent back to its home plane.</p>
 <p>When an animal aspect is applied to an eidolon, its form is altered by superficial physical changes appropriate to that aspect. For example, using aspect of the <Link to="/aspect/bat">bat</Link> might give the eidolon larger ears and eyes and perhaps membranes of skin connecting its limbs to its body, while using aspect of the <Link to="/aspect/stag">stag</Link> might give the eidolon antlers and hoof-like nails on its feat. None of these changes interfere with any of the eidolon's natural or magical abilities.</p>
-<p>This ability replaces <strong className="hl">shield ally</strong> and <strong className="hl">greater shield ally</strong>.</p>
-<p><strong>Second Animal Focus (Su):</strong> At 10th level, whenever a naturalist uses animal focus, he may apply two different animal aspects to his eidolon. The eidolon's form gains superficial physical charges appropriate to the chosen aspect.</p>
-<p>This replaces the <strong className="hl">aspect</strong> summoner class ability.</p>
-<p><strong>Shared Focus (Su):</strong> At 14th level, the naturalist begins to take on some of the feral nature of his eidolon. Whenever the naturalist uses animal focus to grant an aspect to his eidolon, he also gains the effects of the chosen aspect. The naturalist keeps this aspect until his eidolon is dismissed or sent back to its home plane. The naturalist gains the effects of only one aspect, even if the eidolon gains more than one (naturalist's choice).</p>
-<p>This ability replaces <strong className="hl">life bond</strong>.</p>
-<p><strong>Third Animal Focus (Su):</strong> At 18th level, whenever a naturalist uses his animal focus ability, he can apply three different animal aspects to his eidolon (one of which lasts until he decides to change it).</p>
-<p>This ability replaces <strong className="hl">greater aspect</strong>.</p>
+</Pair>
+</Ability>
+<Ability id="arc-summoner-naturalist-second-animal-focus-su" icon={["upgrade"]}>
+<Pair single id="arc-summoner-naturalist-second-animal-focus-su">Second Animal Focus (Su)</Pair>
+<Pair hl title="Replaces">Aspect</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">Whenever a naturalist uses <em>animal focus,</em> he may apply two different animal aspects to his eidolon. The eidolon's form gains superficial physical charges appropriate to the chosen aspect.</Pair>
+</Ability>
+<Ability id="arc-summoner-naturalist-shared-focus-su" icon={["upgrade"]}>
+<Pair single id="arc-summoner-naturalist-shared-focus-su" flavor="The naturalist begins to take on some of the feral nature of his eidolon.">Shared Focus (Su)</Pair>
+<Pair hl title="Replaces">Life bond</Pair>
+<Pair title="Gained">At 14th Level</Pair>
+<Pair title="Ability">Whenever the naturalist uses <em>animal focus</em> to grant an aspect to his eidolon, he also gains the effects of the chosen aspect. The naturalist keeps this aspect until his eidolon is dismissed or sent back to its home plane. The naturalist gains the effects of only one aspect, even if the eidolon gains more than one (naturalist's choice).</Pair>
+</Ability>
+<Ability id="arc-summoner-naturalist-third-animal-focus-su" icon={["upgrade"]}>
+<Pair single id="arc-summoner-naturalist-third-animal-focus-su">Third Animal Focus (Su)</Pair>
+<Pair hl title="Replaces">Greater aspect</Pair>
+<Pair title="Gained">At 18th Level</Pair>
+<Pair title="Ability">Whenever a naturalist uses his <em>animal focus</em> ability, he can apply three different animal aspects to his eidolon (one of which lasts until he decides to change it).</Pair>
+</Ability>
 </>};
 const _pyroclast = {title: "Pyroclast", jsx: <><h2 id="arc-summoner-pyroclast-pyroclast">Pyroclast</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_95_anvil_of_fire">Pathfinder #95: Anvil of Fire pg. 72</Link><br/>Pyroclasts harness the primal elemental energy of magma. Their eidolons often resemble elemental beings.</p>
