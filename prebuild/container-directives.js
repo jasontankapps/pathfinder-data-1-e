@@ -75,6 +75,20 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 						}</IonLabel></IonItem>`
 					);
 				}
+				case "block": {
+					flags.block = true;
+					const marked2 = makeNewMarkedInstance();
+					const {title} = attrs;
+					return title ? (
+						`<Block titled><Row><Cell>${title}</Cell></Row>${
+							removeCurlyBrackets(marked2.parse(text))
+						}</Block>\n`
+					) : (
+						`<Block>${
+							removeCurlyBrackets(marked2.parse(text))
+						}</Block>\n`
+					);
+				}
 				case "fakeFootnotes": {
 					const marked2 = makeNewMarkedInstance();
 					return (

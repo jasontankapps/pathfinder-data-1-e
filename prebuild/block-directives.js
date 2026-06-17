@@ -407,6 +407,17 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					+ `<p>${removeCurlyBrackets(marked2.parseInline(convertEncodedInfo(e)), true)}</p>`
 					+ `</div>\n`
 				);
+			} else if (n === "row") {
+				churn(n, attrs, ["clear","info"], [], logError);
+				// ::row should only be called inside :::block, so no need to modify flags
+				const marked2 = makeNewMarkedInstance();
+				return (
+					`\n<Row><Cell>${
+						removeCurlyBrackets(marked2.parseInline(convertEncodedInfo(text)))
+					}</Cell><Cell>${
+						removeCurlyBrackets(marked2.parseInline(convertEncodedInfo(attrs.info)))
+					}</Cell></Row>`
+				);
 			} else if (n === "ab") {
 				churn(n, attrs, [
 					"clear", "jl", "id", "flavor", "indent",
