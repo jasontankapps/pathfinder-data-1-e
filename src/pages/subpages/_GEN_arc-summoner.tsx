@@ -707,7 +707,7 @@ const _twinned_summoner = {title: "Twinned Summoner", jsx: <><h2 id="arc-summone
 <Ability id="arc-summoner-twinned_summoner-teamwork-feats-ex" icon={["stairs-goal"]}>
 <Pair single id="arc-summoner-twinned_summoner-teamwork-feats-ex">Teamwork Feats (Ex)</Pair>
 <Pair hl title="Replaces">Shield ally, greater shield ally</Pair>
-<Pair title="At 4th Level">And at 12th level, a twinned summoner gains <Link to="/main/feats_teamwork">a bonus teamwork feat</Link>. He must meet the prerequisites of the selected teamwork feat.</Pair>
+<Pair title="At 4th Level">A twinned summoner gains <Link to="/main/feats_teamwork">a bonus teamwork feat</Link>. He must meet the prerequisites of the selected teamwork feat.</Pair>
 <Pair title="At 12th Level">The summoner gains another bonus teamwork feat he meets the prerequisites of.</Pair>
 <Pair title="Special">The twinned summoner automatically grants all of his teamwork feats to his eidolon. The eidolon doesn't need to meet the prerequisites of these teamwork feats.</Pair>
 </Ability>
