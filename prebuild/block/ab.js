@@ -51,7 +51,7 @@ const parseAtts = (attrs) => {
 
 const parseXYZ = (etc, logError) => {
 	const result = {};
-	Object.values(etc).forEach(([key, value]) => {
+	Object.entries(etc).forEach(([key, value]) => {
 		["x","y","z","X","Y","Z"].some(x => {
 			if(key.startsWith(x)) {
 				if(result[x]) {

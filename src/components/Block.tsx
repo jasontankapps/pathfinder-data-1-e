@@ -2,14 +2,15 @@ import { FC, PropsWithChildren } from "react";
 
 interface BlockProps {
 	titled?: boolean
+	tiny?: boolean
 }
 interface RowProps {}
 interface CellProps {}
 
 export const Block: FC<PropsWithChildren<BlockProps>> = (props) => {
-	const {titled, children} = props;
+	const {titled, tiny, children} = props;
 	return (
-		<div className={"table" + (titled ? " titled" : "")}>
+		<div className={"table" + (titled ? " titled" : "") + (tiny ? " tiny" : "")}>
 			{children}
 		</div>
 	);

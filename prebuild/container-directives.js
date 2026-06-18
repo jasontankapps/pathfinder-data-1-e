@@ -78,13 +78,13 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 				case "block": {
 					flags.block = true;
 					const marked2 = makeNewMarkedInstance();
-					const {title} = attrs;
+					const {title, tiny} = attrs;
 					return title ? (
-						`<Block titled><Row><Cell>${title}</Cell></Row>${
+						`<Block titled${tiny ? " tiny" : ""}><Row><Cell>${title}</Cell></Row>${
 							removeCurlyBrackets(marked2.parse(text))
 						}</Block>\n`
 					) : (
-						`<Block>${
+						`<Block${tiny ? " tiny" : ""}>${
 							removeCurlyBrackets(marked2.parse(text))
 						}</Block>\n`
 					);
