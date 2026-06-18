@@ -4,7 +4,6 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import {Block,Row,Cell} from '../../components/Block';
 import ScrollContainer from '../../components/ScrollContainer';
-import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 const _blood_god_disciple = {title: "Blood God Disciple", jsx: <><h2 id="arc-summoner-blood_god_disciple-blood-god-disciple">Blood God Disciple</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 53</Link><br/>A half-orc summoner who devotes himself to one of the bloody orc gods may believe his eidolon is an avatar of that god rather than a mere supernatural creature. A blood god disciple generally fights by the avatar's side and offers it blood sacrifices in exchange for martial prowess. A blood god disciple has the following class features.</p>
@@ -206,13 +205,12 @@ const _first_worlder = {title: "First Worlder", jsx: <><h2 id="arc-summoner-firs
 <Pair single id="arc-summoner-first_worlder-fey-summons-su">Fey Summons (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>A first worlder adds the following creatures to the lists of what he can summon with his <em>summon nature's ally</em> spell-like ability:</p>
-<blockquote>
-<p><em>Summon nature's ally II:</em> gremlin (<Link to="/monster/jinkin">jinkin</Link>, <Link to="/monster/pugwampi">pugwampi</Link>, or <Link to="/monster/vexgit">vexgit</Link>).</p>
-<p><em>Summon nature's ally III:</em> gremlin (<Link to="/monster/nuglub">nuglub</Link>).</p>
-<p><em>Summon nature's ally IV:</em> <Link to="/monster/unicorn">unicorn</Link>.</p>
-<p><em>Summon nature's ally V:</em> <Link to="/monster/pixie">pixie</Link>, <Link to="/monster/satyr">satyr</Link>.</p>
-<p><em>Summon nature's ally VII:</em> <Link to="/monster/nymph">nymph</Link>.</p>
-</blockquote>
+<Block>
+<Row><Cell><em>Summon nature's ally II</em></Cell><Cell>Gremlin (<Link to="/monster/jinkin">jinkin</Link>, <Link to="/monster/pugwampi">pugwampi</Link>, or <Link to="/monster/vexgit">vexgit</Link>).</Cell></Row>
+<Row><Cell><em>Summon nature's ally III</em></Cell><Cell>Gremlin (<Link to="/monster/nuglub">nuglub</Link>).</Cell></Row>
+<Row><Cell><em>Summon nature's ally IV</em></Cell><Cell><Link to="/monster/unicorn">Unicorn</Link>.</Cell></Row>
+<Row><Cell><em>Summon nature's ally V</em></Cell><Cell><Link to="/monster/pixie">Pixie</Link>, <Link to="/monster/satyr">satyr</Link>.</Cell></Row>
+<Row><Cell><em>Summon nature's ally VII</em></Cell><Cell><Link to="/monster/nymph">Nymph</Link>.</Cell></Row></Block>
 </Pair>
 </Ability>
 <Ability id="arc-summoner-first_worlder-eidolon" icon={["stairs-goal"]}>
@@ -420,167 +418,473 @@ const _naturalist = {title: "Naturalist", jsx: <><h2 id="arc-summoner-naturalist
 </>};
 const _pyroclast = {title: "Pyroclast", jsx: <><h2 id="arc-summoner-pyroclast-pyroclast">Pyroclast</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_95_anvil_of_fire">Pathfinder #95: Anvil of Fire pg. 72</Link><br/>Pyroclasts harness the primal elemental energy of magma. Their eidolons often resemble elemental beings.</p>
-<p><strong>Diminished Spellcasting:</strong> A pyroclast receives one fewer spell per day of each level than normal. If this reduces the number of spells for a level to 0, he can cast spells of that level only if his Charisma score grants him <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</p>
-<p>This alters the summoner's <strong className="hl">spells</strong>.</p>
-<p><strong>Bound to Fire (Ex):</strong> A pyroclast's eidolon begins with resist fire 10 and vulnerability to cold. This improves to resist fire 20 when the pyroclast reaches 5th level. A pyroclast's eidolon gains the fire subtype and immunity to fire when he reaches 10th level. This ability permanently reduces the eidolon's evolution pool by 1 point.</p>
-<p><strong>Detonate (Su):</strong> At 6th level, a pyroclast can banish his eidolon in an explosion of fiery shards. This slays the eidolon and deals 1d6 points of damage per Hit Die of the eidolon to every creature in a 20-foot-radius <Link to="/misc/burst">burst</Link> (Reflex half, DC = 10 + 1/2 his summoner level + his Charisma modifier). Half of this damage is fire, and the other half is piercing. At 12th level, the pyroclast can reduce the damage by 4d6 to increase the burst radius to 40 feet. The pyroclast can use this ability once per day.</p>
-<p>This ability replaces <strong className="hl">maker's call</strong>.</p>
-<p><strong>Heart of Earth and Fire (Ex):</strong> At 8th level, a pyroclast grants any of his summoned creatures with the earth or fire subtypes a +1 morale bonus on attack rolls, saving throws, and weapon damage rolls when he is within 30 feet. At 10th level, the pyroclast also grants these bonuses to his eidolon.</p>
-<p>This ability replaces <strong className="hl">transposition</strong>.</p>
+<Ability id="arc-summoner-pyroclast-diminished-spellcasting" icon={["broken-shield"]}>
+<Pair single id="arc-summoner-pyroclast-diminished-spellcasting">Diminished Spellcasting</Pair>
+<Pair hl title="Alters">Spells</Pair>
+<Pair title="Info">A pyroclast receives one fewer spell per day of each level than normal. If this reduces the number of spells for a level to 0, he can cast spells of that level only if his Charisma score grants him <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
+</Ability>
+<Ability id="arc-summoner-pyroclast-bound-to-fire-ex" icon={["armor-upgrade","broken-shield"]}>
+<Pair single id="arc-summoner-pyroclast-bound-to-fire-ex">Bound to Fire (Ex)</Pair>
+<Pair title="Passive Ability">A pyroclast's eidolon begins with <Link to="/umr/resist">resist</Link> fire 10 and <Link to="/umr/vulnerability">vulnerability</Link> to cold.</Pair>
+<Pair title="At 5th Level">This improves to resist fire 20.</Pair>
+<Pair title="At 10th Level">A pyroclast's eidolon gains the <Link to="/subtype/fire">fire</Link> subtype and <Link to="/umr/immunity">immunity</Link> to fire.</Pair>
+<Pair title="Special">This ability permanently reduces the eidolon's evolution pool by 1 point.</Pair>
+</Ability>
+<Ability id="arc-summoner-pyroclast-detonate-su" icon={["aura"]}>
+<Pair single id="arc-summoner-pyroclast-detonate-su">Detonate (Su)</Pair>
+<Pair hl title="Replaces">Maker's call</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Usage">Once per day</Pair>
+<Pair title="Ability">A pyroclast can banish his eidolon in an explosion of fiery shards. This slays the eidolon and deals 1d6 points of damage per Hit Die of the eidolon to every creature in a 20-foot-radius <Link to="/misc/burst">burst</Link> (Reflex half, DC = 10 + 1/2 his summoner level + his Charisma modifier). Half of this damage is fire, and the other half is piercing.</Pair>
+<Pair title="At 12th Level">The pyroclast can reduce the damage by 4d6 to increase the burst radius to 40 feet.</Pair>
+</Ability>
+<Ability id="arc-summoner-pyroclast-heart-of-earth-and-fire-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-summoner-pyroclast-heart-of-earth-and-fire-ex">Heart of Earth and Fire (Ex)</Pair>
+<Pair hl title="Replaces">Transposition</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability">A pyroclast grants any of his summoned creatures with the earth or fire subtypes a +1 morale bonus on attack rolls, saving throws, and weapon damage rolls when he is within 30 feet.</Pair>
+<Pair title="At 10th Level">The pyroclast also grants these bonuses to his eidolon.</Pair>
+</Ability>
 </>};
 const _shadow_caller = {title: "Shadow Caller", jsx: <><h2 id="arc-summoner-shadow_caller-shadow-caller">Shadow Caller</h2>
-<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 110</Link><br/>While most summoners can call any manner of creature from across the planes to serve them in combat, supplementing the skills of their eidolon with a diverse range of creatures, others eschew this broad utility and instead concentrate upon calling forth entities from the Shadow Plane. A shadow caller has the following class features.</p>
-<Ability icon={["skills"]} id="arc-summoner-shadow_caller-undefined">
+<p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 110</Link><br/>While most summoners can call any manner of creature from across the planes to serve them in combat, supplementing the skills of their eidolon with a diverse range of creatures, others eschew this broad utility and instead concentrate upon calling forth entities from the <Link to="/rule/shadow_plane">Shadow Plane</Link>. A shadow caller has the following class features.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-summoner-shadow_caller--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/fetchling">Fetchling</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="arc-summoner-shadow_caller-undefined">
 <Pair id="arc-summoner-shadow_caller-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Use Magic Device</Pair></Ability>
-<p><strong>Shadow Summoning (Sp):</strong> When a shadow caller uses his summon monster ability or casts the <Link to="/spell/summon_monster">summon monster</Link> spell, he typically summons creatures from the Shadow Plane or creatures closely associated with shadow. When a creature on the summon monster spell list indicates that it is summoned with either the celestial or the fiendish template based on the alignment of the caster, the creature summoned by the shadow caller has the <Link to="/template/shadow">shadow</Link> creature template instead. Furthermore, the summon monster lists are modified in the following ways (these changes also apply to using a higher-level summon spell to summon multiple creatures from a lower-level list).</p>
-<blockquote>
-<p><em>Summon Monster I:</em> No changes.</p>
-<p><em>Summon Monster II:</em> A shadow caller cannot summon Small elementals or lemures, but instead can summon <Link to="/monster/zoog">zoogs</Link>.</p>
-<p><em>Summon Monster III:</em> A shadow caller cannot summon dretches or lantern archons, but can summon <Link to="/monster/augur_kyton">augur kytons</Link>.</p>
-<p><em>Summon Monster IV:</em> A shadow caller cannot summon Medium elementals, hell hounds, hound archons, or mephits, but can summon <Link to="/monster/allip">allips</Link>, <Link to="/monster/gloomwing">gloomwings</Link>, and <Link to="/monster/shadow">shadows</Link>.</p>
-<p><em>Summon Monster V:</em> A shadow caller cannot summon babau, bearded devils, bralani azatas, Large elementals, salamanders, or xills, but can summon <Link to="/monster/shadow_mastiff">shadow mastiffs</Link> and <Link to="/monster/shae">shae</Link>.</p>
-<p><em>Summon Monster VI:</em> A shadow caller cannot summon Huge elementals, erinyes, lillend azatas, or succubi, but can summon <Link to="/monster/cloaker">cloakers</Link>.</p>
-<p><em>Summon Monster VII:</em> A shadow caller cannot summon bebiliths, bone devils, greater elementals, or vrocks, but can summon <Link to="/monster/greater_shadow">greater shadows</Link>.</p>
-<p><em>Summon Monster VIII:</em> A shadow caller can only summon <Link to="/monster/derghodaemon">derghodaemons</Link> and young <Link to="/family/umbral_dragon">umbral dragons</Link>.</p>
-<p><em>Summon Monster IX:</em> A shadow caller can only summon <Link to="/monster/interlocutor_kyton">interlocutor kytons</Link> and <Link to="/monster/nightwing">nightwings</Link>.</p>
-</blockquote>
-<p>This ability otherwise functions as and replaces the summoner's normal summon monster spell-like abilities.</p>
-<p><strong>Shadow Eidolon:</strong> A shadow caller's eidolon is at once a thing of shadow called from the deep of the Shadow Plane and his own shadow; the two are inseparable. When his eidolon manifests, his shadow lengthens and finally detaches from him as a creature unto itself. For as long as the shadow caller's eidolon is manifested, he and the eidolon do not have distinct shadows, regardless of the presence or absence of light. This lack of a shadow replaces the magical symbol that identifies the summoner and his eidolon.</p>
-<p>This ability alters the summoner's <strong className="hl">eidolon</strong> ability.</p>
+<Ability id="arc-summoner-shadow_caller-shadow-summoning-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-shadow_caller-shadow-summoning-sp">Shadow Summoning (Sp)</Pair>
+<Pair hl title="Replaces"> summon monster spell-like</Pair>
+<Pair title="Ability"><p>When a shadow caller uses his <em>summon monster</em> ability or casts the <Link to="/spell/summon_monster">summon monster</Link> spell, he typically summons creatures from the Shadow Plane or creatures closely associated with shadow. When a creature on the <em>summon monster</em> spell list indicates that it is summoned with either the celestial or the fiendish template based on the alignment of the caster, the creature summoned by the shadow caller has the <Link to="/template/shadow">shadow</Link> creature template instead. Furthermore, the <em>summon monster</em> lists are modified in the following ways (these changes also apply to using a higher-level <em>summon</em> spell to summon multiple creatures from a lower-level list).</p>
+<Block>
+<Row><Cell><em>Summon Monster I</em></Cell><Cell>No changes.</Cell></Row>
+<Row><Cell><em>Summon Monster II</em></Cell><Cell>A shadow caller cannot summon Small elementals or lemures, but instead can summon <Link to="/monster/zoog">zoogs</Link>.</Cell></Row>
+<Row><Cell><em>Summon Monster III</em></Cell><Cell>A shadow caller cannot summon dretches or lantern archons, but can summon <Link to="/monster/augur_kyton">augur kytons</Link>.</Cell></Row>
+<Row><Cell><em>Summon Monster IV</em></Cell><Cell>A shadow caller cannot summon Medium elementals, hell hounds, hound archons, or mephits, but can summon <Link to="/monster/allip">allips</Link>, <Link to="/monster/gloomwing">gloomwings</Link>, and <Link to="/monster/shadow">shadows</Link>.</Cell></Row>
+<Row><Cell><em>Summon Monster V</em></Cell><Cell>A shadow caller cannot summon babau, bearded devils, bralani azatas, Large elementals, salamanders, or xills, but can summon <Link to="/monster/shadow_mastiff">shadow mastiffs</Link> and <Link to="/monster/shae">shae</Link>.</Cell></Row>
+<Row><Cell><em>Summon Monster VI</em></Cell><Cell>A shadow caller cannot summon Huge elementals, erinyes, lillend azatas, or succubi, but can summon <Link to="/monster/cloaker">cloakers</Link>.</Cell></Row>
+<Row><Cell><em>Summon Monster VII</em></Cell><Cell>A shadow caller cannot summon bebiliths, bone devils, greater elementals, or vrocks, but can summon <Link to="/monster/greater_shadow">greater shadows</Link>.</Cell></Row>
+<Row><Cell><em>Summon Monster VIII</em></Cell><Cell>A shadow caller can only summon <Link to="/monster/derghodaemon">derghodaemons</Link> and young <Link to="/family/umbral_dragon">umbral dragons</Link>.</Cell></Row>
+<Row><Cell><em>Summon Monster IX</em></Cell><Cell>A shadow caller can only summon <Link to="/monster/interlocutor_kyton">interlocutor kytons</Link> and <Link to="/monster/nightwing">nightwings</Link>.</Cell></Row></Block>
+</Pair>
+</Ability>
+<Ability id="arc-summoner-shadow_caller-shadow-eidolon" icon={["info","magic-swirl"]}>
+<Pair single id="arc-summoner-shadow_caller-shadow-eidolon">Shadow Eidolon</Pair>
+<Pair hl title="Replaces">Magical symbol that identifies the summoner and his eidolon</Pair>
+<Pair hl title="Alters">Eidolon</Pair>
+<Pair title="Info">A shadow caller's eidolon is at once a thing of shadow called from the deep of the Shadow Plane and his own shadow; the two are inseparable. When his eidolon manifests, his shadow lengthens and finally detaches from him as a creature unto itself. For as long as the shadow caller's eidolon is manifested, he and the eidolon do not have distinct shadows, regardless of the presence or absence of light.</Pair>
+</Ability>
 </>};
 const _shaitan_binder = {title: "Shaitan Binder", jsx: <><h2 id="arc-summoner-shaitan_binder-shaitan-binder">Shaitan Binder</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 146</Link><br/>Shaitan binders call upon a reflection of their genie ancestors to serve as their eidolons. A shaitan binder has the following class features.</p>
-<p><strong>Base Form:</strong> At 1st level, if a shaitan binder's eidolon has the biped base form, it gains a +2 bonus to one ability score. The shaitan binder must make this choice at 1st level. If at any time the shaitan binder's eidolon has another base form, it loses this bonus until it returns to biped form. A shaitan binder's eidolon does not gain the share spells ability.</p>
-<p><strong>Shaitan Magic (Su):</strong> At 4th level, a shaitan binder's eidolon gains the <Link to="/evolution/basic_magic">basic magic</Link> evolution as a free evolution. At 6th level, it gains the <Link to="/evolution/minor_magic">minor magic</Link> evolution.</p>
-<p>At 8th level, it gains the <Link to="/evolution/major_magic">major magic</Link> evolution as a free evolution, and adds the following to the list of available spells for that evolution: <Link to="/spell/glitterdust">glitterdust</Link> and <Link to="/spell/soften_earth_and_stone">soften earth and stone</Link>.</p>
-<p>At 12th level, it gains the <Link to="/evolution/ultimate_magic">ultimate magic</Link> evolution as a free evolution, and adds the following to the list of available spells for that evolution: <Link to="/spell/meld_into_stone">meld into stone</Link> and <Link to="/spell/stone_shape">stone shape</Link>.</p>
-<p>Although the shaitan binder gains the standard versions of these evolutions for free, he must pay the normal cost to upgrade them to the improved versions.</p>
-<p>This ability replaces <strong className="hl">shield ally</strong> and <strong className="hl">greater shield ally</strong>.</p>
-<p><strong>Earth Glide (Su):</strong> At 10th level, if a shaitan binder's eidolon has the <Link to="/evolution/burrow">burrow</Link> evolution, it gains the <Link to="/umr/earth_glide">earth glide</Link> universal monster ability and can use this ability to travel at its full base speed.</p>
-<p>This ability replaces <strong className="hl">aspect</strong>.</p>
-<p><strong>Stone Curse (Su):</strong> At 18th level, a shaitan binder may select stone curse as a 4-point evolution. This allows the eidolon to trap creatures in stone like the <Link to="/monster/shaitan">shaitan</Link> stone curse ability. The DC to resist or break free of the stone curse is 10 + 1/2 the eidolon's Hit Dice + the eidolon's Strength score.</p>
-<p>This ability replaces <strong className="hl">greater aspect</strong>.</p>
-<p><strong>Noble Eidolon (Sp):</strong> At 20th level, a shaitan binder's eidolon gains the ability to grant its summoner's wishes. Once per day, the eidolon can cast <Link to="/spell/limited_wish">limited wish</Link> as a spell-like ability. The eidolon's caster level is equal to its level. The wish must be spoken aloud by the shaitan binder, beginning with the words "I wish," and cannot duplicate a wish the eidolon has granted within the past 24 hours. If the eidolon uses this ability to duplicate a spell with a costly material component, the shaitan binder must provide that component.</p>
-<p>This ability replaces <strong className="hl">twin eidolon</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-summoner-shaitan_binder--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/oread">Oread</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-summoner-shaitan_binder-base-form" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-summoner-shaitan_binder-base-form">Base Form</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">If a shaitan binder's eidolon has the biped base form, it gains a +2 bonus to one ability score. The shaitan binder must make this choice at 1st level. If at any time the shaitan binder's eidolon has another base form, it loses this bonus until it returns to biped form.</Pair>
+<Pair title="Special">A shaitan binder's eidolon does not gain the <em>share spells</em> ability.</Pair>
+</Ability>
+<Ability id="arc-summoner-shaitan_binder-shaitan-magic-su" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-shaitan_binder-shaitan-magic-su">Shaitan Magic (Su)</Pair>
+<Pair hl title="Replaces">Shield ally, greater shield ally</Pair>
+<Pair title="At 4th Level">A shaitan binder's eidolon gains the <Link to="/evolution/basic_magic">basic magic</Link> evolution as a free evolution.</Pair>
+<Pair title="At 6th Level">It gains the <Link to="/evolution/minor_magic">minor magic</Link> evolution.</Pair>
+<Pair title="At 8th Level">It gains the <Link to="/evolution/major_magic">major magic</Link> evolution as a free evolution, and adds the following to the list of available spells for that evolution: <Link to="/spell/glitterdust">glitterdust</Link> and <Link to="/spell/soften_earth_and_stone">soften earth and stone</Link>.</Pair>
+<Pair title="At 12th Level">It gains the <Link to="/evolution/ultimate_magic">ultimate magic</Link> evolution as a free evolution, and adds the following to the list of available spells for that evolution: <Link to="/spell/meld_into_stone">meld into stone</Link> and <Link to="/spell/stone_shape">stone shape</Link>.</Pair>
+<Pair title="Special">Although the shaitan binder gains the standard versions of these evolutions for free, he must pay the normal cost to upgrade them to the improved versions.</Pair>
+</Ability>
+<Ability id="arc-summoner-shaitan_binder-earth-glide-su" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-shaitan_binder-earth-glide-su">Earth Glide (Su)</Pair>
+<Pair hl title="Replaces">Aspect</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">If a shaitan binder's eidolon has the <Link to="/evolution/burrow">burrow</Link> evolution, it gains the <Link to="/umr/earth_glide">earth glide</Link> universal monster ability and can use this ability to travel at its full base speed.</Pair>
+</Ability>
+<Ability id="arc-summoner-shaitan_binder-stone-curse-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-shaitan_binder-stone-curse-su">Stone Curse (Su)</Pair>
+<Pair hl title="Replaces">Greater aspect</Pair>
+<Pair title="Gained">At 18th Level</Pair>
+<Pair title="Ability">A shaitan binder may select <em>stone curse</em> as a 4-point evolution. This allows the eidolon to trap creatures in stone like the <Link to="/monster/shaitan">shaitan</Link> <em>stone curse</em> ability. The DC to resist or break free of the <em>stone curse</em> is 10 + 1/2 the eidolon's Hit Dice + the eidolon's Strength score.</Pair>
+</Ability>
+<Ability id="arc-summoner-shaitan_binder-stone-curse-su" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-summoner-shaitan_binder-stone-curse-su" flavor="Text from the shaitan ability.">Stone Curse (Su)</Pair>
+<Pair title="Ability">If a shaitan wins a <Link to="/rule/bull_rush">bull rush</Link> check by 5 or more and pushes its target into a stone barrier, the target must make a Reflex save or be forced into the barrier as if the target had cast <em>meld into stone</em> until the victim makes a successful Fortitude save as a <strong className="hl">full-round action</strong> to exit the stone.</Pair>
+</Ability>
+<Ability id="arc-summoner-shaitan_binder-noble-eidolon-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-shaitan_binder-noble-eidolon-sp">Noble Eidolon (Sp)</Pair>
+<Pair hl title="Replaces">Twin eidolon</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">A shaitan binder's eidolon gains the ability to grant its summoner's wishes. Once per day, the eidolon can cast <Link to="/spell/limited_wish">limited wish</Link> as a spell-like ability. The eidolon's caster level is equal to its level. The wish must be spoken aloud by the shaitan binder, beginning with the words "I wish," and cannot duplicate a wish the eidolon has granted within the past 24 hours. If the eidolon uses this ability to duplicate a spell with a costly material component, the shaitan binder must provide that component.</Pair>
+</Ability>
 </>};
 const _spirit_summoner = {title: "Spirit Summoner", jsx: <><h2 id="arc-summoner-spirit_summoner-spirit-summoner">Spirit Summoner</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 123</Link><br/>A spirit summoner is an arcane spellcaster whose eidolon is a manifestation of a shamanic spirit. The bond connecting the summoner and this spirit might be friendly, as a member of a tribe giving flesh to his protector spirit, or hostile, as an outlander or rival compelling service from an unwilling spirit. The summoner can draw upon the divine power of this spirit, but is not constrained by the spirit's morals or ethics.</p>
-<p><strong>Spirit (Su):</strong> A spirit summoner forms a mystical bond with <Link to="/ability/shaman_spirits">one spirit from the shaman class</Link>. He gains the spirit ability of that spirit and uses his summoner level as his shaman level for determining its effects. The spirit summoner can select spells granted by that spirit as summoner spells known, using the shaman level of the spell as the summoner spell level. The summoner cannot select spirit spells that are above 6th level.</p>
-<p>At 9th level, the summoner gains the abilities listed in the greater version of his selected spirit.</p>
-<p>At 17th level, the summoner gains the abilities listed for the true version of his selected spirit.</p>
-<p>This ability replaces <strong className="hl">summon monster</strong>.</p>
-<p><strong>Eidolon:</strong> At 1st level, a spirit summoner begins play with a powerful outsider called an eidolon. The eidolon's form and abilities must be appropriate to his chosen spirit, at the GM's discretion - for example, a summoner with the <Link to="/shamanspirit/flame">flame</Link> spirit cannot have an eidolon with ice or water abilities, a summoner with a <Link to="/shamanspirit/heavens">heavens</Link> spirit cannot have a fiend-like eidolon, and so on. The summoner can use temporary effects (such as evolution surge) to alter the eidolon into an inappropriate form, but cannot use permanent effects (such as transmogrify) to do so.</p>
-<p>This ability alters the <strong className="hl">eidolon</strong> class feature.</p>
-<p><strong>Hex:</strong> At 6th level, a spirit summoner can select a shaman hex that is appropriate to his spirit, chosen from the general list of <Link to="/ability/shaman_hexes">shaman hexes</Link> or the specific hexes allowed by his spirit. This otherwise functions as a shaman's hex, and uses his summoner level as his shaman level. Like a shaman, a spirit summoner uses his Wisdom modifier to determine hex DCs.</p>
-<p>At 8th, 10th, and 16th levels, the summoner can select another hex.</p>
-<p>This ability replaces <strong className="hl">aspect</strong>, <strong className="hl">maker's call</strong>, <strong className="hl">merge forms</strong>, and <strong className="hl">transposition</strong>.</p>
+<Ability id="arc-summoner-spirit_summoner-spirit-su" icon={["stairs-goal","spell-book"]}>
+<Pair single id="arc-summoner-spirit_summoner-spirit-su">Spirit (Su)</Pair>
+<Pair hl title="Replaces">Summon monster</Pair>
+<Pair title="Ability">A spirit summoner forms a mystical bond with one <Link to="/ability/shaman_spirits">spirit</Link> from the shaman class. He gains the <em>spirit ability</em> of that spirit and uses his summoner level as his shaman level for determining its effects. The spirit summoner can select spells granted by that spirit as summoner spells known, using the shaman level of the spell as the summoner spell level. The summoner cannot select spirit spells that are above 6th level.</Pair>
+<Pair title="At 9th Level">The summoner gains the abilities listed in the <em>greater</em> version of his selected spirit.</Pair>
+<Pair title="At 17th Level">The summoner gains the abilities listed for the <em>true</em> version of his selected spirit.</Pair>
+</Ability>
+<Ability id="arc-summoner-spirit_summoner-eidolon" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-summoner-spirit_summoner-eidolon">Eidolon</Pair>
+<Pair hl title="Alters">Eidolon</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Info">A spirit summoner begins play with a powerful outsider called an eidolon. The eidolon's form and abilities must be appropriate to his chosen spirit, at the GM's discretion - for example, a summoner with the <Link to="/shamanspirit/flame">flame</Link> spirit cannot have an eidolon with ice or water abilities, a summoner with a <Link to="/shamanspirit/heavens">heavens</Link> spirit cannot have a fiend-like eidolon, and so on. The summoner can use temporary effects (such as <em>evolution surge</em>) to alter the eidolon into an inappropriate form, but cannot use permanent effects (such as <em>transmogrify</em>) to do so.</Pair>
+</Ability>
+<Ability id="arc-summoner-spirit_summoner-hex" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-spirit_summoner-hex">Hex</Pair>
+<Pair hl title="Replaces">Aspect, maker's call, merge forms, transposition</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">A spirit summoner can select a shaman hex that is appropriate to his spirit, chosen from the general list of <Link to="/ability/shaman_hexes">shaman hexes</Link> or the specific hexes allowed by his spirit. This otherwise functions as a shaman's hex, and uses his summoner level as his shaman level. Like a shaman, a spirit summoner uses his Wisdom modifier to determine hex DCs.</Pair>
+<Pair title="At 8th Level">The summoner can select another hex.</Pair>
+<Pair title="At 10th Level">The summoner can select another hex.</Pair>
+<Pair title="At 16th Level">The summoner can select another hex.</Pair>
+</Ability>
 </>};
 const _storm_caller = {title: "Storm Caller", jsx: <><h2 id="arc-summoner-storm_caller-storm-caller">Storm Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 16</Link><br/>Many summoners beckon monsters from the Elemental Planes, but few are as specialized as storm callers, who channel the elemental energies of the Plane of Air. Storm callers are most commonly encountered in areas where thunderstorms appear frequently, including supernaturally stormy places like the Sodden Lands.</p>
-<p><strong>Stormy Eidolon:</strong> A storm caller must select the <Link to="/evolution/resistance">resistance</Link> (electricity) or <Link to="/evolution/immunity">immunity</Link> (electricity) evolution for his eidolon. If the eidolon has neither of these evolutions, it becomes nauseated until it regains one of them.</p>
-<p>This ability alters <strong className="hl">eidolon</strong>.</p>
-<p><strong>Summon Storm's Fury (Sp):</strong> A storm caller can summon creatures infused with the power of the storm to help him. This functions as the summoner's summon monster I-IX abilities, except the storm caller can summon only the following creatures at the indicated spell levels: I-<Link to="/monster/eagle">eagle</Link>; II-<Link to="/monster/small_air_elemental">small air elemental</Link>, <Link to="/monster/small_lightning_elemental">small lightning elemental</Link>; III-<Link to="/monster/dire_bat">dire bat</Link>; IV-<Link to="/monster/medium_air_elemental">medium air elemental</Link>, <Link to="/monster/medium_lightning_elemental">medium lightning elemental</Link>, <Link to="/monster/pteranodon">pteranodon</Link>; V-<Link to="/monster/large_air_elemental">large air elemental</Link>, <Link to="/monster/large_lightning_elemental">large lightning elemental</Link>; VI-<Link to="/monster/huge_air_elemental">huge air elemental</Link>, <Link to="/monster/huge_lightning_elemental">huge lightning elemental</Link>; VII-<Link to="/monster/roc">roc</Link>; VIII-<Link to="/monster/elder_air_elemental">elder air elemental</Link>, <Link to="/monster/elder_lightning_elemental">elder lightning elemental</Link>; IX-<Link to="/template/advanced">advanced</Link> elder air elemental, advanced elder lightning elemental. Any creatures summoned with this ability gain immunity to electricity.</p>
-<p>Alternatively, whenever his eidolon is not summoned, a storm caller can expend a daily use of this ability to summon a magical storm as a standard action. This functions as <Link to="/spell/call_lightning">call lightning</Link> with a caster level equal to his summoner level, except as noted below.</p>
-<p>Each bolt of lightning deals 1d6 points of electricity damage. This damage increases by 1d6 at 3rd level and every 2 levels thereafter, to a maximum of 10d6 at 19th level. The prevailing weather has no effect on the damage of the lightning bolts. The Reflex save DC is equal to 10 + half the storm caller's summoner level + his Charisma modifier. If the storm caller uses this ability again before he has used all of his available bolts of lightning (to summon another magical storm, to summon a monster, or to use the gate spell), any unused bolts are expended with no effect.</p>
-<p>The storm caller adds call lightning to his summoner spell list as a 3rd-level spell and <Link to="/spell/call_lightning_storm">call lightning storm</Link> to his summoner spell list as a 5th-level spell, but he does not automatically add them to his list of spells known.</p>
-<p>This alters the summoner's <strong className="hl">summon monster I-IX</strong> abilities.</p>
-<p><strong>Electrical Polarity (Su):</strong> At 4th level, a storm caller and his eidolon can temporarily form an electrical current between them. The storm caller can expend a use of his summon storm's fury ability as a standard action to create an instantaneous line of lightning between him and his eidolon, provided that the eidolon is within 60 feet of him. The lightning arc deals the same amount of damage to all creatures in the line and has the same save DC as a bolt of lightning from the summon storm's fury ability (unlike call lightning, this damage is dealt only once). The storm caller and his eidolon are not affected by this lightning.</p>
-<p>At 12th level, the storm caller gains the benefit of his eidolon's resistance (electricity) or immunity (electricity) evolution whenever he is within 30 feet of the eidolon.</p>
-<p>This ability replaces <strong className="hl">shield ally</strong> and <strong className="hl">greater shield ally</strong>.</p>
-<p><strong>Storm's Wings (Su):</strong> At 6th level, a storm caller can borrow some of his eidolon's elemental might. He can gain the <Link to="/evolution/flight">flight</Link> evolution as though he were using the summoner's aspect ability, deducting 2 evolution points from the eidolon's evolution pool. If he does so, his eidolon is unable to take the flight evolution as long as the storm caller has that evolution.</p>
-<p>At 8th level, the storm caller's eidolon can have the flight evolution even if the storm caller has that evolution.</p>
-<p>At 10th level, the storm caller automatically gains the flight evolution without reducing the number of evolution points available to the eidolon. He can use the aspect ability (and at 18th level, the greater aspect ability) to gain additional evolutions.</p>
-<p>This ability replaces <strong className="hl">maker's call</strong> and <strong className="hl">transposition</strong>.</p>
+<Ability id="arc-summoner-storm_caller-stormy-eidolon" icon={["hazard-sign"]}>
+<Pair single id="arc-summoner-storm_caller-stormy-eidolon">Stormy Eidolon</Pair>
+<Pair hl title="Alters">Eidolon</Pair>
+<Pair title="Info">A storm caller must select the <Link to="/evolution/resistance">resistance</Link> (electricity) or <Link to="/evolution/immunity">immunity</Link> (electricity) evolution for his eidolon. If the eidolon has neither of these evolutions, it becomes <Link to="/misc/nauseated">nauseated</Link> until it regains one of them.</Pair>
+</Ability>
+<Ability id="arc-summoner-storm_caller-summon-storms-fury-sp" icon={["broken-shield","magic-swirl","spell-book"]}>
+<Pair single id="arc-summoner-storm_caller-summon-storms-fury-sp">Summon Storm's Fury (Sp)</Pair>
+<Pair hl title="Alters">Summon monster I-IX</Pair>
+<Pair title="Ability"><p>A storm caller can summon creatures infused with the power of the storm to help him. This functions as the summoner's <em>summon monster I-IX</em> abilities, except the storm caller can summon only the following creatures at the indicated spell levels:</p>
+<Block tiny>
+<Row><Cell>I</Cell><Cell><Link to="/monster/eagle">eagle</Link></Cell></Row>
+<Row><Cell>II</Cell><Cell><Link to="/monster/small_air_elemental">small air elemental</Link>, <Link to="/monster/small_lightning_elemental">small lightning elemental</Link></Cell></Row>
+<Row><Cell>III</Cell><Cell><Link to="/monster/dire_bat">dire bat</Link></Cell></Row>
+<Row><Cell>IV</Cell><Cell><Link to="/monster/medium_air_elemental">medium air elemental</Link>, <Link to="/monster/medium_lightning_elemental">medium lightning elemental</Link>, <Link to="/monster/pteranodon">pteranodon</Link></Cell></Row>
+<Row><Cell>V</Cell><Cell><Link to="/monster/large_air_elemental">large air elemental</Link>, <Link to="/monster/large_lightning_elemental">large lightning elemental</Link></Cell></Row>
+<Row><Cell>VI</Cell><Cell><Link to="/monster/huge_air_elemental">huge air elemental</Link>, <Link to="/monster/huge_lightning_elemental">huge lightning elemental</Link></Cell></Row>
+<Row><Cell>VII</Cell><Cell><Link to="/monster/roc">roc</Link></Cell></Row>
+<Row><Cell>VIII</Cell><Cell><Link to="/monster/elder_air_elemental">elder air elemental</Link>, <Link to="/monster/elder_lightning_elemental">elder lightning elemental</Link></Cell></Row>
+<Row><Cell>IX</Cell><Cell><Link to="/template/advanced">advanced</Link> elder air elemental, advanced elder lightning elemental</Cell></Row></Block>
+<p>Any creatures summoned with this ability gain immunity to electricity.</p>
+<p>Alternatively, whenever his eidolon is not summoned, a storm caller can expend a daily use of this ability to summon a magical storm as a <strong className="hl">standard action</strong>. This functions as <Link to="/spell/call_lightning">call lightning</Link> with a caster level equal to his summoner level, except as noted below.</p>
+<p>Each bolt of lightning deals 1d6 points of electricity damage. As the summoner gains levels, this damage increases as indicated on the table below. The prevailing weather has no effect on the damage of the lightning bolts. The Reflex save DC is equal to 10 + half the storm caller's summoner level + his Charisma modifier. If the storm caller uses this ability again before he has used all of his available bolts of lightning (to summon another magical storm, to summon a monster, or to use the <Link to="/spell/gate">gate</Link> spell), any unused bolts are expended with no effect.</p>
+<ScrollContainer id="arc-summoner-storm_caller--table-0"><table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Damage</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>1d6</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2d6</td>
+</tr>
+<tr>
+<td>5</td>
+<td>3d6</td>
+</tr>
+<tr>
+<td>7</td>
+<td>4d6</td>
+</tr>
+<tr>
+<td>8</td>
+<td>5d6</td>
+</tr>
+<tr>
+<td>11</td>
+<td>6d6</td>
+</tr>
+<tr>
+<td>13</td>
+<td>7d6</td>
+</tr>
+<tr>
+<td>15</td>
+<td>8d6</td>
+</tr>
+<tr>
+<td>17</td>
+<td>9d6</td>
+</tr>
+<tr>
+<td>19</td>
+<td>10d6</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p>The storm caller adds <em>call lightning</em> to his summoner spell list as a 3rd-level spell and <Link to="/spell/call_lightning_storm">call lightning storm</Link> to his summoner spell list as a 5th-level spell, but he does not automatically add them to his list of spells known.</p>
+</Pair>
+</Ability>
+<Ability id="arc-summoner-storm_caller-electrical-polarity-su" icon={["barbed-arrow"]}>
+<Pair single id="arc-summoner-storm_caller-electrical-polarity-su">Electrical Polarity (Su)</Pair>
+<Pair hl title="Replaces">Shield ally, greater shield ally</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A storm caller and his eidolon can temporarily form an electrical current between them. The storm caller can expend a use of his <em>summon storm's fury</em> ability as a <strong className="hl">standard action</strong> to create an instantaneous line of lightning between him and his eidolon, provided that the eidolon is within 60 feet of him. The lightning arc deals the same amount of damage to all creatures in the line and has the same save DC as a bolt of lightning from the <em>summon storm's fury</em> ability (unlike <em>call lightning,</em> this damage is dealt only once). The storm caller and his eidolon are not affected by this lightning.</Pair>
+<Pair title="At 12th Level">The storm caller gains the benefit of his eidolon's resistance (electricity) or immunity (electricity) evolution whenever he is within 30 feet of the eidolon.</Pair>
+</Ability>
+<Ability id="arc-summoner-storm_caller-storms-wings-su" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-storm_caller-storms-wings-su">Storm's Wings (Su)</Pair>
+<Pair hl title="Replaces">Maker's call, transposition</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">A storm caller can borrow some of his eidolon's elemental might. He can gain the <Link to="/evolution/flight">flight</Link> evolution as though he were using the summoner's <em>aspect</em> ability, deducting 2 evolution points from the eidolon's evolution pool. If he does so, his eidolon is unable to take the flight evolution as long as the storm caller has that evolution.</Pair>
+<Pair title="At 8th Level">The storm caller's eidolon can have the flight evolution even if the storm caller has that evolution.</Pair>
+<Pair title="At 10th Level">The storm caller automatically gains the flight evolution without reducing the number of evolution points available to the eidolon. He can use the <em>aspect</em> ability (and at 18th level, the <em>greater aspect</em> ability) to gain additional evolutions.</Pair>
+</Ability>
 </>};
 const _story_summoner = {title: "Story Summoner", jsx: <><h2 id="arc-summoner-story_summoner-story-summoner">Story Summoner</h2>
 <p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 25</Link><br/>Story summoners rely on the harrow to weave the paths they walk, turning their tales into reality. They channel magic through their harrow decks to influence the strange extraplanar beings they summon, bringing familiar and fateful characters to life. Some focus on the more whimsical figures of the harrow, while others bring its darkest icons into the real world.</p>
-<p><strong>Storykin Eidolon:</strong> Unlike most eidolons, a story summoner's eidolon cannot touch or attack creatures warded by <Link to="/spell/protection_from_evil">protection from evil</Link> and similar effects that prevent contact with summoned creatures. As a standard action while his eidolon is summoned, the story summoner can draw a random card from a complete <Link to="/eq-misc/harrow_deck">harrow deck</Link> he owns. For a number of rounds equal to 1/2 the summoner's class level (minimum 1), the eidolon's alignment changes to match that of the harrow card drawn, and the eidolon gains a +4 enhancement bonus on the ability score linked to the drawn card's suit. The eidolon continues to follow its summoner's orders regardless of its alignment. The story summoner can use this ability a number of times per day equal to 3 + his Charisma modifier.</p>
-<p><strong>Summon Arcana:</strong> At 2nd level, a story summoner can use a complete harrow deck he owns as an additional focus component for his summon monster spell-like ability. When he does so, the summoner draws a random card from the deck and applies a simple template to the summoned monster based on the card's alignment: <Link to="/template/celestial">celestial</Link> (any good), <Link to="/template/fiendish">fiendish</Link> (any evil), <Link to="/template/resolute">resolute</Link> (any lawful), or <Link to="/template/entropic">entropic</Link> (any chaotic). If a card has more than one alignment - such as a lawful evil or chaotic good card - the summoner can choose which template to apply to the summoned creature. This ability allows a story summoner to summon and command creatures normally prohibited by their alignment.</p>
-<p>This ability replaces <strong className="hl">bond senses</strong>.</p>
-<p><strong>Evolve Base Form (Su):</strong> Starting at 8th level, whenever he gains a level, the story summoner can change his eidolon's base form to a new base form. Once chosen, this base form is set until the story summoner gains another summoner level.</p>
-<p>This ability replaces <strong className="hl">transposition</strong>.</p>
+<Ability id="arc-summoner-story_summoner-storykin-eidolon" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-summoner-story_summoner-storykin-eidolon">Storykin Eidolon</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action">While his eidolon is summoned, the story summoner can draw a random card from a complete <Link to="/eq-misc/harrow_deck">harrow deck</Link> he owns. For a number of rounds equal to 1/2 the summoner's class level (minimum 1), the eidolon's alignment changes to match that of the harrow card drawn, and the eidolon gains a +4 enhancement bonus on the ability score linked to the drawn card's suit. The eidolon continues to follow its summoner's orders regardless of its alignment.</Pair>
+<Pair title="Info">Unlike most eidolons, a story summoner's eidolon cannot touch or attack creatures warded by <Link to="/spell/protection_from_evil">protection from evil</Link> and similar effects that prevent contact with summoned creatures.</Pair>
+</Ability>
+<Ability id="arc-summoner-story_summoner-summon-arcana" icon={["upgrade"]}>
+<Pair single id="arc-summoner-story_summoner-summon-arcana">Summon Arcana</Pair>
+<Pair hl title="Replaces">Bond senses</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A story summoner can use a complete harrow deck he owns as an additional focus component for his <em>summon monster</em> spell-like ability. When he does so, the summoner draws a random card from the deck and applies a simple template to the summoned monster based on the card's alignment: <Link to="/template/celestial">celestial</Link> (any good), <Link to="/template/fiendish">fiendish</Link> (any evil), <Link to="/template/resolute">resolute</Link> (any lawful), or <Link to="/template/entropic">entropic</Link> (any chaotic). If a card has more than one alignment - such as a lawful evil or chaotic good card - the summoner can choose which template to apply to the summoned creature.</Pair>
+<Pair title="Special">This ability allows a story summoner to summon and command creatures normally prohibited by their alignment.</Pair>
+</Ability>
+<Ability id="arc-summoner-story_summoner-evolve-base-form-su" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-story_summoner-evolve-base-form-su">Evolve Base Form (Su)</Pair>
+<Pair hl title="Replaces">Transposition</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Whenever he gains a level, the story summoner can change his eidolon's base form to a new base form. Once chosen, this base form is set until the story summoner gains another summoner level.</Pair>
+</Ability>
 </>};
 const _synthesist = {title: "Synthesist", jsx: <><h2 id="arc-summoner-synthesist-synthesist">Synthesist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 81</Link><br/>Rather than summon an eidolon to serve by his side, the synthesist fuses his eidolon's essence to his own. Instead of two creatures, the synthesist is a fusion of the summoner and eidolon into a single being.</p>
-<p><strong>Fused Eidolon:</strong> A synthesist summons the essence of a powerful outsider to meld with his own being. The synthesist wears the eidolon like translucent, living armor. The eidolon mimics all of the synthesist's movements, and the synthesist perceives through the eidolon's senses and speaks through its voice, as the two are now one creature. The synthesist directs all of the eidolon's actions while fused, perceives through its senses, and speaks through its voice, as the two are now one creature.</p>
-<p>While fused with his eidolon, the synthesist uses the eidolon's Strength, Dexterity, and Constitution, but retains his own Intelligence, Wisdom, and Charisma. The synthesist gains the eidolon's hit points as temporary hit points. When these hit points reach 0, the eidolon is killed and sent back to its home plane. The synthesist uses the eidolon's base attack bonus, and gains the eidolon's armor and natural armor bonuses and modifiers to ability scores. The synthesist also gains access to the eidolon's special abilities and the eidolon's evolutions. The synthesist is still limited to the eidolon's maximum number of natural attacks. The eidolon has no skills or feats of its own. The eidolon must be at least the same size as the synthesist. The eidolon must have <Link to="/evolution/limbs">limbs</Link> for the synthesist to cast spells with somatic components. The eidolon's temporary hit points can be restored with the rejuvenate eidolon spell.</p>
-<p>While fused, the synthesist loses the benefits of his armor. He counts both as his original type and as an outsider for any effect related to type, whichever is worse for the synthesist. Spells such as <Link to="/spell/banishment">banishment</Link> or <Link to="/spell/dismissal">dismissal</Link> work normally on the eidolon, but the synthesist is unaffected. Neither the synthesist nor his eidolon can be targeted separately, as they are fused into one creature. The synthesist and eidolon cannot take separate actions. While fused with his eidolon, the synthesist can use all of his own abilities and gear, except for his armor. In all other cases, this ability functions as the summoner's normal eidolon ability (for example, the synthesist cannot use his summon monster ability while the eidolon is present).</p>
-<p>This ability replaces the class's <strong className="hl">eidolon</strong> ability, <strong className="hl">bond senses</strong>, and <strong className="hl">life bond</strong>.</p>
+<Ability id="arc-summoner-synthesist-fused-eidolon" icon={["stairs-goal","upgrade","armor-upgrade","broken-shield"]}>
+<Pair single id="arc-summoner-synthesist-fused-eidolon">Fused Eidolon</Pair>
+<Pair hl title="Replaces">Eidolon, bond senses, life bond</Pair>
+<Pair title="Ability"><p>A synthesist summons the essence of a powerful outsider to meld with his own being. The synthesist wears the eidolon like translucent, living armor. The eidolon mimics all of the synthesist's movements, and the synthesist perceives through the eidolon's senses and speaks through its voice, as the two are now one creature. The synthesist directs all of the eidolon's actions while fused, perceives through its senses, and speaks through its voice, as the two are now one creature.</p>
+<p>While fused with his eidolon, the synthesist uses the eidolon's Strength, Dexterity, and Constitution, but retains his own Intelligence, Wisdom, and Charisma. The synthesist gains the eidolon's hit points as <Link to="/rule/temporary_hit_points">temporary hit points</Link>. When these hit points reach 0, the eidolon is killed and sent back to its home plane. The synthesist uses the eidolon's base attack bonus, and gains the eidolon's armor and natural armor bonuses and modifiers to ability scores. The synthesist also gains access to the eidolon's special abilities and the eidolon's evolutions. The synthesist is still limited to the eidolon's maximum number of natural attacks. The eidolon has no skills or feats of its own. The eidolon must be at least the same size as the synthesist. The eidolon must have <Link to="/evolution/limbs">limbs</Link> for the synthesist to cast spells with somatic components. The eidolon's temporary hit points can be restored with the <Link to="/spell/rejuvenate_eidolon">rejuvenate eidolon</Link> spell.</p>
+<p>While fused, the synthesist loses the benefits of his armor. He counts both as his original type and as an outsider for any effect related to type, whichever is worse for the synthesist. Spells such as <Link to="/spell/banishment">banishment</Link> or <Link to="/spell/dismissal">dismissal</Link> work normally on the eidolon, but the synthesist is unaffected. Neither the synthesist nor his eidolon can be targeted separately, as they are fused into one creature. The synthesist and eidolon cannot take separate actions. While fused with his eidolon, the synthesist can use all of his own abilities and gear, except for his armor. In all other cases, this ability functions as the summoner's normal eidolon ability (for example, the synthesist cannot use his <em>summon monster</em> ability while the eidolon is present).</p>
+</Pair>
+</Ability>
 <p>The following class abilities function differently for synthesist summoners.</p>
-<p><strong>Fused Link (Su):</strong> Starting at 1st level, the synthesist forms a close bond with his eidolon. Whenever the temporary hit points from his eidolon would be reduced to 0, the summoner can, as a free action, sacrifice any number of his own hit points. Each hit point sacrificed this way prevents 1 point of damage done to the eidolon (thus preventing the loss of the summoner's temporary hit points), preventing the eidolon from being killed and sent back to its home plane.</p>
-<p>This ability replaces <strong className="hl">life link</strong>.</p>
-<p><strong>Shielded Meld (Ex):</strong> At 4th level, whenever the synthesist is fused with his eidolon, he gains a +2 shield bonus to his Armor Class and a +2 circumstance bonus on his saving throws.</p>
-<p>This ability replaces <strong className="hl">shield ally</strong>.</p>
-<p><strong>Maker's Jump (Sp):</strong> At 6th level, whenever the synthesist is fused with his eidolon, the synthesist can cast <Link to="/spell/dimension_door">dimension door</Link> as a spell-like ability using his caster level. This ability only affects the fused synthesist and eidolon. The synthesist can use this ability once per day at 6th level, plus one additional time per day for every six levels beyond 6th.</p>
-<p>This ability replaces <strong className="hl">maker's call</strong> and <strong className="hl">transposition</strong>.</p>
-<p><strong>Greater Shielded Meld (Ex):</strong> At 12th level, whenever the synthesist is fused with his eidolon, he gains a +4 shield bonus to his Armor Class and a +4 circumstance bonus on his saving throws.</p>
-<p>This ability replaces <strong className="hl">greater shield ally</strong>.</p>
-<p><strong>Split Forms (Su):</strong> At 16th level, as a swift action, the synthesist and his fused eidolon can split into two creatures: the synthesist and the eidolon. Both have the same evolutions. The synthesist emerges in a square adjacent to the eidolon if possible. All effects and spells currently targeting the fused synthesist-eidolon affect both the synthesist and the eidolon.</p>
-<p>The synthesist can use this ability for a number of rounds per day equal to his summoner level. He can end this effect at any time as a full-round action. For the duration of this effect, the eidolon functions as a normal eidolon of the summoner's class level.</p>
-<p>This ability replaces <strong className="hl">merge forms</strong>.</p>
+<Ability id="arc-summoner-synthesist-fused-link-su" icon={["shield-reflect"]}>
+<Pair single id="arc-summoner-synthesist-fused-link-su">Fused Link (Su)</Pair>
+<Pair hl title="Replaces">Life link</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The synthesist forms a close bond with his eidolon. Whenever the temporary hit points from his eidolon would be reduced to 0, the summoner can, as a <strong className="hl">free action</strong>, sacrifice any number of his own hit points. Each hit point sacrificed this way prevents 1 point of damage done to the eidolon (thus preventing the loss of the summoner's temporary hit points), preventing the eidolon from being killed and sent back to its home plane.</Pair>
+</Ability>
+<Ability id="arc-summoner-synthesist-shielded-meld-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-summoner-synthesist-shielded-meld-ex">Shielded Meld (Ex)</Pair>
+<Pair hl title="Replaces">Shield ally</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">Whenever the synthesist is fused with his eidolon, he gains a +2 shield bonus to his Armor Class and a +2 circumstance bonus on his saving throws.</Pair>
+</Ability>
+<Ability id="arc-summoner-synthesist-makers-jump-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-synthesist-makers-jump-sp">Maker's Jump (Sp)</Pair>
+<Pair hl title="Replaces">Maker's call, transposition</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Usage">1 time/day per six summoner levels<ByLevelPop levels={[[6,1],[12,2],[18,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">Whenever the synthesist is fused with his eidolon, the synthesist can cast <Link to="/spell/dimension_door">dimension door</Link> as a spell-like ability using his caster level. This ability only affects the fused synthesist and eidolon.</Pair>
+</Ability>
+<Ability id="arc-summoner-synthesist-greater-shielded-meld-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-summoner-synthesist-greater-shielded-meld-ex">Greater Shielded Meld (Ex)</Pair>
+<Pair hl title="Replaces">Greater shield ally</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Passive Ability">Whenever the synthesist is fused with his eidolon, he gains a +4 shield bonus to his Armor Class and a +4 circumstance bonus on his saving throws.</Pair>
+</Ability>
+<Ability id="arc-summoner-synthesist-split-forms-su" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-synthesist-split-forms-su">Split Forms (Su)</Pair>
+<Pair hl title="Replaces">Merge forms</Pair>
+<Pair title="Gained">At 16th Level</Pair>
+<Pair title="Usage">1 round/day per summoner level; these rounds need not be consecutive</Pair>
+<Pair title="Swift Action">The synthesist and his fused eidolon can split into two creatures: the synthesist and the eidolon. Both have the same evolutions. The synthesist emerges in a square adjacent to the eidolon if possible. All effects and spells currently targeting the fused synthesist-eidolon affect both the synthesist and the eidolon.</Pair>
+<Pair title="Special">The synthesist can end this effect at any time as a <strong className="hl">full-round action</strong>. For the duration of this effect, the eidolon functions as a normal eidolon of the summoner's class level.</Pair>
+</Ability>
 </>};
-const _twinned_summoner = {hasJL:true,title: "Twinned Summoner", jsx: <><div className="jumpList" id="arc-summoner-twinned_summoner-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arc-summoner-twinned_summoner-twinned-eidolon-evolutions">Twinned Eidolon Evolutions</InnerLink></li></ul></div><h2 id="arc-summoner-twinned_summoner-twinned-summoner">Twinned Summoner</h2>
+const _twinned_summoner = {title: "Twinned Summoner", jsx: <><h2 id="arc-summoner-twinned_summoner-twinned-summoner">Twinned Summoner</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 18</Link><br/>Reflecting the connected nature of Imbrex, a twinned summoner and his eidolon appear identical save for any obvious differences, such as evolutions or equipment.</p>
-<p><strong>Twinned Eidolon:</strong> The twinned summoner's eidolon is restricted to the biped base form. If the summoner's natural size is smaller than Medium, the twinned summoner's eidolon must be Small. This ability may require a different base form to match the twinned summoner's natural form, at the GM's discretion, if the twinned summoner is not a bipedal creature.</p>
-<p><strong>Teamwork Feats (Ex):</strong> At 4th level and at 12th level, a twinned summoner gains <Link to="/main/feats_teamwork">a bonus teamwork feat</Link>. He must meet the prerequisites of the selected teamwork feat. The twinned summoner automatically grants all of his teamwork feats to his eidolon. The eidolon doesn't need to meet the prerequisites of these teamwork feats.</p>
-<p>This ability replaces <strong className="hl">shield ally</strong> and <strong className="hl">greater shield ally</strong>.</p>
-<p><strong>Twinned Transposition (Su):</strong> At 6th level, as a standard action, a twinned summoner can swap locations with his eidolon as if each were using <Link to="/spell/dimension_door">dimension door</Link>, using the twinned summoner's caster level. If the eidolon is out of range, the ability is wasted. If either the twinned summoner or his eidolon occupies more squares than the other, each must occupy one or more squares that were occupied by the other if possible, or as close as possible if not. The twinned summoner can use this ability once per day at 6th level, plus one additional time per day for every 4 levels beyond 6th. At 8th level, he can use this ability as a swift action.</p>
-<p>This ability replaces <strong className="hl">maker's call</strong> and <strong className="hl">transposition</strong>.</p>
-<p><strong>Twin Summoner (Su):</strong> At 16th level, a twinned summoner can touch his eidolon as a standard action, enhancing its similarity to the summoner. The eidolon loses any natural weapons or size increases gained from evolutions, and its Intelligence, Wisdom, and Charisma scores change to match the base scores of the summoner. The eidolon can cast any of the summoner's spells known using the summoner's caster level and spell slots. It doesn't gain the benefit of any of the summoner's items, feats, or other effects that affect spellcasting. The eidolon can keep this form for a number of minutes per day equal to the summoner's class level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. The summoner can end this effect as a free action.</p>
-<p>This ability replaces the <strong className="hl">merge forms</strong> class feature.</p>
-<h3 id="arc-summoner-twinned_summoner-twinned-eidolon-evolutions" data-hash-target>Twinned Eidolon Evolutions</h3>
-<p>The following evolutions are only available to this archetype.</p>
-<h4 id="arc-summoner-twinned_summoner-shared-evolution">Shared Evolution</h4>
-<p><strong>Cost:</strong> 1 point</p>
-<p>Select a 1-point or 2-point evolution the eidolon has. As a standard action, the eidolon can touch the summoner and transfer the selected evolution to him. This functions as the summoner's aspect ability, and the same limitations apply. The summoner can touch the eidolon as a standard action to return the evolution. The evolution returns to the eidolon automatically if the eidolon is dismissed by the summoner or sent back to its home plane.</p>
-<h4 id="arc-summoner-twinned_summoner-extra-feat">Extra Feat</h4>
-<p><strong>Cost:</strong> 2 points</p>
-<p>The eidolon gains an extra feat. It must meet the prerequisites of the feat.</p>
-<h4 id="arc-summoner-twinned_summoner-shared-slot">Shared Slot</h4>
-<p><strong>Cost:</strong> 2 points</p>
-<p>Select a magic item slot. A magic item worn by the eidolon in that slot remains active even if the summoner is also wearing a magic item in that slot. This evolution can be selected more than once. Each time an eidolon selects this evolution, it applies to a new slot.</p>
+<Ability id="arc-summoner-twinned_summoner-twinned-eidolon" icon={["broken-shield"]}>
+<Pair single id="arc-summoner-twinned_summoner-twinned-eidolon">Twinned Eidolon</Pair>
+<Pair title="Info">The twinned summoner's eidolon is restricted to the biped base form. If the summoner's natural size is smaller than Medium, the twinned summoner's eidolon must be Small. This ability may require a different base form to match the twinned summoner's natural form, at the GM's discretion, if the twinned summoner is not a bipedal creature.</Pair>
+</Ability>
+<Ability id="arc-summoner-twinned_summoner-teamwork-feats-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-twinned_summoner-teamwork-feats-ex">Teamwork Feats (Ex)</Pair>
+<Pair hl title="Replaces">Shield ally, greater shield ally</Pair>
+<Pair title="At 4th Level">And at 12th level, a twinned summoner gains <Link to="/main/feats_teamwork">a bonus teamwork feat</Link>. He must meet the prerequisites of the selected teamwork feat.</Pair>
+<Pair title="At 12th Level">The summoner gains another bonus teamwork feat he meets the prerequisites of.</Pair>
+<Pair title="Special">The twinned summoner automatically grants all of his teamwork feats to his eidolon. The eidolon doesn't need to meet the prerequisites of these teamwork feats.</Pair>
+</Ability>
+<Ability id="arc-summoner-twinned_summoner-twinned-transposition-su" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-twinned_summoner-twinned-transposition-su">Twinned Transposition (Su)</Pair>
+<Pair hl title="Replaces">Maker's call, transposition</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four summoner levels beyond 6th<ByLevelPop levels={[[6,1],[10,2],[14,3],[18,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Standard Action">A twinned summoner can swap locations with his eidolon as if each were using <Link to="/spell/dimension_door">dimension door</Link>, using the twinned summoner's caster level. If the eidolon is out of range, the ability is wasted. If either the twinned summoner or his eidolon occupies more squares than the other, each must occupy one or more squares that were occupied by the other if possible, or as close as possible if not.</Pair>
+<Pair title="At 8th Level">He can use this ability as a <strong className="hl">swift action</strong>.</Pair>
+</Ability>
+<Ability id="arc-summoner-twinned_summoner-twin-summoner-su" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-twinned_summoner-twin-summoner-su">Twin Summoner (Su)</Pair>
+<Pair hl title="Replaces">Merge forms</Pair>
+<Pair title="Gained">At 16th Level</Pair>
+<Pair title="Usage">1 minute/day per summoner level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Standard Action">A twinned summoner can touch his eidolon, enhancing its similarity to the summoner. The eidolon loses any natural weapons or size increases gained from evolutions, and its Intelligence, Wisdom, and Charisma scores change to match the base scores of the summoner. The eidolon can cast any of the summoner's spells known using the summoner's caster level and spell slots. It doesn't gain the benefit of any of the summoner's items, feats, or other effects that affect spellcasting.</Pair>
+<Pair title="Special">The summoner can end this effect as a <strong className="hl">free action</strong>.</Pair>
+</Ability>
+<Ability id="arc-summoner-twinned_summoner-twinned-eidolon-evolutions" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-twinned_summoner-twinned-eidolon-evolutions">Twinned Eidolon Evolutions</Pair>
+<Pair title="Info">The following evolutions are only available to this archetype.</Pair>
+</Ability>
+<Ability id="arc-summoner-twinned_summoner-shared-evolution" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-summoner-twinned_summoner-shared-evolution">Shared Evolution</Pair>
+<Pair title="Cost">1 point</Pair>
+<Pair title="Standard Action">The eidolon can touch the summoner and transfer a 1-point or 2-point evolution to him. This functions as the summoner's <em>aspect</em> ability, and the same limitations apply.</Pair>
+<Pair title="Special">The summoner can touch the eidolon as a <strong className="hl">standard action</strong> to return the evolution. The evolution returns to the eidolon automatically if the eidolon is dismissed by the summoner or sent back to its home plane.</Pair>
+</Ability>
+<Ability id="arc-summoner-twinned_summoner-extra-feat" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-twinned_summoner-extra-feat">Extra Feat</Pair>
+<Pair title="Cost">2 points</Pair>
+<Pair title="Ability">The eidolon gains an extra feat. It must meet the prerequisites of the feat.</Pair>
+</Ability>
+<Ability id="arc-summoner-twinned_summoner-shared-slot" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-summoner-twinned_summoner-shared-slot">Shared Slot</Pair>
+<Pair title="Cost">2 points</Pair>
+<Pair title="Ability">Select a magic item slot. A magic item worn by the eidolon in that slot remains active even if the summoner is also wearing a magic item in that slot.</Pair>
+<Pair title="Special">This evolution can be selected more than once. Each time an eidolon selects this evolution, it applies to a new slot.</Pair>
+</Ability>
 </>};
 const _unwavering_conduit = {title: "Unwavering Conduit", jsx: <><h2 id="arc-summoner-unwavering_conduit-unwavering-conduit">Unwavering Conduit</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook pg. 17</Link><br/>Unwavering conduits work to keep everything ordered and regimented, drawing on power from the Eternal City of Axis, Heaven, or Hell to enforce whichever laws the summoner finds paramount. Lawful good unwavering conduits often work with Riftwardens to protect the integrity of the Great Beyond, while lawful evil unwavering conduits are commonly diabolists in Cheliax.</p>
-<p><strong>Alignment:</strong> Any lawful.</p>
-<p><strong>Eidolon of Law:</strong> An unwavering conduit's eidolon must be of a lawful alignment. Once selected, the evolutions of the unwavering conduit's eidolon cannot be changed when a new class level is gained (though they can be altered normally with the transmogrify spell). At least half the eidolon's skill points must be spent on skills in which the unwavering conduit also has ranks. The eidolon gains a +1 resistance bonus on saving throws against spells and abilities of the conjuration, enchantment, and transmutation schools. This bonus increases to +2 at 3rd level, and by an additional 1 for every 3 levels thereafter. The eidolon has 1 fewer evolution point than normal for an eidolon of the unwavering conduit's summoner level.</p>
-<p>This ability alters <strong className="hl">eidolon</strong>.</p>
-<p><strong>Unwavering Monsters:</strong> Since an unwavering conduit's power is drawn from planar energies aligned with law, all the creatures he summons must be of a lawful alignment. If a creature would normally be celestial or fiendish, it is instead a <Link to="/template/resolute">resolute creature</Link>.</p>
-<p>This also causes the unwavering conduit's summoning power to be more set than a standard summoner's. Beginning at 3rd level, each time he uses summon monster to summon multiple monsters, rather than rolling a die to see how many creatures he summons, he receives a specific number (two creatures for 1d3, or four creatures for 1d4+1). If an item, spell, or ability would increase the number of creatures summoned, the set number increases by that amount.</p>
-<p>Also, starting at 2nd level, creatures summoned by the unwavering conduit receive a +1 resistance bonus on saving throws against spells and abilities of the conjuration, enchantment, and transmutation schools. This bonus increases to +2 at 6th level, and by an additional 1 every 4 class levels thereafter.</p>
-<p>This ability alters <strong className="hl">summon monster</strong>.</p>
-<p><strong>Law Magic:</strong> The unwavering conduit gains the following bonus spells known at the listed spell level: 1st-<Link to="/spell/protection_from_chaos">protection from chaos</Link>, 2nd-<Link to="/spell/arrow_of_law">arrow of law</Link>, 3rd-<Link to="/spell/magic_circle_against_chaos">magic circle against chaos</Link>, 4th-<Link to="/spell/orders_wrath">order's wrath</Link>, 5th-<Link to="/spell/dispel_chaos">dispel chaos</Link>, 6th-<Link to="/spell/dictum">dictum</Link>. The unwavering conduit gains one fewer spell known per spell level for spell levels 1-6.</p>
-<p>This ability alters the summoner's <strong className="hl">spells</strong> known.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-summoner-unwavering_conduit--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Alignment must be lawful</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-summoner-unwavering_conduit-eidolon-of-law" icon={["info","armor-upgrade","broken-shield"]}>
+<Pair single id="arc-summoner-unwavering_conduit-eidolon-of-law">Eidolon of Law</Pair>
+<Pair hl title="Alters">Eidolon</Pair>
+<Pair title="Info">An unwavering conduit's eidolon must be of a lawful alignment. Once selected, the evolutions of the unwavering conduit's eidolon cannot be changed when a new class level is gained (though they can be altered normally with the <Link to="/spell/transmogrify">transmogrify</Link> spell). At least half the eidolon's skill points must be spent on skills in which the unwavering conduit also has ranks.</Pair>
+<Pair title="Passive Ability">The eidolon gains a resistance bonus on saving throws against spells and abilities of the conjuration, enchantment, and transmutation schools. This bonus is equal to 1 + <Link to="/misc/one_third">one-third</Link> of the summoner's class level.</Pair>
+<Pair title="Special">The eidolon has 1 fewer evolution point than normal for an eidolon of the unwavering conduit's summoner level.</Pair>
+</Ability>
+<Ability id="arc-summoner-unwavering_conduit-unwavering-monsters" icon={["info","armor-upgrade"]}>
+<Pair single id="arc-summoner-unwavering_conduit-unwavering-monsters">Unwavering Monsters</Pair>
+<Pair hl title="Alters">Summon monster</Pair>
+<Pair title="Info">Since an unwavering conduit's power is drawn from planar energies aligned with law, all the creatures he summons must be of a lawful alignment. If a creature would normally be celestial or fiendish, it is instead a <Link to="/template/resolute">resolute creature</Link>.</Pair>
+<Pair title="At 2nd Level">Creatures summoned by the unwavering conduit receive a +1 resistance bonus on saving throws against spells and abilities of the conjuration, enchantment, and transmutation schools.</Pair>
+<Pair title="At 3rd Level">The unwavering conduit's summoning power to be more set than a standard summoner's. Each time he uses <em>summon monster</em> to summon multiple monsters, rather than rolling a die to see how many creatures he summons, he receives a specific number (two creatures for 1d3, or four creatures for 1d4+1). If an item, spell, or ability would increase the number of creatures summoned, the set number increases by that amount.</Pair>
+<Pair title="At 6th Level">The resistance bonus becomes +2.</Pair>
+<Pair title="At 10th Level">The resistance bonus increases to +3.</Pair>
+<Pair title="At 14th Level">The resistance bonus becomes +4.</Pair>
+<Pair title="At 18th Level">The resistance bonus increases to +5.</Pair>
+</Ability>
+<Ability id="arc-summoner-unwavering_conduit-law-magic" icon={["spell-book"]}>
+<Pair single id="arc-summoner-unwavering_conduit-law-magic">Law Magic</Pair>
+<Pair hl title="Alters">Spells known</Pair>
+<Pair title="Info">The unwavering conduit gains the following bonus spells known at the listed spell level.</Pair>
+<Pair plain title="1st"><Link to="/spell/protection_from_chaos">Protection from chaos</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/arrow_of_law">Arrow of law</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/magic_circle_against_chaos">Magic circle against chaos</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/orders_wrath">Order's wrath</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/dispel_chaos">Dispel chaos</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/dictum">Dictum</Link></Pair>
+<Pair title="Special">The unwavering conduit gains one fewer spell known per spell level for spell levels 1-6.</Pair>
+</Ability>
 </>};
 const _wild_caller_arg = {title: "Wild Caller (ARG)", jsx: <><h2 id="arc-summoner-wild_caller_arg-wild-caller-arg">Wild Caller (ARG)</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 44</Link><br/>Often a half-elf's ties to nature and elven heritage are so strong that they can dramatically affect the nature of his summonings. The wild caller calls eidolons that take more natural and savage forms and summons from nature rather than the Great Beyond. A wild caller has the following class features.</p>
-<p><strong>Spells:</strong> A wild caller does not have access to summon monster spells. Instead, he swaps out those spells on his spell list with summon nature's ally spells of the same level.</p>
-<p>This ability alters the normal <strong className="hl">spell list</strong> of the summoner.</p>
-<p><strong>Eidolon:</strong> The eidolon of a wild caller tends to take more natural and more savage forms than other summoners' eidolons. A wild caller gains 1/4 his class level as bonus evolution points in his eidolon's evolution pool, but his eidolon cannot take the following evolutions:</p>
-<blockquote>
-<p><em>1-point evolutions:</em> basic magic, magic attacks, skilled (while the eidolon can select this evolution, it can only do so with the following skills: Acrobatics, Climb, Escape Artist, Fly, Intimidate, Perception, Survival, and Swim), unnatural aura; <em>2-point evolutions:</em> energy attacks, immunity, weapon training, channel resistance, head, minor magic, undead appearance; <em>3-point evolutions:</em> damage reduction, frightful presence, major magic; <em>4-point evolutions:</em> breath weapon, spell resistance, dimension door, incorporeal form, lifesense, no breath, ultimate magic.</p>
-</blockquote>
-<p>This ability alters the normal summoner's <strong className="hl">eidolon</strong> class feature, but is otherwise identical to that class feature.</p>
-<p><strong>Summon Nature's Ally I (Sp):</strong> Starting at 1st level, a wild caller can cast <Link to="/spell/summon_natures_ally">summon nature's ally</Link> a number of times per day equal to 3 + his Charisma modifier. At 3rd level and every 2 levels thereafter, the power of this ability increases by one spell level, allowing him to summon more powerful creatures (to a maximum of summon nature's ally IX at 17th level). Furthermore, at 19th level, the wild caller cannot use <em>gate</em> as a spell-like ability, but can use either <Link to="/spell/summon_elder_worm">summon elder worm</Link> or <Link to="/spell/summon_froghemoth">summon froghemoth</Link> instead. This ability otherwise functions like the standard summoner's summon monster I ability and replaces that ability.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-summoner-wild_caller_arg--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/half_elf">Half-elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-summoner-wild_caller_arg-spells" icon={["spell-book"]}>
+<Pair single id="arc-summoner-wild_caller_arg-spells">Spells</Pair>
+<Pair hl title="Alters">Spell list of the summoner</Pair>
+<Pair title="Info">A wild caller does not have access to <em>summon monster</em> spells. Instead, he swaps out those spells on his spell list with <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spells of the same level.</Pair>
+</Ability>
+<Ability id="arc-summoner-wild_caller_arg-eidolon" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-summoner-wild_caller_arg-eidolon" flavor="The eidolon of a wild caller tends to take more natural and more savage forms than other summoners' eidolons.">Eidolon</Pair>
+<Pair hl title="Alters">Eidolon</Pair>
+<Pair title="Info"><p>A wild caller gains <Link to="/misc/one_fourth">one-fourth</Link> of his class level as bonus evolution points in his eidolon's evolution pool, but his eidolon cannot take the following evolutions.</p>
+<Block>
+<Row><Cell>1-point evolutions</Cell><Cell>Basic magic, magic attacks, <Link to="/evolution/skilled">skilled</Link> (while the eidolon can select this evolution, it can only do so with the following skills: Acrobatics, Climb, Escape Artist, Fly, Intimidate, Perception, Survival, and Swim), unnatural aura</Cell></Row>
+<Row><Cell>2-point evolutions</Cell><Cell>Energy attacks, immunity, weapon training, channel resistance, head, minor magic, undead appearance</Cell></Row>
+<Row><Cell>3-point evolutions</Cell><Cell>Damage reduction, frightful presence, major magic</Cell></Row>
+<Row><Cell>4-point evolutions</Cell><Cell>Breath weapon, spell resistance, dimension door, incorporeal form, lifesense, no breath, ultimate magic</Cell></Row></Block>
+</Pair>
+</Ability>
+<Ability id="arc-summoner-wild_caller_arg-summon-natures-ally-i-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-wild_caller_arg-summon-natures-ally-i-sp">Summon Nature's Ally I (Sp)</Pair>
+<Pair hl title="Replaces">Summon monster I</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">A wild caller can cast <Link to="/spell/summon_natures_ally_i">summon nature's ally I</Link> a number of times per day equal to 3 + his Charisma modifier.</Pair>
+<Pair title="At 3rd Level">This ability improves to <Link to="/spell/summon_natures_ally_ii">summon nature's ally II</Link>.</Pair>
+<Pair title="At 5th Level">This ability improves to <Link to="/spell/summon_natures_ally_iii">summon nature's ally III</Link>.</Pair>
+<Pair title="At 7th Level">This ability improves to <Link to="/spell/summon_natures_ally_iv">summon nature's ally IV</Link>.</Pair>
+<Pair title="At 9th Level">This ability improves to <Link to="/spell/summon_natures_ally_v">summon nature's ally V</Link>.</Pair>
+<Pair title="At 11th Level">This ability improves to <Link to="/spell/summon_natures_ally_vi">summon nature's ally VI</Link>.</Pair>
+<Pair title="At 13th Level">This ability improves to <Link to="/spell/summon_natures_ally_vii">summon nature's ally VII</Link>.</Pair>
+<Pair title="At 15th Level">This ability improves to <Link to="/spell/summon_natures_ally_viii">summon nature's ally VIII</Link>.</Pair>
+<Pair title="At 17th Level">This ability improves to <Link to="/spell/summon_natures_ally_ix">summon nature's ally IX</Link>.</Pair>
+<Pair title="At 19th Level">The wild caller cannot use <em>gate</em> as a spell-like ability, but can use either <Link to="/spell/summon_elder_worm">summon elder worm</Link> or <Link to="/spell/summon_froghemoth">summon froghemoth</Link> instead.</Pair>
+<Pair title="Special">This ability otherwise functions like the standard summoner's <em>summon monster I</em> ability.</Pair>
+</Ability>
 </>};
 const _wild_caller_hotw = {title: "Wild Caller (HotW)", jsx: <><h2 id="arc-summoner-wild_caller_hotw-wild-caller-hotw">Wild Caller (HotW)</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 25</Link><br/>A wild caller summons creatures from the First World and forges a bond with an eidolon with a plant body.</p>
-<p><strong>Plant Eidolon:</strong> When a wild caller summons his eidolon, the eidolon's body is created from extraplanar plant material and imbued with the intelligence of a being from the First World. Its statistics are changed from a standard eidolon as follows.</p>
-<p><strong>Type:</strong> The eidolon has the <Link to="/type/plant">plant</Link> creature type and <Link to="/subtype/extraplanar">extraplanar</Link> subtype. Unlike other plant creatures, the eidolon is not immune to mind-affecting or polymorph effects, though it does gain immunity to paralysis, poison, sleep effects, and stunning.</p>
-<p><strong>Base Form:</strong> The wild caller chooses one of the base forms listed below for his plant eidolon. When the eidolon is summoned in an environment matching one of these base forms, the wild caller can choose to change the eidolon's base form to the matching form by sacrificing one daily use of his summon nature's ally ability as a free action.</p>
+<Ability id="arc-summoner-wild_caller_hotw-plant-eidolon" icon={["info"]}>
+<Pair single id="arc-summoner-wild_caller_hotw-plant-eidolon">Plant Eidolon</Pair>
+<Pair title="Info">When a wild caller summons his eidolon, the eidolon's body is created from extraplanar plant material and imbued with the intelligence of a being from the First World. Its statistics are changed from a standard eidolon as shown below.</Pair>
+</Ability>
+<Ability id="arc-summoner-wild_caller_hotw-type" icon={["info"]}>
+<Pair single id="arc-summoner-wild_caller_hotw-type">Type</Pair>
+<Pair title="Info">The eidolon has the <Link to="/type/plant">plant</Link> creature type and <Link to="/subtype/extraplanar">extraplanar</Link> subtype. Unlike other plant creatures, the eidolon is not immune to mind-affecting or polymorph effects, though it does gain immunity to paralysis, poison, sleep effects, and stunning.</Pair>
+</Ability>
+<Ability id="arc-summoner-wild_caller_hotw-base-form" extraClasses="hasSubs" icon={["info"]}>
+<Pair single id="arc-summoner-wild_caller_hotw-base-form">Base Form</Pair>
+<Pair hl title="Alters">Eidolon</Pair>
+<Pair title="Info"><p>The wild caller chooses one of the base forms listed below for his plant eidolon. When the eidolon is summoned in an environment matching one of these base forms, the wild caller can choose to change the eidolon's base form to the matching form by sacrificing one daily use of his <em>summon nature's ally</em> ability as a <strong className="hl">free action</strong>.</p>
 <p>Plant eidolon base forms are as follows.</p>
-<blockquote className="hanging">
-<p><strong>Cactus (desert):</strong> <em>Size</em> Medium; <em>Speed</em> 30 ft.; <em>AC</em> +2 natural armor; <em>Saves</em> Fort (good), Ref (good), Will (bad); <em>Attack</em>s slam (1d8), sting (1d4); <em>Ability Scores</em> Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11; <em>Free Evolutions</em> <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/sting">sting</Link>, <Link to="/evolution/tail">tail</Link>.</p>
-<p><strong>Conifer (forest, mountain):</strong> <em>Size</em> Medium; <em>Speed</em> 30 ft.; <em>AC</em> +2 natural armor; <em>Saves</em> Fort (good), Ref (bad), Will (good); <em>Attack</em>s 2 claws (1d4); <em>Ability Scores</em> Str 14, Dex 12, Con 15, Int 7, Wis 10, Cha 11; Resist cold 10; <em>Free Evolutions</em> <Link to="/evolution/claws">claws</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/resistance">resistance</Link> (cold).</p>
-<p><strong>Mushroom (swamp, underground):</strong> <em>Size</em> Medium; <em>Speed</em> 20 ft.; <em>AC</em> +2 natural armor; <em>Saves</em> Fort (good), Ref (good), Will (bad); <em>Attack</em> bite (1d6) plus poison; <em>Ability Scores</em> Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11; <em>Free Evolutions</em> <Link to="/evolution/bite">bite</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/poison">poison</Link>.</p>
-<p><strong>Tree (forest, jungle, swamp):</strong> <em>Size</em> Medium; <em>Speed</em> 20 ft.; <em>AC</em> +4 natural armor; <em>Saves</em> Fort (good), Ref (good), Will (bad); <em>Attack</em>s 2 slams (1d8); <em>Ability Scores</em> Str 16, Dex 12, Con 13, Int 7, Wis 10, Cha 11; <em>Free Evolutions</em> <Link to="/evolution/improved_natural_armor">improved natural armor</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/slam">slam</Link> &times;2.</p>
-</blockquote>
-<p>This ability alters the summoner's <strong className="hl">eidolon</strong>.</p>
-<p><strong>Summon Nature's Ally (Sp):</strong> A wild caller can cast <Link to="/spell/summon_natures_ally">summon nature's ally</Link> as a spell-like ability a number of times per day equal to 3 + his Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the wild caller instead gains the equivalent summon nature's ally spell; at 19th level, he can use <Link to="/spell/summon_natures_ally_ix">summon nature's ally IX</Link> or <Link to="/spell/gate">gate</Link>. When a wild caller gains a summon nature's ally spell as a spell-like ability, he adds it to his class spell list (though he must still select it as a spell known if he wants to gain the ability to cast it as a normal spell).</p>
-<p>This ability alters the <strong className="hl">summon monster</strong> ability.</p>
-<p><strong>Fey Friend (Ex):</strong> At 10th level, the wild caller gains a +4 bonus on Bluff, Diplomacy, and Sense Motive checks against fey.</p>
-<p>This ability replaces <strong className="hl">aspect</strong>, which is instead gained at 18th level in place of <strong className="hl">greater aspect</strong>.</p>
+<Block titled><Row><Cell>Cactus (desert)</Cell></Row>
+<Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
+<Row><Cell>Speed</Cell><Cell>30 ft.</Cell></Row>
+<Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
+<Row><Cell>Saves</Cell><Cell>Fort (good), Ref (good), Will (bad)</Cell></Row>
+<Row><Cell>Attack</Cell><Cell>slam (1d8), sting (1d4)</Cell></Row>
+<Row><Cell>Ability Scores</Cell><Cell>Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11</Cell></Row>
+<Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/sting">sting</Link>, <Link to="/evolution/tail">tail</Link></Cell></Row></Block>
+<Block titled><Row><Cell>Conifer (forest, mountain)</Cell></Row>
+<Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
+<Row><Cell>Speed</Cell><Cell>30 ft.</Cell></Row>
+<Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
+<Row><Cell>Saves</Cell><Cell>Fort (good), Ref (bad), Will (good)</Cell></Row>
+<Row><Cell>Attack</Cell><Cell>2 claws (1d4)</Cell></Row>
+<Row><Cell>Ability Scores</Cell><Cell>Str 14, Dex 12, Con 15, Int 7, Wis 10, Cha 11; Resist cold 10</Cell></Row>
+<Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/claws">claws</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/resistance">resistance</Link> (cold)</Cell></Row></Block>
+<Block titled><Row><Cell>Mushroom (swamp, underground)</Cell></Row>
+<Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
+<Row><Cell>Speed</Cell><Cell>20 ft.</Cell></Row>
+<Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
+<Row><Cell>Saves</Cell><Cell>Fort (good), Ref (good), Will (bad)</Cell></Row>
+<Row><Cell>Attack</Cell><Cell>bite (1d6) plus poison</Cell></Row>
+<Row><Cell>Ability Scores</Cell><Cell>Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11</Cell></Row>
+<Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/bite">bite</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/poison">poison</Link></Cell></Row></Block>
+<Block titled><Row><Cell>Tree (forest, jungle, swamp)</Cell></Row>
+<Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
+<Row><Cell>Speed</Cell><Cell>20 ft.</Cell></Row>
+<Row><Cell>AC</Cell><Cell>+4 natural armor</Cell></Row>
+<Row><Cell>Saves</Cell><Cell>Fort (good), Ref (good), Will (bad)</Cell></Row>
+<Row><Cell>Attack</Cell><Cell>2 slams (1d8)</Cell></Row>
+<Row><Cell>Ability Scores</Cell><Cell>Str 16, Dex 12, Con 13, Int 7, Wis 10, Cha 11</Cell></Row>
+<Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/improved_natural_armor">improved natural armor</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/slam">slam</Link> &times;2</Cell></Row></Block>
+</Pair>
+</Ability>
+<Ability id="arc-summoner-wild_caller_hotw-summon-natures-ally-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-summoner-wild_caller_hotw-summon-natures-ally-sp">Summon Nature's Ally (Sp)</Pair>
+<Pair hl title="Alters">Summon monster</Pair>
+<Pair title="Ability">A wild caller can cast <Link to="/spell/summon_natures_ally">summon nature's ally</Link> as a spell-like ability a number of times per day equal to 3 + his Charisma modifier.</Pair>
+<Pair title="Info">At levels where a regular summoner would gain access to a new level of <em>summon monster</em> as a spell-like ability, the wild caller instead gains the equivalent <em>summon nature's ally</em> spell; at 19th level, he can use <Link to="/spell/summon_natures_ally_ix">summon nature's ally IX</Link> or <Link to="/spell/gate">gate</Link>.</Pair>
+<Pair title="Passive Ability">When a wild caller gains a <em>summon nature's ally</em> spell as a spell-like ability, he adds it to his class spell list (though he must still select it as a spell known if he wants to gain the ability to cast it as a normal spell).</Pair>
+</Ability>
+<Ability id="arc-summoner-wild_caller_hotw-fey-friend-ex" icon={["upgrade"]}>
+<Pair single id="arc-summoner-wild_caller_hotw-fey-friend-ex">Fey Friend (Ex)</Pair>
+<Pair hl title="Replaces">Aspect</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Passive Ability">The wild caller gains a +4 bonus on Bluff, Diplomacy, and Sense Motive checks against fey.</Pair>
+</Ability>
+<Ability id="arc-summoner-wild_caller_hotw-aspect" icon={["upgrade"]}>
+<Pair single id="arc-summoner-wild_caller_hotw-aspect">Aspect</Pair>
+<Pair hl title="Replaces">Greater aspect</Pair>
+<Pair title="Gained">At 18th Level</Pair>
+<Pair title="Passive Ability">The wild caller gains the <em>aspect</em> ability of a normal summoner.</Pair>
+</Ability>
 </>};
 export default {blood_god_disciple:_blood_god_disciple,blood_summoner:_blood_summoner,broodmaster:_broodmaster,counter_summoner:_counter_summoner,evolutionist:_evolutionist,first_worlder:_first_worlder,god_caller:_god_caller,leshy_caller:_leshy_caller,master_summoner:_master_summoner,morphic_savant:_morphic_savant,naturalist:_naturalist,pyroclast:_pyroclast,shadow_caller:_shadow_caller,shaitan_binder:_shaitan_binder,spirit_summoner:_spirit_summoner,storm_caller:_storm_caller,story_summoner:_story_summoner,synthesist:_synthesist,twinned_summoner:_twinned_summoner,unwavering_conduit:_unwavering_conduit,wild_caller_arg:_wild_caller_arg,wild_caller_hotw:_wild_caller_hotw}
