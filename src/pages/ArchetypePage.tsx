@@ -92,7 +92,6 @@ const classes: GenStrict<string, [number, string]> = {
 
 	rogue: [7, "Rogue"], // conflicts with bard, slayer, hunter
 	sorcerer: [7, "Sorcerer"], // conflicts with oracle
-	unchained_summoner: [7, "Unchained Summoner"], // conflicts with summoner
 
 	brawler: [8, "Brawler"],
 	mesmerist: [8, "Mesmerist"],
@@ -145,6 +144,7 @@ const classes: GenStrict<string, [number, string]> = {
 	monk: [28, "Monk"],
 
 	paladin: [29, "Paladin"], // conflicts with hunter
+	unchained_summoner: [29, "Unchained Summoner"], // conflicts with summoner
 };
 
 type Params = { id?: string, parent?: string };
