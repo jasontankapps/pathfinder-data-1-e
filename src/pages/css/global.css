@@ -217,9 +217,13 @@ section[data-footnotes] ol li p {
 	display: contents;
 }
 
-strong.hl,
-div.hl {
+:is(strong,div).hl,
+:is(strong,span).bigHl {
 	color: var(--ion-color-tertiary);
+}
+
+:is(strong,span).bigHl {
+	font-size: 1.25em;
 }
 
 strong.hl a,

@@ -5,7 +5,9 @@ interface BlockProps {
 	tiny?: boolean
 }
 interface RowProps {}
-interface CellProps {}
+interface CellProps {
+	className?: string
+}
 
 export const Block: FC<PropsWithChildren<BlockProps>> = (props) => {
 	const {titled, tiny, children} = props;
@@ -28,9 +30,9 @@ export const Row: FC<PropsWithChildren<RowProps>> = (props) => {
 
 
 export const Cell: FC<PropsWithChildren<CellProps>> = (props) => {
-	const {children} = props;
+	const {children, className} = props;
 	return (
-		<div className="td">
+		<div className={"td" + (className ? " " + className : "")}>
 			{children}
 		</div>
 	);

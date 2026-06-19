@@ -1,9 +1,8 @@
 import { IonIcon } from "@ionic/react";
 import { ReactNode, FC, Fragment as F, useMemo, ClassAttributes, AnchorHTMLAttributes } from "react";
 import Markdown, { ExtraProps } from 'react-markdown';
-import Link, {ThLink} from "./Link";
+import Link from "./Link";
 import InnerLink from "./InnerLink";
-import ScrollContainer from "./ScrollContainer";
 import Duo from "./Duo";
 import {Block, Row, Cell} from "./Block";
 import comp from "./displayTable/Components";
@@ -291,7 +290,15 @@ const $alternates: Alternates[] = [
 		"sources": [[4,5]],
 		"content": (<>
 			<p>Drow sometimes augment their slaves and frontline warriors by making them toxic, causing their bodies to internally produce mawbane poison (see below). The resulting poisonous creature makes a potent weapon in the effort to discourage neighboring monsters. Any creature that hits such a character with a bite attack is immediately exposed to its poison.</p>
-			<div className="sideNoteWrap"><ScrollContainer id="poison-minion-table-alt-racial-trait"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Mawbane Poison</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Ingested</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the character's HD + their Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div>
+			<Block titled>
+			<Row><Cell className="has-icon"><Link to="/rules/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></Link><span>Mawbane Poison</span></Cell></Row>
+			<Row><Cell>Type</Cell><Cell>Ingested</Cell></Row>
+			<Row><Cell>Save DC</Cell><Cell>Fort 10 + 1/2 the character's HD + their Con modifier</Cell></Row>
+			<Row><Cell>Onset</Cell><Cell>immediate</Cell></Row>
+			<Row><Cell>Frequency</Cell><Cell>1/round for 4 rounds</Cell></Row>
+			<Row><Cell>Effect</Cell><Cell>1d2 <Link to="/rule/con_damage">Con damage</Link></Cell></Row>
+			<Row><Cell>Cure</Cell><Cell>1 save</Cell></Row>
+			</Block>
 		</>)
 	},
 	{ // 35
@@ -3053,7 +3060,14 @@ const $alternates: Alternates[] = [
 		"sources": [[0,190]],
 		"content": (<>
 			<p>Once per day as a swift action, a grippli can create a poison that can be applied to a weapon or delivered as a touch attack. Alternatively, the grippli can smear the poison on its own body as a standard action, affecting the first creature to hit it with an unarmed strike or natural weapon. The poison loses its potency after 1 hour. The grippli is immune to its own poison.</p>
-			<div className="sideNoteWrap"><ScrollContainer id="toxic-skin-alt-racial-trait"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Grippli Poison</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Skin or weapon-contact or injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the grippli's HD + their Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/dex_damage">Dex damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div>
+			<Block titled>
+			<Row><Cell className="has-icon"><Link to="/rules/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></Link><span>Grippli Poison</span></Cell></Row>
+			<Row><Cell>Type</Cell><Cell>Skin or weapon-contact or injury</Cell></Row>
+			<Row><Cell>Save DC</Cell><Cell>Fort 10 + 1/2 the grippli's HD + their Con modifier</Cell></Row>
+			<Row><Cell>Onset</Cell><Cell>immediate</Cell></Row>
+			<Row><Cell>Frequency</Cell><Cell>1/round for 6 rounds</Cell></Row>
+			<Row><Cell>Effect</Cell><Cell>1d2 <Link to="/rule/dex_damage">Dex damage</Link></Cell></Row>
+			<Row><Cell>Cure</Cell><Cell>1 save</Cell></Row></Block>
 		</>)
 	},
 	{ // 
@@ -3949,7 +3963,14 @@ const $alternates: Alternates[] = [
 		"sources": [[5,21]],
 		"content": (<>
 			<p>Vine leshys made from poison ivy vines carry natural poison in their bodies. As a swift action, the leshy can imbue its vines with this irritating substance. The next time the leshy hits a creature with an unarmed strike, the creature is affected by the following poison.</p>
-			<div className="sideNoteWrap"><ScrollContainer id="vine-leshy-poison-table"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Vine Leshy Toxin</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Unarmed strike-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the vine leshy's HD + the vine leshy's Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}><Link to="/misc/sickened">sickened</Link> for 1 round</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div>
+			<Block titled>
+			<Row><Cell className="has-icon"><Link to="/rules/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></Link><span>Vine Leshy Toxin</span></Cell></Row>
+			<Row><Cell>Type</Cell><Cell>Unarmed strike-injury</Cell></Row>
+			<Row><Cell>Save DC</Cell><Cell>Fort 10 + 1/2 the vine leshy's HD + the vine leshy's Con modifier</Cell></Row>
+			<Row><Cell>Onset</Cell><Cell>immediate</Cell></Row>
+			<Row><Cell>Frequency</Cell><Cell>1/round for 6 rounds</Cell></Row>
+			<Row><Cell>Effect</Cell><Cell><Link to="/misc/sickened">sickened</Link> for 1 round</Cell></Row>
+			<Row><Cell>Cure</Cell><Cell>1 save</Cell></Row></Block>
 			<p>The leshy can use this ability a number of times per day equal to its Constitution modifier (minimum 1). A vine leshy is immune to its own poison, but not to those of other vine leshys. This replaces plantspeech and change shape.</p>		
 		</>)
 	},
@@ -5831,7 +5852,7 @@ const RacialOptions: FC<Props> = (props) => {
 					const [title, ...alts] = alt;
 					return (
 						<Block titled key={`${prefix}-alternate-racial-trait-replacement-block-${i}`}>
-							<Row><Cell>Replaces {title}</Cell></Row>
+							<Row><Cell>Replaces <span className="bigHl">{title}</span></Cell></Row>
 							{
 								alts.map((a, j) => {
 									const {title: t, sources: s, content: c, copies, add} = $alternates[a];
