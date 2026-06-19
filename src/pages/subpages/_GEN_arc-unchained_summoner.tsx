@@ -132,17 +132,17 @@ const _fey_caller = {title: "Fey Caller", jsx: <><h2 id="arc-unchained_summoner-
 <Ability icon={["skills"]} id="arc-unchained_summoner-fey_caller-undefined">
 <Pair id="arc-unchained_summoner-fey_caller-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
-<Pair title="Removed Skills">Knowledge (arcana), Knowledge (dungeoneering), Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (local), Knowledge (nature), Knowledge (nobility), Knowledge (planes), Knowledge (religion)</Pair></Ability>
+<Pair title="Removed Skills">Knowledge (arcana), Knowledge (dungeoneering), Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (local), Knowledge (nobility), Knowledge (religion)</Pair></Ability>
 <Ability id="arc-unchained_summoner-fey_caller-natures-call" icon={["info"]}>
 <Pair single id="arc-unchained_summoner-fey_caller-natures-call">Nature's Call</Pair>
 <Pair hl title="Alters">Summon monster</Pair>
 <Pair title="Info">Instead of summoning creatures from the summon monster list, the fey caller's <em>summoning</em> spell-like ability summons creatures from the list for the <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spell of the same level. It still follows the other rules and restrictions for the summoner's <em>summon monster</em> spell-like ability.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-fey_caller-fey-eidolon" icon={["info"]}>
+<Ability id="arc-unchained_summoner-fey_caller-fey-eidolon" extraClasses="hasSubs" icon={["info"]}>
 <Pair single id="arc-unchained_summoner-fey_caller-fey-eidolon">Fey Eidolon</Pair>
 <Pair title="Info">A fey caller's eidolon is still an outsider, and its base statistics don't change, but it also counts as a <Link to="/type/fey">fey</Link>. A fey caller's eidolon has the new subtype below.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-fey_caller-fey" icon={["info","stairs-goal","magic-swirl","armor-upgrade"]}>
+<Ability id="arc-unchained_summoner-fey_caller-fey" extraClasses="subAbility" icon={["info","stairs-goal","magic-swirl","armor-upgrade"]}>
 <Pair single id="arc-unchained_summoner-fey_caller-fey">Fey</Pair>
 <Pair title="Description"><p>Fey eidolons are whimsical and mysterious creatures, prone to flights of fancy, odd compulsions, and alien humor. While some creatures from the faerie realms have truly unusual shapes, the ones close enough to the human mind to serve as eidolons tend to look like idealized humanoids with unusual features that set them apart, such as pointed ears or gossamer wings.</p>
 <p>Fey eidolons usually choose to bond with mortals for their own mysterious reasons that vary as much as their disparate temperaments; occasionally, their need may be immediate, such as when a <Link to="/monster/dryad">dryad</Link> whose tree is dying decides to bond with a summoner instead and become something new. On the other hand, a <Link to="/monster/redcap">redcap</Link> just looking for bloodshed might connect with an equally sadistic summoner. Whatever their reasons, they tend to have strong bonds of loyalty to their summoners entangled with equally strong emotional attachments, even evil fey eidolons.</p>
