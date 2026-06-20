@@ -2176,7 +2176,7 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="Swift Action"><p>You can call out to the powers of good to aid you in your struggle against evil, choosing one target within sight to smite. If you target a creature that is not evil, the smite is wasted with no effect.</p>
 <p>If this target is evil, you add your Charisma bonus (if any) on your attack rolls and add your paladin level to all damage rolls made against the target of your smite. If the target of <em>smite evil</em> is an <Link to="/type/outsider">outsider</Link> with the <Link to="/subtype/evil">evil</Link> subtype, an evil-aligned <Link to="/type/dragon">dragon</Link>, an <Link to="/type/undead">undead</Link> creature, or a creature with levels in <Link to="/class/antipaladin">antipaladin</Link>, the bonus to damage on the first successful attack increases to 2 points of damage per paladin level. Regardless of the target, <em>smite evil</em> attacks automatically bypass any DR the creature might possess.</p>
 <p>In addition, while <em>smite evil</em> is in effect, you gain a deflection bonus equal to your Charisma modifier (if any) to your AC against attacks made by the target of the smite.</p>
-<p>The <em>smite evil</em> effect remains until the target of the smite is dead or the next time you rest and regains your uses of this ability.</p>
+<p>The <em>smite evil</em> effect remains until the target of the smite is dead or the next time you rest and regain your uses of this ability.</p>
 </Pair>
 <Pair title="At 4th Level">You can smite 2 times a day.</Pair>
 <Pair title="At 7th Level">You can smite 3 times a day.</Pair>

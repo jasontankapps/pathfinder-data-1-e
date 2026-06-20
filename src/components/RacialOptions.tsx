@@ -217,7 +217,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Hag Magic",
-		"sources": [[21,214]],
+		"sources": [[23,24],[21,214]],
 		"content": (
 			<p>Some changelings develop a gift for spellcasting instead of their mothers' overtly fearsome traits. A changeling with this trait displays one or more stark white streaks in her hair as a child. The DCs of any saving throws against enchantment spells she casts increase by 1, and if her Charisma score is 11 or higher, she also gains the following spell-like abilities, usable once per day each: <Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/disguise_self">disguise self</Link>, and <Link to="/spell/pass_without_trace">pass without trace</Link>. The caster level of these spell-like abilities is equal to the changeling's character level. The DC for these spell-like abilities is equal to 10 + the spell's level + the changeling's Charisma modifier.</p>
 		)
@@ -485,7 +485,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Deep Warrior",
-		"sources": [[2,11]],
+		"sources": [[0,11],[2,11]],
 		"content": (
 			<p>Dwarves with this racial trait grew up facing the abominations that live deep beneath the surface. They receive a +2 dodge bonus to AC against monsters of the aberration type and a +2 racial bonus on combat maneuver checks made to grapple such creatures (or to continue a grapple).</p>
 		)
@@ -576,7 +576,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Craftsman",
-		"sources": [[2,11]],
+		"sources": [[0,11],[2,11]],
 		"content": (
 			<p>Dwarves are known for their superior craftsmanship when it comes to metallurgy and stonework. Dwarves with this racial trait receive a +2 racial bonus on all Craft or Profession checks related to metal or stone.</p>
 		)
@@ -674,7 +674,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Ancient Enmity",
-		"sources": [[2,11]],
+		"sources": [[0,11],[2,11]],
 		"content": (
 			<p>Dwarves have long been in conflict with elves, especially the hated drow. Dwarves with this racial trait receive a +1 racial bonus on attack rolls against humanoid creatures of the elf subtype.</p>
 		)
@@ -723,7 +723,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 95
 		"title": "Relentless",
-		"sources": [[2,11]],
+		"sources": [[0,12],[2,11]],
 		"content": (
 			<p>Dwarves are skilled at pushing their way through a battlefield, tossing aside lesser foes with ease. Dwarves with this racial trait receive a +2 bonus on combat maneuver checks made to bull rush or overrun an opponent. This bonus only applies while both the dwarf and his opponent are standing on the ground.</p>
 		)
@@ -786,7 +786,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Stonesinger",
-		"sources": [[2,11]],
+		"sources": [[0,12],[2,11]],
 		"content": (
 			<p>Some dwarves' affinity for the earth grants them greater powers. Dwarves with this racial trait are treated as one level higher when casting spells with the earth descriptor or using granted powers of the Earth domain, the bloodline powers of the deep earth bloodline or earth elemental bloodline, and revelations of the oracle's stone mystery. This ability does not give them early access to level-based powers; it only affects the powers they could use without this ability.</p>
 		)
@@ -807,7 +807,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Dreamspeaker",
-		"sources": [[2,13]],
+		"sources": [[0,22],[2,13]],
 		"content": (
 			<p>A few elves have the ability to tap into the power of sleep, dreams, and prescient reverie. Elves with this racial trait add +1 to the saving throw DCs of spells of the divination school and sleep effects they cast. In addition, elves with Charisma scores of 15 or higher may use <Link to="/spell/dream">dream</Link> once per day as a spell-like ability (caster level is equal to the elf's character level).</p>
 		)
@@ -835,7 +835,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Lightbringer",
-		"sources": [[2,13]],
+		"sources": [[0,22],[2,13]],
 		"content": (
 			<p>Many elves revere the sun, moon, and stars, but some are literally infused with the radiant power of the heavens. Elves with this racial trait are immune to light-based blindness and dazzle effects, and are treated as one level higher when determining the effects of any light-based spell or effect they cast (including spell-like and supernatural abilities). Elves with Intelligence scores of 10 or higher may use <Link to="/spell/light">light</Link> at will as a spell-like ability.</p>
 		)
@@ -870,7 +870,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Desert Runner",
-		"sources": [[2,12]],
+		"sources": [[0,22],[2,12]],
 		"content": (
 			<p>Some elves thrive in the deepest deserts, forever roaming across burned and parched lands. Elves with this racial trait receive a +4 racial bonus on Constitution checks and Fortitude saves to avoid fatigue, exhaustion, or ill effects from running, forced marches, starvation, thirst, or hot or cold environments.</p>
 		)
@@ -884,7 +884,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Eternal Grudge",
-		"sources": [[2,13]],
+		"sources": [[0,22],[2,13]],
 		"content": (
 			<p>Some elves grow up in secluded, isolationist communities where generations-old slights and quarrels linger as eternal blood feuds. Elves with this racial trait receive a +1 bonus on attack rolls against humanoids of the dwarf and orc subtypes because of special training against these hated foes.</p>
 		)
@@ -932,7 +932,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 125
 		"title": "Silent Hunter",
-		"sources": [[2,13]],
+		"sources": [[0,22],[2,13]],
 		"content": (
 			<p>Elves are renowned for their subtlety and skill. Elves with this racial trait reduce the penalty for using Stealth while moving by 5 and can make Stealth checks while running at a -20 penalty (this number includes the penalty reduction from this racial trait).</p>
 		)
@@ -946,7 +946,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Woodcraft",
-		"sources": [[2,13]],
+		"sources": [[0,23],[2,13]],
 		"content": (
 			<p>Elves know the deep secrets of the wild like no others, especially secrets of the forests. Elves with this racial trait gain a +1 racial bonus on Knowledge (nature) and Survival checks. In forest terrain, these bonuses improve to +2.</p>
 		)
@@ -1169,35 +1169,35 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Burning Assurance",
-		"sources": [[33,12]],
+		"sources": [[27,25],[33,12]],
 		"content": (
 			<p>Sandkin lack the chip on their shoulder that many half-orcs acquire as a result of prejudice, and their self-confidence puts others at ease. Desert half-orcs with this racial trait gain a +2 racial bonus on Diplomacy checks.</p>
 		)
 	},
 	{ // 160
 		"title": "Cavewight",
-		"sources": [[2,19]],
+		"sources": [[0,52],[2,19]],
 		"content": (
 			<p>Some half-orcs live far below the surface, seeking freedom in winding cave complexes. Half-orcs with this racial trait gain a +1 racial bonus on Knowledge (dungeoneering) and Survival checks made underground.</p>
 		)
 	},
 	{ // 
 		"title": "Evader",
-		"sources": [[33,11]],
+		"sources": [[27,24],[33,11]],
 		"content": (
 			<p>Having lived all their lives at the mercy of savage underworld creatures, some gloomkin develop an uncanny knack for finding their way around silently in the dark. While underground, Darklands half-orcs with this racial trait gain a +5 racial bonus on Survival checks to avoid becoming lost and a +1 racial bonus on Stealth checks.</p>
 		)
 	},
 	{ // 
 		"title": "Rock Climber",
-		"sources": [[2,19]],
+		"sources": [[0,52],[2,19]],
 		"content": (
 			<p>Half-orcs from mountainous regions are excellent climbers, and sometimes ambush prey by leaping down from above. Half-orcs with this racial trait gain a +1 racial bonus on Acrobatics and Climb checks.</p>
 		)
 	},
 	{ // 
 		"title": "Scavenger",
-		"sources": [[2,19]],
+		"sources": [[0,52],[2,19]],
 		"content": (
 			<p>Some half-orcs eke out a leaving picking over the garbage heaps of society, and must learn to separate rare finds from the inevitable dross. Half-orcs with this racial trait receive a +2 racial bonus on Appraise checks and on Perception checks to find hidden objects (including traps and secret doors), determine whether food is spoiled, or identify a potion by taste.</p>
 		)
@@ -1217,7 +1217,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Unflinching Valor",
-		"sources": [[33,13]],
+		"sources": [[27,26],[33,13]],
 		"content": (
 			<p>Many fearsome arctic predators consider young frostkin easy prey, but some frostkin manage to overcome their fear and fight off these beasts while they wait for help to arrive. Winter half-orcs with this racial trait gain a +2 racial bonus on saving throws against fear effects, and a +1 racial bonus to CMD to avoid being grappled.</p>
 		)
@@ -1287,14 +1287,14 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Beastmaster",
-		"sources": [[2,19]],
+		"sources": [[0,52],[2,19]],
 		"content": (
 			<p>Some half-orcs have a spiritual kinship with fantastical beasts, capturing them for sport or living and hunting with them. A half-orc with this trait treats whips and nets as martial weapons and gains a +2 racial bonus on Handle Animal checks.</p>
 		)
 	},
 	{ // 
 		"title": "Bestial",
-		"sources": [[2,19]],
+		"sources": [[0,52],[2,19]],
 		"content": (
 			<p>The orc blood of some half-orcs manifests in the form of particularly prominent orc features, exacerbating their bestial appearances but improving their already keen senses. They gain a +2 racial bonus on Perception checks.</p>
 		)
@@ -1308,7 +1308,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Gatecrasher",
-		"sources": [[2,19]],
+		"sources": [[0,52],[2,19]],
 		"content": (
 			<p>Many half-orcs revel in acts of wanton destruction. Half-orcs with this racial trait gain a +2 racial bonus on Strength checks to break objects and on sunder combat maneuver checks.</p>
 		)
@@ -1322,7 +1322,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Sacred Tattoo",
-		"sources": [[2,19]],
+		"sources": [[0,52],[2,19]],
 		"content": (
 			<p>Many half-orcs decorate themselves with tattoos, piercings, and ritual scarification, which they consider sacred markings. Half-orcs with this racial trait gain a +1 luck bonus on all saving throws.</p>
 		)
@@ -1336,21 +1336,21 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Toothy",
-		"sources": [[2,19]],
+		"sources": [[0,52],[2,19]],
 		"content": (
 			<p>Some half-orcs' tusks are large and sharp, granting a bite attack. This is a primary natural attack that deals 1d4 points of piercing damage.</p>
 		)
 	},
 	{ // 
 		"title": "Warded Skin",
-		"sources": [[33,12]],
+		"sources": [[27,25],[33,12]],
 		"content": (
 			<p>Many rainkin are protected from the power of Angazhan's worshipers by elaborate tattoos that redirect demonic magic. Jungle half-orcs with this racial trait gain spell resistance against divine magic equal to 6 + their level. Additionally, divine spells cast on them by demon worshipers have a 10% chance of failure.</p>
 		)
 	},
 	{ // 185
 		"title": "Cliffside Charger",
-		"sources": [[33,13]],
+		"sources": [[27,26],[33,13]],
 		"content": (
 			<p>Cragkin are accustomed to traveling in the steep terrain of their mountain homes. When in mountain terrain, mountain half-orcs with this racial trait can move through natural difficult terrain at their normal speed; magically altered terrain affects them normally. In addition, cragkin gain a +10-foot racial bonus to their speed while charging.</p>
 		)
@@ -1371,7 +1371,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Chain Fighter",
-		"sources": [[2,19]],
+		"sources": [[0,52],[2,19]],
 		"content": (
 			<p>Some half-orcs have escaped from slavery and reforged the chains of their imprisonment into deadly weapons. Half-orcs with this racial trait are proficient with flails and heavy flails, and treat dire flails and spiked chains as martial weapons.</p>
 		)
@@ -1426,14 +1426,14 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Craven",
-		"sources": [[2,21]],
+		"sources": [[0,62],[2,21]],
 		"content": (
 			<p>While most halflings are fearless, some are skittish, making them particularly alert. Halflings with this racial trait gain a +1 bonus on initiative checks and a +1 bonus on attack rolls when flanking. They take a -2 penalty on saves against fear effects and gain no benefit from morale bonuses on such saves. When affected by a fear effect, their base speed increases by 10 feet and they gain a +1 dodge bonus to Armor Class.</p>
 		)
 	},
 	{ // 
 		"title": "Wanderlust",
-		"sources": [[2,21]],
+		"sources": [[0,62],[2,21]],
 		"content": (
 			<p>Halflings love travel and maps. Halflings with this racial trait receive a +2 bonus on Knowledge (geography) and Survival checks. When casting spells or using abilities that provide or enhance movement, halflings treat their caster level as +1 higher than normal.</p>
 		)
@@ -1447,7 +1447,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Practicality",
-		"sources": [[2,21]],
+		"sources": [[0,62],[2,21]],
 		"content": (
 			<p>Halflings value hard work and common sense. Halflings with this racial trait gain a +2 bonus on any one Craft or Profession skill, as well as on Sense Motive checks and saves against illusions.</p>
 		)
@@ -1510,7 +1510,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Underfoot",
-		"sources": [[30,9]],
+		"sources": [[0,62],[30,9]],
 		"content": (
 			<p>Halflings must train hard to effectively fight bigger opponents. Halflings with this racial trait gain a +1 dodge bonus to AC against foes larger than themselves and a +1 bonus on Reflex saving throws to avoid trample attacks.</p>
 		)
@@ -1559,7 +1559,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Low Blow",
-		"sources": [[2,21]],
+		"sources": [[0,62],[2,21]],
 		"content": (
 			<p>Some halflings train extensively in the art of attacking larger creatures. Halflings with this racial trait gain a +1 bonus on critical confirmation rolls against opponents larger than themselves.</p>
 		)
@@ -1615,7 +1615,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Outrider",
-		"sources": [[2,19]],
+		"sources": [[0,62],[2,19]],
 		"content": (
 			<p>Some halflings specialize in mounted combat. Halflings with this racial trait gain a +2 bonus on Handle Animal and Ride checks.</p>
 		)
@@ -1643,14 +1643,14 @@ const $alternates: Alternates[] = [
 	},
 	{ // 225
 		"title": "Swift as Shadows",
-		"sources": [[2,21]],
+		"sources": [[0,62],[2,21]],
 		"content": (
 			<p>Halflings possess incredible stealth even while moving through obstructed areas. Halflings with this racial trait reduce the penalty for using Stealth while moving by 5, and reduce the Stealth check penalty for sniping by 10.</p>
 		)
 	},
 	{ // 
 		"title": "Warslinger",
-		"sources": [[2,21]],
+		"sources": [[0,62],[2,21]],
 		"content": (
 			<p>Halflings are experts at the use of the sling. Halflings with this racial trait can reload a sling as a free action. Reloading a sling still requires two hands and provokes attacks of opportunity.</p>
 		)
@@ -1769,7 +1769,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Eye for Talent",
-		"sources": [[2,23]],
+		"sources": [[0,72],[2,23]],
 		"content": (
 			<p>Humans have great intuition for hidden potential. They gain a +2 racial bonus on Sense Motive checks. In addition, when they acquire an animal companion, bonded mount, cohort, or familiar, that creature gains a +2 bonus to one ability score of the character's choice.</p>
 		)
@@ -1916,7 +1916,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Heart of the Fields",
-		"sources": [[2,23]],
+		"sources": [[0,72],[2,23]],
 		"content": (
 			<p>Humans born in rural areas are used to hard labor. They gain a racial bonus equal to half their character level to any one Craft or Profession skill, and once per day they may ignore an effect that would cause them to become fatigued or exhausted.</p>
 		)
@@ -1951,7 +1951,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Heart of the Streets",
-		"sources": [[2,23]],
+		"sources": [[0,72],[2,23]],
 		"content": (
 			<p>Humans from bustling cities are skilled with crowds. They gain a +1 racial bonus on Reflex saves and a +1 dodge bonus to Armor Class when adjacent to at least two other allies. Crowds do not count as difficult terrain for them.</p>
 		)
@@ -1965,7 +1965,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Heart of the Wilderness",
-		"sources": [[2,23]],
+		"sources": [[0,72],[2,23]],
 		"content": (
 			<p>Humans raised in the wild learn the hard way that only the strong survive. They gain a racial bonus equal to half their character level on Survival checks. They also gain a +5 racial bonus on Constitution checks to stabilize when dying and add half their character level to their Constitution score when determining the negative hit point total necessary to kill them.</p>
 		)
@@ -2742,21 +2742,21 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Eternal Hope",
-		"sources": [[2,14]],
+		"sources": [[0,32],[2,14]],
 		"content": (
 			<p>Gnomes rarely lose hope and are always confident that even hopeless situations will work out. Gnomes with this racial trait receive a +2 racial bonus on saving throws against fear and despair effects. Once per day, after rolling a 1 on a d20, the gnome may reroll and use the second result.</p>
 		)
 	},
 	{ // 
 		"title": "Gift of Tongues",
-		"sources": [[2,15]],
+		"sources": [[0,32],[2,15]],
 		"content": (
 			<p>Gnomes love <Link to="/misc/languages">languages</Link> and learning about those they meet. Gnomes with this racial trait gain a +1 bonus on Bluff and Diplomacy checks, and they learn one additional language every time they put a rank in the Linguistics skill.</p>
 		)
 	},
 	{ // 
 		"title": "Master Tinker",
-		"sources": [[2,15]],
+		"sources": [[0,32],[2,15]],
 		"content": (
 			<p>Gnomes experiment with all manner of mechanical devices. Gnomes with this racial trait gain a +1 bonus on Disable Device and Knowledge (engineering) checks. They are treated as proficient with any weapon they have personally crafted.</p>
 		)
@@ -2770,7 +2770,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Warden of Nature",
-		"sources": [[2,15]],
+		"sources": [[0,33],[2,15]],
 		"content": (
 			<p>Gnomes must often protect their homes against unnatural or pestilential infestations. Gnomes with this racial trait gain a +2 dodge bonus to AC against aberrations, oozes, and vermin, and a +1 bonus on attack rolls against them because of their special training.</p>
 		)
@@ -2847,14 +2847,14 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Magical Linguist",
-		"sources": [[2,15]],
+		"sources": [[0,32],[2,15]],
 		"content": (
 			<p>Gnomes study languages in both their mundane and supernatural manifestations. Gnomes with this racial trait add +1 to the DC of spells they cast with the language-dependent descriptor or those that create glyphs, symbols, or other magical writings. They gain a +2 racial bonus on saving throws against such spells. Gnomes with Charisma scores of 11 or higher also gain the following spell-like abilities: 1/day-<Link to="/spell/arcane_mark">arcane mark</Link>, <Link to="/spell/comprehend_languages">comprehend languages</Link>, <Link to="/spell/message">message</Link>, <Link to="/spell/read_magic">read magic</Link>. The caster level for these effects is equal to the gnome's level.</p>
 		)
 	},
 	{ // 
 		"title": "Pyromaniac",
-		"sources": [[2,15]],
+		"sources": [[0,33],[2,15]],
 		"content": (
 			<p>Gnomes with this racial trait are treated as one level higher when casting spells with the fire descriptor, using granted powers of the Fire domain, using the bloodline powers of the fire elemental bloodline or the revelations of the oracle's flame mystery, and determining the damage of alchemist bombs that deal fire damage (this ability does not give gnomes early access to level-based powers; it only affects the powers they could use without this ability). Gnomes with Charisma scores of 11 or higher also gain the following spell-like abilities: 1/day-<Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/flare">flare</Link>, <Link to="/spell/prestidigitation">prestidigitation</Link>, <Link to="/spell/produce_flame">produce flame</Link>. The caster level for these effects is equal to the gnome's level; the DCs are Charisma-based.</p>
 		)
@@ -2938,7 +2938,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 410
 		"title": "Academician",
-		"sources": [[2,14]],
+		"sources": [[0,32],[2,14]],
 		"content": (
 			<p>Some gnomes are more academically inclined than their kin. Gnomes with this racial trait gain a +2 bonus on any single Knowledge skill.</p>
 		)
@@ -3100,7 +3100,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Ancestral Arms",
-		"sources": [[2,17]],
+		"sources": [[0,42],[2,17]],
 		"content": (
 			<p>Some half-elves receive training in an unusual weapon. Half-elves with this racial trait receive <Link to="/feat/Exotic_Weapon_Proficiency">Exotic Weapon Proficiency</Link> or <Link to="/feat/Martial_Weapon_Proficiency">Martial Weapon Proficiency</Link> with one weapon as a bonus feat at 1st level.</p>
 		)
@@ -3114,21 +3114,21 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Dual Minded",
-		"sources": [[2,17]],
+		"sources": [[0,42],[2,17]],
 		"content": (
 			<p>The mixed ancestry of some half-elves makes them resistant to mental attacks. Half-elves with this racial trait gain a +2 bonus on all Will saving throws.</p>
 		)
 	},
 	{ // 435
 		"title": "Integrated",
-		"sources": [[2,17]],
+		"sources": [[0,42],[2,17]],
 		"content": (
 			<p>Many half-elves are skilled in the art of ingratiating themselves into a community as if they were natives. Half-elves with this racial trait gain a +1 bonus on Bluff, Disguise, and Knowledge (local) checks.</p>
 		)
 	},
 	{ // 
 		"title": "Mordant Envoy",
-		"sources": [[33,7]],
+		"sources": [[27,21],[33,7]],
 		"content": (
 			<p>Spireborn add +1 to the caster level of any transmutation spells they cast. Spireborn with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/day-<Link to="/spell/comprehend_languages">comprehend languages</Link>, <Link to="/spell/detect_secret_doors">detect secret doors</Link>, <Link to="/spell/erase">erase</Link>, and <Link to="/spell/read_magic">read magic</Link>. The caster level for these effects is equal to the Spireborn's character level.</p>
 		)
@@ -3142,7 +3142,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Sociable",
-		"sources": [[2,17]],
+		"sources": [[0,42],[2,17]],
 		"content": (
 			<p>Half-elves are skilled at charming others and recovering from faux pas. If half-elves with this racial trait attempt to change a creature's attitude with a Diplomacy check and fail by 5 or more, they can try to influence the creature a second time even if 24 hours have not passed.</p>
 		)
@@ -3212,7 +3212,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Water Child",
-		"sources": [[2,17]],
+		"sources": [[0,42],[2,17]],
 		"content": (
 			<p>Some half-elves are born of elves adapted to life on or near the water. These half-elves gain a +4 racial bonus on Swim checks, can always take 10 while swimming, and may choose Aquan as a bonus language.</p>
 		)
@@ -3233,7 +3233,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Cold-Honed",
-		"sources": [[33,7]],
+		"sources": [[27,22],[33,7]],
 		"content": (
 			<p>Snowborn can move through natural snow and ice at their normal speed and gain a +4 racial bonus on Fortitude saves to avoid nonlethal damage from cold environments.</p>
 		)
@@ -3254,7 +3254,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Thinblood Resistance",
-		"sources": [[33,6]],
+		"sources": [[27,20],[33,6]],
 		"content": (
 			<p>Darkborn are accustomed to torture at the hands of their drow forebears and gain a +2 racial bonus on Fortitude saves against poison and disease, including magical diseases. Darkborn also gain the <Link to="/ability/poison_use">poison use</Link> ability and never risk poisoning themselves when applying poison to a weapon.</p>
 		)
@@ -3303,14 +3303,14 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Child of the Sea",
-		"sources": [[33,5]],
+		"sources": [[27,20],[33,5]],
 		"content": (
 			<p>Shoreborn gain a +4 racial bonus on Swim checks as well as on Profession (sailor) checks and Wisdom checks to pilot a sea vessel. They also have an innate sense of direction and can never get lost at sea.</p>
 		)
 	},
 	{ // 
 		"title": "Arcane Training",
-		"sources": [[2,17]],
+		"sources": [[0,42],[2,17]],
 		"content": (
 			<p>Half-elves occasionally seek tutoring to help them master the magic in their blood. Half-elves with this racial trait have only one favored class, and it must be an arcane spellcasting class. They can use spell trigger and spell completion items for their favored class as if one level higher (or as a 1st-level character if they have no levels in that class).</p>
 		)
@@ -3324,7 +3324,7 @@ const $alternates: Alternates[] = [
 	},
 	{ // 
 		"title": "Jungle Affinity",
-		"sources": [[33,6]],
+		"sources": [[27,21],[33,6]],
 		"content": (
 			<p>Wildborn gain a +4 racial bonus on Stealth checks while within jungle terrain and can move through natural difficult terrain in a jungle at their normal speed.</p>
 		)
@@ -3370,23 +3370,23 @@ const $alternates: Alternates[] = [
 		"content": (<>
 			<p>Oreads' proclivity for long spans of study and concentration makes them natural wizards, witches, and oracles. Oreads with this racial trait can augment their earth-related spells and spell-like abilities through the use of precious and semiprecious gemstones as additional material components. The gems are destroyed in the process, granting the spell the listed effects in addition to its normal effects unless otherwise noted. Only one instance of oread gem magic can be applied to a spell at a time; excess expended gems do not stack.</p>
 			<blockquote>
-				<p><strong>Binding Earth:</strong> +1 damage; +1 to DC of Strength checks. <strong>Cost:</strong> Garnet worth 50 gp.</p>
-				<p><strong>Binding Earth, Mass</strong> As binding earth augmentation, affecting all targets of the augmented spell. <strong>Cost:</strong> Garnets worth 250 gp.</p>
-				<p><strong>Calcific Touch</strong> +1 Dexterity damage. <strong>Cost:</strong> Aquamarine worth 250 gp.</p>
-				<p><strong>Clashing Rocks</strong> +1 damage per damage die. <strong>Cost:</strong> Emeralds worth 1,500 gp.</p>
-				<p><strong>Earthquake</strong> +2 Reflex save DC in whatever application the spell is used; area increases to 100-foot-radius shapeable spread. <strong>Cost:</strong> Jet worth 500 gp.</p>
-				<p><strong>Elemental Body</strong> Duration increases to 10 minutes/level. <strong>Cost:</strong> Amber worth 250 gp for elemental body I, +100 gp per spell level for greater versions.</p>
-				<p><strong>Elemental Swarm</strong> Earth elementals summoned gain the advanced simple template (this does not stack with the <Link to="/feat/Augment_Summoning">Augment Summoning</Link> feat). <strong>Cost:</strong> Rubies worth 1,200 gp.</p>
-				<p><strong>Magic Stone</strong> Range increment increases by 10 feet. <strong>Cost:</strong> Moonstone worth 25 gp.</p>
-				<p><strong>Meld into Stone</strong> Can bring up to 200 pounds of equipment with you; you can see as normal out of the stone. <strong>Cost:</strong> Peridots worth 150 gp.</p>
-				<p><strong>Mighty Fist of Earth</strong> Increase unarmed strike damage by one step (to 1d4 in most instances). <strong>Cost:</strong> Sard or sardonyx worth 25 gp.</p>
-				<p><strong>Raging Rubble</strong> Rubble deals +1 damage; distraction DC increases by 1. <strong>Cost:</strong> Tourmaline worth 80 gp.</p>
-				<p><strong>Shifting Sand</strong> Move area of sands up to 15 feet as a move action. <strong>Cost:</strong> Turquoise worth 125 gp.</p>
-				<p><strong>Soften Earth and Stone</strong> Creatures can move only at a quarter their normal speed (minimum 5 feet) in areas of mud and loose dirt. <strong>Cost:</strong> Fluorite worth 100 gp.</p>
-				<p><strong>Spike Stones</strong> +1 piercing damage; spikes deal 1 point of bleed damage. <strong>Cost:</strong> Topaz worth 300 gp.</p>
-				<p><strong>Stone Shape</strong> Shapes that include moving parts have only 5% chance of not working. <strong>Cost:</strong> Opal worth 250 gp.</p>
-				<p><strong>Stone Shield</strong> If your opponent's attack strikes the stone shield, its full damage roll is also applied to its weapon. Unarmed strikes and natural attacks are not affected. <strong>Cost:</strong> Jade worth 75 gp.</p>
-				<p><strong>Stoneskin</strong> The cost of this spell's expensive material component can be reduced or increased to affect the spell's power accordingly. With reduced components, the spell grants DR 10/silver (instead of adamantine); with increased components, the spell absorbs 15 points of damage per caster level before it's discharged. <strong>Cost:</strong> Diamonds worth 150 gp (reduced); diamonds worth 500 gp (increased).</p>
+				<p><strong className="hl"><Link to="/spell/binding_earth">Binding Earth:</Link></strong> +1 damage; +1 to DC of Strength checks. <strong>Cost:</strong> Garnet worth 50 gp.</p>
+				<p><strong className="hl"><Link to="/spell/binding_earth_mass">Binding Earth, Mass:</Link></strong> As binding earth augmentation, affecting all targets of the augmented spell. <strong>Cost:</strong> Garnets worth 250 gp.</p>
+				<p><strong className="hl"><Link to="/spell/calcific_touch">Calcific Touch:</Link></strong> +1 Dexterity damage. <strong>Cost:</strong> Aquamarine worth 250 gp.</p>
+				<p><strong className="hl"><Link to="/spell/clashing_rocks">Clashing Rocks:</Link></strong> +1 damage per damage die. <strong>Cost:</strong> Emeralds worth 1,500 gp.</p>
+				<p><strong className="hl"><Link to="/spell/earthquake">Earthquake:</Link></strong> +2 Reflex save DC in whatever application the spell is used; area increases to 100-foot-radius shapeable spread. <strong>Cost:</strong> Jet worth 500 gp.</p>
+				<p><strong className="hl"><Link to="/spell/elemental_body_i">Elemental Body:</Link></strong> Duration increases to 10 minutes/level. <strong>Cost:</strong> Amber worth 250 gp for elemental body I, +100 gp per spell level for greater versions.</p>
+				<p><strong className="hl"><Link to="/spell/elemental_swarm">Elemental Swarm:</Link></strong> Earth elementals summoned gain the advanced simple template (this does not stack with the <Link to="/feat/Augment_Summoning">Augment Summoning</Link> feat). <strong>Cost:</strong> Rubies worth 1,200 gp.</p>
+				<p><strong className="hl"><Link to="/spell/magic_stone">Magic Stone:</Link></strong> Range increment increases by 10 feet. <strong>Cost:</strong> Moonstone worth 25 gp.</p>
+				<p><strong className="hl"><Link to="/spell/meld_into_stone">Meld into Stone:</Link></strong> Can bring up to 200 pounds of equipment with you; you can see as normal out of the stone. <strong>Cost:</strong> Peridots worth 150 gp.</p>
+				<p><strong className="hl"><Link to="/spell/mighty_fist_of_the_earth">Mighty Fist of the Earth:</Link></strong> Increase unarmed strike damage by one step (to 1d4 in most instances). <strong>Cost:</strong> Sard or sardonyx worth 25 gp.</p>
+				<p><strong className="hl"><Link to="/spell/raging_rubble">Raging Rubble:</Link></strong> Rubble deals +1 damage; distraction DC increases by 1. <strong>Cost:</strong> Tourmaline worth 80 gp.</p>
+				<p><strong className="hl"><Link to="/spell/shifting_sand">Shifting Sand:</Link></strong> Move area of sands up to 15 feet as a move action. <strong>Cost:</strong> Turquoise worth 125 gp.</p>
+				<p><strong className="hl"><Link to="/spell/soften_earth_and_stone">Soften Earth and Stone:</Link></strong> Creatures can move only at a quarter their normal speed (minimum 5 feet) in areas of mud and loose dirt. <strong>Cost:</strong> Fluorite worth 100 gp.</p>
+				<p><strong className="hl"><Link to="/spell/spike_stones">Spike Stones:</Link></strong> +1 piercing damage; spikes deal 1 point of bleed damage. <strong>Cost:</strong> Topaz worth 300 gp.</p>
+				<p><strong className="hl"><Link to="/spell/stone_shape">Stone Shape:</Link></strong> Shapes that include moving parts have only 5% chance of not working. <strong>Cost:</strong> Opal worth 250 gp.</p>
+				<p><strong className="hl"><Link to="/spell/stone_shield">Stone Shield:</Link></strong> If your opponent's attack strikes the stone shield, its full damage roll is also applied to its weapon. Unarmed strikes and natural attacks are not affected. <strong>Cost:</strong> Jade worth 75 gp.</p>
+				<p><strong className="hl"><Link to="/spell/stoneskin">Stoneskin:</Link></strong> The cost of this spell's expensive material component can be reduced or increased to affect the spell's power accordingly. With reduced components, the spell grants DR 10/silver (instead of adamantine); with increased components, the spell absorbs 15 points of damage per caster level before it's discharged. <strong>Cost:</strong> Diamonds worth 150 gp (reduced); diamonds worth 500 gp (increased).</p>
 			</blockquote>
 		</>)
 	},
@@ -3685,63 +3685,63 @@ const $alternates: Alternates[] = [
 		)
 	},
 	{ // 
-		"title": "",
+		"title": "Carrion Sense",
 		"sources": [[0,163]],
 		"content": (
 			<p>Many tengus have a natural ability to sniff out carrion. While their sense of smell isn't as keen as that of other species, it is particularly attuned to the scent of injuries or death. Tengus with this racial trait have a limited scent ability, which only functions for corpses and badly wounded creatures (50% or fewer hit points).</p>
 		)
 	},
 	{ // 
-		"title": "Carrion Sense",
+		"title": "Glide",
 		"sources": [[0,163]],
 		"content": (
 			<p>Some tengus can use their feathered arms and legs to glide. Tengus with this racial trait can make a DC 15 Fly check to fall safely from any height without taking falling damage, as if using <Link to="/spell/feather_fall">feather fall</Link>. When falling safely, a tengu may make an additional DC 15 Fly check to glide, moving 5 feet laterally for every 20 feet he falls.</p>
 		)
 	},
 	{ // 
-		"title": "Glide",
+		"title": "Deft Swords",
 		"sources": [[21,216]],
 		"content": (
 			<p>Some tengu learn dazzling blade techniques that allow them to use their weapons to protect against combat maneuvers. They gain a +2 dodge bonus to CMD while wielding a sword-like weapon.</p>
 		)
 	},
 	{ // 515
-		"title": "Deft Swords",
+		"title": "Claw Attack",
 		"sources": [[0,163]],
 		"content": (
 			<p>Tengus with this racial trait have learned to use their claws as natural weapons. They gain two claw attacks as primary natural attacks that deal 1d3 points of damage, and are treated as having the <Link to="/feat/Improved_Unarmed_Strike">Improved Unarmed Strike</Link> feat for the purpose of qualifying for other feats.</p>
 		)
 	},
 	{ // 
-		"title": "Claw Attack",
+		"title": "Exotic Weapon Training",
 		"sources": [[0,163]],
 		"content": (
 			<p>Instead of swords, some tengus are trained in exotic weaponry. Such tengus choose a number of eastern weapons equal to 3 + their Intelligence bonus, and gain proficiency with these weapons.</p>
 		)
 	},
 	{ // 
-		"title": "Exotic Weapon Training",
+		"title": "Scaled Skin",
 		"sources": [[0,169]],
 		"content": (
 			<p>The skin of these tieflings provides some energy resistance, but is also as hard as armor. Choose one of the following energy types: cold, electricity, or fire. A tiefling with this trait gains resistance 5 in the chosen energy type and also gains a +1 natural armor bonus to AC.</p>
 		)
 	},
 	{ // 
-		"title": "Scaled Skin",
+		"title": "Prehensile Tail",
 		"sources": [[0,169]],
 		"content": (
 			<p>Many tieflings have tails, but some have long, flexible tails that can be used to carry items. While they cannot wield weapons with their tails, they can use them to retrieve small, stowed objects carried on their persons as a swift action.</p>
 		)
 	},
 	{ // 
-		"title": "Prehensile Tail",
+		"title": "Smite Good",
 		"sources": [[23,25]],
 		"content": (
 			<p>Once per day, a tiefling with this racial trait can smite a good-aligned creature. As a swift action, the tiefling chooses one target within sight to smite. If this target is good, the tiefling adds her Charisma bonus (if any) to attack rolls against the target and gains a bonus on damage rolls against the target equal to her number of Hit Dice. This effect lasts until the first time the tiefling successfully hits her designated target.</p>
 		)
 	},
 	{ // 520
-		"title": "Smite Good",
+		"title": "Pass for Human",
 		"sources": [[21,217]],
 		"content": (
 			<p>Discrimination against tieflings with horrifically fiendish features is so intense that even tieflings look up to those precious few of their kind who can pass as human. These tieflings have otherworldly features that are so subtle, they aren't often noticed unless the tiefling points them out (for example, eyes that flash red in the throes of passion, or fingernails that are naturally hard and pointed). Such a tiefling doesn't need to succeed at a Disguise check to appear to be human and count as humanoid (human) as well as outsider (native) for all purposes (such as humanoid-affecting spells like <Link to="/spell/charm_person">charm person</Link> or <Link to="/spell/enlarge_person">enlarge person</Link>). The tiefling does not automatically gain his associated outsider language (but may select it as a bonus language if his Intelligence score is high enough), and he may not select other racial traits that would grant him obviously fiendish features (such as the fiendish sprinter, maw or claw, prehensile tail, scaled skin, or vestigial wings alternate racial traits).</p>
@@ -4043,10 +4043,10 @@ const $alternates: Alternates[] = [
 		"content": (<>
 			<p>Some wyrwoods have been built from rare materials in an effort to imbue them with special properties. Choose one of the following abilities.</p>
 			<blockquote>
-				<strong>Blessed:</strong> These wyrwoods contain divine relics. Wyrwoods with this trait can use <Link to="/spell/divine_favor">divine favor</Link> once per day as a spell-like ability with a caster level equal to their Hit Dice.
-				<strong>Enchanted:</strong> Crafted from the remnants of broken staves, wands and other items, these wyrwoods have a natural attunement to the arcane. Wyrwoods with this trait treat their Intelligence score as 2 higher for the purpose of determining bonus spells or extracts per day.
-				<strong>Fey-Touched:</strong> These wyrwoods have components that create a powerful link to the First World. Wyrwoods with this trait can use <Link to="/spell/charm_animal">charm animal</Link> once per day as a spell-like ability with a caster level equal to their Hit Dice.
-				<strong>Scorched:</strong> These wyrwoods are built from the ruins of cities and structures destroyed by conflict. Once per day, after a successful melee attack against an enemy, wyrwoods with this trait can deal an additional number of points of damage equal to their Wisdom modifier as a free action.
+				<p><strong>Blessed:</strong> These wyrwoods contain divine relics. Wyrwoods with this trait can use <Link to="/spell/divine_favor">divine favor</Link> once per day as a spell-like ability with a caster level equal to their Hit Dice.</p>
+				<p><strong>Enchanted:</strong> Crafted from the remnants of broken staves, wands and other items, these wyrwoods have a natural attunement to the arcane. Wyrwoods with this trait treat their Intelligence score as 2 higher for the purpose of determining bonus spells or extracts per day.</p>
+				<p><strong>Fey-Touched:</strong> These wyrwoods have components that create a powerful link to the First World. Wyrwoods with this trait can use <Link to="/spell/charm_animal">charm animal</Link> once per day as a spell-like ability with a caster level equal to their Hit Dice.</p>
+				<p><strong>Scorched:</strong> These wyrwoods are built from the ruins of cities and structures destroyed by conflict. Once per day, after a successful melee attack against an enemy, wyrwoods with this trait can deal an additional number of points of damage equal to their Wisdom modifier as a free action.</p>
 			</blockquote>
 		</>)
 	},
@@ -4100,14 +4100,14 @@ const $alternates: Alternates[] = [
 	},
 	{ // 569
 		"title": "Sahuagin Song",
-		"sources": [[14,31]],
+		"sources": [[27,31]],
 		"content": (
 			<p>While Outsear sahuagin typically don’t have a history of music, over the years the merfolk of the city have shared their love of song with them. Sahuagin with this racial trait gain a +2 racial bonus on Perform (sing) checks and a +1 racial bonus on saves against language-dependent effects.</p>
 		)
 	},
 	{ // 570
 		"title": "Stoic Defender",
-		"sources": [[14,31]],
+		"sources": [[27,31]],
 		"content": (
 			<p>Outsear sahuagin have learned to control their aggression, standing as reliable guards of the city they are proud to call home. Once per day when a sahuagin with this racial trait takes damage, he can focus on remaining steadfast for the good of Outsea. For 1 minute, the sahuagin gains a +2 racial bonus to AC and a +2 racial bonus on Will saves.</p>
 		)
@@ -5706,7 +5706,43 @@ type Log = [number, number, number][];
 type Logger = { [key: string]: Source };
 
 const sources: string[] = [
-	"Advanced Race Guide", "Blood of the Beast", "Advanced Player's Guide", "Plane-Hopper's Handbook", "Blood of Shadows", "Ultimate Wilderness", "Advanced Class Guide", "Blood of the Sea", "Horror Adventures", "Occult Adventures", "Goblins of Golarion", "Heroes of Golarion", "Legacy of the First World", "Pathfinder #101: The Kintargo Contract", "Legacy of Dragons", "Monster Codex", "Kobolds of Golarion", "Darklands Revisited", "Ultimate Intrigue", "Wilderness Origins", "Pathfinder Unchained", "Inner Sea Races", "Blood of Angels", "Agents of Evil", "Cheliax, the Infernal Empire", "Blood of the Coven", "Blood of the Night", "Heroes from the Fringe", "Heroes of the Wild", "Rival Guide", "Heroes of the Streets", "Heroes of the High Court", "Pathfinder #124: City in the Deep", "Bastards of Golarion", "Halflings of Golarion", "Blood of the Elements", "Blood of Fiends"
+	"Advanced Race Guide", // 0
+	"Blood of the Beast",
+	"Advanced Player's Guide",
+	"Plane-Hopper's Handbook",
+	"Blood of Shadows",
+	"Ultimate Wilderness", // 5
+	"Advanced Class Guide",
+	"Blood of the Sea",
+	"Horror Adventures",
+	"Occult Adventures",
+	"Goblins of Golarion", // 10
+	"Heroes of Golarion",
+	"Legacy of the First World",
+	"Pathfinder #101: The Kintargo Contract",
+	"Legacy of Dragons",
+	"Monster Codex", // 15
+	"Kobolds of Golarion",
+	"Darklands Revisited",
+	"Ultimate Intrigue",
+	"Wilderness Origins",
+	"Pathfinder Unchained", // 20
+	"Inner Sea Races",
+	"Blood of Angels",
+	"Agents of Evil",
+	"Cheliax, the Infernal Empire",
+	"Blood of the Coven", // 25
+	"Blood of the Night",
+	"Heroes from the Fringe",
+	"Heroes of the Wild",
+	"Rival Guide",
+	"Heroes of the Streets", // 30
+	"Heroes of the High Court",
+	"Pathfinder #124: City in the Deep",
+	"Bastards of Golarion",
+	"Halflings of Golarion",
+	"Blood of the Elements", // 35
+	"Blood of Fiends"
 ];
 const links = sources.map(source => source.toLowerCase().replace(/[-_ /]/g, "_").replace(/[^a-z0-9_]/g, ""));
 
