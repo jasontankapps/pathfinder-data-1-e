@@ -13,7 +13,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 				<p>The game rules herein are covered by the <Link to="/main/ogc">Open Game License</Link>.</p>
 			</IonLabel></IonItem>
 			<IonItemDivider><IonLabel>App Info</IonLabel></IonItemDivider>
-			<IonItem><IonLabel><p>v.0.12.2</p></IonLabel></IonItem>
+			<IonItem><IonLabel><p>v.0.12.3</p></IonLabel></IonItem>
 			<IonItemDivider><IonLabel>Bug Reports</IonLabel></IonItemDivider>
 			<IonItem><IonLabel>
 				<p>If you run into any issues or find any bad information, please report it to the <a href="https://github.com/jasontankapps/pathfinder-data-1-e/issues">Github</a>.</p>
