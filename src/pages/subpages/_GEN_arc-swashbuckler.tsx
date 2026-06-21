@@ -1,64 +1,166 @@
 import Link from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
+import ByLevelPop from '../../components/ByLevelPop';
 const _arrow_champion = {title: "Arrow Champion", jsx: <><h2 id="arc-swashbuckler-arrow_champion-arrow-champion">Arrow Champion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 95</Link><br/>While the swashbuckler's agile style of combat is equally suited to urban settings and wilderness, the bow and arrow is an indispensable asset in open areas and harsh terrain where fancy footwork isn't enough to close the distance or dodge the enemy's arrows.</p>
-<p><strong>Arrow Champion's Panache (Ex):</strong> An arrow champion regains panache when she makes a killing blow with a light or one-handed piercing melee weapon or a bow (a <Link to="/eq-weapon/longbow">longbow</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link>, <Link to="/eq-weapon/composite_longbow">composite longbow</Link>, or <Link to="/eq-weapon/composite_shortbow">composite shortbow</Link>).</p>
-<p>This alters <strong className="hl">panache</strong>.</p>
-<p><strong>Deeds:</strong> An arrow champion gains the following deeds, each of which replaces an existing deed.</p>
-<blockquote>
-<p><strong>Retaliation (Ex):</strong> When a foe hits the arrow champion with an attack, she can spend 1 panache point to make a retaliatory attack of opportunity against that foe. If the triggering attack is a melee attack, she can retaliate with a melee attack using a light or one-handed piercing melee weapon, provided the creature is within her reach. If the triggering attack is a ranged attack, she can retaliate with a ranged attack using a bow, provided that the creature is within 30 feet of her. This deed's cost cannot be reduced by any ability or effect that reduces the number of panache points a deed costs.</p>
-<p>This deed <strong className="hl">replaces</strong> <Link to="/swashdeed/opportune_parry_and_riposte">opportune parry and riposte</Link>.</p>
-<p><strong>Precise Aim (Ex):</strong> At 3rd level, when attacking with a light or one-handed piercing melee weapon, an arrow champion can add her swashbuckler level to the damage she deals, as the swashbuckler's <Link to="/swashdeed/precise_strike">precise strike</Link> deed. She can also add one-quarter of her swashbuckler level to the damage dealt when attacking with a bow, but the target must be within 30 feet of her. As a swift action, an arrow champion can spend 1 panache point to increase the range of the effect to her bow's first range increment. Unlike a normal swashbuckler, an arrow champion cannot spend panache to double the extra damage.</p>
-<p>This deed alters precise strike.</p>
-<p><strong>Swift Switch (Ex):</strong> At 3rd level, while the arrow champion has at least 1 panache point, she can sheathe or draw an unhidden light or one-handed piercing melee weapon or a bow as a swift action without provoking attacks of opportunity. If the arrow champion spends 1 panache point, she can perform either action as an immediate action. In addition, if she has the <Link to="/feat/quick_draw">Quick Draw</Link> feat and one of her hands is free, she can sheathe a weapon and draw an unhidden weapon as part of the same swift action, provided that one of the weapons is a bow and the other is a light or one-handed piercing melee weapon. If she spends 1 panache point, she can perform the switch as an immediate action.</p>
-<p>This deed <strong className="hl">replaces</strong> <Link to="/swashdeed/swashbuckler_initiative">swashbuckler initiative</Link>.</p>
-<p><strong>Archer's Feint (Ex):</strong> At 7th level, when the arrow champion hits a foe within 30 feet with a bow attack, she can forgo the damage and instead attempt a <Link to="/skill/bluff">Bluff</Link> check to feint against that foe as a swift action. If successful, in addition to the normal benefits of feinting, she doubles the extra damage from precise aim on her next melee attack before the end of her next turn.</p>
-<p>This deed <strong className="hl">replaces</strong> <Link to="/swashdeed/superior_feint">superior feint</Link>.</p>
-</blockquote>
-<p><strong>Weapon Versatility (Ex):</strong> At 5th level, an arrow champion learns to use precision-based tricks just as accurately with her bow as with her melee weapons. Provided that her swashbuckler level is high enough, she can use the <Link to="/swashdeed/bleeding_wound">bleeding wound</Link>, <Link to="/swashdeed/deadly_stab">deadly stab</Link>, <Link to="/swashdeed/menacing_swordplay">menacing swordplay</Link>, <Link to="/swashdeed/perfect_thrust">perfect thrust</Link>, <Link to="/swashdeed/stunning_stab">stunning stab</Link>, and <Link to="/swashdeed/targeted_strike">targeted strike</Link> deeds when attacking with a bow, so long as her target is within 30 feet. If she spends a panache point to increase the range of her precise aim ability, the increased range applies to this ability as well.</p>
-<p>This replaces <strong className="hl">swashbuckler weapon training</strong>.</p>
-<p><strong>Versatile Weapon Mastery (Ex):</strong> At 20th level, an arrow champion gains the benefits of swashbuckler weapon mastery when using a light or one-handed piercing melee weapon or a bow.</p>
-<p>This alters <strong className="hl">swashbuckler weapon mastery</strong>.</p>
+<Ability id="arc-swashbuckler-arrow_champion-arrow-champions-panache-ex" icon={["info"]}>
+<Pair single id="arc-swashbuckler-arrow_champion-arrow-champions-panache-ex">Arrow Champion's Panache (Ex)</Pair>
+<Pair hl title="Alters">Panache</Pair>
+<Pair title="Ability">An arrow champion regains panache when she makes a killing blow with a light or one-handed piercing melee weapon or a bow (a <Link to="/eq-weapon/longbow">longbow</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link>, <Link to="/eq-weapon/composite_longbow">composite longbow</Link>, or <Link to="/eq-weapon/composite_shortbow">composite shortbow</Link>).</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-arrow_champion-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-arrow_champion-deeds">Deeds</Pair>
+<Pair title="Ability">An arrow champion gains the following deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-arrow_champion-retaliation-ex" extraClasses="subAbility" icon={["mailed-fist","bowman"]}>
+<Pair single id="arc-swashbuckler-arrow_champion-retaliation-ex">Retaliation (Ex)</Pair>
+<Pair hl title="Replaces">Opportune parry and riposte</Pair>
+<Pair title="Ability">When a foe hits the arrow champion with an attack, she can spend 1 panache point to make a retaliatory attack of opportunity against that foe. If the triggering attack is a melee attack, she can retaliate with a melee attack using a light or one-handed piercing melee weapon, provided the creature is within her reach. If the triggering attack is a ranged attack, she can retaliate with a ranged attack using a bow, provided that the creature is within 30 feet of her.</Pair>
+<Pair title="Special">This deed's cost cannot be reduced by any ability or effect that reduces the number of panache points a deed costs.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-arrow_champion-precise-aim-ex" extraClasses="subAbility" icon={["upgrade","bowman","broken-shield"]}>
+<Pair single id="arc-swashbuckler-arrow_champion-precise-aim-ex">Precise Aim (Ex)</Pair>
+<Pair hl title="Alters">Precise strike</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">When attacking with a light or one-handed piercing melee weapon, an arrow champion can add her swashbuckler level to the damage she deals, as the swashbuckler's <Link to="/swashdeed/precise_strike">precise strike</Link> deed. She can also add <Link to="/misc/one_quarter">one-quarter</Link> of her swashbuckler level to the damage dealt when attacking with a bow, but the target must be within 30 feet of her.</Pair>
+<Pair title="Swift Action">An arrow champion can spend 1 panache point to increase the range of the effect to her bow's first range increment. Unlike a normal swashbuckler, an arrow champion cannot spend panache to double the extra damage.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-arrow_champion-swift-switch-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-arrow_champion-swift-switch-ex">Swift Switch (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler initiative</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">While the arrow champion has at least 1 panache point, she can sheathe or draw an unhidden light or one-handed piercing melee weapon or a bow as a <strong className="hl">swift action</strong> without provoking attacks of opportunity. If the arrow champion spends 1 panache point, she can perform either action as an <strong className="hl">immediate action</strong>.</Pair>
+<Pair title="Special">In addition, if she has the <Link to="/feat/quick_draw">Quick Draw</Link> feat and one of her hands is free, she can sheathe a weapon and draw an unhidden weapon as part of the same swift action, provided that one of the weapons is a bow and the other is a light or one-handed piercing melee weapon. If she spends 1 panache point, she can perform the switch as an immediate action.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-arrow_champion-archers-feint-ex" extraClasses="subAbility" icon={["armor-downgrade","upgrade"]}>
+<Pair single id="arc-swashbuckler-arrow_champion-archers-feint-ex">Archer's Feint (Ex)</Pair>
+<Pair hl title="Replaces">Superior feint</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">When the arrow champion hits a foe within 30 feet with a bow attack, she can forgo the damage and instead attempt a <Link to="/skill/bluff">Bluff</Link> check to feint against that foe as a <strong className="hl">swift action</strong>. If successful, in addition to the normal benefits of feinting, she doubles the extra damage from <em>precise aim</em> on her next melee attack before the end of her next turn.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-arrow_champion-weapon-versatility-ex" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-arrow_champion-weapon-versatility-ex" flavor="An arrow champion learns to use precision-based tricks just as accurately with her bow as with her melee weapons.">Weapon Versatility (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler weapon training</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">Provided that her swashbuckler level is high enough, she can use the <Link to="/swashdeed/bleeding_wound">bleeding wound</Link>, <Link to="/swashdeed/deadly_stab">deadly stab</Link>, <Link to="/swashdeed/menacing_swordplay">menacing swordplay</Link>, <Link to="/swashdeed/perfect_thrust">perfect thrust</Link>, <Link to="/swashdeed/stunning_stab">stunning stab</Link>, and <Link to="/swashdeed/targeted_strike">targeted strike</Link> deeds when attacking with a bow, so long as her target is within 30 feet.</Pair>
+<Pair title="Special">If she spends a panache point to increase the range of her <em>precise aim</em> ability, the increased range applies to this ability as well.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-arrow_champion-versatile-weapon-mastery-ex" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-arrow_champion-versatile-weapon-mastery-ex">Versatile Weapon Mastery (Ex)</Pair>
+<Pair hl title="Alters">Swashbuckler weapon mastery</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">An arrow champion gains the benefits of <em>swashbuckler weapon mastery</em> when using a light or one-handed piercing melee weapon or a bow.</Pair>
+</Ability>
 </>};
 const _azatariel = {title: "Azatariel", jsx: <><h2 id="arc-swashbuckler-azatariel-azatariel">Azatariel</h2>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 10</Link><br/>Azatariels are the champions of Elysium, dedicated to spreading its unpredictable whimsy and capricious goodness across the planes. Irrepressible and happy-golucky even in the face of the most tyrannical devil, azatariels take their name from the azatas that they emulate. In battle, azatariels exult in darting among their foes, heedless of danger. Mastery of combat's chaos allows azatariels to turn enemies' strikes against each other, while supernatural good fortune protects them from dire afflictions. When allies falter with fear or suffer the effects of dark magic, a compassionate gesture from an azatariel cures their ills and spurs them onward.</p>
-<p><strong>Alignment:</strong> An azatariel must be chaotic good. If an azatariel changes alignment, she loses all abilities granted by this archetype until her alignment returns to chaotic good.</p>
-<p><strong>Deeds:</strong> An azatariel gains the following deeds.</p>
-<blockquote>
-<p><strong>Bralani's Swiftness (Ex):</strong> At 3rd level, while the azatariel has at least 1 point of panache, she ignores movement penalties from <Link to="/rule/difficult_terrain">difficult terrain</Link>.</p>
-<p>This replaces the <Link to="/swashdeed/menacing_swordplay">menacing swordplay</Link> deed.</p>
-<p><strong>Whimsical Riposte (Ex):</strong> At 3rd level, the azatariel adds her Charisma modifier to attack and damage rolls made with light or one-handed piercing weapons as part of her <Link to="/swashdeed/opportune_parry_and_riposte">opportune parry and riposte</Link> deed (including when riposting). In addition, whenever the azatariel successfully parries an opponent's attack, instead of riposting she can redirect that attack to another target as an immediate action. The new target must be within the attacker's reach, and the attacker uses the original attack roll to determine the attack's success.</p>
-<p>This replaces the <Link to="/swashdeed/precise_strike">precise strike</Link> deed.</p>
-<p><strong>Lillend's Misdirection (Ex):</strong> At 7th level, when a foe flanking the azatariel misses her with a melee attack, the azatariel can spend 2 panache points as an immediate action to attempt a <Link to="/rule/reposition">reposition</Link> combat maneuver check against the attacking foe. If she succeeds at the combat maneuver check, she and the attacking foe switch positions, and the melee attack roll that missed the azatariel instead targets the flanking opponent that did not make the attack, using the same attack roll result (including the bonus gained from flanking).</p>
-<p>This replaces the <Link to="/swashdeed/targeted_strike">targeted strike</Link> deed.</p>
-<p><strong>Ghaele's Assault (Ex):</strong> At 11th level, the azatariel can spend 2 panache points when charging. If she does, the AC penalty for charging changes to -4 and she can make a full attack at the end of her charge.</p>
-<p>This replaces the <Link to="/swashdeed/bleeding_wound">bleeding wound</Link> deed.</p>
-</blockquote>
-<p><strong>Elysian Conviction (Su):</strong> At 2nd level, while she has at least 1 panache point, an azatariel adds her Charisma bonus to her saving throws against mind-affecting effects.</p>
-<p>This replaces <strong className="hl">charmed life</strong>.</p>
-<p><strong>Battle Dance (Ex):</strong> At 3rd level and every 4 levels thereafter, an azatariel's base speed increases by 10 feet. This is an enhancement bonus. An azatariel in medium or heavy armor or carrying a medium or heavy load loses this extra speed.</p>
-<p>This replaces <strong className="hl">nimble</strong>.</p>
-<p><strong>Affection of Elysium (Su):</strong> An azatariel's affection relieves harmful afflictions. At 4th level and every 4 levels thereafter, an azatariel selects a <Link to="/ability/mercy">mercy</Link> from those available to a paladin whose class level is equal to her swashbuckler level. She can show her affection to a willing, adjacent creature as a standard action to apply the effects of these mercies to the targeted creature, treating her swashbuckler level as her paladin level. An azatariel can use this ability a number of times per day equal to half her swashbuckler level plus her Charisma modifier.</p>
-<p>This replaces the swashbuckler's <strong className="hl">bonus feats</strong>.</p>
+<Ability id="arc-swashbuckler-azatariel-alignment" icon={["hazard-sign"]}>
+<Pair single id="arc-swashbuckler-azatariel-alignment">Alignment</Pair>
+<Pair title="Info">An azatariel must be chaotic good. If an azatariel changes alignment, she loses all abilities granted by this archetype until her alignment returns to chaotic good.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-azatariel-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-azatariel-deeds">Deeds</Pair>
+<Pair title="Ability">An azatariel gains the following deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-azatariel-bralanis-swiftness-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-azatariel-bralanis-swiftness-ex">Bralani's Swiftness (Ex)</Pair>
+<Pair hl title="Replaces">Menacing swordplay</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">While the azatariel has at least 1 point of panache, she ignores movement penalties from <Link to="/rule/difficult_terrain">difficult terrain</Link>.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-azatariel-whimsical-riposte-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-azatariel-whimsical-riposte-ex">Whimsical Riposte (Ex)</Pair>
+<Pair hl title="Replaces">Precise strike</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">The azatariel adds her Charisma modifier to attack and damage rolls made with light or one-handed piercing weapons as part of her <Link to="/swashdeed/opportune_parry_and_riposte">opportune parry and riposte</Link> deed (including when riposting). In addition, whenever the azatariel successfully parries an opponent's attack, instead of riposting she can redirect that attack to another target as an <strong className="hl">immediate action</strong>. The new target must be within the attacker's reach, and the attacker uses the original attack roll to determine the attack's success.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-azatariel-lillends-misdirection-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-swashbuckler-azatariel-lillends-misdirection-ex">Lillend's Misdirection (Ex)</Pair>
+<Pair hl title="Replaces">Targeted strike</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Immediate Action">When a foe <Link to="/rule/flanking">flanking</Link> the azatariel misses her with a melee attack, the azatariel can spend 2 panache points to attempt a <Link to="/rule/reposition">reposition</Link> combat maneuver check against the attacking foe. If she succeeds at the combat maneuver check, she and the attacking foe switch positions, and the melee attack roll that missed the azatariel instead targets the flanking opponent that did not make the attack, using the same attack roll result (including the bonus gained from flanking).</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-azatariel-ghaeles-assault-ex" extraClasses="subAbility" icon={["broken-shield","upgrade"]}>
+<Pair single id="arc-swashbuckler-azatariel-ghaeles-assault-ex">Ghaele's Assault (Ex)</Pair>
+<Pair hl title="Replaces">Bleeding wound</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">The azatariel can spend 2 panache points when charging. If she does, the AC penalty for charging changes to -4 and she can make a full attack at the end of her charge.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-azatariel-elysian-conviction-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-swashbuckler-azatariel-elysian-conviction-su">Elysian Conviction (Su)</Pair>
+<Pair hl title="Replaces">Charmed life</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">While she has at least 1 panache point, an azatariel adds her Charisma bonus to her saving throws against mind-affecting effects.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-azatariel-battle-dance-ex" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-azatariel-battle-dance-ex">Battle Dance (Ex)</Pair>
+<Pair hl title="Replaces">Nimble</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">An azatariel's base speed increases by 10 feet. This is an enhancement bonus.</Pair>
+<Pair title="At 7th Level">The enhancement bonus becomes +20.</Pair>
+<Pair title="At 11th Level">The enhancement bonus increases to +30.</Pair>
+<Pair title="At 15th Level">The enhancement bonus becomes +40.</Pair>
+<Pair title="At 19th Level">The enhancement bonus increases to +50.</Pair>
+<Pair title="Special">An azatariel in medium or heavy armor or carrying a medium or heavy load loses this extra speed.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-azatariel-affection-of-elysium-su" icon={["remedy"]}>
+<Pair single id="arc-swashbuckler-azatariel-affection-of-elysium-su" flavor="An azatariel's affection relieves harmful afflictions.">Affection of Elysium (Su)</Pair>
+<Pair hl title="Replaces">Bonus feats</Pair>
+<Pair title="At 4th Level">An azatariel selects a <Link to="/ability/mercy">mercy</Link> from those available to a paladin whose class level is equal to her swashbuckler level. She can show her affection to a willing, adjacent creature as a <strong className="hl">standard action</strong> to apply the effects of these mercies to the targeted creature, treating her swashbuckler level as her paladin level.</Pair>
+<Pair title="Usage">Charisma modifier + <Link to="/misc/one_half">one-half</Link> of her swashbuckler level times/day<ByLevelPop levels={[[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} preText="Charisma modifier + " unit="round" postText="/day" /></Pair>
+<Pair title="At 8th Level">She selects a 2nd mercy.</Pair>
+<Pair title="At 12th Level">She selects a 3rd mercy.</Pair>
+<Pair title="At 16th Level">She selects a 4th mercy.</Pair>
+<Pair title="At 20th Level">She selects a 5th mercy.</Pair>
+</Ability>
 </>};
 const _courser = {title: "Courser", jsx: <><h2 id="arc-swashbuckler-courser-courser">Courser</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 24</Link><br/>Many <Link to="/race/tengu">tengus</Link> still hold some bitterness at their lack of wings, and while a small number cultivate enough magic in themselves to recall the gift of flight, those tengu denizens of Golarion's greatest cities have refined their own way to fly. Coursers move with grace and ease, racing across rooftops, dashing up walls, and clearing vast gaps between buildings. These daredevils clash for territory and rob vastly superior enemies, trusting in their incredible speed and mobility to keep them safe rather than resorting to swordplay.</p>
-<p><strong>Swift Target (Ex):</strong> At 1st level, the courser gains <Link to="/feat/dodge">Dodge</Link> as a bonus feat even if she does not meet the prerequisites. As long as she has at least 1 panache point and is wearing light armor or no armor, her base speed increases by 5 feet.</p>
-<p>This ability replaces the swashbuckler's <Link to="/swashdeed/opportune_parry_and_riposte">opportune parry and riposte</Link> deeds.</p>
-<p><strong>Nimble Toes (Ex):</strong> At 3rd level, the AC bonus gained from the nimble class feature increases by 1 as long as the courser moves at least 20 feet during her turn, though it is reduced by 1 if she does not move at least 10 feet on her turn. These modifiers last until the beginning of the courser's next turn.</p>
-<p>This ability modifies <strong className="hl">nimble</strong>.</p>
-<p><strong>Confounding Target (Ex):</strong> At 4th level, the courser gains <Link to="/feat/spring_attack">Spring Attack</Link> as a bonus feat even if she does not meet the prerequisites. As long as she has at least 1 panache point and is wearing light armor or no armor, her base speed increases by 10 feet rather than 5 feet.</p>
-<p>This ability replaces the <strong className="hl">bonus feat</strong> gained at 4th level.</p>
-<p><strong>Deeds:</strong> A courser gains the following deeds, each of which replaces an existing deed.</p>
-<blockquote>
-<p><strong>Wall Run (Ex):</strong> At 3rd level, the courser can run horizontally across vertical surfaces for 1 round by spending 1 panache point. She can perform this deed only while wearing light armor or no armor, and she must end her movement for the round on solid ground or else fall prone. The courser can use this deed to run straight up vertical surfaces as well, but every 5 feet up counts as 10 feet of movement.</p>
-<p>This deed <strong className="hl">replaces</strong> <Link to="/swashdeed/menacing_swordplay">menacing swordplay</Link>.</p>
-<p><strong>Impossible Leap (Ex):</strong> At 7th level, as long as the courser has at least 1 panache point and is wearing light armor or no armor, she adds her swashbuckler level on all Acrobatics checks to jump. She can spend 1 panache point as an immediate action to jump 10 feet in the direction of her choice. This ability can be used to extend another jump or change direction mid-jump. If used in response to an attack, this deed functions as the <Link to="/swashdeed/dodging_panache">dodging panache</Link> deed, but it allows the courser to move 10 feet.</p>
-<p>This deed <strong className="hl">replaces</strong> the <Link to="/swashdeed/superior_feint">superior feint</Link> deed.</p>
-<p><strong>Swift Strikes (Ex):</strong> At 11th level, the courser can spend 1 panache point to target two separate creatures when she uses the Spring Attack feat. She rolls the attack once and compares the result to each target's Armor Class separately. Additional damage, such as from a critical hit or weapon property, applies to only the first target struck. Her movement still provokes attacks of opportunity normally from any creature she doesn't attack.</p>
-<p>This deed <strong className="hl">replaces</strong> the <Link to="/swashdeed/bleeding_wound">bleeding wound</Link> deed.</p>
-</blockquote>
+<Ability id="arc-swashbuckler-courser-swift-target-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-swashbuckler-courser-swift-target-ex">Swift Target (Ex)</Pair>
+<Pair hl title="Replaces">Opportune parry and riposte</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The courser gains <Link to="/feat/dodge">Dodge</Link> as a bonus feat even if she does not meet the prerequisites.</Pair>
+<Pair title="Passive Ability">As long as she has at least 1 panache point and is wearing light armor or no armor, her base speed increases by 5 feet.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-courser-nimble-toes-ex" icon={["armor-upgrade","broken-shield"]}>
+<Pair single id="arc-swashbuckler-courser-nimble-toes-ex">Nimble Toes (Ex)</Pair>
+<Pair hl title="Alters">Nimble</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">The AC bonus gained from the <em>nimble</em> class feature increases by 1 as long as the courser moves at least 20 feet during her turn, though it is reduced by 1 if she does not move at least 10 feet on her turn. These modifiers last until the beginning of the courser's next turn.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-courser-confounding-target-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-swashbuckler-courser-confounding-target-ex">Confounding Target (Ex)</Pair>
+<Pair hl title="Replaces">4th-level bonus feat</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">The courser gains <Link to="/feat/spring_attack">Spring Attack</Link> as a bonus feat even if she does not meet the prerequisites.</Pair>
+<Pair title="Passive Ability">As long as she has at least 1 panache point and is wearing light armor or no armor, her base speed increases by 10 feet rather than 5 feet.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-courser-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-courser-deeds">Deeds</Pair>
+<Pair title="Ability">A courser gains the following deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-courser-wall-run-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-courser-wall-run-ex">Wall Run (Ex)</Pair>
+<Pair hl title="Replaces">Menacing swordplay</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">The courser can run horizontally across vertical surfaces for 1 round by spending 1 panache point. She can perform this deed only while wearing light armor or no armor, and she must end her movement for the round on solid ground or else fall <Link to="/rule/prone">prone</Link>.</Pair>
+<Pair title="Special">The courser can use this deed to run straight up vertical surfaces as well, but every 5 feet up counts as 10 feet of movement.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-courser-impossible-leap-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-courser-impossible-leap-ex">Impossible Leap (Ex)</Pair>
+<Pair hl title="Replaces">Superior feint</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Passive Ability">As long as the courser has at least 1 panache point and is wearing light armor or no armor, she adds her swashbuckler level on all <Link to="/skill/acrobatics">Acrobatics</Link> checks to jump.</Pair>
+<Pair title="Immediate Action">She can spend 1 panache point to jump 10 feet in the direction of her choice. This ability can be used to extend another jump or change direction mid-jump. If used in response to an attack, this deed functions as the <Link to="/swashdeed/dodging_panache">dodging panache</Link> deed, but it allows the courser to move 10 feet.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-courser-swift-strikes-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-swashbuckler-courser-swift-strikes-ex">Swift Strikes (Ex)</Pair>
+<Pair hl title="Replaces">Bleeding wound</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">The courser can spend 1 panache point to target two separate creatures when she uses the Spring Attack feat. She rolls the attack once and compares the result to each target's Armor Class separately. Additional damage, such as from a critical hit or weapon property, applies to only the first target struck. Her movement still provokes attacks of opportunity normally from any creature she doesn't attack.</Pair>
+</Ability>
 </>};
 const _daring_infiltrator = {title: "Daring Infiltrator", jsx: <><h2 id="arc-swashbuckler-daring_infiltrator-daring-infiltrator">Daring Infiltrator</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 124</Link><br/>Not known for their flashy entrances or for standing out in a crowd, a daring infiltrator uses stealth, disguise, and ruthless guile to pursue her goals. Some of these swashbucklers work to undermine evil organizations, while others are master thieves or mysterious assassins.</p>
@@ -66,66 +168,200 @@ const _daring_infiltrator = {title: "Daring Infiltrator", jsx: <><h2 id="arc-swa
 <Pair id="arc-swashbuckler-daring_infiltrator-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Diplomacy, Perform, Profession</Pair></Ability>
-<p><strong>Bonus Feats:</strong> In addition to combat feats, a daring infiltrator's bonus feats at 4th, 8th, 12th, 16th, and 20th level can come from the following list: <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/antagonize">Antagonize</Link>, <Link to="/feat/cosmopolitan">Cosmopolitan</Link>, <Link to="/feat/deceitful">Deceitful</Link>, <Link to="/feat/deft_hands">Deft Hands</Link>, <Link to="/feat/disarming_threat_deed">Disarming Threat Deed</Link>, <Link to="/feat/persuasive">Persuasive</Link>, <Link to="/feat/prodigy">Prodigy</Link>, and <Link to="/feat/skill_focus">Skill Focus</Link>.</p>
-<p>This alters the <strong className="hl">bonus feat</strong> class ability.</p>
-<p><strong>Quick-Tongued (Ex):</strong> At 2nd level, a daring infiltrator gains a +1 bonus on Bluff checks. This bonus increases by 1 for every 4 levels beyond 2nd.</p>
-<p>This ability replaces <strong className="hl">charmed life</strong>.</p>
-<p><strong>Deeds:</strong> A daring infiltrator gains the following deeds, each of which replaces an existing deed.</p>
-<blockquote>
-<p><strong>Clandestine Expertise (Ex):</strong> At 3rd level, a daring infiltrator with at least 1 panache point gains a +2 bonus on Disguise and Stealth checks. Also, as long as she has at least 1 panache point, when she successfully aids another with a Disguise or Stealth check, she grants the subject a +4 bonus on the skill check instead of the normal +2. This deed replaces <Link to="/swashdeed/swashbuckler_initiative">swashbuckler initiative</Link>.</p>
-<p><strong>Silence Is Golden (Ex):</strong> At 3rd level, when a daring infiltrator with at least 1 panache point succeeds at a trip or grapple combat maneuver check, the target is rendered mute for 1 round. For every 5 by which the result of the combat maneuver check exceeds the opponent's CMD, the target remains mute for an additional round. A mute creature cannot speak, use language-dependent effects or verbal components, or use command words. This deed replaces <Link to="/swashdeed/menacing_swordplay">menacing swordplay</Link>.</p>
-<p><strong>Authoritative Bluff (Ex):</strong> At 11th level, a daring infiltrator can spend 1 panache point to reroll a Bluff check after the roll is made but before the results are revealed. She must take the result of the second roll, even if it is lower. Additionally, a daring infiltrator with at least 1 panache point gains a +5 bonus on Bluff checks to pretend to be someone's superior (socially or in the military). If she succeeds at the check, the target obeys any reasonable orders she gives as it would those of an actual superior in the situation. This deed replaces <Link to="/swashdeed/bleeding_wound">bleeding wound</Link>.</p>
-</blockquote>
+<Ability id="arc-swashbuckler-daring_infiltrator-bonus-feats" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-daring_infiltrator-bonus-feats">Bonus Feats</Pair>
+<Pair hl title="Alters">Bonus feats</Pair>
+<Pair title="Info">In addition to combat feats, a daring infiltrator's bonus feats at 4th, 8th, 12th, 16th, and 20th level can come from the following list: <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/antagonize">Antagonize</Link>, <Link to="/feat/cosmopolitan">Cosmopolitan</Link>, <Link to="/feat/deceitful">Deceitful</Link>, <Link to="/feat/deft_hands">Deft Hands</Link>, <Link to="/feat/disarming_threat_deed">Disarming Threat Deed</Link>, <Link to="/feat/persuasive">Persuasive</Link>, <Link to="/feat/prodigy">Prodigy</Link>, and <Link to="/feat/skill_focus">Skill Focus</Link>.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-daring_infiltrator-quick-tongued-ex" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-daring_infiltrator-quick-tongued-ex">Quick-Tongued (Ex)</Pair>
+<Pair hl title="Replaces">Charmed life</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">A daring infiltrator gains a +1 bonus on Bluff checks.</Pair>
+<Pair title="At 6th Level">This bonus becomes +2.</Pair>
+<Pair title="At 10th Level">This bonus increases to +3.</Pair>
+<Pair title="At 14th Level">This bonus becomes +4.</Pair>
+<Pair title="At 18th Level">This bonus increases to +5.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-daring_infiltrator-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-daring_infiltrator-deeds">Deeds</Pair>
+<Pair title="Ability">A daring infiltrator gains the following deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-daring_infiltrator-clandestine-expertise-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-daring_infiltrator-clandestine-expertise-ex">Clandestine Expertise (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler initiative</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">A daring infiltrator with at least 1 panache point gains a +2 bonus on Disguise and Stealth checks.</Pair>
+<Pair title="Ability">Also, as long as she has at least 1 panache point, when she successfully aids another with a Disguise or Stealth check, she grants the subject a +4 bonus on the skill check instead of the normal +2.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-daring_infiltrator-silence-is-golden-ex" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="arc-swashbuckler-daring_infiltrator-silence-is-golden-ex">Silence Is Golden (Ex)</Pair>
+<Pair hl title="Replaces">Menacing swordplay</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">When a daring infiltrator with at least 1 panache point succeeds at a <Link to="/rule/trip">trip</Link> or <Link to="/rule/grapple">grapple</Link> combat maneuver check, the target is rendered mute for 1 round. For every 5 by which the result of the combat maneuver check exceeds the opponent's CMD, the target remains mute for an additional round.</Pair>
+<Pair title="Special">A mute creature cannot speak, use language-dependent effects or verbal components, or use command words.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-daring_infiltrator-authoritative-bluff-ex" extraClasses="subAbility" icon={["rolling-dices","upgrade"]}>
+<Pair single id="arc-swashbuckler-daring_infiltrator-authoritative-bluff-ex">Authoritative Bluff (Ex)</Pair>
+<Pair hl title="Replaces">Bleeding wound</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">A daring infiltrator can spend 1 panache point to reroll a Bluff check after the roll is made but before the results are revealed. She must take the result of the second roll, even if it is lower.</Pair>
+<Pair title="Ability">Additionally, a daring infiltrator with at least 1 panache point gains a +5 bonus on Bluff checks to pretend to be someone's superior (socially or in the military). If she succeeds at the check, the target obeys any reasonable orders she gives as it would those of an actual superior in the situation.</Pair>
+</Ability>
 </>};
 const _dashing_thief = {title: "Dashing Thief", jsx: <><h2 id="arc-swashbuckler-dashing_thief-dashing-thief">Dashing Thief</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 51</Link><br/>The dashing thief relies on swift swordplay, dazzling charm, and spirited courage to commit audacious acts of thievery. Another thief might break into a noble's house by night, leaving none the wiser, but the dashing thief swings in through a window, charms the noble's servant into handing over the jewelry, and then duels her way out. <Link to="/rule/council_of_thieves">Council of Thieves</Link> heists often involve at least one dashing thief, as their attention-grabbing antics can provide a distraction for subtler agents, and their combat skills can be vital in tight spots. The majority of the Council's dashing thieves are personally trained by Sabriune Misraria - between her renounced family's lust-fueled intrigues and their numerous enslaved succubi, the drow heretic has numerous sources for the tricks and stunts she teaches her agents.</p>
-<p><strong>Bold Thief (Ex):</strong> A dashing thief fulfills the Council's larcenous goals with style. Her <Link to="/swashdeed/derring_do">derring-do</Link> and <Link to="/swashdeed/swashbucklers_edge">swashbuckler's edge</Link> deeds apply to Disable Device and Sleight of Hand, but not to Fly and Ride. She adds Disable Device to her list of class skills, but does not have Fly or Ride as class skills.</p>
-<p>This ability alters the swashbuckler's <strong className="hl">class skills</strong> and the <strong className="hl">derring-do</strong> and <strong className="hl">swashbuckler's edge</strong> deeds.</p>
-<p><strong>Thief's Confidence (Ex):</strong> A dashing thief's panache is fueled by bold acts of thievery. Whenever a dashing thief uses the steal combat maneuver to steal an object worth at least 100 gp &times; her class level from an opponent, she regains 1 panache point. She cannot regain panache in this way from a given opponent more than once per day.</p>
-<p>This ability alters <strong className="hl">panache</strong> and replaces the swashbuckler's ability to <strong className="hl">regain panache from a killing blow</strong>.</p>
-<p><strong>Rogue Talents:</strong> Council training grants a dashing thief numerous opportunities to learn trade secrets from fellow scoundrels. At 4th level and every 4 levels thereafter, a dashing thief gains a <Link to="/ability/rogue_talent">rogue talent</Link>, treating her class level as her rogue level when determining the talents' benefits. Starting at 12th level, the dashing thief can choose <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link>.</p>
-<p>This ability replaces the swashbuckler's <strong className="hl">bonus feats</strong>.</p>
-<p><strong>Dazing Charm Deed (Ex):</strong> A dashing thief takes foes aback with her forwardness, shocking them into submission long enough to rush past or stage a getaway. At 3rd level, as a free action when she successfully feints against a foe, she can spend 1 panache point to pull the enemy into a quick kiss (or similar gesture). The target is dazed for 1 round unless it succeeds at a Will save (DC = 10 + half the dashing thief's class level + her Charisma modifier). A creature dazed this way is immune to that dashing thief's dazing charm deed for 24 hours. Whether or not a creature could potentially be affected by a dazing charm deed is ultimately subject to GM adjudication. As a general rule, however, it works on creatures of the dashing thief's creature type, or on those of a different type but who share significant thematic similarities (for example, a human dashing thief could use her dazing charm deed on any humanoid, but also potentially on creatures as diverse as dryads, tieflings, or even centaurs or sphinxes).</p>
-<p>This ability replaces the <Link to="/swashdeed/menacing_swordplay">menacing swordplay</Link> deed.</p>
-<p><strong>Swaying Charm Deed (Su):</strong> A dashing thief eventually becomes truly irresistible. At 15th level, when a dashing thief successfully dazes a creature using her dazing charm deed, she can instead charm the target for 1 day (as per <Link to="/spell/charm_monster">charm monster</Link>). Only one creature can be charmed this way at a time; if the dashing thief charms another creature this way, the first charm effect immediately ends.</p>
-<p>This ability replaces the <Link to="/swashdeed/dizzying_defense">dizzying defense</Link> deed.</p>
+<Ability icon={["skills"]} id="arc-swashbuckler-dashing_thief-undefined">
+<Pair id="arc-swashbuckler-dashing_thief-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair>
+<Pair title="Removed Skills">Fly, Ride</Pair></Ability>
+<Ability id="arc-swashbuckler-dashing_thief-bold-thief-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-swashbuckler-dashing_thief-bold-thief-ex" flavor="A dashing thief fulfills the Council's larcenous goals with style.">Bold Thief (Ex)</Pair>
+<Pair hl title="Alters">Derring-do, swashbuckler's edge</Pair>
+<Pair title="Ability">Her <Link to="/swashdeed/derring_do">derring-do</Link> and <Link to="/swashdeed/swashbucklers_edge">swashbuckler's edge</Link> deeds apply to Disable Device and Sleight of Hand, but not to Fly and Ride.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-dashing_thief-thiefs-confidence-ex" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-dashing_thief-thiefs-confidence-ex" flavor="A dashing thief's panache is fueled by bold acts of thievery.">Thief's Confidence (Ex)</Pair>
+<Pair hl title="Replaces">Regain panache from a killing blow</Pair>
+<Pair hl title="Alters">Panache</Pair>
+<Pair title="Ability">Whenever a dashing thief uses the <Link to="/rule/steal">steal</Link> combat maneuver to steal an object worth at least 100 gp &times; her class level from an opponent, she regains 1 panache point. She cannot regain panache in this way from a given opponent more than once per day.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-dashing_thief-rogue-talents" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-dashing_thief-rogue-talents" flavor="Council training grants a dashing thief numerous opportunities to learn trade secrets from fellow scoundrels.">Rogue Talents</Pair>
+<Pair hl title="Replaces">Bonus feats</Pair>
+<Pair title="At 4th Level">A dashing thief gains a <Link to="/ability/rogue_talent">rogue talent</Link>, treating her class level as her rogue level when determining the talents' benefits.</Pair>
+<Pair title="At 8th Level">She gains her 2nd such talent.</Pair>
+<Pair title="At 12th Level">She gains her 3rd such talent. The dashing thief can now choose from <Link to="/ability/advanced_rogue_talents">advanced rogue talents</Link>, too.</Pair>
+<Pair title="At 16th Level">She gains her 4th such talent.</Pair>
+<Pair title="At 20th Level">She gains her 5th such talent.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-dashing_thief-dazing-charm-deed-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-swashbuckler-dashing_thief-dazing-charm-deed-ex" flavor="A dashing thief takes foes aback with her forwardness, shocking them into submission long enough to rush past or stage a getaway.">Dazing Charm Deed (Ex)</Pair>
+<Pair hl title="Replaces">Menacing swordplay</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Free Action">When she successfully feints against a foe, she can spend 1 panache point to pull the enemy into a quick kiss (or similar gesture). The target is <Link to="/misc/dazed">dazed</Link> for 1 round unless it succeeds at a Will save (DC = 10 + half the dashing thief's class level + her Charisma modifier). A creature dazed this way is immune to that dashing thief's <em>dazing charm</em> deed for 24 hours.</Pair>
+<Pair title="Special">Whether or not a creature could potentially be affected by a <em>dazing charm</em> deed is ultimately subject to GM adjudication. As a general rule, however, it works on creatures of the dashing thief's creature type, or on those of a different type but who share significant thematic similarities (for example, a human dashing thief could use her <em>dazing charm</em> deed on any humanoid, but also potentially on creatures as diverse as dryads, tieflings, or even centaurs or sphinxes).</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-dashing_thief-swaying-charm-deed-su" icon={["magic-swirl"]}>
+<Pair single id="arc-swashbuckler-dashing_thief-swaying-charm-deed-su" flavor="A dashing thief eventually becomes truly irresistible.">Swaying Charm Deed (Su)</Pair>
+<Pair hl title="Replaces">Dizzying defense</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">When a dashing thief successfully dazes a creature using her <em>dazing charm</em> deed, she can instead charm the target for 1 day (as per <Link to="/spell/charm_monster">charm monster</Link>). Only one creature can be charmed this way at a time; if the dashing thief charms another creature this way, the first charm effect immediately ends.</Pair>
+</Ability>
 </>};
 const _flying_blade = {title: "Flying Blade", jsx: <><h2 id="arc-swashbuckler-flying_blade-flying-blade">Flying Blade</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 124</Link><br/>While most swashbucklers prefer their battles up close, others prefer dealing death from a distance.</p>
-<p><strong>Panache:</strong> Unlike other swashbucklers, a flying blade regains panache only when she confirms a critical hit or makes a killing blow with a <Link to="/eq-weapon/dagger">dagger</Link> or <Link to="/eq-weapon/starknife">starknife</Link>.</p>
-<p>This ability alters <strong className="hl">panache</strong>.</p>
-<p><strong>Deeds:</strong> A flying blade gains the following deeds, each of which replaces an existing deed.</p>
-<blockquote>
-<p><strong>Subtle Throw (Ex):</strong> At 1st level, a flying blade can spend 1 panache point as part of a ranged attack with a dagger or starknife to make it without provoking attacks of opportunity. At 6th level, as a swift action she can spend 1 panache point to make all of her ranged attacks with daggers or starknives without provoking attacks of opportunity until the start of her next turn. This deed replaces <Link to="/swashdeed/dodging_panache">dodging panache</Link>.</p>
-<p><strong>Disrupting Counter (Ex):</strong> At 3rd level, when an opponent makes a melee attack against her, she can spend 1 panache point to make an attack of opportunity against the attacking foe. This attack of opportunity can be made with either a dagger or a starknife. If the attack hits, the opponent takes a -4 penalty on all attack rolls until the end of its turn. This deed replaces <Link to="/swashdeed/kip_up">kip-up</Link>.</p>
-<p><strong>Precise Throw (Ex):</strong> At 3rd level, as long as she has at least 1 panache point, a flying blade can use her <Link to="/swashdeed/precise_strike">precise strike</Link> with a thrown dagger or starknife as long as the target is within 60 feet of her, and she increases the range increment of these weapons by 5 feet. She can spend 1 panache point when she throws a dagger or a starknife to ignore all range increment penalties with that ranged attack. This deed replaces <Link to="/swashdeed/menacing_swordplay">menacing swordplay</Link>.</p>
-<p><strong>Targeted Throw (Ex):</strong> At 7th level, a flying blade can target individual body parts. This deed functions as the swashbuckler's <Link to="/swashdeed/targeted_strike">targeted strike</Link> deed, but the flying blade can also use this deed when making ranged attacks with either a dagger or a starknife as long as the target is within 60 feet of the flying blade. This deed replaces targeted strike.</p>
-<p><strong>Bleeding Wound (Ex):</strong> At 11th level, a flying blade can deal bleed damage as part of an attack. This deed functions as the swashbuckler's <Link to="/swashdeed/bleeding_wound">bleeding wound</Link> deed, but the flying blade can also use this deed when making ranged attacks with either a dagger or a starknife as long as the target is within 60 feet of the flying blade. This deed alters bleeding wound.</p>
-<p><strong>Perfect Throw (Ex):</strong> At 15th level, a flying blade can pool all of her attack potential into a single attack. This deed functions as the swashbuckler's <Link to="/swashdeed/perfect_thrust">perfect thrust</Link> deed, but the flying blade must use this deed when making ranged attacks with either a dagger or a starknife, and she can use this deed only on targets within 60 feet of her. This deed replaces perfect thrust.</p>
-</blockquote>
-<p><strong>Flying Blade Training (Ex):</strong> At 5th level, a flying blade gains a +1 bonus on attack and damage rolls when using daggers or starknives in combat. When a flying blade wields a dagger or starknife, she gains the benefit of the <Link to="/feat/improved_critical">Improved Critical</Link> feat with those weapons. Additionally, a flying blade increases the range increment of a thrown dagger or starknife by 5 feet. The increase of range increment stacks with that of precise throw.</p>
-<p>Every 4 levels thereafter, the bonus on attack and damage rolls increases by 1, and the range increment increases by 5 feet.</p>
-<p>This ability replaces <strong className="hl">swashbuckler weapon training</strong>.</p>
-<p><strong>Flying Blade Mastery (Ex):</strong> At 20th level, when an attack that a flying blade makes with a dagger or starknife threatens a critical hit, that critical hit is automatically confirmed. Furthermore, the critical modifiers of daggers and starknives increase by 1 (&times;2 becomes &times;3, and so on).</p>
-<p>This ability replaces <strong className="hl">swashbuckler weapon mastery</strong>.</p>
+<Ability id="arc-swashbuckler-flying_blade-panache" icon={["info"]}>
+<Pair single id="arc-swashbuckler-flying_blade-panache">Panache</Pair>
+<Pair hl title="Alters">Panache</Pair>
+<Pair title="Info">Unlike other swashbucklers, a flying blade regains panache only when she confirms a critical hit or makes a killing blow with a <Link to="/eq-weapon/dagger">dagger</Link> or <Link to="/eq-weapon/starknife">starknife</Link>.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-flying_blade-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-flying_blade-deeds">Deeds</Pair>
+<Pair title="Ability">A flying blade gains the following deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-flying_blade-subtle-throw-ex" extraClasses="subAbility" icon={["bowman","armor-upgrade"]}>
+<Pair single id="arc-swashbuckler-flying_blade-subtle-throw-ex">Subtle Throw (Ex)</Pair>
+<Pair hl title="Replaces">Dodging panache</Pair>
+<Pair title="At 1st Level">A flying blade can spend 1 panache point as part of a ranged attack with a dagger or starknife to make it without provoking attacks of opportunity.</Pair>
+<Pair title="At 6th Level">As a <strong className="hl">swift action</strong> she can spend 1 panache point to make all of her ranged attacks with daggers or starknives without provoking attacks of opportunity until the start of her next turn.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-flying_blade-disrupting-counter-ex" extraClasses="subAbility" icon={["mailed-fist","armor-downgrade"]}>
+<Pair single id="arc-swashbuckler-flying_blade-disrupting-counter-ex">Disrupting Counter (Ex)</Pair>
+<Pair hl title="Replaces">Kip-up</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">When an opponent makes a melee attack against her, she can spend 1 panache point to make an attack of opportunity against the attacking foe. This attack of opportunity can be made with either a dagger or a starknife. If the attack hits, the opponent takes a -4 penalty on all attack rolls until the end of its turn.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-flying_blade-precise-throw-ex" extraClasses="subAbility" icon={["bowman","upgrade"]}>
+<Pair single id="arc-swashbuckler-flying_blade-precise-throw-ex">Precise Throw (Ex)</Pair>
+<Pair hl title="Replaces">Menacing swordplay</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">As long as she has at least 1 panache point, a flying blade can use her <Link to="/swashdeed/precise_strike">precise strike</Link> with a thrown dagger or starknife as long as the target is within 60 feet of her, and she increases the range increment of these weapons by 5 feet.</Pair>
+<Pair title="Ability">She can spend 1 panache point when she throws a dagger or a starknife to ignore all range increment penalties with that ranged attack.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-flying_blade-targeted-throw-ex" extraClasses="subAbility" icon={["bowman"]}>
+<Pair single id="arc-swashbuckler-flying_blade-targeted-throw-ex">Targeted Throw (Ex)</Pair>
+<Pair hl title="Replaces">Targeted strike</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A flying blade can target individual body parts. This deed functions as the swashbuckler's <Link to="/swashdeed/targeted_strike">targeted strike</Link> deed, but the flying blade can also use this deed when making ranged attacks with either a dagger or a starknife as long as the target is within 60 feet of the flying blade.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-flying_blade-bleeding-wound-ex" extraClasses="subAbility" icon={["bowman"]}>
+<Pair single id="arc-swashbuckler-flying_blade-bleeding-wound-ex">Bleeding Wound (Ex)</Pair>
+<Pair hl title="Alters">Bleeding wound</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">A flying blade can deal <Link to="/umr/bleed">bleed</Link> damage as part of an attack. This deed functions as the swashbuckler's <Link to="/swashdeed/bleeding_wound">bleeding wound</Link> deed, but the flying blade can also use this deed when making ranged attacks with either a dagger or a starknife as long as the target is within 60 feet of the flying blade.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-flying_blade-perfect-throw-ex" extraClasses="subAbility" icon={["bowman"]}>
+<Pair single id="arc-swashbuckler-flying_blade-perfect-throw-ex">Perfect Throw (Ex)</Pair>
+<Pair hl title="Replaces">Perfect thrust</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">A flying blade can pool all of her attack potential into a single attack. This deed functions as the swashbuckler's <Link to="/swashdeed/perfect_thrust">perfect thrust</Link> deed, but the flying blade must use this deed when making ranged attacks with either a dagger or a starknife, and she can use this deed only on targets within 60 feet of her.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-flying_blade-flying-blade-training-ex" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-flying_blade-flying-blade-training-ex">Flying Blade Training (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler weapon training</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Passive Ability">A flying blade gains a +1 bonus on attack and damage rolls when using daggers or starknives in combat.</Pair>
+<Pair title="Ability">When a flying blade wields a dagger or starknife, she gains the benefit of the <Link to="/feat/improved_critical">Improved Critical</Link> feat with those weapons. Additionally, a flying blade increases the range increment of a thrown dagger or starknife by 5 feet.</Pair>
+<Pair title="At 9th Level">The attack and damage bonus increases to +2 and the range increment is now increased by 10 feet.</Pair>
+<Pair title="At 13th Level">The attack and damage bonus increases to +3 and the range increment is now increased by 15 feet.</Pair>
+<Pair title="At 17th Level">The attack and damage bonus increases to +4 and the range increment is now increased by 20 feet.</Pair>
+<Pair title="Special">The increase of range increment stacks with that of <em>precise throw.</em></Pair>
+</Ability>
+<Ability id="arc-swashbuckler-flying_blade-flying-blade-mastery-ex" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-flying_blade-flying-blade-mastery-ex">Flying Blade Mastery (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler weapon mastery</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">When an attack that a flying blade makes with a dagger or starknife threatens a critical hit, that critical hit is automatically confirmed. Furthermore, the critical modifiers of daggers and starknives increase by 1 (&times;2 becomes &times;3, and so on).</Pair>
+</Ability>
 </>};
 const _guiding_blade = {title: "Guiding Blade", jsx: <><h2 id="arc-swashbuckler-guiding_blade-guiding-blade">Guiding Blade</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 52</Link><br/>While some swashbucklers are loners or glory hounds, always trying to take the credit for finishing off a foe with little regard for their allies, guiding blades focus their swordplay and panache on helping their allies. For a guiding blade, anything is possible when the right team comes together, and she learns how to protect and bolster her allies to ensure the team's victory. Instead of parrying attacks against her, a guiding blade redirects her enemies' ire away from her allies, interfering with enemies who attack her allies, whether that attack comes by blade or by spell.</p>
-<p><strong>Daring Teamwork (Ex):</strong> A guiding blade uses her panache to inspire her allies to heights of teamwork they could never reach alone. At 1st level, a guiding blade gains a bonus <Link to="/main/teamwork_feat">teamwork feat</Link>. She gains an additional teamwork feat at 4th level and every 4 swashbuckler levels thereafter.</p>
-<p>As a standard action, she can spend 1 panache point to grant a teamwork feat she gained from this ability to all allies within 30 feet who can see and hear her. They do not need to meet the feat's prerequisites. She can use this ability multiple times to grant multiple teamwork feats. This ability lasts for 3 rounds + 1 round for every 2 swashbuckler levels she has, but if the guiding blade ever fails to have at least 1 panache point, all of these durations end immediately. At 7th level, the guiding blade can activate this ability as a swift action. At 15th level, she can grant two teamwork feats each time she activates this ability, and she can grant any teamwork feats she possesses, not just the teamwork feats she gained from this ability.</p>
-<p>A guiding blade regains panache whenever an ally reduces a creature to 0 or fewer hit points, instead of when she herself does so. She still doesn't regain panache from unattended objects, helpless or unaware creatures, or opponents with low Hit Dice.</p>
-<p>This ability replaces <strong className="hl">bonus feats</strong> and the swashbuckler's 1st-, 7th-, and 15th-level <strong className="hl">deeds</strong>, and it alters <strong className="hl">panache</strong>.</p>
-<p><strong>Charmed Guardian (Ex):</strong> At 2nd level, the fortunate nature of a guiding blade's charmed life extends to protect her allies as well. She can use her charmed life ability on a saving throw attempted by any ally within 30 feet, including herself.</p>
-<p>This ability alters <strong className="hl">charmed life</strong>.</p>
-<p><strong>Interfering Blade (Ex):</strong> At 3rd level, a guiding blade learns how to use her weapon to interfere with enemies' attacks, protecting her allies from peril. As long as the guiding blade is wearing light or no armor, whenever she is aware of an attack against an adjacent ally and would not herself be denied her Dexterity bonus against that attack, the guiding blade grants that ally a +1 bonus to AC against that attack.</p>
-<p>For example, if an invisible enemy attacks a guiding blade's ally and the guiding blade can't see that enemy, she would not grant the bonus from interfering blade unless she had the <Link to="/ability/uncanny_dodge">uncanny dodge</Link> ability. This bonus does not stack with any bonus to AC the guiding blade provides with the aid another action. The bonus increases by 1 for every 4 swashbuckler levels beyond 3rd, to a maximum of +5 at 19th level.</p>
-<p>This ability replaces <strong className="hl">nimble</strong>.</p>
-<p><strong>Deeds:</strong> A guiding blade receives the following deed.</p>
-<blockquote>
-<p><strong>Opportune Redirection and Riposte (Ex):</strong> At 3rd level, when an opponent threatening both the guiding blade and an adjacent ally attacks that ally, the guiding blade can spend 1 point of panache and expend a use of an attack of opportunity to attempt to redirect the attack to herself. The guiding blade makes an attack roll as if she were making an attack of opportunity; for each size category the attacking creature is larger than the guiding blade, the guiding blade takes a -2 penalty on this roll. If her result is greater than the attacking creature's attack result, the creature's attack is redirected to the guiding blade instead of the guiding blade's adjacent ally. The guiding blade must declare the use of this ability after the creature's attack is announced but before its attack roll is made.</p>
-<p>Upon performing a successful redirection, if the guiding blade has at least 1 panache point, the guiding blade can, as an immediate action, make an attack against the creature whose attack she redirected, provided that creature is within reach. A guiding blade can't select opportune redirection and riposte as a signature deed.</p>
-</blockquote>
-<p>This deed replaces the <Link to="/swashdeed/kip_up">kip-up</Link> deed.</p>
+<Ability id="arc-swashbuckler-guiding_blade-daring-teamwork-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-guiding_blade-daring-teamwork-ex" flavor="A guiding blade uses her panache to inspire her allies to heights of teamwork they could never reach alone.">Daring Teamwork (Ex)</Pair>
+<Pair hl title="Replaces">Bonus feats, 1st-, 7th-, and 15th-level deeds</Pair>
+<Pair hl title="Alters">Panache</Pair>
+<Pair title="At 1st Level">A guiding blade gains a bonus <Link to="/main/teamwork_feat">teamwork feat</Link>. As a <strong className="hl">standard action</strong>, she can spend 1 panache point to grant a teamwork feat she gained from this ability to all allies within 30 feet who can see and hear her. They do not need to meet the feat's prerequisites. She can use this ability multiple times to grant multiple teamwork feats. This ability lasts for 3 rounds + 1 round for every 2 swashbuckler levels she has, but if the guiding blade ever fails to have at least 1 panache point, all of these durations end immediately.</Pair>
+<Pair title="At 4th Level">She gains an additional teamwork feat.</Pair>
+<Pair title="At 7th Level">The guiding blade can activate this ability as a <strong className="hl">swift action</strong>.</Pair>
+<Pair title="At 8th Level">She gains an additional teamwork feat.</Pair>
+<Pair title="At 12th Level">She gains an additional teamwork feat.</Pair>
+<Pair title="At 15th Level">She can grant two teamwork feats each time she activates this ability, and she can grant any teamwork feats she possesses, not just the teamwork feats she gained from this ability.</Pair>
+<Pair title="At 16th Level">She gains an additional teamwork feat.</Pair>
+<Pair title="At 20th Level">She gains an additional teamwork feat.</Pair>
+<Pair title="Special">A guiding blade regains panache whenever an ally reduces a creature to 0 or fewer hit points, instead of when she herself does so. She still doesn't regain panache from unattended objects, helpless or unaware creatures, or opponents with low Hit Dice.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-guiding_blade-charmed-guardian-ex" icon={["shield-reflect"]}>
+<Pair single id="arc-swashbuckler-guiding_blade-charmed-guardian-ex">Charmed Guardian (Ex)</Pair>
+<Pair hl title="Alters">Charmed life</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">The fortunate nature of a guiding blade's <em>charmed life</em> extends to protect her allies as well. She can use her charmed life ability on a saving throw attempted by any ally within 30 feet, including herself.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-guiding_blade-interfering-blade-ex" icon={["shield-reflect"]}>
+<Pair single id="arc-swashbuckler-guiding_blade-interfering-blade-ex" flavor="A guiding blade learns how to use her weapon to interfere with enemies' attacks, protecting her allies from peril.">Interfering Blade (Ex)</Pair>
+<Pair hl title="Replaces">Nimble</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability"><p>As long as the guiding blade is wearing light or no armor, whenever she is aware of an attack against an adjacent ally and would not herself be denied her Dexterity bonus against that attack, the guiding blade grants that ally a +1 bonus to AC against that attack.</p>
+<p>For example, if an invisible enemy attacks a guiding blade's ally and the guiding blade can't see that enemy, she would not grant the bonus from interfering blade unless she had the <Link to="/ability/uncanny_dodge">uncanny dodge</Link> ability.</p>
+</Pair>
+<Pair title="At 7th Level">The bonus becomes +2.</Pair>
+<Pair title="At 11th Level">The bonus increases to +3.</Pair>
+<Pair title="At 15th Level">The bonus becomes +4.</Pair>
+<Pair title="At 19th Level">The bonus increases to +5.</Pair>
+<Pair title="Special">This bonus does not stack with any bonus to AC the guiding blade provides with the <Link to="/rule/aid_another_2">aid another</Link> action.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-guiding_blade-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-guiding_blade-deeds">Deeds</Pair>
+<Pair title="Ability">A guiding blade gains the following deed.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-guiding_blade-opportune-redirection-and-riposte-ex" extraClasses="subAbility" icon={["shield-reflect"]}>
+<Pair single id="arc-swashbuckler-guiding_blade-opportune-redirection-and-riposte-ex">Opportune Redirection and Riposte (Ex)</Pair>
+<Pair hl title="Replaces">Kip-up</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">When an opponent threatening both the guiding blade and an adjacent ally attacks that ally, the guiding blade can spend 1 point of panache and expend a use of an attack of opportunity to attempt to redirect the attack to herself. The guiding blade makes an attack roll as if she were making an attack of opportunity; for each size category the attacking creature is larger than the guiding blade, the guiding blade takes a -2 penalty on this roll. If her result is greater than the attacking creature's attack result, the creature's attack is redirected to the guiding blade instead of the guiding blade's adjacent ally. The guiding blade must declare the use of this ability after the creature's attack is announced but before its attack roll is made.</Pair>
+<Pair title="Immediate Action">Upon performing a successful redirection, if the guiding blade has at least 1 panache point, the guiding blade can make an attack against the creature whose attack she redirected, provided that creature is within reach.</Pair>
+<Pair title="Special">A guiding blade can't select <em>opportune redirection and riposte</em> as a <em>signature deed.</em></Pair>
+</Ability>
 </>};
 const _inspired_blade = {title: "Inspired Blade", jsx: <><h2 id="arc-swashbuckler-inspired_blade-inspired-blade">Inspired Blade</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 125</Link><br/>An inspired blade is both a force of personality and a sage of swordplay dedicated to the perfection of combat with the rapier. They use the science and geometry with swordplay to beautiful and deadly effect.</p>
