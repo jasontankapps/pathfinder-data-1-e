@@ -365,114 +365,279 @@ const _guiding_blade = {title: "Guiding Blade", jsx: <><h2 id="arc-swashbuckler-
 </>};
 const _inspired_blade = {title: "Inspired Blade", jsx: <><h2 id="arc-swashbuckler-inspired_blade-inspired-blade">Inspired Blade</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 125</Link><br/>An inspired blade is both a force of personality and a sage of swordplay dedicated to the perfection of combat with the rapier. They use the science and geometry with swordplay to beautiful and deadly effect.</p>
-<p><strong>Inspired Panache (Ex):</strong> Each day, an inspired blade gains a number of panache points equal to her Charisma modifier (minimum 1) and Intelligence modifier (minimum 1), instead of just her Charisma modifier.</p>
-<p>Unlike other swashbucklers, an inspired blade gains no panache from a killing blow. She gains panache only from scoring a critical hit with a <Link to="/eq-weapon/rapier">rapier</Link>.</p>
-<p>This ability alters the <strong className="hl">panache</strong> class feature.</p>
-<p><strong>Inspired Finesse (Ex):</strong> At 1st level, an inspired blade gains the benefits of <Link to="/feat/weapon_finesse">Weapon Finesse</Link> with the rapier (this ability counts as having the Weapon Finesse feat for the purpose of meeting feat prerequisites) and gains <Link to="/feat/weapon_focus">Weapon Focus</Link> (rapier) as a bonus feat.</p>
-<p>This ability replaces <strong className="hl">swashbuckler finesse</strong>.</p>
-<p><strong>Deeds:</strong> The inspired blade gains the following deed.</p>
-<blockquote>
-<p><strong>Inspired Strike (Ex):</strong> At 11th level, an inspired blade can spend 1 panache point when making an attack with a rapier to gain an insight bonus on that attack roll equal to her Intelligence modifier (minimum +1). When an inspired blade hits with an attack augmented by inspired strike, she can spend 1 additional panache point to make the hit a critical threat, though if she does so, she does not regain panache if she confirms that critical threat. The cost of this deed cannot be reduced by abilities such as <Link to="/feat/signature_deed">Signature Deed</Link>.</p>
-</blockquote>
-<p>This ability replaces <Link to="/swashdeed/bleeding_wound">bleeding wound</Link>.</p>
-<p><strong>Rapier Training (Ex):</strong> At 5th level, an inspired blade gains a +1 bonus on attack rolls and a +2 bonus on damage rolls with rapiers. While wielding a rapier, she gains the benefit of the <Link to="/feat/improved_critical">Improved Critical</Link> feat. These attack and damage bonuses increase by 1 for every 4 levels beyond 5th (to a maximum of +4 on attack rolls and +5 on damage rolls at 17th level).</p>
-<p>This ability replaces <strong className="hl">swashbuckler weapon training</strong>.</p>
-<p><strong>Rapier Weapon Mastery (Ex):</strong> At 20th level, when an inspired blade threatens a critical hit with a rapier, that critical hit is automatically confirmed. Furthermore, the critical threat range increases by 1 (this increase to the critical threat range stacks with the increases from rapier training, to a total threat range of 14-20), and the critical modifier of the weapon increases by 1 (&times;2 becomes &times;3, for example).</p>
-<p>This ability replaces <strong className="hl">swashbuckler weapon mastery</strong>.</p>
+<Ability id="arc-swashbuckler-inspired_blade-inspired-panache-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-swashbuckler-inspired_blade-inspired-panache-ex">Inspired Panache (Ex)</Pair>
+<Pair hl title="Alters">Panache</Pair>
+<Pair title="Info">Each day, an inspired blade gains a number of panache points equal to her Charisma modifier (minimum 1) and Intelligence modifier (minimum 1), instead of just her Charisma modifier.</Pair>
+<Pair title="Special">Unlike other swashbucklers, an inspired blade gains no panache from a killing blow. She gains panache only from scoring a critical hit with a <Link to="/eq-weapon/rapier">rapier</Link>.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-inspired_blade-inspired-finesse-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-inspired_blade-inspired-finesse-ex">Inspired Finesse (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler finesse</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">An inspired blade gains the benefits of <Link to="/feat/weapon_finesse">Weapon Finesse</Link> with the rapier (this ability counts as having the Weapon Finesse feat for the purpose of meeting feat prerequisites) and gains <Link to="/feat/weapon_focus">Weapon Focus</Link> (rapier) as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-inspired_blade-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-inspired_blade-deeds">Deeds</Pair>
+<Pair title="Ability">The inspired blade gains the following deed.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-inspired_blade-inspired-strike-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-inspired_blade-inspired-strike-ex">Inspired Strike (Ex)</Pair>
+<Pair hl title="Replaces">Bleeding wound</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">An inspired blade can spend 1 panache point when making an attack with a rapier to gain an insight bonus on that attack roll equal to her Intelligence modifier (minimum +1).</Pair>
+<Pair title="Ability">When an inspired blade hits with an attack augmented by <em>inspired strike,</em> she can spend 1 additional panache point to make the hit a critical threat, though if she does so, she does not regain panache if she confirms that critical threat. The cost of this deed cannot be reduced by abilities such as <Link to="/feat/signature_deed">Signature Deed</Link>.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-inspired_blade-rapier-training-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-swashbuckler-inspired_blade-rapier-training-ex">Rapier Training (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler weapon training</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Passive Ability">An inspired blade gains a +1 bonus on attack rolls and a +2 bonus on damage rolls with rapiers. While wielding a rapier, she gains the benefit of the <Link to="/feat/improved_critical">Improved Critical</Link> feat.</Pair>
+<Pair title="At 9th Level">The attack bonus becomes +2 and the damage bonus increases to +3.</Pair>
+<Pair title="At 13th Level">The attack bonus becomes +3 and the damage bonus increases to +4.</Pair>
+<Pair title="At 17th Level">The attack bonus becomes +4 and the damage bonus increases to +5.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-inspired_blade-rapier-weapon-mastery-ex" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-inspired_blade-rapier-weapon-mastery-ex">Rapier Weapon Mastery (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler weapon mastery</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">When an inspired blade threatens a critical hit with a rapier, that critical hit is automatically confirmed. Furthermore, the critical threat range increases by 1 (this increase to the critical threat range stacks with the increases from <em>rapier training,</em> to a total threat range of 14-20), and the critical modifier of the weapon increases by 1 (&times;2 becomes &times;3, for example).</Pair>
+</Ability>
 </>};
 const _mouser = {title: "Mouser", jsx: <><h2 id="arc-swashbuckler-mouser-mouser">Mouser</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 125</Link><br/>In the hands of a trained warrior, a well-sharpened blade is deadly regardless of size. A mouser moves in close, using her size and skill as an advantage.</p>
-<p><strong>Deeds:</strong> The mouser gains the following deeds, each of which replaces an existing deed.</p>
-<blockquote>
-<p><strong>Underfoot Assault (Ex):</strong> At 1st level, if a foe whose size is larger than the mouser's is adjacent to her and misses her with a melee attack, the mouser can as an immediate action spend 1 panache point to move 5 feet into an area of the attacker's space. This movement does not count against the mouser's movement the next round, and it doesn't provoke attacks of opportunity. While the mouser is within a foe's space, she is considered to occupy her square within that foe's space.</p>
-<p>While the mouser is within her foe's space, the foe takes a -4 penalty on all attack rolls and combat maneuver checks not made against the mouser, and all of the mouser's allies that are adjacent to both the foe and the mouser are considered to be flanking the foe. The mouser is considered to be flanking the foe whose space she is within if she is adjacent to an ally who is also adjacent to the foe. The mouser can move within her foe's space and leave the foe's space unhindered and without provoking attacks of opportunity, but if the foe attempts to move to a position where the mouser is no longer in its space, the movement provokes an attack of opportunity from the mouser. This deed replaces <Link to="/swashdeed/opportune_parry_and_riposte">opportune parry and riposte</Link>.</p>
-<p><strong>Quick Steal (Ex):</strong> At 3rd level, as a swift action the mouser can spend 1 panache point when she hits a for larger than her size with a light or one-handed piercing melee weapon to attempt a steal combat maneuver check against the creature she hit. Using this deed does not provoke an attack of opportunity. This deed replaces <Link to="/swashdeed/menacing_swordplay">menacing swordplay</Link>.</p>
-<p><strong>Hamstring (Ex):</strong> At 7th level, as long as a mouser has at least 1 panache point when she hits a foe whose size is larger than her own with a light or one-handed piercing melee weapon, she can as a swift action attempt a dirty trick combat maneuver check. Instead of the normal conditions that can be applied with dirty trick, this deed can only stagger the target if the check is successful. This deed replaces <Link to="/swashdeed/targeted_strike">targeted strike</Link>.</p>
-<p><strong>Cat's Charge (Ex):</strong> At 11th level, as long as a mouser has at least 1 panache point, when she charges a foe whose size is larger than her own, the mouser can end her charge in any space she can reach, not just the closest space. All other requirements of the charge must still be satisfied. This deed replaces <Link to="/swashdeed/bleeding_wound">bleeding wound</Link>.</p>
-</blockquote>
+<Ability id="arc-swashbuckler-mouser-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-mouser-deeds">Deeds</Pair>
+<Pair title="Ability">The mouser gains the following deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-mouser-underfoot-assault-ex" extraClasses="subAbility" icon={["stairs-goal","armor-downgrade"]}>
+<Pair single id="arc-swashbuckler-mouser-underfoot-assault-ex">Underfoot Assault (Ex)</Pair>
+<Pair hl title="Replaces">Opportune parry and riposte</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Immediate Action">If a foe whose size is larger than the mouser's is adjacent to her and misses her with a melee attack, the mouser can spend 1 panache point to move 5 feet into an area of the attacker's space. This movement does not count against the mouser's movement the next round, and it doesn't provoke attacks of opportunity. While the mouser is within a foe's space, she is considered to occupy her square within that foe's space.</Pair>
+<Pair title="Passive Ability">While the mouser is within her foe's space, the foe takes a -4 penalty on all attack rolls and combat maneuver checks not made against the mouser, and all of the mouser's allies that are adjacent to both the foe and the mouser are considered to be <Link to="/rule/flanking">flanking</Link> the foe. The mouser is considered to be flanking the foe whose space she is within if she is adjacent to an ally who is also adjacent to the foe. The mouser can move within her foe's space and leave the foe's space unhindered and without provoking attacks of opportunity, but if the foe attempts to move to a position where the mouser is no longer in its space, the movement provokes an attack of opportunity from the mouser.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-mouser-quick-steal-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-swashbuckler-mouser-quick-steal-ex">Quick Steal (Ex)</Pair>
+<Pair hl title="Replaces">Menacing swordplay</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Swift Action">The mouser can spend 1 panache point when she hits a foe larger than her size with a light or one-handed piercing melee weapon to attempt a <Link to="/rule/steal">steal</Link> combat maneuver check against the creature she hit. Using this deed does not provoke an attack of opportunity.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-mouser-hamstring-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-swashbuckler-mouser-hamstring-ex">Hamstring (Ex)</Pair>
+<Pair hl title="Replaces">Targeted strike</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Swift Action">As long as a mouser has at least 1 panache point when she hits a foe whose size is larger than her own with a light or one-handed piercing melee weapon, she can attempt a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver check. Instead of the normal conditions that can be applied with dirty trick, this deed can only <Link to="/misc/stagger">stagger</Link> the target if the check is successful.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-mouser-cats-charge-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-swashbuckler-mouser-cats-charge-ex">Cat's Charge (Ex)</Pair>
+<Pair hl title="Replaces">Bleeding wound</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">As long as a mouser has at least 1 panache point, when she <Link to="/rule/charge">charges</Link> a foe whose size is larger than her own, the mouser can end her charge in any space she can reach, not just the closest space. All other requirements of the charge must still be satisfied.</Pair>
+</Ability>
 </>};
 const _musketeer = {title: "Musketeer", jsx: <><h2 id="arc-swashbuckler-musketeer-musketeer">Musketeer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 126</Link><br/>A number of organizations and kingdoms search for warriors who are brave (or foolish) enough to wield firearms on the battlefield. The daring nature of swashbucklers often makes them ideal candidates for such service.</p>
-<p><strong>Weapon Proficiency:</strong> A musketeer gains proficiency with all simple weapons and martial weapons, as well as one-handed and two-handed firearms.</p>
-<p>This ability replaces the swashbuckler's <strong className="hl">weapon proficiencies</strong>.</p>
-<p><strong>Musketeer Instruction (Ex):</strong> At 1st level, a musketeer gains the benefits of the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feature with the <Link to="/eq-weapon/rapier">rapier</Link> (this counts as having the Weapon Finesse feat for purposes of meeting feat prerequisites), as well as both <Link to="/feat/rapid_reload">Rapid Reload</Link> (musket) and <Link to="/feat/gunsmithing">Gunsmithing</Link> feats as bonus feats.</p>
-<p>This ability replaces <strong className="hl">swashbuckler finesse</strong>.</p>
-<p><strong>Deed:</strong> The musketeer gains the following deed, which replaces an existing deed.</p>
-<blockquote>
-<p><strong>Quick Clear (Ex):</strong> At 1st level, as a standard action the musketeer can spend 1 panache point to remove the broken condition from a single firearm he is currently wielding, as long as the firearm gained that condition through a misfire. This deed replaces <Link to="/swashdeed/dodging_panache">dodging panache</Link>.</p>
-</blockquote>
+<Ability id="arc-swashbuckler-musketeer-weapon-proficiency" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-musketeer-weapon-proficiency">Weapon Proficiency</Pair>
+<Pair hl title="Replaces">Weapon proficiencies</Pair>
+<Pair title="Info">A musketeer gains proficiency with all simple weapons and martial weapons, as well as one-handed and two-handed <Link to="/main/equipment_firearms">firearms</Link>.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-musketeer-musketeer-instruction-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-musketeer-musketeer-instruction-ex">Musketeer Instruction (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler finesse</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">A musketeer gains the benefits of the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feature with the <Link to="/eq-weapon/rapier">rapier</Link> (this counts as having the Weapon Finesse feat for purposes of meeting feat prerequisites), as well as both <Link to="/feat/rapid_reload">Rapid Reload</Link> (musket) and <Link to="/feat/gunsmithing">Gunsmithing</Link> feats as bonus feats.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-musketeer-deeds" extraClasses="hasSubs" icon={["info"]}>
+<Pair single id="arc-swashbuckler-musketeer-deeds">Deeds</Pair>
+<Pair title="Ability">The musketeer gains the following deed.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-musketeer-quick-clear-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-musketeer-quick-clear-ex">Quick Clear (Ex)</Pair>
+<Pair hl title="Replaces">Dodging panache</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Standard Action">The musketeer can spend 1 panache point to remove the <Link to="/misc/broken">broken</Link> condition from a single firearm he is currently wielding, as long as the firearm gained that condition through a misfire.</Pair>
+</Ability>
 </>};
 const _mysterious_avenger = {title: "Mysterious Avenger", jsx: <><h2 id="arc-swashbuckler-mysterious_avenger-mysterious-avenger">Mysterious Avenger</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 126</Link><br/>While some swashbucklers fight for queen and country, and others for coin, glory, or just the enhancement of their own reputations, the mysterious avenger fights directly for a cause. Instead of gaining personal glory for her heroic deeds, she keeps her identity hidden in order to fight for those who cannot fight for themselves.</p>
-<p><strong>Alignment:</strong> A mysterious avenger must be of a good alignment, and must be dedicated to the protection of the good and the powerless under her care. If she ceases to be good or betrays the trust of those she was sworn to protect, she loses her secret identity and greater charmed life class features. She can regain them if she atones for her violations by some means that the GM sees fit (possibly by way of the <Link to="/spell/atonement">atonement</Link> spell if the mysterious avenger is especially religious).</p>
+<Ability id="arc-swashbuckler-mysterious_avenger-alignment" icon={["hazard-sign"]}>
+<Pair single id="arc-swashbuckler-mysterious_avenger-alignment">Alignment</Pair>
+<Pair title="Info">A mysterious avenger must be of a good alignment, and must be dedicated to the protection of the good and the powerless under her care. If she ceases to be good or betrays the trust of those she was sworn to protect, she loses her <em>secret identity</em> and <em>greater charmed life</em> class features. She can regain them if she atones for her violations by some means that the GM sees fit (possibly by way of the <Link to="/spell/atonement">atonement</Link> spell if the mysterious avenger is especially religious).</Pair>
+</Ability>
 <Ability icon={["skills"]} id="arc-swashbuckler-mysterious_avenger-undefined">
 <Pair id="arc-swashbuckler-mysterious_avenger-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA)</Pair></Ability>
-<p><strong>Weapon and Armor Proficiency:</strong> A mysterious avenger loses her proficiency with bucklers, but gains proficiency in the <Link to="/eq-weapon/whip">whip</Link> exotic weapon.</p>
-<p>This alters the swashbuckler's <strong className="hl">weapon and armor proficiency</strong>.</p>
-<p><strong>Avenger Finesse (Ex):</strong> A mysterious avenger gains all of the benefits of the swashbuckler's finesse class feature, and gains the ability to use a whip in place of a light or one-handed piercing melee weapon for all swashbuckler class features and deeds.</p>
-<p>This ability alters <strong className="hl">swashbuckler finesse</strong>.</p>
-<p><strong>Secret Identity (Su):</strong> At 3rd level, a mysterious avenger's force of personality and dedication to her cause give her the ability to keep her true identity secret, even from magical prying. She gains a +4 bonus on Disguise checks in a single disguise of her choice, typically her avenger persona. Once this disguise has been chosen, it can't be changed. She also gains a +4 bonus on saving throws against divination effect. At 11th level, she becomes immune to all scrying effects and other magical effects used in attempts to uncover her secret identity.</p>
-<p>This ability replaces <strong className="hl">nimble</strong>.</p>
-<p><strong>Greater Charmed Life (Ex):</strong> At 4th level, the mysterious avenger gains three extra uses of charmed life. As an immediate action, she can expend one use of charmed life to gain a bonus to her AC equal to her Charisma modifier (minimum 1). She must choose to do this before the attack roll is made against her.</p>
-<p>This ability replaces the <strong className="hl">bonus feat</strong> gained at 4th level.</p>
-<p><strong>Avenger's Target (Ex):</strong> At 5th level, a mysterious avenger gains a +1 bonus on attack and damage rolls with light or one-handed piercing melee weapons and whips. Furthermore, a mysterious avenger can study an opponent she can see as a move action. The mysterious avenger then gains a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against that opponent, a +1 bonus on weapon attack and damage rolls against it, and a +1 bonus to DCs of any deeds used against that opponent. A mysterious avenger can maintain these bonuses against only one opponent at a time; these bonuses remain in effect until either the opponent is dead or the mysterious avenger studies a new target.</p>
-<p>At 10th, 15th, and 20th levels, these mysterious avenger's bonuses against a studied target increase by 1. In addition, at each such interval, a mysterious avenger is able to maintain these bonuses against an additional studied target at the same time. A mysterious avenger can discard this connection to a studied target as a free action, allowing her to study another target in its place.</p>
-<p>At 10th level, a mysterious avenger can study an opponent as a move or swift action.</p>
-<p>This ability replaces <strong className="hl">swashbuckler weapon training</strong>.</p>
+<Ability id="arc-swashbuckler-mysterious_avenger-weapon-and-armor-proficiency" icon={["broken-shield","stairs-goal"]}>
+<Pair single id="arc-swashbuckler-mysterious_avenger-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Alters">Weapon and armor proficiency</Pair>
+<Pair title="Ability">A mysterious avenger loses her proficiency with bucklers, but gains proficiency in the <Link to="/eq-weapon/whip">whip</Link> exotic weapon.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-mysterious_avenger-avenger-finesse-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-mysterious_avenger-avenger-finesse-ex">Avenger Finesse (Ex)</Pair>
+<Pair hl title="Alters">Swashbuckler finesse</Pair>
+<Pair title="Info">A mysterious avenger gains all of the benefits of the <em>swashbuckler's finesse</em> class feature, and gains the ability to use a whip in place of a light or one-handed piercing melee weapon for all swashbuckler class features and deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-mysterious_avenger-secret-identity-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-swashbuckler-mysterious_avenger-secret-identity-su" flavor="A mysterious avenger's force of personality and dedication to her cause give her the ability to keep her true identity secret, even from magical prying.">Secret Identity (Su)</Pair>
+<Pair hl title="Replaces">Nimble</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">She gains a +4 bonus on Disguise checks in a single disguise of her choice, typically her avenger persona. Once this disguise has been chosen, it can't be changed. She also gains a +4 bonus on saving throws against divination effect.</Pair>
+<Pair title="At 11th Level">She becomes immune to all <Link to="/spelldef/scrying">scrying</Link> effects and other magical effects used in attempts to uncover her secret identity.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-mysterious_avenger-greater-charmed-life-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-swashbuckler-mysterious_avenger-greater-charmed-life-ex">Greater Charmed Life (Ex)</Pair>
+<Pair hl title="Replaces">4th-level bonus feat</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">The mysterious avenger gains three extra uses of <em>charmed life.</em></Pair>
+<Pair title="Immediate Action">She can expend one use of charmed life to gain a bonus to her AC equal to her Charisma modifier (minimum 1). She must choose to do this before the attack roll is made against her.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-mysterious_avenger-avengers-target-ex" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-mysterious_avenger-avengers-target-ex">Avenger's Target (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler weapon training</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Passive Ability">A mysterious avenger gains a +1 bonus on attack and damage rolls with light or one-handed piercing melee weapons and whips.</Pair>
+<Pair title="Move-Equivalent Action">A mysterious avenger can study an opponent she can see. The mysterious avenger then gains a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against that opponent, a +1 bonus on weapon attack and damage rolls against it, and a +1 bonus to DCs of any deeds used against that opponent. A mysterious avenger can maintain these bonuses against only one opponent at a time; these bonuses remain in effect until either the opponent is dead or the mysterious avenger studies a new target.</Pair>
+<Pair title="At 10th Level">The bonuses against studied targets become +2. In addition, she can maintain these bonuses against 2 studied targets at the same time. A mysterious avenger can discard this connection to a studied target as a <strong className="hl">free action</strong>, allowing her to study another target in its place. Finally, a mysterious avenger can study an opponent as a move or <strong className="hl">swift action</strong>.</Pair>
+<Pair title="At 15th Level">The bonuses against studied targets become +3. In addition, she can maintain these bonuses against 3 studied targets at the same time.</Pair>
+<Pair title="At 20th Level">The bonuses against studied targets become +4. In addition, she can maintain these bonuses against 4 studied targets at the same time.</Pair>
+</Ability>
 </>};
 const _noble_fencer = {title: "Noble Fencer", jsx: <><h2 id="arc-swashbuckler-noble_fencer-noble-fencer">Noble Fencer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 52</Link><br/>The noble fencer is an aristocrat or other upper-class socialite who trained in dueling from a young age. Noble fencers fight with their own style, with distinct differences from those of alley bravos or gladiatorial duelists. They use their quick wits and panache in both physical and social confrontations, and they rely on their training and discipline to emerge victorious, rather than merely trusting to luck.</p>
-<p><strong>Deeds:</strong> A noble fencer gains the following deeds.</p>
-<blockquote>
-<p><strong>Social Panache (Ex):</strong> At 1st level, a noble fencer can spend 1 panache point when he attempts a Bluff, Diplomacy, Intimidate, or Sense Motive check to roll 1d6 and add the result to the check. He can do this after he rolls the check but before the result is revealed. If the result of the d6 roll is a natural 6, he rolls another 1d6 and adds it to the check. He can continue to do this as long as he rolls natural 6s, up to a number of times equal to his Charisma modifier (minimum 1).</p>
-<p>Just before a verbal duel, a noble fencer can spend up to 4 panache points. For each point he spends, he selects a tactic for which he has chosen Bluff, Diplomacy, Intimidate, or Sense Motive as an associated skill and gains an edge he can only use with that tactic.</p>
-<p>This deed <strong className="hl">replaces</strong> the <Link to="/swashdeed/dodging_panache">dodging panache</Link> deed.</p>
-<p><strong>Incredible Aspirations (Ex):</strong> At 7th level, a noble fencer strives for truly amazing results when he uses his <Link to="/swashdeed/derring_do">derring-do</Link> and social panache deeds. As long as he has 1 panache point, the first time he rolls a natural 5 on the 1d6 for those deeds, he can roll another 1d6, subject to the other limitations of the respective deeds. He can still reroll as many rolls of 6 as normal.</p>
-<p>This deed <strong className="hl">replaces</strong> the <Link to="/swashdeed/superior_feint">superior feint</Link> deed.</p>
-<p><strong>Unshakable Presence (Ex):</strong> At 11th level, a noble fencer cloaks himself in the combined bravado of a swashbuckler and a noble, girding himself against anything that attempts to shake his impossible confidence. While he has at least 1 panache point, he cannot be demoralized by the Intimidate skill.</p>
-<p>This ability replaces the <Link to="/swashdeed/subtle_blade">subtle blade</Link> deed.</p>
-</blockquote>
-<p><strong>Aristocratic Discipline (Ex):</strong> At 2nd level, a noble fencer relies on his extremely honed training and discipline to protect his mind, rather than luck. The noble fencer gains a +1 bonus on Will saves against mind-affecting effects. This bonus increases by 1 at 6th level and every 4 swashbuckler levels thereafter.</p>
-<p>This ability replaces <strong className="hl">charmed life</strong>.</p>
+<Ability id="arc-swashbuckler-noble_fencer-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-noble_fencer-deeds">Deeds</Pair>
+<Pair title="Ability">A noble fencer gains the following deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-noble_fencer-social-panache-ex" extraClasses="subAbility" icon={["upgrade","rolling-dices"]}>
+<Pair single id="arc-swashbuckler-noble_fencer-social-panache-ex">Social Panache (Ex)</Pair>
+<Pair hl title="Replaces">Dodging panache</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A noble fencer can spend 1 panache point when he attempts a Bluff, Diplomacy, Intimidate, or Sense Motive check to roll 1d6 and add the result to the check. He can do this after he rolls the check but before the result is revealed. If the result of the d6 roll is a natural 6, he rolls another 1d6 and adds it to the check. He can continue to do this as long as he rolls natural 6s, up to a number of times equal to his Charisma modifier (minimum 1).</Pair>
+<Pair title="Ability">Just before a <Link to="/rule/verbal_duels">verbal duel</Link>, a noble fencer can spend up to 4 panache points. For each point he spends, he selects a <em>tactic</em> for which he has chosen Bluff, Diplomacy, Intimidate, or Sense Motive as an associated skill and gains an <em>edge</em> he can only use with that <em>tactic.</em></Pair>
+</Ability>
+<Ability id="arc-swashbuckler-noble_fencer-incredible-aspirations-ex" extraClasses="subAbility" icon={["upgrade","rolling-dices"]}>
+<Pair single id="arc-swashbuckler-noble_fencer-incredible-aspirations-ex" flavor={<>A noble fencer strives for truly amazing results when he uses his <Link to="/swashdeed/derring_do">derring-do</Link> and <em>social panache</em> deeds.</>}>Incredible Aspirations (Ex)</Pair>
+<Pair hl title="Replaces">Superior feint</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Passive Ability">As long as he has 1 panache point, the first time he rolls a natural 5 on the 1d6 for those deeds, he can roll another 1d6, subject to the other limitations of the respective deeds. He can still reroll as many rolls of 6 as normal.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-noble_fencer-unshakable-presence-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-swashbuckler-noble_fencer-unshakable-presence-ex" flavor="A noble fencer cloaks himself in the combined bravado of a swashbuckler and a noble, girding himself against anything that attempts to shake his impossible confidence.">Unshakable Presence (Ex)</Pair>
+<Pair hl title="Replaces">Subtle blade</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Passive Ability">While he has at least 1 panache point, he cannot be demoralized by the Intimidate skill.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-noble_fencer-aristocratic-discipline-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-swashbuckler-noble_fencer-aristocratic-discipline-ex" flavor="A noble fencer relies on his extremely honed training and discipline to protect his mind, rather than luck.">Aristocratic Discipline (Ex)</Pair>
+<Pair hl title="Replaces">Charmed life</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">The noble fencer gains a +1 bonus on Will saves against mind-affecting effects.</Pair>
+<Pair title="At 6th Level">This bonus becomes +2.</Pair>
+<Pair title="At 10th Level">This bonus increases to +3.</Pair>
+<Pair title="At 14th Level">This bonus becomes +4.</Pair>
+<Pair title="At 18th Level">This bonus increases to +5.</Pair>
+</Ability>
 </>};
 const _okayo_corsair = {title: "Okayo Corsair", jsx: <><h2 id="arc-swashbuckler-okayo_corsair-okayo-corsair">Okayo Corsair</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 11</Link><br/>An Okayo corsair practices a unique acrobatic martial art that draws inspiration from both the mysticism of monastic combat traditions and the flair of a swashbuckler. This style originated among pirates of the Dragon Empires and has since spread and become popular in the Shackles.</p>
-<p><strong>Weapon and Armor Proficiency:</strong> Okayo corsairs are proficient with simple weapons and all weapons from the monk weapon group, as well as light armor and bucklers.</p>
-<p>This replaces the swashbuckler's <strong className="hl">weapon and armor proficiency</strong>.</p>
-<p><strong>Okayo Finesse (Ex):</strong> An Okayo corsair gains the benefits of the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feat with light or one-handed melee weapons from the monk <Link to="/ability/weapon_groups">weapon group</Link>, and she can use her Charisma score in place of Intelligence and Wisdom for the purpose of meeting prerequisites for combat feats. This ability counts as the Weapon Finesse feat for the purpose of meeting feat prerequisites.</p>
-<p>This replaces <strong className="hl">swashbuckler finesse</strong>.</p>
-<p><strong>Okayo Panache (Ex):</strong> An Okayo corsair regains panache only when she confirms a critical hit or makes a killing blow with a light or one-handed weapon from the monk weapon group. Additionally, the Okayo corsair gains the ability to use a light or one-handed monk weapon for her swashbuckler class features, deeds, and feats, even if the weapon is not a piercing weapon, but she can't use other light or one-handed weapons with her class features or deeds.</p>
-<p>This alters <strong className="hl">panache</strong>.</p>
-<p><strong>Deeds:</strong> An Okayo corsair gains the following deeds.</p>
-<blockquote>
-<p><strong>Ki Panache (Su):</strong> At 3rd level, a power similar to a monk's ki awakens within the Okayo corsair. She can spend 1 panache point as a swift action to gain one of the following three benefits: she can make one additional attack at her highest attack bonus when making a full attack, she can increase her speed by 20 feet for 1 round, or she can give herself a +4 dodge bonus to AC for 1 round.</p>
-<p>This deed <strong className="hl">replaces</strong> <Link to="/swashdeed/menacing_swordplay">menacing swordplay</Link>.</p>
-<p><strong>Slow Fall (Su):</strong> At 7th level, the Okayo corsair can spend 1 panache point to slow her descent as per <Link to="/spell/feather_fall">feather fall</Link>, treating her swashbuckler level as her caster level, provided that she is adjacent to a wall.</p>
-<p>This deed <strong className="hl">replaces</strong> <Link to="/swashdeed/superior_feint">superior feint</Link>.</p>
-<p><strong>High Jump (Su):</strong> At 11th level, so long as the Okayo corsair has at least 1 panache point, she adds her level as a bonus on Acrobatics checks to jump and always counts as having a running start. She can spend 1 panache point as a swift action to gain a +20 bonus on Acrobatics checks to jump for 1 round.</p>
-<p>This deed <strong className="hl">replaces</strong> <Link to="/swashdeed/bleeding_wound">bleeding wound</Link>.</p>
-<p><strong>Abundant Step (Su):</strong> At 15th level, an Okayo corsair can spend 2 panache points as a move action to move magically between spaces, as <Link to="/spell/dimension_door">dimension door</Link>. Her caster level for this effect is equal to her swashbuckler level. She can't take other creatures with her when she uses this ability.</p>
-<p>This deed <strong className="hl">replaces</strong> <Link to="/swashdeed/dizzying_defense">dizzying defense</Link>.</p>
-</blockquote>
-<p><strong>Bonus Feats:</strong> At 4th level, an Okayo corsair's swashbuckler levels are considered both fighter levels and monk levels for the purpose of meeting <Link to="/main/combat_feat">combat feat</Link> prerequisites.</p>
-<p>This alters the <strong className="hl">bonus feat</strong> class ability.</p>
+<Ability id="arc-swashbuckler-okayo_corsair-weapon-and-armor-proficiency" icon={["broken-shield","stairs-goal"]}>
+<Pair single id="arc-swashbuckler-okayo_corsair-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Replaces">Weapon and armor proficiency</Pair>
+<Pair title="Info">Okayo corsairs are proficient with simple weapons and all weapons from the monk <Link to="/ability/weapon_groups">weapon group</Link>, as well as light armor and bucklers.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-okayo_corsair-okayo-finesse-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="arc-swashbuckler-okayo_corsair-okayo-finesse-ex">Okayo Finesse (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler finesse</Pair>
+<Pair title="Ability">An Okayo corsair gains the benefits of the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feat with light or one-handed melee weapons from the monk weapon group, and she can use her Charisma score in place of Intelligence and Wisdom for the purpose of meeting prerequisites for combat feats. This ability counts as the Weapon Finesse feat for the purpose of meeting feat prerequisites.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-okayo_corsair-okayo-panache-ex" icon={["info"]}>
+<Pair single id="arc-swashbuckler-okayo_corsair-okayo-panache-ex">Okayo Panache (Ex)</Pair>
+<Pair hl title="Alters">Panache</Pair>
+<Pair title="Ability">An Okayo corsair regains panache only when she confirms a critical hit or makes a killing blow with a light or one-handed weapon from the monk weapon group. Additionally, the Okayo corsair gains the ability to use a light or one-handed monk weapon for her swashbuckler class features, deeds, and feats, even if the weapon is not a piercing weapon, but she can't use other light or one-handed weapons with her class features or deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-okayo_corsair-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-okayo_corsair-deeds">Deeds</Pair>
+<Pair title="Ability">An Okayo corsair gains the following deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-okayo_corsair-ki-panache-su" extraClasses="subAbility" icon={["stairs-goal","upgrade","armor-upgrade"]}>
+<Pair single id="arc-swashbuckler-okayo_corsair-ki-panache-su" flavor={<>A power similar to a monk's <em>ki</em> awakens within the Okayo corsair.</>}>Ki Panache (Su)</Pair>
+<Pair hl title="Replaces">Menacing swordplay</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Swift Action">She can spend 1 panache point to gain one of the following three benefits: she can make one additional attack at her highest attack bonus when making a full attack, she can increase her speed by 20 feet for 1 round, or she can give herself a +4 dodge bonus to AC for 1 round.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-okayo_corsair-slow-fall-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-swashbuckler-okayo_corsair-slow-fall-su">Slow Fall (Su)</Pair>
+<Pair hl title="Replaces">Superior feint</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">The Okayo corsair can spend 1 panache point to slow her descent as per <Link to="/spell/feather_fall">feather fall</Link>, treating her swashbuckler level as her caster level, provided that she is adjacent to a wall.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-okayo_corsair-high-jump-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-okayo_corsair-high-jump-su">High Jump (Su)</Pair>
+<Pair hl title="Replaces">Bleeding wound</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Passive Ability">So long as the Okayo corsair has at least 1 panache point, she adds her level as a bonus on Acrobatics checks to jump and always counts as having a running start.</Pair>
+<Pair title="Swift Action">She can spend 1 panache point to gain a +20 bonus on Acrobatics checks to jump for 1 round.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-okayo_corsair-abundant-step-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-swashbuckler-okayo_corsair-abundant-step-su">Abundant Step (Su)</Pair>
+<Pair hl title="Replaces">Dizzying defense</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Move-Equivalent Action">An Okayo corsair can spend 2 panache points to move magically between spaces, as <Link to="/spell/dimension_door">dimension door</Link>. Her caster level for this effect is equal to her swashbuckler level. She can't take other creatures with her when she uses this ability.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-okayo_corsair-bonus-feats" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-okayo_corsair-bonus-feats">Bonus Feats</Pair>
+<Pair hl title="Alters">Bonus feats</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Info">An Okayo corsair's swashbuckler levels are considered both fighter levels and monk levels for the purpose of meeting <Link to="/main/combat_feat">combat feat</Link> prerequisites.</Pair>
+</Ability>
 </>};
 const _picaroon = {title: "Picaroon", jsx: <><h2 id="arc-swashbuckler-picaroon-picaroon">Picaroon</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 127</Link><br/>While some swashbucklers take pride in their ability to wear down an opponent with great skill at arms and clever positioning, there are those who use firearms to get in close and hit hard.</p>
-<p><strong>Weapon Proficiency:</strong> A picaroon gains proficiency with all simple weapons and martial weapons, as well as one-handed firearms.</p>
-<p>This replaces the swashbuckler's <strong className="hl">weapon proficiency</strong>.</p>
-<p><strong>Panache:</strong> Unlike other swashbucklers, a picaroon regains panache when she confirms a critical hit or makes a killing blow with a light or one-handed piercing melee weapon or a one-handed firearm.</p>
-<p>This ability alters <strong className="hl">panache</strong>.</p>
-<p><strong>Deeds:</strong> The picaroon gains the following deeds, each of which replaces an existing deed.</p>
-<blockquote>
-<p><strong>Melee Shooter (Ex):</strong> At 1st level, as a swift action when wielding both a light or one-handed piercing melee weapon and a one-handed firearm, the picaroon can spend 1 panache point to avoid provoking attacks of opportunity with the first ranged attack made by the one-handed firearm during her turn. This deed replaces <Link to="/swashdeed/opportune_parry_and_riposte">opportune parry and riposte</Link>.</p>
-<p><strong>Quick Clear (Ex):</strong> At 3rd level, as a standard action the picaroon can spend 1 panache point to remove the broken condition from a single one-handed firearm she is currently wielding, as long as the firearm gained that condition through a misfire. This deed replaces <Link to="/swashdeed/kip_up">kip-up</Link>.</p>
-<p><strong>Gun Feint (Ex):</strong> At 7th level, a picaroon can use the ferocious reputation of firearms to her advantage. A picaroon with at least 1 panache point can feint instead of attacking with her firearm as part of a full attack. She can spend 1 panache point to gain a +5 bonus on this check. This deed replaces <Link to="/swashdeed/superior_feint">superior feint</Link>.</p>
-<p><strong>Lightning Reload (Ex):</strong> At 11th level, once per round the picaroon can spend 1 panache point to reload a single barrel of a one-handed firearm as a swift action. If she has the <Link to="/feat/rapid_reload">Rapid Reload</Link> feat or is using an alchemical cartridge, she can instead reload a single barrel of the weapon as a free action each round. Using this deed doesn't provoke attacks of opportunity. This deed replaces <Link to="/swashdeed/bleeding_wound">bleeding wound</Link>.</p>
-</blockquote>
-<p><strong>Two-Weapon Finesse (Ex):</strong> A picaroon gains the benefits of the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feat with light or one-handed piercing melee weapons. She also gains the effects of the <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link> feat as long as she is wielding a light or one-handed piercing melee weapon in one hand and one-handed firearm in the other hand. This ability counts as having both the Weapon Finesse and Two-Weapon Fighting feats for the purposes of meeting feat requirements.</p>
-<p>This ability replaces <strong className="hl">swashbuckler finesse</strong>.</p>
+<Ability id="arc-swashbuckler-picaroon-weapon-proficiency" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-picaroon-weapon-proficiency">Weapon Proficiency</Pair>
+<Pair hl title="Replaces">Weapon proficiency</Pair>
+<Pair title="Info">A picaroon gains proficiency with all simple weapons and martial weapons, as well as one-handed <Link to="/main/equipment_firearms">firearms</Link>.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-picaroon-panache" icon={["info"]}>
+<Pair single id="arc-swashbuckler-picaroon-panache">Panache</Pair>
+<Pair hl title="Alters">Panache</Pair>
+<Pair title="Info">Unlike other swashbucklers, a picaroon regains panache when she confirms a critical hit or makes a killing blow with a light or one-handed piercing melee weapon or a one-handed firearm.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-picaroon-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-picaroon-deeds">Deeds</Pair>
+<Pair title="Ability">The picaroon gains the following deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-picaroon-melee-shooter-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="arc-swashbuckler-picaroon-melee-shooter-ex">Melee Shooter (Ex)</Pair>
+<Pair hl title="Replaces">Opportune parry and riposte</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Swift Action">When wielding both a light or one-handed piercing melee weapon and a one-handed firearm, the picaroon can spend 1 panache point to avoid provoking attacks of opportunity with the first ranged attack made by the one-handed firearm during her turn.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-picaroon-quick-clear-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-picaroon-quick-clear-ex">Quick Clear (Ex)</Pair>
+<Pair hl title="Replaces">Kip-up</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Standard Action">The picaroon can spend 1 panache point to remove the <Link to="/misc/broken">broken</Link> condition from a single one-handed firearm she is currently wielding, as long as the firearm gained that condition through a misfire.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-picaroon-gun-feint-ex" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-swashbuckler-picaroon-gun-feint-ex" flavor="A picaroon can use the ferocious reputation of firearms to her advantage.">Gun Feint (Ex)</Pair>
+<Pair hl title="Replaces">Superior feint</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A picaroon with at least 1 panache point can <Link to="/skill/feint">feint</Link> instead of attacking with her firearm as part of a full attack. She can spend 1 panache point to gain a +5 bonus on this check.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-picaroon-lightning-reload-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-picaroon-lightning-reload-ex">Lightning Reload (Ex)</Pair>
+<Pair hl title="Replaces">Bleeding wound</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Swift Action">Once per round the picaroon can spend 1 panache point to reload a single barrel of a one-handed firearm. If she has the <Link to="/feat/rapid_reload">Rapid Reload</Link> feat or is using an alchemical cartridge, she can instead reload a single barrel of the weapon as a <strong className="hl">free action</strong> each round. Using this deed doesn't provoke attacks of opportunity.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-picaroon-two-weapon-finesse-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-picaroon-two-weapon-finesse-ex">Two-Weapon Finesse (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler finesse</Pair>
+<Pair title="Ability">A picaroon gains the benefits of the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feat with light or one-handed piercing melee weapons. She also gains the effects of the <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link> feat as long as she is wielding a light or one-handed piercing melee weapon in one hand and one-handed firearm in the other hand. This ability counts as having both the Weapon Finesse and Two-Weapon Fighting feats for the purposes of meeting feat requirements.</Pair>
+</Ability>
 </>};
 const _rondelero_swashbuckler = {title: "Rondelero Swashbuckler", jsx: <><h2 id="arc-swashbuckler-rondelero_swashbuckler-rondelero-swashbuckler">Rondelero Swashbuckler</h2>
 <p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook pg. 6</Link><br/>Rondelero swashbucklers are Taldan specialists in an aggressive, lightly armored fighting style that utilizes the falcata and buckler.</p>
