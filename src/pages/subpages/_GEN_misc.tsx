@@ -478,19 +478,27 @@ const _precision_damage = {title: "Precision Damage", topLink: ["Critical Hits",
 const _languages = {hasJL:true,title: "Languages", jsx: <><div className="jumpList" id="misc-languages-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="misc-languages-common-languages">Common Languages</InnerLink></li><li><InnerLink toTop to="misc-languages-regional-languages">Regional Languages</InnerLink></li><li><InnerLink toTop to="misc-languages-underground-languages">Underground Languages</InnerLink></li><li><InnerLink toTop to="misc-languages-planar-languages">Planar Languages</InnerLink></li><li><InnerLink toTop to="misc-languages-common-racial-languages">Common Racial Languages</InnerLink></li><li><InnerLink toTop to="misc-languages-uncommon-racial-languages">Uncommon Racial Languages</InnerLink></li><li><InnerLink toTop to="misc-languages-less-common-racial-langauges">Less Common Racial Langauges</InnerLink></li><li><InnerLink toTop to="misc-languages-ancient-and-obscure-languages">Ancient and Obscure Languages</InnerLink></li></ul></div><h2 id="misc-languages-pathfinder-languages">Pathfinder Languages</h2>
 <p>Over the years, dozens of languages have been listed in Pathfinder products. There is no published listing of all of them. Below is an unofficial compilation of languages, grouped in unofficial categories in an effort to provide some sort of guidance for GMs and players. As always, consult your GM before using this information.</p>
 <h3 id="misc-languages-common-languages" data-hash-target>Common Languages</h3>
-<p>In Tian Xia, "Common" refers to Tien. In the general Inner Sea region, "Common" refers to Taldane.</p>
+<p>In Tian Xia, "Common" refers to Tien. In the general Inner Sea region, "Common" refers to Taldane. In the Mwangi Expanse, "Common" refers to Polyglot.</p>
 <h3 id="misc-languages-regional-languages" data-hash-target>Regional Languages</h3>
 <p>These are generally limited to those who reside in their regions.</p>
 <div className="columnar">
 <ul>
+<li>Dtang (Southeast Tian Xia)</li>
+<li>Erutaki (Crown of the World)</li>
 <li>Hallit (Northern Avistan)</li>
-<li>Iobarian (Casamar)</li>
-<li>Kelish (Kelesh Empire, Qadira)</li>
+<li>Hon-La (Northern Tien Xia)</li>
+<li>Hwang (Southeast Tian Xia)</li>
+<li>Iobarian (Casamaron)</li>
+<li>Kelish (Kelesh Empire, Qadira, Goka)</li>
+<li>Minatan (Southeast Tian Xia)</li>
+<li>Minkaian (Northern and Central Tian Xia)</li>
 <li>Osiriani (Osirion, Garund)</li>
-<li>Polyglot (Mwangi Expanse)</li>
+<li>Senzar (Northeast Tian Xia, Wall of Heaven)</li>
 <li>Shoanti (Varisia, Belkzen, Lands of the Linnorm Kings)</li>
 <li>Skald (Lands of the Linnorm Kings)</li>
 <li>Varisian (Varisia, South-Central Avistan)</li>
+<li>Varki (Lands of the Linnorm Kings)</li>
+<li>Vudrani (Vudra, Nex, Katapesh, Southwest Tian Xia, Goka)</li>
 </ul>
 </div>
 <h3 id="misc-languages-underground-languages" data-hash-target>Underground Languages</h3>
@@ -582,7 +590,6 @@ const _languages = {hasJL:true,title: "Languages", jsx: <><div className="jumpLi
 <li>Vanaran</li>
 <li>Vegepygmy</li>
 <li>Vishkanya</li>
-<li>Vudrani</li>
 <li>Wayang</li>
 <li>Yaddithian</li>
 <li>Yithian</li>

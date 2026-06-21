@@ -291,7 +291,7 @@ const $alternates: Alternates[] = [
 		"content": (<>
 			<p>Drow sometimes augment their slaves and frontline warriors by making them toxic, causing their bodies to internally produce mawbane poison (see below). The resulting poisonous creature makes a potent weapon in the effort to discourage neighboring monsters. Any creature that hits such a character with a bite attack is immediately exposed to its poison.</p>
 			<Block titled>
-			<Row><Cell className="has-icon"><Link to="/rules/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></Link><span>Mawbane Poison</span></Cell></Row>
+			<Row><Cell className="has-icon"><Link to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></Link><span>Mawbane Poison</span></Cell></Row>
 			<Row><Cell>Type</Cell><Cell>Ingested</Cell></Row>
 			<Row><Cell>Save DC</Cell><Cell>Fort 10 + 1/2 the character's HD + their Con modifier</Cell></Row>
 			<Row><Cell>Onset</Cell><Cell>immediate</Cell></Row>
@@ -4430,7 +4430,7 @@ const classes: Data[] = [
 	},
 	{
 		class:"unchained_monk",
-		title:"Unchained_monk",
+		title:"Unchained monk",
 		hisher:"his"
 	},
 	{ // 40
@@ -4440,18 +4440,22 @@ const classes: Data[] = [
 	},
 	{
 		class:"unchained_barbarian",
-		title:"Unchained_barbarian",
+		title:"Unchained barbarian",
 		hisher:"her"
 	},
 	{
 		class:"unchained_summoner",
-		title:"Unchained_summoner",
+		title:"Unchained summoner",
 		hisher:"his"
 	},
-	{ // 43
+	{
 		class:"unchained_rogue",
-		title:"Unchained_rogue",
+		title:"Unchained rogue",
 		hisher:"her"
+	},
+	{ // 44
+		class:"any_class",
+		title:"Any class"
 	}
 ];
 
@@ -4483,7 +4487,6 @@ const all: Option[] = [
 	[ 7,24, [40], [[0,121]] ],
 	[ 7,7, [0], [[0,73],[2,23]] ],
 	[ 7,35, [30], [[0,127]] ],
-	[ 7,0, [2], [[1,12]] ],
 	[ 7,8, [40], [[0,133]] ],
 	[ 7,20, [111], [[0,196]] ],
 	[ 7,28, [29], [[0,139]] ],
@@ -4495,7 +4498,6 @@ const all: Option[] = [
 	[ 7,25, [112], [[11,6]] ],
 	[ 38,15, [113], [[0,103]] ],
 	[ 38,17, [114], [[3,17]] ],
-	[ 38,0, [2], [[1,12]] ],
 	[ 24,26, [9], [[7,5]], {when:"casting spells with the water descriptor"} ],
 	[ 24,17, [9], [[3,17]], {when:"casting spells of the necromancy school"} ],
 	[ 24,2, [115], [[6,69]] ],
@@ -4507,7 +4509,6 @@ const all: Option[] = [
 	[ 24,1, [120], [[6,70]] ],
 	[ 24,6, [14], [[6,71]], {when:"due to taking damage while casting CLASS spells"} ],
 	[ 24,7, [0], [[6,71]], {book:" to the arcanist's spellbook"} ],
-	[ 24,0, [2], [[1,12]] ],
 	[ 24,0, [13], [[1,12]], {what:"CLASS enchantment spells"} ],
 	[ 24,9, [121], [[1,20]] ],
 	[ 24,12, [122], [[1,28]] ],
@@ -4532,7 +4533,6 @@ const all: Option[] = [
 	[ 3,6, [132], [[8,40]] ],
 	[ 3,7, [0], [[0,73],[2,23]] ],
 	[ 3,35, [133], [[0,127]] ],
-	[ 3,0, [2], [[1,12]] ],
 	[ 3,0, [134], [[0,192]] ],
 	[ 3,8, [135], [[0,133]] ],
 	[ 3,32, [136], [[7,13]] ],
@@ -4555,7 +4555,6 @@ const all: Option[] = [
 	[ 28,1, [144], [[6,70]] ],
 	[ 28,6, [16], [[6,71]] ],
 	[ 28,7, [16], [[6,71]] ],
-	[ 28,0, [2], [[1,12]] ],
 	[ 28,27, [66], [[3,23]] ],
 	[ 28,22, [16], [[13,73]] ],
 	[ 28,41, [16], [[14,18]] ],
@@ -4577,7 +4576,6 @@ const all: Option[] = [
 	[ 6,6, [147], [[8,40]] ],
 	[ 6,24, [148,6], [[0,121]] ],
 	[ 6,7, [4], [[0,73],[2,23]], {maneuver:"two combat maneuvers of the character's choice"} ],
-	[ 6,0, [2], [[1,12]] ],
 	[ 6,0, [149], [[1,12]] ],
 	[ 6,8, [150], [[0,133]] ],
 	[ 6,20, [4], [[0,196]], {maneuver:"a grapple or trip attempt"} ],
@@ -4600,7 +4598,6 @@ const all: Option[] = [
 	[ 20,1, [159,1], [[6,70]], {keeps:"gains this bonus"} ],
 	[ 20,6, [3,1], [[6,71]], {skhp:"HP",keeps:"gains these bonus hit points"} ],
 	[ 20,7, [3,1], [[6,71]], {skhp:"RANK",keeps:"gains these bonus skill ranks"} ],
-	[ 20,0, [2], [[1,12]] ],
 	[ 20,9, [3], [[1,20]], {skhp:"RANK",bud:"badger, dire rat, or riding rat animal companion"} ],
 	[ 20,22, [3,1], [[13,73]], {skhp:"HP",keeps:"gains these bonus hit points"} ],
 	[ 20,16, [3,1], [[1,24]], {skhp:"RANK",keeps:"gains these bonus skill ranks"} ],
@@ -4622,7 +4619,6 @@ const all: Option[] = [
 	[ 12,7, [0], [[0,73],[2,23]] ],
 	[ 12,7, [168], [[8,41]] ],
 	[ 12,35, [169], [[0,127]] ],
-	[ 12,0, [2], [[1,12]] ],
 	[ 12,8, [170], [[16,15]] ],
 	[ 12,9, [171], [[1,20]] ],
 	[ 12,39, [172], [[0,157]] ],
@@ -4640,7 +4636,6 @@ const all: Option[] = [
 	[ 21,1, [0], [[6,70]] ],
 	[ 21,6, [178,17], [[6,71]] ],
 	[ 21,7, [0], [[6,71]] ],
-	[ 21,0, [2], [[1,12]] ],
 	[ 21,40, [45], [[7,11]] ],
 	[ 21,9, [69], [[1,20]] ],
 	[ 21,27, [179], [[3,23]] ],
@@ -4654,13 +4649,10 @@ const all: Option[] = [
 	[ 26,1, [71], [[9,85]] ],
 	[ 26,6, [183], [[9,85]] ],
 	[ 26,7, [73], [[9,85]] ],
-	[ 26,0, [2], [[1,12]] ],
 	[ 26,16, [73], [[1,24]] ],
 	[ 26,12, [184], [[1,28]] ],
 	[ 26,29, [70], [[5,21]], {element:"wood"} ],
 	[ 26,13, [185], [[4,11]] ],
-	[ 39,0, [2], [[1,12]] ],
-	[ 40,0, [2], [[1,12]] ],
 	[ 35,2, [186], [[9,84]] ],
 	[ 35,3, [74], [[9,84]] ],
 	[ 35,4, [187], [[9,85]] ],
@@ -4669,7 +4661,6 @@ const all: Option[] = [
 	[ 35,6, [189], [[9,85]] ],
 	[ 35,7, [46], [[9,85]] ],
 	[ 35,7, [190], [[8,41]] ],
-	[ 35,0, [2], [[1,12]] ],
 	[ 35,9, [46], [[1,20]] ],
 	[ 35,12, [46], [[1,28]] ],
 	[ 4,31, [24], [[0,85]] ],
@@ -4690,7 +4681,6 @@ const all: Option[] = [
 	[ 4,6, [0], [[0,53]] ],
 	[ 4,7, [0], [[0,73],[2,23]] ],
 	[ 4,35, [24], [[0,127]] ],
-	[ 4,0, [2], [[1,12]] ],
 	[ 4,0, [48], [[0,192]] ],
 	[ 4,8, [195], [[0,133]] ],
 	[ 4,32, [0], [[7,13]] ],
@@ -4717,7 +4707,6 @@ const all: Option[] = [
 	[ 15,1, [32], [[0,63],[2,21]] ],
 	[ 15,6, [204,6], [[0,53]] ],
 	[ 15,7, [205], [[0,73],[2,23]] ],
-	[ 15,0, [2], [[1,12]] ],
 	[ 15,8, [206], [[16,15]] ],
 	[ 15,20, [207], [[1,16]] ],
 	[ 15,37, [208], [[0,145]] ],
@@ -4736,7 +4725,6 @@ const all: Option[] = [
 	[ 29,6, [14], [[9,85]], {when:"due to taking damage while casting CLASS spells."} ],
 	[ 29,7, [0], [[9,85]], {known:" known"} ],
 	[ 29,7, [216], [[8,41]] ],
-	[ 29,0, [2], [[1,12]] ],
 	[ 29,9, [49], [[1,20]] ],
 	[ 29,12, [217], [[1,28]] ],
 	[ 29,25, [49], [[11,6]] ],
@@ -4750,7 +4738,6 @@ const all: Option[] = [
 	[ 32,1, [11,17], [[6,70]], {weapons:"dagger, sling, or any weapon with the word \"halfling\" in its name"} ],
 	[ 32,6, [50], [[6,71]] ],
 	[ 32,7, [0], [[6,71]] ],
-	[ 32,0, [2], [[1,12]] ],
 	[ 32,32, [0], [[7,13]] ],
 	[ 32,27, [15], [[3,23]] ],
 	[ 22,14, [221], [[1,4]] ],
@@ -4763,7 +4750,6 @@ const all: Option[] = [
 	[ 22,1, [78], [[6,70]] ],
 	[ 22,6, [225,17], [[6,71]] ],
 	[ 22,7, [25], [[6,71]] ],
-	[ 22,0, [2], [[1,12]] ],
 	[ 22,40, [25], [[7,11]] ],
 	[ 22,20, [25], [[1,16]] ],
 	[ 22,22, [51], [[13,73]], {skill:"Survival"} ],
@@ -4788,7 +4774,6 @@ const all: Option[] = [
 	[ 5,6, [80], [[0,53],[2,19]] ],
 	[ 5,7, [0], [[0,73],[2,23]] ],
 	[ 5,35, [81], [[0,127]], {either:"[elemental](sorcbloodline/elemental) (fire) or [efreeti](sorcbloodline/efreeti)"} ],
-	[ 5,0, [2], [[1,12]] ],
 	[ 5,0, [230], [[0,192]] ],
 	[ 5,8, [231], [[0,133]] ],
 	[ 5,32, [232], [[0,194]] ],
@@ -4809,7 +4794,6 @@ const all: Option[] = [
 	[ 30,1, [83], [[9,85]] ],
 	[ 30,6, [3], [[9,85]], {skhp:"HP"} ],
 	[ 30,7, [26], [[9,85]] ],
-	[ 30,0, [2], [[1,12]] ],
 	[ 30,9, [240], [[1,20]] ],
 	[ 30,27, [241], [[3,23]] ],
 	[ 30,16, [242,243], [[1,24]] ],
@@ -4822,7 +4806,6 @@ const all: Option[] = [
 	[ 33,1, [53], [[6,70]] ],
 	[ 33,6, [245,17], [[6,71]] ],
 	[ 33,7, [52], [[6,71]] ],
-	[ 33,0, [2], [[1,12]] ],
 	[ 33,0, [52], [[1,12]] ],
 	[ 33,9, [246], [[1,20]] ],
 	[ 33,16, [84], [[1,24]] ],
@@ -4834,7 +4817,6 @@ const all: Option[] = [
 	[ 37,1, [251], [[18,17]] ],
 	[ 37,6, [252], [[18,17]] ],
 	[ 37,7, [54], [[18,17]] ],
-	[ 37,0, [2], [[1,12]] ],
 	[ 37,0, [54], [[1,12]] ],
 	[ 16,31, [33], [[0,85]] ],
 	[ 16,26, [3,1], [[7,5]], {skhp:"RANK",keeps:"gains these bonus skill ranks"} ],
@@ -4850,7 +4832,6 @@ const all: Option[] = [
 	[ 16,6, [3,1], [[0,53]], {skhp:"HP",keeps:"gains these bonus hit points"} ],
 	[ 16,24, [89], [[0,121]] ],
 	[ 16,7, [20], [[0,73],[2,23]] ],
-	[ 16,0, [2], [[1,12]] ],
 	[ 16,0, [20], [[1,12]] ],
 	[ 16,8, [90], [[0,133]] ],
 	[ 16,40, [3,1], [[7,11]], {skhp:"HP",keeps:"gains these bonus hit points"} ],
@@ -4874,7 +4855,6 @@ const all: Option[] = [
 	[ 10,24, [261], [[0,121]] ],
 	[ 10,7, [94], [[0,73],[2,23]] ],
 	[ 10,35, [55], [[0,127]], {plane:"Fire",element:"fire"} ],
-	[ 10,0, [2], [[1,12]] ],
 	[ 10,8, [262], [[0,133]] ],
 	[ 10,37, [55], [[0,145]], {plane:"Earth",element:"earth"} ],
 	[ 10,39, [55], [[0,157]], {plane:"Air",element:"air"} ],
@@ -4902,8 +4882,7 @@ const all: Option[] = [
 	[ 2,1, [270], [[0,63]] ],
 	[ 2,6, [95], [[0,53]] ],
 	[ 2,7, [97], [[0,73],[2,23]] ],
-	[ 2,0, [2], [[1,12]] ],
-	[ 2,0, [97], [[0,162]] ],
+	[ 2,0, [97], [[0,192]] ],
 	[ 2,8, [96], [[0,133]] ],
 	[ 2,40, [3,1], [[7,11]], {skhp:"RANK",keeps:"gains these bonus skill ranks"} ],
 	[ 2,32, [3,1], [[0,194]], {skhp:"HP",keeps:"gains these bonus hit points"} ],
@@ -4930,7 +4909,6 @@ const all: Option[] = [
 	[ 8,6, [4], [[0,53]], {maneuver:"a grapple and +½ to the number of stunning attacks he can attempt per day"} ],
 	[ 8,24, [284], [[0,121]] ],
 	[ 8,7, [21], [[0,73],[2,23]] ],
-	[ 8,0, [2], [[1,12]] ],
 	[ 8,8, [285], [[0,133]] ],
 	[ 8,40, [21], [[7,11]] ],
 	[ 8,32, [286], [[7,13]] ],
@@ -4954,7 +4932,6 @@ const all: Option[] = [
 	[ 31,1, [296], [[9,85]] ],
 	[ 31,6, [58], [[9,85]] ],
 	[ 31,7, [58], [[9,85]] ],
-	[ 31,0, [2], [[1,12]] ],
 	[ 31,27, [297], [[3,23]] ],
 	[ 31,16, [100], [[1,24]] ],
 	[ 31,13, [58], [[4,11]] ],
@@ -4972,7 +4949,6 @@ const all: Option[] = [
 	[ 17,6, [3,1], [[0,53]], {skhp:"HP",keeps:"gains these bonus hit points"} ],
 	[ 17,24, [89], [[0,121]] ],
 	[ 17,7, [20], [[0,73],[2,23]] ],
-	[ 17,0, [2], [[1,12]] ],
 	[ 17,0, [20], [[1,12]] ],
 	[ 17,8, [90], [[0,133]] ],
 	[ 17,40, [3,1], [[7,11]], {skhp:"HP",keeps:"gains these bonus hit points"} ],
@@ -4989,7 +4965,6 @@ const all: Option[] = [
 	[ 19,1, [60], [[6,70]] ],
 	[ 19,6, [0], [[6,71]], {from:"cleric",limit:" that isn't on the shaman spell list"} ],
 	[ 19,7, [0], [[6,71]], {from:"cleric",limit:" that isn't on the shaman spell list"} ],
-	[ 19,0, [2], [[1,12]] ],
 	[ 19,0, [0], [[1,12]], {school:"enchantment ",from:"sorcerer/wizard",limit:" that isn't on the shaman spell list"} ],
 	[ 19,27, [0], [[3,23]], {from:"psychic",limit:" that isn't on the shaman spell list"} ],
 	[ 19,22, [60], [[13,73]] ],
@@ -5005,7 +4980,6 @@ const all: Option[] = [
 	[ 36,1, [306], [[6,70]] ],
 	[ 36,6, [42], [[6,71]] ],
 	[ 36,7, [307], [[6,71]] ],
-	[ 36,0, [2], [[1,12]] ],
 	[ 36,20, [61], [[1,16]], {domains:"Charm, Magic, Nobility, Rune, or Scalykind"} ],
 	[ 9,23, [59], [[3,15]] ],
 	[ 9,26, [13], [[7,5]], {what:"CLASS spells underwater"} ],
@@ -5023,7 +4997,6 @@ const all: Option[] = [
 	[ 9,1, [9], [[0,63]], {when:"determining the effects of the spells granted to her by her patron"} ],
 	[ 9,6, [3,1], [[0,53],[2,19]], {skhp:"RANK",keeps:"gains these bonus skill ranks"} ],
 	[ 9,7, [0,1], [[0,73],[2,23]], {keeps:"knows these bonus spells"} ],
-	[ 9,0, [2], [[1,12]] ],
 	[ 9,8, [311], [[0,134]] ],
 	[ 9,32, [312], [[7,13]] ],
 	[ 9,28, [0,1], [[0,139]], {keeps:"knows these bonus spells"} ],
@@ -5050,7 +5023,6 @@ const all: Option[] = [
 	[ 11,1, [60], [[0,63]] ],
 	[ 11,6, [14], [[0,53]], {when:"due to taking damage while casting CLASS spells"} ],
 	[ 11,7, [0], [[0,73],[2,23]] ],
-	[ 11,0, [2], [[1,12]] ],
 	[ 11,8, [322], [[16,15]] ],
 	[ 11,44, [0], [[0,198]] ],
 	[ 11,39, [323,324], [[0,157]] ],
@@ -5079,7 +5051,6 @@ const all: Option[] = [
 	[ 1,6, [3,1], [[0,53],[2,19]], {skhp:"HP",keeps:"gains these bonus hit points"} ],
 	[ 1,24, [340], [[0,122]] ],
 	[ 1,7, [26,1], [[0,73],[2,23]], {keeps:"gains these bonus hit points or skill ranks"} ],
-	[ 1,0, [2], [[1,12]] ],
 	[ 1,8, [341], [[0,133]] ],
 	[ 1,40, [3,1], [[7,11]], {skhp:"RANK",keeps:"gains these bonus skill ranks"} ],
 	[ 1,32, [3,1], [[0,194]], {skhp:"HP",keeps:"gains these bonus hit points"} ],
@@ -5107,7 +5078,6 @@ const all: Option[] = [
 	[ 13,1, [356], [[5,31]] ],
 	[ 13,6, [357,6], [[5,31]] ],
 	[ 13,7, [358], [[5,31]] ],
-	[ 13,0, [2], [[1,12]] ],
 	[ 13,0, [359], [[19,8]] ],
 	[ 13,8, [360], [[19,8]] ],
 	[ 13,28, [103], [[19,8]] ],
@@ -5127,7 +5097,6 @@ const all: Option[] = [
 	[ 25,1, [104], [[0,63]] ],
 	[ 25,6, [80], [[0,53]] ],
 	[ 25,7, [28], [[0,73]] ],
-	[ 25,0, [2], [[1,12]] ],
 	[ 25,8, [368], [[0,133]] ],
 	[ 25,48, [28], [[0,203]] ],
 	[ 25,21, [28], [[0,170]] ],
@@ -5144,7 +5113,6 @@ const all: Option[] = [
 	[ 27,24, [36], [[0,121]] ],
 	[ 27,7, [36], [[0,73]] ],
 	[ 27,35, [375], [[0,127]] ],
-	[ 27,0, [2], [[1,12]] ],
 	[ 27,8, [376], [[0,133]] ],
 	[ 27,9, [377], [[0,151]] ],
 	[ 18,43, [98], [[15,8]] ],
@@ -5160,14 +5128,12 @@ const all: Option[] = [
 	[ 18,1, [385,10], [[8,41]] ],
 	[ 18,6, [37], [[0,53],[2,19]] ],
 	[ 18,7, [386], [[0,73],[2,23]] ],
-	[ 18,0, [2], [[1,12]] ],
 	[ 18,8, [387], [[16,15]] ],
 	[ 18,28, [37], [[0,139]] ],
 	[ 18,9, [388], [[0,151]] ],
 	[ 18,22, [37], [[0,200]] ],
 	[ 18,16, [389], [[0,163]] ],
 	[ 18,13, [390], [[4,10]] ],
-	[ 41,0, [2], [[1,12]] ],
 	[ 34,2, [391], [[6,69]] ],
 	[ 34,3, [23,7], [[6,69]] ],
 	[ 34,4, [105], [[6,70]] ],
@@ -5175,7 +5141,6 @@ const all: Option[] = [
 	[ 34,1, [392], [[6,70]] ],
 	[ 34,6, [106], [[6,71]] ],
 	[ 34,7, [393], [[6,71]] ],
-	[ 34,0, [2], [[1,12]] ],
 	[ 34,0, [105], [[1,12]] ],
 	[ 34,22, [106], [[13,73]] ],
 	[ 34,16, [394], [[1,24]] ],
@@ -5193,7 +5158,6 @@ const all: Option[] = [
 	[ 14,1, [3], [[0,63],[2,21]], {skhp:"RANK"} ],
 	[ 14,6, [3], [[0,53]], {skhp:"HP"} ],
 	[ 14,7, [26], [[0,73],[2,23]] ],
-	[ 14,0, [2], [[1,12]] ],
 	[ 14,8, [401], [[0,134]] ],
 	[ 14,20, [3], [[0,196]], {skhp:"HP"} ],
 	[ 14,37, [27], [[0,145]] ],
@@ -5202,7 +5166,6 @@ const all: Option[] = [
 	[ 14,38, [403], [[0,176]] ],
 	[ 14,12, [38], [[1,28]] ],
 	[ 14,13, [3], [[0,210]], {skhp:"RANK"} ],
-	[ 42,0, [2], [[1,12]] ],
 	[ 23,2, [404], [[9,84]] ],
 	[ 23,3, [405], [[9,84]] ],
 	[ 23,3, [406], [[8,39]] ],
@@ -5213,7 +5176,6 @@ const all: Option[] = [
 	[ 23,1, [39], [[9,85]] ],
 	[ 23,6, [409], [[9,85]] ],
 	[ 23,7, [410], [[9,85]] ],
-	[ 23,0, [2], [[1,12]] ],
 	[ 23,0, [39], [[1,12]] ],
 	[ 23,32, [411], [[7,13]] ],
 	[ 23,20, [412], [[1,16]] ],
@@ -5243,7 +5205,6 @@ const all: Option[] = [
 	[ 0,24, [48], [[0,122]] ],
 	[ 0,7, [12], [[0,73],[2,23]] ],
 	[ 0,35, [431], [[0,127]] ],
-	[ 0,0, [2], [[1,12]] ],
 	[ 0,0, [12], [[0,192]] ],
 	[ 0,8, [432], [[0,133]] ],
 	[ 0,40, [11,6], [[7,11]], {weapons:"all piercing weapons"} ],
@@ -5258,7 +5219,7 @@ const all: Option[] = [
 	[ 0,13, [12], [[4,11]] ],
 	[ 0,25, [12], [[11,6]] ],
 	[ 0,41, [437], [[14,18]] ],
-	[ 43,0, [2], [[1,12]] ]
+	[ 44,0, [2], [[0,192],[1,12]] ]
 ];
 const $bonuses: string[] = [
 	"Add one SCHOOLSPELLKNOWNDESCRIPTOR from the FROM LIST list LIMITBOOK. This THING must be at least one level below the highest THING level the CLASS can CAST.",
@@ -5764,7 +5725,8 @@ const getByClass = (input: string): FoundObject => {
 	return {
 		data: classes[index],
 		found: all
-			.filter(bit => bit[0] === index)
+			.filter(bit => bit[0] === index || bit[0] === 44) // All classes match #44
+			.toSorted((a, b) => races[a[1]].properName.localeCompare(races[b[1]].properName))
 			.map(arr => [...arr.slice(2), races[arr[1]]] as Found)
 	};
 };
@@ -5778,6 +5740,7 @@ const getByRace = (input: string): FoundObject => {
 		data: races[index],
 		found: all
 			.filter(bit => bit[1] === index)
+			.toSorted((a, b) => classes[a[0]].title.localeCompare(classes[b[0]].title))
 			.map(arr => [...arr.slice(2), classes[arr[0]]] as Found)
 	};
 };
