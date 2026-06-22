@@ -449,7 +449,7 @@ const _musketeer = {title: "Musketeer", jsx: <><h2 id="arc-swashbuckler-musketee
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">A musketeer gains the benefits of the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feature with the <Link to="/eq-weapon/rapier">rapier</Link> (this counts as having the Weapon Finesse feat for purposes of meeting feat prerequisites), as well as both <Link to="/feat/rapid_reload">Rapid Reload</Link> (musket) and <Link to="/feat/gunsmithing">Gunsmithing</Link> feats as bonus feats.</Pair>
 </Ability>
-<Ability id="arc-swashbuckler-musketeer-deeds" extraClasses="hasSubs" icon={["info"]}>
+<Ability id="arc-swashbuckler-musketeer-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-swashbuckler-musketeer-deeds">Deeds</Pair>
 <Pair title="Ability">The musketeer gains the following deed.</Pair>
 </Ability>
@@ -672,7 +672,7 @@ const _rondelero_swashbuckler = {title: "Rondelero Swashbuckler", jsx: <><h2 id=
 <Ability id="arc-swashbuckler-rondelero_swashbuckler-buckler-bash-ex" icon={["mailed-fist"]}>
 <Pair single id="arc-swashbuckler-rondelero_swashbuckler-buckler-bash-ex">Buckler Bash (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
-<Pair title="Ability">A rondelero swashbuckler can perform a shield bash with a buckler (use the same damage and critical multiplier as for a <Link to="/eq-armor/light_wooden_shield">light wooden shield</Link>). He can treat a buckler as a one-handed piercing melee weapon for the purposes of <em>swashbuckler finesse</em> and all feats and class abilities that refer to such a weapon.</Pair>
+<Pair title="Ability">A rondelero swashbuckler can perform a <Link to="/misc/shield_bash">shield bash</Link> with a buckler (use the same damage and critical multiplier as for a <Link to="/eq-armor/light_wooden_shield">light wooden shield</Link>). He can treat a buckler as a one-handed piercing melee weapon for the purposes of <em>swashbuckler finesse</em> and all feats and class abilities that refer to such a weapon.</Pair>
 </Ability>
 <Ability id="arc-swashbuckler-rondelero_swashbuckler-rondelero-flexibility-ex" icon={["mailed-fist"]}>
 <Pair single id="arc-swashbuckler-rondelero_swashbuckler-rondelero-flexibility-ex">Rondelero Flexibility (Ex)</Pair>
@@ -844,7 +844,7 @@ const _wildstrider = {title: "Wildstrider", jsx: <><h2 id="arc-swashbuckler-wild
 <Ability id="arc-swashbuckler-wildstrider-subterfuge-ex" extraClasses="subAbility" icon={["upgrade"]}>
 <Pair single id="arc-swashbuckler-wildstrider-subterfuge-ex">Subterfuge (Ex)</Pair>
 <Pair hl title="Replaces">Dodging panache</Pair>
-<Pair hl title="Alters">derring-do, swashbuckler's edge</Pair>
+<Pair hl title="Alters">Derring-do, swashbuckler's edge</Pair>
 <Pair title="At 1st Level">A wildstrider adds Stealth to the list of skills to which the <Link to="/swashdeed/derring_do">derring-do</Link> deed applies.</Pair>
 <Pair title="At 15th Level">She adds Stealth to the list of skills on which she can take 10 using the <Link to="/swashdeed/swashbucklers_edge">swashbuckler's edge</Link> deed.</Pair>
 </Ability>

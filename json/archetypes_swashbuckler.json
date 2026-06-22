@@ -228,7 +228,7 @@
 			"",
 			"::ab[Musketeer Instruction (Ex)]{l=1 icon=power passive=\"A musketeer gains the benefits of the ‹feat/Weapon Finesse› feature with the ‹eq-weapon/rapier› (this counts as having the Weapon Finesse feat for purposes of meeting feat prerequisites), as well as both ‹feat/Rapid Reload› (musket) and ‹feat/Gunsmithing› feats as bonus feats.\" replace=\"Swashbuckler finesse\"}",
 			"",
-			"::ab[Deeds]{head icon=info ability=\"The musketeer gains the following deed.\"}",
+			"::ab[Deeds]{head icon=power ability=\"The musketeer gains the following deed.\"}",
 			"",
 			"::ab[Quick Clear (Ex)]{next l=1 icon=power standard=\"The musketeer can spend 1 panache point to remove the ‹misc/broken› condition from a single firearm he is currently wielding, as long as the firearm gained that condition through a misfire.\" replace=\"Dodging panache\"}"
 		]
@@ -350,7 +350,7 @@
 			"",
 			"::ab[Shattering Chop (Ex)]{next l=15 icon=melee-boost fullround=\"While the rondelero swashbuckler has at least 1 panache point, he can attempt a *shattering chop,* pooling all of his attack potential into a single melee sunder combat maneuver with a light or one-handed slashing weapon. When he does, he gains a +4 bonus on his combat maneuver check and ignores half of the hardness of the item he sunders.\" replace=\"Perfect thrust\"}",
 			"",
-			"::ab[Buckler Bash (Ex)]{l=2 icon=melee ability=\"A rondelero swashbuckler can perform a shield bash with a buckler (use the same damage and critical multiplier as for a ‹eq-armor/light wooden shield›). He can treat a buckler as a one-handed piercing melee weapon for the purposes of *swashbuckler finesse* and all feats and class abilities that refer to such a weapon.\"}",
+			"::ab[Buckler Bash (Ex)]{l=2 icon=melee ability=\"A rondelero swashbuckler can perform a ‹misc/shield bash› with a buckler (use the same damage and critical multiplier as for a ‹eq-armor/light wooden shield›). He can treat a buckler as a one-handed piercing melee weapon for the purposes of *swashbuckler finesse* and all feats and class abilities that refer to such a weapon.\"}",
 			"",
 			"::ab[Rondelero Flexibility (Ex)]{l=6 icon=melee ability=\"As a full-attack action, a rondelero swashbuckler wielding a falcata in one hand and a buckler in the other can alternate between using his falcata and his buckler for each attack. This does not grant additional attacks or incur penalties as two-weapon fighting does, and does not cause her to lose his Armor Class bonus from her buckler.\"}",
 			"",
@@ -458,7 +458,7 @@
 			"",
 			"::ab[Deeds]{head icon=power ability=\"A wildstrider gains the following deeds.\"}",
 			"",
-			"::ab[Subterfuge (Ex)]{next icon=boost l1=\"A wildstrider adds Stealth to the list of skills to which the ‹swashdeed/derring-do› deed applies.\" l15=\"She adds Stealth to the list of skills on which she can take 10 using the ‹swashdeed/swashbuckler's edge› deed.\" replace=\"Dodging panache\" alter=\"derring-do~swashbuckler's edge\"}",
+			"::ab[Subterfuge (Ex)]{next icon=boost l1=\"A wildstrider adds Stealth to the list of skills to which the ‹swashdeed/derring-do› deed applies.\" l15=\"She adds Stealth to the list of skills on which she can take 10 using the ‹swashdeed/swashbuckler's edge› deed.\" replace=\"Dodging panache\" alter=\"Derring-do~swashbuckler's edge\"}",
 			"",
 			"::ab[Adroit Step (Ex)]{next l=3 icon=boost swift=\"A wildstrider can treat a 5-foot square of ‹rule/difficult terrain› as if it were normal terrain. If she also spends a panache point, she can treat all difficult terrain as though it were normal terrain until the end of her turn.\" replace=Kip-up}",
 			"",
