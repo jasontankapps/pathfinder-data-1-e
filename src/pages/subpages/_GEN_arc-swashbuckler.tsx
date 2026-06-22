@@ -477,7 +477,7 @@ const _mysterious_avenger = {title: "Mysterious Avenger", jsx: <><h2 id="arc-swa
 <Ability id="arc-swashbuckler-mysterious_avenger-avenger-finesse-ex" icon={["stairs-goal"]}>
 <Pair single id="arc-swashbuckler-mysterious_avenger-avenger-finesse-ex">Avenger Finesse (Ex)</Pair>
 <Pair hl title="Alters">Swashbuckler finesse</Pair>
-<Pair title="Info">A mysterious avenger gains all of the benefits of the <em>swashbuckler's finesse</em> class feature, and gains the ability to use a whip in place of a light or one-handed piercing melee weapon for all swashbuckler class features and deeds.</Pair>
+<Pair title="Info">A mysterious avenger gains all of the benefits of the <em>swashbuckler finesse</em> class feature, and gains the ability to use a whip in place of a light or one-handed piercing melee weapon for all swashbuckler class features and deeds.</Pair>
 </Ability>
 <Ability id="arc-swashbuckler-mysterious_avenger-secret-identity-su" icon={["armor-upgrade"]}>
 <Pair single id="arc-swashbuckler-mysterious_avenger-secret-identity-su" flavor="A mysterious avenger's force of personality and dedication to her cause give her the ability to keep her true identity secret, even from magical prying.">Secret Identity (Su)</Pair>
@@ -641,44 +641,119 @@ const _picaroon = {title: "Picaroon", jsx: <><h2 id="arc-swashbuckler-picaroon-p
 </>};
 const _rondelero_swashbuckler = {title: "Rondelero Swashbuckler", jsx: <><h2 id="arc-swashbuckler-rondelero_swashbuckler-rondelero-swashbuckler">Rondelero Swashbuckler</h2>
 <p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook pg. 6</Link><br/>Rondelero swashbucklers are Taldan specialists in an aggressive, lightly armored fighting style that utilizes the falcata and buckler.</p>
-<p><strong>Falcata Emphasis (Ex):</strong> At 1st level, a rondelero swashbuckler is proficient with <Link to="/eq-weapon/falcata">falcatas</Link> and can treat a falcata as a one-handed piercing melee weapon for the purposes of the swashbuckler's finesse as well as all feats and class abilities that refer to such a weapon.</p>
-<p>This ability replaces the <Link to="/swashdeed/derring_do">derring-do</Link> deed.</p>
-<p><strong>Rondelero Deeds (Ex):</strong> A rondelero swashbuckler gains the following deeds at the appropriate levels.</p>
-<blockquote>
-<p><strong>Shield Catch (Ex):</strong> At 3rd level, while he has at least 1 panache point, the rondelero swashbuckler gains a +4 bonus on all combat maneuver checks to disarm that he attempts with his buckler. This deed replaces <Link to="/swashdeed/kip_up">kip-up</Link>.</p>
-<p><strong>Rondelero Chop (Ex):</strong> At 11th level, when the rondelero swashbuckler hits with a melee attack using a light or one-handed slashing melee weapon, he can spend 1 panache point to attempt a sunder combat maneuver check against the target of his attack as an immediate action without provoking attacks of opportunity. This deed replaces <Link to="/swashdeed/bleeding_wound">bleeding wound</Link>.</p>
-<p><strong>Shattering Chop (Ex):</strong> At 15th level, while the rondelero swashbuckler has at least 1 panache point, he can attempt a shattering chop as a full-round action, pooling all of his attack potential into a single melee sunder combat maneuver with a light or one-handed slashing weapon. When he does, he gains a +4 bonus on her combat maneuver check and ignores half of the hardness of the item he sunders. This deed replaces <Link to="/swashdeed/perfect_thrust">perfect thrust</Link>.</p>
-</blockquote>
-<p><strong>Buckler Bash (Ex):</strong> At 2nd level, a rondelero swashbuckler can perform a shield bash with a <Link to="/eq-armor/buckler">buckler</Link> (use the same damage and critical multiplier as for a <Link to="/eq-armor/light_wooden_shield">light wooden shield</Link>). He can treat a buckler as a one-handed piercing melee weapon for the purposes of the swashbuckler's finesse and all feats and class abilities that refer to such a weapon.</p>
-<p><strong>Rondelero Flexibility (Ex):</strong> At 6th level, as a full-attack action, a rondelero swashbuckler wielding a falcata in one hand and a buckler in the other can alternate between using his falcata and his buckler for each attack. This does not grant additional attacks or incur penalties as two-weapon fighting does, and does not cause her to lose his Armor Class bonus from her buckler.</p>
-<p><strong>Charmed Life (Ex):</strong> A rondelero swashbuckler does not gain charmed life until 10th level, at which point he can use the ability only once per day. At 14th level and again at 18th level, he can use the ability an additional time per day.</p>
-<p>This ability alters <strong className="hl">charmed life</strong>.</p>
+<Ability id="arc-swashbuckler-rondelero_swashbuckler-falcata-emphasis-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-rondelero_swashbuckler-falcata-emphasis-ex">Falcata Emphasis (Ex)</Pair>
+<Pair hl title="Replaces">Derring-do</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A rondelero swashbuckler is proficient with <Link to="/eq-weapon/falcata">falcatas</Link> and can treat a falcata as a one-handed piercing melee weapon for the purposes of <em>swashbuckler finesse</em> as well as all feats and class abilities that refer to such a weapon.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-rondelero_swashbuckler-rondelero-deeds-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-rondelero_swashbuckler-rondelero-deeds-ex">Rondelero Deeds (Ex)</Pair>
+<Pair title="Ability">A rondelero swashbuckler gains the following deeds at the appropriate levels.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-rondelero_swashbuckler-shield-catch-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-rondelero_swashbuckler-shield-catch-ex">Shield Catch (Ex)</Pair>
+<Pair hl title="Replaces">Kip-up</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">While he has at least 1 panache point, the rondelero swashbuckler gains a +4 bonus on all combat maneuver checks to <Link to="/rule/disarm">disarm</Link> that he attempts with his <Link to="/eq-armor/buckler">buckler</Link>.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-rondelero_swashbuckler-rondelero-chop-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-swashbuckler-rondelero_swashbuckler-rondelero-chop-ex">Rondelero Chop (Ex)</Pair>
+<Pair hl title="Replaces">Bleeding wound</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Immediate Action">When the rondelero swashbuckler hits with a melee attack using a light or one-handed slashing melee weapon, he can spend 1 panache point to attempt a <Link to="/rule/sunder">sunder</Link> combat maneuver check against the target of his attack without provoking attacks of opportunity.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-rondelero_swashbuckler-shattering-chop-ex" extraClasses="subAbility" icon={["mailed-fist","upgrade"]}>
+<Pair single id="arc-swashbuckler-rondelero_swashbuckler-shattering-chop-ex">Shattering Chop (Ex)</Pair>
+<Pair hl title="Replaces">Perfect thrust</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Full-Round Action">While the rondelero swashbuckler has at least 1 panache point, he can attempt a <em>shattering chop,</em> pooling all of his attack potential into a single melee sunder combat maneuver with a light or one-handed slashing weapon. When he does, he gains a +4 bonus on his combat maneuver check and ignores half of the hardness of the item he sunders.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-rondelero_swashbuckler-buckler-bash-ex" icon={["mailed-fist"]}>
+<Pair single id="arc-swashbuckler-rondelero_swashbuckler-buckler-bash-ex">Buckler Bash (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A rondelero swashbuckler can perform a shield bash with a buckler (use the same damage and critical multiplier as for a <Link to="/eq-armor/light_wooden_shield">light wooden shield</Link>). He can treat a buckler as a one-handed piercing melee weapon for the purposes of <em>swashbuckler finesse</em> and all feats and class abilities that refer to such a weapon.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-rondelero_swashbuckler-rondelero-flexibility-ex" icon={["mailed-fist"]}>
+<Pair single id="arc-swashbuckler-rondelero_swashbuckler-rondelero-flexibility-ex">Rondelero Flexibility (Ex)</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">As a full-attack action, a rondelero swashbuckler wielding a falcata in one hand and a buckler in the other can alternate between using his falcata and his buckler for each attack. This does not grant additional attacks or incur penalties as two-weapon fighting does, and does not cause her to lose his Armor Class bonus from her buckler.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-rondelero_swashbuckler-charmed-life-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-rondelero_swashbuckler-charmed-life-ex">Charmed Life (Ex)</Pair>
+<Pair hl title="Alters">Charmed life</Pair>
+<Pair title="At 10th Level">A rondelero swashbuckler does not gain <em>charmed life</em> until 10th level, at which point he can use the ability only once per day.</Pair>
+<Pair title="At 14th Level">He can use it twice a day.</Pair>
+<Pair title="At 18th Level">He can use this three times per day.</Pair>
+</Ability>
 </>};
 const _rostland_bravo = {title: "Rostland Bravo", jsx: <><h2 id="arc-swashbuckler-rostland_bravo-rostland-bravo">Rostland Bravo</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 23</Link><br/>The Free City of Restov is host to numerous dueling schools, from the renowned Aldori Academy to tiny training grounds in blademasters' homes. Students of these schools are notoriously competitive, and street-corner duels at dawn and dusk are a constant of Restov life. In most cases, while these "lesser schools" do not teach official Aldori techniques, their methods mesh well with that signature style. Unsurprisingly, many students eventually train in the Aldori style, whether because they aspire to join the swordlords' ranks or simply for the challenge of mastering the legendary weapon. While some favor more technical approaches, others study flashier maneuvers, wielding the curved blade with artful flair. Disdainfully called "bravos" by classically trained rivals, students of this approach have claimed the label with pride. The Rostland bravos' most advanced techniques bear dragon-themed names as a snub to traditionalist Aldori swordlords, who have never forgotten their crushing defeat by Choral the Conqueror's dragons at the Valley of Fire.</p>
-<p><strong>Aldori Swashbuckler (Ex):</strong> A Rostland bravo focuses on the <Link to="/eq-weapon/aldori_dueling_sword">Aldori dueling sword</Link>, scorning the bucklers used by duelists of other styles. In addition, the relative safety and creature comforts allowed by life in the sprawling city of Restov reduces her need for athleticism. A Rostland bravo gains <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (Aldori dueling sword) as a bonus feat. The Rostland bravo is not proficient with bucklers, and does not gain Climb or Swim as class skills.</p>
-<p>This ability alters the swashbuckler's <strong className="hl">class skills</strong> and <strong className="hl">armor proficiencies</strong>.</p>
-<p><strong>Deeds:</strong> A Rostland bravo's training and personality set her apart from the typical swashbuckler, and as a result of these differences (as well as the impact of her Aldori training), she gains the following deeds. These deeds function only when the bravo is wielding just an Aldori dueling sword.</p>
-<blockquote>
-<p><strong>Inevitable Victory (Ex):</strong> The Rostland bravo's technique is all about flair; a display of her skill is enough to make any Restov brawler reconsider picking a fight. At 3rd level, the Rostland bravo gains <Link to="/feat/dazzling_display">Dazzling Display</Link> as a bonus feat. She can activate its effect only while wielding an Aldori dueling sword, and she must spend 1 panache point to do so.</p>
-<p>This deed <strong className="hl">replaces</strong> <Link to="/swashdeed/menacing_swordplay">menacing swordplay</Link>.</p>
-<p><strong>Sweeping Wind Feint (Ex):</strong> At 7th level, the Rostland bravo masters an exotic feinting style, tossing her blade to the other hand and performing a sweeping attack or upward slash before the opponent reacts. Once per round, she can spend 1 point of panache to attempt a <Link to="/skill/feint">feint</Link> as a swift action.</p>
-<p>This deed <strong className="hl">replaces</strong> <Link to="/swashdeed/superior_feint">superior feint</Link>.</p>
-<p><strong>Dragon's Rage (Ex):</strong> At 11th level, the Rostland bravo can cast aside restraint in favor of a blindingly fast assault of unpredictable strikes inspired in part by the overwhelming brutality of a dragon in combat. Once per round as part of a full attack, the bravo can spend 1 panache point to make an additional attack with her Aldori dueling sword at her highest attack bonus. If she reduces a creature to 0 or fewer hit points with this additional attack, she regains 2 panache points rather than the normal 1 point she would gain from striking a killing blow.</p>
-<p>This deed <strong className="hl">replaces</strong> <Link to="/swashdeed/bleeding_wound">bleeding wound</Link>.</p>
-</blockquote>
-<p><strong>Terror of the Great Wyrm (Ex):</strong> At 15th level, the Rostland bravo can use her inevitable victory deed as part of a full attack or dragon's rage. If a creature demoralized in this way would be shaken for 3 or more rounds, the Rostland bravo can make the target frightened for 1 round before becoming shaken for the appropriate duration. This deed replaces swashbuckler's edge.</p>
+<Ability icon={["skills"]} id="arc-swashbuckler-rostland_bravo-undefined">
+<Pair id="arc-swashbuckler-rostland_bravo-undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="Removed Skills">Climb, Swim</Pair></Ability>
+<Ability id="arc-swashbuckler-rostland_bravo-aldori-swashbuckler-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-swashbuckler-rostland_bravo-aldori-swashbuckler-ex">Aldori Swashbuckler (Ex)</Pair>
+<Pair hl title="Alters">Armor proficiencies</Pair>
+<Pair title="Ability">A Rostland bravo focuses on the <Link to="/eq-weapon/aldori_dueling_sword">Aldori dueling sword</Link>, scorning the bucklers used by duelists of other styles. In addition, the relative safety and creature comforts allowed by life in the sprawling city of Restov reduces her need for athleticism. A Rostland bravo gains <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (Aldori dueling sword) as a bonus feat.</Pair>
+<Pair title="Special">The Rostland bravo is not proficient with bucklers.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-rostland_bravo-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-rostland_bravo-deeds">Deeds</Pair>
+<Pair title="Ability">A Rostland bravo's training and personality set her apart from the typical swashbuckler, and as a result of these differences (as well as the impact of her Aldori training), she gains the following deeds.</Pair>
+<Pair title="Special">These deeds function only when the bravo is wielding just an Aldori dueling sword.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-rostland_bravo-inevitable-victory-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-rostland_bravo-inevitable-victory-ex" flavor="The Rostland bravo's technique is all about flair; a display of her skill is enough to make any Restov brawler reconsider picking a fight.">Inevitable Victory (Ex)</Pair>
+<Pair hl title="Replaces">Menacing swordplay</Pair>
+<Pair title="At 3rd Level">The Rostland bravo gains <Link to="/feat/dazzling_display">Dazzling Display</Link> as a bonus feat. She can activate its effect only while wielding an Aldori dueling sword, and she must spend 1 panache point to do so.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-rostland_bravo-sweeping-wind-feint-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-swashbuckler-rostland_bravo-sweeping-wind-feint-ex" flavor="The Rostland bravo masters an exotic feinting style, tossing her blade to the other hand and performing a sweeping attack or upward slash before the opponent reacts.">Sweeping Wind Feint (Ex)</Pair>
+<Pair hl title="Replaces">Superior feint</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Swift Action">Once per round, she can spend 1 point of panache to attempt a <Link to="/skill/feint">feint</Link>.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-rostland_bravo-dragons-rage-ex" extraClasses="subAbility" icon={["mailed-fist","upgrade"]}>
+<Pair single id="arc-swashbuckler-rostland_bravo-dragons-rage-ex" flavor="The Rostland bravo can cast aside restraint in favor of a blindingly fast assault of unpredictable strikes inspired in part by the overwhelming brutality of a dragon in combat.">Dragon's Rage (Ex)</Pair>
+<Pair hl title="Replaces">Bleeding wound</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">Once per round as part of a full attack, the bravo can spend 1 panache point to make an additional attack with her Aldori dueling sword at her highest attack bonus. If she reduces a creature to 0 or fewer hit points with this additional attack, she regains 2 panache points rather than the normal 1 point she would gain from striking a killing blow.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-rostland_bravo-terror-of-the-great-wyrm-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-rostland_bravo-terror-of-the-great-wyrm-ex">Terror of the Great Wyrm (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler's edge</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">The Rostland bravo can use her <em>inevitable victory</em> deed as part of a full attack or <em>dragon's rage.</em> If a creature demoralized in this way would be <Link to="/misc/shaken">shaken</Link> for 3 or more rounds, the Rostland bravo can make the target <Link to="/misc/frightened">frightened</Link> for 1 round before becoming shaken for the appropriate duration.</Pair>
+</Ability>
 </>};
 const _shackles_corsair = {title: "Shackles Corsair", jsx: <><h2 id="arc-swashbuckler-shackles_corsair-shackles-corsair">Shackles Corsair</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 22</Link><br/>While it doesn't take much more than a ship and a crew in the Shackles to become a pirate, Shackles corsairs are a finer breed of freebooter. A Shackles corsair's debonair charm and style make her a paradoxical celebrity even among the nations whose ships she plunders.</p>
-<p><strong>Swagger (Ex):</strong> At 3rd level, a Shackles corsair's confident swagger unnerves her foes and inspires her crew. She gains a +1 bonus on Intimidate checks, and the DC of Intimidate checks made against her increases by 1. She and her allies gain a +1 morale bonus on Profession (sailor) checks. These bonuses and her Intimidate DC increase by 1 for every 4 levels beyond 3rd.</p>
-<p>At 7th level, a Shackles corsair's swagger gives her an additional benefit when she uses charmed life. If she succeeds at a saving throw against an opponent's attack or ability while using charmed life on that save, she can attempt an Intimidate check to demoralize that opponent without using an action.</p>
-<p>This ability replaces <strong className="hl">nimble</strong>.</p>
-<p><strong>Deeds:</strong> A Shackles corsair gains the following deeds.</p>
-<blockquote>
-<p><strong>Eyes of Abendego (Ex):</strong> Every true Shackles captain dreams of winning the Free Captain's Regatta, and the wise begin training for it early. At 3rd level, whenever she has at least 1 panache point, a Shackles corsair can see three times as far as normal in nonmagical fog. In magical fog, she can see normally for 10 feet; after that, creatures and objects have partial <Link to="/rule/concealment">concealment</Link> for the next 10 feet and total concealment thereafter. This deed replaces <Link to="/swashdeed/swashbuckler_initiative">swashbuckler initiative</Link>.</p>
-<p><strong>Plunder (Ex):</strong> A Shackles corsair knows she doesn't always need to win the fight - she just needs to get what she came for. At 7th level, as a full-round action she can make a single attack with a light or one-handed piercing melee weapon against a foe that is either shaken or denied its Dexterity bonus to AC. If the attack hits, the Shackles corsair also pilfers a small, loose item from her target as if she had succeeded at a Sleight of Hand or steal combat maneuver check. She doesn't need to attempt a Sleight of Hand check, but if she does so and surpasses the target's opposed Perception check, the target is unaware that the item is stolen. This deed replaces <Link to="/swashdeed/targeted_strike">targeted strike</Link>.</p>
-</blockquote>
+<Ability id="arc-swashbuckler-shackles_corsair-swagger-ex" icon={["upgrade","armor-upgrade","stairs-goal"]}>
+<Pair single id="arc-swashbuckler-shackles_corsair-swagger-ex" flavor="A Shackles corsair's confident swagger unnerves her foes and inspires her crew.">Swagger (Ex)</Pair>
+<Pair hl title="Replaces">Nimble</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">She gains a +1 bonus on Intimidate checks, and the DC of Intimidate checks made against her increases by 1. She and her allies gain a +1 morale bonus on Profession (sailor) checks.</Pair>
+<Pair title="At 7th Level">These bonuses become +2 and her Intimidate DC now increases by 2. In addition, if she succeeds at a saving throw against an opponent's attack or ability while using <em>charmed life</em> on that save, she can attempt an Intimidate check to demoralize that opponent without using an action.</Pair>
+<Pair title="At 11th Level">These bonuses become +3 and her Intimidate DC now increases by 3.</Pair>
+<Pair title="At 15th Level">These bonuses become +4 and her Intimidate DC now increases by 4.</Pair>
+<Pair title="At 19th Level">These bonuses become +5 and her Intimidate DC now increases by 5.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-shackles_corsair-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-shackles_corsair-deeds">Deeds</Pair>
+<Pair title="Ability">A Shackles corsair gains the following deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-shackles_corsair-eyes-of-abendego-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-shackles_corsair-eyes-of-abendego-ex" flavor="Every true Shackles captain dreams of winning the Free Captain's Regatta, and the wise begin training for it early.">Eyes of Abendego (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler initiative</Pair>
+<Pair title="At 3rd Level">Whenever she has at least 1 panache point, a Shackles corsair can see three times as far as normal in nonmagical fog. In magical fog, she can see normally for 10 feet; after that, creatures and objects have partial <Link to="/rule/concealment">concealment</Link> for the next 10 feet and total concealment thereafter.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-shackles_corsair-plunder-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-swashbuckler-shackles_corsair-plunder-ex" flavor="A Shackles corsair knows she doesn't always need to win the fight - she just needs to get what she came for.">Plunder (Ex)</Pair>
+<Pair hl title="Replaces">Targeted strike</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Full-Round Action">She can make a single attack with a light or one-handed piercing melee weapon against a foe that is either <Link to="/misc/shaken">shaken</Link> or denied its Dexterity bonus to AC. If the attack hits, the Shackles corsair also pilfers a small, loose item from her target as if she had succeeded at a <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> or <Link to="/rule/steal">steal</Link> combat maneuver check. She doesn't need to attempt a Sleight of Hand check, but if she does so and surpasses the target's opposed Perception check, the target is unaware that the item is stolen.</Pair>
+</Ability>
 </>};
 const _veiled_blade = {title: "Veiled Blade", jsx: <><h2 id="arc-swashbuckler-veiled_blade-veiled-blade">Veiled Blade</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 53</Link><br/>Veiled blades specialize in subtlety, not through clandestine sneaking but simply by appearing to be someone harmless and unarmed. When a fight breaks out, a veiled blade doffs that facade and pulls out her hidden trump cards. Those who have mastered the art of the veiled blade can even hide their weapons on their own bodies as brands.</p>
@@ -686,29 +761,75 @@ const _veiled_blade = {title: "Veiled Blade", jsx: <><h2 id="arc-swashbuckler-ve
 <Pair id="arc-swashbuckler-veiled_blade-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Intimidate</Pair></Ability>
-<p><strong>Deeds:</strong> A veiled blade gains the following deeds.</p>
-<blockquote>
-<p><em>Quick Draw (Ex):</em> At 1st level, whenever she has at least 1 panache point, a veiled blade gains the benefits of the <Link to="/feat/quick_draw">Quick Draw</Link> feat.</p>
-<p>This deed <strong className="hl">replaces</strong> the swashbuckler's <Link to="/swashdeed/opportune_parry_and_riposte">opportune parry and riposte</Link> deed.</p>
-<p><strong>Hidden Blade (Ex):</strong> At 3rd level, whenever she has at least 1 panache point, a veiled blade can hide any light or one-handed piercing melee weapon using Sleight of Hand, and she receives a +4 insight bonus on her check to hide the weapon.</p>
-<p>This deed <strong className="hl">replaces</strong> the <Link to="/swashdeed/menacing_swordplay">menacing swordplay</Link> deed.</p>
-<p><strong>Instant Unveil (Ex):</strong> At 7th level, when she uses her <Link to="/swashdeed/swashbuckler_initiative">swashbuckler initiative</Link> deed to draw a light or one-handed piercing weapon as part of an initiative check, she can draw that weapon even if it is hidden.</p>
-<p>This deed <strong className="hl">replaces</strong> the <Link to="/swashdeed/swashbucklers_grace">swashbuckler's grace</Link> deed.</p>
-<p><strong>Soul Veil (Sp):</strong> At 15th level, a veiled blade can merge a light or one-handed piercing melee weapon with herself, as if using the spell ghost brand, except that it takes only a swift action to manifest or store the weapon. This ability lasts until it is dispelled or until the veiled blade merges with a different light or one-handed piercing melee weapon.</p>
-<p>This deed <strong className="hl">replaces</strong> the <Link to="/swashdeed/swashbucklers_edge">swashbuckler's edge</Link> deed.</p>
-</blockquote>
+<Ability id="arc-swashbuckler-veiled_blade-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-veiled_blade-deeds">Deeds</Pair>
+<Pair title="Ability">A veiled blade gains the following deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-veiled_blade-quick-draw-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-veiled_blade-quick-draw-ex">Quick Draw (Ex)</Pair>
+<Pair hl title="Replaces">Opportune parry and riposte</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Passive Ability">Whenever she has at least 1 panache point, a veiled blade gains the benefits of the <Link to="/feat/quick_draw">Quick Draw</Link> feat.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-veiled_blade-hidden-blade-ex" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-swashbuckler-veiled_blade-hidden-blade-ex">Hidden Blade (Ex)</Pair>
+<Pair hl title="Replaces">Menacing swordplay</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">Whenever she has at least 1 panache point, a veiled blade can hide any light or one-handed piercing melee weapon using Sleight of Hand, and she receives a +4 insight bonus on her check to hide the weapon.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-veiled_blade-instant-unveil-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-veiled_blade-instant-unveil-ex">Instant Unveil (Ex)</Pair>
+<Pair hl title="Replaces">Swashbuckler's grace</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">When she uses her <Link to="/swashdeed/swashbuckler_initiative">swashbuckler initiative</Link> deed to draw a light or one-handed piercing weapon as part of an initiative check, she can draw that weapon even if it is hidden.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-veiled_blade-soul-veil-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-swashbuckler-veiled_blade-soul-veil-sp">Soul Veil (Sp)</Pair>
+<Pair hl title="Replaces">Swashbuckler's edge</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">A veiled blade can merge a light or one-handed piercing melee weapon with herself, as if using the spell <Link to="/spell/ghost_brand">ghost brand</Link>, except that it takes only a <strong className="hl">swift action</strong> to manifest or store the weapon. This ability lasts until it is dispelled or until the veiled blade merges with a different light or one-handed piercing melee weapon.</Pair>
+</Ability>
 </>};
 const _whirling_dervish = {title: "Whirling Dervish", jsx: <><h2 id="arc-swashbuckler-whirling_dervish-whirling-dervish">Whirling Dervish</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 23</Link><br/>In Qadira and throughout the Padishah Empire, <Link to="/faith/sarenrae">Sarenrae's</Link> worshipers praise the Dawnflower through dance. Her more warlike followers adapted these dances into graceful martial forms, and their swashbuckling style is feared throughout the Inner Sea region and beyond for its ability to devastate foes with a scimitar through motion and agility regardless of strength of arms.</p>
-<p><strong>Dervish Finesse (Ex):</strong> A whirling dervish can treat a <Link to="/eq-weapon/scimitar">scimitar</Link> as a one-handed piercing melee weapon for the purposes of the swashbuckler's finesse and all feats and class abilities that refer to such a weapon. She must not be carrying a weapon or shield in her off hand to gain this benefit.</p>
-<p>This ability alters <strong className="hl">swashbuckler finesse</strong>.</p>
-<p><strong>Dawnflower's Mercy (Ex):</strong> While violence is sometimes necessary to cleanse evil, Sarenrae's desire for redemption prevents her dervishes from reveling in a foe's defeat. A whirling dervish does not gain any panache for dropping a foe below 0 hit points unless that foe is an evil outsider or undead, or if the damage she dealt was nonlethal. Additionally, she gains 1 panache point if she causes an evildoer with a number of Hit Dice equal to at least 1/2 her character level to surrender to her. She can gain this benefit no more than once per round, even if multiple enemies surrender.</p>
-<p>This ability alters <strong className="hl">panache</strong>.</p>
-<p><strong>Dervish Dance (Ex):</strong> At 4th level, a whirling dervish can use her Dexterity modifier instead of her Strength modifier on melee damage rolls when using her swashbuckler finesse. She counts as having the <Link to="/feat/dervish_dance">Dervish Dance</Link> feat for purposes of meeting feat prerequisites.</p>
-<p><strong>Deeds:</strong> A whirling dervish gains the following deeds.</p>
-<p><strong>Whirlwind Dance (Ex):</strong> At 7th level, a whirling dervish can sweep through her opponents' lines like a cyclone. As a full-round action, she can spend 1 panache point to move up to her speed. She can make attacks against creatures with her reach during this movement, up to the number of attacks she's entitled to with a full attack. Each attack is made at her highest attack bonus, and must target a different creature. This movement provokes attacks of opportunity as normal. This deed replaces <Link to="/swashdeed/superior_feint">superior feint</Link> and <Link to="/swashdeed/targeted_strike">targeted strike</Link>.</p>
-<p><strong>Dance of Dawn (Ex):</strong> At 11th level, whenever a whirling dervish is in conditions of <Link to="/rule/dim_light">dim light</Link> or brighter and hits with a melee attack, she can spend 1 panache point to reflect the light off her blade into the eyes of her target. That opponent is blinded for 1 round. A successful Fortitude save (DC = 10 + 1/2 the whirling dervish's class level + her Dexterity modifier) negates this effect. This deed replaces <Link to="/swashdeed/bleeding_wound">bleeding wound</Link>.</p>
-<p><strong>Dance of Mercy (Ex):</strong> At 19th level, when a whirling dervish confirms a critical hit with a light or one-handed piercing melee weapon, in addition to the normal damage, she can spend 1 panache point to inflict a deadly stab. The target must succeed at a Fortitude saving throw (DC = 10 + 1/2 the dervish's class level + her Dexterity modifier) or take an amount of nonlethal damage equal to its current hit points + 1, as well as becomes paralyzed for 1 hour. Performing this deed doesn't grant the swashbuckler a panache point. This deed replaces <Link to="/swashdeed/deadly_stab">deadly stab</Link>.</p>
+<Ability id="arc-swashbuckler-whirling_dervish-dervish-finesse-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-whirling_dervish-dervish-finesse-ex">Dervish Finesse (Ex)</Pair>
+<Pair hl title="Alters">Swashbuckler finesse</Pair>
+<Pair title="Ability">A whirling dervish can treat a <Link to="/eq-weapon/scimitar">scimitar</Link> as a one-handed piercing melee weapon for the purposes of <em>swashbuckler finesse</em> and all feats and class abilities that refer to such a weapon. She must not be carrying a weapon or shield in her off hand to gain this benefit.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-whirling_dervish-dawnflowers-mercy-ex" icon={["broken-shield","stairs-goal"]}>
+<Pair single id="arc-swashbuckler-whirling_dervish-dawnflowers-mercy-ex" flavor="While violence is sometimes necessary to cleanse evil, Sarenrae's desire for redemption prevents her dervishes from reveling in a foe's defeat.">Dawnflower's Mercy (Ex)</Pair>
+<Pair hl title="Alters">Panache</Pair>
+<Pair title="Ability">A whirling dervish does not gain any panache for dropping a foe below 0 hit points unless that foe is an evil outsider or undead, or if the damage she dealt was nonlethal.</Pair>
+<Pair title="Special">Additionally, she gains 1 panache point if she causes an evildoer with a number of Hit Dice equal to at least 1/2 her character level to surrender to her. She can gain this benefit no more than once per round, even if multiple enemies surrender.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-whirling_dervish-dervish-dance-ex" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-whirling_dervish-dervish-dance-ex">Dervish Dance (Ex)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A whirling dervish can use her Dexterity modifier instead of her Strength modifier on melee damage rolls when using her <em>swashbuckler finesse.</em> She counts as having the <Link to="/feat/dervish_dance">Dervish Dance</Link> feat for purposes of meeting feat prerequisites.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-whirling_dervish-deeds" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-whirling_dervish-deeds">Deeds</Pair>
+<Pair title="Ability">A whirling dervish gains the following deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-whirling_dervish-whirlwind-dance-ex" icon={["mailed-fist"]}>
+<Pair single id="arc-swashbuckler-whirling_dervish-whirlwind-dance-ex" flavor="A whirling dervish can sweep through her opponents' lines like a cyclone.">Whirlwind Dance (Ex)</Pair>
+<Pair hl title="Replaces">Superior feint, targeted strike</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Full-Round Action">She can spend 1 panache point to move up to her speed. She can make attacks against creatures with her reach during this movement, up to the number of attacks she's entitled to with a full attack. Each attack is made at her highest attack bonus, and must target a different creature. This movement provokes attacks of opportunity as normal.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-whirling_dervish-dance-of-dawn-ex" icon={["mailed-fist","armor-downgrade"]}>
+<Pair single id="arc-swashbuckler-whirling_dervish-dance-of-dawn-ex">Dance of Dawn (Ex)</Pair>
+<Pair hl title="Replaces">Bleeding wound</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">Whenever a whirling dervish is in conditions of <Link to="/rule/dim_light">dim light</Link> or brighter and hits with a melee attack, she can spend 1 panache point to reflect the light off her blade into the eyes of her target. That opponent is <Link to="/misc/blinded">blinded</Link> for 1 round. A successful Fortitude save (DC = 10 + 1/2 the whirling dervish's class level + her Dexterity modifier) negates this effect.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-whirling_dervish-dance-of-mercy-ex" icon={["mailed-fist","armor-downgrade"]}>
+<Pair single id="arc-swashbuckler-whirling_dervish-dance-of-mercy-ex">Dance of Mercy (Ex)</Pair>
+<Pair hl title="Replaces">Deadly stab</Pair>
+<Pair title="Gained">At 19th Level</Pair>
+<Pair title="Ability">When a whirling dervish confirms a critical hit with a light or one-handed piercing melee weapon, in addition to the normal damage, she can spend 1 panache point to inflict a deadly stab. The target must succeed at a Fortitude saving throw (DC = 10 + 1/2 the dervish's class level + her Dexterity modifier) or take an amount of nonlethal damage equal to its current hit points + 1, as well as becomes <Link to="/rule/paralyzed">paralyzed</Link> for 1 hour. Performing this deed doesn't grant the swashbuckler a panache point.</Pair>
+</Ability>
 </>};
 const _wildstrider = {title: "Wildstrider", jsx: <><h2 id="arc-swashbuckler-wildstrider-wildstrider">Wildstrider</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 96</Link><br/>Most swashbucklers call cities their home, but some prefer deserts, marshlands, mountains, or woods, where the rough terrain grants them an advantage, and have little interest in the comforts of an urban lifestyle.</p>
@@ -716,14 +837,28 @@ const _wildstrider = {title: "Wildstrider", jsx: <><h2 id="arc-swashbuckler-wild
 <Pair id="arc-swashbuckler-wildstrider-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (nobility), Sense Motive, Sleight of Hand</Pair></Ability>
-<p><strong>Deeds:</strong> A wildstrider gains the following deeds, each of which replaces an existing deed.</p>
-<blockquote>
-<p><strong>Subterfuge (Ex):</strong> A wildstrider adds Stealth to the list of skills to which the <Link to="/swashdeed/derring_do">derring-do</Link> deed applies. At 15th level, she adds Stealth to the list of skills on which she can take 10 using the <Link to="/swashdeed/swashbucklers_edge">swashbuckler's edge</Link> deed.</p>
-<p>This deed <strong className="hl">replaces</strong> dodging panache and alters derring-do and swashbuckler's edge.</p>
-<p><strong>Adroit Step (Ex):</strong> At 3rd level, a wildstrider can use a swift action to treat a 5-foot square of <Link to="/rule/difficult_terrain">difficult terrain</Link> as if it were normal terrain. If she also spends a panache point, she can treat all difficult terrain as though it were normal terrain until the end of her turn.</p>
-<p>This deed <strong className="hl">replaces</strong> <Link to="/swashdeed/kip_up">kip-up</Link>.</p>
-<p><strong>Keen Gaze (Ex):</strong> At 11th level, while a wildstrider has at least 1 panache point, she can ignore the miss chance from <Link to="/rule/concealment">concealment</Link> (but not total concealment) caused by normal and magical fog, smoke, and undergrowth, but not other sources of concealment or a miss chance, such as <Link to="/spell/blur">blur</Link>.</p>
-<p>This deed <strong className="hl">replaces</strong> <Link to="/swashdeed/subtle_blade">subtle blade</Link>.</p>
-</blockquote>
+<Ability id="arc-swashbuckler-wildstrider-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-swashbuckler-wildstrider-deeds">Deeds</Pair>
+<Pair title="Ability">A wildstrider gains the following deeds.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-wildstrider-subterfuge-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-wildstrider-subterfuge-ex">Subterfuge (Ex)</Pair>
+<Pair hl title="Replaces">Dodging panache</Pair>
+<Pair hl title="Alters">derring-do, swashbuckler's edge</Pair>
+<Pair title="At 1st Level">A wildstrider adds Stealth to the list of skills to which the <Link to="/swashdeed/derring_do">derring-do</Link> deed applies.</Pair>
+<Pair title="At 15th Level">She adds Stealth to the list of skills on which she can take 10 using the <Link to="/swashdeed/swashbucklers_edge">swashbuckler's edge</Link> deed.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-wildstrider-adroit-step-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-wildstrider-adroit-step-ex">Adroit Step (Ex)</Pair>
+<Pair hl title="Replaces">Kip-up</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Swift Action">A wildstrider can treat a 5-foot square of <Link to="/rule/difficult_terrain">difficult terrain</Link> as if it were normal terrain. If she also spends a panache point, she can treat all difficult terrain as though it were normal terrain until the end of her turn.</Pair>
+</Ability>
+<Ability id="arc-swashbuckler-wildstrider-keen-gaze-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-swashbuckler-wildstrider-keen-gaze-ex">Keen Gaze (Ex)</Pair>
+<Pair hl title="Replaces">Subtle blade</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">While a wildstrider has at least 1 panache point, she can ignore the miss chance from <Link to="/rule/concealment">concealment</Link> (but not total concealment) caused by normal and magical fog, smoke, and undergrowth, but not other sources of concealment or a miss chance, such as <Link to="/spell/blur">blur</Link>.</Pair>
+</Ability>
 </>};
 export default {arrow_champion:_arrow_champion,azatariel:_azatariel,courser:_courser,daring_infiltrator:_daring_infiltrator,dashing_thief:_dashing_thief,flying_blade:_flying_blade,guiding_blade:_guiding_blade,inspired_blade:_inspired_blade,mouser:_mouser,musketeer:_musketeer,mysterious_avenger:_mysterious_avenger,noble_fencer:_noble_fencer,okayo_corsair:_okayo_corsair,picaroon:_picaroon,rondelero_swashbuckler:_rondelero_swashbuckler,rostland_bravo:_rostland_bravo,shackles_corsair:_shackles_corsair,veiled_blade:_veiled_blade,whirling_dervish:_whirling_dervish,wildstrider:_wildstrider}
