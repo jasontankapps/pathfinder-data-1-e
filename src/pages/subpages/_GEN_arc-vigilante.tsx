@@ -1,29 +1,67 @@
-import Link from '../../components/Link';
+import {IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
+import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 const _agathiel = {title: "Agathiel", jsx: <><h2 id="arc-vigilante-agathiel-agathiel">Agathiel</h2>
 <p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 25</Link><br/>The legends of Golarion teem with intelligent beasts who emerge from the wild to right wrongs perpetrated by a nation, aid a virtuous family, or extract long-overdue vengeance. Many of these trace back to the agathiel tradition, first stolen from agathion celestials by the elves of Kyonin and again later by Old-Mage Jatembe. Agathiels surrender a portion of their immortal souls to Nirvana in exchange for a measure of animalistic might to aid them in their righteous crusades. This exchange is permanent, and each agathiel commits the rest of his mortal life to service of others and the constant thrum of wild instincts. Though agathiels can be found in small numbers all over Golarion, the rituals to transform a mortal into an agathiel are common only in Kyonin and the Mwangi city-states, and among the wandering scholars of the Mwangi Expanse. The elves in particular relied upon these abilities to scout Golarion before reclaiming their abandoned territories after the Age of Darkness, leading to reports of extraordinary fey animals stalking elven ruins in the century before their return.</p>
-<p><strong>Immortal Commitment (Su):</strong> Becoming an agathiel commits a portion of the vigilante's soul to Nirvana, and in turn invests him with a portion of the plane's power. An agathiel's social and vigilante identity alignments must both be within one step of neutral good. If either of the agathiel's alignments moves outside this range (because of his own actions or magical manipulation), he gains 1 permanent negative level and loses the ability to assume his vigilante identity until both of his alignments are within one step of neutral good. This negative level cannot be overcome in any way (including by <Link to="/spell/restoration">restoration</Link> spells) until the agathiel's alignment reverts.</p>
-<p><strong>Bestial Identity (Su):</strong> At 1st level, an agathiel's vigilante identity must invoke the appearance and behavior of a single Small or Medium creature of the animal type. The vigilante can attempt to appear to be a normal member of this animal type, but doing so imposes a -10 penalty on his Disguise check. The bonus provided by seamless guise still applies to the vigilante's attempts to appear to be an ordinary animal. Once the vigilante's animal form is selected, it cannot be changed.</p>
-<p>Beginning at 4th level, when an agathiel assumes his vigilante identity, he physically transforms into an animal, though he always retains unusual traits that set him apart from ordinary animals, as if using <Link to="/spell/beast_shape_i">beast shape I</Link>, except the vigilante gains no ability adjustments and can select only a single animal ability from those listed in the spell's description. His social identity remains his true form, and unlike with beast shape I, an agathiel can remain in his animal form indefinitely. The agathiel's vigilante identity is considered a polymorph effect, and while in his vigilante identity, the agathiel is immune to other polymorph effects. Unlike with normal polymorph effects, the agathiel's equipment does not meld into his form, and instead changes shape to fit his animal form and provides the same function, though any equipment requiring hands cannot be used until he returns to his social identity.</p>
-<p>At 8th level, when assuming his vigilante identity, the vigilante can select two abilities provided by beast shape I, or select a single ability provided by <Link to="/spell/beast_shape_ii">beast shape II</Link>. At 12th level, he can instead select two abilities provided by beast shape II, or a single ability provided by <Link to="/spell/beast_shape_iii">beast shape III</Link>. At 16th level, he can instead select three abilities provided by beast shape III, or a single ability provided by <Link to="/spell/beast_shape_iv">beast shape IV</Link>.</p>
-<p>This ability alters <strong className="hl">dual identity</strong> and replaces the <strong className="hl">vigilante talents</strong> gained at 4th, 8th, 12th, and 16th levels.</p>
-<p><strong>Agathion Blessing (Su):</strong> Beginning at 2nd level, an agathiel gains <Link to="/feat/aspect_of_the_beast">Aspect of the Beast</Link> as a bonus feat while in his vigilante identity. If he selects the claws of the beast option, he can select a bite attack (1d8), a gore attack (1d8), or 2 slam attacks (1d4 each), as appropriate to his animal identity.</p>
-<p>This ability replaces the <strong className="hl">vigilante talent</strong> gained at 2nd level.</p>
+<Ability id="arc-vigilante-agathiel-immortal-commitment-su" icon={["hazard-sign"]}>
+<Pair single id="arc-vigilante-agathiel-immortal-commitment-su" flavor="Becoming an agathiel commits a portion of the vigilante's soul to Nirvana, and in turn invests him with a portion of the plane's power.">Immortal Commitment (Su)</Pair>
+<Pair title="Info">An agathiel's social and vigilante identity alignments must both be within one step of neutral good. If either of the agathiel's alignments moves outside this range (because of his own actions or magical manipulation), he gains 1 permanent <Link to="/rule/negative_level">negative level</Link> and loses the ability to assume his vigilante identity until both of his alignments are within one step of neutral good. This negative level cannot be overcome in any way (including by <Link to="/spell/restoration">restoration</Link> spells) until the agathiel's alignment reverts.</Pair>
+</Ability>
+<Ability id="arc-vigilante-agathiel-bestial-identity-su" icon={["magic-swirl"]}>
+<Pair single id="arc-vigilante-agathiel-bestial-identity-su">Bestial Identity (Su)</Pair>
+<Pair hl title="Replaces">Vigilante talents gained at 4th, 8th, 12th, and 16th levels</Pair>
+<Pair hl title="Alters">Dual identity</Pair>
+<Pair title="At 1st Level">An agathiel's vigilante identity must invoke the appearance and behavior of a single Small or Medium creature of the animal type. The vigilante can attempt to appear to be a normal member of this animal type, but doing so imposes a -10 penalty on his Disguise check. The bonus provided by <em>seamless guise</em> still applies to the vigilante's attempts to appear to be an ordinary animal. Once the vigilante's animal form is selected, it cannot be changed.</Pair>
+<Pair title="At 4th Level"><p>When an agathiel assumes his vigilante identity, he physically transforms into an animal, though he always retains unusual traits that set him apart from ordinary animals, as if using <Link to="/spell/beast_shape_i">beast shape I</Link>, except the vigilante gains no ability adjustments and can select only a single animal ability from those listed in the spell's description. His social identity remains his true form, and unlike with <em>beast shape I,</em> an agathiel can remain in his animal form indefinitely. The agathiel's vigilante identity is considered a polymorph effect, and while in his vigilante identity, the agathiel is immune to other polymorph effects.</p>
+<p>Unlike with normal polymorph effects, the agathiel's equipment does not meld into his form, and instead changes shape to fit his animal form and provides the same function, though any equipment requiring hands cannot be used until he returns to his social identity.</p>
+</Pair>
+<Pair title="At 8th Level">When assuming his vigilante identity, the vigilante can select two abilities provided by <em>beast shape I,</em> or select a single ability provided by <Link to="/spell/beast_shape_ii">beast shape II</Link>.</Pair>
+<Pair title="At 12th Level">He can instead select two abilities provided by <em>beast shape II,</em> or a single ability provided by <Link to="/spell/beast_shape_iii">beast shape III</Link>.</Pair>
+<Pair title="At 16th Level">He can instead select three abilities provided by <em>beast shape III,</em> or a single ability provided by <Link to="/spell/beast_shape_iv">beast shape IV</Link>.</Pair>
+</Ability>
+<Ability id="arc-vigilante-agathiel-agathion-blessing-su" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-agathiel-agathion-blessing-su">Agathion Blessing (Su)</Pair>
+<Pair hl title="Replaces">Vigilante talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">An agathiel gains <Link to="/feat/aspect_of_the_beast">Aspect of the Beast</Link> as a bonus feat while in his vigilante identity. If he selects the *claws of the beast *option, he can select a bite attack (1d8), a gore attack (1d8), or 2 slam attacks (1d4 each), as appropriate to his animal identity.</Pair>
+</Ability>
 </>};
 const _anaphexia_thought_killer = {title: "Anaphexia Thought-Killer", jsx: <><h2 id="arc-vigilante-anaphexia_thought_killer-anaphexia-thought-killer">Anaphexia Thought-Killer</h2>
-<p><strong>NOTE:</strong> The levels given for social and vigilante talents are incorrect. It is unclear if the abilities or talents should be adjusted up or down a level to compensate, or if the talent types should be switched. Consult your GM.</p>
-<p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 38</Link><br/>Anaphexia thought-killers worship Norgorber's Reaper of Reputation aspect from their secret home in Ustalav. In sacrifice to him, they cut out their own tongues to gain magical protection from exposure and hunt down secrets to steal before they can be spread - which usually requires executing those who already knew them.</p>
-<p><strong>Tongue Sacrifice (Su):</strong> An Anaphexia thought-killer's social identity is as a <Link to="/faith/pharasma">Pharasmin</Link> priest, one whom many people assume has taken a vow of silence since they speak so infrequently. In order to assume her vigilante identity, an Anaphexia thought-killer must cut out her own tongue as a standard action - an act that deals 1d4 points of damage plus 1 point of bleed damage and leaves her unable to speak (even to cast spells). The thought-killer gains the ability to cast <Link to="/spell/regenerate">regenerate</Link> as a spell-like ability once per day, and only to restore her own tongue.</p>
-<p><strong>Monastic Communication (Ex):</strong> At 2nd level, an Anaphexia thought-killer is skilled at maintaining a disguise without speaking. She can communicate simple concepts through body language and pantomime as though passing a secret message using the Bluff skill, in half the time normally required to do so. The Anaphexia thought-killer gains a bonus on this check equal to 1/2 her vigilante level.</p>
-<p>This replaces the <strong className="hl">social talent</strong> gained at 2nd level.</p>
-<p><strong>Silent to Magic (Su):</strong> At 6th level, an Anaphexia thought-killer is protected by <Link to="/spell/nondetection">nondetection</Link> in her social identity but only against mind-reading effects. Her effective caster level is equal to her vigilante level. At 10th level, this protection also applies to the thought-killer's vigilante identity.</p>
-<p>This ability replaces the <strong className="hl">social talent</strong> gained at 6th level.</p>
-<p><strong>Thought-Scent (Su):</strong> At 7th level, an Anaphexia thought-killer can smell a significant thought. As a standard action, she can choose one fact or idea she already knows, such as a secret she wishes to keep hidden, and can locate any creature within 30 feet who knows it as with the scent ability. The range increases to 60 feet if the creature is upwind and drops to 15 feet if the creature is downwind. She can discern the direction to the creature until she is adjacent, at which point she can pinpoint the creature's square. This is a mind-affecting divination effect. The Anaphexia thought-killer can use this ability for up to 1 minute per level. These minutes need not be consecutive but must be used in 1-minute intervals.</p>
-<p>This replaces the <strong className="hl">vigilante talent</strong> gained at 7th level.</p>
-<p><strong>False Reading (Su):</strong> At 15th level, an Anaphexia thought-killer is immune to all effects attempting to read her mind in both her social and vigilante identities. The Anaphexia thought-killer can attempt a Bluff check to provide false results to the creature attempting to read her thoughts, which the target can see through with a successful opposed Sense Motive check.</p>
-<p>This replaces the <strong className="hl">vigilante talent</strong> gained at 15th level.</p>
+<p><strong className="hl">NOTE:</strong> The levels given for social and vigilante talents are incorrect, saying the abilities replace social talents at even levels and vigilante talents at odd levels. It is unclear if the abilities and talents should be adjusted up or down a level to compensate, or if the talent types should be switched. Consult your GM if you wish to use this archetype.</p>
+<p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 38</Link><br/>Anaphexia thought-killers worship <Link to="/faith/norgorber">Norgorber's</Link> Reaper of Reputation aspect from their secret home in Ustalav. In sacrifice to him, they cut out their own tongues to gain magical protection from exposure and hunt down secrets to steal before they can be spread - which usually requires executing those who already knew them.</p>
+<Ability id="arc-vigilante-anaphexia_thought_killer-tongue-sacrifice-su" icon={["info","broken-shield","magic-swirl"]}>
+<Pair single id="arc-vigilante-anaphexia_thought_killer-tongue-sacrifice-su">Tongue Sacrifice (Su)</Pair>
+<Pair title="Info">An Anaphexia thought-killer's social identity is as a <Link to="/faith/pharasma">Pharasmin</Link> priest, one whom many people assume has taken a vow of silence since they speak so infrequently. In order to assume her vigilante identity, an Anaphexia thought-killer must cut out her own tongue as a <strong className="hl">standard action</strong> - an act that deals 1d4 points of damage plus 1 point of <Link to="/rule/bleed">bleed</Link> damage and leaves her unable to speak (even to cast spells).</Pair>
+<Pair title="Ability">The thought-killer gains the ability to cast <Link to="/spell/regenerate">regenerate</Link> as a spell-like ability once per day, and only to restore her own tongue.</Pair>
+</Ability>
+<Ability id="arc-vigilante-anaphexia_thought_killer-monastic-communication-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-vigilante-anaphexia_thought_killer-monastic-communication-ex">Monastic Communication (Ex)</Pair>
+<Pair hl title="Replaces">Social talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">An Anaphexia thought-killer is skilled at maintaining a disguise without speaking. She can communicate simple concepts through body language and pantomime as though passing a secret message using the Bluff skill, in half the time normally required to do so. The Anaphexia thought-killer gains a bonus on this check equal to <Link to="/misc/half">half</Link> her vigilante level.</Pair>
+</Ability>
+<Ability id="arc-vigilante-anaphexia_thought_killer-silent-to-magic-su" icon={["armor-upgrade"]}>
+<Pair single id="arc-vigilante-anaphexia_thought_killer-silent-to-magic-su">Silent to Magic (Su)</Pair>
+<Pair hl title="Replaces">Social talent gained at 6th level</Pair>
+<Pair title="At 6th Level">An Anaphexia thought-killer is protected by <Link to="/spell/nondetection">nondetection</Link> in her social identity but only against mind-reading effects. Her effective caster level is equal to her vigilante level.</Pair>
+<Pair title="At 10th Level">This protection also applies to the thought-killer's vigilante identity.</Pair>
+</Ability>
+<Ability id="arc-vigilante-anaphexia_thought_killer-thought-scent-su" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-anaphexia_thought_killer-thought-scent-su" flavor="An Anaphexia thought-killer can smell a significant thought.">Thought-Scent (Su)</Pair>
+<Pair hl title="Replaces">Vigilante talent gained at 7th level</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Usage">1 minute/day per vigilante level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Standard Action">She can choose one fact or idea she already knows, such as a secret she wishes to keep hidden, and can locate any creature within 30 feet who knows it as with the <Link to="/umr/scent">scent</Link> ability. The range increases to 60 feet if the creature is upwind and drops to 15 feet if the creature is downwind. She can discern the direction to the creature until she is adjacent, at which point she can pinpoint the creature's square. This is a mind-affecting divination effect.</Pair>
+</Ability>
+<Ability id="arc-vigilante-anaphexia_thought_killer-false-reading-su" icon={["armor-upgrade","stairs-goal"]}>
+<Pair single id="arc-vigilante-anaphexia_thought_killer-false-reading-su">False Reading (Su)</Pair>
+<Pair hl title="Replaces">Vigilante talent gained at 15th level</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">An Anaphexia thought-killer is immune to all effects attempting to read her mind in both her social and vigilante identities. The Anaphexia thought-killer can attempt a Bluff check to provide false results to the creature attempting to read her thoughts, which the target can see through with a successful opposed Sense Motive check.</Pair>
+</Ability>
 </>};
 const _avenging_beast = {title: "Avenging Beast", jsx: <><h2 id="arc-vigilante-avenging_beast-avenging-beast">Avenging Beast</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 96</Link><br/>Some vigilantes turn to natural traditions and supernatural forces to transform into beasts, unleashing a primal fury on their foes before returning to an ordinary guise.</p>
@@ -31,57 +69,170 @@ const _avenging_beast = {title: "Avenging Beast", jsx: <><h2 id="arc-vigilante-a
 <Pair id="arc-vigilante-avenging_beast-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
 <Pair title="Removed Skills">Disable Device, Knowledge (engineering), Perform, Sleight of Hand</Pair></Ability>
-<p><strong>Skill Ranks per Level:</strong> An avenging beast gains a number of skill ranks equal to 4 + his Intelligence modifier at each level, instead of 6 + his Intelligence modifier.</p>
-<p>This alters the vigilante's <strong className="hl">skill ranks per level</strong>.</p>
-<p><strong>Animal Mask (Ex):</strong> An avenging beast gains an ornate animal-headed mask that is a focus for his power and must be worn when assuming his vigilante identity. This mask symbolizes one specific animal, and the animal cannot be changed once chosen. Without this mask, an avenging beast cannot assume his vigilante identity. An avenging beast who loses his mask can replace it after 1 week through a specialized ritual that takes 8 hours to complete and costs 200 gp per avenging beast level.</p>
-<p>This alters <strong className="hl">dual identity</strong>.</p>
-<p><strong>Spellcasting:</strong> An avenging beast casts divine spells as a <Link to="/class/hunter">hunter</Link> and uses the <Link to="/main/spells_hunter">hunter's spell list</Link>.</p>
-<p>This replaces the <strong className="hl">vigilante talents</strong> gained at 4th, 8th, 10th, 14th, and 16th level.</p>
-<p><strong>Patron Spells:</strong> An avenging beast selects a <Link to="/ability/patrons">patron</Link> from the witch patron list and adds the patron bonus spells to his spell list (up to 6th-level spells). Patron spells of 7th level or higher are not counted as being on the avenging beast's spell list.</p>
-<p>This replaces <strong className="hl">vigilante specialization</strong>.</p>
-<p><strong>Wild Shape (Su):</strong> At 5th level, when in his vigilante identity, the avenging beast gains the ability to take on the shape of the animal represented by his animal mask. This ability functions identically to the <Link to="/class/druid">druid's</Link> wild shape ability, except the ability does not improve beyond functioning as <Link to="/spell/beast_shape_i">beast shape I</Link>. The avenging beast treats his vigilante level as his druid level for the purposes of this ability. An avenging beast can use wild shape once per day at 5th level and one additional time per day at 7th level and every 2 levels thereafter, for a total of eight times per day at 19th level.</p>
-<p>This replaces <strong className="hl">startling appearance</strong>, <strong className="hl">frightening appearance</strong>, and <strong className="hl">stunning appearance</strong>.</p>
+<Ability id="arc-vigilante-avenging_beast-skill-ranks-per-level" icon={["broken-shield"]}>
+<Pair single id="arc-vigilante-avenging_beast-skill-ranks-per-level">Skill Ranks per Level</Pair>
+<Pair hl title="Alters">Skill ranks per level</Pair>
+<Pair title="Info">An avenging beast gains a number of skill ranks equal to 4 + his Intelligence modifier at each level, instead of 6 + his Intelligence modifier.</Pair>
+</Ability>
+<Ability id="arc-vigilante-avenging_beast-animal-mask-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-avenging_beast-animal-mask-ex">Animal Mask (Ex)</Pair>
+<Pair hl title="Alters">Dual identity</Pair>
+<Pair title="Info">An avenging beast gains an ornate animal-headed mask that is a focus for his power and must be worn when assuming his vigilante identity. This mask symbolizes one specific animal, and the animal cannot be changed once chosen. Without this mask, an avenging beast cannot assume his vigilante identity.</Pair>
+<Pair title="Special">An avenging beast who loses his mask can replace it after 1 week through a specialized ritual that takes 8 hours to complete and costs 200 gp per avenging beast level.</Pair>
+</Ability>
+<Ability id="arc-vigilante-avenging_beast-spellcasting" icon={["spell-book","magic-swirl"]}>
+<Pair single id="arc-vigilante-avenging_beast-spellcasting">Spellcasting</Pair>
+<Pair hl title="Replaces">Vigilante talents gained at 4th, 8th, 10th, 14th, and 16th level</Pair>
+<Pair title="Ability">An avenging beast casts divine spells as a <Link to="/class/hunter">hunter</Link> and uses the <Link to="/main/spells_hunter">hunter's spell list</Link>.</Pair>
+</Ability>
+<Ability id="arc-vigilante-avenging_beast-patron-spells" icon={["spell-book"]}>
+<Pair single id="arc-vigilante-avenging_beast-patron-spells">Patron Spells</Pair>
+<Pair hl title="Replaces">Vigilante specialization</Pair>
+<Pair title="Ability">An avenging beast selects a <Link to="/ability/patrons">patron</Link> from the witch patron list and adds the patron bonus spells to his spell list (up to 6th-level spells).</Pair>
+<Pair title="Special">Patron spells of 7th level or higher are not counted as being on the avenging beast's spell list.</Pair>
+</Ability>
+<Ability id="arc-vigilante-avenging_beast-wild-shape-su" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Pair single id="arc-vigilante-avenging_beast-wild-shape-su">Wild Shape (Su)</Pair>
+<Pair hl title="Replaces">Startling appearance, frightening appearance, stunning appearance</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">Once per day, when in his vigilante identity, the avenging beast gains the ability to take on the shape of the animal represented by his animal mask. This ability functions identically to the <Link to="/class/druid">druid's</Link> <em>wild shape</em> ability, except the ability does not improve beyond functioning as <Link to="/spell/beast_shape_i">beast shape I</Link>. The avenging beast treats his vigilante level as his druid level for the purposes of this ability.</Pair>
+<Pair title="At 7th Level">He can use this 2 times a day.</Pair>
+<Pair title="At 9th Level">He can use this 3 times a day.</Pair>
+<Pair title="At 11th Level">He can use this 4 times a day.</Pair>
+<Pair title="At 13th Level">He can use this 5 times a day.</Pair>
+<Pair title="At 15th Level">He can use this 6 times a day.</Pair>
+<Pair title="At 17th Level">He can use this 7 times a day.</Pair>
+<Pair title="At 19th Level">He can use this 8 times a day.</Pair>
+</Ability>
+<Ability id="arc-vigilante-avenging_beast-wild-shape-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-avenging_beast-wild-shape-su">Wild Shape (Su)</Pair>
+<Pair title="Usage">Once a day.</Pair>
+<Pair title="Standard Action">You gain the ability to turn yourself into any Small or Medium animal and back again. Your options for new forms include all creatures with the <Link to="/main/monsters_animals">animal</Link> type. This ability functions like the <Link to="/spell/beast_shape_i">beast shape I</Link> spell, except as noted here. The effect lasts for 1 hour per druid level, or until you change back.</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
+<Pair title="Special">You lose your ability to speak while in animal form because you are limited to the sounds that a normal, untrained animal can make, but you can communicate normally with other animals of the same general grouping as your new form. (The normal sound a wild parrot makes is a squawk, so changing to this form does not permit speech.)</Pair>
+</Ability>
 </>};
 const _bellflower_harvester = {title: "Bellflower Harvester", jsx: <><h2 id="arc-vigilante-bellflower_harvester-bellflower-harvester">Bellflower Harvester</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 42</Link>, <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 25</Link><br/>Bellflower harvesters are the front-line operatives of the secretive <Link to="/rule/bellflower_network">Bellflower Network</Link>, whose members infiltrate Chelish estates in the guise of servants and slaves, and tolerate a harsh life as they uncover secrets, gauge security, and send slaves on the first steps toward freedom. While <Link to="/pclass/bellflower_tiller">Bellflower tillers</Link> wander the countryside, escorting the crop of escapees to freedom, Bellflower harvesters remain in seeming bondage to direct others to the road to freedom, undermine efforts to recapture slaves, and end the threat of especially vile masters. Bellflower harvesters consist almost exclusively of halflings, though the role could be taken by anyone with the patience or humility to withstand months or years of cruel abuse without risking being caught raising a hand in his own defense.</p>
-<p><strong>Rebellious Identity (Ex):</strong> A Bellflower harvester's vigilante identity must be within one step of chaotic good, and his social identity must appear to be a servant, slave, or other menial laborer.</p>
-<p>This alters <strong className="hl">dual identity</strong>.</p>
-<p><strong>Bellflower Crop (Ex):</strong> As a standard action, a Bellflower harvester can designate a number of allies equal to 3 + his Charisma modifier as part of his Bellflower crop. Members of a Bellflower crop must remain within 30 feet of the vigilante to gain any benefits from abilities that affect a Bellflower crop, regardless of the ability's source (whether it's a Bellflower harvester, irrigator, or tiller). If the allies leave this range, the Bellflower harvester must designate them again to include them in his crop.</p>
-<p><strong>Crop Vigilance (Ex):</strong> When the Bellflower harvester uses the aid another action to grant a member of his Bellflower crop a bonus on an attack roll against an opponent, on a skill check, or to AC against an opponent's next attack, the bonus increases to +3. This doesn't stack with the benefits of other feats or class features that improve the bonus he grants to an ally with aid another. At 5th level and every 6 vigilante levels thereafter, the bonus that the Bellflower harvester provides when using aid another to assist a member of his Bellflower crop increases by 1, to a maximum of +6 at 17th level.</p>
-<p>This ability replaces <strong className="hl">vigilante specialization</strong>, but the Bellflower harvester is still treated as if he had the stalker specialization for the purpose of selecting other vigilante talents.</p>
-<p><strong>Obsequious (Ex):</strong> A Bellflower harvester works hard to cultivate a social identity that plays off others' racist assumptions to deflect blame and excuse suspicious behavior, making him seem harmless or even a model servant. He can use the Bluff skill to deflect suspicion about his vigilante identity and activities (including use of vigilante talents when in his social identity) rather than Disguise, and gains a +2 bonus on Bluff checks to do so. This bonus increases by 1 for every 4 vigilante levels he has beyond 1st, to a maximum of +6 at 17th level.</p>
-<p>This ability replaces the <strong className="hl">social talent</strong> gained at 1st level.</p>
-<p><strong>Tend the Garden (Ex):</strong> At 2nd level, a Bellflower harvester gains the ability to coordinate the members of his Bellflower crop to improve their performance in battle. He gains <Link to="/feat/stealth_synergy">Stealth Synergy</Link> as a bonus feat. As a standard action, a Bellflower harvester can grant any one teamwork feat he has to all members of his Bellflower crop who can see and hear him. Members of his Bellflower crop retain this feat for 1 round, plus 1 round for every 5 vigilante levels the Bellflower harvester has beyond 2nd, to a maximum of 4 rounds at 17th level. A Bellflower harvester can share only one teamwork feat at a time in this manner.</p>
-<p>This ability replaces the <strong className="hl">vigilante talent</strong> gained at 2nd level.</p>
-<p><strong>Social Talents:</strong> The following social talents complement the Bellflower harvester: <Link to="/soctalent/case_the_joint">case the joint</Link>, <Link to="/soctalent/feign_innocence">feign innocence</Link>, <Link to="/soctalent/gossip_collector">gossip collector</Link>, <Link to="/soctalent/loyal_aid">loyal aid</Link>, and <Link to="/soctalent/subjective_truth">subjective truth</Link>.</p>
-<p><strong>Vigilante Talents:</strong> The following vigilante talents complement the Bellflower harvester: <Link to="/vigtalent/blind_spot">blind spot</Link>, <Link to="/vigtalent/environmental_weapon">environmental weapon</Link>, <Link to="/vigtalent/shadows_sight">shadow's sight</Link>, and <Link to="/vigtalent/team_player">team player</Link>.</p>
+<Ability id="arc-vigilante-bellflower_harvester-rebellious-identity-ex" icon={["hazard-sign"]}>
+<Pair single id="arc-vigilante-bellflower_harvester-rebellious-identity-ex">Rebellious Identity (Ex)</Pair>
+<Pair hl title="Alters">Dual identity</Pair>
+<Pair title="Info">A Bellflower harvester's vigilante identity must be within one step of chaotic good, and his social identity must appear to be a servant, slave, or other menial laborer.</Pair>
+</Ability>
+<Ability id="arc-vigilante-bellflower_harvester-bellflower-crop-ex" icon={["shield-reflect"]}>
+<Pair single id="arc-vigilante-bellflower_harvester-bellflower-crop-ex">Bellflower Crop (Ex)</Pair>
+<Pair title="Standard Action">A Bellflower harvester can designate a number of allies equal to 3 + his Charisma modifier as part of his Bellflower crop. Members of a Bellflower crop must remain within 30 feet of the vigilante to gain any benefits from abilities that affect a Bellflower crop, regardless of the ability's source (whether it's a Bellflower harvester, <Link to="/arc-rogue/bellflower_irrigator">irrigator</Link>, or <Link to="/pclass/bellflower_tiller">tiller</Link>). If the allies leave this range, the Bellflower harvester must designate them again to include them in his crop.</Pair>
+</Ability>
+<Ability id="arc-vigilante-bellflower_harvester-crop-vigilance-ex" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-bellflower_harvester-crop-vigilance-ex">Crop Vigilance (Ex)</Pair>
+<Pair hl title="Replaces">Vigilante specialization</Pair>
+<Pair title="Ability">When the Bellflower harvester uses the <Link to="/rule/aid_another_2">aid another</Link> action to grant a member of his Bellflower crop a bonus on an attack roll against an opponent, on a skill check, or to AC against an opponent's next attack, the bonus increases to +3. This doesn't stack with the benefits of other feats or class features that improve the bonus he grants to an ally with aid another.</Pair>
+<Pair title="At 5th Level">The bonus becomes +4.</Pair>
+<Pair title="At 11th Level">The bonus increases to +5.</Pair>
+<Pair title="At 17th Level">The bonus becomes +6.</Pair>
+<Pair title="Special">The Bellflower harvester is still treated as if he had the <em>stalker</em> specialization for the purpose of selecting other vigilante talents.</Pair>
+</Ability>
+<Ability id="arc-vigilante-bellflower_harvester-obsequious-ex" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-bellflower_harvester-obsequious-ex" flavor="A Bellflower harvester works hard to cultivate a social identity that plays off others' racist assumptions to deflect blame and excuse suspicious behavior, making him seem harmless or even a model servant.">Obsequious (Ex)</Pair>
+<Pair hl title="Replaces">Social talent gained at 1st level</Pair>
+<Pair title="Ability">He can use the Bluff skill to deflect suspicion about his vigilante identity and activities (including use of vigilante talents when in his social identity) rather than Disguise, and gains a +2 bonus on Bluff checks to do so.</Pair>
+<Pair title="At 5th Level">This bonus becomes +3.</Pair>
+<Pair title="At 9th Level">This bonus increases to +4.</Pair>
+<Pair title="At 13th Level">This bonus becomes +5.</Pair>
+<Pair title="At 17th Level">This bonus increases to +6.</Pair>
+</Ability>
+<Ability id="arc-vigilante-bellflower_harvester-tend-the-garden-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-bellflower_harvester-tend-the-garden-ex" flavor="A Bellflower harvester gains the ability to coordinate the members of his Bellflower crop to improve their performance in battle.">Tend the Garden (Ex)</Pair>
+<Pair hl title="Replaces">Vigilante talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">He gains <Link to="/feat/stealth_synergy">Stealth Synergy</Link> as a bonus feat.</Pair>
+<Pair title="Standard Action">A Bellflower harvester can grant any one teamwork feat he has to all members of his Bellflower crop who can see and hear him. Members of his Bellflower crop retain this feat for 1 round. A Bellflower harvester can share only one teamwork feat at a time in this manner.</Pair>
+<Pair title="At 7th Level">They can now retain the feat for 2 rounds.</Pair>
+<Pair title="At 12th Level">They can now retain the feat for 3 rounds.</Pair>
+<Pair title="At 17th Level">They can now retain the feat for 4 rounds.</Pair>
+</Ability>
+<p><strong className="hl">The following social talents complement the Bellflower harvester:</strong> <Link to="/soctalent/case_the_joint">case the joint</Link>, <Link to="/soctalent/feign_innocence">feign innocence</Link>, <Link to="/soctalent/gossip_collector">gossip collector</Link>, <Link to="/soctalent/loyal_aid">loyal aid</Link>, and <Link to="/soctalent/subjective_truth">subjective truth</Link>.</p>
+<p><strong className="hl">The following vigilante talents complement the Bellflower harvester:</strong> <Link to="/vigtalent/blind_spot">blind spot</Link>, <Link to="/vigtalent/environmental_weapon">environmental weapon</Link>, <Link to="/vigtalent/shadows_sight">shadow's sight</Link>, and <Link to="/vigtalent/team_player">team player</Link>.</p>
 </>};
 const _brute = {title: "Brute", jsx: <><h2 id="arc-vigilante-brute-brute">Brute</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 54</Link><br/>Either through the results of magical experimentation or bizarre natural sparks, some vigilantes can transform into brutish versions of themselves, becoming larger, more terrifying in appearance, and far more formidable in combat - though at a price.</p>
-<p><strong>Chaotic Vigilante (Ex):</strong> A brute's vigilante alignment must be chaotic, and his vigilante identity and his social identity must be within one step of each other on the alignment axis.</p>
-<p>This ability alters <strong className="hl">dual identity</strong>.</p>
-<p><strong>Brutish Fortitude (Ex):</strong> A brute's base Fortitude save bonus from his vigilante levels is equal to 2 + half his vigilante level, and his base Reflex and Will save bonuses are equal to 1/3 his vigilante level.</p>
-<p>This ability alters the vigilante's <strong className="hl">base saving throws</strong>.</p>
-<p><strong>Weapon and Armor Proficiency:</strong> A brute isn't proficient with medium armor or martial weapons. However, he gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat.</p>
-<p>This alters the vigilante's <strong className="hl">armor and weapon proficiencies</strong>.</p>
-<p><strong>Brute Form (Ex):</strong> Though it is sometimes difficult to maintain, a brute has a measure of control over his abilities.</p>
-<p>While in his vigilante identity, a brute becomes one size category larger, gaining no ability score adjustments but otherwise gaining <Link to="/rule/adding_racial_hit_dice">all adjustments</Link> for his new size, including <Link to="/rule/big_and_little_creatures_in_combat">additional reach</Link>, if appropriate. A brute's vigilante identity is savage and dangerous. While in his vigilante identity, the brute takes a -2 penalty to AC, as well as to all ability checks and skill checks that rely on Charisma, Dexterity, or Intelligence. Furthermore, the brute cannot use any Charisma-, Dexterity-, or Intelligence-based skill (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration (such as spellcasting). When a brute is in mortal peril, such as when combat starts, if he is in his social identity, he must succeed at a Will save (DC = 20 + 1/2 his vigilante level) or enter his vigilante identity. Entering his vigilante identity in this way is a horrifying and painful process that takes 1 full round, during which he is flat-footed, and it typically allows his enemies to see his transformation and learn his identity. The brute's vigilante identity can't always tell friend from foe. While he still attacks enemies preferentially during a battle, when there are no more enemies around, each round he must succeed at a Will save (DC = 20 + 1/2 his vigilante level) or continue fighting against his allies or bystanders. Allies can use the aid another action to assist this saving throw with skills like Diplomacy, as they attempt to calm him down. On a successful save, he slowly turns back to his social identity over the course of 1 minute (or shorter if he has a social talent that reduces that time).</p>
-<p>A brute uses his vigilante level as his base attack bonus, but only while he is in his vigilante identity. At 5th level, while in his vigilante identity, the brute gains a +1 bonus on melee attack and damage rolls. This bonus increases to +2 at 13th level and to +3 at 19th level. He uses his normal base attack bonus to qualify for feats and other abilities, although when in his vigilante identity, he uses his increased base attack bonus to determine the effects of feats (such as <Link to="/feat/power_attack">Power Attack</Link>) and other abilities.</p>
+<Ability id="arc-vigilante-brute-chaotic-vigilante-ex" icon={["hazard-sign"]}>
+<Pair single id="arc-vigilante-brute-chaotic-vigilante-ex">Chaotic Vigilante (Ex)</Pair>
+<Pair hl title="Alters">Dual identity</Pair>
+<Pair title="Info">A brute's vigilante alignment must be chaotic, and his vigilante identity and his social identity must be within one step of each other on the alignment axis.</Pair>
+</Ability>
+<Ability id="arc-vigilante-brute-brutish-fortitude-ex" icon={["armor-upgrade","broken-shield"]}>
+<Pair single id="arc-vigilante-brute-brutish-fortitude-ex">Brutish Fortitude (Ex)</Pair>
+<Pair hl title="Alters">Base saving throws</Pair>
+<Pair title="Info">A brute's base Fortitude save bonus from his vigilante levels is equal to 2 + half his vigilante level, and his base Reflex and Will save bonuses are equal to 1/3 his vigilante level.</Pair>
+</Ability>
+<Ability id="arc-vigilante-brute-weapon-and-armor-proficiency" icon={["broken-shield","stairs-goal"]}>
+<Pair single id="arc-vigilante-brute-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Alters">Armor and weapon proficiencies</Pair>
+<Pair title="Info">A brute isn't proficient with medium armor or martial weapons. However, he gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-vigilante-brute-brute-form-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-vigilante-brute-brute-form-ex">Brute Form (Ex)</Pair>
+<Pair hl title="Replaces">Vigilante specialization</Pair>
+<Pair title="Ability"><p>Though it is sometimes difficult to maintain, a brute has a measure of control over his abilities.</p>
+<p>While in his vigilante identity, a brute becomes one size category larger, gaining no ability score adjustments but otherwise gaining <Link to="/rule/adding_racial_hit_dice">all adjustments</Link> for his new size, including <Link to="/rule/big_and_little_creatures_in_combat">additional reach</Link>, if appropriate.</p>
+<p>A brute's vigilante identity is savage and dangerous. While in his vigilante identity, the brute takes a -2 penalty to AC, as well as to all ability checks and skill checks that rely on Charisma, Dexterity, or Intelligence. Furthermore, the brute cannot use any Charisma-, Dexterity-, or Intelligence-based skill (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration (such as spellcasting).</p>
+<p>When a brute is in mortal peril, such as when combat starts, if he is in his social identity, he must succeed at a Will save (DC = 20 + 1/2 his vigilante level) or enter his vigilante identity. Entering his vigilante identity in this way is a horrifying and painful process that takes 1 full round, during which he is <Link to="/rule/flat_footed">flat-footed</Link>, and it typically allows his enemies to see his transformation and learn his identity. The brute's vigilante identity can't always tell friend from foe. While he still attacks enemies preferentially during a battle, when there are no more enemies around, each round he must succeed at a Will save (DC = 20 + 1/2 his vigilante level) or continue fighting against his allies or bystanders. Allies can use the <Link to="/rule/aid_another">aid another</Link> action to assist this saving throw with skills like Diplomacy, as they attempt to calm him down. On a successful save, he slowly turns back to his social identity over the course of 1 minute (or shorter if he has a social talent that reduces that time).</p>
+<p>A brute uses his vigilante level as his base attack bonus, but only while he is in his vigilante identity. He uses his normal base attack bonus to qualify for feats and other abilities, although when in his vigilante identity, he uses his increased base attack bonus to determine the effects of feats (such as <Link to="/feat/power_attack">Power Attack</Link>) and other abilities.</p>
 <p>A brute's mundane clothes and armor do not increase in size with him, and any such items he wears while changing into his vigilante identity lose one-quarter of their hit points. Magical clothes and accessories increase in size with the vigilante, however (though his magical armor and weapons initially do not, as normal).</p>
-<p>A brute can stay in his vigilante identity for up to 2 hours at a time, for a total of up to 6 hours in a 24-hour period. When threatened in his vigilante identity, he has the potential to damage bystanders or allies. After switching from his vigilante identity to his social identity, he is fatigued for the same amount of time (rounds, minutes, or hours) that he spent in his vigilante identity and cannot remove or ignore this fatigue by any means except by waiting the appropriate amount of time. If he enters his vigilante identity while fatigued, once he switches back to his social identity, he becomes exhausted for the amount of time he just spent in his vigilante identity, and he also can't remove or ignore the exhaustion by any means other than waiting the appropriate length of time. A character with immunity to fatigue or exhaustion cannot adopt a brute form at all; that immunity prevents the transformation as an effect that would cause fatigue or exhaustion.</p>
-<p>An exhausted brute can only enter his vigilante identity for a number of rounds equal to half his vigilante level (minimum 1); following these rounds, the brute immediately falls unconscious, or into a stupor if he is somehow prevented from falling unconscious. In this state, a brute can be healed as normal (and, if he has 0 hit points or more, he returns to consciousness after receiving any amount of magical healing or a DC 15 Heal check), but he cannot enter his vigilante identity for 1 hour.</p>
-<p>This ability replaces <strong className="hl">vigilante specialization</strong>.</p>
-<p><strong>Brute Talents:</strong> A brute can select from any of the following vigilante talents, in addition to general vigilante talents.</p>
-<p>This alters <strong className="hl">vigilante talents</strong>.</p>
-<blockquote>
-<p><strong>Awesome Blow (Ex):</strong> The brute has learned that his body is his most formidable weapon. He gains the <Link to="/feat/awesome_blow">Awesome Blow</Link> monster feat as a bonus feat, but only while in his vigilante identity. He can ignore the feat's prerequisites. His awesome blow combat maneuver deals an amount of damage equal to 1d6 plus his Strength modifier, or his unarmed strike damage, whichever is better. At 16th level, the brute can use Awesome Blow against a creature of any size, and he can bull rush, drag, reposition, and trip creatures of any size. A brute must be at least 8th level to select this talent.</p>
-<p><strong>Heavy Punches (Ex):</strong> The brute eschews civilized combat and prefers to wade into a fight with his fists swinging. While in his vigilante identity, the brute's unarmed strikes deal damage as if he were a monk of his size and vigilante level. If he has levels in other classes that provide monk advancement for unarmed strike damage, his vigilante level stacks with those levels whenever he is in his vigilante identity.</p>
-<p><strong>Scale Surroundings (Ex):</strong> Instead of letting physical barriers stop him, the brute can simply climb over them. He gains a climb speed of 30 feet when he is in his vigilante identity. A brute must be at least 4th level to select this talent.</p>
-<p><strong>Sizing Equipment (Ex):</strong> The brute has learned how to adjust his magic armor so that it provides him some protection while in his vigilante identity. Magic armor the brute wears that is sized for his social identity provides an armor bonus equal to its normal armor bonus - 1 while he is in his vigilante identity. In addition, wielding a magic weapon properly sized for his social identity deals damage as if it were a magic weapon properly sized for his vigilante identity, but it imposes a -1 penalty on attack rolls. At 6th level, he takes no penalties when using such weapons and armor, and his weapons and armor work in all ways (including damage dice) as if they were of the vigilante's new size. This talent only applies to magic arms and armor; inappropriately sized mundane arms and armor are not affected.</p>
-<p><strong>Total Destruction (Ex):</strong> The brute is adept at rampaging through an area, throwing whatever is available at his opponents. The brute gains <Link to="/feat/throw_anything">Throw Anything</Link> as a bonus feat. As a standard action, while in his vigilante identity, he can throw any unattended object up to two size categories smaller than he is up to 60 feet if he is Medium and 80 feet if he is Large. This deals 1d6 points of bludgeoning damage if he is Medium or 1d8 if he is Large, and the brute adds 1-1/2 times his Strength modifier to this damage. At 8th level, he can also throw a creature up to two size categories smaller than himself, but he must succeed at a combat maneuver check against that creature's CMD to do so. The thrown creature lands prone and takes an amount of damage equal to the damage dealt to the target of the throw (as noted above), whether the brute hits or misses. At 16th level, he can instead throw an object one size category larger than himself at creatures within a 10-foot radius from the object's point of impact. These creatures must succeed at a Reflex save (DC = 10 + 1/2 the brute's vigilante level + his Strength modifier) or take 1d6 points of damage per vigilante level.</p>
-</blockquote>
-<p><strong>Tear Them Apart (Ex):</strong> At 20th level, a brute has learned how to tear at his enemies' bodies when he hits with multiple attacks. When he takes a full attack action while in his vigilante identity, if a brute hits an opponent with at least two attacks, he deals an additional 1d10 points of damage plus 1-1/2 times his Strength modifier. If he hits an opponent with four attacks during a full attack action while in his vigilante identity, he instead deals an additional 3d10 points of damage plus 1-1/2 times his Strength modifier. The damage occurs after he has taken his last attack with the full attack action. This counts as a rend and does not stack with other abilities that grant rend.</p>
-<p>This ability replaces <strong className="hl">vengeance strike</strong>.</p>
+<p>A brute can stay in his vigilante identity for up to 2 hours at a time, for a total of up to 6 hours in a 24-hour period. When threatened in his vigilante identity, he has the potential to damage bystanders or allies. After switching from his vigilante identity to his social identity, he is <Link to="/misc/fatigued">fatigued</Link> for the same amount of time (rounds, minutes, or hours) that he spent in his vigilante identity and cannot remove or ignore this fatigue by any means except by waiting the appropriate amount of time. If he enters his vigilante identity while fatigued, once he switches back to his social identity, he becomes <Link to="/misc/exhausted">exhausted</Link> for the amount of time he just spent in his vigilante identity, and he also can't remove or ignore the exhaustion by any means other than waiting the appropriate length of time. A character with immunity to fatigue or exhaustion cannot adopt a brute form at all; that immunity prevents the transformation as an effect that would cause fatigue or exhaustion.</p>
+<p>An exhausted brute can only enter his vigilante identity for a number of rounds equal to <Link to="/misc/half">half</Link> his vigilante level (minimum 1); following these rounds, the brute immediately falls unconscious, or into a stupor if he is somehow prevented from falling unconscious. In this state, a brute can be healed as normal (and, if he has 0 hit points or more, he returns to consciousness after receiving any amount of magical healing or a DC 15 Heal check), but he cannot enter his vigilante identity for 1 hour.</p>
+</Pair>
+<Pair title="At 5th Level">While in his vigilante identity, the brute gains a +1 bonus on melee attack and damage rolls.</Pair>
+<Pair title="At 13th Level">This bonus becomes +2.</Pair>
+<Pair title="At 19th Level">This bonus increases to +3.</Pair>
+</Ability>
+<Ability id="arc-vigilante-brute-brute-talents" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-brute-brute-talents">Brute Talents</Pair>
+<Pair hl title="Alters">Vigilante talents</Pair>
+<Pair title="Info">A brute can select from any of the following vigilante talents, in addition to general vigilante talents.</Pair>
+</Ability>
+<Ability id="arc-vigilante-brute-awesome-blow-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-brute-awesome-blow-ex" flavor="The brute has learned that his body is his most formidable weapon.">Awesome Blow (Ex)</Pair>
+<Pair title="Prerequisites">8th-level vigilante</Pair>
+<Pair title="Ability">He gains the <Link to="/feat/awesome_blow">Awesome Blow</Link> monster feat as a bonus feat, but only while in his vigilante identity. He can ignore the feat's prerequisites. His <em>awesome blow</em> combat maneuver deals an amount of damage equal to 1d6 plus his Strength modifier, or his unarmed strike damage, whichever is better.</Pair>
+<Pair title="At 16th Level">The brute can use Awesome Blow against a creature of any size, and he can <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/drag">drag</Link>, <Link to="/rule/reposition">reposition</Link>, and <Link to="/rule/trip">trip</Link> creatures of any size.</Pair>
+</Ability>
+<Ability id="arc-vigilante-brute-heavy-punches-ex" extraClasses="subAbility" icon={["mailed-fist","upgrade"]}>
+<Pair single id="arc-vigilante-brute-heavy-punches-ex" flavor="The brute eschews civilized combat and prefers to wade into a fight with his fists swinging.">Heavy Punches (Ex)</Pair>
+<Pair title="Ability">While in his vigilante identity, the brute's unarmed strikes deal damage as if he were a <Link to="/class/monk">monk</Link> of his size and vigilante level.</Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d6 (Medium) or 1d8 (Large) damage.</Pair>
+<Pair title="At 4th Level">Your unarmed strike now deals 1d8 (Medium) or 2d6 (Large) damage.</Pair>
+<Pair title="At 8th Level">Your unarmed strike now deals 1d10 (Medium) or 2d8 (Large) damage.</Pair>
+<Pair title="At 12th Level">Your unarmed strike now deals 2d6 (Medium) or 3d6 (Large) damage.</Pair>
+<Pair title="At 16th Level">Your unarmed strike now deals 2d8 (Medium) or 3d8 (Large) damage.</Pair>
+<Pair title="At 20th Level">Your unarmed strike now deals 2d10 (Medium) or 4d8 (Large) damage.</Pair>
+<Pair title="Special">If he has levels in other classes that provide monk advancement for unarmed strike damage, his vigilante level stacks with those levels whenever he is in his vigilante identity.</Pair>
+</Ability>
+<Ability id="arc-vigilante-brute-scale-surroundings-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-brute-scale-surroundings-ex" flavor="Instead of letting physical barriers stop him, the brute can simply climb over them.">Scale Surroundings (Ex)</Pair>
+<Pair title="Prerequisites">4th-level vigilante</Pair>
+<Pair title="Ability">He gains a climb speed of 30 feet when he is in his vigilante identity.</Pair>
+</Ability>
+<Ability id="arc-vigilante-brute-sizing-equipment-ex" extraClasses="subAbility" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="arc-vigilante-brute-sizing-equipment-ex" flavor="The brute has learned how to adjust his magic armor so that it provides him some protection while in his vigilante identity.">Sizing Equipment (Ex)</Pair>
+<Pair title="Passive Ability">Magic armor the brute wears that is sized for his social identity provides an armor bonus equal to its normal armor bonus - 1 while he is in his vigilante identity. In addition, wielding a magic weapon properly sized for his social identity deals damage as if it were a magic weapon properly sized for his vigilante identity, but it imposes a -1 penalty on attack rolls.</Pair>
+<Pair title="At 6th Level">He takes no penalties when using such weapons and armor, and his weapons and armor work in all ways (including damage dice) as if they were of the vigilante's new size.</Pair>
+<Pair title="Special">This talent only applies to magic arms and armor; inappropriately sized mundane arms and armor are not affected.</Pair>
+</Ability>
+<Ability id="arc-vigilante-brute-total-destruction-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-brute-total-destruction-ex" flavor="The brute is adept at rampaging through an area, throwing whatever is available at his opponents.">Total Destruction (Ex)</Pair>
+<Pair title="Ability">The brute gains <Link to="/feat/throw_anything">Throw Anything</Link> as a bonus feat.</Pair>
+<Pair title="Standard Action">While in his vigilante identity, he can throw any unattended object up to two size categories smaller than he is up to 60 feet if he is Medium and 80 feet if he is Large. This deals 1d6 points of bludgeoning damage if he is Medium or 1d8 if he is Large, and the brute adds 1-1/2 times his Strength modifier to this damage.</Pair>
+<Pair title="At 8th Level">He can also throw a creature up to two size categories smaller than himself, but he must succeed at a combat maneuver check against that creature's CMD to do so. The thrown creature lands <Link to="/rule/prone">prone</Link> and takes an amount of damage equal to the damage dealt to the target of the throw (as noted above), whether the brute hits or misses.</Pair>
+<Pair title="At 16th Level">He can instead throw an object one size category larger than himself at creatures within a 10-foot radius from the object's point of impact. These creatures must succeed at a Reflex save (DC = 10 + 1/2 the brute's vigilante level + his Strength modifier) or take 1d6 points of damage per vigilante level.</Pair>
+</Ability>
+<Ability id="arc-vigilante-brute-tear-them-apart-ex" icon={["mailed-fist","upgrade"]}>
+<Pair single id="arc-vigilante-brute-tear-them-apart-ex" flavor="A brute has learned how to tear at his enemies' bodies when he hits with multiple attacks.">Tear Them Apart (Ex)</Pair>
+<Pair hl title="Replaces">Vengeance strike</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">When he takes a full attack action while in his vigilante identity, if a brute hits an opponent with at least two attacks, he deals an additional 1d10 points of damage plus 1-1/2 times his Strength modifier. If he hits an opponent with four attacks during a full attack action while in his vigilante identity, he instead deals an additional 3d10 points of damage plus 1-1/2 times his Strength modifier. The damage occurs after he has taken his last attack with the full attack action. This counts as a <Link to="/umr/rend">rend</Link> and does not stack with other abilities that grant rend.</Pair>
+</Ability>
 </>};
 const _cabalist = {title: "Cabalist", jsx: <><h2 id="arc-vigilante-cabalist-cabalist">Cabalist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 55</Link><br/>Appearing to be an upstanding member of society, the cabalist clandestinely follows the tenets of a secret society. Practice with blood sacrifices, necromancy, and shadow magic gives a cabalist a reputation as a sinister and dangerous vigilante.</p>
@@ -89,57 +240,162 @@ const _cabalist = {title: "Cabalist", jsx: <><h2 id="arc-vigilante-cabalist-caba
 <Pair id="arc-vigilante-cabalist-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
 <Pair title="Removed Skills">Disable Device, Knowledge (engineering), Perception, Survival</Pair></Ability>
-<p><strong>Skill Ranks per Level:</strong> The cabalist gains a number of skill ranks equal to 4 + his Intelligence modifier at each level, instead of 6 + his Intelligence modifier skill ranks.</p>
-<p>This alters the vigilante's <strong className="hl">skill ranks per level</strong>.</p>
-<p><strong>Weapon and Armor Proficiencies:</strong> A cabalist is not proficient with medium armor. Like a <Link to="/class/magus">magus</Link>, he can cast cabalist spells while wearing light armor without incurring the normal arcane spell failure chance.</p>
-<p>This alters the vigilante's <strong className="hl">armor and weapon proficiencies</strong>.</p>
-<p><strong>Spellcasting:</strong> A cabalist casts arcane spells and cantrips as a magus. He prepares spells using a spellbook, choosing them from the 6th-level and lower spells from the <Link to="/main/witch_spell">witch spell list</Link>; higher-level witch spells are not on the cabalist's spell list.</p>
-<p>This replaces the 4th-, 8th-, 10th-, 14th-, and 16th-level <strong className="hl">vigilante talents</strong>.</p>
-<p><strong>Spellbook :</strong> A cabalist has a spellbook that functions in the same way as a magus's spellbook but uses the 6th-level and lower spells from the witch spell list.</p>
-<p><strong>Spill Blood (Ex):</strong> A cabalist can cause bleeding when he deals piercing or slashing damage with a melee attack (or a ranged attack within 30 feet) against a living foe who is unaware of his presence, who considers him an ally, or who is denied its Dexterity bonus to AC. The amount of bleed damage is equal to the cabalist's level. A cabalist can't deal this bleed damage to a creature with total <Link to="/rule/concealment">concealment</Link>.</p>
-<p>This ability replaces <strong className="hl">vigilante specialization</strong>.</p>
-<p><strong>Cabalist Talents:</strong> A cabalist can select from the following vigilante talents, in addition to general vigilante talents.</p>
-<p>This alters <strong className="hl">vigilante talents</strong>.</p>
-<blockquote>
-<p><strong>Bond of Blood (Sp, Su):</strong> The cabalist has a magical bond to life-giving blood. When the cabalist deals bleed damage or 5 or more points of piercing or slashing damage to an adjacent living creature, he gains 1d6 temporary hit points. These temporary hit points last for 1 hour, and the cabalist can't gain temporary hit points again from bond of blood during that hour (even if he loses all the temporary hit points from bond of blood before that time). The number of temporary hit points gained increases by 1d6 for every 4 vigilante levels he has. At 4th level, the cabalist can also activate <Link to="/spell/blood_armor">blood armor</Link> once per day as a spell-like ability as a swift action.</p>
-<p><strong>Familiar (Ex):</strong> The cabalist gains a <Link to="/sidekick/familiar">familiar</Link>, using his vigilante level as his effective wizard level. The <Link to="/ability/familiar">familiar</Link> also has a social identity as a seemingly normal animal, though cabalists with outlandish familiars might still need to hide them.</p>
-<p><strong>Living Shadow (Sp):</strong> Once per day, the cabalist can become a living shadow as though he were using <Link to="/spell/shadow_body">shadow body</Link>. This effect lasts for 1 round per vigilante level, and the cabalist can't cast spells while in this form. At 14th level, the cabalist can remain as a living shadow for 1 minute per vigilante level instead, and can cast spells while he is a living shadow. A cabalist must be at least 12th level to select this talent.</p>
-<p><strong>Necromantic Focus (Ex):</strong> The cabalist gains <Link to="/feat/spell_focus">Spell Focus</Link> (necromancy) as a bonus feat. He also adds additional spells to his spellbook from the following list, provided he can cast spells of the appropriate level: 1st-<Link to="/spell/cause_fear">cause fear</Link>, 2nd-<Link to="/spell/blindness_deafness">blindness/deafness</Link>, 3rd-<Link to="/spell/bestow_curse">bestow curse</Link>, 4th-<Link to="/spell/poison">poison</Link>, 5th-<Link to="/spell/feast_on_fear">feast on fear</Link>, 6th-<Link to="/spell/slay_living">slay living</Link>.</p>
-<p><strong>Shadow Jump (Su):</strong> The cabalist gains the <Link to="/pclass/shadowdancer">shadowdancer's</Link> shadow jump ability with an effective shadowdancer level equal to his vigilante level - 6. If he has levels in shadowdancer, those levels stack with his vigilante levels to determine the total distance per day he can shadow jump (to a maximum of 320 feet per day). A cabalist must be at least 10th level to select this talent.</p>
-<p><strong>Tattoo Chamber (Su):</strong> The cabalist can magically absorb items through a tattoo on his hand or wrist and easily retrieve them or activate their magical abilities without making them manifest. The items seemingly disappear into the tattoo, but actually enter an extradimensional space that the cabalist can access via the tattoo. Stowing an item in this way requires a full-round action, and the space can store one item plus one additional item per 3 vigilante levels he has. These items must be items the cabalist can hold in one hand. Retrieving a stowed item requires mentally activating the tattoo as a swift action. The item appears in the cabalist's hand, so worn items must still be donned to gain their benefits. The cabalist can also activate any <Link to="/misc/spell_trigger">spell-trigger</Link> abilities of a stored item as though he were wielding the item, producing the magic effect from his tattoo rather than from the item. If the cabalist dies while items are within his tattoo chamber, those items fade into existence within 5 feet of the corpse.</p>
-</blockquote>
-<p><strong>Bloodbound Spell (Ex):</strong> At 5th level, a cabalist gets an advantage when casting spells against bleeding foes. Whenever the cabalist casts a spell against a foe that is taking bleed damage, the foe takes a -1 penalty on its saving throw against the spell (or to its AC if the spell requires an attack roll). This penalty increases to -2 if the spell is from the necromancy school.</p>
-<p>This ability replaces <strong className="hl">startling appearance</strong>.</p>
-<p><strong>Bloody Horror (Ex):</strong> At 11th level, when a cabalist casts a spell and one of the targets (or one creature in the area for an area spell) is taking bleed damage, the cabalist can, as a free action, make an Intimidate check to demoralize all targets of the spell (or all creatures in the area for an area spell). The cabalist rolls only one Intimidate check and applies the result to all the targets.</p>
-<p>Once a creature has been the target of this ability (regardless of whether or not it was successful), it is immune to that cabalist's bloody horror for 24 hours. This is a mind-affecting fear effect.</p>
-<p>This ability replaces <strong className="hl">frightening appearance</strong>.</p>
-<p><strong>Shadowy Appearance (Sp):</strong> At 17th level, a cabalist becomes cloaked in shadow while in his vigilante identity. He gains a continuous 20% miss chance (as per <Link to="/spell/blur">blur</Link>). The cabalist can deactivate or reactivate this effect as a standard action. Once per day, he can spend an immediate action to gain the benefits of <Link to="/spell/greater_invisibility">greater invisibility</Link> for 1d6 rounds.</p>
-<p>This ability replaces <strong className="hl">stunning appearance</strong>.</p>
+<Ability id="arc-vigilante-cabalist-skill-ranks-per-level" icon={["broken-shield"]}>
+<Pair single id="arc-vigilante-cabalist-skill-ranks-per-level">Skill Ranks per Level</Pair>
+<Pair hl title="Alters">Skill ranks per level</Pair>
+<Pair title="Info">The cabalist gains a number of skill ranks equal to 4 + his Intelligence modifier at each level, instead of 6 + his Intelligence modifier skill ranks.</Pair>
+</Ability>
+<Ability id="arc-vigilante-cabalist-weapon-and-armor-proficiencies" icon={["broken-shield","stairs-goal"]}>
+<Pair single id="arc-vigilante-cabalist-weapon-and-armor-proficiencies">Weapon and Armor Proficiencies</Pair>
+<Pair hl title="Alters">Armor and weapon proficiencies</Pair>
+<Pair title="Ability">A cabalist is not proficient with medium armor. Like a <Link to="/class/magus">magus</Link>, he can cast cabalist spells while wearing light armor without incurring the normal arcane spell failure chance.</Pair>
+</Ability>
+<Ability id="arc-vigilante-cabalist-spellcasting-and-spellbook" icon={["magic-swirl"]}>
+<Pair single id="arc-vigilante-cabalist-spellcasting-and-spellbook">Spellcasting and Spellbook</Pair>
+<Pair hl title="Replaces">4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents</Pair>
+<Pair title="Ability">A cabalist casts arcane spells and cantrips as a magus. He prepares spells using a spellbook, choosing them from the 6th-level and lower spells from the <Link to="/main/witch_spell">witch spell list</Link>; higher-level witch spells are not on the cabalist's spell list.</Pair>
+<Pair title="Special">A cabalist has a spellbook that functions in the same way as a magus's spellbook but uses the 6th-level and lower spells from the witch spell list.</Pair>
+</Ability>
+<Ability id="arc-vigilante-cabalist-spill-blood-ex" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-cabalist-spill-blood-ex">Spill Blood (Ex)</Pair>
+<Pair hl title="Replaces">Vigilante specialization</Pair>
+<Pair title="Ability">A cabalist can cause bleeding when he deals piercing or slashing damage with a melee attack (or a ranged attack within 30 feet) against a living foe who is unaware of his presence, who considers him an ally, or who is denied its Dexterity bonus to AC. The amount of <Link to="/rule/bleed">bleed</Link> damage is equal to the cabalist's level.</Pair>
+<Pair title="Special">A cabalist can't deal this bleed damage to a creature with total <Link to="/rule/concealment">concealment</Link>.</Pair>
+</Ability>
+<Ability id="arc-vigilante-cabalist-cabalist-talents" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-cabalist-cabalist-talents">Cabalist Talents</Pair>
+<Pair hl title="Alters">Vigilante talents</Pair>
+<Pair title="Info">A cabalist can select from the following vigilante talents, in addition to general vigilante talents.</Pair>
+</Ability>
+<Ability id="arc-vigilante-cabalist-bond-of-blood-sp-su" extraClasses="subAbility" icon={["remedy"]}>
+<Pair single id="arc-vigilante-cabalist-bond-of-blood-sp-su" flavor="The cabalist has a magical bond to life-giving blood.">Bond of Blood (Sp, Su)</Pair>
+<Pair title="Ability">When the cabalist deals bleed damage or 5 or more points of piercing or slashing damage to an adjacent living creature, he gains 1d6 <Link to="/rule/temporary_hit_points">temporary hit points</Link>. These temporary hit points last for 1 hour, and the cabalist can't gain temporary hit points again from <em>bond of blood</em> during that hour (even if he loses all the temporary hit points from <em>bond of blood</em> before that time).</Pair>
+<Pair title="At 4th Level">The number of temporary hit points gained becomes +2d6. The cabalist can also activate <Link to="/spell/blood_armor">blood armor</Link> once per day as a spell-like ability as a <strong className="hl">swift action</strong>.</Pair>
+<Pair title="At 8th Level">The number of temporary hit points gained increases to +3d6.</Pair>
+<Pair title="At 12th Level">The number of temporary hit points gained becomes +4d6.</Pair>
+<Pair title="At 16th Level">The number of temporary hit points gained increases to +5d6.</Pair>
+<Pair title="At 20th Level">The number of temporary hit points gained becomes +6d6.</Pair>
+</Ability>
+<Ability id="arc-vigilante-cabalist-familiar-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-cabalist-familiar-ex">Familiar (Ex)</Pair>
+<Pair title="Ability">The cabalist gains a <Link to="/sidekick/familiar">familiar</Link>, using his vigilante level as his effective wizard level. The <Link to="/ability/familiar">familiar</Link> also has a social identity as a seemingly normal animal, though cabalists with outlandish familiars might still need to hide them.</Pair>
+</Ability>
+<Ability id="arc-vigilante-cabalist-living-shadow-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-vigilante-cabalist-living-shadow-sp">Living Shadow (Sp)</Pair>
+<Pair title="Prerequisites">12th-level vigilante</Pair>
+<Pair title="Ability">Once per day, the cabalist can become a living shadow as though he were using <Link to="/spell/shadow_body">shadow body</Link>. This effect lasts for 1 round per vigilante level, and the cabalist can't cast spells while in this form.</Pair>
+<Pair title="At 14th Level">The cabalist can remain as a living shadow for 1 minute per vigilante level instead, and can cast spells while he is a living shadow.</Pair>
+</Ability>
+<Ability id="arc-vigilante-cabalist-necromantic-focus-ex" extraClasses="subAbility" icon={["stairs-goal","spell-book"]}>
+<Pair single id="arc-vigilante-cabalist-necromantic-focus-ex">Necromantic Focus (Ex)</Pair>
+<Pair title="Ability">The cabalist gains <Link to="/feat/spell_focus">Spell Focus</Link> (necromancy) as a bonus feat. He also adds the following additional spells to his spellbook, provided he can cast spells of the given level.</Pair>
+<Pair plain title="1st"><Link to="/spell/cause_fear">Cause fear</Link></Pair>
+<Pair plain title="2nd"><Link to="/spell/blindness_deafness">Blindness/deafness</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/bestow_curse">Bestow curse</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/poison">Poison</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/feast_on_fear">Feast on fear</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/slay_living">Slay living</Link></Pair>
+</Ability>
+<Ability id="arc-vigilante-cabalist-shadow-jump-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-vigilante-cabalist-shadow-jump-su">Shadow Jump (Su)</Pair>
+<Pair title="Prerequisites">10th-level vigilante</Pair>
+<Pair title="Ability">The cabalist gains the <Link to="/pclass/shadowdancer">shadowdancer's</Link> <em>shadow jump</em> ability with an effective shadowdancer level equal to his vigilante level - 6. If he has levels in shadowdancer, those levels stack with his vigilante levels to determine the total distance per day he can shadow jump (to a maximum of 320 feet per day).</Pair>
+<Pair title="At 4th Level"><em>A shadowdancer gains the ability to travel between shadows as if by means of a <Link to="/spell/dimension_door">dimension door</Link> spell. The limitation is that the magical transport must begin and end in an area with at least some dim light. A shadowdancer can jump up to a total of 40 feet each day in this way; this may be a single jump of 40 feet or four jumps of 10 feet each.</em></Pair>
+<Pair title="At 6th Level"><em>The total distnce increases to 80 feet.</em></Pair>
+<Pair title="At 8th Level"><em>The total distnce increases to 160 feet.</em></Pair>
+<Pair title="At 10th Level"><em>The total distnce increases to 320 feet.</em></Pair>
+<Pair title="Special"><em>This amount can be split among many jumps, but each one, no matter how small, counts as a 10-foot increment.</em></Pair>
+</Ability>
+<Ability id="arc-vigilante-cabalist-tattoo-chamber-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arc-vigilante-cabalist-tattoo-chamber-su">Tattoo Chamber (Su)</Pair>
+<Pair title="Ability">The cabalist can magically absorb items through a tattoo on his hand or wrist and easily retrieve them or activate their magical abilities without making them manifest. The items seemingly disappear into the tattoo, but actually enter an extradimensional space that the cabalist can access via the tattoo. Stowing an item in this way requires a <strong className="hl">full-round action</strong>, and the space can store a number of items equal to 1 + <Link to="/misc/one_third">one-third</Link> of his vigilante level. These items must be items the cabalist can hold in one hand.</Pair>
+<Pair title="Ability">Retrieving a stowed item requires mentally activating the tattoo as a <strong className="hl">swift action</strong>. The item appears in the cabalist's hand, so worn items must still be donned to gain their benefits.</Pair>
+<Pair title="Special">The cabalist can also activate any <Link to="/misc/spell_trigger">spell-trigger</Link> abilities of a stored item as though he were wielding the item, producing the magic effect from his tattoo rather than from the item. If the cabalist dies while items are within his tattoo chamber, those items fade into existence within 5 feet of the corpse.</Pair>
+</Ability>
+<Ability id="arc-vigilante-cabalist-bloodbound-spell-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-vigilante-cabalist-bloodbound-spell-ex" flavor="A cabalist gets an advantage when casting spells against bleeding foes.">Bloodbound Spell (Ex)</Pair>
+<Pair hl title="Replaces">Startling appearance</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">Whenever the cabalist casts a spell against a foe that is taking bleed damage, the foe takes a -1 penalty on its saving throw against the spell (or to its AC if the spell requires an attack roll). This penalty increases to -2 if the spell is from the necromancy school.</Pair>
+</Ability>
+<Ability id="arc-vigilante-cabalist-bloody-horror-ex" icon={["armor-downgrade"]}>
+<Pair single id="arc-vigilante-cabalist-bloody-horror-ex">Bloody Horror (Ex)</Pair>
+<Pair hl title="Replaces">Frightening appearance</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Free Action">When a cabalist casts a spell and one of the targets (or one creature in the area for an area spell) is taking bleed damage, the cabalist can make an Intimidate check to demoralize all targets of the spell (or all creatures in the area for an area spell). The cabalist rolls only one Intimidate check and applies the result to all the targets.</Pair>
+<Pair title="Special">Once a creature has been the target of this ability (regardless of whether or not it was successful), it is immune to that cabalist's bloody horror for 24 hours. This is a mind-affecting fear effect.</Pair>
+</Ability>
+<Ability id="arc-vigilante-cabalist-shadowy-appearance-sp" icon={["armor-upgrade","magic-swirl"]}>
+<Pair single id="arc-vigilante-cabalist-shadowy-appearance-sp" flavor="A cabalist becomes cloaked in shadow while in his vigilante identity.">Shadowy Appearance (Sp)</Pair>
+<Pair hl title="Replaces">Stunning appearance</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Ability">He gains a continuous 20% miss chance (as per <Link to="/spell/blur">blur</Link>). The cabalist can deactivate or reactivate this effect as a <strong className="hl">standard action</strong>.</Pair>
+<Pair title="Immediate Action">Once per day, he can gain the benefits of <Link to="/spell/greater_invisibility">greater invisibility</Link> for 1d6 rounds.</Pair>
+</Ability>
 </>};
 const _chu_ye_enforcer = {title: "Chu Ye Enforcer", jsx: <><h2 id="arc-vigilante-chu_ye_enforcer-chu-ye-enforcer">Chu Ye Enforcer</h2>
-<p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 18</Link><br/>In the despotic nation of Chu Ye, merciless oni oppress the human populace. Some humans and tieflings with oni blood use the power of the oni for their own ambitions. Donning terrifying masks, these vigilantes forsake their humanity to become more like the evil beings they mimic.</p>
-<p><strong>Yokai Heart (Su):</strong> A Chu Ye enforcer seeks to transmute himself into a destructive spirit and terrorize his enemies. His vigilante identity alignment must be non-good. While in his vigilante identity, the Chu Ye enforcer gains darkvision with a range of 60 feet and low-light vision, and he counts as both a native outsider with the <Link to="/subtype/oni">oni</Link> subtype and his original type for any effect related to type, whichever is worse for him.</p>
-<p><strong>Oni Mask (Ex):</strong> A Chu Ye enforcer gains a grotesque horned mask that he must wear when assuming his vigilante identity. The mask has 10 hit points per vigilante level he has and hardness 5. While wearing the mask, the Chu Ye enforcer gains a bonus to Intimidate equal to 1/2 his level (minimum +1). Without this mask, a Chu Ye enforcer can't assume his vigilante identity. A Chu Ye enforcer who loses his mask can replace it after 1 day through a specialized ritual that takes 8 hours to complete and costs 200 gp per vigilante level he has.</p>
-<p>This alters <strong className="hl">dual identity</strong>.</p>
-<p><strong>Steel Dictate (Ex):</strong> A Chu Ye enforcer gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat, and when he hits with his unarmed strike, he gains a bonus on damage rolls equal to half his vigilante level (minimum +1, maximum of +5).</p>
-<p>This replaces the <strong className="hl">social talent</strong> gained at 1st level.</p>
-<p><strong>Deceitful Form (Sp):</strong> At 4th level, a Chu Ye enforcer gains the shapechanger subtype and the ability to change his form, as per <Link to="/spell/alter_self">alter self</Link>, for a number of minutes per day equal to his vigilante level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. At 14th level, he can instead use this ability as per <Link to="/spell/giant_form_i">giant form I</Link>. At 18th level, he can use this ability as per <Link to="/spell/giant_form_ii">giant form II</Link>.</p>
-<p>This replaces the <strong className="hl">vigilante talents</strong> gained at 4th, 14th, and 18th levels.</p>
-<p><strong>Deadly Horns (Ex):</strong> At 6th level, while in his vigilante identity, a Chu Ye enforcer gains a gore attack. This is a primary natural attack that deals 1d6 points of piercing damage.</p>
-<p>This replaces the <strong className="hl">vigilante talent</strong> gained at 6th level.</p>
-<p><strong>Third Eye (Su):</strong> At 12th level, a Chu Ye enforcer's mask manifests a third eye. As a swift action a number of times per day equal to his vigilante level, he can launch a beam of fire from the eye as a ranged touch attack with a range of 180 feet. On a hit, the beam deals 4d6 points of fire damage. At 18th level, the beam damage increases to 8d6 points of fire damage.</p>
-<p>This replaces the <strong className="hl">vigilante talent</strong> gained at 12th level.</p>
+<p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 18</Link><br/>In the despotic nation of Chu Ye, merciless <Link to="/family/oni">oni</Link> oppress the human populace. Some <Link to="/race/human">humans</Link> and <Link to="/race/tiefling">tieflings</Link> with oni blood use the power of the oni for their own ambitions. Donning terrifying masks, these vigilantes forsake their humanity to become more like the evil beings they mimic.</p>
+<Ability id="arc-vigilante-chu_ye_enforcer-yokai-heart-su" icon={["info","stairs-goal"]}>
+<Pair single id="arc-vigilante-chu_ye_enforcer-yokai-heart-su" flavor="A Chu Ye enforcer seeks to transmute himself into a destructive spirit and terrorize his enemies.">Yokai Heart (Su)</Pair>
+<Pair title="Info">His vigilante identity alignment must be non-good. While in his vigilante identity, the Chu Ye enforcer gains darkvision with a range of 60 feet and low-light vision, and he counts as both a native <Link to="/type/outsider">outsider</Link> with the <Link to="/subtype/oni">oni</Link> subtype and his original type for any effect related to type, whichever is worse for him.</Pair>
+</Ability>
+<Ability id="arc-vigilante-chu_ye_enforcer-oni-mask-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-vigilante-chu_ye_enforcer-oni-mask-ex">Oni Mask (Ex)</Pair>
+<Pair hl title="Alters">Dual identity</Pair>
+<Pair title="Ability">A Chu Ye enforcer gains a grotesque horned mask that he must wear when assuming his vigilante identity. The mask has 10 hit points per vigilante level he has and hardness 5.</Pair>
+<Pair title="Passive Ability">While wearing the mask, the Chu Ye enforcer gains a bonus to Intimidate equal to <Link to="/misc/half">half</Link> his level (minimum +1).</Pair>
+<Pair title="Special">Without this mask, a Chu Ye enforcer can't assume his vigilante identity. A Chu Ye enforcer who loses his mask can replace it after 1 day through a specialized ritual that takes 8 hours to complete and costs 200 gp per vigilante level he has.</Pair>
+</Ability>
+<Ability id="arc-vigilante-chu_ye_enforcer-steel-dictate-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-vigilante-chu_ye_enforcer-steel-dictate-ex">Steel Dictate (Ex)</Pair>
+<Pair hl title="Replaces">Social talent gained at 1st level</Pair>
+<Pair title="Ability">A Chu Ye enforcer gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat, and when he hits with his unarmed strike, he gains a bonus on damage rolls equal to half his vigilante level (minimum +1, maximum of +5).</Pair>
+</Ability>
+<Ability id="arc-vigilante-chu_ye_enforcer-deceitful-form-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-vigilante-chu_ye_enforcer-deceitful-form-sp">Deceitful Form (Sp)</Pair>
+<Pair hl title="Replaces">Vigilante talents gained at 4th, 14th, and 18th levels</Pair>
+<Pair title="At 4th Level">A Chu Ye enforcer gains the <Link to="/subtype/shapechanger">shapechanger</Link> subtype and the ability to change his form, as per <Link to="/spell/alter_self">alter self</Link>.</Pair>
+<Pair title="At 14th Level">He can instead use this ability as per <Link to="/spell/giant_form_i">giant form I</Link>.</Pair>
+<Pair title="At 18th Level">He can use this ability as per <Link to="/spell/giant_form_ii">giant form II</Link>.</Pair>
+<Pair title="Usage">1 minute/day per vigilante level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+</Ability>
+<Ability id="arc-vigilante-chu_ye_enforcer-deadly-horns-ex" icon={["mailed-fist"]}>
+<Pair single id="arc-vigilante-chu_ye_enforcer-deadly-horns-ex">Deadly Horns (Ex)</Pair>
+<Pair hl title="Replaces">Vigilante talent gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">While in his vigilante identity, a Chu Ye enforcer gains a gore attack. This is a primary <Link to="/umr/natural_attack">natural attack</Link> that deals 1d6 points of piercing damage.</Pair>
+</Ability>
+<Ability id="arc-vigilante-chu_ye_enforcer-third-eye-su" icon={["smoking-finger"]}>
+<Pair single id="arc-vigilante-chu_ye_enforcer-third-eye-su" flavor="A Chu Ye enforcer's mask manifests a third eye.">Third Eye (Su)</Pair>
+<Pair hl title="Replaces">Vigilante talent gained at 12th level</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Usage">1 time/day per vigilante level</Pair>
+<Pair title="Swift Action">He can launch a beam of fire from the mask's third eye as a ranged touch attack with a range of 180 feet. On a hit, the beam deals 4d6 points of fire damage.</Pair>
+<Pair title="At 18th Level">The beam damage increases to 8d6 points of fire damage.</Pair>
+</Ability>
 </>};
 const _darklantern = {title: "Darklantern", jsx: <><h2 id="arc-vigilante-darklantern-darklantern">Darklantern</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 11</Link><br/>The <Link to="/rule/lantern_bearers">Lantern Bearers</Link> are an elite group of elves dedicated to the containment and eradication of the drow. However, some Lantern Bearers are tasked with the unthinkable assignment of infiltrating drow society so as to relay information to the Winter Council - a secret cabal tasked with keeping the existence of drow a secret - about activities in the Darklands and drow cities. In order to accomplish this task, select members of the Lantern Bearers undergo a horrific ritual allowing them to temporarily experience the dark transformation into a drow, but at the cost of their sanity.</p>
-<p><strong>Elven Ancestry:</strong> A darklantern must be a creature with the <Link to="/subtype/elf">elf</Link> subtype.</p>
-<p><strong>Dark Identity (Su):</strong> At 1st level, a darklantern can transform into her vigilante identity as a full-round action. When a darklantern switches to her vigilante identity, she undergoes a horrifying transformation from an elf into a <Link to="/race/drow">drow</Link>. After the transformation is complete, the darklantern takes on the appearance of a drow (but otherwise retains her normal facial features and voice) and gains a +2 bonus to Dexterity and Charisma, darkvision with a range of up to 60 feet, and the <Link to="/umr/light_blindness">light blindness</Link> universal monster ability. While in her vigilante identity, the darklantern counts as a drow for the purpose of any ability, spell, or magic item targeting drow. A darklantern's vigilante identity must be chaotic evil, but her social identity can be more than one step removed from this alignment.</p>
-<p>Transforming back into the darklantern's social identity requires a move action. However, a darklantern must succeed at a Will save (DC = 10 + the number of hours she has been in her vigilante identity) in order to successfully transform back into her social identity; otherwise, the move action is wasted and the action cannot be attempted for 1 minute. Each time a darklantern fails this check, she takes 1 point of <Link to="/rule/wisdom_damage">Wisdom damage</Link> and the DC for the save decreases by 2.</p>
-<p>This ability alters <strong className="hl">dual identity</strong>.</p>
-<p><strong>Drow Magic (Sp):</strong> At 1st level, when in her vigilante identity, a darklantern can cast <Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/darkness">darkness</Link>, and <Link to="/spell/faerie_fire">faerie fire</Link>, once each per day, using her vigilante level as her caster level.</p>
-<p>This replaces the <strong className="hl">social talent</strong> that the darklantern gains at 1st level.</p>
-<p><strong>Drow Paragon (Su):</strong> At 4th level, the darklantern gains Spell Resistance equal to 6 + her vigilante level, and the range of her darkvision increases to 120 feet while in her vigilante identity.</p>
-<p>This replaces the <strong className="hl">vigilante talent</strong> gained at 4th level.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-vigilante-darklantern--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must be a creature with the <Link to="/subtype/elf">elf</Link> subtype</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-vigilante-darklantern-dark-identity-su" icon={["stairs-goal","upgrade","broken-shield"]}>
+<Pair single id="arc-vigilante-darklantern-dark-identity-su">Dark Identity (Su)</Pair>
+<Pair hl title="Alters">Dual identity</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Info">A darklantern's vigilante identity must be chaotic evil, but her social identity can be more than one step removed from this alignment.</Pair>
+<Pair title="Ability">A darklantern can transform into her vigilante identity as a <strong className="hl">full-round action</strong>. When a darklantern switches to her vigilante identity, she undergoes a horrifying transformation from an elf into a <Link to="/race/drow">drow</Link>. After the transformation is complete, the darklantern takes on the appearance of a drow (but otherwise retains her normal facial features and voice) and gains a +2 bonus to Dexterity and Charisma, darkvision with a range of up to 60 feet, and the <Link to="/umr/light_blindness">light blindness</Link> universal monster ability. While in her vigilante identity, the darklantern counts as a drow for the purpose of any ability, spell, or magic item targeting drow.</Pair>
+<Pair title="Ability">Transforming back into the darklantern's social identity requires a <strong className="hl">move action</strong>. However, a darklantern must succeed at a Will save (DC = 10 + the number of hours she has been in her vigilante identity) in order to successfully transform back into her social identity; otherwise, the move action is wasted and the action cannot be attempted for 1 minute. Each time a darklantern fails this check, she takes 1 point of <Link to="/rule/wisdom_damage">Wisdom damage</Link> and the DC for the save decreases by 2.</Pair>
+</Ability>
+<Ability id="arc-vigilante-darklantern-drow-magic-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-vigilante-darklantern-drow-magic-sp">Drow Magic (Sp)</Pair>
+<Pair hl title="Replaces">1st-level social talent</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">When in her vigilante identity, a darklantern can cast <Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/darkness">darkness</Link>, and <Link to="/spell/faerie_fire">faerie fire</Link>, once each per day, using her vigilante level as her caster level.</Pair>
+</Ability>
+<Ability id="arc-vigilante-darklantern-drow-paragon-su" icon={["armor-upgrade","upgrade"]}>
+<Pair single id="arc-vigilante-darklantern-drow-paragon-su">Drow Paragon (Su)</Pair>
+<Pair hl title="Replaces">Vigilante talent gained at 4th level</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">The darklantern gains Spell Resistance equal to 6 + her vigilante level, and the range of her darkvision increases to 120 feet while in her vigilante identity.</Pair>
+</Ability>
 </>};
 const _dragonscale_loyalist = {title: "Dragonscale Loyalist", jsx: <><h2 id="arc-vigilante-dragonscale_loyalist-dragonscale-loyalist">Dragonscale Loyalist</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 24</Link><br/>Since the disappearance of the Rogarvias, Brevoy draws ever closer to civil war. The rule of King-Regent Noleski Surtova grows increasingly tenuous; to hold his position, he sends handpicked agents into the kingdom's courts to flush out traitors to the Dragonscale Throne. When not acting as courtiers, these agents don fearsome draconic masks, becoming anonymous protectors of the kingregent's rule.</p>
