@@ -669,7 +669,7 @@ const _totemic_skald = {title: "Totemic Skald", jsx: <><h2 id="arc-skald-totemic
 <Pair title="Ability">A totemic skald gains the ability to <em>wild shape</em> into the form of a Small or Medium version of his totem animal, as the <Link to="/class/druid">druid</Link> class feature. His effective druid level for this ability is equal to his skald level - 1.</Pair>
 <Pair title="At 11th Level">He can use this ability 2 times/day.</Pair>
 <Pair title="At 17th Level">He can use this ability 3 times/day.</Pair>
-<Pair title="Special">This doesn't allow the skald to assume other forms, such as elementals, plants, or other kinds of animals. When in animal form, the skald is treated as able to speak normally for the purpose of using <em>raging song,</em> but not for using other abilities that require speech (such as spellcasting). The skald uses his class level as his druid level for the purpose of qualifying for feats that affect wild shape (such as <Link to="/feat/wild_speech">Wild Speech</Link>).</Pair>
+<Pair title="Special">This doesn't allow the skald to assume other forms, such as elementals, plants, or other kinds of animals. When in animal form, the skald is treated as able to speak normally for the purpose of using <em>raging song,</em> but not for using other abilities that require speech (such as spellcasting). The skald uses his class level as his druid level for the purpose of qualifying for feats that affect <em>wild shape</em> (such as <Link to="/feat/wild_speech">Wild Speech</Link>).</Pair>
 </Ability>
 <Ability id="arc-skald-totemic_skald-wild-shape-su" extraClasses="subAbility" icon={["stairs-goal"]}>
 <Pair single id="arc-skald-totemic_skald-wild-shape-su" flavor="Relevant text from the druid class ability.">Wild Shape (Su)</Pair>

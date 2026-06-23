@@ -116,11 +116,21 @@ const _chameleon_adept = {title: "Chameleon Adept", jsx: <><h2 id="arc-hunter-ch
 <Pair title="Standard Action">A chameleon adept can assume a form superficially identical to her animal companion's animal form. She gains no bonuses or natural attacks while in this form, only forms of movement. Her size category does not change. This is a polymorph effect.</Pair>
 <Pair title="Special">She can dismiss this ability at any point as a <strong className="hl">standard action</strong>.</Pair>
 </Ability>
-<Ability id="arc-hunter-chameleon_adept-improved-shifting-companion-su" icon={["magic-swirl"]}>
+<Ability id="arc-hunter-chameleon_adept-improved-shifting-companion-su" extraClasses="hasSubs" icon={["magic-swirl"]}>
 <Pair single id="arc-hunter-chameleon_adept-improved-shifting-companion-su">Improved Shifting Companion (Su)</Pair>
 <Pair hl title="Replaces">Raise animal companion</Pair>
 <Pair title="Gained">At 10th Level</Pair>
-<Pair title="Ability">A chameleon adept's animal companion improves its ability to change shape. It can use <em>wild shape,</em> as a <Link to="/class/druid">druid</Link> of half the hunter's level, to gain the effects of <Link to="/spell/beast_shape_i">beast shape I.</Link> Unlike a druid's wild shape, this ability does not improve to encompass larger or smaller animals or elementals.</Pair>
+<Pair title="Ability">A chameleon adept's animal companion improves its ability to change shape. It can use <em>wild shape,</em> as a <Link to="/class/druid">druid</Link> of half the hunter's level, to gain the effects of <Link to="/spell/beast_shape_i">beast shape I.</Link> Unlike a druid's <em>wild shape,</em> this ability does not improve to encompass larger or smaller animals or elementals.</Pair>
+</Ability>
+<Ability id="arc-hunter-chameleon_adept-wild-shape-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-hunter-chameleon_adept-wild-shape-su" flavor="Relevant text from the druid class ability.">Wild Shape (Su)</Pair>
+<Pair title="Usage">Once a day.</Pair>
+<Pair title="Standard Action">You gain the ability to turn yourself into any Small or Medium animal and back again. Your options for new forms include all creatures with the <Link to="/main/monsters_animals">animal</Link> type. This ability functions like the <Link to="/spell/beast_shape_i">beast shape I</Link> spell, except as noted here. The effect lasts for 1 hour per druid level, or until you change back. The form chosen must be that of an animal with which you are familiar.</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
+<Pair title="At 6th Level">You can <em>wild shape</em> twice a day as <Link to="/spell/beast_shape_ii">beast shape II</Link>.</Pair>
+<Pair title="At 8th Level">You can <em>wild shape</em> 3 times/day.</Pair>
+<Pair title="At 10th Level">You can <em>wild shape</em> 4 times/day.</Pair>
+<Pair title="Special">You can communicate normally with other animals of the same general grouping as your new form. (The normal sound a wild parrot makes is a squawk, so changing to this form does not permit speech.)</Pair>
 </Ability>
 <Ability id="arc-hunter-chameleon_adept-one-with-the-wild-ex" icon={["upgrade"]}>
 <Pair single id="arc-hunter-chameleon_adept-one-with-the-wild-ex">One with the Wild (Ex)</Pair>
@@ -291,11 +301,27 @@ const _feral_hunter = {title: "Feral Hunter", jsx: <><h2 id="arc-hunter-feral_hu
 <Pair hl title="Alters">Precise companion</Pair>
 <Pair title="Passive Ability">This functions like the <em>precise companion</em> class ability, except the hunter grants all her teamwork feats to all animals she summons with <Link to="/spell/summon_natures_ally">summon nature's ally</Link>.</Pair>
 </Ability>
-<Ability id="arc-hunter-feral_hunter-wild-shape-su" icon={["stairs-goal"]}>
+<Ability id="arc-hunter-feral_hunter-wild-shape-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-hunter-feral_hunter-wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Replaces">Bonus tricks, improved empathic link, greater empathic link, master of the wild, raise animal companion</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Ability">A feral hunter gains the ability to change shape. This ability functions like the <Link to="/class/druid">druid</Link> wild shape ability, except the hunter can take only animal forms (not elemental or plant forms). The hunter's effective druid level is equal to her class level.</Pair>
+<Pair title="Ability">A feral hunter gains the ability to change shape. This ability functions like the <Link to="/class/druid">druid</Link> <em>wild shape</em> ability, except the hunter can take only animal forms (not elemental or plant forms). The hunter's effective druid level is equal to her class level.</Pair>
+</Ability>
+<Ability id="arc-hunter-feral_hunter-wild-shape-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-hunter-feral_hunter-wild-shape-su" flavor="Relevant text from the druid class ability.">Wild Shape (Su)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Usage">Once a day.</Pair>
+<Pair title="Standard Action">You gain the ability to turn yourself into any Small or Medium animal and back again. Your options for new forms include all creatures with the <Link to="/main/monsters_animals">animal</Link> type. This ability functions like the <Link to="/spell/beast_shape_i">beast shape I</Link> spell, except as noted here. The effect lasts for 1 hour per druid level, or until you change back. The form chosen must be that of an animal with which you are familiar.</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
+<Pair title="At 6th Level">You can <em>wild shape</em> twice a day as <Link to="/spell/beast_shape_ii">beast shape II</Link>, and you can now change into a Large or Tiny animal.</Pair>
+<Pair title="At 8th Level">You can <em>wild shape</em> 3 times/day as <Link to="/spell/beast_shape_iii">beast shape III</Link>, and you can now change into a Huge or Diminutive animal.</Pair>
+<Pair title="At 10th Level">You can <em>wild shape</em> 4 times/day.</Pair>
+<Pair title="At 12th Level">You can <em>wild shape</em> 5 times/day.</Pair>
+<Pair title="At 14th Level">You can <em>wild shape</em> 6 times/day.</Pair>
+<Pair title="At 16th Level">You can <em>wild shape</em> 7 times/day.</Pair>
+<Pair title="At 18th Level">You can <em>wild shape</em> 8 times/day.</Pair>
+<Pair title="At 20th Level">You can <em>wild shape</em> at will.</Pair>
+<Pair title="Special">You lose your ability to speak while in animal form because you are limited to the sounds that a normal, untrained animal can make, but you can communicate normally with other animals of the same general grouping as your new form. (The normal sound a wild parrot makes is a squawk, so changing to this form does not permit speech.)</Pair>
 </Ability>
 <Ability id="arc-hunter-feral_hunter-summon-pack-sp" icon={["upgrade"]}>
 <Pair single id="arc-hunter-feral_hunter-summon-pack-sp">Summon Pack (Sp)</Pair>

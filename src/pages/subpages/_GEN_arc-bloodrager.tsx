@@ -417,7 +417,7 @@ const _prowler_at_worlds_end = {title: "Prowler at World's End", jsx: <><h2 id="
 <Pair single id="arc-bloodrager-prowler_at_worlds_end-shapeshifted-spellcasting-su">Shapeshifted Spellcasting (Su)</Pair>
 <Pair hl title="Replaces">The 12th-level bloodline feat</Pair>
 <Pair title="Gained">At 12th Level</Pair>
-<Pair title="Ability">The prowler at world's end can cast spells while under the effects of <em>chosen of the spirits.</em> This ability functions as <Link to="/feat/natural_spell">Natural Spell</Link>, except the prowler uses the ability to cast while under the effects of <em>chosen of the spirits</em> instead of wild shape.</Pair>
+<Pair title="Ability">The prowler at world's end can cast spells while under the effects of <em>chosen of the spirits.</em> This ability functions as <Link to="/feat/natural_spell">Natural Spell</Link>, except the prowler uses the ability to cast while under the effects of <em>chosen of the spirits</em> instead of <em>wild shape.</em></Pair>
 </Ability>
 </>};
 const _rageshaper = {title: "Rageshaper", jsx: <><h2 id="arc-bloodrager-rageshaper-rageshaper">Rageshaper</h2>

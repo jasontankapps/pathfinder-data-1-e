@@ -288,7 +288,7 @@
 			"",
 			"::ab[Chosen of the Spirits (Su)]{icon=magic l=11 ability=\"Whenever a prowler at world's end enters a *bloodrage,* he can apply the effects of ‹spell/beast shape IV› to himself instead of using *greater bloodrage* or *mighty bloodrage* to apply the effects of a bloodrager spell to himself. He must assume the form of a great cat of the same kind as a channeled spirit (cheetah, leopard, lion, or tiger).\" special=\"This effect lasts for as long as the prowler continues *bloodraging,* regardless of its normal duration, and using it does not consume a spell slot.\" alter=\"Greater bloodrage~mighty bloodrage\"}",
 			"",
-			"::ab[Shapeshifted Spellcasting (Su)]{icon=magic l=12 ability=\"The prowler at world's end can cast spells while under the effects of *chosen of the spirits.* This ability functions as ‹feat/Natural Spell›, except the prowler uses the ability to cast while under the effects of *chosen of the spirits* instead of wild shape.\" replace=\"The 12th-level bloodline feat\"}"
+			"::ab[Shapeshifted Spellcasting (Su)]{icon=magic l=12 ability=\"The prowler at world's end can cast spells while under the effects of *chosen of the spirits.* This ability functions as ‹feat/Natural Spell›, except the prowler uses the ability to cast while under the effects of *chosen of the spirits* instead of *wild shape.*\" replace=\"The 12th-level bloodline feat\"}"
 		]
 	},
 	"rageshaper": {
