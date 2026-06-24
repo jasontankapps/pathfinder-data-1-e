@@ -877,10 +877,18 @@ const _phantom_blade = {hasJL:true,title: "Phantom Blade", jsx: <><div className
 <Pair single id="arc-spiritualist-phantom_blade-telepathy-su">Telepathy (Su)</Pair>
 <Pair title="Ability">While the phantom blade is wielding or carrying her <em>phantom weapon,</em> she can communicate telepathically with the weapon.</Pair>
 </Ability>
-<Ability id="arc-spiritualist-phantom_blade-weapon-of-the-mind-ex" icon={["stairs-goal"]}>
+<Ability id="arc-spiritualist-phantom_blade-weapon-of-the-mind-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-spiritualist-phantom_blade-weapon-of-the-mind-ex">Weapon of the Mind (Ex)</Pair>
 <Pair title="Ability">The phantom blade can harbor her <em>phantom weapon</em> in her consciousness or manifest it in its ectoplasmic form. The phantom blade can manifest the weapon through a ritual that takes 1 minute to perform. Harboring the <em>phantom weapon</em> requires a <strong className="hl">full-round action</strong>. While the weapon is harbored, the phantom blade gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat and treats her unarmed strike damage as a <Link to="/class/monk">monk</Link> of her level - 2. If the phantom blade already has this feat, she instead gains <Link to="/feat/weapon_focus">Weapon Focus</Link> (unarmed strike).</Pair>
 <Pair title="Special">The phantom blade's unarmed strikes gain the <em>phantom weapon's</em> enhancement bonus and other abilities when the weapon is harbored. The <em>phantom weapon</em> also recovers a number of hit points equal to its ego score every hour that it is harbored.</Pair>
+</Ability>
+<Ability id="arc-spiritualist-phantom_blade-unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-spiritualist-phantom_blade-unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
+<Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
+<Pair title="At 8th Level">Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.</Pair>
+<Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
+<Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
 </Ability>
 <Ability id="arc-spiritualist-phantom_blade-quick-manifest-ex" icon={["stairs-goal"]}>
 <Pair single id="arc-spiritualist-phantom_blade-quick-manifest-ex">Quick Manifest (Ex)</Pair>
@@ -1411,54 +1419,14 @@ const _ward_spiritualist = {title: "Ward Spiritualist", jsx: <><h2 id="arc-spiri
 <Ability id="arc-spiritualist-ward_spiritualist-unarmed-strike-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
 <Pair single id="arc-spiritualist-ward_spiritualist-unarmed-strike-ex" flavor="Text from the unchained monk class ability.">Unarmed Strike (Ex)</Pair>
 <Pair title="Ability"><p>You gain <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. Your attacks can be with fists, elbows, knees, and feet. This means that you can make unarmed strikes with your hands full. There is no such thing as an off-hand attack when you're striking unarmed. You can apply your full Strength bonus on damage rolls for all your unarmed strikes. Your unarmed strikes deal lethal damage, although you can choose to deal nonlethal damage with no penalty on the attack roll. You can make this choice while grappling as well.</p>
-<ScrollContainer id="arc-spiritualist-ward_spiritualist--table-0"><table>
-<thead>
-<tr>
-<th>Level</th>
-<th>Damage (Small Monk)</th>
-<th>Damage (Medium)</th>
-<th>Damage (Large)</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1st-3rd</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>1d8</td>
-</tr>
-<tr>
-<td>4th-7th</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>2d6</td>
-</tr>
-<tr>
-<td>8th-11th</td>
-<td>1d8</td>
-<td>1d10</td>
-<td>2d8</td>
-</tr>
-<tr>
-<td>12th-15th</td>
-<td>1d10</td>
-<td>2d6</td>
-<td>3d6</td>
-</tr>
-<tr>
-<td>16th-19th</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>3d8</td>
-</tr>
-<tr>
-<td>20th</td>
-<td>2d8</td>
-<td>2d10</td>
-<td>4d8</td>
-</tr>
-</tbody></table></ScrollContainer>
 </Pair>
-<Pair title="Special">Your unarmed strike is treated as both a manufactured weapon and a natural weapon for the purpose of spells and effects that enhance or improve either manufactured weapons or natural weapons. The damage of your strike is determined by your size and level, shown on the chart below.</Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
+<Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
+<Pair title="At 8th Level">Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.</Pair>
+<Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
+<Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
+<Pair title="At 20th Level">Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.</Pair>
+<Pair title="Special">Your unarmed strike is treated as both a manufactured weapon and a natural weapon for the purpose of spells and effects that enhance or improve either manufactured weapons or natural weapons.</Pair>
 </Ability>
 <Ability id="arc-spiritualist-ward_spiritualist-flurry-of-blows-ex" icon={["mailed-fist"]}>
 <Pair single id="arc-spiritualist-ward_spiritualist-flurry-of-blows-ex" flavor="Text from the unchained monk class ability.">Flurry of Blows (Ex)</Pair>

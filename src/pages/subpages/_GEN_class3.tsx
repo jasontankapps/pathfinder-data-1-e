@@ -289,56 +289,17 @@ const _unchained_monk = {hasJL:true,title: "Unchained Monk", jsx: <><div classNa
 <Pair single id="class-unchained_monk-unarmed-strike-ex">Unarmed Strike (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You gain <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. Your attacks can be with fists, elbows, knees, and feet. This means that you can make unarmed strikes with your hands full. There is no such thing as an off-hand attack when you're striking unarmed. You can apply your full Strength bonus on damage rolls for all your unarmed strikes. Your unarmed strikes deal lethal damage, although you can choose to deal nonlethal damage with no penalty on the attack roll. You can make this choice while grappling as well.</p>
-<ScrollContainer id="class-unchained_monk--table-2"><table>
-<thead>
-<tr>
-<th>Level</th>
-<th>Damage (Small Monk)</th>
-<th>Damage (Medium)</th>
-<th>Damage (Large)</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1st-3rd</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>1d8</td>
-</tr>
-<tr>
-<td>4th-7th</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>2d6</td>
-</tr>
-<tr>
-<td>8th-11th</td>
-<td>1d8</td>
-<td>1d10</td>
-<td>2d8</td>
-</tr>
-<tr>
-<td>12th-15th</td>
-<td>1d10</td>
-<td>2d6</td>
-<td>3d6</td>
-</tr>
-<tr>
-<td>16th-19th</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>3d8</td>
-</tr>
-<tr>
-<td>20th</td>
-<td>2d8</td>
-<td>2d10</td>
-<td>4d8</td>
-</tr>
-</tbody></table></ScrollContainer>
+<p>You also deal more damage with your unarmed strikes than a normal person would. The unarmed damage values listed on the table above are for Medium monks only.</p>
 </Pair>
-<Pair title="Special">Your unarmed strike is treated as both a manufactured weapon and a natural weapon for the purpose of spells and effects that enhance or improve either manufactured weapons or natural weapons. The damage of your strike is determined by your size and level, shown on the chart below.</Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
+<Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
+<Pair title="At 8th Level">Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.</Pair>
+<Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
+<Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
+<Pair title="At 20th Level">Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.</Pair>
+<Pair title="Special">Your unarmed strike is treated as both a manufactured weapon and a natural weapon for the purpose of spells and effects that enhance or improve either manufactured weapons or natural weapons.</Pair>
 </Ability>
-<div className="sideNoteWrap singular optional elephant"><ScrollContainer id="class-unchained_monk--table-3"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/>Instead of Improved Unarmed Strike, monks gain <strong className="hl"><Link to="/rule/unarmed_combatant">Unarmed Combatant</Link></strong> as a bonus feat.</p>
+<div className="sideNoteWrap singular optional elephant"><ScrollContainer id="class-unchained_monk--table-2"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/>Instead of Improved Unarmed Strike, monks gain <strong className="hl"><Link to="/rule/unarmed_combatant">Unarmed Combatant</Link></strong> as a bonus feat.</p>
 </td></tr></tbody></table></ScrollContainer></div><Ability id="class-unchained_monk-evasion-ex" icon={["armor-upgrade"]}>
 <Pair single id="class-unchained_monk-evasion-ex" flavor="A monk can avoid damage from many area-effect attacks.">Evasion (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -420,7 +381,7 @@ const _unchained_monk = {hasJL:true,title: "Unchained Monk", jsx: <><div classNa
 <p>A monk who becomes nonlawful cannot gain new levels as a monk but retains all monk abilities.</p>
 <h3 id="class-unchained_monk-alternate-capstones" data-hash-target>Alternate Capstones</h3>
 <p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 28</Link><br/>When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides <Link to="/ability/capstones">new capstones</Link> for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with. A character that gains certain abilities may be eligible for capstones other than those listed below.</p>
-<div className="capstones"><ScrollContainer id="class-unchained_monk--table-4"><table><thead><tr><th scope="col">Capstone</th><th scope="col">Benefit</th></tr></thead>
+<div className="capstones"><ScrollContainer id="class-unchained_monk--table-3"><table><thead><tr><th scope="col">Capstone</th><th scope="col">Benefit</th></tr></thead>
 <tbody>
 <tr><td>Ki Sage (Su)</td><td>At 20th level, the character is fully attuned to his own body and the ki that flows within. The character gains two <Link to="/ability/ki_powers">ki powers</Link> from those available to the unchained monk, treating his character level as his monk level for the purpose of any requirements. In addition, his ki pool increases by four. This capstone is available to any class with a ki pool.</td></tr>
 <tr><td>Old Dog, New Tricks (Ex)</td><td>At 20th level, the character shows that a true warrior always has one more surprise the enemy hasn't seen. The character gains four <Link to="/main/combat_feat">combat feats</Link>. This capstone is available to characters of any class that gains at least four bonus combat feats.</td></tr>

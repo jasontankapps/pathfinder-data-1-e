@@ -11,10 +11,19 @@ const _brawling_blademaster = {title: "Brawling Blademaster", jsx: <><h2 id="arc
 <Pair hl title="Alters">Weapon and armor proficiency</Pair>
 <Pair title="Info">Brawling blademasters are proficient with all simple and martial weapons, plus the <Link to="/eq-weapon/katana">katana</Link> and <Link to="/eq-weapon/wakizashi">wakizashi</Link>. Brawling blademasters are proficient with light armor, but not with shields.</Pair>
 </Ability>
-<Ability id="arc-samurai-brawling_blademaster-empty-hand-ex" icon={["mailed-fist"]}>
+<Ability id="arc-samurai-brawling_blademaster-empty-hand-ex" extraClasses="hasSubs" icon={["mailed-fist"]}>
 <Pair single id="arc-samurai-brawling_blademaster-empty-hand-ex">Empty Hand (Ex)</Pair>
 <Pair hl title="Replaces">Mount</Pair>
 <Pair title="Ability">A brawling blademaster gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. She uses her samurai level as her <Link to="/class/monk">monk</Link> level for determining the amount of damage she deals with an unarmed strike. These levels stack with monk levels to determine the brawling blademaster's unarmed strike damage.</Pair>
+</Ability>
+<Ability id="arc-samurai-brawling_blademaster-unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-samurai-brawling_blademaster-unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
+<Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
+<Pair title="At 8th Level">Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.</Pair>
+<Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
+<Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
+<Pair title="At 20th Level">Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.</Pair>
 </Ability>
 <Ability id="arc-samurai-brawling_blademaster-nimble-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-samurai-brawling_blademaster-nimble-ex">Nimble (Ex)</Pair>

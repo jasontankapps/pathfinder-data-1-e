@@ -811,6 +811,14 @@ const _skinshaper = {title: "Skinshaper", jsx: <><h2 id="arc-druid-skinshaper-sk
 <Pair single id="arc-druid-skinshaper-unarmed-strike">Unarmed Strike</Pair>
 <Pair title="At 4th Level">The skinshaper learns to intuitively use her body as a weapon. While <em>skinshaping,</em> she gains the benefit of the <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> feat, and her unarmed strike deals damage as if she were a <Link to="/class/monk">monk</Link> with a monk level equal to her druid level - 3.</Pair>
 </Ability>
+<Ability id="arc-druid-skinshaper-unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-druid-skinshaper-unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
+<Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
+<Pair title="At 8th Level">Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.</Pair>
+<Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
+<Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
+</Ability>
 <Ability id="arc-druid-skinshaper-enhancement-bonus" extraClasses="subAbility" icon={["upgrade"]}>
 <Pair single id="arc-druid-skinshaper-enhancement-bonus">Enhancement Bonus</Pair>
 <Pair title="At 6th Level">A skinshaper gains the ability to channel the versatile nature of humanoids to enhance her body and mind. Whenever she uses <em>skinshaping</em> to assume a humanoid shape other than her own, she gains a +2 enhancement bonus to any one ability score. The bonus persists as long as she remains in that form.</Pair>

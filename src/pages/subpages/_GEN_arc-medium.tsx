@@ -123,10 +123,19 @@ const _medium_of_the_master = {title: "Medium of the Master", jsx: <><h2 id="arc
 <Pair single id="arc-medium-medium_of_the_master-spirit-call-su" flavor={<>The medium of the master's unique bond allows her to briefly call on a champion spirit without performing a <em>seance.</em></>}>Spirit Call (Su)</Pair>
 <Pair title="Standard Action">She can allow a spirit to gain 1 point of influence over her to channel it for a number of minutes equal to her level. This influence remains for 24 hours, stacking with any influence the medium gains by using this ability multiple times or by channeling a spirit in a <em>seance</em> during that time.</Pair>
 </Ability>
-<Ability id="arc-medium-medium_of_the_master-masters-power-su" icon={["mailed-fist"]}>
+<Ability id="arc-medium-medium_of_the_master-masters-power-su" extraClasses="hasSubs" icon={["mailed-fist"]}>
 <Pair single id="arc-medium-medium_of_the_master-masters-power-su">Master's Power (Su)</Pair>
 <Pair hl title="Alters">Spirit power (lesser)</Pair>
 <Pair title="Ability">When a medium of the master channels a champion spirit, she treats her unarmed strike damage as that of a <Link to="/class/monk">monk</Link> of her level. For the purpose of determining damage, these levels stack with levels from any other class that grants increased damage to unarmed strikes.</Pair>
+</Ability>
+<Ability id="arc-medium-medium_of_the_master-unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-medium-medium_of_the_master-unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
+<Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
+<Pair title="At 8th Level">Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.</Pair>
+<Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
+<Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
+<Pair title="At 20th Level">Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.</Pair>
 </Ability>
 <Ability id="arc-medium-medium_of_the_master-shared-prowess-su" icon={["armor-upgrade"]}>
 <Pair single id="arc-medium-medium_of_the_master-shared-prowess-su" flavor="A medium of the master's spirit endows her with greater martial expertise.">Shared Prowess (Su)</Pair>

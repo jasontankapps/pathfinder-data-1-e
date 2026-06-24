@@ -830,10 +830,16 @@ const _iroran_paladin = {title: "Iroran Paladin", jsx: <><h2 id="arc-paladin-iro
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">When wearing light or no armor and not using a shield, an Iroran paladin adds 1 point of his Charisma bonus (if any) per class level to his Dexterity bonus to his Armor Class. If he is caught <Link to="/rule/flat_footed">flat-footed</Link> or otherwise denied his Dexterity bonus, he also loses this bonus.</Pair>
 </Ability>
-<Ability id="arc-paladin-iroran_paladin-unarmed-strike" icon={["stairs-goal","mailed-fist"]}>
+<Ability id="arc-paladin-iroran_paladin-unarmed-strike" extraClasses="hasSubs" icon={["stairs-goal","mailed-fist"]}>
 <Pair single id="arc-paladin-iroran_paladin-unarmed-strike">Unarmed Strike</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An Iroran paladin gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. In addition, he gains the unarmed strike <Link to="/class/monk">monk</Link> ability, treating his monk level as half his paladin level (minimum 1) for calculating his unarmed strike damage.</Pair>
+</Ability>
+<Ability id="arc-paladin-iroran_paladin-unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-paladin-iroran_paladin-unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
+<Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
+<Pair title="At 8th Level">Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.</Pair>
 </Ability>
 <Ability id="arc-paladin-iroran_paladin-aura-of-law-su" icon={["info"]}>
 <Pair single id="arc-paladin-iroran_paladin-aura-of-law-su">Aura of Law (Su)</Pair>

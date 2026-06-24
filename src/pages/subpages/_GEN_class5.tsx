@@ -1700,8 +1700,9 @@ const _monk = {hasJL:true,title: "Monk", jsx: <><div className="jumpList" id="cl
 <Pair single id="class-monk-unarmed-strike">Unarmed Strike</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You gain <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. Your attacks may be with fist, elbows, knees, and feet. This means that you may make unarmed strikes with your hands full. There is no such thing as an off-hand attack for your unarmed strikes, so you apply your full Strength bonus on damage rolls for all your unarmed strikes.</p>
-<p>You also deal more damage with your unarmed strikes than a normal person would. The unarmed damage values listed on the table above are for Medium monks only. If you are Small, you deal 1d4 damage, and if you are Large, you deal 1d8 damage.</p>
+<p>You also deal more damage with your unarmed strikes than a normal person would. The unarmed damage values listed on the table above are for Medium monks only.</p>
 </Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
 <Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
 <Pair title="At 8th Level">Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.</Pair>
 <Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>

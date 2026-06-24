@@ -173,10 +173,18 @@ const _bloody_knuckled_rowdy = {title: "Bloody-Knuckled Rowdy", jsx: <><h2 id="a
 <Pair title="Ability">A bloody-knuckled rowdy gains a bonus feat. This bonus feat must be a <Link to="/main/style_feat">style feat</Link> or a feat with a style feat as a prerequisite. The bloody-knuckled rowdy treats his bloodrager levels as monk levels when qualifying for and calculating the effects of style feats and feats that have style feats as prerequisites.</Pair>
 <Pair title="At 5th Level">The bloody-knuckled rowdy gains the <Link to="/feat/combat_style_master">Combat Style Master</Link> feat. He doesn't need to meet the prerequisites for this feat.</Pair>
 </Ability>
-<Ability id="arc-bloodrager-bloody_knuckled_rowdy-hand-to-hand-training-ex" icon={["mailed-fist"]}>
+<Ability id="arc-bloodrager-bloody_knuckled_rowdy-hand-to-hand-training-ex" extraClasses="hasSubs" icon={["mailed-fist"]}>
 <Pair single id="arc-bloodrager-bloody_knuckled_rowdy-hand-to-hand-training-ex">Hand-to-Hand Training (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A bloody-knuckled rowdy deals unarmed damage as a <Link to="/class/monk">monk</Link> of a level equal to his bloodrager level - 2.</Pair>
+</Ability>
+<Ability id="arc-bloodrager-bloody_knuckled_rowdy-unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-bloodrager-bloody_knuckled_rowdy-unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
+<Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
+<Pair title="At 8th Level">Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.</Pair>
+<Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
+<Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
 </Ability>
 </>};
 const _crossblooded_rager = {title: "Crossblooded Rager", jsx: <><h2 id="arc-bloodrager-crossblooded_rager-crossblooded-rager">Crossblooded Rager</h2>

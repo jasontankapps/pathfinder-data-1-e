@@ -435,10 +435,19 @@ const _esoteric = {title: "Esoteric", jsx: <><h2 id="arc-magus-esoteric-esoteric
 <Pair title="Ability">An esoteric can use his <em>arcane pool</em> to enhance his unarmed strikes as if they were manufactured weapons.</Pair>
 <Pair title="At 5th Level">He can use these bonuses to add any of the following weapon special abilities to his weapons or unarmed strikes: <Link to="/magic-enh/defending">defending</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/impact">impact</Link>, <Link to="/magic-enh/shock">shock</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, <Link to="/magic-enh/speed">speed</Link>, or <Link to="/magic-enh/thundering">thundering</Link>.</Pair>
 </Ability>
-<Ability id="arc-magus-esoteric-unarmed-strike" icon={["stairs-goal"]}>
+<Ability id="arc-magus-esoteric-unarmed-strike" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="arc-magus-esoteric-unarmed-strike">Unarmed Strike</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An esoteric gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. He also treats his magus levels as <Link to="/class/monk">monk</Link> levels when determining the amount of damage he deals with his unarmed strikes.</Pair>
+</Ability>
+<Ability id="arc-magus-esoteric-unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-magus-esoteric-unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
+<Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
+<Pair title="At 8th Level">Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.</Pair>
+<Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
+<Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
+<Pair title="At 20th Level">Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.</Pair>
 </Ability>
 <Ability id="arc-magus-esoteric-unarmed-spellstrike-su" icon={["broken-shield"]}>
 <Pair single id="arc-magus-esoteric-unarmed-spellstrike-su">Unarmed Spellstrike (Su)</Pair>
@@ -615,9 +624,18 @@ const _iron_ring_striker = {title: "Iron-Ring Striker", jsx: <><h2 id="arc-magus
 <Pair hl title="Alters">Spellstrike</Pair>
 <Pair title="Ability">An iron-ring striker gains the magus <em>spellstrike</em> class feature. However, an iron-ring striker can deliver spells with <em>spellstrike</em> with only unarmed strikes.</Pair>
 </Ability>
-<Ability id="arc-magus-iron_ring_striker-unarmed-strike" icon={["stairs-goal","mailed-fist"]}>
+<Ability id="arc-magus-iron_ring_striker-unarmed-strike" extraClasses="hasSubs" icon={["stairs-goal","mailed-fist"]}>
 <Pair single id="arc-magus-iron_ring_striker-unarmed-strike">Unarmed Strike</Pair>
 <Pair title="Ability">An iron-ring striker gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. He deals unarmed strike damage as per a <Link to="/class/monk">monk</Link> of his level. For the purpose of determining damage, these levels stack with levels from any other class that grants increased damage to unarmed strikes.</Pair>
+</Ability>
+<Ability id="arc-magus-iron_ring_striker-unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-magus-iron_ring_striker-unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
+<Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
+<Pair title="At 8th Level">Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.</Pair>
+<Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
+<Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
+<Pair title="At 20th Level">Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.</Pair>
 </Ability>
 <Ability id="arc-magus-iron_ring_striker-bonus-feat" icon={["broken-shield"]}>
 <Pair single id="arc-magus-iron_ring_striker-bonus-feat">Bonus Feat</Pair>
@@ -652,7 +670,7 @@ const _jistkan_artificer = {title: "Jistkan Artificer", jsx: <><h2 id="arc-magus
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Info">A Jistkan artificer has one fewer spell slot of each level than a regular magus. If this reduces his number of spell slots of a particular level to zero, he can cast spells of that level only if his Intelligence allows <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
 </Ability>
-<Ability id="arc-magus-jistkan_artificer-golem-arm-ex" icon={["mailed-fist","upgrade"]}>
+<Ability id="arc-magus-jistkan_artificer-golem-arm-ex" extraClasses="hasSubs" icon={["mailed-fist","upgrade"]}>
 <Pair single id="arc-magus-jistkan_artificer-golem-arm-ex">Golem Arm (Ex)</Pair>
 <Pair hl title="Alters">Arcane pool</Pair>
 <Pair title="Ability">A Jistkan artificer begins play with a <em>golem arm</em> grafted in place of one of his arms. The <em>golem arm</em> is a <Link to="/rule/masterwork_w">masterwork weapon</Link> that is treated as an unarmed strike and deals damage as if he were a <Link to="/class/monk">monk</Link> 2 levels lower than his class level (minimum 1st level). The <em>golem arm</em> is made from basic parts and mundane materials that grant no additional benefits. A Jistkan artificer can recreate his <em>golem arm</em> from other materials by spending 1 day and paying an additional +50% of the normal cost of the special material used in the creation of this new <em>golem arm.</em> For the purposes of determining the weapon type and weight for special materials, the <em>golem arm</em> is treated as a <Link to="/eq-weapon/heavy_mace">heavy mace</Link>.</Pair>
@@ -660,6 +678,14 @@ const _jistkan_artificer = {title: "Jistkan Artificer", jsx: <><h2 id="arc-magus
 <Pair title="At 5th Level">He can use this ability to add any of the following special abilities to his unarmed strikes: <Link to="/magic-enh/corrosive">corrosive</Link>, <Link to="/magic-enh/corrosive_burst">corrosive burst</Link>, <Link to="/magic-enh/defending">defending</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/impact">impact</Link>, <Link to="/magic-enh/shock">shock</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, or <Link to="/magic-enh/thundering">thundering</Link>.</Pair>
 <Pair title="At 11th Level">He he gains access to the following special abilities: <Link to="/magic-enh/brilliant_energy">brilliant energy</Link> and <Link to="/magic-enh/speed">speed</Link>.</Pair>
 <Pair title="Special">If a Jistkan artificer recreates his <em>golem arm,</em> any previously used special materials are destroyed. The arm gains no benefits from items that enhance unarmed strikes, such as an <Link to="/magic-wondrous/amulet_of_mighty_fists">amulet of mighty fists</Link>.</Pair>
+</Ability>
+<Ability id="arc-magus-jistkan_artificer-unarmed-strike" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="arc-magus-jistkan_artificer-unarmed-strike" flavor="Relevant text from the monk class ability.">Unarmed Strike</Pair>
+<Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>
+<Pair title="At 4th Level">Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.</Pair>
+<Pair title="At 8th Level">Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.</Pair>
+<Pair title="At 12th Level">Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.</Pair>
+<Pair title="At 16th Level">Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.</Pair>
 </Ability>
 <Ability id="arc-magus-jistkan_artificer-improved-unarmed-strike" icon={["stairs-goal","broken-shield"]}>
 <Pair single id="arc-magus-jistkan_artificer-improved-unarmed-strike">Improved Unarmed Strike</Pair>
