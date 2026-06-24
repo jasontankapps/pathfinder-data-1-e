@@ -518,10 +518,10 @@ const _noble_fencer = {title: "Noble Fencer", jsx: <><h2 id="arc-swashbuckler-no
 <Pair title="Ability">Just before a <Link to="/rule/verbal_duels">verbal duel</Link>, a noble fencer can spend up to 4 panache points. For each point he spends, he selects a <em>tactic</em> for which he has chosen Bluff, Diplomacy, Intimidate, or Sense Motive as an associated skill and gains an <em>edge</em> he can only use with that <em>tactic.</em></Pair>
 </Ability>
 <Ability id="arc-swashbuckler-noble_fencer-incredible-aspirations-ex" extraClasses="subAbility" icon={["upgrade","rolling-dices"]}>
-<Pair single id="arc-swashbuckler-noble_fencer-incredible-aspirations-ex" flavor={<>A noble fencer strives for truly amazing results when he uses his <Link to="/swashdeed/derring_do">derring-do</Link> and <em>social panache</em> deeds.</>}>Incredible Aspirations (Ex)</Pair>
+<Pair single id="arc-swashbuckler-noble_fencer-incredible-aspirations-ex">Incredible Aspirations (Ex)</Pair>
 <Pair hl title="Replaces">Superior feint</Pair>
 <Pair title="Gained">At 7th Level</Pair>
-<Pair title="Passive Ability">As long as he has 1 panache point, the first time he rolls a natural 5 on the 1d6 for those deeds, he can roll another 1d6, subject to the other limitations of the respective deeds. He can still reroll as many rolls of 6 as normal.</Pair>
+<Pair title="Passive Ability">A noble fencer strives for truly amazing results when he uses his <Link to="/swashdeed/derring_do">derring-do</Link> and <em>social panache</em> deeds. As long as he has 1 panache point, the first time he rolls a natural 5 on the 1d6 for those deeds, he can roll another 1d6, subject to the other limitations of the respective deeds. He can still reroll as many rolls of 6 as normal.</Pair>
 </Ability>
 <Ability id="arc-swashbuckler-noble_fencer-unshakable-presence-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
 <Pair single id="arc-swashbuckler-noble_fencer-unshakable-presence-ex" flavor="A noble fencer cloaks himself in the combined bravado of a swashbuckler and a noble, girding himself against anything that attempts to shake his impossible confidence.">Unshakable Presence (Ex)</Pair>

@@ -301,9 +301,9 @@ const _cabalist = {title: "Cabalist", jsx: <><h2 id="arc-vigilante-cabalist-caba
 <Pair title="Prerequisites">10th-level vigilante</Pair>
 <Pair title="Ability">The cabalist gains the <Link to="/pclass/shadowdancer">shadowdancer's</Link> <em>shadow jump</em> ability with an effective shadowdancer level equal to his vigilante level - 6. If he has levels in shadowdancer, those levels stack with his vigilante levels to determine the total distance per day he can shadow jump (to a maximum of 320 feet per day).</Pair>
 <Pair title="At 4th Level"><em>A shadowdancer gains the ability to travel between shadows as if by means of a <Link to="/spell/dimension_door">dimension door</Link> spell. The limitation is that the magical transport must begin and end in an area with at least some dim light. A shadowdancer can jump up to a total of 40 feet each day in this way; this may be a single jump of 40 feet or four jumps of 10 feet each.</em></Pair>
-<Pair title="At 6th Level"><em>The total distnce increases to 80 feet.</em></Pair>
-<Pair title="At 8th Level"><em>The total distnce increases to 160 feet.</em></Pair>
-<Pair title="At 10th Level"><em>The total distnce increases to 320 feet.</em></Pair>
+<Pair title="At 6th Level"><em>The total distance increases to 80 feet.</em></Pair>
+<Pair title="At 8th Level"><em>The total distance increases to 160 feet.</em></Pair>
+<Pair title="At 10th Level"><em>The total distance increases to 320 feet.</em></Pair>
 <Pair title="Special"><em>This amount can be split among many jumps, but each one, no matter how small, counts as a 10-foot increment.</em></Pair>
 </Ability>
 <Ability id="arc-vigilante-cabalist-tattoo-chamber-su" extraClasses="subAbility" icon={["magic-swirl"]}>
