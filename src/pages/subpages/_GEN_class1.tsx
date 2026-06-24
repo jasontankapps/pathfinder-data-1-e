@@ -368,7 +368,7 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Standard Action">You can drink a mutagen to heighten your physical prowess at the cost of your personality. You gain a +2 natural armor bonus, a +4 alchemical bonus to a physical stat, and a -2 penalty to a mental stat. See below for details.</Pair>
 <Pair title="Usage">A mutagen lasts for 10 minutes per alchemist level.</Pair>
-<Pair title="Note"><p>You learn how to create a mutagen that you can imbibe in order to heighten your physical prowess at the cost of your personality. It takes 1 hour to brew a dose of mutagen, and once brewed, it remains potent until used. You can only maintain one dose of mutagen at a time - if you brew a second dose, any existing mutagen becomes inert.</p>
+<Pair title="Info"><p>You learn how to create a mutagen that you can imbibe in order to heighten your physical prowess at the cost of your personality. It takes 1 hour to brew a dose of mutagen, and once brewed, it remains potent until used. You can only maintain one dose of mutagen at a time - if you brew a second dose, any existing mutagen becomes inert.</p>
 <p>When you brew a mutagen, you select one physical ability score for it to boost - either Strength, Dexterity, or Constitution. If the mutagen enhances your Strength, it applies a penalty to your Intelligence. If it enhances your Dexterity, it applies a penalty to your Wisdom. If it enhances your Constitution, it applies a penalty to your Charisma.</p>
 <p>A non-alchemist who drinks a mutagen must make a Fortitude save (DC 10 + 1/2 your alchemist level + your Intelligence modifier) or become <Link to="/misc/nauseated">nauseated</Link> for 1 hour - a non-alchemist can never gain the benefit of a mutagen, but you can gain the effects of another alchemist's mutagen if you drink it. (Although if the other alchemist creates a different mutagen, the effects of the "stolen" mutagen immediately cease.) The effects of a mutagen do not stack. Whenever you drink a mutagen, the effects of any previous mutagen immediately end.</p>
 </Pair>
@@ -2303,8 +2303,7 @@ const _bard = {hasJL:true,title: "Bard", jsx: <><div className="jumpList" id="cl
 <Pair single id="class-bard-lore-master-ex" flavor="You become a master of lore.">Lore Master (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">You can take 10 on any Knowledge skill check that you have ranks in even when threatened or distracted. You can also choose not to take 10 and can instead roll normally.</Pair>
-<Pair title="Standard Action">You can take 20 on any Knowledge skill check.</Pair>
-<Pair title="Usage">Once per day.</Pair>
+<Pair title="Standard Action">Once per day, you can take 20 on any Knowledge skill check.</Pair>
 <Pair title="At 11th Level">You can Take 20 twice a day.</Pair>
 <Pair title="At 17th Level">You can Take 20 three times a day.</Pair>
 </Ability>
