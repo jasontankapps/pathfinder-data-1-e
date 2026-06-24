@@ -399,43 +399,128 @@ const _darklantern = {title: "Darklantern", jsx: <><h2 id="arc-vigilante-darklan
 </>};
 const _dragonscale_loyalist = {title: "Dragonscale Loyalist", jsx: <><h2 id="arc-vigilante-dragonscale_loyalist-dragonscale-loyalist">Dragonscale Loyalist</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 24</Link><br/>Since the disappearance of the Rogarvias, Brevoy draws ever closer to civil war. The rule of King-Regent Noleski Surtova grows increasingly tenuous; to hold his position, he sends handpicked agents into the kingdom's courts to flush out traitors to the Dragonscale Throne. When not acting as courtiers, these agents don fearsome draconic masks, becoming anonymous protectors of the kingregent's rule.</p>
-<p><strong>Ruby Courtier (Ex):</strong> Surtova's minions pose as minor nobles studying the Aldori swordlord traditions common throughout Brevoy. At 1st level, a Dragonscale loyalist gains <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (Aldori dueling sword) as a bonus feat. His social identity must appear to be that of a noble, and he can't select <Link to="/soctalent/double_time">double time</Link>, <Link to="/soctalent/many_guises">many guises</Link>, or any social talent inappropriate for a noble social identity.</p>
-<p>This ability alters <strong className="hl">social talents</strong> and <strong className="hl">replaces</strong> the 1st-level social talent.</p>
-<p><strong>Reflexive Reaction (Ex):</strong> A Dragonscale loyalist lacks the conviction of other vigilantes, but his reactions are keenly honed. At 3rd level, if a Dragonscale loyalist acts during a surprise round, he can take a full round's worth of actions. If he does, he is staggered during the first full round of combat.</p>
-<p>This ability replaces <strong className="hl">unshakable</strong>.</p>
-<p><strong>False Allegiance (Ex):</strong> Eventually, a loyalist begins training to infiltrate one of Brevoy's great houses. At 5th level, a Dragonscale loyalist chooses one of the seven houses of Brevoy, gaining a bonus feat and a special ability appropriate to the chosen house. He need not meet the feat's prerequisites.</p>
-<p><strong>House Garess:</strong> The Dragonscale loyalist gains <Link to="/feat/sure_grasp">Sure Grasp</Link> and <Link to="/race/dwarves">dwarves'</Link> stonecunning racial trait.</p>
-<p><strong>House Lebeda:</strong> The Dragonscale loyalist gains <Link to="/feat/skill_focus">Skill Focus</Link> (Appraise). He can also resell items for 60% of their listed value, rather than 50%. The purchase limit of the settlement must be high enough to accommodate the increased value.</p>
-<p><strong>House Lodovka:</strong> The Dragonscale loyalist gains <Link to="/feat/sea_legs">Sea Legs</Link>. When attempting Swim checks, he ignores the armor check penalty of light or medium armor. If the loyalist has the <Link to="/vigtalent/heavy_training">heavy training</Link> vigilante talent, this applies to heavy armor as well.</p>
-<p><strong>House Medvyed:</strong> The Dragonscale loyalist gains <Link to="/feat/endurance">Endurance</Link> and the druid's <Link to="/ability/resist_natures_lure">resist nature's lure</Link> class feature.</p>
-<p><strong>House Orlovsky:</strong> The Dragonscale loyalist gains <Link to="/feat/call_truce">Call Truce</Link> and a +3 bonus to his CMD.</p>
-<p><strong>House Rogarvia:</strong> The Dragonscale loyalist gains Skill Focus (Knowledge [history]) and a +2 bonus on Diplomacy checks to gather information. This bonus increases to +4 when gathering information related to the Rogarvias.</p>
-<p><strong>House Surtova:</strong> The Dragonscale loyalist gains <Link to="/feat/persuasive">Persuasive</Link> and a +4 bonus on Sense Motive checks against creatures that profess to be his allies.</p>
-<p>This ability replaces <strong className="hl">startling appearance</strong>.</p>
-<p><strong>Dragonscale Vigilance (Su):</strong> A Dragonscale loyalist becomes supernaturally perceptive to plots against his lord. At 11th level, while in his vigilante identity, a Dragonscale loyalist is treated as constantly being under the effects of <Link to="/spell/perceive_betrayal">perceive betrayal</Link>. This effect's caster level is equal to the Dragonscale loyalist's vigilante level, and he doesn't require material components or a focus.</p>
-<p>This ability replaces the vigilante's <strong className="hl">frightening appearance</strong>.</p>
-<p><strong>Conqueror's Wrath (Ex):</strong> Inspired by the deeds of Chora the Conqueror, a loyalist can rampage through enemy ranks. At 17th level, as a full-round action, a Dragonscale loyalist can make a full attack and move up to his speed. The loyalist can pause at any point or points during the movement, make one or more of his attacks, and continue moving. Creatures making attacks of opportunity against the loyalist during this movement gain a +4 bonus on their attack and damage rolls. Using this ability counts as using a vigilante talent.</p>
-<p>This ability replaces <strong className="hl">stunning appearance</strong>.</p>
+<Ability id="arc-vigilante-dragonscale_loyalist-ruby-courtier-ex" icon={["stairs-goal","info"]}>
+<Pair single id="arc-vigilante-dragonscale_loyalist-ruby-courtier-ex" flavor="Surtova's minions pose as minor nobles studying the Aldori swordlord traditions common throughout Brevoy.">Ruby Courtier (Ex)</Pair>
+<Pair hl title="Replaces">1st-level social talent</Pair>
+<Pair hl title="Alters">Social talents</Pair>
+<Pair title="At 1st Level">A Dragonscale loyalist gains <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (Aldori dueling sword) as a bonus feat. His social identity must appear to be that of a noble, and he can't select <Link to="/soctalent/double_time">double time</Link>, <Link to="/soctalent/many_guises">many guises</Link>, or any social talent inappropriate for a noble social identity.</Pair>
+</Ability>
+<Ability id="arc-vigilante-dragonscale_loyalist-reflexive-reaction-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-dragonscale_loyalist-reflexive-reaction-ex" flavor="A Dragonscale loyalist lacks the conviction of other vigilantes, but his reactions are keenly honed.">Reflexive Reaction (Ex)</Pair>
+<Pair hl title="Replaces">Unshakable</Pair>
+<Pair title="At 3rd Level">If a Dragonscale loyalist acts during a surprise round, he can take a full round's worth of actions. If he does, he is <Link to="/misc/staggered">staggered</Link> during the first full round of combat.</Pair>
+</Ability>
+<Ability id="arc-vigilante-dragonscale_loyalist-false-allegiance-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-dragonscale_loyalist-false-allegiance-ex" flavor="Eventually, a loyalist begins training to infiltrate one of Brevoy's great houses.">False Allegiance (Ex)</Pair>
+<Pair hl title="Replaces">Startling appearance</Pair>
+<Pair title="At 5th Level">A Dragonscale loyalist chooses one of the seven houses of Brevoy, gaining a bonus feat and a special ability appropriate to the chosen house. He need not meet the feat's prerequisites.</Pair>
+</Ability>
+<Ability id="arc-vigilante-dragonscale_loyalist-house-garess" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-dragonscale_loyalist-house-garess">House Garess</Pair>
+<Pair title="Ability">The Dragonscale loyalist gains <Link to="/feat/sure_grasp">Sure Grasp</Link> and <Link to="/race/dwarves">dwarves'</Link> stonecunning racial trait.</Pair>
+</Ability>
+<Ability id="arc-vigilante-dragonscale_loyalist-house-lebeda" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-vigilante-dragonscale_loyalist-house-lebeda">House Lebeda</Pair>
+<Pair title="Ability">The Dragonscale loyalist gains <Link to="/feat/skill_focus">Skill Focus</Link> (Appraise). He can also resell items for 60% of their listed value, rather than 50%. The purchase limit of the settlement must be high enough to accommodate the increased value.</Pair>
+</Ability>
+<Ability id="arc-vigilante-dragonscale_loyalist-house-lodovka" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-vigilante-dragonscale_loyalist-house-lodovka">House Lodovka</Pair>
+<Pair title="Ability">The Dragonscale loyalist gains <Link to="/feat/sea_legs">Sea Legs</Link>. When attempting Swim checks, he ignores the armor check penalty of light or medium armor. If the loyalist has the <Link to="/vigtalent/heavy_training">heavy training</Link> vigilante talent, this applies to heavy armor as well.</Pair>
+</Ability>
+<Ability id="arc-vigilante-dragonscale_loyalist-house-medvyed" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-dragonscale_loyalist-house-medvyed">House Medvyed</Pair>
+<Pair title="Ability">The Dragonscale loyalist gains <Link to="/feat/endurance">Endurance</Link> and the druid's <Link to="/ability/resist_natures_lure">resist nature's lure</Link> class feature.</Pair>
+</Ability>
+<Ability id="arc-vigilante-dragonscale_loyalist-house-orlovsky" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-vigilante-dragonscale_loyalist-house-orlovsky">House Orlovsky</Pair>
+<Pair title="Ability">The Dragonscale loyalist gains <Link to="/feat/call_truce">Call Truce</Link> and a +3 bonus to his CMD.</Pair>
+</Ability>
+<Ability id="arc-vigilante-dragonscale_loyalist-house-rogarvia" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-vigilante-dragonscale_loyalist-house-rogarvia">House Rogarvia</Pair>
+<Pair title="Ability">The Dragonscale loyalist gains Skill Focus (Knowledge [history]) and a +2 bonus on Diplomacy checks to gather information. This bonus increases to +4 when gathering information related to the Rogarvias.</Pair>
+</Ability>
+<Ability id="arc-vigilante-dragonscale_loyalist-house-surtova" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arc-vigilante-dragonscale_loyalist-house-surtova">House Surtova</Pair>
+<Pair title="Ability">The Dragonscale loyalist gains <Link to="/feat/persuasive">Persuasive</Link> and a +4 bonus on Sense Motive checks against creatures that profess to be his allies.</Pair>
+</Ability>
+<Ability id="arc-vigilante-dragonscale_loyalist-dragonscale-vigilance-su" icon={["magic-swirl"]}>
+<Pair single id="arc-vigilante-dragonscale_loyalist-dragonscale-vigilance-su" flavor="A Dragonscale loyalist becomes supernaturally perceptive to plots against his lord.">Dragonscale Vigilance (Su)</Pair>
+<Pair hl title="Replaces">Frightening appearance</Pair>
+<Pair title="At 11th Level">While in his vigilante identity, a Dragonscale loyalist is treated as constantly being under the effects of <Link to="/spell/perceive_betrayal">perceive betrayal</Link>. This effect's caster level is equal to the Dragonscale loyalist's vigilante level, and he doesn't require material components or a focus.</Pair>
+</Ability>
+<Ability id="arc-vigilante-dragonscale_loyalist-conquerors-wrath-ex" icon={["mailed-fist","broken-shield"]}>
+<Pair single id="arc-vigilante-dragonscale_loyalist-conquerors-wrath-ex" flavor="Inspired by the deeds of Chora the Conqueror, a loyalist can rampage through enemy ranks.">Conqueror's Wrath (Ex)</Pair>
+<Pair hl title="Replaces">Stunning appearance</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Full-Round Action">A Dragonscale loyalist can make a full attack and move up to his speed. The loyalist can pause at any point or points during the movement, make one or more of his attacks, and continue moving. Creatures making attacks of opportunity against the loyalist during this movement gain a +4 bonus on their attack and damage rolls.</Pair>
+<Pair title="Special">Using this ability counts as using a vigilante talent.</Pair>
+</Ability>
 </>};
 const _experimenter = {title: "Experimenter", jsx: <><h2 id="arc-vigilante-experimenter-experimenter">Experimenter</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 70</Link><br/>Some vigilantes adopt lives of secrecy to hide their strange experiments from public view.</p>
 <Ability icon={["skills"]} id="arc-vigilante-experimenter-undefined">
 <Pair id="arc-vigilante-experimenter-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
-<p><strong>Weapon and Armor Proficiency:</strong> Experimenters aren't proficient with martial weapons, medium armor, or shields.</p>
-<p>This alters the vigilante's <strong className="hl">weapon and armor proficiencies</strong>.</p>
-<p><strong>Forbidden Science (Ex):</strong> An experimenter gains a bonus equal to 1/2 his vigilante level on Craft (alchemy) checks to create alchemical items and on Knowledge (engineering) checks (minimum +1). He also learns how to craft a mutagen as if he were an <Link to="/class/alchemist">alchemist</Link> of his class level. He can take <Link to="/ability/discoveries">alchemical discoveries</Link> in place of vigilante talents, but only discoveries that affect his mutagen (including cognatogen discoveries). When an experimenter is confused, dazed, frightened, panicked, or stunned, he must attempt a Will save (DC = 20 + his vigilante level) each round at the start of his turn. If he fails, he transforms as if he had consumed his mutagen (determine which ability score gets the bonus randomly). This doesn't consume his mutagen, and lasts a number of rounds equal to 3 + his vigilante level, after which the transformation ends and he becomes fatigued. While transformed in this way, he is <Link to="/misc/confused">confused</Link>, and he rerolls any result of "act normally." Since the confusion is part of the mutagenic transformation, abilities that prevent or remove confusion don't apply to this effect, though abilities that end the effect of a mutagen work normally. He forgets everything that happened while he was involuntarily transformed.</p>
-<p>This ability replaces <strong className="hl">vigilante specialization</strong>.</p>
-<p><strong>Mutagenic Change (Ex):</strong> As a full-round action, an experimenter can consume his mutagen (if he has one) and shift from his social identity to his vigilante identity, as if he had the <Link to="/soctalent/quick_change">quick change</Link> social talent.</p>
-<p>This ability replaces the 1st-level <strong className="hl">social talent</strong>.</p>
-<p><strong>Brew Potion:</strong> At 3rd level, an experimenter gains <Link to="/feat/brew_potion">Brew Potion</Link> as a bonus feat. He treats his vigilante level as his caster level and can use Craft (alchemy) instead of Spellcraft to brew potions. He can use another potion of the same spell as a sample to provide the necessary spell without consuming the potion, increasing the DC by 5.</p>
-<p>This ability replaces <strong className="hl">unshakable</strong>.</p>
-<p><strong>Lore Master (Ex):</strong> At 5th level, an experimenter gains the lore master <Link to="/class/bard">bard</Link> class feature.</p>
-<p>This ability replaces <strong className="hl">startling appearance</strong>.</p>
-<p><strong>Craft Construct:</strong> At 11th level, an experimenter gains <Link to="/feat/craft_construct">Craft Construct</Link> as a bonus feat. He treats his vigilante level as his caster level and can use Knowledge (engineering) instead of Spellcraft to craft a construct.</p>
-<p>This ability replaces <strong className="hl">frightening appearance</strong>.</p>
-<p><strong>Mutable Mutagen:</strong> At 17th level, the duration of an experimenter's mutagen increases to 1 hour per level.</p>
-<p>This ability replaces <strong className="hl">stunning appearance</strong>.</p>
+<Ability id="arc-vigilante-experimenter-weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Pair single id="arc-vigilante-experimenter-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Alters">Weapon and armor proficiencies</Pair>
+<Pair title="Info">Experimenters aren't proficient with martial weapons, medium armor, or shields.</Pair>
+</Ability>
+<Ability id="arc-vigilante-experimenter-forbidden-science-ex" extraClasses="hasSubs" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-experimenter-forbidden-science-ex">Forbidden Science (Ex)</Pair>
+<Pair hl title="Replaces">Vigilante specialization</Pair>
+<Pair title="Passive Ability">An experimenter gains a bonus equal to 1/2 his vigilante level on Craft (alchemy) checks to create alchemical items and on Knowledge (engineering) checks (minimum +1). He also learns how to craft a <em>mutagen</em> as if he were an <Link to="/class/alchemist">alchemist</Link> of his class level.</Pair>
+<Pair title="Ability">He can take <Link to="/ability/discoveries">alchemical discoveries</Link> in place of vigilante talents, but only discoveries that affect his mutagen (including <em>cognatogen</em> discoveries).</Pair>
+<Pair title="Special">When an experimenter is confused, dazed, frightened, panicked, or stunned, he must attempt a Will save (DC = 20 + his vigilante level) each round at the start of his turn. If he fails, he transforms as if he had consumed his mutagen (determine which ability score gets the bonus randomly). This doesn't consume his mutagen, and lasts a number of rounds equal to 3 + his vigilante level, after which the transformation ends and he becomes <Link to="/misc/fatigued">fatigued</Link>. While transformed in this way, he is <Link to="/misc/confused">confused</Link>, and he rerolls any result of "act normally." Since the confusion is part of the mutagenic transformation, abilities that prevent or remove confusion don't apply to this effect, though abilities that end the effect of a mutagen work normally. He forgets everything that happened while he was involuntarily transformed.</Pair>
+</Ability>
+<Ability id="arc-vigilante-experimenter-mutagen-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-experimenter-mutagen-su" flavor="Text from the alchemist class">Mutagen (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Standard Action">You can drink a mutagen to heighten your physical prowess at the cost of your personality. You gain a +2 natural armor bonus, a +4 alchemical bonus to a physical stat, and a -2 penalty to a mental stat. See below for details.</Pair>
+<Pair title="Usage">A mutagen lasts for 10 minutes per alchemist level.</Pair>
+<Pair title="Info"><p>You learn how to create a mutagen that you can imbibe in order to heighten your physical prowess at the cost of your personality. It takes 1 hour to brew a dose of mutagen, and once brewed, it remains potent until used. You can only maintain one dose of mutagen at a time - if you brew a second dose, any existing mutagen becomes inert.</p>
+<p>When you brew a mutagen, you select one physical ability score for it to boost - either Strength, Dexterity, or Constitution. If the mutagen enhances your Strength, it applies a penalty to your Intelligence. If it enhances your Dexterity, it applies a penalty to your Wisdom. If it enhances your Constitution, it applies a penalty to your Charisma.</p>
+<p>A non-alchemist who drinks a mutagen must make a Fortitude save (DC 10 + 1/2 your alchemist level + your Intelligence modifier) or become <Link to="/misc/nauseated">nauseated</Link> for 1 hour - a non-alchemist can never gain the benefit of a mutagen, but you can gain the effects of another alchemist's mutagen if you drink it. (Although if the other alchemist creates a different mutagen, the effects of the "stolen" mutagen immediately cease.) The effects of a mutagen do not stack. Whenever you drink a mutagen, the effects of any previous mutagen immediately end.</p>
+</Pair>
+<Pair title="Special">As with an extract or bomb, a mutagen that is not in your possession becomes inert until you pick it up again.</Pair>
+</Ability>
+<Ability id="arc-vigilante-experimenter-mutagenic-change-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-experimenter-mutagenic-change-ex">Mutagenic Change (Ex)</Pair>
+<Pair hl title="Replaces">1st-level social talent</Pair>
+<Pair title="Full-Round Action">An experimenter can consume his mutagen (if he has one) and shift from his social identity to his vigilante identity, as if he had the <Link to="/soctalent/quick_change">quick change</Link> social talent.</Pair>
+</Ability>
+<Ability id="arc-vigilante-experimenter-brew-potion" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-experimenter-brew-potion">Brew Potion</Pair>
+<Pair hl title="Replaces">Unshakable</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">An experimenter gains <Link to="/feat/brew_potion">Brew Potion</Link> as a bonus feat. He treats his vigilante level as his caster level and can use Craft (alchemy) instead of Spellcraft to brew potions.</Pair>
+<Pair title="Special">He can use another potion of the same spell as a sample to provide the necessary spell without consuming the potion, increasing the DC by 5.</Pair>
+</Ability>
+<Ability id="arc-vigilante-experimenter-lore-master-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-experimenter-lore-master-ex">Lore Master (Ex)</Pair>
+<Pair hl title="Replaces">Startling appearance</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">An experimenter gains the <em>lore master</em> <Link to="/class/bard">bard</Link> class feature.</Pair>
+</Ability>
+<Ability id="arc-vigilante-experimenter-lore-master-ex" extraClasses="subAbility" icon={["upgrade","rolling-dices"]}>
+<Pair single id="arc-vigilante-experimenter-lore-master-ex" flavor="Text from the bard class ability.">Lore Master (Ex)</Pair>
+<Pair title="Ability">You can take 10 on any Knowledge skill check that you have ranks in even when threatened or distracted. You can also choose not to take 10 and can instead roll normally.</Pair>
+<Pair title="Standard Action">Once per day, you can take 20 on any Knowledge skill check.</Pair>
+<Pair title="At 11th Level">You can Take 20 twice a day.</Pair>
+<Pair title="At 17th Level">You can Take 20 three times a day.</Pair>
+</Ability>
+<Ability id="arc-vigilante-experimenter-craft-construct" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-experimenter-craft-construct">Craft Construct</Pair>
+<Pair hl title="Replaces">Frightening appearance</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Ability">An experimenter gains <Link to="/feat/craft_construct">Craft Construct</Link> as a bonus feat. He treats his vigilante level as his caster level and can use Knowledge (engineering) instead of Spellcraft to craft a construct.</Pair>
+</Ability>
+<Ability id="arc-vigilante-experimenter-mutable-mutagen" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-experimenter-mutable-mutagen">Mutable Mutagen</Pair>
+<Pair hl title="Replaces">Stunning appearance</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Ability">The duration of an experimenter's mutagen increases to 1 hour per level.</Pair>
+</Ability>
 </>};
 const _faceless_enforcer = {title: "Faceless Enforcer", jsx: <><h2 id="arc-vigilante-faceless_enforcer-faceless-enforcer">Faceless Enforcer</h2>
 <p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 50</Link><br/>Unyielding warriors, faceless enforcers lock their identities behind implacable helms. While their infamous reputations spread far, striking fear in their foes, the individual behind the mask remains a complete mystery.</p>
