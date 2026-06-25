@@ -551,7 +551,7 @@ const _storm_caller = {title: "Storm Caller", jsx: <><h2 id="arc-summoner-storm_
 <Pair single id="arc-summoner-storm_caller-summon-storms-fury-sp">Summon Storm's Fury (Sp)</Pair>
 <Pair hl title="Alters">Summon monster I-IX</Pair>
 <Pair title="Ability"><p>A storm caller can summon creatures infused with the power of the storm to help him. This functions as the summoner's <em>summon monster I-IX</em> abilities, except the storm caller can summon only the following creatures at the indicated spell levels:</p>
-<Block tiny>
+<Block size="tiny">
 <Row><Cell>I</Cell><Cell><Link to="/monster/eagle">eagle</Link></Cell></Row>
 <Row><Cell>II</Cell><Cell><Link to="/monster/small_air_elemental">small air elemental</Link>, <Link to="/monster/small_lightning_elemental">small lightning elemental</Link></Cell></Row>
 <Row><Cell>III</Cell><Cell><Link to="/monster/dire_bat">dire bat</Link></Cell></Row>
