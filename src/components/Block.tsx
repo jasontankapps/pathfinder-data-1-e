@@ -2,7 +2,12 @@ import { FC, PropsWithChildren } from "react";
 
 interface BlockProps {
 	titled?: boolean
+	giant?: boolean
 	tiny?: boolean
+	big?: boolean
+	size?: "giant" | "big" | "small" | "tiny" | "simple"
+	hl?: boolean
+	classes?: string
 }
 interface RowProps {}
 interface CellProps {
@@ -10,9 +15,19 @@ interface CellProps {
 }
 
 export const Block: FC<PropsWithChildren<BlockProps>> = (props) => {
-	const {titled, tiny, children} = props;
+	const {titled, size, hl, classes, children} = props;
 	return (
-		<div className={"table" + (titled ? " titled" : "") + (tiny ? " tiny" : "")}>
+		<div className={
+			"table" + (
+				classes ? " " + classes : ""
+			) + (
+				titled ? " titled" : ""
+			) + (
+				size ? " " + size : ""
+			) + (
+				hl ? " hlHeader" : ""
+			)
+		}>
 			{children}
 		</div>
 	);

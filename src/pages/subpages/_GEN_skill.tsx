@@ -1,17 +1,28 @@
 import Link from '../../components/Link';
+import {Block,Row,Cell} from '../../components/Block';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 const _not_found = {title: "Unknown", jsx: <><h2 id="skill-not_found-error">Error</h2>
 <p>Unable to find the requested skill.</p>
 </>};
 const _acrobatics = {hasJL:true,title: "Acrobatics", jsx: <><div className="jumpList" id="skill-acrobatics-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-acrobatics-moving-carefully">Moving Carefully</InnerLink></li><li><InnerLink toTop to="skill-acrobatics-avoiding-attacks">Avoiding Attacks</InnerLink></li><li><InnerLink toTop to="skill-acrobatics-jumping">Jumping</InnerLink></li><li><InnerLink toTop to="skill-acrobatics-falling">Falling</InnerLink></li><li><InnerLink toTop to="skill-acrobatics-other-modifiers">Other Modifiers</InnerLink></li><li><InnerLink toTop to="skill-acrobatics-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-acrobatics-acrobatics">Acrobatics</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 87</Link><br/><strong>Associated Skill:</strong> Dexterity<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> See below.</p>
-<p><strong>Action:</strong> None. An Acrobatics check is made as part of another action or as a reaction to a situation.</p>
-<p><strong>Special:</strong> If you have 3 or more ranks in Acrobatics, you gain a +3 dodge bonus to AC when fighting defensively instead of the usual +2, and a +6 dodge bonus to AC when taking the total defense action instead of the usual +4.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 87</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Dexterity</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><p>Action</p>
+<p>None. An Acrobatics check is made as part of another action or as a reaction to a situation.</p>
+</div>
+<div className="semiheaderGroup"><p>Special</p>
+<p>If you have 3 or more ranks in Acrobatics, you gain a +3 dodge bonus to AC when fighting defensively instead of the usual +2, and a +6 dodge bonus to AC when taking the total defense action instead of the usual +4.</p>
 <p>If you have the <Link to="/feat/acrobatic">Acrobatic</Link> feat, you get a bonus on Acrobatics checks.</p>
+</div>
 <h3 id="skill-acrobatics-moving-carefully" data-hash-target>Moving Carefully</h3>
-<p>You can use Acrobatics to move on narrow surfaces and uneven ground without falling. A successful check allows you to move at half speed across such surfaces - only one check is needed per round. Use the following table to determine the base DC, which is then modified by the Acrobatics skill modifiers noted below. While you are using Acrobatics in this way, you are considered flat-footed and lose your Dexterity bonus to your AC (if any). If you take damage while using Acrobatics, you must immediately make another Acrobatics check at the same DC to avoid falling or being knocked prone.</p>
+<p>You can use Acrobatics to move on narrow surfaces and uneven ground without falling. A successful check allows you to move at half speed across such surfaces - only one check is needed per round. Use the following table to determine the base DC, which is then modified by the Acrobatics skill modifiers noted below. While you are using Acrobatics in this way, you are considered <Link to="/rule/flat_footed">flat-footed</Link> and lose your Dexterity bonus to your AC (if any). If you take damage while using Acrobatics, you must immediately make another Acrobatics check at the same DC to avoid falling or being knocked <Link to="/rule/prone">prone</Link>.</p>
 <ScrollContainer id="skill-acrobatics--table-0"><table>
 <thead>
 <tr>
@@ -40,9 +51,9 @@ const _acrobatics = {hasJL:true,title: "Acrobatics", jsx: <><div className="jump
 <td>20</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p>No Acrobatics check is needed to move across surfaces at least 1 foot wide unless the modifiers to the surface (below) increase the DC to 10 or higher.</p>
+<p>No Acrobatics check is needed to move across surfaces at least 1 foot wide unless the modifiers to the surface (see "Other Modifiers" below) increase the DC to 10 or higher.</p>
 <h3 id="skill-acrobatics-avoiding-attacks" data-hash-target>Avoiding Attacks</h3>
-<p>In addition, you can move through a threatened square without provoking an attack of opportunity from an enemy by using Acrobatics. When moving in this way, you move at half speed. You can move at full speed by increasing the DC of the check by 10. You cannot use Acrobatics to move past foes if your speed is reduced due to carrying a medium or heavy load or wearing medium or heavy armor. If an ability allows you to move at full speed under such conditions, you can use Acrobatics to move past foes. You can use Acrobatics in this way while prone, but doing so requires a full-round action to move 5 feet, and the DC is increased by 5. If you attempt to move through an enemy's space and fail the check, you lose the move action and provoke an attack of opportunity.</p>
+<p>You can move through a threatened square without provoking an attack of opportunity from an enemy by using Acrobatics. When moving in this way, you move at half speed. You can move at full speed by increasing the DC of the check by 10. You cannot use Acrobatics to move past foes if your speed is reduced due to carrying a medium or heavy load or wearing medium or heavy armor. If an ability allows you to move at full speed under such conditions, you can use Acrobatics to move past foes. You can use Acrobatics in this way while prone, but doing so requires a <strong className="hl">full-round action</strong> to move 5 feet, and the DC is increased by 5. If you attempt to move through an enemy's space and fail the check, you lose the move action and provoke an attack of opportunity.</p>
 <ScrollContainer id="skill-acrobatics--table-1"><table>
 <thead>
 <tr>
@@ -52,16 +63,18 @@ const _acrobatics = {hasJL:true,title: "Acrobatics", jsx: <><div className="jump
 </thead>
 <tbody><tr>
 <td>Move through a threatened area</td>
-<td>Opponent's Combat Maneuver Defense</td>
+<td>Opponent's <Link to="/rule/cmd">CMD</Link></td>
 </tr>
 <tr>
 <td>Move through an enemy's space</td>
-<td>5 + opponent's Combat Maneuver Defense</td>
+<td>5 + opponent's CMD</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Note:</strong> This DC is used to avoid an attack of opportunity due to movement. This DC increases by 2 for each additional opponent avoided in 1 round.</p>
+<p>This DC increases by 2 for each additional opponent avoided in 1 round.</p>
 <h3 id="skill-acrobatics-jumping" data-hash-target>Jumping</h3>
-<p>Finally, you can use the Acrobatics skill to make jumps or to soften a fall. The base DC to make a jump is equal to the distance to be crossed (if horizontal) or four times the height to be reached (if vertical). These DCs double if you do not have at least 10 feet of space to get a running start. The only Acrobatics modifiers that apply are those concerning the surface you are jumping from. If you fail this check by 4 or less, you can attempt a DC 20 Reflex save to grab hold of the other side after having missed the jump. If you fail by 5 or more, you fail to make the jump and fall (or land prone, in the case of a vertical jump). Creatures with a base land speed above 30 feet receive a +4 racial bonus on Acrobatics checks made to jump for every 10 feet of their speed above 30 feet. Creatures with a base land speed below 30 feet receive a -4 racial bonus on Acrobatics checks made to jump for every 10 feet of their speed below 30 feet. No jump can allow you to exceed your maximum movement for the round. For a running jump, the result of your Acrobatics check indicates the distance traveled in the jump (and if the check fails, the distance at which you actually land and fall prone). Halve this result for a standing long jump to determine where you land.</p>
+<p>You can use the Acrobatics skill to make jumps or to soften a fall. The base DC to make a jump is equal to the distance to be crossed (if horizontal) or four times the height to be reached (if vertical). These DCs double if you do not have at least 10 feet of space to get a running start. The only Acrobatics modifiers that apply are those concerning the surface you are jumping from (see "Other Modifiers" below). If you fail this check by 4 or less, you can attempt a DC 20 Reflex save to grab hold of the other side after having missed the jump. If you fail by 5 or more, you fail to make the jump and fall (or land prone, in the case of a vertical jump).</p>
+<p>Creatures with a base land speed above 30 feet receive a +4 racial bonus on Acrobatics checks made to jump for every 10 feet of their speed above 30 feet. Creatures with a base land speed below 30 feet receive a -4 racial bonus on Acrobatics checks made to jump for every 10 feet of their speed below 30 feet.</p>
+<p>No jump can allow you to exceed your maximum movement for the round. For a running jump, the result of your Acrobatics check indicates the distance traveled in the jump (and if the check fails, the distance at which you actually land and fall prone). Halve this result for a standing long jump to determine where you land.</p>
 <ScrollContainer id="skill-acrobatics--table-2"><table>
 <thead>
 <tr>
@@ -103,7 +116,7 @@ const _acrobatics = {hasJL:true,title: "Acrobatics", jsx: <><div className="jump
 </tr>
 </tbody></table></ScrollContainer>
 <h3 id="skill-acrobatics-falling" data-hash-target>Falling</h3>
-<p>When you deliberately fall any distance, even as a result of a missed jump, a DC 15 Acrobatics skill check allows you to ignore the first 10 feet fallen, although you still end up prone if you take damage from a fall. See the falling rules for further details.</p>
+<p>When you deliberately fall any distance, even as a result of a missed jump, a DC 15 Acrobatics skill check allows you to ignore the first 10 feet fallen, although you still end up prone if you take damage from a fall. See the <Link to="/rule/falling">falling</Link> rules for further details.</p>
 <h3 id="skill-acrobatics-other-modifiers" data-hash-target>Other Modifiers</h3>
 <p>Many conditions can affect your chances of success with Acrobatics checks. The following modifiers to target DCs apply to all Acrobatics skill checks. The modifiers stack with one another, but only the most severe modifier for any one condition applies.</p>
 <ScrollContainer id="skill-acrobatics--table-3"><table>
@@ -156,32 +169,72 @@ const _acrobatics = {hasJL:true,title: "Acrobatics", jsx: <><div className="jump
 </tbody></table></ScrollContainer>
 <h3 id="skill-acrobatics-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 82</Link><br/>With sufficient ranks in Acrobatics, you earn the following.</p>
-<p><strong>5 Ranks:</strong> You can move at normal speed through a threatened square without provoking an attack of opportunity by increasing the DC of the check by 5 (instead of by 10). You aren't denied your Dexterity bonus when attempting Acrobatics checks with DCs of 20 or lower.<br/><strong>10 Ranks:</strong> You can attempt an Acrobatics check at a -10 penalty and use the result as your CMD against trip maneuvers. You can also attempt an Acrobatics check at a -10 penalty in place of a Reflex save to avoid falling. You must choose to use this ability before the trip attempt or Reflex save is rolled. With a successful DC 20 Acrobatics check, you treat an unintentional fall as 10 feet shorter plus 10 feet for every 10 by which you exceed the DC, and treat an intentional fall as 10 feet shorter for every 10 by which you exceed the DC.<br/><strong>15 Ranks:</strong> You do not provoke attacks of opportunity when standing up from prone.<br/><strong>20 Ranks:</strong> You double the result of any Acrobatics check when jumping and never fall prone at the end of a fall as long as you remain conscious.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>You can move at normal speed through a threatened square without provoking an attack of opportunity by increasing the DC of the check by 5 (instead of by 10). You aren't denied your Dexterity bonus when attempting Acrobatics checks with DCs of 20 or lower.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>You can attempt an Acrobatics check at a -10 penalty and use the result as your CMD against trip maneuvers. You can also attempt an Acrobatics check at a -10 penalty in place of a Reflex save to avoid falling. You must choose to use this ability before the trip attempt or Reflex save is rolled. With a successful DC 20 Acrobatics check, you treat an unintentional fall as 10 feet shorter plus 10 feet for every 10 by which you exceed the DC, and treat an intentional fall as 10 feet shorter for every 10 by which you exceed the DC.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>You do not provoke attacks of opportunity when standing up from prone.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You double the result of any Acrobatics check when jumping and never fall prone at the end of a fall as long as you remain conscious.</Cell></Row></Block>
 </>};
 const _appraise = {hasJL:true,title: "Appraise", jsx: <><div className="jumpList" id="skill-appraise-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-appraise-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-appraise-psychometry">Psychometry</InnerLink></li><li><InnerLink toTop to="skill-appraise-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-appraise-appraise">Appraise</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 90</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> Yes</p>
-<p><strong>Check:</strong> A DC 20 Appraise check determines the value of a common item. If you succeed by 5 or more, you also determine if the item has magic properties, although this success does not grant knowledge of the magic item's abilities. If your fail the check by less than 5, you determine the price of that item to within 20% of its actual value. If you fail this check by 5 or more, the price is wildly inaccurate, subject to GM discretion. Particularly rare or exotic items might increase the DC of this check by 5 or more.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 90</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
+<div className="semiheaderGroup"><p>Check</p>
+<p>A DC 20 Appraise check determines the value of a common item. If you succeed by 5 or more, you also determine if the item has magic properties, although this success does not grant knowledge of the magic item's abilities. If your fail the check by less than 5, you determine the price of that item to within 20% of its actual value. If you fail this check by 5 or more, the price is wildly inaccurate, subject to GM discretion. Particularly rare or exotic items might increase the DC of this check by 5 or more.</p>
 <p>You can also use this check to determine the most valuable item visible in a treasure hoard. The DC of this check is generally 20 but can increase to as high as 30 for a particularly large hoard.</p>
-<p><strong>Action:</strong> Appraising an item takes 1 standard action. Determining the most valuable object in a treasure hoard takes 1 full-round action.</p>
-<p><strong>Try Again:</strong> Additional attempts to Appraise an item reveal the same result.</p>
-<p><strong>Special:</strong> A spellcaster with a raven familiar gains a +3 bonus on Appraise checks.</p>
+</div>
+<div className="semiheaderGroup"><p>Action</p>
+<p>Appraising an item takes 1 <strong className="hl">standard action</strong>. Determining the most valuable object in a treasure hoard takes 1 <strong className="hl">full-round action</strong>.</p>
+</div>
+<div className="semiheaderGroup"><p>Try Again</p>
+<p>Additional attempts to Appraise an item reveal the same result.</p>
+</div>
+<div className="semiheaderGroup"><p>Special</p>
+<p>A spellcaster with a <Link to="/monster/raven">raven</Link> familiar gains a +3 bonus on Appraise checks.</p>
+</div>
 <h3 id="skill-appraise-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
 <p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.</p>
 <h4 id="skill-appraise-psychometry" data-hash-target>Psychometry</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 196</Link></p>
 <p>You can read the psychic impressions left on objects or in places by previous owners and events.</p>
-<p><strong>Check:</strong> Once per day, you can concentrate for 1 minute while in physical contact with an item or location, during which you receive flashes of insight regarding the subject's nature and ownership. After 1 minute, you attempt a DC 15 Appraise check to decipher the visions. You gain one piece of information about the historical significance or the last previous owner - such as a glimpse of the last owner's appearance or its emotional state when it last used the item - determined by the GM. You learn one more piece of information for every 10 by which your check result exceeds the DC, as long as you concentrate for 1 additional minute for each piece of information. If you fail the check by less than 5 or the item has no significant psychic imprint, you don't learn any information. If you fail this check by 5 or more, the item appears to be psychically significant even if it's not, and the information you gain is wildly inaccurate. If you attempt to use psychometry on an item affected by <Link to="/spell/charge_object">charge object</Link> or <Link to="/spell/implant_false_reading">implant false reading</Link>, you automatically learn all information imprinted by the spell. You must also attempt a Will save. If the item is affected by an <em>implant false reading</em> spell, on a success, you realize the information was false, and can determine the true information as well. On a failure, or if the item is affected by a <em>charge object</em> spell, you believe the information is true.</p>
-<p><strong>Action:</strong> Reading an object requires at least 1 minute of uninterrupted concentration.</p>
-<p><strong>Try Again:</strong> Yes. Multiple readings on an object or place always give the same results unless its circumstances or ownership have changed, but additional checks might reach further back into an object's history. You don't reroll the saving throw to determine if a psychic imprint is false. You can still use psychometry only once per day.</p>
+<div className="semiheaderGroup"><p>Check</p>
+<p>Once per day, you can concentrate for 1 minute while in physical contact with an item or location, during which you receive flashes of insight regarding the subject's nature and ownership. After 1 minute, you attempt a DC 15 Appraise check to decipher the visions. You gain one piece of information about the historical significance or the last previous owner - such as a glimpse of the last owner's appearance or its emotional state when it last used the item - determined by the GM.</p>
+<p>You learn one more piece of information for every 10 by which your check result exceeds the DC, as long as you concentrate for 1 additional minute for each piece of information.</p>
+<p>If you fail the check by less than 5 or the item has no significant psychic imprint, you don't learn any information. If you fail this check by 5 or more, the item appears to be psychically significant even if it's not, and the information you gain is wildly inaccurate.</p>
+<p>If you attempt to use psychometry on an item affected by <Link to="/spell/charge_object">charge object</Link> or <Link to="/spell/implant_false_reading">implant false reading</Link>, you automatically learn all information imprinted by the spell. You must also attempt a Will save. If the item is affected by an <em>implant false reading</em> spell, on a success, you realize the information was false, and can determine the true information as well. On a failure, or if the item is affected by a <em>charge object</em> spell, you believe the information is true.</p>
+</div>
+<div className="semiheaderGroup"><p>Action</p>
+<p>Reading an object requires at least 1 minute of uninterrupted concentration.</p>
+</div>
+<div className="semiheaderGroup"><p>Try Again</p>
+<p>Yes. Multiple readings on an object or place always give the same results unless its circumstances or ownership have changed, but additional checks might reach further back into an object's history. You don't reroll the saving throw to determine if a psychic imprint is false. You can still use psychometry only once per day.</p>
+</div>
 <h3 id="skill-appraise-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 82</Link><br/>With sufficient ranks in Appraise, you earn the following.</p>
-<p><strong>5 Ranks:</strong> A successful DC 20 Appraise check reveals whether an item is magical, and a second check (DC = 25 + the item's caster level) unveils its properties. You can use Appraise to detect non-written forgeries and counterfeits.<br/><strong>10 Ranks:</strong> You can determine the most expensive object a creature is wearing or wielding (or in a 5-foot cube) as a standard action by succeeding at a DC 20 check. You never make a wildly inaccurate appraisal of an item's value.<br/><strong>15 Ranks:</strong> Determining the most expensive object as above is a move action. You can substitute an Appraise check at a -10 penalty for a Will save to disbelieve a figment or glamer.<br/><strong>20 Ranks:</strong> Determining the most expensive object as above is a move action, and if the check succeeds, you gain a +2 circumstance bonus on combat maneuver checks to steal that object or disarm a creature of that object for 1 minute.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>A successful DC 20 Appraise check reveals whether an item is magical, and a second check (DC = 25 + the item's caster level) unveils its properties. You can use Appraise to detect non-written forgeries and counterfeits.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>You can determine the most expensive object a creature is wearing or wielding (or in a 5-foot cube) as a <strong className="hl">standard action</strong> by succeeding at a DC 20 check. You never make a wildly inaccurate appraisal of an item's value.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>Determining the most expensive object as above is a <strong className="hl">move action</strong>. You can substitute an Appraise check at a -10 penalty for a Will save to disbelieve a figment or glamer.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>Determining the most expensive object as above is a <strong className="hl">move action</strong>, and if the check succeeds, you gain a +2 circumstance bonus on combat maneuver checks to steal that object or disarm a creature of that object for 1 minute.</Cell></Row></Block>
 </>};
 const _artistry_any = {title: "Artistry (any)", jsx: <><h2 id="skill-artistry_any-artistry-any">Artistry (any)</h2>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 48</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> Yes<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> Yes</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 48</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
 <p>You are skilled in the creative arts, following your aesthetic sensibilities to bring to life the wonders of your imagination. Like Craft, Perform, and Profession, Artistry is actually a number of separate skills. You could have several Artistry skills, each with its own ranks. The most common Artistry skills are choreography, criticism, literature (including poetry), musical composition, philosophy, and playwriting.</p>
 <p>Like Craft, an Artistry skill is focused on creating something. However, what it creates is not necessarily a physical object; it could be a pattern or blueprint for an item, or a better method for crafting a type of item. Thus, an Artistry (musical composition) check could be used to create a new song, but the important act of creation is the song itself, not the paper on which it is written or even the performance. An artist is not necessarily a skilled performer, though she might be. An artist's province is the creation of ideas and concepts, and the realization of those ideas in a way that can be enjoyed by others and contribute to the broader culture of the arts. Some art forms (such as painting or sculpture) skirt the line between Artistry and Craft. It's up to the GM to rule whether certain Craft skills can be taken as Artistry skills instead.</p>
-<p><strong>Check:</strong> You can create works of art and try to earn a living by impressing possible patrons with your talent and ideas.</p>
+<div className="semiheaderGroup"><p>Check</p>
+<p>You can create works of art and try to earn a living by impressing possible patrons with your talent and ideas.</p>
 <ScrollContainer id="skill-artistry_any--table-0"><table>
 <thead>
 <tr>
@@ -211,7 +264,9 @@ const _artistry_any = {title: "Artistry (any)", jsx: <><h2 id="skill-artistry_an
 </tr>
 </tbody></table></ScrollContainer>
 <p>Since works of art are products of imagination, masterwork tools are of no use in their creation.</p>
-<p><em>Creating a Commissioned Work:</em> If you are creating a specific commissioned work, determine the value of the work you wish to create by looking at the table below, then follow the listed steps. You must have a patron willing to pay this value to attempt to create a commissioned work. The amount earned from trying to make a living using Artistry is for works that are distributed among many people and publications, not bought by one patron.</p>
+</div>
+<h3 id="skill-artistry_any-creating-a-commissioned-work">Creating a Commissioned Work</h3>
+<p>If you are creating a specific commissioned work, determine the value of the work you wish to create by looking at the table below, then follow the listed steps. You must have a patron willing to pay this value to attempt to create a commissioned work. The amount earned from trying to make a living using Artistry is for works that are distributed among many people and publications, not bought by one patron.</p>
 <ScrollContainer id="skill-artistry_any--table-1"><table>
 <thead>
 <tr>
@@ -251,16 +306,28 @@ const _artistry_any = {title: "Artistry (any)", jsx: <><h2 id="skill-artistry_an
 <p><strong>Step 2:</strong> Spend 1/4 the price of the work you intend to create. This represents buying supplies such as parchment and ink, hiring the services of musicians, paying for research materials, and the like.</p>
 <p><strong>Step 3:</strong> Attempt an Artistry check with the appropriate DC, representing 1 week's worth of work. If you succeed, multiply your check result by the DC. If the resulting value equals the price of the item in sp, then you have completed the work of art and gain your commission fee. (If the resulting value equals double or triple the price of the work in silver pieces, then you've completed the task in half or one-third of the time. Other multiples of the DC reduce the completion time in the same manner.) If the resulting value doesn't equal the price, then it represents the progress you've made this week in sp. If the check fails, you make no progress.</p>
 <p>If you didn't complete the work of art, you can either continue working or call it done and cut your losses. If you continue working, you must spend 1/4 the price again for each week you work. Record the result of your check from the first week, and add your progress for each subsequent week to the total until you either complete the item or cut your losses. If you decide to cut your losses, you gain the commission of the highest-quality level that your total could have completed. For instance, if you were trying to create a memorable work (a commission price of 1,000 sp) and have made only 600 sp worth of progress, you can cut your losses to gain a commission fee for an impressive work (500 sp, or 50 gp). You can't earn the value for a higher quality than you were aiming for, so if you aimed to create a memorable work but ended up creating a masterful work, you couldn't gain a commission price higher than 100 gp. When you cut your losses, you don't gain back any money you spent on supplies and services. So if you spent 250 sp when trying to create a memorable work, selling an impressive work would net you only 250 sp total if you spent 1 week of work, and would cause you to break even if you spent 2 weeks. It's possible to lose money working on a commission.</p>
-<p><strong>Action:</strong> Varies. Trying to earn money by creating minor works of art typically involves a full week's work. If you work less than 1 week, you earn the daily average amount appropriate for your level of workmanship. Creating a commissioned work typically takes a week or more.</p>
-<p><strong>Try Again:</strong> Yes. Retries are allowed, but they don't negate previous failures. If you're trying to earn a living as an artist in a city where the public hasn't been impressed with your work (because you failed a DC 15 Artistry check in the previous week), you have a hard time breaking into the marketplace with future artwork (increase the DC by 2 for each previous failure). If you leave the area for a month or more before trying again, this increase resets to 0.</p>
+<div className="semiheaderGroup"><p>Action</p>
+<p>Varies. Trying to earn money by creating minor works of art typically involves a full week's work. If you work less than 1 week, you earn the daily average amount appropriate for your level of workmanship. Creating a commissioned work typically takes a week or more.</p>
+</div>
+<div className="semiheaderGroup"><p>Try Again</p>
+<p>Yes. Retries are allowed, but they don't negate previous failures. If you're trying to earn a living as an artist in a city where the public hasn't been impressed with your work (because you failed a DC 15 Artistry check in the previous week), you have a hard time breaking into the marketplace with future artwork (increase the DC by 2 for each previous failure). If you leave the area for a month or more before trying again, this increase resets to 0.</p>
+</div>
 </>};
 const _bluff = {hasJL:true,title: "Bluff", jsx: <><div className="jumpList" id="skill-bluff-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-bluff-lying">Lying</InnerLink></li><li><InnerLink toTop to="skill-bluff-feinting">Feinting</InnerLink></li><li><InnerLink toTop to="skill-bluff-secret-messages">Secret Messages</InnerLink></li><li><InnerLink toTop to="skill-bluff-inconspicuous-action">Inconspicuous Action</InnerLink></li><li><InnerLink toTop to="skill-bluff-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-bluff-bluff">Bluff</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 90</Link><br/><strong>Associated Skill:</strong> Charisma<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> See below.</p>
-<p><strong>Special:</strong> A spellcaster with a viper familiar gains a +3 bonus on Bluff checks.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 90</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Charisma</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><p>Special</p>
+<p>A spellcaster with a <Link to="/monster/viper">viper</Link> familiar gains a +3 bonus on Bluff checks.</p>
 <p>If you have the <Link to="/feat/deceitful">Deceitful</Link> feat, you get a bonus on Bluff checks.</p>
+</div>
 <h3 id="skill-bluff-lying" data-hash-target>Lying</h3>
-<p>Bluff is an opposed skill check against your opponent's Sense Motive skill. If you use Bluff to fool someone, with a successful check you convince your opponent that what you are saying is true. Bluff checks are modified depending upon the believability of the lie. The following modifiers are applied to the roll of the creature attempting to tell the lie. Note that some lies are so improbable that it is impossible to convince anyone that they are true (subject to GM discretion).</p>
+<p>Bluff is an opposed skill check against your opponent's <Link to="/skill/sense_motive">Sense Motive</Link> skill. If you use Bluff to fool someone, with a successful check you convince your opponent that what you are saying is true. Bluff checks are modified depending upon the believability of the lie. The following modifiers are applied to the roll of the creature attempting to tell the lie. Note that some lies are so improbable that it is impossible to convince anyone that they are true (subject to GM discretion).</p>
 <ScrollContainer id="skill-bluff--table-0"><table>
 <thead>
 <tr>
@@ -297,24 +364,44 @@ const _bluff = {hasJL:true,title: "Bluff", jsx: <><div className="jumpList" id="
 <td>up to +10</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Attempting to deceive someone takes at least 1 round, but can possibly take longer if the lie is elaborate (as determined by the GM on a case-by-case basis).</p>
-<p><strong>Try Again:</strong> If you fail to deceive someone, further attempts to deceive them are at a -10 penalty and may be impossible (GM discretion).</p>
+<div className="semiheaderGroup"><p>Action</p>
+<p>Attempting to deceive someone takes at least 1 round, but can possibly take longer if the lie is elaborate (as determined by the GM on a case-by-case basis).</p>
+</div>
+<div className="semiheaderGroup"><p>Try Again</p>
+<p>If you fail to deceive someone, further attempts to deceive them are at a -10 penalty and may be impossible (GM discretion).</p>
+</div>
 <h3 id="skill-bluff-feinting" data-hash-target>Feinting</h3>
 <p>You can use Bluff to feint in combat, causing your opponent to be denied his Dexterity bonus to his AC against your next attack. The DC of this check is equal to 10 + your opponent's base attack bonus + your opponent's Wisdom modifier. If your opponent is trained in Sense Motive, the DC is instead equal to 10 + your opponent's Sense Motive bonus, if higher. For more information on feinting in combat, see Combat.</p>
-<p><strong>Action:</strong> Feinting in combat is a standard action.</p>
-<p><strong>Try Again:</strong> You can attempt to feint against someone again if you fail.</p>
+<div className="semiheaderGroup"><p>Action</p>
+<p>Feinting in combat is a <strong className="hl">standard action</strong>.</p>
+</div>
+<div className="semiheaderGroup"><p>Try Again</p>
+<p>You can attempt to feint against someone again if you fail.</p>
+</div>
 <h3 id="skill-bluff-secret-messages" data-hash-target>Secret Messages</h3>
 <p>You can use Bluff to pass hidden messages along to another character without others understanding your true meaning by using innuendo to cloak your actual message. The DC of this check is 15 for simple messages and 20 for complex messages. If you are successful, the target automatically understands you, assuming you are communicating in a language that it understands. If your check fails by 5 or more, you deliver the wrong message. Other creatures that receive the message can decipher it by succeeding at an opposed Sense Motive check against your Bluff result.</p>
-<p><strong>Action:</strong> Using Bluff to deliver a secret message takes twice as long as the message would otherwise take to relay.</p>
-<p><strong>Try Again:</strong> Secret messages can be relayed again if the first attempt fails.</p>
+<div className="semiheaderGroup"><p>Action</p>
+<p>Using Bluff to deliver a secret message takes twice as long as the message would otherwise take to relay.</p>
+</div>
+<div className="semiheaderGroup"><p>Try Again</p>
+<p>Secret messages can be relayed again if the first attempt fails.</p>
+</div>
 <h3 id="skill-bluff-inconspicuous-action" data-hash-target>Inconspicuous Action</h3>
 <p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 8</Link></p>
 <p>You can avoid drawing attention to yourself when performing conspicuous actions such as picking up an object in a museum where handling the exhibits is frowned upon but not a matter of grave concern, or closely studying someone across a room at a party.</p>
-<p><strong>Check:</strong> Your Bluff check is opposed by observers' Sense Motive checks. You can't attempt the check if your very presence is suspicious (which you could prevent by altering your appearance with the Disguise skill).</p>
-<p><strong>Action:</strong> You attempt the Bluff check as part of performing the action you wish to render inconspicuous. Normally, you must take twice as long as normal to perform the action in order to make it inconspicuous. A standard action becomes a full-round action completed just before the start of your next turn and a free, immediate, move, or swift action becomes a standard action.</p>
+<div className="semiheaderGroup"><p>Check</p>
+<p>Your Bluff check is opposed by observers' Sense Motive checks. You can't attempt the check if your very presence is suspicious (which you could prevent by altering your appearance with the <Link to="/skill/disguise">Disguise</Link> skill).</p>
+</div>
+<div className="semiheaderGroup"><p>Action</p>
+<p>You attempt the Bluff check as part of performing the action you wish to render inconspicuous. Normally, you must take twice as long as normal to perform the action in order to make it inconspicuous. A standard action becomes a full-round action completed just before the start of your next turn and a free, immediate, move, or swift action becomes a standard action.</p>
+</div>
 <h3 id="skill-bluff-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 82</Link><br/>With sufficient ranks in Bluff, you earn the following.</p>
-<p><strong>5 Ranks:</strong> The penalty to Bluff a creature after a failed check is halved unless you failed by 5 or more.<br/><strong>10 Ranks:</strong> You take no penalty to Bluff a creature after a failed check unless you failed by 5 or more.<br/><strong>15 Ranks:</strong> Creatures magically attempting to read your thoughts, detect your alignment, or reveal when you are lying must attempt a caster level check (DC = 11 + your ranks in Bluff) or the effect reveals nothing.<br/><strong>20 Ranks:</strong> As a full-round action, you can make a <Link to="/spell/suggestion">suggestion</Link> (as the spell, maximum duration 1 hour) to a creature within 30 feet (Will negates, DC = 15 + your Charisma modifier). A creature that saves against your <em>suggestion</em> is immune to further uses of this effect for 24 hours, and whenever the suggested creature is specifically confronted with proof of your manipulation, it receives another saving throw. This is an extraordinary mind-affecting compulsion.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>The penalty to Bluff a creature after a failed check is halved unless you failed by 5 or more.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>You take no penalty to Bluff a creature after a failed check unless you failed by 5 or more.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>Creatures magically attempting to read your thoughts, detect your alignment, or reveal when you are lying must attempt a caster level check (DC = 11 + your ranks in Bluff) or the effect reveals nothing.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>As a <strong className="hl">full-round action</strong>, you can make a <Link to="/spell/suggestion">suggestion</Link> (as the spell, maximum duration 1 hour) to a creature within 30 feet (Will negates, DC = 15 + your Charisma modifier). A creature that saves against your <em>suggestion</em> is immune to further uses of this effect for 24 hours, and whenever the suggested creature is specifically confronted with proof of your manipulation, it receives another saving throw. This is an extraordinary mind-affecting compulsion.</Cell></Row></Block>
 </>};
 const _climb = {hasJL:true,title: "Climb", jsx: <><div className="jumpList" id="skill-climb-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-climb-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-climb-climb">Climb</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 90</Link><br/><strong>Associated Skill:</strong> Strength<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>

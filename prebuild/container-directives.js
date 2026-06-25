@@ -78,16 +78,39 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 				case "block": {
 					flags.block = true;
 					const marked2 = makeNewMarkedInstance();
-					const {title, tiny} = attrs;
-					return title ? (
-						`<Block titled${tiny ? " tiny" : ""}><Row><Cell>${title}</Cell></Row>${
-							removeCurlyBrackets(marked2.parse(text))
-						}</Block>\n`
-					) : (
-						`<Block${tiny ? " tiny" : ""}>${
-							removeCurlyBrackets(marked2.parse(text))
-						}</Block>\n`
+					const {title, hl, classes, size, clear} = attrs;
+					let base = "";
+					switch(size) {
+						case "simple":
+						case "tiny":
+						case "big":
+						case "giant":
+						case "small":
+							base = ` size="${size}"`;
+					}
+					const props = (
+						base
+					) + (
+						hl ? " hl" : ""
+					) + (
+						classes ? ` classes="${classes}"` : ""
 					);
+					return (
+						(clear ? `<div style={{clear:"both"}}></div>\n` : "") + 
+						(title ? (
+							`<Block titled${props}><Row><Cell>${title}</Cell></Row>${
+								removeCurlyBrackets(marked2.parse(text))
+							}</Block>\n`
+						) : (
+							`<Block${props}>${
+								removeCurlyBrackets(marked2.parse(text))
+							}</Block>\n`
+						))
+					);
+				}
+				case "group": {
+					const marked2 = makeNewMarkedInstance();
+					return `<div className="semiheaderGroup">${marked2.parse(text)}</div>\n`;
 				}
 				case "fakeFootnotes": {
 					const marked2 = makeNewMarkedInstance();

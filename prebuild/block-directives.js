@@ -413,9 +413,13 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				const marked2 = makeNewMarkedInstance();
 				return (
 					`\n<Row><Cell>${
-						removeCurlyBrackets(marked2.parseInline(convertEncodedInfo(text)))
+						removeCurlyBrackets(marked2.parseInline(
+							convertEncodedInfo(text || "MISSING")
+						))
 					}</Cell><Cell>${
-						removeCurlyBrackets(marked2.parseInline(convertEncodedInfo(attrs.info)))
+						removeCurlyBrackets(marked2.parseInline(
+							convertEncodedInfo(attrs.info || "MISSING").replaceAll("~~~", "  \n  \n")
+						))
 					}</Cell></Row>`
 				);
 			} else if (n === "ab") {
@@ -594,7 +598,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				const {plural, main} = attrs;
 				return makeRacialTraitsBlock({maybeClear, plural, main, convert: (x) => marked2.parseInline(convertEncodedInfo(x)), logError})
 			}
-			console.log(`Unknown block directive [::${n}]`);
+			console.log(`Unknown block directive [::${n}][${prefix}]`);
 			return false;
 		}
 	};
