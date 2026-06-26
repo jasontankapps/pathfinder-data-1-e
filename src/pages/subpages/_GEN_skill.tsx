@@ -1551,37 +1551,62 @@ const _intimidate = {hasJL:true,title: "Intimidate", jsx: <><div className="jump
 <p>An asterisk (&#42;) indicates the total duration cannot exceed 1 round plus 1 round for every 5 by which you exceed the DC. <em>Stalwart</em> is an <Link to="/class/inquisitor">inquisitor</Link> ability that can also be gained through certain archetypes.</p>
 </>};
 const _knowledge_all = {hasJL:true,title: "Knowledge", jsx: <><div className="jumpList" id="skill-knowledge_all-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-knowledge_all-identify-class-features">Identify Class Features</InnerLink></li></ul></div><h2 id="skill-knowledge_all-knowledge">Knowledge</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No  </p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Varies</Cell></Row></Block>
 <p>You are educated in a field of study and can answer both simple and complex questions. Like the <Link to="/skill/craft">Craft</Link>, <Link to="/skill/perform">Perform</Link>, and <Link to="/skill/profession">Profession</Link> skills, Knowledge actually encompasses a number of different specialties.</p>
 <p>Here are the ten Knowledge subskills and what they typically cover:</p>
 <ul>
-<li><strong className="hl"><Link to="/skill/knowledge_arcana">Arcana:</Link></strong> ancient mysteries, magic traditions, arcane symbols, constructs, dragons, magical beasts, arcane and psychic spellcasting, metamagic feats</li>
-<li><strong className="hl"><Link to="/skill/knowledge_dungeoneering">Dungeoneering:</Link></strong> aberrations, caverns, oozes, spelunking</li>
-<li><strong className="hl"><Link to="/skill/knowledge_engineering">Engineering:</Link></strong> buildings, aqueducts, bridges, fortifications</li>
+<li><strong className="hl"><Link to="/skill/knowledge_arcana">Arcana:</Link></strong> ancient mysteries, magic traditions, arcane symbols; non-robot <Link to="/type/construct">constructs</Link>, <Link to="/type/dragon">dragons</Link>, <Link to="/type/magical_beast">magical beasts</Link>; arcane and psychic spellcasting, metamagic feats</li>
+<li><strong className="hl"><Link to="/skill/knowledge_dungeoneering">Dungeoneering:</Link></strong> caverns, spelunking; <Link to="/type/aberration">aberrations</Link>, <Link to="/type/ooze">oozes</Link></li>
+<li><strong className="hl"><Link to="/skill/knowledge_engineering">Engineering:</Link></strong> buildings, aqueducts, bridges, fortifications; <Link to="/subtype/robot">robots</Link></li>
 <li><strong className="hl"><Link to="/skill/knowledge_geography">Geography:</Link></strong> lands, terrain, climate, people</li>
 <li><strong className="hl"><Link to="/skill/knowledge_history">History:</Link></strong> wars, colonies, migrations, founding of cities</li>
-<li><strong className="hl"><Link to="/skill/knowledge_local">Local:</Link></strong> legends, personalities, inhabitants, laws, customs, traditions, humanoids, classes that do not grant spells, feats that are not teamwork or metamagic feats</li>
-<li><strong className="hl"><Link to="/skill/knowledge_nature">Nature:</Link></strong> animals, fey, monstrous humanoids, plants, seasons and cycles, weather, vermin, classes with access to the druid or ranger spell list</li>
-<li><strong className="hl"><Link to="/skill/knowledge_nobility">Nobility:</Link></strong> lineages, heraldry, personalities, royalty, teamwork feats</li>
-<li><strong className="hl"><Link to="/skill/knowledge_planes">Planes:</Link></strong> the Inner Planes, the Outer Planes, the Astral Plane, the Ethereal Plane, outsiders, planar magic</li>
-<li><strong className="hl"><Link to="/skill/knowledge_religion">Religion:</Link></strong> gods and goddesses, mythic history, ecclesiastic tradition, holy symbols, undead, classes that grant divine spells</li>
+<li><strong className="hl"><Link to="/skill/knowledge_local">Local:</Link></strong> legends, personalities, inhabitants, laws, customs, traditions; <Link to="/type/humanoid">humanoids</Link>; classes that do not grant spells, feats that are not teamwork or metamagic feats</li>
+<li><strong className="hl"><Link to="/skill/knowledge_nature">Nature:</Link></strong> seasons and cycles, weather; <Link to="/type/animal">animals</Link>, <Link to="/type/fey">fey</Link>, <Link to="/type/monstrous_humanoid">monstrous humanoids</Link>, <Link to="/type/plant">plants</Link>, <Link to="/type/vermin">vermin</Link>; classes with access to the druid or ranger spell list</li>
+<li><strong className="hl"><Link to="/skill/knowledge_nobility">Nobility:</Link></strong> lineages, heraldry, personalities, royalty; teamwork feats</li>
+<li><strong className="hl"><Link to="/skill/knowledge_planes">Planes:</Link></strong> planar magic, the Inner Planes, the Outer Planes, the Astral Plane, the Ethereal Plane; <Link to="/type/outsider">outsiders</Link></li>
+<li><strong className="hl"><Link to="/skill/knowledge_religion">Religion:</Link></strong> gods and goddesses, mythic history, ecclesiastic tradition, holy symbols; <Link to="/type/undead">undead</Link>; classes that grant divine spells</li>
 </ul>
-<p><strong>Check:</strong> Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
-<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as goblins, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the tarrasque, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
-<p><strong>Action:</strong> Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
-<p><strong>Try Again:</strong> No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
-<p><strong>Untrained:</strong> You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_all-check">Check</h3>
+<p>Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
+<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as <Link to="/monster/goblin">goblins</Link>, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the <Link to="/monster/tarrasque">tarrasque</Link>, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_all-action">Action</h3>
+<p>Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_all-try-again">Try Again</h3>
+<p>No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_all-untrained">Untrained</h3>
+<p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
 <h3 id="skill-knowledge_all-identify-class-features" data-hash-target>Identify Class Features</h3>
 <p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 9</Link><br/>You can identify feats and the class features of various classes with successful Knowledge checks when you observe the feats or class features being used.</p>
-<p><strong>Check:</strong> You can attempt a skill check to identify a feat or class feature when you observe it in use, similar to how <Link to="/skill/spellcraft">Spellcraft</Link> can be used to identify a spell. The feat or class feature must have some observable effect in order for you to attempt the Knowledge check. For example, you can't see the internal determination of <Link to="/feat/iron_will">Iron Will</Link>, so this ability can't identify that feat. In general, if a feat or class feature creates a noticeable effect (such as the extra attack from using <Link to="/feat/cleave">Cleave</Link>) or has a variable modifier a character must choose to use (such as <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_expertise">Combat Expertise</Link>, or <Link to="/feat/enlarge_spell">Enlarge Spell</Link>), it can be identified. If it creates a static bonus (such as <Link to="/feat/dodge">Dodge</Link> or <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>), there's no telltale sign to give it away.</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_all-check">Check</h3>
+<p>You can attempt a skill check to identify a feat or class feature when you observe it in use, similar to how <Link to="/skill/spellcraft">Spellcraft</Link> can be used to identify a spell. The feat or class feature must have some observable effect in order for you to attempt the Knowledge check. For example, you can't see the internal determination of <Link to="/feat/iron_will">Iron Will</Link>, so this ability can't identify that feat. In general, if a feat or class feature creates a noticeable effect (such as the extra attack from using <Link to="/feat/cleave">Cleave</Link>) or has a variable modifier a character must choose to use (such as <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_expertise">Combat Expertise</Link>, or <Link to="/feat/enlarge_spell">Enlarge Spell</Link>), it can be identified. If it creates a static bonus (such as <Link to="/feat/dodge">Dodge</Link> or <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>), there's no telltale sign to give it away.</p>
 <p>The Knowledge skill required to identify a feat or class feature varies depending on the type of feat or class feature to be identified.</p>
+</div>
 </>};
-const _knowledge_arcana = {hasJL:true,title: "Knowledge (arcana)", jsx: <><div className="jumpList" id="skill-knowledge_arcana-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-knowledge_arcana-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-knowledge_arcana-phrenology">Phrenology</InnerLink></li><li><InnerLink toTop to="skill-knowledge_arcana-identify-class-features">Identify Class Features</InnerLink></li><li><InnerLink toTop to="skill-knowledge_arcana-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-knowledge_arcana-knowledge-arcana">Knowledge (arcana)</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
+const _knowledge_arcana = {hasJL:true,title: "Knowledge (arcana)", jsx: <><div className="jumpList" id="skill-knowledge_arcana-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-knowledge_arcana-identify-class-features">Identify Class Features</InnerLink></li><li><InnerLink toTop to="skill-knowledge_arcana-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-knowledge_arcana-phrenology">Phrenology</InnerLink></li><li><InnerLink toTop to="skill-knowledge_arcana-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-knowledge_arcana-knowledge-arcana">Knowledge (arcana)</h2>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
 <p>You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties.</p>
 <p><em>Arcana</em> typically covers the following: ancient mysteries, magic traditions, arcane symbols, constructs, dragons, magical beasts</p>
-<p><strong>Check:</strong> Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
-<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as goblins, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the tarrasque, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_arcana-check">Check</h3>
+<p>Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
+<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as <Link to="/monster/goblin">goblins</Link>, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the <Link to="/monster/tarrasque">tarrasque</Link>, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
 <p>Below are some specific uses of Knowledge (Arcana).</p>
 <ScrollContainer id="skill-knowledge_arcana--table-0"><table>
 <thead>
@@ -1611,19 +1636,51 @@ const _knowledge_arcana = {hasJL:true,title: "Knowledge (arcana)", jsx: <><div c
 <td>20</td>
 </tr>
 <tr>
-<td>Identify a monster's abilities and weaknesses (non-robot constructs, dragons, magical beasts)</td>
+<td>Identify a monster's abilities and weaknesses (non-robot <Link to="/type/construct">constructs</Link>, <Link to="/type/dragon">dragons</Link>, <Link to="/type/magical_beast">magical beasts</Link>)</td>
 <td>10 + monster's CR</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
-<p><strong>Try Again:</strong> No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
-<p><strong>Untrained:</strong> You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_arcana-action">Action</h3>
+<p>Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_arcana-try-again">Try Again</h3>
+<p>No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_arcana-untrained">Untrained</h3>
+<p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_arcana-identify-class-features" data-hash-target>Identify Class Features</h3>
+<p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 9</Link></p>
+<p>You can identify feats and the class features of various classes with successful Knowledge checks when you observe the feats or class features being used.</p>
+<h3 id="skill-knowledge_arcana-check">Check</h3>
+<p>You can attempt a skill check to identify a feat or class feature when you observe it in use, similar to how Spellcraft can be used to identify a spell. The feat or class feature must have some observable effect in order for you to attempt the Knowledge check. For example, you can't see the internal determination of <Link to="/feat/iron_will">Iron Will</Link>, so this ability can't identify that feat. In general, if a feat or class feature creates a noticeable effect (such as the extra attack from using <Link to="/feat/cleave">Cleave</Link>) or has a variable modifier a character must choose to use (such as <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_expertise">Combat Expertise</Link>, or <Link to="/feat/enlarge_spell">Enlarge Spell</Link>), it can be identified. If it creates a static bonus (such as <Link to="/feat/dodge">Dodge</Link> or <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>), there's no telltale sign to give it away.</p>
+<p>The Knowledge skill required to identify a feat or class feature varies depending on the type of feat or class feature to be identified and is outlined in the table below, along with the DCs of such skill checks.</p>
+<ScrollContainer id="skill-knowledge_arcana--table-1"><table>
+<thead>
+<tr>
+<th>Task</th>
+<th>DC</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Identify a class feature from a class that grants arcane or psychic spells</td>
+<td>10 + class level when feature is granted</td>
+</tr>
+<tr>
+<td>Identify a metamagic feat being used</td>
+<td>10 + character's level</td>
+</tr>
+</tbody></table></ScrollContainer>
+<p><strong>Note:</strong> For class features, add 10 to the DC if the class is a prestige class.</p>
+</div>
 <h3 id="skill-knowledge_arcana-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
 <p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.</p>
 <h4 id="skill-knowledge_arcana-phrenology" data-hash-target>Phrenology</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 196</Link><br/>You examine the skulls of intelligent creatures to analyze the subjects' psychological attributes, since the shape of the brain influences the shape of the skull.</p>
-<p><strong>Check:</strong> Once per day, you can use your fingertips to examine the shape of a creature's skull. Reading a creature's skull requires 1 minute of concentration and scrutiny while you physically manipulate the skull. This technique can be used on a willing, helpless, or paralyzed creature, or on decomposed remains (as long as the skull is intact or can be pieced together). This skill can't be used on creatures without discernible skulls, such as constructs, elementals, oozes, or plants. After the minute is up, the GM attempts a secret Knowledge (arcana) check. The DC is typically modified by the subject's Hit Dice. With a single check, you determine all the information whose DC you meet. For instance, if you had a result of 22 when examining a creature with 2 HD, you would learn that creature's race and age, gender, alignment, and class, but not its level or HD.</p>
-<ScrollContainer id="skill-knowledge_arcana--table-1"><table>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_arcana-check">Check</h3>
+<p>Once per day, you can use your fingertips to examine the shape of a creature's skull. Reading a creature's skull requires 1 minute of concentration and scrutiny while you physically manipulate the skull. This technique can be used on a willing, helpless, or paralyzed creature, or on decomposed remains (as long as the skull is intact or can be pieced together). This skill can't be used on creatures without discernible skulls, such as constructs, elementals, oozes, or plants. After the minute is up, the GM attempts a secret Knowledge (arcana) check. The DC is typically modified by the subject's Hit Dice. With a single check, you determine all the information whose DC you meet. For instance, if you had a result of 22 when examining a creature with 2 HD, you would learn that creature's race and age, gender, alignment, and class, but not its level or HD.</p>
+<ScrollContainer id="skill-knowledge_arcana--table-2"><table>
 <thead>
 <tr>
 <th>Task</th>
@@ -1652,39 +1709,35 @@ const _knowledge_arcana = {hasJL:true,title: "Knowledge (arcana)", jsx: <><div c
 </tr>
 </tbody></table></ScrollContainer>
 <p><strong>Note:</strong> A dead creature's skull uses the HD the creature had when alive.</p>
-<p><strong>Action:</strong> Reading a creature's cranium requires 1 minute of uninterrupted study.</p>
-<p><strong>Try Again:</strong> Yes. Reexamining a skull may provide new insights. You can attempt only one such check per day.</p>
-<h3 id="skill-knowledge_arcana-identify-class-features" data-hash-target>Identify Class Features</h3>
-<p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 9</Link><br/>You can identify feats and the class features of various classes with successful Knowledge checks when you observe the feats or class features being used.</p>
-<p><strong>Check:</strong> You can attempt a skill check to identify a feat or class feature when you observe it in use, similar to how Spellcraft can be used to identify a spell. The feat or class feature must have some observable effect in order for you to attempt the Knowledge check. For example, you can't see the internal determination of <Link to="/feat/iron_will">Iron Will</Link>, so this ability can't identify that feat. In general, if a feat or class feature creates a noticeable effect (such as the extra attack from using <Link to="/feat/cleave">Cleave</Link>) or has a variable modifier a character must choose to use (such as <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_expertise">Combat Expertise</Link>, or <Link to="/feat/enlarge_spell">Enlarge Spell</Link>), it can be identified. If it creates a static bonus (such as <Link to="/feat/dodge">Dodge</Link> or <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>), there's no telltale sign to give it away.</p>
-<p>The Knowledge skill required to identify a feat or class feature varies depending on the type of feat or class feature to be identified and is outlined in the table below, along with the DCs of such skill checks.</p>
-<ScrollContainer id="skill-knowledge_arcana--table-2"><table>
-<thead>
-<tr>
-<th>Task</th>
-<th>DC</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Identify a class feature from a class that grants arcane or psychic spells</td>
-<td>10 + class level when feature is granted</td>
-</tr>
-<tr>
-<td>Identify a metamagic feat being used</td>
-<td>10 + character's level</td>
-</tr>
-</tbody></table></ScrollContainer>
-<p><strong>Note:</strong> For class features, add 10 to the DC if the class is a prestige class.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_arcana-action">Action</h3>
+<p>Reading a creature's cranium requires 1 minute of uninterrupted study.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_arcana-try-again">Try Again</h3>
+<p>Yes. Reexamining a skull may provide new insights. You can attempt only one such check per day.</p>
+</div>
 <h3 id="skill-knowledge_arcana-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.<br/><strong>10 Ranks:</strong> When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.<br/><strong>15 Ranks:</strong> When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.<br/><strong>20 Ranks:</strong> Whenever you attempt a Knowledge check, you can roll twice and take the better result.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a Knowledge check, you can roll twice and take the better result.</Cell></Row></Block>
 </>};
 const _knowledge_dungeoneering = {hasJL:true,title: "Knowledge (dungeoneering)", jsx: <><div className="jumpList" id="skill-knowledge_dungeoneering-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-knowledge_dungeoneering-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-knowledge_dungeoneering-knowledge-dungeoneering">Knowledge (dungeoneering)</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
 <p>You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.</p>
 <p><em>Dungeoneering</em> typically covers the following: aberrations, caverns, oozes, spelunking</p>
-<p><strong>Check:</strong> Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
-<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as goblins, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the tarrasque, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_dungeoneering-check">Check</h3>
+<p>Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
+<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as <Link to="/monster/goblin">goblins</Link>, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the <Link to="/monster/tarrasque">tarrasque</Link>, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
 <p>Below are some specific uses of Knowledge (Dungeoneering).</p>
 <ScrollContainer id="skill-knowledge_dungeoneering--table-0"><table>
 <thead>
@@ -1710,23 +1763,42 @@ const _knowledge_dungeoneering = {hasJL:true,title: "Knowledge (dungeoneering)",
 <td>20</td>
 </tr>
 <tr>
-<td>Identify a monster's abilities and weaknesses (aberrations, oozes)</td>
+<td>Identify a monster's abilities and weaknesses (<Link to="/type/aberration">aberrations</Link>, <Link to="/type/ooze">oozes</Link>)</td>
 <td>10 + monster's CR</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
-<p><strong>Try Again:</strong> No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
-<p><strong>Untrained:</strong> You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_dungeoneering-action">Action</h3>
+<p>Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_dungeoneering-try-again">Try Again</h3>
+<p>No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_dungeoneering-untrained">Untrained</h3>
+<p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
 <h3 id="skill-knowledge_dungeoneering-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.<br/><strong>10 Ranks:</strong> When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.<br/><strong>15 Ranks:</strong> When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.<br/><strong>20 Ranks:</strong> Whenever you attempt a Knowledge check, you can roll twice and take the better result.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a Knowledge check, you can roll twice and take the better result.</Cell></Row></Block>
 </>};
 const _knowledge_engineering = {hasJL:true,title: "Knowledge (engineering)", jsx: <><div className="jumpList" id="skill-knowledge_engineering-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-knowledge_engineering-researching-technology">Researching Technology</InnerLink></li><li><InnerLink toTop to="skill-knowledge_engineering-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-knowledge_engineering-knowledge-engineering">Knowledge (engineering)</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> Yes</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
 <p>You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.</p>
-<p><em>Engineering</em> typically covers the following: buildings, aqueducts, bridges, fortifications</p>
-<p><strong>Check:</strong> Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
-<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as goblins, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the tarrasque, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
+<p><em>Engineering</em> typically covers the following: buildings, aqueducts, bridges, fortifications, robots</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_engineering-check">Check</h3>
+<p>Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
+<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as <Link to="/monster/goblin">goblins</Link>, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the <Link to="/monster/tarrasque">tarrasque</Link>, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
 <ScrollContainer id="skill-knowledge_engineering--table-0"><table>
 <thead>
 <tr>
@@ -1755,24 +1827,43 @@ const _knowledge_engineering = {hasJL:true,title: "Knowledge (engineering)", jsx
 <td>15 + item's Craft DC</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
-<p><strong>Try Again:</strong> No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
-<p><strong>Untrained:</strong> You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_engineering-action">Action</h3>
+<p>Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_engineering-try-again">Try Again</h3>
+<p>No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_engineering-untrained">Untrained</h3>
+<p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
 <h3 id="skill-knowledge_engineering-researching-technology" data-hash-target>Researching Technology</h3>
 <p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link></p>
 <p>A character can use the following skills to research technological subjects. Other skills may have research applications as well, subject to GM approval.</p>
 <blockquote>
-<p><strong>Knowledge (engineering):</strong> This is the most important skill with regard to technological subjects. Knowledge (engineering) can be used to identify a robot's abilities and weaknesses. Knowledge (engineering) is also used to identify and understand unknown technological objects in a similar manner to how Spellcraft is used to identify the properties of a magic item. The DC to correctly identify and understand an unknown technological object is equal to the object's Craft DC. An object with a Craft DC of 15 or less can be automatically identified and understood by someone trained in Knowledge (engineering) who also has the <Link to="/feat/technologist">Technologist</Link> feat.</p>
+<p><strong>Knowledge (engineering):</strong> This is the most important skill with regard to technological subjects. Knowledge (engineering) can be used to identify a robot's abilities and weaknesses. Knowledge (engineering) is also used to identify and understand unknown technological objects in a similar manner to how <Link to="/skill/spellcraft">Spellcraft</Link> is used to identify the properties of a magic item. The DC to correctly identify and understand an unknown technological object is equal to the object's Craft DC. An object with a Craft DC of 15 or less can be automatically identified and understood by someone trained in Knowledge (engineering) who also has the <Link to="/feat/technologist">Technologist</Link> feat.</p>
 </blockquote>
 <h3 id="skill-knowledge_engineering-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.<br/><strong>10 Ranks:</strong> When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.<br/><strong>15 Ranks:</strong> When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.<br/><strong>20 Ranks:</strong> Whenever you attempt a Knowledge check, you can roll twice and take the better result.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a Knowledge check, you can roll twice and take the better result.</Cell></Row></Block>
 </>};
 const _knowledge_geography = {hasJL:true,title: "Knowledge (geography)", jsx: <><div className="jumpList" id="skill-knowledge_geography-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-knowledge_geography-researching-technology">Researching Technology</InnerLink></li><li><InnerLink toTop to="skill-knowledge_geography-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-knowledge_geography-knowledge-geography">Knowledge (geography)</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> Yes</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
 <p>You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.</p>
 <p><em>Geography</em> typically covers the following: lands, terrain, climate, people</p>
-<p><strong>Check:</strong> Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_geography-check">Check</h3>
+<p>Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
 <ScrollContainer id="skill-knowledge_geography--table-0"><table>
 <thead>
 <tr>
@@ -1797,9 +1888,16 @@ const _knowledge_geography = {hasJL:true,title: "Knowledge (geography)", jsx: <>
 <td>Varies</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
-<p><strong>Try Again:</strong> No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
-<p><strong>Untrained:</strong> You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_geography-action">Action</h3>
+<p>Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_geography-try-again">Try Again</h3>
+<p>No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_geography-untrained">Untrained</h3>
+<p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
 <h3 id="skill-knowledge_geography-researching-technology" data-hash-target>Researching Technology</h3>
 <p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link></p>
 <p>A character can use the following skills to research technological subjects. Other skills may have research applications as well, subject to GM approval.</p>
@@ -1808,13 +1906,23 @@ const _knowledge_geography = {hasJL:true,title: "Knowledge (geography)", jsx: <>
 </blockquote>
 <h3 id="skill-knowledge_geography-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.<br/><strong>10 Ranks:</strong> When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.<br/><strong>15 Ranks:</strong> When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.<br/><strong>20 Ranks:</strong> Whenever you attempt a Knowledge check, you can roll twice and take the better result.</p>
+<Block size="simple">
+<Row><Cell>15 Ranks</Cell><Cell>When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a Knowledge check, you can roll twice and take the better result.</Cell></Row></Block>
 </>};
 const _knowledge_history = {hasJL:true,title: "Knowledge (history)", jsx: <><div className="jumpList" id="skill-knowledge_history-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-knowledge_history-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-knowledge_history-knowledge-history">Knowledge (history)</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> Yes</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
 <p>You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.</p>
 <p><em>History</em> typically covers the following: wars, colonies, migrations, founding of cities</p>
-<p><strong>Check:</strong> Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_history-check">Check</h3>
+<p>Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
 <ScrollContainer id="skill-knowledge_history--table-0"><table>
 <thead>
 <tr>
@@ -1835,19 +1943,36 @@ const _knowledge_history = {hasJL:true,title: "Knowledge (history)", jsx: <><div
 <td>20</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
-<p><strong>Try Again:</strong> No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
-<p><strong>Untrained:</strong> You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_history-action">Action</h3>
+<p>Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_history-try-again">Try Again</h3>
+<p>No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_history-untrained">Untrained</h3>
+<p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
 <h3 id="skill-knowledge_history-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.<br/><strong>10 Ranks:</strong> When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.<br/><strong>15 Ranks:</strong> When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.<br/><strong>20 Ranks:</strong> Whenever you attempt a Knowledge check, you can roll twice and take the better result.</p>
+<Block size="simple">
+<Row><Cell>15 Ranks</Cell><Cell>When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a Knowledge check, you can roll twice and take the better result.</Cell></Row></Block>
 </>};
 const _knowledge_local = {hasJL:true,title: "Knowledge (local)", jsx: <><div className="jumpList" id="skill-knowledge_local-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-knowledge_local-identify-class-features">Identify Class Features</InnerLink></li><li><InnerLink toTop to="skill-knowledge_local-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-knowledge_local-knowledge-local">Knowledge (local)</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
 <p>You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.</p>
 <p><em>Local</em> typically covers the following: legends, personalities, inhabitants, laws, customs, traditions, humanoids</p>
-<p><strong>Check:</strong> Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
-<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as goblins, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the tarrasque, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_local-check">Check</h3>
+<p>Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
+<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as <Link to="/monster/goblin">goblins</Link>, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the <Link to="/monster/tarrasque">tarrasque</Link>, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
 <p>Below are some specific uses of Knowledge (Local).</p>
 <ScrollContainer id="skill-knowledge_local--table-0"><table>
 <thead>
@@ -1869,16 +1994,24 @@ const _knowledge_local = {hasJL:true,title: "Knowledge (local)", jsx: <><div cla
 <td>20</td>
 </tr>
 <tr>
-<td>Identify a monster's abilities and weaknesses (humanoids)</td>
+<td>Identify a monster's abilities and weaknesses (<Link to="/type/humanoid">humanoids</Link>)</td>
 <td>10 + monster's CR</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
-<p><strong>Try Again:</strong> No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
-<p><strong>Untrained:</strong> You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_local-action">Action</h3>
+<p>Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_local-try-again">Try Again</h3>
+<p>No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_local-untrained">Untrained</h3>
+<p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
 <h3 id="skill-knowledge_local-identify-class-features" data-hash-target>Identify Class Features</h3>
 <p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 9</Link><br/>You can identify feats and the class features of various classes with successful Knowledge checks when you observe the feats or class features being used.</p>
-<p><strong>Check:</strong> You can attempt a skill check to identify a feat or class feature when you observe it in use, similar to how Spellcraft can be used to identify a spell. The feat or class feature must have some observable effect in order for you to attempt the Knowledge check. For example, you can't see the internal determination of <Link to="/feat/iron_will">Iron Will</Link>, so this ability can't identify that feat. In general, if a feat or class feature creates a noticeable effect (such as the extra attack from using <Link to="/feat/cleave">Cleave</Link>) or has a variable modifier a character must choose to use (such as <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_expertise">Combat Expertise</Link>, or <Link to="/feat/enlarge_spell">Enlarge Spell</Link>), it can be identified. If it creates a static bonus (such as <Link to="/feat/dodge">Dodge</Link> or <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>), there's no telltale sign to give it away.</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_local-check">Check</h3>
+<p>You can attempt a skill check to identify a feat or class feature when you observe it in use, similar to how Spellcraft can be used to identify a spell. The feat or class feature must have some observable effect in order for you to attempt the Knowledge check. For example, you can't see the internal determination of <Link to="/feat/iron_will">Iron Will</Link>, so this ability can't identify that feat. In general, if a feat or class feature creates a noticeable effect (such as the extra attack from using <Link to="/feat/cleave">Cleave</Link>) or has a variable modifier a character must choose to use (such as <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_expertise">Combat Expertise</Link>, or <Link to="/feat/enlarge_spell">Enlarge Spell</Link>), it can be identified. If it creates a static bonus (such as <Link to="/feat/dodge">Dodge</Link> or <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>), there's no telltale sign to give it away.</p>
 <ScrollContainer id="skill-knowledge_local--table-1"><table>
 <thead>
 <tr>
@@ -1900,16 +2033,29 @@ const _knowledge_local = {hasJL:true,title: "Knowledge (local)", jsx: <><div cla
 </tr>
 </tbody></table></ScrollContainer>
 <p><strong>Note:</strong> For class features, add 10 to the DC if the class is a prestige class.</p>
+</div>
 <h3 id="skill-knowledge_local-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.<br/><strong>10 Ranks:</strong> When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.<br/><strong>15 Ranks:</strong> When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.<br/><strong>20 Ranks:</strong> Whenever you attempt a Knowledge check, you can roll twice and take the better result.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a Knowledge check, you can roll twice and take the better result.</Cell></Row></Block>
 </>};
 const _knowledge_nature = {hasJL:true,title: "Knowledge (nature)", jsx: <><div className="jumpList" id="skill-knowledge_nature-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-knowledge_nature-identify-class-features">Identify Class Features</InnerLink></li><li><InnerLink toTop to="skill-knowledge_nature-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-knowledge_nature-knowledge-nature">Knowledge (nature)</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
 <p>You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.</p>
 <p><em>Nature</em> typically covers the following: animals, fey, monstrous humanoids, plants, seasons and cycles, weather, vermin</p>
-<p><strong>Check:</strong> Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
-<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as goblins, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the tarrasque, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_nature-check">Check</h3>
+<p>Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
+<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as <Link to="/monster/goblin">goblins</Link>, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the <Link to="/monster/tarrasque">tarrasque</Link>, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
 <p>Below are some specific uses of Knowledge (Nature).</p>
 <ScrollContainer id="skill-knowledge_nature--table-0"><table>
 <thead>
@@ -1935,16 +2081,24 @@ const _knowledge_nature = {hasJL:true,title: "Knowledge (nature)", jsx: <><div c
 <td>20</td>
 </tr>
 <tr>
-<td>Identify a monster's abilities and weaknesses (animals, fey, monstrous humanoids, plants, vermin)</td>
+<td>Identify a monster's abilities and weaknesses (<Link to="/type/animal">animals</Link>, <Link to="/type/fey">fey</Link>, <Link to="/type/monstrous_humanoid">monstrous humanoids</Link>, <Link to="/type/plant">plants</Link>, <Link to="/type/vermin">vermin</Link>)</td>
 <td>10 + monster's CR</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
-<p><strong>Try Again:</strong> No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
-<p><strong>Untrained:</strong> You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_nature-action">Action</h3>
+<p>Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_nature-try-again">Try Again</h3>
+<p>No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_nature-untrained">Untrained</h3>
+<p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
 <h3 id="skill-knowledge_nature-identify-class-features" data-hash-target>Identify Class Features</h3>
 <p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 9</Link><br/>You can identify feats and the class features of various classes with successful Knowledge checks when you observe the feats or class features being used.</p>
-<p><strong>Check:</strong> You can attempt a skill check to identify a feat or class feature when you observe it in use, similar to how Spellcraft can be used to identify a spell. The feat or class feature must have some observable effect in order for you to attempt the Knowledge check. For example, you can't see the internal determination of <Link to="/feat/iron_will">Iron Will</Link>, so this ability can't identify that feat. In general, if a feat or class feature creates a noticeable effect (such as the extra attack from using <Link to="/feat/cleave">Cleave</Link>) or has a variable modifier a character must choose to use (such as <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_expertise">Combat Expertise</Link>, or <Link to="/feat/enlarge_spell">Enlarge Spell</Link>), it can be identified. If it creates a static bonus (such as <Link to="/feat/dodge">Dodge</Link> or <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>), there's no telltale sign to give it away.</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_nature-check">Check</h3>
+<p>You can attempt a skill check to identify a feat or class feature when you observe it in use, similar to how Spellcraft can be used to identify a spell. The feat or class feature must have some observable effect in order for you to attempt the Knowledge check. For example, you can't see the internal determination of <Link to="/feat/iron_will">Iron Will</Link>, so this ability can't identify that feat. In general, if a feat or class feature creates a noticeable effect (such as the extra attack from using <Link to="/feat/cleave">Cleave</Link>) or has a variable modifier a character must choose to use (such as <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_expertise">Combat Expertise</Link>, or <Link to="/feat/enlarge_spell">Enlarge Spell</Link>), it can be identified. If it creates a static bonus (such as <Link to="/feat/dodge">Dodge</Link> or <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>), there's no telltale sign to give it away.</p>
 <ScrollContainer id="skill-knowledge_nature--table-1"><table>
 <thead>
 <tr>
@@ -1958,15 +2112,28 @@ const _knowledge_nature = {hasJL:true,title: "Knowledge (nature)", jsx: <><div c
 </tr>
 </tbody></table></ScrollContainer>
 <p><strong>Note:</strong> For class features, add 10 to the DC if the class is a prestige class.</p>
+</div>
 <h3 id="skill-knowledge_nature-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.<br/><strong>10 Ranks:</strong> When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.<br/><strong>15 Ranks:</strong> When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.<br/><strong>20 Ranks:</strong> Whenever you attempt a Knowledge check, you can roll twice and take the better result.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a Knowledge check, you can roll twice and take the better result.</Cell></Row></Block>
 </>};
 const _knowledge_nobility = {hasJL:true,title: "Knowledge (nobility)", jsx: <><div className="jumpList" id="skill-knowledge_nobility-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-knowledge_nobility-identify-class-features">Identify Class Features</InnerLink></li><li><InnerLink toTop to="skill-knowledge_nobility-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-knowledge_nobility-knowledge-nobility">Knowledge (nobility)</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> Yes</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
 <p>You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.</p>
 <p><em>Nobility</em> typically covers the following: lineages, heraldry, personalities, royalty</p>
-<p><strong>Check:</strong> Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_nobility-check">Check</h3>
+<p>Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
 <ScrollContainer id="skill-knowledge_nobility--table-0"><table>
 <thead>
 <tr>
@@ -1987,12 +2154,20 @@ const _knowledge_nobility = {hasJL:true,title: "Knowledge (nobility)", jsx: <><d
 <td>20</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
-<p><strong>Try Again:</strong> No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
-<p><strong>Untrained:</strong> You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_nobility-action">Action</h3>
+<p>Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_nobility-try-again">Try Again</h3>
+<p>No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_nobility-untrained">Untrained</h3>
+<p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
 <h3 id="skill-knowledge_nobility-identify-class-features" data-hash-target>Identify Class Features</h3>
 <p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 9</Link><br/>You can identify feats and the class features of various classes with successful Knowledge checks when you observe the feats or class features being used.</p>
-<p><strong>Check:</strong> You can attempt a skill check to identify a feat or class feature when you observe it in use, similar to how Spellcraft can be used to identify a spell. The feat or class feature must have some observable effect in order for you to attempt the Knowledge check. For example, you can't see the internal determination of <Link to="/feat/iron_will">Iron Will</Link>, so this ability can't identify that feat. In general, if a feat or class feature creates a noticeable effect (such as the extra attack from using <Link to="/feat/cleave">Cleave</Link>) or has a variable modifier a character must choose to use (such as <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_expertise">Combat Expertise</Link>, or <Link to="/feat/enlarge_spell">Enlarge Spell</Link>), it can be identified. If it creates a static bonus (such as <Link to="/feat/dodge">Dodge</Link> or <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>), there's no telltale sign to give it away.</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_nobility-check">Check</h3>
+<p>You can attempt a skill check to identify a feat or class feature when you observe it in use, similar to how Spellcraft can be used to identify a spell. The feat or class feature must have some observable effect in order for you to attempt the Knowledge check. For example, you can't see the internal determination of <Link to="/feat/iron_will">Iron Will</Link>, so this ability can't identify that feat. In general, if a feat or class feature creates a noticeable effect (such as the extra attack from using <Link to="/feat/cleave">Cleave</Link>) or has a variable modifier a character must choose to use (such as <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_expertise">Combat Expertise</Link>, or <Link to="/feat/enlarge_spell">Enlarge Spell</Link>), it can be identified. If it creates a static bonus (such as <Link to="/feat/dodge">Dodge</Link> or <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>), there's no telltale sign to give it away.</p>
 <ScrollContainer id="skill-knowledge_nobility--table-1"><table>
 <thead>
 <tr>
@@ -2005,16 +2180,27 @@ const _knowledge_nobility = {hasJL:true,title: "Knowledge (nobility)", jsx: <><d
 <td>10 + character's level</td>
 </tr>
 </tbody></table></ScrollContainer>
+</div>
 <h3 id="skill-knowledge_nobility-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.<br/><strong>10 Ranks:</strong> When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.<br/><strong>15 Ranks:</strong> When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.<br/><strong>20 Ranks:</strong> Whenever you attempt a Knowledge check, you can roll twice and take the better result.</p>
+<Block size="simple">
+<Row><Cell>15 Ranks</Cell><Cell>When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a Knowledge check, you can roll twice and take the better result.</Cell></Row></Block>
 </>};
 const _knowledge_planes = {hasJL:true,title: "Knowledge (planes)", jsx: <><div className="jumpList" id="skill-knowledge_planes-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-knowledge_planes-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-knowledge_planes-knowledge-planes">Knowledge (planes)</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
 <p>You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.</p>
 <p><em>Planes</em> typically covers the following: the Inner Planes, the Outer Planes, the Astral Plane, the Ethereal Plane, outsiders, planar magic</p>
-<p><strong>Check:</strong> Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
-<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as goblins, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the tarrasque, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_planes-check">Check</h3>
+<p>Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
+<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as <Link to="/monster/goblin">goblins</Link>, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the <Link to="/monster/tarrasque">tarrasque</Link>, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
 <p>Below are some specific uses of Knowledge (Planes).</p>
 <ScrollContainer id="skill-knowledge_planes--table-0"><table>
 <thead>
@@ -2036,23 +2222,42 @@ const _knowledge_planes = {hasJL:true,title: "Knowledge (planes)", jsx: <><div c
 <td>20</td>
 </tr>
 <tr>
-<td>Identify a monster's abilities and weaknesses (outsiders)</td>
+<td>Identify a monster's abilities and weaknesses (<Link to="/type/outsider">outsiders</Link>)</td>
 <td>10 + monster's CR</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
-<p><strong>Try Again:</strong> No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
-<p><strong>Untrained:</strong> You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_planes-action">Action</h3>
+<p>Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_planes-try-again">Try Again</h3>
+<p>No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_planes-untrained">Untrained</h3>
+<p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
 <h3 id="skill-knowledge_planes-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.<br/><strong>10 Ranks:</strong> When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.<br/><strong>15 Ranks:</strong> When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.<br/><strong>20 Ranks:</strong> Whenever you attempt a Knowledge check, you can roll twice and take the better result.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a Knowledge check, you can roll twice and take the better result.</Cell></Row></Block>
 </>};
 const _knowledge_religion = {hasJL:true,title: "Knowledge (religion)", jsx: <><div className="jumpList" id="skill-knowledge_religion-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-knowledge_religion-identify-class-features">Identify Class Features</InnerLink></li><li><InnerLink toTop to="skill-knowledge_religion-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-knowledge_religion-knowledge-religion">Knowledge (religion)</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
 <p>You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.</p>
 <p><em>Religion</em> typically covers the following: gods and goddesses, mythic history, ecclesiastic tradition, holy symbols, undead</p>
-<p><strong>Check:</strong> Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
-<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as goblins, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the tarrasque, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_religion-check">Check</h3>
+<p>Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).</p>
+<p>You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as <Link to="/monster/goblin">goblins</Link>, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the <Link to="/monster/tarrasque">tarrasque</Link>, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.</p>
 <p>Below are some specific uses of Knowledge (Religion).</p>
 <ScrollContainer id="skill-knowledge_religion--table-0"><table>
 <thead>
@@ -2074,16 +2279,24 @@ const _knowledge_religion = {hasJL:true,title: "Knowledge (religion)", jsx: <><d
 <td>20</td>
 </tr>
 <tr>
-<td>Identify a monster's abilities and weaknesses (undead)</td>
+<td>Identify a monster's abilities and weaknesses (<Link to="/type/undead">undead</Link>)</td>
 <td>10 + monster's CR</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
-<p><strong>Try Again:</strong> No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
-<p><strong>Untrained:</strong> You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_religion-action">Action</h3>
+<p>Usually none. In most cases, a Knowledge check doesn't take an action (but see "Untrained," below).</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_religion-try-again">Try Again</h3>
+<p>No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_religion-untrained">Untrained</h3>
+<p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
+</div>
 <h3 id="skill-knowledge_religion-identify-class-features" data-hash-target>Identify Class Features</h3>
 <p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 9</Link><br/>You can identify feats and the class features of various classes with successful Knowledge checks when you observe the feats or class features being used.</p>
-<p><strong>Check:</strong> You can attempt a skill check to identify a feat or class feature when you observe it in use, similar to how Spellcraft can be used to identify a spell. The feat or class feature must have some observable effect in order for you to attempt the Knowledge check. For example, you can't see the internal determination of <Link to="/feat/iron_will">Iron Will</Link>, so this ability can't identify that feat. In general, if a feat or class feature creates a noticeable effect (such as the extra attack from using <Link to="/feat/cleave">Cleave</Link>) or has a variable modifier a character must choose to use (such as <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_expertise">Combat Expertise</Link>, or <Link to="/feat/enlarge_spell">Enlarge Spell</Link>), it can be identified. If it creates a static bonus (such as <Link to="/feat/dodge">Dodge</Link> or <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>), there's no telltale sign to give it away.</p>
+<div className="semiheaderGroup"><h3 id="skill-knowledge_religion-check">Check</h3>
+<p>You can attempt a skill check to identify a feat or class feature when you observe it in use, similar to how Spellcraft can be used to identify a spell. The feat or class feature must have some observable effect in order for you to attempt the Knowledge check. For example, you can't see the internal determination of <Link to="/feat/iron_will">Iron Will</Link>, so this ability can't identify that feat. In general, if a feat or class feature creates a noticeable effect (such as the extra attack from using <Link to="/feat/cleave">Cleave</Link>) or has a variable modifier a character must choose to use (such as <Link to="/feat/arcane_strike">Arcane Strike</Link>, <Link to="/feat/combat_expertise">Combat Expertise</Link>, or <Link to="/feat/enlarge_spell">Enlarge Spell</Link>), it can be identified. If it creates a static bonus (such as <Link to="/feat/dodge">Dodge</Link> or <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>), there's no telltale sign to give it away.</p>
 <p>The Knowledge skill required to identify a feat or class feature varies depending on the type of feat or class feature to be identified and is outlined in the table below, along with the DCs of such skill checks.</p>
 <ScrollContainer id="skill-knowledge_religion--table-1"><table>
 <thead>
@@ -2098,17 +2311,37 @@ const _knowledge_religion = {hasJL:true,title: "Knowledge (religion)", jsx: <><d
 </tr>
 </tbody></table></ScrollContainer>
 <p><strong>Note:</strong> For class features, add 10 to the DC if the class is a prestige class.</p>
+</div>
 <h3 id="skill-knowledge_religion-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.<br/><strong>10 Ranks:</strong> When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.<br/><strong>15 Ranks:</strong> When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.<br/><strong>20 Ranks:</strong> Whenever you attempt a Knowledge check, you can roll twice and take the better result.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a Knowledge check, you can roll twice and take the better result.</Cell></Row></Block>
 </>};
 const _linguistics = {hasJL:true,title: "Linguistics", jsx: <><div className="jumpList" id="skill-linguistics-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-linguistics-create-or-detect-forgeries">Create or Detect Forgeries</InnerLink></li><li><InnerLink toTop to="skill-linguistics-learning-languages">Learning Languages</InnerLink></li><li><InnerLink toTop to="skill-linguistics-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-linguistics-automatic-writing">Automatic Writing</InnerLink></li><li><InnerLink toTop to="skill-linguistics-technology">Technology</InnerLink></li><li><InnerLink toTop to="skill-linguistics-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-linguistics-linguistics">Linguistics</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 100</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> Yes</p>
-<p><strong>Check:</strong> You can decipher writing in an unfamiliar language or a message written in an incomplete or archaic form. The base DC is 20 for the simplest messages, 25 for standard texts, and 30 or higher for intricate, exotic, or very old writing. If the check succeeds, you understand the general content of a piece of writing about one page long (or the equivalent). If the check fails, make a DC 5 Wisdom check to see if you avoid drawing a false conclusion about the text. (Success means that you do not draw a false conclusion; failure means that you do.)</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 100</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-linguistics-check">Check</h3>
+<p>You can decipher writing in an unfamiliar language or a message written in an incomplete or archaic form. The base DC is 20 for the simplest messages, 25 for standard texts, and 30 or higher for intricate, exotic, or very old writing. If the check succeeds, you understand the general content of a piece of writing about one page long (or the equivalent). If the check fails, make a DC 5 Wisdom check to see if you avoid drawing a false conclusion about the text. (Success means that you do not draw a false conclusion; failure means that you do.)</p>
 <p>Both the Linguistics check and (if necessary) the Wisdom check are made secretly by the GM, so that you can't tell whether the conclusion you draw is true or false.</p>
-<p><strong>Action:</strong> Deciphering a page of ordinary text takes 1 minute (10 consecutive rounds).</p>
-<p><strong>Try Again:</strong> Yes.</p>
-<p><strong>Special:</strong> You must be trained to use this skill, but you can always attempt to read archaic and strange forms of your own racial bonus languages.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-linguistics-action">Action</h3>
+<p>Deciphering a page of ordinary text takes 1 minute (10 consecutive rounds).</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-linguistics-try-again">Try Again</h3>
+<p>Yes.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-linguistics-special">Special</h3>
+<p>You must be trained to use this skill, but you can always attempt to read archaic and strange forms of your own racial bonus languages.</p>
+</div>
 <h3 id="skill-linguistics-create-or-detect-forgeries" data-hash-target>Create or Detect Forgeries</h3>
 <p>Forgery requires writing materials appropriate to the document being forged. To forge a document on which the handwriting is not specific to a person, you need only to have seen a similar document before, and you gain a +8 bonus on your check. To forge a signature, you need an autograph of that person to copy, and you gain a +4 bonus on the check. To forge a longer document written in the hand of some particular person, a large sample of that person's handwriting is needed.</p>
 <ScrollContainer id="skill-linguistics--table-0"><table>
@@ -2152,16 +2385,24 @@ const _linguistics = {hasJL:true,title: "Linguistics", jsx: <><div className="ju
 </tr>
 </tbody></table></ScrollContainer>
 <p>The Linguistics check is made secretly, so that you're not sure how good your forgery is. As with Disguise, you don't make a check until someone examines the work. Your Linguistics check is opposed by the Linguistics check of the person who examines the document to verify its authenticity. The examiner gains modifiers if any of the conditions are listed on the table above.</p>
-<p><strong>Action:</strong> Creating a forgery can take anywhere from 1 minute to 1d4 minutes per page. Detecting a forgery using Linguistics takes 1 round of examination per page.</p>
-<p><strong>Try Again:</strong> Yes.</p>
-<p><strong>Special:</strong> You must be trained to use this skill, but you can also always attempt to detect a forgery.</p>
+<div className="semiheaderGroup"><h3 id="skill-linguistics-action">Action</h3>
+<p>Creating a forgery can take anywhere from 1 minute to 1d4 minutes per page. Detecting a forgery using Linguistics takes 1 round of examination per page.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-linguistics-try-again">Try Again</h3>
+<p>Yes.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-linguistics-special">Special</h3>
+<p>You must be trained to use this skill, but you can also always attempt to detect a forgery.</p>
+</div>
 <h3 id="skill-linguistics-learning-languages" data-hash-target>Learning Languages</h3>
-<p><em>Learn a Language:</em> Whenever you put a rank into this skill, you learn to speak and read a new language. Known <Link to="/misc/languages">languages</Link> are listed.</p>
+<h4 id="skill-linguistics-learn-a-language">Learn a Language</h4>
+<p>Whenever you put a rank into this skill, you learn to speak and read a new language. Known <Link to="/misc/languages">languages</Link> are listed.</p>
 <h3 id="skill-linguistics-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
 <p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day are accurate.</p>
 <h4 id="skill-linguistics-automatic-writing" data-hash-target>Automatic Writing</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 194</Link><br/>You can produce mysterious writing that pertains to the immediate future, either under the influence of enigmatic guiding spirits or by unleashing your subconscious intuition.</p>
-<p><strong>Check:</strong> Once per week, you can spend 1 hour posing questions while your hand unconsciously scribbles messages of varying legibility and accuracy. At the end of this hour, you attempt a Linguistics check to decipher the meanings of these messages. If successful, you gain information as though you had used <Link to="/spell/augury">augury</Link>. If you have 10 or more ranks in Linguistics, you can attempt a higher DC check to instead gain information as though you had used <Link to="/spell/divination">divination</Link>. The chance of successfully producing coherent or meaningful writing from any of these effects equals 60% plus 5% for every 1 by which your check result exceeds the DC (to a maximum of 90%). You must choose which DC you'll try to meet before attempting the check. The GM rolls the check and d% roll secretly, so that you can't tell whether the messages are accurate.</p>
+<div className="semiheaderGroup"><h3 id="skill-linguistics-check">Check</h3>
+<p>Once per week, you can spend 1 hour posing questions while your hand unconsciously scribbles messages of varying legibility and accuracy. At the end of this hour, you attempt a Linguistics check to decipher the meanings of these messages. If successful, you gain information as though you had used <Link to="/spell/augury">augury</Link>. If you have 10 or more ranks in Linguistics, you can attempt a higher DC check to instead gain information as though you had used <Link to="/spell/divination">divination</Link>. The chance of successfully producing coherent or meaningful writing from any of these effects equals 60% plus 5% for every 1 by which your check result exceeds the DC (to a maximum of 90%). You must choose which DC you'll try to meet before attempting the check. The GM rolls the check and d% roll secretly, so that you can't tell whether the messages are accurate.</p>
 <ScrollContainer id="skill-linguistics--table-1"><table>
 <thead>
 <tr>
@@ -2181,20 +2422,37 @@ const _linguistics = {hasJL:true,title: "Linguistics", jsx: <><div className="ju
 <td>30</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Automatic writing takes 1 hour.</p>
-<p><strong>Try Again:</strong> Yes. You can attempt to learn more about a subject, but can still attempt only one check per week.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-linguistics-action">Action</h3>
+<p>Automatic writing takes 1 hour.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-linguistics-try-again">Try Again</h3>
+<p>Yes. You can attempt to learn more about a subject, but can still attempt only one check per week.</p>
+</div>
 <h3 id="skill-linguistics-technology" data-hash-target>Technology</h3>
 <p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link><br/>A character with the <Link to="/feat/technologist">Technologist</Link> feat can attempt a Linguistics check to decipher certain complex messages that appear in ruins. Note that many of these messages are written in Androffan. This language is spoken outside only rarely, and even within its borders, some have tried (quite unsuccessfully) to keep it a secret language.</p>
 <p><strong>Androffan:</strong> Some robots may also know it (either in addition to Common and Hallit or replacing these languages), depending on the robots' nature. Androffan cannot be chosen as a bonus language for high Intelligence without GM permission.</p>
 <h3 id="skill-linguistics-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Linguistics, you earn the following.</p>
-<p><strong>5 Ranks:</strong> You can use Linguistics instead of Sense Motive to intercept and interpret secret messages (as the Bluff skill). You gain a +1 insight bonus on Perception and Disable Device checks to detect or disarm written magical traps. This bonus increases by 1 for every 5 ranks beyond 5 you possess in Linguistics.<br/><strong>10 Ranks:</strong> If you succeed at a Linguistics check by at least 10 when examining writing, you can learn the precise meaning rather than general content, and you never draw false conclusions on a failed check. A successful DC 30 Linguistics check reveals the general meaning of speech, a successful DC 35 check reveals 1d4 pieces of specific information, and a successful DC 40 check reveals exact meaning.<br/><strong>15 Ranks:</strong> You can decipher magical writings (as <Link to="/spell/read_magic">read magic</Link>) by succeeding at a Linguistics check (DC = 25 + caster level). If you identify a written magical trap in this way, you gain a +2 circumstance bonus on Disable Device checks to disarm it.<br/><strong>20 Ranks:</strong> You can attempt to decipher magical or nonmagical text at a rate of one page per round. If you instead spend 1 minute per page, roll twice and take the better result.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>You can use Linguistics instead of Sense Motive to intercept and interpret secret messages (as the Bluff skill). You gain a +1 insight bonus on Perception and Disable Device checks to detect or disarm written magical traps. This bonus increases by 1 for every 5 ranks beyond 5 you possess in Linguistics.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>If you succeed at a Linguistics check by at least 10 when examining writing, you can learn the precise meaning rather than general content, and you never draw false conclusions on a failed check. A successful DC 30 Linguistics check reveals the general meaning of speech, a successful DC 35 check reveals 1d4 pieces of specific information, and a successful DC 40 check reveals exact meaning.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>You can decipher magical writings (as <Link to="/spell/read_magic">read magic</Link>) by succeeding at a Linguistics check (DC = 25 + caster level). If you identify a written magical trap in this way, you gain a +2 circumstance bonus on Disable Device checks to disarm it.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You can attempt to decipher magical or nonmagical text at a rate of one page per round. If you instead spend 1 minute per page, roll twice and take the better result.</Cell></Row></Block>
 </>};
 const _lore_any = {title: "Lore (any)", jsx: <><h2 id="skill-lore_any-lore-any">Lore (any)</h2>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 50</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> Yes<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> Yes</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 50</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
 <p>You possess a specialized area of knowledge, generally narrower than that of a full-fledged scholar. Lore acts as a catch-all skill for information, similar to how Craft handles artisanal skills and Profession handles professional skills. The category of a Lore skill can vary widely from that of another Lore skill. It could be regional (such as a city or country), about a discipline (such as cryptography), or related to a narrow set of people (such as famous musicians). The scope of region-based Lore skills can also refer to specific subcategories, such as taverns in a particular region.</p>
 <p>A Lore skill must be narrow - far narrower than the most relevant Knowledge skill. The broader the scope of a given category of Lore, the shallower your knowledge is on that topic. If you know about taverns in a wide region, you know less about each of them than you would if you had Lore in taverns of a specific city. Lore skills normally can't be used to identify monsters the way Knowledge skills can, unless they refer to a specific type of monster (such as <Link to="/monster/owlbear">owlbears</Link> or <Link to="/template/vampire">vampires</Link>). If Lore involves a common, broad category of race or monster, it needs to be more specific. Lore (elves) would be too broad, as would Lore (dragons).</p>
-<p><strong>Check:</strong> Lore skills use the same DC scale as Knowledge skills: DC 10 to answer easy questions, DC 15 for basic questions, and DC 20 to 30 for really tough questions. In many cases, Lore can substitute for a Knowledge skill, such as Lore (elven history) filling in for Knowledge (history) in a check involving elves. At the GM's discretion, a player might be able to apply a Lore skill that's only partially related to a subject with a -5 penalty, such as using a Lore skill about a region to recall information about a particular city in that region or applying knowledge of distilling to winemaking.</p>
+<div className="semiheaderGroup"><h3 id="skill-lore_any-check">Check</h3>
+<p>Lore skills use the same DC scale as Knowledge skills: DC 10 to answer easy questions, DC 15 for basic questions, and DC 20 to 30 for really tough questions. In many cases, Lore can substitute for a Knowledge skill, such as Lore (elven history) filling in for Knowledge (history) in a check involving elves. At the GM's discretion, a player might be able to apply a Lore skill that's only partially related to a subject with a -5 penalty, such as using a Lore skill about a region to recall information about a particular city in that region or applying knowledge of distilling to winemaking.</p>
 <p>The table below describes some examples of Lore skills alongside examples of skills that would be too broad. This is by no means a comprehensive list, and the GM has final say on whether a particular Lore skill is appropriate.</p>
 <ScrollContainer id="skill-lore_any--table-0"><table>
 <thead>
@@ -2292,12 +2550,22 @@ const _lore_any = {title: "Lore (any)", jsx: <><h2 id="skill-lore_any-lore-any">
 <td>Art</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Bards:</strong> Lore is treated as a Knowledge skill for the purposes of bardic knowledge and lore master, as well as similar abilities found in other classes, creatures, and archetypes. This applies only to Lore skills in which a character is trained. In other circumstances, use the more relevant Knowledge skill.</p>
+<p><strong>Bards:</strong> Lore is treated as a Knowledge skill for the purposes of <em>bardic knowledge</em> and <em>lore master,</em> as well as similar abilities found in other classes, creatures, and archetypes. This applies only to Lore skills in which a character is trained. In other circumstances, use the more relevant Knowledge skill.</p>
+</div>
 </>};
 const _perception = {hasJL:true,title: "Perception", jsx: <><div className="jumpList" id="skill-perception-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-perception-underwater-perception">Underwater Perception</InnerLink></li><li><InnerLink toTop to="skill-perception-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-perception-read-aura">Read Aura</InnerLink></li><li><InnerLink toTop to="skill-perception-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-perception-perception">Perception</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 102</Link><br/><strong>Associated Skill:</strong> Wisdom<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> Perception has a number of uses, the most common of which is an opposed check versus an opponent's Stealth check to notice the opponent and avoid being surprised. If you are successful, you notice the opponent and can react accordingly. If you fail, your opponent can take a variety of actions, including sneaking past you and attacking you.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 102</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Wisdom</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-perception-check">Check</h3>
+<p>Perception has a number of uses, the most common of which is an opposed check versus an opponent's <Link to="/skill/stealth">Stealth</Link> check to notice the opponent and avoid being surprised. If you are successful, you notice the opponent and can react accordingly. If you fail, your opponent can take a variety of actions, including sneaking past you and attacking you.</p>
 <p>Perception is also used to notice fine details in the environment. The DC to notice such details varies depending upon distance, the environment, and how noticeable the detail is. The following table gives a number of guidelines.</p>
+</div>
 <h3 id="skill-perception-details-table">Details Table</h3>
 <ScrollContainer id="skill-perception--table-0"><table>
 <thead>
@@ -2420,12 +2688,19 @@ const _perception = {hasJL:true,title: "Perception", jsx: <><div className="jump
 <td>+20</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p>Favorable and unfavorable conditions depend upon the sense being used to make the check. For example, bright light might decrease the DC of checks involving sight, while torchlight or moonlight might increase the DC. Background noise might increase a DC involving hearing, while competing odors might increase the DC of a check involving scent.</p>
+<div className="semiheaderGroup"><p>Favorable and unfavorable conditions depend upon the sense being used to make the check. For example, bright light might decrease the DC of checks involving sight, while torchlight or moonlight might increase the DC. Background noise might increase a DC involving hearing, while competing odors might increase the DC of a check involving scent.</p>
 <p>Terrible conditions are unfavorable conditions, but more extreme. For example, candlelight for DCs involving sight, a roaring dragon for DCs involving hearing, and an overpowering stench covering the area for DCs involving scent.</p>
-<p><strong>Action:</strong> Most Perception checks are reactive, made in response to observable stimulus. Intentionally searching for stimulus is a move action.</p>
-<p><strong>Try Again:</strong> Yes. You can try to sense something you missed the first time, so long as the stimulus is still present.</p>
-<p><strong>Special:</strong> Elves, half-elves, gnomes, and halflings receive a +2 racial bonus on Perception checks. Creatures with the <Link to="/umr/scent">scent</Link> special quality have a +8 bonus on Perception checks made to detect a scent. Creatures with the <Link to="/umr/tremorsense">tremorsense</Link> special quality have a +8 bonus on Perception checks against creatures touching the ground and automatically make any such checks within their range. For more on special qualities, see <Link to="/rule/special_abilities_2">Special Abilities</Link>.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-perception-action">Action</h3>
+<p>Most Perception checks are reactive, made in response to observable stimulus. Intentionally searching for stimulus is a <strong className="hl">move action</strong>.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-perception-try-again">Try Again</h3>
+<p>Yes. You can try to sense something you missed the first time, so long as the stimulus is still present.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-perception-special">Special</h3>
+<p>Elves, half-elves, gnomes, and halflings receive a +2 racial bonus on Perception checks. Creatures with the <Link to="/umr/scent">scent</Link> special quality have a +8 bonus on Perception checks made to detect a scent. Creatures with the <Link to="/umr/tremorsense">tremorsense</Link> special quality have a +8 bonus on Perception checks against creatures touching the ground and automatically make any such checks within their range. For more on special qualities, see <Link to="/rule/special_abilities_2">Special Abilities</Link>.</p>
 <p>A spellcaster with a <Link to="/monster/familiar_hawk">hawk</Link> or <Link to="/monster/familiar_owl">owl</Link> <Link to="/ability/familiar">familiar</Link> gains a +3 bonus on Perception checks. If you have the <Link to="/feat/alertness">Alertness</Link> feat, you get a bonus on Perception checks.</p>
+</div>
 <h3 id="skill-perception-underwater-perception" data-hash-target>Underwater Perception</h3>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 46</Link><br/>Even in clear water, the way light travels underwater makes it harder to see underwater than on land, and water sometimes contains particulates that further obscure vision. Perception checks to see something are always made at a minimum -2 penalty underwater, and often a greater penalty when the water is murky (flowing water, such as in a current or river, is always at least somewhat murky). The maximum distance most creatures can see underwater varies from 40 to 320 feet in clear water (4d8 &times; 10) and from 10 to 80 feet in murky water (1d8 &times; 10). Generally the only way to gain the <Link to="/rule/concealment">concealment</Link> necessary to use Stealth in open water is to swim at least that distance away from an opponent.</p>
 <p>Most naturally aquatic creatures either have eyes that are evolved to be exposed to water or have protective transparent eyelids, as do beavers. Surface creatures can use goggles to protect their eyes from water and its particulates; otherwise, they take a -4 penalty on Perception checks to see underwater and risk eye damage or blinding, depending on the water source.</p>
@@ -2436,11 +2711,16 @@ const _perception = {hasJL:true,title: "Perception", jsx: <><div className="jump
 <h4 id="skill-perception-read-aura" data-hash-target>Read Aura</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 197</Link></p>
 <p>Your psychic sensitivity allows you to read the psychic and magical auras of creatures and objects.</p>
-<p><strong>Check:</strong> Once per day, you can examine the natural aura of a creature or object to discern the subject's alignment, emotions, health, or magic. This requires 10 minutes of concentration, after which you attempt a Perception check. Each time, you must pick one of four auras to read: alignment, emotion, health, or magic. The result of the check applies only to the selected aura. You must be within 30 feet of the subject at all times during the reading. Objects typically have only magic auras, though some also have alignment auras (and intelligent items have emotion auras). You can still attempt to detect a type of aura an object doesn't have, but you get no results. The DC varies depending on the aura, as shown on the table.</p>
-<p><em>Read Alignment Aura:</em> You attempt to read the alignment aura, learning the alignment and its strength. An alignment aura's strength depends on the creature's Hit Dice or item's caster level, as noted in the description of the <Link to="/spell/detect_evil">detect evil</Link> spell.</p>
-<p><em>Read Emotion Aura:</em> The colors within the target's aura reveal its emotional state. If successful, you learn the target's disposition and its attitude toward any creatures within 30 feet of it. For a number of rounds equal to the amount by which you exceeded the skill check's DC, you gain a +2 circumstance bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks against the target.</p>
-<p><em>Read Health Aura:</em> Viewing the flow of vital force, you assess a creature's physical condition. You learn if the creature is unharmed or wounded, if it is poisoned or diseased, and whether it is affected by any of the following conditions: confused, disabled, dying, nauseated, panicked, staggered, stunned, and unconscious. You also learn the total number of points available in its ki pool, grit pool, or similar resource.</p>
-<p><em>Read Magic Aura:</em> You attempt to determine the number and power of all magical auras on a target creature or object (see <Link to="/spell/detect_magic">detect magic</Link> to determine a magic aura's power). If the check is successful, you can attempt Knowledge (arcana) or Spellcraft checks to determine the school or identify properties of a magic item, as normal. If the item is affected by <Link to="/spell/magic_aura">magic aura</Link> or a similar spell, you can realize this and determine the actual properties of the item if your check result exceeds the DC by 5 or more. If the spell is of a higher level (such as <Link to="/spell/aura_alteration">aura alteration</Link>), increase this threshold DC by 2 for every spell level beyond 1st.</p>
+<div className="semiheaderGroup"><h3 id="skill-perception-check">Check</h3>
+<p>Once per day, you can examine the natural aura of a creature or object to discern the subject's alignment, emotions, health, or magic. This requires 10 minutes of concentration, after which you attempt a Perception check. Each time, you must pick one of four auras to read: alignment, emotion, health, or magic. The result of the check applies only to the selected aura. You must be within 30 feet of the subject at all times during the reading. Objects typically have only magic auras, though some also have alignment auras (and intelligent items have emotion auras). You can still attempt to detect a type of aura an object doesn't have, but you get no results. The DC varies depending on the aura, as shown on the table.</p>
+<h4 id="skill-perception-read-alignment-aura">Read Alignment Aura</h4>
+<p>You attempt to read the alignment aura, learning the alignment and its strength. An alignment aura's strength depends on the creature's Hit Dice or item's caster level, as noted in the description of the <Link to="/spell/detect_evil">detect evil</Link> spell.</p>
+<h4 id="skill-perception-read-emotion-aura">Read Emotion Aura</h4>
+<p>The colors within the target's aura reveal its emotional state. If successful, you learn the target's disposition and its attitude toward any creatures within 30 feet of it. For a number of rounds equal to the amount by which you exceeded the skill check's DC, you gain a +2 circumstance bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks against the target.</p>
+<h4 id="skill-perception-read-health-aura">Read Health Aura</h4>
+<p>Viewing the flow of vital force, you assess a creature's physical condition. You learn if the creature is unharmed or wounded, if it is poisoned or diseased, and whether it is affected by any of the following conditions: confused, disabled, dying, nauseated, panicked, staggered, stunned, and unconscious. You also learn the total number of points available in its ki pool, grit pool, or similar resource.</p>
+<h4 id="skill-perception-read-magic-aura">Read Magic Aura</h4>
+<p>You attempt to determine the number and power of all magical auras on a target creature or object (see <Link to="/spell/detect_magic">detect magic</Link> to determine a magic aura's power). If the check is successful, you can attempt Knowledge (arcana) or Spellcraft checks to determine the school or identify properties of a magic item, as normal. If the item is affected by <Link to="/spell/magic_aura">magic aura</Link> or a similar spell, you can realize this and determine the actual properties of the item if your check result exceeds the DC by 5 or more. If the spell is of a higher level (such as <Link to="/spell/aura_alteration">aura alteration</Link>), increase this threshold DC by 2 for every spell level beyond 1st.</p>
 <ScrollContainer id="skill-perception--table-2"><table>
 <thead>
 <tr>
@@ -2465,14 +2745,30 @@ const _perception = {hasJL:true,title: "Perception", jsx: <><div className="jump
 <td>20 + creature's HD or item's caster level</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Reading an aura requires 10 minutes of study.</p>
-<p><strong>Try Again:</strong> Yes. You can read a creature or object's aura more than once, whether you read the same aura or a different one. You can still attempt only one skill check to read an aura per day.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-perception-action">Action</h3>
+<p>Reading an aura requires 10 minutes of study.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-perception-try-again">Try Again</h3>
+<p>Yes. You can read a creature or object's aura more than once, whether you read the same aura or a different one. You can still attempt only one skill check to read an aura per day.</p>
+</div>
 <h3 id="skill-perception-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Perception, you earn the following.</p>
-<p><strong>5 Ranks:</strong> You remain alert to sounds even in your sleep, and the normal DC increase to Perception checks when you are sleeping is halved. The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 20 feet.<br/><strong>10 Ranks:</strong> The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 30 feet. In addition, you gain a +5 bonus on Perception checks to notice or locate an invisible creature or object.<br/><strong>15 Ranks:</strong> You remain alert to sounds even in your sleep, and the normal DC increase to Perception checks when you are sleeping doesn't apply to you. The distance modifier on the DC of your Perception checks is reduced to +1 per 40 feet.<br/><strong>20 Ranks:</strong> You gain a +10 bonus on Perception checks to notice invisible creatures or objects. The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 60 feet.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>You remain alert to sounds even in your sleep, and the normal DC increase to Perception checks when you are sleeping is halved. The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 20 feet.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 30 feet. In addition, you gain a +5 bonus on Perception checks to notice or locate an invisible creature or object.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>You remain alert to sounds even in your sleep, and the normal DC increase to Perception checks when you are sleeping doesn't apply to you. The distance modifier on the DC of your Perception checks is reduced to +1 per 40 feet.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You gain a +10 bonus on Perception checks to notice invisible creatures or objects. The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 60 feet.</Cell></Row></Block>
 </>};
 const _perform_any = {hasJL:true,title: "Perform (any)", jsx: <><div className="jumpList" id="skill-perform_any-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-perform_any-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-perform_any-perform-any">Perform (any)</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 102</Link><br/><strong>Associated Skill:</strong> Charisma<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> Yes</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 102</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Charisma</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
 <p>You are skilled at one form of entertainment, from singing to acting to playing an instrument. Like Craft, Knowledge, and Profession, Perform is actually a number of separate skills. You could have several Perform skills, each with its own ranks.</p>
 <p>Each of the nine categories of the Perform skill includes a variety of methods, instruments, or techniques, a small sample of which is provided for each category below.</p>
 <ul>
@@ -2486,7 +2782,8 @@ const _perform_any = {hasJL:true,title: "Perform (any)", jsx: <><div className="
 <li>Wind instruments (flute, pan pipes, recorder, trumpet)</li>
 <li>Sing (ballad, chant, melody)</li>
 </ul>
-<p><strong>Check:</strong> You can impress audiences with your talent and skill in your chosen performance type.</p>
+<div className="semiheaderGroup"><h3 id="skill-perform_any-check">Check</h3>
+<p>You can impress audiences with your talent and skill in your chosen performance type.</p>
 <ScrollContainer id="skill-perform_any--table-0"><table>
 <thead>
 <tr>
@@ -2515,29 +2812,69 @@ const _perform_any = {hasJL:true,title: "Perform (any)", jsx: <><div className="
 <td>Extraordinary performance. In a prosperous city, you can earn 3d6 gp/day. In time, you may draw attention from distant patrons, or even from extraplanar beings.</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p>A masterwork musical instrument gives you a +2 circumstance bonus on all Perform checks that involve its use.</p>
-<p><strong>Action:</strong> Varies. Trying to earn money by playing in public requires anywhere from an evening's work to a full day's performance. The bard's special Perform-based abilities are described in that class's description.</p>
-<p><strong>Try Again:</strong> Yes. Retries are allowed, but they don't negate previous failures, and an audience that has been unimpressed in the past is likely to be prejudiced against future performances. (Increase the DC by 2 for each previous failure.)</p>
-<p><strong>Special:</strong> A bard must have ranks in specific Perform categories to use some of his Bardic Performance abilities.</p>
+<p>A <Link to="/eq-misc/masterwork_musical_instrument">masterwork musical instrument</Link> gives you a +2 circumstance bonus on all Perform checks that involve its use.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-perform_any-action">Action</h3>
+<p>Varies. Trying to earn money by playing in public requires anywhere from an evening's work to a full day's performance. The bard's special Perform-based abilities are described in that class's description.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-perform_any-try-again">Try Again</h3>
+<p>Yes. Retries are allowed, but they don't negate previous failures, and an audience that has been unimpressed in the past is likely to be prejudiced against future performances. (Increase the DC by 2 for each previous failure.)</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-perform_any-special">Special</h3>
+<p>A bard must have ranks in specific Perform categories to use some of his Bardic Performance abilities.</p>
+</div>
 <h3 id="skill-perform_any-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Perform, you earn the following.</p>
-<p><strong>5 Ranks:</strong> Whenever you attempt a Bluff, Diplomacy, Handle Animal, or Intimidate check, you can attempt a DC 20 Perform check to gain a +2 circumstance bonus on the check.<br/><strong>10 Ranks:</strong> Whenever you cast a spell with the emotion or language-dependent descriptor, you can attempt a DC 25 Perform check to increase the save DC by 1.<br/><strong>15 Ranks:</strong> Whenever you cast a spell with the emotion or language-dependent descriptor, you can attempt a DC 30 Perform check to increase your caster level by 1. You must choose whether to use this ability or the ability unlocked at 10 ranks when casting the spell.<br/><strong>20 Ranks:</strong> Choose one of the following skills: Bluff, Diplomacy, or Intimidate. When you attempt a skill check with that skill, you can also attempt a Perform check and use the better result to determine the success of that skill check.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>Whenever you attempt a Bluff, Diplomacy, Handle Animal, or Intimidate check, you can attempt a DC 20 Perform check to gain a +2 circumstance bonus on the check.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>Whenever you cast a spell with the emotion or language-dependent descriptor, you can attempt a DC 25 Perform check to increase the save DC by 1.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>Whenever you cast a spell with the emotion or language-dependent descriptor, you can attempt a DC 30 Perform check to increase your caster level by 1. You must choose whether to use this ability or the ability unlocked at 10 ranks when casting the spell.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>Choose one of the following skills: Bluff, Diplomacy, or Intimidate. When you attempt a skill check with that skill, you can also attempt a Perform check and use the better result to determine the success of that skill check.</Cell></Row></Block>
 </>};
 const _profession_any = {hasJL:true,title: "Profession (any)", jsx: <><div className="jumpList" id="skill-profession_any-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-profession_any-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-profession_any-profession-any">Profession (any)</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 103</Link><br/><strong>Associated Skill:</strong> Wisdom<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> Yes</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 103</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Wisdom</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
 <p>You are skilled at a specific job. Like Craft, Knowledge, and Perform, Profession is actually a number of separate skills. You could have several Profession skills, each with its own ranks. While a Craft skill represents ability in creating an item, a Profession skill represents an aptitude in a vocation requiring a broader range of less specific knowledge. The most common Profession skills are architect, baker, barrister, brewer, butcher, clerk, cook, courtesan, driver, engineer, farmer, fisherman, gambler, gardener, herbalist, innkeeper, librarian, merchant, midwife, miller, miner, porter, sailor, scribe, shepherd, stable master, soldier, tanner, trapper, and woodcutter.</p>
-<p><strong>Check:</strong> You can earn half your Profession check result in gold pieces per week of dedicated work. You know how to use the tools of your trade, how to perform the profession's daily tasks, how to supervise helpers, and how to handle common problems. You can also answer questions about your Profession. Basic questions are DC 10, while more complex questions are DC 15 or higher.</p>
-<p><strong>Action:</strong> Not applicable. A single check generally represents a week of work.</p>
-<p><strong>Try Again:</strong> Varies. An attempt to use a Profession skill to earn income cannot be retried. You are stuck with whatever weekly wage your check result brought you. Another check may be made after a week to determine a new income for the next period of time. An attempt to accomplish some specific task can usually be retried.</p>
-<p><strong>Untrained:</strong> Untrained laborers and assistants (that is, characters without any ranks in Profession) earn an average of 1 silver piece per day.</p>
-<p><strong>Special:</strong> A gnome gets a +2 bonus on a Craft or Profession skill of her choice.</p>
+<div className="semiheaderGroup"><h3 id="skill-profession_any-check">Check</h3>
+<p>You can earn half your Profession check result in gold pieces per week of dedicated work. You know how to use the tools of your trade, how to perform the profession's daily tasks, how to supervise helpers, and how to handle common problems. You can also answer questions about your Profession. Basic questions are DC 10, while more complex questions are DC 15 or higher.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-profession_any-action">Action</h3>
+<p>Not applicable. A single check generally represents a week of work.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-profession_any-try-again">Try Again</h3>
+<p>Varies. An attempt to use a Profession skill to earn income cannot be retried. You are stuck with whatever weekly wage your check result brought you. Another check may be made after a week to determine a new income for the next period of time. An attempt to accomplish some specific task can usually be retried.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-profession_any-untrained">Untrained</h3>
+<p>Untrained laborers and assistants (that is, characters without any ranks in Profession) earn an average of 1 silver piece per day.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-profession_any-special">Special</h3>
+<p>A <Link to="/race/gnome">gnome</Link> gets a +2 bonus on a Craft or Profession skill of her choice.</p>
+</div>
 <h3 id="skill-profession_any-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>With sufficient ranks in Profession, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When using Profession checks to earn income, you earn gold pieces equal to the result of your check each week.<br/><strong>10 Ranks:</strong> When attempting Profession checks, you can roll twice and take the better result. When answering questions about your Profession, you can always take 10.<br/><strong>15 Ranks:</strong> You can attempt checks to earn income once per day instead of once per week.<br/><strong>20 Ranks:</strong> When attempting Profession checks, you can choose to roll once instead of twice. If you do and the result of the roll is less than 10, replace it with 10. When answering questions about your Profession, you can always take 20.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>When using Profession checks to earn income, you earn gold pieces equal to the result of your check each week.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>When attempting Profession checks, you can roll twice and take the better result. When answering questions about your Profession, you can always take 10.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>You can attempt checks to earn income once per day instead of once per week.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>When attempting Profession checks, you can choose to roll once instead of twice. If you do and the result of the roll is less than 10, replace it with 10. When answering questions about your Profession, you can always take 20.</Cell></Row></Block>
 </>};
 const _ride = {hasJL:true,title: "Ride", jsx: <><div className="jumpList" id="skill-ride-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-ride-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-ride-ride">Ride</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 103</Link><br/><strong>Associated Skill:</strong> Dexterity<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> Typical riding actions don't require checks. You can saddle, mount, ride, and dismount from a mount without a problem. The following tasks do require checks.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 103</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Dexterity</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-ride-check">Check</h3>
+<p>Typical riding actions don't require checks. You can saddle, mount, ride, and dismount from a mount without a problem. The following tasks do require checks.</p>
 <ScrollContainer id="skill-ride--table-0"><table>
 <thead>
 <tr>
@@ -2582,23 +2919,41 @@ const _ride = {hasJL:true,title: "Ride", jsx: <><div className="jumpList" id="sk
 <td>20</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><em>Guide with Knees:</em> You can guide your mount with your knees so you can use both hands in combat. Make your Ride check at the start of your turn. If you fail, you can use only one hand this round because you need to use the other to control your mount. This does not take an action.</p>
-<p><em>Stay in Saddle:</em> You can react instantly to try to avoid falling when your mount rears or bolts unexpectedly or when you take damage. This usage does not take an action.</p>
-<p><em>Fight with a Combat-Trained Mount:</em> If you direct your combat-trained mount to attack in battle, you can still make your own attack or attacks normally. This usage is a free action.</p>
-<p><em>Cover:</em> You can react instantly to drop down and hang alongside your mount, using it as cover. You can't attack or cast spells while using your mount as cover. If you fail your Ride check, you don't get the cover benefit. Using this option is an immediate action, but recovering from this position is a move action (no check required).</p>
-<p><em>Soft Fall:</em> You negate damage when you fall off a mount. If you fail the Ride check, you take 1d6 points of damage and are prone. This usage does not take an action.</p>
-<p><em>Leap:</em> You can get your mount to leap obstacles as part of its movement. If the Ride check to make the leap succeeds, make a check using your Ride modifier or the mount's jump modifier, which is lower, to see how far the creature can jump. If you fail your Ride check, you fall off the mount when it leaps and take the appropriate falling damage (at least 1d6 points). This usage does not take an action but is part of the mount's movement.</p>
-<p><em>Spur Mount:</em> You can spur your mount to greater speed with a move action. A successful Ride check increases the mount's speed by 10 feet for 1 round but deals 1d3 points of damage to the creature. You can use this ability every round, but the mount becomes fatigued after a number of rounds equal to its Constitution score. This ability cannot be used on a fatigued mount.</p>
-<p><em>Control Mount in Battle:</em> As a move action, you can attempt to control a light horse, pony, heavy horse, or other mount not trained for combat riding while in battle. If you fail the Ride check, you can do nothing else in that round. You do not need to roll for horses or ponies trained for combat.</p>
-<p><em>Fast Mount or Dismount:</em> You can attempt to mount or dismount from a mount of up to one size category larger than yourself as a free action, provided that you still have a move action available that round. If you fail the Ride check, mounting or dismounting is a move action. You can't use fast mount or dismount on a mount more than one size category larger than yourself.</p>
-<p><strong>Action:</strong> Varies. Mounting or dismounting normally is a move action. Other checks are a move action, a free action, or no action at all, as noted above.</p>
-<p><strong>Special:</strong> If you are riding bareback, you take a -5 penalty on Ride checks.</p>
+<h4 id="skill-ride-guide-with-knees">Guide with Knees</h4>
+<p>You can guide your mount with your knees so you can use both hands in combat. Make your Ride check at the start of your turn. If you fail, you can use only one hand this round because you need to use the other to control your mount. This does not take an action.</p>
+<h4 id="skill-ride-stay-in-saddle">Stay in Saddle</h4>
+<p>You can react instantly to try to avoid falling when your mount rears or bolts unexpectedly or when you take damage. This usage does not take an action.</p>
+<h4 id="skill-ride-fight-with-a-combat-trained-mount">Fight with a Combat-Trained Mount</h4>
+<p>If you direct your combat-trained mount to attack in battle, you can still make your own attack or attacks normally. This usage is a <strong className="hl">free action</strong>.</p>
+<h4 id="skill-ride-cover">Cover</h4>
+<p>You can react instantly to drop down and hang alongside your mount, using it as cover. You can't attack or cast spells while using your mount as cover. If you fail your Ride check, you don't get the cover benefit. Using this option is an <strong className="hl">immediate action</strong>, but recovering from this position is a <strong className="hl">move action</strong> (no check required).</p>
+<h4 id="skill-ride-soft-fall">Soft Fall</h4>
+<p>You negate damage when you fall off a mount. If you fail the Ride check, you take 1d6 points of damage and are <Link to="/rule/prone">prone</Link>. This usage does not take an action.</p>
+<h4 id="skill-ride-leap">Leap</h4>
+<p>You can get your mount to leap obstacles as part of its movement. If the Ride check to make the leap succeeds, make a check using your Ride modifier or the mount's jump modifier, which is lower, to see how far the creature can jump. If you fail your Ride check, you fall off the mount when it leaps and take the appropriate <Link to="/rule/falling">falling</Link> damage (at least 1d6 points). This usage does not take an action but is part of the mount's movement.</p>
+<h4 id="skill-ride-spur-mount">Spur Mount</h4>
+<p>You can spur your mount to greater speed with a <strong className="hl">move action</strong>. A successful Ride check increases the mount's speed by 10 feet for 1 round but deals 1d3 points of damage to the creature. You can use this ability every round, but the mount becomes <Link to="/misc/fatigued">fatigued</Link> after a number of rounds equal to its Constitution score. This ability cannot be used on a fatigued mount.</p>
+<h4 id="skill-ride-control-mount-in-battle">Control Mount in Battle</h4>
+<p>As a <strong className="hl">move action</strong>, you can attempt to control a <Link to="/eq-misc/light_horse">light horse</Link>, <Link to="/eq-misc/pony">pony</Link>, <Link to="/eq-misc/heavy_horse">heavy horse</Link>, or other mount not trained for combat riding while in battle. If you fail the Ride check, you can do nothing else in that round. You do not need to roll for horses or ponies trained for combat.</p>
+<h4 id="skill-ride-fast-mount-or-dismount">Fast Mount or Dismount</h4>
+<p>You can attempt to mount or dismount from a mount of up to one size category larger than yourself as a <strong className="hl">free action</strong>, provided that you still have a move action available that round. If you fail the Ride check, mounting or dismounting is a <strong className="hl">move action</strong>. You can't use fast mount or dismount on a mount more than one size category larger than yourself.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-ride-action">Action</h3>
+<p>Varies. Mounting or dismounting normally is a <strong className="hl">move action</strong>. Other checks are a <strong className="hl">move action</strong>, a <strong className="hl">free action</strong>, or no action at all, as noted above.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-ride-special">Special</h3>
+<p>If you are riding bareback, you take a -5 penalty on Ride checks.</p>
 <p>If you have the <Link to="/feat/animal_affinity">Animal Affinity</Link> feat, you get a bonus on Ride checks.</p>
-<p>If you use a military saddle you get a +2 circumstance bonus on Ride checks related to staying in the saddle.</p>
+<p>If you use a <Link to="/eq-misc/military_saddle">military saddle</Link> you get a +2 circumstance bonus on Ride checks related to staying in the saddle.</p>
 <p>Ride is a prerequisite for <Link to="/feat/mounted_archery">Mounted Archery</Link>, <Link to="/feat/mounted_combat">Mounted Combat</Link>, <Link to="/feat/ride_by_attack">Ride-By Attack</Link>, <Link to="/feat/spirited_charge">Spirited Charge</Link>, and <Link to="/feat/trample">Trample</Link>.</p>
+</div>
 <h3 id="skill-ride-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>With sufficient ranks in Ride, you earn the following.</p>
-<p><strong>5 Ranks:</strong> Your mount gains a +2 bonus on Fortitude saves or Constitution checks to avoid becoming fatigued or exhausted. This bonus increases by 1 for every 5 ranks beyond 5 you possess in Ride.<br/><strong>10 Ranks:</strong> When you spur your mount, its speed is increased by 20 feet, and it gains a +2 bonus on Reflex saves and a +2 dodge bonus to AC.<br/><strong>15 Ranks:</strong> When an opponent targets you or your mount with a bull rush, drag, overrun, reposition, or trip combat maneuver while you are mounted, you can substitute the result of a Ride check in place of your (or your mount's) CMD.<br/><strong>20 Ranks:</strong> When you spur your mount, its speed is increased by 30 feet, and it gains a +4 bonus on Reflex saves and a +4 dodge bonus to AC.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>Your mount gains a +2 bonus on Fortitude saves or Constitution checks to avoid becoming fatigued or exhausted. This bonus increases by 1 for every 5 ranks beyond 5 you possess in Ride.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>When you spur your mount, its speed is increased by 20 feet, and it gains a +2 bonus on Reflex saves and a +2 dodge bonus to AC.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>When an opponent targets you or your mount with a bull rush, drag, overrun, reposition, or trip combat maneuver while you are mounted, you can substitute the result of a Ride check in place of your (or your mount's) CMD.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>When you spur your mount, its speed is increased by 30 feet, and it gains a +4 bonus on Reflex saves and a +4 dodge bonus to AC.</Cell></Row></Block>
 </>};
 const _sense_motive = {hasJL:true,title: "Sense Motive", jsx: <><div className="jumpList" id="skill-sense_motive-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-sense_motive-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-sense_motive-prognostication">Prognostication</InnerLink></li><li><InnerLink toTop to="skill-sense_motive-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-sense_motive-sense-motive">Sense Motive</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 104</Link><br/><strong>Associated Skill:</strong> Wisdom<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
