@@ -14,11 +14,11 @@ const _acrobatics = {hasJL:true,title: "Acrobatics", jsx: <><div className="jump
 <Row><Cell>Armor Check Penalty</Cell><Cell>Yes</Cell></Row>
 <Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
 <Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
-<div className="semiheaderGroup"><p>Action</p>
+<div className="semiheaderGroup"><h3 id="skill-acrobatics-action">Action</h3>
 <p>None. An Acrobatics check is made as part of another action or as a reaction to a situation.</p>
 </div>
-<div className="semiheaderGroup"><p>Special</p>
-<p>If you have 3 or more ranks in Acrobatics, you gain a +3 dodge bonus to AC when fighting defensively instead of the usual +2, and a +6 dodge bonus to AC when taking the total defense action instead of the usual +4.</p>
+<div className="semiheaderGroup"><h3 id="skill-acrobatics-special">Special</h3>
+<p>If you have 3 or more ranks in Acrobatics, you gain a +3 dodge bonus to AC when <Link to="/misc/fighting_defensively">fighting defensively</Link> instead of the usual +2, and a +6 dodge bonus to AC when taking the <Link to="/misc/total_defense">total defense</Link> action instead of the usual +4.</p>
 <p>If you have the <Link to="/feat/acrobatic">Acrobatic</Link> feat, you get a bonus on Acrobatics checks.</p>
 </div>
 <h3 id="skill-acrobatics-moving-carefully" data-hash-target>Moving Carefully</h3>
@@ -184,17 +184,17 @@ const _appraise = {hasJL:true,title: "Appraise", jsx: <><div className="jumpList
 <Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
 <Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
 <Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
-<div className="semiheaderGroup"><p>Check</p>
+<div className="semiheaderGroup"><h3 id="skill-appraise-check">Check</h3>
 <p>A DC 20 Appraise check determines the value of a common item. If you succeed by 5 or more, you also determine if the item has magic properties, although this success does not grant knowledge of the magic item's abilities. If your fail the check by less than 5, you determine the price of that item to within 20% of its actual value. If you fail this check by 5 or more, the price is wildly inaccurate, subject to GM discretion. Particularly rare or exotic items might increase the DC of this check by 5 or more.</p>
 <p>You can also use this check to determine the most valuable item visible in a treasure hoard. The DC of this check is generally 20 but can increase to as high as 30 for a particularly large hoard.</p>
 </div>
-<div className="semiheaderGroup"><p>Action</p>
+<div className="semiheaderGroup"><h3 id="skill-appraise-action">Action</h3>
 <p>Appraising an item takes 1 <strong className="hl">standard action</strong>. Determining the most valuable object in a treasure hoard takes 1 <strong className="hl">full-round action</strong>.</p>
 </div>
-<div className="semiheaderGroup"><p>Try Again</p>
+<div className="semiheaderGroup"><h3 id="skill-appraise-try-again">Try Again</h3>
 <p>Additional attempts to Appraise an item reveal the same result.</p>
 </div>
-<div className="semiheaderGroup"><p>Special</p>
+<div className="semiheaderGroup"><h3 id="skill-appraise-special">Special</h3>
 <p>A spellcaster with a <Link to="/monster/raven">raven</Link> familiar gains a +3 bonus on Appraise checks.</p>
 </div>
 <h3 id="skill-appraise-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
@@ -202,16 +202,16 @@ const _appraise = {hasJL:true,title: "Appraise", jsx: <><div className="jumpList
 <h4 id="skill-appraise-psychometry" data-hash-target>Psychometry</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 196</Link></p>
 <p>You can read the psychic impressions left on objects or in places by previous owners and events.</p>
-<div className="semiheaderGroup"><p>Check</p>
+<div className="semiheaderGroup"><h3 id="skill-appraise-check">Check</h3>
 <p>Once per day, you can concentrate for 1 minute while in physical contact with an item or location, during which you receive flashes of insight regarding the subject's nature and ownership. After 1 minute, you attempt a DC 15 Appraise check to decipher the visions. You gain one piece of information about the historical significance or the last previous owner - such as a glimpse of the last owner's appearance or its emotional state when it last used the item - determined by the GM.</p>
 <p>You learn one more piece of information for every 10 by which your check result exceeds the DC, as long as you concentrate for 1 additional minute for each piece of information.</p>
 <p>If you fail the check by less than 5 or the item has no significant psychic imprint, you don't learn any information. If you fail this check by 5 or more, the item appears to be psychically significant even if it's not, and the information you gain is wildly inaccurate.</p>
 <p>If you attempt to use psychometry on an item affected by <Link to="/spell/charge_object">charge object</Link> or <Link to="/spell/implant_false_reading">implant false reading</Link>, you automatically learn all information imprinted by the spell. You must also attempt a Will save. If the item is affected by an <em>implant false reading</em> spell, on a success, you realize the information was false, and can determine the true information as well. On a failure, or if the item is affected by a <em>charge object</em> spell, you believe the information is true.</p>
 </div>
-<div className="semiheaderGroup"><p>Action</p>
+<div className="semiheaderGroup"><h3 id="skill-appraise-action">Action</h3>
 <p>Reading an object requires at least 1 minute of uninterrupted concentration.</p>
 </div>
-<div className="semiheaderGroup"><p>Try Again</p>
+<div className="semiheaderGroup"><h3 id="skill-appraise-try-again">Try Again</h3>
 <p>Yes. Multiple readings on an object or place always give the same results unless its circumstances or ownership have changed, but additional checks might reach further back into an object's history. You don't reroll the saving throw to determine if a psychic imprint is false. You can still use psychometry only once per day.</p>
 </div>
 <h3 id="skill-appraise-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
@@ -233,7 +233,7 @@ const _artistry_any = {title: "Artistry (any)", jsx: <><h2 id="skill-artistry_an
 <Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
 <p>You are skilled in the creative arts, following your aesthetic sensibilities to bring to life the wonders of your imagination. Like Craft, Perform, and Profession, Artistry is actually a number of separate skills. You could have several Artistry skills, each with its own ranks. The most common Artistry skills are choreography, criticism, literature (including poetry), musical composition, philosophy, and playwriting.</p>
 <p>Like Craft, an Artistry skill is focused on creating something. However, what it creates is not necessarily a physical object; it could be a pattern or blueprint for an item, or a better method for crafting a type of item. Thus, an Artistry (musical composition) check could be used to create a new song, but the important act of creation is the song itself, not the paper on which it is written or even the performance. An artist is not necessarily a skilled performer, though she might be. An artist's province is the creation of ideas and concepts, and the realization of those ideas in a way that can be enjoyed by others and contribute to the broader culture of the arts. Some art forms (such as painting or sculpture) skirt the line between Artistry and Craft. It's up to the GM to rule whether certain Craft skills can be taken as Artistry skills instead.</p>
-<div className="semiheaderGroup"><p>Check</p>
+<div className="semiheaderGroup"><h3 id="skill-artistry_any-check">Check</h3>
 <p>You can create works of art and try to earn a living by impressing possible patrons with your talent and ideas.</p>
 <ScrollContainer id="skill-artistry_any--table-0"><table>
 <thead>
@@ -306,10 +306,10 @@ const _artistry_any = {title: "Artistry (any)", jsx: <><h2 id="skill-artistry_an
 <p><strong>Step 2:</strong> Spend 1/4 the price of the work you intend to create. This represents buying supplies such as parchment and ink, hiring the services of musicians, paying for research materials, and the like.</p>
 <p><strong>Step 3:</strong> Attempt an Artistry check with the appropriate DC, representing 1 week's worth of work. If you succeed, multiply your check result by the DC. If the resulting value equals the price of the item in sp, then you have completed the work of art and gain your commission fee. (If the resulting value equals double or triple the price of the work in silver pieces, then you've completed the task in half or one-third of the time. Other multiples of the DC reduce the completion time in the same manner.) If the resulting value doesn't equal the price, then it represents the progress you've made this week in sp. If the check fails, you make no progress.</p>
 <p>If you didn't complete the work of art, you can either continue working or call it done and cut your losses. If you continue working, you must spend 1/4 the price again for each week you work. Record the result of your check from the first week, and add your progress for each subsequent week to the total until you either complete the item or cut your losses. If you decide to cut your losses, you gain the commission of the highest-quality level that your total could have completed. For instance, if you were trying to create a memorable work (a commission price of 1,000 sp) and have made only 600 sp worth of progress, you can cut your losses to gain a commission fee for an impressive work (500 sp, or 50 gp). You can't earn the value for a higher quality than you were aiming for, so if you aimed to create a memorable work but ended up creating a masterful work, you couldn't gain a commission price higher than 100 gp. When you cut your losses, you don't gain back any money you spent on supplies and services. So if you spent 250 sp when trying to create a memorable work, selling an impressive work would net you only 250 sp total if you spent 1 week of work, and would cause you to break even if you spent 2 weeks. It's possible to lose money working on a commission.</p>
-<div className="semiheaderGroup"><p>Action</p>
+<div className="semiheaderGroup"><h3 id="skill-artistry_any-action">Action</h3>
 <p>Varies. Trying to earn money by creating minor works of art typically involves a full week's work. If you work less than 1 week, you earn the daily average amount appropriate for your level of workmanship. Creating a commissioned work typically takes a week or more.</p>
 </div>
-<div className="semiheaderGroup"><p>Try Again</p>
+<div className="semiheaderGroup"><h3 id="skill-artistry_any-try-again">Try Again</h3>
 <p>Yes. Retries are allowed, but they don't negate previous failures. If you're trying to earn a living as an artist in a city where the public hasn't been impressed with your work (because you failed a DC 15 Artistry check in the previous week), you have a hard time breaking into the marketplace with future artwork (increase the DC by 2 for each previous failure). If you leave the area for a month or more before trying again, this increase resets to 0.</p>
 </div>
 </>};
@@ -322,7 +322,7 @@ const _bluff = {hasJL:true,title: "Bluff", jsx: <><div className="jumpList" id="
 <Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
 <Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
 <Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
-<div className="semiheaderGroup"><p>Special</p>
+<div className="semiheaderGroup"><h3 id="skill-bluff-special">Special</h3>
 <p>A spellcaster with a <Link to="/monster/viper">viper</Link> familiar gains a +3 bonus on Bluff checks.</p>
 <p>If you have the <Link to="/feat/deceitful">Deceitful</Link> feat, you get a bonus on Bluff checks.</p>
 </div>
@@ -364,35 +364,35 @@ const _bluff = {hasJL:true,title: "Bluff", jsx: <><div className="jumpList" id="
 <td>up to +10</td>
 </tr>
 </tbody></table></ScrollContainer>
-<div className="semiheaderGroup"><p>Action</p>
+<div className="semiheaderGroup"><h3 id="skill-bluff-action">Action</h3>
 <p>Attempting to deceive someone takes at least 1 round, but can possibly take longer if the lie is elaborate (as determined by the GM on a case-by-case basis).</p>
 </div>
-<div className="semiheaderGroup"><p>Try Again</p>
+<div className="semiheaderGroup"><h3 id="skill-bluff-try-again">Try Again</h3>
 <p>If you fail to deceive someone, further attempts to deceive them are at a -10 penalty and may be impossible (GM discretion).</p>
 </div>
 <h3 id="skill-bluff-feinting" data-hash-target>Feinting</h3>
-<p>You can use Bluff to feint in combat, causing your opponent to be denied his Dexterity bonus to his AC against your next attack. The DC of this check is equal to 10 + your opponent's base attack bonus + your opponent's Wisdom modifier. If your opponent is trained in Sense Motive, the DC is instead equal to 10 + your opponent's Sense Motive bonus, if higher. For more information on feinting in combat, see Combat.</p>
-<div className="semiheaderGroup"><p>Action</p>
+<p>You can use Bluff to <Link to="/rule/feint">feint</Link> in combat, causing your opponent to be denied his Dexterity bonus to his AC against your next attack. The DC of this check is equal to 10 + your opponent's base attack bonus + your opponent's Wisdom modifier. If your opponent is trained in Sense Motive, the DC is instead equal to 10 + your opponent's Sense Motive bonus, if higher.</p>
+<div className="semiheaderGroup"><h3 id="skill-bluff-action">Action</h3>
 <p>Feinting in combat is a <strong className="hl">standard action</strong>.</p>
 </div>
-<div className="semiheaderGroup"><p>Try Again</p>
+<div className="semiheaderGroup"><h3 id="skill-bluff-try-again">Try Again</h3>
 <p>You can attempt to feint against someone again if you fail.</p>
 </div>
 <h3 id="skill-bluff-secret-messages" data-hash-target>Secret Messages</h3>
 <p>You can use Bluff to pass hidden messages along to another character without others understanding your true meaning by using innuendo to cloak your actual message. The DC of this check is 15 for simple messages and 20 for complex messages. If you are successful, the target automatically understands you, assuming you are communicating in a language that it understands. If your check fails by 5 or more, you deliver the wrong message. Other creatures that receive the message can decipher it by succeeding at an opposed Sense Motive check against your Bluff result.</p>
-<div className="semiheaderGroup"><p>Action</p>
+<div className="semiheaderGroup"><h3 id="skill-bluff-action">Action</h3>
 <p>Using Bluff to deliver a secret message takes twice as long as the message would otherwise take to relay.</p>
 </div>
-<div className="semiheaderGroup"><p>Try Again</p>
+<div className="semiheaderGroup"><h3 id="skill-bluff-try-again">Try Again</h3>
 <p>Secret messages can be relayed again if the first attempt fails.</p>
 </div>
 <h3 id="skill-bluff-inconspicuous-action" data-hash-target>Inconspicuous Action</h3>
 <p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 8</Link></p>
 <p>You can avoid drawing attention to yourself when performing conspicuous actions such as picking up an object in a museum where handling the exhibits is frowned upon but not a matter of grave concern, or closely studying someone across a room at a party.</p>
-<div className="semiheaderGroup"><p>Check</p>
+<div className="semiheaderGroup"><h3 id="skill-bluff-check">Check</h3>
 <p>Your Bluff check is opposed by observers' Sense Motive checks. You can't attempt the check if your very presence is suspicious (which you could prevent by altering your appearance with the <Link to="/skill/disguise">Disguise</Link> skill).</p>
 </div>
-<div className="semiheaderGroup"><p>Action</p>
+<div className="semiheaderGroup"><h3 id="skill-bluff-action">Action</h3>
 <p>You attempt the Bluff check as part of performing the action you wish to render inconspicuous. Normally, you must take twice as long as normal to perform the action in order to make it inconspicuous. A standard action becomes a full-round action completed just before the start of your next turn and a free, immediate, move, or swift action becomes a standard action.</p>
 </div>
 <h3 id="skill-bluff-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
@@ -404,8 +404,16 @@ const _bluff = {hasJL:true,title: "Bluff", jsx: <><div className="jumpList" id="
 <Row><Cell>20 Ranks</Cell><Cell>As a <strong className="hl">full-round action</strong>, you can make a <Link to="/spell/suggestion">suggestion</Link> (as the spell, maximum duration 1 hour) to a creature within 30 feet (Will negates, DC = 15 + your Charisma modifier). A creature that saves against your <em>suggestion</em> is immune to further uses of this effect for 24 hours, and whenever the suggested creature is specifically confronted with proof of your manipulation, it receives another saving throw. This is an extraordinary mind-affecting compulsion.</Cell></Row></Block>
 </>};
 const _climb = {hasJL:true,title: "Climb", jsx: <><div className="jumpList" id="skill-climb-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-climb-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-climb-climb">Climb</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 90</Link><br/><strong>Associated Skill:</strong> Strength<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> With a successful Climb check, you can advance up, down, or across a slope, wall, or other steep incline (or even across a ceiling, provided it has handholds) at one-quarter your normal speed. A slope is considered to be any incline at an angle measuring less than 60 degrees; a wall is any incline at an angle measuring 60 degrees or more.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 90</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Strength</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-climb-check">Check</h3>
+<p>With a successful Climb check, you can advance up, down, or across a slope, wall, or other steep incline (or even across a ceiling, provided it has handholds) at one-quarter your normal speed. A slope is considered to be any incline at an angle measuring less than 60 degrees; a wall is any incline at an angle measuring 60 degrees or more.</p>
 <p>A Climb check that fails by 4 or less means that you make no progress, and one that fails by 5 or more means that you fall from whatever height you have already attained.</p>
 <p>The DC of the check depends on the conditions of the climb. Compare the task with those on the following table to determine an appropriate DC.</p>
 <ScrollContainer id="skill-climb--table-0"><table>
@@ -469,29 +477,51 @@ const _climb = {hasJL:true,title: "Climb", jsx: <><div className="jumpList" id="
 <td>Surface is slippery.</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p>You need both hands free to climb, but you may cling to a wall with one hand while you cast a spell or take some other action that requires only one hand. While climbing, you can't move to avoid a blow, so you lose your Dexterity bonus to AC (if any). You also can't use a shield while climbing. Anytime you take damage while climbing, make a Climb check against the DC of the slope or wall. Failure means you fall from your current height and sustain the appropriate falling damage.</p>
-<p><em>Accelerated Climbing:</em> You try to climb more quickly than normal. By accepting a -5 penalty, you can move half your speed (instead of one-quarter your speed).</p>
-<p><em>Make Your Own Handholds and Footholds:</em> You can make your own handholds and footholds by pounding pitons into a wall. Doing so takes 1 minute per piton, and one piton is needed per 5 feet of distance. As with any surface that offers handholds and footholds, a wall with pitons in it has a DC of 15. In the same way, a climber with a handaxe or similar implement can cut handholds in an ice wall.</p>
-<p><em>Catch Yourself When Falling:</em> It's practically impossible to catch yourself on a wall while falling, yet if you wish to attempt such a difficult task, you can make a Climb check (DC = wall's DC + 20) to do so. It's much easier to catch yourself on a slope (DC = slope's DC + 10).</p>
-<p><em>Catch a Falling Character While Climbing:</em> If someone climbing above you or adjacent to you falls, you can attempt to catch the falling character if he or she is within your reach. Doing so requires a successful melee touch attack against the falling character (though he or she can voluntarily forego any Dexterity bonus to AC if desired). If you hit, you must immediately attempt a Climb check (DC = wall's DC + 10). Success indicates that you catch the falling character, but his total weight, including equipment, cannot exceed your heavy load limit or you automatically fall. If you fail your Climb check by 4 or less, you fail to stop the character's fall but don't lose your grip on the wall. If you fail by 5 or more, you fail to stop the character's fall and begin falling as well.</p>
-<p><strong>Action:</strong> Climbing is part of movement, so it's generally part of a move action (and may be combined with other types of movement in a move action). Each move action that includes any climbing requires a separate Climb check. Catching yourself or another falling character doesn't take an action.</p>
-<p><strong>Special:</strong> You can use a rope to haul a character upward (or lower a character) through sheer strength. You can lift double your maximum load in this manner.</p>
-<p>A creature with a climb speed has a +8 racial bonus on all Climb checks. The creature must make a Climb check to climb any wall or slope with a DC higher than 0, but it can always choose to take 10, even if rushed or threatened while climbing. If a creature with a climb speed chooses an accelerated climb, it moves at double its climb speed (or at its land speed, whichever is slower) and makes a single Climb check at a -5 penalty. Such a creature retains its Dexterity bonus to Armor Class (if any) while climbing, and opponents get no special bonus to their attacks against it. It cannot, however, use the run action while climbing.</p>
+<p>You need both hands free to climb, but you may cling to a wall with one hand while you cast a spell or take some other action that requires only one hand. While climbing, you can't move to avoid a blow, so you lose your Dexterity bonus to AC (if any). You also can't use a shield while climbing.</p>
+<p>Anytime you take damage while climbing, make a Climb check against the DC of the slope or wall. Failure means you fall from your current height and sustain the appropriate <Link to="/rule/falling">falling</Link> damage.</p>
+<h4 id="skill-climb-accelerated-climbing">Accelerated Climbing</h4>
+<p>You try to climb more quickly than normal. By accepting a -5 penalty, you can move half your speed (instead of one-quarter your speed).</p>
+<h4 id="skill-climb-make-your-own-handholds-and-footholds">Make Your Own Handholds and Footholds</h4>
+<p>You can make your own handholds and footholds by pounding <Link to="/eq-misc/piton">pitons</Link> into a wall. Doing so takes 1 minute per piton, and one piton is needed per 5 feet of distance. As with any surface that offers handholds and footholds, a wall with pitons in it has a DC of 15. In the same way, a climber with a <Link to="/eq-weapon/handaxe">handaxe</Link> or similar implement can cut handholds in an ice wall.</p>
+<h4 id="skill-climb-catch-yourself-when-falling">Catch Yourself When Falling</h4>
+<p>It's practically impossible to catch yourself on a wall while falling, yet if you wish to attempt such a difficult task, you can make a Climb check (DC = wall's DC + 20) to do so. It's much easier to catch yourself on a slope (DC = slope's DC + 10).</p>
+<h4 id="skill-climb-catch-a-falling-character-while-climbing">Catch a Falling Character While Climbing</h4>
+<p>If someone climbing above you or adjacent to you falls, you can attempt to catch the falling character if he or she is within your reach. Doing so requires a successful melee touch attack against the falling character (though he or she can voluntarily forego any Dexterity bonus to AC if desired). If you hit, you must immediately attempt a Climb check (DC = wall's DC + 10). Success indicates that you catch the falling character, but his total weight, including equipment, cannot exceed your <Link to="/rule/heavy_load">heavy load</Link> limit or you automatically fall. If you fail your Climb check by 4 or less, you fail to stop the character's fall but don't lose your grip on the wall. If you fail by 5 or more, you fail to stop the character's fall and begin falling as well.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-climb-action">Action</h3>
+<p>Climbing is part of movement, so it's generally part of a <strong className="hl">move action</strong> (and may be combined with other types of movement in a move action). Each move action that includes any climbing requires a separate Climb check. Catching yourself or another falling character doesn't take an action.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-climb-special">Special</h3>
+<p>You can use a <Link to="/eq-misc/rope">rope</Link> to haul a character upward (or lower a character) through sheer strength. You can lift double your maximum load in this manner.</p>
+<p>A creature with a climb speed has a +8 racial bonus on all Climb checks. The creature must make a Climb check to climb any wall or slope with a DC higher than 0, but it can always choose to take 10, even if rushed or threatened while climbing. If a creature with a climb speed chooses an <em>accelerated climb,</em> it moves at double its climb speed (or at its land speed, whichever is slower) and makes a single Climb check at a -5 penalty. Such a creature retains its Dexterity bonus to Armor Class (if any) while climbing, and opponents get no special bonus to their attacks against it. It cannot, however, use the <Link to="/rule/run">run</Link> action while climbing.</p>
 <p>If you have the <Link to="/feat/athletic">Athletic</Link> feat, you get a bonus on Climb checks.</p>
+</div>
 <h3 id="skill-climb-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 82</Link><br/>With sufficient ranks in Climb, you earn the following.</p>
-<p><strong>5 Ranks:</strong> You are no longer denied your Dexterity bonus when climbing.<br/><strong>10 Ranks:</strong> You gain a natural climb speed (but not the +8 racial bonus on Climb checks) of 10 feet, but only on surfaces with a Climb DC of 20 or lower.<br/><strong>15 Ranks:</strong> You gain a natural climb speed (but not the +8 racial bonus on Climb checks) equal to your base speed on surfaces with a Climb DC of 20 or lower, and of 10 feet on all other surfaces.<br/><strong>20 Ranks:</strong> You gain a natural climb speed equal to your base speed on all surfaces. If you have both hands free, you gain a +8 racial bonus on Climb checks.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>You are no longer denied your Dexterity bonus when climbing.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>You gain a natural climb speed (but not the +8 racial bonus on Climb checks) of 10 feet, but only on surfaces with a Climb DC of 20 or lower.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>You gain a natural climb speed (but not the +8 racial bonus on Climb checks) equal to your base speed on surfaces with a Climb DC of 20 or lower, and of 10 feet on all other surfaces.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You gain a natural climb speed equal to your base speed on all surfaces. If you have both hands free, you gain a +8 racial bonus on Climb checks.</Cell></Row></Block>
 </>};
-const _craft_any = {hasJL:true,title: "Craft (any)", jsx: <><div className="jumpList" id="skill-craft_any-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-craft_any-crafting-antivenom">Crafting Antivenom</InnerLink></li><li><InnerLink toTop to="skill-craft_any-preserving-harvested-poison">Preserving Harvested Poison</InnerLink></li><li><InnerLink toTop to="skill-craft_any-salvaging">Salvaging</InnerLink></li><li><InnerLink toTop to="skill-craft_any-technology">Technology</InnerLink></li><li><InnerLink toTop to="skill-craft_any-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-craft_any-craft-any">Craft (any)</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 91</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> Yes</p>
-<p>You are skilled in the creation of a specific group of items, such as armor or weapons. Like Knowledge, Perform, and Profession, Craft is actually a number of separate skills. You could have several Craft skills, each with its own ranks. The most common Craft skills are alchemy, armor, baskets, books, bows, calligraphy, carpentry, cloth, clothing, firearms, glass, jewelry, leather, locks, paintings, pottery, sculptures, ships, shoes, siege engines, stonemasonry, traps, and weapons.</p>
+const _craft_any = {hasJL:true,title: "Craft (any)", jsx: <><div className="jumpList" id="skill-craft_any-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-craft_any-technology">Technology</InnerLink></li><li><InnerLink toTop to="skill-craft_any-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-craft_any-craft-any">Craft (any)</h2>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 91</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
+<p>You are skilled in the creation of a specific group of items, such as armor or weapons. Like <Link to="/skill/knowledge">Knowledge</Link>, <Link to="/skill/perform">Perform</Link>, and <Link to="/skill/profession">Profession</Link>, Craft is actually a number of separate skills. You could have several Craft skills, each with its own ranks. The most common Craft skills are alchemy, armor, baskets, books, bows, calligraphy, carpentry, cloth, clothing, firearms, glass, jewelry, leather, locks, paintings, pottery, sculptures, ships, shoes, siege engines, stonemasonry, traps, and weapons.</p>
 <p>A Craft skill is specifically focused on creating something. If nothing is created by the endeavor, it probably falls under the heading of a Profession skill.</p>
-<p><strong>Check:</strong> You can practice your trade and make a decent living, earning half your check result in gold pieces per week of dedicated work. You know how to use the tools of your trade, how to perform the craft's daily tasks, how to supervise untrained helpers, and how to handle common problems. (Untrained laborers and assistants earn an average of 1 silver piece per day.)</p>
+<div className="semiheaderGroup"><h3 id="skill-craft_any-check">Check</h3>
+<p>You can practice your trade and make a decent living, earning half your check result in gold pieces per week of dedicated work. You know how to use the tools of your trade, how to perform the craft's daily tasks, how to supervise untrained helpers, and how to handle common problems. (Untrained laborers and assistants earn an average of 1 silver piece per day.)</p>
 <p>The basic function of the Craft skill, however, is to allow you to make an item of the appropriate type. The DC depends on the complexity of the item to be created. The DC, your check result, and the price of the item determine how long it takes to make a particular item. The item's finished price also determines the cost of raw materials.</p>
 <p>In some cases, the <Link to="/spell/fabricate">fabricate</Link> spell can be used to achieve the results of a Craft check with no actual check involved. You must still make an appropriate Craft check when using the spell to make articles requiring a high degree of craftsmanship.</p>
 <p>A successful Craft check related to woodworking in conjunction with the casting of the <Link to="/spell/ironwood">ironwood</Link> spell enables you to make wooden items that have the strength of steel.</p>
 <p>When casting the spell <Link to="/spell/minor_creation">minor creation</Link>, you must succeed on an appropriate Craft check to make a complex item.</p>
-<p>All crafts require artisan's tools to give the best chance of success. If improvised tools are used, the check is made with a -2 penalty. On the other hand, masterwork artisan's tools provide a +2 circumstance bonus on the check.</p>
+<p>All crafts require <Link to="/eq-misc/artisans_tools">artisan's tools</Link> to give the best chance of success. If improvised tools are used, the check is made with a -2 penalty. On the other hand, <Link to="/eq-misc/masterwork_artisans_tools">masterwork artisan's tools</Link> provide a +2 circumstance bonus on the check.</p>
 <p>To determine how much time and money it takes to make an item, follow these steps.</p>
 <ol>
 <li>Find the item's price in silver pieces (1 gp = 10 sp).</li>
@@ -500,9 +530,13 @@ const _craft_any = {hasJL:true,title: "Craft (any)", jsx: <><div className="jump
 <li>Make an appropriate Craft check representing one week's worth of work. If the check succeeds, multiply your check result by the DC. If the result &times; the DC equals the price of the item in sp, then you have completed the item. (If the result &times; the DC equals double or triple the price of the item in silver pieces, then you've completed the task in one-half or one-third of the time. Other multiples of the DC reduce the time in the same manner.) If the result &times; the DC doesn't equal the price, then it represents the progress you've made this week. Record the result and make a new Craft check for the next week. Each week, you make more progress until your total reaches the price of the item in silver pieces.</li>
 </ol>
 <p>If you fail a check by 4 or less, you make no progress this week. If you fail by 5 or more, you ruin half the raw materials and have to pay half the original raw material cost again.</p>
-<p><em>Progress by the Day:</em> You can make checks by the day instead of by the week. In this case your progress (check result &times; DC) should be divided by the number of days in a week.</p>
-<p><em>Create Masterwork Items:</em> You can make a masterwork item: a weapon, suit of armor, shield, or tool that conveys a bonus on its use through its exceptional craftsmanship. To create a masterwork item, you create the masterwork component as if it were a separate item in addition to the standard item. The masterwork component has its own price (300 gp for a weapon or 150 gp for a suit of armor or a shield, see Equipment for the price of other masterwork tools) and a Craft DC of 20. Once both the standard component and the masterwork component are completed, the masterwork item is finished. The cost you pay for the masterwork component is one-third of the given amount, just as it is for the cost in raw materials.</p>
-<p><em>Repair Items:</em> You can repair an item by making checks against the same DC that it took to make the item in the first place. The cost of repairing an item is one-fifth of the item's price.</p>
+<h4 id="skill-craft_any-progress-by-the-day">Progress by the Day</h4>
+<p>You can make checks by the day instead of by the week. In this case your progress (check result &times; DC) should be divided by the number of days in a week.</p>
+<h4 id="skill-craft_any-create-masterwork-items">Create Masterwork Items</h4>
+<p>You can make a masterwork item: a <Link to="/rule/mwk_weapon">weapon</Link>, suit of <Link to="/rule/mwk_armor">armor</Link>, shield, or <Link to="/eq-misc/masterwork_tool">tool</Link> that conveys a bonus on its use through its exceptional craftsmanship. To create a masterwork item, you create the masterwork component as if it were a separate item in addition to the standard item. The masterwork component has its own price (300 gp for a weapon or 150 gp for a suit of armor or a shield, see <Link to="/main/equipment">Equipment</Link> for the price of other masterwork tools) and a Craft DC of 20. Once both the standard component and the masterwork component are completed, the masterwork item is finished. The cost you pay for the masterwork component is one-third of the given amount, just as it is for the cost in raw materials.</p>
+<h4 id="skill-craft_any-repair-items">Repair Items</h4>
+<p>You can repair an item by making checks against the same DC that it took to make the item in the first place. The cost of repairing an item is one-fifth of the item's price.</p>
+</div>
 <h3 id="skill-craft_any-table-4-4-craft-skills">Table 4-4: Craft Skills</h3>
 <ScrollContainer id="skill-craft_any--table-0"><table>
 <thead>
@@ -639,39 +673,40 @@ const _craft_any = {hasJL:true,title: "Craft (any)", jsx: <><div className="jump
 </tr>
 </tbody></table></ScrollContainer>
 <p><Link to="/rule/traps">Traps</Link> have their own rules for construction.</p>
-<p><strong>Action:</strong> Does not apply. Craft checks are made by the day or week.</p>
-<p><strong>Try Again:</strong> Yes, but each time you fail by 5 or more, you ruin half the raw materials and have to pay half the original raw material cost again.</p>
-<p><strong>Special:</strong> You may voluntarily add +10 to the indicated DC to craft an item. This allows you to create the item more quickly (since you'll be multiplying this higher DC by your Craft check result to determine progress). You must decide whether to increase the DC before you make each weekly or daily check.</p>
+<div className="semiheaderGroup"><h3 id="skill-craft_any-action">Action</h3>
+<p>Does not apply. Craft checks are made by the day or week.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-craft_any-try-again">Try Again</h3>
+<p>Yes, but each time you fail by 5 or more, you ruin half the raw materials and have to pay half the original raw material cost again.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-craft_any-special">Special</h3>
+<p>You may voluntarily add +10 to the indicated DC to craft an item. This allows you to create the item more quickly (since you'll be multiplying this higher DC by your Craft check result to determine progress). You must decide whether to increase the DC before you make each weekly or daily check.</p>
 <p>To make an item using Craft (alchemy), you must have alchemical equipment. If you are working in a city, you can buy what you need as part of the raw materials cost to make the item, but alchemical equipment is difficult or impossible to come by in some places. Purchasing and maintaining an alchemist's lab grants a +2 circumstance bonus on Craft (alchemy) checks because you have the perfect tools for the job, but it does not affect the cost of any items made using the skill.</p>
 <p>A gnome receives a +2 bonus on a Craft or Profession skill of her choice.</p>
-<h3 id="skill-craft_any-crafting-antivenom" data-hash-target>Crafting Antivenom</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 143</Link></p>
-<p>While <Link to="/eq-misc/antitoxin">antitoxin</Link> presents a generalized tool for protecting oneself from poison, more specialized antivenoms can provide even greater protection against specific poisons. Creating a dose of antivenom requires a dose of the specific poison that the antivenom is designed to protect against.</p>
-<p><strong>Antivenom Effects:</strong> A single dose of antivenom automatically neutralizes the first exposure of the specific poison it is made to combat and provides a +8 alchemical bonus on saving throws against additional exposure to that specific poison; this bonus decreases by 1 every hour, until the effect ends after 8 hours.</p>
-<p><strong>Crafting Antivenom:</strong> To create a dose of antivenom, a living creature must first be exposed to a half dose of the poison in question. The creature suffers the poison's effects normally, except the saving throw DC to resist the poison is reduced by 2. In order to be able to produce antivenom, the creature must succeed at the necessary saving throws to be cured of the poison. If the poison's duration expires without the creature being cured, no antivenom can be harvested.</p>
-<p>Once the creature has resisted the poison's effects, a viable sample of the creature's blood can be extracted with a successful DC 20 Craft (alchemy) or Heal check. This blood must then be refined to extract the natural antibodies that combat the poison in a process that takes 1 hour and requires a successful Craft (alchemy) check (DC = 5 + the poison's saving throw DC). Success yields 1 dose of antivenom.</p>
-<p>Antivenom can also be harvested in the same fashion from a creature that has been afflicted by a full dose of poison, rather than a creature deliberately given a half dose for this purpose. Regardless of how much poison the creature is exposed to, the antibodies in its system can be harvested only for 24 hours after it has recovered from the poison.</p>
-<p><strong>Purchasing Antivenom:</strong> Antivenom is not particularly expensive, but because it is highly specialized, it can be difficult to find. A dose of antivenom has a market price equal to half the market price of a dose of the poison in question, but it is treated as though its price were five times the market price of the poison for the purposes of determining its availability in any given settlement. Alternatively, if 1 or more doses of the poison in question can be provided, most alchemists will supply as much antivenom as they can produce from the doses for a fee of 10% of the market price of the poison.</p>
-<h3 id="skill-craft_any-preserving-harvested-poison" data-hash-target>Preserving Harvested Poison</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 143</Link></p>
-<p>Poison harvested from a creature or hazard remains potent for 24 hours. If a character wishes to preserve harvested poison for a longer period, she must treat it alchemically, as if crafting the poison with Craft (alchemy) but using the poison dose as the raw ingredients normally needed to brew a dose of the poison and thus avoiding the gp cost to craft the poison.</p>
-<h3 id="skill-craft_any-salvaging" data-hash-target>Salvaging</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 134</Link></p>
-<p>Foraging is one way to gather resources in the wild, but you can also recycle or repurpose items and gear as well, salvaging materials from items you no longer need or are willing to sacrifice. You can't salvage materials from artifacts, cursed items, or items you can't destroy. Successfully salvaging an item requires a Craft or Spellcraft check and takes an amount of time as indicated in the specific type of salvage operation below.</p>
-<p><strong>Ammunition:</strong> You can use destroyed ammunition as raw materials for new ammunition. Five pieces of destroyed ammunition provide suitable material to create one new piece of ammunition using the normal crafting rules.</p>
-<p><strong>Potions:</strong> If you have the <Link to="/feat/brew_potion">Brew Potion</Link> feat, you can combine natural catalysts with a potion to salvage it and create a different potion of a lower spell level. Salvaging a potion requires raw magic item materials (these can be salvaged from existing items, as detailed below). To salvage a potion, you must spend 1 hour per spell level of the original potion and then attempt a Craft (alchemy) or Spellcraft check with a DC equal to 15 + 3 &times; the original potion's spell level. If you succeed, you transmute the original potion into a new potion of a spell at least one spell level lower, provided you know the spell in question (it need not be one you can currently cast). If you fail this check by 4 or less, the attempt fails and the catalyst is wasted, but the potion is unharmed. If you fail by 5 or more, the raw materials are lost and the original potion is ruined.</p>
-<p><strong>Raw Crafting Materials:</strong> Anyone trained in the Craft skill can salvage raw materials from equipment for use in crafting or repair. You must carefully dismantle the item to be salvaged, resulting in the item's destruction. If the item's price is 1 gp or less, its materials can be salvaged with only 1 hour of work; otherwise it takes 8 hours to salvage crafting materials. A successful Craft check against the item's creation DC + 5 yields raw materials worth one-quarter the item's price. If you fail the Craft check by 4 or less, the item is destroyed but the materials can still be salvaged in a future attempt. If you fail the Craft check by 5 or more, the item is destroyed and the materials are ruined. Salvaged raw materials can be used to create or repair any item of the same materials and reduces the construction time by the proportion of the new item's raw materials that are salvaged (minimum 8 hours).</p>
-<p><strong>Raw Magic Item Materials:</strong> Anyone with an item creation feat can salvage the raw materials from magic items for the creation of new ones or repair of existing ones. You must have the item creation feat required for that item to salvage its raw materials. Each attempt requires destroying a magic item and 8 hours of work. If the item's price is 500 gp or less, you can salvage its materials in only 2 hours. A successful Craft or Spellcraft check with a DC equal to 10 + the item's caster level yields raw materials worth two-thirds the creation cost of the destroyed item (one-third the market price). If you fail the skill check by 4 or less, the item is destroyed but the materials can still be salvaged in a future attempt. If you fail the skill check by 5 or more, the item is destroyed and the materials are ruined. Salvaged raw materials can be used to create or repair any item made of similar materials or that shares any of the creation requirements as the original. Including the majority of the materials allows you to automatically meet any construction requirements of a new item that the salvaged item also required and reduces the construction or repair time by the proportion of the new item's construction materials that are salvaged (with the usual minimum creation time). Spellbooks and formula books can be salvaged for magic inks and paper usable in formula books, scrolls, and spellbooks.</p>
+<p>Craft is also used in the <Link to="/rule/harvesting_poisons">harvesting poison</Link> rules (to preserve harvested poison and create antivenoms) and the <Link to="/rule/salvaging">salvaging</Link> rules.</p>
+</div>
 <h3 id="skill-craft_any-technology" data-hash-target>Technology</h3>
 <p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link></p>
-<p>Those who wish to construct or repair technological items use the Craft (mechanical) skill in conjunction with the technological item crafting feats. Without the <Link to="/feat/technologist">Technologist</Link> feat, Craft (mechanical) can still be used to craft less advanced forms of technology such as gears, hinges, and pulleys. Note that in the campaign setting, NPCs with the means of crafting technological items are extremely rare, and it is not assumed that PCs have access to such resources. GMs are encouraged to discuss such considerations with their players before allowing technological crafting into the game.</p>
+<p>Those who wish to construct or repair <Link to="/rule/technological_equipment">technological equipment</Link> use the Craft (mechanical) skill in conjunction with the technological item crafting feats. Without the <Link to="/feat/technologist">Technologist</Link> feat, Craft (mechanical) can still be used to craft less advanced forms of technology such as gears, hinges, and pulleys. Note that in the campaign setting, NPCs with the means of crafting technological items are extremely rare, and it is not assumed that PCs have access to such resources. GMs are encouraged to discuss such considerations with their players before allowing technological crafting into the game.</p>
 <h3 id="skill-craft_any-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 83</Link><br/>With sufficient ranks in Craft, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When determining your weekly progress, double the result of your Craft check before multiplying the result by the item's DC.<br/><strong>10 Ranks:</strong> You do not ruin any of your raw materials unless you fail a check by 10 or more.<br/><strong>15 Ranks:</strong> When you determine your progress, the result of your check is how much work you complete each day in silver pieces.<br/><strong>20 Ranks:</strong> You can craft magic armor, magic weapons, magic rings, and wondrous items that fall under your category of Craft using the normal Craft rules.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>When determining your weekly progress, double the result of your Craft check before multiplying the result by the item's DC.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>You do not ruin any of your raw materials unless you fail a check by 10 or more.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>When you determine your progress, the result of your check is how much work you complete each day in silver pieces.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You can craft magic armor, magic weapons, magic rings, and wondrous items that fall under your category of Craft using the normal Craft rules.</Cell></Row></Block>
 </>};
-const _diplomacy = {hasJL:true,title: "Diplomacy", jsx: <><div className="jumpList" id="skill-diplomacy-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-diplomacy-gather-information">Gather Information</InnerLink></li><li><InnerLink toTop to="skill-diplomacy-calling-for-the-guards">Calling for the Guards</InnerLink></li><li><InnerLink toTop to="skill-diplomacy-directing-crowds">Directing Crowds</InnerLink></li><li><InnerLink toTop to="skill-diplomacy-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-diplomacy-hypnotism">Hypnotism</InnerLink></li><li><InnerLink toTop to="skill-diplomacy-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-diplomacy-diplomacy">Diplomacy</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 93</Link><br/><strong>Associated Skill:</strong> Charisma<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> You can change the initial attitudes of non-player characters with a successful check. The DC of this check depends on the creature's starting attitude toward you, adjusted by its Charisma modifier. If you succeed, the character's attitude toward you is improved by one step. For every 5 by which your check result exceeds the DC, the character's attitude toward you increases by one additional step. A creature's attitude cannot be shifted more than two steps up in this way, although the GM can override this rule in some situations. If you fail the check by 4 or less, the character's attitude toward you is unchanged. If you fail by 5 or more, the character's attitude toward you is decreased by one step.</p>
+const _diplomacy = {hasJL:true,title: "Diplomacy", jsx: <><div className="jumpList" id="skill-diplomacy-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-diplomacy-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-diplomacy-hypnotism">Hypnotism</InnerLink></li><li><InnerLink toTop to="skill-diplomacy-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-diplomacy-diplomacy">Diplomacy</h2>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 93</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Charisma</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-diplomacy-check">Check</h3>
+<p>You can change the initial attitudes of non-player characters with a successful check. The DC of this check depends on the creature's starting attitude toward you, adjusted by its Charisma modifier. If you succeed, the character's attitude toward you is improved by one step. For every 5 by which your check result exceeds the DC, the character's attitude toward you increases by one additional step. A creature's attitude cannot be shifted more than two steps up in this way, although the GM can override this rule in some situations. If you fail the check by 4 or less, the character's attitude toward you is unchanged. If you fail by 5 or more, the character's attitude toward you is decreased by one step.</p>
 <p>You cannot use Diplomacy against a creature that does not understand you or has an Intelligence of 3 or less. Diplomacy is generally ineffective in combat and against creatures that intend to harm you or your allies in the immediate future. Any attitude shift caused through Diplomacy generally lasts for 1d4 hours but can last much longer or shorter depending upon the situation (GM discretion).</p>
 <ScrollContainer id="skill-diplomacy--table-0"><table>
 <thead>
@@ -746,37 +781,68 @@ const _diplomacy = {hasJL:true,title: "Diplomacy", jsx: <><div className="jumpLi
 <td>+5 per request</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Using Diplomacy to influence a creature's attitude takes 1 minute of continuous interaction. Making a request of a creature takes 1 or more rounds of interaction, depending upon the complexity of the request.</p>
-<p><strong>Try Again:</strong> You cannot use Diplomacy to influence a given creature's attitude more than once in a 24-hour period. If a request is refused, the result does not change with additional checks, although other requests might be made.</p>
-<p><strong>Special:</strong> If you have the <Link to="/feat/persuasive">Persuasive</Link> feat, you gain a bonus on Diplomacy checks.</p>
-<h3 id="skill-diplomacy-gather-information" data-hash-target>Gather Information</h3>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-diplomacy-action">Action</h3>
+<p>Using Diplomacy to influence a creature's attitude takes 1 minute of continuous interaction. Making a request of a creature takes 1 or more rounds of interaction, depending upon the complexity of the request.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-diplomacy-try-again">Try Again</h3>
+<p>You cannot use Diplomacy to influence a given creature's attitude more than once in a 24-hour period. If a request is refused, the result does not change with additional checks, although other requests might be made.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-diplomacy-special">Special</h3>
+<p>If you have the <Link to="/feat/persuasive">Persuasive</Link> feat, you gain a bonus on Diplomacy checks.</p>
+</div>
+<div className="semiheaderGroup"><h4 id="skill-diplomacy-gather-information">Gather Information</h4>
 <p>You can also use Diplomacy to gather information about a specific topic or individual. To do this, you must spend at least 1d4 hours canvassing people at local taverns, markets, and gathering places. The DC of this check depends on the obscurity of the information sought, but for most commonly known facts or rumors it is 10. For obscure or secret knowledge, the DC might increase to 20 or higher. The GM might rule that some topics are simply unknown to common folk.</p>
-<p><strong>Action:</strong> Using Diplomacy to gather information takes 1d4 hours of work searching for rumors and informants.</p>
-<p><strong>Try Again:</strong> You can retry Diplomacy checks made to gather information.</p>
-<h3 id="skill-diplomacy-calling-for-the-guards" data-hash-target>Calling for the Guards</h3>
+<h3 id="skill-diplomacy-action">Action</h3>
+<p>Using Diplomacy to gather information takes 1d4 hours of work searching for rumors and informants.</p>
+<h3 id="skill-diplomacy-try-again">Try Again</h3>
+<p>You can retry Diplomacy checks made to gather information.</p>
+</div>
+<div className="semiheaderGroup"><h4 id="skill-diplomacy-calling-for-the-guards">Calling for the Guards</h4>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 204</Link></p>
 <p>It's inevitable - sooner or later, the PCs will want to call upon the town guard or cause a situation where citizens do so instead. Calling for the guard requires a Diplomacy check modified by the settlement's law modifier. It's only a DC 5 check to call for the guard; with a success, the guards generally arrive on the scene in 1d6 minutes. Every 5 points by which the Diplomacy check exceeds DC 5 (rounding down) reduces the arrival time by 1 minute; if this reduces their arrival time below 1 minute, the increments of reduction instead change to 1 round. For example, Ezren is being mugged by thugs and calls for the guard. The result of his Diplomacy check is a 23, and the GM rolls a 2 on 1d6 to determine how long it'll be before the guards arrive. Since Ezren rolled three times the amount he needed, the 2-minute wait time is reduced to 8 rounds.</p>
-<h3 id="skill-diplomacy-directing-crowds" data-hash-target>Directing Crowds</h3>
+<h4 id="skill-diplomacy-directing-crowds">Directing Crowds</h4>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 436</Link></p>
-<p>It takes a DC 15 Diplomacy check or DC 20 Intimidate check to convince a crowd to move in a particular direction, and the crowd must be able to hear or see the character making the attempt. It takes a full-round action to make the Diplomacy check, but only a free action to make the Intimidate check.</p>
+<p>It takes a DC 15 Diplomacy check or DC 20 <Link to="/skill/intimidate">Intimidate</Link> check to convince a crowd to move in a particular direction, and the crowd must be able to hear or see the character making the attempt. It takes a <strong className="hl">full-round action</strong> to make the Diplomacy check, but only a <strong className="hl">free action</strong> to make the Intimidate check.</p>
+</div>
 <h3 id="skill-diplomacy-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
 <p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.</p>
 <h4 id="skill-diplomacy-hypnotism" data-hash-target>Hypnotism</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 195</Link></p>
 <p>You use the power of suggestion and subtle psychic influence to alter a subject's mind and dredge up repressed memories.</p>
-<p><strong>Check:</strong> You can use hypnotism once per day. The DC of a Diplomacy check to hypnotize is 20 + the subject's Will save modifier against mind-affecting enchantment (compulsion) effects. All uses of hypnotism are mind-affecting enchantment (compulsion) effects.</p>
-<p><em>Implant Suggestion:</em> You can implant a suggested course of reasonable action in the mind of a willing creature, along with a defined trigger. To implant a suggestion, you spend 1 minute inducing a trance-like state in the subject, after which you attempt a Diplomacy check. If the check is successful, you implant the course of action, as a <Link to="/spell/suggestion">suggestion</Link> spell with a duration of 10 minutes plus 10 additional minutes for every 1 by which your check result exceeds the DC. If the subject ceases to be willing, it can attempt a Will save once each round to shake off the effects. The save DC is equal to 10 + 1/2 your character level + your Charisma modifier. You can attempt to subtly implant a suggestion in the mind of an unwilling creature with an attitude of indifferent or better after 1 minute of continuous, calm interaction with that creature, but the DC is 10 higher.</p>
-<p><em>Recall Memory:</em> You can draw out forgotten memories from a willing subject. You spend 1 minute inducing a calming, trance-like state in the subject, after which you attempt a Diplomacy check. If you succeed at the check, the hypnotized creature can reroll any previously failed Intelligence or Knowledge check to recall the forgotten information with a +4 bonus. The information must be something the subject once knew or was exposed to.</p>
-<p><strong>Action:</strong> Hypnotism takes 1 minute of calm interaction.</p>
-<p><strong>Try Again:</strong> Yes. You can try to hypnotize the same creature more than once, but only once per day.</p>
+<div className="semiheaderGroup"><h3 id="skill-diplomacy-check">Check</h3>
+<p>You can use hypnotism once per day. The DC of a Diplomacy check to hypnotize is 20 + the subject's Will save modifier against mind-affecting enchantment (compulsion) effects. All uses of hypnotism are mind-affecting enchantment (compulsion) effects.</p>
+<h4 id="skill-diplomacy-implant-suggestion">Implant Suggestion</h4>
+<p>You can implant a suggested course of reasonable action in the mind of a willing creature, along with a defined trigger. To implant a suggestion, you spend 1 minute inducing a trance-like state in the subject, after which you attempt a Diplomacy check. If the check is successful, you implant the course of action, as a <Link to="/spell/suggestion">suggestion</Link> spell with a duration of 10 minutes plus 10 additional minutes for every 1 by which your check result exceeds the DC. If the subject ceases to be willing, it can attempt a Will save once each round to shake off the effects. The save DC is equal to 10 + 1/2 your character level + your Charisma modifier. You can attempt to subtly implant a suggestion in the mind of an unwilling creature with an attitude of indifferent or better after 1 minute of continuous, calm interaction with that creature, but the DC is 10 higher.</p>
+<h4 id="skill-diplomacy-recall-memory">Recall Memory</h4>
+<p>You can draw out forgotten memories from a willing subject. You spend 1 minute inducing a calming, trance-like state in the subject, after which you attempt a Diplomacy check. If you succeed at the check, the hypnotized creature can reroll any previously failed Intelligence or Knowledge check to recall the forgotten information with a +4 bonus. The information must be something the subject once knew or was exposed to.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-diplomacy-action">Action</h3>
+<p>Hypnotism takes 1 minute of calm interaction.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-diplomacy-try-again">Try Again</h3>
+<p>Yes. You can try to hypnotize the same creature more than once, but only once per day.</p>
+</div>
 <h3 id="skill-diplomacy-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 83</Link><br/>With sufficient ranks in Diplomacy, you earn the following.</p>
-<p><strong>5 Ranks:</strong> The time required to influence a creature's attitude or gather information is halved.<br/><strong>10 Ranks:</strong> You can attempt to adjust a creature's attitude in 1 round by taking a -10 penalty. If you take 1 minute to adjust a creature's attitude, add your Charisma bonus to the number of hours that attitude change persists.<br/><strong>15 Ranks:</strong> You can attempt to adjust a creature's attitude in 1 round with no penalty. If you take 1 minute to adjust a creature's attitude, the duration of the resulting change is measured in days, not hours. You can gather information in 10 minutes by taking a -5 penalty.<br/><strong>20 Ranks:</strong> You can attempt to adjust a creature's attitude in 1 round with no penalty. If you take 1 minute to adjust a creature's attitude, the duration of the resulting change is measured in weeks, not hours. You can gather information in 1d4 minutes with no penalty.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>The time required to influence a creature's attitude or gather information is halved.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>You can attempt to adjust a creature's attitude in 1 round by taking a -10 penalty. If you take 1 minute to adjust a creature's attitude, add your Charisma bonus to the number of hours that attitude change persists.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>You can attempt to adjust a creature's attitude in 1 round with no penalty. If you take 1 minute to adjust a creature's attitude, the duration of the resulting change is measured in days, not hours. You can gather information in 10 minutes by taking a -5 penalty.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You can attempt to adjust a creature's attitude in 1 round with no penalty. If you take 1 minute to adjust a creature's attitude, the duration of the resulting change is measured in weeks, not hours. You can gather information in 1d4 minutes with no penalty.</Cell></Row></Block>
 </>};
 const _disable_device = {hasJL:true,title: "Disable Device", jsx: <><div className="jumpList" id="skill-disable_device-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-disable_device-open-locks">Open Locks</InnerLink></li><li><InnerLink toTop to="skill-disable_device-technology">Technology</InnerLink></li><li><InnerLink toTop to="skill-disable_device-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-disable_device-disable-device">Disable Device</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 94</Link><br/><strong>Associated Skill:</strong> Dexterity<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> When disarming a trap or other device, the Disable Device check is made secretly, so that you don't necessarily know whether you've succeeded.</p>
-<p>The DC depends on how tricky the device is. If the check succeeds, you disable the device. If it fails by 4 or less, you have failed but can try again. If you fail by 5 or more, something goes wrong. If the device is a trap, you trigger it. If you're attempting some sort of sabotage, you think the device is disabled, but it still works normally.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 94</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Dexterity</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-disable_device-check">Check</h3>
+<p>When disarming a trap or other device, the Disable Device check is made secretly, so that you don't necessarily know whether you've succeeded.</p>
+<p>The DC depends on how tricky the device is. If the check succeeds, you disable the device. If it fails by 4 or less, you have failed but can try again. If you fail by 5 or more, something goes wrong. If the device is a <Link to="/rule/traps">trap</Link>, you trigger it. If you're attempting some sort of sabotage, you think the device is disabled, but it still works normally.</p>
 <p>You also can rig simple devices such as saddles or wagon wheels to work normally for a while and then fail or fall off some time later (usually after 1d4 rounds or minutes of use).</p>
 <ScrollContainer id="skill-disable_device--table-0"><table>
 <thead>
@@ -812,13 +878,22 @@ const _disable_device = {hasJL:true,title: "Disable Device", jsx: <><div classNa
 <td>Disarm a complex trap, cleverly sabotage a clockwork device</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> The amount of time needed to make a Disable Device check depends on the task, as noted above. Disabling a simple device takes 1 round and is a full-round action. A tricky or difficult device requires 1d4 or 2d4 rounds.</p>
-<p><strong>Try Again:</strong> You can retry checks made to disable traps if you miss the check by 4 or less.</p>
-<p><strong>Special:</strong> If you have the <Link to="/feat/deft_hands">Deft Hands</Link> feat, you get a bonus on Disable Device checks.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-disable_device-action">Action</h3>
+<p>The amount of time needed to make a Disable Device check depends on the task, as noted above. Disabling a simple device takes 1 round and is a <strong className="hl">full-round action</strong>. A tricky or difficult device requires 1d4 or 2d4 rounds.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-disable_device-try-again">Try Again</h3>
+<p>You can retry checks made to disable traps if you miss the check by 4 or less.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-disable_device-special">Special</h3>
+<p>If you have the <Link to="/feat/deft_hands">Deft Hands</Link> feat, you get a bonus on Disable Device checks.</p>
 <p>A rogue who beats a trap's DC by 10 or more can study the trap, figure out how it works, and bypass it without disarming it. A rogue can rig a trap so her allies can bypass it as well.</p>
-<p><strong>Restriction:</strong> Characters with the trapfinding ability (like rogues) can disarm magic traps. A magic trap generally has a DC of 25 + the level of the spell used to create it.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-disable_device-restriction">Restriction</h3>
+<p>Characters with the <em>trapfinding</em> ability (like rogues) can disarm magic traps. A magic trap generally has a DC of 25 + the level of the spell used to create it.</p>
 <p>The spells <Link to="/spell/fire_trap">fire trap</Link>, <Link to="/spell/glyph_of_warding">glyph of warding</Link>, <Link to="/spell/symbol_of_death">symbol of death</Link>, and <Link to="/spell/teleportation_circle">teleportation circle</Link> also create traps that a rogue can disarm with a successful Disable Device check. <Link to="/spell/spike_growth">Spike growth</Link> and <Link to="/spell/spike_stones">spike stones</Link>, however, create magic hazards against which Disable Device checks do not succeed. See the individual spell descriptions for details.</p>
 <p>If you attempt to leave behind no trace of your tampering, add 5 to the DC.</p>
+</div>
 <h3 id="skill-disable_device-open-locks" data-hash-target>Open Locks</h3>
 <p>The DC for opening a lock depends on its quality. If you do not have a set of thieves' tools, these DCs increase by 10.</p>
 <ScrollContainer id="skill-disable_device--table-1"><table>
@@ -845,23 +920,47 @@ const _disable_device = {hasJL:true,title: "Disable Device", jsx: <><div classNa
 <td>40</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Attempting to open a lock is a full-round action.</p>
-<p><strong>Try Again:</strong> You can retry checks made to open locks.</p>
+<div className="semiheaderGroup"><h3 id="skill-disable_device-action">Action</h3>
+<p>Attempting to open a lock is a <strong className="hl">full-round action</strong>.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-disable_device-try-again">Try Again</h3>
+<p>You can retry checks made to open locks.</p>
+</div>
 <h3 id="skill-disable_device-technology" data-hash-target>Technology</h3>
 <p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link></p>
 <p>With the <Link to="/feat/technologist">Technologist</Link> feat, you can use Disable Device to arm or disarm high-tech explosives or disable electronic triggers or locks. The Technologist feat is not required to disable a high-tech trap or object, but such traps and objects often have significantly higher DCs to disable than low-tech versions of a similar device would have.</p>
-<p><em>Arm Explosive:</em> If you possess a detonator, you can arm an explosive weapon as a trap. Connecting a detonator to an explosive requires a successful DC 10 Disable Device check. Failure means that the attempt fails, but you can attempt to arm the explosive again. Failure by 5 or more means the explosive is triggered as the detonator is installed. You can attempt to make an explosive difficult to disarm. To do so, choose a target disarm DC of 15 or higher, with a DC increment of 5. This becomes your target DC to set the explosive as well as the DC to disarm the explosive.</p>
-<p><em>Disable Electronic Lock or Trigger:</em> Disabling an electronic lock on a door or an electronic trigger for a trap (not the trap itself) is easier if you use an e-pick-without an e-pick, you take a -5 penalty on such checks.</p>
-<p><em>Disarm Explosive:</em> Disarming an explosive requires the character to succeed at a Disable Device check as if disarming a trap. The DC is usually 10, unless the person who set the explosive successfully did so with a higher disarm DC. A failure to disarm an explosive by 5 or more immediately triggers the explosive.</p>
-<p><strong>Special:</strong> A character can take 10 when using Disable Device to arm or disarm explosives, but cannot take 20.</p>
-<p><strong>Time:</strong> Arming an explosive device takes 1 minute or more, depending on the scope of the job. Disarming an explosive is treated as if the explosive were a complex trap, and takes 2d4 rounds to attempt.</p>
+<div className="semiheaderGroup"><h4 id="skill-disable_device-arm-explosive">Arm Explosive</h4>
+<p>If you possess a <Link to="/tech-misc/detonator">detonator</Link>, you can arm an explosive weapon as a trap. Connecting a detonator to an explosive requires a successful DC 10 Disable Device check. Failure means that the attempt fails, but you can attempt to arm the explosive again. Failure by 5 or more means the explosive is triggered as the detonator is installed. You can attempt to make an explosive difficult to disarm. To do so, choose a target disarm DC of 15 or higher, with a DC increment of 5. This becomes your target DC to set the explosive as well as the DC to disarm the explosive.</p>
+<h4 id="skill-disable_device-disable-electronic-lock-or-trigger">Disable Electronic Lock or Trigger</h4>
+<p>Disabling an electronic lock on a door or an electronic trigger for a trap (not the trap itself) is easier if you use an <Link to="/tech-misc/e_pick">e-pick</Link> - without an e-pick, you take a -5 penalty on such checks.</p>
+<h4 id="skill-disable_device-disarm-explosive">Disarm Explosive</h4>
+<p>Disarming an explosive requires the character to succeed at a Disable Device check as if disarming a trap. The DC is usually 10, unless the person who set the explosive successfully did so with a higher disarm DC. A failure to disarm an explosive by 5 or more immediately triggers the explosive.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-disable_device-special">Special</h3>
+<p>A character can take 10 when using Disable Device to arm or disarm explosives, but cannot take 20.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-disable_device-action">Action</h3>
+<p>Arming an explosive device takes 1 minute or more, depending on the scope of the job. Disarming an explosive is treated as if the explosive were a complex trap, and takes 2d4 rounds to attempt.</p>
+</div>
 <h3 id="skill-disable_device-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 83</Link><br/>With sufficient ranks in Disable Device, you earn the following.</p>
-<p><strong>5 Ranks:</strong> Reduce the time required to disarm a trap or open a lock by taking a -5 penalty on your Disable Device check for each step by which you reduce the time required: 2d4 rounds, 1d4 rounds, 1 round, a standard action, a move action, a swift action.<br/><strong>10 Ranks:</strong> You can disarm magical traps at a -10 penalty even if you lack the trapfinding ability. If you possess the trapfinding ability, when attempting to disable magic traps, you never trigger them, even if you perform the trigger action (such as looking at a <Link to="/spell/symbol_of_death">symbol of death</Link>). If you fail the check, you can still trigger the trap, and you can't use this ability to bypass it.<br/><strong>15 Ranks:</strong> When attacked by a trap, you can attempt a Disable Device check as an immediate action (adding your <Link to="/ability/trap_sense">trap sense</Link> bonus, if any) opposed by the trap's attack roll or its save DC. If you succeed, you take half damage (or no damage if you exceed the DC by at least 10).<br/><strong>20 Ranks:</strong> You halve the penalties for performing a quick disarm as described in the 5 Ranks entry. If you possess the trapfinding ability and accept a -20 penalty while using the ability unlocked at 15 ranks, all nearby allies gain the benefit, and you disable the trap as an immediate action before it can trigger if you exceed the DC by at least 10.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>Reduce the time required to disarm a trap or open a lock by taking a -5 penalty on your Disable Device check for each step by which you reduce the time required: 2d4 rounds, 1d4 rounds, 1 round, a standard action, a move action, a swift action.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>You can disarm magical traps at a -10 penalty even if you lack the trapfinding ability. If you possess the trapfinding ability, when attempting to disable magic traps, you never trigger them, even if you perform the trigger action (such as looking at a <Link to="/spell/symbol_of_death">symbol of death</Link>). If you fail the check, you can still trigger the trap, and you can't use this ability to bypass it.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>When attacked by a trap, you can attempt a Disable Device check as an <strong className="hl">immediate action</strong> (adding your <Link to="/ability/trap_sense">trap sense</Link> bonus, if any) opposed by the trap's attack roll or its save DC. If you succeed, you take half damage (or no damage if you exceed the DC by at least 10).</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You halve the penalties for performing a quick disarm as described in the 5 Ranks entry. If you possess the trapfinding ability and accept a -20 penalty while using the ability unlocked at 15 ranks, all nearby allies gain the benefit, and you disable the trap as an <strong className="hl">immediate action</strong> before it can trigger if you exceed the DC by at least 10.</Cell></Row></Block>
 </>};
 const _disguise = {hasJL:true,title: "Disguise", jsx: <><div className="jumpList" id="skill-disguise-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-disguise-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-disguise-disguise">Disguise</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 95</Link><br/><strong>Associated Skill:</strong> Charisma<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> Your Disguise check result determines how good the disguise is, and it is opposed by others' Perception check results. If you don't draw any attention to yourself, others do not get to make Perception checks. If you come to the attention of people who are suspicious (such as a guard who is watching commoners walking through a city gate), it can be assumed that such observers are taking 10 on their Perception checks.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 95</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Charisma</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-disguise-check">Check</h3>
+<p>Your Disguise check result determines how good the disguise is, and it is opposed by others' <Link to="/skill/perception">Perception</Link> check results. If you don't draw any attention to yourself, others do not get to make Perception checks. If you come to the attention of people who are suspicious (such as a guard who is watching commoners walking through a city gate), it can be assumed that such observers are taking 10 on their Perception checks.</p>
 <p>You get only one Disguise check per use of the skill, even if several people make Perception checks against it. The Disguise check is made secretly, so that you can't be sure how good the result is.</p>
 <p>The effectiveness of your disguise depends on how much you're changing your appearance. Disguise can be used to make yourself appear like a creature that is one size category larger or smaller than your actual size. This does not change your actual size or reach, should you enter combat while wearing such a disguise.</p>
 <ScrollContainer id="skill-disguise--table-0"><table>
@@ -893,7 +992,7 @@ const _disguise = {hasJL:true,title: "Disguise", jsx: <><div className="jumpList
 </tr>
 </tbody></table></ScrollContainer>
 <p>These modifiers are cumulative; use all that apply.</p>
-<p>Age category steps are: young (younger than adulthood), adulthood, middle age, old, and venerable.</p>
+<p><Link to="/rule/age">Age</Link> category steps are: young (younger than adulthood), adulthood, middle age, old, and venerable.</p>
 <ScrollContainer id="skill-disguise--table-1"><table>
 <thead>
 <tr>
@@ -918,24 +1017,47 @@ const _disguise = {hasJL:true,title: "Disguise", jsx: <><div className="jumpList
 <td>+10</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p>If you are impersonating a particular individual, those who know what that person looks like get a bonus on their Perception checks according to the table below. Furthermore, they are automatically considered to be suspicious of you, so opposed checks are always called for.</p>
+<p>If you are impersonating a particular individual, those who know what that person looks like get a bonus on their Perception checks according to the table above. Furthermore, they are automatically considered to be suspicious of you, so opposed checks are always called for.</p>
 <p>An individual makes a Perception check to see through your disguise immediately upon meeting you and again every hour thereafter. If you casually meet a large number of different creatures, each for a short time, check once per day or hour, using an average Perception modifier for the group.</p>
-<p><strong>Action:</strong> Creating a disguise requires 1d3 &times; 10 minutes of work. Using magic (such as the <Link to="/spell/disguise_self">disguise self</Link> spell) reduces this action to the time required to cast the spell or trigger the effect.</p>
-<p><strong>Try Again:</strong> Yes. You may try to redo a failed disguise, but once others know that a disguise was attempted, they'll be more suspicious.</p>
-<p><strong>Special:</strong> Magic that alters your form, such as <Link to="/spell/alter_self">alter self</Link>, <em>disguise self,</em> <Link to="/spell/polymorph">polymorph</Link>, or <Link to="/spell/shapechange">shapechange</Link>, grants you a +10 bonus on Disguise checks (see the individual spell descriptions). Divination magic that allows people to see through illusions (such as true seeing) does not penetrate a mundane disguise, but it can negate the magical component of a magically enhanced one.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-disguise-action">Action</h3>
+<p>Creating a disguise requires 1d3 &times; 10 minutes of work. Using magic (such as the <Link to="/spell/disguise_self">disguise self</Link> spell) reduces this action to the time required to cast the spell or trigger the effect.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-disguise-try-again">Try Again</h3>
+<p>Yes. You may try to redo a failed disguise, but once others know that a disguise was attempted, they'll be more suspicious.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-disguise-special">Special</h3>
+<p>Magic that alters your form, such as <Link to="/spell/alter_self">alter self</Link>, <em>disguise self,</em> <Link to="/spell/polymorph">polymorph</Link>, or <Link to="/spell/shapechange">shapechange</Link>, grants you a +10 bonus on Disguise checks (see the individual spell descriptions). Divination magic that allows people to see through illusions (such as true seeing) does not penetrate a mundane disguise, but it can negate the magical component of a magically enhanced one.</p>
 <p>You must make a Disguise check when you cast a <Link to="/spell/simulacrum">simulacrum</Link> spell to determine how good the likeness is.</p>
 <p>If you have the <Link to="/feat/deceitful">Deceitful</Link> feat, you gain a bonus on Disguise checks.</p>
+</div>
 <h3 id="skill-disguise-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 83</Link><br/>With sufficient ranks in Disguise, you earn the following.</p>
-<p><strong>5 Ranks:</strong> You can create a disguise in 1d3 minutes.<br/><strong>10 Ranks:</strong> You can create a disguise in 1d3 rounds. If you take the full normal amount of time to create your disguise, you take no penalty for disguising your gender, race, or age category.<br/><strong>15 Ranks:</strong> You can create a disguise as a full-round action.<br/><strong>20 Ranks:</strong> You can create a disguise as a standard action, or as a full-round action combined with a Bluff check to create a diversion to hide.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>You can create a disguise in 1d3 minutes.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>You can create a disguise in 1d3 rounds. If you take the full normal amount of time to create your disguise, you take no penalty for disguising your gender, race, or age category.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>You can create a disguise as a <strong className="hl">full-round action</strong>.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You can create a disguise as a <strong className="hl">standard action</strong>, or as a full-round action combined with a Bluff check to create a diversion to hide.</Cell></Row></Block>
 </>};
 const _escape_artist = {hasJL:true,title: "Escape Artist", jsx: <><div className="jumpList" id="skill-escape_artist-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-escape_artist-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-escape_artist-escape-artist">Escape Artist</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 95</Link><br/><strong>Associated Skill:</strong> Dexterity<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> The table below gives the DCs needed to escape various forms of restraints.</p>
-<p><em>Ropes:</em> The DC of your Escape Artist check is equal to the binder's Combat Maneuver Bonus +20.</p>
-<p><em>Manacles and Masterwork Manacles:</em> The DC for manacles is set by their construction (see the table below).</p>
-<p><em>Tight Space:</em> The DC noted is for getting through a space through which your head fits but your shoulders don't. If the space is long, you may need to make multiple checks. You can't squeeze through a space that your head does not fit through.</p>
-<p><em>Grappler:</em> You can make an Escape Artist check in place of a combat maneuver check to escape a grapple or a pin.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 95</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Dexterity</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-escape_artist-check">Check</h3>
+<p>The table below gives the DCs needed to escape various forms of restraints.</p>
+<h4 id="skill-escape_artist-ropes">Ropes</h4>
+<p>The DC of your Escape Artist check is equal to the binder's Combat Maneuver Bonus +20.</p>
+<h4 id="skill-escape_artist-manacles-and-masterwork-manacles">Manacles and Masterwork Manacles</h4>
+<p>The DC for manacles is set by their construction (see the table below).</p>
+<h4 id="skill-escape_artist-tight-space">Tight Space</h4>
+<p>The DC noted is for getting through a space through which your head fits but your shoulders don't. If the space is long, you may need to make multiple checks. You can't squeeze through a space that your head does not fit through.</p>
+<h4 id="skill-escape_artist-grappler">Grappler</h4>
+<p>You can make an Escape Artist check in place of a combat maneuver check to escape a grapple or a pin.</p>
 <ScrollContainer id="skill-escape_artist--table-0"><table>
 <thead>
 <tr>
@@ -972,16 +1094,35 @@ const _escape_artist = {hasJL:true,title: "Escape Artist", jsx: <><div className
 <td>Grappler's CMD</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Making an Escape Artist check to escape from rope bindings, manacles, or other restraints (except a grappler) requires 1 minute of work. Escaping from a net or an <em>animate rope, command plants, control plants,</em> or <em>entangle</em> spell is a full-round action. Escaping from a grapple or pin is a standard action. Squeezing through a tight space takes at least 1 minute, maybe longer, depending on how long the space is.</p>
-<p><strong>Try Again:</strong> Varies. You can make another check after a failed check if you're squeezing your way through a tight space, making multiple checks. If the situation permits, you can make additional checks, or even take 20, as long as you're not being actively opposed. If the DC to escape from rope or bindings is higher than 20 + your Escape Artist skill bonus, you cannot escape from the bonds using Escape Artist.</p>
-<p><strong>Special:</strong> If you have the <Link to="/feat/stealthy">Stealthy</Link> feat, you gain a bonus on Escape Artist checks.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-escape_artist-action">Action</h3>
+<p>Making an Escape Artist check to escape from rope bindings, manacles, or other restraints (except a grappler) requires 1 minute of work. Escaping from a net or an <em>animate rope, command plants, control plants,</em> or <em>entangle</em> spell is a <strong className="hl">full-round action</strong>. Escaping from a grapple or pin is a <strong className="hl">standard action</strong>. Squeezing through a tight space takes at least 1 minute, maybe longer, depending on how long the space is.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-escape_artist-try-again">Try Again</h3>
+<p>Varies. You can make another check after a failed check if you're squeezing your way through a tight space, making multiple checks. If the situation permits, you can make additional checks, or even take 20, as long as you're not being actively opposed. If the DC to escape from rope or bindings is higher than 20 + your Escape Artist skill bonus, you cannot escape from the bonds using Escape Artist.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-escape_artist-special">Special</h3>
+<p>If you have the <Link to="/feat/stealthy">Stealthy</Link> feat, you gain a bonus on Escape Artist checks.</p>
+</div>
 <h3 id="skill-escape_artist-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 84</Link><br/>With sufficient ranks in Escape Artist, you earn the following.</p>
-<p><strong>5 Ranks:</strong> If you take a -10 penalty, the time required to use this skill is halved; escaping a grapple or pin is a move action, and escaping a net, <Link to="/spell/animate_rope">animate rope</Link>, <Link to="/spell/command_plants">command plants</Link>, or <Link to="/spell/control_plants">control plants</Link> spell is a standard action.<br/><strong>10 Ranks:</strong> You can attempt to escape from any entangling effect as a standard action with an Escape Artist check (DC = the effect's save DC + 10). You can attempt an Escape Artist check as a move action to set the DC for a creature to escape from ropes or bindings; you gain a +10 bonus on the check if you instead attempt it as a full-round action.<br/><strong>15 Ranks:</strong> You can escape any entangling effect (as above) as a move action. As a standard action, you can attempt an Escape Artist check (DC = the effect's save DC + 20) to suppress a slow or paralysis effect for 1 round, plus 1 round for every 5 by which you exceed the DC. This action counts as purely mental for the purpose of being able to take it while paralyzed.<br/><strong>20 Ranks:</strong> You can escape being entangled, grappled, or pinned as an immediate action with an Escape Artist check (DC = the effect's DC + 10 or the attacker's CMB + 10). You can attempt to suppress a slow or paralysis effect as a standard action (increasing the DC by 10), a move action (increasing the DC by 15), or an immediate action (increasing the DC by 20).</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>If you take a -10 penalty, the time required to use this skill is halved; escaping a grapple or pin is a <strong className="hl">move action</strong>, and escaping a net, <Link to="/spell/animate_rope">animate rope</Link>, <Link to="/spell/command_plants">command plants</Link>, or <Link to="/spell/control_plants">control plants</Link> spell is a <strong className="hl">standard action</strong>.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>You can attempt to escape from any entangling effect as a <strong className="hl">standard action</strong> with an Escape Artist check (DC = the effect's save DC + 10). You can attempt an Escape Artist check as a <strong className="hl">move action</strong> to set the DC for a creature to escape from ropes or bindings; you gain a +10 bonus on the check if you instead attempt it as a <strong className="hl">full-round action</strong>.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>You can escape any entangling effect (as above) as a <strong className="hl">move action</strong>. As a <strong className="hl">standard action</strong>, you can attempt an Escape Artist check (DC = the effect's save DC + 20) to suppress a slow or paralysis effect for 1 round, plus 1 round for every 5 by which you exceed the DC. This action counts as purely mental for the purpose of being able to take it while paralyzed.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You can escape being entangled, grappled, or pinned as an <strong className="hl">immediate action</strong> with an Escape Artist check (DC = the effect's DC + 10 or the attacker's CMB + 10). You can attempt to suppress a slow or paralysis effect as a <strong className="hl">standard action</strong> (increasing the DC by 10), a <strong className="hl">move action</strong> (increasing the DC by 15), or an <strong className="hl">immediate action</strong> (increasing the DC by 20).</Cell></Row></Block>
 </>};
 const _fly = {hasJL:true,title: "Fly", jsx: <><div className="jumpList" id="skill-fly-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-fly-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-fly-fly">Fly</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 96</Link><br/><strong>Associated Skill:</strong> Dexterity<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> You generally need only make a Fly check when you are attempting a complex maneuver. Without making a check, a flying creature can remain flying at the end of its turn so long as it moves a distance greater than half its speed. It can also turn up to 45 degrees by sacrificing 5 feet of movement, can rise at half speed at an angle of 45 degrees, and can descend at any angle at normal speed. Note that these restrictions only apply to movement taken during your current turn. At the beginning of the next turn, you can move in a different direction than you did the previous turn without making a check. Taking any action that violates these rules requires a Fly check. The difficulty of these maneuvers varies depending upon the maneuver you are attempting, as noted on the following chart.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 96</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Dexterity</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-fly-check">Check</h3>
+<p>You generally need only make a Fly check when you are attempting a complex maneuver. Without making a check, a flying creature can remain flying at the end of its turn so long as it moves a distance greater than half its speed. It can also turn up to 45 degrees by sacrificing 5 feet of movement, can rise at half speed at an angle of 45 degrees, and can descend at any angle at normal speed. Note that these restrictions only apply to movement taken during your current turn. At the beginning of the next turn, you can move in a different direction than you did the previous turn without making a check. Taking any action that violates these rules requires a Fly check. The difficulty of these maneuvers varies depending upon the maneuver you are attempting, as noted on the following chart.</p>
 <ScrollContainer id="skill-fly--table-0"><table>
 <thead>
 <tr>
@@ -1010,10 +1151,14 @@ const _fly = {hasJL:true,title: "Fly", jsx: <><div className="jumpList" id="skil
 <td>20</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><em>Attacked While Flying:</em> You are not considered flat-footed while flying. If you are flying using wings and you take damage while flying, you must make a DC 10 Fly check to avoid losing 10 feet of altitude. This descent does not provoke an attack of opportunity and does not count against a creature's movement.</p>
-<p><em>Collision While Flying:</em> If you are using wings to fly and you collide with an object equal to your size or larger, you must immediately make a DC 25 Fly check to avoid plummeting to the ground, taking the appropriate falling damage.</p>
-<p><em>Avoid Falling Damage:</em> If you are falling and have the ability to fly, you can make a DC 10 Fly check to negate the damage. You cannot make this check if you are falling due to a failed Fly check or a collision.</p>
-<p><em>High Wind Speeds:</em> Flying in high winds adds penalties on your Fly checks as noted on the table below. "Checked" means that creatures of that size or smaller must succeed on a DC 20 Fly check to move at all so long as the wind persists. "Blown away" means that creatures of that size or smaller must make a DC 25 Fly check or be blown back 2d6 &times; 10 feet and take 2d6 points of nonlethal damage. This check must be made every round the creature remains airborne. A creature that is blown away must still make a DC 20 Fly check to move due to also being checked.</p>
+<h4 id="skill-fly-attacked-while-flying">Attacked While Flying</h4>
+<p>You are not considered <Link to="/rule/flat_footed">flat-footed</Link> while flying. If you are flying using wings and you take damage while flying, you must make a DC 10 Fly check to avoid losing 10 feet of altitude. This descent does not provoke an attack of opportunity and does not count against a creature's movement.</p>
+<h4 id="skill-fly-collision-while-flying">Collision While Flying</h4>
+<p>If you are using wings to fly and you collide with an object equal to your size or larger, you must immediately make a DC 25 Fly check to avoid plummeting to the ground, taking the appropriate <Link to="/rule/falling">falling</Link> damage.</p>
+<h4 id="skill-fly-avoid-falling-damage">Avoid Falling Damage</h4>
+<p>If you are falling and have the ability to fly, you can make a DC 10 Fly check to negate the damage. You cannot make this check if you are falling due to a failed Fly check or a collision.</p>
+<h4 id="skill-fly-high-wind-speeds">High Wind Speeds</h4>
+<p>Flying in high winds adds penalties on your Fly checks as noted on the table below. "Checked" means that creatures of that size or smaller must succeed on a DC 20 Fly check to move at all so long as the wind persists. "Blown away" means that creatures of that size or smaller must make a DC 25 Fly check or be blown back 2d6 &times; 10 feet and take 2d6 points of nonlethal damage. This check must be made every round the creature remains airborne. A creature that is blown away must still make a DC 20 Fly check to move due to also being checked.</p>
 <ScrollContainer id="skill-fly--table-1"><table>
 <thead>
 <tr>
@@ -1074,20 +1219,39 @@ const _fly = {hasJL:true,title: "Fly", jsx: <><div className="jumpList" id="skil
 <td>-16</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> None. A Fly check doesn't require an action; it is made as part of another action or as a reaction to a situation.</p>
-<p><strong>Try Again:</strong> Varies. You can attempt a Fly check to perform the same maneuver on subsequent rounds. If you are using wings and you fail a Fly check by 5 or more, you plummet to the ground, taking the appropriate falling damage.</p>
-<p><strong>Special:</strong> A spellcaster with a bat familiar gains a +3 bonus on Fly checks.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-fly-action">Action</h3>
+<p>None. A Fly check doesn't require an action; it is made as part of another action or as a reaction to a situation.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-fly-try-again">Try Again</h3>
+<p>Varies. You can attempt a Fly check to perform the same maneuver on subsequent rounds. If you are using wings and you fail a Fly check by 5 or more, you plummet to the ground, taking the appropriate falling damage.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-fly-special">Special</h3>
+<p>A spellcaster with a <Link to="/monster/bat">bat</Link> familiar gains a +3 bonus on Fly checks.</p>
 <p>Creatures with a fly speed treat the Fly skill as a class skill. A creature with a natural fly speed receives a bonus (or penalty) on Fly skill checks depending on its maneuverability: Clumsy -8, Poor -4, Average +0, Good +4, Perfect +8. Creatures without a listed maneuverability rating are assumed to have average maneuverability.</p>
 <p>A creature larger or smaller than Medium takes a size bonus or penalty on Fly checks depending on its size category: Fine +8, Diminutive +6, Tiny +4, Small +2, Large -2, Huge -4, Gargantuan -6, Colossal -8.</p>
 <p>You cannot take ranks in this skill without a natural means of flight or gliding. Creatures can also take ranks in Fly if they possess a reliable means of flying every day (either through a spell or other special ability).</p>
 <p>If you have the <Link to="/feat/acrobatic">Acrobatic</Link> feat, you get a bonus on Fly checks.</p>
+</div>
 <h3 id="skill-fly-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 84</Link><br/>With sufficient ranks in Fly, you earn the following.</p>
-<p><strong>5 Ranks:</strong> A successful DC 20 Fly check allows you to make a 45-degree turn without sacrificing movement.<br/><strong>10 Ranks:</strong> A successful DC 30 Fly check allows you to ascend at a 45-degree angle at full speed. You treat falls after midair collisions as 10 feet shorter with a successful DC 10 Fly check, plus 10 feet for every 10 points by which you exceed the DC.<br/><strong>15 Ranks:</strong> A successful DC 30 Fly check allows you to make a 90-degree turn without sacrificing movement, or a 180-degree turn by sacrificing 5 feet of movement. You are considered one size category larger when determining wind effects on Fly checks.<br/><strong>20 Ranks:</strong> A successful DC 35 Fly check allows you to fly straight up at full speed. You are considered two size categories larger when determining wind effects on Fly checks.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>A successful DC 20 Fly check allows you to make a 45-degree turn without sacrificing movement.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>A successful DC 30 Fly check allows you to ascend at a 45-degree angle at full speed. You treat falls after midair collisions as 10 feet shorter with a successful DC 10 Fly check, plus 10 feet for every 10 points by which you exceed the DC.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>A successful DC 30 Fly check allows you to make a 90-degree turn without sacrificing movement, or a 180-degree turn by sacrificing 5 feet of movement. You are considered one size category larger when determining wind effects on Fly checks.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>A successful DC 35 Fly check allows you to fly straight up at full speed. You are considered two size categories larger when determining wind effects on Fly checks.</Cell></Row></Block>
 </>};
 const _handle_animal = {hasJL:true,title: "Handle Animal", jsx: <><div className="jumpList" id="skill-handle_animal-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-handle_animal-handle-an-animal">Handle an Animal</InnerLink></li><li><InnerLink toTop to="skill-handle_animal-push-animal">"Push" Animal</InnerLink></li><li><InnerLink toTop to="skill-handle_animal-teach-trick">Teach Trick</InnerLink></li><li><InnerLink toTop to="skill-handle_animal-companion-tricks">Companion Tricks</InnerLink></li><li><InnerLink toTop to="skill-handle_animal-train-animal">Train Animal</InnerLink></li><li><InnerLink toTop to="skill-handle_animal-rear-wild-animal">Rear Wild Animal</InnerLink></li><li><InnerLink toTop to="skill-handle_animal-milking-venom">Milking Venom</InnerLink></li><li><InnerLink toTop to="skill-handle_animal-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-handle_animal-handle-animal">Handle Animal</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 97</Link><br/><strong>Associated Skill:</strong> Charisma<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> Yes</p>
-<p><strong>Check:</strong> The DC depends on what you are trying to do.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 97</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Charisma</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-check">Check</h3>
+<p>The DC depends on what you are trying to do.</p>
 <ScrollContainer id="skill-handle_animal--table-0"><table>
 <thead>
 <tr>
@@ -1116,53 +1280,103 @@ const _handle_animal = {hasJL:true,title: "Handle Animal", jsx: <><div className
 <td>15 + HD of animal</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Varies.</p>
-<p><strong>Try Again:</strong> Yes, except for rearing an animal.</p>
-<p><strong>Special:</strong> You can use this skill on a creature with an Intelligence score of 1 or 2 that is not an animal, but the DC of any such check increases by 5. Such creatures have the same limit on tricks known as animals do.</p>
-<p>A druid or ranger gains a +4 circumstance bonus on Handle Animal checks involving an animal companion.</p>
-<p>In addition, a druid's or ranger's animal companion knows one or more bonus tricks, which don't count against the normal limit on tricks known and don't require any training time or Handle Animal checks to teach.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-action">Action</h3>
+<p>Varies.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-try-again">Try Again</h3>
+<p>Yes, except for rearing an animal.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-special">Special</h3>
+<p>You can use this skill on a creature with an Intelligence score of 1 or 2 that is not an animal, but the DC of any such check increases by 5. Such creatures have the same limit on tricks known as animals do.</p>
+<p>A druid or ranger gains a +4 circumstance bonus on Handle Animal checks involving an <Link to="/ability/animal_companion">animal companion</Link>.</p>
+<p>In addition, a druid's or ranger's animal companion knows one or more <strong className="hl">bonus tricks</strong>, which don't count against the normal limit on tricks known and don't require any training time or Handle Animal checks to teach.</p>
 <p>If you have the <Link to="/feat/animal_affinity">Animal Affinity</Link> feat, you get a bonus on Handle Animal checks.</p>
-<p><strong>Untrained:</strong> If you have no ranks in Handle Animal, you can use a Charisma check to handle and push domestic animals, but you can't teach, rear, or train animals. A druid or ranger with no ranks in Handle Animal can use a Charisma check to handle and push her animal companion, but she can't teach, rear, or train other non-domestic animals.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-untrained">Untrained</h3>
+<p>If you have no ranks in Handle Animal, you can use a Charisma check to handle and push domestic animals, but you can't teach, rear, or train animals. A druid or ranger with no ranks in Handle Animal can use a Charisma check to handle and push her animal companion, but she can't teach, rear, or train other non-domestic animals.</p>
+</div>
 <h3 id="skill-handle_animal-handle-an-animal" data-hash-target>Handle an Animal</h3>
 <p>This task involves commanding an animal to perform a task or trick that it knows. If the animal is wounded or has taken any nonlethal damage or ability score damage, the DC increases by 2. If your check succeeds, the animal performs the task or trick on its next action.</p>
-<p><strong>Action:</strong> Handling an animal is a move action. (A druid or ranger can handle an animal companion as a free action.)</p>
-<p><strong>Try Again:</strong> Yes.</p>
-<p><strong>Untrained:</strong> If you have no ranks in Handle Animal, you can use a Charisma check to handle domestic animals. (A druid or ranger can handle their animal companion as a Charisma check.)</p>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-action">Action</h3>
+<p>Handling an animal is a <strong className="hl">move action</strong>. (A druid or ranger can handle an animal companion as a <strong className="hl">free action</strong>.)</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-try-again">Try Again</h3>
+<p>Yes.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-untrained">Untrained</h3>
+<p>If you have no ranks in Handle Animal, you can use a Charisma check to handle domestic animals. (A druid or ranger can handle their animal companion as a Charisma check.)</p>
+</div>
 <h3 id="skill-handle_animal-push-animal" data-hash-target>"Push" Animal</h3>
 <p>To "push" an animal means to get it to perform a task or trick that it doesn't know but is physically capable of performing. This category also covers making an animal perform a forced march or forcing it to hustle for more than 1 hour between sleep cycles. If the animal is wounded or has taken any nonlethal damage or ability score damage, the DC increases by 2. If your check succeeds, the animal performs the task or trick on its next action.</p>
-<p><strong>Action:</strong> "Pushing" an animal is a full-round action. (A druid or ranger can push an animal companion as a move action.)</p>
-<p><strong>Try Again:</strong> Yes.</p>
-<p><strong>Untrained:</strong> If you have no ranks in Handle Animal, you can use a Charisma check to push domestic animals. (A druid or ranger can push their animal companion as a Charisma check.)</p>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-action">Action</h3>
+<p>"Pushing" an animal is a <strong className="hl">full-round action</strong>. (A druid or ranger can push an animal companion as a <strong className="hl">move action</strong>.)</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-try-again">Try Again</h3>
+<p>Yes.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-untrained">Untrained</h3>
+<p>If you have no ranks in Handle Animal, you can use a Charisma check to push domestic animals. (A druid or ranger can push their animal companion as a Charisma check.)</p>
+</div>
 <h3 id="skill-handle_animal-teach-trick" data-hash-target>Teach Trick</h3>
 <p>You can teach an animal a specific trick with 1 week of work and a successful Handle Animal check against the indicated DC. An animal with an Intelligence score of 1 can learn a maximum of three tricks, while an animal with an Intelligence score of 2 can learn a maximum of six tricks. Possible tricks (and their associated DCs) include, but are not necessarily limited to, <Link to="/ability/animal_tricks">this list</Link>.</p>
-<p><strong>Action:</strong> You must spend four days (half a week, at the rate of 3 hours per day per animal being handled) working toward completion of the task before you attempt the Handle Animal check. If the check fails, your attempt fails and you need not complete the teaching time. If the check succeeds, you must invest the remainder of the time to complete the teaching. If the time is interrupted or the task is not followed through to completion, the attempt automatically fails.</p>
-<p><strong>Try Again:</strong> Yes.</p>
-<p><strong>Untrained:</strong> You can't teach, rear, or train animals.</p>
-<h3 id="skill-handle_animal-companion-tricks" data-hash-target>Companion Tricks</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 214</Link><br/><Link to="/ability/companion_tricks">Certain tricks</Link> can only be taught to animal companions, and often require the animal to have specific characteristics. They otherwise follow the rules for teaching tricks.</p>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-action">Action</h3>
+<p>You must spend four days (half a week, at the rate of 3 hours per day per animal being handled) working toward completion of the task before you attempt the Handle Animal check. If the check fails, your attempt fails and you need not complete the teaching time. If the check succeeds, you must invest the remainder of the time to complete the teaching. If the time is interrupted or the task is not followed through to completion, the attempt automatically fails.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-try-again">Try Again</h3>
+<p>Yes.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-untrained">Untrained</h3>
+<p>You can't teach, rear, or train animals.</p>
+<h4 id="skill-handle_animal-companion-tricks" data-hash-target>Companion Tricks</h4>
+<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 214</Link></p>
+<p><Link to="/ability/companion_tricks">Certain tricks</Link> can only be taught to animal companions, and often require the animal to have specific characteristics. They otherwise follow the rules for teaching tricks.</p>
+</div>
 <h3 id="skill-handle_animal-train-animal" data-hash-target>Train Animal</h3>
 <p>Rather than teaching an animal individual tricks, you can simply train it for a general purpose. Essentially, an animal's purpose represents a preselected set of known tricks that fit into a common scheme, such as guarding or heavy labor. The animal must meet all the normal prerequisites for all tricks included in the training package. If the package includes more than three tricks, the animal must have an Intelligence score of 2 or higher.</p>
 <p>An animal can be trained for only one general purpose (listed at the end of the <Link to="/ability/animal_tricks">animal tricks</Link> entry), though if the creature is capable of learning additional tricks (above and beyond those included in its general purpose), it may do so. Training an animal for a purpose requires fewer checks than teaching individual tricks does, but no less time.</p>
-<p><strong>Action:</strong> You must spend half of the indicated time (at the rate of 3 hours per day per animal being handled) working toward completion of the task before you attempt the Handle Animal check. If the check fails, your attempt to ttrain the animal fails and you need not complete it. If the check succeeds, you must invest the remainder of the time to complete the training. If the time is interrupted or the task is not followed through to completion, the attempt to train the animal automatically fails.</p>
-<p><strong>Try Again:</strong> Yes.</p>
-<p><strong>Untrained:</strong> You can't teach, rear, or train animals.</p>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-action">Action</h3>
+<p>You must spend half of the indicated time (at the rate of 3 hours per day per animal being handled) working toward completion of the task before you attempt the Handle Animal check. If the check fails, your attempt to train the animal fails and you need not complete it. If the check succeeds, you must invest the remainder of the time to complete the training. If the time is interrupted or the task is not followed through to completion, the attempt to train the animal automatically fails.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-try-again">Try Again</h3>
+<p>Yes.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-untrained">Untrained</h3>
+<p>You can't teach, rear, or train animals.</p>
+</div>
 <h3 id="skill-handle_animal-rear-wild-animal" data-hash-target>Rear Wild Animal</h3>
 <p>To rear an animal means to raise a wild creature from infancy so that it becomes domesticated. A handler can rear as many as three creatures of the same kind at once.</p>
 <p>A successfully domesticated animal can be taught tricks at the same time it's being raised, or it can be taught as a domesticated animal later.</p>
-<p><strong>Action:</strong> You must spend half the rearing time (at the rate of 3 hours per day per animal being handled) working toward completion of the task before you attempt the Handle Animal check. If the check fails, your attempt fails and you need not complete the task. If the check succeeds, you must invest the remainder of the time to complete the rearing. If the time is interrupted or the task is not followed through to completion, the attempt to automatically fails.</p>
-<p><strong>Try Again:</strong> No.</p>
-<p><strong>Untrained:</strong> You can't teach, rear, or train animals.</p>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-action">Action</h3>
+<p>You must spend half the rearing time (at the rate of 3 hours per day per animal being handled) working toward completion of the task before you attempt the Handle Animal check. If the check fails, your attempt fails and you need not complete the task. If the check succeeds, you must invest the remainder of the time to complete the rearing. If the time is interrupted or the task is not followed through to completion, the attempt to automatically fails.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-try-again">Try Again</h3>
+<p>No.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-handle_animal-untrained">Untrained</h3>
+<p>You can't teach, rear, or train animals.</p>
+</div>
 <h3 id="skill-handle_animal-milking-venom" data-hash-target>Milking Venom</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 142</Link><br/>Venom can be harvested from a living creature without harming the creature, although the process is dangerous unless the creature has been trained for that specific purpose (see <Link to="/rule/harvesting_poisons">Milk Venom</Link>). For most venomous creatures, this involves stretching a thin canvas over a jar or vial and then coaxing the creature to bite into the canvas before massaging its venom glands, causing the venom to drip from its fangs into the container. Similar methods are used for creatures that deliver venom in other ways, such as with a stinger.</p>
-<p>Milking a single dose of poison from a creature takes 10 minutes of work and requires a successful Handle Animal check (DC = 10 + the donor's Hit Dice + the donor's Wisdom modifier). Failure by less than 5 indicates that the venom is not collected, but the handler suffers no other ill effect. Failure by 5 or more indicates that the creature bites, stings, or otherwise injects the handler with its venom. It automatically hits the handler with one of its natural attacks that delivers its poison, and it applies the effects of the attack normally. The creature might continue to attack the handler after doing so, possibly initiating combat. Milking venom from a cooperative intelligent creature doesn't require a Handle Animal check but presents a 5% chance of exposure to the venom.</p>
-<p>A creature can produce a number of doses of venom in this way each day equal to its Constitution modifier (minimum 1). A creature that is milked of venom this many times in one day (whether or not the attempts are successful) loses its poison special ability until the next time it rests.</p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 142</Link><br/>Venom can be harvested from a living creature without harming the creature, although the process is dangerous unless the creature has been trained for that specific purpose (see <Link to="/rule/harvesting_poisons">Milk Venom</Link>).</p>
 <h3 id="skill-handle_animal-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 84</Link><br/>With sufficient ranks in Handle Animal, you earn the following.</p>
-<p><strong>5 Ranks:</strong> Creatures you have trained gain a +2 bonus on Will saves when adjacent to you.<br/><strong>10 Ranks:</strong> Creatures you have trained gain a +2 bonus on Will saves whenever you are within 30 feet and clearly visible. You can teach a trick in 1 day by increasing the DC by 20.<br/><strong>15 Ranks:</strong> You can train an animal to understand your speech (as speak with animals) with 1 week of effort and a successful DC 30 Handle Animal check. Its actions are still limited by its Intelligence. You can teach a trick in 1 day (increasing the DC by 10) or 1 hour (increasing the DC by 20).<br/><strong>20 Ranks:</strong> You can make your speech understandable to any animal for 24 hours with a successful DC 30 Handle Animal check (DC 40 for magical beasts or vermin). You can teach a trick in 1 day, 1 hour (increasing the DC by 10), or 1 minute (increasing the DC by 20).</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>Creatures you have trained gain a +2 bonus on Will saves when adjacent to you.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>Creatures you have trained gain a +2 bonus on Will saves whenever you are within 30 feet and clearly visible. You can teach a trick in 1 day by increasing the DC by 20.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>You can train an animal to understand your speech (as speak with animals) with 1 week of effort and a successful DC 30 Handle Animal check. Its actions are still limited by its Intelligence. You can teach a trick in 1 day (increasing the DC by 10) or 1 hour (increasing the DC by 20).</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You can make your speech understandable to any animal for 24 hours with a successful DC 30 Handle Animal check (DC 40 for magical beasts or vermin). You can teach a trick in 1 day, 1 hour (increasing the DC by 10), or 1 minute (increasing the DC by 20).</Cell></Row></Block>
 </>};
-const _heal = {hasJL:true,title: "Heal", jsx: <><div className="jumpList" id="skill-heal-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-heal-first-aid-and-poison">First Aid and Poison</InnerLink></li><li><InnerLink toTop to="skill-heal-long-term-care">Long-Term Care</InnerLink></li><li><InnerLink toTop to="skill-heal-treat-mobility-wounds">Treat Mobility Wounds</InnerLink></li><li><InnerLink toTop to="skill-heal-treat-deadly-wounds">Treat Deadly Wounds</InnerLink></li><li><InnerLink toTop to="skill-heal-treat-disease">Treat Disease</InnerLink></li><li><InnerLink toTop to="skill-heal-crafting-antivenom">Crafting Antivenom</InnerLink></li><li><InnerLink toTop to="skill-heal-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-heal-faith-healing">Faith Healing</InnerLink></li><li><InnerLink toTop to="skill-heal-researching-technology">Researching Technology</InnerLink></li><li><InnerLink toTop to="skill-heal-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-heal-heal">Heal</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 98</Link><br/><strong>Associated Skill:</strong> Wisdom<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> The DC and effect of a Heal check depend on the task you attempt.</p>
+const _heal = {hasJL:true,title: "Heal", jsx: <><div className="jumpList" id="skill-heal-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-heal-first-aid-and-poison">First Aid and Poison</InnerLink></li><li><InnerLink toTop to="skill-heal-long-term-care">Long-Term Care</InnerLink></li><li><InnerLink toTop to="skill-heal-treat-mobility-wounds">Treat Mobility Wounds</InnerLink></li><li><InnerLink toTop to="skill-heal-treat-deadly-wounds">Treat Deadly Wounds</InnerLink></li><li><InnerLink toTop to="skill-heal-treat-disease">Treat Disease</InnerLink></li><li><InnerLink toTop to="skill-heal-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-heal-faith-healing">Faith Healing</InnerLink></li><li><InnerLink toTop to="skill-heal-researching-technology">Researching Technology</InnerLink></li><li><InnerLink toTop to="skill-heal-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-heal-heal">Heal</h2>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 98</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Wisdom</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-heal-check">Check</h3>
+<p>The DC and effect of a Heal check depend on the task you attempt.</p>
 <ScrollContainer id="skill-heal--table-0"><table>
 <thead>
 <tr>
@@ -1195,44 +1409,61 @@ const _heal = {hasJL:true,title: "Heal", jsx: <><div className="jumpList" id="sk
 <td>Disease's save DC</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Varies</p>
-<p><strong>Try Again:</strong> Varies. Generally speaking, you can't try a Heal check again without witnessing proof of the original check's failure.</p>
-<p><strong>Special:</strong> A character with the <Link to="/feat/self_sufficient">Self-Sufficient</Link> feat gets a bonus on Heal checks.</p>
-<p>A healer's kit gives you a +2 circumstance bonus on Heal checks.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-heal-action">Action</h3>
+<p>Varies</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-heal-try-again">Try Again</h3>
+<p>Varies. Generally speaking, you can't try a Heal check again without witnessing proof of the original check's failure.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-heal-special">Special</h3>
+<p>A character with the <Link to="/feat/self_sufficient">Self-Sufficient</Link> feat gets a bonus on Heal checks.</p>
+<p>A <Link to="/eq-misc/healers_kit">healer's kit</Link> gives you a +2 circumstance bonus on Heal checks.</p>
+<p>Heal is also used in the <Link to="/rule/harvesting_poisons">harvesting poison</Link> rules in the creation of antivenoms.</p>
+</div>
 <h3 id="skill-heal-first-aid-and-poison" data-hash-target>First Aid and Poison</h3>
-<p>You usually use first aid to save a dying character. If a character has negative hit points and is losing hit points (at the rate of 1 per round, 1 per hour, or 1 per day), you can make him stable. A stable character regains no hit points but stops losing them. First aid also stops a character from losing hit points due to effects that cause bleed.</p>
-<p>To treat poison means to tend to a single character who has been poisoned and who is going to take more damage from the poison (or suffer some other effect). Every time the poisoned character makes a saving throw against the poison, you make a Heal check. If your Heal check exceeds the DC of the poison, the character receives a +4 competence bonus on his saving throw against the poison.</p>
-<p><strong>Action:</strong> Providing first aid, treating a wound, or treating poison is a standard action.</p>
-<p><strong>Try Again:</strong> Generally speaking, you can't try a Heal check again without witnessing proof of the original check's failure. You can always retry a check to provide first aid, assuming the target of the previous attempt is still alive.</p>
+<p>You usually use first aid to save a <Link to="/misc/dying">dying</Link> character. If a character has negative hit points and is losing hit points (at the rate of 1 per round, 1 per hour, or 1 per day), you can make him <Link to="/misc/stable">stable</Link>. A stable character regains no hit points but stops losing them. First aid also stops a character from losing hit points due to effects that cause <Link to="/rule/bleed">bleed</Link>.</p>
+<p>To treat poison means to tend to a single character who has been poisoned and who is going to take more damage from the poison (or suffer some other effect). Every time the poisoned character makes a saving throw against the <Link to="/rule/poisons">poison</Link>, you make a Heal check. If your Heal check exceeds the DC of the poison, the character receives a +4 competence bonus on his saving throw against the poison.</p>
+<div className="semiheaderGroup"><h3 id="skill-heal-action">Action</h3>
+<p>Providing first aid, treating a wound, or treating poison is a <strong className="hl">standard action</strong>.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-heal-try-again">Try Again</h3>
+<p>Generally speaking, you can't try a Heal check again without witnessing proof of the original check's failure. You can always retry a check to provide first aid, assuming the target of the previous attempt is still alive.</p>
+</div>
 <h3 id="skill-heal-long-term-care" data-hash-target>Long-Term Care</h3>
 <p>Providing long-term care means treating a wounded person for a day or more. If your Heal check is successful, the patient recovers hit points or ability score points lost to ability damage at twice the normal rate: 2 hit points per level for a full 8 hours of rest in a day, or 4 hit points per level for each full day of complete rest; 2 ability score points for a full 8 hours of rest in a day, or 4 ability score points for each full day of complete rest.</p>
 <p>You can tend to as many as six patients at a time. You need a few items and supplies (bandages, salves, and so on) that are easy to come by in settled lands. Giving long-term care counts as light activity for the healer. You cannot give long-term care to yourself.</p>
-<p><strong>Action:</strong> Providing long-term care requires 8 hours of light activity.</p>
+<div className="semiheaderGroup"><h3 id="skill-heal-action">Action</h3>
+<p>Providing long-term care requires 8 hours of light activity.</p>
+</div>
 <h3 id="skill-heal-treat-mobility-wounds" data-hash-target>Treat Mobility Wounds</h3>
 <p>A creature wounded by stepping on a caltrop moves at half normal speed. A successful Heal check removes this movement penalty.</p>
 <p>A creature wounded by a <Link to="/spell/spike_growth">spike growth</Link> or <Link to="/spell/spike_stones">spike stones</Link> spell must succeed on a Reflex save or take injuries that reduce his speed by one-third. Another character can remove this penalty by taking 10 minutes to dress the victim's injuries and succeeding on a Heal check against the spell's save DC.</p>
-<p><strong>Action:</strong> Tending a creature wounded by caltrops or a <em>spike growth</em> or <em>spike stones</em> spell takes 10 minutes of work.</p>
+<div className="semiheaderGroup"><h3 id="skill-heal-action">Action</h3>
+<p>Tending a creature wounded by <Link to="/eq-misc/caltrops">caltrops</Link> or a <em>spike growth</em> or <em>spike stones</em> spell takes 10 minutes of work.</p>
+</div>
 <h3 id="skill-heal-treat-deadly-wounds" data-hash-target>Treat Deadly Wounds</h3>
 <p>When treating deadly wounds, you can restore hit points to a damaged creature. Treating deadly wounds restores 1 hit point per level of the creature. If you exceed the DC by 5 or more, add your Wisdom modifier (if positive) to this amount. A creature can only benefit from its deadly wounds being treated within 24 hours of being injured and never more than once per day. You must expend two uses from a healer's kit to perform this task. You take a -2 penalty on your Heal skill check for each use from the healer's kit that you lack.</p>
-<p><strong>Action:</strong> Treating deadly wounds takes 1 hour of work.</p>
+<div className="semiheaderGroup"><h3 id="skill-heal-action">Action</h3>
+<p>Treating deadly wounds takes 1 hour of work.</p>
+</div>
 <h3 id="skill-heal-treat-disease" data-hash-target>Treat Disease</h3>
-<p>To treat a disease means to tend to a single diseased character. Every time the diseased character makes a saving throw against disease effects, you make a Heal check. If your Heal check exceeds the DC of the disease, the character receives a +4 competence bonus on his saving throw against the disease.</p>
-<p><strong>Action:</strong> Treating a disease takes 10 minutes of work.</p>
-<h3 id="skill-heal-crafting-antivenom" data-hash-target>Crafting Antivenom</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 143</Link><br/>While <Link to="/eq-misc/antitoxin">antitoxin</Link> presents a generalized tool for protecting oneself from poison, more specialized antivenoms can provide even greater protection against specific poisons. Creating a dose of antivenom requires a dose of the specific poison that the antivenom is designed to protect against.</p>
-<p><strong>Antivenom Effects:</strong> A single dose of antivenom automatically neutralizes the first exposure of the specific poison it is made to combat and provides a +8 alchemical bonus on saving throws against additional exposure to that specific poison; this bonus decreases by 1 every hour, until the effect ends after 8 hours.</p>
-<p><strong>Crafting Antivenom:</strong> To create a dose of antivenom, a living creature must first be exposed to a half dose of the poison in question. The creature suffers the poison's effects normally, except the saving throw DC to resist the poison is reduced by 2. In order to be able to produce antivenom, the creature must succeed at the necessary saving throws to be cured of the poison. If the poison's duration expires without the creature being cured, no antivenom can be harvested.</p>
-<p>Once the creature has resisted the poison's effects, a viable sample of the creature's blood can be extracted with a successful DC 20 Craft (alchemy) or Heal check. This blood must then be refined to extract the natural antibodies that combat the poison in a process that takes 1 hour and requires a successful Craft (alchemy) check (DC = 5 + the poison's saving throw DC). Success yields 1 dose of antivenom.</p>
-<p>Antivenom can also be harvested in the same fashion from a creature that has been afflicted by a full dose of poison, rather than a creature deliberately given a half dose for this purpose. Regardless of how much poison the creature is exposed to, the antibodies in its system can be harvested only for 24 hours after it has recovered from the poison.</p>
-<p><strong>Purchasing Antivenom:</strong> Antivenom is not particularly expensive, but because it is highly specialized, it can be difficult to find. A dose of antivenom has a market price equal to half the market price of a dose of the poison in question, but it is treated as though its price were five times the market price of the poison for the purposes of determining its availability in any given settlement. Alternatively, if 1 or more doses of the poison in question can be provided, most alchemists will supply as much antivenom as they can produce from the doses for a fee of 10% of the market price of the poison.</p>
+<p>To treat a disease means to tend to a single diseased character. Every time the diseased character makes a saving throw against disease effects, you make a Heal check. If your Heal check exceeds the DC of the <Link to="/rule/diseases">disease</Link>, the character receives a +4 competence bonus on his saving throw against the disease.</p>
+<div className="semiheaderGroup"><h3 id="skill-heal-action">Action</h3>
+<p>Treating a disease takes 10 minutes of work.</p>
+</div>
 <h3 id="skill-heal-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
 <p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.</p>
 <h4 id="skill-heal-faith-healing" data-hash-target>Faith Healing</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 195</Link><br/>You apply esoteric principles to temporarily suspend or remove curses, diseases, and ability damage.</p>
-<p><strong>Check:</strong> You can use faith healing once per day. The DC and effect of the Heal check depend on the task you attempt. You can't use faith healing on yourself.</p>
-<p><em>Restore Vitality:</em> You suppress <Link to="/rule/ability_damage">ability damage</Link>. You perform a 1-hour ceremony, after which you attempt a Heal check against the DC of the effect that caused the ability damage. If you succeed at the check, you temporarily suppress 1 point of ability damage for 1 hour, plus 1 additional point and hour for every 5 by which the check result exceeds the DC. A creature can benefit from this treatment no more than once per day.</p>
-<p><em>Suspend Affliction:</em> You treat one curse, disease, or poison affecting a creature. You enter into a deep trance for 1 hour while you treat the subject, after which you attempt your Heal check. If the check is successful, you suspend the effects of the <Link to="/rule/afflictions">affliction</Link> by 1 hour, plus 1 hour for every 5 by which you exceed the DC. This time doesn't count against the effect's duration (if any). The affliction can still be cured by other means while it's suspended.</p>
-<p><em>Remove Affliction:</em> You can attempt to permanently remove an affliction in an 8-hour ceremony, after which you attempt a Heal check. If the result of the check is at least double the DC of the original affliction, the sufferer can attempt another saving throw using the original DC to permanently cast off the effect.</p>
+<div className="semiheaderGroup"><h3 id="skill-heal-check">Check</h3>
+<p>You can use faith healing once per day. The DC and effect of the Heal check depend on the task you attempt. You can't use faith healing on yourself.</p>
+<h4 id="skill-heal-restore-vitality">Restore Vitality</h4>
+<p>You suppress <Link to="/rule/ability_damage">ability damage</Link>. You perform a 1-hour ceremony, after which you attempt a Heal check against the DC of the effect that caused the ability damage. If you succeed at the check, you temporarily suppress 1 point of ability damage for 1 hour, plus 1 additional point and hour for every 5 by which the check result exceeds the DC. A creature can benefit from this treatment no more than once per day.</p>
+<h4 id="skill-heal-suspend-affliction">Suspend Affliction</h4>
+<p>You treat one curse, disease, or poison affecting a creature. You enter into a deep trance for 1 hour while you treat the subject, after which you attempt your Heal check. If the check is successful, you suspend the effects of the <Link to="/rule/afflictions">affliction</Link> by 1 hour, plus 1 hour for every 5 by which you exceed the DC. This time doesn't count against the effect's duration (if any). The affliction can still be cured by other means while it's suspended.</p>
+<h4 id="skill-heal-remove-affliction">Remove Affliction</h4>
+<p>You can attempt to permanently remove an affliction in an 8-hour ceremony, after which you attempt a Heal check. If the result of the check is at least double the DC of the original affliction, the sufferer can attempt another saving throw using the original DC to permanently cast off the effect.</p>
 <ScrollContainer id="skill-heal--table-1"><table>
 <thead>
 <tr>
@@ -1253,8 +1484,13 @@ const _heal = {hasJL:true,title: "Heal", jsx: <><div className="jumpList" id="sk
 <td>Double the affliction's save DC</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Restoring vitality and suspending afflictions each require 1 hour in a quiet environment. Permanent removal of afflictions requires 8 hours of heavy activity.</p>
-<p><strong>Try Again:</strong> Varies. A creature can't be the subject of faith healing more than once per day. You can't try to permanently remove an affliction again.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-heal-action">Action</h3>
+<p>Restoring vitality and suspending afflictions each require 1 hour in a quiet environment. Permanent removal of afflictions requires 8 hours of heavy activity.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-heal-try-again">Try Again</h3>
+<p>Varies. A creature can't be the subject of faith healing more than once per day. You can't try to permanently remove an affliction again.</p>
+</div>
 <h3 id="skill-heal-researching-technology" data-hash-target>Researching Technology</h3>
 <p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link><br/>A character can use the following skills to research technological subjects. Other skills may have research applications as well, subject to GM approval.</p>
 <blockquote>
@@ -1262,26 +1498,57 @@ const _heal = {hasJL:true,title: "Heal", jsx: <><div className="jumpList" id="sk
 </blockquote>
 <h3 id="skill-heal-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 84</Link><br/>With sufficient ranks in Heal, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When you treat deadly wounds, the target recovers hit points and ability damage as if it had rested for a full day.<br/><strong>10 Ranks:</strong> When you treat deadly wounds, the target recovers hit points as if it had rested for a full day with long-term care.<br/><strong>15 Ranks:</strong> When you treat deadly wounds, the creature recovers hit point and ability damage as if it had rested for 3 days.<br/><strong>20 Ranks:</strong> When you treat deadly wounds, the target recovers hit point and ability damage as if it had rested for 3 days with long-term care.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>When you treat deadly wounds, the target recovers hit points and ability damage as if it had rested for a full day.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>When you treat deadly wounds, the target recovers hit points as if it had rested for a full day with long-term care.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>When you treat deadly wounds, the creature recovers hit point and ability damage as if it had rested for 3 days.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>When you treat deadly wounds, the target recovers hit point and ability damage as if it had rested for 3 days with long-term care.</Cell></Row></Block>
 </>};
-const _intimidate = {hasJL:true,title: "Intimidate", jsx: <><div className="jumpList" id="skill-intimidate-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-intimidate-coercion">Coercion</InnerLink></li><li><InnerLink toTop to="skill-intimidate-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-intimidate-intimidate">Intimidate</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link><br/><strong>Associated Skill:</strong> Charisma<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> You can use Intimidate to force an opponent to act friendly toward you for 1d6 &times; 10 minutes with a successful check. The DC of this check is equal to 10 + the target's Hit Dice + the target's Wisdom modifier. If successful, the target gives you the information you desire, takes actions that do not endanger it, or otherwise offers limited assistance. After the Intimidate expires, the target treats you as unfriendly and may report you to local authorities. If you fail this check by 5 or more, the target attempts to deceive you or otherwise hinder your activities.</p>
-<p><em>Demoralize:</em> You can use this skill to cause an opponent to become shaken for a number of rounds. The DC of this check is equal to 10 + the target's Hit Dice + the target's Wisdom modifier. If you are successful, the target is shaken for 1 round. This duration increases by 1 round for every 5 by which you beat the DC. You can only threaten an opponent in this way if they are within 30 feet and can clearly see and hear you. Using demoralize on the same creature only extends the duration; it does not create a stronger fear condition.</p>
-<p><strong>Action:</strong> Using Intimidate to change an opponent's attitude requires 1 minute of conversation. Demoralizing an opponent is a standard action.</p>
-<p><strong>Try Again:</strong> You can attempt to Intimidate an opponent again, but each additional check increases the DC by +5. This increase resets after 1 hour has passed.</p>
-<p><strong>Special:</strong> You also gain a +4 bonus on Intimidate checks if you are larger than your target and a -4 penalty on Intimidate checks if you are smaller than your target.</p>
+const _intimidate = {hasJL:true,title: "Intimidate", jsx: <><div className="jumpList" id="skill-intimidate-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-intimidate-demoralize">Demoralize</InnerLink></li><li><InnerLink toTop to="skill-intimidate-coercion">Coercion</InnerLink></li><li><InnerLink toTop to="skill-intimidate-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-intimidate-intimidate">Intimidate</h2>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Charisma</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-intimidate-check">Check</h3>
+<p>You can use Intimidate to force an opponent to act friendly toward you for 1d6 &times; 10 minutes with a successful check. The DC of this check is equal to 10 + the target's Hit Dice + the target's Wisdom modifier. If successful, the target gives you the information you desire, takes actions that do not endanger it, or otherwise offers limited assistance. After the Intimidate expires, the target treats you as unfriendly and may report you to local authorities. If you fail this check by 5 or more, the target attempts to deceive you or otherwise hinder your activities.</p>
+<h4 id="skill-intimidate-demoralize" data-hash-target>Demoralize</h4>
+<p>You can use this skill to cause an opponent to become <Link to="/misc/shaken">shaken</Link> for a number of rounds. The DC of this check is equal to 10 + the target's Hit Dice + the target's Wisdom modifier. If you are successful, the target is shaken for 1 round. This duration increases by 1 round for every 5 by which you beat the DC. You can only threaten an opponent in this way if they are within 30 feet and can clearly see and hear you. Using demoralize on the same creature only extends the duration; it does not create a stronger fear condition.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-intimidate-action">Action</h3>
+<p>Using Intimidate to change an opponent's attitude requires 1 minute of conversation. Demoralizing an opponent is a <strong className="hl">standard action</strong>.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-intimidate-try-again">Try Again</h3>
+<p>You can attempt to Intimidate an opponent again, but each additional check increases the DC by +5. This increase resets after 1 hour has passed.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-intimidate-special">Special</h3>
+<p>You also gain a +4 bonus on Intimidate checks if you are larger than your target and a -4 penalty on Intimidate checks if you are smaller than your target.</p>
 <p>If you have the <Link to="/feat/persuasive">Persuasive</Link> feat, you get a bonus on Intimidate checks.</p>
 <p>A <Link to="/race/half_orc">half-orc</Link> gets a +2 bonus on Intimidate checks.</p>
+</div>
 <h3 id="skill-intimidate-coercion" data-hash-target>Coercion</h3>
 <p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 8</Link><br/>Sometimes you need to cow someone into submission for more than just a few hours.</p>
-<p><strong>Check:</strong> By spending more time threatening or harassing a target, you can attempt to force a creature to act friendly toward you for 1d6 hours + 1 hour for every 5 points by which you exceed the DC. If you succeed at such a check against the same target at least once per week for 1d6 weeks (without ever failing any Intimidate checks against the target during that time), the duration of the coercion increases to 2d8 days. Coercion is overt, not subtle, and in most cases using coercion against a creature is an evil act.</p>
+<div className="semiheaderGroup"><h3 id="skill-intimidate-check">Check</h3>
+<p>By spending more time threatening or harassing a target, you can attempt to force a creature to act friendly toward you for 1d6 hours + 1 hour for every 5 points by which you exceed the DC. If you succeed at such a check against the same target at least once per week for 1d6 weeks (without ever failing any Intimidate checks against the target during that time), the duration of the coercion increases to 2d8 days. Coercion is overt, not subtle, and in most cases using coercion against a creature is an evil act.</p>
 <p>A coerced target acts as though friendly toward you even when you aren't around, but the aid offered remains grudging at best. The target's true attitude is hostile, and if the target believes it can take an action to hinder you that can't be traced back to it, it's likely to take such opportunities. Creatures attempting to enlist its aid against you can often do so by convincing the target they are able to protect it from your wrath, using the normal Diplomacy rules.</p>
-<p><strong>Action:</strong> Coercing a target into acting friendly for hours takes 1d4 &times; 10 minutes. Coercing a target into acting friendly for days requires you to successfully use coercion at least once per week for 1d6 weeks without failing any Intimidate checks against the target during that time.</p>
-<p><strong>Try Again:</strong> You can't attempt long-term coercion against the same target again for 1 week.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-intimidate-action">Action</h3>
+<p>Coercing a target into acting friendly for hours takes 1d4 &times; 10 minutes. Coercing a target into acting friendly for days requires you to successfully use coercion at least once per week for 1d6 weeks without failing any Intimidate checks against the target during that time.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-intimidate-try-again">Try Again</h3>
+<p>You can't attempt long-term coercion against the same target again for 1 week.</p>
+</div>
 <h3 id="skill-intimidate-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Intimidate, you earn the following.</p>
-<p>An asterisk (*) indicates the total duration cannot exceed 1 round plus 1 round for every 5 by which you exceed the DC.<br/><strong>5 Ranks:</strong> If you exceed the DC to demoralize a target by at least 10, it is frightened for 1 round and shaken thereafter.* A Will save (DC = 10 + your number of ranks in Intimidate) negates the frightened condition, but the target is still shaken, even if it has the stalwart ability.<br/><strong>10 Ranks:</strong> If you exceed the DC to demoralize a target by at least 10, it is panicked for 1 round or frightened for 1d4 rounds (your choice) and shaken thereafter.* A Will save (DC = 10 + your number of ranks in Intimidate) negates the frightened or panicked condition, but the target is still shaken, even if it has the stalwart ability.<br/><strong>15 Ranks:</strong> If you exceed the DC to demoralize a target by at least 20, it is cowering for 1 round or panicked for 1d4 rounds (your choice) and frightened thereafter.* A Will save (DC = 10 + your number of ranks in Intimidate) negates the cowering, panicked, and frightened conditions, but the target is still shaken, even if it has the stalwart ability.<br/><strong>20 Ranks:</strong> If you exceed the DC to demoralize a target by at least 20, it is cowering for 1d4 rounds and panicked thereafter.* A Will save (DC = 10 + your number of ranks in Intimidate) negates the cowering and panicked conditions, but the target is still shaken, even if it has the stalwart ability.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>If you exceed the DC to demoralize a target by at least 10, it is <Link to="/misc/frightened">frightened</Link> for 1 round and shaken thereafter.&#42; A Will save (DC = 10 + your number of ranks in Intimidate) negates the frightened condition, but the target is still shaken, even if it has the <em>stalwart</em> ability.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>If you exceed the DC to demoralize a target by at least 10, it is <Link to="/misc/panicked">panicked</Link> for 1 round or frightened for 1d4 rounds (your choice) and shaken thereafter.&#42; A Will save (DC = 10 + your number of ranks in Intimidate) negates the frightened or panicked condition, but the target is still shaken, even if it has the <em>stalwart</em> ability.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>If you exceed the DC to demoralize a target by at least 20, it is <Link to="/misc/cowering">cowering</Link> for 1 round or panicked for 1d4 rounds (your choice) and frightened thereafter.&#42; A Will save (DC = 10 + your number of ranks in Intimidate) negates the cowering, panicked, and frightened conditions, but the target is still shaken, even if it has the <em>stalwart</em> ability.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>If you exceed the DC to demoralize a target by at least 20, it is cowering for 1d4 rounds and panicked thereafter.&#42; A Will save (DC = 10 + your number of ranks in Intimidate) negates the cowering and panicked conditions, but the target is still shaken, even if it has the <em>stalwart</em> ability.</Cell></Row></Block>
+<p>An asterisk (&#42;) indicates the total duration cannot exceed 1 round plus 1 round for every 5 by which you exceed the DC. <em>Stalwart</em> is an <Link to="/class/inquisitor">inquisitor</Link> ability that can also be gained through certain archetypes.</p>
 </>};
 const _knowledge_all = {hasJL:true,title: "Knowledge", jsx: <><div className="jumpList" id="skill-knowledge_all-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-knowledge_all-identify-class-features">Identify Class Features</InnerLink></li></ul></div><h2 id="skill-knowledge_all-knowledge">Knowledge</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 99</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No  </p>

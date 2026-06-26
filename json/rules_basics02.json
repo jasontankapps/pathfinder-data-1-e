@@ -454,6 +454,7 @@
 		]
 	},
 	"masterwork_w": { "redirect": "masterwork_weapons" },
+	"mwk_weapon": { "redirect": "masterwork_weapons" },
 	"armor": {
 		"name": "Armor",
 		"tags": "sleeping in armor, maximum dex bonus, shields, armor check penalty, Arcane Spell Failure Chance, armor proficiency",
@@ -540,6 +541,7 @@
 		]
 	},
 	"masterwork_a": { "redirect": "masterwork_armor" },
+	"mwk_armor": { "redirect": "masterwork_armor" },
 	"armor_for_unusual_creatures": {
 		"name": "Armor for Unusual Creatures",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -758,6 +760,7 @@
 	"encumbrance": { "redirect": "carrying_capacity" },
 	"encumbered": { "redirect": "carrying_capacity" },
 	"carrying_a_load": { "redirect": "carrying_capacity" },
+	"heavy_load": { "redirect": "carrying_capacity" },
 	"magic_items": {
 		"name": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],

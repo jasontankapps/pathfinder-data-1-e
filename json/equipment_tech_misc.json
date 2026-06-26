@@ -93,6 +93,10 @@
 			"| Prismatic | +10 |"
 		]
 	},
+	"e_pick": {
+		"name": "E-pick",
+		"copyof": "e_pick_brown"
+	},
 	"epick_brown": { "redirect": "e_pick_brown" },
 	"black_e_pick": { "redirect": "e_pick_brown" },
 	"e_pick_blue": {
