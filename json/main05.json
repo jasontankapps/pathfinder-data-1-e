@@ -880,6 +880,7 @@
 		]
 	},
 	"light_melee_weapon": { "redirect": "equipment_weapons_light" },
+	"light_weapon": { "redirect": "equipment_weapons_light" },
 	"equipment_weapons_one_handed": {
 		"title": "One-Handed Weapons",
 		"description": [

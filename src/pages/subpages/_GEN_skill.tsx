@@ -2956,8 +2956,16 @@ const _ride = {hasJL:true,title: "Ride", jsx: <><div className="jumpList" id="sk
 <Row><Cell>20 Ranks</Cell><Cell>When you spur your mount, its speed is increased by 30 feet, and it gains a +4 bonus on Reflex saves and a +4 dodge bonus to AC.</Cell></Row></Block>
 </>};
 const _sense_motive = {hasJL:true,title: "Sense Motive", jsx: <><div className="jumpList" id="skill-sense_motive-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-sense_motive-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-sense_motive-prognostication">Prognostication</InnerLink></li><li><InnerLink toTop to="skill-sense_motive-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-sense_motive-sense-motive">Sense Motive</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 104</Link><br/><strong>Associated Skill:</strong> Wisdom<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> A successful check lets you avoid being bluffed (see the <Link to="/skill/bluff">Bluff</Link> skill). You can also use this skill to determine when "something is up" (that is, something odd is going on) or to assess someone's trustworthiness.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 104</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Wisdom</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-sense_motive-check">Check</h3>
+<p>A successful check lets you avoid being bluffed (see the <Link to="/skill/bluff">Bluff</Link> skill). You can also use this skill to determine when "something is up" (that is, something odd is going on) or to assess someone's trustworthiness.</p>
 <ScrollContainer id="skill-sense_motive--table-0"><table>
 <thead>
 <tr>
@@ -2978,19 +2986,30 @@ const _sense_motive = {hasJL:true,title: "Sense Motive", jsx: <><div className="
 <td>Varies</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><em>Hunch:</em> This use of the skill involves making a gut assessment of the social situation. You can get the feeling from another's behavior that something is wrong, such as when you're talking to an impostor. Alternatively, you can get the feeling that someone is trustworthy.</p>
-<p><em>Sense Enchantment:</em> You can tell that someone's behavior is being influenced by an enchantment effect even if that person isn't aware of it. The usual DC is 25, but if the target is dominated (see <Link to="/spell/dominate_person">dominate person</Link>), the DC is only 15 because of the limited range of the target's activities.</p>
-<p><em>Discern Secret Message:</em> You may use Sense Motive to detect that a hidden message is being transmitted via the Bluff skill. In this case, your Sense Motive check is opposed by the Bluff check of the character transmitting the message. For each piece of information relating to the message that you are missing, you take a -2 penalty on your Sense Motive check. If you succeed by 4 or less, you know that something hidden is being communicated, but you can't learn anything specific about its content. If you beat the DC by 5 or more, you intercept and understand the message. If you fail by 4 or less, you don't detect any hidden communication. If you fail by 5 or more, you might infer false information.</p>
-<p><strong>Action:</strong> Trying to gain information with Sense Motive generally takes at least 1 minute, and you could spend a whole evening trying to get a sense of the people around you.</p>
-<p><strong>Try Again:</strong> No, though you may make a Sense Motive check for each Bluff check made against you.</p>
-<p><strong>Special:</strong> A ranger gains a bonus on Sense Motive checks when using this skill against a <Link to="/ability/favored_enemy">favored enemy</Link>.</p>
+<h4 id="skill-sense_motive-hunch">Hunch</h4>
+<p>This use of the skill involves making a gut assessment of the social situation. You can get the feeling from another's behavior that something is wrong, such as when you're talking to an impostor. Alternatively, you can get the feeling that someone is trustworthy.</p>
+<h4 id="skill-sense_motive-sense-enchantment">Sense Enchantment</h4>
+<p>You can tell that someone's behavior is being influenced by an enchantment effect even if that person isn't aware of it. The usual DC is 25, but if the target is dominated (see <Link to="/spell/dominate_person">dominate person</Link>), the DC is only 15 because of the limited range of the target's activities.</p>
+<h4 id="skill-sense_motive-discern-secret-message">Discern Secret Message</h4>
+<p>You may use Sense Motive to detect that a hidden message is being transmitted via the Bluff skill. In this case, your Sense Motive check is opposed by the Bluff check of the character transmitting the message. For each piece of information relating to the message that you are missing, you take a -2 penalty on your Sense Motive check. If you succeed by 4 or less, you know that something hidden is being communicated, but you can't learn anything specific about its content. If you beat the DC by 5 or more, you intercept and understand the message. If you fail by 4 or less, you don't detect any hidden communication. If you fail by 5 or more, you might infer false information.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-sense_motive-action">Action</h3>
+<p>Trying to gain information with Sense Motive generally takes at least 1 minute, and you could spend a whole evening trying to get a sense of the people around you.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-sense_motive-try-again">Try Again</h3>
+<p>No, though you may make a Sense Motive check for each Bluff check made against you.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-sense_motive-special">Special</h3>
+<p>A ranger gains a bonus on Sense Motive checks when using this skill against a <Link to="/ability/favored_enemy">favored enemy</Link>.</p>
 <p>If you have the <Link to="/feat/alertness">Alertness</Link> feat, you get a bonus on Sense Motive checks.</p>
+</div>
 <h3 id="skill-sense_motive-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
 <p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.</p>
 <h4 id="skill-sense_motive-prognostication" data-hash-target>Prognostication</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 196</Link></p>
 <p>You are skilled in means of folk divination. The most common methods are cartomancy (reading cards), cheiromancy (reading a creature's palms), crystallomancy (crystal-gazing), extispicy (reading animal entrails), horoscopy (reading a creature's birth stars), oneiromancy (interpreting dreams), osteomancy (reading cast bones), and pyromancy (reading flames).</p>
-<p><strong>Check:</strong> Once per day, you can predict a creature's fortune for the near future. You spend 10 minutes interpreting the divination means at your disposal. The GM then attempts a secret Sense Motive check with a DC modified by the subject's Hit Dice (see the table below). The result of the check can give you basic insight into the subject's nature, including its alignment, class, and levels or Hit Dice, and might reveal clues to the creature's immediate future. Determining the immediate future as an <Link to="/spell/augury">augury</Link> spell has a chance of successfully interpreting meaningful readings equal to 60% plus 5% for every point by which the check result exceeds the DC (to a maximum of 90%). With a single check, you determine all the information whose DC you meet. For instance, if you had a result of 22 when telling the fortune of a creature with 2 HD, you would learn that creature's alignment and class, but not its level, HD, or fortune.</p>
+<div className="semiheaderGroup"><h3 id="skill-sense_motive-check">Check</h3>
+<p>Once per day, you can predict a creature's fortune for the near future. You spend 10 minutes interpreting the divination means at your disposal. The GM then attempts a secret Sense Motive check with a DC modified by the subject's Hit Dice (see the table below). The result of the check can give you basic insight into the subject's nature, including its alignment, class, and levels or Hit Dice, and might reveal clues to the creature's immediate future. Determining the immediate future as an <Link to="/spell/augury">augury</Link> spell has a chance of successfully interpreting meaningful readings equal to 60% plus 5% for every point by which the check result exceeds the DC (to a maximum of 90%). With a single check, you determine all the information whose DC you meet. For instance, if you had a result of 22 when telling the fortune of a creature with 2 HD, you would learn that creature's alignment and class, but not its level, HD, or fortune.</p>
 <ScrollContainer id="skill-sense_motive--table-1"><table>
 <thead>
 <tr>
@@ -3015,21 +3034,41 @@ const _sense_motive = {hasJL:true,title: "Sense Motive", jsx: <><div className="
 <td>25 + creature's HD</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Reading a creature's fortune requires 10 minutes of uninterrupted contemplation, and the subject creature must be present.</p>
-<p><strong>Try Again:</strong> Yes. You can attempt to read a particular creature's fortune repeatedly, but only once per 24 hours.</p>
-<p><strong>Special:</strong> Specially crafted items purchased for the exclusive use of this skill grant a +2 circumstance bonus on Sense Motive checks to prognosticate.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-sense_motive-action">Action</h3>
+<p>Reading a creature's fortune requires 10 minutes of uninterrupted contemplation, and the subject creature must be present.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-sense_motive-try-again">Try Again</h3>
+<p>Yes. You can attempt to read a particular creature's fortune repeatedly, but only once per 24 hours.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-sense_motive-special">Special</h3>
+<p>Specially crafted items purchased for the exclusive use of this skill grant a +2 circumstance bonus on Sense Motive checks to prognosticate.</p>
+</div>
 <h3 id="skill-sense_motive-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>With sufficient ranks in Sense Motive, you earn the following.</p>
-<p><strong>5 Ranks:</strong> If you were aware of an opponent before rolling initiative (such as when you ambush an enemy or negotiations break down into combat, but not when both sides happen upon each other or you are surprised), you can attempt a Sense Motive check as part of your initiative check (DC = 11 + the highest Bluff modifier among your opponents or DC 15, whichever is higher). If you succeed, you gain a +1 bonus on the initiative check, plus an additional +1 for every 5 by which you exceeded the DC.<br/><strong>10 Ranks:</strong> After 1 minute of conversation, you can read a creature's surface thoughts (as <Link to="/spell/detect_thoughts">detect thoughts</Link>) by attempting a Sense Motive check at a -20 penalty opposed by the creature's Bluff check.<br/><strong>15 Ranks:</strong> You can read surface thoughts as above after 1 round. In addition, when attacked, you can attempt a Sense Motive check as an immediate action opposed by your target's attack roll. A successful check grants a +2 insight bonus to your AC against attacks from that specific opponent for 1 minute.<br/><strong>20 Ranks:</strong> You can read surface thoughts as above as a standard action. A successful check to gain an insight bonus to your AC also negates the attack that triggered it.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>If you were aware of an opponent before rolling initiative (such as when you ambush an enemy or negotiations break down into combat, but not when both sides happen upon each other or you are surprised), you can attempt a Sense Motive check as part of your initiative check (DC = 11 + the highest Bluff modifier among your opponents or DC 15, whichever is higher). If you succeed, you gain a +1 bonus on the initiative check, plus an additional +1 for every 5 by which you exceeded the DC.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>After 1 minute of conversation, you can read a creature's surface thoughts (as <Link to="/spell/detect_thoughts">detect thoughts</Link>) by attempting a Sense Motive check at a -20 penalty opposed by the creature's Bluff check.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>You can read surface thoughts as above after 1 round. In addition, when attacked, you can attempt a Sense Motive check as an <strong className="hl">immediate action</strong> opposed by your target's attack roll. A successful check grants a +2 insight bonus to your AC against attacks from that specific opponent for 1 minute.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You can read surface thoughts as above as a <strong className="hl">standard action</strong>. A successful check to gain an insight bonus to your AC also negates the attack that triggered it.</Cell></Row></Block>
 </>};
-const _sleight_of_hand = {hasJL:true,title: "Sleight of Hand", jsx: <><div className="jumpList" id="skill-sleight_of_hand-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-sleight_of_hand-palm-weapon">Palm Weapon</InnerLink></li><li><InnerLink toTop to="skill-sleight_of_hand-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-sleight_of_hand-sleight-of-hand">Sleight of Hand</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 104</Link><br/><strong>Associated Skill:</strong> Dexterity<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> Yes</p>
-<p><strong>Check:</strong> A DC 10 Sleight of Hand check lets you palm a coin-sized, unattended object. Performing a minor feat of legerdemain, such as making a coin disappear, also has a DC of 10 unless an observer is determined to note where the item went.</p>
-<p>When you use this skill under close observation, your skill check is opposed by the observer's Perception check. The observer's success doesn't prevent you from performing the action, just from doing it unnoticed.</p>
-<p>You can hide a small object (including a light weapon or an easily concealed ranged weapon, such as a dart, sling, or hand crossbow) on your body. Your Sleight of Hand check is opposed by the Perception check of anyone observing you or of anyone frisking you. In the latter case, the searcher gains a +4 bonus on the Perception check, since it's generally easier to find such an object than to hide it. A dagger is easier to hide than most light weapons, and grants you a +2 bonus on your Sleight of Hand check to conceal it. An extraordinarily small object, such as a coin, shuriken, or ring, grants you a +4 bonus on your Sleight of Hand check to conceal it, and heavy or baggy clothing (such as a cloak) grants you a +2 bonus on the check.</p>
-<p>Drawing a hidden weapon is a standard action and doesn't provoke an attack of opportunity.</p>
-<p>If you try to take something from a creature, you must make a DC 20 Sleight of Hand check. The opponent makes a Perception check to detect the attempt, opposed by the Sleight of Hand check result you achieved when you tried to grab the item. An opponent who succeeds on this check notices the attempt, regardless of whether you got the item. You cannot use this skill to take an object from another creature during combat if the creature is aware of your presence.</p>
-<p>You can also use Sleight of Hand to entertain an audience as though you were using the Perform skill. In such a case, your "act" encompasses elements of legerdemain, juggling, and the like.</p>
+const _sleight_of_hand = {hasJL:true,title: "Sleight of Hand", jsx: <><div className="jumpList" id="skill-sleight_of_hand-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-sleight_of_hand-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-sleight_of_hand-sleight-of-hand">Sleight of Hand</h2>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 104</Link>, <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 9</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Dexterity</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>Yes</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-sleight_of_hand-check">Check</h3>
+<p>A DC 10 Sleight of Hand check lets you palm a coin-sized, unattended object. Performing a minor feat of legerdemain, such as making a coin disappear, also has a DC of 10 unless an observer is determined to note where the item went.</p>
+<p>When you use this skill under close observation, your skill check is opposed by the observer's <Link to="/skill/perception">Perception</Link> check. The observer's success doesn't prevent you from performing the action, just from doing it unnoticed.</p>
+<p>You can hide a small object (including a <Link to="/main/light_weapon">light weapon</Link> or an easily concealed ranged weapon, such as a <Link to="/eq-weapon/dart">dart</Link>, <Link to="/eq-weapon/sling">sling</Link>, or <Link to="/eq-weapon/hand_crossbow">hand crossbow</Link>) on your body. Your Sleight of Hand check is opposed by the Perception check of anyone observing you or of anyone frisking you. In the latter case, the searcher gains a +4 bonus on the Perception check, since it's generally easier to find such an object than to hide it. A <Link to="/eq-weapon/dagger">dagger</Link> is easier to hide than most light weapons, and grants you a +2 bonus on your Sleight of Hand check to conceal it. An extraordinarily small object, such as a coin, <Link to="/eq-weapon/shuriken">shuriken</Link>, or ring, grants you a +4 bonus on your Sleight of Hand check to conceal it, and heavy or baggy clothing (such as a cloak) grants you a +2 bonus on the check.</p>
+<p>Drawing a hidden weapon is a <strong className="hl">standard action</strong> and doesn't provoke an attack of opportunity.</p>
+<p>A successful DC 20 Sleight of Hand check allows you to unobtrusively draw a weapon or other object no larger or longer than a light weapon (which includes potions, but not wands or alchemist bombs). Observers can notice you drawing the item as normal with opposed Perception checks. Creatures carefully observing you gain a +4 bonus on this Perception check.</p>
+<p>If you try to take something from a creature, you must make a DC 20 Sleight of Hand check. The opponent makes a Perception check to detect the attempt, opposed by the Sleight of Hand check result you achieved when you tried to grab the item. An opponent who succeeds on this check notices the attempt, regardless of whether you got the item. You cannot use this skill to take an object from another creature during combat if the creature is aware of your presence. (You can use the <Link to="/rule/steal">steal</Link> combat maneuver for that purpose.)</p>
+<p>You can also use Sleight of Hand to entertain an audience as though you were using the <Link to="/skill/perform">Perform</Link> skill. In such a case, your "act" encompasses elements of legerdemain, juggling, and the like.</p>
 <ScrollContainer id="skill-sleight_of_hand--table-0"><table>
 <thead>
 <tr>
@@ -3046,24 +3085,53 @@ const _sleight_of_hand = {hasJL:true,title: "Sleight of Hand", jsx: <><div class
 <td>Lift a small object from a person</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Any Sleight of Hand check is normally a standard action. However, you may perform a Sleight of Hand check as a move action by taking a -20 penalty on the check.</p>
-<p><strong>Try Again:</strong> Yes, but after an initial failure, a second Sleight of Hand attempt against the same target (or while you are being watched by the same observer who noticed your previous attempt) increases the DC for the task by 10.</p>
-<p><strong>Untrained:</strong> An untrained Sleight of Hand check is simply a Dexterity check. Without actual training, you can't succeed on any Sleight of Hand check with a DC higher than 10, except for hiding an object on your body.</p>
-<p><strong>Special:</strong> If you have the <Link to="/feat/deft_hands">Deft Hands</Link> feat, you get a bonus on Sleight of Hand checks.</p>
-<h3 id="skill-sleight_of_hand-palm-weapon" data-hash-target>Palm Weapon</h3>
-<p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 9</Link><br/>You can draw a light weapon without anyone noticing.</p>
-<p><strong>Check:</strong> A successful DC 20 Sleight of Hand check allows you to unobtrusively draw a weapon or other object no larger or longer than a light weapon (which includes potions, but not wands or alchemist bombs). Observers can notice you drawing the item as normal with opposed Perception checks. Creatures carefully observing you gain a +4 bonus on this Perception check.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-sleight_of_hand-action">Action</h3>
+<p>Any Sleight of Hand check is normally a <strong className="hl">standard action</strong>. However, you may perform a Sleight of Hand check as a <strong className="hl">move action</strong> by taking a -20 penalty on the check.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-sleight_of_hand-try-again">Try Again</h3>
+<p>Yes, but after an initial failure, a second Sleight of Hand attempt against the same target (or while you are being watched by the same observer who noticed your previous attempt) increases the DC for the task by 10.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-sleight_of_hand-untrained">Untrained</h3>
+<p>An untrained Sleight of Hand check is simply a Dexterity check. Without actual training, you can't succeed on any Sleight of Hand check with a DC higher than 10, except for hiding an object on your body.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-sleight_of_hand-special">Special</h3>
+<p>If you have the <Link to="/feat/deft_hands">Deft Hands</Link> feat, you get a bonus on Sleight of Hand checks.</p>
+</div>
 <h3 id="skill-sleight_of_hand-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>With sufficient ranks in Sleight of Hand, you earn the following.</p>
-<p><strong>5 Ranks:</strong> When attempting a disarm or steal maneuver, a successful Sleight of Hand check against your target's CMD grants a +2 circumstance bonus on your combat maneuver check.<br/><strong>10 Ranks:</strong> The penalty for attempting a Sleight of Hand check (including drawing a hidden weapon) as a move action is reduced to -10.<br/><strong>15 Ranks:</strong> You can attempt a Sleight of Hand check (including drawing a hidden weapon) as a swift action at a -20 penalty.<br/><strong>20 Ranks:</strong> You take no penalty for using Sleight of Hand as a move action, and take only a -10 penalty when using it as a swift action.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>When attempting a <Link to="/rule/disarm">disarm</Link> or steal maneuver, a successful Sleight of Hand check against your target's CMD grants a +2 circumstance bonus on your combat maneuver check.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>The penalty for attempting a Sleight of Hand check (including drawing a hidden weapon) as a <strong className="hl">move action</strong> is reduced to -10.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>You can attempt a Sleight of Hand check (including drawing a hidden weapon) as a <strong className="hl">swift action</strong> at a -20 penalty.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You take no penalty for using Sleight of Hand as a <strong className="hl">move action</strong>, and take only a -10 penalty when using it as a <strong className="hl">swift action</strong>.</Cell></Row></Block>
 </>};
-const _spellcraft = {hasJL:true,title: "Spellcraft", jsx: <><div className="jumpList" id="skill-spellcraft-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-spellcraft-salvaging">Salvaging</InnerLink></li><li><InnerLink toTop to="skill-spellcraft-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-spellcraft-spellcraft">Spellcraft</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 106</Link><br/><strong>Associated Skill:</strong> Intelligence<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> Spellcraft is used whenever your knowledge and skill of the technical art of casting a spell or crafting a magic item comes into question. This skill is also used to identify the properties of magic items in your possession through the use of spells such as <Link to="/spell/detect_magic">detect magic</Link> and <Link to="/spell/identify">identify</Link>. The DC of this check varies depending upon the task at hand.</p>
-<p><strong>Action:</strong> Identifying a spell as it is being cast requires no action, but you must be able to clearly see the spell as it is being cast, and this incurs the same penalties as a Perception skill check due to distance, poor conditions, and other factors. Learning a spell from a spellbook takes 1 hour per level of the spell (0-level spells take 30 minutes). Preparing a spell from a borrowed spellbook does not add any time to your spell preparation. Making a Spellcraft check to craft a magic item is made as part of the creation process. Attempting to ascertain the properties of a magic item takes 3 rounds per item to be identified and you must be able to thoroughly examine the object.</p>
-<p><strong>Retry:</strong> You cannot retry checks made to identify a spell. If you fail to learn a spell from a spellbook or scroll, you must wait at least 1 week before you can try again. If you fail to prepare a spell from a borrowed spellbook, you cannot try again until the next day. When using detect magic or identify to learn the properties of magic items, you can only attempt to ascertain the properties of an individual item once per day. Additional attempts reveal the same results.</p>
-<p><strong>Special:</strong> If you are a specialist wizard, you get a +2 bonus on Spellcraft checks made to identify, learn, and prepare spells from your chosen school. Similarly, you take a -5 penalty on similar checks made concerning spells from your opposition schools.</p>
-<p>An elf gets a +2 racial bonus on Spellcraft checks to identify the properties of magic items.</p>
+const _spellcraft = {hasJL:true,title: "Spellcraft", jsx: <><div className="jumpList" id="skill-spellcraft-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-spellcraft-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-spellcraft-spellcraft">Spellcraft</h2>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 106</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Intelligence</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-spellcraft-check">Check</h3>
+<p>Spellcraft is used whenever your knowledge and skill of the technical art of casting a spell or crafting a magic item comes into question. This skill is also used to identify the properties of magic items in your possession through the use of spells such as <Link to="/spell/detect_magic">detect magic</Link> and <Link to="/spell/identify">identify</Link>. The DC of this check varies depending upon the task at hand.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-spellcraft-action">Action</h3>
+<p>Identifying a spell as it is being cast requires no action, but you must be able to clearly see the spell as it is being cast, and this incurs the same penalties as a <Link to="/skill/perception">Perception</Link> skill check due to distance, poor conditions, and other factors.</p>
+<p>Learning a spell from a spellbook takes 1 hour per level of the spell (0-level spells take 30 minutes). Preparing a spell from a borrowed spellbook does not add any time to your spell preparation.</p>
+<p>Making a Spellcraft check to craft a magic item is made as part of the creation process.</p>
+<p>Attempting to ascertain the properties of a magic item takes 3 rounds per item to be identified and you must be able to thoroughly examine the object.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-spellcraft-try-again">Try Again</h3>
+<p>You cannot retry checks made to identify a spell.</p>
+<p>If you fail to learn a spell from a spellbook or scroll, you must wait at least 1 week before you can try again. If you fail to prepare a spell from a borrowed spellbook, you cannot try again until the next day.</p>
+<p>When using <em>detect magic</em> or <em>identify</em> to learn the properties of magic items, you can only attempt to ascertain the properties of an individual item once per day. Additional attempts reveal the same results.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-spellcraft-special">Special</h3>
+<p>If you are a specialist wizard, you get a +2 bonus on Spellcraft checks made to identify, learn, and prepare spells from your chosen school. Similarly, you take a -5 penalty on similar checks made concerning spells from your opposition schools.</p>
+<p>An <Link to="/race/elf">elf</Link> gets a +2 racial bonus on Spellcraft checks to identify the properties of magic items.</p>
 <p>If you have the <Link to="/feat/magical_aptitude">Magical Aptitude</Link> feat, you gain a bonus on Spellcraft checks.</p>
 <ScrollContainer id="skill-spellcraft--table-0"><table>
 <thead>
@@ -3092,38 +3160,63 @@ const _spellcraft = {hasJL:true,title: "Spellcraft", jsx: <><div className="jump
 <td>Decipher a scroll</td>
 <td>20 + spell level</td>
 </tr>
-<tr>
-<td>Craft a magic item</td>
-<td>Varies by item</td>
-</tr>
 </tbody></table></ScrollContainer>
-<h3 id="skill-spellcraft-salvaging" data-hash-target>Salvaging</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 134</Link><br/>Foraging is one way to gather resources in the wild, but you can also recycle or repurpose items and gear as well, salvaging materials from items you no longer need or are willing to sacrifice. You can't salvage materials from artifacts, cursed items, or items you can't destroy. Successfully salvaging an item requires a Craft or Spellcraft check and takes an amount of time as indicated in the specific type of salvage operation below.</p>
-<p><strong>Potions:</strong> If you have the <Link to="/feat/brew_potion">Brew Potion</Link> feat, you can combine natural catalysts with a potion to salvage it and create a different potion of a lower spell level. Salvaging a potion requires raw magic item materials (these can be salvaged from existing items, as detailed below). To salvage a potion, you must spend 1 hour per spell level of the original potion and then attempt a Craft (alchemy) or Spellcraft check with a DC equal to 15 + 3 &times; the original potion's spell level. If you succeed, you transmute the original potion into a new potion of a spell at least one spell level lower, provided you know the spell in question (it need not be one you can currently cast). If you fail this check by 4 or less, the attempt fails and the catalyst is wasted, but the potion is unharmed. If you fail by 5 or more, the raw materials are lost and the original potion is ruined.</p>
-<p><strong>Raw Magic Item Materials:</strong> Anyone with an item creation feat can salvage the raw materials from magic items for the creation of new ones or repair of existing ones. You must have the item creation feat required for that item to salvage its raw materials. Each attempt requires destroying a magic item and 8 hours of work. If the item's price is 500 gp or less, you can salvage its materials in only 2 hours. A successful Craft or Spellcraft check with a DC equal to 10 + the item's caster level yields raw materials worth two-thirds the creation cost of the destroyed item (one-third the market price). If you fail the skill check by 4 or less, the item is destroyed but the materials can still be salvaged in a future attempt. If you fail the skill check by 5 or more, the item is destroyed and the materials are ruined. Salvaged raw materials can be used to create or repair any item made of similar materials or that shares any of the creation requirements as the original. Including the majority of the materials allows you to automatically meet any construction requirements of a new item that the salvaged item also required and reduces the construction or repair time by the proportion of the new item's construction materials that are salvaged (with the usual minimum creation time). Spellbooks and formula books can be salvaged for magic inks and paper usable in formula books, scrolls, and spellbooks.</p>
-<p><strong>Costly Spell Components:</strong> Anyone trained in Spellcraft can salvage costly material or focus spell components from magic items. Each attempt requires destroying the item and 8 hours of work. An item can be broken down into a powder that can be used in place of gemstone dust as a material component. Otherwise, the item must have a spell requiring the component in its construction requirements to salvage that component. A successful Spellcraft check with a DC equal to 10 + the item's caster level yields materials usable in place of that spell component worth two-thirds the item's creation cost (one-third its market price). If you fail the check by 4 or less, the item is destroyed without yielding spell components, but you can try to salvage them again. If you fail the check by 5 or more, the item is destroyed and the spell components are ruined.</p>
+<p>Spellcraft is also used in the <Link to="/rule/salvaging">salvaging</Link> rules.</p>
+</div>
 <h3 id="skill-spellcraft-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>With sufficient ranks in Spellcraft, you earn the following.</p>
-<p><strong>5 Ranks:</strong> Identifying magic items takes 1 full round, and the time required to learn a spell from a spellbook is halved.<br/><strong>10 Ranks:</strong> You can identify magic items without using <Link to="/spell/detect_magic">detect magic</Link>, though the DC is increased by 10.<br/><strong>15 Ranks:</strong> Identifying magic items is a standard action, and the time required to learn a new spell from a spellbook is reduced to 1 minute per spell level.<br/><strong>20 Ranks:</strong> Whenever you attempt a caster level check, attempt a Spellcraft check at a -20 penalty at the same DC. If the spellcraft check succeeds, you gain a +2 circumstance bonus on your caster level check.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>Identifying magic items takes 1 full round, and the time required to learn a spell from a spellbook is halved.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>You can identify magic items without using <Link to="/spell/detect_magic">detect magic</Link>, though the DC is increased by 10.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>Identifying magic items is a <strong className="hl">standard action</strong>, and the time required to learn a new spell from a spellbook is reduced to 1 minute per spell level.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a caster level check, attempt a Spellcraft check at a -20 penalty at the same DC. If the spellcraft check succeeds, you gain a +2 circumstance bonus on your caster level check.</Cell></Row></Block>
 </>};
 const _stealth = {hasJL:true,title: "Stealth", jsx: <><div className="jumpList" id="skill-stealth-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-stealth-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-stealth-stealth">Stealth</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 106</Link><br/><strong>Associated Skill:</strong> Dexterity<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> Your Stealth check is opposed by the Perception check of anyone who might notice you. Creatures that fail to beat your Stealth check are not aware of you and treat you as if you had total <Link to="/rule/concealment">concealment</Link>. You can move up to half your normal speed and use Stealth at no penalty. When moving at a speed greater than half but less than your normal speed, you take a -5 penalty. It's impossible to use Stealth while attacking, running, or charging.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 106</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Dexterity</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-stealth-check">Check</h3>
+<p>Your Stealth check is opposed by the <Link to="/skill/perception">Perception</Link> check of anyone who might notice you. Creatures that fail to beat your Stealth check are not aware of you and treat you as if you had total <Link to="/rule/concealment">concealment</Link>. You can move up to half your normal speed and use Stealth at no penalty. When moving at a speed greater than half but less than your normal speed, you take a -5 penalty. It's impossible to use Stealth while attacking, running, or charging.</p>
 <p>Creatures gain a bonus or penalty on Stealth checks based on their size: Fine +16, Diminutive +12, Tiny +8, Small +4, Medium +0, Large -4, Huge -8, Gargantuan -12, Colossal -16.</p>
-<p>If people are observing you using any of their senses (but typically sight), you can't use Stealth. Against most creatures, finding cover or concealment allows you to use Stealth. If your observers are momentarily distracted (such as by a Bluff check), you can attempt to use Stealth. While the others turn their attention from you, you can attempt a Stealth check if you can get to an unobserved place of some kind. This check, however, is made at a -10 penalty because you have to move fast.</p>
-<p><em>Breaking Stealth:</em> When you start your turn using Stealth, you can leave cover or concealment and remain unobserved as long as you succeed at a Stealth check and end your turn in cover or concealment. Your Stealth immediately ends after you make an attack roll, whether or not the attack is successful (except when sniping as noted below).</p>
-<p><em>Sniping:</em> If you've already successfully used Stealth at least 10 feet from your target, you can make one ranged attack and then immediately use Stealth again. You take a -20 penalty on your Stealth check to maintain your obscured location.</p>
-<p><em>Creating a Diversion to Hide:</em> You can use Bluff to allow you to use Stealth. A successful Bluff check can give you the momentary diversion you need to attempt a Stealth check while people are aware of you.</p>
-<p><strong>Action:</strong> Usually none. Normally, you make a Stealth check as part of movement, so it doesn't take a separate action. However, using Stealth immediately after a ranged attack (see Sniping, above) is a move action.</p>
-<p><strong>Special:</strong> If you are invisible, you gain a +40 bonus on Stealth checks if you are immobile, or a +20 bonus on Stealth checks if you're moving.</p>
+<p>If people are observing you using any of their senses (but typically sight), you can't use Stealth. Against most creatures, finding <Link to="/rule/cover">cover</Link> or <Link to="/rule/concealment">concealment</Link> allows you to use Stealth. If your observers are momentarily distracted (such as by a <Link to="/skill/bluff">Bluff</Link> check), you can attempt to use Stealth. While the others turn their attention from you, you can attempt a Stealth check if you can get to an unobserved place of some kind. This check, however, is made at a -10 penalty because you have to move fast.</p>
+<h4 id="skill-stealth-breaking-stealth">Breaking Stealth</h4>
+<p>When you start your turn using Stealth, you can leave cover or concealment and remain unobserved as long as you succeed at a Stealth check and end your turn in cover or concealment. Your Stealth immediately ends after you make an attack roll, whether or not the attack is successful (except when <em>sniping</em> as noted below).</p>
+<h4 id="skill-stealth-sniping">Sniping</h4>
+<p>If you've already successfully used Stealth at least 10 feet from your target, you can make one ranged attack and then immediately use Stealth again. You take a -20 penalty on your Stealth check to maintain your obscured location.</p>
+<h4 id="skill-stealth-creating-a-diversion-to-hide">Creating a Diversion to Hide</h4>
+<p>You can use Bluff to allow you to use Stealth. A successful Bluff check can give you the momentary diversion you need to attempt a Stealth check while people are aware of you.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-stealth-action">Action</h3>
+<p>Usually none. Normally, you make a Stealth check as part of movement, so it doesn't take a separate action. However, using Stealth immediately after a ranged attack (see Sniping, above) is a <strong className="hl">move action</strong>.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-stealth-special">Special</h3>
+<p>If you are invisible, you gain a +40 bonus on Stealth checks if you are immobile, or a +20 bonus on Stealth checks if you're moving.</p>
 <p>If you have the <Link to="/feat/stealthy">Stealthy</Link> feat, you get a bonus on Stealth checks.</p>
+</div>
 <h3 id="skill-stealth-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>With sufficient ranks in Stealth, you earn the following.</p>
-<p><strong>5 Ranks:</strong> Reduce the Stealth penalty from sniping by 10.<br/><strong>10 Ranks:</strong> Stealth check penalties for moving quickly are halved, including the ability unlocked at 5 ranks, moving full speed, and reaching concealment after creating a distraction.<br/><strong>15 Ranks:</strong> If you attack after successfully using Stealth, your target is denied its Dexterity bonus against all attacks that you make before the end of your turn.<br/><strong>20 Ranks:</strong> If you attack after successfully using Stealth, your target is denied its Dexterity bonus against all attacks that you make before the beginning of your next turn.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>Reduce the Stealth penalty from sniping by 10.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>Stealth check penalties for moving quickly are halved, including the ability unlocked at 5 ranks, moving full speed, and reaching concealment after creating a distraction.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>If you attack after successfully using Stealth, your target is denied its Dexterity bonus against all attacks that you make before the end of your turn.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>If you attack after successfully using Stealth, your target is denied its Dexterity bonus against all attacks that you make before the beginning of your next turn.</Cell></Row></Block>
 </>};
-const _survival = {hasJL:true,title: "Survival", jsx: <><div className="jumpList" id="skill-survival-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-survival-tracking-underwater">Tracking Underwater</InnerLink></li><li><InnerLink toTop to="skill-survival-building-makeshift-tools-and-structures">Building Makeshift Tools and Structures</InnerLink></li><li><InnerLink toTop to="skill-survival-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-survival-dowsing">Dowsing</InnerLink></li><li><InnerLink toTop to="skill-survival-foraging">Foraging</InnerLink></li><li><InnerLink toTop to="skill-survival-harvesting-poison">Harvesting Poison</InnerLink></li><li><InnerLink toTop to="skill-survival-making-a-fire">Making a Fire</InnerLink></li><li><InnerLink toTop to="skill-survival-obscuring-tracks">Obscuring Tracks</InnerLink></li><li><InnerLink toTop to="skill-survival-snares-and-simple-traps">Snares and Simple Traps</InnerLink></li><li><InnerLink toTop to="skill-survival-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-survival-survival">Survival</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 107</Link><br/><strong>Associated Skill:</strong> Wisdom<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> You can keep yourself and others safe and fed in the wild. The table below gives the DCs for various tasks that require Survival checks.</p>
+const _survival = {hasJL:true,title: "Survival", jsx: <><div className="jumpList" id="skill-survival-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-survival-tracking-underwater">Tracking Underwater</InnerLink></li><li><InnerLink toTop to="skill-survival-building-makeshift-tools-and-structures">Building Makeshift Tools and Structures</InnerLink></li><li><InnerLink toTop to="skill-survival-snares-and-simple-traps">Snares and Simple Traps</InnerLink></li><li><InnerLink toTop to="skill-survival-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-survival-dowsing">Dowsing</InnerLink></li><li><InnerLink toTop to="skill-survival-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-survival-survival">Survival</h2>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 107</Link>, <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 8</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Wisdom</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-survival-check">Check</h3>
+<p>You can keep yourself and others safe and fed in the wild. The table below gives the DCs for various tasks that require Survival checks.</p>
 <ScrollContainer id="skill-survival--table-0"><table>
 <thead>
 <tr>
@@ -3133,7 +3226,7 @@ const _survival = {hasJL:true,title: "Survival", jsx: <><div className="jumpList
 </thead>
 <tbody><tr>
 <td>10</td>
-<td>Get along in the wild. Move up to half your overland speed while hunting and foraging (no food or water supplies needed). You can provide food and water for one other person for every 2 points by which your check result exceeds 10.</td>
+<td>Get along in the wild. Move up to half your <Link to="/rule/overland_speed">overland speed</Link> while hunting and foraging (no food or water supplies needed). You can provide food and water for one other person for every 2 points by which your check result exceeds 10.</td>
 </tr>
 <tr>
 <td>15</td>
@@ -3147,37 +3240,38 @@ const _survival = {hasJL:true,title: "Survival", jsx: <><div className="jumpList
 <td>15</td>
 <td>Predict the weather up to 24 hours in advance. For every 5 points by which your Survival check result exceeds 15, you can predict the weather for one additional day in advance.</td>
 </tr>
+<tr>
+<td>20</td>
+<td>Make a fire even without <Link to="/eq-misc/flint_and_steel">flint and steel</Link> or other fire-making tools.</td>
+</tr>
 </tbody></table></ScrollContainer>
-<p><em>Follow Tracks:</em> To find tracks or to follow them for 1 mile requires a successful Survival check. You must make another Survival check every time the tracks become difficult to follow. If you are not trained in this skill, you can make untrained checks to find tracks, but you can follow them only if the DC for the task is 10 or lower. Alternatively, you can use the Perception skill to find a footprint or similar sign of a creature's passage using the same DCs, but you can't use Perception to follow tracks, even if someone else has already found them.</p>
+<h4 id="skill-survival-follow-tracks">Follow Tracks</h4>
+<p>To find tracks or to follow them for 1 mile requires a successful Survival check. You must make another Survival check every time the tracks become difficult to follow. If you are not trained in this skill, you can make untrained checks to find tracks, but you can follow them only if the DC for the task is 10 or lower. Alternatively, you can use the <Link to="/skill/perception">Perception</Link> skill to find a footprint or similar sign of a creature's passage using the same DCs, but you can't use Perception to follow tracks, even if someone else has already found them.</p>
 <p>You move at half your normal speed while following tracks (or at your normal speed with a -5 penalty on the check, or at up to twice your normal speed with a -20 penalty on the check). The DC depends on the surface and the prevailing conditions, as given on the table.</p>
 <ScrollContainer id="skill-survival--table-1"><table>
 <thead>
 <tr>
-<th>Surface</th>
 <th>Survival DC</th>
+<th>Surface</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>Very soft ground</td>
 <td>5</td>
+<td>Very soft ground: Any surface (fresh snow, thick dust, wet mud) that holds deep, clear impressions of footprints.</td>
 </tr>
 <tr>
-<td>Soft ground</td>
 <td>10</td>
+<td>Soft ground: Any surface soft enough to yield to pressure, but firmer than wet mud or fresh snow, in which a creature leaves frequent but shallow footprints.</td>
 </tr>
 <tr>
-<td>Firm ground</td>
 <td>15</td>
+<td>Firm ground: Most normal outdoor surfaces (such as lawns, fields, woods, and the like) or exceptionally soft or dirty indoor surfaces (thick rugs and very dirty or dusty floors). The creature might leave some traces (broken branches or tufts of hair), but it leaves only occasional or partial footprints.</td>
 </tr>
 <tr>
-<td>Hard ground</td>
 <td>20</td>
+<td>Hard ground: Any surface that doesn't hold footprints at all, such as bare rock or an indoor floor. Most streambeds fall into this category, since any footprints left behind are obscured or washed away. The creature leaves only traces (scuff marks or displaced pebbles).</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><em>Very Soft Ground:</em> Any surface (fresh snow, thick dust, wet mud) that holds deep, clear impressions of footprints.</p>
-<p><em>Soft Ground:</em> Any surface soft enough to yield to pressure, but firmer than wet mud or fresh snow, in which a creature leaves frequent but shallow footprints.</p>
-<p><em>Firm Ground:</em> Most normal outdoor surfaces (such as lawns, fields, woods, and the like) or exceptionally soft or dirty indoor surfaces (thick rugs and very dirty or dusty floors). The creature might leave some traces (broken branches or tufts of hair), but it leaves only occasional or partial footprints.</p>
-<p><em>Hard Ground:</em> Any surface that doesn't hold footprints at all, such as bare rock or an indoor floor. Most streambeds fall into this category, since any footprints left behind are obscured or washed away. The creature leaves only traces (scuff marks or displaced pebbles).</p>
 <p>Several modifiers may apply to the Survival check, as given on the tables below.</p>
 <ScrollContainer id="skill-survival--table-2"><table>
 <thead>
@@ -3244,7 +3338,7 @@ const _survival = {hasJL:true,title: "Survival", jsx: <><div className="jumpList
 <td>+3</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p>Apply only the largest modifier from this category.</p>
+<p>Apply only the largest modifier from the Poor Visibility category.</p>
 <ScrollContainer id="skill-survival--table-4"><table>
 <thead>
 <tr>
@@ -3273,30 +3367,49 @@ const _survival = {hasJL:true,title: "Survival", jsx: <><div className="jumpList
 <td>+5</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Varies. A single Survival check may represent activity over the course of hours or a full day. A Survival check made to find tracks is at least a full-round action, and it may take even longer.</p>
-<p><strong>Try Again:</strong> Varies. For getting along in the wild or for gaining the Fortitude save bonus noted in the first table above, you make a Survival check once every 24 hours. The result of that check applies until the next check is made. To avoid getting lost or avoid natural hazards, you make a Survival check whenever the situation calls for one. Retries to avoid getting lost in a specific situation or to avoid a specific natural hazard are not allowed. For finding tracks, you can retry a failed check after 1 hour (outdoors) or 10 minutes (indoors) of searching.</p>
-<p><strong>Special:</strong> If you are trained in Survival, you can automatically determine where true north lies in relation to yourself.</p>
+<h3 id="skill-survival-obscuring-tracks">Obscuring Tracks</h3>
+<p>You can use Survival to make your tracks more difficult to follow. A successful DC 15 Survival check increases the DC of following your tracks by 4. You can move at only half speed while obscuring your tracks unless you increase the Survival check DC to do so by 5. If you're traveling in a group, for every creature beyond yourself whose tracks you wish to obscure, increase the DC by an additional 1. Large creatures count as two creatures for this purpose, and Huge creatures count as four. You cannot conceal the tracks of groups traveling with Gargantuan or larger creatures.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-survival-action">Action</h3>
+<p>Varies. A single Survival check may represent activity over the course of hours or a full day. A Survival check made to find tracks is at least a <strong className="hl">full-round action</strong>, and it may take even longer. Finding suitable materials to start a fire requires 10 minutes of effort.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-survival-try-again">Try Again</h3>
+<p>Varies. For getting along in the wild or for gaining the Fortitude save bonus noted in the first table above, you make a Survival check once every 24 hours. The result of that check applies until the next check is made. To avoid getting lost or avoid natural hazards, you make a Survival check whenever the situation calls for one. Retries to avoid getting lost in a specific situation or to avoid a specific natural hazard are not allowed. For finding tracks, you can retry a failed check after 1 hour (outdoors) or 10 minutes (indoors) of searching.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-survival-special">Special</h3>
+<p>If you are trained in Survival, you can automatically determine where true north lies in relation to yourself.</p>
 <p>A ranger gains a bonus on Survival checks when using this skill to find or follow the tracks of a <Link to="/ability/favored_enemy">favored enemy</Link>.</p>
 <p>If you have the <Link to="/feat/self_sufficient">Self-Sufficient</Link> feat, you get a bonus on Survival checks.</p>
+<p>Survival is heavily used in the <Link to="/rule/foraging">foraging</Link> and <Link to="/rule/harvesting_poisons">harvesting poisons</Link> rulesets.</p>
+</div>
 <h3 id="skill-survival-tracking-underwater" data-hash-target>Tracking Underwater</h3>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 47</Link><br/>Creatures with keen scent, like sharks, can track blood trails from an incredible distance, making it easier to track wounded targets in tandem with such a creature. Otherwise, it's much harder to track a creature underwater with Survival unless the target is moving along the bottom or through something that might leave signs, like a coral reef or sargassum. Even then, the water quickly washes away signs of passage. The Survival DC to track in such a situation starts at 10, and increases by 1 for every 10 minutes after the target has passed through (or by 1 for every minute in areas with a current).</p>
 <h3 id="skill-survival-building-makeshift-tools-and-structures" data-hash-target>Building Makeshift Tools and Structures</h3>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 8</Link><br/>With a successful DC 15 Survival check and 1 hour of work, you can build the following temporary tools and structures from natural materials using a handaxe, kukri, utility knife, or similar item (including anything that can be used as a shovel, if building a snow cave). Without a proper tool, you have to use improvised tools (imposing a -2 penalty on the Survival check). Makeshift structures and objects have half the normal hardness and hit points of a properly constructed version, and have a 10% chance of falling apart for each day of use. GMs may choose to allow other primitive tools based on these, at their discretion.</p>
-<p><strong>Cooking Vessel:</strong> Flat rocks can be used as primitive frying pans, and wood can be hollowed out and charred to make simple bowls and even pots.</p>
-<p><strong>Lean-To:</strong> This rudimentary shelter for two creatures of your size grants its occupants a +4 bonus on Fortitude saves against severe weather. The construction requires 20 feet of rope.</p>
-<p><strong>Raft:</strong> This log raft for two people requires 10 feet of rope to construct.</p>
-<p><strong>Rope:</strong> Makeshift rope is constructed in 10-foot lengths, though multiple lengths can be spliced together to make a longer rope. A makeshift rope gains the broken condition if the user rolls a natural 1 on a skill check involving the rope. If already broken, the rope snaps instead.</p>
-<p><strong>Snow Cave:</strong> The temperature in an inhabited snow cave generally remains around 32&deg; F regardless of outside temperature. A lit candle further increases the temperature by 10&deg; F.</p>
-<p><strong>Torch:</strong> A makeshift torch burns for 1d6 &times; 5 minutes and has the <Link to="/misc/fragile">fragile</Link> quality if used as an improvised weapon.</p>
+<Block size="simple">
+<Row><Cell>Cooking Vessel</Cell><Cell>Flat rocks can be used as primitive frying pans, and wood can be hollowed out and charred to make simple bowls and even pots.</Cell></Row>
+<Row><Cell>Lean-To</Cell><Cell>This rudimentary shelter for two creatures of your size grants its occupants a +4 bonus on Fortitude saves against severe weather. The construction requires 20 feet of rope.</Cell></Row>
+<Row><Cell>Raft</Cell><Cell>This log raft for two people requires 10 feet of rope to construct.</Cell></Row>
+<Row><Cell>Rope</Cell><Cell>Makeshift rope is constructed in 10-foot lengths, though multiple lengths can be spliced together to make a longer rope. A makeshift rope gains the <Link to="/misc/broken">broken</Link> condition if the user rolls a natural 1 on a skill check involving the rope. If already broken, the rope snaps instead.</Cell></Row>
+<Row><Cell>Snow Cave</Cell><Cell>The temperature in an inhabited snow cave generally remains around 32&deg; F regardless of outside temperature. A lit candle further increases the temperature by 10&deg; F.</Cell></Row>
+<Row><Cell>Torch</Cell><Cell>A makeshift torch burns for 1d6 &times; 5 minutes and has the <Link to="/misc/fragile">fragile</Link> quality if used as an <Link to="/misc/improvised_weapon">improvised weapon</Link>.</Cell></Row></Block>
+<h3 id="skill-survival-snares-and-simple-traps" data-hash-target>Snares and Simple Traps</h3>
+<p>As a normal part of using a Survival check to get along in the wild, a character can make simple snares and deadfalls to trap small game. Though not as robust or dangerous as ranger traps or traps created using the Craft (traps) skill, simple traps and snares can also be used against prey that is more dangerous than typical game.</p>
+<p>Regardless of the nature of its construction, such a trap acts as an extraordinary ranger <Link to="/rangertrap/snare_trap">snare trap</Link>, with the following modifications. With a successful DC 15 Survival check, a simple trap can be constructed in 20 minutes in a typical wilderness area using proper tools. The trap affects only creatures of a single size category, determined when the trap is constructed. (Smaller creatures slip out easily, and larger creatures are too big to be effectively snared.) The trap is obvious unless it is hidden with a successful DC 20 <Link to="/skill/stealth">Stealth</Link> check, in which case noticing it requires a successful DC 15 Perception check. The trap's DC is 13, it has 10 hit points, and it can be burst with a successful DC 15 Strength check. If left unattended, a simple trap has a 25% chance of becoming ineffective each day.</p>
+<p>Characters who wish to create more effective traps should invest skill ranks in <Link to="/skill/craft">Craft</Link> (traps) or take the <Link to="/feat/learn_ranger_trap">Learn Ranger Trap</Link> feat.</p>
 <h3 id="skill-survival-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
 <p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.</p>
 <h4 id="skill-survival-dowsing" data-hash-target>Dowsing</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 195</Link></p>
 <p>You channel mysterious forces in the nearby environment to locate hidden resources.</p>
-<p><strong>Check:</strong> Once per day, you can follow a dowsing rod's movements to locate a particular type of location. Each attempt requires 10 minutes of intense concentration, after which you attempt the Survival check with the DC listed on the table below. The maximum range at which you can detect anything using dowsing is 400 feet + 40 feet per rank in Survival you possess. The rod's directions persist for up to 10 minutes. You choose a particular target each time you dowse, and get the following information on a successful check.</p>
-<p><em>Find Water:</em> The dowsing rod points toward the largest source of fresh water within range, including aquifers, lakes, ponds, and springs.</p>
-<p><em>Grave Dowsing:</em> The dowsing rod points in the direction of the largest burial site, cairn, or tomb within range.</p>
-<p><em>Locate Metal and Gems:</em> You concentrate on a specific metal or mineral. On a successful check, the dowsing rod points to the largest quantity of the selected mineral within range.</p>
+<div className="semiheaderGroup"><h3 id="skill-survival-check">Check</h3>
+<p>Once per day, you can follow a dowsing rod's movements to locate a particular type of location. Each attempt requires 10 minutes of intense concentration, after which you attempt the Survival check with the DC listed on the table below. The maximum range at which you can detect anything using dowsing is 400 feet + 40 feet per rank in Survival you possess. The rod's directions persist for up to 10 minutes. You choose a particular target each time you dowse, and get the following information on a successful check.</p>
+<h4 id="skill-survival-find-water">Find Water</h4>
+<p>The dowsing rod points toward the largest source of fresh water within range, including aquifers, lakes, ponds, and springs.</p>
+<h4 id="skill-survival-grave-dowsing">Grave Dowsing</h4>
+<p>The dowsing rod points in the direction of the largest burial site, cairn, or tomb within range.</p>
+<h4 id="skill-survival-locate-metal-and-gems">Locate Metal and Gems</h4>
+<p>You concentrate on a specific metal or mineral. On a successful check, the dowsing rod points to the largest quantity of the selected mineral within range.</p>
 <ScrollContainer id="skill-survival--table-5"><table>
 <thead>
 <tr>
@@ -3317,71 +3430,32 @@ const _survival = {hasJL:true,title: "Survival", jsx: <><div className="jumpList
 <td>25</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Action:</strong> Dowsing attempts take 10 minutes to initiate. The results of the check persist for 10 minutes afterward.</p>
-<p><strong>Try Again:</strong> Yes. You can try to dowse from the same location more than once, but still only once per day.</p>
-<h3 id="skill-survival-foraging" data-hash-target>Foraging</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 134</Link></p>
-<p>These foraging techniques assume a search in a typically bountiful wilderness area. The exact time required to forage for supplies depends on the specific supplies desired and the type of terrain being searched, as does the DC of the skill check to successfully forage, as listed on the table below. As a general rule, a character who spends more than 8 hours per day foraging becomes fatigued.</p>
-<p>The base amount of time required to forage for supplies depends on the type of supplies you're searching for, as listed in each supply category below. When foraging, multiply this base time by the terrain's "forage factor" as listed on the table below. Whether the terrain in question counts as standard, barren, or abundant depends on the type of terrain being searched, what is begin searched for, and the GM's discretion (for example, a remote shoreline may qualify as abundant for the purposes of foraging for tools and weapons, but barren for the purposes of foraging for herbs), but in most cases, the standard category should be used. Rugged terrain includes all terrain with difficult physical obstacles (numerous steep mountainsides or cliffs, particularly dense undergrowth, or any other terrain where the searcher's movement type is impeded), and its forage factor stacks with other forage factors for different types of terrain.</p>
-<ScrollContainer id="skill-survival--table-6"><table>
-<thead>
-<tr>
-<th>Type of Terrain</th>
-<th>Forage Factor</th>
-<th>Forage DC</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Standard</td>
-<td>&times;1</td>
-<td>15</td>
-</tr>
-<tr>
-<td>Barren</td>
-<td>&times;2</td>
-<td>20</td>
-</tr>
-<tr>
-<td>Abundant</td>
-<td>&times;1/2</td>
-<td>10</td>
-</tr>
-<tr>
-<td>Terrain is rugged</td>
-<td>&times;2</td>
-<td>+5</td>
-</tr>
-</tbody></table></ScrollContainer>
-<p>Time spent to forage for supplies need not be consecutive and can be split over multiple days. Once the required time has passed, attempt a skill check against the appropriate forage DC as indicated on the table above; typically this is a Survival check, but searching for some types of supplies sometimes allows the substitution of a different skill.</p>
-<p>When a character attempts to forage for supplies, he must choose what kind of supplies he is searching for from the broad categories detailed below.</p>
-<p><strong>Alchemical Supplies and Material Components:</strong> Many alchemical supplies and material components can be found in the wilderness. You can forage enough supplies to approximate the contents of an alchemy crafting kit or a spell component pouch with a successful Survival check and 2d4 hours of effort, but the GM can rule that certain components simply aren't available in an area (for example, bat guano cannot be foraged in terrain where no bats live). If a component is unavailable in the area but its cost remains negligible, you can create a rudimentary substitute component from your foraged supplies with a successful Craft (alchemy) or Spellcraft check and 1 hour of effort (DC = 15 + double the level of the extract or spell). An extract or spell cast with such an improvised substitute has a 20% chance of failure (in addition to any other chance of failure). Focus components or costly material components cannot be foraged.</p>
-<p><strong>Herbs:</strong> Foraging for specific herbs requires a <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> or <Link to="/skill/profession">Profession (herbalist)</Link> check and follows special rules.</p>
-<p><strong>Repair Materials and Improvised Tools:</strong> A period of 1d6 hours and a successful Survival check are enough to forage rudimentary supplies to perform field repairs for damaged equipment when the proper tools and supplies are not available. On a successful check, a character gathers the equivalent of 2d6 gp in raw materials. She must still spend the time and attempt Craft or Spellcraft skill checks as normal to use these materials to repair an object, but she takes a -5 penalty on the check due to the foraged nature of the materials used. Repair materials gathered in this way cannot be sold.</p>
-<p>If these gathered materials are instead used to craft improvised tools, a successful forage check gathers only the equivalent of 1d6 gp in raw materials. A Craft or Spellcraft check to repair an object or to craft an improvised tool with foraged supplies always fails on a natural 1.</p>
-<p><strong>Weapons:</strong> Functional clubs and quarterstaves can be foraged with 10 minutes of foraging in any area with trees or wood; in other regions, clubs and quarterstaves require 1d4 hours of searching and function as improvised weapons. At the GM's discretion, other improvised weapons can be foraged.</p>
-<h3 id="skill-survival-harvesting-poison" data-hash-target>Harvesting Poison</h3>
-<p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 142</Link><br/>While some think of poison as an assassin's tool, the herbalists and naturalists of the world know that poison carries in it no more inherent evil than fire or water. Indeed, in the wildlands of the world, harvesting poison to give a hunter an edge or to aid in the production of antivenom is a time-honored practice.</p>
-<p>While Craft (alchemy) is necessary to brew long-lasting poisons, there are many natural sources of poison in the world, and poison crafters who wish to avoid the expense of purchasing raw ingredients may seek to harvest poison from natural sources instead. The following section presents rules for harvesting poisons from the wild.</p>
-<p>Unless a dose of harvested poison is preserved (see <Link to="/rule/harvesting_poisons">Preserving Harvested Poison</Link>), it remains potent for 24 hours after it is harvested.</p>
-<h4 id="skill-survival-harvesting-from-dead-creatures">Harvesting from Dead Creatures</h4>
-<p>Once a venomous creature is slain, its venom sacs can be removed, allowing 1 or more doses of its venom to be harvested for later use. In order to harvest venom, the creature must have been dead for less than 24 hours. Every hour the source creature has been dead reduces the lifespan of the harvested poison by an hour. Removing venom sacs is a messy and timeconsuming process, requiring 10 minutes of work, access to surgical tools, and a container to store the venom in. If proper surgical tools are not available, a dagger or other light slashing weapon can be used, although this imposes a -2 penalty on checks to harvest the venom. The harvester must succeed at a Survival check (DC = 15 + the dead creature's CR) in order to successfully harvest poison. On a success, the harvester acquires a single dose of the creature's venom, plus 1 additional dose for every 5 by which the result of this check exceeded the DC (to a maximum number of doses equal to the creature's Constitution modifier, minimum 1). Failing the check causes all of the venom to be lost. Failure by 5 or more exposes the harvester to 1d3 doses of the creature's venom unless she has the poison use class feature.</p>
-<h4 id="skill-survival-harvesting-poison-from-hazards">Harvesting Poison from Hazards</h4>
-<p>Some hazards, such as poison oak and spider vines, feature poisons that can be harvested by those who know how to do so. This process requires 1 hour and an alchemist's lab or alchemy crafting kit. If the harvester succeeds at a Survival check (DC = 15 + the hazard's CR), she collects 1 dose of poison. Harvesting poison from a hazard in this way requires getting close enough to it to touch it, which may expose the harvester to the hazard's effects.</p>
-<h3 id="skill-survival-making-a-fire" data-hash-target>Making a Fire</h3>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 8</Link><br/>It is possible to make a fire even without flint and steel or other fire-making tools. Finding suitable materials to start a fire requires 10 minutes of effort and a successful DC 20 Survival check.</p>
-<h3 id="skill-survival-obscuring-tracks" data-hash-target>Obscuring Tracks</h3>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 8</Link><br/>You can use Survival to make your tracks more difficult to follow. A successful DC 15 Survival check increases the DC of following your tracks by 4. You can move at only half speed while obscuring your tracks unless you increase the Survival check DC to do so by 5. If you're traveling in a group, for every creature beyond yourself whose tracks you wish to obscure, increase the DC by an additional 1. Large creatures count as two creatures for this purpose, and Huge creatures count as four. You cannot conceal the tracks of groups traveling with Gargantuan or larger creatures.</p>
-<h3 id="skill-survival-snares-and-simple-traps" data-hash-target>Snares and Simple Traps</h3>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 8</Link><br/>As a normal part of using a Survival check to get along in the wild, a character can make simple snares and deadfalls to trap small game. Though not as robust or dangerous as ranger traps or traps created using the Craft (traps) skill, simple traps and snares can also be used against prey that is more dangerous than typical game.</p>
-<p>Regardless of the nature of its construction, such a trap acts as an extraordinary ranger snare trap, with the following modifications. With a successful DC 15 Survival check, a simple trap can be constructed in 20 minutes in a typical wilderness area using proper tools. The trap affects only creatures of a single size category, determined when the trap is constructed. (Smaller creatures slip out easily, and larger creatures are too big to be effectively snared.) The trap is obvious unless it is hidden with a successful DC 20 Stealth check, in which case noticing it requires a successful DC 15 Perception check. The trap's DC is 13, it has 10 hit points, and it can be burst with a successful DC 15 Strength check. If left unattended, a simple trap has a 25% chance of becoming ineffective each day.</p>
-<p>Characters who wish to create more effective traps should invest skill ranks in Craft (traps) or take the <Link to="/feat/learn_ranger_trap">Learn Ranger Trap</Link> feat.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-survival-action">Action</h3>
+<p>Dowsing attempts take 10 minutes to initiate. The results of the check persist for 10 minutes afterward.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-survival-try-again">Try Again</h3>
+<p>Yes. You can try to dowse from the same location more than once, but still only once per day.</p>
+</div>
 <h3 id="skill-survival-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 87</Link><br/>With sufficient ranks in Survival, you earn the following.</p>
-<p><strong>5 Ranks:</strong> You reduce all nonlethal damage you take from heat, cold, starvation, or thirst by 1 point for every 5 ranks you possess in Survival.<br/><strong>10 Ranks:</strong> You can track creatures that leave no tracks, including flying and swimming creatures and creatures using trackless step or pass without trace, taking a -20 penalty on your Survival check.<br/><strong>15 Ranks:</strong> Once per day, you can spend 1 hour and attempt a DC 30 Survival check. Success grants you cold resistance or fire resistance 5 for 24 hours. You can share this with one ally for every 5 by which you exceeded the check.<br/><strong>20 Ranks:</strong> You take only a -10 penalty when tracking creatures that leave no tracks.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>You reduce all nonlethal damage you take from heat, cold, starvation, or thirst by 1 point for every 5 ranks you possess in Survival.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>You can track creatures that leave no tracks, including flying and swimming creatures and creatures using <Link to="/ability/trackless_step">trackless step</Link> or <Link to="/spell/pass_without_trace">pass without trace</Link>, taking a -20 penalty on your Survival check.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>Once per day, you can spend 1 hour and attempt a DC 30 Survival check. Success grants you cold <Link to="/umr/resistance">resistance</Link> or fire resistance 5 for 24 hours. You can share this with one ally for every 5 by which you exceeded the check.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You take only a -10 penalty when tracking creatures that leave no tracks.</Cell></Row></Block>
 </>};
 const _swim = {hasJL:true,title: "Swim", jsx: <><div className="jumpList" id="skill-swim-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-swim-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-swim-swim">Swim</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 108</Link><br/><strong>Associated Skill:</strong> Strength<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> Make a Swim check once per round while you are in the water. Success means you may swim at up to half your speed (as a full-round action) or at a quarter of your speed (as a move action). If you fail by 4 or less, you make no progress. If you fail by 5 or more, you go underwater.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 108</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Strength</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>No</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-swim-check">Check</h3>
+<p>Make a Swim check once per round while you are in the water. Success means you may swim at up to half your speed (as a <strong className="hl">full-round action</strong>) or at a quarter of your speed (as a <strong className="hl">move action</strong>). If you fail by 4 or less, you make no progress. If you fail by 5 or more, you go underwater.</p>
 <p>If you are underwater, either because you failed a Swim check or because you are swimming underwater intentionally, you must hold your breath. You can hold your breath for a number of rounds equal to twice your Constitution score, but only if you do nothing other than take move actions or free actions. If you take a standard action or a full-round action (such as making an attack), the remainder of the duration for which you can hold your breath is reduced by 1 round. (Effectively, a character in combat can hold his breath only half as long as normal.) After that period of time, you must make a DC 10 Constitution check every round to continue holding your breath. Each round, the DC for that check increases by 1. If you fail the Constitution check, you begin to drown. The DC for the Swim check depends on the water, as given on the table below.</p>
 <ScrollContainer id="skill-swim--table-0"><table>
 <thead>
@@ -3405,16 +3479,33 @@ const _swim = {hasJL:true,title: "Swim", jsx: <><div className="jumpList" id="sk
 </tbody></table></ScrollContainer>
 <p><strong>Note:</strong> You can't take 10 on a Swim check in stormy water, even if you aren't otherwise being threatened or distracted.</p>
 <p>Each hour that you swim, you must make a DC 20 Swim check or take 1d6 points of nonlethal damage from fatigue.</p>
-<p><strong>Action:</strong> A successful Swim check allows you to swim a quarter of your speed as a move action or half your speed as a full-round action.</p>
-<p><strong>Special:</strong> A creature with a swim speed can move through water at its indicated speed without making Swim checks. It gains a +8 racial bonus on any Swim check to perform a special action or avoid a hazard. The creature can always choose to take 10 on a Swim check, even if distracted or endangered when swimming. Such a creature can use the run action while swimming, provided that it swims in a straight line.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-swim-action">Action</h3>
+<p>A successful Swim check allows you to swim a quarter of your speed as a <strong className="hl">move action</strong> or half your speed as a <strong className="hl">full-round action</strong>.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-swim-special">Special</h3>
+<p>A creature with a swim speed can move through water at its indicated speed without making Swim checks. It gains a +8 racial bonus on any Swim check to perform a special action or avoid a hazard. The creature can always choose to take 10 on a Swim check, even if distracted or endangered when swimming. Such a creature can use the <Link to="/rule/run">run</Link> action while swimming, provided that it swims in a straight line.</p>
 <p>If you have the <Link to="/feat/athletic">Athletic</Link> feat, you get a bonus on Swim checks.</p>
+</div>
 <h3 id="skill-swim-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 87</Link><br/>With sufficient ranks in Swim, you earn the following.</p>
-<p><strong>5 Ranks:</strong> You gain a swim speed of 10 feet, but only in water with a Swim DC of 15 or lower.<br/><strong>10 Ranks:</strong> You gain a swim speed (though you do not gain the +8 racial bonus on Swim checks) equal to your base speed in water with a Swim DC of 15 or lower, or 10 feet in all other water.<br/><strong>15 Ranks:</strong> You ignore the penalties for using slashing or bludgeoning weapons underwater, as <Link to="/spell/freedom_of_movement">freedom of movement</Link>.<br/><strong>20 Ranks:</strong> You gain a swim speed equal to your base speed in all water. If you have both hands free, you gain a +8 racial bonus on Swim checks.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>You gain a swim speed of 10 feet, but only in water with a Swim DC of 15 or lower.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>You gain a swim speed (though you do not gain the +8 racial bonus on Swim checks) equal to your base speed in water with a Swim DC of 15 or lower, or 10 feet in all other water.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>You ignore the penalties for using slashing or bludgeoning weapons underwater, as <Link to="/spell/freedom_of_movement">freedom of movement</Link>.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>You gain a swim speed equal to your base speed in all water. If you have both hands free, you gain a +8 racial bonus on Swim checks.</Cell></Row></Block>
 </>};
 const _use_magic_device = {hasJL:true,title: "Use Magic Device", jsx: <><div className="jumpList" id="skill-use_magic_device-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-use_magic_device-intentional-mishap">Intentional Mishap</InnerLink></li><li><InnerLink toTop to="skill-use_magic_device-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-use_magic_device-use-magic-device">Use Magic Device</h2>
-<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 108</Link><br/><strong>Associated Skill:</strong> Charisma<br/><strong>Trained Only:</strong> No<br/><strong>Armor Check Penalty:</strong> No<br/><strong>Optional <Link to="/rule/new_skills">Unchained Skill</Link>:</strong> No<br/><strong>Optional <Link to="/rule/background_skills">Background Skill</Link>:</strong> No</p>
-<p><strong>Check:</strong> You can use this skill to read a spell or to activate a magic item. Use Magic Device lets you use a magic item as if you had the spell ability or class features of another class, as if you were a different race, or as if you were of a different alignment.</p>
+<p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 108</Link></p>
+<div style={{clear:"both"}}></div>
+<Block size="giant" hl classes="skills">
+<Row><Cell>Associated Skill</Cell><Cell>Charisma</Cell></Row>
+<Row><Cell>Trained Only</Cell><Cell>Yes</Cell></Row>
+<Row><Cell>Armor Check Penalty</Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/new_skills">Unchained Skill</Link></Cell><Cell>No</Cell></Row>
+<Row><Cell>Optional <Link to="/rule/background_skills">Background Skill</Link></Cell><Cell>No</Cell></Row></Block>
+<div className="semiheaderGroup"><h3 id="skill-use_magic_device-check">Check</h3>
+<p>You can use this skill to read a spell or to activate a magic item. Use Magic Device lets you use a magic item as if you had the spell ability or class features of another class, as if you were a different race, or as if you were of a different alignment.</p>
 <p>You make a Use Magic Device check each time you activate a device such as a wand. If you are using the check to emulate an alignment or some other quality in an ongoing manner, you need to make the relevant Use Magic Device check once per hour.</p>
 <p>You must consciously choose which requirement to emulate. That is, you must know what you are trying to emulate when you make a Use Magic Device check for that purpose. The DCs for various tasks involving Use Magic Device checks are summarized on the table below.</p>
 <ScrollContainer id="skill-use_magic_device--table-0"><table>
@@ -3457,25 +3548,49 @@ const _use_magic_device = {hasJL:true,title: "Use Magic Device", jsx: <><div cla
 <td>30</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><em>Activate Blindly:</em> Some magic items are activated by special words, thoughts, or actions. You can activate such an item as if you were using the activation word, thought, or action, even when you're not and even if you don't know it. You do have to perform some equivalent activity in order to make the check. That is, you must speak, wave the item around, or otherwise attempt to get it to activate. You get a +2 bonus on your Use Magic Device check if you've activated the item in question at least once before. If you fail by 9 or less, you can't activate the device. If you fail by 10 or more, you suffer a mishap. A mishap means that magical energy gets released but doesn't do what you wanted it to do. The default mishaps are that the item affects the wrong target or that uncontrolled magical energy is released, dealing 2d6 points of damage to you. This mishap is in addition to the chance for a mishap that you normally risk when you cast a spell from a scroll that you could not otherwise cast yourself.</p>
-<p><em>Decipher a Written Spell:</em> This usage works just like deciphering a written spell with the Spellcraft skill, except that the DC is 5 points higher. Deciphering a written spell requires 1 minute of concentration.</p>
-<p><em>Emulate an Ability Score:</em> To cast a spell from a scroll, you need a high score in the appropriate ability (Intelligence for wizard spells, Wisdom for divine spells, or Charisma for sorcerer or bard spells). Your effective ability score (appropriate to the class you're emulating when you try to cast the spell from the scroll) is your Use Magic Device check result minus 15. If you already have a high enough score in the appropriate ability, you don't need to make this check.</p>
-<p><em>Emulate an Alignment:</em> Some magic items have positive or negative effects based on the user's alignment. Use Magic Device lets you use these items as if you were of an alignment of your choice. You can emulate only one alignment at a time.</p>
-<p><em>Emulate a Class Feature:</em> Sometimes you need to use a class feature to activate a magic item. In this case, your effective level in the emulated class equals your Use Magic Device check result minus 20. This skill does not let you actually use the class feature of another class. It just lets you activate items as if you had that class feature. If the class whose feature you are emulating has an alignment requirement, you must meet it, either honestly or by emulating an appropriate alignment with a separate Use Magic Device check.</p>
-<p><em>Emulate a Race:</em> Some magic items work only for members of certain races, or work better for members of those races. You can use such an item as if you were a member of a race of your choice. You can emulate only one race at a time.</p>
-<p><em>Use a Scroll:</em> Normally, to cast a spell from a scroll, you must have the scroll's spell on your class spell list. Use Magic Device allows you to use a scroll as if you had a particular spell on your class spell list. The DC is equal to 20 + the caster level of the spell you are trying to cast from the scroll. In addition, casting a spell from a scroll requires a minimum score (10 + spell level) in the appropriate ability. If you don't have a sufficient score in that ability, you must emulate the ability score with a separate Use Magic Device check.</p>
+<h4 id="skill-use_magic_device-activate-blindly">Activate Blindly</h4>
+<p>Some magic items are activated by special words, thoughts, or actions. You can activate such an item as if you were using the activation word, thought, or action, even when you're not and even if you don't know it. You do have to perform some equivalent activity in order to make the check. That is, you must speak, wave the item around, or otherwise attempt to get it to activate. You get a +2 bonus on your Use Magic Device check if you've activated the item in question at least once before.</p>
+<p>If you fail by 9 or less, you can't activate the device. If you fail by 10 or more, you suffer a mishap. A mishap means that magical energy gets released but doesn't do what you wanted it to do. The default mishaps are that the item affects the wrong target or that uncontrolled magical energy is released, dealing 2d6 points of damage to you. This mishap is in addition to the chance for a mishap that you normally risk when you cast a spell from a <Link to="/rule/scrolls">scroll</Link> that you could not otherwise cast yourself.</p>
+<h4 id="skill-use_magic_device-decipher-a-written-spell">Decipher a Written Spell</h4>
+<p>This usage works just like deciphering a written spell with the <Link to="/skill/spellcraft">Spellcraft</Link> skill, except that the DC is 5 points higher. Deciphering a written spell requires 1 minute of concentration.</p>
+<h4 id="skill-use_magic_device-emulate-an-ability-score">Emulate an Ability Score</h4>
+<p>To cast a spell from a scroll, you need a high score in the appropriate ability (Intelligence for wizard spells, Wisdom for divine spells, or Charisma for sorcerer or bard spells). Your effective ability score (appropriate to the class you're emulating when you try to cast the spell from the scroll) is your Use Magic Device check result minus 15. If you already have a high enough score in the appropriate ability, you don't need to make this check.</p>
+<h4 id="skill-use_magic_device-emulate-an-alignment">Emulate an Alignment</h4>
+<p>Some magic items have positive or negative effects based on the user's alignment. Use Magic Device lets you use these items as if you were of an alignment of your choice. You can emulate only one alignment at a time.</p>
+<h4 id="skill-use_magic_device-emulate-a-class-feature">Emulate a Class Feature</h4>
+<p>Sometimes you need to use a class feature to activate a magic item. In this case, your effective level in the emulated class equals your Use Magic Device check result minus 20. This skill does not let you actually use the class feature of another class. It just lets you activate items as if you had that class feature. If the class whose feature you are emulating has an alignment requirement, you must meet it, either honestly or by emulating an appropriate alignment with a separate Use Magic Device check.</p>
+<h4 id="skill-use_magic_device-emulate-a-race">Emulate a Race</h4>
+<p>Some magic items work only for members of certain races, or work better for members of those races. You can use such an item as if you were a member of a race of your choice. You can emulate only one race at a time.</p>
+<h4 id="skill-use_magic_device-use-a-scroll">Use a Scroll</h4>
+<p>Normally, to cast a spell from a scroll, you must have the scroll's spell on your class spell list. Use Magic Device allows you to use a scroll as if you had a particular spell on your class spell list. The DC is equal to 20 + the caster level of the spell you are trying to cast from the scroll. In addition, casting a spell from a scroll requires a minimum score (10 + spell level) in the appropriate ability. If you don't have a sufficient score in that ability, you must emulate the ability score with a separate Use Magic Device check.</p>
 <p>This use of the skill also applies to other <Link to="/misc/spell_completion">spell completion</Link> magic items.</p>
-<p><em>Use a Wand, Staff, or Other <Link to="/misc/spell_trigger">Spell Trigger</Link> Item:</em> Normally, to use a wand, you must have the wand's spell on your class spell list. This use of the skill allows you to use a wand as if you had a particular spell on your class spell list. Failing the roll does not expend a charge.</p>
-<p><strong>Action:</strong> None. The Use Magic Device check is made as part of the action (if any) required to activate the magic item.</p>
-<p><strong>Try Again:</strong> Yes, but if you ever roll a natural 1 while attempting to activate an item and you fail, then you can't try to activate that item again for 24 hours.</p>
-<p><strong>Special:</strong> You cannot take 10 with this skill. You can't aid another on Use Magic Device checks. Only the user of the item may attempt such a check.</p>
+<h4 id="skill-use_magic_device-use-a-wand-staff-or-other-spell-trigger-item">Use a Wand, Staff, or Other Spell Trigger Item</h4>
+<p>Normally, to use a wand (or any other <Link to="/rule/spell_trigger">spell trigger</Link> item), you must have the wand's spell on your class spell list. This use of the skill allows you to use a wand as if you had a particular spell on your class spell list. Failing the roll does not expend a charge.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-use_magic_device-action">Action</h3>
+<p>None. The Use Magic Device check is made as part of the action (if any) required to activate the magic item.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-use_magic_device-try-again">Try Again</h3>
+<p>Yes, but if you ever roll a natural 1 while attempting to activate an item and you fail, then you can't try to activate that item again for 24 hours.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-use_magic_device-special">Special</h3>
+<p>You cannot take 10 with this skill. You can't <Link to="/rule/aid_another">aid another</Link> on Use Magic Device checks. Only the user of the item may attempt such a check.</p>
 <p>If you have the <Link to="/feat/magical_aptitude">Magical Aptitude</Link> feat, you gain a bonus on Use Magic Device checks.</p>
+</div>
 <h3 id="skill-use_magic_device-intentional-mishap" data-hash-target>Intentional Mishap</h3>
 <p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 8</Link><br/>You can intentionally cause a magic item to produce a mishap.</p>
-<p><strong>Check:</strong> You can cause a magic item to have an intentional magic mishap, as if you had attempted to activate it blindly and failed by 10 or more. The DC to produce an intentional mishap is 30. If you succeed, you have some control over the mishap. The item deals 2d6 points of damage to any one creature or object that the item could have targeted if activated normally. You can attempt to aim it, but if you select an invalid target, you take the damage instead. If you fail the check by 9 or less, you create a normal mishap you do not control. If you fail by 10 or more, nothing happens.</p>
-<p><strong>Action:</strong> Attempting to create a mishap is like activating an item blindly, and requires a standard action during which you try out magic words or other appropriate actions.</p>
+<div className="semiheaderGroup"><h3 id="skill-use_magic_device-check">Check</h3>
+<p>You can cause a magic item to have an intentional magic mishap, as if you had attempted to activate it blindly and failed by 10 or more. The DC to produce an intentional mishap is 30. If you succeed, you have some control over the mishap. The item deals 2d6 points of damage to any one creature or object that the item could have targeted if activated normally. You can attempt to aim it, but if you select an invalid target, you take the damage instead. If you fail the check by 9 or less, you create a normal mishap you do not control. If you fail by 10 or more, nothing happens.</p>
+</div>
+<div className="semiheaderGroup"><h3 id="skill-use_magic_device-action">Action</h3>
+<p>Attempting to create a mishap is like activating an item blindly, and requires a <strong className="hl">standard action</strong> during which you try out magic words or other appropriate actions.</p>
+</div>
 <h3 id="skill-use_magic_device-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 87</Link><br/>With sufficient ranks in Use Magic Device, you earn the following.</p>
-<p><strong>5 Ranks:</strong> You can use the aid another action to assist another creature's Use Magic Device check by attempting a check against the item's Use Magic Device DC.<br/><strong>10 Ranks:</strong> If you roll a natural 1 when activating an item, you take a -10 penalty on Use Magic Device checks with that item for 24 hours instead of being unable to activate it. This penalty stacks with itself.<br/><strong>15 Ranks:</strong> You can use this skill to emulate two races or two alignments simultaneously.<br/><strong>20 Ranks:</strong> If you roll a natural 1 when activating an item, you can reroll the check at a -10 penalty to activate the item. You must take the result of the second check, even if it is worse, and you can't reroll it again.</p>
+<Block size="simple">
+<Row><Cell>5 Ranks</Cell><Cell>You can use the aid another action to assist another creature's Use Magic Device check by attempting a check against the item's Use Magic Device DC.</Cell></Row>
+<Row><Cell>10 Ranks</Cell><Cell>If you roll a natural 1 when activating an item, you take a -10 penalty on Use Magic Device checks with that item for 24 hours instead of being unable to activate it. This penalty stacks with itself.</Cell></Row>
+<Row><Cell>15 Ranks</Cell><Cell>You can use this skill to emulate two races or two alignments simultaneously.</Cell></Row>
+<Row><Cell>20 Ranks</Cell><Cell>If you roll a natural 1 when activating an item, you can reroll the check at a -10 penalty to activate the item. You must take the result of the second check, even if it is worse, and you can't reroll it again.</Cell></Row></Block>
 </>};
 export default {not_found:_not_found,acrobatics:_acrobatics,appraise:_appraise,artistry_any:_artistry_any,bluff:_bluff,climb:_climb,craft_any:_craft_any,diplomacy:_diplomacy,disable_device:_disable_device,disguise:_disguise,escape_artist:_escape_artist,fly:_fly,handle_animal:_handle_animal,heal:_heal,intimidate:_intimidate,knowledge_all:_knowledge_all,knowledge_arcana:_knowledge_arcana,knowledge_dungeoneering:_knowledge_dungeoneering,knowledge_engineering:_knowledge_engineering,knowledge_geography:_knowledge_geography,knowledge_history:_knowledge_history,knowledge_local:_knowledge_local,knowledge_nature:_knowledge_nature,knowledge_nobility:_knowledge_nobility,knowledge_planes:_knowledge_planes,knowledge_religion:_knowledge_religion,linguistics:_linguistics,lore_any:_lore_any,perception:_perception,perform_any:_perform_any,profession_any:_profession_any,ride:_ride,sense_motive:_sense_motive,sleight_of_hand:_sleight_of_hand,spellcraft:_spellcraft,stealth:_stealth,survival:_survival,swim:_swim,use_magic_device:_use_magic_device}
