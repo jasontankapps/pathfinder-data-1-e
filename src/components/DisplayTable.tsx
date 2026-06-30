@@ -18,51 +18,185 @@ import {
 	setTablePrimarySortCol,
 	getDefaultSortOrder
 } from '../store/displayTableSlice';
+import { RawDatum, Table, Column, LinkFormat } from '../types';
 import Td from './displayTable/Td';
 import Th from './displayTable/Th';
 import TdRouterLink from './displayTable/TdRouterLink';
 import StoreError from './displayTable/StoreError';
 import DisplayTableFilterModal from './displayTable/DisplayTableFilterModal';
-import { RawDatum, Table, Column } from '../types';
-import { checkForEncodedLink } from './convertLinks';
 import { FinderContext } from './contexts';
 import ScrollContainer from './ScrollContainer';
 
 const FINAL_CHAR = String.fromCodePoint(0x10FFFF);
-function getCheckableValue (item: RawDatum, nullish: string, fromArray: boolean = false): ({string?: string, number?: number}) {
-	if(item === null || item === "~~") {
-		return {string: nullish};
-	} else if (Array.isArray(item)) {
-		return getCheckableValue(item[0], nullish, true);
-	} else if (typeof(item) === "number") {
-		return {number: item};
-	} else if (fromArray) {
-		return {string: item.replace(/^[-a-z]+[/]/g, "") + " "};
-	}
-	const m = checkForEncodedLink(item);
-	return m ?
-		{string: m.property + " "}
-		: {string: item + " "};
+
+const blankSortInfo: TableDataObject = {
+	alphabeticalSort: true,
+	hiddenHeaders: [],
+	hiddenRows: []
 };
-const normalSort = (a: RawDatum, b: RawDatum) => {
+
+const validateSortOrder = (incoming: number[], cols: Column[]) => {
+	// Test to make sure the saved values are compatible with the current table version
+	const max = cols.length;
+	return incoming.some(n => n >= max) ? false : incoming;
+};
+
+const translateGp = (gp: number, adjustment: boolean = false): string => {
+	if(gp !== gp) {
+		// NaN;
+		return `[NaN]`;
+	}
+	const sign = adjustment && gp >= 0 ? "+" : "";
+	if(Math.floor(gp) === gp) {
+		return `${sign}${gp.toLocaleString()} gp`;
+	}
+	const sp = gp * 10;
+	if(Math.floor(sp) === sp) {
+		return `${sign}${sp} sp`;
+	}
+	return `${sign}${sp * 10} cp`;
+};
+const findSortValue = (item: RawDatum) => {
+	if(item === null || item === "~~") {
+		return {string: FINAL_CHAR};
+	} else if (typeof item === "string") {
+		return {string: item};
+	} else if (typeof item === "number") {
+		return {number: item};
+	} else if (Array.isArray(item)) {
+		return {string: item[0]};
+	}
+	return findSortValue(item.sort === undefined ? null : item.sort);
+};
+const findDisplayValue = (item: RawDatum, nullish: string, col: Column) => {
+	// item: (BasicDatum | [SortableValue, string | LinkFormat] | SortInfo) | null
+	const {type, link} = col;
+	let display: string | number | LinkFormat = "";
+	let raw: string | number = "";
+	let plus = false;
+	if(item === null || item === "~~") {
+		display = nullish;
+		raw = display;
+	} else if (typeof item === "string" || typeof item === "number") {
+		display = item;
+		raw = display;
+	} else if (Array.isArray(item)) {
+		// Link format
+		const [txt, prop, protocol = link] = item;
+		display = [txt, prop, protocol!];
+		raw = txt;
+	} else {
+		// Sort info
+		display = item.data || nullish;
+		raw = item.sort;
+	}
+	switch(type) {
+		case "gp+":
+			plus = true;
+		case "gp":
+			// RawDatum is a number
+			if(typeof raw !== "number") {
+				if(display !== raw) {
+					if(typeof display !== "number") {
+						display = `Invalid GP${plus ? "+" : ""} number [${raw}/${display}]`;
+					} else {
+						display = translateGp(display, plus);
+					}
+				} else {
+					display = `Invalid GP${plus ? "+" : ""} number [${raw}]`;
+				}
+			} else {
+				display = translateGp(raw, plus);
+			}
+			break;
+		case "lbs+":
+			plus = true;
+		case "lbs":
+			// RawDatum is a number
+			if(typeof raw !== "number") {
+				if(display !== raw) {
+					if(typeof display !== "number") {
+						display = `Invalid LB${plus ? "+" : ""} number [${raw}/${display}]`;
+					} else {
+						display = `${plus && (display >= 0) ? "+" : ""}${display.toLocaleString()} lb${display === 1 ? "": "s"}.`;
+					}
+				} else {
+					display = `Invalid LB${plus ? "+" : ""} number [${raw}]`;
+				}
+			} else {
+				display = `${plus && (raw >= 0) ? "+" : ""}${raw.toLocaleString()} lb${raw === 1 ? "": "s"}.`;
+			}
+			break;
+		case "bonus":
+			// RawDatum is an interger
+			if(typeof raw !== "number") {
+				if(display !== raw) {
+					if(typeof display !== "number") {
+						display = `Invalid BONUS number [${raw}/${display}]`;
+					} else {
+						display = `${display >= 0 ? "+" : ""}${display.toLocaleString()}`;
+					}
+				} else {
+					display = `Invalid BONUS number [${raw}]`;
+				}
+			} else {
+				display = `${raw >= 0 ? "+" : ""}${raw.toLocaleString()}`;
+			}
+			break;
+		case "pct":
+			// RawDatum is a number
+			if(typeof raw !== "number") {
+				if(display !== raw) {
+					if(typeof display !== "number") {
+						display = `Invalid PCT number [${raw}/${display}]`;
+					} else {
+						display = display.toLocaleString() + "%";
+					}
+				} else {
+					display = `Invalid PCT number [${raw}]`;
+				}
+			} else {
+				display = raw.toLocaleString() + "%";
+			}
+			break;
+		case "num":
+			// RawDatum is a number
+			// We just verify the numericness
+			if(typeof raw !== "number") {
+				display = `Invalid NUM number [${raw}/${display}]`;
+			}
+			break;
+	}
+	return display;
+};
+interface StringSort {
+	string: string
+	number?: never
+}
+interface NumberSort {
+	number: number
+	string?: never
+}
+type SortableValue = StringSort | NumberSort;
+type SortableCell = [SortableValue, string | number | LinkFormat, number];
+type SortableRow = [SortableCell[], number];
+const normalSort = (a: SortableValue, b: SortableValue) => {
 	// a, b, c...
-	const {string: xs, number: xn} = getCheckableValue(a, FINAL_CHAR);
-	const {string: ys, number: yn} = getCheckableValue(b, FINAL_CHAR);
-	if(xs && ys) {
+	const {string: xs, number: xn} = a;
+	const {string: ys, number: yn} = b;
+	if(xs !== undefined && ys !== undefined) {
 		return xs.localeCompare(ys, 'en');
-	} else if (xn && yn) {
+	} else if (xn !== undefined && yn !== undefined) {
 		return xn > yn ? 1 : (xn < yn ? -1 : 0);
 	}
 	const x: string = xs || String(xn);
 	const y: string = ys || String(yn);
 	return x.localeCompare(y, 'en', { numeric: true });
 };
-const reverseSort = (a: RawDatum, b: RawDatum) => {
+const reverseSort = (a: SortableValue, b: SortableValue) => {
 	// z, y, x...
 	return 0 - normalSort(a, b);
 };
-type SortableCell = [RawDatum, number];
-type SortableRow = [SortableCell[], number];
 const sortOnColumns = (columns: number[], direction: boolean) => {
 	// Returns a sort() function.
 	return (a: SortableRow, b: SortableRow) => {
@@ -78,18 +212,6 @@ const sortOnColumns = (columns: number[], direction: boolean) => {
 		} while (!result && copy.length > 0);
 		return result;
 	};
-};
-
-const blankSortInfo: TableDataObject = {
-	alphabeticalSort: true,
-	hiddenHeaders: [],
-	hiddenRows: []
-};
-
-const validateSortOrder = (incoming: number[], cols: Column[]) => {
-	// Test to make sure the saved values are compatible with the current table version
-	const max = cols.length;
-	return incoming.some(n => n >= max) ? false : incoming;
 };
 
 const DisplayTable: FC<{ table: Table }> = ({ table }) => {
@@ -121,13 +243,25 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		.map((col, i) => [col, i] as [Column, number])
 		.filter(([, i]) => hiddenHeaders.every(hCol => hCol !== i));
 
-	const sortedRowsWithBothOriginalIndices = useMemo(() => {
+	const rowsWithBothOriginalIndices: SortableRow[] = useMemo(() => {
 		return data
 				// add index to each row [ ROW, index ]
-			.map((row, j) => [row.map((cell, k) => [cell, k]), j] as SortableRow)
-				// sort everything (non-destructive due to this being a mapped instance)
-			.sort(sortOnColumns(sortingColumns, alphabeticalSort));
-	}, [data, alphabeticalSort, sortingColumns]);
+			.map((row, j) => [
+					// convert cells into [sort info, string | number | LinkFormat, cell index]
+				row.map((cell, k) => [
+					findSortValue(cell),
+					findDisplayValue(cell, nullValue, columns[k]),
+					k
+				]),
+				j
+			]);
+	}, [data, columns]);
+
+	const sortedRowsWithBothOriginalIndices = useMemo(() => {
+		return rowsWithBothOriginalIndices
+				// sort everything (non-destructive)
+			.toSorted(sortOnColumns(sortingColumns, alphabeticalSort));
+	}, [rowsWithBothOriginalIndices, alphabeticalSort, sortingColumns, nullValue]);
 
 	const sortedAndFilteredRowsWithHeaderIndices = useMemo(() => {
 		return sortedRowsWithBothOriginalIndices
@@ -137,14 +271,31 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			.map(([row,]) => row.filter((cell, i) => hiddenHeaders.every(hCol => hCol !== i)) as SortableCell[]);
 	}, [sortedRowsWithBothOriginalIndices, hiddenHeaders, hiddenRows]);
 
-	const tableWidth = useMemo(() => {
+	const tableGridStyle = useMemo(() => {
 		if(columns.some(col => col.size === undefined)) {
-			return undefined;
+			const total = columns
+				.filter((cell, i) => hiddenHeaders.every(hCol => hCol !== i))
+				.map(() => "1fr");
+			return {
+				display: "grid",
+				gridTemplateColumns: total.join(" ")
+			};
 		}
+		const gtc: number[] = [];
 		const total = columns
 			.filter((cell, i) => hiddenHeaders.every(hCol => hCol !== i))
-			.reduce((total, col) => total + col.size!, columns.length - hiddenHeaders.length);
-		return { width: `${total}rem` };
+			.map(cell => {
+				let {size = 0} = cell;
+				gtc.push(++size); // extra 1rem for every column
+				return size;
+			})
+			.reduce((total, size) => total + size, 0);
+		const style = {
+			display: "grid",
+			gridTemplateColumns: gtc.join("rem ") + "rem",
+			width: `${total}rem`
+		};
+		return style;
 	}, [columns, hiddenHeaders]);
 
 	const sorter = (col: number) => {
@@ -186,54 +337,54 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		<div className="displayTable">
 			{theFilterStuff}
 			<ScrollContainer id={id}>
-				<table key={`table/${id}`} style={tableWidth}>
-					<thead>
-						<tr>{
-							filteredColumns.map((pair) => {
-								const [col, i] = pair;
-								if(!col) {
-									return <StoreError id={id} dispatch={dispatch} />;
-								}
-								return <Th
-									key={`table/${id}/header/${i}`}
-									index={i}
-									sortState={i === sortingColumn ? alphabeticalSort : undefined}
-									active={i === sortingColumn}
-									sorter={sorter(i)}
-									sortable={!col.unsortable}
-									size={col.size}
-								>{col.header}</Th>;
-							})
-						}</tr>
-					</thead>
-					<tbody>
-						{
-							sortedAndFilteredRowsWithHeaderIndices.map((row, i) => {
-								if(!row) {
-									return <StoreError id={id} dispatch={dispatch} />;
-								}
-								const cells = row.map(cellInfo => {
-									const [cell, j] = cellInfo;
-									const col = columns[j];
-									return (col.ripple) ?
+				<div className="tabular" key={`table/${id}`} style={tableGridStyle}>
+					<div className="row">{
+						filteredColumns.map((pair) => {
+							const [col, i] = pair;
+							if(!col) {
+								return <StoreError id={id} dispatch={dispatch} />;
+							}
+							return <Th
+								key={`table/${id}/header/${i}`}
+								index={i}
+								sortState={i === sortingColumn ? alphabeticalSort : undefined}
+								active={i === sortingColumn}
+								sorter={sorter(i)}
+								sortable={!col.unsortable}
+								size={col.size}
+							>{col.header}</Th>;
+						})
+					}</div>
+					{
+						sortedAndFilteredRowsWithHeaderIndices.map((row, i) => {
+							if(!row) {
+								return <StoreError id={id} dispatch={dispatch} />;
+							}
+							const cells = row.map(cellInfo => {
+								const [, cell, j] = cellInfo;
+								const col = columns[j];
+								const { link = "", align } = col;
+								if (link) {
+									return (
 										<TdRouterLink
-											datum={cell === null ? nullValue : cell}
-											align={col.align}
+											datum={cell as LinkFormat}
+											align={align}
 											key={`table/${id}/row/${i}/cell/link/${j}`}
 										/>
-									:
-										<Td
-											type={col.type}
-											datum={cell === null ? nullValue : cell}
-											align={col.align}
-											key={`table/${id}/row/${i}/cell/${j}`}
-										/>;
-								});
-								return <tr key={`table/${id}/row/${i}`}>{cells}</tr>;
-							})
-						}
-					</tbody>
-				</table>
+									);
+								}
+								return (
+									<Td
+										datum={cell}
+										align={align}
+										key={`table/${id}/row/${i}/cell/${j}`}
+									/>
+								);
+							});
+							return <div className="row" key={`table/${id}/row/${i}`}>{cells}</div>;
+						})
+					}
+				</div>
 			</ScrollContainer>
 		</div>
 	);

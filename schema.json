@@ -247,12 +247,39 @@
 				{ "type": "string" },
 				{
 					"type": "string",
-					"pattern": "^[-a-z]+/[a-z_0-9]+$"
+					"pattern": "^[a-z][-a-z_]+/[a-z_0-9]+$"
 				}
 			],
 			"minItems": 2,
 			"maxItems": 2,
 			"items": false
+		},
+		"tablelink": {
+			"$anchor": "tablelink",
+			"description": "A 2-member string array where the first is linked text and the second is the link itself, minus the protocol. An optional 3rd member provides a protocol.",
+			"type": "array",
+			"prefixItems": [
+				{ "type": "string" },
+				{
+					"type": "string",
+					"pattern": "^[a-z_0-9]+$"
+				},
+				{
+					"type": "string",
+					"pattern": "^[a-z][-a-z_]+$"
+				}
+			],
+			"minItems": 2,
+			"maxItems": 3,
+			"items": false
+		},
+		"tabledata": {
+			"$anchor": "tabledata",
+			"$comment": "string | number | [ string, string ] | [ string, string, string ]",
+			"anyOf": [
+				{ "type": ["string", "number"] },
+				{ "$ref": "#tablelink" }
+			]
 		},
 		"tables": {
 			"$anchor": "tables",
@@ -268,13 +295,16 @@
 							"properties": {
 								"header": { "type": "string" },
 								"type": { "enum": [ "gp", "lbs", "gp+", "lbs+", "bonus", "num", "pct" ] },
+								"link": {
+									"type": "string",
+									"pattern": "^[a-z][-a-z_]+$"
+								},
 								"unsortable": { "type": "boolean" },
 								"align": { "enum": [ "start", "end" ] },
 								"size": {
 									"type": "number",
 									"exclusiveMinimum": 0
-								},
-								"ripple": { "type": "boolean" }
+								}
 							},
 							"required": [ "header" ]
 						},
@@ -337,23 +367,22 @@
 						"unevaluatedItems": false
 					},
 					"data": {
-						"$comment": "null | string | number | [ number, string ] | [ string, string ]",
+						"$comment": "null | #tabledata | [ number | string, #tabledata ]",
 						"type": "array",
 						"items": {
 							"type": "array",
 							"items": {
 								"anyOf": [
 									{ "enum": [ null ] },
-									{ "type": [ "string", "number" ] },
+									{ "$ref": "#tabledata" },
 									{
-										"type": "array",
-										"prefixItems": [
-											{ "type": [ "string", "number" ] },
-											{ "type": "string" }
-										],
-										"minItems": 2,
-										"maxItems": 2,
-										"items": false
+										"type": "object",
+										"properties": {
+											"sort": { "type": [ "string", "number" ] },
+											"data": { "$ref": "#tabledata" }
+										},
+										"required": [ "sort" ],
+										"unevaluatedProperties": false
 									}
 								]
 							},

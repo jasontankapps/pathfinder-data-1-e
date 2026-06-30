@@ -31,11 +31,7 @@ import {
 } from 'ionicons/icons';
 import AutoSizer from 'react-virtualized-auto-sizer';
 import { FixedSizeList } from 'react-window';
-import { Filter, RawDatum, Column, Gen } from '../../types';
-import { checkForEncodedLink } from '../convertLinks';
-
-type SortableCell = [RawDatum, number];
-type SortableRow = [SortableCell[], number];
+import { Filter, Column, Gen, LinkFormat } from '../../types';
 
 interface FilterObject {
 	text: string
@@ -48,25 +44,6 @@ type SaveFunc = (
 	hiddenHeaders: number[],
 	hiddenRows: number[]
 ) => void;
-interface FilterProps {
-	columns: Column[]
-	rows: SortableRow[]
-	currentHiddenRows: number[]
-	currentHiddenHeaders: number[]
-	filter?: Filter[]
-	open: boolean
-	setOpen: Dispatch<boolean>
-	saveFunc: SaveFunc
-}
-const getLinkText = (input: string) => {
-	const m = checkForEncodedLink(input);
-	return m ? m.text : input;
-};
-
-const getValue = (x: RawDatum) => {
-	return Array.isArray(x) ? x[0] : x;
-};
-
 interface RowItem {
 	index: number
 	style: Gen<string, any>
@@ -115,6 +92,28 @@ const FilterOption: FC<{
 	);
 };
 
+interface StringSort {
+	string: string
+	number?: never
+}
+interface NumberSort {
+	number: number
+	string?: never
+}
+type SortableValue = StringSort | NumberSort;
+type SortableCell = [SortableValue, number | string | LinkFormat, number];
+type SortableRow = [SortableCell[], number];
+interface FilterProps {
+	columns: Column[]
+	rows: SortableRow[]
+	currentHiddenRows: number[]
+	currentHiddenHeaders: number[]
+	filter?: Filter[]
+	open: boolean
+	setOpen: Dispatch<boolean>
+	saveFunc: SaveFunc
+}
+
 const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	const {
 		columns,
@@ -131,13 +130,13 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	const [modified, setModified] = useState<boolean>(false);
 	const [filterObjects, setFilterObjects] = useState<null | FilterObject[]>(null);
 	const rowTitles = rows.map(sortableRow => {
-		const title = sortableRow[0][0][0];
-		if(Array.isArray(title)) {
-			return getLinkText(title[1]);
-		} else if (typeof title !== "string") {
+		const title = sortableRow[0][0][1];
+		if (typeof title === "number") {
 			return String(title);
+		} else if (typeof title === "string") {
+			return title;
 		}
-		return getLinkText(title);
+		return title[0];
 	});
 
 	const headers = columns.slice(1).map(col => col.header);
@@ -166,19 +165,22 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 				const options: string[] = [];
 				let how = "is";
 				let other = "isn't";
+				// row is [array, number]
+				// row[0][col] is a specific cell in that row
+				// row[0][col][0] is the sort object of that cell
 				if(f.range) {
 					const [ min, max ] = f.range;
 					let x = min, i = 0;
 					while(x <= max) {
 						const found: number[] = [];
-						rows.forEach((row, i) => {
-							const test = getValue(row[0][col][0]) as number;
+						rows.forEach((row, j) => {
+							const test = row[0][col][0].number;
 							if(test === x) {
-								found.push(i);
+								found.push(j);
 							}
 						});
 						toggles.push(found);
-						options.push(labels ? labels[i++] : `${x}`);
+						options.push(labels ? labels[i++] : String(x));
 						x++;
 					}
 				} else if (f.has) {
@@ -197,7 +199,12 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 							:
 								has.map(h => new RegExp(h));
 						rows.forEach((row, i) => {
-							const test = String(getValue(row[0][col][0]));
+							const item = row[0][col][1];
+							const test = (
+								typeof item === "number" ? String(item) : (
+									typeof item === "string" ? item : item[0]
+								)
+							);
 							hasRx.forEach((looking, j) => {
 								if(test.match(looking)) {
 									toggles[j].push(i);
@@ -206,7 +213,12 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 						});
 					} else {
 						rows.forEach((row, i) => {
-							const test = String(getValue(row[0][col][0]));
+							const item = row[0][col][1];
+							const test = (
+								typeof item === "number" ? String(item) : (
+									typeof item === "string" ? item : item[0]
+								)
+							);
 							has.forEach((looking, j) => {
 								if(test.indexOf(looking) > -1) {
 									toggles[j].push(i);
@@ -221,7 +233,12 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 						options.push(labels ? labels[i] : `${e}`)
 					});
 					rows.forEach((row, i) => {
-						const test = getValue(row[0][col][0]);
+							const item = row[0][col][1];
+							const test = (
+								typeof item === "number" ? String(item) : (
+									typeof item === "string" ? item : item[0]
+								)
+							);
 						equals.forEach((looking, j) => {
 							if(test === looking) {
 								toggles[j].push(i);

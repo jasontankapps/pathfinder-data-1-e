@@ -50,19 +50,17 @@ const Th: FC<ThProps> = ({index, sorter, sortState = true, children, active, sor
 	const markdown = useMemo(() => convertLinks([children]), [children]);
 	if(sortable) {
 		return (
-			<th className="ion-activatable sortable" onClick={onClick} style={getStyle(size)}>
-				<div>
-					<IonRippleEffect />
-					<Markdown components={components}>{markdown}</Markdown>
-					{active ? <DirectionIcon down={useNormalSort} /> : <IonIcon className="sortNil" icon={ellipse} />}
-				</div>
-			</th>
+			<div className="cell cell-header ion-activatable sortable" onClick={onClick} style={getStyle(size)}>
+				<IonRippleEffect />
+				<Markdown components={components}>{markdown}</Markdown>
+				{active ? <DirectionIcon down={useNormalSort} /> : <IonIcon className="sortNil" icon={ellipse} />}
+			</div>
 		);
 	}
 	return (
-		<th style={getStyle(size)}>
+		<div className="cell cell-header" style={getStyle(size)}>
 			<Markdown components={components}>{markdown}</Markdown>
-		</th>
+		</div>
 	);
 };
 

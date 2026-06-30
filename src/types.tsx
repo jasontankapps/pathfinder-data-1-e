@@ -29,7 +29,18 @@ export type RangeInSliceFormat<START extends number, END extends number, N exten
 //   [0, 1, 2, 3, 4].slice(1, 2) => [1]
 //   [0, 1, 2, 3, 4].slice(2, 4) => [2, 3]
 
-export type Datum = string | number | [ number, string ] | [ string, string ];
+export type LinkFormat = [string, string] | [string, string, string];
+
+type SortableValue = string | number;
+
+type BasicDatum = SortableValue | LinkFormat;
+
+interface SortInfo {
+	sort: string | number
+	data?: SortableValue
+}
+
+export type Datum = BasicDatum | SortInfo;
 
 export type RawDatum = null | Datum;
 
@@ -40,7 +51,7 @@ export type ColumnDataType = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "num" | "
 // lbs = weight adjustment
 // bonus = +1/-1/etc
 // num = any number
-//   Otherwise, assume it is plain text.
+//   Otherwise, assume it is plain text or a link (if `link` prop is present).
 
 export type Hierarchy = [string, string];
 
@@ -82,8 +93,8 @@ export type Filter = RangeFilter | EqualsFilter | HasFilter;
 export interface Column {
 	header: string
 	type?: ColumnDataType
+	link?: string
 	align?: "start" | "end"
-	ripple?: boolean
 	size?: number
 	unsortable?: boolean
 }
