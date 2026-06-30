@@ -56,7 +56,7 @@
 			"**Price** +1,500 gp **Weight** +1 lb.  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
-			"A brutally weighted weapon is balanced to put more weight on the striking surface, knocking targets off balance with every blow. Only bludgeoning melee weapons can be brutally weighted. This modification can be added to a ‹eq-weapon/greatclub› or ‹eq-weapon/tetsubo› without ‹misc/increasing its »weapon«'s category<_size›, but doing so increases the cost of modification by an additional 1,500 gp. A creature hit with a brutally weighted weapon takes a -2 penalty to its CMD against bull rush, reposition, and trip combat maneuvers until the end of its next turn or until after it is subject to such a maneuver (whichever comes first)."
+			"A brutally weighted weapon is balanced to put more weight on the striking surface, knocking targets off balance with every blow. Only bludgeoning melee weapons can be brutally weighted. This modification can be added to a ‹eq-weapon/greatclub› or ‹eq-weapon/tetsubo› without increasing its weapon's proficiency category, but doing so increases the cost of modification by an additional 1,500 gp. A creature hit with a brutally weighted weapon takes a -2 penalty to its CMD against bull rush, reposition, and trip combat maneuvers until the end of its next turn or until after it is subject to such a maneuver (whichever comes first)."
 		]
 	},
 	"dual_balanced": {
@@ -104,7 +104,7 @@
 			"**Cost** +2,000 gp **Weight** -  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
-			"The weapon's blade inflicts wounds that bleed profusely. Only piercing or slashing melee weapons can have a serrated edge. This modification can be added to a ‹eq-weapon/sawtooth sabre› or ‹eq-weapon/rhoka sword› without increasing its ‹misc/weapon category›, but doing so increases the cost of modification by 2,000 gp. When you make an attack with a weapon with a serrated edge, you can take a -2 penalty on the attack roll. If you do and the attack deals damage, the weapon also inflicts 1 point of ‹rule/bleed› damage. This bleed stacks with itself (to a maximum equal to the weapon's critical multiplier), but does not stack with bleed from other sources."
+			"The weapon's blade inflicts wounds that bleed profusely. Only piercing or slashing melee weapons can have a serrated edge. This modification can be added to a ‹eq-weapon/sawtooth sabre› or ‹eq-weapon/rhoka sword› without increasing its weapon proficiency category, but doing so increases the cost of modification by 2,000 gp. When you make an attack with a weapon with a serrated edge, you can take a -2 penalty on the attack roll. If you do and the attack deals damage, the weapon also inflicts 1 point of ‹rule/bleed› damage. This bleed stacks with itself (to a maximum equal to the weapon's critical multiplier), but does not stack with bleed from other sources."
 		]
 	},
 	"tactically_adapted": {
