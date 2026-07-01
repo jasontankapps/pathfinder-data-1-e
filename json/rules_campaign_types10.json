@@ -291,7 +291,22 @@
 			"",
 			"Technological items can be found [here](main/equipment) under the **Technological Equipment** section.",
 			"",
-			"### Color Code",
+			"::h3[Skills]{jl}",
+			"",
+			"‹SOURCE Technology Guide/5›  ",
+			"No new skills are introduced to model how characters interact with technology - rather, existing skills are expanded to allow for such interaction. Additional rules for how skills interact with technology are listed on their skill pages. Without the ‹feat/Technologist› feat, a character is treated as untrained in the skill in question when using it on technology.",
+			"",
+			"‹skill/Craft› (mechanical) can be used to construct or repair technological items. ‹skill/Disable Device› can be used to arm or disarm high-tech explosives or disable electronic triggers or locks. The Technologist feat is not required to disable a high-tech trap or object, but such traps and objects often have significantly higher DCs to disable than low-tech versions would. A character with the Technologist feat can attempt a ‹skill/Linguistics› check to decipher certain complex messages that appear in Numerian ruins. Note that many of these messages are written in the native language of the crashed starship's crew, Androffan. This language is spoken outside of Numeria only rarely, and even within its borders, the Technic League has tried (quite unsuccessfully) to keep it a secret language.",
+			"",
+			"::h3[Researching Technology]{jl}",
+			"",
+			"A character can use the following skills to research technological subjects. Other skills may have research applications as well, subject to GM approval.",
+			"",
+			"‹skill/Heal› is used to identify and understand pharmaceuticals. ‹skill/Knowledge (geography)› is used for astronomy. ‹skill/Knowledge (engineering)› is the most important skill with regard to technological subjects. It can be used to identify a ‹subtype/robot«'s› abilities and weaknesses. It's also used to identify and understand unknown technological objects in a similar manner to how ‹skill/Spellcraft› is used to identify the properties of a magic item. The DC to correctly identify and understand an unknown technological object is equal to the object's Craft DC. An object with a Craft DC of 15 or less can be automatically identified and understood by someone trained in Knowledge (engineering) who also has the Technologist feat.",
+			"",
+			"Notably, although robots are ‹type/construct«s›, ‹skill/Knowledge (arcana)› **cannot** be used to identify robots or their abilities and weaknesses.",
+			"",
+			"::h3[Color Code]{jl}",
 			"",
 			"Many technological items follow a color code that organizes similar items (such as nanite hypoguns, force fields, or gravity clips) according to their overall power. The power level for each color is listed below. Note that there are nine colors in the scale: the effects of an item of any individual color should roughly correspond to the power level of a spell of the associated level. Seven of these colors are associated with the seven ‹eq-material/skymetal«s›. The least of the colors, brown, is associated with base ores, while the greatest of the colors, prismatic, is associated with all of the skymetals. In some technological items, actual skymetals of the appropriate color are used in the creation of the object, but in most, synthetic plastics and metals are used in place of the more valuable skymetals.",
 			"",
@@ -313,11 +328,11 @@
 			">",
 			">@HL[Prismatic:] Roughly equivalent to a 9th-level spell. This color is associated with all skymetals.",
 			"",
-			"### Power Sources",
+			"::h3[Power Sources]{jl}",
 			"",
 			"Most of the technological wonders presented here require energy to function. These items each have a capacity score, which indicates the maximum number of charges the item can store at any one time. The number of charges an item consumes when it is used varies from item to item. An item's capacity can be filled from any power source - like a battery or a generator - as a standard action. When an item is charged, it always takes as many charges from the attached power source as it can hold, filling as close to its capacity as possible. Note that charging an item from a generator is more efficient, as any charges drained from a battery in excess of the number of charges an item can store are lost.",
 			"",
-			"### Timeworn Technology",
+			"::h3[Timeworn Technology]{jl}",
 			"",
 			"The equipment presented in this section is described in full working condition and priced as such. While a high-technology setting may have many fully functional technological devices in it, that isn't the case in the campaign setting. Equipment that has been damaged or degraded over time works less consistently and is worth less money than new technological items. Such equipment is called \"timeworn.\""
 		],
@@ -331,6 +346,7 @@
 			"tech_misc",
 			"tech_artifacts",
 			"crafting_high_tech_items",
+			"spells_and_technology",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -384,6 +400,7 @@
 			"tech_misc",
 			"tech_artifacts",
 			"crafting_high_tech_items",
+			"spells_and_technology",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -590,6 +607,7 @@
 			"tech_misc",
 			"tech_artifacts",
 			"crafting_high_tech_items",
+			"spells_and_technology",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -642,6 +660,7 @@
 			"tech_misc",
 			"tech_artifacts",
 			"crafting_high_tech_items",
+			"spells_and_technology",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -698,6 +717,7 @@
 			"tech_misc",
 			"tech_artifacts",
 			"crafting_high_tech_items",
+			"spells_and_technology",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -754,6 +774,7 @@
 			"tech_misc",
 			"tech_artifacts",
 			"crafting_high_tech_items",
+			"spells_and_technology",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -797,6 +818,7 @@
 			"tech_misc",
 			"tech_artifacts",
 			"crafting_high_tech_items",
+			"spells_and_technology",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -841,13 +863,14 @@
 			"tech_misc",
 			"tech_artifacts",
 			"crafting_high_tech_items",
+			"spells_and_technology",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
 		]
 	},
 	"crafting_high_tech_items": {
-		"name": "Crafting High-Tech Items",
+		"name": "Feats and Crafting High-Tech Items",
 		"subtitle": "Technology",
 		"sources": [ "Technology Guide" ],
 		"description": [
@@ -877,11 +900,53 @@
 			"tech_misc",
 			"tech_artifacts",
 			"crafting_high_tech_items",
+			"spells_and_technology",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
 		],
 		"subtopics": [
+			"technological_feats",
+			"crafting_laboratories",
+			"hybrid_items",
+			"pricing_and_creating_new_technological_items"
+		]
+	},
+	"technological_feats": {
+		"name": "Technological Feats",
+		"subtitle": "High-Tech Items, Technology",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"‹SOURCE Technology Guide/6›  ",
+			"Several new technology-related feats interact with Numerian technology.",
+			"",
+			"@hll[feat/Craft Cybernetics:] You can build cyberware and install it in a creature's body.",
+			"",
+			"@hll[feat/Craft Pharmaceutical:] You can craft pharmaceuticals.",
+			"",
+			"@hll[feat/Craft Technological Arms and Armor:] You can build technological weapons and armor.",
+			"",
+			"@hll[feat/Craft Technological Item:] You can craft technological gear and items.",
+			"",
+			"@hll[feat/Robot's Bane:] You have trained to avoid the attacks and effects employed by robots and technology and to combat them effectively.",
+			"",
+			"@hll[feat/Scavenger's Luck:] You coax better behavior out of timeworn technology.",
+			"",
+			"@hll[feat/Technologist:] You are familiar with the basic mechanics of technology.",
+			"",
+			"@hll[feat/Technology Adept:] (Combat) You utilize high-tech firearms to maximum effect.",
+			"",
+			"@hll[feat/Technophobe:] Smashing technological abominations brings you joy.",
+			"",
+			"@hll[feat/Wrest Charge:] You can extract a charge from otherwise depleted technology."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment",
+			"crafting_high_tech_items"
+		],
+		"siblings": [
+			"technological_feats",
 			"crafting_laboratories",
 			"hybrid_items",
 			"pricing_and_creating_new_technological_items"
@@ -915,6 +980,7 @@
 			"crafting_high_tech_items"
 		],
 		"siblings": [
+			"technological_feats",
 			"crafting_laboratories",
 			"hybrid_items",
 			"pricing_and_creating_new_technological_items"
@@ -941,6 +1007,7 @@
 			"crafting_high_tech_items"
 		],
 		"siblings": [
+			"technological_feats",
 			"crafting_laboratories",
 			"hybrid_items",
 			"pricing_and_creating_new_technological_items"
@@ -960,9 +1027,89 @@
 			"crafting_high_tech_items"
 		],
 		"siblings": [
+			"technological_feats",
 			"crafting_laboratories",
 			"hybrid_items",
 			"pricing_and_creating_new_technological_items"
+		]
+	},
+	"spells_and_technology": {
+		"name": "Spells and Technology",
+		"subtitle": "Technology",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"‹SOURCE Technology Guide/8›  ",
+			"While technology is nonmagical, in a world of magic such as Golarion, spells have been developed to interact with technology and defend against its presence in Numeria.",
+			"",
+			"‹table0›"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment"
+		],
+		"siblings": [
+			"timeworn_technology",
+			"tech_weapons",
+			"tech_armor",
+			"cybertech",
+			"pharmaceuticals",
+			"tech_misc",
+			"tech_artifacts",
+			"crafting_high_tech_items",
+			"spells_and_technology",
+			"radiation",
+			"traps_and_technology",
+			"artificial_intelligence"
+		],
+		"tables": [
+			{
+				"id": "technological spells table",
+				"columns": [
+					{ "header": "Spell", "size": 7, "align": "start", "link": "spell" },
+					{ "header": "Level(s)", "type": "num", "size": 4 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Description", "unsortable": true, "size": 11.5, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
+				"filter": [
+					{ "col": 1, "has": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+					{ "col": 2, "equals": [
+						"abjuration",
+						"conjuration",
+						"divination",
+						"evocation",
+						"transmutation"
+					]},
+					{ "col": 6, "range": [0, 1], "labels": ["M component", "No M component"]},
+					{ "col": 7, "range": [0, 1], "labels": ["M/DF component", "No M/DF component"]},
+					{ "col": 10, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
+				],
+				"nullValue": "",
+				"data": [
+					[ [ "Antitech Field", "antitech_field" ], { "sort": 6.601, "data": "6, 7" }, "abjuration", "Create a field that prevents advanced technology from entering", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 0, "data": "M/DF" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ],
+					[ [ "Destroy Robot", "destroy_robot" ], { "sort": 5.601, "data": "5, 6" }, "transmutation", "Focus electricity on destroying a robot or robot-like creation.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 0, "data": "F/DF" } ],
+					[ [ "Detect Radiation", "detect_radiation" ], 1, "divination", "Detect radiation in the surrounding area.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ],
+					[ [ "Discharge", "discharge" ], 3, "abjuration", "Dissipate the charges from a technical object or hamper a creature with the robot subtype.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ],
+					[ [ "Discharge, Greater", "discharge_greater" ], 6, "abjuration", "As discharge, but with greater effects that can effect an area.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ],
+					[ [ "Infuse Robot", "infuse_robot" ], 7, "transmutation", "Transform a robot into a magical construct.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ],
+					[ [ "Irradiate", "irradiate" ], { "sort": 3.171, "data": "3, 4" }, "conjuration", "Flood an area with dangerous radiation.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ],
+					[ [ "Magic Circle Against Technology", "magic_circle_against_technology" ], 4, "abjuration", "Protects those in an area with protection from technology, and other effects that suppress or resist technology.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 0, "data": "M/DF" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ],
+					[ [ "Make Whole, Greater", "make_whole_greater" ], 4, "transmutation", "As make whole, but repairs 1d6+1/level damage to a max of 10d6+10.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ],
+					[ [ "Memory of Function", "memory_of_function" ], 7, "transmutation", "Restore a broken object, drained piece of timeworn technology, or destroyed construct to a functional state.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ],
+					[ [ "Protection from Technology", "protection_from_technology" ], 2, "abjuration", "+2 to AC and saves, plus additional protection against technology.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 0, "data": "M/DF" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ],
+					[ [ "Rebuke Technology", "rebuke_technology" ], 4, "abjuration", "Render a piece of technology inert.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 0, "data": "F/DF" } ],
+					[ [ "Recharge", "recharge" ], { "sort": 2.781, "data": "2, 3" }, "evocation", "Restore charges to a technological item.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 0, "data": "M" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ],
+					[ [ "Remove Radioactivity", "remove_radioactivity" ], 4, "conjuration", "Remove radiation effects from a target.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ],
+					[ [ "Remove Radioactivity, Greater", "remove_radioactivity_greater" ], 8, "conjuration", "Remove all ongoing radiation effects along with restoring ability damage and drain taken as a result.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ],
+					[ [ "Technomancy", "technomancy" ], 1, "divination", "As detect magic, except detecting the presence of technological objects.", { "sort": 0, "data": "V" }, { "sort": 0, "data": "S" }, { "sort": 0, "data": "M" }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 }, { "sort": 1 } ]				],
+				"initialColumn": 0
+			}
 		]
 	},
 	"radiation": {
@@ -1002,6 +1149,7 @@
 			"tech_misc",
 			"tech_artifacts",
 			"crafting_high_tech_items",
+			"spells_and_technology",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -1053,6 +1201,7 @@
 			"tech_misc",
 			"tech_artifacts",
 			"crafting_high_tech_items",
+			"spells_and_technology",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -1085,6 +1234,7 @@
 			"tech_misc",
 			"tech_artifacts",
 			"crafting_high_tech_items",
+			"spells_and_technology",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
