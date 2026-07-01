@@ -1264,7 +1264,7 @@
 			"",
 			"::archetype[Hangman]{c=vigilante r=\"Weapon and Armor Proficiencies; Vigilante Specialization; 2nd, 4th-level Vigilante Talent; Unshakable; Startling Appearance; Frightening Appearance; Stunning Appearance\" e=\"Wherever the guilty walk free, the hangman brings judgment.\"}",
 			"",
-			"::archetype[Hidden Current]{c=vigilante r=\"1st-level Social Talent; 2nd-level Vigilante Talent; Frightening Appearance\" e=\"The hidden current operates above and below the sea.\"}",
+			"::archetype[Hidden Current]{c=vigilante r=\"1st-level Social Talent; 2nd-level Vigilante Talent; Frightening Appearance\" e=\"(Gillman Only) The hidden current operates above and below the sea.\"}",
 			"",
 			"::archetype[Imperial Agent]{c=vigilante r=\"1st, 5th-level Social Talent; Unshakable\" e=\"Imperial agents are often the descendants of nobility and generals from Lung Wa, devoted to reuniting the empire by conquering Lung Wa's successor states\"}",
 			"",

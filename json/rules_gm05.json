@@ -3608,6 +3608,7 @@
 			"urban_toolbox"
 		]
 	},
+	"settlements": { "redirect": "the_shape_of_civilization" },
 	"streets_and_traffic": {
 		"name": "Streets and Traffic",
 		"subtitle": "Urban",

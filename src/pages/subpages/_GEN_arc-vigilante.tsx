@@ -4,6 +4,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 const _agathiel = {title: "Agathiel", jsx: <><h2 id="arc-vigilante-agathiel-agathiel">Agathiel</h2>
 <p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook pg. 25</Link><br/>The legends of Golarion teem with intelligent beasts who emerge from the wild to right wrongs perpetrated by a nation, aid a virtuous family, or extract long-overdue vengeance. Many of these trace back to the agathiel tradition, first stolen from agathion celestials by the elves of Kyonin and again later by Old-Mage Jatembe. Agathiels surrender a portion of their immortal souls to Nirvana in exchange for a measure of animalistic might to aid them in their righteous crusades. This exchange is permanent, and each agathiel commits the rest of his mortal life to service of others and the constant thrum of wild instincts. Though agathiels can be found in small numbers all over Golarion, the rituals to transform a mortal into an agathiel are common only in Kyonin and the Mwangi city-states, and among the wandering scholars of the Mwangi Expanse. The elves in particular relied upon these abilities to scout Golarion before reclaiming their abandoned territories after the Age of Darkness, leading to reports of extraordinary fey animals stalking elven ruins in the century before their return.</p>
 <Ability id="arc-vigilante-agathiel-immortal-commitment-su" icon={["hazard-sign"]}>
@@ -524,97 +525,255 @@ const _experimenter = {title: "Experimenter", jsx: <><h2 id="arc-vigilante-exper
 </>};
 const _faceless_enforcer = {title: "Faceless Enforcer", jsx: <><h2 id="arc-vigilante-faceless_enforcer-faceless-enforcer">Faceless Enforcer</h2>
 <p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 50</Link><br/>Unyielding warriors, faceless enforcers lock their identities behind implacable helms. While their infamous reputations spread far, striking fear in their foes, the individual behind the mask remains a complete mystery.</p>
-<p><strong>Weapon and Armor Proficiencies:</strong> A faceless enforcer is proficient with heavy armor, but not with shields.</p>
-<p>This alters the vigilante's <strong className="hl">weapon and armor proficiencies</strong>.</p>
-<p><strong>Dual Identity (Ex):</strong> A faceless enforcer's vigilante identity is tied to a particular helmet or face covering and suit of armor. Switching between identities means donning or removing this armored outfit. Switching identities means entirely donning or removing armor (even if it is donned hastily) and never takes less than the minimum amount of time to do so. <Link to="/rule/getting_into_and_out_of_armor">How long this takes depends on the type of armor.</Link> Once per month, the vigilante can replace the helmet or face covering and armor associated with his vigilante identity and buy or make a new outfit that becomes tied to that identity. A faceless enforcer cannot select the <Link to="/soctalent/immediate_change">immediate change</Link> or <Link to="/soctalent/quick_change">quick change</Link> social talents.</p>
-<p>This ability alters <strong className="hl">dual identity</strong>.</p>
-<p><strong>Armored Juggernaut (Ex):</strong> At 2nd level, a faceless enforcer does not need help donning half-plate or full-plate armor, but donning it alone takes him 8 minutes. At 4th level, he can don his half-plate or full-plate alone in 4 minutes, and can don it hastily in 2 minutes. At 6th level, he doesn't apply the armor check penalty for any armor on Acrobatics, Escape Artist, or Stealth checks, but the penalty applies on other skill checks as normal. At 8th level, a faceless enforcer can move 5 feet faster than normal in heavy armor, to a maximum of his base speed. At 10th level, it takes him 2 minutes to don heavy armor, 1 minute to don it hastily, and 1 minute to remove it. At 16th level, he can move at full speed in heavy armor. At 18th level, it never takes the vigilante more than 1 minute to don his armor.</p>
-<p>This replaces the <strong className="hl">vigilante talent</strong> gained at 2nd level.</p>
-<p><strong>Faceless Infiltrator (Ex):</strong> At 5th level, when he changes his identity, a faceless enforcer has a third option (instead of social or vigilante) he can assume a fictional identity with no known ties to his <Link to="/rule/hellknights">Hellknight</Link> affiliation, his social identity, or his vigilante identity. When he gains this ability, the faceless enforcer must choose a group, organization, or social structure he wishes to infiltrate (such as the beggars in Egorian's Cheapside or the city's congregation of the Midnight Temple to Asmodeus), and the fictional identity he creates must be a recruit, ally, or prospective employee of that group. This fictional identity's alignment must be within one step from either his vigilante or his social identity. A faceless enforcer can use social and vigilante talents when in his fictional identity, but he risks exposing his secret when he does so.</p>
-<p>When he gains this ability, the faceless enforcer creates mundane records that can verify his fictional identity. While he is in his fictional identity, a faceless enforcer appears to be an otherwise ordinary member of his race, and he receives a +10 bonus on Disguise checks to appear to be the fictional person he says he is. He must create the appearance for this fictional identity using whatever clothing and tools he has at his disposal. If the faceless enforcer changes from his vigilante identity to his fictional identity and vice versa, changing identities takes him the normal amount of time to don or remove his armor (see the armored juggernaut ability). If he changes from his fictional identity to his social identity and vice versa, it takes him 1 minute. Any attempts to scry or otherwise locate the fictional identity work as normal if the faceless enforcer is in his fictional identity. Otherwise, it reveals a random member of the group he is attempting to infiltrate.</p>
-<p>At 11th level, the faceless enforcer's bonus on Disguise checks to appear to be his fictional identity increases to +20. Any spell or ability designed to locate the fictional individual while the faceless enforcer is in that identity has a 50% chance of instead finding a random member of the group. Although this ability does not give the faceless enforcer any special knowledge of the group outside what he gleans himself, the faceless enforcer's training grants him a +10 circumstance bonus on Bluff checks to maintain his fictional guise.</p>
-<p>At 17th level, attempts to scry or otherwise locate the faceless enforcer's fictional identity always reveal a random member of the group he has infiltrated. Furthermore, his bonus on Bluff checks to maintain his fictional identity increases to +15.</p>
-<p>Every month, a faceless enforcer can create a new fictional identity, if he wishes, but not another fictional identity that is attempting to infiltrate the same group. A faceless enforcer cannot select the any guise, everyman, or many guises social talents.</p>
-<p>This ability replaces the <strong className="hl">social talents</strong> gained at 5th, 11th, and 17th levels.</p>
-<p><strong>Enforcer's Wrath (Ex):</strong> At 6th level, a faceless enforcer has become adept at using his vigilante identity to terrify and coerce lone enemies, particularly among the group he is currently infiltrating. He gains a +4 bonus on Intimidate checks against enemies when no other opponents are within 30 feet of him (or the creature he is intimidating). This bonus stacks with any bonuses the vigilante receives from <Link to="/soctalent/renown">renown</Link> or similar abilities. Additionally, if the vigilante successfully demoralizes a lone opponent with Intimidate, the opponent is shaken for 1 additional round.</p>
-<p>This ability replaces the <strong className="hl">vigilante talent</strong> gained at 6th level.</p>
+<Ability id="arc-vigilante-faceless_enforcer-weapon-and-armor-proficiencies" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-vigilante-faceless_enforcer-weapon-and-armor-proficiencies">Weapon and Armor Proficiencies</Pair>
+<Pair hl title="Alters">Weapon and armor proficiencies</Pair>
+<Pair title="Info">A faceless enforcer is proficient with heavy armor, but not with shields.</Pair>
+</Ability>
+<Ability id="arc-vigilante-faceless_enforcer-dual-identity-ex" icon={["info"]}>
+<Pair single id="arc-vigilante-faceless_enforcer-dual-identity-ex">Dual Identity (Ex)</Pair>
+<Pair hl title="Alters">Dual identity</Pair>
+<Pair title="Info">A faceless enforcer's vigilante identity is tied to a particular helmet or face covering and suit of armor. Switching between identities means donning or removing this armored outfit. Switching identities means entirely donning or removing armor (even if it is donned hastily) and never takes less than the minimum amount of time to do so. <Link to="/rule/getting_into_and_out_of_armor">How long this takes depends on the type of armor.</Link></Pair>
+<Pair title="Ability">Once per month, the vigilante can replace the helmet or face covering and armor associated with his vigilante identity and buy or make a new outfit that becomes tied to that identity.</Pair>
+<Pair title="Special">A faceless enforcer cannot select the <Link to="/soctalent/immediate_change">immediate change</Link> or <Link to="/soctalent/quick_change">quick change</Link> social talents.</Pair>
+</Ability>
+<Ability id="arc-vigilante-faceless_enforcer-armored-juggernaut-ex" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-faceless_enforcer-armored-juggernaut-ex">Armored Juggernaut (Ex)</Pair>
+<Pair hl title="Replaces">Vigilante talent gained at 2nd level</Pair>
+<Pair title="At 2nd Level">A faceless enforcer does not need help donning half-plate or full-plate armor, but donning it alone takes him 8 minutes.</Pair>
+<Pair title="At 4th Level">He can don his half-plate or full-plate alone in 4 minutes, and can don it hastily in 2 minutes.</Pair>
+<Pair title="At 6th Level">He doesn't apply the armor check penalty for any armor on Acrobatics, Escape Artist, or Stealth checks, but the penalty applies on other skill checks as normal.</Pair>
+<Pair title="At 8th Level">A faceless enforcer can move 5 feet faster than normal in heavy armor, to a maximum of his base speed.</Pair>
+<Pair title="At 10th Level">It takes him 2 minutes to don heavy armor, 1 minute to don it hastily, and 1 minute to remove it.</Pair>
+<Pair title="At 16th Level">He can move at full speed in heavy armor.</Pair>
+<Pair title="At 18th Level">It never takes the vigilante more than 1 minute to don his armor.</Pair>
+</Ability>
+<Ability id="arc-vigilante-faceless_enforcer-faceless-infiltrator-ex" icon={["stairs-goal","upgrade","broken-shield"]}>
+<Pair single id="arc-vigilante-faceless_enforcer-faceless-infiltrator-ex">Faceless Infiltrator (Ex)</Pair>
+<Pair hl title="Replaces">Social talents gained at 5th, 11th, and 17th levels</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Choice">When he changes his identity, a faceless enforcer has a third option (instead of <em>social</em> or <em>vigilante</em>) he can assume a fictional identity with no known ties to his <Link to="/rule/hellknights">Hellknight</Link> affiliation, his social identity, or his vigilante identity. When he gains this ability, the faceless enforcer must choose a group, organization, or social structure he wishes to infiltrate (such as the beggars in Egorian's Cheapside or the city's congregation of the Midnight Temple to Asmodeus), and the fictional identity he creates must be a recruit, ally, or prospective employee of that group. This fictional identity's alignment must be within one step from either his vigilante or his social identity. A faceless enforcer can use social and vigilante talents when in his fictional identity, but he risks exposing his secret when he does so.</Pair>
+<Pair title="Ability">When he gains this ability, the faceless enforcer creates mundane records that can verify his fictional identity. While he is in his fictional identity, a faceless enforcer appears to be an otherwise ordinary member of his race, and he receives a +10 bonus on Disguise checks to appear to be the fictional person he says he is. He must create the appearance for this fictional identity using whatever clothing and tools he has at his disposal. If the faceless enforcer changes from his vigilante identity to his fictional identity and vice versa, changing identities takes him the normal amount of time to don or remove his armor (see the <em>armored juggernaut</em> ability). If he changes from his fictional identity to his social identity and vice versa, it takes him 1 minute. Any attempts to scry or otherwise locate the fictional identity work as normal if the faceless enforcer is in his fictional identity. Otherwise, it reveals a random member of the group he is attempting to infiltrate.</Pair>
+<Pair title="At 11th Level">The faceless enforcer's bonus on Disguise checks to appear to be his fictional identity increases to +20. Any spell or ability designed to locate the fictional individual while the faceless enforcer is in that identity has a 50% chance of instead finding a random member of the group. Although this ability does not give the faceless enforcer any special knowledge of the group outside what he gleans himself, the faceless enforcer's training grants him a +10 circumstance bonus on Bluff checks to maintain his fictional guise.</Pair>
+<Pair title="At 17th Level">Attempts to scry or otherwise locate the faceless enforcer's fictional identity always reveal a random member of the group he has infiltrated. Furthermore, his bonus on Bluff checks to maintain his fictional identity increases to +15.</Pair>
+<Pair title="Special">Every month, a faceless enforcer can create a new fictional identity, if he wishes, but not another fictional identity that is attempting to infiltrate the same group. A faceless enforcer cannot select the <em>any guise, everyman,</em> or <em>many guises</em> social talents.</Pair>
+</Ability>
+<Ability id="arc-vigilante-faceless_enforcer-enforcers-wrath-ex" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-faceless_enforcer-enforcers-wrath-ex" flavor="A faceless enforcer has become adept at using his vigilante identity to terrify and coerce lone enemies, particularly among the group he is currently infiltrating.">Enforcer's Wrath (Ex)</Pair>
+<Pair hl title="Replaces">Vigilante talent gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Passive Ability">He gains a +4 bonus on Intimidate checks against enemies when no other opponents are within 30 feet of him (or the creature he is intimidating). This bonus stacks with any bonuses the vigilante receives from <Link to="/soctalent/renown">renown</Link> or similar abilities. Additionally, if the vigilante successfully demoralizes a lone opponent with Intimidate, the opponent is <Link to="/misc/shaken">shaken</Link> for 1 additional round.</Pair>
+</Ability>
 </>};
 const _ferocious_hunter = {title: "Ferocious Hunter", jsx: <><h2 id="arc-vigilante-ferocious_hunter-ferocious-hunter">Ferocious Hunter</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 26</Link><br/><Link to="/race/half_orc">Half-orcs</Link> with more distant orc ancestry often look almost indistinguishable from humans, aside from a slightly greenish tint to their skin or sharp teeth. The ability to move through the world without experiencing the same discrimination many of their kin face opens doors that might otherwise be closed, yet many of these half-orcs still take great pride in their heritage and have a powerful desire to show the world that half-orcs are deserving of respect. By taking on an alter-ego that allows them to show their true colors, they can become a champion of the downtrodden and a hero among half-orcs.</p>
-<p><strong>Hidden Heritage (Ex):</strong> A ferocious hunter must present as human for his social identity and as a half-orc for his vigilante identity in order to gain the benefits of dual identity. He gains <Link to="/feat/pass_for_human">Pass for Human</Link> as a bonus feat. In addition, his alignment stays the same when he switches between identities.</p>
-<p>This alters <strong className="hl">dual identity</strong>.</p>
-<p><strong>Symbol of Pride:</strong> At 2nd level, a ferocious hunter gains the <Link to="/vigtalent/signature_weapon">signature weapon</Link> vigilante talent, but must select a <Link to="/eq-weapon/falchion">falchion</Link>, <Link to="/eq-weapon/greataxe">greataxe</Link>, or a weapon with "orc" in its name as his chosen weapon. He gains this talent regardless of his chosen vigilante specialization.</p>
-<p>This replaces the <strong className="hl">vigilante talent</strong> gained at 2nd level.</p>
-<p><strong>Spirit of Ferocity (Ex):</strong> Starting at 3rd level, when using orc ferocity to continue fighting after falling below 0 hit points, a ferocious hunter fights on for a number of rounds equal to his Constitution modifier.</p>
-<p>This replaces <strong className="hl">unshakable</strong>.</p>
-<p><strong>Symbol of Mastery:</strong> At 8th level, a ferocious hunter gains <Link to="/feat/improved_critical">Improved Critical</Link> with the weapon chosen for the symbol of pride ability. His base attack bonus is equal to his vigilante level for the purpose of qualifying for <Link to="/feat/critical_focus">Critical Focus</Link> and any feats that require Critical Focus as a prerequisite.</p>
-<p>This replaces the <strong className="hl">vigilante talent</strong> gained at 8th level.</p>
+<p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 26</Link><br/>Half-orcs with more distant orc ancestry often look almost indistinguishable from humans, aside from a slightly greenish tint to their skin or sharp teeth. The ability to move through the world without experiencing the same discrimination many of their kin face opens doors that might otherwise be closed, yet many of these half-orcs still take great pride in their heritage and have a powerful desire to show the world that half-orcs are deserving of respect. By taking on an alter-ego that allows them to show their true colors, they can become a champion of the downtrodden and a hero among half-orcs.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-vigilante-ferocious_hunter--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/half_orc">Half-orc</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-vigilante-ferocious_hunter-hidden-heritage-ex" icon={["info","stairs-goal"]}>
+<Pair single id="arc-vigilante-ferocious_hunter-hidden-heritage-ex">Hidden Heritage (Ex)</Pair>
+<Pair hl title="Alters">Dual identity</Pair>
+<Pair title="Info">A ferocious hunter must present as human for his social identity and as a half-orc for his vigilante identity in order to gain the benefits of dual identity. He gains <Link to="/feat/pass_for_human">Pass for Human</Link> as a bonus feat. In addition, his alignment stays the same when he switches between identities.</Pair>
+</Ability>
+<Ability id="arc-vigilante-ferocious_hunter-symbol-of-pride" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-ferocious_hunter-symbol-of-pride">Symbol of Pride</Pair>
+<Pair hl title="Replaces">Vigilante talent gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A ferocious hunter gains the <Link to="/vigtalent/signature_weapon">signature weapon</Link> vigilante talent, but must select a <Link to="/eq-weapon/falchion">falchion</Link>, <Link to="/eq-weapon/greataxe">greataxe</Link>, or a weapon with "orc" in its name as his chosen weapon. He gains this talent regardless of his chosen vigilante specialization.</Pair>
+</Ability>
+<Ability id="arc-vigilante-ferocious_hunter-spirit-of-ferocity-ex" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-ferocious_hunter-spirit-of-ferocity-ex">Spirit of Ferocity (Ex)</Pair>
+<Pair hl title="Replaces">Unshakable</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">When using <em>orc ferocity</em> to continue fighting after falling below 0 hit points, a ferocious hunter fights on for a number of rounds equal to his Constitution modifier.</Pair>
+</Ability>
+<Ability id="arc-vigilante-ferocious_hunter-symbol-of-mastery" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-ferocious_hunter-symbol-of-mastery">Symbol of Mastery</Pair>
+<Pair hl title="Replaces">Vigilante talent gained at 8th level</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">A ferocious hunter gains <Link to="/feat/improved_critical">Improved Critical</Link> with the weapon chosen for the <em>symbol of pride</em> ability. His base attack bonus is equal to his vigilante level for the purpose of qualifying for <Link to="/feat/critical_focus">Critical Focus</Link> and any feats that require Critical Focus as a prerequisite.</Pair>
+</Ability>
 </>};
 const _gunmaster = {title: "Gunmaster", jsx: <><h2 id="arc-vigilante-gunmaster-gunmaster">Gunmaster</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 57</Link><br/>Firearms can be potent tools for striking fear into the hearts of enemies, and canny vigilantes use this to their advantage. Gunmasters brandish firearms like extensions of their will, taking down their foes with deadly accuracy and skill.</p>
-<p><strong>Weapon and Armor Proficiencies:</strong> A gunmaster is proficient with all firearms but not with martial weapons or medium armor.</p>
-<p>This alters the vigilante's <strong className="hl">weapon and armor proficiencies</strong>.</p>
-<p><strong>Gunmaster:</strong> At 1st level, a gunmaster gains the <Link to="/class/gunslinger">gunslinger's</Link> gunsmith ability. Additionally, the <Link to="/feat/gunsmithing">Gunsmithing</Link> bonus feat allows the gunmaster to repair and restore his initial battered firearm as if he were a gunslinger. At 5th level, and every 4 vigilante levels thereafter, the gunmaster gains a +1 bonus on attack and damage rolls with all firearms.</p>
-<p>This ability replaces <strong className="hl">vigilante specialization</strong>.</p>
-<p><strong>Gunmaster Talents:</strong> A gunmaster can select from any of the following vigilante talents, in addition to general vigilante talents.</p>
-<p>This alters <strong className="hl">vigilante talents</strong>.</p>
-<blockquote>
-<p><strong>Deadeye (Ex):</strong> Once per day, the gunmaster can resolve an attack against touch AC instead of normal AC when firing one increment beyond his firearm's first range increment. The gunmaster still takes the -2 penalty on attack rolls for shooting a target outside the firearm's first range increment. At 6th level and every 4 vigilante levels thereafter, he can use this ability one additional time per day. A gunmaster can spend multiple daily uses to resolve an attack at a further range increment (for instance, he can spend three uses to resolve an attack three increments beyond his first range increment).</p>
-<p><strong>Death's Shot (Ex):</strong> Three times per day, as an immediate action when the gunmaster scores a critical hit, he can attempt to kill his enemy instantly. When the gunmaster uses this talent, the target must succeed at a Fortitude saving throw with a DC equal to 10 + 1/2 the gunmaster's vigilante level + his Dexterity modifier. On a failed saving throw, the target dies instantly. A gunmaster must be 20th level to select this talent.</p>
-<p><strong>Gunmaster Initiative (Ex):</strong> The gunmaster gains a +2 bonus on initiative checks. Furthermore, if he has the <Link to="/feat/quick_draw">Quick Draw</Link> feat, his hands are free and unrestrained, and the firearm is not hidden, he can draw a single firearm as part of the initiative check. A gunmaster must be at least 4th level to select this talent.</p>
-<p><strong>Lightning Reload (Ex):</strong> A number of times per day equal to half his vigilante level, a gunmaster can reload a single barrel of a one-handed or two-handed firearm as a swift action once per round. If he has the <Link to="/feat/rapid_reload">Rapid Reload</Link> feat or is using an alchemical cartridge (or both), he can reload a single barrel of the weapon as a free action each round instead. Using this talent does not provoke attacks of opportunity. A gunmaster must be at least 12th level to select this talent.</p>
-<p><strong>Quick Clear (Ex):</strong> Once per day as a standard action, the gunmaster can remove the broken condition from a single firearm he is currently wielding, as long as that condition was gained by a firearm misfire. Starting at 12th level, once per day, when the gunmaster rolls a misfire with a gun that has the broken condition, she can prevent the gun from exploding, though it retains the broken condition.</p>
-</blockquote>
-<p><strong>Nimble (Ex):</strong> Starting at 4th level, a gunmaster gains a +1 dodge bonus to AC while wearing light or no armor. Anything that causes the gunmaster to lose her Dexterity bonus to AC also causes the gunmaster to lose this dodge bonus. This bonus increases by 1 for every 6 vigilante levels beyond 4th (to a maximum of +3 at 16th level).</p>
-<p>This ability replaces <strong className="hl">unshakable</strong>.</p>
+<Ability id="arc-vigilante-gunmaster-weapon-and-armor-proficiencies" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-vigilante-gunmaster-weapon-and-armor-proficiencies">Weapon and Armor Proficiencies</Pair>
+<Pair hl title="Alters">Weapon and armor proficiencies</Pair>
+<Pair title="Info">A gunmaster is proficient with all firearms but not with martial weapons or medium armor.</Pair>
+</Ability>
+<Ability id="arc-vigilante-gunmaster-gunmaster" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-gunmaster-gunmaster">Gunmaster</Pair>
+<Pair hl title="Replaces">Vigilante specialization</Pair>
+<Pair title="Ability">A gunmaster gains the <Link to="/class/gunslinger">gunslinger's</Link> gunsmith ability. Additionally, the <Link to="/feat/gunsmithing">Gunsmithing</Link> bonus feat allows the gunmaster to repair and restore his initial battered firearm as if he were a gunslinger.</Pair>
+<Pair title="At 5th Level">The gunmaster gains a +1 bonus on attack and damage rolls with all firearms.</Pair>
+<Pair title="At 9th Level">This bonus becomes +2.</Pair>
+<Pair title="At 13th Level">This bonus increases to +3.</Pair>
+<Pair title="At 17th Level">This bonus becomes +4.</Pair>
+</Ability>
+<Ability id="arc-vigilante-gunmaster-gunsmith" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-gunmaster-gunsmith" flavor="Text from the gunslinger class ability.">Gunsmith</Pair>
+<Pair title="Ability">You gain <Link to="/feat/gunsmithing">Gunsmithing</Link> as a bonus feat, and one of the following firearms of your choice: <Link to="/eq-weapon/blunderbuss">blunderbuss</Link>, <Link to="/eq-weapon/musket">musket</Link>, or <Link to="/eq-weapon/pistol">pistol</Link>. Your starting weapon is battered, and only you know how to use it properly. All other creatures treat your gun as if it had the <Link to="/misc/broken">broken</Link> condition. If the weapon already has the broken condition, it does not work at all for anyone else trying to use it.</Pair>
+<Pair title="Special">This starting weapon can only be sold for scrap (it's worth 4d10 gp when sold).</Pair>
+</Ability>
+<Ability id="arc-vigilante-gunmaster-gunmaster-talents" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-gunmaster-gunmaster-talents">Gunmaster Talents</Pair>
+<Pair hl title="Alters">Vigilante talents</Pair>
+<Pair title="Info">A gunmaster can select from any of the following vigilante talents, in addition to general vigilante talents.</Pair>
+</Ability>
+<Ability id="arc-vigilante-gunmaster-deadeye-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-gunmaster-deadeye-ex">Deadeye (Ex)</Pair>
+<Pair title="Usage">1 time/day + 1 per four vigilante levels beyond 2nd<ByLevelPop levels={[[2,1],[6,2],[10,3],[14,4],[18,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">The gunmaster can resolve an attack against touch AC instead of normal AC when firing one increment beyond his firearm's first range increment. The gunmaster still takes the -2 penalty on attack rolls for shooting a target outside the firearm's first range increment.</Pair>
+<Pair title="Special">A gunmaster can spend multiple daily uses to resolve an attack at a further range increment (for instance, he can spend three uses to resolve an attack three increments beyond his first range increment).</Pair>
+</Ability>
+<Ability id="arc-vigilante-gunmaster-deaths-shot-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-gunmaster-deaths-shot-ex">Death's Shot (Ex)</Pair>
+<Pair title="Prerequisites">20th-level vigilante</Pair>
+<Pair title="Immediate Action">Three times per day, when the gunmaster scores a critical hit, he can attempt to kill his enemy instantly. When the gunmaster uses this talent, the target must succeed at a Fortitude saving throw with a DC equal to 10 + 1/2 the gunmaster's vigilante level + his Dexterity modifier. On a failed saving throw, the target dies instantly.</Pair>
+</Ability>
+<Ability id="arc-vigilante-gunmaster-gunmaster-initiative-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-gunmaster-gunmaster-initiative-ex">Gunmaster Initiative (Ex)</Pair>
+<Pair title="Prerequisites">4th-level vigilante</Pair>
+<Pair title="Ability">The gunmaster gains a +2 bonus on initiative checks. Furthermore, if he has the <Link to="/feat/quick_draw">Quick Draw</Link> feat, his hands are free and unrestrained, and the firearm is not hidden, he can draw a single firearm as part of the initiative check.</Pair>
+</Ability>
+<Ability id="arc-vigilante-gunmaster-lightning-reload-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-gunmaster-lightning-reload-ex">Lightning Reload (Ex)</Pair>
+<Pair title="Prerequisites">12th-level vigilante</Pair>
+<Pair title="Usage">1 time/day per two vigilante levels</Pair>
+<Pair title="Swift Action">A gunmaster can reload a single barrel of a one-handed or two-handed firearm once per round. If he has the <Link to="/feat/rapid_reload">Rapid Reload</Link> feat or is using an alchemical cartridge (or both), he can reload a single barrel of the weapon as a <strong className="hl">free action</strong> each round instead.</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
+</Ability>
+<Ability id="arc-vigilante-gunmaster-quick-clear-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-gunmaster-quick-clear-ex">Quick Clear (Ex)</Pair>
+<Pair title="Standard Action">Once per day, the gunmaster can remove the broken condition from a single firearm he is currently wielding, as long as that condition was gained by a firearm misfire.</Pair>
+<Pair title="At 12th Level">Once per day, when the gunmaster rolls a misfire with a gun that has the broken condition, she can prevent the gun from exploding, though it retains the broken condition.</Pair>
+</Ability>
+<Ability id="arc-vigilante-gunmaster-nimble-ex" icon={["armor-upgrade"]}>
+<Pair single id="arc-vigilante-gunmaster-nimble-ex">Nimble (Ex)</Pair>
+<Pair hl title="Replaces">Unshakable</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Passive Ability">A gunmaster gains a +1 dodge bonus to AC while wearing light or no armor. Anything that causes the gunmaster to lose her Dexterity bonus to AC also causes the gunmaster to lose this dodge bonus.</Pair>
+<Pair title="At 10th Level">This bonus becomes +2.</Pair>
+<Pair title="At 14th Level">This bonus increases to +3.</Pair>
+<Pair title="At 18th Level">This bonus becomes +4.</Pair>
+</Ability>
 </>};
 const _half_elf_double_scion = {title: "Half-Elf Double Scion", jsx: <><h2 id="arc-vigilante-half_elf_double_scion-half-elf-double-scion">Half-Elf Double Scion</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 22</Link><br/>Many <Link to="/race/half_elves">half-elves</Link> who live in human or elven societies try to blend in, hiding their true ancestry. But deception takes a toll, and some half-elves form alternate identities to let the suppressed side of their heritage be known. This other identity can be either a force for good, enabling the half-elf to express a part of himself that has been denied to him, or for evil, with the half-elf hurting others to make up for his own pain.</p>
-<p><strong>Dual Heritage:</strong> A half-elf double scion appears to be an elf in one identity and a human in the other identity. He takes no penalties to Disguise checks to appear as the race that matches his current identity. The selection of which race is the social identity and which is the vigilante identity is made at 1st level and cannot be changed. Additionally, when a half-elf double scion switches from one identity to another, he is representing different aspects of his heritage rather than personality. As a result, a half-elf double scion has the same alignment in both of his identities.</p>
-<p>This alters <strong className="hl">dual identity</strong>.</p>
-<p><strong>Half-Elf Double Scion Talents:</strong> A half-elf double scion can select from the following vigilante talents, in addition to general vigilante talents.</p>
-<blockquote>
-<p><strong>Elven Weapon Command (Ex):</strong> A half-elf double scion can wield traditional elven weapons as well as elves can. The half-elf double scion treats any weapon with the word "elven" in its name as a martial weapon, and gains <Link to="/feat/weapon_focus">Weapon Focus</Link> as a bonus feat for one such weapon.</p>
-<p><strong>Arrogant Strike (Ex):</strong> A half-elf double scion has a highly confident style in battle, characteristic of both humans and elves. A half-elf double scion can declare that he is using this ability at the beginning of his turn as a free action. He automatically confirms any critical hits until the beginning of his next turn. He can use this ability once per day plus one additional time at 14th level and 18th level. A half-elf double scion must be at least 10th level to select this talent.</p>
-<p><strong>Slick Step (Ex):</strong> A half-elf double scion can, as a move action, move 10 feet without provoking an attack of opportunity. This movement cannot pass through an opponent's square and must otherwise be a legal movement. He cannot draw a weapon during this movement.</p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 22</Link><br/>Many half-elves who live in human or elven societies try to blend in, hiding their true ancestry. But deception takes a toll, and some half-elves form alternate identities to let the suppressed side of their heritage be known. This other identity can be either a force for good, enabling the half-elf to express a part of himself that has been denied to him, or for evil, with the half-elf hurting others to make up for his own pain.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-vigilante-half_elf_double_scion--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/half_elf">Half-elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-vigilante-half_elf_double_scion-dual-heritage" icon={["info"]}>
+<Pair single id="arc-vigilante-half_elf_double_scion-dual-heritage">Dual Heritage</Pair>
+<Pair hl title="Alters">Dual identity</Pair>
+<Pair title="Info">A half-elf double scion appears to be an elf in one identity and a human in the other identity. He takes no penalties to Disguise checks to appear as the race that matches his current identity. The selection of which race is the social identity and which is the vigilante identity is made at 1st level and cannot be changed. Additionally, when a half-elf double scion switches from one identity to another, he is representing different aspects of his heritage rather than personality. As a result, a half-elf double scion has the same alignment in both of his identities.</Pair>
+</Ability>
+<Ability id="arc-vigilante-half_elf_double_scion-half-elf-double-scion-talents" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-half_elf_double_scion-half-elf-double-scion-talents">Half-Elf Double Scion Talents</Pair>
+<Pair title="Info">A half-elf double scion can select from the following vigilante talents, in addition to general vigilante talents.</Pair>
+</Ability>
+<Ability id="arc-vigilante-half_elf_double_scion-elven-weapon-command-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-half_elf_double_scion-elven-weapon-command-ex" flavor="A half-elf double scion can wield traditional elven weapons as well as elves can.">Elven Weapon Command (Ex)</Pair>
+<Pair title="Ability">The half-elf double scion treats any weapon with the word "elven" in its name as a martial weapon, and gains <Link to="/feat/weapon_focus">Weapon Focus</Link> as a bonus feat for one such weapon.</Pair>
+</Ability>
+<Ability id="arc-vigilante-half_elf_double_scion-arrogant-strike-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-half_elf_double_scion-arrogant-strike-ex" flavor="A half-elf double scion has a highly confident style in battle, characteristic of both humans and elves.">Arrogant Strike (Ex)</Pair>
+<Pair title="Prerequisites">10th-level vigilante</Pair>
+<Pair title="Usage">1 time/day + 1 per four vigilante levels beyond 10th<ByLevelPop levels={[[10,1],[14,2],[18,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Free Action">A half-elf double scion can declare that he is using this ability. He automatically confirms any critical hits until the beginning of his next turn.</Pair>
+</Ability>
+<Ability id="arc-vigilante-half_elf_double_scion-slick-step-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-half_elf_double_scion-slick-step-ex">Slick Step (Ex)</Pair>
+<Pair title="Move-Equivalent Action">A half-elf double scion can move 10 feet without provoking an attack of opportunity. This movement cannot pass through an opponent's square and must otherwise be a legal movement. He cannot draw a weapon during this movement.</Pair>
+</Ability>
 </>};
 const _hangman = {title: "Hangman", jsx: <><h2 id="arc-vigilante-hangman-hangman">Hangman</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 70</Link><br/>Wherever the guilty walk free, the hangman brings judgment.</p>
-<p><strong>Weapon and Armor Proficiency:</strong> A hangman is proficient with <Link to="/eq-weapon/net">nets</Link> and <Link to="/eq-weapon/whip">whips</Link>, but not shields.</p>
-<p>This alters the vigilante's <strong className="hl">weapon and armor proficiencies</strong>.</p>
-<p><strong>Vigilante Specialization:</strong> A hangman must choose the stalker specialization.</p>
-<p>This alters <strong className="hl">vigilante specialization</strong>.</p>
-<p><strong>Hangman's Noose (Ex):</strong> At 2nd level, a hangman can wield a rope noose as a net or whip, and also can use it to grapple, gaining the benefits of <Link to="/feat/improved_grapple">Improved Grapple</Link> with it. He takes no penalty on combat maneuver checks with the noose for having the noose in his hand, but he still doesn't add any bonuses he might have with a net or whip (such as weapon enhancement bonuses or benefits from <Link to="/feat/weapon_focus">Weapon Focus</Link>) on the check. He can spend 1 minute to weave a magical or masterwork net or whip into a noose, thereafter gaining these benefits with it.</p>
-<p>This ability replaces the 2nd-level <strong className="hl">vigilante talent</strong>.</p>
-<p><strong>Bound to Truth (Ex, Sp):</strong> At 3rd level, a hangman adds half his vigilante level to his Sense Motive checks to notice lies told by a creature entangled or grappled by his noose, by feeling the creature's throat clench or changes in its breathing. In addition, he can prevent a creature entangled or grappled in his noose from lying by tightening the noose, as per a single-target zone of truth (the caster level equals his vigilante level; the save DC is Charisma-based). He can use the latter ability a number of rounds per day equal to half his vigilante level. These rounds don't need to be consecutive.</p>
-<p>This ability replaces <strong className="hl">unshakable</strong>.</p>
-<p><strong>Twisted Rope (Su):</strong> At 4th level, a hangman can spend 1 hour preparing his noose, granting it temporary hit points equal to his vigilante level, giving it a hardness equal to 1/2 his vigilante level plus double the weapon's enhancement bonus (or its current hardness, whichever is better), and changing its break DC to 23 + 1/2 his vigilante level (or its current break DC, whichever is better). These benefits last for 8 hours, but end immediately if the hangman prepares another noose.</p>
-<p>This ability replaces the 4th-level <strong className="hl">vigilante talent</strong>.</p>
-<p><strong>Chokehold:</strong> At 5th level, a hangman gains <Link to="/feat/chokehold">Chokehold</Link> as a bonus feat.</p>
-<p>This ability replaces <strong className="hl">startling appearance</strong>.</p>
-<p><strong>Tighten the Noose (Ex):</strong> At 11th level, while a hangman is grappling a target with his noose, as a swift action he can deal increased hidden strike damage to the target.</p>
-<p>This ability replaces <strong className="hl">frightening appearance</strong>.</p>
-<p><strong>Suffocation (Ex):</strong> At 17th level, the first time the hangman succeeds at a check to maintain a grapple (on his next turn after establishing the grapple), in place of the other options, he can suffocate the target and cause her to fall unconscious. A successful Fortitude save (DC = 15 + the hangman's Strength bonus) negates the suffocation. On subsequent rounds, the hangman can maintain the grapple to suffocate the target again. On the next failed save, the target drops to -1 hit points and starts dying. On the third failed save, she dies. Even if the hangman has the ability to maintain a grapple with less than a standard action, he can attempt to maintain a grapple to suffocate only once per round.</p>
-<p>This ability replaces <strong className="hl">stunning appearance</strong>.</p>
+<Ability id="arc-vigilante-hangman-weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-vigilante-hangman-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Alters">Weapon and armor proficiencies</Pair>
+<Pair title="Info">A hangman is proficient with <Link to="/eq-weapon/net">nets</Link> and <Link to="/eq-weapon/whip">whips</Link>, but not shields.</Pair>
+</Ability>
+<Ability id="arc-vigilante-hangman-vigilante-specialization" icon={["info"]}>
+<Pair single id="arc-vigilante-hangman-vigilante-specialization">Vigilante Specialization</Pair>
+<Pair hl title="Alters">Vigilante specialization</Pair>
+<Pair title="Info">A hangman must choose the <em>stalker</em> specialization.</Pair>
+</Ability>
+<Ability id="arc-vigilante-hangman-hangmans-noose-ex" icon={["mailed-fist"]}>
+<Pair single id="arc-vigilante-hangman-hangmans-noose-ex">Hangman's Noose (Ex)</Pair>
+<Pair hl title="Replaces">2nd-level vigilante talent</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A hangman can wield a rope noose as a net or whip, and also can use it to <Link to="/rule/grapple">grapple</Link>, gaining the benefits of <Link to="/feat/improved_grapple">Improved Grapple</Link> with it. He takes no penalty on combat maneuver checks with the noose for having the noose in his hand, but he still doesn't add any bonuses he might have with a net or whip (such as weapon enhancement bonuses or benefits from <Link to="/feat/weapon_focus">Weapon Focus</Link>) on the check.</Pair>
+<Pair title="Special">He can spend 1 minute to weave a magical or masterwork net or whip into a noose, thereafter gaining these benefits with it.</Pair>
+</Ability>
+<Ability id="arc-vigilante-hangman-bound-to-truth-ex-sp" icon={["upgrade","magic-swirl"]}>
+<Pair single id="arc-vigilante-hangman-bound-to-truth-ex-sp">Bound to Truth (Ex, Sp)</Pair>
+<Pair hl title="Replaces">Unshakable</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A hangman adds half his vigilante level to his Sense Motive checks to notice lies told by a creature entangled or grappled by his noose, by feeling the creature's throat clench or changes in its breathing.</Pair>
+<Pair title="Ability">In addition, he can prevent a creature entangled or grappled in his noose from lying by tightening the noose, as per a single-target <Link to="/spell/zone_of_truth">zone of truth</Link> (the caster level equals his vigilante level; the save DC is Charisma-based). He can use the latter ability a number of rounds per day equal to <Link to="/misc/half">half</Link> his vigilante level. These rounds don't need to be consecutive.</Pair>
+</Ability>
+<Ability id="arc-vigilante-hangman-twisted-rope-su" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-hangman-twisted-rope-su">Twisted Rope (Su)</Pair>
+<Pair hl title="Replaces">4th-level vigilante talent</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A hangman can spend 1 hour preparing his noose, granting it temporary hit points equal to his vigilante level, giving it a <Link to="/rule/hardness">hardness</Link> equal to 1/2 his vigilante level plus double the weapon's enhancement bonus (or its current hardness, whichever is better), and changing its break DC to 23 + 1/2 his vigilante level (or its current break DC, whichever is better). These benefits last for 8 hours, but end immediately if the hangman prepares another noose.</Pair>
+</Ability>
+<Ability id="arc-vigilante-hangman-chokehold" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-hangman-chokehold">Chokehold</Pair>
+<Pair hl title="Replaces">Startling appearance</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">A hangman gains <Link to="/feat/chokehold">Chokehold</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="arc-vigilante-hangman-tighten-the-noose-ex" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-hangman-tighten-the-noose-ex">Tighten the Noose (Ex)</Pair>
+<Pair hl title="Replaces">Frightening appearance</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Swift Action">While a hangman is grappling a target with his noose, he can deal increased <em>hidden strike</em> damage to the target.</Pair>
+</Ability>
+<Ability id="arc-vigilante-hangman-suffocation-ex" icon={["mailed-fist","armor-downgrade"]}>
+<Pair single id="arc-vigilante-hangman-suffocation-ex">Suffocation (Ex)</Pair>
+<Pair hl title="Replaces">Stunning appearance</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Ability">The first time the hangman succeeds at a check to maintain a grapple (on his next turn after establishing the grapple), in place of the other options, he can suffocate the target and cause her to fall <Link to="/misc/unconscious">unconscious</Link>. A successful Fortitude save (DC = 15 + the hangman's Strength bonus) negates the suffocation. On subsequent rounds, the hangman can maintain the grapple to suffocate the target again. On the next failed save, the target drops to -1 hit points and starts <Link to="/misc/dying">dying</Link>. On the third failed save, she dies. Even if the hangman has the ability to maintain a grapple with less than a standard action, he can attempt to maintain a grapple to suffocate only once per round.</Pair>
+</Ability>
 </>};
 const _hidden_current = {title: "Hidden Current", jsx: <><h2 id="arc-vigilante-hidden_current-hidden-current">Hidden Current</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 8</Link><br/>Sometimes the best place to hide is in plain sight. The hidden current operates above and below the sea. When operating underwater, he blends easily with the locals, passing himself off as one of them or as an experienced aquatic traveler. When operating on land, he erases all traces of his aquatic heritage. When the hidden current needs to avoid pursuit, he slips away into his native environment.</p>
-<p><strong>Guise of the Land Walker (Ex):</strong> At 1st level, a hidden current gains the <Link to="/soctalent/many_guises">many guises</Link> social talent, but the mundane identity assumed must be of a non-aquatic humanoid and functions only when he is on land.</p>
-<p>This ability replaces the hidden current's 1st-level <strong className="hl">social talent</strong>.</p>
-<p><strong>Sea's Return (Sp):</strong> At 11th level, a hidden current can magically slip between the sea and the land, as if using the spell <Link to="/spell/dimension_door">dimension door</Link> with a caster level equal to the hidden current's vigilante level. The starting point of this ability must be on land and the ending point in water at least waist deep, or vice versa. Using this ability is a move action. The hidden current cannot take other creatures with him when he uses this ability. A hidden current can use this ability once per day at 11th level and an additional time per day every 4 levels thereafter (to a maximum of three uses per day at 19th level).</p>
-<p>This ability replaces <strong className="hl">frightening appearance</strong>.</p>
-<p><strong>Stealthy Swimmer (Ex):</strong> Hidden currents can transition between land and sea at a moment's notice. If a hidden current begins his movement on land and ends his movement in water at least waist deep, or vice versa, he gains a +5 circumstance bonus on a Stealth check in the same turn.</p>
-<p>This ability replaces the hidden current's 2nd-level <strong className="hl">vigilante talent</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-vigilante-hidden_current--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/gillman">Gillman</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-vigilante-hidden_current-guise-of-the-land-walker-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="arc-vigilante-hidden_current-guise-of-the-land-walker-ex">Guise of the Land Walker (Ex)</Pair>
+<Pair hl title="Replaces">1st-level social talent</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A hidden current gains the <Link to="/soctalent/many_guises">many guises</Link> social talent, but the mundane identity assumed must be of a non-aquatic humanoid and functions only when he is on land.</Pair>
+</Ability>
+<Ability id="arc-vigilante-hidden_current-seas-return-sp" icon={["magic-swirl"]}>
+<Pair single id="arc-vigilante-hidden_current-seas-return-sp">Sea's Return (Sp)</Pair>
+<Pair hl title="Replaces">Frightening appearance</Pair>
+<Pair title="Gained">At 11th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four vigilante levels beyond 11th<ByLevelPop levels={[[11,1],[15,2],[19,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Move-Equivalent Action">A hidden current can magically slip between the sea and the land, as if using the spell <Link to="/spell/dimension_door">dimension door</Link> with a caster level equal to the hidden current's vigilante level. The starting point of this ability must be on land and the ending point in water at least waist deep, or vice versa. The hidden current cannot take other creatures with him when he uses this ability.</Pair>
+</Ability>
+<Ability id="arc-vigilante-hidden_current-stealthy-swimmer-ex" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-hidden_current-stealthy-swimmer-ex" flavor="Hidden currents can transition between land and sea at a moment's notice.">Stealthy Swimmer (Ex)</Pair>
+<Pair hl title="Replaces">2nd-level vigilante talent</Pair>
+<Pair title="Passive Ability">If a hidden current begins his movement on land and ends his movement in water at least waist deep, or vice versa, he gains a +5 circumstance bonus on a Stealth check in the same turn.</Pair>
+</Ability>
 </>};
 const _imperial_agent = {title: "Imperial Agent", jsx: <><h2 id="arc-vigilante-imperial_agent-imperial-agent">Imperial Agent</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 21</Link><br/>Many residents of Lung Wa's successor states refuse to admit the empire has truly fallen, but the self-proclaimed imperial agents have taken matters into their own hands. Imperial agents are often the descendants of nobility and generals from Lung Wa, devoted to reuniting the empire by conquering Lung Wa's successor states. Often forming secret networks with fanciful names, they focus on destabilizing nations with blackmail, slander, and treachery.</p>
-<p><strong>Slander (Ex):</strong> At 1st level, an imperial agent becomes an expert at spreading malicious rumors in order to foment chaos and strife to further his aims. Slandering an individual or organization takes 1d4 days in a settlement smaller than a town, or 1 week in a town or larger settlement. The imperial agent must succeed at either a Bluff or Diplomacy check. If the general populace is indifferent towards the target of the slander, the DC of this check is 20 + the target's Charisma modifier. For each step above indifferent the public's attitude towards the target is, the DC increases by 5, and for each step below indifferent the public's attitude towards the target is, the DC decreases by 5. If the imperial agent is successful, the public's attitude toward his target is decreased by 1 step. If the imperial agent fails the check, however, he cannot affect the settlement with this ability for 1 week, and the target of his slander becomes aware that someone is spreading malicious rumors. The GM determines the exact effects of the public's shift in attitude. Even if the public is hostile toward the target, they might not act openly against the target, especially if doing so might be dangerous.</p>
-<p>This replaces the <strong className="hl">social talent</strong> gained at 1st level.</p>
-<p><strong>Manipulative (Ex):</strong> At 3rd level, an imperial agent is a master of blackmail, extortion, and subterfuge. He gains a bonus equal to 1/2 his vigilante level on Bluff checks (except those to feint) and on Intimidate checks (except those to demoralize an opponent).</p>
-<p>This replaces <strong className="hl">unshakable</strong>.</p>
-<p><strong>False Flag (Ex):</strong> At 5th level, whenever an imperial agent changes his identity, he has a third option (instead of social or vigilante) he can wear a false flag. This functions identically to the <Link to="/soctalent/many_guises">many guises</Link> social talent, except that the false flag identity is associated with a particular nation, organization, or other faction. The imperial agent gains a +20 circumstance bonus on Disguise checks to impersonate a member of that faction against creatures who are unaffiliated with that faction, potentially allowing the imperial agent to pin the blame for his actions on the faction he was impersonating. However, the imperial agent receives no bonus and a -10 penalty on Disguise checks against members of the faction he is impersonating. An imperial agent can choose a different faction each time he uses this ability. Factions that lack a flag, uniform, or other symbol of membership may be difficult or impossible to impersonate, at the GM's discretion.</p>
-<p>This replaces the <strong className="hl">social talent</strong> gained at 5th level.</p>
+<Ability id="arc-vigilante-imperial_agent-slander-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-imperial_agent-slander-ex">Slander (Ex)</Pair>
+<Pair hl title="Replaces">Social talent gained at 1st level</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">An imperial agent becomes an expert at spreading malicious rumors in order to foment chaos and strife to further his aims. Slandering an individual or organization takes 1d4 days in a <Link to="/rule/settlements">settlement</Link> smaller than a town, or 1 week in a town or larger settlement. The imperial agent must succeed at either a Bluff or Diplomacy check. If the general populace is indifferent towards the target of the slander, the DC of this check is 20 + the target's Charisma modifier. For each step above indifferent the public's attitude towards the target is, the DC increases by 5, and for each step below indifferent the public's attitude towards the target is, the DC decreases by 5. If the imperial agent is successful, the public's attitude toward his target is decreased by 1 step. If the imperial agent fails the check, however, he cannot affect the settlement with this ability for 1 week, and the target of his slander becomes aware that someone is spreading malicious rumors. The GM determines the exact effects of the public's shift in attitude. Even if the public is hostile toward the target, they might not act openly against the target, especially if doing so might be dangerous.</Pair>
+</Ability>
+<Ability id="arc-vigilante-imperial_agent-manipulative-ex" icon={["upgrade"]}>
+<Pair single id="arc-vigilante-imperial_agent-manipulative-ex" flavor="An imperial agent is a master of blackmail, extortion, and subterfuge.">Manipulative (Ex)</Pair>
+<Pair hl title="Replaces">Unshakable</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Passive Ability">He gains a bonus equal to <Link to="/misc/half">half</Link> his vigilante level on Bluff checks (except those to feint) and on Intimidate checks (except those to demoralize an opponent).</Pair>
+</Ability>
+<Ability id="arc-vigilante-imperial_agent-false-flag-ex" icon={["stairs-goal","upgrade","broken-shield"]}>
+<Pair single id="arc-vigilante-imperial_agent-false-flag-ex">False Flag (Ex)</Pair>
+<Pair hl title="Replaces">Social talent gained at 5th level</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">Whenever an imperial agent changes his identity, he has a third option (instead of <em>social</em> or <em>vigilante</em>): he can wear a false flag. This functions identically to the <Link to="/soctalent/many_guises">many guises</Link> social talent, except that the false flag identity is associated with a particular nation, organization, or other faction. The imperial agent gains a +20 circumstance bonus on Disguise checks to impersonate a member of that faction against creatures who are unaffiliated with that faction, potentially allowing the imperial agent to pin the blame for his actions on the faction he was impersonating. However, the imperial agent receives no bonus and a -10 penalty on Disguise checks against members of the faction he is impersonating.</Pair>
+<Pair title="Special">An imperial agent can choose a different faction each time he uses this ability. Factions that lack a flag, uniform, or other symbol of membership may be difficult or impossible to impersonate, at the GM's discretion.</Pair>
+</Ability>
 </>};
 const _magical_child = {title: "Magical Child", jsx: <><h2 id="arc-vigilante-magical_child-magical-child">Magical Child</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 57</Link><br/>Some vigilantes, no matter their age, carry a spark of capricious whimsy under which flows a powerful current of magic and wonder. They keep these wondrous abilities secret, though they are aided in their endeavors by creatures just as magical as they are.</p>
@@ -622,19 +781,42 @@ const _magical_child = {title: "Magical Child", jsx: <><h2 id="arc-vigilante-mag
 <Pair id="arc-vigilante-magical_child-undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
 <Pair title="Removed Skills">Disable Device, Knowledge (engineering), Perception, Survival</Pair></Ability>
-<p><strong>Skill Ranks per Level:</strong> A magical child gains a number of skill ranks equal to 4 + her Intelligence modifier at each level, instead of the normal 6 + her Intelligence modifier skill ranks.</p>
-<p>This alters the vigilante's <strong className="hl">skill ranks per level</strong>.</p>
-<p><strong>Weapon and Armor Proficiencies:</strong> A magical child is not proficient with medium armor. She can cast summoner spells (see spellcasting below) while wearing light armor without incurring the normal arcane spell failure chance.</p>
-<p>This alters the vigilante's <strong className="hl">armor and weapon proficiencies</strong>.</p>
-<p><strong>Spellcasting:</strong> A magical child casts arcane spells and cantrips as an unchained summoner. She can cast any spell she knows without preparing it ahead of time, assuming she has not yet used up her allotment of spells per day for the spell's level, and she chooses her spells known from the <Link to="/main/unchained_summoner_spell">unchained summoner spell list</Link> (she cannot choose spells that would affect an eidolon). A magical child's selection of spells is extremely limited; use the Summoner Spells Known table of the <Link to="/class/unchained_summoner">unchained summoner</Link> to determine how many spells the magical child knows at each level. A magical child needs to commune with her animal guide for 1 hour in order to replenish her daily spell slots.</p>
-<p>This replaces the 4th-, 8th-, 10th-, 14th-, and 16th-level <strong className="hl">vigilante talents</strong>.</p>
-<p><strong>Transformation Sequence (Su):</strong> A magical child's transformation between identities is assisted by magic. This makes it faster than usual, but also more noticeable. A magical child can normally transform between her identities in 5 rounds, though this improves to a standard action with the <Link to="/soctalent/quick_change">quick change</Link> social talent and a swift action with the <Link to="/soctalent/immediate_change">immediate change</Link> social talent. However, the transformation is quite a spectacle, involving loud sounds or music, brilliant colorful energies, and swift motions.</p>
-<p><strong>Animal Guide (Ex):</strong> A magical child starts play with a magical spirit guide in the form of a <Link to="/sidekick/familiar">familiar</Link>, using her vigilante level as her effective wizard level. The <Link to="/ability/familiar">familiar</Link> also has a social identity as a seemingly normal animal, though vigilantes with outlandish familiars might still need to hide the familiar.</p>
-<p>At 3rd level, the magical child's familiar reveals another aspect of its form, and its vigilante identity changes into a creature on the <Link to="/feat/improved_familiar">Improved Familiar</Link> list that would be available to a 3rd-level spellcaster (the animal guide's social identity always remains as the original normal animal). The familiar can change its vigilante identity again when the magical child reaches 5th and 7th level, each time to familiars available at those levels. The Improved Familiar feat's alignment restrictions apply to this ability, but only the magical child's vigilante identity needs to have an alignment that fulfills the alignment requirements of the improved familiar. The familiar's new vigilante form choices are permanent, and it cannot transform back into its former vigilante identities until 9th level, when the familiar gains the <Link to="/umr/change_shape">change shape</Link> universal monster ability if it doesn't already have it. It can use this ability at will when in its vigilante identity to transform into any of its four vigilante identities. In vigilante form, a magical child's familiar gains an amount of DR/magic equal to her vigilante level. This doesn't stack with any DR/magic that her vigilante form might already possess.</p>
-<p>If a magical child's familiar dies, its consciousness simply leaves its body, and the magical child can replace its body after 24 hours. To do so, she must conduct an 8-hour ritual that costs 200 gp per her vigilante level, but once the ritual is complete, the familiar returns in a new body. It retains all of its memories from its earlier service to the magical child.</p>
-<p>This ability replaces <strong className="hl">vigilante specialization</strong>.</p>
-<p><strong>Staunch Ally (Ex):</strong> A magical child's familiar counts as the magical child for purposes of the startling appearance, frightening appearance, and stunning appearance abilities, and it can calculate its DCs using either its own Charisma modifier or the magical child's, whichever is better. At 20th level, the familiar can make vengeance strikes as if it were the magical child.</p>
-<p>This ability alters <strong className="hl">startling appearance</strong>, <strong className="hl">frightening appearance</strong>, <strong className="hl">stunning appearance</strong>, and <strong className="hl">vengeance strike</strong>.</p>
+<Ability id="arc-vigilante-magical_child-skill-ranks-per-level" icon={["broken-shield"]}>
+<Pair single id="arc-vigilante-magical_child-skill-ranks-per-level">Skill Ranks per Level</Pair>
+<Pair hl title="Alters">Skill ranks per level</Pair>
+<Pair title="Info">A magical child gains a number of skill ranks equal to 4 + her Intelligence modifier at each level, instead of the normal 6 + her Intelligence modifier skill ranks.</Pair>
+</Ability>
+<Ability id="arc-vigilante-magical_child-weapon-and-armor-proficiencies" icon={["broken-shield","stairs-goal"]}>
+<Pair single id="arc-vigilante-magical_child-weapon-and-armor-proficiencies">Weapon and Armor Proficiencies</Pair>
+<Pair hl title="Alters">Armor and weapon proficiencies</Pair>
+<Pair title="Info">A magical child is not proficient with medium armor. She can cast summoner spells (see spellcasting below) while wearing light armor without incurring the normal arcane spell failure chance.</Pair>
+</Ability>
+<Ability id="arc-vigilante-magical_child-spellcasting" icon={["spell-book","magic-swirl"]}>
+<Pair single id="arc-vigilante-magical_child-spellcasting">Spellcasting</Pair>
+<Pair hl title="Replaces">4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents</Pair>
+<Pair title="Ability">A magical child casts arcane spells and cantrips as an unchained summoner. She can cast any spell she knows without preparing it ahead of time, assuming she has not yet used up her allotment of spells per day for the spell's level, and she chooses her spells known from the <Link to="/main/unchained_summoner_spell">unchained summoner spell list</Link> (she cannot choose spells that would affect an eidolon).</Pair>
+<Pair title="Special">A magical child's selection of spells is extremely limited; use the Summoner Spells Known table of the <Link to="/class/unchained_summoner">unchained summoner</Link> to determine how many spells the magical child knows at each level. A magical child needs to commune with her <em>animal guide</em> (see below) for 1 hour in order to replenish her daily spell slots.</Pair>
+</Ability>
+<Ability id="arc-vigilante-magical_child-transformation-sequence-su" icon={["upgrade","broken-shield"]}>
+<Pair single id="arc-vigilante-magical_child-transformation-sequence-su">Transformation Sequence (Su)</Pair>
+<Pair title="Ability">A magical child's transformation between identities is assisted by magic. This makes it faster than usual, but also more noticeable. A magical child can normally transform between her identities in 5 rounds, though this improves to a <strong className="hl">standard action</strong> with the <Link to="/soctalent/quick_change">quick change</Link> social talent and a <strong className="hl">swift action</strong> with the <Link to="/soctalent/immediate_change">immediate change</Link> social talent. However, the transformation is quite a spectacle, involving loud sounds or music, brilliant colorful energies, and swift motions.</Pair>
+</Ability>
+<Ability id="arc-vigilante-magical_child-animal-guide-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-magical_child-animal-guide-ex">Animal Guide (Ex)</Pair>
+<Pair hl title="Replaces">Vigilante specialization</Pair>
+<Pair title="At 1st Level">A magical child starts play with a magical spirit guide in the form of a <Link to="/sidekick/familiar">familiar</Link>, using her vigilante level as her effective wizard level. The <Link to="/ability/familiar">familiar</Link> also has a social identity as a seemingly normal animal, though vigilantes with outlandish familiars might still need to hide the familiar.</Pair>
+<Pair title="At 3rd Level">The magical child's familiar reveals another aspect of its form, and its vigilante identity changes into a creature on the <Link to="/feat/improved_familiar">Improved Familiar</Link> list that would be available to a 3rd-level spellcaster (the animal guide's social identity always remains as the original normal animal). The Improved Familiar feat's alignment restrictions apply to this ability, but only the magical child's vigilante identity needs to have an alignment that fulfills the alignment requirements of the improved familiar. The familiar's new vigilante form choices are permanent.</Pair>
+<Pair title="At 5th Level">The familiar can change its vigilante identity to a new familiar available at 5th level.</Pair>
+<Pair title="At 7th Level">The familiar can change its vigilante identity to a new familiar available at 7th level.</Pair>
+<Pair title="At 9th Level">The familiar gains the <Link to="/umr/change_shape">change shape</Link> universal monster ability if it doesn't already have it. It can use this ability at will when in its vigilante identity to transform into any of its previous vigilante identities.</Pair>
+<Pair title="Special">In vigilante form, a magical child's familiar gains an amount of DR/magic equal to her vigilante level. This doesn't stack with any DR/magic that her vigilante form might already possess. If a magical child's familiar dies, its consciousness simply leaves its body, and the magical child can replace its body after 24 hours. To do so, she must conduct an 8-hour ritual that costs 200 gp per her vigilante level, but once the ritual is complete, the familiar returns in a new body. It retains all of its memories from its earlier service to the magical child.</Pair>
+</Ability>
+<Ability id="arc-vigilante-magical_child-staunch-ally-ex" icon={["stairs-goal"]}>
+<Pair single id="arc-vigilante-magical_child-staunch-ally-ex">Staunch Ally (Ex)</Pair>
+<Pair hl title="Alters">Startling appearance, frightening appearance, stunning appearance, vengeance strike</Pair>
+<Pair title="Ability">A magical child's familiar counts as the magical child for purposes of the <em>startling appearance, frightening appearance,</em> and <em>stunning appearance</em> abilities, and it can calculate its DCs using either its own Charisma modifier or the magical child's, whichever is better.</Pair>
+<Pair title="At 20th Level">The familiar can make <em>vengeance strikes</em> as if it were the magical child.</Pair>
+</Ability>
 </>};
 const _masked_maiden = {title: "Masked Maiden", jsx: <><h2 id="arc-vigilante-masked_maiden-masked-maiden">Masked Maiden</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 82</Link><br/>In the wake of Ileosa's death, some of the surviving <Link to="/rule/gray_maidens">Gray Maidens</Link> attempted to return to their former lives - a task made difficult by the physical and emotional scars of their indoctrination. For a few, suppressing the indoctrination's effects seemed to work. In time, though, the repressed aspects returned, pushing these former conscripts to don their armor and seek out conflict. These so-called masked maidens find themselves leading a double life: ordinary (albeit troubled) citizen by day, faceless warrior by night. In the most tragic cases, the identities entirely disassociate, with the maiden experiencing unexplained exhaustion and injuries upon awakening.</p>
