@@ -150,7 +150,7 @@ div.headerLike div.sub {
 div.semiheaderGroup {
 	margin-block: 1rem;
 }
-div.semiheaderGroup :is(h3,h4) {
+div.semiheaderGroup :is(h3,h4,h5,h6) {
 	border-width: 0;
 	font-size: 1.35rem;
 	font-variant: small-caps;
@@ -158,10 +158,10 @@ div.semiheaderGroup :is(h3,h4) {
 	margin-block: 0;
 	text-indent: 0;
 }
-div.semiheaderGroup :is(h3,h4)::after {
+div.semiheaderGroup :is(h3,h4,h5,h6)::after {
 	content: ":"
 }
-div.semiheaderGroup h4 {
+div.semiheaderGroup :is(h4,h6) {
 	font-size: 1.25rem;
 }
 div.semiheaderGroup p:first-of-type {

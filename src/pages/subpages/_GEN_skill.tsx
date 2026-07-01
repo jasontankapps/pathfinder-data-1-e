@@ -168,7 +168,7 @@ const _acrobatics = {hasJL:true,title: "Acrobatics", jsx: <><div className="jump
 </tr>
 </tbody></table></ScrollContainer>
 <h3 id="skill-acrobatics-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 82</Link><br/>With sufficient ranks in Acrobatics, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 82</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Acrobatics, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>You can move at normal speed through a threatened square without provoking an attack of opportunity by increasing the DC of the check by 5 (instead of by 10). You aren't denied your Dexterity bonus when attempting Acrobatics checks with DCs of 20 or lower.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>You can attempt an Acrobatics check at a -10 penalty and use the result as your CMD against trip maneuvers. You can also attempt an Acrobatics check at a -10 penalty in place of a Reflex save to avoid falling. You must choose to use this ability before the trip attempt or Reflex save is rolled. With a successful DC 20 Acrobatics check, you treat an unintentional fall as 10 feet shorter plus 10 feet for every 10 by which you exceed the DC, and treat an intentional fall as 10 feet shorter for every 10 by which you exceed the DC.</Cell></Row>
@@ -198,24 +198,24 @@ const _appraise = {hasJL:true,title: "Appraise", jsx: <><div className="jumpList
 <p>A spellcaster with a <Link to="/monster/raven">raven</Link> familiar gains a +3 bonus on Appraise checks.</p>
 </div>
 <h3 id="skill-appraise-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
-<p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.</p>
+<p><Link to="/rule/occult_skill_unlocks">Occult skill unlocks</Link> are available to those using the occult rules and meet certain requirements.</p>
 <h4 id="skill-appraise-psychometry" data-hash-target>Psychometry</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 196</Link></p>
 <p>You can read the psychic impressions left on objects or in places by previous owners and events.</p>
-<div className="semiheaderGroup"><h3 id="skill-appraise-check">Check</h3>
+<div className="semiheaderGroup"><h5 id="skill-appraise-check">Check</h5>
 <p>Once per day, you can concentrate for 1 minute while in physical contact with an item or location, during which you receive flashes of insight regarding the subject's nature and ownership. After 1 minute, you attempt a DC 15 Appraise check to decipher the visions. You gain one piece of information about the historical significance or the last previous owner - such as a glimpse of the last owner's appearance or its emotional state when it last used the item - determined by the GM.</p>
 <p>You learn one more piece of information for every 10 by which your check result exceeds the DC, as long as you concentrate for 1 additional minute for each piece of information.</p>
 <p>If you fail the check by less than 5 or the item has no significant psychic imprint, you don't learn any information. If you fail this check by 5 or more, the item appears to be psychically significant even if it's not, and the information you gain is wildly inaccurate.</p>
 <p>If you attempt to use psychometry on an item affected by <Link to="/spell/charge_object">charge object</Link> or <Link to="/spell/implant_false_reading">implant false reading</Link>, you automatically learn all information imprinted by the spell. You must also attempt a Will save. If the item is affected by an <em>implant false reading</em> spell, on a success, you realize the information was false, and can determine the true information as well. On a failure, or if the item is affected by a <em>charge object</em> spell, you believe the information is true.</p>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-appraise-action">Action</h3>
+<div className="semiheaderGroup"><h5 id="skill-appraise-action">Action</h5>
 <p>Reading an object requires at least 1 minute of uninterrupted concentration.</p>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-appraise-try-again">Try Again</h3>
+<div className="semiheaderGroup"><h5 id="skill-appraise-try-again">Try Again</h5>
 <p>Yes. Multiple readings on an object or place always give the same results unless its circumstances or ownership have changed, but additional checks might reach further back into an object's history. You don't reroll the saving throw to determine if a psychic imprint is false. You can still use psychometry only once per day.</p>
 </div>
 <h3 id="skill-appraise-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 82</Link><br/>With sufficient ranks in Appraise, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 82</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Appraise, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>A successful DC 20 Appraise check reveals whether an item is magical, and a second check (DC = 25 + the item's caster level) unveils its properties. You can use Appraise to detect non-written forgeries and counterfeits.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>You can determine the most expensive object a creature is wearing or wielding (or in a 5-foot cube) as a <strong className="hl">standard action</strong> by succeeding at a DC 20 check. You never make a wildly inaccurate appraisal of an item's value.</Cell></Row>
@@ -396,7 +396,7 @@ const _bluff = {hasJL:true,title: "Bluff", jsx: <><div className="jumpList" id="
 <p>You attempt the Bluff check as part of performing the action you wish to render inconspicuous. Normally, you must take twice as long as normal to perform the action in order to make it inconspicuous. A standard action becomes a full-round action completed just before the start of your next turn and a free, immediate, move, or swift action becomes a standard action.</p>
 </div>
 <h3 id="skill-bluff-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 82</Link><br/>With sufficient ranks in Bluff, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 82</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Bluff, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>The penalty to Bluff a creature after a failed check is halved unless you failed by 5 or more.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>You take no penalty to Bluff a creature after a failed check unless you failed by 5 or more.</Cell></Row>
@@ -497,7 +497,7 @@ const _climb = {hasJL:true,title: "Climb", jsx: <><div className="jumpList" id="
 <p>If you have the <Link to="/feat/athletic">Athletic</Link> feat, you get a bonus on Climb checks.</p>
 </div>
 <h3 id="skill-climb-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 82</Link><br/>With sufficient ranks in Climb, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 82</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Climb, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>You are no longer denied your Dexterity bonus when climbing.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>You gain a natural climb speed (but not the +8 racial bonus on Climb checks) of 10 feet, but only on surfaces with a Climb DC of 20 or lower.</Cell></Row>
@@ -686,17 +686,17 @@ const _craft_any = {hasJL:true,title: "Craft (any)", jsx: <><div className="jump
 <p>Craft is also used in the <Link to="/rule/harvesting_poisons">harvesting poison</Link> rules (to preserve harvested poison and create antivenoms) and the <Link to="/rule/salvaging">salvaging</Link> rules.</p>
 </div>
 <h3 id="skill-craft_any-technology" data-hash-target>Technology</h3>
-<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link></p>
+<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link><br/>Craft (mechanical) can be used with the <Link to="/rule/technological_equipment">technological equipment</Link> rules.</p>
 <p>Those who wish to construct or repair <Link to="/rule/technological_equipment">technological equipment</Link> use the Craft (mechanical) skill in conjunction with the technological item crafting feats. Without the <Link to="/feat/technologist">Technologist</Link> feat, Craft (mechanical) can still be used to craft less advanced forms of technology such as gears, hinges, and pulleys. Note that in the campaign setting, NPCs with the means of crafting technological items are extremely rare, and it is not assumed that PCs have access to such resources. GMs are encouraged to discuss such considerations with their players before allowing technological crafting into the game.</p>
 <h3 id="skill-craft_any-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 83</Link><br/>With sufficient ranks in Craft, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 83</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Craft, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>When determining your weekly progress, double the result of your Craft check before multiplying the result by the item's DC.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>You do not ruin any of your raw materials unless you fail a check by 10 or more.</Cell></Row>
 <Row><Cell>15 Ranks</Cell><Cell>When you determine your progress, the result of your check is how much work you complete each day in silver pieces.</Cell></Row>
 <Row><Cell>20 Ranks</Cell><Cell>You can craft magic armor, magic weapons, magic rings, and wondrous items that fall under your category of Craft using the normal Craft rules.</Cell></Row></Block>
 </>};
-const _diplomacy = {hasJL:true,title: "Diplomacy", jsx: <><div className="jumpList" id="skill-diplomacy-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-diplomacy-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-diplomacy-hypnotism">Hypnotism</InnerLink></li><li><InnerLink toTop to="skill-diplomacy-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-diplomacy-diplomacy">Diplomacy</h2>
+const _diplomacy = {hasJL:true,title: "Diplomacy", jsx: <><div className="jumpList" id="skill-diplomacy-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="skill-diplomacy-occult-skill-unlocks">Occult Skill Unlocks</InnerLink></li><li><InnerLink toTop to="skill-diplomacy-hypnotism">Hypnotism</InnerLink></li><li><InnerLink toTop to="skill-diplomacy-recall-memory">Recall Memory</InnerLink></li><li><InnerLink toTop to="skill-diplomacy-unchained-rogue-skill-unlocks">Unchained Rogue Skill Unlocks</InnerLink></li></ul></div><h2 id="skill-diplomacy-diplomacy">Diplomacy</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 93</Link></p>
 <div style={{clear:"both"}}></div>
 <Block size="giant" hl classes="skills">
@@ -806,25 +806,29 @@ const _diplomacy = {hasJL:true,title: "Diplomacy", jsx: <><div className="jumpLi
 <p>It takes a DC 15 Diplomacy check or DC 20 <Link to="/skill/intimidate">Intimidate</Link> check to convince a crowd to move in a particular direction, and the crowd must be able to hear or see the character making the attempt. It takes a <strong className="hl">full-round action</strong> to make the Diplomacy check, but only a <strong className="hl">free action</strong> to make the Intimidate check.</p>
 </div>
 <h3 id="skill-diplomacy-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
-<p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.</p>
+<p><Link to="/rule/occult_skill_unlocks">Occult skill unlocks</Link> are available to those using the occult rules and meet certain requirements.</p>
 <h4 id="skill-diplomacy-hypnotism" data-hash-target>Hypnotism</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 195</Link></p>
 <p>You use the power of suggestion and subtle psychic influence to alter a subject's mind and dredge up repressed memories.</p>
-<div className="semiheaderGroup"><h3 id="skill-diplomacy-check">Check</h3>
+<div className="semiheaderGroup"><h5 id="skill-diplomacy-check">Check</h5>
 <p>You can use hypnotism once per day. The DC of a Diplomacy check to hypnotize is 20 + the subject's Will save modifier against mind-affecting enchantment (compulsion) effects. All uses of hypnotism are mind-affecting enchantment (compulsion) effects.</p>
-<h4 id="skill-diplomacy-implant-suggestion">Implant Suggestion</h4>
+<h6 id="skill-diplomacy-implant-suggestion">Implant Suggestion</h6>
 <p>You can implant a suggested course of reasonable action in the mind of a willing creature, along with a defined trigger. To implant a suggestion, you spend 1 minute inducing a trance-like state in the subject, after which you attempt a Diplomacy check. If the check is successful, you implant the course of action, as a <Link to="/spell/suggestion">suggestion</Link> spell with a duration of 10 minutes plus 10 additional minutes for every 1 by which your check result exceeds the DC. If the subject ceases to be willing, it can attempt a Will save once each round to shake off the effects. The save DC is equal to 10 + 1/2 your character level + your Charisma modifier. You can attempt to subtly implant a suggestion in the mind of an unwilling creature with an attitude of indifferent or better after 1 minute of continuous, calm interaction with that creature, but the DC is 10 higher.</p>
-<h4 id="skill-diplomacy-recall-memory">Recall Memory</h4>
+<h6 id="skill-diplomacy-special">Special</h6>
+<p>Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses <em>hypnotism</em> to implant a suggestion, he can't also use it to <em>recall memories</em> on the same day.</p>
+<h4 id="skill-diplomacy-recall-memory" data-hash-target>Recall Memory</h4>
 <p>You can draw out forgotten memories from a willing subject. You spend 1 minute inducing a calming, trance-like state in the subject, after which you attempt a Diplomacy check. If you succeed at the check, the hypnotized creature can reroll any previously failed Intelligence or Knowledge check to recall the forgotten information with a +4 bonus. The information must be something the subject once knew or was exposed to.</p>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-diplomacy-action">Action</h3>
+<div className="semiheaderGroup"><h5 id="skill-diplomacy-action">Action</h5>
 <p>Hypnotism takes 1 minute of calm interaction.</p>
 </div>
 <div className="semiheaderGroup"><h3 id="skill-diplomacy-try-again">Try Again</h3>
 <p>Yes. You can try to hypnotize the same creature more than once, but only once per day.</p>
+<h6 id="skill-diplomacy-special">Special</h6>
+<p>Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses <em>hypnotism</em> to implant a suggestion, he can't also use it to <em>recall memories</em> on the same day.</p>
 </div>
 <h3 id="skill-diplomacy-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 83</Link><br/>With sufficient ranks in Diplomacy, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 83</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Diplomacy, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>The time required to influence a creature's attitude or gather information is halved.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>You can attempt to adjust a creature's attitude in 1 round by taking a -10 penalty. If you take 1 minute to adjust a creature's attitude, add your Charisma bonus to the number of hours that attitude change persists.</Cell></Row>
@@ -927,7 +931,7 @@ const _disable_device = {hasJL:true,title: "Disable Device", jsx: <><div classNa
 <p>You can retry checks made to open locks.</p>
 </div>
 <h3 id="skill-disable_device-technology" data-hash-target>Technology</h3>
-<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link></p>
+<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link><br/>Disable Device can be used with the <Link to="/rule/technological_equipment">technological equipment</Link> rules.</p>
 <p>With the <Link to="/feat/technologist">Technologist</Link> feat, you can use Disable Device to arm or disarm high-tech explosives or disable electronic triggers or locks. The Technologist feat is not required to disable a high-tech trap or object, but such traps and objects often have significantly higher DCs to disable than low-tech versions of a similar device would have.</p>
 <div className="semiheaderGroup"><h4 id="skill-disable_device-arm-explosive">Arm Explosive</h4>
 <p>If you possess a <Link to="/tech-misc/detonator">detonator</Link>, you can arm an explosive weapon as a trap. Connecting a detonator to an explosive requires a successful DC 10 Disable Device check. Failure means that the attempt fails, but you can attempt to arm the explosive again. Failure by 5 or more means the explosive is triggered as the detonator is installed. You can attempt to make an explosive difficult to disarm. To do so, choose a target disarm DC of 15 or higher, with a DC increment of 5. This becomes your target DC to set the explosive as well as the DC to disarm the explosive.</p>
@@ -943,7 +947,7 @@ const _disable_device = {hasJL:true,title: "Disable Device", jsx: <><div classNa
 <p>Arming an explosive device takes 1 minute or more, depending on the scope of the job. Disarming an explosive is treated as if the explosive were a complex trap, and takes 2d4 rounds to attempt.</p>
 </div>
 <h3 id="skill-disable_device-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 83</Link><br/>With sufficient ranks in Disable Device, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 83</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Disable Device, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>Reduce the time required to disarm a trap or open a lock by taking a -5 penalty on your Disable Device check for each step by which you reduce the time required: 2d4 rounds, 1d4 rounds, 1 round, a standard action, a move action, a swift action.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>You can disarm magical traps at a -10 penalty even if you lack the trapfinding ability. If you possess the trapfinding ability, when attempting to disable magic traps, you never trigger them, even if you perform the trigger action (such as looking at a <Link to="/spell/symbol_of_death">symbol of death</Link>). If you fail the check, you can still trigger the trap, and you can't use this ability to bypass it.</Cell></Row>
@@ -1032,7 +1036,7 @@ const _disguise = {hasJL:true,title: "Disguise", jsx: <><div className="jumpList
 <p>If you have the <Link to="/feat/deceitful">Deceitful</Link> feat, you gain a bonus on Disguise checks.</p>
 </div>
 <h3 id="skill-disguise-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 83</Link><br/>With sufficient ranks in Disguise, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 83</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Disguise, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>You can create a disguise in 1d3 minutes.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>You can create a disguise in 1d3 rounds. If you take the full normal amount of time to create your disguise, you take no penalty for disguising your gender, race, or age category.</Cell></Row>
@@ -1105,7 +1109,7 @@ const _escape_artist = {hasJL:true,title: "Escape Artist", jsx: <><div className
 <p>If you have the <Link to="/feat/stealthy">Stealthy</Link> feat, you gain a bonus on Escape Artist checks.</p>
 </div>
 <h3 id="skill-escape_artist-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 84</Link><br/>With sufficient ranks in Escape Artist, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 84</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Escape Artist, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>If you take a -10 penalty, the time required to use this skill is halved; escaping a grapple or pin is a <strong className="hl">move action</strong>, and escaping a net, <Link to="/spell/animate_rope">animate rope</Link>, <Link to="/spell/command_plants">command plants</Link>, or <Link to="/spell/control_plants">control plants</Link> spell is a <strong className="hl">standard action</strong>.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>You can attempt to escape from any entangling effect as a <strong className="hl">standard action</strong> with an Escape Artist check (DC = the effect's save DC + 10). You can attempt an Escape Artist check as a <strong className="hl">move action</strong> to set the DC for a creature to escape from ropes or bindings; you gain a +10 bonus on the check if you instead attempt it as a <strong className="hl">full-round action</strong>.</Cell></Row>
@@ -1234,7 +1238,7 @@ const _fly = {hasJL:true,title: "Fly", jsx: <><div className="jumpList" id="skil
 <p>If you have the <Link to="/feat/acrobatic">Acrobatic</Link> feat, you get a bonus on Fly checks.</p>
 </div>
 <h3 id="skill-fly-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 84</Link><br/>With sufficient ranks in Fly, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 84</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Fly, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>A successful DC 20 Fly check allows you to make a 45-degree turn without sacrificing movement.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>A successful DC 30 Fly check allows you to ascend at a 45-degree angle at full speed. You treat falls after midair collisions as 10 feet shorter with a successful DC 10 Fly check, plus 10 feet for every 10 points by which you exceed the DC.</Cell></Row>
@@ -1359,7 +1363,7 @@ const _handle_animal = {hasJL:true,title: "Handle Animal", jsx: <><div className
 <h3 id="skill-handle_animal-milking-venom" data-hash-target>Milking Venom</h3>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 142</Link><br/>Venom can be harvested from a living creature without harming the creature, although the process is dangerous unless the creature has been trained for that specific purpose (see <Link to="/rule/harvesting_poisons">Milk Venom</Link>).</p>
 <h3 id="skill-handle_animal-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 84</Link><br/>With sufficient ranks in Handle Animal, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 84</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Handle Animal, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>Creatures you have trained gain a +2 bonus on Will saves when adjacent to you.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>Creatures you have trained gain a +2 bonus on Will saves whenever you are within 30 feet and clearly visible. You can teach a trick in 1 day by increasing the DC by 20.</Cell></Row>
@@ -1453,16 +1457,16 @@ const _heal = {hasJL:true,title: "Heal", jsx: <><div className="jumpList" id="sk
 <p>Treating a disease takes 10 minutes of work.</p>
 </div>
 <h3 id="skill-heal-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
-<p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.</p>
+<p><Link to="/rule/occult_skill_unlocks">Occult skill unlocks</Link> are available to those using the occult rules and meet certain requirements.</p>
 <h4 id="skill-heal-faith-healing" data-hash-target>Faith Healing</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 195</Link><br/>You apply esoteric principles to temporarily suspend or remove curses, diseases, and ability damage.</p>
-<div className="semiheaderGroup"><h3 id="skill-heal-check">Check</h3>
+<div className="semiheaderGroup"><h5 id="skill-heal-check">Check</h5>
 <p>You can use faith healing once per day. The DC and effect of the Heal check depend on the task you attempt. You can't use faith healing on yourself.</p>
-<h4 id="skill-heal-restore-vitality">Restore Vitality</h4>
+<h6 id="skill-heal-restore-vitality">Restore Vitality</h6>
 <p>You suppress <Link to="/rule/ability_damage">ability damage</Link>. You perform a 1-hour ceremony, after which you attempt a Heal check against the DC of the effect that caused the ability damage. If you succeed at the check, you temporarily suppress 1 point of ability damage for 1 hour, plus 1 additional point and hour for every 5 by which the check result exceeds the DC. A creature can benefit from this treatment no more than once per day.</p>
-<h4 id="skill-heal-suspend-affliction">Suspend Affliction</h4>
+<h6 id="skill-heal-suspend-affliction">Suspend Affliction</h6>
 <p>You treat one curse, disease, or poison affecting a creature. You enter into a deep trance for 1 hour while you treat the subject, after which you attempt your Heal check. If the check is successful, you suspend the effects of the <Link to="/rule/afflictions">affliction</Link> by 1 hour, plus 1 hour for every 5 by which you exceed the DC. This time doesn't count against the effect's duration (if any). The affliction can still be cured by other means while it's suspended.</p>
-<h4 id="skill-heal-remove-affliction">Remove Affliction</h4>
+<h6 id="skill-heal-remove-affliction">Remove Affliction</h6>
 <p>You can attempt to permanently remove an affliction in an 8-hour ceremony, after which you attempt a Heal check. If the result of the check is at least double the DC of the original affliction, the sufferer can attempt another saving throw using the original DC to permanently cast off the effect.</p>
 <ScrollContainer id="skill-heal--table-1"><table>
 <thead>
@@ -1485,19 +1489,16 @@ const _heal = {hasJL:true,title: "Heal", jsx: <><div className="jumpList" id="sk
 </tr>
 </tbody></table></ScrollContainer>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-heal-action">Action</h3>
+<div className="semiheaderGroup"><h5 id="skill-heal-action">Action</h5>
 <p>Restoring vitality and suspending afflictions each require 1 hour in a quiet environment. Permanent removal of afflictions requires 8 hours of heavy activity.</p>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-heal-try-again">Try Again</h3>
+<div className="semiheaderGroup"><h5 id="skill-heal-try-again">Try Again</h5>
 <p>Varies. A creature can't be the subject of faith healing more than once per day. You can't try to permanently remove an affliction again.</p>
 </div>
 <h3 id="skill-heal-researching-technology" data-hash-target>Researching Technology</h3>
-<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link><br/>A character can use the following skills to research technological subjects. Other skills may have research applications as well, subject to GM approval.</p>
-<blockquote>
-<p><strong>Heal:</strong> Used to identify and understand pharmaceuticals.</p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link><br/>When using the <Link to="/rule/technological_equipment">technological equipment</Link> rules, a character can use Heal to identify and understand pharmaceuticals.</p>
 <h3 id="skill-heal-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 84</Link><br/>With sufficient ranks in Heal, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 84</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Heal, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>When you treat deadly wounds, the target recovers hit points and ability damage as if it had rested for a full day.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>When you treat deadly wounds, the target recovers hit points as if it had rested for a full day with long-term care.</Cell></Row>
@@ -1542,7 +1543,7 @@ const _intimidate = {hasJL:true,title: "Intimidate", jsx: <><div className="jump
 <p>You can't attempt long-term coercion against the same target again for 1 week.</p>
 </div>
 <h3 id="skill-intimidate-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Intimidate, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Intimidate, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>If you exceed the DC to demoralize a target by at least 10, it is <Link to="/misc/frightened">frightened</Link> for 1 round and shaken thereafter.&#42; A Will save (DC = 10 + your number of ranks in Intimidate) negates the frightened condition, but the target is still shaken, even if it has the <em>stalwart</em> ability.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>If you exceed the DC to demoralize a target by at least 10, it is <Link to="/misc/panicked">panicked</Link> for 1 round or frightened for 1d4 rounds (your choice) and shaken thereafter.&#42; A Will save (DC = 10 + your number of ranks in Intimidate) negates the frightened or panicked condition, but the target is still shaken, even if it has the <em>stalwart</em> ability.</Cell></Row>
@@ -1675,10 +1676,10 @@ const _knowledge_arcana = {hasJL:true,title: "Knowledge (arcana)", jsx: <><div c
 <p><strong>Note:</strong> For class features, add 10 to the DC if the class is a prestige class.</p>
 </div>
 <h3 id="skill-knowledge_arcana-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
-<p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.</p>
+<p><Link to="/rule/occult_skill_unlocks">Occult skill unlocks</Link> are available to those using the occult rules and meet certain requirements.</p>
 <h4 id="skill-knowledge_arcana-phrenology" data-hash-target>Phrenology</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 196</Link><br/>You examine the skulls of intelligent creatures to analyze the subjects' psychological attributes, since the shape of the brain influences the shape of the skull.</p>
-<div className="semiheaderGroup"><h3 id="skill-knowledge_arcana-check">Check</h3>
+<div className="semiheaderGroup"><h5 id="skill-knowledge_arcana-check">Check</h5>
 <p>Once per day, you can use your fingertips to examine the shape of a creature's skull. Reading a creature's skull requires 1 minute of concentration and scrutiny while you physically manipulate the skull. This technique can be used on a willing, helpless, or paralyzed creature, or on decomposed remains (as long as the skull is intact or can be pieced together). This skill can't be used on creatures without discernible skulls, such as constructs, elementals, oozes, or plants. After the minute is up, the GM attempts a secret Knowledge (arcana) check. The DC is typically modified by the subject's Hit Dice. With a single check, you determine all the information whose DC you meet. For instance, if you had a result of 22 when examining a creature with 2 HD, you would learn that creature's race and age, gender, alignment, and class, but not its level or HD.</p>
 <ScrollContainer id="skill-knowledge_arcana--table-2"><table>
 <thead>
@@ -1710,14 +1711,14 @@ const _knowledge_arcana = {hasJL:true,title: "Knowledge (arcana)", jsx: <><div c
 </tbody></table></ScrollContainer>
 <p><strong>Note:</strong> A dead creature's skull uses the HD the creature had when alive.</p>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-knowledge_arcana-action">Action</h3>
+<div className="semiheaderGroup"><h5 id="skill-knowledge_arcana-action">Action</h5>
 <p>Reading a creature's cranium requires 1 minute of uninterrupted study.</p>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-knowledge_arcana-try-again">Try Again</h3>
+<div className="semiheaderGroup"><h5 id="skill-knowledge_arcana-try-again">Try Again</h5>
 <p>Yes. Reexamining a skull may provide new insights. You can attempt only one such check per day.</p>
 </div>
 <h3 id="skill-knowledge_arcana-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Knowledge, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
@@ -1778,7 +1779,7 @@ const _knowledge_dungeoneering = {hasJL:true,title: "Knowledge (dungeoneering)",
 <p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
 </div>
 <h3 id="skill-knowledge_dungeoneering-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Knowledge, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
@@ -1838,13 +1839,9 @@ const _knowledge_engineering = {hasJL:true,title: "Knowledge (engineering)", jsx
 <p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
 </div>
 <h3 id="skill-knowledge_engineering-researching-technology" data-hash-target>Researching Technology</h3>
-<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link></p>
-<p>A character can use the following skills to research technological subjects. Other skills may have research applications as well, subject to GM approval.</p>
-<blockquote>
-<p><strong>Knowledge (engineering):</strong> This is the most important skill with regard to technological subjects. Knowledge (engineering) can be used to identify a robot's abilities and weaknesses. Knowledge (engineering) is also used to identify and understand unknown technological objects in a similar manner to how <Link to="/skill/spellcraft">Spellcraft</Link> is used to identify the properties of a magic item. The DC to correctly identify and understand an unknown technological object is equal to the object's Craft DC. An object with a Craft DC of 15 or less can be automatically identified and understood by someone trained in Knowledge (engineering) who also has the <Link to="/feat/technologist">Technologist</Link> feat.</p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link><br/>When using the <Link to="/rule/technological_equipment">technological equipment</Link> rules, Knowledge (engineering) is the most important skill. This can be used to identify a robot's abilities and weaknesses. It is also used to identify and understand unknown technological objects in a similar manner to how <Link to="/skill/spellcraft">Spellcraft</Link> is used to identify the properties of a magic item. The DC to correctly identify and understand an unknown technological object is equal to the object's Craft DC. An object with a Craft DC of 15 or less can be automatically identified and understood by someone trained in Knowledge (engineering) who also has the <Link to="/feat/technologist">Technologist</Link> feat.</p>
 <h3 id="skill-knowledge_engineering-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Knowledge, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
@@ -1899,13 +1896,9 @@ const _knowledge_geography = {hasJL:true,title: "Knowledge (geography)", jsx: <>
 <p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
 </div>
 <h3 id="skill-knowledge_geography-researching-technology" data-hash-target>Researching Technology</h3>
-<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link></p>
-<p>A character can use the following skills to research technological subjects. Other skills may have research applications as well, subject to GM approval.</p>
-<blockquote>
-<p><strong>Knowledge (geography):</strong> Used for astronomy.</p>
-</blockquote>
+<p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link><br/>When using the <Link to="/rule/technological_equipment">technological equipment</Link> rules, a character can use Knowledge (geography) for astronomy.</p>
 <h3 id="skill-knowledge_geography-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Knowledge, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>15 Ranks</Cell><Cell>When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.</Cell></Row>
 <Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a Knowledge check, you can roll twice and take the better result.</Cell></Row></Block>
@@ -1954,7 +1947,7 @@ const _knowledge_history = {hasJL:true,title: "Knowledge (history)", jsx: <><div
 <p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
 </div>
 <h3 id="skill-knowledge_history-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Knowledge, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>15 Ranks</Cell><Cell>When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.</Cell></Row>
 <Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a Knowledge check, you can roll twice and take the better result.</Cell></Row></Block>
@@ -2035,7 +2028,7 @@ const _knowledge_local = {hasJL:true,title: "Knowledge (local)", jsx: <><div cla
 <p><strong>Note:</strong> For class features, add 10 to the DC if the class is a prestige class.</p>
 </div>
 <h3 id="skill-knowledge_local-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Knowledge, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
@@ -2114,7 +2107,7 @@ const _knowledge_nature = {hasJL:true,title: "Knowledge (nature)", jsx: <><div c
 <p><strong>Note:</strong> For class features, add 10 to the DC if the class is a prestige class.</p>
 </div>
 <h3 id="skill-knowledge_nature-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Knowledge, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
@@ -2182,7 +2175,7 @@ const _knowledge_nobility = {hasJL:true,title: "Knowledge (nobility)", jsx: <><d
 </tbody></table></ScrollContainer>
 </div>
 <h3 id="skill-knowledge_nobility-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Knowledge, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>15 Ranks</Cell><Cell>When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.</Cell></Row>
 <Row><Cell>20 Ranks</Cell><Cell>Whenever you attempt a Knowledge check, you can roll twice and take the better result.</Cell></Row></Block>
@@ -2237,7 +2230,7 @@ const _knowledge_planes = {hasJL:true,title: "Knowledge (planes)", jsx: <><div c
 <p>You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.</p>
 </div>
 <h3 id="skill-knowledge_planes-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Knowledge, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
@@ -2313,7 +2306,7 @@ const _knowledge_religion = {hasJL:true,title: "Knowledge (religion)", jsx: <><d
 <p><strong>Note:</strong> For class features, add 10 to the DC if the class is a prestige class.</p>
 </div>
 <h3 id="skill-knowledge_religion-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Knowledge, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Knowledge, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>When you successfully identify a creature, you gain one additional piece of information for every 5 ranks you possess in that Knowledge skill.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>When you successfully identify a creature, you gain a +1 competence bonus on attack rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.</Cell></Row>
@@ -2398,10 +2391,10 @@ const _linguistics = {hasJL:true,title: "Linguistics", jsx: <><div className="ju
 <h4 id="skill-linguistics-learn-a-language">Learn a Language</h4>
 <p>Whenever you put a rank into this skill, you learn to speak and read a new language. Known <Link to="/misc/languages">languages</Link> are listed.</p>
 <h3 id="skill-linguistics-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
-<p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day are accurate.</p>
+<p><Link to="/rule/occult_skill_unlocks">Occult skill unlocks</Link> are available to those using the occult rules and meet certain requirements.</p>
 <h4 id="skill-linguistics-automatic-writing" data-hash-target>Automatic Writing</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 194</Link><br/>You can produce mysterious writing that pertains to the immediate future, either under the influence of enigmatic guiding spirits or by unleashing your subconscious intuition.</p>
-<div className="semiheaderGroup"><h3 id="skill-linguistics-check">Check</h3>
+<div className="semiheaderGroup"><h5 id="skill-linguistics-check">Check</h5>
 <p>Once per week, you can spend 1 hour posing questions while your hand unconsciously scribbles messages of varying legibility and accuracy. At the end of this hour, you attempt a Linguistics check to decipher the meanings of these messages. If successful, you gain information as though you had used <Link to="/spell/augury">augury</Link>. If you have 10 or more ranks in Linguistics, you can attempt a higher DC check to instead gain information as though you had used <Link to="/spell/divination">divination</Link>. The chance of successfully producing coherent or meaningful writing from any of these effects equals 60% plus 5% for every 1 by which your check result exceeds the DC (to a maximum of 90%). You must choose which DC you'll try to meet before attempting the check. The GM rolls the check and d% roll secretly, so that you can't tell whether the messages are accurate.</p>
 <ScrollContainer id="skill-linguistics--table-1"><table>
 <thead>
@@ -2423,17 +2416,17 @@ const _linguistics = {hasJL:true,title: "Linguistics", jsx: <><div className="ju
 </tr>
 </tbody></table></ScrollContainer>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-linguistics-action">Action</h3>
+<div className="semiheaderGroup"><h5 id="skill-linguistics-action">Action</h5>
 <p>Automatic writing takes 1 hour.</p>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-linguistics-try-again">Try Again</h3>
+<div className="semiheaderGroup"><h5 id="skill-linguistics-try-again">Try Again</h5>
 <p>Yes. You can attempt to learn more about a subject, but can still attempt only one check per week.</p>
 </div>
 <h3 id="skill-linguistics-technology" data-hash-target>Technology</h3>
 <p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 5</Link><br/>A character with the <Link to="/feat/technologist">Technologist</Link> feat can attempt a Linguistics check to decipher certain complex messages that appear in ruins. Note that many of these messages are written in Androffan. This language is spoken outside only rarely, and even within its borders, some have tried (quite unsuccessfully) to keep it a secret language.</p>
 <p><strong>Androffan:</strong> Some robots may also know it (either in addition to Common and Hallit or replacing these languages), depending on the robots' nature. Androffan cannot be chosen as a bonus language for high Intelligence without GM permission.</p>
 <h3 id="skill-linguistics-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Linguistics, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Linguistics, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>You can use Linguistics instead of Sense Motive to intercept and interpret secret messages (as the Bluff skill). You gain a +1 insight bonus on Perception and Disable Device checks to detect or disarm written magical traps. This bonus increases by 1 for every 5 ranks beyond 5 you possess in Linguistics.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>If you succeed at a Linguistics check by at least 10 when examining writing, you can learn the precise meaning rather than general content, and you never draw false conclusions on a failed check. A successful DC 30 Linguistics check reveals the general meaning of speech, a successful DC 35 check reveals 1d4 pieces of specific information, and a successful DC 40 check reveals exact meaning.</Cell></Row>
@@ -2707,19 +2700,19 @@ const _perception = {hasJL:true,title: "Perception", jsx: <><div className="jump
 <p>Many undersea denizens, particularly those in deep areas, use scent or tremorsense instead of sight. Scent usually works normally underwater for aquatic creatures (though terrestrial creatures that rely on scent can't follow a trail in the water), but water is more conducive to carrying scents from afar, allowing creatures like <Link to="/monster/shark">sharks</Link> to detect blood up to a mile away with their <Link to="/umr/keen_scent">keen scent</Link> ability. Aquatic tremorsense detects disturbances in the water nearby, even without touching the same solid surface.</p>
 <p>Sound travels farther and faster underwater, but that benefit is usually mitigated by the ambient noise of moving water. In situations with particularly little ambient noise (for instance, an area where all wildlife has been killed by a necromantic blight, or a flooded chamber or tank), Perception checks to hear something underwater are made with a +2 bonus.</p>
 <h3 id="skill-perception-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
-<p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.</p>
+<p><Link to="/rule/occult_skill_unlocks">Occult skill unlocks</Link> are available to those using the occult rules and meet certain requirements.</p>
 <h4 id="skill-perception-read-aura" data-hash-target>Read Aura</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 197</Link></p>
 <p>Your psychic sensitivity allows you to read the psychic and magical auras of creatures and objects.</p>
-<div className="semiheaderGroup"><h3 id="skill-perception-check">Check</h3>
+<div className="semiheaderGroup"><h5 id="skill-perception-check">Check</h5>
 <p>Once per day, you can examine the natural aura of a creature or object to discern the subject's alignment, emotions, health, or magic. This requires 10 minutes of concentration, after which you attempt a Perception check. Each time, you must pick one of four auras to read: alignment, emotion, health, or magic. The result of the check applies only to the selected aura. You must be within 30 feet of the subject at all times during the reading. Objects typically have only magic auras, though some also have alignment auras (and intelligent items have emotion auras). You can still attempt to detect a type of aura an object doesn't have, but you get no results. The DC varies depending on the aura, as shown on the table.</p>
-<h4 id="skill-perception-read-alignment-aura">Read Alignment Aura</h4>
+<h6 id="skill-perception-read-alignment-aura">Read Alignment Aura</h6>
 <p>You attempt to read the alignment aura, learning the alignment and its strength. An alignment aura's strength depends on the creature's Hit Dice or item's caster level, as noted in the description of the <Link to="/spell/detect_evil">detect evil</Link> spell.</p>
-<h4 id="skill-perception-read-emotion-aura">Read Emotion Aura</h4>
+<h6 id="skill-perception-read-emotion-aura">Read Emotion Aura</h6>
 <p>The colors within the target's aura reveal its emotional state. If successful, you learn the target's disposition and its attitude toward any creatures within 30 feet of it. For a number of rounds equal to the amount by which you exceeded the skill check's DC, you gain a +2 circumstance bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks against the target.</p>
-<h4 id="skill-perception-read-health-aura">Read Health Aura</h4>
+<h6 id="skill-perception-read-health-aura">Read Health Aura</h6>
 <p>Viewing the flow of vital force, you assess a creature's physical condition. You learn if the creature is unharmed or wounded, if it is poisoned or diseased, and whether it is affected by any of the following conditions: confused, disabled, dying, nauseated, panicked, staggered, stunned, and unconscious. You also learn the total number of points available in its ki pool, grit pool, or similar resource.</p>
-<h4 id="skill-perception-read-magic-aura">Read Magic Aura</h4>
+<h6 id="skill-perception-read-magic-aura">Read Magic Aura</h6>
 <p>You attempt to determine the number and power of all magical auras on a target creature or object (see <Link to="/spell/detect_magic">detect magic</Link> to determine a magic aura's power). If the check is successful, you can attempt Knowledge (arcana) or Spellcraft checks to determine the school or identify properties of a magic item, as normal. If the item is affected by <Link to="/spell/magic_aura">magic aura</Link> or a similar spell, you can realize this and determine the actual properties of the item if your check result exceeds the DC by 5 or more. If the spell is of a higher level (such as <Link to="/spell/aura_alteration">aura alteration</Link>), increase this threshold DC by 2 for every spell level beyond 1st.</p>
 <ScrollContainer id="skill-perception--table-2"><table>
 <thead>
@@ -2749,11 +2742,11 @@ const _perception = {hasJL:true,title: "Perception", jsx: <><div className="jump
 <div className="semiheaderGroup"><h3 id="skill-perception-action">Action</h3>
 <p>Reading an aura requires 10 minutes of study.</p>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-perception-try-again">Try Again</h3>
+<div className="semiheaderGroup"><h5 id="skill-perception-try-again">Try Again</h5>
 <p>Yes. You can read a creature or object's aura more than once, whether you read the same aura or a different one. You can still attempt only one skill check to read an aura per day.</p>
 </div>
 <h3 id="skill-perception-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Perception, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Perception, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>You remain alert to sounds even in your sleep, and the normal DC increase to Perception checks when you are sleeping is halved. The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 20 feet.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 30 feet. In addition, you gain a +5 bonus on Perception checks to notice or locate an invisible creature or object.</Cell></Row>
@@ -2824,7 +2817,7 @@ const _perform_any = {hasJL:true,title: "Perform (any)", jsx: <><div className="
 <p>A bard must have ranks in specific Perform categories to use some of his Bardic Performance abilities.</p>
 </div>
 <h3 id="skill-perform_any-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>With sufficient ranks in Perform, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 85</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Perform, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>Whenever you attempt a Bluff, Diplomacy, Handle Animal, or Intimidate check, you can attempt a DC 20 Perform check to gain a +2 circumstance bonus on the check.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>Whenever you cast a spell with the emotion or language-dependent descriptor, you can attempt a DC 25 Perform check to increase the save DC by 1.</Cell></Row>
@@ -2857,7 +2850,7 @@ const _profession_any = {hasJL:true,title: "Profession (any)", jsx: <><div class
 <p>A <Link to="/race/gnome">gnome</Link> gets a +2 bonus on a Craft or Profession skill of her choice.</p>
 </div>
 <h3 id="skill-profession_any-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>With sufficient ranks in Profession, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Profession, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>When using Profession checks to earn income, you earn gold pieces equal to the result of your check each week.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>When attempting Profession checks, you can roll twice and take the better result. When answering questions about your Profession, you can always take 10.</Cell></Row>
@@ -2948,7 +2941,7 @@ const _ride = {hasJL:true,title: "Ride", jsx: <><div className="jumpList" id="sk
 <p>Ride is a prerequisite for <Link to="/feat/mounted_archery">Mounted Archery</Link>, <Link to="/feat/mounted_combat">Mounted Combat</Link>, <Link to="/feat/ride_by_attack">Ride-By Attack</Link>, <Link to="/feat/spirited_charge">Spirited Charge</Link>, and <Link to="/feat/trample">Trample</Link>.</p>
 </div>
 <h3 id="skill-ride-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>With sufficient ranks in Ride, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Ride, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>Your mount gains a +2 bonus on Fortitude saves or Constitution checks to avoid becoming fatigued or exhausted. This bonus increases by 1 for every 5 ranks beyond 5 you possess in Ride.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>When you spur your mount, its speed is increased by 20 feet, and it gains a +2 bonus on Reflex saves and a +2 dodge bonus to AC.</Cell></Row>
@@ -3004,11 +2997,11 @@ const _sense_motive = {hasJL:true,title: "Sense Motive", jsx: <><div className="
 <p>If you have the <Link to="/feat/alertness">Alertness</Link> feat, you get a bonus on Sense Motive checks.</p>
 </div>
 <h3 id="skill-sense_motive-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
-<p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.</p>
+<p><Link to="/rule/occult_skill_unlocks">Occult skill unlocks</Link> are available to those using the occult rules and meet certain requirements.</p>
 <h4 id="skill-sense_motive-prognostication" data-hash-target>Prognostication</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 196</Link></p>
 <p>You are skilled in means of folk divination. The most common methods are cartomancy (reading cards), cheiromancy (reading a creature's palms), crystallomancy (crystal-gazing), extispicy (reading animal entrails), horoscopy (reading a creature's birth stars), oneiromancy (interpreting dreams), osteomancy (reading cast bones), and pyromancy (reading flames).</p>
-<div className="semiheaderGroup"><h3 id="skill-sense_motive-check">Check</h3>
+<div className="semiheaderGroup"><h5 id="skill-sense_motive-check">Check</h5>
 <p>Once per day, you can predict a creature's fortune for the near future. You spend 10 minutes interpreting the divination means at your disposal. The GM then attempts a secret Sense Motive check with a DC modified by the subject's Hit Dice (see the table below). The result of the check can give you basic insight into the subject's nature, including its alignment, class, and levels or Hit Dice, and might reveal clues to the creature's immediate future. Determining the immediate future as an <Link to="/spell/augury">augury</Link> spell has a chance of successfully interpreting meaningful readings equal to 60% plus 5% for every point by which the check result exceeds the DC (to a maximum of 90%). With a single check, you determine all the information whose DC you meet. For instance, if you had a result of 22 when telling the fortune of a creature with 2 HD, you would learn that creature's alignment and class, but not its level, HD, or fortune.</p>
 <ScrollContainer id="skill-sense_motive--table-1"><table>
 <thead>
@@ -3035,17 +3028,17 @@ const _sense_motive = {hasJL:true,title: "Sense Motive", jsx: <><div className="
 </tr>
 </tbody></table></ScrollContainer>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-sense_motive-action">Action</h3>
+<div className="semiheaderGroup"><h5 id="skill-sense_motive-action">Action</h5>
 <p>Reading a creature's fortune requires 10 minutes of uninterrupted contemplation, and the subject creature must be present.</p>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-sense_motive-try-again">Try Again</h3>
+<div className="semiheaderGroup"><h5 id="skill-sense_motive-try-again">Try Again</h5>
 <p>Yes. You can attempt to read a particular creature's fortune repeatedly, but only once per 24 hours.</p>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-sense_motive-special">Special</h3>
+<div className="semiheaderGroup"><h5 id="skill-sense_motive-special">Special</h5>
 <p>Specially crafted items purchased for the exclusive use of this skill grant a +2 circumstance bonus on Sense Motive checks to prognosticate.</p>
 </div>
 <h3 id="skill-sense_motive-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>With sufficient ranks in Sense Motive, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Sense Motive, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>If you were aware of an opponent before rolling initiative (such as when you ambush an enemy or negotiations break down into combat, but not when both sides happen upon each other or you are surprised), you can attempt a Sense Motive check as part of your initiative check (DC = 11 + the highest Bluff modifier among your opponents or DC 15, whichever is higher). If you succeed, you gain a +1 bonus on the initiative check, plus an additional +1 for every 5 by which you exceeded the DC.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>After 1 minute of conversation, you can read a creature's surface thoughts (as <Link to="/spell/detect_thoughts">detect thoughts</Link>) by attempting a Sense Motive check at a -20 penalty opposed by the creature's Bluff check.</Cell></Row>
@@ -3099,7 +3092,7 @@ const _sleight_of_hand = {hasJL:true,title: "Sleight of Hand", jsx: <><div class
 <p>If you have the <Link to="/feat/deft_hands">Deft Hands</Link> feat, you get a bonus on Sleight of Hand checks.</p>
 </div>
 <h3 id="skill-sleight_of_hand-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>With sufficient ranks in Sleight of Hand, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Sleight of Hand, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>When attempting a <Link to="/rule/disarm">disarm</Link> or steal maneuver, a successful Sleight of Hand check against your target's CMD grants a +2 circumstance bonus on your combat maneuver check.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>The penalty for attempting a Sleight of Hand check (including drawing a hidden weapon) as a <strong className="hl">move action</strong> is reduced to -10.</Cell></Row>
@@ -3164,7 +3157,7 @@ const _spellcraft = {hasJL:true,title: "Spellcraft", jsx: <><div className="jump
 <p>Spellcraft is also used in the <Link to="/rule/salvaging">salvaging</Link> rules.</p>
 </div>
 <h3 id="skill-spellcraft-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>With sufficient ranks in Spellcraft, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Spellcraft, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>Identifying magic items takes 1 full round, and the time required to learn a spell from a spellbook is halved.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>You can identify magic items without using <Link to="/spell/detect_magic">detect magic</Link>, though the DC is increased by 10.</Cell></Row>
@@ -3199,7 +3192,7 @@ const _stealth = {hasJL:true,title: "Stealth", jsx: <><div className="jumpList" 
 <p>If you have the <Link to="/feat/stealthy">Stealthy</Link> feat, you get a bonus on Stealth checks.</p>
 </div>
 <h3 id="skill-stealth-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>With sufficient ranks in Stealth, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 86</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Stealth, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>Reduce the Stealth penalty from sniping by 10.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>Stealth check penalties for moving quickly are halved, including the ability unlocked at 5 ranks, moving full speed, and reaching concealment after creating a distraction.</Cell></Row>
@@ -3398,17 +3391,17 @@ const _survival = {hasJL:true,title: "Survival", jsx: <><div className="jumpList
 <p>Regardless of the nature of its construction, such a trap acts as an extraordinary ranger <Link to="/rangertrap/snare_trap">snare trap</Link>, with the following modifications. With a successful DC 15 Survival check, a simple trap can be constructed in 20 minutes in a typical wilderness area using proper tools. The trap affects only creatures of a single size category, determined when the trap is constructed. (Smaller creatures slip out easily, and larger creatures are too big to be effectively snared.) The trap is obvious unless it is hidden with a successful DC 20 <Link to="/skill/stealth">Stealth</Link> check, in which case noticing it requires a successful DC 15 Perception check. The trap's DC is 13, it has 10 hit points, and it can be burst with a successful DC 15 Strength check. If left unattended, a simple trap has a 25% chance of becoming ineffective each day.</p>
 <p>Characters who wish to create more effective traps should invest skill ranks in <Link to="/skill/craft">Craft</Link> (traps) or take the <Link to="/feat/learn_ranger_trap">Learn Ranger Trap</Link> feat.</p>
 <h3 id="skill-survival-occult-skill-unlocks" data-hash-target>Occult Skill Unlocks</h3>
-<p>Characters capable of casting psychic spells or who have the <Link to="/feat/psychic_sensitivity">Psychic Sensitivity</Link> feat gain access to skill unlocks - a host of esoteric skill uses not available to other PCs. These are not entirely new skills, but rather new uses of existing skills for those trained in the occult arts. A character must be trained in the appropriate skill to use that skill's unlock, even if the skill can normally be used untrained. It's impossible to take 10 for an occult skill unlock. Occult skill unlocks require intense concentration and strenuous effort, so the amount a character can use each skill unlock is limited to once per day or per week. This limit is for all uses of the skill unlock; if a character uses hypnotism to implant a suggestion, he can't also use it to recall memories on the same day.</p>
+<p><Link to="/rule/occult_skill_unlocks">Occult skill unlocks</Link> are available to those using the occult rules and meet certain requirements.</p>
 <h4 id="skill-survival-dowsing" data-hash-target>Dowsing</h4>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 195</Link></p>
 <p>You channel mysterious forces in the nearby environment to locate hidden resources.</p>
-<div className="semiheaderGroup"><h3 id="skill-survival-check">Check</h3>
+<div className="semiheaderGroup"><h5 id="skill-survival-check">Check</h5>
 <p>Once per day, you can follow a dowsing rod's movements to locate a particular type of location. Each attempt requires 10 minutes of intense concentration, after which you attempt the Survival check with the DC listed on the table below. The maximum range at which you can detect anything using dowsing is 400 feet + 40 feet per rank in Survival you possess. The rod's directions persist for up to 10 minutes. You choose a particular target each time you dowse, and get the following information on a successful check.</p>
-<h4 id="skill-survival-find-water">Find Water</h4>
+<h6 id="skill-survival-find-water">Find Water</h6>
 <p>The dowsing rod points toward the largest source of fresh water within range, including aquifers, lakes, ponds, and springs.</p>
-<h4 id="skill-survival-grave-dowsing">Grave Dowsing</h4>
+<h6 id="skill-survival-grave-dowsing">Grave Dowsing</h6>
 <p>The dowsing rod points in the direction of the largest burial site, cairn, or tomb within range.</p>
-<h4 id="skill-survival-locate-metal-and-gems">Locate Metal and Gems</h4>
+<h6 id="skill-survival-locate-metal-and-gems">Locate Metal and Gems</h6>
 <p>You concentrate on a specific metal or mineral. On a successful check, the dowsing rod points to the largest quantity of the selected mineral within range.</p>
 <ScrollContainer id="skill-survival--table-5"><table>
 <thead>
@@ -3431,14 +3424,14 @@ const _survival = {hasJL:true,title: "Survival", jsx: <><div className="jumpList
 </tr>
 </tbody></table></ScrollContainer>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-survival-action">Action</h3>
+<div className="semiheaderGroup"><h5 id="skill-survival-action">Action</h5>
 <p>Dowsing attempts take 10 minutes to initiate. The results of the check persist for 10 minutes afterward.</p>
 </div>
-<div className="semiheaderGroup"><h3 id="skill-survival-try-again">Try Again</h3>
+<div className="semiheaderGroup"><h5 id="skill-survival-try-again">Try Again</h5>
 <p>Yes. You can try to dowse from the same location more than once, but still only once per day.</p>
 </div>
 <h3 id="skill-survival-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 87</Link><br/>With sufficient ranks in Survival, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 87</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Survival, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>You reduce all nonlethal damage you take from heat, cold, starvation, or thirst by 1 point for every 5 ranks you possess in Survival.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>You can track creatures that leave no tracks, including flying and swimming creatures and creatures using <Link to="/ability/trackless_step">trackless step</Link> or <Link to="/spell/pass_without_trace">pass without trace</Link>, taking a -20 penalty on your Survival check.</Cell></Row>
@@ -3488,7 +3481,7 @@ const _swim = {hasJL:true,title: "Swim", jsx: <><div className="jumpList" id="sk
 <p>If you have the <Link to="/feat/athletic">Athletic</Link> feat, you get a bonus on Swim checks.</p>
 </div>
 <h3 id="skill-swim-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 87</Link><br/>With sufficient ranks in Swim, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 87</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Swim, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>You gain a swim speed of 10 feet, but only in water with a Swim DC of 15 or lower.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>You gain a swim speed (though you do not gain the +8 racial bonus on Swim checks) equal to your base speed in water with a Swim DC of 15 or lower, or 10 feet in all other water.</Cell></Row>
@@ -3586,7 +3579,7 @@ const _use_magic_device = {hasJL:true,title: "Use Magic Device", jsx: <><div cla
 <p>Attempting to create a mishap is like activating an item blindly, and requires a <strong className="hl">standard action</strong> during which you try out magic words or other appropriate actions.</p>
 </div>
 <h3 id="skill-use_magic_device-unchained-rogue-skill-unlocks" data-hash-target>Unchained Rogue Skill Unlocks</h3>
-<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 87</Link><br/>With sufficient ranks in Use Magic Device, you earn the following.</p>
+<p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 87</Link><br/>If using <Link to="/rule/skill_unlocks">skill unlocks</Link>, with sufficient ranks in Use Magic Device, you earn the following.</p>
 <Block size="simple">
 <Row><Cell>5 Ranks</Cell><Cell>You can use the aid another action to assist another creature's Use Magic Device check by attempting a check against the item's Use Magic Device DC.</Cell></Row>
 <Row><Cell>10 Ranks</Cell><Cell>If you roll a natural 1 when activating an item, you take a -10 penalty on Use Magic Device checks with that item for 24 hours instead of being unable to activate it. This penalty stacks with itself.</Cell></Row>

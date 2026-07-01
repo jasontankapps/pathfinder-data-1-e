@@ -446,6 +446,22 @@ const migrations = {
 				catalog
 			}
 		};
+	},
+	22: (state: any) => {
+		const {scroll: sc, displayTable: dt, ...unchangedState} = state;
+		const displayTable = {...dt};
+		const scroll = {...sc};
+		// Remove info regarding removed table
+		delete displayTable["skills table"];
+		delete scroll["skills table-X"];
+		delete scroll["skills table-Y"];
+		// Remove info from table that had too much data
+		delete displayTable["skald spells table 0 1"];
+		return {
+			...unchangedState,
+			scroll,
+			displayTable
+		};
 	}
 };
 
@@ -463,7 +479,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<InitialAppState> = {
 	key: 'root-pf-data',
-	version: 21,
+	version: 22,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

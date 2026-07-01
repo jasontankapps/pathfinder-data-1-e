@@ -9,7 +9,7 @@ type Data = typeof skills;
 
 type Params = { id?: keyof Data };
 
-const topLink: Hierarchy = ["All Skills", "main/skills"];
+const topLink: Hierarchy = ["Skill Descriptions", "rule/skill_descriptions"];
 
 const SkillPage: React.FC = () => {
 
