@@ -45,6 +45,10 @@ const MainGroup36Page = lazy(() => import("./MainGroup36Page"));
 const MainGroup37Page = lazy(() => import("./MainGroup37Page"));
 const MainGroup38Page = lazy(() => import("./MainGroup38Page"));
 const MainGroup39Page = lazy(() => import("./MainGroup39Page"));
+const MainGroup40Page = lazy(() => import("./MainGroup40Page"));
+const MainGroup41Page = lazy(() => import("./MainGroup41Page"));
+const MainGroup42Page = lazy(() => import("./MainGroup42Page"));
+const MainGroup43Page = lazy(() => import("./MainGroup43Page"));
 
 interface Props {
 	id: string
@@ -90,6 +94,10 @@ const pages = [
 	({id}: Props) => <MainGroup37Page id={id} />,
 	({id}: Props) => <MainGroup38Page id={id} />,
 	({id}: Props) => <MainGroup39Page id={id} />,
+	({id}: Props) => <MainGroup40Page id={id} />,
+	({id}: Props) => <MainGroup41Page id={id} />,
+	({id}: Props) => <MainGroup42Page id={id} />,
+	({id}: Props) => <MainGroup43Page id={id} />,
 ]
 
 const MainPage: React.FC = () => {

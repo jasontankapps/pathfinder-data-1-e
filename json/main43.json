@@ -1,0 +1,209 @@
+{
+	"traits_religion_lg": {
+		"title": "Religion Traits: Lawful Good",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bLG-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_ln": {
+		"title": "Religion Traits: Lawful Neutral",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bLN-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_le": {
+		"title": "Religion Traits: Lawful Evil",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bLE-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_ng": {
+		"title": "Religion Traits: Neutral Good",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bNG-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_nn": {
+		"title": "Religion Traits: True Neutral",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bNN-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_ne": {
+		"title": "Religion Traits: Neutral Evil",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bNE-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_cg": {
+		"title": "Religion Traits: Chaotic Good",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bCG-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_cn": {
+		"title": "Religion Traits: Chaotic Neutral",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bCN-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_ce": {
+		"title": "Religion Traits: Chaotic Evil",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bCE-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	}
+}

@@ -13,6 +13,7 @@ const ClassAbilityGroup4Page = lazy(() => import("./ClassAbilityGroup4Page"));
 const ClassAbilityGroup5Page = lazy(() => import("./ClassAbilityGroup5Page"));
 const ClassAbilityGroup6Page = lazy(() => import("./ClassAbilityGroup6Page"));
 const ClassAbilityGroup7Page = lazy(() => import("./ClassAbilityGroup7Page"));
+const ClassAbilityGroup8Page = lazy(() => import("./ClassAbilityGroup8Page"));
 
 const pages = [
 	({id}: {id: ID}) => <ClassAbilityGroup1Page id={id} />,
@@ -22,6 +23,7 @@ const pages = [
 	({id}: {id: ID}) => <ClassAbilityGroup5Page id={id} />,
 	({id}: {id: ID}) => <ClassAbilityGroup6Page id={id} />,
 	({id}: {id: ID}) => <ClassAbilityGroup7Page id={id} />,
+	({id}: {id: ID}) => <ClassAbilityGroup8Page id={id} />,
 ]
 
 const ClassAbilityPage: React.FC = () => {

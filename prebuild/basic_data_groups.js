@@ -171,6 +171,7 @@ import ability4 from '../json/class_abilities4.json' with {type: 'json'};
 import ability5 from '../json/class_abilities5.json' with {type: 'json'};
 import ability6 from '../json/class_abilities6.json' with {type: 'json'};
 import ability7 from '../json/class_abilities7.json' with {type: 'json'};
+import ability8 from '../json/class_abilities8.json' with {type: 'json'};
 import classes1 from '../json/classes.json' with {type: 'json'};
 import classes2 from '../json/classes2.json' with {type: 'json'};
 import classes3 from '../json/classes3.json' with {type: 'json'};
@@ -266,6 +267,10 @@ import main36 from '../json/main36.json' with {type: 'json'};
 import main37 from '../json/main37.json' with {type: 'json'};
 import main38 from '../json/main38.json' with {type: 'json'};
 import main39 from '../json/main39.json' with {type: 'json'};
+import main40 from '../json/main40.json' with {type: 'json'};
+import main41 from '../json/main41.json' with {type: 'json'};
+import main42 from '../json/main42.json' with {type: 'json'};
+import main43 from '../json/main43.json' with {type: 'json'};
 import monster1 from '../json/monsters01.json' with {type: 'json'};
 import monster2 from '../json/monsters02.json' with {type: 'json'};
 import monster3 from '../json/monsters03.json' with {type: 'json'};
@@ -921,6 +926,13 @@ const basic_data_groups = {
 		searchgroup: 1, // classes
 		link: "ability",
 		num: 7,
+		type: "Class Ability"
+	},
+	"class_abilities8": {
+		data: ability8,
+		searchgroup: 1, // classes
+		link: "ability",
+		num: 8,
 		type: "Class Ability"
 	},
 	"class_ability_arcane_schools": {
@@ -2886,6 +2898,34 @@ const basic_data_groups = {
 		datatype: "main",
 		link: "main",
 		num: 39,
+		type: "General Info"
+	},
+	"main40": {
+		data: main40,
+		datatype: "main",
+		link: "main",
+		num: 40,
+		type: "General Info"
+	},
+	"main41": {
+		data: main41,
+		datatype: "main",
+		link: "main",
+		num: 41,
+		type: "General Info"
+	},
+	"main42": {
+		data: main42,
+		datatype: "main",
+		link: "main",
+		num: 42,
+		type: "General Info"
+	},
+	"main43": {
+		data: main43,
+		datatype: "main",
+		link: "main",
+		num: 43,
 		type: "General Info"
 	},
 	"monsters01": {
