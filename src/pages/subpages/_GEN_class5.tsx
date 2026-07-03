@@ -185,8 +185,8 @@ const _cavalier = {hasJL:true,title: "Cavalier", jsx: <><div className="jumpList
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light, Medium, and Heavy armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="class-cavalier-challenge-ex" icon={["mailed-fist"]}>
-<Pair single id="class-cavalier-challenge-ex">Challenge (Ex)</Pair>
+<Ability id="challenge-ex" icon={["mailed-fist"]}>
+<Pair single id="challenge-ex">Challenge (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Swift Action">You challenge a foe to combat, choosing one target within sight to challenge. Your melee attacks deal extra damage whenever the attacks are made against the target of your challenge. This extra damage is equal to your level. Challenging a foe requires much of your concentration. You take a -2 penalty to your Armor Class, except against attacks made by the target of your challenge.</Pair>
@@ -208,74 +208,74 @@ const _cavalier = {hasJL:true,title: "Cavalier", jsx: <><div className="jumpList
 </Pair>
 <Pair title="Special">Your bond with your mount is strong, with the two of you learning to anticipate each other's moods and moves. Should your mount die, you may find another mount to serve you after 1 week of mourning. This new mount does not gain the <em>link, evasion, devotion,</em> or <em>improved evasion</em> special abilities until the next time you gain a level.</Pair>
 </Ability>
-<Ability id="class-cavalier-order-ex" icon={["upgrade"]}>
-<Pair single id="class-cavalier-order-ex">Order (Ex):</Pair>
+<Ability id="order-ex" icon={["upgrade"]}>
+<Pair single id="order-ex">Order (Ex):</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must pledge yourself to a specific <Link to="/ability/orders">order</Link>. The order grants you a number of bonuses, class skills, and special abilities. In addition, each order includes a number of edicts that you must follow. If you violate any of these edicts, you lose the benefits from your order's <em>challenge</em> ability for 24 hours. The violation of an edict is subject to GM interpretation.</Pair>
 <Pair title="Special">You cannot change your order without undertaking a lengthy process to dedicate yourself to a new cause. When this choice is made, you immediately lose all of the benefits from your old order. You must then follow the edicts of your new order for one entire level without gaining any benefits from that order. Once accomplished, you gain all of the bonuses from your new order. (Note that the names of these orders might vary depending upon the campaign setting or GM's preference.)</Pair>
 </Ability>
-<Ability id="class-cavalier-tactician-ex" icon={["stairs-goal","upgrade"]}>
-<Pair single id="class-cavalier-tactician-ex">Tactician (Ex)</Pair>
+<Ability id="tactician-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="tactician-ex">Tactician (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You receive a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. You must meet the prerequisites for this feat.</Pair>
 <Pair title="Standard Action">You can grant this feat to all allies within 30 feet who can see and hear you. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every two levels you possess. Allies do not need to meet the prerequisites of these bonus feats.</Pair>
 <Pair title="Usage">1 time/day + 1 per five fighter levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
 </Ability>
-<Ability id="class-cavalier-cavaliers-charge-ex" icon={["mailed-fist","armor-upgrade"]}>
-<Pair single id="class-cavalier-cavaliers-charge-ex">Cavalier's Charge (Ex)</Pair>
+<Ability id="cavaliers-charge-ex" icon={["mailed-fist","armor-upgrade"]}>
+<Pair single id="cavaliers-charge-ex">Cavalier's Charge (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You receive a +4 bonus on melee attack rolls on a <Link to="/rule/charge">charge</Link> while mounted (instead of the normal +2). In addition, you do not suffer any penalty to your AC after making a charge attack while mounted.</Pair>
 </Ability>
-<Ability id="class-cavalier-expert-trainer-ex" icon={["upgrade"]}>
-<Pair single id="class-cavalier-expert-trainer-ex">Expert Trainer (Ex)</Pair>
+<Ability id="expert-trainer-ex" icon={["upgrade"]}>
+<Pair single id="expert-trainer-ex">Expert Trainer (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You receive a bonus equal to <Link to="/misc/half">half</Link> your cavalier level whenever you use <Link to="/skill/handle_animal">Handle Animal</Link> on an animal that serves as a mount. In addition, you can reduce the time needed to teach a mount a new <Link to="/ability/animal_tricks">trick</Link> or train a mount for a general purpose to 1 day per 1 week required by increasing the DC by +5. You can also train more than one mount at once, although each mount after the first adds +2 to the DC.</Pair>
 </Ability>
-<Ability id="class-cavalier-banner-ex" icon={["armor-upgrade","mailed-fist"]}>
-<Pair single id="class-cavalier-banner-ex" flavor="A cavalier's banner becomes a symbol of inspiration to his allies and companions.">Banner (Ex)</Pair>
+<Ability id="banner-ex" icon={["armor-upgrade","mailed-fist"]}>
+<Pair single id="banner-ex" flavor="A cavalier's banner becomes a symbol of inspiration to his allies and companions.">Banner (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">As long as your banner is clearly visible, all allies within 60 feet receive a +2 morale bonus on saving throws against fear and a +1 morale bonus on attack rolls made as part of a charge. The save bonus is equal to 1 + one-fifth your cavalier level, while the charge bonus is equal to one-fifth your cavalier level.</Pair>
 <Pair title="Special">The banner must be at least Small or larger and must be carried or displayed by you or your mount to function.</Pair>
 </Ability>
 <aside><p>Some knights inspire and direct their allies with specialized tactics. A cavalier can select <Link to="/ability/banners">a different battle standard</Link> upon gaining the banner class feature, and its benefits replace the normal benefits of the banner and greater banner class features.</p>
-</aside><Ability id="class-cavalier-bonus-feat" icon={["stairs-goal"]}>
-<Pair single id="class-cavalier-bonus-feat">Bonus Feat</Pair>
+</aside><Ability id="bonus-feat" icon={["stairs-goal"]}>
+<Pair single id="bonus-feat">Bonus Feat</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">You gain a bonus feat in addition to those gained from normal advancement. This bonus feat must be selected from those listed as <Link to="/main/combat_feat">combat feats</Link>. You must meet the prerequisites of this bonus feat.</Pair>
 <Pair title="At 12th Level">You gain another bonus feat, following the restrictions above.</Pair>
 <Pair title="At 18th Level">You gain another bonus feat, following the restrictions above.</Pair>
 </Ability>
-<Ability id="class-cavalier-greater-tactician-ex" icon={["stairs-goal"]}>
-<Pair single id="class-cavalier-greater-tactician-ex">Greater Tactician (Ex)</Pair>
+<Ability id="greater-tactician-ex" icon={["stairs-goal"]}>
+<Pair single id="greater-tactician-ex">Greater Tactician (Ex)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">You receive an additional teamwork feat as a bonus feat. You must meet the prerequisites for this feat. You can grant this feat to your allies using the <em>tactician</em> ability.</Pair>
 <Pair title="Swift Action">Using the <em>tactician</em> ability becomes a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="class-cavalier-mighty-charge-ex" icon={["mailed-fist","stairs-goal"]}>
-<Pair single id="class-cavalier-mighty-charge-ex" flavor="A cavalier learns to make devastating charge attacks while mounted.">Mighty Charge (Ex)</Pair>
+<Ability id="mighty-charge-ex" icon={["mailed-fist","stairs-goal"]}>
+<Pair single id="mighty-charge-ex" flavor="A cavalier learns to make devastating charge attacks while mounted.">Mighty Charge (Ex)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">You double the threat range of any weapons wielded during a charge while mounted. This increase does not stack with other effects that increase the threat range of the weapon.</Pair>
 <Pair title="Free Action">In addition, you can make a free <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/disarm">disarm</Link>, <Link to="/rule/sunder">sunder</Link>, or <Link to="/rule/trip">trip</Link> combat maneuver if your charge attack is successful. This does not provoke an attack of opportunity.</Pair>
 </Ability>
-<Ability id="class-cavalier-demanding-challenge-ex" icon={["armor-downgrade"]}>
-<Pair single id="class-cavalier-demanding-challenge-ex">Demanding Challenge (Ex)</Pair>
+<Ability id="demanding-challenge-ex" icon={["armor-downgrade"]}>
+<Pair single id="demanding-challenge-ex">Demanding Challenge (Ex)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">Whenever you declare a challenge, your target must pay attention to the threat you pose. As long as the target is within your threatened area, it takes a -2 penalty to its AC from attacks made by anyone other than you.</Pair>
 </Ability>
-<Ability id="class-cavalier-greater-banner-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-cavalier-greater-banner-ex" flavor="A cavlier's banner becomes a rallying call to his allies.">Greater Banner (Ex)</Pair>
+<Ability id="greater-banner-ex" icon={["armor-upgrade"]}>
+<Pair single id="greater-banner-ex" flavor="A cavlier's banner becomes a rallying call to his allies.">Greater Banner (Ex)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">All allies within 60 feet receive a +2 morale bonus on saving throws against charm and compulsion spells and effects.</Pair>
 <Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting all allies within 60 feet an additional saving throw against any one spell or effect that is targeting them. This save is made at the original DC. Spells and effects that do not allow saving throws are unaffected by this ability. An ally cannot benefit from this ability more than once per day.</Pair>
 </Ability>
-<Ability id="class-cavalier-master-tactician-ex" icon={["stairs-goal"]}>
-<Pair single id="class-cavalier-master-tactician-ex">Master Tactician (Ex)</Pair>
+<Ability id="master-tactician-ex" icon={["stairs-goal"]}>
+<Pair single id="master-tactician-ex">Master Tactician (Ex)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Ability">You receive an additional teamwork feat as a bonus feat. You must meet the prerequisites for this feat. You can grant this feat to your allies using the <em>tactician</em> ability.</Pair>
 <Pair title="Special">Whenever you use the <em>tactician</em> ability, you grant any two teamwork feats that you know. You can select from <strong>any</strong> of your teamwork feats, not just your bonus feats.</Pair>
 </Ability>
-<Ability id="class-cavalier-supreme-charge-ex" icon={["mailed-fist"]}>
-<Pair single id="class-cavalier-supreme-charge-ex">Supreme Charge (Ex)</Pair>
+<Ability id="supreme-charge-ex" icon={["mailed-fist"]}>
+<Pair single id="supreme-charge-ex">Supreme Charge (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">Whenever you make a charge attack while mounted, you deal double the normal amount of damage (or triple if using a <Link to="/eq-weapon/lance">lance</Link>). In addition, if you confirm a critical hit on a charge attack while mounted, the target is <Link to="/misc/stunned">stunned</Link> for 1d4 rounds. A Will save reduces this to <Link to="/misc/staggered">staggered</Link> for 1d4 rounds. The DC is equal to 10 + your base attack bonus.</Pair>
 </Ability>
@@ -331,7 +331,7 @@ const _cavalier = {hasJL:true,title: "Cavalier", jsx: <><div className="jumpList
 <h3 id="class-cavalier-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"cavalier archetypes","columns":[{"header":"Archetype","link":"arc-cavalier"},{"header":"Armor Proficiency"},{"header":"Banner"},{"header":"Greater Banner"},{"header":"Bonus Feats"},{"header":"6th-level Bonus Feat"},{"header":"18th-level Bonus Feat"},{"header":"Cavalier's Charge"},{"header":"Mighty Charge"},{"header":"Supreme Charge"},{"header":"Challenge"},{"header":"Demanding Challenge"},{"header":"Class Skills"},{"header":"Expert Trainer"},{"header":"Mount"},{"header":"Order"},{"header":"2nd-level Order Ability"},{"header":"Tactician"},{"header":"Greater Tactician"},{"header":"Master Tactician"},{"header":"Weapon Proficiency"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Beast Rider","beast_rider"],null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null],[["Castellan","castellan"],null,null,null,null,null,null,"X","X","X",null,"X",null,"X","X",null,null,null,null,null,null,null],[["Charger","charger"],null,null,null,null,null,null,"X","X",null,null,null,"X","X","X",null,null,null,null,null,null,"X"],[["Circuit Judge","circuit_judge"],null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,"X","X","X",null,null],[["Constable","constable"],null,"X","X",null,null,null,"X","X","X",null,null,"X","X","X",null,null,null,null,null,null,null],[["Courtly Knight","courtly_knight"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null],[["Daring Champion","daring_champion"],null,null,null,null,null,null,"X","X","X",null,null,null,"X","X",null,null,null,null,null,null,"X"],[["Daring General","daring_general"],null,null,null,"X",null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null],[["Disciple of the Pike","disciple_of_the_pike"],null,"X","X",null,null,null,"X","X","X",null,null,null,"X","X",null,null,null,null,null,null,null],[["Drakerider","drakerider"],null,"X","X",null,null,null,null,null,null,null,null,null,"X","X",null,null,"X","X","X",null,null],[["Emissary","emissary"],null,"X","X",null,null,null,null,null,"X",null,null,null,null,null,null,null,"X","X",null,null,null],[["Esquire","esquire"],null,"X",null,null,null,null,"X","X","X",null,null,null,"X","X",null,null,null,null,null,null,null],[["Fell Rider","fell_rider"],null,"X","X",null,null,null,"X","X","X",null,null,null,"X","X",null,null,null,null,null,null,null],[["First Mother's Fang","first_mothers_fang"],null,null,null,null,null,null,null,null,null,null,null,"X",null,"X","X",null,null,null,null,"X",null],[["Gallant","gallant"],null,"X","X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Gendarme","gendarme"],null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X","X","X",null,null],[["Ghost Rider","ghost_rider"],null,"X","X",null,null,null,"X","X",null,null,null,null,"X","X",null,null,"X","X","X",null,null],[["Green Knight","green_knight"],null,"X","X",null,null,null,"X","X","X",null,null,null,"X","X","X",null,"X","X","X",null,null],[["Herald Squire","herald_squire"],null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X","X",null,null,null,null],[["Honor Guard","honor_guard"],null,null,null,null,null,null,"X","X",null,"X","X",null,null,null,null,null,null,null,null,null,null],[["Hooded Knight","hooded_knight"],null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,"X","X","X",null,null],[["Huntmaster","huntmaster"],null,"X","X","X",null,null,"X","X","X","X",null,null,"X","X",null,null,"X","X","X",null,"X"],[["Hussar","hussar"],"X","X","X","X",null,null,null,null,null,null,null,"X",null,null,null,null,"X","X","X",null,null],[["Knight of Arnisant","knight_of_arnisant"],null,"X",null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,"X","X",null,null,null],[["Luring Cavalier","luring_cavalier"],null,null,null,null,null,null,"X","X","X","X","X",null,null,null,null,null,null,null,null,null,null],[["Musketeer","musketeer"],null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null],[["Oceanrider","oceanrider"],"X",null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null],[["Qabarat Outrider","qabarat_outrider"],"X","X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null],[["Qadiran Horselord","qadiran_horselord"],null,null,null,null,"X",null,"X",null,null,null,null,null,null,"X",null,null,"X","X","X",null,"X"],[["Saurian Champion","saurian_champion"],null,"X","X",null,null,null,null,null,null,"X",null,"X",null,"X","X",null,"X","X","X",null,"X"],[["Sister-in-Arms","sister_in_arms"],null,null,null,null,null,null,"X","X","X","X",null,null,"X","X","X",null,null,null,null,null,null],[["Spellscar Drifter","spellscar_drifter"],null,"X",null,"X",null,null,"X","X","X",null,"X",null,null,null,null,null,"X","X","X",null,"X"],[["Standard Bearer","standard_bearer"],null,"X",null,null,null,null,null,"X","X",null,null,null,null,"X",null,null,null,null,null,null,null],[["Strategist","strategist"],null,null,"X",null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null],[["Verdivant","verdivant"],null,"X","X","X",null,null,"X",null,null,null,null,null,"X",null,null,null,"X","X","X",null,null],[["Vermin Tamer","vermin_tamer"],null,null,null,null,null,null,null,null,null,null,"X",null,"X","X",null,null,null,null,null,null,null],[["Wave Rider","wave_rider"],null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X"]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-cavalier-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="cavalier" prefix="class-cavalier-" />
+<RacialOptions cls="cavalier" />
 </>};
 const _cleric = {hasJL:true,title: "Cleric", jsx: <><div className="jumpList" id="class-cleric-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-cleric-bonus-languages">Bonus Languages</InnerLink></li><li><InnerLink toTop to="class-cleric-aura-ex">Aura</InnerLink></li><li><InnerLink toTop to="class-cleric-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-cleric-chaotic-evil-good-and-lawful-spells">Aligned Spells</InnerLink></li><li><InnerLink toTop to="class-cleric-channel-energy-su">Channel Energy</InnerLink></li><li><InnerLink toTop to="class-cleric-domains">Domains</InnerLink></li><li><InnerLink toTop to="class-cleric-spontaneous-casting">Spontaneous Casting</InnerLink></li><li><InnerLink toTop to="class-cleric-ex-clerics">Ex-Clerics</InnerLink></li><li><InnerLink toTop to="class-cleric-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-cleric-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-cleric-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-cleric-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-cleric-cleric">Cleric</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 38</Link></p>
@@ -723,30 +723,30 @@ const _cleric = {hasJL:true,title: "Cleric", jsx: <><div className="jumpList" id
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>The favored weapon of their deity</td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="class-cleric-bonus-languages" icon={["upgrade"]}>
-<Pair single id="class-cleric-bonus-languages">Bonus Languages</Pair>
+<Ability id="bonus-languages" icon={["upgrade"]}>
+<Pair single id="bonus-languages">Bonus Languages</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Your bonus language options include Celestial, Abyssal, and Infernal (the languages of good, chaotic evil, and lawful evil outsiders, respectively). These choices are in addition to the bonus languages available to you because of your race.</Pair>
 </Ability>
-<Ability id="class-cleric-aura-ex" icon={["aura"]}>
-<Pair single id="class-cleric-aura-ex">Aura (Ex)</Pair>
+<Ability id="aura-ex" icon={["aura"]}>
+<Pair single id="aura-ex">Aura (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">If you are a cleric of a chaotic, evil, good, or lawful deity, you have a particularly powerful aura corresponding to your deity's alignment (see <Link to="/spell/detect_evil">detect evil</Link>).</Pair>
 </Ability>
-<Ability id="class-cleric-spells" icon={["magic-swirl"]}><Pair single id="class-cleric-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To prepare or cast a spell, you must have a Wisdom score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Wisdom score.</Pair>
-<Pair title="Ability">You gain the ability to cast divine spells which are drawn from the <Link to="/main/spells_cleric">cleric spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. Your alignment may restrict you from casting certain spells opposed to your moral or ethical beliefs; see <em>Chaotic, Evil, Good, and Lawful Spells.</em> You must choose and prepare your spells in advance.</Pair><Pair title="Special">You must choose a time when you must spend 1 hour each day in quiet meditation or supplication to regain your daily allotment of spells. You may prepare and cast any spell on your spell list, provided that you can cast spells of that level, but you must choose which spells to prepare.</Pair></Ability><Ability id="class-cleric-orisons" icon={["magic-swirl"]}>
-<Pair single id="class-cleric-orisons">Orisons</Pair>
+<Pair title="Ability">You gain the ability to cast divine spells which are drawn from the <Link to="/main/spells_cleric">cleric spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. Your alignment may restrict you from casting certain spells opposed to your moral or ethical beliefs; see <em>Chaotic, Evil, Good, and Lawful Spells.</em> You must choose and prepare your spells in advance.</Pair><Pair title="Special">You must choose a time when you must spend 1 hour each day in quiet meditation or supplication to regain your daily allotment of spells. You may prepare and cast any spell on your spell list, provided that you can cast spells of that level, but you must choose which spells to prepare.</Pair></Ability><Ability id="orisons" icon={["magic-swirl"]}>
+<Pair single id="orisons">Orisons</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of orisons, or 0-level divine spells. These spells are prepared like any other spell, but they are not expended when cast and may be used again. Orisons prepared using other spell slots, such as those due to metamagic feats, are expended normally.</Pair>
 </Ability>
-<Ability id="class-cleric-chaotic-evil-good-and-lawful-spells" icon={["magic-swirl"]}>
-<Pair single id="class-cleric-chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
+<Ability id="chaotic-evil-good-and-lawful-spells" icon={["magic-swirl"]}>
+<Pair single id="chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
 <Pair title="Passive Ability">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</Pair>
 </Ability>
-<Ability id="class-cleric-channel-energy-su" icon={["aura"]}>
-<Pair single id="class-cleric-channel-energy-su" flavor="Regardless of alignment, any cleric can release a wave of energy by channeling the power of her faith through her holy (or unholy) symbol. This energy can be used to cause or heal damage, depending on the type of energy channeled and the creatures targeted.">Channel Energy (Su)</Pair>
+<Ability id="channel-energy-su" icon={["aura"]}>
+<Pair single id="channel-energy-su" flavor="Regardless of alignment, any cleric can release a wave of energy by channeling the power of her faith through her holy (or unholy) symbol. This energy can be used to cause or heal damage, depending on the type of energy channeled and the creatures targeted.">Channel Energy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>
 <Pair title="Standard Action">You must present your holy symbol to channel energy. This causes a <Link to="/misc/burst">burst</Link> that affects all creatures of one type (either undead or living) in a 30-foot radius centered on you. This deals or heals (see below) 1d6 damage. You can choose whether or not to include yourself in this effect. Creatures that take damage from channeled energy receive a Will save to halve the damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your cleric level + your Charisma modifier.</Pair>
@@ -772,8 +772,8 @@ const _cleric = {hasJL:true,title: "Cleric", jsx: <><div className="jumpList" id
 <p>In addition, you gain the listed powers from both of your domains, if you are of a high enough level. Unless otherwise noted, using a domain power is a <strong className="hl">standard action</strong>.</p>
 </Pair>
 </Ability>
-<Ability id="class-cleric-spontaneous-casting" icon={["magic-swirl"]}>
-<Pair single id="class-cleric-spontaneous-casting" flavor="A good cleric (or a neutral cleric of a good deity) can channel stored spell energy into healing spells that she did not prepare ahead of time.">Spontaneous Casting:</Pair>
+<Ability id="spontaneous-casting" icon={["magic-swirl"]}>
+<Pair single id="spontaneous-casting" flavor="A good cleric (or a neutral cleric of a good deity) can channel stored spell energy into healing spells that she did not prepare ahead of time.">Spontaneous Casting:</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You can "lose" any prepared spell that is not an orison or domain spell in order to cast any <em>cure</em> spell of the same spell level or lower. This is only true if you channel positive energy. If you channel negative energy, you can convert spells to <em>inflict</em> spells.</Pair>
 <Pair title="Special">A <em>cure spell</em> is any spell with "cure" in its name, while an <em>inflict spell</em> is one with "inflict" in its name. These spells are <Link to="/main/spell_groupings">grouped here</Link>.</Pair>
@@ -830,7 +830,7 @@ const _cleric = {hasJL:true,title: "Cleric", jsx: <><div className="jumpList" id
 <h3 id="class-cleric-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"cleric archetypes","columns":[{"header":"Archetype","link":"arc-cleric"},{"header":"Alignment"},{"header":"Armor Proficiency"},{"header":"Aura"},{"header":"Base Attack Bonus"},{"header":"Bonus Languages"},{"header":"Channel Energy"},{"header":"5th-level Channel Energy increase"},{"header":"11th-level Channel Energy increase"},{"header":"19th-level Channel Energy increase"},{"header":"Class Skills"},{"header":"Deity"},{"header":"Domains"},{"header":"1st-level Domain Power"},{"header":"8th-level Domain Power"},{"header":"Skill Ranks"},{"header":"Spellcasting"},{"header":"4th-level spell slot"},{"header":"Spontaneous Casting"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Angelfire Apostle","angelfire_apostle"],"X","X",null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null],[["Appeaser","appeaser"],"X",null,"X",null,null,"X",null,null,null,null,null,"X",null,null,null,"X",null,null,null],[["Asmodean Advocate","asmodean_advocate"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Blossoming Light","blossoming_light"],"X","X",null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Cardinal","cardinal"],null,"X",null,"X",null,null,null,null,null,"X",null,"X",null,null,"X",null,null,"X",null],[["Channeler of the Unknown","channeler_of_the_unknown"],null,null,"X",null,null,"X",null,null,null,null,null,"X",null,null,null,"X",null,"X","X"],[["Cloistered Cleric","cloistered_cleric"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,"X"],[["Crashing Wave","crashing_wave"],null,null,null,null,"X","X",null,null,null,null,"X",null,null,null,null,null,null,"X",null],[["Crusader","crusader"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null],[["Demonic Apostle","demonic_apostle"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Divine Paragon","divine_paragon"],null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Divine Scourge","divine_scourge"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Divine Strategist","divine_strategist"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Ecclesitheurge","ecclesitheurge"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,"X"],[["Elder Mythos Cultist","elder_mythos_cultist"],"X",null,null,null,null,"X","X","X","X",null,null,"X",null,null,null,null,null,"X",null],[["Evangelist","evangelist"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,"X",null],[["Fiendish Vessel","fiendish_vessel"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Forgemaster","forgemaster"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Foundation of Faith","foundation_of_faith"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null],[["Herald Caller","herald_caller"],null,"X",null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null],[["Hidden Priest","hidden_priest"],null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null],[["Idealist","idealist"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null],[["Iron Priest","iron_priest"],null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,"X",null,null,null],[["Lawspeaker","lawspeaker"],"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Mendevian Priest","mendevian_priest"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Merciful Healer","merciful_healer"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Roaming Exorcist","roaming_exorcist"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,"X",null,null,null,"X"],[["Sacred Attendant","sacred_attendant"],null,"X",null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Scroll Scholar","scroll_scholar"],null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,"X",null,null],[["Separatist","separatist"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Stoic Caregiver","stoic_caregiver"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Theologian","theologian"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Triadic Priest","triadic_priest"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Undead Lord","undead_lord"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Varisian Pilgrim","varisian_pilgrim"],null,"X",null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-cleric-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="cleric" prefix="class-cleric-" />
+<RacialOptions cls="cleric" />
 </>};
 const _druid = {hasJL:true,title: "Druid", jsx: <><div className="jumpList" id="class-druid-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-druid-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-druid-spontaneous-casting">Spontaneous Casting</InnerLink></li><li><InnerLink toTop to="class-druid-chaotic-evil-good-and-lawful-spells">Aligned Spells</InnerLink></li><li><InnerLink toTop to="class-druid-bonus-languages">Bonus Languages</InnerLink></li><li><InnerLink toTop to="class-druid-nature-bond-ex">Nature Bond</InnerLink></li><li><InnerLink toTop to="class-druid-nature-sense-ex">Nature Sense</InnerLink></li><li><InnerLink toTop to="class-druid-wild-empathy-ex">Wild Empathy</InnerLink></li><li><InnerLink toTop to="class-druid-woodland-stride-ex">Woodland Stride</InnerLink></li><li><InnerLink toTop to="class-druid-trackless-step-ex">Trackless Step</InnerLink></li><li><InnerLink toTop to="class-druid-resist-natures-lure-ex">Resist Nature's Lure</InnerLink></li><li><InnerLink toTop to="class-druid-wild-shape-su">Wild Shape</InnerLink></li><li><InnerLink toTop to="class-druid-venom-immunity-ex">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-druid-ex-druids">Ex-Druids</InnerLink></li><li><InnerLink toTop to="class-druid-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-druid-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-druid-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-druid-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-druid-druid">Druid</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 48</Link></p>
@@ -1221,79 +1221,79 @@ const _druid = {hasJL:true,title: "Druid", jsx: <><div className="jumpList" id="
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={6}>Weapons</th><td><Link to="/eq-weapon/club">club</Link></td><td><Link to="/eq-weapon/dagger">dagger</Link></td></tr><tr><td><Link to="/eq-weapon/dart">dart</Link></td><td><Link to="/eq-weapon/quarterstaff">quarterstaff</Link></td></tr><tr><td><Link to="/eq-weapon/scimitar">scimitar</Link></td><td><Link to="/eq-weapon/scythe">scythe</Link></td></tr><tr><td><Link to="/eq-weapon/sickle">sickle</Link></td><td><Link to="/eq-weapon/shortspear">shortspear</Link></td></tr><tr><td><Link to="/eq-weapon/sling">sling</Link></td><td><Link to="/eq-weapon/spear">spear</Link></td></tr><tr><td colSpan={2}>All natural attacks (claw, bite, and so forth) of any form the druid assumes with wild shape</td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th>Shields?</th><td colSpan={2}>Yes, except tower shields</td></tr><tr><th>Armor</th><td colSpan={2}>Druids are prohibited from wearing metal armor or using metal shields, but is allowed to wear wooden armor that has been altered by the <Link to="/spell/ironwood">ironwood</Link> spell so that it functions as though it were steel.</td></tr><tr><td colSpan={3} className="sw se">A druid who wears prohibited armor or uses a prohibited shield is unable to cast druid spells or use any of her supernatural or spell-like class abilities while doing so and for 24 hours thereafter.</td></tr></tbody></table>
-<Ability id="class-druid-spells" icon={["magic-swirl"]}><Pair single id="class-druid-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To prepare or cast a spell, you must have a Wisdom score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Wisdom score.</Pair>
-<Pair title="Ability">You gain the ability to cast divine spells which are drawn from the <Link to="/main/spells_druid">druid spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. Your alignment may restrict you from casting certain spells opposed to your moral or ethical beliefs; see <em>Chaotic, Evil, Good, and Lawful Spells.</em> You must choose and prepare your spells in advance.</Pair><Pair title="Special">You must spend 1 hour each day in a trance-like meditation on the mysteries of nature to regain your daily allotment of spells. You may prepare and cast any spell on your spell list, provided that you can cast spells of that level, but you must choose which spells to prepare.</Pair></Ability><Ability id="class-druid-orisons" icon={["magic-swirl"]}>
-<Pair single id="class-druid-orisons">Orisons</Pair>
+<Pair title="Ability">You gain the ability to cast divine spells which are drawn from the <Link to="/main/spells_druid">druid spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. Your alignment may restrict you from casting certain spells opposed to your moral or ethical beliefs; see <em>Chaotic, Evil, Good, and Lawful Spells.</em> You must choose and prepare your spells in advance.</Pair><Pair title="Special">You must spend 1 hour each day in a trance-like meditation on the mysteries of nature to regain your daily allotment of spells. You may prepare and cast any spell on your spell list, provided that you can cast spells of that level, but you must choose which spells to prepare.</Pair></Ability><Ability id="orisons" icon={["magic-swirl"]}>
+<Pair single id="orisons">Orisons</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of orisons, or 0-level divine spells. These spells are prepared like any other spell, but they are not expended when cast and may be used again. Orisons prepared using other spell slots, such as those due to metamagic feats, are expended normally.</Pair>
 </Ability>
-<Ability id="class-druid-spontaneous-casting" icon={["magic-swirl"]}>
-<Pair single id="class-druid-spontaneous-casting" flavor="A druid can channel stored spell energy into summoning spells that she hasn't prepared ahead of time.">Spontaneous Casting</Pair>
+<Ability id="spontaneous-casting" icon={["magic-swirl"]}>
+<Pair single id="spontaneous-casting" flavor="A druid can channel stored spell energy into summoning spells that she hasn't prepared ahead of time.">Spontaneous Casting</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You can "lose" a prepared spell in order to cast any <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spell of the same level or lower.</Pair>
 </Ability>
-<Ability id="class-druid-chaotic-evil-good-and-lawful-spells" icon={["magic-swirl"]}>
-<Pair single id="class-druid-chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
+<Ability id="chaotic-evil-good-and-lawful-spells" icon={["magic-swirl"]}>
+<Pair single id="chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
 <Pair title="Passive Ability">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</Pair>
 </Ability>
-<Ability id="class-druid-bonus-languages" icon={["upgrade"]}>
-<Pair single id="class-druid-bonus-languages">Bonus Languages</Pair>
+<Ability id="bonus-languages" icon={["upgrade"]}>
+<Pair single id="bonus-languages">Bonus Languages</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Your bonus language options include Sylvan, the language of woodland creatures. This choice is in addition to the bonus languages available to you because of your race. You also know Druidic, a secret language known only to druids, which you learn upon becoming a 1st-level druid.</Pair>
 <Pair title="Special">Druidic is a free language; that is, you know it in addition to your regular allotment of languages and it doesn't take up a language slot. Druids are forbidden to teach this language to non-druids. Druidic has its own alphabet.</Pair>
 </Ability>
-<Ability id="class-druid-nature-bond-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="class-druid-nature-bond-ex">Nature Bond (Ex)</Pair>
+<Ability id="nature-bond-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="nature-bond-ex">Nature Bond (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice">You form a bond with nature. This bond can take one of three forms: domain, companion, or herbalism.</Pair>
 </Ability>
-<Ability id="class-druid-domain" extraClasses="subAbility numbered" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-druid-domain">Domain</Pair>
+<Ability id="domain" extraClasses="subAbility numbered" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="domain">Domain</Pair>
 <Pair title="Ability">You gain one of the following cleric domains: <Link to="/domain/air">Air</Link>, <Link to="/domain/animal">Animal</Link>, <Link to="/domain/earth">Earth</Link>, <Link to="/domain/fire">Fire</Link>, <Link to="/domain/plant">Plant</Link>, <Link to="/domain/water">Water</Link>, or <Link to="/domain/weather">Weather</Link>. Alternately, you can choose a <Link to="/ability/druid_domains">druid-specific domain</Link>. When determining the powers and bonus spells granted by this domain, your effective cleric level is equal to your druid level. A druid that selects this option also receives additional domain spell slots, just like a <Link to="/class/cleric">cleric</Link>. You must prepare the spell from your domain in this slot and this spell cannot be used to cast a spell spontaneously.</Pair>
 </Ability>
-<Ability id="class-druid-companion" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
-<Pair single id="class-druid-companion">Companion</Pair>
+<Ability id="companion" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Pair single id="companion">Companion</Pair>
 <Pair title="Ability">You may begin play with any of the animals listed in <Link to="/ability/druid_companions">Animal Companions</Link>, who becomes a loyal companion that accompanies you on your adventures. Unlike normal animals of its kind, an <Link to="/sidekick/animal_companion">animal companion's</Link> Hit Dice, abilities, skills, and feats advance as you advance in level.</Pair>
 <Pair title="Special">If you receive an animal companion from more than one source, your effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in size when their druid reaches 4th or 7th level, depending on the companion. If you release your companion from service, you may gain a new one by performing a ceremony requiring 24 uninterrupted hours of prayer in the environment where the new companion typically lives. This ceremony can also replace an animal companion that has perished.</Pair>
 </Ability>
-<Ability id="class-druid-herbalism" extraClasses="subAbility numbered" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-druid-herbalism">Herbalism</Pair>
+<Ability id="herbalism" extraClasses="subAbility numbered" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="herbalism">Herbalism</Pair>
 <Pair title="Info">You can use combinations of nuts, berries, dried herbs, and other natural ingredients along with appropriate containers to create herbal concoctions or magic consumables that function like potions. This acts like the <Link to="/feat/brew_potion">Brew Potion</Link> feat, but only for spells on the druid spell list. Herbal concoctions are typically thick and sludgy, and their creation time, caster level, spell duplication capabilities, and all other variables and properties are identical to those of potions created using Brew Potion. Herbal concoctions created with herbs that cause special effects when ingested retain those effects as well as the appropriate spell effect.</Pair>
 <Pair title="Usage">Wis modifier times/day</Pair>
 <Pair title="Ability">You can create a free herbal concoction. Additional concoctions cost the same as creating an equivalent potion using Brew Potion. You can sell your concoctions just as if they were potions (though NPCs unfamiliar with druidic herbalism may need some convincing before purchasing these wares).</Pair>
 <Pair title="At 4th Level">You can now make a concoction of any spell on any list that you can cast. Your additional concoctions take <Link to="/misc/half">half</Link> the time to make, at half the cost. You can also disguise the effects of a concoction. When a creature fails a Perception or Spellcraft check to identify one, the concoction appears to be a different herbal concoction of your choice. You must designate this false result when creating the concoction. If a creature exceeds the check's DC by 5 or more, it correctly identifies the concoction, though not that you tried to fool it.</Pair>
 <Pair title="At 7th Level">A creature must exceed the DC by 10 to correctly identify a disguised concoction. Also, you can create any herbal concoction in 1 minute. You can also create a special concoction of any spell higher than 3rd level that you can cast, but you must expend a spell slot of the same level. These special concoctions do not cost you anything to create and function like extracts created by an <Link to="/class/alchemist">alchemist</Link> with the <Link to="/discovery/infusion">infusion</Link> discovery.</Pair>
 </Ability>
-<Ability id="class-druid-nature-sense-ex" icon={["upgrade"]}>
-<Pair single id="class-druid-nature-sense-ex">Nature Sense (Ex)</Pair>
+<Ability id="nature-sense-ex" icon={["upgrade"]}>
+<Pair single id="nature-sense-ex">Nature Sense (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You gain a +2 bonus on Knowledge (nature) and Survival checks.</Pair>
 </Ability>
-<Ability id="class-druid-wild-empathy-ex" icon={["upgrade"]}>
-<Pair single id="class-druid-wild-empathy-ex" flavor="A druid can improve the attitude of an animal.">Wild Empathy (Ex)</Pair>
+<Ability id="wild-empathy-ex" icon={["upgrade"]}>
+<Pair single id="wild-empathy-ex" flavor="A druid can improve the attitude of an animal.">Wild Empathy (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">This ability functions just like a <Link to="/skill/diplomacy">Diplomacy</Link> check made to improve the attitude of a person. You roll 1d20 and add your druid level and your Charisma modifier to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly. You can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but you take a -4 penalty on the check.</Pair>
 <Pair title="Special">To use wild empathy, you and the animal must be within 30 feet of one another under normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with influencing people, it might take more or less time.</Pair>
 </Ability>
-<Ability id="class-druid-woodland-stride-ex" icon={["upgrade"]}>
-<Pair single id="class-druid-woodland-stride-ex">Woodland Stride (Ex)</Pair>
+<Ability id="woodland-stride-ex" icon={["upgrade"]}>
+<Pair single id="woodland-stride-ex">Woodland Stride (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect you.</Pair>
 </Ability>
-<Ability id="class-druid-trackless-step-ex" icon={["upgrade"]}>
-<Pair single id="class-druid-trackless-step-ex">Trackless Step (Ex)</Pair>
+<Ability id="trackless-step-ex" icon={["upgrade"]}>
+<Pair single id="trackless-step-ex">Trackless Step (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You leave no trail in natural surroundings and cannot be tracked. You may choose to leave a trail if so desired.</Pair>
 </Ability>
-<Ability id="class-druid-resist-natures-lure-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-druid-resist-natures-lure-ex">Resist Nature's Lure (Ex)</Pair>
+<Ability id="resist-natures-lure-ex" icon={["armor-upgrade"]}>
+<Pair single id="resist-natures-lure-ex">Resist Nature's Lure (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You gain a +4 bonus on saving throws against the spell-like and supernatural abilities of fey. This bonus also applies to spells and effects that utilize or target plants, such as <Link to="/spell/blight">blight</Link>, <Link to="/spell/entangle">entangle</Link>, <Link to="/spell/spike_growth">spike growth</Link>, and <Link to="/spell/warp_wood">warp wood</Link>.</Pair>
 </Ability>
-<Ability id="class-druid-wild-shape-su" icon={["stairs-goal"]}>
-<Pair single id="class-druid-wild-shape-su">Wild Shape (Su)</Pair>
+<Ability id="wild-shape-su" icon={["stairs-goal"]}>
+<Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Standard Action">You gain the ability to turn yourself into any Small or Medium animal and back again. Your options for new forms include all creatures with the <Link to="/main/monsters_animals">animal</Link> type. This ability functions like the <Link to="/spell/beast_shape_i">beast shape I</Link> spell, except as noted here. The effect lasts for 1 hour per druid level, or until you change back. The form chosen must be that of an animal with which you are familiar.</Pair>
@@ -1308,18 +1308,18 @@ const _druid = {hasJL:true,title: "Druid", jsx: <><div className="jumpList" id="
 <Pair title="At 20th Level">You can <em>wild shape</em> at will.</Pair>
 <Pair title="Special">You lose your ability to speak while in animal form because you are limited to the sounds that a normal, untrained animal can make, but you can communicate normally with other animals of the same general grouping as your new form. (The normal sound a wild parrot makes is a squawk, so changing to this form does not permit speech.)</Pair>
 </Ability>
-<Ability id="class-druid-venom-immunity-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-druid-venom-immunity-ex">Venom Immunity (Ex)</Pair>
+<Ability id="venom-immunity-ex" icon={["armor-upgrade"]}>
+<Pair single id="venom-immunity-ex">Venom Immunity (Ex)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">You have immunity to all poisons.</Pair>
 </Ability>
-<Ability id="class-druid-a-thousand-faces-su" icon={["stairs-goal"]}>
-<Pair single id="class-druid-a-thousand-faces-su">A Thousand Faces (Su)</Pair>
+<Ability id="a-thousand-faces-su" icon={["stairs-goal"]}>
+<Pair single id="a-thousand-faces-su">A Thousand Faces (Su)</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Standard Action">You can change your appearance at will, as if using the <Link to="/spell/alter_self">alter self</Link> spell, but only while in your normal form.</Pair>
 </Ability>
-<Ability id="class-druid-timeless-body-ex" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="class-druid-timeless-body-ex">Timeless Body (Ex)</Pair>
+<Ability id="timeless-body-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="timeless-body-ex">Timeless Body (Ex)</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Passive Ability">You no longer take ability score penalties for aging and cannot be magically <Link to="/rule/age">aged</Link>. Any penalties you may have already incurred, however, remain in place. Bonuses still accrue, and you still die of old age when your time is up.</Pair>
 </Ability>
@@ -1415,7 +1415,7 @@ const _druid = {hasJL:true,title: "Druid", jsx: <><div className="jumpList" id="
 <h3 id="class-druid-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"druid archetypes","columns":[{"header":"Archetype","link":"arc-druid"},{"header":"A Thousand Faces"},{"header":"Alignment"},{"header":"Armor Proficiency"},{"header":"Base Attack Bonus"},{"header":"Bonus Languages"},{"header":"Class Skills"},{"header":"Deity"},{"header":"Domains"},{"header":"Nature Bond"},{"header":"Nature Sense"},{"header":"Resist Nature's Lure"},{"header":"Skill Ranks"},{"header":"Spellcasting"},{"header":"Spontaneous Casting"},{"header":"Timeless Body"},{"header":"Trackless Step"},{"header":"Venom Immunity"},{"header":"Weapon Proficiency"},{"header":"Weapon/Armor Proficiency"},{"header":"Wild Empathy"},{"header":"Wild Shape"},{"header":"6th-level Wild Shape"},{"header":"8th-level Wild Shape"},{"header":"10th-level Wild Shape"},{"header":"12th-level Wild Shape"},{"header":"Woodland Stride"}],"data":[[["Aerie Protector","aerie_protector"],null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,"X",null,"X","X","X",null,null,null,null,"X"],[["Ancient Guardian","ancient_guardian"],"X",null,null,null,null,null,null,null,"X",null,"X",null,null,"X",null,"X",null,"X",null,"X",null,null,null,null,null,"X"],[["Ape Shaman","ape_shaman"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Aquatic Druid","aquatic_druid"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,null,null,null,null,null,null,"X"],[["Arctic Druid","arctic_druid"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,null,null,null,null,null,null,"X"],[["Ashvawg Tamer","ashvawg_tamer"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null],[["Bat Shaman","bat_shaman"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Bear Shaman","bear_shaman"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Blight Druid","blight_druid"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,"X",null,null,null,null,null,null],[["Boar Shaman","boar_shaman"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Cave Druid","cave_druid"],null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X"],[["Death Druid","death_druid"],null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null],[["Defender of the True World","defender_of_the_true_world"],"X",null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,"X","X",null,null,"X",null,null,null,null,null,null],[["Desert Druid","desert_druid"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,null,null,null,null,null,null,"X"],[["Devolutionist","devolutionist"],null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Dinosaur Druid","dinosaur_druid"],null,null,null,null,null,null,null,null,"X",null,"X",null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null],[["Draconic Druid","draconic_druid"],"X",null,null,null,null,null,null,null,"X","X","X",null,null,null,"X",null,"X",null,null,"X",null,null,null,null,null,"X"],[["Dragon Shaman","dragon_shaman"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null],[["Drovier","drovier"],null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null],[["Eagle Shaman","eagle_shaman"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Elemental Ally","elemental_ally"],null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null],[["Feral Child","feral_child"],"X",null,null,null,null,"X",null,null,"X",null,"X",null,null,null,"X","X","X",null,"X",null,"X",null,null,null,null,null],[["Feral Shifter","feral_shifter"],"X",null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null],[["Feyspeaker","feyspeaker"],null,null,"X","X",null,"X",null,null,null,"X",null,"X",null,"X",null,null,null,null,null,null,"X",null,null,null,null,null],[["Fungal Pilgrim","fungal_pilgrim"],null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null],[["Goliath Druid","goliath_druid"],"X",null,null,null,null,"X",null,null,"X","X","X",null,null,null,null,null,"X",null,null,"X","X",null,null,null,null,null],[["Green Faith Initiate","green_faith_initiate"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,"X",null,"X",null,null],[["Green Scourge","green_scourge"],null,null,null,null,null,null,null,null,null,"X","X",null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null],[["Halcyon Druid","halcyon_druid"],"X",null,null,null,null,"X",null,null,"X","X","X",null,null,"X",null,null,null,null,null,"X","X",null,null,null,null,null],[["Jungle Druid","jungle_druid"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X"],[["Kraken Caller","kraken_caller"],"X",null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,"X"],[["Leshy Warden","leshy_warden"],"X",null,null,null,null,null,null,null,"X",null,"X",null,null,"X",null,null,null,null,null,"X","X",null,null,null,null,null],[["Life Channeler","life_channeler"],null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null],[["Lion Shaman","lion_shaman"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Mantella","mantella"],null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,"X",null,null,null,null,null],[["Menhir Savant","menhir_savant"],"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,"X"],[["Mooncaller","mooncaller"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X"],[["Mountain Druid","mountain_druid"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,null,null,null,null,null,null,"X"],[["Naga Aspirant","naga_aspirant"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,"X","X",null,"X",null,null,null,"X",null,null,null,null,null],[["Nature Fang","nature_fang"],null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,"X",null,null,"X","X",null,null,null,null,"X"],[["Nature Priest","nature_priest"],null,null,null,null,null,"X","X",null,"X","X","X",null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null],[["Nithveil Adept","nithveil_adept"],null,null,null,null,null,null,null,null,"X","X","X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null],[["Pack Lord","pack_lord"],null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Plains Druid","plains_druid"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,null,null,null,null,null,null,"X"],[["Planar Extremist","planar_extremist"],null,"X",null,null,null,null,null,null,"X",null,"X",null,"X","X",null,null,null,null,null,null,"X",null,null,null,null,null],[["Progenitor","progenitor"],null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null],[["Reincarnated Druid","reincarnated_druid"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,"X"],[["Restorer","restorer"],"X",null,null,null,null,null,null,null,null,"X","X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null],[["River Druid","river_druid"],null,null,null,null,null,"X",null,null,null,"X","X",null,null,null,"X","X",null,null,null,null,"X",null,null,null,null,"X"],[["Road Keeper","road_keeper"],null,null,null,null,null,null,null,null,"X",null,"X",null,null,"X",null,null,null,null,null,"X","X",null,null,null,null,"X"],[["Rot Warden","rot_warden"],null,null,null,null,null,null,null,null,"X",null,"X",null,null,"X",null,"X","X",null,null,"X","X",null,null,null,null,null],[["Saurian Shaman","saurian_shaman"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Season Keeper","season_keeper"],null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X","X","X",null,null,null,"X",null,null,null,null,null],[["Season Sage","season_sage"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null],[["Serpent Shaman","serpent_shaman"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Shark Shaman","shark_shaman"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Skinshaper","skinshaper"],"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null],[["Sky Druid","sky_druid"],"X",null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,"X","X",null,"X",null,"X",null,null,null,null,"X"],[["Storm Druid","storm_druid"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,"X"],[["Sunrider","sunrider"],null,null,null,null,null,"X",null,null,"X",null,"X",null,null,null,null,"X",null,null,"X",null,"X",null,null,null,null,"X"],[["Supernaturalist","supernaturalist"],null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,"X",null,null,"X","X","X",null,null,null,null,null],[["Survivor","survivor"],null,null,null,null,null,"X",null,null,"X",null,"X",null,"X",null,null,null,"X",null,"X",null,"X",null,null,null,null,null],[["Swamp Druid","swamp_druid"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X"],[["Swarm Monger","swarm_monger"],null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X"],[["Tempest Druid","tempest_druid"],null,"X",null,null,null,null,null,null,"X","X","X",null,null,null,null,"X","X",null,"X",null,null,null,null,null,null,null],[["Tempest Tamer","tempest_tamer"],null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null],[["Toxicologist","toxicologist"],null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,"X",null,null,null,"X","X",null,null,null,null,"X"],[["Treesinger","treesinger"],null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null],[["Troll Fury","troll_fury"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null],[["Undine Adept","undine_adept"],null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,"X","X",null,null,null,"X",null,null,null,null,"X"],[["Urban Druid","urban_druid"],null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,"X"],[["Urushiol","urushiol"],null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Wild Whisperer","wild_whisperer"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,"X"],[["Wolf Shaman","wolf_shaman"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["World Walker","world_walker"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-druid-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="druid" prefix="class-druid-" />
+<RacialOptions cls="druid" />
 </>};
 const _monk = {hasJL:true,title: "Monk", jsx: <><div className="jumpList" id="class-monk-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-monk-ac-bonus-ex">AC Bonus</InnerLink></li><li><InnerLink toTop to="class-monk-flurry-of-blows-ex">Flurry of Blows</InnerLink></li><li><InnerLink toTop to="class-monk-unarmed-strike">Unarmed Strike</InnerLink></li><li><InnerLink toTop to="class-monk-vows">Vows</InnerLink></li><li><InnerLink toTop to="class-monk-bonus-feat">Bonus Feat</InnerLink></li><li><InnerLink toTop to="class-monk-stunning-fist-ex">Stunning Fist</InnerLink></li><li><InnerLink toTop to="class-monk-evasion-ex">Evasion</InnerLink></li><li><InnerLink toTop to="class-monk-fast-movement-ex">Third-Level Abilities</InnerLink></li><li><InnerLink toTop to="class-monk-ki-pool-su">Ki Pool</InnerLink></li><li><InnerLink toTop to="class-monk-slow-fall-ex">Slow Fall</InnerLink></li><li><InnerLink toTop to="class-monk-high-jump-ex">Fifth-to-Tenth-Level Abilities</InnerLink></li><li><InnerLink toTop to="class-monk-diamond-body-su">Eleventh-to-Fourteenth-Level Abilities</InnerLink></li><li><InnerLink toTop to="class-monk-quivering-palm-su">Higher-Level Abilities</InnerLink></li><li><InnerLink toTop to="class-monk-ex-monks">Ex-Monks</InnerLink></li><li><InnerLink toTop to="class-monk-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-monk-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-monk-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-monk-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-monk-monk">Monk</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 56</Link></p>
@@ -1680,8 +1680,8 @@ const _monk = {hasJL:true,title: "Monk", jsx: <><div className="jumpList" id="cl
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={9}>Weapons</th><td><Link to="/eq-weapon/club">club</Link></td><td><Link to="/eq-weapon/dagger">dagger</Link></td></tr><tr><td><Link to="/eq-weapon/light_crossbow">light crossbow</Link></td><td><Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link></td></tr><tr><td><Link to="/eq-weapon/handaxe">handaxe</Link></td><td><Link to="/eq-weapon/javelin">javelin</Link></td></tr><tr><td><Link to="/eq-weapon/kama">kama</Link></td><td><Link to="/eq-weapon/nunchaku">nunchaku</Link></td></tr><tr><td><Link to="/eq-weapon/quarterstaff">quarterstaff</Link></td><td><Link to="/eq-weapon/sai">sai</Link></td></tr><tr><td><Link to="/eq-weapon/short_sword">short sword</Link></td><td><Link to="/eq-weapon/shortspear">shortspear</Link></td></tr><tr><td><Link to="/eq-weapon/shuriken">shuriken</Link></td><td><Link to="/eq-weapon/siangham">siangham</Link></td></tr><tr><td><Link to="/eq-weapon/sling">sling</Link></td><td><Link to="/eq-weapon/spear">spear</Link></td></tr><tr><td colSpan={2}>Any weapon with the <Link to="/misc/monk">monk</Link> special weapon quality.</td></tr><tr><th>Armor?</th><td colSpan={2}>No</td></tr><tr><th>Shields?</th><td colSpan={2}>No</td></tr><tr><td colSpan={3} className="sw se">Wearing armor or using a shield can stifle some of your abilities.</td></tr></tbody></table>
-<Ability id="class-monk-ac-bonus-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-monk-ac-bonus-ex">AC Bonus (Ex)</Pair>
+<Ability id="ac-bonus-ex" icon={["armor-upgrade"]}>
+<Pair single id="ac-bonus-ex">AC Bonus (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You add your Wisdom bonus (if any) to your AC and your CMD. These bonuses to AC apply even against touch attacks or when you are <Link to="/rule/flat_footed">flat-footed</Link>.</Pair>
 <Pair title="At 4th Level">You gain an additional bonus to your AC and CMD equal to <Link to="/misc/one_fourth">one-fourth</Link> of your monk level.</Pair>
@@ -1712,8 +1712,8 @@ const _monk = {hasJL:true,title: "Monk", jsx: <><div className="jumpList" id="cl
 </Ability>
 <aside><p><strong className="hl" id="class-monk-vows" data-hash-target>Vows:</strong> A monk can discipline his body to by upholding the strict tenets of a vow. By adhering to his <Link to="/ability/vows">vow's</Link> tenets, the monk's ki pool increases by the amount listed in the vow's description. Every vow comes with a penalty or limitation to offset this increase in ki. A monk can take a vow at any level, and can even take multiple vows over his career, but each vow does not add to his ki pool until he gains a ki pool as a class feature (usually at 4th level).</p>
 <p>A monk who takes a vow never gains the <em>still mind</em> class feature, even if he later abandons all his vows.</p>
-</aside><Ability id="class-monk-bonus-feat" icon={["stairs-goal"]}>
-<Pair single id="class-monk-bonus-feat">Bonus Feat</Pair>
+</aside><Ability id="bonus-feat" icon={["stairs-goal"]}>
+<Pair single id="bonus-feat">Bonus Feat</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain a bonus feat from the following list: <Link to="/feat/catch_off_guard">Catch Off-Guard</Link>, <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/deflect_arrows">Deflect Arrows</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_grapple">Improved Grapple</Link>, <Link to="/feat/ki_diversity">Ki Diversity</Link>, <Link to="/feat/scorpion_style">Scorpion Style</Link>, <Link to="/feat/throw_anything">Throw Anything</Link>, and <Link to="/feat/wings_of_the_androsphinx">Wings of the Androsphinx</Link>. You need not have any of the prerequisites normally required for these feats to select them.</Pair>
 <Pair title="At 2nd Level">You gain another bonus feat from the list.</Pair>
@@ -1723,8 +1723,8 @@ const _monk = {hasJL:true,title: "Monk", jsx: <><div className="jumpList" id="cl
 <Pair title="At 18th Level">You gain another bonus feat from the list.</Pair>
 </Ability>
 <aside><p>A monk may also choose a <Link to="/main/feats_meditation">meditation feat</Link> in place of a bonus feat, but he must meet their prerequisites.</p>
-</aside><Ability id="class-monk-stunning-fist-ex" icon={["mailed-fist"]}>
-<Pair single id="class-monk-stunning-fist-ex">Stunning Fist (Ex)</Pair>
+</aside><Ability id="stunning-fist-ex" icon={["mailed-fist"]}>
+<Pair single id="stunning-fist-ex">Stunning Fist (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/stunning_fist">Stunning Fist</Link> as a bonus feat, even if you don't meet the prerequisites.</Pair>
 <Pair title="At 4th Level">You gain the ability to apply <Link to="/misc/fatigue">fatigue</Link> to the target of your Stunning Fist. This condition replaces stunning the target for 1 round, and a successful saving throw still negates the effect.</Pair>
@@ -1734,14 +1734,14 @@ const _monk = {hasJL:true,title: "Monk", jsx: <><div className="jumpList" id="cl
 <Pair title="At 20th Level">You can <Link to="/rule/paralyze">paralyze</Link> the target for 1d6+1 rounds.</Pair>
 <Pair title="Special">You must choose which condition will apply before the attack roll is made. These effects do not stack with themselves (a creature fatigued by Stunning Fist cannot become <Link to="/misc/exhausted">exhausted</Link> if hit by Stunning Fist again), but additional hits do increase the duration.</Pair>
 </Ability>
-<Ability id="class-monk-evasion-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-monk-evasion-ex">Evasion (Ex)</Pair>
+<Ability id="evasion-ex" icon={["armor-upgrade"]}>
+<Pair single id="evasion-ex">Evasion (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">If you make a successful Reflex saving throw against an attack that normally deals half damage on a successful save, you instead takes no damage.</Pair>
 <Pair title="Special">This only applies if you are wearing light armor or no armor, and are not <Link to="/misc/helpless">helpless</Link></Pair>
 </Ability>
-<Ability id="class-monk-fast-movement-ex" icon={["upgrade"]}>
-<Pair single id="class-monk-fast-movement-ex">Fast Movement (Ex)</Pair>
+<Ability id="fast-movement-ex" icon={["upgrade"]}>
+<Pair single id="fast-movement-ex">Fast Movement (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain an enhancement bonus of +10 ft. to your land speed.</Pair>
 <Pair title="At 6th Level">The bonus becomes +20 ft.</Pair>
@@ -1751,18 +1751,18 @@ const _monk = {hasJL:true,title: "Monk", jsx: <><div className="jumpList" id="cl
 <Pair title="At 18th Level">The bonus becomes +60 ft.</Pair>
 <Pair title="Special">If you wear armor or carry a medium or heavy load, you lose this extra speed.</Pair>
 </Ability>
-<Ability id="class-monk-maneuver-training-ex" icon={["mailed-fist"]}>
-<Pair single id="class-monk-maneuver-training-ex">Maneuver Training (Ex)</Pair>
+<Ability id="maneuver-training-ex" icon={["mailed-fist"]}>
+<Pair single id="maneuver-training-ex">Maneuver Training (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You use your monk level in place of your base attack bonus when calculating your Combat Maneuver Bonus. Base attack bonuses granted from other classes are unaffected and are added normally.</Pair>
 </Ability>
-<Ability id="class-monk-still-mind-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-monk-still-mind-ex">Still Mind (Ex)</Pair>
+<Ability id="still-mind-ex" icon={["armor-upgrade"]}>
+<Pair single id="still-mind-ex">Still Mind (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain a +2 bonus on saving throws against enchantment spells and effects.</Pair>
 </Ability>
-<Ability id="class-monk-ki-pool-su" icon={["magic-swirl","mailed-fist"]}>
-<Pair single id="class-monk-ki-pool-su" flavor="A monk gains supernatural energy he can use to accomplish amazing feats.">Ki Pool (Su)</Pair>
+<Ability id="ki-pool-su" icon={["magic-swirl","mailed-fist"]}>
+<Pair single id="ki-pool-su" flavor="A monk gains supernatural energy he can use to accomplish amazing feats.">Ki Pool (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You gain a pool of ki points. The number of points in your ki pool is equal to 1/2 your monk level + your Wisdom modifier.</Pair>
 <Pair title="Swift Action">By spending 1 point from your ki pool, you can make one additional unarmed strike at your highest attack bonus when making a flurry of blows attack. In addition, you can spend 1 point to increase your speed by 20 feet for 1 round. Finally, your can spend 1 point from your <em>ki</em> pool to give yourself a +4 dodge bonus to AC for 1 round.</Pair>
@@ -1772,74 +1772,74 @@ const _monk = {hasJL:true,title: "Monk", jsx: <><div className="jumpList" id="cl
 <Pair title="At 16th Level">Your <em>ki strikes</em> are treated as <Link to="/eq-material/adamantine">adamantine</Link> weapons for the purpose of overcoming damage reduction and bypassing <Link to="/rule/hardness">hardness</Link>.</Pair>
 <Pair title="Special">You gain additional powers that consume points from your ki pool as you gain levels. The ki pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.</Pair>
 </Ability>
-<Ability id="class-monk-slow-fall-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-monk-slow-fall-ex">Slow Fall (Ex)</Pair>
+<Ability id="slow-fall-ex" icon={["armor-upgrade"]}>
+<Pair single id="slow-fall-ex">Slow Fall (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">If it within arm's reach, you can use a wall to slow your descent, taking damage as if your fall was shorter. When determining damage from a fall, you treat take your fall distance and subtract a number of feet equal to 10 &times; half your monk level. (For example, at 4th level, a 30 ft. fall is treated as a 10 ft. fall.)</Pair>
 <Pair title="At 20th Level">You can use a nearby wall to slow your descent and fall any distance without harm.</Pair>
 </Ability>
-<Ability id="class-monk-high-jump-ex" icon={["upgrade"]}>
-<Pair single id="class-monk-high-jump-ex">High Jump (Ex)</Pair>
+<Ability id="high-jump-ex" icon={["upgrade"]}>
+<Pair single id="high-jump-ex">High Jump (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">You add your level to all Acrobatics checks made to jump, both for vertical jumps and horizontal jumps. In addition, you always count as having a running start when making jump checks using Acrobatics.</Pair>
 <Pair title="Swift Action">By spending 1 point from your <em>ki</em> pool, you gain a +20 bonus on Acrobatics checks made to jump for 1 round.</Pair>
 </Ability>
-<Ability id="class-monk-purity-of-body-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-monk-purity-of-body-ex">Purity of Body (Ex)</Pair>
+<Ability id="purity-of-body-ex" icon={["armor-upgrade"]}>
+<Pair single id="purity-of-body-ex">Purity of Body (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">You gain immunity to all diseases, including supernatural and magical diseases.</Pair>
 </Ability>
-<Ability id="class-monk-wholeness-of-body-su" icon={["upgrade"]}>
-<Pair single id="class-monk-wholeness-of-body-su">Wholeness of Body (Su)</Pair>
+<Ability id="wholeness-of-body-su" icon={["upgrade"]}>
+<Pair single id="wholeness-of-body-su">Wholeness of Body (Su)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Standard Action">You can heal a number of hit points of damage equal to your monk level by using 2 points from your ki pool.</Pair>
 </Ability>
-<Ability id="class-monk-improved-evasion-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-monk-improved-evasion-ex">Improved Evasion (Ex)</Pair>
+<Ability id="improved-evasion-ex" icon={["armor-upgrade"]}>
+<Pair single id="improved-evasion-ex">Improved Evasion (Ex)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">Your evasion ability improves. As long as you are not helpless, you still take no damage on a successful Reflex saving throw against attacks, but you take only half damage on a failed save.</Pair>
 </Ability>
-<Ability id="class-monk-diamond-body-su" icon={["armor-upgrade"]}>
-<Pair single id="class-monk-diamond-body-su">Diamond Body (Su)</Pair>
+<Ability id="diamond-body-su" icon={["armor-upgrade"]}>
+<Pair single id="diamond-body-su">Diamond Body (Su)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">You are immune to poisons of all kinds.</Pair>
 </Ability>
-<Ability id="class-monk-abundant-step-su" icon={["magic-swirl"]}>
-<Pair single id="class-monk-abundant-step-su">Abundant Step (Su)</Pair>
+<Ability id="abundant-step-su" icon={["magic-swirl"]}>
+<Pair single id="abundant-step-su">Abundant Step (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Move-Equivalent Action">You can slip magically between spaces, as if using the spell <Link to="/spell/dimension_door">dimension door</Link>. Using this ability consumes 2 points from your <em>ki</em> pool. Your caster level for this effect is equal to your monk level. You cannot take other creatures with you when you use this ability.</Pair>
 </Ability>
-<Ability id="class-monk-diamond-soul-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-monk-diamond-soul-ex">Diamond Soul (Ex)</Pair>
+<Ability id="diamond-soul-ex" icon={["armor-upgrade"]}>
+<Pair single id="diamond-soul-ex">Diamond Soul (Ex)</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Passive Ability">You gain <Link to="/rule/spell_resistance">spell resistance</Link> equal to your monk level + 10.</Pair>
 </Ability>
-<Ability id="class-monk-quivering-palm-su" icon={["mailed-fist","magic-swirl"]}>
-<Pair single id="class-monk-quivering-palm-su" flavor="A monk can set up vibrations within the body of another creature that can thereafter be fatal.">Quivering Palm (Su)</Pair>
+<Ability id="quivering-palm-su" icon={["mailed-fist","magic-swirl"]}>
+<Pair single id="quivering-palm-su" flavor="A monk can set up vibrations within the body of another creature that can thereafter be fatal.">Quivering Palm (Su)</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Ability">You must announce your intent before making your attack roll. Creatures immune to critical hits cannot be affected. Otherwise, if you strike successfully and the target takes damage from the blow, the quivering palm attack succeeds. Thereafter, you can try to slay the victim at any later time, as long as the attempt is made within a number of days equal to your monk level.</Pair>
 <Pair title="Free Action">You can merely will the target to die, and unless the target makes a Fortitude saving throw (DC 10 + 1/2 your monk level + your Wis modifier), it dies.</Pair>
 <Pair title="Special">If the saving throw is successful, the target is no longer in danger from that particular quivering palm attack, but it may still be affected by another one at a later time. You can have no more than 1 quivering palm in effect at one time. If you use quivering palm while another is still in effect, the previous effect is negated.</Pair>
 </Ability>
-<Ability id="class-monk-timeless-body-ex" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="class-monk-timeless-body-ex">Timeless Body (Ex)</Pair>
+<Ability id="timeless-body-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="timeless-body-ex">Timeless Body (Ex)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">You no longer take penalties to your ability scores for aging and cannot be magically <Link to="/rule/age">aged</Link>. Any such penalties that you have already taken, however, remain in place.</Pair>
 <Pair title="Special">Age bonuses still accrue, and you still die of old age when your time is up.</Pair>
 </Ability>
-<Ability id="class-monk-tongue-of-the-sun-and-moon-ex" icon={["stairs-goal"]}>
-<Pair single id="class-monk-tongue-of-the-sun-and-moon-ex">Tongue of the Sun and Moon (Ex)</Pair>
+<Ability id="tongue-of-the-sun-and-moon-ex" icon={["stairs-goal"]}>
+<Pair single id="tongue-of-the-sun-and-moon-ex">Tongue of the Sun and Moon (Ex)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">You can speak with any living creature.</Pair>
 </Ability>
-<Ability id="class-monk-empty-body-su" icon={["magic-swirl"]}>
-<Pair single id="class-monk-empty-body-su">Empty Body (Su)</Pair>
+<Ability id="empty-body-su" icon={["magic-swirl"]}>
+<Pair single id="empty-body-su">Empty Body (Su)</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Move-Equivalent Action">You gain the ability to assume an ethereal state for 1 minute as though using the spell <Link to="/spell/etherealness">etherealness</Link>. Using this ability consumes 3 points from your <em>ki</em> pool. This ability only affects you and cannot be used to make other creatures ethereal.</Pair>
 </Ability>
-<Ability id="class-monk-perfect-self" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="class-monk-perfect-self" flavor="A monk becomes a magical creature.">Perfect Self</Pair>
+<Ability id="perfect-self" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="perfect-self" flavor="A monk becomes a magical creature.">Perfect Self</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">You are forevermore treated as an <Link to="/type/outsider">outsider</Link> rather than as a humanoid (or whatever your creature type was) for the purpose of spells and magical effects. Additionally, you gain DR 10/chaotic. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type.</Pair>
 </Ability>
@@ -1917,6 +1917,6 @@ const _monk = {hasJL:true,title: "Monk", jsx: <><div className="jumpList" id="cl
 <h3 id="class-monk-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"monk archetypes","columns":[{"header":"Archetype","link":"arc-monk"},{"header":"Abundant Step"},{"header":"Alignment"},{"header":"Bonus Feats"},{"header":"1st-level Bonus Feat"},{"header":"2nd-level Bonus Feat"},{"header":"6th-level Bonus Feat"},{"header":"10th-level Bonus Feat"},{"header":"12th-level Bonus Feat"},{"header":"14th-level Bonus Feat"},{"header":"18th-level Bonus Feat"},{"header":"Class Skills"},{"header":"Diamond Body"},{"header":"Diamond Soul"},{"header":"Empty Body"},{"header":"Evasion"},{"header":"Improved Evasion"},{"header":"Fast Movement"},{"header":"Flurry of Blows"},{"header":"High Jump"},{"header":"Key Ability Score"},{"header":"Ki Pool"},{"header":"Maneuver Training"},{"header":"Monk's AC"},{"header":"Perfect Self"},{"header":"Purity of Body"},{"header":"Quivering Palm"},{"header":"Slow Fall"},{"header":"Still Mind"},{"header":"Stunning Fist"},{"header":"Timeless Body"},{"header":"Tongue of the Sun and Moon"},{"header":"Unarmed Strike"},{"header":"Weapon Proficiency"},{"header":"Weapon/Armor Proficiency"},{"header":"Wholeness of Body"}],"data":[[["Black Asp","black_asp"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null],[["Brazen Disciple","brazen_disciple"],"X",null,null,"X",null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null],[["Disciple of Wholeness","disciple_of_wholeness"],null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Drunken Master","drunken_master"],null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,null],[["Elemental Monk","elemental_monk"],null,"X","X",null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,"X",null,null,null,"X",null,null,null,"X",null,null,null,null,null,null],[["Far Strike Monk","far_strike_monk"],null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,"X","X",null,null,null,null,"X",null],[["Flowing Monk","flowing_monk"],null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,"X","X",null,null,"X",null,null,null,null,null,null],[["Gray Disciple","gray_disciple"],"X",null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,"X","X","X",null,null,"X",null,null,null,"X"],[["Hamatulatsu Master","hamatulatsu_master"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,"X",null,null,null,null,null,null],[["Harrow Warden","harrow_warden"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,"X",null],[["Hellcat","hellcat"],null,"X","X",null,null,null,null,null,null,null,"X","X",null,null,"X","X","X",null,null,null,"X",null,null,null,"X",null,"X","X","X",null,null,null,"X",null,"X"],[["Hungry Ghost Monk","hungry_ghost_monk"],null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,"X"],[["Invested Regent","invested_regent"],null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Ironskin Monk","ironskin_monk"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,"X",null,"X",null,"X","X",null,null,"X",null,null,null,"X",null,null,null,null],[["Karmic Monk","karmic_monk"],null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,"X",null,null,"X",null,null,"X","X","X",null,null,null,null,null,null],[["Kata Master","kata_master"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,"X","X",null,null,null,null,null,"X"],[["Ki Mystic","ki_mystic"],null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,null],[["Lifting Hand","lifting_hand"],"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Maneuver Master","maneuver_master"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,"X","X","X","X",null,null,null,null,null,null,null],[["Martial Artist","martial_artist"],"X",null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null,"X",null,null,"X","X",null,"X","X",null,"X","X",null,null,null,"X"],[["Master of Many Styles","master_of_many_styles"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null],[["Menhir Guardian","menhir_guardian"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,"X",null,null,null,null,"X",null,null,"X",null,null,"X",null,"X",null],[["Monk of the Empty Hand","monk_of_the_empty_hand"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,"X",null,null],[["Monk of the Four Winds","monk_of_the_four_winds"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,null,null,null],[["Monk of the Healing Hand","monk_of_the_healing_hand"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,"X"],[["Monk of the Lotus","monk_of_the_lotus"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,"X",null,null,null,null],[["Monk of the Mantis","monk_of_the_mantis"],null,null,null,null,"X","X","X",null,"X","X",null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X"],[["Monk of the Sacred Mountain","monk_of_the_sacred_mountain"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null],[["Monk of the Seven Forms","monk_of_the_seven_forms"],"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,"X",null,null,null,null,null,null],[["Nimble Guardian","nimble_guardian"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,"X"],[["Nornkith","nornkith"],null,null,null,"X",null,null,"X",null,null,null,null,null,"X","X",null,null,null,null,null,"X",null,null,null,"X","X","X",null,null,"X",null,null,null,null,null,null],[["Ouat","ouat"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X"],[["Perfect Scholar","perfect_scholar"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X","X",null,null,"X",null,null,null,null],[["Qinggong Monk","qinggong_monk"],"X",null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,"X",null,null,null,null,"X",null,"X","X",null,null,"X","X",null,null,null,"X"],[["Sage Counselor","sage_counselor"],null,null,null,"X","X","X","X",null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Scaled Fist","scaled_fist"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,"X",null,null,null,null,null,null,null],[["Scarred Monk","scarred_monk"],"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X"],[["Sensei","sensei"],null,null,null,null,"X","X",null,"X",null,"X",null,null,null,null,"X","X","X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Serpent-Fire Adept","serpent_fire_adept"],null,null,null,"X","X","X","X",null,"X","X","X",null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,"X"],[["Sin Monk","sin_monk"],"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,"X"],[["Softstrike Monk","softstrike_monk"],null,null,null,null,null,"X","X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X","X",null,"X"],[["Sohei","sohei"],"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,"X","X","X",null,"X","X","X","X",null,"X",null],[["Soul Shepherd","soul_shepherd"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null],[["Spirit Master","spirit_master"],null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,"X","X","X",null,"X",null,null,null,null,null,null,"X"],[["Student of Stone","student_of_stone"],"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Terra-Cotta Monk","terra_cotta_monk"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,"X","X","X",null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Tetori","tetori"],"X",null,"X",null,null,null,null,null,null,null,null,null,"X","X",null,"X",null,"X","X",null,null,null,null,null,null,null,"X",null,null,"X","X",null,null,null,null],[["Treetop Monk","treetop_monk"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,null],[["Underfoot Adept","underfoot_adept"],null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Wanderer","wanderer"],"X",null,null,"X",null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,"X"],[["Wasteland Meditant","wasteland_meditant"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,"X","X",null,"X",null,null,null,null,null,null],[["Water Dancer","water_dancer"],"X",null,null,"X","X","X","X",null,"X","X",null,null,null,null,"X","X",null,"X",null,null,null,null,null,null,null,"X","X",null,"X",null,null,"X",null,null,null],[["Weapon Adept","weapon_adept"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,null,null,null],[["Wildcat","wildcat"],"X",null,null,null,null,null,null,null,null,null,null,null,"X","X",null,"X",null,null,"X",null,"X",null,null,null,null,null,"X","X",null,null,null,null,null,null,null],[["Windstep Master","windstep_master"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,"X",null,null,null,null,null,null],[["Zen Archer","zen_archer"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X","X",null,null,null,null,null,"X",null,null,"X",null,null,"X","X",null,"X",null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-monk-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="cleric" prefix="class-monk-" />
+<RacialOptions cls="cleric" />
 </>};
 export default {cavalier:_cavalier,cleric:_cleric,druid:_druid,monk:_monk}

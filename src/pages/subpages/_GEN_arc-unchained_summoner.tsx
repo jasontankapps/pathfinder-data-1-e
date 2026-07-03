@@ -7,14 +7,14 @@ import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
 const _construct_caller = {title: "Construct Caller", jsx: <><h2 id="arc-unchained_summoner-construct_caller-construct-caller">Construct Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/construct_handbook">Construct Handbook pg. 10</Link><br/>Construct callers use their mechanical and planar understandings to work planar energies as a tinkerer works parts. They use this understanding to hand-craft unique, constructed eidolons.</p>
-<Ability id="arc-unchained_summoner-construct_caller-construct-eidolon-ex" icon={["info"]}>
-<Pair single id="arc-unchained_summoner-construct_caller-construct-eidolon-ex">Construct Eidolon (Ex)</Pair>
+<Ability id="construct-eidolon-ex" icon={["info"]}>
+<Pair single id="construct-eidolon-ex">Construct Eidolon (Ex)</Pair>
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="At 1st Level">A construct caller must select the <Link to="/eidolon/inevitable">inevitable</Link> subtype for her eidolon. A construct eidolon functions as an inevitable eidolon except as noted here. A construct eidolon can be of any alignment. It has no Constitution score and gains bonus hit points appropriate for a construct of its size.</Pair>
 <Pair title="At 12th Level">The construct eidolon gains DR 5/adamantine instead of DR 5/chaotic.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-construct_caller-planar-tinkering-ex" icon={["upgrade"]}>
-<Pair single id="arc-unchained_summoner-construct_caller-planar-tinkering-ex" flavor="A construct caller learns to better shape planar energy to improve her eidolon.">Planar Tinkering (Ex)</Pair>
+<Ability id="planar-tinkering-ex" icon={["upgrade"]}>
+<Pair single id="planar-tinkering-ex" flavor="A construct caller learns to better shape planar energy to improve her eidolon.">Planar Tinkering (Ex)</Pair>
 <Pair hl title="Replaces">Summon monster I</Pair>
 <Pair title="At 3rd Level">The number of points in her eidolon's evolution pool increases by 1.</Pair>
 <Pair title="At 7th Level">The number of points in the eidolon's evolution pool increases by an additional 1.</Pair>
@@ -26,12 +26,12 @@ const _construct_caller = {title: "Construct Caller", jsx: <><h2 id="arc-unchain
 const _devil_binder = {title: "Devil Binder", jsx: <><h2 id="arc-unchained_summoner-devil_binder-devil-binder">Devil Binder</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 94</Link><br/>While many assume <Link to="/rule/hellknights">Hellknights</Link> are worshipers or agents of devilkind - or, at best, duped puppets of the infernal realm - most Hellknights see Hell and its native devils as a challenge to be conquered. If one can dominate these beings of pure (albeit cruel) law, then the power of that law is theirs by right. While the Test undertaken by those who seek to become full Hellknights is one method by which this power is earned, the devil binder takes this philosophy a step further, forcing a devil into service.</p>
 <p>Unlike those of most summoners, a devil binder's eidolon does not willingly serve its master due to a similar philosophical bent. While some devil binders (especially those who do serve Hell) seek more amicable relationships with these infernal servants, others treat their eidolons as mere tools, remorselessly ordering the devils into battle. The nature of the summoner's magical bond is irrevocably altered by their style of invocation. A devil binder borrows extraplanar quintessence from her eidolon, gaining strange abilities for herself and evolving her eidolon's magical powers.</p>
-<Ability id="arc-unchained_summoner-devil_binder-alignment" icon={["hazard-sign"]}>
-<Pair single id="arc-unchained_summoner-devil_binder-alignment">Alignment</Pair>
+<Ability id="alignment" icon={["hazard-sign"]}>
+<Pair single id="alignment">Alignment</Pair>
 <Pair title="Info">The infernal bargains and rituals a devil binder pursues leave an indelible stain upon her soul. A devil binder must be lawful evil or lawful neutral in alignment.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-devil_binder-infernal-binding-ex" icon={["broken-shield","upgrade"]}>
-<Pair single id="arc-unchained_summoner-devil_binder-infernal-binding-ex">Infernal Binding (Ex)</Pair>
+<Ability id="infernal-binding-ex" icon={["broken-shield","upgrade"]}>
+<Pair single id="infernal-binding-ex">Infernal Binding (Ex)</Pair>
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info">A devil binder must select an eidolon of the <Link to="/eidolon/devil">devil</Link> subtype. The devil binder's eidolon never increases its maximum number of attacks, and its base attack bonus is equal to half its Hit Dice.</Pair>
 <Pair title="At 4th Level">The eidolon's Charisma score increases by 2.</Pair>
@@ -40,8 +40,8 @@ const _devil_binder = {title: "Devil Binder", jsx: <><h2 id="arc-unchained_summo
 <Pair title="At 16th Level">The eidolon's Charisma score increases by 2.</Pair>
 <Pair title="At 20th Level">The eidolon's Charisma score increases by 2.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-devil_binder-infernal-arcana-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-unchained_summoner-devil_binder-infernal-arcana-sp">Infernal Arcana (Sp)</Pair>
+<Ability id="infernal-arcana-sp" icon={["magic-swirl"]}>
+<Pair single id="infernal-arcana-sp">Infernal Arcana (Sp)</Pair>
 <Pair hl title="Replaces">Summon monster I</Pair>
 <Pair title="Info">The devil binder's eidolon gains the following spell-like abilities at the listed summoner level.</Pair>
 <Pair plain title="1st"><Link to="/spell/protection_from_chaos">Protection from chaos</Link></Pair>
@@ -56,8 +56,8 @@ const _devil_binder = {title: "Devil Binder", jsx: <><h2 id="arc-unchained_summo
 <Pair title="At 19th Level">The devil binder's eidolon can use each of its <em>infernal arcana</em> spell-like abilities three times per day.</Pair>
 <Pair title="Special">Each of these spell-like abilities is usable once per day, and the eidolon's caster level is equal to the devil binder's summoner level. When the eidolon casts <em>planar binding</em> this way, the devil binder is considered to be the spell's caster instead.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-devil_binder-infernal-affinity-ex-su-or-sp" icon={["stairs-goal"]}>
-<Pair single id="arc-unchained_summoner-devil_binder-infernal-affinity-ex-su-or-sp">Infernal Affinity (Ex, Su, or Sp)</Pair>
+<Ability id="infernal-affinity-ex-su-or-sp" icon={["stairs-goal"]}>
+<Pair single id="infernal-affinity-ex-su-or-sp">Infernal Affinity (Ex, Su, or Sp)</Pair>
 <Pair hl title="Replaces">Bond senses, shield ally, transposition, greater shield ally, merge forms, twin eidolon</Pair>
 <Pair title="Info">A devil binder wrenches Hell's power from her eidolon. This grants the devil binder the bloodline powers of the <Link to="/sorcbloodline/infernal">infernal</Link> sorcerer bloodline (gained at the following levels).</Pair>
 <Pair title="At 4th Level">Corrupting touch</Pair>
@@ -67,14 +67,14 @@ const _devil_binder = {title: "Devil Binder", jsx: <><h2 id="arc-unchained_summo
 <Pair title="At 20th Level">Power of the Pit</Pair>
 <Pair title="Special">The devil binder treats her summoner level as her sorcerer level for the purpose of determining their effects.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-devil_binder-smite-chaos-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-unchained_summoner-devil_binder-smite-chaos-su">Smite Chaos (Su)</Pair>
+<Ability id="smite-chaos-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="smite-chaos-su">Smite Chaos (Su)</Pair>
 <Pair hl title="Replaces">Maker's call, eidolon's <em>devotion</em> ability</Pair>
 <Pair title="Usage">1 time/day + 1 per four summoner levels beyond 6th</Pair>
 <Pair title="Ability">The summoner's eidolon gains the ability to <em>smite chaos</em> as a <Link to="/pclass/hellknight">Hellknight</Link> of its Hit Dice</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-devil_binder-smite-chaos-su" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-unchained_summoner-devil_binder-smite-chaos-su" flavor="Text from the hellknight class ability.">Smite Chaos (Su)</Pair>
+<Ability id="smite-chaos-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="smite-chaos-su" flavor="Text from the hellknight class ability.">Smite Chaos (Su)</Pair>
 <Pair title="Ability">This ability functions as the paladin's <em>smite evil</em> class feature but against chaotic-aligned creatures. This ability is twice as effective against outsiders with the chaotic subtype, chaotic-aligned aberrations, and fey.</Pair>
 </Ability>
 <Ability id="arc-unchained_summoner-devil_binder-smite-evil-su" extraClasses="subAbility" icon={["upgrade","armor-upgrade"]}>
@@ -88,40 +88,40 @@ const _devil_binder = {title: "Devil Binder", jsx: <><h2 id="arc-unchained_summo
 </>};
 const _devil_impostor = {title: "Devil Impostor", jsx: <><h2 id="arc-unchained_summoner-devil_impostor-devil-impostor">Devil Impostor</h2>
 <p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil pg. 17</Link><br/>Some summoners can't abide the cruelty of devils, or simply can't outwit them, but must appear to do so to get by in Cheliax, the Outer Planes, or similar areas of infernal influence. Rather than risk binding true devils, they reshape their eidolons into deceptive forms.</p>
-<Ability icon={["skills"]} id="arc-unchained_summoner-devil_impostor-undefined">
-<Pair id="arc-unchained_summoner-devil_impostor-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
-<Ability id="arc-unchained_summoner-devil_impostor-bond-alignment-su" icon={["aura"]}>
-<Pair single id="arc-unchained_summoner-devil_impostor-bond-alignment-su">Bond Alignment (Su)</Pair>
+<Ability id="bond-alignment-su" icon={["aura"]}>
+<Pair single id="bond-alignment-su">Bond Alignment (Su)</Pair>
 <Pair hl title="Replaces">Bond senses</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A devil impostor and her eidolon both radiate alignment auras of lawful evil for the purpose of divination spells that reveal auras (such as <Link to="/spell/detect_evil">detect evil</Link>), as long as they remain within 1,000 feet of one another. This does not affect other abilities that depend on alignment (such as <em>smite evil</em>).</Pair>
 <Pair title="Special">The devil impostor can suppress this effect for 1 minute as a <strong className="hl">standard action</strong>.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-devil_impostor-deceptive-eidolon" icon={["stairs-goal","aura"]}>
-<Pair single id="arc-unchained_summoner-devil_impostor-deceptive-eidolon">Deceptive Eidolon</Pair>
+<Ability id="deceptive-eidolon" icon={["stairs-goal","aura"]}>
+<Pair single id="deceptive-eidolon">Deceptive Eidolon</Pair>
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info">A devil impostor's eidolon always resembles a specific type of devil of the same size (caster's choice), and radiates the aura of a lawful evil outsider under magical effects such as <em>detect evil,</em> regardless of its actual alignment. The eidolon still uses its actual alignment when resolving all other alignment-dependent abilities, effects, and spells. The eidolon can have any subtype, though its appearance always remains that of a devil, and it can select only evolutions available to its true subtype.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-devil_impostor-fiendish-summons-sp" icon={["broken-shield"]}>
-<Pair single id="arc-unchained_summoner-devil_impostor-fiendish-summons-sp">Fiendish Summons (Sp)</Pair>
+<Ability id="fiendish-summons-sp" icon={["broken-shield"]}>
+<Pair single id="fiendish-summons-sp">Fiendish Summons (Sp)</Pair>
 <Pair hl title="Alters">Summon monster</Pair>
 <Pair title="Passive Ability">A devil impostor must apply the <Link to="/template/fiendish">fiendish</Link> template to any creatures summoned via her <em>summon monster</em> spell-like ability regardless of her alignment.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-devil_impostor-devils-flesh-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-unchained_summoner-devil_impostor-devils-flesh-ex" flavor="A devil impostor's eidolon adopts several fiendish traits.">Devil's Flesh (Ex)</Pair>
+<Ability id="devils-flesh-ex" icon={["stairs-goal"]}>
+<Pair single id="devils-flesh-ex" flavor="A devil impostor's eidolon adopts several fiendish traits.">Devil's Flesh (Ex)</Pair>
 <Pair hl title="Replaces">Shield ally</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">The devil impostor's eidolon gains the <Link to="/unchevolution/skilled">skilled</Link> (Bluff) and <Link to="/unchevolution/resistance">resistance</Link> (fire) evolutions (or <Link to="/unchevolution/immunity">immunity</Link> [fire] if it already has resistance to fire). The eidolon can select additional evolutions available to the devil subtype.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-devil_impostor-devils-tongue-ex" icon={["upgrade"]}>
-<Pair single id="arc-unchained_summoner-devil_impostor-devils-tongue-ex">Devil's Tongue (Ex)</Pair>
+<Ability id="devils-tongue-ex" icon={["upgrade"]}>
+<Pair single id="devils-tongue-ex">Devil's Tongue (Ex)</Pair>
 <Pair hl title="Replaces">Greater shield ally</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">The devil impostor's eidolon can apply its master's skill ranks and proficiency bonuses when attempting Bluff, Diplomacy, and Intimidate skill checks.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-devil_impostor-fiendish-appearance-su" icon={["magic-swirl"]}>
-<Pair single id="arc-unchained_summoner-devil_impostor-fiendish-appearance-su">Fiendish Appearance (Su)</Pair>
+<Ability id="fiendish-appearance-su" icon={["magic-swirl"]}>
+<Pair single id="fiendish-appearance-su">Fiendish Appearance (Su)</Pair>
 <Pair hl title="Replaces">Transposition</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">A devil impostor can use her <em>maker's call</em> ability to immediately dismiss her eidolon and take on its appearance. This functions as a modified <Link to="/spell/alter_self">alter self</Link> spell, transforming the devil impostor into a replica of her eidolon. She gains a single natural attack possessed by her eidolon, and if her eidolon is smaller than Small or larger than Medium, she assumes the form of a Small- or Medium-sized version of her eidolon, respectively. The transformation lasts for 10 minutes &times; her unchained summoner level or until the eidolon is resummoned.</Pair>
@@ -129,17 +129,17 @@ const _devil_impostor = {title: "Devil Impostor", jsx: <><h2 id="arc-unchained_s
 </>};
 const _fey_caller = {title: "Fey Caller", jsx: <><h2 id="arc-unchained_summoner-fey_caller-fey-caller">Fey Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 71</Link><br/>The strange creatures known as fey hail from a variety of places, including the natural world and their own domains on other planes. Fey callers are summoners whose voices reach out into those strange faerie realms and call forth the fey who dwell there. The touch of the fey makes the fey caller different from those summoners who call other outsiders to their sides as eidolons.</p>
-<Ability icon={["skills"]} id="arc-unchained_summoner-fey_caller-undefined">
-<Pair id="arc-unchained_summoner-fey_caller-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (arcana), Knowledge (dungeoneering), Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (local), Knowledge (nobility), Knowledge (religion)</Pair></Ability>
-<Ability id="arc-unchained_summoner-fey_caller-natures-call" icon={["info"]}>
-<Pair single id="arc-unchained_summoner-fey_caller-natures-call">Nature's Call</Pair>
+<Ability id="natures-call" icon={["info"]}>
+<Pair single id="natures-call">Nature's Call</Pair>
 <Pair hl title="Alters">Summon monster</Pair>
 <Pair title="Info">Instead of summoning creatures from the summon monster list, the fey caller's <em>summoning</em> spell-like ability summons creatures from the list for the <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spell of the same level. It still follows the other rules and restrictions for the summoner's <em>summon monster</em> spell-like ability.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-fey_caller-fey-eidolon" extraClasses="hasSubs" icon={["info"]}>
-<Pair single id="arc-unchained_summoner-fey_caller-fey-eidolon">Fey Eidolon</Pair>
+<Ability id="fey-eidolon" extraClasses="hasSubs" icon={["info"]}>
+<Pair single id="fey-eidolon">Fey Eidolon</Pair>
 <Pair title="Info">A fey caller's eidolon is still an outsider, and its base statistics don't change, but it also counts as a <Link to="/type/fey">fey</Link>. A fey caller's eidolon has the new subtype below.</Pair>
 </Ability>
 <Ability id="arc-unchained_summoner-fey_caller-fey" extraClasses="subAbility" icon={["info","stairs-goal","magic-swirl","armor-upgrade"]}>
@@ -159,37 +159,37 @@ const _fey_caller = {title: "Fey Caller", jsx: <><h2 id="arc-unchained_summoner-
 </>};
 const _god_caller = {title: "God Caller", jsx: <><h2 id="arc-unchained_summoner-god_caller-god-caller">God Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 40</Link><br/>God callers follow a fractured tradition that originated in the now-lost nation of Sarkoris. They speak to an assortment of ancient divine powers to lead their communities and sometimes stir up reformations in faiths with ideals similar to their personal convictions.</p>
-<Ability icon={["skills"]} id="arc-unchained_summoner-god_caller-undefined">
-<Pair id="arc-unchained_summoner-god_caller-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (engineering), Knowledge (geography), Knowledge (nature), Use Magic Device</Pair></Ability>
-<Ability id="arc-unchained_summoner-god_caller-guidance-sp" icon={["magic-swirl","broken-shield"]}>
-<Pair single id="arc-unchained_summoner-god_caller-guidance-sp" flavor="A god caller's eidolon has a tiny spark of divinity.">Guidance (Sp)</Pair>
+<Ability id="guidance-sp" icon={["magic-swirl","broken-shield"]}>
+<Pair single id="guidance-sp" flavor="A god caller's eidolon has a tiny spark of divinity.">Guidance (Sp)</Pair>
 <Pair hl title="Alters">Life link</Pair>
 <Pair title="Ability">The eidolon can use <Link to="/spell/guidance">guidance</Link> as a spell-like ability at will. However, the eidolon and the god caller must remain within 50 feet of one another for the eidolon to remain at full strength. If the eidolon is beyond 50 feet but closer than 1,000 feet, its current and maximum hit point totals are reduced by half.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-god_caller-divine-word-ex" icon={["rolling-dices","upgrade"]}>
-<Pair single id="arc-unchained_summoner-god_caller-divine-word-ex">Divine Word (Ex)</Pair>
+<Ability id="divine-word-ex" icon={["rolling-dices","upgrade"]}>
+<Pair single id="divine-word-ex">Divine Word (Ex)</Pair>
 <Pair hl title="Replaces">Transposition</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">If a god caller's eidolon would grant him a bonus with the <Link to="/rule/aid_another">aid another</Link> action on a Diplomacy or Intimidate check, the god caller can instead choose to roll twice and take the better result. He makes the choice before rolling.</Pair>
 <Pair title="Ability">Once per day while his eidolon uses the aid another action to assist him in such a check, if the god caller would improve a target's attitude toward him, or gain a success if using the individual <Link to="/rule/influence">influence rules</Link>, he instead improves that target's attitude by 2 steps or it counts as 2 successes.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-god_caller-divine-awareness-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-unchained_summoner-god_caller-divine-awareness-sp">Divine Awareness (Sp)</Pair>
+<Ability id="divine-awareness-sp" icon={["magic-swirl"]}>
+<Pair single id="divine-awareness-sp">Divine Awareness (Sp)</Pair>
 <Pair hl title="Replaces">Aspect</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four summoner levels beyond 10th<ByLevelPop levels={[[10,1],[14,2],[18,3]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">After 10 minutes of concentration, a god caller's eidolon can see from afar as per <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link>.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-god_caller-divine-might-ex" icon={["upgrade"]}>
-<Pair single id="arc-unchained_summoner-god_caller-divine-might-ex">Divine Might (Ex)</Pair>
+<Ability id="divine-might-ex" icon={["upgrade"]}>
+<Pair single id="divine-might-ex">Divine Might (Ex)</Pair>
 <Pair hl title="Replaces">Greater aspect</Pair>
 <Pair title="Gained">At 18th Level</Pair>
 <Pair title="Passive Ability">A god caller's eidolon's attacks are treated as epic for the purpose of overcoming damage reduction and harming mythic creatures.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-god_caller-overwhelming-presence-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-unchained_summoner-god_caller-overwhelming-presence-sp">Overwhelming Presence (Sp)</Pair>
+<Ability id="overwhelming-presence-sp" icon={["magic-swirl"]}>
+<Pair single id="overwhelming-presence-sp">Overwhelming Presence (Sp)</Pair>
 <Pair hl title="Replaces">Twin eidolon</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">A god caller's eidolon can use <Link to="/spell/overwhelming_presence">overwhelming presence</Link> three times per day. The save DC is equal to 19 + the eidolon's Charisma modifier.</Pair>
@@ -197,12 +197,12 @@ const _god_caller = {title: "God Caller", jsx: <><h2 id="arc-unchained_summoner-
 </>};
 const _leshy_caller = {title: "Leshy Caller", jsx: <><h2 id="arc-unchained_summoner-leshy_caller-leshy-caller">Leshy Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 94</Link><br/>A leshy caller summons creatures from the First World and forges a bond with a leshy eidolon.</p>
-<Ability id="arc-unchained_summoner-leshy_caller-leshy-eidolon" icon={["info"]}>
-<Pair single id="arc-unchained_summoner-leshy_caller-leshy-eidolon">Leshy Eidolon</Pair>
+<Ability id="leshy-eidolon" icon={["info"]}>
+<Pair single id="leshy-eidolon">Leshy Eidolon</Pair>
 <Pair title="Info">When a leshy caller summons her eidolon, the eidolon's body is created from extraplanar plant material and imbued with the intelligence of a leshy spirit. It uses the <Link to="/eidolon/plant">plant</Link> eidolon subtype and its statistics are changed from those of a standard eidolon as follows.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-leshy_caller-type" icon={["info"]}>
-<Pair single id="arc-unchained_summoner-leshy_caller-type">Type</Pair>
+<Ability id="type" icon={["info"]}>
+<Pair single id="type">Type</Pair>
 <Pair title="Info">The eidolon is still an outsider, and its statistics don't change, but it also counts as a plant. As it isn't truly a plant, it doesn't gain the plant immunities.</Pair>
 </Ability>
 <Ability id="arc-unchained_summoner-leshy_caller-base-form" extraClasses="hasSubs" icon={["info"]}>
@@ -252,8 +252,8 @@ const _leshy_caller = {title: "Leshy Caller", jsx: <><h2 id="arc-unchained_summo
 <Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/limbs">limbs</Link> (arms), <Link to="/evolution/slam">slam</Link>, <Link to="/evolution/swim">swim</Link> (2)</Cell></Row></Block>
 </Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-leshy_caller-summon-natures-ally-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-unchained_summoner-leshy_caller-summon-natures-ally-sp">Summon Nature's Ally (Sp)</Pair>
+<Ability id="summon-natures-ally-sp" icon={["magic-swirl"]}>
+<Pair single id="summon-natures-ally-sp">Summon Nature's Ally (Sp)</Pair>
 <Pair hl title="Alters">Summon monster</Pair>
 <Pair title="Ability">A leshy caller can cast <Link to="/spell/summon_natures_ally">summon nature's ally</Link> as a spell-like ability a number of times per day equal to 3 + her Charisma modifier.</Pair>
 <Pair title="Info">At levels where a regular summoner would gain access to a new level of <em>summon monster</em> as a spell-like ability, the leshy caller instead gains the equivalent <em>summon nature's ally</em> spell; at 19th level, she can cast <Link to="/spell/summon_natures_ally_ix">summon nature's ally IX</Link> or <Link to="/spell/gate">gate</Link>.</Pair>
@@ -262,8 +262,8 @@ const _leshy_caller = {title: "Leshy Caller", jsx: <><h2 id="arc-unchained_summo
 </>};
 const _morphic_savant = {title: "Morphic Savant", jsx: <><h2 id="arc-unchained_summoner-morphic_savant-morphic-savant">Morphic Savant</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook pg. 16</Link><br/>A morphic savant is an agent of change who draws power from the Abyss, Elysium, or the Maelstrom to fulfill whatever goals strike his fancy. Chaotic evil and chaotic neutral morphic savants often train with <Link to="/pclass/blackfire_adept">Blackfire Adepts</Link> in the hopes of learning greater powers of chaotic unmaking, and chaotic good morphic savants are most common as agents of the <Link to="/rule/bellflower_network">Bellflower Network</Link>.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-unchained_summoner-morphic_savant--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Chaotic alignment</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-unchained_summoner-morphic_savant-eidolon-of-chaos" icon={["info","stairs-goal"]}>
-<Pair single id="arc-unchained_summoner-morphic_savant-eidolon-of-chaos">Eidolon of Chaos</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-unchained_summoner-morphic_savant--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Chaotic alignment</td></tr></tbody></table></ScrollContainer></div><Ability id="eidolon-of-chaos" icon={["info","stairs-goal"]}>
+<Pair single id="eidolon-of-chaos">Eidolon of Chaos</Pair>
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Ability">A morphic savant's eidolon must have the <Link to="/eidolon/azata">azata</Link>, <Link to="/eidolon/demon">demon</Link>, or <Link to="/eidolon/protean">protean</Link> subtype. The morphic savant's eidolon has three base forms: biped, quadruped, and serpentine. Each form has the same feats and skills, but has its own set of <Link to="/ability/unchained_evolutions">evolutions</Link>. When the summoner meditates and regains his spell slots for the day, he can select any of the three base forms of his eidolon. The eidolon has 1 fewer evolution point than normal for an eidolon of the morphic savant's summoner level, and has 1 fewer skill point per Hit Die.</Pair>
 </Ability>
@@ -276,8 +276,8 @@ const _morphic_savant = {title: "Morphic Savant", jsx: <><h2 id="arc-unchained_s
 </Pair>
 <Pair title="At 2nd Level">The morphic savant can grant one 1-point evolutions to all the creatures he summons with his <em>summon monster</em> spell-like ability. He can't grant an evolution that duplicates the function of, or has the same name as, any ability the summoned creatures already possess (for example, he can't grant a creature with a bite attack another bite attack), nor can he add an evolution that causes the summoned monsters to have more attacks than his eidolon's maximum number of attacks. The creatures do not have to be of the correct subtype to gain an evolution, but do have to meet any other prerequisites.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-morphic_savant-chaos-magic" icon={["spell-book"]}>
-<Pair single id="arc-unchained_summoner-morphic_savant-chaos-magic">Chaos Magic</Pair>
+<Ability id="chaos-magic" icon={["spell-book"]}>
+<Pair single id="chaos-magic">Chaos Magic</Pair>
 <Pair hl title="Alters">Spells known</Pair>
 <Pair title="Info">A morphic savant gains the following bonus spells known at the listed spell level. The morphic savant gains one fewer spell known per spell level for spell levels 1-6.</Pair>
 <Pair plain title="1st"><Link to="/spell/protection_from_law">Protection from law</Link></Pair>
@@ -290,25 +290,25 @@ const _morphic_savant = {title: "Morphic Savant", jsx: <><h2 id="arc-unchained_s
 </>};
 const _soulbound_summoner = {title: "Soulbound Summoner", jsx: <><h2 id="arc-unchained_summoner-soulbound_summoner-soulbound-summoner">Soulbound Summoner</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_144_midwives_to_death">Pathfinder #144: Midwives to Death pg. 83</Link><br/>Not everyone who becomes a summoner is an intentional dabbler in the arcane arts. Soulbound summoners, as a rule, never set out to bind their soul to a dangerous and enigmatic power. Rather, they have found themselves unintentional masters of eidolons through incredible circumstances. Most common are those who forged their pacts with an outsider out of a mutual desire for self-preservation. Other soulbound summoners never contacted a true outsider at all, instead manifesting an eidolon from their minds in response to mental or magical trauma. The events that create such a summoner result in the eidolon fusing entirely to the summoner's psyche. These accidental summoners lack the practiced skill at reaching across planes that most summoners have, but their intense bond with their eidolon grants both summoner and outsider unusual power.</p>
-<Ability id="arc-unchained_summoner-soulbound_summoner-pactbond-curse-ex" icon={["info","broken-shield","stairs-goal"]}>
-<Pair single id="arc-unchained_summoner-soulbound_summoner-pactbond-curse-ex" flavor="A soulbound summoner's metaphysical connection with his eidolon has profound effects on both of them.">Pactbond Curse (Ex)</Pair>
+<Ability id="pactbond-curse-ex" icon={["info","broken-shield","stairs-goal"]}>
+<Pair single id="pactbond-curse-ex" flavor="A soulbound summoner's metaphysical connection with his eidolon has profound effects on both of them.">Pactbond Curse (Ex)</Pair>
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info">The eidolon's alignment always matches that of the soulbound summoner, regardless of its subtype.</Pair>
 <Pair title="At 1st Level">The summoner must choose an <Link to="/ability/oracle_curses">oracle curse</Link>, using his summoner level as his oracle level for determining the curse's effects. Once this choice is made, it cannot be changed. A summoner that gains spells for his list of spells known as a result of his curse must be able to cast spells of the appropriate level in order to cast the learned spell.</Pair>
 <Pair title="Special">The glowing rune that the soulbound summoner shares with his eidolon always appears on a place symbolic of his pactbond curse. For example, a summoner who chooses the <Link to="/oraclecurse/clouded_vision">clouded vision</Link> curse might have his summoner's rune manifest on one of his eyes, while a summoner who chooses the <Link to="/oraclecurse/tongues">tongues</Link> curse might have his summoner's rune appear on his lips. A soulbound summoner's eidolon is summoned from his own psyche rather than a different plane, so spells such as <Link to="/spell/banishment">banishment</Link> and <Link to="/spell/dismissal">dismissal</Link> do not work when cast on the eidolon.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-soulbound_summoner-soulbound-life-link-su" icon={["remedy"]}>
-<Pair single id="arc-unchained_summoner-soulbound_summoner-soulbound-life-link-su" flavor="The essence of a soulbound summoner's eidolon resides within the summoner's mind and soul instead of a home plane, and he can use this connection to restore his eidolon with his own vitality.">Soulbound Life Link (Su)</Pair>
+<Ability id="soulbound-life-link-su" icon={["remedy"]}>
+<Pair single id="soulbound-life-link-su" flavor="The essence of a soulbound summoner's eidolon resides within the summoner's mind and soul instead of a home plane, and he can use this connection to restore his eidolon with his own vitality.">Soulbound Life Link (Su)</Pair>
 <Pair hl title="Alters">Life link</Pair>
 <Pair title="Ability">The summoner can use his <em>life link</em> ability to sacrifice any number of his hit points without using an action. Each hit point sacrificed in this way heals the eidolon for 1 point of damage.</Pair>
 <Pair title="Special">The soulbound summoner can use this ability even after the eidolon has been killed and sent back to its summoner's mind; if the eidolon is healed enough that its hit point total is above 0, it can be summoned again as normal.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-soulbound_summoner-weakened-summoning" icon={["broken-shield"]}>
-<Pair single id="arc-unchained_summoner-soulbound_summoner-weakened-summoning" flavor="A soulbound summoner's eidolon is usually the result of unintended magic, trauma, or a singular pact, instead of rigorous arcane study.">Weakened Summoning</Pair>
+<Ability id="weakened-summoning" icon={["broken-shield"]}>
+<Pair single id="weakened-summoning" flavor="A soulbound summoner's eidolon is usually the result of unintended magic, trauma, or a singular pact, instead of rigorous arcane study.">Weakened Summoning</Pair>
 <Pair title="Info">Soulbound summoners do not gain the ability to cast the <Link to="/spell/summon_monster">summon monster</Link> or <Link to="/spell/gate">gate</Link> spells as a spell-like ability.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-soulbound_summoner-soulbound-evolution" icon={["upgrade","magic-swirl"]}>
-<Pair single id="arc-unchained_summoner-soulbound_summoner-soulbound-evolution" flavor="A soulbound summoner's eidolon gains power from its unusually strong bond with its summoner.">Soulbound Evolution</Pair>
+<Ability id="soulbound-evolution" icon={["upgrade","magic-swirl"]}>
+<Pair single id="soulbound-evolution" flavor="A soulbound summoner's eidolon gains power from its unusually strong bond with its summoner.">Soulbound Evolution</Pair>
 <Pair title="At 5th Level">The eidolon adds 1 point to its evolution pool.</Pair>
 <Pair title="At 7th Level">The eidolon adds 1 point to its evolution pool. The eidolon can select evolutions even if it does not meet the subtype requirements for that evolution.</Pair>
 <Pair title="At 9th Level">The eidolon adds 1 point to its evolution pool.</Pair>
@@ -320,8 +320,8 @@ const _soulbound_summoner = {title: "Soulbound Summoner", jsx: <><h2 id="arc-unc
 </>};
 const _storm_caller = {title: "Storm Caller", jsx: <><h2 id="arc-unchained_summoner-storm_caller-storm-caller">Storm Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 16</Link><br/>Many summoners beckon monsters from the Elemental Planes, but few are as specialized as storm callers, who channel the elemental energies of the Plane of Air. Storm callers are most commonly encountered in areas where thunderstorms appear frequently, including supernaturally stormy places like the Sodden Lands.</p>
-<Ability id="arc-unchained_summoner-storm_caller-stormy-eidolon" icon={["hazard-sign"]}>
-<Pair single id="arc-unchained_summoner-storm_caller-stormy-eidolon">Stormy Eidolon</Pair>
+<Ability id="stormy-eidolon" icon={["hazard-sign"]}>
+<Pair single id="stormy-eidolon">Stormy Eidolon</Pair>
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info">A storm caller must select an eidolon subtype that gains <Link to="/unchevolution/resistance">resistance</Link> or <Link to="/unchevolution/immunity">immunity</Link> to electricity at 1st level, such as the <Link to="/eidolon/elemental">elemental</Link> eidolon or <Link to="/eidolon/genie">genie</Link> eidolon. If the eidolon has neither of these evolutions, it becomes <Link to="/misc/nauseated">nauseated</Link> until it regains one of them.</Pair>
 </Ability>
@@ -393,15 +393,15 @@ const _storm_caller = {title: "Storm Caller", jsx: <><h2 id="arc-unchained_summo
 <p>The storm caller adds <em>call lightning</em> to his summoner spell list as a 3rd-level spell and <Link to="/spell/call_lightning_storm">call lightning storm</Link> to his summoner spell list as a 5th-level spell, but he does not automatically add them to his list of spells known.</p>
 </Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-storm_caller-electrical-polarity-su" icon={["barbed-arrow"]}>
-<Pair single id="arc-unchained_summoner-storm_caller-electrical-polarity-su">Electrical Polarity (Su)</Pair>
+<Ability id="electrical-polarity-su" icon={["barbed-arrow"]}>
+<Pair single id="electrical-polarity-su">Electrical Polarity (Su)</Pair>
 <Pair hl title="Replaces">Shield ally, greater shield ally</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A storm caller and his eidolon can temporarily form an electrical current between them. The storm caller can expend a use of his <em>summon storm's fury</em> ability as a <strong className="hl">standard action</strong> to create an instantaneous line of lightning between him and his eidolon, provided that the eidolon is within 60 feet of him. The lightning arc deals the same amount of damage to all creatures in the line and has the same save DC as a bolt of lightning from the <em>summon storm's fury</em> ability (unlike <em>call lightning,</em> this damage is dealt only once). The storm caller and his eidolon are not affected by this lightning.</Pair>
 <Pair title="At 12th Level">The storm caller gains the benefit of his eidolon's resistance (electricity) or immunity (electricity) evolution whenever he is within 30 feet of the eidolon.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-storm_caller-storms-wings-su" icon={["stairs-goal"]}>
-<Pair single id="arc-unchained_summoner-storm_caller-storms-wings-su">Storm's Wings (Su)</Pair>
+<Ability id="storms-wings-su" icon={["stairs-goal"]}>
+<Pair single id="storms-wings-su">Storm's Wings (Su)</Pair>
 <Pair hl title="Replaces">Maker's call, transposition</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">A storm caller can borrow some of his eidolon's elemental might. He can gain the <Link to="/unchevolution/flight">flight</Link> evolution as though he were using the summoner's <em>aspect</em> ability, deducting 2 evolution points from the eidolon's evolution pool. If he does so, his eidolon is unable to take the flight evolution as long as the storm caller has that evolution.</Pair>
@@ -411,27 +411,27 @@ const _storm_caller = {title: "Storm Caller", jsx: <><h2 id="arc-unchained_summo
 </>};
 const _twinned_summoner = {title: "Twinned Summoner", jsx: <><h2 id="arc-unchained_summoner-twinned_summoner-twinned-summoner">Twinned Summoner</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 18</Link><br/>Reflecting the connected nature of Imbrex, a twinned summoner and his eidolon appear identical save for any obvious differences, such as evolutions or equipment.</p>
-<Ability id="arc-unchained_summoner-twinned_summoner-twinned-eidolon" icon={["broken-shield"]}>
-<Pair single id="arc-unchained_summoner-twinned_summoner-twinned-eidolon">Twinned Eidolon</Pair>
+<Ability id="twinned-eidolon" icon={["broken-shield"]}>
+<Pair single id="twinned-eidolon">Twinned Eidolon</Pair>
 <Pair title="Info">The twinned summoner's eidolon is restricted to the <Link to="/eidolon/twinned">twinned</Link> eidolon subtype. If the summoner's natural size is smaller than Medium, the twinned summoner's eidolon must be Small. This ability may require a different base form or subtype to match the twinned summoner's natural form, at the GM's discretion, if the twinned summoner is not a bipedal creature.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-twinned_summoner-teamwork-feats-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-unchained_summoner-twinned_summoner-teamwork-feats-ex">Teamwork Feats (Ex)</Pair>
+<Ability id="teamwork-feats-ex" icon={["stairs-goal"]}>
+<Pair single id="teamwork-feats-ex">Teamwork Feats (Ex)</Pair>
 <Pair hl title="Replaces">Shield ally, greater shield ally</Pair>
 <Pair title="At 4th Level">A twinned summoner gains a bonus <Link to="/main/teamwork_feat">teamwork feat</Link>. He must meet the prerequisites of the selected teamwork feat.</Pair>
 <Pair title="At 12th Level">The summoner gains another bonus teamwork feat he meets the prerequisites of.</Pair>
 <Pair title="Special">The twinned summoner automatically grants all of his teamwork feats to his eidolon. The eidolon doesn't need to meet the prerequisites of these teamwork feats.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-twinned_summoner-twinned-transposition-su" icon={["magic-swirl"]}>
-<Pair single id="arc-unchained_summoner-twinned_summoner-twinned-transposition-su">Twinned Transposition (Su)</Pair>
+<Ability id="twinned-transposition-su" icon={["magic-swirl"]}>
+<Pair single id="twinned-transposition-su">Twinned Transposition (Su)</Pair>
 <Pair hl title="Replaces">Maker's call, transposition</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four summoner levels beyond 6th<ByLevelPop levels={[[6,1],[10,2],[14,3],[18,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">A twinned summoner can swap locations with his eidolon as if each were using <Link to="/spell/dimension_door">dimension door</Link>, using the twinned summoner's caster level. If the eidolon is out of range, the ability is wasted. If either the twinned summoner or his eidolon occupies more squares than the other, each must occupy one or more squares that were occupied by the other if possible, or as close as possible if not.</Pair>
 <Pair title="At 8th Level">He can use this ability as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-twinned_summoner-twin-summoner-su" icon={["magic-swirl"]}>
-<Pair single id="arc-unchained_summoner-twinned_summoner-twin-summoner-su">Twin Summoner (Su)</Pair>
+<Ability id="twin-summoner-su" icon={["magic-swirl"]}>
+<Pair single id="twin-summoner-su">Twin Summoner (Su)</Pair>
 <Pair hl title="Replaces">Merge forms</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Usage">1 minute/day per summoner level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>

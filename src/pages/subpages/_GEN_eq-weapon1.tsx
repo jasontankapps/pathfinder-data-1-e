@@ -1,6 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
+import AffInfo from '../../components/AfflictionInfo';
 const _not_found = {title: "Unknown", jsx: <><h2 id="eq-weapon-not_found-error">Error</h2>
 <p>Unable to find the requested weapon.</p>
 </>};
@@ -638,7 +639,8 @@ const _tress_tincture = {title: "Tress tincture", topLink: ["Alchemical Weapons"
 const _venomblock = {title: "Venomblock", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-venomblock-venomblock">Venomblock</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 27</Link><br/><strong>Price</strong> 60 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Weapons</p>
 <p>This light-blue liquid is rich with antibodies and other chemicals that block poison and disease and is usually contained in a tempered glass vial. Venomblock can be applied to a weapon like an injury <Link to="/rule/poisons">poison</Link> (see below), but every time the affected creature fails its Fortitude save, instead of dealing damage, venomblock suppresses the target's ability to transmit one randomly selected poison or disease through its natural attacks until the end of its next turn. This is a poison effect.</p>
-<div className="sideNoteWrap"><ScrollContainer id="eq-weapon-venomblock--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={7} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison; injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 14</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 saves</td></tr></tbody></table></ScrollContainer></div></>};
+<AffInfo type="Poison; injury" save="Fort 14" freq="1/round for 6 rounds" cure2 icon="p" />
+</>};
 const _arrow_iron_tipped_distance = {title: "Arrow, iron-tipped distance", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-arrow_iron_tipped_distance-arrow-iron-tipped-distance">Arrow, iron-tipped distance</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 130</Link></p>
 <p>Used tactically for long-range attacks on troops, these arrows are fitted with heavy iron heads. While these heads help them travel great distances, they make the arrows less effective at dealing damage. Iron-tipped distance arrows increase their bow's range increment by 10 feet but take a -1 penalty on damage dealt per range increment (minimum 1 point of damage). They are sold in leather quivers in quantities of 20.</p>

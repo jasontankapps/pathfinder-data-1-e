@@ -14,22 +14,22 @@ const _antiquarian = {title: "Antiquarian", jsx: <><h2 id="arc-investigator-anti
 </Pair>
 <Pair title="Special">An antiquarian doesn't gain a competence bonus on Craft (alchemy) checks to create alchemical items, and he cannot identify potions with that skill. Furthermore, he cannot select alchemist discoveries as investigator talents.</Pair>
 </Ability>
-<Ability id="arc-investigator-antiquarian-item-lore-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-antiquarian-item-lore-ex" flavor="An antiquarian can identify even the most esoteric objects at a glance.">Item Lore (Ex)</Pair>
+<Ability id="item-lore-ex" icon={["stairs-goal"]}>
+<Pair single id="item-lore-ex" flavor="An antiquarian can identify even the most esoteric objects at a glance.">Item Lore (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">He can discern whether an item is magical simply by studying it for 1 round. Once he identifies a magic item in this way, he can use Spellcraft to attempt to identify the properties of the magic item as if he had used <Link to="/spell/detect_magic">detect magic</Link>. Furthermore, he can detect whether an item is cursed if his check to identify the magic item exceeds the DC by 5.</Pair>
 </Ability>
-<Ability id="arc-investigator-antiquarian-curse-resistance-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-antiquarian-curse-resistance-ex">Curse Resistance (Ex)</Pair>
+<Ability id="curse-resistance-ex" icon={["armor-upgrade"]}>
+<Pair single id="curse-resistance-ex">Curse Resistance (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">An antiquarian gains a +2 bonus on all saving throws against spells and effects with the curse descriptor.</Pair>
 <Pair title="At 5th Level">This bonus increases to +4.</Pair>
 <Pair title="At 8th Level">The bonus becomes +8.</Pair>
 <Pair title="At 11th Level">The antiquarian becomes completely immune to such effects.</Pair>
 </Ability>
-<Ability id="arc-investigator-antiquarian-swift-search-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-antiquarian-swift-search-ex" flavor="An antiquarian can study the secrets of a location with incredible speed.">Swift Search (Ex)</Pair>
+<Ability id="swift-search-ex" icon={["upgrade"]}>
+<Pair single id="swift-search-ex" flavor="An antiquarian can study the secrets of a location with incredible speed.">Swift Search (Ex)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">Whenever he takes 20 on a Perception check, it takes him only 1 minute.</Pair>
@@ -37,20 +37,20 @@ const _antiquarian = {title: "Antiquarian", jsx: <><h2 id="arc-investigator-anti
 </>};
 const _bonded_investigator = {title: "Bonded Investigator", jsx: <><h2 id="arc-investigator-bonded_investigator-bonded-investigator">Bonded Investigator</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 38</Link><br/>Bonded investigators use intelligent familiars to assist them in their investigations. They are common in the Inner Sea region's bustling cities, where a rat, cat, raven, or another small animal can go largely unnoticed.</p>
-<Ability id="arc-investigator-bonded_investigator-familiar-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-bonded_investigator-familiar-ex">Familiar (Ex)</Pair>
+<Ability id="familiar-ex" icon={["stairs-goal"]}>
+<Pair single id="familiar-ex">Familiar (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore, poison resistance, poison immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A bonded investigator gains a <Link to="/ability/familiar">familiar</Link> to aid him. This <Link to="/sidekick/familiar">familiar</Link> functions as the <Link to="/class/wizard">wizard</Link> arcane bond class feature, using the bonded investigator's class level to determine the familiar's special abilities. The bonded investigator's extracts are considered spells for the purposes of familiar abilities like <em>share spell</em> and <em>deliver touch spells.</em></Pair>
 </Ability>
-<Ability id="arc-investigator-bonded_investigator-inspired-familiar-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-bonded_investigator-inspired-familiar-ex">Inspired Familiar (Ex)</Pair>
+<Ability id="inspired-familiar-ex" icon={["stairs-goal"]}>
+<Pair single id="inspired-familiar-ex">Inspired Familiar (Ex)</Pair>
 <Pair hl title="Replaces">Studied strike damage gained at 4th level</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A bonded investigator's familiar becomes a cunning assistant to the investigator. The familiar can access the investigator's <em>inspiration pool</em> to augment its own actions; the use of <em>inspiration</em> is deducted from the investigator's number of daily uses as normal. The familiar can use the <em>inspiration</em> ability (and gains the increased benefits of investigator talents that affect the bonus dice used in this ability) but cannot expend uses of <em>inspiration</em> for other purposes.</Pair>
 </Ability>
-<Ability id="arc-investigator-bonded_investigator-studied-strike-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-bonded_investigator-studied-strike-ex">Studied Strike (Ex)</Pair>
+<Ability id="studied-strike-ex" icon={["stairs-goal"]}>
+<Pair single id="studied-strike-ex">Studied Strike (Ex)</Pair>
 <Pair hl title="Alters">Studied strike</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">A bonded investigator gains <em>studied strike</em> +1d6.</Pair>
@@ -58,8 +58,8 @@ const _bonded_investigator = {title: "Bonded Investigator", jsx: <><h2 id="arc-i
 <Pair title="At 14th Level">This damage increases to +3d6.</Pair>
 <Pair title="At 18th Level">This damage becomes +4d6.</Pair>
 </Ability>
-<Ability id="arc-investigator-bonded_investigator-improved-familiar-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-bonded_investigator-improved-familiar-ex">Improved Familiar (Ex)</Pair>
+<Ability id="improved-familiar-ex" icon={["stairs-goal"]}>
+<Pair single id="improved-familiar-ex">Improved Familiar (Ex)</Pair>
 <Pair hl title="Replaces">Investigator talent gained at 7th level</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A bonded investigator gains the <Link to="/feat/improved_familiar">Improved Familiar</Link> feat as a bonus feat, treating his investigator level as his arcane caster level for the purposes of determining what familiars are available to him.</Pair>
@@ -77,26 +77,26 @@ const _cartographer = {title: "Cartographer", jsx: <><h2 id="arc-investigator-ca
 <p>Much like alchemy, cartography requires materials, but the cost of those materials is negligible. However, knowing an area so well as to gain these benefits requires more than just paper and ink - a great deal of memorization and a bit of inspiration are also required. For this reason, a cartographer can maintain these benefits in only one area at a time. The benefits remain in effect until the cartographer studies a new area or refreshes his <em>inspiration pool.</em></p>
 </Pair>
 </Ability>
-<Ability id="arc-investigator-cartographer-dungeon-map" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-cartographer-dungeon-map">Dungeon Map</Pair>
+<Ability id="dungeon-map" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Pair single id="dungeon-map">Dungeon Map</Pair>
 <Pair title="Ability">While indoors, underground, or in any other type of environment where visibility is limited by walls, the radius is 100 feet per level, and only areas that the cartographer has explored within the past 24 hours count as <em>studied terrain.</em> Areas explored after drawing the map do not retroactively become part of the *studied terrain.</Pair>
 </Ability>
-<Ability id="arc-investigator-cartographer-overland-map" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-cartographer-overland-map">Overland Map</Pair>
+<Ability id="overland-map" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Pair single id="overland-map">Overland Map</Pair>
 <Pair title="Ability">In natural terrain, the radius of the mapped area is equal to 1 mile per investigator level. If he is unable to see the whole area, he extrapolates and uses his knowledge of geography to fill in the blanks.</Pair>
 </Ability>
-<Ability id="arc-investigator-cartographer-town-map" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-cartographer-town-map">Town Map</Pair>
+<Ability id="town-map" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Pair single id="town-map">Town Map</Pair>
 <Pair title="Ability">While in an urban area or ruins, the radius is 1,000 feet per level or the entirety of the urban or ruined area, whichever is smaller.</Pair>
 </Ability>
-<Ability id="arc-investigator-cartographer-geographic-lore-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-cartographer-geographic-lore-ex">Geographic Lore (Ex)</Pair>
+<Ability id="geographic-lore-ex" icon={["stairs-goal"]}>
+<Pair single id="geographic-lore-ex">Geographic Lore (Ex)</Pair>
 <Pair hl title="Replaces">Keen recollection</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A cartographer gains a deeper understanding of wilderness terrain. Whenever he is on the Material Plane, he can determine where true north is as a <strong className="hl">full-round action</strong>. Furthermore, he can create and sell maps to earn a number of gold pieces per week of dedicated work equal to half his Knowledge (geography) check result per week.</Pair>
 </Ability>
-<Ability id="arc-investigator-cartographer-swift-travels-ex" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-investigator-cartographer-swift-travels-ex">Swift Travels (Ex)</Pair>
+<Ability id="swift-travels-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="swift-travels-ex">Swift Travels (Ex)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">While in <em>studied terrain,</em> a cartographer intuitively knows the easiest, shortest, and fastest way through the wilderness. For the purpose of determining <Link to="/rule/overland_speed">overland speed</Link>, the cartographer treats any trackless terrain as though he were on a trail, and he treats any terrain with a road or trail as though it were a highway. He can extend the benefit to up to one creature per investigator level traveling with him.</Pair>
@@ -104,8 +104,8 @@ const _cartographer = {title: "Cartographer", jsx: <><h2 id="arc-investigator-ca
 </>};
 const _cipher = {title: "Cipher", jsx: <><h2 id="arc-investigator-cipher-cipher">Cipher</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 32</Link><br/>A cipher is a student of nonexistence. He trains himself to remain undetected and ignored in order to conduct his investigations without opposition or bothersome questions. By staying unseen, a cipher can follow and observe his quarry; being overlooked in a crowd suits him just fine.</p>
-<Ability id="arc-investigator-cipher-unassuming-ex" icon={["skills"]}>
-<Pair single id="arc-investigator-cipher-unassuming-ex" flavor="A cipher relies on subtlety, rather than skills that would draw attention to him.">Unassuming (Ex)</Pair>
+<Ability id="unassuming-ex" icon={["skills"]}>
+<Pair single id="unassuming-ex" flavor="A cipher relies on subtlety, rather than skills that would draw attention to him.">Unassuming (Ex)</Pair>
 <Pair hl title="Alters">Class skills, inspiration</Pair>
 <Pair title="Passive Ability">A cipher removes Bluff, Diplomacy, Intimidate, and Perform from his list of class skills, and he can never use them with <em>inspiration,</em> regardless of any talents or other abilities he might have.</Pair>
 <Pair title="Ability">A cipher can use his <em>inspiration</em> on any Disguise, Escape Artist, Knowledge (local), Sleight of Hand, and Stealth check without expending a use of <em>inspiration,</em> provided he is trained in the skill, instead of the normal investigator ability to use <em>inspiration</em> on any Knowledge, Linguistics, or Spellcraft check without expending a use of <em>inspiration.</em></Pair>
@@ -136,20 +136,20 @@ const _cipher = {title: "Cipher", jsx: <><h2 id="arc-investigator-cipher-cipher"
 </Pair>
 <Pair title="At 9th Level">A cipher benefits from constant <Link to="/spell/nondetection">nondetection</Link>, requiring those who wish to use divinations on him to succeed at a caster level check (DC = 15 + his investigator level).</Pair>
 </Ability>
-<Ability id="arc-investigator-cipher-evasive-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-cipher-evasive-ex">Evasive (Ex)</Pair>
+<Ability id="evasive-ex" icon={["armor-upgrade"]}>
+<Pair single id="evasive-ex">Evasive (Ex)</Pair>
 <Pair hl title="Replaces">Investigator talents gained at 3rd and 11th levels</Pair>
 <Pair title="At 3rd Level">A cipher can avoid unusual attacks. He gains the <Link to="/ability/evasion">evasion</Link> ability.</Pair>
 <Pair title="At 11th Level">He gains the <Link to="/ability/improved_evasion">improved evasion</Link> ability.</Pair>
 </Ability>
-<Ability id="arc-investigator-cipher-tenuous-threat-su" icon={["mailed-fist"]}>
-<Pair single id="arc-investigator-cipher-tenuous-threat-su">Tenuous Threat (Su)</Pair>
+<Ability id="tenuous-threat-su" icon={["mailed-fist"]}>
+<Pair single id="tenuous-threat-su">Tenuous Threat (Su)</Pair>
 <Pair hl title="Alters">Studied strike, the investigator talent gained at 5th level</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A cipher's opponents tend to forget that he is a threat. The first time each day that he successfully hits an opponent who is not the target of his <em>studied combat</em> with a melee attack, the opponent must succeed at a Will save (DC = 10 + 1/2 the cipher's investigator level + his Intelligence modifier) or be affected by the cipher's <em>studied strike.</em> This is a mind-affecting effect.</Pair>
 </Ability>
-<Ability id="arc-investigator-cipher-hide-in-plain-sight-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-cipher-hide-in-plain-sight-su">Hide in Plain Sight (Su)</Pair>
+<Ability id="hide-in-plain-sight-su" icon={["armor-upgrade"]}>
+<Pair single id="hide-in-plain-sight-su">Hide in Plain Sight (Su)</Pair>
 <Pair hl title="Replaces">Investigator talent gained at 7th level</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A cipher can use the Stealth skill to hide even while being observed; as long as his observer is within range of his <em>inattention blindness</em> ability (even if it is not affected by <em>inattention blindness</em>), he can hide without anything to actually hide behind.</Pair>
@@ -157,16 +157,16 @@ const _cipher = {title: "Cipher", jsx: <><h2 id="arc-investigator-cipher-cipher"
 </>};
 const _conspirator = {title: "Conspirator", jsx: <><h2 id="arc-investigator-conspirator-conspirator">Conspirator</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 33</Link><br/>A conspirator uses his knowledge of investigations to make sure he avoids any investigations that his rivals perform, carefully plotting acts of intrigue behind closed doors. Paranoid to a fault, a conspirator always seems to know when someone else is watching him, and he takes numerous precautions to prevent anyone from observing his most illict actions.</p>
-<Ability id="arc-investigator-conspirator-underhanded-ex" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-investigator-conspirator-underhanded-ex" flavor="Conspirators find their skill sets firmly aligned with the goals of the criminal underworld.">Underhanded (Ex)</Pair>
+<Ability id="underhanded-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="underhanded-ex" flavor="Conspirators find their skill sets firmly aligned with the goals of the criminal underworld.">Underhanded (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair hl title="Alters">Inspiration</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A conspirator can use <em>inspiration</em> on any Bluff, Disable Device, Disguise, Intimidate, and Sleight of Hand check without expending a use of <em>inspiration,</em> provided he is trained in the skill, instead of on any Knowledge, Linguistics, and Spellcraft check. He can later choose to trade an investigator talent for the ability to use <em>inspiration</em> on any Knowledge, Linguistics, and Spellcraft check without expending a use of inspirtation, provided he is trained in the skill.</Pair>
 <Pair title="Passive Ability">A conspirator adds half his investigator level (minimum 1) on Bluff checks to appear innocent and on Disguise checks.</Pair>
 </Ability>
-<Ability id="arc-investigator-conspirator-watcher-sense-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-conspirator-watcher-sense-ex">Watcher Sense (Ex)</Pair>
+<Ability id="watcher-sense-ex" icon={["armor-upgrade"]}>
+<Pair single id="watcher-sense-ex">Watcher Sense (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense, investigator talent gained at 7th level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A conspirator is able to sense when someone else is watching him. He gains a bonus on Perception checks to notice <Link to="/spell/scrying">scrying</Link> sensors, <Link to="/spell/prying_eyes">prying eyes</Link>, and other magical effects used to watch him, as well as on Perception checks to act on the surprise round. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of his investigator level.</Pair>
@@ -175,22 +175,22 @@ const _conspirator = {title: "Conspirator", jsx: <><h2 id="arc-investigator-cons
 </>};
 const _cryptid_scholar = {title: "Cryptid Scholar", jsx: <><h2 id="arc-investigator-cryptid_scholar-cryptid-scholar">Cryptid Scholar</h2>
 <p><strong>Sources</strong> <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 18</Link><br/>Cryptid scholars research monsters that lurk secretly at the edge of civilization, developing a deep expertise regarding their anatomy, habits, and ecology. Most cryptid scholars are affiliated with the University of Lepidstadt, but spend more time away performing field work than they do consorting with their fellow scholars (many of whom find a cryptid scholar's peculiar specialty suspicious at best). Although competent as lone monster hunters, cryptid scholars excel when they have associates with whom to share their insights.</p>
-<Ability id="arc-investigator-cryptid_scholar-intuitive-monster-lore-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-cryptid_scholar-intuitive-monster-lore-ex">Intuitive Monster Lore (Ex)</Pair>
+<Ability id="intuitive-monster-lore-ex" icon={["upgrade"]}>
+<Pair single id="intuitive-monster-lore-ex">Intuitive Monster Lore (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore, poison resistance</Pair>
 <Pair title="Passive Ability">A cryptid scholar adds his Wisdom modifier on Knowledge skill checks in addition to his Intelligence modifier when attempting skill checks to identify the abilities and weaknesses of creatures.</Pair>
 <Pair title="At 5th Level">A cryptid scholar can take 10 on such checks, even when threatened or distracted.</Pair>
 </Ability>
-<Ability id="arc-investigator-cryptid_scholar-opportune-advice-ex" icon={["armor-upgrade","broken-shield"]}>
-<Pair single id="arc-investigator-cryptid_scholar-opportune-advice-ex">Opportune Advice (Ex)</Pair>
+<Ability id="opportune-advice-ex" icon={["armor-upgrade","broken-shield"]}>
+<Pair single id="opportune-advice-ex">Opportune Advice (Ex)</Pair>
 <Pair hl title="Replaces">Studied combat</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Move-Equivalent Action">When the cryptid scholar succeeds at a Knowledge check to identify a monster's special powers or vulnerabilities, he can share his insights with his allies. Allies within 30 feet who can hear the cryptid scholar gain an insight bonus to their ACs and on saving throws against extraordinary, supernatural, and spell-like abilities used by creatures of the same type and all the same subtypes as the monster identified. This bonus is equal to <Link to="/misc/one_fourth">one-fourth</Link> of his investigator level, and it lasts for a number of rounds equal to the cryptid scholar's Intelligence modifier (minimum 1) or until he uses <em>knowledgeable strike</em> (see below), whichever comes first. A creature cannot benefit from opportune advice regarding more than one specific kind of monster at a time.</Pair>
 <Pair title="Info">The cryptid scholar cannot choose investigator talents that add effects to <em>studied combat</em> or <em>studied strike.</em></Pair>
 <Pair title="Special">Once the cryptid scholar has used this ability to provide a bonus against a specific kind of monster, he can't grant a bonus against that same kind of monster again for 24 hours, unless he expends one use of <em>inspiration</em> when taking a move action to use this ability.</Pair>
 </Ability>
-<Ability id="arc-investigator-cryptid_scholar-knowledgeable-strike-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-cryptid_scholar-knowledgeable-strike-ex" flavor="The cryptid scholar can direct allies to exploit a monster's weaknesses.">Knowledgeable Strike (Ex)</Pair>
+<Ability id="knowledgeable-strike-ex" icon={["upgrade"]}>
+<Pair single id="knowledgeable-strike-ex" flavor="The cryptid scholar can direct allies to exploit a monster's weaknesses.">Knowledgeable Strike (Ex)</Pair>
 <Pair hl title="Replaces">Studied strike</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">If the cryptid scholar ends his <em>opportune advice</em> early as a <strong className="hl">move action</strong>, each ally within 30 feet who can hear the cryptid scholar deals +1d6 additional damage on its next successful unarmed, natural, or weapon attack against that specific kind of monster within 1 round.</Pair>
@@ -203,13 +203,13 @@ const _cryptid_scholar = {title: "Cryptid Scholar", jsx: <><h2 id="arc-investiga
 </>};
 const _cult_hunter = {title: "Cult Hunter", jsx: <><h2 id="arc-investigator-cult_hunter-cult-hunter">Cult Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 54</Link><br/>Cult hunters seek out heretical secret societies, purging their ideological taint and banishing summoned servants.</p>
-<Ability id="arc-investigator-cult_hunter-sense-madness-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-cult_hunter-sense-madness-ex">Sense Madness (Ex)</Pair>
+<Ability id="sense-madness-ex" icon={["upgrade"]}>
+<Pair single id="sense-madness-ex">Sense Madness (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair title="Passive Ability">A cult hunter adds a bonus equal to 1/2 his class level (minimum +1) on Sense Motive checks, or double that bonus to determine whether a creature suffers from natural or magical insanity.</Pair>
 </Ability>
-<Ability id="arc-investigator-cult_hunter-purify-mind-and-body-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-cult_hunter-purify-mind-and-body-ex">Purify Mind and Body (Ex)</Pair>
+<Ability id="purify-mind-and-body-ex" icon={["armor-upgrade"]}>
+<Pair single id="purify-mind-and-body-ex">Purify Mind and Body (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance, poison immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A cult hunter gains a +1 bonus on saving throws against compulsions and poisons.</Pair>
@@ -217,43 +217,43 @@ const _cult_hunter = {title: "Cult Hunter", jsx: <><h2 id="arc-investigator-cult
 <Pair title="At 8th Level">This bonus becomes +3.</Pair>
 <Pair title="At 11th Level">A cult hunter who fails a saving throw against a compulsion or poison can expend 1 use of his <em>inspiration</em> to reroll the saving throw (and his inspiration die, if added to the save). He must accept the result of this second roll, even if it is worse.</Pair>
 </Ability>
-<Ability id="arc-investigator-cult_hunter-student-of-the-beyond-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-cult_hunter-student-of-the-beyond-ex">Student of the Beyond (Ex)</Pair>
+<Ability id="student-of-the-beyond-ex" icon={["upgrade"]}>
+<Pair single id="student-of-the-beyond-ex">Student of the Beyond (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A cult hunter gains a bonus equal to 1/2 his class level on Knowledge and Spellcraft checks made to recognize any calling and summoning spells, portals, rifts, and planar travel.</Pair>
 </Ability>
-<Ability id="arc-investigator-cult_hunter-ambush-defense-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-cult_hunter-ambush-defense-ex">Ambush Defense (Ex)</Pair>
+<Ability id="ambush-defense-ex" icon={["armor-upgrade"]}>
+<Pair single id="ambush-defense-ex">Ambush Defense (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A cult hunter gains an insight bonus during a surprise round triggered by his enemies on Reflex saves and to his AC. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of his investigator level.</Pair>
 </Ability>
-<Ability id="arc-investigator-cult_hunter-cultic-study-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-cult_hunter-cultic-study-ex">Cultic Study (Ex)</Pair>
+<Ability id="cultic-study-ex" icon={["upgrade"]}>
+<Pair single id="cultic-study-ex">Cultic Study (Ex)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A cult hunter can spend 8 hours studying a specific deity or religion to gain a bonus on Bluff, Intimidate, Knowledge, Perception, and Sense Motive checks against followers of that deity or religion and against extraplanar creatures. These bonuses are equal to one-fourth of his investigator level.</Pair>
 <Pair title="Special">If he studies a new deity or religion, the bonuses replace the former bonuses.</Pair>
 </Ability>
-<Ability id="arc-investigator-cult_hunter-cult-combat-ex" icon={["upgrade","broken-shield"]}>
-<Pair single id="arc-investigator-cult_hunter-cult-combat-ex">Cult Combat (Ex)</Pair>
+<Ability id="cult-combat-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="cult-combat-ex">Cult Combat (Ex)</Pair>
 <Pair hl title="Alters">Studied combat</Pair>
 <Pair title="Passive Ability">A cult hunter's bonuses on attack and damage rolls when using <em>studied combat</em> increase by 1 against followers of the cult he chose with his <em>cultic study</em> ability and decrease by 1 against other targets.</Pair>
 </Ability>
-<Ability id="arc-investigator-cult_hunter-cult-strike-ex" icon={["upgrade","broken-shield"]}>
-<Pair single id="arc-investigator-cult_hunter-cult-strike-ex">Cult Strike (Ex)</Pair>
+<Ability id="cult-strike-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="cult-strike-ex">Cult Strike (Ex)</Pair>
 <Pair hl title="Alters">Studied strike</Pair>
 <Pair title="Passive Ability">A cult hunter's <em>studied strike</em> uses d8s for the bonus damage against targets that belong to the cult he's studied. Against other targets, his <em>studied strike</em> uses d4s for the bonus damage.</Pair>
 </Ability>
-<Ability id="arc-investigator-cult_hunter-summoning-sense-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-cult_hunter-summoning-sense-su">Summoning Sense (Su)</Pair>
+<Ability id="summoning-sense-su" icon={["armor-upgrade"]}>
+<Pair single id="summoning-sense-su">Summoning Sense (Su)</Pair>
 <Pair hl title="Replaces">The 7th-level investigator talent</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">A cult hunter gains the benefits of <Link to="/ability/uncanny_dodge">uncanny dodge</Link> and <Link to="/ability/improved_uncanny_dodge">improved uncanny dodge</Link> against summoned creatures.</Pair>
 </Ability>
-<Ability id="arc-investigator-cult_hunter-extraplanar-expulsion-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-cult_hunter-extraplanar-expulsion-sp">Extraplanar Expulsion (Sp)</Pair>
+<Ability id="extraplanar-expulsion-sp" icon={["magic-swirl"]}>
+<Pair single id="extraplanar-expulsion-sp">Extraplanar Expulsion (Sp)</Pair>
 <Pair hl title="Replaces">The 13th-level investigator talent</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Ability">A cult hunter can grant himself the ability to use <Link to="/spell/dispel_evil">dispel chaos, dispel evil, dispel good, or dispel law</Link> as a spell-like ability (using his investigator level as his caster level and his Intelligence to determine the DCs) by sacrificing an unused 5th- or 6th-level extract for the day.</Pair>
@@ -262,14 +262,14 @@ const _cult_hunter = {title: "Cult Hunter", jsx: <><h2 id="arc-investigator-cult
 </>};
 const _dread_investigator = {title: "Dread Investigator", jsx: <><h2 id="arc-investigator-dread_investigator-dread-investigator">Dread Investigator</h2>
 <p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions pg. 14</Link><br/>The dread investigator observes human behavior after the fact, honing their intuition by delving into the mysteries of death. They breach sealed tombs to recover research material rather than riches. Many join - or found - cults dedicated to <Link to="/faith/urgathoa">Urgathoa</Link>, while others are simply researchers or Osirionologists who must become accustomed to undeath to pursue their work.</p>
-<Ability id="arc-investigator-dread_investigator-delayed-inspiration" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-investigator-dread_investigator-delayed-inspiration">Delayed Inspiration</Pair>
+<Ability id="delayed-inspiration" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="delayed-inspiration">Delayed Inspiration</Pair>
 <Pair hl title="Alters">Inspiration, studied combat, studied strike</Pair>
 <Pair title="At 1st Level">A dread investigator gains <em>inspiration</em> at 4th level instead of 1st.</Pair>
 <Pair title="At 7th Level">He gains <em>studied combat</em> and <em>studied strike</em> at 7th level instead of 4th. A dread investigator's <em>studied strike</em> deals 1d6 fewer points of damage than normal.</Pair>
 </Ability>
-<Ability id="arc-investigator-dread_investigator-embalming-fluids-ex" icon={["spell-book"]}>
-<Pair single id="arc-investigator-dread_investigator-embalming-fluids-ex">Embalming Fluids (Ex)</Pair>
+<Ability id="embalming-fluids-ex" icon={["spell-book"]}>
+<Pair single id="embalming-fluids-ex">Embalming Fluids (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Info">A dread investigator adds the following spells to his class list of extracts.</Pair>
 <Pair plain title="1st"><Link to="/spell/hide_from_undead">Hide from undead</Link>, <Link to="/spell/sanctify_corpse">sanctify corpse</Link></Pair>
@@ -278,8 +278,8 @@ const _dread_investigator = {title: "Dread Investigator", jsx: <><h2 id="arc-inv
 <Pair plain title="4th"><Link to="/spell/rest_eternal">Rest eternal</Link></Pair>
 <Pair title="Special">A dread investigator can use these extracts to affect dead bodies as if using the <Link to="/discovery/infusion">infusion</Link> discovery to affect another creature.</Pair>
 </Ability>
-<Ability id="arc-investigator-dread_investigator-negative-energy-resistance-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-dread_investigator-negative-energy-resistance-ex">Negative Energy Resistance (Ex)</Pair>
+<Ability id="negative-energy-resistance-ex" icon={["armor-upgrade"]}>
+<Pair single id="negative-energy-resistance-ex">Negative Energy Resistance (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance, immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A dread investigator gains a +2 bonus on saving throws against death effects, <Link to="/rule/energy_drain">energy drain</Link>, and negative energy.</Pair>
@@ -287,12 +287,12 @@ const _dread_investigator = {title: "Dread Investigator", jsx: <><h2 id="arc-inv
 <Pair title="At 8th Level">This bonus becomes +6.</Pair>
 <Pair title="At 11th Level">Effects created by undead that inflict <Link to="/rule/ability_drain">ability drain, ability damage</Link>, or energy drain have only half their normal effect on a dread investigator (minimum 1 point of ability damage or ability drain, or 1 negative level).</Pair>
 </Ability>
-<Ability id="arc-investigator-dread_investigator-investigator-talent" icon={["upgrade"]}>
-<Pair single id="arc-investigator-dread_investigator-investigator-talent">Investigator Talent</Pair>
+<Ability id="investigator-talent" icon={["upgrade"]}>
+<Pair single id="investigator-talent">Investigator Talent</Pair>
 <Pair title="Ability">When a dread investigator selects the <Link to="/invtalent/alchemist_discovery">alchemist discovery</Link> talent, he can select from the following additional discoveries: <Link to="/discovery/alchemical_zombie">alchemical zombie</Link>, <Link to="/discovery/mummification">mummification</Link>, or <Link to="/discovery/preserve_organs">preserve organs</Link>.</Pair>
 </Ability>
-<Ability id="arc-investigator-dread_investigator-reanimation-fluid-ex" icon={["spell-book","remedy"]}>
-<Pair single id="arc-investigator-dread_investigator-reanimation-fluid-ex">Reanimation Fluid (Ex)</Pair>
+<Ability id="reanimation-fluid-ex" icon={["spell-book","remedy"]}>
+<Pair single id="reanimation-fluid-ex">Reanimation Fluid (Ex)</Pair>
 <Pair hl title="Replaces">Investigator talents gained at 7th, 13th, and 19th level</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">A dread investigator adds <Link to="/spell/undead_anatomy_i">undead anatomy I</Link> to his formula book, and he can share this extract with an unconscious creature as if he had the <em>infusion</em> discovery. If the creature is dying when it receives the infusion, it stabilizes and gains <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to twice the dread investigator's level. Rather than having the extract take effect immediately, the dread investigator may choose for the extract to remain latent for up to 10 minutes per level. He can trigger the extract's effect at any point by touching the creature as a <strong className="hl">standard action</strong>, and it automatically triggers if the creature using it is reduced to 0 or fewer hit points. The dread investigator can also amplify the effect of the extract, allowing it to function as <Link to="/spell/undead_anatomy_ii">undead anatomy II</Link>, but this reduces the extract's duration to 1 round per level and at the end of its duration the creature using the extract is reduced to -1 hit points.</Pair>
@@ -302,14 +302,14 @@ const _dread_investigator = {title: "Dread Investigator", jsx: <><h2 id="arc-inv
 </>};
 const _empiricist = {title: "Empiricist", jsx: <><h2 id="arc-investigator-empiricist-empiricist">Empiricist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 100</Link><br/>Champions of deductive reasoning and logical insight, empiricists put their faith in facts, data, confirmed observations, and consistently repeatable experiments - these things are their currency of truth.</p>
-<Ability id="arc-investigator-empiricist-ceaseless-observation-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-empiricist-ceaseless-observation-ex" flavor="An empiricist's ability to notice the minutiae of almost everything that happens around him allows him to make shrewd and insightful calculations about people and even inanimate objects.">Ceaseless Observation (Ex)</Pair>
+<Ability id="ceaseless-observation-ex" icon={["stairs-goal"]}>
+<Pair single id="ceaseless-observation-ex" flavor="An empiricist's ability to notice the minutiae of almost everything that happens around him allows him to make shrewd and insightful calculations about people and even inanimate objects.">Ceaseless Observation (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore, poison resistance</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">An empiricist uses his Intelligence modifier instead of the skill's typical ability for all Disable Device, Perception, Sense Motive, and Use Magic Device checks. He can also use his Intelligence modifier instead of Charisma on any Diplomacy checks made to gather information.</Pair>
 </Ability>
-<Ability id="arc-investigator-empiricist-unfailing-logic-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-empiricist-unfailing-logic-ex" flavor="An empiricist's grasp of facts and data teaches him to anchor himself in reality, granting resistance to even the most potent illusions.">Unfailing Logic (Ex)</Pair>
+<Ability id="unfailing-logic-ex" icon={["upgrade"]}>
+<Pair single id="unfailing-logic-ex" flavor="An empiricist's grasp of facts and data teaches him to anchor himself in reality, granting resistance to even the most potent illusions.">Unfailing Logic (Ex)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">An empiricist gains a +2 insight bonus on all Will saving throws against illusion spells or spell-like abilities that allow a save to disbelieve their effects.</Pair>
@@ -317,8 +317,8 @@ const _empiricist = {title: "Empiricist", jsx: <><h2 id="arc-investigator-empiri
 <Pair title="At 8th Level">The empiricist's insight bonus increases to +4.</Pair>
 <Pair title="At 16th Level">He gains immunity to all illusion spells and spell-like abilities that allow a save to disbelieve the effects.</Pair>
 </Ability>
-<Ability id="arc-investigator-empiricist-master-intellect-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-empiricist-master-intellect-ex" flavor="An empiricist's powers of reason and deduction become almost superhuman, and he is able to use them in nearly all aspects of life.">Master Intellect (Ex)</Pair>
+<Ability id="master-intellect-ex" icon={["upgrade"]}>
+<Pair single id="master-intellect-ex" flavor="An empiricist's powers of reason and deduction become almost superhuman, and he is able to use them in nearly all aspects of life.">Master Intellect (Ex)</Pair>
 <Pair hl title="Replaces">True inspiration</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">An empiricist can use <em>inspiration</em> on all skills (even ones he is not trained in) and all ability checks (including initiative checks) without spending <em>inspiration.</em></Pair>
@@ -326,16 +326,16 @@ const _empiricist = {title: "Empiricist", jsx: <><h2 id="arc-investigator-empiri
 </>};
 const _engineer = {title: "Engineer", jsx: <><h2 id="arc-investigator-engineer-engineer">Engineer</h2>
 <p><strong>Sources</strong> <Link to="/source/construct_handbook">Construct Handbook pg. 13</Link><br/>A number of investigators use their vast knowledge to build machines that replicate the intricacies of the world. These investigators create devices to enhance the minds and bodies of their allies and themselves.</p>
-<Ability id="arc-investigator-engineer-custom-mechanism-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-engineer-custom-mechanism-ex">Custom Mechanism (Ex)</Pair>
+<Ability id="custom-mechanism-ex" icon={["stairs-goal"]}>
+<Pair single id="custom-mechanism-ex">Custom Mechanism (Ex)</Pair>
 <Pair hl title="Replaces">The trapfinding, poison lore, poison resistance</Pair>
 <Pair title="Ability">An engineer can create a mechanism, a small device that assists with the execution of an activity. Creating a mechanism requires 1 minute of time and expends 1 use from the engineer's <em>inspiration pool.</em> An engineer chooses a skill to associate with the mechanism when he creates it. As an <strong className="hl">immediate action</strong>, a mechanism can be activated to grant the engineer's inspiration die on a check of the associated skill. A mechanism remains active for a number of minutes equal to the engineer's Intelligence modifier (minimum 1).</Pair>
 <Pair title="At 5th Level">An engineer's mechanisms remain active for a number of minutes equal to the engineer's level.</Pair>
 <Pair title="At 11th Level">An engineer's mechanisms remain active for a number of hours equal to the engineer's level.</Pair>
 <Pair title="Special">An engineer can create a mechanism that affects attack rolls or saving throws, but she expends 2 uses from her <em>inspiration pool</em> to do so. Any creature can use a mechanism, but a creature can have only 1 mechanism at a time, as multiple mechanisms interfere with each other while in close proximity.</Pair>
 </Ability>
-<Ability id="arc-investigator-engineer-mechanical-understanding-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-engineer-mechanical-understanding-ex">Mechanical Understanding (Ex)</Pair>
+<Ability id="mechanical-understanding-ex" icon={["upgrade"]}>
+<Pair single id="mechanical-understanding-ex">Mechanical Understanding (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">An engineer gains a deeper understanding of constructs and machines. He gains a bonus on Knowledge (arcana) checks to identify constructs and on Knowledge (engineering) checks. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of his investigator level.</Pair>
@@ -343,16 +343,16 @@ const _engineer = {title: "Engineer", jsx: <><h2 id="arc-investigator-engineer-e
 </>};
 const _forensic_physician = {title: "Forensic Physician", jsx: <><h2 id="arc-investigator-forensic_physician-forensic-physician">Forensic Physician</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 33</Link><br/>A forensic physician specializes in analyzing medical details in order to solve crimes and uncover evidence. Whether it is a disease, blood work, a poison, or bones, the forensic physician's medical expertise allows him great insight into his cases, much to the chagrin of criminals who seek to cover up the nature of their crimes, even those with magical methods at their disposal.</p>
-<Ability id="arc-investigator-forensic_physician-medical-expertise-ex" icon={["upgrade","broken-shield"]}>
-<Pair single id="arc-investigator-forensic_physician-medical-expertise-ex">Medical Expertise (Ex)</Pair>
+<Ability id="medical-expertise-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="medical-expertise-ex">Medical Expertise (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair hl title="Alters">Inspiration</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A forensic physician can use <em>inspiration</em> on any Heal checks without expending a use, if he is trained in the skill, but not on any Linguistics check. If he later takes the <Link to="/invtalent/expanded_inspiration">expanded inspiration</Link> investigator talent, he can use <em>inspiration</em> on Linguistic checks without expending a use, if he is trained in the skill.</Pair>
 <Pair title="Passive Ability">A forensic physician adds half his investigator level (minimum 1) on Heal checks. This bonus doubles on Heal checks to notice tampering with medical evidence, such as those used to defeat <Link to="/spell/dress_corpse">dress corpse</Link>.</Pair>
 </Ability>
-<Ability id="arc-investigator-forensic_physician-disease-lore-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-forensic_physician-disease-lore-ex">Disease Lore (Ex)</Pair>
+<Ability id="disease-lore-ex" icon={["upgrade"]}>
+<Pair single id="disease-lore-ex">Disease Lore (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense, investigator talent gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A forensic physician can use <Link to="/skill/heal">Heal</Link> to identify a disease after only 1 minute of examining the symptoms (DC = the disease's saving throw DC), and he can spend 1 minute and attempt a Heal check at the same DC to disinfect an infected object or corpse.</Pair>
@@ -374,18 +374,18 @@ const _forensic_physician = {title: "Forensic Physician", jsx: <><h2 id="arc-inv
 </>};
 const _gravedigger = {title: "Gravedigger", jsx: <><h2 id="arc-investigator-gravedigger-gravedigger">Gravedigger</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 54</Link><br/>Gravediggers pursue long buried mysteries, figuratively and literally digging up the truth and finding answers to secrets only moldering corpses and dry bones can tell.</p>
-<Ability id="arc-investigator-gravedigger-weapon-and-armor-proficiency" icon={["broken-shield","stairs-goal"]}>
-<Pair single id="arc-investigator-gravedigger-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Ability id="weapon-and-armor-proficiency" icon={["broken-shield","stairs-goal"]}>
+<Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Replaces">Weapon and armor proficiencies</Pair>
 <Pair title="Info">A gravedigger is proficient with simple weapons and <Link to="/eq-weapon/scythe">scythes</Link>, and can fight with gravediggers' tools such as a shovel or lantern as if she had the <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> feat. A gravedigger is proficient with light armor, but not with shields.</Pair>
 </Ability>
-<Ability id="arc-investigator-gravedigger-limited-alchemy" icon={["broken-shield"]}>
-<Pair single id="arc-investigator-gravedigger-limited-alchemy">Limited Alchemy</Pair>
+<Ability id="limited-alchemy" icon={["broken-shield"]}>
+<Pair single id="limited-alchemy">Limited Alchemy</Pair>
 <Pair hl title="Alters">Alchemy, investigator talents</Pair>
 <Pair title="Ability">A gravedigger prepares and uses extracts as an investigator but gains no other benefits of the <em>alchemy</em> ability. This also means that a gravedigger can't take the <Link to="/invtalent/alchemist_discovery">alchemist discovery</Link> investigator talent or any discovery that affects or involves alchemy.</Pair>
 </Ability>
-<Ability id="arc-investigator-gravedigger-grave-magic-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-gravedigger-grave-magic-sp">Grave Magic (Sp)</Pair>
+<Ability id="grave-magic-sp" icon={["magic-swirl"]}>
+<Pair single id="grave-magic-sp">Grave Magic (Sp)</Pair>
 <Pair title="Ability">A gravedigger can sacrifice unused extract slots of the level given below or higher to use the following spells as spell-like abilities, using her investigator level as her caster level and her Intelligence to determine DCs.</Pair>
 <Pair plain title="1st"><Link to="/spell/expeditious_excavation">Expeditious excavation</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/calm_spirit">Calm spirit</Link></Pair>
@@ -394,14 +394,14 @@ const _gravedigger = {title: "Gravedigger", jsx: <><h2 id="arc-investigator-grav
 <Pair plain title="5th"><Link to="/spell/call_spirit">Call spirit</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/undeath_to_death">Undeath to death</Link></Pair>
 </Ability>
-<Ability id="arc-investigator-gravedigger-relic-focus-su" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-gravedigger-relic-focus-su">Relic Focus (Su)</Pair>
+<Ability id="relic-focus-su" icon={["stairs-goal"]}>
+<Pair single id="relic-focus-su">Relic Focus (Su)</Pair>
 <Pair hl title="Replaces">Trapfinding, trap sense</Pair>
 <Pair title="Ability">A gravedigger can form a psychic bond with a skull or bone that she has personally exhumed or recovered from a burial site, using it as an <Link to="/class/occultist">occultist</Link> <Link to="/implement/necromancy">necromancy implement</Link> and gaining its base focus power. The gravedigger cannot invest mental focus into the implement and thus doesn't receive any resonant powers. However, she can expend one use of <em>inspiration</em> to use any focus power she knows that has a cost of 1 point of mental focus. She can do this a number of times each day equal to 1 + <Link to="/misc/one_third">one-third</Link> of her investigator level.</Pair>
 <Pair title="Special">To activate a focus power that costs more than 1 point of mental focus, the gravedigger can expend that number of daily uses of this ability (as well as uses of <em>inspiration</em>) at the same time. In addition, any number of times per day, she can expend 1 use of <em>inspiration</em> to use <Link to="/spell/grave_words">grave words</Link> as a spell-like ability.</Pair>
 </Ability>
-<Ability id="arc-investigator-gravedigger-deny-death-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-gravedigger-deny-death-ex">Deny Death (Ex)</Pair>
+<Ability id="deny-death-ex" icon={["armor-upgrade"]}>
+<Pair single id="deny-death-ex">Deny Death (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance, poison immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A gravedigger gains a +2 bonus on all saving throws against death effects and <Link to="/rule/energy_drain">energy drain</Link>.</Pair>
@@ -409,24 +409,24 @@ const _gravedigger = {title: "Gravedigger", jsx: <><h2 id="arc-investigator-grav
 <Pair title="At 8th Level">The bonus increases to +6.</Pair>
 <Pair title="At 11th Level">The bonus becomes +8.</Pair>
 </Ability>
-<Ability id="arc-investigator-gravedigger-read-the-bones-su" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-gravedigger-read-the-bones-su">Read the Bones (Su)</Pair>
+<Ability id="read-the-bones-su" icon={["stairs-goal"]}>
+<Pair single id="read-the-bones-su">Read the Bones (Su)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A gravedigger can perform <em>object reading</em> as an occultist, but only on corpses, bones, and other physical remains.</Pair>
 </Ability>
-<Ability id="arc-investigator-gravedigger-focus-talent-su" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-gravedigger-focus-talent-su">Focus Talent (Su)</Pair>
+<Ability id="focus-talent-su" icon={["stairs-goal"]}>
+<Pair single id="focus-talent-su">Focus Talent (Su)</Pair>
 <Pair hl title="Alters">Investigator talents</Pair>
 <Pair title="Ability">A gravedigger can select a focus power for one of her implements as per an occultist of her investigator level in place of an investigator talent.</Pair>
 </Ability>
-<Ability id="arc-investigator-gravedigger-kill-the-dead-ex" icon={["broken-shield"]}>
-<Pair single id="arc-investigator-gravedigger-kill-the-dead-ex">Kill the Dead (Ex)</Pair>
+<Ability id="kill-the-dead-ex" icon={["broken-shield"]}>
+<Pair single id="kill-the-dead-ex">Kill the Dead (Ex)</Pair>
 <Pair hl title="Alters">Studied combat, studied strike</Pair>
 <Pair title="Info">A gravedigger focuses on battling the undead, and her <em>studied combat</em> and <em>studied strike</em> function as if she were 2 levels lower against creatures other than undead (this means she can't use them at all against such creatures until 6th level).</Pair>
 </Ability>
-<Ability id="arc-investigator-gravedigger-grave-lamp-su" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-gravedigger-grave-lamp-su">Grave Lamp (Su)</Pair>
+<Ability id="grave-lamp-su" icon={["stairs-goal"]}>
+<Pair single id="grave-lamp-su">Grave Lamp (Su)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A gravedigger can form a psychic bond with a lantern, using it as a <Link to="/implement/conjuration">conjuration</Link> implement in much the same way as she uses her <em>relic focus</em> as a necromancy implement. She can expend <em>inspiration</em> to fuel her grave lamp's focus powers the same number of times each day as she can for her <em>relic focus</em> (for example, a 6th-level gravedigger with 6 points of <em>inspiration</em> could expend up to three uses of <em>inspiration</em> as mental focus for her <em>relic focus</em> and up to three uses of <em>inspiration</em> as mental focus for her grave lamp).</Pair>
@@ -434,34 +434,34 @@ const _gravedigger = {title: "Gravedigger", jsx: <><h2 id="arc-investigator-grav
 </>};
 const _guardian_of_immortality = {title: "Guardian of Immortality", jsx: <><h2 id="arc-investigator-guardian_of_immortality-guardian-of-immortality">Guardian of Immortality</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 41</Link><br/>Guardians of immortality are Thuvian investigators charged with hunting down those who would attempt to steal or learn for themselves the secret to creating the <Link to="/magic-artifact/sun_orchid_elixir">sun orchid elixir</Link>.</p>
-<Ability id="arc-investigator-guardian_of_immortality-guardians-gaze-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-guardian_of_immortality-guardians-gaze-ex">Guardian's Gaze (Ex)</Pair>
+<Ability id="guardians-gaze-ex" icon={["upgrade"]}>
+<Pair single id="guardians-gaze-ex">Guardian's Gaze (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A guardian of immortality adds 1/2 his investigator level as a bonus on Sense Motive checks.</Pair>
 </Ability>
-<Ability id="arc-investigator-guardian_of_immortality-desert-survivor-ex" icon={["stairs-goal","armor-upgrade"]}>
-<Pair single id="arc-investigator-guardian_of_immortality-desert-survivor-ex">Desert Survivor (Ex)</Pair>
+<Ability id="desert-survivor-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="desert-survivor-ex">Desert Survivor (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A guardian of immortality is trained by the druids of Duwwor to survive the hazards of the desert. He gains <Link to="/feat/endurance">Endurance</Link> as a bonus feat and does not treat sand as <Link to="/rule/difficult_terrain">difficult terrain</Link>.</Pair>
 <Pair title="At 5th Level">He gains <Link to="/umr/resist">resist</Link> fire 10.</Pair>
 <Pair title="At 8th Level">He can see twice as far in sandstorms, clouds, and fog, and whenever he gains an advantage in a desert tile during a <Link to="/rule/pursuit">pursuit</Link>, he gains an additional advantage.</Pair>
 </Ability>
-<Ability id="arc-investigator-guardian_of_immortality-liars-familiarity-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-guardian_of_immortality-liars-familiarity-ex">Liar's Familiarity (Ex)</Pair>
+<Ability id="liars-familiarity-ex" icon={["upgrade"]}>
+<Pair single id="liars-familiarity-ex">Liar's Familiarity (Ex)</Pair>
 <Pair hl title="Replaces">Investigator talent gained at 7th level</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">A guardian of immortality learns Lamasaran decoy and forgery techniques to better defeat them. His <em>inspiration</em> applies automatically without using an action or a use of <em>inspiration</em> on saving throws to disbelieve illusions, Disguise skill checks, Perception checks to see through disguises, and Linguistics checks to create or detect forgeries.</Pair>
 </Ability>
-<Ability id="arc-investigator-guardian_of_immortality-orchids-drop-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-guardian_of_immortality-orchids-drop-ex">Orchid's Drop (Ex)</Pair>
+<Ability id="orchids-drop-ex" icon={["armor-upgrade"]}>
+<Pair single id="orchids-drop-ex">Orchid's Drop (Ex)</Pair>
 <Pair hl title="Replaces">Immunity to poison</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">A guardian of immortality is entrusted with a secret solution designed by Thuvian alchemists to emulate certain aspects of the sun orchid elixir, granting him a +1 alchemical bonus on all saving throws.</Pair>
 </Ability>
-<Ability id="arc-investigator-guardian_of_immortality-teleportation-warden-su" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-guardian_of_immortality-teleportation-warden-su">Teleportation Warden (Su)</Pair>
+<Ability id="teleportation-warden-su" icon={["magic-swirl"]}>
+<Pair single id="teleportation-warden-su">Teleportation Warden (Su)</Pair>
 <Pair hl title="Replaces">Investigator talent gained at 13th level</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Ability">A guardian of immortality is trained by the mages of Pashow to sense the impending arrival or departure of creatures using teleportation. This ability constantly functions like <Link to="/spell/trace_teleport">trace teleport</Link>. In addition, the guardian of immortality can use <Link to="/spell/conjuration_foil">conjuration foil</Link> once per day as an <strong className="hl">immediate action</strong>.</Pair>
@@ -470,8 +470,8 @@ const _guardian_of_immortality = {title: "Guardian of Immortality", jsx: <><h2 i
 </>};
 const _hallucinist = {title: "Hallucinist", jsx: <><h2 id="arc-investigator-hallucinist-hallucinist">Hallucinist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 34</Link><br/>A hallucinist imbibes magical drugs to expand his mind into the psychedelic world, extending his awareness to things he could not normally perceive. While a hallucinist's body sways oddly under the effects of his hallucinogen, it grants him strange insights that reveal things to him that others can't see. Hallucinists know that others can't function with these expanded senses, and they use that fact to repurpose their hallucinations as distractions or assaults against their enemies.</p>
-<Ability id="arc-investigator-hallucinist-psychedelic-perception-su" icon={["stairs-goal","upgrade","broken-shield"]}>
-<Pair single id="arc-investigator-hallucinist-psychedelic-perception-su">Psychedelic Perception (Su)</Pair>
+<Ability id="psychedelic-perception-su" icon={["stairs-goal","upgrade","broken-shield"]}>
+<Pair single id="psychedelic-perception-su">Psychedelic Perception (Su)</Pair>
 <Pair hl title="Replaces">Trapfinding, 3rd-level trap sense boost, investigator talents gained at 3rd, 7th, 11th, and 15th levels</Pair>
 <Pair title="Ability">In addition to magical extracts, a hallucinist learns to swiftly mix various psychoactive substances, using a fraction of his own power to create a magical hallucinogen that he can imbibe to grant himself powers of psychedelic perception. A hallucinogen follows all the normal rules and restrictions for an alchemist's <em>mutagen</em> as if they were the same substance, just as a <Link to="/discovery/cognatogen">cognatogen</Link> does.</Pair>
 <Pair title="At 1st Level">The effects of a hallucinogen last for 1 minute per investigator level, and the hallucinogen grants low-light vision and a +2 insight bonus on Perception checks, but imposes a -2 penalty to his Dexterity.</Pair>
@@ -480,14 +480,14 @@ const _hallucinist = {title: "Hallucinist", jsx: <><h2 id="arc-investigator-hall
 <Pair title="At 11th Level">The hallucinogen also grants <Link to="/spell/aura_sight">aura sight</Link> and the Perception bonus increases to +8.</Pair>
 <Pair title="At 15th Level">The hallucinogen also grants <Link to="/umr/blindsense">blindsense</Link> 60 feet and the Perception bonus increases to +10.</Pair>
 </Ability>
-<Ability id="arc-investigator-hallucinist-drug-lore-ex" icon={["stairs-goal","armor-upgrade"]}>
-<Pair single id="arc-investigator-hallucinist-drug-lore-ex">Drug Lore (Ex)</Pair>
+<Ability id="drug-lore-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="drug-lore-ex">Drug Lore (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A hallucinist has a deep understanding and appreciation of <Link to="/rule/drugs">drugs</Link>. If the hallucinist spends 1 minute physically examining a drug, he can attempt a Knowledge (nature) check to identify any natural drug or a Knowledge (arcana) check to identify any magical drug (DC = the drug's addiction saving throw DC). Once he identifies a drug, he can spend 1 minute and attempt a Craft (alchemy) check (DC = the drug's addiction saving throw DC) to neutralize 1 dose of the drug. Success renders the dose harmless. The hallucinist has no chance of accidentally drugging herself when examining or attempting to neutralize a drug.</Pair>
 </Ability>
-<Ability id="arc-investigator-hallucinist-drug-resistance-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-hallucinist-drug-resistance-ex">Drug Resistance (Ex)</Pair>
+<Ability id="drug-resistance-ex" icon={["armor-upgrade"]}>
+<Pair single id="drug-resistance-ex">Drug Resistance (Ex)</Pair>
 <Pair hl title="Replaces">All instances of poison resistance, poison immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A hallucinist gains a +2 bonus on all saving throws against drug <Link to="/rule/addiction">addiction</Link>.</Pair>
@@ -495,16 +495,16 @@ const _hallucinist = {title: "Hallucinist", jsx: <><h2 id="arc-investigator-hall
 <Pair title="At 8th Level">This bonus increases to +6.</Pair>
 <Pair title="At 11th Level">A hallucinist becomes completely immune to drug addiction, but he can choose to lower this immunity for any particular drug. If he becomes addicted to a drug, he must fully recover from the addiction before he can resume his immunity to addiction to that drug.</Pair>
 </Ability>
-<Ability id="arc-investigator-hallucinist-shared-hallucinations-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-hallucinist-shared-hallucinations-sp">Shared Hallucinations (Sp)</Pair>
+<Ability id="shared-hallucinations-sp" icon={["magic-swirl"]}>
+<Pair single id="shared-hallucinations-sp">Shared Hallucinations (Sp)</Pair>
 <Pair hl title="Replaces">Keen recollection, investigator talents gained at 5th and 9th levels</Pair>
 <Pair title="At 3rd Level">A hallucinist under the effects of his hallucinogen can share and manipulate his hallucinatory revelations. By expending 10 minutes of the duration of his hallucinogen or one use of <em>inspiration,</em> he can create an effect similar to <Link to="/spell/minor_image">minor image</Link> or <Link to="/spell/oneiric_horror">oneiric horror</Link>.</Pair>
 <Pair title="At 5th Level">He can create an effect similar to <Link to="/spell/synesthesia">synesthesia</Link>.</Pair>
 <Pair title="At 9th Level">A hallucinist can expend 10 minutes of the duration of the hallucinogen or one use of <em>inspiration</em> to use <Link to="/spell/aura_alteration">aura alteration</Link> on one creature or object (unlike the other three abilities, this does not require concentration).</Pair>
 <Pair title="Special">Any of the effects remain only while the hallucinist concentrates upon it, for up to 1 round per hallucinist's investigator level, but otherwise function as the spell. The DC of saving throws against these effects is equal to 10 + 1/2 the hallucinist's investigator level + his modifier.</Pair>
 </Ability>
-<Ability id="arc-investigator-hallucinist-simultaneous-study-su" icon={["upgrade"]}>
-<Pair single id="arc-investigator-hallucinist-simultaneous-study-su">Simultaneous Study (Su)</Pair>
+<Ability id="simultaneous-study-su" icon={["upgrade"]}>
+<Pair single id="simultaneous-study-su">Simultaneous Study (Su)</Pair>
 <Pair hl title="Replaces">All remaining trap sense</Pair>
 <Pair hl title="Alters">Studied combat</Pair>
 <Pair title="Gained">At 6th Level</Pair>
@@ -513,34 +513,34 @@ const _hallucinist = {title: "Hallucinist", jsx: <><h2 id="arc-investigator-hall
 </>};
 const _holomog_demolitionist = {title: "Holomog Demolitionist", jsx: <><h2 id="arc-investigator-holomog_demolitionist-holomog-demolitionist">Holomog Demolitionist</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 18</Link><br/>Holomog is an ancient nation built on even more ancient ruins. Its renowned civil engineers develop skills that allow them to take full advantage of their environments.</p>
-<Ability id="arc-investigator-holomog_demolitionist-structural-knowledge-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-holomog_demolitionist-structural-knowledge-ex">Structural Knowledge (Ex)</Pair>
+<Ability id="structural-knowledge-ex" icon={["stairs-goal"]}>
+<Pair single id="structural-knowledge-ex">Structural Knowledge (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A Holomog demolitionist gains <Link to="/feat/improved_sunder">Improved Sunder</Link> as a bonus feat, even if he does not meet the prerequisites.</Pair>
 </Ability>
-<Ability id="arc-investigator-holomog_demolitionist-structural-insight-ex" icon={["upgrade","stairs-goal"]}>
-<Pair single id="arc-investigator-holomog_demolitionist-structural-insight-ex">Structural Insight (Ex)</Pair>
+<Ability id="structural-insight-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="structural-insight-ex">Structural Insight (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance</Pair>
 <Pair title="At 2nd Level">A Holomog demolitionist gains an insight bonus equal to his investigator level on Acrobatics checks to move through <Link to="/rule/difficult_terrain">difficult terrain</Link>.</Pair>
 <Pair title="At 5th Level">When attempting to damage objects and structures, he ignores the first 5 points of hardness.</Pair>
 <Pair title="At 8th Level">The Holomog demolitionist gains a +2 insight bonus on attack rolls when attempting to <Link to="/rule/sunder">sunder</Link> an item.</Pair>
 <Pair title="At 11th Level">He can attempt a sunder combat maneuver check against a wall no more than 5 feet thick. If the damage from the sunder combat maneuver exceeds the wall's hardness, the Holomog demolitionist creates a 5-foot opening in the wall, through which a Medium creature can easily pass.</Pair>
 </Ability>
-<Ability id="arc-investigator-holomog_demolitionist-ricochet-ex" icon={["tornado-discs"]}>
-<Pair single id="arc-investigator-holomog_demolitionist-ricochet-ex">Ricochet (Ex)</Pair>
+<Ability id="ricochet-ex" icon={["tornado-discs"]}>
+<Pair single id="ricochet-ex">Ricochet (Ex)</Pair>
 <Pair hl title="Replaces">Investigator talents gained at 3rd and 9th levels</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Standard Action">The Holomog demolitionist can attack an adjacent wall or object with a melee weapon. On a hit, he creates a 15-foot-cone of rock shards or splinters that deals 2d6 points of damage to targets in the area of effect. A target can attempt a Reflex save (DC = 10 + half the Holomog demolitionist's level + his Intelligence modifier) to reduce this damage by half.</Pair>
 <Pair title="At 9th Level">The damage increases to 4d6, and the investigator can create this effect with a ranged weapon by targeting a wall or object within 30 feet.</Pair>
 </Ability>
-<Ability id="arc-investigator-holomog_demolitionist-studied-strike-ex" icon={["broken-shield"]}>
-<Pair single id="arc-investigator-holomog_demolitionist-studied-strike-ex">Studied Strike (Ex)</Pair>
+<Ability id="studied-strike-ex" icon={["broken-shield"]}>
+<Pair single id="studied-strike-ex">Studied Strike (Ex)</Pair>
 <Pair hl title="Alters">Studied strike</Pair>
 <Pair title="Info">A Holomog demolitionist's <em>studied strike</em> damage increases every 4 levels, rather than every 2 (to 2d6 at 8th, 3d6 at 12th, 4d6 at 16th, and 5d6 at 20th level).</Pair>
 </Ability>
-<Ability id="arc-investigator-holomog_demolitionist-battlefield-preparation-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-holomog_demolitionist-battlefield-preparation-ex">Battlefield Preparation (Ex)</Pair>
+<Ability id="battlefield-preparation-ex" icon={["stairs-goal"]}>
+<Pair single id="battlefield-preparation-ex">Battlefield Preparation (Ex)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">The investigator can create 10 feet of <Link to="/rule/difficult_terrain">difficult terrain</Link> by spending a <strong className="hl">full-round action</strong> to analyze and manipulate his surroundings. This terrain can be in any shape designated by the investigator, but at least 1 square must be adjacent to his position. This is a physical alteration that remains in place until the surface is altered again (the road is repaved, the floor repaired, etc.), and the Holomog demolitionist ignores the effects of any difficult terrain he creates in this way.</Pair>
 <Pair title="At 10th Level">He can now create 20 feet of difficult terrain. The Holomog demolitionist can use this ability to create clouds of dust and rubble that create <Link to="/rule/concealment">concealment</Link> rather than difficult terrain in the same area. This concealment lasts 1d4 rounds plus 1 round for every 4 investigator levels, and the Holomog demolitionist is affected by the concealment as normal.</Pair>
@@ -550,8 +550,8 @@ const _holomog_demolitionist = {title: "Holomog Demolitionist", jsx: <><h2 id="a
 </>};
 const _infiltrator = {title: "Infiltrator", jsx: <><h2 id="arc-investigator-infiltrator-infiltrator">Infiltrator</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 100</Link><br/>An infiltrator specializes in investigating or disrupting groups from within. He uses his specialized set of skills and alchemical abilities to morph into the shape of the people or creatures whose company he's infiltrating, or even specific individuals.</p>
-<Ability id="arc-investigator-infiltrator-master-of-disguise-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-infiltrator-master-of-disguise-ex" flavor="An infiltrator can use disguise with great results.">Master of Disguise (Ex)</Pair>
+<Ability id="master-of-disguise-ex" icon={["upgrade"]}>
+<Pair single id="master-of-disguise-ex" flavor="An infiltrator can use disguise with great results.">Master of Disguise (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">When <Link to="/skill/disguise">disguising</Link> himself as a different gender, race, age category, or size category, an infiltrator reduces the penalties for each by -2. For example, if the infiltrator disguises himself as a female two age categories older than himself, he would take a -2 to the check instead of a -6. Also, an infiltrator can disguise himself with 1d3 minutes of work (instead of the normal 1d3 &times; 10 minutes of work).</Pair>
@@ -593,8 +593,8 @@ const _infiltrator = {title: "Infiltrator", jsx: <><h2 id="arc-investigator-infi
 </Pair>
 <Pair title="At 8th Level">The infiltrator gains the effects of its <em>master of disguise</em> class feature on this special use of the Disguise skill (no penalty for a voice of a different gender, race, or age category, and only a -3 penalty for a different size category).</Pair>
 </Ability>
-<Ability id="arc-investigator-infiltrator-mimic-mastery-su" icon={["upgrade","stairs-goal"]}>
-<Pair single id="arc-investigator-infiltrator-mimic-mastery-su">Mimic Mastery (Su)</Pair>
+<Ability id="mimic-mastery-su" icon={["upgrade","stairs-goal"]}>
+<Pair single id="mimic-mastery-su">Mimic Mastery (Su)</Pair>
 <Pair hl title="Replaces">Poison resistance</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">When an infiltrator uses <Link to="/spell/disguise_self">disguise self</Link> or any polymorph extracts on himself, he is treated as 2 investigator levels higher for the purpose of determining the duration of that extract's effect. He can use these extracts to take the appearance of specific individuals of the type of form he chooses, gaining a +10 to Disguise checks even if that extract does not typically grant such a bonus. Furthermore, these extracts grant the infiltrator a +10 bonus to Disguise checks made as part of his <em>voice mimicry</em> ability.</Pair>
@@ -602,25 +602,25 @@ const _infiltrator = {title: "Infiltrator", jsx: <><h2 id="arc-investigator-infi
 </>};
 const _jinyiwei = {title: "Jinyiwei", jsx: <><h2 id="arc-investigator-jinyiwei-jinyiwei">Jinyiwei</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 21</Link><br/>Lung Wa's corruption and political decay led to its eventual collapse, but the empire did not spend its last decades in surrender. A special task force of secret police, known as the jinyiwei, was one of Lung Wa's last bulwarks against this decline. The jinyiwei were unable to save the empire; they failed in their mission to root out, expose, and counteract their government's existing wrongdoing, and the organization itself ultimately fell prey to the same political decline that rotted Lung Wa's bureaucracy. However, their legacy now inspires purists who seek out and eliminate corruption wherever they find it. Since the earthly government of Lung Wa has failed, these new jinyiwei claim they act under the celestial government's mandate.</p>
-<Ability id="arc-investigator-jinyiwei-divine-inspiration" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-jinyiwei-divine-inspiration" flavor="A jinyiwei follows a mandate from Heaven to combat corruption in the mortal world.">Divine Inspiration</Pair>
+<Ability id="divine-inspiration" icon={["magic-swirl"]}>
+<Pair single id="divine-inspiration" flavor="A jinyiwei follows a mandate from Heaven to combat corruption in the mortal world.">Divine Inspiration</Pair>
 <Pair hl title="Replaces">Alchemy</Pair>
 <Pair hl title="Alters">Inspiration</Pair>
 <Pair title="Info">A jinyiwei adds her Wisdom modifier to her <em>inspiration pool,</em> rather than her Intelligence modifier. Additionally, rather than dabbling in the arcane arts of alchemy, a jinyiwei is empowered by the forces of celestial bureaucracy. She casts spells as an <Link to="/class/inquisitor">inquisitor</Link> of the same level.</Pair>
 </Ability>
-<Ability id="arc-investigator-jinyiwei-suspicious-mind-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-jinyiwei-suspicious-mind-ex">Suspicious Mind (Ex)</Pair>
+<Ability id="suspicious-mind-ex" icon={["upgrade"]}>
+<Pair single id="suspicious-mind-ex">Suspicious Mind (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair title="Passive Ability">A jinyiwei adds half her level (minimum 1) to Sense Motive checks, Linguistics checks to detect forgeries, and Perception checks to see through disguises, locate creatures using Stealth, or locate a secret door or compartment.</Pair>
 </Ability>
-<Ability id="arc-investigator-jinyiwei-celestial-insight-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-jinyiwei-celestial-insight-ex" flavor="A jinyiwei learns to see through the types of magic that often lead others astray.">Celestial Insight (Ex)</Pair>
+<Ability id="celestial-insight-ex" icon={["armor-upgrade"]}>
+<Pair single id="celestial-insight-ex" flavor="A jinyiwei learns to see through the types of magic that often lead others astray.">Celestial Insight (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">She gains a competence bonus on saving throws to resist enchantment and illusion effects. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her investigator level.</Pair>
 </Ability>
-<Ability id="arc-investigator-jinyiwei-imperial-judgment-su" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-jinyiwei-imperial-judgment-su" flavor="A jinyiwei can carry out trial and sentence with her own divine authority.">Imperial Judgment (Su)</Pair>
+<Ability id="imperial-judgment-su" icon={["stairs-goal"]}>
+<Pair single id="imperial-judgment-su" flavor="A jinyiwei can carry out trial and sentence with her own divine authority.">Imperial Judgment (Su)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="At 4th Level">She gains the <em>judgment</em> inquisitor class feature as an inquisitor 3 levels lower than her investigator level, and her investigator levels stack with inquisitor levels for the purposes of determining her judgments' abilities and number of judgments per day.</Pair>
 <Pair title="At 11th Level">She gains the <em>second judgment</em> inquisitor class feature.</Pair>
@@ -629,16 +629,16 @@ const _jinyiwei = {title: "Jinyiwei", jsx: <><h2 id="arc-investigator-jinyiwei-j
 </>};
 const _lamplighter = {title: "Lamplighter", jsx: <><h2 id="arc-investigator-lamplighter-lamplighter">Lamplighter</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 17</Link><br/>Lamplighters are investigators tasked with keeping the night streets safe and lit, and securing darkened areas against whatever dangers lurk in the shadows. They also investigate those who seek to hide their crimes from the light of day.</p>
-<Ability icon={["skills"]} id="arc-investigator-lamplighter-undefined">
-<Pair id="arc-investigator-lamplighter-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="Removed Skills">Perform, Profession</Pair></Ability>
-<Ability id="arc-investigator-lamplighter-lamplighter-su" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-lamplighter-lamplighter-su">Lamplighter (Su)</Pair>
+<Ability id="lamplighter-su" icon={["stairs-goal"]}>
+<Pair single id="lamplighter-su">Lamplighter (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Move-Equivalent Action">A lamplighter can create a small flame that immediately ignites a lamp, torch, or similar flammable item he's holding.</Pair>
 </Ability>
-<Ability id="arc-investigator-lamplighter-alchemical-illumination-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-lamplighter-alchemical-illumination-sp">Alchemical Illumination (Sp)</Pair>
+<Ability id="alchemical-illumination-sp" icon={["magic-swirl"]}>
+<Pair single id="alchemical-illumination-sp">Alchemical Illumination (Sp)</Pair>
 <Pair hl title="Replaces">Poison lore, poison resistance, poison immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Standard Action">A lamplighter can cast certain <Link to="/spelldef/light">light</Link> spells by burning a magic extract, infusion, or potion of a spell of the same or greater level than the light spell in a lit lantern or torch. If the spell has a range of touch, the lantern or torch counts as the object touched. The spell's DC, if any, equals 10 + spell level + the lamplighter's Intelligence modifier. Starting out, the lamplighter can cast <Link to="/spell/light">light</Link> and <Link to="/spell/continual_flame">continual flame</Link> (24 hour duration).</Pair>
@@ -646,8 +646,8 @@ const _lamplighter = {title: "Lamplighter", jsx: <><h2 id="arc-investigator-lamp
 <Pair title="At 8th Level">The lamplighter can cast <Link to="/spell/searing_light">searing light</Link>.</Pair>
 <Pair title="At 11th Level">The lamplighter can cast <Link to="/spell/judgment_light">judgment light</Link>. The lamplighter need not have an active <em>judgment</em> to cast this spell, can choose what color of judgment light is created, can use his alignment for golden light, and can select any element for copper light.</Pair>
 </Ability>
-<Ability id="arc-investigator-lamplighter-ready-for-the-revelation-ex" icon={["upgrade","armor-upgrade","stairs-goal"]}>
-<Pair single id="arc-investigator-lamplighter-ready-for-the-revelation-ex">Ready for the Revelation (Ex)</Pair>
+<Ability id="ready-for-the-revelation-ex" icon={["upgrade","armor-upgrade","stairs-goal"]}>
+<Pair single id="ready-for-the-revelation-ex">Ready for the Revelation (Ex)</Pair>
 <Pair hl title="Replaces">Keen recollection, trap sense</Pair>
 <Pair title="At 3rd Level">A lamplighter can use <em>inspiration</em> on initiative checks without spending a use of <em>inspiration.</em> He can use his Intelligence modifier in place of his Dexterity modifier on initiative checks.</Pair>
 <Pair title="At 6th Level">If the lamplighter has <Link to="/feat/quick_draw">Quick Draw</Link>, he can draw a weapon as part of his initiative check.</Pair>
@@ -659,25 +659,25 @@ const _lamplighter = {title: "Lamplighter", jsx: <><h2 id="arc-investigator-lamp
 </>};
 const _lepidstadt_inspector = {title: "Lepidstadt Inspector", jsx: <><h2 id="arc-investigator-lepidstadt_inspector-lepidstadt-inspector">Lepidstadt Inspector</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 15</Link><br/>The ability of investigators trained at the University of Lepidstadt to get to the bottom of a mystery is legendary, and troubled settlements throughout the region often send petitions to the university requesting the aid of a formally trained inspector when some mystery threatens the community as a whole. These inspectors are tasked with assuming nothing and asking difficult and unpopular questions as necessary to get to the truth behind a problem. Inspectors are well-prepared to deal with mystical threats, but they are also mindful that what some claim are supernatural problems may well be just the result of more mundane threats such as bandits, wild beasts, or public hysteria.</p>
-<Ability id="arc-investigator-lepidstadt_inspector-interrogation-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-lepidstadt_inspector-interrogation-ex" flavor="A Lepidstadt inspector is a master of harrying others until they cooperate with his investigations, and knows instinctively when the answers he receives are falsehoods.">Interrogation (Ex)</Pair>
+<Ability id="interrogation-ex" icon={["upgrade"]}>
+<Pair single id="interrogation-ex" flavor="A Lepidstadt inspector is a master of harrying others until they cooperate with his investigations, and knows instinctively when the answers he receives are falsehoods.">Interrogation (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair title="Passive Ability">He adds 1/2 his class level (minimum 1) to Intimidate checks made to influence a creature's attitude and to Sense Motive checks.</Pair>
 </Ability>
-<Ability id="arc-investigator-lepidstadt_inspector-keen-mind-ex" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="arc-investigator-lepidstadt_inspector-keen-mind-ex" flavor="A Lepidstadt inspector's strong, analytical mind resists attacks and hazards that would muddy his clear thoughts.">Keen Mind (Ex)</Pair>
+<Ability id="keen-mind-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="keen-mind-ex" flavor="A Lepidstadt inspector's strong, analytical mind resists attacks and hazards that would muddy his clear thoughts.">Keen Mind (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense, poison resistance, poison immunity</Pair>
 <Pair title="At 3rd Level">He gains a +1 bonus on Perception checks and Will saves.</Pair>
 <Pair title="At 9th Level">These bonuses increase to +2.</Pair>
 <Pair title="At 15th Level">These bonuses become +3.</Pair>
 </Ability>
-<Ability id="arc-investigator-lepidstadt_inspector-perceptive-tracking-ex" icon={["info"]}>
-<Pair single id="arc-investigator-lepidstadt_inspector-perceptive-tracking-ex">Perceptive Tracking (Ex)</Pair>
+<Ability id="perceptive-tracking-ex" icon={["info"]}>
+<Pair single id="perceptive-tracking-ex">Perceptive Tracking (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Info">A Lepidstadt inspector must take the <Link to="/invtalent/perceptive_tracking">perceptive tracking</Link> talent as his investigator talent. He doesn't need to be trained in Perception to do so.</Pair>
 </Ability>
-<Ability id="arc-investigator-lepidstadt_inspector-relentless-pursuit-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-lepidstadt_inspector-relentless-pursuit-ex" flavor="A Lepidstadt inspector can learn enough about a suspect through observation that he can deduce the most effective way to deal with the subject.">Relentless Pursuit (Ex)</Pair>
+<Ability id="relentless-pursuit-ex" icon={["upgrade"]}>
+<Pair single id="relentless-pursuit-ex" flavor="A Lepidstadt inspector can learn enough about a suspect through observation that he can deduce the most effective way to deal with the subject.">Relentless Pursuit (Ex)</Pair>
 <Pair hl title="Replaces">Swift alchemy, investigator talent gained at 5th level</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">Once per day, if a Lepidstadt inspector finds a creature's tracks using <em>perceptive tracking,</em> he gains a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against or about that creature, as well as on weapon attack and damage rolls against that creature. These bonuses last until the Lepidstadt inspector selects a new subject for <em>relentless pursuit.</em></Pair>
@@ -685,14 +685,14 @@ const _lepidstadt_inspector = {title: "Lepidstadt Inspector", jsx: <><h2 id="arc
 </>};
 const _majordomo = {title: "Majordomo", jsx: <><h2 id="arc-investigator-majordomo-majordomo">Majordomo</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 35</Link><br/>A majordomo is a skilled individual able to keep the complex operations of a noble's holdings running on a day-to-day basis. In a world of intrigue where the loyalties of staff can be bought and sold, sometimes it takes the skills of an investigator to follow the byzantine paper trails and prevent embezzling and espionage within the estates of the elite.</p>
-<Ability id="arc-investigator-majordomo-paper-trail-ex" icon={["upgrade","stairs-goal"]}>
-<Pair single id="arc-investigator-majordomo-paper-trail-ex">Paper Trail (Ex)</Pair>
+<Ability id="paper-trail-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="paper-trail-ex">Paper Trail (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair title="Passive Ability">A majordomo is trained to uncover forgeries and trace down discrepancies in paperwork in order to ferret out intrigue. She adds half her investigator level (minimum 1) to Linguistics and Profession checks to spot a forgery, deal with paperwork, and notice discrepancies in paperwork.</Pair>
 <Pair title="Ability">A majordomo who analyzes the handwriting of a document and succeeds at a Linguistics check against a DC equal to 20 + the writer's Bluff bonus gets a hunch about whether the document's writer was lying or otherwise nervous. This ability doesn't work if the document was dictated to someone who thought the contents were legitimate.</Pair>
 </Ability>
-<Ability id="arc-investigator-majordomo-delegate-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-majordomo-delegate-ex" flavor="In order to perform all the necessary tasks of her household, a majordomo quickly learns how to delegate.">Delegate (Ex)</Pair>
+<Ability id="delegate-ex" icon={["stairs-goal"]}>
+<Pair single id="delegate-ex" flavor="In order to perform all the necessary tasks of her household, a majordomo quickly learns how to delegate.">Delegate (Ex)</Pair>
 <Pair hl title="Alters">Alchemy, swift alchemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A majordomo gains a bonus <Link to="/main/teamwork_feat">teamwork feat</Link>.</Pair>
@@ -721,14 +721,14 @@ const _majordomo = {title: "Majordomo", jsx: <><h2 id="arc-investigator-majordom
 </>};
 const _malice_binder = {title: "Malice Binder", jsx: <><h2 id="arc-investigator-malice_binder-malice-binder">Malice Binder</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 28</Link><br/>A lock of hair, a bit of blood, even a footprint is enough to grant a wily witch hunter an edge. Malice binders often rise from the ranks of the common folk rather than from wealthy nobles or the church. Their magic is old and crude, but devastatingly effective against those they hunt.</p>
-<Ability id="arc-investigator-malice_binder-witch-lore-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-malice_binder-witch-lore-ex" flavor="Malice binders hunt and kill those who would plague the world with supernatural power.">Witch Lore (Ex)</Pair>
+<Ability id="witch-lore-ex" icon={["upgrade"]}>
+<Pair single id="witch-lore-ex" flavor="Malice binders hunt and kill those who would plague the world with supernatural power.">Witch Lore (Ex)</Pair>
 <Pair hl title="Alters">Inspiration</Pair>
 <Pair title="Ability">A malice binder can use <em>inspiration</em> on Knowledge (arcana), Spellcraft, Sleight of Hand, and Survival checks without expending a use of <em>inspiration,</em> provided he is trained in the skill, rather than on any Knowledge and Linguistics checks.</Pair>
 <Pair title="Special">He can later spend an <strong>investigator talent</strong> to gain the ability to use <em>inspiration</em> on any Knowledge and Linguistics checks.</Pair>
 </Ability>
-<Ability id="arc-investigator-malice_binder-take-a-bit-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-malice_binder-take-a-bit-ex">Take a Bit (Ex)</Pair>
+<Ability id="take-a-bit-ex" icon={["stairs-goal"]}>
+<Pair single id="take-a-bit-ex">Take a Bit (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding, trap sense</Pair>
 <Pair title="At 1st Level">The malice binder gains <Link to="/feat/improved_steal">Improved Steal</Link> as a bonus feat.</Pair>
 <Pair title="At 3rd Level">He can use <em>inspiration</em> to improve a steal combat maneuver check by spending one use of <em>inspiration</em> rather than two.</Pair>
@@ -743,15 +743,15 @@ const _malice_binder = {title: "Malice Binder", jsx: <><h2 id="arc-investigator-
 </Pair>
 <Pair title="At 7th Level">The malice binder can prepare a token as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="arc-investigator-malice_binder-divine-dread-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
-<Pair single id="arc-investigator-malice_binder-divine-dread-su">Divine Dread (Su)</Pair>
+<Ability id="divine-dread-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="divine-dread-su">Divine Dread (Su)</Pair>
 <Pair title="Ability">Binding a token to a holy symbol anathema to the target fills the creature with supernatural dread, imposing the <Link to="/misc/shaken">shaken</Link> condition for 1 round per class level.</Pair>
 <Pair title="At 6th Level">The target is <Link to="/misc/frightened">frightened</Link> instead.</Pair>
 <Pair title="At 11th Level">The target becomes <Link to="/misc/panicked">panicked</Link> instead.</Pair>
 <Pair title="Special">On a successful Will saving throw, the target is instead shaken for a single round.</Pair>
 </Ability>
-<Ability id="arc-investigator-malice_binder-hexing-shield-su" extraClasses="subAbility" icon={["armor-upgrade","shield-reflect"]}>
-<Pair single id="arc-investigator-malice_binder-hexing-shield-su">Hexing Shield (Su)</Pair>
+<Ability id="hexing-shield-su" extraClasses="subAbility" icon={["armor-upgrade","shield-reflect"]}>
+<Pair single id="hexing-shield-su">Hexing Shield (Su)</Pair>
 <Pair title="Ability">By placing a token between two shiny copper coins and then putting them in a creature's mouth, the malice binder can ward himself or others. This fetter grants whoever holds it in his mouth a +2 resistance bonus on Will saving throws against the target's spells, supernatural abilities, and spell-like abilities. The fetter lasts 10 minutes per class level, but whoever holds it in his mouth cannot eat, drink, speak, or cast spells with verbal components without ending the effect early.</Pair>
 <Pair title="At 4th Level">The bonus becomes +2.</Pair>
 <Pair title="At 7th Level">The bonus increases to +3.</Pair>
@@ -761,51 +761,51 @@ const _malice_binder = {title: "Malice Binder", jsx: <><h2 id="arc-investigator-
 <Pair title="At 19th Level">The bonus increases to +7.</Pair>
 <Pair title="Special">The malice binder can have only one hexing shield active at a time.</Pair>
 </Ability>
-<Ability id="arc-investigator-malice_binder-incapacitate-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
-<Pair single id="arc-investigator-malice_binder-incapacitate-su">Incapacitate (Su)</Pair>
+<Ability id="incapacitate-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="incapacitate-su">Incapacitate (Su)</Pair>
 <Pair title="Ability">By rubbing soot into a token, the malice binder clouds his target's senses or stifles the target's tongue. This fetter <Link to="/misc/deafen">deafens</Link> or silences the target for 1 round per 2 class levels (minimum 1 round). Silenced creatures cannot speak or cast spells with verbal components, but they are otherwise unrestricted from making sounds.</Pair>
 <Pair title="At 6th Level">A malice binder can either <Link to="/misc/blind">blind</Link> his target or both silence and deafen it.</Pair>
 <Pair title="Special">On a successful Will saving throw, the target is instead <Link to="/misc/dazzled">dazzled</Link> for a single round.</Pair>
 </Ability>
-<Ability id="arc-investigator-malice_binder-repulse-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
-<Pair single id="arc-investigator-malice_binder-repulse-su">Repulse (Su)</Pair>
+<Ability id="repulse-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="repulse-su">Repulse (Su)</Pair>
 <Pair title="Ability">By binding a token to a bit of rancid meat, the malice binder can impede his target's approach. Once activated, this fetter forces its target to spend twice the normal amount of movement to approach the fetter while within range of its effect; it does not affect the target's ability to move away.</Pair>
 <Pair title="At 11th Level">The fetter's target cannot physically approach within 10 feet of the fetter, as if affected by a <Link to="/spell/repulsion">repulsion</Link> spell.</Pair>
 <Pair title="Special">This fetter remains active for 1 minute per class level and can be handed to another creature or left somewhere to ward against a witch's entry. A target can overcome this effect with a successful Will saving throw when the fetter is first activated.</Pair>
 </Ability>
-<Ability id="arc-investigator-malice_binder-salting-wounds-su" extraClasses="subAbility" icon={["armor-upgrade","shield-reflect","broken-shield"]}>
-<Pair single id="arc-investigator-malice_binder-salting-wounds-su">Salting Wounds (Su)</Pair>
+<Ability id="salting-wounds-su" extraClasses="subAbility" icon={["armor-upgrade","shield-reflect","broken-shield"]}>
+<Pair single id="salting-wounds-su">Salting Wounds (Su)</Pair>
 <Pair title="Ability">The malice binder can rub salt into a wound - his own or that of an adjacent ally - treating the wound as a token to protect the injured creature from the danger that threatens it. This fetter grants a deflection bonus to AC against attacks from the creature that caused the original wound, which is treated as the fetter's target for the purposes of how often it can be used. The deflection bonus is equal to 2 + <Link to="/misc/one_fifth">one-fifth</Link> of his investigator level.</Pair>
 <Pair title="Special">This fetter is painful to whom it protects, <Link to="/misc/sicken">sickening</Link> the protected creature while the fetter remains in effect.</Pair>
 </Ability>
-<Ability id="arc-investigator-malice_binder-shackle-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
-<Pair single id="arc-investigator-malice_binder-shackle-su">Shackle (Su)</Pair>
+<Ability id="shackle-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="shackle-su">Shackle (Su)</Pair>
 <Pair title="Ability">Binding a token to manacles or a length of rope causes the restraints to fly out and entangle the target. A target can avoid this fetter with a successful Reflex save. An <Link to="/rule/entangled">entangled</Link> target can attempt to escape as a <strong className="hl">standard action</strong> with either an Escape Artist check or a combat maneuver check using the same DC as the initial saving throw.</Pair>
 <Pair title="Special">Using <Link to="/eq-misc/manacles_mwk">masterwork manacles</Link> in this fetter increases the escape DC by 2.</Pair>
 </Ability>
-<Ability id="arc-investigator-malice_binder-temptation-su" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-malice_binder-temptation-su">Temptation (Su)</Pair>
+<Ability id="temptation-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="temptation-su">Temptation (Su)</Pair>
 <Pair title="Ability">Anointing a token with incense or scented oils creates a supernaturally appealing object to attract a target's attention. Once activated, this fetter lasts for 1 minute per class level. If the target approaches within the fetter's area of effect, it is compelled to approach the fetter and pick it up; the compulsion can be negated with a successful Will save. This effect ends immediately if the target picks up the fetter or the fetter moves more than 30 feet plus 5 feet per 2 levels away from the target.</Pair>
 <Pair title="At 11th Level">The fetter <Link to="/misc/fascinate">fascinates</Link> its target once picked up, affecting it as if by the spell <Link to="/spell/hypnotism">hypnotism</Link> for 1 round per class level; this fetter is not limited by the target's Hit Dice.</Pair>
 </Ability>
-<Ability id="arc-investigator-malice_binder-witch-compass-su" extraClasses="subAbility" icon={["magic-swirl","upgrade"]}>
-<Pair single id="arc-investigator-malice_binder-witch-compass-su">Witch Compass (Su)</Pair>
+<Ability id="witch-compass-su" extraClasses="subAbility" icon={["magic-swirl","upgrade"]}>
+<Pair single id="witch-compass-su">Witch Compass (Su)</Pair>
 <Pair title="Ability">Placing a token on top of a compass causes the needle to point toward the malice binder's target for 1 hour per class level, granting a +10 circumstance bonus on Survival checks to track that creature. The target must be within 1 mile per class level, or else the needle spins aimlessly.</Pair>
 </Ability>
-<Ability id="arc-investigator-malice_binder-wrack-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
-<Pair single id="arc-investigator-malice_binder-wrack-su">Wrack (Su)</Pair>
+<Ability id="wrack-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="wrack-su">Wrack (Su)</Pair>
 <Pair title="Ability">The binder can drive an iron nail through a token to leave his target sickened with pain until the end of the malice binder's next turn.</Pair>
 <Pair title="At 6th Level">The target is instead <Link to="/misc/staggered">staggered</Link> until the end of the malice binder's next turn. The target can negate this fetter with a successful Fortitude save.</Pair>
 <Pair title="Special">For this fetter, a binder can use a clear footprint as a token; finding an appropriate footprint requires a successful Survival skill check to track the target.</Pair>
 </Ability>
-<Ability id="arc-investigator-malice_binder-take-a-bit-more-ex" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-investigator-malice_binder-take-a-bit-more-ex" flavor="Taking a bit of clothing or hair to use as a token becomes second nature for the malice binder.">Take a Bit More (Ex)</Pair>
+<Ability id="take-a-bit-more-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="take-a-bit-more-ex" flavor="Taking a bit of clothing or hair to use as a token becomes second nature for the malice binder.">Take a Bit More (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">He gains <Link to="/feat/quick_steal">Quick Steal</Link> as a bonus feat. When attempting to steal a token, he gains a +2 competence bonus on combat maneuver checks.</Pair>
 </Ability>
-<Ability id="arc-investigator-malice_binder-witch-trapper-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-malice_binder-witch-trapper-ex">Witch Trapper (Ex)</Pair>
+<Ability id="witch-trapper-ex" icon={["stairs-goal"]}>
+<Pair single id="witch-trapper-ex">Witch Trapper (Ex)</Pair>
 <Pair hl title="Replaces">Poison immunity</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">Whenever the malice binder would gain a fetter, he can instead select a <Link to="/ability/ranger_traps">ranger trap</Link>, treating his investigator level as his ranger level for the purpose of determining the trap's effect.</Pair>
@@ -813,8 +813,8 @@ const _malice_binder = {title: "Malice Binder", jsx: <><h2 id="arc-investigator-
 </>};
 const _mastermind = {title: "Mastermind", jsx: <><h2 id="arc-investigator-mastermind-mastermind">Mastermind</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 101</Link><br/>Although some investigators use their honed senses and cunning insight for personal gain, no one excels at such endeavors like the mastermind. Typically, these investigators dwell at the centers of complex networks of lies, minions, or simply precious information, from which they dispense commands, threats, and rumors, all carefully crafted to increase the power of their peculiar empires. While masterminds often act as the heads of illicit organizations like criminal families, thieves' guilds, or corruptionriddled bureaucracies, they aren't always evil.</p>
-<Ability id="arc-investigator-mastermind-masterminds-inspiration-ex" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-investigator-mastermind-masterminds-inspiration-ex">Mastermind's Inspiration (Ex)</Pair>
+<Ability id="masterminds-inspiration-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="masterminds-inspiration-ex">Mastermind's Inspiration (Ex)</Pair>
 <Pair hl title="Alters">Inspiration</Pair>
 <Pair title="Ability">A mastermind can use <em>inspiration</em> on any Diplomacy and Intimidate checks without expending a use of <em>inspiration,</em> but can't do so for Linguistics or Spellcraft checks.</Pair>
 </Ability>
@@ -829,15 +829,15 @@ const _mastermind = {title: "Mastermind", jsx: <><h2 id="arc-investigator-master
 </Pair>
 <Pair title="At 12th Level">A a mastermind can use this ability to bestow on his ally the use of his skill ranks, similar to the 1st-level effects of this ability but with a wider range of skills to choose from. The mastermind can only bestow this for a skill check that he can use <em>inspiration</em> on without expending uses of <em>inspiration.</em> For instance, a mastermind with the <Link to="/invtalent/underworld_inspiration">underworld inspiration</Link> talent can bolster his ally's Bluff, Disable Device, Disguise, or Sleight of Hand skill checks, selecting a single skill for each use of the ability.</Pair>
 </Ability>
-<Ability id="arc-investigator-mastermind-mastermind-defense-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-mastermind-mastermind-defense-ex">Mastermind Defense (Ex)</Pair>
+<Ability id="mastermind-defense-ex" icon={["armor-upgrade"]}>
+<Pair single id="mastermind-defense-ex">Mastermind Defense (Ex)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Immediate Action">A mastermind can expend two uses of <em>inspiration</em> to make an inspired defense. He rolls his inspiration die and applies the result as a penalty on an attack roll made against him.</Pair>
 <Pair title="Special">If the mastermind has the <Link to="/invtalent/combat_inspiration">combat inspiration</Link> talent, he can expend one use of <em>inspiration</em> instead of two.</Pair>
 </Ability>
-<Ability id="arc-investigator-mastermind-impregnable-mind-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-mastermind-impregnable-mind-su" flavor="A mastermind's secrecy, obscurity, and mental conditioning reach superhuman levels.">Impregnable Mind (Su)</Pair>
+<Ability id="impregnable-mind-su" icon={["armor-upgrade"]}>
+<Pair single id="impregnable-mind-su" flavor="A mastermind's secrecy, obscurity, and mental conditioning reach superhuman levels.">Impregnable Mind (Su)</Pair>
 <Pair hl title="Replaces">Investigator talent gained at 9th level</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">He becomes immune to any divination spell, spell-like ability, or effect that allows a saving throw (though he can still allow a divination effect to affect him if he wishes). Even divination effects that do not allow a saving throw have difficulty piercing a mastermind's barriers, as a mastermind can now choose to think in any language he speaks. Unless the opponent reading a mastermind's thoughts speaks all of the mastermind's languages, attempts at thought reading automatically fail.</Pair>
@@ -845,28 +845,28 @@ const _mastermind = {title: "Mastermind", jsx: <><h2 id="arc-investigator-master
 </>};
 const _natural_philosopher = {title: "Natural Philosopher", jsx: <><h2 id="arc-investigator-natural_philosopher-natural-philosopher">Natural Philosopher</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 56</Link><br/>Natural philosophers are scholars, explorers, and survivalists who feel at home in nature, seldom longing for the comforts of the city. They eschew the fancy tools and weaponry of gentlefolk detectives and instead employ weapons that double as tools, materials available in nature, and methods better suited for untamed wilderness.</p>
-<Ability icon={["skills"]} id="arc-investigator-natural_philosopher-undefined">
-<Pair id="arc-investigator-natural_philosopher-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Perform</Pair></Ability>
-<Ability id="arc-investigator-natural_philosopher-weapon-and-armor-proficiency" icon={["info"]}>
-<Pair single id="arc-investigator-natural_philosopher-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Ability id="weapon-and-armor-proficiency" icon={["info"]}>
+<Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Replaces">Weapon and armor proficiency</Pair>
 <Pair title="Info">A natural philosopher is proficient with simple weapons, plus the <Link to="/eq-weapon/handaxe">handaxe</Link>, <Link to="/eq-weapon/kukri">kukri</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link>, <Link to="/eq-weapon/throwing_axe">throwing axe</Link>, and <Link to="/eq-weapon/whip">whip</Link>. A natural philosopher is proficient with light armor but not with shields.</Pair>
 </Ability>
-<Ability id="arc-investigator-natural_philosopher-natural-philosophers-inspiration-ex" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-investigator-natural_philosopher-natural-philosophers-inspiration-ex" flavor="Natural philosophers employ a skill set suited to studying the natural world.">Natural Philosopher's Inspiration (Ex)</Pair>
+<Ability id="natural-philosophers-inspiration-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="natural-philosophers-inspiration-ex" flavor="Natural philosophers employ a skill set suited to studying the natural world.">Natural Philosopher's Inspiration (Ex)</Pair>
 <Pair hl title="Alters">Inspiration</Pair>
 <Pair title="Ability">A natural philosopher can use <em>inspiration</em> on Heal and Survival checks without expending a use of <em>inspiration,</em> provided he is trained in the skill, but cannot do so for Linguistics or Spellcraft checks.</Pair>
 <Pair title="Special">He can later trade an <strong>investigator talent</strong> for the ability to use <em>inspiration</em> on Linguistics and Spellcraft checks without expending a use of <em>inspiration,</em> provided he is trained in the skill.</Pair>
 </Ability>
-<Ability id="arc-investigator-natural_philosopher-track-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-natural_philosopher-track-ex">Track (Ex)</Pair>
+<Ability id="track-ex" icon={["upgrade"]}>
+<Pair single id="track-ex">Track (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair title="Passive Ability">A natural philosopher adds half his level (minimum 1) on Survival checks to follow tracks.</Pair>
 </Ability>
-<Ability id="arc-investigator-natural_philosopher-herbalism-su" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-investigator-natural_philosopher-herbalism-su" flavor="A natural philosopher augments his knowledge of alchemy with herbal lore.">Herbalism (Su)</Pair>
+<Ability id="herbalism-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="herbalism-su" flavor="A natural philosopher augments his knowledge of alchemy with herbal lore.">Herbalism (Su)</Pair>
 <Pair hl title="Replaces">Trap sense, investigator talent gained at 3rd level</Pair>
 <Pair hl title="Alters">Alchemy</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -875,13 +875,13 @@ const _natural_philosopher = {title: "Natural Philosopher", jsx: <><h2 id="arc-i
 </>};
 const _portal_seeker = {title: "Portal Seeker", jsx: <><h2 id="arc-investigator-portal_seeker-portal-seeker">Portal Seeker</h2>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 18</Link><br/>While most investigators seek answers to mundane mysteries, portal seekers chase more unusual enigmas: portals to other planes. While in many cases, portal seekers are boons to their communities, performing public services such as discovering planar rifts and, as needed, closing unwanted ones, a portal seeker's goals are not necessarily benign.</p>
-<Ability id="arc-investigator-portal_seeker-hunt-portal-sp" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-portal_seeker-hunt-portal-sp">Hunt Portal (Sp)</Pair>
+<Ability id="hunt-portal-sp" icon={["stairs-goal"]}>
+<Pair single id="hunt-portal-sp">Hunt Portal (Sp)</Pair>
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair title="Ability">A portal seeker can try to locate an unseen magical portal within 60 feet by concentrating and attempting a DC 20 Knowledge (planes) check. If successful, the portal seeker becomes aware of the presence of all extradimensional portals (including those created by spells like <Link to="/spell/rope_trick">rope trick</Link> or by magic items like <Link to="/magic-wondrous/bag_of_holding">bags of holding</Link>) in a 60-foot radius. If she concentrates for 3 rounds, she can pinpoint the locations of all portals in the area of effect. Some portals, at the GM's discretion, may be magically hidden and have a higher DC to detect.</Pair>
 </Ability>
-<Ability id="arc-investigator-portal_seeker-resist-teleportation-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-portal_seeker-resist-teleportation-ex">Resist Teleportation (Ex)</Pair>
+<Ability id="resist-teleportation-ex" icon={["armor-upgrade"]}>
+<Pair single id="resist-teleportation-ex">Resist Teleportation (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A portal seeker gains a +2 bonus on saving throws against effects that attempt to magically transport her via a teleportation effect. The portal seeker also applies this bonus to saving throws against <Link to="/spell/imprisonment">imprisonment</Link>, and she never takes a penalty on her save against this spell as a result of the caster knowing her name and facts about her life.</Pair>
@@ -892,14 +892,14 @@ const _portal_seeker = {title: "Portal Seeker", jsx: <><h2 id="arc-investigator-
 <Pair title="At 17th Level">This bonus becomes +7.</Pair>
 <Pair title="At 20th Level">This bonus increases to +8.</Pair>
 </Ability>
-<Ability id="arc-investigator-portal_seeker-portal-lore-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-portal_seeker-portal-lore-ex">Portal Lore (Ex)</Pair>
+<Ability id="portal-lore-ex" icon={["stairs-goal"]}>
+<Pair single id="portal-lore-ex">Portal Lore (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">When a portal seeker detects a portal, she can attempt a Knowledge (planes) check (DC = 15 + the portal's caster level, or DC 25 if the caster level isn't specified) to determine the portal's destination plane. If her result exceeds the DC by 5 or more, she also determines the rough location on the destination plane where the portal leads, and if the result exceeds the DC by 10 or more, she also determines any command words, portal keys, and other necessary elements needed to open the portal.</Pair>
 </Ability>
-<Ability id="arc-investigator-portal_seeker-transit-portals-su" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-portal_seeker-transit-portals-su">Transit Portals (Su)</Pair>
+<Ability id="transit-portals-su" icon={["magic-swirl"]}>
+<Pair single id="transit-portals-su">Transit Portals (Su)</Pair>
 <Pair hl title="Replaces">Studied strike</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A portal seeker can create ephemeral portals to improve her maneuverability. At the start of each day, she gains a number of Portal Points equal to her investigator level. She can spend 1 Portal Point as a <strong className="hl">swift action</strong> during a move or <Link to="/rule/withdraw">withdraw</Link> action to open and step through a momentary portal to a location within 20 feet that she can see. Stepping through the portal takes 5 feet of movement, and while the rest of her movement provokes attacks of opportunity as normal, the extra movement from the portal is a teleportation effect that doesn't provoke attacks of opportunity.</Pair>
@@ -912,8 +912,8 @@ const _portal_seeker = {title: "Portal Seeker", jsx: <><h2 id="arc-investigator-
 <Pair title="At 18th Level">The distance she can travel becomes 90 feet.</Pair>
 <Pair title="At 20th Level">The distance she can travel increases to 100 feet.</Pair>
 </Ability>
-<Ability id="arc-investigator-portal_seeker-extended-portals-su" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-portal_seeker-extended-portals-su">Extended Portals (Su)</Pair>
+<Ability id="extended-portals-su" icon={["magic-swirl"]}>
+<Pair single id="extended-portals-su">Extended Portals (Su)</Pair>
 <Pair hl title="Replaces">Poison immunity</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Standard Action">A portal seeker can spend 2 Portal Points to create two portals, one in an adjacent square and one within 5 feet per investigator level she has in a visible location. These portals persist until the end of her next turn, and creatures of any size can step move through either, using 5 feet of movement to exit from the other portal.</Pair>
@@ -922,15 +922,15 @@ const _portal_seeker = {title: "Portal Seeker", jsx: <><h2 id="arc-investigator-
 </>};
 const _profiler = {title: "Profiler", jsx: <><h2 id="arc-investigator-profiler-profiler">Profiler</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 55</Link><br/>Profilers understand the human psyche to an intense degree, allowing them to predict the criminals they hunt.</p>
-<Ability id="arc-investigator-profiler-expert-profiler-ex" icon={["upgrade","stairs-goal"]}>
-<Pair single id="arc-investigator-profiler-expert-profiler-ex">Expert Profiler (Ex)</Pair>
+<Ability id="expert-profiler-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="expert-profiler-ex">Expert Profiler (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding, poison lore, trap sense</Pair>
 <Pair title="At 1st Level">A profiler gains a bonus equal to 1/2 his class level (minimum +1) on Sense Motive checks.</Pair>
 <Pair title="At 2nd Level">He can use <em>inspiration</em> on any Sense Motive check without expending a use of <em>inspiration,</em> provided he is trained in the skill.</Pair>
 <Pair title="At 3rd Level">He can attempt to predict a creature's movements using his knowledge of the creature's psychology. He can use this ability only on a creature familiar to him (for example, a <Link to="/arc-vigilante/serial_killer">serial killer</Link> whose crimes the profiler has studied will suffice, even if the profiler hasn't yet identified the serial killer's true identity). To do so, he starts from a place where he knows that the creature has been and why (most often the scene of a crime) and attempts a Sense Motive check against a DC equal to 40 or to 20 + the creature's Bluff modifier, whichever is higher, which the GM rolls in secret. On a failure, the profiler's guess about the creatures movements is inaccurate. On a success, the profiler is able to track the creature's general movements as if using Survival to track (though the usual modifiers on Survival checks to track don't apply, and this ability allows her to track a creature using pass without trace or otherwise leaving no trail). After at most 1 hour (or sooner if there are many possible options for the creature to take, at the GM's discretion), if the profiler has not yet found further evidence of the creature's passing (such as footprints, fingerprints, or any other indication that the creature came this way), he loses track of the creature's movements; if he does, he can try to guess where the creature went next by attempting another check.</Pair>
 </Ability>
-<Ability id="arc-investigator-profiler-divination-analysis-su" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="arc-investigator-profiler-divination-analysis-su">Divination Analysis (Su)</Pair>
+<Ability id="divination-analysis-su" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="divination-analysis-su">Divination Analysis (Su)</Pair>
 <Pair hl title="Replaces">Poison resistance, poison immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A profiler has analyzed the workings of the mind. His caster level to determine the duration of his divination extracts increases by 1, and he gains a +1 bonus on saving throws against divinations.</Pair>
@@ -938,14 +938,14 @@ const _profiler = {title: "Profiler", jsx: <><h2 id="arc-investigator-profiler-p
 <Pair title="At 8th Level">These increase to 3 and +3, respectively.</Pair>
 <Pair title="At 11th Level">A profiler can expend one use of <em>inspiration</em> to add 1d6 to the result of a <Link to="/rule/concentration">concentration</Link> check when using a divination extract or investigator spell-like ability.</Pair>
 </Ability>
-<Ability id="arc-investigator-profiler-blood-sleuth-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-profiler-blood-sleuth-sp">Blood Sleuth (Sp)</Pair>
+<Ability id="blood-sleuth-sp" icon={["magic-swirl"]}>
+<Pair single id="blood-sleuth-sp">Blood Sleuth (Sp)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A profiler can expend one use of his <em>inspiration</em> to use <Link to="/spell/discern_next_of_kin">discern next of kin</Link> as a spell-like ability. Alternatively, he can expend two uses of <em>inspiration</em> to use <Link to="/spell/blood_biography">blood biography</Link> as a spell-like ability.</Pair>
 </Ability>
-<Ability id="arc-investigator-profiler-pack-psychology-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-profiler-pack-psychology-su">Pack Psychology (Su)</Pair>
+<Ability id="pack-psychology-su" icon={["armor-upgrade"]}>
+<Pair single id="pack-psychology-su">Pack Psychology (Su)</Pair>
 <Pair hl title="Replaces">Investigator talent at 7th level</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">A profiler can understand the way that groups act together, allowing him to exploit the vulnerabilities in their attacks. A profiler can't be <Link to="/rule/flanked">flanked</Link> by creatures with an Intelligence score and he gains a +1 bonus to his AC against such creatures when they would otherwise flank him, as he plays their movements against each other.</Pair>
@@ -953,8 +953,8 @@ const _profiler = {title: "Profiler", jsx: <><h2 id="arc-investigator-profiler-p
 </>};
 const _psychic_detective = {title: "Psychic Detective", jsx: <><h2 id="arc-investigator-psychic_detective-psychic-detective">Psychic Detective</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 119</Link><br/>A psychic detective supplements her keen insight with occult skill to unravel mysteries both ordinary and supernatural.</p>
-<Ability icon={["skills"]} id="arc-investigator-psychic_detective-undefined">
-<Pair id="arc-investigator-psychic_detective-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="Removed Skills">Acrobatics, Climb, Perform</Pair></Ability>
 <Ability id="arc-investigator-psychic_detective-spells" icon={["magic-swirl"]}>
 <Pair single id="arc-investigator-psychic_detective-spells">Spells</Pair>
@@ -964,8 +964,8 @@ const _psychic_detective = {title: "Psychic Detective", jsx: <><h2 id="arc-inves
 <p>A psychic detective need not prepare her spells in advance. She can cast any psychic detective spell she knows at any time, assuming she has not yet used up her allotment of spells per day for the spell's level.</p>
 </Pair>
 </Ability>
-<Ability id="arc-investigator-psychic_detective-psychic-detective-spells" icon={["spell-book"]}>
-<Pair single id="arc-investigator-psychic_detective-psychic-detective-spells">Psychic Detective Spells</Pair>
+<Ability id="psychic-detective-spells" icon={["spell-book"]}>
+<Pair single id="psychic-detective-spells">Psychic Detective Spells</Pair>
 <Pair hl title="Replaces">Alchemy</Pair>
 <Pair title="Info">A psychic detective has the following spells on her spell list, in addition to psychic spells of 6th level or lower.</Pair>
 <Pair plain title="1st"><Link to="/spell/detect_chaos">Detect chaos</Link>, <Link to="/spell/detect_evil">detect evil</Link>, <Link to="/spell/detect_good">detect good</Link>, <Link to="/spell/detect_law">detect law</Link>, <Link to="/spell/find_traps">find traps</Link></Pair>
@@ -973,8 +973,8 @@ const _psychic_detective = {title: "Psychic Detective", jsx: <><h2 id="arc-inves
 <Pair plain title="4th"><Link to="/spell/modify_memory">Modify memory</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/banishment">Banishment</Link>, <Link to="/spell/moment_of_prescience">moment of prescience</Link>, <Link to="/spell/greater_scrying">greater scrying</Link></Pair>
 </Ability>
-<Ability id="arc-investigator-psychic_detective-psychic-meddler-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-psychic_detective-psychic-meddler-su">Psychic Meddler (Su)</Pair>
+<Ability id="psychic-meddler-su" icon={["armor-upgrade"]}>
+<Pair single id="psychic-meddler-su">Psychic Meddler (Su)</Pair>
 <Pair hl title="Replaces">Poison lore, poison resistance, swift alchemy, poison immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A psychic detective receives a +1 bonus on saves against psychic spells and spell-like abilities.</Pair>
@@ -985,14 +985,14 @@ const _psychic_detective = {title: "Psychic Detective", jsx: <><h2 id="arc-inves
 <Pair title="At 17th Level">This bonus becomes +6.</Pair>
 <Pair title="At 20th Level">This bonus increases to +7.</Pair>
 </Ability>
-<Ability id="arc-investigator-psychic_detective-phrenic-dabbler-su" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-psychic_detective-phrenic-dabbler-su">Phrenic Dabbler (Su)</Pair>
+<Ability id="phrenic-dabbler-su" icon={["stairs-goal"]}>
+<Pair single id="phrenic-dabbler-su">Phrenic Dabbler (Su)</Pair>
 <Pair hl title="Replaces">Investigator talent gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A psychic detective gains a small pool of phrenic points equal to 1/2 her psychic detective level, as well as one <Link to="/ability/phrenic_amplifications">phrenic amplification</Link>, as the <Link to="/class/psychic">psychic</Link> class feature. This does not allow the psychic detective to qualify for the <Link to="/feat/extra_amplification">Extra Amplification</Link> feat.</Pair>
 </Ability>
-<Ability id="arc-investigator-psychic_detective-investigator-talents" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-psychic_detective-investigator-talents">Investigator Talents</Pair>
+<Ability id="investigator-talents" icon={["stairs-goal"]}>
+<Pair single id="investigator-talents">Investigator Talents</Pair>
 <Pair hl title="Alters">Investigator talents</Pair>
 <Pair title="Ability">A psychic detective selects investigator talents as normal, except she cannot select the <Link to="/invtalent/alchemist_discovery">alchemist discovery</Link> investigator talent. She can select the <Link to="/feat/expanded_phrenic_pool">Expanded Phrenic Pool</Link> feat as a talent even though she doesn't meet that feat's prerequisites, and she can select an extra phrenic amplification once as a talent.</Pair>
 </Ability>
@@ -1000,8 +1000,8 @@ const _psychic_detective = {title: "Psychic Detective", jsx: <><h2 id="arc-inves
 </>};
 const _questioner = {title: "Questioner", jsx: <><h2 id="arc-investigator-questioner-questioner">Questioner</h2>
 <p><strong>Sources</strong> <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 26</Link><br/>Dabblers in arcane magic and masters of stealth and guile, questioners are investigators who often find themselves mucking about in cases for less-than-savory clientele or that require an extra bit of subtlety. Although questioners are found in nearly every major city in the Inner Sea region, Ustalav has the highest concentration; many belong to the famed Sleepless Detectives, while others have trained to evade the notice of that acclaimed agency.</p>
-<Ability id="arc-investigator-questioner-inspiration-for-subterfuge-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-questioner-inspiration-for-subterfuge-ex">Inspiration for Subterfuge (Ex)</Pair>
+<Ability id="inspiration-for-subterfuge-ex" icon={["stairs-goal"]}>
+<Pair single id="inspiration-for-subterfuge-ex">Inspiration for Subterfuge (Ex)</Pair>
 <Pair hl title="Alters">Inspiration</Pair>
 <Pair title="Ability">A questioner can use <em>inspiration</em> on any Knowledge, Linguistics, or Stealth checks he attempts without expending a use of <em>inspiration,</em> provided he's trained in that skill.</Pair>
 </Ability>
@@ -1014,8 +1014,8 @@ const _questioner = {title: "Questioner", jsx: <><h2 id="arc-investigator-questi
 <p>A questioner need not prepare his spells in advance. He can cast any bard spell he knows at any time, assuming he has not yet used up his allotment of spells per day for the spell's level.</p>
 </Pair>
 </Ability>
-<Ability id="arc-investigator-questioner-know-it-all-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-questioner-know-it-all-ex">Know-It-All (Ex)</Pair>
+<Ability id="know-it-all-ex" icon={["upgrade"]}>
+<Pair single id="know-it-all-ex">Know-It-All (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A questioner receives a +1 bonus on skill checks for all Knowledge skills in which he is trained.</Pair>
@@ -1027,8 +1027,8 @@ const _questioner = {title: "Questioner", jsx: <><h2 id="arc-investigator-questi
 <Pair title="At 20th Level">This bonus increases to +7.</Pair>
 <Pair title="Special">If he has the <Link to="/invtalent/perceptive_tracking">perceptive tracking</Link> investigator talent, he also adds this bonus on Perception checks to find and follow tracks.</Pair>
 </Ability>
-<Ability id="arc-investigator-questioner-restricted-talents" icon={["broken-shield"]}>
-<Pair single id="arc-investigator-questioner-restricted-talents">Restricted Talents</Pair>
+<Ability id="restricted-talents" icon={["broken-shield"]}>
+<Pair single id="restricted-talents">Restricted Talents</Pair>
 <Pair hl title="Alters">Investigator talents</Pair>
 <Pair title="Info">A questioner selects <Link to="/ability/investigator_talents">investigator talents</Link> as normal, except he cannot select the <Link to="/invtalent/alchemist_discovery">alchemist discovery</Link> investigator talent.</Pair>
 </Ability>
@@ -1036,15 +1036,15 @@ const _questioner = {title: "Questioner", jsx: <><h2 id="arc-investigator-questi
 </>};
 const _reckless_epicurean = {title: "Reckless Epicurean", jsx: <><h2 id="arc-investigator-reckless_epicurean-reckless-epicurean">Reckless Epicurean</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 14</Link><br/>Reckless epicureans are investigators who, for whatever reason, tend to test unknown concoctions on themselves. Whether an obsessive scientist, a healer determined to ensure the safety of her tinctures, or a seeker of new and interesting potions, a reckless epicurean's body is saturated with experimental chemicals and magic. She can prepare extracts without formulae by approximating the taste, and she can guzzle cursed concoctions without batting an eyelash.</p>
-<Ability id="arc-investigator-reckless_epicurean-a-familiar-taste-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-reckless_epicurean-a-familiar-taste-ex">A Familiar Taste (Ex)</Pair>
+<Ability id="a-familiar-taste-ex" icon={["upgrade"]}>
+<Pair single id="a-familiar-taste-ex">A Familiar Taste (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair hl title="Alters">Poison resistance, poison immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A reckless epicurean adds half her level as a bonus on Perception and Spellcraft checks to identify potions. The benefits she receives from <em>poison resistance</em> and <em>poison immunity</em> also apply against harmful potions and other ingested substances with negative effects, such as drugs.</Pair>
 </Ability>
-<Ability id="arc-investigator-reckless_epicurean-experimental-potable-su" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-reckless_epicurean-experimental-potable-su">Experimental Potable (Su)</Pair>
+<Ability id="experimental-potable-su" icon={["magic-swirl"]}>
+<Pair single id="experimental-potable-su">Experimental Potable (Su)</Pair>
 <Pair hl title="Replaces">Investigator talent gained at 5th level</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A reckless epicurean can prepare one <em>experimental potable</em> using a formula that she does not know from the alchemist formulae list into an extract slot of the appropriate level. These <em>experimental potables</em> often have side effects. When a creature consumes one of these potables, the investigator must succeed at a Spellcraft check (DC = 15 + the formula's level). On a failure, she must roll on the <Link to="/rule/wild_magic">Wild Magic Surge table</Link> to determine the extra effects. If the wild magic surge effect isn't possible due to the nature of the spell or effect, roll instead on the Universal Surge Effects table. Results concerning the caster affect the drinker of the <em>experimental potable</em> instead.</Pair>
@@ -1054,8 +1054,8 @@ const _reckless_epicurean = {title: "Reckless Epicurean", jsx: <><h2 id="arc-inv
 <Pair title="At 17th Level">She can now create 5 <em>experimental potables</em> per day.</Pair>
 <Pair title="At 20th Level">She can now prepare 6 <em>experimental potables</em> per day.</Pair>
 </Ability>
-<Ability id="arc-investigator-reckless_epicurean-sympathetic-resistance-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-reckless_epicurean-sympathetic-resistance-su">Sympathetic Resistance (Su)</Pair>
+<Ability id="sympathetic-resistance-su" icon={["armor-upgrade"]}>
+<Pair single id="sympathetic-resistance-su">Sympathetic Resistance (Su)</Pair>
 <Pair hl title="Replaces">Investigator talent gained at 13th level</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Usage">Intelligence modifier times/day (minimum 1)</Pair>
@@ -1064,19 +1064,19 @@ const _reckless_epicurean = {title: "Reckless Epicurean", jsx: <><h2 id="arc-inv
 </>};
 const _ruthless_agent = {title: "Ruthless Agent", jsx: <><h2 id="arc-investigator-ruthless_agent-ruthless-agent">Ruthless Agent</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 27</Link><br/>Ruthless agents are often called upon for their skills at extracting information by any means necessary. Though some view their methods as extreme, ruthless agents prize getting the job done at all costs. Ruthless agents can be found in the employ of nearly any organization - even goodly groups whose leaders either don't know the extent of ruthless agents' zeal or are willing to look the other way to take advantage of these investigators' incredible efficiency.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-investigator-ruthless_agent--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Alignment must be nongood.</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-investigator-ruthless_agent-inspiration-ex" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-investigator-ruthless_agent-inspiration-ex" flavor="A ruthless agent focuses on reading motivations and using interrogation tactics.">Inspiration (Ex)</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-investigator-ruthless_agent--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Alignment must be nongood.</td></tr></tbody></table></ScrollContainer></div><Ability id="inspiration-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="inspiration-ex" flavor="A ruthless agent focuses on reading motivations and using interrogation tactics.">Inspiration (Ex)</Pair>
 <Pair hl title="Alters">Inspiration</Pair>
 <Pair title="Ability">She can use <em>inspiration</em> on Intimidate, Knowledge, and Sense Motive checks without expending a use of <em>inspiration,</em> provided she's trained in the skill. A ruthless agent can't spend <em>inspiration</em> on attack rolls or saving throws.</Pair>
 </Ability>
-<Ability id="arc-investigator-ruthless_agent-enhanced-intimidation-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-ruthless_agent-enhanced-intimidation-ex">Enhanced Intimidation (Ex)</Pair>
+<Ability id="enhanced-intimidation-ex" icon={["upgrade"]}>
+<Pair single id="enhanced-intimidation-ex">Enhanced Intimidation (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair title="Passive Ability">A ruthless agent adds half her investigator level (minimum +1) as a bonus on <Link to="/skill/intimidate">Intimidate</Link> checks. When the ruthless agent uses Intimidate to influence an opponent's attitude, the duration of the attitude shift is 1d6&times;10 minutes per investigator level (rather than the normal 1d6&times;10 minutes).</Pair>
 <Pair title="Ability">Additionally, the ruthless agent is an expert in blending coercion and fear. The first time the ruthless agent attempts to use Intimidate to influence an opponent's attitude and fails, she can retry it against that same opponent with no increase to the DC. Subsequent attempts to influence the same opponent are subject to increased DCs as normal.</Pair>
 </Ability>
-<Ability id="arc-investigator-ruthless_agent-interrogate-su" icon={["armor-downgrade"]}>
-<Pair single id="arc-investigator-ruthless_agent-interrogate-su">Interrogate (Su)</Pair>
+<Ability id="interrogate-su" icon={["armor-downgrade"]}>
+<Pair single id="interrogate-su">Interrogate (Su)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Usage">3 + Intelligence modifier times/day</Pair>
@@ -1088,21 +1088,21 @@ const _ruthless_agent = {title: "Ruthless Agent", jsx: <><h2 id="arc-investigato
 <Pair title="At 18th Level">The penalty becomes -12.</Pair>
 <Pair title="Special">This is a mind-affecting fear effect.</Pair>
 </Ability>
-<Ability id="arc-investigator-ruthless_agent-agonizing-strike-ex" icon={["armor-downgrade"]}>
-<Pair single id="arc-investigator-ruthless_agent-agonizing-strike-ex" flavor="A ruthless agent has learned how to finesse her attacks to discomfort a foe.">Agonizing Strike (Ex)</Pair>
+<Ability id="agonizing-strike-ex" icon={["armor-downgrade"]}>
+<Pair single id="agonizing-strike-ex" flavor="A ruthless agent has learned how to finesse her attacks to discomfort a foe.">Agonizing Strike (Ex)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">When she deals damage using her <em>studied strike,</em> she can make this damage nonlethal (regardless of whether her weapon normally deals lethal or nonlethal damage), forcing the target to succeed at a Fortitude saving throw (DC = 10 + half the ruthless agent's level + her Intelligence modifier) or be <Link to="/misc/sickened">sickened</Link> for 1 round and take a -2 penalty on Will saving throws for 1 minute.</Pair>
 <Pair title="Special">Multiple agonizing strikes do not worsen the condition or impose an additional penalty on Will saves, but they do increase the duration of both effects.</Pair>
 </Ability>
-<Ability id="arc-investigator-ruthless_agent-concoction-of-truth-su" icon={["spell-book"]}>
-<Pair single id="arc-investigator-ruthless_agent-concoction-of-truth-su">Concoction of Truth (Su)</Pair>
+<Ability id="concoction-of-truth-su" icon={["spell-book"]}>
+<Pair single id="concoction-of-truth-su">Concoction of Truth (Su)</Pair>
 <Pair hl title="Replaces">Investigator talent gained at 7th level</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Info">A ruthless agent automatically adds <Link to="/spell/discern_lies">discern lies</Link> to her list of formulae known. She prepares this as a 3rd-level extract, and she can prepare one <em>discern lies</em> extract each day that does not count against her daily allotment of extracts.</Pair>
 </Ability>
-<Ability id="arc-investigator-ruthless_agent-compel-obedience-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-ruthless_agent-compel-obedience-sp">Compel Obedience (Sp)</Pair>
+<Ability id="compel-obedience-sp" icon={["magic-swirl"]}>
+<Pair single id="compel-obedience-sp">Compel Obedience (Sp)</Pair>
 <Pair hl title="Replaces">Investigator talents gained at 11th and 17th levels</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Full-Round Action">A ruthless agent can issue a binding command to a creature once per day. This command acts like <Link to="/spell/geas_quest">geas/quest</Link> with the creature as the target, using the ruthless agent's investigator level as the caster level. The ruthless agent can compel obedience from only one creature at a time (as soon as the <em>geas/quest</em> is fulfilled, however, the ruthless agent can use this ability again, as long as she has a use of this ability available).</Pair>
@@ -1118,20 +1118,20 @@ const _scavenger = {title: "Scavenger", jsx: <><h2 id="arc-investigator-scavenge
 <p>Rather than prepare his extracts as consumable liquids, a scavenger constructs small, single-use devices infused with bits of his own magic aura to achieve the same effects. Alchemist and investigator discoveries that affect extracts result in identical effects on a scavenger's gadgets (such as the <Link to="/discovery/infusion">infusion</Link> discovery, which would allow another creature to use a gadget, just as it would allow that creature to use an extract).</p>
 </Pair>
 </Ability>
-<Ability id="arc-investigator-scavenger-mechanical-inspiration-ex" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-investigator-scavenger-mechanical-inspiration-ex">Mechanical Inspiration (Ex)</Pair>
+<Ability id="mechanical-inspiration-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="mechanical-inspiration-ex">Mechanical Inspiration (Ex)</Pair>
 <Pair hl title="Alters">Inspiration</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A scavenger can use <em>inspiration</em> to apply a bonus to Appraise, Disable Device, and Knowledge (engineering) checks without expending a use of <em>inspiration,</em> but he must spend a use of <em>inspiration</em> to apply a bonus on Knowledge, Linguistics, and Spellcraft checks.</Pair>
 </Ability>
-<Ability id="arc-investigator-scavenger-jury-rig-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-scavenger-jury-rig-ex">Jury-Rig (Ex)</Pair>
+<Ability id="jury-rig-ex" icon={["stairs-goal"]}>
+<Pair single id="jury-rig-ex">Jury-Rig (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A scavenger can sacrifice one of his gadgets to repair or enhance an adjacent mechanical device, such as a lock, trap, or vehicle. Doing so either repairs 1d6 points of damage per extract level of the gadget sacrificed or applies a bonus or penalty to one specific skill check involved in using the device. The scavenger could, for example, sacrifice a gadget to impose a penalty on all Disable Device checks to disarm a trap, add a bonus on all Disable Device checks to open a lock, or add a bonus on all Profession (driver) checks to drive a carriage. This modifier is equal to twice the extract level of the gadget sacrificed, and lasts for 10 minutes per class level.</Pair>
 </Ability>
-<Ability id="arc-investigator-scavenger-construct-mastery-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-scavenger-construct-mastery-ex">Construct Mastery (Ex)</Pair>
+<Ability id="construct-mastery-ex" icon={["upgrade"]}>
+<Pair single id="construct-mastery-ex">Construct Mastery (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance, poison immunity</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A scavenger gains a +2 bonus on all Craft checks to modify or repair creatures of the construct type, as well as a +2 bonus on all weapon damage rolls against constructs.</Pair>
@@ -1142,14 +1142,14 @@ const _scavenger = {title: "Scavenger", jsx: <><h2 id="arc-investigator-scavenge
 </>};
 const _skeptic = {title: "Skeptic", jsx: <><h2 id="arc-investigator-skeptic-skeptic">Skeptic</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 11</Link><br/>The skeptic accepts the existence of the occult world while challenging claims that the supernatural explains all of life's problems. Skeptics tirelessly strive to debunk the legends surrounding possessions and spiritual hauntings, but stand prepared on the off chance a legend turns out to be true. Though these strong-willed investigators master the art of identifying and overcoming haunts and possessions, they often revel in the thrill of revealing a more mundane truth.</p>
-<Ability id="arc-investigator-skeptic-hauntfinding-su" icon={["upgrade"]}>
-<Pair single id="arc-investigator-skeptic-hauntfinding-su" flavor={<>A skeptic's knowledge of <Link to="/rule/haunts">haunts</Link> allows her to notice them with ease, regardless of the methods by which the haunts make their presence known in the realm of the living.</>}>Hauntfinding (Su)</Pair>
+<Ability id="hauntfinding-su" icon={["upgrade"]}>
+<Pair single id="hauntfinding-su" flavor={<>A skeptic's knowledge of <Link to="/rule/haunts">haunts</Link> allows her to notice them with ease, regardless of the methods by which the haunts make their presence known in the realm of the living.</>}>Hauntfinding (Su)</Pair>
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">The skeptic adds 1/2 her level to all skill checks to notice haunts. If she notices a haunt, she adds this same bonus to any initiative check made as a result of that haunt activating. This bonus is an insight bonus.</Pair>
 </Ability>
-<Ability id="arc-investigator-skeptic-suspect-hoax-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-skeptic-suspect-hoax-ex" flavor="Regardless of the actual situation at hand, a skeptic naturally suspects that trickery or hoaxing is at hand. This mindset helps to set the skeptic at ease even when confronted by the most terrifying of situations, be the source of that fear mundane or legitimately supernatural.">Suspect Hoax (Ex)</Pair>
+<Ability id="suspect-hoax-ex" icon={["armor-upgrade"]}>
+<Pair single id="suspect-hoax-ex" flavor="Regardless of the actual situation at hand, a skeptic naturally suspects that trickery or hoaxing is at hand. This mindset helps to set the skeptic at ease even when confronted by the most terrifying of situations, be the source of that fear mundane or legitimately supernatural.">Suspect Hoax (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A skeptic gains a +1 insight bonus on saving throws against spells and spell-like abilities used to falsely create the impression of a supernatural presence, as well as a +1 insight bonus on saving throws caused by the effects of actual haunts or incorporeal undead.</Pair>
@@ -1157,14 +1157,14 @@ const _skeptic = {title: "Skeptic", jsx: <><h2 id="arc-investigator-skeptic-skep
 <Pair title="At 8th Level">The bonus becomes +3.</Pair>
 <Pair title="At 11th Level">A skeptic becomes immune to fear effects.</Pair>
 </Ability>
-<Ability id="arc-investigator-skeptic-smite-haunt-su" icon={["smoking-finger"]}>
-<Pair single id="arc-investigator-skeptic-smite-haunt-su" flavor="Normally, damaging a haunt is a tricky affair requiring the ability to channel positive energy or wield spells capable of doing the same, but the skeptic learns methods of using her own convictions to accomplish the same feat.">Smite Haunt (Su)</Pair>
+<Ability id="smite-haunt-su" icon={["smoking-finger"]}>
+<Pair single id="smite-haunt-su" flavor="Normally, damaging a haunt is a tricky affair requiring the ability to channel positive energy or wield spells capable of doing the same, but the skeptic learns methods of using her own convictions to accomplish the same feat.">Smite Haunt (Su)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Standard Action">A skeptic can focus her willpower to damage an active haunt. She must be within a haunt's area to smite the haunt. When the skeptic uses this ability, she deals an amount of damage to the haunt equal to her <em>studied strike</em> bonus.</Pair>
 </Ability>
-<Ability id="arc-investigator-skeptic-exorcising-touch-su" icon={["magic-palm"]}>
-<Pair single id="arc-investigator-skeptic-exorcising-touch-su" flavor="A skeptic can damage a creature currently possessing another without lethally harming the possessed creature.">Exorcising Touch (Su)</Pair>
+<Ability id="exorcising-touch-su" icon={["magic-palm"]}>
+<Pair single id="exorcising-touch-su" flavor="A skeptic can damage a creature currently possessing another without lethally harming the possessed creature.">Exorcising Touch (Su)</Pair>
 <Pair hl title="Replaces">Investigator talent gained at 7th level</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">To make an exorcising strike, the skeptic must make a touch attack against the possessed creature. On a hit, she damages the possessing creature or entity, dealing an amount of lethal damage equal to her <em>studied strike</em> bonus damage. The possessed creature takes this amount of damage as nonlethal damage at the same time.</Pair>
@@ -1182,37 +1182,37 @@ const _sleuth = {title: "Sleuth", jsx: <><h2 id="arc-investigator-sleuth-sleuth"
 </Pair>
 <Pair title="Special">A sleuth cannot take the <Link to="/invtalent/alchemist_discovery">alchemist discovery</Link> talent or any investigator talent that affects alchemy.</Pair>
 </Ability>
-<Ability id="arc-investigator-sleuth-deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-sleuth-deeds">Deeds</Pair>
+<Ability id="deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="deeds">Deeds</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Sleuths spend luck points to accomplish deeds. Most deeds grant a sleuth some momentary bonus or effect, but there are some that provide longer-lasting effects. Some deeds stay in effect as long as a sleuth has at least 1 luck point.</Pair>
 </Ability>
-<Ability id="arc-investigator-sleuth-daring-ex" extraClasses="subAbility" icon={["upgrade","rolling-dices"]}>
-<Pair single id="arc-investigator-sleuth-daring-ex">Daring (Ex)</Pair>
+<Ability id="daring-ex" extraClasses="subAbility" icon={["upgrade","rolling-dices"]}>
+<Pair single id="daring-ex">Daring (Ex)</Pair>
 <Pair title="Ability">A sleuth can spend 1 luck point when he makes an Acrobatics, Climb, Escape Artist, Fly, Ride, or Swim check to roll d6 and add the result to the check. He can choose to add this die after he rolls. If the d6 roll is a natural 6, he rolls another d6 and adds it to the check. He can continue to do this as long as he rolls natural 6s, up to a number of times equal to his Intelligence modifier (minimum 1).</Pair>
 </Ability>
-<Ability id="arc-investigator-sleuth-opportunistic-evasion-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-sleuth-opportunistic-evasion-ex">Opportunistic Evasion (Ex)</Pair>
+<Ability id="opportunistic-evasion-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="opportunistic-evasion-ex">Opportunistic Evasion (Ex)</Pair>
 <Pair title="Immediate Action">When a sleuth succeeds at a Reflex saving throw against an effect that still deals damage on a successful save, he can spend 1 luck point to instead take no damage for that effect.</Pair>
 </Ability>
-<Ability id="arc-investigator-sleuth-sleuths-initiative-ex" extraClasses="subAbility" icon={["upgrade","stairs-goal"]}>
-<Pair single id="arc-investigator-sleuth-sleuths-initiative-ex">Sleuth's Initiative (Ex)</Pair>
+<Ability id="sleuths-initiative-ex" extraClasses="subAbility" icon={["upgrade","stairs-goal"]}>
+<Pair single id="sleuths-initiative-ex">Sleuth's Initiative (Ex)</Pair>
 <Pair title="Passive Ability">As long as the sleuth has at least 1 luck point, he gains a +2 bonus on initiative checks.</Pair>
 <Pair title="Ability">If he has the <Link to="/feat/quick_draw">Quick Draw</Link> feat, his hands are free and unrestrained, and the weapon is not hidden, he can draw a single light or one-handed melee weapon as part of the initiative check. (Unlike with swashbuckler deeds, this does not have to be a piercing weapon.)</Pair>
 </Ability>
-<Ability id="arc-investigator-sleuth-make-it-count-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-sleuth-make-it-count-ex">Make It Count (Ex)</Pair>
+<Ability id="make-it-count-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="make-it-count-ex">Make It Count (Ex)</Pair>
 <Pair title="Prerequisites">4th-level investigator</Pair>
 <Pair title="Ability">When a sleuth uses <em>studied strike,</em> he can spend 1 luck point to apply an investigator talent that he doesn't already know and which affects <em>studied strike</em> to his <em>studied strike.</em> He must be able to fulfill that talent's prerequisites.</Pair>
 </Ability>
-<Ability id="arc-investigator-sleuth-run-like-hell-ex" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-investigator-sleuth-run-like-hell-ex">Run Like Hell (Ex)</Pair>
+<Ability id="run-like-hell-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="run-like-hell-ex">Run Like Hell (Ex)</Pair>
 <Pair title="Prerequisites">4th-level investigator</Pair>
 <Pair title="Ability">A sleuth can spend 1 luck point to gain a +20-foot bonus to his speed for 1 minute. Furthermore, while under the effect of this bonus, if he moves more than his normal speed in a round, he gains a +4 bonus to AC until the start of his next turn.</Pair>
 </Ability>
-<Ability id="arc-investigator-sleuth-second-chance-ex" icon={["rolling-dices"]}>
-<Pair single id="arc-investigator-sleuth-second-chance-ex">Second Chance (Ex)</Pair>
+<Ability id="second-chance-ex" icon={["rolling-dices"]}>
+<Pair single id="second-chance-ex">Second Chance (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">When a sleuth rolls an inspiration die or uses the <em>daring</em> deed, he can spend 1 luck point to reroll either the <em>inspiration</em> or the <em>daring</em> deed die. If he rolls a 6 or higher on this reroll, he does not regain a luck point, and no matter what he rolls on either roll, he must keep the reroll result, even if it is lower.</Pair>
 </Ability>
@@ -1226,8 +1226,8 @@ const _spiritualist = {title: "Spiritualist", jsx: <><h2 id="arc-investigator-sp
 <p><em><strong>Note:</strong> This is an investigator archetype, and has no relation to the <Link to="/class/spiritualist">spiritualist</Link> occult class.</em></p>
 </blockquote>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 102</Link><br/>While most investigators look to the physical world to gain their knowledge, there are those who seek out knowledge beyond the pale. Those who think that the dead tell no tales are quickly proven wrong by the spiritualist. Instead of toying with chemicals and reagents to find clues, he talks directly to the spirit world to uncover the ways and means of skullduggery and the desperate acts committed in the heat of dark passions.</p>
-<Ability id="arc-investigator-spiritualist-commune-with-spirits-sp" icon={["magic-swirl","broken-shield"]}>
-<Pair single id="arc-investigator-spiritualist-commune-with-spirits-sp" flavor="Instead of relying on alchemical research to find clues, a spiritualist relies on communion with the world beyond death.">Commune with Spirits (Sp)</Pair>
+<Ability id="commune-with-spirits-sp" icon={["magic-swirl","broken-shield"]}>
+<Pair single id="commune-with-spirits-sp" flavor="Instead of relying on alchemical research to find clues, a spiritualist relies on communion with the world beyond death.">Commune with Spirits (Sp)</Pair>
 <Pair hl title="Replaces">Alchemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">A number of times per day equal to his investigator level + his Wisdom modifier.</Pair>
@@ -1238,34 +1238,34 @@ const _spiritualist = {title: "Spiritualist", jsx: <><h2 id="arc-investigator-sp
 <Pair title="At 9th Level">He can use <Link to="/spell/legend_lore">legend lore</Link>.</Pair>
 <Pair title="Special">A spiritualist cannot take the <Link to="/invtalent/alchemist_discovery">alchemist discovery</Link> talent or any investigator talent that affects alchemy.</Pair>
 </Ability>
-<Ability id="arc-investigator-spiritualist-spirit-sense-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-spiritualist-spirit-sense-su">Spirit Sense (Su)</Pair>
+<Ability id="spirit-sense-su" icon={["armor-upgrade"]}>
+<Pair single id="spirit-sense-su">Spirit Sense (Su)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">When a spiritualist attempts a saving throw against an ability or an effect delivered by an incorporeal creature, he can expend one use of his <em>inspiration</em> instead of two to augment that saving throw. If the spiritualist has the <Link to="/invtalent/combat_inspiration">combat inspiration</Link> investigator talent, he need not spend any <em>inspiration</em> to augment such saving throws.</Pair>
 </Ability>
-<Ability id="arc-investigator-spiritualist-strong-life-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-spiritualist-strong-life-ex" flavor="His dealings with the other side and knowledge of what lies beyond strengthens the spiritualist's will.">Strong Life (Ex)</Pair>
+<Ability id="strong-life-ex" icon={["armor-upgrade"]}>
+<Pair single id="strong-life-ex" flavor="His dealings with the other side and knowledge of what lies beyond strengthens the spiritualist's will.">Strong Life (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">He gains a +2 bonus on saving throws against death effects and negative energy damage.</Pair>
 <Pair title="At 5th Level">This bonus increases to +4.</Pair>
 <Pair title="At 8th Level">This bonus becomes +6.</Pair>
 </Ability>
-<Ability id="arc-investigator-spiritualist-sixth-sense-su" icon={["armor-upgrade","rolling-dices"]}>
-<Pair single id="arc-investigator-spiritualist-sixth-sense-su">Sixth Sense (Su)</Pair>
+<Ability id="sixth-sense-su" icon={["armor-upgrade","rolling-dices"]}>
+<Pair single id="sixth-sense-su">Sixth Sense (Su)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A spiritualist can spend one of his uses of the <em>commune with spirits</em> ability to reroll a single saving throw that he has failed. He must take the results of the reroll, even if it is lower.</Pair>
 </Ability>
-<Ability id="arc-investigator-spiritualist-whispering-spirits-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-spiritualist-whispering-spirits-su" flavor="The spiritualist can open a conduit with the spirit world that can aid him in combat for a short time.">Whispering Spirits (Su)</Pair>
+<Ability id="whispering-spirits-su" icon={["armor-upgrade"]}>
+<Pair single id="whispering-spirits-su" flavor="The spiritualist can open a conduit with the spirit world that can aid him in combat for a short time.">Whispering Spirits (Su)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">He can expend one use of his <em>commune with spirits</em> ability in order to gain an insight bonus to both AC and saving throws equal to his Wisdom modifier (minimum 1) for 1 minute.</Pair>
 </Ability>
-<Ability id="arc-investigator-spiritualist-touched-by-the-beyond-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-spiritualist-touched-by-the-beyond-su" flavor="The spiritualist's ability to touch the beyond grants him further protection against the dangers of death and negative energy.">Touched by the Beyond (Su)</Pair>
+<Ability id="touched-by-the-beyond-su" icon={["armor-upgrade"]}>
+<Pair single id="touched-by-the-beyond-su" flavor="The spiritualist's ability to touch the beyond grants him further protection against the dangers of death and negative energy.">Touched by the Beyond (Su)</Pair>
 <Pair hl title="Replaces">Poison immunity</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">The spiritualist becomes immune to death effects, and he takes half damage from negative energy.</Pair>
@@ -1274,8 +1274,8 @@ const _spiritualist = {title: "Spiritualist", jsx: <><h2 id="arc-investigator-sp
 </>};
 const _star_watcher = {title: "Star Watcher", jsx: <><h2 id="arc-investigator-star_watcher-star-watcher">Star Watcher</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 57</Link><br/>Star watchers study the movements and positions of the sun, the moon, and the stars, searching for secrets written in the sky. They use a combination of scientific study and esoteric arts to measure, record, and predict astronomical cycles and their effects on nature, such as the moon's influence on tides and rivers. Some star watchers also use these observations to predict fate and significant events, such as natural disasters.</p>
-<Ability id="arc-investigator-star_watcher-weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-investigator-star_watcher-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Ability id="weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Alters">Weapon and armor proficiency</Pair>
 <Pair title="Ability">A star watcher gains proficiency with the <Link to="/eq-weapon/starknife">starknife</Link>, but not with the rapier.</Pair>
 </Ability>
@@ -1287,86 +1287,86 @@ const _star_watcher = {title: "Star Watcher", jsx: <><h2 id="arc-investigator-st
 </Pair>
 <Pair title="Special">A star watcher doesn't gain a competence bonus on Craft (alchemy) checks to create alchemical items, and he cannot identify potions with that skill. Furthermore, a star watcher cannot select alchemist discoveries as investigator talents. A star watcher can study a <Link to="/class/wizard">wizard's</Link> spellbook or <Link to="/class/alchemist">alchemist's</Link> formula book to learn formulae, but a star watcher's formula book is too esoteric for anyone except another star watcher to learn spells from.</Pair>
 </Ability>
-<Ability id="arc-investigator-star_watcher-starfinding-ex" icon={["upgrade","stairs-goal"]}>
-<Pair single id="arc-investigator-star_watcher-starfinding-ex">Starfinding (Ex)</Pair>
+<Ability id="starfinding-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="starfinding-ex">Starfinding (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding, trap sense</Pair>
 <Pair title="Ability">A star watcher adds half his level (minimum 1) as a bonus on Knowledge (geography) checks. He can also use astrological methods to read people. By checking his star charts, he can use Knowledge (geography) in place of Sense Motive checks.</Pair>
 </Ability>
-<Ability id="arc-investigator-star_watcher-investigator-talents" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-star_watcher-investigator-talents">Investigator Talents</Pair>
+<Ability id="investigator-talents" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="investigator-talents">Investigator Talents</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair hl title="Alters">Investigator talents</Pair>
 <Pair title="Ability">A star watcher can select the following talents, in addition to general <Link to="/ability/investigator_talents">investigator talents</Link>.</Pair>
 </Ability>
-<Ability id="arc-investigator-star_watcher-horoscopic-scrolls-su" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-star_watcher-horoscopic-scrolls-su">Horoscopic Scrolls (Su)</Pair>
+<Ability id="horoscopic-scrolls-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="horoscopic-scrolls-su">Horoscopic Scrolls (Su)</Pair>
 <Pair title="Ability">The star watcher gains <Link to="/feat/scribe_scroll">Scribe Scroll</Link> as a bonus feat. He can use the feat to create an arcane scroll of any formula he knows. Unlike horoscopes created with the <em>astrology</em> ability, anyone capable of using arcane scrolls can cast a spell from these scrolls. Additionally, the star watcher can use scrolls as if he were an arcane spellcaster. He can use Knowledge (geography) to identify scrolls as if using <Link to="/spell/detect_magic">detect magic</Link>. He must hold the scroll for 1 round to attempt such a check.</Pair>
 </Ability>
-<Ability id="arc-investigator-star_watcher-precognition-su" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-star_watcher-precognition-su" flavor="A star watcher can glimpse into the mysterious possibilities of the future and prepare a horoscope he knows he'll need later.">Precognition (Su)</Pair>
+<Ability id="precognition-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="precognition-su" flavor="A star watcher can glimpse into the mysterious possibilities of the future and prepare a horoscope he knows he'll need later.">Precognition (Su)</Pair>
 <Pair title="Prerequisites">4th-level investigator</Pair>
 <Pair title="Swift Action">Once per day, a star watcher can treat an open extract slot as though he had prepared a horoscope keyed to himself in it, choosing one formula of the appropriate level from his formula book.</Pair>
 </Ability>
-<Ability id="arc-investigator-star_watcher-shooting-star-ex" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-investigator-star_watcher-shooting-star-ex" flavor="A star watcher can calculate trajectories with terrifying accuracy.">Shooting Star (Ex)</Pair>
+<Ability id="shooting-star-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="shooting-star-ex" flavor="A star watcher can calculate trajectories with terrifying accuracy.">Shooting Star (Ex)</Pair>
 <Pair title="Ability">He can apply the benefits of <em>studied combat, studied strike,</em> and investigator talents that add effects to <em>studied combat</em> or <em>studied strike</em> while using a starknife as a thrown weapon.</Pair>
 </Ability>
-<Ability id="arc-investigator-star_watcher-returning-star-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-star_watcher-returning-star-ex">Returning Star (Ex)</Pair>
+<Ability id="returning-star-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="returning-star-ex">Returning Star (Ex)</Pair>
 <Pair title="Prerequisites"><em>Shooting Star</em> talent</Pair>
 <Pair title="Ability">Whenever the star watcher uses a starknife as a thrown weapon against a target of his <em>studied combat,</em> the starknife automatically returns as if it had the <Link to="/magic-enh/returning">returning</Link> property.</Pair>
 </Ability>
 </>};
 const _steel_hound = {title: "Steel Hound", jsx: <><h2 id="arc-investigator-steel_hound-steel-hound">Steel Hound</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 103</Link><br/>Black powder and firearms are a natural extension of the alchemical experimentation that investigators use on a regular basis. Steel hounds are investigators who have taken to using firearms in place of the more mundane weapons their counterparts favor.</p>
-<Ability id="arc-investigator-steel_hound-weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-investigator-steel_hound-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Ability id="weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Replaces">Weapon and armor proficiencies</Pair>
 <Pair title="Info">Steel hounds are proficient with simple weapons, plus the <Link to="/eq-weapon/rapier">rapier</Link>, the <Link to="/eq-weapon/sap">sap</Link>, and one type of <Link to="/main/equipment_firearms">firearm</Link> selected at 1st level. They are proficient in light armor, but not shields.</Pair>
 </Ability>
-<Ability id="arc-investigator-steel_hound-packing-heat-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-steel_hound-packing-heat-ex">Packing Heat (Ex)</Pair>
+<Ability id="packing-heat-ex" icon={["stairs-goal"]}>
+<Pair single id="packing-heat-ex">Packing Heat (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">The steel hound gains both the <Link to="/feat/amateur_gunslinger">Amateur Gunslinger</Link> and <Link to="/feat/gunsmithing">Gunsmithing</Link> feats as bonus feats. He also gains a battered gun identical to the one gained by the <Link to="/class/gunslinger">gunslinger</Link>.</Pair>
 </Ability>
-<Ability id="arc-investigator-steel_hound-investigator-talents" icon={["info"]}>
-<Pair single id="arc-investigator-steel_hound-investigator-talents">Investigator Talents</Pair>
+<Ability id="investigator-talents" icon={["info"]}>
+<Pair single id="investigator-talents">Investigator Talents</Pair>
 <Pair hl title="Alters">Investigator talents</Pair>
 <Pair title="Ability">The steel hound can select the <Link to="/feat/extra_grit">Extra Grit</Link> or <Link to="/feat/rapid_reload">Rapid Reload</Link> feats in place of an investigator talent.</Pair>
 </Ability>
-<Ability id="arc-investigator-steel_hound-shot-in-the-dark-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-steel_hound-shot-in-the-dark-ex">Shot in the Dark (Ex)</Pair>
+<Ability id="shot-in-the-dark-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="shot-in-the-dark-ex">Shot in the Dark (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A steel hound gains the following deed. This deed works and interacts with <em>grit</em> the same way as gunslinger deeds, but only the steel hound can use it. If the steel hound also has levels in gunslinger, he can spend grit points from that class to use this deed.</Pair>
 </Ability>
-<Ability id="arc-investigator-steel_hound-blind-shot-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
-<Pair single id="arc-investigator-steel_hound-blind-shot-su">Blind Shot (Su)</Pair>
+<Ability id="blind-shot-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="blind-shot-su">Blind Shot (Su)</Pair>
 <Pair hl title="Replaces">Swift alchemy</Pair>
 <Pair title="Ability">A steel hound can spend 1 grit point to ignore all miss chances due to <Link to="/rule/concealment">concealment</Link> when making firearm attacks. This effect lasts until the end of his turn. This ability allows the steel hound to ignore concealment, but does not reveal or allow him to see the enemy.</Pair>
 </Ability>
-<Ability id="arc-investigator-steel_hound-talented-shot-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-steel_hound-talented-shot-ex">Talented Shot (Ex)</Pair>
+<Ability id="talented-shot-ex" icon={["stairs-goal"]}>
+<Pair single id="talented-shot-ex">Talented Shot (Ex)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">A steel hound can select a <Link to="/ability/gunslinger_deeds">gunslinger deed</Link> in place of an investigator talent. He can select from any deed available to a gunslinger of his investigator level - 4.</Pair>
 </Ability>
 </>};
 const _tekritanin_arbiter = {title: "Tekritanin Arbiter", jsx: <><h2 id="arc-investigator-tekritanin_arbiter-tekritanin-arbiter">Tekritanin Arbiter</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 33</Link><br/>The Tekritanin League facilitated trade and settled disputes between a vast array of diverse cultures. The arbiters were the first line of diplomatic defense, solving problems before they could become disruptive.</p>
-<Ability id="arc-investigator-tekritanin_arbiter-tekritanin-ex" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-investigator-tekritanin_arbiter-tekritanin-ex">Tekritanin (Ex)</Pair>
+<Ability id="tekritanin-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="tekritanin-ex">Tekritanin (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair title="Ability">A Tekritanin arbiter gains Tekritanin as a bonus language. Tekritanin is a fluid and evolving hybrid tongue which shares roots with many modern languages. When the arbiter speaks Tekritanin, any creature that speaks a common Inner Sea human language will understand him well enough to allow the arbiter to use the Diplomacy skill or affect the creature with language-dependent effects. At the GM's discretion, some human languages might be too divergent or unrelated to Tekritanin to use this ability immediately. In this case, the arbiter must interact with creatures speaking the language for at least 1 hour to permanently apply this ability to the foreign language.</Pair>
 <Pair title="Passive Ability">A Tekritanin arbiter adds 1/2 his level (minimum 1) to Linguistics checks.</Pair>
 </Ability>
-<Ability id="arc-investigator-tekritanin_arbiter-expert-mediator-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-tekritanin_arbiter-expert-mediator-ex" flavor="A Tekritanin arbiter learns to forge lasting harmony between enemies.">Expert Mediator (Ex)</Pair>
+<Ability id="expert-mediator-ex" icon={["stairs-goal"]}>
+<Pair single id="expert-mediator-ex" flavor="A Tekritanin arbiter learns to forge lasting harmony between enemies.">Expert Mediator (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">Whenever the arbiter uses the Diplomacy skill to improve the starting attitude of a creature, that attitude shift lasts for 24 hours instead of 1d4 hours, barring any circumstance or event that causes it to be decreased. If the arbiter spends 1 minute continuously interacting with a creature, he can attempt a Sense Motive check (DC = 10 + the creature's Bluff skill bonus) to identify the creature's starting attitude (per the Diplomacy skill) in regard to all other creatures present (including himself). With this understanding, the arbiter can use the Diplomacy skill to improve a target's attitude toward any other creature present. This functions as if using the Diplomacy skill to improve the target's attitude toward the arbiter, but instead uses the Diplomacy DC determined by the target's starting attitude toward the creature of the arbiter's choosing.</Pair>
 </Ability>
-<Ability id="arc-investigator-tekritanin_arbiter-hidden-meaning-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-tekritanin_arbiter-hidden-meaning-ex" flavor="A Tekritanin arbiter's deep knowledge of language provides him protection from effects that require communication.">Hidden Meaning (Ex)</Pair>
+<Ability id="hidden-meaning-ex" icon={["armor-upgrade"]}>
+<Pair single id="hidden-meaning-ex" flavor="A Tekritanin arbiter's deep knowledge of language provides him protection from effects that require communication.">Hidden Meaning (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">He gains a +2 bonus on all saving throws against language-dependent effects.</Pair>
@@ -1374,8 +1374,8 @@ const _tekritanin_arbiter = {title: "Tekritanin Arbiter", jsx: <><h2 id="arc-inv
 <Pair title="At 8th Level">The bonus becomes +6.</Pair>
 <Pair title="At 11th Level">He gains immunity to language-dependent effects.</Pair>
 </Ability>
-<Ability id="arc-investigator-tekritanin_arbiter-fluent-speaker-ex" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-investigator-tekritanin_arbiter-fluent-speaker-ex">Fluent Speaker (Ex)</Pair>
+<Ability id="fluent-speaker-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="fluent-speaker-ex">Fluent Speaker (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A Tekritanin arbiter learns to speak one language with the skill of a native speaker.</Pair>
@@ -1386,8 +1386,8 @@ const _tekritanin_arbiter = {title: "Tekritanin Arbiter", jsx: <><h2 id="arc-inv
 </>};
 const _toxin_codexer = {title: "Toxin Codexer", jsx: <><h2 id="arc-investigator-toxin_codexer-toxin-codexer">Toxin Codexer</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 14</Link><br/>While most investigators are well versed in the knowledge of poisons, the toxin codexer has made it a way of life. He meticulously seeks out new poisons and catalogs their effects, both those that are harmful and those that are potentially beneficial. A toxin codexer's detailed understanding of how his toxins work allows him to blend them with exact precision, creating even more deadly venoms or providing painful medicines for those in need.</p>
-<Ability id="arc-investigator-toxin_codexer-poison-lore-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-toxin_codexer-poison-lore-ex">Poison Lore (Ex)</Pair>
+<Ability id="poison-lore-ex" icon={["stairs-goal"]}>
+<Pair single id="poison-lore-ex">Poison Lore (Ex)</Pair>
 <Pair hl title="Alters">Poison lore</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A toxin codexer gains the <em>poison lore</em> ability at 1st level. This ability is otherwise identical to the investigator's <em>poison lore</em> class feature.</Pair>

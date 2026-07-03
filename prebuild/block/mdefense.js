@@ -2,7 +2,7 @@ import noteTags from "../noteTags.js";
 
 const clean = (bit) => bit.replace(/‹[-a-z_]+[/]([^›]+)›/g, "$1").replace(/[^-a-zA-Z_ 0-9]/g, "");
 
-const makeMonsterDefenseBlock = ({marked2, flags, convertEncodedInfo, maybeClear, attrs, id, logError}) => {
+const makeMonsterDefenseBlock = ({marked2, flags, convertEncodedInfo, maybeClear, attrs, logError}) => {
 	const {
 		ac, mod,
 		hp, hpRaw, fh, regen,
@@ -200,7 +200,7 @@ const makeMonsterDefenseBlock = ({marked2, flags, convertEncodedInfo, maybeClear
 		output.push(`weak={[${w.map(bit => doConvert(bit[1])).join(",")}]}`);
 	}
 	if(flag) {
-		return `${maybeClear}<Defense id="${id}" ${output.join(" ")} />\n`;
+		return `${maybeClear}<Defense ${output.join(" ")} />\n`;
 	}
 	return "<Header sub>Defense</Header><p><em>Error.</em></p>\n";
 };

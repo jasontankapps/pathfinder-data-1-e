@@ -41,8 +41,8 @@ const _champion_of_the_faith = {title: "Champion of the Faith", jsx: <><h2 id="a
 </>};
 const _cult_leader = {title: "Cult Leader", jsx: <><h2 id="arc-warpriest-cult_leader-cult-leader">Cult Leader</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 128</Link><br/>Referred to as fanatics, lunatics, or obsessives, cultists see themselves as genuine devotees of their deity. And the hierarchs of those devotees, the cult leaders, are the most fanatical of them all. Cult leaders are known for turning reasonable hearts toward corrupted teachings and striking at those that get in the way of their agenda.</p>
-<Ability icon={["skills"]} id="arc-warpriest-cult_leader-undefined">
-<Pair id="arc-warpriest-cult_leader-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (engineering), Ride, Survival, Swim</Pair></Ability>
 <p><strong>Skill Ranks per Level:</strong> 4 + Int modifier.</p>
@@ -133,8 +133,8 @@ const _forgepriest = {title: "Forgepriest", jsx: <><h2 id="arc-warpriest-forgepr
 </>};
 const _jistkan_magistrate = {title: "Jistkan Magistrate", jsx: <><h2 id="arc-warpriest-jistkan_magistrate-jistkan-magistrate">Jistkan Magistrate</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 17</Link><br/>Some warpriests study the ancient magic that the Jistkan magistrates used to bind elementals and make pacts with genies. By tapping into the elementals' primal magic, these warpriests gain powers that help them in combat.</p>
-<Ability icon={["skills"]} id="arc-warpriest-jistkan_magistrate-undefined">
-<Pair id="arc-warpriest-jistkan_magistrate-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Survival</Pair></Ability>
 <p><strong>Elemental Binder (Su):</strong> A Jistkan magistrate must worship a deity who grants the <Link to="/blessing/air">Air</Link>, <Link to="/blessing/earth">Earth</Link>, <Link to="/blessing/fire">Fire</Link>, or <Link to="/blessing/water">Water</Link> blessing, and he must select one of these blessings. He does not gain a second blessing.</p>
@@ -366,8 +366,8 @@ const _proselytizer = {hasJL:true,title: "Proselytizer", jsx: <><div className="
 </>};
 const _sacred_fist = {title: "Sacred Fist", jsx: <><h2 id="arc-warpriest-sacred_fist-sacred-fist">Sacred Fist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 130</Link><br/>Unlike many warpriests, sacred fists leave behind armor and shield and instead rely on their fists and whatever protection their deity bestows on them.</p>
-<Ability icon={["skills"]} id="arc-warpriest-sacred_fist-undefined">
-<Pair id="arc-warpriest-sacred_fist-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (engineering), Survival</Pair></Ability>
 <p><strong>Weapon and Armor Proficiency:</strong> Sacred fists are proficient with the <Link to="/eq-weapon/club">club</Link>, <Link to="/eq-weapon/light_crossbow">light crossbow</Link>, <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link>, <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/handaxe">handaxe</Link>, <Link to="/eq-weapon/javelin">javelin</Link>, <Link to="/eq-weapon/kama">kama</Link>, <Link to="/eq-weapon/nunchaku">nunchaku</Link>, <Link to="/eq-weapon/quarterstaff">quarterstaff</Link>, <Link to="/eq-weapon/sai">sai</Link>, <Link to="/eq-weapon/shortspear">shortspear</Link>, <Link to="/eq-weapon/short_sword">short sword</Link>, <Link to="/eq-weapon/shuriken">shuriken</Link>, <Link to="/eq-weapon/siangham">siangham</Link>, <Link to="/eq-weapon/sling">sling</Link>, and <Link to="/eq-weapon/spear">spear</Link>. Sacred fists are not proficient with any armor or shields. When wearing armor, using a shield, or carrying a medium or heavy load, a sacred fist loses his AC bonus and flurry of blows.</p>

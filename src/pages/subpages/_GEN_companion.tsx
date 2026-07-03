@@ -1,6 +1,5 @@
-import {IonIcon} from '@ionic/react';
-import Link, {ThLink} from '../../components/Link';
-import ScrollContainer from '../../components/ScrollContainer';
+import Link from '../../components/Link';
+import AffInfo from '../../components/AfflictionInfo';
 const _not_found = {title: "Unknown", jsx: <><h2 id="companion-not_found-error">Error</h2>
 <p>Unable to find the requested animal companion.</p>
 </>};
@@ -40,7 +39,8 @@ const _ant_giant = {title: "Giant Ant", jsx: <><h2 id="companion-ant_giant-giant
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>Attack</strong> bite (1d6 plus grab), sting (1d4 plus poison)<br/><strong>Ability Scores</strong> Str +4, Dex -2, Con +2<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link></p>
 </blockquote>
-<div className="sideNoteWrap"><ScrollContainer id="companion-ant_giant--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/str_damage">Str damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></>};
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 4 rounds" eff={<>1 <Link to="/rule/str_damage">Str damage</Link></>} cure1 icon="p" />
+</>};
 const _antelope = {title: "Antelope", jsx: <><h2 id="companion-antelope-antelope">Antelope</h2>
 <p><strong>Sources</strong> <Link to="/source/bestiary_3">Bestiary 3 pg. 311</Link><br/><strong>Companion Type</strong> Animal<br/><strong>Monster Entry:</strong> <Link to="/monster/antelope">Antelope</Link></p>
 <p>This graceful animal has long slender legs and a pair of sharp, sturdy horns arching back from its head.</p>
@@ -95,7 +95,8 @@ const _assassin_bug_giant = {title: "Giant Assassin Bug", jsx: <><h2 id="compani
 <h3 id="companion-assassin_bug_giant-starting-statistics">Starting Statistics</h3>
 <blockquote>
 <p><strong>Size</strong> Small<br/><strong>Speed</strong> 30 ft., fly 30 ft. (clumsy)<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> bite (1d4 plus poison), 2 claws (1d3)<br/><strong>Ability Scores</strong> Str 13, Dex 15, Con 13, Int -, Wis 10, Cha 2<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link> (see below), poison stream (exposes all creatures in a 15-ft. line to poison, Reflex save negates; Dex-based DC; usable every 1d4 rounds as a standard action)<br/><strong>Special Qualities</strong> darkvision 60 ft.<br/><strong>CMD</strong> +8 vs. trip</p>
-<div className="sideNoteWrap"><ScrollContainer id="companion-assassin_bug_giant--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/dex_damage">Dex damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></blockquote>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link></>} cure1 icon="p" />
+</blockquote>
 <h3 id="companion-assassin_bug_giant-4th-level-advancement">4th-Level Advancement</h3>
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>AC</strong> +1 natural armor<br/><strong>Attack</strong> bite (1d6 plus poison), 2 claws (1d4)<br/><strong>Ability Scores</strong> Str +4, Dex -2, Con +2<br/><strong>Special Attacks</strong> poison (same as above, but cure becomes 2 saves)</p>
@@ -348,7 +349,8 @@ const _caterpillar_giant = {title: "Giant Caterpillar", jsx: <><h2 id="companion
 <h3 id="companion-caterpillar_giant-starting-statistics">Starting Statistics</h3>
 <blockquote>
 <p><strong>Size</strong> Small<br/><strong>Speed</strong> 30 ft. climb 30 ft.<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> bite (1d6), bristles (secondary natural attack, 1d4 piercing plus poison)<br/><strong>Ability Scores</strong> Str 14, Dex 13, Con 13, Int -, Wis 11, Cha 2<br/><strong>Special Attacks</strong> bristles (a creature attacking the giant caterpillar with a natural attack or non-reach melee weapon must succeed at a Reflex save or take damage as if the caterpillar had struck the creature with its bristles attack; Dex-based DC with a +2 racial bonus), <Link to="/umr/poison">poison</Link> (see below)<br/><strong>Special Qualities</strong> <Link to="/umr/compression">compression</Link>, darkvision 60 ft.<br/><strong>CMD</strong> can't be tripped</p>
-<div className="sideNoteWrap"><ScrollContainer id="companion-caterpillar_giant--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/str_damage">Str damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></blockquote>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure1 icon="p" />
+</blockquote>
 <h3 id="companion-caterpillar_giant-4th-level-advancement">4th-Level Advancement</h3>
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>AC</strong> +1 natural armor<br/><strong>Attack</strong> bite (1d8), bristles (secondary natural attack, 1d6 piercing plus poison)<br/><strong>Ability Scores</strong> Str +4, Dex -2, Con +2</p>
@@ -385,7 +387,8 @@ const _centipede_giant = {title: "Giant Centipede", jsx: <><h2 id="companion-cen
 <blockquote>
 <p><strong>Size</strong> Small<br/><strong>Speed</strong> 20 ft., climb 20 ft.<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> bite (1d4 plus poison)<br/><strong>Ability Scores</strong> Str 8, Dex 17, Con 11, Int -, Wis 10, Cha 2<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link><br/><strong>Special Qualities</strong> darkvision 60 ft<br/><strong>CMD</strong> can't be tripped</p>
 </blockquote>
-<div className="sideNoteWrap"><ScrollContainer id="companion-centipede_giant--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/dex_damage">Dex damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><h3 id="companion-centipede_giant-4th-level-advancement">4th-Level Advancement</h3>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 6 rounds" eff={<>1 <Link to="/rule/dex_damage">Dex damage</Link></>} cure1 icon="p" />
+<h3 id="companion-centipede_giant-4th-level-advancement">4th-Level Advancement</h3>
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>Attack</strong> bite (1d6 plus poison)<br/><strong>Ability Scores</strong> Str +4, Dex -2, Con +2</p>
 </blockquote>
@@ -468,7 +471,8 @@ const _creeping_puffball = {title: "Creeping Puffball", jsx: <><h2 id="companion
 <h3 id="companion-creeping_puffball-starting-statistics">Starting Statistics</h3>
 <blockquote>
 <p><strong>Size</strong> Small<br/><strong>Speed</strong> 30 ft.<br/><strong>AC</strong> +1 natural armor<br/><strong>Attack</strong> slam (1d4 plus poison)<br/><strong>Ability Scores</strong> Str 12, Dex 15, Con 14, Int 1, Wis 12, Cha 9<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link> (see below)<br/><strong>Special Qualities</strong> darkvision 60 ft., defensive puff (1/minute as an immediate action when hit, the fungus can expose one adjacent creature to its poison)<br/><strong>CMD</strong> can't be tripped</p>
-<div className="sideNoteWrap"><ScrollContainer id="companion-creeping_puffball--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/wis_damage">Wis damage</Link> and <Link to="/misc/dazzled">dazzled</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></blockquote>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/wis_damage">Wis damage</Link> and <Link to="/misc/dazzled">dazzled</Link></>} cure1 icon="p" />
+</blockquote>
 <h3 id="companion-creeping_puffball-4th-level-advancement">4th-Level Advancement</h3>
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>AC</strong> +1 natural armor<br/><strong>Attack</strong> slam (1d6 plus poison)<br/><strong>Ability Scores</strong> Str +4, Dex -2, Con +2</p>
@@ -604,7 +608,8 @@ const _dimorphodon = {title: "Dimorphodon", jsx: <><h2 id="companion-dimorphodon
 <h3 id="companion-dimorphodon-4th-level-advancement">4th-Level Advancement</h3>
 <blockquote>
 <p><strong>Attack</strong> bite (1d6)<br/><strong>Ability Scores</strong> Str +2, Con +2<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link></p>
-<div className="sideNoteWrap"><ScrollContainer id="companion-dimorphodon--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/str_damage">Str damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></blockquote>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 6 rounds" eff={<>1 <Link to="/rule/str_damage">Str damage</Link></>} cure1 icon="p" />
+</blockquote>
 </>};
 const _diplodocus = {title: "Diplodocus", jsx: <><h2 id="companion-diplodocus-dinosaur-diplodocus">Dinosaur (Diplodocus)</h2>
 <p><strong>Sources</strong> <Link to="/source/bestiary_4">Bestiary 4 pg. 311</Link><br/><strong>Companion Type</strong> Animal<br/><strong>Monster Entry:</strong> <Link to="/monster/diplodocus">Diplodocus</Link></p>
@@ -924,7 +929,8 @@ const _eurypterid = {title: "Eurypterid", jsx: <><h2 id="companion-eurypterid-eu
 <h3 id="companion-eurypterid-starting-statistics">Starting Statistics</h3>
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>Speed</strong> 20 ft., swim 40 ft.<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> 2 claws (1d3), sting (1d3 plus poison)<br/><strong>Ability Scores</strong> Str 10, Dex 11, Con 12, Int -, Wis 13, Cha 2<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link> (see below)<br/><strong>Special Qualities</strong> darkvision 60 ft.<br/><strong>CMD</strong> +8 vs. trip</p>
-<div className="sideNoteWrap"><ScrollContainer id="companion-eurypterid--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></blockquote>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 4 rounds" eff={<>1 <Link to="/rule/con_damage">Con damage</Link></>} cure1 icon="p" />
+</blockquote>
 <h3 id="companion-eurypterid-7th-level-advancement">7th-Level Advancement</h3>
 <blockquote>
 <p><strong>Size</strong> Large<br/><strong>AC</strong> +3 natural armor<br/><strong>Attack</strong> 2 claws (1d4), sting (1d4 plus poison)<br/><strong>Ability Scores</strong> Str +8, Dex -2, Con +4<br/><strong>Special Attacks</strong> poison (same as above, but frequency increases to 1/round for 6 rounds and damage increases to 1d2 Con)</p>
@@ -1320,7 +1326,8 @@ const _lizard_monitor_lizard = {title: "Lizard (Monitor Lizard)", jsx: <><h2 id=
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> bite (1d8 plus grab and <Link to="/umr/poison">poison</Link>)<br/><strong>Ability Scores</strong> Str +4, Dex -2, Con +4</p>
 </blockquote>
-<div className="sideNoteWrap"><ScrollContainer id="companion-lizard_monitor_lizard--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Poison (based on monster entry)</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 14</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>1 minute</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/hour for 6 hours</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/dex_damage">Dex damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></>};
+<AffInfo type="Bite-injury" save="Fort 14" freq="1/hour for 6 hours" onset="1 minute" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link></>} cure1 icon="p">Poison (based on monster entry)</AffInfo>
+</>};
 const _llama = {title: "Llama", jsx: <><h2 id="companion-llama-llama">Llama</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 180</Link><br/><strong>Companion Type</strong> Animal<br/><strong>Monster Entry:</strong> <Link to="/monster/llama">Llama</Link></p>
 <p>While some value it for its hair, the llama makes a fine animal companion as well, and it has traditionally been used as a beast of burden in mountainous regions.</p>
@@ -1388,7 +1395,8 @@ const _marax = {title: "Marax", jsx: <><h2 id="companion-marax-marax">Marax</h2>
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>Speed</strong> 30 ft.<br/><strong>AC</strong> +3 natural armor<br/><strong>Attack</strong> bite (1d6), tail barbs (secondary natural attack, 1d4 plus poison)<br/><strong>Ability Scores</strong> Str 16, Dex 15, Con 12, Int 2, Wis 12, Cha 6<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link><br/><strong>Special Qualities</strong> low-light vision, <Link to="/umr/scent">scent</Link></p>
 </blockquote>
-<div className="sideNoteWrap"><ScrollContainer id="companion-marax--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/dex_damage">Dex damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><h3 id="companion-marax-7th-level-advancement">7th-Level Advancement</h3>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link></>} cure1 icon="p" />
+<h3 id="companion-marax-7th-level-advancement">7th-Level Advancement</h3>
 <blockquote>
 <p><strong>Size</strong> Large<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> bite (1d8), 2 claws (1d4)<br/><strong>Ability Scores</strong> Str +6, Dex -2, Con +2<br/><strong>Special Attacks</strong> <Link to="/umr/pounce">pounce</Link></p>
 </blockquote>
@@ -1592,7 +1600,8 @@ const _mome_rath = {title: "Mome Rath", jsx: <><h2 id="companion-mome_rath-mome-
 <blockquote>
 <p><strong>Size</strong> Small<br/><strong>Speed</strong> 30 ft., climb 10 ft.<br/><strong>AC</strong> +1 natural armor<br/><strong>Attack</strong> 2 claws (1d3 plus poison)<br/><strong>Ability Scores</strong> Str 12, Dex 14, Con 15, Int 2, Wis 14, Cha 17<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link><br/><strong>Special Qualities</strong> low-light vision, <Link to="/umr/scent">scent</Link></p>
 </blockquote>
-<div className="sideNoteWrap"><ScrollContainer id="companion-mome_rath--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 3 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}><Link to="/misc/sickened">sickened</Link> for 1d3 rounds</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><h3 id="companion-mome_rath-4th-level-advancement">4th-Level Advancement</h3>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 3 rounds" eff={<><Link to="/misc/sickened">sickened</Link> for 1d3 rounds</>} cure1 icon="p" />
+<h3 id="companion-mome_rath-4th-level-advancement">4th-Level Advancement</h3>
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>Attack</strong> 2 claws (1d4 plus poison)<br/><strong>Special Attacks</strong> poison (as above, but the sickened condition lasts for 1d6 rounds)</p>
 </blockquote>
@@ -1831,7 +1840,8 @@ const _rash_creeper = {title: "Rash Creeper", jsx: <><h2 id="companion-rash_cree
 <h3 id="companion-rash_creeper-starting-statistics">Starting Statistics</h3>
 <blockquote>
 <p><strong>Size</strong> Small<br/><strong>Speed</strong> 20 ft., climb 20 ft.<br/><strong>AC</strong> +1 natural armor<br/><strong>Attack</strong> slam (1d4 plus poison)<br/><strong>Ability Scores</strong> Str 10, Dex 15, Con 13, Int 1, Wis 11, Cha 2<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link> (see below)<br/><strong>Special Qualities</strong> low-light vision<br/><strong>CMD</strong> can't be tripped</p>
-<div className="sideNoteWrap"><ScrollContainer id="companion-rash_creeper--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/dex_damage">Dex damage</Link> and <Link to="/misc/sickened">sickened</Link> for 1 round</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></blockquote>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 4 rounds" eff={<>1 <Link to="/rule/dex_damage">Dex damage</Link> and <Link to="/misc/sickened">sickened</Link> for 1 round</>} cure1 icon="p" />
+</blockquote>
 <h3 id="companion-rash_creeper-4th-level-advancement">4th-Level Advancement</h3>
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> slam (1d6 plus poison)<br/><strong>Ability Scores</strong> Str +4, Dex -2, Con +2<br/><strong>Special Attacks</strong> poison (same as above, but cure now requires 2 saves)</p>
@@ -1855,7 +1865,8 @@ const _reef_snake = {title: "Reef Snake", jsx: <><h2 id="companion-reef_snake-re
 <h3 id="companion-reef_snake-starting-statistics">Starting Statistics</h3>
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>Speed</strong> 10 ft., swim 40 ft.<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> bite (1d4 plus poison)<br/><strong>Ability Scores</strong> Str 10, Dex 15, Con 12, Int 1, Wis 13, Cha 2<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link> (see below)<br/><strong>Special Qualities</strong> low-light vision, <Link to="/umr/hold_breath">hold breath</Link>, <Link to="/umr/scent">scent</Link></p>
-<div className="sideNoteWrap"><ScrollContainer id="companion-reef_snake--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/str_damage">Str damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></blockquote>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 6 rounds" eff={<>1 <Link to="/rule/str_damage">Str damage</Link></>} cure1 icon="p" />
+</blockquote>
 <h3 id="companion-reef_snake-7th-level-advancement">7th-Level Advancement</h3>
 <blockquote>
 <p><strong>Ability Scores</strong> Str +2, Dex +2<br/><strong>Special Attacks</strong> poison (same as above, but damage becomes 1d2 Str and cure is now 2 saves)</p>
@@ -1964,7 +1975,8 @@ const _scorpion_giant = {title: "Giant Scorpion", jsx: <><h2 id="companion-scorp
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>Speed</strong> 40 ft.<br/><strong>AC</strong> +1 natural armor<br/><strong>Attack</strong> 2 claws (1d4 plus grab) and sting (1d4 plus poison)<br/><strong>Ability Scores</strong> Str 11, Dex 12, Con 12, Int -, Wis 10, Cha 2<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link><br/><strong>Special Qualities</strong> darkvision, <Link to="/umr/tremorsense">tremorsense</Link> 30 ft.<br/><strong>CMD</strong> +8 vs. trip</p>
 </blockquote>
-<div className="sideNoteWrap"><ScrollContainer id="companion-scorpion_giant--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/str_damage">Str damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><h3 id="companion-scorpion_giant-7th-level-advancement">7th-Level Advancement</h3>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 6 rounds" eff={<>1 <Link to="/rule/str_damage">Str damage</Link></>} cure1 icon="p" />
+<h3 id="companion-scorpion_giant-7th-level-advancement">7th-Level Advancement</h3>
 <blockquote>
 <p><strong>Size</strong> Large<br/><strong>AC</strong> +3 natural armor<br/><strong>Attack</strong> 2 claws (1d6 plus grab) and sting (1d6 plus poison)<br/><strong>Ability Scores</strong> Str +8, Dex -2, Con +4<br/><strong>Special Attacks</strong> poison (as above, but Str damage becomes 1d2<br/><strong>Special Qualities</strong> tremorsense 60 ft.</p>
 </blockquote>
@@ -2084,7 +2096,8 @@ const _snake_viper = {title: "Snake (Viper)", jsx: <><h2 id="companion-snake_vip
 <blockquote>
 <p><strong>Size</strong> Small<br/><strong>Speed</strong> 20 ft., climb 20 ft., swim 20 ft.<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> bite (1d3 plus poison)<br/><strong>Ability Scores</strong> Str 8, Dex 17, Con 11, Int 1, Wis 12, Cha 2<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link><br/><strong>Special Qualities</strong> low-light vision, <Link to="/umr/scent">scent</Link></p>
 </blockquote>
-<div className="sideNoteWrap"><ScrollContainer id="companion-snake_viper--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><h3 id="companion-snake_viper-4th-level-advancement">4th-Level Advancement</h3>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 6 rounds" eff={<>1 <Link to="/rule/con_damage">Con damage</Link></>} cure1 icon="p" />
+<h3 id="companion-snake_viper-4th-level-advancement">4th-Level Advancement</h3>
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>Attack</strong> bite (1d4 plus poison)<br/><strong>Ability Scores</strong> Str +4, Dex -2, Con +2</p>
 </blockquote>
@@ -2144,7 +2157,8 @@ const _spider_giant = {title: "Giant Spider", jsx: <><h2 id="companion-spider_gi
 <blockquote>
 <p><strong>Size</strong> Small<br/><strong>Speed</strong> 30 ft., climb 30 ft.<br/><strong>AC</strong> +0 natural armor<br/><strong>Attack</strong> bite (1d4 plus poison)<br/><strong>Ability Scores</strong> Str 6, Dex 17, Con 10, Int -, Wis 10, Cha 2<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link><br/><strong>Special Qualities</strong> darkvision, <Link to="/umr/tremorsense">tremorsense</Link> 30 ft.<br/><strong>CMD</strong> +12 vs. trip</p>
 </blockquote>
-<div className="sideNoteWrap"><ScrollContainer id="companion-spider_giant--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/str_damage">Str damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><h3 id="companion-spider_giant-4th-level-advancement">4th-Level Advancement</h3>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 4 rounds" eff={<>1 <Link to="/rule/str_damage">Str damage</Link></>} cure1 icon="p" />
+<h3 id="companion-spider_giant-4th-level-advancement">4th-Level Advancement</h3>
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>AC</strong> +1 natural armor<br/><strong>Attack</strong> bite (1d6 plus poison)<br/><strong>Ability Scores</strong> Str +4, Dex -2, Con +2</p>
 </blockquote>
@@ -2167,7 +2181,8 @@ const _spitting_cobra = {title: "Spitting Cobra", jsx: <><h2 id="companion-spitt
 <h3 id="companion-spitting_cobra-starting-statistics">Starting Statistics</h3>
 <blockquote>
 <p><strong>Size</strong> Small<br/><strong>Speed</strong> 20 ft., climb 20 ft.<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> bite (1d3)<br/><strong>Ability Scores</strong> Str 8, Dex 15, Con 11, Int 1, Wis 12, Cha 2<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link> (see below), spit (ranged touch attack, 10-foot range, poison, usable every 2d4 rounds)<br/><strong>Special Qualities</strong> low-light vision, <Link to="/umr/scent">scent</Link></p>
-<div className="sideNoteWrap"><ScrollContainer id="companion-spitting_cobra--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>blurred vision (20% miss chance) 1 round</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></blockquote>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 6 rounds" eff={<>blurred vision (20% miss chance) 1 round</>} cure1 icon="p" />
+</blockquote>
 <h3 id="companion-spitting_cobra-7th-level-advancement">7th-Level Advancement</h3>
 <blockquote>
 <p><strong>Ability Scores</strong> Dex +2, Con +2<br/><strong>Special Attacks</strong> poision (effect becomes <Link to="/misc/blindness">blindness</Link> 1 round)</p>
@@ -2384,7 +2399,8 @@ const _wasp_giant = {title: "Giant Wasp", jsx: <><h2 id="companion-wasp_giant-gi
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>Speed</strong> 20 ft., fly 60 ft. (good)<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> sting (1d6 plus poison)<br/><strong>Ability Scores</strong> Str 10, Dex 14, Con 11, Int -, Wis 13, Cha 4<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link><br/><strong>Special Qualities</strong> darkvision<br/><strong>CMD</strong> +8 vs. trip</p>
 </blockquote>
-<div className="sideNoteWrap"><ScrollContainer id="companion-wasp_giant--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/dex_damage">Dex damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><h3 id="companion-wasp_giant-7th-level-advancement">7th-Level Advancement</h3>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 6 rounds" eff={<>1 <Link to="/rule/dex_damage">Dex damage</Link></>} cure1 icon="p" />
+<h3 id="companion-wasp_giant-7th-level-advancement">7th-Level Advancement</h3>
 <blockquote>
 <p><strong>Size</strong> Large<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> sting (1d8 plus poison)<br/><strong>Ability Scores</strong> Str +8, Dex -2, Con +4</p>
 </blockquote>
@@ -2407,7 +2423,8 @@ const _whiptail_centipede_giant = {title: "Giant Whiptail Centipede", jsx: <><h2
 <h3 id="companion-whiptail_centipede_giant-starting-statistics">Starting Statistics</h3>
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>Speed</strong> 40 ft., climb 40 ft.<br/><strong>AC</strong> +3 natural armor<br/><strong>Attack</strong> bite (1d6 plus poison)<br/><strong>Ability Scores</strong> Str 9, Dex 13, Con 13, Int -, Wis 10, Cha 2<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link> (see below)<br/><strong>Special Qualities</strong> darkvision 60 ft.<br/><strong>CMD</strong> can't be tripped</p>
-<div className="sideNoteWrap"><ScrollContainer id="companion-whiptail_centipede_giant--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/dex_damage">Dex damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></blockquote>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link></>} cure1 icon="p" />
+</blockquote>
 <h3 id="companion-whiptail_centipede_giant-7th-level-advancement">7th-Level Advancement</h3>
 <blockquote>
 <p><strong>Size</strong> Large<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> bite (1d8 plus poison), tail slap (1d2 nonlethal plus <Link to="/umr/trip">trip</Link>, no Strength bonus on damage)<br/><strong>Ability Scores</strong> Str +8, Dex -2, Con +4</p>
@@ -2555,7 +2572,8 @@ const _puffball = {title: "Puffball (Floating Fungus)", jsx: <><h2 id="companion
 <blockquote>
 <p><strong>Size</strong> Small<br/><strong>Speed</strong> 20 ft., fly 60 ft. (average)<br/><strong>AC</strong> +1 natural armor<br/><strong>Attack</strong> thorn (1d4 plus poison)<br/><strong>Ability Scores</strong> Str 10, Dex 15, Con 12, Int 2, Wis 14, Cha 6<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link><br/><strong>Special Qualities</strong> low-light vision</p>
 </blockquote>
-<div className="sideNoteWrap"><ScrollContainer id="companion-puffball--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><h3 id="companion-puffball-4th-level-advancement">4th-Level Advancement</h3>
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 6 rounds" eff={<>1 <Link to="/rule/con_damage">Con damage</Link></>} cure1 icon="p" />
+<h3 id="companion-puffball-4th-level-advancement">4th-Level Advancement</h3>
 <blockquote>
 <p><strong>Ability Scores</strong> Str +2, Con +2</p>
 </blockquote>

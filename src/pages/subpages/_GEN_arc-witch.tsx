@@ -1,9 +1,9 @@
-import {IonIcon} from '@ionic/react';
-import Link, {ThLink} from '../../components/Link';
+import Link from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import AffInfo from '../../components/AfflictionInfo';
 const _alley_witch = {title: "Alley Witch", jsx: <><h2 id="arc-witch-alley_witch-alley-witch">Alley Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 20</Link><br/>Some witches find their spark of magic in the long, dark shadows and forgotten places within the city.</p>
 <p><strong>Child of the Streets:</strong> An alley witch gains Bluff and Knowledge (local) as class skills, but loses Knowledge (nature) and Knowledge (planes) as class skills.</p>
@@ -115,8 +115,8 @@ const _dimensional_occultist = {title: "Dimensional Occultist", jsx: <><h2 id="a
 </>};
 const _dreamweaver = {title: "Dreamweaver", jsx: <><h2 id="arc-witch-dreamweaver-dreamweaver">Dreamweaver</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 185</Link><br/>A changeling dreamweaver draws upon her hag heritage to ply the dream realms in order to touch mortal minds and souls, for good or ill. A dreamweaver witch has the following class features.</p>
-<Ability icon={["skills"]} id="arc-witch-dreamweaver-undefined">
-<Pair id="arc-witch-dreamweaver-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Heal</Pair></Ability>
 <p><strong>Patron:</strong> A dreamweaver's patron is normally <Link to="/patron/portents">portents</Link> or <Link to="/patron/stars">stars</Link>.</p>
@@ -134,8 +134,8 @@ const _dreamweaver = {title: "Dreamweaver", jsx: <><h2 id="arc-witch-dreamweaver
 const _flood_walker = {title: "Flood Walker", jsx: <><h2 id="arc-witch-flood_walker-flood-walker">Flood Walker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 89</Link><br/>Witches who dwell in floodplains or along the banks of predictably dangerous rivers can tap into the underlying potential of surging waters in order to enhance their eerie powers.</p>
 <p><strong>Alignment:</strong> Flood walkers exult in the final gasp for air of a drowning victim and must be evil in alignment. A flood walker who becomes nonevil loses access to all abilities granted by this archetype but does not regain any abilities this archetype replaced.</p>
-<Ability icon={["skills"]} id="arc-witch-flood_walker-undefined">
-<Pair id="arc-witch-flood_walker-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/swim">Swim</Link> (STR)</Pair>
 <Pair title="Removed Skills">Fly, Heal</Pair></Ability>
 <p><strong>Patron Spells:</strong> Regardless of which patron a flood walker selects, he replaces some of his patron spells with the following: 4th-<Link to="/spell/aboleths_lung">aboleth's lung</Link>, 10th-<Link to="/spell/suffocation">suffocation</Link>, 16th-<Link to="/spell/seamantle">seamantle</Link>, 18th-<Link to="/spell/mass_suffocation">mass suffocation</Link>.</p>
@@ -274,8 +274,8 @@ const _invoker = {title: "Invoker", jsx: <><h2 id="arc-witch-invoker-invoker">In
 </>};
 const _jinx_witch = {title: "Jinx Witch", jsx: <><h2 id="arc-witch-jinx_witch-jinx-witch">Jinx Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 25</Link><br/>The common perception of tengus as good luck charms has its roots in the first great empire to unify Tian Xia 7,000 years ago, when tengus were superstitious and skittish folk inhabiting the continent's central mountain ranges. Jinx witches specialize in calling down subtle misfortunes and deceiving enemies and allies alike. While they lack any ability to truly eliminate bad luck, they are uniquely gifted at making others believe otherwise. Many of these ancient traditions have been forgotten as tengus spread across the world and assimilated into other cultures, but a rare few tengus still practice this curious art of misdirection and dealing in ill fortune. A jinx witch's patron is normally <Link to="/patron/deception">Deception</Link>, <Link to="/patron/shadow">Shadow</Link>, or <Link to="/patron/trickery">Trickery</Link>.</p>
-<Ability icon={["skills"]} id="arc-witch-jinx_witch-undefined">
-<Pair id="arc-witch-jinx_witch-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair></Ability>
 <p><strong>Spell Awareness (Ex):</strong> A jinx witch is skilled at identifying hostile spells and effects that target her. She adds 1/2 her witch level to Spellcraft checks to identify spells being cast if she is targeted by the spell.</p>
 <p><strong>Jinx-Eating (Su):</strong> At 2nd level, a jinx witch learns to absorb (or "eat") antagonistic magical effects targeting her. If a jinx witch succeeds at a Will or Fortitude saving throw that negates a hostile spell effect, she can consume the spell energy as an immediate action. The witch treats her caster level as 1 higher when casting the next prepared spell she casts after eating a jinx in this manner. If the spell cast is of the same school as the eaten spell, the witch instead treats her caster level as 2 higher. A jinx witch can store only one eaten spell at a time, and can use this ability a number of times each day equal to 3 + her Intelligence modifier. If the jinx witch uses this ability to eat a spell that targets more than one creature or that creates an area of effect, it uses 2 of her daily uses of the ability and all other targets or creatures in the area of effect receive a +2 bonus on their respective saving throws. If the jinx witch does not use the bonus provided by an eaten spell within 1 hour, the stored energy dissipates harmlessly.</p>
@@ -651,7 +651,8 @@ const _veneficus_witch = {title: "Veneficus Witch", jsx: <><h2 id="arc-witch-ven
 const _venom_siphoner = {title: "Venom Siphoner", jsx: <><h2 id="arc-witch-venom_siphoner-venom-siphoner">Venom Siphoner</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 10</Link><br/>Witches are no strangers to poisons, using them alongside their various brews, curses, spells, and other tools of the trade. A number of witches are masters of poison, receiving toxic gifts that allow them and their familiars to use poison in unparalleled manners.</p>
 <p><strong>Poisonous Familiar (Ex):</strong> The venom siphoner chooses either her familiar's bite attack or its claw attacks; once chosen, this selection can't be changed. The chosen natural attack gains the following poison ability:</p>
-<div className="sideNoteWrap"><ScrollContainer id="arc-witch-venom_siphoner--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Siphoner Poison</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Natural attack-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the witch's level + her Int modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/dex_damage">Dex damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><p>Familiars without an appropriate natural attack instead gain the ability to spit the poison as a ranged touch attack. This spit attack deals no damage, but it exposes the struck creature to the poison, forcing it to attempt a saving throw to resist the poison as normal. If the familiar already has a poison, the witch can instead empower its poison. An empowered poison's frequency increases by 50%. If the witch ever replaces her familiar, she must choose how this ability applies to her new familiar as soon as she receives it.</p>
+<AffInfo type="Natural attack-injury" save="Fort 10 + 1/2 the witch's level + her Int modifier" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link></>} cure1 icon="p">Siphoner Poison</AffInfo>
+<p>Familiars without an appropriate natural attack instead gain the ability to spit the poison as a ranged touch attack. This spit attack deals no damage, but it exposes the struck creature to the poison, forcing it to attempt a saving throw to resist the poison as normal. If the familiar already has a poison, the witch can instead empower its poison. An empowered poison's frequency increases by 50%. If the witch ever replaces her familiar, she must choose how this ability applies to her new familiar as soon as she receives it.</p>
 <p>This replaces the <strong className="hl">hex</strong> gained at 1st level and the familiar's <strong className="hl">alertness</strong> special ability.</p>
 <p><strong>Venom Expert (Ex):</strong> At 2nd level, a venom siphoner does not risk exposure to her familiar's poison when attempting to <Link to="/rule/harvesting_poisons">milk venom</Link> from it.</p>
 <p>This replaces the <strong className="hl">hex</strong> gained at 2nd level.</p>

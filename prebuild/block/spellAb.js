@@ -132,9 +132,6 @@ export const makeSpellAbilityBlock = ({
 	}
 
 
-	const abId = jlid || prefix + id;
-
-
 	//
 	// MAIN ABILITY BOX
 	//
@@ -142,7 +139,7 @@ export const makeSpellAbilityBlock = ({
 	//
 	// TITLE
 	//
-	output.push(`<Pair single id="${abId}">Spells</Pair>`);
+	output.push(`<Pair single id="${jlid}">Spells</Pair>`);
 	output.push(`<Pair title="Gained">At 1st Level</Pair>`);
 	//
 	// USAGE
@@ -244,7 +241,7 @@ export const makeSpellAbilityBlock = ({
 		+ "spells that list divine focus (DF) as part of the components."
 	);
 
-	return `${maybeClear}<Ability id="${abId}" icon={["magic-swirl"]}>`
+	return `${maybeClear}<Ability id="${jlid}" icon={["magic-swirl"]}>`
 		+ output.join("\n")
 		+ (block.length ?
 			`<Pair title="Info">`

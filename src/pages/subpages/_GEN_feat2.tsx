@@ -2,6 +2,7 @@ import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import AffInfo from '../../components/AfflictionInfo';
 const _bashing_finish = {title: "Bashing Finish", jsx: <><h2 id="feat-bashing_finish-bashing-finish-combat">Bashing Finish (Combat)</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 151</Link></p>
 <p>You follow a powerful blow from your weapon with an opportunistic bash from your shield.<br/><strong>Prerequisites:</strong> <Link to="/feat/improved_shield_bash">Improved Shield Bash</Link>, <Link to="/feat/shield_master">Shield Master</Link>, base attack bonus +11.<br/><strong>Benefit:</strong> Whenever you score a critical hit with a melee weapon, you can make a <Link to="/misc/shield_bash">shield bash</Link> attack against the same target using the same bonus as a free action.</p>
@@ -106,7 +107,8 @@ const _beast_speaker = {hasJL:true,title: "Beast Speaker", jsx: <><div className
 <p><strong>Starting Statistics:</strong></p>
 <blockquote>
 <p><strong>Size</strong> Medium<br/><strong>Speed</strong> 20 ft., burrow 20 ft.<br/><strong>AC</strong> +6 natural armor<br/><strong>Attack</strong> bite (1d6 plus poison)<br/><strong>Ability Scores</strong> Str 16, Dex 14, Con 16, Int 3, Wis 10, Cha 5<br/><strong>Special Attacks</strong> poison (see below)<br/><strong>Special Qualities</strong> acid resistance 10, darkvision 60 ft., low-light vision, <Link to="/umr/tremorsense">tremorsense</Link> 60 ft., electricity resistance 10</p>
-<div className="sideNoteWrap"><ScrollContainer id="feat-beast_speaker--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the companion's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 saves</td></tr></tbody></table></ScrollContainer></div></blockquote>
+<AffInfo type="Injury" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/con_damage">Con damage</Link></>} cure2 icon="p" />
+</blockquote>
 <p><strong>Mastery (11th level):</strong></p>
 <blockquote>
 <p><strong>Size</strong> Large<br/><strong>AC</strong> +4 natural armor<br/><strong>Ability Scores</strong> Str +4, Dex -2, Con +2<br/><strong>Special Attacks</strong> <Link to="/umr/breath_weapon">breath weapon</Link> (30-ft. line, 8d6 acid damage, Reflex half, once per day)<br/><strong>Special Qualities</strong> immune to acid, immune to electricity</p>

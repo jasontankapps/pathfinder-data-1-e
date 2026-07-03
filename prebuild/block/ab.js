@@ -453,7 +453,7 @@ const makeAbilityBlock = ({
 	const maybeFlavor = () => {
 		return flavor ? ` flavor={${noteTags(flags, doParse(flavor, false), true)}}`.replace(/\{"([^"]+)"\}/g, '"$1"') : "";
 	};
-	const abId = jlid || prefix + id;
+	const abId = jlid || id;
 	output.push(`<Pair single id="${abId}"${maybeFlavor()}>${doParse(text, false)}</Pair>`);
 	//
 	// TYPE/CATEGORY

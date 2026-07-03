@@ -27,7 +27,7 @@ const parseChEn = (input, x) => {
 	return output;
 };
 
-export const makeMonsterOffenseBlock = ({marked2, flags, convertEncodedInfo, maybeClear, attrs, id, logError}) => {
+export const makeMonsterOffenseBlock = ({marked2, flags, convertEncodedInfo, maybeClear, attrs, logError}) => {
 	const {
 		sp, spP, br, brP, cl, clP, sw, swP,
 		fl, flP, clumsy, poor, average, good, perfect,
@@ -202,7 +202,7 @@ export const makeMonsterOffenseBlock = ({marked2, flags, convertEncodedInfo, may
 		output.push(`web="${web}"`);
 	}
 	whirlwind && output.push(`whirlwind="${whirlwind}"`);
-	return flag ? `${maybeClear}<Offense id="${id}" ${output.join(" ")} />\n` : "<Header sub>Offense</Header><p><em>Error.</em></p>\n";
+	return flag ? `${maybeClear}<Offense ${output.join(" ")} />\n` : "<Header sub>Offense</Header><p><em>Error.</em></p>\n";
 };
 
 const checkIfDupe = (input, $collection) => {
@@ -214,7 +214,7 @@ const checkIfDupe = (input, $collection) => {
 	return false;
 };
 
-export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, attrs, logError, flags, id}) => {
+export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, attrs, logError, flags}) => {
 	const {
 		cl, con,
 		sla, atWill, constant, day, hour, week, month, year, other,
@@ -471,7 +471,7 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 	let count = flags.$spellblocks || 0;
 	count++;
 	flags.$spellblocks = count;
-	return `${maybeClear}<SpellBlock id="${id}-monster-spellblock-${count}" ${output.join(" ")} />\n`;
+	return `${maybeClear}<SpellBlock id="${count}" ${output.join(" ")} />\n`;
 };
 
 export const makeMonsterFootnoteBlock = ({marked2, convertEncodedInfo, text}) => {

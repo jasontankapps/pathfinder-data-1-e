@@ -1160,6 +1160,8 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	groupFlags.mspell && imports.push(`import SpellBlock from '../../components/monsters/SpellBlock';`);
 	groupFlags.mstats && imports.push(`import Stats from '../../components/monsters/Stats';`);
 	groupFlags.meco && imports.push(`import Ecology from '../../components/monsters/Ecology';`);
+	groupFlags.drug && imports.push(`import DrugInfo from '../../components/DrugInfo';`);
+	groupFlags.aff && imports.push(`import AffInfo from '../../components/AfflictionInfo';`);
 	// Add saved info;
 	const allprops = [];
 	const output = imports.concat(final.map(([prop, object]) => {

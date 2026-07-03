@@ -1,17 +1,18 @@
 import { IonIcon } from "@ionic/react";
-import { ReactNode, FC, Fragment as F, useMemo, ClassAttributes, AnchorHTMLAttributes } from "react";
+import { ReactNode, FC, Fragment as F, useMemo, ClassAttributes, AnchorHTMLAttributes, useContext } from "react";
 import Markdown, { ExtraProps } from 'react-markdown';
 import Link from "./Link";
 import InnerLink from "./InnerLink";
 import Duo from "./Duo";
 import {Block, Row, Cell} from "./Block";
 import comp from "./displayTable/Components";
+import { IdContext } from "./contexts";
 
 type Subrace = [string, [number, number][], ReactNode];
 type Alt = [string, ...number[]];
 
 interface BaseProps {
-	prefix: string
+	prefix?: string
 }
 interface Race extends BaseProps {
 	race: string
@@ -5756,8 +5757,9 @@ const doSubs = (input: string, data: Data) => {
 };
 
 const RacialOptions: FC<Props> = (props) => {
-	const {prefix, cls, race, subraces, alternates} = props;
+	const {cls, race, subraces, alternates} = props;
 	const { data, found } = useMemo(() => cls !== undefined ? getByClass(cls) : getByRace(race), [cls, race]);
+	const id = useContext(IdContext);
 	const header = cls ? data.title : data.properName;
 	const temp: {[key: string]: boolean} = {};
 	const $log = useMemo(() => {
@@ -5823,17 +5825,17 @@ const RacialOptions: FC<Props> = (props) => {
 	}, [subraces, alternates, found]);
 	return (<>
 		{subraces ? (<>
-			<h3 id={prefix+"subraces"} data-hash-target>Subraces</h3>
+			<h3 id={id+"subraces"} data-hash-target>Subraces</h3>
 			{
 				subraces!.map((sub, ind) => {
 					const [title, sources, jsx] = sub;
 					return (
-						<F key={`${prefix}-${ind}`}><h4>{title}{
+						<F key={`${id}-${ind}`}><h4>{title}{
 							sources.map((source, i) => {
 								const [n, m] = $log.subs[`${ind}-${i}`];
-								const blid = `backlink-${prefix}ref-${n}-${m}`;
-								const ilid = `${prefix}ref-${n}-${m}`;
-								const to = `${prefix}fn-${n}`;
+								const blid = `backlink-${id}ref-${n}-${m}`;
+								const ilid = `${id}ref-${n}-${m}`;
+								const to = `${id}fn-${n}`;
 								const key = `${ilid}--${i}`;
 								return (
 									<F key={key}> <sup><InnerLink showBacklink={blid} id={ilid} data-hash-target to={to}>{n}</InnerLink></sup></F>
@@ -5845,12 +5847,12 @@ const RacialOptions: FC<Props> = (props) => {
 			}
 		</>) : ""}
 		{alternates ? (<>
-			<h3 id={`${prefix}alternate-racial-traits`} data-hash-target>{header} Alternate Racial Traits</h3>
+			<h3 id={`${id}alternate-racial-traits`} data-hash-target>{header} Alternate Racial Traits</h3>
 			{
 				alternates.map((alt, i) => {
 					const [title, ...alts] = alt;
 					return (
-						<Block titled key={`${prefix}-alternate-racial-trait-replacement-block-${i}`}>
+						<Block titled key={`${id}-alternate-racial-trait-replacement-block-${i}`}>
 							<Row><Cell>Replaces <span className="bigHl">{title}</span></Cell></Row>
 							{
 								alts.map((a, j) => {
@@ -5859,13 +5861,13 @@ const RacialOptions: FC<Props> = (props) => {
 									const sources = copies === undefined ? s : $alternates[copies].sources!;
 									const content = copies === undefined ? c : <>{$alternates[copies!].content!}{add}</>;
 									return (
-										<Row key={`${prefix}-alternate-racial-trait-${a}`}>
+										<Row key={`${id}-alternate-racial-trait-${a}`}>
 											<Cell>{title}{
 												sources.map((source, k) => {
 													const [n, m] = $log.alts[`${i}-${j}-${k}`];
-													const blid = `backlink-${prefix}ref-${n}-${m}`;
-													const ilid = `${prefix}ref-${n}-${m}`;
-													const to = `${prefix}fn-${n}`;
+													const blid = `backlink-${id}ref-${n}-${m}`;
+													const ilid = `${id}ref-${n}-${m}`;
+													const to = `${id}fn-${n}`;
 													const key = `${ilid}--${k}`;
 													return (
 														<F key={key}> <sup><InnerLink showBacklink={blid} id={ilid} data-hash-target to={to}>{n}</InnerLink></sup></F>
@@ -5883,7 +5885,7 @@ const RacialOptions: FC<Props> = (props) => {
 			}
 		</>) : ""}
 		{ race && found.length ? (
-			<h3 id={`${prefix}favored-class-options`} data-hash-target>{header} Favored Class Options</h3>
+			<h3 id={`${id}favored-class-options`} data-hash-target>{header} Favored Class Options</h3>
 		) : ""}
 		<div className="hanging striped">
 			{found.map((fco, i) => {
@@ -5892,14 +5894,14 @@ const RacialOptions: FC<Props> = (props) => {
 				const text = bonuses.map(n => $bonuses[n] || `[INVALID ${n}]`).join(" ");
 				const option = race ? alldata.title : alldata.properName;
 				return (
-					<Duo key={`${prefix}-favored-class-option-${i}`} title={option}>
+					<Duo key={`${id}-favored-class-option-${i}`} title={option}>
 						<Markdown components={components}>{doSubs(text, alldata)}</Markdown>
 						{
 							sources.map((source, j) => {
 								const [n, m] = $log.opts[`${i}-${j}`];
-								const blid = `backlink-${prefix}ref-${n}-${m}`;
-								const ilid = `${prefix}ref-${n}-${m}`;
-								const to = `${prefix}fn-${n}`;
+								const blid = `backlink-${id}ref-${n}-${m}`;
+								const ilid = `${id}ref-${n}-${m}`;
+								const to = `${id}fn-${n}`;
 								const key = `${ilid}--${j}`;
 								return (
 									<F key={key}> <sup><InnerLink showBacklink={blid} id={ilid} data-hash-target to={to}>{n}</InnerLink></sup></F>
@@ -5911,7 +5913,7 @@ const RacialOptions: FC<Props> = (props) => {
 			})}
 		</div>
 		<section data-footnotes>
-			<h3 id={`${prefix}label`}>Footnotes</h3>
+			<h3 id={`${id}label`}>Footnotes</h3>
 			<ol>
 				{$log.log.map((arr, index) => {
 					const [s, page, multiples] = arr;
@@ -5920,16 +5922,16 @@ const RacialOptions: FC<Props> = (props) => {
 					link && (temp[source] = true);
 					const num = index + 1;
 
-					const key = `${prefix}fn-${num}`;
+					const key = `${id}fn-${num}`;
 					const backlinks: ReactNode[] = [
-						<InnerLink key={`to-backlink-${key}-1`} id={`backlink-${prefix}ref-${num}-1`} to={`${prefix}ref-${num}-1`}>↩</InnerLink>
+						<InnerLink key={`to-backlink-${key}-1`} id={`backlink-${id}ref-${num}-1`} to={`${id}ref-${num}-1`}>↩</InnerLink>
 					];
 					let m = 2;
 					while(multiples >= m) {
 						backlinks.push(
 							<F key={`to-backlink-${key}-${m}`}> <InnerLink
-								to={`${prefix}ref-${num}-${m}`}
-								id={`backlink-${prefix}ref-${num}-${m}`}
+								to={`${id}ref-${num}-${m}`}
+								id={`backlink-${id}ref-${num}-${m}`}
 							>↩<sup>{m}</sup></InnerLink></F>
 						);
 						m++;

@@ -1,6 +1,7 @@
-import {IonRippleEffect,IonIcon} from '@ionic/react';
-import Link, {ThLink} from '../../components/Link';
+import {IonRippleEffect} from '@ionic/react';
+import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
+import AffInfo from '../../components/AfflictionInfo';
 const _not_found = {title: "Unknown", jsx: <><h2 id="oraclecurse-not_found-error">Error</h2>
 <p>Unable to find the requested oracle curse.</p>
 </>};
@@ -343,7 +344,8 @@ const _toxic_blood = {title: "Toxic Blood", jsx: <><p><strong>Sources</strong> <
 <p><strong className="hl">Penalty:</strong> Whenever you must attempt a Fortitude save to resist a poison effect, roll twice and take the lowest result. Additionally, you need one more consecutive successful save to end an ongoing poison. You lose any immunity to poison you have upon receiving this curse, and you become immune to <Link to="/spell/delay_poison">delay poison</Link> and <Link to="/spell/neutralize_poison">neutralize poison</Link>, as well as other attempts to suppress or remove the poison from which you are suffering.</p>
 <p><strong className="hl">Benefit:</strong> You gain the <Link to="/ability/poison_use">poison use</Link> ability.</p>
 <p><strong className="hl">At 5th Level:</strong> You are so envenomed that your touch becomes poisonous. Once per day for every 4 oracle levels you have, you can deliver a unique contact poison as a touch attack or via an unarmed strike or natural weapon.</p>
-<div className="sideNoteWrap"><ScrollContainer id="oraclecurse-toxic_blood--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison; Contact</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 your oracle level + your Cha modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 5 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/dex_damage">Dex damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><p><strong className="hl">At 10th Level:</strong> The poison deals 1d3 points of Dexterity damage per round for 7 rounds.</p>
+<AffInfo type="Poison; Contact" save="Fort 10 + 1/2 your oracle level + your Cha modifier" freq="1/round for 5 rounds" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link></>} cure1 icon="p" />
+<p><strong className="hl">At 10th Level:</strong> The poison deals 1d3 points of Dexterity damage per round for 7 rounds.</p>
 <p><strong className="hl">At 15th Level:</strong> You can expend a use of your poison touch to transfer any poison effect you are currently experiencing from yourself to another creature. The touched creature must immediately attempt a saving throw against the poison (using the poison's initial DC and duration for a single dose, regardless of how many doses are currently affecting you). If the creature fails its save, the poison ceases to act on you, as if you had succeeded at all the necessary saves (this bypasses your immunity to effects that remove poison).</p>
 </>};
 const _vampirism = {title: "Vampirism", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms</Link><br/><strong>Vampirism:</strong> You crave the taste of fresh, warm blood.</p>

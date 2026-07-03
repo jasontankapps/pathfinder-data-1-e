@@ -1,6 +1,5 @@
-import {IonIcon} from '@ionic/react';
 import Header from '../../components/Header';
-import Link, {ThLink} from '../../components/Link';
+import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import Defense from '../../components/monsters/Defense';
 import Info from '../../components/monsters/Info';
@@ -8,15 +7,16 @@ import Offense from '../../components/monsters/Offense';
 import SpellBlock from '../../components/monsters/SpellBlock';
 import Stats from '../../components/monsters/Stats';
 import Ecology from '../../components/monsters/Ecology';
+import AffInfo from '../../components/AfflictionInfo';
 const _faceless_hulk_ugoroth = {title: "Faceless Hulk (Ugoroth)", jsx: <><p><em>This hairless, leathery giant has no discernible features aside from unsettling whorls across its skin and grotesque, slurping tongues where its face should be.</em></p>
 <Header full><span>Faceless Hulk (Ugoroth)</span><span>CR 9</span></Header>
 <div className="reduce">
-<Info id="monster-faceless_hulk_ugoroth--info" source={[["Pathfinder #110: The Thrushmoor Terror",84]]} xp="6,400" ce large aberration subs={["shapechanger"]} init={0} dv={60} pcp={17} />
-<Defense id="monster-faceless_hulk_ugoroth--defense" ac={[18,9,18]} mod="+9 natural, -1 size" hp={[119,"14d8+56"]} fort="+8" ref="+4" will="+11" rockCt dr="10/piercing or slashing" resist="cold 5, fire 5" />
-<Offense id="monster-faceless_hulk_ugoroth--offense" sp={40} melee={<>mwk greataxe +18/+13 (3d6+12/&times;3) or 2 slams +17 (1d6+12 plus <Link to="/umr/grab">grab</Link>)</>} ranged="rock +10 (1d8+8)" space={"10"} reach={"10"} specAtt={[["explosive expansion","explosive expansion"]]} bDrain="1d2 Constitution" rockTh="120 ft." />
-<SpellBlock id="monster-faceless_hulk_ugoroth--spells-monster-spellblock-1" sla={{"cl":8,"con":"+11","content":[{"constant":true,"content":<Link to="/spell/tongues">tongues</Link>}]}} />
-<Stats id="monster-faceless_hulk_ugoroth--stats" atts={[26,11,19,16,11,16]} bab={10} cmb={19} cmbP="+21 bull rush" cmd={29} cmdP="31 vs. bull rush" feats={["Awesome Blow","Cleave","Deceitful","Improved Bull Rush","Iron Will","Power Attack","Throw Anything"]} skills={{"acro":{"b":3},"bluff":{"b":21},"climb":{"b":25}}} racial="+4 Disguise, +8 Escape Artist" lang={["Aq","C"]} sq={<><Link to="/umr/change_shape">change shape</Link> (Large humanoid; <Link to="/spell/alter_self">alter self</Link>), <Link to="/umr/compression">compression</Link>, faceless</>} />
-<Ecology id="monster-faceless_hulk_ugoroth--eco-eco" env="any hills or mountains" org="solitary, pair, or tribe (3-12)" treasure={{"S":[["Mw","Wga"]],"final":"other treasure"}} />
+<Info source={[["Pathfinder #110: The Thrushmoor Terror",84]]} xp="6,400" ce large aberration subs={["shapechanger"]} init={0} dv={60} pcp={17} />
+<Defense ac={[18,9,18]} mod="+9 natural, -1 size" hp={[119,"14d8+56"]} fort="+8" ref="+4" will="+11" rockCt dr="10/piercing or slashing" resist="cold 5, fire 5" />
+<Offense sp={40} melee={<>mwk greataxe +18/+13 (3d6+12/&times;3) or 2 slams +17 (1d6+12 plus <Link to="/umr/grab">grab</Link>)</>} ranged="rock +10 (1d8+8)" space={"10"} reach={"10"} specAtt={[["explosive expansion","explosive expansion"]]} bDrain="1d2 Constitution" rockTh="120 ft." />
+<SpellBlock id="1" sla={{"cl":8,"con":"+11","content":[{"constant":true,"content":<Link to="/spell/tongues">tongues</Link>}]}} />
+<Stats atts={[26,11,19,16,11,16]} bab={10} cmb={19} cmbP="+21 bull rush" cmd={29} cmdP="31 vs. bull rush" feats={["Awesome Blow","Cleave","Deceitful","Improved Bull Rush","Iron Will","Power Attack","Throw Anything"]} skills={{"acro":{"b":3},"bluff":{"b":21},"climb":{"b":25}}} racial="+4 Disguise, +8 Escape Artist" lang={["Aq","C"]} sq={<><Link to="/umr/change_shape">change shape</Link> (Large humanoid; <Link to="/spell/alter_self">alter self</Link>), <Link to="/umr/compression">compression</Link>, faceless</>} />
+<Ecology env="any hills or mountains" org="solitary, pair, or tribe (3-12)" treasure={{"S":[["Mw","Wga"]],"final":"other treasure"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Change Shape (Su)</strong> A faceless hulk can assume the form of a Large humanoid at will but requires 10 uninterrupted minutes to alter its body. Performing this transformation is somewhat painful, but the faceless hulk can maintain its new shape indefinitely once it has achieved that form. It can change back to its true form as a swift action, and it gains a +2 morale bonus on attack rolls, damage rolls, skill checks, and saving throws for 1 round after it does so. A faceless hulk retains its own innate abilities when it assumes its new form and does not gain any of the abilities of the creature it mimics. A faceless hulk gains a +10 bonus on Disguise checks when using this ability.</p>
@@ -38,12 +38,12 @@ const _faceless_hulk_ugoroth = {title: "Faceless Hulk (Ugoroth)", jsx: <><p><em>
 const _faceless_stalker = {title: "Faceless Stalker (Ugothol)", jsx: <><p><em>This hairless, leathery biped has a face dominated by grotesque and unsettling whorls and slits instead of actual features.</em></p>
 <Header full><span>Faceless Stalker</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info id="monster-faceless_stalker--info" source={[["Bestiary 2",122],["Pathfinder #2: The Skinsaw Murders",88]]} xp="1,200" ce medium aberration subs={["shapechanger"]} init={7} dv={60} pcp={2} />
-<Defense id="monster-faceless_stalker--defense" ac={[17,13,14]} mod="+3 Dex, +4 natural" hp={[42,"5d8+20"]} fort="+5" ref="+4" will="+6" dr="5/piercing or slashing" />
-<Offense id="monster-faceless_stalker--offense" sp={30} melee={<>mwk longsword +8 (1d8+4/19-20), slam +2 (1d6+2 plus <Link to="/umr/grab">grab</Link>)</>} space={"5"} reach={"10"} bDrain="1 Constitution" sneak="+2d6" />
-<SpellBlock id="monster-faceless_stalker--spells-monster-spellblock-1" sla={{"cl":5,"con":"+8","content":[{"constant":true,"content":<Link to="/spell/tongues">tongues</Link>}]}} />
-<Stats id="monster-faceless_stalker--stats" atts={[18,17,18,13,15,16]} bab={3} cmb={7} cmbP="+11 grapple" cmd={20} feats={["Combat Reflexes","Deceitful","Improved Initiative"]} skills={{"bluff":{"b":10},"dis":{"b":14,"x":"+24 when using change shape"},"ea":{"b":19},"soh":{"b":8},"stl":{"b":11}}} racial="+4 Disguise, +8 Escape Artist" lang={["Aq","C",";",[<em>tongues</em>]]} sq={<><Link to="/umr/change_shape">change shape</Link> (Medium humanoid; <Link to="/spell/alter_self">alter self</Link>), <Link to="/umr/compression">compression</Link>, faceless</>} />
-<Ecology id="monster-faceless_stalker--eco-eco" env="any swamps or underground" org="solitary, pair, or gang (3-9)" treasure={{"S":[["Mw","Wls"]],"final":"other treasure"}} />
+<Info source={[["Bestiary 2",122],["Pathfinder #2: The Skinsaw Murders",88]]} xp="1,200" ce medium aberration subs={["shapechanger"]} init={7} dv={60} pcp={2} />
+<Defense ac={[17,13,14]} mod="+3 Dex, +4 natural" hp={[42,"5d8+20"]} fort="+5" ref="+4" will="+6" dr="5/piercing or slashing" />
+<Offense sp={30} melee={<>mwk longsword +8 (1d8+4/19-20), slam +2 (1d6+2 plus <Link to="/umr/grab">grab</Link>)</>} space={"5"} reach={"10"} bDrain="1 Constitution" sneak="+2d6" />
+<SpellBlock id="1" sla={{"cl":5,"con":"+8","content":[{"constant":true,"content":<Link to="/spell/tongues">tongues</Link>}]}} />
+<Stats atts={[18,17,18,13,15,16]} bab={3} cmb={7} cmbP="+11 grapple" cmd={20} feats={["Combat Reflexes","Deceitful","Improved Initiative"]} skills={{"bluff":{"b":10},"dis":{"b":14,"x":"+24 when using change shape"},"ea":{"b":19},"soh":{"b":8},"stl":{"b":11}}} racial="+4 Disguise, +8 Escape Artist" lang={["Aq","C",";",[<em>tongues</em>]]} sq={<><Link to="/umr/change_shape">change shape</Link> (Medium humanoid; <Link to="/spell/alter_self">alter self</Link>), <Link to="/umr/compression">compression</Link>, faceless</>} />
+<Ecology env="any swamps or underground" org="solitary, pair, or gang (3-9)" treasure={{"S":[["Mw","Wls"]],"final":"other treasure"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Change Shape (Su)</strong> A faceless stalker can assume the form of a Medium humanoid at will but requires 10 uninterrupted minutes to alter its body. Performing this transformation is somewhat painful, but the faceless stalker can maintain its new form indefinitely once it has achieved it. It can change back to its true form as a swift action and gains a +2 morale bonus on attack rolls, damage rolls, skill checks, and saving throws for 1 round after it does so. Faceless stalkers retain their own innate abilities when they assume their new form and do not gain any of those belonging to the creature they mimic. A faceless stalker gains a +10 bonus on Disguise checks when they are used in conjunction with this ability.</p>
@@ -56,11 +56,11 @@ const _faceless_stalker = {title: "Faceless Stalker (Ugothol)", jsx: <><p><em>Th
 const _faceless_whale = {title: "Faceless Whale", jsx: <><p><em>A deep groan at the edge of hearing precedes the appearance of this sightless leviathan, whose pallid body breaks the surface of dark waters without as much as a ripple.</em></p>
 <Header full><span>Faceless Whale</span><span>CR 15</span></Header>
 <div className="reduce">
-<Info id="monster-faceless_whale--info" source={[["Pathfinder #60: From Hell's Heart",82]]} xp="51,200" n colossal magicalBeast init={-2} blindsight={150} pcp={19} />
-<Defense id="monster-faceless_whale--defense" ac={[30,0,30]} mod="-2 Dex, +30 natural, -8 size" hp={[248,"16d10+160"]} fort="+22" ref="+8" will="+7" immune="sonic, gaze attacks, sight-based attacks, visual effects and illusions" weak={["blind"]} />
-<Offense id="monster-faceless_whale--offense" sw={40} melee="bite +25 (6d6+17), tail slap +20 (4d6+8)" space={"30"} reach={"30"} specAtt={[["resonant song","resonant song"]]} capsize swallow="4d6 acid damage, AC 25, 24 hp" />
-<Stats id="monster-faceless_whale--stats" atts={[45,6,30,4,11,5]} bab={16} cmb={41} cmd={49} feats={["Awesome Blow","Diehard","Endurance","Great Fortitude","Improved Bull Rush","Improved Overrun","Iron Will","Power Attack"]} skills={{"per":{"b":19},"swim":{"b":25}}} lang={["AkX"]} sq={<>blind, <Link to="/umr/hold_breath">hold breath</Link></>} />
-<Ecology id="monster-faceless_whale--eco-eco" env="any water" org="solitary, pair, or pod (3-16)" treasure={{"X":false}} />
+<Info source={[["Pathfinder #60: From Hell's Heart",82]]} xp="51,200" n colossal magicalBeast init={-2} blindsight={150} pcp={19} />
+<Defense ac={[30,0,30]} mod="-2 Dex, +30 natural, -8 size" hp={[248,"16d10+160"]} fort="+22" ref="+8" will="+7" immune="sonic, gaze attacks, sight-based attacks, visual effects and illusions" weak={["blind"]} />
+<Offense sw={40} melee="bite +25 (6d6+17), tail slap +20 (4d6+8)" space={"30"} reach={"30"} specAtt={[["resonant song","resonant song"]]} capsize swallow="4d6 acid damage, AC 25, 24 hp" />
+<Stats atts={[45,6,30,4,11,5]} bab={16} cmb={41} cmd={49} feats={["Awesome Blow","Diehard","Endurance","Great Fortitude","Improved Bull Rush","Improved Overrun","Iron Will","Power Attack"]} skills={{"per":{"b":19},"swim":{"b":25}}} lang={["AkX"]} sq={<>blind, <Link to="/umr/hold_breath">hold breath</Link></>} />
+<Ecology env="any water" org="solitary, pair, or pod (3-16)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Blind (Ex)</strong> A faceless whale sees and senses exclusively through its blindsight ability, which is based on sound and movement - beyond 150 feet, the whale is considered <Link to="/misc/blind">blind</Link>. A <Link to="/misc/deafened">deafened</Link> faceless whale is effectively blinded as well. It is invulnerable to all sight-based effects and attacks, including <Link to="/umr/gaze">gaze</Link> attacks.</p>
@@ -83,12 +83,12 @@ const _faceless_whale = {title: "Faceless Whale", jsx: <><p><em>A deep groan at 
 const _faerie_mount = {title: "Faerie Mount", jsx: <><p><em>Short legs and overlarge ears make this broad-chested canine seem almost comical.</em></p>
 <Header full><span>Faerie Mount</span><span>CR 1</span></Header>
 <div className="reduce">
-<Info id="monster-faerie_mount--info" source={[["Pathfinder #119: Prisoners of the Blight",82]]} xp="400" n medium animal init={0} llv scent pcp={5} />
-<Defense id="monster-faerie_mount--defense" ac={[11,10,11]} mod="+1 natural" hp={[15,"2d8+6"]} fort="+6" ref="+3" will="+1" def={[["stability","stability"]]} />
-<Offense id="monster-faerie_mount--offense" sp={40} melee="bite +2 (1d6+1)" />
-<Stats id="monster-faerie_mount--stats" atts={[13,10,17,2,13,12]} bab={1} cmb={2} cmd={12} cmdP="16 vs. bull rush, 20 vs. trip" feats={["Endurance",["Nimble Moves",<sup>B</sup>]]} skills={{"per":{"b":5}}} racial="+4 Survival when tracking by scent" sq="sure-footed" />
+<Info source={[["Pathfinder #119: Prisoners of the Blight",82]]} xp="400" n medium animal init={0} llv scent pcp={5} />
+<Defense ac={[11,10,11]} mod="+1 natural" hp={[15,"2d8+6"]} fort="+6" ref="+3" will="+1" def={[["stability","stability"]]} />
+<Offense sp={40} melee="bite +2 (1d6+1)" />
+<Stats atts={[13,10,17,2,13,12]} bab={1} cmb={2} cmd={12} cmdP="16 vs. bull rush, 20 vs. trip" feats={["Endurance",["Nimble Moves",<sup>B</sup>]]} skills={{"per":{"b":5}}} racial="+4 Survival when tracking by scent" sq="sure-footed" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-faerie_mount--eco-eco" env="temperate forests, hills, or plains (First World)" org="solitary, pair, or wiggle (3-12)" treasure={{"X":false}} />
+<Ecology env="temperate forests, hills, or plains (First World)" org="solitary, pair, or wiggle (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Stability (Ex)</strong> While standing on the ground, faerie mounts gain a +4 racial bonus to their Combat Maneuver Defense against <Link to="/rule/bull_rush">bull rush</Link> and <Link to="/rule/trip">trip</Link> combat maneuvers.</p>
@@ -101,12 +101,12 @@ const _faerie_mount = {title: "Faerie Mount", jsx: <><p><em>Short legs and overl
 const _fallen = {title: "Fallen", jsx: <><p><em>This ghostly crusader floats just above the ground, yet despite its phantom-like appearance, its armor and weapons seem quite solid.</em></p>
 <Header full><span>Fallen</span><span>CR 8</span></Header>
 <div className="reduce">
-<Info id="monster-fallen--info" source={[["Bestiary 6",126],["Pathfinder #75: Demon's Heresy",90]]} xp="4,800" le medium undead subs={["incorporeal"]} init={3} dv={60} blindsense={60} pcp={17} />
-<Defense id="monster-fallen--defense" ac={[22,17,19]} mod="+4 armor, +4 deflection, +3 Dex, +1 shield" hp={[93,"11d8+44"]} fort="+7" ref="+6" will="+10" def={[["rejuvenation","rejuvenation"]]} chanRes="+4" incorp immune={<Link to="/umr/undead_traits">undead traits</Link>} resist="acid 5, fire 5" weak={[<Link to="/umr/light_sensitivity">light sensitivity</Link>]} />
-<Offense id="monster-fallen--offense" fl={30} flP="good" melee="longsword +11/+6 (1d8 force/19-20 plus 2d6 negative energy and despair), light shield +13 (1d3 force plus 2d6 negative energy and despair)" ranged="longbow +11/+6 (1d8 force/&times;3 plus 2d6 negative energy and despair)" specAtt={[["agent of despair","agent of despair"],["curse of the unburied","curse of the unburied"],["phantom armaments","phantom armaments"],["touch of the grave","touch of the grave"]]} />
-<SpellBlock id="monster-fallen--spells-monster-spellblock-1" sla={{"cl":12,"con":"+16","content":[{"day":3,"content":<><Link to="/spell/deeper_darkness">deeper darkness</Link>, <Link to="/spell/telekinesis">telekinesis</Link> (DC 19)</>}]}} />
-<Stats id="monster-fallen--stats" atts={[0,16,0,13,17,18]} bab={8} cmb={15} cmd={25} feats={["Combat Expertise","Deadly Aim","Improved Shield Bash","Shield Slam","Two-Weapon Fighting",["Weapon Focus"," (longsword)"]]} skills={{"fly":{"b":15},"intm":{"b":18},"k":{"r":10},"per":{"b":17}}} sq="Common" />
-<Ecology id="monster-fallen--eco-eco" env="any" org="solitary, squad (2-6), or platoon (7-16)" treasure={{"X":false}} />
+<Info source={[["Bestiary 6",126],["Pathfinder #75: Demon's Heresy",90]]} xp="4,800" le medium undead subs={["incorporeal"]} init={3} dv={60} blindsense={60} pcp={17} />
+<Defense ac={[22,17,19]} mod="+4 armor, +4 deflection, +3 Dex, +1 shield" hp={[93,"11d8+44"]} fort="+7" ref="+6" will="+10" def={[["rejuvenation","rejuvenation"]]} chanRes="+4" incorp immune={<Link to="/umr/undead_traits">undead traits</Link>} resist="acid 5, fire 5" weak={[<Link to="/umr/light_sensitivity">light sensitivity</Link>]} />
+<Offense fl={30} flP="good" melee="longsword +11/+6 (1d8 force/19-20 plus 2d6 negative energy and despair), light shield +13 (1d3 force plus 2d6 negative energy and despair)" ranged="longbow +11/+6 (1d8 force/&times;3 plus 2d6 negative energy and despair)" specAtt={[["agent of despair","agent of despair"],["curse of the unburied","curse of the unburied"],["phantom armaments","phantom armaments"],["touch of the grave","touch of the grave"]]} />
+<SpellBlock id="1" sla={{"cl":12,"con":"+16","content":[{"day":3,"content":<><Link to="/spell/deeper_darkness">deeper darkness</Link>, <Link to="/spell/telekinesis">telekinesis</Link> (DC 19)</>}]}} />
+<Stats atts={[0,16,0,13,17,18]} bab={8} cmb={15} cmd={25} feats={["Combat Expertise","Deadly Aim","Improved Shield Bash","Shield Slam","Two-Weapon Fighting",["Weapon Focus"," (longsword)"]]} skills={{"fly":{"b":15},"intm":{"b":18},"k":{"r":10},"per":{"b":17}}} sq="Common" />
+<Ecology env="any" org="solitary, squad (2-6), or platoon (7-16)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Agent of Despair (Su)</strong> A creature that takes damage from a fallen's attacks must succeed at a DC 19 Will save or take a -4 penalty on saving throws against fear. If a creature that has immunity to fear fails this saving throw, its immunity is temporarily suppressed. This effect lasts as long as a creature still has damage taken from a fallen's attacks. This is a curse effect. The save DC is Charisma-based.</p>
@@ -119,11 +119,11 @@ const _fallen = {title: "Fallen", jsx: <><p><em>This ghostly crusader floats jus
 </>};
 const _familiar_archaeopteryx = {title: "Archaeopteryx (Familiar)", jsx: <><Header full><span>Archaeopteryx</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_archaeopteryx--info" source={[["Bestiary 4",96]]} xp="100" n tiny animal init={2} llv pcp={1} />
-<Defense id="monster-familiar_archaeopteryx--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+1" />
-<Offense id="monster-familiar_archaeopteryx--offense" sp={40} cl={10} fl={40} flP="poor" melee="bite +4 (1d4-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_archaeopteryx--stats" atts={[3,15,10,2,12,7]} bab={0} cmb={0} cmd={6} feats={["Weapon Finesse"]} skills={{"climb":{"b":10}}} sq="weak flier" />
-<Ecology id="monster-familiar_archaeopteryx--eco-eco" env="temperate or warm forests" org="single, pair, or nest (4-10)" treasure={{"X":false}} />
+<Info source={[["Bestiary 4",96]]} xp="100" n tiny animal init={2} llv pcp={1} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+1" />
+<Offense sp={40} cl={10} fl={40} flP="poor" melee="bite +4 (1d4-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[3,15,10,2,12,7]} bab={0} cmb={0} cmd={6} feats={["Weapon Finesse"]} skills={{"climb":{"b":10}}} sq="weak flier" />
+<Ecology env="temperate or warm forests" org="single, pair, or nest (4-10)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Weak Flier (Ex)</strong> An archaeopteryx can't hover or fly up at an angle greater than 45 degrees while flying.</p>
@@ -134,11 +134,11 @@ const _familiar_archaeopteryx = {title: "Archaeopteryx (Familiar)", jsx: <><Head
 const _familiar_arctic_hare = {title: "Arctic Hare (Familiar)", jsx: <><p><em>With shorter ears and limbs than other rabbits, this white rabbit is hard to spot in the snow.</em></p>
 <Header full><span>Arctic Hare</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_arctic_hare--info" source={[["Ultimate Wilderness",191],["Reign of Winter Player's Guide",10]]} xp="65" n tiny animal init={3} llv pcp={1} />
-<Defense id="monster-familiar_arctic_hare--defense" ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+5" will="+1" />
-<Offense id="monster-familiar_arctic_hare--offense" sp={50} melee="bite -2 (1d3-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_arctic_hare--stats" atts={[3,16,9,2,12,5]} bab={0} cmb={1} cmd={7} cmdP="11 vs. trip" feats={["Run"]} skills={{"stl":{"b":15,"x":"+19 in snow"}}} racial="+4 Stealth in snow" />
-<Ecology id="monster-familiar_arctic_hare--eco-eco" env="cold forests and plains" org="solitary, pair, or down (3-16)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",191],["Reign of Winter Player's Guide",10]]} xp="65" n tiny animal init={3} llv pcp={1} />
+<Defense ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+5" will="+1" />
+<Offense sp={50} melee="bite -2 (1d3-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[3,16,9,2,12,5]} bab={0} cmb={1} cmd={7} cmdP="11 vs. trip" feats={["Run"]} skills={{"stl":{"b":15,"x":"+19 in snow"}}} racial="+4 Stealth in snow" />
+<Ecology env="cold forests and plains" org="solitary, pair, or down (3-16)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>An arctic hare has adapted to life in cold environments but fares well in warmer climes.</p>
@@ -147,11 +147,11 @@ const _familiar_arctic_hare = {title: "Arctic Hare (Familiar)", jsx: <><p><em>Wi
 const _familiar_arctic_tern = {title: "Arctic Tern (Familiar)", jsx: <><p><em>This white-and-gray bird has a reddish-orange beak.</em></p>
 <Header full><span>Arctic Tern</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_arctic_tern--info" source={[["Ultimate Wilderness",192],["Reign of Winter Player's Guide",10]]} xp="65" n tiny animal init={2} llv pcp={6} />
-<Defense id="monster-familiar_arctic_tern--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[2,"1d8-2"]} fort="+0" ref="+4" will="+2" />
-<Offense id="monster-familiar_arctic_tern--offense" sp={10} fl={40} flP="average" melee="bite -2 (1d3-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_arctic_tern--stats" atts={[2,15,7,2,14,5]} bab={0} cmb={0} cmd={6} feats={[["Skill Focus"," (Fly)"]]} skills={{"fly":{"b":9},"per":{"b":6}}} />
-<Ecology id="monster-familiar_arctic_tern--eco-eco" env="cold coastlines" org="solitary, pair, or flock (3-20)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",192],["Reign of Winter Player's Guide",10]]} xp="65" n tiny animal init={2} llv pcp={6} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[2,"1d8-2"]} fort="+0" ref="+4" will="+2" />
+<Offense sp={10} fl={40} flP="average" melee="bite -2 (1d3-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[2,15,7,2,14,5]} bab={0} cmb={0} cmd={6} feats={[["Skill Focus"," (Fly)"]]} skills={{"fly":{"b":9},"per":{"b":6}}} />
+<Ecology env="cold coastlines" org="solitary, pair, or flock (3-20)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>These migratory birds are agile and graceful flyers that hunt fish and marine invertebrates. Arctic terns mate for life and build their nests on the ground.</p>
@@ -161,11 +161,11 @@ const _familiar_arctic_tern = {title: "Arctic Tern (Familiar)", jsx: <><p><em>Th
 const _familiar_armadillo = {title: "Armadillo (Familiar)", jsx: <><p><em>This round, dust-colored creature's snout pokes out of its bony armor shell.</em></p>
 <Header full><span>Armadillo</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_armadillo--info" source={[["Ultimate Wilderness",192],["Animal Archive",30]]} xp="100" n tiny animal init={2} scent pcp="+8 (+0 on sight-based Perception checks)" />
-<Defense id="monster-familiar_armadillo--defense" ac={[16,14,14]} mod="+2 Dex, +2 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+1" def={[["protective ball","protective ball"]]} />
-<Offense id="monster-familiar_armadillo--offense" sp={30} br={5} melee="claw -1 (1d2-3)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_armadillo--stats" atts={[4,15,11,2,12,9]} bab={0} cmb={0} cmd={7} cmdP="11 vs. trip" feats={[["Skill Focus"," (Perception)"]]} skills={{"per":{"b":8,"x":"+0 on sight-based checks"},"swim":{"b":1}}} racial="+4 Swim, -8 on sight-based Perception checks" sq="natural diver" />
-<Ecology id="monster-familiar_armadillo--eco-eco" env="temperate or warm plains" org="solitary" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",192],["Animal Archive",30]]} xp="100" n tiny animal init={2} scent pcp="+8 (+0 on sight-based Perception checks)" />
+<Defense ac={[16,14,14]} mod="+2 Dex, +2 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+1" def={[["protective ball","protective ball"]]} />
+<Offense sp={30} br={5} melee="claw -1 (1d2-3)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[4,15,11,2,12,9]} bab={0} cmb={0} cmd={7} cmdP="11 vs. trip" feats={[["Skill Focus"," (Perception)"]]} skills={{"per":{"b":8,"x":"+0 on sight-based checks"},"swim":{"b":1}}} racial="+4 Swim, -8 on sight-based Perception checks" sq="natural diver" />
+<Ecology env="temperate or warm plains" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Natural Diver (Ex)</strong> An armadillo can <Link to="/misc/hold_its_breath">hold its breath</Link> underwater for up to 6 minutes.</p>
@@ -177,11 +177,11 @@ const _familiar_armadillo = {title: "Armadillo (Familiar)", jsx: <><p><em>This r
 </>};
 const _familiar_bat = {title: "Bat (Familiar)", jsx: <><Header full><span>Bat</span><span>CR 1/8</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_bat--info" source={[["Pathfinder RPG Bestiary",131]]} xp="50" n diminutive animal init={2} llv blindsense={20} pcp={6} />
-<Defense id="monster-familiar_bat--defense" ac={[16,16,14]} mod="+2 Dex, +4 size" hp={[2,"1d8-2"]} fort="+0" ref="+4" will="+2" />
-<Offense id="monster-familiar_bat--offense" sp={5} fl={40} flP="good" melee="bite +6 (1d3-5)" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_bat--stats" atts={[1,15,6,2,14,5]} bab={0} cmb={-2} cmd={3} feats={["Weapon Finesse"]} skills={{"fly":{"b":16},"per":{"b":6}}} racial="+4 Perception" />
-<Ecology id="monster-familiar_bat--eco-eco" env="temperate and hot forests and deserts" org="colony (10-400)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",131]]} xp="50" n diminutive animal init={2} llv blindsense={20} pcp={6} />
+<Defense ac={[16,16,14]} mod="+2 Dex, +4 size" hp={[2,"1d8-2"]} fort="+0" ref="+4" will="+2" />
+<Offense sp={5} fl={40} flP="good" melee="bite +6 (1d3-5)" space={"1"} reach={"0"} />
+<Stats atts={[1,15,6,2,14,5]} bab={0} cmb={-2} cmd={3} feats={["Weapon Finesse"]} skills={{"fly":{"b":16},"per":{"b":6}}} racial="+4 Perception" />
+<Ecology env="temperate and hot forests and deserts" org="colony (10-400)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Most bats are insectivores or fruit-eaters, but at least one species drinks blood.</p>
@@ -189,29 +189,30 @@ const _familiar_bat = {title: "Bat (Familiar)", jsx: <><Header full><span>Bat</s
 </>};
 const _familiar_blue_ringed_octopus = {title: "Blue-Ringed Octopus (Familiar)", jsx: <><Header full><span>Blue-Ringed Octopus</span><span>CR 1/2</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_blue_ringed_octopus--info" source={[["Ultimate Magic",117]]} xp="200" n tiny animal subs={["aquatic"]} init={5} llv pcp={1} />
-<Defense id="monster-familiar_blue_ringed_octopus--defense" ac={[17,17,12]} mod="+5 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+7" will="+1" def={[["ink cloud 5-ft radius","ink cloud (5-ft. radius)"]]} />
-<Offense id="monster-familiar_blue_ringed_octopus--offense" sp={20} br={undefined} sw={30} melee={<>bite +7 (1d2-1 plus poison), tentacles +5 (<Link to="/umr/grab">grab</Link>)</>} space={"2-1/2"} reach={"0"} specAtt={[["poison","poison"]]} />
-<Stats id="monster-familiar_blue_ringed_octopus--stats" atts={[8,21,10,2,13,3]} bab={0} cmb={3} cmbP="+7 grapple" cmd={12} cmdP="can't be tripped" feats={[["Multiattack",<sup>B</sup>],"Weapon Finesse"]} skills={{"ea":{"b":15},"stl":{"b":25},"swim":{"b":13}}} racial="+10 Escape Artist, +8 Stealth" />
+<Info source={[["Ultimate Magic",117]]} xp="200" n tiny animal subs={["aquatic"]} init={5} llv pcp={1} />
+<Defense ac={[17,17,12]} mod="+5 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+7" will="+1" def={[["ink cloud 5-ft radius","ink cloud (5-ft. radius)"]]} />
+<Offense sp={20} br={undefined} sw={30} melee={<>bite +7 (1d2-1 plus poison), tentacles +5 (<Link to="/umr/grab">grab</Link>)</>} space={"2-1/2"} reach={"0"} specAtt={[["poison","poison"]]} />
+<Stats atts={[8,21,10,2,13,3]} bab={0} cmb={3} cmbP="+7 grapple" cmd={12} cmdP="can't be tripped" feats={[["Multiattack",<sup>B</sup>],"Weapon Finesse"]} skills={{"ea":{"b":15},"stl":{"b":25},"swim":{"b":13}}} racial="+10 Escape Artist, +8 Stealth" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-familiar_blue_ringed_octopus--eco-eco" env="temperate or cold aquatic" org="solitary" treasure={{"X":false}} />
+<Ecology env="temperate or cold aquatic" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Ink Cloud (Ex)</strong> While within water, an octopus can emit a 5-foot-radius sphere of ink once per minute as a swift action. This ink provides total <Link to="/rule/concealment">concealment</Link> and persists for 1 minute.</p>
 <p><strong>Jet (Ex)</strong> The octopus can jet 60 feet in a straight line as a full-round action. This does not provoke attacks of opportunity.</p>
 <p><strong>Poison (Ex)</strong></p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-familiar_blue_ringed_octopus--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/str_damage">Str damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><Header sub>Description</Header>
+<AffInfo type="Bite-injury" save="Fort 10" freq="1/round for 6 rounds" eff={<>1 <Link to="/rule/str_damage">Str damage</Link></>} cure1 icon="p" />
+<Header sub>Description</Header>
 <p>Blue-ringed octopuses are aquatic animals capable of a surprising amount of cunning. They cannot survive out of water.</p>
 <p><strong>Family:</strong> <Link to="/family/familiar">Familiar</Link></p>
 </>};
 const _familiar_butterfly_moth = {title: "Butterfly/Moth (Familiar)", jsx: <><p><em>This graceful winged insect is a riot of color that glides through the air like a flittering dream.</em></p>
 <Header full><span>Butterfly/Moth</span><span>CR -</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_butterfly_moth--info" source={[["Ultimate Wilderness",192]]} xp="0" n diminutive vermin init={1} dv={60} scent pcp={1} />
-<Defense id="monster-familiar_butterfly_moth--defense" ac={[15,15,14]} mod="+1 Dex, +4 size" hp={[1,"1d8-3"]} fort="-1" ref="+1" will="+1" immune="mind-affecting effects" />
-<Offense id="monster-familiar_butterfly_moth--offense" sp={5} fl={30} flP="average" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_butterfly_moth--stats" atts={[1,13,4,0,12,7]} bab={0} cmb={-3} cmd={2} cmdP="10 vs. trip" skills={{"fly":{"b":7}}} />
-<Ecology id="monster-familiar_butterfly_moth--eco-eco" env="any temperate or warm" org="solitary, pair, or kaleidoscope (3-100)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",192]]} xp="0" n diminutive vermin init={1} dv={60} scent pcp={1} />
+<Defense ac={[15,15,14]} mod="+1 Dex, +4 size" hp={[1,"1d8-3"]} fort="-1" ref="+1" will="+1" immune="mind-affecting effects" />
+<Offense sp={5} fl={30} flP="average" space={"1"} reach={"0"} />
+<Stats atts={[1,13,4,0,12,7]} bab={0} cmb={-3} cmd={2} cmdP="10 vs. trip" skills={{"fly":{"b":7}}} />
+<Ecology env="any temperate or warm" org="solitary, pair, or kaleidoscope (3-100)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Butterflies are delicate, brightly colored insects that feed on nectar and other sources of sugar. Moths have the same statistics as butterflies, though they tend to be active at night. The butterfly (or moth) presented here is a particularly large specimen with a wingspan of just over 6 inches, yet it is still completely harmless and awards no XP if slain.</p>
@@ -219,11 +220,11 @@ const _familiar_butterfly_moth = {title: "Butterfly/Moth (Familiar)", jsx: <><p>
 </>};
 const _familiar_cat = {title: "Cat (Familiar)", jsx: <><Header full><span>Cat</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_cat--info" source={[["Pathfinder RPG Bestiary",131]]} xp="100" n tiny animal init={2} llv scent pcp={5} />
-<Defense id="monster-familiar_cat--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+4" will="+1" />
-<Offense id="monster-familiar_cat--offense" sp={30} melee="2 claws +4 (1d2-4), bite +4 (1d3-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_cat--stats" atts={[3,15,8,2,12,7]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={["Weapon Finesse"]} skills={{"climb":{"b":6},"per":{"b":5},"stl":{"b":14}}} racial="+4 Climb, +4 Stealth" />
-<Ecology id="monster-familiar_cat--eco-eco" env="temperate and hot plains or urban" org="solitary, pair, or pack (3-12)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",131]]} xp="100" n tiny animal init={2} llv scent pcp={5} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+4" will="+1" />
+<Offense sp={30} melee="2 claws +4 (1d2-4), bite +4 (1d3-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[3,15,8,2,12,7]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={["Weapon Finesse"]} skills={{"climb":{"b":6},"per":{"b":5},"stl":{"b":14}}} racial="+4 Climb, +4 Stealth" />
+<Ecology env="temperate and hot plains or urban" org="solitary, pair, or pack (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Cats typically weigh 5-15 pounds when fully grown.</p>
@@ -232,11 +233,11 @@ const _familiar_cat = {title: "Cat (Familiar)", jsx: <><Header full><span>Cat</s
 const _familiar_chicken = {title: "Chicken (Familiar)", jsx: <><p><em>This fowl has a compact body, a short beak flanked by red wattles, and a crimson comb on the crown of its head.</em></p>
 <Header full><span>Chicken</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_chicken--info" source={[["Ultimate Wilderness",193],["Familiar Folio",24],["Bestiary 5",112]]} xp="65" n tiny animal init={4} llv pcp={5} />
-<Defense id="monster-familiar_chicken--defense" ac={[12,12,12]} mod="+2 size" hp={[5,"1d8+1"]} fort="+3" ref="+2" will="+1" />
-<Offense id="monster-familiar_chicken--offense" sp={30} fl={20} flP="clumsy" spExtra="drift" melee="bite -2 (1d3-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_chicken--stats" atts={[3,11,12,2,12,13]} bab={0} cmb={-2} cmd={4} feats={["Improved Initiative"]} skills={{"fly":{"b":-4},"per":{"b":5}}} />
-<Ecology id="monster-familiar_chicken--eco-eco" env="any temperate" org="solitary, pair, or flock (3-20)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",193],["Familiar Folio",24],["Bestiary 5",112]]} xp="65" n tiny animal init={4} llv pcp={5} />
+<Defense ac={[12,12,12]} mod="+2 size" hp={[5,"1d8+1"]} fort="+3" ref="+2" will="+1" />
+<Offense sp={30} fl={20} flP="clumsy" spExtra="drift" melee="bite -2 (1d3-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[3,11,12,2,12,13]} bab={0} cmb={-2} cmd={4} feats={["Improved Initiative"]} skills={{"fly":{"b":-4},"per":{"b":5}}} />
+<Ecology env="any temperate" org="solitary, pair, or flock (3-20)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Drift (Ex)</strong> A chicken flies in short bursts and can't use its fly speed to hover. When it flies, a chicken must end its move action by landing or perching on a solid surface.</p>
@@ -249,11 +250,11 @@ const _familiar_chicken = {title: "Chicken (Familiar)", jsx: <><p><em>This fowl 
 const _familiar_cockroach = {title: "Cockroach (Familiar)", jsx: <><p><em>This swift brown insect scampers up walls, its antennae flailing.</em></p>
 <Header full><span>Cockroach</span><span>CR 1/8</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_cockroach--info" source={[["Ultimate Wilderness",193]]} xp="50" n diminutive vermin init={2} dv={60} llv pcp={0} />
-<Defense id="monster-familiar_cockroach--defense" ac={[16,16,14]} mod="+2 Dex, +4 size" hp={[6,"1d8+2"]} fort="+4" ref="+2" will="+0" immune="mind-affecting effects" weak={[<Link to="/umr/light_sensitivity">light sensitivity</Link>]} />
-<Offense id="monster-familiar_cockroach--offense" sp={20} cl={20} fl={30} flP="poor" melee="bite -1 (1d2-5)" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_cockroach--stats" atts={[1,15,14,0,11,2]} bab={0} cmb={-2} cmd={3} cmdP="11 vs. trip" skills={{"climb":{"b":3}}} sq={<Link to="/umr/hold_breath">hold breath</Link>} />
-<Ecology id="monster-familiar_cockroach--eco-eco" env="any" org="solitary, pair, or swarm (3-60)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",193]]} xp="50" n diminutive vermin init={2} dv={60} llv pcp={0} />
+<Defense ac={[16,16,14]} mod="+2 Dex, +4 size" hp={[6,"1d8+2"]} fort="+4" ref="+2" will="+0" immune="mind-affecting effects" weak={[<Link to="/umr/light_sensitivity">light sensitivity</Link>]} />
+<Offense sp={20} cl={20} fl={30} flP="poor" melee="bite -1 (1d2-5)" space={"1"} reach={"0"} />
+<Stats atts={[1,15,14,0,11,2]} bab={0} cmb={-2} cmd={3} cmdP="11 vs. trip" skills={{"climb":{"b":3}}} sq={<Link to="/umr/hold_breath">hold breath</Link>} />
+<Ecology env="any" org="solitary, pair, or swarm (3-60)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Cockroaches are hardy insects commonly viewed as pests - especially for being attracted to warm buildings and unattended food in urban areas. They are famously skittish, fleeing from larger creatures and sources of light.</p>
@@ -262,11 +263,11 @@ const _familiar_cockroach = {title: "Cockroach (Familiar)", jsx: <><p><em>This s
 const _familiar_creeper_ivy = {title: "Creeper Ivy (Familiar)", jsx: <><p><em>The creeping tendrils of this plant creature guide its way up tree trunks and walls.</em></p>
 <Header full><span>Creeper Ivy</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_creeper_ivy--info" source={[["Ultimate Wilderness",194]]} xp="100" n tiny plant init={2} llv pcp={0} />
-<Defense id="monster-familiar_creeper_ivy--defense" ac={[15,14,13]} mod="+2 Dex, +1 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+2" will="+0" immune={<Link to="/umr/plant_traits">plant traits</Link>} />
-<Offense id="monster-familiar_creeper_ivy--offense" sp={15} cl={15} melee="slam +0 (1d2-2 plus grab)" space={"2-1/2"} reach={"0"} constrict="1d3-2" grab="Medium" />
-<Stats id="monster-familiar_creeper_ivy--stats" atts={[7,14,10,0,10,5]} bab={0} cmb={0} cmd={8} cmdP="can't be tripped" skills={{"climb":{"b":6}}} />
-<Ecology id="monster-familiar_creeper_ivy--eco-eco" env="temperate forests and urban" org="solitary, pair, or tangle (3-10)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",194]]} xp="100" n tiny plant init={2} llv pcp={0} />
+<Defense ac={[15,14,13]} mod="+2 Dex, +1 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+2" will="+0" immune={<Link to="/umr/plant_traits">plant traits</Link>} />
+<Offense sp={15} cl={15} melee="slam +0 (1d2-2 plus grab)" space={"2-1/2"} reach={"0"} constrict="1d3-2" grab="Medium" />
+<Stats atts={[7,14,10,0,10,5]} bab={0} cmb={0} cmd={8} cmdP="can't be tripped" skills={{"climb":{"b":6}}} />
+<Ecology env="temperate forests and urban" org="solitary, pair, or tangle (3-10)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Climbing ivy thrives in dense forests and urban landscapes, where it can easily relocate to maximize its exposure to the sun. Surprisingly fast for a plant, creeper ivy is territorial and lashes out at creatures that threaten or shade it. It also scavenges when the opportunity presents itself, sometimes drawing nutrition from carrion or even unguarded eggs.</p>
@@ -275,11 +276,11 @@ const _familiar_creeper_ivy = {title: "Creeper Ivy (Familiar)", jsx: <><p><em>Th
 const _familiar_dodo = {title: "Dodo (Familiar)", jsx: <><p><em>This plump, gray, flightless bird waddles about on ungainly legs, fearlessly bobbing its prodigious beak.</em></p>
 <Header full><span>Dodo</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_dodo--info" source={[["Ultimate Wilderness",194],["Pathfinder #55: The Wormwood Mutiny",88],["Bestiary 4",96]]} xp="100" n small animal init={0} llv pcp={3} />
-<Defense id="monster-familiar_dodo--defense" ac={[11,11,11]} mod="+1 size" hp={[6,"1d8+2"]} fort="+4" ref="+2" will="-1" />
-<Offense id="monster-familiar_dodo--offense" sp={20} melee="bite +0 (1d3-2)" />
-<Stats id="monster-familiar_dodo--stats" atts={[7,11,14,2,9,6]} bab={0} cmb={-3} cmd={7} feats={[["Weapon Focus"," (bite)"]]} skills={{"per":{"b":3}}} />
-<Ecology id="monster-familiar_dodo--eco-eco" env="warm coastlines and plains" org="solitary, pair, or huddle (3-6)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",194],["Pathfinder #55: The Wormwood Mutiny",88],["Bestiary 4",96]]} xp="100" n small animal init={0} llv pcp={3} />
+<Defense ac={[11,11,11]} mod="+1 size" hp={[6,"1d8+2"]} fort="+4" ref="+2" will="-1" />
+<Offense sp={20} melee="bite +0 (1d3-2)" />
+<Stats atts={[7,11,14,2,9,6]} bab={0} cmb={-3} cmd={7} feats={[["Weapon Focus"," (bite)"]]} skills={{"per":{"b":3}}} />
+<Ecology env="warm coastlines and plains" org="solitary, pair, or huddle (3-6)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>These flightless birds typically inhabit isolated tropical islands and coastlines that are devoid of predators and other creatures that might kill them to use as a resource. Dodos' size and unfamiliarity with natural dangers contribute to a kind of boldness in their species - or what some would call stupidity - causing them to bumble into precarious situations and making them easy targets for other creatures that are on the prowl for a tasty meal. The birds can all too easily be caught and slain, and while their meat has a most unpleasant taste, few starving, shipwrecked sailors would turn such a providential meal down.</p>
@@ -287,11 +288,11 @@ const _familiar_dodo = {title: "Dodo (Familiar)", jsx: <><p><em>This plump, gray
 </>};
 const _familiar_donkey_rat = {title: "Donkey Rat (Familiar)", jsx: <><Header full><span>Donkey Rat</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_donkey_rat--info" source={[["Ultimate Magic",117]]} xp="100" n small animal init={3} llv scent pcp={4} />
-<Defense id="monster-familiar_donkey_rat--defense" ac={[14,14,11]} mod="+3 Dex, +1 size" hp={[5,"1d8+1"]} fort="+3" ref="+5" will="+1" />
-<Offense id="monster-familiar_donkey_rat--offense" sp={30} sw={20} melee="bite +0 (1d3-2)" />
-<Stats id="monster-familiar_donkey_rat--stats" atts={[6,17,13,2,13,4]} bab={0} cmb={1} cmd={9} cmdP="13 vs. trip" feats={[["Skill Focus"," (Perception)"]]} skills={{"per":{"b":4},"stl":{"b":15},"swim":{"b":11}}} />
-<Ecology id="monster-familiar_donkey_rat--eco-eco" env="temperate coast or forest" org="solitary, pair, or nest (3-12)" treasure={{"X":false}} />
+<Info source={[["Ultimate Magic",117]]} xp="100" n small animal init={3} llv scent pcp={4} />
+<Defense ac={[14,14,11]} mod="+3 Dex, +1 size" hp={[5,"1d8+1"]} fort="+3" ref="+5" will="+1" />
+<Offense sp={30} sw={20} melee="bite +0 (1d3-2)" />
+<Stats atts={[6,17,13,2,13,4]} bab={0} cmb={1} cmd={9} cmdP="13 vs. trip" feats={[["Skill Focus"," (Perception)"]]} skills={{"per":{"b":4},"stl":{"b":15},"swim":{"b":11}}} />
+<Ecology env="temperate coast or forest" org="solitary, pair, or nest (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Donkey rats are brown or snowy white rodents the size of small dogs, with long legs and short, furry tails. These statistics can also be used for capybaras.</p>
@@ -300,11 +301,11 @@ const _familiar_donkey_rat = {title: "Donkey Rat (Familiar)", jsx: <><Header ful
 const _familiar_dwarf_caiman = {title: "Dwarf Caiman (Familiar)", jsx: <><p><em>This lithe, green-scaled reptile looks like a miniature crocodile with a stunted muzzle.</em></p>
 <Header full><span>Dwarf Caiman</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_dwarf_caiman--info" source={[["Ultimate Wilderness",195],["Pathfinder #55: The Wormwood Mutiny",88]]} xp="135" n small animal init={0} llv pcp={0} />
-<Defense id="monster-familiar_dwarf_caiman--defense" ac={[14,11,14]} mod="+3 natural, +1 size" hp={[6,"1d8+2"]} fort="+4" ref="+2" will="+0" />
-<Offense id="monster-familiar_dwarf_caiman--offense" sp={10} sw={30} spExtra="sprint" melee="bite +1 (1d4)" />
-<Stats id="monster-familiar_dwarf_caiman--stats" atts={[10,11,15,1,11,2]} bab={0} cmb={-1} cmd={9} cmdP="13 vs. trip" feats={[["Skill Focus"," (Stealth)"]]} skills={{"stl":{"b":11,"x":"+19 in water"},"swim":{"b":8}}} racial="+8 Stealth in water" />
-<Ecology id="monster-familiar_dwarf_caiman--eco-eco" env="warm swamps and rivers" org="solitary, pair, or bask (3-12)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",195],["Pathfinder #55: The Wormwood Mutiny",88]]} xp="135" n small animal init={0} llv pcp={0} />
+<Defense ac={[14,11,14]} mod="+3 natural, +1 size" hp={[6,"1d8+2"]} fort="+4" ref="+2" will="+0" />
+<Offense sp={10} sw={30} spExtra="sprint" melee="bite +1 (1d4)" />
+<Stats atts={[10,11,15,1,11,2]} bab={0} cmb={-1} cmd={9} cmdP="13 vs. trip" feats={[["Skill Focus"," (Stealth)"]]} skills={{"stl":{"b":11,"x":"+19 in water"},"swim":{"b":8}}} racial="+8 Stealth in water" />
+<Ecology env="warm swamps and rivers" org="solitary, pair, or bask (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Sprint (Ex)</strong> Once per minute, a dwarf caiman can sprint, increasing its base speed to 30 feet for 1 round.</p>
@@ -315,11 +316,11 @@ const _familiar_dwarf_caiman = {title: "Dwarf Caiman (Familiar)", jsx: <><p><em>
 const _familiar_dweomer_cap = {title: "Dweomer Cap (Familiar)", jsx: <><p><em>Undulating patterns of purple and orange luminescence play across this strange mushroom's gills.</em></p>
 <Header full><span>Dweomer Cap</span><span>CR 1/8</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_dweomer_cap--info" source={[["Ultimate Wilderness",195]]} xp="50" n tiny plant init={-1} dv={60} llv pcp={1} />
-<Defense id="monster-familiar_dweomer_cap--defense" ac={[11,11,11]} mod="-1 Dex, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="-1" will="+1; +2 vs. spells and spell-like abilities" def={[["arcanophage","arcanophage"]]} immune={<Link to="/umr/plant_traits">plant traits</Link>} />
-<Offense id="monster-familiar_dweomer_cap--offense" sp={5} cl={5} space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_dweomer_cap--stats" atts={[1,8,12,0,12,2]} bab={0} cmb={-3} cmd={2} cmdP="can't be tripped" skills={{"climb":{"b":7}}} sq="aura luminescence" />
-<Ecology id="monster-familiar_dweomer_cap--eco-eco" env="any underground" org="solitary, pair, or patch (3-5)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",195]]} xp="50" n tiny plant init={-1} dv={60} llv pcp={1} />
+<Defense ac={[11,11,11]} mod="-1 Dex, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="-1" will="+1; +2 vs. spells and spell-like abilities" def={[["arcanophage","arcanophage"]]} immune={<Link to="/umr/plant_traits">plant traits</Link>} />
+<Offense sp={5} cl={5} space={"2-1/2"} reach={"0"} />
+<Stats atts={[1,8,12,0,12,2]} bab={0} cmb={-3} cmd={2} cmdP="can't be tripped" skills={{"climb":{"b":7}}} sq="aura luminescence" />
+<Ecology env="any underground" org="solitary, pair, or patch (3-5)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Arcanophage (Su)</strong> When a dweomer cap succeeds at a saving throw against a spell, but not a spell-like ability, it gains <Link to="/umr/fast_healing">fast healing</Link> 1 for a number of rounds equal to the spell's level.</p>
@@ -332,11 +333,11 @@ const _familiar_dweomer_cap = {title: "Dweomer Cap (Familiar)", jsx: <><p><em>Un
 const _familiar_fire_salamander = {title: "Fire Salamander (Familiar)", jsx: <><p><em>Yellow spots and stripes run from this amphibian's wide snout to the tip of its tail.</em></p>
 <Header full><span>Fire Salamander</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_fire_salamander--info" source={[["Ultimate Wilderness",196]]} xp="135" n diminutive animal init={2} llv scent pcp={-1} />
-<Defense id="monster-familiar_fire_salamander--defense" ac={[16,16,14]} mod="+2 Dex, +4 size" hp={[3,"1d8-1"]} fort="+1" ref="+4" will="-1" def={[["skin secretions","skin secretions"]]} />
-<Offense id="monster-familiar_fire_salamander--offense" sp={10} sw={20} melee="bite +6 (1d2-4)" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_fire_salamander--stats" atts={[2,14,8,1,8,6]} bab={0} cmb={-2} cmd={4} cmdP="8 vs. trip" feats={["Weapon Finesse"]} skills={{"ea":{"b":6},"stl":{"b":18},"swim":{"b":10}}} racial="+4 Escape Artist" />
-<Ecology id="monster-familiar_fire_salamander--eco-eco" env="temperate forests" org="solitary, pair, or congress (3-10)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",196]]} xp="135" n diminutive animal init={2} llv scent pcp={-1} />
+<Defense ac={[16,16,14]} mod="+2 Dex, +4 size" hp={[3,"1d8-1"]} fort="+1" ref="+4" will="-1" def={[["skin secretions","skin secretions"]]} />
+<Offense sp={10} sw={20} melee="bite +6 (1d2-4)" space={"1"} reach={"0"} />
+<Stats atts={[2,14,8,1,8,6]} bab={0} cmb={-2} cmd={4} cmdP="8 vs. trip" feats={["Weapon Finesse"]} skills={{"ea":{"b":6},"stl":{"b":18},"swim":{"b":10}}} racial="+4 Escape Artist" />
+<Ecology env="temperate forests" org="solitary, pair, or congress (3-10)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Skin Secretions (Ex)</strong> A creature that strikes a fire salamander with an unarmed strike or natural weapon exposes itself to the salamander's toxic skin and must immediately succeed at a DC 9 Fortitude save to resist being <Link to="/misc/sickened">sickened</Link> for 1 round. The secretions also make the salamander difficult to grab, giving it a +4 racial bonus on Escape Artist checks. The save DC is Constitution-based.</p>
@@ -348,11 +349,11 @@ const _familiar_fire_salamander = {title: "Fire Salamander (Familiar)", jsx: <><
 const _familiar_flowering_lattice = {title: "Flowering Lattice (Familiar)", jsx: <><p><em>This scuttling patchwork plant features flowers of many different shapes and colors.</em></p>
 <Header full><span>Flowering Lattice</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_flowering_lattice--info" source={[["Ultimate Wilderness",196]]} xp="65" n diminutive plant init={1} llv pcp={1} />
-<Defense id="monster-familiar_flowering_lattice--defense" ac={[15,15,14]} mod="+1 Dex, +4 size" hp={[3,"1d8-1"]} fort="+1" ref="+1" will="+1" immune={<Link to="/umr/plant_traits">plant traits</Link>} />
-<Offense id="monster-familiar_flowering_lattice--offense" sp={5} cl={5} space={"1"} reach={"0"} specAtt={[["pollen","pollen"]]} />
-<Stats id="monster-familiar_flowering_lattice--stats" atts={[1,13,9,0,12,8]} bab={0} cmb={-3} cmd={2} skills={{"climb":{"b":3}}} sq="bountiful fruits" />
-<Ecology id="monster-familiar_flowering_lattice--eco-eco" env="temperate or warm hills" org="solitary, pair, or bloom (3-5)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",196]]} xp="65" n diminutive plant init={1} llv pcp={1} />
+<Defense ac={[15,15,14]} mod="+1 Dex, +4 size" hp={[3,"1d8-1"]} fort="+1" ref="+1" will="+1" immune={<Link to="/umr/plant_traits">plant traits</Link>} />
+<Offense sp={5} cl={5} space={"1"} reach={"0"} specAtt={[["pollen","pollen"]]} />
+<Stats atts={[1,13,9,0,12,8]} bab={0} cmb={-3} cmd={2} skills={{"climb":{"b":3}}} sq="bountiful fruits" />
+<Ecology env="temperate or warm hills" org="solitary, pair, or bloom (3-5)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Bountiful Fruits (Ex)</strong> Once per week, a flowering lattice produces a handful of small fruits or berries that remain ripe for 1 week. Eating all of the fruit takes 1 minute and affects the eater as if she had consumed a berry affected by <Link to="/spell/goodberry">goodberry</Link>.</p>
@@ -363,11 +364,11 @@ const _familiar_flowering_lattice = {title: "Flowering Lattice (Familiar)", jsx:
 </>};
 const _familiar_flying_fox = {title: "Flying Fox (Familiar)", jsx: <><Header full><span>Flying Fox</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_flying_fox--info" source={[["Bestiary 5",112]]} xp="135" n tiny animal init={1} llv scent pcp={9} />
-<Defense id="monster-familiar_flying_fox--defense" ac={[13,13,12]} mod="+1 Dex, +2 size" hp={[5,"1d8"]} fort="+3" ref="+3" will="+2; +4 vs. disease" />
-<Offense id="monster-familiar_flying_fox--offense" sp={10} fl={60} flP="average" melee="bite +1 (1d3-1)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_flying_fox--stats" atts={[9,13,12,2,14,5]} bab={0} cmb={-1} cmd={8} feats={[["Skill Focus"," (Perception)"]]} skills={{"fly":{"b":5},"per":{"b":9}}} />
-<Ecology id="monster-familiar_flying_fox--eco-eco" env="warm forests" org="solitary, pair, or colony (10-100)" treasure={{"X":false}} />
+<Info source={[["Bestiary 5",112]]} xp="135" n tiny animal init={1} llv scent pcp={9} />
+<Defense ac={[13,13,12]} mod="+1 Dex, +2 size" hp={[5,"1d8"]} fort="+3" ref="+3" will="+2; +4 vs. disease" />
+<Offense sp={10} fl={60} flP="average" melee="bite +1 (1d3-1)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[9,13,12,2,14,5]} bab={0} cmb={-1} cmd={8} feats={[["Skill Focus"," (Perception)"]]} skills={{"fly":{"b":5},"per":{"b":9}}} />
+<Ecology env="warm forests" org="solitary, pair, or colony (10-100)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>These large bats are herbivorous and lack the echolocation abilities of their smaller kin, but are resistant to disease.</p>
@@ -375,12 +376,12 @@ const _familiar_flying_fox = {title: "Flying Fox (Familiar)", jsx: <><Header ful
 </>};
 const _familiar_flying_squirrel = {title: "Flying Squirrel (Familiar)", jsx: <><Header full><span>Flying Squirrel</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_flying_squirrel--info" source={[["Bestiary 3",112]]} xp="135" n tiny animal init={2} llv pcp={1} />
-<Defense id="monster-familiar_flying_squirrel--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+4" will="+1" />
-<Offense id="monster-familiar_flying_squirrel--offense" sp={20} fl={40} flP="clumsy" melee="bite +4 (1d3-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_flying_squirrel--stats" atts={[3,15,8,1,12,6]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={[["Acrobatic",<sup>B</sup>],"Weapon Finesse"]} skills={{"acro":{"b":16,"x":"+12 when jumping"},"climb":{"b":10}}} racial="+12 Acrobatics, +8 Climb" sq="glide" />
+<Info source={[["Bestiary 3",112]]} xp="135" n tiny animal init={2} llv pcp={1} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+4" will="+1" />
+<Offense sp={20} fl={40} flP="clumsy" melee="bite +4 (1d3-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[3,15,8,1,12,6]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={[["Acrobatic",<sup>B</sup>],"Weapon Finesse"]} skills={{"acro":{"b":16,"x":"+12 when jumping"},"climb":{"b":10}}} racial="+12 Acrobatics, +8 Climb" sq="glide" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-familiar_flying_squirrel--eco-eco" env="temperate forests" org="solitary or pair" treasure={{"X":false}} />
+<Ecology env="temperate forests" org="solitary or pair" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Glide (Ex)</strong> A flying squirrel cannot use its fly speed to hover. When flying, a flying squirrel must end its movement at least 5 feet lower in elevation than where it started.</p>
@@ -390,11 +391,11 @@ const _familiar_flying_squirrel = {title: "Flying Squirrel (Familiar)", jsx: <><
 </>};
 const _familiar_fox = {title: "Fox (Familiar)", jsx: <><Header full><span>Fox</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_fox--info" source={[["Bestiary 3",112],["Ultimate Magic",117]]} xp="100" n tiny animal init={2} llv scent pcp={8} />
-<Defense id="monster-familiar_fox--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+4" will="+1" />
-<Offense id="monster-familiar_fox--offense" sp={40} melee="bite +1 (1d3-1)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_fox--stats" atts={[9,15,13,2,12,6]} bab={0} cmb={0} cmd={9} cmdP="13 vs. trip" feats={[["Skill Focus"," (Perception)"]]} skills={{"acro":{"b":2,"x":"+10 when jumping"},"per":{"b":8}}} racial="+4 Acrobatics when jumping, +4 Survival when tracking by scent" />
-<Ecology id="monster-familiar_fox--eco-eco" env="any" org="solitary, pair, or skulk (3-12)" treasure={{"X":false}} />
+<Info source={[["Bestiary 3",112],["Ultimate Magic",117]]} xp="100" n tiny animal init={2} llv scent pcp={8} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+4" will="+1" />
+<Offense sp={40} melee="bite +1 (1d3-1)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[9,15,13,2,12,6]} bab={0} cmb={0} cmd={9} cmdP="13 vs. trip" feats={[["Skill Focus"," (Perception)"]]} skills={{"acro":{"b":2,"x":"+10 when jumping"},"per":{"b":8}}} racial="+4 Acrobatics when jumping, +4 Survival when tracking by scent" />
+<Ecology env="any" org="solitary, pair, or skulk (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>This cunning yet wary animal pounces on live prey.</p>
@@ -403,11 +404,11 @@ const _familiar_fox = {title: "Fox (Familiar)", jsx: <><Header full><span>Fox</s
 const _familiar_giant_isopod = {title: "Giant Isopod (Familiar)", jsx: <><p><em>This many-legged crustacean is the size of a sewer rat, its body protected by several thick shell-like plates.</em></p>
 <Header full><span>Giant Isopod</span><span>CR 1/8</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_giant_isopod--info" source={[["Ultimate Wilderness",198],["Pathfinder #55: The Wormwood Mutiny",89]]} xp="50" n tiny vermin subs={["aquatic"]} init={-1} dv={60} llv pcp={0} />
-<Defense id="monster-familiar_giant_isopod--defense" ac={[14,11,14]} mod="-1 Dex, +3 natural, +2 size" hp={[6,"1d8+2"]} fort="+4" ref="-1" will="+0" def={[["curl","curl"]]} immune="mind-affecting effects" />
-<Offense id="monster-familiar_giant_isopod--offense" sp={20} sw={10} melee="bite -1 (1d3-3)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_giant_isopod--stats" atts={[5,9,14,0,11,2]} bab={0} cmb={-3} cmd={4} cmdP="can't be tripped" skills={{"swim":{"b":5}}} />
-<Ecology id="monster-familiar_giant_isopod--eco-eco" env="any ocean" org="solitary, pair, or scuttle (3-20)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",198],["Pathfinder #55: The Wormwood Mutiny",89]]} xp="50" n tiny vermin subs={["aquatic"]} init={-1} dv={60} llv pcp={0} />
+<Defense ac={[14,11,14]} mod="-1 Dex, +3 natural, +2 size" hp={[6,"1d8+2"]} fort="+4" ref="-1" will="+0" def={[["curl","curl"]]} immune="mind-affecting effects" />
+<Offense sp={20} sw={10} melee="bite -1 (1d3-3)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[5,9,14,0,11,2]} bab={0} cmb={-3} cmd={4} cmdP="can't be tripped" skills={{"swim":{"b":5}}} />
+<Ecology env="any ocean" org="solitary, pair, or scuttle (3-20)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Curl (Ex)</strong> As a standard action, a giant isopod can curl into a ball, increasing its natural armor bonus by +2 but preventing it from taking any move actions. Uncurling is also a standard action.</p>
@@ -418,11 +419,11 @@ const _familiar_giant_isopod = {title: "Giant Isopod (Familiar)", jsx: <><p><em>
 const _familiar_giant_tardigrade = {title: "Giant Tardigrade (Familiar)", jsx: <><p><em>This strange eight-legged creature looks vaguely like an insectile bear as it swims through the water.</em></p>
 <Header full><span>Giant Tardigrade</span><span>CR 1/8</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_giant_tardigrade--info" source={[["Ultimate Wilderness",208]]} xp="50" n diminutive vermin subs={["aquatic"]} init={1} dv={60} pcp={0} />
-<Defense id="monster-familiar_giant_tardigrade--defense" ac={[16,15,15]} mod="+1 Dex, +1 natural, +4 size" hp={[7,"1d8+3"]} fort="+5" ref="+1" will="+0" def={[["hardy","hardy"]]} immune="mind-affecting effects" resist="acid 2, cold 2, fire 2" />
-<Offense id="monster-familiar_giant_tardigrade--offense" sp={20} cl={20} sw={20} melee="bite +0 (1d2-4)" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_giant_tardigrade--stats" atts={[2,12,17,0,10,2]} bab={0} cmb={-3} cmd={3} cmdP="15 vs. trip" skills={{"climb":{"b":9}}} sq={<Link to="/umr/amphibious">amphibious</Link>} />
-<Ecology id="monster-familiar_giant_tardigrade--eco-eco" env="any" org="solitary, pair, or colony (3-20)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",208]]} xp="50" n diminutive vermin subs={["aquatic"]} init={1} dv={60} pcp={0} />
+<Defense ac={[16,15,15]} mod="+1 Dex, +1 natural, +4 size" hp={[7,"1d8+3"]} fort="+5" ref="+1" will="+0" def={[["hardy","hardy"]]} immune="mind-affecting effects" resist="acid 2, cold 2, fire 2" />
+<Offense sp={20} cl={20} sw={20} melee="bite +0 (1d2-4)" space={"1"} reach={"0"} />
+<Stats atts={[2,12,17,0,10,2]} bab={0} cmb={-3} cmd={3} cmdP="15 vs. trip" skills={{"climb":{"b":9}}} sq={<Link to="/umr/amphibious">amphibious</Link>} />
+<Ecology env="any" org="solitary, pair, or colony (3-20)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Hardy (Ex)</strong> A giant tardigrade is able to endure extreme conditions for extended periods of time. It is unharmed by extreme cold, extreme heat, and less extreme temperatures. It takes no damage from decompression (such as in the vacuum of space) or high-pressure environments (such as in extremely deep water).</p>
@@ -432,11 +433,11 @@ const _familiar_giant_tardigrade = {title: "Giant Tardigrade (Familiar)", jsx: <
 </>};
 const _familiar_goat = {title: "Goat (Familiar)", jsx: <><Header full><span>Goat</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_goat--info" source={[["Bestiary 3",112],["Ultimate Magic",118]]} xp="135" n small animal init={1} llv pcp={0} />
-<Defense id="monster-familiar_goat--defense" ac={[13,12,12]} mod="+1 Dex, +1 natural, +1 size" hp={[5,"1d8+1"]} fort="+3" ref="+3" will="+0" />
-<Offense id="monster-familiar_goat--offense" sp={30} melee="gore +2 (1d4+1)" />
-<Stats id="monster-familiar_goat--stats" atts={[12,13,12,2,11,5]} bab={0} cmb={0} cmd={11} cmdP="15 vs. trip" feats={["Nimble Moves"]} skills={{"acro":{"b":1,"x":"+5 when jumping"},"climb":{"b":5},"sur":{"b":0,"x":"+4 to find food"}}} racial="+4 Acrobatics when jumping, +4 Survival to find food" />
-<Ecology id="monster-familiar_goat--eco-eco" env="any" org="solitary, pair, or herd (3-12)" treasure={{"X":false}} />
+<Info source={[["Bestiary 3",112],["Ultimate Magic",118]]} xp="135" n small animal init={1} llv pcp={0} />
+<Defense ac={[13,12,12]} mod="+1 Dex, +1 natural, +1 size" hp={[5,"1d8+1"]} fort="+3" ref="+3" will="+0" />
+<Offense sp={30} melee="gore +2 (1d4+1)" />
+<Stats atts={[12,13,12,2,11,5]} bab={0} cmb={0} cmd={11} cmdP="15 vs. trip" feats={["Nimble Moves"]} skills={{"acro":{"b":1,"x":"+5 when jumping"},"climb":{"b":5},"sur":{"b":0,"x":"+4 to find food"}}} racial="+4 Acrobatics when jumping, +4 Survival to find food" />
+<Ecology env="any" org="solitary, pair, or herd (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Goats are often ill-tempered and stubborn, but they have an uncanny knack for finding food in the strangest of places and can digest almost anything.</p>
@@ -444,11 +445,11 @@ const _familiar_goat = {title: "Goat (Familiar)", jsx: <><Header full><span>Goat
 </>};
 const _familiar_hawk = {title: "Hawk (Familiar)", jsx: <><Header full><span>Hawk</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_hawk--info" source={[["Pathfinder RPG Bestiary",131]]} xp="135" n tiny animal init={3} llv pcp={14} />
-<Defense id="monster-familiar_hawk--defense" ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="+2" />
-<Offense id="monster-familiar_hawk--offense" sp={10} fl={60} flP="average" melee="2 talons +5 (1d4-2)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_hawk--stats" atts={[6,17,11,2,14,7]} bab={0} cmb={1} cmd={9} feats={["Weapon Finesse"]} skills={{"fly":{"b":7},"per":{"b":14}}} racial="+8 Perception" />
-<Ecology id="monster-familiar_hawk--eco-eco" env="temperate forests" org="solitary or pair" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",131]]} xp="135" n tiny animal init={3} llv pcp={14} />
+<Defense ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="+2" />
+<Offense sp={10} fl={60} flP="average" melee="2 talons +5 (1d4-2)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[6,17,11,2,14,7]} bab={0} cmb={1} cmd={9} feats={["Weapon Finesse"]} skills={{"fly":{"b":7},"per":{"b":14}}} racial="+8 Perception" />
+<Ecology env="temperate forests" org="solitary or pair" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Falconers prize these majestic birds as trained hunting companions if raised from chicks and properly instructed.</p>
@@ -456,11 +457,11 @@ const _familiar_hawk = {title: "Hawk (Familiar)", jsx: <><Header full><span>Hawk
 </>};
 const _familiar_hedgehog = {title: "Hedgehog (Familiar)", jsx: <><Header full><span>Hedgehog</span><span>CR 1/8</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_hedgehog--info" source={[["Ultimate Magic",119]]} xp="50" n diminutive animal init={3} llv pcp={1} />
-<Defense id="monster-familiar_hedgehog--defense" ac={[18,17,15]} mod="+3 Dex, +1 natural, +4 size" hp={[2,"1d8-2"]} fort="+0" ref="+5" will="+1" />
-<Offense id="monster-familiar_hedgehog--offense" sp={20} space={"1"} reach={"0"} />
-<Stats id="monster-familiar_hedgehog--stats" atts={[1,16,6,2,12,7]} bab={0} cmb={-1} cmd={4} cmdP="8 vs. trip" feats={["Athletic"]} skills={{"climb":{"b":5}}} />
-<Ecology id="monster-familiar_hedgehog--eco-eco" env="tropical or temperate forests" org="solitary or pair" treasure={{"X":false}} />
+<Info source={[["Ultimate Magic",119]]} xp="50" n diminutive animal init={3} llv pcp={1} />
+<Defense ac={[18,17,15]} mod="+3 Dex, +1 natural, +4 size" hp={[2,"1d8-2"]} fort="+0" ref="+5" will="+1" />
+<Offense sp={20} space={"1"} reach={"0"} />
+<Stats atts={[1,16,6,2,12,7]} bab={0} cmb={-1} cmd={4} cmdP="8 vs. trip" feats={["Athletic"]} skills={{"climb":{"b":5}}} />
+<Ecology env="tropical or temperate forests" org="solitary or pair" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Spiny Defense (Ex)</strong> As a move action, a hedgehog can roll itself up into a spiny ball. While rolled up, it gains a +1 enhancement bonus to its existing natural armor, and any creature attempting to <Link to="/rule/grapple">grapple</Link> the hedgehog takes 1d3 damage on making a grapple check. While rolled up, a hedgehog cannot take any action other than leaving this state. The hedgehog can leave this state as a move action.</p>
@@ -471,11 +472,11 @@ const _familiar_hedgehog = {title: "Hedgehog (Familiar)", jsx: <><Header full><s
 const _familiar_horned_lizard = {title: "Horned Lizard (Familiar)", jsx: <><p><em>The blunt snout of this lizard bears bony horns, and its flat, round body is adorned with many spines.</em></p>
 <Header full><span>Horned Lizard</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_horned_lizard--info" source={[["Ultimate Wilderness",197]]} xp="65" n diminutive animal init={1} llv scent pcp={0} />
-<Defense id="monster-familiar_horned_lizard--defense" ac={[16,15,15]} mod="+1 Dex, +1 natural, +4 size" hp={[3,"1d8-1"]} fort="+1" ref="+3" will="+0" />
-<Offense id="monster-familiar_horned_lizard--offense" sp={20} melee="bite -1 (1d2-5)" ranged="blood squirt +5 touch (special)" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_horned_lizard--stats" atts={[1,12,8,1,10,3]} bab={0} cmb={-3} cmd={2} cmdP="6 vs. trip" feats={["Run"]} skills={{"stl":{"b":17}}} sq="camouflage, puff up" />
-<Ecology id="monster-familiar_horned_lizard--eco-eco" env="warm desert" org="solitary, pair, or flock (3-12)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",197]]} xp="65" n diminutive animal init={1} llv scent pcp={0} />
+<Defense ac={[16,15,15]} mod="+1 Dex, +1 natural, +4 size" hp={[3,"1d8-1"]} fort="+1" ref="+3" will="+0" />
+<Offense sp={20} melee="bite -1 (1d2-5)" ranged="blood squirt +5 touch (special)" space={"1"} reach={"0"} />
+<Stats atts={[1,12,8,1,10,3]} bab={0} cmb={-3} cmd={2} cmdP="6 vs. trip" feats={["Run"]} skills={{"stl":{"b":17}}} sq="camouflage, puff up" />
+<Ecology env="warm desert" org="solitary, pair, or flock (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Blood Squirt (Ex)</strong> Once per day as a standard action that doesn't provoke attacks of opportunity, a horned lizard can squirt a 5-foot-long stream of blood from the corners of its eyes. The animal's blood contains noxious chemicals, and a creature hit by the blood must succeed at a DC 9 Fortitude save or be <Link to="/misc/sickened">sickened</Link> for 1d4 rounds. The save DC is Constitution-based.</p>
@@ -487,26 +488,27 @@ const _familiar_horned_lizard = {title: "Horned Lizard (Familiar)", jsx: <><p><e
 </>};
 const _familiar_house_centipede = {title: "House Centipede (Familiar)", jsx: <><Header full><span>House Centipede</span><span>CR 1/8</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_house_centipede--info" source={[["Ultimate Magic",119]]} xp="50" n tiny vermin init={3} dv={60} pcp={4} />
-<Defense id="monster-familiar_house_centipede--defense" ac={[17,15,14]} mod="+3 Dex, +2 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+3" will="+0" immune="mind-affecting effects" />
-<Offense id="monster-familiar_house_centipede--offense" sp={40} cl={40} melee="bite +5 (1d3-5 plus poison)" space={"2-1/2"} reach={"0"} specAtt={[["poison","poison"]]} />
-<Stats id="monster-familiar_house_centipede--stats" atts={[1,17,10,0,10,2]} bab={0} cmb={1} cmd={6} cmdP="can't be tripped" feats={["Weapon Finesse"]} skills={{"climb":{"b":11},"per":{"b":4},"stl":{"b":19}}} racial="+4 Perception, +8 Stealth" />
-<Ecology id="monster-familiar_house_centipede--eco-eco" env="temperate or warm forest or underground" org="solitary, pair, or colony (3-6)" treasure={{"X":false}} />
+<Info source={[["Ultimate Magic",119]]} xp="50" n tiny vermin init={3} dv={60} pcp={4} />
+<Defense ac={[17,15,14]} mod="+3 Dex, +2 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+3" will="+0" immune="mind-affecting effects" />
+<Offense sp={40} cl={40} melee="bite +5 (1d3-5 plus poison)" space={"2-1/2"} reach={"0"} specAtt={[["poison","poison"]]} />
+<Stats atts={[1,17,10,0,10,2]} bab={0} cmb={1} cmd={6} cmdP="can't be tripped" feats={["Weapon Finesse"]} skills={{"climb":{"b":11},"per":{"b":4},"stl":{"b":19}}} racial="+4 Perception, +8 Stealth" />
+<Ecology env="temperate or warm forest or underground" org="solitary, pair, or colony (3-6)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-familiar_house_centipede--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 2 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}><Link to="/misc/dazed">dazed</Link> 1 round</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><Header sub>Description</Header>
+<AffInfo type="Bite-injury" save="Fort 10" freq="1/round for 2 rounds" eff={<><Link to="/misc/dazed">dazed</Link> 1 round</>} cure1 icon="p" />
+<Header sub>Description</Header>
 <p>Multi-legged house centipedes can be found almost anywhere, and can have from 20 to more than 300 legs. Their bites are poisonous, and can daze the unwary.</p>
 <p><strong>Family:</strong> <Link to="/family/familiar">Familiar</Link></p>
 </>};
 const _familiar_ioun_wyrd = {title: "Ioun Wyrd (Familiar)", jsx: <><p><em>This strange creature appears as a floating swarm of gemstones surrounding a larger stone that pulses with dim light.</em></p>
 <Header full><span>Ioun Wyrd</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_ioun_wyrd--info" source={[["Ultimate Wilderness",197],["Familiar Folio",30]]} xp="135" n tiny construct init={2} blindsight={30} pcp={2} />
-<Defense id="monster-familiar_ioun_wyrd--defense" ac={[15,15,12]} mod="+2 Dex, +1 dodge, +2 size" hp={[5,"1d10"]} fort="+0" ref="+2" will="+2" immune={<Link to="/umr/construct_traits">construct traits</Link>} />
-<Offense id="monster-familiar_ioun_wyrd--offense" fl={30} flP="average" melee="slam +0 (1d4-3)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_ioun_wyrd--stats" atts={[4,15,0,3,14,5]} bab={1} cmb={1} cmd={9} feats={["Dodge"]} skills={{"fly":{"b":10}}} lang={["CX"]} sq="ioun affinity, share iouns" />
-<Ecology id="monster-familiar_ioun_wyrd--eco-eco" env="any" org="solitary" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",197],["Familiar Folio",30]]} xp="135" n tiny construct init={2} blindsight={30} pcp={2} />
+<Defense ac={[15,15,12]} mod="+2 Dex, +1 dodge, +2 size" hp={[5,"1d10"]} fort="+0" ref="+2" will="+2" immune={<Link to="/umr/construct_traits">construct traits</Link>} />
+<Offense fl={30} flP="average" melee="slam +0 (1d4-3)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[4,15,0,3,14,5]} bab={1} cmb={1} cmd={9} feats={["Dodge"]} skills={{"fly":{"b":10}}} lang={["CX"]} sq="ioun affinity, share iouns" />
+<Ecology env="any" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Ioun Affinity (Su)</strong> An ioun wyrd can integrate a number of <Link to="/magic-wondrous/ioun_stone">ioun stones</Link> into its body equal to 1 + half its Hit Dice. Because an ioun wyrd sees all ioun stones as equal and gains no benefits from them, the wyrd's ioun stones can be swapped out by any creature the wyrd trusts.</p>
@@ -523,11 +525,11 @@ const _familiar_ioun_wyrd = {title: "Ioun Wyrd (Familiar)", jsx: <><p><em>This s
 const _familiar_jerboa = {title: "Jerboa (Familiar)", jsx: <><p><em>This small, sand-colored rodent has long hind legs and large ears. Its tufted tail is longer than the animal itself.</em></p>
 <Header full><span>Jerboa</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_jerboa--info" source={[["Ultimate Wilderness",198]]} xp="65" n diminutive animal init={7} llv scent pcp={6} />
-<Defense id="monster-familiar_jerboa--defense" ac={[17,17,14]} mod="+3 Dex, +4 size" hp={[3,"1d8-1"]} fort="+1" ref="+5" will="+2" />
-<Offense id="monster-familiar_jerboa--offense" sp={20} melee="bite -1 (1d2-5)" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_jerboa--stats" atts={[1,16,8,2,15,3]} bab={0} cmb={-1} cmd={4} feats={["Improved Initiative"]} skills={{"acro":{"b":11},"per":{"b":6}}} racial="+4 Acrobatics, +4 Perception" />
-<Ecology id="monster-familiar_jerboa--eco-eco" env="warm deserts" org="solitary, pair, or burrow (3-8)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",198]]} xp="65" n diminutive animal init={7} llv scent pcp={6} />
+<Defense ac={[17,17,14]} mod="+3 Dex, +4 size" hp={[3,"1d8-1"]} fort="+1" ref="+5" will="+2" />
+<Offense sp={20} melee="bite -1 (1d2-5)" space={"1"} reach={"0"} />
+<Stats atts={[1,16,8,2,15,3]} bab={0} cmb={-1} cmd={4} feats={["Improved Initiative"]} skills={{"acro":{"b":11},"per":{"b":6}}} racial="+4 Acrobatics, +4 Perception" />
+<Ecology env="warm deserts" org="solitary, pair, or burrow (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Jerboas are desert rodents that live in burrows and hop around on long, thin legs. At night, they emerge from their burrows to eat plants and hunt insects under the light of the moon. Jerboas generally live to be around 6 years old.</p>
@@ -537,11 +539,11 @@ const _familiar_jerboa = {title: "Jerboa (Familiar)", jsx: <><p><em>This small, 
 const _familiar_kakapo = {title: "Kakapo (Familiar)", jsx: <><p><em>This rotund parrot has vibrant green-and-black feathers, a short hooked beak, and an array of white whiskers.</em></p>
 <Header full><span>Kakapo</span><span>CR 1/8</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_kakapo--info" source={[["Ultimate Wilderness",198],["Familiar Folio",24]]} xp="50" n tiny animal init={1} llv pcp={3} />
-<Defense id="monster-familiar_kakapo--defense" ac={[13,13,12]} mod="+1 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="-1" />
-<Offense id="monster-familiar_kakapo--offense" sp={30} cl={10} spExtra="glide" melee="bite -2 (1d3-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_kakapo--stats" atts={[3,13,10,2,8,12]} bab={0} cmb={-1} cmd={5} feats={["Lightning Reflexes"]} skills={{"climb":{"b":4},"per":{"b":3}}} />
-<Ecology id="monster-familiar_kakapo--eco-eco" env="warm jungles" org="solitary, pair, or family (3-4)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",198],["Familiar Folio",24]]} xp="50" n tiny animal init={1} llv pcp={3} />
+<Defense ac={[13,13,12]} mod="+1 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="-1" />
+<Offense sp={30} cl={10} spExtra="glide" melee="bite -2 (1d3-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[3,13,10,2,8,12]} bab={0} cmb={-1} cmd={5} feats={["Lightning Reflexes"]} skills={{"climb":{"b":4},"per":{"b":3}}} />
+<Ecology env="warm jungles" org="solitary, pair, or family (3-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Glide (Ex)</strong> Though it cannot fly, a kakapo can spread its wings midfall to glide safely to the ground without taking damage. For every 10 feet it falls, a kakapo can move 5 feet horizontally in midair. For instance, a kakapo falling a vertical distance of 20 feet can move 10 feet horizontally.</p>
@@ -552,11 +554,11 @@ const _familiar_kakapo = {title: "Kakapo (Familiar)", jsx: <><p><em>This rotund 
 </>};
 const _familiar_king_crab = {title: "King Crab (Familiar)", jsx: <><Header full><span>King Crab</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_king_crab--info" source={[["Ultimate Magic",119]]} xp="100" n tiny vermin subs={["aquatic"]} init={2} dv={60} pcp={4} />
-<Defense id="monster-familiar_king_crab--defense" ac={[18,14,16]} mod="+2 Dex, +4 natural, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+2" will="+0" immune="mind-affecting effects" />
-<Offense id="monster-familiar_king_crab--offense" sp={30} sw={20} melee={<>2 claws +0 (1d2-2 plus <Link to="/umr/grab">grab</Link>)</>} space={"2-1/2"} reach={"0"} constrict="1d2-2" />
-<Stats id="monster-familiar_king_crab--stats" atts={[7,15,12,0,10,2]} bab={0} cmb={0} cmbP="+4 grapple" cmd={8} cmdP="20 vs. trip" skills={{"per":{"b":4},"swim":{"b":10}}} racial="+4 Perception" sq="water dependency" />
-<Ecology id="monster-familiar_king_crab--eco-eco" env="any aquatic" org="solitary or cast (2-12)" treasure={{"X":false}} />
+<Info source={[["Ultimate Magic",119]]} xp="100" n tiny vermin subs={["aquatic"]} init={2} dv={60} pcp={4} />
+<Defense ac={[18,14,16]} mod="+2 Dex, +4 natural, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+2" will="+0" immune="mind-affecting effects" />
+<Offense sp={30} sw={20} melee={<>2 claws +0 (1d2-2 plus <Link to="/umr/grab">grab</Link>)</>} space={"2-1/2"} reach={"0"} constrict="1d2-2" />
+<Stats atts={[7,15,12,0,10,2]} bab={0} cmb={0} cmbP="+4 grapple" cmd={8} cmdP="20 vs. trip" skills={{"per":{"b":4},"swim":{"b":10}}} racial="+4 Perception" sq="water dependency" />
+<Ecology env="any aquatic" org="solitary or cast (2-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Water Dependency (Ex)</strong> Crabs can survive out of the water for 1 hour per point of Constitution. Beyond this limit, a crab runs the risk of suffocation, as if it were <Link to="/rule/drowning">drowning</Link>.</p>
@@ -567,11 +569,11 @@ const _familiar_king_crab = {title: "King Crab (Familiar)", jsx: <><Header full>
 const _familiar_koala = {title: "Koala (Familiar)", jsx: <><p><em>This wide-faced animal looks like a small, plump bear with a flat black nose, small round eyes, and white-tufted ears.</em></p>
 <Header full><span>Koala</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_koala--info" source={[["Ultimate Wilderness",199],["Familiar Folio",26]]} xp="100" n small animal init={0} llv pcp={3} />
-<Defense id="monster-familiar_koala--defense" ac={[11,11,11]} mod="+1 size" hp={[5,"1d8+1"]} fort="+5" ref="+2" will="-1" />
-<Offense id="monster-familiar_koala--offense" sp={20} cl={20} melee="2 claws -1 (1d3-2)" />
-<Stats id="monster-familiar_koala--stats" atts={[6,11,13,2,9,8]} bab={0} cmb={-3} cmd={7} cmdP="11 vs. trip" feats={["Great Fortitude"]} skills={{"climb":{"b":6},"per":{"b":3}}} />
-<Ecology id="monster-familiar_koala--eco-eco" env="temperate and warm forests" org="solitary, pair, or group (3-5)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",199],["Familiar Folio",26]]} xp="100" n small animal init={0} llv pcp={3} />
+<Defense ac={[11,11,11]} mod="+1 size" hp={[5,"1d8+1"]} fort="+5" ref="+2" will="-1" />
+<Offense sp={20} cl={20} melee="2 claws -1 (1d3-2)" />
+<Stats atts={[6,11,13,2,9,8]} bab={0} cmb={-3} cmd={7} cmdP="11 vs. trip" feats={["Great Fortitude"]} skills={{"climb":{"b":6},"per":{"b":3}}} />
+<Ecology env="temperate and warm forests" org="solitary, pair, or group (3-5)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>The koala's cute appearance belies the tree-climbing marsupial's aggressive nature. Koalas subsist solely on the leaves of the eucalyptus tree, which are all but inedible to most other mammals. Because of their highly selective diet, most koalas see little reason to stray from eucalyptus trees at all, so they spend most of their lives hanging on to branches or moving from crook to crook by swinging between boughs. Due to this specialized diet, people who take a koala as a pet or familiar should secure a regular supply of eucalyptus leaves for the animal to eat, particularly if the person plans to go on a long journey in a place where those trees can't be easily found. When a koala walks (usually just to get from tree to tree), it does so on all fours.</p>
@@ -581,11 +583,11 @@ const _familiar_koala = {title: "Koala (Familiar)", jsx: <><p><em>This wide-face
 const _familiar_lamprey = {title: "Lamprey (Familiar)", jsx: <><p><em>This serpentine fish has a horrific circular mouth filled with hook-like teeth.</em></p>
 <Header full><span>Lamprey</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_lamprey--info" source={[["Ultimate Wilderness",199]]} xp="135" n tiny animal subs={["aquatic"]} init={2} llv pcp={1} />
-<Defense id="monster-familiar_lamprey--defense" ac={[15,14,13]} mod="+2 Dex, +1 natural, +2 size" hp={[6,"1d8+2"]} fort="+4" ref="+4" will="+1" />
-<Offense id="monster-familiar_lamprey--offense" sw={30} melee="bite +4 (1d4-3 plus attach)" space={"2-1/2"} reach={"0"} bDrain="1 Str damage" />
-<Stats id="monster-familiar_lamprey--stats" atts={[4,14,14,1,12,2]} bab={0} cmb={0} cmd={7} feats={["Weapon Finesse"]} skills={{"stl":{"b":14},"swim":{"b":5}}} />
-<Ecology id="monster-familiar_lamprey--eco-eco" env="temperate oceans" org="solitary, pair, or school (3-12)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",199]]} xp="135" n tiny animal subs={["aquatic"]} init={2} llv pcp={1} />
+<Defense ac={[15,14,13]} mod="+2 Dex, +1 natural, +2 size" hp={[6,"1d8+2"]} fort="+4" ref="+4" will="+1" />
+<Offense sw={30} melee="bite +4 (1d4-3 plus attach)" space={"2-1/2"} reach={"0"} bDrain="1 Str damage" />
+<Stats atts={[4,14,14,1,12,2]} bab={0} cmb={0} cmd={7} feats={["Weapon Finesse"]} skills={{"stl":{"b":14},"swim":{"b":5}}} />
+<Ecology env="temperate oceans" org="solitary, pair, or school (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>A lamprey is a tiny jawless fish with a funnel-shaped sucking mouth that contains numerous razor-sharp teeth, which it uses to cut through skin and bore into the flesh of its victims to suck their blood. Lampreys are often found on larger fish in the ocean where they are engaged in symbiotic relationships.</p>
@@ -595,11 +597,11 @@ const _familiar_lamprey = {title: "Lamprey (Familiar)", jsx: <><p><em>This serpe
 const _familiar_lemming = {title: "Lemming (Familiar)", jsx: <><p><em>This small, plump rodent has a calico mix of color and a short tail.</em></p>
 <Header full><span>Lemming</span><span>CR 1/8</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_lemming--info" source={[["Ultimate Wilderness",200],["Reign of Winter Player's Guide",10]]} xp="50" n diminutive animal init={1} llv pcp={1} />
-<Defense id="monster-familiar_lemming--defense" ac={[15,15,14]} mod="+1 Dex, +4 size" hp={[2,"1d8-2"]} fort="+2" ref="+3" will="+1" />
-<Offense id="monster-familiar_lemming--offense" sp={15} melee="bite -1 (1d2-5)" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_lemming--stats" atts={[1,12,6,2,13,4]} bab={0} cmb={-3} cmd={2} cmdP="6 vs. trip" feats={["Great Fortitude"]} skills={{"stl":{"b":17}}} />
-<Ecology id="monster-familiar_lemming--eco-eco" env="cold plains" org="solitary, pair, or slice (3-30)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",200],["Reign of Winter Player's Guide",10]]} xp="50" n diminutive animal init={1} llv pcp={1} />
+<Defense ac={[15,15,14]} mod="+1 Dex, +4 size" hp={[2,"1d8-2"]} fort="+2" ref="+3" will="+1" />
+<Offense sp={15} melee="bite -1 (1d2-5)" space={"1"} reach={"0"} />
+<Stats atts={[1,12,6,2,13,4]} bab={0} cmb={-3} cmd={2} cmdP="6 vs. trip" feats={["Great Fortitude"]} skills={{"stl":{"b":17}}} />
+<Ecology env="cold plains" org="solitary, pair, or slice (3-30)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>These herbivores scurry about colder regions chewing on bulbs, grasses, roots, and shoots. They do not hibernate, but they do burrow for shelter and warmth.</p>
@@ -609,11 +611,11 @@ const _familiar_lemming = {title: "Lemming (Familiar)", jsx: <><p><em>This small
 const _familiar_leopard_slug = {title: "Leopard Slug (Familiar)", jsx: <><p><em>This dark-yellow, hand-length slug is covered in a pattern of black spots and stripes.</em></p>
 <Header full><span>Leopard Slug</span><span>CR -</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_leopard_slug--info" source={[["Ultimate Wilderness",200],["Familiar Folio",30]]} xp="0" n diminutive vermin init={-3} dv={60} pcp={-2} />
-<Defense id="monster-familiar_leopard_slug--defense" ac={[11,11,11]} mod="-3 Dex, +4 size" hp={[5,"1d8+1"]} fort="+3" ref="-3" will="-2" immune="mind-affecting effects" />
-<Offense id="monster-familiar_leopard_slug--offense" sp={5} cl={5} space={"1"} reach={"0"} />
-<Stats id="monster-familiar_leopard_slug--stats" atts={[1,4,12,0,7,9]} bab={0} cmb={-7} cmd={-2} cmdP="can't be tripped" skills={{"climb":{"b":3}}} sq={<><Link to="/umr/compression">compression</Link>, slime strand, suction</>} />
-<Ecology id="monster-familiar_leopard_slug--eco-eco" env="temperate forests" org="solitary, pair, or cornucopia (3-12)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",200],["Familiar Folio",30]]} xp="0" n diminutive vermin init={-3} dv={60} pcp={-2} />
+<Defense ac={[11,11,11]} mod="-3 Dex, +4 size" hp={[5,"1d8+1"]} fort="+3" ref="-3" will="-2" immune="mind-affecting effects" />
+<Offense sp={5} cl={5} space={"1"} reach={"0"} />
+<Stats atts={[1,4,12,0,7,9]} bab={0} cmb={-7} cmd={-2} cmdP="can't be tripped" skills={{"climb":{"b":3}}} sq={<><Link to="/umr/compression">compression</Link>, slime strand, suction</>} />
+<Ecology env="temperate forests" org="solitary, pair, or cornucopia (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Slime Strand (Ex)</strong> A leopard slug can turn its mucus into a 30-foot-long strand, much like a spider's silk. It can hang from this strand indefinitely and lower itself safely at a rate of 5 feet per round. It can climb back up the strand at the same rate. Once the slug breaks contact with the strand, the mucus disintegrates in 1d4 rounds.</p>
@@ -625,11 +627,11 @@ const _familiar_leopard_slug = {title: "Leopard Slug (Familiar)", jsx: <><p><em>
 </>};
 const _familiar_lizard = {title: "Lizard (Familiar)", jsx: <><Header full><span>Lizard</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_lizard--info" source={[["Pathfinder RPG Bestiary",131]]} xp="65" n tiny animal init={2} llv pcp={1} />
-<Defense id="monster-familiar_lizard--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+4" will="+1" />
-<Offense id="monster-familiar_lizard--offense" sp={20} cl={20} melee="bite +4 (1d4-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_lizard--stats" atts={[3,15,8,1,12,2]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={["Weapon Finesse"]} skills={{"acro":{"b":10},"climb":{"b":10},"stl":{"b":14}}} racial="+8 Acrobatics" />
-<Ecology id="monster-familiar_lizard--eco-eco" env="any temperate or warm" org="solitary, pair, or nest (3-8)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",131]]} xp="65" n tiny animal init={2} llv pcp={1} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+4" will="+1" />
+<Offense sp={20} cl={20} melee="bite +4 (1d4-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[3,15,8,1,12,2]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={["Weapon Finesse"]} skills={{"acro":{"b":10},"climb":{"b":10},"stl":{"b":14}}} racial="+8 Acrobatics" />
+<Ecology env="any temperate or warm" org="solitary, pair, or nest (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Lizards can be found in any temperate or tropical climate. When confronted with predators, a lizard flees and hides.</p>
@@ -638,11 +640,11 @@ const _familiar_lizard = {title: "Lizard (Familiar)", jsx: <><Header full><span>
 const _familiar_margay_cat = {title: "Margay Cat (Familiar)", jsx: <><p><em>Black rosettes and streaks mark the brown fur of this slender feline.</em></p>
 <Header full><span>Margay Cat</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_margay_cat--info" source={[["Ultimate Wilderness",193]]} xp="100" n tiny animal init={2} llv scent pcp={0} />
-<Defense id="monster-familiar_margay_cat--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+0" />
-<Offense id="monster-familiar_margay_cat--offense" sp={20} cl={20} melee="bite -1 (1d3-3), 2 claws -1 (1d2-3)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_margay_cat--stats" atts={[4,14,10,2,11,9]} bab={0} cmb={0} cmd={7} cmdP="11 vs. trip" feats={[["Skill Focus"," (Climb)"]]} skills={{"bluff":{"b":0,"x":"+4 when mimicking animal sounds"},"climb":{"b":8},"stl":{"b":14}}} racial="+4 Bluff to mimic animal sounds" sq="sound mimicry (animals)" />
-<Ecology id="monster-familiar_margay_cat--eco-eco" env="warm forests" org="solitary or pair" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",193]]} xp="100" n tiny animal init={2} llv scent pcp={0} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+0" />
+<Offense sp={20} cl={20} melee="bite -1 (1d3-3), 2 claws -1 (1d2-3)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[4,14,10,2,11,9]} bab={0} cmb={0} cmd={7} cmdP="11 vs. trip" feats={[["Skill Focus"," (Climb)"]]} skills={{"bluff":{"b":0,"x":"+4 when mimicking animal sounds"},"climb":{"b":8},"stl":{"b":14}}} racial="+4 Bluff to mimic animal sounds" sq="sound mimicry (animals)" />
+<Ecology env="warm forests" org="solitary or pair" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>The margay is a small cat that lives in dense tropical forests, preferring to spend most of its life in the trees. During the day, a margay lounges in liana tangles far above the ground, and at night it chases birds, frogs, lizards, and monkeys through the treetops. A margay can use its sound mimicry ability to imitate the sounds of any animal of its own size or one size category smaller, and it often does so to lure prey into an ambush.</p>
@@ -652,11 +654,11 @@ const _familiar_margay_cat = {title: "Margay Cat (Familiar)", jsx: <><p><em>Blac
 const _familiar_meerkat = {title: "Meerkat (Familiar)", jsx: <><p><em>This curious, sand-colored, weasel-like creature has dark bands around its inquisitive eyes.</em></p>
 <Header full><span>Meerkat</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_meerkat--info" source={[["Ultimate Wilderness",200]]} xp="100" n tiny animal init={2} llv scent pcp={1} />
-<Defense id="monster-familiar_meerkat--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+4" will="+1" immune="scorpion venom" />
-<Offense id="monster-familiar_meerkat--offense" sp={30} br={5} melee="bite +4 (1d3-3)" space={"2-1/2"} reach={"0"} specAtt={[["mob","mob"]]} />
-<Stats id="monster-familiar_meerkat--stats" atts={[5,14,13,2,13,13]} bab={0} cmb={0} cmd={7} cmdP="11 vs. trip" feats={["Weapon Finesse"]} skills={{"stl":{"b":14}}} />
-<Ecology id="monster-familiar_meerkat--eco-eco" env="warm plains" org="solitary, pair, mob (3-16), or clan (17-30)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",200]]} xp="100" n tiny animal init={2} llv scent pcp={1} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+4" will="+1" immune="scorpion venom" />
+<Offense sp={30} br={5} melee="bite +4 (1d3-3)" space={"2-1/2"} reach={"0"} specAtt={[["mob","mob"]]} />
+<Stats atts={[5,14,13,2,13,13]} bab={0} cmb={0} cmd={7} cmdP="11 vs. trip" feats={["Weapon Finesse"]} skills={{"stl":{"b":14}}} />
+<Ecology env="warm plains" org="solitary, pair, mob (3-16), or clan (17-30)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Immunity to Scorpion Venom (Ex)</strong> Meerkats are immune to the poison of all scorpions.</p>
@@ -669,11 +671,11 @@ const _familiar_meerkat = {title: "Meerkat (Familiar)", jsx: <><p><em>This curio
 const _familiar_mole_uw = {title: "Mole (UW) (Familiar)", jsx: <><p><em>This brown rodent has a furry, cylindrical body, a pointed snout, and large, thick paws that end in digging claws.</em></p>
 <Header full><span>Mole (UW)</span><span>CR 1/8</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_mole_uw--info" source={[["Ultimate Wilderness",201]]} xp="50" n diminutive animal init={0} llv tremorsense={15} pcp={0} />
-<Defense id="monster-familiar_mole_uw--defense" ac={[14,14,14]} mod="+4 size" hp={[6,"1d8+2"]} fort="+4" ref="+2" will="+0" />
-<Offense id="monster-familiar_mole_uw--offense" sp={20} br={5} melee="2 claws +0 (1-4)" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_mole_uw--stats" atts={[2,11,14,2,10,7]} bab={0} cmb={-4} cmd={2} cmdP="6 vs. trip" feats={[["Skill Focus"," (Stealth)"]]} skills={{"stl":{"b":19}}} sq={<Link to="/umr/hold_breath">hold breath</Link>} />
-<Ecology id="monster-familiar_mole_uw--eco-eco" env="any land" org="solitary, pair, or labor (3-16)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",201]]} xp="50" n diminutive animal init={0} llv tremorsense={15} pcp={0} />
+<Defense ac={[14,14,14]} mod="+4 size" hp={[6,"1d8+2"]} fort="+4" ref="+2" will="+0" />
+<Offense sp={20} br={5} melee="2 claws +0 (1-4)" space={"1"} reach={"0"} />
+<Stats atts={[2,11,14,2,10,7]} bab={0} cmb={-4} cmd={2} cmdP="6 vs. trip" feats={[["Skill Focus"," (Stealth)"]]} skills={{"stl":{"b":19}}} sq={<Link to="/umr/hold_breath">hold breath</Link>} />
+<Ecology env="any land" org="solitary, pair, or labor (3-16)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Moles are small rodents that live primarily in burrows underground. While many varieties of moles exist, most share common features that include subterranean habitats, poor eyesight, and the ability to dig long distances with their powerful forelimbs.</p>
@@ -684,11 +686,11 @@ const _familiar_mole_uw = {title: "Mole (UW) (Familiar)", jsx: <><p><em>This bro
 const _familiar_mole_ff = {title: "Mole (FF) (Familiar)", jsx: <><p><em>This brown, apparently eyeless rodent has a furry cylindrical body, a pointed snout, and large, thick paws that end in digging claws.</em></p>
 <Header full><span>Mole (FF)</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_mole_ff--info" source={[["Familiar Folio",25]]} xp="65" n tiny animal init={0} llv pcp={7} />
-<Defense id="monster-familiar_mole_ff--defense" ac={[12,12,12]} mod="+2 size" hp={[6,"1d8+2"]} fort="+4" ref="+2" will="+0" />
-<Offense id="monster-familiar_mole_ff--offense" sp={20} br={10} melee="claw -1 (1d2-3)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_mole_ff--stats" atts={[5,11,14,2,10,7]} bab={0} cmb={-2} cmd={5} feats={[["Skill Focus"," (Perception)"]]} skills={{"per":{"b":7}}} sq={<Link to="/umr/hold_breath">hold breath</Link>} />
-<Ecology id="monster-familiar_mole_ff--eco-eco" env="any land" org="solitary, pair, or labor (3-16)" treasure={{"X":false}} />
+<Info source={[["Familiar Folio",25]]} xp="65" n tiny animal init={0} llv pcp={7} />
+<Defense ac={[12,12,12]} mod="+2 size" hp={[6,"1d8+2"]} fort="+4" ref="+2" will="+0" />
+<Offense sp={20} br={10} melee="claw -1 (1d2-3)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[5,11,14,2,10,7]} bab={0} cmb={-2} cmd={5} feats={[["Skill Focus"," (Perception)"]]} skills={{"per":{"b":7}}} sq={<Link to="/umr/hold_breath">hold breath</Link>} />
+<Ecology env="any land" org="solitary, pair, or labor (3-16)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Moles are small rodent mammals that live primarily in burrows underground. While many varieties of moles exist, most share common features that include subterranean habitats, poor eyesight, and the ability to dig long distances with their powerful forelimbs. The typical mole is 6 inches long and weighs less than a pound. These familiars are popular choices with <Link to="/race/ratfolk">ratfolk</Link>.</p>
@@ -703,11 +705,11 @@ const _mole = {title: "Mole", notBookmarkable: true, jsx: <><p>Two seperate vers
 </>};
 const _familiar_monkey = {title: "Monkey (Familiar)", jsx: <><Header full><span>Monkey</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_monkey--info" source={[["Pathfinder RPG Bestiary",132]]} xp="100" n tiny animal init={2} llv pcp={5} />
-<Defense id="monster-familiar_monkey--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+1" />
-<Offense id="monster-familiar_monkey--offense" sp={30} cl={30} melee="bite +4 melee (1d3-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_monkey--stats" atts={[3,15,10,2,12,5]} bab={0} cmb={0} cmd={6} feats={["Weapon Finesse"]} skills={{"acro":{"b":10},"climb":{"b":10},"per":{"b":5}}} racial="+8 Acrobatics" />
-<Ecology id="monster-familiar_monkey--eco-eco" env="warm forests" org="solitary, pair, band (3-9), or troop (10-40)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",132]]} xp="100" n tiny animal init={2} llv pcp={5} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+1" />
+<Offense sp={30} cl={30} melee="bite +4 melee (1d3-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[3,15,10,2,12,5]} bab={0} cmb={0} cmd={6} feats={["Weapon Finesse"]} skills={{"acro":{"b":10},"climb":{"b":10},"per":{"b":5}}} racial="+8 Acrobatics" />
+<Ecology env="warm forests" org="solitary, pair, band (3-9), or troop (10-40)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Monkeys are highly social creatures. They spend the majority of their day searching for food.</p>
@@ -715,11 +717,11 @@ const _familiar_monkey = {title: "Monkey (Familiar)", jsx: <><Header full><span>
 </>};
 const _familiar_otter = {title: "Otter (Familiar)", jsx: <><Header full><span>Otter</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_otter--info" source={[["Bestiary 3",113]]} xp="100" n tiny animal init={3} llv pcp={1} />
-<Defense id="monster-familiar_otter--defense" ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="+1" />
-<Offense id="monster-familiar_otter--offense" sp={20} sw={30} melee="bite +5 (1d3-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_otter--stats" atts={[3,16,10,2,13,5]} bab={0} cmb={1} cmd={7} cmdP="11 vs. trip" feats={["Weapon Finesse"]} skills={{"ea":{"b":4},"swim":{"b":11}}} />
-<Ecology id="monster-familiar_otter--eco-eco" env="any water" org="solitary or family (2-16)" treasure={{"X":false}} />
+<Info source={[["Bestiary 3",113]]} xp="100" n tiny animal init={3} llv pcp={1} />
+<Defense ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="+1" />
+<Offense sp={20} sw={30} melee="bite +5 (1d3-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[3,16,10,2,13,5]} bab={0} cmb={1} cmd={7} cmdP="11 vs. trip" feats={["Weapon Finesse"]} skills={{"ea":{"b":4},"swim":{"b":11}}} />
+<Ecology env="any water" org="solitary or family (2-16)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Otters are curious and playful, and enjoy investigating new objects, sliding down wet rocks, and other simple games.</p>
@@ -727,11 +729,11 @@ const _familiar_otter = {title: "Otter (Familiar)", jsx: <><Header full><span>Ot
 </>};
 const _familiar_owl = {title: "Owl (Familiar)", jsx: <><Header full><span>Owl</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_owl--info" source={[["Pathfinder RPG Bestiary",132]]} xp="135" n tiny animal init={3} llv pcp={10} />
-<Defense id="monster-familiar_owl--defense" ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="+2" />
-<Offense id="monster-familiar_owl--offense" sp={10} fl={60} flP="average" melee="2 talons +5 (1d4-2)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_owl--stats" atts={[6,17,11,2,15,6]} bab={0} cmb={1} cmd={9} feats={["Weapon Finesse"]} skills={{"fly":{"b":7},"per":{"b":10},"stl":{"b":15}}} racial="+4 Perception, +4 Stealth" />
-<Ecology id="monster-familiar_owl--eco-eco" env="temperate forests" org="solitary or pair" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",132]]} xp="135" n tiny animal init={3} llv pcp={10} />
+<Defense ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="+2" />
+<Offense sp={10} fl={60} flP="average" melee="2 talons +5 (1d4-2)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[6,17,11,2,15,6]} bab={0} cmb={1} cmd={9} feats={["Weapon Finesse"]} skills={{"fly":{"b":7},"per":{"b":10},"stl":{"b":15}}} racial="+4 Perception, +4 Stealth" />
+<Ecology env="temperate forests" org="solitary or pair" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Owls are nocturnal, rodent-eating birds that make very little noise in flight.</p>
@@ -740,11 +742,11 @@ const _familiar_owl = {title: "Owl (Familiar)", jsx: <><Header full><span>Owl</s
 const _familiar_peafowl = {title: "Peafowl (Familiar)", jsx: <><p><em>This bird's royal-blue body is upstaged only by the magnificent array of feathers that radiate from its back.</em></p>
 <Header full><span>Peafowl</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_peafowl--info" source={[["Familiar Folio",27],["Ultimate Wilderness",201]]} xp="100" n small animal init={1} llv pcp={-2} />
-<Defense id="monster-familiar_peafowl--defense" ac={[12,12,11]} mod="+1 Dex, +1 size" hp={[4,"1d8"]} fort="+2" ref="+3" will="-2" />
-<Offense id="monster-familiar_peafowl--offense" sp={20} fl={40} flP="clumsy" melee="2 talons +2 (1d3-2)" />
-<Stats id="monster-familiar_peafowl--stats" atts={[7,12,10,1,6,13]} bab={0} cmb={-3} cmd={8} feats={["Weapon Finesse"]} skills={{"fly":{"b":-1}}} sq="drift" />
-<Ecology id="monster-familiar_peafowl--eco-eco" env="temperate or warm forests" org="solitary, pair, or muster (3-10)" treasure={{"X":false}} />
+<Info source={[["Familiar Folio",27],["Ultimate Wilderness",201]]} xp="100" n small animal init={1} llv pcp={-2} />
+<Defense ac={[12,12,11]} mod="+1 Dex, +1 size" hp={[4,"1d8"]} fort="+2" ref="+3" will="-2" />
+<Offense sp={20} fl={40} flP="clumsy" melee="2 talons +2 (1d3-2)" />
+<Stats atts={[7,12,10,1,6,13]} bab={0} cmb={-3} cmd={8} feats={["Weapon Finesse"]} skills={{"fly":{"b":-1}}} sq="drift" />
+<Ecology env="temperate or warm forests" org="solitary, pair, or muster (3-10)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Drift (Ex)</strong> A peafowl flies in short bursts and can't use its fly speed to hover. When it flies, a peafowl must end its move action by landing or perching on a solid surface.</p>
@@ -757,11 +759,11 @@ const _familiar_peafowl = {title: "Peafowl (Familiar)", jsx: <><p><em>This bird'
 const _familiar_penguin = {title: "Penguin (Familiar)", jsx: <><p><em>This three-foot-tall, thick-set bird has black and white coloration, a long beak, and black flippers that lie flat against its sides instead of wings.</em></p>
 <Header full><span>Penguin</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_penguin--info" source={[["Ultimate Wilderness",201],["Familiar Folio",27],["Bestiary 5",112]]} xp="135" n small animal init={-1} llv pcp={8} />
-<Defense id="monster-familiar_penguin--defense" ac={[11,10,11]} mod="-1 Dex, +1 natural, +1 size" hp={[5,"1d8+1"]} fort="+3" ref="+1" will="+1" />
-<Offense id="monster-familiar_penguin--offense" sp={10} sw={40} spOther="toboggan 30 ft." melee="bite +0 (1d3-1)" />
-<Stats id="monster-familiar_penguin--stats" atts={[9,8,13,2,12,7]} bab={0} cmb={-2} cmd={7} feats={[["Skill Focus"," (Perception)"]]} skills={{"per":{"b":8},"swim":{"b":7}}} sq={<Link to="/umr/hold_breath">hold breath</Link>} />
-<Ecology id="monster-familiar_penguin--eco-eco" env="cold plains" org="solitary, pair, or colony (3-30)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",201],["Familiar Folio",27],["Bestiary 5",112]]} xp="135" n small animal init={-1} llv pcp={8} />
+<Defense ac={[11,10,11]} mod="-1 Dex, +1 natural, +1 size" hp={[5,"1d8+1"]} fort="+3" ref="+1" will="+1" />
+<Offense sp={10} sw={40} spOther="toboggan 30 ft." melee="bite +0 (1d3-1)" />
+<Stats atts={[9,8,13,2,12,7]} bab={0} cmb={-2} cmd={7} feats={[["Skill Focus"," (Perception)"]]} skills={{"per":{"b":8},"swim":{"b":7}}} sq={<Link to="/umr/hold_breath">hold breath</Link>} />
+<Ecology env="cold plains" org="solitary, pair, or colony (3-30)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Toboggan (Ex)</strong> On snow- or ice-covered terrain, a penguin can move at a rate of 30 feet by sliding on its belly rather than walking.</p>
@@ -773,11 +775,11 @@ const _familiar_penguin = {title: "Penguin (Familiar)", jsx: <><p><em>This three
 const _familiar_petrifern = {title: "Petrifern (Familiar)", jsx: <><p><em>This tiny, unassuming tree is shaped like a miniature person, with branches for arms and roots for feet.</em></p>
 <Header full><span>Petrifern</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_petrifern--info" source={[["Ultimate Wilderness",202],["Familiar Folio",31]]} xp="65" n diminutive plant init={-1} blindsight={30} pcp={-2} />
-<Defense id="monster-familiar_petrifern--defense" ac={[15,13,15]} mod="-1 Dex, +2 natural, +4 size" hp={[5,"1d8+1"]} fort="+3" ref="-1" will="-2" def={[["self-petrification","self-petrification"],["toxic secretion","toxic secretion"]]} immune={<Link to="/umr/plant_traits">plant traits</Link>} />
-<Offense id="monster-familiar_petrifern--offense" sp={20} melee="slam +0 (1d2-4)" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_petrifern--stats" atts={[2,9,13,0,6,9]} bab={0} cmb={-5} cmd={1} />
-<Ecology id="monster-familiar_petrifern--eco-eco" env="any forest" org="solitary, pair, or bundle (3-12)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",202],["Familiar Folio",31]]} xp="65" n diminutive plant init={-1} blindsight={30} pcp={-2} />
+<Defense ac={[15,13,15]} mod="-1 Dex, +2 natural, +4 size" hp={[5,"1d8+1"]} fort="+3" ref="-1" will="-2" def={[["self-petrification","self-petrification"],["toxic secretion","toxic secretion"]]} immune={<Link to="/umr/plant_traits">plant traits</Link>} />
+<Offense sp={20} melee="slam +0 (1d2-4)" space={"1"} reach={"0"} />
+<Stats atts={[2,9,13,0,6,9]} bab={0} cmb={-5} cmd={1} />
+<Ecology env="any forest" org="solitary, pair, or bundle (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Self-Petrification (Ex)</strong> A petrifern can petrify itself as a standard action in order to defend itself from predators. When it does so, the petrifern's natural armor bonus to AC increases by 5, it gains resistance 10 to cold and fire, and it can take 20 on Stealth checks to appear as a sprout or fallen tree branch. While petrified, the petrifern can't move or take any actions. A petrifern can remain petrified indefinitely, and it can cease its petrification as a standard action.</p>
@@ -790,11 +792,11 @@ const _familiar_petrifern = {title: "Petrifern (Familiar)", jsx: <><p><em>This t
 </>};
 const _familiar_pig = {title: "Pig (Familiar)", jsx: <><Header full><span>Pig</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_pig--info" source={[["Bestiary 3",113],["Ultimate Magic",119]]} xp="135" n small animal init={1} llv scent pcp={5} />
-<Defense id="monster-familiar_pig--defense" ac={[13,12,12]} mod="+1 Dex, +1 natural, +1 size" hp={[6,"1d8+2"]} fort="+6" ref="+3" will="+1" />
-<Offense id="monster-familiar_pig--offense" sp={30} melee="bite +1 (1d4)" />
-<Stats id="monster-familiar_pig--stats" atts={[11,12,15,2,13,4]} bab={0} cmb={-1} cmd={10} cmdP="14 vs. trip" feats={["Great Fortitude"]} skills={{"per":{"b":5}}} />
-<Ecology id="monster-familiar_pig--eco-eco" env="any" org="solitary, pair, or herd (3-12)" treasure={{"X":false}} />
+<Info source={[["Bestiary 3",113],["Ultimate Magic",119]]} xp="135" n small animal init={1} llv scent pcp={5} />
+<Defense ac={[13,12,12]} mod="+1 Dex, +1 natural, +1 size" hp={[6,"1d8+2"]} fort="+6" ref="+3" will="+1" />
+<Offense sp={30} melee="bite +1 (1d4)" />
+<Stats atts={[11,12,15,2,13,4]} bab={0} cmb={-1} cmd={10} cmdP="14 vs. trip" feats={["Great Fortitude"]} skills={{"per":{"b":5}}} />
+<Ecology env="any" org="solitary, pair, or herd (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>This clever, sociable animal may be trained to do many tasks.</p>
@@ -803,16 +805,17 @@ const _familiar_pig = {title: "Pig (Familiar)", jsx: <><Header full><span>Pig</s
 const _familiar_platypus = {title: "Platypus (Familiar)", jsx: <><p><em>This creature is plump, brown, and covered in sleek fur, but it has a duck's bill, a flat tail, and webbed feet.</em></p>
 <Header full><span>Platypus</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_platypus--info" source={[["Ultimate Wilderness",203],["Animal Archive",30],["Bestiary 4",96]]} xp="65" n tiny animal init={2} sen={["electrolocation 30 ft."]} llv pcp={1} />
-<Defense id="monster-familiar_platypus--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+4" will="+1" />
-<Offense id="monster-familiar_platypus--offense" sp={10} sw={40} melee="spur +4 (1d3-4 plus poison)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_platypus--stats" atts={[2,14,8,2,13,11]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={["Weapon Finesse"]} skills={{"per":{"b":0,"x":"+4 underwater"},"swim":{"b":14}}} racial="+4 Perception underwater" sq={<Link to="/umr/hold_breath">hold breath</Link>} />
-<Ecology id="monster-familiar_platypus--eco-eco" env="temperate or tropical rivers" org="solitary" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",203],["Animal Archive",30],["Bestiary 4",96]]} xp="65" n tiny animal init={2} sen={["electrolocation 30 ft."]} llv pcp={1} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+4" will="+1" />
+<Offense sp={10} sw={40} melee="spur +4 (1d3-4 plus poison)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[2,14,8,2,13,11]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={["Weapon Finesse"]} skills={{"per":{"b":0,"x":"+4 underwater"},"swim":{"b":14}}} racial="+4 Perception underwater" sq={<Link to="/umr/hold_breath">hold breath</Link>} />
+<Ecology env="temperate or tropical rivers" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Electrolocation (Ex)</strong> While underwater, platypuses can sense the tiny electrical currents that trigger muscle movement. This allows them to locate living prey and distinguish it from inanimate objects. Treat electrolocation as <Link to="/umr/blindsight">blindsight</Link> 30 feet, but platypuses can sense only living creatures, and it functions only underwater.</p>
 <p><strong>Poison (Ex)</strong></p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-familiar_platypus--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Spur-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 9</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 nonlethal damage</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><p><strong>Spur (Ex)</strong> A platypus's spur attack is a primary natural attack that deals piercing damage.</p>
+<AffInfo type="Spur-injury" save="Fort 9" freq="1/round for 4 rounds" eff={<>1 nonlethal damage</>} cure1 icon="p" />
+<p><strong>Spur (Ex)</strong> A platypus's spur attack is a primary natural attack that deals piercing damage.</p>
 <Header sub>Description</Header>
 <p>Platypuses are members of an extremely unusual order of egg-laying mammals that live in riverside burrows where they hunt for larvae, shellfish, and worms. Platypuses also have a remarkable electrical sense they use in place of hearing, scent, and sight while hunting underwater.</p>
 <p>The average platypus is roughly 1-1/2 feet long and weighs 3-1/2 pounds.</p>
@@ -821,11 +824,11 @@ const _familiar_platypus = {title: "Platypus (Familiar)", jsx: <><p><em>This cre
 const _familiar_popoto_dolphin = {title: "Popoto Dolphin (Familiar)", jsx: <><p><em>This sleek mammal has a short snout and black, white, and gray markings along its body.</em></p>
 <Header full><span>Popoto Dolphin</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_popoto_dolphin--info" source={[["Ultimate Wilderness",194]]} xp="135" n small animal init={3} llv blindsense={30} pcp={5} />
-<Defense id="monster-familiar_popoto_dolphin--defense" ac={[15,14,12]} mod="+3 Dex, +1 natural, +1 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="+1" />
-<Offense id="monster-familiar_popoto_dolphin--offense" sw={60} melee="slam +4 (1d3-1)" />
-<Stats id="monster-familiar_popoto_dolphin--stats" atts={[8,17,11,2,13,6]} bab={0} cmb={-2} cmd={11} feats={["Weapon Finesse"]} skills={{"per":{"b":5},"swim":{"b":7}}} sq={<Link to="/umr/hold_breath">hold breath</Link>} />
-<Ecology id="monster-familiar_popoto_dolphin--eco-eco" env="temperate oceans" org="solitary, pair, or pod (3-5)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",194]]} xp="135" n small animal init={3} llv blindsense={30} pcp={5} />
+<Defense ac={[15,14,12]} mod="+3 Dex, +1 natural, +1 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="+1" />
+<Offense sw={60} melee="slam +4 (1d3-1)" />
+<Stats atts={[8,17,11,2,13,6]} bab={0} cmb={-2} cmd={11} feats={["Weapon Finesse"]} skills={{"per":{"b":5},"swim":{"b":7}}} sq={<Link to="/umr/hold_breath">hold breath</Link>} />
+<Ecology env="temperate oceans" org="solitary, pair, or pod (3-5)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Popotos are the smallest species of dolphin known, and they generally swim in shallow waters near shorelines. Sometimes they manage to swim miles upriver when they hunt for fish, using echolocation to navigate through smaller channels. They are social hunters and traveling in small groups called pods, which normally contain three to five popotos. Like larger dolphins, popotos are popular with seafarers, who consider the creatures to be good luck and tell hopeful tales of popotos leading lost swimmers to shore and pods fighting off sharks that are much larger than the popotos themselves.</p>
@@ -834,11 +837,11 @@ const _familiar_popoto_dolphin = {title: "Popoto Dolphin (Familiar)", jsx: <><p>
 const _familiar_ptarmigan = {title: "Ptarmigan (Familiar)", jsx: <><p><em>This small bird has a mix of brown and white feathers and makes a loud croaking sound.</em></p>
 <Header full><span>Ptarmigan</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_ptarmigan--info" source={[["Ultimate Wilderness",203],["Reign of Winter Player's Guide",10]]} xp="65" n tiny animal init={2} llv pcp={2} />
-<Defense id="monster-familiar_ptarmigan--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[2,"1d8-2"]} fort="+0" ref="+4" will="+2" />
-<Offense id="monster-familiar_ptarmigan--offense" sp={20} fl={40} flP="poor" melee="bite +4 (1d2-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_ptarmigan--stats" atts={[2,14,7,2,14,5]} bab={0} cmb={0} cmd={6} feats={["Weapon Finesse"]} skills={{"stl":{"b":14,"x":"+18 in snow"}}} racial="+4 Stealth in snow" />
-<Ecology id="monster-familiar_ptarmigan--eco-eco" env="cold forests and plains" org="solitary, pair, or flock (3-12)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",203],["Reign of Winter Player's Guide",10]]} xp="65" n tiny animal init={2} llv pcp={2} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[2,"1d8-2"]} fort="+0" ref="+4" will="+2" />
+<Offense sp={20} fl={40} flP="poor" melee="bite +4 (1d2-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[2,14,7,2,14,5]} bab={0} cmb={0} cmd={6} feats={["Weapon Finesse"]} skills={{"stl":{"b":14,"x":"+18 in snow"}}} racial="+4 Stealth in snow" />
+<Ecology env="cold forests and plains" org="solitary, pair, or flock (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>These grouses molt through the seasons, appearing all white in the spring and shifting to a mix of brown and white in winter months.</p>
@@ -848,15 +851,16 @@ const _familiar_ptarmigan = {title: "Ptarmigan (Familiar)", jsx: <><p><em>This s
 const _familiar_pufferfish = {title: "Pufferfish (Familiar)", jsx: <><p><em>This spotted fish has pronounced eyes, a wide mouth, and tiny, brightly colored spikes protruding from its body.</em></p>
 <Header full><span>Pufferfish</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_pufferfish--info" source={[["Ultimate Wilderness",203],["Familiar Folio",25]]} xp="100" n tiny animal init={6} llv pcp={5} />
-<Defense id="monster-familiar_pufferfish--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[6,"1d8+2"]} fort="+4" ref="+4" will="+1" def={[["spines","spines"]]} />
-<Offense id="monster-familiar_pufferfish--offense" sw={20} space={"2-1/2"} reach={"0"} specAtt={[["poison","poison"]]} />
-<Stats id="monster-familiar_pufferfish--stats" atts={[4,14,15,1,12,9]} bab={0} cmb={0} cmd={7} feats={["Improved Initiative"]} skills={{"per":{"b":5},"swim":{"b":5}}} />
-<Ecology id="monster-familiar_pufferfish--eco-eco" env="warm oceans" org="solitary, pair, or school (3-12)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",203],["Familiar Folio",25]]} xp="100" n tiny animal init={6} llv pcp={5} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[6,"1d8+2"]} fort="+4" ref="+4" will="+1" def={[["spines","spines"]]} />
+<Offense sw={20} space={"2-1/2"} reach={"0"} specAtt={[["poison","poison"]]} />
+<Stats atts={[4,14,15,1,12,9]} bab={0} cmb={0} cmd={7} feats={["Improved Initiative"]} skills={{"per":{"b":5},"swim":{"b":5}}} />
+<Ecology env="warm oceans" org="solitary, pair, or school (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-familiar_pufferfish--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Spines-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 12</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>once</td></tr><tr></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 consecutive saves</td></tr><tr><td colSpan={4} className="extra">If certain portions of the pufferfish's body are eaten, the poison's effect is instead 1d4 points of Constitution damage. The save DC is Constitution-based.</td></tr></tbody></table></ScrollContainer></div><p><strong>Spines (Ex)</strong> Pufferfish aren't equipped to attack other creatures, but foes that strike a pufferfish with an unarmed strike or a natural attack take 1 point of piercing damage from the fish's toxic spines, and must immediately attempt a saving throw against the pufferfish's poison.</p>
+<AffInfo type="Spines-injury" save="Fort 12" freq="once" cure2c extra={<>If certain portions of the pufferfish's body are eaten, the poison's effect is instead 1d4 points of Constitution damage. The save DC is Constitution-based.</>} icon="p" />
+<p><strong>Spines (Ex)</strong> Pufferfish aren't equipped to attack other creatures, but foes that strike a pufferfish with an unarmed strike or a natural attack take 1 point of piercing damage from the fish's toxic spines, and must immediately attempt a saving throw against the pufferfish's poison.</p>
 <Header sub>Description</Header>
 <p>Pufferfish are a category of poisonous fish that dwell in warm coastal waters. Pufferfish have the ability to rapidly fill their stomachs with water or air, causing their bodies to balloon out and make the poisonous spikes on their skin more pronounced, while increasing their apparent size to frighten predators. While certain aquatic sharks and other animals have adapted to eat pufferfish, the puffer's tetrodotoxin (typically delivered via the spines on the fish's skin, though prevalent throughout its organs as well) remains highly poisonous to humans and most mammals who must be careful if they wish to eat one of these fish.</p>
 <p>Pufferfish come in a variety of sizes and types, and most range from 6 inches to 2 feet in length and weigh between 5 and 30 pounds.</p>
@@ -865,11 +869,11 @@ const _familiar_pufferfish = {title: "Pufferfish (Familiar)", jsx: <><p><em>This
 const _familiar_puffin = {title: "Puffin (Familiar)", jsx: <><p><em>This squat, black-and-white bird has a bright red-and-black beak.</em></p>
 <Header full><span>Puffin</span><span>CR 1/8</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_puffin--info" source={[["Ultimate Wilderness",204],["Reign of Winter Player's Guide",11]]} xp="50" n diminutive animal init={2} llv pcp={6} />
-<Defense id="monster-familiar_puffin--defense" ac={[16,16,14]} mod="+2 Dex, +4 size" hp={[2,"1d8-2"]} fort="+0" ref="+4" will="+2" />
-<Offense id="monster-familiar_puffin--offense" sp={10} fl={30} flP="average" sw={30} melee="bite -1 (1d2-5)" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_puffin--stats" atts={[1,15,6,2,15,6]} bab={0} cmb={-2} cmd={3} feats={[["Skill Focus"," (Swim)"]]} skills={{"fly":{"b":8}}} />
-<Ecology id="monster-familiar_puffin--eco-eco" env="cold coastlines" org="solitary, pair, or colony (3-20)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",204],["Reign of Winter Player's Guide",11]]} xp="50" n diminutive animal init={2} llv pcp={6} />
+<Defense ac={[16,16,14]} mod="+2 Dex, +4 size" hp={[2,"1d8-2"]} fort="+0" ref="+4" will="+2" />
+<Offense sp={10} fl={30} flP="average" sw={30} melee="bite -1 (1d2-5)" space={"1"} reach={"0"} />
+<Stats atts={[1,15,6,2,15,6]} bab={0} cmb={-2} cmd={3} feats={[["Skill Focus"," (Swim)"]]} skills={{"fly":{"b":8}}} />
+<Ecology env="cold coastlines" org="solitary, pair, or colony (3-20)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>These short-winged and short-tailed birds favor cold rocky islands. They dine primarily on fish. Their beak retains its color through the mating season, and then the color is shed off, revealing a smaller, muted beak.</p>
@@ -879,11 +883,11 @@ const _familiar_puffin = {title: "Puffin (Familiar)", jsx: <><p><em>This squat, 
 const _familiar_rabbit = {title: "Rabbit (Familiar)", jsx: <><p><em>This small, furry creature has long ears and oversized feet.</em></p>
 <Header full><span>Rabbit</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_rabbit--info" source={[["Ultimate Wilderness",204],["Animal Archive",31]]} xp="65" n tiny animal init={3} llv pcp={1} />
-<Defense id="monster-familiar_rabbit--defense" ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+5" will="+1" />
-<Offense id="monster-familiar_rabbit--offense" sp={50} melee="bite -2 (1d3-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_rabbit--stats" atts={[3,16,9,2,12,5]} bab={0} cmb={1} cmd={7} feats={["Run"]} skills={{"acro":{"b":0,"x":"+8 when jumping"},"stl":{"b":15}}} />
-<Ecology id="monster-familiar_rabbit--eco-eco" env="temperate plains" org="solitary, pair, or down (3-16)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",204],["Animal Archive",31]]} xp="65" n tiny animal init={3} llv pcp={1} />
+<Defense ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+5" will="+1" />
+<Offense sp={50} melee="bite -2 (1d3-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[3,16,9,2,12,5]} bab={0} cmb={1} cmd={7} feats={["Run"]} skills={{"acro":{"b":0,"x":"+8 when jumping"},"stl":{"b":15}}} />
+<Ecology env="temperate plains" org="solitary, pair, or down (3-16)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Rabbits are herbivores with short tails, long ears for sensing predators, and powerful hind legs that allow them to leap quickly to safety when threatened.</p>
@@ -892,11 +896,11 @@ const _familiar_rabbit = {title: "Rabbit (Familiar)", jsx: <><p><em>This small, 
 </>};
 const _familiar_raccoon = {title: "Raccoon (Familiar)", jsx: <><Header full><span>Raccoon</span><span>CR 1/2</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_raccoon--info" source={[["Bestiary 3",113]]} xp="200" n tiny animal init={2} llv scent pcp={3} />
-<Defense id="monster-familiar_raccoon--defense" ac={[15,14,13]} mod="+2 Dex, +1 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+3" />
-<Offense id="monster-familiar_raccoon--offense" sp={20} cl={20} melee="bite +4 (1d3-1)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_raccoon--stats" atts={[8,15,11,2,16,5]} bab={0} cmb={0} cmd={9} cmdP="13 vs. trip" feats={["Weapon Finesse"]} skills={{"climb":{"b":10},"soh":{"b":3}}} />
-<Ecology id="monster-familiar_raccoon--eco-eco" env="temperate forests" org="solitary or gaze (2-4)" treasure={{"X":false}} />
+<Info source={[["Bestiary 3",113]]} xp="200" n tiny animal init={2} llv scent pcp={3} />
+<Defense ac={[15,14,13]} mod="+2 Dex, +1 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+3" />
+<Offense sp={20} cl={20} melee="bite +4 (1d3-1)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[8,15,11,2,16,5]} bab={0} cmb={0} cmd={9} cmdP="13 vs. trip" feats={["Weapon Finesse"]} skills={{"climb":{"b":10},"soh":{"b":3}}} />
+<Ecology env="temperate forests" org="solitary or gaze (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Raccoons are inquisitive and cunning, and often have strangely humanoid mannerisms, like washing their food in streams.</p>
@@ -904,11 +908,11 @@ const _familiar_raccoon = {title: "Raccoon (Familiar)", jsx: <><Header full><spa
 </>};
 const _familiar_rat = {title: "Rat (Familiar)", jsx: <><Header full><span>Rat</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_rat--info" source={[["Pathfinder RPG Bestiary",132]]} xp="100" n tiny animal init={2} llv scent pcp={1} />
-<Defense id="monster-familiar_rat--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+1" />
-<Offense id="monster-familiar_rat--offense" sp={15} cl={15} sw={15} melee="bite +4 (1d3-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_rat--stats" atts={[2,15,11,2,13,2]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={["Weapon Finesse"]} skills={{"climb":{"b":10}}} racial="+4 Stealth" />
-<Ecology id="monster-familiar_rat--eco-eco" env="any temperate" org="solitary, pair, nest (3-12), or plague (13-100)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",132]]} xp="100" n tiny animal init={2} llv scent pcp={1} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+1" />
+<Offense sp={15} cl={15} sw={15} melee="bite +4 (1d3-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[2,15,11,2,13,2]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={["Weapon Finesse"]} skills={{"climb":{"b":10}}} racial="+4 Stealth" />
+<Ecology env="any temperate" org="solitary, pair, nest (3-12), or plague (13-100)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Fecund and secretive, rats are omnivorous rodents that particularly thrive in urban areas.</p>
@@ -918,11 +922,11 @@ const _familiar_rat = {title: "Rat (Familiar)", jsx: <><Header full><span>Rat</s
 </>};
 const _familiar_raven = {title: "Raven (Familiar)", jsx: <><Header full><span>Raven</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_raven--info" source={[["Pathfinder RPG Bestiary",133]]} xp="65" n tiny animal init={2} llv pcp={6} />
-<Defense id="monster-familiar_raven--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+4" will="+2" />
-<Offense id="monster-familiar_raven--offense" sp={10} fl={40} flP="average" melee="bite +4 (1d3-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_raven--stats" atts={[2,15,8,2,15,7]} bab={0} cmb={0} cmd={6} feats={[["Skill Focus"," (Perception)"],"Weapon Finesse"]} skills={{"fly":{"b":6},"per":{"b":6}}} />
-<Ecology id="monster-familiar_raven--eco-eco" env="any temperate" org="solitary, pair, flock (3-12), or unkindness (13-100)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",133]]} xp="65" n tiny animal init={2} llv pcp={6} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+4" will="+2" />
+<Offense sp={10} fl={40} flP="average" melee="bite +4 (1d3-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[2,15,8,2,15,7]} bab={0} cmb={0} cmd={6} feats={[["Skill Focus"," (Perception)"],"Weapon Finesse"]} skills={{"fly":{"b":6},"per":{"b":6}}} />
+<Ecology env="any temperate" org="solitary, pair, flock (3-12), or unkindness (13-100)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>The raven is an omnivorous scavenger that eats carrion, insects, food waste, berries, and even small animals. A raven familiar can speak one language as a supernatural ability.</p>
@@ -931,11 +935,11 @@ const _familiar_raven = {title: "Raven (Familiar)", jsx: <><Header full><span>Ra
 const _familiar_ravenous_tumbleweed = {title: "Ravenous Tumbleweed (Familiar)", jsx: <><p><em>This tangle of dry-looking vegetation has grown into a spherical ball of thorny twigs and roots.</em></p>
 <Header full><span>Ravenous Tumbleweed</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_ravenous_tumbleweed--info" source={[["Ultimate Wilderness",205]]} xp="135" n tiny plant init={1} llv pcp={0} />
-<Defense id="monster-familiar_ravenous_tumbleweed--defense" ac={[14,13,13]} mod="+1 Dex, +1 natural, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+1" will="+0" immune={<Link to="/umr/plant_traits">plant traits</Link>} />
-<Offense id="monster-familiar_ravenous_tumbleweed--offense" sp={30} melee="slam +0 (1d4-2)" space={"2-1/2"} reach={"0"} specAtt={[["hurtling charge","hurtling charge"]]} />
-<Stats id="monster-familiar_ravenous_tumbleweed--stats" atts={[6,13,12,0,11,4]} bab={0} cmb={-1} cmd={7} cmdP="can't be tripped" sq="wind-borne" />
-<Ecology id="monster-familiar_ravenous_tumbleweed--eco-eco" env="warm deserts or plains" org="solitary, pair, or drift (3-12)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",205]]} xp="135" n tiny plant init={1} llv pcp={0} />
+<Defense ac={[14,13,13]} mod="+1 Dex, +1 natural, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+1" will="+0" immune={<Link to="/umr/plant_traits">plant traits</Link>} />
+<Offense sp={30} melee="slam +0 (1d4-2)" space={"2-1/2"} reach={"0"} specAtt={[["hurtling charge","hurtling charge"]]} />
+<Stats atts={[6,13,12,0,11,4]} bab={0} cmb={-1} cmd={7} cmdP="can't be tripped" sq="wind-borne" />
+<Ecology env="warm deserts or plains" org="solitary, pair, or drift (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Hurtling Charge (Ex)</strong> A ravenous tumbleweed that travels at least 20 feet as part of a <Link to="/rule/charge">charge</Link> action does not provoke an attack of opportunity when it enters an opponent's space to make a melee attack.</p>
@@ -947,11 +951,11 @@ const _familiar_ravenous_tumbleweed = {title: "Ravenous Tumbleweed (Familiar)", 
 const _familiar_razor_fern = {title: "Razor Fern (Familiar)", jsx: <><p><em>This vaguely human-shaped plant slashes out with dangerous-looking barbed fronds.</em></p>
 <Header full><span>Razor Fern</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_razor_fern--info" source={[["Ultimate Wilderness",205]]} xp="100" n tiny plant init={2} llv tremorsense={15} pcp={0} />
-<Defense id="monster-familiar_razor_fern--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+2" will="+0" def={[["shielding frond","shielding frond"]]} immune={<Link to="/umr/plant_traits">plant traits</Link>} />
-<Offense id="monster-familiar_razor_fern--offense" sp={15} melee="2 fronds +4 (1d4-3)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_razor_fern--stats" atts={[5,15,11,0,10,6]} bab={0} cmb={0} cmd={7} feats={["Weapon Finesse"]} />
-<Ecology id="monster-familiar_razor_fern--eco-eco" env="temperate forests" org="solitary, pair, or thicket (3-8)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",205]]} xp="100" n tiny plant init={2} llv tremorsense={15} pcp={0} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+2" will="+0" def={[["shielding frond","shielding frond"]]} immune={<Link to="/umr/plant_traits">plant traits</Link>} />
+<Offense sp={15} melee="2 fronds +4 (1d4-3)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[5,15,11,0,10,6]} bab={0} cmb={0} cmd={7} feats={["Weapon Finesse"]} />
+<Ecology env="temperate forests" org="solitary, pair, or thicket (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Frond (Ex)</strong> A razor fern's fronds are primary natural attacks that deal slashing damage.</p>
@@ -962,11 +966,11 @@ const _familiar_razor_fern = {title: "Razor Fern (Familiar)", jsx: <><p><em>This
 </>};
 const _familiar_red_panda = {title: "Red Panda (Familiar)", jsx: <><Header full><span>Red Panda</span><span>CR 1/2</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_red_panda--info" source={[["Bestiary 5",112]]} xp="200" n tiny animal init={3} llv scent pcp={5} />
-<Defense id="monster-familiar_red_panda--defense" ac={[16,15,13]} mod="+3 Dex, +1 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="+1" />
-<Offense id="monster-familiar_red_panda--offense" sp={20} cl={20} melee="bite +5 (1d3-1)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_red_panda--stats" atts={[8,16,11,2,13,5]} bab={0} cmb={1} cmd={10} feats={["Weapon Finesse"]} skills={{"acro":{"b":9},"climb":{"b":15},"per":{"b":5}}} racial="+6 Acrobatics, +4 Climb" />
-<Ecology id="monster-familiar_red_panda--eco-eco" env="temperate forests or mountains" org="solitary or mated pair" treasure={{"X":false}} />
+<Info source={[["Bestiary 5",112]]} xp="200" n tiny animal init={3} llv scent pcp={5} />
+<Defense ac={[16,15,13]} mod="+3 Dex, +1 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="+1" />
+<Offense sp={20} cl={20} melee="bite +5 (1d3-1)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[8,16,11,2,13,5]} bab={0} cmb={1} cmd={10} feats={["Weapon Finesse"]} skills={{"acro":{"b":9},"climb":{"b":15},"per":{"b":5}}} racial="+6 Acrobatics, +4 Climb" />
+<Ecology env="temperate forests or mountains" org="solitary or mated pair" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Red pandas are small, short-legged arboreal mammals known for their red-brown fur and climbing abilities.</p>
@@ -975,11 +979,11 @@ const _familiar_red_panda = {title: "Red Panda (Familiar)", jsx: <><Header full>
 const _familiar_rhamphorhynchus = {title: "Rhamphorhynchus (Familiar)", jsx: <><p><em>This creature looks like a cross between a bird and a reptile, sporting leathery wings, a beak filled with needle-like teeth, and a long tail ending in a diamond-shaped vane.</em></p>
 <Header full><span>Rhamphorhynchus</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_rhamphorhynchus--info" source={[["Ultimate Wilderness",204],["Pathfinder #37: Souls for Smuggler's Shiv",82]]} xp="135" n tiny animal init={3} llv scent pcp={6} />
-<Defense id="monster-familiar_rhamphorhynchus--defense" ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+7" will="+2" eva />
-<Offense id="monster-familiar_rhamphorhynchus--offense" sp={10} fl={40} flP="good" melee="bite +0 (1d3-2)" space={"2-1/2"} reach={"0"} specAtt={[["sudden swoop","sudden swoop"]]} />
-<Stats id="monster-familiar_rhamphorhynchus--stats" atts={[6,17,11,2,14,11]} bab={0} cmb={1} cmd={9} feats={["Lightning Reflexes"]} skills={{"fly":{"b":11},"per":{"b":6},"stl":{"b":11}}} />
-<Ecology id="monster-familiar_rhamphorhynchus--eco-eco" env="warm coastlines or forests" org="solitary, pair, or flock (3-16)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",204],["Pathfinder #37: Souls for Smuggler's Shiv",82]]} xp="135" n tiny animal init={3} llv scent pcp={6} />
+<Defense ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+7" will="+2" eva />
+<Offense sp={10} fl={40} flP="good" melee="bite +0 (1d3-2)" space={"2-1/2"} reach={"0"} specAtt={[["sudden swoop","sudden swoop"]]} />
+<Stats atts={[6,17,11,2,14,11]} bab={0} cmb={1} cmd={9} feats={["Lightning Reflexes"]} skills={{"fly":{"b":11},"per":{"b":6},"stl":{"b":11}}} />
+<Ecology env="warm coastlines or forests" org="solitary, pair, or flock (3-16)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Sudden Swoop (Ex)</strong> If a rhamphorhynchus makes a charge attack while flying, it does not provoke attacks of opportunity when it enters an opponent's space to make a melee attack. It also gains a +2 bonus on damage rolls with its bite attack when it makes a sudden swoop.</p>
@@ -990,11 +994,11 @@ const _familiar_rhamphorhynchus = {title: "Rhamphorhynchus (Familiar)", jsx: <><
 const _familiar_sawleg_locust = {title: "Sawleg Locust (Familiar)", jsx: <><p><em>The cat-sized insect has a long, cigar-shaped body. Its spiny back legs are long and limber.</em></p>
 <Header full><span>Sawleg Locust</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_sawleg_locust--info" source={[["Ultimate Wilderness",205]]} xp="100" n tiny vermin init={1} dv={60} pcp={0} />
-<Defense id="monster-familiar_sawleg_locust--defense" ac={[14,13,13]} mod="+1 Dex, +1 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+1" will="+0" immune="mind-affecting effects" />
-<Offense id="monster-familiar_sawleg_locust--offense" sp={15} cl={15} fl={40} flP="average" melee="bite -1 (1d3-3)" space={"2-1/2"} reach={"0"} specAtt={[["voracious","voracious"]]} />
-<Stats id="monster-familiar_sawleg_locust--stats" atts={[4,13,11,0,10,7]} bab={0} cmb={-1} cmd={6} cmdP="14 vs. trip" skills={{"acro":{"b":0,"x":"+8 when jumping"},"climb":{"b":9}}} racial="+8 Acrobatics (when jumping)" sq="leap" />
-<Ecology id="monster-familiar_sawleg_locust--eco-eco" env="any desert or plains" org="solitary, pair, or flight (3-18)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",205]]} xp="100" n tiny vermin init={1} dv={60} pcp={0} />
+<Defense ac={[14,13,13]} mod="+1 Dex, +1 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+1" will="+0" immune="mind-affecting effects" />
+<Offense sp={15} cl={15} fl={40} flP="average" melee="bite -1 (1d3-3)" space={"2-1/2"} reach={"0"} specAtt={[["voracious","voracious"]]} />
+<Stats atts={[4,13,11,0,10,7]} bab={0} cmb={-1} cmd={6} cmdP="14 vs. trip" skills={{"acro":{"b":0,"x":"+8 when jumping"},"climb":{"b":9}}} racial="+8 Acrobatics (when jumping)" sq="leap" />
+<Ecology env="any desert or plains" org="solitary, pair, or flight (3-18)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Leap (Ex)</strong> A sawleg locust can take 10 on Acrobatics checks to jump even if distracted or in danger.</p>
@@ -1006,11 +1010,11 @@ const _familiar_sawleg_locust = {title: "Sawleg Locust (Familiar)", jsx: <><p><e
 const _familiar_seal = {title: "Seal (Familiar)", jsx: <><p><em>This sleek aquatic mammal has a pair of flippers, a powerful tail, and a muzzle full of small, sharp teeth.</em></p>
 <Header full><span>Seal</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_seal--info" source={[["Ultimate Wilderness",206],["Pathfinder #55: The Wormwood Mutiny",89],["Bestiary 5",113]]} xp="135" n small animal init={1} llv pcp={5} />
-<Defense id="monster-familiar_seal--defense" ac={[13,12,12]} mod="+1 Dex, +1 natural, +1 size" hp={[4,"1d8"]} fort="+2" ref="+3" will="+1" />
-<Offense id="monster-familiar_seal--offense" sp={10} sw={60} melee="bite +0 (1d4-1)" />
-<Stats id="monster-familiar_seal--stats" atts={[8,13,11,2,13,6]} bab={0} cmb={-2} cmd={9} cmdP="can't be tripped" feats={[["Skill Focus"," (Swim)"]]} skills={{"per":{"b":5},"swim":{"b":14}}} racial="+4 Perception" sq={<Link to="/umr/hold_breath">hold breath</Link>} />
-<Ecology id="monster-familiar_seal--eco-eco" env="any oceans" org="solitary, pair, or rookery (3-22)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",206],["Pathfinder #55: The Wormwood Mutiny",89],["Bestiary 5",113]]} xp="135" n small animal init={1} llv pcp={5} />
+<Defense ac={[13,12,12]} mod="+1 Dex, +1 natural, +1 size" hp={[4,"1d8"]} fort="+2" ref="+3" will="+1" />
+<Offense sp={10} sw={60} melee="bite +0 (1d4-1)" />
+<Stats atts={[8,13,11,2,13,6]} bab={0} cmb={-2} cmd={9} cmdP="can't be tripped" feats={[["Skill Focus"," (Swim)"]]} skills={{"per":{"b":5},"swim":{"b":14}}} racial="+4 Perception" sq={<Link to="/umr/hold_breath">hold breath</Link>} />
+<Ecology env="any oceans" org="solitary, pair, or rookery (3-22)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Sleek-bodied aquatic mammals, seals spend the majority of their lives in the water, whether in the harbors of tropical ports or amid wandering icebergs. They prefer rocky beaches, upon which they rest and raise their young, and from which they dive to hunt fish, sea birds, squid, and other small aquatic creatures. They are well known for their vocal communications consisting of barks, grunts, and flipper slaps - a trait that causes many humanoids to remark on their intelligence and the ease with which they can be trained.</p>
@@ -1019,11 +1023,11 @@ const _familiar_seal = {title: "Seal (Familiar)", jsx: <><p><em>This sleek aquat
 const _familiar_shimmerwing_dragonfly = {title: "Shimmerwing Dragonfly (Familiar)", jsx: <><p><em>This sizable insect has a slender body and two pairs of long, elegant, iridescent wings.</em></p>
 <Header full><span>Shimmerwing Dragonfly</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_shimmerwing_dragonfly--info" source={[["Ultimate Wilderness",206]]} xp="100" n tiny vermin init={2} dv={60} pcp={1} />
-<Defense id="monster-familiar_shimmerwing_dragonfly--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+2" will="+1" immune="mind-affecting effects" />
-<Offense id="monster-familiar_shimmerwing_dragonfly--offense" sp={10} fl={60} flP="perfect" melee="claw +0 (1d2-2)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_shimmerwing_dragonfly--stats" atts={[6,14,10,0,12,9]} bab={0} cmb={0} cmd={8} cmdP="16 vs. trip" feats={["Flyby Attack"]} skills={{"fly":{"b":14}}} />
-<Ecology id="monster-familiar_shimmerwing_dragonfly--eco-eco" env="temperate or warm swamps" org="solitary, pair, or flight (3-8)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",206]]} xp="100" n tiny vermin init={2} dv={60} pcp={1} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+2" will="+1" immune="mind-affecting effects" />
+<Offense sp={10} fl={60} flP="perfect" melee="claw +0 (1d2-2)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[6,14,10,0,12,9]} bab={0} cmb={0} cmd={8} cmdP="16 vs. trip" feats={["Flyby Attack"]} skills={{"fly":{"b":14}}} />
+<Ecology env="temperate or warm swamps" org="solitary, pair, or flight (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Shimmerwing dragonflies are agile flying insects that prey on other flying creatures. With a wingspan of nearly 3 feet, these dragonflies can even capture and eat small birds.</p>
@@ -1031,11 +1035,11 @@ const _familiar_shimmerwing_dragonfly = {title: "Shimmerwing Dragonfly (Familiar
 </>};
 const _familiar_sloth = {title: "Sloth (Familiar)", jsx: <><Header full><span>Sloth</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_sloth--info" source={[["Bestiary 4",97]]} xp="65" n tiny animal init={-2} llv scent pcp={1} />
-<Defense id="monster-familiar_sloth--defense" ac={[11,10,11]} mod="-2 Dex, +1 natural, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+0" will="+1" />
-<Offense id="monster-familiar_sloth--offense" sp={5} cl={5} melee="2 claws -1 (1d2-3)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_sloth--stats" atts={[5,7,12,2,12,7]} bab={0} cmb={-4} cmd={3} cmdP="7 vs. trip" feats={[["Skill Focus"," (Stealth)"]]} skills={{"climb":{"b":10}}} racial="+4 Climb, +4 Stealth, +4 Swim" />
-<Ecology id="monster-familiar_sloth--eco-eco" env="warm forests" org="solitary or pair" treasure={{"X":false}} />
+<Info source={[["Bestiary 4",97]]} xp="65" n tiny animal init={-2} llv scent pcp={1} />
+<Defense ac={[11,10,11]} mod="-2 Dex, +1 natural, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+0" will="+1" />
+<Offense sp={5} cl={5} melee="2 claws -1 (1d2-3)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[5,7,12,2,12,7]} bab={0} cmb={-4} cmd={3} cmdP="7 vs. trip" feats={[["Skill Focus"," (Stealth)"]]} skills={{"climb":{"b":10}}} racial="+4 Climb, +4 Stealth, +4 Swim" />
+<Ecology env="warm forests" org="solitary or pair" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Sloths are tree-dwelling herbivores. They are known for their efficient metabolisms and slow movement.</p>
@@ -1044,11 +1048,11 @@ const _familiar_sloth = {title: "Sloth (Familiar)", jsx: <><Header full><span>Sl
 const _familiar_spiny_starfish = {title: "Spiny Starfish (Familiar)", jsx: <><p><em>This brightly colored, star-shaped creature has many spines growing from its five arms.</em></p>
 <Header full><span>Spiny Starfish</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_spiny_starfish--info" source={[["Ultimate Wilderness",206]]} xp="65" n tiny vermin init={1} dv={60} tremorsense={20} pcp={0} />
-<Defense id="monster-familiar_spiny_starfish--defense" ac={[15,13,14]} mod="+1 Dex, +2 natural, +2 size" hp={[6,"1d8+2"]} fort="+4" ref="+1" will="+0" def={[["rapid healing","rapid healing"]]} immune="mind-affecting effects" />
-<Offense id="monster-familiar_spiny_starfish--offense" sp={5} cl={5} sw={5} melee="slam -1 (1d2-3 plus grab)" space={"2-1/2"} reach={"0"} grab="Small" />
-<Stats id="monster-familiar_spiny_starfish--stats" atts={[4,13,14,0,11,3]} bab={0} cmb={-1} cmbP="+5 when grappling" cmd={6} cmdP="can't be tripped" skills={{"climb":{"b":5}}} sq="firm grip" />
-<Ecology id="monster-familiar_spiny_starfish--eco-eco" env="any ocean" org="solitary, pair, or cluster (3-22)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",206]]} xp="65" n tiny vermin init={1} dv={60} tremorsense={20} pcp={0} />
+<Defense ac={[15,13,14]} mod="+1 Dex, +2 natural, +2 size" hp={[6,"1d8+2"]} fort="+4" ref="+1" will="+0" def={[["rapid healing","rapid healing"]]} immune="mind-affecting effects" />
+<Offense sp={5} cl={5} sw={5} melee="slam -1 (1d2-3 plus grab)" space={"2-1/2"} reach={"0"} grab="Small" />
+<Stats atts={[4,13,14,0,11,3]} bab={0} cmb={-1} cmbP="+5 when grappling" cmd={6} cmdP="can't be tripped" skills={{"climb":{"b":5}}} sq="firm grip" />
+<Ecology env="any ocean" org="solitary, pair, or cluster (3-22)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Firm Grip (Ex)</strong> A spiny starfish excels at grappling prey, and it gains a +6 racial bonus on <Link to="/rule/grapple">grapple</Link> checks (rather than the standard +4 bonus most creatures gain as a result of having the grab ability).</p>
@@ -1060,11 +1064,11 @@ const _familiar_spiny_starfish = {title: "Spiny Starfish (Familiar)", jsx: <><p>
 const _familiar_squirrel = {title: "Squirrel (Familiar)", jsx: <><p><em>A small, bright-eyed bundle of fur, this woodland creature has a bushy tail as big as the rest of its body.</em></p>
 <Header full><span>Squirrel</span><span>CR 1/8</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_squirrel--info" source={[["Ultimate Wilderness",207],["Animal Archive",31]]} xp="50" n diminutive animal init={4} llv pcp={1} />
-<Defense id="monster-familiar_squirrel--defense" ac={[18,18,14]} mod="+4 Dex, +4 size" hp={[3,"1d8-1"]} fort="+1" ref="+6" will="+1" />
-<Offense id="monster-familiar_squirrel--offense" sp={20} cl={20} melee="bite +8 (1d2-4)" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_squirrel--stats" atts={[2,19,9,2,12,9]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={["Weapon Finesse"]} skills={{"acro":{"b":8},"climb":{"b":12}}} />
-<Ecology id="monster-familiar_squirrel--eco-eco" env="temperate forests" org="solitary, pair, or scurry (3-8)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",207],["Animal Archive",31]]} xp="50" n diminutive animal init={4} llv pcp={1} />
+<Defense ac={[18,18,14]} mod="+4 Dex, +4 size" hp={[3,"1d8-1"]} fort="+1" ref="+6" will="+1" />
+<Offense sp={20} cl={20} melee="bite +8 (1d2-4)" space={"1"} reach={"0"} />
+<Stats atts={[2,19,9,2,12,9]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={["Weapon Finesse"]} skills={{"acro":{"b":8},"climb":{"b":12}}} />
+<Ecology env="temperate forests" org="solitary, pair, or scurry (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Squirrels are surprisingly wily creatures. When they know they are being watched, they pretend to bury nuts, but instead sneak them into their mouths and take them away to hide elsewhere when no one is watching. They eat most things, occasionally even preying on small snakes and birds.</p>
@@ -1074,12 +1078,12 @@ const _familiar_squirrel = {title: "Squirrel (Familiar)", jsx: <><p><em>A small,
 const _familiar_suture_vine = {title: "Suture Vine (Familiar)", jsx: <><p><em>This twitching, slithering coil of bright-green vines is covered with hooked thorns and tiny barbs.</em></p>
 <Header full><span>Suture Vine</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_suture_vine--info" source={[["Ultimate Wilderness",207]]} xp="135" n tiny plant init={1} sen={["blood sense"]} llv pcp={1} />
-<Defense id="monster-familiar_suture_vine--defense" ac={[13,13,12]} mod="+1 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+1" will="+1" immune={<Link to="/umr/plant_traits">plant traits</Link>} />
-<Offense id="monster-familiar_suture_vine--offense" sp={15} cl={15} melee="vine +3 (1d2-4)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_suture_vine--stats" atts={[3,12,10,0,13,5]} bab={0} cmb={-1} cmd={5} feats={[["Weapon Finesse",<sup>B</sup>]]} skills={{"climb":{"b":4}}} sq="seal wound" />
+<Info source={[["Ultimate Wilderness",207]]} xp="135" n tiny plant init={1} sen={["blood sense"]} llv pcp={1} />
+<Defense ac={[13,13,12]} mod="+1 Dex, +2 size" hp={[4,"1d8"]} fort="+2" ref="+1" will="+1" immune={<Link to="/umr/plant_traits">plant traits</Link>} />
+<Offense sp={15} cl={15} melee="vine +3 (1d2-4)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[3,12,10,0,13,5]} bab={0} cmb={-1} cmd={5} feats={[["Weapon Finesse",<sup>B</sup>]]} skills={{"climb":{"b":4}}} sq="seal wound" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-familiar_suture_vine--eco-eco" env="temperate forests" org="solitary, pair, or clinic (3-5)" treasure={{"X":false}} />
+<Ecology env="temperate forests" org="solitary, pair, or clinic (3-5)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Blood Sense (Ex)</strong> A suture vine can sense badly wounded creatures, including those at less than half their normal hit point total or suffering from <Link to="/rule/bleed">bleed</Link> damage, as if it had the <Link to="/umr/scent">scent</Link> ability.</p>
@@ -1092,11 +1096,11 @@ const _familiar_suture_vine = {title: "Suture Vine (Familiar)", jsx: <><p><em>Th
 const _familiar_tarsier = {title: "Tarsier (Familiar)", jsx: <><p><em>This small, furry creature has enormous glossy eyes, long legs, and elongated fingers.</em></p>
 <Header full><span>Tarsier</span><span>CR 1/6</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_tarsier--info" source={[["Ultimate Wilderness",208]]} xp="65" n diminutive animal init={3} llv pcp={5} />
-<Defense id="monster-familiar_tarsier--defense" ac={[17,17,14]} mod="+3 Dex, +4 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="+1" />
-<Offense id="monster-familiar_tarsier--offense" sp={20} cl={20} melee="bite +7 (1d2-4)" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_tarsier--stats" atts={[3,16,10,2,13,7]} bab={0} cmb={-1} cmd={5} cmdP="9 vs. trip" feats={["Weapon Finesse"]} skills={{"acro":{"b":7},"climb":{"b":8},"per":{"b":5},"stl":{"b":19}}} racial="+4 Acrobatics, +4 Climb, +4 Perception" sq="tarsier's leap" />
-<Ecology id="monster-familiar_tarsier--eco-eco" env="temperate or warm forests" org="solitary, pair, or family (3-6)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",208]]} xp="65" n diminutive animal init={3} llv pcp={5} />
+<Defense ac={[17,17,14]} mod="+3 Dex, +4 size" hp={[4,"1d8"]} fort="+2" ref="+5" will="+1" />
+<Offense sp={20} cl={20} melee="bite +7 (1d2-4)" space={"1"} reach={"0"} />
+<Stats atts={[3,16,10,2,13,7]} bab={0} cmb={-1} cmd={5} cmdP="9 vs. trip" feats={["Weapon Finesse"]} skills={{"acro":{"b":7},"climb":{"b":8},"per":{"b":5},"stl":{"b":19}}} racial="+4 Acrobatics, +4 Climb, +4 Perception" sq="tarsier's leap" />
+<Ecology env="temperate or warm forests" org="solitary, pair, or family (3-6)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Tarsier's Leap (Ex)</strong> A tarsier's long hind limbs make it an excellent leaper. A tarsier attempts Acrobatics checks to jump as though it had a running start and doesn't take a penalty on Acrobatics checks to jump from having a slow base speed.</p>
@@ -1107,11 +1111,11 @@ const _familiar_tarsier = {title: "Tarsier (Familiar)", jsx: <><p><em>This small
 </>};
 const _familiar_thrush = {title: "Thrush (Familiar)", jsx: <><Header full><span>Thrush</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_thrush--info" source={[["Ultimate Magic",120]]} xp="135" n diminutive animal init={2} llv pcp={5} />
-<Defense id="monster-familiar_thrush--defense" ac={[16,16,14]} mod="+2 Dex, +4 size" hp={[2,"1d8-2"]} fort="+0" ref="+4" will="+2" />
-<Offense id="monster-familiar_thrush--offense" sp={10} fl={40} flP="average" melee="bite -1 (1d2-5)" space={"1"} reach={"0"} />
-<Stats id="monster-familiar_thrush--stats" atts={[1,15,6,2,15,6]} bab={0} cmb={-2} cmd={3} feats={[["Skill Focus"," (Perception)"]]} skills={{"fly":{"b":12},"per":{"b":5}}} />
-<Ecology id="monster-familiar_thrush--eco-eco" env="temperate forests" org="solitary, pair, or flock (3-12)" treasure={{"X":false}} />
+<Info source={[["Ultimate Magic",120]]} xp="135" n diminutive animal init={2} llv pcp={5} />
+<Defense ac={[16,16,14]} mod="+2 Dex, +4 size" hp={[2,"1d8-2"]} fort="+0" ref="+4" will="+2" />
+<Offense sp={10} fl={40} flP="average" melee="bite -1 (1d2-5)" space={"1"} reach={"0"} />
+<Stats atts={[1,15,6,2,15,6]} bab={0} cmb={-2} cmd={3} feats={[["Skill Focus"," (Perception)"]]} skills={{"fly":{"b":12},"per":{"b":5}}} />
+<Ecology env="temperate forests" org="solitary, pair, or flock (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Thrushes are small, plump birds that eat fruit and insects. All thrushes are known for their beautiful songs, but thrush familiars are also capable of actual speech.</p>
@@ -1119,11 +1123,11 @@ const _familiar_thrush = {title: "Thrush (Familiar)", jsx: <><Header full><span>
 </>};
 const _familiar_toad = {title: "Toad (Familiar)", jsx: <><Header full><span>Toad</span><span>CR 1/8</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_toad--info" source={[["Pathfinder RPG Bestiary",133]]} xp="50" n diminutive animal init={1} llv scent pcp={5} />
-<Defense id="monster-familiar_toad--defense" ac={[15,15,14]} mod="+1 Dex, +4 size" hp={[2,"1d8-2"]} fort="+0" ref="+3" will="+2" />
-<Offense id="monster-familiar_toad--offense" sp={5} space={"1"} reach={"0"} />
-<Stats id="monster-familiar_toad--stats" atts={[1,12,6,1,15,4]} bab={0} cmb={-3} cmd={2} cmdP="6 vs. trip" feats={[["Skill Focus"," (Perception)"]]} skills={{"per":{"b":5},"stl":{"b":21}}} racial="+4 Stealth" />
-<Ecology id="monster-familiar_toad--eco-eco" env="temperate and warm forests" org="solitary, pair, or knot (3-100)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",133]]} xp="50" n diminutive animal init={1} llv scent pcp={5} />
+<Defense ac={[15,15,14]} mod="+1 Dex, +4 size" hp={[2,"1d8-2"]} fort="+0" ref="+3" will="+2" />
+<Offense sp={5} space={"1"} reach={"0"} />
+<Stats atts={[1,12,6,1,15,4]} bab={0} cmb={-3} cmd={2} cmdP="6 vs. trip" feats={[["Skill Focus"," (Perception)"]]} skills={{"per":{"b":5},"stl":{"b":21}}} racial="+4 Stealth" />
+<Ecology env="temperate and warm forests" org="solitary, pair, or knot (3-100)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Toads are harmless, rough-skinned amphibians.</p>
@@ -1131,12 +1135,12 @@ const _familiar_toad = {title: "Toad (Familiar)", jsx: <><Header full><span>Toad
 </>};
 const _familiar_trilobite = {title: "Trilobite (Familiar)", jsx: <><Header full><span>Trilobite</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_trilobite--info" source={[["Bestiary 5",113]]} xp="100" n tiny vermin subs={["aquatic"]} init={2} dv={30} pcp={4} />
-<Defense id="monster-familiar_trilobite--defense" ac={[15,14,13]} mod="+2 Dex, +1 natural, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+2" will="+0" immune="mind-affecting effects" />
-<Offense id="monster-familiar_trilobite--offense" sp={20} sw={30} melee="bite +4 (1d3-2)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_trilobite--stats" atts={[7,15,12,0,11,2]} bab={0} cmb={0} cmd={8} feats={[["Weapon Finesse",<sup>B</sup>]]} skills={{"per":{"b":4},"swim":{"b":10}}} racial="+4 Perception" sq="curl, water dependency" />
+<Info source={[["Bestiary 5",113]]} xp="100" n tiny vermin subs={["aquatic"]} init={2} dv={30} pcp={4} />
+<Defense ac={[15,14,13]} mod="+2 Dex, +1 natural, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+2" will="+0" immune="mind-affecting effects" />
+<Offense sp={20} sw={30} melee="bite +4 (1d3-2)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[7,15,12,0,11,2]} bab={0} cmb={0} cmd={8} feats={[["Weapon Finesse",<sup>B</sup>]]} skills={{"per":{"b":4},"swim":{"b":10}}} racial="+4 Perception" sq="curl, water dependency" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-familiar_trilobite--eco-eco" env="any oceans" org="solitary, pair, group (2-12)" treasure={{"X":false}} />
+<Ecology env="any oceans" org="solitary, pair, group (2-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Curl (Ex)</strong> As a standard action, a trilobite can curl into a ball, increasing its natural armor bonus by 2 but preventing it from taking any move actions. Uncurling is a standard action.</p>
@@ -1146,11 +1150,11 @@ const _familiar_trilobite = {title: "Trilobite (Familiar)", jsx: <><Header full>
 </>};
 const _familiar_tuatara = {title: "Tuatara (Familiar)", jsx: <><Header full><span>Tuatara</span><span>CR 1/4</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_tuatara--info" source={[["Bestiary 4",97]]} xp="100" n tiny animal init={1} dv={60} llv pcp={4} />
-<Defense id="monster-familiar_tuatara--defense" ac={[13,13,12]} mod="+1 Dex, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+3" will="+0" />
-<Offense id="monster-familiar_tuatara--offense" sp={20} cl={20} melee="bite +3 (1d3-4 plus attach)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_tuatara--stats" atts={[2,13,12,1,10,5]} bab={0} cmb={-1} cmd={5} cmdP="9 vs. trip" feats={["Weapon Finesse"]} skills={{"acro":{"b":5,"x":"+1 when jumping"},"climb":{"b":9},"per":{"b":4}}} racial="-4 Acrobatics when jumping, +4 Perception, +4 Survival" />
-<Ecology id="monster-familiar_tuatara--eco-eco" env="temperate islands" org="solitary or pair" />
+<Info source={[["Bestiary 4",97]]} xp="100" n tiny animal init={1} dv={60} llv pcp={4} />
+<Defense ac={[13,13,12]} mod="+1 Dex, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+3" will="+0" />
+<Offense sp={20} cl={20} melee="bite +3 (1d3-4 plus attach)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[2,13,12,1,10,5]} bab={0} cmb={-1} cmd={5} cmdP="9 vs. trip" feats={["Weapon Finesse"]} skills={{"acro":{"b":5,"x":"+1 when jumping"},"climb":{"b":9},"per":{"b":4}}} racial="-4 Acrobatics when jumping, +4 Perception, +4 Survival" />
+<Ecology env="temperate islands" org="solitary or pair" />
 </div>
 <Header sub>Description</Header>
 <p>Tuataras are cousins to true lizards. They mostly live on primordial islands where mammals have never established a foothold.</p>
@@ -1159,11 +1163,11 @@ const _familiar_tuatara = {title: "Tuatara (Familiar)", jsx: <><Header full><spa
 const _familiar_vampire_squid = {title: "Vampire Squid (Familiar)", jsx: <><p><em>This eerie-looking squid has red eyes and webbing between its hook-lined tentacles.</em></p>
 <Header full><span>Vampire Squid</span><span>CR 1/2</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_vampire_squid--info" source={[["Ultimate Wilderness",208]]} xp="200" n tiny animal init={2} dv={60} llv pcp={1} />
-<Defense id="monster-familiar_vampire_squid--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+6" will="+1" def={[["pressure adaptation","pressure adaptation"]]} />
-<Offense id="monster-familiar_vampire_squid--offense" sw={20} melee={<>bite +0 (1d3-2), tentacles +0 (<Link to="/umr/grab">grab</Link>)</>} space={"2-1/2"} reach={"0"} specAtt={[["photophores","photophores"]]} />
-<Stats id="monster-familiar_vampire_squid--stats" atts={[6,15,12,2,13,3]} bab={0} cmb={0} cmd={8} feats={["Lightning Reflexes"]} skills={{"stl":{"b":14},"swim":{"b":10}}} />
-<Ecology id="monster-familiar_vampire_squid--eco-eco" env="any oceans" org="solitary, pair, or school (3-8)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",208]]} xp="200" n tiny animal init={2} dv={60} llv pcp={1} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[5,"1d8+1"]} fort="+3" ref="+6" will="+1" def={[["pressure adaptation","pressure adaptation"]]} />
+<Offense sw={20} melee={<>bite +0 (1d3-2), tentacles +0 (<Link to="/umr/grab">grab</Link>)</>} space={"2-1/2"} reach={"0"} specAtt={[["photophores","photophores"]]} />
+<Stats atts={[6,15,12,2,13,3]} bab={0} cmb={0} cmd={8} feats={["Lightning Reflexes"]} skills={{"stl":{"b":14},"swim":{"b":10}}} />
+<Ecology env="any oceans" org="solitary, pair, or school (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Photophores (Ex)</strong> Once per day as a standard action while underwater, the vampire squid can release a 15-foot cone of disorienting bioluminescent mucus from its photophores, illuminating the area with <Link to="/rule/dim_light">dim light</Link>. A creature within this shimmering cloud of blue light must succeed at a DC 11 Fortitude save or be <Link to="/misc/dazzled">dazzled</Link> for as long as it remains in the cloud and for 1 round thereafter. The cloud persists for 1d4+1 rounds. The save DC is Constitution-based.</p>
@@ -1176,26 +1180,27 @@ const _familiar_vampire_squid = {title: "Vampire Squid (Familiar)", jsx: <><p><e
 </>};
 const _familiar_viper = {title: "Viper (Familiar)", jsx: <><Header full><span>Viper</span><span>CR 1/2</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_viper--info" source={[["Pathfinder RPG Bestiary",133]]} xp="200" n tiny animal init={3} llv scent pcp={9} />
-<Defense id="monster-familiar_viper--defense" ac={[16,15,13]} mod="+3 Dex, +1 natural, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+5" will="+1" />
-<Offense id="monster-familiar_viper--offense" sp={20} cl={20} sw={20} melee="bite +5 (1d2-2 plus poison)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_viper--stats" atts={[4,17,8,1,13,2]} bab={0} cmb={1} cmd={8} cmdP="can't be tripped" feats={["Weapon Finesse"]} skills={{"climb":{"b":11}}} racial="+4 Perception, +4 Stealth" />
-<Ecology id="monster-familiar_viper--eco-eco" env="any temperate and warm" org="solitary" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",133]]} xp="200" n tiny animal init={3} llv scent pcp={9} />
+<Defense ac={[16,15,13]} mod="+3 Dex, +1 natural, +2 size" hp={[3,"1d8-1"]} fort="+1" ref="+5" will="+1" />
+<Offense sp={20} cl={20} sw={20} melee="bite +5 (1d2-2 plus poison)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[4,17,8,1,13,2]} bab={0} cmb={1} cmd={8} cmdP="can't be tripped" feats={["Weapon Finesse"]} skills={{"climb":{"b":11}}} racial="+4 Perception, +4 Stealth" />
+<Ecology env="any temperate and warm" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-familiar_viper--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 9</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><Header sub>Description</Header>
+<AffInfo type="Bite-injury" save="Fort 9" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/con_damage">Con damage</Link></>} cure1 icon="p" />
+<Header sub>Description</Header>
 <p>Vipers are not particularly aggressive snakes, but their poisonous bite can be deadly.</p>
 <p><strong>Family:</strong> <Link to="/family/familiar">Familiar</Link></p>
 </>};
 const _familiar_wallaby = {title: "Wallaby (Familiar)", jsx: <><p><em>This bipedal mammal has a long tail, short arms, and long, limber legs that afford a strange hopping gait.</em></p>
 <Header full><span>Wallaby</span><span>CR 1/3</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_wallaby--info" source={[["Ultimate Wilderness",209],["Familiar Folio",27]]} xp="135" n small animal init={2} llv pcp={4} />
-<Defense id="monster-familiar_wallaby--defense" ac={[13,13,11]} mod="+2 Dex, +1 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+0" />
-<Offense id="monster-familiar_wallaby--offense" sp={40} melee="slam +0 (1d3-1)" />
-<Stats id="monster-familiar_wallaby--stats" atts={[8,14,11,2,10,4]} bab={0} cmb={-2} cmd={10} feats={[["Skill Focus"," (Acrobatics)"]]} skills={{"acro":{"b":5},"per":{"b":4}}} />
-<Ecology id="monster-familiar_wallaby--eco-eco" env="temperate or warm forests" org="solitary, pair, or court (3-10)" treasure={{"X":false}} />
+<Info source={[["Ultimate Wilderness",209],["Familiar Folio",27]]} xp="135" n small animal init={2} llv pcp={4} />
+<Defense ac={[13,13,11]} mod="+2 Dex, +1 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+0" />
+<Offense sp={40} melee="slam +0 (1d3-1)" />
+<Stats atts={[8,14,11,2,10,4]} bab={0} cmb={-2} cmd={10} feats={[["Skill Focus"," (Acrobatics)"]]} skills={{"acro":{"b":5},"per":{"b":4}}} />
+<Ecology env="temperate or warm forests" org="solitary, pair, or court (3-10)" treasure={{"X":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Wallabies are squat mammals that are often mistakenly identified as small <Link to="/monster/kangaroo">kangaroos</Link>. Like all marsupials, wallabies carry their newborn young in pouches at the front of their bodies. The wallaby defends itself using its strong hind legs, which it can launch quickly from under its body to deliver a powerful kick that sends would-be predators reeling.</p>
@@ -1204,11 +1209,11 @@ const _familiar_wallaby = {title: "Wallaby (Familiar)", jsx: <><p><em>This biped
 </>};
 const _familiar_weasel = {title: "Weasel (Familiar)", jsx: <><Header full><span>Weasel</span><span>CR 1/2</span></Header>
 <div className="reduce">
-<Info id="monster-familiar_weasel--info" source={[["Pathfinder RPG Bestiary",133]]} xp="200" n tiny animal init={2} llv scent pcp={1} />
-<Defense id="monster-familiar_weasel--defense" ac={[15,14,13]} mod="+2 Dex, +1 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+1" />
-<Offense id="monster-familiar_weasel--offense" sp={20} cl={20} melee="bite +4 (1d3-4 plus attach)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-familiar_weasel--stats" atts={[3,15,10,2,12,5]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={["Weapon Finesse"]} skills={{"acro":{"b":10},"climb":{"b":10},"ea":{"b":3},"stl":{"b":14}}} racial="+4 Stealth, +8 Acrobatics" />
-<Ecology id="monster-familiar_weasel--eco-eco" env="temperate hills" org="solitary" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",133]]} xp="200" n tiny animal init={2} llv scent pcp={1} />
+<Defense ac={[15,14,13]} mod="+2 Dex, +1 natural, +2 size" hp={[4,"1d8"]} fort="+2" ref="+4" will="+1" />
+<Offense sp={20} cl={20} melee="bite +4 (1d3-4 plus attach)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[3,15,10,2,12,5]} bab={0} cmb={0} cmd={6} cmdP="10 vs. trip" feats={["Weapon Finesse"]} skills={{"acro":{"b":10},"climb":{"b":10},"ea":{"b":3},"stl":{"b":14}}} racial="+4 Stealth, +8 Acrobatics" />
+<Ecology env="temperate hills" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Attach (Ex)</strong> When a weasel hits with a bite attack, it automatically <Link to="/rule/grapple">grapples</Link> its foe, inflicting automatic bite damage each round.</p>
@@ -1219,12 +1224,12 @@ const _familiar_weasel = {title: "Weasel (Familiar)", jsx: <><Header full><span>
 const _fantionette = {title: "Fantionette", jsx: <><p><em>What appears at first glance to be a child or halfling has skin more akin to cracked porcelain barely covering a black, insectile carapace, and it has spider-like legs where one would expect arms.</em></p>
 <Header full><span>Fantionette</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info id="monster-fantionette--info" source={[["Pathfinder #127: Crownfall",82]]} xp="1,200" ce small outsider subs={["chaotic","evil","extraplanar"]} init={8} dv={60} llv pcp={10} aura={"revelation (10 ft.)"} />
-<Defense id="monster-fantionette--defense" ac={[17,15,13]} mod="+4 Dex, +2 natural, +1 size" hp={[37,"5d10+10"]} fort="+3" ref="+8" will="+6" dr="5/good" immune="poison" sr="15" />
-<Offense id="monster-fantionette--offense" sp={30} cl={20} melee="bite +7 (1d4+1), 2 claws +7 (1d3+1)" rend="2 claws, 1d4+1" sneak="+1d6" />
-<SpellBlock id="monster-fantionette--spells-monster-spellblock-1" sla={{"cl":5,"con":"+8","content":[{"will":true,"content":<><Link to="/spell/bleed">bleed</Link> (DC 14), <Link to="/spell/charm_person">charm person</Link> (DC 14), <Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/ghost_sound">ghost sound</Link> (DC 14)</>},{"day":3,"content":<><Link to="/spell/darkness">darkness</Link>, <Link to="/spell/dimension_door">dimension door</Link>, <Link to="/spell/spiritual_weapon">spiritual weapon</Link></>},{"day":1,"content":<><Link to="/spell/glitterdust">glitterdust</Link> (DC 15), <Link to="/spell/scare">scare</Link> (DC 15)</>}]}} />
-<Stats id="monster-fantionette--stats" atts={[12,19,14,13,15,16]} bab={5} cmb={5} cmd={19} feats={["Following Step","Improved Initiative","Step Up"]} skills={{"acro":{"b":12},"bluff":{"b":11},"climb":{"b":9},"k":{"l":9},"per":{"b":10},"sm":{"b":10},"stl":{"b":16}}} lang={["A","C","H","U"]} sq="puppet strings" />
-<Ecology id="monster-fantionette--eco-eco" env={<>any (<Link to="/rule/the_abyss">the Abyss</Link> or <Link to="/rule/axis">Axis</Link>)</>} org="solitary, pair, or cast (3-12)" treasure={{"S":false}} />
+<Info source={[["Pathfinder #127: Crownfall",82]]} xp="1,200" ce small outsider subs={["chaotic","evil","extraplanar"]} init={8} dv={60} llv pcp={10} aura={"revelation (10 ft.)"} />
+<Defense ac={[17,15,13]} mod="+4 Dex, +2 natural, +1 size" hp={[37,"5d10+10"]} fort="+3" ref="+8" will="+6" dr="5/good" immune="poison" sr="15" />
+<Offense sp={30} cl={20} melee="bite +7 (1d4+1), 2 claws +7 (1d3+1)" rend="2 claws, 1d4+1" sneak="+1d6" />
+<SpellBlock id="1" sla={{"cl":5,"con":"+8","content":[{"will":true,"content":<><Link to="/spell/bleed">bleed</Link> (DC 14), <Link to="/spell/charm_person">charm person</Link> (DC 14), <Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/ghost_sound">ghost sound</Link> (DC 14)</>},{"day":3,"content":<><Link to="/spell/darkness">darkness</Link>, <Link to="/spell/dimension_door">dimension door</Link>, <Link to="/spell/spiritual_weapon">spiritual weapon</Link></>},{"day":1,"content":<><Link to="/spell/glitterdust">glitterdust</Link> (DC 15), <Link to="/spell/scare">scare</Link> (DC 15)</>}]}} />
+<Stats atts={[12,19,14,13,15,16]} bab={5} cmb={5} cmd={19} feats={["Following Step","Improved Initiative","Step Up"]} skills={{"acro":{"b":12},"bluff":{"b":11},"climb":{"b":9},"k":{"l":9},"per":{"b":10},"sm":{"b":10},"stl":{"b":16}}} lang={["A","C","H","U"]} sq="puppet strings" />
+<Ecology env={<>any (<Link to="/rule/the_abyss">the Abyss</Link> or <Link to="/rule/axis">Axis</Link>)</>} org="solitary, pair, or cast (3-12)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Aura of Revelation (Su)</strong> A fantionette appears as an adult halfling or a human child (its choice) to all creatures outside of its aura. This is an illusion (glamer) effect that can be bypassed only by <Link to="/spell/true_seeing">true seeing</Link> or similar magic. A creature within a fantionette's aura that is studying or interacting with it can attempt a DC 15 Will save to perceive the outsider for what it truly is. A creature that succeeds at this save or that is attacked by a fantionette immediately sees the fantionette's true form for the next 24 hours, even while outside the aura. The save DC is Charisma-based.</p>
@@ -1248,16 +1253,16 @@ const _fantionette = {title: "Fantionette", jsx: <><p><em>What appears at first 
 const _fastachee = {title: "Fastachee", jsx: <><p><em>This gaunt, two-foot-tall humanoid figure appears made of corn husks, and carries an oversized basket filled with corn.</em></p>
 <Header full><span>Fastachee</span><span>CR 11</span></Header>
 <div className="reduce">
-<Info id="monster-fastachee--info" source={[["Bestiary 5",114]]} xp="12,800" ng tiny fey init={10} sen={["plant projection"]} llv pcp={27} />
-<Defense id="monster-fastachee--defense" ac={[26,18,20]} mod="+6 Dex, +8 natural, +2 size" hp={[153,"18d6+90"]} fort="+12" ref="+17" will="+17" dr="10/cold iron" />
-<Offense id="monster-fastachee--offense" sp={30} melee="2 vines +18 (1d8-2)" space={"2-1/2"} reach={"0"} reachP={"30 ft. with vines"} />
-<SpellBlock id="monster-fastachee--spells-monster-spellblock-1" sla={{"cl":11,"con":"+15","content":[{"will":true,"content":<><Link to="/spell/plant_growth">plant growth</Link>, <Link to="/spell/speak_with_plants">speak with plants</Link>, <Link to="/spell/thorny_entanglement">thorny entanglement</Link> (DC 16), <Link to="/spell/transport_via_plants">transport via plants</Link></>}]}} />
-<SpellBlock id="monster-fastachee--spells-monster-spellblock-2" sla={{"cl":11,"con":"+17","sla":"Domain","content":[{"day":9,"content":<><em>rebuke death</em> (1d4+5)</>}]}} />
-<SpellBlock id="monster-fastachee--spells-monster-spellblock-3" prep={{"cl":11,"con":"+17","prep":"Druid","l6":<><Link to="/spell/greater_dispel_magic">greater dispel magic</Link>, <Link to="/spell/heal">heal</Link><sup>D,</sup> <Link to="/spell/mass_bears_endurance">mass bear's endurance</Link></>,"l5":<><Link to="/spell/baleful_polymorph">baleful polymorph</Link> (DC 21), <Link to="/spell/breath_of_life">breath of life</Link><sup>D,</sup> <Link to="/spell/commune_with_nature">commune with nature</Link>, <Link to="/spell/wall_of_thorns">wall of thorns</Link></>,"l4":<><Link to="/spell/command_plants">command plants</Link> (DC 20), <Link to="/spell/cure_critical_wounds">cure critical wounds</Link><sup>D,</sup> <Link to="/spell/flame_strike">flame strike</Link> (DC 20), <Link to="/spell/freedom_of_movement">freedom of movement</Link>, <Link to="/spell/spike_stones">spike stones</Link> (DC 20)</>,"l3":<><Link to="/spell/aqueous_orb">aqueous orb</Link> (DC 20), <Link to="/spell/call_lightning">call lightning</Link> (DC 19), <Link to="/spell/cure_serious_wounds">cure serious wounds</Link><sup>D,</sup> <Link to="/spell/protection_from_energy">protection from energy</Link>, <Link to="/spell/remove_disease">remove disease</Link>, <Link to="/spell/spike_growth">spike growth</Link> (DC 19)</>,"l2":<><Link to="/spell/barkskin">barkskin</Link>, <Link to="/spell/cats_grace">cat's grace</Link>, <Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link><sup>D,</sup> <Link to="/spell/flaming_sphere">flaming sphere</Link> (DC 18), <Link to="/spell/lesser_restoration">lesser restoration</Link>, <Link to="/spell/soften_earth_and_stone">soften earth and stone</Link>, <Link to="/spell/tree_shape">tree shape</Link></>,"l1":<><Link to="/spell/ant_haul">ant haul</Link>, <Link to="/spell/cure_light_wounds">cure light wounds</Link><sup>D,</sup> <Link to="/spell/endure_elements">endure elements</Link>, <Link to="/spell/faerie_fire">faerie fire</Link>, <Link to="/spell/goodberry">goodberry</Link>, <Link to="/spell/longstrider">longstrider</Link>, <Link to="/spell/obscuring_mist">obscuring mist</Link></>,"l0":<><Link to="/spell/create_water">create water</Link>, <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/purify_food_and_drink">purify food and drink</Link>, <Link to="/spell/stabilize">stabilize</Link></>}} />
-<SpellBlock id="monster-fastachee--spells-monster-spellblock-4" other={["Domain",[<><strong>Domain</strong> <Link to="/domain/healing">Healing</Link></>]]} />
+<Info source={[["Bestiary 5",114]]} xp="12,800" ng tiny fey init={10} sen={["plant projection"]} llv pcp={27} />
+<Defense ac={[26,18,20]} mod="+6 Dex, +8 natural, +2 size" hp={[153,"18d6+90"]} fort="+12" ref="+17" will="+17" dr="10/cold iron" />
+<Offense sp={30} melee="2 vines +18 (1d8-2)" space={"2-1/2"} reach={"0"} reachP={"30 ft. with vines"} />
+<SpellBlock id="1" sla={{"cl":11,"con":"+15","content":[{"will":true,"content":<><Link to="/spell/plant_growth">plant growth</Link>, <Link to="/spell/speak_with_plants">speak with plants</Link>, <Link to="/spell/thorny_entanglement">thorny entanglement</Link> (DC 16), <Link to="/spell/transport_via_plants">transport via plants</Link></>}]}} />
+<SpellBlock id="2" sla={{"cl":11,"con":"+17","sla":"Domain","content":[{"day":9,"content":<><em>rebuke death</em> (1d4+5)</>}]}} />
+<SpellBlock id="3" prep={{"cl":11,"con":"+17","prep":"Druid","l6":<><Link to="/spell/greater_dispel_magic">greater dispel magic</Link>, <Link to="/spell/heal">heal</Link><sup>D,</sup> <Link to="/spell/mass_bears_endurance">mass bear's endurance</Link></>,"l5":<><Link to="/spell/baleful_polymorph">baleful polymorph</Link> (DC 21), <Link to="/spell/breath_of_life">breath of life</Link><sup>D,</sup> <Link to="/spell/commune_with_nature">commune with nature</Link>, <Link to="/spell/wall_of_thorns">wall of thorns</Link></>,"l4":<><Link to="/spell/command_plants">command plants</Link> (DC 20), <Link to="/spell/cure_critical_wounds">cure critical wounds</Link><sup>D,</sup> <Link to="/spell/flame_strike">flame strike</Link> (DC 20), <Link to="/spell/freedom_of_movement">freedom of movement</Link>, <Link to="/spell/spike_stones">spike stones</Link> (DC 20)</>,"l3":<><Link to="/spell/aqueous_orb">aqueous orb</Link> (DC 20), <Link to="/spell/call_lightning">call lightning</Link> (DC 19), <Link to="/spell/cure_serious_wounds">cure serious wounds</Link><sup>D,</sup> <Link to="/spell/protection_from_energy">protection from energy</Link>, <Link to="/spell/remove_disease">remove disease</Link>, <Link to="/spell/spike_growth">spike growth</Link> (DC 19)</>,"l2":<><Link to="/spell/barkskin">barkskin</Link>, <Link to="/spell/cats_grace">cat's grace</Link>, <Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link><sup>D,</sup> <Link to="/spell/flaming_sphere">flaming sphere</Link> (DC 18), <Link to="/spell/lesser_restoration">lesser restoration</Link>, <Link to="/spell/soften_earth_and_stone">soften earth and stone</Link>, <Link to="/spell/tree_shape">tree shape</Link></>,"l1":<><Link to="/spell/ant_haul">ant haul</Link>, <Link to="/spell/cure_light_wounds">cure light wounds</Link><sup>D,</sup> <Link to="/spell/endure_elements">endure elements</Link>, <Link to="/spell/faerie_fire">faerie fire</Link>, <Link to="/spell/goodberry">goodberry</Link>, <Link to="/spell/longstrider">longstrider</Link>, <Link to="/spell/obscuring_mist">obscuring mist</Link></>,"l0":<><Link to="/spell/create_water">create water</Link>, <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/purify_food_and_drink">purify food and drink</Link>, <Link to="/spell/stabilize">stabilize</Link></>}} />
+<SpellBlock id="4" other={["Domain",[<><strong>Domain</strong> <Link to="/domain/healing">Healing</Link></>]]} />
 <p className="spells indented"><sup><strong>D</strong></sup> Domain spell</p>
-<Stats id="monster-fastachee--stats" atts={[6,23,18,19,22,17]} bab={9} cmb={13} cmd={21} feats={["Augment Summoning","Combat Casting","Great Fortitude","Improved Initiative",["Skill Focus"," (Heal)"],["Spell Focus"," (conjuration)"],"Toughness","Weapon Finesse",["Weapon Focus"," (vines)"]]} skills={{"acro":{"b":27},"craft":{"of":"alchemy","b":25},"ea":{"b":27},"heal":{"b":30},"k":{"a":22},"per":{"b":27}}} lang={["C","S"]} sq="bountiful basket, healer's blessing, sow corn" />
-<Ecology id="monster-fastachee--eco-eco" env="any temperate land" org="solitary or court (1 plus 2-26 other good-aligned fey)" treasure={{"D":false}} />
+<Stats atts={[6,23,18,19,22,17]} bab={9} cmb={13} cmd={21} feats={["Augment Summoning","Combat Casting","Great Fortitude","Improved Initiative",["Skill Focus"," (Heal)"],["Spell Focus"," (conjuration)"],"Toughness","Weapon Finesse",["Weapon Focus"," (vines)"]]} skills={{"acro":{"b":27},"craft":{"of":"alchemy","b":25},"ea":{"b":27},"heal":{"b":30},"k":{"a":22},"per":{"b":27}}} lang={["C","S"]} sq="bountiful basket, healer's blessing, sow corn" />
+<Ecology env="any temperate land" org="solitary or court (1 plus 2-26 other good-aligned fey)" treasure={{"D":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Bountiful Basket (Su)</strong> A fastachee carries a basket full of corn. Once per minute as a standard action, a fastachee can refill its basket with 2d6+12 ears of corn.</p>
@@ -1270,12 +1275,12 @@ const _fastachee = {title: "Fastachee", jsx: <><p><em>This gaunt, two-foot-tall 
 const _faun = {title: "Faun", jsx: <><p><em>This capricious figure has the upper torso, arms, and head of a man, but goat-like legs, a tail, and curling horns on his head.</em></p>
 <Header full><span>Faun</span><span>CR 1</span></Header>
 <div className="reduce">
-<Info id="monster-faun--info" source={[["Bestiary 3",114]]} xp="400" cg medium fey init={3} llv pcp={8} />
-<Defense id="monster-faun--defense" ac={[16,13,13]} mod="+3 Dex, +3 natural" hp={[13,"3d6+3"]} fort="+2" ref="+6" will="+5" dr="2/cold iron" />
-<Offense id="monster-faun--offense" sp={30} melee="dagger +4 (1d4+2/19-20)" ranged="shortbow +4 (1d6/&times;3)" specAtt={[["panpipes","panpipes"]]} />
-<SpellBlock id="monster-faun--spells-monster-spellblock-1" sla={{"cl":3,"con":"+6","content":[{"will":true,"content":<><Link to="/spell/ghost_sound">ghost sound</Link> (DC 13)</>},{"day":1,"content":<><Link to="/spell/hideous_laughter">hideous laughter</Link> (DC 15), <Link to="/spell/sleep">sleep</Link> (DC 14)</>}]}} />
-<Stats id="monster-faun--stats" atts={[14,16,13,11,14,17]} bab={1} cmb={3} cmd={16} feats={["Point-Blank Shot","Weapon Finesse"]} skills={{"acro":{"b":8},"bluff":{"b":9},"per":{"b":8}}} lang={["C","S"]} />
-<Ecology id="monster-faun--eco-eco" env="temperate forests" org="solitary, pair, or band (3-8)" treasure={{"S":[["Wd"],["Wsb20"]],"final":"‹eq-misc/masterwork panpipes›, other treasure"}} />
+<Info source={[["Bestiary 3",114]]} xp="400" cg medium fey init={3} llv pcp={8} />
+<Defense ac={[16,13,13]} mod="+3 Dex, +3 natural" hp={[13,"3d6+3"]} fort="+2" ref="+6" will="+5" dr="2/cold iron" />
+<Offense sp={30} melee="dagger +4 (1d4+2/19-20)" ranged="shortbow +4 (1d6/&times;3)" specAtt={[["panpipes","panpipes"]]} />
+<SpellBlock id="1" sla={{"cl":3,"con":"+6","content":[{"will":true,"content":<><Link to="/spell/ghost_sound">ghost sound</Link> (DC 13)</>},{"day":1,"content":<><Link to="/spell/hideous_laughter">hideous laughter</Link> (DC 15), <Link to="/spell/sleep">sleep</Link> (DC 14)</>}]}} />
+<Stats atts={[14,16,13,11,14,17]} bab={1} cmb={3} cmd={16} feats={["Point-Blank Shot","Weapon Finesse"]} skills={{"acro":{"b":8},"bluff":{"b":9},"per":{"b":8}}} lang={["C","S"]} />
+<Ecology env="temperate forests" org="solitary, pair, or band (3-8)" treasure={{"S":[["Wd"],["Wsb20"]],"final":"‹eq-misc/masterwork panpipes›, other treasure"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Panpipes (Su)</strong> Three times per day, a faun can use its masterwork panpipes to augment its spell-like abilities. Doing so is a swift action that increases the DC of the next spell-like ability it uses on its turn by +2.</p>
@@ -1289,16 +1294,17 @@ const _faun = {title: "Faun", jsx: <><p><em>This capricious figure has the upper
 const _fear_eater = {title: "Fear Eater", jsx: <><p><em>A distressingly humanoid face and stubby arms grow from this maggot-like creature's body.</em></p>
 <Header full><span>Fear Eater</span><span>CR 5</span></Header>
 <div className="reduce">
-<Info id="monster-fear_eater--info" source={[["Occult Bestiary",27]]} xp="1,600" ne medium fey init={10} dv={60} llv pcp={12} />
-<Defense id="monster-fear_eater--defense" ac={[18,16,12]} mod="+6 Dex, +2 natural" hp={[52,"8d6+24"]} fort="+5" ref="+12" will="+7" dr="5/cold iron" immune="disease, fear" />
-<Offense id="monster-fear_eater--offense" sp={30} cl={30} melee="2 claws +10 (1d6+2 plus anxiety spores)" specAtt={[["anxiety spores","anxiety spores"],["dread burst","dread burst"],["fungal snare","fungal snare"]]} />
-<SpellBlock id="monster-fear_eater--spells-monster-spellblock-1" sla={{"cl":5,"con":"+7","content":[{"will":true,"content":<><Link to="/spell/cause_fear">cause fear</Link> (DC 13), <Link to="/spell/dancing_lights">dancing lights</Link></>},{"day":3,"content":<><Link to="/spell/faerie_fire">faerie fire</Link>, <Link to="/spell/paranoia">paranoia</Link> (DC 14)</>},{"day":1,"content":<><Link to="/spell/fear">fear</Link>, <Link to="/spell/feather_fall">feather fall</Link></>}]}} />
-<Stats id="monster-fear_eater--stats" atts={[14,22,17,11,12,15]} bab={4} cmb={6} cmd={22} cmdP="can't be tripped" feats={["Combat Reflexes","Improved Initiative","Power Attack","Weapon Finesse"]} skills={{"acro":{"b":17},"climb":{"b":21},"intm":{"b":10},"per":{"b":12},"sm":{"b":12},"stl":{"b":17}}} racial="+8 Climb" lang={["Ak","U"]} />
-<Ecology id="monster-fear_eater--eco-eco" env="any underground" org="solitary, pair, or band (3-6)" treasure={{"S":false}} />
+<Info source={[["Occult Bestiary",27]]} xp="1,600" ne medium fey init={10} dv={60} llv pcp={12} />
+<Defense ac={[18,16,12]} mod="+6 Dex, +2 natural" hp={[52,"8d6+24"]} fort="+5" ref="+12" will="+7" dr="5/cold iron" immune="disease, fear" />
+<Offense sp={30} cl={30} melee="2 claws +10 (1d6+2 plus anxiety spores)" specAtt={[["anxiety spores","anxiety spores"],["dread burst","dread burst"],["fungal snare","fungal snare"]]} />
+<SpellBlock id="1" sla={{"cl":5,"con":"+7","content":[{"will":true,"content":<><Link to="/spell/cause_fear">cause fear</Link> (DC 13), <Link to="/spell/dancing_lights">dancing lights</Link></>},{"day":3,"content":<><Link to="/spell/faerie_fire">faerie fire</Link>, <Link to="/spell/paranoia">paranoia</Link> (DC 14)</>},{"day":1,"content":<><Link to="/spell/fear">fear</Link>, <Link to="/spell/feather_fall">feather fall</Link></>}]}} />
+<Stats atts={[14,22,17,11,12,15]} bab={4} cmb={6} cmd={22} cmdP="can't be tripped" feats={["Combat Reflexes","Improved Initiative","Power Attack","Weapon Finesse"]} skills={{"acro":{"b":17},"climb":{"b":21},"intm":{"b":10},"per":{"b":12},"sm":{"b":12},"stl":{"b":17}}} racial="+8 Climb" lang={["Ak","U"]} />
+<Ecology env="any underground" org="solitary, pair, or band (3-6)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Anxiety Spores (Ex)</strong> Any creature struck by the fear eater's claws must succeed at a DC 17 Fortitude saving throw or be infected with anxiety spores, which cause nervousness and muscle tremors.</p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-fear_eater--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/diseases"><IonIcon aria-label="Disease" icon="/icons/paramecia.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Disease-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 17</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>1 round</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/minute</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>Cumulative -1 penalty on saving throws against emotion-manipulating effects (maximum -5)</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 consecutive saves</td></tr></tbody></table></ScrollContainer></div><p><strong>Dread Burst (Su)</strong> As a standard action, a fear eater can cause mushrooms to erupt from any creature within 30 feet already infected with its anxiety spores. The targeted creature takes 1d6 points of <Link to="/rule/charisma_damage">Charisma damage</Link> (Fortitude DC 17 negates) as the growing spores siphon away her emotions. If the affected creature is currently <Link to="/misc/shaken">shaken</Link>, <Link to="/misc/frightened">frightened</Link>, or <Link to="/misc/panicked">panicked</Link>, any creature within 10 feet gains the same condition for 1d4 rounds (Will DC 17 negates). This is a mind-affecting fear effect. The save DCs are Charisma-based.</p>
+<AffInfo type="Disease-injury" save="Fort 17" freq="1/minute" onset="1 round" eff={<>Cumulative -1 penalty on saving throws against emotion-manipulating effects (maximum -5)</>} cure2c icon="d" />
+<p><strong>Dread Burst (Su)</strong> As a standard action, a fear eater can cause mushrooms to erupt from any creature within 30 feet already infected with its anxiety spores. The targeted creature takes 1d6 points of <Link to="/rule/charisma_damage">Charisma damage</Link> (Fortitude DC 17 negates) as the growing spores siphon away her emotions. If the affected creature is currently <Link to="/misc/shaken">shaken</Link>, <Link to="/misc/frightened">frightened</Link>, or <Link to="/misc/panicked">panicked</Link>, any creature within 10 feet gains the same condition for 1d4 rounds (Will DC 17 negates). This is a mind-affecting fear effect. The save DCs are Charisma-based.</p>
 <p><strong>Fungal Snare (Ex)</strong> Once every 1d4 rounds, a fear eater can spew a fungal mass up to 30 feet, which explodes and coats all creatures within a 10-foot-radius burst with sticky filaments. Creatures other than fear eaters are <Link to="/rule/entangled">entangled</Link> (Reflex DC 17 negates). An entangled creature can attempt to break free with a successful DC 14 Strength or Escape Artist check as a move action. The save DC is Charisma-based.</p>
 <Header sub>Description</Header>
 <p>These malicious fey prowl the darkest corners of the world, inspiring terror to fertilize the curious fungal fruits that sustain them. Fear eaters tend vast gardens of luminescent mushrooms that grow upon the bound, cringing bodies of their captives. The mushrooms drain emotions from the creatures fertilizing them, and their spores cause spikes of fear in their hosts, which spur the mushrooms to grow even larger. Many such gardens can be found in the stalactite-city known as the Court of Ether, for its dark fey inhabitants crave the piquant misery contained in the mushrooms and consider them a delicacy to be used in only the most bizarre culinary delights. Despite their role in production of these despair-laced luxuries, fear eaters are welcome only on the margins of most fey societies, and most fey rulers prefer to purchase their specialities through intermediaries rather than be seen associating with fear eaters directly.</p>
@@ -1307,12 +1313,12 @@ const _fear_eater = {title: "Fear Eater", jsx: <><p><em>A distressingly humanoid
 const _feargaunt = {title: "Feargaunt", jsx: <><p><em>This hulking shadow exudes a palpable menace, its form twisting into the shapes of hooks, grasping hands, and writhing tentacles.</em></p>
 <Header full><span>Feargaunt</span><span>CR 9</span></Header>
 <div className="reduce">
-<Info id="monster-feargaunt--info" source={[["Occult Bestiary",28]]} xp="6,400" ce large outsider subs={["extraplanar","incorporeal"]} init={9} dv={60} pcp={18} aura={"nightmare (60 ft., DC 20)"} />
-<Defense id="monster-feargaunt--defense" ac={[23,23,17]} mod="+7 deflection, +5 Dex, +1 dodge, -1 size" hp={[102,"12d10+36"]} fort="+7" ref="+13" will="+11" incorp />
-<Offense id="monster-feargaunt--offense" fl={40} flP="perfect" melee="tormenting touch +16 (6d6)" space={"10"} reach={"10"} specAtt={[["tormenting touch","tormenting touch"]]} />
-<SpellBlock id="monster-feargaunt--spells-monster-spellblock-1" sla={{"cl":12,"con":"+16","content":[{"will":true,"content":<><Link to="/spell/fear">fear</Link> (DC 17), <Link to="/spell/ghost_sound">ghost sound</Link> (DC 14)</>},{"day":3,"content":<><Link to="/spell/confusion">confusion</Link> (DC 17), <Link to="/spell/nightmare">nightmare</Link> (DC 19), <Link to="/spell/phantasmal_killer">phantasmal killer</Link> (DC 18)</>}]}} />
-<Stats id="monster-feargaunt--stats" atts={[0,21,17,12,16,19]} bab={12} cmb={18} cmd={37} feats={["Blind-Fight","Dodge","Flyby Attack","Improved Initiative","Lunge",["Skill Focus"," (Stealth)"]]} skills={{"bluff":{"b":19},"fly":{"b":26},"intm":{"b":19},"k":{"p":16},"per":{"b":18},"sm":{"b":18},"stl":{"b":22}}} lang={["CX",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq="never far behind, prideful defense" />
-<Ecology id="monster-feargaunt--eco-eco" env={<>any (<Link to="/rule/dimension_of_dreams">Dimension of Dreams</Link>)</>} org="solitary" treasure={{"X":false}} />
+<Info source={[["Occult Bestiary",28]]} xp="6,400" ce large outsider subs={["extraplanar","incorporeal"]} init={9} dv={60} pcp={18} aura={"nightmare (60 ft., DC 20)"} />
+<Defense ac={[23,23,17]} mod="+7 deflection, +5 Dex, +1 dodge, -1 size" hp={[102,"12d10+36"]} fort="+7" ref="+13" will="+11" incorp />
+<Offense fl={40} flP="perfect" melee="tormenting touch +16 (6d6)" space={"10"} reach={"10"} specAtt={[["tormenting touch","tormenting touch"]]} />
+<SpellBlock id="1" sla={{"cl":12,"con":"+16","content":[{"will":true,"content":<><Link to="/spell/fear">fear</Link> (DC 17), <Link to="/spell/ghost_sound">ghost sound</Link> (DC 14)</>},{"day":3,"content":<><Link to="/spell/confusion">confusion</Link> (DC 17), <Link to="/spell/nightmare">nightmare</Link> (DC 19), <Link to="/spell/phantasmal_killer">phantasmal killer</Link> (DC 18)</>}]}} />
+<Stats atts={[0,21,17,12,16,19]} bab={12} cmb={18} cmd={37} feats={["Blind-Fight","Dodge","Flyby Attack","Improved Initiative","Lunge",["Skill Focus"," (Stealth)"]]} skills={{"bluff":{"b":19},"fly":{"b":26},"intm":{"b":19},"k":{"p":16},"per":{"b":18},"sm":{"b":18},"stl":{"b":22}}} lang={["CX",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq="never far behind, prideful defense" />
+<Ecology env={<>any (<Link to="/rule/dimension_of_dreams">Dimension of Dreams</Link>)</>} org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Never Far Behind (Su)</strong> A number of times per day equal to its Charisma modifier, a feargaunt can teleport to a square adjacent to a creature that is still shaken from the feargaunt's nightmare aura or damaged by its tormenting touch. This ability functions as <Link to="/spell/greater_teleport">greater teleport</Link>. This ability functions only if the feargaunt and the creature are both in the Dimension of Dreams.</p>
@@ -1326,11 +1332,11 @@ const _feargaunt = {title: "Feargaunt", jsx: <><p><em>This hulking shadow exudes
 const _feeder_in_the_depths = {title: "Feeder in the Depths", jsx: <><p><em>An immense gray-and-white shark glides through the water, its piercing red eyes revealing a vicious intelligence.</em></p>
 <Header full><span>Feeder in the Depths</span><span>CR 8</span></Header>
 <div className="reduce">
-<Info id="monster-feeder_in_the_depths--info" source={[["Monster Codex",196]]} xp="4,800" le huge magicalBeast init={2} dv={60} llv keenScent blindsense={30} pcp={20} aura={"blood feast (30 ft.)"} />
-<Defense id="monster-feeder_in_the_depths--defense" ac={[20,10,18]} mod="+2 Dex, +10 natural, -2 size" hpRaw="105 (10d10+50); blood feast" fort="+12" ref="+9" will="+7" resist="cold 20" sr="19" />
-<Offense id="monster-feeder_in_the_depths--offense" sw={80} melee="bite +15/+10 (2d6+10/19-20 plus deadly bleeding)" space={"15"} reach={"10"} specAtt={[["swift bite","swift bite"]]} />
-<Stats id="monster-feeder_in_the_depths--stats" atts={[24,15,20,13,15,14]} bab={10} cmb={19} cmd={31} cmdP="can't be tripped" feats={["Combat Reflexes",["Improved Critical"," (bite)"],"Intimidating Prowess","Iron Will","Vital Strike"]} skills={{"intm":{"b":19},"k":{"r":11},"per":{"b":20},"swim":{"b":15}}} racial="+5 Perception" lang={["Ak","Aq","I"]} />
-<Ecology id="monster-feeder_in_the_depths--eco-eco" env="any oceans" org="solitary" treasure={{"X":false}} />
+<Info source={[["Monster Codex",196]]} xp="4,800" le huge magicalBeast init={2} dv={60} llv keenScent blindsense={30} pcp={20} aura={"blood feast (30 ft.)"} />
+<Defense ac={[20,10,18]} mod="+2 Dex, +10 natural, -2 size" hpRaw="105 (10d10+50); blood feast" fort="+12" ref="+9" will="+7" resist="cold 20" sr="19" />
+<Offense sw={80} melee="bite +15/+10 (2d6+10/19-20 plus deadly bleeding)" space={"15"} reach={"10"} specAtt={[["swift bite","swift bite"]]} />
+<Stats atts={[24,15,20,13,15,14]} bab={10} cmb={19} cmd={31} cmdP="can't be tripped" feats={["Combat Reflexes",["Improved Critical"," (bite)"],"Intimidating Prowess","Iron Will","Vital Strike"]} skills={{"intm":{"b":19},"k":{"r":11},"per":{"b":20},"swim":{"b":15}}} racial="+5 Perception" lang={["Ak","Aq","I"]} />
+<Ecology env="any oceans" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Blood Feast (Su)</strong> When a creature within 30 feet of a feeder in the depths takes <Link to="/rule/bleed">bleed</Link> damage (including ongoing damage), the feeder heals an equal amount of damage.</p>
@@ -1344,12 +1350,12 @@ const _feeder_in_the_depths = {title: "Feeder in the Depths", jsx: <><p><em>An i
 const _fellsig = {title: "Fellsig", jsx: <><p><em>This squat figure's rough-hewn visage is frozen in a mask of pain, while the cracks in its dark stone body glow with a fiery inner heat.</em></p>
 <Header full><span>Fellsig</span><span>CR 3</span></Header>
 <div className="reduce">
-<Info id="monster-fellsig--info" source={[["Andoran, Birthplace of Freedom",55]]} xp="800" ne medium undead subs={["fire"]} init={0} dv={60} tremorsense={30} pcp={9} />
-<Defense id="monster-fellsig--defense" ac={[15,10,15]} mod="+5 natural" hp={[27,"5d8+5"]} fort="+2" ref="+1" will="+5" def={[["molten heart","molten heart"]]} immune={<>fire, <Link to="/umr/undead_traits">undead traits</Link></>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
-<Offense id="monster-fellsig--offense" sp={20} melee="slam +6 (1d4+4 plus burn)" ranged="lava ball +3 ranged touch (1d6 fire plus burn)" specAtt={[["eruption","eruption"],["lava ball","lava ball"]]} burn="1d6, DC 13" />
-<SpellBlock id="monster-fellsig--spells-monster-spellblock-1" sla={{"cl":5,"con":"+6","content":[{"day":5,"content":<Link to="/spell/pyrotechnics">pyrotechnics</Link>},{"day":3,"content":<><Link to="/spell/burning_hands">burning hands</Link> (DC 12)</>}]}} />
-<Stats id="monster-fellsig--stats" atts={[16,10,0,8,13,12]} bab={3} cmb={6} cmbP="+8 bull rush" cmd={16} cmdP="18 vs. bull rush" feats={["Blind-Fight","Improved Bull Rush","Power Attack"]} skills={{"craft":{"of":"any","b":6},"intm":{"b":9},"per":{"b":9}}} lang={["Dw","Ig"]} />
-<Ecology id="monster-fellsig--eco-eco" env="any mountains or underground" org="solitary, pair, or flow (3-8)" treasure={{"S":false}} />
+<Info source={[["Andoran, Birthplace of Freedom",55]]} xp="800" ne medium undead subs={["fire"]} init={0} dv={60} tremorsense={30} pcp={9} />
+<Defense ac={[15,10,15]} mod="+5 natural" hp={[27,"5d8+5"]} fort="+2" ref="+1" will="+5" def={[["molten heart","molten heart"]]} immune={<>fire, <Link to="/umr/undead_traits">undead traits</Link></>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
+<Offense sp={20} melee="slam +6 (1d4+4 plus burn)" ranged="lava ball +3 ranged touch (1d6 fire plus burn)" specAtt={[["eruption","eruption"],["lava ball","lava ball"]]} burn="1d6, DC 13" />
+<SpellBlock id="1" sla={{"cl":5,"con":"+6","content":[{"day":5,"content":<Link to="/spell/pyrotechnics">pyrotechnics</Link>},{"day":3,"content":<><Link to="/spell/burning_hands">burning hands</Link> (DC 12)</>}]}} />
+<Stats atts={[16,10,0,8,13,12]} bab={3} cmb={6} cmbP="+8 bull rush" cmd={16} cmdP="18 vs. bull rush" feats={["Blind-Fight","Improved Bull Rush","Power Attack"]} skills={{"craft":{"of":"any","b":6},"intm":{"b":9},"per":{"b":9}}} lang={["Dw","Ig"]} />
+<Ecology env="any mountains or underground" org="solitary, pair, or flow (3-8)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Lava Ball (Su)</strong> As a full-round action, a fellsig can regurgitate a ball of lava into its fist and hurl it with a range increment of 30 feet. Any creature struck must succeed at a DC 13 Reflex save or <Link to="/rule/catch_fire">catch fire</Link> and take 1d6 points of fire damage at the start of its turn for an additional 1d4 rounds. The save DC is Charisma-based.</p>
@@ -1361,11 +1367,11 @@ const _fellsig = {title: "Fellsig", jsx: <><p><em>This squat figure's rough-hewn
 const _fen_mauler = {title: "Fen Mauler", jsx: <><p><em>This figure looms within the shadows. The bones and teeth of countless creatures clatter from tangles within its matted, reeking fur.</em></p>
 <Header full><span>Fen Mauler</span><span>CR 10</span></Header>
 <div className="reduce">
-<Info id="monster-fen_mauler--info" source={[["Bestiary 6",127]]} xp="9,600" ne large monstrousHumanoid init={8} dv={60} llv scent pcp={17} aura={<><Link to="/umr/stench">stench</Link> (DC 15, 10 rounds)</>} />
-<Defense id="monster-fen_mauler--defense" ac={[24,14,19]} mod="+4 Dex, +1 dodge, +10 natural, -1 size" hp={[136,"13d10+65"]} fort="+11" ref="+12" will="+11" def={[["shadowy pelt","shadowy pelt"]]} immune="disease" resist="cold 10" />
-<Offense id="monster-fen_mauler--offense" sp={30} melee="bite +20 (1d8+8), 2 claws +20 (1d8+8)" space={"10"} reach={"10"} pounce rend="2 claws, 1d8+12" />
-<Stats id="monster-fen_mauler--stats" atts={[27,18,20,7,17,8]} bab={13} cmb={22} cmd={37} feats={["Dodge","Great Fortitude","Improved Initiative","Intimidating Prowess","Mobility","Power Attack",["Skill Focus"," (Stealth)"]]} skills={{"intm":{"b":16},"per":{"b":17}}} racial="+4 Perception, +8 Stealth in swamps, +4 Survival" lang={[["Sasquatch"]]} sq="swamp stride, trophy hunter" />
-<Ecology id="monster-fen_mauler--eco-eco" env="temperate swamps" org="solitary, pair, or party (3-7)" treasure={{"S":false}} />
+<Info source={[["Bestiary 6",127]]} xp="9,600" ne large monstrousHumanoid init={8} dv={60} llv scent pcp={17} aura={<><Link to="/umr/stench">stench</Link> (DC 15, 10 rounds)</>} />
+<Defense ac={[24,14,19]} mod="+4 Dex, +1 dodge, +10 natural, -1 size" hp={[136,"13d10+65"]} fort="+11" ref="+12" will="+11" def={[["shadowy pelt","shadowy pelt"]]} immune="disease" resist="cold 10" />
+<Offense sp={30} melee="bite +20 (1d8+8), 2 claws +20 (1d8+8)" space={"10"} reach={"10"} pounce rend="2 claws, 1d8+12" />
+<Stats atts={[27,18,20,7,17,8]} bab={13} cmb={22} cmd={37} feats={["Dodge","Great Fortitude","Improved Initiative","Intimidating Prowess","Mobility","Power Attack",["Skill Focus"," (Stealth)"]]} skills={{"intm":{"b":16},"per":{"b":17}}} racial="+4 Perception, +8 Stealth in swamps, +4 Survival" lang={[["Sasquatch"]]} sq="swamp stride, trophy hunter" />
+<Ecology env="temperate swamps" org="solitary, pair, or party (3-7)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Shadowy Pelt (Su)</strong> A fen mauler can swathe itself in shadows, allowing it to become nearly invisible while standing motionless. A fen mauler gains partial <Link to="/rule/concealment">concealment</Link> on any round it does not move from its current space.</p>
@@ -1377,11 +1383,11 @@ const _fen_mauler = {title: "Fen Mauler", jsx: <><p><em>This figure looms within
 const _feranth = {title: "Feranth", jsx: <><p><em>A droning hum announces the presence of this enormous horned beast. Powerful muscles ripple just beneath its mottled black hide.</em></p>
 <Header full><span>Feranth</span><span>CR 14</span></Header>
 <div className="reduce">
-<Info id="monster-feranth--info" source={[["Pathfinder #90: The Divinity Drive",82]]} xp="38,400" ce huge magicalBeast init={-2} dv={60} llv tremorsense={120} pcp={16} />
-<Defense id="monster-feranth--defense" ac={[29,6,29]} mod="-2 Dex, +23 natural, -2 size" hp={[218,"19d10+114"]} fort="+16" ref="+9" will="+11" def={[["hardened body","hardened body"]]} ferocity dr="5/adamantine" />
-<Offense id="monster-feranth--offense" sp={50} br={30} melee="bite +25 (2d6+8), 2 claws +25 (1d8+8), gore +25 (2d6+8 plus push)" space={"15"} reach={"15"} specAtt={[["ambush","ambush"],["burrowing charge","burrowing charge"],["quick strike","quick strike"],["skull-splitting roar","skull-splitting roar"]]} push="gore, 10 ft." />
-<Stats id="monster-feranth--stats" atts={[26,7,20,4,17,7]} bab={19} cmb={29} cmbP="+31 bull rush" cmd={37} cmdP="39 vs. bull rush, 41 vs. trip" feats={["Awesome Blow","Cleave","Great Cleave","Improved Bull Rush","Improved Iron Will","Iron Will","Power Attack","Run","Stunning Assault","Toughness"]} skills={{"acro":{"b":10,"x":"+18 when jumping"},"climb":{"b":15},"per":{"b":16}}} racial="+8 Acrobatics when jumping, +4 Perception" />
-<Ecology id="monster-feranth--eco-eco" env="warm deserts or mountains" org="solitary or pair" treasure={{"X":false}} />
+<Info source={[["Pathfinder #90: The Divinity Drive",82]]} xp="38,400" ce huge magicalBeast init={-2} dv={60} llv tremorsense={120} pcp={16} />
+<Defense ac={[29,6,29]} mod="-2 Dex, +23 natural, -2 size" hp={[218,"19d10+114"]} fort="+16" ref="+9" will="+11" def={[["hardened body","hardened body"]]} ferocity dr="5/adamantine" />
+<Offense sp={50} br={30} melee="bite +25 (2d6+8), 2 claws +25 (1d8+8), gore +25 (2d6+8 plus push)" space={"15"} reach={"15"} specAtt={[["ambush","ambush"],["burrowing charge","burrowing charge"],["quick strike","quick strike"],["skull-splitting roar","skull-splitting roar"]]} push="gore, 10 ft." />
+<Stats atts={[26,7,20,4,17,7]} bab={19} cmb={29} cmbP="+31 bull rush" cmd={37} cmdP="39 vs. bull rush, 41 vs. trip" feats={["Awesome Blow","Cleave","Great Cleave","Improved Bull Rush","Improved Iron Will","Iron Will","Power Attack","Run","Stunning Assault","Toughness"]} skills={{"acro":{"b":10,"x":"+18 when jumping"},"climb":{"b":15},"per":{"b":16}}} racial="+8 Acrobatics when jumping, +4 Perception" />
+<Ecology env="warm deserts or mountains" org="solitary or pair" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Ambush (Ex)</strong> When a feranth <Link to="/rule/charge">charges</Link>, instead of making an attack at the end of the charge, it can instead use its skull-splitting roar ability, although the DC to resist this ability is 4 lower when the ability is used in this fashion.</p>
@@ -1406,11 +1412,11 @@ const _feranth = {title: "Feranth", jsx: <><p><em>A droning hum announces the pr
 const _festering_spirit = {title: "Festering Spirit", jsx: <><p><em>This ghost-like creature reeks of the grave and drips with putrescent goo.</em></p>
 <Header full><span>Festering Spirit</span><span>CR 8</span></Header>
 <div className="reduce">
-<Info id="monster-festering_spirit--info" source={[["Bestiary 4",98]]} xp="4,800" ce medium undead subs={["incorporeal"]} init={9} dv={60} pcp={13} aura={<><Link to="/umr/stench">stench</Link> (DC 14, 10 rounds)</>} />
-<Defense id="monster-festering_spirit--defense" ac={[18,18,12]} mod="+2 deflection, +5 Dex, +1 dodge" hp={[58,"9d8+18"]} fort="+5" ref="+8" will="+7" chanRes="+2" incorp immune={<Link to="/umr/undead_traits">undead traits</Link>} />
-<Offense id="monster-festering_spirit--offense" fl={40} flP="good" melee={<>incorporeal touch +11 (1d4 <Link to="/rule/con_damage">Con damage</Link> plus slime)</>} specAtt={[["create spawn","create spawn"],["slime","slime"]]} trample="1 Con plus slime, DC 16" />
-<Stats id="monster-festering_spirit--stats" atts={[0,20,0,6,12,15]} bab={6} cmb={11} cmd={24} feats={["Combat Reflexes","Dodge","Flyby Attack","Improved Initiative","Mobility"]} skills={{"fly":{"b":9},"per":{"b":13},"stl":{"b":17}}} sq="ghost touch" />
-<Ecology id="monster-festering_spirit--eco-eco" env="any land or underground" org="solitary, pair, or gang (3-6)" treasure={{"I":false}} />
+<Info source={[["Bestiary 4",98]]} xp="4,800" ce medium undead subs={["incorporeal"]} init={9} dv={60} pcp={13} aura={<><Link to="/umr/stench">stench</Link> (DC 14, 10 rounds)</>} />
+<Defense ac={[18,18,12]} mod="+2 deflection, +5 Dex, +1 dodge" hp={[58,"9d8+18"]} fort="+5" ref="+8" will="+7" chanRes="+2" incorp immune={<Link to="/umr/undead_traits">undead traits</Link>} />
+<Offense fl={40} flP="good" melee={<>incorporeal touch +11 (1d4 <Link to="/rule/con_damage">Con damage</Link> plus slime)</>} specAtt={[["create spawn","create spawn"],["slime","slime"]]} trample="1 Con plus slime, DC 16" />
+<Stats atts={[0,20,0,6,12,15]} bab={6} cmb={11} cmd={24} feats={["Combat Reflexes","Dodge","Flyby Attack","Improved Initiative","Mobility"]} skills={{"fly":{"b":9},"per":{"b":13},"stl":{"b":17}}} sq="ghost touch" />
+<Ecology env="any land or underground" org="solitary, pair, or gang (3-6)" treasure={{"I":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Create Spawn (Su)</strong> A humanoid creature killed by a festering spirit's Constitution damage becomes a festering spirit under the control of its killer in 1d4 days. Giving the corpse a proper burial (or cremation) prevents it from becoming a festering spirit.</p>
@@ -1424,16 +1430,17 @@ const _festering_spirit = {title: "Festering Spirit", jsx: <><p><em>This ghost-l
 const _festrog = {title: "Festrog", jsx: <><p><em>This hideously malformed, hairless, pustule-covered corpse moves and snarls more like an undead hound than an undead man.</em></p>
 <Header full><span>Festrog</span><span>CR 1</span></Header>
 <div className="reduce">
-<Info id="monster-festrog--info" source={[["Bestiary 3",115],["Hungry are the Dead",30]]} xp="400" ne medium undead init={1} dv={60} scent pcp={6} />
-<Defense id="monster-festrog--defense" ac={[14,11,13]} mod="+1 Dex, +3 natural" hp={[9,"2d8"]} fort="+0" ref="+1" will="+4" immune={<Link to="/umr/undead_traits">undead traits</Link>} />
-<Offense id="monster-festrog--offense" sp={30} spExtra="four-footed run" melee="bite +4 (1d6+3 plus feed), 2 claws +5 (1d4+3)" specAtt={[["charging trip","charging trip"],["diseased pustules","diseased pustules"],["feed","feed"]]} />
-<Stats id="monster-festrog--stats" atts={[17,13,0,10,12,11]} bab={1} cmb={4} cmd={15} cmdP="19 vs. trip" feats={[["Weapon Focus"," (claw)"]]} skills={{"climb":{"b":8},"per":{"b":6}}} lang={["C"]} />
-<Ecology id="monster-festrog--eco-eco" env="any land" org="solitary, pair, gang (3-5), or pack (6-11)" treasure={{"S":false}} />
+<Info source={[["Bestiary 3",115],["Hungry are the Dead",30]]} xp="400" ne medium undead init={1} dv={60} scent pcp={6} />
+<Defense ac={[14,11,13]} mod="+1 Dex, +3 natural" hp={[9,"2d8"]} fort="+0" ref="+1" will="+4" immune={<Link to="/umr/undead_traits">undead traits</Link>} />
+<Offense sp={30} spExtra="four-footed run" melee="bite +4 (1d6+3 plus feed), 2 claws +5 (1d4+3)" specAtt={[["charging trip","charging trip"],["diseased pustules","diseased pustules"],["feed","feed"]]} />
+<Stats atts={[17,13,0,10,12,11]} bab={1} cmb={4} cmd={15} cmdP="19 vs. trip" feats={[["Weapon Focus"," (claw)"]]} skills={{"climb":{"b":8},"per":{"b":6}}} lang={["C"]} />
+<Ecology env="any land" org="solitary, pair, gang (3-5), or pack (6-11)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Charging Trip (Ex)</strong> A festrog that hits with its bite after making a charge attack on all fours can attempt to <Link to="/rule/trip">trip</Link> its opponent (+4 bonus). This trip does not provoke attacks of opportunity.</p>
 <p><strong>Diseased Pustules (Ex)</strong> When a festrog takes damage from a piercing or slashing weapon, some of its boils rupture, squirting the attacker with pus-like fluids. The noxious secretions carry a potent contact disease that causes those infected to break out into painful necrotic boils.</p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-festrog--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/diseases"><IonIcon aria-label="Disease" icon="/icons/paramecia.svg" /></ThLink><th colSpan={4} scope="col" className="title">Necrotic Boils</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Disease-contact</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 11</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>1 day</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/day</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d4 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><p><strong>Feed (Su)</strong> Every time a festrog makes a successful bite attack, it feeds on its opponent's flesh and gains 5 <Link to="/rule/temporary_hit_points">temporary hit points</Link>. The festrog cannot have more than 5 temporary hit points gained by this ability at one time.</p>
+<AffInfo type="Disease-contact" save="Fort 11" freq="1/day" onset="1 day" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link></>} cure1 icon="d">Necrotic Boils</AffInfo>
+<p><strong>Feed (Su)</strong> Every time a festrog makes a successful bite attack, it feeds on its opponent's flesh and gains 5 <Link to="/rule/temporary_hit_points">temporary hit points</Link>. The festrog cannot have more than 5 temporary hit points gained by this ability at one time.</p>
 <p><strong>Four-Footed Run (Ex)</strong> A festrog can run on all fours at speed of 50 feet if it doesn't hold or carry anything in its hands. When running on all fours, it is treated as if it had the <Link to="/feat/run">Run</Link> feat.</p>
 <Header sub>Description</Header>
 <p>A festrog is an undead abomination spawned when a creature is killed by a massive release of negative energy (perhaps due to planar bleeding, the destruction of a potent artifact, or even certain magical attacks by powerful undead), and then mutilated by an outside force, such as the scavenging of wild animals. Sometimes called dog-ghouls for their ability to run on all fours, the name often causes opponents to misinterpret this creature's abilities and grossly underestimate its intelligence, for the festrog is in fact a rather canny monstrosity.</p>
@@ -1442,12 +1449,12 @@ const _festrog = {title: "Festrog", jsx: <><p><em>This hideously malformed, hair
 const _fetchling = {title: "Fetchling", jsx: <><p><em>This gaunt man appears drained of color, like a person viewed at twilight or in a dark alley.</em></p>
 <Header full><span>Fetchling</span><span>CR 1/2</span></Header>
 <div className="reduce">
-<Info id="monster-fetchling-fetchling-classrogue-1-info" source={[["Bestiary 2",123]]} xp="200" text={<>Fetchling <Link to="/class/rogue">rogue</Link> 1</>} n medium outsider subs={["native"]} init={3} dv={60} llv pcp={3} />
-<Defense id="monster-fetchling--defense" ac={[17,13,14]} mod="+4 armor, +3 Dex" hp={[10,"1d8+2"]} fort="+2" ref="+5" will="-1" def={[["shadow bending","shadow bending"]]} resist="cold 5, electricity 5" />
-<Offense id="monster-fetchling--offense" sp={30} melee="dagger +3 (1d4+1/19-20)" sneak="+1d6" />
-<SpellBlock id="monster-fetchling--spells-monster-spellblock-1" sla={{"cl":1,"con":"+3","content":[{"day":1,"content":<><Link to="/spell/disguise_self">disguise self</Link> (humanoid only)</>}]}} />
-<Stats id="monster-fetchling--stats" atts={[13,17,14,8,8,14]} bab={0} cmb={1} cmd={14} feats={["Weapon Finesse"]} skills={{"app":{"b":3},"bluff":{"b":6},"diplo":{"b":6},"sm":{"b":3},"stl":{"b":7}}} racial="+2 Knowledge (planes), +2 Stealth" lang={["C"]} sq={<><Link to="/ability/trapfinding">trapfinding</Link> +1</>} />
-<Ecology id="monster-fetchling--eco-eco" env="any (Plane of Shadow)" org="solitary, pair, guild (3-12), or enclave (13-30 plus 1-4 2nd-4th level rogue spies, 1-4 2nd-4th level sorcerers, and 1 3rd-6th level fighter/rogue leader)" treasure={{"N":[["Acs"],["Wd"]],"final":"other treasure"}} />
+<Info source={[["Bestiary 2",123]]} xp="200" text={<>Fetchling <Link to="/class/rogue">rogue</Link> 1</>} n medium outsider subs={["native"]} init={3} dv={60} llv pcp={3} />
+<Defense ac={[17,13,14]} mod="+4 armor, +3 Dex" hp={[10,"1d8+2"]} fort="+2" ref="+5" will="-1" def={[["shadow bending","shadow bending"]]} resist="cold 5, electricity 5" />
+<Offense sp={30} melee="dagger +3 (1d4+1/19-20)" sneak="+1d6" />
+<SpellBlock id="1" sla={{"cl":1,"con":"+3","content":[{"day":1,"content":<><Link to="/spell/disguise_self">disguise self</Link> (humanoid only)</>}]}} />
+<Stats atts={[13,17,14,8,8,14]} bab={0} cmb={1} cmd={14} feats={["Weapon Finesse"]} skills={{"app":{"b":3},"bluff":{"b":6},"diplo":{"b":6},"sm":{"b":3},"stl":{"b":7}}} racial="+2 Knowledge (planes), +2 Stealth" lang={["C"]} sq={<><Link to="/ability/trapfinding">trapfinding</Link> +1</>} />
+<Ecology env="any (Plane of Shadow)" org="solitary, pair, guild (3-12), or enclave (13-30 plus 1-4 2nd-4th level rogue spies, 1-4 2nd-4th level sorcerers, and 1 3rd-6th level fighter/rogue leader)" treasure={{"N":[["Acs"],["Wd"]],"final":"other treasure"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Shadow Blending (Su)</strong> Attacks against a fetchling in dim light have a 50% miss chance instead of the normal 20% miss chance. This ability does not grant total <Link to="/rule/concealment">concealment</Link>; it just increases the miss chance.</p>
@@ -1458,12 +1465,12 @@ const _fetchling = {title: "Fetchling", jsx: <><p><em>This gaunt man appears dra
 const _fext = {title: "Fext", jsx: <><p><em>This creature's pallid skin and dead, vacant eyes belie its healthy, powerful physique. It is clad in fearsome armor.</em></p>
 <Header full><span>Fext</span><span>CR 10</span></Header>
 <div className="reduce">
-<Info id="monster-fext--info" source={[["Bestiary 5",115],["Pathfinder #71: Rasputin Must Die!",88]]} xp="9,600" le medium undead init={4} dv={60} pcp={20} />
-<Defense id="monster-fext--defense" ac={[25,12,23]} mod="+9 armor, +1 Dex, +1 dodge, +2 natural, +2 shield" hp={[127,"15d8+60"]} fort="+9" ref="+9" will="+11" dr="10/glass or obsidian" immune={<>cold, <Link to="/umr/undead_traits">undead traits</Link></>} resist="electricity 10, fire 10" sr="21" />
-<Offense id="monster-fext--offense" sp={40} spP="30 ft. in armor" melee="+1 bastard sword +20/+15/+10 (1d10+8/17-20) or slam +18 (1d4+10 plus energy drain)" eDrain="1d4 levels, DC 21" />
-<SpellBlock id="monster-fext--spells-monster-spellblock-1" sla={{"cl":15,"con":"+19","content":[{"will":true,"content":<><Link to="/spell/death_knell">death knell</Link> (DC 16), <Link to="/spell/protection_from_good">protection from good</Link>, <Link to="/spell/speak_with_dead">speak with dead</Link> (DC 17)</>},{"day":3,"content":<><Link to="/spell/bestow_curse">bestow curse</Link> (DC 17)</>}]}} />
-<Stats id="monster-fext--stats" atts={[25,18,0,13,15,18]} bab={11} cmb={18} cmd={33} feats={["Cleave","Dodge","Great Cleave",["Improved Critical"," (bastard sword)"],"Mobility","Power Attack","Spring Attack",["Weapon Focus"," (bastard sword)"]]} skills={{"acro":{"b":4},"dis":{"b":15},"sm":{"b":9},"stl":{"b":11}}} lang={["C","I"]} sq="unkillable" />
-<Ecology id="monster-fext--eco-eco" env="any" org="solitary" treasure={{"S":[["+1","Wbs"],["Afp"],["Ahss"]],"final":"other gear"}} />
+<Info source={[["Bestiary 5",115],["Pathfinder #71: Rasputin Must Die!",88]]} xp="9,600" le medium undead init={4} dv={60} pcp={20} />
+<Defense ac={[25,12,23]} mod="+9 armor, +1 Dex, +1 dodge, +2 natural, +2 shield" hp={[127,"15d8+60"]} fort="+9" ref="+9" will="+11" dr="10/glass or obsidian" immune={<>cold, <Link to="/umr/undead_traits">undead traits</Link></>} resist="electricity 10, fire 10" sr="21" />
+<Offense sp={40} spP="30 ft. in armor" melee="+1 bastard sword +20/+15/+10 (1d10+8/17-20) or slam +18 (1d4+10 plus energy drain)" eDrain="1d4 levels, DC 21" />
+<SpellBlock id="1" sla={{"cl":15,"con":"+19","content":[{"will":true,"content":<><Link to="/spell/death_knell">death knell</Link> (DC 16), <Link to="/spell/protection_from_good">protection from good</Link>, <Link to="/spell/speak_with_dead">speak with dead</Link> (DC 17)</>},{"day":3,"content":<><Link to="/spell/bestow_curse">bestow curse</Link> (DC 17)</>}]}} />
+<Stats atts={[25,18,0,13,15,18]} bab={11} cmb={18} cmd={33} feats={["Cleave","Dodge","Great Cleave",["Improved Critical"," (bastard sword)"],"Mobility","Power Attack","Spring Attack",["Weapon Focus"," (bastard sword)"]]} skills={{"acro":{"b":4},"dis":{"b":15},"sm":{"b":9},"stl":{"b":11}}} lang={["C","I"]} sq="unkillable" />
+<Ecology env="any" org="solitary" treasure={{"S":[["+1","Wbs"],["Afp"],["Ahss"]],"final":"other gear"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Unkillable (Su)</strong> When reduced to 0 hit points by anything other than a <Link to="/eq-material/glass">glass</Link> weapon or an <Link to="/eq-material/obsidian">obsidian</Link> weapon, a fext is not destroyed, but instead becomes unconscious. Additionally, 1d4 minutes after falling unconscious, a fext gains <Link to="/umr/fast_healing">fast healing</Link> 1. To be completely destroyed, a fext must be reduced to 0 hit points by a glass or obsidian weapon, or once it is rendered unconscious, its head must be severed and anointed with <Link to="/eq-weapon/holy_water">holy water</Link>. Once destroyed, a fext dissolves into fine ash.</p>
@@ -1475,11 +1482,11 @@ const _fext = {title: "Fext", jsx: <><p><em>This creature's pallid skin and dead
 const _fiend_bred_animal_chelish_hell_bred_dog = {title: "Chelish Hell-Bred Dog (Fiend-Bred Animal)", jsx: <><p><em>This reddish-brown canine has a square, athletic build. Its dripping saliva smells of sulfur.</em></p>
 <Header full><span>Chelish Hell-Bred Dog</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info id="monster-fiend_bred_animal_chelish_hell_bred_dog--info" source={[["Pathfinder #103: The Hellfire Compact",86]]} xp="600" n medium animal init={6} llv scent pcp={4} />
-<Defense id="monster-fiend_bred_animal_chelish_hell_bred_dog--defense" ac={[15,12,13]} mod="+2 Dex, +3 natural" hp={[19,"3d8+6"]} fort="+5" ref="+5" will="+1" />
-<Offense id="monster-fiend_bred_animal_chelish_hell_bred_dog--offense" sp={40} melee={<>bite +4 (1d6+3 plus <Link to="/umr/trip">trip</Link>)</>} specAtt={[["sulfurous spittle","sulfurous spittle"]]} />
-<Stats id="monster-fiend_bred_animal_chelish_hell_bred_dog--stats" atts={[14,15,15,2,10,6]} bab={2} cmb={4} cmd={16} cmdP="20 vs. trip" feats={["Improved Initiative",["Skill Focus"," (Survival)"]]} skills={{"acro":{"b":6,"x":"+10 when jumping"},"per":{"b":4}}} racial="+4 Acrobatics when jumping, +4 Survival when tracking by scent" sq="hot climate adaptation" />
-<Ecology id="monster-fiend_bred_animal_chelish_hell_bred_dog--eco-eco" env="temperate or warm forests or plains" org="solitary, pair, or pack (3-8)" treasure={{"X":false}} />
+<Info source={[["Pathfinder #103: The Hellfire Compact",86]]} xp="600" n medium animal init={6} llv scent pcp={4} />
+<Defense ac={[15,12,13]} mod="+2 Dex, +3 natural" hp={[19,"3d8+6"]} fort="+5" ref="+5" will="+1" />
+<Offense sp={40} melee={<>bite +4 (1d6+3 plus <Link to="/umr/trip">trip</Link>)</>} specAtt={[["sulfurous spittle","sulfurous spittle"]]} />
+<Stats atts={[14,15,15,2,10,6]} bab={2} cmb={4} cmd={16} cmdP="20 vs. trip" feats={["Improved Initiative",["Skill Focus"," (Survival)"]]} skills={{"acro":{"b":6,"x":"+10 when jumping"},"per":{"b":4}}} racial="+4 Acrobatics when jumping, +4 Survival when tracking by scent" sq="hot climate adaptation" />
+<Ecology env="temperate or warm forests or plains" org="solitary, pair, or pack (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Hot Climate Adaptation (Ex)</strong> A Chelish hell-bred dog gains a +8 racial bonus on Fortitude saves to avoid nonlethal damage from very <Link to="/rule/hot_environmental_conditions">hot environmental conditions</Link>.</p>
@@ -1492,11 +1499,11 @@ const _fiend_bred_animal_chelish_hell_bred_dog = {title: "Chelish Hell-Bred Dog 
 const _fiend_bred_animal_quillcat = {title: "Quillcat (Fiend-Bred Animal)", jsx: <><p><em>Dozens of long, sharp spines line the back and tail of this dark-gray cat.</em></p>
 <Header full><span>Quillcat</span><span>CR 1</span></Header>
 <div className="reduce">
-<Info id="monster-fiend_bred_animal_quillcat--info" source={[["Pathfinder #103: The Hellfire Compact",87]]} xp="400" n small animal init={2} llv scent pcp={5} />
-<Defense id="monster-fiend_bred_animal_quillcat--defense" ac={[13,13,11]} mod="+2 Dex, +1 size" hp={[14,"2d8+5"]} fort="+4" ref="+5" will="+1" def={[["quill defense","quill defense"]]} />
-<Offense id="monster-fiend_bred_animal_quillcat--offense" sp={40} melee="bite +3 (1d4+1), tail slap +3 (1d4+1)" pounce />
-<Stats id="monster-fiend_bred_animal_quillcat--stats" atts={[12,15,13,2,12,9]} bab={1} cmb={1} cmbP="+5 grapple" cmd={13} cmdP="17 vs. trip" feats={["Toughness"]} skills={{"acro":{"b":10,"x":"+14 when jumping"},"per":{"b":5},"stl":{"b":10}}} racial="+4 Acrobatics (+8 when jumping), +4 Stealth" sq="spiny tail" />
-<Ecology id="monster-fiend_bred_animal_quillcat--eco-eco" env="any forest" org="solitary" treasure={{"X":false}} />
+<Info source={[["Pathfinder #103: The Hellfire Compact",87]]} xp="400" n small animal init={2} llv scent pcp={5} />
+<Defense ac={[13,13,11]} mod="+2 Dex, +1 size" hp={[14,"2d8+5"]} fort="+4" ref="+5" will="+1" def={[["quill defense","quill defense"]]} />
+<Offense sp={40} melee="bite +3 (1d4+1), tail slap +3 (1d4+1)" pounce />
+<Stats atts={[12,15,13,2,12,9]} bab={1} cmb={1} cmbP="+5 grapple" cmd={13} cmdP="17 vs. trip" feats={["Toughness"]} skills={{"acro":{"b":10,"x":"+14 when jumping"},"per":{"b":5},"stl":{"b":10}}} racial="+4 Acrobatics (+8 when jumping), +4 Stealth" sq="spiny tail" />
+<Ecology env="any forest" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Quill Defense (Ex)</strong> Any creature that strikes a quillcat with an unarmed strike or natural weapon takes 1 point of piercing damage. A creature that grapples a quillcat takes 1d3 points of piercing damage each round that it does so.</p>
@@ -1510,12 +1517,12 @@ const _fiend_bred_animal_quillcat = {title: "Quillcat (Fiend-Bred Animal)", jsx:
 const _fiend_bred_animal_stygian_hot_blooded_horse = {title: "Stygian Hot-Blooded Horse (Fiend-Bred Animal)", jsx: <><p><em>This dark horse has striking coloring and a ferocious look in its bloodshot eyes.</em></p>
 <Header full><span>Stygian Hot-Blooded Horse</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info id="monster-fiend_bred_animal_stygian_hot_blooded_horse--info" source={[["Pathfinder #103: The Hellfire Compact",86]]} xp="600" n large animal init={2} llv scent pcp={5} />
-<Defense id="monster-fiend_bred_animal_stygian_hot_blooded_horse--defense" ac={[14,11,12]} mod="+2 Dex, +3 natural, -1 size" hp={[22,"3d8+9"]} fort="+6" ref="+5" will="+2" def={[["shifting trot","shifting trot"]]} />
-<Offense id="monster-fiend_bred_animal_stygian_hot_blooded_horse--offense" sp={50} melee="bite +4 (1d8+3), 2 hooves -1 (1d6+1)" space={"10"} reach={"5"} />
-<Stats id="monster-fiend_bred_animal_stygian_hot_blooded_horse--stats" atts={[17,14,17,2,13,10]} bab={2} cmb={6} cmd={18} cmdP="22 vs. trip" feats={["Intimidating Prowess",["Run",<sup>B</sup>],["Skill Focus"," (Stealth)"]]} skills={{"intm":{"b":4},"per":{"b":5},"stl":{"b":5}}} sq="docile, smoke resistance" />
+<Info source={[["Pathfinder #103: The Hellfire Compact",86]]} xp="600" n large animal init={2} llv scent pcp={5} />
+<Defense ac={[14,11,12]} mod="+2 Dex, +3 natural, -1 size" hp={[22,"3d8+9"]} fort="+6" ref="+5" will="+2" def={[["shifting trot","shifting trot"]]} />
+<Offense sp={50} melee="bite +4 (1d8+3), 2 hooves -1 (1d6+1)" space={"10"} reach={"5"} />
+<Stats atts={[17,14,17,2,13,10]} bab={2} cmb={6} cmd={18} cmdP="22 vs. trip" feats={["Intimidating Prowess",["Run",<sup>B</sup>],["Skill Focus"," (Stealth)"]]} skills={{"intm":{"b":4},"per":{"b":5},"stl":{"b":5}}} sq="docile, smoke resistance" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-fiend_bred_animal_stygian_hot_blooded_horse--eco-eco" env="temperate or warm plains" org="solitary" treasure={{"X":false}} />
+<Ecology env="temperate or warm plains" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Docile (Ex)</strong> Unless specifically trained for combat (see the <Link to="/skill/handle_animal">Handle Animal</Link> skill), a stygian hot-blooded horse's hooves are treated as secondary attacks.</p>
@@ -1530,12 +1537,12 @@ const _fiend_bred_animal_stygian_hot_blooded_horse = {title: "Stygian Hot-Bloode
 const _firbolg = {title: "Firbolg", jsx: <><p><em>This burly, eight-foot-tall humanoid, dressed in a bearskin and equipped with a massive axe, has long, red hair and a bushy beard.</em></p>
 <Header full><span>Firbolg</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info id="monster-firbolg--info" source={[["Bestiary 5",116]]} xp="1,200" n large humanoid subs={["giant"]} init={5} llv pcp={8} />
-<Defense id="monster-firbolg--defense" ac={[17,10,17]} mod="+2 armor, +1 Dex, +5 natural, -1 size" hp={[39,"6d8+12"]} fort="+4" ref="+5" will="+6" />
-<Offense id="monster-firbolg--offense" sp={40} melee="Huge greataxe +8 (3d8+7/&times;3)" ranged="rock +5 (2d6+10)" space={"10"} reach={"10"} specAtt={[["oversized weapons","oversized weapons"]]} rockTh="120 ft." />
-<SpellBlock id="monster-firbolg--spells-monster-spellblock-1" sla={{"cl":6,"con":"+8","content":[{"will":true,"content":<><Link to="/spell/reduce_person">reduce person</Link> (DC 13)</>},{"day":1,"content":<><Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/confusion">confusion</Link> (DC 16), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/know_direction">know direction</Link></>}]}} />
-<Stats id="monster-firbolg--stats" atts={[20,13,14,15,13,14]} bab={4} cmb={10} cmd={21} feats={["Deflect Arrows","Improved Initiative","Lightning Reflexes"]} skills={{"climb":{"b":12},"k":{"n":6},"per":{"b":8}}} lang={["C","G"]} />
-<Ecology id="monster-firbolg--eco-eco" env="temperate hills or forests" org="solitary, pair, gang (3-8), clan (9-16), or enclave (10-40)" treasure={{"S":[["Al"],["Wga"]],"final":"‹eq-misc/sack› with other treasure"}} />
+<Info source={[["Bestiary 5",116]]} xp="1,200" n large humanoid subs={["giant"]} init={5} llv pcp={8} />
+<Defense ac={[17,10,17]} mod="+2 armor, +1 Dex, +5 natural, -1 size" hp={[39,"6d8+12"]} fort="+4" ref="+5" will="+6" />
+<Offense sp={40} melee="Huge greataxe +8 (3d8+7/&times;3)" ranged="rock +5 (2d6+10)" space={"10"} reach={"10"} specAtt={[["oversized weapons","oversized weapons"]]} rockTh="120 ft." />
+<SpellBlock id="1" sla={{"cl":6,"con":"+8","content":[{"will":true,"content":<><Link to="/spell/reduce_person">reduce person</Link> (DC 13)</>},{"day":1,"content":<><Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/confusion">confusion</Link> (DC 16), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/know_direction">know direction</Link></>}]}} />
+<Stats atts={[20,13,14,15,13,14]} bab={4} cmb={10} cmd={21} feats={["Deflect Arrows","Improved Initiative","Lightning Reflexes"]} skills={{"climb":{"b":12},"k":{"n":6},"per":{"b":8}}} lang={["C","G"]} />
+<Ecology env="temperate hills or forests" org="solitary, pair, gang (3-8), clan (9-16), or enclave (10-40)" treasure={{"S":[["Al"],["Wga"]],"final":"‹eq-misc/sack› with other treasure"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Oversized Weapons (Ex)</strong> A firbolg can wield <Link to="/misc/weapon_size">weapons sized</Link> as if the firbolg were one size category larger.</p>
@@ -1548,12 +1555,12 @@ const _firbolg = {title: "Firbolg", jsx: <><p><em>This burly, eight-foot-tall hu
 const _fire_whale = {title: "Fire Whale", jsx: <><p><em>Waves of searing heat ripple from the stony, gem-encrusted hide of this enormous whale-like beast.</em></p>
 <Header full><span>Fire Whale</span><span>CR 16</span></Header>
 <div className="reduce">
-<Info id="monster-fire_whale--info" source={[["Bestiary 6",128]]} xp="76,800" n colossal magicalBeast subs={["extraplanar"]} init={6} dv={60} llv blindsense={60} pcp={16} />
-<Defense id="monster-fire_whale--defense" ac={[31,4,29]} mod="+2 Dex, +27 natural, -8 size" hp={[250,"20d10+140"]} fort="+19" ref="+14" will="+16" def={[["flaming body","flaming body"]]} dr="15/adamantine and piercing" immune="fire, paralysis, poison, sleep" resist="cold 15" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to sonic</>]} />
-<Offense id="monster-fire_whale--offense" br={20} fl={20} flP="clumsy" sw={60} melee="bite +30 (4d10+18/19-20 plus 2d6 fire), tail slap +25 (6d6+9 plus 2d6 fire)" space={"30"} reach={"30"} specAtt={[["magma spray","magma spray"]]} capsize />
-<SpellBlock id="monster-fire_whale--spells-monster-spellblock-1" sla={{"cl":20,"con":"+21","content":[{"day":1,"content":<><Link to="/spell/plane_shift">plane shift</Link> (Elemental Planes or Material Plane only)</>}]}} />
-<Stats id="monster-fire_whale--stats" atts={[46,14,25,6,27,13]} bab={20} cmb={46} cmbP="+48 bull rush" cmd={58} cmdP="60 vs. bull rush" feats={["Awesome Blow","Critical Focus","Diehard","Endurance","Improved Bull Rush",["Improved Critical"," (bite)"],"Improved Initiative","Iron Will","Power Attack","Staggering Critical"]} skills={{"fly":{"b":-1}}} lang={["Aq","Au","Ig","TX"]} sq={<>elemental heart, <Link to="/umr/no_breath">no breath</Link></>} />
-<Ecology id="monster-fire_whale--eco-eco" env={<>any (<Link to="/rule/plane_of_fire">Plane of Fire</Link>)</>} org="solitary, pair, or pod (3-8)" treasure={{"S":[],"final":"gems only"}} />
+<Info source={[["Bestiary 6",128]]} xp="76,800" n colossal magicalBeast subs={["extraplanar"]} init={6} dv={60} llv blindsense={60} pcp={16} />
+<Defense ac={[31,4,29]} mod="+2 Dex, +27 natural, -8 size" hp={[250,"20d10+140"]} fort="+19" ref="+14" will="+16" def={[["flaming body","flaming body"]]} dr="15/adamantine and piercing" immune="fire, paralysis, poison, sleep" resist="cold 15" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to sonic</>]} />
+<Offense br={20} fl={20} flP="clumsy" sw={60} melee="bite +30 (4d10+18/19-20 plus 2d6 fire), tail slap +25 (6d6+9 plus 2d6 fire)" space={"30"} reach={"30"} specAtt={[["magma spray","magma spray"]]} capsize />
+<SpellBlock id="1" sla={{"cl":20,"con":"+21","content":[{"day":1,"content":<><Link to="/spell/plane_shift">plane shift</Link> (Elemental Planes or Material Plane only)</>}]}} />
+<Stats atts={[46,14,25,6,27,13]} bab={20} cmb={46} cmbP="+48 bull rush" cmd={58} cmdP="60 vs. bull rush" feats={["Awesome Blow","Critical Focus","Diehard","Endurance","Improved Bull Rush",["Improved Critical"," (bite)"],"Improved Initiative","Iron Will","Power Attack","Staggering Critical"]} skills={{"fly":{"b":-1}}} lang={["Aq","Au","Ig","TX"]} sq={<>elemental heart, <Link to="/umr/no_breath">no breath</Link></>} />
+<Ecology env={<>any (<Link to="/rule/plane_of_fire">Plane of Fire</Link>)</>} org="solitary, pair, or pod (3-8)" treasure={{"S":[],"final":"gems only"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Elemental Heart (Su)</strong> A fire whale is empowered by a heart of pure elemental fire, granting it several elemental-like traits. A fire whale does not need to breathe, eat, or sleep, and it is immune to paralysis, poison, and sleep effects.</p>
@@ -1566,11 +1573,11 @@ const _fire_whale = {title: "Fire Whale", jsx: <><p><em>Waves of searing heat ri
 const _fish_dunkleosteus = {title: "Dunkleosteus (Fish)", jsx: <><p><em>This gigantic, prehistoric fish has a head like a snapping turtle, complete with sharp, tooth-like plates.</em></p>
 <Header full><span>Dunkleosteus</span><span>CR 6</span></Header>
 <div className="reduce">
-<Info id="monster-fish_dunkleosteus--info" source={[["Bestiary 6",129],["Pathfinder #56: Raiders of the Fever Sea",83]]} xp="2,400" n huge animal subs={["aquatic"]} init={6} llv pcp={15} />
-<Defense id="monster-fish_dunkleosteus--defense" ac={[19,10,17]} mod="+2 Dex, +9 natural, -2 size" hp={[75,"10d8+30"]} fort="+10" ref="+9" will="+6" />
-<Offense id="monster-fish_dunkleosteus--offense" sw={60} melee={<>bite +16 (3d8+15/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space={"15"} reach={"15"} specAtt={[["gulp","gulp"]]} swallow="1d10 bludgeoning damage, AC 14, 7 hp" />
-<Stats id="monster-fish_dunkleosteus--stats" atts={[30,14,17,1,13,6]} bab={7} cmb={19} cmbP="+23 grab" cmd={31} feats={[["Improved Critical"," (bite)"],"Improved Initiative","Iron Will",["Skill Focus"," (Perception, Swim)"],["Weapon Focus"," (bite)"]]} skills={{"per":{"b":15},"swim":{"b":30}}} racial="+4 Perception" />
-<Ecology id="monster-fish_dunkleosteus--eco-eco" env="any oceans" org="solitary" treasure={{"X":false}} />
+<Info source={[["Bestiary 6",129],["Pathfinder #56: Raiders of the Fever Sea",83]]} xp="2,400" n huge animal subs={["aquatic"]} init={6} llv pcp={15} />
+<Defense ac={[19,10,17]} mod="+2 Dex, +9 natural, -2 size" hp={[75,"10d8+30"]} fort="+10" ref="+9" will="+6" />
+<Offense sw={60} melee={<>bite +16 (3d8+15/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space={"15"} reach={"15"} specAtt={[["gulp","gulp"]]} swallow="1d10 bludgeoning damage, AC 14, 7 hp" />
+<Stats atts={[30,14,17,1,13,6]} bab={7} cmb={19} cmbP="+23 grab" cmd={31} feats={[["Improved Critical"," (bite)"],"Improved Initiative","Iron Will",["Skill Focus"," (Perception, Swim)"],["Weapon Focus"," (bite)"]]} skills={{"per":{"b":15},"swim":{"b":30}}} racial="+4 Perception" />
+<Ecology env="any oceans" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Gulp (Ex)</strong> A dunkleosteus can open its giant mouth in a fraction of a second, creating a vortex that draws a target in. When underwater, a dunkleosteus gains an additional 5 feet of reach with its bite attack and a +2 bonus on combat maneuver checks when attempting to <Link to="/rule/grapple">grapple</Link>.</p>
@@ -1580,26 +1587,27 @@ const _fish_dunkleosteus = {title: "Dunkleosteus (Fish)", jsx: <><p><em>This gig
 const _fish_giant_blowfish = {title: "Giant Blowfish", jsx: <><p><em>A blowfish the size of a horse drifts through the water, its quills the size of spears.</em></p>
 <Header full><span>Giant Blowfish</span><span>CR 5</span></Header>
 <div className="reduce">
-<Info id="monster-fish_giant_blowfish--info" source={[["Pathfinder #56: Raiders of the Fever Sea",83]]} xp="1,600" n large animal subs={["aquatic"]} init={5} llv pcp={5} />
-<Defense id="monster-fish_giant_blowfish--defense" ac={[18,10,17]} mod="+8 armor, +1 Dex, -1 size" hp={[52,"7d8+21"]} fort="+10" ref="+6" will="+4" def={[["quills","quills"]]} />
-<Offense id="monster-fish_giant_blowfish--offense" sp={30} sw={30} melee="1 slam +9 (1d8+4 plus poison)" space={"10"} reach={"10"} />
-<Stats id="monster-fish_giant_blowfish--stats" atts={[18,13,17,1,14,12]} bab={5} cmb={10} cmd={21} cmdP="can't be tripped" feats={["Great Fortitude","Improved Initiative",["Skill Focus"," (Perception)"],["Weapon Focus"," (slam)"]]} skills={{"per":{"b":5},"swim":{"b":14}}} />
-<Ecology id="monster-fish_giant_blowfish--eco-eco" env="warm oceans" org="solitary, pair, or school (3-9)" treasure={{"X":false}} />
+<Info source={[["Pathfinder #56: Raiders of the Fever Sea",83]]} xp="1,600" n large animal subs={["aquatic"]} init={5} llv pcp={5} />
+<Defense ac={[18,10,17]} mod="+8 armor, +1 Dex, -1 size" hp={[52,"7d8+21"]} fort="+10" ref="+6" will="+4" def={[["quills","quills"]]} />
+<Offense sp={30} sw={30} melee="1 slam +9 (1d8+4 plus poison)" space={"10"} reach={"10"} />
+<Stats atts={[18,13,17,1,14,12]} bab={5} cmb={10} cmd={21} cmdP="can't be tripped" feats={["Great Fortitude","Improved Initiative",["Skill Focus"," (Perception)"],["Weapon Focus"," (slam)"]]} skills={{"per":{"b":5},"swim":{"b":14}}} />
+<Ecology env="warm oceans" org="solitary, pair, or school (3-9)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong> Giant blowfish venom causes violent seizing of the muscles. Any non-aquatic creature affected must immediately begin making Constitution checks to <Link to="/rule/suffocation">continue holding its breath</Link>. The save DC is Constitution-based.</p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-fish_giant_blowfish--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Slam and quills-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 16</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d6 <Link to="/rule/dex_damage">Dex damage</Link> and prevents breath holding</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><p><strong>Quills (Ex)</strong> Any creature attacking a giant blowfish with light or one-handed melee weapons, natural weapons, or an unarmed strike takes 1d8 points of piercing damage. A creature that <Link to="/rule/grapple">grapples</Link> a giant blowfish takes 2d6 points of piercing damage each round it does so. Creatures damaged by a giant blowfish's quills must also save or be poisoned.</p>
+<AffInfo type="Slam and quills-injury" save="Fort 16" freq="1/round for 6 rounds" eff={<>1d6 <Link to="/rule/dex_damage">Dex damage</Link> and prevents breath holding</>} cure1 icon="p" />
+<p><strong>Quills (Ex)</strong> Any creature attacking a giant blowfish with light or one-handed melee weapons, natural weapons, or an unarmed strike takes 1d8 points of piercing damage. A creature that <Link to="/rule/grapple">grapples</Link> a giant blowfish takes 2d6 points of piercing damage each round it does so. Creatures damaged by a giant blowfish's quills must also save or be poisoned.</p>
 <Header sub>Description</Header>
 <p>These gigantic cousins of common blowfish, covered in poisonous spear-like quills, can reach up to 10 feet in size, and nearly double that when fully inflated.</p>
 </>};
 const _fish_swordfish = {title: "Swordfish", jsx: <><p><em>A proud fin flares along the spine of this large, sleek fish, its head coming to a spear-like point.</em></p>
 <Header full><span>Swordfish</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info id="monster-fish_swordfish--info" source={[["Pathfinder #56: Raiders of the Fever Sea",82]]} xp="600" n large animal subs={["aquatic"]} init={2} llv pcp={10} />
-<Defense id="monster-fish_swordfish--defense" ac={[14,11,12]} mod="+3 armor, +2 Dex, -1 size" hp={[22,"4d8+4"]} fort="+5" ref="+6" will="+2" />
-<Offense id="monster-fish_swordfish--offense" sw={70} melee="gore +5 (1d8+3)" space={"10"} reach={"10"} specAtt={[["piercing rush","piercing rush"]]} />
-<Stats id="monster-fish_swordfish--stats" atts={[15,14,13,1,12,2]} bab={3} cmb={6} cmd={18} feats={[["Skill Focus"," (Swim)"],["Weapon Focus"," (gore)"]]} skills={{"per":{"b":10},"swim":{"b":18}}} racial="+4 Perception" />
-<Ecology id="monster-fish_swordfish--eco-eco" env="any ocean" org="solitary or pair" treasure={{"X":false}} />
+<Info source={[["Pathfinder #56: Raiders of the Fever Sea",82]]} xp="600" n large animal subs={["aquatic"]} init={2} llv pcp={10} />
+<Defense ac={[14,11,12]} mod="+3 armor, +2 Dex, -1 size" hp={[22,"4d8+4"]} fort="+5" ref="+6" will="+2" />
+<Offense sw={70} melee="gore +5 (1d8+3)" space={"10"} reach={"10"} specAtt={[["piercing rush","piercing rush"]]} />
+<Stats atts={[15,14,13,1,12,2]} bab={3} cmb={6} cmd={18} feats={[["Skill Focus"," (Swim)"],["Weapon Focus"," (gore)"]]} skills={{"per":{"b":10},"swim":{"b":18}}} racial="+4 Perception" />
+<Ecology env="any ocean" org="solitary or pair" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Piercing Rush (Ex)</strong> When a swordfish uses its gore attack after swimming at least 10 feet, including on a <Link to="/rule/charge">charge</Link>, it adds two times its strength bonus on damage rolls.</p>
@@ -1609,11 +1617,11 @@ const _fish_swordfish = {title: "Swordfish", jsx: <><p><em>A proud fin flares al
 const _fish_tiger_fish = {title: "Tiger Fish", jsx: <><p><em>Deadly, wolf like teeth fill the mouth of this brawny fish.</em></p>
 <Header full><span>Tiger Fish</span><span>CR 1</span></Header>
 <div className="reduce">
-<Info id="monster-fish_tiger_fish--info" source={[["Pathfinder #56: Raiders of the Fever Sea",82]]} xp="400" n medium animal subs={["aquatic"]} init={2} llv pcp={8} />
-<Defense id="monster-fish_tiger_fish--defense" ac={[13,12,11]} mod="+2 Dex, +1 natural" hp={[16,"3d8+3"]} fort="+4" ref="+5" will="+2" />
-<Offense id="monster-fish_tiger_fish--offense" sw={50} melee="bite +4 (1d6+3)" specAtt={[["interlocking bite","interlocking bite"]]} />
-<Stats id="monster-fish_tiger_fish--stats" atts={[15,14,13,1,12,2]} bab={2} cmb={4} cmbP="+8 grapple" cmd={16} feats={[["Skill Focus"," (Perception)"],"Skill Focus (Swim)"]} skills={{"per":{"b":8},"stl":{"b":6},"swim":{"b":17}}} />
-<Ecology id="monster-fish_tiger_fish--eco-eco" env="warm rivers or swamps" org="solitary, pair, group (3-5), or school (5-20)" treasure={{"X":false}} />
+<Info source={[["Pathfinder #56: Raiders of the Fever Sea",82]]} xp="400" n medium animal subs={["aquatic"]} init={2} llv pcp={8} />
+<Defense ac={[13,12,11]} mod="+2 Dex, +1 natural" hp={[16,"3d8+3"]} fort="+4" ref="+5" will="+2" />
+<Offense sw={50} melee="bite +4 (1d6+3)" specAtt={[["interlocking bite","interlocking bite"]]} />
+<Stats atts={[15,14,13,1,12,2]} bab={2} cmb={4} cmbP="+8 grapple" cmd={16} feats={[["Skill Focus"," (Perception)"],"Skill Focus (Swim)"]} skills={{"per":{"b":8},"stl":{"b":6},"swim":{"b":17}}} />
+<Ecology env="warm rivers or swamps" org="solitary, pair, group (3-5), or school (5-20)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Interlocking Bite (Ex)</strong> A tiger fish gains a +2 bonus on all <Link to="/rule/drag">drag</Link> combat maneuvers and can initiate a drag combat maneuver whenever it scores a successful bite attack against a target. A tiger fish does not provoke attacks of opportunity when initiating a drag maneuver.</p>
@@ -1623,11 +1631,11 @@ const _fish_tiger_fish = {title: "Tiger Fish", jsx: <><p><em>Deadly, wolf like t
 const _fish_varisian_hagfish = {title: "Varisian Hagfish", jsx: <><p><em>A mouth like a lamprey's gnashes curved teeth at one end of this slimy, eel-like fish.</em></p>
 <Header full><span>Varisian Hagfish</span><span>CR 1</span></Header>
 <div className="reduce">
-<Info id="monster-fish_varisian_hagfish--info" source={[["Pathfinder #56: Raiders of the Fever Sea",82]]} xp="400" n tiny animal subs={["aquatic"]} init={2} llv pcp={1} />
-<Defense id="monster-fish_varisian_hagfish--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[17,"2d8+8"]} fort="+7" ref="+7" will="+1" />
-<Offense id="monster-fish_varisian_hagfish--offense" sp={30} sw={30} melee="bite +4 (1d3+1)" />
-<Stats id="monster-fish_varisian_hagfish--stats" atts={[12,15,18,1,12,11]} bab={1} cmb={1} cmbP="+5 grapple" cmd={12} cmdP="can't be tripped" feats={["Lightning Reflexes"]} skills={{"ea":{"b":6},"swim":{"b":14}}} racial="+4 Escape Artist" sq="slime cloud" />
-<Ecology id="monster-fish_varisian_hagfish--eco-eco" env="temperate water" org="solitary, pair, or group (3-5)" treasure={{"X":false}} />
+<Info source={[["Pathfinder #56: Raiders of the Fever Sea",82]]} xp="400" n tiny animal subs={["aquatic"]} init={2} llv pcp={1} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[17,"2d8+8"]} fort="+7" ref="+7" will="+1" />
+<Offense sp={30} sw={30} melee="bite +4 (1d3+1)" />
+<Stats atts={[12,15,18,1,12,11]} bab={1} cmb={1} cmbP="+5 grapple" cmd={12} cmdP="can't be tripped" feats={["Lightning Reflexes"]} skills={{"ea":{"b":6},"swim":{"b":14}}} racial="+4 Escape Artist" sq="slime cloud" />
+<Ecology env="temperate water" org="solitary, pair, or group (3-5)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Slime Cloud (Ex)</strong> While underwater, as a free action, a Varisian hagfish can secrete slime that transforms a 5-foot cube of water into a transparent cloud of viscous slime. This slime is the aquatic equivalent of <Link to="/rule/difficult_terrain">rough terrain</Link>, and creatures swimming through it expend 2 squares of movement. The slime cloud remains for 10 rounds before dissipating. Hagfish are unaffected by these slime clouds. The slime also grants the hagfish a +4 bonus on <Link to="/rule/grapple">grapple</Link> checks.</p>
@@ -1637,11 +1645,11 @@ const _fish_varisian_hagfish = {title: "Varisian Hagfish", jsx: <><p><em>A mouth
 const _flail_snail = {title: "Flail Snail", jsx: <><p><em>This enormous snail has a brightly colored shell and four tentacles on its head, each tipped with a mace-like club.</em></p>
 <Header full><span>Flail Snail</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info id="monster-flail_snail--info" source={[["Bestiary 3",118],["Misfit Monsters Redeemed",33]]} xp="1,200" n large magicalBeast init={-1} dv={60} llv scent blindsense={30} tremorsense={60} pcp={5} />
-<Defense id="monster-flail_snail--defense" ac={[18,8,18]} mod="-1 Dex, +10 natural, -1 size" hp={[30,"4d10+8"]} fort="+6" ref="+3" will="+2" def={[["retraction","retraction"],["warp magic","warp magic"]]} immune="poison" resist="fire 10" />
-<Offense id="monster-flail_snail--offense" sp={10} cl={10} melee="4 slams +7 (1d4+3)" space={"10"} reach={"10"} />
-<Stats id="monster-flail_snail--stats" atts={[16,8,14,5,12,8]} bab={4} cmb={8} cmd={17} cmdP="can't be tripped" feats={["Power Attack",["Weapon Focus"," (slam)"]]} skills={{"climb":{"b":15},"per":{"b":5},"stl":{"b":0}}} lang={[["Flail Snail (sign language, slime writing, can't speak)"]]} sq="mucus, slime rope, suction" />
-<Ecology id="monster-flail_snail--eco-eco" env="underground" org="solitary, pair, or rout (3-30)" treasure={{"S":[],"final":"shell worth 800 gp, other treasure"}} />
+<Info source={[["Bestiary 3",118],["Misfit Monsters Redeemed",33]]} xp="1,200" n large magicalBeast init={-1} dv={60} llv scent blindsense={30} tremorsense={60} pcp={5} />
+<Defense ac={[18,8,18]} mod="-1 Dex, +10 natural, -1 size" hp={[30,"4d10+8"]} fort="+6" ref="+3" will="+2" def={[["retraction","retraction"],["warp magic","warp magic"]]} immune="poison" resist="fire 10" />
+<Offense sp={10} cl={10} melee="4 slams +7 (1d4+3)" space={"10"} reach={"10"} />
+<Stats atts={[16,8,14,5,12,8]} bab={4} cmb={8} cmd={17} cmdP="can't be tripped" feats={["Power Attack",["Weapon Focus"," (slam)"]]} skills={{"climb":{"b":15},"per":{"b":5},"stl":{"b":0}}} lang={[["Flail Snail (sign language, slime writing, can't speak)"]]} sq="mucus, slime rope, suction" />
+<Ecology env="underground" org="solitary, pair, or rout (3-30)" treasure={{"S":[],"final":"shell worth 800 gp, other treasure"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Mucus (Ex)</strong> As a free action, a flail snail can excrete a trail of mucus that covers its space and lasts for 10 minutes. This mucus comes in two types: slimy and sticky. A character who attempts to move through an area covered in slippery mucus must make a DC 14 Reflex save each round or fall prone. Sticky mucus transforms squares into difficult terrain. Only one type of mucus can be in effect at a time in any one square. Flail snails can move through either type of slime with ease. A square of mucus exposed to a fire source dries and reverts to normal. The save DC is Constitution-based.</p>
@@ -1679,15 +1687,16 @@ const _flail_snail = {title: "Flail Snail", jsx: <><p><em>This enormous snail ha
 const _flea_giant_flea = {title: "Giant Flea", jsx: <><p><em>A hideous, dog-sized flea leaps about on long, gangly legs. The sharp, jagged edges of its jaws greedily clatter for blood.</em></p>
 <Header full><span>Giant Flea</span><span>CR 1/2</span></Header>
 <div className="reduce">
-<Info id="monster-flea_giant_flea--info" source={[["Bestiary 4",99]]} xp="200" n small vermin init={2} dv={60} pcp={0} />
-<Defense id="monster-flea_giant_flea--defense" ac={[13,13,11]} mod="+2 Dex, +1 size" hp={[5,"1d8+1"]} fort="+3" ref="+2" will="+0" dr="5/slashing" immune="disease, mind-affecting effects" />
-<Offense id="monster-flea_giant_flea--offense" sp={30} melee="bite +2 (1d4+1 plus disease)" specAtt={[["disease","disease"]]} />
-<Stats id="monster-flea_giant_flea--stats" atts={[12,15,13,0,11,6]} bab={0} cmb={0} cmd={12} skills={{"acro":{"b":0,"x":"+20 when jumping"}}} racial="+20 Acrobatics when jumping" sq="uncanny leap" />
-<Ecology id="monster-flea_giant_flea--eco-eco" env="any land or underground" org="solitary, cluster (2-6), or colony (7-12)" treasure={{"X":false}} />
+<Info source={[["Bestiary 4",99]]} xp="200" n small vermin init={2} dv={60} pcp={0} />
+<Defense ac={[13,13,11]} mod="+2 Dex, +1 size" hp={[5,"1d8+1"]} fort="+3" ref="+2" will="+0" dr="5/slashing" immune="disease, mind-affecting effects" />
+<Offense sp={30} melee="bite +2 (1d4+1 plus disease)" specAtt={[["disease","disease"]]} />
+<Stats atts={[12,15,13,0,11,6]} bab={0} cmb={0} cmd={12} skills={{"acro":{"b":0,"x":"+20 when jumping"}}} racial="+20 Acrobatics when jumping" sq="uncanny leap" />
+<Ecology env="any land or underground" org="solitary, cluster (2-6), or colony (7-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Disease (Ex)</strong></p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-flea_giant_flea--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/diseases"><IonIcon aria-label="Disease" icon="/icons/paramecia.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 11</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>1d3 days</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/day</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr><tr><td colSpan={4} className="extra">The save DC is Constitution-based.</td></tr></tbody></table></ScrollContainer></div><p><strong>Uncanny Leap (Ex)</strong> As a full-round action, a giant flea can jump up to 120 feet. A flea can treat this jump as a <Link to="/rule/charge">charge</Link>, as long as the leap is made in a straight line.</p>
+<AffInfo type="Bite-injury" save="Fort 11" freq="1/day" onset="1d3 days" eff={<>1 <Link to="/rule/con_damage">Con damage</Link></>} cure1 extra={<>The save DC is Constitution-based.</>} icon="d" />
+<p><strong>Uncanny Leap (Ex)</strong> As a full-round action, a giant flea can jump up to 120 feet. A flea can treat this jump as a <Link to="/rule/charge">charge</Link>, as long as the leap is made in a straight line.</p>
 <Header sub>Description</Header>
 <p>Much like their smaller cousins, giant fleas are hemophagous insects that live in any kind of environment where they can feed upon blood. These creatures possess surprising agility and strength. Able to leap great distances, they flit about mindlessly, looking for easy prey. A giant flea can go for several months without feeding, but then gorges after such a fast.</p>
 <p>A <Link to="/class/witch">witch</Link> can take a giant flea as a familiar. Like all vermin, a giant flea gains 1 point of Intelligence when it becomes a familiar. A giant flea familiar grants its master a +3 bonus on Fortitude saves against disease.</p>
@@ -1695,26 +1704,27 @@ const _flea_giant_flea = {title: "Giant Flea", jsx: <><p><em>A hideous, dog-size
 const _flea_mammoth_flea = {title: "Mammoth Flea", jsx: <><p><em>This mammoth flea is size of a horse. Its legs dangle awkwardly from its great, swollen body armored entirely in disfigured plates.</em></p>
 <Header full><span>Mammoth Flea</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info id="monster-flea_mammoth_flea--info" source={[["Bestiary 4",99]]} xp="600" n large vermin init={3} dv={60} pcp={0} />
-<Defense id="monster-flea_mammoth_flea--defense" ac={[13,13,9]} mod="+3 Dex, +1 dodge, -1 size" hp={[22,"4d8+4"]} fort="+5" ref="+4" will="+1" dr="5/slashing" immune="disease, mind-affecting effects" />
-<Offense id="monster-flea_mammoth_flea--offense" sp={30} melee="bite +4 (1d8+3 plus blood drain and disease)" space={"10"} reach={"10"} specAtt={[["disease","disease"]]} bDrain="1d2 Con" />
-<Stats id="monster-flea_mammoth_flea--stats" atts={[13,17,13,0,11,6]} bab={3} cmb={6} cmd={19} feats={[["Dodge",<sup>B</sup>]]} skills={{"acro":{"b":0,"x":"+20 when jumping"}}} racial="+20 Acrobatics when jumping" sq={<>uncanny leap (see <Link to="/monster/giant_flea">giant flea</Link>)</>} />
+<Info source={[["Bestiary 4",99]]} xp="600" n large vermin init={3} dv={60} pcp={0} />
+<Defense ac={[13,13,9]} mod="+3 Dex, +1 dodge, -1 size" hp={[22,"4d8+4"]} fort="+5" ref="+4" will="+1" dr="5/slashing" immune="disease, mind-affecting effects" />
+<Offense sp={30} melee="bite +4 (1d8+3 plus blood drain and disease)" space={"10"} reach={"10"} specAtt={[["disease","disease"]]} bDrain="1d2 Con" />
+<Stats atts={[13,17,13,0,11,6]} bab={3} cmb={6} cmd={19} feats={[["Dodge",<sup>B</sup>]]} skills={{"acro":{"b":0,"x":"+20 when jumping"}}} racial="+20 Acrobatics when jumping" sq={<>uncanny leap (see <Link to="/monster/giant_flea">giant flea</Link>)</>} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-flea_mammoth_flea--eco-eco" env="temperate forests, hills, mountains, or plains" org="solitary, pair, or cluster (3-8)" treasure={{"X":false}} />
+<Ecology env="temperate forests, hills, mountains, or plains" org="solitary, pair, or cluster (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Disease (Ex)</strong></p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-flea_mammoth_flea--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/diseases"><IonIcon aria-label="Disease" icon="/icons/paramecia.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 13</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>1d3 days</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1 day</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 consecutive saves</td></tr><tr><td colSpan={4} className="extra">The save DC is Constitution-based.</td></tr></tbody></table></ScrollContainer></div><Header sub>Description</Header>
+<AffInfo type="Bite-injury" save="Fort 13" freq="1 day" onset="1d3 days" eff={<>1 <Link to="/rule/con_damage">Con damage</Link></>} cure2c extra={<>The save DC is Constitution-based.</>} icon="d" />
+<Header sub>Description</Header>
 <p>Mammoth fleas are fierce predators. They require vast amounts of blood to survive, though once full, they can survive for months before needing to feed again. For this reason, they seek larger prey like cows and horses, and plague agrarian communities that raise herd animals. A mammoth flea's bite is excruciatingly painful, and leaves behind a raised, ring-shaped scar.</p>
 </>};
 const _fleshdreg = {title: "Fleshdreg", jsx: <><p><em>Composed of half-formed body parts, this creature stands on two bizarre legs. Its mouth is full of jagged teeth and a slavering tongue.</em></p>
 <Header full><span>Fleshdreg</span><span>CR 1</span></Header>
 <div className="reduce">
-<Info id="monster-fleshdreg--info" source={[["Bestiary 4",100],["Pathfinder #61: Shards of Sin",82]]} xp="400" ne small aberration init={1} sen={["sin-scent"]} dv={60} pcp={4} />
-<Defense id="monster-fleshdreg--defense" ac={[14,12,13]} mod="+1 Dex, +2 natural, +1 size" hp={[13,"2d8+4"]} fort="+2" ref="+3" will="+3" immune="mind-affecting effects" sr="12" />
-<Offense id="monster-fleshdreg--offense" sp={30} melee="bite +3 (1d6+1 plus sinful bite)" />
-<Stats id="monster-fleshdreg--stats" atts={[12,13,15,6,11,12]} bab={1} cmb={1} cmd={12} feats={["Lightning Reflexes"]} skills={{"acro":{"b":5},"ea":{"b":5},"per":{"b":4},"stl":{"b":9}}} lang={["Ak"]} />
-<Ecology id="monster-fleshdreg--eco-eco" env="any ruins" org="solitary, pair, or batch (3-8)" treasure={{"X":false}} />
+<Info source={[["Bestiary 4",100],["Pathfinder #61: Shards of Sin",82]]} xp="400" ne small aberration init={1} sen={["sin-scent"]} dv={60} pcp={4} />
+<Defense ac={[14,12,13]} mod="+1 Dex, +2 natural, +1 size" hp={[13,"2d8+4"]} fort="+2" ref="+3" will="+3" immune="mind-affecting effects" sr="12" />
+<Offense sp={30} melee="bite +3 (1d6+1 plus sinful bite)" />
+<Stats atts={[12,13,15,6,11,12]} bab={1} cmb={1} cmd={12} feats={["Lightning Reflexes"]} skills={{"acro":{"b":5},"ea":{"b":5},"per":{"b":4},"stl":{"b":9}}} lang={["Ak"]} />
+<Ecology env="any ruins" org="solitary, pair, or batch (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Sinful Bite (Su)</strong> Each fleshdreg possesses an additional attack depending on its sin type. The save DCs are Charisma-based.</p>
@@ -1735,11 +1745,11 @@ const _fleshdreg = {title: "Fleshdreg", jsx: <><p><em>Composed of half-formed bo
 const _fleshdreg_swarm = {title: "Fleshdreg Swarm", jsx: <><p><em>Hundreds of wads of squirming flesh with flailing appendages move together in a cluster of teeth and claws.</em></p>
 <Header full><span>Fleshdreg Swarm</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info id="monster-fleshdreg_swarm--info" source={[["Pathfinder #61: Shards of Sin",83]]} xp="600" ne tiny aberration subs={["swarm"]} init={5} sen={["sin-scent"]} dv={60} pcp={5} />
-<Defense id="monster-fleshdreg_swarm--defense" ac={[15,13,14]} mod="+1 Dex, +2 natural, +2 size" hp={[19,"3d8+6"]} fort="+3" ref="+4" will="+3" def={[["swarm traits","swarm traits"]]} immune="mind-affecting effects" sr="13" />
-<Offense id="monster-fleshdreg_swarm--offense" sp={30} cl={10} melee="swarm (1d6 plus distraction)" space={"10"} reach={"0"} distraction={13} />
-<Stats id="monster-fleshdreg_swarm--stats" atts={[2,13,15,2,11,2]} bab={2} cmb={null} cmd={null} feats={["Improved Initiative","Lightning Reflexes"]} skills={{"per":{"b":5},"stl":{"b":13}}} sq="arcane bite" />
-<Ecology id="monster-fleshdreg_swarm--eco-eco" env="any ruins" org="solitary, pair, or infestation (3-5)" treasure={{"X":false}} />
+<Info source={[["Pathfinder #61: Shards of Sin",83]]} xp="600" ne tiny aberration subs={["swarm"]} init={5} sen={["sin-scent"]} dv={60} pcp={5} />
+<Defense ac={[15,13,14]} mod="+1 Dex, +2 natural, +2 size" hp={[19,"3d8+6"]} fort="+3" ref="+4" will="+3" def={[["swarm traits","swarm traits"]]} immune="mind-affecting effects" sr="13" />
+<Offense sp={30} cl={10} melee="swarm (1d6 plus distraction)" space={"10"} reach={"0"} distraction={13} />
+<Stats atts={[2,13,15,2,11,2]} bab={2} cmb={null} cmd={null} feats={["Improved Initiative","Lightning Reflexes"]} skills={{"per":{"b":5},"stl":{"b":13}}} sq="arcane bite" />
+<Ecology env="any ruins" org="solitary, pair, or infestation (3-5)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Arcane Bite (Su)</strong> A fleshdreg swarm's swarm damage is considered magical for the purposes of overcoming damage reduction.</p>
@@ -1750,12 +1760,12 @@ const _fleshdreg_swarm = {title: "Fleshdreg Swarm", jsx: <><p><em>Hundreds of wa
 const _fluxwraith = {title: "Fluxwraith", jsx: <><p><em>This hovering, translucent humanoid appears to sleep serenely, even as shards of flickering energy encircle it, each fragment reflecting younger or older versions of itself.</em></p>
 <Header full><span>Fluxwraith</span><span>CR 17</span></Header>
 <div className="reduce">
-<Info id="monster-fluxwraith--info" source={[["Pathfinder #126: Beyond the Veiled Past",86]]} xp="102,400" ne medium undead subs={["incorporeal"]} init={13} dv={60} lifesense pcp={37} aura={"slow aura (30 ft.)"} />
-<Defense id="monster-fluxwraith--defense" ac={[26,26,16]} mod="+6 deflection, +9 Dex, +1 dodge" hp={[273,"26d8+156"]} fort="+14" ref="+17" will="+20" chanRes="+4" incorp immune={<Link to="/umr/undead_traits">undead traits</Link>} />
-<Offense id="monster-fluxwraith--offense" fl={60} flP="perfect" melee="incorporeal touch +28 (15d6 plus time shift)" specAtt={[["temporal madness","temporal madness"],["time shift","time shift"]]} />
-<SpellBlock id="monster-fluxwraith--spells-monster-spellblock-1" sla={{"cl":20,"con":"+26","content":[{"will":true,"content":<><Link to="/spell/arcane_sight">arcane sight</Link>, <Link to="/spell/deja_vu">deja vu</Link>, <Link to="/spell/haste">haste</Link></>},{"day":3,"content":<><Link to="/feat/quickened">quickened</Link> <em>deja vu</em>, <Link to="/spell/hold_monster">hold monster</Link> (DC 21), <Link to="/spell/mirror_image">mirror image</Link>, <Link to="/spell/temporal_stasis">temporal stasis</Link> (DC 24)</>},{"day":1,"content":<><Link to="/spell/time_stop">time stop</Link> (DC 25)</>}]}} />
-<Stats id="monster-fluxwraith--stats" atts={[0,28,0,18,20,23]} bab={19} cmb={28} cmd={45} feats={[["Ability Focus"," (time shift)"],"Alertness","Combat Casting","Combat Expertise","Combat Reflexes","Dodge","Flyby Attack","Hover","Improved Initiative","Lunge","Mobility",["Quicken Spell-Like Ability"," (deja vu)"],"Stand Still"]} skills={{"acro":{"b":25},"diplo":{"b":25},"sm":{"b":37},"spc":{"b":23},"stl":{"b":20}}} lang={["AO","Az","C","Cy","Th"]} />
-<Ecology id="monster-fluxwraith--eco-eco" env="any" org="solitary or cluster (2-4)" treasure={{"S":false}} />
+<Info source={[["Pathfinder #126: Beyond the Veiled Past",86]]} xp="102,400" ne medium undead subs={["incorporeal"]} init={13} dv={60} lifesense pcp={37} aura={"slow aura (30 ft.)"} />
+<Defense ac={[26,26,16]} mod="+6 deflection, +9 Dex, +1 dodge" hp={[273,"26d8+156"]} fort="+14" ref="+17" will="+20" chanRes="+4" incorp immune={<Link to="/umr/undead_traits">undead traits</Link>} />
+<Offense fl={60} flP="perfect" melee="incorporeal touch +28 (15d6 plus time shift)" specAtt={[["temporal madness","temporal madness"],["time shift","time shift"]]} />
+<SpellBlock id="1" sla={{"cl":20,"con":"+26","content":[{"will":true,"content":<><Link to="/spell/arcane_sight">arcane sight</Link>, <Link to="/spell/deja_vu">deja vu</Link>, <Link to="/spell/haste">haste</Link></>},{"day":3,"content":<><Link to="/feat/quickened">quickened</Link> <em>deja vu</em>, <Link to="/spell/hold_monster">hold monster</Link> (DC 21), <Link to="/spell/mirror_image">mirror image</Link>, <Link to="/spell/temporal_stasis">temporal stasis</Link> (DC 24)</>},{"day":1,"content":<><Link to="/spell/time_stop">time stop</Link> (DC 25)</>}]}} />
+<Stats atts={[0,28,0,18,20,23]} bab={19} cmb={28} cmd={45} feats={[["Ability Focus"," (time shift)"],"Alertness","Combat Casting","Combat Expertise","Combat Reflexes","Dodge","Flyby Attack","Hover","Improved Initiative","Lunge","Mobility",["Quicken Spell-Like Ability"," (deja vu)"],"Stand Still"]} skills={{"acro":{"b":25},"diplo":{"b":25},"sm":{"b":37},"spc":{"b":23},"stl":{"b":20}}} lang={["AO","Az","C","Cy","Th"]} />
+<Ecology env="any" org="solitary or cluster (2-4)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Slow Aura (Su)</strong> Fluxwraiths constantly emit a 30-foot-radius aura of temporal distortion. Any creature within this aura is affected as if by <Link to="/spell/slow">slow</Link>, but it gets no saving throw. If a creature exits the radius, the effect ceases at the end of its turn. If the fluxwraith moves more than 30 feet away from an affected creature, the effect ends immediately for that creature. Creatures affected by <Link to="/spell/freedom">freedom</Link>, <Link to="/spell/freedom_of_movement">freedom of movement</Link>, or <em>haste</em> are unaffected by the slow aura.</p>

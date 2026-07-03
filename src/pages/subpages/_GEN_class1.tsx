@@ -314,8 +314,8 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>Bombs</td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<Ability id="class-alchemist-alchemy-su" icon={["upgrade","stairs-goal"]}>
-<Pair single id="class-alchemist-alchemy-su">Alchemy (Su)</Pair>
+<Ability id="alchemy-su" icon={["upgrade","stairs-goal"]}>
+<Pair single id="alchemy-su">Alchemy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">When using Craft (alchemy) to create an alchemical item, you gain a competence bonus equal to your class level on the Craft (alchemy) check. In addition, you can use Craft (alchemy) to identify potions as if using <Link to="/spell/detect_magic">detect magic</Link>. You must hold the potion for 1 round to make such a check.</Pair>
 <Pair title="Info">Alchemists are not only masters of creating mundane alchemical substances such as alchemist's fire and smokesticks, but also can create three special types of magical items - extracts, bombs, and mutagens. <strong className="hl">Extracts</strong> are magical potion-like concoctions, <strong className="hl">bombs</strong> are explosive splash weapons, and <strong className="hl">mutagens</strong> are transformative elixirs that you drink to enhance your physical abilities - each of these are detailed in their own sections below.</Pair>
@@ -333,8 +333,8 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 </Pair>
 <Pair title="Special">You may know any number of formulae. You store your formulae in a special tome called a formula book. You must refer to this book whenever you prepare an extract but not when you consume it. You begin play with two 1st-level formulae of your choice, plus a number of additional forumlae equal to your Intelligence modifier. At each new alchemist level, you gain one new formula of any level that you can create. You can also add formulae to your book just like a wizard <Link to="/rule/adding_spells_to_a_wizards_spellbook">adds spells to his spellbook</Link>, using the same costs, pages, and time requirements. You can study a wizard's spellbook to learn any formula that is equivalent to a spell the spellbook contains. A wizard, however, cannot learn spells from a formula book. You do not need to decipher arcane writings before copying them.</Pair>
 </Ability>
-<Ability id="class-alchemist-brew-potion-ex" icon={["stairs-goal"]}>
-<Pair single id="class-alchemist-brew-potion-ex">Brew Potion (Ex)</Pair>
+<Ability id="brew-potion-ex" icon={["stairs-goal"]}>
+<Pair single id="brew-potion-ex">Brew Potion (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You receive <Link to="/feat/brew_potion">Brew Potion</Link> as a bonus feat. You can brew potions of any formulae you know (up to 3rd level), using your alchemist level as your caster level. The spell must be one that can be made into a potion. You do not need to meet the prerequisites for this feat.</Pair>
 </Ability>
@@ -358,8 +358,8 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 <Pair title="At 19th Level">The base bomb damage becomes 10d6.</Pair>
 <Pair title="Special">Splash damage from your bomb is always equal to the bomb's minimum damage (so if the bomb would deal 1d6+4 points of fire damage on a direct hit, its splash damage would be 5 points of fire damage). Those caught in the splash damage can attempt a Reflex save for half damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your alchemist level + your Intelligence modifier.</Pair>
 </Ability>
-<Ability id="class-alchemist-throw-anything-ex" icon={["stairs-goal"]}>
-<Pair single id="class-alchemist-throw-anything-ex">Throw Anything (Ex)</Pair>
+<Ability id="throw-anything-ex" icon={["stairs-goal"]}>
+<Pair single id="throw-anything-ex">Throw Anything (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You gain the <Link to="/feat/throw_anything">Throw Anything</Link> feat as a bonus feat. You add your Intelligence modifier to damage done with splash weapons, including the splash damage if any. (This bonus damage is already included in the bomb class feature.)</Pair>
 </Ability>
@@ -374,8 +374,8 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 </Pair>
 <Pair title="Special">As with an extract or bomb, a mutagen that is not in your possession becomes inert until you pick it up again.</Pair>
 </Ability>
-<Ability id="class-alchemist-discovery-su" icon={["stairs-goal"]}>
-<Pair single id="class-alchemist-discovery-su">Discovery (Su)</Pair>
+<Ability id="discovery-su" icon={["stairs-goal"]}>
+<Pair single id="discovery-su">Discovery (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You learn an incredible <Link to="/ability/discovery">alchemical discovery</Link>, choosing one from the list provided. Unless otherwise noted, you cannot select an individual discovery more than once. Some discoveries can only be made if you have met certain prerequisites first, such as uncovering other discoveries.</Pair>
 <Pair title="At 4th Level">You make another discovery.</Pair>
@@ -389,43 +389,43 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 <Pair title="Special">Some discoveries that modify bombs (Primary Bomb Discoveries) do not stack; only one such discovery can be applied to an individual bomb. The DC of any saving throw called for by a discovery is equal to 10 + 1/2 your alchemist level + the your Intelligence modifier.</Pair>
 </Ability>
 <aside><p>In addition, an alchemist can choose to learn an <Link to="/ability/annointings">annointing</Link> instead of a discovery.</p>
-</aside><Ability id="class-alchemist-poison-resistance-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-alchemist-poison-resistance-ex">Poison Resistance (Ex)</Pair>
+</aside><Ability id="poison-resistance-ex" icon={["armor-upgrade"]}>
+<Pair single id="poison-resistance-ex">Poison Resistance (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a +2 bonus on all saving throws against poison.</Pair>
 <Pair title="At 5th Level">The bonus becomes +4.</Pair>
 <Pair title="At 8th Level">The bonus becomes +6.</Pair>
 <Pair title="At 10th Level">You become completely immune to poison.</Pair>
 </Ability>
-<Ability id="class-alchemist-poison-use-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-alchemist-poison-use-ex">Poison Use (Ex)</Pair>
+<Ability id="poison-use-ex" icon={["armor-upgrade"]}>
+<Pair single id="poison-use-ex">Poison Use (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You are trained in the use of poison and cannot accidentally poison yourself when applying poison to a weapon.</Pair>
 </Ability>
-<Ability id="class-alchemist-swift-alchemy-ex" icon={["upgrade"]}>
-<Pair single id="class-alchemist-swift-alchemy-ex" flavor="You can create alchemical items with astounding speed.">Swift Alchemy (ex)</Pair>
+<Ability id="swift-alchemy-ex" icon={["upgrade"]}>
+<Pair single id="swift-alchemy-ex" flavor="You can create alchemical items with astounding speed.">Swift Alchemy (ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">It takes you half the normal amount of time to create alchemical items.</Pair>
 <Pair title="Move-Equivalent Action">You can apply poison to a weapon. (This is normally a standard action.)</Pair>
 </Ability>
-<Ability id="class-alchemist-swift-poisoning-ex" icon={["upgrade"]}>
-<Pair single id="class-alchemist-swift-poisoning-ex">Swift Poisoning (Ex)</Pair>
+<Ability id="swift-poisoning-ex" icon={["upgrade"]}>
+<Pair single id="swift-poisoning-ex">Swift Poisoning (Ex)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Swift Action">You can now apply a dose of poison to a weapon as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="class-alchemist-persistent-mutagen-su" icon={["upgrade"]}>
-<Pair single id="class-alchemist-persistent-mutagen-su">Persistent Mutagen (Su)</Pair>
+<Ability id="persistent-mutagen-su" icon={["upgrade"]}>
+<Pair single id="persistent-mutagen-su">Persistent Mutagen (Su)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">The effects of a mutagen now last for 1 hour per level.</Pair>
 </Ability>
-<Ability id="class-alchemist-instant-alchemy-ex" icon={["upgrade"]}>
-<Pair single id="class-alchemist-instant-alchemy-ex" flavor="You can create alchemical items with almost supernatural speed.">Instant Alchemy (Ex)</Pair>
+<Ability id="instant-alchemy-ex" icon={["upgrade"]}>
+<Pair single id="instant-alchemy-ex" flavor="You can create alchemical items with almost supernatural speed.">Instant Alchemy (Ex)</Pair>
 <Pair title="Gained">At 18th Level</Pair>
 <Pair title="Full-Round Action">You can create any alchemical item if you succeed at the Craft (alchemy) check and have the appropriate resources at hand to fund the creation.</Pair>
 <Pair title="Immediate Action">You can apply poison to a weapon. (This is normally a standard action.)</Pair>
 </Ability>
-<Ability id="class-alchemist-grand-discovery-su" icon={["stairs-goal"]}>
-<Pair single id="class-alchemist-grand-discovery-su" flavor="For many alchemists, the promise of one of these grand discoveries is the primary goal of their experiments and hard work.">Grand Discovery (Su)</Pair>
+<Ability id="grand-discovery-su" icon={["stairs-goal"]}>
+<Pair single id="grand-discovery-su" flavor="For many alchemists, the promise of one of these grand discoveries is the primary goal of their experiments and hard work.">Grand Discovery (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">You make a <Link to="/ability/grand_discovery">grand discovery</Link>. You also immediately learn two normal discoveries, but also a third discovery chosen from the given list, representing a truly astounding alchemical breakthrough of significant import.</Pair>
 </Ability>
@@ -506,7 +506,7 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 <h3 id="class-alchemist-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"alchemist archetypes","columns":[{"header":"Archetype","link":"arc-alchemist"},{"header":"Alchemy"},{"header":"Swift Alchemy"},{"header":"Instant Alchemy"},{"header":"Alignment"},{"header":"Bombs"},{"header":"7th-level Bomb Damage Increase"},{"header":"13th-level Bomb Damage Increase"},{"header":"15th-level Bomb Damage Increase"},{"header":"17th-level Bomb Damage Increase"},{"header":"Brew Potion"},{"header":"Class Skills"},{"header":"2nd-level Discovery"},{"header":"4th-level Discovery"},{"header":"6th-level Discovery"},{"header":"8th-level Discovery"},{"header":"10th-level Discovery"},{"header":"12th-level Discovery"},{"header":"16th-level Discovery"},{"header":"18th-level Discovery"},{"header":"Extracts"},{"header":"Key Ability Score"},{"header":"Mutagen"},{"header":"Persistent Mutagen"},{"header":"Poison Use"},{"header":"Swift Poisoning"},{"header":"Poison Resistance"},{"header":"Poison Resistance +2"},{"header":"Poison Resistance +4"},{"header":"Poison Resistance +6"},{"header":"Poison Immunity"},{"header":"Throw Anything"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Aerochemist","aerochemist"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X","X","X",null,null,null,null,null,null],[["Alchemical Sapper","alchemical_sapper"],null,"X",null,null,"X",null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,"X",null,null],[["Alchemical Trapper","alchemical_trapper"],null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Aquachymist","aquachymist"],null,null,null,null,"X",null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Beastmorph","beastmorph"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,"X",null,null],[["Blazing Torchbearer","blazing_torchbearer"],null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null],[["Blightseeker","blightseeker"],null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,"X",null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Blood Alchemist","blood_alchemist"],null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Bogborn Alchemist","bogborn_alchemist"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null],[["Bramble Brewer","bramble_brewer"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Chirurgeon","chirurgeon"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,"X",null,null],[["Clone Master","clone_master"],null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null],[["Concocter","concocter"],null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Construct Rider","construct_rider"],null,null,null,null,null,null,null,null,null,"X","X",null,"X",null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null],[["Crimson Chymist","crimson_chymist"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Cruorchymist","cruorchymist"],null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,"X","X","X",null,null,null,"X",null,null],[["Crypt Breaker","crypt_breaker"],null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null],[["Deep Bomber","deep_bomber"],null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null],[["Dimensional Excavator","dimensional_excavator"],null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Dragonblood Chymist","dragonblood_chymist"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,null,"X",null,"X","X","X",null,null,null,null,"X",null],[["Ectochymist","ectochymist"],null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,"X","X","X",null,null,null,"X",null,null],[["Ectoplasm Master","ectoplasm_master"],null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Eldritch Poisoner","eldritch_poisoner"],null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,"X",null],[["Energist","energist"],null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,null,"X","X",null],[["Energy Scientist","energy_scientist"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,"X",null,null],[["Fermenter","fermenter"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null],[["Fire Bomber","fire_bomber"],null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X","X","X","X"],[["First World Innovator","first_world_innovator"],null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,"X",null,null],[["Gloom Chymist","gloom_chymist"],null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null],[["Grenadier","grenadier"],null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,"X",null,null],[["Grenadier (MC)","grenadier_mc"],null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,"X",null,null],[["Gun Chemist","gun_chemist"],null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,"X","X"],[["Herbalist","herbalist"],"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,"X",null,null,null,"X","X",null],[["Homunculist","homunculist"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X","X","X",null,null,null,"X",null,null],[["Horticulturist","horticulturist"],null,null,null,null,"X",null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,"X","X","X",null,"X",null,null,null,"X",null,null],[["Ice Chemist","ice_chemist"],null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null],[["Inspired Chemist","inspired_chemist"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Internal Alchemist","internal_alchemist"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null],[["Interrogator","interrogator"],null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null],[["Mad Scientist","mad_scientist"],"X",null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Metamorph","metamorph"],null,"X","X",null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,"X",null],[["Mindchemist","mindchemist"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null],[["Mixologist","mixologist"],"X",null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,"X","X",null,null,"X",null,null,null,null,null,null],[["Mnemostiller","mnemostiller"],"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,"X",null,"X",null,null,null,null,"X",null],[["Oenopion Researcher","oenopion_researcher"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null],[["Oozemaster","oozemaster"],null,null,null,null,"X",null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null],[["Perfumer","perfumer"],null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,null],[["Plague Bringer","plague_bringer"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,"X",null,null],[["Preservationist","preservationist"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X","X",null,null,null,"X","X","X",null,null],[["Promethean Alchemist","promethean_alchemist"],null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null],[["Psychonaut","psychonaut"],null,null,null,null,"X",null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null],[["Ragechemist","ragechemist"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,"X",null,null],[["Reanimator","reanimator"],null,null,null,null,"X","X","X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Royal Alchemist","royal_alchemist"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null],[["Saboteur","saboteur"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Sacrament Alchemist","sacrament_alchemist"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Tinkerer","tinkerer"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X","X","X",null,null,null,"X",null,null],[["Toxicant","toxicant"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null],[["Trap Breaker","trap_breaker"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,"X","X","X","X",null,null],[["Vaultbreaker","vaultbreaker"],null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null],[["Vivisectionist","vivisectionist"],null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Wasteland Blightbreaker","wasteland_blightbreaker"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,"X",null,"X",null,null,null],[["Winged Marauder","winged_marauder"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-alchemist-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="alchemist" prefix="class-alchemist-" />
+<RacialOptions cls="alchemist" />
 </>};
 const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="jumpList" id="class-antipaladin-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-antipaladin-code-of-conduct">Code of Conduct</InnerLink></li><li><InnerLink toTop to="class-antipaladin-aura-of-evil-ex">Evil and Good</InnerLink></li><li><InnerLink toTop to="class-antipaladin-unholy-resilience-su">Unholy Resilience</InnerLink></li><li><InnerLink toTop to="class-antipaladin-touch-of-corruption-su">Touch of Corruption</InnerLink></li><li><InnerLink toTop to="class-antipaladin-aura-of-cowardice-su">Aura of Cowardice</InnerLink></li><li><InnerLink toTop to="class-antipaladin-plague-bringer-ex">Plague Bringer</InnerLink></li><li><InnerLink toTop to="class-antipaladin-cruelty-su">Cruelty</InnerLink></li><li><InnerLink toTop to="class-antipaladin-channel-negative-energy-su">Channel Negative Energy</InnerLink></li><li><InnerLink toTop to="class-antipaladin-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-antipaladin-fiendish-boon-sp">Fiendish Boon</InnerLink></li><li><InnerLink toTop to="class-antipaladin-aura-of-despair-su">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-antipaladin-ex-antipaladins">Ex-Antipaladins</InnerLink></li><li><InnerLink toTop to="class-antipaladin-fall-from-grace">Fall from Grace</InnerLink></li><li><InnerLink toTop to="class-antipaladin-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-antipaladin-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-antipaladin-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-antipaladin-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-antipaladin-antipaladin">Antipaladin</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 118</Link></p>
@@ -775,13 +775,13 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light, Medium, and Heavy armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
 <p><strong className="hl" id="class-antipaladin-code-of-conduct" data-hash-target>Code of Conduct:</strong> An antipaladin must be of chaotic evil alignment and loses all class features except proficiencies if he willingly and altruistically commits good acts. This does not mean that an antipaladin cannot take actions someone else might qualify as good, only that such actions must always be in service of his own dark ends. An antipaladin's code requires that he place his own interests and desires above all else, as well as impose tyranny, take advantage whenever possible, and punish the good and just, provided such actions don't interfere with his goals.</p>
 <p><strong className="hl">Associates:</strong> While he may adventure with evil or neutral allies, an antipaladin avoids working with good characters or with anyone who consistently attempts to do good deeds. Under exceptional circumstances, an antipaladin can ally with good associates, but only to defeat them from within and bring ruin to their ranks. An antipaladin does not need an <Link to="/spell/atonement">atonement</Link> spell during such an unusual alliance as long as his nefarious goals are met in the end - evil cares only about results. An antipaladin may accept only <Link to="/feat/leadership">henchmen, followers, or cohorts</Link> who are chaotic evil.</p>
-<Ability id="class-antipaladin-aura-of-evil-ex" icon={["aura"]}>
-<Pair single id="class-antipaladin-aura-of-evil-ex">Aura of Evil (Ex)</Pair>
+<Ability id="aura-of-evil-ex" icon={["aura"]}>
+<Pair single id="aura-of-evil-ex">Aura of Evil (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">The power of your aura of evil (see <Link to="/spell/detect_evil">detect evil</Link>) is equal to your antipaladin level.</Pair>
 </Ability>
-<Ability id="class-antipaladin-detect-good-sp" icon={["stairs-goal"]}>
-<Pair single id="class-antipaladin-detect-good-sp">Detect Good (Sp)</Pair>
+<Ability id="detect-good-sp" icon={["stairs-goal"]}>
+<Pair single id="detect-good-sp">Detect Good (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">At will, you can use <Link to="/spell/detect_good">detect good</Link>, as the spell.</Pair>
 <Pair title="Move-Equivalent Action">You can concentrate on a single item or individual within 60 feet and determine if it is good, learning the strength of its aura as if having studied it for 3 rounds. While focusing on one individual or object, you do not <em>detect good</em> in any other object or individual within range.</Pair>
@@ -801,8 +801,8 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair title="At 16th Level">You can smite six times a day.</Pair>
 <Pair title="At 19th Level">You can smite seven times a day.</Pair>
 </Ability>
-<Ability id="class-antipaladin-unholy-resilience-su" icon={["armor-upgrade"]}>
-<Pair single id="class-antipaladin-unholy-resilience-su">Unholy Resilience (Su)</Pair>
+<Ability id="unholy-resilience-su" icon={["armor-upgrade"]}>
+<Pair single id="unholy-resilience-su">Unholy Resilience (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a bonus equal to your Charisma bonus (if any) on all saving throws.</Pair>
 </Ability>
@@ -816,13 +816,13 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="Special">This ability is modified by any feat, spell, or effect that specifically works with the <Link to="/ability/lay_on_hands">lay on hands</Link> paladin class feature. For example, the <Link to="/feat/extra_lay_on_hands">Extra Lay On Hands</Link> feat grants an antipaladin 2 additional uses of the <em>touch of corruption</em> class feature.</Pair>
 </Ability>
-<Ability id="class-antipaladin-aura-of-cowardice-su" icon={["armor-downgrade"]}>
-<Pair single id="class-antipaladin-aura-of-cowardice-su" flavor="You radiate a palpably daunting aura.">Aura of Cowardice (Su)</Pair>
+<Ability id="aura-of-cowardice-su" icon={["armor-downgrade"]}>
+<Pair single id="aura-of-cowardice-su" flavor="You radiate a palpably daunting aura.">Aura of Cowardice (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">All enemies within 10 feet take a -4 penalty on saving throws against fear effects. Creatures that are normally immune to fear lose that immunity while within 10 feet of you. This ability functions only while you remain conscious, not if you are unconscious or dead.</Pair>
 </Ability>
-<Ability id="class-antipaladin-plague-bringer-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-antipaladin-plague-bringer-ex" flavor="The powers of darkness make an antipaladin a beacon of corruption and disease.">Plague Bringer (Ex)</Pair>
+<Ability id="plague-bringer-ex" icon={["armor-upgrade"]}>
+<Pair single id="plague-bringer-ex" flavor="The powers of darkness make an antipaladin a beacon of corruption and disease.">Plague Bringer (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You do not take any damage or take any penalty from diseases. You can still contract diseases and spread them to others, but you're otherwise immune to their effects.</Pair>
 </Ability>
@@ -865,13 +865,13 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair title="At 15th Level">You gain a fifth cruelty.</Pair>
 <Pair title="At 18th Level">You gain a sixth cruelty.</Pair>
 </Ability>
-<Ability id="class-antipaladin-channel-negative-energy-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="class-antipaladin-channel-negative-energy-su">Channel Negative Energy (Su)</Pair>
+<Ability id="channel-negative-energy-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="channel-negative-energy-su">Channel Negative Energy (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Standard Action">You gain the supernatural ability to <Link to="/ability/channel_negative_energy">channel negative energy</Link> like a cleric. Using this ability consumes two uses of your <em>touch of corruption</em> ability. You use your level as your effective cleric level when channeling negative energy. This is a Charisma-based ability.</Pair>
 </Ability>
-<Ability id="class-antipaladin-channel-energy-su" extraClasses="subAbility" icon={["aura"]}>
-<Pair single id="class-antipaladin-channel-energy-su" flavor="Relevant text from the cleric class ability.">Channel Energy (Su)</Pair>
+<Ability id="channel-energy-su" extraClasses="subAbility" icon={["aura"]}>
+<Pair single id="channel-energy-su" flavor="Relevant text from the cleric class ability.">Channel Energy (Su)</Pair>
 <Pair title="Standard Action">You must present your unholy symbol to channel energy. This causes a <Link to="/misc/burst">burst</Link> that affects all creatures of one type (either undead or living) in a 30-foot radius centered on you. This deals or heals (see below) 2d6 damage. You can choose whether or not to include yourself in this effect. Creatures that take damage from channeled energy receive a Will save to halve the damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your cleric level + your Charisma modifier.</Pair>
 <Pair title="Choice">An evil cleric (or one who worships an evil deity) channels <strong className="hl">negative energy</strong> and can choose to deal damage to living creatures or to heal undead creatures.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
@@ -896,8 +896,8 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 </Pair>
 <Pair title="Special">When it is indicated that you get 0 spells per day of a given spell level, you gain only the bonus spells you would be entitled to based on your Charisma score for that spell level.</Pair>
 </Ability>
-<Ability id="class-antipaladin-fiendish-boon-sp" extraClasses="hasSubs" icon={["magic-swirl"]}>
-<Pair single id="class-antipaladin-fiendish-boon-sp" flavor="You receive a boon from your dark patrons.">Fiendish Boon (Sp)</Pair>
+<Ability id="fiendish-boon-sp" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Pair single id="fiendish-boon-sp" flavor="You receive a boon from your dark patrons.">Fiendish Boon (Sp)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">This boon can take one of two forms. Once the form is chosen, it cannot be changed.</Pair>
 </Ability>
@@ -927,28 +927,28 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair title="At 15th Level">This functions as <Link to="/spell/summon_monster_viii">summon monster VIII</Link>, and the servant gains spell resistance equal to your level + 11.</Pair>
 <Pair title="At 17th Level">You can use this ability four times a day, and it functions as <Link to="/spell/summon_monster_ix">summon monster IX</Link>.</Pair>
 </Ability>
-<Ability id="class-antipaladin-aura-of-despair-su" icon={["armor-downgrade"]}>
-<Pair single id="class-antipaladin-aura-of-despair-su">Aura of Despair (Su)</Pair>
+<Ability id="aura-of-despair-su" icon={["armor-downgrade"]}>
+<Pair single id="aura-of-despair-su">Aura of Despair (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">Enemies within 10 feet of you take a -2 penalty on all saving throws. This penalty does not stack with the penalty from <em>aura of cowardice.</em> This ability functions only while you are conscious, not if you're unconscious or dead.</Pair>
 </Ability>
-<Ability id="class-antipaladin-aura-of-vengeance-su" icon={["upgrade"]}>
-<Pair single id="class-antipaladin-aura-of-vengeance-su">Aura of Vengeance (Su)</Pair>
+<Ability id="aura-of-vengeance-su" icon={["upgrade"]}>
+<Pair single id="aura-of-vengeance-su">Aura of Vengeance (Su)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Free Action">You can expend two uses of your <em>smite good</em> ability to grant the ability to <em>smite good</em> to all allies within 10 feet, using your bonuses. Allies must use this <em>smite good</em> ability by the start of your next turn and the bonuses last for 1 minute. Good creatures gain no benefit from this ability.</Pair>
 </Ability>
-<Ability id="class-antipaladin-aura-of-sin-su" icon={["armor-downgrade"]}>
-<Pair single id="class-antipaladin-aura-of-sin-su">Aura of Sin (Su)</Pair>
+<Ability id="aura-of-sin-su" icon={["armor-downgrade"]}>
+<Pair single id="aura-of-sin-su">Aura of Sin (Su)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">Your weapons are treated as evil-aligned for the purposes of overcoming <Link to="/rule/damage_reduction">damage reduction</Link>. Any attack made against an enemy within 10 feet of you is treated as evil-aligned for the purposes of overcoming damage reduction. This ability functions only while you are conscious, not if you're unconscious or dead.</Pair>
 </Ability>
-<Ability id="class-antipaladin-aura-of-depravity-su" icon={["armor-upgrade","armor-downgrade"]}>
-<Pair single id="class-antipaladin-aura-of-depravity-su">Aura of Depravity (Su)</Pair>
+<Ability id="aura-of-depravity-su" icon={["armor-upgrade","armor-downgrade"]}>
+<Pair single id="aura-of-depravity-su">Aura of Depravity (Su)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">You gain DR 5/good. Each enemy within 10 feet takes a -4 penalty on saving throws against compulsion effects. This ability functions only while you are conscious, not if you're unconscious or dead.</Pair>
 </Ability>
-<Ability id="class-antipaladin-unholy-champion-su" icon={["armor-upgrade","upgrade"]}>
-<Pair single id="class-antipaladin-unholy-champion-su" flavor="You become a conduit for the might of the dark powers.">Unholy Champion (Su)</Pair>
+<Ability id="unholy-champion-su" icon={["armor-upgrade","upgrade"]}>
+<Pair single id="unholy-champion-su" flavor="You become a conduit for the might of the dark powers.">Unholy Champion (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">Your DR increases to 10/good. Whenever you use <em>smite good</em> and successfully strike a good outsider, the outsider is also subject to a <Link to="/spell/banishment">banishment</Link>, using your antipaladin level as the caster level (your weapon and unholy symbol automatically count as objects that the subject hates). After the <em>banishment</em> effect and the damage from the attack is resolved, the <em>smite</em> immediately ends. In addition, whenever you channel negative energy or use <em>touch of corruption</em> to damage a creature, you deal the maximum possible amount.</Pair>
 </Ability>
@@ -982,7 +982,7 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <h3 id="class-antipaladin-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"antipaladin archetypes","columns":[{"header":"Archetype","link":"arc-antipaladin"},{"header":"Aura of Cowardice"},{"header":"Aura of Depravity"},{"header":"Aura of Despair"},{"header":"Aura of Evil"},{"header":"Aura of Sin"},{"header":"Aura of Vengeance"},{"header":"Channel Negative Energy"},{"header":"Class Skills"},{"header":"Code of Conduct"},{"header":"Cruelty"},{"header":"15th-level Cruelty"},{"header":"Detect Good"},{"header":"Fiendish Boon"},{"header":"Plague Bringer"},{"header":"Smite Good"},{"header":"10th-level Smite Good use"},{"header":"Spellcasting"},{"header":"Touch of Corruption"},{"header":"Unholy Champion"}],"data":[[["Blighted Myrmidon","blighted_myrmidon"],null,null,null,null,null,"X",null,null,null,null,"X",null,"X",null,"X","X",null,null,"X"],[["Dread Vanguard","dread_vanguard"],null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Fearmonger","fearmonger"],null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null],[["Insinuator","insinuator"],"X","X","X","X","X","X","X",null,"X","X",null,"X","X","X","X",null,"X","X","X"],[["Iron Tyrant","iron_tyrant"],null,null,null,null,null,null,"X",null,null,"X",null,null,"X",null,null,null,null,"X",null],[["Knight of the Sepulcher","knight_of_the_sepulcher"],null,"X","X",null,"X","X",null,null,null,"X",null,null,"X",null,null,"X",null,null,"X"],[["Rough Rampager","rough_rampager"],"X",null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Seal-Breaker","seal_breaker"],"X",null,"X",null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Tyrant","tyrant"],null,null,null,null,null,null,null,"X","X",null,null,null,"X",null,null,null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-antipaladin-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="antipaladin" prefix="class-antipaladin-" />
+<RacialOptions cls="antipaladin" />
 </>};
 const _arcanist = {hasJL:true,title: "Arcanist", jsx: <><div className="jumpList" id="class-arcanist-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-arcanist-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-arcanist-arcane-reservoir-su">Arcane Reservoir</InnerLink></li><li><InnerLink toTop to="class-arcanist-arcanist-exploits">Arcanist Exploits</InnerLink></li><li><InnerLink toTop to="class-arcanist-consume-spells-su">Consume Spells</InnerLink></li><li><InnerLink toTop to="class-arcanist-greater-exploits">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-arcanist-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-arcanist-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-arcanist-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-arcanist-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-arcanist-arcanist">Arcanist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 8</Link></p>
@@ -1640,25 +1640,25 @@ const _arcanist = {hasJL:true,title: "Arcanist", jsx: <><div className="jumpList
 <p>Like a sorcerer, you can choose to apply any <Link to="/main/metamagic_feat">metamagic feats</Link> you know to a prepared spell as you cast it, with the same increase in casting time. However, you may also prepare a spell with any metamagic feats you know and cast it without increasing casting time like a wizard. You cannot combine these options - a spell prepared with metamagic feats cannot be further modified with another metamagic feat at the time of casting (unless you have the <Link to="/exploit/metamixing">metamixing</Link> arcanist exploit).</p>
 </Pair>
 </Ability>
-<Ability id="class-arcanist-cantrips" icon={["magic-swirl"]}>
-<Pair single id="class-arcanist-cantrips">Cantrips</Pair>
+<Ability id="cantrips" icon={["magic-swirl"]}>
+<Pair single id="cantrips">Cantrips</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You can prepare a number of cantrips, or 0-level arcane spells, each day. These spells are cast like any other spell, but they do not consume spell slots. As with your other spells, these spells are not expended when cast.</Pair>
 </Ability>
-<Ability id="class-arcanist-spellbooks" icon={["magic-swirl"]}>
-<Pair single id="class-arcanist-spellbooks">Spellbooks</Pair>
+<Ability id="spellbooks" icon={["magic-swirl"]}>
+<Pair single id="spellbooks">Spellbooks</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must study your spellbook each day to prepare your spells. You can't prepare any spell not recorded in your spellbook, except for <Link to="/spell/read_magic">read magic</Link> (which all arcanists can prepare from memory).</Pair>
 <Pair title="Special">You begin play with a spellbook containing all 0-level arcanist spells plus three 1st-level spells of your choice. You also select a number of additional 1st-level spells equal to your Intelligence modifier to add to the spellbook. At each new arcanist level, you gain two new spells of any spell level or levels that you can cast (based on your new arcanist level) for your spellbook. At any time, you can also add spells found in wizards' or other arcanists' spellbooks to your own (see <Link to="/rule/arcane_magical_writing">Arcane Magical Writing</Link>).</Pair>
 </Ability>
-<Ability id="class-arcanist-arcane-reservoir-su" icon={["stairs-goal"]}>
-<Pair single id="class-arcanist-arcane-reservoir-su" flavor="You have an innate pool of magical energy that you can draw upon to fuel many of your powers.">Arcane Reservoir (Su)</Pair>
+<Ability id="arcane-reservoir-su" icon={["stairs-goal"]}>
+<Pair single id="arcane-reservoir-su" flavor="You have an innate pool of magical energy that you can draw upon to fuel many of your powers.">Arcane Reservoir (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You have an arcane reservoir that can hold a maximum amount of magical energy equal to 3 + your arcanist level. Each day, when preparing spells, your arcane reservoir fills with raw magical energy, gaining a number of points equal to 3 + <Link to="/misc/half">half</Link> your arcanist level. Any points you had from the previous day are lost. You can also regain these points through the <em>consume spells</em> class feature and some arcanist exploits. The arcane reservoir can never hold more points than the maximum amount noted above; points gained in excess of this total are lost.</Pair>
 <Pair title="Free Action">You can expend 1 point from your arcane reservoir whenever you cast an arcanist spell. If you do, you can choose to increase the caster level by 1 or increase the spell's DC by 1. You can expend no more than 1 point from your reservoir on a given spell in this way.</Pair>
 </Ability>
-<Ability id="class-arcanist-arcanist-exploits" icon={["stairs-goal"]}>
-<Pair single id="class-arcanist-arcanist-exploits">Arcanist Exploits</Pair>
+<Ability id="arcanist-exploits" icon={["stairs-goal"]}>
+<Pair single id="arcanist-exploits">Arcanist Exploits</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn one arcanist exploit. By bending and sometimes even breaking the rules of magic, you learn to exploit gaps and exceptions in the laws of magic. Some of these <Link to="/ability/exploits">exploits</Link> allow you to break down various forms of magic, adding their essence to your arcane reservoir.</Pair>
 <Pair title="At 3rd Level">You learn a new arcane exploit.</Pair>
@@ -1673,19 +1673,19 @@ const _arcanist = {hasJL:true,title: "Arcanist", jsx: <><div className="jumpList
 <Pair title="Special">An arcanist exploit cannot be selected more than once. Once an arcanist exploit has been selected, it cannot be changed. Most arcanist exploits require you to expend points from your arcane reservoir to function. Unless otherwise noted, the saving throw DC for an arcanist exploit is equal to 10 + 1/2 your level + your Charisma modifier.</Pair>
 </Ability>
 <aside><p>There are also more dangerous <Link to="/ability/outer_rifts_exploits">Outer Rifts exploits</Link> to choose from.</p>
-</aside><Ability id="class-arcanist-consume-spells-su" icon={["magic-swirl"]}>
-<Pair single id="class-arcanist-consume-spells-su">Consume Spells (Su)</Pair>
+</aside><Ability id="consume-spells-su" icon={["magic-swirl"]}>
+<Pair single id="consume-spells-su">Consume Spells (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">Cha modifier times/day</Pair>
 <Pair title="Move-Equivalent Action">You can expend an available arcanist spell slot, making it unavailable for the rest of the day, just as if you had used it to cast a spell. Doing this adds a number of points to your arcane reservoir equal to the level of the spell slot consumed. You cannot consume cantrips (0 level spells) in this way. Points gained in excess of the reservoir's maximum are lost.</Pair>
 </Ability>
-<Ability id="class-arcanist-greater-exploits" icon={["stairs-goal"]}>
-<Pair single id="class-arcanist-greater-exploits">Greater Exploits</Pair>
+<Ability id="greater-exploits" icon={["stairs-goal"]}>
+<Pair single id="greater-exploits">Greater Exploits</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">You can now choose a <Link to="/ability/greater_exploits">greater exploit</Link> when you gain a a new arcanist exploit (described above).</Pair>
 </Ability>
-<Ability id="class-arcanist-magical-supremacy-su" icon={["stairs-goal"]}>
-<Pair single id="class-arcanist-magical-supremacy-su" flavor="You learn how to convert your arcane reservoir into spells and back again.">Magical Supremacy (Su)</Pair>
+<Ability id="magical-supremacy-su" icon={["stairs-goal"]}>
+<Pair single id="magical-supremacy-su" flavor="You learn how to convert your arcane reservoir into spells and back again.">Magical Supremacy (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">You can cast any spell you have prepared by expending a number of points from your arcane reservoir equal to 1 + the level of the spell to be cast instead of expending a spell slot. When you cast a spell in this fashion, you treat your caster level as 2 higher than normal, and the DCs of any saving throws associated with the spell increase by 2. You cannot further expend points from your arcane reservoir to enhance a spell cast in this way.</Pair>
 </Ability>
@@ -1719,7 +1719,7 @@ const _arcanist = {hasJL:true,title: "Arcanist", jsx: <><div className="jumpList
 <div className="archetype"><p><Link to="/arc-arcanist/white_mage">White Mage</Link></p><p><strong>Modifies or Replaces:</strong> 1st and 9th-level Arcanist Exploits</p><p>A white mage is an arcanist touched by a divine power and gifted with the ability to heal others.</p></div>
 <h3 id="class-arcanist-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <h3 id="class-arcanist-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="arcanist" prefix="class-arcanist-" />
+<RacialOptions cls="arcanist" />
 </>};
 const _bard = {hasJL:true,title: "Bard", jsx: <><div className="jumpList" id="class-bard-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-bard-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-bard-bardic-knowledge-ex">Bardic Knowledge</InnerLink></li><li><InnerLink toTop to="class-bard-bardic-performance">Bardic Performance</InnerLink></li><li><InnerLink toTop to="class-bard-bardic-masterpieces">Bardic Masterpieces</InnerLink></li><li><InnerLink toTop to="class-bard-versatile-performance-ex">Versatile Performance</InnerLink></li><li><InnerLink toTop to="class-bard-well-versed-ex">Well-Versed</InnerLink></li><li><InnerLink toTop to="class-bard-lore-master-ex">Lore Master</InnerLink></li><li><InnerLink toTop to="class-bard-jack-of-all-trades-ex">Jack-of-All-Trades</InnerLink></li><li><InnerLink toTop to="class-bard-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-bard-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-bard-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-bard-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-bard-bard">Bard</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 34</Link></p>
@@ -2241,17 +2241,17 @@ const _bard = {hasJL:true,title: "Bard", jsx: <><div className="jumpList" id="cl
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={4}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td><Link to="/eq-weapon/longsword">longsword</Link></td><td><Link to="/eq-weapon/rapier">rapier</Link></td></tr><tr><td><Link to="/eq-weapon/sap">sap</Link></td><td><Link to="/eq-weapon/short_sword">short sword</Link></td></tr><tr><td><Link to="/eq-weapon/shortbow">shortbow</Link></td><td><Link to="/eq-weapon/whip">whip</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th>Shields?</th><td colSpan={2}>Yes, except tower shields</td></tr><tr><td colSpan={3} className="sw se">You can cast bard spells while wearing light armor and use a shield without incurring the normal arcane spell failure chance. Like any other arcane spellcaster, wearing medium or heavy armor incurs a chance of arcane spell failure if the spell in question has a somatic component. A multiclass bard still incurs the normal arcane spell failure chance for arcane spells received from other classes.</td></tr></tbody></table>
-<Ability id="class-bard-spells" icon={["magic-swirl"]}><Pair single id="class-bard-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Charisma score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Charisma score.</Pair>
 <Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_bard">bard spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>A bard's selection of spells is extremely limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new bard level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Charisma score.</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level bard spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair><Pair title="Special">Every bard spell has a verbal component (song, recitation, or music).</Pair></Ability><Ability id="class-bard-cantrips" icon={["magic-swirl"]}>
-<Pair single id="class-bard-cantrips">Cantrips</Pair>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level bard spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair><Pair title="Special">Every bard spell has a verbal component (song, recitation, or music).</Pair></Ability><Ability id="cantrips" icon={["magic-swirl"]}>
+<Pair single id="cantrips">Cantrips</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of cantrips, or 0-level arcane spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Cantrips cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
-<Ability id="class-bard-bardic-knowledge-ex" icon={["upgrade","stairs-goal"]}>
-<Pair single id="class-bard-bardic-knowledge-ex">Bardic Knowledge (Ex)</Pair>
+<Ability id="bardic-knowledge-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="bardic-knowledge-ex">Bardic Knowledge (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You add <Link to="/misc/half">half</Link> your class level (minimum 1) to all Knowledge skill checks and may make all Knowledge skill checks untrained.</Pair>
 </Ability>
@@ -2294,21 +2294,21 @@ const _bard = {hasJL:true,title: "Bard", jsx: <><div className="jumpList" id="cl
 <Pair title="At 18th Level">You can select an additional type of Perform to substitute.</Pair>
 </Ability>
 <aside><p>Beginning at 6th level, instead of selecting an additional skill with versatile performance, a bard can choose an <Link to="/ability/advanced_versatile_performances">advanced versatile performance</Link> for one Perform skill he previously selected with versatile performance. Some advanced versatile performance options can be selected only if the bard meets the option's prerequisites. A bard with an archetype that replaces versatile performance cannot select advanced versatile performance options.</p>
-</aside><Ability id="class-bard-well-versed-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-bard-well-versed-ex" flavor="You become resistant to the bardic performance of others, and to sonic effects in general.">Well-Versed (Ex)</Pair>
+</aside><Ability id="well-versed-ex" icon={["armor-upgrade"]}>
+<Pair single id="well-versed-ex" flavor="You become resistant to the bardic performance of others, and to sonic effects in general.">Well-Versed (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a +4 bonus on saving throws made against bardic performance, sonic, and language-dependent effects.</Pair>
 </Ability>
-<Ability id="class-bard-lore-master-ex" icon={["upgrade","rolling-dices"]}>
-<Pair single id="class-bard-lore-master-ex" flavor="You become a master of lore.">Lore Master (Ex)</Pair>
+<Ability id="lore-master-ex" icon={["upgrade","rolling-dices"]}>
+<Pair single id="lore-master-ex" flavor="You become a master of lore.">Lore Master (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">You can take 10 on any Knowledge skill check that you have ranks in even when threatened or distracted. You can also choose not to take 10 and can instead roll normally.</Pair>
 <Pair title="Standard Action">Once per day, you can take 20 on any Knowledge skill check.</Pair>
 <Pair title="At 11th Level">You can Take 20 twice a day.</Pair>
 <Pair title="At 17th Level">You can Take 20 three times a day.</Pair>
 </Ability>
-<Ability id="class-bard-jack-of-all-trades-ex" icon={["stairs-goal","skills"]}>
-<Pair single id="class-bard-jack-of-all-trades-ex">Jack-of-All-Trades (Ex)</Pair>
+<Ability id="jack-of-all-trades-ex" icon={["stairs-goal","skills"]}>
+<Pair single id="jack-of-all-trades-ex">Jack-of-All-Trades (Ex)</Pair>
 <Pair title="At 10th Level">You can use any skill, even if the skill normally requires you to be trained.</Pair>
 <Pair title="At 16th Level">You consider all skills to be class skills.</Pair>
 <Pair title="At 19th Level">You can take 10 on any skill check, even if it is not normally allowed.</Pair>
@@ -2401,7 +2401,7 @@ const _bard = {hasJL:true,title: "Bard", jsx: <><div className="jumpList" id="cl
 <h3 id="class-bard-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"bard archetypes","columns":[{"header":"Archetype","link":"arc-bard"},{"header":"Alignment"},{"header":"Bardic Knowledge"},{"header":"Bardic Performance"},{"header":"Class Skills"},{"header":"Countersong"},{"header":"Deadly Performance"},{"header":"Dirge of Doom"},{"header":"Distraction"},{"header":"Fascinate"},{"header":"Frightening Tune"},{"header":"Inspire Competence"},{"header":"Inspire Courage"},{"header":"Inspire Courage +1"},{"header":"Inspire Greatness"},{"header":"Inspire Heroics"},{"header":"Jack-of-All-Trades"},{"header":"Key Ability Score"},{"header":"Lore Master"},{"header":"5th-level Lore Master"},{"header":"Soothing Performance"},{"header":"Spellcasting"},{"header":"Suggestion"},{"header":"Mass Suggestion"},{"header":"Versatile Performance"},{"header":"2nd-level Versatile Performance"},{"header":"Weapon/Armor Proficiency"},{"header":"Well-Versed"}],"data":[[["Animal Speaker","animal_speaker"],null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,"X"],[["Arcane Duelist","arcane_duelist"],null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,"X","X","X",null,null,"X"],[["Arcane Healer","arcane_healer"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null],[["Archaeologist","archaeologist"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X"],[["Archivist","archivist"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,"X",null,null,null,"X","X","X",null,null,"X"],[["Argent Voice","argent_voice"],null,null,null,null,null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null],[["Arrowsong Minstrel","arrowsong_minstrel"],null,"X",null,null,null,null,"X","X","X",null,"X",null,null,null,null,null,null,"X",null,"X","X",null,null,null,null,"X",null],[["Averaka Arbiter","averaka_arbiter"],null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X"],[["Brazen Deceiver","brazen_deceiver"],null,"X",null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,"X"],[["Buccaneer","buccaneer"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X","X",null,null,null,null],[["Busker","busker"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Celebrity","celebrity"],null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Chelish Diva","chelish_diva"],null,"X",null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X"],[["Chronicler of Worlds","chronicler_of_worlds"],"X","X",null,null,null,null,null,null,null,null,null,null,null,"X","X",null,"X",null,null,null,null,null,null,"X",null,null,"X"],[["Court Bard","court_bard"],null,"X",null,null,null,null,"X",null,null,"X","X","X",null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null],[["Court Fool","court_fool"],null,"X",null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Cultivator","cultivator"],null,"X",null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,"X"],[["Daredevil","daredevil"],null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,"X"],[["Dawnflower Dervish","dawnflower_dervish"],null,"X","X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Demagogue","demagogue"],null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,"X","X",null,null,null,null],[["Dervish Dancer","dervish_dancer"],null,"X",null,null,null,"X","X",null,null,"X",null,null,null,null,null,null,null,"X",null,"X",null,"X","X","X",null,null,null],[["Detective","detective"],null,"X",null,null,null,null,null,null,null,null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,"X",null,null,"X"],[["Dirge Bard","dirge_bard"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,"X",null,null,"X"],[["Disciple of the Forked Tongue","disciple_of_the_forked_tongue"],null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null],[["Dragon Herald","dragon_herald"],null,"X",null,null,"X",null,null,null,"X",null,"X",null,null,null,"X","X",null,"X",null,"X",null,null,null,null,null,"X",null],[["Dragon Yapper","dragon_yapper"],null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null],[["Duettist","duettist"],null,"X",null,null,null,null,"X",null,null,"X",null,null,null,null,null,"X",null,"X",null,null,null,null,null,"X",null,null,"X"],[["Dwarven Scholar","dwarven_scholar"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,"X",null,"X",null,"X",null],[["Faith Singer","faith_singer"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null],[["Fey Courtier","fey_courtier"],null,null,null,null,null,null,"X",null,null,"X","X",null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null],[["Fey Prankster","fey_prankster"],null,"X",null,null,"X",null,"X",null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X"],[["Filidh","filidh"],null,null,null,null,null,"X","X",null,null,null,null,"X",null,null,"X",null,null,null,null,null,"X","X",null,null,null,"X",null],[["First World Minstrel","first_world_minstrel"],null,"X",null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X"],[["Flame Dancer","flame_dancer"],null,null,null,null,"X",null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null],[["Flamesinger","flamesinger"],null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null],[["Fortune-Teller","fortune_teller"],null,null,"X",null,"X",null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X"],[["Geisha","geisha"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null],[["Hatharat Agent","hatharat_agent"],null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X"],[["Hoaxer","hoaxer"],null,"X",null,null,"X",null,null,"X",null,null,"X","X",null,"X",null,null,null,"X",null,null,null,null,null,"X",null,null,"X"],[["Impervious Messenger","impervious_messenger"],null,"X",null,null,null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,"X"],[["Juggler","juggler"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,"X",null,"X","X"],[["Lotus Geisha","lotus_geisha"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X","X"],[["Luring Piper","luring_piper"],null,"X",null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X"],[["Magician","magician"],null,"X",null,null,"X",null,"X",null,null,"X",null,"X",null,null,null,"X",null,"X",null,null,null,null,null,"X",null,null,"X"],[["Masked Performer","masked_performer"],null,"X",null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,"X","X","X",null,null,null],[["Mute Musician","mute_musician"],null,"X",null,null,null,null,null,null,null,"X","X",null,null,null,"X","X",null,null,null,null,null,null,"X","X",null,null,"X"],[["Negotiator","negotiator"],null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null],[["Phrenologist","phrenologist"],null,"X",null,null,null,null,null,null,"X",null,"X","X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X"],[["Pitax: Academy of Grand Arts","pitax_academy_of_grand_arts"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null],[["Plant Speaker","plant_speaker"],null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,"X"],[["Prankster","prankster"],null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,"X","X",null,null,null,null],[["Provocateur","provocateur"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,"X",null,null],[["Ringleader (AG)","ringleader_ag"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X","X","X",null,null,"X"],[["Ringleader (UI)","ringleader_ui"],null,null,null,null,null,null,"X",null,null,"X","X",null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,"X"],[["Sandman","sandman"],null,"X",null,null,null,"X",null,null,null,null,"X","X",null,"X","X",null,null,"X",null,null,null,"X","X","X",null,null,null],[["Savage Skald","savage_skald"],null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,"X",null,"X","X",null,null,null,null],[["Sea Singer","sea_singer"],null,"X",null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,"X"],[["Shadow Puppeteer","shadow_puppeteer"],null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Silver Balladeer","silver_balladeer"],"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X","X",null,"X",null,"X"],[["Solacer","solacer"],null,"X",null,"X","X",null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,"X",null,null,null],[["Songhealer","songhealer"],null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null],[["Sorrowsoul","sorrowsoul"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,"X",null,null,"X"],[["Sound Striker","sound_striker"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null],[["Speaker of the Palatine Eye","speaker_of_the_palatine_eye"],null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null],[["Stonesinger","stonesinger"],null,null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Street Performer","street_performer"],null,"X",null,null,"X",null,null,null,null,null,"X","X",null,"X","X",null,null,"X",null,null,null,null,null,null,null,null,null],[["Studious Librarian","studious_librarian"],null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,"X",null,null,null,null,null,"X","X",null,null,null,null],[["Thundercaller","thundercaller"],null,"X",null,null,null,null,"X",null,null,"X","X",null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null],[["Voice of Brigh","voice_of_brigh"],null,null,null,null,null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Voice of the Wild","voice_of_the_wild"],null,"X",null,null,"X",null,"X",null,null,null,"X",null,null,null,"X","X",null,null,null,null,null,null,null,"X",null,null,null],[["Wasteland Chronicler","wasteland_chronicler"],null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Watersinger","watersinger"],null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,"X",null,null,"X","X",null,null,null,null],[["Wit","wit"],null,"X",null,null,null,null,"X",null,null,"X","X",null,null,null,null,"X",null,"X",null,null,null,null,null,"X",null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-bard-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="bard" prefix="class-bard-" />
+<RacialOptions cls="bard" />
 </>};
 const _bloodrager = {hasJL:true,title: "Bloodrager", jsx: <><div className="jumpList" id="class-bloodrager-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-bloodrager-bloodline">Bloodline</InnerLink></li><li><InnerLink toTop to="class-bloodrager-bloodrage-su">Bloodrage</InnerLink></li><li><InnerLink toTop to="class-bloodrager-fast-movement-ex">Fast Movement</InnerLink></li><li><InnerLink toTop to="class-bloodrager-uncanny-dodge-ex">Uncanny Dodge</InnerLink></li><li><InnerLink toTop to="class-bloodrager-blood-sanctuary-su">Blood Sanctuary</InnerLink></li><li><InnerLink toTop to="class-bloodrager-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-bloodrager-improved-uncanny-dodge-ex">Improved Uncanny Dodge</InnerLink></li><li><InnerLink toTop to="class-bloodrager-damage-reduction-ex">Damage Reduction</InnerLink></li><li><InnerLink toTop to="class-bloodrager-greater-bloodrage-su">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-bloodrager-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-bloodrager-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-bloodrager-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-bloodrager-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-bloodrager-bloodrager">Bloodrager</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 15</Link></p>
@@ -2841,8 +2841,8 @@ const _bloodrager = {hasJL:true,title: "Bloodrager", jsx: <><div className="jump
 <Pair title="Special">For all spell-like bloodline powers, treat your bloodrager level as the caster level. Spells you gain from your bloodline are in addition to the number of spells given per level. These spells cannot be exchanged for different spells at higher levels.</Pair>
 </Ability>
 <aside><p>Optionally, whenever a bloodrager gains a new bloodline power or bonus feat, he can swap it for a <Link to="/ability/bloodline_mutations">bloodline mutation</Link> whose prerequisites he meets.</p>
-</aside><Ability id="class-bloodrager-bloodrage-su" icon={["stairs-goal","upgrade","armor-upgrade","broken-shield"]}>
-<Pair single id="class-bloodrager-bloodrage-su" flavor={<>Your source of internal power grants you the ability to <em>bloodrage.</em></>}>Bloodrage (Su)</Pair>
+</aside><Ability id="bloodrage-su" icon={["stairs-goal","upgrade","armor-upgrade","broken-shield"]}>
+<Pair single id="bloodrage-su" flavor={<>Your source of internal power grants you the ability to <em>bloodrage.</em></>}>Bloodrage (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">You can <em>bloodrage</em> for 2 + twice your level + your Con modifier rounds/day; these rounds need not be consecutive. Temporary increases to Con (such as those gained from <em>bloodraging</em> or spells like <Link to="/spell/bears_endurance">bear's endurance</Link>) don't increase this number.<ByLevelPop levels={[[1,4],[2,6],[3,8],[4,10],[5,12],[6,14],[7,16],[8,18],[9,20],[10,22],[11,24],[12,26],[13,28],[14,30],[15,32],[16,34],[17,36],[18,38],[19,40],[20,42]]} preText="Con modifier + " unit="round" postText="/day" /></Pair>
 <Pair title="Free Action">You can enter or leave a <em>bloodrage</em> as a free action.</Pair>
@@ -2850,48 +2850,48 @@ const _bloodrager = {hasJL:true,title: "Bloodrager", jsx: <><div className="jump
 <Pair title="Special">When the <em>bloodrage</em> ends, you are <Link to="/misc/fatigued">fatigued</Link> for a number of rounds equal to twice the number of rounds spent in the <em>bloodrage.</em> You can't enter a new <em>bloodrage</em> while fatigued or <Link to="/misc/exhausted">exhausted</Link>, but can otherwise enter <em>bloodrage</em> multiple times during a single encounter or combat. If you fall <Link to="/misc/unconscious">unconscious</Link>, your <em>bloodrage</em> immediately ends, placing you in peril of death.</Pair>
 </Ability>
 <p><strong className="hl">NOTE:</strong> <em>Bloodrage</em> counts as the <Link to="/class/barbarian">barbarian's</Link> <em>rage</em> class feature for the purpose of feat prerequisites, feat abilities, magic item abilities, and spell effects.</p>
-<Ability id="class-bloodrager-fast-movement-ex" icon={["upgrade"]}>
-<Pair single id="class-bloodrager-fast-movement-ex">Fast Movement (Ex)</Pair>
+<Ability id="fast-movement-ex" icon={["upgrade"]}>
+<Pair single id="fast-movement-ex">Fast Movement (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Your land speed is faster than is normal for your race by 10 feet. This benefit applies only when you are wearing no armor, light armor, or medium armor, and not carrying a heavy load.</Pair>
 <Pair title="Special">Apply this bonus before modifying your speed due to any armor worn or load carried. This bonus stacks with any other bonuses to your land speed.</Pair>
 </Ability>
-<Ability id="class-bloodrager-uncanny-dodge-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-bloodrager-uncanny-dodge-ex" flavor="You can react to danger before your senses would normally allow you to do so.">Uncanny Dodge (Ex)</Pair>
+<Ability id="uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="uncanny-dodge-ex" flavor="You can react to danger before your senses would normally allow you to do so.">Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You cannot be caught <Link to="/rule/flat_footed">flat-footed</Link>, nor do you lose your Dexterity bonus to AC if the attacker is invisible. If you already possesses uncanny dodge from a different class, you automatically gain <em>improved uncanny dodge</em> (see below) instead.</Pair>
 <Pair title="Special">You still lose your Dexterity bonus to AC if immobilized, or if an opponent successfully uses the <Link to="/rule/feint">feint</Link> action against you.</Pair>
 </Ability>
-<Ability id="class-bloodrager-blood-sanctuary-su" icon={["armor-upgrade"]}>
-<Pair single id="class-bloodrager-blood-sanctuary-su" flavor="Due to the power of your blood, you can stand confidently amid the effects of spells cast by yourself or your allies.">Blood Sanctuary (Su)</Pair>
+<Ability id="blood-sanctuary-su" icon={["armor-upgrade"]}>
+<Pair single id="blood-sanctuary-su" flavor="Due to the power of your blood, you can stand confidently amid the effects of spells cast by yourself or your allies.">Blood Sanctuary (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain a +2 bonus on saving throws against spells that you or an ally casts.</Pair>
 </Ability>
-<Ability id="class-bloodrager-spells" icon={["magic-swirl"]}>
-<Pair single id="class-bloodrager-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}>
+<Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain the ability to cast a small number of arcane spells drawn from the <Link to="/main/bloodrager_spell">bloodrager spell list</Link>. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level. The DC for a saving throw against spells you cast is 10 + the spell level + your Constitution modifier.</Pair>
 <Pair title="Usage">To learn, prepare, or cast a spell, you must have a Charisma score equal to at least 10 + the spell level.</Pair>
 <Pair title="Info">Your selection of spells is limited. At 4th level, you know two 1st-level spells of your choice. You gain more spells as you increase in level. Unlike spells per day, the number of spells you know is not affected by your Charisma score, but it is affected by any bonus spells you gain from your bloodline. At 8th level and every 3 levels thereafter, you can choose to learn a new spell in place of one you already know. This swap follows all the same rules as for a sorcerer.</Pair>
 </Ability>
-<Ability id="class-bloodrager-blood-casting-su" icon={["magic-swirl"]}>
-<Pair single id="class-bloodrager-blood-casting-su">Blood Casting (Su)</Pair>
+<Ability id="blood-casting-su" icon={["magic-swirl"]}>
+<Pair single id="blood-casting-su">Blood Casting (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain the ability to cast spells even while <em>bloodraging.</em> You can also cast these spells <Link to="/rule/cast_defensively">defensively</Link> and can make <Link to="/rule/concentration">concentration</Link> checks for these spells while <em>bloodraging.</em></Pair>
 <Pair title="Special">While <em>bloodraging,</em> you can cast and concentrate on only your bloodrager spells; spells from other classes cannot be cast during this state.</Pair>
 </Ability>
-<Ability id="class-bloodrager-eschew-materials" icon={["stairs-goal"]}>
-<Pair single id="class-bloodrager-eschew-materials">Eschew Materials</Pair>
+<Ability id="eschew-materials" icon={["stairs-goal"]}>
+<Pair single id="eschew-materials">Eschew Materials</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You gain <Link to="/feat/eschew_materials">Eschew Materials</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="class-bloodrager-improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-bloodrager-improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
+<Ability id="improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
 <Pair title="Passive Ability">You can no longer be <Link to="/rule/flanked">flanked</Link>. This defense denies rogues (or other classes) the ability to <Link to="/ability/sneak_attack">sneak attack</Link> you by flanking, unless the attacker has at least four more rogue levels (or levels in the class granting sneak attack) than your bloodrager levels.</Pair>
 <Pair title="Special">If you already have uncanny dodge from another class, the levels from the classes that grant uncanny dodge stack when determining the minimum rogue level required to flank you.</Pair>
 </Ability>
-<Ability id="class-bloodrager-damage-reduction-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-bloodrager-damage-reduction-ex">Damage Reduction (Ex)</Pair>
+<Ability id="damage-reduction-ex" icon={["armor-upgrade"]}>
+<Pair single id="damage-reduction-ex">Damage Reduction (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">You gain <Link to="/rule/damage_reduction">damage reduction</Link> DR 1/-. Subtract 1 from the damage you take each time you're dealt damage from a weapon or a natural attack. Damage reduction can reduce damage to 0, but not below 0.</Pair>
 <Pair title="At 10th Level">Your DR becomes 2/-.</Pair>
@@ -2899,24 +2899,24 @@ const _bloodrager = {hasJL:true,title: "Bloodrager", jsx: <><div className="jump
 <Pair title="At 16th Level">Your DR becomes 4/-.</Pair>
 <Pair title="At 19th Level">Your DR becomes 5/-.</Pair>
 </Ability>
-<Ability id="class-bloodrager-greater-bloodrage-su" icon={["upgrade","armor-upgrade","magic-swirl"]}>
-<Pair single id="class-bloodrager-greater-bloodrage-su">Greater Bloodrage (Su)</Pair>
+<Ability id="greater-bloodrage-su" icon={["upgrade","armor-upgrade","magic-swirl"]}>
+<Pair single id="greater-bloodrage-su">Greater Bloodrage (Su)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">When you enter a <em>bloodrage,</em> the morale bonus to Strength and Constitution increases to +6 and the morale bonus on Will saves increases to +3. In addition, upon entering a <em>bloodrage,</em> you can apply the effects a bloodrager spell you know of 2nd level or lower to yourself. The spell must have a range of touch or personal. If the spell's duration is greater than 1 round, it instead lasts for the duration of the <em>bloodrage.</em> This use consumes a bloodrager spell slot, as if you had cast the spell; you must have the spell slot available to take advantage of this effect.</Pair>
 <Pair title="Special"><em>Greater bloodrage</em> counts as the barbarian's <em>greater rage</em> ability for the purposes of feat prerequisites, feat abilities, magic item abilities, and spell effects.</Pair>
 </Ability>
-<Ability id="class-bloodrager-indomitable-will-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-bloodrager-indomitable-will-ex">Indomitable Will (Ex)</Pair>
+<Ability id="indomitable-will-ex" icon={["armor-upgrade"]}>
+<Pair single id="indomitable-will-ex">Indomitable Will (Ex)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">You gain a +4 bonus on Will saves to resist enchantment spells while <em>bloodraging.</em> This bonus stacks with all other modifiers, including the morale bonus on Will saves you also receives during your <em>bloodrage.</em></Pair>
 </Ability>
-<Ability id="class-bloodrager-tireless-bloodrage-su" icon={["upgrade"]}>
-<Pair single id="class-bloodrager-tireless-bloodrage-su">Tireless Bloodrage (Su)</Pair>
+<Ability id="tireless-bloodrage-su" icon={["upgrade"]}>
+<Pair single id="tireless-bloodrage-su">Tireless Bloodrage (Su)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">You no longer become fatigued at the end of your <em>bloodrage.</em></Pair>
 </Ability>
-<Ability id="class-bloodrager-mighty-bloodrage-su" icon={["upgrade","armor-upgrade","magic-swirl"]}>
-<Pair single id="class-bloodrager-mighty-bloodrage-su">Mighty Bloodrage (Su)</Pair>
+<Ability id="mighty-bloodrage-su" icon={["upgrade","armor-upgrade","magic-swirl"]}>
+<Pair single id="mighty-bloodrage-su">Mighty Bloodrage (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">When you enter a <em>bloodrage,</em> the morale bonus to Strength and Constitution increases to +8, and the morale bonus on Will saves increases to +4. Furthermore, the spell you can apply to yourself at the beginning of a <em>bloodrage</em> due to the <em>greater bloodrage</em> class feature is not limited to only spells of 2nd level or lower.</Pair>
 </Ability>
@@ -2954,6 +2954,6 @@ const _bloodrager = {hasJL:true,title: "Bloodrager", jsx: <><div className="jump
 <h3 id="class-bloodrager-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"bloodrager archetypes","columns":[{"header":"Archetype","link":"arc-bloodrager"},{"header":"Armor Proficiency"},{"header":"Blood Casting"},{"header":"Blood Sanctuary"},{"header":"Bloodline"},{"header":"Bloodline Feats"},{"header":"6th-level Bloodline Feat"},{"header":"9th-level Bloodline Feat"},{"header":"12th-level Bloodline Feat"},{"header":"15th-level Bloodline Feat"},{"header":"18th-level Bloodline Feat"},{"header":"Bloodline Powers"},{"header":"1st-level Bloodline Power"},{"header":"4th-level Bloodline Power"},{"header":"Bloodline Spells"},{"header":"Bloodrage"},{"header":"Greater Bloodrage"},{"header":"Mighty Bloodrage"},{"header":"Bonus Feats"},{"header":"Class Skills"},{"header":"Damage Reduction"},{"header":"7th-level Damage Reduction"},{"header":"13th-level Damage Reduction"},{"header":"19th-level Damage Reduction"},{"header":"Eschew Materials"},{"header":"Fast Movement"},{"header":"Indomitable Will"},{"header":"Saving Throws"},{"header":"Spellcasting"},{"header":"Uncanny Dodge"},{"header":"Improved Uncanny Dodge"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Ancestral Harbinger","ancestral_harbinger"],null,null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null],[["Blood Conduit","blood_conduit"],null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,"X","X",null],[["Bloodline Familiars","bloodline_familiars"],null,null,null,"X",null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Bloodrider","bloodrider"],null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X","X",null],[["Bloody-Knuckled Rowdy","bloody_knuckled_rowdy"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,"X","X","X",null],[["Crossblooded Rager","crossblooded_rager"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Enlightened Bloodrager","enlightened_bloodrager"],null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,"X",null,null,"X","X","X",null,null,null,null,"X",null,null,null],[["Greenrager","greenrager"],null,null,"X",null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Hag-Riven","hag_riven"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,"X","X","X"],[["Id Rager","id_rager"],null,null,null,"X","X",null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null],[["Metamagic Rager","metamagic_rager"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null],[["Primalist","primalist"],null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Prowler at World's End","prowler_at_worlds_end"],null,null,null,null,null,null,"X","X","X",null,"X",null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Rageshaper","rageshaper"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null],[["Spelleater","spelleater"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X","X",null],[["Steelblood","steelblood"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,"X","X",null],[["Symbol Striker","symbol_striker"],null,null,null,null,null,"X","X","X",null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null],[["Untouchable Rager","untouchable_rager"],null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null],[["Urban Bloodrager","urban_bloodrager"],null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,"X"]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-bloodrager-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="bloodrager" prefix="class-bloodrager-" />
+<RacialOptions cls="bloodrager" />
 </>};
 export default {not_found:_not_found,alchemist:_alchemist,antipaladin:_antipaladin,arcanist:_arcanist,bard:_bard,bloodrager:_bloodrager}

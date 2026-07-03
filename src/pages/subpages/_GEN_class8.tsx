@@ -207,13 +207,13 @@ const _brawler = {hasJL:true,title: "Brawler", jsx: <><div className="jumpList" 
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={3}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td><Link to="/eq-weapon/handaxe">handaxe</Link></td><td><Link to="/eq-weapon/short_sword">short sword</Link></td></tr><tr><td colSpan={2}>weapons from the close <Link to="/ability/weapon_groups">fighter weapon group</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="class-brawler-brawlers-cunning-ex" icon={["upgrade"]}>
-<Pair single id="class-brawler-brawlers-cunning-ex">Brawler's Cunning (Ex)</Pair>
+<Ability id="brawlers-cunning-ex" icon={["upgrade"]}>
+<Pair single id="brawlers-cunning-ex">Brawler's Cunning (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">If your Intelligence score is less than 13, it counts as 13 for the purpose of meeting the prerequisites of <Link to="/main/combat_feat">combat feats</Link>.</Pair>
 </Ability>
-<Ability id="class-brawler-martial-flexibility-ex" icon={["stairs-goal"]}>
-<Pair single id="class-brawler-martial-flexibility-ex">Martial Flexibility (Ex)</Pair>
+<Ability id="martial-flexibility-ex" icon={["stairs-goal"]}>
+<Pair single id="martial-flexibility-ex">Martial Flexibility (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 times/day + 1 per two brawler levels<ByLevelPop levels={[[1,3],[2,4],[4,5],[6,6],[8,7],[10,8],[12,9],[14,10],[16,11],[18,12],[20,13]]} unit="time" postText="/day" /></Pair>
 <Pair title="Move-Equivalent Action">You gain the benefit of a combat feat you don't possess. This effect lasts for 1 minute. You must meet all the feat's prerequisites.</Pair>
@@ -223,14 +223,14 @@ const _brawler = {hasJL:true,title: "Brawler", jsx: <><div className="jumpList" 
 <Pair title="At 20th Level">You can use this ability to gain the benefit of any number of combat feats as a <strong className="hl">swift action</strong>. Each feat selected counts toward your daily uses of this ability.</Pair>
 <Pair title="Special">You can use this ability again before the duration expires in order to replace the previous combat feat with another choice. If a combat feat has a daily use limitation (such as <Link to="/feat/stunning_fist">Stunning Fist</Link>), any uses of that combat feat while using this ability count toward that feat's daily limit.</Pair>
 </Ability>
-<Ability id="class-brawler-martial-training-ex" icon={["upgrade"]}>
-<Pair single id="class-brawler-martial-training-ex">Martial Training (Ex)</Pair>
+<Ability id="martial-training-ex" icon={["upgrade"]}>
+<Pair single id="martial-training-ex">Martial Training (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You count your total brawler levels as both fighter levels and monk levels for the purpose of qualifying for feats. You also count as both a fighter and a monk for feats and magic items that have different effects based on whether the character has levels in those classes (such as <em>Stunning Fist</em> and a <Link to="/magic-wondrous/monks_robe">monk's robe</Link>).</Pair>
 <Pair title="Special">This ability does not automatically grant feats normally granted to fighters and monks based on class level, namely <em>Stunning Fist.</em></Pair>
 </Ability>
-<Ability id="class-brawler-unarmed-strike" icon={["mailed-fist"]}>
-<Pair single id="class-brawler-unarmed-strike">Unarmed Strike</Pair>
+<Ability id="unarmed-strike" icon={["mailed-fist"]}>
+<Pair single id="unarmed-strike">Unarmed Strike</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. You may attack with fists, elbows, knees, and feet. This means that you may make unarmed strikes with your hands full. You apply your full Strength modifier (not half) on damage rolls for all your unarmed strikes. Your unarmed strikes deal lethal damage, although you can choose to deal nonlethal damage with no penalty on the attack roll. You can make this choice while grappling as well.</Pair>
 <Pair title="Special">Your unarmed strike is treated as both a manufactured weapon and a natural weapon for the purpose of spells and effects that enhance or improve either manufactured weapons or natural weapons. The damage of your strike is determined by your size and level, shown on the chart below.</Pair>
@@ -283,8 +283,8 @@ const _brawler = {hasJL:true,title: "Brawler", jsx: <><div className="jumpList" 
 </tr>
 </tbody></table></ScrollContainer>
 </div>
-<Ability id="class-brawler-bonus-combat-feats" icon={["stairs-goal"]}>
-<Pair single id="class-brawler-bonus-combat-feats">Bonus Combat Feats</Pair>
+<Ability id="bonus-combat-feats" icon={["stairs-goal"]}>
+<Pair single id="bonus-combat-feats">Bonus Combat Feats</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You gain a bonus combat feat in addition to those gained from normal advancement. This feat must be one that affect or improve your defenses or melee attacks. You must meet the prerequisites of the selected bonus combat feat.</Pair>
 <Pair title="At 5th Level">You gain a new bonus combat feat, using the same limitations as above. You can choose to learn a new bonus combat feat in place of a bonus combat feat you have already learned. In effect, you lose the bonus combat feat in exchange for the new one. The old feat cannot be one that was used as a prerequisite for another feat, prestige class, or other ability. You can only change one feat, and must choose whether or not to swap the feat at the time you gain the bonus combat feat.</Pair>
@@ -294,16 +294,16 @@ const _brawler = {hasJL:true,title: "Brawler", jsx: <><div className="jumpList" 
 <Pair title="At 17th Level">You gain a new bonus combat feat and may swap out a previous combat feat (with the same limitations as above).</Pair>
 <Pair title="At 20th Level">You gain a new bonus combat feat and may swap out a previous combat feat (with the same limitations as above).</Pair>
 </Ability>
-<Ability id="class-brawler-brawlers-flurry-ex" icon={["mailed-fist"]}>
-<Pair single id="class-brawler-brawlers-flurry-ex">Brawler's Flurry (Ex)</Pair>
+<Ability id="brawlers-flurry-ex" icon={["mailed-fist"]}>
+<Pair single id="brawlers-flurry-ex">Brawler's Flurry (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Full-Round Action">You can make a <em>brawler's flurry</em> as a full-attack action. When doing so, you have the <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link> feat when attacking with any combination of unarmed strikes, weapons from the close fighter weapon group, or weapons with the "monk" special feature. You do not need to use two different weapons to use this ability.</Pair>
 <Pair title="At 8th Level">You gain use of the <Link to="/feat/improved_two_weapon_fighting">Improved Two-Weapon Fighting</Link> feat when using <em>brawler's flurry.</em></Pair>
 <Pair title="At 15th Level">You gain use of the <Link to="/feat/greater_two_weapon_fighting">Greater Two-Weapon Fighting</Link> feat when using <em>brawler's flurry.</em></Pair>
 <Pair title="Special">You apply your full Strength modifier to your damage rolls for all attacks made with <em>brawler's flurry,</em> whether the attacks are made with an off-hand weapon or a weapon wielded in both hands. You can substitute <Link to="/rule/disarm">disarm</Link>, <Link to="/rule/sunder">sunder</Link>, and <Link to="/rule/trip">trip</Link> combat maneuvers for unarmed attacks as part of <em>brawler's flurry.</em> You can't use natural weapons as part of <em>brawler's flurry,</em> nor can you make natural weapon attacks in addition to your <em>brawler's flurry</em> attacks.</Pair>
 </Ability>
-<Ability id="class-brawler-maneuver-training-ex" icon={["mailed-fist","armor-upgrade"]}>
-<Pair single id="class-brawler-maneuver-training-ex">Maneuver Training (Ex)</Pair>
+<Ability id="maneuver-training-ex" icon={["mailed-fist","armor-upgrade"]}>
+<Pair single id="maneuver-training-ex">Maneuver Training (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You can select one <Link to="/rule/combat_maneuver">combat maneuver</Link> to receive additional training. You gain a +1 bonus on combat maneuver checks when performing that combat maneuver and a +1 bonus to your CMD when defending against that maneuver.</Pair>
 <Pair title="At 7th Level">You select a new combat maneuver and gain the +1 bonuses above, while the previous maneuver's bonuses become +2.</Pair>
@@ -311,8 +311,8 @@ const _brawler = {hasJL:true,title: "Brawler", jsx: <><div className="jumpList" 
 <Pair title="At 15th Level">You select a new combat maneuver and gain the +1 bonuses above, while the previous maneuvers' bonuses become +2, +3, and +4.</Pair>
 <Pair title="At 19th Level">You select a new combat maneuver and gain the +1 bonuses above, while the previous maneuvers' bonuses become +2, +3, +4, and +5.</Pair>
 </Ability>
-<Ability id="class-brawler-ac-bonus-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-brawler-ac-bonus-ex">AC Bonus (Ex)</Pair>
+<Ability id="ac-bonus-ex" icon={["armor-upgrade"]}>
+<Pair single id="ac-bonus-ex">AC Bonus (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">When you wear light or no armor, you gain a +1 dodge bonus to AC and CMD. These bonuses to AC apply against touch attacks.</Pair>
 <Pair title="At 9th Level">These bonuses become +2.</Pair>
@@ -320,8 +320,8 @@ const _brawler = {hasJL:true,title: "Brawler", jsx: <><div className="jumpList" 
 <Pair title="At 18th Level">These bonuses become +4.</Pair>
 <Pair title="Special">You lose these bonuses while immobilized or <Link to="/misc/helpless">helpless</Link>, wearing medium or heavy armor, or carrying a medium or heavy load.</Pair>
 </Ability>
-<Ability id="class-brawler-knockout-ex" icon={["mailed-fist"]}>
-<Pair single id="class-brawler-knockout-ex">Knockout (Ex)</Pair>
+<Ability id="knockout-ex" icon={["mailed-fist"]}>
+<Pair single id="knockout-ex">Knockout (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Standard Action">You can unleash a devastating attack that can instantly knock a target unconscious. You must announce this intent before making your attack roll. If you hit and the target takes damage from the blow, the target must succeed at a Fortitude saving throw (DC = 10 + <Link to="/misc/half">half</Link> your brawler level + the higher of your Strength or Dexterity modifier) or fall unconscious for 1d6 rounds.</Pair>
@@ -329,28 +329,28 @@ const _brawler = {hasJL:true,title: "Brawler", jsx: <><div className="jumpList" 
 <Pair title="At 16th Level">You can use this three times per day.</Pair>
 <Pair title="Special">Each round on its turn, the unconscious target may attempt a new saving throw to end the effect as a <strong className="hl">full-round action</strong> that does not provoke attacks of opportunity. Creatures immune to critical hits or nonlethal damage are immune to this ability.</Pair>
 </Ability>
-<Ability id="class-brawler-brawlers-strike-ex" icon={["mailed-fist","upgrade"]}>
-<Pair single id="class-brawler-brawlers-strike-ex">Brawler's Strike (Ex)</Pair>
+<Ability id="brawlers-strike-ex" icon={["mailed-fist","upgrade"]}>
+<Pair single id="brawlers-strike-ex">Brawler's Strike (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">Your unarmed strikes are treated as magic weapons for the purpose of overcoming damage reduction.</Pair>
 <Pair title="At 9th Level">Your unarmed attacks are also treated as cold iron and silver for the purpose of overcoming damage reduction.</Pair>
 <Pair title="At 12th Level">You choose one alignment component: chaotic, evil, good, or lawful; your unarmed strikes also count as this alignment for the purpose of overcoming damage reduction. (This alignment component cannot be the opposite of your actual alignment, such as a good brawler choosing evil strikes.)</Pair>
 <Pair title="At 17th Level">Your unarmed attacks are also treated as <Link to="/eq-material/adamantine">adamantine</Link> weapons for the purpose of overcoming damage reduction and bypassing hardness.</Pair>
 </Ability>
-<Ability id="class-brawler-close-weapon-mastery-ex" icon={["mailed-fist"]}>
-<Pair single id="class-brawler-close-weapon-mastery-ex">Close Weapon Mastery (Ex)</Pair>
+<Ability id="close-weapon-mastery-ex" icon={["mailed-fist"]}>
+<Pair single id="close-weapon-mastery-ex">Close Weapon Mastery (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">Your damage with weapons from the "close" weapon group increases. When wielding a <em>close weapon,</em> you use the unarmed strike damage of you 4 levels lower instead of the base damage for that weapon (for example, a 5th-level Medium brawler wielding a <Link to="/eq-weapon/punching_dagger">punching dagger</Link> deals 1d6 points of damage instead of the weapon's normal 1d4). If the weapon normally deals more damage than this, its damage is unchanged.</Pair>
 <Pair title="Special">This ability does not affect any other aspect of the weapon. You can decide to use the weapon's base damage instead of your adjusted unarmed strike damage - this must be declared before the attack roll is made.</Pair>
 </Ability>
-<Ability id="class-brawler-awesome-blow-ex" icon={["mailed-fist"]}>
-<Pair single id="class-brawler-awesome-blow-ex">Awesome Blow (Ex)</Pair>
+<Ability id="awesome-blow-ex" icon={["mailed-fist"]}>
+<Pair single id="awesome-blow-ex">Awesome Blow (Ex)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Standard Action">You can perform an <em>awesome blow</em> combat maneuver against a corporeal creature of your size or smaller. If the combat maneuver check succeeds, the opponent takes damage as if you hit it with the <em>close weapon</em> you are wielding or an unarmed strike, it is knocked flying 10 feet in a direction of your choice, and it falls <Link to="/rule/prone">prone</Link>.</Pair>
 <Pair title="Special">You can only push the opponent in a straight line, and the opponent can't move closer to you than the square it started in. If an obstacle prevents the completion of the opponent's move, the opponent and the obstacle each take 1d6 points of damage, and the opponent is knocked prone in the space adjacent to the obstacle. (Unlike the <Link to="/feat/awesome_blow">Awesome Blow</Link> monster feat, you can be of any size to use this ability.)</Pair>
 </Ability>
-<Ability id="class-brawler-improved-awesome-blow-ex" icon={["upgrade"]}>
-<Pair single id="class-brawler-improved-awesome-blow-ex">Improved Awesome Blow (Ex)</Pair>
+<Ability id="improved-awesome-blow-ex" icon={["upgrade"]}>
+<Pair single id="improved-awesome-blow-ex">Improved Awesome Blow (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">You can use your <em>awesome blow</em> ability as an attack rather than as a standard action. You may use it on creatures of any size. If the maneuver roll is a natural 20, you can immediately attempt to confirm the critical by rolling another combat maneuver check with all the same modifiers as the one just rolled; if the confirmation roll is successful, the attack deals double damage, and the damage from hitting an obstacle (if any) is also doubled.</Pair>
 </Ability>
@@ -388,7 +388,7 @@ const _brawler = {hasJL:true,title: "Brawler", jsx: <><div className="jumpList" 
 <h3 id="class-brawler-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"brawler archetypes","columns":[{"header":"Archetype","link":"arc-brawler"},{"header":"AC Bonus"},{"header":"Armor Proficiency"},{"header":"Awesome Blow"},{"header":"Improved Awesome Blow"},{"header":"Bonus Feats"},{"header":"2nd-level Bonus Feat"},{"header":"5th-level Bonus Feat"},{"header":"8th-level Bonus Feat"},{"header":"11th-level Bonus Feat"},{"header":"14th-level Bonus Feat"},{"header":"Brawler's Cunning"},{"header":"Brawler's Flurry"},{"header":"Brawler's Strike"},{"header":"Class Skills"},{"header":"Close Weapon Mastery"},{"header":"Knockout"},{"header":"Maneuver Training"},{"header":"3rd-level Maneuver Training"},{"header":"7th-level Maneuver Training"},{"header":"11th-level Maneuver Training"},{"header":"19th-level Maneuver Training"},{"header":"Martial Flexibility"},{"header":"Unarmed Strike"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Battle Dancer","battle_dancer"],"X","X",null,null,null,null,null,null,null,null,"X","X",null,"X",null,"X",null,null,null,null,null,null,null,null],[["Bouncer","bouncer"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null],[["Constructed Pugilist","constructed_pugilist"],null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null],[["Exemplar","exemplar"],"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,"X",null],[["Feral Striker","feral_striker"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Hinyasi","hinyasi"],null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null],[["Living Avalanche","living_avalanche"],"X",null,"X","X",null,"X","X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Mutagenic Mauler","mutagenic_mauler"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Shield Champion","shield_champion"],null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,"X"],[["Snakebite Striker","snakebite_striker"],null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X","X","X","X","X",null,null],[["Steel-Breaker","steel_breaker"],null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,"X",null,null,null,null,null,null,null],[["Strangler","strangler"],"X",null,"X","X",null,null,null,null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null],[["Strong-Side Boxer","strong_side_boxer"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null],[["Turfer","turfer"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null],[["Ulfen Beast-Wrestler","ulfen_beast_wrestler"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Venomfist","venomfist"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,"X",null],[["Verdant Grappler","verdant_grappler"],null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null],[["Wild Child","wild_child"],null,null,null,null,"X",null,null,null,null,null,null,null,null,"X","X",null,"X",null,null,null,null,null,null,null],[["Winding Path Renegade","winding_path_renegade"],"X",null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-brawler-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="brawler" prefix="class-brawler-" />
+<RacialOptions cls="brawler" />
 </>};
 const _summoner = {hasJL:true,title: "Summoner", jsx: <><div className="jumpList" id="class-summoner-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-summoner-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-summoner-eidolon">Eidolon</InnerLink></li><li><InnerLink toTop to="class-summoner-life-link-su">Life Link</InnerLink></li><li><InnerLink toTop to="class-summoner-summon-monster-i-sp">Summon Monster</InnerLink></li><li><InnerLink toTop to="class-summoner-bond-senses-su">Bond Senses</InnerLink></li><li><InnerLink toTop to="class-summoner-shield-ally-ex">Shield Ally</InnerLink></li><li><InnerLink toTop to="class-summoner-makers-call-su">Maker's Call</InnerLink></li><li><InnerLink toTop to="class-summoner-transposition-su">Transposition</InnerLink></li><li><InnerLink toTop to="class-summoner-aspect-su">Aspect</InnerLink></li><li><InnerLink toTop to="class-summoner-greater-shield-ally-su">Greater Shield Ally</InnerLink></li><li><InnerLink toTop to="class-summoner-life-bond-su">Life Bond</InnerLink></li><li><InnerLink toTop to="class-summoner-merge-forms-su">Merge Forms</InnerLink></li><li><InnerLink toTop to="class-summoner-greater-aspect-su">Greater Aspect</InnerLink></li><li><InnerLink toTop to="class-summoner-twin-eidolon-su">Twin Eidolon</InnerLink></li><li><InnerLink toTop to="class-summoner-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-summoner-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-summoner-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-summoner-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-summoner-summoner">Summoner</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 54</Link></p>
@@ -910,12 +910,12 @@ const _summoner = {hasJL:true,title: "Summoner", jsx: <><div className="jumpList
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={1}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th>Shields?</th><td colSpan={2}>No</td></tr><tr><td colSpan={3} className="sw se">A summoner can cast summoner spells while wearing light armor without incurring the normal arcane spell failure chance. Like any other arcane spellcaster, a summoner wearing medium or heavy armor, or using a shield, incurs a chance of arcane spell failure if the spell in question has a somatic component. A multiclass summoner still incurs the normal arcane spell failure chance for arcane spells received from other classes.</td></tr></tbody></table>
-<Ability id="class-summoner-spells" icon={["magic-swirl"]}><Pair single id="class-summoner-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To cast a spell, you must have a Charisma score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Charisma score.</Pair>
 <Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_summoner">summoner spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>A summoner's selection of spells is extremely limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new summoner level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Charisma score.</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level summoner spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="class-summoner-cantrips" icon={["magic-swirl"]}>
-<Pair single id="class-summoner-cantrips">Cantrips</Pair>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level summoner spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="cantrips" icon={["magic-swirl"]}>
+<Pair single id="cantrips">Cantrips</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of cantrips, or 0-level arcane spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Cantrips cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
@@ -928,14 +928,14 @@ const _summoner = {hasJL:true,title: "Summoner", jsx: <><div className="jumpList
 <p>The eidolon's physical appearance is up to you, but it always appears as some sort of fantastical creature. This control is not fine enough to make the eidolon appear like a specific creature. The eidolon also bears a glowing rune that is identical to a rune that appears on your forehead as long as the eidolon is summoned. While this rune can be hidden through mundane means, it cannot be concealed through magic that changes appearance, such as <Link to="/spell/alter_self">alter self</Link> or <Link to="/spell/polymorph">polymorph</Link> (although <Link to="/spell/invisibility">invisibility</Link> does conceal it as long as the spell lasts).</p>
 </Pair>
 </Ability>
-<Ability id="class-summoner-life-link-su" icon={["shield-reflect"]}>
-<Pair single id="class-summoner-life-link-su">Life Link (Su)</Pair>
+<Ability id="life-link-su" icon={["shield-reflect"]}>
+<Pair single id="life-link-su">Life Link (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Free Action">Whenever your eidolon takes enough damage to send it back to its home plane, you can sacrifice any number of hit points. Each hit point sacrificed in this way prevents 1 point of damage done to your eidolon. This can prevent your eidolon from being sent back to its home plane.</Pair>
 <Pair title="Passive Ability">In addition, you and your eidolon must remain within 100 feet of one another for your eidolon to remain at full strength. If your eidolon is beyond 100 feet but closer than 1,000 feet, its current and maximum hit point totals are reduced by 50%. If your eidolon is more than 1,000 feet away but closer than 10,000 feet, its current and maximum hit point totals are reduced by 75%. If your eidolon is more than 10,000 feet away, it is immediately returned to its home plane. Current hit points lost in this way are not restored when your eidolon gets closer to its summoner, but its maximum hit point total does return to normal.</Pair>
 </Ability>
-<Ability id="class-summoner-summon-monster-i-sp" icon={["magic-swirl"]}>
-<Pair single id="class-summoner-summon-monster-i-sp">Summon Monster I (Sp)</Pair>
+<Ability id="summon-monster-i-sp" icon={["magic-swirl"]}>
+<Pair single id="summon-monster-i-sp">Summon Monster I (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>
 <Pair title="Standard Action">You can cast <Link to="/spell/summon_monster_i">summon monster I</Link> as a spell-like ability. Drawing upon this ability uses up the same power as you use to call your eidolon. As a result, you can only use this ability when your eidolon is not summoned. When you cast this spell, the creatures remain for 1 minute per level (instead of 1 round per level).</Pair>
@@ -950,58 +950,58 @@ const _summoner = {hasJL:true,title: "Summoner", jsx: <><div className="jumpList
 <Pair title="At 19th Level">This now behaves as either <em>summon monster IX</em> or <Link to="/spell/gate">gate</Link>. If used as <em>gate,</em> you must pay any required material components.</Pair>
 <Pair title="Special">You cannot have more than one <em>summon monster</em> or <em>gate</em> spell active in this way at one time. If this ability is used again, any existing <em>summon monster</em> or <em>gate</em> immediately ends. These summon spells are considered to be part of your spell list for the purposes of spell trigger and spell completion items. In addition, you can expend uses of this ability to fufill the construction requirements of any magic item you create, so long as you can use this ability to cast the required spell.</Pair>
 </Ability>
-<Ability id="class-summoner-bond-senses-su" icon={["upgrade"]}>
-<Pair single id="class-summoner-bond-senses-su">Bond Senses (Su)</Pair>
+<Ability id="bond-senses-su" icon={["upgrade"]}>
+<Pair single id="bond-senses-su">Bond Senses (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 round/day per summoner level</Pair>
 <Pair title="Standard Action">You can share the senses of your eidolon, hearing, seeing, smelling, tasting, and touching everything your eidolon does. There is no range to this effect, but your eidolon and you must be on the same plane. You can end this effect as a <strong className="hl">free action</strong>.</Pair>
 </Ability>
-<Ability id="class-summoner-shield-ally-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-summoner-shield-ally-ex">Shield Ally (Ex)</Pair>
+<Ability id="shield-ally-ex" icon={["armor-upgrade"]}>
+<Pair single id="shield-ally-ex">Shield Ally (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">Whenever you are within your eidolon's reach, you receive a +2 shield bonus to your Armor Class and a +2 circumstance bonus on your saving throws. This bonus does not apply if your eidolon is <Link to="/rule/grappled">grappled</Link>, <Link to="/misc/helpless">helpless</Link>, <Link to="/rule/paralyzed">paralyzed</Link>, <Link to="/misc/stunned">stunned</Link>, or <Link to="/misc/unconscious">unconscious</Link>.</Pair>
 </Ability>
-<Ability id="class-summoner-makers-call-su" icon={["magic-swirl"]}>
-<Pair single id="class-summoner-makers-call-su">Maker's Call (Su)</Pair>
+<Ability id="makers-call-su" icon={["magic-swirl"]}>
+<Pair single id="makers-call-su">Maker's Call (Su)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four summoner levels beyond 6th<ByLevelPop levels={[[6,1],[10,2],[14,3],[18,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">You can call your eidolon to your side. This functions as <Link to="/spell/dimension_door">dimension door</Link>, using your caster level. When used, your eidolon appears adjacent to you (or as close as possible if all adjacent spaces are occupied). If your eidolon is out of range, the ability is wasted.</Pair>
 </Ability>
-<Ability id="class-summoner-transposition-su" icon={["magic-swirl"]}>
-<Pair single id="class-summoner-transposition-su">Transposition (Su)</Pair>
+<Ability id="transposition-su" icon={["magic-swirl"]}>
+<Pair single id="transposition-su">Transposition (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Standard Action">You can use your <em>maker's call</em> ability to swap locations with your eidolon. If it is larger than you, you can appear in any square occupied by your eidolon. The eidolon must occupy the square that was occupied by you if able, or as close as possible if it is not able.</Pair>
 </Ability>
-<Ability id="class-summoner-aspect-su" icon={["upgrade"]}>
-<Pair single id="class-summoner-aspect-su">Aspect (Su)</Pair>
+<Ability id="aspect-su" icon={["upgrade"]}>
+<Pair single id="aspect-su">Aspect (Su)</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">You can divert up to 2 points from your eidolon's evolution pool to add evolutions to yourself. You cannot select any evolution that your eidolon could not possess, and you must be able to meet the requirements as well. You cannot select the <em>ability increase</em> evolution through this ability. Any points spent in this way are taken from your eidolon's evolution pool (reducing the total number available to your eidolon). You can change the evolutions you receive from these points any time you can change your eidolon's evolutions.</Pair>
 </Ability>
-<Ability id="class-summoner-greater-shield-ally-su" icon={["shield-reflect"]}>
-<Pair single id="class-summoner-greater-shield-ally-su">Greater Shield Ally (Su)</Pair>
+<Ability id="greater-shield-ally-su" icon={["shield-reflect"]}>
+<Pair single id="greater-shield-ally-su">Greater Shield Ally (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">Whenever an ally is within your eidolon's reach, the ally receives a +2 shield bonus to its Armor Class and a +2 circumstance bonus on its saving throws. If this ally is you, these bonuses increase to +4. This bonus does not apply if your eidolon is grappled, helpless, paralyzed, stunned, or unconscious.</Pair>
 </Ability>
-<Ability id="class-summoner-life-bond-su" icon={["armor-upgrade"]}>
-<Pair single id="class-summoner-life-bond-su">Life Bond (Su)</Pair>
+<Ability id="life-bond-su" icon={["armor-upgrade"]}>
+<Pair single id="life-bond-su">Life Bond (Su)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">As long as your eidolon has 1 or more hit points, you are protected from harm. Damage in excess of that which would reduce you to fewer than 0 hit points is instead transferred to your eidolon. This damage is transferred 1 point at a time, meaning that as soon as your eidolon is reduced to a number of negative hit points equal to its Constitution score, all excess damage remains with you. Effects that cause death but not damage are unaffected by this ability. This ability does not affect spells like <Link to="/spell/baleful_polymorph">baleful polymorph</Link>, <Link to="/spell/flesh_to_stone">flesh to stone</Link>, or <Link to="/spell/imprisonment">imprisonment</Link>, or other spells that do not cause actual damage.</Pair>
 </Ability>
-<Ability id="class-summoner-merge-forms-su" icon={["armor-upgrade","stairs-goal"]}>
-<Pair single id="class-summoner-merge-forms-su">Merge Forms (Su)</Pair>
+<Ability id="merge-forms-su" icon={["armor-upgrade","stairs-goal"]}>
+<Pair single id="merge-forms-su">Merge Forms (Su)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Usage">1 round/day per summoner level</Pair>
 <Pair title="Full-Round Action">You can touch your eidolon and merge forms with it. This transformation includes all of your gear. While merged in this way, you are protected from harm and cannot be the target of spells or effects. All effects and spells currently targeting you are suspended until you emerge from your eidolon (although durations continue to expire).</Pair>
 <Pair title="Swift Action">You can end this effect at any time. You emerge in a square adjacent to your eidolon if able.</Pair>
 <Pair title="Special">You can cast spells while inside your eidolon by taking control of your eidolon for the duration of the casting. Any material components used for these spells are taken from your gear, even though they are otherwise inaccessible. You can direct all of your eidolon's actions while merged, can perceive through its senses, and can speak through its voice. If your eidolon is returned to its home plane while you are merged with it, you are immediately ejected, taking 4d6 points of damage, and are stunned for 1 round.</Pair>
 </Ability>
-<Ability id="class-summoner-greater-aspect-su" icon={["upgrade"]}>
-<Pair single id="class-summoner-greater-aspect-su">Greater Aspect (Su)</Pair>
+<Ability id="greater-aspect-su" icon={["upgrade"]}>
+<Pair single id="greater-aspect-su">Greater Aspect (Su)</Pair>
 <Pair title="Gained">At 18th Level</Pair>
 <Pair title="Ability">You can divert more of your eidolon's evolutions to yourself. This ability functions as the <em>aspect</em> ability, but up to 6 evolution points can be taken. Unlike the <em>aspect</em> ability, your eidolon loses 1 point from its evolution pool for every 2 points (or fraction thereof) diverted to you.</Pair>
 </Ability>
-<Ability id="class-summoner-twin-eidolon-su" icon={["stairs-goal"]}>
-<Pair single id="class-summoner-twin-eidolon-su">Twin Eidolon (Su)</Pair>
+<Ability id="twin-eidolon-su" icon={["stairs-goal"]}>
+<Pair single id="twin-eidolon-su">Twin Eidolon (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Usage">1 minute/day per summoner level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
 <Pair title="Standard Action">You can assume the shape of your eidolon, copying all of its evolutions, form, and abilities. Your Strength, Dexterity, and Constitution scores change to match the base scores of your eidolon. You can choose to have any gear that you carry become absorbed by your new form, as with spells from the polymorph subschool. Items with continuous effects continue to function while absorbed in this way. You lose your natural attacks and all racial traits (except bonus feats, skills, and languages) in favor of the abilities granted by your eidolon's evolutions. You retain all of your class features. You can end this effect as a <strong className="hl">free action</strong>.</Pair>
@@ -1043,7 +1043,7 @@ const _summoner = {hasJL:true,title: "Summoner", jsx: <><div className="jumpList
 <h3 id="class-summoner-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"summoner archetypes","columns":[{"header":"Archetype","link":"arc-summoner"},{"header":"Aspect"},{"header":"Greater Aspect"},{"header":"Bond Senses"},{"header":"Class Skills"},{"header":"Eidolon"},{"header":"Life Bond"},{"header":"Life Link"},{"header":"Maker's Call"},{"header":"Merge Forms"},{"header":"Share Spells"},{"header":"Shield Ally"},{"header":"Greater Shield Ally"},{"header":"Spellcasting"},{"header":"Summon Monster"},{"header":"Transposition"},{"header":"Twin Eidolon"}],"data":[[["Blood God Disciple","blood_god_disciple"],null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Blood Summoner","blood_summoner"],null,null,null,"X",null,null,null,null,"X",null,"X","X",null,null,"X",null],[["Broodmaster","broodmaster"],null,null,null,null,"X","X","X",null,"X",null,null,null,null,null,null,null],[["Counter-Summoner","counter_summoner"],"X","X","X",null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Evolutionist","evolutionist"],null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,"X",null],[["First Worlder","first_worlder"],null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null],[["God Caller","god_caller"],"X","X",null,"X",null,null,"X",null,null,null,null,null,null,null,"X","X"],[["Leshy Caller","leshy_caller"],null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null],[["Master Summoner","master_summoner"],null,null,"X",null,null,null,null,null,null,null,"X",null,null,"X",null,null],[["Morphic Savant","morphic_savant"],null,null,null,null,"X",null,null,null,null,null,null,null,"X","X",null,null],[["Naturalist","naturalist"],"X","X",null,null,null,"X",null,null,null,null,"X","X",null,"X",null,null],[["Pyroclast","pyroclast"],null,null,null,null,"X",null,null,"X",null,null,null,null,"X",null,"X",null],[["Shadow Caller","shadow_caller"],null,null,null,"X","X",null,null,null,null,null,null,null,null,"X",null,null],[["Shaitan Binder","shaitan_binder"],"X","X",null,null,null,null,null,null,null,"X","X","X",null,null,null,"X"],[["Spirit Summoner","spirit_summoner"],"X",null,null,null,"X",null,null,"X","X",null,null,null,null,"X","X",null],[["Storm Caller","storm_caller"],null,null,null,null,"X",null,null,"X",null,null,"X","X",null,"X","X",null],[["Story Summoner","story_summoner"],null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,"X",null],[["Synthesist","synthesist"],null,null,null,null,"X",null,"X","X","X",null,"X","X",null,null,"X",null],[["Twinned Summoner","twinned_summoner"],null,null,null,null,null,null,null,"X","X",null,"X","X",null,null,"X",null],[["Unwavering Conduit","unwavering_conduit"],null,null,null,null,"X",null,null,null,null,null,null,null,"X","X",null,null],[["Wild Caller (ARG)","wild_caller_arg"],null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null],[["Wild Caller (HotW)","wild_caller_hotw"],"X","X",null,null,"X",null,null,null,null,null,null,null,null,"X",null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-summoner-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="summoner" prefix="class-summoner-" />
+<RacialOptions cls="summoner" />
 </>};
 const _unchained_summoner = {hasJL:true,title: "Unchained Summoner", jsx: <><div className="jumpList" id="class-unchained_summoner-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-unchained_summoner-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-eidolon">Eidolon</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-life-link-su">Life Link</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-summon-monster-i-sp">Summon Monster</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-bond-senses-su">Bond Senses</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-shield-ally-ex">Shield Ally</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-makers-call-su">Maker's Call</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-transposition-su">Transposition</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-aspect-su">Aspect</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-greater-shield-ally-su">Greater Shield Ally</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-life-bond-su">Life Bond</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-merge-forms-su">Merge Forms</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-greater-aspect-su">Greater Aspect</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-twin-eidolon-su">Twin Eidolon</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-unchained_summoner-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-unchained_summoner-unchained-summoner">Unchained Summoner</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 25</Link></p>
@@ -1565,12 +1565,12 @@ const _unchained_summoner = {hasJL:true,title: "Unchained Summoner", jsx: <><div
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={1}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th>Shields?</th><td colSpan={2}>No</td></tr><tr><td colSpan={3} className="sw se">A summoner can cast summoner spells while wearing light armor without incurring the normal arcane spell failure chance. Like any other arcane spellcaster, a summoner wearing medium or heavy armor, or using a shield, incurs a chance of arcane spell failure if the spell in question has a somatic component. A summoner still incurs the normal arcane spell failure chance for arcane spells granted by other classes.</td></tr></tbody></table>
-<Ability id="class-unchained_summoner-spells" icon={["magic-swirl"]}><Pair single id="class-unchained_summoner-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Charisma score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Charisma score.</Pair>
 <Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_unchained_summoner">unchained summoner spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>An unchained summoner's selection of spells is limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new unchained summoner level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Charisma score.</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level unchained summoner spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="class-unchained_summoner-cantrips" icon={["magic-swirl"]}>
-<Pair single id="class-unchained_summoner-cantrips">Cantrips</Pair>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level unchained summoner spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="cantrips" icon={["magic-swirl"]}>
+<Pair single id="cantrips">Cantrips</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of cantrips, or 0-level arcane spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Cantrips cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
@@ -1583,14 +1583,14 @@ const _unchained_summoner = {hasJL:true,title: "Unchained Summoner", jsx: <><div
 <p>The eidolon's physical appearance is up to you, but it always appears as some sort of fantastical creature appropriate to its subtype. This control is not fine enough to make the eidolon appear like a specific creature. The eidolon also bears a glowing rune that is identical to a rune that appears on your forehead as long as the eidolon is summoned. While this rune can be hidden through mundane means, it cannot be concealed through magic that changes appearance, such as <Link to="/spell/alter_self">alter self</Link> or <Link to="/spell/polymorph">polymorph</Link> (although <Link to="/spell/invisibility">invisibility</Link> does conceal it as long as the spell lasts).</p>
 </Pair>
 </Ability>
-<Ability id="class-unchained_summoner-life-link-su" icon={["shield-reflect"]}>
-<Pair single id="class-unchained_summoner-life-link-su">Life Link (Su)</Pair>
+<Ability id="life-link-su" icon={["shield-reflect"]}>
+<Pair single id="life-link-su">Life Link (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Free Action">Whenever your eidolon takes enough damage to send it back to its home plane, as a reaction to the damage, you can sacrifice any number of hit points without using an action. Each hit point sacrificed in this way prevents 1 point of damage done to your eidolon. This can prevent your eidolon from being sent back to its home plane.</Pair>
 <Pair title="Passive Ability">In addition, you and your eidolon must remain within 100 feet of one another for your eidolon to remain at full strength. If your eidolon is beyond 100 feet but closer than 1,000 feet, its current and maximum hit point totals are reduced by 50%. If your eidolon is more than 1,000 feet away but closer than 10,000 feet, its current and maximum hit point totals are reduced by 75%. If your eidolon is more than 10,000 feet away, it is immediately returned to its home plane. Current hit points lost in this way are not restored when your eidolon gets closer to its summoner, but its maximum hit point total does return to normal.</Pair>
 </Ability>
-<Ability id="class-unchained_summoner-summon-monster-i-sp" icon={["magic-swirl"]}>
-<Pair single id="class-unchained_summoner-summon-monster-i-sp">Summon Monster I (Sp)</Pair>
+<Ability id="summon-monster-i-sp" icon={["magic-swirl"]}>
+<Pair single id="summon-monster-i-sp">Summon Monster I (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>
 <Pair title="Standard Action">You can cast <Link to="/spell/summon_monster_i">summon monster I</Link> as a spell-like ability. Drawing upon this ability uses up the same power as you use to call your eidolon. As a result, you can only use this ability when your eidolon is not summoned. When you cast this spell, the creatures remain for 1 minute per level (instead of 1 round per level).</Pair>
@@ -1605,58 +1605,58 @@ const _unchained_summoner = {hasJL:true,title: "Unchained Summoner", jsx: <><div
 <Pair title="At 19th Level">This now behaves as either <em>summon monster IX</em> or <Link to="/spell/gate">gate</Link>. If used as <em>gate,</em> you must pay any required material components.</Pair>
 <Pair title="Special">You cannot have more than one <em>summon monster</em> or <em>gate</em> spell active in this way at one time. If this ability is used again, any existing <em>summon monster</em> or <em>gate</em> immediately ends. These summon spells are considered to be part of your spell list for the purposes of spell trigger and spell completion items. In addition, you can expend uses of this ability to fufill the construction requirements of any magic item you create, so long as you can use this ability to cast the required spell.</Pair>
 </Ability>
-<Ability id="class-unchained_summoner-bond-senses-su" icon={["upgrade"]}>
-<Pair single id="class-unchained_summoner-bond-senses-su">Bond Senses (Su)</Pair>
+<Ability id="bond-senses-su" icon={["upgrade"]}>
+<Pair single id="bond-senses-su">Bond Senses (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 round/day per summoner level</Pair>
 <Pair title="Standard Action">You can share the senses of your eidolon, hearing, seeing, smelling, tasting, and touching everything your eidolon does. There is no range to this effect, but your eidolon and you must be on the same plane. You can end this effect as a <strong className="hl">free action</strong>.</Pair>
 </Ability>
-<Ability id="class-unchained_summoner-shield-ally-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-unchained_summoner-shield-ally-ex">Shield Ally (Ex)</Pair>
+<Ability id="shield-ally-ex" icon={["armor-upgrade"]}>
+<Pair single id="shield-ally-ex">Shield Ally (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">Whenever you are within your eidolon's reach, you gain a +2 shield bonus to your Armor Class and a +2 circumstance bonus on your saving throws. This bonus does not apply if your eidolon is <Link to="/rule/grappled">grappled</Link>, <Link to="/misc/helpless">helpless</Link>, <Link to="/rule/paralyzed">paralyzed</Link>, <Link to="/misc/stunned">stunned</Link>, or <Link to="/misc/unconscious">unconscious</Link>.</Pair>
 </Ability>
-<Ability id="class-unchained_summoner-makers-call-su" icon={["magic-swirl"]}>
-<Pair single id="class-unchained_summoner-makers-call-su">Maker's Call (Su)</Pair>
+<Ability id="makers-call-su" icon={["magic-swirl"]}>
+<Pair single id="makers-call-su">Maker's Call (Su)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four summoner levels beyond 6th<ByLevelPop levels={[[6,1],[10,2],[14,3],[18,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">You can call your eidolon to your side. This functions as <Link to="/spell/dimension_door">dimension door</Link>, using your caster level. When used, your eidolon appears adjacent to you (or as close as possible if all adjacent spaces are occupied). If your eidolon is out of range, the ability is wasted.</Pair>
 </Ability>
-<Ability id="class-unchained_summoner-transposition-su" icon={["magic-swirl"]}>
-<Pair single id="class-unchained_summoner-transposition-su">Transposition (Su)</Pair>
+<Ability id="transposition-su" icon={["magic-swirl"]}>
+<Pair single id="transposition-su">Transposition (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Standard Action">You can use your <em>maker's call</em> ability to swap locations with your eidolon. If it is larger than you, you can appear in any square occupied by your eidolon. The eidolon must occupy the square that was occupied by you if able, or as close as possible if it is not able.</Pair>
 </Ability>
-<Ability id="class-unchained_summoner-aspect-su" icon={["upgrade"]}>
-<Pair single id="class-unchained_summoner-aspect-su">Aspect (Su)</Pair>
+<Ability id="aspect-su" icon={["upgrade"]}>
+<Pair single id="aspect-su">Aspect (Su)</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">You can divert up to 2 points from your eidolon's evolution pool to add evolutions to yourself. You cannot select any evolution that your eidolon could not possess, and you must be able to meet the requirements as well. You cannot select the <em>ability increase</em> evolution through this ability. Any points spent in this way are taken from your eidolon's evolution pool (reducing the total number available to your eidolon). You can change the evolutions you receive from these points any time you can change your eidolon's evolutions.</Pair>
 </Ability>
-<Ability id="class-unchained_summoner-greater-shield-ally-su" icon={["shield-reflect"]}>
-<Pair single id="class-unchained_summoner-greater-shield-ally-su">Greater Shield Ally (Su)</Pair>
+<Ability id="greater-shield-ally-su" icon={["shield-reflect"]}>
+<Pair single id="greater-shield-ally-su">Greater Shield Ally (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">Whenever an ally is within your eidolon's reach, the ally receives a +2 shield bonus to its Armor Class and a +2 circumstance bonus on its saving throws. If this ally is you, these bonuses increase to +4. This bonus does not apply if your eidolon is grappled, helpless, paralyzed, stunned, or unconscious.</Pair>
 </Ability>
-<Ability id="class-unchained_summoner-life-bond-su" icon={["armor-upgrade"]}>
-<Pair single id="class-unchained_summoner-life-bond-su">Life Bond (Su)</Pair>
+<Ability id="life-bond-su" icon={["armor-upgrade"]}>
+<Pair single id="life-bond-su">Life Bond (Su)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">As long as your eidolon has 1 or more hit points, you are protected from harm. Damage in excess of that which would reduce you to fewer than 0 hit points is instead transferred to your eidolon. This damage is transferred 1 point at a time, meaning that as soon as your eidolon is reduced to a number of negative hit points equal to its Constitution score, all excess damage remains with you. Effects that cause death but not damage are unaffected by this ability. This ability does not affect spells like <Link to="/spell/baleful_polymorph">baleful polymorph</Link>, <Link to="/spell/flesh_to_stone">flesh to stone</Link>, or <Link to="/spell/imprisonment">imprisonment</Link>, or other spells that do not cause actual damage.</Pair>
 </Ability>
-<Ability id="class-unchained_summoner-merge-forms-su" icon={["armor-upgrade","stairs-goal"]}>
-<Pair single id="class-unchained_summoner-merge-forms-su">Merge Forms (Su)</Pair>
+<Ability id="merge-forms-su" icon={["armor-upgrade","stairs-goal"]}>
+<Pair single id="merge-forms-su">Merge Forms (Su)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Usage">1 round/day per summoner level</Pair>
 <Pair title="Full-Round Action">You can touch your eidolon and merge forms with it. This transformation includes all of your gear. While merged in this way, you are protected from harm and cannot be the target of spells or effects. All effects and spells currently targeting you are suspended until you emerge from your eidolon (although durations continue to expire).</Pair>
 <Pair title="Swift Action">You can end this effect at any time. You emerge in a square adjacent to your eidolon if able.</Pair>
 <Pair title="Special">You can cast spells while inside your eidolon by taking control of your eidolon for the duration of the casting. Any material components used for these spells are taken from your gear, even though they are otherwise inaccessible. You can direct all of your eidolon's actions while merged, can perceive through its senses, and can speak through its voice. If your eidolon is returned to its home plane while you are merged with it, you are immediately ejected, taking 4d6 points of damage, and are stunned for 1 round.</Pair>
 </Ability>
-<Ability id="class-unchained_summoner-greater-aspect-su" icon={["upgrade"]}>
-<Pair single id="class-unchained_summoner-greater-aspect-su">Greater Aspect (Su)</Pair>
+<Ability id="greater-aspect-su" icon={["upgrade"]}>
+<Pair single id="greater-aspect-su">Greater Aspect (Su)</Pair>
 <Pair title="Gained">At 18th Level</Pair>
 <Pair title="Ability">You can divert more of your eidolon's evolutions to yourself. This ability functions as the <em>aspect</em> ability, but up to 6 evolution points can be taken. In addition, your eidolon loses 1 point from its evolution pool for every 2 points (or fraction thereof) diverted to you instead of losing 1 point from the evolution pool for each point diverted.</Pair>
 </Ability>
-<Ability id="class-unchained_summoner-twin-eidolon-su" icon={["stairs-goal"]}>
-<Pair single id="class-unchained_summoner-twin-eidolon-su">Twin Eidolon (Su)</Pair>
+<Ability id="twin-eidolon-su" icon={["stairs-goal"]}>
+<Pair single id="twin-eidolon-su">Twin Eidolon (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Usage">1 minute/day per summoner level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
 <Pair title="Standard Action">You can assume the shape of your eidolon, copying all of its evolutions, form, and abilities. Your Strength, Dexterity, and Constitution scores change to match the base scores of your eidolon. You can choose to have any gear that you carry become absorbed by your new form, as with spells from the polymorph subschool. Items with continuous effects continue to function while absorbed in this way. You lose your natural attacks and all racial traits (except bonus feats, skills, and languages) in favor of the abilities granted by your eidolon's evolutions. You retain all of your class features. You can end this effect as a <strong className="hl">free action</strong>.</Pair>
@@ -1686,7 +1686,7 @@ const _unchained_summoner = {hasJL:true,title: "Unchained Summoner", jsx: <><div
 <h3 id="class-unchained_summoner-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"unchained summoner archetypes","columns":[{"header":"Archetype","link":"arc-unchained_summoner"},{"header":"Alignment"},{"header":"Aspect"},{"header":"Greater Aspect"},{"header":"Bond Senses"},{"header":"Class Skills"},{"header":"Devotion"},{"header":"Eidolon"},{"header":"Life Link"},{"header":"Maker's Call"},{"header":"Merge Forms"},{"header":"Shield Ally"},{"header":"Greater Shield Ally"},{"header":"Summon Monster"},{"header":"Transposition"},{"header":"Twin Eidolon"},{"header":"Spells"}],"data":[[["Construct Caller","construct_caller"],null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null],[["Devil Binder","devil_binder"],"X",null,null,"X",null,"X",null,null,"X","X","X","X","X","X","X",null],[["Devil Impostor","devil_impostor"],null,null,null,"X","X",null,"X",null,null,null,"X","X","X","X",null,null],[["Fey Caller","fey_caller"],null,null,null,null,"X",null,"X",null,null,null,null,null,"X",null,null,null],[["God Caller","god_caller"],null,"X","X",null,"X",null,null,"X",null,null,null,null,null,"X","X",null],[["Leshy Caller","leshy_caller"],null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null],[["Morphic Savant","morphic_savant","arc-summoner"],null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,"X"],[["Soulbound Summoner","soulbound_summoner"],null,null,null,null,null,null,"X","X",null,null,null,null,"X",null,null,null],[["Storm Caller","storm_caller"],null,null,null,null,null,null,"X",null,"X",null,"X","X","X","X",null,null],[["Twinned Summoner","twinned_summoner"],null,null,null,null,null,null,null,null,"X","X","X","X",null,"X",null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-unchained_summoner-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="unchained_summoner" prefix="class-unchained_summoner-" />
+<RacialOptions cls="unchained_summoner" />
 </>};
 const _mesmerist = {hasJL:true,title: "Mesmerist", jsx: <><div className="jumpList" id="class-mesmerist-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-mesmerist-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-mesmerist-consummate-liar">Consummate Liar</InnerLink></li><li><InnerLink toTop to="class-mesmerist-hypnotic-stare-su">Hypnotic Stare</InnerLink></li><li><InnerLink toTop to="class-mesmerist-mesmerist-tricks-su">Mesmerist Tricks</InnerLink></li><li><InnerLink toTop to="class-mesmerist-painful-stare-su">Painful Stare</InnerLink></li><li><InnerLink toTop to="class-mesmerist-towering-ego-su">Towering Ego</InnerLink></li><li><InnerLink toTop to="class-mesmerist-bold-stare-su">Bold Stare</InnerLink></li><li><InnerLink toTop to="class-mesmerist-touch-treatment-su">Touch Treatment</InnerLink></li><li><InnerLink toTop to="class-mesmerist-manifold-tricks-su">Manifold Tricks</InnerLink></li><li><InnerLink toTop to="class-mesmerist-mental-potency-ex">Mental Potency</InnerLink></li><li><InnerLink toTop to="class-mesmerist-glib-lie-su">Glib Lie</InnerLink></li><li><InnerLink toTop to="class-mesmerist-masterful-tricks-su">Masterful Tricks</InnerLink></li><li><InnerLink toTop to="class-mesmerist-rule-minds-su">Rule Minds</InnerLink></li><li><InnerLink toTop to="class-mesmerist-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-mesmerist-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-mesmerist-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-mesmerist-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-mesmerist-mesmerist">Mesmerist</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 38</Link></p>
@@ -2208,47 +2208,47 @@ const _mesmerist = {hasJL:true,title: "Mesmerist", jsx: <><div className="jumpLi
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={3}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td><Link to="/eq-weapon/hand_crossbow">hand crossbow</Link></td><td><Link to="/eq-weapon/sap">sap</Link></td></tr><tr><td><Link to="/eq-weapon/sword_cane">sword cane</Link></td><td><Link to="/eq-weapon/whip">whip</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<Ability id="class-mesmerist-spells" icon={["magic-swirl"]}><Pair single id="class-mesmerist-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To cast a spell, you must have a Charisma score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Charisma score.</Pair>
 <Pair title="Ability">You gain the ability to cast psychic spells which are drawn from the <Link to="/main/spells_mesmerist">mesmerist spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>A mesmerist's selection of spells is limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new mesmerist level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Charisma score.</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level mesmerist spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="class-mesmerist-knacks" icon={["magic-swirl"]}>
-<Pair single id="class-mesmerist-knacks">Knacks</Pair>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level mesmerist spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="knacks" icon={["magic-swirl"]}>
+<Pair single id="knacks">Knacks</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of knacks, or 0-level psychic spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Knacks cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
-<Ability id="class-mesmerist-consummate-liar" icon={["upgrade"]}>
-<Pair single id="class-mesmerist-consummate-liar">Consummate Liar</Pair>
+<Ability id="consummate-liar" icon={["upgrade"]}>
+<Pair single id="consummate-liar">Consummate Liar</Pair>
 <Pair title="Passive Ability">You add <Link to="/misc/half">half</Link> your mesmerist level (minimum 1) as a bonus on all Bluff checks. In addition, you qualify for the <Link to="/feat/improved_feint">Improved Feint</Link> and <Link to="/feat/greater_feint">Greater Feint</Link> feats, even if you don't have <Link to="/feat/combat_expertise">Combat Expertise</Link> or an Intelligence score of at least 13. You can also ignore Combat Expertise and an Intelligence score of 13 as prerequisites for other feats that require Improved Feint or Greater Feint.</Pair>
 </Ability>
-<Ability id="class-mesmerist-hypnotic-stare-su" icon={["armor-downgrade"]}>
-<Pair single id="class-mesmerist-hypnotic-stare-su">Hypnotic Stare (Su)</Pair>
+<Ability id="hypnotic-stare-su" icon={["armor-downgrade"]}>
+<Pair single id="hypnotic-stare-su">Hypnotic Stare (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Swift Action">You can focus your stare on one creature within 30 feet. That creature takes a -2 penalty on Will saving throws. You can maintain your <em>stare</em> against only one opponent at a time; it remains in effect until you stare at a new target, the opponent dies, the opponent moves farther than 30 feet away, or you fall unconscious or die. You can remove the memory of your <em>stare</em> from the target's mind; the creature doesn't remember that it was affected (nor does it realize that it is currently being affected) unless you allow it.</Pair>
 <Pair title="At 8th Level">The penalty becomes -3.</Pair>
 <Pair title="Special">The <em>hypnotic stare</em> is a psychic effect, and relies more on your focus than the target's perception of your <em>stare.</em> It can't be avoided in the same ways a <Link to="/umr/gaze">gaze</Link> attack can. You can use this ability even while blinded, but must succeed at a DC 20 <Link to="/rule/concentration">concentration</Link> check to do so. Staring at a creature requires your focus, so if you use a gaze attack or similar ability, you must target the subject of your <em>hypnotic stare</em> or voluntarily end the <em>stare.</em> The penalties from multiple mesmerists' stares don't stack, nor do they stack with penalties from witches' <Link to="/hex/evil_eye">evil eye</Link> hexes. This is a mind-affecting effect.</Pair>
 </Ability>
-<Ability id="class-mesmerist-mesmerist-tricks-su" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-mesmerist-mesmerist-tricks-su" flavor="A mesmerist can create hypnotic bonds with his allies, implanting magical suggestions in their minds that you can later activate.">Mesmerist Tricks (Su)</Pair>
+<Ability id="mesmerist-tricks-su" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="mesmerist-tricks-su" flavor="A mesmerist can create hypnotic bonds with his allies, implanting magical suggestions in their minds that you can later activate.">Mesmerist Tricks (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">Half your mesmerist level (minimum 1) + your Charisma bonus (if any) tricks/day.</Pair>
 <Pair title="Standard Action">To implant a trick, you must either touch a willing creature or implant the trick in yourself. A creature can be the subject of only one <em>mesmerist trick</em> at a time. You can activate the trick as a <strong className="hl">free action</strong> when a triggering condition is met (as defined in the trick's description), even if it isn't your turn. The subject must be within medium range (100 feet + 10 feet per level) for you to trigger the trick. You monitor for the trick's triggering condition through a subtle telepathic connection, so you don't need line of sight to trigger it - but anything that blocks telepathic contact prevent you from triggering tricks. An implanted trick lasts until the next time you regain your spells. Each daily use of <em>mesmerist tricks</em> can be used to implant any trick you know.</Pair>
 <Pair title="Passive Ability">You know one trick at 1st level, and learn another trick at 2nd level and every 2 levels thereafter (to a maximum of 11 tricks at 20th level). Here is the full list of <Link to="/ability/tricks">mesmerist tricks</Link>. Unless specifically noted in the trick's description, you can't choose a particular trick more than once.</Pair>
 <Pair title="Special">You can have only one trick implanted at a given time, and implanting a new trick ends the previous one (you still lose the use of this ability you spent on the previous trick). Once triggered, a trick is no longer implanted, and can't be triggered again until you implant the trick again. The duration of the effect caused by triggering a trick is either instantaneous or appears in the trick's entry. The DC for any <em>mesmerist trick</em> or <em>masterful trick</em> that requires a saving throw or skill check is 10 + 1/2 your mesmerist level + your Charisma modifier</Pair>
 </Ability>
-<Ability id="class-mesmerist-painful-stare-su" icon={["smoking-finger"]}>
-<Pair single id="class-mesmerist-painful-stare-su">Painful Stare (Su)</Pair>
+<Ability id="painful-stare-su" icon={["smoking-finger"]}>
+<Pair single id="painful-stare-su">Painful Stare (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Free Action">When an attack that deals damage hits the target of your <em>hypnotic stare,</em> you can cause the target to take an amount of additional damage equal to 1/2 your class level (minimum 1). You can use this ability even if it isn't your turn. If you use this ability to increase your own damage, the additional damage increases by 1d6 points for every 3 class levels you possess. This damage is <Link to="/misc/precision_damage">precision damage</Link> and is not multiplied on a critical hit. You can trigger this ability only once per round, but a single creature can take damage from multiple mesmerists' <em>painful stares</em> in a round.</Pair>
 </Ability>
-<Ability id="class-mesmerist-towering-ego-su" icon={["armor-upgrade"]}>
-<Pair single id="class-mesmerist-towering-ego-su">Towering Ego (Su)</Pair>
+<Ability id="towering-ego-su" icon={["armor-upgrade"]}>
+<Pair single id="towering-ego-su">Towering Ego (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a bonus equal to your Charisma bonus (minimum 0) on Will saving throws.</Pair>
 <Pair title="Special">If you are under any effect that would prevent you from providing the emotional component of psychic spells, you lose this bonus on saving throws.</Pair>
 </Ability>
-<Ability id="class-mesmerist-bold-stare-su" icon={["upgrade"]}>
-<Pair single id="class-mesmerist-bold-stare-su">Bold Stare (Su)</Pair>
+<Ability id="bold-stare-su" icon={["upgrade"]}>
+<Pair single id="bold-stare-su">Bold Stare (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">Your <em>hypnotic stare</em> imposes a further effect upon its target, chosen from this list of <Link to="/ability/stares">mesmerist stares</Link>. The choice can't be changed later.</Pair>
 <Pair title="At 7th Level">You choose a new <em>bold stare improvement.</em></Pair>
@@ -2258,8 +2258,8 @@ const _mesmerist = {hasJL:true,title: "Mesmerist", jsx: <><div className="jumpLi
 <Pair title="Special">You can't choose the same <em>bold stare improvement</em> more than once unless otherwise noted. All of your <em>bold stare improvements</em> affect the target as long as it is affected by your <em>hypnotic stare.</em></Pair>
 </Ability>
 <aside><p>A mesmerist may take the <Link to="/feat/manifold_stare">Manifold Stare</Link> feat in place of a bold stare improvement. The mesmerist must meet the feat's prerequisites.</p>
-</aside><Ability id="class-mesmerist-touch-treatment-su" icon={["remedy"]}>
-<Pair single id="class-mesmerist-touch-treatment-su">Touch Treatment (Su)</Pair>
+</aside><Ability id="touch-treatment-su" icon={["remedy"]}>
+<Pair single id="touch-treatment-su">Touch Treatment (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>
 <Pair title="Standard Action">You can help allies shake off harmful conditions - especially those that affect their minds - by channeling psychic energy through your healing hands. You must be able to touch your target. You can remove the <em>fascinated</em> or <em>shaken</em> condition from your target each time you use this ability. This is the "minor" ability.</Pair>
@@ -2268,8 +2268,8 @@ const _mesmerist = {hasJL:true,title: "Mesmerist", jsx: <><div className="jumpLi
 <Pair title="At 10th Level">You can now also remove the <em>cowering, nauseated, panicked,</em> and <em>stunned</em> conditions. This is the "greater" ability.</Pair>
 <Pair title="At 14th Level">You can instead expend one use of touch treatment to replicate the effects of <Link to="/spell/break_enchantment">break enchantment</Link>. This targets only one creature you are touching and follows all other restrictions of touch treatment.</Pair>
 </Ability>
-<Ability id="class-mesmerist-manifold-tricks-su" icon={["upgrade"]}>
-<Pair single id="class-mesmerist-manifold-tricks-su">Manifold Tricks (Su)</Pair>
+<Ability id="manifold-tricks-su" icon={["upgrade"]}>
+<Pair single id="manifold-tricks-su">Manifold Tricks (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">You can have two <em>mesmerist tricks</em> implanted at a time.</Pair>
 <Pair title="At 9th Level">You can have three <em>mesmerist tricks</em> implanted at a time.</Pair>
@@ -2277,26 +2277,26 @@ const _mesmerist = {hasJL:true,title: "Mesmerist", jsx: <><div className="jumpLi
 <Pair title="At 17th Level">You can have five <em>mesmerist tricks</em> implanted at a time.</Pair>
 <Pair title="Special">Each creature can still be the subject of only one trick at a time. If you implant a new trick while you already have your maximum number of concurrent tricks implanted, you must choose one implanted trick to dismiss without triggering (the dismissed trick still expends a daily use of your tricks).</Pair>
 </Ability>
-<Ability id="class-mesmerist-mental-potency-ex" icon={["upgrade","magic-swirl"]}>
-<Pair single id="class-mesmerist-mental-potency-ex">Mental Potency (Ex)</Pair>
+<Ability id="mental-potency-ex" icon={["upgrade","magic-swirl"]}>
+<Pair single id="mental-potency-ex">Mental Potency (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">You can affect more powerful creatures or a greater number of creatures than normal with your mental effects. Both the HD limit and the total number of HD affected with each enchantment or illusion spell you cast increase by 1. For enchantment and illusion spells you cast that target a number of creatures greater than one, the number of creatures affected also increases by one (so a spell that targets one creature per level would be affected, but a spell that targets only one creature would not be). For example, a 5th-level mesmerist could affect 5 HD worth of creatures with <Link to="/spell/sleep">sleep</Link>, affect 2d4+1 HD worth of creatures with <Link to="/spell/hypnotism">hypnotism</Link>, and change the categories for <Link to="/spell/color_spray">color spray</Link> to "3 HD or fewer," "4 or 5 HD," and "6 or more HD."</Pair>
 <Pair title="At 10th Level">The HD limits now increase by 2.</Pair>
 <Pair title="At 15th Level">The HD limits now increase by 3.</Pair>
 <Pair title="At 20th Level">The HD limits now increase by 4.</Pair>
 </Ability>
-<Ability id="class-mesmerist-glib-lie-su" icon={["upgrade"]}>
-<Pair single id="class-mesmerist-glib-lie-su">Glib Lie (Su)</Pair>
+<Ability id="glib-lie-su" icon={["upgrade"]}>
+<Pair single id="glib-lie-su">Glib Lie (Su)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">You can deceive truth-detecting magic. A creature using this sort of magic against you must succeed at a caster level check against a DC of 15 + your class level to succeed (as if you were under the effect of a <Link to="/spell/glibness">glibness</Link> spell); failure means the magic doesn't detect your lies or force you to speak only the truth. This ability does not give you the <em>glibness</em> spell's bonus on Bluff checks.</Pair>
 </Ability>
-<Ability id="class-mesmerist-masterful-tricks-su" icon={["upgrade"]}>
-<Pair single id="class-mesmerist-masterful-tricks-su">Masterful Tricks (Su)</Pair>
+<Ability id="masterful-tricks-su" icon={["upgrade"]}>
+<Pair single id="masterful-tricks-su">Masterful Tricks (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">You can choose a <Link to="/ability/masterful_tricks">masterful trick</Link> in place of a <em>mesmerist trick.</em> Using a <em>masterful trick</em> consumes two uses of the <em>mesmerist trick</em> class feature instead of one.</Pair>
 </Ability>
-<Ability id="class-mesmerist-rule-minds-su" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-mesmerist-rule-minds-su">Rule Minds (Su)</Pair>
+<Ability id="rule-minds-su" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="rule-minds-su">Rule Minds (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">You can permanently mentally enslave a creature. When you successfully affect the target of your <em>hypnotic stare</em> with an enchantment spell that requires a saving throw, you can force that creature to attempt a second Will saving throw with a DC equal to the spell's DC. The DC is reduced by 5 if the monster isn't a humanoid. If the creature fails, it becomes a permanent thrall to you (as <Link to="/spell/dominate_monster">dominate monster</Link>) until you die. If it succeeds, it can't be affected by <em>rule minds</em> again for 24 hours. You can have only one creature enthralled at a time. If you enthrall a new creature, the previous one is set free but is unaware that it was enthralled by you.</Pair>
 </Ability>
@@ -2336,7 +2336,7 @@ const _mesmerist = {hasJL:true,title: "Mesmerist", jsx: <><div className="jumpLi
 <h3 id="class-mesmerist-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"mesmerist archetypes","columns":[{"header":"Archetype","link":"arc-mesmerist"},{"header":"Alignment"},{"header":"Bold Stare"},{"header":"3rd-level Bold Stare"},{"header":"7th-level Bold Stare"},{"header":"Class Skills"},{"header":"Consummate Liar"},{"header":"Glib Lie"},{"header":"Hypnotic Stare"},{"header":"Mental Potency"},{"header":"Mesmerist Tricks"},{"header":"1st-level Mesmerist Trick"},{"header":"2nd-level Mesmerist Trick"},{"header":"4th-level Mesmerist Trick"},{"header":"8th-level Mesmerist Trick"},{"header":"10th-level Mesmerist Trick"},{"header":"12th-level Mesmerist Trick"},{"header":"16th-level Mesmerist Trick"},{"header":"20th-level Mesmerist Trick"},{"header":"Manifold Tricks"},{"header":"Masterful Tricks"},{"header":"Painful Stare"},{"header":"Rule Minds"},{"header":"Spellcasting"},{"header":"Touch Treatment"},{"header":"3rd-level Touch Treatment"},{"header":"6th-level Touch Treatment"},{"header":"10th-level Touch Treatment"},{"header":"14th-level Touch Treatment"},{"header":"Towering Ego"}],"data":[[["Aromaphile","aromaphile"],null,"X",null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,"X"],[["Autohypnotist","autohypnotist"],null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Chart Caster","chart_caster"],null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null],[["Cult Master","cult_master"],null,null,null,"X",null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,"X","X","X",null,null,"X","X",null,"X",null],[["Dreamstalker","dreamstalker"],null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,"X",null,"X",null,null,"X",null,null,null,null,"X"],[["Enigma","enigma"],null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,"X",null,"X","X",null,"X",null,null,null,null,null],[["Eyebiter","eyebiter"],null,null,null,null,null,"X","X",null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null],[["Fey Trickster","fey_trickster"],null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,"X"],[["Gaslighter","gaslighter"],"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null],[["Hate-Monger","hate_monger"],"X",null,null,"X",null,"X","X",null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null],[["Material Manipulator","material_manipulator"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,"X","X","X",null,null,null,null,null],[["Mindwyrm Mesmer","mindwyrm_mesmer"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null],[["Projectionist","projectionist"],null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Spirit Walker","spirit_walker"],null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,"X","X","X","X",null],[["Thought Eater","thought_eater"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,"X"],[["Toxitician","toxitician"],null,"X",null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null],[["Umbral Mesmerist","umbral_mesmerist"],null,null,null,null,null,null,null,null,"X",null,"X",null,"X","X",null,"X","X","X",null,null,null,null,"X",null,null,null,null,null,"X"],[["Vexing Daredevil","vexing_daredevil"],null,"X",null,null,"X",null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null],[["Vexing Trickster","vexing_trickster"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null],[["Vizier","vizier"],null,null,"X",null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X"],[["Vox","vox"],null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X","X",null,null,null,null,"X"]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-mesmerist-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="mesmerist" prefix="class-mesmerist-" />
+<RacialOptions cls="mesmerist" />
 </>};
 const _rogue = {hasJL:true,title: "Rogue", jsx: <><div className="jumpList" id="class-rogue-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-rogue-sneak-attack">Sneak Attack</InnerLink></li><li><InnerLink toTop to="class-rogue-trapfinding">Trapfinding</InnerLink></li><li><InnerLink toTop to="class-rogue-evasion-ex">Evasion</InnerLink></li><li><InnerLink toTop to="class-rogue-rogue-talents">Rogue Talents</InnerLink></li><li><InnerLink toTop to="class-rogue-trap-sense-ex">Trap Sense</InnerLink></li><li><InnerLink toTop to="class-rogue-uncanny-dodge-ex">Uncanny Dodge</InnerLink></li><li><InnerLink toTop to="class-rogue-advanced-talents">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-rogue-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-rogue-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-rogue-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-rogue-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-rogue-rogue">Rogue</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 67</Link></p>
@@ -2517,53 +2517,53 @@ const _rogue = {hasJL:true,title: "Rogue", jsx: <><div className="jumpList" id="
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={4}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td><Link to="/eq-weapon/hand_crossbow">hand crossbow</Link></td><td><Link to="/eq-weapon/rapier">rapier</Link></td></tr><tr><td><Link to="/eq-weapon/sap">sap</Link></td><td><Link to="/eq-weapon/shortbow">shortbow</Link></td></tr><tr><td colSpan={2}><Link to="/eq-weapon/short_sword">short sword</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<Ability id="class-rogue-sneak-attack" icon={["upgrade"]}>
-<Pair single id="class-rogue-sneak-attack" flavor="If a rogue can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage.">Sneak Attack</Pair>
+<Ability id="sneak-attack" icon={["upgrade"]}>
+<Pair single id="sneak-attack" flavor="If a rogue can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage.">Sneak Attack</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Your attack deals extra damage any time your target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), or when you <Link to="/rule/flank">flank</Link> your target. This extra damage is a number of d6s equal to 1 + <Link to="/misc/half">half</Link> your rogue level. (1d6 at first, 2d6 at 3rd, 3d6 at 5th, and so on.) You must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. You cannot sneak attack while striking a creature with <Link to="/rule/concealment">concealment</Link>.</Pair>
 <Pair title="Special">If you score a critical hit with a sneak attack, this extra damage is not multiplied. Ranged attacks can count as sneak attacks only if the target is within 30 feet. With a weapon that deals nonlethal damage (like a sap, whip, or an unarmed strike), you can make a sneak attack that deals nonlethal damage instead of lethal damage. You cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, not even with the usual -4 penalty.</Pair>
 </Ability>
-<Ability id="class-rogue-trapfinding" icon={["armor-upgrade","stairs-goal"]}>
-<Pair single id="class-rogue-trapfinding">Trapfinding</Pair>
+<Ability id="trapfinding" icon={["armor-upgrade","stairs-goal"]}>
+<Pair single id="trapfinding">Trapfinding</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You add 1/2 your level to Perception skill checks made to locate traps and to Disable Device skill checks (minimum +1). You can use Disable Device to disarm magic traps.</Pair>
 </Ability>
-<Ability id="class-rogue-evasion-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-rogue-evasion-ex">Evasion (Ex)</Pair>
+<Ability id="evasion-ex" icon={["armor-upgrade"]}>
+<Pair single id="evasion-ex">Evasion (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">If you make a successful Reflex saving throw against an attack that normally deals half damage on a successful save, you instead take no damage. Evasion can be used only if the you are not <Link to="/misc/helpless">helpless</Link> and are wearing light armor or no armor.</Pair>
 </Ability>
-<Ability id="class-rogue-rogue-talents" icon={["stairs-goal"]}>
-<Pair single id="class-rogue-rogue-talents" flavor="As a rogue gains experience, she learns a number of talents that aid her and confound her foes.">Rogue Talents</Pair>
+<Ability id="rogue-talents" icon={["stairs-goal"]}>
+<Pair single id="rogue-talents" flavor="As a rogue gains experience, she learns a number of talents that aid her and confound her foes.">Rogue Talents</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You gain one <Link to="/ability/rogue_talent">rogue talent</Link>. You gain an additional rogue talent at every even-numbered level (4th, 6th, 8th, and so on).</Pair>
 <Pair title="Special">You cannot select an individual talent more than once. Some talents add effects to your <em>sneak attack.</em> Only one of these talents can be applied to an individual <em>attack</em> and the decision must be made before the attack roll is made.</Pair>
 </Ability>
-<Ability id="class-rogue-trap-sense-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-rogue-trap-sense-ex">Trap Sense (Ex)</Pair>
+<Ability id="trap-sense-ex" icon={["armor-upgrade"]}>
+<Pair single id="trap-sense-ex">Trap Sense (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain a bonus on Reflex saves made to avoid traps and a dodge bonus to AC against attacks made by traps. Both of these bonuses are equal to one-third of your rogue level.</Pair>
 <Pair title="Special">Trap sense bonuses gained from multiple classes stack.</Pair>
 </Ability>
-<Ability id="class-rogue-uncanny-dodge-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-rogue-uncanny-dodge-ex">Uncanny Dodge (Ex)</Pair>
+<Ability id="uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="uncanny-dodge-ex">Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You cannot be caught <Link to="/rule/flat_footed">flat-footed</Link>, nor do you lose your Dex bonus to AC if the attacker is invisible. You still lose your Dexterity bonus to AC if immobilized, or if an opponent successfully uses the <Link to="/rule/feint">feint</Link> action against you.</Pair>
 <Pair title="Special">If you already have uncanny dodge from a different class, you automatically gain improved uncanny dodge instead.</Pair>
 </Ability>
-<Ability id="class-rogue-improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-rogue-improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
+<Ability id="improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">You can no longer be <Link to="/rule/flanked">flanked</Link> This defense denies another rogue the ability to <em>sneak attack</em> you by flanking you, unless the attacker has at least four more rogue levels than you do.</Pair>
 <Pair title="Special">If you already have uncanny dodge from another class, the levels from the classes that grant uncanny dodge stack to determine the minimum rogue level required to flank you.</Pair>
 </Ability>
-<Ability id="class-rogue-advanced-talents" icon={["upgrade"]}>
-<Pair single id="class-rogue-advanced-talents">Advanced Talents</Pair>
+<Ability id="advanced-talents" icon={["upgrade"]}>
+<Pair single id="advanced-talents">Advanced Talents</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">You can choose an <Link to="/ability/advanced_rogue_talent">advanced rogue talent</Link> in place of a <em>rogue talent.</em></Pair>
 </Ability>
-<Ability id="class-rogue-master-strike-ex" icon={["upgrade","armor-downgrade"]}>
-<Pair single id="class-rogue-master-strike-ex">Master Strike (Ex)</Pair>
+<Ability id="master-strike-ex" icon={["upgrade","armor-downgrade"]}>
+<Pair single id="master-strike-ex">Master Strike (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">Each time you deal <em>sneak attack</em> damage, you can choose one of the following three effects: the target can be put to sleep for 1d4 hours, <Link to="/rule/paralyzed">paralyzed</Link> for 2d6 rounds, or slain. Regardless of the effect chosen, the target receives a Fortitude save to negate the additional effect. The DC of this save is equal to 10 + 1/2 your rogue level + your Intelligence modifier.</Pair>
 <Pair title="Special">Once a creature has been the target of a master strike, regardless of whether or not the save is made, that creature is immune to that rogue's master strike for 24 hours. Creatures that are immune to <em>sneak attack</em> damage are also immune to this ability.</Pair>
@@ -2661,7 +2661,7 @@ const _rogue = {hasJL:true,title: "Rogue", jsx: <><div className="jumpList" id="
 <h3 id="class-rogue-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"rogue archetypes","columns":[{"header":"Archetype","link":"arc-rogue"},{"header":"Armor Proficiency"},{"header":"Class Skills"},{"header":"Evasion"},{"header":"Improved Evasion"},{"header":"Master Strike"},{"header":"Rogue Talents"},{"header":"2nd-level Rogue Talent"},{"header":"4th-level Rogue Talent"},{"header":"6th-level Rogue Talent"},{"header":"8th-level Rogue Talent"},{"header":"10th-level Rogue Talent"},{"header":"12th-level Rogue Talent"},{"header":"14th-level Rogue Talent"},{"header":"16th-level Rogue Talent"},{"header":"18th-level Rogue Talent"},{"header":"20th-level Rogue Talent"},{"header":"Advanced Talents"},{"header":"Skill Ranks"},{"header":"Sneak Attack"},{"header":"Trap Sense"},{"header":"Trap Sense 1"},{"header":"Trap Sense 2"},{"header":"Trap Sense 3"},{"header":"Trap Sense 4"},{"header":"Trapfinding"},{"header":"Uncanny Dodge"},{"header":"Improved Uncanny Dodge"},{"header":"Weapon Proficiency"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Acrobat","acrobat"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Bandit","bandit"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null],[["Bekyar Kidnapper","bekyar_kidnapper"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Bellflower Irrigator","bellflower_irrigator"],null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null],[["Burglar","burglar"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null],[["Carnivalist","carnivalist"],null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null],[["Cat Burglar","cat_burglar"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null],[["Chameleon","chameleon"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Charlatan","charlatan"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Consigliere","consigliere"],null,"X","X",null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X","X",null,null],[["Construct Saboteur","construct_saboteur"],null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Counterfeit Mage","counterfeit_mage"],null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Cutpurse","cutpurse"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Dark Lurker","dark_lurker"],null,null,"X",null,null,null,"X",null,null,"X",null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null],[["Deadly Courtesan","deadly_courtesan"],null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null],[["Desert Raider","desert_raider"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Discretion Specialist","discretion_specialist"],null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,"X","X","X",null,null],[["Dreamthief","dreamthief"],null,"X",null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,"X","X",null,null,null,null,null,"X","X",null,null],[["Driver","driver"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Earthshadow","earthshadow"],null,null,"X",null,null,null,null,"X",null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Eldritch Raider","eldritch_raider"],null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null],[["Eldritch Scoundrel","eldritch_scoundrel"],"X","X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X","X","X","X",null,null,null,null,null,"X","X",null,null],[["Escapologist","escapologist"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null],[["False Medium","false_medium"],null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Fey Prankster","fey_prankster"],null,null,null,null,null,null,"X",null,"X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null],[["Filcher","filcher"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X","X",null,null],[["Galtan Agitator","galtan_agitator"],null,null,null,null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Guerrilla","guerrilla"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X","X",null,null],[["Guild Agent","guild_agent"],null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null],[["Gun Smuggler","gun_smuggler"],null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,"X","X","X","X",null],[["Heister","heister"],null,null,null,null,null,null,"X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null],[["Investigator","investigator"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Kintargo Rebel","kintargo_rebel"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null],[["Kitsune Trickster","kitsune_trickster"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Knife Master","knife_master"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,"X",null,null,null,null],[["Makeshift Scrapper","makeshift_scrapper"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,"X",null],[["Master of Disguise","master_of_disguise"],null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Nameless Shadow","nameless_shadow"],null,null,null,null,null,null,"X","X","X","X","X",null,"X",null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Needler","needler"],null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null],[["Numerian Scavenger","numerian_scavenger"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null],[["Okeno Liberator","okeno_liberator"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,null],[["Phantom Thief","phantom_thief"],null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,"X",null,null,null,null],[["Pirate","pirate"],null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Planar Sneak","planar_sneak"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X","X",null,null],[["Poisoner","poisoner"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Rake","rake"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Relic Raider","relic_raider"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null],[["River Rat","river_rat"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Roof Runner","roof_runner"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Rotdrinker","rotdrinker"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null],[["Sanctified Rogue","sanctified_rogue"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null],[["Sapper","sapper"],null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Scout","scout"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null],[["Scroll Scoundrel","scroll_scoundrel"],null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X","X",null,null],[["Sczarni Swindler","sczarni_swindler"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X","X",null,null],[["Seeker of the Lost","seeker_of_the_lost"],null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null],[["Shadow Scion","shadow_scion"],null,null,null,null,"X",null,"X",null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Shadow Walker","shadow_walker"],null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X","X",null,null],[["Sharper","sharper"],null,null,null,null,null,null,"X","X","X","X","X",null,null,"X",null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Skulking Slayer","skulking_slayer"],null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X","X","X","X","X",null,null,null,"X"],[["Sly Saboteur","sly_saboteur"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X","X",null,null],[["Smuggler","smuggler"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Snare Setter","snare_setter"],null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null],[["Sniper","sniper"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Snoop","snoop"],null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null],[["Spy","spy"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Survivalist","survivalist"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Swamp Poisoner","swamp_poisoner"],null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Swashbuckler","swashbuckler"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Swordmaster","swordmaster"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Sylvan Trickster","sylvan_trickster"],null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null],[["Thug","thug"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Tidal Trickster","tidal_trickster"],null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X","X",null,null],[["Toxic Talon","toxic_talon"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X","X","X",null],[["Trapsmith","trapsmith"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null],[["Underground Chemist","underground_chemist"],null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null],[["Vexing Dodger","vexing_dodger"],null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X","X",null,null],[["Waylayer","waylayer"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,"X","X","X",null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-rogue-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="rogue" prefix="class-rogue-" />
+<RacialOptions cls="rogue" />
 </>};
 const _unchained_rogue = {hasJL:true,title: "Unchained Rogue", jsx: <><div className="jumpList" id="class-unchained_rogue-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-unchained_rogue-sneak-attack">Sneak Attack</InnerLink></li><li><InnerLink toTop to="class-unchained_rogue-trapfinding">Trapfinding</InnerLink></li><li><InnerLink toTop to="class-unchained_rogue-finesse-training-ex">Finesse Training</InnerLink></li><li><InnerLink toTop to="class-unchained_rogue-evasion-ex">Evasion</InnerLink></li><li><InnerLink toTop to="class-unchained_rogue-rogue-talents">Rogue Talents</InnerLink></li><li><InnerLink toTop to="class-unchained_rogue-danger-sense-ex">Danger Sense</InnerLink></li><li><InnerLink toTop to="class-unchained_rogue-debilitating-injury-ex">Debilitating Injury</InnerLink></li><li><InnerLink toTop to="class-unchained_rogue-uncanny-dodge-ex">Uncanny Dodge</InnerLink></li><li><InnerLink toTop to="class-unchained_rogue-rogues-edge-ex">Rogue's Edge</InnerLink></li><li><InnerLink toTop to="class-unchained_rogue-advanced-talents">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-unchained_rogue-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-unchained_rogue-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-unchained_rogue-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-unchained_rogue-unchained-rogue">Unchained Rogue</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 20</Link></p>
@@ -2842,19 +2842,19 @@ const _unchained_rogue = {hasJL:true,title: "Unchained Rogue", jsx: <><div class
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={4}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td><Link to="/eq-weapon/hand_crossbow">hand crossbow</Link></td><td><Link to="/eq-weapon/rapier">rapier</Link></td></tr><tr><td><Link to="/eq-weapon/sap">sap</Link></td><td><Link to="/eq-weapon/shortbow">shortbow</Link></td></tr><tr><td colSpan={2}><Link to="/eq-weapon/short_sword">short sword</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<Ability id="class-unchained_rogue-sneak-attack" icon={["upgrade"]}>
-<Pair single id="class-unchained_rogue-sneak-attack" flavor="If a rogue can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage.">Sneak Attack</Pair>
+<Ability id="sneak-attack" icon={["upgrade"]}>
+<Pair single id="sneak-attack" flavor="If a rogue can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage.">Sneak Attack</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Your attack deals extra damage any time your target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), or when you <Link to="/rule/flank">flank</Link> your target. This extra damage is a number of d6s equal to 1 + <Link to="/misc/half">half</Link> your rogue level. (1d6 at first, 2d6 at 3rd, 3d6 at 5th, and so on.) You must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. You cannot sneak attack while striking a creature with <Link to="/rule/concealment">concealment</Link>.</Pair>
 <Pair title="Special">This additional damage is <Link to="/misc/precision_damage">precision damage</Link> and is not multiplied on a critical hit. Ranged attacks can count as sneak attacks only if the target is within 30 feet. With a weapon that deals nonlethal damage (like a sap, whip, or an unarmed strike), you can make a sneak attack that deals nonlethal damage instead of lethal damage. You cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, not even with the usual -4 penalty.</Pair>
 </Ability>
-<Ability id="class-unchained_rogue-trapfinding" icon={["armor-upgrade","stairs-goal"]}>
-<Pair single id="class-unchained_rogue-trapfinding">Trapfinding</Pair>
+<Ability id="trapfinding" icon={["armor-upgrade","stairs-goal"]}>
+<Pair single id="trapfinding">Trapfinding</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You add 1/2 your level to Perception skill checks made to locate traps and to Disable Device skill checks (minimum +1). You can use Disable Device to disarm magic traps.</Pair>
 </Ability>
-<Ability id="class-unchained_rogue-finesse-training-ex" icon={["upgrade","mailed-fist"]}>
-<Pair single id="class-unchained_rogue-finesse-training-ex">Finesse Training (Ex)</Pair>
+<Ability id="finesse-training-ex" icon={["upgrade","mailed-fist"]}>
+<Pair single id="finesse-training-ex">Finesse Training (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/weapon_finesse">Weapon Finesse</Link> as a bonus feat.</Pair>
 <Pair title="At 3rd Level">You can select any one type of weapon that can be used with Weapon Finesse (such as rapiers or <Link to="/eq-weapon/dagger">daggers</Link>). Once this choice is made, it cannot be changed. Whenever you make a successful melee attack with the selected weapon, you add your Dexterity modifier instead of your Strength modifier to the damage roll. If any effect would prevent you from adding your Strength modifier to the damage roll, you do not add your Dexterity modifier.</Pair>
@@ -2862,53 +2862,53 @@ const _unchained_rogue = {hasJL:true,title: "Unchained Rogue", jsx: <><div class
 <Pair title="At 19th Level">You choose a third weapon to also gain these benefits with.</Pair>
 </Ability>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="class-unchained_rogue--table-1"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/>At 1st level, a rogue gains <strong className="hl"><Link to="/rule/deft_maneuvers">Deft Maneuvers</Link></strong> as a bonus feat. In addition, starting at 3rd level, she can select any one <Link to="/ability/weapon_groups">weapon group</Link> listed under the fighter's Weapon Training class feature. Once this choice is made, it cannot be changed. Whenever she makes a successful melee attack with a <Link to="/rule/finesse">finesse</Link> weapon or an <Link to="/magic-enh/agile">agile</Link> weapon from this group, she adds her Dexterity modifier instead of her Strength modifier to the damage roll. If any effect would prevent the rogue from adding her Strength modifier to the damage roll, she does not add her Dexterity modifier. The rogue can select a second weapon group at 11th level and a third at 19th level.</p>
-</td></tr></tbody></table></ScrollContainer></div><Ability id="class-unchained_rogue-evasion-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-unchained_rogue-evasion-ex">Evasion (Ex)</Pair>
+</td></tr></tbody></table></ScrollContainer></div><Ability id="evasion-ex" icon={["armor-upgrade"]}>
+<Pair single id="evasion-ex">Evasion (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">If you make a successful Reflex saving throw against an attack that normally deals half damage on a successful save, you instead take no damage. Evasion can be used only if the you are not <Link to="/misc/helpless">helpless</Link> and are wearing light armor or no armor.</Pair>
 </Ability>
-<Ability id="class-unchained_rogue-rogue-talents" icon={["stairs-goal"]}>
-<Pair single id="class-unchained_rogue-rogue-talents" flavor="As a rogue gains experience, she learns a number of talents that aid her and confound her foes.">Rogue Talents</Pair>
+<Ability id="rogue-talents" icon={["stairs-goal"]}>
+<Pair single id="rogue-talents" flavor="As a rogue gains experience, she learns a number of talents that aid her and confound her foes.">Rogue Talents</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You gain one <Link to="/ability/unchained_rogue_talent">unchained rogue talent</Link>. You gain an additional rogue talent at every even-numbered level (4th, 6th, 8th, and so on).</Pair>
 <Pair title="Special">You cannot select an individual talent more than once. Some talents add effects to your <em>sneak attack.</em> Only one of these talents can be applied to an individual <em>attack</em> and the decision must be made before the attack roll is made.</Pair>
 </Ability>
-<Ability id="class-unchained_rogue-danger-sense-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-unchained_rogue-danger-sense-ex">Danger Sense (Ex)</Pair>
+<Ability id="danger-sense-ex" icon={["armor-upgrade"]}>
+<Pair single id="danger-sense-ex">Danger Sense (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain a bonus on Reflex saves made to avoid traps and a dodge bonus to AC against attacks made by traps. In addition, you gain a bonus on Perception checks to avoid being surprised by a foe. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of your rogue level.</Pair>
 <Pair title="Special">This ability counts as <Link to="/ability/trap_sense">trap sense</Link> for the purpose of any feat or class prerequisite, and can be replaced by any archetype class feature that replaces trap sense. The bonuses gained from this ability stack with those gained from trap sense (from another class).</Pair>
 </Ability>
-<Ability id="class-unchained_rogue-debilitating-injury-ex" extraClasses="hasSubs" icon={["armor-downgrade"]}>
-<Pair single id="class-unchained_rogue-debilitating-injury-ex">Debilitating Injury (Ex)</Pair>
+<Ability id="debilitating-injury-ex" extraClasses="hasSubs" icon={["armor-downgrade"]}>
+<Pair single id="debilitating-injury-ex">Debilitating Injury (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">Whenever you deal <em>sneak attack</em> damage to a foe, you can also debilitate the target of your attack, causing it to take a penalty for 1 round (this is in addition to any penalty caused by a <em>rogue talent</em> or other special ability). You can choose to apply any one of the following penalties when the damage is dealt.</Pair>
 <Pair title="Special">These penalties do not stack with themselves, but additional attacks that deal sneak attack damage extend the duration by 1 round. A creature cannot suffer from more than one penalty from this ability at a time. If a new penalty is applied, the old penalty immediately ends. Any form of healing applied to a target suffering from one of these penalties also removes the penalty.</Pair>
 </Ability>
-<Ability id="class-unchained_rogue-bewildered" extraClasses="subAbility numbered" icon={["armor-downgrade"]}>
-<Pair single id="class-unchained_rogue-bewildered">Bewildered</Pair>
+<Ability id="bewildered" extraClasses="subAbility numbered" icon={["armor-downgrade"]}>
+<Pair single id="bewildered">Bewildered</Pair>
 <Pair title="Passive Ability">The target becomes bewildered, taking a -2 penalty to AC. The target takes an additional -2 penalty to AC against all attacks made by you (for a total of -4).</Pair>
 <Pair title="At 10th Level">The additional penalty to AC against you becomes -4 (for a total of -6).</Pair>
 <Pair title="At 16th Level">The additional penalty to AC against you becomes -6 (for a total of -8).</Pair>
 </Ability>
-<Ability id="class-unchained_rogue-disoriented" extraClasses="subAbility numbered" icon={["armor-downgrade"]}>
-<Pair single id="class-unchained_rogue-disoriented">Disoriented</Pair>
+<Ability id="disoriented" extraClasses="subAbility numbered" icon={["armor-downgrade"]}>
+<Pair single id="disoriented">Disoriented</Pair>
 <Pair title="Passive Ability">The target takes a -2 penalty on attack rolls. In addition, the target takes an additional -2 penalty on all attack rolls it makes against the rogue (for a total of -4).</Pair>
 <Pair title="At 10th Level">The additional penalty on attacks against you becomes -4 (for a total of -6).</Pair>
 <Pair title="At 16th Level">The additional penalty on attacks against you becomes -6 (for a total of -8).</Pair>
 </Ability>
-<Ability id="class-unchained_rogue-hampered" extraClasses="subAbility numbered" icon={["armor-downgrade"]}>
-<Pair single id="class-unchained_rogue-hampered">Hampered</Pair>
+<Ability id="hampered" extraClasses="subAbility numbered" icon={["armor-downgrade"]}>
+<Pair single id="hampered">Hampered</Pair>
 <Pair title="Passive Ability">All of the target's speeds are reduced by half (to a minimum of 5 feet). In addition, the target cannot <Link to="/rule/take_a_5_foot_step">take a 5-foot step</Link>.</Pair>
 </Ability>
-<Ability id="class-unchained_rogue-uncanny-dodge-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-unchained_rogue-uncanny-dodge-ex">Uncanny Dodge (Ex)</Pair>
+<Ability id="uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="uncanny-dodge-ex">Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You cannot be caught <Link to="/rule/flat_footed">flat-footed</Link>, nor do you lose your Dex bonus to AC if the attacker is invisible. You still lose your Dexterity bonus to AC if immobilized, or if an opponent successfully uses the <Link to="/rule/feint">feint</Link> action against you.</Pair>
 <Pair title="Special">If you already have uncanny dodge from a different class, you automatically gain improved uncanny dodge instead.</Pair>
 </Ability>
-<Ability id="class-unchained_rogue-rogues-edge-ex" icon={["upgrade","stairs-goal"]}>
-<Pair single id="class-unchained_rogue-rogues-edge-ex" flavor="A rogue has mastered a single skill beyond that skill's normal boundaries, gaining results that others can only dream about.">Rogue's Edge (Ex)</Pair>
+<Ability id="rogues-edge-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="rogues-edge-ex" flavor="A rogue has mastered a single skill beyond that skill's normal boundaries, gaining results that others can only dream about.">Rogue's Edge (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">Choose a skill. You gain the skill unlock powers for that skill as appropriate for your number of ranks in that skill.</Pair>
 <Pair title="At 10th Level">You choose another skill and gain its skill unlock powers.</Pair>
@@ -2916,19 +2916,19 @@ const _unchained_rogue = {hasJL:true,title: "Unchained Rogue", jsx: <><div class
 <Pair title="At 20th Level">You choose another skill and gain its skill unlock powers.</Pair>
 <Pair title="Special">Skill unlocks can be found in each <Link to="/main/skills">skill's</Link> entry under the heading <em>Unchained Rogue Skill Unlocks.</em></Pair>
 </Ability>
-<Ability id="class-unchained_rogue-improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-unchained_rogue-improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
+<Ability id="improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">You can no longer be <Link to="/rule/flanked">flanked</Link> This defense denies another rogue the ability to sneak attack you by flanking you, unless the attacker has at least four more rogue levels than you do.</Pair>
 <Pair title="Special">If you already have uncanny dodge from another class, the levels from the classes that grant uncanny dodge stack to determine the minimum rogue level required to flank you.</Pair>
 </Ability>
-<Ability id="class-unchained_rogue-advanced-talents" icon={["upgrade"]}>
-<Pair single id="class-unchained_rogue-advanced-talents">Advanced Talents</Pair>
+<Ability id="advanced-talents" icon={["upgrade"]}>
+<Pair single id="advanced-talents">Advanced Talents</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">You can choose an <Link to="/ability/advanced_unchained_rogue_talent">advanced unchained rogue talent</Link> in place of a <em>rogue talent.</em></Pair>
 </Ability>
-<Ability id="class-unchained_rogue-master-strike-ex" icon={["upgrade","armor-downgrade"]}>
-<Pair single id="class-unchained_rogue-master-strike-ex">Master Strike (Ex)</Pair>
+<Ability id="master-strike-ex" icon={["upgrade","armor-downgrade"]}>
+<Pair single id="master-strike-ex">Master Strike (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">Each time you deal <em>sneak attack</em> damage, you can choose one of the following three effects: the target can be put to sleep for 1d4 hours, <Link to="/rule/paralyzed">paralyzed</Link> for 2d6 rounds, or slain. Regardless of the effect chosen, the target receives a Fortitude save to negate the additional effect. The DC of this save is equal to 10 + 1/2 your rogue level + your Intelligence modifier.</Pair>
 <Pair title="Special">Once a creature has been the target of a master strike, regardless of whether or not the save is made, that creature is immune to that rogue's master strike for 24 hours. Creatures that are immune to <em>sneak attack</em> damage are also immune to this ability.</Pair>
@@ -2947,6 +2947,6 @@ const _unchained_rogue = {hasJL:true,title: "Unchained Rogue", jsx: <><div class
 <tr><td>Won't Stay Dead (Ex)</td><td>At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely. Characters of any class can select this ability.</td></tr>
 </tbody></table></ScrollContainer></div>
 <h3 id="class-unchained_rogue-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="unchained_rogue" prefix="class-unchained_rogue-" />
+<RacialOptions cls="unchained_rogue" />
 </>};
 export default {brawler:_brawler,summoner:_summoner,unchained_summoner:_unchained_summoner,mesmerist:_mesmerist,rogue:_rogue,unchained_rogue:_unchained_rogue}

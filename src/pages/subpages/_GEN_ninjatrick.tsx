@@ -1,6 +1,5 @@
-import {IonIcon} from '@ionic/react';
-import Link, {ThLink} from '../../components/Link';
-import ScrollContainer from '../../components/ScrollContainer';
+import Link from '../../components/Link';
+import AffInfo from '../../components/AfflictionInfo';
 const _not_found = {title: "Unknown", jsx: <><h2 id="ninjatrick-not_found-unknown">Unknown</h2>
 <p>Unable to find the requested ninja trick.</p>
 </>};
@@ -55,7 +54,8 @@ const _ki_charge = {title: "Ki Charge", jsx: <><h2 id="ninjatrick-ki_charge-ki-c
 const _ki_venom = {title: "Ki Venom", jsx: <><h2 id="ninjatrick-ki_venom-ki-venom-ex">Ki Venom (Ex)</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook</Link><br/>A ninja with this trick knows how to make poisons from innocuous herbs or minerals. Creating ki venom is a full-round action that costs 1 ki point. The poison lasts for 24 hours before becoming inert. The poison deals either <Link to="/rule/dexterity_damage">Strength or Dexterity damage</Link>, chosen when the venom is created. The ninja can spend additional ki as part of the process of creating the ki venom to improve the venom in one or more of the following ways: spend 1 ki point to increase the damage die to a d6, spend 1 ki point to change the ability damage dealt to Intelligence, Wisdom, or Charisma damage, or spend 1 ki point to increase the number of saves required to cure the poison by 1.</p>
 <blockquote>
-<div className="sideNoteWrap"><ScrollContainer id="ninjatrick-ki_venom--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Ki Venom</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Poison; injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the ninja's level + her Cha modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for a number of rounds equal to the ninja's Charisma modifier</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d4 <Link to="/rule/str_damage">Str damage</Link> or 1d4 Dex damage</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></blockquote>
+<AffInfo type="Poison; injury" save="Fort 10 + 1/2 the ninja's level + her Cha modifier" freq="1/round for a number of rounds equal to the ninja's Charisma modifier" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link> or 1d4 Dex damage</>} cure1 icon="p">Ki Venom</AffInfo>
+</blockquote>
 </>};
 const _shadow_clone = {title: "Shadow Clone", jsx: <><h2 id="ninjatrick-shadow_clone-shadow-clone-su">Shadow Clone (Su)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat</Link><br/>The ninja can create 1d4 shadowy duplicates of herself that conceal her true location. This ability functions as <Link to="/spell/mirror_image">mirror image</Link>, using the ninja's level as her caster level. Using this ability is a standard action that uses up 1 ki point.</p>

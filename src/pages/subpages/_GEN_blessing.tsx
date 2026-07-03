@@ -1,7 +1,6 @@
-import {IonIcon} from '@ionic/react';
-import Link, {ThLink} from '../../components/Link';
-import ScrollContainer from '../../components/ScrollContainer';
+import Link from '../../components/Link';
 import InnerLink from '../../components/InnerLink';
+import AffInfo from '../../components/AfflictionInfo';
 const _not_found = {title: "Unknown", jsx: <><h2 id="blessing-not_found-error">Error</h2>
 <p>Unable to find the requested blessing.</p>
 </>};
@@ -179,7 +178,8 @@ const _scalykind = {title: "Scalykind", jsx: <><h2 id="blessing-scalykind-scalyk
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 25</Link><br/><strong>Deities:</strong> <Link to="/faith/apsu">Apsu</Link>, <Link to="/faith/dahak">Dahak</Link>, <Link to="/faith/ragadahn">Ragadahn</Link>, <Link to="/faith/ydersius">Ydersius</Link></p>
 <p><strong>Scaly Touch (minor):</strong> At 1st level, you can touch an ally as a standard action to grant it reptilian scales. For 1 minute, the ally gains a +1 enhancement bonus to its natural armor. At 5th level and every 5 levels thereafter, this bonus increases by 1 (to a maximum of +5 at 20th level).</p>
 <p><strong>Serpent Fang (major):</strong> At 10th level, as a standard action you can manifest venomous fangs for 1 minute. These fangs grant a bite attack that deals 1d4 points of damage (for a Medium warpriest, 1d3 if Small). A successful bite also afflicts the opponent with a debilitating venom.</p>
-<div className="sideNoteWrap"><ScrollContainer id="blessing-scalykind--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Serpent Venom</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 your warpriest level + your Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></>};
+<AffInfo type="Bite-injury" save="Fort 10 + 1/2 your warpriest level + your Con modifier" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/con_damage">Con damage</Link></>} cure1 icon="p">Serpent Venom</AffInfo>
+</>};
 const _shadow = {title: "Shadow", jsx: <><h2 id="blessing-shadow-shadow">Shadow</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_shadows">Blood of Shadows pg. 17</Link><br/><strong>Deities:</strong> <Link to="/faith/nocticula">Nocticula</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link></p>
 <p><strong>Flicker of Shadows (minor):</strong> At 1st level, you can cause a weapon you touch to warp and become insubstantial for a split second before an attack. The first attack made with this weapon each round ignores any shield bonus to Armor Class, as well as bonuses from <Link to="/rule/cover">cover</Link>. Total cover still provides a creature its full benefit. This effect lasts for 1 minute.</p>

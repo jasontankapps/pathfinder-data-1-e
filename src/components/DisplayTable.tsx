@@ -24,7 +24,7 @@ import Th from './displayTable/Th';
 import TdRouterLink from './displayTable/TdRouterLink';
 import StoreError from './displayTable/StoreError';
 import DisplayTableFilterModal from './displayTable/DisplayTableFilterModal';
-import { FinderContext } from './contexts';
+import { FinderContext, IdContext } from './contexts';
 import ScrollContainer from './ScrollContainer';
 
 const FINAL_CHAR = String.fromCodePoint(0x10FFFF);
@@ -234,6 +234,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const finderIsOpen = useContext(FinderContext);
 	const [open, setOpen] = useState<boolean>(false);
 	const dispatch = useAppDispatch();
+	const cId = useContext(IdContext) + id;
 
 	const saveFromFilter = useCallback((hiddenHeaders: number[], hiddenRows: number[]) => {
 		dispatch(setTableFilter({id, data: {hiddenHeaders, hiddenRows}}));
@@ -336,16 +337,16 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	return (
 		<div className="displayTable">
 			{theFilterStuff}
-			<ScrollContainer id={id}>
-				<div className="tabular" key={`table/${id}`} style={tableGridStyle}>
+			<ScrollContainer id={cId}>
+				<div className="tabular" key={`table/${cId}`} style={tableGridStyle}>
 					<div className="row">{
 						filteredColumns.map((pair) => {
 							const [col, i] = pair;
 							if(!col) {
-								return <StoreError id={id} dispatch={dispatch} />;
+								return <StoreError id={cId} dispatch={dispatch} />;
 							}
 							return <Th
-								key={`table/${id}/header/${i}`}
+								key={`table/${cId}/header/${i}`}
 								index={i}
 								sortState={i === sortingColumn ? alphabeticalSort : undefined}
 								active={i === sortingColumn}
@@ -358,7 +359,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 					{
 						sortedAndFilteredRowsWithHeaderIndices.map((row, i) => {
 							if(!row) {
-								return <StoreError id={id} dispatch={dispatch} />;
+								return <StoreError id={`${cId}row${i}`} dispatch={dispatch} />;
 							}
 							const cells = row.map(cellInfo => {
 								const [, cell, j] = cellInfo;
@@ -369,7 +370,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 										<TdRouterLink
 											datum={cell as LinkFormat}
 											align={align}
-											key={`table/${id}/row/${i}/cell/link/${j}`}
+											key={`table/${cId}/row/${i}/cell/link/${j}`}
 										/>
 									);
 								}
@@ -377,11 +378,11 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 									<Td
 										datum={cell}
 										align={align}
-										key={`table/${id}/row/${i}/cell/${j}`}
+										key={`table/${cId}/row/${i}/cell/${j}`}
 									/>
 								);
 							});
-							return <div className="row" key={`table/${id}/row/${i}`}>{cells}</div>;
+							return <div className="row" key={`table/${cId}/row/${i}`}>{cells}</div>;
 						})
 					}
 				</div>

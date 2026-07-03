@@ -1,6 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
+import AffInfo from '../../components/AfflictionInfo';
 const _not_found = {title: "Unknown", jsx: <><h2 id="unchevolution-not_found-unknown">Unknown</h2>
 <p>Unable to find the requested unchained eidolon evolution.</p>
 </>};
@@ -137,7 +138,8 @@ const _limbs = {title: "Limbs", addenda: ["2pts"], jsx: <><h2 id="unchevolution-
 const _poison = {title: "Poison", addenda: ["2pts"], jsx: <><h2 id="unchevolution-poison-poison-ex">Poison (Ex)</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 37</Link>  </p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="unchevolution-poison--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><ul><li>7th level Unchained summoner</li><li>Eidolon: <Link to="/eidolon/daemon">daemon</Link>, <Link to="/eidolon/demon">demon</Link>, <Link to="/eidolon/devil">devil</Link>, <Link to="/eidolon/elemental">elemental</Link>, or <Link to="/eidolon/protean">protean</Link> subtype; <Link to="/unchevolution/bite">bite</Link> or <Link to="/unchevolution/sting">sting</Link> evolution</li></ul></td></tr></tbody></table></ScrollContainer></div><p>The eidolon secretes toxic venom, gaining a poison attack. Select one bite or sting attack. Whenever the selected attack hits, the target is poisoned.</p>
-<div className="sideNoteWrap"><ScrollContainer id="unchevolution-poison--table-1"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Eidolon Poison</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the eidolon's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d4 <Link to="/rule/str_damage">Str damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><p>The save DC is equal to 10 + 1/2 the eidolon's Hit Dice + the eidolon's Constitution modifier. For 2 additional evolution points, this poison deals Constitution damage instead. This poison can be used no more than once per round.</p>
+<AffInfo type="Injury" save="Fort 10 + 1/2 the eidolon's HD + its Con modifier" freq="1/round for 4 rounds" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link></>} cure1 icon="p">Eidolon Poison</AffInfo>
+<p>The save DC is equal to 10 + 1/2 the eidolon's Hit Dice + the eidolon's Constitution modifier. For 2 additional evolution points, this poison deals Constitution damage instead. This poison can be used no more than once per round.</p>
 </>};
 const _rake = {title: "Rake", addenda: ["2pts"], jsx: <><h2 id="unchevolution-rake-rake-ex">Rake (Ex)</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 37</Link>  </p>

@@ -31,8 +31,8 @@ const _arcane_warden = {title: "Arcane Warden", jsx: <><h2 id="arc-wizard-arcane
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 14</Link><br/>In the aftermath of Earthfall, some elven wizards from Mierani chose to remain behind and provide aid to others. These elves were and still are highly honored by their kin, as they sacrificed the easy comfort and refuge of Castrovel to brave the wreckage of Earthfall in order to save what short-lived human lives they could. Although Golarion has long since recovered from Earthfall, the elven arcane warden traditions remain particularly useful for those who face long-term explorations of hostile environments - whether on Golarion or the planes beyond. The arcane wardens of today are wizards who specialize in the discovery or generation of places of safety and refuge.</p>
 <p><strong>Universal Magic:</strong> An arcane warden values all schools of magic and recognizes that, faced with an unpredictable world, versatility is one of the greatest tools for survival. All arcane warden wizards must be <Link to="/arcaneschool/universalist">universalists</Link>.</p>
 <p>This alters <strong className="hl">arcane school</strong>.</p>
-<Ability icon={["skills"]} id="arc-wizard-arcane_warden-undefined">
-<Pair id="arc-wizard-arcane_warden-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/swim">Swim</Link> (STR)</Pair>
 <Pair title="Removed Skills">Appraise, Fly, Knowledge (nobility), Linguistics</Pair></Ability>
 <p><strong>Ready for Anything (Ex):</strong> Instead of crafting magical items or learning ways to manipulate metamagic, arcane wardens prefer to spend their time providing safety and refuge for others. At 1st level, an arcane warden gains a bonus feat associated with aiding allies or providing shelter. At 5th, 10th, 15th, and 20th levels, the arcane warden gains an additional bonus feat. The arcane warden must qualify for any feat he takes, and must choose from the following list: <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_great_fortitude">Improved Great Fortitude</Link>, <Link to="/feat/leadership">Leadership</Link>, <Link to="/feat/self_sufficient">Self-Sufficient</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Survival), <Link to="/feat/toughness">Toughness</Link>, or any <Link to="/main/teamwork_feat">teamwork feat</Link>.</p>
@@ -226,8 +226,8 @@ const _qadira_mage_of_the_veil = {title: "Qadira: Mage of the Veil", jsx: <><h2 
 <p>Among these is the focused school of veil magic. Rather than controlling the elements or transforming the environment, mages of the veil focus on much more subtle magic-blending into their surroundings to watch, observe, and gather secrets, or fading from view completely for the sake of solitude. Most graduates of this college enter the service of the satrap as spies, scouts, or infiltrators.</p>
 <p><strong>Associated School:</strong> <Link to="/arcaneschool/illusion">Illusion</Link>.</p>
 <p><strong>Requirements:</strong> A mage of the veil must select <Link to="/spell/disguise_self">disguise self</Link> as one of his spells known at 1st level.</p>
-<Ability icon={["skills"]} id="arc-wizard-qadira_mage_of_the_veil-undefined">
-<Pair id="arc-wizard-qadira_mage_of_the_veil-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
 <p><strong>Replacement Powers:</strong> The following school powers replace the blinding ray and invisibility field powers of the illusion school.</p>
 <blockquote>
@@ -379,8 +379,8 @@ const _undead_master = {title: "Undead Master", jsx: <><h2 id="arc-wizard-undead
 </>};
 const _wind_listener = {title: "Wind Listener", jsx: <><h2 id="arc-wizard-wind_listener-wind-listener">Wind Listener</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 158</Link><br/>The wind listener takes a sylph's natural curiosity to the extreme, enhancing his natural skill at subterfuge and eavesdropping with potent arcane magic. A wind listener has the following class features.</p>
-<Ability icon={["skills"]} id="arc-wizard-wind_listener-undefined">
-<Pair id="arc-wizard-wind_listener-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perception">Perception</Link> (WIS)</Pair></Ability>
 <p><strong>Arcane School:</strong> A wind listener cannot select divination or illusion as a prohibited school.</p>
 <p><strong>Spontaneous Divination (Su):</strong> At 1st level, a wind listener can reshape stored spell energy into divination spells he did not prepare ahead of time. The wind listener can "lose" any prepared spell that is not a cantrip in order to cast a divination spell of the same spell level or lower. The new spell must be one the wind listener knows and is capable of casting. Spells cast with this ability increase their casting time to a full-round action (if the spell's normal casting time is longer than a full-round action, it remains unchanged).</p>

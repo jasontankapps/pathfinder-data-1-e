@@ -1,9 +1,10 @@
-import {FC, ReactNode, Fragment as F, useMemo} from 'react';
+import {FC, ReactNode, Fragment as F, useMemo, useContext} from 'react';
 import { convertTextToLink } from '../convertLinks';
 import mapNodes from '../mapNodes';
 import Header from '../Header';
 import Link from '../Link';
 import parseLoot from './parseLoot';
+import { IdContext } from '../contexts';
 
 type Langs = "Ab" | "ALL" | "AO" | "An" | "Cy" | "Gl" | "Gm" | "H" | "N" | "Po" | "Sh";
 type LangsX =
@@ -38,7 +39,6 @@ type Skill = Skill1 & Skill2 & Skill3;
 type Gear = string[] | ReactNode;
 
 interface StatsProps {
-	id: string
 	atts: [number, number, number, number, number, number]
 	bab: number // +## / -##
 	cmb: number | null // +## / -## / null = "-"
@@ -273,15 +273,16 @@ const getFeats = (input: Feat[]) => {
 
 const Stats: FC<StatsProps> = (props) => {
 	const {
-		id, atts, bab, cmb, cmbP, cmd, cmdP,
+		atts, bab, cmb, cmbP, cmd, cmdP,
 		feats: f, skills: s, racial, lang,
 		combat, gear, othergear, sq,
 		faith
 	} = props;
 	const [str, dex, con, int, wis, cha] = atts;
+	const cId = useContext(IdContext) + "-stats";
 	const feats = useMemo(
-		() => f ? <p><strong>Feats</strong> {mapNodes(getFeats(f), id + "-feat", true)}</p> : <></>,
-		[f, id]
+		() => f ? <p><strong>Feats</strong> {mapNodes(getFeats(f), cId + "-feat", true)}</p> : <></>,
+		[f, cId]
 	);
 	const skills = useMemo(() => {
 		const main = s ? getSkills(s) : "";
@@ -292,17 +293,17 @@ const Stats: FC<StatsProps> = (props) => {
 		: "";
 	}, [s, racial]);
 	const sqline = useMemo(() => sq ? <p><strong>SQ</strong> {sq}</p> : "", [sq]);
-	const langs = useMemo(() => lang ? parseLangs(lang, id) : "", [lang]);
+	const langs = useMemo(() => lang ? parseLangs(lang, cId) : "", [lang, cId]);
 	const gears = useMemo(() => {
 		if(combat) {
-			return <p><strong>Combat Gear</strong> {parseLoot(combat, `${id}-combat`)}{
-				othergear ? <>; <strong>Other Gear</strong> {parseLoot(othergear, `${id}-othergear`)}</> : ""
+			return <p><strong>Combat Gear</strong> {parseLoot(combat, `${cId}-combat`)}{
+				othergear ? <>; <strong>Other Gear</strong> {parseLoot(othergear, `${cId}-othergear`)}</> : ""
 			}</p>;
 		} else if (gear) {
-			return <p><strong>Gear</strong> {parseLoot(gear, `${id}-gear`)}</p>
+			return <p><strong>Gear</strong> {parseLoot(gear, `${cId}-gear`)}</p>
 		}
 		return "";
-	}, [gear, combat, othergear]);
+	}, [gear, combat, othergear, cId]);
 	return (
 		<>
 			<Header sub>Statistics</Header>

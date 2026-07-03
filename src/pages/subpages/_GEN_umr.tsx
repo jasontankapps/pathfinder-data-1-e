@@ -1,13 +1,14 @@
-import {IonIcon} from '@ionic/react';
-import Link, {ThLink} from '../../components/Link';
+import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import AffInfo from '../../components/AfflictionInfo';
 const _not_found = {title: "Unknown", jsx: <><p>Unable to find the requested universal monster rule.</p>
 </>};
 const _curse = {title: "Curse", jsx: <><h2 id="umr-curse-curse-su">Curse (Su)</h2>
 <p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 291</Link><br/>The creature can inflict a curse upon its enemies. The effects, including its save, frequency, and cure, are included in the creature's description. If a curse allows a saving throw, it is usually a Will save (DC = 10 + 1/2 the cursing creature's racial HD + that creature's Charisma modifier; the exact DC is given in the creature's descriptive text). Curses can be removed through <Link to="/spell/remove_curse">remove curse</Link> and similar effects.</p>
 <p><strong>Format:</strong> Curse Name (Su) Slam-contact; <em>save</em> Will DC 14; <em>frequency</em> 1/day; <em>effect</em> 1d4 Str drain<br/><strong>Location:</strong> Special Attacks and individual attacks.</p>
-<div className="sideNoteWrap"><ScrollContainer id="umr-curse--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/curses"><IonIcon aria-label="Curse" icon="/icons/death-note.svg" /></ThLink><th colSpan={4} scope="col" className="title">Curse Name (Su)</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Slam-contact</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Will 14</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/day</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d4 <Link to="/rule/str_drain">Str drain</Link></td></tr></tbody></table></ScrollContainer></div></>};
+<AffInfo type="Slam-contact" save="Will 14" freq="1/day" eff={<>1d4 <Link to="/rule/str_drain">Str drain</Link></>} undefined icon="c">Curse Name (Su)</AffInfo>
+</>};
 const _hold_breath = {title: "Hold Breath", jsx: <><h2 id="umr-hold_breath-hold-breath-ex">Hold Breath (Ex)</h2>
 <p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 294</Link><br/>The creature can hold its breath for a number of minutes equal to 6 &times; its Constitution score before it risks <Link to="/rule/drowning">drowning</Link>.</p>
 <p><strong>Format:</strong> hold breath<br/><strong>Location:</strong> SQ.</p>
@@ -731,7 +732,8 @@ const _display_of_strength = {title: "Display of Strength", jsx: <><h2 id="umr-d
 const _disease = {title: "Disease", jsx: <><h2 id="umr-disease-disease-ex-or-su">Disease (Ex or Su)</h2>
 <p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 292</Link><br/>A creature with this ability causes disease in those it contacts. The effects of the disease, including its save, frequency, and cure, are included in the creature's description. The saving throw to negate the disease is usually a Fortitude save (DC = 10 + 1/2 infecting creature's racial HD + that creature's Constitution modifier; the exact DC is given in the creature's descriptive text). Diseases can be removed through <Link to="/spell/remove_disease">remove disease</Link> and similar effects.</p>
 <p><strong>Format:</strong> Disease Name (Ex or Su) Bite-injury; <em>save</em> Fort DC 15, onset 1d3 days; <em>frequency</em> 1/day; <em>effect</em> 1 Con damage; <em>cure</em> 2 consecutive saves<br/><strong>Location:</strong> Special Attacks and individual attacks.</p>
-<div className="sideNoteWrap"><ScrollContainer id="umr-disease--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/diseases"><IonIcon aria-label="Disease" icon="/icons/paramecia.svg" /></ThLink><th colSpan={4} scope="col" className="title">Disease Name (Ex or Su)</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 15</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>1d3 days</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/day</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 consecutive saves</td></tr></tbody></table></ScrollContainer></div></>};
+<AffInfo type="Bite-injury" save="Fort 15" freq="1/day" onset="1d3 days" eff={<>1 <Link to="/rule/con_damage">Con damage</Link></>} cure2c icon="d">Disease Name (Ex or Su)</AffInfo>
+</>};
 const _blood_drain = {title: "Blood Drain", jsx: <><h2 id="umr-blood_drain-blood-drain-ex">Blood Drain (Ex)</h2>
 <p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 290</Link><br/>The creature drains blood at the end of its turn if it grapples a foe, dealing <Link to="/rule/constitution_damage">Constitution damage</Link>.</p>
 <p><strong>Format:</strong> blood drain (1d2 Con)<br/><strong>Location:</strong> Special Attacks.</p>
@@ -833,7 +835,8 @@ const _immunity = {title: "Immunity", jsx: <><h2 id="umr-immunity-immunity-ex-or
 const _poison = {title: "Poison", jsx: <><h2 id="umr-poison-poison-ex-or-su">Poison (Ex or Su)</h2>
 <p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 297</Link><br/>A creature with this ability can poison those it attacks. The effects of the poison, including its save, frequency, and cure, are included in the creature's description. The saving throw to resist a poison is usually a Fortitude save (DC = 10 + 1/2 poisoning creature's racial HD + that creature's Constitution modifier; the exact DC is given in the creature's descriptive text). Poisons can be removed through <Link to="/spell/neutralize_poison">neutralize poison</Link> and similar effects.</p>
 <p><strong>Format:</strong> Poison Name (Ex) Sting-injury; <em>save</em> Fort DC 22; <em>frequency</em> 1/round for 6 rounds; <em>effect</em> 1d4 Con damage; <em>cure</em> 2 consecutive saves<br/><strong>Location:</strong> Special Attacks and individual attacks.</p>
-<div className="sideNoteWrap"><ScrollContainer id="umr-poison--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Poison Name (Ex)</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Sting-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 22</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d4 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 consecutive saves</td></tr></tbody></table></ScrollContainer></div></>};
+<AffInfo type="Sting-injury" save="Fort 22" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link></>} cure2c icon="p">Poison Name (Ex)</AffInfo>
+</>};
 const _undersized_weapons = {title: "Undersized Weapons", jsx: <><h2 id="umr-undersized_weapons-undersized-weapons-ex">Undersized Weapons (Ex)</h2>
 <p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 301</Link><br/>The creature uses manufactured weapons as if it were one size category smaller it is.</p>
 <p><strong>Format:</strong> undersized weapons<br/><strong>Location:</strong> SQ.</p>

@@ -526,22 +526,22 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th>Shields?</th><td colSpan={2}>Yes, except tower shields</td></tr><tr><td colSpan={3} className="sw se">A skald can cast skald spells while wearing light or medium armor and even using a shield without incurring the normal arcane spell failure chance. This does not affect the arcane spell failure chance for arcane spells received from other classes. Like other arcane spellcasters, a skald wearing heavy armor incurs a chance of arcane spell failure if the spell in question has somatic components.</td></tr></tbody></table>
-<Ability id="class-skald-bardic-knowledge-ex" icon={["upgrade"]}>
-<Pair single id="class-skald-bardic-knowledge-ex">Bardic Knowledge (Ex)</Pair>
+<Ability id="bardic-knowledge-ex" icon={["upgrade"]}>
+<Pair single id="bardic-knowledge-ex">Bardic Knowledge (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You add <Link to="/misc/half">half</Link> your class level (minimum 1) on all Knowledge skill checks, and may make all Knowledge skill checks untrained.</Pair>
 </Ability>
-<Ability id="class-skald-spells" icon={["magic-swirl"]}><Pair single id="class-skald-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Charisma score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Charisma score.</Pair>
 <Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_skald">skald spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>A skald's selection of spells is limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new skald level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Charisma score.</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair><Pair title="Special">Every skald spell has a verbal component - these verbal components can take the form of song, recitation, or even non-verbal music like percussion.</Pair></Ability><Ability id="class-skald-cantrips" icon={["magic-swirl"]}>
-<Pair single id="class-skald-cantrips">Cantrips</Pair>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair><Pair title="Special">Every skald spell has a verbal component - these verbal components can take the form of song, recitation, or even non-verbal music like percussion.</Pair></Ability><Ability id="cantrips" icon={["magic-swirl"]}>
+<Pair single id="cantrips">Cantrips</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of cantrips, or 0-level arcane spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Cantrips cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
-<Ability id="class-skald-scribe-scroll" icon={["stairs-goal"]}>
-<Pair single id="class-skald-scribe-scroll">Scribe Scroll</Pair>
+<Ability id="scribe-scroll" icon={["stairs-goal"]}>
+<Pair single id="scribe-scroll">Scribe Scroll</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/scribe_scroll">Scribe Scroll</Link> as a bonus feat.</Pair>
 </Ability>
@@ -568,21 +568,21 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 12th Level">The bonus to Will becomes +4.</Pair>
 <Pair title="At 16th Level">The bonus to Will becomes +5, and the bonus to Str and Con becomes +6.</Pair>
 </Ability>
-<Ability id="class-skald-song-of-marching-su" extraClasses="subAbility" icon={["upgrade","aura"]}>
-<Pair single id="class-skald-song-of-marching-su">Song of Marching (Su)</Pair>
+<Ability id="song-of-marching-su" extraClasses="subAbility" icon={["upgrade","aura"]}>
+<Pair single id="song-of-marching-su">Song of Marching (Su)</Pair>
 <Pair title="At 3rd Level">You can use <em>raging song</em> to inspire your allies to move faster without suffering from fatigue. By expending 1 round of <em>raging song,</em> you invigorate allies within 60 feet, who may <Link to="/rule/hustle">hustle</Link> for the next hour; this movement counts as a walk (not a hustle) for the purpose of accruing nonlethal damage and fatigue. You must continue to perform the song for the remainder of the hour, otherwise its effects end, but only 1 round of <em>raging song</em> is expended for that hour.</Pair>
 </Ability>
-<Ability id="class-skald-song-of-strength-su" extraClasses="subAbility" icon={["upgrade","aura"]}>
-<Pair single id="class-skald-song-of-strength-su">Song of Strength (Su)</Pair>
+<Ability id="song-of-strength-su" extraClasses="subAbility" icon={["upgrade","aura"]}>
+<Pair single id="song-of-strength-su">Song of Strength (Su)</Pair>
 <Pair title="At 6th Level">You can use <em>raging song</em> to inspire your allies to superhuman feats of strength. Once each round while you use this performance, allies within 60 feet who can hear you may add 1/2 your level to a Strength check or Strength-based skill check.</Pair>
 </Ability>
-<Ability id="class-skald-dirge-of-doom-su" extraClasses="subAbility" icon={["armor-downgrade","aura"]}>
-<Pair single id="class-skald-dirge-of-doom-su">Dirge of Doom (Su)</Pair>
+<Ability id="dirge-of-doom-su" extraClasses="subAbility" icon={["armor-downgrade","aura"]}>
+<Pair single id="dirge-of-doom-su">Dirge of Doom (Su)</Pair>
 <Pair title="At 10th Level">You can create a sense of growing dread in your enemies, causing them to become <Link to="/misc/shaken">shaken</Link>. This only affects enemies that are within 30 feet and able to hear your performance. The effect persists for as long as the enemy is within 30 feet and you continue your performance. This cannot cause a creature to become frightened or panicked, even if the targets are already shaken from another effect.</Pair>
 <Pair title="Special">This is a sonic mind-affecting fear effect, and relies on audible components.</Pair>
 </Ability>
-<Ability id="class-skald-song-of-the-fallen-su" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="class-skald-song-of-the-fallen-su">Song of the Fallen (Su)</Pair>
+<Ability id="song-of-the-fallen-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="song-of-the-fallen-su">Song of the Fallen (Su)</Pair>
 <Pair title="At 14th Level">You can temporarily revive dead allies to continue fighting, with the same limitations as <Link to="/spell/raise_dead">raise dead</Link>. You select a dead ally within 60 feet and expend 1 round of <em>raging song</em> to bring that ally back to life. The revived ally is alive but <Link to="/misc/staggered">staggered</Link>. Each round, you may expend another 1 round of <em>raging song</em> to keep that ally alive for another round. The ally automatically dies if you end this performance or are interrupted. You may revive multiple allies with this ability (either at the same time or over successive rounds) but must expend 1 round of <em>raging song</em> per revived ally per round to maintain the effect.</Pair>
 </Ability>
 <aside><p>A skald may learn <Link to="/ability/bardic_masterpieces">bardic masterpieces</Link> and <Link to="/ability/sagas">sagas</Link>.</p>
@@ -603,8 +603,8 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 12th Level">You can select an additional type of Perform to substitute.</Pair>
 <Pair title="At 17th Level">You can select an additional type of Perform to substitute.</Pair>
 </Ability>
-<Ability id="class-skald-well-versed-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-skald-well-versed-ex">Well-Versed (Ex)</Pair>
+<Ability id="well-versed-ex" icon={["armor-upgrade"]}>
+<Pair single id="well-versed-ex">Well-Versed (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a +4 bonus on saving throws made against bardic performance, as well as all sonic or language-dependent effects.</Pair>
 </Ability>
@@ -625,22 +625,22 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 18th Level">You gain a new rage power.</Pair>
 <Pair title="Special">You cannot select a rage power that requires the creature to spend a standard action or rounds of <em>rage</em> to activate it. For example, you cannot choose <Link to="/ragepower/terrifying_howl">terrifying howl</Link> (which requires a standard action to activate), but can choose <Link to="/ragepower/knockback">knockback</Link> (which is made in place of a melee attack). Unless otherwise noted, you cannot select an individual rage power more than once.</Pair>
 </Ability>
-<Ability id="class-skald-uncanny-dodge-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-skald-uncanny-dodge-ex" flavor="A skald gains the ability to react to danger before his senses would normally allow him to do so.">Uncanny Dodge (Ex)</Pair>
+<Ability id="uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="uncanny-dodge-ex" flavor="A skald gains the ability to react to danger before his senses would normally allow him to do so.">Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You cannot be caught <Link to="/rule/flat_footed">flat-footed</Link>, nor do you lose your Dex bonus to AC if the attacker is invisible. You still lose your Dexterity bonus to AC if immobilized, or if an opponent successfully uses the <Link to="/skill/bluff">feint</Link> action against you.</Pair>
 <Pair title="Special">If you have <em>uncanny dodge</em> from a different class, you automatically gain <em>improved uncanny dodge</em> instead.</Pair>
 </Ability>
-<Ability id="class-skald-spell-kenning-su" icon={["magic-swirl"]}>
-<Pair single id="class-skald-spell-kenning-su" flavor="A skald is learned in the magic of other spellcasters, and can use his own magic to duplicate those classes' spells.">Spell Kenning (Su)</Pair>
+<Ability id="spell-kenning-su" icon={["magic-swirl"]}>
+<Pair single id="spell-kenning-su" flavor="A skald is learned in the magic of other spellcasters, and can use his own magic to duplicate those classes' spells.">Spell Kenning (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Usage">Once per day.</Pair>
 <Pair title="Ability">You can cast any spell on the <Link to="/main/spells_bard">bard</Link>, <Link to="/main/spells_cleric">cleric</Link>, or <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/wizard_spell">wizard spell list</Link> as if it were one of your skald spells known, expending a skald spell slot of the same spell level to cast the desired spell. Casting a spell with <em>spell kenning</em> always has a minimum casting time of 1 full round, regardless of the casting time of the spell.</Pair>
 <Pair title="At 11th Level">You can use this twice a day.</Pair>
 <Pair title="At 17th Level">You can use this three times a day.</Pair>
 </Ability>
-<Ability id="class-skald-lore-master-ex" icon={["upgrade","rolling-dices"]}>
-<Pair single id="class-skald-lore-master-ex" flavor="The skald becomes a master of many different types of lore.">Lore Master (Ex)</Pair>
+<Ability id="lore-master-ex" icon={["upgrade","rolling-dices"]}>
+<Pair single id="lore-master-ex" flavor="The skald becomes a master of many different types of lore.">Lore Master (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">You can take 10 on any Knowledge skill check that you have ranks in.</Pair>
 <Pair title="Standard Action">You can take 20 on any Knowledge skill check.</Pair>
@@ -648,22 +648,22 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 13th Level">You can Take 20 twice a day.</Pair>
 <Pair title="At 19th Level">You can Take 20 three times a day.</Pair>
 </Ability>
-<Ability id="class-skald-improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-skald-improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
+<Ability id="improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">You can no longer be flanked. This defense denies enemies the ability to <Link to="/ability/sneak_attack">sneak attack</Link> you by flanking you, unless the attacker has at least four more levels in a class that grants sneak attack than you have skald levels.</Pair>
 <Pair title="Special">If you already have uncanny dodge from another class, the levels from the classes that grant uncanny dodge stack to determine the minimum level required to flank you.</Pair>
 </Ability>
-<Ability id="class-skald-damage-reduction-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-skald-damage-reduction-ex">Damage Reduction (Ex)</Pair>
+<Ability id="damage-reduction-ex" icon={["armor-upgrade"]}>
+<Pair single id="damage-reduction-ex">Damage Reduction (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">You gain <Link to="/rule/damage_reduction">damage reduction</Link> DR 1/-. Subtract 1 from the damage you take each time you're dealt damage from a weapon or a natural attack. Damage reduction can reduce damage to 0, but not below 0.</Pair>
 <Pair title="At 14th Level">Your DR becomes 2/-.</Pair>
 <Pair title="At 19th Level">Your DR becomes 3/-.</Pair>
 <Pair title="Special">You grant this DR to all allies affected by your <em>inspired rage.</em></Pair>
 </Ability>
-<Ability id="class-skald-master-skald-su" icon={["upgrade"]}>
-<Pair single id="class-skald-master-skald-su">Master Skald (Su)</Pair>
+<Ability id="master-skald-su" icon={["upgrade"]}>
+<Pair single id="master-skald-su">Master Skald (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">Your <em>inspired rage</em> no longer gives allies a penalty to AC, nor limits what skills or abilities you can use. Allies with <em>rage</em> class abilities may use features dependent on those abilities without restriction, such as a barbarian's rage powers and a bloodrager's blood casting and bloodline abilities. Finally, when making a full attack, affected allies may make an additional attack each round (as if using a <Link to="/spell/haste">haste</Link> effect).</Pair>
 </Ability>
@@ -708,7 +708,7 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <h3 id="class-skald-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"skald archetypes","columns":[{"header":"Archetype","link":"arc-skald"},{"header":"Alignment"},{"header":"Bardic Knowledge"},{"header":"Class Skills"},{"header":"Damage Reduction"},{"header":"Deity"},{"header":"Dirge of Doom"},{"header":"Inspired Rage"},{"header":"Lore Master"},{"header":"Master Skald"},{"header":"Rage Powers"},{"header":"3rd-level Rage Power"},{"header":"6th-level Rage Power"},{"header":"9th-level Rage Power"},{"header":"12th-level Rage Power"},{"header":"18th-level Rage Power"},{"header":"Raging Song"},{"header":"Scribe Scroll"},{"header":"Song of Marching"},{"header":"Song of Strength"},{"header":"Song of the Fallen"},{"header":"Spell Kenning"},{"header":"Uncanny Dodge"},{"header":"Improved Uncanny Dodge"},{"header":"Versatile Performance"},{"header":"7th-level Versatile Performance"},{"header":"12th-level Versatile Performance"},{"header":"17th-level Versatile Performance"},{"header":"Weapon Proficiency"},{"header":"Weapon/Armor Proficiency"},{"header":"Well-Versed"}],"data":[[["Augur","augur"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,"X"],[["Bacchanal","bacchanal"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,"X",null,null,null,null,null,null],[["Battle Scion","battle_scion"],null,"X",null,null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Bekyar Demon Dancer","bekyar_demon_dancer"],null,null,"X",null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Belkzen War Drummer","belkzen_war_drummer"],null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,"X",null,null],[["Boaster","boaster"],null,null,null,null,null,null,null,"X",null,"X",null,"X",null,null,null,null,"X","X",null,"X",null,"X",null,null,null,null,null,null,null,null],[["Bold Schemer","bold_schemer"],null,"X","X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null],[["Court Poet","court_poet"],null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X"],[["Dragon Skald","dragon_skald"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,"X"],[["Elegist","elegist"],null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X"],[["Fated Champion","fated_champion"],null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X"],[["Herald of the Horn","herald_of_the_horn"],null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Hunt Caller","hunt_caller"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,"X","X","X",null,null,null,null,null,null,null,null,"X"],[["Instigator","instigator"],null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Red Tongue","red_tongue"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null],[["Serpent Herald","serpent_herald"],null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Spell Warrior","spell_warrior"],null,null,null,null,null,"X","X",null,"X",null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Sunsinger","sunsinger"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null],[["Totem Channeler","totem_channeler"],null,"X",null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Totemic Skald","totemic_skald"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null],[["Twilight Speaker","twilight_speaker"],"X","X",null,null,"X","X","X","X","X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,"X"],[["Undying Word","undying_word"],null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null,null],[["Urban Skald","urban_skald"],null,null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null],[["War Painter","war_painter"],null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Warlord","warlord"],null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,"X",null,null,null,null,null,null,"X"],[["Wyrm Singer","wyrm_singer"],null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-skald-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="skald" prefix="class-skald-" />
+<RacialOptions cls="skald" />
 </>};
 const _slayer = {hasJL:true,title: "Slayer", jsx: <><div className="jumpList" id="class-slayer-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-slayer-studied-target-ex">Studied Target</InnerLink></li><li><InnerLink toTop to="class-slayer-track-ex">Track</InnerLink></li><li><InnerLink toTop to="class-slayer-slayer-talents">Slayer Talents</InnerLink></li><li><InnerLink toTop to="class-slayer-sneak-attack">Sneak Attack</InnerLink></li><li><InnerLink toTop to="class-slayer-stalker-ex">Stalker</InnerLink></li><li><InnerLink toTop to="class-slayer-advanced-talents">Advanced Talents</InnerLink></li><li><InnerLink toTop to="class-slayer-swift-tracker-ex">Swift Tracker</InnerLink></li><li><InnerLink toTop to="class-slayer-slayers-advance-ex">Slayer's Advance</InnerLink></li><li><InnerLink toTop to="class-slayer-quarry-ex">Quarry</InnerLink></li><li><InnerLink toTop to="class-slayer-master-slayer-ex">Master Slayer</InnerLink></li><li><InnerLink toTop to="class-slayer-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-slayer-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-slayer-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-slayer-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-slayer-slayer">Slayer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 53</Link></p>
@@ -889,26 +889,26 @@ const _slayer = {hasJL:true,title: "Slayer", jsx: <><div className="jumpList" id
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="class-slayer-studied-target-ex" icon={["upgrade"]}>
-<Pair single id="class-slayer-studied-target-ex">Studied Target (Ex)</Pair>
+<Ability id="studied-target-ex" icon={["upgrade"]}>
+<Pair single id="studied-target-ex">Studied Target (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Move-Equivalent Action">You can study an opponent you can see. You then gain a bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks attempted against that opponent, and a bonus on weapon attack and damage rolls against it; these bonuses are equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your slayer level. The DCs of slayer class abilities against that opponent increase by 1 + one-fifth of your slayer level. You can only maintain these bonuses against a certain number of opponents at a time (equal to 1 + one-fifth of your slayer level); these bonuses remain in effect until either the opponent is dead or you study a new target.</Pair>
 <Pair title="Immediate Action">If you deal sneak attack damage to a target, you can study that target immediately, allowing you to apply your studied target bonuses against that target (including to the normal weapon damage roll).</Pair>
 <Pair title="Free Action">You can discard this connection to a studied target, allowing you to study another target in its place.</Pair>
 <Pair title="At 7th Level">You can now choose to study a target as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="class-slayer-track-ex" icon={["upgrade"]}>
-<Pair single id="class-slayer-track-ex">Track (Ex)</Pair>
+<Ability id="track-ex" icon={["upgrade"]}>
+<Pair single id="track-ex">Track (Ex)</Pair>
 <Pair title="Passive Ability">You add 1/2 your level (minimum 1) to Survival skill checks made to follow tracks</Pair>
 </Ability>
-<Ability id="class-slayer-slayer-talents" icon={["stairs-goal"]}>
-<Pair single id="class-slayer-slayer-talents" flavor="As a slayer gains experience, he learns a number of talents that aid him and confound his foes.">Slayer Talents</Pair>
+<Ability id="slayer-talents" icon={["stairs-goal"]}>
+<Pair single id="slayer-talents" flavor="As a slayer gains experience, he learns a number of talents that aid him and confound his foes.">Slayer Talents</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You gain one <Link to="/ability/slayer_talents">slayer talent</Link> at <strong>every even-numbered level</strong> (2nd, 4th, 6th, and so on). Unless otherwise noted, you cannot select an individual talent more than once.</Pair>
 <Pair title="Special">Talents labeled as Primary Sneak Attack Talents add effects to your sneak attack. Only one of these talents can be applied to an individual attack, and the decision of which to use must be made before the attack roll is made.</Pair>
 </Ability>
-<Ability id="class-slayer-sneak-attack" icon={["upgrade","mailed-fist","bowman"]}>
-<Pair single id="class-slayer-sneak-attack">Sneak Attack</Pair>
+<Ability id="sneak-attack" icon={["upgrade","mailed-fist","bowman"]}>
+<Pair single id="sneak-attack">Sneak Attack</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You gain the ability to make a <Link to="/ability/sneak_attack">sneak attack</Link>, as a rogue can. Your attack deals +1d6 extra damage anytime your target would be denied a Dexterity bonus to AC (whether the target actually has a Dex bonus or not), or when you <Link to="/rule/flank">flank</Link> your target. This additional damage is not multiplied on a critical hit. Ranged attacks can count as sneak attacks only if the target is within 30 feet. You cannot use sneak attack while striking a creature with <Link to="/rule/concealment">concealment</Link>.</Pair>
 <Pair title="At 6th Level">Your extra damage becomes +2d6 damage.</Pair>
@@ -918,43 +918,43 @@ const _slayer = {hasJL:true,title: "Slayer", jsx: <><div className="jumpList" id
 <Pair title="At 18th Level">Your extra damage becomes +6d6 damage.</Pair>
 <Pair title="Special">With a weapon that deals nonlethal damage (like a <Link to="/eq-weapon/sap">sap</Link>, <Link to="/eq-weapon/whip">whip</Link>, or unarmed strike), you can make a sneak attack that deals nonlethal damage instead of lethal damage. You can't use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, not even with the usual -4 penalty.</Pair>
 </Ability>
-<Ability id="class-slayer-stalker-ex" icon={["upgrade"]}>
-<Pair single id="class-slayer-stalker-ex">Stalker (Ex)</Pair>
+<Ability id="stalker-ex" icon={["upgrade"]}>
+<Pair single id="stalker-ex">Stalker (Ex)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">You gain your <em>studied target</em> bonus on Disguise, Intimidate, and Stealth checks against your studied opponent.</Pair>
 </Ability>
-<Ability id="class-slayer-advanced-talents" icon={["stairs-goal"]}>
-<Pair single id="class-slayer-advanced-talents">Advanced Talents</Pair>
+<Ability id="advanced-talents" icon={["stairs-goal"]}>
+<Pair single id="advanced-talents">Advanced Talents</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">When you would select a <em>slayer talent</em> from gaining a level, you can now select an <Link to="/ability/advanced_slayer_talents">advanced_slayer_talent</Link> instead.</Pair>
 </Ability>
-<Ability id="class-slayer-swift-tracker-ex" icon={["upgrade"]}>
-<Pair single id="class-slayer-swift-tracker-ex">Swift Tracker (Ex)</Pair>
+<Ability id="swift-tracker-ex" icon={["upgrade"]}>
+<Pair single id="swift-tracker-ex">Swift Tracker (Ex)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">You can move at your normal speed while using Survival to follow tracks without taking the normal -5 penalty. When moving at up to twice your normal speed while tracking, you take only a -10 penalty instead of the normal -20.</Pair>
 </Ability>
-<Ability id="class-slayer-slayers-advance-ex" icon={["upgrade"]}>
-<Pair single id="class-slayer-slayers-advance-ex">Slayer's Advance (Ex)</Pair>
+<Ability id="slayers-advance-ex" icon={["upgrade"]}>
+<Pair single id="slayers-advance-ex">Slayer's Advance (Ex)</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Move-Equivalent Action">You can move up to twice your base speed. You may use Stealth as part of this movement, but take a -10 penalty to your check for doing so.</Pair>
 <Pair title="At 17th Level">You can do this twice a day.</Pair>
 </Ability>
-<Ability id="class-slayer-quarry-ex" icon={["upgrade"]}>
-<Pair single id="class-slayer-quarry-ex">Quarry (Ex)</Pair>
+<Ability id="quarry-ex" icon={["upgrade"]}>
+<Pair single id="quarry-ex">Quarry (Ex)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Standard Action">You can denote one target within your line of sight as your <em>quarry.</em> Whenever you are following the tracks of your <em>quarry,</em> you can take 10 on your Survival skill checks while moving at normal speed, without penalty. In addition, you gain a +2 insight bonus on attack rolls made against your <em>quarry,</em> and all critical threats against your <em>quarry</em> are automatically confirmed.</Pair>
 <Pair title="Special">You can have no more than one <em>quarry</em> at a time, and the target must be selected as a <em>studied target.</em> You can dismiss this effect at any time as a <strong className="hl">free action</strong>, but you cannot select a new <em>quarry</em> target for 24 hours. If you see proof that your <em>quarry</em> is dead, you can select a new <em>quarry</em> target after 1 hour.</Pair>
 </Ability>
-<Ability id="class-slayer-improved-quarry-ex" icon={["upgrade"]}>
-<Pair single id="class-slayer-improved-quarry-ex">Improved Quarry (Ex)</Pair>
+<Ability id="improved-quarry-ex" icon={["upgrade"]}>
+<Pair single id="improved-quarry-ex">Improved Quarry (Ex)</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Free Action">You can now select a <em>quarry</em> as a <strong className="hl">free action</strong>.</Pair>
 <Pair title="Ability">You can now take 20 while using Survival to track your <em>quarry</em> while moving at normal speed without penalty. Your insight bonus to attack your <em>quarry</em> increases to +4.</Pair>
 <Pair title="Special">If your <em>quarry</em> is killed or dismissed, you can select a new one after 10 minutes have passed.</Pair>
 </Ability>
-<Ability id="class-slayer-master-slayer-ex" icon={["upgrade"]}>
-<Pair single id="class-slayer-master-slayer-ex">Master Slayer (Ex)</Pair>
+<Ability id="master-slayer-ex" icon={["upgrade"]}>
+<Pair single id="master-slayer-ex">Master Slayer (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Standard Action">You can make a single attack against a studied target at your full attack bonus, choosing one of the following effects: kill, knock <Link to="/misc/unconscious">unconscious</Link> for 1d4 hours, or <Link to="/rule/paralyze">paralyze</Link> for 2d6 rounds. If the attack succeeds, the target takes damage normally and must succeed at a Fortitude saving throw or suffer the additional effect. The DC for this save is 10 + 1/2 your level + your Intelligence modifier. Whether or not the target succeeds, it cannot be targeted by this ability again (by any slayer) for 24 hours.</Pair>
 </Ability>
@@ -999,7 +999,7 @@ const _slayer = {hasJL:true,title: "Slayer", jsx: <><div className="jumpList" id
 <h3 id="class-slayer-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"slayer archetypes","columns":[{"header":"Archetype","link":"arc-slayer"},{"header":"Alignment"},{"header":"Armor Proficiency"},{"header":"Class Skills"},{"header":"Master Slayer"},{"header":"Quarry"},{"header":"Improved Quarry"},{"header":"Slayer Talents"},{"header":"2nd-level Slayer Talent"},{"header":"4th-level Slayer Talent"},{"header":"6th-level Slayer Talent"},{"header":"8th-level Slayer Talent"},{"header":"10th-level Slayer Talent"},{"header":"12th-level Slayer Talent"},{"header":"16th-level Slayer Talent"},{"header":"Slayer's Advance"},{"header":"Sneak Attack"},{"header":"Stalker"},{"header":"Studied Target"},{"header":"Swift Tracker"},{"header":"Track"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Ankou's Shadow","ankous_shadow"],null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null],[["Avalancher","avalancher"],null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,"X","X","X","X",null],[["Bloody Jake","bloody_jake"],"X",null,null,null,null,null,null,null,"X","X","X",null,"X","X","X",null,null,"X","X",null,"X"],[["Bounty Hunter","bounty_hunter"],null,null,null,null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null,"X"],[["Butterfly Blade","butterfly_blade"],null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,"X","X","X","X","X",null],[["Cleaner","cleaner"],null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,"X",null],[["Covenbane","covenbane"],null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,"X","X",null],[["Cutthroat","cutthroat"],null,null,"X",null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,"X",null],[["Deliverer","deliverer"],null,null,null,null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null,"X"],[["Dune Rider","dune_rider"],null,null,null,"X",null,null,null,null,"X",null,"X",null,null,null,null,null,"X","X","X","X",null],[["Family Hunter","family_hunter"],null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,"X",null,"X",null,null,null],[["Grave Warden","grave_warden"],null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Guerrilla","guerrilla"],null,null,null,null,"X","X",null,null,null,"X",null,null,null,null,null,null,null,null,"X","X",null],[["Pureblade","pureblade"],null,null,null,"X",null,null,null,"X",null,null,"X",null,null,null,null,null,"X",null,null,"X",null],[["Sczarni Executioner","sczarni_executioner"],null,null,"X",null,"X","X",null,null,"X",null,null,null,null,null,null,null,null,"X","X",null,null],[["Sniper","sniper"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null],[["Spawn Slayer","spawn_slayer"],null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null],[["Spire Diver","spire_diver"],null,null,null,null,"X","X",null,null,null,null,null,null,null,null,"X",null,"X","X","X","X",null],[["Spiritslayer","spiritslayer"],null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Stygian Slayer","stygian_slayer"],null,"X",null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,"X",null,null,null,null],[["Toxic Sniper","toxic_sniper"],null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,"X","X"],[["Turncoat","turncoat"],null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null],[["Vanguard","vanguard"],null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,"X",null,null,"X",null],[["Velvet Blade","velvet_blade"],null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null],[["Witch Killer","witch_killer"],null,null,"X",null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,"X",null,null,null],[["Woodland Sniper","woodland_sniper"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,"X","X",null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-slayer-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="slayer" prefix="class-slayer-" />
+<RacialOptions cls="slayer" />
 </>};
 const _sorcerer = {hasJL:true,title: "Sorcerer", jsx: <><div className="jumpList" id="class-sorcerer-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-sorcerer-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-sorcerer-bloodline">Bloodline</InnerLink></li><li><InnerLink toTop to="class-sorcerer-eschew-materials">Eschew Materials</InnerLink></li><li><InnerLink toTop to="class-sorcerer-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-sorcerer-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-sorcerer-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-sorcerer-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-sorcerer-sorcerer">Sorcerer</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 70</Link></p>
@@ -1647,17 +1647,17 @@ const _sorcerer = {hasJL:true,title: "Sorcerer", jsx: <><div className="jumpList
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={1}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>No</td></tr><tr><th>Shields?</th><td colSpan={2}>No</td></tr><tr><td colSpan={3} className="sw se">Armor interferes with a sorcerer's gestures, which can cause her spells with somatic components to fail.</td></tr></tbody></table>
-<Ability id="class-sorcerer-spells" icon={["magic-swirl"]}><Pair single id="class-sorcerer-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Charisma score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Charisma score.</Pair>
 <Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_sorcerer">sorcerer spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>A sorcerer's selection of spells is extremely limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new sorcerer level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Charisma score.</p>
-<p>At 4th level, and every two levels thereafter (6th, 8th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="class-sorcerer-cantrips" icon={["magic-swirl"]}>
-<Pair single id="class-sorcerer-cantrips">Cantrips</Pair>
+<p>At 4th level, and every two levels thereafter (6th, 8th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="cantrips" icon={["magic-swirl"]}>
+<Pair single id="cantrips">Cantrips</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of cantrips, or 0-level arcane spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Cantrips cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
-<Ability id="class-sorcerer-bloodline" icon={["stairs-goal","magic-swirl","skills"]}>
-<Pair single id="class-sorcerer-bloodline" flavor="Each sorcerer has a source of magic somewhere in her heritage that grants her special abilities. This source can represent a blood relation or an extreme event involving a creature somewhere in the family's past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels.">Bloodline</Pair>
+<Ability id="bloodline" icon={["stairs-goal","magic-swirl","skills"]}>
+<Pair single id="bloodline" flavor="Each sorcerer has a source of magic somewhere in her heritage that grants her special abilities. This source can represent a blood relation or an extreme event involving a creature somewhere in the family's past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels.">Bloodline</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must pick one <Link to="/ability/sorcerer_bloodlines">bloodline</Link> upon taking your first level of sorcerer. Once made, this choice cannot be changed. This bloodline grants you a bonus class skill, as well as additional abilities as you gain levels.</Pair>
 <Pair title="At 3rd Level">You learn a new spell from your bloodline.</Pair>
@@ -1672,8 +1672,8 @@ const _sorcerer = {hasJL:true,title: "Sorcerer", jsx: <><div className="jumpList
 <Pair title="Special">Spells gained from your bloodline are in addition to the number of spells you gain every level. They cannot be exchanged for different spells at higher levels.</Pair>
 </Ability>
 <aside><p>Optionally, when a sorcerer gains a new bloodline power or bonus feat, she can swap it for a specific <Link to="/ability/bloodline_mutations">bloodline mutation</Link> whose prerequisites she meets.</p>
-</aside><Ability id="class-sorcerer-eschew-materials" icon={["stairs-goal"]}>
-<Pair single id="class-sorcerer-eschew-materials">Eschew Materials</Pair>
+</aside><Ability id="eschew-materials" icon={["stairs-goal"]}>
+<Pair single id="eschew-materials">Eschew Materials</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/eschew_materials">Eschew Materials</Link> as a bonus feat at 1st level.</Pair>
 </Ability>
@@ -1705,7 +1705,7 @@ const _sorcerer = {hasJL:true,title: "Sorcerer", jsx: <><div className="jumpList
 <h3 id="class-sorcerer-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"sorcerer archetypes","columns":[{"header":"Archetype","link":"arc-sorcerer"},{"header":"Bloodline"},{"header":"Bloodline Arcana"},{"header":"7th-level Bloodline Feat"},{"header":"13th-level Bloodline Feat"},{"header":"19th-level Bloodline Feat"},{"header":"Bloodline Powers"},{"header":"1st-level Bloodline Power"},{"header":"3rd-level Bloodline Power"},{"header":"9th-level Bloodline Power"},{"header":"15th-level Bloodline Power"},{"header":"Bloodline Spells"},{"header":"3rd-level Bloodline Spell"},{"header":"5th-level Bloodline Spell"},{"header":"Eschew Materials"},{"header":"Spellcasting"}],"data":[[["Bloodline Familiars","bloodline_familiars"],"X",null,null,null,null,null,"X",null,null,null,"X",null,null,null,null],[["Crossblooded","crossblooded"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X"],[["Dragon Drinker","dragon_drinker"],"X","X","X","X","X",null,"X",null,null,null,null,null,null,null,null],[["Eldritch Scrapper","eldritch_scrapper"],null,null,null,null,null,null,"X",null,"X","X",null,null,null,null,null],[["Mongrel Mage","mongrel_mage"],"X",null,"X","X","X","X",null,null,null,null,"X",null,null,null,null],[["Nine-Tailed Heir","nine_tailed_heir"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Razmiran Priest","razmiran_priest"],null,null,null,null,null,null,null,null,"X",null,null,"X","X","X",null],[["Seeker","seeker"],null,null,null,null,null,null,null,"X",null,"X",null,null,null,"X",null],[["Sorcerer of Sleep","sorcerer_of_sleep"],null,"X",null,null,null,null,"X",null,null,null,null,null,null,"X",null],[["Stone Warder","stone_warder"],null,null,"X",null,null,null,null,null,null,null,null,"X",null,"X",null],[["Tattooed Sorcerer","tattooed_sorcerer"],null,null,"X",null,null,null,"X",null,"X",null,null,null,null,"X",null],[["Umbral Scion","umbral_scion"],"X",null,"X","X",null,null,"X",null,null,null,null,null,null,null,"X"],[["Wishcrafter","wishcrafter"],null,"X","X","X","X",null,null,null,null,null,"X",null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-sorcerer-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="sorcerer" prefix="class-sorcerer-" />
+<RacialOptions cls="sorcerer" />
 </>};
 const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="jumpList" id="class-spiritualist-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-spiritualist-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-spiritualist-phantom">Phantom</InnerLink></li><li><InnerLink toTop to="class-spiritualist-shared-consciousness-su">Shared Consciousness</InnerLink></li><li><InnerLink toTop to="class-spiritualist-etheric-tether-su">Etheric Tether</InnerLink></li><li><InnerLink toTop to="class-spiritualist-bonded-senses-su">Bonded Senses</InnerLink></li><li><InnerLink toTop to="class-spiritualist-bonded-manifestation-su">Bonded Manifestation</InnerLink></li><li><InnerLink toTop to="class-spiritualist-spiritual-interference-ex-or-su">Spiritual Interference</InnerLink></li><li><InnerLink toTop to="class-spiritualist-detect-undead-sp">Detect Undead</InnerLink></li><li><InnerLink toTop to="class-spiritualist-phantom-recall-su">Phantom Recall</InnerLink></li><li><InnerLink toTop to="class-spiritualist-calm-spirit-sp">Calm Spirit</InnerLink></li><li><InnerLink toTop to="class-spiritualist-see-invisibility-sp">See Invisibility</InnerLink></li><li><InnerLink toTop to="class-spiritualist-fused-consciousness-su">Fused Consciousness</InnerLink></li><li><InnerLink toTop to="class-spiritualist-greater-spiritual-interference-ex-or-su">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-spiritualist-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-spiritualist-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-spiritualist-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-spiritualist-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-spiritualist-spiritualist">Spiritualist</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 72</Link></p>
@@ -2227,12 +2227,12 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={3}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td><Link to="/eq-weapon/kukri">kukri</Link></td><td><Link to="/eq-weapon/sap">sap</Link></td></tr><tr><td colSpan={2}><Link to="/eq-weapon/scythe">scythe</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<Ability id="class-spiritualist-spells" icon={["magic-swirl"]}><Pair single id="class-spiritualist-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To cast a spell, you must have a Wisdom score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Wisdom score.</Pair>
 <Pair title="Ability">You gain the ability to cast psychic spells which are drawn from the <Link to="/main/spells_spiritualist">spiritualist spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>A spiritualist's selection of spells is limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new spiritualist level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Wisdom score.</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level spiritualist spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="class-spiritualist-knacks" icon={["magic-swirl"]}>
-<Pair single id="class-spiritualist-knacks">Knacks</Pair>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level spiritualist spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="knacks" icon={["magic-swirl"]}>
+<Pair single id="knacks">Knacks</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of knacks, or 0-level psychic spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Knacks cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
@@ -2250,8 +2250,8 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 </Pair>
 <Pair title="Special">You can harbor your phantom in your consciousness, manifest it partially, or fully manifest it. A fully manifested phantom is treated as a summoned creature from the <Link to="/rule/ethereal_plane">Ethereal Plane</Link>, except it is not sent back to the Ethereal Plane until it is reduced to a negative amount of hit points equal to or greater than its Constitution score.</Pair>
 </Ability>
-<Ability id="class-spiritualist-shared-consciousness-su" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="class-spiritualist-shared-consciousness-su">Shared Consciousness (Su)</Pair>
+<Ability id="shared-consciousness-su" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="shared-consciousness-su">Shared Consciousness (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">While a phantom is confined in your consciousness (but not while it's fully manifested or banished to the Ethereal Plane), it grants you the <Link to="/feat/skill_focus">Skill Focus</Link> feat in two skills determined by the phantom's emotional focus, unless you already have Skill Focus in those skills. It also grants a +4 bonus on saving throws against all mind-affecting effects.</Pair>
 <Pair title="Immediate Action">When you fail a saving throw against a mind-affecting effect, you can shunt that effect into the phantom's section of your consciousness instead. When you do so, you are not affected by the mind-affecting effect, but for the normal duration of that effect, you lose the bonuses on saving throws against mind-affecting effects and the Skill Focus effects granted by your phantom, and can't use this ability to shunt a mind-affecting effect into the phantom's consciousness or manifest her phantom in any way.</Pair>
@@ -2268,95 +2268,95 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 </Pair>
 <Pair title="Passive Ability">Whenever your manifested phantom takes enough damage to send it back to the Ethereal Plane, as a reaction to the damage, you can sacrifice any number of your hit points without using an action. Each hit point sacrificed in this way prevents 1 point of damage dealt to the phantom. This can prevent the phantom from being sent back to the Ethereal Plane.</Pair>
 </Ability>
-<Ability id="class-spiritualist-bonded-senses-su" icon={["stairs-goal"]}>
-<Pair single id="class-spiritualist-bonded-senses-su">Bonded Senses (Su)</Pair>
+<Ability id="bonded-senses-su" icon={["stairs-goal"]}>
+<Pair single id="bonded-senses-su">Bonded Senses (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 round/day per spiritualist level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">You can share the senses of your manifested phantom, hearing, seeing, smelling, tasting, and feeling everything your phantom does. There is no maximum range for this effect, but you and the phantom must be on the same plane.</Pair>
 <Pair title="Free Action">You can end this effect.</Pair>
 </Ability>
-<Ability id="class-spiritualist-bonded-manifestation-su" extraClasses="hasSubs" icon={["upgrade"]}>
-<Pair single id="class-spiritualist-bonded-manifestation-su">Bonded Manifestation (Su)</Pair>
+<Ability id="bonded-manifestation-su" extraClasses="hasSubs" icon={["upgrade"]}>
+<Pair single id="bonded-manifestation-su">Bonded Manifestation (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Usage">3 rounds/day + 1 round per spiritualist level; these rounds need not be consecutive</Pair>
 <Pair title="Swift Action">You can pull on the consciousness of your phantom and the substance of the Ethereal Plane to partially manifest aspects of both in your own body. When you do, you enhance your own abilities while the phantom is still bound to your consciousness. To use this ability, the phantom must be confined in your consciousness; it can't be manifested in any other way. During a <em>bonded manifestation,</em> the phantom can't be damaged, dismissed, or banished.</Pair>
 <Pair title="Free Action">You can dismiss the effects of a <em>bonded manifestation</em> as a free action, but if you do so the same round that you activated it, it still counts as 1 round of use.</Pair>
 <Pair title="Special">You must choose either ectoplasmic or incorporeal form. When you make this choice, youe gain all of the abilities based on the form you choose and your spiritualist level.</Pair>
 </Ability>
-<Ability id="class-spiritualist-ectoplasmic-bonded-manifestation" extraClasses="subAbility numbered" icon={["armor-upgrade","mailed-fist"]}>
-<Pair single id="class-spiritualist-ectoplasmic-bonded-manifestation" flavor="The spiritualist gains an ectoplasmic shield that protects her without restricting her movement or actions.">Ectoplasmic Bonded Manifestation</Pair>
+<Ability id="ectoplasmic-bonded-manifestation" extraClasses="subAbility numbered" icon={["armor-upgrade","mailed-fist"]}>
+<Pair single id="ectoplasmic-bonded-manifestation" flavor="The spiritualist gains an ectoplasmic shield that protects her without restricting her movement or actions.">Ectoplasmic Bonded Manifestation</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain a +4 shield bonus to Armor Class; this bonus applies to incorporeal touch attacks. The ectoplasmic shield has no armor check penalty or arcane spell failure chance.</Pair>
 <Pair title="At 8th Level">You also sprout a pair of ectoplasmic tendrils from your body. Once per round as either a <strong className="hl">swift</strong> or a <strong className="hl">standard action</strong> (your choice), you can use one or both tendrils to attack creatures within your melee reach (using the attack bonus and damage dice of your ectoplasmic manifested phantom) or to manipulate objects. You can even use that action to have one tendril make an attack and the other manipulate an object, as long as that object can be manipulated with one hand.</Pair>
 <Pair title="At 13th Level">The phantom's ectoplasm clings to you like a suit of armor, granting you a +6 armor bonus to AC without imposing an armor check penalty, an arcane spell failure chance, or any reduction in speed.</Pair>
 <Pair title="At 18th Level">You can take a <strong className="hl">full-round action</strong> to attack all creatures within your melee reach with your tendrils (using the attack bonus and damage dice of your ectoplasmic manifested phantom). When you do, you roll the attack roll twice, take the better of the two results, and use that as your attack roll result against all creatures within your melee reach. If the better attack roll threatens a critical hit, you choose one target that you hit to confirm the critical hit against. The other attacks that hit are considered normal hits rather than critical threats.</Pair>
 </Ability>
-<Ability id="class-spiritualist-incorporeal-bonded-manifestation" extraClasses="subAbility numbered" icon={["armor-upgrade","mailed-fist","stairs-goal"]}>
-<Pair single id="class-spiritualist-incorporeal-bonded-manifestation">Incorporeal Bonded Manifestation</Pair>
+<Ability id="incorporeal-bonded-manifestation" extraClasses="subAbility numbered" icon={["armor-upgrade","mailed-fist","stairs-goal"]}>
+<Pair single id="incorporeal-bonded-manifestation">Incorporeal Bonded Manifestation</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You become shrouded in a haze of insubstantial mist, granting you <Link to="/rule/concealment">concealment</Link> against ranged attacks.</Pair>
 <Pair title="At 8th Level">Your unarmed strikes and melee weapon attacks are treated as if they had the <Link to="/magic-enh/ghost_touch">ghost touch</Link> magic weapon special ability.</Pair>
 <Pair title="At 13th Level">You can take a <strong className="hl">standard action</strong> to become invisible (as the <Link to="/spell/invisibility">invisibility</Link> spell) until the start of your next turn.</Pair>
 <Pair title="At 18th Level">You gain the <Link to="/subtype/incorporeal">incorporeal</Link> subtype and a fly speed of 30 feet (good) while using this form of bonded manifestation.</Pair>
 </Ability>
-<Ability id="class-spiritualist-spiritual-interference-ex-or-su" icon={["armor-upgrade"]}>
-<Pair single id="class-spiritualist-spiritual-interference-ex-or-su">Spiritual Interference (Ex or Su)</Pair>
+<Ability id="spiritual-interference-ex-or-su" icon={["armor-upgrade"]}>
+<Pair single id="spiritual-interference-ex-or-su">Spiritual Interference (Ex or Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">Whenever you are within the reach of your ectoplasmic manifested phantom, you gain a +2 shield bonus to your Armor Class and a +2 circumstance bonus on your saving throws. You don't gain these bonuses when the ectoplasmic manifested phantom is <Link to="/rule/grappled">grappled</Link>, <Link to="/misc/helpless">helpless</Link>, or <Link to="/misc/unconscious">unconscious</Link>.</Pair>
 <Pair title="Special">While within 30 feet of your incorporeally manifested phantom, you receive a +2 circumstance bonus on saving throws against mind-affecting effects. This bonus is a supernatural ability and does not apply if the phantom is unconscious.</Pair>
 </Ability>
-<Ability id="class-spiritualist-detect-undead-sp" icon={["stairs-goal"]}>
-<Pair single id="class-spiritualist-detect-undead-sp">Detect Undead (Sp)</Pair>
+<Ability id="detect-undead-sp" icon={["stairs-goal"]}>
+<Pair single id="detect-undead-sp">Detect Undead (Sp)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Standard Action">Your connection with the Ethereal Plane becomes so strong that you can use <Link to="/spell/detect_undead">detect undead</Link> at will as a spell-like ability with a caster level equal to your spiritualist level.</Pair>
 </Ability>
-<Ability id="class-spiritualist-phantom-recall-su" icon={["magic-swirl"]}>
-<Pair single id="class-spiritualist-phantom-recall-su">Phantom Recall (Su)</Pair>
+<Ability id="phantom-recall-su" icon={["magic-swirl"]}>
+<Pair single id="phantom-recall-su">Phantom Recall (Su)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four spiritualist levels beyond 6th<ByLevelPop levels={[[6,1],[10,2],[14,3],[18,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">As either a <strong className="hl">swift</strong> or an <strong className="hl">immediate action</strong>, you can call your manifested phantom to your side or back into your consciousness. This ability functions as <Link to="/spell/dimension_door">dimension door</Link>, using your class level as the caster level. When you call the phantom in this way, the phantom appears adjacent to you (or as close as possible, if all adjacent spaces are occupied).</Pair>
 <Pair title="Special">When you use this ability to call the phantom back to your consciousness, you can activate <em>bonded manifestation</em> as part of that action, but doing so costs 1 extra round of <em>bonded manifestation.</em></Pair>
 </Ability>
-<Ability id="class-spiritualist-calm-spirit-sp" icon={["stairs-goal"]}>
-<Pair single id="class-spiritualist-calm-spirit-sp">Calm Spirit (Sp)</Pair>
+<Ability id="calm-spirit-sp" icon={["stairs-goal"]}>
+<Pair single id="calm-spirit-sp">Calm Spirit (Sp)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four spiritualist levels beyond 7th<ByLevelPop levels={[[7,1],[11,2],[15,3],[19,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">You gain the ability to use <Link to="/spell/calm_spirit">calm spirit</Link> as a spell-like ability.</Pair>
 </Ability>
-<Ability id="class-spiritualist-see-invisibility-sp" icon={["stairs-goal"]}>
-<Pair single id="class-spiritualist-see-invisibility-sp">See Invisibility (Sp)</Pair>
+<Ability id="see-invisibility-sp" icon={["stairs-goal"]}>
+<Pair single id="see-invisibility-sp">See Invisibility (Sp)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Standard Action">You gain the ability to use <Link to="/spell/see_invisibility">see invisibility</Link> as a spell-like ability once per day, with a duration of 10 minutes.</Pair>
 </Ability>
-<Ability id="class-spiritualist-fused-consciousness-su" icon={["upgrade"]}>
-<Pair single id="class-spiritualist-fused-consciousness-su">Fused Consciousness (Su)</Pair>
+<Ability id="fused-consciousness-su" icon={["upgrade"]}>
+<Pair single id="fused-consciousness-su">Fused Consciousness (Su)</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Passive Ability">You always gain the benefits of <em>bonded senses</em> when your phantom is manifested. You also gain the skill ranks and bonus to mind-affecting spells granted by the spirit's emotional focus, even when your phantom is manifested.</Pair>
 <Pair title="Ability">Lastly, you can shunt the effect of a mind-affecting effect into the consciousness of your phantom as the <em>shared consciousness</em> ability even when the phantom is manifested, but doing so causes the phantom to immediately retreat back into your consciousness.</Pair>
 </Ability>
-<Ability id="class-spiritualist-greater-spiritual-interference-ex-or-su" icon={["armor-upgrade"]}>
-<Pair single id="class-spiritualist-greater-spiritual-interference-ex-or-su">Greater Spiritual Interference (Ex or Su)</Pair>
+<Ability id="greater-spiritual-interference-ex-or-su" icon={["armor-upgrade"]}>
+<Pair single id="greater-spiritual-interference-ex-or-su">Greater Spiritual Interference (Ex or Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">Whenever allies are within your manifested phantom's reach, as long as it is in ectoplasmic form, each ally gains a +2 shield bonus to its Armor Class and a +2 circumstance bonus on its saving throws. For you, these bonuses increase to +4. You and allies within range don't gain this bonus if the manifested phantom is grappled, helpless, or unconscious.</Pair>
 <Pair title="Special">While the phantom is incorporeally manifested, allies within 30 feet of the phantom receive a +2 circumstance bonus on saving throws against mind-affecting effects. For you, this bonus increases to +4. This bonus doesn't apply if the phantom is unconscious.</Pair>
 </Ability>
-<Ability id="class-spiritualist-spiritual-bond-su" icon={["armor-upgrade"]}>
-<Pair single id="class-spiritualist-spiritual-bond-su" flavor="A spiritualist's life force becomes intrinsically linked with the phantom's spiritual essence.">Spiritual Bond (Su)</Pair>
+<Ability id="spiritual-bond-su" icon={["armor-upgrade"]}>
+<Pair single id="spiritual-bond-su" flavor="A spiritualist's life force becomes intrinsically linked with the phantom's spiritual essence.">Spiritual Bond (Su)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">As long as the phantom has 1 or more hit points, when you take damage that would reduce you to fewer than 0 hit points, those points of damage are transferred to the phantom instead. This transfer stops after the phantom takes all the points of damage or the phantom is reduced to a negative amount of hit points equal to its Constitution score. In the latter case, points of damage dealt in excess of this limit are dealt to you. This ability affects only effects that deal hit point damage.</Pair>
 </Ability>
-<Ability id="class-spiritualist-call-spirit-sp" icon={["stairs-goal"]}>
-<Pair single id="class-spiritualist-call-spirit-sp">Call Spirit (Sp)</Pair>
+<Ability id="call-spirit-sp" icon={["stairs-goal"]}>
+<Pair single id="call-spirit-sp">Call Spirit (Sp)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Ability">You gain the ability to use <Link to="/spell/call_spirit">call spirit</Link> as a spell-like ability once per day.</Pair>
 </Ability>
-<Ability id="class-spiritualist-dual-bond-su" icon={["upgrade"]}>
-<Pair single id="class-spiritualist-dual-bond-su">Dual Bond (Su)</Pair>
+<Ability id="dual-bond-su" icon={["upgrade"]}>
+<Pair single id="dual-bond-su">Dual Bond (Su)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">You can use your <em>bonded manifestation</em> ability a number of rounds per day equal to 3 + twice your spiritualist level.</Pair>
 </Ability>
-<Ability id="class-spiritualist-empowered-consciousness-su" icon={["armor-upgrade"]}>
-<Pair single id="class-spiritualist-empowered-consciousness-su">Empowered Consciousness (Su)</Pair>
+<Ability id="empowered-consciousness-su" icon={["armor-upgrade"]}>
+<Pair single id="empowered-consciousness-su">Empowered Consciousness (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">While your phantom is confined in your consciousness, you are immune to mind-affecting effects and spells and effects that involve possession, such as <Link to="/spell/magic_jar">magic jar</Link> and <Link to="/spell/possession">possession</Link>.</Pair>
 </Ability>
@@ -2399,7 +2399,7 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 <h3 id="class-spiritualist-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"spiritualist archetypes","columns":[{"header":"Archetype","link":"arc-spiritualist"},{"header":"Alignment"},{"header":"Antagonistic"},{"header":"Bonded Manifestation"},{"header":"Bonded Senses"},{"header":"Call Spirit"},{"header":"Calm Spirit"},{"header":"11th-Level Calm Spirit"},{"header":"15th-Level Calm Spirit"},{"header":"19th-Level Calm Spirit"},{"header":"Class Skills"},{"header":"Detect Undead"},{"header":"Devotion"},{"header":"Dual Bond"},{"header":"Emotional Focus"},{"header":"Empowered Consciousness"},{"header":"Etheric Tether"},{"header":"Fused Consciousness"},{"header":"Greater Spiritual Interference"},{"header":"Phantom"},{"header":"Phantom Recall"},{"header":"See Invisibility"},{"header":"Share Spells"},{"header":"Shared Consciousness"},{"header":"Spellcasting"},{"header":"Spiritual Bond"},{"header":"Spiritual Interference"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Drowned Channeler","drowned_channeler"],null,null,"X","X","X","X",null,null,null,"X","X",null,null,null,null,"X",null,null,"X",null,"X",null,"X",null,null,null,null],[["Ectoplasmatist","ectoplasmatist"],null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,"X","X","X","X","X","X",null,null,"X",null,"X","X",null],[["Exciter","exciter"],null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,"X","X",null,"X","X",null,null,null,null,"X","X",null],[["Fated Guide","fated_guide"],null,"X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Fractured Mind","fractured_mind"],null,null,null,null,"X","X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null],[["Geist Channeler","geist_channeler"],null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null],[["Grim Apostle","grim_apostle"],null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,"X",null,null,null,"X",null,null,null,null],[["Hag-Haunted","hag_haunted"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,"X","X",null,"X",null],[["Haunted","haunted"],null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Involutionist","involutionist"],null,null,"X",null,null,null,"X","X","X",null,"X",null,null,"X",null,null,null,null,"X",null,null,null,null,"X",null,null,null],[["Necrologist","necrologist"],"X",null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X","X",null,null,"X","X",null,null,"X",null],[["Onmyoji","onmyoji"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,"X","X",null,"X",null],[["Phantom Blade","phantom_blade"],null,null,"X","X",null,null,null,null,null,null,null,null,"X",null,"X","X","X","X","X","X",null,null,"X",null,"X","X","X"],[["Plague Eater","plague_eater"],null,null,null,null,"X","X",null,null,null,null,"X",null,null,null,null,null,"X","X","X",null,"X",null,"X",null,null,"X",null],[["Priest of the Fallen","priest_of_the_fallen"],null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,"X",null,"X",null,"X","X",null,null,"X",null,null,null,null],[["Quintessentialist","quintessentialist"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null],[["Scourge","scourge"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null],[["Seeker of Enlightenment","seeker_of_enlightenment"],null,null,null,null,"X","X",null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,"X",null,"X",null,null,null,null],[["Shadow Caller","shadow_caller"],null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X","X",null,"X","X","X",null,"X",null,null,null,null],[["Soul Warden","soul_warden"],null,null,"X","X",null,null,null,null,null,null,null,null,"X",null,"X","X","X","X","X","X",null,null,"X",null,null,"X",null],[["Totem Spiritualist","totem_spiritualist"],null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,"X",null,"X",null,null,null,null],[["Usher of Lost Souls","usher_of_lost_souls"],null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,"X","X",null],[["Ward Spiritualist","ward_spiritualist"],null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,"X",null,null,null],[["Zeitgeist Binder","zeitgeist_binder"],null,null,null,"X","X","X",null,null,null,null,"X",null,null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-spiritualist-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="spiritualist" prefix="class-spiritualist-" />
+<RacialOptions cls="spiritualist" />
 </>};
 const _swashbuckler = {hasJL:true,title: "Swashbuckler", jsx: <><div className="jumpList" id="class-swashbuckler-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-swashbuckler-panache-ex">Panache</InnerLink></li><li><InnerLink toTop to="class-swashbuckler-deeds">Deeds</InnerLink></li><li><InnerLink toTop to="class-swashbuckler-swashbuckler-finesse-ex">Swashbuckler Finesse</InnerLink></li><li><InnerLink toTop to="class-swashbuckler-charmed-life-ex">Charmed Life</InnerLink></li><li><InnerLink toTop to="class-swashbuckler-nimble-ex">Nimble</InnerLink></li><li><InnerLink toTop to="class-swashbuckler-bonus-feats">Bonus Feats</InnerLink></li><li><InnerLink toTop to="class-swashbuckler-swashbuckler-weapon-training-ex">Swashbuckler Weapon Training</InnerLink></li><li><InnerLink toTop to="class-swashbuckler-grit-and-panache">Grit and Panache</InnerLink></li><li><InnerLink toTop to="class-swashbuckler-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-swashbuckler-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-swashbuckler-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-swashbuckler-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-swashbuckler-swashbuckler">Swashbuckler</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 56</Link></p>
@@ -2580,33 +2580,33 @@ const _swashbuckler = {hasJL:true,title: "Swashbuckler", jsx: <><div className="
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se"><Link to="/eq-armor/buckler">Bucklers</Link> only</td></tr></tbody></table>
-<Ability id="class-swashbuckler-panache-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="class-swashbuckler-panache-ex" flavor="More than just a lightly armored warrior, a swashbuckler is a daring combatant. She fights with panache: a fluctuating measure of a swashbuckler's ability to perform amazing actions in combat.">Panache (Ex)</Pair>
+<Ability id="panache-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="panache-ex" flavor="More than just a lightly armored warrior, a swashbuckler is a daring combatant. She fights with panache: a fluctuating measure of a swashbuckler's ability to perform amazing actions in combat.">Panache (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">At the start of each day, you gain a number of panache points equal to your Charisma modifier (minimum 1). Your panache goes up or down throughout the day, but usually cannot go higher than your Charisma modifier (minimum 1), though feats and magic items can affect this maximum. You spend panache to accomplish deeds, and regain panache in the following ways.</Pair>
 </Ability>
-<Ability id="class-swashbuckler-critical-hit-with-a-light-or-one-handed-piercing-melee-weapon" extraClasses="subAbility numbered" icon={["mailed-fist"]}>
-<Pair single id="class-swashbuckler-critical-hit-with-a-light-or-one-handed-piercing-melee-weapon">Critical Hit with a Light or One-Handed Piercing Melee Weapon</Pair>
+<Ability id="critical-hit-with-a-light-or-one-handed-piercing-melee-weapon" extraClasses="subAbility numbered" icon={["mailed-fist"]}>
+<Pair single id="critical-hit-with-a-light-or-one-handed-piercing-melee-weapon">Critical Hit with a Light or One-Handed Piercing Melee Weapon</Pair>
 <Pair title="Passive Ability">Each time you confirm a critical hit with a light or one-handed piercing melee weapon, you regain 1 panache point. Confirming a critical hit on a <Link to="/misc/helpless">helpless</Link> or unaware creature or a creature that has fewer Hit Dice than <Link to="/misc/half">half</Link> your character level doesn't restore panache.</Pair>
 </Ability>
-<Ability id="class-swashbuckler-killing-blow-with-a-light-or-one-handed-piercing-melee-weapon" extraClasses="subAbility numbered" icon={["mailed-fist"]}>
-<Pair single id="class-swashbuckler-killing-blow-with-a-light-or-one-handed-piercing-melee-weapon">Killing Blow with a Light or One-Handed Piercing Melee Weapon</Pair>
+<Ability id="killing-blow-with-a-light-or-one-handed-piercing-melee-weapon" extraClasses="subAbility numbered" icon={["mailed-fist"]}>
+<Pair single id="killing-blow-with-a-light-or-one-handed-piercing-melee-weapon">Killing Blow with a Light or One-Handed Piercing Melee Weapon</Pair>
 <Pair title="Passive Ability">When you reduce a creature to 0 or fewer hit points with a light or one-handed piercing melee weapon attack while in combat, you regain 1 panache point. Destroying an unattended object, reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half your character level to 0 or fewer hit points doesn't restore any panache.</Pair>
 </Ability>
-<Ability id="class-swashbuckler-deeds" icon={["stairs-goal"]}>
-<Pair single id="class-swashbuckler-deeds" flavor="Swashbucklers spend panache points to accomplish deeds.">Deeds</Pair>
+<Ability id="deeds" icon={["stairs-goal"]}>
+<Pair single id="deeds" flavor="Swashbucklers spend panache points to accomplish deeds.">Deeds</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Most <Link to="/ability/swashbuckler_deeds">deeds</Link> grant you a momentary bonus or effect, but some provide longer-lasting effects. Some deeds remain in effect while you have at least 1 panache point, but do not require expending panache to be maintained. You can only perform deeds of your level or lower. Unless otherwise noted, a deed can be performed multiple successive times, as long as you have or spend the required number of panache points to perform the deed.</Pair>
 </Ability>
 <aside><p>Swashbucklers may optionally select a <Link to="/ability/swashbuckler_renowned_deeds">renowned deed</Link> at 1st, 3rd, 7th and 11th level. Each of these deeds replace two other deeds.</p>
-</aside><Ability id="class-swashbuckler-swashbuckler-finesse-ex" icon={["stairs-goal"]}>
-<Pair single id="class-swashbuckler-swashbuckler-finesse-ex">Swashbuckler Finesse (Ex)</Pair>
+</aside><Ability id="swashbuckler-finesse-ex" icon={["stairs-goal"]}>
+<Pair single id="swashbuckler-finesse-ex">Swashbuckler Finesse (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain the benefits of the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feat with light or one-handed piercing melee weapons. This ability counts as having the Weapon Finesse feat for purposes of meeting feat prerequisites.</Pair>
 <Pair title="Passive Ability">You can use your Charisma score in place of Intelligence as a prerequisite for combat feats.</Pair>
 </Ability>
-<Ability id="class-swashbuckler-charmed-life-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-swashbuckler-charmed-life-ex" flavor="A swashbuckler gains a knack for getting out of trouble.">Charmed Life (Ex)</Pair>
+<Ability id="charmed-life-ex" icon={["armor-upgrade"]}>
+<Pair single id="charmed-life-ex" flavor="A swashbuckler gains a knack for getting out of trouble.">Charmed Life (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">3 times a day.</Pair>
 <Pair title="Immediate Action">Before attempting a saving throw, you can add your Charisma modifier to the result of the save. You must choose to do this before the roll is made.</Pair>
@@ -2615,8 +2615,8 @@ const _swashbuckler = {hasJL:true,title: "Swashbuckler", jsx: <><div className="
 <Pair title="At 14th Level">You can use this 6 times a day.</Pair>
 <Pair title="At 18th Level">You can use this 7 times a day.</Pair>
 </Ability>
-<Ability id="class-swashbuckler-nimble-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-swashbuckler-nimble-ex">Nimble (Ex)</Pair>
+<Ability id="nimble-ex" icon={["armor-upgrade"]}>
+<Pair single id="nimble-ex">Nimble (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain a +1 dodge bonus to AC while wearing light or no armor. Anything that causes you to lose your Dexterity bonus to AC also causes you to lose this dodge bonus.</Pair>
 <Pair title="At 7th Level">The bonus becomes +2.</Pair>
@@ -2624,8 +2624,8 @@ const _swashbuckler = {hasJL:true,title: "Swashbuckler", jsx: <><div className="
 <Pair title="At 15th Level">The bonus becomes +4.</Pair>
 <Pair title="At 19th Level">The bonus increases to +5.</Pair>
 </Ability>
-<Ability id="class-swashbuckler-bonus-feats" icon={["stairs-goal"]}>
-<Pair single id="class-swashbuckler-bonus-feats">Bonus Feats:</Pair>
+<Ability id="bonus-feats" icon={["stairs-goal"]}>
+<Pair single id="bonus-feats">Bonus Feats:</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You gain a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as <Link to="/main/combat_feat">combat feats</Link>. Swashbuckler levels are considered fighter levels for the purpose of meeting combat feat prerequisites.</Pair>
 <Pair title="Ability">In addition, you can choose to learn a new bonus feat in place of a bonus feat you have already learned. In effect, you lose the bonus feat in exchange for the new one. The old feat cannot be one that was used as a prerequisite for another feat, prestige class, or other ability.</Pair>
@@ -2636,16 +2636,16 @@ const _swashbuckler = {hasJL:true,title: "Swashbuckler", jsx: <><div className="
 <Pair title="Special">You can only change one feat at any given level, and must choose whether or not to swap the feat at the time you gain a new bonus feat for the level.</Pair>
 </Ability>
 <aside><p>Optionally, you can pick a <Link to="/ability/swashbuckler_dares">dare</Link> instead of a bonus feat. These special abilities only activate when you have 0 panache points.</p>
-</aside><Ability id="class-swashbuckler-swashbuckler-weapon-training-ex" icon={["mailed-fist"]}>
-<Pair single id="class-swashbuckler-swashbuckler-weapon-training-ex">Swashbuckler Weapon Training (Ex)</Pair>
+</aside><Ability id="swashbuckler-weapon-training-ex" icon={["mailed-fist"]}>
+<Pair single id="swashbuckler-weapon-training-ex">Swashbuckler Weapon Training (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">You gain a +1 bonus on attack and damage rolls with one-handed or light piercing melee weapons. While wielding such a weapon, you gain the benefit of the <Link to="/feat/improved_critical">Improved Critical</Link> feat.</Pair>
 <Pair title="At 9th Level">This bonus becomes +2.</Pair>
 <Pair title="At 13th Level">This bonus increases to +3.</Pair>
 <Pair title="At 17th Level">This bonus becomes +4.</Pair>
 </Ability>
-<Ability id="class-swashbuckler-swashbuckler-weapon-mastery-ex" icon={["mailed-fist"]}>
-<Pair single id="class-swashbuckler-swashbuckler-weapon-mastery-ex">Swashbuckler Weapon Mastery (Ex)</Pair>
+<Ability id="swashbuckler-weapon-mastery-ex" icon={["mailed-fist"]}>
+<Pair single id="swashbuckler-weapon-mastery-ex">Swashbuckler Weapon Mastery (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">When you threaten a critical hit with a light or one-handed piercing melee weapon, that critical is automatically confirmed. Furthermore, the critical modifiers of such weapons increase by 1 (&times;2 becomes &times;3, and so on).</Pair>
 </Ability>
@@ -2687,7 +2687,7 @@ const _swashbuckler = {hasJL:true,title: "Swashbuckler", jsx: <><div className="
 <h3 id="class-swashbuckler-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"swashbuckler archetypes","columns":[{"header":"Archetype","link":"arc-swashbuckler"},{"header":"Alignment"},{"header":"Armor Proficiency"},{"header":"Bleeding Wound"},{"header":"Bonus Feats"},{"header":"4th-level Bonus Feat"},{"header":"Charmed Life"},{"header":"Class Skills"},{"header":"Deadly Stab"},{"header":"1st, 7th, 15th-level Deeds"},{"header":"Derring-Do"},{"header":"Dizzying Defense"},{"header":"Dodging Panache"},{"header":"Kip-Up"},{"header":"Menacing Swordplay"},{"header":"Nimble"},{"header":"Opportune Parry and Riposte"},{"header":"Panache"},{"header":"Perfect Thrust"},{"header":"Precise Strike"},{"header":"Subtle Blade"},{"header":"Superior Feint"},{"header":"Swashbuckler Finesse"},{"header":"Swashbuckler Initiative"},{"header":"Swashbuckler Weapon Training"},{"header":"Swashbuckler Weapon Mastery"},{"header":"Swashbuckler's Edge"},{"header":"Swashbuckler's Grace"},{"header":"Targeted Strike"},{"header":"Weapon Proficiency"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Arrow Champion","arrow_champion"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,"X",null,null,null,"X","X","X",null,null,null,null,null],[["Azatariel","azatariel"],"X",null,"X","X",null,"X",null,null,null,null,null,null,null,"X","X",null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null],[["Courser","courser"],null,null,"X",null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Daring Infiltrator","daring_infiltrator"],null,null,"X","X",null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Dashing Thief","dashing_thief"],null,null,null,"X",null,null,"X",null,null,"X","X",null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Flying Blade","flying_blade"],null,null,"X",null,null,null,null,null,null,null,null,"X","X","X",null,null,"X","X",null,null,null,null,null,"X","X",null,null,"X",null,null],[["Guiding Blade","guiding_blade"],null,null,null,"X",null,"X",null,null,"X",null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Inspired Blade","inspired_blade"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,"X","X",null,null,null,null,null],[["Mouser","mouser"],null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Musketeer","musketeer"],null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null],[["Mysterious Avenger","mysterious_avenger"],"X",null,null,null,"X",null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,"X"],[["Noble Fencer","noble_fencer"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null],[["Okayo Corsair","okayo_corsair"],null,null,"X","X",null,null,null,null,null,null,"X",null,null,"X",null,null,"X",null,null,null,"X","X",null,null,null,null,null,null,null,"X"],[["Picaroon","picaroon"],null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,"X","X",null,null,null,"X","X",null,null,null,null,null,null,"X",null],[["Rondelero Swashbuckler","rondelero_swashbuckler"],null,null,"X",null,null,"X",null,null,null,"X",null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null],[["Rostland Bravo","rostland_bravo"],null,"X","X",null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null],[["Shackles Corsair","shackles_corsair"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null],[["Veiled Blade","veiled_blade"],null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,"X","X",null,null,null],[["Whirling Dervish","whirling_dervish"],null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,"X","X",null,null,null,null,null,"X",null,null],[["Wildstrider","wildstrider"],null,null,null,null,null,null,"X",null,null,"X",null,"X","X",null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-swashbuckler-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="swashbuckler" prefix="class-swashbuckler-" />
+<RacialOptions cls="swashbuckler" />
 </>};
 const _vigilante = {hasJL:true,title: "Vigilante", jsx: <><div className="jumpList" id="class-vigilante-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-vigilante-dual-identity-ex">Dual Identity</InnerLink></li><li><InnerLink toTop to="class-vigilante-seamless-guise-ex">Seamless Guise</InnerLink></li><li><InnerLink toTop to="class-vigilante-social-talent">Social Talent</InnerLink></li><li><InnerLink toTop to="class-vigilante-vigilante-specialization-ex">Vigilante Specialization</InnerLink></li><li><InnerLink toTop to="class-vigilante-vigilante-talent">Vigilante Talent</InnerLink></li><li><InnerLink toTop to="class-vigilante-unshakable-ex">Unshakable</InnerLink></li><li><InnerLink toTop to="class-vigilante-startling-appearance-ex">Startling Appearance</InnerLink></li><li><InnerLink toTop to="class-vigilante-frightening-appearance-ex">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-vigilante-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-vigilante-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-vigilante-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-vigilante-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-vigilante-vigilante">Vigilante</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 9</Link></p>
@@ -2878,28 +2878,28 @@ const _vigilante = {hasJL:true,title: "Vigilante", jsx: <><div className="jumpLi
 <p>Any attempts to scry or otherwise locate you work only if you are currently in the identity the creature is attempting to locate (or if the creature knows that the two identities are the same individual). Otherwise, the spell or effect has no effect, revealing nothing but darkness, as if the target were invalid or did not exist.</p>
 </Pair>
 </Ability>
-<Ability id="class-vigilante-seamless-guise-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-vigilante-seamless-guise-ex" flavor="A vigilante knows how to behave in a way that appears perfectly proper and normal for his current identity.">Seamless Guise (Ex)</Pair>
+<Ability id="seamless-guise-ex" icon={["armor-upgrade"]}>
+<Pair single id="seamless-guise-ex" flavor="A vigilante knows how to behave in a way that appears perfectly proper and normal for his current identity.">Seamless Guise (Ex)</Pair>
 <Pair title="Ability">Should anyone suspect you of being anything other than what you appear to be while either in your social or vigilante identity, you can attempt a Disguise check with a +20 circumstance bonus to appear as your current identity, and not as your other identity.</Pair>
 </Ability>
-<Ability id="class-vigilante-social-talent" icon={["stairs-goal"]}>
-<Pair single id="class-vigilante-social-talent">Social Talent</Pair>
+<Ability id="social-talent" icon={["stairs-goal"]}>
+<Pair single id="social-talent">Social Talent</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain a <Link to="/ability/social_talents">social talent</Link>. Unless otherwise noted, a talent can be selected only once. Some talents require you to meet other prerequisites before they can be chosen, such as having another social talent or attaining a minimum vigilante level. Once a talent has been chosen, it cannot be changed.</Pair>
 <Pair title="Special">You gain a new <em>social talent</em> at every odd-numbered level (1st, 3rd, 5th, 7th, and so on).</Pair>
 </Ability>
-<Ability id="class-vigilante-vigilante-specialization-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="class-vigilante-vigilante-specialization-ex">Vigilante Specialization (Ex)</Pair>
+<Ability id="vigilante-specialization-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="vigilante-specialization-ex">Vigilante Specialization (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must choose to be either an avenger or a stalker. Once this choice is made, it can't be changed.</Pair>
 <Pair title="Special">While many <em>vigilante talents</em> are usable by both specializations, some are unique to each specialization.</Pair>
 </Ability>
-<Ability id="class-vigilante-avenger" extraClasses="subAbility numbered" icon={["upgrade"]}>
-<Pair single id="class-vigilante-avenger">Avenger</Pair>
+<Ability id="avenger" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Pair single id="avenger">Avenger</Pair>
 <Pair title="Passive Ability">You gain a base attack bonus equal to your vigilante level instead of using those listed above. You add this value to any other base attack bonus gained from other classes or racial Hit Dice as normal.</Pair>
 </Ability>
-<Ability id="class-vigilante-stalker" extraClasses="subAbility numbered" icon={["upgrade"]}>
-<Pair single id="class-vigilante-stalker">Stalker</Pair>
+<Ability id="stalker" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Pair single id="stalker">Stalker</Pair>
 <Pair title="Ability">You gain an ability called <em>hidden strike,</em> which allows you to deal an extra 1d8 points of <Link to="/misc/precision_damage">precision damage</Link> on melee attacks (or ranged attacks from within 30 feet) against foes who are unaware of your presence, who consider you an ally, or who are made <Link to="/rule/flat_footed">flat-footed</Link> by <em>startling appearance.</em></Pair>
 <Pair title="At 3rd Level">The damage becomes +2d8.</Pair>
 <Pair title="At 5th Level">The damage becomes +3d8.</Pair>
@@ -2912,36 +2912,36 @@ const _vigilante = {hasJL:true,title: "Vigilante", jsx: <><div className="jumpLi
 <Pair title="At 19th Level">The damage becomes +10d8.</Pair>
 <Pair title="Special">You can also deal hidden strike damage to a target that you are <Link to="/rule/flanking">flanking</Link> or that is denied its Dexterity bonus to AC, but in these cases, the damage dice are reduced to d4s. You can deal hidden strike damage against targets with <Link to="/rule/concealment">concealment</Link> (but not total concealment).</Pair>
 </Ability>
-<Ability id="class-vigilante-vigilante-talent" icon={["stairs-goal"]}>
-<Pair single id="class-vigilante-vigilante-talent">Vigilante Talent</Pair>
+<Ability id="vigilante-talent" icon={["stairs-goal"]}>
+<Pair single id="vigilante-talent">Vigilante Talent</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You gain a <Link to="/ability/vigilante_talents">vigilante talent</Link>. Unless otherwise noted, a talent can be selected only once. If a talent calls for a saving throw, the DC for that save is equal to 10 + <Link to="/misc/half">half</Link> your vigilante level + your Charisma modifier, unless stated otherwise. Some talents require you to meet prerequisites before they can be chosen, such as possessing another vigilante talent, possessing a particular specialization, or attaining a minimum level. Once a talent has been selected, it can't be changed.</Pair>
 <Pair title="Special">You gain a new <em>vigilante talent</em> at every even-numbered level (2nd, 4th, 6th, 8th, and so on). If you use any of these talents while in your social identity, you must succeed at a Disguise check against the Perception checks of all onlookers (without the +20 circumstance bonus from <em>seamless guise</em>) or the onlookers will realize that you are more than your social identity appears to be and perhaps discover the social and vigilante identities are one and the same.</Pair>
 </Ability>
-<Ability id="class-vigilante-unshakable-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-vigilante-unshakable-ex">Unshakable (Ex)</Pair>
+<Ability id="unshakable-ex" icon={["armor-upgrade"]}>
+<Pair single id="unshakable-ex">Unshakable (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You add your class level to the DC of any attempts to Intimidate you.</Pair>
 </Ability>
-<Ability id="class-vigilante-startling-appearance-ex" icon={["armor-downgrade","armor-upgrade"]}>
-<Pair single id="class-vigilante-startling-appearance-ex" flavor="A vigilante learns to use the element of surprise to his advantage, startling foes that are unaware of his presence.">Startling Appearance (Ex)</Pair>
+<Ability id="startling-appearance-ex" icon={["armor-downgrade","armor-upgrade"]}>
+<Pair single id="startling-appearance-ex" flavor="A vigilante learns to use the element of surprise to his advantage, startling foes that are unaware of his presence.">Startling Appearance (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">Whenever you attempt an attack against a foe that is completely unaware of your presence (usually due to Stealth or invisibility), the foe is treated as flat-footed for the rest of your turn (<Link to="/ability/uncanny_dodge">uncanny dodge</Link> or a similar ability prevents this effect unless you are at least 4 levels higher than the foe with uncanny dodge). The foe also takes a -4 penalty on attacks made against you until the start of your next turn.</Pair>
 </Ability>
-<Ability id="class-vigilante-frightening-appearance-ex" icon={["armor-downgrade"]}>
-<Pair single id="class-vigilante-frightening-appearance-ex">Frightening Appearance (Ex)</Pair>
+<Ability id="frightening-appearance-ex" icon={["armor-downgrade"]}>
+<Pair single id="frightening-appearance-ex">Frightening Appearance (Ex)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Free Action">Whenever you make an attack against a foe that is unaware of your presence, you can attempt an <Link to="/skill/intimidate">Intimidate</Link> check to demoralize the target of your attack and any enemies within 10 feet who can see the attack. This check is attempted before the attack roll against the foe is made and resolved. You roll only one Intimidate check and applies the result to all the targets. If the check succeeds against the target of your attack, that foe is also <Link to="/misc/frightened">frightened</Link> for 1 round, in addition to being <Link to="/misc/shaken">shaken</Link> as normal, unless the foe succeeds at a Will save (DC = 10 + 1/2 your class level + your Charisma modifier). This effect is in addition to the bonuses gained from the <em>startling appearance</em> ability.</Pair>
 <Pair title="Special">Once a creature has been the target of this ability (either as the target of the attack or as a nearby creature, regardless of whether or not it was successful), it is immune to your <em>frightening appearance</em> for 24 hours. This is a mind-affecting fear effect.</Pair>
 </Ability>
-<Ability id="class-vigilante-stunning-appearance-ex" icon={["armor-downgrade"]}>
-<Pair single id="class-vigilante-stunning-appearance-ex">Stunning Appearance (Ex)</Pair>
+<Ability id="stunning-appearance-ex" icon={["armor-downgrade"]}>
+<Pair single id="stunning-appearance-ex">Stunning Appearance (Ex)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">Whenever you make a successful attack against a foe that is unaware of your presence, the foe must make a successful Will save (DC = 10 + 1/2 your class level + your Charisma modifier) or be <Link to="/misc/stunned">stunned</Link> until the end of your next turn. If the creature has more HD than your class level, it receives a +4 circumstance bonus on this save. This ability is in addition to the effects of <em>startling appearance</em> and <em>frightening appearance.</em></Pair>
 <Pair title="Special">Once a creature has been the target of this ability (regardless of whether or not the saving throw is successful), it is immune to your <em>stunning appearance</em> for 24 hours. This is a mind-affecting fear effect.</Pair>
 </Ability>
-<Ability id="class-vigilante-vengeance-strike-ex" icon={["upgrade"]}>
-<Pair single id="class-vigilante-vengeance-strike-ex">Vengeance Strike (Ex)</Pair>
+<Ability id="vengeance-strike-ex" icon={["upgrade"]}>
+<Pair single id="vengeance-strike-ex">Vengeance Strike (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">You can spend up to 5 <strong className="hl">standard actions</strong>, which all must be in consecutive rounds. On the following round, you can make a <em>vengeance strike</em> against the studied creature. The target must remain unaware of your presence (or not see you as a threat) until the attack. For each round spent studying the target, you grant yourself one of the following benefits on your <em>vengeance strike:</em> gain a +4 circumstance bonus on the attack roll, deal an additional 3d6 points of <Link to="/misc/precision_damage">precision damage</Link> if you hit, or treat the attack roll as if it were 2 higher for the purposes of determining whether the attack hit or threatens a critical hit (to maximum effective roll of 20). Each round of study can be spent in a different way or the same way (they stack with each other), but each round of study must be allocated before the attack roll is made.</Pair>
 <Pair title="Special">If you are an avenger, you automatically confirm any critical hits threatened by your <em>vengeance strike.</em> If you are a stalker and would normally be able to add a Hidden Strike Talent to this attack, you can instead add two Hidden Strike Talents to your vengeance strike.</Pair>
@@ -2988,6 +2988,6 @@ const _vigilante = {hasJL:true,title: "Vigilante", jsx: <><div className="jumpLi
 <h3 id="class-vigilante-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"vigilante archetypes","columns":[{"header":"Archetype","link":"arc-vigilante"},{"header":"Alignment"},{"header":"Armor Proficiency"},{"header":"Base Saving Throws"},{"header":"Class Skills"},{"header":"Dual Identity"},{"header":"Frightening Appearance"},{"header":"Seamless Guise"},{"header":"Skill Ranks"},{"header":"Social Talents"},{"header":"1st-level Social Talent"},{"header":"3rd-level Social Talent"},{"header":"5th-level Social Talent"},{"header":"7th-level Social Talent"},{"header":"9th-level Social Talent"},{"header":"11th-level Social Talent"},{"header":"15th-level Social Talent"},{"header":"17th-level Social Talent"},{"header":"19th-level Social Talent"},{"header":"Startling Appearance"},{"header":"Stunning Appearance"},{"header":"Unshakable"},{"header":"Vengeance Strike"},{"header":"Vigilante Specialization"},{"header":"Vigilante Talents"},{"header":"2nd-level Vigilante Talent"},{"header":"4th-level Vigilante Talent"},{"header":"6th-level Vigilante Talent"},{"header":"8th-level Vigilante Talent"},{"header":"10th-level Vigilante Talent"},{"header":"12th-level Vigilante Talent"},{"header":"14th-level Vigilante Talent"},{"header":"16th-level Vigilante Talent"},{"header":"18th-level Vigilante Talent"},{"header":"Weapon Proficieny"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Agathiel","agathiel"],null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null],[["Anaphexia Thought-Killer","anaphexia_thought_killer"],null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null],[["Avenging Beast","avenging_beast"],null,null,null,"X","X","X",null,"X",null,null,null,null,null,null,null,null,null,null,"X","X",null,null,"X",null,null,"X",null,"X","X",null,"X","X",null,null,null],[["Bellflower Harvester","bellflower_harvester"],null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null],[["Brute","brute"],"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,"X"],[["Cabalist","cabalist"],null,null,null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,"X","X",null,null,"X",null,null,"X",null,"X","X",null,"X","X",null,null,"X"],[["Chu Ye Enforcer","chu_ye_enforcer"],null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,"X","X",null,"X",null,null],[["Darklantern","darklantern"],null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Dragonscale Loyalist","dragonscale_loyalist"],null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Experimenter","experimenter"],"X",null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,"X","X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null],[["Faceless Enforcer","faceless_enforcer"],null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,"X",null,"X",null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,"X"],[["Ferocious Hunter","ferocious_hunter"],null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,"X",null,null,null,null,null,null,null],[["Gunmaster","gunmaster"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,"X"],[["Half-Elf Double Scion","half_elf_double_scion"],null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Hangman","hangman"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,"X",null,"X","X",null,null,null,null,null,null,null,null,"X"],[["Hidden Current","hidden_current"],null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Imperial Agent","imperial_agent"],null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Magical Child","magical_child"],null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,"X",null,null,"X","X",null,null,"X"],[["Masked Maiden","masked_maiden"],null,null,null,null,"X",null,"X",null,null,null,"X",null,"X",null,"X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X"],[["Mounted Fury","mounted_fury"],null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,"X",null,null,"X",null,null,null,null,null],[["Mutated Defender","mutated_defender"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null],[["Psychometrist","psychometrist"],null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,"X",null,null,"X",null,null,"X",null,null],[["Serial Killer","serial_killer"],"X",null,null,null,null,"X",null,null,null,null,null,null,"X","X",null,null,null,"X","X","X","X",null,"X",null,null,"X","X",null,null,"X","X",null,null,null,null],[["Splintersoul","splintersoul"],null,null,null,null,"X","X",null,null,null,null,"X",null,"X",null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Teisatsu","teisatsu"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,"X"],[["Warlock","warlock"],null,"X",null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,"X",null,"X","X",null,"X","X",null,null,null],[["Wildsoul","wildsoul"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,"X",null,null,"X",null,null,"X",null,null],[["Zealot","zealot"],"X",null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,"X","X",null,"X","X",null,"X",null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-vigilante-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="vigilante" prefix="class-vigilante-" />
+<RacialOptions cls="vigilante" />
 </>};
 export default {skald:_skald,slayer:_slayer,sorcerer:_sorcerer,spiritualist:_spiritualist,swashbuckler:_swashbuckler,vigilante:_vigilante}

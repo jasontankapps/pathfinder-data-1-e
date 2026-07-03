@@ -1,6 +1,5 @@
-import {IonIcon} from '@ionic/react';
 import Header from '../../components/Header';
-import Link, {ThLink} from '../../components/Link';
+import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import Defense from '../../components/monsters/Defense';
 import Info from '../../components/monsters/Info';
@@ -8,16 +7,17 @@ import Offense from '../../components/monsters/Offense';
 import SpellBlock from '../../components/monsters/SpellBlock';
 import Stats from '../../components/monsters/Stats';
 import Ecology from '../../components/monsters/Ecology';
+import AffInfo from '../../components/AfflictionInfo';
 const _charau_ka_jungle_trickster = {title: "Jungle Trickster (Charau-ka)", jsx: <><p><em>This lean ape-person is bedecked with a rattling collection of whistles, drums, and charms.</em></p>
 <Header full><span>Jungle Trickster</span><span>CR 8</span></Header>
 <div className="reduce">
-<Info id="monster-charau_ka_jungle_trickster-charau-ka-classbard-arc-bardsound-striker-6-info" source={[["Inner Sea Monster Codex",15]]} xp="4,800" text={<>Charau-ka <Link to="/class/bard">bard</Link> (<Link to="/arc-bard/sound_striker">sound striker</Link>) 6</>} ce small humanoid othersubs={["charau-ka"]} init={2} dv={60} llv scent pcp={10} />
-<Defense id="monster-charau_ka_jungle_trickster--defense" ac={[22,13,20]} mod="+4 armor, +2 Dex, +3 natural, +2 shield, +1 size" hp={[55,"3d8+6d8+15",9]} fort="+4" ref="+10" will="+8; +4 vs. bardic performance, language-dependent, and sonic" />
-<Offense id="monster-charau_ka_jungle_trickster--offense" sp={30} cl={30} melee="+1 whip +10/+5 (1d2+3 nonlethal), bite +4 (1d3+3)" ranged="rock +10 (1d4+2/19-20)" specAtt={[["bardic performance 23 roundsday countersong distraction fascinate 91DC 1693 inspire courage 2 weird words 91DC 16 1d8393 wordstrike 911d4693",<>bardic performance 23 rounds/day (<Link to="/performance/countersong">countersong</Link>, <Link to="/performance/distraction">distraction</Link>, <Link to="/performance/fascinate">fascinate</Link> [DC 16], <Link to="/performance/inspire_courage">inspire courage</Link> +2, weird words [DC 16, 1d8+3], wordstrike [1d4+6])</>],["shrieking frenzy","shrieking frenzy"],["thrown-weapon mastery","thrown-weapon mastery"]]} />
-<SpellBlock id="monster-charau_ka_jungle_trickster--spells-monster-spellblock-1" known={{"cl":6,"con":"+9","known":"Bard","l2":[4,<><Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link>, <Link to="/spell/detect_thoughts">detect thoughts</Link> (DC 15), <Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/suggestion">suggestion</Link> (DC 15)</>],"l1":[5,<><Link to="/spell/charm_person">charm person</Link> (DC 14), <Link to="/spell/disguise_self">disguise self</Link> (DC 14), <Link to="/spell/expeditious_retreat">expeditious retreat</Link>, <Link to="/spell/hideous_laughter">hideous laughter</Link> (DC 14)</>],"l0":[0,<><Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/ghost_sound">ghost sound</Link> (DC 13), <Link to="/spell/lullaby">lullaby</Link> (DC 13), <Link to="/spell/mage_hand">mage hand</Link>, <Link to="/spell/prestidigitation">prestidigitation</Link> (DC 13), <Link to="/spell/read_magic">read magic</Link></>]}} />
-<Stats id="monster-charau_ka_jungle_trickster--stats" atts={[15,15,12,12,14,16]} bab={6} cmb={7} cmd={19} feats={["Extra Performance","Point-Blank Shot",["Skill Focus"," (Perform [oratory])"],"Skill Focus (Perform [act])","Spellsong",["Throw Anything",<sup>B</sup>]]} skills={{"acro":{"b":11},"app":{"b":5},"climb":{"b":14},"intm":{"b":8},"k":{"g":8,"h":8},"ling":{"b":6},"per":{"b":10},"perf":{"of":"dance","b":10},"soh":{"b":7},"spc":{"b":8},"stl":{"b":13},"umd":{"b":7}}} racial="+4 Stealth" lang={["A","C",["Kelish"],"Po",["Vanaran"]]} sq="bardic knowledge +3, lore master 1/day, versatile performance (oratory, act)" combat={[["Pmirror image"],["WDalter self/21 charges"],["2","PXoil of taggit"]]} othergear={[["+1","Asl"],["Mw","Ahws"],["+1","Ww"],["WIamu1"],["Qdisguise kit"]]} />
+<Info source={[["Inner Sea Monster Codex",15]]} xp="4,800" text={<>Charau-ka <Link to="/class/bard">bard</Link> (<Link to="/arc-bard/sound_striker">sound striker</Link>) 6</>} ce small humanoid othersubs={["charau-ka"]} init={2} dv={60} llv scent pcp={10} />
+<Defense ac={[22,13,20]} mod="+4 armor, +2 Dex, +3 natural, +2 shield, +1 size" hp={[55,"3d8+6d8+15",9]} fort="+4" ref="+10" will="+8; +4 vs. bardic performance, language-dependent, and sonic" />
+<Offense sp={30} cl={30} melee="+1 whip +10/+5 (1d2+3 nonlethal), bite +4 (1d3+3)" ranged="rock +10 (1d4+2/19-20)" specAtt={[["bardic performance 23 roundsday countersong distraction fascinate 91DC 1693 inspire courage 2 weird words 91DC 16 1d8393 wordstrike 911d4693",<>bardic performance 23 rounds/day (<Link to="/performance/countersong">countersong</Link>, <Link to="/performance/distraction">distraction</Link>, <Link to="/performance/fascinate">fascinate</Link> [DC 16], <Link to="/performance/inspire_courage">inspire courage</Link> +2, weird words [DC 16, 1d8+3], wordstrike [1d4+6])</>],["shrieking frenzy","shrieking frenzy"],["thrown-weapon mastery","thrown-weapon mastery"]]} />
+<SpellBlock id="1" known={{"cl":6,"con":"+9","known":"Bard","l2":[4,<><Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link>, <Link to="/spell/detect_thoughts">detect thoughts</Link> (DC 15), <Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/suggestion">suggestion</Link> (DC 15)</>],"l1":[5,<><Link to="/spell/charm_person">charm person</Link> (DC 14), <Link to="/spell/disguise_self">disguise self</Link> (DC 14), <Link to="/spell/expeditious_retreat">expeditious retreat</Link>, <Link to="/spell/hideous_laughter">hideous laughter</Link> (DC 14)</>],"l0":[0,<><Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/ghost_sound">ghost sound</Link> (DC 13), <Link to="/spell/lullaby">lullaby</Link> (DC 13), <Link to="/spell/mage_hand">mage hand</Link>, <Link to="/spell/prestidigitation">prestidigitation</Link> (DC 13), <Link to="/spell/read_magic">read magic</Link></>]}} />
+<Stats atts={[15,15,12,12,14,16]} bab={6} cmb={7} cmd={19} feats={["Extra Performance","Point-Blank Shot",["Skill Focus"," (Perform [oratory])"],"Skill Focus (Perform [act])","Spellsong",["Throw Anything",<sup>B</sup>]]} skills={{"acro":{"b":11},"app":{"b":5},"climb":{"b":14},"intm":{"b":8},"k":{"g":8,"h":8},"ling":{"b":6},"per":{"b":10},"perf":{"of":"dance","b":10},"soh":{"b":7},"spc":{"b":8},"stl":{"b":13},"umd":{"b":7}}} racial="+4 Stealth" lang={["A","C",["Kelish"],"Po",["Vanaran"]]} sq="bardic knowledge +3, lore master 1/day, versatile performance (oratory, act)" combat={[["Pmirror image"],["WDalter self/21 charges"],["2","PXoil of taggit"]]} othergear={[["+1","Asl"],["Mw","Ahws"],["+1","Ww"],["WIamu1"],["Qdisguise kit"]]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-charau_ka_jungle_trickster--eco-eco" env="warm forests" />
+<Ecology env="warm forests" />
 </div>
 <Header sub>Description</Header>
 <p>Devious and aggressive, charau-ka range farther across the Inner Sea than anyone truly expects. Their jungle tricksters - masters of stealth, deception, and disguise - roam freely, if sparsely, in the shadows of the world, or boldly stride through cities cloaked in makeup or glamers. Across Garund they often pose as common apes, but they sometimes travel abroad in the guise of exotic pets of obedient human slaves or use illusions to pose as halflings or human children. Between Jalmeray and Vudra, resourceful apes pose as playful <Link to="/race/vanara">vanaras</Link> as well.</p>
@@ -26,12 +26,12 @@ const _charau_ka_jungle_trickster = {title: "Jungle Trickster (Charau-ka)", jsx:
 const _charau_ka_simian_sharpshooter = {title: "Simian Sharpshooter (Charau-ka)", jsx: <><p><em>This long-furred ape-person wears a battered snakeskin poncho and carries a worn musket.</em></p>
 <Header full><span>Simian Sharpshooter</span><span>CR 6</span></Header>
 <div className="reduce">
-<Info id="monster-charau_ka_simian_sharpshooter-charau-ka-classgunslinger-4-info" source={[["Inner Sea Monster Codex",13]]} xp="2,400" text={<>Charau-ka <Link to="/class/gunslinger">gunslinger</Link> 4</>} ce small humanoid othersubs={["charau-ka"]} init={6} dv={60} llv scent pcp={11} />
-<Defense id="monster-charau_ka_simian_sharpshooter--defense" ac={[24,17,18]} mod="+4 armor, +4 Dex, +2 dodge, +3 natural, +1 size" hp={[60,"3d8+4d10+25",7]} fort="+8" ref="+11" will="+5" def={[["nimble 1","nimble +1"]]} />
-<Offense id="monster-charau_ka_simian_sharpshooter--offense" sp={30} cl={30} melee="mwk club +10/+5 (1d4+2), bite +4 (1d3+3)" ranged="musket +11 (1d10/&times;4) or rock +12 (1d4+2/19-20)" specAtt={[["grit 3","grit (3)"],["shrieking frenzy","shrieking frenzy"],["thrown-weapon mastery","thrown-weapon mastery"]]} />
-<Stats id="monster-charau_ka_simian_sharpshooter--stats" atts={[15,18,16,10,16,9]} bab={6} cmb={7} cmd={23} feats={["Dodge","Gunsmithing","Mobility","Point-Blank Shot","Precise Shot","Shot on the Run",["Throw Anything",<sup>B</sup>]]} skills={{"acro":{"b":10},"bluff":{"b":4},"climb":{"b":13},"intm":{"b":4},"per":{"b":11}}} racial="+4 Stealth" lang={["A","Po"]} sq="deeds (deadeye, gunslinger initiative, gunslinger's dodge, pistol-whip, quick clear, utility shot), gunsmith" combat={[["Ojury-rig","Omagic weapon"],["2","Pcure moderate wounds"],["Pinvisibility"],["Pprotection from good"],<>2 <Link to="/magic-weapon/tracer_bullet">tracer bullets</Link>, 10 <Link to="/eq-weapon/entangling_shot_alchemical_cartridge">entangling shot alchemical cartridges</Link>, 10 <Link to="/eq-weapon/salt_shot_alchemical_cartridge">salt shot alchemical cartridges</Link></>,["2","Wtbs"]]} othergear={[["Mw","Acs"],["Mw","Wc"],["Wm20"],["WIamu1"],<><Link to="/eq-weapon/powder_horn">powder horn</Link> with 20 doses of black powder</>]} />
+<Info source={[["Inner Sea Monster Codex",13]]} xp="2,400" text={<>Charau-ka <Link to="/class/gunslinger">gunslinger</Link> 4</>} ce small humanoid othersubs={["charau-ka"]} init={6} dv={60} llv scent pcp={11} />
+<Defense ac={[24,17,18]} mod="+4 armor, +4 Dex, +2 dodge, +3 natural, +1 size" hp={[60,"3d8+4d10+25",7]} fort="+8" ref="+11" will="+5" def={[["nimble 1","nimble +1"]]} />
+<Offense sp={30} cl={30} melee="mwk club +10/+5 (1d4+2), bite +4 (1d3+3)" ranged="musket +11 (1d10/&times;4) or rock +12 (1d4+2/19-20)" specAtt={[["grit 3","grit (3)"],["shrieking frenzy","shrieking frenzy"],["thrown-weapon mastery","thrown-weapon mastery"]]} />
+<Stats atts={[15,18,16,10,16,9]} bab={6} cmb={7} cmd={23} feats={["Dodge","Gunsmithing","Mobility","Point-Blank Shot","Precise Shot","Shot on the Run",["Throw Anything",<sup>B</sup>]]} skills={{"acro":{"b":10},"bluff":{"b":4},"climb":{"b":13},"intm":{"b":4},"per":{"b":11}}} racial="+4 Stealth" lang={["A","Po"]} sq="deeds (deadeye, gunslinger initiative, gunslinger's dodge, pistol-whip, quick clear, utility shot), gunsmith" combat={[["Ojury-rig","Omagic weapon"],["2","Pcure moderate wounds"],["Pinvisibility"],["Pprotection from good"],<>2 <Link to="/magic-weapon/tracer_bullet">tracer bullets</Link>, 10 <Link to="/eq-weapon/entangling_shot_alchemical_cartridge">entangling shot alchemical cartridges</Link>, 10 <Link to="/eq-weapon/salt_shot_alchemical_cartridge">salt shot alchemical cartridges</Link></>,["2","Wtbs"]]} othergear={[["Mw","Acs"],["Mw","Wc"],["Wm20"],["WIamu1"],<><Link to="/eq-weapon/powder_horn">powder horn</Link> with 20 doses of black powder</>]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-charau_ka_simian_sharpshooter--eco-eco" env="warm forests" />
+<Ecology env="warm forests" />
 </div>
 <Header sub>Description</Header>
 <p>A decade ago, intent on impressing the Gorilla King, a tribe of charau-ka crossed the Brazen Peaks and raided Alkenstar's Dongun Hold, a dwarven citadel loaded with the Grand Duchy's prized firearms. They suffered severe casualties but absconded with scores of guns. Ruthazek then handpicked several dozen promising ape-men to master the weapons, creating an elite caste of assassins, monster wranglers, and bounty hunters. Many warriors managed to survive this unorthodox training and now wander the jungle at Ruthazek's command, eliminating Usaro's enemies, retrieving fugitive slaves, and stocking the beast pits. The Gorilla King takes a special joy in sending his technological marvels to eliminate mages and healers.</p>
@@ -40,11 +40,11 @@ const _charau_ka_simian_sharpshooter = {title: "Simian Sharpshooter (Charau-ka)"
 const _charda = {title: "Charda", jsx: <><p><em>Armored in dense, bony plates, this four-armed creature drools wretched strings of black bile from its fanged maw.</em></p>
 <Header full><span>Charda</span><span>CR 7</span></Header>
 <div className="reduce">
-<Info id="monster-charda--info" source={[["Bestiary 2",55],["Pathfinder #18: Descent into Midnight",84]]} xp="3,200" cn small monstrousHumanoid subs={["aquatic"]} init={2} dv={120} pcp={13} />
-<Defense id="monster-charda--defense" ac={[20,13,18]} mod="+2 Dex, +7 natural, +1 size" hp={[85,"9d10+36"]} fort="+7" ref="+10" will="+7" ferocity immune="cold, poison" />
-<Offense id="monster-charda--offense" sp={20} sw={60} melee="bite +13 (1d6+3 plus 1d6 cold), 4 claws +14 (1d4+3)" specAtt={[["black bile","black bile"]]} />
-<Stats id="monster-charda--stats" atts={[16,15,19,11,12,8]} bab={9} cmb={11} cmbP="+19 bull rush and trip" cmd={23} feats={["Combat Expertise","Improved Bull Rush","Improved Trip","Lightning Reflexes","Power Attack",["Weapon Focus"," (claw)"]]} skills={{"intm":{"b":6},"k":{"r":4},"per":{"b":13},"swim":{"b":18}}} lang={["Ak","U"]} sq={<><Link to="/umr/amphibious">amphibious</Link>, cold vigor, overwhelming</>} />
-<Ecology id="monster-charda--eco-eco" env="cold aquatic or underground" org="solitary, pair, gang (3-5), or tribe (6-14)" treasure={{"S":false}} />
+<Info source={[["Bestiary 2",55],["Pathfinder #18: Descent into Midnight",84]]} xp="3,200" cn small monstrousHumanoid subs={["aquatic"]} init={2} dv={120} pcp={13} />
+<Defense ac={[20,13,18]} mod="+2 Dex, +7 natural, +1 size" hp={[85,"9d10+36"]} fort="+7" ref="+10" will="+7" ferocity immune="cold, poison" />
+<Offense sp={20} sw={60} melee="bite +13 (1d6+3 plus 1d6 cold), 4 claws +14 (1d4+3)" specAtt={[["black bile","black bile"]]} />
+<Stats atts={[16,15,19,11,12,8]} bab={9} cmb={11} cmbP="+19 bull rush and trip" cmd={23} feats={["Combat Expertise","Improved Bull Rush","Improved Trip","Lightning Reflexes","Power Attack",["Weapon Focus"," (claw)"]]} skills={{"intm":{"b":6},"k":{"r":4},"per":{"b":13},"swim":{"b":18}}} lang={["Ak","U"]} sq={<><Link to="/umr/amphibious">amphibious</Link>, cold vigor, overwhelming</>} />
+<Ecology env="cold aquatic or underground" org="solitary, pair, gang (3-5), or tribe (6-14)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Black Bile (Su)</strong> A charda's body seethes with freezing <Link to="/magic-artifact/black_blood">black bile</Link>. Its supernaturally cold, black bile is the source of the additional cold damage when a charda bites a creature. As a standard action, a charda can expel its full store of bile as a <Link to="/umr/breath_weapon">breath weapon</Link> that can take the form of a 60-foot line or a 30-foot cone. All creatures in this area take 8d6 points of cold damage (DC 18 Reflex half). A charda can use this breath weapon once every 1d4 rounds - while its black bile is recharging, it does not deal additional cold damage with its bite. The save DC is Constitution-based.</p>
@@ -58,12 +58,12 @@ const _charda = {title: "Charda", jsx: <><p><em>Armored in dense, bony plates, t
 const _charnel_colossus = {title: "Charnel Colossus", jsx: <><p><em>This horror is composed of dozens, if not hundreds, of decomposing cadavers held together as an amalgamated whole.</em></p>
 <Header full><span>Charnel Colossus</span><span>CR 19</span></Header>
 <div className="reduce">
-<Info id="monster-charnel_colossus--info" source={[["Inner Sea Bestiary",10]]} xp="204,800" ne colossal undead init={3} senSpell={["see invisibility"]} dv={60} pcp={50} />
-<Defense id="monster-charnel_colossus--defense" ac={[29,1,29]} mod="-1 Dex, +28 natural, -8 size" hp={[345,"30d8+210"]} fort="+19" ref="+11" will="+32" chanRes="+4" amorph dr="15/magic and slashing" immune={<>critical hits, precision damage, <Link to="/feat/turn_undead">turning</Link>, <Link to="/umr/undead_traits">undead traits</Link></>} sr="30" />
-<Offense id="monster-charnel_colossus--offense" sp={30} melee={<>6 slams +26 (2d8+12/19-20 plus <Link to="/umr/grab">grab</Link> and mind feed) or 2 tendrils +21 (2d6+6 plus grab and <Link to="/umr/pull">pull</Link>)</>} space={"30"} reach={"20"} reachP={"40 ft. with tendrils"} specAtt={[["voice of the ancients","voice of the ancients"]]} />
-<SpellBlock id="monster-charnel_colossus--spells-monster-spellblock-1" sla={{"cl":18,"con":"+25","content":[{"constant":true,"content":<Link to="/spell/see_invisibility">see invisibility</Link>},{"will":true,"content":<><Link to="/spell/augury">augury</Link>, <Link to="/spell/blindness_deafness">blindness/deafness</Link> (DC 20), <Link to="/spell/doom">doom</Link> (DC 18)</>},{"day":3,"content":<><Link to="/spell/bestow_curse">bestow curse</Link> (DC 20), <Link to="/spell/speak_with_dead">speak with dead</Link> (DC 20), <Link to="/spell/unholy_blight">unholy blight</Link> (DC 21)</>},{"day":1,"content":<><Link to="/spell/blasphemy">blasphemy</Link> (DC 24), <Link to="/spell/horrid_wilting">horrid wilting</Link> (DC 25)</>}]}} />
-<Stats id="monster-charnel_colossus--stats" atts={[34,9,0,18,36,25]} bab={22} cmb={42} cmbP="+46 grapple" cmd={51} cmdP="can't be tripped" feats={[["Ability Focus"," (voice of the ancients)"],"Alertness","Blind-Fight","Combat Reflexes","Critical Focus","Great Fortitude",["Improved Critical"," (slam)"],"Improved Initiative","Improved Iron Will","Iron Will","Lightning Reflexes","Power Attack","Staggering Critical","Stand Still","Stunning Critical"]} skills={{"climb":{"b":45},"intm":{"b":40},"k":{"h":34,"a":37},"per":{"b":50},"sm":{"b":50},"spc":{"b":37}}} lang={[["Common (or the most commonly spoken language of its corporate body)"]]} sq="corporate will" />
-<Ecology id="monster-charnel_colossus--eco-eco" env="any (Kalexcourt, Ustalav)" org="solitary" treasure={{"S":false}} />
+<Info source={[["Inner Sea Bestiary",10]]} xp="204,800" ne colossal undead init={3} senSpell={["see invisibility"]} dv={60} pcp={50} />
+<Defense ac={[29,1,29]} mod="-1 Dex, +28 natural, -8 size" hp={[345,"30d8+210"]} fort="+19" ref="+11" will="+32" chanRes="+4" amorph dr="15/magic and slashing" immune={<>critical hits, precision damage, <Link to="/feat/turn_undead">turning</Link>, <Link to="/umr/undead_traits">undead traits</Link></>} sr="30" />
+<Offense sp={30} melee={<>6 slams +26 (2d8+12/19-20 plus <Link to="/umr/grab">grab</Link> and mind feed) or 2 tendrils +21 (2d6+6 plus grab and <Link to="/umr/pull">pull</Link>)</>} space={"30"} reach={"20"} reachP={"40 ft. with tendrils"} specAtt={[["voice of the ancients","voice of the ancients"]]} />
+<SpellBlock id="1" sla={{"cl":18,"con":"+25","content":[{"constant":true,"content":<Link to="/spell/see_invisibility">see invisibility</Link>},{"will":true,"content":<><Link to="/spell/augury">augury</Link>, <Link to="/spell/blindness_deafness">blindness/deafness</Link> (DC 20), <Link to="/spell/doom">doom</Link> (DC 18)</>},{"day":3,"content":<><Link to="/spell/bestow_curse">bestow curse</Link> (DC 20), <Link to="/spell/speak_with_dead">speak with dead</Link> (DC 20), <Link to="/spell/unholy_blight">unholy blight</Link> (DC 21)</>},{"day":1,"content":<><Link to="/spell/blasphemy">blasphemy</Link> (DC 24), <Link to="/spell/horrid_wilting">horrid wilting</Link> (DC 25)</>}]}} />
+<Stats atts={[34,9,0,18,36,25]} bab={22} cmb={42} cmbP="+46 grapple" cmd={51} cmdP="can't be tripped" feats={[["Ability Focus"," (voice of the ancients)"],"Alertness","Blind-Fight","Combat Reflexes","Critical Focus","Great Fortitude",["Improved Critical"," (slam)"],"Improved Initiative","Improved Iron Will","Iron Will","Lightning Reflexes","Power Attack","Staggering Critical","Stand Still","Stunning Critical"]} skills={{"climb":{"b":45},"intm":{"b":40},"k":{"h":34,"a":37},"per":{"b":50},"sm":{"b":50},"spc":{"b":37}}} lang={[["Common (or the most commonly spoken language of its corporate body)"]]} sq="corporate will" />
+<Ecology env="any (Kalexcourt, Ustalav)" org="solitary" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Corporate Will (Su)</strong> A charnel colossus is composed of the sentience of scores of creatures. Though they are able to work in concert as a cohesive whole, they are also able to separate their actions at will so as to not be impeded by the limitations of a single consciousness, effectively allowing them to focus on two things at once. As a result, the charnel colossus can use up to two spell-like abilities in the same round that it makes physical attacks or other full-round actions. It also gains an additional spell attack per round. In addition, a charnel colossus is immune to being turned (though it can still take damage from <Link to="/ability/channel_positive_energy">channeled positive energy</Link>). While part of the creature's sentience may be affected by a turn attempt, there are enough unaffected intellects within to override the effect.</p>
@@ -80,12 +80,12 @@ const _charnel_colossus = {title: "Charnel Colossus", jsx: <><p><em>This horror 
 const _charnel_god = {title: "Charnel God", jsx: <><p><em>This porphyry statue depicts a three-headed goddess with draconic wings, a long tail, and a deadly looking longbow in her hands.</em></p>
 <Header full><span>Charnel God</span><span>CR 23</span></Header>
 <div className="reduce">
-<Info id="monster-charnel_god--info" source={[["Bestiary 6",54]]} xp="819,200" ce large construct init={11} sen={["divine sense"]} senSpell={["true seeing"]} dv={60} llv pcp={36} aura={"divine antithesis (60 ft., DC 35)"} />
-<Defense id="monster-charnel_god--defense" ac={[42,32,31]} mod="+11 Dex, +10 natural, +12 profane, -1 size" hp={[485,"26d10+342"]} fh="10" fort="+20" ref="+19" will="+20" def={[["divine antithesis","divine antithesis"]]} dr="15/-" immune={<Link to="/umr/construct_traits">construct traits</Link>} resist="acid 30, cold 30, electricity 30, fire 30" sr="34" />
-<Offense id="monster-charnel_god--offense" sp={60} fl={60} flP="good" melee="2 bites +37 (2d6+12), gore +37 (1d8+6), 2 slams +37 (1d6+12)" ranged={<>+5 <Link to="/magic-enh/unholy">unholy</Link> composite longbow +42/+37/+32/+27 (2d6+17/19-20/&times;3)</>} space={"10"} reach={"10"} specAtt={[["severance","severance"]]} />
-<SpellBlock id="monster-charnel_god--spells-monster-spellblock-1" sla={{"cl":23,"con":"+35","content":[{"constant":true,"content":<Link to="/spell/true_seeing">true seeing</Link>},{"will":true,"content":<><Link to="/spell/align_weapon">align weapon</Link> (chaos only), <Link to="/spell/animate_dead">animate dead</Link>, <Link to="/spell/cause_fear">cause fear</Link> (DC 23), <Link to="/spell/chaos_hammer">chaos hammer</Link> (DC 26), <Link to="/spell/death_knell">death knell</Link>, <Link to="/spell/death_ward">death ward</Link>, <Link to="/spell/dispel_law">dispel law</Link>, <Link to="/spell/magic_circle_against_law">magic circle against law</Link>, <Link to="/spell/protection_from_law">protection from law</Link>, <Link to="/spell/slay_living">slay living</Link> (DC 27)</>},{"day":3,"content":<><Link to="/spell/animate_objects">animate objects</Link>, <Link to="/spell/cloak_of_chaos">cloak of chaos</Link> (DC 30), <Link to="/spell/create_greater_undead">create greater undead</Link>, <Link to="/spell/create_undead">create undead</Link>, <Link to="/spell/destruction">destruction</Link> (DC 29), <Link to="/spell/word_of_chaos">word of chaos</Link> (DC 29)</>},{"day":1,"content":<Link to="/spell/summon_monster">summon monster</Link>}]}} />
-<Stats id="monster-charnel_god--stats" atts={[34,33,0,27,30,35]} bab={26} cmb={39} cmd={72} feats={["Clustered Shots","Combat Reflexes","Deadly Aim","Far Shot",["Improved Critical"," (composite longbow)"],"Improved Precise Shot","Improved Snap Shot","Iron Will","Point-Blank Shot","Precise Shot","Rapid Shot","Snap Shot",["Weapon Focus"," (composite longbow)"]]} skills={{"fly":{"b":42},"intm":{"b":38},"k":{"a":34,"p":34,"r":34},"per":{"b":36}}} lang={["A","C",";",[<><Link to="/umr/telepathy">telepathy</Link> 300 ft.</>]]} sq="divinity lost, favored weapon, hideous will" />
-<Ecology id="monster-charnel_god--eco-eco" env="any" org="solitary" treasure={{"T":false}} />
+<Info source={[["Bestiary 6",54]]} xp="819,200" ce large construct init={11} sen={["divine sense"]} senSpell={["true seeing"]} dv={60} llv pcp={36} aura={"divine antithesis (60 ft., DC 35)"} />
+<Defense ac={[42,32,31]} mod="+11 Dex, +10 natural, +12 profane, -1 size" hp={[485,"26d10+342"]} fh="10" fort="+20" ref="+19" will="+20" def={[["divine antithesis","divine antithesis"]]} dr="15/-" immune={<Link to="/umr/construct_traits">construct traits</Link>} resist="acid 30, cold 30, electricity 30, fire 30" sr="34" />
+<Offense sp={60} fl={60} flP="good" melee="2 bites +37 (2d6+12), gore +37 (1d8+6), 2 slams +37 (1d6+12)" ranged={<>+5 <Link to="/magic-enh/unholy">unholy</Link> composite longbow +42/+37/+32/+27 (2d6+17/19-20/&times;3)</>} space={"10"} reach={"10"} specAtt={[["severance","severance"]]} />
+<SpellBlock id="1" sla={{"cl":23,"con":"+35","content":[{"constant":true,"content":<Link to="/spell/true_seeing">true seeing</Link>},{"will":true,"content":<><Link to="/spell/align_weapon">align weapon</Link> (chaos only), <Link to="/spell/animate_dead">animate dead</Link>, <Link to="/spell/cause_fear">cause fear</Link> (DC 23), <Link to="/spell/chaos_hammer">chaos hammer</Link> (DC 26), <Link to="/spell/death_knell">death knell</Link>, <Link to="/spell/death_ward">death ward</Link>, <Link to="/spell/dispel_law">dispel law</Link>, <Link to="/spell/magic_circle_against_law">magic circle against law</Link>, <Link to="/spell/protection_from_law">protection from law</Link>, <Link to="/spell/slay_living">slay living</Link> (DC 27)</>},{"day":3,"content":<><Link to="/spell/animate_objects">animate objects</Link>, <Link to="/spell/cloak_of_chaos">cloak of chaos</Link> (DC 30), <Link to="/spell/create_greater_undead">create greater undead</Link>, <Link to="/spell/create_undead">create undead</Link>, <Link to="/spell/destruction">destruction</Link> (DC 29), <Link to="/spell/word_of_chaos">word of chaos</Link> (DC 29)</>},{"day":1,"content":<Link to="/spell/summon_monster">summon monster</Link>}]}} />
+<Stats atts={[34,33,0,27,30,35]} bab={26} cmb={39} cmd={72} feats={["Clustered Shots","Combat Reflexes","Deadly Aim","Far Shot",["Improved Critical"," (composite longbow)"],"Improved Precise Shot","Improved Snap Shot","Iron Will","Point-Blank Shot","Precise Shot","Rapid Shot","Snap Shot",["Weapon Focus"," (composite longbow)"]]} skills={{"fly":{"b":42},"intm":{"b":38},"k":{"a":34,"p":34,"r":34},"per":{"b":36}}} lang={["A","C",";",[<><Link to="/umr/telepathy">telepathy</Link> 300 ft.</>]]} sq="divinity lost, favored weapon, hideous will" />
+<Ecology env="any" org="solitary" treasure={{"T":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Divine Antithesis (Ex)</strong> A charnel god is immune to any divine spell that allows spell resistance. Additionally, creatures within 60 feet of a charnel god gain spell resistance against divine spells equal to 11 + the charnel god's CR (34 for most charnel gods). Creatures cannot voluntarily lower this spell resistance.</p>
@@ -105,11 +105,11 @@ const _charnel_god = {title: "Charnel God", jsx: <><p><em>This porphyry statue d
 const _charybdis = {title: "Charybdis", jsx: <><p><em>An immense spiny monster, its back plated in chitin and its belly in thick folds of blubber, rises hungrily from the center of a whirlpool.</em></p>
 <Header full><span>Charybdis</span><span>CR 13</span></Header>
 <div className="reduce">
-<Info id="monster-charybdis--info" source={[["Bestiary 2",56]]} xp="25,600" cn gargantuan aberration subs={["aquatic"]} init={3} dv={120} blindsight={60} pcp={23} />
-<Defense id="monster-charybdis--defense" ac={[28,5,28]} mod="-1 Dex, +23 natural, -4 size" hp={[184,"16d8+112"]} fh="10" fort="+12" ref="+6" will="+14" immune="acid" resist="cold 20" />
-<Offense id="monster-charybdis--offense" sp={20} sw={50} melee={<>bite +20 (2d8+12/19-20 plus <Link to="/umr/grab">grab</Link>), 2 claws +20 (2d6+12)</>} space={"20"} reach={"20"} specAtt={[["rending claws","rending claws"],["vortex","vortex"]]} fSwallow swallow="6d6 bludgeoning damage plus 6d6 acid damage, AC 21, hp 18" />
-<Stats id="monster-charybdis--stats" atts={[34,9,25,4,19,6]} bab={12} cmb={28} cmbP="+32 grapple" cmd={37} cmdP="can't be tripped" feats={["Awesome Blow","Improved Bull Rush",["Improved Critical"," (bite)"],"Improved Initiative","Improved Vital Strike","Lightning Reflexes","Power Attack","Vital Strike"]} skills={{"per":{"b":23},"swim":{"b":20}}} lang={["Aq"]} />
-<Ecology id="monster-charybdis--eco-eco" env="any oceans" org="solitary" treasure={{"S":false}} />
+<Info source={[["Bestiary 2",56]]} xp="25,600" cn gargantuan aberration subs={["aquatic"]} init={3} dv={120} blindsight={60} pcp={23} />
+<Defense ac={[28,5,28]} mod="-1 Dex, +23 natural, -4 size" hp={[184,"16d8+112"]} fh="10" fort="+12" ref="+6" will="+14" immune="acid" resist="cold 20" />
+<Offense sp={20} sw={50} melee={<>bite +20 (2d8+12/19-20 plus <Link to="/umr/grab">grab</Link>), 2 claws +20 (2d6+12)</>} space={"20"} reach={"20"} specAtt={[["rending claws","rending claws"],["vortex","vortex"]]} fSwallow swallow="6d6 bludgeoning damage plus 6d6 acid damage, AC 21, hp 18" />
+<Stats atts={[34,9,25,4,19,6]} bab={12} cmb={28} cmbP="+32 grapple" cmd={37} cmdP="can't be tripped" feats={["Awesome Blow","Improved Bull Rush",["Improved Critical"," (bite)"],"Improved Initiative","Improved Vital Strike","Lightning Reflexes","Power Attack","Vital Strike"]} skills={{"per":{"b":23},"swim":{"b":20}}} lang={["Aq"]} />
+<Ecology env="any oceans" org="solitary" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Rending Claws (Ex)</strong> A charybdis's claws are particularly devastating when used against objects, and ignore the first 10 points of an object's hardness rating.</p>
@@ -122,16 +122,17 @@ const _charybdis = {title: "Charybdis", jsx: <><p><em>An immense spiny monster, 
 const _chelarac = {title: "Chelarac", jsx: <><p><em>This monstrous creature appears to be an enormous spider with a human-like head. Sickly blisters holding squirming young cover the creature's abdomen.</em></p>
 <Header full><span>Chelarac</span><span>CR 8</span></Header>
 <div className="reduce">
-<Info id="monster-chelarac--info" source={[["Pathfinder #144: Midwives to Death",80]]} xp="4,800" ne large aberration init={8} dv={60} pcp={22} />
-<Defense id="monster-chelarac--defense" ac={[22,14,17]} mod="+4 Dex, +1 dodge, +8 natural, -1 size" hp={[114,"12d8+60"]} fort="+9" ref="+8" will="+11" />
-<Offense id="monster-chelarac--offense" sp={30} cl={30} melee="bite +15 (1d10+10 plus poison and siphon knowledge)" space={"10"} reach={"5"} specAtt={[["release brood","release brood"]]} />
-<Stats id="monster-chelarac--stats" atts={[25,18,20,19,17,16]} bab={9} cmb={17} cmd={32} feats={["Alertness","Combat Expertise","Dodge","Improved Feint","Improved Initiative","Mobility"]} skills={{"bluff":{"b":12},"climb":{"b":15},"diplo":{"b":12},"sm":{"b":19},"stl":{"b":15}}} lang={["Ak","C","U",";",["broodspeak"]]} />
-<Ecology id="monster-chelarac--eco-eco" env="any underground" org="solitary" treasure={{"I":false}} />
+<Info source={[["Pathfinder #144: Midwives to Death",80]]} xp="4,800" ne large aberration init={8} dv={60} pcp={22} />
+<Defense ac={[22,14,17]} mod="+4 Dex, +1 dodge, +8 natural, -1 size" hp={[114,"12d8+60"]} fort="+9" ref="+8" will="+11" />
+<Offense sp={30} cl={30} melee="bite +15 (1d10+10 plus poison and siphon knowledge)" space={"10"} reach={"5"} specAtt={[["release brood","release brood"]]} />
+<Stats atts={[25,18,20,19,17,16]} bab={9} cmb={17} cmd={32} feats={["Alertness","Combat Expertise","Dodge","Improved Feint","Improved Initiative","Mobility"]} skills={{"bluff":{"b":12},"climb":{"b":15},"diplo":{"b":12},"sm":{"b":19},"stl":{"b":15}}} lang={["Ak","C","U",";",["broodspeak"]]} />
+<Ecology env="any underground" org="solitary" treasure={{"I":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Broodspeak (Su)</strong> A chelarac can communicate telepathically with its broodlings at a range of 1,000 feet.</p>
 <p><strong>Poison (Ex)</strong></p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-chelarac--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 21</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/int_damage">Int damage</Link> and 1d6 hp damage</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><p><strong>Release Brood (Ex)</strong> If a chelarac takes more than 15 points of damage from an attack that deals piercing or slashing damage, one of the blisters on its abdomen pops, releasing a <Link to="/monster/chelarac_broodling">chelarac broodling</Link>. Or as a full-round action, a chelarac can intentionally burst one of the blisters and release a broodling. A chelarac can release only up to 1d6 broodlings each day.</p>
+<AffInfo type="Bite-injury" save="Fort 21" freq="1/round for 6 rounds" eff={<>1 <Link to="/rule/int_damage">Int damage</Link> and 1d6 hp damage</>} cure1 icon="p" />
+<p><strong>Release Brood (Ex)</strong> If a chelarac takes more than 15 points of damage from an attack that deals piercing or slashing damage, one of the blisters on its abdomen pops, releasing a <Link to="/monster/chelarac_broodling">chelarac broodling</Link>. Or as a full-round action, a chelarac can intentionally burst one of the blisters and release a broodling. A chelarac can release only up to 1d6 broodlings each day.</p>
 <p><strong>Siphon Knowledge (Su)</strong> A chelarac can drain knowledge from its victims. Any intelligent creature that takes damage from a chelarac's bite must succeed at a DC 19 Will save or have 1d6 hours of its memory absorbed by the chelarac. The target creature still retains its memories, but it might recall some of the details incorrectly. The save DC is Charisma-based.</p>
 <Header sub>Description</Header>
 <p>Chelaracs appear as enormous spiders that have a human head with spider-like mouthparts. They are usually a greenish-yellow hue, and their abdomen is covered in dozens of fluid-filled sacs in which their young gestate. A typical chelarac stands 7 feet tall, has a leg span of 10 feet, and weighs over 800 pounds.</p>
@@ -144,24 +145,25 @@ const _chelarac = {title: "Chelarac", jsx: <><p><em>This monstrous creature appe
 const _chelarac_chelarac_broodling = {title: "Chelarac Broodling", jsx: <><p><em>This monstrous creature appears to be an enormous spider with a human-like head. Sickly blisters holding squirming young cover the creature's abdomen.</em></p>
 <Header full><span>Chelarac Broodling</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info id="monster-chelarac_chelarac_broodling--info" source={[["Pathfinder #144: Midwives to Death",80]]} xp="600" ne small aberration init={3} dv={60} pcp={8} />
-<Defense id="monster-chelarac_chelarac_broodling--defense" ac={[15,15,11]} mod="+3 Dex, +1 dodge, +1 size" hp={[22,"3d8+9"]} fort="+4" ref="+4" will="+5" />
-<Offense id="monster-chelarac_chelarac_broodling--offense" sp={30} cl={30} melee="bite +5 (1d6+3 plus poison)" />
-<Stats id="monster-chelarac_chelarac_broodling--stats" atts={[14,17,16,11,14,11]} bab={2} cmb={3} cmd={17} feats={["Dodge","Mobility"]} skills={{"climb":{"b":10},"k":{"h":3},"per":{"b":8},"stl":{"b":13}}} lang={["C",["plus one other language"]]} />
+<Info source={[["Pathfinder #144: Midwives to Death",80]]} xp="600" ne small aberration init={3} dv={60} pcp={8} />
+<Defense ac={[15,15,11]} mod="+3 Dex, +1 dodge, +1 size" hp={[22,"3d8+9"]} fort="+4" ref="+4" will="+5" />
+<Offense sp={30} cl={30} melee="bite +5 (1d6+3 plus poison)" />
+<Stats atts={[14,17,16,11,14,11]} bab={2} cmb={3} cmd={17} feats={["Dodge","Mobility"]} skills={{"climb":{"b":10},"k":{"h":3},"per":{"b":8},"stl":{"b":13}}} lang={["C",["plus one other language"]]} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-chelarac_chelarac_broodling--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 14</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/int_damage">Int damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><Header sub>Description</Header>
+<AffInfo type="Bite-injury" save="Fort 14" freq="1/round for 6 rounds" eff={<>1 <Link to="/rule/int_damage">Int damage</Link></>} cure1 icon="p" />
+<Header sub>Description</Header>
 <p>This is the juvenile form of the <Link to="/monster/chelarac">chelarac</Link>.</p>
 </>};
 const _chemosit = {title: "Chemosit", jsx: <><p><em>This massive, shaggy beast uses long and muscular forearms to raise itself onto its hind legs and beats its chest like a gorilla. Despite its ape-like stance, its frame is far heavier and its features more primitive, its powerful muzzle and gnashing canines bespeaking terrible, bestial savagery.</em></p>
 <Header full><span>Chemosit</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info id="monster-chemosit--info" source={[["Pathfinder #38: Racing to Ruin",86]]} xp="1,200" n large magicalBeast init={7} dv={60} llv scent pcp={2} />
-<Defense id="monster-chemosit--defense" ac={[18,12,15]} mod="+3 Dex, +6 natural, -1 size" hp={[47,"5d10+20"]} fort="+8" ref="+7" will="+3" />
-<Offense id="monster-chemosit--offense" sp={40} cl={40} melee="2 claws +11 (1d6+7), 1 bite +11 (1d8+7)" space={"10"} reach={"10"} specAtt={[["terrifying roar","terrifying roar"]]} pounce rake="1d6" />
-<Stats id="monster-chemosit--stats" atts={[24,17,19,2,15,8]} bab={5} cmb={13} cmd={26} feats={["Improved Bull Rush","Improved Initiative","Power Attack"]} skills={{"climb":{"b":15},"stl":{"b":15}}} racial="+8 Stealth" />
-<Ecology id="monster-chemosit--eco-eco" env="warm forests" org="solitary, pair, or troop (3-6)" treasure={{"S":false}} />
+<Info source={[["Pathfinder #38: Racing to Ruin",86]]} xp="1,200" n large magicalBeast init={7} dv={60} llv scent pcp={2} />
+<Defense ac={[18,12,15]} mod="+3 Dex, +6 natural, -1 size" hp={[47,"5d10+20"]} fort="+8" ref="+7" will="+3" />
+<Offense sp={40} cl={40} melee="2 claws +11 (1d6+7), 1 bite +11 (1d8+7)" space={"10"} reach={"10"} specAtt={[["terrifying roar","terrifying roar"]]} pounce rake="1d6" />
+<Stats atts={[24,17,19,2,15,8]} bab={5} cmb={13} cmd={26} feats={["Improved Bull Rush","Improved Initiative","Power Attack"]} skills={{"climb":{"b":15},"stl":{"b":15}}} racial="+8 Stealth" />
+<Ecology env="warm forests" org="solitary, pair, or troop (3-6)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Brain Eater (Su)</strong> Should a chemosit kill an opponent with a <Link to="/misc/coup_de_grace">coup de grace</Link> attack, it breaks open the creature's skull and devours what's inside. If the creature killed is of one of the following classes or creature types, the chemosit gains the associated benefit. If the creature killed falls into multiple categories, the chemosit chooses a single benefit to gain. With the exception of healing, the effects provided by this ability affect a chemosit for a number of minutes equal to 5 times its Hit Dice.</p>
@@ -182,12 +184,12 @@ const _chemosit = {title: "Chemosit", jsx: <><p><em>This massive, shaggy beast u
 const _cherufe = {title: "Cherufe", jsx: <><p><em>This towering reptilian humanoid seems to be made of obsidian scales over a molten magma core.</em></p>
 <Header full><span>Cherufe</span><span>CR 13</span></Header>
 <div className="reduce">
-<Info id="monster-cherufe--info" source={[["Bestiary 5",55]]} xp="25,600" ne huge magicalBeast subs={["fire"]} init={5} dv={60} llv pcp={17} />
-<Defense id="monster-cherufe--defense" ac={[24,9,23]} mod="+1 Dex, +15 natural, -2 size" hp={[189,"18d10+90"]} fort="+16" ref="+14" will="+10" def={[["fire healing","fire healing"]]} dr="10/-" immune="fire" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
-<Offense id="monster-cherufe--offense" sp={50} sw={30} melee="2 claws +25 (2d6+8 plus burn), bite +25 (2d8+8 plus burn)" ranged="rock +19 (2d8+10 plus burn)" space={"15"} reach={"15"} specAtt={[["heat","heat"]]} burn="2d6 fire, DC 24" rockTh="120 ft." />
-<SpellBlock id="monster-cherufe--spells-monster-spellblock-1" sla={{"cl":18,"con":"+18","content":[{"per":"month","content":<Link to="/spell/earthquake">earthquake</Link>}]}} />
-<Stats id="monster-cherufe--stats" atts={[26,13,20,11,14,11]} bab={18} cmb={28} cmd={39} feats={["Diehard","Endurance","Improved Initiative","Iron Will","Lightning Reflexes","Power Attack",["Weapon Focus"," (bite)"],"Weapon Focus (claw)","Weapon Focus (rock)"]} skills={{"climb":{"b":23}}} lang={["C"]} />
-<Ecology id="monster-cherufe--eco-eco" env="any mountains" org="solitary" treasure={{"S":false}} />
+<Info source={[["Bestiary 5",55]]} xp="25,600" ne huge magicalBeast subs={["fire"]} init={5} dv={60} llv pcp={17} />
+<Defense ac={[24,9,23]} mod="+1 Dex, +15 natural, -2 size" hp={[189,"18d10+90"]} fort="+16" ref="+14" will="+10" def={[["fire healing","fire healing"]]} dr="10/-" immune="fire" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
+<Offense sp={50} sw={30} melee="2 claws +25 (2d6+8 plus burn), bite +25 (2d8+8 plus burn)" ranged="rock +19 (2d8+10 plus burn)" space={"15"} reach={"15"} specAtt={[["heat","heat"]]} burn="2d6 fire, DC 24" rockTh="120 ft." />
+<SpellBlock id="1" sla={{"cl":18,"con":"+18","content":[{"per":"month","content":<Link to="/spell/earthquake">earthquake</Link>}]}} />
+<Stats atts={[26,13,20,11,14,11]} bab={18} cmb={28} cmd={39} feats={["Diehard","Endurance","Improved Initiative","Iron Will","Lightning Reflexes","Power Attack",["Weapon Focus"," (bite)"],"Weapon Focus (claw)","Weapon Focus (rock)"]} skills={{"climb":{"b":23}}} lang={["C"]} />
+<Ecology env="any mountains" org="solitary" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Fire Healing (Ex)</strong> Any source that normally deals fire damage to a cherufe instead heals 1 point of damage for every 3 points of damage the attack would otherwise deal. If the amount of healing would cause the cherufe to exceed its full normal hit points, it gains any excess as <Link to="/rule/temporary_hit_points">temporary hit points</Link>. These temporary hit points don't stack.</p>
@@ -200,16 +202,17 @@ const _cherufe = {title: "Cherufe", jsx: <><p><em>This towering reptilian humano
 const _chickcharney = {title: "Chickcharney", jsx: <><p><em>Resembling a filthy owl with the gangly long legs of a stork, this almost comically ugly bird has piercing black eyes and emits an annoying screech.</em></p>
 <Header full><span>Chickcharney</span><span>CR 3</span></Header>
 <div className="reduce">
-<Info id="monster-chickcharney--info" source={[["Isles of the Shackles",46]]} xp="800" n small magicalBeast init={3} dv={60} llv pcp={6} />
-<Defense id="monster-chickcharney--defense" ac={[15,15,11]} mod="+3 Dex, +1 dodge, +1 size" hp={[30,"4d10+8"]} fort="+6" ref="+7" will="+2" />
-<Offense id="monster-chickcharney--offense" sp={20} fl={30} flP="average" melee="bite +8 (1d4-2 plus ill-luck), 2 claws +8 (1d3-2 plus ill luck)" specAtt={[["maddening screech","maddening screech"]]} />
-<Stats id="monster-chickcharney--stats" atts={[6,17,14,2,13,15]} bab={4} cmb={1} cmd={15} feats={["Dodge","Weapon Finesse"]} skills={{"fly":{"b":10},"per":{"b":6}}} sq="blessed trill" />
-<Ecology id="monster-chickcharney--eco-eco" env="warm forests, hills, or plains" org="solitary or nesting pair" treasure={{"X":false}} />
+<Info source={[["Isles of the Shackles",46]]} xp="800" n small magicalBeast init={3} dv={60} llv pcp={6} />
+<Defense ac={[15,15,11]} mod="+3 Dex, +1 dodge, +1 size" hp={[30,"4d10+8"]} fort="+6" ref="+7" will="+2" />
+<Offense sp={20} fl={30} flP="average" melee="bite +8 (1d4-2 plus ill-luck), 2 claws +8 (1d3-2 plus ill luck)" specAtt={[["maddening screech","maddening screech"]]} />
+<Stats atts={[6,17,14,2,13,15]} bab={4} cmb={1} cmd={15} feats={["Dodge","Weapon Finesse"]} skills={{"fly":{"b":10},"per":{"b":6}}} sq="blessed trill" />
+<Ecology env="warm forests, hills, or plains" org="solitary or nesting pair" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Blessed Trill (Su)</strong> Once per day as a standard action, a chickcharney can emit a melodious trill that grants all creatures within a 20-foot radius a +1 morale bonus on saving throws for the rest of the day. This is a sonic, mind-affecting effect.</p>
 <p><strong>Ill Luck (Su)</strong> When a chickcharney hits a creature with one of its natural attacks, the target is exposed to the chickcharney's curse.</p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-chickcharney--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={7} to="/rule/curses"><IonIcon aria-label="Curse" icon="/icons/death-note.svg" /></ThLink><th colSpan={4} scope="col" className="title">Curse of Ill Luck</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Curse; injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Will 14</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>The creature takes a -1 penalty on attack rolls, saving throws, ability checks, and skill checks. A creature can be affected by a curse of ill luck multiple times (up to a maximum cumulative penalty of -4).</td></tr><tr><td colSpan={4} className="extra">Chickcharneys are immune to this curse. The save DC is Charisma-based.</td></tr></tbody></table></ScrollContainer></div><p><strong>Maddening Screech (Su)</strong> Three times per day as a standard action, a chickcharney can emit a piercing cry that affects all other creatures within a 30-foot radius. An affected creature must succeed at a DC 13 Fortitude save or become <Link to="/misc/confused">confused</Link> for 1d3 rounds. This is a sonic, mind-affecting effect. The save DC is Constitution-based.</p>
+<AffInfo type="Curse; injury" save="Will 14" eff={<>The creature takes a -1 penalty on attack rolls, saving throws, ability checks, and skill checks. A creature can be affected by a curse of ill luck multiple times (up to a maximum cumulative penalty of -4).</>} undefined extra={<>Chickcharneys are immune to this curse. The save DC is Charisma-based.</>} icon="c">Curse of Ill Luck</AffInfo>
+<p><strong>Maddening Screech (Su)</strong> Three times per day as a standard action, a chickcharney can emit a piercing cry that affects all other creatures within a 30-foot radius. An affected creature must succeed at a DC 13 Fortitude save or become <Link to="/misc/confused">confused</Link> for 1d3 rounds. This is a sonic, mind-affecting effect. The save DC is Constitution-based.</p>
 <Header sub>Description</Header>
 <p>Chelish explorers first came upon this strange magical bird during their early voyages to the Shackles. While the unusual creature was initially laughed at for its unsightly appearance and awkward gait, the tempestuous bird has nonetheless proven to be a force to be reckoned with in its own way. A chickcharney can grant good luck to those it deems worthy of its gifts, but its favor can just as easily turn to scorn, and a mere scratch from a chickcharney's accursed beak or claws has spelled the end for countless unwary seafarers.</p>
 <p>Naturally curious and trusting, chickcharneys freely approach most non-threatening humanoids, even accompanying them for short times and often leaving their nesting spots unprotected if they have no eggs or mate. However, they are fickle things, and if they recognize hostility or rudeness, they inflict all manner of chaos upon those who provoke them. Chickcharneys fiercely protect their eggs and young, their eggs being highly coveted by predators as well as humanoids. The shells are thought to possess alchemical properties that can be employed in numerous formulae, and many alchemists are willing to pay exorbitant sums for intact specimens.</p>
@@ -218,11 +221,11 @@ const _chickcharney = {title: "Chickcharney", jsx: <><p><em>Resembling a filthy 
 const _chimera = {title: "Chimera", jsx: <><p><em>This winged monster has the body of a lion, though two more heads flank its central feline one - a dragon and a horned goat.</em></p>
 <Header full><span>Chimera</span><span>CR 7</span></Header>
 <div className="reduce">
-<Info id="monster-chimera--info" source={[["Pathfinder RPG Bestiary",44]]} xp="3,200" ce large magicalBeast init={5} dv={60} llv scent pcp={10} />
-<Defense id="monster-chimera--defense" ac={[19,10,18]} mod="+1 Dex, +9 natural, -1 size" hp={[85,"9d10+36"]} fort="+9" ref="+7" will="+6" />
-<Offense id="monster-chimera--offense" sp={30} fl={50} flP="poor" melee="bite +12 (2d6+4), bite +12 (1d8+4), gore +12 (1d8+4), 2 claws +12 (1d6+4)" space={"10"} reach={"5"} brWeap="usable every 1d4 rounds" />
-<Stats id="monster-chimera--stats" atts={[19,12,17,4,13,10]} bab={9} cmb={14} cmd={25} cmdP="29 vs. trip" feats={["Hover","Improved Initiative","Iron Will",["Skill Focus"," (Perception)"],"Toughness"]} skills={{"fly":{"b":2},"per":{"b":10},"stl":{"b":4,"x":"+8 in scrubland or brush"}}} racial="+2 Perception, +4 Stealth in scrubland or brush" lang={["D"]} />
-<Ecology id="monster-chimera--eco-eco" env="temperate hills" org="solitary, pair, pride (3-6), or flight (7-12)" treasure={{"S":false}} />
+<Info source={[["Pathfinder RPG Bestiary",44]]} xp="3,200" ce large magicalBeast init={5} dv={60} llv scent pcp={10} />
+<Defense ac={[19,10,18]} mod="+1 Dex, +9 natural, -1 size" hp={[85,"9d10+36"]} fort="+9" ref="+7" will="+6" />
+<Offense sp={30} fl={50} flP="poor" melee="bite +12 (2d6+4), bite +12 (1d8+4), gore +12 (1d8+4), 2 claws +12 (1d6+4)" space={"10"} reach={"5"} brWeap="usable every 1d4 rounds" />
+<Stats atts={[19,12,17,4,13,10]} bab={9} cmb={14} cmd={25} cmdP="29 vs. trip" feats={["Hover","Improved Initiative","Iron Will",["Skill Focus"," (Perception)"],"Toughness"]} skills={{"fly":{"b":2},"per":{"b":10},"stl":{"b":4,"x":"+8 in scrubland or brush"}}} racial="+2 Perception, +4 Stealth in scrubland or brush" lang={["D"]} />
+<Ecology env="temperate hills" org="solitary, pair, pride (3-6), or flight (7-12)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Breath Weapon (Su)</strong> A chimera's breath weapon depends on the color of its dragon head, as summarized on the table below. Regardless of its type, a chimera's breath weapon is usable once every 1d4 rounds, deals 6d8 points of damage, and allows a DC 17 Reflex save for half damage. The save DC is Constitution-based. To determine a chimera's head color and breath weapon randomly, roll 1d10 and consult the table below.</p>
@@ -268,10 +271,10 @@ const _chimera = {title: "Chimera", jsx: <><p><em>This winged monster has the bo
 const _chimera_legendary_chimera = {title: "Legendary Chimera", jsx: <><p><em>This abomination has the head and foreparts of a great lion, an additional head and hindquarters of a ram, and a red dragon's head sprouting from its tail.</em></p>
 <Header full><span>Legendary Chimera</span><span>CR 13</span></Header>
 <div className="reduce">
-<Info id="monster-chimera_legendary_chimera--info" source={[["Mythical Monsters Revisited",9]]} xp="25,600" ce huge magicalBeast init={4} dv={60} llv scent aav pcp={20} aura={<><Link to="/umr/frightful_presence">frightful presence</Link> (60 ft., DC 18)</>} />
-<Defense id="monster-chimera_legendary_chimera--defense" ac={[26,8,26]} mod="+18 natural, -2 size" hp={[178,"17d10+85"]} fort="+15" ref="+12" will="+8" dr="10/cold iron and magic" immune="bleed, death effects, disease, fire, poison" sr="24" />
-<Offense id="monster-chimera_legendary_chimera--offense" sp={30} melee={<>bite +23 (2d8+8/19-20 plus <Link to="/umr/grab">grab</Link>), bite +23 (2d6+8 plus burn), 2 claws +23 (1d8+8), gore +23 (2d6+8)</>} space={"15"} reach={"10"} brWeap="60-ft. cone, 13d8 fire damage, Reflex DC 23 for half, usable every 1d4 rounds" burn="2d8, DC 23" swallow="2d6 bludgeoning plus 8d8 fire damage, AC 19, 17 hp" />
-<Stats id="monster-chimera_legendary_chimera--stats" atts={[27,10,21,5,12,10]} bab={17} cmb={27} cmbP="+31 grapple" cmd={37} feats={["Cleave",["Improved Critical"," (bite)"],"Improved Initiative","Improved Vital Strike","Iron Will","Lightning Reflexes","Power Attack",["Skill Focus"," (Perception)"],"Vital Strike"]} skills={{"per":{"b":20},"stl":{"b":2,"x":"+6 in scrubland or brush"}}} racial="+4 Stealth in scrubland or brush" lang={["D"]} />
+<Info source={[["Mythical Monsters Revisited",9]]} xp="25,600" ce huge magicalBeast init={4} dv={60} llv scent aav pcp={20} aura={<><Link to="/umr/frightful_presence">frightful presence</Link> (60 ft., DC 18)</>} />
+<Defense ac={[26,8,26]} mod="+18 natural, -2 size" hp={[178,"17d10+85"]} fort="+15" ref="+12" will="+8" dr="10/cold iron and magic" immune="bleed, death effects, disease, fire, poison" sr="24" />
+<Offense sp={30} melee={<>bite +23 (2d8+8/19-20 plus <Link to="/umr/grab">grab</Link>), bite +23 (2d6+8 plus burn), 2 claws +23 (1d8+8), gore +23 (2d6+8)</>} space={"15"} reach={"10"} brWeap="60-ft. cone, 13d8 fire damage, Reflex DC 23 for half, usable every 1d4 rounds" burn="2d8, DC 23" swallow="2d6 bludgeoning plus 8d8 fire damage, AC 19, 17 hp" />
+<Stats atts={[27,10,21,5,12,10]} bab={17} cmb={27} cmbP="+31 grapple" cmd={37} feats={["Cleave",["Improved Critical"," (bite)"],"Improved Initiative","Improved Vital Strike","Iron Will","Lightning Reflexes","Power Attack",["Skill Focus"," (Perception)"],"Vital Strike"]} skills={{"per":{"b":20},"stl":{"b":2,"x":"+6 in scrubland or brush"}}} racial="+4 Stealth in scrubland or brush" lang={["D"]} />
 </div>
 <Header sub>Description</Header>
 <p>Legendary <Link to="/monster/chimera">chimeras</Link> are among the eldest of their race, the long-lived descendents of the initial attempts by Lamashtu to create what eventually became the common chimera. Relatively few legendary chimeras remain on Golarion, many having been killed over the ages either by brave heroes or during their own perilous endeavors. Those legendary chimeras still left are shunned and feared by their lesser kin, the common chimeras, and so the great beings reside only in the deepest expanses of wilderness, where they nurse their grudges and unleash terrible rampages upon nearby settlements and meddlesome intruders who awaken them from their dark dreams of what could have been.</p>
@@ -280,11 +283,11 @@ const _chimera_legendary_chimera = {title: "Legendary Chimera", jsx: <><p><em>Th
 const _chitikin = {title: "Chitikin", jsx: <><p><em>Eighteen segmented legs support this long arthropod's jet-black carapace, the front two of which are scythe-like claws, and its slender antennae end in glowing green bulbs.</em></p>
 <Header full><span>Chitikin</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info id="monster-chitikin--info" source={[["Pathfinder #130: City in the Lion's Eye",82]]} xp="1,200" n large vermin init={1} dv={60} pcp={2} />
-<Defense id="monster-chitikin--defense" ac={[17,10,16]} mod="+1 Dex, +7 natural, -1 size" hp={[32,"5d8+10"]} fort="+6" ref="+2" will="+3" immune="mind-affecting effects" />
-<Offense id="monster-chitikin--offense" sp={40} cl={40} melee={<>2 claws +6 (1d6+4), sting +6 (1d6+4 plus <Link to="/rule/paralysis">paralysis</Link>)</>} space={"10"} reach={"10"} specAtt={[["shriek","shriek"]]} paralysis="1 round, DC 14" />
-<Stats id="monster-chitikin--stats" atts={[19,13,14,0,15,10]} bab={3} cmb={8} cmd={19} cmdP="can't be tripped" skills={{"climb":{"b":12},"per":{"b":2}}} sq={<Link to="/umr/compression">compression</Link>} />
-<Ecology id="monster-chitikin--eco-eco" env="temperate or warm forests or underground" org="none" treasure={{"X":false}} />
+<Info source={[["Pathfinder #130: City in the Lion's Eye",82]]} xp="1,200" n large vermin init={1} dv={60} pcp={2} />
+<Defense ac={[17,10,16]} mod="+1 Dex, +7 natural, -1 size" hp={[32,"5d8+10"]} fort="+6" ref="+2" will="+3" immune="mind-affecting effects" />
+<Offense sp={40} cl={40} melee={<>2 claws +6 (1d6+4), sting +6 (1d6+4 plus <Link to="/rule/paralysis">paralysis</Link>)</>} space={"10"} reach={"10"} specAtt={[["shriek","shriek"]]} paralysis="1 round, DC 14" />
+<Stats atts={[19,13,14,0,15,10]} bab={3} cmb={8} cmd={19} cmdP="can't be tripped" skills={{"climb":{"b":12},"per":{"b":2}}} sq={<Link to="/umr/compression">compression</Link>} />
+<Ecology env="temperate or warm forests or underground" org="none" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Shriek (Ex)</strong> As a standard action, a chitikin can rub its antennae together to emit a terrifying scream. Each creature within 50 feet must succeed at a DC 12 Will saving throw or become <Link to="/misc/panicked">panicked</Link> for 2d4 rounds. Whether or not it succeeds at its save, the creature is immune to the chitikin's shriek for 24 hours. This is a sonic, mind-affecting, fear effect. The save DC is Charisma-based.</p>
@@ -307,11 +310,11 @@ const _chitikin = {title: "Chitikin", jsx: <><p><em>Eighteen segmented legs supp
 const _choker = {title: "Choker", jsx: <><p><em>This hunched-over wretch has long, pliable arms like tentacles capped with five wide, spiny claws.</em></p>
 <Header full><span>Choker</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info id="monster-choker--info" source={[["Pathfinder RPG Bestiary",45]]} xp="600" ce small aberration init={6} dv={60} pcp={1} />
-<Defense id="monster-choker--defense" ac={[17,13,15]} mod="+2 Dex, +4 natural, +1 size" hp={[16,"3d8+3"]} fort="+2" ref="+3" will="+4" />
-<Offense id="monster-choker--offense" sp={20} cl={10} melee="2 tentacles +6 (1d4+3 plus grab)" space={"5"} reach={"10"} constrict="1d4+3" grab="Large" strangle />
-<Stats id="monster-choker--stats" atts={[16,14,13,4,13,7]} bab={2} cmb={4} cmbP="+8 grappling" cmd={16} feats={["Improved Initiative",["Skill Focus"," (Stealth)"]]} skills={{"climb":{"b":16},"stl":{"b":13}}} sq="quickness" />
-<Ecology id="monster-choker--eco-eco" env="any underground" org="solitary, pair, or clutch (3-8)" treasure={{"S":false}} />
+<Info source={[["Pathfinder RPG Bestiary",45]]} xp="600" ce small aberration init={6} dv={60} pcp={1} />
+<Defense ac={[17,13,15]} mod="+2 Dex, +4 natural, +1 size" hp={[16,"3d8+3"]} fort="+2" ref="+3" will="+4" />
+<Offense sp={20} cl={10} melee="2 tentacles +6 (1d4+3 plus grab)" space={"5"} reach={"10"} constrict="1d4+3" grab="Large" strangle />
+<Stats atts={[16,14,13,4,13,7]} bab={2} cmb={4} cmbP="+8 grappling" cmd={16} feats={["Improved Initiative",["Skill Focus"," (Stealth)"]]} skills={{"climb":{"b":16},"stl":{"b":13}}} sq="quickness" />
+<Ecology env="any underground" org="solitary, pair, or clutch (3-8)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Strangle (Ex)</strong> Chokers have an unerring talent for seizing their victims by the neck. A creature that is <Link to="/rule/grappled">grappled</Link> by a choker cannot speak or cast spells with verbal components.</p>
@@ -325,11 +328,11 @@ const _choker = {title: "Choker", jsx: <><p><em>This hunched-over wretch has lon
 const _choking_shade = {title: "Choking Shade", jsx: <><p><em>A vague humanoid shape composed of whirling dust and shards of bone hovers menacingly in the air.</em></p>
 <Header full><span>Choking Shade</span><span>CR 5</span></Header>
 <div className="reduce">
-<Info id="monster-choking_shade--info" source={[["Pathfinder #134: It Came from Hollow Mountain",82]]} xp="1,600" ne medium undead subs={["incorporeal"]} init={8} dv={60} pcp={12} />
-<Defense id="monster-choking_shade--defense" ac={[18,18,13]} mod="+3 deflection, +4 Dex, +1 dodge" hp={[52,"7d8+21"]} fort="+5" ref="+8" will="+7" chanRes="+2" incorp immune={<Link to="/umr/undead_traits">undead traits</Link>} />
-<Offense id="monster-choking_shade--offense" fl={40} flP="perfect" melee="2 incorporeal touches +9 touch (2d6 negative energy plus desperation)" specAtt={[["create spawn","create spawn"],["gravedust","gravedust"]]} />
-<Stats id="monster-choking_shade--stats" atts={[0,19,0,6,15,17]} bab={5} cmb={9} cmd={23} feats={[["Ability Focus"," (desperation)"],"Dodge","Improved Initiative","Lightning Reflexes"]} skills={{"fly":{"b":12},"per":{"b":12},"stl":{"b":14}}} lang={["C"]} />
-<Ecology id="monster-choking_shade--eco-eco" env="any" org="solitary, pair, or haunting (3-6)" treasure={{"I":false}} />
+<Info source={[["Pathfinder #134: It Came from Hollow Mountain",82]]} xp="1,600" ne medium undead subs={["incorporeal"]} init={8} dv={60} pcp={12} />
+<Defense ac={[18,18,13]} mod="+3 deflection, +4 Dex, +1 dodge" hp={[52,"7d8+21"]} fort="+5" ref="+8" will="+7" chanRes="+2" incorp immune={<Link to="/umr/undead_traits">undead traits</Link>} />
+<Offense fl={40} flP="perfect" melee="2 incorporeal touches +9 touch (2d6 negative energy plus desperation)" specAtt={[["create spawn","create spawn"],["gravedust","gravedust"]]} />
+<Stats atts={[0,19,0,6,15,17]} bab={5} cmb={9} cmd={23} feats={[["Ability Focus"," (desperation)"],"Dodge","Improved Initiative","Lightning Reflexes"]} skills={{"fly":{"b":12},"per":{"b":12},"stl":{"b":14}}} lang={["C"]} />
+<Ecology env="any" org="solitary, pair, or haunting (3-6)" treasure={{"I":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Create Spawn (Su)</strong> A humanoid creature killed by suffocation resulting from a choking shade's gravedust attack rises as a choking spirit in 1d4 rounds.</p>
@@ -353,12 +356,12 @@ const _choking_shade = {title: "Choking Shade", jsx: <><p><em>A vague humanoid s
 const _chon_chon = {title: "Chon Chon", jsx: <><p><em>This flying head has incredibly large ears that constantly flap to keep the creature aloft. It babbles to itself as it flies, as if to remind itself of secrets only it knows.</em></p>
 <Header full><span>Chon Chon</span><span>CR 1/2</span></Header>
 <div className="reduce">
-<Info id="monster-chon_chon--info" source={[["Pathfinder #53: Tide of Honor",82]]} xp="200" cn tiny aberration init={2} dv={60} pcp={6} aura={"jabber (15 ft., DC 11)"} />
-<Defense id="monster-chon_chon--defense" ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[9,"2d8"]} fort="+0" ref="+4" will="+4" />
-<Offense id="monster-chon_chon--offense" sp={10} fl={60} flP="good" melee="bite +1 (1d3-2)" ranged="acid spit +5 (1d4 acid)" space={"2-1/2"} reach={"0"} />
-<SpellBlock id="monster-chon_chon--spells-monster-spellblock-1" sla={{"cl":3,"con":"+4","content":[{"constant":true,"content":<Link to="/spell/detect_magic">detect magic</Link>}]}} />
-<Stats id="monster-chon_chon--stats" atts={[6,15,10,7,12,13]} bab={1} cmb={1} cmd={9} feats={["Lightning Reflexes"]} skills={{"fly":{"b":15},"per":{"b":6,"x":"+10 to listen"}}} racial="+4 Perception to listen" lang={["C"]} />
-<Ecology id="monster-chon_chon--eco-eco" env="temperate or tropical forests or ruins" org="solitary, pair, flight (3-12)" treasure={{"X":false}} />
+<Info source={[["Pathfinder #53: Tide of Honor",82]]} xp="200" cn tiny aberration init={2} dv={60} pcp={6} aura={"jabber (15 ft., DC 11)"} />
+<Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[9,"2d8"]} fort="+0" ref="+4" will="+4" />
+<Offense sp={10} fl={60} flP="good" melee="bite +1 (1d3-2)" ranged="acid spit +5 (1d4 acid)" space={"2-1/2"} reach={"0"} />
+<SpellBlock id="1" sla={{"cl":3,"con":"+4","content":[{"constant":true,"content":<Link to="/spell/detect_magic">detect magic</Link>}]}} />
+<Stats atts={[6,15,10,7,12,13]} bab={1} cmb={1} cmd={9} feats={["Lightning Reflexes"]} skills={{"fly":{"b":15},"per":{"b":6,"x":"+10 to listen"}}} racial="+4 Perception to listen" lang={["C"]} />
+<Ecology env="temperate or tropical forests or ruins" org="solitary, pair, flight (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Acid Spit (Ex)</strong> A chon chon can spit a disgusting blob of acid at a single foe, making a ranged attack with a range of 30 feet and no range increment. A successful attack deals 1d4 points of acid damage and forces the target to make a DC 11 Fortitude saving throw to avoid becoming <Link to="/misc/nauseated">nauseated</Link> for 1 round. The save DC is Constitution-based.</p>
@@ -376,12 +379,12 @@ const _chon_chon = {title: "Chon Chon", jsx: <><p><em>This flying head has incre
 const _chon_chon_chon_chon_swarm = {title: "Chon Chon Swarm", jsx: <><p><em>This flying head has incredibly large ears that constantly flap to keep the creature aloft. It babbles to itself as it flies, as if to remind itself of secrets only it knows.</em></p>
 <Header full><span>Chon Chon Swarm</span><span>CR 3</span></Header>
 <div className="reduce">
-<Info id="monster-chon_chon_chon_chon_swarm--info" source={[["Pathfinder #53: Tide of Honor",82]]} xp="800" cn tiny aberration subs={["swarm"]} init={6} dv={60} pcp={8} aura={"jabber (15 ft., DC 11)"} />
-<Defense id="monster-chon_chon_chon_chon_swarm--defense" ac={[16,16,14]} mod="+2 Dex, +2 insight, +2 size" hp={[27,"6d8"]} fort="+2" ref="+6" will="+6" />
-<Offense id="monster-chon_chon_chon_chon_swarm--offense" sp={10} fl={60} flP="good" melee="swarm +6 (2d6)" ranged="acid spit +8 (2d4 acid)" space={"10"} reach={"0"} specAtt={[["babble","babble"]]} distraction={13} />
-<SpellBlock id="monster-chon_chon_chon_chon_swarm--spells-monster-spellblock-1" sla={{"cl":7,"con":"+8","content":[{"constant":true,"content":<Link to="/spell/detect_magic">detect magic</Link>}]}} />
-<Stats id="monster-chon_chon_chon_chon_swarm--stats" atts={[10,15,10,7,12,13]} bab={4} cmb={4} cmd={14} feats={["Improved Initiative","Improved Lightning Reflexes","Lightning Reflexes"]} skills={{"fly":{"b":19},"per":{"b":10,"x":"+14 to listen"}}} racial="+4 Perception to listen" lang={["CX"]} />
-<Ecology id="monster-chon_chon_chon_chon_swarm--eco-eco" env="temperate or tropical forests or ruins" org="solitary" treasure={{"X":false}} />
+<Info source={[["Pathfinder #53: Tide of Honor",82]]} xp="800" cn tiny aberration subs={["swarm"]} init={6} dv={60} pcp={8} aura={"jabber (15 ft., DC 11)"} />
+<Defense ac={[16,16,14]} mod="+2 Dex, +2 insight, +2 size" hp={[27,"6d8"]} fort="+2" ref="+6" will="+6" />
+<Offense sp={10} fl={60} flP="good" melee="swarm +6 (2d6)" ranged="acid spit +8 (2d4 acid)" space={"10"} reach={"0"} specAtt={[["babble","babble"]]} distraction={13} />
+<SpellBlock id="1" sla={{"cl":7,"con":"+8","content":[{"constant":true,"content":<Link to="/spell/detect_magic">detect magic</Link>}]}} />
+<Stats atts={[10,15,10,7,12,13]} bab={4} cmb={4} cmd={14} feats={["Improved Initiative","Improved Lightning Reflexes","Lightning Reflexes"]} skills={{"fly":{"b":19},"per":{"b":10,"x":"+14 to listen"}}} racial="+4 Perception to listen" lang={["CX"]} />
+<Ecology env="temperate or tropical forests or ruins" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Acid Spit (Ex)</strong> A chon chon can spit a disgusting blob of acid at a single foe, making a ranged attack with a range of 30 feet and no range increment. A successful attack deals 2d4 points of acid damage and forces the target to make a DC 13 Fortitude saving throw to avoid becoming <Link to="/misc/nauseated">nauseated</Link> for 1 round. The save DC is Constitution-based.</p>
@@ -393,11 +396,11 @@ const _chon_chon_chon_chon_swarm = {title: "Chon Chon Swarm", jsx: <><p><em>This
 const _choxani = {title: "Choxani", jsx: <><p><em>This faceless, spindly humanoid has dragonfly wings, and its woody skin is covered in shifting colors and patterns.</em></p>
 <Header full><span>Choxani</span><span>CR 3</span></Header>
 <div className="reduce">
-<Info id="monster-choxani--info" source={[["The First World, Realm of the Fey",59]]} xp="800" cn medium fey init={2} llv pcp={10} />
-<Defense id="monster-choxani--defense" ac={[15,13,12]} mod="+2 Dex, +1 dodge, +2 natural" hp={[27,"5d6+10"]} fort="+3" ref="+6" will="+6" aav dr="5/cold iron and slashing" />
-<Offense id="monster-choxani--offense" sp={30} fl={40} flP="average" melee="discoloring touch +4 touch (1d6 plus energy drain) or rapier +4 (1d6/18-20)" ranged="longbow +4 (1d8/&times;3)" specAtt={[["hypnotic colors","hypnotic colors"]]} eDrain="1 level, DC 14" />
-<Stats id="monster-choxani--stats" atts={[11,15,14,10,14,15]} bab={2} cmb={2} cmd={15} feats={["Dodge","Mobility","Weapon Finesse"]} skills={{"acro":{"b":10},"dis":{"b":10},"stl":{"b":14}}} racial="+4 Stealth" lang={[["First Speech (written only)"]]} sq="pattern reading" />
-<Ecology id="monster-choxani--eco-eco" env="any (First World)" org="solitary, pair, or convocation (3-6)" treasure={{"S":[["Wlb20"],["Wr"]],"final":"other treasure"}} />
+<Info source={[["The First World, Realm of the Fey",59]]} xp="800" cn medium fey init={2} llv pcp={10} />
+<Defense ac={[15,13,12]} mod="+2 Dex, +1 dodge, +2 natural" hp={[27,"5d6+10"]} fort="+3" ref="+6" will="+6" aav dr="5/cold iron and slashing" />
+<Offense sp={30} fl={40} flP="average" melee="discoloring touch +4 touch (1d6 plus energy drain) or rapier +4 (1d6/18-20)" ranged="longbow +4 (1d8/&times;3)" specAtt={[["hypnotic colors","hypnotic colors"]]} eDrain="1 level, DC 14" />
+<Stats atts={[11,15,14,10,14,15]} bab={2} cmb={2} cmd={15} feats={["Dodge","Mobility","Weapon Finesse"]} skills={{"acro":{"b":10},"dis":{"b":10},"stl":{"b":14}}} racial="+4 Stealth" lang={[["First Speech (written only)"]]} sq="pattern reading" />
+<Ecology env="any (First World)" org="solitary, pair, or convocation (3-6)" treasure={{"S":[["Wlb20"],["Wr"]],"final":"other treasure"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Discoloring Touch (Su)</strong> By making a successful touch attack, a choxani can feed on the color of living things. A creature touched in this manner takes 1d6 points of damage and must succeed at a DC 14 Will save or gain a <Link to="/rule/negative_level">negative level</Link>. Attempting to drain a target <Link to="/misc/fascinated">fascinated</Link> by the choxani's hypnotic colors ability does not end the fascination effect, though successfully draining the target's color does. The save DC is Charisma-based.</p>
@@ -409,11 +412,11 @@ const _choxani = {title: "Choxani", jsx: <><p><em>This faceless, spindly humanoi
 const _chronogeist = {title: "Chronogeist", jsx: <><p><em>This translucent, orange-tinged creature looks like it was once a living person, though its face is a twisted mask of confusion and terror and its vestments surround it like a ghostly shroud.</em></p>
 <Header full><span>Chronogeist</span><span>CR 14</span></Header>
 <div className="reduce">
-<Info id="monster-chronogeist--info" source={[["Pathfinder #137: The City Outside of Time",82]]} xp="38,400" ce medium undead subs={["incorporeal"]} init={15} dv={60} lifesense pcp={31} />
-<Defense id="monster-chronogeist--defense" ac={[29,29,17]} mod="+7 deflection, +11 Dex, +1 dodge" hp={[207,"18d8+126"]} fort="+13" ref="+17" will="+17" chanRes="+4" incorp immune={<Link to="/umr/undead_traits">undead traits</Link>} />
-<Offense id="monster-chronogeist--offense" fl={60} flP="perfect" melee="2 incorporeal touches +24 touch (8d6 negative energy/19-20)" specAtt={[["disrupt time","disrupt time"],["temporal screech","temporal screech"]]} />
-<Stats id="monster-chronogeist--stats" atts={[0,33,0,10,19,25]} bab={13} cmb={24} cmd={42} feats={["Combat Reflexes","Dodge","Flyby Attack",["Improved Critical"," (incorporeal touch)"],"Improved Initiative","Improved Iron Will","Iron Will","Mobility",["Skill Focus"," (Perception)"]]} skills={{"fly":{"b":40},"intm":{"b":28},"per":{"b":31},"sm":{"b":25}}} lang={["Th"]} />
-<Ecology id="monster-chronogeist--eco-eco" env="Crystilan (Xin-Edasseril)" org="solitary, pair, or keening (3-5)" treasure={{"I":false}} />
+<Info source={[["Pathfinder #137: The City Outside of Time",82]]} xp="38,400" ce medium undead subs={["incorporeal"]} init={15} dv={60} lifesense pcp={31} />
+<Defense ac={[29,29,17]} mod="+7 deflection, +11 Dex, +1 dodge" hp={[207,"18d8+126"]} fort="+13" ref="+17" will="+17" chanRes="+4" incorp immune={<Link to="/umr/undead_traits">undead traits</Link>} />
+<Offense fl={60} flP="perfect" melee="2 incorporeal touches +24 touch (8d6 negative energy/19-20)" specAtt={[["disrupt time","disrupt time"],["temporal screech","temporal screech"]]} />
+<Stats atts={[0,33,0,10,19,25]} bab={13} cmb={24} cmd={42} feats={["Combat Reflexes","Dodge","Flyby Attack",["Improved Critical"," (incorporeal touch)"],"Improved Initiative","Improved Iron Will","Iron Will","Mobility",["Skill Focus"," (Perception)"]]} skills={{"fly":{"b":40},"intm":{"b":28},"per":{"b":31},"sm":{"b":25}}} lang={["Th"]} />
+<Ecology env="Crystilan (Xin-Edasseril)" org="solitary, pair, or keening (3-5)" treasure={{"I":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Disrupt Time (Su)</strong> A chronogeist's incorporeal body is warped by the ravages of unstable time. As a swift action that doesn't provoke attacks of opportunity, a chronogeist can oscillate its essence rapidly between the current temporal landscape and an infinite number of others, passing through the bodies of all corporeal creatures within a 30-foot radius. Affected creatures take 6d6 points of damage (this damage occurs from rapid aging and cell death and doesn't have a damage type). A successful DC 26 Will save negates this damage. Any creature who fails the save is also <Link to="/misc/nauseated">nauseated</Link> for 1 round as a result of the disorienting attack. The chronogeist can use this ability three times per day, but not more often than once every 1d4 rounds. The save DC is Charisma-based.</p>
@@ -435,11 +438,11 @@ const _chronogeist = {title: "Chronogeist", jsx: <><p><em>This translucent, oran
 const _chupacabra = {title: "Chupacabra", jsx: <><p><em>This lizard-like creature stalks forward upon two muscular legs, a mane of spikes running down its scaly back.</em></p>
 <Header full><span>Chupacabra</span><span>CR 3</span></Header>
 <div className="reduce">
-<Info id="monster-chupacabra--info" source={[["Bestiary 2",57],["Pathfinder #19: Howl of the Carrion King",78]]} xp="800" n small magicalBeast init={7} dv={60} llv pcp={6} />
-<Defense id="monster-chupacabra--defense" ac={[16,14,13]} mod="+3 Dex, +2 natural, +1 size" hp={[30,"4d10+8"]} fort="+6" ref="+7" will="+3" />
-<Offense id="monster-chupacabra--offense" sp={30} melee={<>bite +6 (1d4+1 plus <Link to="/umr/grab">grab</Link>), 2 claws +6 (1d3+1)</>} specAtt={[["chupar","chupar"]]} pounce />
-<Stats id="monster-chupacabra--stats" atts={[13,16,14,3,15,6]} bab={4} cmb={4} cmbP="+8 grapple" cmd={17} feats={["Combat Reflexes","Improved Initiative"]} skills={{"acro":{"b":7,"x":"+11 jumping"},"per":{"b":6},"stl":{"b":16}}} racial="+4 Acrobatics when jumping, +4 Stealth (+8 in undergrowth or rocky areas)" lang={["AkX"]} />
-<Ecology id="monster-chupacabra--eco-eco" env="warm hills or plains" org="solitary, pair, or gang (3-7)" treasure={{"X":false}} />
+<Info source={[["Bestiary 2",57],["Pathfinder #19: Howl of the Carrion King",78]]} xp="800" n small magicalBeast init={7} dv={60} llv pcp={6} />
+<Defense ac={[16,14,13]} mod="+3 Dex, +2 natural, +1 size" hp={[30,"4d10+8"]} fort="+6" ref="+7" will="+3" />
+<Offense sp={30} melee={<>bite +6 (1d4+1 plus <Link to="/umr/grab">grab</Link>), 2 claws +6 (1d3+1)</>} specAtt={[["chupar","chupar"]]} pounce />
+<Stats atts={[13,16,14,3,15,6]} bab={4} cmb={4} cmbP="+8 grapple" cmd={17} feats={["Combat Reflexes","Improved Initiative"]} skills={{"acro":{"b":7,"x":"+11 jumping"},"per":{"b":6},"stl":{"b":16}}} racial="+4 Acrobatics when jumping, +4 Stealth (+8 in undergrowth or rocky areas)" lang={["AkX"]} />
+<Ecology env="warm hills or plains" org="solitary, pair, or gang (3-7)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Chupar (Ex)</strong> A chupacabra that <Link to="/rule/pin">pins</Link> an opponent or maintains a pin can suck blood from that opponent as a free action once per round, dealing 1 point of <Link to="/rule/constitution_damage">Constitution damage</Link>. Upon successfully draining blood, the chupacabra is invigorated, gaining a significant boost in speed for 10 rounds similar to the <Link to="/spell/haste">haste</Link> spell. The invigorated chupacabra can still drain blood - and in so doing increase the length of its invigoration - but it gains no additional effects.</p>
@@ -454,13 +457,13 @@ const _chupacabra = {title: "Chupacabra", jsx: <><p><em>This lizard-like creatur
 const _chuspiki = {title: "Chuspiki", jsx: <><p><em>This tiny creature, covered in a thick coat of fluffy fur, glides through the air, riding invisible currents on its fan-like tail.</em></p>
 <Header full><span>Chuspiki</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info id="monster-chuspiki--info" source={[["Bestiary 5",56]]} xp="600" cn tiny magicalBeast subs={["air"]} init={3} dv={60} llv scent pcp={3} />
-<Defense id="monster-chuspiki--defense" ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[19,"3d10+3"]} fort="+4" ref="+6" will="+0" def={[["wind blessed","wind blessed"],["wind form","wind form"]]} />
-<Offense id="monster-chuspiki--offense" sp={30} fl={60} flP="perfect" melee="tail fan +8 (1d4-2/&times;3)" ranged="air blast +8 (2d6+3)" space={"2-1/2"} reach={"0"} reachP={"5 ft. with tail fan"} />
-<SpellBlock id="monster-chuspiki--spells-monster-spellblock-1" sla={{"cl":3,"con":"+4","content":[{"constant":true,"content":<Link to="/spell/feather_fall">feather fall</Link>}]}} />
-<SpellBlock id="monster-chuspiki--spells-monster-spellblock-2" psy={{"pe":5,"cl":3,"content":<><Link to="/spell/alter_winds">alter winds</Link> (1 PE, DC 12), <Link to="/spell/gust_of_wind">gust of wind</Link> (2 PE, DC 13), <Link to="/spell/whispering_wind">whispering wind</Link> (2 PE)</>,"con":"+4"}} />
-<Stats id="monster-chuspiki--stats" atts={[6,17,12,12,9,13]} bab={3} cmb={4} cmd={12} cmdP="16 vs. trip" feats={["Point-Blank Shot","Precise Shot","Weapon Finesse"]} skills={{"acro":{"b":9},"fly":{"b":13},"per":{"b":3},"stl":{"b":16}}} lang={["Au","C"]} sq="basic aerokinesis" />
-<Ecology id="monster-chuspiki--eco-eco" env="warm hills or mountains" org="solitary, pair, or flock (6-10)" treasure={{"S":false}} />
+<Info source={[["Bestiary 5",56]]} xp="600" cn tiny magicalBeast subs={["air"]} init={3} dv={60} llv scent pcp={3} />
+<Defense ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[19,"3d10+3"]} fort="+4" ref="+6" will="+0" def={[["wind blessed","wind blessed"],["wind form","wind form"]]} />
+<Offense sp={30} fl={60} flP="perfect" melee="tail fan +8 (1d4-2/&times;3)" ranged="air blast +8 (2d6+3)" space={"2-1/2"} reach={"0"} reachP={"5 ft. with tail fan"} />
+<SpellBlock id="1" sla={{"cl":3,"con":"+4","content":[{"constant":true,"content":<Link to="/spell/feather_fall">feather fall</Link>}]}} />
+<SpellBlock id="2" psy={{"pe":5,"cl":3,"content":<><Link to="/spell/alter_winds">alter winds</Link> (1 PE, DC 12), <Link to="/spell/gust_of_wind">gust of wind</Link> (2 PE, DC 13), <Link to="/spell/whispering_wind">whispering wind</Link> (2 PE)</>,"con":"+4"}} />
+<Stats atts={[6,17,12,12,9,13]} bab={3} cmb={4} cmd={12} cmdP="16 vs. trip" feats={["Point-Blank Shot","Precise Shot","Weapon Finesse"]} skills={{"acro":{"b":9},"fly":{"b":13},"per":{"b":3},"stl":{"b":16}}} lang={["Au","C"]} sq="basic aerokinesis" />
+<Ecology env="warm hills or mountains" org="solitary, pair, or flock (6-10)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Air Blast (Sp)</strong> A chuspiki can make a ranged attack with an intense <Link to="/kinetic/air_blast">air blast</Link>, as the kineticist wild talent of the same name, using its Hit Dice as its kineticist level.</p>
@@ -477,11 +480,11 @@ const _chuspiki = {title: "Chuspiki", jsx: <><p><em>This tiny creature, covered 
 const _chuul = {title: "Chuul", jsx: <><p><em>This lobster-like creature has a thick armored shell. A pair of tiny eyes gleams above a mouth full of writhing tentacles.</em></p>
 <Header full><span>Chuul</span><span>CR 7</span></Header>
 <div className="reduce">
-<Info id="monster-chuul--info" source={[["Pathfinder RPG Bestiary",46]]} xp="3,200" ce large aberration subs={["aquatic"]} init={7} dv={60} pcp={19} />
-<Defense id="monster-chuul--defense" ac={[22,12,19]} mod="+3 Dex, +10 natural, -1 size" hp={[85,"10d8+40"]} fort="+7" ref="+6" will="+9" immune="poison" />
-<Offense id="monster-chuul--offense" sp={30} sw={20} melee={<>2 claws +14 (2d6+7 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"5"} specAtt={[["paralytic tentacles","paralytic tentacles"]]} constrict="2d6+7" />
-<Stats id="monster-chuul--stats" atts={[25,16,18,10,14,5]} bab={7} cmb={15} cmbP="+19 grapple" cmd={28} cmdP="32 vs. trip" feats={["Alertness","Blind-Fight","Combat Reflexes","Improved Initiative",["Weapon Focus"," (claw)"]]} skills={{"k":{"n":8},"per":{"b":19},"sm":{"b":9},"stl":{"b":9},"swim":{"b":28}}} lang={[["Common (sometimes Undercommon for subterranean variants)"]]} sq={<Link to="/umr/amphibious">amphibious</Link>} />
-<Ecology id="monster-chuul--eco-eco" env="temperate swamps" org="solitary, pair, or pack (3-6)" treasure={{"S":false}} />
+<Info source={[["Pathfinder RPG Bestiary",46]]} xp="3,200" ce large aberration subs={["aquatic"]} init={7} dv={60} pcp={19} />
+<Defense ac={[22,12,19]} mod="+3 Dex, +10 natural, -1 size" hp={[85,"10d8+40"]} fort="+7" ref="+6" will="+9" immune="poison" />
+<Offense sp={30} sw={20} melee={<>2 claws +14 (2d6+7 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"5"} specAtt={[["paralytic tentacles","paralytic tentacles"]]} constrict="2d6+7" />
+<Stats atts={[25,16,18,10,14,5]} bab={7} cmb={15} cmbP="+19 grapple" cmd={28} cmdP="32 vs. trip" feats={["Alertness","Blind-Fight","Combat Reflexes","Improved Initiative",["Weapon Focus"," (claw)"]]} skills={{"k":{"n":8},"per":{"b":19},"sm":{"b":9},"stl":{"b":9},"swim":{"b":28}}} lang={[["Common (sometimes Undercommon for subterranean variants)"]]} sq={<Link to="/umr/amphibious">amphibious</Link>} />
+<Ecology env="temperate swamps" org="solitary, pair, or pack (3-6)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Paralytic Tentacles (Ex)</strong> A chuul can transfer a grappled victim from a claw to its tentacles as a move action. The tentacles <Link to="/rule/grapple">grapple</Link> with the same strength as the claw but deal no damage, instead exuding a paralytic secretion. Anyone held in the tentacles must succeed on a DC 19 Fortitude save each round on the chuul's turn or be <Link to="/rule/paralyzed">paralyzed</Link> for 6 rounds. The save DC is Constitution-based. While held in the tentacles, paralyzed or not, a victim automatically takes 1d8+7 points of damage each round from the creature's mandibles.</p>
@@ -495,10 +498,10 @@ const _chuul = {title: "Chuul", jsx: <><p><em>This lobster-like creature has a t
 const _chuul_chuul_lesser = {title: "Lesser Chuul", jsx: <><p><em>This lobster-like creature stands as tall as a human. Coils of reaching, pink tendrils slither from within its jaws.</em></p>
 <Header full><span>Lesser Chuul</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info id="monster-chuul_chuul_lesser--info" source={[["Pathfinder #122: Into the Shattered Continent",82]]} xp="1,200" ce medium aberration subs={["aquatic"]} init={6} dv={60} pcp={11} />
-<Defense id="monster-chuul_chuul_lesser--defense" ac={[17,12,15]} mod="+2 Dex, +5 natural" hp={[37,"5d8+15"]} fort="+4" ref="+3" will="+5" />
-<Offense id="monster-chuul_chuul_lesser--offense" sp={30} sw={20} melee={<>2 claws +8 (1d8+5 plus <Link to="/umr/grab">grab</Link>), tendril +3 (1d4+2 plus staggering tendril)</>} space={"5"} reach={"5"} reachP={"10 ft. with tendril"} specAtt={[["staggering tendril DC 15","staggering tendril (DC 15)"]]} />
-<Stats id="monster-chuul_chuul_lesser--stats" atts={[21,14,16,8,12,5]} bab={3} cmb={8} cmbP="+12 grapple" cmd={20} cmdP="24 vs. trip" feats={["Alertness","Blind-Fight","Improved Initiative"]} skills={{"per":{"b":11},"sm":{"b":8},"stl":{"b":10},"swim":{"b":13}}} lang={[["Common (Undercommon instead for many subterranean variants)"]]} sq={<Link to="/umr/amphibious">amphibious</Link>} />
+<Info source={[["Pathfinder #122: Into the Shattered Continent",82]]} xp="1,200" ce medium aberration subs={["aquatic"]} init={6} dv={60} pcp={11} />
+<Defense ac={[17,12,15]} mod="+2 Dex, +5 natural" hp={[37,"5d8+15"]} fort="+4" ref="+3" will="+5" />
+<Offense sp={30} sw={20} melee={<>2 claws +8 (1d8+5 plus <Link to="/umr/grab">grab</Link>), tendril +3 (1d4+2 plus staggering tendril)</>} space={"5"} reach={"5"} reachP={"10 ft. with tendril"} specAtt={[["staggering tendril DC 15","staggering tendril (DC 15)"]]} />
+<Stats atts={[21,14,16,8,12,5]} bab={3} cmb={8} cmbP="+12 grapple" cmd={20} cmdP="24 vs. trip" feats={["Alertness","Blind-Fight","Improved Initiative"]} skills={{"per":{"b":11},"sm":{"b":8},"stl":{"b":10},"swim":{"b":13}}} lang={[["Common (Undercommon instead for many subterranean variants)"]]} sq={<Link to="/umr/amphibious">amphibious</Link>} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Staggering Tendril (Ex)</strong> A lesser chuul's long, searching tendrils are coated in a mildly paralytic secretion. A creature struck by a lesser chuul's tendrils must succeed at a DC 15 Fortitude save or be <Link to="/misc/staggered">staggered</Link> for 1d4 rounds. The save DC is Constitution-based.</p>
@@ -522,10 +525,10 @@ const _chuul_chuul_lesser = {title: "Lesser Chuul", jsx: <><p><em>This lobster-l
 const _chuul_larval_chuul = {title: "Larval Chuul", jsx: <><p><em>This dog-sized creature resembles a soft-shelled lobster with underdeveloped claws and an oversized pair of mandibles.</em></p>
 <Header full><span>Larval Chuul</span><span>CR 1</span></Header>
 <div className="reduce">
-<Info id="monster-chuul_larval_chuul--info" source={[["Pathfinder #122: Into the Shattered Continent",82]]} xp="400" ce small aberration subs={["aquatic"]} init={7} dv={60} pcp={5} />
-<Defense id="monster-chuul_larval_chuul--defense" ac={[14,14,11]} mod="+3 Dex, +1 size" hp={[13,"2d8+4"]} fort="+2" ref="+3" will="+4" />
-<Offense id="monster-chuul_larval_chuul--offense" sp={30} sw={30} melee="bite +4 (1d4+3)" specAtt={[["acid spray DC 13","acid spray (DC 13)"]]} />
-<Stats id="monster-chuul_larval_chuul--stats" atts={[15,16,14,3,12,5]} bab={1} cmb={2} cmd={15} cmdP="19 vs. trip" feats={["Improved Initiative"]} skills={{"per":{"b":5},"stl":{"b":11},"swim":{"b":10}}} sq={<Link to="/umr/amphibious">amphibious</Link>} />
+<Info source={[["Pathfinder #122: Into the Shattered Continent",82]]} xp="400" ce small aberration subs={["aquatic"]} init={7} dv={60} pcp={5} />
+<Defense ac={[14,14,11]} mod="+3 Dex, +1 size" hp={[13,"2d8+4"]} fort="+2" ref="+3" will="+4" />
+<Offense sp={30} sw={30} melee="bite +4 (1d4+3)" specAtt={[["acid spray DC 13","acid spray (DC 13)"]]} />
+<Stats atts={[15,16,14,3,12,5]} bab={1} cmb={2} cmd={15} cmdP="19 vs. trip" feats={["Improved Initiative"]} skills={{"per":{"b":5},"stl":{"b":11},"swim":{"b":10}}} sq={<Link to="/umr/amphibious">amphibious</Link>} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Acid Spray (Ex)</strong> As a standard action, a larval chuul can spray digestive fluids in a 15-foot cone. Creatures caught in this cone take 2d4 points of acid damage on the first round of exposure, and 1d4 points of acid damage on the second round. With a successful Reflex saving throw, a target halves the damage and negates the second round of damage. The save DC is Constitution-based.</p>
@@ -536,13 +539,13 @@ const _chuul_larval_chuul = {title: "Larval Chuul", jsx: <><p><em>This dog-sized
 const _chyzaedu = {title: "Chyzaedu", jsx: <><p><em>The massive, worm-like form of this eyeless, beaked beast is draped in shimmering metallic vestments.</em></p>
 <Header full><span>Chyzaedu</span><span>CR 10</span></Header>
 <div className="reduce">
-<Info id="monster-chyzaedu--info" source={[["Occult Bestiary",14]]} xp="9,600" le gargantuan aberration init={0} dv={60} tremorsense={60} pcp={22} aura={"ecstatic hunger (30 ft., DC 19)"} />
-<Defense id="monster-chyzaedu--defense" ac={[24,6,24]} mod="+6 armor, +12 natural, -4 size" hp={[133,"14d8+70"]} fort="+9" ref="+4" will="+14" def={[["50 chance to negate critical hits and sneak attacks","50% chance to negate critical hits and sneak attacks"]]} dr="10/magic" immune="acid, mind-affecting effects" sr="21" />
-<Offense id="monster-chyzaedu--offense" sp={30} br={20} cl={20} melee={<>bite +17 (2d8+11 plus <Link to="/umr/grab">grab</Link>), claw +17 (2d6+11)</>} space={"20"} reach={"20"} swallow="5d6 acid damage, AC 16, 13 hp" />
-<SpellBlock id="monster-chyzaedu--spells-monster-spellblock-1" prep={{"cl":10,"con":"+15","prep":"Cleric","l5":<><Link to="/spell/greater_command">greater command</Link> (DC 20), <Link to="/spell/mass_inflict_light_wounds">mass inflict light wounds</Link> (DC 20), <Link to="/spell/scrying">scrying</Link> (DC 20)</>,"l4":<><Link to="/spell/air_walk">air walk</Link>, <Link to="/spell/cure_critical_wounds">cure critical wounds</Link>, <Link to="/spell/dimensional_anchor">dimensional anchor</Link>, <Link to="/spell/sending">sending</Link></>,"l3":<><Link to="/spell/blindness_deafness">blindness/deafness</Link> (DC 18), <Link to="/spell/deeper_darkness">deeper darkness</Link>, <Link to="/spell/magic_circle_against_good">magic circle against good</Link>, <Link to="/spell/prayer">prayer</Link></>,"l2":<><Link to="/spell/enthrall">enthrall</Link> (DC 17), <Link to="/spell/shatter">shatter</Link> (DC 17), <Link to="/spell/silence">silence</Link> (DC 17), <Link to="/spell/sound_burst">sound burst</Link> (DC 17), <Link to="/spell/spiritual_weapon">spiritual weapon</Link></>,"l1":<><Link to="/spell/cause_fear">cause fear</Link> (DC 16), <Link to="/spell/command">command</Link> (DC 16), <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/spell/divine_favor">divine favor</Link>, <Link to="/spell/sanctuary">sanctuary</Link> (DC 16), <Link to="/spell/shield_of_faith">shield of faith</Link></>,"l0":<><Link to="/spell/bleed">bleed</Link>, <Link to="/spell/create_water">create water</Link>, <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/resistance">resistance</Link></>}} />
-<Stats id="monster-chyzaedu--stats" atts={[32,11,21,16,21,14]} bab={10} cmb={25} cmbP="+27 bull rush" cmd={35} cmdP="37 vs. bull rush, can't be tripped" feats={["Awesome Blow","Combat Casting",["Eschew Materials",<sup>B</sup>],"Extend Spell","Improved Bull Rush","Intimidating Prowess","Power Attack","Vital Strike"]} skills={{"climb":{"b":16},"diplo":{"b":16},"intm":{"b":30},"k":{"r":20},"per":{"b":22}}} lang={["Ak","C","I",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq="alien vestment" />
+<Info source={[["Occult Bestiary",14]]} xp="9,600" le gargantuan aberration init={0} dv={60} tremorsense={60} pcp={22} aura={"ecstatic hunger (30 ft., DC 19)"} />
+<Defense ac={[24,6,24]} mod="+6 armor, +12 natural, -4 size" hp={[133,"14d8+70"]} fort="+9" ref="+4" will="+14" def={[["50 chance to negate critical hits and sneak attacks","50% chance to negate critical hits and sneak attacks"]]} dr="10/magic" immune="acid, mind-affecting effects" sr="21" />
+<Offense sp={30} br={20} cl={20} melee={<>bite +17 (2d8+11 plus <Link to="/umr/grab">grab</Link>), claw +17 (2d6+11)</>} space={"20"} reach={"20"} swallow="5d6 acid damage, AC 16, 13 hp" />
+<SpellBlock id="1" prep={{"cl":10,"con":"+15","prep":"Cleric","l5":<><Link to="/spell/greater_command">greater command</Link> (DC 20), <Link to="/spell/mass_inflict_light_wounds">mass inflict light wounds</Link> (DC 20), <Link to="/spell/scrying">scrying</Link> (DC 20)</>,"l4":<><Link to="/spell/air_walk">air walk</Link>, <Link to="/spell/cure_critical_wounds">cure critical wounds</Link>, <Link to="/spell/dimensional_anchor">dimensional anchor</Link>, <Link to="/spell/sending">sending</Link></>,"l3":<><Link to="/spell/blindness_deafness">blindness/deafness</Link> (DC 18), <Link to="/spell/deeper_darkness">deeper darkness</Link>, <Link to="/spell/magic_circle_against_good">magic circle against good</Link>, <Link to="/spell/prayer">prayer</Link></>,"l2":<><Link to="/spell/enthrall">enthrall</Link> (DC 17), <Link to="/spell/shatter">shatter</Link> (DC 17), <Link to="/spell/silence">silence</Link> (DC 17), <Link to="/spell/sound_burst">sound burst</Link> (DC 17), <Link to="/spell/spiritual_weapon">spiritual weapon</Link></>,"l1":<><Link to="/spell/cause_fear">cause fear</Link> (DC 16), <Link to="/spell/command">command</Link> (DC 16), <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/spell/divine_favor">divine favor</Link>, <Link to="/spell/sanctuary">sanctuary</Link> (DC 16), <Link to="/spell/shield_of_faith">shield of faith</Link></>,"l0":<><Link to="/spell/bleed">bleed</Link>, <Link to="/spell/create_water">create water</Link>, <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/resistance">resistance</Link></>}} />
+<Stats atts={[32,11,21,16,21,14]} bab={10} cmb={25} cmbP="+27 bull rush" cmd={35} cmdP="37 vs. bull rush, can't be tripped" feats={["Awesome Blow","Combat Casting",["Eschew Materials",<sup>B</sup>],"Extend Spell","Improved Bull Rush","Intimidating Prowess","Power Attack","Vital Strike"]} skills={{"climb":{"b":16},"diplo":{"b":16},"intm":{"b":30},"k":{"r":20},"per":{"b":22}}} lang={["Ak","C","I",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq="alien vestment" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-chyzaedu--eco-eco" env="any" org="solitary" treasure={{"D":[],"final":"7,500 gp of metallic material, other treasure"}} />
+<Ecology env="any" org="solitary" treasure={{"D":[],"final":"7,500 gp of metallic material, other treasure"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Alien Vestment (Su)</strong> A chyzaedu wears a sheet of undulating metallic material blessed by its inscrutable gods. The chyzaedu treats this garment as a +1 <Link to="/magic-enh/moderate_fortification">moderate fortification</Link> <Link to="/eq-armor/breastplate">breastplate</Link> that provides immunity to mind-affecting effects. The vestment also serves as a divine focus for any spell the chyzaedu casts. This vestment doesn't function for any creature other than the chyzaedu for which it was originally crafted. If a chyzaedu's vestment is stolen or destroyed, the chyzaedu can create a replacement with a month of work.</p>
@@ -562,11 +565,11 @@ const _chyzaedu = {title: "Chyzaedu", jsx: <><p><em>The massive, worm-like form 
 const _cicada_cicada_swarm = {title: "Cicada Swarm", jsx: <><p><em>A loud droning buzz accompanies this mass of flying insects.</em></p>
 <Header full><span>Cicada Swarm</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info id="monster-cicada_cicada_swarm--info" source={[["Pathfinder #116: Fangs of War",84]]} xp="600" n diminutive vermin subs={["swarm"]} init={3} dv={60} pcp={9} />
-<Defense id="monster-cicada_cicada_swarm--defense" ac={[17,17,14]} mod="+3 Dex, +4 size" hp={[18,"4d8"]} fort="+4" ref="+4" will="+2" def={[["swarm traits","swarm traits"]]} immune="mind-affecting effects, weapon damage" />
-<Offense id="monster-cicada_cicada_swarm--offense" sp={5} cl={20} fl={40} flP="average" melee="swarm (1d6 plus distraction and song)" space={"10"} reach={"0"} specAtt={[["song DC 12","song (DC 12)"]]} />
-<Stats id="monster-cicada_cicada_swarm--stats" atts={[1,16,11,0,13,2]} bab={3} cmb={null} cmd={null} skills={{"climb":{"b":3},"per":{"b":9}}} racial="+8 Perception" />
-<Ecology id="monster-cicada_cicada_swarm--eco-eco" env="temperate forests" org="solitary or infestation (2-8)" treasure={{"X":false}} />
+<Info source={[["Pathfinder #116: Fangs of War",84]]} xp="600" n diminutive vermin subs={["swarm"]} init={3} dv={60} pcp={9} />
+<Defense ac={[17,17,14]} mod="+3 Dex, +4 size" hp={[18,"4d8"]} fort="+4" ref="+4" will="+2" def={[["swarm traits","swarm traits"]]} immune="mind-affecting effects, weapon damage" />
+<Offense sp={5} cl={20} fl={40} flP="average" melee="swarm (1d6 plus distraction and song)" space={"10"} reach={"0"} specAtt={[["song DC 12","song (DC 12)"]]} />
+<Stats atts={[1,16,11,0,13,2]} bab={3} cmb={null} cmd={null} skills={{"climb":{"b":3},"per":{"b":9}}} racial="+8 Perception" />
+<Ecology env="temperate forests" org="solitary or infestation (2-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Song (Ex)</strong> Any creature in a cicada swarm's space must succeed at a DC 12 Fortitude saving throw or be <Link to="/misc/deafened">deafened</Link> for 1d6 rounds. The save DC is Constitution-based.</p>
@@ -576,11 +579,11 @@ const _cicada_cicada_swarm = {title: "Cicada Swarm", jsx: <><p><em>A loud dronin
 const _cicada_giant_cicada = {title: "Giant Cicada", jsx: <><p><em>Trim wings fold along the back of this oblong, iridescent insect.</em></p>
 <Header full><span>Giant Cicada</span><span>CR 1</span></Header>
 <div className="reduce">
-<Info id="monster-cicada_giant_cicada--info" source={[["Pathfinder #116: Fangs of War",84]]} xp="400" n small vermin init={1} dv={60} pcp={0} />
-<Defense id="monster-cicada_giant_cicada--defense" ac={[15,12,14]} mod="+1 Dex, +3 natural, +1 size" hp={[15,"2d8+6"]} fort="+6" ref="+1" will="+0" immune="mind-affecting effects" />
-<Offense id="monster-cicada_giant_cicada--offense" sp={20} cl={20} fl={50} flP="average" melee="bite +2 (1d4)" specAtt={[["song DC 14","song (DC 14)"]]} />
-<Stats id="monster-cicada_giant_cicada--stats" atts={[11,13,16,0,11,2]} bab={1} cmb={0} cmd={11} cmdP="19 vs. trip" skills={{"acro":{"b":0,"x":"+8 when jumping"},"climb":{"b":8}}} racial="+8 Acrobatics when jumping" />
-<Ecology id="monster-cicada_giant_cicada--eco-eco" env="any temperate or tropical land" org="solitary, pair, or brood (3-12)" treasure={{"X":false}} />
+<Info source={[["Pathfinder #116: Fangs of War",84]]} xp="400" n small vermin init={1} dv={60} pcp={0} />
+<Defense ac={[15,12,14]} mod="+1 Dex, +3 natural, +1 size" hp={[15,"2d8+6"]} fort="+6" ref="+1" will="+0" immune="mind-affecting effects" />
+<Offense sp={20} cl={20} fl={50} flP="average" melee="bite +2 (1d4)" specAtt={[["song DC 14","song (DC 14)"]]} />
+<Stats atts={[11,13,16,0,11,2]} bab={1} cmb={0} cmd={11} cmdP="19 vs. trip" skills={{"acro":{"b":0,"x":"+8 when jumping"},"climb":{"b":8}}} racial="+8 Acrobatics when jumping" />
+<Ecology env="any temperate or tropical land" org="solitary, pair, or brood (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Song (Ex)</strong> As a move action, a giant cicada can flex membranes in its abdomen to produce a loud and distracting sound. After starting its song, a giant cicada can maintain its song in subsequent rounds as a free action. Any creatures within 30 feet of the giant cicada must succeed at a DC 14 Fortitude saving throw or be <Link to="/misc/deafened">deafened</Link> for the duration of the cicada's song. Being deafened in this way doesn't make a creature immune to this effect, but creatures that were naturally or magically deafened prior to encountering this effect are unaffected. This is a sonic effect and the save DC is Constitution-based.</p>
@@ -592,11 +595,11 @@ const _cicada_giant_cicada = {title: "Giant Cicada", jsx: <><p><em>Trim wings fo
 const _cinderghost = {title: "Cinderghost", jsx: <><p><em>In the midst of a swirling cloud of desiccated ashes is the vague shape of a humanoid, with hollow, unblinking eyes that flicker like dying embers.</em></p>
 <Header full><span>Cinderghost</span><span>CR 7</span></Header>
 <div className="reduce">
-<Info id="monster-cinderghost--info" source={[["Planes of Power",53]]} xp="3,200" ne medium undead subs={["extraplanar","fire","incorporeal"]} init={4} dv={60} pcp={14} />
-<Defense id="monster-cinderghost--defense" ac={[20,20,15]} mod="+5 Deflection, +4 Dex, +1 Dodge" hp={[85,"9d8+45"]} fh="5" fort="+10" ref="+7" will="+8" def={[["cleansing fire","cleansing fire"]]} chanRes="+2" incorp immune={<>fire, <Link to="/umr/undead_traits">undead traits</Link></>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
-<Offense id="monster-cinderghost--offense" fl={80} flP="perfect" melee="incorpreal touch +11 (1d8 plus desiccation)" heat="3d6 fire" />
-<Stats id="monster-cinderghost--stats" atts={[0,18,0,14,14,21]} bab={6} cmb={10} cmd={26} feats={["Blind-Fight","Combat Reflexes","Dodge","Great Fortitude",["Weapon Focus"," (incorporeal touch)"]]} skills={{"bluff":{"b":14},"fly":{"b":24},"intm":{"b":17},"k":{"p":11},"per":{"b":14},"stl":{"b":16}}} lang={["C","Ig"]} />
-<Ecology id="monster-cinderghost--eco-eco" env={<>any plains (<Link to="/rule/plane_of_fire">Plane of Fire</Link>)</>} org="solitary, trio, or rush (8-12)" treasure={{"S":false}} />
+<Info source={[["Planes of Power",53]]} xp="3,200" ne medium undead subs={["extraplanar","fire","incorporeal"]} init={4} dv={60} pcp={14} />
+<Defense ac={[20,20,15]} mod="+5 Deflection, +4 Dex, +1 Dodge" hp={[85,"9d8+45"]} fh="5" fort="+10" ref="+7" will="+8" def={[["cleansing fire","cleansing fire"]]} chanRes="+2" incorp immune={<>fire, <Link to="/umr/undead_traits">undead traits</Link></>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
+<Offense fl={80} flP="perfect" melee="incorpreal touch +11 (1d8 plus desiccation)" heat="3d6 fire" />
+<Stats atts={[0,18,0,14,14,21]} bab={6} cmb={10} cmd={26} feats={["Blind-Fight","Combat Reflexes","Dodge","Great Fortitude",["Weapon Focus"," (incorporeal touch)"]]} skills={{"bluff":{"b":14},"fly":{"b":24},"intm":{"b":17},"k":{"p":11},"per":{"b":14},"stl":{"b":16}}} lang={["C","Ig"]} />
+<Ecology env={<>any plains (<Link to="/rule/plane_of_fire">Plane of Fire</Link>)</>} org="solitary, trio, or rush (8-12)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Cleansing Fire (Ex)</strong> As long as a cinderghost is in an environment where ashes are plentiful (such as a non-urban area on the Plane of Fire, or a burned-out settlement or field on another plane), it has <Link to="/umr/fast_healing">fast healing</Link> 5. It loses this fast healing if it leaves such an area.</p>
@@ -610,12 +613,12 @@ const _cinderghost = {title: "Cinderghost", jsx: <><p><em>In the midst of a swir
 const _cipactli = {title: "Cipactli", jsx: <><p><em>This creature is covered in snapping jaws, from its massive, toothy head to the various mouths that open in its body and tail.</em></p>
 <Header full><span>Cipactli</span><span>CR 21</span></Header>
 <div className="reduce">
-<Info id="monster-cipactli--info" source={[["Bestiary 6",56]]} xp="409,600" cn gargantuan magicalBeast subs={["aquatic"]} init={10} senSpell={["true seeing"]} dv={180} llv scent tremorsense={60} pcp={35} />
-<Defense id="monster-cipactli--defense" ac={[37,13,30]} mod="+6 Dex, +1 dodge, +24 natural, -4 size" hp={[402,"23d10+276"]} regen="20 (special)" fort="+25" ref="+19" will="+18; +8 vs. mind-affecting effects" dr="15/cold iron and lawful" immune="disease, nonlethal damage, poison" resist="acid 20, cold 20, electricity 20, fire 20" sr="32" />
-<Offense id="monster-cipactli--offense" sp={60} sw={60} spExtra={<em>air walk</em>} melee="ravenous bite +30 (3d6+16/19-20 plus grab), 4 bites +30 (2d6+11/19-20 plus grab), 2 claws +30 (2d6+11)" space={"20"} reach={"20"} specAtt={[["devour","devour"],["frightening roar","frightening roar"],["ravenous bite","ravenous bite"]]} fSwallow grab="Colossal" pounce swallow="see below, AC 22, 40 hp" trample="2d8+16 plus grab, DC 32" />
-<SpellBlock id="monster-cipactli--spells-monster-spellblock-1" sla={{"cl":20,"con":"+28","content":[{"constant":true,"content":<><Link to="/spell/air_walk">air walk</Link>, <Link to="/spell/mind_blank">mind blank</Link>, <Link to="/spell/true_seeing">true seeing</Link></>},{"will":true,"content":<><Link to="/spell/control_water">control water</Link>, <Link to="/spell/control_weather">control weather</Link>, <Link to="/spell/transmute_rock_to_mud">transmute rock to mud</Link></>},{"day":3,"content":<><Link to="/spell/horrid_wilting">horrid wilting</Link> (DC 26), <Link to="/spell/incendiary_cloud">incendiary cloud</Link> (DC 26), <Link to="/spell/meteor_swarm">meteor swarm</Link> (DC 27), <Link to="/spell/polar_ray">polar ray</Link>, <Link to="/spell/vision">vision</Link></>}]}} />
-<Stats id="monster-cipactli--stats" atts={[32,23,34,19,28,27]} bab={23} cmb={38} cmd={55} feats={["Combat Reflexes","Critical Focus","Dodge","Greater Vital Strike",["Improved Critical"," (bite, ravenous bite)"],"Improved Initiative","Improved Vital Strike","Iron Will","Power Attack","Staggering Critical","Vital Strike"]} skills={{"climb":{"b":37}}} racial="+8 Stealth underwater" lang={["Aq","C","D","T"]} sq={<><Link to="/umr/amphibious">amphibious</Link>, destructive, hibernation</>} />
-<Ecology id="monster-cipactli--eco-eco" env="any water" org="solitary" treasure={{"S":false}} />
+<Info source={[["Bestiary 6",56]]} xp="409,600" cn gargantuan magicalBeast subs={["aquatic"]} init={10} senSpell={["true seeing"]} dv={180} llv scent tremorsense={60} pcp={35} />
+<Defense ac={[37,13,30]} mod="+6 Dex, +1 dodge, +24 natural, -4 size" hp={[402,"23d10+276"]} regen="20 (special)" fort="+25" ref="+19" will="+18; +8 vs. mind-affecting effects" dr="15/cold iron and lawful" immune="disease, nonlethal damage, poison" resist="acid 20, cold 20, electricity 20, fire 20" sr="32" />
+<Offense sp={60} sw={60} spExtra={<em>air walk</em>} melee="ravenous bite +30 (3d6+16/19-20 plus grab), 4 bites +30 (2d6+11/19-20 plus grab), 2 claws +30 (2d6+11)" space={"20"} reach={"20"} specAtt={[["devour","devour"],["frightening roar","frightening roar"],["ravenous bite","ravenous bite"]]} fSwallow grab="Colossal" pounce swallow="see below, AC 22, 40 hp" trample="2d8+16 plus grab, DC 32" />
+<SpellBlock id="1" sla={{"cl":20,"con":"+28","content":[{"constant":true,"content":<><Link to="/spell/air_walk">air walk</Link>, <Link to="/spell/mind_blank">mind blank</Link>, <Link to="/spell/true_seeing">true seeing</Link></>},{"will":true,"content":<><Link to="/spell/control_water">control water</Link>, <Link to="/spell/control_weather">control weather</Link>, <Link to="/spell/transmute_rock_to_mud">transmute rock to mud</Link></>},{"day":3,"content":<><Link to="/spell/horrid_wilting">horrid wilting</Link> (DC 26), <Link to="/spell/incendiary_cloud">incendiary cloud</Link> (DC 26), <Link to="/spell/meteor_swarm">meteor swarm</Link> (DC 27), <Link to="/spell/polar_ray">polar ray</Link>, <Link to="/spell/vision">vision</Link></>}]}} />
+<Stats atts={[32,23,34,19,28,27]} bab={23} cmb={38} cmd={55} feats={["Combat Reflexes","Critical Focus","Dodge","Greater Vital Strike",["Improved Critical"," (bite, ravenous bite)"],"Improved Initiative","Improved Vital Strike","Iron Will","Power Attack","Staggering Critical","Vital Strike"]} skills={{"climb":{"b":37}}} racial="+8 Stealth underwater" lang={["Aq","C","D","T"]} sq={<><Link to="/umr/amphibious">amphibious</Link>, destructive, hibernation</>} />
+<Ecology env="any water" org="solitary" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Devour (Su)</strong> Any time a cipactli kills or destroys a creature with its swallow whole ability, it gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to 5 &times; the slain creature's Hit Dice.</p>
@@ -645,12 +648,12 @@ const _cipactli = {title: "Cipactli", jsx: <><p><em>This creature is covered in 
 const _clawbat = {title: "Clawbat", jsx: <><p><em>A leathery piece of skin stretched across a frame of joints and bony knobs beats awkwardly through the air. Eyes glare from the folds of its thick wings, writhing tentacles surround its sucker-like maw, and a long, thin tongue darts forth seemingly at random to lash the air around it.</em></p>
 <Header full><span>Clawbat</span><span>CR 1</span></Header>
 <div className="reduce">
-<Info id="monster-clawbat--info" source={[["Pathfinder #33: The Varnhold Vanishing",82]]} xp="400" n small magicalBeast init={3} sen={["blood scent"]} dv={60} llv pcp={2} />
-<Defense id="monster-clawbat--defense" ac={[15,14,12]} mod="+1 armor, +3 Dex, +1 size" hp={[11,"2d10"]} fort="+3" ref="+6" will="+2" />
-<Offense id="monster-clawbat--offense" sp={10} fl={50} flP="average" melee="1 bite +6 (1d4-2 plus bleed)" bleed="1" distraction={11} />
-<Stats id="monster-clawbat--stats" atts={[7,17,10,2,14,10]} bab={2} cmb={-1} cmd={12} feats={[["Flyby Attack",<sup>B</sup>],"Weapon Finesse"]} skills={{"fly":{"b":5},"stl":{"b":12}}} />
+<Info source={[["Pathfinder #33: The Varnhold Vanishing",82]]} xp="400" n small magicalBeast init={3} sen={["blood scent"]} dv={60} llv pcp={2} />
+<Defense ac={[15,14,12]} mod="+1 armor, +3 Dex, +1 size" hp={[11,"2d10"]} fort="+3" ref="+6" will="+2" />
+<Offense sp={10} fl={50} flP="average" melee="1 bite +6 (1d4-2 plus bleed)" bleed="1" distraction={11} />
+<Stats atts={[7,17,10,2,14,10]} bab={2} cmb={-1} cmd={12} feats={[["Flyby Attack",<sup>B</sup>],"Weapon Finesse"]} skills={{"fly":{"b":5},"stl":{"b":12}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clawbat--eco-eco" env="temperate hills and ruins" org="solitary, pair, or clutch (3-16)" treasure={{"X":false}} />
+<Ecology env="temperate hills and ruins" org="solitary, pair, or clutch (3-16)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Blood Scent (Ex)</strong> A clawbat can detect any creature at less than maximum hit points as if it had <Link to="/umr/scent">scent</Link>. Those at full hit points cannot be detected by the blood scent ability.</p>
@@ -662,11 +665,11 @@ const _clawbat = {title: "Clawbat", jsx: <><p><em>A leathery piece of skin stret
 const _cloaker = {title: "Cloaker", jsx: <><p><em>This ray-like creature opens a toothy maw and leers with glaring red eyes. Behind it whips a menacing tail of segmented bone.</em></p>
 <Header full><span>Cloaker</span><span>CR 5</span></Header>
 <div className="reduce">
-<Info id="monster-cloaker--info" source={[["Pathfinder RPG Bestiary",47]]} xp="1,600" cn large aberration init={7} dv={60} pcp={14} />
-<Defense id="monster-cloaker--defense" ac={[19,12,16]} mod="+3 Dex, +7 natural, -1 size" hp={[51,"6d8+24"]} fort="+6" ref="+5" will="+7" def={[["shadow shift","shadow shift"]]} />
-<Offense id="monster-cloaker--offense" sp={10} fl={40} flP="average" melee="bite +8 (1d6+5), tail slap +3 (1d8+2)" space={"10"} reach={"10"} reachP={"5 ft. with bite"} specAtt={[["engulf","engulf"],["moan","moan"]]} />
-<Stats id="monster-cloaker--stats" atts={[21,16,19,14,15,14]} bab={4} cmb={10} cmd={23} cmdP="can't be tripped" feats={["Combat Reflexes","Improved Initiative",["Skill Focus"," (Perception)"]]} skills={{"dis":{"b":8,"x":"+16 as cloak"},"sm":{"b":8},"stl":{"b":8}}} racial="+8 Disguise to appear as a cloak, sheet, manta ray, or similarly shaped object or creature" lang={["U"]} />
-<Ecology id="monster-cloaker--eco-eco" env="underground" org="solitary, pair, mob (3-6), or flock (7-12)" treasure={{"S":false}} />
+<Info source={[["Pathfinder RPG Bestiary",47]]} xp="1,600" cn large aberration init={7} dv={60} pcp={14} />
+<Defense ac={[19,12,16]} mod="+3 Dex, +7 natural, -1 size" hp={[51,"6d8+24"]} fort="+6" ref="+5" will="+7" def={[["shadow shift","shadow shift"]]} />
+<Offense sp={10} fl={40} flP="average" melee="bite +8 (1d6+5), tail slap +3 (1d8+2)" space={"10"} reach={"10"} reachP={"5 ft. with bite"} specAtt={[["engulf","engulf"],["moan","moan"]]} />
+<Stats atts={[21,16,19,14,15,14]} bab={4} cmb={10} cmd={23} cmdP="can't be tripped" feats={["Combat Reflexes","Improved Initiative",["Skill Focus"," (Perception)"]]} skills={{"dis":{"b":8,"x":"+16 as cloak"},"sm":{"b":8},"stl":{"b":8}}} racial="+8 Disguise to appear as a cloak, sheet, manta ray, or similarly shaped object or creature" lang={["U"]} />
+<Ecology env="underground" org="solitary, pair, mob (3-6), or flock (7-12)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Engulf (Ex)</strong> A cloaker can try to wrap a Medium or smaller creature in its body as a standard action. The cloaker attempts a <Link to="/rule/grapple">grapple</Link> that does not provoke an attack of opportunity. If it wins the grapple check, it establishes a hold and bites the engulfed victim with a +4 bonus on its attack roll. It can still use its whip-like tail to strike at other targets. Attacks that hit an engulfing cloaker deal half their damage to the monster and half to the trapped victim.</p>
@@ -686,11 +689,11 @@ const _cloaker = {title: "Cloaker", jsx: <><p><em>This ray-like creature opens a
 const _clockwork_clockwork_angel = {title: "Clockwork Angel", jsx: <><p><em>Brass, bronze, and silver components adorn this angelic figure. Moving gears are visible within the gaps of its metallic body.</em></p>
 <Header full><span>Clockwork Angel</span><span>CR 15</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_angel--info" source={[["Bestiary 6",58]]} xp="51,200" n medium construct subs={["clockwork"]} init={13} dv={60} llv pcp={6} />
-<Defense id="monster-clockwork_clockwork_angel--defense" ac={[29,21,18]} mod="+9 Dex, +2 dodge, +8 natural" hp={[210,"20d10+100"]} fort="+6" ref="+17" will="+6" def={[["infused heart","infused heart"]]} dr="10/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_angel--offense" sp={30} fl={60} flP="good" melee={<>+1 <Link to="/magic-enh/flaming">flaming</Link> <Link to="/magic-enh/keen">keen</Link> greatsword +28/+23/+18/+13 (2d6+11/19-20 plus 1d6 fire)</>} specAtt={[["enhance weapon","enhance weapon"]]} />
-<Stats id="monster-clockwork_clockwork_angel--stats" atts={[24,28,0,0,11,18]} bab={20} cmb={27} cmd={48} feats={["Improved Initiative","Lightning Reflexes",["Martial Weapon Proficiency"," (greatsword)"]]} skills={{"acro":{"b":15},"fly":{"b":19},"per":{"b":6}}} racial="+6 Acrobatics, +6 Fly, +6 Perception" sq="difficult to create, programmed sentinel, swift reactions, winding" />
-<Ecology id="monster-clockwork_clockwork_angel--eco-eco" env="any" org="solitary, pair, or reliquary (3-6)" treasure={{"I":[["Mw","Wgs"]]}} />
+<Info source={[["Bestiary 6",58]]} xp="51,200" n medium construct subs={["clockwork"]} init={13} dv={60} llv pcp={6} />
+<Defense ac={[29,21,18]} mod="+9 Dex, +2 dodge, +8 natural" hp={[210,"20d10+100"]} fort="+6" ref="+17" will="+6" def={[["infused heart","infused heart"]]} dr="10/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} fl={60} flP="good" melee={<>+1 <Link to="/magic-enh/flaming">flaming</Link> <Link to="/magic-enh/keen">keen</Link> greatsword +28/+23/+18/+13 (2d6+11/19-20 plus 1d6 fire)</>} specAtt={[["enhance weapon","enhance weapon"]]} />
+<Stats atts={[24,28,0,0,11,18]} bab={20} cmb={27} cmd={48} feats={["Improved Initiative","Lightning Reflexes",["Martial Weapon Proficiency"," (greatsword)"]]} skills={{"acro":{"b":15},"fly":{"b":19},"per":{"b":6}}} racial="+6 Acrobatics, +6 Fly, +6 Perception" sq="difficult to create, programmed sentinel, swift reactions, winding" />
+<Ecology env="any" org="solitary, pair, or reliquary (3-6)" treasure={{"I":[["Mw","Wgs"]]}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Enhance Weapon (Su)</strong> When initially created, a clockwork angel is granted the ability to infuse a single wielded masterwork melee weapon with magical power. The creator determines what sort of effects each clockwork angel can grant to its weapon, as long as the enhancements are equivalent to a +3 enhancement bonus. Most clockwork angels are granted the ability to transform a wielded weapon into a +1 <Link to="/magic-enh/flaming">flaming</Link> <Link to="/magic-enh/keen">keen</Link> weapon. A clockwork angel can infuse a melee weapon it wields in this manner at will as a free action; it can have only one such weapon at a time, and the weapon loses its magical infusion and reverts to a masterwork weapon as soon as the clockwork angel drops it or is destroyed.</p>
@@ -707,11 +710,11 @@ const _clockwork_clockwork_angel = {title: "Clockwork Angel", jsx: <><p><em>Bras
 const _clockwork_clockwork_assassin = {title: "Clockwork Assassin", jsx: <><p><em>This sleek, one-eyed construct crouches, ready for battle. Its arms end in weapons - a rapier and a compact crossbow bolt launcher.</em></p>
 <Header full><span>Clockwork Assassin</span><span>CR 13</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_assassin--info" source={[["Bestiary 6",59]]} xp="25,600" n medium construct subs={["clockwork"]} init={12} dv={120} llv mistsight pcp="+0 (+20 in sentinel mode)" />
-<Defense id="monster-clockwork_clockwork_assassin--defense" ac={[27,20,17]} mod="+8 Dex, +2 dodge, +7 natural" hp={[119,"18d10+20"]} fh="10" fort="+6" ref="+16" will="+6" def={[["rapid repair","rapid repair"]]} eva dr="10/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_assassin--offense" sp={40} cl={30} melee="+1 rapier +25/+20/+15/+10 (1d6+7/15-20)" ranged="4 projectiles +26 (1d4+6/19-20 or smoke)" specAtt={[["projectile launcher","projectile launcher"],["sneak attack 2d6",<><Link to="/ability/sneak_attack">sneak attack</Link> +2d6</>]]} />
-<Stats id="monster-clockwork_clockwork_assassin--stats" atts={[22,26,0,0,11,1]} bab={18} cmb={24} cmd={44} feats={[["Improved Critical"," (rapier)"],"Improved Initiative","Lightning Reflexes"]} skills={{"climb":{"b":14},"per":{"b":0,"x":"+20 in sentinel mode"}}} racial="+20 Perception in sentinel mode" sq="difficult to create, integrated rapier, standby, swift reactions, winding" />
-<Ecology id="monster-clockwork_clockwork_assassin--eco-eco" env="any" org="solitary, pair, or contract (3-8)" treasure={{"X":false}} />
+<Info source={[["Bestiary 6",59]]} xp="25,600" n medium construct subs={["clockwork"]} init={12} dv={120} llv mistsight pcp="+0 (+20 in sentinel mode)" />
+<Defense ac={[27,20,17]} mod="+8 Dex, +2 dodge, +7 natural" hp={[119,"18d10+20"]} fh="10" fort="+6" ref="+16" will="+6" def={[["rapid repair","rapid repair"]]} eva dr="10/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={40} cl={30} melee="+1 rapier +25/+20/+15/+10 (1d6+7/15-20)" ranged="4 projectiles +26 (1d4+6/19-20 or smoke)" specAtt={[["projectile launcher","projectile launcher"],["sneak attack 2d6",<><Link to="/ability/sneak_attack">sneak attack</Link> +2d6</>]]} />
+<Stats atts={[22,26,0,0,11,1]} bab={18} cmb={24} cmd={44} feats={[["Improved Critical"," (rapier)"],"Improved Initiative","Lightning Reflexes"]} skills={{"climb":{"b":14},"per":{"b":0,"x":"+20 in sentinel mode"}}} racial="+20 Perception in sentinel mode" sq="difficult to create, integrated rapier, standby, swift reactions, winding" />
+<Ecology env="any" org="solitary, pair, or contract (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Integrated Rapier (Ex)</strong> One of a clockwork assassin's arms ends in an integrated +1 <Link to="/eq-weapon/rapier">rapier</Link>. This weapon cannot be disarmed, sundered, or removed, and becomes nonmagical if the clockwork is destroyed. A clockwork assassin's programming allows it to wield its +1 rapier as if it were proficient in its use.</p>
@@ -728,12 +731,12 @@ const _clockwork_clockwork_assassin = {title: "Clockwork Assassin", jsx: <><p><e
 const _clockwork_clockwork_dragon = {title: "Clockwork Dragon", jsx: <><p><em>Though made of thousands of metal parts, this masterpiece of gleaming metal glides through the air with impossible grace.</em></p>
 <Header full><span>Clockwork Dragon</span><span>CR 16</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_dragon--info" source={[["Bestiary 4",30],["Pathfinder #66: The Dead Heart of Xin",86]]} xp="76,800" n huge construct subs={["clockwork"]} init={8} senSpell={["see invisibility"]} dv={60} llv pcp={8} />
-<Defense id="monster-clockwork_clockwork_dragon--defense" ac={[34,14,28]} mod="+4 Dex, +2 dodge, +20 natural, -2 size" hp={[177,"25d10+40"]} fort="+8" ref="+14" will="+8" dr="15/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} resist="fire 20" sr="27" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_dragon--offense" sp={60} fl={100} flP="average" sw={60} melee="bite +35 (4d6+12), 2 claws +35 (2d8+12), tail slap +30 (2d6+6), 2 wings +30 (2d6+6)" space={"15"} reach={"15"} reachP={"15 ft. with bite"} specAtt={[["adamantine weapons","adamantine weapons"],["self-destruction","self-destruction"]]} brWeap="100-ft. line, 14d6 fire damage, Reflex DC 22 half, usable every 1d4 rounds" />
-<Stats id="monster-clockwork_clockwork_dragon--stats" atts={[34,19,0,0,11,1]} bab={25} cmb={39} cmd={55} cmdP="59 vs. trip" feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} skills={{"fly":{"b":8}}} racial="+8 Fly, +8 Perception" sq="difficult to create, efficient winding, swift reactions" />
+<Info source={[["Bestiary 4",30],["Pathfinder #66: The Dead Heart of Xin",86]]} xp="76,800" n huge construct subs={["clockwork"]} init={8} senSpell={["see invisibility"]} dv={60} llv pcp={8} />
+<Defense ac={[34,14,28]} mod="+4 Dex, +2 dodge, +20 natural, -2 size" hp={[177,"25d10+40"]} fort="+8" ref="+14" will="+8" dr="15/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} resist="fire 20" sr="27" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={60} fl={100} flP="average" sw={60} melee="bite +35 (4d6+12), 2 claws +35 (2d8+12), tail slap +30 (2d6+6), 2 wings +30 (2d6+6)" space={"15"} reach={"15"} reachP={"15 ft. with bite"} specAtt={[["adamantine weapons","adamantine weapons"],["self-destruction","self-destruction"]]} brWeap="100-ft. line, 14d6 fire damage, Reflex DC 22 half, usable every 1d4 rounds" />
+<Stats atts={[34,19,0,0,11,1]} bab={25} cmb={39} cmd={55} cmdP="59 vs. trip" feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} skills={{"fly":{"b":8}}} racial="+8 Fly, +8 Perception" sq="difficult to create, efficient winding, swift reactions" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_dragon--eco-eco" env="any land" org="solitary" treasure={{"X":false}} />
+<Ecology env="any land" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Adamantine Weapons (Ex)</strong> The teeth and claws of a clockwork dragon are made of <Link to="/eq-material/adamantine">adamantine</Link> and have the qualities of a weapon made from that material.</p>
@@ -759,12 +762,12 @@ const _clockwork_clockwork_dragon = {title: "Clockwork Dragon", jsx: <><p><em>Th
 const _clockwork_clockwork_excavator = {title: "Clockwork Excavator", jsx: <><p><em>Set atop spoked wheels, this huge contraption has two hinged arms that appear to be designed to shovel rocks into its open maw. Gleaming drills set around the construct's base look like they could easily break apart stone, and a gleaming scope of dark-hued glass projects from the end of a jointed arm.</em></p>
 <Header full><span>Clockwork Excavator</span><span>CR 10</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_excavator--info" source={[["Pathfinder #117: Assault on Longshadow",84]]} xp="9,600" n huge construct subs={["clockwork"]} init={3} sen={["metal sense 120 ft."]} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_clockwork_excavator--defense" ac={[23,9,21]} mod="-1 Dex, +2 dodge, +14 natural, -2 size" hp={[111,"13d10+40"]} fort="+4" ref="+5" will="+4" dr="10/adamantine" immune={<>acid, <Link to="/umr/construct_traits">construct traits</Link>, fire</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_excavator--offense" sp={20} br={10} melee={<>2 slams +21 (1d8+10 plus <Link to="/umr/grab">grab</Link>), drill +21 (2d6+10)</>} space={"15"} reach={"15"} specAtt={[["explosive charge 3day","explosive charge 3/day"],["pulverizing ray 30-ft line 6d8 sonic damage Reflex DC 16 for half usable every 1d4 rounds","pulverizing ray (30-ft. line, 6d8 sonic damage, Reflex DC 16 for half, usable every 1d4 rounds)"]]} swallow="2d6 bludgeoning damage, AC 17, 11 hp" />
-<Stats id="monster-clockwork_clockwork_excavator--stats" atts={[30,8,0,0,11,7]} bab={13} cmb={25} cmd={36} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, superior craftsmanship, swift reactions, winding" />
+<Info source={[["Pathfinder #117: Assault on Longshadow",84]]} xp="9,600" n huge construct subs={["clockwork"]} init={3} sen={["metal sense 120 ft."]} dv={60} llv pcp={0} />
+<Defense ac={[23,9,21]} mod="-1 Dex, +2 dodge, +14 natural, -2 size" hp={[111,"13d10+40"]} fort="+4" ref="+5" will="+4" dr="10/adamantine" immune={<>acid, <Link to="/umr/construct_traits">construct traits</Link>, fire</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={20} br={10} melee={<>2 slams +21 (1d8+10 plus <Link to="/umr/grab">grab</Link>), drill +21 (2d6+10)</>} space={"15"} reach={"15"} specAtt={[["explosive charge 3day","explosive charge 3/day"],["pulverizing ray 30-ft line 6d8 sonic damage Reflex DC 16 for half usable every 1d4 rounds","pulverizing ray (30-ft. line, 6d8 sonic damage, Reflex DC 16 for half, usable every 1d4 rounds)"]]} swallow="2d6 bludgeoning damage, AC 17, 11 hp" />
+<Stats atts={[30,8,0,0,11,7]} bab={13} cmb={25} cmd={36} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, superior craftsmanship, swift reactions, winding" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_excavator--eco-eco" env="any land" org="solitary or crew (2-4)" treasure={{"I":false}} />
+<Ecology env="any land" org="solitary or crew (2-4)" treasure={{"I":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Explosive Charge (Su)</strong> A clockwork excavator can create alchemical explosives that aid it in clearing particularly dense areas of rock. Three times per day, an excavator can launch a cylindrical explosive charge as a ranged attack, targeting any grid intersection within 30 feet. A thrown charge detonates 1d4-1 rounds after being released (a result of 0 causes it to detonate upon impact), creating a 10-foot <Link to="/misc/burst">burst</Link> that deals 2d6 points of fire damage and 2d6 points of bludgeoning damage (bypassing objects' hardness). Creatures in the blast radius can attempt a DC 16 Reflex saving throw for half damage. The save DC is Constitution-based.</p>
@@ -790,11 +793,11 @@ const _clockwork_clockwork_excavator = {title: "Clockwork Excavator", jsx: <><p>
 const _clockwork_clockwork_familiar = {title: "Clockwork Familiar", jsx: <><p><em>This tiny metallic creature is shaped like a raven, gears and belts whirring beneath its shining, articulated plates.</em></p>
 <Header full><span>Clockwork Familiar</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_familiar--info" source={[["Bestiary 5",57],["Pathfinder #63: The Asylum Stone",86]]} xp="600" n tiny construct subs={["clockwork"]} init={6} dv={60} llv pcp={5} />
-<Defense id="monster-clockwork_clockwork_familiar--defense" ac={[18,16,14]} mod="+2 Dex, +2 Dodge, +2 natural, +2 size" hp={[16,"3d10"]} fort="+1" ref="+5" will="+2" dr="5/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} resist="cold 10, fire 10" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_familiar--offense" sp={30} fl={50} flP="perfect" melee="bite +7 (1d3 plus 1d6 electricity)" />
-<Stats id="monster-clockwork_clockwork_familiar--stats" atts={[10,14,10,11,13,11]} bab={3} cmb={3} cmd={15} feats={["Alertness","Improved Initiative","Lightning Reflexes","Weapon Finesse"]} skills={{"fly":{"b":19},"per":{"b":5},"sm":{"b":3},"stl":{"b":12}}} lang={["C"]} sq="advice, item installation, swift reactions, winding" />
-<Ecology id="monster-clockwork_clockwork_familiar--eco-eco" env="any" org="solitary" treasure={{"X":false}} />
+<Info source={[["Bestiary 5",57],["Pathfinder #63: The Asylum Stone",86]]} xp="600" n tiny construct subs={["clockwork"]} init={6} dv={60} llv pcp={5} />
+<Defense ac={[18,16,14]} mod="+2 Dex, +2 Dodge, +2 natural, +2 size" hp={[16,"3d10"]} fort="+1" ref="+5" will="+2" dr="5/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} resist="cold 10, fire 10" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} fl={50} flP="perfect" melee="bite +7 (1d3 plus 1d6 electricity)" />
+<Stats atts={[10,14,10,11,13,11]} bab={3} cmb={3} cmd={15} feats={["Alertness","Improved Initiative","Lightning Reflexes","Weapon Finesse"]} skills={{"fly":{"b":19},"per":{"b":5},"sm":{"b":3},"stl":{"b":12}}} lang={["C"]} sq="advice, item installation, swift reactions, winding" />
+<Ecology env="any" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Advice (Ex)</strong> Clockwork familiars have an innate understanding of how things work, granting their masters a +2 bonus on all Craft and Use Magic Device checks.</p>
@@ -814,11 +817,11 @@ const _clockwork_clockwork_familiar = {title: "Clockwork Familiar", jsx: <><p><e
 const _clockwork_clockwork_fiend = {title: "Clockwork Fiend", jsx: <><p><em>Resembling a metallic horned devil, this apparatus whirs with the sound of internal mechanisms.</em></p>
 <Header full><span>Clockwork Fiend</span><span>CR 17</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_fiend--info" source={[["Bestiary 6",60]]} xp="102,400" n medium construct subs={["clockwork"]} init={12} dv={60} llv sid pcp={0} />
-<Defense id="monster-clockwork_clockwork_fiend--defense" ac={[32,20,22]} mod="+8 Dex, +2 dodge, +12 natural" hp={[146,"23d10+20"]} fort="+7" ref="+17" will="+7" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, fire</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_fiend--offense" sp={30} melee="bite +34 (2d8+11/18-20/&times;3), 2 claws +34 (2d6+11 plus bleed), 2 wings +29 (1d8+5)" space={"5"} reach={"5"} reachP={"10 ft. with wings"} specAtt={[["explosive rend","explosive rend"],["overdrive","overdrive"]]} bleed="2d8" />
-<Stats id="monster-clockwork_clockwork_fiend--stats" atts={[32,26,0,0,11,1]} bab={23} cmb={34} cmd={54} feats={["Improved Initiative","Lightning Reflexes"]} sq="difficult to create, swift reactions, winding" />
-<Ecology id="monster-clockwork_clockwork_fiend--eco-eco" env="any" org={<>solitary, pair, or blasphemy (2 clockwork fiends plus 4-8 <Link to="/monster/clockwork_angel">clockwork angels</Link>)</>} treasure={{"X":false}} />
+<Info source={[["Bestiary 6",60]]} xp="102,400" n medium construct subs={["clockwork"]} init={12} dv={60} llv sid pcp={0} />
+<Defense ac={[32,20,22]} mod="+8 Dex, +2 dodge, +12 natural" hp={[146,"23d10+20"]} fort="+7" ref="+17" will="+7" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, fire</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} melee="bite +34 (2d8+11/18-20/&times;3), 2 claws +34 (2d6+11 plus bleed), 2 wings +29 (1d8+5)" space={"5"} reach={"5"} reachP={"10 ft. with wings"} specAtt={[["explosive rend","explosive rend"],["overdrive","overdrive"]]} bleed="2d8" />
+<Stats atts={[32,26,0,0,11,1]} bab={23} cmb={34} cmd={54} feats={["Improved Initiative","Lightning Reflexes"]} sq="difficult to create, swift reactions, winding" />
+<Ecology env="any" org={<>solitary, pair, or blasphemy (2 clockwork fiends plus 4-8 <Link to="/monster/clockwork_angel">clockwork angels</Link>)</>} treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Explosive Rend (Su)</strong> When a clockwork fiend makes two successful claw attacks against the same target in 1 round, its claws ignite into an explosive blast of fire. The target of the attack and all creatures within a 5-foot radius of the clockwork fiend take 10d6 points of fire damage. A successful DC 21 Reflex save halves this damage. The save DC is Constitution-based.</p>
@@ -839,12 +842,12 @@ const _clockwork_clockwork_fiend = {title: "Clockwork Fiend", jsx: <><p><em>Rese
 const _clockwork_clockwork_goblin = {title: "Clockwork Goblin", jsx: <><p><em>Haphazard in its creation, this mechanical creature has the shape of a goblin wielding a dogslicer.</em></p>
 <Header full><span>Clockwork Goblin</span><span>CR 3</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_goblin--info" source={[["Construct Handbook",32]]} xp="800" n small construct subs={["clockwork"]} init={6} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_clockwork_goblin--defense" ac={[16,15,12]} mod="+2 Dex, +2 dodge, +1 natural, +1 size" hp={[32,"4d10+10"]} fort="+1" ref="+5" will="+1" immune={<Link to="/umr/construct_traits">construct traits</Link>} resist="fire 5" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_goblin--offense" sp={30} melee="dogslicer +10 (1d4+5)" specAtt={[["integrated dogslicer","integrated dogslicer"],["searing eyebeam","searing eyebeam"]]} />
-<Stats id="monster-clockwork_clockwork_goblin--stats" atts={[20,14,0,0,11,1]} bab={4} cmb={8} cmd={22} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, swift reactions, unstable creation, winding" />
+<Info source={[["Construct Handbook",32]]} xp="800" n small construct subs={["clockwork"]} init={6} dv={60} llv pcp={0} />
+<Defense ac={[16,15,12]} mod="+2 Dex, +2 dodge, +1 natural, +1 size" hp={[32,"4d10+10"]} fort="+1" ref="+5" will="+1" immune={<Link to="/umr/construct_traits">construct traits</Link>} resist="fire 5" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} melee="dogslicer +10 (1d4+5)" specAtt={[["integrated dogslicer","integrated dogslicer"],["searing eyebeam","searing eyebeam"]]} />
+<Stats atts={[20,14,0,0,11,1]} bab={4} cmb={8} cmd={22} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, swift reactions, unstable creation, winding" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_goblin--eco-eco" env="any" org="solitary, pair, or gang (3-6)" treasure={{"X":false}} />
+<Ecology env="any" org="solitary, pair, or gang (3-6)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Integrated Dogslicer (Ex)</strong> One of a clockwork goblin's arms ends in an integrated <Link to="/eq-weapon/dogslicer">dogslicer</Link>. This weapon cannot be disarmed, sundered, or removed. Some models of clockwork goblin sport an integrated <Link to="/eq-weapon/horsechopper">horsechopper</Link> instead.</p>
@@ -860,12 +863,12 @@ const _clockwork_clockwork_goblin = {title: "Clockwork Goblin", jsx: <><p><em>Ha
 const _clockwork_clockwork_goliath = {title: "Clockwork Goliath", jsx: <><p><em>The gears of this enormous, four-armed mechanical giant shriek and grind in a deafening cacophony as it lumbers forth.</em></p>
 <Header full><span>Clockwork Goliath</span><span>CR 19</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_goliath--info" source={[["Bestiary 3",54]]} xp="204,800" n gargantuan construct subs={["clockwork"]} init={9} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_clockwork_goliath--defense" ac={[35,13,28]} mod="+5 Dex, +2 dodge, +22 natural, -4 size" hp={[214,"28d10+60"]} fort="+9" ref="+16" will="+9" dr="15/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_goliath--offense" sp={40} melee="4 slams +41 (3d6+17)" ranged="cannon +29/+24/+19/+14 (6d6/&times;4)" space={"20"} reach={"20"} specAtt={[["self-destruction","self-destruction"]]} trample="3d6+25, DC 41" />
-<Stats id="monster-clockwork_clockwork_goliath--stats" atts={[45,20,0,0,11,1]} bab={28} cmb={49} cmd={66} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="swift reactions, winding" />
+<Info source={[["Bestiary 3",54]]} xp="204,800" n gargantuan construct subs={["clockwork"]} init={9} dv={60} llv pcp={0} />
+<Defense ac={[35,13,28]} mod="+5 Dex, +2 dodge, +22 natural, -4 size" hp={[214,"28d10+60"]} fort="+9" ref="+16" will="+9" dr="15/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={40} melee="4 slams +41 (3d6+17)" ranged="cannon +29/+24/+19/+14 (6d6/&times;4)" space={"20"} reach={"20"} specAtt={[["self-destruction","self-destruction"]]} trample="3d6+25, DC 41" />
+<Stats atts={[45,20,0,0,11,1]} bab={28} cmb={49} cmd={66} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="swift reactions, winding" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_goliath--eco-eco" env="any" org="solitary, pair, or siege (3-6)" treasure={{"X":false}} />
+<Ecology env="any" org="solitary, pair, or siege (3-6)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Cannon (Ex)</strong> One of a goliath's arms ends in a cannon. The goliath may use this as one of its four slam attacks, or it can use it to fire cannonballs. A cannon has a range increment of 100 feet, and deals 6d6 points of bludgeoning and piercing damage on a hit with a &times;4 critical modifier. A clockwork goliath's cannon can hold up to 12 cannonballs - reloading a single cannonball is a standard action.</p>
@@ -881,11 +884,11 @@ const _clockwork_clockwork_goliath = {title: "Clockwork Goliath", jsx: <><p><em>
 const _clockwork_clockwork_guardian = {title: "Clockwork Guardian", jsx: <><p><em>This human-shaped construct has a helm-like head with a single crystalline eye. One arm ends in a large shield-like sheet of metal.</em></p>
 <Header full><span>Clockwork Guardian</span><span>CR 8</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_guardian--info" source={[["Bestiary 6",61]]} xp="4,800" n medium construct subs={["clockwork"]} init={6} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_clockwork_guardian--defense" ac={[22,14,18]} mod="+2 Dex, +2 dodge, +6 natural, +2 shield" hp={[85,"10d10+30"]} fort="+3" ref="+7" will="+3" def={[["barrier","barrier"]]} dr="5/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_guardian--offense" sp={20} melee="shield bash +19/+14 (1d6+9), slam +14 (1d4+4) or 2 slams +19 (1d4+9)" />
-<Stats id="monster-clockwork_clockwork_guardian--stats" atts={[28,14,0,0,11,1]} bab={10} cmb={19} cmd={33} feats={["Improved Initiative","Improved Shield Bash","Lightning Reflexes","Toughness"]} sq="difficult to create, shield expert, swift reactions, winding" />
-<Ecology id="monster-clockwork_clockwork_guardian--eco-eco" env="any" org="solitary, pair, or blockade (3-8)" treasure={{"X":false}} />
+<Info source={[["Bestiary 6",61]]} xp="4,800" n medium construct subs={["clockwork"]} init={6} dv={60} llv pcp={0} />
+<Defense ac={[22,14,18]} mod="+2 Dex, +2 dodge, +6 natural, +2 shield" hp={[85,"10d10+30"]} fort="+3" ref="+7" will="+3" def={[["barrier","barrier"]]} dr="5/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={20} melee="shield bash +19/+14 (1d6+9), slam +14 (1d4+4) or 2 slams +19 (1d4+9)" />
+<Stats atts={[28,14,0,0,11,1]} bab={10} cmb={19} cmd={33} feats={["Improved Initiative","Improved Shield Bash","Lightning Reflexes","Toughness"]} sq="difficult to create, shield expert, swift reactions, winding" />
+<Ecology env="any" org="solitary, pair, or blockade (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Barrier (Su)</strong> Once per day as a swift action, a clockwork guardian can unfold its shield to form a metal barrier up to 5 feet wide and 10 feet tall. This duplicates the effects of a <Link to="/spell/wall_of_iron">wall of iron</Link> spell, save for the smaller size of the created wall. After using this ability, the clockwork guardian loses its shield bonus and shield bash attack, but it gains two slam attacks as primary attacks. The clockwork guardian's shield rebuilds itself automatically 24 hours after it uses this ability. Multiple clockwork guardians can work together to create a larger barrier, each new metal barrier merging seamlessly with an existing one. Once created, a clockwork guardian's barrier lasts for 24 hours before crumbling.</p>
@@ -901,12 +904,12 @@ const _clockwork_clockwork_guardian = {title: "Clockwork Guardian", jsx: <><p><e
 const _clockwork_clockwork_gunslinger = {title: "Clockwork Gunslinger", jsx: <><p><em>One of this slim construct's arms ends in a whirling clockwork pistol, and a crystalline hourglass fits snugly between its pectoral armor plates.</em></p>
 <Header full><span>Clockwork Gunslinger</span><span>CR 7</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_gunslinger--info" source={[["Construct Handbook",33]]} xp="3,200" n medium construct subs={["clockwork"]} init={7} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_clockwork_gunslinger--defense" ac={[20,15,15]} mod="+3 Dex, +2 dodge, +5 natural" hp={[69,"9d10+20"]} fort="+3" ref="+8" will="+3" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_gunslinger--offense" sp={30} melee="slam +14 (1d6+7)" ranged="pistol +12 (1d8/&times;4)" specAtt={[["captive time","captive time"]]} />
-<Stats id="monster-clockwork_clockwork_gunslinger--stats" atts={[20,16,0,0,11,1]} bab={9} cmb={14} cmd={29} feats={[["Deadly Aim",<sup>B</sup>],["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>],["Point-Blank Shot",<sup>B</sup>],["Precise Shot",<sup>B</sup>]]} sq="difficult to create, integrated clockwork pistol, swift reactions, winding" />
+<Info source={[["Construct Handbook",33]]} xp="3,200" n medium construct subs={["clockwork"]} init={7} dv={60} llv pcp={0} />
+<Defense ac={[20,15,15]} mod="+3 Dex, +2 dodge, +5 natural" hp={[69,"9d10+20"]} fort="+3" ref="+8" will="+3" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} melee="slam +14 (1d6+7)" ranged="pistol +12 (1d8/&times;4)" specAtt={[["captive time","captive time"]]} />
+<Stats atts={[20,16,0,0,11,1]} bab={9} cmb={14} cmd={29} feats={[["Deadly Aim",<sup>B</sup>],["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>],["Point-Blank Shot",<sup>B</sup>],["Precise Shot",<sup>B</sup>]]} sq="difficult to create, integrated clockwork pistol, swift reactions, winding" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_gunslinger--eco-eco" env="any" org="solitary, pair, or squad (3-8)" treasure={{"X":false}} />
+<Ecology env="any" org="solitary, pair, or squad (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Captive Time (Ex)</strong> Once per hour, a clockwork gunslinger can rotate its built-in hourglass as a swift action to instantly reload its pistol and gain the effects of <Link to="/spell/haste">haste</Link> for 1 round. Additionally, the first time a clockwork gunslinger confirms a critical hit against an opponent, its hourglass shatters and each creature within a 30-foot radius of the clockwork gunslinger must succeed at a DC 14 Fortitude save or be slowed as per the <Link to="/spell/slow">slow</Link> spell for 3 rounds. Once the hourglass is shattered, the clockwork gunslinger is unable to use this ability until a new hourglass is installed. This save DC is Constitution-based.</p>
@@ -923,11 +926,11 @@ const _clockwork_clockwork_gunslinger = {title: "Clockwork Gunslinger", jsx: <><
 const _clockwork_clockwork_hound = {title: "Clockwork Hound", jsx: <><p><em>Two emerald crystal eyes stare out from this artificial hound's brass-, bronze-, and iron-forged body.</em></p>
 <Header full><span>Clockwork Hound</span><span>CR 5</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_hound--info" source={[["Bestiary 6",62]]} xp="1,600" n small construct subs={["clockwork"]} init={8} dv={60} llv scent pcp={3} />
-<Defense id="monster-clockwork_clockwork_hound--defense" ac={[18,17,12]} mod="+4 Dex, +2 dodge, +1 natural, +1 size" hp={[43,"6d10+10"]} fort="+2" ref="+8" will="+5" dr="5/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_hound--offense" sp={50} melee={<>2 bites +13 (1d6+6 plus <Link to="/umr/trip">trip</Link>)</>} specAtt={[["swift bite","swift bite"]]} />
-<Stats id="monster-clockwork_clockwork_hound--stats" atts={[22,18,0,0,16,1]} bab={6} cmb={11} cmd={27} feats={["Improved Initiative","Lightning Reflexes"]} skills={{"sur":{"b":11,"x":"+19 when tracking by scent"}}} racial="+8 Survival (+16 when tracking by scent)" sq="chest container, difficult to create, efficient winding, expert tracker, swift reactions" />
-<Ecology id="monster-clockwork_clockwork_hound--eco-eco" env="any" org="solitary, pair, or pack (3-8)" treasure={{"X":false}} />
+<Info source={[["Bestiary 6",62]]} xp="1,600" n small construct subs={["clockwork"]} init={8} dv={60} llv scent pcp={3} />
+<Defense ac={[18,17,12]} mod="+4 Dex, +2 dodge, +1 natural, +1 size" hp={[43,"6d10+10"]} fort="+2" ref="+8" will="+5" dr="5/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={50} melee={<>2 bites +13 (1d6+6 plus <Link to="/umr/trip">trip</Link>)</>} specAtt={[["swift bite","swift bite"]]} />
+<Stats atts={[22,18,0,0,16,1]} bab={6} cmb={11} cmd={27} feats={["Improved Initiative","Lightning Reflexes"]} skills={{"sur":{"b":11,"x":"+19 when tracking by scent"}}} racial="+8 Survival (+16 when tracking by scent)" sq="chest container, difficult to create, efficient winding, expert tracker, swift reactions" />
+<Ecology env="any" org="solitary, pair, or pack (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Chest Container (Su)</strong> The chest cavity of a clockwork hound can be opened to expose a 6-inch-cube storage area that can hold up to 10 pounds of items. If a contained item is a magical necklace, ring, or <Link to="/magic-wondrous/ioun_stone">ioun stone</Link>, then the hound gains the benefits of the item as though it were worn, but the hound can benefit from the effects of only one such item at a time (chosen by the person who placed the items inside). A clockwork hound can open or close its chest cavity as a swift action, depositing any items within onto the ground under it.</p>
@@ -945,12 +948,12 @@ const _clockwork_clockwork_hound = {title: "Clockwork Hound", jsx: <><p><em>Two 
 const _clockwork_clockwork_leviathan = {title: "Clockwork Leviathan", jsx: <><p><em>Long and metallic, this serpentine construction resembles a mechanical eel with several paddle-like limbs.</em></p>
 <Header full><span>Clockwork Leviathan</span><span>CR 12</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_leviathan--info" source={[["Bestiary 3",55]]} xp="19,200" n huge construct subs={["clockwork"]} init={8} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_clockwork_leviathan--defense" ac={[28,14,22]} mod="+4 Dex, +2 dodge, +14 natural, -2 size" hp={[128,"16d10+40"]} fort="+5" ref="+11" will="+5" dr="10/adamantine" immune={<>fire, <Link to="/umr/construct_traits">construct traits</Link></>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_leviathan--offense" sp={30} sw={60} melee={<>bite +25 (2d6+11 plus <Link to="/umr/grab">grab</Link>), 2 slam +25 (1d8+11 plus grab)</>} space={"15"} reach={"15"} specAtt={[["grind","grind"]]} brWeap="60-ft. line, 12d8 fire damage, DC 18 for half, usable every 1d4 rounds, 3/day" swallow="2d8+16 slashing damage plus 2d6 fire damage, AC 17, 12 hp" />
-<Stats id="monster-clockwork_clockwork_leviathan--stats" atts={[33,18,0,0,11,1]} bab={16} cmb={29} cmbP="+33 grapple" cmd={45} cmdP="can't be tripped" feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} skills={{"stl":{"b":8,"x":"+12 in water"},"swim":{"b":19}}} racial="+12 Stealth (+16 in water)" sq="swift reactions, winding" />
+<Info source={[["Bestiary 3",55]]} xp="19,200" n huge construct subs={["clockwork"]} init={8} dv={60} llv pcp={0} />
+<Defense ac={[28,14,22]} mod="+4 Dex, +2 dodge, +14 natural, -2 size" hp={[128,"16d10+40"]} fort="+5" ref="+11" will="+5" dr="10/adamantine" immune={<>fire, <Link to="/umr/construct_traits">construct traits</Link></>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} sw={60} melee={<>bite +25 (2d6+11 plus <Link to="/umr/grab">grab</Link>), 2 slam +25 (1d8+11 plus grab)</>} space={"15"} reach={"15"} specAtt={[["grind","grind"]]} brWeap="60-ft. line, 12d8 fire damage, DC 18 for half, usable every 1d4 rounds, 3/day" swallow="2d8+16 slashing damage plus 2d6 fire damage, AC 17, 12 hp" />
+<Stats atts={[33,18,0,0,11,1]} bab={16} cmb={29} cmbP="+33 grapple" cmd={45} cmdP="can't be tripped" feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} skills={{"stl":{"b":8,"x":"+12 in water"},"swim":{"b":19}}} racial="+12 Stealth (+16 in water)" sq="swift reactions, winding" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_leviathan--eco-eco" env="any" org="solitary or pod (2-4)" treasure={{"X":false}} />
+<Ecology env="any" org="solitary or pod (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Breath Weapon (Su)</strong> A clockwork leviathan's breath weapon is a powerful jet of scorching steam - it functions equally well above and under water.</p>
@@ -968,12 +971,12 @@ const _clockwork_clockwork_leviathan = {title: "Clockwork Leviathan", jsx: <><p>
 const _clockwork_clockwork_mage = {title: "Clockwork Mage", jsx: <><p><em>This faceless construct has a crystal wand set into its chest, bristling with arcane energy.</em></p>
 <Header full><span>Clockwork Mage</span><span>CR 9</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_mage--info" source={[["Bestiary 4",32]]} xp="6,400" n medium construct subs={["clockwork"]} init={9} dv={60} llv pcp={2} />
-<Defense id="monster-clockwork_clockwork_mage--defense" ac={[25,17,18]} mod="+5 Dex, +2 dodge, +8 natural" hp={[102,"15d10+20"]} fort="+5" ref="+12" will="+7" dr="5/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} sr="20" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_mage--offense" sp={30} melee="4 slams +18 (1d4+3)" specAtt={[["wand magic","wand magic"]]} />
-<Stats id="monster-clockwork_clockwork_mage--stats" atts={[16,21,0,0,14,1]} bab={15} cmb={18} cmd={35} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, swift reactions, winding" />
+<Info source={[["Bestiary 4",32]]} xp="6,400" n medium construct subs={["clockwork"]} init={9} dv={60} llv pcp={2} />
+<Defense ac={[25,17,18]} mod="+5 Dex, +2 dodge, +8 natural" hp={[102,"15d10+20"]} fort="+5" ref="+12" will="+7" dr="5/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} sr="20" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} melee="4 slams +18 (1d4+3)" specAtt={[["wand magic","wand magic"]]} />
+<Stats atts={[16,21,0,0,14,1]} bab={15} cmb={18} cmd={35} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, swift reactions, winding" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_mage--eco-eco" env="any land" org="solitary" treasure={{"X":false}} />
+<Ecology env="any land" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Wand Magic (Su)</strong> A clockwork mage's wand crystal allows it to cast spells as if using a <Link to="/misc/spell_trigger">spell trigger</Link> magic item (CL 9th). The arcane school of the wand crystal determines a clockwork mage's spells. They cast 1st-level spells at will, 2nd-level spells 3 times per day, and 3rd level spells 1 time per day.</p>
@@ -997,12 +1000,12 @@ const _clockwork_clockwork_mage = {title: "Clockwork Mage", jsx: <><p><em>This f
 const _clockwork_clockwork_nautiloid = {title: "Clockwork Nautiloid", jsx: <><p><em>Nestled in a massive spiraled armored shell, this clockwork creature has several dozen grasping tentacles surrounding its octopus-like beak.</em></p>
 <Header full><span>Clockwork Nautiloid</span><span>CR 14</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_nautiloid--info" source={[["Pathfinder #125: Tower of the Drowned Dead",82]]} xp="38,400" n huge construct subs={["clockwork"]} init={9} dv={60} llv blindsense={60} pcp={8} />
-<Defense id="monster-clockwork_clockwork_nautiloid--defense" ac={[31,13,26]} mod="+5 Dex, +18 natural, -2 size" hp={[161,"22d10+40"]} fort="+7" ref="+14" will="+7" def={[["deep dweller","deep dweller"],["reflective shell","reflective shell"]]} dr="10/adamantine and blugeoning" immune={<>cold, <Link to="/umr/construct_traits">construct traits</Link></>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_nautiloid--offense" sp={10} sw={40} melee={<>bite +30 (2d6+10), 4 tentacles +25 (1d8+5 plus <Link to="/umr/grab">grab</Link>)</>} space={"15"} reach={"15"} specAtt={[["tenacious grappler","tenacious grappler"]]} constrict="1d8+5" />
-<Stats id="monster-clockwork_clockwork_nautiloid--stats" atts={[31,20,0,0,11,1]} bab={22} cmb={34} cmbP="+38 grapple" cmd={49} cmdP="can't be tripped" feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} skills={{"per":{"b":8},"swim":{"b":18}}} racial="+8 Perception" sq="enhanced senses, swift reactions, winding" />
+<Info source={[["Pathfinder #125: Tower of the Drowned Dead",82]]} xp="38,400" n huge construct subs={["clockwork"]} init={9} dv={60} llv blindsense={60} pcp={8} />
+<Defense ac={[31,13,26]} mod="+5 Dex, +18 natural, -2 size" hp={[161,"22d10+40"]} fort="+7" ref="+14" will="+7" def={[["deep dweller","deep dweller"],["reflective shell","reflective shell"]]} dr="10/adamantine and blugeoning" immune={<>cold, <Link to="/umr/construct_traits">construct traits</Link></>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={10} sw={40} melee={<>bite +30 (2d6+10), 4 tentacles +25 (1d8+5 plus <Link to="/umr/grab">grab</Link>)</>} space={"15"} reach={"15"} specAtt={[["tenacious grappler","tenacious grappler"]]} constrict="1d8+5" />
+<Stats atts={[31,20,0,0,11,1]} bab={22} cmb={34} cmbP="+38 grapple" cmd={49} cmdP="can't be tripped" feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} skills={{"per":{"b":8},"swim":{"b":18}}} racial="+8 Perception" sq="enhanced senses, swift reactions, winding" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_nautiloid--eco-eco" env="any water" org="solitary or pair" treasure={{"X":false}} />
+<Ecology env="any water" org="solitary or pair" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Deep Dweller (Ex)</strong> Clockwork nautiloids are immune to cold and damage from <Link to="/rule/water_pressure">water pressure</Link>.</p>
@@ -1032,12 +1035,12 @@ const _clockwork_clockwork_nautiloid = {title: "Clockwork Nautiloid", jsx: <><p>
 const _clockwork_clockwork_overseer = {title: "Clockwork Overseer", jsx: <><p><em>One arm of this six-limbed clockwork construct ends in a broad fist, and the other extends into an articulated metal lash.</em></p>
 <Header full><span>Clockwork Overseer</span><span>CR 7</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_overseer--info" source={[["Pathfinder #123: The Flooded Cathedral",86]]} xp="3,200" n medium construct subs={["clockwork"]} init={6} dv={60} llv aav pcp={1} aura={"aura of command (30 ft.)"} />
-<Defense id="monster-clockwork_clockwork_overseer--defense" ac={[21,14,17]} mod="+2 Dex, +2 dodge, +7 natural" hp={[75,"10d10+20"]} fort="+4" ref="+8" will="+5" dr="5/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_overseer--offense" sp={30} cl={30} melee={<>lash +15 (1d4+5 plus <Link to="/umr/trip">trip</Link>), slam +15 (1d6+5 plus push)</>} space={"5"} reach={"5"} reachP={"10 ft. with lash"} specAtt={[["overclock","overclock"]]} push="slam, 10 ft." />
-<Stats id="monster-clockwork_clockwork_overseer--stats" atts={[19,14,0,0,13,1]} bab={10} cmb={15} cmd={29} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} skills={{"climb":{"b":12}}} sq="swift reactions, tactical calculus, winding" />
+<Info source={[["Pathfinder #123: The Flooded Cathedral",86]]} xp="3,200" n medium construct subs={["clockwork"]} init={6} dv={60} llv aav pcp={1} aura={"aura of command (30 ft.)"} />
+<Defense ac={[21,14,17]} mod="+2 Dex, +2 dodge, +7 natural" hp={[75,"10d10+20"]} fort="+4" ref="+8" will="+5" dr="5/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} cl={30} melee={<>lash +15 (1d4+5 plus <Link to="/umr/trip">trip</Link>), slam +15 (1d6+5 plus push)</>} space={"5"} reach={"5"} reachP={"10 ft. with lash"} specAtt={[["overclock","overclock"]]} push="slam, 10 ft." />
+<Stats atts={[19,14,0,0,13,1]} bab={10} cmb={15} cmd={29} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} skills={{"climb":{"b":12}}} sq="swift reactions, tactical calculus, winding" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_overseer--eco-eco" env="any land" org={<>solitary, crew (1 plus 2-5 <Link to="/monster/clockwork_servant">clockwork servants</Link>), or deployment (1-2 plus 2-5 <Link to="/monster/clockwork_soldier">clockwork soldiers</Link>)</>} treasure={{"X":false}} />
+<Ecology env="any land" org={<>solitary, crew (1 plus 2-5 <Link to="/monster/clockwork_servant">clockwork servants</Link>), or deployment (1-2 plus 2-5 <Link to="/monster/clockwork_soldier">clockwork soldiers</Link>)</>} treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Aura of Command (Ex)</strong> A clockwork overseer broadcasts subtle commands in a 30-foot radius, granting heightened combat abilities to all clockwork creatures in the area. Affected clockwork creatures, including the clockwork overseer, gain a +1 competence bonus on saving throws, attack rolls, and weapon damage rolls; these bonuses are already calculated into the clockwork overseer's statistics. As a standard action, a clockwork overseer can intensify the aura until the beginning of its next turn, increasing the competence bonus to +2.</p>
@@ -1067,14 +1070,14 @@ const _clockwork_clockwork_overseer = {title: "Clockwork Overseer", jsx: <><p><e
 const _clockwork_clockwork_priest = {title: "Clockwork Priest", jsx: <><p><em>This four-armed clockwork construct has a glowing crystal globe as a head and a shining crystal set into its chest.</em></p>
 <Header full><span>Clockwork Priest</span><span>CR 11</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_priest--info" source={[["Construct Handbook",34]]} xp="12,800" n medium construct subs={["clockwork"]} init={10} dv={60} llv pcp={4} />
-<Defense id="monster-clockwork_clockwork_priest--defense" ac={[25,18,17]} mod="+6 Dex, +2 dodge, +7 natural" hp={[119,"18d10+20"]} fort="+6" ref="+14" will="+10" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_priest--offense" sp={30} melee="4 slams +21 (1d4+3)" specAtt={[["domain magic","domain magic"]]} />
-<SpellBlock id="monster-clockwork_clockwork_priest--spells-monster-spellblock-1" sla={{"cl":11,"con":"+6","content":[{"will":true,"content":<><Link to="/spell/animate_rope">animate rope</Link>, <Link to="/spell/cure_light_wounds">cure light wounds</Link></>},{"day":3,"content":<><Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link>, <Link to="/spell/wood_shape">wood shape</Link> (DC 16)</>},{"day":1,"content":<><Link to="/spell/cure_serious_wounds">cure serious wounds</Link>, <Link to="/spell/stone_shape">stone shape</Link></>}]}} />
-<SpellBlock id="monster-clockwork_clockwork_priest--spells-monster-spellblock-2" other={["Domain",[<><strong>Domain</strong> <Link to="/domain/artifice">Artifice</Link></>]]} />
-<Stats id="monster-clockwork_clockwork_priest--stats" atts={[17,22,0,0,18,1]} bab={18} cmb={21} cmd={39} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, swift reactions, winding" />
+<Info source={[["Construct Handbook",34]]} xp="12,800" n medium construct subs={["clockwork"]} init={10} dv={60} llv pcp={4} />
+<Defense ac={[25,18,17]} mod="+6 Dex, +2 dodge, +7 natural" hp={[119,"18d10+20"]} fort="+6" ref="+14" will="+10" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} melee="4 slams +21 (1d4+3)" specAtt={[["domain magic","domain magic"]]} />
+<SpellBlock id="1" sla={{"cl":11,"con":"+6","content":[{"will":true,"content":<><Link to="/spell/animate_rope">animate rope</Link>, <Link to="/spell/cure_light_wounds">cure light wounds</Link></>},{"day":3,"content":<><Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link>, <Link to="/spell/wood_shape">wood shape</Link> (DC 16)</>},{"day":1,"content":<><Link to="/spell/cure_serious_wounds">cure serious wounds</Link>, <Link to="/spell/stone_shape">stone shape</Link></>}]}} />
+<SpellBlock id="2" other={["Domain",[<><strong>Domain</strong> <Link to="/domain/artifice">Artifice</Link></>]]} />
+<Stats atts={[17,22,0,0,18,1]} bab={18} cmb={21} cmd={39} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, swift reactions, winding" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_priest--eco-eco" env="any" org="solitary, pair, or clergy (3-8)" treasure={{"X":false}} />
+<Ecology env="any" org="solitary, pair, or clergy (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Domain Magic (Su)</strong> The crystal embedded into a clockwork priest's chest serves as a divine focus, granting it a number of spell-like abilities (CL 11th). The spells it can use are determined by its cleric domain and whether the creator instilled positive or negative energy into the creation. Once chosen, the domain and type of energy cannot be changed. A clockwork priest can cast either <Link to="/main/inflict_spells">cure or inflict spells</Link> (depending on the energy it was instilled with at creation) of 1st through 3rd levels, as well as the spells granted by its chosen domain up to 3rd level. It can cast 1st-level spells at will, 2nd-level spells three times per day, and 3rd-level spells once per day. The save DCs are Wisdom-based.</p>
@@ -1089,12 +1092,12 @@ const _clockwork_clockwork_priest = {title: "Clockwork Priest", jsx: <><p><em>Th
 const _clockwork_clockwork_servant = {title: "Clockwork Servant", jsx: <><p><em>This four-armed, human-sized clockwork construct balances on three legs that rise into a central body.</em></p>
 <Header full><span>Clockwork Servant</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_servant--info" source={[["Bestiary 3",56]]} xp="600" n medium construct subs={["clockwork"]} init={6} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_clockwork_servant--defense" ac={[16,14,12]} mod="+2 Dex, +2 dodge, +2 natural" hp={[31,"2d10+20"]} fh="2" fort="+0" ref="+4" will="+0" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_servant--offense" sp={30} melee="slam +6 (1d4+6)" ranged="net +4 (entangle)" />
-<Stats id="monster-clockwork_clockwork_servant--stats" atts={[19,14,0,0,11,1]} bab={2} cmb={6} cmd={20} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="repair clockwork, swift reactions, winding" />
+<Info source={[["Bestiary 3",56]]} xp="600" n medium construct subs={["clockwork"]} init={6} dv={60} llv pcp={0} />
+<Defense ac={[16,14,12]} mod="+2 Dex, +2 dodge, +2 natural" hp={[31,"2d10+20"]} fh="2" fort="+0" ref="+4" will="+0" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} melee="slam +6 (1d4+6)" ranged="net +4 (entangle)" />
+<Stats atts={[19,14,0,0,11,1]} bab={2} cmb={6} cmd={20} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="repair clockwork, swift reactions, winding" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_servant--eco-eco" env="any" org="solitary, team (2-4), or squadron (5-10)" treasure={{"X":false}} />
+<Ecology env="any" org="solitary, team (2-4), or squadron (5-10)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Net (Ex)</strong> As a standard action, a clockwork servant can launch a <Link to="/eq-weapon/net">net</Link> from its shoulder. The launcher itself can contain up to five nets - loading a folded net into the launcher is a standard action. Some clockwork servants are outfitted with masterwork or even magic nets, although the clockwork servant presented here is armed with standard nets.</p>
@@ -1112,12 +1115,12 @@ const _clockwork_clockwork_servant = {title: "Clockwork Servant", jsx: <><p><em>
 const _clockwork_clockwork_snail = {title: "Clockwork Snail", jsx: <><p><em>The torso of this constructed gastropod is elongated and eerily humanoid. Smog pours from the shell-like posterior of the machine, while toxic green ooze courses through its translucent pipes.</em></p>
 <Header full><span>Clockwork Snail</span><span>CR 10</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_snail--info" source={[["Wardens of the Reborn Forge",62]]} xp="9,600" n large construct subs={["clockwork"]} init={7} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_clockwork_snail--defense" ac={[26,14,21]} mod="+3 Dex, +2 dodge, +12 natural, -1 size" hp={[101,"13d10+30"]} fort="+4" ref="+9" will="+4" dr="5/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, eidite sickness</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_snail--offense" sp={30} cl={20} spExtra="improved charge, tracks" melee="mwk dire flail +18/+13/+8 (1d8+7), mwk dire flail +18 (1d8+3)" space={"10"} reach={"5"} />
-<Stats id="monster-clockwork_clockwork_snail--stats" atts={[24,17,0,0,11,1]} bab={13} cmb={21} cmd={36} cmdP="can't be tripped" feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>],["Two-Weapon Fighting",<sup>B</sup>]]} skills={{"climb":{"b":23}}} sq={<>swift reactions, <Link to="/umr/undersized_weapons">undersized weapons</Link>, winding</>} />
+<Info source={[["Wardens of the Reborn Forge",62]]} xp="9,600" n large construct subs={["clockwork"]} init={7} dv={60} llv pcp={0} />
+<Defense ac={[26,14,21]} mod="+3 Dex, +2 dodge, +12 natural, -1 size" hp={[101,"13d10+30"]} fort="+4" ref="+9" will="+4" dr="5/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, eidite sickness</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} cl={20} spExtra="improved charge, tracks" melee="mwk dire flail +18/+13/+8 (1d8+7), mwk dire flail +18 (1d8+3)" space={"10"} reach={"5"} />
+<Stats atts={[24,17,0,0,11,1]} bab={13} cmb={21} cmd={36} cmdP="can't be tripped" feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>],["Two-Weapon Fighting",<sup>B</sup>]]} skills={{"climb":{"b":23}}} sq={<>swift reactions, <Link to="/umr/undersized_weapons">undersized weapons</Link>, winding</>} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_snail--eco-eco" env="any" org="solitary, squadron (2-4), or cavalry (5-10)" treasure={{"I":[["Mw","W-dire flail"]],"final":"other treasure"}} />
+<Ecology env="any" org="solitary, squadron (2-4), or cavalry (5-10)" treasure={{"I":[["Mw","W-dire flail"]],"final":"other treasure"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Eidite Trail (Ex)</strong> A clockwork snail can release a noxious trail of poisonous ooze, coating any surface it treads upon with viscous liquid eidite. Any square that the clockwork snail moves through while this ability is active is covered in a nonmagical web effect that acts in all ways as <Link to="/spell/web">the spell</Link> (DC 16 negates), but also has a chance of infecting whoever touches it with <Link to="/disease/eidite_sickness">eidite sickness</Link>. A clockwork snail can activate or deactivate this ability as a swift action, and can cover a total of 40 squares per day, though these squares need not be consecutive. The save DC is Constitution-based.</p>
@@ -1133,12 +1136,12 @@ const _clockwork_clockwork_snail = {title: "Clockwork Snail", jsx: <><p><em>The 
 const _clockwork_clockwork_soldier = {title: "Clockwork Soldier", jsx: <><p><em>Cogs and gears are visible in the gaps of this metallic creature's armor. It wields a polearm as it stands ready at attention.</em></p>
 <Header full><span>Clockwork Soldier</span><span>CR 6</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_soldier--info" source={[["Bestiary 3",57]]} xp="2,400" n medium construct subs={["clockwork"]} init={6} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_clockwork_soldier--defense" ac={[20,14,16]} mod="+2 Dex, +2 dodge, +6 natural" hp={[64,"8d10+20"]} fort="+2" ref="+6" will="+2" dr="5/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_soldier--offense" sp={30} melee="+1 halberd +18/+13 (1d10+14/&times;3)" specAtt={[["latch","latch"]]} />
-<Stats id="monster-clockwork_clockwork_soldier--stats" atts={[28,15,0,0,11,1]} bab={8} cmb={17} cmbP="+19 disarm" cmd={31} cmdP="33 vs. disarm" feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="efficient winding, proficient, standby, swift reactions" />
+<Info source={[["Bestiary 3",57]]} xp="2,400" n medium construct subs={["clockwork"]} init={6} dv={60} llv pcp={0} />
+<Defense ac={[20,14,16]} mod="+2 Dex, +2 dodge, +6 natural" hp={[64,"8d10+20"]} fort="+2" ref="+6" will="+2" dr="5/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} melee="+1 halberd +18/+13 (1d10+14/&times;3)" specAtt={[["latch","latch"]]} />
+<Stats atts={[28,15,0,0,11,1]} bab={8} cmb={17} cmbP="+19 disarm" cmd={31} cmdP="33 vs. disarm" feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="efficient winding, proficient, standby, swift reactions" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_soldier--eco-eco" env="any" org={<>solitary, pair, trio, troop (3-8), or company (9-12 plus 1-4 <Link to="/monster/clockwork_servant">clockwork servants</Link>)</>} treasure={{"S":[["+1","Whl"]],"final":"other treasure"}} />
+<Ecology env="any" org={<>solitary, pair, trio, troop (3-8), or company (9-12 plus 1-4 <Link to="/monster/clockwork_servant">clockwork servants</Link>)</>} treasure={{"S":[["+1","Whl"]],"final":"other treasure"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Efficient Winding (Ex)</strong> A clockwork soldier can function for 2 days per Hit Die every time it is wound.</p>
@@ -1156,11 +1159,11 @@ const _clockwork_clockwork_soldier = {title: "Clockwork Soldier", jsx: <><p><em>
 const _clockwork_clockwork_songbird = {title: "Clockwork Songbird", jsx: <><p><em>This gilded mechanical bird produces melodious songs from its complex clockwork voice box.</em></p>
 <Header full><span>Clockwork Songbird</span><span>CR 1/2</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_songbird--info" source={[["Construct Handbook",35]]} xp="200" n tiny construct subs={["clockwork"]} init={7} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_clockwork_songbird--defense" ac={[17,17,12]} mod="+3 Dex, +2 dodge, +2 size" hp={[5,"1d10"]} fort="+0" ref="+5" will="+0" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_songbird--offense" sp={10} fl={40} flP="average" melee="bite +0 (1d3-3)" space={"2-1/2"} reach={"0"} />
-<Stats id="monster-clockwork_clockwork_songbird--stats" atts={[5,16,0,0,10,3]} bab={1} cmb={2} cmd={9} feats={["Improved Initiative","Lightning Reflexes"]} skills={{"fly":{"b":7}}} sq="difficult to create, mechanical musicality, swift reactions, winding" />
-<Ecology id="monster-clockwork_clockwork_songbird--eco-eco" env="any" org="solitary, pair, or harmony (3-12)" treasure={{"X":false}} />
+<Info source={[["Construct Handbook",35]]} xp="200" n tiny construct subs={["clockwork"]} init={7} dv={60} llv pcp={0} />
+<Defense ac={[17,17,12]} mod="+3 Dex, +2 dodge, +2 size" hp={[5,"1d10"]} fort="+0" ref="+5" will="+0" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={10} fl={40} flP="average" melee="bite +0 (1d3-3)" space={"2-1/2"} reach={"0"} />
+<Stats atts={[5,16,0,0,10,3]} bab={1} cmb={2} cmd={9} feats={["Improved Initiative","Lightning Reflexes"]} skills={{"fly":{"b":7}}} sq="difficult to create, mechanical musicality, swift reactions, winding" />
+<Ecology env="any" org="solitary, pair, or harmony (3-12)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Mechanical Musicality (Su)</strong> A clockwork songbird's intricate mechanical voice box allows it to sing a number of songs, each of which provides a distinct effect. Starting a song is a standard action, and it can be maintained each round as a free action; stopping a song is a standard action. A clockwork songbird's song cannot be disrupted, but it ends immediately if the clockwork songbird cannot take a free action to maintain it. A clockwork songbird can sing only one song at a time.</p>
@@ -1180,11 +1183,11 @@ const _clockwork_clockwork_songbird = {title: "Clockwork Songbird", jsx: <><p><e
 const _clockwork_clockwork_spy = {title: "Clockwork Spy", jsx: <><p><em>This tiny steel creature has one oversized eye, a spherical body, and several spider-like legs of grinding metal.</em></p>
 <Header full><span>Clockwork Spy</span><span>CR 1/2</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_spy--info" source={[["Bestiary 3",58]]} xp="200" n tiny construct subs={["clockwork"]} init={5} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_clockwork_spy--defense" ac={[15,15,12]} mod="+1 Dex, +2 dodge, +2 size" hp={[5,"1d10"]} fort="+0" ref="+3" will="+0" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_spy--offense" sp={30} fl={30} flP="clumsy" melee="slam +3 (1d2)" specAtt={[["record audio","record audio"],["self-destruct","self-destruct"]]} />
-<Stats id="monster-clockwork_clockwork_spy--stats" atts={[10,13,0,0,11,1]} bab={1} cmb={0} cmd={12} feats={["Improved Initiative","Lightning Reflexes"]} skills={{"climb":{"b":3},"stl":{"b":11}}} racial="+2 Climb, +2 Stealth" sq="swift reactions, winding" />
-<Ecology id="monster-clockwork_clockwork_spy--eco-eco" env="any" org="solitary" treasure={{"I":[],"final":"gemstone worth 50 gp"}} />
+<Info source={[["Bestiary 3",58]]} xp="200" n tiny construct subs={["clockwork"]} init={5} dv={60} llv pcp={0} />
+<Defense ac={[15,15,12]} mod="+1 Dex, +2 dodge, +2 size" hp={[5,"1d10"]} fort="+0" ref="+3" will="+0" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} fl={30} flP="clumsy" melee="slam +3 (1d2)" specAtt={[["record audio","record audio"],["self-destruct","self-destruct"]]} />
+<Stats atts={[10,13,0,0,11,1]} bab={1} cmb={0} cmd={12} feats={["Improved Initiative","Lightning Reflexes"]} skills={{"climb":{"b":3},"stl":{"b":11}}} racial="+2 Climb, +2 Stealth" sq="swift reactions, winding" />
+<Ecology env="any" org="solitary" treasure={{"I":[],"final":"gemstone worth 50 gp"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Record Audio (Su)</strong> A clockwork spy can record nearby sounds as a swift action, archiving all sound within a 20-foot spread onto a small gemstone worth 50 gp embedded in its body. The clockwork spy can record up to 1 hour of sound per Hit Die it possesses. Starting and stopping playback of recorded sound is a swift action. Removing a gemstone or installing a gemstone into a clockwork spy requires a DC 25 Disable Device check as a full-round action - failure does not damage the gemstone but does erase any recorded sounds on the gemstone. Since clockwork spies are not intelligent, they must be given simple commands as to when they are to start recording sounds. A clockwork spy can differentiate between creature types and subtypes, but not between specific individuals - a spy can be ordered to start recording sound as soon as a humanoid (human) or an aberration comes in range, but it cannot be ordered to start recording when a specific person comes within range. Once a clockwork spy begins recording sound, it cannot cease recording early. Likewise, it cannot record sound onto a gemstone that already contains a recording.</p>
@@ -1200,12 +1203,12 @@ const _clockwork_clockwork_spy = {title: "Clockwork Spy", jsx: <><p><em>This tin
 const _clockwork_clockwork_steed = {title: "Clockwork Steed", jsx: <><p><em>Gleaming gears whir and buzz in an orchestra of motion whenever this red-eyed steed moves.</em></p>
 <Header full><span>Clockwork Steed</span><span>CR 6</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_steed--info" source={[["Bestiary 4",33]]} xp="2,400" n large construct subs={["clockwork"]} init={5} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_clockwork_steed--defense" ac={[20,12,17]} mod="+1 Dex, +2 dodge, +8 natural, -1 size" hp={[74,"8d10+30"]} fort="+2" ref="+5" will="+2" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_steed--offense" sp={50} melee="bite +14 (1d8+7), 2 hooves +9 (1d6+3)" space={"10"} reach={"5"} specAtt={[["powerful kick","powerful kick"]]} trample="1d6+7, DC 21" />
-<Stats id="monster-clockwork_clockwork_steed--stats" atts={[24,13,0,0,10,1]} bab={8} cmb={16} cmd={29} cmdP="33 vs. trip" feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, swift reactions, winding" />
+<Info source={[["Bestiary 4",33]]} xp="2,400" n large construct subs={["clockwork"]} init={5} dv={60} llv pcp={0} />
+<Defense ac={[20,12,17]} mod="+1 Dex, +2 dodge, +8 natural, -1 size" hp={[74,"8d10+30"]} fort="+2" ref="+5" will="+2" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={50} melee="bite +14 (1d8+7), 2 hooves +9 (1d6+3)" space={"10"} reach={"5"} specAtt={[["powerful kick","powerful kick"]]} trample="1d6+7, DC 21" />
+<Stats atts={[24,13,0,0,10,1]} bab={8} cmb={16} cmd={29} cmdP="33 vs. trip" feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, swift reactions, winding" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_steed--eco-eco" env="any land" org="solitary" treasure={{"X":false}} />
+<Ecology env="any land" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Powerful Kick (Ex)</strong> As a standard action, the clockwork steed can make two hoof attacks with its rear hooves; if both hit, it can perform an awesome blow combat maneuver as the <Link to="/feat/awesome_blow">Awesome Blow</Link> feat. A clockwork steed gains a +4 racial bonus on this combat maneuver check.</p>
@@ -1223,12 +1226,12 @@ const _clockwork_clockwork_steed = {title: "Clockwork Steed", jsx: <><p><em>Glea
 const _clockwork_clockwork_vivisectionist = {title: "Clockwork Vivisectionist", jsx: <><p><em>The mechanical workings of this humanoid figure are incredibly complex, but the gore-spattered scalpels it has on one hand and the glistening syringes inside its cage-like chest make its intentions clear.</em></p>
 <Header full><span>Clockwork Vivisectionist</span><span>CR 10</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_clockwork_vivisectionist--info" source={[["Pathfinder #112: The Whisper Out of Time",82]]} xp="9,600" n medium construct subs={["clockwork"]} init={6} dv={60} llv aav pcp={-1} />
-<Defense id="monster-clockwork_clockwork_vivisectionist--defense" ac={[24,14,20]} mod="+2 Dex, +2 dodge, +10 natural" hp={[91,"13d10+20"]} fort="+4" ref="+8" will="+3" dr="10/bludgeoning" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_clockwork_vivisectionist--offense" sp={30} melee={<>2 claw +22 (2d6+9 plus <Link to="/umr/grab">grab</Link>)</>} specAtt={[["anesthetizing injection","anesthetizing injection"]]} />
-<Stats id="monster-clockwork_clockwork_vivisectionist--stats" atts={[28,15,0,0,9,1]} bab={13} cmb={22} cmbP="+26 grapple" cmd={36} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, efficient winding, standby, swift reactions" />
+<Info source={[["Pathfinder #112: The Whisper Out of Time",82]]} xp="9,600" n medium construct subs={["clockwork"]} init={6} dv={60} llv aav pcp={-1} />
+<Defense ac={[24,14,20]} mod="+2 Dex, +2 dodge, +10 natural" hp={[91,"13d10+20"]} fort="+4" ref="+8" will="+3" dr="10/bludgeoning" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} melee={<>2 claw +22 (2d6+9 plus <Link to="/umr/grab">grab</Link>)</>} specAtt={[["anesthetizing injection","anesthetizing injection"]]} />
+<Stats atts={[28,15,0,0,9,1]} bab={13} cmb={22} cmbP="+26 grapple" cmd={36} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, efficient winding, standby, swift reactions" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-clockwork_clockwork_vivisectionist--eco-eco" env="any" org="solitary" treasure={{"X":false}} />
+<Ecology env="any" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Anesthetizing Injection (Ex)</strong> A clockwork vivisectionist that has pinned a victim can try to anesthetize the victim with fluid-filled syringes normally stored in the vivisectionist's chest compartment. The vivisectionist performs the injection as a standard action. This deals no damage, but the victim must succeed at a DC 16 Fortitude save or be <Link to="/rule/paralyzed">paralyzed</Link> for 1d6 minutes. This is a poison effect. The save DC is Constitution-based.</p>
@@ -1253,10 +1256,10 @@ const _clockwork_clockwork_vivisectionist = {title: "Clockwork Vivisectionist", 
 const _clockwork_mechanical_efreeti = {title: "Mechanical Efreeti", jsx: <><p><em>This crimson-skinned genie has an artificial, sculpted appearance.</em></p>
 <Header full><span>Mechanical Efreeti</span><span>CR 1</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_mechanical_efreeti--info" source={[["Tombs of Golarion",22]]} xp="400" n tiny construct subs={["clockwork"]} init={6} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_mechanical_efreeti--defense" ac={[18,16,14]} mod="+2 Dex, +2 dodge, +2 natural, +2 size" hp={[5,"1d10"]} fort="+0" ref="+4" will="+0" dr="10/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_mechanical_efreeti--offense" sp={30} melee="slam +1 (1d3-2 plus burn)" space={"2-1/2"} reach={"0"} burn="1d6 fire, DC 10" />
-<Stats id="monster-clockwork_mechanical_efreeti--stats" atts={[6,14,0,0,11,1]} bab={1} cmb={1} cmd={11} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, swift reflexes, winding" />
+<Info source={[["Tombs of Golarion",22]]} xp="400" n tiny construct subs={["clockwork"]} init={6} dv={60} llv pcp={0} />
+<Defense ac={[18,16,14]} mod="+2 Dex, +2 dodge, +2 natural, +2 size" hp={[5,"1d10"]} fort="+0" ref="+4" will="+0" dr="10/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} melee="slam +1 (1d3-2 plus burn)" space={"2-1/2"} reach={"0"} burn="1d6 fire, DC 10" />
+<Stats atts={[6,14,0,0,11,1]} bab={1} cmb={1} cmd={11} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, swift reflexes, winding" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 </div>
 <Header sub>Description</Header>
@@ -1276,10 +1279,10 @@ const _clockwork_mechanical_efreeti = {title: "Mechanical Efreeti", jsx: <><p><e
 const _clockwork_toy_golem = {title: "Toy Golem", jsx: <><p><em>This amalgam of mechanical toys clacks and whirs.</em></p>
 <Header full><span>Toy Golem</span><span>CR 5</span></Header>
 <div className="reduce">
-<Info id="monster-clockwork_toy_golem-clockwork-variant-monsterjunk-golem-info" source={[["Tombs of Golarion",23]]} xp="1,600" text={<>Clockwork variant <Link to="/monster/junk_golem">junk golem</Link></>} n medium construct subs={["clockwork"]} init={3} dv={60} llv pcp={0} />
-<Defense id="monster-clockwork_toy_golem--defense" ac={[21,11,19]} mod="-1 Dex, +2 dodge, +10 natural" hpRaw="53 (6d10+20); clockwork repair" fort="+2" ref="+3" will="+2" dr="5/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-clockwork_toy_golem--offense" sp={30} melee="2 slams +10 (1d6+4 plus disease)" specAtt={[["disease","disease"]]} />
-<Stats id="monster-clockwork_toy_golem--stats" atts={[18,9,0,0,11,1]} bab={6} cmb={10} cmd={21} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, discorporate, swift reactions, winding" />
+<Info source={[["Tombs of Golarion",23]]} xp="1,600" text={<>Clockwork variant <Link to="/monster/junk_golem">junk golem</Link></>} n medium construct subs={["clockwork"]} init={3} dv={60} llv pcp={0} />
+<Defense ac={[21,11,19]} mod="-1 Dex, +2 dodge, +10 natural" hpRaw="53 (6d10+20); clockwork repair" fort="+2" ref="+3" will="+2" dr="5/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} melee="2 slams +10 (1d6+4 plus disease)" specAtt={[["disease","disease"]]} />
+<Stats atts={[18,9,0,0,11,1]} bab={6} cmb={10} cmd={21} feats={[["Improved Initiative",<sup>B</sup>],["Lightning Reflexes",<sup>B</sup>]]} sq="difficult to create, discorporate, swift reactions, winding" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 </div>
 <Header sub>Special Abilities</Header>

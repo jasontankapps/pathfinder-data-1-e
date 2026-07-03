@@ -1,8 +1,9 @@
-import {IonRippleEffect,IonIcon} from '@ionic/react';
+import {IonRippleEffect} from '@ionic/react';
 import Header from '../../components/Header';
-import Link, {ThLink} from '../../components/Link';
+import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import AffInfo from '../../components/AfflictionInfo';
 const _not_found = {title: "Unknown", jsx: <><h2 id="template-not_found-error">Error</h2>
 <p>Unable to find the requested template.</p>
 </>};
@@ -1694,7 +1695,8 @@ const _energized = {title: "Energized", jsx: <><div style={{clear:"both"}}></div
 <blockquote>
 <p><strong>Blizzard:</strong> The frigid temperatures surrounding the energized golem deal an additional amount of nonlethal damage equal to the damage dice of its elemental aura to all creatures within range each round. A creature can attempt a Fortitude save to negate this additional nonlethal damage. Creatures that take any amount of nonlethal damage from this effect are <Link to="/misc/fatigued">fatigued</Link>. If a target is already fatigued, it is instead <Link to="/misc/exhausted">exhausted</Link>. The fatigued or exhaustion condition persists until the creature recovers from the nonlethal damage.</p>
 <p><strong>Caustic Mist:</strong> A poisonous miasma emanates from the energized golem, afflicting those within range each round with a deadly toxin that rapidly destroys flesh, muscle, and organs alike.</p>
-<div className="sideNoteWrap"><ScrollContainer id="template-energized--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Miasma</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Aura-inhaled</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/str_damage">Str damage</Link>, 1 Dex damage and 1 Con damage</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 saves</td></tr></tbody></table></ScrollContainer></div><p><strong>Immolation:</strong> The extreme heat surrounding the energized golem causes each creature and unattended object within range to catch fire unless it succeeds at a Reflex save. Each affected creature or item takes an additional amount of fire damage equal to the number of damage dice for the energized golem's elemental aura immediately and each round thereafter as long as it remains within the aura. A creature or object that has caught on fire but moves outside of the aura instead takes 1d6 points of fire damage each round and can attempt another Reflex save each round to extinguish the flames.</p>
+<AffInfo type="Aura-inhaled" save="Fort" freq="1/round for 6 rounds" eff={<>1 <Link to="/rule/str_damage">Str damage</Link>, 1 Dex damage and 1 Con damage</>} cure2 icon="p">Miasma</AffInfo>
+<p><strong>Immolation:</strong> The extreme heat surrounding the energized golem causes each creature and unattended object within range to catch fire unless it succeeds at a Reflex save. Each affected creature or item takes an additional amount of fire damage equal to the number of damage dice for the energized golem's elemental aura immediately and each round thereafter as long as it remains within the aura. A creature or object that has caught on fire but moves outside of the aura instead takes 1d6 points of fire damage each round and can attempt another Reflex save each round to extinguish the flames.</p>
 <p><strong>Swirling Winds:</strong> Powerful winds surround the energized golem, buffeting creatures within range and dealing an additional amount of bludgeoning damage equal to the damage dice of its elemental aura. These winds otherwise function as a <Link to="/spell/gust_of_wind">gust of wind</Link> spell. An affected creature can attempt a Reflex save to negate this additional damage, but a successful Fortitude save is required to negate the <em>gust of wind</em> effect. If the energized golem has 10 or more Hit Dice, the DC of Fly or Strength checks to resist the effects of the winds increases by 5.</p>
 </blockquote>
 <p><strong className="hl">AC:</strong> Natural armor improves by 3.</p>
@@ -1708,7 +1710,7 @@ const _energized = {title: "Energized", jsx: <><div style={{clear:"both"}}></div
 <p><strong className="hl">Special Qualities:</strong> An energized golem retains all of the base creature's special qualities and gains the following special quality.</p>
 <blockquote>
 <p><strong>Elemental Overcharge (Su):</strong> An energized golem is augmented by the elemental spirit that is bound to it during its creation. Its natural attacks deal 1d6 points of energy damage for every 6 Hit Dice the golem has. The type of damage dealt, the golem's immunity, and its aura are based on the elemental spirit bound to the golem during its creation, as listed on the table below.</p>
-<ScrollContainer id="template-energized--table-1"><table>
+<ScrollContainer id="template-energized--table-0"><table>
 <thead>
 <tr>
 <th>Elemental</th>

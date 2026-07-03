@@ -71,8 +71,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				flags.header = true;
 				let filler = "";
 				if(jl) {
-					const id = prefix + (attrs.id || makeValidID(text));
-					addToJumpList(text, id, jl);
+					const id = (attrs.id || makeValidID(text));
+					addToJumpList(text, prefix + id, jl);
 					filler = ` id="${id}"`;
 				}
 				if(cr || mr) {
@@ -86,7 +86,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "classoptions") {
 				churn(n, attrs, ["cls", "clear"], [], logError);
 				flags.race = true;
-				return `${maybeClear}<RacialOptions cls="${attrs.cls}" prefix="${prefix}" />\n`
+				return `${maybeClear}<RacialOptions cls="${attrs.cls}" />\n`
 			} else if (n === "sh") {
 				// Subheader
 				churn(n, attrs, ["clear"], [], logError);
@@ -142,7 +142,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				churn(n, attrs, ["clear", "id"], [], logError);
 				flags.divider = true;
 				flags.label = true;
-				return `${maybeClear}<IonItemDivider className="mainItem"${attrs.id ? ` id="${prefix}${attrs.id}"` : ""}><IonLabel>${text}</IonLabel></IonItemDivider>`;
+				const {id} = attrs;
+				return `${maybeClear}<IonItemDivider className="mainItem"${id ? ` id="${prefix + id}"` : ""}><IonLabel>${text}</IonLabel></IonItemDivider>`;
 			} else if (n === "main") {
 				churn(n, attrs, ["clear", "ind", "rev", "to", "end", "endem", "bottom"], [], logError);
 				const {ind, rev, to, end, endem, bottom} = attrs;
@@ -230,6 +231,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"extra","start","nolink"
 				], [ /^(in|sec)?eff((Str|Int|Dex|Con|Wis|Cha)D?|Extra|Or)$/ ], logError);
 				const marked2 = makeNewMarkedInstance();
+				flags.aff = true;
 				return makeAfflictionBlock({marked2, flags, convertEncodedInfo, maybeClear, text, attrs, logError});
 			} else if (n === "drug") {
 				// Drug
@@ -242,6 +244,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				const id = prefix + makeValidID(text + "-haunt");
+				flags.drug = true;
 				return makeDrugBlock({marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError});
 			} else if (n === "trap") {
 				// Trap
@@ -252,7 +255,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"start", "clear"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
-				const id = prefix + makeValidID(text + "-haunt");
+				const id = prefix + makeValidID(text + "-trap");
 				return makeTrapBlock({marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError});
 			} else if (n === "haunt") {
 				// Haunt
@@ -313,9 +316,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], [], logError);
 				flags.header = true;
 				flags.minfo = true;
-				const id = prefix + makeValidID(text + "-info");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterInfoBlock({marked2, flags, parseSOURCE, convertEncodedInfo, maybeClear, attrs, id, text, logError});
+				return makeMonsterInfoBlock({marked2, flags, parseSOURCE, convertEncodedInfo, maybeClear, attrs, text, logError});
 			} else if (n === "mdefense") {
 				churn(n, attrs, [
 					"clear", "ac", "mod",
@@ -326,13 +328,12 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"unstop", "blockAt", "rockCt", "secSave",
 					"ferocity", "amorph", "aav", "incorp", "noB",
 					"eva", "impEva", "unc", "impUnc",
-					"weak", "vulner", "id"
+					"weak", "vulner"
 				], [], logError);
 				flags.header = true;
 				flags.mdef = true;
-				const id = prefix + makeValidID(text + "-defense");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterDefenseBlock({marked2, flags, convertEncodedInfo, maybeClear, attrs, id, logError});
+				return makeMonsterDefenseBlock({marked2, flags, convertEncodedInfo, maybeClear, attrs, logError});
 			} else if (n === "moffense") {
 				churn(n, attrs, [
 					"clear", "sp", "spP", "br", "brP", "cl", "clP", "sw", "swP",
@@ -352,9 +353,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], [], logError);
 				flags.header = true;
 				flags.moffense = true;
-				const id = prefix + makeValidID(text + "-offense");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterOffenseBlock({marked2, convertEncodedInfo, flags, maybeClear, attrs, id, logError});
+				return makeMonsterOffenseBlock({marked2, convertEncodedInfo, flags, maybeClear, attrs, logError});
 			} else if (n === "mspell") {
 				churn(n, attrs, [
 					"clear", "cl", "con",
@@ -363,10 +363,9 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"psy", "psyMag", "pe", "peP",
 					"title", "data", "newLine"
 				], [ /^l[0-9]$/ ], logError);
-				const id = prefix + makeValidID(text + "-spells");
 				flags.mspell = true;
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterSpellBlock({marked2, convertEncodedInfo, flags, maybeClear, attrs, logError, flags, id});
+				return makeMonsterSpellBlock({marked2, convertEncodedInfo, flags, maybeClear, attrs, logError, flags});
 			} else if (n === "mfn") {
 				churn(n, attrs, ["clear"], [], logError);
 				const marked2 = makeNewMarkedInstance();
@@ -381,16 +380,14 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], [], logError);
 				flags.header = true;
 				flags.mstats = true;
-				const id = prefix + makeValidID(text + "-stats");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterStatisticsBlock({marked2, flags, convertEncodedInfo, maybeClear, attrs, logError, id});
+				return makeMonsterStatisticsBlock({marked2, flags, convertEncodedInfo, maybeClear, attrs, logError});
 			} else if (n === "meco") {
 				churn(n, attrs, [ "clear", "env", "org", "treasure" ], [], logError);
 				flags.header = true;
 				flags.meco = true;
-				const id = prefix + makeValidID(text + "-eco");
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterEcologyBlock({marked2, flags, convertEncodedInfo, maybeClear, attrs, id, logError});
+				return makeMonsterEcologyBlock({marked2, flags, convertEncodedInfo, maybeClear, attrs, logError});
 			} else if (n === "archetype") {
 				// Archetype
 				churn(n, attrs, ["clear", "c", "r", "e"], [], logError);
@@ -445,9 +442,9 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], logError);
 				flags.ability = true;
 				const marked2 = makeNewMarkedInstance();
-				const jlid = prefix + (attrs.id || makeValidID(text));
+				const jlid = (attrs.id || makeValidID(text));
 				if(attrs.jl) {
-					addToJumpList(text, jlid, attrs.jl);
+					addToJumpList(text, prefix + jlid, attrs.jl);
 				}
 				return makeAbilityBlock({
 					marked2, prefix, jlid, text,
@@ -481,8 +478,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"trade53", "trade42", "tradeLimit"
 				], [], logError);
 				flags.ability = true;
-				const jlid = prefix + "spells";
-				addToJumpList("Spells", jlid, "jl");
+				const jlid = "spells";
+				addToJumpList("Spells", prefix + jlid, "jl");
 				return makeSpellAbilityBlock({
 					prefix, jlid, logError,
 					maybeClear, attrs
@@ -544,7 +541,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return makeAbilityBlock({
 					maybeClear, prefix, logError, text,
 					marked2: { parseInline: (x) => x },
-					jlid: prefix + (attrs.id || makeValidID(text)),
+					jlid: (attrs.id || makeValidID(text)),
 					convertEncodedInfo: (x) => x,
 					attrs: {
 						l: 1,

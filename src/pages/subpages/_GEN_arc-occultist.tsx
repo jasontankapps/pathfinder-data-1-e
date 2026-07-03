@@ -7,22 +7,22 @@ import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 const _ancestral_aspirant = {title: "Ancestral Aspirant", jsx: <><h2 id="arc-occultist-ancestral_aspirant-ancestral-aspirant">Ancestral Aspirant</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 67</Link><br/>It is common for a noble to possess a deep pride for his family's past, but when such self-importance gives way to obsession, an ancestral aspirant is born. Ancestral aspirants perform all the typical social functions of a noble, but they fill their conversations with stories of the great deeds of their family forebears, and they spend their nights researching old histories and primary sources, hungry for more.</p>
-<Ability icon={["skills"]} id="arc-occultist-ancestral_aspirant-undefined">
-<Pair id="arc-occultist-ancestral_aspirant-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (planes), Profession</Pair></Ability>
-<Ability id="arc-occultist-ancestral_aspirant-family-jewels" icon={["info"]}>
-<Pair single id="arc-occultist-ancestral_aspirant-family-jewels">Family Jewels</Pair>
+<Ability id="family-jewels" icon={["info"]}>
+<Pair single id="family-jewels">Family Jewels</Pair>
 <Pair hl title="Alters">Implements</Pair>
 <Pair title="Info">An ancestral aspirant's implements are always objects connected to his family history. One of his starting implements must be an implement from the <Link to="/implement/enchantment">enchantment</Link> school.</Pair>
 </Ability>
-<Ability id="arc-occultist-ancestral_aspirant-emotional-reading-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-ancestral_aspirant-emotional-reading-su">Emotional Reading (Su)</Pair>
+<Ability id="emotional-reading-su" icon={["magic-swirl"]}>
+<Pair single id="emotional-reading-su">Emotional Reading (Su)</Pair>
 <Pair hl title="Replaces">Object reading</Pair>
 <Pair title="Ability">An ancestral aspirant doesn't care much about objects that didn't belong to his ancestors, but he is keenly attuned to his relatives and fellow nobles, allowing him to read the emotions of others. If he spends 1 minute examining a creature, he learns one fact, chosen by the GM, about the creature's current emotions. Since emotional auras are complex, this ability is unlikely to reveal the secret feelings of a professional spy; instead, it only touches upon surface emotions.</Pair>
 </Ability>
-<Ability id="arc-occultist-ancestral_aspirant-courtly-contacts-su" icon={["stairs-goal"]}>
-<Pair single id="arc-occultist-ancestral_aspirant-courtly-contacts-su">Courtly Contacts (Su)</Pair>
+<Ability id="courtly-contacts-su" icon={["stairs-goal"]}>
+<Pair single id="courtly-contacts-su">Courtly Contacts (Su)</Pair>
 <Pair hl title="Replaces">Outside contact</Pair>
 <Pair title="Ability">Ancestral aspirants have contacts among courtly circles rather than otherworldly circles. This works similarly to <em>outside contact</em> except for the following differences: First, he doesn't need to use a <em>magic circle</em> or make a payment (though he still expends 1 point of mental focus from his enchantment implement). Second, he can use those contacts to gather information for him (as per the Diplomacy skill to gather information) without spending the time himself, rather than asking a question and receiving a result similar to a divination.</Pair>
 <Pair title="At 12th Level">He can ask an additional question over the same time period, as normal with <em>outside contact.</em></Pair>
@@ -32,16 +32,16 @@ const _ancestral_aspirant = {title: "Ancestral Aspirant", jsx: <><h2 id="arc-occ
 </>};
 const _battle_host = {title: "Battle Host", jsx: <><h2 id="arc-occultist-battle_host-battle-host">Battle Host</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 100</Link><br/>Well versed in military history, battlefield lore, and the occult, a battle host forms a supernatural bond with a chosen weapon, suit of armor, or shield, from which he can channel psychic energy to cast spells, conjure the spirit of the object's former owner, increase his own physical might, and produce a number of other remarkable abilities.</p>
-<Ability icon={["skills"]} id="arc-occultist-battle_host-undefined">
-<Pair id="arc-occultist-battle_host-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair></Ability>
-<Ability id="arc-occultist-battle_host-weapon-and-armor-proficiency" icon={["stairs-goal"]}>
-<Pair single id="arc-occultist-battle_host-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Ability id="weapon-and-armor-proficiency" icon={["stairs-goal"]}>
+<Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Replaces">Weapon and armor proficiency</Pair>
 <Pair title="Ability">A battle host is proficient with all simple and martial weapons and with all types of armor (heavy, light, and medium) and shields (including tower shields).</Pair>
 </Ability>
-<Ability id="arc-occultist-battle_host-panoply-bond-su" icon={["stairs-goal","armor-upgrade"]}>
-<Pair single id="arc-occultist-battle_host-panoply-bond-su">Panoply Bond (Su)</Pair>
+<Ability id="panoply-bond-su" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="panoply-bond-su">Panoply Bond (Su)</Pair>
 <Pair hl title="Alters">Implements, mental focus, spellcasting, implement mastery</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A battle host forms a supernatural bond with a specific weapon, suit of armor, or shield. This selection is permanent and can never be changed. The bonded item is masterwork quality and the battle host begins play with it at no cost. The bonded item is immune to the <Link to="/misc/broken">broken</Link> condition for as long as the battle host lives. If a battle host dies and is restored to life, the bonded item is also restored if it was destroyed. Any magic powers associated with a battle host's bonded item function only for the battle host; in the hands of anyone else it is only a masterwork item.</Pair>
@@ -52,20 +52,20 @@ const _battle_host = {title: "Battle Host", jsx: <><h2 id="arc-occultist-battle_
 <Pair title="At 18th Level">His bonded item gains access to an additional school of magic (and its focus and resonant powers, as usual).</Pair>
 <Pair title="Special">The battle host's bonded item serves as his implement component to cast occultist spells of all the schools that he knows. However, he must split his mental focus among the schools he knows for the purpose of determining resonant powers and using focus powers, even though he possesses only one physical item as an implement.</Pair>
 </Ability>
-<Ability id="arc-occultist-battle_host-battle-skill" icon={["broken-shield"]}>
-<Pair single id="arc-occultist-battle_host-battle-skill">Battle Skill</Pair>
+<Ability id="battle-skill" icon={["broken-shield"]}>
+<Pair single id="battle-skill">Battle Skill</Pair>
 <Pair hl title="Alters">Magic item skill</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Info">A battle host's <em>magic item skill</em> ability applies only on checks with weapons, armor, and shields.</Pair>
 </Ability>
-<Ability id="arc-occultist-battle_host-battle-reading" icon={["broken-shield"]}>
-<Pair single id="arc-occultist-battle_host-battle-reading">Battle Reading</Pair>
+<Ability id="battle-reading" icon={["broken-shield"]}>
+<Pair single id="battle-reading">Battle Reading</Pair>
 <Pair hl title="Alters">Object reading</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Info">A battle host can use <em>object reading</em> on only weapons, armor, and shields.</Pair>
 </Ability>
-<Ability id="arc-occultist-battle_host-bonus-feats" icon={["stairs-goal"]}>
-<Pair single id="arc-occultist-battle_host-bonus-feats">Bonus Feats</Pair>
+<Ability id="bonus-feats" icon={["stairs-goal"]}>
+<Pair single id="bonus-feats">Bonus Feats</Pair>
 <Pair hl title="Replaces">Shift focus, magic circles, binding circles, fast circles</Pair>
 <Pair title="At 4th Level">A battle host gains a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as <Link to="/main/combat_feat">combat feats</Link>.</Pair>
 <Pair title="At 8th Level">The battle host gains another bonus feat, following the restrictions above.</Pair>
@@ -73,8 +73,8 @@ const _battle_host = {title: "Battle Host", jsx: <><h2 id="arc-occultist-battle_
 <Pair title="At 16th Level">The battle host gains another bonus feat, following the restrictions above.</Pair>
 <Pair title="Special">The battle host must meet the prerequisites of these bonus feats.</Pair>
 </Ability>
-<Ability id="arc-occultist-battle_host-spirit-warrior-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-battle_host-spirit-warrior-sp">Spirit Warrior (Sp)</Pair>
+<Ability id="spirit-warrior-sp" icon={["magic-swirl"]}>
+<Pair single id="spirit-warrior-sp">Spirit Warrior (Sp)</Pair>
 <Pair hl title="Replaces">Aura sight</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Standard Action">Once per day, a battle host can call forth the spirit of a dead warrior who once owned his bonded item. This ability functions as <Link to="/spell/spiritual_ally">spiritual ally</Link>, using the battle host's occultist level as his caster level and his Intelligence modifier instead of his Wisdom modifier to determine the spell's effects.</Pair>
@@ -83,8 +83,8 @@ const _battle_host = {title: "Battle Host", jsx: <><h2 id="arc-occultist-battle_
 <Pair title="At 17th Level">He can use this ability 4 times a day.</Pair>
 <Pair title="Special">Unlike the use of most spell-like abilities, this doesn't provoke an attack of opportunity.</Pair>
 </Ability>
-<Ability id="arc-occultist-battle_host-heroic-splendor-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-battle_host-heroic-splendor-su" flavor="A battle host can draw power from his bonded item to imbue himself with superhuman strength, agility, or resilience.">Heroic Splendor (Su)</Pair>
+<Ability id="heroic-splendor-su" icon={["upgrade"]}>
+<Pair single id="heroic-splendor-su" flavor="A battle host can draw power from his bonded item to imbue himself with superhuman strength, agility, or resilience.">Heroic Splendor (Su)</Pair>
 <Pair hl title="Replaces">Outside contact</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Swift Action">Once a day, a battle host can grant himself a +4 insight bonus to Strength, Dexterity, or Constitution for 1 minute.</Pair>
@@ -96,16 +96,16 @@ const _battle_host = {title: "Battle Host", jsx: <><h2 id="arc-occultist-battle_
 </>};
 const _construct_collector = {title: "Construct Collector", jsx: <><h2 id="arc-occultist-construct_collector-construct-collector">Construct Collector</h2>
 <p><strong>Sources</strong> <Link to="/source/construct_handbook">Construct Handbook pg. 11</Link><br/>Trapped within each construct is a spiritual presence, be it a bound elemental or raw magical energy. Construct collectors draw out that presence and use it to gain unlikely power in the battlefield.</p>
-<Ability id="arc-occultist-construct_collector-constructed-focus-su" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="arc-occultist-construct_collector-constructed-focus-su">Constructed Focus (Su)</Pair>
+<Ability id="constructed-focus-su" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="constructed-focus-su">Constructed Focus (Su)</Pair>
 <Pair hl title="Replaces">3rd-, 9th- and 15th-level focus powers</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A construct collector can harvest components from destroyed constructs to fuel his implements. Harvesting a component takes 1 minute. A construct collector can harvest a number of active components equal to his Intelligence modifier per day. An active component is infused with 1 point of generic mental focus, which the construct collector can expend to activate any focus power at that power's normal cost, as opposed to the increased cost normally associated with generic mental focus. This otherwise functions as expending focus saved inside a construct collector's body. Once this mental focus is expended, the component becomes inactive and is useless. An unused component does not lose its mental focus, even after a construct collector refreshes his mental focus. A construct collector can only have one active component at the same time.</Pair>
 <Pair title="At 9th Level">A construct collector can now have 2 active components at a time.</Pair>
 <Pair title="At 15th Level">A construct collector can now have 3 active components at a time.</Pair>
 </Ability>
-<Ability id="arc-occultist-construct_collector-repower-construct-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-construct_collector-repower-construct-su" flavor="A construct collector can use his mental focus to restore and gain control of a construct.">Repower Construct (Su)</Pair>
+<Ability id="repower-construct-su" icon={["magic-swirl"]}>
+<Pair single id="repower-construct-su" flavor="A construct collector can use his mental focus to restore and gain control of a construct.">Repower Construct (Su)</Pair>
 <Pair hl title="Replaces">Magic circles, outside contact, binding circles, fast circles</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Immediate Action">He can expend a number of points of generic mental focus (minimum 2 points) to prevent a construct within 30 feet from becoming destroyed when reduced to 0 or fewer hit points. The construct immediately regains a number of hit points equal to half of the construct collector's current hit points (minimum 1). The construct follows all of the construct collector's orders until the end of the collector's next turn or until reduced to 0 or fewer hit points. Afterwards, the construct is completely destroyed and cannot be repowered again, even by another construct collector.</Pair>
@@ -115,8 +115,8 @@ const _construct_collector = {title: "Construct Collector", jsx: <><h2 id="arc-o
 </>};
 const _curator = {title: "Curator", jsx: <><h2 id="arc-occultist-curator-curator">Curator</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 32</Link><br/>Most occultists acquire and study antiques at a steady pace, learning new techniques one at a time. A lucky few join wealthy organizations replete with relics or inherit undocumented vaults full of historical treasures, and dabble in a wide variety of implements while mastering few. This is especially common in the <Link to="/rule/aspis_consortium">Aspis Consortium</Link>, whose far-flung merchants handle countless relics every year. It's simple enough to snag choice items from Aspis ships, allowing these curators to compile truly prodigious collections. While all agents of the Aspis Consortium are expected to catalog and file their discoveries, in practice many of them keep prizes for their personal use, and the curator has elevated this practice almost to an art form. When confronted by superiors with accusations of failing to hand over rare treasures or mysterious items, the curator is swift to point out that such objects do the group no good sitting on a dusty shelf. Instead, the curator lives up to his name, and seeks to access the ancient powers hidden in such objects so that he can use them in the best interest of the Aspis Consortium. Over time, the Consortium has been forced to admit the wisdom in this way of thinking.</p>
-<Ability id="arc-occultist-curator-extensive-collection-su" icon={["stairs-goal"]}>
-<Pair single id="arc-occultist-curator-extensive-collection-su">Extensive Collection (Su)</Pair>
+<Ability id="extensive-collection-su" icon={["stairs-goal"]}>
+<Pair single id="extensive-collection-su">Extensive Collection (Su)</Pair>
 <Pair hl title="Replaces">One of the two occultist implements learned at 1st level, 6th- and 14th-level implements</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A curator acquires a collection of esoteric relics that function as occultist implements associated with two schools of magic; he must select these schools and their associated spells when he gains this feature.</Pair>
@@ -127,34 +127,34 @@ const _curator = {title: "Curator", jsx: <><h2 id="arc-occultist-curator-curator
 <Pair title="At 14th Level">A curator can use this ability 5 times/day. A curator chooses two additional schools of magic - in addition to their spells - and adds them to his collection.</Pair>
 <Pair title="At 18th Level">A curator can use this ability 6 times/day.</Pair>
 </Ability>
-<Ability id="arc-occultist-curator-split-focus-su" icon={["broken-shield"]}>
-<Pair single id="arc-occultist-curator-split-focus-su">Split Focus (Su)</Pair>
+<Ability id="split-focus-su" icon={["broken-shield"]}>
+<Pair single id="split-focus-su">Split Focus (Su)</Pair>
 <Pair hl title="Alters">Mental focus</Pair>
 <Pair title="Info">A curator has a number of points of mental focus equal to only his occultist level.</Pair>
 </Ability>
-<Ability id="arc-occultist-curator-adaptable-powers-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-curator-adaptable-powers-su">Adaptable Powers (Su)</Pair>
+<Ability id="adaptable-powers-su" icon={["magic-swirl"]}>
+<Pair single id="adaptable-powers-su">Adaptable Powers (Su)</Pair>
 <Pair hl title="Replaces">3rd-level focus power</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A curator learns one focus power from each of the schools associated with his extensive collection. Whenever he activates his collection, he can use those focus powers associated with his selected school of magic while the relic remains empowered.</Pair>
 <Pair title="Special">Whenever the curator would learn another focus power for an implement, he can instead select two new focus powers from different schools associated with his extensive relic collection.</Pair>
 </Ability>
-<Ability id="arc-occultist-curator-relic-resistance-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-occultist-curator-relic-resistance-ex" flavor="A curator develops a resistance to harmful items.">Relic Resistance (Ex)</Pair>
+<Ability id="relic-resistance-ex" icon={["armor-upgrade"]}>
+<Pair single id="relic-resistance-ex" flavor="A curator develops a resistance to harmful items.">Relic Resistance (Ex)</Pair>
 <Pair hl title="Replaces">Shift focus</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">He never gains <Link to="/rule/negative_levels">negative levels</Link> due to his alignment as a result of wielding or wearing magic items, and he gains a +4 bonus on Will saves to resolve personality conflicts with intelligent magic items.</Pair>
 <Pair title="Ability">Whenever a cursed item's harmful condition would trigger, a curator can attempt a Will save (DC = 10 + the item's CL) to suppress the curse just long enough to discard the item before it activates.</Pair>
 <Pair title="Special">When identifying an item, a curator needs to exceed the item's DC by only 5 (instead of 10) to determine whether the item is cursed.</Pair>
 </Ability>
-<Ability id="arc-occultist-curator-complex-collection-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-curator-complex-collection-su">Complex Collection (Su)</Pair>
+<Ability id="complex-collection-su" icon={["upgrade"]}>
+<Pair single id="complex-collection-su">Complex Collection (Su)</Pair>
 <Pair hl title="Replaces">Outsider contact</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">A curator can empower two relics that are in his collection simultaneously, and he gains the benefits of both. When he does so, he must allocate his relic collection's mental focus between the two relics.</Pair>
 </Ability>
-<Ability id="arc-occultist-curator-mental-catalog-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-curator-mental-catalog-su">Mental Catalog (Su)</Pair>
+<Ability id="mental-catalog-su" icon={["upgrade"]}>
+<Pair single id="mental-catalog-su">Mental Catalog (Su)</Pair>
 <Pair hl title="Replaces">Magic circles, binding circles, fast circles</Pair>
 <Pair title="At 8th Level">The points of mental focus invested in the curator's relic collection increase by 2.</Pair>
 <Pair title="At 12th Level">The points instead increase by 3.</Pair>
@@ -163,8 +163,8 @@ const _curator = {title: "Curator", jsx: <><h2 id="arc-occultist-curator-curator
 </>};
 const _esoteric_initiate = {title: "Esoteric Initiate", jsx: <><h2 id="arc-occultist-esoteric_initiate-esoteric-initiate">Esoteric Initiate</h2>
 <p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 8</Link><br/>While most occultists learn to draw power from a variety of implements and objects, esoteric initiates have focused their study entirely on items of antiquity connected to the teachings of the Esoteric Order of the Palatine Eye, believing such items to be more powerful than mundane items.</p>
-<Ability id="arc-occultist-esoteric_initiate-implements-of-the-palatine-eye-su" icon={["magic-swirl","upgrade"]}>
-<Pair single id="arc-occultist-esoteric_initiate-implements-of-the-palatine-eye-su">Implements of the Palatine Eye (Su)</Pair>
+<Ability id="implements-of-the-palatine-eye-su" icon={["magic-swirl","upgrade"]}>
+<Pair single id="implements-of-the-palatine-eye-su">Implements of the Palatine Eye (Su)</Pair>
 <Pair hl title="Alters">Mental focus, implements, shift focus</Pair>
 <Pair title="Ability">An esoteric initiate has formed a supernatural bond with a set of the order's writings collected into a book. If the book is damaged, it is restored to full hit points when the initiate's mental focus refreshes. If the book is lost or destroyed, the initiate can replace it with another similar one, but doing so requires an 8-hour ritual that binds the new book to him.</Pair>
 <Pair title="Info">The book serves as an implement for any two schools of magic at 1st level. The initiate gains new implement schools normally. However, the initiate's additional implements must be masterwork or magic items worth at least 50 gp, and they must directly or nominally represent the Esoteric Order of the Palatine Eye's beliefs or history. For example, the initiate's implements could be Osirian antiques, trinkets covered in Palatine iconography, or the like.</Pair>
@@ -172,8 +172,8 @@ const _esoteric_initiate = {title: "Esoteric Initiate", jsx: <><h2 id="arc-occul
 <Pair title="At 4th Level">When using the ability to shift his mental focus from one implement to another, he loses no focus when doing so.</Pair>
 <Pair title="Special">An esoteric initiate can't save generic mental focus inside his own body instead of investing all of it.</Pair>
 </Ability>
-<Ability id="arc-occultist-esoteric_initiate-symbolism-sp" icon={["stairs-goal"]}>
-<Pair single id="arc-occultist-esoteric_initiate-symbolism-sp">Symbolism (Sp)</Pair>
+<Ability id="symbolism-sp" icon={["stairs-goal"]}>
+<Pair single id="symbolism-sp">Symbolism (Sp)</Pair>
 <Pair hl title="Replaces">Aura sight</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">An initiate who spends 1 minute carefully studying any written work can understand its gist even if he doesn't speak the language in which the text is written. A number of times per day equal to the initiate's occultist level, the initiate can cast <Link to="/spell/comprehend_languages">comprehend languages</Link> as a spell-like ability to read a written work, using his occultist level as his caster level. If he uses <em>symbolism</em> to read a portion of the work that contains a hidden message or a cypher, he is automatically granted a Linguistics check with a bonus equal to his occultist level to decipher the message.</Pair>
@@ -181,24 +181,24 @@ const _esoteric_initiate = {title: "Esoteric Initiate", jsx: <><h2 id="arc-occul
 </>};
 const _extemporaneous_channeler = {title: "Extemporaneous Channeler", jsx: <><h2 id="arc-occultist-extemporaneous_channeler-extemporaneous-channeler">Extemporaneous Channeler</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 8</Link><br/>Extemporaneous channelers study the power of transformation and use items in unintended ways to awaken their potential.</p>
-<Ability id="arc-occultist-extemporaneous_channeler-weapon-proficiency" icon={["broken-shield"]}>
-<Pair single id="arc-occultist-extemporaneous_channeler-weapon-proficiency">Weapon Proficiency</Pair>
+<Ability id="weapon-proficiency" icon={["broken-shield"]}>
+<Pair single id="weapon-proficiency">Weapon Proficiency</Pair>
 <Pair hl title="Alters">Weapon proficiencies</Pair>
 <Pair title="Info">An extemporaneous channeler is proficient with all simple weapons.</Pair>
 </Ability>
-<Ability id="arc-occultist-extemporaneous_channeler-improvisational-combatant-ex" icon={["upgrade","stairs-goal"]}>
-<Pair single id="arc-occultist-extemporaneous_channeler-improvisational-combatant-ex">Improvisational Combatant (Ex)</Pair>
+<Ability id="improvisational-combatant-ex" icon={["upgrade","stairs-goal"]}>
+<Pair single id="improvisational-combatant-ex">Improvisational Combatant (Ex)</Pair>
 <Pair title="Ability">An extemporaneous channeler does not incur any penalties for using an <Link to="/misc/improvised_weapon">improvised weapon</Link>. She is considered to have the <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> and <Link to="/feat/throw_anything">Throw Anything</Link> feats for the purpose of meeting prerequisites.</Pair>
 </Ability>
-<Ability id="arc-occultist-extemporaneous_channeler-fleeting-focus-su" icon={["magic-swirl","stairs-goal"]}>
-<Pair single id="arc-occultist-extemporaneous_channeler-fleeting-focus-su">Fleeting Focus (Su)</Pair>
+<Ability id="fleeting-focus-su" icon={["magic-swirl","stairs-goal"]}>
+<Pair single id="fleeting-focus-su">Fleeting Focus (Su)</Pair>
 <Pair hl title="Alters">Mental focus</Pair>
 <Pair title="Info">An extemporaneous channeler's studies of the changing nature of objects give her more mental focus, which she learns to quickly invest in her implements throughout the day, but which she struggles to maintain.</Pair>
 <Pair title="Ability">When an extemporaneous channeler refreshes her mental focus, she must spend 1 hour preparing her implements for spellcasting but does not immediately invest them with her generic focus, which is equal to her occultist level + twice her Intelligence modifier. At any point during the day, she can shift any amount of her generic focus to any number of her implements by concentrating for 1 round while touching her implements. After every 10 minutes, her invested implements each lose 1 point of mental focus, as if it had been expended on a focus power.</Pair>
 <Pair title="Special">If the extemporaneous channeler uses her <em>withdraw focus</em> ability to remove focus before a full 10-minute increment has elapsed, each implement still loses 1 point of mental focus as if it had been invested for that entire increment.</Pair>
 </Ability>
-<Ability id="arc-occultist-extemporaneous_channeler-transformative-resonance-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-extemporaneous_channeler-transformative-resonance-su">Transformative Resonance (Su)</Pair>
+<Ability id="transformative-resonance-su" icon={["upgrade"]}>
+<Pair single id="transformative-resonance-su">Transformative Resonance (Su)</Pair>
 <Pair title="Swift Action">An extemporaneous channeler can expend 1 point of generic focus as to allow her generic focus to resonate in her improvised weapons. For 1 minute, the extemporaneous channeler grants any item she uses as an improvised weapon a +1 enhancement bonus on attack and damage rolls for every 3 points of generic focus she has in her body. She can give it a maximum bonus of +1.</Pair>
 <Pair title="At 5th Level">The maximum bonus becomes +2.</Pair>
 <Pair title="At 9th Level">The maximum bonus increases to +3.</Pair>
@@ -206,15 +206,15 @@ const _extemporaneous_channeler = {title: "Extemporaneous Channeler", jsx: <><h2
 <Pair title="At 17th Level">The maximum bonus increases to +5.</Pair>
 <Pair title="Special">The extemporaneous channeler can imbue the item with any one weapon special ability with an equivalent enhancement bonus less than or equal to her maximum bonus by reducing the granted enhancement bonus by the appropriate amount, such as reducing a +2 bonus to a +1 <Link to="/magic-enh/flaming">flaming</Link> enchantment. She chooses the special ability when she activates this power, but she can spend 1 point of generic focus as a <strong className="hl">swift action</strong> to change it, which also resets the duration of the power. The item must have an enhancement bonus of at least +1 (either on its own or from her imbuing it) to gain a weapon special ability. This ability stacks with any other effect that grants an enhancement bonus to an improvised weapon, such as <Link to="/magic-wondrous/gloves_of_improvised_might">gloves of improvised might</Link>, to a maximum of +5.</Pair>
 </Ability>
-<Ability id="arc-occultist-extemporaneous_channeler-withdraw-focus-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-extemporaneous_channeler-withdraw-focus-su">Withdraw Focus (Su)</Pair>
+<Ability id="withdraw-focus-su" icon={["magic-swirl"]}>
+<Pair single id="withdraw-focus-su">Withdraw Focus (Su)</Pair>
 <Pair hl title="Alters">Shift focus</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Standard Action">An extemporaneous channeler can shift any amount of focus from any number of implements back into herself as generic focus. Doing so costs her no loss of focus (other than what's lost due to her <em>fleeting focus</em> ability).</Pair>
 <Pair title="Special">Unlike expending focus normally, this shift can reduce the effect of a resonant power in the implement from which the mental focus was taken.</Pair>
 </Ability>
-<Ability id="arc-occultist-extemporaneous_channeler-improvised-spell-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-extemporaneous_channeler-improvised-spell-su" flavor="An extemporaneous channeler learns to use her implements to improvise a spell similar to one she already knows.">Improvised Spell (Su)</Pair>
+<Ability id="improvised-spell-su" icon={["magic-swirl"]}>
+<Pair single id="improvised-spell-su" flavor="An extemporaneous channeler learns to use her implements to improvise a spell similar to one she already knows.">Improvised Spell (Su)</Pair>
 <Pair hl title="Replaces">Magic circles, outside contact, binding circles, fast circles</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">Once per day, an extemporaneous channeler can cast an occultist spell from an implement school she knows as if it were one of her spells known, expending a spell slot of the same level and an amount of generic focus equal to the spell's level to cast the desired spell. A spell cast as an <em>improvised spell</em> always has a minimum casting time of 1 round, regardless of the casting time of the spell.</Pair>
@@ -224,22 +224,22 @@ const _extemporaneous_channeler = {title: "Extemporaneous Channeler", jsx: <><h2
 </>};
 const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-geomancer">Geomancer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 66</Link><br/>A geomancer studies every type of land, deriving power from the differences between types of terrain.</p>
-<Ability icon={["skills"]} id="arc-occultist-geomancer-undefined">
-<Pair id="arc-occultist-geomancer-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Disable Device, Knowledge (engineering), Knowledge (religion)</Pair></Ability>
-<Ability id="arc-occultist-geomancer-geomantic-focus-su" icon={["stairs-goal"]}>
-<Pair single id="arc-occultist-geomancer-geomantic-focus-su">Geomantic Focus (Su)</Pair>
+<Ability id="geomantic-focus-su" icon={["stairs-goal"]}>
+<Pair single id="geomantic-focus-su">Geomantic Focus (Su)</Pair>
 <Pair hl title="Alters">Mental focus</Pair>
 <Pair title="Ability">When a geomancer invests mental focus into his implements for the day, he can store some of it in the surrounding terrain. As long as he remains in physical contact with the terrain, he gains the <em>survivalist</em> resonant power (see below) and the ability to use the <em>terrain stride, dominion,</em> and <em>wall of terrain</em> focus powers as appropriate for his level.</Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-geomancy-su" extraClasses="hasSubs" icon={["broken-shield","spell-book"]}>
-<Pair single id="arc-occultist-geomancer-geomancy-su">Geomancy (Su)</Pair>
+<Ability id="geomancy-su" extraClasses="hasSubs" icon={["broken-shield","spell-book"]}>
+<Pair single id="geomancy-su">Geomancy (Su)</Pair>
 <Pair hl title="Alters">Implements</Pair>
 <Pair title="Ability">A geomancer learns one fewer implement school at 1st level. Instead, the spells that he knows are partially determined by the type of terrain he is currently in (and the level of spells he can cast). When he leaves a type of terrain, he loses knowledge of the spells that terrain grants and instead knows the spells granted by the new type of terrain he has entered. If a specific terrain falls into more than one category, the geomancer chooses which list of spells he receives when he enters the terrain. The spells at each spell level for the various types of terrain are listed below.</Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-cold-terrain" extraClasses="subAbility" icon={["spell-book"]}>
-<Pair single id="arc-occultist-geomancer-cold-terrain">Cold Terrain</Pair>
+<Ability id="cold-terrain" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="cold-terrain">Cold Terrain</Pair>
 <Pair plain title="1st"><Link to="/spell/frostbite">Frostbite</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/frigid_touch">Frigid touch</Link></Pair>
 <Pair plain title="3rd"><Link to="/spell/sleet_storm">Sleet storm</Link></Pair>
@@ -247,8 +247,8 @@ const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-g
 <Pair plain title="5th"><Link to="/spell/icy_prison">Icy prison</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/freezing_sphere">Freezing sphere</Link></Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-desert-terrain" extraClasses="subAbility" icon={["spell-book"]}>
-<Pair single id="arc-occultist-geomancer-desert-terrain">Desert Terrain</Pair>
+<Ability id="desert-terrain" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="desert-terrain">Desert Terrain</Pair>
 <Pair plain title="1st"><Link to="/spell/sun_metal">Sun metal</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/shifting_sand">Shifting sand</Link></Pair>
 <Pair plain title="3rd"><Link to="/spell/cup_of_dust">Cup of dust</Link></Pair>
@@ -256,8 +256,8 @@ const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-g
 <Pair plain title="5th"><Link to="/spell/flame_strike">Flame strike</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/sirocco">Sirocco</Link></Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-forest-terrain" extraClasses="subAbility" icon={["spell-book"]}>
-<Pair single id="arc-occultist-geomancer-forest-terrain">Forest Terrain</Pair>
+<Ability id="forest-terrain" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="forest-terrain">Forest Terrain</Pair>
 <Pair plain title="1st"><Link to="/spell/entangle">Entangle</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/tree_shape">Tree shape</Link></Pair>
 <Pair plain title="3rd"><Link to="/spell/speak_with_plants">Speak with plants</Link></Pair>
@@ -265,8 +265,8 @@ const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-g
 <Pair plain title="5th"><Link to="/spell/tree_stride">Tree stride</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/liveoak">Liveoak</Link></Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-jungle-terrain" extraClasses="subAbility" icon={["spell-book"]}>
-<Pair single id="arc-occultist-geomancer-jungle-terrain">Jungle Terrain</Pair>
+<Ability id="jungle-terrain" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="jungle-terrain">Jungle Terrain</Pair>
 <Pair plain title="1st"><Link to="/spell/nauseating_dart">Nauseating dart</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/sickening_entanglement">Sickening entanglement</Link></Pair>
 <Pair plain title="3rd"><Link to="/spell/venomous_bolt">Venomous bolt</Link></Pair>
@@ -274,8 +274,8 @@ const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-g
 <Pair plain title="5th"><Link to="/spell/snake_staff">Snake staff</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/swarm_skin">Swarm skin</Link></Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-mountain-terrain" extraClasses="subAbility" icon={["spell-book"]}>
-<Pair single id="arc-occultist-geomancer-mountain-terrain">Mountain Terrain</Pair>
+<Ability id="mountain-terrain" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="mountain-terrain">Mountain Terrain</Pair>
 <Pair plain title="1st"><Link to="/spell/stone_fist">Stone fist</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/stone_call">Stone call</Link></Pair>
 <Pair plain title="3rd"><Link to="/spell/stone_shape">Stone shape</Link></Pair>
@@ -283,8 +283,8 @@ const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-g
 <Pair plain title="5th"><Link to="/spell/cave_fangs">Cave fangs</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/move_earth">Move earth</Link></Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-plains-terrain" extraClasses="subAbility" icon={["spell-book"]}>
-<Pair single id="arc-occultist-geomancer-plains-terrain">Plains Terrain</Pair>
+<Ability id="plains-terrain" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="plains-terrain">Plains Terrain</Pair>
 <Pair plain title="1st"><Link to="/spell/mount">Mount</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/gust_of_wind">Gust of wind</Link></Pair>
 <Pair plain title="3rd"><Link to="/spell/plant_growth">Plant growth</Link></Pair>
@@ -292,8 +292,8 @@ const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-g
 <Pair plain title="5th"><Link to="/spell/control_winds">Control winds</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/whip_of_ants">Whip of ants</Link></Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-planes-other-than-the-material-plane" extraClasses="subAbility" icon={["spell-book"]}>
-<Pair single id="arc-occultist-geomancer-planes-other-than-the-material-plane">Planes (Other Than the Material Plane)</Pair>
+<Ability id="planes-other-than-the-material-plane" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="planes-other-than-the-material-plane">Planes (Other Than the Material Plane)</Pair>
 <Pair plain title="1st"><Link to="/spell/endure_elements">Endure elements</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/rope_trick">Rope trick</Link></Pair>
 <Pair plain title="3rd"><Link to="/spell/blink">Blink</Link></Pair>
@@ -301,8 +301,8 @@ const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-g
 <Pair plain title="5th"><Link to="/spell/planar_adaptation">Planar adaptation</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/plane_shift">Plane shift</Link></Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-swamp-terrain" extraClasses="subAbility" icon={["spell-book"]}>
-<Pair single id="arc-occultist-geomancer-swamp-terrain">Swamp Terrain</Pair>
+<Ability id="swamp-terrain" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="swamp-terrain">Swamp Terrain</Pair>
 <Pair plain title="1st"><Link to="/spell/mudball">Mudball</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/burst_of_nettles">Burst of nettles</Link></Pair>
 <Pair plain title="3rd"><Link to="/spell/lily_pad_stride">Lily pad stride</Link></Pair>
@@ -310,8 +310,8 @@ const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-g
 <Pair plain title="5th"><Link to="/spell/insect_plague">Insect plague</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/mass_fester">Mass fester</Link></Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-underground-terrain" extraClasses="subAbility" icon={["spell-book"]}>
-<Pair single id="arc-occultist-geomancer-underground-terrain">Underground Terrain</Pair>
+<Ability id="underground-terrain" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="underground-terrain">Underground Terrain</Pair>
 <Pair plain title="1st"><Link to="/spell/expeditious_excavation">Expeditious excavation</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/darkvision">Darkvision</Link></Pair>
 <Pair plain title="3rd"><Link to="/spell/meld_into_stone">Meld into stone</Link></Pair>
@@ -319,8 +319,8 @@ const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-g
 <Pair plain title="5th"><Link to="/spell/suffocation">Suffocation</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/conjure_black_pudding">Conjure black pudding</Link></Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-urban-terrain" extraClasses="subAbility" icon={["spell-book"]}>
-<Pair single id="arc-occultist-geomancer-urban-terrain">Urban Terrain</Pair>
+<Ability id="urban-terrain" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="urban-terrain">Urban Terrain</Pair>
 <Pair plain title="1st"><Link to="/spell/urban_grace">Urban grace</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/share_language">Share language</Link></Pair>
 <Pair plain title="3rd"><Link to="/spell/urban_step">Urban step</Link></Pair>
@@ -328,8 +328,8 @@ const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-g
 <Pair plain title="5th"><Link to="/spell/telepathic_bond">Telepathic bond</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/statue">Statue</Link></Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-water-terrain" extraClasses="subAbility" icon={["spell-book"]}>
-<Pair single id="arc-occultist-geomancer-water-terrain">Water Terrain</Pair>
+<Ability id="water-terrain" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="water-terrain">Water Terrain</Pair>
 <Pair plain title="1st"><Link to="/spell/air_bubble">Air bubble</Link></Pair>
 <Pair plain title="2nd"><Link to="/spell/slipstream">Slipstream</Link></Pair>
 <Pair plain title="3rd"><Link to="/spell/water_breathing">Water breathing</Link></Pair>
@@ -337,27 +337,27 @@ const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-g
 <Pair plain title="5th"><Link to="/spell/geyser">Geyser</Link></Pair>
 <Pair plain title="6th"><Link to="/spell/control_water">Control water</Link></Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-survivalist-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-geomancer-survivalist-su">Survivalist (Su)</Pair>
+<Ability id="survivalist-su" icon={["upgrade"]}>
+<Pair single id="survivalist-su">Survivalist (Su)</Pair>
 <Pair hl title="Replaces">Magic item skill</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A geomancer gains a +1 bonus on Survival checks for every point of mental focus invested in the terrain (to a maximum equal to his occultist level).</Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-terrain-stride-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-geomancer-terrain-stride-su">Terrain Stride (Su)</Pair>
+<Ability id="terrain-stride-su" icon={["upgrade"]}>
+<Pair single id="terrain-stride-su">Terrain Stride (Su)</Pair>
 <Pair hl title="Replaces">Aura sight</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Swift Action">A geomancer can expend 1 point of mental focus invested in the terrain to increase all of his movement speeds by 10 feet.</Pair>
 <Pair title="At 5th Level">The geomancer can expend 2 points of mental focus invested in the terrain to instead increase all of his movement speeds by 20 feet.<sup><InnerLink showBacklink="backlink-arc-occultist-geomancer-fake-fn-1" id="arc-occultist-geomancer-fake-fn-1" data-hash-target to="arc-occultist-geomancer-fake-fn-1-target">1</InnerLink></sup> This affects only movement speeds he already has.</Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-dominion-su" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="arc-occultist-geomancer-dominion-su">Dominion (Su)</Pair>
+<Ability id="dominion-su" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="dominion-su">Dominion (Su)</Pair>
 <Pair hl title="Replaces">7th-level focus power</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Standard Action">A geomancer can expend 1 or more points of mental focus invested in the terrain to infuse himself and each of his allies within 30 feet of him with the might of the land. Affected creatures gain a +1 morale bonus on attack rolls, damage rolls, and Fortitude saves for every point of mental focus expended. These bonuses last for 1 minute and can't exceed one-quarter the geomancer's occultist level.</Pair>
 </Ability>
-<Ability id="arc-occultist-geomancer-wall-of-terrain-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-geomancer-wall-of-terrain-sp">Wall of Terrain (Sp)</Pair>
+<Ability id="wall-of-terrain-sp" icon={["magic-swirl"]}>
+<Pair single id="wall-of-terrain-sp">Wall of Terrain (Sp)</Pair>
 <Pair hl title="Replaces">13th-level focus power</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Standard Action">A geomancer can expend 3 points of mental focus invested in the terrain to fashion a solid wall of the surrounding terrain, no matter its actual composition. This functions as per <Link to="/spell/wall_of_stone">wall of stone</Link>, using the geomancer's occultist level as his caster level.</Pair>
@@ -368,8 +368,8 @@ const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-g
 </ol></section></>};
 const _haunt_collector = {title: "Haunt Collector", jsx: <><h2 id="arc-occultist-haunt_collector-haunt-collector">Haunt Collector</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 62</Link><br/>Haunt collectors use items haunted by their former owners to create ghostly presences imbued with psychic power.</p>
-<Ability id="arc-occultist-haunt_collector-possessed-possessions-su" icon={["stairs-goal"]}>
-<Pair single id="arc-occultist-haunt_collector-possessed-possessions-su">Possessed Possessions (Su)</Pair>
+<Ability id="possessed-possessions-su" icon={["stairs-goal"]}>
+<Pair single id="possessed-possessions-su">Possessed Possessions (Su)</Pair>
 <Pair hl title="Alters">Implements</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Choice">When the haunt collector chooses an implement school he doesn't already know, instead of using implements as normal for that school, he can gain access to a haunted implement - a powerful, spirit-possessed item collected during his travels.</Pair>
@@ -380,19 +380,19 @@ const _haunt_collector = {title: "Haunt Collector", jsx: <><h2 id="arc-occultist
 <Pair title="At 14th Level">The haunt collector may either learn a new implement school or a choose a new haunted implement.</Pair>
 <Pair title="At 18th Level">The haunt collector may either learn a new implement school or a choose a new haunted implement.</Pair>
 </Ability>
-<Ability id="arc-occultist-haunt_collector-hauntist-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-occultist-haunt_collector-hauntist-su">Hauntist (Su)</Pair>
+<Ability id="hauntist-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="hauntist-su">Hauntist (Su)</Pair>
 <Pair hl title="Replaces">Aura sight</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A haunt collector with at least one haunted implement gains the medium's <em>haunt channeler</em> class feature, with an effective medium level equal to his occultist level - 2.</Pair>
 </Ability>
-<Ability id="arc-occultist-haunt_collector-haunt-channeler-su" extraClasses="subAbility" icon={["upgrade","mailed-fist"]}>
-<Pair single id="arc-occultist-haunt_collector-haunt-channeler-su" flavor="Text from the medium class">Haunt Channeler (Su)</Pair>
+<Ability id="haunt-channeler-su" extraClasses="subAbility" icon={["upgrade","mailed-fist"]}>
+<Pair single id="haunt-channeler-su" flavor="Text from the medium class">Haunt Channeler (Su)</Pair>
 <Pair title="Passive Ability">You can always act on the surprise round against a haunt.</Pair>
 <Pair title="Ability">Your touch funnels a portion of the haunt into yourself, dealing 1d6 points of damage to the haunt per 2 medium levels you possess as if via positive energy and allowing you to ask the haunt a single question. The haunt can answer the question however it chooses. Additionally, you can forgo your saving throw against a haunt's effects to funnel the haunt entirely into yourself. If you do so, you suffer the haunt's full effect, but the haunt doesn't affect anyone else (even if it normally would). The haunt then gains control of your body for 24 hours. Once per minute, you can attempt to end this possession early by succeeding at a Will save (DC = 20 + 1/2 your medium level).</Pair>
 </Ability>
-<Ability id="arc-occultist-haunt_collector-spirit-speaker-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-haunt_collector-spirit-speaker-sp">Spirit Speaker (Sp)</Pair>
+<Ability id="spirit-speaker-sp" icon={["magic-swirl"]}>
+<Pair single id="spirit-speaker-sp">Spirit Speaker (Sp)</Pair>
 <Pair hl title="Replaces">Outside contact</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">A haunt collector with at least one haunted implement can commune with the spirits once per day. By holding a seance for 10 minutes, he can ask questions of a destroyed undead or a neutralized or destroyed haunt. To use this ability on a corporeal undead, the haunt collector must have the creature's head in his possession. For a haunt or incorporeal undead, this seance must be held in the haunt's location or where the incorporeal undead was destroyed. Treat this ability as <Link to="/spell/speak_with_haunt">speak with haunt</Link> or as <Link to="/spell/speak_with_dead">speak with dead</Link> (but affecting only destroyed undead rather than only corpses), using the haunt collector's occultist level as the caster level.</Pair>
@@ -413,12 +413,12 @@ const _haunt_collector = {title: "Haunt Collector", jsx: <><h2 id="arc-occultist
 </>};
 const _naturalist = {title: "Naturalist", jsx: <><h2 id="arc-occultist-naturalist-naturalist">Naturalist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 66</Link><br/>A naturalist eschews the contact with outsiders that other occultists use as the core of their work. Instead, he attunes his mind to the natural spirits that exist everywhere, just out of sight for the unawakened mind.</p>
-<Ability icon={["skills"]} id="arc-occultist-naturalist-undefined">
-<Pair id="arc-occultist-naturalist-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (planes)</Pair></Ability>
-<Ability id="arc-occultist-naturalist-natural-focus-su" icon={["upgrade","hazard-sign"]}>
-<Pair single id="arc-occultist-naturalist-natural-focus-su" flavor="A naturalist can always hear the spirits of nature whispering in his ears, and sometimes those whispers contain helpful advice.">Natural Focus (Su)</Pair>
+<Ability id="natural-focus-su" icon={["upgrade","hazard-sign"]}>
+<Pair single id="natural-focus-su" flavor="A naturalist can always hear the spirits of nature whispering in his ears, and sometimes those whispers contain helpful advice.">Natural Focus (Su)</Pair>
 <Pair hl title="Replaces">Magic circles, fast circles</Pair>
 <Pair hl title="Alters">Mental focus</Pair>
 <Pair title="Free Action">A naturalist can expend 1 point of generic mental focus before rolling an ability check, saving throw, or skill check to add 1d6 to the result. The naturalist must be conscious and aware to use this ability, and he can use this ability at most once per round.</Pair>
@@ -426,14 +426,14 @@ const _naturalist = {title: "Naturalist", jsx: <><h2 id="arc-occultist-naturalis
 <Pair title="At 16th Level">It increases to 1d10.</Pair>
 <Pair title="Special">This ability doesn't function while the naturalist is wearing metal armor or using a metal shield (although he can wear a suit of armor or use a shield altered by the <Link to="/spell/ironwood">ironwood</Link> spell). This restriction is similar to the <Link to="/class/druid">druid's</Link> armor restriction.</Pair>
 </Ability>
-<Ability id="arc-occultist-naturalist-tree-talker-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-naturalist-tree-talker-sp">Tree Talker (Sp)</Pair>
+<Ability id="tree-talker-sp" icon={["magic-swirl"]}>
+<Pair single id="tree-talker-sp">Tree Talker (Sp)</Pair>
 <Pair hl title="Replaces">Outside contact</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">A naturalist can cast <Link to="/spell/speak_with_plants">speak with plants</Link> three times per day as a spell-like ability with a caster level equal to his occultist level. In addition, when the naturalist uses this power, he can whisper a message of 25 or fewer words to the surrounding plant life and designate a creature with which he is familiar. The next time that creature is on the same plane of existence and in an area of similar vegetation, it receives the message.</Pair>
 </Ability>
-<Ability id="arc-occultist-naturalist-reflect-on-the-land-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-naturalist-reflect-on-the-land-sp">Reflect on the Land (Sp)</Pair>
+<Ability id="reflect-on-the-land-sp" icon={["magic-swirl"]}>
+<Pair single id="reflect-on-the-land-sp">Reflect on the Land (Sp)</Pair>
 <Pair hl title="Replaces">Binding circles</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">A naturalist can cast <Link to="/spell/commune_with_nature">commune with nature</Link> once per day as a spell-like ability with a caster level equal to his occultist level.</Pair>
@@ -441,24 +441,24 @@ const _naturalist = {title: "Naturalist", jsx: <><h2 id="arc-occultist-naturalis
 </>};
 const _necroccultist = {title: "Necroccultist", jsx: <><h2 id="arc-occultist-necroccultist-necroccultist">Necroccultist</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 100</Link><br/>Necroccultists' fascination with death and the undead drives them to explore the forbidden necromantic arts as they search for secrets they can use to manipulate the natural cycle of life and death. They contact and learn from the dead, rather than from items or outsiders, allowing them to drain the life of their foes to feed their own power, and even call forth phantasmal hordes of spirits to destroy their enemies.</p>
-<Ability id="arc-occultist-necroccultist-necromantic-bond-su" icon={["broken-shield","spell-book","upgrade"]}>
-<Pair single id="arc-occultist-necroccultist-necromantic-bond-su">Necromantic Bond (Su)</Pair>
+<Ability id="necromantic-bond-su" icon={["broken-shield","spell-book","upgrade"]}>
+<Pair single id="necromantic-bond-su">Necromantic Bond (Su)</Pair>
 <Pair hl title="Alters">Implements, implement mastery</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Info">A necroccultist gains access to only the <Link to="/implement/necromancy">necromancy</Link> school of implements. He must select necromancy for his <em>implement mastery.</em></Pair>
 <Pair title="Ability">Each time he gains an occultist level, a necroccultist can add one <Link to="/main/spells_necromancy">necromancy spell</Link> from the <Link to="/main/wizard_spell">wizard spell list</Link> to his occultist spell list and his list of spells known. The necroccultist can't choose a spell of a higher level than he is able to cast, and he adds the spell at the same spell level it appears on the wizard spell list.</Pair>
 <Pair title="At 14th Level">He doesn't gain an additional school of implements. Instead, the DCs of saving throws to resist a necroccultist's necromancy spells and necromancy focus powers increase by 2.</Pair>
 </Ability>
-<Ability id="arc-occultist-necroccultist-deadspeaker-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-necroccultist-deadspeaker-su">Deadspeaker (Su)</Pair>
+<Ability id="deadspeaker-su" icon={["magic-swirl"]}>
+<Pair single id="deadspeaker-su">Deadspeaker (Su)</Pair>
 <Pair hl title="Replaces">Object reading</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 time/day per two occultist levels<ByLevelPop levels={[[2,1],[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></Pair>
 <Pair title="Full-Round Action">A necroccultist can learn the answers to a specific set of questions concerning a dead or undead creature. The necroccultist must consume at least one drop of the creature's blood, a small portion of its flesh, or a fragment of one of its bones as a part of this action. This ability otherwise functions as <Link to="/spell/blood_biography">blood biography</Link>, using the necroccultist's occultist level as his caster level.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 </Ability>
-<Ability id="arc-occultist-necroccultist-ghostly-horde-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-necroccultist-ghostly-horde-su">Ghostly Horde (Su)</Pair>
+<Ability id="ghostly-horde-su" icon={["magic-swirl"]}>
+<Pair single id="ghostly-horde-su">Ghostly Horde (Su)</Pair>
 <Pair hl title="Replaces">Aura sight</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Usage">1 time/day per five occultist levels<ByLevelPop levels={[[5,1],[10,2],[15,3],[20,4]]} unit="time" postText="/day" /></Pair>
@@ -466,8 +466,8 @@ const _necroccultist = {title: "Necroccultist", jsx: <><h2 id="arc-occultist-nec
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="Special">The ghostly horde remains for 1 round, though at the beginning of his turn, the necroccultist can expend 1 point of mental focus as a <strong className="hl">swift action</strong> to extend the duration for 1 additional round.</Pair>
 </Ability>
-<Ability id="arc-occultist-necroccultist-life-drain-sp" icon={["smoking-finger","remedy"]}>
-<Pair single id="arc-occultist-necroccultist-life-drain-sp">Life Drain (Sp)</Pair>
+<Ability id="life-drain-sp" icon={["smoking-finger","remedy"]}>
+<Pair single id="life-drain-sp">Life Drain (Sp)</Pair>
 <Pair hl title="Replaces">Outside contact</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per three occultist levels beyond 8th<ByLevelPop levels={[[8,1],[11,2],[14,3],[17,4],[20,5]]} unit="time" postText="/day" /></Pair>
@@ -477,22 +477,22 @@ const _necroccultist = {title: "Necroccultist", jsx: <><h2 id="arc-occultist-nec
 </>};
 const _occult_historian = {title: "Occult Historian", jsx: <><h2 id="arc-occultist-occult_historian-occult-historian">Occult Historian</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 67</Link><br/>Many wilderness areas contain the remnants of ancient civilizations, with some waiting to be discovered and some held by fierce monsters or devious cults. An occult historian seeks these ruins not only for their esoteric artifacts but also to learn the structures' secrets.</p>
-<Ability id="arc-occultist-occult_historian-ruin-reading-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-occult_historian-ruin-reading-su">Ruin Reading (Su)</Pair>
+<Ability id="ruin-reading-su" icon={["magic-swirl"]}>
+<Pair single id="ruin-reading-su">Ruin Reading (Su)</Pair>
 <Pair hl title="Replaces">Object reading, aura sight</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four occultist levels beyond 2nd<ByLevelPop levels={[[2,1],[6,2],[10,3],[14,4],[18,5]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">An occult historian can glean secrets from ruined structures. She must spend 1 minute examining and touching part of the structure (such as a wall or a doorframe). At the end of the minute, the occult historian attempts a Knowledge (history) check. If the ruin has been claimed as a lair for a creature, the DC of this check is equal to 10 + the CR of the most powerful creature in the ruin. If the ruin holds a magic item (or multiple magic items), the DC of this check is equal to 11 + the highest caster level of all the magic items in the ruin. If the occult historian succeeds at the check, she learns the layout of the area of the ruin within 30 feet of her (including any secret doors), as well as a piece of information about the structure's history (as determined by the GM).</Pair>
 <Pair title="At 5th Level">The occult historian can see into a ruin's past. This reveals the same information that can be gathered with the spell <Link to="/spell/retrocognition">retrocognition</Link>, except the occult historian can use it only in ruins. If the occult historian succeeds at the check outlined above, she sees the events that occurred in the ruin over the past hour; for each minute she concentrates, she can see 1 additional hour into the ruin's past. If the result of her check exceeds the DC by 5 or more, she can see the events that occurred over the past week, plus for 1 additional week per minute she concentrates. If the result of her check exceeds the DC by 10 or more, she can see the events of the past year, plus for 1 additional year per minute she concentrates. If the result of her check exceeds the DC by 20 or more, she can see the events of the past century, plus for 1 additional century per minute she concentrates.</Pair>
 </Ability>
-<Ability id="arc-occultist-occult_historian-trap-sense-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-occultist-occult_historian-trap-sense-ex">Trap Sense (Ex)</Pair>
+<Ability id="trap-sense-ex" icon={["armor-upgrade"]}>
+<Pair single id="trap-sense-ex">Trap Sense (Ex)</Pair>
 <Pair hl title="Replaces">3rd-level focus power</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">An occult historian gains <Link to="/ability/trap_sense">trap sense</Link>, as per the rogue class feature of the same name, giving her a bonus on Reflex saves made to avoid traps and a dodge bonus to AC against attacks made by traps. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her occultist level.</Pair>
 </Ability>
-<Ability id="arc-occultist-occult_historian-crumbling-strike-su" icon={["mailed-fist"]}>
-<Pair single id="arc-occultist-occult_historian-crumbling-strike-su" flavor="An occult historian can channel the erosion of countless ages into a single melee strike.">Crumbling Strike (Su)</Pair>
+<Ability id="crumbling-strike-su" icon={["mailed-fist"]}>
+<Pair single id="crumbling-strike-su" flavor="An occult historian can channel the erosion of countless ages into a single melee strike.">Crumbling Strike (Su)</Pair>
 <Pair hl title="Replaces">Outside contact 2, 3, and 4</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Usage">1 time/day + 1 per four occultist levels beyond 12th<ByLevelPop levels={[[12,1],[16,2],[20,3]]} unit="time" postText="/day" /></Pair>
@@ -501,40 +501,40 @@ const _occult_historian = {title: "Occult Historian", jsx: <><h2 id="arc-occulti
 </>};
 const _panoply_savant = {title: "Panoply Savant", jsx: <><h2 id="arc-occultist-panoply_savant-panoply-savant">Panoply Savant</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 28</Link><br/>Some occultists specialize in a particular panoply, fully dedicating themselves to mastering the secrets of the psychic resonance of each of its component implements, as well as the way they interact with one another.</p>
-<Ability id="arc-occultist-panoply_savant-panoply-specialization" icon={["broken-shield"]}>
-<Pair single id="arc-occultist-panoply_savant-panoply-specialization">Panoply Specialization</Pair>
+<Ability id="panoply-specialization" icon={["broken-shield"]}>
+<Pair single id="panoply-specialization">Panoply Specialization</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">The panoply savant must choose (but doesn't learn how to use) a single <Link to="/ability/implements">panoply</Link>. When learning new implement schools, he must choose either schools associated with his chosen panoply or the chosen panoply itself. Once he has learned to use the chosen panoply, he can learn any further implement schools freely.</Pair>
 </Ability>
-<Ability id="arc-occultist-panoply_savant-panoply-focus-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-panoply_savant-panoply-focus-su">Panoply Focus (Su)</Pair>
+<Ability id="panoply-focus-su" icon={["upgrade"]}>
+<Pair single id="panoply-focus-su">Panoply Focus (Su)</Pair>
 <Pair hl title="Replaces">Shift focus</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A panoply savant gains additional points of mental focus each day, which can be invested only in implements associated with his chosen panoply. The amount of additional points is equal to <Link to="/misc/one_fourth">one-fourth</Link> of his occultist level.</Pair>
 </Ability>
-<Ability id="arc-occultist-panoply_savant-implement-specialist-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-panoply_savant-implement-specialist-su" flavor="A panoply savant learns to use his mastery over the implements in his chosen panoply to unlock greater power from magic items associated with that panoply.">Implement Specialist (Su)</Pair>
+<Ability id="implement-specialist-su" icon={["upgrade"]}>
+<Pair single id="implement-specialist-su" flavor="A panoply savant learns to use his mastery over the implements in his chosen panoply to unlock greater power from magic items associated with that panoply.">Implement Specialist (Su)</Pair>
 <Pair hl title="Replaces">Outside contact</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">3 + Intelligence modifier times/day</Pair>
 <Pair title="Ability">When he uses a magic item that matches one of his chosen panoply's associated implements (crystal balls, robes, and wands for the <Link to="/implement/mages_paraphernalia">mage's paraphernalia</Link>, for instance) and produces a spell effect, he can have the item use his caster level instead of its own. If the magic item doesn't produce a spell effect, the panoply savant can use his caster level against attempts to <Link to="/spell/dispel">dispel</Link> that item.</Pair>
 <Pair title="Special">Additionally, if the item has any abilities that can be used at least three times per day or has three or more daily charges, the panoply savant can spend 1 minute quietly meditating on the item and expend 2 points of mental focus to restore one daily use or one charge to the item.</Pair>
 </Ability>
-<Ability id="arc-occultist-panoply_savant-panoptic-harmony-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-panoply_savant-panoptic-harmony-su" flavor="A panoply savant can empower his abilities by harnessing the harmonic resonance between his chosen panoply's associated implements.">Panoptic Harmony (Su)</Pair>
+<Ability id="panoptic-harmony-su" icon={["upgrade"]}>
+<Pair single id="panoptic-harmony-su" flavor="A panoply savant can empower his abilities by harnessing the harmonic resonance between his chosen panoply's associated implements.">Panoptic Harmony (Su)</Pair>
 <Pair hl title="Replaces">Magic circles</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">Whenever he casts a spell or uses a focus power with one of his chosen panoply's associated implements, he treats it as though his caster level were 2 higher than it actually is, but only if on his previous turn, he cast a spell with or used a focus power from a different one of his chosen panoply's associated implements.</Pair>
 </Ability>
-<Ability id="arc-occultist-panoply_savant-panoptic-call-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-panoply_savant-panoptic-call-su" flavor="A panoply savant's mastery over his chosen panoply's associated implements is so strong that he can call similar items to him.">Panoptic Call (Su)</Pair>
+<Ability id="panoptic-call-su" icon={["magic-swirl"]}>
+<Pair single id="panoptic-call-su" flavor="A panoply savant's mastery over his chosen panoply's associated implements is so strong that he can call similar items to him.">Panoptic Call (Su)</Pair>
 <Pair hl title="Replaces">Binding circles</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Standard Action">By expending 1 point of mental focus from any of his chosen panoply's associated implements, he can cause a single item he can currently see that matches one of his chosen panoply's associated implements (such as a weapon or shield for the <Link to="/implement/trappings_of_the_warrior">trappings of the warrior</Link>) to fly through the air toward him at a rate of 30 feet per round, landing in his outstretched hand. If the item is unattended, the panoply savant automatically succeeds, but if it is held or worn, he must attempt a special <Link to="/rule/disarm">disarm</Link> or <Link to="/rule/steal">steal</Link> combat maneuver check, using his occultist level as his base attack bonus and his Intelligence modifier in place of his Strength modifier.</Pair>
 <Pair title="Special">If the item in question is an implement he currently has 1 or more points of focus invested in, he gains a bonus on this combat maneuver check equal to twice the amount of focus currently invested in it.</Pair>
 </Ability>
-<Ability id="arc-occultist-panoply_savant-combined-powers-su" icon={["stairs-goal"]}>
-<Pair single id="arc-occultist-panoply_savant-combined-powers-su">Combined Powers (Su)</Pair>
+<Ability id="combined-powers-su" icon={["stairs-goal"]}>
+<Pair single id="combined-powers-su">Combined Powers (Su)</Pair>
 <Pair hl title="Replaces">Fast circles</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Ability">Whenever a panoply savant uses a focus power from one of his chosen panoply's associated implements, he can expend 2 additional points of mental focus to also use a focus power from one of his chosen panoply's other associated implements as part of the same action. The second focus power must take the same amount of time or less to activate than the first focus power, and the panoply savant must expend the normal mental focus cost to use the second focus power.</Pair>
@@ -542,8 +542,8 @@ const _panoply_savant = {title: "Panoply Savant", jsx: <><h2 id="arc-occultist-p
 </>};
 const _planar_harmonizer = {title: "Planar Harmonizer", jsx: <><h2 id="arc-occultist-planar_harmonizer-planar-harmonizer">Planar Harmonizer</h2>
 <p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook pg. 7</Link><br/>Tuning forks resonate with the music of the planes, guiding travelers between worlds. Planar harmonizers are masters of this symphony, forging bonds with tuning forks to unlock the true potential of these instruments. Planar harmonizers typically select their tuning forks carefully, choosing planes that resonate best with particular schools of magic.</p>
-<Ability id="arc-occultist-planar_harmonizer-conductor-su" icon={["broken-shield","spell-book","upgrade"]}>
-<Pair single id="arc-occultist-planar_harmonizer-conductor-su">Conductor (Su)</Pair>
+<Ability id="conductor-su" icon={["broken-shield","spell-book","upgrade"]}>
+<Pair single id="conductor-su">Conductor (Su)</Pair>
 <Pair hl title="Alters">Implements, implement mastery</Pair>
 <Pair title="Info">A planar harmonizer gains access to only the <Link to="/implement/conjuration">conjuration</Link> school of implements, gaining a <Link to="/rule/common_tuning_fork">common tuning fork</Link> as her implement. She must select conjuration for her <em>implement mastery.</em></Pair>
 <Pair title="Ability">Each time she gains an occultist level, a planar harmonizer can add one conjuration spell from the <Link to="/main/wizard_spell">wizard spell list</Link> to her occultist spell list and her list of spells known. The planar harmonizer can't choose a spell of a higher level than she is able to cast, and she adds the spell at the same spell level it appears on the wizard spell list.</Pair>
@@ -551,21 +551,21 @@ const _planar_harmonizer = {title: "Planar Harmonizer", jsx: <><h2 id="arc-occul
 <Pair title="At 14th Level">She doesn't gain an additional school of implements. Instead, the DCs of saving throws to resist a planar harmonizer's conjuration spells and conjuration focus powers increase by 2.</Pair>
 <Pair title="Special">All future implements that a planar harmonizer gains are common tuning forks.</Pair>
 </Ability>
-<Ability id="arc-occultist-planar_harmonizer-planar-scholar-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-planar_harmonizer-planar-scholar-su" flavor="A planar harmonizer deepens her knowledge about other worlds.">Planar Scholar (Su)</Pair>
+<Ability id="planar-scholar-su" icon={["upgrade"]}>
+<Pair single id="planar-scholar-su" flavor="A planar harmonizer deepens her knowledge about other worlds.">Planar Scholar (Su)</Pair>
 <Pair hl title="Replaces">Magic item skill</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">She gains a bonus on Knowledge (planes) checks equal to half her occultist level.</Pair>
 </Ability>
-<Ability id="arc-occultist-planar_harmonizer-harmonic-shield-su" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="arc-occultist-planar_harmonizer-harmonic-shield-su" flavor="A planar harmonizer learns to cloak herself in the essence of her home plane.">Harmonic Shield (Su)</Pair>
+<Ability id="harmonic-shield-su" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="harmonic-shield-su" flavor="A planar harmonizer learns to cloak herself in the essence of her home plane.">Harmonic Shield (Su)</Pair>
 <Pair hl title="Replaces">Shift focus, 7th-level focus power</Pair>
 <Pair title="At 4th Level">She doesn't take penalties on Intelligence-, Wisdom-, or Charisma-based checks for being on a plane whose alignment traits clash with her own alignment.</Pair>
 <Pair title="At 7th Level">She can expend 1 point of mental focus to gain the benefits of <Link to="/spell/planar_adaptation">planar adaptation</Link> for 1 minute per occultist level.</Pair>
 <Pair title="At 11th Level">The duration of this protection extends to 1 hour per occultist level.</Pair>
 </Ability>
-<Ability id="arc-occultist-planar_harmonizer-outside-messenger-su" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="arc-occultist-planar_harmonizer-outside-messenger-su">Outside Messenger (Su)</Pair>
+<Ability id="outside-messenger-su" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="outside-messenger-su">Outside Messenger (Su)</Pair>
 <Pair hl title="Replaces">Aura sight, 5th-level focus power</Pair>
 <Pair hl title="Alters">Magic circles</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -574,72 +574,72 @@ const _planar_harmonizer = {title: "Planar Harmonizer", jsx: <><h2 id="arc-occul
 </>};
 const _psychodermist = {title: "Psychodermist", jsx: <><h2 id="arc-occultist-psychodermist-psychodermist">Psychodermist</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 25</Link><br/>Rather than tapping the psychic energy residing within esoteric items, psychodermists form supernatural bonds with trophies taken from creatures they have slain. Through these mementos, these occultists manifest not only their own magic, but also the unique powers of their fallen foes.</p>
-<Ability icon={["skills"]} id="arc-occultist-psychodermist-undefined">
-<Pair id="arc-occultist-psychodermist-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Disable Device, Knowledge (engineering), Knowledge (history), Sleight of Hand</Pair></Ability>
-<Ability id="arc-occultist-psychodermist-trophies-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-occultist-psychodermist-trophies-su" flavor="A psychodermist learns how to siphon power from pieces of creatures he has slain.">Trophies (Su)</Pair>
+<Ability id="trophies-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="trophies-su" flavor="A psychodermist learns how to siphon power from pieces of creatures he has slain.">Trophies (Su)</Pair>
 <Pair hl title="Alters">Implements</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">The psychodermist gains <Link to="/feat/harvest_parts">Harvest Parts</Link> as a bonus feat, and he can select one monster part per implement school he knows to become a permanently preserved trophy so long as it remains in his possession. Each trophy functions as the psychodermist's implement for its associated implement school. A trophy that fits multiple implement categories, such as a hand with clawed fingers, can function for only one implement school at a time.</Pair>
 <Pair title="Info">A trophy can be integrated into another item, such as an ornament or a magic item, but otherwise does not take up a magic item slot, even when worn. A psychodermist can replace trophies with new ones harvested from slain foes, although doing so causes the old trophies to rot at their normal rate. In order to craft a trophy, the psychodermist must have been present during the creature's death.</Pair>
 <Pair title="Special">Psychodermists use the following monster parts for each implement school.</Pair>
 </Ability>
-<Ability id="arc-occultist-psychodermist-abjuration" extraClasses="subAbility" icon={["info"]}>
-<Pair single id="arc-occultist-psychodermist-abjuration">Abjuration</Pair>
+<Ability id="abjuration" extraClasses="subAbility" icon={["info"]}>
+<Pair single id="abjuration">Abjuration</Pair>
 <Pair title="Info">Chitin, hides, scales, and other natural armor.</Pair>
 </Ability>
-<Ability id="arc-occultist-psychodermist-conjuration" extraClasses="subAbility" icon={["info"]}>
-<Pair single id="arc-occultist-psychodermist-conjuration">Conjuration</Pair>
+<Ability id="conjuration" extraClasses="subAbility" icon={["info"]}>
+<Pair single id="conjuration">Conjuration</Pair>
 <Pair title="Info">Gizzards, glands, hearts, livers, and other internal organs.</Pair>
 </Ability>
-<Ability id="arc-occultist-psychodermist-divination" extraClasses="subAbility" icon={["info"]}>
-<Pair single id="arc-occultist-psychodermist-divination">Divination</Pair>
+<Ability id="divination" extraClasses="subAbility" icon={["info"]}>
+<Pair single id="divination">Divination</Pair>
 <Pair title="Info">Ears, eyes, tongues, and other sensory organs.</Pair>
 </Ability>
-<Ability id="arc-occultist-psychodermist-enchantment" extraClasses="subAbility" icon={["info"]}>
-<Pair single id="arc-occultist-psychodermist-enchantment">Enchantment</Pair>
+<Ability id="enchantment" extraClasses="subAbility" icon={["info"]}>
+<Pair single id="enchantment">Enchantment</Pair>
 <Pair title="Info">Feathers, fur, hair, spines, and other decorative features.</Pair>
 </Ability>
-<Ability id="arc-occultist-psychodermist-evocation" extraClasses="subAbility" icon={["info"]}>
-<Pair single id="arc-occultist-psychodermist-evocation">Evocation</Pair>
+<Ability id="evocation" extraClasses="subAbility" icon={["info"]}>
+<Pair single id="evocation">Evocation</Pair>
 <Pair title="Info">Claws, fangs, horns, and other natural weapons.</Pair>
 </Ability>
-<Ability id="arc-occultist-psychodermist-illusion" extraClasses="subAbility" icon={["info"]}>
-<Pair single id="arc-occultist-psychodermist-illusion">Illusion</Pair>
+<Ability id="illusion" extraClasses="subAbility" icon={["info"]}>
+<Pair single id="illusion">Illusion</Pair>
 <Pair title="Info">Fingers, tendrils, toes, and other prehensile digits.</Pair>
 </Ability>
-<Ability id="arc-occultist-psychodermist-necromancy" extraClasses="subAbility" icon={["info"]}>
-<Pair single id="arc-occultist-psychodermist-necromancy">Necromancy</Pair>
+<Ability id="necromancy" extraClasses="subAbility" icon={["info"]}>
+<Pair single id="necromancy">Necromancy</Pair>
 <Pair title="Info">Bones, bile, and life-sustaining fluids, such as blood.</Pair>
 </Ability>
-<Ability id="arc-occultist-psychodermist-transmutation" extraClasses="subAbility" icon={["info"]}>
-<Pair single id="arc-occultist-psychodermist-transmutation">Transmutation</Pair>
+<Ability id="transmutation" extraClasses="subAbility" icon={["info"]}>
+<Pair single id="transmutation">Transmutation</Pair>
 <Pair title="Info">Feet, hands, paws, wings, and other appendages tied to locomotion.</Pair>
 </Ability>
-<Ability id="arc-occultist-psychodermist-monster-hunting-lore-ex" icon={["upgrade"]}>
-<Pair single id="arc-occultist-psychodermist-monster-hunting-lore-ex">Monster Hunting Lore (Ex)</Pair>
+<Ability id="monster-hunting-lore-ex" icon={["upgrade"]}>
+<Pair single id="monster-hunting-lore-ex">Monster Hunting Lore (Ex)</Pair>
 <Pair hl title="Replaces">Magic item skill</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A psychodermist gains a bonus equal to half his occultist level on skill checks made to craft trophies and Knowledge checks made to identify the abilities and weaknesses of creatures.</Pair>
 </Ability>
-<Ability id="arc-occultist-psychodermist-discern-death-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-psychodermist-discern-death-su">Discern Death (Su)</Pair>
+<Ability id="discern-death-su" icon={["magic-swirl"]}>
+<Pair single id="discern-death-su">Discern Death (Su)</Pair>
 <Pair hl title="Replaces">Object reading</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 time/day + 1 per three occultist levels beyond 2nd<ByLevelPop levels={[[2,1],[5,2],[8,3],[11,4],[14,5],[17,6],[20,7]]} unit="time" postText="/day" /></Pair>
 <Pair title="Full-Round Action">A psychodermist can glean information from a creature's corpse. The psychodermist must study at least one drop of the creature's blood, a small portion of its flesh, or a fragment of one of its bones as a part of this action. This ability otherwise functions as <Link to="/spell/blood_biography">blood biography</Link>, using the psychodermist's occultist level as his caster level.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 </Ability>
-<Ability id="arc-occultist-psychodermist-seek-prey-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-psychodermist-seek-prey-su">Seek Prey (Su)</Pair>
+<Ability id="seek-prey-su" icon={["magic-swirl"]}>
+<Pair single id="seek-prey-su">Seek Prey (Su)</Pair>
 <Pair hl title="Replaces">Aura sight</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Standard Action">A psychodermist can supernaturally detect creatures around him. This functions as the spell <Link to="/spell/aura_sight">aura sight</Link>, except the duration is 1 round and the psychodermist learns the locations and power of all auras of a specific creature type, similar to <Link to="/spell/detect_undead">detect undead</Link> except the psychodermist can choose any creature type represented among the trophies he has selected for that day.</Pair>
 </Ability>
-<Ability id="arc-occultist-psychodermist-residual-hatred-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-psychodermist-residual-hatred-su" flavor="A psychodermist can tap into the psychic death throes of the monsters his trophies are derived from, increasing his efficiency at slaying similar beasts.">Residual Hatred (Su)</Pair>
+<Ability id="residual-hatred-su" icon={["upgrade"]}>
+<Pair single id="residual-hatred-su" flavor="A psychodermist can tap into the psychic death throes of the monsters his trophies are derived from, increasing his efficiency at slaying similar beasts.">Residual Hatred (Su)</Pair>
 <Pair hl title="Replaces">Outside contact</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">The psychodermist can spend mental focus invested in a trophy to gain the ranger's <Link to="/ability/favored_enemy">favored enemy</Link> class feature against the kind of creature from which the trophy was crafted. The favored enemy bonus is +2, and it applies against the specific creature variety, not the creature type; a psychodermist could use a red dragon scale trophy to gain favored enemy (red dragon), but not favored enemy (dragon).</Pair>
@@ -648,8 +648,8 @@ const _psychodermist = {title: "Psychodermist", jsx: <><h2 id="arc-occultist-psy
 <Pair title="At 20th Level">The maximum bonus increases to +4.</Pair>
 <Pair title="Special">This benefit lasts until the psychodermist regains his mental focus.</Pair>
 </Ability>
-<Ability id="arc-occultist-psychodermist-manifest-abilities-su" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="arc-occultist-psychodermist-manifest-abilities-su" flavor="A psychodermist can use the latent energy within his trophies to replicate his victims' special abilities.">Manifest Abilities (Su)</Pair>
+<Ability id="manifest-abilities-su" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="manifest-abilities-su" flavor="A psychodermist can use the latent energy within his trophies to replicate his victims' special abilities.">Manifest Abilities (Su)</Pair>
 <Pair hl title="Replaces">Binding circles, fast circles</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Standard Action">He can spend 1 point of mental focus invested in a trophy to gain one of that creature's special abilities that could be granted by the spell <Link to="/spell/monstrous_physique_iii">monstrous physique III</Link>.</Pair>
@@ -661,81 +661,81 @@ const _psychodermist = {title: "Psychodermist", jsx: <><h2 id="arc-occultist-psy
 </>};
 const _reliquarian = {title: "Reliquarian", jsx: <><h2 id="arc-occultist-reliquarian-reliquarian">Reliquarian</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 14</Link><br/>Not all occultists derive their power from psychic impressions left on objects. Some find faith first, and draw out the divine potential in religious relics. Many see these religious scholars as eccentrics or heretics who pilfer holy magic with their bizarre rituals.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-occultist-reliquarian--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must worship a deity, and must be within one step of her deity's alignment, along either the law/chaos axis or the good/evil axis.</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-occultist-reliquarian-faithful" icon={["stairs-goal"]}>
-<Pair single id="arc-occultist-reliquarian-faithful">Faithful</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-occultist-reliquarian--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must worship a deity, and must be within one step of her deity's alignment, along either the law/chaos axis or the good/evil axis.</td></tr></tbody></table></ScrollContainer></div><Ability id="faithful" icon={["stairs-goal"]}>
+<Pair single id="faithful">Faithful</Pair>
 <Pair title="Info">A reliquarian is proficient with her deity's favored weapon in addition to her normal weapon and armor proficiencies.</Pair>
 </Ability>
-<Ability id="arc-occultist-reliquarian-spells" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-reliquarian-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}>
+<Pair single id="spells">Spells</Pair>
 <Pair hl title="Alters">Spells</Pair>
 <Pair title="Info">A reliquarian's spells are considered divine spells, not psychic spells. The reliquarian's spells use verbal components instead of thought components, and somatic components instead of emotional components, and she uses a <em>sacred implement</em> (see below) as a divine focus.</Pair>
 </Ability>
-<Ability id="arc-occultist-reliquarian-domain" icon={["magic-swirl","spell-book"]}>
-<Pair single id="arc-occultist-reliquarian-domain">Domain</Pair>
+<Ability id="domain" icon={["magic-swirl","spell-book"]}>
+<Pair single id="domain">Domain</Pair>
 <Pair title="Ability">A reliquarian gains access to one of her deity's <Link to="/ability/domains">domains</Link>. She treats her occultist level as her cleric level for the purposes of access to domain powers and their strength. Additionally, the reliquarian adds the domain's spells to her occultist spell list and her spells known.</Pair>
 </Ability>
-<Ability id="arc-occultist-reliquarian-diminished-focus-power-su" icon={["broken-shield"]}>
-<Pair single id="arc-occultist-reliquarian-diminished-focus-power-su">Diminished Focus Power (Su)</Pair>
+<Ability id="diminished-focus-power-su" icon={["broken-shield"]}>
+<Pair single id="diminished-focus-power-su">Diminished Focus Power (Su)</Pair>
 <Pair hl title="Alters">Focus powers</Pair>
 <Pair title="Info">A reliquarian learns only the base focus power from one implement school at 1st level. She gains additional focus powers as normal.</Pair>
 </Ability>
-<Ability id="arc-occultist-reliquarian-sacred-implements-su" icon={["magic-swirl","hazard-sign"]}>
-<Pair single id="arc-occultist-reliquarian-sacred-implements-su">Sacred Implements (Su)</Pair>
+<Ability id="sacred-implements-su" icon={["magic-swirl","hazard-sign"]}>
+<Pair single id="sacred-implements-su">Sacred Implements (Su)</Pair>
 <Pair hl title="Alters">Implements</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A reliquarian gains one implement school. Additionally, the reliquarian gains a relic of her god, typically a holy symbol of significant age, a fixture from a lost temple, or bone or hair from a prominent historical figure of the religion. This grants the reliquarian access to one of her deity's domains, as detailed above. Without this implement, the reliquarian cannot use her <em>domain</em> powers and must succeed at a <Link to="/rule/concentration">concentration</Link> check to cast spells from her <em>domain.</em></Pair>
 <Pair title="Special">All of a reliquarian's future implements must be somehow representative of her faith.</Pair>
 </Ability>
-<Ability id="arc-occultist-reliquarian-orisons" icon={["spell-book"]}>
-<Pair single id="arc-occultist-reliquarian-orisons">Orisons</Pair>
+<Ability id="orisons" icon={["spell-book"]}>
+<Pair single id="orisons">Orisons</Pair>
 <Pair hl title="Replaces">Knacks</Pair>
 <Pair title="Ability">A reliquarian gains one orison, or 0-level divine spell, each time she selects an implement school (including when she again selects a school that she has already learned to use.) These orisons otherwise behave as an occultist's knacks.</Pair>
 </Ability>
-<Ability id="arc-occultist-reliquarian-divine-focus-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-reliquarian-divine-focus-su">Divine Focus (Su)</Pair>
+<Ability id="divine-focus-su" icon={["upgrade"]}>
+<Pair single id="divine-focus-su">Divine Focus (Su)</Pair>
 <Pair hl title="Alters">Mental focus</Pair>
 <Pair title="Info">A reliquarian uses her Wisdom modifier, rather than her Intelligence modifier, to determine the amount of mental focus available to her each day.</Pair>
 </Ability>
 </>};
 const _secret_broker = {title: "Secret Broker", jsx: <><h2 id="arc-occultist-secret_broker-secret-broker">Secret Broker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 68</Link><br/>Whether as spymasters, extortionists, political fixers, or puppet masters, secret brokers use their talents with objects to gain information, then leverage that information for their own purposes.</p>
-<Ability icon={["skills"]} id="arc-occultist-secret_broker-undefined">
-<Pair id="arc-occultist-secret_broker-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair></Ability>
-<Ability id="arc-occultist-secret_broker-knowledge-is-power" icon={["broken-shield","info","upgrade"]}>
-<Pair single id="arc-occultist-secret_broker-knowledge-is-power">Knowledge Is Power</Pair>
+<Ability id="knowledge-is-power" icon={["broken-shield","info","upgrade"]}>
+<Pair single id="knowledge-is-power">Knowledge Is Power</Pair>
 <Pair hl title="Alters">Implements, implement mastery</Pair>
 <Pair title="Info">The secret broker starts play possessing a single <Link to="/implement/divination">divination</Link> implement, typically a ledger of secrets. She gains new implements as normal at 2nd level and every 4 levels thereafter, and they can be of any school.</Pair>
 <Pair title="Ability">A secret broker's <em>third eye</em> resonant power grants an insight bonus on Profession and Sense Motive checks equal to the bonus it grants on Perception checks, and an insight bonus on all Knowledge checks equal to half that bonus.</Pair>
 <Pair title="Special">She must select divination with <em>implement mastery.</em></Pair>
 </Ability>
-<Ability id="arc-occultist-secret_broker-broker-secrets-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-secret_broker-broker-secrets-su">Broker Secrets (Su)</Pair>
+<Ability id="broker-secrets-su" icon={["magic-swirl"]}>
+<Pair single id="broker-secrets-su">Broker Secrets (Su)</Pair>
 <Pair hl title="Replaces">Magic item skill</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A secret broker can trade her secrets to another. For the purpose of this ability, an object's secret is composed of pieces of information gained from a single object through <em>object reading, object seer, psychometry,</em> or <em>read object</em> that the occultist didn't otherwise know and hasn't shared with another, written somewhere, or otherwise recorded or found a way to recover should she forget them and lose possession of the object. The secret broker can willingly use this ability in tandem with handing the object over to another creature in order to transfer the object's secret to that creature. The secret broker forgets the object's secret and the creature instantly learns the object's secret.</Pair>
 <Pair title="Special">The secret broker can also destroy an object to remove his memory of the object's secret without transferring it to another. In either case, any onlookers who understand what the secret broker is doing, and the recipient in the case of a transfer, can intrinsically tell that the secret broker has used this ability rather than simply sharing the memory through other means or destroying the object but keeping its secret.</Pair>
 </Ability>
-<Ability id="arc-occultist-secret_broker-share-memory-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-secret_broker-share-memory-sp">Share Memory (Sp)</Pair>
+<Ability id="share-memory-sp" icon={["magic-swirl"]}>
+<Pair single id="share-memory-sp">Share Memory (Sp)</Pair>
 <Pair hl title="Replaces">Shift focus</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A secret broker learns to use her knowledge transference powers more flexibly, allowing her to use <Link to="/spell/share_memory">share memory</Link> at will, but only with willing targets.</Pair>
 </Ability>
-<Ability id="arc-occultist-secret_broker-steal-secret-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-secret_broker-steal-secret-sp">Steal Secret (Sp)</Pair>
+<Ability id="steal-secret-sp" icon={["magic-swirl"]}>
+<Pair single id="steal-secret-sp">Steal Secret (Sp)</Pair>
 <Pair hl title="Replaces">Magic circles</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">A secret broker learns how to steal a secret from an unwilling target. This works as her <em>share memory</em> ability, except it allows her to access memories from unwilling targets. A target that succeeds at its saving throw against a secret broker's <em>steal secret</em> ability is forever after immune to that secret broker's <em>steal secret</em> ability.</Pair>
 </Ability>
-<Ability id="arc-occultist-secret_broker-erase-secret-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-secret_broker-erase-secret-sp">Erase Secret (Sp)</Pair>
+<Ability id="erase-secret-sp" icon={["magic-swirl"]}>
+<Pair single id="erase-secret-sp">Erase Secret (Sp)</Pair>
 <Pair hl title="Replaces">Binding circles</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">A secret broker can expend 1 point of mental focus from her divination implement in order to erase a fact from someone's mind by touch. This works similarly to <Link to="/spell/modify_memory">modify memory</Link> to erase the memory of an event, except the effect is instantaneous and leaves no magical trace (it can still be removed by <Link to="/spell/break_enchantment">break enchantment</Link>, <Link to="/spell/psychic_surgery">psychic surgery</Link>, <Link to="/spell/limited_wish">limited wish</Link>, <Link to="/spell/miracle">miracle</Link>, or <Link to="/spell/wish">wish</Link>) and the secret broker can remove only one fact, such as "The queen and the general are having an affair" rather than a 5-minute event. Erasing the memory of a fact does not prevent the target from learning the fact again, or even potentially from deducing the fact again from evidence, given time.</Pair>
 </Ability>
-<Ability id="arc-occultist-secret_broker-purge-secret-sp" icon={["upgrade"]}>
-<Pair single id="arc-occultist-secret_broker-purge-secret-sp">Purge Secret (Sp)</Pair>
+<Ability id="purge-secret-sp" icon={["upgrade"]}>
+<Pair single id="purge-secret-sp">Purge Secret (Sp)</Pair>
 <Pair hl title="Replaces">Fast circles</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Ability">A secret broker can expend 3 points of mental focus from her divination implement to apply her <em>erase secret</em> ability to up to one creature per level within 30 feet of her.</Pair>
@@ -757,8 +757,8 @@ const _shair = {title: "Sha'ir", jsx: <><h2 id="arc-occultist-shair-shair">Sha'i
 <Pair title="At 20th Level">A sha'ir selects one of her jin and chooses one of its two schools instead of selecting an implement for <em>implement mastery.</em></Pair>
 <Pair title="Special">If one of her jin is slain, the sha'ir is treated as if she didn't have the appropriate implement to cast the spells associated with that jin. The sha'ir can replace the slain jin the following morning by expending 1 point of mental focus in a special ritual that takes 1 hour to perform.</Pair>
 </Ability>
-<Ability id="arc-occultist-shair-augment-jin-sp-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-shair-augment-jin-sp-su">Augment Jin (Sp, Su)</Pair>
+<Ability id="augment-jin-sp-su" icon={["upgrade"]}>
+<Pair single id="augment-jin-sp-su">Augment Jin (Sp, Su)</Pair>
 <Pair hl title="Replaces">Magic item skill, object reading</Pair>
 <Pair title="At 2nd Level">A sha'ir's jin uses its master's base saving throws if they are better than its own, and it uses either its own hit point total or 1/2 its master's hit points, whichever is higher.</Pair>
 <Pair title="At 4th Level">A sha'ir can concentrate for 1 full round and expend 1 point of mental focus stored in a jin to grant that jin all the statistics of a Small elemental of its type for 1 round per occultist level (this includes gaining any of the following abilities, if applicable: <em>air mastery, burn, drench, earth glide, earth mastery, vortex, water mastery,</em> and <em>whirlwind</em>).</Pair>
@@ -768,15 +768,15 @@ const _shair = {title: "Sha'ir", jsx: <><h2 id="arc-occultist-shair-shair">Sha'i
 <Pair title="At 14th Level">The cost of giving a jin the statistics of a Huge elemental decreases to 1 point of mental focus and the sha'ir can give a jin the statistics of a greater elemental for 2 points of mental focus.</Pair>
 <Pair title="At 16th Level">The sha'ir can give a jin the statistics of an elder elemental for 3 points of mental focus.</Pair>
 </Ability>
-<Ability id="arc-occultist-shair-manifest-jin-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-shair-manifest-jin-su">Manifest Jin (Su)</Pair>
+<Ability id="manifest-jin-su" icon={["upgrade"]}>
+<Pair single id="manifest-jin-su">Manifest Jin (Su)</Pair>
 <Pair hl title="Replaces">Aura sight</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">The sha'ir can designate one of her jin and manifest its powers, allowing it to count as a Small elemental at all times, as if using <em>augment jin</em> to augment it to a Small elemental but with a permanent duration.</Pair>
 <Pair title="Special">By concentrating for 1 full round, she can change which of her jin she manifests in this way.</Pair>
 </Ability>
-<Ability id="arc-occultist-shair-jin-spy-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-shair-jin-spy-su">Jin Spy (Su)</Pair>
+<Ability id="jin-spy-su" icon={["magic-swirl"]}>
+<Pair single id="jin-spy-su">Jin Spy (Su)</Pair>
 <Pair hl title="Alters">Outside contact</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">When a sha'ir gains her <em>outside contact</em> ability, instead of learning the true names of outsiders, she can ask one or more of her jin to perform tasks. She chooses from the same tasks listed under <em>outside contact</em> (as appropriate to her occultist level). This doesn't require negotiation or gifts, but the jin is not available to the sha'ir during the time it spends performing these tasks.</Pair>
@@ -784,32 +784,32 @@ const _shair = {title: "Sha'ir", jsx: <><h2 id="arc-occultist-shair-shair">Sha'i
 </>};
 const _silksworn = {title: "Silksworn", jsx: <><h2 id="arc-occultist-silksworn-silksworn">Silksworn</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 29</Link><br/>Occultists who recognize that flashy garb and fashionable accoutrements can be just as powerful as psychically charged relics in the right situations are known as silksworn. They draw their power from wearing luxurious garments and can be found in many noble courts throughout Golarion, though they often keep their abilities secret. Silksworn are even found among the mystics and the magical practitioners of Nex, each seeking the patronage of one or more of the Arclords.</p>
-<Ability icon={["skills"]} id="arc-occultist-silksworn-undefined">
-<Pair id="arc-occultist-silksworn-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (engineering), Knowledge (planes)</Pair></Ability>
-<Ability id="arc-occultist-silksworn-spells" icon={["info"]}>
-<Pair single id="arc-occultist-silksworn-spells">Spells</Pair>
+<Ability id="spells" icon={["info"]}>
+<Pair single id="spells">Spells</Pair>
 <Pair hl title="Alters">Spells</Pair>
 <Pair title="Info">A silksworn's spells are considered arcane spells, not psychic spells, and his spells use verbal and somatic components instead of thought and emotion components.</Pair>
 </Ability>
-<Ability id="arc-occultist-silksworn-implements" icon={["info","hazard-sign"]}>
-<Pair single id="arc-occultist-silksworn-implements">Implements</Pair>
+<Ability id="implements" icon={["info","hazard-sign"]}>
+<Pair single id="implements">Implements</Pair>
 <Pair hl title="Alters">Implements</Pair>
 <Pair title="Info">When a silksworn chooses an implement school, he does not choose a specific object. Instead, a silksworn must be wearing an ostentatious garment or magic item worth 10 gp or more of the appropriate type and in the appropriate slot: abjuration (wrists), conjuration (shoulders), divination (eyes), enchantment (neck), evocation (hands), illusion (head), necromancy (chest), and transmutation (feet). A silksworn who does not meet this requirement is treated as lacking the appropriate implement for the purpose of his class features, including spellcasting.</Pair>
 </Ability>
-<Ability id="arc-occultist-silksworn-cantrips" icon={["spell-book"]}>
-<Pair single id="arc-occultist-silksworn-cantrips">Cantrips</Pair>
+<Ability id="cantrips" icon={["spell-book"]}>
+<Pair single id="cantrips">Cantrips</Pair>
 <Pair hl title="Replaces">Knacks</Pair>
 <Pair title="Ability">Each time he selects an implement school, a silksworn gains one cantrip, or 0-level arcane spell (including when he selects a school that he has already learned to use). These cantrips otherwise behave as an occultist's knacks.</Pair>
 </Ability>
-<Ability id="arc-occultist-silksworn-mental-focus-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-silksworn-mental-focus-su">Mental Focus (Su)</Pair>
+<Ability id="mental-focus-su" icon={["upgrade"]}>
+<Pair single id="mental-focus-su">Mental Focus (Su)</Pair>
 <Pair hl title="Alters">Mental focus</Pair>
 <Pair title="Passive Ability">The silksworn's available mental focus is equal to his occultist level + his Intelligence modifier + his Charisma modifier.</Pair>
 </Ability>
-<Ability id="arc-occultist-silksworn-devoted-mystic" icon={["broken-shield","upgrade"]}>
-<Pair single id="arc-occultist-silksworn-devoted-mystic">Devoted Mystic</Pair>
+<Ability id="devoted-mystic" icon={["broken-shield","upgrade"]}>
+<Pair single id="devoted-mystic">Devoted Mystic</Pair>
 <Pair hl title="Replaces">Outside contact</Pair>
 <Pair hl title="Alters">Implements, weapon and armor proficiencies</Pair>
 <Pair title="Info">A silksworn is proficient with only simple weapons and isn't proficient with any armor or shields.</Pair>
@@ -823,26 +823,26 @@ const _silksworn = {title: "Silksworn", jsx: <><h2 id="arc-occultist-silksworn-s
 <Pair title="At 16th Level">The silksworn increases the number of spells of each level he can cast each day by one.</Pair>
 <Pair title="At 18th Level">The silksworn gains access to his 9th implement school.</Pair>
 </Ability>
-<Ability id="arc-occultist-silksworn-silksworn-eloquence-ex" icon={["upgrade"]}>
-<Pair single id="arc-occultist-silksworn-silksworn-eloquence-ex">Silksworn Eloquence (Ex)</Pair>
+<Ability id="silksworn-eloquence-ex" icon={["upgrade"]}>
+<Pair single id="silksworn-eloquence-ex">Silksworn Eloquence (Ex)</Pair>
 <Pair hl title="Replaces">Magic circles</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">A silksworn gains a +1 bonus on Bluff and Diplomacy checks for each magical article of clothing occupying one of his implement schools' magic item slots.</Pair>
 </Ability>
-<Ability id="arc-occultist-silksworn-silksworn-deception-su" icon={["stairs-goal"]}>
-<Pair single id="arc-occultist-silksworn-silksworn-deception-su" flavor="A silksworn can hide his speech and gestures within his extravagant clothing.">Silksworn Deception (Su)</Pair>
+<Ability id="silksworn-deception-su" icon={["stairs-goal"]}>
+<Pair single id="silksworn-deception-su" flavor="A silksworn can hide his speech and gestures within his extravagant clothing.">Silksworn Deception (Su)</Pair>
 <Pair hl title="Replaces">Binding circles</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">Whenever the silksworn casts a spell, he can attempt a Bluff check opposed by Sense Motive checks from those observing him. Those who fail are unaware of his spellcasting, unless an effect obviously originates from the silksworn.</Pair>
 </Ability>
-<Ability id="arc-occultist-silksworn-silksworn-arcana-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-silksworn-silksworn-arcana-su">Silksworn Arcana (Su)</Pair>
+<Ability id="silksworn-arcana-su" icon={["upgrade"]}>
+<Pair single id="silksworn-arcana-su">Silksworn Arcana (Su)</Pair>
 <Pair hl title="Replaces">Fast circles</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Passive Ability">When a silksworn casts a spell while wearing a magic article of clothing in the appropriate school's magic item slot, the spell's saving throw DC increases by 2.</Pair>
 </Ability>
-<Ability id="arc-occultist-silksworn-implement-mastery-su" icon={["upgrade"]}>
-<Pair single id="arc-occultist-silksworn-implement-mastery-su">Implement Mastery (Su)</Pair>
+<Ability id="implement-mastery-su" icon={["upgrade"]}>
+<Pair single id="implement-mastery-su">Implement Mastery (Su)</Pair>
 <Pair hl title="Alters">Implement mastery</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">A silksworn chooses two implement schools instead of one, and <em>implement mastery's</em> effects apply to both. The silksworn gains 4 additional points of mental focus for each school's implement.</Pair>
@@ -850,14 +850,14 @@ const _silksworn = {title: "Silksworn", jsx: <><h2 id="arc-occultist-silksworn-s
 </>};
 const _talisman_crafter = {title: "Talisman Crafter", jsx: <><h2 id="arc-occultist-talisman_crafter-talisman-crafter">Talisman Crafter</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 63</Link><br/>Talisman crafters specialize in the creation of seals, constructing master talismans to use as implements and inscribing wards with esoteric geometry.</p>
-<Ability id="arc-occultist-talisman_crafter-talismanic-implements-su" icon={["info"]}>
-<Pair single id="arc-occultist-talisman_crafter-talismanic-implements-su">Talismanic Implements (Su)</Pair>
+<Ability id="talismanic-implements-su" icon={["info"]}>
+<Pair single id="talismanic-implements-su">Talismanic Implements (Su)</Pair>
 <Pair hl title="Alters">Implements</Pair>
 <Pair title="Ability">The talisman crafter doesn't gain normal implements; rather, after refreshing her mental focus, she spends 1 hour crafting a number of small master talismans out of cast metal, parchment, wax, or wood, inscribing them with esoteric seals and investing them with power to serve as her implements for casting occultist spells of the schools she knows. The talisman crafter selects schools as normal (two at 1st level and an additional one at 2nd level and every 4 occultist levels thereafter)</Pair>
 <Pair title="Special">She creates one master talisman for each implement school she knows, unless she selected that implement school multiple times, in which case she needs one master talisman per time she has selected that school. The talisman crafter splits her mental focus among the schools she knows and generic focus as normal.</Pair>
 </Ability>
-<Ability id="arc-occultist-talisman_crafter-spellbound-tailsman-su" icon={["magic-swirl","smoking-finger","magic-palm"]}>
-<Pair single id="arc-occultist-talisman_crafter-spellbound-tailsman-su">Spellbound Tailsman (Su)</Pair>
+<Ability id="spellbound-tailsman-su" icon={["magic-swirl","smoking-finger","magic-palm"]}>
+<Pair single id="spellbound-tailsman-su">Spellbound Tailsman (Su)</Pair>
 <Pair hl title="Replaces">Magic item skill, object reading</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A talisman crafter can inscribe <em>spellbound talismans</em> in addition to her master talismans, infusing small tokens she crafts with psychic spells she knows that normally affect one or more target creatures (but not spells that target the caster, spells that affect an area, spells that create effects, or other such spells). When the occultist infuses a talisman with one of her spells, she expends the spell slot just as if she had cast the spell and expends any material components necessary.</Pair>
@@ -866,15 +866,15 @@ const _talisman_crafter = {title: "Talisman Crafter", jsx: <><h2 id="arc-occulti
 <Pair title="Info">If an inscribed talisman's spell would normally target more than one creature, its DC increases by 2.</Pair>
 <Pair title="Special">Only a talisman crafter can activate her <em>spellbound talismans.</em> Once created, a <em>spellbound talisman</em> remains potent until the next time the talisman crafter regains spell slots before losing its magic. Inscribing a <em>spellbound talisman</em> in this manner takes 1 minute of work.</Pair>
 </Ability>
-<Ability id="arc-occultist-talisman_crafter-shared-talisman-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-talisman_crafter-shared-talisman-su">Shared Talisman (Su)</Pair>
+<Ability id="shared-talisman-su" icon={["magic-swirl"]}>
+<Pair single id="shared-talisman-su">Shared Talisman (Su)</Pair>
 <Pair hl title="Replaces">Shift focus</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A talisman crafter can expend 1 point of generic mental focus to create a <em>spellbound talisman</em> that anyone can activate. As long as the <em>spellbound talisman</em> exists, it continues to occupy one of the occultist's spell slots, but can be used by another creature to trigger its effects.</Pair>
 <Pair title="Special">Whoever triggers the effect, a <em>shared talisman</em> does not require thought or emotion components, and it doesn't provoke attacks of opportunity for casting a spell (though it still does so as normal if thrown).</Pair>
 </Ability>
-<Ability id="arc-occultist-talisman_crafter-warding-seal-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-talisman_crafter-warding-seal-su">Warding Seal (Su)</Pair>
+<Ability id="warding-seal-su" icon={["magic-swirl"]}>
+<Pair single id="warding-seal-su">Warding Seal (Su)</Pair>
 <Pair hl title="Replaces">Aura sight, 5th- and 17th-level focus powers</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A talisman crafter can inscribe a <em>warding seal,</em> infusing an inscribed glyph with psychic energy. Inscribing the seal follows the rules for drawing <em>magic circles,</em> takes 1 minute, and requires the occultist to expend 1 point of mental focus (either generic focus or focus from any one of her implements).</Pair>
@@ -884,8 +884,8 @@ const _talisman_crafter = {title: "Talisman Crafter", jsx: <><h2 id="arc-occulti
 </>};
 const _tome_eater = {title: "Tome Eater", jsx: <><h2 id="arc-occultist-tome_eater-tome-eater">Tome Eater</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 102</Link><br/>Tome eaters have learned how to tap into the latent psychic energy of the written word by physically devouring books and scrolls to create magical effects and gain mystical insights. They use their bonded tomes to gain access to all sorts of magic, and as they grow in power, they gain an innate sense of the books and writings around them.</p>
-<Ability id="arc-occultist-tome_eater-bonded-tome-su" icon={["magic-swirl","upgrade"]}>
-<Pair single id="arc-occultist-tome_eater-bonded-tome-su">Bonded Tome (Su)</Pair>
+<Ability id="bonded-tome-su" icon={["magic-swirl","upgrade"]}>
+<Pair single id="bonded-tome-su">Bonded Tome (Su)</Pair>
 <Pair hl title="Alters">Implements, mental focus, spellcasting, implement mastery</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Info">A tome eater forms a supernatural bond with a specific book. She can replace her bonded tome with another book at any time, though the tome eater must perform a 24-hour binding ritual to attune herself to the new book.</Pair>
@@ -893,8 +893,8 @@ const _tome_eater = {title: "Tome Eater", jsx: <><h2 id="arc-occultist-tome_eate
 <Pair title="Usage">1 time/day + 1 per five occultist levels beyond 1st<ByLevelPop levels={[[1,1],[6,2],[11,3],[16,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Special">The bonded tome starts as an implement for any two schools of magic at 1st level, and it gains access to additional schools of magic at 2nd, 10th, 14th, and 18th levels, granting the tome eater access to base focus powers and resonant powers accordingly. The tome eater's bonded tome serves as her implement component to cast occultist spells of all schools she knows. However, she must split her mental focus among the schools she knows for the purpose of determining resonant powers and using focus powers, even though she possesses only one physical item as an implement.</Pair>
 </Ability>
-<Ability id="arc-occultist-tome_eater-devour-books-and-scrolls-sp" icon={["magic-swirl","upgrade","armor-upgrade"]}>
-<Pair single id="arc-occultist-tome_eater-devour-books-and-scrolls-sp">Devour Books and Scrolls (Sp)</Pair>
+<Ability id="devour-books-and-scrolls-sp" icon={["magic-swirl","upgrade","armor-upgrade"]}>
+<Pair single id="devour-books-and-scrolls-sp">Devour Books and Scrolls (Sp)</Pair>
 <Pair hl title="Replaces">Shift focus, 6th-level implement, magic circles, outside contact, binding circles, fast circles</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Full-Round Action">A tome eater can devour books and scrolls in order to gain various benefits (described below). A devoured book or scroll is absorbed into the tome eater's body and completely destroyed.</Pair>
@@ -906,8 +906,8 @@ const _tome_eater = {title: "Tome Eater", jsx: <><h2 id="arc-occultist-tome_eate
 <Pair title="At 16th Level">The tome eater can use the spell-devouring ability as an <strong className="hl">immediate action</strong> without readying an action</Pair>
 <Pair title="Special">If a tome eater readies an action to devour a spell and the readied action never triggers, she doesn't expend a daily use of that ability.</Pair>
 </Ability>
-<Ability id="arc-occultist-tome_eater-word-sense-sp-su" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="arc-occultist-tome_eater-word-sense-sp-su">Word Sense (Sp, Su)</Pair>
+<Ability id="word-sense-sp-su" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="word-sense-sp-su">Word Sense (Sp, Su)</Pair>
 <Pair hl title="Replaces">Aura sight</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">A tome eater is constantly under the effect of <Link to="/spell/read_magic">read magic</Link>. Additionally, she can automatically detect the general topic of a piece of writing, and whether that writing is a magical scroll or tome, simply by looking at it.</Pair>

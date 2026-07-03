@@ -20,7 +20,7 @@ const parseGear = (input, converter) => {
 };
 
 
-export const makeMonsterStatisticsBlock = ({id, flags, marked2, convertEncodedInfo, maybeClear, attrs, logError}) => {
+export const makeMonsterStatisticsBlock = ({flags, marked2, convertEncodedInfo, maybeClear, attrs, logError}) => {
 	const {
 		str, dex, con, int, wis, cha,
 		bab, cmb, cmd,
@@ -276,7 +276,7 @@ export const makeMonsterStatisticsBlock = ({id, flags, marked2, convertEncodedIn
 	//
 	faith && output.push(`faith="${faith}"`);
 	return flag ?
-		`${maybeClear}<Stats id="${id}" ${output.join(" ")} />\n`
+		`${maybeClear}<Stats ${output.join(" ")} />\n`
 	: "<Header sub>Statistics</Header><p><em>Error.</em></p>\n";
 };
 

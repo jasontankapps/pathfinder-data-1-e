@@ -1,6 +1,6 @@
 import noteTags from "../noteTags.js";
 
-const makeMonsterInfoBlock = ({marked2, flags, parseSOURCE, convertEncodedInfo, maybeClear, attrs, id, text, logError}) => {
+const makeMonsterInfoBlock = ({marked2, flags, parseSOURCE, convertEncodedInfo, maybeClear, attrs, text, logError}) => {
 	const {
 		source, xp, al, lg, ln, le, ng, n, ne, cg, cn, ce,
 		fine, diminutive, tiny, small, medium, large, huge, gargantuan, colossal,
@@ -172,7 +172,7 @@ const makeMonsterInfoBlock = ({marked2, flags, parseSOURCE, convertEncodedInfo, 
 	// DONE
 	//
 	if(flag) {
-		return `${maybeClear}<Info id="${id}" ${output.join(" ")} />\n`;
+		return `${maybeClear}<Info ${output.join(" ")} />\n`;
 	}
 	return "<p><em>Error fetching basic info.</em></p>\n";
 };

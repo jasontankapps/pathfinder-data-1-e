@@ -1,7 +1,8 @@
-import {FC, ReactNode, Fragment as F} from 'react';
+import {FC, ReactNode, Fragment as F, useContext} from 'react';
 import Link from '../Link';
 import { convertTextToLink } from '../convertLinks';
 import mapNodes from '../mapNodes';
+import { IdContext } from '../contexts';
 
 type AtLeastOne<T, U = { [K in keyof T]: Pick<T, K> }> = Partial<T> & U[keyof U];
 interface Base {
@@ -99,7 +100,7 @@ const Source: FC<SourceProps> = ({id, source}) => {
 		}</p>
 	);
 };
-type InfoProps = SourceProps & DescBase & Subtypes & Senses & InfoBase;
+type InfoProps = Omit<SourceProps & DescBase & Subtypes & Senses & InfoBase, "id">;
 
 const getSubtypes = (props: Subtypes2): ReactNode | false => {
 	const { augment, subs, othersubs, id } = props;
@@ -261,8 +262,9 @@ const Info: FC<InfoProps> = (attrs) => {
 		sen, senSpell, dv, llv, keenScent, scent, thoughtsense, greensight, lifesense,
 			xray, aav, mistsight, sid, blindsight, blindsightParens,
 			blindsense, tremorsense, tremorParens, pcp,
-		aura, id, text
+		aura, text
 	} = attrs;
+	const cId = useContext(IdContext) + "-info";
 	const alignment = al || (
 		lg ? "LG" : (ln ? "LN" : (le ? "LE" : (
 			ng ? "NG" : (n ? "N" : (ne ? "NE" : (
@@ -283,13 +285,13 @@ const Info: FC<InfoProps> = (attrs) => {
 			)))
 		))))))
 	);
-	const parens = subtypes !== undefined ? subtypes : getSubtypes({subs, augment, othersubs, id});
+	const parens = subtypes !== undefined ? subtypes : getSubtypes({subs, augment, othersubs, id: cId});
 	const sensing = getSenses({sen, senSpell, dv, llv, keenScent, scent, thoughtsense, greensight, lifesense,
 			xray, aav, mistsight, sid, blindsight, blindsightParens, blindsense,
-			tremorsense, tremorParens, id});
+			tremorsense, tremorParens, id: cId});
 	return (
 		<>
-			<Source id={id} source={source} />
+			<Source id={cId} source={source} />
 			<p><strong>XP</strong> {xp}</p>
 			{text ? <p>{text}</p> : <></>}
 			<p>{alignment} {size} {

@@ -1,8 +1,7 @@
-import {IonIcon} from '@ionic/react';
 import Header from '../../components/Header';
-import Link, {ThLink} from '../../components/Link';
-import ScrollContainer from '../../components/ScrollContainer';
+import Link from '../../components/Link';
 import InnerLink from '../../components/InnerLink';
+import AffInfo from '../../components/AfflictionInfo';
 const _guildmaster = {title: "Guildmaster", jsx: <><Header full><span>Guildmaster</span><span>CR 12</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 152</Link><br/><strong>XP</strong> 19,200<br/>Dwarf <Link to="/class/rogue">rogue</Link> 13<br/>LE Medium humanoid (dwarf)<br/><strong>Init</strong> +4; <strong>Senses</strong> darkvision 60 ft.; Perception +18</p>
 <Header sub>Defense</Header>
@@ -683,7 +682,8 @@ const _duergar_strandrider = {title: "Duergar Strandrider", jsx: <><p><em>This s
 <Header sub>Statistics</Header>
 <p><strong>Str</strong> 15, <strong>Dex</strong> 16, <strong>Con</strong> 16, <strong>Int</strong> -, <strong>Wis</strong> 10, <strong>Cha</strong> 2<br/><strong>Base Atk</strong> +6; <strong>CMB</strong> +9; <strong>CMD</strong> 22 (34 vs. trip)<br/><strong>Feats</strong> <Link to="/feat/endurance">Endurance</Link><br/><strong>Tricks</strong> attack, come, defend, down, guard, heel<br/><strong>Skills</strong> Climb +8<br/><strong>SQ</strong> combat riding, devotion, extra attack<br/><strong>Gear</strong> <Link to="/eq-armor/chain_shirt">chain shirt</Link> <Link to="/eq-armor/barding">barding</Link></p>
 <Header sub>Special Abilities</Header>
-<div className="sideNoteWrap"><ScrollContainer id="npc-duergar_strandrider--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Poison (Ex)</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 17</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1 <Link to="/rule/str_damage">Str damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></blockquote>
+<AffInfo type="Bite-injury" save="Fort 17" freq="1/round for 4 rounds" eff={<>1 <Link to="/rule/str_damage">Str damage</Link></>} cure1 icon="p">Poison (Ex)</AffInfo>
+</blockquote>
 </>};
 const _gladiator_champion = {title: "Gladiator Champion", jsx: <><Header full><span>Gladiator Champion</span><span>CR 8</span></Header>
 <p><strong>Sources</strong> <Link to="/source/npc_codex">NPC Codex pg. 271</Link><br/><strong>XP</strong> 4,800<br/>Human <Link to="/npcclass/warrior">warrior</Link> 10<br/>NE Medium humanoid (human)<br/><strong>Init</strong> +3; <strong>Senses</strong> Perception +4</p>

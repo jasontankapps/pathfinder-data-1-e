@@ -1,6 +1,7 @@
 import { IonIcon } from '@ionic/react';
-import { FC, PropsWithChildren } from 'react';
+import { FC, PropsWithChildren, useContext } from 'react';
 import Link from './Link';
+import { IdContext } from './contexts';
 
 interface AbilityProps {
 	id: string
@@ -26,10 +27,11 @@ const Icon: FC<IconProps> = ({icon, id}) => {
 const Ability: FC<PropsWithChildren<AbilityProps>> = (props) => {
 	const {id, icon = [], extraClasses, children} = props;
 	const className = "ability p" + (extraClasses ? " " + extraClasses : "");
+	const cId = useContext(IdContext) + id;
 	return (
 		<div className={className}>
 			<div className="abIcon">
-				<Icon icon={icon} id={id} />
+				<Icon icon={icon} id={cId} />
 			</div>
 			{children}
 		</div>

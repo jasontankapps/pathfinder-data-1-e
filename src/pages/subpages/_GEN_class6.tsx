@@ -442,12 +442,12 @@ const _medium = {hasJL:true,title: "Medium", jsx: <><div className="jumpList" id
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={1}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<Ability id="class-medium-spells" icon={["magic-swirl"]}><Pair single id="class-medium-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Charisma score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Charisma score.</Pair>
 <Pair title="Ability">You gain the ability to cast psychic spells which are drawn from the <Link to="/main/spells_medium">medium spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You must choose and prepare your spells in advance.</Pair><Pair title="Info"><p>A medium's selection of spells is limited. You begin play knowing two 0-level spells of your choice. At each new medium level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Charisma score.</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="class-medium-knacks" icon={["magic-swirl"]}>
-<Pair single id="class-medium-knacks">Knacks</Pair>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="knacks" icon={["magic-swirl"]}>
+<Pair single id="knacks">Knacks</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of knacks, or 0-level psychic spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Knacks cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
@@ -466,20 +466,20 @@ const _medium = {hasJL:true,title: "Medium", jsx: <><div className="jumpList" id
 <Pair title="At 17th Level">You also gain its supreme spirit power.</Pair>
 <Pair title="Special">After 24 hours, you lose contact with the channeled spirit and can perform another seance.</Pair>
 </Ability>
-<Ability id="class-medium-spirit-bonus-su" icon={["upgrade"]}>
-<Pair single id="class-medium-spirit-bonus-su">Spirit Bonus (Su)</Pair>
+<Ability id="spirit-bonus-su" icon={["upgrade"]}>
+<Pair single id="spirit-bonus-su">Spirit Bonus (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">When you channel a spirit, you gain a bonus on certain checks and to certain statistics, depending on the spirit. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of your medium level.</Pair>
 </Ability>
-<Ability id="class-medium-spirit-surge-su" icon={["armor-upgrade"]}>
-<Pair single id="class-medium-spirit-surge-su">Spirit Surge (Su)</Pair>
+<Ability id="spirit-surge-su" icon={["armor-upgrade"]}>
+<Pair single id="spirit-surge-su">Spirit Surge (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">After failing a d20 roll that was modified by your spirit bonus, you can allow your spirit to gain 1 additional point of influence over you in order to add 1d6 to the check's result without taking an action. This can cause the check to succeed instead of fail. You must be conscious and aware to use this ability, and you can use this ability at most once per round.</Pair>
 <Pair title="At 10th Level">Your spirit surge die increases to 1d8.</Pair>
 <Pair title="At 20th Level">You spirit surge die increases to 1d10.</Pair>
 </Ability>
-<Ability id="class-medium-shared-seance-su" icon={["upgrade"]}>
-<Pair single id="class-medium-shared-seance-su">Shared Seance (Su)</Pair>
+<Ability id="shared-seance-su" icon={["upgrade"]}>
+<Pair single id="shared-seance-su">Shared Seance (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">All allies who participate in your seance gain the channeled spirit's seance boon for 24 hours.</Pair>
 </Ability>
@@ -491,60 +491,60 @@ const _medium = {hasJL:true,title: "Medium", jsx: <><div className="jumpList" id
 </Pair>
 <Pair title="Special">If a spirit attains 5 points of influence because of a violated taboo, instead of possessing you, the spirit leaves your body entirely, and you lose access to your <em>spirit</em> powers, <em>spirit bonus,</em> and <em>spirit surge</em> abilities until the next time you can perform a seance. Banishing a spirit in this way damages your connection to that spirit's legend; you cannot channel spirits of that legend for 1 week, and the next time you channel a spirit of that legend, it starts with 2 points of influence over you instead of 1.</Pair>
 </Ability>
-<Ability id="class-medium-haunt-channeler-su" icon={["upgrade","mailed-fist"]}>
-<Pair single id="class-medium-haunt-channeler-su">Haunt Channeler (Su)</Pair>
+<Ability id="haunt-channeler-su" icon={["upgrade","mailed-fist"]}>
+<Pair single id="haunt-channeler-su">Haunt Channeler (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You can always act on the surprise round against a haunt.</Pair>
 <Pair title="Ability">Your touch funnels a portion of the haunt into yourself, dealing 1d6 points of damage to the haunt per 2 medium levels you possess as if via positive energy and allowing you to ask the haunt a single question. The haunt can answer the question however it chooses. Additionally, you can forgo your saving throw against a haunt's effects to funnel the haunt entirely into yourself. If you do so, you suffer the haunt's full effect, but the haunt doesn't affect anyone else (even if it normally would). The haunt then gains control of your body for 24 hours. Once per minute, you can attempt to end this possession early by succeeding at a Will save (DC = 20 + 1/2 your medium level).</Pair>
 </Ability>
-<Ability id="class-medium-location-channel-sp" icon={["stairs-goal"]}>
-<Pair single id="class-medium-location-channel-sp">Location Channel (Sp)</Pair>
+<Ability id="location-channel-sp" icon={["stairs-goal"]}>
+<Pair single id="location-channel-sp">Location Channel (Sp)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">You can perform a special seance at the site of a person's death - or a location that was precious to that person in life - to call forth that person's spirit into your body so your allies can ask it questions. The effects are similar to the spell <Link to="/spell/call_spirit">call spirit</Link>, except that the duration is 1 round per medium level and the spirit possesses your body instead of appearing in a wispy form. The other participants of the seance must ask the questions.</Pair>
 <Pair title="Special">Once you attempt to call a spirit, you cannot attempt to call the same spirit again for 24 hours. Once per round, you can attempt to end the seance early by succeeding at a Will save (DC = 20 + 1/2 your medium level).</Pair>
 </Ability>
-<Ability id="class-medium-connection-channel-sp" icon={["upgrade"]}>
-<Pair single id="class-medium-connection-channel-sp">Connection Channel (Sp)</Pair>
+<Ability id="connection-channel-sp" icon={["upgrade"]}>
+<Pair single id="connection-channel-sp">Connection Channel (Sp)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">You can use your <em>location channel</em> ability at any location, so long as you possess some connection to the deceased. If another participant in the seance is more familiar with the deceased than you, you can substitute that participant's familiarity in place of your own to determine the DC of the <em>call spirit</em> effect.</Pair>
 </Ability>
-<Ability id="class-medium-propitiation-su" icon={["armor-upgrade"]}>
-<Pair single id="class-medium-propitiation-su">Propitiation (Su)</Pair>
+<Ability id="propitiation-su" icon={["armor-upgrade"]}>
+<Pair single id="propitiation-su">Propitiation (Su)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability">You have learned hidden techniques and rites that allow you to mollify your channeled spirit once per day, reducing its influence over you by 1 point (to a minimum of 1 point of influence). The details of the propitiation ritual vary based on the individual spirit, but the process always takes around 10 minutes to perform and it never requires any additional cost (such as an offering of wealth or a live sacrifice).</Pair>
 </Ability>
-<Ability id="class-medium-ask-the-spirits-sp" icon={["magic-swirl"]}>
-<Pair single id="class-medium-ask-the-spirits-sp">Ask the Spirits (Sp)</Pair>
+<Ability id="ask-the-spirits-sp" icon={["magic-swirl"]}>
+<Pair single id="ask-the-spirits-sp">Ask the Spirits (Sp)</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Ability">You can send your consciousness to the Astral Plane any number of times per day to ask the spirits for advice, as if using <Link to="/spell/contact_other_plane">contact other plane</Link> to contact the Astral Plane. You automatically succeed at the Intelligence check to avoid the possible decrease to your Intelligence and Charisma.</Pair>
 </Ability>
-<Ability id="class-medium-astral-journey-sp" icon={["magic-swirl"]}>
-<Pair single id="class-medium-astral-journey-sp">Astral Journey (Sp)</Pair>
+<Ability id="astral-journey-sp" icon={["magic-swirl"]}>
+<Pair single id="astral-journey-sp">Astral Journey (Sp)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Ability">You can enter a deep coma in order to project yourself onto the Astral Plane as <Link to="/spell/astral_projection">astral projection</Link>, except you can project only yourself, you can't enter other planes, and your projected gear has no magical properties.</Pair>
 </Ability>
-<Ability id="class-medium-trance-of-three-su" icon={["upgrade"]}>
-<Pair single id="class-medium-trance-of-three-su">Trance of Three (Su)</Pair>
+<Ability id="trance-of-three-su" icon={["upgrade"]}>
+<Pair single id="trance-of-three-su">Trance of Three (Su)</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Swift Action">You can allow your spirit to gain 1 point of influence over you in order to allow a portion of a legendary spirit from another legend to enter you for 1 round per level, granting you the intermediate spirit power from another legend.</Pair>
 <Pair title="Free Action">You can end the <em>trance of three</em> early.</Pair>
 <Pair title="Special">If the granted power has a limited number of uses per day, you must keep track of the remaining uses even after the secondary spirit is gone; if you call the secondary spirit again that day, it can grant the remaining uses of that power. If you use an ability that incurs influence, your primary spirit gains that amount of influence over you, not the secondary spirit. You don't gain the benefits of your spirit bonus from the secondary spirit.</Pair>
 </Ability>
-<Ability id="class-medium-spacious-soul-su" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-medium-spacious-soul-su" flavor="A medium's soul is spacious enough to provide a foothold for his fallen allies, if he so chooses.">Spacious Soul (Su)</Pair>
+<Ability id="spacious-soul-su" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="spacious-soul-su" flavor="A medium's soul is spacious enough to provide a foothold for his fallen allies, if he so chooses.">Spacious Soul (Su)</Pair>
 <Pair title="Gained">At 18th Level</Pair>
 <Pair title="Immediate Action">If one of the allies who participated in your seance that day dies within line of effect and line of sight of you, you can accept that ally's spirit within you. Since the ally inhabits the portion of your soul normally reserved for a spirit, this suppresses your <em>spirit, spirit bonus,</em> and <em>spirit surge</em> abilities as long as you maintain this ability.</Pair>
 <Pair title="Info">The ally's spirit and you share the your body and can decide each round on the your turn which of you will take the you actions for that round. If you don't agree on who should act, you attempt opposed Charisma checks to determine who is dominant for the next hour, and the dominant character decides who acts on each round. The ally's spirit has all the spells and limited use abilities (such as uses of <em>channel energy, ki,</em> and <em>panache</em>) that it possessed at the time of death, but it is incapable of regaining any abilities, points, spells, or uses of abilities it expends. When the ally's spirit acts, it uses the ally's base attack bonus, caster level, and special abilities (such as weapon proficiency), but uses your physical ability scores.</Pair>
 <Pair title="Standard Action">You can end this effect early, though if the ally is unwilling to depart, you must succeed at a Will saving throw (DC = 10 + 1/2 the ally's hit dice + the ally's Charisma modifier) or the attempt fails and the ally becomes dominant for 24 hours.</Pair>
 <Pair title="Special">If the ally returns to life, this ability immediately ends. Otherwise, you can maintain this ability indefinitely.</Pair>
 </Ability>
-<Ability id="class-medium-spirit-mastery-ex" icon={["upgrade"]}>
-<Pair single id="class-medium-spirit-mastery-ex" flavor="The medium become a legend among spirits, particularly lesser spirits.">Spirit Mastery (Ex)</Pair>
+<Ability id="spirit-mastery-ex" icon={["upgrade"]}>
+<Pair single id="spirit-mastery-ex" flavor="The medium become a legend among spirits, particularly lesser spirits.">Spirit Mastery (Ex)</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Ability">You can use your spirit surge ability an additional two times per day without incurring influence, regardless of whether you accept a taboo or channels a weaker spirit. When channeling a weaker spirit, you can use your spirit surge ability an additional four times per day for each power you forgo, instead of an additional two times.</Pair>
 </Ability>
-<Ability id="class-medium-astral-beacon-su" icon={["stairs-goal","upgrade"]}>
-<Pair single id="class-medium-astral-beacon-su" flavor="A medium is an open connection to the Astral Plane and a shining beacon for spirits.">Astral Beacon (Su)</Pair>
+<Ability id="astral-beacon-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="astral-beacon-su" flavor="A medium is an open connection to the Astral Plane and a shining beacon for spirits.">Astral Beacon (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Free Action">You can channel spirits of any of the five legends you did not contact via your seance. This ability lasts for 1 round and grants access to the intermediate, greater, and supreme spirit powers of the chosen spirits.</Pair>
 <Pair title="Special">Unlike trance of three, astral beacon allows spirits of the chosen legends (for instance, archmage) to gain influence over you until 24 hours from when you contacted your primary spirit. Also unlike trance of three, if you would incur influence by using one of the new spirits' abilities, that influence is added to your total influence from that spirit rather than from your primary spirit.</Pair>
@@ -579,7 +579,7 @@ const _medium = {hasJL:true,title: "Medium", jsx: <><div className="jumpList" id
 <h3 id="class-medium-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"medium archetypes","columns":[{"header":"Archetype","link":"arc-medium"},{"header":"Alignment"},{"header":"Armor Proficiency"},{"header":"Ask the Spirits"},{"header":"Astral Beacon"},{"header":"Astral Journey"},{"header":"Class Skills"},{"header":"Haunt Channeler"},{"header":"Knacks"},{"header":"Location Channel"},{"header":"Connection Channel"},{"header":"Propitiation"},{"header":"Shared Seance"},{"header":"Spacious Soul"},{"header":"Spellcasting"},{"header":"Spirit"},{"header":"Spirit Bonus"},{"header":"Spirit Power (Lesser)"},{"header":"Spirit Power (Intermediate)"},{"header":"Spirit Power (Supreme)"},{"header":"Spirit Surge"},{"header":"Spirit Mastery"},{"header":"Taboo"},{"header":"Trance of Three"}],"data":[[["Fiend Keeper","fiend_keeper"],"X",null,"X",null,null,null,"X",null,"X","X",null,null,null,null,"X",null,null,null,null,null,null,null,null],[["Kami Medium","kami_medium"],null,null,"X",null,"X",null,"X",null,"X","X",null,null,null,"X","X",null,null,null,null,null,null,"X",null],[["Medium of the Master","medium_of_the_master"],null,"X",null,null,null,"X",null,null,null,null,null,"X",null,null,"X",null,"X","X","X","X",null,null,"X"],[["Nexian Channeler","nexian_channeler"],null,null,"X","X","X",null,"X","X","X","X","X",null,"X",null,"X",null,null,null,null,null,"X","X","X"],[["Outer Channeler","outer_channeler"],null,null,"X",null,"X",null,"X",null,"X","X",null,null,null,null,"X",null,null,null,null,null,null,"X",null],[["Reanimated Medium","reanimated_medium"],null,null,null,"X",null,null,"X",null,"X","X",null,null,"X",null,"X",null,null,null,null,null,null,"X",null],[["Relic Channeler","relic_channeler"],null,null,null,null,null,null,"X",null,"X","X",null,null,null,null,"X",null,null,null,null,null,null,null,null],[["Rivethun Spirit Channeler","rivethun_spirit_channeler"],null,null,null,null,null,null,null,null,null,"X",null,null,null,"X","X","X",null,null,null,"X",null,"X",null],[["Spirit Dancer","spirit_dancer"],null,null,null,"X",null,null,null,null,null,null,null,"X","X",null,"X","X",null,null,null,"X",null,"X","X"],[["Spirit Eater","spirit_eater"],null,null,null,null,null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null],[["Storm Dreamer","storm_dreamer"],null,null,null,null,null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,null,"X",null,null,null],[["Storyteller","storyteller"],null,null,null,"X",null,null,"X",null,null,"X","X","X",null,null,"X","X",null,null,null,"X","X","X","X"],[["Uda Wendo","uda_wendo"],null,null,null,null,null,"X","X",null,"X","X",null,"X",null,null,"X",null,null,null,null,null,null,null,null],[["Vessel of the Failed","vessel_of_the_failed"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X","X",null],[["Voice of the Void","voice_of_the_void"],null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-medium-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="medium" prefix="class-medium-" />
+<RacialOptions cls="medium" />
 </>};
 const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" id="class-samurai-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-samurai-challenge-ex">Challenge</InnerLink></li><li><InnerLink toTop to="class-samurai-mount-ex">Mount</InnerLink></li><li><InnerLink toTop to="class-samurai-order-ex">Order</InnerLink></li><li><InnerLink toTop to="class-samurai-resolve-ex">Resolve</InnerLink></li><li><InnerLink toTop to="class-samurai-determined">Determined</InnerLink></li><li><InnerLink toTop to="class-samurai-resolute">Resolute</InnerLink></li><li><InnerLink toTop to="class-samurai-unstoppable">Unstoppable</InnerLink></li><li><InnerLink toTop to="class-samurai-weapon-expertise-ex">Weapon Expertise</InnerLink></li><li><InnerLink toTop to="class-samurai-mounted-archer-ex">Mounted Archer</InnerLink></li><li><InnerLink toTop to="class-samurai-banner-ex">Banner</InnerLink></li><li><InnerLink toTop to="class-samurai-bonus-feat">Bonus Feat</InnerLink></li><li><InnerLink toTop to="class-samurai-greater-resolve-ex">Greater Resolve</InnerLink></li><li><InnerLink toTop to="class-samurai-honorable-stand-ex">Honorable Stand</InnerLink></li><li><InnerLink toTop to="class-samurai-demanding-challenge-ex">Demanding Challenge</InnerLink></li><li><InnerLink toTop to="class-samurai-greater-banner-ex">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-samurai-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-samurai-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-samurai-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-samurai-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-samurai-samurai">Samurai</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 18</Link></p>
@@ -760,8 +760,8 @@ const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" 
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={4}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><td><Link to="/eq-weapon/katana">katana</Link></td><td><Link to="/eq-weapon/naginata">naginata</Link></td></tr><tr><td colSpan={2}><Link to="/eq-weapon/wakizashi">wakizashi</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light, Medium, and Heavy armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="class-samurai-challenge-ex" icon={["mailed-fist"]}>
-<Pair single id="class-samurai-challenge-ex" flavor="A samurai can challenge a foe to combat.">Challenge (Ex)</Pair>
+<Ability id="challenge-ex" icon={["mailed-fist"]}>
+<Pair single id="challenge-ex" flavor="A samurai can challenge a foe to combat.">Challenge (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 time/day + 1 per three samurai levels beyond 1st<ByLevelPop levels={[[1,1],[4,2],[7,3],[10,4],[13,5],[16,6],[19,7]]} unit="time" postText="/day" /></Pair>
 <Pair title="Swift Action">You choose one target within sight to challenge. Your melee attacks deal extra damage when made against the target of your <em>challenge.</em> This extra damage is equal to your level. Challenging a foe requires much of your concentration. You take a -2 penalty to your Armor Class, except against attacks made by the target of your <em>challenge.</em></Pair>
@@ -775,47 +775,47 @@ const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" 
 </Pair>
 <Pair title="Special">Should your mount die, you may find another mount to serve you after 1 week of mourning. This new mount does not gain the <em>link, evasion, devotion,</em> or <em>improved evasion</em> special abilities until the next time you gain a level.</Pair>
 </Ability>
-<Ability id="class-samurai-order-ex" icon={["stairs-goal","upgrade","skills"]}>
-<Pair single id="class-samurai-order-ex">Order (Ex)</Pair>
+<Ability id="order-ex" icon={["stairs-goal","upgrade","skills"]}>
+<Pair single id="order-ex">Order (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must pledge yourself to a specific <Link to="/ability/orders">order</Link>, typically the <Link to="/order/order_of_the_warrior">order of the warrior</Link>. The order grants you a number of bonuses, class skills, and special abilities. In addition, each order includes a number of <strong className="hl">edicts</strong> that you must follow. If you violate any of these edicts, you lose the benefits from your order's <em>challenge</em> ability for 24 hours. The violation of an edict is subject to GM interpretation.</Pair>
 <Pair title="Info">Most samurai belong to the order of the warrior and are dedicated to their lord. Those without a lord, or who chose to abandon their lord, are <Link to="/order/ronin">ronin</Link>. You may instead elect to dedicate yourself to any other order, but such samurai are rare.</Pair>
 <Pair title="Special">A samurai who wishes to change his order must undertake a lengthy process to dedicate himself to a new cause. When this choice is made, you immediately lose all of the benefits from your old order. You must then follow the edicts of your new order for one entire level without gaining any benefits from that order. Once you have accomplished this, you gain all the bonuses from your new order. The only exception to this is when a samurai decides to become a ronin. You can elect to become a ronin immediately, losing all the benefits from your old order and replacing them with the new benefits from the ronin order. Once a ronin, however, the only way for you to change to another order is through the method described above. Note that the names of these orders might vary depending upon the campaign setting or GM's preference.</Pair>
 </Ability>
-<Ability id="class-samurai-resolve-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="class-samurai-resolve-ex">Resolve (Ex)</Pair>
+<Ability id="resolve-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="resolve-ex">Resolve (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 time/day + 1 per two samurai levels beyond 1st<ByLevelPop levels={[[1,1],[3,2],[5,3],[7,4],[9,5],[11,6],[13,7],[15,8],[17,9],[19,10]]} unit="time" postText="/day" /></Pair>
 <Pair title="Passive Ability">You gain <em>resolve</em> that you can call upon to endure even the most devastating wounds and afflictions. Whenever you defeat the target of your challenge, you regain one daily use of your <em>resolve,</em> up to your maximum number of uses per day. Defeating the target of your challenge usually involves reducing the target to 0 hit points or fewer, but the GM might rule that an enemy who surrenders or flees the battle is also defeated. You can use this <em>resolve</em> in a number of ways.</Pair>
 </Ability>
-<Ability id="class-samurai-determined" extraClasses="subAbility numbered" icon={["remedy"]}>
-<Pair single id="class-samurai-determined">Determined</Pair>
+<Ability id="determined" extraClasses="subAbility numbered" icon={["remedy"]}>
+<Pair single id="determined">Determined</Pair>
 <Pair title="Standard Action">You can spend one use of your <em>resolve</em> to remove the <Link to="/misc/fatigued">fatigued</Link>, <Link to="/misc/shaken">shaken</Link>, or <Link to="/misc/sickened">sickened</Link> condition.</Pair>
 <Pair title="At 8th Level">You can now remove the <Link to="/misc/exhausted">exhausted</Link>, <Link to="/misc/frightened">frightened</Link>, <Link to="/misc/nauseated">nauseated</Link>, or <Link to="/misc/staggered">staggered</Link> conditions, instead.</Pair>
 <Pair title="Special">If the condition has a duration longer than 1 hour or is permanent, this ability removes the condition for 1 hour, at which time the condition returns.</Pair>
 </Ability>
-<Ability id="class-samurai-resolute" extraClasses="subAbility numbered" icon={["rolling-dices"]}>
-<Pair single id="class-samurai-resolute">Resolute</Pair>
+<Ability id="resolute" extraClasses="subAbility numbered" icon={["rolling-dices"]}>
+<Pair single id="resolute">Resolute</Pair>
 <Pair title="Immediate Action">Whenever you are required to make a Fortitude or Will save, you can spend one use of your <em>resolve</em> to roll twice and take the better result. You must decide to use this ability before you roll the saving throw.</Pair>
 </Ability>
-<Ability id="class-samurai-unstoppable" extraClasses="subAbility numbered" icon={["armor-upgrade"]}>
-<Pair single id="class-samurai-unstoppable">Unstoppable</Pair>
+<Ability id="unstoppable" extraClasses="subAbility numbered" icon={["armor-upgrade"]}>
+<Pair single id="unstoppable">Unstoppable</Pair>
 <Pair title="Immediate Action">When you are reduced to fewer than 0 hit points but not slain, you can spend one use of your <em>resolve</em> to instantly <Link to="/misc/stabilize">stabilize</Link> and remain conscious. You are staggered, but you do not fall unconscious and begin dying if you take a standard action. You do fall unconscious if you take additional damage from any source.</Pair>
 </Ability>
-<Ability id="class-samurai-weapon-expertise-ex" icon={["upgrade"]}>
-<Pair single id="class-samurai-weapon-expertise-ex">Weapon Expertise (Ex)</Pair>
+<Ability id="weapon-expertise-ex" icon={["upgrade"]}>
+<Pair single id="weapon-expertise-ex">Weapon Expertise (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">Select either the katana, <Link to="/eq-weapon/longbow">longbow</Link>, naginata, or wakizashi. Whenever you threaten a critical hit with the selected weapon, you gain a +2 bonus on the confirmation roll.</Pair>
 <Pair title="Free Action">You can draw the selected weapon as if you had the <Link to="/feat/quick_draw">Quick Draw</Link> feat.</Pair>
 <Pair title="Passive Ability">Your samurai levels count as fighter levels and stack with any fighter levels you possess for the purposes of meeting the prerequisites for feats that specifically select your chosen weapon, such as <Link to="/feat/weapon_specialization">Weapon Specialization</Link>.</Pair>
 </Ability>
-<Ability id="class-samurai-mounted-archer-ex" icon={["upgrade"]}>
-<Pair single id="class-samurai-mounted-archer-ex" flavor="A samuari becomes skilled at firing ranged weapons while mounted.">Mounted Archer (Ex)</Pair>
+<Ability id="mounted-archer-ex" icon={["upgrade"]}>
+<Pair single id="mounted-archer-ex" flavor="A samuari becomes skilled at firing ranged weapons while mounted.">Mounted Archer (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You only take a -2 penalty on attack rolls with ranged weapons while your mount takes a double move. This penalty increases to -4 while your mount is running.</Pair>
 </Ability>
-<Ability id="class-samurai-banner-ex" icon={["armor-upgrade","upgrade"]}>
-<Pair single id="class-samurai-banner-ex" flavor="A samurai's banner becomes a symbol of inspiration to his allies and companions.">Banner (Ex)</Pair>
+<Ability id="banner-ex" icon={["armor-upgrade","upgrade"]}>
+<Pair single id="banner-ex" flavor="A samurai's banner becomes a symbol of inspiration to his allies and companions.">Banner (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">As long as your banner is clearly visible, all allies within 60 feet receive a +2 morale bonus on saving throws against fear and a +1 morale bonus on attack rolls made as part of a <Link to="/rule/charge">charge</Link>.</Pair>
 <Pair title="At 10th Level">The bonus on saving throws becomes +3 and the charge bonus becomes +2.</Pair>
@@ -824,44 +824,44 @@ const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" 
 <Pair title="Special">The banner must be at least Small or larger and must be carried or displayed by you or your mount to function.</Pair>
 </Ability>
 <aside><p>Some samurais inspire and direct their allies with specialized tactics. A samurai can select <Link to="/ability/banners">a different battle standard</Link> upon gaining the banner class feature, and its benefits replace the normal benefits of the banner and greater banner class features.</p>
-</aside><Ability id="class-samurai-bonus-feat" icon={["stairs-goal"]}>
-<Pair single id="class-samurai-bonus-feat">Bonus Feat</Pair>
+</aside><Ability id="bonus-feat" icon={["stairs-goal"]}>
+<Pair single id="bonus-feat">Bonus Feat</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">You gain a bonus <Link to="/main/combat_feat">combat feat</Link>. You must meet the prerequisites of this feat.</Pair>
 <Pair title="At 12th Level">You gain a second bonus combat feat. You must meet the prerequisites of this feat.</Pair>
 <Pair title="At 18th Level">You gain a third bonus combat feat. You must meet the prerequisites of this feat.</Pair>
 </Ability>
-<Ability id="class-samurai-greater-resolve-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-samurai-greater-resolve-ex">Greater Resolve (Ex)</Pair>
+<Ability id="greater-resolve-ex" icon={["armor-upgrade"]}>
+<Pair single id="greater-resolve-ex">Greater Resolve (Ex)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Immediate Action">After a critical hit is confirmed against you, you can spend one use of your <em>resolve</em> to treat that critical hit as a normal hit.</Pair>
 <Pair title="Special">Effects that only trigger on a critical hit do not trigger when you use this ability.</Pair>
 </Ability>
-<Ability id="class-samurai-honorable-stand-ex" icon={["armor-upgrade","rolling-dices"]}>
-<Pair single id="class-samurai-honorable-stand-ex" flavor={<>A samurai can make an honorable stand, deciding to fight the target of his <em>challenge</em> to the bitter end, no matter the cost.</>}>Honorable Stand (Ex)</Pair>
+<Ability id="honorable-stand-ex" icon={["armor-upgrade","rolling-dices"]}>
+<Pair single id="honorable-stand-ex" flavor={<>A samurai can make an honorable stand, deciding to fight the target of his <em>challenge</em> to the bitter end, no matter the cost.</>}>Honorable Stand (Ex)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Swift Action">You can make an honorable stand. While doing so, you are immune to the shaken, frightened, and <Link to="/misc/panicked">panicked</Link> conditions. You do not fall unconscious while your hit point total is below 0. Finally, if you are making an honorable stand and must make a saving throw, you can spend one daily use of your <em>resolve</em> to reroll the saving throw after the first roll is made. You must take the result of the second roll, even if it is worse.</Pair>
 <Pair title="At 16th Level">You can make an <em>honorable stand</em> twice a day.</Pair>
 <Pair title="Special">If you are making an honorable stand and ever retreat from battle against your <em>challenged</em> foe, you lose the ability to make a <em>challenge</em> for 24 hours.</Pair>
 </Ability>
-<Ability id="class-samurai-demanding-challenge-ex" icon={["armor-downgrade"]}>
-<Pair single id="class-samurai-demanding-challenge-ex">Demanding Challenge (Ex)</Pair>
+<Ability id="demanding-challenge-ex" icon={["armor-downgrade"]}>
+<Pair single id="demanding-challenge-ex">Demanding Challenge (Ex)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">Whenever you declare a <em>challenge,</em> your target must pay attention to the threat you pose. As long as the target is within your threatened area, it takes a -2 penalty to its AC from attacks made by anyone other than you.</Pair>
 </Ability>
-<Ability id="class-samurai-greater-banner-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-samurai-greater-banner-ex" flavor="A samurai's banner becomes a rallying call to his allies.">Greater Banner (Ex)</Pair>
+<Ability id="greater-banner-ex" icon={["armor-upgrade"]}>
+<Pair single id="greater-banner-ex" flavor="A samurai's banner becomes a rallying call to his allies.">Greater Banner (Ex)</Pair>
 <Pair title="Passive Ability">All allies within 60 feet receive a +2 morale bonus on saving throws against charm and compulsion spells and effects.</Pair>
 <Pair title="Standard Action">While your banner is displayed, you can wave the banner through the air, granting all allies within 60 feet an additional saving throw against any one spell or effect that is targeting them. This save is made at the original DC. Spells and effects that do not allow saving throws are unaffected by this ability. An ally cannot benefit from this ability more than once per day.</Pair>
 </Ability>
-<Ability id="class-samurai-true-resolve-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-samurai-true-resolve-ex">True Resolve (Ex)</Pair>
+<Ability id="true-resolve-ex" icon={["armor-upgrade"]}>
+<Pair single id="true-resolve-ex">True Resolve (Ex)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Ability">If you have at least two uses of your <em>resolve</em> remaining, you can spend all of the daily uses of your <em>resolve</em> that you have available to you to avoid death. Regardless of the source of the attack that would have killed you, you are left alive, at -1 hit points (or lower if you were already below -1), <Link to="/misc/unconscious">unconscious</Link>, and <Link to="/misc/stable">stable</Link>.</Pair>
 </Ability>
-<Ability id="class-samurai-last-stand-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-samurai-last-stand-ex">Last Stand (Ex)</Pair>
+<Ability id="last-stand-ex" icon={["armor-upgrade"]}>
+<Pair single id="last-stand-ex">Last Stand (Ex)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Ability">You can make a <em>last stand</em> whenever you make a <em>challenge.</em> While this <em>challenge</em> is in effect, all melee and ranged weapons deal the minimum amount of damage to you, unless the attack scored is a critical hit. In addition, you remain conscious and are not staggered while you are below 0 hit points.</Pair>
@@ -890,7 +890,7 @@ const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" 
 <h3 id="class-samurai-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"samurai archetypes","columns":[{"header":"Archetype","link":"arc-samurai"},{"header":"Alignment"},{"header":"Banner"},{"header":"Greater Banner"},{"header":"Bonus Combat Feats"},{"header":"Challenge"},{"header":"Demanding Challange"},{"header":"Honorable Stand"},{"header":"Mount"},{"header":"Mounted Archer"},{"header":"Mounted Charge"},{"header":"Resolve"},{"header":"Greater Resolve"},{"header":"True Resolve"},{"header":"Weapon Expertise"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Brawling Blademaster","brawling_blademaster"],null,"X","X",null,null,null,null,"X","X",null,null,null,null,"X","X"],[["Ironbound Sword","ironbound_sword"],null,"X","X",null,null,null,null,null,null,null,null,null,null,"X",null],[["Sovereign Blade","sovereign_blade"],"X",null,null,"X",null,null,null,"X","X",null,null,null,null,null,null],[["Sword Saint","sword_saint"],null,"X","X",null,null,null,null,"X",null,"X",null,null,null,null,null],[["Ward Speaker","ward_speaker"],"X",null,null,null,null,null,"X",null,null,null,"X","X","X",null,null],[["Warrior Poet","warrior_poet"],null,"X","X","X","X","X",null,"X","X",null,null,null,null,"X","X"],[["Yojimbo","yojimbo"],null,null,null,null,null,null,null,"X","X",null,null,null,null,"X",null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-samurai-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="samurai" prefix="class-samurai-" />
+<RacialOptions cls="samurai" />
 </>};
 const _shaman = {hasJL:true,title: "Shaman", jsx: <><div className="jumpList" id="class-shaman-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-shaman-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-shaman-spirit-su">Spirit</InnerLink></li><li><InnerLink toTop to="class-shaman-spirit-animal-ex">Spirit Animal</InnerLink></li><li><InnerLink toTop to="class-shaman-spirit-magic">Spirit Magic</InnerLink></li><li><InnerLink toTop to="class-shaman-hex">Hex</InnerLink></li><li><InnerLink toTop to="class-shaman-wandering-spirit-su">Wandering Spirit</InnerLink></li><li><InnerLink toTop to="class-shaman-wandering-hex">Wandering Hex</InnerLink></li><li><InnerLink toTop to="class-shaman-manifestation-su">Manifestation</InnerLink></li><li><InnerLink toTop to="class-shaman-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-shaman-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-shaman-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-shaman-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-shaman-shaman">Shaman</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 35</Link></p>
@@ -1281,16 +1281,16 @@ const _shaman = {hasJL:true,title: "Shaman", jsx: <><div className="jumpList" id
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={1}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<Ability id="class-shaman-spells" icon={["magic-swirl"]}><Pair single id="class-shaman-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To prepare or cast a spell, you must have a Wisdom score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Wisdom score.</Pair>
-<Pair title="Ability">You gain the ability to cast Wisdom spells which are drawn from the <Link to="/main/spells_shaman">shaman spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. You must choose and prepare your spells in advance.</Pair><Pair title="Special">You must spend 1 hour each day in quiet contemplation with your spirit animal to regain your daily allotment of spells. You may prepare and cast any spell on your spell list, provided that you can cast spells of that level, but you must choose which spells to prepare.</Pair></Ability><Ability id="class-shaman-orisons" icon={["magic-swirl"]}>
-<Pair single id="class-shaman-orisons">Orisons</Pair>
+<Pair title="Ability">You gain the ability to cast Wisdom spells which are drawn from the <Link to="/main/spells_shaman">shaman spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. You must choose and prepare your spells in advance.</Pair><Pair title="Special">You must spend 1 hour each day in quiet contemplation with your spirit animal to regain your daily allotment of spells. You may prepare and cast any spell on your spell list, provided that you can cast spells of that level, but you must choose which spells to prepare.</Pair></Ability><Ability id="orisons" icon={["magic-swirl"]}>
+<Pair single id="orisons">Orisons</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of orisons, or 0-level divine spells. These spells are prepared like any other spell, but they are not expended when cast and may be used again. Orisons prepared using other spell slots, such as those due to metamagic feats, are expended normally.</Pair>
 </Ability>
-<Ability id="class-shaman-spirit-su" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-shaman-spirit-su" flavor="A shaman forms a mystical bond with the spirits of the world.">Spirit (Su)</Pair>
+<Ability id="spirit-su" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="spirit-su" flavor="A shaman forms a mystical bond with the spirits of the world.">Spirit (Su)</Pair>
 <Pair title="Ability">You form a lasting bond with a single <Link to="/ability/shaman_spirits">spirit</Link>, which grants a number of abilities and defines many of your other class features.</Pair>
 <Pair title="At 1st Level">You gain the <em>spirit ability</em> granted by your chosen spirit. You add the spells granted by that spirit to the list of spells that you can cast using <em>spirit magic.</em> You also add the hexes possessed by that spirit to the list of hexes that you can use with the <em>hex</em> and <em>wandering hex</em> class features.</Pair>
 <Pair title="At 8th Level">You gain the abilities listed in the <em>greater</em> version of your selected spirit.</Pair>
@@ -1310,12 +1310,12 @@ const _shaman = {hasJL:true,title: "Shaman", jsx: <><div className="jumpList" id
 <Pair title="At 1st Level">Your spirit animal gains specific abilities, depending upon the type of spirit selected by you using your spirit class feature. These abilities affect the animal's appearance and grant it special abilities that can aid it in serving you and the spirit it represents and is connected to. These abilities are described in the <em>spirit animal</em> section of each individual <em>spirit</em> description.</Pair>
 <Pair title="At 3rd Level">Your spirit animal can deliver touch spells or hexes for you. If you and the spirit animal are in contact at the time you cast a touch spell, you can designate your animal as the "toucher." The spirit animal can then deliver the touch spell just as you would. If you cast another spell before the touch is delivered, the touch spell dissipates. If you activate a <em>hex,</em> your spirit animal can be used to make the touch; you don't have to be in contact with the animal to use this ability with hexes.</Pair>
 </Ability>
-<Ability id="class-shaman-spirit-magic" icon={["magic-swirl"]}>
-<Pair single id="class-shaman-spirit-magic">Spirit Magic</Pair>
+<Ability id="spirit-magic" icon={["magic-swirl"]}>
+<Pair single id="spirit-magic">Spirit Magic</Pair>
 <Pair title="Ability">You can spontaneously cast a limited number of spells per day beyond those you prepared ahead of time. You have one spell slot per day of each shaman spell level you can cast, not including orisons. You can choose these spells from the list of spells granted by your spirits at the time you cast them. You can enhance these spells using any metamagic feat that you know, using up a higher-level spell slot as required by the feat and increasing the time to cast the spell.</Pair>
 </Ability>
-<Ability id="class-shaman-hex" icon={["magic-swirl"]}>
-<Pair single id="class-shaman-hex" flavor="A shaman learns a number of magical tricks, called hexes, which grant her powers or weaken foes.">Hex</Pair>
+<Ability id="hex" icon={["magic-swirl"]}>
+<Pair single id="hex" flavor="A shaman learns a number of magical tricks, called hexes, which grant her powers or weaken foes.">Hex</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You learn one hex. You can select from any <Link to="/ability/shaman_hexes">of these shaman hexes</Link> or from any of the hexes listed in the description of your chosen spirit. You cannot select a hex more than once unless noted otherwise.</Pair>
 <Pair title="At 4th Level">You learn a new hex.</Pair>
@@ -1328,22 +1328,22 @@ const _shaman = {hasJL:true,title: "Shaman", jsx: <><div className="jumpList" id
 <Pair title="Special">Using a hex is a <strong className="hl">standard action</strong> that doesn't provoke an attack of opportunity unless otherwise noted. The saving throw DC to resist a hex is equal to 10 + <Link to="/misc/half">half</Link> your shaman level + your Wisdom modifier.</Pair>
 </Ability>
 <aside><p>Shamans can take a <Link to="/main/feats_blood_hex">blood hex feat</Link> in place of a regular hex.</p>
-</aside><Ability id="class-shaman-wandering-spirit-su" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-shaman-wandering-spirit-su">Wandering Spirit (Su)</Pair>
+</aside><Ability id="wandering-spirit-su" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="wandering-spirit-su">Wandering Spirit (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You can form a temporary bond with a spirit other than the one selected using your <em>spirit</em> class feature. You must make this selection each day when preparing your spells. While this feature is active, you gain the <em>spirit ability</em> granted by the spirit. You also add the spells granted by that spirit to your list of spells that you can cast using <em>spirit magic.</em> You do not add the hexes from your <em>wandering spirit</em> to your list of hexes that you can choose from with the hex class feature.</Pair>
 <Pair title="At 12th Level">You gain the abilities listed in the <em>greater</em> version of your <em>wandering spirit.</em></Pair>
 <Pair title="At 20th Level">You gain the ability listed in the <em>true</em> version of your <em>wandering spirit.</em></Pair>
 </Ability>
-<Ability id="class-shaman-wandering-hex" icon={["magic-swirl"]}>
-<Pair single id="class-shaman-wandering-hex">Wandering Hex</Pair>
+<Ability id="wandering-hex" icon={["magic-swirl"]}>
+<Pair single id="wandering-hex">Wandering Hex</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">You can temporarily gain the use of one of the hexes possessed by either one of your spirits. You must make this selection each day when you prepare your spells. For the purposes of this ability, you can select any hex possessed by your <em>spirit</em> or <em>wandering spirit.</em> If you select it from your <em>wandering spirit,</em> you lose the hex immediately if you bond with another spirit, although you can then select a different hex to gain using this ability, from either your <em>spirit</em> or your new <em>wandering spirit.</em></Pair>
 <Pair title="At 14th Level">You can select two wandering hexes each day instead of one.</Pair>
 <Pair title="Special">This ability otherwise functions as the hex class feature.</Pair>
 </Ability>
-<Ability id="class-shaman-manifestation-su" icon={["stairs-goal"]}>
-<Pair single id="class-shaman-manifestation-su">Manifestation (Su)</Pair>
+<Ability id="manifestation-su" icon={["stairs-goal"]}>
+<Pair single id="manifestation-su">Manifestation (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">You undergo a transformation as you manifest as a pinnacle of your main spirit. The nature of this manifestation depends on your <em>spirit,</em> and is described in its entry.</Pair>
 </Ability>
@@ -1379,7 +1379,7 @@ const _shaman = {hasJL:true,title: "Shaman", jsx: <><div className="jumpList" id
 <h3 id="class-shaman-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"shaman archetypes","columns":[{"header":"Archetype","link":"arc-shaman"},{"header":"Alignment"},{"header":"Class Skills"},{"header":"Deliver Touch Spells"},{"header":"Hexes"},{"header":"2nd-level Hex"},{"header":"4th-level Hex"},{"header":"6th-level Hex"},{"header":"8th-level Hex"},{"header":"10th-level Hex"},{"header":"12th-level Hex"},{"header":"18th-level Hex"},{"header":"Manifestation"},{"header":"Spellcasting"},{"header":"Spirit"},{"header":"Greater Spirit"},{"header":"Spirit Animal"},{"header":"Spirit Magic"},{"header":"Wandering Hex"},{"header":"Wandering Spirit"},{"header":"Greater Wandering Spirit"},{"header":"True Wandering Spirit"}],"data":[[["Animist","animist"],null,null,null,null,"X",null,null,"X","X","X","X","X",null,null,null,null,"X",null,null,null,null],[["Benefactor","benefactor"],null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null],[["Crystal Tender","crystal_tender"],null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,"X",null,null,"X",null,null],[["Deep Shaman","deep_shaman"],null,"X",null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null],[["Draconic Shaman","draconic_shaman"],null,null,null,null,null,"X",null,null,"X",null,null,null,null,"X",null,"X","X",null,null,null,null],[["Grasping Vine","grasping_vine"],null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,null,"X","X",null,null,null,null],[["Name-Keeper","name_keeper"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X","X",null,null],[["Overseer","overseer"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Possessed Shaman","possessed_shaman"],null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Primal Warden","primal_warden"],null,null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,"X","X",null,null,null,null],[["Serendipity Shaman","serendipity_shaman"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Speaker for the Past","speaker_for_the_past"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X","X",null,null],[["Spirit Warden","spirit_warden"],null,"X",null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null],[["True Silvered Throne","true_silvered_throne"],null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,"X","X",null,null],[["Unsworn Shaman","unsworn_shaman"],null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,"X","X","X","X",null,null],[["Visionary","visionary"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X","X","X"],[["Witch Doctor","witch_doctor"],"X",null,null,null,null,"X",null,"X","X","X",null,null,null,null,null,null,null,null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-shaman-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="shaman" prefix="class-shaman-" />
+<RacialOptions cls="shaman" />
 </>};
 const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpList" id="class-warpriest-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-warpriest-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-warpriest-spontaneous-casting">Spontaneous Casting</InnerLink></li><li><InnerLink toTop to="class-warpriest-chaotic-evil-good-and-lawful-spells">Aligned Spells</InnerLink></li><li><InnerLink toTop to="class-warpriest-bonus-languages">Bonus Languages</InnerLink></li><li><InnerLink toTop to="class-warpriest-aura-ex">Aura</InnerLink></li><li><InnerLink toTop to="class-warpriest-focus-weapon">Focus and Sacred Weapon</InnerLink></li><li><InnerLink toTop to="class-warpriest-fervor-su">Fervor</InnerLink></li><li><InnerLink toTop to="class-warpriest-bonus-feats">Bonus Feats</InnerLink></li><li><InnerLink toTop to="class-warpriest-channel-energy-su">Channel Energy</InnerLink></li><li><InnerLink toTop to="class-warpriest-sacred-armor-su">Sacred Armor</InnerLink></li><li><InnerLink toTop to="class-warpriest-aspect-of-war-su">Aspect of War</InnerLink></li><li><InnerLink toTop to="class-warpriest-ex-warpriests">Ex-Warpriests</InnerLink></li><li><InnerLink toTop to="class-warpriest-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-warpriest-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-warpriest-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-warpriest-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-warpriest-warpriest">Warpriest</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 60</Link></p>
@@ -1728,37 +1728,37 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={3}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><td colSpan={2}>The favored weapon of your deity</td></tr><tr><th>Armor?</th><td colSpan={2}>Light, Medium, and Heavy armors</td></tr><tr><th>Shields?</th><td colSpan={2}>Yes, except tower shields</td></tr><tr><td colSpan={3} className="sw se">If you worship a deity with unarmed strike as its favored weapon, you gain <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat.</td></tr></tbody></table>
-<Ability id="class-warpriest-spells" icon={["magic-swirl"]}><Pair single id="class-warpriest-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To prepare or cast a spell, you must have a Wisdom score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Wisdom score.</Pair>
-<Pair title="Ability">You gain the ability to cast divine spells which are drawn from the <Link to="/main/spells_warpriest">warpriest spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. Your alignment may restrict you from casting certain spells opposed to your moral or ethical beliefs; see <em>Chaotic, Evil, Good, and Lawful Spells.</em> You must choose and prepare your spells in advance.</Pair><Pair title="Special">You must spend 1 hour each day in quiet contemplation or supplication to regain your daily allotment of spells. You may prepare and cast any spell on your spell list, provided that you can cast spells of that level, but you must choose which spells to prepare.</Pair></Ability><Ability id="class-warpriest-orisons" icon={["magic-swirl"]}>
-<Pair single id="class-warpriest-orisons">Orisons</Pair>
+<Pair title="Ability">You gain the ability to cast divine spells which are drawn from the <Link to="/main/spells_warpriest">warpriest spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. Your alignment may restrict you from casting certain spells opposed to your moral or ethical beliefs; see <em>Chaotic, Evil, Good, and Lawful Spells.</em> You must choose and prepare your spells in advance.</Pair><Pair title="Special">You must spend 1 hour each day in quiet contemplation or supplication to regain your daily allotment of spells. You may prepare and cast any spell on your spell list, provided that you can cast spells of that level, but you must choose which spells to prepare.</Pair></Ability><Ability id="orisons" icon={["magic-swirl"]}>
+<Pair single id="orisons">Orisons</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of orisons, or 0-level divine spells. These spells are prepared like any other spell, but they are not expended when cast and may be used again. Orisons prepared using other spell slots, such as those due to metamagic feats, are expended normally.</Pair>
 </Ability>
-<Ability id="class-warpriest-spontaneous-casting" icon={["magic-swirl"]}>
-<Pair single id="class-warpriest-spontaneous-casting" flavor="A good warpriest (or a neutral warpriest of a good deity) can channel stored spell energy into healing spells that he did not prepare ahead of time.">Spontaneous Casting</Pair>
+<Ability id="spontaneous-casting" icon={["magic-swirl"]}>
+<Pair single id="spontaneous-casting" flavor="A good warpriest (or a neutral warpriest of a good deity) can channel stored spell energy into healing spells that he did not prepare ahead of time.">Spontaneous Casting</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">If you are good (or a neutral warpriest of a good deity), you can "lose" any prepared spell that is not an orison in order to cast any <em>cure</em> spell of the same spell level or lower. If you are evil (or a neutral warpriest of an evil deity), you can convert spells to <em>inflict</em> spells.</Pair>
 <Pair title="Special">If you are neither good nor evil and your deity is neither good nor evil, you choose whether you can convert spells into either <em>cure spells</em> or <em>inflict spells.</em> Once this choice is made, it cannot be changed. This choice also determines whether you channel positive or negative energy (see below).</Pair>
 </Ability>
 <aside><p>A <em>cure spell</em> is any spell with "cure" in its name, while an <em>inflict spell</em> is one with "inflict" in its name. These spells are <Link to="/main/spell_groupings">grouped here</Link>.</p>
-</aside><Ability id="class-warpriest-chaotic-evil-good-and-lawful-spells" icon={["magic-swirl"]}>
-<Pair single id="class-warpriest-chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
+</aside><Ability id="chaotic-evil-good-and-lawful-spells" icon={["magic-swirl"]}>
+<Pair single id="chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
 <Pair title="Passive Ability">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</Pair>
 </Ability>
-<Ability id="class-warpriest-bonus-languages" icon={["stairs-goal"]}>
-<Pair single id="class-warpriest-bonus-languages">Bonus Languages</Pair>
+<Ability id="bonus-languages" icon={["stairs-goal"]}>
+<Pair single id="bonus-languages">Bonus Languages</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Your bonus language options include Abyssal, Celestial, and Infernal. These choices are in addition to the bonus languages available because of your race.</Pair>
 </Ability>
-<Ability id="class-warpriest-aura-ex" icon={["aura"]}>
-<Pair single id="class-warpriest-aura-ex">Aura (Ex)</Pair>
+<Ability id="aura-ex" icon={["aura"]}>
+<Pair single id="aura-ex">Aura (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">If you are a warpriest of a chaotic, evil, good, or lawful deity, you have a particularly powerful aura (as a <Link to="/class/cleric">cleric</Link>) corresponding to your deity's alignment (see <Link to="/spell/detect_evil">detect evil</Link>).</Pair>
 </Ability>
-<Ability id="class-warpriest-blessings-su" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-warpriest-blessings-su" flavor="A warpriest's deity influences his alignment, what magic he can perform, his values, and how others see him.">Blessings (Su)</Pair>
+<Ability id="blessings-su" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="blessings-su" flavor="A warpriest's deity influences his alignment, what magic he can perform, his values, and how others see him.">Blessings (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You can select two <Link to="/ability/blessings">blessings</Link> from among those granted by your deity (each deity grants the blessings tied to its domains), obtaining each blessing's <strong className="hl">minor</strong> power.</Pair>
 <Pair title="Usage">3 times/day + <Link to="/misc/half">half</Link> your warpriest level</Pair>
@@ -1766,8 +1766,8 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <Pair title="At 10th Level">You obtain the <strong className="hl">major</strong> power of each of your blessings.</Pair>
 <Pair title="Special">You can select an alignment blessing (<Link to="/blessing/chaos">Chaos</Link>, <Link to="/blessing/evil">Evil</Link>, <Link to="/blessing/good">Good</Link>, or <Link to="/blessing/law">Law</Link>) only if your alignment matches that domain. If you aren't devoted to a particular deity, you still select two blessings to represent your spiritual inclinations and abilities, subject to GM approval. The restriction on alignment domains still applies.</Pair>
 </Ability>
-<Ability id="class-warpriest-focus-weapon" icon={["stairs-goal"]}>
-<Pair single id="class-warpriest-focus-weapon">Focus Weapon</Pair>
+<Ability id="focus-weapon" icon={["stairs-goal"]}>
+<Pair single id="focus-weapon">Focus Weapon</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You receive <Link to="/feat/weapon_focus">Weapon Focus</Link> as a bonus feat (you can choose any weapon, not just your deity's favored weapon).</Pair>
 </Ability>
@@ -1849,8 +1849,8 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <p>If multiple weapons are enhanced, each one consumes rounds of use individually. The enhancement bonus and special abilities are determined the first time the ability is used each day, and cannot be changed until the next day. These bonuses do not apply if another creature is wielding the weapon, but they continue to be in effect if the weapon otherwise leaves your possession (such as if the weapon is thrown). This ability can be ended as a <strong className="hl">free action</strong> at the start of your turn (that round does not count against the total duration, unless the ability is resumed during the same round). If you use this ability on a <Link to="/misc/double">double</Link> weapon, the effects apply to only one end of the weapon.</p>
 </Pair>
 </Ability>
-<Ability id="class-warpriest-fervor-su" icon={["remedy","magic-palm","magic-swirl"]}>
-<Pair single id="class-warpriest-fervor-su" flavor="A warpriest can draw upon the power of his faith to heal wounds or harm foes. He can also use this ability to quickly cast spells that aid in his struggles.">Fervor (Su)</Pair>
+<Ability id="fervor-su" icon={["remedy","magic-palm","magic-swirl"]}>
+<Pair single id="fervor-su" flavor="A warpriest can draw upon the power of his faith to heal wounds or harm foes. He can also use this ability to quickly cast spells that aid in his struggles.">Fervor (Su)</Pair>
 <Pair title="Ability">If you spontaneously cast <em>cure</em> spells, this ability harms undead (no save) and heals other creatures as positive energy. Otherwise, it heals undead and harms other creatures (no save) as negative energy.</Pair>
 <Pair title="Usage">Wis modifier times/day + 1/2 your warpriest level</Pair>
 <Pair title="Standard Action">By expending one use of this ability, you can touch a creature to heal it of 1d6 points of damage, or damage it for the same amount. Attempting to harm is a melee touch attack that provokes attacks of opportunity.</Pair>
@@ -1862,8 +1862,8 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <Pair title="At 17th Level">The damage you deal or heal becomes 6d6.</Pair>
 <Pair title="At 20th Level">The damage you deal or heal becomes 7d6.</Pair>
 </Ability>
-<Ability id="class-warpriest-bonus-feats" icon={["stairs-goal"]}>
-<Pair single id="class-warpriest-bonus-feats">Bonus Feats</Pair>
+<Ability id="bonus-feats" icon={["stairs-goal"]}>
+<Pair single id="bonus-feats">Bonus Feats</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You gain a bonus <Link to="/main/combat_feat">combat feat</Link> in addition to those gained from normal advancement. You must meet the prerequisites for this feat, but you treat your warpriest level as your base attack bonus (in addition to base attack bonuses gained from other classes and Hit Dice) for the purpose of qualifying for this feat. Finally, for the purposes of this feat, you can select one that have a minimum number of fighter levels as a prerequisite, treating your warpriest level as your fighter level.</Pair>
 <Pair title="At 6th Level">You gain another bonus combat feat, following the same restrictions as above.</Pair>
@@ -1872,8 +1872,8 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <Pair title="At 15th Level">You gain another bonus combat feat, following the same restrictions as above.</Pair>
 <Pair title="At 18th Level">You gain another bonus combat feat, following the same restrictions as above.</Pair>
 </Ability>
-<Ability id="class-warpriest-channel-energy-su" icon={["aura","remedy"]}>
-<Pair single id="class-warpriest-channel-energy-su">Channel Energy (Su)</Pair>
+<Ability id="channel-energy-su" icon={["aura","remedy"]}>
+<Pair single id="channel-energy-su">Channel Energy (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain the ability to <Link to="/ability/channel_energy">channel energy</Link> like a cleric, by presenting your holy (or unholy) symbol.</Pair>
 <Pair title="Standard Action">By expending two uses of your <em>fervor,</em> you cause a <Link to="/misc/burst">burst</Link> that heals (or deals damage to) all creatures in a 30-foot radius centered on you (following the same rules as your <em>fervor</em>). The amount of damage healed or dealt is equal to that of your <em>fervor</em> ability. You can choose whether or not to include yourself in this effect.</Pair>
@@ -1894,8 +1894,8 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <Pair title="At 16th Level">The bonus becomes +4.</Pair>
 <Pair title="At 19th Level">The bonus increases to +5.</Pair>
 </Ability>
-<Ability id="class-warpriest-aspect-of-war-su" icon={["upgrade","armor-upgrade","magic-swirl"]}>
-<Pair single id="class-warpriest-aspect-of-war-su" flavor="The warpriest can channel an aspect of war, growing in power and martial ability.">Aspect of War (Su)</Pair>
+<Ability id="aspect-of-war-su" icon={["upgrade","armor-upgrade","magic-swirl"]}>
+<Pair single id="aspect-of-war-su" flavor="The warpriest can channel an aspect of war, growing in power and martial ability.">Aspect of War (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Swift Action">You can treat your level as your base attack bonus, gain DR 10/-, and can move at your full speed regardless of the armor you are wearing or your encumbrance. In addition, the <em>blessings</em> you call upon don't count against your daily limit during this time. This ability lasts for 1 minute.</Pair>
@@ -1936,7 +1936,7 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <h3 id="class-warpriest-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"warpriest archetypes","columns":[{"header":"Archetype","link":"arc-warpriest"},{"header":"Alignment"},{"header":"Armor Proficiency"},{"header":"Aspect of War"},{"header":"Blessings"},{"header":"Blessings (Major)"},{"header":"Bonus Feats"},{"header":"3rd-level Bonus Feat"},{"header":"6th-level Bonus Feat"},{"header":"9th-level Bonus Feat"},{"header":"12th-level Bonus Feat"},{"header":"15th-level Bonus Feat"},{"header":"18th-level Bonus Feat"},{"header":"Bonus Languages"},{"header":"Channel Energy"},{"header":"Class Skills"},{"header":"Deity"},{"header":"Fervor"},{"header":"Focus Weapon"},{"header":"Sacred Armor"},{"header":"Sacred Weapon"},{"header":"Skill Ranks"},{"header":"Spellcasting"},{"header":"Spontaneous Casting"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Calamity Caller","calamity_caller"],null,null,"X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null],[["Champion of the Faith","champion_of_the_faith"],null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null],[["Cult Leader","cult_leader"],null,null,null,null,null,null,"X",null,"X","X","X",null,null,"X","X",null,null,"X",null,null,"X",null,null,"X"],[["Disenchanter","disenchanter"],null,null,null,null,null,"X",null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Divine Champion","divine_champion"],null,null,null,null,null,null,"X","X","X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null],[["Divine Commander","divine_commander"],null,null,null,"X",null,null,"X","X",null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null],[["Feral Champion","feral_champion"],null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null],[["Fist of the Godclaw","fist_of_the_godclaw"],"X",null,"X","X",null,null,"X","X",null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null],[["Forgepriest","forgepriest"],null,null,null,"X",null,"X","X","X",null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null],[["Jistkan Magistrate","jistkan_magistrate"],null,null,null,"X",null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,"X",null],[["Liberty's Blade","libertys_blade"],null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,null,null],[["Mantis Zealot","mantis_zealot"],"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X","X",null,null,null,"X"],[["Molthuni Arsenal Chaplain","molthuni_arsenal_chaplain"],null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,null,null],[["Proclaimer","proclaimer"],"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X","X",null,"X",null,null,null,"X",null],[["Proselytizer","proselytizer"],null,null,null,"X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,"X"],[["Sacred Fist","sacred_fist"],null,null,null,null,null,null,"X","X","X","X",null,"X",null,null,"X",null,null,"X","X","X",null,null,null,"X"],[["Shieldbearer","shieldbearer"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,null],[["Sixth Wing Bulwark","sixth_wing_bulwark"],null,"X",null,null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,"X","X","X",null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-warpriest-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="warpriest" prefix="class-warpriest-" />
+<RacialOptions cls="warpriest" />
 </>};
 const _witch = {hasJL:true,title: "Witch", jsx: <><div className="jumpList" id="class-witch-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-witch-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-witch-hex">Hex</InnerLink></li><li><InnerLink toTop to="class-witch-witchs-familiar-ex">Witch's Familiar</InnerLink></li><li><InnerLink toTop to="class-witch-patron-spells">Patron Spells</InnerLink></li><li><InnerLink toTop to="class-witch-major-hex">Major and Grand Hex</InnerLink></li><li><InnerLink toTop to="class-witch-adding-spells-to-a-witchs-familiar">Adding Spells to a Witch's Familiar</InnerLink></li><li><InnerLink toTop to="class-witch-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-witch-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-witch-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-witch-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-witch-witch">Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 65</Link></p>
@@ -2327,40 +2327,40 @@ const _witch = {hasJL:true,title: "Witch", jsx: <><div className="jumpList" id="
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={1}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>No</td></tr><tr><th>Shields?</th><td colSpan={2}>No</td></tr><tr><td colSpan={3} className="sw se">Armor interferes with a witch's gestures, which can cause her spells with somatic components to fail.</td></tr></tbody></table>
-<Ability id="class-witch-spells" icon={["magic-swirl"]}><Pair single id="class-witch-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Intelligence score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Intelligence score.</Pair>
-<Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_witch">witch spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Intelligence modifier. You must choose and prepare your spells in advance.</Pair><Pair title="Special">You may know any number of spells. You must choose and prepare your spells ahead of time by getting 8 hours of sleep and spending 1 hour communing with your familiar and deciding which spells to prepare.</Pair></Ability><Ability id="class-witch-cantrips" icon={["magic-swirl"]}>
-<Pair single id="class-witch-cantrips">Cantrips</Pair>
+<Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_witch">witch spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Intelligence modifier. You must choose and prepare your spells in advance.</Pair><Pair title="Special">You may know any number of spells. You must choose and prepare your spells ahead of time by getting 8 hours of sleep and spending 1 hour communing with your familiar and deciding which spells to prepare.</Pair></Ability><Ability id="cantrips" icon={["magic-swirl"]}>
+<Pair single id="cantrips">Cantrips</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of cantrips, or 0-level arcane spells. These spells are prepared like any other spell, but they are not expended when cast and may be used again. Cantrips prepared using other spell slots, such as those due to metamagic feats, are expended normally.</Pair>
 </Ability>
-<Ability id="class-witch-hex" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-witch-hex" flavor="Witches learn a number of magic tricks, called hexes, that grant them powers or weaken foes.">Hex</Pair>
+<Ability id="hex" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="hex" flavor="Witches learn a number of magic tricks, called hexes, that grant them powers or weaken foes.">Hex</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain one <Link to="/ability/hexes">hex</Link> of your choice. Unless otherwise noted, using a hex is a <strong className="hl">standard action</strong> that does not provoke an attack of opportunity. The save to resist a hex is equal to 10 + <Link to="/misc/half">half</Link> your witch level + your Intelligence modifier.</Pair>
 <Pair title="Special">You gain a new hex at 2nd level, and at every even-numbered level (4th, 6th, 8th, and so on). You cannot select an individual hex more than once.</Pair>
 </Ability>
 <aside><p>Alternately, whenever the witch would learn a new hex, she can instead gain a bonus <Link to="/main/feats_familiar">familiar feat</Link> or take a <Link to="/main/feats_blood_hex">blood hex feat</Link>.</p>
-</aside><Ability id="class-witch-witchs-familiar-ex" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-witch-witchs-familiar-ex" flavor="A witch forms a close bond with a familiar, a creature that teaches her magic and helps to guide her along her path. Familiars also aid a witch by granting her skill bonuses, additional spells, and help with some types of magic.">Witch's Familiar (Ex)</Pair>
+</aside><Ability id="witchs-familiar-ex" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="witchs-familiar-ex" flavor="A witch forms a close bond with a familiar, a creature that teaches her magic and helps to guide her along her path. Familiars also aid a witch by granting her skill bonuses, additional spells, and help with some types of magic.">Witch's Familiar (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">This functions like the wizard's arcane bond class feature, except as noted in this section. You must commune with your <Link to="/sidekick/familiar">familiar</Link> each day to prepare your spells. Familiars store all of the spells that a witch knows, and you cannot prepare a spell that is not stored by your familiar. Your familiar begins play storing all of the 0-level witch spells plus three 1st-level spells of your choice. You also select a number of additional 1st-level spells equal to your Intelligence modifier to store in your familiar.</Pair>
 <Pair title="Special">At each new witch level, you add two new spells of any spell level or levels that you can cast (based on your new witch level) to your familiar. You can also add additional spells to your familiar through a special ritual, described below under <em>Adding Spells to a Witch's Familiar.</em></Pair>
 </Ability>
-<Ability id="class-witch-patron-spells" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-witch-patron-spells">Patron Spells</Pair>
+<Ability id="patron-spells" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="patron-spells">Patron Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">When you gain your familiar, you must also select a patron. This <Link to="/ability/patrons">patron</Link> is a vague and mysterious force, granting you power for reasons that you might not entirely understand. While these forces need not be named, they typically hold influence over a certain force.</Pair>
 <Pair title="Special">At 2nd level, and every two levels thereafter, your patron adds new spells to your list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. Its actual name is up to the GM and the witch to decide.</Pair>
 </Ability>
-<Ability id="class-witch-major-hex" icon={["upgrade"]}>
-<Pair single id="class-witch-major-hex">Major Hex</Pair>
+<Ability id="major-hex" icon={["upgrade"]}>
+<Pair single id="major-hex">Major Hex</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">You can choose a <Link to="/ability/major_hexes">major hex</Link> whenever you could select a new hex.</Pair>
 </Ability>
-<Ability id="class-witch-grand-hex" icon={["upgrade"]}>
-<Pair single id="class-witch-grand-hex">Grand Hex</Pair>
+<Ability id="grand-hex" icon={["upgrade"]}>
+<Pair single id="grand-hex">Grand Hex</Pair>
 <Pair title="Gained">At 18th Level</Pair>
 <Pair title="Ability">You can choose a <Link to="/ability/grand_hexes">grand hex</Link> whenever you could select a new hex.</Pair>
 </Ability>
@@ -2428,7 +2428,7 @@ const _witch = {hasJL:true,title: "Witch", jsx: <><div className="jumpList" id="
 <h3 id="class-witch-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"witch archetypes","columns":[{"header":"Archetype","link":"arc-witch"},{"header":"Alertness"},{"header":"Alignment"},{"header":"Cantrips"},{"header":"Class Skills"},{"header":"Deliver Touch Spells"},{"header":"Familiar"},{"header":"Hexes"},{"header":"1st-level Hex"},{"header":"2nd-level Hex"},{"header":"4th-level Hex"},{"header":"6th-level Hex"},{"header":"8th-level Hex"},{"header":"10th-level Hex"},{"header":"12th-level Hex"},{"header":"14th-level Hex"},{"header":"16th-level Hex"},{"header":"20th-level Hex"},{"header":"Major Hex"},{"header":"Grand Hex"},{"header":"Key Ability Score"},{"header":"Patron"},{"header":"Patron Spells"},{"header":"4th-level Patron Spell"},{"header":"10th-level Patron Spell"},{"header":"16th-level Patron Spell"},{"header":"18th-level Patron Spell"},{"header":"Spellcasting"},{"header":"Weapon Proficiency"}],"data":[[["Alley Witch","alley_witch"],null,null,null,null,null,"X",null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Ashiftah","ashiftah"],null,null,null,null,null,"X",null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Beast-Bonded","beast_bonded"],null,null,null,null,null,null,null,null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Bonded Witch","bonded_witch"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Bouda","bouda"],null,"X",null,null,null,"X",null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Cartomancer","cartomancer"],null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Coral Witch","coral_witch"],null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Demon-Sworn","demon_sworn"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Dimensional Occultist","dimensional_occultist"],null,null,null,null,null,null,null,null,"X",null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Dreamweaver","dreamweaver"],null,null,null,"X",null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Flood Walker","flood_walker"],null,"X",null,"X",null,null,null,"X",null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,"X","X","X","X",null,null],[["Gingerbread Witch","gingerbread_witch"],null,null,null,null,null,"X",null,"X",null,"X",null,"X","X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null],[["Gravewalker","gravewalker"],null,null,null,null,null,"X",null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Hag of Gyronna","hag_of_gyronna"],null,null,null,null,null,null,null,null,"X",null,null,"X",null,"X",null,null,null,null,null,null,"X","X",null,null,null,null,null,null],[["Hagbound","hagbound"],null,null,null,null,null,null,null,"X","X","X",null,"X","X","X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null],[["Havocker","havocker"],null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Hedge Witch","hedge_witch"],null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Herb Witch","herb_witch"],null,null,null,null,null,null,null,"X","X",null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Hex Channeler","hex_channeler"],null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Invoker","invoker"],null,null,null,null,null,null,null,"X",null,null,null,"X","X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null],[["Jinx Witch","jinx_witch"],null,null,null,"X",null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Ley Line Guardian","ley_line_guardian"],null,null,null,null,null,"X",null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null],[["Medium","medium"],null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null],[["Mirror Witch","mirror_witch"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Mountain Witch","mountain_witch"],null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Nexian Spellspy","nexian_spellspy"],null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Pact Witch","pact_witch"],null,"X",null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Patron Familiars","patron_familiars"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Putrefactor","putrefactor"],null,null,null,null,null,"X",null,"X","X","X","X",null,"X",null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null],[["Rhetorician","rhetorician"],null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Scarred Witch Doctor","scarred_witch_doctor"],null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null],[["Sea Witch","sea_witch"],null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Season Witch","season_witch"],null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Seducer","seducer"],null,null,null,null,null,null,null,"X",null,null,"X","X",null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null],[["Synergist","synergist"],null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null],[["Tatterdemalion","tatterdemalion"],null,null,"X",null,null,null,null,"X",null,"X",null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,"X"],[["Vellemancer","vellemancer"],null,null,null,"X",null,null,null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Veneficus Witch","veneficus_witch"],null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Venom Siphoner","venom_siphoner"],"X",null,null,null,null,null,null,"X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["White-Haired Witch","white_haired_witch"],null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null],[["Winter Witch","winter_witch"],null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Witch-Watcher","witch_watcher"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null],[["Wyrm Witch","wyrm_witch"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-witch-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="witch" prefix="class-witch-" />
+<RacialOptions cls="witch" />
 </>};
 const _wizard = {hasJL:true,title: "Wizard", jsx: <><div className="jumpList" id="class-wizard-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-wizard-bonus-languages">Bonus Languages</InnerLink></li><li><InnerLink toTop to="class-wizard-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-wizard-arcane-bond-ex-or-sp">Arcane Bond</InnerLink></li><li><InnerLink toTop to="class-wizard-arcane-school">Arcane School</InnerLink></li><li><InnerLink toTop to="class-wizard-scribe-scroll">Scribe Scroll</InnerLink></li><li><InnerLink toTop to="class-wizard-bonus-feats">Bonus Feats</InnerLink></li><li><InnerLink toTop to="class-wizard-arcane-discoveries">Arcane Discoveries</InnerLink></li><li><InnerLink toTop to="class-wizard-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-wizard-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-wizard-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-wizard-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-wizard-wizard">Wizard</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 77</Link></p>
@@ -2819,31 +2819,31 @@ const _wizard = {hasJL:true,title: "Wizard", jsx: <><div className="jumpList" id
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={3}>Weapons</th><td><Link to="/eq-weapon/club">club</Link></td><td><Link to="/eq-weapon/dagger">dagger</Link></td></tr><tr><td><Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link></td><td><Link to="/eq-weapon/light_crossbow">light crossbow</Link></td></tr><tr><td colSpan={2}><Link to="/eq-weapon/quarterstaff">quarterstaff</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>No</td></tr><tr><th>Shields?</th><td colSpan={2}>No</td></tr><tr><td colSpan={3} className="sw se">Armor interferes with a wizard's movements, which can cause his spells with somatic components to fail.</td></tr></tbody></table>
-<Ability id="class-wizard-bonus-languages" icon={["stairs-goal"]}>
-<Pair single id="class-wizard-bonus-languages">Bonus Languages</Pair>
+<Ability id="bonus-languages" icon={["stairs-goal"]}>
+<Pair single id="bonus-languages">Bonus Languages</Pair>
 <Pair title="Ability">You may substitute Draconic for one of the bonus languages available to you because of your race.</Pair>
 </Ability>
-<Ability id="class-wizard-spells" icon={["magic-swirl"]}><Pair single id="class-wizard-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn, prepare, or cast a spell, you must have a Intelligence score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Intelligence score.</Pair>
-<Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_wizard">wizard spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Intelligence modifier. You must choose and prepare your spells in advance.</Pair><Pair title="Special">You may know any number of spells. You must choose and prepare your spells ahead of time by getting 8 hours of sleep and spending 1 hour studying your spellbook and deciding which spells to prepare.</Pair></Ability><Ability id="class-wizard-cantrips" icon={["magic-swirl"]}>
-<Pair single id="class-wizard-cantrips">Cantrips</Pair>
+<Pair title="Ability">You gain the ability to cast arcane spells which are drawn from the <Link to="/main/spells_wizard">wizard spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Intelligence modifier. You must choose and prepare your spells in advance.</Pair><Pair title="Special">You may know any number of spells. You must choose and prepare your spells ahead of time by getting 8 hours of sleep and spending 1 hour studying your spellbook and deciding which spells to prepare.</Pair></Ability><Ability id="cantrips" icon={["magic-swirl"]}>
+<Pair single id="cantrips">Cantrips</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You can prepare a number of cantrips, or 0-level arcane spells, each day. These spells are cast like any other but they are not expended when cast and may be used again. You can prepare a cantrip from a prohibited school, but it uses up two of your available slots.</Pair>
 </Ability>
-<Ability id="class-wizard-spellbooks" icon={["magic-swirl"]}>
-<Pair single id="class-wizard-spellbooks">Spellbooks</Pair>
+<Ability id="spellbooks" icon={["magic-swirl"]}>
+<Pair single id="spellbooks">Spellbooks</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must study your spellbook each day to prepare your spells. You can't prepare any spell not recorded in your spellbook, except for <Link to="/spell/read_magic">read magic</Link> (which all wizards can prepare from memory).</Pair>
 <Pair title="Special">You begin play with a spellbook containing all 0-level wizard spells (except those from your prohibited schools, if any; see <em>Arcane Schools</em>) plus three 1st-level spells of your choice. You also select a number of additional 1st-level spells equal to your Intelligence modifier to add to the spellbook. At each new wizard level, you gain two new spells of any spell level or levels that you can cast (based on your new wizard level) for your spellbook. At any time, you can also add spells found in wizards' spellbooks to your own (see <Link to="/rule/arcane_magical_writing">Arcane Magical Writing</Link>).</Pair>
 </Ability>
-<Ability id="class-wizard-arcane-bond-ex-or-sp" extraClasses="hasSubs" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-wizard-arcane-bond-ex-or-sp" flavor="At 1st level, wizards form a powerful bond with an object or a creature.">Arcane Bond (Ex or Sp)</Pair>
+<Ability id="arcane-bond-ex-or-sp" extraClasses="hasSubs" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="arcane-bond-ex-or-sp" flavor="At 1st level, wizards form a powerful bond with an object or a creature.">Arcane Bond (Ex or Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice">This bond can take one of two forms: a familiar or a bonded object. Once you make this choice, it is permanent and cannot be changed.</Pair>
 </Ability>
-<Ability id="class-wizard-familiar" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
-<Pair single id="class-wizard-familiar">Familiar</Pair>
+<Ability id="familiar" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Pair single id="familiar">Familiar</Pair>
 <Pair title="Ability">A <Link to="/sidekick/familiar">familiar</Link> is a magical pet that enhances your skills and senses and can aid you in magic. The full rules for familiars can be found <Link to="/ability/familiars">here</Link>.</Pair>
 </Ability>
 <Ability id="class-wizard-bonded-object" extraClasses="subAbility numbered" icon={["magic-swirl"]}>
@@ -2863,13 +2863,13 @@ const _wizard = {hasJL:true,title: "Wizard", jsx: <><div className="jumpList" id
 </Pair>
 <Pair title="Special">This choice must be made at 1st level, and once made, it cannot be changed. If you choose not to specialize, you receive the <Link to="/arcaneschool/universalist">universalist</Link> school instead; a universalist wizard has no opposition schools and thus can prepare spells from any school without restriction, but he does not receive a school slot.</Pair>
 </Ability>
-<Ability id="class-wizard-scribe-scroll" icon={["stairs-goal"]}>
-<Pair single id="class-wizard-scribe-scroll">Scribe Scroll</Pair>
+<Ability id="scribe-scroll" icon={["stairs-goal"]}>
+<Pair single id="scribe-scroll">Scribe Scroll</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">you gain <Link to="/feat/scribe_scroll">Scribe Scroll</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="class-wizard-bonus-feats" icon={["stairs-goal"]}>
-<Pair single id="class-wizard-bonus-feats">Bonus Feats</Pair>
+<Ability id="bonus-feats" icon={["stairs-goal"]}>
+<Pair single id="bonus-feats">Bonus Feats</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">You gain a bonus feat from the following choices: <Link to="/feat/spell_mastery">Spell Mastery</Link>, <Link to="/feat/eldritch_aid">Eldritch Aid</Link>, <Link to="/feat/planned_spontaneity">Planned Spontaneity</Link>, any <Link to="/main/metamagic_feat">metamagic feat</Link>, any <Link to="/main/item_creation_feat">item creation feat</Link>, or any <Link to="/main/feats_familiar">familiar feat</Link>. You must meet all prerequisites for a bonus feat, including caster level minimums.</Pair>
 <Pair title="At 10th Level">You gain another bonus feat from the given choices. You still need to meet its prerequisites.</Pair>
@@ -2928,6 +2928,6 @@ const _wizard = {hasJL:true,title: "Wizard", jsx: <><div className="jumpList" id
 <h3 id="class-wizard-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"wizard archetypes","columns":[{"header":"Archetype","link":"arc-wizard"},{"header":"Alignment"},{"header":"Arcane Bond"},{"header":"Arcane School"},{"header":"1st-level Arcane School Ability"},{"header":"6th-level Arcane School Ability"},{"header":"8th-level Arcane School Ability"},{"header":"Bonus Feats"},{"header":"5th-level Bonus Feat"},{"header":"10th-level Bonus Feat"},{"header":"15th-level Bonus Feat"},{"header":"20th-level Bonus Feat"},{"header":"Bonus School Spell Slots"},{"header":"Cantrips"},{"header":"Class Skills"},{"header":"Metamagic Mastery"},{"header":"Scribe Scroll"},{"header":"Spellbook"},{"header":"Spellcasting"}],"data":[[["Absalom: Arcanamirium Crafter","absalom_arcanamirium_crafter"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Arcane Bomber","arcane_bomber"],null,"X","X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null],[["Arcane Physician","arcane_physician"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Arcane Warden","arcane_warden"],null,null,"X",null,null,null,"X",null,null,null,null,null,null,"X","X","X",null,null],[["Bonded Wizard","bonded_wizard"],null,null,null,null,null,null,null,"X","X","X",null,null,null,null,null,"X",null,null],[["Cheliax: Egorian Academy Infernal Binder","cheliax_egorian_academy_infernal_binder"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Chronomancer","chronomancer"],null,"X",null,null,null,null,null,null,"X","X","X",null,null,null,null,null,null,null],[["Clocksmith","clocksmith"],null,"X","X",null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null],[["Cruoromancer","cruoromancer"],null,"X",null,null,null,null,null,"X","X","X","X",null,null,null,null,null,null,null],[["Elder Mythos Scholar","elder_mythos_scholar"],null,"X",null,"X",null,"X",null,"X","X",null,null,null,null,null,null,"X","X",null],[["Exploiter Wizard","exploiter_wizard"],null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Familiar Adept","familiar_adept"],null,"X",null,null,null,null,null,"X","X",null,null,null,null,null,null,"X","X",null],[["First World Caller","first_world_caller"],null,"X","X",null,null,null,null,null,"X","X",null,null,null,null,null,"X",null,null],[["Hallowed Necromancer","hallowed_necromancer"],null,null,"X",null,null,null,null,"X","X","X",null,null,null,null,null,"X",null,"X"],[["Instructor","instructor"],null,"X",null,null,null,null,null,"X","X","X","X",null,null,null,null,null,null,null],[["Pact Wizard (FF)","pact_wizard_ff"],null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Pact Wizard (HHH)","pact_wizard_hhh"],null,null,null,null,null,null,null,"X","X","X","X",null,null,null,null,"X",null,"X"],[["Poleiheira Adherent","poleiheira_adherent"],null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Primalist","primalist"],null,"X",null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null],[["Qadira: Mage of the Veil","qadira_mage_of_the_veil"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Runesage","runesage"],null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Scroll Scholar","scroll_scholar"],null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X"],[["Scrollmaster","scrollmaster"],null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Shadowcaster","shadowcaster"],null,"X",null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null],[["Siege Mage","siege_mage"],null,"X","X",null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null],[["Spell Sage","spell_sage"],null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Spellbinder","spellbinder"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Spellslinger","spellslinger"],null,"X","X",null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null],[["Spirit Binder","spirit_binder"],null,"X","X",null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null],[["Spirit Whisperer","spirit_whisperer"],null,"X","X",null,null,null,"X",null,null,null,"X",null,null,null,null,null,"X",null],[["Sword Binder","sword_binder"],null,"X","X",null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null],[["Thassilonian Specialist","thassilonian_specialist"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Undead Master","undead_master"],"X","X","X",null,null,null,null,"X","X","X","X",null,null,null,null,"X",null,null],[["Wind Listener","wind_listener"],null,"X","X",null,null,null,null,"X","X","X",null,null,null,"X",null,null,null,null],[["Worldseeker","worldseeker"],null,"X",null,null,"X","X",null,"X",null,"X",null,null,null,null,null,"X",null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-wizard-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="wizard" prefix="class-wizard-" />
+<RacialOptions cls="wizard" />
 </>};
 export default {medium:_medium,samurai:_samurai,shaman:_shaman,warpriest:_warpriest,witch:_witch,wizard:_wizard}

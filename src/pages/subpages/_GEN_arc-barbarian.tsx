@@ -6,29 +6,29 @@ import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 const _armored_hulk = {title: "Armored Hulk", jsx: <><h2 id="arc-barbarian-armored_hulk-armored-hulk">Armored Hulk</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 28</Link><br/>Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle.</p>
-<Ability id="arc-barbarian-armored_hulk-weapon-and-armor-proficiency" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-armored_hulk-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Ability id="weapon-and-armor-proficiency" icon={["stairs-goal"]}>
+<Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Ability">An armored hulk gains proficiency in heavy armor.</Pair>
 </Ability>
-<Ability id="arc-barbarian-armored_hulk-indomitable-stance-ex" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="arc-barbarian-armored_hulk-indomitable-stance-ex">Indomitable Stance (Ex)</Pair>
+<Ability id="indomitable-stance-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="indomitable-stance-ex">Indomitable Stance (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Passive Ability">An armored hulk gains a +1 bonus on combat maneuver checks and to CMD for overrun combat maneuvers, and on Reflex saves against <Link to="/umr/trample">trample</Link> attacks. She also gains a +1 bonus to her AC against charge attacks and on attack and damage rolls against charging creatures.</Pair>
 </Ability>
-<Ability id="arc-barbarian-armored_hulk-armored-swiftness-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-armored_hulk-armored-swiftness-ex">Armored Swiftness (Ex)</Pair>
+<Ability id="armored-swiftness-ex" icon={["upgrade"]}>
+<Pair single id="armored-swiftness-ex">Armored Swiftness (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">When wearing medium or heavy armor, an armored hulk can move 5 feet faster than normal, to a maximum of her speed.</Pair>
 </Ability>
-<Ability id="arc-barbarian-armored_hulk-resilience-of-steel-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-armored_hulk-resilience-of-steel-ex">Resilience of Steel (Ex)</Pair>
+<Ability id="resilience-of-steel-ex" icon={["armor-upgrade"]}>
+<Pair single id="resilience-of-steel-ex">Resilience of Steel (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">While wearing heavy armor, she gains a bonus to AC that applies only on critical hit confirmation rolls. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
 </Ability>
-<Ability id="arc-barbarian-armored_hulk-improved-armored-swiftness-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-armored_hulk-improved-armored-swiftness-ex">Improved Armored Swiftness (Ex)</Pair>
+<Ability id="improved-armored-swiftness-ex" icon={["upgrade"]}>
+<Pair single id="improved-armored-swiftness-ex">Improved Armored Swiftness (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">An armored hulk's land speed is faster than the norm for her race by +10 feet.</Pair>
@@ -38,8 +38,8 @@ const _armored_hulk = {title: "Armored Hulk", jsx: <><h2 id="arc-barbarian-armor
 </>};
 const _beastkin_berserker = {title: "Beastkin Berserker", jsx: <><h2 id="arc-barbarian-beastkin_berserker-beastkin-berserker">Beastkin Berserker</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 21</Link><br/>While some barbarians take on bestial aspects in their rages, the beastkin berserker descends so deeply into primal fury that she actually transforms into an animal. Berserkers of the surface world often associate with predators such as bears or wolves, and are sometimes mistaken for lycanthropes. The barbarians in Deep Tolguth shapechange into rampaging dinosaurs or megafauna, crafting their armor out of the hide and bones of their favored animals.</p>
-<Ability id="arc-barbarian-beastkin_berserker-savage-rapport-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-beastkin_berserker-savage-rapport-ex">Savage Rapport (Ex)</Pair>
+<Ability id="savage-rapport-ex" icon={["upgrade"]}>
+<Pair single id="savage-rapport-ex">Savage Rapport (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">A beastkin berserker gains a spiritual connection to a specific kind of creature with the animal type (such as a <Link to="/monster/badger">badger</Link> or a <Link to="/monster/triceratops">triceratops</Link>). She adds <Link to="/misc/half">half</Link> her level (minimum 1) on Handle Animal, Intimidate, and Sense Motive checks involving the chosen type of animal.</Pair>
@@ -48,8 +48,8 @@ const _beastkin_berserker = {title: "Beastkin Berserker", jsx: <><h2 id="arc-bar
 <Pair title="At 15th Level">The beastkin berserker can select a fourth kind of animal to which these bonuses apply.</Pair>
 <Pair title="At 20th Level">The beastkin berserker can select a fifth kind of animal to which these bonuses apply.</Pair>
 </Ability>
-<Ability id="arc-barbarian-beastkin_berserker-feral-transformation-su" icon={["magic-swirl"]}>
-<Pair single id="arc-barbarian-beastkin_berserker-feral-transformation-su">Feral Transformation (Su)</Pair>
+<Ability id="feral-transformation-su" icon={["magic-swirl"]}>
+<Pair single id="feral-transformation-su">Feral Transformation (Su)</Pair>
 <Pair hl title="Replaces">4th, 8th, and 12th level rage powers</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">When entering a <em>rage,</em> a beastkin berserker can take the form of a Small or Medium animal. This functions as <Link to="/spell/beast_shape_i">beast shape I</Link>, except the duration is for as long as the beastkin berserker rages and the animal must be one she has chosen with her <em>savage rapport.</em></Pair>
@@ -59,13 +59,13 @@ const _beastkin_berserker = {title: "Beastkin Berserker", jsx: <><h2 id="arc-bar
 </>};
 const _breaker = {title: "Breaker", jsx: <><h2 id="arc-barbarian-breaker-breaker">Breaker</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 78</Link><br/>While most barbarians are skilled at breaking things, some find the need to destroy their surroundings an almost uncontrollable urge when in the middle of a <em>rage.</em> These barbarians are a danger not only to their foes, but also to the very environment around them. A breaker barbarian has the following class features.</p>
-<Ability id="arc-barbarian-breaker-destructive-ex" icon={["mailed-fist","upgrade"]}>
-<Pair single id="arc-barbarian-breaker-destructive-ex">Destructive (Ex)</Pair>
+<Ability id="destructive-ex" icon={["mailed-fist","upgrade"]}>
+<Pair single id="destructive-ex">Destructive (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Passive Ability">Whenever the breaker barbarian makes a melee attack that targets an unattended object or makes a <Link to="/rule/sunder">sunder</Link> combat maneuver, she adds <Link to="/misc/half">half</Link> her barbarian level (minimum +1) on the damage roll.</Pair>
 </Ability>
-<Ability id="arc-barbarian-breaker-battle-scavenger-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-breaker-battle-scavenger-ex">Battle Scavenger (Ex)</Pair>
+<Ability id="battle-scavenger-ex" icon={["upgrade"]}>
+<Pair single id="battle-scavenger-ex">Battle Scavenger (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">The breaker barbarian suffers no penalty on attack rolls when using an <Link to="/misc/improvised_weapon">improvised weapon</Link> or a weapon with the <Link to="/misc/broken">broken</Link> condition.</Pair>
@@ -79,22 +79,22 @@ const _breaker = {title: "Breaker", jsx: <><h2 id="arc-barbarian-breaker-breaker
 </>};
 const _brutal_pugilist = {title: "Brutal Pugilist", jsx: <><h2 id="arc-barbarian-brutal_pugilist-brutal-pugilist">Brutal Pugilist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 78</Link><br/>Some barbarians focus on using their bare hands to tear their opponents limb from limb. These brutal pugilists also learn a great deal about various <Link to="/rule/combat_maneuvers">combat maneuvers</Link>, using them to cripple or crush their foes. A brutal pugilist has the following class features.</p>
-<Ability id="arc-barbarian-brutal_pugilist-savage-grapple-ex" icon={["upgrade","mailed-fist"]}>
-<Pair single id="arc-barbarian-brutal_pugilist-savage-grapple-ex">Savage Grapple (Ex)</Pair>
+<Ability id="savage-grapple-ex" icon={["upgrade","mailed-fist"]}>
+<Pair single id="savage-grapple-ex">Savage Grapple (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">The brutal pugilist takes only <Link to="/misc/half">half</Link> the normal penalties to Dexterity, attack rolls, and combat maneuver checks when she has the <Link to="/rule/grapple_conditions">grappled condition</Link>.</Pair>
 <Pair title="Ability">She can make an attack of opportunity against creatures trying to grapple her even if they possess the <Link to="/feat/improved_grapple">Improved Grapple</Link> feat or the <Link to="/umr/grab">grab</Link> special attack. If she hits with this attack of opportunity, she gains a +2 circumstance bonus to her CMD against the grapple attempt. She cannot make these attacks of opportunity once a grapple has succeeded.</Pair>
 </Ability>
-<Ability id="arc-barbarian-brutal_pugilist-pit-fighter-ex" icon={["mailed-fist","armor-upgrade"]}>
-<Pair single id="arc-barbarian-brutal_pugilist-pit-fighter-ex" flavor="The brutal pugilist has learned combat tricks from fighting in pit brawls and gladiatorial arenas.">Pit Fighter (Ex)</Pair>
+<Ability id="pit-fighter-ex" icon={["mailed-fist","armor-upgrade"]}>
+<Pair single id="pit-fighter-ex" flavor="The brutal pugilist has learned combat tricks from fighting in pit brawls and gladiatorial arenas.">Pit Fighter (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">She selects one <Link to="/rule/combat_maneuvers">combat maneuver</Link> and gains a +1 insight bonus on her CMB or to her CMD in that maneuver. This bonus increases to +2 if the barbarian is wearing no armor (shields are allowed).</Pair>
 <Pair title="Special">At every three levels after 3rd (6th, 9th 12th, 15th, and 18th), the barbarian may select another combat maneuver and add this bonus on her CMB or to her CMD. This bonus can be applied to each maneuver no more than twice, once on CMB and once to CMD.</Pair>
 </Ability>
-<Ability id="arc-barbarian-brutal_pugilist-improved-savage-grapple-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-brutal_pugilist-improved-savage-grapple-ex">Improved Savage Grapple (Ex)</Pair>
+<Ability id="improved-savage-grapple-ex" icon={["upgrade"]}>
+<Pair single id="improved-savage-grapple-ex">Improved Savage Grapple (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">The brutal pugilist takes no penalties to Dexterity, attack rolls, and combat maneuver checks when she has the grappled condition. She also is treated as one size larger than her actual size when determining whether she can be grappled using the <Link to="/umr/grab">grab</Link> ability or <Link to="/umr/swallow_whole">swallowed</Link> by another creature.</Pair>
@@ -103,16 +103,16 @@ const _brutal_pugilist = {title: "Brutal Pugilist", jsx: <><h2 id="arc-barbarian
 </>};
 const _brutish_swamper = {title: "Brutish Swamper", jsx: <><h2 id="arc-barbarian-brutish_swamper-brutish-swamper">Brutish Swamper</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 37</Link><br/>The hardy and insular denizens of the swamp produce warriors of narrow focus and great strength. The prejudice and misunderstanding with which civilized folk often regard barbarians is often even more pronounced in the case of these belligerent outcasts from society, in large part due to the fact that brutish swampers deliberately mock and antagonize the so-called "city folk." To a brutish swamper, an urban lifestyle is one that breeds weakness and lassitude in the body. The brutish swamper has little interest or patience in maintaining alliances or friendship with those who live such soft lifestyles, and this aggression only further encourages feelings of prejudice on both sides of the cultural divide. When a brutish swamper joins an adventuring party, they usually come to value the skills and talents of their more urbanized companions, but never fully understand the desire to live lives surrounded by creature comforts.</p>
-<Ability icon={["skills"]} id="arc-barbarian-brutish_swamper-undefined">
-<Pair id="arc-barbarian-brutish_swamper-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair></Ability>
-<Ability id="arc-barbarian-brutish_swamper-marsh-march-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-brutish_swamper-marsh-march-ex">Marsh March (Ex)</Pair>
+<Ability id="marsh-march-ex" icon={["upgrade"]}>
+<Pair single id="marsh-march-ex">Marsh March (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Passive Ability">A brutish swamper can move through the underbrush and muddy terrain of bogs and swamps at her normal speed without taking damage or suffering other impairments. Briars, mud, thorns, and overgrown areas that have been magically manipulated to impede motion, however, still affect her.</Pair>
 </Ability>
-<Ability id="arc-barbarian-brutish_swamper-home-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-brutish_swamper-home-ex">Home (Ex)</Pair>
+<Ability id="home-ex" icon={["upgrade"]}>
+<Pair single id="home-ex">Home (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A brutish swamper gains a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks when in swamps.</Pair>
@@ -123,8 +123,8 @@ const _brutish_swamper = {title: "Brutish Swamper", jsx: <><h2 id="arc-barbarian
 <Pair title="At 17th Level">The bonus becomes +7.</Pair>
 <Pair title="At 20th Level">The bonus becomes +8.</Pair>
 </Ability>
-<Ability id="arc-barbarian-brutish_swamper-stubborn-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-brutish_swamper-stubborn-ex">Stubborn (Ex)</Pair>
+<Ability id="stubborn-ex" icon={["armor-upgrade"]}>
+<Pair single id="stubborn-ex">Stubborn (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A brutish swamper resists any attempts to change her attitude or compel her to action. Diplomacy and Intimidate checks against her take a -2 penalty, and no result can shift her attitude more than one step in a 24-hour period.</Pair>
@@ -134,8 +134,8 @@ const _brutish_swamper = {title: "Brutish Swamper", jsx: <><h2 id="arc-barbarian
 <Pair title="At 15th Level">The penalty increases to -10.</Pair>
 <Pair title="At 18th Level">The penalty becomes -12.</Pair>
 </Ability>
-<Ability id="arc-barbarian-brutish_swamper-wrastlin-ex" icon={["armor-upgrade","mailed-fist"]}>
-<Pair single id="arc-barbarian-brutish_swamper-wrastlin-ex">Wrastlin (Ex)</Pair>
+<Ability id="wrastlin-ex" icon={["armor-upgrade","mailed-fist"]}>
+<Pair single id="wrastlin-ex">Wrastlin (Ex)</Pair>
 <Pair hl title="Replaces">6th-level rage power</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> a brutish swamper gains a +2 bonus to her CMD against <Link to="/rule/grapple">grapple</Link> combat maneuvers and a +2 bonus on damage rolls made as part of successful grapple combat maneuver checks.</Pair>
@@ -144,23 +144,23 @@ const _brutish_swamper = {title: "Brutish Swamper", jsx: <><h2 id="arc-barbarian
 </>};
 const _cave_dweller = {title: "Cave Dweller", jsx: <><h2 id="arc-barbarian-cave_dweller-cave-dweller">Cave Dweller</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 37</Link><br/>Unused to the light of the sun, cave dwellers use their subterranean expertise to protect their clans from the manifold dangers of deep caverns and tunnels. The typical cave dweller is perfectly content to live his entire life underground, and he may even view the light of the sun as particularly abhorrent or taboo. While this lifestyle doesn't in and of itself imply evil or sinister intent, many outlanders ignorantly assume that cave dwellers avoid the light of the sun for malicious reasons. In truth, cave dwellers are as capable of goodness and kindness as any other - they just see little reason to venture out of their preferred homelands. When a cave dweller joins an adventuring party, she may retain an inherent nervousness about sleeping under the open sky and may long for the familiar confines of a comforting cavern, but this rarely translates directly into a notable disadvantage. Indeed, many adventuring groups come to value the specialized talents and skills the cave dweller brings to the party.</p>
-<Ability icon={["skills"]} id="arc-barbarian-cave_dweller-undefined">
-<Pair id="arc-barbarian-cave_dweller-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Ride</Pair></Ability>
-<Ability id="arc-barbarian-cave_dweller-tight-tunnels-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-cave_dweller-tight-tunnels-ex">Tight Tunnels (Ex)</Pair>
+<Ability id="tight-tunnels-ex" icon={["upgrade"]}>
+<Pair single id="tight-tunnels-ex">Tight Tunnels (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Passive Ability">Cave dwellers pursue prey through the winding tunnels of the deep, which rarely accommodate open sprints. A cave dweller can make a single turn up to 90 degrees while <Link to="/rule/run">running</Link> (though not while <Link to="/rule/charging">charging</Link>). Additionally, a cave dweller takes no penalties to movement speed while <Link to="/misc/squeezing">squeezing</Link>.</Pair>
 </Ability>
-<Ability id="arc-barbarian-cave_dweller-tunnel-vision-ex" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-barbarian-cave_dweller-tunnel-vision-ex">Tunnel Vision (Ex)</Pair>
+<Ability id="tunnel-vision-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="tunnel-vision-ex">Tunnel Vision (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A cave dweller gains darkvision to a range of 60 feet and a bonus on Perception checks to detect ambushes, movement, and sound while in darkness. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
 </Ability>
-<Ability id="arc-barbarian-cave_dweller-sun-walker-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-cave_dweller-sun-walker-ex">Sun Walker (Ex)</Pair>
+<Ability id="sun-walker-ex" icon={["armor-upgrade"]}>
+<Pair single id="sun-walker-ex">Sun Walker (Ex)</Pair>
 <Pair hl title="Replaces">Damage reduction</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">A cave dweller gains a +1 dodge bonus to AC and on saving throws against effects with the light descriptor or that produce bright or sudden light. Any penalties on attack rolls, saving throws, or skill checks because of bright light are reduced by 1.</Pair>
@@ -173,31 +173,31 @@ const _cave_dweller = {title: "Cave Dweller", jsx: <><h2 id="arc-barbarian-cave_
 </>};
 const _deepwater_rager = {title: "Deepwater Rager", jsx: <><h2 id="arc-barbarian-deepwater_rager-deepwater-rager">Deepwater Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 28</Link><br/>Deepwater ragers bellow ferociously as they charge their enemies, tackling them into the raging seas. This archetype is compatible with both barbarians and unchained barbarians.</p>
-<Ability id="arc-barbarian-deepwater_rager-strong-lungs-ex" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-barbarian-deepwater_rager-strong-lungs-ex">Strong Lungs (Ex)</Pair>
+<Ability id="strong-lungs-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="strong-lungs-ex">Strong Lungs (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Passive Ability">A deepwater rager can <Link to="/misc/hold_her_breath">hold her breath</Link> for a number of rounds equal to four times her Constitution score, and she does not reduce the duration of her held breath by taking a standard action or a full-round action. Additionally, as long as she is able to speak, the deepwater rager adds her Constitution modifier to Intimidate skill checks in addition to her Charisma modifier.</Pair>
 </Ability>
-<Ability id="arc-barbarian-deepwater_rager-spiraling-charge-ex" icon={["mailed-fist"]}>
-<Pair single id="arc-barbarian-deepwater_rager-spiraling-charge-ex">Spiraling Charge (Ex)</Pair>
+<Ability id="spiraling-charge-ex" icon={["mailed-fist"]}>
+<Pair single id="spiraling-charge-ex">Spiraling Charge (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A deepwater rager is not required to move in a straight line when she charges, provided that no space she moves into while charging is farther away from her target than the space that she is leaving. The deepwater rager must be able to see her target at the beginning of her charge and cannot use this ability while mounted.</Pair>
 </Ability>
-<Ability id="arc-barbarian-deepwater_rager-disorienting-grapple-ex" icon={["mailed-fist"]}>
-<Pair single id="arc-barbarian-deepwater_rager-disorienting-grapple-ex" flavor="A deepwater rager becomes an expert in flipping and spinning opponents as they are grappled.">Disorienting Grapple (Ex)</Pair>
+<Ability id="disorienting-grapple-ex" icon={["mailed-fist"]}>
+<Pair single id="disorienting-grapple-ex" flavor="A deepwater rager becomes an expert in flipping and spinning opponents as they are grappled.">Disorienting Grapple (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">An opponent <Link to="/rule/grapple">grappled</Link> by the deepwater rager gains the <Link to="/misc/sickened">sickened</Link> condition for as long as it has the grappled condition. When the creature's grappled condition ends, for any reason, it must succeed at an Acrobatics check (with a DC equal to the deepwater rager's CMD) or fall <Link to="/rule/prone">prone</Link>.</Pair>
 </Ability>
-<Ability id="arc-barbarian-deepwater_rager-crushing-grapple-ex" icon={["stairs-goal","mailed-fist"]}>
-<Pair single id="arc-barbarian-deepwater_rager-crushing-grapple-ex">Crushing Grapple (Ex)</Pair>
+<Ability id="crushing-grapple-ex" icon={["stairs-goal","mailed-fist"]}>
+<Pair single id="crushing-grapple-ex">Crushing Grapple (Ex)</Pair>
 <Pair hl title="Replaces">Indomitable will</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Ability">A deepwater rager gains the <Link to="/umr/constrict">constrict</Link> special attack, which deals an amount of damage equal to the damage her unarmed strike deals.</Pair>
 </Ability>
-<Ability id="arc-barbarian-deepwater_rager-full-lungs-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-deepwater_rager-full-lungs-ex">Full Lungs (Ex)</Pair>
+<Ability id="full-lungs-ex" icon={["stairs-goal"]}>
+<Pair single id="full-lungs-ex">Full Lungs (Ex)</Pair>
 <Pair hl title="Replaces">Tireless rage</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">A deepwater rager does not need to breathe while she is <em>raging.</em></Pair>
@@ -206,26 +206,26 @@ const _deepwater_rager = {title: "Deepwater Rager", jsx: <><h2 id="arc-barbarian
 </>};
 const _dreadnought = {title: "Dreadnought", jsx: <><h2 id="arc-barbarian-dreadnought-dreadnought">Dreadnought</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 47</Link><br/>Unstoppable and fearless, the dreadnought turns the terror of her enemies into violent physical power.</p>
-<Ability id="arc-barbarian-dreadnought-dead-calm-ex" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-barbarian-dreadnought-dead-calm-ex">Dead Calm (Ex)</Pair>
+<Ability id="dead-calm-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="dead-calm-ex">Dead Calm (Ex)</Pair>
 <Pair hl title="Alters">Rage</Pair>
 <Pair title="Free Action">A dreadnought can enter a dispassionate killing spree, granting her additional combat prowess. The dreadnought gains only <Link to="/misc/half">half</Link> the usual bonuses from her <em>rage</em> but takes no penalty to her AC, can use all her normal skills and effects that require concentration, and is not fatigued when her <em>rage</em> ends.</Pair>
 <Pair title="Special">The dreadnought cannot enter a <em>rage</em> for 1 minute after she ends her <em>rage,</em> and she cannot charge or run while under the effects of her <em>rage.</em></Pair>
 </Ability>
-<Ability id="arc-barbarian-dreadnought-stead-gait-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-dreadnought-stead-gait-ex">Stead Gait (Ex)</Pair>
+<Ability id="stead-gait-ex" icon={["armor-upgrade"]}>
+<Pair single id="stead-gait-ex">Stead Gait (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Passive Ability">A dreadnought advances steadily, shrugging off attempts to slow her advance. The dreadnought gains a +1 bonus on saving throws and to her CMD against effects that would slow or immobilize her.</Pair>
 <Pair title="Special">This bonus increases to +2 when she gains <em>greater rage</em> and +3 when she gains <em>mighty rage.</em></Pair>
 </Ability>
-<Ability id="arc-barbarian-dreadnought-fearless-killer-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-dreadnought-fearless-killer-su" flavor="A dreadnought becomes implacable in her pursuit of slaughter.">Fearless Killer (Su)</Pair>
+<Ability id="fearless-killer-su" icon={["armor-upgrade"]}>
+<Pair single id="fearless-killer-su" flavor="A dreadnought becomes implacable in her pursuit of slaughter.">Fearless Killer (Su)</Pair>
 <Pair hl title="Replaces">Indomitable will</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">While in <em>rage,</em> she is immune to fear effects.</Pair>
 </Ability>
-<Ability id="arc-barbarian-dreadnought-instant-dispassion-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-dreadnought-instant-dispassion-ex">Instant Dispassion (Ex)</Pair>
+<Ability id="instant-dispassion-ex" icon={["upgrade"]}>
+<Pair single id="instant-dispassion-ex">Instant Dispassion (Ex)</Pair>
 <Pair hl title="Replaces">Tireless rage</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Free Action">A dreadnought can quickly turn her compassion on and off. She can enter a <em>rage</em> as soon as she wants after ending a previous <em>rage.</em></Pair>
@@ -233,8 +233,8 @@ const _dreadnought = {title: "Dreadnought", jsx: <><h2 id="arc-barbarian-dreadno
 </>};
 const _drunken_brute = {title: "Drunken Brute", jsx: <><h2 id="arc-barbarian-drunken_brute-drunken-brute">Drunken Brute</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 78</Link><br/>Barbarians are known for their ability to consume potent drink, but drunken brutes turn drinking into a combat tactic, using the potent liquor to fuel their rage and grant them additional powers. A drunken brute has the following class feature.</p>
-<Ability id="arc-barbarian-drunken_brute-raging-drunk-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-drunken_brute-raging-drunk-ex">Raging Drunk (Ex)</Pair>
+<Ability id="raging-drunk-ex" icon={["stairs-goal"]}>
+<Pair single id="raging-drunk-ex">Raging Drunk (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Move-Equivalent Action">While <em>raging,</em> the drunken brute can drink a potion, or a tankard of ale or similar quantity of alcohol, as a move action that does not provoke attacks of opportunity. A potion has its normal effect, while an alcoholic drink allows the barbarian to maintain her <em>rage</em> that round without expending a round of <em>rage</em> for the day (instead of the alcohol's normal effects).</Pair>
 <Pair title="Special">For each alcoholic drink consumed while <em>raging,</em> the barbarian is <Link to="/misc/nauseated">nauseated</Link> for 1 round when her <em>rage</em> expires, in addition to the normal fatigue that follows a <em>rage. Tireless rage</em> does not negate this nauseated condition but the <em>internal fortitude</em> rage power does.</Pair>
@@ -243,34 +243,34 @@ const _drunken_brute = {title: "Drunken Brute", jsx: <><h2 id="arc-barbarian-dru
 </>};
 const _drunken_rager = {title: "Drunken Rager", jsx: <><h2 id="arc-barbarian-drunken_rager-drunken-rager">Drunken Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 12</Link><br/>These hotheaded, hard-drinking ruffians and brawlers are as dangerous in the midst of combat as they are in a tavern, and they wouldn't be caught dead without a libation for either occasion.</p>
-<Ability id="arc-barbarian-drunken_rager-drunken-rage-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-drunken_rager-drunken-rage-ex">Drunken Rage (Ex)</Pair>
+<Ability id="drunken-rage-ex" icon={["stairs-goal"]}>
+<Pair single id="drunken-rage-ex">Drunken Rage (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Standard Action">A drunken rager can drink a unit of ale or other strong alcohol while <em>raging</em> to gain 1 <em>drunken rage</em> point. The act of drinking is a standard action that does not provoke attacks of opportunity.</Pair>
 <Pair title="Free Action">A drunken rager can spend 1 <em>drunken rage</em> point to increase her movement speed by 20 feet for 1 round, provided she is wearing no armor, light armor, or medium armor and is not carrying a heavy load. She can also spend 1 <em>drunken rage</em> point to gain 1 additional round of her <em>rage</em> class feature, which lasts for 1 hour or until used.</Pair>
 <Pair title="Special">At 1st level, the barbarian can have a maximum of 1 <em>drunken rage</em> point; this maximum increases by 1 every 2 levels thereafter. These <em>drunken rage</em> points last for 1 hour or until spent, whichever comes first. The barbarian can use <em>drunken rage</em> points only while <em>raging.</em> Unless otherwise noted, spending a <em>drunken rage</em> point is a free action.</Pair>
 </Ability>
-<Ability id="arc-barbarian-drunken_rager-staggering-evasion-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-drunken_rager-staggering-evasion-ex">Staggering Evasion (Ex)</Pair>
+<Ability id="staggering-evasion-ex" icon={["armor-upgrade"]}>
+<Pair single id="staggering-evasion-ex">Staggering Evasion (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">As long as she has at least 1 <em>drunken rage</em> point, a drunken rager gains <Link to="/ability/evasion">evasion</Link>, as the <Link to="/class/rogue">rogue</Link> class feature of the same name.</Pair>
 </Ability>
-<Ability id="arc-barbarian-drunken_rager-tolerance-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-drunken_rager-tolerance-ex">Tolerance (Ex)</Pair>
+<Ability id="tolerance-ex" icon={["armor-upgrade"]}>
+<Pair single id="tolerance-ex">Tolerance (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">As long as she has at least 1 <em>drunken rage</em> point, a drunken rager gains a bonus on saves against effects that would nauseate, poison, or sicken her, as well as saves to avoid <Link to="/rule/addiction">addiction</Link> or other ill effects associated with consuming alcohol. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
 </Ability>
-<Ability id="arc-barbarian-drunken_rager-improved-staggering-evasion-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-drunken_rager-improved-staggering-evasion-ex">Improved Staggering Evasion (Ex)</Pair>
+<Ability id="improved-staggering-evasion-ex" icon={["armor-upgrade"]}>
+<Pair single id="improved-staggering-evasion-ex">Improved Staggering Evasion (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">As long as she has at least 2 <em>drunken rage</em> points, a drunken rager gains <Link to="/talent/improved_evasion">improved evasion</Link>, as the advanced rogue talent of the same name.</Pair>
 </Ability>
-<Ability id="arc-barbarian-drunken_rager-drunken-swing-ex" icon={["mailed-fist","upgrade"]}>
-<Pair single id="arc-barbarian-drunken_rager-drunken-swing-ex">Drunken Swing (Ex)</Pair>
+<Ability id="drunken-swing-ex" icon={["mailed-fist","upgrade"]}>
+<Pair single id="drunken-swing-ex">Drunken Swing (Ex)</Pair>
 <Pair hl title="Replaces">12th-level rage power</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Swift Action">A drunken rager can spend 1 <em>drunken rage</em> point before making a melee attack to drastically increase the deadliness of her attack. The critical threat range of her next attack that round increases by 1 (for example, a critical threat range of 20 would increase to 19-20).</Pair>
@@ -281,8 +281,8 @@ const _drunken_rager = {title: "Drunken Rager", jsx: <><h2 id="arc-barbarian-dru
 </>};
 const _elemental_kin = {title: "Elemental Kin", jsx: <><h2 id="arc-barbarian-elemental_kin-elemental-kin">Elemental Kin</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 78</Link><br/>Some barbarian tribes have strong ties to the elemental forces of nature. Their shamans anoint the warriors at birth, tying them to the patron element of the tribe and granting them lasting boons against such forces. An elemental kin has the following class feature.</p>
-<Ability id="arc-barbarian-elemental_kin-elemental-fury-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-elemental_kin-elemental-fury-ex">Elemental Fury (Ex)</Pair>
+<Ability id="elemental-fury-ex" icon={["upgrade"]}>
+<Pair single id="elemental-fury-ex">Elemental Fury (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">Whenever the elemental kin takes an amount of energy damage equal to or greater than her barbarian level while <em>raging,</em> she adds <Link to="/misc/one_third">one-third</Link> of her barbarian level to the total number of rounds that she can <em>rage</em> that day (1 extra round at 3rd level, 2 rounds at 6th level, and so on).</Pair>
@@ -291,27 +291,27 @@ const _elemental_kin = {title: "Elemental Kin", jsx: <><h2 id="arc-barbarian-ele
 </>};
 const _fearsome_defender = {title: "Fearsome Defender", jsx: <><h2 id="arc-barbarian-fearsome_defender-fearsome-defender">Fearsome Defender</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 47</Link><br/>Dark overlords frequently recruit their most bloodthirsty followers to serve as brutal bodyguards. These savage slaves feel little pain and exist only to rain terror down on the enemies of their pitiless masters.</p>
-<Ability id="arc-barbarian-fearsome_defender-intractable-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-fearsome_defender-intractable-ex" flavor="A combination of brainwashing and loyalty helps a fearsome defender resist pain and torture, enduring grueling combat or questioning without betraying her dark lord.">Intractable (Ex)</Pair>
+<Ability id="intractable-ex" icon={["armor-upgrade"]}>
+<Pair single id="intractable-ex" flavor="A combination of brainwashing and loyalty helps a fearsome defender resist pain and torture, enduring grueling combat or questioning without betraying her dark lord.">Intractable (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Passive Ability">A fearsome defender gains a +2 bonus on saving throws against pain effects, and the DCs of checks to coerce her or demoralize her with Diplomacy or Intimidate increase by 2.</Pair>
 <Pair title="Special">Both the bonus and the increase to DCs increase by 2 when she gains <em>greater rage</em> and again by 2 when she gains <em>mighty rage.</em></Pair>
 </Ability>
-<Ability id="arc-barbarian-fearsome_defender-off-the-leash-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-fearsome_defender-off-the-leash-ex" flavor="A fearsome defender simmers on the edge of bloody combat.">Off the Leash (Ex)</Pair>
+<Ability id="off-the-leash-ex" icon={["stairs-goal"]}>
+<Pair single id="off-the-leash-ex" flavor="A fearsome defender simmers on the edge of bloody combat.">Off the Leash (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">Whenever she begins a <em>rage,</em> she can also draw an unconcealed weapon as part of the free action to begin <em>raging.</em></Pair>
 </Ability>
-<Ability id="arc-barbarian-fearsome_defender-silent-threat-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-fearsome_defender-silent-threat-ex" flavor="A fearsome defender exudes hostility, creating a threatening atmosphere in her presence.">Silent Threat (Ex)</Pair>
+<Ability id="silent-threat-ex" icon={["upgrade"]}>
+<Pair single id="silent-threat-ex" flavor="A fearsome defender exudes hostility, creating a threatening atmosphere in her presence.">Silent Threat (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">The fearsome defender gains a +1 bonus on Intimidate checks, and the DCs of Intimidate checks to demoralize her allies within 30 feet increase by 1.</Pair>
 <Pair title="Special">Both the bonus and the increase to DCs increase by 1 at 6th level and every 3 barbarian levels thereafter.</Pair>
 </Ability>
-<Ability id="arc-barbarian-fearsome_defender-bloodlust-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-fearsome_defender-bloodlust-ex" flavor="A fearsome defender's eagerness for bloodshed makes her quicker to act in a fight.">Bloodlust (Ex)</Pair>
+<Ability id="bloodlust-ex" icon={["stairs-goal"]}>
+<Pair single id="bloodlust-ex" flavor="A fearsome defender's eagerness for bloodshed makes her quicker to act in a fight.">Bloodlust (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">She adds her Charisma modifier to initiative checks and always acts during the surprise round. If the fearsome defender is surprised during the surprise round, she acts last in that round and then determines initiative order normally for the remainder of combat.</Pair>
@@ -319,48 +319,48 @@ const _fearsome_defender = {title: "Fearsome Defender", jsx: <><h2 id="arc-barba
 </>};
 const _feral_gnasher = {title: "Feral Gnasher", jsx: <><h2 id="arc-barbarian-feral_gnasher-feral-gnasher">Feral Gnasher</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 116</Link><br/>Feral gnashers grow up in the wild, either raised by animals or scraping by on their own, and soon learn to fend for themselves. These barbarians often utilize pieced-together armor and fight with their sharp teeth and whatever improvised weapons are within reach. A feral gnasher has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-barbarian-feral_gnasher--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/goblin">Goblin</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-barbarian-feral_gnasher-weapon-and-armor-proficiency" icon={["broken-shield"]}>
-<Pair single id="arc-barbarian-feral_gnasher-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-barbarian-feral_gnasher--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/goblin">Goblin</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Passive Ability">A feral gnasher loses all martial weapon proficiencies except for <Link to="/eq-weapon/greatclub">greatclub</Link> and loses proficiency with medium armor.</Pair>
 </Ability>
-<Ability id="arc-barbarian-feral_gnasher-savage-bite-ex" icon={["stairs-goal","mailed-fist"]}>
-<Pair single id="arc-barbarian-feral_gnasher-savage-bite-ex">Savage Bite (Ex)</Pair>
+<Ability id="savage-bite-ex" icon={["stairs-goal","mailed-fist"]}>
+<Pair single id="savage-bite-ex">Savage Bite (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A feral gnasher gains a savage bite attack. This is a primary <Link to="/umr/natural_attack">natural attack</Link> that deals 1d4 points of damage. If the goblin already has the <em>hard head, big teeth</em> racial trait, the damage increases to 1d6.</Pair>
 <Pair title="At 10th Level">The damage from a feral gnasher's bite increases to 1d6 (or 1d8 if the goblin has the hard head, big teeth racial trait) and deals &times;3 damage on a critical hit.</Pair>
 </Ability>
-<Ability id="arc-barbarian-feral_gnasher-impromptu-armament-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-feral_gnasher-impromptu-armament-ex">Impromptu Armament (Ex)</Pair>
+<Ability id="impromptu-armament-ex" icon={["stairs-goal"]}>
+<Pair single id="impromptu-armament-ex">Impromptu Armament (Ex)</Pair>
 <Pair hl title="Replaces">2nd-level rage power</Pair>
 <Pair title="Ability">A feral gnasher gains <Link to="/feat/throw_anything">Throw Anything</Link> as a bonus feat and can pick up an unattended object that can be wielded in one hand as a <strong className="hl">free action</strong>. Additionally, the feral gnasher can take <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> in place of a rage power.</Pair>
 </Ability>
-<Ability id="arc-barbarian-feral_gnasher-lockjaw-ex" icon={["stairs-goal","mailed-fist"]}>
-<Pair single id="arc-barbarian-feral_gnasher-lockjaw-ex">Lockjaw (Ex)</Pair>
+<Ability id="lockjaw-ex" icon={["stairs-goal","mailed-fist"]}>
+<Pair single id="lockjaw-ex">Lockjaw (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense +1</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A feral gnasher gains the <Link to="/umr/grab">grab</Link> ability with her bite attack. A feral gnasher can use this ability on a creature up to one size category larger than she is.</Pair>
 </Ability>
-<Ability id="arc-barbarian-feral_gnasher-improvised-weapon-mastery-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-feral_gnasher-improvised-weapon-mastery-ex">Improvised Weapon Mastery (Ex)</Pair>
+<Ability id="improvised-weapon-mastery-ex" icon={["stairs-goal"]}>
+<Pair single id="improvised-weapon-mastery-ex">Improvised Weapon Mastery (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A feral gnasher gains <Link to="/feat/improvised_weapon_mastery">Improvised Weapon Mastery</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="arc-barbarian-feral_gnasher-improved-lockjaw-ex" icon={["upgrade","mailed-fist"]}>
-<Pair single id="arc-barbarian-feral_gnasher-improved-lockjaw-ex">Improved Lockjaw (Ex)</Pair>
+<Ability id="improved-lockjaw-ex" icon={["upgrade","mailed-fist"]}>
+<Pair single id="improved-lockjaw-ex">Improved Lockjaw (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense +2</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">As long as a feral gnasher is controlling the grapple with her <em>lockjaw</em> attack, she does not gain the grappled condition, but is unable to move or use her mouth for anything other than grappling.</Pair>
 </Ability>
-<Ability id="arc-barbarian-feral_gnasher-greater-lockjaw-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-feral_gnasher-greater-lockjaw-ex">Greater Lockjaw (Ex)</Pair>
+<Ability id="greater-lockjaw-ex" icon={["upgrade"]}>
+<Pair single id="greater-lockjaw-ex">Greater Lockjaw (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense +3, trap sense +5</Pair>
 <Pair title="At 9th Level">A feral gnasher is able to use her <em>lockjaw's</em> grab ability on creatures two size increments larger than her.</Pair>
 <Pair title="At 15th Level">A feral gnasher is able to use her <em>lockjaw's</em> grab ability on creatures three size increments larger than her.</Pair>
 </Ability>
-<Ability id="arc-barbarian-feral_gnasher-wicked-improvisation-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-feral_gnasher-wicked-improvisation-ex">Wicked Improvisation (Ex)</Pair>
+<Ability id="wicked-improvisation-ex" icon={["upgrade"]}>
+<Pair single id="wicked-improvisation-ex">Wicked Improvisation (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense +4</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">The feral gnasher gains a +1 competence bonus on damage rolls when using natural attacks or improvised weapons while <em>raging.</em></Pair>
@@ -374,33 +374,33 @@ const _feral_gnasher = {title: "Feral Gnasher", jsx: <><h2 id="arc-barbarian-fer
 </>};
 const _flesheater = {title: "Flesheater", jsx: <><h2 id="arc-barbarian-flesheater-flesheater">Flesheater</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 114</Link><br/>A flesheater eats flesh to create a spiritual bond between herself and the consumed creature, allowing her to take on aspects of the creature that served as the meal.</p>
-<Ability id="arc-barbarian-flesheater-rage" icon={["broken-shield"]}>
-<Pair single id="arc-barbarian-flesheater-rage">Rage</Pair>
+<Ability id="rage" icon={["broken-shield"]}>
+<Pair single id="rage">Rage</Pair>
 <Pair hl title="Alters">Rage</Pair>
 <Pair title="Passive Ability">In additional to the standard bonuses and penalties of <em>rage,</em> a flesheater takes a -2 penalty to Intelligence while <em>raging.</em> The additional benefits and penalties from a flesheater's abilities last only as long as her <em>rage</em> does, and she cannot use these abilities if they would bring the total penalty to Intelligence to an amount equal to or greater than her Intelligence score.</Pair>
 </Ability>
-<Ability id="arc-barbarian-flesheater-one-flesh-su" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-flesheater-one-flesh-su">One Flesh (Su)</Pair>
+<Ability id="one-flesh-su" icon={["stairs-goal"]}>
+<Pair single id="one-flesh-su">One Flesh (Su)</Pair>
 <Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge, the 2nd- and 8th-level rage powers</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">When entering a <em>rage,</em> a flesheater can spend an additional round of <em>rage</em> and take an additional -2 penalty to Intelligence to take on a single ability of the valid consumed creature whose flesh she ate most recently. For the purpose of this ability, a valid consumed creature is any dead animal, dragon, humanoid, or magical beast that died and was consumed by the flesheater within the past 24 hours. She can choose any ability listed under <Link to="/spell/beast_shape_i">beast shape I</Link>, as long as the creature possessed that ability.</Pair>
 <Pair title="At 5th Level">The flesheater can take on any number of the creature's abilities that are listed under <em>beast shape I.</em></Pair>
 <Pair title="At 8th Level">The flesheater can instead take on one of the creature's abilities listed under <Link to="/spell/beast_shape_ii">beast shape II</Link>. The flesheater's appearance alters to resemble the consumed creature, but she does not change shape. This is a polymorph effect.</Pair>
 </Ability>
-<Ability id="arc-barbarian-flesheater-unbound-rage-su" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-flesheater-unbound-rage-su" flavor={<>A flesheater can draw in mass from the Ethereal Plane to enlarge herself when she enters a <em>rage,</em> as long as the creature whose flesh she last consumed was at least one size category larger than her base size.</>}>Unbound Rage (Su)</Pair>
+<Ability id="unbound-rage-su" icon={["stairs-goal"]}>
+<Pair single id="unbound-rage-su" flavor={<>A flesheater can draw in mass from the Ethereal Plane to enlarge herself when she enters a <em>rage,</em> as long as the creature whose flesh she last consumed was at least one size category larger than her base size.</>}>Unbound Rage (Su)</Pair>
 <Pair hl title="Replaces">Greater rage</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability"><em>Unbound rage</em> affects her as <Link to="/spell/enlarge_person">enlarge person</Link>, except she receives a +4 size bonus to Strength and an additional -2 penalty to Intelligence.</Pair>
 </Ability>
-<Ability id="arc-barbarian-flesheater-feast-su" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-flesheater-feast-su">Feast (Su)</Pair>
+<Ability id="feast-su" icon={["upgrade"]}>
+<Pair single id="feast-su">Feast (Su)</Pair>
 <Pair hl title="Replaces">The 14th-level rage power</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Ability">A flesheater can use her <em>one flesh</em> and <em>unbound rage</em> abilities to emulate any one valid consumed creature of her choice, rather than only the one she consumed most recently.</Pair>
 </Ability>
-<Ability id="arc-barbarian-flesheater-unbound-form-su" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-flesheater-unbound-form-su">Unbound Form (Su)</Pair>
+<Ability id="unbound-form-su" icon={["upgrade"]}>
+<Pair single id="unbound-form-su">Unbound Form (Su)</Pair>
 <Pair hl title="Replaces">Mighty rage</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">A flesheater can use her <em>one flesh</em> ability to assume the shape of a valid consumed creature. This ability functions as <Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/beast_shape_iv">beast shape IV</Link>, <Link to="/spell/form_of_the_dragon_iii">form of the dragon III</Link>, or <Link to="/spell/giant_form_ii">giant form II</Link>, as appropriate. This is a polymorph effect.</Pair>
@@ -409,31 +409,31 @@ const _flesheater = {title: "Flesheater", jsx: <><h2 id="arc-barbarian-flesheate
 </>};
 const _geminate_invoker = {title: "Geminate Invoker", jsx: <><h2 id="arc-barbarian-geminate_invoker-geminate-invoker">Geminate Invoker</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 166</Link><br/>Geminate invokers are barbarians who use <Link to="/rule/rivethun">Rivethun</Link> traditions to invite spirits into their bodies. The spirits' aid enables them to overcome the distractions of the flesh: they can ignore pain, and even defy death. These ascetics make up much of the Rivethun martial forces.</p>
-<Ability id="arc-barbarian-geminate_invoker-contemplative-ex" icon={["skills","info"]}>
-<Pair single id="arc-barbarian-geminate_invoker-contemplative-ex">Contemplative (Ex)</Pair>
+<Ability id="contemplative-ex" icon={["skills","info"]}>
+<Pair single id="contemplative-ex">Contemplative (Ex)</Pair>
 <Pair hl title="Alters">The barbarian's class skills, alignment</Pair>
 <Pair title="Passive Ability">A geminate invoker adds <Link to="/skill/knowledge_history">Knowledge (history)</Link>, <Link to="/skill/knowledge_religion">Knowledge (religion)</Link>, and <Link to="/skill/linguistics">Linguistics</Link> (INT) to his list of class skills.</Pair>
 <Pair title="Info">Unlike most barbarians, a geminate invoker can be lawful, but must maintain a neutral element to his alignment. A geminate invoker who ceases to be neutral-aligned cannot activate his trance ability.</Pair>
 </Ability>
-<Ability id="arc-barbarian-geminate_invoker-trance-ex" icon={["upgrade","broken-shield"]}>
-<Pair single id="arc-barbarian-geminate_invoker-trance-ex">Trance (Ex)</Pair>
+<Ability id="trance-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="trance-ex">Trance (Ex)</Pair>
 <Pair hl title="Alters">Rage</Pair>
 <Pair title="Free Action">A geminate invoker can enter a self-imposed trance, ignoring the physical limits of his body. This ability functions similarly to a barbarian's <em>rage,</em> except where noted below, and feats, spells, and abilities that affect a barbarian's <em>rage</em> (such as the <Link to="/feat/extra_rage">Extra Rage</Link> feat) apply to an geminate invoker's trance. Instead of the normal <em>rage</em> bonuses and penalties, a geminate invoker in a trance gains a +4 morale bonus to his Constitution; gains a +2 morale bonus on Reflex and Will saving throws; takes no penalties to AC; can still use Dexterity-, Intelligence-, and Charisma-based skills; and gains <Link to="/feat/diehard">Diehard</Link> as a bonus feat.</Pair>
 <Pair title="Special">The Constitution bonus increases to +6 and the save bonus increases to +3 when he gains <em>greater rage,</em> and they increase to a +8 Constitution bonus and a +4 bonus on saves when he gains <em>mighty rage.</em> A geminate invoker gains rage powers as per a normal barbarian, but he can never gain totem rage powers via this ability.</Pair>
 </Ability>
-<Ability id="arc-barbarian-geminate_invoker-haunt-channeler-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-geminate_invoker-haunt-channeler-su">Haunt Channeler (Su)</Pair>
+<Ability id="haunt-channeler-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="haunt-channeler-su">Haunt Channeler (Su)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A geminate invoker gains the power to sense and absorb lingering spiritual energy. This functions identically to the <Link to="/class/medium">medium</Link> class ability of the same name, except the geminate invoker deals 1d6 points of damage to haunts for every 3 barbarian levels he has.</Pair>
 </Ability>
-<Ability id="arc-barbarian-geminate_invoker-haunt-channeler-su" extraClasses="subAbility" icon={["upgrade","mailed-fist"]}>
-<Pair single id="arc-barbarian-geminate_invoker-haunt-channeler-su" flavor="Text from the medium class">Haunt Channeler (Su)</Pair>
+<Ability id="haunt-channeler-su" extraClasses="subAbility" icon={["upgrade","mailed-fist"]}>
+<Pair single id="haunt-channeler-su" flavor="Text from the medium class">Haunt Channeler (Su)</Pair>
 <Pair title="Passive Ability">You can always act on the surprise round against a haunt.</Pair>
 <Pair title="Ability">Your touch funnels a portion of the haunt into yourself, dealing 1d6 points of damage to the haunt per [3 barbarian levels] you possess as if via positive energy and allowing you to ask the haunt a single question. The haunt can answer the question however it chooses. Additionally, you can forgo your saving throw against a haunt's effects to funnel the haunt entirely into yourself. If you do so, you suffer the haunt's full effect, but the haunt doesn't affect anyone else (even if it normally would). The haunt then gains control of your body for 24 hours. Once per minute, you can attempt to end this possession early by succeeding at a Will save (DC = 20 + 1/2 your medium level).</Pair>
 </Ability>
-<Ability id="arc-barbarian-geminate_invoker-spirit-conduit-su" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-geminate_invoker-spirit-conduit-su">Spirit Conduit (Su)</Pair>
+<Ability id="spirit-conduit-su" icon={["stairs-goal"]}>
+<Pair single id="spirit-conduit-su">Spirit Conduit (Su)</Pair>
 <Pair hl title="Replaces">4th, 8th, and 12th level rage powers</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A geminate invoker can invite a spirit into his body each time he enters a trance, gaining a lesser <Link to="/arc-barbarian/totem_rage_power">totem rage power</Link> for the duration of his trance. He can select a new totem each time he enters his trance, though the GM might rule that certain totem spirits are simply not available in certain locations (such as channeling a celestial totem in an evil god's temple). Invoking a totem counter to his alignment (such as a neutral good character invoking a fiend totem) requires the geminate invoker to succeed at a DC 12 Charisma check each round to dominate the spirit. Failure indicates the spirit escapes, immediately ending the trance.</Pair>
@@ -445,19 +445,19 @@ const _giant_stalker = {title: "Giant Stalker", jsx: <><h2 id="arc-barbarian-gia
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 130</Link><br/>Of the dangerous creatures that roam grim peaks and icy steppes, giants are among the most feared. They are cunning and capricious, and their ability to craft weapons and coordinate attacks makes them a constant threat to the nomadic tribes in the region. In the wilds where giants hunt, cleverness isn't the only thing the people need to survive - they require the fearlessness to confront a challenge, no matter the size.</p>
 <p>Elders select the children of the tribe's fiercest barbarians for the honor of becoming giant stalkers. Through intense training, these children learn to spot and track giants using telltale signs along with more subtle clues (such as giants' unique scents). They learn the giants' speech and culture; they study their traditions and brutality; and most importantly, they foster their hatred of these oversized foes.</p>
 <p>When <Link to="/rule/mammoth_lords">Mammoth Lord</Link> followings travel, giant stalkers scout ahead, securing safe passage through giant-infested territories. They clear giant hunting parties and ambushes, using gruesome trophies to mark the trails. Sometimes giant hunters send their own raiding parties into the mountains to capture young giants, as most followings keep giant thralls as symbols of status.</p>
-<Ability id="arc-barbarian-giant_stalker-harangue-giant-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-giant_stalker-harangue-giant-ex">Harangue Giant (Ex)</Pair>
+<Ability id="harangue-giant-ex" icon={["stairs-goal"]}>
+<Pair single id="harangue-giant-ex">Harangue Giant (Ex)</Pair>
 <Pair hl title="Alters">Rage</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> a giant stalker can speak Giant. If the giant stalker already knows Giant, she gains a +2 bonus on Intimidate checks when speaking Giant while <em>raging.</em></Pair>
 </Ability>
-<Ability id="arc-barbarian-giant_stalker-smell-giants-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-giant_stalker-smell-giants-ex">Smell Giants (Ex)</Pair>
+<Ability id="smell-giants-ex" icon={["stairs-goal"]}>
+<Pair single id="smell-giants-ex">Smell Giants (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A giant stalker gains the <Link to="/umr/scent">scent</Link> special ability, but with regard only to humanoids with the giant subtype.</Pair>
 </Ability>
-<Ability id="arc-barbarian-giant_stalker-giant-baiter-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-giant_stalker-giant-baiter-su">Giant Baiter (Su)</Pair>
+<Ability id="giant-baiter-su" icon={["armor-upgrade"]}>
+<Pair single id="giant-baiter-su">Giant Baiter (Su)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Move-Equivalent Action">A <em>raging</em> giant stalker can erupt into a violent or vulgar display directed at a single giant within 60 feet. This display is infused with secret magical traditions that draw upon the Mammoth Lords' ancestral enmities toward giants. A targeted giant must succeed at a Will save (DC = 10 + <Link to="/misc/half">half</Link> the giant stalker's barbarian level + the giant stalker's Constitution modifier) or be compelled to focus its attacks on the giant stalker; this ability can also affect non-giant creatures that are Large or larger, though such creatures gain a +4 bonus on the Will save to resist the effect. This compulsion ends if the giant stalker is out of sight or inaccessible to the giant's attacks. While baited, a giant is distracted and enraged by the insults - a giant stalker gains a dodge bonus to her AC against any giant she has successfully baited. This dodge bonus is equal to one-third of her barbarian level. Once baited, a giant remains baited for a number of rounds equal to the giant stalker's Constitution modifier, or until the giant stalker's <em>rage</em> ends (whichever comes first). If the giant stalker baits a different giant, any previously baited giant is no longer baited.</Pair>
@@ -468,32 +468,32 @@ const _giant_stalker = {title: "Giant Stalker", jsx: <><h2 id="arc-barbarian-gia
 <Pair title="At 18th Level">A giant stalker can bait a number of giants equal to 3 + her Constitution modifier.</Pair>
 <Pair title="Special">A giant that successfully saves against baiting is immune to that giant stalker's giant baiter ability for 24 hours. This is a language-dependent mind affecting effect.</Pair>
 </Ability>
-<Ability id="arc-barbarian-giant_stalker-giant-stalker-rage-powers" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-giant_stalker-giant-stalker-rage-powers">Giant Stalker Rage Powers</Pair>
+<Ability id="giant-stalker-rage-powers" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="giant-stalker-rage-powers">Giant Stalker Rage Powers</Pair>
 <Pair title="Info">A giant stalker gains access to the following rage powers.</Pair>
 </Ability>
-<Ability id="arc-barbarian-giant_stalker-giant-stalker-defense-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-giant_stalker-giant-stalker-defense-ex">Giant Stalker Defense (Ex)</Pair>
+<Ability id="giant-stalker-defense-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="giant-stalker-defense-ex">Giant Stalker Defense (Ex)</Pair>
 <Pair title="Passive Ability">When <em>raging,</em> a giant stalker does not take a penalty to Armor Class against attacks from giants.</Pair>
 </Ability>
-<Ability id="arc-barbarian-giant_stalker-topple-giant-ex" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-giant_stalker-topple-giant-ex">Topple Giant (Ex)</Pair>
+<Ability id="topple-giant-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="topple-giant-ex">Topple Giant (Ex)</Pair>
 <Pair title="Ability">When <em>raging,</em> the giant stalker does not provoke attacks of opportunity when she attempts to <Link to="/rule/trip">trip</Link> a giant, and can attempt to trip a giant that is up to two size categories larger than she is.</Pair>
 </Ability>
-<Ability id="arc-barbarian-giant_stalker-underfoot-ex" extraClasses="subAbility" icon={["upgrade","armor-downgrade"]}>
-<Pair single id="arc-barbarian-giant_stalker-underfoot-ex">Underfoot (Ex)</Pair>
+<Ability id="underfoot-ex" extraClasses="subAbility" icon={["upgrade","armor-downgrade"]}>
+<Pair single id="underfoot-ex">Underfoot (Ex)</Pair>
 <Pair title="Move-Equivalent Action">When <em>raging,</em> the giant stalker can attempt to enter a giant's space, provided she is at least one size category smaller than the giant. Doing so requires a successful combat maneuver check against the giant's CMD. If she succeeds, she enters a square in the giant's space. If she makes an attack against the giant while sharing its space, the giant is treated as being <Link to="/rule/flat_footed">flat-footed</Link> against her. At the end of her turn, she exits the giant's space into any square adjacent to the giant's space.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 </>};
 const _hateful_rager = {title: "Hateful Rager", jsx: <><h2 id="arc-barbarian-hateful_rager-hateful-rager">Hateful Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 54</Link><br/>From a young age, many half-orcs are treated cruelly, bullied, ridiculed, and made outcasts. While some hide their shame, others foster a deep, burning hatred that they channel into a raw fury and unleash against their enemies. These half-orcs are called hateful ragers. A hateful rager has the following class features.</p>
-<Ability id="arc-barbarian-hateful_rager-reduced-rage-ex" icon={["broken-shield"]}>
-<Pair single id="arc-barbarian-hateful_rager-reduced-rage-ex">Reduced Rage (Ex)</Pair>
+<Ability id="reduced-rage-ex" icon={["broken-shield"]}>
+<Pair single id="reduced-rage-ex">Reduced Rage (Ex)</Pair>
 <Pair title="Info">At 2nd level and every level thereafter, a hateful rager only gains 1 additional round of <em>rage</em> per day instead of the normal 2 additional rounds of <em>rage</em> per day.</Pair>
 </Ability>
-<Ability id="arc-barbarian-hateful_rager-favored-enemy-ex" icon={["stairs-goal","upgrade","broken-shield"]}>
-<Pair single id="arc-barbarian-hateful_rager-favored-enemy-ex">Favored Enemy (Ex)</Pair>
+<Ability id="favored-enemy-ex" icon={["stairs-goal","upgrade","broken-shield"]}>
+<Pair single id="favored-enemy-ex">Favored Enemy (Ex)</Pair>
 <Pair hl title="Replaces">2nd, 8th, 14th, and 20th level rage powers</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Choice">A hateful rager selects a <Link to="/ability/favored_enemy">favored enemy</Link>. This ability works identically to the <Link to="/class/ranger">ranger</Link> ability of the same name.</Pair>
@@ -502,14 +502,14 @@ const _hateful_rager = {title: "Hateful Rager", jsx: <><h2 id="arc-barbarian-hat
 <Pair title="At 14th Level">The hateful rager selects a third favored enemy and increases her bonus against one favored enemy type.</Pair>
 <Pair title="At 20th Level">The hateful rager selects a fourth favored enemy and increases her bonus against one favored enemy type.</Pair>
 </Ability>
-<Ability id="arc-barbarian-hateful_rager-feed-the-rage-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-hateful_rager-feed-the-rage-ex">Feed the Rage (Ex)</Pair>
+<Ability id="feed-the-rage-ex" icon={["upgrade"]}>
+<Pair single id="feed-the-rage-ex">Feed the Rage (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A hateful rager gains 1 additional round of <em>rage</em> for each favored enemy she knocks unconscious or kills in combat. These current rounds of <em>rage</em> can only be used to add to the duration of her <em>rage,</em> and disappear when the <em>rage</em> ends.</Pair>
 </Ability>
-<Ability id="arc-barbarian-hateful_rager-amplified-by-hate-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-hateful_rager-amplified-by-hate-ex">Amplified by Hate (Ex)</Pair>
+<Ability id="amplified-by-hate-ex" icon={["upgrade"]}>
+<Pair single id="amplified-by-hate-ex">Amplified by Hate (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense +3</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">A hateful rager adds <Link to="/misc/half">half</Link> her favored enemy bonus to the DC of any rage power she uses against a favored enemy.</Pair>
@@ -518,8 +518,8 @@ const _hateful_rager = {title: "Hateful Rager", jsx: <><h2 id="arc-barbarian-hat
 </>};
 const _hurler = {title: "Hurler", jsx: <><h2 id="arc-barbarian-hurler-hurler">Hurler</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 78</Link><br/>A raging barbarian is frightening enough in melee, but some become skilled at throwing objects at their foes before closing in for the kill. A hurler has the following class feature.</p>
-<Ability id="arc-barbarian-hurler-skilled-thrower-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-hurler-skilled-thrower-ex">Skilled Thrower (Ex)</Pair>
+<Ability id="skilled-thrower-ex" icon={["upgrade"]}>
+<Pair single id="skilled-thrower-ex">Skilled Thrower (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Passive Ability">The hurler is skilled at throwing objects in combat. Increase the range increment of any thrown weapon or object by 10 feet.</Pair>
 </Ability>
@@ -527,14 +527,14 @@ const _hurler = {title: "Hurler", jsx: <><h2 id="arc-barbarian-hurler-hurler">Hu
 </>};
 const _invulnerable_rager = {title: "Invulnerable Rager", jsx: <><h2 id="arc-barbarian-invulnerable_rager-invulnerable-rager">Invulnerable Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 79</Link><br/>Some barbarians learn to take whatever comes their way, shrugging off mortal wounds with ease. These barbarians invite their enemies to attack them, and use pain to fuel their rage. An invulnerable rager has the following class features.</p>
-<Ability id="arc-barbarian-invulnerable_rager-invulnerability-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-invulnerable_rager-invulnerability-ex">Invulnerability (Ex)</Pair>
+<Ability id="invulnerability-ex" icon={["armor-upgrade"]}>
+<Pair single id="invulnerability-ex">Invulnerability (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge, damage reduction</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">The invulnerable rager gains <Link to="/rule/dr">DR</Link>/- equal to <Link to="/misc/half">half</Link> her barbarian level. This damage reduction is doubled against nonlethal damage.</Pair>
 </Ability>
-<Ability id="arc-barbarian-invulnerable_rager-extreme-endurance-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-invulnerable_rager-extreme-endurance-ex">Extreme Endurance (Ex)</Pair>
+<Ability id="extreme-endurance-ex" icon={["armor-upgrade"]}>
+<Pair single id="extreme-endurance-ex">Extreme Endurance (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">The invulnerable rager is inured to either hot or cold climate effects (choose one) as if using <Link to="/spell/endure_elements">endure elements</Link>. In addition, the barbarian gains 1 point of fire or cold <Link to="/umr/resistance">resistance</Link> for every three levels beyond 3rd.</Pair>
@@ -543,26 +543,26 @@ const _invulnerable_rager = {title: "Invulnerable Rager", jsx: <><h2 id="arc-bar
 </>};
 const _jungle_rager = {title: "Jungle Rager", jsx: <><h2 id="arc-barbarian-jungle_rager-jungle-rager">Jungle Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 39</Link><br/>More "civilized" folk sometimes scoff at the people of the Mwangi Expanse, dismissing them as primitives with inferior technology. Although some tribes do rely on wood and bone over metal, their greatest advantage comes from mastery of the terrain. A jungle rager can disappear from sight, strike from hiding, and use the environment to shield herself from harm.</p>
-<Ability id="arc-barbarian-jungle_rager-home-ground-advantage-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-jungle_rager-home-ground-advantage-ex" flavor="A jungle rager learns how to make optimal use of the natural cover of her homeland.">Home Ground Advantage (Ex)</Pair>
+<Ability id="home-ground-advantage-ex" icon={["armor-upgrade"]}>
+<Pair single id="home-ground-advantage-ex" flavor="A jungle rager learns how to make optimal use of the natural cover of her homeland.">Home Ground Advantage (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Choice">She chooses a specific terrain type from the ranger list of <Link to="/ability/favored_terrain">favored terrains</Link>.</Pair>
 <Pair title="Passive Ability">When in her chosen terrain, she increases her bonus to AC and on Reflex saving throws gained from <Link to="/rule/cover">cover</Link>, partial cover, and improved cover (but not soft cover) by 1. In this terrain, she also increases the miss chance caused by <Link to="/rule/concealment">concealment</Link> for attacks against her by 5%.</Pair>
 </Ability>
-<Ability id="arc-barbarian-jungle_rager-jungle-endurance-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-jungle_rager-jungle-endurance-ex">Jungle Endurance (Ex)</Pair>
+<Ability id="jungle-endurance-ex" icon={["armor-upgrade"]}>
+<Pair single id="jungle-endurance-ex">Jungle Endurance (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A jungle rager gains a bonus on Fortitude saves to resist the effects of <Link to="/rule/hot_weather">hot weather</Link> and diseases. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
 </Ability>
-<Ability id="arc-barbarian-jungle_rager-home-ground-supremacy-ex" icon={["stairs-goal","armor-upgrade"]}>
-<Pair single id="arc-barbarian-jungle_rager-home-ground-supremacy-ex" flavor={<>A jungle rager becomes even more capable when navigating and fighting in her preferred terrain. She gains the <Link to="/ability/woodland_stride">woodland stride</Link> ranger ability, though this ability works only in the terrain she selected for the home ground advantage ability. In this terrain, she gains an additional +1 bonus to AC when benefiting from cover or improved cover (but not soft cover).</>}>Home Ground Supremacy (Ex)</Pair>
+<Ability id="home-ground-supremacy-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="home-ground-supremacy-ex" flavor={<>A jungle rager becomes even more capable when navigating and fighting in her preferred terrain. She gains the <Link to="/ability/woodland_stride">woodland stride</Link> ranger ability, though this ability works only in the terrain she selected for the home ground advantage ability. In this terrain, she gains an additional +1 bonus to AC when benefiting from cover or improved cover (but not soft cover).</>}>Home Ground Supremacy (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 </Ability>
-<Ability id="arc-barbarian-jungle_rager-damage-reduction-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-jungle_rager-damage-reduction-ex">Damage Reduction (Ex)</Pair>
+<Ability id="damage-reduction-ex" icon={["armor-upgrade"]}>
+<Pair single id="damage-reduction-ex">Damage Reduction (Ex)</Pair>
 <Pair hl title="Alters">Damage reduction</Pair>
 <Pair title="Special">A jungle rager gains this ability at 8th level, except her effective barbarian level for the ability is equal to her barbarian level - 1. In addition, this damage reduction is doubled against damage dealt by creatures with the swarm subtype. This ability otherwise functions as the barbarian ability of the same name.</Pair>
 </Ability>
@@ -570,36 +570,36 @@ const _jungle_rager = {title: "Jungle Rager", jsx: <><h2 id="arc-barbarian-jungl
 </>};
 const _mad_dog = {title: "Mad Dog", jsx: <><h2 id="arc-barbarian-mad_dog-mad-dog">Mad Dog</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 7</Link><br/>Though named for the wild savages who fight alongside rabid dogs, mad dogs employ all manner of beasts as their battle brethren.</p>
-<Ability id="arc-barbarian-mad_dog-war-beast-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-mad_dog-war-beast-ex">War Beast (Ex)</Pair>
+<Ability id="war-beast-ex" icon={["stairs-goal"]}>
+<Pair single id="war-beast-ex">War Beast (Ex)</Pair>
 <Pair hl title="Replaces">2nd, 6th, 10th, 14th, and 18th level rage powers</Pair>
 <Pair title="Ability">A mad dog gains the service of an <Link to="/ability/animal_companion">animal companion</Link>, using the barbarian's level as her effective druid level.</Pair>
 </Ability>
-<Ability id="arc-barbarian-mad_dog-pack-tactics-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-mad_dog-pack-tactics-ex">Pack Tactics (Ex)</Pair>
+<Ability id="pack-tactics-ex" icon={["upgrade"]}>
+<Pair single id="pack-tactics-ex">Pack Tactics (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A mad dog and her <em>war beast</em> gain a +4 bonus on attack rolls while flanking the same opponent (instead of the normal +2 bonus).</Pair>
 </Ability>
-<Ability id="arc-barbarian-mad_dog-rage-ex" icon={["broken-shield"]}>
-<Pair single id="arc-barbarian-mad_dog-rage-ex">Rage (Ex)</Pair>
+<Ability id="rage-ex" icon={["broken-shield"]}>
+<Pair single id="rage-ex">Rage (Ex)</Pair>
 <Pair hl title="Alters">Rage</Pair>
 <Pair title="Ability">A mad dog gains this ability at 4th level, except that her effective barbarian level for the ability is equal to her barbarian level - 3.</Pair>
 </Ability>
-<Ability id="arc-barbarian-mad_dog-ferocious-fetch-ex" icon={["stairs-goal","mailed-fist"]}>
-<Pair single id="arc-barbarian-mad_dog-ferocious-fetch-ex">Ferocious Fetch (Ex)</Pair>
+<Ability id="ferocious-fetch-ex" icon={["stairs-goal","mailed-fist"]}>
+<Pair single id="ferocious-fetch-ex">Ferocious Fetch (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A mad dog's <em>war beast</em> gains <Link to="/feat/improved_drag">Improved Drag</Link> as a bonus feat. As a swift action, a mad dog can command her <em>war beast</em> to move toward an opponent within 30 feet and attempt a <Link to="/rule/drag">drag</Link> combat maneuver to pull the target back toward the mad dog. The <em>war beast</em> can move before and after performing the maneuver, but this movement counts toward the <em>war beast's</em> total movement during its turn.</Pair>
 </Ability>
-<Ability id="arc-barbarian-mad_dog-damage-reduction-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-mad_dog-damage-reduction-ex">Damage Reduction (Ex)</Pair>
+<Ability id="damage-reduction-ex" icon={["armor-upgrade"]}>
+<Pair single id="damage-reduction-ex">Damage Reduction (Ex)</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Passive Ability">A mad dog gains <Link to="/rule/damage_reduction">damage reduction</Link> DR 1/-. A mad dog's <em>war beast</em> gains the same damage reduction as the mad dog.</Pair>
 <Pair title="Special">At 13th level and every 3 barbarian levels thereafter, this damage reduction rises by 1, to a maximum of DR 4/- at 19th level.</Pair>
 </Ability>
-<Ability id="arc-barbarian-mad_dog-throat-cutter-ex" icon={["mailed-fist"]}>
-<Pair single id="arc-barbarian-mad_dog-throat-cutter-ex">Throat Cutter (Ex)</Pair>
+<Ability id="throat-cutter-ex" icon={["mailed-fist"]}>
+<Pair single id="throat-cutter-ex">Throat Cutter (Ex)</Pair>
 <Pair hl title="Replaces">Indomitable will</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Ability">Whenever her <em>war beast</em> succeeds at a bull rush, drag, grapple, overrun, or trip combat maneuver against an opponent threatened by the mad dog, a mad dog can take an attack of opportunity against that opponent.</Pair>
@@ -608,26 +608,26 @@ const _mad_dog = {title: "Mad Dog", jsx: <><h2 id="arc-barbarian-mad_dog-mad-dog
 </>};
 const _mooncursed = {title: "Mooncursed", jsx: <><h2 id="arc-barbarian-mooncursed-mooncursed">Mooncursed</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 47</Link><br/>Some barbarians exhibit an unusual form of lycanthropy powered by their fury. Such a character transforms willfully but can maintain her animal or hybrid forms only while raging.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-barbarian-mooncursed--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A mooncursed must either be a <Link to="/type/humanoid">humanoid</Link> or <Link to="/type/monstrous_humanoid">monstrous humanoid</Link>.</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-barbarian-mooncursed-shifting-rage-su" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="arc-barbarian-mooncursed-shifting-rage-su" flavor="A mooncursed can call upon an animal totem or inner curse, transforming her into a savage beast.">Shifting Rage (Su)</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-barbarian-mooncursed--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A mooncursed must either be a <Link to="/type/humanoid">humanoid</Link> or <Link to="/type/monstrous_humanoid">monstrous humanoid</Link>.</td></tr></tbody></table></ScrollContainer></div><Ability id="shifting-rage-su" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="shifting-rage-su" flavor="A mooncursed can call upon an animal totem or inner curse, transforming her into a savage beast.">Shifting Rage (Su)</Pair>
 <Pair hl title="Alters">Rage</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Chooses <Link to="/monster/bear">bear</Link>, <Link to="/monster/boar">boar</Link>, <Link to="/monster/crocodile">crocodile</Link>, <Link to="/monster/shark">shark</Link>, <Link to="/monster/tiger">tiger</Link>, or <Link to="/monster/wolf">wolf</Link>. Once chosen, this animal can't be changed. When using rounds of her <em>shifting rage,</em> instead of the usual bonuses and penalties from <em>rage,</em> the mooncursed transforms into a Medium version of this animal's form as if under the influence of <Link to="/spell/beast_shape_i">beast shape I</Link>, treating her class level as her caster level whenever relevant. Other aspects of <em>rage</em> aside from the bonuses and penalties, such as the skill restrictions on skills and effects that require concentration, still apply during a <em>shifting rage.</em></Pair>
 </Ability>
-<Ability id="arc-barbarian-mooncursed-hybrid-rage-su" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-mooncursed-hybrid-rage-su">Hybrid Rage (Su)</Pair>
+<Ability id="hybrid-rage-su" icon={["upgrade"]}>
+<Pair single id="hybrid-rage-su">Hybrid Rage (Su)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A mooncursed can choose to assume a hybrid of her base type and alternate form instead of her usual alternate form during her <em>shifting rage.</em> If she does, the animal's forelimbs (or pectoral fins for the shark) remain hands able to manipulate objects and wield weapons as well as human hands do, she can walk on two legs (the shark's tail fins remain legs), and she can talk.</Pair>
 </Ability>
-<Ability id="arc-barbarian-mooncursed-greater-shifting-rage-su" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-mooncursed-greater-shifting-rage-su">Greater Shifting Rage (Su)</Pair>
+<Ability id="greater-shifting-rage-su" icon={["upgrade"]}>
+<Pair single id="greater-shifting-rage-su">Greater Shifting Rage (Su)</Pair>
 <Pair hl title="Replaces">Greater rage</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">A mooncursed can assume larger alternate and hybrid forms. This functions like <Link to="/spell/beast_shape_ii">beast shape II</Link>, and it allows the mooncursed to take on a Medium or Large version of her animal's form.</Pair>
 </Ability>
-<Ability id="arc-barbarian-mooncursed-mighty-shifting-rage-su" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-mooncursed-mighty-shifting-rage-su">Mighty Shifting Rage (Su)</Pair>
+<Ability id="mighty-shifting-rage-su" icon={["upgrade"]}>
+<Pair single id="mighty-shifting-rage-su">Mighty Shifting Rage (Su)</Pair>
 <Pair hl title="Replaces">Mighty rage</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">A mooncursed can assume even larger alternate and hybrid forms. This functions like <Link to="/spell/beast_shape_iii">beast shape III</Link>, and it allows the mooncursed to take on a Medium, Large, or Huge version of her animal's form.</Pair>
@@ -635,13 +635,13 @@ const _mooncursed = {title: "Mooncursed", jsx: <><h2 id="arc-barbarian-mooncurse
 </>};
 const _mounted_fury = {title: "Mounted Fury", jsx: <><h2 id="arc-barbarian-mounted_fury-mounted-fury">Mounted Fury</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 79</Link><br/>Many barbarian tribes are masters of the horse, teaching their members how to ride from a young age. As a result, barbarians from such tribes are even more terrifying when mounted, using their steeds' speed and strength to great advantage. A mounted fury has the following class features.</p>
-<Ability id="arc-barbarian-mounted_fury-fast-rider-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-mounted_fury-fast-rider-ex">Fast Rider (Ex)</Pair>
+<Ability id="fast-rider-ex" icon={["upgrade"]}>
+<Pair single id="fast-rider-ex">Fast Rider (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Passive Ability">The speed of any mount the barbarian rides is increased by 10 feet.</Pair>
 </Ability>
-<Ability id="arc-barbarian-mounted_fury-bestial-mount-ex" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-barbarian-mounted_fury-bestial-mount-ex">Bestial Mount (Ex)</Pair>
+<Ability id="bestial-mount-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="bestial-mount-ex">Bestial Mount (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">The mounted fury gains the service of a feral mount. This ability functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using the barbarian's level - 4 as her effective druid level. This companion must be one that she is capable of riding and is suitable as a mount. A Medium barbarian can select a <Link to="/companion/camel">camel</Link> or a <Link to="/companion/horse">horse</Link>. A Small barbarian can select a <Link to="/companion/pony">pony</Link> or a <Link to="/companion/wolf">wolf</Link>, but can also select a <Link to="/companion/boar">boar</Link> or a <Link to="/companion/dog">dog</Link> if she is at least 8th level. Whenever a barbarian is <em>raging</em> while mounted on her bestial mount, the mount gains a +2 morale bonus to its Strength.</Pair>
@@ -650,25 +650,25 @@ const _mounted_fury = {title: "Mounted Fury", jsx: <><h2 id="arc-barbarian-mount
 </>};
 const _numerian_liberator = {title: "Numerian Liberator", jsx: <><h2 id="arc-barbarian-numerian_liberator-numerian-liberator">Numerian Liberator</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River pg. 6</Link><br/>The Kellid barbarians that roam Numeria's badlands have a healthy mistrust of technology and its corruptive influence. Since the cataclysmic Rain of Stars millennia ago, these warriors have developed numerous techniques and skills to protect themselves from the strange mechanical monsters that roam Numeria. While many native Kellids oppose the Technic League and its espousal of foul alien artifacts, the most stalwart and staunchly dedicated of these technophobic traditionalists refer to themselves as Numerian liberators.</p>
-<Ability icon={["skills"]} id="arc-barbarian-numerian_liberator-undefined">
-<Pair id="arc-barbarian-numerian_liberator-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Climb</Pair></Ability>
-<Ability id="arc-barbarian-numerian_liberator-hard-hitter-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-numerian_liberator-hard-hitter-ex" flavor="A Numerian liberator can make devastating attacks against objects and foes with breakable components.">Hard Hitter (Ex)</Pair>
+<Ability id="hard-hitter-ex" icon={["upgrade"]}>
+<Pair single id="hard-hitter-ex" flavor="A Numerian liberator can make devastating attacks against objects and foes with breakable components.">Hard Hitter (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">Damage dealt by the barbarian's attacks ignores an amount of an object's or creature's hardness (if any) equal to <Link to="/misc/half">half</Link> her class level.</Pair>
 </Ability>
-<Ability id="arc-barbarian-numerian_liberator-disruptor" icon={["armor-downgrade"]}>
-<Pair single id="arc-barbarian-numerian_liberator-disruptor">Disruptor</Pair>
+<Ability id="disruptor" icon={["armor-downgrade"]}>
+<Pair single id="disruptor">Disruptor</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">For any foes in a Numerian liberator's threatened area, the DC to cast spells defensively increases by an amount equal to one-fifth her barbarian level.</Pair>
 <Pair title="Special">If the barbarian gains the <Link to="/ragepower/disruptive">disruptive</Link> rage power, the two abilities stack.</Pair>
 </Ability>
-<Ability id="arc-barbarian-numerian_liberator-hide-from-constructs-su" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-numerian_liberator-hide-from-constructs-su" flavor="A Numerian liberator can control her movement, breathing, body temperature, and other physiological signs to confuse the artificial visions of constructs.">Hide from Constructs (Su)</Pair>
+<Ability id="hide-from-constructs-su" icon={["armor-upgrade"]}>
+<Pair single id="hide-from-constructs-su" flavor="A Numerian liberator can control her movement, breathing, body temperature, and other physiological signs to confuse the artificial visions of constructs.">Hide from Constructs (Su)</Pair>
 <Pair hl title="Replaces">Indomitable will</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Ability">At will, the barbarian can make herself undetectable to constructs as if she were affected by a <Link to="/spell/hide_from_undead">hide from undead</Link> spell that instead hides the subject from constructs. Intelligent constructs receive a Will save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) to see through this effect.</Pair>
@@ -678,19 +678,19 @@ const _numerian_liberator = {title: "Numerian Liberator", jsx: <><h2 id="arc-bar
 </>};
 const _pack_hunter = {title: "Pack Hunter", jsx: <><h2 id="arc-barbarian-pack_hunter-pack-hunter">Pack Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 38</Link><br/>Pack hunter barbarians team up to hunt dangerous prey to feed, to protect their camps, and as a rite of passage. Often, a tribe of pack hunters looks to a specific species of animal (such as wolves) who themselves hunt in packs, and view these animals as sacred manifestations of their people's traditions and values.</p>
-<Ability id="arc-barbarian-pack_hunter-bonus-feats" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-pack_hunter-bonus-feats">Bonus Feats</Pair>
+<Ability id="bonus-feats" icon={["stairs-goal"]}>
+<Pair single id="bonus-feats">Bonus Feats</Pair>
 <Pair hl title="Alters">Rage power</Pair>
 <Pair title="Passive Ability">Whenever a pack hunter would gain a new rage power, she can instead select a <Link to="/main/teamwork_feat">teamwork feat</Link>. She must still meet the prerequisites for the teamwork feat.</Pair>
 </Ability>
-<Ability id="arc-barbarian-pack_hunter-in-and-out-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-pack_hunter-in-and-out-ex">In and Out (Ex)</Pair>
+<Ability id="in-and-out-ex" icon={["armor-upgrade"]}>
+<Pair single id="in-and-out-ex">In and Out (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A pack hunter gains a dodge bonus to AC against attacks of opportunity. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
 </Ability>
-<Ability id="arc-barbarian-pack_hunter-sympathetic-rage-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-pack_hunter-sympathetic-rage-ex">Sympathetic Rage (Ex)</Pair>
+<Ability id="sympathetic-rage-ex" icon={["upgrade"]}>
+<Pair single id="sympathetic-rage-ex">Sympathetic Rage (Ex)</Pair>
 <Pair hl title="Replaces">6th-level rage power</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">If an ally within 30 feet is <em>bloodraging</em> or <em>raging,</em> a pack hunter counts as <em>raging</em> even if knocked unconscious. She has to have been <em>raging</em> when incapacitated to maintain her <em>rage,</em> and she ceases <em>raging</em> normally if she depletes her maximum number of rounds of <em>rage</em> in a day.</Pair>
@@ -699,8 +699,8 @@ const _pack_hunter = {title: "Pack Hunter", jsx: <><h2 id="arc-barbarian-pack_hu
 </>};
 const _pack_rager = {title: "Pack Rager", jsx: <><h2 id="arc-barbarian-pack_rager-pack-rager">Pack Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 92</Link><br/>Barbarian rages can be a thing of savage beauty, exhibiting a lethal grace. While such uncontrolled displays of carnage often disregard group tactics, there are those barbarians whose rages inspire and spur on their allies during the ferocious dance of death.</p>
-<Ability id="arc-barbarian-pack_rager-bonus-feat" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-pack_rager-bonus-feat">Bonus Feat</Pair>
+<Ability id="bonus-feat" icon={["stairs-goal"]}>
+<Pair single id="bonus-feat">Bonus Feat</Pair>
 <Pair hl title="Replaces">2nd, 6th, 10th, 14th, and 18th level rage powers</Pair>
 <Pair title="Ability">The pack rager can take a bonus <Link to="/main/teamwork_feat">teamwork feat</Link>. This teamwork feat must also be a combat feat.</Pair>
 <Pair title="At 6th Level">The pack rager can take another bonus teamwork feat that is also a combat feat.</Pair>
@@ -708,8 +708,8 @@ const _pack_rager = {title: "Pack Rager", jsx: <><h2 id="arc-barbarian-pack_rage
 <Pair title="At 14th Level">The pack rager can take another bonus teamwork feat that is also a combat feat.</Pair>
 <Pair title="At 18th Level">The pack rager can take another bonus teamwork feat that is also a combat feat.</Pair>
 </Ability>
-<Ability id="arc-barbarian-pack_rager-raging-tactician" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-pack_rager-raging-tactician">Raging Tactician</Pair>
+<Ability id="raging-tactician" icon={["upgrade"]}>
+<Pair single id="raging-tactician">Raging Tactician</Pair>
 <Pair hl title="Replaces">Damage reduction</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">While a pack rager is <em>raging,</em> she grants a single teamwork feat she knows to all allies within 30 feet who can see and hear her. She chooses the feat at the start of the <em>rage,</em> and cannot change it during the <em>rage.</em> An ally who moves more than 30 feet away from the <em>raging</em> pack rager loses access to the feat, but regains it again each time he moves back within 30 feet of the <em>raging</em> pack rager. Allies do not need to meet the prerequisites of these teamwork feats.</Pair>
@@ -720,16 +720,16 @@ const _pack_rager = {title: "Pack Rager", jsx: <><h2 id="arc-barbarian-pack_rage
 </>};
 const _primal_hunter = {title: "Primal Hunter", jsx: <><h2 id="arc-barbarian-primal_hunter-primal-hunter">Primal Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 11</Link><br/>Rather than exploding with anger, primal hunters focus their rage to strike distant targets. Though able to hold their own in melee, primal hunters specialize in using some of the oldest of ranged weapons: bows, slings, and spears.</p>
-<Ability id="arc-barbarian-primal_hunter-exceptional-pull" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-primal_hunter-exceptional-pull">Exceptional Pull</Pair>
+<Ability id="exceptional-pull" icon={["stairs-goal"]}>
+<Pair single id="exceptional-pull">Exceptional Pull</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A primal hunter gains <Link to="/feat/exceptional_pull">Exceptional Pull</Link> as a bonus feat, even if she doesn't meet the requirements.</Pair>
 <Pair title="At 11th Level">The strength rating of weapons she wields increases by 1 (weapons without a strength rating are not affected).</Pair>
 <Pair title="At 20th Level">The strength rating now increases by 2.</Pair>
 </Ability>
-<Ability id="arc-barbarian-primal_hunter-focused-rage-ex" icon={["bowman"]}>
-<Pair single id="arc-barbarian-primal_hunter-focused-rage-ex">Focused Rage (Ex)</Pair>
+<Ability id="focused-rage-ex" icon={["bowman"]}>
+<Pair single id="focused-rage-ex">Focused Rage (Ex)</Pair>
 <Pair hl title="Alters">Rage</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> a primal hunter gains a +2 bonus on attack rolls with ranged weapons. While <em>raging,</em> a primal hunter can attempt Stealth checks but doesn't gain a morale bonus on Will saves.</Pair>
 <Pair title="At 11th Level">The bonus becomes +3.</Pair>
@@ -739,14 +739,14 @@ const _primal_hunter = {title: "Primal Hunter", jsx: <><h2 id="arc-barbarian-pri
 </>};
 const _raging_cannibal = {title: "Raging Cannibal", jsx: <><h2 id="arc-barbarian-raging_cannibal-raging-cannibal">Raging Cannibal</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 38</Link>, <Link to="/source/champions_of_corruption">Champions of Corruption pg. 27</Link><br/>While savagery is not inherently evil, some barbaric cultures thrive on depravity and welcome the act of feeding on their own kind. The raging cannibal is a barbarian who feasts upon her fallen opponents not out of hunger, or even a taste for flesh, but rather because she believes consuming her foes and defiling their lost lives demonstrates her strength. This penchant for feasting on the flesh of her kin makes the raging cannibal an awkward companion to travel with for many groups, with rumors revolving around the raging cannibal's culinary exploits often causing tense situations that other party members might be called upon to resolve via diplomacy before the raging cannibal grows frustrated and decides to take matters into her own hands!</p>
-<Ability id="arc-barbarian-raging_cannibal-animal-fury" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-raging_cannibal-animal-fury">Animal Fury</Pair>
+<Ability id="animal-fury" icon={["stairs-goal"]}>
+<Pair single id="animal-fury">Animal Fury</Pair>
 <Pair hl title="Alters">The barbarian's 2nd-level rage power</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A raging cannibal must select <Link to="/ragepower/animal_fury">animal fury</Link> as her first rage power.</Pair>
 </Ability>
-<Ability id="arc-barbarian-raging_cannibal-consume-vigor-ex" icon={["upgrade","mailed-fist"]}>
-<Pair single id="arc-barbarian-raging_cannibal-consume-vigor-ex">Consume Vigor (Ex)</Pair>
+<Ability id="consume-vigor-ex" icon={["upgrade","mailed-fist"]}>
+<Pair single id="consume-vigor-ex">Consume Vigor (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">When a raging cannibal reduces a creature of the same creature type as herself to 0 or fewer hit points with her bite attack during combat while <em>raging,</em> she can consume a chunk of its body to gain a portion of its power. If the creature's CR equals or exceeds her barbarian level, the raging cannibal gains 1 additional round of <em>rage.</em> She can never consume the same creature's vigor more than once.</Pair>
@@ -757,20 +757,20 @@ const _raging_cannibal = {title: "Raging Cannibal", jsx: <><h2 id="arc-barbarian
 <Pair title="At 17th Level">She now gains 6 rounds of <em>rage.</em></Pair>
 <Pair title="At 20th Level">She now gains 7 rounds of <em>rage.</em></Pair>
 </Ability>
-<Ability id="arc-barbarian-raging_cannibal-intimidating-gouge-ex" icon={["upgrade","mailed-fist"]}>
-<Pair single id="arc-barbarian-raging_cannibal-intimidating-gouge-ex">Intimidating Gouge (Ex)</Pair>
+<Ability id="intimidating-gouge-ex" icon={["upgrade","mailed-fist"]}>
+<Pair single id="intimidating-gouge-ex">Intimidating Gouge (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">When a raging cannibal confirms a critical hit against a creature of the same creature type as herself with her bite attack while <em>raging,</em> she gains a bonus on Intimidate checks equal to <Link to="/misc/half">half</Link> her barbarian level for the duration of the <em>rage.</em></Pair>
 </Ability>
-<Ability id="arc-barbarian-raging_cannibal-feed-from-fury-ex" icon={["upgrade","mailed-fist"]}>
-<Pair single id="arc-barbarian-raging_cannibal-feed-from-fury-ex" flavor="A raging cannibal is empowered by eating her enemies during combat.">Feed from Fury (Ex)</Pair>
+<Ability id="feed-from-fury-ex" icon={["upgrade","mailed-fist"]}>
+<Pair single id="feed-from-fury-ex" flavor="A raging cannibal is empowered by eating her enemies during combat.">Feed from Fury (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">When a raging cannibal confirms a critical hit against a creature of the same creature type as herself with her bite attack while <em>raging,</em> she gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to her barbarian level. These temporary hit points stack with other temporary hit points gained from this ability but not with those from other sources. These temporary hit points fade after a period of time equal to 10 minutes per barbarian level.</Pair>
 </Ability>
-<Ability id="arc-barbarian-raging_cannibal-razor-toothed-fury-ex" icon={["upgrade","mailed-fist"]}>
-<Pair single id="arc-barbarian-raging_cannibal-razor-toothed-fury-ex">Razor-Toothed Fury (Ex)</Pair>
+<Ability id="razor-toothed-fury-ex" icon={["upgrade","mailed-fist"]}>
+<Pair single id="razor-toothed-fury-ex">Razor-Toothed Fury (Ex)</Pair>
 <Pair hl title="Replaces">Damage reduction</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">When using her bite attack, the raging cannibal can take a -1 penalty on her attack roll to add 2 points of <Link to="/rule/bleed">bleed</Link> damage to the damage dealt.</Pair>
@@ -782,16 +782,16 @@ const _raging_cannibal = {title: "Raging Cannibal", jsx: <><h2 id="arc-barbarian
 </>};
 const _savage_barbarian = {title: "Savage Barbarian", jsx: <><h2 id="arc-barbarian-savage_barbarian-savage-barbarian">Savage Barbarian</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 79</Link><br/>Some barbarians are truly savage, having little training in modern arms. These savage barbarians learn to avoid blows and toughen up their skin. A savage barbarian has the following class features.</p>
-<Ability id="arc-barbarian-savage_barbarian-naked-courage-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-savage_barbarian-naked-courage-ex">Naked Courage (Ex)</Pair>
+<Ability id="naked-courage-ex" icon={["armor-upgrade"]}>
+<Pair single id="naked-courage-ex">Naked Courage (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">The savage barbarian gains a +1 dodge bonus to AC and a +1 morale bonus on saving throws against fear when wearing no armor (shields are allowed).</Pair>
 <Pair title="At 9th Level">The bonuses become +2.</Pair>
 <Pair title="At 15th Level">The bonuses increase to +3.</Pair>
 </Ability>
-<Ability id="arc-barbarian-savage_barbarian-natural-toughness-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-savage_barbarian-natural-toughness-ex">Natural Toughness (Ex)</Pair>
+<Ability id="natural-toughness-ex" icon={["armor-upgrade"]}>
+<Pair single id="natural-toughness-ex">Natural Toughness (Ex)</Pair>
 <Pair hl title="Replaces">Damage reduction</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">The savage barbarian gains a +1 natural armor bonus to AC when wearing no armor (shields are allowed).</Pair>
@@ -804,33 +804,33 @@ const _savage_barbarian = {title: "Savage Barbarian", jsx: <><h2 id="arc-barbari
 </>};
 const _savage_technologist = {title: "Savage Technologist", jsx: <><h2 id="arc-barbarian-savage_technologist-savage-technologist">Savage Technologist</h2>
 <p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 13</Link><br/>Savage technologists exhort Kellids to rise up against the depredations of the Technic League. But rather than rejecting technology, they wield the League's own weapons against it. A savage technologist has the following class features.</p>
-<Ability icon={["skills"]} id="arc-barbarian-savage_technologist-undefined">
-<Pair id="arc-barbarian-savage_technologist-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (nature), Handle Animal</Pair></Ability>
-<Ability id="arc-barbarian-savage_technologist-weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-barbarian-savage_technologist-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Ability id="weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">A savage technologist is proficient in all firearms, but is not proficient with medium armor.</Pair>
 </Ability>
-<Ability id="arc-barbarian-savage_technologist-rage-ex" icon={["info"]}>
-<Pair single id="arc-barbarian-savage_technologist-rage-ex">Rage (Ex)</Pair>
+<Ability id="rage-ex" icon={["info"]}>
+<Pair single id="rage-ex">Rage (Ex)</Pair>
 <Pair hl title="Alters">Rage</Pair>
 <Pair title="Info">A savage technologist can enter <em>rage</em> as a barbarian, except she gains a morale bonus to Strength and Dexterity instead of Strength and Constitution, and she does not take a penalty to Armor Class. She retains the bonus on Will saving throws. When a barbarian ability would increase the savage technologist's Strength while <em>raging,</em> it increases her Dexterity instead.</Pair>
 </Ability>
-<Ability id="arc-barbarian-savage_technologist-sword-and-gun-ex" icon={["armor-upgrade","upgrade"]}>
-<Pair single id="arc-barbarian-savage_technologist-sword-and-gun-ex">Sword and Gun (Ex)</Pair>
+<Ability id="sword-and-gun-ex" icon={["armor-upgrade","upgrade"]}>
+<Pair single id="sword-and-gun-ex">Sword and Gun (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny Dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">When a <em>raging</em> savage technologist wields a one-handed firearm in one hand and a light or one-handed melee weapon in the other, she can make ranged attacks with the firearm without provoking attacks of opportunity. She also gains the benefits of the <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link> feat, but only if all attacks are made with those weapons.</Pair>
 </Ability>
-<Ability id="arc-barbarian-savage_technologist-primal-magnetism-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-savage_technologist-primal-magnetism-ex">Primal Magnetism (Ex)</Pair>
+<Ability id="primal-magnetism-ex" icon={["upgrade"]}>
+<Pair single id="primal-magnetism-ex">Primal Magnetism (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A savage technologist adds her Strength modifier on Diplomacy checks when interacting with tribal cultures.</Pair>
 <Pair title="Ability">She can expend 2 rounds of <em>rage</em> (even if not <em>raging</em>) to add a bonus equal to <Link to="/misc/half">half</Link> his barbarian level on a Diplomacy check.</Pair>
 </Ability>
-<Ability id="arc-barbarian-savage_technologist-crack-shot-ex" icon={["upgrade","bowman"]}>
-<Pair single id="arc-barbarian-savage_technologist-crack-shot-ex">Crack Shot (Ex)</Pair>
+<Ability id="crack-shot-ex" icon={["upgrade","bowman"]}>
+<Pair single id="crack-shot-ex">Crack Shot (Ex)</Pair>
 <Pair hl title="Replaces">Improved Uncanny Dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">A savage technologist adds her Dexterity modifier to her damage rolls when making ranged attacks with a firearm while <em>raging.</em></Pair>
@@ -838,26 +838,26 @@ const _savage_technologist = {title: "Savage Technologist", jsx: <><h2 id="arc-b
 </>};
 const _scarred_rager = {title: "Scarred Rager", jsx: <><h2 id="arc-barbarian-scarred_rager-scarred-rager">Scarred Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 29</Link><br/>Some barbarians wear marks of prowess and savagery upon their bodies. The scarred rager believes each wound tells the tales of her prowess and bravery. She augments these ragged trophies with brands and tattoos in order to win the notice and favor of her gods, ancestors, or totem spirits. The scarred rager's gnarled and exotic appearance terrifies civilized onlookers, but is awe-inspiring to her savage kin.</p>
-<Ability id="arc-barbarian-scarred_rager-terrifying-visage-ex" icon={["upgrade","armor-downgrade"]}>
-<Pair single id="arc-barbarian-scarred_rager-terrifying-visage-ex">Terrifying Visage (Ex)</Pair>
+<Ability id="terrifying-visage-ex" icon={["upgrade","armor-downgrade"]}>
+<Pair single id="terrifying-visage-ex">Terrifying Visage (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Passive Ability">A scarred rager adds <Link to="/misc/half">half</Link> her barbarian level on Intimidate checks against humanoids who are not members of barbarian tribes. When dealing with barbarians, the scarred rager may choose to add this bonus on Diplomacy checks instead. The DC of any fear effect created by the scarred rager also increases by 1.</Pair>
 </Ability>
-<Ability id="arc-barbarian-scarred_rager-tolerance-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-scarred_rager-tolerance-ex">Tolerance (Ex)</Pair>
+<Ability id="tolerance-ex" icon={["armor-upgrade"]}>
+<Pair single id="tolerance-ex">Tolerance (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A scarred rager who fails a save against an effect that causes her to become nauseated, sickened, fatigued, or exhausted can make a second save to negate the effect on the start of her next turn. Only one additional save is allowed. If the effect does not allow a saving throw, its duration is halved instead (minimum of 1 round).</Pair>
 </Ability>
-<Ability id="arc-barbarian-scarred_rager-scarification-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-scarred_rager-scarification-ex">Scarification (Ex)</Pair>
+<Ability id="scarification-ex" icon={["armor-upgrade"]}>
+<Pair single id="scarification-ex">Scarification (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A scarred rager can ignore a number of points of bleed damage per round. This number is equal to one-third her barbarian level.</Pair>
 <Pair title="At 15th Level">A scarred rager can ignore 1 bleed effect each round.</Pair>
 </Ability>
-<Ability id="arc-barbarian-scarred_rager-improved-tolerance-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-scarred_rager-improved-tolerance-ex">Improved Tolerance (Ex)</Pair>
+<Ability id="improved-tolerance-ex" icon={["armor-upgrade"]}>
+<Pair single id="improved-tolerance-ex">Improved Tolerance (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">A scarred rager's <em>tolerance</em> ability also applies to effects that would cause her to become dazed, frightened, shaken, or stunned.</Pair>
@@ -866,29 +866,29 @@ const _scarred_rager = {title: "Scarred Rager", jsx: <><h2 id="arc-barbarian-sca
 </>};
 const _sea_reaver = {title: "Sea Reaver", jsx: <><h2 id="arc-barbarian-sea_reaver-sea-reaver">Sea Reaver</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 29</Link><br/>Not all barbarians hunt forests, plains, and mountains. Some are raiding terrors on the sea and coasts, pillaging those who hoard treasure and pursuing monsters of the deep. Some sea reavers are no more than hunters of the open sea, while others are raiders striking fear into coastal settlements within reach of the sea reavers' longships.</p>
-<Ability id="arc-barbarian-sea_reaver-weapon-and-armor-proficiency" icon={["broken-shield"]}>
-<Pair single id="arc-barbarian-sea_reaver-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">A sea reaver is not proficient with medium armor.</Pair>
 </Ability>
-<Ability id="arc-barbarian-sea_reaver-marine-terror-ex" icon={["stairs-goal","upgrade","armor-downgrade"]}>
-<Pair single id="arc-barbarian-sea_reaver-marine-terror-ex">Marine Terror (Ex)</Pair>
+<Ability id="marine-terror-ex" icon={["stairs-goal","upgrade","armor-downgrade"]}>
+<Pair single id="marine-terror-ex">Marine Terror (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Passive Ability">A sea reaver can <Link to="/misc/hold_her_breath">hold her breath</Link> for a number of rounds equal to four times her Constitution score. In addition, a sea reaver can move normally though squares of standing water or bog that is 1 foot deep. It does not cost her extra movement to traverse these terrains. Lastly, a sea reaver ignores the normal <Link to="/rule/cover">cover</Link> bonus to AC when attacking creatures that are partially immersed in water.</Pair>
 </Ability>
-<Ability id="arc-barbarian-sea_reaver-eyes-of-the-storm-ex" icon={["armor-downgrade","upgrade"]}>
-<Pair single id="arc-barbarian-sea_reaver-eyes-of-the-storm-ex">Eyes of the Storm (Ex)</Pair>
+<Ability id="eyes-of-the-storm-ex" icon={["armor-downgrade","upgrade"]}>
+<Pair single id="eyes-of-the-storm-ex">Eyes of the Storm (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A sea reaver ignores any <Link to="/rule/concealment">concealment</Link> provided by fog, rain, sleet, mist, wind, or other weather effects that is less than total concealment, and any penalties weather applies on Perception checks are halved.</Pair>
 </Ability>
-<Ability id="arc-barbarian-sea_reaver-savage-sailor-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-sea_reaver-savage-sailor-ex">Savage Sailor (Ex)</Pair>
+<Ability id="savage-sailor-ex" icon={["upgrade"]}>
+<Pair single id="savage-sailor-ex">Savage Sailor (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A sea reaver gains a bonus on Acrobatics, Climb, Profession (sailor), Survival, and Swim checks made in aquatic terrain, including aboard a ship or along shorelines. This bonus is equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
 </Ability>
-<Ability id="arc-barbarian-sea_reaver-sure-footed-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-sea_reaver-sure-footed-ex">Sure-Footed (Ex)</Pair>
+<Ability id="sure-footed-ex" icon={["upgrade"]}>
+<Pair single id="sure-footed-ex">Sure-Footed (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">A sea reaver takes no penalties when moving across slick surfaces, whether natural or magical (e.g., <Link to="/spell/grease">grease</Link>, <Link to="/spell/ice_storm">ice storm</Link>, and <Link to="/spell/sleet_storm">sleet storm</Link>). She is not at risk of falling, is not denied her Dexterity bonus when moving across such areas, and does not treat them as difficult terrain.</Pair>
@@ -897,8 +897,8 @@ const _sea_reaver = {title: "Sea Reaver", jsx: <><h2 id="arc-barbarian-sea_reave
 </>};
 const _sharptooth = {title: "Sharptooth", jsx: <><h2 id="arc-barbarian-sharptooth-sharptooth">Sharptooth</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 39</Link><br/>Coastal hunters and agents of the ocean's rage, sharptooth barbarians emulate the greatest predators of the sea. Sharks, in particular, are respected and admired by many such tribes, if not as manifestations of divine power, then merely as scions of the power and fury of the natural world.</p>
-<Ability id="arc-barbarian-sharptooth-swim-like-a-fish-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-sharptooth-swim-like-a-fish-ex">Swim Like a Fish (Ex)</Pair>
+<Ability id="swim-like-a-fish-ex" icon={["stairs-goal"]}>
+<Pair single id="swim-like-a-fish-ex">Swim Like a Fish (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Ability">A sharptooth gains a swim speed of 10 feet.</Pair>
 <Pair title="At 5th Level">The swim speed becomes 15 feet.</Pair>
@@ -906,21 +906,21 @@ const _sharptooth = {title: "Sharptooth", jsx: <><h2 id="arc-barbarian-sharptoot
 <Pair title="At 15th Level">The swim speed becomes 25 feet.</Pair>
 <Pair title="At 20th Level">The swim speed becomes 30 feet.</Pair>
 </Ability>
-<Ability id="arc-barbarian-sharptooth-scent-of-blood-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-sharptooth-scent-of-blood-ex">Scent of Blood (Ex)</Pair>
+<Ability id="scent-of-blood-ex" icon={["stairs-goal"]}>
+<Pair single id="scent-of-blood-ex">Scent of Blood (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A sharptooth gains <Link to="/umr/scent">scent</Link>.</Pair>
 <Pair title="At 5th Level">She also gains <Link to="/umr/keen_scent">keen scent</Link>.</Pair>
 </Ability>
-<Ability id="arc-barbarian-sharptooth-ocean-breath-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-sharptooth-ocean-breath-ex">Ocean Breath (Ex)</Pair>
+<Ability id="ocean-breath-ex" icon={["upgrade"]}>
+<Pair single id="ocean-breath-ex">Ocean Breath (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A sharptooth gains a bonus equal to <Link to="/misc/one_third">one-third</Link> her barbarian level. She adds this number to her Constitution score for the purposes of <Link to="/misc/hold_her_breath">holding her breath</Link>. She also adds it as a bonus on Constitution checks to continue holding her breath.</Pair>
 </Ability>
-<Ability id="arc-barbarian-sharptooth-blood-in-the-water-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-sharptooth-blood-in-the-water-ex" flavor="A sharptooth can tear the flesh from living creatures.">Blood in the Water (Ex)</Pair>
+<Ability id="blood-in-the-water-ex" icon={["upgrade"]}>
+<Pair single id="blood-in-the-water-ex" flavor="A sharptooth can tear the flesh from living creatures.">Blood in the Water (Ex)</Pair>
 <Pair hl title="Replaces">6th- and 12th-level rage powers</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">Her attacks add 3 points of <Link to="/rule/bleed">bleed</Link> damage while she is <em>raging.</em></Pair>
@@ -930,8 +930,8 @@ const _sharptooth = {title: "Sharptooth", jsx: <><h2 id="arc-barbarian-sharptoot
 </>};
 const _shoanti_burn_rider = {title: "Shoanti Burn Rider", jsx: <><h2 id="arc-barbarian-shoanti_burn_rider-shoanti-burn-rider">Shoanti Burn Rider</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 44</Link><br/>The Shoanti tribes who live in the Cinderlands have turned the deadly emberstorms that plague the region into a rite of passage. A few who survive the experience begin to embrace the adrenaline and surge of joy that comes from dancing along the edge of a whirling firestorm. These thrill-seekers are known as burn riders, and their exploits are celebrated by all Shoanti. Burn riders learn early on that speed and lightning-quick reactions are essential to avoid becoming trapped by the fickle whims of a raging emberstorm. They have an uncanny understanding of fire and can read the currents in the smoke.</p>
-<Ability id="arc-barbarian-shoanti_burn_rider-flame-runner-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-shoanti_burn_rider-flame-runner-ex" flavor="A burn rider can goad her mount into a burst of incredible speed.">Flame Runner (Ex)</Pair>
+<Ability id="flame-runner-ex" icon={["upgrade"]}>
+<Pair single id="flame-runner-ex" flavor="A burn rider can goad her mount into a burst of incredible speed.">Flame Runner (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">Once per rage</Pair>
@@ -939,27 +939,27 @@ const _shoanti_burn_rider = {title: "Shoanti Burn Rider", jsx: <><h2 id="arc-bar
 <Pair title="At 9th Level">Her mount's speed now increases by 20 feet.</Pair>
 <Pair title="At 15th Level">Her mount's speed now increases by 30 feet.</Pair>
 </Ability>
-<Ability id="arc-barbarian-shoanti_burn_rider-cinder-sight-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-shoanti_burn_rider-cinder-sight-ex">Cinder Sight (Ex)</Pair>
+<Ability id="cinder-sight-ex" icon={["stairs-goal"]}>
+<Pair single id="cinder-sight-ex">Cinder Sight (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">A Shoanti burn rider can see through fire, fog, and smoke without penalty as long as the light is sufficient to allow her to see normally.</Pair>
 </Ability>
-<Ability id="arc-barbarian-shoanti_burn_rider-cinder-dance-ex" icon={["stairs-goal","armor-upgrade"]}>
-<Pair single id="arc-barbarian-shoanti_burn_rider-cinder-dance-ex">Cinder Dance (Ex)</Pair>
+<Ability id="cinder-dance-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="cinder-dance-ex">Cinder Dance (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Immediate Action">When a burn rider succeeds at a Reflex save to avoid fire damage, she can move up to half her speed. If the burn rider ends this movement outside the area of effect, she takes no damage from the effect.</Pair>
 <Pair title="Special">After this sudden movement, the burn rider is <Link to="/misc/staggered">staggered</Link> until the end of her next turn. If the burn rider is mounted, her mount makes the movement instead, and both the mount and the burn rider are staggered until the end of the burn rider's next turn.</Pair>
 </Ability>
-<Ability id="arc-barbarian-shoanti_burn_rider-mount" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-shoanti_burn_rider-mount">Mount</Pair>
+<Ability id="mount" icon={["stairs-goal"]}>
+<Pair single id="mount">Mount</Pair>
 <Pair hl title="Replaces">4th, 8th, 12th, and 16th level rage powers</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A burn rider gains a loyal mount. This ability functions like the druid's <Link to="/sidekick/animal_companion">animal companion</Link> ability, except that the burn rider always gains a <Link to="/companion/horse">horse</Link> or <Link to="/companion/pony">pony</Link> (though she can gain additional options at the GM's discretion) and her effective druid level is equal to her Shoanti burn rider level - 3.</Pair>
 </Ability>
-<Ability id="arc-barbarian-shoanti_burn_rider-give-me-fire-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-shoanti_burn_rider-give-me-fire-ex">Give Me Fire (Ex)</Pair>
+<Ability id="give-me-fire-ex" icon={["upgrade"]}>
+<Pair single id="give-me-fire-ex">Give Me Fire (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">If a Shoanti burn rider takes fire damage while <em>raging,</em> she regains 1 round of <em>rage.</em> The burn rider regains the round of <em>rage</em> only if the fire damage bypasses or exceeds any energy resistance or other protections in effect.</Pair>
@@ -969,14 +969,14 @@ const _shoanti_burn_rider = {title: "Shoanti Burn Rider", jsx: <><h2 id="arc-bar
 </>};
 const _superstitious = {title: "Superstitious", jsx: <><h2 id="arc-barbarian-superstitious-superstitious">Superstitious</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 79</Link><br/>Many barbarians distrust magic. While most just shy away from magic, others focus their rage on users of such foul arts. These barbarians are naturally distrusting, and develop keen senses to protect them from harm. A superstitious barbarian has the following class features.</p>
-<Ability id="arc-barbarian-superstitious-sixth-sense-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-superstitious-sixth-sense-ex">Sixth Sense (Ex)</Pair>
+<Ability id="sixth-sense-ex" icon={["upgrade"]}>
+<Pair single id="sixth-sense-ex">Sixth Sense (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">The superstitious barbarian gains a bonus on initiative and an insight bonus to AC during surprise rounds. These bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
 </Ability>
-<Ability id="arc-barbarian-superstitious-keen-senses-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-superstitious-keen-senses-ex">Keen Senses (Ex)</Pair>
+<Ability id="keen-senses-ex" icon={["stairs-goal"]}>
+<Pair single id="keen-senses-ex">Keen Senses (Ex)</Pair>
 <Pair hl title="Replaces">Damage reduction</Pair>
 <Pair title="At 7th Level">The superstitious barbarian gains <Link to="/umr/low_light_vision">low-light vision</Link> (triple normal vision range in dim light if she already has low-light vision).</Pair>
 <Pair title="At 10th Level">She gains <Link to="/umr/darkvision">darkvision</Link> 60 feet (or adds 60 feet to the range of any darkvision already possessed).</Pair>
@@ -989,26 +989,26 @@ const _superstitious = {title: "Superstitious", jsx: <><h2 id="arc-barbarian-sup
 const _titan_mauler = {title: "Titan Mauler", jsx: <><h2 id="arc-barbarian-titan_mauler-titan-mauler">Titan Mauler</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 30</Link></p>
 <p>In lands overrun by giants, dragons, and other hulking beasts, entire fellowships of barbarians hone tactics and traditions with one purpose - to bring low these massive foes. While her enemies' size makes the creatures strong, the titan mauler is even stronger, taking up weapons from her fallen foes that no lesser warrior can lift, and using them when she beseeches the spirits to grant her increased size and greater ferocity against her titanic foes.</p>
-<Ability id="arc-barbarian-titan_mauler-big-game-hunter-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-titan_mauler-big-game-hunter-ex">Big Game Hunter (Ex)</Pair>
+<Ability id="big-game-hunter-ex" icon={["armor-upgrade"]}>
+<Pair single id="big-game-hunter-ex">Big Game Hunter (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">A titan mauler gains a +1 bonus on attack rolls and a +1 dodge bonus to AC in melee with creatures larger than themselves.</Pair>
 </Ability>
-<Ability id="arc-barbarian-titan_mauler-jotungrip-ex" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-barbarian-titan_mauler-jotungrip-ex">Jotungrip (Ex)</Pair>
+<Ability id="jotungrip-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="jotungrip-ex">Jotungrip (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A titan mauler may choose to wield a two-handed melee weapon in one hand with a -2 penalty on attack rolls while doing so. The weapon must be appropriately sized for her, and it is treated as one-handed when determining the effect of <Link to="/feat/power_attack">Power Attack</Link>, Strength bonus to damage, and the like.</Pair>
 </Ability>
-<Ability id="arc-barbarian-titan_mauler-massive-weapons-ex" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-barbarian-titan_mauler-massive-weapons-ex">Massive Weapons (Ex)</Pair>
+<Ability id="massive-weapons-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="massive-weapons-ex">Massive Weapons (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A titan mauler becomes skilled in the use of massive weapons looted from her titanic foes. She can use two-handed weapons meant for creatures one size category larger, but the penalty for doing so is increased by 4. However, the attack roll penalty for using weapons too large for her size is reduced by an amount equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level (to a minimum of 0).</Pair>
 </Ability>
-<Ability id="arc-barbarian-titan_mauler-evade-reach-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-titan_mauler-evade-reach-ex">Evade Reach (Ex)</Pair>
+<Ability id="evade-reach-ex" icon={["armor-upgrade"]}>
+<Pair single id="evade-reach-ex">Evade Reach (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Swift Action">A titan mauler may choose one creature within her line of sight. Until the end of her turn, that target's reach is treated as if it were 5 feet shorter with respect to reaching the titan mauler.</Pair>
@@ -1016,8 +1016,8 @@ const _titan_mauler = {title: "Titan Mauler", jsx: <><h2 id="arc-barbarian-titan
 <Pair title="At 15th Level">The target's reach is treated as 15 feet shorter.</Pair>
 <Pair title="At 20th Level">The target's reach is treated as 20 feet shorter.</Pair>
 </Ability>
-<Ability id="arc-barbarian-titan_mauler-titanic-rage-su" icon={["upgrade","broken-shield"]}>
-<Pair single id="arc-barbarian-titan_mauler-titanic-rage-su">Titanic Rage (Su)</Pair>
+<Ability id="titanic-rage-su" icon={["upgrade","broken-shield"]}>
+<Pair single id="titanic-rage-su">Titanic Rage (Su)</Pair>
 <Pair hl title="Replaces">Indomitable will</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Ability">A titan mauler may choose to gain the benefits of <Link to="/spell/enlarge_person">enlarge person</Link> when she enters a <em>rage.</em> While using <em>titanic rage,</em> she must spend 2 rounds of <em>rage</em> per round, and she becomes <Link to="/misc/exhausted">exhausted</Link> rather than fatigued when the <em>rage</em> ends.</Pair>
@@ -1203,22 +1203,22 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 </div>};
 const _true_primitive = {title: "True Primitive", jsx: <><h2 id="arc-barbarian-true_primitive-true-primitive">True Primitive</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 30</Link><br/>Isolated and xenophobic tribes that dwell in areas untouched by civilization often see anything from cities and organized settlements as strange, dangerous, and decadent. They gain power from their truly primitive nature; their bodies and spirits are hardened by the wild and untainted existence far from the pathetic softness of so-called civilization. Even when forced to mingle with civilization, the true primitive stays apart in both traditions and trappings.</p>
-<Ability id="arc-barbarian-true_primitive-weapon-and-armor-proficiency" icon={["broken-shield"]}>
-<Pair single id="arc-barbarian-true_primitive-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Alters">The barbarian's armor and weapon proficiencies</Pair>
 <Pair title="Info">A true primitive is proficient with <Link to="/eq-armor/hide_armor">hide armor</Link> and armors made from <Link to="/eq-material/bone">bone</Link>. A true primitive is also proficient with bone shields and the following weapons: <Link to="/eq-weapon/battleaxe">battleaxe</Link>, <Link to="/eq-weapon/blowgun">blowgun</Link>, <Link to="/eq-weapon/club">club</Link>, <Link to="/eq-weapon/greatclub">greatclub</Link>, <Link to="/eq-weapon/handaxe">handaxe</Link>, <Link to="/eq-weapon/longspear">longspear</Link>, <Link to="/eq-weapon/shortspear">shortspear</Link>, <Link to="/eq-weapon/sling">sling</Link>, and <Link to="/eq-weapon/spear">spear</Link>.</Pair>
 </Ability>
-<Ability id="arc-barbarian-true_primitive-illiteracy" icon={["broken-shield"]}>
-<Pair single id="arc-barbarian-true_primitive-illiteracy">Illiteracy</Pair>
+<Ability id="illiteracy" icon={["broken-shield"]}>
+<Pair single id="illiteracy">Illiteracy</Pair>
 <Pair title="Info">A true primitive cannot read or write, and her superstition about such things leads her to refuse to ever learn to read or write, even if she multiclasses into other classes.</Pair>
 </Ability>
-<Ability id="arc-barbarian-true_primitive-favored-terrain-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-true_primitive-favored-terrain-ex">Favored Terrain (Ex)</Pair>
+<Ability id="favored-terrain-ex" icon={["stairs-goal"]}>
+<Pair single id="favored-terrain-ex">Favored Terrain (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Ability">A true primitive has a <Link to="/ability/favored_terrain">favored terrain</Link> representing her native homeland. This ability functions as the ranger class feature, and the true primitive's bonuses in that terrain improve by +2 at 5th level and every five levels thereafter. However, she does not gain any additional favored terrains.</Pair>
 </Ability>
-<Ability id="arc-barbarian-true_primitive-trophy-fetish-ex" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="arc-barbarian-true_primitive-trophy-fetish-ex" flavor="A true primitive collects teeth, bones, hair, and other trophies from vanquished enemies, representing their power and strength.">Trophy Fetish (Ex)</Pair>
+<Ability id="trophy-fetish-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="trophy-fetish-ex" flavor="A true primitive collects teeth, bones, hair, and other trophies from vanquished enemies, representing their power and strength.">Trophy Fetish (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A true primitive can attach a trophy fetish to one of the traditional true primitive weapons listed above. When wielding that weapon, the true primitive gains a +1 morale bonus on damage rolls. Furthermore, if that weapon has the <Link to="/misc/fragile">fragile</Link> property, once per day, the true primitive can ignore the effects of a single natural 1 roll. A trophy fetish can also be attached to a suit of hide or bone armor, granting the true primitive a +1 morale bonus on saving throws. Furthermore, if that armor has the fragile property, once per day, the true primitive can chose not to have the armor break on the confirmation of a critical hit made against her.</Pair>
@@ -1231,26 +1231,26 @@ const _true_primitive = {title: "True Primitive", jsx: <><h2 id="arc-barbarian-t
 </>};
 const _untamed_rager = {title: "Untamed Rager", jsx: <><h2 id="arc-barbarian-untamed_rager-untamed-rager">Untamed Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 15</Link><br/>There are no rules in the wild. Some barbarians enter combat with only victory in mind and do anything in their power to achieve it.</p>
-<Ability id="arc-barbarian-untamed_rager-despicable-tactics" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-untamed_rager-despicable-tactics">Despicable Tactics</Pair>
+<Ability id="despicable-tactics" icon={["stairs-goal"]}>
+<Pair single id="despicable-tactics">Despicable Tactics</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">The untamed rager gains <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="arc-barbarian-untamed_rager-feral-appearance-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-untamed_rager-feral-appearance-ex">Feral Appearance (Ex)</Pair>
+<Ability id="feral-appearance-ex" icon={["upgrade"]}>
+<Pair single id="feral-appearance-ex">Feral Appearance (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">The untamed rager gains a bonus on Intimidate checks equal to <Link to="/misc/one_third">one-third</Link> of her barbarian level.</Pair>
 </Ability>
-<Ability id="arc-barbarian-untamed_rager-deplorable-tactics" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-untamed_rager-deplorable-tactics">Deplorable Tactics</Pair>
+<Ability id="deplorable-tactics" icon={["stairs-goal"]}>
+<Pair single id="deplorable-tactics">Deplorable Tactics</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">The untamed rager gains <Link to="/feat/greater_dirty_trick">Greater Dirty Trick</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="arc-barbarian-untamed_rager-dishonorable-ex" icon={["upgrade","mailed-fist","armor-upgrade"]}>
-<Pair single id="arc-barbarian-untamed_rager-dishonorable-ex">Dishonorable (Ex)</Pair>
+<Ability id="dishonorable-ex" icon={["upgrade","mailed-fist","armor-upgrade"]}>
+<Pair single id="dishonorable-ex">Dishonorable (Ex)</Pair>
 <Pair hl title="Replaces">Damage reduction</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">The untamed rager gains a +1 bonus on combat maneuver checks when performing dirty tricks and to her CMD to resist others' dirty tricks.</Pair>
@@ -1262,22 +1262,22 @@ const _untamed_rager = {title: "Untamed Rager", jsx: <><h2 id="arc-barbarian-unt
 </>};
 const _urban_barbarian = {title: "Urban Barbarian", jsx: <><h2 id="arc-barbarian-urban_barbarian-urban-barbarian">Urban Barbarian</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 31</Link><br/>Every barbarian knows that city life can soften the spirit and the body, but some barbarians take on the trappings and ways of their adoptive homes and bend their savage powers to its challenges. While these urban barbarians' rough edges are smoothed into civility, they can use their primal nature and upbringing to move with the ebb and flow of civilization's natural rhythms.</p>
-<Ability id="arc-barbarian-urban_barbarian-weapon-and-armor-proficiency" icon={["broken-shield"]}>
-<Pair single id="arc-barbarian-urban_barbarian-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Passive Ability">An urban barbarian is not proficient with medium armor.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="arc-barbarian-urban_barbarian-undefined">
-<Pair id="arc-barbarian-urban_barbarian-undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/profession">Profession</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (nature), Survival</Pair></Ability>
-<Ability id="arc-barbarian-urban_barbarian-crowd-control-ex" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="arc-barbarian-urban_barbarian-crowd-control-ex">Crowd Control (Ex)</Pair>
+<Ability id="crowd-control-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="crowd-control-ex">Crowd Control (Ex)</Pair>
 <Pair hl title="Replaces">Fast movement</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">An urban barbarian gains a +1 bonus on attack rolls and a +1 dodge bonus to AC when adjacent to two or more enemies. In addition, her movement is not impeded by <Link to="/rule/crowds">crowds</Link>, and she gains a bonus equal to <Link to="/misc/half">half</Link> her barbarian level on Intimidate checks to influence crowds.</Pair>
 </Ability>
-<Ability id="arc-barbarian-urban_barbarian-controlled-rage-ex" icon={["upgrade","broken-shield"]}>
-<Pair single id="arc-barbarian-urban_barbarian-controlled-rage-ex">Controlled Rage (Ex)</Pair>
+<Ability id="controlled-rage-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="controlled-rage-ex">Controlled Rage (Ex)</Pair>
 <Pair hl title="Alters">Rage</Pair>
 <Pair title="Ability">When an urban barbarian rages, instead of making a normal <em>rage</em> she applies a +4 morale bonus to her Strength, Dexterity, or Constitution. This bonus increases to +6 when she gains <em>greater rage</em> and +8 when she gains <em>mighty rage.</em> She may apply the full bonus to one ability score or may split the bonus between several scores in increments of +2. When using a <em>controlled rage,</em> an urban barbarian gains no bonus on Will saves, takes no penalties to AC, and can still use Intelligence-, Dexterity-, and Charisma-based skills. This ability otherwise follows the normal rules for rage.</Pair>
 </Ability>
@@ -1285,19 +1285,19 @@ const _urban_barbarian = {title: "Urban Barbarian", jsx: <><h2 id="arc-barbarian
 </>};
 const _wild_rager = {title: "Wild Rager", jsx: <><h2 id="arc-barbarian-wild_rager-wild-rager">Wild Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 31</Link><br/>Rages are barely controlled, but there are those who wholly give in to their more savage side, letting their rages take them to a confusing and uncontrolled place of terrible savagery. These barbarians become beasts, consumed with absolute bloodlust to the point where they cannot tell friend from foe.</p>
-<Ability id="arc-barbarian-wild_rager-uncontrolled-rage-ex" icon={["broken-shield"]}>
-<Pair single id="arc-barbarian-wild_rager-uncontrolled-rage-ex">Uncontrolled Rage (Ex)</Pair>
+<Ability id="uncontrolled-rage-ex" icon={["broken-shield"]}>
+<Pair single id="uncontrolled-rage-ex">Uncontrolled Rage (Ex)</Pair>
 <Pair title="Passive Ability">A wild rager's <em>rage</em> functions as normal, except that when she reduces a creature to 0 or fewer hit points, she must attempt a Will save (DC 10 + <Link to="/misc/half">half</Link> the barbarian's level + the barbarian's Constitution modifier) or become <em>confused.</em> For the remainder of her current turn, she attacks the nearest creature other than herself. On the following round, refer to the <Link to="/spell/confusion">confusion</Link> spell to determine her actions. At the end of this round, and each round thereafter, she can attempt a new saving throw to end the confusion effect.</Pair>
 <Pair title="Special">The rounds during which she is confused do not count against the rounds she has spent <em>raging</em> that day, but she cannot end her <em>rage</em> voluntarily, nor can she use rage powers while confused.</Pair>
 </Ability>
-<Ability id="arc-barbarian-wild_rager-wild-fighting-ex" icon={["upgrade","broken-shield"]}>
-<Pair single id="arc-barbarian-wild_rager-wild-fighting-ex" flavor={<>Even when not <em>raging,</em> wild ragers often fight with reckless, savage abandon.</>}>Wild Fighting (Ex)</Pair>
+<Ability id="wild-fighting-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="wild-fighting-ex" flavor={<>Even when not <em>raging,</em> wild ragers often fight with reckless, savage abandon.</>}>Wild Fighting (Ex)</Pair>
 <Pair hl title="Replaces">Uncanny dodge</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A wild rager using the <Link to="/rule/full_attack">full-attack</Link> action can make one extra attack per round at her highest base attack bonus. Until the beginning of her next turn, however, she takes a -2 penalty on attack rolls and -4 penalty to AC.</Pair>
 </Ability>
-<Ability id="arc-barbarian-wild_rager-rage-conversion-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-barbarian-wild_rager-rage-conversion-ex">Rage Conversion (Ex)</Pair>
+<Ability id="rage-conversion-ex" icon={["armor-upgrade"]}>
+<Pair single id="rage-conversion-ex">Rage Conversion (Ex)</Pair>
 <Pair hl title="Replaces">Improved uncanny dodge</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">A wild rager who fails a saving throw against any mind-affecting effect can attempt a new saving throw at the beginning of her next turn. If the save succeeds, that effect ends and she instead rages and becomes confused as noted above.</Pair>
@@ -1306,29 +1306,29 @@ const _wild_rager = {title: "Wild Rager", jsx: <><h2 id="arc-barbarian-wild_rage
 </>};
 const _wildborn = {title: "Wildborn", jsx: <><h2 id="arc-barbarian-wildborn-wildborn">Wildborn</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 39</Link><br/>Some barbarians are born or bred outside the reach of civilization. These wildborn fight and survive without ever seeing a forge or worked stone, and only dare a trip into the city when no other option is available.</p>
-<Ability id="arc-barbarian-wildborn-weapon-and-armor-proficiency" icon={["broken-shield","stairs-goal","hazard-sign"]}>
-<Pair single id="arc-barbarian-wildborn-weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Ability id="weapon-and-armor-proficiency" icon={["broken-shield","stairs-goal","hazard-sign"]}>
+<Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Alters">The barbarian's normal weapon and armor proficiencies</Pair>
 <Pair title="Passive Ability">A wildborn is proficient with leather and hide armors (but not shields) and all simple weapons that can be crafted from bone, stone, or wood. If she uses any other kind of weapon or armor, she loses her abilities from this archetype (except illiteracy) for the next 24 hours.</Pair>
 <Pair title="Ability">A wildborn gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> and <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> as bonus feats.</Pair>
 </Ability>
-<Ability id="arc-barbarian-wildborn-illiteracy" icon={["broken-shield"]}>
-<Pair single id="arc-barbarian-wildborn-illiteracy">Illiteracy</Pair>
+<Ability id="illiteracy" icon={["broken-shield"]}>
+<Pair single id="illiteracy">Illiteracy</Pair>
 <Pair title="Info">A wildborn cannot read or write. She can learn to read or write a language only if she takes a level in another class, and even then only by taking 1 or more ranks in Linguistics.</Pair>
 </Ability>
-<Ability id="arc-barbarian-wildborn-live-off-the-land-ex" icon={["upgrade"]}>
-<Pair single id="arc-barbarian-wildborn-live-off-the-land-ex">Live Off the Land (Ex)</Pair>
+<Ability id="live-off-the-land-ex" icon={["upgrade"]}>
+<Pair single id="live-off-the-land-ex">Live Off the Land (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">A wildborn adds <Link to="/misc/half">half</Link> her barbarian level as a bonus on Survival checks to hunt or gather food and gains a bonus on Fortitude saves to resist the effects of extreme temperatures or other environmental effects; the Fortitude save bonus is equal to one-third of her barbarian level.</Pair>
 </Ability>
-<Ability id="arc-barbarian-wildborn-bonus-feats" icon={["stairs-goal"]}>
-<Pair single id="arc-barbarian-wildborn-bonus-feats">Bonus Feats</Pair>
+<Ability id="bonus-feats" icon={["stairs-goal"]}>
+<Pair single id="bonus-feats">Bonus Feats</Pair>
 <Pair hl title="Alters">Rage powers</Pair>
 <Pair title="Special">At 4th level, 10th level and 16th level, a wildborn can choose a bonus feat from the following rather than select a rage power: <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/animal_affinity">Animal Affinity</Link>, <Link to="/feat/athletic">Athletic</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improvised_weapon_mastery">Improvised Weapon Mastery</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/self_sufficient">Self-Sufficient</Link>, <Link to="/feat/stealthy">Stealthy</Link>, or <Link to="/feat/throw_anything">Throw Anything</Link>.</Pair>
 </Ability>
-<Ability id="arc-barbarian-wildborn-inexhaustible-ex" icon={["remedy","armor-upgrade"]}>
-<Pair single id="arc-barbarian-wildborn-inexhaustible-ex">Inexhaustible (Ex)</Pair>
+<Ability id="inexhaustible-ex" icon={["remedy","armor-upgrade"]}>
+<Pair single id="inexhaustible-ex">Inexhaustible (Ex)</Pair>
 <Pair hl title="Alters">Damage reduction</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Passive Ability">A wildborn recovers nonlethal damage for each minute of rest as if an hour had passed. She applies twice her damage reduction gained from barbarian levels against nonlethal damage.</Pair>

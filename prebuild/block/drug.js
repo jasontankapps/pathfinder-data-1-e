@@ -10,20 +10,8 @@ const makeDrugBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text
 	// START CODE
 	//
 	const output = [
-		`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
-		`<table><tbody>`
+		`<DrugInfo${start ? " start" : ""}`
 	];
-	//
-	// ADD A TITLE LINE IF NEEDED
-	//
-	if(text) {
-		rows++;
-		output.push(
-			"<tr>",
-			`<th colSpan={4} scope="col" className="title">${text}</th>`,
-			"</tr>"
-		);
-	}
 	//
 	// CONFIGURE ADDICTION BOX
 	//
@@ -31,55 +19,26 @@ const makeDrugBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text
 	if(!addiction) {
 		logError("---> Missing addiction line");
 	} else if (dc) {
-		addiction = addiction.concat(", Fortitude DC ", dc);
+		output.push(
+			` addict="${minor || moderate || severe || addict}"`,
+			` dc={${dc}}`
+		);
 	} else {
 		logError("---> Missing DC for addiction")
 	}
 	//
 	// CONFIGURE PRICE
 	//
-	let gp = Number.parseFloat(price);
-	let cost = "";
-	if(gp !== gp || gp < 0) {
-		cost = "[invalid]";
-		logError("---> Bad price");
-	} else if (Math.floor(gp) === gp) {
-		cost = `${gp} gp`;
-	} else {
-		gp = gp * 10;
-		if (Math.floor(gp) === gp) {
-			cost = `${gp} sp`;
-		} else {
-			cost = `${gp * 10} cp`;
-		}
-	}
+	output.push(` gp={${price}}`);
 	//
-	// ADD TYPE, ADDICTION, SAVE DC, PRICE
+	// ADD TYPE
 	//
-	rows += 2;
-	output.push(
-		"<tr>",
-		`<th id="${id}-type">Type</th>`,
-		`<td headers="${id}-type">${type}</td>`,
-		`<th id="${id}-addict">Addiction</th>`,
-		`<td headers="${id}-addict">${addiction}</td>`,
-		"</tr><tr>",
-		`<th scope="row">Price</th>`,
-		`<td colSpan={3}>${cost}</td>`,
-		"</tr>"
-	);
+	output.push(` type="${type}"`);
 	//
 	// CONFIGURE EFFECTS
 	//
-	[eff1, eff2].filter(x => x).forEach(eff => {
-		rows++;
-		output.push(
-			"<tr>",
-			`<th scope="row">Effect</th>`,
-			`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(eff))}</td>`,
-			"</tr>"
-		);
-	});
+	eff1 && output.push(` eff1={<>${marked2.parseInline(convertEncodedInfo(eff1))}</>}`);
+	eff2 && output.push(` eff2={<>${marked2.parseInline(convertEncodedInfo(eff2))}</>}`);
 	//
 	// CONFIGURE DAMAGE
 	//
@@ -105,38 +64,21 @@ const makeDrugBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text
 	if(dmg) {
 		damage.push(dmg);
 	}
-	const last = damage.pop();
-	let td = "";
-	if(damage.length === 1) {
-		td = `${damage[0]} and ${last}`;
-	} else if(damage.length > 1) {
-		td = `${damage.join(", ")}, and ${last}`;
-	} else if(last) {
-		td = last;
+	if(damage.length === 0) {
+		console.log(`---> Missing damage`);
 	} else {
-		td = `MISSING`;
-		logError(`---> Missing damage`);
+		output.push(` dmg={${JSON.stringify(damage)}}`);
 	}
-	rows++;
-	output.push(
-		"<tr>",
-		`<th scope="row"><Link to="/rule/ability_damage">Damage</Link></th>`,
-		`<td colSpan={3}>${td}</td>`,
-		"</tr>"
-	);
 	//
-	// ADD DRUG ICON
+	// ADD A TITLE LINE IF NEEDED
 	//
-	flags.icon = true;
-	flags.thlink = true;
-	output.splice(3, 0, `<ThLink scope="row" rowSpan={${rows}} to="/rule/drugs"><IonIcon aria-label="Drug" icon="/icons/syringe.svg" /></ThLink>`)
-	//
-	// END CODE BLOCK
-	//
-	output.push(
-		`</tbody></table></div>`
-	);
-	return output.join("");
+	if(text) {
+		rows++;
+		output.push(`>${text}</DrugInfo>`);
+	} else {
+		output.push(" />");
+	}
+	return output.join("") + "\n";
 }
 
 export default makeDrugBlock;

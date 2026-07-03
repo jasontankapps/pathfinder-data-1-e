@@ -1,6 +1,7 @@
 import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
+import AffInfo from '../../components/AfflictionInfo';
 const _not_found = {title: "Unknown", jsx: <><h2 id="evolution-not_found-unknown">Unknown</h2>
 <p>Unable to find the requested eidolon evolution.</p>
 </>};
@@ -159,7 +160,8 @@ const _minor_magic = {title: "Minor Magic", addenda: ["2pts"], jsx: <><h2 id="ev
 </>};
 const _poison = {title: "Poison", addenda: ["2pts"], jsx: <><h2 id="evolution-poison-poison-ex">Poison (Ex)</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 62</Link><br/>An eidolon secretes toxic venom, gaining a poison attack. Pick one bite or sting attack. Whenever the selected attack hits, the target is poisoned.</p>
-<div className="sideNoteWrap"><ScrollContainer id="evolution-poison--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Eidolon poison</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Natural attack-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 the eidolon's HD + its Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d4 <Link to="/rule/str_damage">Str damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><p>For 2 additional evolution points, this poison deals Constitution damage instead. This poison can be used no more than once per round.</p>
+<AffInfo type="Natural attack-injury" save="Fort 10 + 1/2 the eidolon's HD + its Con modifier" freq="1/round for 4 rounds" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link></>} cure1 icon="p">Eidolon poison</AffInfo>
+<p>For 2 additional evolution points, this poison deals Constitution damage instead. This poison can be used no more than once per round.</p>
 <p>The summoner must be at least 7th level before selecting this evolution.</p>
 </>};
 const _rake = {title: "Rake", addenda: ["2pts"], jsx: <><h2 id="evolution-rake-rake-ex">Rake (Ex)</h2>

@@ -17,7 +17,7 @@ import { setPosition } from '../store/scrollSlice';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
 import Link from '../components/Link';
-import { FinderContext } from '../components/contexts';
+import { FinderContext, IdContext } from '../components/contexts';
 import { DisplayItemProps, Gen, Hierarchy } from '../types';
 import './css/Page.css';
 
@@ -188,6 +188,8 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const [findInPageSearchbarObj, findInPageSearchRef] = useElement<HTMLIonSearchbarElement>();
 	const [path] = useLocation();
 
+	const contextId = pageId.slice(1).replace(/[^-a-z0-9_]/g, "-").replace(/([^-])$/, "$1-");
+
 	useEffect(() => {
 		debounce(() => {
 			if(contentObject) {
@@ -295,7 +297,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 			initial={unopaque}
 			animate={opaque}
 			exit={unopaque}
-		><IonPage><FinderContext value={searchBoxOpen}>
+		><IonPage><FinderContext value={searchBoxOpen}><IdContext value={contextId}>
 			<PageHeader
 				title={title}
 				findInPage={ (!noFinder && marker) ? openOrCloseFindInPageFunc : undefined }
@@ -374,7 +376,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				</div>
 			</IonContent>
 			<PageFooter closeFinder={ (!noFinder && marker) ? openOrCloseFindInPageFunc : undefined } />
-		</FinderContext></IonPage></motion.div>}
+		</IdContext></FinderContext></IonPage></motion.div>}
 		</AnimatePresence>
 	);
 };

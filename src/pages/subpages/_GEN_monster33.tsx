@@ -1,6 +1,5 @@
-import {IonIcon} from '@ionic/react';
 import Header from '../../components/Header';
-import Link, {ThLink} from '../../components/Link';
+import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import Defense from '../../components/monsters/Defense';
 import Info from '../../components/monsters/Info';
@@ -8,14 +7,15 @@ import Offense from '../../components/monsters/Offense';
 import SpellBlock from '../../components/monsters/SpellBlock';
 import Stats from '../../components/monsters/Stats';
 import Ecology from '../../components/monsters/Ecology';
+import AffInfo from '../../components/AfflictionInfo';
 const _golem_adamantine_golem = {title: "Adamantine Golem", jsx: <><p><em>This huge construct of black metal is all spikes and armor, save for several forge-like stacks that burn atop its crown and back.</em></p>
 <Header full><span>Adamantine Golem</span><span>CR 19</span></Header>
 <div className="reduce">
-<Info id="monster-golem_adamantine_golem--info" source={[["Bestiary 2",134]]} xp="204,800" n huge construct init={-1} dv={60} llv pcp={0} />
-<Defense id="monster-golem_adamantine_golem--defense" ac={[33,7,33]} mod="-1 Dex, +26 natural, -2 size" hp={[205,"30d10+40"]} fh="10" fort="+10" ref="+9" will="+10" def={[["indestructible","indestructible"]]} dr="15/epic" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_adamantine_golem--offense" sp={30} melee="2 slams +41 (6d10+13/19-20)" space={"15"} reach={"15"} specAtt={[["destructive strike","destructive strike"]]} trample="6d10+19, DC 38" />
-<Stats id="monster-golem_adamantine_golem--stats" atts={[36,9,0,0,11,1]} bab={30} cmb={45} cmd={54} />
-<Ecology id="monster-golem_adamantine_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Bestiary 2",134]]} xp="204,800" n huge construct init={-1} dv={60} llv pcp={0} />
+<Defense ac={[33,7,33]} mod="-1 Dex, +26 natural, -2 size" hp={[205,"30d10+40"]} fh="10" fort="+10" ref="+9" will="+10" def={[["indestructible","indestructible"]]} dr="15/epic" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee="2 slams +41 (6d10+13/19-20)" space={"15"} reach={"15"} specAtt={[["destructive strike","destructive strike"]]} trample="6d10+19, DC 38" />
+<Stats atts={[36,9,0,0,11,1]} bab={30} cmb={45} cmd={54} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Destructive Strike (Ex)</strong> An adamantine golem's slam attacks threaten a critical hit on a 19 or 20. In addition, whenever an adamantine golem scores a critical hit, it deals 6d10+13 points of damage to the target's armor or shield in addition to the normal damage, as if it had also made a successful sunder combat maneuver.</p>
@@ -34,11 +34,11 @@ const _golem_adamantine_golem = {title: "Adamantine Golem", jsx: <><p><em>This h
 const _golem_alchemical_golem = {title: "Alchemical Golem", jsx: <><p><em>A rickety construction of glass tubing, metal, and wood convey the brain and two eyes afloat in this figure's glass skull.</em></p>
 <Header full><span>Alchemical Golem</span><span>CR 9</span></Header>
 <div className="reduce">
-<Info id="monster-golem_alchemical_golem--info" source={[["Bestiary 2",135]]} xp="6,400" n large construct init={4} dv={60} llv pcp={0} />
-<Defense id="monster-golem_alchemical_golem--defense" ac={[23,13,19]} mod="+4 Dex, +10 natural, -1 size" hp={[96,"12d10+30"]} fort="+4" ref="+8" will="+4" dr="10/adamantine or bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_alchemical_golem--offense" sp={30} melee="2 slams +19 (2d8+8 plus alchemy)" ranged="bomb +15 (8d6 energy damage)" space={"10"} reach={"10"} specAtt={[["alchemy","alchemy"],["bombs","bombs"],["splash","splash"]]} />
-<Stats id="monster-golem_alchemical_golem--stats" atts={[27,18,0,0,11,1]} bab={12} cmb={21} cmd={35} />
-<Ecology id="monster-golem_alchemical_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Bestiary 2",135]]} xp="6,400" n large construct init={4} dv={60} llv pcp={0} />
+<Defense ac={[23,13,19]} mod="+4 Dex, +10 natural, -1 size" hp={[96,"12d10+30"]} fort="+4" ref="+8" will="+4" dr="10/adamantine or bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee="2 slams +19 (2d8+8 plus alchemy)" ranged="bomb +15 (8d6 energy damage)" space={"10"} reach={"10"} specAtt={[["alchemy","alchemy"],["bombs","bombs"],["splash","splash"]]} />
+<Stats atts={[27,18,0,0,11,1]} bab={12} cmb={21} cmd={35} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Alchemy (Ex)</strong> When an alchemical golem strikes a foe, the attack has an additional random effect, chosen from the options below. The attack can either deal 1d6 points of acid, cold, electricity, or fire damage, or cause the target to become sickened (Fortitude DC 16 negates) or entangled (Reflex DC 16 negates) for 1d4 rounds. These save DCs are Constitution-based.</p>
@@ -54,11 +54,11 @@ const _golem_alchemical_golem = {title: "Alchemical Golem", jsx: <><p><em>A rick
 </>};
 const _golem_behemoth_golem = {title: "Behemoth Golem", jsx: <><Header full><span>Behemoth Golem</span><span>CR 17</span></Header>
 <div className="reduce">
-<Info id="monster-golem_behemoth_golem--info" source={[["Lost Kingdoms",40]]} xp="102,400" n colossal construct init={-1} dv={60} llv pcp={2} />
-<Defense id="monster-golem_behemoth_golem--defense" ac={[31,1,31]} mod="-1 Dex, +30 natural, -8 size" hp={[206,"23d10+80"]} fort="+7" ref="+6" will="+9" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_behemoth_golem--offense" sp={30} melee="gore +31 (4d8+16), 2 slams +31 (3d6+16)" space={"30"} reach={"30"} specAtt={[["quake","quake"]]} trample="3d6+24, DC 37" />
-<Stats id="monster-golem_behemoth_golem--stats" atts={[42,9,0,0,15,1]} bab={23} cmb={47} cmd={56} cmdP="60 vs. trip" sq="castle" />
-<Ecology id="monster-golem_behemoth_golem--eco-eco" env="temperate and warm deserts" org="solitary" treasure={{"I":false}} />
+<Info source={[["Lost Kingdoms",40]]} xp="102,400" n colossal construct init={-1} dv={60} llv pcp={2} />
+<Defense ac={[31,1,31]} mod="-1 Dex, +30 natural, -8 size" hp={[206,"23d10+80"]} fort="+7" ref="+6" will="+9" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee="gore +31 (4d8+16), 2 slams +31 (3d6+16)" space={"30"} reach={"30"} specAtt={[["quake","quake"]]} trample="3d6+24, DC 37" />
+<Stats atts={[42,9,0,0,15,1]} bab={23} cmb={47} cmd={56} cmdP="60 vs. trip" sq="castle" />
+<Ecology env="temperate and warm deserts" org="solitary" treasure={{"I":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Castle (Ex)</strong> A behemoth golem has a small stronghold built onto its back. Up to eight Medium creatures can occupy this tower by climbing onto the behemoth golem with a DC 25 Climb check (DC 10 if the golem is willing). A creature occupying the tower can choose either to hide in the castle's interior, gaining total cover as long as it remains within the structure but losing the ability to attack anything outside of the tower, or to stand on the parapet around the perimeter of the tower, gaining partial cover thanks to the battlement surrounding the walkway. A behemoth golem's castle moves with the creature itself, and though creatures occupying the castle count a Behemoth Golem as occupying the same square as the golem, they cannot be engaged in melee unless their opponent is also occupying the castle.</p>
@@ -82,11 +82,11 @@ const _golem_behemoth_golem = {title: "Behemoth Golem", jsx: <><Header full><spa
 const _golem_blood_golem = {title: "Blood Golem", jsx: <><p><em>A tower of blood in humanoid form sloshes within the clotted surface that holds it in a stable form.</em></p>
 <Header full><span>Blood Golem</span><span>CR 6</span></Header>
 <div className="reduce">
-<Info id="monster-golem_blood_golem--info" source={[["Bestiary 4",130]]} xp="2,400" n medium construct init={4} dv={60} llv blindsight={60} pcp={2} />
-<Defense id="monster-golem_blood_golem--defense" ac={[20,14,16]} mod="+4 Dex, +6 natural" hp={[64,"8d10+20"]} fort="+2" ref="+6" will="+4" amorph dr="5/bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={["vulnerable to bleed"]} />
-<Offense id="monster-golem_blood_golem--offense" sp={10} melee={<>2 slams +10 (2d6+2 plus bleed and <Link to="/umr/grab">grab</Link>)</>} bleed="1d6" bDrain="1d2 Con" constrict="2d6+2 plus bleed" />
-<Stats id="monster-golem_blood_golem--stats" atts={[14,19,0,0,14,1]} bab={8} cmb={10} cmbP="+14 grapple" cmd={24} sq={<>clotted skin, <Link to="/umr/compression">compression</Link></>} />
-<Ecology id="monster-golem_blood_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Bestiary 4",130]]} xp="2,400" n medium construct init={4} dv={60} llv blindsight={60} pcp={2} />
+<Defense ac={[20,14,16]} mod="+4 Dex, +6 natural" hp={[64,"8d10+20"]} fort="+2" ref="+6" will="+4" amorph dr="5/bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={["vulnerable to bleed"]} />
+<Offense sp={10} melee={<>2 slams +10 (2d6+2 plus bleed and <Link to="/umr/grab">grab</Link>)</>} bleed="1d6" bDrain="1d2 Con" constrict="2d6+2 plus bleed" />
+<Stats atts={[14,19,0,0,14,1]} bab={8} cmb={10} cmbP="+14 grapple" cmd={24} sq={<>clotted skin, <Link to="/umr/compression">compression</Link></>} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Blood Drain (Su)</strong> A blood golem heals 5 hit points each round it drains blood.</p>
@@ -107,12 +107,12 @@ const _golem_blood_golem = {title: "Blood Golem", jsx: <><p><em>A tower of blood
 const _golem_bone_golem = {title: "Bone Golem", jsx: <><p><em>This horrific humanoid figure is a mass of bones and skulls tied together with slick ropes of sinew.</em></p>
 <Header full><span>Bone Golem</span><span>CR 8</span></Header>
 <div className="reduce">
-<Info id="monster-golem_bone_golem--info" source={[["Bestiary 3",133]]} xp="4,800" n large construct init={6} dv={60} llv pcp={0} />
-<Defense id="monster-golem_bone_golem--defense" ac={[21,11,19]} mod="+2 Dex, +10 natural, -1 size" hp={[90,"11d10+30"]} fort="+3" ref="+5" will="+3" dr="5/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_bone_golem--offense" sp={30} melee="bite +14 (1d8+4), 2 slams +14 (2d6+4)" space={"10"} reach={"10"} specAtt={[["bone prison ranged touch 12","bone prison (ranged touch +12)"]]} />
-<Stats id="monster-golem_bone_golem--stats" atts={[18,15,0,0,10,1]} bab={11} cmb={16} cmbP="+20 disarm or grapple" cmd={28} feats={[["Improved Initiative",<sup>B</sup>]]} />
+<Info source={[["Bestiary 3",133]]} xp="4,800" n large construct init={6} dv={60} llv pcp={0} />
+<Defense ac={[21,11,19]} mod="+2 Dex, +10 natural, -1 size" hp={[90,"11d10+30"]} fort="+3" ref="+5" will="+3" dr="5/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee="bite +14 (1d8+4), 2 slams +14 (2d6+4)" space={"10"} reach={"10"} specAtt={[["bone prison ranged touch 12","bone prison (ranged touch +12)"]]} />
+<Stats atts={[18,15,0,0,10,1]} bab={11} cmb={16} cmbP="+20 disarm or grapple" cmd={28} feats={[["Improved Initiative",<sup>B</sup>]]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-golem_bone_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Bone Prison (Ex)</strong> As a standard action, a bone golem can throw some of its bones at a creature within 30 feet - it must make a ranged touch attack to hit. These bones magically duplicate and form a cage surrounding struck creatures. Each round, the cage makes a combat maneuver check to deal the golem's slam damage, using the golem's CMB. If the check fails, the target is still trapped but takes no damage. The target can escape the grapple normally, or can break out of the bones by dealing 15 points of damage to the prison, which has the same AC, DR, and saves as the bone golem itself. Damage to the prison has no effect on the golem. The golem can only have one bone prison active at a time. If it wishes to create a second one, it (or some other creature) must first destroy the existing one.</p>
@@ -132,12 +132,12 @@ const _golem_bone_golem = {title: "Bone Golem", jsx: <><p><em>This horrific huma
 const _golem_brass_golem = {title: "Brass Golem", jsx: <><p><em>This towering brass statue, built to resemble an evil horned humanoid, carries a gigantic curved sword in its metal fists.</em></p>
 <Header full><span>Brass Golem</span><span>CR 14</span></Header>
 <div className="reduce">
-<Info id="monster-golem_brass_golem--info" source={[["Bestiary 3",134],["Pathfinder #24: The Final Wish",84]]} xp="38,400" n huge construct init={0} senSpell={["see invisibility"]} dv={60} llv pcp={1} />
-<Defense id="monster-golem_brass_golem--defense" ac={[30,8,30]} mod="+22 natural, -2 size" hp={[150,"20d10+40"]} fort="+6" ref="+6" will="+7" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, fire, magic</>} />
-<Offense id="monster-golem_brass_golem--offense" sp={40} melee="brass falchion +29 (3d6+11/18-20 plus 2d6 fire), slam +29 (2d6+11 plus 2d6 fire)" space={"15"} reach={"15"} brWeap="DC 20" heat="2d6 fire" />
-<SpellBlock id="monster-golem_brass_golem--spells-monster-spellblock-1" sla={{"cl":17,"con":"+12","content":[{"constant":true,"content":<Link to="/spell/see_invisibility">see invisibility</Link>}]}} />
-<Stats id="monster-golem_brass_golem--stats" atts={[32,11,0,0,13,1]} bab={20} cmb={33} cmd={43} sq="death throes, brass falchion" />
-<Ecology id="monster-golem_brass_golem--eco-eco" env="any" org="solitary or watch (2-4)" treasure={{"X":false}} />
+<Info source={[["Bestiary 3",134],["Pathfinder #24: The Final Wish",84]]} xp="38,400" n huge construct init={0} senSpell={["see invisibility"]} dv={60} llv pcp={1} />
+<Defense ac={[30,8,30]} mod="+22 natural, -2 size" hp={[150,"20d10+40"]} fort="+6" ref="+6" will="+7" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, fire, magic</>} />
+<Offense sp={40} melee="brass falchion +29 (3d6+11/18-20 plus 2d6 fire), slam +29 (2d6+11 plus 2d6 fire)" space={"15"} reach={"15"} brWeap="DC 20" heat="2d6 fire" />
+<SpellBlock id="1" sla={{"cl":17,"con":"+12","content":[{"constant":true,"content":<Link to="/spell/see_invisibility">see invisibility</Link>}]}} />
+<Stats atts={[32,11,0,0,13,1]} bab={20} cmb={33} cmd={43} sq="death throes, brass falchion" />
+<Ecology env="any" org="solitary or watch (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Brass Falchion (Ex)</strong> A brass golem's falchion deals damage as a Huge falchion, but is actually a primary natural attack, not a manufactured weapon, and cannot be disarmed.</p>
@@ -158,12 +158,12 @@ const _golem_brass_golem = {title: "Brass Golem", jsx: <><p><em>This towering br
 const _golem_cannon_golem = {title: "Cannon Golem", jsx: <><p><em>This collection of jagged metal rears up into a humanoid form, its enormous cannon tracking movement with mechanical precision.</em></p>
 <Header full><span>Cannon Golem</span><span>CR 15</span></Header>
 <div className="reduce">
-<Info id="monster-golem_cannon_golem--info" source={[["Bestiary 3",135]]} xp="51,200" n large construct init={7} dv={60} llv pcp={2} />
-<Defense id="monster-golem_cannon_golem--defense" ac={[31,16,24]} mod="+7 Dex, +15 natural, -1 size" hp={[140,"20d10+30"]} fort="+6" ref="+13" will="+8" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_cannon_golem--offense" sp={30} melee="2 slams +29 (2d10+10)" ranged="cannon +26/+21 (6d6+7/19-20/&times;4)" space={"10"} reach={"10"} specAtt={[["cannon","cannon"]]} />
-<Stats id="monster-golem_cannon_golem--stats" atts={[30,24,0,0,15,2]} bab={20} cmb={31} cmd={48} feats={[["Improved Critical",<><sup>B</sup> (cannon)</>]]} sq="alloyed, blasting critical, gun training" />
+<Info source={[["Bestiary 3",135]]} xp="51,200" n large construct init={7} dv={60} llv pcp={2} />
+<Defense ac={[31,16,24]} mod="+7 Dex, +15 natural, -1 size" hp={[140,"20d10+30"]} fort="+6" ref="+13" will="+8" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee="2 slams +29 (2d10+10)" ranged="cannon +26/+21 (6d6+7/19-20/&times;4)" space={"10"} reach={"10"} specAtt={[["cannon","cannon"]]} />
+<Stats atts={[30,24,0,0,15,2]} bab={20} cmb={31} cmd={48} feats={[["Improved Critical",<><sup>B</sup> (cannon)</>]]} sq="alloyed, blasting critical, gun training" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-golem_cannon_golem--eco-eco" env="any land" org="solitary or pair" treasure={{"X":false}} />
+<Ecology env="any land" org="solitary or pair" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Alloyed (Ex)</strong> A cannon golem's slam and cannon attacks count as adamantine, cold iron, and silver for the purpose of overcoming damage reduction.</p>
@@ -185,11 +185,11 @@ const _golem_cannon_golem = {title: "Cannon Golem", jsx: <><p><em>This collectio
 const _golem_carrion_golem = {title: "Carrion Golem", jsx: <><p><em>A lurching mash-up of rotting flesh, jagged bone, and coarse hair, this humanoid monstrosity reeks of death and decay.</em></p>
 <Header full><span>Carrion Golem</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info id="monster-golem_carrion_golem--info" source={[["Bestiary 2",136],["Pathfinder #7: Edge of Anarchy",78]]} xp="1,200" n medium construct init={1} dv={60} llv blindsense={10} pcp={0} aura={<>foul <Link to="/umr/stench">stench</Link> (DC 12, 1 round)</>} />
-<Defense id="monster-golem_carrion_golem--defense" ac={[17,11,16]} mod="+1 Dex, +6 natural" hp={[42,"4d10+20"]} fort="+1" ref="+2" will="+1" dr="5/bludgeoning or slashing" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_carrion_golem--offense" sp={30} melee="2 slams +7 (1d8+3 plus disease)" specAtt={[["plague carrier","plague carrier"]]} />
-<Stats id="monster-golem_carrion_golem--stats" atts={[17,12,0,0,11,1]} bab={4} cmb={7} cmd={18} />
-<Ecology id="monster-golem_carrion_golem--eco-eco" env="any land" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Bestiary 2",136],["Pathfinder #7: Edge of Anarchy",78]]} xp="1,200" n medium construct init={1} dv={60} llv blindsense={10} pcp={0} aura={<>foul <Link to="/umr/stench">stench</Link> (DC 12, 1 round)</>} />
+<Defense ac={[17,11,16]} mod="+1 Dex, +6 natural" hp={[42,"4d10+20"]} fort="+1" ref="+2" will="+1" dr="5/bludgeoning or slashing" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee="2 slams +7 (1d8+3 plus disease)" specAtt={[["plague carrier","plague carrier"]]} />
+<Stats atts={[17,12,0,0,11,1]} bab={4} cmb={7} cmd={18} />
+<Ecology env="any land" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Foul Stench (Ex)</strong> This functions as the stench ability, but causes affected creatures to be nauseated rather than sickened.</p>
@@ -211,11 +211,11 @@ const _golem_carrion_golem = {title: "Carrion Golem", jsx: <><p><em>A lurching m
 const _golem_clay_golem = {title: "Clay Golem", jsx: <><p><em>This lumbering figure is sculpted from soft clay. It wears filthy rags and crude jewelry, and its face is only vaguely humanoid.</em></p>
 <Header full><span>Clay Golem</span><span>CR 10</span></Header>
 <div className="reduce">
-<Info id="monster-golem_clay_golem--info" source={[["Pathfinder RPG Bestiary",159]]} xp="9,600" n large construct init={-1} dv={60} llv pcp={0} />
-<Defense id="monster-golem_clay_golem--defense" ac={[24,8,24]} mod="-1 Dex, +16 natural, -1 size" hp={[101,"13d10+30"]} fort="+4" ref="+3" will="+4" dr="10/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_clay_golem--offense" sp={20} melee="2 slams +19 (2d10+7 plus cursed wound)" space={"10"} reach={"10"} specAtt={[["berserk","berserk"],["haste","haste"]]} />
-<Stats id="monster-golem_clay_golem--stats" atts={[24,9,0,0,11,1]} bab={13} cmb={21} cmd={30} />
-<Ecology id="monster-golem_clay_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",159]]} xp="9,600" n large construct init={-1} dv={60} llv pcp={0} />
+<Defense ac={[24,8,24]} mod="-1 Dex, +16 natural, -1 size" hp={[101,"13d10+30"]} fort="+4" ref="+3" will="+4" dr="10/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={20} melee="2 slams +19 (2d10+7 plus cursed wound)" space={"10"} reach={"10"} specAtt={[["berserk","berserk"],["haste","haste"]]} />
+<Stats atts={[24,9,0,0,11,1]} bab={13} cmb={21} cmd={30} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Berserk (Ex)</strong> When a clay golem enters combat, there is a cumulative 1% chance each round that its elemental spirit breaks free and the golem goes berserk. This chance resets to 0% after one minute of inactivity. A berserk golem attacks the nearest living creature or smashes some object smaller than itself if no creature is within reach. Once it goes berserk, no known method can reestablish control.</p>
@@ -238,11 +238,11 @@ const _golem_clay_golem = {title: "Clay Golem", jsx: <><p><em>This lumbering fig
 const _golem_clockwork_golem = {title: "Clockwork Golem", jsx: <><p><em>A vaguely humanoid shape made of metal lurches to life with the grinding whir and frantic ticking of hundreds of gears.</em></p>
 <Header full><span>Clockwork Golem</span><span>CR 12</span></Header>
 <div className="reduce">
-<Info id="monster-golem_clockwork_golem--info" source={[["Bestiary 2",137]]} xp="19,200" n large construct init={1} dv={60} llv pcp={0} />
-<Defense id="monster-golem_clockwork_golem--defense" ac={[26,10,25]} mod="+1 Dex, +16 natural, -1 size" hp={[118,"16d10+30"]} fort="+5" ref="+6" will="+5" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_clockwork_golem--offense" sp={30} melee={<>2 slams +23 (2d10+8 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} specAtt={[["death burst","death burst"],["grind","grind"],["wall of gears","wall of gears"]]} />
-<Stats id="monster-golem_clockwork_golem--stats" atts={[27,12,0,0,11,1]} bab={16} cmb={25} cmbP="+29 grapple" cmd={36} />
-<Ecology id="monster-golem_clockwork_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Bestiary 2",137]]} xp="19,200" n large construct init={1} dv={60} llv pcp={0} />
+<Defense ac={[26,10,25]} mod="+1 Dex, +16 natural, -1 size" hp={[118,"16d10+30"]} fort="+5" ref="+6" will="+5" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee={<>2 slams +23 (2d10+8 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} specAtt={[["death burst","death burst"],["grind","grind"],["wall of gears","wall of gears"]]} />
+<Stats atts={[27,12,0,0,11,1]} bab={16} cmb={25} cmbP="+29 grapple" cmd={36} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Death Burst (Ex)</strong> When a clockwork golem is reduced to 0 or fewer hit points, it explodes in a shower of razor-sharp gears and debris. All creatures within a 10-foot burst take 12d6 points of slashing damage - a DC 18 Reflex save results in half damage. The save DC is Constitution-based.</p>
@@ -263,12 +263,12 @@ const _golem_clockwork_golem = {title: "Clockwork Golem", jsx: <><p><em>A vaguel
 const _golem_coral_golem = {title: "Coral Golem", jsx: <><p><em>This tall creature appears to be made of wrinkled stone and coral, bits of plant life clinging to its creased body and claw-like hands.</em></p>
 <Header full><span>Coral Golem</span><span>CR 9</span></Header>
 <div className="reduce">
-<Info id="monster-golem_coral_golem--info" source={[["Bestiary 4",131],["Isles of the Shackles",47]]} xp="6,400" n large construct init={0} dv={60} llv pcp={0} />
-<Defense id="monster-golem_coral_golem--defense" ac={[21,9,21]} mod="+12 natural, -1 size" hp={[96,"12d10+30"]} fort="+4" ref="+4" will="+4" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_coral_golem--offense" sp={30} melee="2 claws +18 (1d6+10/19-20 plus bleed)" space={"10"} reach={"10"} bleed="1d6" />
-<Stats id="monster-golem_coral_golem--stats" atts={[24,11,0,0,11,1]} bab={12} cmb={20} cmd={30} feats={[["Improved Critical",<><sup>B</sup> (claw)</>]]} sq="aquatic reconstruction, powerful blows (slam)" />
+<Info source={[["Bestiary 4",131],["Isles of the Shackles",47]]} xp="6,400" n large construct init={0} dv={60} llv pcp={0} />
+<Defense ac={[21,9,21]} mod="+12 natural, -1 size" hp={[96,"12d10+30"]} fort="+4" ref="+4" will="+4" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee="2 claws +18 (1d6+10/19-20 plus bleed)" space={"10"} reach={"10"} bleed="1d6" />
+<Stats atts={[24,11,0,0,11,1]} bab={12} cmb={20} cmd={30} feats={[["Improved Critical",<><sup>B</sup> (claw)</>]]} sq="aquatic reconstruction, powerful blows (slam)" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-golem_coral_golem--eco-eco" env="warm oceans or coastlines" org="solitary or gang (2-5)" treasure={{"X":false}} />
+<Ecology env="warm oceans or coastlines" org="solitary or gang (2-5)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Aquatic Reconstruction (Ex)</strong> Whenever a coral golem is touching a body of saltwater of a size equal to or greater than its own size, it gains fast healing 5.</p>
@@ -289,13 +289,13 @@ const _golem_coral_golem = {title: "Coral Golem", jsx: <><p><em>This tall creatu
 const _golem_crystal_golem = {title: "Crystal Golem", jsx: <><p><em>This burly humanoid figure is cut from blue crystal that shines with an inner light.</em></p>
 <Header full><span>Crystal Golem</span><span>CR 11</span></Header>
 <div className="reduce">
-<Info id="monster-golem_crystal_golem--info" source={[["Bestiary 5",126]]} xp="12,800" n large construct init={1} dv={60} llv thoughtsense={60} pcp={3} />
-<Defense id="monster-golem_crystal_golem--defense" ac={[26,10,25]} mod="+1 Dex, +16 natural, -1 size" hp={[112,"15d10+30"]} fort="+5" ref="+6" will="+8" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_crystal_golem--offense" sp={20} melee="2 slams +21 (2d8+7)" space={"10"} reach={"10"} />
-<SpellBlock id="monster-golem_crystal_golem--spells-monster-spellblock-1" sla={{"cl":14,"con":"+17","content":[{"constant":true,"content":<Link to="/spell/ethereal_fists">ethereal fists</Link>}]}} />
-<SpellBlock id="monster-golem_crystal_golem--spells-monster-spellblock-2" psy={{"pe":12,"cl":14,"content":<><Link to="/spell/explode_head">explode head</Link> (5 PE, DC 18), <Link to="/spell/mind_thrust_ii">mind thrust II</Link> (2 PE, DC 15)</>,"con":"+17"}} />
-<Stats id="monster-golem_crystal_golem--stats" atts={[25,12,0,0,17,1]} bab={15} cmb={23} cmd={34} sq="psychic amplification" />
-<Ecology id="monster-golem_crystal_golem--eco-eco" env="any" org="solitary or expatiation (2-5)" treasure={{"X":false}} />
+<Info source={[["Bestiary 5",126]]} xp="12,800" n large construct init={1} dv={60} llv thoughtsense={60} pcp={3} />
+<Defense ac={[26,10,25]} mod="+1 Dex, +16 natural, -1 size" hp={[112,"15d10+30"]} fort="+5" ref="+6" will="+8" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={20} melee="2 slams +21 (2d8+7)" space={"10"} reach={"10"} />
+<SpellBlock id="1" sla={{"cl":14,"con":"+17","content":[{"constant":true,"content":<Link to="/spell/ethereal_fists">ethereal fists</Link>}]}} />
+<SpellBlock id="2" psy={{"pe":12,"cl":14,"content":<><Link to="/spell/explode_head">explode head</Link> (5 PE, DC 18), <Link to="/spell/mind_thrust_ii">mind thrust II</Link> (2 PE, DC 15)</>,"con":"+17"}} />
+<Stats atts={[25,12,0,0,17,1]} bab={15} cmb={23} cmd={34} sq="psychic amplification" />
+<Ecology env="any" org="solitary or expatiation (2-5)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Immunity to Magic (Ex)</strong> A crystal golem is immune to spells or spell-like abilities that allow spell resistance. Certain spells and effects function differently against the creature, as noted below.</p>
@@ -315,11 +315,11 @@ const _golem_crystal_golem = {title: "Crystal Golem", jsx: <><p><em>This burly h
 const _golem_dragonhide_golem = {title: "Dragonhide Golem", jsx: <><p><em>This massive, hunched monstrosity has a hide that appears to be a mix of reptilian scales of various colors.</em></p>
 <Header full><span>Dragonhide Golem</span><span>CR 16</span></Header>
 <div className="reduce">
-<Info id="monster-golem_dragonhide_golem--info" source={[["Construct Handbook",42]]} xp="76,800" n huge construct init={2} dv={60} llv pcp={26} />
-<Defense id="monster-golem_dragonhide_golem--defense" ac={[31,10,29]} mod="+2 Dex, +21 natural, -2 size" hp={[155,"21d10+40"]} fort="+7" ref="+9" will="+7" dr="15/adamantine and magic" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_dragonhide_golem--offense" sp={50} melee="bite +31 (2d8+12), 2 claws +31 (2d6+12), tail slap +26 (2d6+18)" space={"15"} reach={"15"} specAtt={[["berserk","berserk"],["powerful tail","powerful tail"],["rampage","rampage"]]} brWeap="copper, red" />
-<Stats id="monster-golem_dragonhide_golem--stats" atts={[34,14,0,0,11,1]} bab={21} cmb={35} cmd={47} sq="draconic grafts (dragon-like senses, grafted head [copper], powerful tail)" />
-<Ecology id="monster-golem_dragonhide_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Construct Handbook",42]]} xp="76,800" n huge construct init={2} dv={60} llv pcp={26} />
+<Defense ac={[31,10,29]} mod="+2 Dex, +21 natural, -2 size" hp={[155,"21d10+40"]} fort="+7" ref="+9" will="+7" dr="15/adamantine and magic" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={50} melee="bite +31 (2d8+12), 2 claws +31 (2d6+12), tail slap +26 (2d6+18)" space={"15"} reach={"15"} specAtt={[["berserk","berserk"],["powerful tail","powerful tail"],["rampage","rampage"]]} brWeap="copper, red" />
+<Stats atts={[34,14,0,0,11,1]} bab={21} cmb={35} cmd={47} sq="draconic grafts (dragon-like senses, grafted head [copper], powerful tail)" />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Berserk (Ex)</strong> When a dragonhide golem enters combat, there is a cumulative 2% chance each round that the lingering primal presence in its draconic grafts overwhelms the golem, causing it to go berserk. It takes 1 minute of inactivity by the golem to reset the golem's berserk chance to 0%; alternatively, the creator can offer the golem a tribute of coins and gems in an attempt to calm the lingering draconic presence. For every 500 gp offered in tribute, the golem's berserk chance is lowered by 1%. Once berserk, the uncontrolled golem goes on a rampage, attacking the nearest living creature or smashing some object smaller than itself if no creature is within reach, then moving on to spread more destruction. The golem's creator, if within 60 feet, can try to regain control by speaking firmly and persuasively to the golem, requiring a successful DC 25 Charisma check.</p>
@@ -409,10 +409,10 @@ const _golem_dragonhide_golem = {title: "Dragonhide Golem", jsx: <><p><em>This m
 const _golem_equine_bone_golem = {title: "Equine Bone Golem", jsx: <><p><em>This mass of bones is shaped like a horse, with bizarre limbs.</em></p>
 <Header full><span>Equine Bone Golem</span><span>CR 10</span></Header>
 <div className="reduce">
-<Info id="monster-golem_equine_bone_golem-advanced-variant-bone-golem-info" source={[["Tombs of Golarion",13]]} xp="9,600" text={"Advanced variant bone golem"} n large construct init={6} dv={60} llv pcp={0} />
-<Defense id="monster-golem_equine_bone_golem--defense" ac={[23,11,21]} mod="+2 Dex, +12 natural, -1 size" hp={[118,"16d10+30"]} fort="+5" ref="+7" will="+5" dr="5/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_equine_bone_golem--offense" sp={40} melee="bite +21 (1d8+6), 2 hooves +16 (2d6+3 plus staggered)" space={"10"} reach={"5"} specAtt={[["bone prison ranged touch 17","bone prison (ranged touch +17)"],["staggering stomp","staggering stomp"]]} trample="2d6+9, DC 24" />
-<Stats id="monster-golem_equine_bone_golem--stats" atts={[22,15,0,0,10,1]} bab={16} cmb={23} cmd={35} cmdP="39 vs. trip" feats={[["Improved Initiative",<sup>B</sup>]]} />
+<Info source={[["Tombs of Golarion",13]]} xp="9,600" text={"Advanced variant bone golem"} n large construct init={6} dv={60} llv pcp={0} />
+<Defense ac={[23,11,21]} mod="+2 Dex, +12 natural, -1 size" hp={[118,"16d10+30"]} fort="+5" ref="+7" will="+5" dr="5/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={40} melee="bite +21 (1d8+6), 2 hooves +16 (2d6+3 plus staggered)" space={"10"} reach={"5"} specAtt={[["bone prison ranged touch 17","bone prison (ranged touch +17)"],["staggering stomp","staggering stomp"]]} trample="2d6+9, DC 24" />
+<Stats atts={[22,15,0,0,10,1]} bab={16} cmb={23} cmd={35} cmdP="39 vs. trip" feats={[["Improved Initiative",<sup>B</sup>]]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 </div>
 <Header sub>Special Abilities</Header>
@@ -430,11 +430,11 @@ const _golem_equine_bone_golem = {title: "Equine Bone Golem", jsx: <><p><em>This
 const _golem_flesh_golem = {title: "Flesh Golem", jsx: <><p><em>A hideous monstrosity crafted from body parts stitched together with thick string, wire, and metal staples lurches to horrific life.</em></p>
 <Header full><span>Flesh Golem</span><span>CR 7</span></Header>
 <div className="reduce">
-<Info id="monster-golem_flesh_golem--info" source={[["Pathfinder RPG Bestiary",160]]} xp="3,200" n large construct init={-1} dv={60} llv pcp={0} />
-<Defense id="monster-golem_flesh_golem--defense" ac={[20,8,20]} mod="-1 Dex, +12 natural, -1 size" hp={[79,"9d10+30"]} fort="+3" ref="+2" will="+3" dr="5/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_flesh_golem--offense" sp={30} melee="2 slams +13 (2d8+5)" space={"10"} reach={"10"} specAtt={[["berserk","berserk"]]} />
-<Stats id="monster-golem_flesh_golem--stats" atts={[20,9,0,0,11,1]} bab={9} cmb={15} cmd={24} lang={null} />
-<Ecology id="monster-golem_flesh_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",160]]} xp="3,200" n large construct init={-1} dv={60} llv pcp={0} />
+<Defense ac={[20,8,20]} mod="-1 Dex, +12 natural, -1 size" hp={[79,"9d10+30"]} fort="+3" ref="+2" will="+3" dr="5/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee="2 slams +13 (2d8+5)" space={"10"} reach={"10"} specAtt={[["berserk","berserk"]]} />
+<Stats atts={[20,9,0,0,11,1]} bab={9} cmb={15} cmd={24} lang={null} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Berserk (Ex)</strong> When a flesh golem enters combat, there is a cumulative 1% chance each round that its elemental spirit breaks free and the golem goes berserk. The uncontrolled golem goes on a rampage, attacking the nearest living creature or smashing some object smaller than itself if no creature is within reach, then moving on to spread more destruction. The golem's creator, if within 60 feet, can try to regain control by speaking firmly and persuasively to the golem, which requires a DC 19 Charisma check. It takes 1 minute of inactivity by the golem to reset the golem's berserk chance to 0%.</p>
@@ -462,12 +462,12 @@ const _golem_flesh_golem = {title: "Flesh Golem", jsx: <><p><em>A hideous monstr
 const _golem_fossil_golem = {title: "Fossil Golem", jsx: <><p><em>Fossilized bones make up the body of this animated construct, from its horned shoulders to its tyrannosaur-skulled hands.</em></p>
 <Header full><span>Fossil Golem</span><span>CR 12</span></Header>
 <div className="reduce">
-<Info id="monster-golem_fossil_golem--info" source={[["Bestiary 3",136]]} xp="19,200" n huge construct init={1} dv={60} llv pcp={0} />
-<Defense id="monster-golem_fossil_golem--defense" ac={[26,9,25]} mod="+1 Dex, +17 natural, -2 size" hp={[122,"15d10+40"]} fort="+5" ref="+6" will="+5" dr="10/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_fossil_golem--offense" sp={30} melee="2 bites +20 (6d6+7 plus petrification)" space={"15"} reach={"15"} />
-<Stats id="monster-golem_fossil_golem--stats" atts={[25,13,0,0,10,1]} bab={15} cmb={24} cmd={35} feats={[["Combat Reflexes",<sup>B</sup>]]} />
+<Info source={[["Bestiary 3",136]]} xp="19,200" n huge construct init={1} dv={60} llv pcp={0} />
+<Defense ac={[26,9,25]} mod="+1 Dex, +17 natural, -2 size" hp={[122,"15d10+40"]} fort="+5" ref="+6" will="+5" dr="10/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee="2 bites +20 (6d6+7 plus petrification)" space={"15"} reach={"15"} />
+<Stats atts={[25,13,0,0,10,1]} bab={15} cmb={24} cmd={35} feats={[["Combat Reflexes",<sup>B</sup>]]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-golem_fossil_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Immunity to Magic (Su)</strong> A fossil golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and abilities function differently against the creature, as noted below.</p>
@@ -487,11 +487,11 @@ const _golem_fossil_golem = {title: "Fossil Golem", jsx: <><p><em>Fossilized bon
 const _golem_glass_golem = {title: "Glass Golem", jsx: <><p><em>This jagged construct of glass has a human's shape, save that one arm ends in a jagged hammer and another in a spike of glass.</em></p>
 <Header full><span>Glass Golem</span><span>CR 8</span></Header>
 <div className="reduce">
-<Info id="monster-golem_glass_golem--info" source={[["Bestiary 2",138]]} xp="4,800" n large construct init={-1} dv={60} llv pcp={0} />
-<Defense id="monster-golem_glass_golem--defense" ac={[21,8,21]} mod="-1 Dex, +13 natural, -1 size" hp={[96,"12d10+30"]} fort="+4" ref="+3" will="+4" def={[["reflect spells","reflect spells"]]} dr="5/adamantine" immune={<>magic, <Link to="/umr/construct_traits">construct traits</Link></>} />
-<Offense id="monster-golem_glass_golem--offense" sp={30} melee="2 slams +16 (2d8+5 plus bleed)" space={"10"} reach={"10"} specAtt={[["dazzling brightness","dazzling brightness"]]} bleed="1d8" />
-<Stats id="monster-golem_glass_golem--stats" atts={[20,9,0,0,11,1]} bab={12} cmb={18} cmd={27} />
-<Ecology id="monster-golem_glass_golem--eco-eco" env="any land" org="solitary or gang (2-5)" treasure={{"X":false}} />
+<Info source={[["Bestiary 2",138]]} xp="4,800" n large construct init={-1} dv={60} llv pcp={0} />
+<Defense ac={[21,8,21]} mod="-1 Dex, +13 natural, -1 size" hp={[96,"12d10+30"]} fort="+4" ref="+3" will="+4" def={[["reflect spells","reflect spells"]]} dr="5/adamantine" immune={<>magic, <Link to="/umr/construct_traits">construct traits</Link></>} />
+<Offense sp={30} melee="2 slams +16 (2d8+5 plus bleed)" space={"10"} reach={"10"} specAtt={[["dazzling brightness","dazzling brightness"]]} bleed="1d8" />
+<Stats atts={[20,9,0,0,11,1]} bab={12} cmb={18} cmd={27} />
+<Ecology env="any land" org="solitary or gang (2-5)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Dazzling Brightness (Ex)</strong> A glass golem in an area of bright light dazzles any creature within 30 feet that sees it for 1 round (Fortitude DC 16 negates). Once a creature makes its save against this ability, it is immune to that golem's brightness for 24 hours. The DC is Constitution-based.</p>
@@ -516,11 +516,11 @@ const _golem_glass_golem = {title: "Glass Golem", jsx: <><p><em>This jagged cons
 const _golem_gold_golem = {title: "Gold Golem", jsx: <><p><em>This golden statue stands proud, bearing a regal scepter in one hand. Its other arm is stretched out, ending in an upraised fist.</em></p>
 <Header full><span>Gold Golem</span><span>CR 15</span></Header>
 <div className="reduce">
-<Info id="monster-golem_gold_golem--info" source={[["Bestiary 6",140]]} xp="51,200" n large construct init={4} dv={60} llv pcp={0} />
-<Defense id="monster-golem_gold_golem--defense" ac={[30,13,26]} mod="+4 Dex, +17 natural, -1 size" hp={[156,"23d10+30"]} fort="+7" ref="+11" will="+7" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_gold_golem--offense" sp={30} melee="2 slams +34 (4d8+12 plus prismatic surge)" space={"10"} reach={"10"} />
-<Stats id="monster-golem_gold_golem--stats" atts={[34,18,0,0,11,1]} bab={23} cmb={36} cmd={50} sq="death throes" />
-<Ecology id="monster-golem_gold_golem--eco-eco" env="any" org="solitary or procession (2-5)" treasure={{"X":false}} />
+<Info source={[["Bestiary 6",140]]} xp="51,200" n large construct init={4} dv={60} llv pcp={0} />
+<Defense ac={[30,13,26]} mod="+4 Dex, +17 natural, -1 size" hp={[156,"23d10+30"]} fort="+7" ref="+11" will="+7" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee="2 slams +34 (4d8+12 plus prismatic surge)" space={"10"} reach={"10"} />
+<Stats atts={[34,18,0,0,11,1]} bab={23} cmb={36} cmd={50} sq="death throes" />
+<Ecology env="any" org="solitary or procession (2-5)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Death Throes (Ex)</strong> A gold golem melts into worthless slag when destroyed, releasing a 10-foot-radius cloud of fumes that deals 1d4 points of Constitution damage to all creatures within a 10-foot radius. A successful DC 21 Fortitude save negates this effect. This is a poison effect. The save DC is Constitution-based.</p>
@@ -569,7 +569,8 @@ const _golem_gold_golem = {title: "Gold Golem", jsx: <><p><em>This golden statue
 <td>Insanity (as per <Link to="/spell/insanity">insanity</Link>, Will DC 21 negates)</td>
 </tr>
 </tbody></table></ScrollContainer>
-<div className="sideNoteWrap"><ScrollContainer id="monster-golem_gold_golem--table-1"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Prismatic Poison</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Poison</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 21</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d4 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 consecutive saves</td></tr></tbody></table></ScrollContainer></div><Header sub>Description</Header>
+<AffInfo type="Poison" save="Fort 21" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link></>} cure2c icon="p">Prismatic Poison</AffInfo>
+<Header sub>Description</Header>
 <p>Gold golems are extravagant constructs, crafted at great expense at the command of the rich and powerful. They're most often used to guard palaces and family vaults, but are rarely placed in areas that are hidden away from casual observation.</p>
 <p>Many of those who expend the funds to create a gold golem aren't the type to hide the conspicuous display of their wealth from their visitors. A gold golem is humanoid in appearance, standing 10 feet tall and weighing 4,500 pounds.</p>
 <p><strong>Family:</strong> <Link to="/family/golem">Golem</Link></p>
@@ -580,11 +581,11 @@ const _golem_gold_golem = {title: "Gold Golem", jsx: <><p><em>This golden statue
 const _golem_ice_golem = {title: "Ice Golem", jsx: <><p><em>This icy statue stands a head taller than a normal human. A rime of frost coats it, and razor-sharp shards of ice adorn its limbs.</em></p>
 <Header full><span>Ice Golem</span><span>CR 5</span></Header>
 <div className="reduce">
-<Info id="monster-golem_ice_golem--info" source={[["Pathfinder RPG Bestiary",161]]} xp="1,600" n medium construct subs={["cold"]} init={-1} dv={60} llv pcp={0} />
-<Defense id="monster-golem_ice_golem--defense" ac={[17,9,17]} mod="-1 Dex, +8 natural" hp={[53,"6d10+20"]} fort="+2" ref="+1" will="+2" dr="5/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, cold, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
-<Offense id="monster-golem_ice_golem--offense" sp={30} melee="2 slams +9 (1d6+3 plus 1d6 cold)" specAtt={[["cold 1d6","cold (1d6)"],["icy destruction","icy destruction"]]} brWeap="20-ft. cone, 3d6 cold damage, Reflex DC 13 half, usable once every 1d4 rounds" />
-<Stats id="monster-golem_ice_golem--stats" atts={[16,9,0,0,11,1]} bab={6} cmb={9} cmd={18} />
-<Ecology id="monster-golem_ice_golem--eco-eco" env="any cold" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",161]]} xp="1,600" n medium construct subs={["cold"]} init={-1} dv={60} llv pcp={0} />
+<Defense ac={[17,9,17]} mod="-1 Dex, +8 natural" hp={[53,"6d10+20"]} fort="+2" ref="+1" will="+2" dr="5/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, cold, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
+<Offense sp={30} melee="2 slams +9 (1d6+3 plus 1d6 cold)" specAtt={[["cold 1d6","cold (1d6)"],["icy destruction","icy destruction"]]} brWeap="20-ft. cone, 3d6 cold damage, Reflex DC 13 half, usable once every 1d4 rounds" />
+<Stats atts={[16,9,0,0,11,1]} bab={6} cmb={9} cmd={18} />
+<Ecology env="any cold" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Cold (Ex)</strong> An ice golem's body generates intense cold, dealing 1d6 points of damage with its touch. Creatures attacking an ice golem with unarmed strikes or natural weapons take this same cold damage each time one of their attacks hits.</p>
@@ -605,12 +606,12 @@ const _golem_ice_golem = {title: "Ice Golem", jsx: <><p><em>This icy statue stan
 const _golem_inubrix_golem = {title: "Inubrix Golem", jsx: <><p><em>This hulking figure shines with a metallic luster as a heavy yellow gas flows from the creature's back.</em></p>
 <Header full><span>Inubrix Golem</span><span>CR 14</span></Header>
 <div className="reduce">
-<Info id="monster-golem_inubrix_golem--info" source={[["Construct Handbook",44]]} xp="38,400" n large construct init={3} senSpell={["true seeing"]} dv={60} llv pcp={0} />
-<Defense id="monster-golem_inubrix_golem--defense" ac={[28,12,25]} mod="+3 Dex, +16 natural, -1 size" hp={[140,"20d10+30"]} fort="+6" ref="+9" will="+6" dr="10/bludgeoning and magic" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_inubrix_golem--offense" sp={30} spExtra={<em>air walk</em>} melee="4 claws +26 (1d6+7)" space={"10"} reach={"10"} brWeap="15-ft. cone, see below, Reflex DC 20 half, usable every 1d4 rounds" rend="2 claws, 1d6+10" />
-<SpellBlock id="monster-golem_inubrix_golem--spells-monster-spellblock-1" sla={{"cl":20,"con":"+15","content":[{"constant":true,"content":<><Link to="/spell/air_walk">air walk</Link>, <Link to="/spell/true_seeing">true seeing</Link></>}]}} />
-<Stats id="monster-golem_inubrix_golem--stats" atts={[24,16,0,0,11,1]} bab={20} cmb={28} cmd={41} />
-<Ecology id="monster-golem_inubrix_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Construct Handbook",44]]} xp="38,400" n large construct init={3} senSpell={["true seeing"]} dv={60} llv pcp={0} />
+<Defense ac={[28,12,25]} mod="+3 Dex, +16 natural, -1 size" hp={[140,"20d10+30"]} fort="+6" ref="+9" will="+6" dr="10/bludgeoning and magic" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} spExtra={<em>air walk</em>} melee="4 claws +26 (1d6+7)" space={"10"} reach={"10"} brWeap="15-ft. cone, see below, Reflex DC 20 half, usable every 1d4 rounds" rend="2 claws, 1d6+10" />
+<SpellBlock id="1" sla={{"cl":20,"con":"+15","content":[{"constant":true,"content":<><Link to="/spell/air_walk">air walk</Link>, <Link to="/spell/true_seeing">true seeing</Link></>}]}} />
+<Stats atts={[24,16,0,0,11,1]} bab={20} cmb={28} cmd={41} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Breath Weapon (Su)</strong> An inubrix golem can expel a 15-foot cone of yellowish gas as a standard action once every 1d4 rounds. Creatures within the gas cloud feel their skin crawl and their senses deaden. Each creature within the area must succeed at a DC 20 Will save or be staggered for 1d4 rounds and gain 1 negative level. The save DC to remove these negative levels is equal to the initial saving throw for the breath weapon.</p>
@@ -630,7 +631,8 @@ const _golem_inubrix_golem = {title: "Inubrix Golem", jsx: <><p><em>This hulking
 <Header sub>Variant Inubrix Golems</Header>
 <p>As other golem crafters experimented with the original inubrix golems, they discovered viable variants, including those below.</p>
 <p><strong>Abysibrix Golem (CR +0):</strong> By creating an alloy of <Link to="/eq-material/inubrix">inubrix</Link> and <Link to="/eq-material/abysium">abysium</Link>, a glowing blue-green skymetal that makes creatures sick through exposure, a golem crafter can make a sturdier golem, but at the cost of its ability to phase through iron. These golems lose their immunity to iron and rend abilities, but their entire body is infused with a green-blue glow. They increase their damage reduction to 10/adamantine, and they leave behind a poisonous abysium residue with every successful claw attack.</p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-golem_inubrix_golem--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Abysium Residue</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Claw-touch</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 20</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>1 minute</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/minute for 6 minutes</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d2 <Link to="/rule/con_damage">Con damage</Link> and <Link to="/misc/nauseated">nauseated</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 saves</td></tr></tbody></table></ScrollContainer></div><p><strong>Ghost Metal Golem (CR +0):</strong> Ghost metal golems are enhanced specifically for assassination tasks. These golems take a more aggressive and bloodthirsty approach to combat, though they still follows all of their creators' commands. Ghost metal golems lose their rend special attack and breath weapon, but gain the ability to deal an additional 2d6 points of negative energy damage with each claw attack, and they can cast <Link to="/spell/ethereal_jaunt">ethereal jaunt</Link> as a spell-like ability three times per day.</p>
+<AffInfo type="Claw-touch" save="Fort 20" freq="1/minute for 6 minutes" onset="1 minute" eff={<>1d2 <Link to="/rule/con_damage">Con damage</Link> and <Link to="/misc/nauseated">nauseated</Link></>} cure2 icon="p">Abysium Residue</AffInfo>
+<p><strong>Ghost Metal Golem (CR +0):</strong> Ghost metal golems are enhanced specifically for assassination tasks. These golems take a more aggressive and bloodthirsty approach to combat, though they still follows all of their creators' commands. Ghost metal golems lose their rend special attack and breath weapon, but gain the ability to deal an additional 2d6 points of negative energy damage with each claw attack, and they can cast <Link to="/spell/ethereal_jaunt">ethereal jaunt</Link> as a spell-like ability three times per day.</p>
 <p><strong>Family:</strong> <Link to="/family/golem">Golem</Link></p>
 <Header sub>Construction</Header>
 <p>The creator must sculpt an inubrix golem's body from 80,000 gp worth of inubrix and treat it with rare unguents worth 10,000 gp.</p>
@@ -639,11 +641,11 @@ const _golem_inubrix_golem = {title: "Inubrix Golem", jsx: <><p><em>This hulking
 const _golem_ioun_golem = {title: "Ioun Golem", jsx: <><p><em>This four-armed metal construct has a roughly humanoid shape, with the obvious exception of a missing head. Veins of brass overlay a body of meshed platinum and silver, with intricate circular grooves visible above, below, and between its twin sets of arms.</em></p>
 <Header full><span>Ioun Golem</span><span>CR 17</span></Header>
 <div className="reduce">
-<Info id="monster-golem_ioun_golem--info" source={[["Pathfinder #126: Beyond the Veiled Past",88]]} xp="102,400" n large construct init={9} dv={60} llv pcp={0} aura={"ioun attraction (60 ft.)"} />
-<Defense id="monster-golem_ioun_golem--defense" ac={[33,18,24]} mod="+9 Dex, +15 natural, -1 size" hp={[156,"23d10+30"]} fort="+7" ref="+16" will="+7" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_ioun_golem--offense" sp={40} melee="4 slams +32 (3d10+10)" space={"10"} reach={"10"} specAtt={[["ioun surge","ioun surge"]]} />
-<Stats id="monster-golem_ioun_golem--stats" atts={[30,28,0,0,11,1]} bab={23} cmb={34} cmd={53} sq="gem receptacle" />
-<Ecology id="monster-golem_ioun_golem--eco-eco" env="any" org="solitary" treasure={{"S":[],"final":"‹magic-wondrous/ioun stone«s› &#91&up to 6&#93&"}} />
+<Info source={[["Pathfinder #126: Beyond the Veiled Past",88]]} xp="102,400" n large construct init={9} dv={60} llv pcp={0} aura={"ioun attraction (60 ft.)"} />
+<Defense ac={[33,18,24]} mod="+9 Dex, +15 natural, -1 size" hp={[156,"23d10+30"]} fort="+7" ref="+16" will="+7" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={40} melee="4 slams +32 (3d10+10)" space={"10"} reach={"10"} specAtt={[["ioun surge","ioun surge"]]} />
+<Stats atts={[30,28,0,0,11,1]} bab={23} cmb={34} cmd={53} sq="gem receptacle" />
+<Ecology env="any" org="solitary" treasure={{"S":[],"final":"‹magic-wondrous/ioun stone«s› &#91&up to 6&#93&"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Gem Receptacle (Ex)</strong> An ioun golem can socket up to six ioun stones into itself. Each socketed stone grants the golem full access to the stone's abilities and benefits, as though it were orbiting the ioun golem. An ioun golem gains 10 temporary hit points for each ioun stone socketed in this manner, to a maximum of 60 temporary hit points if all slots are filled. Temporary hit points last for 24 hours and each socket can grant temporary hit points only once per day, regardless of how many ioun stones are placed within it during that period. A socketed ioun stone cannot be independently targeted, but it can still be the subject of a successful steal or sunder combat maneuver performed against the ioun golem. Socketing or removing an ioun stone is a move action.</p>
@@ -672,15 +674,16 @@ const _golem_ioun_golem = {title: "Ioun Golem", jsx: <><p><em>This four-armed me
 const _golem_iron_golem = {title: "Iron Golem", jsx: <><p><em>This iron automaton stands twice as tall as a normal human. Its heavy footfalls shake the ground with bone-jarring force.</em></p>
 <Header full><span>Iron Golem</span><span>CR 13</span></Header>
 <div className="reduce">
-<Info id="monster-golem_iron_golem--info" source={[["Pathfinder RPG Bestiary",162]]} xp="25,600" n large construct init={-1} dv={60} llv pcp={0} />
-<Defense id="monster-golem_iron_golem--defense" ac={[28,8,28]} mod="-1 Dex, +20 natural, -1 size" hp={[129,"18d10+30"]} fort="+6" ref="+5" will="+6" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_iron_golem--offense" sp={20} melee="2 slams +28 (2d10+16/19-20)" space={"10"} reach={"10"} specAtt={[["breath weapon","breath weapon"],["powerful blows","powerful blows"]]} />
-<Stats id="monster-golem_iron_golem--stats" atts={[32,9,0,0,11,1]} bab={18} cmb={30} cmd={39} />
-<Ecology id="monster-golem_iron_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",162]]} xp="25,600" n large construct init={-1} dv={60} llv pcp={0} />
+<Defense ac={[28,8,28]} mod="-1 Dex, +20 natural, -1 size" hp={[129,"18d10+30"]} fort="+6" ref="+5" will="+6" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={20} melee="2 slams +28 (2d10+16/19-20)" space={"10"} reach={"10"} specAtt={[["breath weapon","breath weapon"],["powerful blows","powerful blows"]]} />
+<Stats atts={[32,9,0,0,11,1]} bab={18} cmb={30} cmd={39} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Breath Weapon (Su)</strong> As a free action once every 1d4+1 rounds, an iron golem can exhale a 10-foot cube of poisonous gas. This gas cloud persists for 1 round; any creature within the area when the golem creates it (as well as any creature that passes through the cloud during the remainder of that round) is exposed to the cloud's poisonous effects. This poison is magically created each time the golem uses this power.</p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-golem_iron_golem--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Breath weapon-inhaled</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 19</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 4 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d4 <Link to="/rule/con_damage">Con damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 consecutive saves</td></tr><tr><td colSpan={4} className="extra">The save DC is Con-based.</td></tr></tbody></table></ScrollContainer></div><p><strong>Immunity to Magic (Ex)</strong> An iron golem is immune to spells or spell-like abilities that allow spell resistance. Certain spells and effects function differently against it, as noted below.</p>
+<AffInfo type="Breath weapon-inhaled" save="Fort 19" freq="1/round for 4 rounds" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link></>} cure2c extra={<>The save DC is Con-based.</>} icon="p" />
+<p><strong>Immunity to Magic (Ex)</strong> An iron golem is immune to spells or spell-like abilities that allow spell resistance. Certain spells and effects function differently against it, as noted below.</p>
 <ul>
 <li>A magical attack that deals electricity damage slows an iron golem (as the <Link to="/spell/slow">slow</Link> spell) for 3 rounds, with no saving throw.</li>
 <li>A magical attack that deals fire damage breaks any slow effect on the golem and heals 1 point of damage for each 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. An iron golem gets no saving throw against fire effects.</li>
@@ -699,11 +702,11 @@ const _golem_iron_golem = {title: "Iron Golem", jsx: <><p><em>This iron automato
 const _golem_junk_golem = {title: "Junk Golem", jsx: <><p><em>A walking rubbish heap, this roughly man-shaped creature seems to be barely holding itself together.</em></p>
 <Header full><span>Junk Golem</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info id="monster-golem_junk_golem--info" source={[["Bestiary 4",132]]} xp="1,200" n medium construct init={-1} dv={60} llv pcp={0} />
-<Defense id="monster-golem_junk_golem--defense" ac={[19,9,19]} mod="-1 Dex, +10 natural" hpRaw="42 (4d10+20); junk repair" fort="+1" ref="+0" will="+1" dr="5/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_junk_golem--offense" sp={30} melee={<>2 slam +8 (1d6+4 plus <Link to="/disease/tetanus">tetanus</Link>, DC 12 [Con-based DC])</>} specAtt={[["tetanus","tetanus"]]} />
-<Stats id="monster-golem_junk_golem--stats" atts={[18,9,0,0,11,1]} bab={4} cmb={8} cmd={17} sq="discorporate" />
-<Ecology id="monster-golem_junk_golem--eco-eco" env="any" org="solitary or gang (2-6)" treasure={{"X":false}} />
+<Info source={[["Bestiary 4",132]]} xp="1,200" n medium construct init={-1} dv={60} llv pcp={0} />
+<Defense ac={[19,9,19]} mod="-1 Dex, +10 natural" hpRaw="42 (4d10+20); junk repair" fort="+1" ref="+0" will="+1" dr="5/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee={<>2 slam +8 (1d6+4 plus <Link to="/disease/tetanus">tetanus</Link>, DC 12 [Con-based DC])</>} specAtt={[["tetanus","tetanus"]]} />
+<Stats atts={[18,9,0,0,11,1]} bab={4} cmb={8} cmd={17} sq="discorporate" />
+<Ecology env="any" org="solitary or gang (2-6)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Discorporate (Ex)</strong> A junk golem can break apart into its constituent pieces as a standard action, becoming a swarming mass of Tiny parts. It gains the swarm subtype, its space changes to 10 feet, and its reach changes to 0. In this form, it gains a swarm attack that deals 1d6 points of damage and inflicts disease, but loses its slam attacks. It can revert back to its normal form as a full-round action.</p>
@@ -725,11 +728,11 @@ const _golem_junk_golem = {title: "Junk Golem", jsx: <><p><em>A walking rubbish 
 const _golem_lead_golem = {title: "Lead Golem", jsx: <><p><em>Resembling an unearthed vein of dull gray minerals, this crude, hunchbacked humanoid figure uses its arms to support itself.</em></p>
 <Header full><span>Lead Golem</span><span>CR 10</span></Header>
 <div className="reduce">
-<Info id="monster-golem_lead_golem--info" source={[["Bestiary 5",127]]} xp="9,600" n large construct init={-2} dv={60} llv pcp={0} />
-<Defense id="monster-golem_lead_golem--defense" ac={[26,7,26]} mod="-2 Dex, +19 natural, -1 size" hp={[107,"14d10+30"]} fort="+4" ref="+2" will="+4" dr="10/adamantine" immune={<>acid, <Link to="/umr/construct_traits">construct traits</Link>, electricity, magic</>} />
-<Offense id="monster-golem_lead_golem--offense" sp={20} melee="2 slams +21 (2d10+8)" space={"10"} reach={"10"} specAtt={[["retributive miasma","retributive miasma"]]} />
-<Stats id="monster-golem_lead_golem--stats" atts={[26,7,0,0,11,1]} bab={14} cmb={23} cmd={31} cmdP="39 vs. bull rush, reposition" sq="divination screen, intractable density" />
-<Ecology id="monster-golem_lead_golem--eco-eco" env="any" org="solitary or curtain (2-4)" treasure={{"X":false}} />
+<Info source={[["Bestiary 5",127]]} xp="9,600" n large construct init={-2} dv={60} llv pcp={0} />
+<Defense ac={[26,7,26]} mod="-2 Dex, +19 natural, -1 size" hp={[107,"14d10+30"]} fort="+4" ref="+2" will="+4" dr="10/adamantine" immune={<>acid, <Link to="/umr/construct_traits">construct traits</Link>, electricity, magic</>} />
+<Offense sp={20} melee="2 slams +21 (2d10+8)" space={"10"} reach={"10"} specAtt={[["retributive miasma","retributive miasma"]]} />
+<Stats atts={[26,7,0,0,11,1]} bab={14} cmb={23} cmd={31} cmdP="39 vs. bull rush, reposition" sq="divination screen, intractable density" />
+<Ecology env="any" org="solitary or curtain (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Divination Screen (Ex)</strong> Divination spells cast within 60 feet of a lead golem automatically fail.</p>
@@ -740,7 +743,8 @@ const _golem_lead_golem = {title: "Lead Golem", jsx: <><p><em>Resembling an unea
 </ul>
 <p><strong>Intractable Density (Ex):</strong> The weight and sturdiness of its form grants the lead golem a +8 racial bonus on CMD versus bull rush and reposition combat maneuvers.</p>
 <p><strong>Retributive Miasma (Ex)</strong> Any attack that overcomes the damage reduction of the lead golem causes fine lead particles to fill the air within a 5-foot radius of the lead golem. This cloud of lead persists for 1 round; any creatures within the area or that pass through the cloud are exposed to the cloud's poisonous effects. Subsequent attacks damaging the golem increase the duration of the cloud by 1 round each.</p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-golem_lead_golem--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={10} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Poison Cloud</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Inhaled</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 16</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d3 <Link to="/rule/con_damage">Con damage</Link> and 1d3 Wis damage</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 saves</td></tr><tr><td colSpan={4} className="extra">The save DC is Con-based.</td></tr></tbody></table></ScrollContainer></div><Header sub>Description</Header>
+<AffInfo type="Inhaled" save="Fort 16" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/con_damage">Con damage</Link> and 1d3 Wis damage</>} cure2 extra={<>The save DC is Con-based.</>} icon="p">Poison Cloud</AffInfo>
+<Header sub>Description</Header>
 <p>Lead golems are lurching, humanoid-shaped mounds of lead. A lead golem stands 11 feet tall when upright, and weighs 10,000 pounds.</p>
 <p><strong>Family:</strong> <Link to="/family/golem">Golem</Link></p>
 <Header sub>Construction</Header>
@@ -751,11 +755,11 @@ const _golem_lead_golem = {title: "Lead Golem", jsx: <><p><em>Resembling an unea
 const _golem_magnetitie_golem = {title: "Magnetitie Golem", jsx: <><p><em>This vaguely humanoid mass of polished black metal lumbers forward, with all manner of metallic objects clinging to its body.</em></p>
 <Header full><span>Magnetitie Golem</span><span>CR 10</span></Header>
 <div className="reduce">
-<Info id="monster-golem_magnetitie_golem--info" source={[["Pathfinder #95: Anvil of Fire",88]]} xp="9,600" n large construct init={-1} dv={60} llv pcp={1} aura={"magnetic field (30 ft.)"} />
-<Defense id="monster-golem_magnetitie_golem--defense" ac={[24,8,24]} mod="-1 Dex, +16 natural, -1 size" hp={[101,"13d10+30"]} fort="+4" ref="+3" will="+5" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_magnetitie_golem--offense" sp={20} melee="2 slams +20 (2d10+8 plus inescapable grip and magnetic disarm)" space={"10"} reach={"10"} specAtt={[["inescapable grip","inescapable grip"],["magnetic disarm","magnetic disarm"]]} />
-<Stats id="monster-golem_magnetitie_golem--stats" atts={[27,9,0,0,12,1]} bab={13} cmb={22} cmbP="+26 grapple" cmd={31} />
-<Ecology id="monster-golem_magnetitie_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"I":[],"final":"metal objects stuck to the golem"}} />
+<Info source={[["Pathfinder #95: Anvil of Fire",88]]} xp="9,600" n large construct init={-1} dv={60} llv pcp={1} aura={"magnetic field (30 ft.)"} />
+<Defense ac={[24,8,24]} mod="-1 Dex, +16 natural, -1 size" hp={[101,"13d10+30"]} fort="+4" ref="+3" will="+5" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={20} melee="2 slams +20 (2d10+8 plus inescapable grip and magnetic disarm)" space={"10"} reach={"10"} specAtt={[["inescapable grip","inescapable grip"],["magnetic disarm","magnetic disarm"]]} />
+<Stats atts={[27,9,0,0,12,1]} bab={13} cmb={22} cmbP="+26 grapple" cmd={31} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"I":[],"final":"metal objects stuck to the golem"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Immunity to Magic (Ex)</strong> A magnetite golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p>
@@ -784,11 +788,11 @@ const _golem_magnetitie_golem = {title: "Magnetitie Golem", jsx: <><p><em>This v
 const _golem_marrowstone_golem = {title: "Marrowstone Golem", jsx: <><p><em>Thin veins of black rock crisscross the frame of this hulking construct.</em></p>
 <Header full><span>Marrowstone Golem</span><span>CR 8</span></Header>
 <div className="reduce">
-<Info id="monster-golem_marrowstone_golem--info" source={[["Inner Sea Bestiary",17]]} xp="4,800" n large construct init={0} dv={60} llv pcp={0} aura={"necrotic field (30 ft.)"} />
-<Defense id="monster-golem_marrowstone_golem--defense" ac={[21,9,21]} mod="+12 natural, -1 size" hp={[85,"10d10+30"]} fort="+3" ref="+3" will="+3" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_marrowstone_golem--offense" sp={30} melee="2 slams +14 (2d6+5 plus 2d6 negative energy)" space={"10"} reach={"10"} specAtt={[["create spawn","create spawn"]]} />
-<Stats id="monster-golem_marrowstone_golem--stats" atts={[20,11,0,0,11,1]} bab={10} cmb={16} cmd={26} />
-<Ecology id="monster-golem_marrowstone_golem--eco-eco" env="any underground (Darklands)" org="solitary or gang (2-5)" treasure={{"X":false}} />
+<Info source={[["Inner Sea Bestiary",17]]} xp="4,800" n large construct init={0} dv={60} llv pcp={0} aura={"necrotic field (30 ft.)"} />
+<Defense ac={[21,9,21]} mod="+12 natural, -1 size" hp={[85,"10d10+30"]} fort="+3" ref="+3" will="+3" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee="2 slams +14 (2d6+5 plus 2d6 negative energy)" space={"10"} reach={"10"} specAtt={[["create spawn","create spawn"]]} />
+<Stats atts={[20,11,0,0,11,1]} bab={10} cmb={16} cmd={26} />
+<Ecology env="any underground (Darklands)" org="solitary or gang (2-5)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Create Spawn (Su)</strong> Any humanoid creature that is slain by a marrowstone golem rises from death as a free-willed ghoul in 24 hours. A creature with four or more class levels rises as a ghast instead. In either case, the ghoul or ghast has a 25% chance of retaining whatever class levels it had in life.</p>
@@ -809,12 +813,12 @@ const _golem_marrowstone_golem = {title: "Marrowstone Golem", jsx: <><p><em>Thin
 const _golem_mask_golem = {title: "Mask Golem", jsx: <><p><em>This creature is made of hundreds of metal masks, welded together to form a roughly humanoid body. The masks are mostly iron, but some - such as the hands, knees, and feet - are made of silver lined with gold. The mask that makes up its head is made of porcelain with gold trim and has a large sapphire set into its brow. At the creature moves, the masks seem to shift and stare.</em></p>
 <Header full><span>Mask Golem</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info id="monster-golem_mask_golem--info" source={[["Masks of the Living God",30]]} xp="1,200" n medium construct init={7} dv={60} llv pcp={5} />
-<Defense id="monster-golem_mask_golem--defense" ac={[17,13,14]} mod="+3 Dex, +4 natural" hp={[42,"4d10+20"]} fort="+1" ref="+6" will="+2" dr="5/bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to sonic</>]} />
-<Offense id="monster-golem_mask_golem--offense" sp={40} melee="2 slams +8 (1d8+4)" specAtt={[["masks of control","masks of control"],["swarm form","swarm form"]]} />
-<SpellBlock id="monster-golem_mask_golem--spells-monster-spellblock-1" sla={{"cl":4,"content":[{"constant":true,"content":<Link to="/spell/see_invisibility">see invisibility</Link>}]}} />
-<Stats id="monster-golem_mask_golem--stats" atts={[18,17,0,7,12,13]} bab={4} cmb={8} cmd={21} feats={["Improved Initiative","Lightning Reflexes"]} skills={{"per":{"b":5}}} />
-<Ecology id="monster-golem_mask_golem--eco-eco" env="any" org="solitary" treasure={{"S":false}} />
+<Info source={[["Masks of the Living God",30]]} xp="1,200" n medium construct init={7} dv={60} llv pcp={5} />
+<Defense ac={[17,13,14]} mod="+3 Dex, +4 natural" hp={[42,"4d10+20"]} fort="+1" ref="+6" will="+2" dr="5/bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to sonic</>]} />
+<Offense sp={40} melee="2 slams +8 (1d8+4)" specAtt={[["masks of control","masks of control"],["swarm form","swarm form"]]} />
+<SpellBlock id="1" sla={{"cl":4,"content":[{"constant":true,"content":<Link to="/spell/see_invisibility">see invisibility</Link>}]}} />
+<Stats atts={[18,17,0,7,12,13]} bab={4} cmb={8} cmd={21} feats={["Improved Initiative","Lightning Reflexes"]} skills={{"per":{"b":5}}} />
+<Ecology env="any" org="solitary" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Immunity to Magic (Ex)</strong> A mask golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p>
@@ -843,12 +847,12 @@ const _golem_mask_golem = {title: "Mask Golem", jsx: <><p><em>This creature is m
 const _golem_mithral_golem = {title: "Mithral Golem", jsx: <><p><em>Made of polished silvery metal, this immense humanoid construct moves with shocking grace and speed.</em></p>
 <Header full><span>Mithral Golem</span><span>CR 16</span></Header>
 <div className="reduce">
-<Info id="monster-golem_mithral_golem--info" source={[["Bestiary 2",139]]} xp="76,800" n huge construct init={7} dv={60} llv pcp={0} />
-<Defense id="monster-golem_mithral_golem--defense" ac={[32,16,24]} mod="+7 Dex, +1 dodge, +16 natural, -2 size" hp={[172,"24d10+40"]} fort="+8" ref="+15" will="+8" dr="15/adamantine, evasion" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_mithral_golem--offense" sp={50} melee="2 slams +33 (4d10+11)" space={"15"} reach={"15"} specAtt={[["fluid form","fluid form"],["quickness","quickness"]]} />
-<Stats id="monster-golem_mithral_golem--stats" atts={[33,24,0,0,11,1]} bab={24} cmb={37} cmd={55} feats={[["Dodge",<sup>B</sup>],["Mobility",<sup>B</sup>],["Run",<sup>B</sup>],["Spring Attack",<sup>B</sup>]]} />
+<Info source={[["Bestiary 2",139]]} xp="76,800" n huge construct init={7} dv={60} llv pcp={0} />
+<Defense ac={[32,16,24]} mod="+7 Dex, +1 dodge, +16 natural, -2 size" hp={[172,"24d10+40"]} fort="+8" ref="+15" will="+8" dr="15/adamantine, evasion" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={50} melee="2 slams +33 (4d10+11)" space={"15"} reach={"15"} specAtt={[["fluid form","fluid form"],["quickness","quickness"]]} />
+<Stats atts={[33,24,0,0,11,1]} bab={24} cmb={37} cmd={55} feats={[["Dodge",<sup>B</sup>],["Mobility",<sup>B</sup>],["Run",<sup>B</sup>],["Spring Attack",<sup>B</sup>]]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-golem_mithral_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Fluid Form (Ex)</strong> A mithral golem's body can take on a form like liquid silver as a swift action. While in this form, the mithral golem's reach increases to 30 feet and its DR becomes 15/bludgeoning and adamantine. A mithral golem in this form can also move through any crack or hole in a wall or door, no matter how small, without impeding its movement. A mithral golem can maintain this form for up to 10 rounds per day, but these rounds do not need to be consecutive. Reverting to its normal form is a free action.</p>
@@ -869,12 +873,12 @@ const _golem_mithral_golem = {title: "Mithral Golem", jsx: <><p><em>Made of poli
 const _golem_noqual_golem = {title: "Noqual Golem", jsx: <><p><em>Pale green metal makes up the body of this automaton. Despite its towering size, it moves with lithe quickness.</em></p>
 <Header full><span>Noqual Golem</span><span>CR 18</span></Header>
 <div className="reduce">
-<Info id="monster-golem_noqual_golem--info" source={[["Inner Sea Bestiary",18]]} xp="153,600" n huge construct init={2} dv={60} llv pcp={0} aura={"impeded magic (60 ft.)"} />
-<Defense id="monster-golem_noqual_golem--defense" ac={[32,10,30]} mod="+2 Dex, +22 natural, -2 size" hp={[202,"25d10+65"]} fort="+8" ref="+10" will="+8; +8 vs. spells, spell-like abilities, and supernatural abilities" def={[["spell absorption","spell absorption"]]} dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_noqual_golem--offense" sp={40} melee="2 slams +36 (4d8+19/19-20 plus spell sunder)" space={"15"} reach={"15"} specAtt={[["construct bane","construct bane"]]} />
-<Stats id="monster-golem_noqual_golem--stats" atts={[36,15,0,0,11,1]} bab={25} cmb={40} cmd={52} feats={[["Toughness",<sup>B</sup>]]} />
+<Info source={[["Inner Sea Bestiary",18]]} xp="153,600" n huge construct init={2} dv={60} llv pcp={0} aura={"impeded magic (60 ft.)"} />
+<Defense ac={[32,10,30]} mod="+2 Dex, +22 natural, -2 size" hp={[202,"25d10+65"]} fort="+8" ref="+10" will="+8; +8 vs. spells, spell-like abilities, and supernatural abilities" def={[["spell absorption","spell absorption"]]} dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={40} melee="2 slams +36 (4d8+19/19-20 plus spell sunder)" space={"15"} reach={"15"} specAtt={[["construct bane","construct bane"]]} />
+<Stats atts={[36,15,0,0,11,1]} bab={25} cmb={40} cmd={52} feats={[["Toughness",<sup>B</sup>]]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
-<Ecology id="monster-golem_noqual_golem--eco-eco" env="any (Numeria, Thassilon)" org="solitary or pair" treasure={{"X":false}} />
+<Ecology env="any (Numeria, Thassilon)" org="solitary or pair" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Construct Bane (Ex)</strong> A noqual golem deals an additional 2d6 points of damage against constructs (except other noqual golems) and undead created by feats or spells.</p>
@@ -898,11 +902,11 @@ const _golem_noqual_golem = {title: "Noqual Golem", jsx: <><p><em>Pale green met
 const _golem_obsidian_golem = {title: "Obsidian Golem", jsx: <><p><em>This statue resembles a lean human cut from blackened glass stone. Numerous razor-sharp protuberances jut from its body.</em></p>
 <Header full><span>Obsidian Golem</span><span>CR 12</span></Header>
 <div className="reduce">
-<Info id="monster-golem_obsidian_golem--info" source={[["Bestiary 6",141]]} xp="19,200" n large construct init={0} dv={60} llv pcp={0} />
-<Defense id="monster-golem_obsidian_golem--defense" ac={[27,9,27]} mod="+18 natural, -1 size" hp={[123,"17d10+30"]} fort="+5" ref="+5" will="+5" def={[["jagged body","jagged body"]]} dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_obsidian_golem--offense" sp={20} melee="2 claws +25 (2d12+9 plus bleed)" space={"10"} reach={"10"} specAtt={[["obsidian spray","obsidian spray"]]} bleed="2d6" />
-<Stats id="monster-golem_obsidian_golem--stats" atts={[28,10,0,0,11,1]} bab={17} cmb={27} cmd={37} sq="death throes" />
-<Ecology id="monster-golem_obsidian_golem--eco-eco" env="any" org="solitary or eruption (2-5)" treasure={{"X":false}} />
+<Info source={[["Bestiary 6",141]]} xp="19,200" n large construct init={0} dv={60} llv pcp={0} />
+<Defense ac={[27,9,27]} mod="+18 natural, -1 size" hp={[123,"17d10+30"]} fort="+5" ref="+5" will="+5" def={[["jagged body","jagged body"]]} dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={20} melee="2 claws +25 (2d12+9 plus bleed)" space={"10"} reach={"10"} specAtt={[["obsidian spray","obsidian spray"]]} bleed="2d6" />
+<Stats atts={[28,10,0,0,11,1]} bab={17} cmb={27} cmd={37} sq="death throes" />
+<Ecology env="any" org="solitary or eruption (2-5)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Death Throes (Ex)</strong> When an obsidian golem is reduced to 0 or fewer hit points, it explodes. All creatures within a 20-foot burst take 12d6 points of piercing and slashing damage and 2d6 points of bleed damage. A successful DC 18 Reflex save results in half damage and negates the bleed effect. The save DC is Constitution-based.</p>
@@ -924,12 +928,12 @@ const _golem_obsidian_golem = {title: "Obsidian Golem", jsx: <><p><em>This statu
 const _golem_panthereon = {title: "Panthereon", jsx: <><p><em>This finely sculpted statue is formed of hardened clay. Its muscular body is topped with the head of a feline predator.</em></p>
 <Header full><span>Panthereon</span><span>CR 11</span></Header>
 <div className="reduce">
-<Info id="monster-golem_panthereon--info" source={[["Pathfinder #82: Secrets of the Sphinx",88]]} xp="12,800" n large construct init={3} senSpell={["true seeing"]} dv={60} llv pcp={2} />
-<Defense id="monster-golem_panthereon--defense" ac={[24,8,24]} mod="-1 Dex, +16 natural, -1 size" hp={[118,"16d10+30"]} fort="+5" ref="+4" will="+7" dr="10/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_panthereon--offense" sp={30} melee="bite +22 (4d6+7 plus cursed wound), 2 slams +22 (1d10+7)" space={"10"} reach={"10"} reachP={"5 ft. with bite"} specAtt={[["cursed wound","cursed wound"],["eye beam","eye beam"],["haste","haste"]]} />
-<SpellBlock id="monster-golem_panthereon--spells-monster-spellblock-1" sla={{"cl":11,"con":"+6","content":[{"constant":true,"content":<Link to="/spell/true_seeing">true seeing</Link>}]}} />
-<Stats id="monster-golem_panthereon--stats" atts={[24,9,0,0,15,1]} bab={16} cmb={24} cmd={33} feats={["Improved Initiative"]} />
-<Ecology id="monster-golem_panthereon--eco-eco" env="any" org="solitary or pride (2-4)" treasure={{"X":false}} />
+<Info source={[["Pathfinder #82: Secrets of the Sphinx",88]]} xp="12,800" n large construct init={3} senSpell={["true seeing"]} dv={60} llv pcp={2} />
+<Defense ac={[24,8,24]} mod="-1 Dex, +16 natural, -1 size" hp={[118,"16d10+30"]} fort="+5" ref="+4" will="+7" dr="10/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee="bite +22 (4d6+7 plus cursed wound), 2 slams +22 (1d10+7)" space={"10"} reach={"10"} reachP={"5 ft. with bite"} specAtt={[["cursed wound","cursed wound"],["eye beam","eye beam"],["haste","haste"]]} />
+<SpellBlock id="1" sla={{"cl":11,"con":"+6","content":[{"constant":true,"content":<Link to="/spell/true_seeing">true seeing</Link>}]}} />
+<Stats atts={[24,9,0,0,15,1]} bab={16} cmb={24} cmd={33} feats={["Improved Initiative"]} />
+<Ecology env="any" org="solitary or pride (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Cursed Wound (Ex)</strong> The damage a panthereon deals doesn't heal naturally and resists magical healing. A character attempting to use magical healing on a creature damaged by a panthereon must succeed at a DC 26 caster level check, or the healing has no effect on the injured creature.</p>
@@ -971,11 +975,11 @@ const _golem_panthereon = {title: "Panthereon", jsx: <><p><em>This finely sculpt
 const _golem_quantium_golem = {title: "Quantium Golem", jsx: <><p><em>This towering metal construct crackles with eldritch energy and wields an immense sword in its hands.</em></p>
 <Header full><span>Quantium Golem</span><span>CR 20</span></Header>
 <div className="reduce">
-<Info id="monster-golem_quantium_golem--info" source={[["Inner Sea Bestiary",19]]} xp="307,200" n gargantuan construct init={-2} sen={["link"]} dv={60} llv pcp={0} />
-<Defense id="monster-golem_quantium_golem--defense" ac={[37,4,37]} mod="-2 Dex, +33 natural, -4 size" hp={[375,"30d10+210"]} fort="+10" ref="+8" will="+10" dr="20/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_quantium_golem--offense" sp={20} melee="+5 bastard sword +46/+41/+36/+31 (4d8+20/19-20)" space={"20"} reach={"20"} specAtt={[["eldritch surge","eldritch surge"]]} />
-<Stats id="monster-golem_quantium_golem--stats" atts={[40,7,0,0,11,1]} bab={30} cmb={49} cmd={57} feats={["Whirlwind Attack"]} sq="urban defender" />
-<Ecology id="monster-golem_quantium_golem--eco-eco" env="any (Quantium)" org="solitary or pair" treasure={{"S":[["+5","Wbs"]],"final":"other treasure"}} />
+<Info source={[["Inner Sea Bestiary",19]]} xp="307,200" n gargantuan construct init={-2} sen={["link"]} dv={60} llv pcp={0} />
+<Defense ac={[37,4,37]} mod="-2 Dex, +33 natural, -4 size" hp={[375,"30d10+210"]} fort="+10" ref="+8" will="+10" dr="20/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={20} melee="+5 bastard sword +46/+41/+36/+31 (4d8+20/19-20)" space={"20"} reach={"20"} specAtt={[["eldritch surge","eldritch surge"]]} />
+<Stats atts={[40,7,0,0,11,1]} bab={30} cmb={49} cmd={57} feats={["Whirlwind Attack"]} sq="urban defender" />
+<Ecology env="any (Quantium)" org="solitary or pair" treasure={{"S":[["+5","Wbs"]],"final":"other treasure"}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Eldritch Surge (Su)</strong> A Quantium golem can hurl a lance of eldritch energy that deals 30d6 points of damage to all creatures in a 240-foot line (Reflex DC 25 for half). The crimson Quantium golem deals half electricity and half fire damage, and slows a creature (as the <Link to="/spell/slow">slow</Link> spell) that fails its save for 2d4 rounds. The green Quantium golem deals half acid and half fire damage, and nauseates any creature that fails its save for 1d4 rounds. The save DC is Constitution-based.</p>
@@ -996,11 +1000,11 @@ const _golem_quantium_golem = {title: "Quantium Golem", jsx: <><p><em>This tower
 const _golem_quintessence_golem = {title: "Quintessence Golem", jsx: <><p><em>This partially humanoid creature appears to be carved of smoky glass. Ghostly, screaming faces swirl within its immense body.</em></p>
 <Header full><span>Quintessence Golem</span><span>CR 20</span></Header>
 <div className="reduce">
-<Info id="monster-golem_quintessence_golem--info" source={[["Bestiary 6",142]]} xp="307,200" n huge construct subs={["extraplanar"]} init={10} dv={60} llv lifesense pcp={0} aura={"soul siphon (100 ft.)"} />
-<Defense id="monster-golem_quintessence_golem--defense" ac={[36,18,26]} mod="+10 Dex, +18 natural, -2 size" hp={[376,"32d10+200"]} fh="20" fort="+10" ref="+20" will="+10" dr="15/epic" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_quintessence_golem--offense" sp={30} fl={60} flP="perfect" melee="2 slams +45 (5d10+22 plus energy drain)" space={"15"} reach={"15"} eDrain="2 levels, DC 26" />
-<Stats id="monster-golem_quintessence_golem--stats" atts={[40,31,0,0,11,21]} bab={32} cmb={49} cmd={69} skills={{"fly":{"b":14}}} sq="powerful blows (slam), soul infused" />
-<Ecology id="monster-golem_quintessence_golem--eco-eco" env="any" org="solitary" treasure={{"X":false}} />
+<Info source={[["Bestiary 6",142]]} xp="307,200" n huge construct subs={["extraplanar"]} init={10} dv={60} llv lifesense pcp={0} aura={"soul siphon (100 ft.)"} />
+<Defense ac={[36,18,26]} mod="+10 Dex, +18 natural, -2 size" hp={[376,"32d10+200"]} fh="20" fort="+10" ref="+20" will="+10" dr="15/epic" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} fl={60} flP="perfect" melee="2 slams +45 (5d10+22 plus energy drain)" space={"15"} reach={"15"} eDrain="2 levels, DC 26" />
+<Stats atts={[40,31,0,0,11,21]} bab={32} cmb={49} cmd={69} skills={{"fly":{"b":14}}} sq="powerful blows (slam), soul infused" />
+<Ecology env="any" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Immunity to Magic (Ex)</strong> A quintessence golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p>
@@ -1021,11 +1025,11 @@ const _golem_quintessence_golem = {title: "Quintessence Golem", jsx: <><p><em>Th
 const _golem_robot_golem = {title: "Robot Golem", jsx: <><p><em>Though corroded and damaged, this bipedal metallic construct moves silently, as though powered by some force other than its own rattling gears.</em></p>
 <Header full><span>Robot Golem</span><span>CR 11</span></Header>
 <div className="reduce">
-<Info id="monster-golem_robot_golem--info" source={[["Numeria, Land of Fallen Stars",49]]} xp="12,800" n large construct init={0} dv={60} llv pcp={0} />
-<Defense id="monster-golem_robot_golem--defense" ac={[27,9,27]} mod="+18 natural, -1 size" hp={[112,"15d10+30"]} fort="+5" ref="+5" will="+5" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_robot_golem--offense" sp={20} melee="2 slams +22 (2d10+8)" space={"10"} reach={"10"} specAtt={[["rend construct 2 slams 2d1012","rend construct (2 slams, 2d10+12)"],["shockwave 30-ft-radius spread 8d6 electricity Reflex DC 19 for half usable every 1d4 rounds","shockwave (30-ft.-radius spread, 8d6 electricity, Reflex DC 19 for half, usable every 1d4 rounds)"]]} />
-<Stats id="monster-golem_robot_golem--stats" atts={[26,11,0,0,11,1]} bab={15} cmb={24} cmd={34} />
-<Ecology id="monster-golem_robot_golem--eco-eco" env="any (Numeria)" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Numeria, Land of Fallen Stars",49]]} xp="12,800" n large construct init={0} dv={60} llv pcp={0} />
+<Defense ac={[27,9,27]} mod="+18 natural, -1 size" hp={[112,"15d10+30"]} fort="+5" ref="+5" will="+5" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={20} melee="2 slams +22 (2d10+8)" space={"10"} reach={"10"} specAtt={[["rend construct 2 slams 2d1012","rend construct (2 slams, 2d10+12)"],["shockwave 30-ft-radius spread 8d6 electricity Reflex DC 19 for half usable every 1d4 rounds","shockwave (30-ft.-radius spread, 8d6 electricity, Reflex DC 19 for half, usable every 1d4 rounds)"]]} />
+<Stats atts={[26,11,0,0,11,1]} bab={15} cmb={24} cmd={34} />
+<Ecology env="any (Numeria)" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Immunity to Magic (Ex)</strong> A robot golem is immune to spells or spell-like abilities that allow spell resistance. In addition, certain spells and effects function differently against it, as noted below.</p>
@@ -1046,11 +1050,11 @@ const _golem_robot_golem = {title: "Robot Golem", jsx: <><p><em>Though corroded 
 const _golem_sand_golem = {title: "Sand Golem", jsx: <><p><em>This towering creature appears to be made entirely of sand, with pockets of soft earth and rock reinforcing its tall, humanoid form.</em></p>
 <Header full><span>Sand Golem</span><span>CR 9</span></Header>
 <div className="reduce">
-<Info id="monster-golem_sand_golem--info" source={[["Construct Handbook",46]]} xp="6,400" n large construct init={2} dv={60} llv pcp={0} />
-<Defense id="monster-golem_sand_golem--defense" ac={[23,11,21]} mod="+2 Dex, +12 natural, -1 size" hp={[96,"12d10+30"]} fort="+4" ref="+6" will="+4" amorph dr="10/bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense id="monster-golem_sand_golem--offense" sp={30} melee={<>2 slams +18 (2d6+7 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} specAtt={[["clutching sands","clutching sands"],["sand blast","sand blast"]]} constrict="2d6+10" />
-<Stats id="monster-golem_sand_golem--stats" atts={[24,15,0,0,10,1]} bab={12} cmb={20} cmbP="+24 grapple" cmd={32} sq={<Link to="/umr/compression">compression</Link>} />
-<Ecology id="monster-golem_sand_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Construct Handbook",46]]} xp="6,400" n large construct init={2} dv={60} llv pcp={0} />
+<Defense ac={[23,11,21]} mod="+2 Dex, +12 natural, -1 size" hp={[96,"12d10+30"]} fort="+4" ref="+6" will="+4" amorph dr="10/bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
+<Offense sp={30} melee={<>2 slams +18 (2d6+7 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} specAtt={[["clutching sands","clutching sands"],["sand blast","sand blast"]]} constrict="2d6+10" />
+<Stats atts={[24,15,0,0,10,1]} bab={12} cmb={20} cmbP="+24 grapple" cmd={32} sq={<Link to="/umr/compression">compression</Link>} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Clutching Sands (Ex)</strong> When a creature hits a sand golem with a manufactured melee weapon, the sand golem can make a disarm attempt as an immediate action. This disarm attempt doesn't provoke an attack of opportunity. If the combat maneuver check is a success, the weapon is caught in the golem's churning sands. A sand golem's body can contain any number of weapons. A sand golem can make an attack with one captured weapon of its choice as a standard action or as part of its full attack, although attack rolls made with captured weapons take a -4 penalty. After attacking twice with a weapon, the weapon falls to the ground, landing 1d4 squares away from the sand golem.</p>
@@ -1080,11 +1084,11 @@ const _golem_sand_golem = {title: "Sand Golem", jsx: <><p><em>This towering crea
 </>};
 const _golem_sentient_wax_golem = {title: "Sentient Wax Golem", jsx: <><Header full><span>Sentient Wax Golem</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info id="monster-golem_sentient_wax_golem-commoner-1-info" source={[["Pathfinder #47: Ashes at Dawn",90]]} xp="1,200" text={"Commoner 1"} n medium construct init={3} dv={60} llv pcp={6} />
-<Defense id="monster-golem_sentient_wax_golem--defense" ac={[15,9,15]} mod="-1 Dex, +6 natural" hp={[47,"4d10+1d6+21",5]} fort="+3" ref="+2" will="+1" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
-<Offense id="monster-golem_sentient_wax_golem--offense" sp={30} melee="slam +6 (1d6+3)" />
-<Stats id="monster-golem_sentient_wax_golem--stats" atts={[14,9,0,10,11,1]} bab={4} cmb={6} cmd={15} feats={["Great Fortitude","Improved Initiative","Lightning Reflexes"]} skills={{"app":{"b":6},"craft":{"of":"carpentry","b":7},"dis":{"b":7,"x":"+17 to appear as the individual it was crafted to resemble"}}} racial="+12 Disguise" lang={["C"]} sq="conditional sentience" />
-<Ecology id="monster-golem_sentient_wax_golem--eco-eco" env="any" org="solitary" treasure={{"X":false}} />
+<Info source={[["Pathfinder #47: Ashes at Dawn",90]]} xp="1,200" text={"Commoner 1"} n medium construct init={3} dv={60} llv pcp={6} />
+<Defense ac={[15,9,15]} mod="-1 Dex, +6 natural" hp={[47,"4d10+1d6+21",5]} fort="+3" ref="+2" will="+1" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
+<Offense sp={30} melee="slam +6 (1d6+3)" />
+<Stats atts={[14,9,0,10,11,1]} bab={4} cmb={6} cmd={15} feats={["Great Fortitude","Improved Initiative","Lightning Reflexes"]} skills={{"app":{"b":6},"craft":{"of":"carpentry","b":7},"dis":{"b":7,"x":"+17 to appear as the individual it was crafted to resemble"}}} racial="+12 Disguise" lang={["C"]} sq="conditional sentience" />
+<Ecology env="any" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Conditional Sentience (Su)</strong> A wax golem constructed to look like a humanoid (whether a particular individual or not) has a small chance of gaining sentience, genuinely believing it is actually a living creature. Each week, such a wax golem has a cumulative 1% chance of becoming sentient (so the second week the chance is 2%, the third week 3%, and so on, to a maximum of 5%). If this occurs, the golem gains an Intelligence score of 10, retroactive skill points, feats dependent on its Hit Dice, and 1 class level with the potential to gain more. It also gains a +10 racial bonus on Disguise checks made to impersonate the specific individual it was crafted to appear as. A sentient wax golem ventures into the world and tries to live a life similar to that of the person (or type of person) it resembles. However, if the sentient wax golem ever encounters the person it is modeled after, it attempts to stealthily kill that person and take his place. The only way for a sentient wax golem to lose its sentience is either to take an amount of fire damage equal to half its hit points (which melts its features away) or to be destroyed.</p>
@@ -1112,12 +1116,12 @@ const _golem_sentient_wax_golem = {title: "Sentient Wax Golem", jsx: <><Header f
 const _golem_shadow_golem = {title: "Shadow Golem", jsx: <><p><em>This towering humanoid figure seems to be made of solidified shadows. Two pale orbs glare from its otherwise blank visage.</em></p>
 <Header full><span>Shadow Golem</span><span>CR 14</span></Header>
 <div className="reduce">
-<Info id="monster-golem_shadow_golem--info" source={[["Pathfinder #102: Breaking the Bones of Hell",88]]} xp="38,400" n large construct init={4} dv={60} llv sid pcp={0} aura={"shadow (60 ft.)"} />
-<Defense id="monster-golem_shadow_golem--defense" ac={[29,19,25]} mod="+6 deflection, +4 Dex, +10 Natural, -1 Size" hp={[151,"22d10+30"]} fort="+7" ref="+11" will="+7" def={[["immunity to magic","immunity to magic"]]} dr="15/adamantine and slashing" immune={<>cold, <Link to="/umr/construct_traits">construct traits</Link></>} />
-<Offense id="monster-golem_shadow_golem--offense" sp={50} melee="2 claws +33 (3d10+12)" space={"10"} reach={"10"} specAtt={[["breath weapon","breath weapon"]]} />
-<SpellBlock id="monster-golem_shadow_golem--spells-monster-spellblock-1" sla={{"cl":20,"con":"+15","content":[{"constant":true,"content":<Link to="/spell/air_walk">air walk</Link>}]}} />
-<Stats id="monster-golem_shadow_golem--stats" atts={[34,19,0,0,11,1]} bab={22} cmb={35} cmd={55} skills={{"stl":{"b":0,"x":"+16 in dim light"}}} racial="+16 Stealth in dim light" />
-<Ecology id="monster-golem_shadow_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Pathfinder #102: Breaking the Bones of Hell",88]]} xp="38,400" n large construct init={4} dv={60} llv sid pcp={0} aura={"shadow (60 ft.)"} />
+<Defense ac={[29,19,25]} mod="+6 deflection, +4 Dex, +10 Natural, -1 Size" hp={[151,"22d10+30"]} fort="+7" ref="+11" will="+7" def={[["immunity to magic","immunity to magic"]]} dr="15/adamantine and slashing" immune={<>cold, <Link to="/umr/construct_traits">construct traits</Link></>} />
+<Offense sp={50} melee="2 claws +33 (3d10+12)" space={"10"} reach={"10"} specAtt={[["breath weapon","breath weapon"]]} />
+<SpellBlock id="1" sla={{"cl":20,"con":"+15","content":[{"constant":true,"content":<Link to="/spell/air_walk">air walk</Link>}]}} />
+<Stats atts={[34,19,0,0,11,1]} bab={22} cmb={35} cmd={55} skills={{"stl":{"b":0,"x":"+16 in dim light"}}} racial="+16 Stealth in dim light" />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Breath Weapon (Su)</strong> As a free action once every 1d4+1 rounds, a shadow golem can exhale a 30-foot cone of shadows. All creatures caught in this area take 2d4 points of Strength damage and become staggered for 1 round. A successful DC 21 Fortitude save reduces the Strength damage to 2 points and negates the staggering effect. The save DC is Constitution-based.</p>
@@ -1144,11 +1148,11 @@ const _golem_shadow_golem = {title: "Shadow Golem", jsx: <><p><em>This towering 
 const _golem_stone_golem = {title: "Stone Golem", jsx: <><p><em>This towering stone automaton bears the likeness of an archaic, armored warrior. It moves with ponderous but inexorable steps.</em></p>
 <Header full><span>Stone Golem</span><span>CR 11</span></Header>
 <div className="reduce">
-<Info id="monster-golem_stone_golem--info" source={[["Pathfinder RPG Bestiary",163]]} xp="12,800" n large construct init={-1} dv={60} llv pcp={0} />
-<Defense id="monster-golem_stone_golem--defense" ac={[26,8,26]} mod="-1 Dex, +18 natural, -1 size" hp={[107,"14d10+30"]} fort="+4" ref="+3" will="+4" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_stone_golem--offense" sp={20} melee="2 slams +22 (2d10+9)" space={"10"} reach={"10"} specAtt={[["slow","slow"]]} />
-<Stats id="monster-golem_stone_golem--stats" atts={[28,9,0,0,11,1]} bab={14} cmb={24} cmd={33} />
-<Ecology id="monster-golem_stone_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",163]]} xp="12,800" n large construct init={-1} dv={60} llv pcp={0} />
+<Defense ac={[26,8,26]} mod="-1 Dex, +18 natural, -1 size" hp={[107,"14d10+30"]} fort="+4" ref="+3" will="+4" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={20} melee="2 slams +22 (2d10+9)" space={"10"} reach={"10"} specAtt={[["slow","slow"]]} />
+<Stats atts={[28,9,0,0,11,1]} bab={14} cmb={24} cmd={33} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Immunity to Magic (Ex)</strong> A stone golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p>
@@ -1168,14 +1172,15 @@ const _golem_stone_golem = {title: "Stone Golem", jsx: <><p><em>This towering st
 const _golem_viridium_golem = {title: "Viridium Golem", jsx: <><p><em>This green glass statue has four arms, one of which forms a jagged sword and another that ends in a formidable shield.</em></p>
 <Header full><span>Viridium Golem</span><span>CR 18</span></Header>
 <div className="reduce">
-<Info id="monster-golem_viridium_golem--info" source={[["Bestiary 6",143]]} xp="153,600" n huge construct init={5} dv={60} llv pcp={0} />
-<Defense id="monster-golem_viridium_golem--defense" ac={[33,13,28]} mod="+5 Dex, +20 natural, -2 size" hp={[222,"28d10+68"]} fort="+9" ref="+14" will="+9" dr="20/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense id="monster-golem_viridium_golem--offense" sp={30} melee="sword +38 (4d6+12/19-20 plus bleed and disease), shield +38 (4d6+12/&times;3 plus disease and stun), 2 slams +38 (2d6+12 plus disease)" space={"15"} reach={"15"} bleed="4d6" />
-<Stats id="monster-golem_viridium_golem--stats" atts={[35,20,0,0,11,1]} bab={28} cmb={42} cmd={57} feats={["Toughness"]} />
-<Ecology id="monster-golem_viridium_golem--eco-eco" env="any" org="solitary or plague (2-4)" treasure={{"X":false}} />
+<Info source={[["Bestiary 6",143]]} xp="153,600" n huge construct init={5} dv={60} llv pcp={0} />
+<Defense ac={[33,13,28]} mod="+5 Dex, +20 natural, -2 size" hp={[222,"28d10+68"]} fort="+9" ref="+14" will="+9" dr="20/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
+<Offense sp={30} melee="sword +38 (4d6+12/19-20 plus bleed and disease), shield +38 (4d6+12/&times;3 plus disease and stun), 2 slams +38 (2d6+12 plus disease)" space={"15"} reach={"15"} bleed="4d6" />
+<Stats atts={[35,20,0,0,11,1]} bab={28} cmb={42} cmd={57} feats={["Toughness"]} />
+<Ecology env="any" org="solitary or plague (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
-<div className="sideNoteWrap"><ScrollContainer id="monster-golem_viridium_golem--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={10} to="/rule/diseases"><IonIcon aria-label="Disease" icon="/icons/paramecia.svg" /></ThLink><th colSpan={4} scope="col" className="title">Viridium Leprosy</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Disease; injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 24</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/day</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d6 <Link to="/rule/con_damage">Con damage</Link> and 1d6 Cha damage</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>3 consecutive saves</td></tr><tr><td colSpan={4} className="extra">The save DC is Con-based.</td></tr></tbody></table></ScrollContainer></div><p><strong>Immunity to Magic (Ex)</strong> A viridium golem is immune to any spell or spell-like ability that allows spell resistance. Certain spells and effects function as noted below.</p>
+<AffInfo type="Disease; injury" save="Fort 24" freq="1/day" eff={<>1d6 <Link to="/rule/con_damage">Con damage</Link> and 1d6 Cha damage</>} cure3c extra={<>The save DC is Con-based.</>} icon="d">Viridium Leprosy</AffInfo>
+<p><strong>Immunity to Magic (Ex)</strong> A viridium golem is immune to any spell or spell-like ability that allows spell resistance. Certain spells and effects function as noted below.</p>
 <ul>
 <li>A <Link to="/spell/heal">heal</Link> spell deals 5 points of damage per caster level to a viridium golem, to a maximum of 75 points of damage. This damage bypasses the golem's damage reduction.</li>
 <li>A <Link to="/spell/remove_disease">remove disease</Link> spell staggers a viridium golem for 1 round (no save).</li>
@@ -1192,11 +1197,11 @@ const _golem_viridium_golem = {title: "Viridium Golem", jsx: <><p><em>This green
 const _golem_wax_golem = {title: "Wax Golem", jsx: <><p><em>This eerily expressionless woman has a glistening quality about her, as though she's covered in an oily sheen.</em></p>
 <Header full><span>Wax Golem</span><span>CR 3</span></Header>
 <div className="reduce">
-<Info id="monster-golem_wax_golem--info" source={[["Bestiary 4",133],["Pathfinder #47: Ashes at Dawn",90]]} xp="800" n medium construct init={-1} dv={60} llv pcp={0} />
-<Defense id="monster-golem_wax_golem--defense" ac={[15,9,15]} mod="-1 Dex, +6 natural" hp={[42,"4d10+20"]} fort="+1" ref="+0" will="+1" immune={<>cold, <Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
-<Offense id="monster-golem_wax_golem--offense" sp={30} melee="slam +6 (1d6+3)" />
-<Stats id="monster-golem_wax_golem--stats" atts={[14,9,0,0,11,1]} bab={4} cmb={6} cmd={15} sq="conditional sentience" />
-<Ecology id="monster-golem_wax_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Bestiary 4",133],["Pathfinder #47: Ashes at Dawn",90]]} xp="800" n medium construct init={-1} dv={60} llv pcp={0} />
+<Defense ac={[15,9,15]} mod="-1 Dex, +6 natural" hp={[42,"4d10+20"]} fort="+1" ref="+0" will="+1" immune={<>cold, <Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
+<Offense sp={30} melee="slam +6 (1d6+3)" />
+<Stats atts={[14,9,0,0,11,1]} bab={4} cmb={6} cmd={15} sq="conditional sentience" />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Conditional Sentience (Su)</strong> A wax golem constructed to look like a humanoid (whether a particular individual or not) has a small chance of gaining sentience and genuinely believing it is a living creature. Each week, such a wax golem has a cumulative 1% chance of becoming sentient (on the second week the chance is 2%, the third week 3%, and so on), to a maximum of 5%. If it does attain sentience, the golem gains an Intelligence score of 10, retroactive skill points, feats dependent on its Hit Dice, and 1 class level with the potential to gain more. If it was crafted to resemble a specific individual, it also gains a +10 racial bonus on Disguise checks made to impersonate that individual. A sentient wax golem ventures into the world and tries to live a life similar to that of the person (or type of person) it resembles. However, if the sentient wax golem ever encounters the person it is modeled after, it attempts to stealthily kill that person and take her place. The only way for a sentient wax golem to lose its sentience is either to take an amount of fire damage equal to half its hit points (which melts its features away) or to be destroyed.</p>
@@ -1216,11 +1221,11 @@ const _golem_wax_golem = {title: "Wax Golem", jsx: <><p><em>This eerily expressi
 const _golem_wood_golem = {title: "Wood Golem", jsx: <><p><em>This human-sized automaton resembles a crude humanoid figure made of cast-off pieces of wood.</em></p>
 <Header full><span>Wood Golem</span><span>CR 6</span></Header>
 <div className="reduce">
-<Info id="monster-golem_wood_golem--info" source={[["Pathfinder RPG Bestiary",164]]} xp="2,400" n medium construct init={3} dv={60} llv pcp={0} />
-<Defense id="monster-golem_wood_golem--defense" ac={[19,13,16]} mod="+3 Dex, +6 natural" hp={[64,"8d10+20"]} fort="+2" ref="+5" will="+5" dr="5/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
-<Offense id="monster-golem_wood_golem--offense" sp={30} melee="2 slams +12 (2d6+4)" specAtt={[["splintering","splintering"]]} />
-<Stats id="monster-golem_wood_golem--stats" atts={[18,17,0,0,17,1]} bab={8} cmb={12} cmd={25} />
-<Ecology id="monster-golem_wood_golem--eco-eco" env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",164]]} xp="2,400" n medium construct init={3} dv={60} llv pcp={0} />
+<Defense ac={[19,13,16]} mod="+3 Dex, +6 natural" hp={[64,"8d10+20"]} fort="+2" ref="+5" will="+5" dr="5/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
+<Offense sp={30} melee="2 slams +12 (2d6+4)" specAtt={[["splintering","splintering"]]} />
+<Stats atts={[18,17,0,0,17,1]} bab={8} cmb={12} cmd={25} />
+<Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Immunity to Magic (Ex)</strong> A wood golem is immune to any spell or spell-like ability that allows spell resistance, with the exception of spells and spell-like abilities that have the Fire descriptor, which affect it normally. In addition, certain spells and effects function differently against the creature, as noted below.</p>
@@ -1240,11 +1245,11 @@ const _golem_wood_golem = {title: "Wood Golem", jsx: <><p><em>This human-sized a
 const _hag_eye_ooze = {title: "Hag Eye Ooze", jsx: <><p><em>A single eye stares unblinking from an amorphous blob. A transparent pseudopod extends from the mass, ready to strike.</em></p>
 <Header full><span>Hag Eye Ooze</span><span>CR 3</span></Header>
 <div className="reduce">
-<Info id="monster-hag_eye_ooze--info" source={[["Pathfinder #72: The Witch Queen's Revenge",86],["Bestiary 5",140]]} xp="800" n small ooze init={-5} blindsight={60} pcp={-5} />
-<Defense id="monster-hag_eye_ooze--defense" ac={[6,6,6]} mod="-5 Dex, +1 size" hp={[34,"4d8+16"]} fort="+5" ref="-4" will="-4" immune={<>acid, cold, <Link to="/umr/ooze_traits">ooze traits</Link></>} resist="fire 5" />
-<Offense id="monster-hag_eye_ooze--offense" sp={20} cl={20} melee="slam +6 (1d4+3 plus paralysis)" specAtt={[["spell channel","spell channel"]]} paralysis="1d4 rounds, DC 16" />
-<Stats id="monster-hag_eye_ooze--stats" atts={[12,1,18,0,1,1]} bab={3} cmb={4} cmd={9} cmdP="can't be tripped" skills={{"climb":{"b":10}}} sq="suction, transparent" />
-<Ecology id="monster-hag_eye_ooze--eco-eco" env="temperate marshes or underground" org="solitary" treasure={{"X":false}} />
+<Info source={[["Pathfinder #72: The Witch Queen's Revenge",86],["Bestiary 5",140]]} xp="800" n small ooze init={-5} blindsight={60} pcp={-5} />
+<Defense ac={[6,6,6]} mod="-5 Dex, +1 size" hp={[34,"4d8+16"]} fort="+5" ref="-4" will="-4" immune={<>acid, cold, <Link to="/umr/ooze_traits">ooze traits</Link></>} resist="fire 5" />
+<Offense sp={20} cl={20} melee="slam +6 (1d4+3 plus paralysis)" specAtt={[["spell channel","spell channel"]]} paralysis="1d4 rounds, DC 16" />
+<Stats atts={[12,1,18,0,1,1]} bab={3} cmb={4} cmd={9} cmdP="can't be tripped" skills={{"climb":{"b":10}}} sq="suction, transparent" />
+<Ecology env="temperate marshes or underground" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Spell Channel (Su)</strong> A hag creator of a hag eye ooze can see through the embedded hag eye as if she were looking from the ooze directly. This ability requires that the hag creator and the hag eye ooze be on the same plane in order to function. If the hag that created the hag eye ooze is part of a coven, the following spells have a 5% chance per caster level of operating through a hag eye ooze: detect chaos, detect evil, detect good, detect law, detect magic, message, read magic, and tongues. A non-hag that controls a hag eye ooze can't cast spells through the ooze, nor can it see through the creature, but it can target the hag eye ooze with a clairaudience/clairvoyance spell and view through it in that manner.</p>
@@ -1260,11 +1265,11 @@ const _hag_eye_ooze = {title: "Hag Eye Ooze", jsx: <><p><em>A single eye stares 
 const _hag_eye_ooze_coven_ooze = {title: "Coven Ooze (Hag Eye Ooze)", jsx: <><p><em>This eerily disturbing gelatinous blob lumbers forward. Three disembodied eyes float within its mass, seemingly scanning back and forth with each surge of movement.</em></p>
 <Header full><span>Coven Ooze</span><span>CR 9</span></Header>
 <div className="reduce">
-<Info id="monster-hag_eye_ooze_coven_ooze--info" source={[["Pathfinder #72: The Witch Queen's Revenge",86]]} xp="6,400" n large ooze init={-5} blindsight={60} pcp={7} />
-<Defense id="monster-hag_eye_ooze_coven_ooze--defense" ac={[4,4,4]} mod="-5 Dex, -1 size" hp={[115,"11d8+66"]} fort="+9" ref="-2" will="-1" def={[["split","split"]]} immune={<>acid, cold, <Link to="/umr/ooze_traits">ooze traits</Link></>} resist="fire 10" />
-<Offense id="monster-hag_eye_ooze_coven_ooze--offense" sp={30} cl={20} melee="slam +11 (1d8+4/19-20)" space={"10"} reach={"10"} specAtt={[["absorb flesh","absorb flesh"],["hag eye ray","hag eye ray"]]} engulf="DC 18, 1d4 Con drain" />
-<Stats id="monster-hag_eye_ooze_coven_ooze--stats" atts={[16,1,22,2,3,1]} bab={8} cmb={12} cmd={17} cmdP="can't be tripped" feats={["Cleave","Great Cleave",["Improved Critical"," (slam)"],"Power Attack",["Skill Focus"," (Perception)"],["Weapon Focus"," (slam)"]]} skills={{"climb":{"b":12}}} sq="suction" />
-<Ecology id="monster-hag_eye_ooze_coven_ooze--eco-eco" env="temperate marshes or underground" org="solitary" treasure={{"X":false}} />
+<Info source={[["Pathfinder #72: The Witch Queen's Revenge",86]]} xp="6,400" n large ooze init={-5} blindsight={60} pcp={7} />
+<Defense ac={[4,4,4]} mod="-5 Dex, -1 size" hp={[115,"11d8+66"]} fort="+9" ref="-2" will="-1" def={[["split","split"]]} immune={<>acid, cold, <Link to="/umr/ooze_traits">ooze traits</Link></>} resist="fire 10" />
+<Offense sp={30} cl={20} melee="slam +11 (1d8+4/19-20)" space={"10"} reach={"10"} specAtt={[["absorb flesh","absorb flesh"],["hag eye ray","hag eye ray"]]} engulf="DC 18, 1d4 Con drain" />
+<Stats atts={[16,1,22,2,3,1]} bab={8} cmb={12} cmd={17} cmdP="can't be tripped" feats={["Cleave","Great Cleave",["Improved Critical"," (slam)"],"Power Attack",["Skill Focus"," (Perception)"],["Weapon Focus"," (slam)"]]} skills={{"climb":{"b":12}}} sq="suction" />
+<Ecology env="temperate marshes or underground" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Absorb Flesh (Ex)</strong> A coven ooze doesn't eat plants or inorganic matter, but devours living flesh with voracious speed, dealing 1d4 points of Constitution drain to creatures it engulfs. Whenever the ooze deals Constitution drain in this manner, it heals 10 hit points for each point of Constitution drained. Excess hit points above its normal maximum are gained as temporary hit points. A coven ooze can gain no more than 30 temporary hit points in this manner. If a coven ooze has temporary hit points when it splits, those temporary hit points are divided into its copies.</p>
@@ -1278,12 +1283,12 @@ const _hag_eye_ooze_coven_ooze = {title: "Coven Ooze (Hag Eye Ooze)", jsx: <><p>
 const _hag_annis_hag = {title: "Annis Hag", jsx: <><p><em>This repulsive, hunchbacked crone has skin the color of a fresh bruise. Despite her hunch, she looms taller than a human.</em></p>
 <Header full><span>Annis Hag</span><span>CR 6</span></Header>
 <div className="reduce">
-<Info id="monster-hag_annis_hag--info" source={[["Bestiary 3",16],["Bonus Bestiary",11]]} xp="2,400" ce large monstrousHumanoid init={1} dv={60} pcp={13} />
-<Defense id="monster-hag_annis_hag--defense" ac={[20,10,19]} mod="+1 Dex, +10 natural, -1 size" hp={[66,"7d10+28"]} fort="+8" ref="+6" will="+6" dr="5/bludgeoning" sr="17" />
-<Offense id="monster-hag_annis_hag--offense" sp={40} melee={<>bite +13 (1d6+7), 2 claws +13 (1d6+7 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} rend="2 claws, 2d6+10" />
-<SpellBlock id="monster-hag_annis_hag--spells-monster-spellblock-1" sla={{"cl":7,"con":"+7","content":[{"day":3,"content":<><Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/fog_cloud">fog cloud</Link></>}]}} />
-<Stats id="monster-hag_annis_hag--stats" atts={[25,12,18,13,13,10]} bab={7} cmb={15} cmbP="+19 grapple" cmd={26} feats={["Alertness","Blind-Fight","Great Fortitude","Intimidating Prowess"]} skills={{"bluff":{"b":7},"diplo":{"b":7},"sm":{"b":3},"stl":{"b":7}}} lang={["C","G"]} />
-<Ecology id="monster-hag_annis_hag--eco-eco" env="cold marshes" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
+<Info source={[["Bestiary 3",16],["Bonus Bestiary",11]]} xp="2,400" ce large monstrousHumanoid init={1} dv={60} pcp={13} />
+<Defense ac={[20,10,19]} mod="+1 Dex, +10 natural, -1 size" hp={[66,"7d10+28"]} fort="+8" ref="+6" will="+6" dr="5/bludgeoning" sr="17" />
+<Offense sp={40} melee={<>bite +13 (1d6+7), 2 claws +13 (1d6+7 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} rend="2 claws, 2d6+10" />
+<SpellBlock id="1" sla={{"cl":7,"con":"+7","content":[{"day":3,"content":<><Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/fog_cloud">fog cloud</Link></>}]}} />
+<Stats atts={[25,12,18,13,13,10]} bab={7} cmb={15} cmbP="+19 grapple" cmd={26} feats={["Alertness","Blind-Fight","Great Fortitude","Intimidating Prowess"]} skills={{"bluff":{"b":7},"diplo":{"b":7},"sm":{"b":3},"stl":{"b":7}}} lang={["C","G"]} />
+<Ecology env="cold marshes" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
 </div>
 <Header sub>Description</Header>
 <p>Also known as black hags or iron hags, annis hags are the largest and most physically intimidating of their foul brood. Known for their iron-hard, wart-covered skin that varies from shades of deep blue to black and their claws like rusty blades, annis hags forgo much of the cunning and deceptiveness of their kind to revel in the more visceral evils of torture and slaughter. The typical annis hag stands just over 8 feet tall and weighs upward of 300 pounds.</p>
@@ -1301,12 +1306,12 @@ const _hag_annis_hag = {title: "Annis Hag", jsx: <><p><em>This repulsive, hunchb
 const _hag_ash_hag = {title: "Ash Hag", jsx: <><p><em>This spindly, hunched crone's skin is a sickly gray color, as is her stringy hair, which is peppered with globs of what appear to be ashes.</em></p>
 <Header full><span>Ash Hag</span><span>CR 5</span></Header>
 <div className="reduce">
-<Info id="monster-hag_ash_hag--info" source={[["Cheliax, the Infernal Empire",57]]} xp="1,600" le medium monstrousHumanoid init={1} dv={60} pcp={14} />
-<Defense id="monster-hag_ash_hag--defense" ac={[17,11,16]} mod="+1 Dex, +6 natural" hp={[52,"7d10+14"]} fort="+4" ref="+6" will="+9" immune="fire" sr="16" />
-<Offense id="monster-hag_ash_hag--offense" sp={30} melee="bite +9 (1d6+2), 2 claws +9 (1d4+2)" specAtt={[["choke on cinders","choke on cinders"]]} />
-<SpellBlock id="monster-hag_ash_hag--spells-monster-spellblock-1" sla={{"cl":8,"con":"+11; save DCs are Int-based","content":[{"constant":true,"content":<><Link to="/spell/pass_without_trace">pass without trace</Link>, <Link to="/spell/tongues">tongues</Link></>},{"will":true,"content":<><Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/beguiling_gift">beguiling gift</Link> (DC 14), <Link to="/spell/burning_hands">burning hands</Link> (DC 14), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/infernal_healing">infernal healing</Link></>},{"day":3,"content":<><Link to="/spell/burning_gaze">burning gaze</Link> (DC 15), <Link to="/spell/feast_of_ashes">feast of ashes</Link> (DC 15), <Link to="/spell/inflict_moderate_wounds">inflict moderate wounds</Link> (DC 15), <Link to="/spell/invisibility">invisibility</Link> (self only)</>},{"day":1,"content":<><Link to="/spell/ash_storm">ash storm</Link>, <Link to="/spell/cup_of_dust">cup of dust</Link> (DC 16), <Link to="/spell/inflict_serious_wounds">inflict serious wounds</Link> (DC 17), <Link to="/spell/phantasmal_killer">phantasmal killer</Link> (DC 17)</>}]}} />
-<Stats id="monster-hag_ash_hag--stats" atts={[14,12,14,17,15,13]} bab={7} cmb={9} cmd={20} feats={["Alertness","Combat Casting","Deceitful","Iron Will"]} skills={{"bluff":{"b":6},"diplo":{"b":5},"dis":{"b":10},"sm":{"b":11},"spc":{"b":10},"stl":{"b":8,"x":"+12 in burned or ash-covered environments"}}} lang={["Ak","C","G",";",[<em>tongues</em>]]} sq="ash affinity" />
-<Ecology id="monster-hag_ash_hag--eco-eco" env="any urban or ruins" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
+<Info source={[["Cheliax, the Infernal Empire",57]]} xp="1,600" le medium monstrousHumanoid init={1} dv={60} pcp={14} />
+<Defense ac={[17,11,16]} mod="+1 Dex, +6 natural" hp={[52,"7d10+14"]} fort="+4" ref="+6" will="+9" immune="fire" sr="16" />
+<Offense sp={30} melee="bite +9 (1d6+2), 2 claws +9 (1d4+2)" specAtt={[["choke on cinders","choke on cinders"]]} />
+<SpellBlock id="1" sla={{"cl":8,"con":"+11; save DCs are Int-based","content":[{"constant":true,"content":<><Link to="/spell/pass_without_trace">pass without trace</Link>, <Link to="/spell/tongues">tongues</Link></>},{"will":true,"content":<><Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/beguiling_gift">beguiling gift</Link> (DC 14), <Link to="/spell/burning_hands">burning hands</Link> (DC 14), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/infernal_healing">infernal healing</Link></>},{"day":3,"content":<><Link to="/spell/burning_gaze">burning gaze</Link> (DC 15), <Link to="/spell/feast_of_ashes">feast of ashes</Link> (DC 15), <Link to="/spell/inflict_moderate_wounds">inflict moderate wounds</Link> (DC 15), <Link to="/spell/invisibility">invisibility</Link> (self only)</>},{"day":1,"content":<><Link to="/spell/ash_storm">ash storm</Link>, <Link to="/spell/cup_of_dust">cup of dust</Link> (DC 16), <Link to="/spell/inflict_serious_wounds">inflict serious wounds</Link> (DC 17), <Link to="/spell/phantasmal_killer">phantasmal killer</Link> (DC 17)</>}]}} />
+<Stats atts={[14,12,14,17,15,13]} bab={7} cmb={9} cmd={20} feats={["Alertness","Combat Casting","Deceitful","Iron Will"]} skills={{"bluff":{"b":6},"diplo":{"b":5},"dis":{"b":10},"sm":{"b":11},"spc":{"b":10},"stl":{"b":8,"x":"+12 in burned or ash-covered environments"}}} lang={["Ak","C","G",";",[<em>tongues</em>]]} sq="ash affinity" />
+<Ecology env="any urban or ruins" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Ash Affinity (Ex)</strong> When an ash hag is in a burned environment, such as a building that has been torched, it gains fast healing 2. An ash hag in a burned environment also receives a +4 racial bonus on Stealth checks.</p>
@@ -1326,12 +1331,12 @@ const _hag_ash_hag = {title: "Ash Hag", jsx: <><p><em>This spindly, hunched cron
 const _hag_blood_hag = {title: "Blood Hag", jsx: <><p><em>This woman would be pretty if it were not for her sharp teeth and nails, and her ghastly pale skin.</em></p>
 <Header full><span>Blood Hag</span><span>CR 8</span></Header>
 <div className="reduce">
-<Info id="monster-hag_blood_hag--info" source={[["Bestiary 4",19]]} xp="4,800" ne medium monstrousHumanoid subs={["shapechanger"]} init={10} senSpell={["detect good","detect magic"]} dv={60} pcp={18} />
-<Defense id="monster-hag_blood_hag--defense" ac={[23,17,16]} mod="+6 Dex, +1 dodge, +6 natural" hp={[90,"12d10+24"]} fort="+6" ref="+14" will="+11" dr="5/cold iron and magic" immune="charm, disease, fear, fire, sleep" sr="19" />
-<Offense id="monster-hag_blood_hag--offense" sp={30} fl={60} flP="perfect; in fiery form only" melee={<>bite +18 (2d4+4), 2 claws +18 (1d6+4 plus <Link to="/umr/grab">grab</Link>)</>} specAtt={[["detonate","detonate"]]} bDrain="1d2 Con" />
-<SpellBlock id="monster-hag_blood_hag--spells-monster-spellblock-1" sla={{"cl":12,"con":"+16","content":[{"constant":true,"content":<><Link to="/spell/detect_good">detect good</Link>, <Link to="/spell/detect_magic">detect magic</Link></>},{"will":true,"content":<><Link to="/spell/inflict_moderate_wounds">inflict moderate wounds</Link> (DC 16), <Link to="/spell/scorching_ray">scorching ray</Link>, <Link to="/spell/spider_climb">spider climb</Link> (self only)</>},{"day":3,"content":<><Link to="/spell/deep_slumber">deep slumber</Link> (DC 17)</>}]}} />
-<Stats id="monster-hag_blood_hag--stats" atts={[18,22,15,14,17,19]} bab={12} cmb={18} cmbP="+22 grapple" cmd={33} feats={["Agile Maneuvers","Combat Reflexes","Dodge","Improved Initiative","Mobility","Weapon Finesse"]} skills={{"acro":{"b":18},"bluff":{"b":16},"dis":{"b":16},"stl":{"b":21}}} lang={["A","C","G","I"]} sq="fiery form (DC 20), mask evil" />
-<Ecology id="monster-hag_blood_hag--eco-eco" env="any land" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
+<Info source={[["Bestiary 4",19]]} xp="4,800" ne medium monstrousHumanoid subs={["shapechanger"]} init={10} senSpell={["detect good","detect magic"]} dv={60} pcp={18} />
+<Defense ac={[23,17,16]} mod="+6 Dex, +1 dodge, +6 natural" hp={[90,"12d10+24"]} fort="+6" ref="+14" will="+11" dr="5/cold iron and magic" immune="charm, disease, fear, fire, sleep" sr="19" />
+<Offense sp={30} fl={60} flP="perfect; in fiery form only" melee={<>bite +18 (2d4+4), 2 claws +18 (1d6+4 plus <Link to="/umr/grab">grab</Link>)</>} specAtt={[["detonate","detonate"]]} bDrain="1d2 Con" />
+<SpellBlock id="1" sla={{"cl":12,"con":"+16","content":[{"constant":true,"content":<><Link to="/spell/detect_good">detect good</Link>, <Link to="/spell/detect_magic">detect magic</Link></>},{"will":true,"content":<><Link to="/spell/inflict_moderate_wounds">inflict moderate wounds</Link> (DC 16), <Link to="/spell/scorching_ray">scorching ray</Link>, <Link to="/spell/spider_climb">spider climb</Link> (self only)</>},{"day":3,"content":<><Link to="/spell/deep_slumber">deep slumber</Link> (DC 17)</>}]}} />
+<Stats atts={[18,22,15,14,17,19]} bab={12} cmb={18} cmbP="+22 grapple" cmd={33} feats={["Agile Maneuvers","Combat Reflexes","Dodge","Improved Initiative","Mobility","Weapon Finesse"]} skills={{"acro":{"b":18},"bluff":{"b":16},"dis":{"b":16},"stl":{"b":21}}} lang={["A","C","G","I"]} sq="fiery form (DC 20), mask evil" />
+<Ecology env="any land" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Detonate (Su)</strong> A blood hag in fiery form can explode in a 30-foot-radius burst that deals 8d6 points of fire damage (Reflex DC 18 for half). Using this ability returns a blood hag to her normal form. The save DC is Constitution-based.</p>
@@ -1354,13 +1359,13 @@ const _hag_blood_hag = {title: "Blood Hag", jsx: <><p><em>This woman would be pr
 const _hag_dreamthief_hag = {title: "Dreamthief Hag", jsx: <><p><em>This hideously gaunt woman has tangled white hair, goat-like horns, and menacing eyes that blaze with green light.</em></p>
 <Header full><span>Dreamthief Hag</span><span>CR 11</span></Header>
 <div className="reduce">
-<Info id="monster-hag_dreamthief_hag--info" source={[["Occult Bestiary",22]]} xp="12,800" ne medium outsider subs={["evil","extraplanar"]} init={6} senSpell={["see alignment"]} dv={60} pcp={20} />
-<Defense id="monster-hag_dreamthief_hag--defense" ac={[27,16,21]} mod="+6 Dex, +11 natural" hp={[149,"13d10+78"]} fort="+14" ref="+10" will="+12" dr="10/cold iron and magic" immune="cold, fire, mind-affecting effects" sr="26" />
-<Offense id="monster-hag_dreamthief_hag--offense" sp={30} fl={20} flP="clumsy" melee="bite +20 (2d10+6/19-20 plus mind block), 2 claws +14 (2d6+6)" specAtt={[["dream theft","dream theft"],["mind block","mind block"]]} />
-<SpellBlock id="monster-hag_dreamthief_hag--spells-monster-spellblock-1" sla={{"cl":10,"con":"+15","content":[{"constant":true,"content":<><Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/see_alignment">see alignment</Link></>},{"will":true,"content":<><Link to="/spell/deep_slumber">deep slumber</Link> (DC 18), <Link to="/spell/etherealness">etherealness</Link>, <Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/magic_missile">magic missile</Link></>}]}} />
-<SpellBlock id="monster-hag_dreamthief_hag--spells-monster-spellblock-2" psy={{"pe":15,"cl":10,"content":<><Link to="/spell/dream_council">dream council</Link> (5 PE, DC 20), <Link to="/spell/dream_scan">dream scan</Link> (5 PE, DC 20), <Link to="/spell/dream_travel">dream travel</Link> (6 PE)</>,"con":"+15"}} />
-<Stats id="monster-hag_dreamthief_hag--stats" atts={[23,23,22,20,18,21]} bab={13} cmb={19} cmd={35} feats={["Combat Casting","Deceitful","Flyby Attack",["Improved Critical"," (bite)"],"Mounted Combat","Trample",["Weapon Focus"," (bite)"]]} skills={{"bluff":{"b":25},"diplo":{"b":21},"fly":{"b":-2},"sm":{"b":20},"spc":{"b":18},"stl":{"b":22}}} lang={["A","Ak","Ce","C","I"]} sq={<><Link to="/umr/change_shape">change shape</Link> (any humanoid or cat; <Link to="/spell/alter_self">alter self</Link> or <Link to="/spell/beast_shape_ii">beast shape II</Link>), dreamstone</>} />
-<Ecology id="monster-hag_dreamthief_hag--eco-eco" env={<>any (<Link to="/rule/dimension_of_dreams">Dimension of Dreams</Link>)</>} org={<>solitary, mounted (1 plus 1 <Link to="/template/advanced">advanced</Link> <Link to="/monster/nightmare">nightmare</Link>), or coven (1 plus 2 hags of any type)</>} treasure={{"S":false}} />
+<Info source={[["Occult Bestiary",22]]} xp="12,800" ne medium outsider subs={["evil","extraplanar"]} init={6} senSpell={["see alignment"]} dv={60} pcp={20} />
+<Defense ac={[27,16,21]} mod="+6 Dex, +11 natural" hp={[149,"13d10+78"]} fort="+14" ref="+10" will="+12" dr="10/cold iron and magic" immune="cold, fire, mind-affecting effects" sr="26" />
+<Offense sp={30} fl={20} flP="clumsy" melee="bite +20 (2d10+6/19-20 plus mind block), 2 claws +14 (2d6+6)" specAtt={[["dream theft","dream theft"],["mind block","mind block"]]} />
+<SpellBlock id="1" sla={{"cl":10,"con":"+15","content":[{"constant":true,"content":<><Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/see_alignment">see alignment</Link></>},{"will":true,"content":<><Link to="/spell/deep_slumber">deep slumber</Link> (DC 18), <Link to="/spell/etherealness">etherealness</Link>, <Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/magic_missile">magic missile</Link></>}]}} />
+<SpellBlock id="2" psy={{"pe":15,"cl":10,"content":<><Link to="/spell/dream_council">dream council</Link> (5 PE, DC 20), <Link to="/spell/dream_scan">dream scan</Link> (5 PE, DC 20), <Link to="/spell/dream_travel">dream travel</Link> (6 PE)</>,"con":"+15"}} />
+<Stats atts={[23,23,22,20,18,21]} bab={13} cmb={19} cmd={35} feats={["Combat Casting","Deceitful","Flyby Attack",["Improved Critical"," (bite)"],"Mounted Combat","Trample",["Weapon Focus"," (bite)"]]} skills={{"bluff":{"b":25},"diplo":{"b":21},"fly":{"b":-2},"sm":{"b":20},"spc":{"b":18},"stl":{"b":22}}} lang={["A","Ak","Ce","C","I"]} sq={<><Link to="/umr/change_shape">change shape</Link> (any humanoid or cat; <Link to="/spell/alter_self">alter self</Link> or <Link to="/spell/beast_shape_ii">beast shape II</Link>), dreamstone</>} />
+<Ecology env={<>any (<Link to="/rule/dimension_of_dreams">Dimension of Dreams</Link>)</>} org={<>solitary, mounted (1 plus 1 <Link to="/template/advanced">advanced</Link> <Link to="/monster/nightmare">nightmare</Link>), or coven (1 plus 2 hags of any type)</>} treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Dream Theft (Su)</strong> While in the same space as a dreaming creature, or when touching the boundary of a dreamscape, the hag can force the dreaming creature into a lucid body and enter its dreamscape-this is a full-round action that provokes attacks of opportunity. If the hag deals enough damage to kill the lucid body (despite the dreamer's ability to perform impossible deeds), instead of the dreamer waking up harmlessly, the hag can trap the creature's dreaming mind in her dreamstone (see below), causing its body to remain in a mindless coma indefinitely (even magic like miracle and wish can at best transport the caster to the location of the trapped mind).</p>
@@ -1380,12 +1385,12 @@ const _hag_dreamthief_hag = {title: "Dreamthief Hag", jsx: <><p><em>This hideous
 const _hag_green_hag = {title: "Green Hag", jsx: <><p><em>Knots of dark, moldering hair spill over the features of this sickly, thin, green-skinned crone.</em></p>
 <Header full><span>Green Hag</span><span>CR 5</span></Header>
 <div className="reduce">
-<Info id="monster-hag_green_hag--info" source={[["Pathfinder RPG Bestiary",167]]} xp="1,600" ce medium monstrousHumanoid init={1} dv={90} pcp={15} />
-<Defense id="monster-hag_green_hag--defense" ac={[19,11,18]} mod="+1 Dex, +8 natural" hp={[58,"9d10+9"]} fort="+6" ref="+7" will="+7" sr="16" />
-<Offense id="monster-hag_green_hag--offense" sp={30} sw={30} melee="2 claws +13 (1d4+4 plus weakness)" />
-<SpellBlock id="monster-hag_green_hag--spells-monster-spellblock-1" sla={{"cl":9,"content":[{"constant":true,"content":<><Link to="/spell/pass_without_trace">pass without trace</Link>, <Link to="/spell/tongues">tongues</Link>, <Link to="/spell/water_breathing">water breathing</Link></>},{"will":true,"content":<><Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/ghost_sound">ghost sound</Link> (DC 12), <Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/pyrotechnics">pyrotechnics</Link> (DC 14), <Link to="/spell/tree_shape">tree shape</Link>, <Link to="/spell/whispering_wind">whispering wind</Link></>}]}} />
-<Stats id="monster-hag_green_hag--stats" atts={[19,12,12,15,13,14]} bab={9} cmb={13} cmd={24} feats={["Alertness","Blind-Fight","Combat Casting","Deceitful","Great Fortitude"]} skills={{"bluff":{"b":13},"dis":{"b":13},"sm":{"b":9},"stl":{"b":13},"swim":{"b":18}}} lang={["Ak","C","G"]} sq="mimicry" />
-<Ecology id="monster-hag_green_hag--eco-eco" env="temperate marshes" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
+<Info source={[["Pathfinder RPG Bestiary",167]]} xp="1,600" ce medium monstrousHumanoid init={1} dv={90} pcp={15} />
+<Defense ac={[19,11,18]} mod="+1 Dex, +8 natural" hp={[58,"9d10+9"]} fort="+6" ref="+7" will="+7" sr="16" />
+<Offense sp={30} sw={30} melee="2 claws +13 (1d4+4 plus weakness)" />
+<SpellBlock id="1" sla={{"cl":9,"content":[{"constant":true,"content":<><Link to="/spell/pass_without_trace">pass without trace</Link>, <Link to="/spell/tongues">tongues</Link>, <Link to="/spell/water_breathing">water breathing</Link></>},{"will":true,"content":<><Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/ghost_sound">ghost sound</Link> (DC 12), <Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/pyrotechnics">pyrotechnics</Link> (DC 14), <Link to="/spell/tree_shape">tree shape</Link>, <Link to="/spell/whispering_wind">whispering wind</Link></>}]}} />
+<Stats atts={[19,12,12,15,13,14]} bab={9} cmb={13} cmd={24} feats={["Alertness","Blind-Fight","Combat Casting","Deceitful","Great Fortitude"]} skills={{"bluff":{"b":13},"dis":{"b":13},"sm":{"b":9},"stl":{"b":13},"swim":{"b":18}}} lang={["Ak","C","G"]} sq="mimicry" />
+<Ecology env="temperate marshes" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Weakness (Su)</strong> A green hag's claws sap strength from those she strikes. Each time a green hag hits a foe with her claw attack, the victim takes 2 points of Strength damage unless he resists the weakness with a DC 16 Fortitude save. Alternatively, a green hag can attempt to inflict even greater weakness on a foe by making a touch attack-this variant requires a standard action, and cannot be attempted in the same round the hag makes claw attacks. The opponent touched must succeed on a DC 16 Fortitude save or take 2d4 points of Strength damage. The save DC is Charisma-based.</p>
@@ -1409,16 +1414,17 @@ const _hag_green_hag = {title: "Green Hag", jsx: <><p><em>Knots of dark, molderi
 const _hag_moon_hag = {title: "Moon Hag", jsx: <><p><em>The flesh of this withered woman's face stretches tightly over her skull, with one red eye bulging fat in its socket.</em></p>
 <Header full><span>Moon Hag</span><span>CR 7</span></Header>
 <div className="reduce">
-<Info id="monster-hag_moon_hag--info" source={[["Planar Adventures",242]]} xp="3,200" ce medium monstrousHumanoid subs={["extraplanar"]} init={5} dv={60} pcp={17} />
-<Defense id="monster-hag_moon_hag--defense" ac={[20,15,19]} mod="+1 Dex, +4 insight, +5 natural" hp={[85,"9d10+36"]} fort="+9" ref="+7" will="+9" def={[["lunatic insight","lunatic insight"]]} ferocity immune="confusion, fear, insanity" sr="18" />
-<Offense id="monster-hag_moon_hag--offense" sp={30} melee="bite +14 (1d6+5), 2 claws +14 (1d6+5)" specAtt={[["dreadful ravings","dreadful ravings"]]} rend="2 claws, 1d6+3+7" />
-<SpellBlock id="monster-hag_moon_hag--spells-monster-spellblock-1" sla={{"cl":7,"con":"+11","content":[{"will":true,"content":<><Link to="/spell/augury">augury</Link>, <Link to="/spell/deathwatch">deathwatch</Link>, <Link to="/spell/doom">doom</Link> (DC 15)</>},{"day":3,"content":<><Link to="/spell/death_knell">death knell</Link> (DC 16), <Link to="/spell/rage">rage</Link>, <Link to="/spell/speak_with_dead">speak with dead</Link> (DC 17)</>},{"day":1,"content":<><Link to="/spell/bestow_curse">bestow curse</Link> (DC 18), <Link to="/spell/confusion">confusion</Link> (DC 18), <Link to="/spell/divination">divination</Link>, <Link to="/spell/fear">fear</Link> (DC 18), <Link to="/spell/tongues">tongues</Link></>}]}} />
-<Stats id="monster-hag_moon_hag--stats" atts={[20,12,19,14,17,19]} bab={9} cmb={14} cmd={29} feats={["Alertness","Combat Casting","Great Fortitude","Power Attack",["Skill Focus"," (Intimidate)"]]} skills={{"intm":{"b":19},"k":{"p":11},"per":{"b":17},"sm":{"b":14},"spc":{"b":11}}} lang={["Ak","C"]} />
-<Ecology id="monster-hag_moon_hag--eco-eco" env={<>any (<Link to="/rule/boneyard">Boneyard</Link>)</>} org="solitary or coven (three hags of any kind)" treasure={{"S":false}} />
+<Info source={[["Planar Adventures",242]]} xp="3,200" ce medium monstrousHumanoid subs={["extraplanar"]} init={5} dv={60} pcp={17} />
+<Defense ac={[20,15,19]} mod="+1 Dex, +4 insight, +5 natural" hp={[85,"9d10+36"]} fort="+9" ref="+7" will="+9" def={[["lunatic insight","lunatic insight"]]} ferocity immune="confusion, fear, insanity" sr="18" />
+<Offense sp={30} melee="bite +14 (1d6+5), 2 claws +14 (1d6+5)" specAtt={[["dreadful ravings","dreadful ravings"]]} rend="2 claws, 1d6+3+7" />
+<SpellBlock id="1" sla={{"cl":7,"con":"+11","content":[{"will":true,"content":<><Link to="/spell/augury">augury</Link>, <Link to="/spell/deathwatch">deathwatch</Link>, <Link to="/spell/doom">doom</Link> (DC 15)</>},{"day":3,"content":<><Link to="/spell/death_knell">death knell</Link> (DC 16), <Link to="/spell/rage">rage</Link>, <Link to="/spell/speak_with_dead">speak with dead</Link> (DC 17)</>},{"day":1,"content":<><Link to="/spell/bestow_curse">bestow curse</Link> (DC 18), <Link to="/spell/confusion">confusion</Link> (DC 18), <Link to="/spell/divination">divination</Link>, <Link to="/spell/fear">fear</Link> (DC 18), <Link to="/spell/tongues">tongues</Link></>}]}} />
+<Stats atts={[20,12,19,14,17,19]} bab={9} cmb={14} cmd={29} feats={["Alertness","Combat Casting","Great Fortitude","Power Attack",["Skill Focus"," (Intimidate)"]]} skills={{"intm":{"b":19},"k":{"p":11},"per":{"b":17},"sm":{"b":14},"spc":{"b":11}}} lang={["Ak","C"]} />
+<Ecology env={<>any (<Link to="/rule/boneyard">Boneyard</Link>)</>} org="solitary or coven (three hags of any kind)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Dreadful Ravings (Su)</strong> Three times per day as a standard action, the moon hag can howl a litany of dreadful prognostications at a creature within 30 feet. The predictions afflict the victim, gnawing away at its sanity. This is a language-dependent curse effect; if a moon (including Groetus) is visible to the victim, it takes a -2 penalty on the save against the effect.</p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-hag_moon_hag--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={10} to="/rule/curses"><IonIcon aria-label="Curse" icon="/icons/death-note.svg" /></ThLink><th colSpan={4} scope="col" className="title">Dreadful Ravings</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Curse</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Will 18</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d3 <Link to="/rule/wis_damage">Wis damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 consecutive saves</td></tr><tr><td colSpan={4} className="extra">The save DC is Cha-based.</td></tr></tbody></table></ScrollContainer></div><p><strong>Lunatic Insight (Su)</strong> A moon hag adds her Charisma modifier as an insight bonus to AC and on initiative checks. These bonuses increase by 2 when a moon (including Groetus) is visible above (this increase is not included in the statistics above).</p>
+<AffInfo type="Curse" save="Will 18" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/wis_damage">Wis damage</Link></>} cure2c extra={<>The save DC is Cha-based.</>} icon="c">Dreadful Ravings</AffInfo>
+<p><strong>Lunatic Insight (Su)</strong> A moon hag adds her Charisma modifier as an insight bonus to AC and on initiative checks. These bonuses increase by 2 when a moon (including Groetus) is visible above (this increase is not included in the statistics above).</p>
 <Header sub>Description</Header>
 <p>Moon hags are foul prophets that haunt the Boneyard's endless tombs, serving Groetus, the skull-faced moon hanging eternally above. These lurid hags almost universally worship Groetus, and many claim to be mouthpieces for this god of oblivion.</p>
 <p>Moon hags are extremely knowledgeable about the secret paths and portals of the Boneyard, and they often use this knowledge to journey to the Material Plane for sinister purposes. Most moon hags use this opportunity to birth and abandon changelings, seeing even their wayward daughters as agents of Groetus's will.</p>
@@ -1433,12 +1439,12 @@ const _hag_moon_hag = {title: "Moon Hag", jsx: <><p><em>The flesh of this wither
 const _hag_mute_hag = {title: "Mute Hag", jsx: <><p><em>Empty eye sockets and jagged teeth punctuate the palpable hate that roils off this twisted, gray-skinned crone.</em></p>
 <Header full><span>Mute Hag</span><span>CR 11</span></Header>
 <div className="reduce">
-<Info id="monster-hag_mute_hag--info" source={[["The Harrowing",31]]} xp="12,800" ce medium monstrousHumanoid subs={["cold"]} init={5} scent blindsight={60} pcp={21} />
-<Defense id="monster-hag_mute_hag--defense" ac={[24,15,19]} mod="+5 Dex, +9 natural" hp={[175,"14d10+84"]} fort="+12" ref="+14" will="+13" dr="10/cold iron and magic" immune="cold, acid, charm, fear, gaze attacks, sleep" sr="22" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
-<Offense id="monster-hag_mute_hag--offense" sp={30} melee="2 claws +20 (1d6+6 plus 1d4 bleed), bite +20 (1d6+6)" specAtt={[["shaping touch","shaping touch"]]} />
-<SpellBlock id="monster-hag_mute_hag--spells-monster-spellblock-1" sla={{"cl":14,"con":"+18","content":[{"constant":true,"content":<><Link to="/spell/detect_good">detect good</Link>, <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/detect_thoughts">detect thoughts</Link> (DC 16)</>},{"will":true,"content":<><Link to="/spell/contagion">contagion</Link> (DC 17), <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/spell/diminish_plants">diminish plants</Link>, <Link to="/spell/inflict_light_wounds">inflict light wounds</Link> (DC 15), <Link to="/spell/invisibility">invisibility</Link> (self only), <Link to="/spell/minor_creation">minor creation</Link>, <Link to="/spell/poison">poison</Link> (DC 17)</>},{"day":3,"content":<><Link to="/spell/bestow_curse">bestow curse</Link> (DC 17), <Link to="/spell/blindness_deafness">blindness/deafness</Link> (DC 16), <Link to="/feat/empowered">empowered</Link> <em>cone of cold</em> (DC 19), <Link to="/spell/crushing_despair">crushing despair</Link> (DC 17), <Link to="/spell/silence">silence</Link> (DC 16)</>},{"day":1,"content":<Link to="/spell/control_weather">control weather</Link>}]}} />
-<Stats id="monster-hag_mute_hag--stats" atts={[23,21,22,20,19,18]} bab={14} cmb={20} cmd={35} feats={["Alertness","Blind-Fight","Combat Casting",["Empower Spell-Like Ability"," (cone of cold)"],"Great Fortitude","Persuasive","Toughness"]} skills={{"bluff":{"b":14},"craft":{"of":"leather","b":16},"diplo":{"b":18},"sm":{"b":18},"soh":{"b":12},"spc":{"b":16},"stl":{"b":18}}} lang={["Ak","C","D","G","Gb","SX"]} sq={<>blind and mute, <Link to="/umr/change_shape">change shape</Link> (any humanoid; <Link to="/spell/alter_self">alter self</Link>)</>} />
-<Ecology id="monster-hag_mute_hag--eco-eco" env="cold plains, forests, and marshes" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
+<Info source={[["The Harrowing",31]]} xp="12,800" ce medium monstrousHumanoid subs={["cold"]} init={5} scent blindsight={60} pcp={21} />
+<Defense ac={[24,15,19]} mod="+5 Dex, +9 natural" hp={[175,"14d10+84"]} fort="+12" ref="+14" will="+13" dr="10/cold iron and magic" immune="cold, acid, charm, fear, gaze attacks, sleep" sr="22" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
+<Offense sp={30} melee="2 claws +20 (1d6+6 plus 1d4 bleed), bite +20 (1d6+6)" specAtt={[["shaping touch","shaping touch"]]} />
+<SpellBlock id="1" sla={{"cl":14,"con":"+18","content":[{"constant":true,"content":<><Link to="/spell/detect_good">detect good</Link>, <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/detect_thoughts">detect thoughts</Link> (DC 16)</>},{"will":true,"content":<><Link to="/spell/contagion">contagion</Link> (DC 17), <Link to="/spell/cure_light_wounds">cure light wounds</Link>, <Link to="/spell/diminish_plants">diminish plants</Link>, <Link to="/spell/inflict_light_wounds">inflict light wounds</Link> (DC 15), <Link to="/spell/invisibility">invisibility</Link> (self only), <Link to="/spell/minor_creation">minor creation</Link>, <Link to="/spell/poison">poison</Link> (DC 17)</>},{"day":3,"content":<><Link to="/spell/bestow_curse">bestow curse</Link> (DC 17), <Link to="/spell/blindness_deafness">blindness/deafness</Link> (DC 16), <Link to="/feat/empowered">empowered</Link> <em>cone of cold</em> (DC 19), <Link to="/spell/crushing_despair">crushing despair</Link> (DC 17), <Link to="/spell/silence">silence</Link> (DC 16)</>},{"day":1,"content":<Link to="/spell/control_weather">control weather</Link>}]}} />
+<Stats atts={[23,21,22,20,19,18]} bab={14} cmb={20} cmd={35} feats={["Alertness","Blind-Fight","Combat Casting",["Empower Spell-Like Ability"," (cone of cold)"],"Great Fortitude","Persuasive","Toughness"]} skills={{"bluff":{"b":14},"craft":{"of":"leather","b":16},"diplo":{"b":18},"sm":{"b":18},"soh":{"b":12},"spc":{"b":16},"stl":{"b":18}}} lang={["Ak","C","D","G","Gb","SX"]} sq={<>blind and mute, <Link to="/umr/change_shape">change shape</Link> (any humanoid; <Link to="/spell/alter_self">alter self</Link>)</>} />
+<Ecology env="cold plains, forests, and marshes" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Blind and Mute (Ex)</strong> Mute hags tear out their eyes and tongues, leaving them blind to life's joys and incapable of sharing their sorrow. A mute hag is immune to gaze attacks, and cannot use spell completion or command word trigger magic items.</p>
@@ -1457,12 +1463,12 @@ const _hag_mute_hag = {title: "Mute Hag", jsx: <><p><em>Empty eye sockets and ja
 const _hag_night_hag = {title: "Night Hag", jsx: <><p><em>Grisly fetishes and the rags of once fine clothes hang off the corpse-thin frame of this horrifying, sharp-fanged crone.</em></p>
 <Header full><span>Night Hag</span><span>CR 9</span></Header>
 <div className="reduce">
-<Info id="monster-hag_night_hag--info" source={[["Pathfinder RPG Bestiary",215]]} xp="6,400" ne medium outsider subs={["evil","extraplanar"]} init={4} dv={60} pcp={16} />
-<Defense id="monster-hag_night_hag--defense" ac={[25,14,21]} mod="+4 Dex, +11 natural" hp={[92,"8d10+48"]} fort="+14" ref="+8" will="+11" dr="10/cold iron and magic" immune="charm, cold, fear, fire, sleep" sr="24" />
-<Offense id="monster-hag_night_hag--offense" sp={30} melee="2 claws +13 (1d4+5), bite +13 (2d6+5 plus disease)" specAtt={[["dream haunting","dream haunting"]]} />
-<SpellBlock id="monster-hag_night_hag--spells-monster-spellblock-1" sla={{"cl":8,"content":[{"constant":true,"content":<><Link to="/spell/detect_chaos">detect chaos</Link>, <Link to="/spell/detect_evil">detect evil</Link>, <Link to="/spell/detect_good">detect good</Link>, <Link to="/spell/detect_law">detect law</Link>, <Link to="/spell/detect_magic">detect magic</Link></>},{"will":true,"content":<><Link to="/spell/etherealness">etherealness</Link> (with heartstone), <Link to="/spell/soul_bind">soul bind</Link> (with heartstone)</>}]}} />
-<Stats id="monster-hag_night_hag--stats" atts={[21,19,22,18,16,17]} bab={8} cmb={13} cmd={27} feats={["Alertness","Combat Casting","Deceitful","Mounted Combat"]} skills={{"bluff":{"b":16},"diplo":{"b":11},"dis":{"b":16},"ride":{"b":15},"sm":{"b":16},"spc":{"b":15}}} lang={["A","Ce","C","I"]} sq={<><Link to="/umr/change_shape">change shape</Link> (any humanoid; <Link to="/spell/alter_self">alter self</Link>), heartstone</>} />
-<Ecology id="monster-hag_night_hag--eco-eco" env="any evil-aligned plane" org={<>solitary, mounted (1 and 1 <Link to="/monster/nightmare">nightmare</Link>), or coven (3 hags of any type)</>} treasure={{"S":false}} />
+<Info source={[["Pathfinder RPG Bestiary",215]]} xp="6,400" ne medium outsider subs={["evil","extraplanar"]} init={4} dv={60} pcp={16} />
+<Defense ac={[25,14,21]} mod="+4 Dex, +11 natural" hp={[92,"8d10+48"]} fort="+14" ref="+8" will="+11" dr="10/cold iron and magic" immune="charm, cold, fear, fire, sleep" sr="24" />
+<Offense sp={30} melee="2 claws +13 (1d4+5), bite +13 (2d6+5 plus disease)" specAtt={[["dream haunting","dream haunting"]]} />
+<SpellBlock id="1" sla={{"cl":8,"content":[{"constant":true,"content":<><Link to="/spell/detect_chaos">detect chaos</Link>, <Link to="/spell/detect_evil">detect evil</Link>, <Link to="/spell/detect_good">detect good</Link>, <Link to="/spell/detect_law">detect law</Link>, <Link to="/spell/detect_magic">detect magic</Link></>},{"will":true,"content":<><Link to="/spell/etherealness">etherealness</Link> (with heartstone), <Link to="/spell/soul_bind">soul bind</Link> (with heartstone)</>}]}} />
+<Stats atts={[21,19,22,18,16,17]} bab={8} cmb={13} cmd={27} feats={["Alertness","Combat Casting","Deceitful","Mounted Combat"]} skills={{"bluff":{"b":16},"diplo":{"b":11},"dis":{"b":16},"ride":{"b":15},"sm":{"b":16},"spc":{"b":15}}} lang={["A","Ce","C","I"]} sq={<><Link to="/umr/change_shape">change shape</Link> (any humanoid; <Link to="/spell/alter_self">alter self</Link>), heartstone</>} />
+<Ecology env="any evil-aligned plane" org={<>solitary, mounted (1 and 1 <Link to="/monster/nightmare">nightmare</Link>), or coven (3 hags of any type)</>} treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Disease (Su)</strong> <Link to="/disease/demon_fever">Demon Fever</Link>, but the onset is immediate, and the Fort DC is 20. The save DC is Con-based.</p>
@@ -1481,15 +1487,16 @@ const _hag_night_hag = {title: "Night Hag", jsx: <><p><em>Grisly fetishes and th
 const _hag_sea_hag = {title: "Sea Hag", jsx: <><p><em>Hair like rotting seaweed drapes this ancient witch. Loose, algae-colored skin sags off her starved frame.</em></p>
 <Header full><span>Sea Hag</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info id="monster-hag_sea_hag--info" source={[["Pathfinder RPG Bestiary",243]]} xp="1,200" ce medium monstrousHumanoid subs={["aquatic"]} init={3} dv={60} pcp={11} aura={"horrific appearance (60 ft.)"} />
-<Defense id="monster-hag_sea_hag--defense" ac={[16,13,13]} mod="+3 Dex, +3 natural" hp={[38,"4d10+16"]} fort="+5" ref="+7" will="+5" sr="15" />
-<Offense id="monster-hag_sea_hag--offense" sp={30} sw={40} melee="2 claws +8 (1d6+4)" specAtt={[["evil eye","evil eye"]]} />
-<Stats id="monster-hag_sea_hag--stats" atts={[19,16,18,12,13,15]} bab={4} cmb={8} cmd={21} feats={[["Skill Focus"," (Bluff, Perception)"]]} skills={{"bluff":{"b":9},"k":{"of":"any one","b":5},"per":{"b":11},"stl":{"b":10},"swim":{"b":19}}} lang={["C","G"]} sq={<Link to="/umr/amphibious">amphibious</Link>} />
-<Ecology id="monster-hag_sea_hag--eco-eco" env="any aquatic" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
+<Info source={[["Pathfinder RPG Bestiary",243]]} xp="1,200" ce medium monstrousHumanoid subs={["aquatic"]} init={3} dv={60} pcp={11} aura={"horrific appearance (60 ft.)"} />
+<Defense ac={[16,13,13]} mod="+3 Dex, +3 natural" hp={[38,"4d10+16"]} fort="+5" ref="+7" will="+5" sr="15" />
+<Offense sp={30} sw={40} melee="2 claws +8 (1d6+4)" specAtt={[["evil eye","evil eye"]]} />
+<Stats atts={[19,16,18,12,13,15]} bab={4} cmb={8} cmd={21} feats={[["Skill Focus"," (Bluff, Perception)"]]} skills={{"bluff":{"b":9},"k":{"of":"any one","b":5},"per":{"b":11},"stl":{"b":10},"swim":{"b":19}}} lang={["C","G"]} sq={<Link to="/umr/amphibious">amphibious</Link>} />
+<Ecology env="any aquatic" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Evil Eye (Su)</strong> Three times per day, a sea hag can cast her dire gaze upon any single creature within 30 feet. The target must succeed on a DC 14 Will save or be staggered as strange nebulous distress and a gnawing sense of impending doom plagues the victim. If a sea hag uses her evil eye on someone already afflicted by this curse, the victim must make a DC 14 Fortitude save or be overwhelmed with fright and collapse into a comatose state for 3 days. Each day that passes, the comatose victim must make a DC 14 Fortitude save or perish. The evil eye is a mind-affecting fear effect. The save DCs are Charisma-based.</p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-hag_sea_hag--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/curses"><IonIcon aria-label="Curse" icon="/icons/death-note.svg" /></ThLink><th colSpan={4} scope="col" className="title">Evil Eye Curse</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Gaze-failed save</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Will 14</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/day</td></tr><tr><th scope="row">Effect</th><td colSpan={3}><Link to="/misc/staggered">staggered</Link> (or fall comatose if already under the effects of the evil eye)</td></tr></tbody></table></ScrollContainer></div><p><strong>Horrific Appearance (Su)</strong> The sight of a sea hag is so revolting that anyone within 60 feet (other than another hag) who sets eyes upon one must succeed on a DC 14 Fortitude save or instantly be weakened, taking 1d6 points of Strength damage. Creatures that are affected by this power or that successfully save against it cannot be affected again by the same hag's horrific appearance for 24 hours. This is a mind-affecting effect. The save DC is Charisma-based.</p>
+<AffInfo type="Gaze-failed save" save="Will 14" freq="1/day" eff={<><Link to="/misc/staggered">staggered</Link> (or fall comatose if already under the effects of the evil eye)</>} undefined icon="c">Evil Eye Curse</AffInfo>
+<p><strong>Horrific Appearance (Su)</strong> The sight of a sea hag is so revolting that anyone within 60 feet (other than another hag) who sets eyes upon one must succeed on a DC 14 Fortitude save or instantly be weakened, taking 1d6 points of Strength damage. Creatures that are affected by this power or that successfully save against it cannot be affected again by the same hag's horrific appearance for 24 hours. This is a mind-affecting effect. The save DC is Charisma-based.</p>
 <Header sub>Description</Header>
 <p>Monstrous sea witches, these wicked hags possess terrifying features that few dare look upon. Reveling in discord, the foul creatures drag sailors to watery graves and torment the peoples of the oceans with wicked promises. Sea hags are always terrible to look upon, and despite their gluttonous ways, they are usually emaciated creatures who look half-starved. Most stand about 6 feet tall and weigh 150 pounds.</p>
 <p>Sea hags prefer to dwell relatively close to shore where fishermen and trading vessels are more commonly encountered. Most choose to live far from urban areas so that their acts don't draw as much attention from would-be enemies, but it's not uncommon for a particularly brave or eager sea hag to settle in a city harbor or in the mouth of a deep river.</p>
@@ -1505,12 +1512,12 @@ const _hag_sea_hag = {title: "Sea Hag", jsx: <><p><em>Hair like rotting seaweed 
 const _hag_storm_hag = {title: "Storm Hag", jsx: <><p><em>This hag's hair, claws, and teeth crackle with sparks of electricity. Her windswept hair billows up from her brow like a thunderhead.</em></p>
 <Header full><span>Storm Hag</span><span>CR 7</span></Header>
 <div className="reduce">
-<Info id="monster-hag_storm_hag--info" source={[["Bestiary 5",235],["Pathfinder #72: The Witch Queen's Revenge",90]]} xp="3,200" ce medium monstrousHumanoid init={2} sen={["child-scent"]} dv={60} pcp={14} />
-<Defense id="monster-hag_storm_hag--defense" ac={[21,13,18]} mod="+2 Dex, +1 dodge, +8 natural" hp={[85,"10d10+30"]} fort="+6" ref="+9" will="+8" immune="electricity" sr="18" />
-<Offense id="monster-hag_storm_hag--offense" sp={30} fl={60} flP="good" melee="bite +13 (1d6+3 plus 1d6 electricity), 2 claws +13 (1d4+3 plus 1d6 electricity)" specAtt={[["storm strike","storm strike"],["whipping winds","whipping winds"]]} />
-<SpellBlock id="monster-hag_storm_hag--spells-monster-spellblock-1" sla={{"cl":10,"con":"+13","content":[{"will":true,"content":<><Link to="/spell/bleed">bleed</Link>, <Link to="/spell/gust_of_wind">gust of wind</Link> (DC 15), <Link to="/spell/whispering_wind">whispering wind</Link></>},{"day":3,"content":<><Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/lightning_bolt">lightning bolt</Link> (DC 16), <Link to="/spell/river_of_wind">river of wind</Link> (DC 17), <Link to="/spell/sleet_storm">sleet storm</Link></>},{"day":1,"content":<><Link to="/spell/control_winds">control winds</Link> (DC 18)</>}]}} />
-<Stats id="monster-hag_storm_hag--stats" atts={[17,14,16,13,13,16]} bab={10} cmb={13} cmd={26} feats={["Combat Casting","Dodge","Flyby Attack","Mobility","Vital Strike"]} skills={{"bluff":{"b":10},"fly":{"b":17},"intm":{"b":15},"per":{"b":14},"spc":{"b":7},"stl":{"b":15}}} lang={["C","G"]} sq="storm rider" />
-<Ecology id="monster-hag_storm_hag--eco-eco" env="any temperate" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
+<Info source={[["Bestiary 5",235],["Pathfinder #72: The Witch Queen's Revenge",90]]} xp="3,200" ce medium monstrousHumanoid init={2} sen={["child-scent"]} dv={60} pcp={14} />
+<Defense ac={[21,13,18]} mod="+2 Dex, +1 dodge, +8 natural" hp={[85,"10d10+30"]} fort="+6" ref="+9" will="+8" immune="electricity" sr="18" />
+<Offense sp={30} fl={60} flP="good" melee="bite +13 (1d6+3 plus 1d6 electricity), 2 claws +13 (1d4+3 plus 1d6 electricity)" specAtt={[["storm strike","storm strike"],["whipping winds","whipping winds"]]} />
+<SpellBlock id="1" sla={{"cl":10,"con":"+13","content":[{"will":true,"content":<><Link to="/spell/bleed">bleed</Link>, <Link to="/spell/gust_of_wind">gust of wind</Link> (DC 15), <Link to="/spell/whispering_wind">whispering wind</Link></>},{"day":3,"content":<><Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/lightning_bolt">lightning bolt</Link> (DC 16), <Link to="/spell/river_of_wind">river of wind</Link> (DC 17), <Link to="/spell/sleet_storm">sleet storm</Link></>},{"day":1,"content":<><Link to="/spell/control_winds">control winds</Link> (DC 18)</>}]}} />
+<Stats atts={[17,14,16,13,13,16]} bab={10} cmb={13} cmd={26} feats={["Combat Casting","Dodge","Flyby Attack","Mobility","Vital Strike"]} skills={{"bluff":{"b":10},"fly":{"b":17},"intm":{"b":15},"per":{"b":14},"spc":{"b":7},"stl":{"b":15}}} lang={["C","G"]} sq="storm rider" />
+<Ecology env="any temperate" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Child-Scent (Ex)</strong> A storm hag has the scent ability, but only with respect to humanoid children and immature animals. Thus, she could sniff out a child's hiding place or a den of wolf pups, but not the child's parents or the den mother.</p>
@@ -1532,12 +1539,12 @@ const _hag_storm_hag = {title: "Storm Hag", jsx: <><p><em>This hag's hair, claws
 const _hag_winter_hag = {title: "Winter Hag", jsx: <><p><em>This woman has black, frostbitten skin, white hair, and a black ice staff decorated with bones and gems.</em></p>
 <Header full><span>Winter Hag</span><span>CR 7</span></Header>
 <div className="reduce">
-<Info id="monster-hag_winter_hag--info" source={[["Bestiary 4",279]]} xp="3,200" ce medium monstrousHumanoid subs={["cold"]} init={1} sen={["snow vision"]} senSpell={["see invisibility"]} dv={60} pcp={18} />
-<Defense id="monster-hag_winter_hag--defense" ac={[20,11,19]} mod="+1 Dex, +9 natural" hp={[85,"10d10+30"]} fort="+8" ref="+8" will="+8" dr="10/magic" immune="cold" sr="18" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
-<Offense id="monster-hag_winter_hag--offense" sp={30} melee={<>+2 <Link to="/magic-enh/frost">frost</Link> quarterstaff +15/+10 (1d6+6 plus 1d6 cold) or 2 claws +13 (1d4+3)</>} brWeap="30-ft. cone, 4d6 cold and blinded for 1d6 rounds, Reflex DC 18 partial, usable every 1d4 round" />
-<SpellBlock id="monster-hag_winter_hag--spells-monster-spellblock-1" sla={{"cl":10,"con":"+14","content":[{"constant":true,"content":<><Link to="/spell/pass_without_trace">pass without trace</Link>, <Link to="/spell/see_invisibility">see invisibility</Link></>},{"will":true,"content":<><Link to="/spell/chill_metal">chill metal</Link> (DC 16), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/fog_cloud">fog cloud</Link>, <Link to="/spell/frostbite">frostbite</Link>, <Link to="/spell/whispering_wind">whispering wind</Link></>},{"day":3,"content":<><Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/charm_monster">charm monster</Link> (DC 18), <Link to="/spell/invisibility">invisibility</Link> (self only), <Link to="/spell/major_image">major image</Link> (DC 17)</>},{"day":1,"content":<><Link to="/spell/cone_of_cold">cone of cold</Link> (DC 19; see ice staff), <Link to="/spell/control_weather">control weather</Link> (windy or cold weather only), <Link to="/spell/wall_of_ice">wall of ice</Link> (DC 18), <Link to="/spell/waves_of_fatigue">waves of fatigue</Link></>}]}} />
-<Stats id="monster-hag_winter_hag--stats" atts={[17,13,16,16,13,18]} bab={10} cmb={13} cmd={24} feats={["Alertness","Blind-Fight","Combat Casting","Deceitful","Great Fortitude"]} skills={{"bluff":{"b":18},"craft":{"of":"alchemy","b":11},"diplo":{"b":9},"dis":{"b":11},"ride":{"b":9},"sm":{"b":8},"spc":{"b":8},"stl":{"b":9,"x":"+13 in snow"}}} racial="+4 Stealth in snow" lang={["Ak","C","G"]} sq="ice staff, icewalking" />
-<Ecology id="monster-hag_winter_hag--eco-eco" env="cold forests or plains" org={<>solitary, patrol (1 plus 1 <Link to="/monster/winter_wolf">winter wolf</Link>), or coven (3 hags of any type)</>} treasure={{"S":false}} />
+<Info source={[["Bestiary 4",279]]} xp="3,200" ce medium monstrousHumanoid subs={["cold"]} init={1} sen={["snow vision"]} senSpell={["see invisibility"]} dv={60} pcp={18} />
+<Defense ac={[20,11,19]} mod="+1 Dex, +9 natural" hp={[85,"10d10+30"]} fort="+8" ref="+8" will="+8" dr="10/magic" immune="cold" sr="18" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
+<Offense sp={30} melee={<>+2 <Link to="/magic-enh/frost">frost</Link> quarterstaff +15/+10 (1d6+6 plus 1d6 cold) or 2 claws +13 (1d4+3)</>} brWeap="30-ft. cone, 4d6 cold and blinded for 1d6 rounds, Reflex DC 18 partial, usable every 1d4 round" />
+<SpellBlock id="1" sla={{"cl":10,"con":"+14","content":[{"constant":true,"content":<><Link to="/spell/pass_without_trace">pass without trace</Link>, <Link to="/spell/see_invisibility">see invisibility</Link></>},{"will":true,"content":<><Link to="/spell/chill_metal">chill metal</Link> (DC 16), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/fog_cloud">fog cloud</Link>, <Link to="/spell/frostbite">frostbite</Link>, <Link to="/spell/whispering_wind">whispering wind</Link></>},{"day":3,"content":<><Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/charm_monster">charm monster</Link> (DC 18), <Link to="/spell/invisibility">invisibility</Link> (self only), <Link to="/spell/major_image">major image</Link> (DC 17)</>},{"day":1,"content":<><Link to="/spell/cone_of_cold">cone of cold</Link> (DC 19; see ice staff), <Link to="/spell/control_weather">control weather</Link> (windy or cold weather only), <Link to="/spell/wall_of_ice">wall of ice</Link> (DC 18), <Link to="/spell/waves_of_fatigue">waves of fatigue</Link></>}]}} />
+<Stats atts={[17,13,16,16,13,18]} bab={10} cmb={13} cmd={24} feats={["Alertness","Blind-Fight","Combat Casting","Deceitful","Great Fortitude"]} skills={{"bluff":{"b":18},"craft":{"of":"alchemy","b":11},"diplo":{"b":9},"dis":{"b":11},"ride":{"b":9},"sm":{"b":8},"spc":{"b":8},"stl":{"b":9,"x":"+13 in snow"}}} racial="+4 Stealth in snow" lang={["Ak","C","G"]} sq="ice staff, icewalking" />
+<Ecology env="cold forests or plains" org={<>solitary, patrol (1 plus 1 <Link to="/monster/winter_wolf">winter wolf</Link>), or coven (3 hags of any type)</>} treasure={{"S":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Breath Weapon (Su)</strong> A creature that successfully saves against the hag's breath weapon takes half damage and is not blinded.</p>
@@ -1559,11 +1566,11 @@ const _hag_winter_hag = {title: "Winter Hag", jsx: <><p><em>This woman has black
 const _iron_cobra = {title: "Iron Cobra", jsx: <><p><em>This creature resembles a small, metallic cobra. Its body is made of overlapping iron plates, and its eyes are pinpoints of red light.</em></p>
 <Header full><span>Iron Cobra</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info id="monster-iron_cobra--info" source={[["Pathfinder RPG Bestiary",182]]} xp="600" n small construct init={2} dv={60} llv pcp={0} />
-<Defense id="monster-iron_cobra--defense" ac={[20,13,18]} mod="+2 Dex, +7 natural, +1 size" hp={[15,"1d10+10"]} fort="+0" ref="+2" will="+0" dr="5/-" immune={<Link to="/umr/construct_traits">construct traits</Link>} sr="13" />
-<Offense id="monster-iron_cobra--offense" sp={40} melee="bite +3 (1d6+1 plus poison)" />
-<Stats id="monster-iron_cobra--stats" atts={[12,15,0,0,11,1]} bab={1} cmb={1} cmd={13} cmdP="can't be tripped" skills={{"stl":{"b":12}}} racial="+6 Stealth" sq="find target" />
-<Ecology id="monster-iron_cobra--eco-eco" env="any" org="solitary, pair, or nest (3-10)" treasure={{"X":false}} />
+<Info source={[["Pathfinder RPG Bestiary",182]]} xp="600" n small construct init={2} dv={60} llv pcp={0} />
+<Defense ac={[20,13,18]} mod="+2 Dex, +7 natural, +1 size" hp={[15,"1d10+10"]} fort="+0" ref="+2" will="+0" dr="5/-" immune={<Link to="/umr/construct_traits">construct traits</Link>} sr="13" />
+<Offense sp={40} melee="bite +3 (1d6+1 plus poison)" />
+<Stats atts={[12,15,0,0,11,1]} bab={1} cmb={1} cmd={13} cmdP="can't be tripped" skills={{"stl":{"b":12}}} racial="+6 Stealth" sq="find target" />
+<Ecology env="any" org="solitary, pair, or nest (3-10)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Find Target (Su)</strong> Once per day, an iron cobra's creator can order it to find and kill a specific creature within 1 mile, which it does as if guided by discern location. The creator must have seen or be holding an item from the specified creature for this order to function.</p>
@@ -1584,11 +1591,11 @@ const _iron_cobra = {title: "Iron Cobra", jsx: <><p><em>This creature resembles 
 const _iron_rhinoceros = {title: "Iron Rhinoceros", jsx: <><p><em>Dangling chains cover the riveted iron body of this massive rhinoceros like thick, woolly fur. Its hollow eyes glow - windows into a mighty furnace - and smoke that smells suspiciously like burning flesh billows from its smokestack horns.</em></p>
 <Header full><span>Iron Rhinoceros</span><span>CR 11</span></Header>
 <div className="reduce">
-<Info id="monster-iron_rhinoceros--info" source={[["Pathfinder #95: Anvil of Fire",86]]} xp="12,800" n huge construct init={1} dv={60} llv pcp={14} />
-<Defense id="monster-iron_rhinoceros--defense" ac={[25,9,24]} mod="+1 Dex, +16 natural, -2 size" hp={[131,"14d10+54"]} fort="+6" ref="+7" will="+4" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, fire</>} />
-<Offense id="monster-iron_rhinoceros--offense" sp={40} melee={<>gore +21 (3d8+9/19-20), 2 chains +19 (2d6+4 plus <Link to="/umr/grab">grab</Link>)</>} space={"15"} reach={"10"} reachP={"20 ft. with chains"} specAtt={[["grasping chains","grasping chains"],["powerful drag","powerful drag"]]} powCh="gore, 6d8+16 or scooping charge" swallow="2d6 fire damage, AC 18, 13 hp" trample="2d6+8 plus grasping chains, DC 26" />
-<Stats id="monster-iron_rhinoceros--stats" atts={[28,12,0,1,11,5]} bab={14} cmb={25} cmbP="+29 grapple" cmd={36} cmdP="40 vs. trip" feats={["Great Fortitude",["Improved Critical"," (gore)"],"Intimidating Prowess","Lightning Reflexes","Multiattack","Power Attack","Toughness"]} skills={{"intm":{"b":4},"per":{"b":14}}} />
-<Ecology id="monster-iron_rhinoceros--eco-eco" env="warm mountains or underground" org="solitary" treasure={{"X":false}} />
+<Info source={[["Pathfinder #95: Anvil of Fire",86]]} xp="12,800" n huge construct init={1} dv={60} llv pcp={14} />
+<Defense ac={[25,9,24]} mod="+1 Dex, +16 natural, -2 size" hp={[131,"14d10+54"]} fort="+6" ref="+7" will="+4" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, fire</>} />
+<Offense sp={40} melee={<>gore +21 (3d8+9/19-20), 2 chains +19 (2d6+4 plus <Link to="/umr/grab">grab</Link>)</>} space={"15"} reach={"10"} reachP={"20 ft. with chains"} specAtt={[["grasping chains","grasping chains"],["powerful drag","powerful drag"]]} powCh="gore, 6d8+16 or scooping charge" swallow="2d6 fire damage, AC 18, 13 hp" trample="2d6+8 plus grasping chains, DC 26" />
+<Stats atts={[28,12,0,1,11,5]} bab={14} cmb={25} cmbP="+29 grapple" cmd={36} cmdP="40 vs. trip" feats={["Great Fortitude",["Improved Critical"," (gore)"],"Intimidating Prowess","Lightning Reflexes","Multiattack","Power Attack","Toughness"]} skills={{"intm":{"b":4},"per":{"b":14}}} />
+<Ecology env="warm mountains or underground" org="solitary" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Grasping Chains (Ex)</strong> An iron rhinoceros is covered in animated chains that grasp at its enemies. It doesn't gain the grappled condition when using its chains to grapple enemies, and can maintain a grapple using its chains as a free action, though doing so prevents it from attacking with that chain. An iron rhinoceros may have up to two creatures grappled in its chains at a time. Additionally, the chains seek to ensnare creatures the rhino tramples. The chains entangle any creature that fails its saving throw against the rhinoceros's trample attack, or that chooses to forgo its save in order to make an attack of opportunity against the rhinoceros. An entangled creature can escape from the chains as a standard action by succeeding on a DC 26 Strength check or a DC 20 Escape Artist check. Each chain has AC 12, hardness 10, and 15 hit points. Creatures entangled in the chains can't move farther than 20 feet away from the rhinoceros. If the rhinoceros moves farther than 20 feet from an entangled target, the tethering chain breaks, but the target remains entangled.</p>
@@ -1611,16 +1618,17 @@ const _iron_rhinoceros = {title: "Iron Rhinoceros", jsx: <><p><em>Dangling chain
 const _irradiated_dead = {title: "Irradiated Dead", jsx: <><p><em>This humanoid creature's pale orange, withered skin peels from its flesh in patches. Its yellow eyes stare, unblinking but seething with rage.</em></p>
 <Header full><span>Irradiated Dead</span><span>CR 7</span></Header>
 <div className="reduce">
-<Info id="monster-irradiated_dead--info" source={[["Pathfinder #87: The Choking Tower",84]]} xp="3,200" ne medium undead init={7} dv={60} pcp={15} />
-<Defense id="monster-irradiated_dead--defense" ac={[19,14,15]} mod="+3 Dex, +1 dodge, +5 natural" hp={[85,"10d8+40"]} fort="+6" ref="+6" will="+9" chanRes="+2" immune={<Link to="/umr/undead_traits">undead traits</Link>} />
-<Offense id="monster-irradiated_dead--offense" sp={30} melee="2 slams +12 (1d6+5 plus radiation)" specAtt={[["create spawn","create spawn"],["radioactive","radioactive"],["radioactive spew","radioactive spew"]]} />
-<Stats id="monster-irradiated_dead--stats" atts={[20,16,0,7,15,17]} bab={7} cmb={11} cmd={26} feats={["Combat Reflexes","Dodge","Improved Initiative","Power Attack","Toughness"]} skills={{"climb":{"b":9}}} lang={["C"]} />
-<Ecology id="monster-irradiated_dead--eco-eco" env="any (Numeria)" org="solitary, pair, or gang (3-6)" treasure={{"X":false}} />
+<Info source={[["Pathfinder #87: The Choking Tower",84]]} xp="3,200" ne medium undead init={7} dv={60} pcp={15} />
+<Defense ac={[19,14,15]} mod="+3 Dex, +1 dodge, +5 natural" hp={[85,"10d8+40"]} fort="+6" ref="+6" will="+9" chanRes="+2" immune={<Link to="/umr/undead_traits">undead traits</Link>} />
+<Offense sp={30} melee="2 slams +12 (1d6+5 plus radiation)" specAtt={[["create spawn","create spawn"],["radioactive","radioactive"],["radioactive spew","radioactive spew"]]} />
+<Stats atts={[20,16,0,7,15,17]} bab={7} cmb={11} cmd={26} feats={["Combat Reflexes","Dodge","Improved Initiative","Power Attack","Toughness"]} skills={{"climb":{"b":9}}} lang={["C"]} />
+<Ecology env="any (Numeria)" org="solitary, pair, or gang (3-6)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Create Spawn (Su)</strong> Any humanoid creature that is slain by an irradiated dead's radiation becomes an irradiated dead itself in 1d4 rounds. Spawn so created are less powerful than typical irradiated dead, taking a -2 penalty on all d20 rolls and having 2 fewer hit points per Hit Die. Spawn are under the command of the irradiated dead that created them and remain enslaved until its destruction, at which point they lose their spawn penalties to d20 rolls and become full-fledged and free-willed irradiated dead. They don't possess any of the abilities they had in life.</p>
 <p><strong>Radioactive (Ex)</strong> Any creature that comes in contact with an irradiated dead risks infection from the <Link to="/rule/radiation">radiation</Link> that consumes the creatures. Any creature hit by an irradiated dead's slam attack or radioactive spew risks infection, as does any creature who touches an irradiated dead. On a failed saving throw, the target is affected by medium radiation and radiates low radiation in a 10-foot radius for as long as it remains afflicted. This is a poison effect, and the save DC is Charisma-based.</p>
-<div className="sideNoteWrap"><ScrollContainer id="monster-irradiated_dead--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Radiation</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Poison; slam-contact</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 18</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d4 <Link to="/rule/con_drain">Con drain</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 consecutive saves</td></tr></tbody></table></ScrollContainer></div><p><strong>Radioactive Spew (Ex)</strong> Three times per day as a standard action, an irradiated dead can spew a 15-foot cone of irradiated viscera from its mouth. Creatures in the area take 2d6 points of acid damage and are subjected to the creature's radiation. A successful DC 18 Reflex save halves the damage. Creatures that takes damage from this effect are subject to the irradiated dead's radioactive special ability. The save DC is Charisma-based.</p>
+<AffInfo type="Poison; slam-contact" save="Fort 18" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/con_drain">Con drain</Link></>} cure2c icon="p">Radiation</AffInfo>
+<p><strong>Radioactive Spew (Ex)</strong> Three times per day as a standard action, an irradiated dead can spew a 15-foot cone of irradiated viscera from its mouth. Creatures in the area take 2d6 points of acid damage and are subjected to the creature's radiation. A successful DC 18 Reflex save halves the damage. Creatures that takes damage from this effect are subject to the irradiated dead's radioactive special ability. The save DC is Charisma-based.</p>
 <Header sub>Description</Header>
 <p>Little more than orange-tinted, blistered flesh drawn across skeletons, the irradiated dead were once humanoids-mainly Kellid warriors-who have been tainted by the radiation that's strewn across Numeria. Created as a result of experiments by members of the Technic League, a handful of irradiated dead escaped their restraints and set off across Numeria, creating more of their kind with each kill. With the strange chemicals and radiation coursing through their bodies and augmenting survival and hunting instincts, they scour the Numerian wastes in search of prey. Irradiated dead generally appear the same size as the humanoids they once were, but they weigh less due to their bodies have been ravaged by radiation.</p>
 <Header sub>Ecology</Header>

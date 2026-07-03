@@ -1,36 +1,37 @@
-import {FC, ReactNode, Fragment as F} from 'react';
+import {FC, ReactNode, Fragment as F, useContext} from 'react';
 import Header from '../Header';
 import Link from '../Link';
 import { convertTextToLink } from '../convertLinks';
 import mapNodes from '../mapNodes';
+import { IdContext } from '../contexts';
 
 interface Id {
-	id?: string
+	id: string
 }
-interface AcProps extends Id {
+interface AcProps {
 	ac: [number, number, number]
 	mod?: string
 }
-	interface HpRaw extends Id {
+	interface HpRaw {
 		hpRaw: string
 		hp?: never
 		fh?: never
 		regen?: never
 	}
-	interface HpPlain extends Id {
+	interface HpPlain {
 		hp: [number, string] | [number, string, number] | [number, string, (number | null), number]
 		fh?: string
 		regen?: string
 		hpRaw?: never
 	}
 type HpProps = HpRaw | HpPlain;
-interface SaveProps extends Id {
+interface SaveProps {
 	fort: string
 	ref: string
 	will: ReactNode
 }
 type SortablePair = [string, ReactNode];
-interface DefenseProps extends Id {
+interface DefenseProps {
 	chanRes?: string
 	fortif?: number
 	split?: string
@@ -56,7 +57,7 @@ interface DefenseProps extends Id {
 	resist?: ReactNode
 	sr?: ReactNode
 }
-interface WeaknessProps extends Id {
+interface WeaknessProps {
 	weak?: ReactNode[]
 }
 
@@ -88,7 +89,7 @@ const Save: FC<SaveProps> = ({fort, ref, will}) => {
 	return <p><strong>Fort</strong> {fort}, <strong>Reflex</strong> {ref}, <strong>Will</strong> {will}</p>;
 };
 
-const Defenses: FC<DefenseProps> = (props) => {
+const Defenses: FC<DefenseProps & Id> = (props) => {
 	const {
 		chanRes, fortif, split, ink, pBlood, trapS,
 		unstop, blockAt, rockCt, secSave,
@@ -191,7 +192,7 @@ const Defenses: FC<DefenseProps> = (props) => {
 	}{flag ? <>; {final}</> : <></>}</p>;
 };
 
-const Weakness: FC<WeaknessProps> = ({weak, id}) => {
+const Weakness: FC<WeaknessProps & Id> = ({weak, id}) => {
 	if(!weak || !weak.length) {
 		return <></>;
 	}
@@ -204,7 +205,6 @@ type DefProps = AcProps & HpProps & SaveProps & DefenseProps & WeaknessProps;
 
 const Defense: FC<DefProps> = (attrs) => {
 	const {
-		id,
 		ac, mod,
 		hp, hpRaw, fh, regen,
 		fort, ref, will,
@@ -215,6 +215,7 @@ const Defense: FC<DefProps> = (attrs) => {
 		def, dr, immune, resist, sr,
 		weak
 	} = attrs;
+	const cId = useContext(IdContext) + "-defense";
 	return (
 		<>
 			<Header sub>Defense</Header>
@@ -222,7 +223,7 @@ const Defense: FC<DefProps> = (attrs) => {
 			{hpRaw !== undefined ? <Hp hpRaw={hpRaw} /> : <Hp hp={hp} fh={fh} regen={regen} />}
 			<Save fort={fort} ref={ref} will={will} />
 			<Defenses
-				id={id}
+				id={cId}
 				chanRes={chanRes}
 				fortif={fortif}
 				split={split}
@@ -248,7 +249,7 @@ const Defense: FC<DefProps> = (attrs) => {
 				resist={resist}
 				sr={sr}
 			/>
-			<Weakness weak={weak} id={id} />
+			<Weakness weak={weak} id={cId} />
 		</>
 	);
 };

@@ -1,7 +1,8 @@
-import {FC, ReactNode, Fragment as F} from 'react';
+import {FC, ReactNode, useContext} from 'react';
 import Header from '../Header';
 import Link from '../Link';
 import parseLoot from './parseLoot';
+import { IdContext } from '../contexts';
 
 
 type NeverExcept<Type, K extends keyof Type> = Omit<Partial<{ [Property in keyof Type]: never }>, K> & Pick<Type, K>;
@@ -19,7 +20,6 @@ interface TreasureProps {
 }
 
 interface EcoProps {
-	id: string
 	env: ReactNode
 	org?: ReactNode
 	treasure?: Treasure
@@ -74,14 +74,15 @@ const Treasure: FC<TreasureProps> = (props) => {
 
 const Ecology: FC<EcoProps> = (props) => {
 	const {
-		env, org, treasure, id
+		env, org, treasure
 	} = props;
+	const cId = useContext(IdContext) + "-ecology";
 	return (
 		<>
 			<Header sub>Ecology</Header>
 			<p><strong>Environment</strong> {env}</p>
 			{org ? <p><strong>Organization</strong> {org}</p> : ""}
-			{treasure ? <Treasure t={treasure} id={id} /> : ""}
+			{treasure ? <Treasure t={treasure} id={cId} /> : ""}
 		</>
 	);
 };

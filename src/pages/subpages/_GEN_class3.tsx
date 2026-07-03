@@ -250,15 +250,15 @@ const _unchained_monk = {hasJL:true,title: "Unchained Monk", jsx: <><div classNa
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={9}>Weapons</th><td><Link to="/eq-weapon/club">club</Link></td><td><Link to="/eq-weapon/dagger">dagger</Link></td></tr><tr><td><Link to="/eq-weapon/light_crossbow">light crossbow</Link></td><td><Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link></td></tr><tr><td><Link to="/eq-weapon/handaxe">handaxe</Link></td><td><Link to="/eq-weapon/javelin">javelin</Link></td></tr><tr><td><Link to="/eq-weapon/kama">kama</Link></td><td><Link to="/eq-weapon/nunchaku">nunchaku</Link></td></tr><tr><td><Link to="/eq-weapon/quarterstaff">quarterstaff</Link></td><td><Link to="/eq-weapon/sai">sai</Link></td></tr><tr><td><Link to="/eq-weapon/short_sword">short sword</Link></td><td><Link to="/eq-weapon/shortspear">shortspear</Link></td></tr><tr><td><Link to="/eq-weapon/shuriken">shuriken</Link></td><td><Link to="/eq-weapon/siangham">siangham</Link></td></tr><tr><td><Link to="/eq-weapon/sling">sling</Link></td><td><Link to="/eq-weapon/spear">spear</Link></td></tr><tr><td colSpan={2}>Any weapon with the <Link to="/misc/monk">monk</Link> special weapon quality.</td></tr><tr><th>Armor?</th><td colSpan={2}>No</td></tr><tr><th>Shields?</th><td colSpan={2}>No</td></tr><tr><td colSpan={3} className="sw se">Wearing armor or using a shield can stifle some of your abilities.</td></tr></tbody></table>
-<Ability id="class-unchained_monk-ac-bonus-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-unchained_monk-ac-bonus-ex">AC Bonus (Ex)</Pair>
+<Ability id="ac-bonus-ex" icon={["armor-upgrade"]}>
+<Pair single id="ac-bonus-ex">AC Bonus (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">When unarmored and unencumbered, you add your Wisdom bonus (if any) to your AC and CMD.</Pair>
 <Pair title="At 4th Level">You gain an additional bonus to AC and CMD equal to <Link to="/misc/one_fourth">one-fourth</Link> of your monk level.</Pair>
 <Pair title="Special">These bonuses to AC apply even against touch attacks or when you're <Link to="/rule/flat_footed">flat-footed</Link>. You lose these bonuses when immobilized or helpless, when you wear any armor, when you carry a shield, or when you carry a medium or heavy load.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-bonus-feat" icon={["stairs-goal"]}>
-<Pair single id="class-unchained_monk-bonus-feat">Bonus Feat</Pair>
+<Ability id="bonus-feat" icon={["stairs-goal"]}>
+<Pair single id="bonus-feat">Bonus Feat</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain a bonus feat from the following list: <Link to="/feat/catch_off_guard">Catch Off-Guard</Link>, <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/deflect_arrows">Deflect Arrows</Link>, <Link to="/feat/dodge">Dodge</Link>, <Link to="/feat/improved_grapple">Improved Grapple</Link>, <Link to="/feat/ki_diversity">Ki Diversity</Link>, <Link to="/feat/scorpion_style">Scorpion Style</Link>, and <Link to="/feat/throw_anything">Throw Anything</Link>. You need not have any of the prerequisites normally required for these feats to select them.</Pair>
 <Pair title="At 2nd Level">You gain another bonus feat from the list.</Pair>
@@ -268,14 +268,14 @@ const _unchained_monk = {hasJL:true,title: "Unchained Monk", jsx: <><div classNa
 <Pair title="At 18th Level">You gain another bonus feat from the list.</Pair>
 </Ability>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="class-unchained_monk--table-1"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/>At 1st level, 2nd level, and every 4 levels thereafter, a monk can select a bonus feat. These feats must be taken from the following list: <Link to="/feat/catch_off_guard">Catch Off-Guard</Link>, <Link to="/feat/combat_reflexes">Combat Reflexes</Link>, <Link to="/feat/deflect_arrows">Deflect Arrows</Link>, <Link to="/feat/dodge">Dodge</Link>, and <strong className="hl"><Link to="/rule/scorpion_stance">Scorpion Stance</Link></strong>. At 6th level, the following feats are added to the list: <strong className="hl"><Link to="/rule/deft_maneuvers">Deft Maneuvers</Link></strong>, <Link to="/feat/gorgons_fist">Gorgon's Fist</Link>, <Link to="/feat/greater_grapple">Greater Grapple</Link>, and <strong className="hl"><Link to="/rule/powerful_maneuvers">Powerful Maneuvers</Link></strong>. At 10th level, the following feats are added to the list: <Link to="/feat/improved_critical">Improved Critical</Link>, <Link to="/feat/medusas_wrath">Medusa's Wrath</Link>, <Link to="/feat/snatch_arrows">Snatch Arrows</Link>, and <Link to="/feat/spring_attack">Spring Attack</Link>. A monk need not have any of the prerequisites normally required for these feats to select them.</p>
-</td></tr></tbody></table></ScrollContainer></div><Ability id="class-unchained_monk-flurry-of-blows-ex" icon={["mailed-fist"]}>
-<Pair single id="class-unchained_monk-flurry-of-blows-ex">Flurry of Blows (Ex)</Pair>
+</td></tr></tbody></table></ScrollContainer></div><Ability id="flurry-of-blows-ex" icon={["mailed-fist"]}>
+<Pair single id="flurry-of-blows-ex">Flurry of Blows (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Full-Round Action">You can make a flurry of blows as a full-attack action. When doing this, you can make one additional attack at your highest base attack bonus. This additional attack stacks with the bonus attacks from <Link to="/spell/haste">haste</Link> and other similar effects. When using this ability, you can make these attacks with any combination of your unarmed strikes and weapons that have the monk special weapon quality. You take no penalty for using multiple weapons when making a flurry of blows, but you do not gain any additional attacks beyond what's already granted by the flurry for doing so. (You can still gain additional attacks from a high base attack bonus, from this ability, and from <em>haste</em> and similar effects).</Pair>
 <Pair title="At 11th Level">You can now make two additional attacks at your highest base attack bonus during your flurry of blows. This still stacks with <em>haste</em> and similar effects.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-stunning-fist-ex" icon={["mailed-fist"]}>
-<Pair single id="class-unchained_monk-stunning-fist-ex">Stunning Fist (Ex)</Pair>
+<Ability id="stunning-fist-ex" icon={["mailed-fist"]}>
+<Pair single id="stunning-fist-ex">Stunning Fist (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/stunning_fist">Stunning Fist</Link> as a bonus feat, even if you don't meet the prerequisites.</Pair>
 <Pair title="At 4th Level">You gain the ability to apply <Link to="/misc/fatigue">fatigue</Link> to the target of your Stunning Fist. This condition replaces stunning the target for 1 round, and a successful saving throw still negates the effect.</Pair>
@@ -300,20 +300,20 @@ const _unchained_monk = {hasJL:true,title: "Unchained Monk", jsx: <><div classNa
 <Pair title="Special">Your unarmed strike is treated as both a manufactured weapon and a natural weapon for the purpose of spells and effects that enhance or improve either manufactured weapons or natural weapons.</Pair>
 </Ability>
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="class-unchained_monk--table-2"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/>Instead of Improved Unarmed Strike, monks gain <strong className="hl"><Link to="/rule/unarmed_combatant">Unarmed Combatant</Link></strong> as a bonus feat.</p>
-</td></tr></tbody></table></ScrollContainer></div><Ability id="class-unchained_monk-evasion-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-unchained_monk-evasion-ex" flavor="A monk can avoid damage from many area-effect attacks.">Evasion (Ex)</Pair>
+</td></tr></tbody></table></ScrollContainer></div><Ability id="evasion-ex" icon={["armor-upgrade"]}>
+<Pair single id="evasion-ex" flavor="A monk can avoid damage from many area-effect attacks.">Evasion (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">If you succeed at a Reflex saving throw against an attack that normally deals half damage on a successful save, you instead take no damage.</Pair>
 <Pair title="Special"><em>Evasion</em> can be used only if you are wearing light armor or no armor, and are also not <Link to="/misc/helpless">helpless</Link>.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-fast-movement-ex" icon={["upgrade"]}>
-<Pair single id="class-unchained_monk-fast-movement-ex">Fast Movement (Ex)</Pair>
+<Ability id="fast-movement-ex" icon={["upgrade"]}>
+<Pair single id="fast-movement-ex">Fast Movement (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You gain an enhancement bonus to your land speed equal to <Link to="/misc/one_third">one-third</Link> of your monk level &times; 10.</Pair>
 <Pair title="Special">If you wear armor or are carrying a medium or heavy load, you lose this extra speed.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-ki-pool-su" icon={["magic-swirl","mailed-fist"]}>
-<Pair single id="class-unchained_monk-ki-pool-su" flavor="A monk gains supernatural energy he can use to accomplish amazing feats.">Ki Pool (Su)</Pair>
+<Ability id="ki-pool-su" icon={["magic-swirl","mailed-fist"]}>
+<Pair single id="ki-pool-su" flavor="A monk gains supernatural energy he can use to accomplish amazing feats.">Ki Pool (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You gain a pool of ki points. The number of points in your ki pool is equal to 1/2 your monk level + your Wisdom modifier.</Pair>
 <Pair title="Swift Action">By spending 1 point from your ki pool, you can make one additional unarmed strike at your highest attack bonus when making a flurry of blows attack. This bonus attack stacks with all bonus attacks gained from flurry of blows, as well as those from <em>haste</em> and similar effects.</Pair>
@@ -323,24 +323,24 @@ const _unchained_monk = {hasJL:true,title: "Unchained Monk", jsx: <><div classNa
 <Pair title="At 16th Level">Your <em>ki strikes</em> are treated as <Link to="/eq-material/adamantine">adamantine</Link> weapons for the purpose of overcoming damage reduction and bypassing <Link to="/rule/hardness">hardness</Link>.</Pair>
 <Pair title="Special">You gain additional powers that consume points from your ki pool as you gain levels. The ki pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-ki-powers-su" icon={["stairs-goal"]}>
-<Pair single id="class-unchained_monk-ki-powers-su" flavor="A monk gains powers that allow him to perform amazing feats of mystical power and acrobatic prowess by expending points from his ki pool.">Ki Powers (Su)</Pair>
+<Ability id="ki-powers-su" icon={["stairs-goal"]}>
+<Pair single id="ki-powers-su" flavor="A monk gains powers that allow him to perform amazing feats of mystical power and acrobatic prowess by expending points from his ki pool.">Ki Powers (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain one <Link to="/ability/ki_powers">ki power</Link> of your choice. Once a ki power is selected, it cannot be changed.</Pair>
 <Pair title="Special">Some ki powers require you to be of a specific level or higher before they can be chosen. Unless otherwise noted, you cannot select an individual ki power more than once.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-still-mind-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-unchained_monk-still-mind-ex">Still Mind (Ex)</Pair>
+<Ability id="still-mind-ex" icon={["armor-upgrade"]}>
+<Pair single id="still-mind-ex">Still Mind (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You gain a +2 bonus on saving throws against enchantment spells and effects.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-purity-of-body-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-unchained_monk-purity-of-body-ex">Purity of Body (Ex)</Pair>
+<Ability id="purity-of-body-ex" icon={["armor-upgrade"]}>
+<Pair single id="purity-of-body-ex">Purity of Body (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Passive Ability">You gain immunity to all diseases, including supernatural and magical diseases.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-style-strike-ex" icon={["mailed-fist"]}>
-<Pair single id="class-unchained_monk-style-strike-ex">Style Strike (Ex)</Pair>
+<Ability id="style-strike-ex" icon={["mailed-fist"]}>
+<Pair single id="style-strike-ex">Style Strike (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">You learn one type of <Link to="/ability/style_strikes">style strike</Link>. Whenever you make a flurry of blows, you can designate one of your unarmed strikes as a style strike. This attack is resolved as normal, but it has an additional effect depending on the type of strike chosen.</Pair>
 <Pair title="At 9th Level">You learn an additional style strike.</Pair>
@@ -349,30 +349,30 @@ const _unchained_monk = {hasJL:true,title: "Unchained Monk", jsx: <><div classNa
 <Pair title="At 17th Level">You learn an additional style strike.</Pair>
 <Pair title="Special">You must choose which style strike to apply before the attack roll is made.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-improved-evasion-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-unchained_monk-improved-evasion-ex">Improved Evasion (Ex)</Pair>
+<Ability id="improved-evasion-ex" icon={["armor-upgrade"]}>
+<Pair single id="improved-evasion-ex">Improved Evasion (Ex)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Passive Ability">Your <em>evasion</em> improves. You still take no damage on successful Reflex saving throws against attacks, but henceforth you take only half damage on failed saves.</Pair>
 <Pair title="Special">You do not gain the benefit of <em>improved evasion</em> while helpless.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-tongue-of-the-sun-and-moon-ex" icon={["stairs-goal"]}>
-<Pair single id="class-unchained_monk-tongue-of-the-sun-and-moon-ex">Tongue of the Sun and Moon (Ex)</Pair>
+<Ability id="tongue-of-the-sun-and-moon-ex" icon={["stairs-goal"]}>
+<Pair single id="tongue-of-the-sun-and-moon-ex">Tongue of the Sun and Moon (Ex)</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Passive Ability">You can understand and speak with any living creature, as if under a permanent <Link to="/spell/tongues">tongues</Link> effect.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-timeless-body-ex" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="class-unchained_monk-timeless-body-ex">Timeless Body (Ex)</Pair>
+<Ability id="timeless-body-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="timeless-body-ex">Timeless Body (Ex)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">You no longer take penalties to your ability scores for aging and cannot be magically <Link to="/rule/age">aged</Link>. Any such penalties that you have already taken, however, remain in place.</Pair>
 <Pair title="Special">Age bonuses still accrue, and you still die of old age when your time is up.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-flawless-mind" icon={["armor-upgrade","rolling-dices"]}>
-<Pair single id="class-unchained_monk-flawless-mind" flavor="A monk gains total control over his mental faculties.">Flawless Mind</Pair>
+<Ability id="flawless-mind" icon={["armor-upgrade","rolling-dices"]}>
+<Pair single id="flawless-mind" flavor="A monk gains total control over his mental faculties.">Flawless Mind</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Passive Ability">Whenever you attempt a Will save, you can roll twice and take the better result. If you fail a Will saving throw against a spell or effect that has a duration longer than 1 hour, you can attempt a new saving throw at the end of each hour to end the effect.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-perfect-self" icon={["upgrade","armor-upgrade","stairs-goal"]}>
-<Pair single id="class-unchained_monk-perfect-self">Perfect Self</Pair>
+<Ability id="perfect-self" icon={["upgrade","armor-upgrade","stairs-goal"]}>
+<Pair single id="perfect-self">Perfect Self</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">You become a magical creature. You are forevermore treated as an outsider rather than a humanoid (or whatever your original creature type was) for the purpose of spells and magical effects. You gain DR 10/chaotic. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type.</Pair>
 <Pair title="Ability">You gain the ability to enter a state of perfect calm. During this time, you can take no actions, but you regain ki at the rate of 1 point per 10 minutes spent at calm. You cannot use this ability to gain an amount of ki in excess of your maximum.</Pair>
@@ -409,7 +409,7 @@ const _unchained_monk = {hasJL:true,title: "Unchained Monk", jsx: <><div classNa
 <h3 id="class-unchained_monk-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"unchained monk archetypes","columns":[{"header":"Archetype","link":"arc-monk"},{"header":"Alignment"},{"header":"Bonus Feats"},{"header":"1st-level Bonus Feat"},{"header":"2nd-level Bonus Feat"},{"header":"6th-level Bonus Feat"},{"header":"10th-level Bonus Feat"},{"header":"12th-level Bonus Feat"},{"header":"14th-level Bonus Feat"},{"header":"16th-level Bonus Feat"},{"header":"18th-level Bonus Feat"},{"header":"Class Skills"},{"header":"Empty Body"},{"header":"Evasion"},{"header":"Improved Evasion"},{"header":"Ki Pool"},{"header":"4th-level Ki Power"},{"header":"6th-level Ki Power"},{"header":"8th-level Ki Power"},{"header":"10th-level Ki Power"},{"header":"12th-level Ki Power"},{"header":"14th-level Ki Power"},{"header":"Perfect Self"},{"header":"Purity of Body"},{"header":"Quivering Palm"},{"header":"Still Mind"},{"header":"Stunning Fist"},{"header":"Tongue of the Sun and Moon"},{"header":"Unarmed Strike"},{"header":"Weapon Proficiency"},{"header":"Wholeness of Body"}],"data":[[["Black Asp","black_asp_uc"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null],[["Brazen Disciple","brazen_disciple_uc"],null,null,"X",null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,"X",null,null,"X",null,null,null,null,null],[["Disciple of Wholeness","disciple_of_wholeness_uc"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,"X","X",null,"X",null,null,null,null,null,null,null],[["Elemental Monk","elemental_monk_uc"],"X","X",null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,"X",null,null,null,"X",null,null,"X",null,null,null,null],[["Invested Regent","invested_regent_uc"],null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Lifting Hand","lifting_hand_uc"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,null,null],[["Monk of the Mantis","monk_of_the_mantis_uc"],null,null,null,"X","X","X",null,"X",null,"X",null,null,null,null,null,null,"X",null,"X","X",null,null,null,"X",null,null,null,null,null,null],[["Perfect Scholar","perfect_scholar_uc"],null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,"X",null,null,"X",null,"X",null,null,null],[["Sage Counselor","sage_counselor_uc"],null,null,"X","X","X","X",null,null,null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Scaled Fist","scaled_fist_uc"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,"X",null,null,null,null,null],[["Serpent-Fire Adept","serpent_fire_adept_uc"],null,null,"X","X","X","X",null,"X",null,"X","X",null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,"X",null,null,null,null],[["Softstrike Monk","softstrike_monk_uc"],null,null,null,null,"X","X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X","X","X"],[["Soul Shepherd","soul_shepherd_uc"],null,null,null,null,null,null,"X",null,"X",null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null],[["Windstep Master","windstep_master_uc"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-unchained_monk-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="unchained_monk" prefix="class-unchained_monk-" />
+<RacialOptions cls="unchained_monk" />
 </>};
 const _ninja = {hasJL:true,title: "Ninja", jsx: <><div className="jumpList" id="class-ninja-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-ninja-poison-use">Poison Use</InnerLink></li><li><InnerLink toTop to="class-ninja-sneak-attack">Sneak Attack</InnerLink></li><li><InnerLink toTop to="class-ninja-ki-pool-su">Ki Pool</InnerLink></li><li><InnerLink toTop to="class-ninja-ninja-tricks">Ninja Tricks</InnerLink></li><li><InnerLink toTop to="class-ninja-no-trace-ex">No Trace</InnerLink></li><li><InnerLink toTop to="class-ninja-uncanny-dodge-ex">Uncanny Dodge</InnerLink></li><li><InnerLink toTop to="class-ninja-light-steps-ex">Light Steps</InnerLink></li><li><InnerLink toTop to="class-ninja-improved-uncanny-dodge-ex">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-ninja-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-ninja-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-ninja-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-ninja-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-ninja-ninja">Ninja</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 13</Link></p>
@@ -590,18 +590,18 @@ const _ninja = {hasJL:true,title: "Ninja", jsx: <><div className="jumpList" id="
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={6}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td><Link to="/eq-weapon/kama">kama</Link></td><td><Link to="/eq-weapon/katana">katana</Link></td></tr><tr><td><Link to="/eq-weapon/kusarigama">kusarigama</Link></td><td><Link to="/eq-weapon/nunchaku">nunchaku</Link></td></tr><tr><td><Link to="/eq-weapon/sai">sai</Link></td><td><Link to="/eq-weapon/shortbow">shortbow</Link></td></tr><tr><td><Link to="/eq-weapon/short_sword">short sword</Link></td><td><Link to="/eq-weapon/shuriken">shuriken</Link></td></tr><tr><td><Link to="/eq-weapon/siangham">siangham</Link></td><td><Link to="/eq-weapon/wakizashi">wakizashi</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<Ability id="class-ninja-poison-use" icon={["armor-upgrade"]}>
-<Pair single id="class-ninja-poison-use">Poison Use</Pair>
+<Ability id="poison-use" icon={["armor-upgrade"]}>
+<Pair single id="poison-use">Poison Use</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You are trained in the use of poison and cannot accidentally poison yourself when applying poison to a weapon.</Pair>
 </Ability>
-<Ability id="class-ninja-sneak-attack" icon={["stairs-goal"]}>
-<Pair single id="class-ninja-sneak-attack">Sneak Attack</Pair>
+<Ability id="sneak-attack" icon={["stairs-goal"]}>
+<Pair single id="sneak-attack">Sneak Attack</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You have the ability to <Link to="/ability/sneak_attack">sneak attack</Link>, the same as a rogue.</Pair>
 </Ability>
-<Ability id="class-ninja-ki-pool-su" icon={["magic-swirl","mailed-fist"]}>
-<Pair single id="class-ninja-ki-pool-su" flavor="A ninja gains supernatural energy she can use to accomplish amazing feats.">Ki Pool (Su)</Pair>
+<Ability id="ki-pool-su" icon={["magic-swirl","mailed-fist"]}>
+<Pair single id="ki-pool-su" flavor="A ninja gains supernatural energy she can use to accomplish amazing feats.">Ki Pool (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You gain a pool of ki points. The number of points in your ki pool is equal to <Link to="/misc/half">half</Link> your ninja level + your Charisma modifier.</Pair>
 <Pair title="Swift Action">By spending 1 point from your ki pool, you can do one of the following: 1) take one additional attack at your highest attack bonus when making a full attack, 2) increase your speed by 20 feet for one round, or 3) give yourself a +4 insight bonus on Stealth checks for 1 round.</Pair>
@@ -611,8 +611,8 @@ const _ninja = {hasJL:true,title: "Ninja", jsx: <><div className="jumpList" id="
 <p>You can gain additional powers that consume points from your ki pool by selecting certain <em>ninja tricks</em> (see below). The ki pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.</p>
 </Pair>
 </Ability>
-<Ability id="class-ninja-ninja-tricks" icon={["stairs-goal"]}>
-<Pair single id="class-ninja-ninja-tricks" flavor="As a ninja continues her training, she learns a number of ninja tricks that allow her to confuse her foes and grant her supernatural abilities.">Ninja Tricks</Pair>
+<Ability id="ninja-tricks" icon={["stairs-goal"]}>
+<Pair single id="ninja-tricks" flavor="As a ninja continues her training, she learns a number of ninja tricks that allow her to confuse her foes and grant her supernatural abilities.">Ninja Tricks</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You gain one <Link to="/ability/ninja_tricks">ninja trick</Link>.</Pair>
 <Pair title="At 4th Level">You gain a new ninja trick.</Pair>
@@ -626,35 +626,35 @@ const _ninja = {hasJL:true,title: "Ninja", jsx: <><div className="jumpList" id="
 <Pair title="At 20th Level">You gain a new ninja trick or master trick.</Pair>
 <Pair title="Special">Unless otherwise noted, you cannot select an individual ninja trick more than once. If you have multiple tricks that add effects to your sneak attacks, only one may be used per attack.</Pair>
 </Ability>
-<Ability id="class-ninja-no-trace-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-ninja-no-trace-ex" flavor="A ninja learns to cover her tracks, remain hidden, and conceal her presence.">No Trace (Ex)</Pair>
+<Ability id="no-trace-ex" icon={["armor-upgrade"]}>
+<Pair single id="no-trace-ex" flavor="A ninja learns to cover her tracks, remain hidden, and conceal her presence.">No Trace (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">The DC to track you using the Survival skill increases by an amount equal to one-third of your ninja level. In addition, your training gives you a insight bonus on Disguise skill checks and on opposed Stealth checks whenever you are stationary and do not take any action for at least 1 round. This bonus is equal to one-third of your ninja level.</Pair>
 </Ability>
-<Ability id="class-ninja-uncanny-dodge-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-ninja-uncanny-dodge-ex" flavor="A ninja can react to danger before her senses would normally allow her to do so.">Uncanny Dodge (Ex)</Pair>
+<Ability id="uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="uncanny-dodge-ex" flavor="A ninja can react to danger before her senses would normally allow her to do so.">Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">You cannot be caught <Link to="/rule/flat_footed">flat-footed</Link>, nor do you lose your Dexterity bonus to AC if the attacker is invisible. You still lose your Dexterity bonus to AC if immobilized, or if if an opponent successfully uses the <Link to="/skill/bluff">feint</Link> action against you.</Pair>
 <Pair title="Special">If you already possess uncanny dodge from a different class, you automatically gain <em>improved uncanny dodge,</em> instead.</Pair>
 </Ability>
-<Ability id="class-ninja-light-steps-ex" icon={["stairs-goal"]}>
-<Pair single id="class-ninja-light-steps-ex" flavor="A ninja learns to move while barely touching the surface underneath you.">Light Steps (Ex)</Pair>
+<Ability id="light-steps-ex" icon={["stairs-goal"]}>
+<Pair single id="light-steps-ex" flavor="A ninja learns to move while barely touching the surface underneath you.">Light Steps (Ex)</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Full-Round Action">You can move up to twice your speed, ignoring <Link to="/rule/difficult_terrain">difficult terrain</Link>. While moving in this way, any surface will support you, no matter how much you weigh. This allows you to move across water, lava, or even the thinnest tree branches. You must end your move on a surface that can support you normally. You cannot move across air in this way, nor can you walk up walls or other vertical surfaces. When moving in this way, you do not take damage from surfaces or hazards that react to being touched, such as lava or caltrops, nor do you need to make Acrobatics checks to avoid falling on slippery or rough surfaces. Finally, when using <em>light steps,</em> you ignore any mechanical traps that use a location-based trigger.</Pair>
 </Ability>
-<Ability id="class-ninja-improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-ninja-improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
+<Ability id="improved-uncanny-dodge-ex" icon={["armor-upgrade"]}>
+<Pair single id="improved-uncanny-dodge-ex">Improved Uncanny Dodge (Ex)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">You can no longer be <Link to="/rule/flanked">flanked</Link>. This defense denies another ninja (or rogue) the ability to sneak attack you by flanking you, unless the attacker has at least four more ninja (or rogue) levels than you do.</Pair>
 <Pair title="Special">If you already have uncanny dodge from another class, the levels from the classes that grant uncanny dodge stack when determining the minimum ninja (or rogue) level required to flank you.</Pair>
 </Ability>
-<Ability id="class-ninja-master-tricks" icon={["stairs-goal"]}>
-<Pair single id="class-ninja-master-tricks">Master Tricks</Pair>
+<Ability id="master-tricks" icon={["stairs-goal"]}>
+<Pair single id="master-tricks">Master Tricks</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">When you would gain a new ninja trick, you can choose a <Link to="/ability/master_tricks">master trick</Link> instead.</Pair>
 </Ability>
-<Ability id="class-ninja-hidden-master-su" icon={["magic-swirl","upgrade"]}>
-<Pair single id="class-ninja-hidden-master-su">Hidden Master (Su)</Pair>
+<Ability id="hidden-master-su" icon={["magic-swirl","upgrade"]}>
+<Pair single id="hidden-master-su">Hidden Master (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Standard Action">You can cast <Link to="/spell/greater_invisibility">greater invisibility</Link> on yourself. While invisible in this way, you cannot be detected by any means, and not even <Link to="/spell/invisibility_purge">invisibility purge</Link>, <Link to="/spell/see_invisibility">see invisibility</Link>, and <Link to="/spell/true_seeing">true seeing</Link> can reveal you. You use your ninja level as your caster level for this ability. Using this ability consumes 3 <em>ki</em> points from your <em>ki</em> pool.</Pair>
 <Pair title="Ability">In addition, whenever you deal sneak attack damage, you can sacrifice additional damage dice to apply a penalty to one ability score of the target equal to the number of dice sacrificed for 1 minute. This penalty does not stack with itself and cannot reduce an ability score below 1.</Pair>
@@ -680,7 +680,7 @@ const _ninja = {hasJL:true,title: "Ninja", jsx: <><div className="jumpList" id="
 <h3 id="class-ninja-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"ninja archetypes","columns":[{"header":"Archetype","link":"arc-ninja"},{"header":"Class Skills"},{"header":"Ki Pool"},{"header":"Light Steps"},{"header":"2nd-level Ninja Trick"},{"header":"10th, 12th, and 16th-level Ninja Tricks"},{"header":"No Trace"},{"header":"Poison Use"},{"header":"Uncanny Dodge"},{"header":"Improved Uncanny Dodge"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Frozen Shadow","frozen_shadow"],"X","X",null,null,null,null,null,"X","X",null],[["Gunpowder Bombardier","gunpowder_bombardier"],null,"X",null,"X",null,null,null,"X","X",null],[["Hunting Serpent","hunting_serpent"],"X",null,null,null,"X","X",null,"X","X",null],[["Mask of the Living God","mask_of_the_living_god"],null,"X",null,null,null,"X","X",null,null,"X"],[["Petal Ninja","petal_ninja"],"X",null,"X","X",null,"X",null,"X","X",null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-ninja-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="ninja" prefix="class-ninja-" />
+<RacialOptions cls="ninja" />
 </>};
 const _occultist = {hasJL:true,title: "Occultist", jsx: <><div className="jumpList" id="class-occultist-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-occultist-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-occultist-implements-su">Implements</InnerLink></li><li><InnerLink toTop to="class-occultist-mental-focus-su">Mental Focus</InnerLink></li><li><InnerLink toTop to="class-occultist-focus-powers-su">Focus Powers</InnerLink></li><li><InnerLink toTop to="class-occultist-magic-item-skill-ex">Magic Item Skill</InnerLink></li><li><InnerLink toTop to="class-occultist-object-reading-su">Object Reading</InnerLink></li><li><InnerLink toTop to="class-occultist-shift-focus-su">Shift Focus</InnerLink></li><li><InnerLink toTop to="class-occultist-aura-sight-su">Aura Sight</InnerLink></li><li><InnerLink toTop to="class-occultist-magic-circles-su">Magic Circles</InnerLink></li><li><InnerLink toTop to="class-occultist-outside-contact-su">Outside Contact</InnerLink></li><li><InnerLink toTop to="class-occultist-binding-circles-su">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-occultist-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-occultist-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-occultist-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-occultist-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-occultist-occultist">Occultist</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 46</Link></p>
@@ -988,12 +988,12 @@ const _occultist = {hasJL:true,title: "Occultist", jsx: <><div className="jumpLi
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="class-occultist-spells" icon={["magic-swirl"]}><Pair single id="class-occultist-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Intelligence score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Intelligence score.</Pair>
 <Pair title="Ability">You gain the ability to cast psychic spells which are drawn from the <Link to="/main/spells_occultist">occultist spell list</Link>, limited by the implement groups you know. The DC for a saving throw against spells you cast is 10 + the spell level + your Intelligence modifier. You must choose and prepare your spells in advance.</Pair><Pair title="Info"><p>An occultist's selection of spells is limited. For each implement school you learn to use, you can add one spell of each level you can cast to your list of spells known, chosen from that school's spell list. If you select the same implement school multiple times, you add one spell of each level from that school's list for each time you have selected that school. When you learn to cast a new level of spells, you immediately add one spell of that level to your list of spells known from each implement school you know (plus any extra spells from schools you have selected multiple times).</p>
-<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. The spell learned must come from the same list of spells provided by the implement school of the spell lost. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair><Pair title="Special">Every occultist spell has an implement component (described below).</Pair></Ability><Ability id="class-occultist-knacks" icon={["magic-swirl"]}>
-<Pair single id="class-occultist-knacks">Knacks</Pair>
+<p>At 5th level, and every three levels thereafter (8th, 11th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. The spell learned must come from the same list of spells provided by the implement school of the spell lost. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair><Pair title="Special">Every occultist spell has an implement component (described below).</Pair></Ability><Ability id="knacks" icon={["magic-swirl"]}>
+<Pair single id="knacks">Knacks</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn one knack, or 0-level psychic spell, each time you select an implement school (including when you again select a school that you have already learned to use). These spells are cast like any other spell, but they can be cast any number of times per day. Knacks cast using any other spell slots because of metamagic feats applied to them, for example, consume spell slots as normal.</Pair>
 </Ability>
@@ -1022,8 +1022,8 @@ const _occultist = {hasJL:true,title: "Occultist", jsx: <><div className="jumpLi
 <p>You can choose to save generic mental focus inside your own body instead of investing all of it, but expending this focus comes at a higher cost. Any focus power you activate with generic focus costs twice as much mental focus to use (and to maintain, if applicable). You can expend your generic focus through an appropriate implement on any focus power you know, but an implement you didn't invest any focus in at the start of the day grants no resonant power.</p>
 </Pair>
 </Ability>
-<Ability id="class-occultist-focus-powers-su" icon={["magic-swirl"]}>
-<Pair single id="class-occultist-focus-powers-su">Focus Powers (Su)</Pair>
+<Ability id="focus-powers-su" icon={["magic-swirl"]}>
+<Pair single id="focus-powers-su">Focus Powers (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn the base focus power from both of your two implement schools and can select one more focus power from the list of those available to you through those schools. Whenever you learn a new implement school, you gain the base power of that school.</Pair>
 <Pair title="At 3rd Level">You learn a new focus power selected from the options granted by all of the implement schools you know.</Pair>
@@ -1037,29 +1037,29 @@ const _occultist = {hasJL:true,title: "Occultist", jsx: <><div className="jumpLi
 <Pair title="At 19th Level">You learn a new focus power, as above.</Pair>
 <Pair title="Special">You can use focus powers only by expending mental focus. Unless otherwise noted, the DC for any saving throw against a focus power equals 10 + <Link to="/misc/half">half</Link> your level + your Intelligence modifier. You can't select a focus power more than once. Some focus powers require you to reach a specific occultist level before you can choose them.</Pair>
 </Ability>
-<Ability id="class-occultist-magic-item-skill-ex" icon={["upgrade"]}>
-<Pair single id="class-occultist-magic-item-skill-ex">Magic Item Skill (Ex)</Pair>
+<Ability id="magic-item-skill-ex" icon={["upgrade"]}>
+<Pair single id="magic-item-skill-ex">Magic Item Skill (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">Your knowledge of magic items grants you a bonus when attempting to use them. You gain a bonus on all <Link to="/skill/use_magic_device">Use Magic Device</Link> checks equal to 1/2 your occultist level.</Pair>
 </Ability>
-<Ability id="class-occultist-object-reading-su" icon={["stairs-goal"]}>
-<Pair single id="class-occultist-object-reading-su">Object Reading (Su)</Pair>
+<Ability id="object-reading-su" icon={["stairs-goal"]}>
+<Pair single id="object-reading-su">Object Reading (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">You learn how to read information from items you examine. Examining an item in this way requires you to spend 1 minute handling the item. If the item is a magic item, you learn its properties and command word as if you had successfully examined the item using <Link to="/spell/detect_magic">detect magic</Link> and succeeded at a Spellcraft check. This ability does not reveal whether the item is cursed unless your class level is equal to or greater than the caster level of the item. If the item has any historical significance, you learn one piece of information about its past (as determined by the GM). Finally, if the item was last used no longer than 1 day ago per your class level, you learn one piece of information about the last creature to use the item. This information might be a glimpse of the creature's appearance, a brief vision of what it saw while using the item, or perhaps its emotional state when it last used the item. The GM determines what information is gained in this way. This functions like the <Link to="/skill/psychometry">psychometry occult skill unlock</Link>, but doesn't require a skill check and can be used at will.</Pair>
 </Ability>
-<Ability id="class-occultist-shift-focus-su" icon={["stairs-goal"]}>
-<Pair single id="class-occultist-shift-focus-su">Shift Focus (Su)</Pair>
+<Ability id="shift-focus-su" icon={["stairs-goal"]}>
+<Pair single id="shift-focus-su">Shift Focus (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain the ability to shift your mental focus from one implement to another, though some of the focus is lost along the way. Shifting mental focus removes a number of points of mental focus from one implement and adds the same number - 1 to another implement; this takes 1 minute of quiet contemplation while touching both implements.</Pair>
 <Pair title="Special">You can shift your mental focus only from one implement to another implement; you can't shift generic focus into an implement. Unlike expending focus normally, this shift can reduce the effect of a resonant power in the implement from which the mental focus was taken. It does not, however, add to the resonant power of the implement to which the focus is added.</Pair>
 </Ability>
-<Ability id="class-occultist-aura-sight-su" icon={["stairs-goal"]}>
-<Pair single id="class-occultist-aura-sight-su">Aura Sight (Su)</Pair>
+<Ability id="aura-sight-su" icon={["stairs-goal"]}>
+<Pair single id="aura-sight-su">Aura Sight (Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Standard Action">You can read the auras of creatures around you. This functions as the <Link to="/spell/aura_sight">aura sight</Link> spell with a duration of 1 round.</Pair>
 </Ability>
-<Ability id="class-occultist-magic-circles-su" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-occultist-magic-circles-su">Magic Circles (Su)</Pair>
+<Ability id="magic-circles-su" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="magic-circles-su">Magic Circles (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">You learn how to draw magic circles. To draw a circle, you must have chalk, salt, blood, powdered silver, or some other appropriate substance at hand (although you can press a magic circle into a softer surface such as dirt or clay). Drawing a circle takes 1 minute and requires you to expend 1 point of mental focus (either generic focus or focus from any one of your implements). Once completed, this circle functions as a permanent <Link to="/spell/magic_circle">magic circle</Link> against any alignment of your choosing. The circle can't be against a component of your alignment (if you are lawful good, for example, it can't be a <em>against good</em> or <em>against law</em>).</Pair>
 <Pair title="Special">The circle remains until its form is physically broken (for example, if the lines are smeared or the salt is scattered). Only a living creature can break the circle; environmental effects can't break it. You can have only one circle created in this way at a time. If you create a second circle, the first one loses all its magic powers. This type of magic circle can't normally be focused inward to bind an outsider.</Pair>
@@ -1074,19 +1074,19 @@ const _occultist = {hasJL:true,title: "Occultist", jsx: <><div className="jumpLi
 <Pair title="At 16th Level">You learn to contact one more outsider of the same type or different type, and you may ask one more related question, as above. Also, in lieu of asking questions, you can demand that the outsider deliver a message to any one friendly creature that you know personally. You can also task the outsider to deliver one object weighing no more than 1 pound. Either of these demands requires an opposed check as described above. Delivery typically takes 1d4 hours, but this period is reduced to 1d6 minutes if the recipient is within 1 mile of you (or even less if the recipient is within sight). You must be able to accurately describe the recipient in both name and appearance. This ability can't be used to deliver anything to a location, or to enemies or creatures that are unfriendly to you.</Pair>
 <Pair title="At 20th Level">You learn to contact a fourth outsider of the same type or different type, and you may ask one more related question, as above.</Pair>
 </Ability>
-<Ability id="class-occultist-binding-circles-su" icon={["magic-swirl"]}>
-<Pair single id="class-occultist-binding-circles-su">Binding Circles (Su)</Pair>
+<Ability id="binding-circles-su" icon={["magic-swirl"]}>
+<Pair single id="binding-circles-su">Binding Circles (Su)</Pair>
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Ability">Whenever you create a magic circle you can expend 1 additional point of mental focus to make it a binding circle. A binding circle is invisible and counts as a trap. If a living creature of the corresponding alignment steps inside it, the trap triggers and binds the creature inside the circle. While it can move freely within the circle, it can't leave the circle, make attacks against targets outside the circle, cast spells that cross the circle's boundary (the circle blocks line of effect from the inside), or use any ability that would allow it to leave the circle or disturb the circle in any way. When the circle traps a creature in this way, the creature can attempt a Reflex save to dive out of the circle before the magic takes hold (DC = 10 + 1/2 your level + your Intelligence modifier).</Pair>
 <Pair title="Special">A creature that can see the circle gains a +4 bonus on this save. If it fails its save, the creature must remain in the circle, although it can attempt a Will save at the same DC at the end of each hour of imprisonment to escape. A binding circle can be spotted with a successful Perception check (DC = 25 + 1/2 your level). It can also be disarmed using Disable Device, with the same DC. Anything crossing the boundary of the circle from the outside, such as a weapon, spell effect, or special ability, immediately breaks the circle and frees the creature trapped inside.</Pair>
 </Ability>
-<Ability id="class-occultist-fast-circles-su" icon={["upgrade"]}>
-<Pair single id="class-occultist-fast-circles-su">Fast Circles (Su)</Pair>
+<Ability id="fast-circles-su" icon={["upgrade"]}>
+<Pair single id="fast-circles-su">Fast Circles (Su)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Ability">You learn to draw magic circles very quickly. You can draw a magic circle as a <strong className="hl">full-round action</strong>, but any circle drawn in this way has a duration of 1 minute per occultist level (unless it's drawn in conjunction with the <em>outside contact</em> class feature, in which case it lasts for 10 minutes as normal). If you draw a <em>binding circle</em> in this way, its duration is 1 round per occultist level.</Pair>
 </Ability>
-<Ability id="class-occultist-implement-mastery-su" icon={["upgrade"]}>
-<Pair single id="class-occultist-implement-mastery-su">Implement Mastery (Su)</Pair>
+<Ability id="implement-mastery-su" icon={["upgrade"]}>
+<Pair single id="implement-mastery-su">Implement Mastery (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">You select one implement school to master. Whenever you use a focus power from an implement of that school, the DC to resist any of the effects increases by 4 and you treat your occultist level as 4 higher when determining the effects and duration of that power. The hardness of each of your implements of the mastered school increases by an additional 20 as long as the item has at least 1 point of mental focus stored within.</Pair>
 <Pair title="Ability">In addition, you gain 4 extra points of mental focus, but these points must always be invested in implements of the mastered school. You can't save these points or expend them for any ability other than the focus powers of those implements.</Pair>
@@ -1126,7 +1126,7 @@ const _occultist = {hasJL:true,title: "Occultist", jsx: <><div className="jumpLi
 <h3 id="class-occultist-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"occultist archetypes","columns":[{"header":"Archetype","link":"arc-occultist"},{"header":"Aura Sight"},{"header":"Class Skills"},{"header":"Implements"},{"header":"6th-level Implement"},{"header":"Implement Mastery"},{"header":"Knacks"},{"header":"Magic Circles"},{"header":"Binding Circles"},{"header":"Fast Circles"},{"header":"Magic Item Skill"},{"header":"Mental Focus"},{"header":"Shift Focus"},{"header":"Focus Powers"},{"header":"3rd-level Focus Power"},{"header":"5th-level Focus Power"},{"header":"7th-level Focus Power"},{"header":"9th-level Focus Power"},{"header":"13th-level Focus Power"},{"header":"15th-level Focus Power"},{"header":"17th-level Focus Power"},{"header":"Object Reading"},{"header":"Outside Contact"},{"header":"Outside Contact 2"},{"header":"Outside Contact 3"},{"header":"Outside Contact 4"},{"header":"Spellcasting"},{"header":"Weapon Proficiency"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Ancestral Aspirant","ancestral_aspirant"],null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null],[["Battle Host","battle_host"],"X","X","X",null,"X",null,"X","X","X","X","X","X",null,null,null,null,null,null,null,null,"X","X",null,null,null,"X",null,"X"],[["Construct Collector","construct_collector"],null,null,null,null,null,null,"X","X","X",null,null,null,null,"X",null,null,"X",null,"X",null,null,"X",null,null,null,null,null,null],[["Curator","curator"],null,null,"X",null,null,null,"X","X","X",null,null,"X",null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Esoteric Initiate","esoteric_initiate"],"X",null,"X",null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Extemporaneous Channeler","extemporaneous_channeler"],null,null,null,null,null,null,"X","X","X",null,"X","X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,"X",null],[["Geomancer","geomancer"],"X","X","X",null,null,null,null,null,null,"X","X",null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null],[["Haunt Collector","haunt_collector"],"X",null,"X",null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Naturalist","naturalist"],null,"X",null,null,null,null,"X","X","X",null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Necroccultist","necroccultist"],"X",null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null],[["Occult Historian","occult_historian"],"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,"X","X","X",null,null,null],[["Panoply Savant","panoply_savant"],null,null,null,null,null,null,"X","X","X",null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null],[["Planar Harmonizer","planar_harmonizer"],"X",null,"X",null,"X",null,"X",null,null,"X",null,"X",null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null],[["Psychodermist","psychodermist"],"X","X","X",null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null],[["Reliquarian","reliquarian"],null,null,"X",null,null,"X",null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null],[["Secret Broker","secret_broker"],null,"X","X",null,"X",null,"X","X","X","X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Sha'ir","shair"],"X",null,"X",null,"X",null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,"X","X",null,null,null,"X",null,null],[["Silksworn","silksworn"],null,"X","X",null,"X","X","X","X","X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,"X"],[["Talisman Crafter","talisman_crafter"],"X",null,"X",null,null,null,null,null,null,"X",null,"X",null,null,"X",null,null,null,null,"X","X",null,null,null,null,null,null,null],[["Tome Eater","tome_eater"],"X",null,"X","X","X",null,"X","X","X",null,"X","X",null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-occultist-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="occultist" prefix="class-occultist-" />
+<RacialOptions cls="occultist" />
 </>};
 const _oracle = {hasJL:true,title: "Oracle", jsx: <><div className="jumpList" id="class-oracle-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-oracle-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-oracle-mystery">Mystery</InnerLink></li><li><InnerLink toTop to="class-oracle-oracles-curse-ex">Oracle's Curse</InnerLink></li><li><InnerLink toTop to="class-oracle-revelation">Revelation</InnerLink></li><li><InnerLink toTop to="class-oracle-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-oracle-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-oracle-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-oracle-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-oracle-oracle">Oracle</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 42</Link></p>
@@ -1774,30 +1774,30 @@ const _oracle = {hasJL:true,title: "Oracle", jsx: <><div className="jumpList" id
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={1}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th>Shields?</th><td colSpan={2}>Yes, except tower shields</td></tr><tr><td colSpan={3} className="sw se">Some oracle revelations grant additional proficiencies.</td></tr></tbody></table>
-<Ability id="class-oracle-spells" icon={["magic-swirl"]}><Pair single id="class-oracle-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Charisma score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Charisma score.</Pair>
 <Pair title="Ability">You gain the ability to cast divine spells which are drawn from the <Link to="/main/spells_oracle">oracle spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>An oracle's selection of spells is extremely limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new oracle level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Charisma score.</p>
 <p>In addition to the spells gained by oracles as they gain levels, you also add all of either the <Link to="/main/spell_groupings">cure spells or the inflict spells</Link> to your list of spells known. This choice is made when you gain your first oracle level and cannot be changed. These spells are added as soon as you are capable of casting them.</p>
-<p>At 4th level, and every two levels thereafter (6th, 8th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level. You cannot swap any <em>cure</em> or <em>inflict</em> spells, nor can you swap any spells gained from your mystery.</p></Pair><Pair title="Special">Oracles do not need to provide a divine focus to cast spells that list divine focus (DF) as part of the components.</Pair></Ability><Ability id="class-oracle-orisons" icon={["magic-swirl"]}>
-<Pair single id="class-oracle-orisons">Orisons</Pair>
+<p>At 4th level, and every two levels thereafter (6th, 8th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level. You cannot swap any <em>cure</em> or <em>inflict</em> spells, nor can you swap any spells gained from your mystery.</p></Pair><Pair title="Special">Oracles do not need to provide a divine focus to cast spells that list divine focus (DF) as part of the components.</Pair></Ability><Ability id="orisons" icon={["magic-swirl"]}>
+<Pair single id="orisons">Orisons</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of orisons, or 0-level divine spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Orisons cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
-<Ability id="class-oracle-mystery" icon={["stairs-goal","magic-swirl","skills"]}>
-<Pair single id="class-oracle-mystery" flavor="Each oracle draws upon a divine mystery to grant her spells and powers.">Mystery</Pair>
+<Ability id="mystery" icon={["stairs-goal","magic-swirl","skills"]}>
+<Pair single id="mystery" flavor="Each oracle draws upon a divine mystery to grant her spells and powers.">Mystery</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must pick one <Link to="/ability/mystery">mystery</Link> upon taking your first level of oracle. Once made, this choice cannot be changed. This mystery grants additional class skills and other special abilities.</Pair>
 <Pair title="At 2nd Level">At 2nd level, and every two levels thereafter (4th, 6th, 8th, and so on), you learn an additional spell derived from your mystery. These spells are in addition to the number of spells gained each level. They cannot be exchanged for different spells at higher levels.</Pair>
 </Ability>
 <p>An oracle's mystery can represent a devotion to one ideal, prayers to deities that support the concept, or a natural calling to champion a cause. For example, an oracle with the <Link to="/mystery/waves">waves</Link> mystery might have been born at sea and found a natural calling to worship the gods of the oceans, rivers, and lakes, be they benign or malevolent. Regardless of its source, the mystery manifests in a number of ways as the oracle gains levels.</p>
-<Ability id="class-oracle-oracles-curse-ex" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-oracle-oracles-curse-ex" flavor="Each oracle is cursed, but this curse comes with a benefit as well as a hindrance.">Oracle's Curse (Ex)</Pair>
+<Ability id="oracles-curse-ex" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="oracles-curse-ex" flavor="Each oracle is cursed, but this curse comes with a benefit as well as a hindrance.">Oracle's Curse (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You must choose a single <Link to="/ability/oracle_curses">oracle curse</Link>. Once made, this choice cannot be changed, and it cannot be removed or dispelled without the aid of a deity. Your curse is based on your oracle level plus one for every two levels or Hit Dice other than oracle.</Pair>
 </Ability>
-<Ability id="class-oracle-revelation" icon={["stairs-goal"]}>
-<Pair single id="class-oracle-revelation" flavor="An oracle uncovers a new secret about her mystery that grants her powers and abilities.">Revelation</Pair>
+<Ability id="revelation" icon={["stairs-goal"]}>
+<Pair single id="revelation" flavor="An oracle uncovers a new secret about her mystery that grants her powers and abilities.">Revelation</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You select a revelation from the list of revelations available to your mystery. Unless otherwise noted, activating the power of a revelation is a <strong className="hl">standard action</strong>.</Pair>
 <Pair title="At 3rd Level">You gain a new revelation.</Pair>
@@ -1807,8 +1807,8 @@ const _oracle = {hasJL:true,title: "Oracle", jsx: <><div className="jumpList" id
 <Pair title="At 19th Level">You gain a new revelation.</Pair>
 <Pair title="Special">If a revelation is chosen after 1st level, you gain all of the abilities and bonuses granted by that revelation based on your current level.</Pair>
 </Ability>
-<Ability id="class-oracle-final-revelation" icon={["stairs-goal"]}>
-<Pair single id="class-oracle-final-revelation" flavor="At 20th level, an oracle learns the final revelation about her mystery, granting her amazing powers and abilities.">Final Revelation</Pair>
+<Ability id="final-revelation" icon={["stairs-goal"]}>
+<Pair single id="final-revelation" flavor="At 20th level, an oracle learns the final revelation about her mystery, granting her amazing powers and abilities.">Final Revelation</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability">You gain the <em>final revelation</em> listed in your mystery. The nature of these bonuses depends upon the mystery.</Pair>
 </Ability>
@@ -1853,7 +1853,7 @@ const _oracle = {hasJL:true,title: "Oracle", jsx: <><div className="jumpList" id
 <h3 id="class-oracle-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"oracle archetypes","columns":[{"header":"Archetype","link":"arc-oracle"},{"header":"Bonus Spells"},{"header":"2nd-level Bonus Spell"},{"header":"4th-level Bonus Spell"},{"header":"6th-level Bonus Spell"},{"header":"8th-level Bonus Spell"},{"header":"10th-level Bonus Spell"},{"header":"12th-level Bonus Spell"},{"header":"14th-level Bonus Spell"},{"header":"16th-level Bonus Spell"},{"header":"18th-level Bonus Spell"},{"header":"Class Skills"},{"header":"Mystery"},{"header":"Mystery Skills"},{"header":"1st-level Revelation"},{"header":"1st, 3rd, or 7th-level Revelations (must pick two)"},{"header":"3rd-level Revelation"},{"header":"7th-level Revelation"},{"header":"11th-level Revelation"},{"header":"15th-level Revelation"},{"header":"Final Revelation"},{"header":"Oracle's Curse"},{"header":"Spellcasting"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Ancient Lorekeeper","ancient_lorekeeper"],null,null,"X","X","X","X","X","X","X","X",null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Black-Blooded Oracle","black_blooded_oracle"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Community Guardian","community_guardian"],null,"X","X","X",null,"X","X",null,null,null,null,null,"X","X",null,"X",null,null,null,null,null,null,null],[["Cyclopean Seer","cyclopean_seer"],"X",null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,"X",null,null,"X","X",null,null],[["Divine Numerologist","divine_numerologist"],null,null,null,null,null,"X","X","X","X","X",null,null,null,"X",null,null,"X",null,null,"X",null,null,null],[["Dual-Cursed Oracle","dual_cursed_oracle"],"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null],[["Elementalist Oracle","elementalist_oracle"],null,null,"X","X","X","X","X",null,null,"X",null,null,null,"X",null,null,null,"X",null,"X",null,null,null],[["Enlightened Philosopher","enlightened_philosopher"],"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,"X",null,null,null],[["Hermit","hermit"],null,null,"X",null,"X",null,"X",null,"X",null,null,"X",null,"X",null,null,"X",null,null,null,"X",null,null],[["Inerrant Voice","inerrant_voice"],null,"X","X",null,"X",null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Keleshite Prophet","keleshite_prophet"],null,null,null,"X",null,"X","X",null,"X","X",null,null,"X","X",null,null,null,null,null,null,null,null,null],[["Ocean's Echo","oceans_echo"],null,null,"X",null,"X","X","X","X",null,null,null,null,"X","X",null,"X",null,null,"X",null,null,null,null],[["Pei Zin Practitioner","pei_zin_practitioner"],null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null],[["Planar Oracle","planar_oracle"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,"X",null,null,null],[["Possessed Oracle","possessed_oracle"],"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null],[["Psychic Searcher","psychic_searcher"],"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null],[["Purifier","purifier"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X","X",null,null,null,"X",null],[["Reincarnated Oracle","reincarnated_oracle"],"X",null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null],[["River Soul","river_soul"],null,"X",null,"X","X","X",null,null,null,"X",null,null,"X","X",null,null,null,"X",null,"X","X",null,null],[["Seeker","seeker"],null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,"X",null,null,null,null],[["Seer","seer"],"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null],[["Shigenjo","shigenjo"],"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,"X",null,null,"X",null,null,null],[["Spirit Guide","spirit_guide"],null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X","X",null,"X",null,null,null,null],[["Stargazer","stargazer"],"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null],[["Tree Soul","tree_soul"],null,"X",null,null,null,"X","X","X","X","X",null,null,"X","X",null,null,null,"X",null,"X","X",null,"X"],[["Warsighted","warsighted"],null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,"X","X","X",null,null,null,null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-oracle-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="oracle" prefix="class-oracle-" />
+<RacialOptions cls="oracle" />
 </>};
 const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" id="class-paladin-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-paladin-code-of-conduct">Code of Conduct</InnerLink></li><li><InnerLink toTop to="class-paladin-aura-of-good-ex">Good and Evil</InnerLink></li><li><InnerLink toTop to="class-paladin-oaths">Oaths</InnerLink></li><li><InnerLink toTop to="class-paladin-divine-grace-su">Grace and Healing</InnerLink></li><li><InnerLink toTop to="class-paladin-aura-of-courage-su">Courage, Health, and Mercy</InnerLink></li><li><InnerLink toTop to="class-paladin-channel-positive-energy-su">Channel Positive Energy</InnerLink></li><li><InnerLink toTop to="class-paladin-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-paladin-divine-bond-sp-su">Divine Bond</InnerLink></li><li><InnerLink toTop to="class-paladin-aura-of-resolvesu">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-paladin-ex-paladins">Ex-Paladins</InnerLink></li><li><InnerLink toTop to="class-paladin-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-paladin-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-paladin-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-paladin-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-paladin-paladin">Paladin</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 60</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -2121,13 +2121,13 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <p><strong className="hl" id="class-paladin-code-of-conduct" data-hash-target>Code of Conduct:</strong> A paladin must be of lawful good alignment and loses all class features except proficiencies if she ever willingly commits an evil act.</p>
 <p>Additionally, a paladin's code requires that she respect legitimate authority, act with honor (not lying, not cheating, not using poison, and so forth), help those in need (provided they do not use the help for evil or chaotic ends), and punish those who harm or threaten innocents.</p>
 <p><strong className="hl">Associates:</strong> While she may adventure with good or neutral allies, a paladin avoids working with evil characters or with anyone who consistently offends her moral code. Under exceptional circumstances, a paladin can ally with evil associates, but only to defeat what she believes to be a greater evil. A paladin should seek an <Link to="/spell/atonement">atonement</Link> spell periodically during such an unusual alliance, and should end the alliance immediately should she feel it is doing more harm than good. A paladin may accept only <Link to="/feat/leadership">henchmen, followers, or cohorts</Link> who are lawful good.</p>
-<Ability id="class-paladin-aura-of-good-ex" icon={["aura"]}>
-<Pair single id="class-paladin-aura-of-good-ex">Aura of Good (Ex)</Pair>
+<Ability id="aura-of-good-ex" icon={["aura"]}>
+<Pair single id="aura-of-good-ex">Aura of Good (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">The power of your aura of good (see <Link to="/spell/detect_good">detect good</Link>) is equal to your paladin level.</Pair>
 </Ability>
-<Ability id="class-paladin-detect-evil-sp" icon={["stairs-goal"]}>
-<Pair single id="class-paladin-detect-evil-sp">Detect Evil (Sp)</Pair>
+<Ability id="detect-evil-sp" icon={["stairs-goal"]}>
+<Pair single id="detect-evil-sp">Detect Evil (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">At will, you can use <Link to="/spell/detect_evil">detect evil</Link>, as the spell.</Pair>
 <Pair title="Move-Equivalent Action">You can concentrate on a single item or individual within 60 feet and determine if it is evil, learning the strength of its aura as if having studied it for 3 rounds. While focusing on one individual or object, you do not <em>detect evil</em> in any other object or individual within range.</Pair>
@@ -2148,31 +2148,31 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="At 19th Level">You can smite 7 times a day.</Pair>
 </Ability>
 <aside><p><strong className="hl" id="class-paladin-oaths" data-hash-target>Oaths:</strong> Optionally, a paladin may take <Link to="/ability/oaths">an oath</Link>. While all paladins have their own codes of conduct, either taught by an order, handed down from the gods, or inspired by personal conviction, an oathbound paladin devotes herself to a singular cause, which grants her additional powers but also gives further edicts she must follow. An oathbound paladin swears an oath to eradicate a certain kind of evil. This powerful oath gives her access to new spells and adds to or alters typical paladin abilities.</p>
-</aside><Ability id="class-paladin-divine-grace-su" icon={["armor-upgrade"]}>
-<Pair single id="class-paladin-divine-grace-su">Divine Grace (Su)</Pair>
+</aside><Ability id="divine-grace-su" icon={["armor-upgrade"]}>
+<Pair single id="divine-grace-su">Divine Grace (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a bonus equal to your Charisma bonus (if any) on all saving throws.</Pair>
 </Ability>
-<Ability id="class-paladin-lay-on-hands-su" icon={["remedy"]}>
-<Pair single id="class-paladin-lay-on-hands-su" flavor="A paladin can heal wounds (her own or those of others) by touch.">Lay On Hands (Su)</Pair>
+<Ability id="lay-on-hands-su" icon={["remedy"]}>
+<Pair single id="lay-on-hands-su" flavor="A paladin can heal wounds (her own or those of others) by touch.">Lay On Hands (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">Half your paladin level, plus your Cha modifier, times/day.</Pair>
 <Pair title="Standard Action">You heal 1d6 hit points of damage for every two paladin levels you possess. Despite the name of this ability, you only need one free hand to use this ability.</Pair>
 <Pair title="Swift Action">You can heal yourself instead of another creature, as above.</Pair>
 <Pair title="Ability">Alternatively, as a melee touch attack, you can use this healing power to deal damage to undead creatures, dealing 1d6 points of damage for every two paladin levels you possess. This doesn't provoke an attack of opportunity. Undead do not receive a saving throw against this damage.</Pair>
 </Ability>
-<Ability id="class-paladin-aura-of-courage-su" icon={["armor-upgrade","aura"]}>
-<Pair single id="class-paladin-aura-of-courage-su">Aura of Courage (Su)</Pair>
+<Ability id="aura-of-courage-su" icon={["armor-upgrade","aura"]}>
+<Pair single id="aura-of-courage-su">Aura of Courage (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You are immune to fear (magical or otherwise). Each ally <Link to="/misc/emanation">within 10 feet of you</Link> gains a +4 morale bonus on saving throws against fear effects. This ability functions only while you are conscious, not if you're unconscious or dead.</Pair>
 </Ability>
-<Ability id="class-paladin-divine-health-ex" icon={["armor-upgrade"]}>
-<Pair single id="class-paladin-divine-health-ex">Divine Health (Ex)</Pair>
+<Ability id="divine-health-ex" icon={["armor-upgrade"]}>
+<Pair single id="divine-health-ex">Divine Health (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You are immune to all diseases, including supernatural and magical diseases, including <Link to="/curse/mummy_rot">mummy rot</Link>.</Pair>
 </Ability>
-<Ability id="class-paladin-mercy-su" icon={["upgrade","remedy"]}>
-<Pair single id="class-paladin-mercy-su">Mercy (Su)</Pair>
+<Ability id="mercy-su" icon={["upgrade","remedy"]}>
+<Pair single id="mercy-su">Mercy (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You gain one <Link to="/ability/mercy">mercy</Link>, which adds an effect to your <em>lay on hands</em> ability. Whenever you use <em>lay on hands</em> to heal damage to one target, the target also receives the additional effects from <strong>all</strong> of the mercies you possess. Once a condition or spell effect is chosen, it can't be changed.</Pair>
 <Pair title="At 6th Level">You gain a new mercy.</Pair>
@@ -2182,13 +2182,13 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="At 18th Level">You gain a new mercy.</Pair>
 <Pair title="Special">A mercy can remove a condition caused by a curse, disease, or poison without curing the affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction that causes the condition.</Pair>
 </Ability>
-<Ability id="class-paladin-channel-positive-energy-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="class-paladin-channel-positive-energy-su">Channel Positive Energy (Su)</Pair>
+<Ability id="channel-positive-energy-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="channel-positive-energy-su">Channel Positive Energy (Su)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Standard Action">You gain the supernatural ability to <Link to="/ability/channel_positive_energy">channel positive energy</Link> like a cleric. Using this ability consumes two uses of your <em>lay on hands</em> ability. You use your level as your effective cleric level when channeling positive energy. This is a Charisma-based ability.</Pair>
 </Ability>
-<Ability id="class-paladin-channel-energy-su" extraClasses="subAbility" icon={["aura"]}>
-<Pair single id="class-paladin-channel-energy-su" flavor="Relevant text from the cleric ability.">Channel Energy (Su)</Pair>
+<Ability id="channel-energy-su" extraClasses="subAbility" icon={["aura"]}>
+<Pair single id="channel-energy-su" flavor="Relevant text from the cleric ability.">Channel Energy (Su)</Pair>
 <Pair title="Standard Action">You must present your holy symbol to channel energy. This causes a <Link to="/misc/burst">burst</Link> that affects all creatures of one type (either undead or living) in a 30-foot radius centered on you. This deals or heals (see below) 2d6 damage. You can choose whether or not to include yourself in this effect. Creatures that take damage from channeled energy receive a Will save to halve the damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your cleric level + your Charisma modifier.</Pair>
 <Pair title="Choice">A good cleric (or one who worships a good deity) channels <strong className="hl">positive energy</strong> and can choose to deal damage to undead creatures or to heal living creatures.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
@@ -2213,8 +2213,8 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 </Pair>
 <Pair title="Special">When it is indicated that you get 0 spells per day of a given spell level, you gain only the bonus spells you would be entitled to based on your Charisma score for that spell level.</Pair>
 </Ability>
-<Ability id="class-paladin-divine-bond-sp-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="class-paladin-divine-bond-sp-su" flavor="A paladin forms a divine bond with her god.">Divine Bond (Sp, Su)</Pair>
+<Ability id="divine-bond-sp-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="divine-bond-sp-su" flavor="A paladin forms a divine bond with her god.">Divine Bond (Sp, Su)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">This bond can take one of two forms: bonded weapon or bonded mount. Once the form is chosen, it cannot be changed.</Pair>
 </Ability>
@@ -2251,28 +2251,28 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <p><strong>Agathion Bond</strong>: As a <strong className="hl">standard action</strong>, the paladin can call forth an <Link to="/family/agathion">agathion</Link> spirit that bonds to her healing hands for 1 minute per paladin level, causing her to manifest physical traits evocative of one kind of agathion. This bond allows the paladin to add her Charisma bonus to the amount of hit points that she restores with her spells, her <em>lay on hands</em> ability, and her <em>channel energy</em> ability. For every 3 levels beyond 5th, she restores 1 additional hit point with those abilities, up to a maximum of 5 + her Charisma modifier at 20th level. The paladin can use this ability once per day at 5th level, and one additional time per day for every 4 levels beyond 5th, up to a total of four times per day at 17th level.</p>
 <p><strong>Angelic Bond</strong>: As a <strong className="hl">standard action</strong>, the paladin can call forth an <Link to="/family/angel">angel</Link> spirit that bonds to her, causing her to manifest a resplendent halo. This bond allows the paladin to shine light as per <Link to="/spell/continual_flame">continual flame</Link> for 1 minute per paladin level. Additionally, while the halo shines, all allies within 20 feet gain the benefits of <Link to="/spell/protection_from_evil">protection from evil</Link>, except the deflection and resistance bonuses are +3. For every 3 levels she has beyond 5th, the deflection bonus and resistance bonus provided by this effect increases by 1, up to a maximum of +8 at 20th level. The paladin can use this ability once per day at 5th level, and one additional time per day for every 4 levels beyond 5th, up to a total of four times per day at 17th level.</p>
 <p><strong>Archon Bond</strong>: As a <strong className="hl">standard action</strong>, the paladin can call forth an <Link to="/family/archon">archon</Link> spirit that bonds to her brow, causing her eyes to glow with righteous fury for 1 minute per paladin level. While this bond is active, any hostile creature within a 10-foot radius of the paladin that looks at her must succeed at a Will saving throw (DC = 10 + 1/2 her paladin level + her Charisma modifier) or take a -2 penalty on attack rolls and saving throws and to AC for 24 hours. Whether or not the saving throw is successful, a creature cannot be affected by the same paladin's archon bond again for 24 hours, and the penalties from multiple archon bonds don't stack. Creatures that don't have eyesight are not affected by this ability. For every 3 levels beyond 5th, the radius of the paladin's archon bond increases by 5 feet, up to a 35-foot radius at 20th level. The paladin can use this ability once per day at 5th level, and one additional time per day for every 4 levels beyond 5th, up to a total of four times per day at 17th level.</p>
-</aside><Ability id="class-paladin-aura-of-resolvesu" icon={["armor-upgrade"]}>
-<Pair single id="class-paladin-aura-of-resolvesu">Aura of Resolve/(Su)</Pair>
+</aside><Ability id="aura-of-resolvesu" icon={["armor-upgrade"]}>
+<Pair single id="aura-of-resolvesu">Aura of Resolve/(Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Passive Ability">You are immune to charm spells and spell-like abilities. Each ally within 10 feet of you gains a +4 morale bonus on saving throws against charm effects. This ability functions only while you are conscious, not if you are unconscious or dead.</Pair>
 </Ability>
-<Ability id="class-paladin-aura-of-justice-su" icon={["upgrade"]}>
-<Pair single id="class-paladin-aura-of-justice-su">Aura of Justice (Su)</Pair>
+<Ability id="aura-of-justice-su" icon={["upgrade"]}>
+<Pair single id="aura-of-justice-su">Aura of Justice (Su)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Free Action">You can expend two uses of your <em>smite evil</em> ability to grant the ability to <em>smite evil</em> to all allies within 10 feet, using your bonuses. Allies must use this <em>smite evil</em> ability by the start of your next turn and the bonuses last for 1 minute. Evil creatures gain no benefit from this ability.</Pair>
 </Ability>
-<Ability id="class-paladin-aura-of-faith-su" icon={["armor-downgrade"]}>
-<Pair single id="class-paladin-aura-of-faith-su">Aura of Faith (Su)</Pair>
+<Ability id="aura-of-faith-su" icon={["armor-downgrade"]}>
+<Pair single id="aura-of-faith-su">Aura of Faith (Su)</Pair>
 <Pair title="Gained">At 14th Level</Pair>
 <Pair title="Passive Ability">Your weapons are treated as good-aligned for the purposes of overcoming <Link to="/rule/damage_reduction">damage reduction</Link>. Any attack made against an enemy within 10 feet of you is treated as good-aligned for the purposes of overcoming damage reduction. This ability functions only while you are conscious, not if you are unconscious or dead.</Pair>
 </Ability>
-<Ability id="class-paladin-aura-of-righteousness-su" icon={["armor-upgrade"]}>
-<Pair single id="class-paladin-aura-of-righteousness-su">Aura of Righteousness (Su)</Pair>
+<Ability id="aura-of-righteousness-su" icon={["armor-upgrade"]}>
+<Pair single id="aura-of-righteousness-su">Aura of Righteousness (Su)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Passive Ability">You gain DR 5/evil and immunity to compulsion spells and spell-like abilities. Each ally within 10 feet of you gains a +4 morale bonus on saving throws against compulsion effects. This ability functions only while you are conscious, not if you are unconscious or dead.</Pair>
 </Ability>
-<Ability id="class-paladin-holy-champion-su" icon={["armor-upgrade","upgrade","remedy"]}>
-<Pair single id="class-paladin-holy-champion-su" flavor="You become a conduit for the power of your god.">Holy Champion (Su)</Pair>
+<Ability id="holy-champion-su" icon={["armor-upgrade","upgrade","remedy"]}>
+<Pair single id="holy-champion-su" flavor="You become a conduit for the power of your god.">Holy Champion (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">Your DR increases to 10/evil. Whenever you use <em>smite evil</em> and successfully strikes an evil outsider, the outsider is also subject to a <Link to="/spell/banishment">banishment</Link>, using your paladin level as the caster level (your weapon and holy symbol automatically count as objects that the subject hates). After the <em>banishment</em> effect and the damage from the attack is resolved, the <em>smite</em> immediately ends. In addition, whenever you channel positive energy or use <em>lay on hands</em> to heal a creature, you heal the maximum possible amount.</Pair>
 </Ability>
@@ -2341,7 +2341,7 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <h3 id="class-paladin-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"paladin archetypes","columns":[{"header":"Archetype","link":"arc-paladin"},{"header":"Alignment Restriction"},{"header":"Armor Proficiency"},{"header":"Aura of Courage"},{"header":"Aura of Faith"},{"header":"Aura of Good"},{"header":"Aura of Justice"},{"header":"Aura of Resolve"},{"header":"Aura of Righteousness"},{"header":"Channel Positive Energy"},{"header":"Class Skills"},{"header":"Code of Conduct"},{"header":"Deity"},{"header":"Detect Evil"},{"header":"Divine Bond"},{"header":"Divine Grace"},{"header":"Divine Health"},{"header":"Heavy Armor Proficiency"},{"header":"Holy Champion"},{"header":"Key Ability Score"},{"header":"Lay on Hands"},{"header":"Mercy"},{"header":"3rd-level Mercy"},{"header":"6th-level Mercy"},{"header":"9th-level Mercy"},{"header":"12th-level Mercy"},{"header":"15th-level Mercy"},{"header":"18th-level Mercy"},{"header":"Skill Ranks"},{"header":"Smite Evil"},{"header":"Spellcasting"},{"header":"Weapon/Armor Proficiency"}],"data":[[["Banishing Warden","banishing_warden"],null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Champion of the Cascade","champion_of_the_cascade"],null,"X",null,null,null,null,null,null,null,"X",null,null,null,"X",null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Chaos Knight","chaos_knight"],null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null],[["Chosen One","chosen_one"],null,null,null,null,null,null,null,null,"X","X",null,null,null,"X","X",null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null],[["Combat Healer Squire","combat_healer_squire"],null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Divine Defender","divine_defender"],null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Divine Guardian","divine_guardian"],null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null],[["Divine Hunter","divine_hunter"],null,null,"X",null,null,"X","X","X",null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null],[["Dusk Knight","dusk_knight"],null,null,null,null,null,"X","X",null,"X","X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Empyreal Knight","empyreal_knight"],null,null,null,null,null,null,null,null,"X",null,null,null,null,"X","X",null,null,"X",null,"X","X",null,null,null,null,null,null,null,null,null,null],[["Faithful Wanderer","faithful_wanderer"],null,null,"X","X","X","X","X","X",null,"X",null,null,"X","X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Forest Preserver","forest_preserver"],null,null,"X","X",null,"X","X",null,"X","X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Forgefather's Seeker","forgefathers_seeker"],null,null,null,"X",null,"X",null,null,null,null,null,"X","X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Ghost Hunter","ghost_hunter"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,"X",null,null],[["Gray Paladin","gray_paladin"],"X",null,"X",null,"X","X","X","X","X","X","X",null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Holy Guide","holy_guide"],null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null],[["Holy Gun","holy_gun"],null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X"],[["Holy Tactician","holy_tactician"],null,null,"X",null,null,"X","X",null,null,null,null,null,null,"X",null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Hospitaler","hospitaler"],null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Hunting Paladin","hunting_paladin"],null,"X",null,null,null,null,"X",null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X","X",null],[["Invigorator","invigorator"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Iomedaen Enforcer","iomedaen_enforcer"],null,null,null,"X",null,null,null,"X",null,"X",null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Iroran Paladin","iroran_paladin"],null,null,"X",null,"X","X",null,null,"X","X",null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X"],[["Knight of Coins","knight_of_coins"],null,null,null,null,null,null,null,null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,"X",null,"X",null,"X",null,"X",null,null,null],[["Kraken Slayer","kraken_slayer"],null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Legate","legate"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null],[["Martyr","martyr"],null,null,"X",null,null,null,"X","X",null,null,null,null,null,null,"X","X",null,null,null,"X","X",null,null,null,null,null,null,null,"X",null,null],[["Mind Sword","mind_sword"],null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null],[["Pearl Seeker","pearl_seeker"],null,"X","X",null,null,null,"X",null,"X","X",null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null],[["Redeemer","redeemer"],null,null,null,null,null,"X","X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Sacred Servant","sacred_servant"],null,null,null,null,null,null,"X",null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Sacred Shield","sacred_shield"],null,null,null,null,null,"X",null,null,"X",null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Scion of Talmandor","scion_of_talmandor"],null,null,null,null,null,"X","X",null,null,"X",null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Shining Knight","shining_knight"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Silver Champion","silver_champion"],null,null,null,null,null,"X",null,"X","X",null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,"X",null,"X",null,"X","X",null],[["Soul Sentinel","soul_sentinel"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,"X",null,null,null,null,null,null],[["Stonelord","stonelord"],null,null,null,null,null,"X",null,null,"X",null,null,null,null,"X","X",null,null,"X",null,null,null,"X",null,"X","X","X","X",null,"X","X",null],[["Sword of Valor","sword_of_valor"],null,null,null,null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null],[["Tempered Champion","tempered_champion"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null],[["Temple Champion","temple_champion"],null,null,null,null,null,"X",null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null],[["Tortured Crusader","tortured_crusader"],null,null,"X","X",null,"X","X","X","X","X",null,null,"X","X","X",null,null,null,"X","X",null,null,null,null,null,null,null,"X","X",null,null],[["Tranquil Guardian","tranquil_guardian"],null,null,"X",null,null,"X","X",null,null,null,null,null,null,"X",null,null,null,"X",null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Undead Scourge","undead_scourge"],null,null,null,null,null,"X","X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[["Vindictive Bastard","vindictive_bastard"],null,null,null,"X","X","X",null,"X","X",null,null,null,"X","X","X","X",null,"X",null,"X","X",null,null,null,null,null,null,null,"X",null,null],[["Virtuous Bravo","virtuous_bravo"],null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null,null,null,null,null,null,"X","X",null],[["Warrior of the Holy Light","warrior_of_the_holy_light"],null,null,null,"X",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null],[["Wilderness Warden","wilderness_warden"],null,null,"X",null,null,"X","X",null,null,"X",null,null,null,null,"X",null,null,null,null,null,null,"X",null,"X",null,"X",null,null,"X","X",null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-paladin-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="paladin" prefix="class-paladin-" />
+<RacialOptions cls="paladin" />
 </>};
 const _psychic = {hasJL:true,title: "Psychic", jsx: <><div className="jumpList" id="class-psychic-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="class-psychic-spells">Spells</InnerLink></li><li><InnerLink toTop to="class-psychic-phrenic-pool-su">Phrenic Pool</InnerLink></li><li><InnerLink toTop to="class-psychic-phrenic-amplifications">Phrenic Amplifications</InnerLink></li><li><InnerLink toTop to="class-psychic-psi-tech">Psi-Tech</InnerLink></li><li><InnerLink toTop to="class-psychic-psychic-discipline-ex-or-sp">Psychic Discipline</InnerLink></li><li><InnerLink toTop to="class-psychic-detect-thoughts-sp">Detect Thoughts</InnerLink></li><li><InnerLink toTop to="class-psychic-telepathic-bond-sp">Telepathic Bond</InnerLink></li><li><InnerLink toTop to="class-psychic-major-amplifications">Other Abilities</InnerLink></li><li><InnerLink toTop to="class-psychic-alternate-capstones">Alternate Capstones</InnerLink></li><li><InnerLink toTop to="class-psychic-archetypes">Archetypes</InnerLink></li><li><InnerLink toTop to="class-psychic-archetypes-by-feature">Archetypes by Feature</InnerLink></li><li><InnerLink toTop to="class-psychic-favored-class-bonuses">Favored Class Bonuses</InnerLink></li></ul></div><h2 id="class-psychic-psychic">Psychic</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 60</Link></p>
@@ -2989,23 +2989,23 @@ const _psychic = {hasJL:true,title: "Psychic", jsx: <><div className="jumpList" 
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={1}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>No</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<Ability id="class-psychic-spells" icon={["magic-swirl"]}><Pair single id="class-psychic-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}><Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">To learn or cast a spell, you must have a Intelligence score equal to at least 10 + the spell level. You can cast only a certain number of spells of each spell level per day, as shown on the table above. In addition, you receive <Link to="/rule/determine_bonuses">bonus spells per day</Link> if you have a high Intelligence score.</Pair>
 <Pair title="Ability">You gain the ability to cast psychic spells which are drawn from the <Link to="/main/spells_psychic">psychic spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Intelligence modifier. You do not need to prepare these spells in advance; you can cast any spell you know at any time, assuming you haven't yet used up your allotment of spells per day for the spell's level.</Pair><Pair title="Info"><p>A psychic's selection of spells is limited. You begin play knowing four 0-level spells and two 1st-level spells of your choice. At each new psychic level you gain one or more new spells as indicated on the table above. Unlike spells per day, the number of spells you know is not affected by your Intelligence score.</p>
-<p>At 4th level, and every two levels thereafter (6th, 8th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level psychic spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="class-psychic-knacks" icon={["magic-swirl"]}>
-<Pair single id="class-psychic-knacks">Knacks</Pair>
+<p>At 4th level, and every two levels thereafter (6th, 8th, and so on), you can choose to learn a new spell in place of one you already know. In effect, you "lose" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level psychic spell you can cast. You may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that you gain new spells known for the level.</p></Pair></Ability><Ability id="knacks" icon={["magic-swirl"]}>
+<Pair single id="knacks">Knacks</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of knacks, or 0-level psychic spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Knacks cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
-<Ability id="class-psychic-phrenic-pool-su" icon={["stairs-goal"]}>
-<Pair single id="class-psychic-phrenic-pool-su">Phrenic Pool (Su)</Pair>
+<Ability id="phrenic-pool-su" icon={["stairs-goal"]}>
+<Pair single id="phrenic-pool-su">Phrenic Pool (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You have a pool of supernatural mental energy that you can draw upon to manipulate psychic spells as you cast them. The maximum number of points in your <em>phrenic pool</em> is equal to <Link to="/misc/half">half</Link> your psychic level + your Wisdom or Charisma modifier, as determined by your <em>psychic discipline</em> (described below).</Pair>
 <Pair title="Special">The <em>phrenic pool</em> is replenished each morning after 8 hours of rest or meditation; these hours don't need to be consecutive. You might be able to recharge points in your <em>phrenic pool</em> in additional circumstances dictated by your <em>psychic discipline.</em> Points gained in excess of the <em>pool's</em> maximum are lost.</Pair>
 </Ability>
-<Ability id="class-psychic-phrenic-amplifications" icon={["upgrade","magic-swirl"]}>
-<Pair single id="class-psychic-phrenic-amplifications" flavor="A psychic develops particular techniques to empower her spellcasting.">Phrenic Amplifications</Pair>
+<Ability id="phrenic-amplifications" icon={["upgrade","magic-swirl"]}>
+<Pair single id="phrenic-amplifications" flavor="A psychic develops particular techniques to empower her spellcasting.">Phrenic Amplifications</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">You can activate a <em>phrenic amplification</em> only while casting a spell using psychic magic, and the amplification modifies either the spell's effects or the process of casting it. The spell being cast is called the linked spell.</Pair>
 <Pair title="Ability">You learn a <Link to="/ability/phrenic_amplifications">phrenic amplification</Link>. You can activate only one amplification each time you cast a spell, and doing so is part of the action used to cast the spell. You can use any amplification you know with any psychic spell, unless the amplification's description states that it can be linked only to certain types of spells.</Pair>
@@ -3017,8 +3017,8 @@ const _psychic = {hasJL:true,title: "Psychic", jsx: <><div className="jumpList" 
 <Pair title="Special">A <em>phrenic amplification</em> can't be selected more than once. Once a <em>phrenic amplification</em> has been selected, it can't be changed. <em>Phrenic amplifications</em> require you to expend 1 or more points from your <em>phrenic pool</em> to function.</Pair>
 </Ability>
 <aside><p><strong className="hl" id="class-psychic-psi-tech" data-hash-target>Psi-Tech:</strong> A psychic can learn a <Link to="/ability/psi_tech">psi-tech discovery</Link> in place of a <em>phrenic amplification</em> or a feat. Many of these discoveries use the rules for <Link to="/rule/technological_equipment">advanced technology</Link>.</p>
-</aside><Ability id="class-psychic-psychic-discipline-ex-or-sp" icon={["stairs-goal"]}>
-<Pair single id="class-psychic-psychic-discipline-ex-or-sp" flavor="Each psychic accesses and improves her mental powers through a particular method, such as rigorous study or attaining a particular mental state. This is called her psychic discipline.">Psychic Discipline (Ex or Sp)</Pair>
+</aside><Ability id="psychic-discipline-ex-or-sp" icon={["stairs-goal"]}>
+<Pair single id="psychic-discipline-ex-or-sp" flavor="Each psychic accesses and improves her mental powers through a particular method, such as rigorous study or attaining a particular mental state. This is called her psychic discipline.">Psychic Discipline (Ex or Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Choose one <Link to="/ability/disciplines">discipline</Link>. Once made, this choice can't be changed. You gain an additional spell known based on your selected discipline, and you gain its 1st-level discipline power. The DC of a saving throw against a <em>psychic discipline</em> ability equals 10 + 1/2 your psychic level + your Intelligence modifier.</Pair>
 <Pair title="At 4th Level">You gain a new spell from your discipline.</Pair>
@@ -3033,33 +3033,33 @@ const _psychic = {hasJL:true,title: "Psychic", jsx: <><div className="jumpList" 
 <Pair title="At 18th Level">You gain a new spell from your discipline.</Pair>
 <Pair title="Special">The discipline determines which ability score you use for your <em>phrenic pool</em> and <em>phrenic amplifications</em> abilities. Spells learned from a discipline can't be exchanged for different spells at higher levels.</Pair>
 </Ability>
-<Ability id="class-psychic-detect-thoughts-sp" icon={["stairs-goal"]}>
-<Pair single id="class-psychic-detect-thoughts-sp">Detect Thoughts (Sp)</Pair>
+<Ability id="detect-thoughts-sp" icon={["stairs-goal"]}>
+<Pair single id="detect-thoughts-sp">Detect Thoughts (Sp)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Standard Action">You can use <Link to="/spell/detect_thoughts">detect thoughts</Link> as a spell-like ability once per day.</Pair>
 <Pair title="Ability">You can also expend any unused spell slot of 1st level or higher to cast <em>detect thoughts.</em> If you do so, you use the level of the spell slot expended to determine the Will save DC.</Pair>
 <Pair title="Special">When you gain this ability, if you already know <em>detect thoughts,</em> you can learn a different 1st-level spell in place of it, losing the old spell in exchange for the new one.</Pair>
 </Ability>
-<Ability id="class-psychic-telepathic-bond-sp" icon={["stairs-goal"]}>
-<Pair single id="class-psychic-telepathic-bond-sp">Telepathic Bond (Sp)</Pair>
+<Ability id="telepathic-bond-sp" icon={["stairs-goal"]}>
+<Pair single id="telepathic-bond-sp">Telepathic Bond (Sp)</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Standard Action">You can use <Link to="/spell/telepathic_bond">telepathic bond</Link> as a spell-like ability once per day, using your psychic level as your caster level. You can't leave yourself out of a <em>bond</em> created in this way.</Pair>
 <Pair title="Ability">You can also expend any unused spell slot of 4th level or higher to cast <em>telepathic bond.</em> Casting the spell using a higher-level spell slot gives no benefit on its own, but you can apply metamagic feats that would increase the spell level to the appropriate level. For instance, if you know <Link to="/feat/extend_spell">Extend Spell</Link>, you can use a 5th-level spell slot to cast extended <em>telepathic bond</em> as a full-round action.</Pair>
 <Pair title="Special">When you gain this ability, if you already know <em>telepathic bond,</em> you can learn a different 4th-level spell in place of it, losing the old spell in exchange for the new one.</Pair>
 </Ability>
-<Ability id="class-psychic-major-amplifications" icon={["upgrade"]}>
-<Pair single id="class-psychic-major-amplifications">Major Amplifications</Pair>
+<Ability id="major-amplifications" icon={["upgrade"]}>
+<Pair single id="major-amplifications">Major Amplifications</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Passive Ability">When you would learn a <em>phrenic amplification</em> from gaining a level, you can choose a <Link to="/ability/major_phrenic_amplifications">major phrenic amplification</Link> instead.</Pair>
 </Ability>
-<Ability id="class-psychic-telepathy-su" icon={["stairs-goal"]}>
-<Pair single id="class-psychic-telepathy-su">Telepathy (Su)</Pair>
+<Ability id="telepathy-su" icon={["stairs-goal"]}>
+<Pair single id="telepathy-su">Telepathy (Su)</Pair>
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Ability">You can mentally communicate with any other creature within 100 feet that has a language. It is possible to address multiple creatures at once telepathically, although maintaining a telepathic conversation with more than one creature at a time is just as difficult as both speaking and listening to multiple people at the same time.</Pair>
 <Pair title="Special">When you gain this ability, if you already know the <Link to="/spell/telepathy">telepathy</Link> spell, you can learn a different 5th-level spell in place of it, losing the old spell in exchange for the new one.</Pair>
 </Ability>
-<Ability id="class-psychic-remade-self-sp" icon={["stairs-goal","upgrade"]}>
-<Pair single id="class-psychic-remade-self-sp">Remade Self (Sp)</Pair>
+<Ability id="remade-self-sp" icon={["stairs-goal","upgrade"]}>
+<Pair single id="remade-self-sp">Remade Self (Sp)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Passive Ability">You are affected by one of the following spells as a constant spell-like ability: <Link to="/spell/arcane_sight">arcane sight</Link>, <Link to="/spell/fly">fly</Link>, <Link to="/spell/haste">haste</Link>, <Link to="/spell/heroism">heroism</Link>, <Link to="/spell/nondetection">nondetection</Link>, or <Link to="/spell/tongues">tongues</Link>. This ability is chosen when you reach 20th level and can't be changed.</Pair>
 <Pair title="Ability">While you are under the effects of this spell-like ability, each time you cast a psychic spell, you can link one <em>phrenic amplification</em> or <em>major amplification</em> you know that has a point cost of 1 to that spell without spending any points from your <em>phrenic pool.</em> This amplification is in addition to the normal maximum of one amplification per spell.</Pair>
@@ -3087,6 +3087,6 @@ const _psychic = {hasJL:true,title: "Psychic", jsx: <><div className="jumpList" 
 <h3 id="class-psychic-archetypes-by-feature" data-hash-target>Archetypes by Feature</h3>
 <DisplayTable table={{"id":"psychic archetypes","columns":[{"header":"Archetype","link":"arc-psychic"},{"header":"Alignment"},{"header":"Detect Thoughts"},{"header":"Phrenic Amplifications"},{"header":"1st-level Phrenic Amplification"},{"header":"3rd-level Phrenic Amplification"},{"header":"7th-level Phrenic Amplification"},{"header":"11th-level Phrenic Amplification"},{"header":"15th-level Phrenic Amplification"},{"header":"19th-level Phrenic Amplification"},{"header":"Major Amplifications"},{"header":"Phrenic Pool"},{"header":"Psychic Discipline"},{"header":"Discipline Powers"},{"header":"Discipline Spells"},{"header":"4th-level Discipline Spell"},{"header":"Remade Self"},{"header":"Spellcasting"},{"header":"Telepathic Bond"},{"header":"Telepathy"}],"data":[[["Amnesiac","amnesiac"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"X",null,null],[["Esoteric Starseeker","esoteric_starseeker"],null,null,null,"X",null,null,"X",null,null,"X",null,null,null,"X",null,null,null,null,null],[["Formless Adept","formless_adept"],null,null,null,"X",null,null,null,"X",null,null,"X","X","X","X",null,"X",null,null,null],[["Magaambyan Telepath","magaambyan_telepath"],null,null,null,"X",null,null,"X",null,null,null,null,null,null,"X",null,null,null,"X","X"],[["Mutation Mind","mutation_mind"],null,null,"X","X",null,null,null,null,null,"X",null,null,null,null,null,null,null,null,null],[["Psychic Duelist","psychic_duelist"],null,null,"X",null,null,"X",null,null,null,null,null,null,null,null,"X",null,null,"X","X"],[["Psychic Marauder","psychic_marauder"],"X","X",null,null,"X",null,"X",null,"X",null,null,null,null,null,null,"X",null,"X",null],[["Terror Weaver","terror_weaver"],null,"X",null,null,null,null,"X","X","X",null,null,null,null,null,null,null,null,"X",null]],"initialColumn":0,"nullValue":"&nbsp;"}} />
 <h3 id="class-psychic-favored-class-bonuses" data-hash-target><Link to="/rule/favored_class">Favored Class Bonuses</Link></h3>
-<RacialOptions cls="psychic" prefix="class-psychic-" />
+<RacialOptions cls="psychic" />
 </>};
 export default {unchained_monk:_unchained_monk,ninja:_ninja,occultist:_occultist,oracle:_oracle,paladin:_paladin,psychic:_psychic}

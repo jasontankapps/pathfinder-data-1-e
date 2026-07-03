@@ -1,6 +1,7 @@
-import {IonRippleEffect,IonIcon} from '@ionic/react';
-import Link, {ThLink} from '../../components/Link';
+import {IonRippleEffect} from '@ionic/react';
+import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
+import AffInfo from '../../components/AfflictionInfo';
 const _iron_bands_of_binding = {title: "Iron Bands of Binding", jsx: <><h2 id="magic-wondrous-iron_bands_of_binding-iron-bands-of-binding">Iron Bands of Binding</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 305</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 521</Link><br/><strong>Aura</strong> strong evocation; <strong>CL</strong> 13th<br/><strong>Slot</strong> none; <strong>Price</strong> 26,000 gp; <strong>Weight</strong> 1 lb.</p>
 <p>This potent item is a 3-inch-diameter rusty iron sphere wrapped in iron bands.</p>
@@ -1070,7 +1071,8 @@ const _mythopoeic_sphinx = {title: "Mythopoeic Sphinx", jsx: <><h2 id="magic-won
 const _naga_scale_bindi = {title: "Naga-scale Bindi", jsx: <><h2 id="magic-wondrous-naga_scale_bindi-naga-scale-bindi">Naga-scale Bindi</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 312</Link><br/><strong>Aura</strong> moderate transmutation; <strong>CL</strong> 11th<br/><strong>Slot</strong> none; <strong>Price</strong> 6,600 gp; <strong>Weight</strong> -</p>
 <p>This shining, jewel-like scale is usually worn on the forehead between the eyebrows, though a creature can affix the scale to any part of her body by pressing it to her skin and speaking its command word. Once affixed, the scale causes the creature to take on the attributes of a particular type of <Link to="/family/naga">naga</Link>, chosen when the scale was created. Her skin becomes scaly, her eyes slitted and reptilian, her tongue forked, and her neck lengthens and distends until it resembles a cobra's hood. The creature gains a +4 bonus to her natural armor, darkvision 60 feet, and a poisonous bite attack that deals 1d4 points of damage (1d3 for a Small creature).</p>
-<div className="sideNoteWrap"><ScrollContainer id="magic-wondrous-naga_scale_bindi--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Bite-injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 19</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>Varies, based on the scale naga's type (see below)</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div><p>Each scale also grants its wearer access to a special ability, as follows:</p>
+<AffInfo type="Bite-injury" save="Fort 19" freq="1/round for 6 rounds" eff={<>Varies, based on the scale naga's type (see below)</>} cure1 icon="p" />
+<p>Each scale also grants its wearer access to a special ability, as follows:</p>
 <blockquote>
 <p><strong className="hl">Dark naga:</strong> The wearer gains a +8 bonus on saves made to resist any form of mind reading and a +2 bonus against charm effects. <em>Poison effect:</em> sleep for 1 round.</p>
 <p><strong className="hl">Guardian naga:</strong> The wearer can spit venom up to 30 feet as a standard action. This is a ranged touch attack with no range increment. Opponents hit by this attack must make saves to avoid the poison's effect. <em>Poison effect:</em> 1d2 <Link to="/rule/con_damage">Con damage</Link>.</p>

@@ -2,6 +2,7 @@ import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import AffInfo from '../../components/AfflictionInfo';
 const _untwisting_iron_strength = {title: "Untwisting Iron Strength", jsx: <><h2 id="feat-untwisting_iron_strength-untwisting-iron-strength-combat">Untwisting Iron Strength (Combat)</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 107</Link>, <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 13</Link></p>
 <p>You are a master at breaking even the toughest of objects.<br/><strong>Prerequisites:</strong> Str 15; Wis 13; <Link to="/feat/perfect_style">Perfect Style</Link>; base attack bonus +9 or monk level 9th.<br/><strong>Benefit:</strong> When using Perfect Style, your attacks ignore an amount of hardness equal to your character level. Additionally, you gain a +4 bonus on Strength checks to break objects. If you spend 1 ki point as a swift action, you also gain the benefits of <Link to="/feat/improved_sunder">Improved Sunder</Link> for 1 round.</p>
@@ -197,7 +198,8 @@ const _venomous_spray = {title: "Venomous Spray", jsx: <><h2 id="feat-venomous_s
 const _venomous_stare = {title: "Venomous Stare", jsx: <><h2 id="feat-venomous_stare-venomous-stare-stare">Venomous Stare (Stare)</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 17</Link></p>
 <p>Your stare is toxic to your enemies.<br/><strong>Prerequisites:</strong> <Link to="/class/mesmerist">Mesmerist</Link> level 11th, painful stare class feature.<br/><strong>Benefit:</strong> When you trigger your painful stare, the target immediately becomes envenomed by the following poison:</p>
-<div className="sideNoteWrap"><ScrollContainer id="feat-venomous_stare--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={9} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th colSpan={4} scope="col" className="title">Painful Stare</th></tr><tr><th scope="row">Type</th><td colSpan={3}>Injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 your mesmerist level + your Cha modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d3 <Link to="/rule/dex_damage">Dex damage</Link></td></tr><tr><th scope="row">Cure</th><td colSpan={3}>2 saves</td></tr></tbody></table></ScrollContainer></div><p>Whether your target succeeds at or fails its save, you can't use Venomous Stare against that particular foe for 24 hours.</p>
+<AffInfo type="Injury" save="Fort 10 + 1/2 your mesmerist level + your Cha modifier" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/dex_damage">Dex damage</Link></>} cure2 icon="p">Painful Stare</AffInfo>
+<p>Whether your target succeeds at or fails its save, you can't use Venomous Stare against that particular foe for 24 hours.</p>
 </>};
 const _verbose_performer = {title: "Verbose Performer", jsx: <><h2 id="feat-verbose_performer-verbose-performer-faction">Verbose Performer (Faction)</h2>
 <p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide pg. 58</Link></p>

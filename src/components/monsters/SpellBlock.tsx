@@ -1,4 +1,5 @@
-import {FC, ReactNode} from 'react';
+import {FC, ReactNode, useContext} from 'react';
+import { IdContext } from '../contexts';
 
 type NeverExcept<Type, K extends keyof Type> = Omit<Partial<{ [Property in keyof Type]: never }>, K> & Pick<Type, K>;
 
@@ -111,9 +112,10 @@ const parseSLA = (block: SlaSpellList): string => {
 
 const SpellBlock: FC<SpellBlockProps> = (props) => {
 	const {id, sla, prep, ex, known, psy, other} = props;
+	const cId = useContext(IdContext) + "-spellblock" + id;
 	const output: ReactNode[] = [];
 	if(sla) {
-		store(id + "-SLA-");
+		store(cId + "-SLA-");
 		const {sla: title, content, cl, con} = sla;
 		output.push(
 			<p key={key("title")}><strong>{
@@ -130,7 +132,7 @@ const SpellBlock: FC<SpellBlockProps> = (props) => {
 			);
 		});
 	} else if (prep) {
-		store(id + "-prepared-");
+		store(cId + "-prepared-");
 		const {prep: p, l0, l1, l2, l3, l4, l5, l6, l7, l8, l9, cl, con} = prep;
 		output.push(
 			<p key={key("title")}><strong>{
@@ -150,7 +152,7 @@ const SpellBlock: FC<SpellBlockProps> = (props) => {
 		l1 && output.push(<p key={key("l1")} className="spells"><em>1st</em>-{l1}</p>);
 		l0 && output.push(<p key={key("l0")} className="spells"><em>0 (at will)</em>-{l0}</p>);
 	} else if (ex) {
-		store(id + "-extracts-");
+		store(cId + "-extracts-");
 		const {ex: p, l1, l2, l3, l4, l5, l6, cl, con} = ex;
 		output.push(
 			<p key={key("title")}><strong>{
@@ -166,7 +168,7 @@ const SpellBlock: FC<SpellBlockProps> = (props) => {
 		l2 && output.push(<p key={key("l2")} className="spells"><em>2nd</em>-{l2}</p>);
 		l1 && output.push(<p key={key("l1")} className="spells"><em>1st</em>-{l1}</p>);
 	} else if (known) {
-		store(id + "-known-");
+		store(cId + "-known-");
 		const {known: p, l0, l1, l2, l3, l4, l5, l6, l7, l8, l9, cl, con} = known;
 		output.push(
 			<p key={key("title")}><strong>{

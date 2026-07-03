@@ -1,4 +1,5 @@
-import { PropsWithChildren, FC, ReactNode } from 'react';
+import { PropsWithChildren, FC, ReactNode, useContext } from 'react';
+import { IdContext } from './contexts';
 
 interface BaseProps {
 	id?: string
@@ -23,9 +24,10 @@ type PairProps = TitleProps | AbilityProps;
 
 const Pair: FC<PropsWithChildren<PairProps>> = (props) => {
 	const {id, single, flavor, title, hl, plain, children} = props;
+	const cId = useContext(IdContext) + id;
 	if(single) {
 		return (
-			<div className={"title abSingle"} id={id} data-hash-target>
+			<div className={"title abSingle"} id={cId} data-hash-target>
 				<div className="box">{children}</div>
 				{ flavor
 					? <div className="flavor">{flavor}</div>

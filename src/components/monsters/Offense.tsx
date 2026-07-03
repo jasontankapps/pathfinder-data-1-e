@@ -1,7 +1,8 @@
-import {FC, ReactNode, Fragment as F, useMemo} from 'react';
+import {FC, ReactNode, Fragment as F, useMemo, useContext} from 'react';
 import Header from '../Header';
 import Link from '../Link';
 import mapNodes from '../mapNodes';
+import { IdContext } from '../contexts';
 
 	interface SpeedPropsBase {
 		id: string
@@ -88,12 +89,11 @@ interface SpecialAttackProps {
 type SpaceReach = Space1 | Space2;
 
 interface Base {
-	id: string
 	melee?: ReactNode
 	ranged?: ReactNode
 }
 
-type OffenseProps = Base & SpecialAttackProps & SpeedProps & SpaceReach;
+type OffenseProps = Omit<Base & SpecialAttackProps & SpeedProps & SpaceReach, "id">;
 
 const getSpeed = (props: SpeedProps): ReactNode => {
 	const {
@@ -299,7 +299,6 @@ const getSpecialAttacks = (props: SpecialAttackProps) => {
 
 const Offense : FC<OffenseProps> = (props) => {
 	const {
-		id,
 		sp, spP, br, brP, cl, clP, sw, swP,
 		fl, flP,
 		jet, spOther, spExtra,
@@ -315,15 +314,16 @@ const Offense : FC<OffenseProps> = (props) => {
 		attach, bloodRage, fSwallow, ferocity, gaze,
 		pounce, smother, strangle
 	} = props;
+	const cId = useContext(IdContext) + "-offense";
 	const speedObject = useMemo(() => {
 		if(fl !== undefined) {
-			return {sp, spP, br, brP, cl, clP, sw, swP, jet, spOther, spExtra, id, fl, flP};
+			return {sp, spP, br, brP, cl, clP, sw, swP, jet, spOther, spExtra, id: cId, fl, flP};
 		}
-		return {sp, spP, br, brP, cl, clP, sw, swP, jet, spOther, spExtra, id};
-	}, [sp, spP, br, brP, cl, clP, sw, swP, jet, spOther, spExtra, id, fl, flP]);
+		return {sp, spP, br, brP, cl, clP, sw, swP, jet, spOther, spExtra, id: cId};
+	}, [sp, spP, br, brP, cl, clP, sw, swP, jet, spOther, spExtra, cId, fl, flP]);
 	const specialAttacks = useMemo(() => {
 		const sa = getSpecialAttacks({
-			id, specAtt, bDrain, bleed, brWeap, burn, capsize,
+			id: cId, specAtt, bDrain, bleed, brWeap, burn, capsize,
 			chEn, constrict, distraction,
 			eDrain, engulf, entrap, favEn, grab, heat,
 			mMagic, mPower, paralysis, powCh, pull, push,
@@ -336,7 +336,16 @@ const Offense : FC<OffenseProps> = (props) => {
 			return sa;
 		}
 		return false;
-	}, []);
+	}, [
+		cId, specAtt, bDrain, bleed, brWeap, burn, capsize,
+		chEn, constrict, distraction,
+		eDrain, engulf, entrap, favEn, grab, heat,
+		mMagic, mPower, paralysis, powCh, pull, push,
+		rake, rend, rockTh, sneak, swallow, trample,
+		web, whirlwind,
+		attach, bloodRage, fSwallow, ferocity, gaze,
+		pounce, smother, strangle
+	]);
 	return (
 		<>
 			<Header sub>Offense</Header>
@@ -350,7 +359,7 @@ const Offense : FC<OffenseProps> = (props) => {
 			) : ""}
 			{specialAttacks ? (
 				<p><strong>Special Attacks</strong> {
-					mapNodes(specialAttacks, `${id}-special-attacks`)
+					mapNodes(specialAttacks, `${cId}-special-attacks`)
 				}</p>
 			) : ""}
 		</>

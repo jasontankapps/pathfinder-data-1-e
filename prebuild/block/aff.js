@@ -120,22 +120,9 @@ const makeAfflictionBlock = ({marked2, flags, convertEncodedInfo, maybeClear, te
 	//
 	// START CODE
 	//
-	let rows = 2;
 	const output = [
-		`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
-		`<table><tbody>`
+		`${maybeClear}<AffInfo` + (start ? " start" : "")
 	];
-	//
-	// ADD A TITLE LINE IF NEEDED
-	//
-	if(text) {
-		rows++;
-		output.push(
-			"<tr>",
-			`<th colSpan={4} scope="col" className="title">${text}</th>`,
-			"</tr>"
-		);
-	}
 	//
 	// CONFIGURE TYPE BOX
 	//
@@ -159,15 +146,8 @@ const makeAfflictionBlock = ({marked2, flags, convertEncodedInfo, maybeClear, te
 	//
 	// ADD TYPE, SAVE DC
 	//
-	rows += 2;
 	output.push(
-		"<tr>",
-		`<th scope="row">Type</th>`,
-		`<td colSpan={3}>${supertype}</td>`,
-		"</tr><tr>",
-		`<th scope="row">Save DC</th>`,
-		`<td colSpan={3}>${saveDC}</td>`,
-		"</tr>"
+		` type="${supertype}" save="${saveDC}"`
 	);
 	//
 	// CONFIGURE FREQUENCY
@@ -193,50 +173,11 @@ const makeAfflictionBlock = ({marked2, flags, convertEncodedInfo, maybeClear, te
 	//
 	// ADD ONSET, TRACK, FREQUENCY (if needed)
 	//
-	output.push("<tr>");
 	if(frequency) {
-		if(track && onset) {
-			rows += 2;
-			output.push(
-				`<th scope="row">Onset</th>`,
-				`<td colSpan={3}>${onset}</td>`,
-				"</tr><tr>",
-				`<th scope="row">Frequency</th>`,
-				`<td colSpan={3}>${frequency}</td>`,
-				"</tr><tr>",
-				`<th scope="row">Track</th>`,
-				`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(track))}</td>`,
-				"</tr><tr>"
-			);
-		} else if (track) {
-			rows++;
-			output.push(
-				`<th scope="row">Frequency</th>`,
-				`<td colSpan={3}>${frequency}</td>`,
-				"</tr><tr>",
-				`<th scope="row">Track</th>`,
-				`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(track))}</td>`,
-				"</tr><tr>"
-			);
-		} else {
-			rows += 2;
-			output.push(
-				`<th scope="row">Onset</th>`,
-				`<td colSpan={3}>${onset || "immediate"}</td>`,
-				"</tr><tr>",
-				`<th scope="row">Frequency</th>`,
-				`<td colSpan={3}>${frequency}</td>`,
-				"</tr><tr>"
-			);
-		}
-		if(trackmod) {
-			rows++;
-			output.push(
-				`<th scope="row">Track</th>`,
-				`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(trackmod))}</td>`,
-				"</tr><tr>"
-			);
-		}
+		output.push(` freq="${frequency}"`);
+		onset && output.push(` onset="${onset}"`);
+		track && output.push(` track={<>${marked2.parseInline(convertEncodedInfo(track))}</>}`);
+		trackmod && output.push(` track2="${trackmod}"`);
 	}
 	//
 	// CONFIGURE EFFECTS
@@ -245,23 +186,17 @@ const makeAfflictionBlock = ({marked2, flags, convertEncodedInfo, maybeClear, te
 		if(eff) {
 			// BASIC EFFECT TEXT
 			output.push(
-				`<th scope="row">Effect</th>`,
-				`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(eff))}</td>`
+				` eff={<>${marked2.parseInline(convertEncodedInfo(eff))}</>}`
 			);
 			if(ineff || seceff) {
 				logError(`---> ineff/seceff used when eff present`)
 			}
-			rows++;
 		} else {
 			// INITIAL AND SECONDARY EFFECT TEXTS
 			output.push(
-				`<th scope="row">Initial Effect</th>`,
-				`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(ineff))}</td>`,
-				"</tr><tr>",
-				`<th scope="row">Secondary Effect</th>`,
-				`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(seceff))}</td>`
+				` eff1={<>${marked2.parseInline(convertEncodedInfo(ineff))}</>}`,
+				` eff2={<>${marked2.parseInline(convertEncodedInfo(seceff))}</>}`
 			);
-			rows += 2;
 		}
 	} else {
 		if(ineff || seceff) {
@@ -273,10 +208,8 @@ const makeAfflictionBlock = ({marked2, flags, convertEncodedInfo, maybeClear, te
 		//
 		const ee = constructEffect(attrs, convertEncodedInfo);
 		if(ee) {
-			rows++;
 			output.push(
-				`<th scope="row">Effect</th>`,
-				`<td colSpan={3}>${marked2.parseInline(ee)}</td>`
+				` eff={<>${marked2.parseInline(ee)}</>}`
 			);
 		} else {
 			const i = convertIniSec(attrs, "in");
@@ -284,13 +217,9 @@ const makeAfflictionBlock = ({marked2, flags, convertEncodedInfo, maybeClear, te
 			const ii = i && constructEffect(i, convertEncodedInfo);
 			const ss = s && constructEffect(s, convertEncodedInfo);
 			if(ii && ss) {
-				rows += 2;
 				output.push(
-					`<th scope="row">Initial Effect</th>`,
-					`<td colSpan={3}>${marked2.parseInline(ii)}</td>`,
-					"</tr><tr>",
-					`<th scope="row">Secondary Effect</th>`,
-					`<td colSpan={3}>${marked2.parseInline(ss)}</td>`
+					` eff1={<>${marked2.parseInline(convertEncodedInfo(ii))}</>}`,
+					` eff2={<>${marked2.parseInline(convertEncodedInfo(ss))}</>}`
 				);
 			}
 		}
@@ -298,72 +227,49 @@ const makeAfflictionBlock = ({marked2, flags, convertEncodedInfo, maybeClear, te
 	//
 	// CONFIGURE CURE LINE
 	//
-	const cureLine = cure ? marked2.parseInline(convertEncodedInfo(cure)) : (
-		cure1 ? "1 save" : (
-			cure2 ? "2 saves" : (
-				cure2c ? "2 consecutive saves" : (
-					cure3 ? "3 saves" : (
-						cure3c ? "3 consecutive saves" : ""
-					)
-				)
-			)
-		)
-	);
 	if(cure) {
 		if(cure1 || cure2 || cure2c || cure3 || cure3c) {
 			logError(`---> extra cure# prop`)
 		}
-	}
-	if(cureLine) {
-		rows++;
-		output.push(
-			`</tr><tr>`,
-			`<th scope="row">Cure</th>`,
-			`<td colSpan={3}>${cureLine}</td>`,
-			"</tr>"
-		);
-	} else {
-		output.push("</tr>");
+		output.push(` cure={<>${marked2.parseInline(convertEncodedInfo(cure))}</>}`);
+	} else if (cure1 || cure2 || cure2c || cure3 || cure3c) {
+		output.push(" " + (cure1 || cure2 || cure2c || cure3 || cure3c));
 	}
 	//
 	// ADD EXTRA INFO
 	//
 	if(extra) {
-		rows++;
 		output.push(
-			`<tr><td colSpan={4} className=\"extra\">${marked2.parseInline(convertEncodedInfo(extra))}</td></tr>`
+			` extra={<>${marked2.parseInline(convertEncodedInfo(extra))}</>}`
 		);
 	}
 	//
 	// ADD ICON
 	//
-	const icon = iconP ? ["Poison", "poison-bottle.svg", "/rule/poison"] : (
-		iconD ? ["Disease", "paramecia.svg", "/rule/diseases"] : (
-			iconC ? ["Curse", "death-note.svg", "/rule/curses"] : (
-				iconI ? ["Infestation", "infested-mass.svg", "/rule/infestations"] : (
-					iconA ? ["Affliction", "tumor.svg", "/rule/afflictions"] : false
+	const icon = iconP ? "p" : (
+		iconD ? "d" : (
+			iconC ? "c" : (
+				iconI ? "i" : (
+					iconA ? "a" : false
 				)
 			)
 		)
 	);
 	if(icon) {
-		flags.icon = true;
-		if(nolink) {
-			output.splice(3, 0, `<th scope="row" rowSpan={${rows}}><IonIcon aria-label="${icon[0]}" icon="/icons/${icon[1]}" /></th>`);
-		} else {
-			flags.thlink = true;
-			output.splice(3, 0, `<ThLink scope="row" rowSpan={${rows}} to="${icon[2]}"><IonIcon aria-label="${icon[0]}" icon="/icons/${icon[1]}" /></ThLink>`);
-		}
+		output.push(` icon="${icon}"`);
+		nolink && output.push(" nolink");
 	} else {
 		logError(`---> missing icon property`);
 	}
 	//
-	// END CODE BLOCK
+	// ADD A TITLE LINE IF NEEDED
 	//
-	output.push(
-		`</tbody></table></div>`
-	);
-	return output.join("");
+	if(text) {
+		output.push(`>${text}</AffInfo>`);
+	} else {
+		output.push(" />");
+	}
+	return output.join("") + "\n";
 }
 
 export default makeAfflictionBlock;

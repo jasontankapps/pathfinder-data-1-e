@@ -205,10 +205,8 @@ const makeClassSkillsAbilityBlock = ({
 		]);
 	}
 
-	const abId = prefix + id;
-
-	return `${maybeClear}<Ability icon={["skills"]} id="${abId}">\n`
-		+ `<Pair id="${abId}" single>${
+	return `${maybeClear}<Ability icon={["skills"]} id="${id}">\n`
+		+ `<Pair id="${id}" single>${
 			text ? doParse(text) : "Class Skills"
 		}</Pair>\n`
 		+ (noAlter ? "" : '<Pair title="Alters" hl>Class skills</Pair>')

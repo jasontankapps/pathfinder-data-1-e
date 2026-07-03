@@ -1,7 +1,6 @@
-import {IonIcon} from '@ionic/react';
-import Link, {ThLink} from '../../components/Link';
-import ScrollContainer from '../../components/ScrollContainer';
+import Link from '../../components/Link';
 import InnerLink from '../../components/InnerLink';
+import AffInfo from '../../components/AfflictionInfo';
 const _not_found = {title: "Unknown", jsx: <><h2 id="faith-not_found-error">Error</h2>
 <p>Unable to find the requested faith.</p>
 </>};
@@ -539,7 +538,8 @@ const _aldinach = {hasJL:true,title: "Aldinach", jsx: <><div className="jumpList
 <li><strong>Hidden Strike (Ex)</strong> She of the Six Venoms grants you a scorpion's talent for striking rapidly from hiding. You gain a hidden strike, with which you deal an extra 2d8 points of <Link to="/misc/precision_damage">precision damage</Link> on melee attacks or ranged attacks from within 30 feet against foes who are unaware of your presence or who consider you an ally. You can also deal hidden strike damage to a target that you are flanking or that is denied its Dexterity bonus to AC, but in these cases, the damage is reduced to 2d4. You can deal hidden strike damage against targets with <Link to="/rule/concealment">concealment</Link> (but not total concealment). This stacks with other sources of hidden strike damage or sneak attack damage you already have. In addition, like a <Link to="/monster/deadfall_scorpion">deadfall scorpion</Link>, you are adept at taking advantage of your foes' surprise. During a surprise round, you can take a full round's worth of actions, rather than a single standard action.</li>
 <li><strong>Sting of Aldinach (Su)</strong> Once per day as a swift action, you can grow a golden-hued scorpion's tail, complete with stinger. This sting is a primary natural attack that deals damage as appropriate for a creature of your size (1d6 points of damage for a Medium creature). The sting is poisonous (see below). Like that of the immense <Link to="/monster/black_scorpion">black scorpion</Link>, your stinger strikes with blinding speed; you can make an attack with your stinger as a swift action (in addition to any other attacks or actions taken during that round). Once activated, your stinger remains for a number of minutes equal to your Hit Dice.</li>
 </ol>
-<div className="sideNoteWrap"><ScrollContainer id="faith-aldinach--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={8} to="/rule/poison"><IonIcon aria-label="Poison" icon="/icons/poison-bottle.svg" /></ThLink><th scope="row">Type</th><td colSpan={3}>Poison; injury</td></tr><tr><th scope="row">Save DC</th><td colSpan={3}>Fort 10 + 1/2 your character level + your Con modifier</td></tr><tr><th scope="row">Onset</th><td colSpan={3}>immediate</td></tr><tr><th scope="row">Frequency</th><td colSpan={3}>1/round for 6 rounds</td></tr><tr><th scope="row">Effect</th><td colSpan={3}>1d3 <Link to="/rule/str_damage">Str damage</Link> and 1d3 Con damage</td></tr><tr><th scope="row">Cure</th><td colSpan={3}>1 save</td></tr></tbody></table></ScrollContainer></div></blockquote>
+<AffInfo type="Poison; injury" save="Fort 10 + 1/2 your character level + your Con modifier" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/str_damage">Str damage</Link> and 1d3 Con damage</>} cure1 icon="p" />
+</blockquote>
 <h2 id="faith-aldinach-follower-options" data-hash-target>Follower Options</h2>
 <blockquote>
 <h3 id="faith-aldinach-archetypes">Archetypes</h3>

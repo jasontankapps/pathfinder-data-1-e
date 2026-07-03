@@ -15,7 +15,7 @@ const parseTreasure = (type, input, flags) => {
 	return final ? { [type]: items, final } : { [type]: items };
 };
 
-export const makeMonsterEcologyBlock = ({marked2, flags, convertEncodedInfo, maybeClear, attrs, logError, id}) => {
+export const makeMonsterEcologyBlock = ({marked2, flags, convertEncodedInfo, maybeClear, attrs, logError}) => {
 	const {
 		env, org, treasure
 	} = attrs;
@@ -55,7 +55,7 @@ export const makeMonsterEcologyBlock = ({marked2, flags, convertEncodedInfo, may
 			output.push(`treasure={{"${treasure}":false}}`);
 		}
 	}
-	return `${maybeClear}<Ecology id="${id + "-eco"}" ${output.join(" ")} />\n`;
+	return `${maybeClear}<Ecology ${output.join(" ")} />\n`;
 };
 
 export default makeMonsterEcologyBlock;
