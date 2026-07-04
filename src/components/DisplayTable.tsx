@@ -93,6 +93,7 @@ const findDisplayValue = (item: RawDatum, nullish: string, col: Column) => {
 	switch(type) {
 		case "gp+":
 			plus = true;
+			// falls through
 		case "gp":
 			// RawDatum is a number
 			if(typeof raw !== "number") {
@@ -111,6 +112,7 @@ const findDisplayValue = (item: RawDatum, nullish: string, col: Column) => {
 			break;
 		case "lbs+":
 			plus = true;
+			// falls through
 		case "lbs":
 			// RawDatum is a number
 			if(typeof raw !== "number") {
@@ -256,13 +258,13 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 				]),
 				j
 			]);
-	}, [data, columns]);
+	}, [data, columns, nullValue]);
 
 	const sortedRowsWithBothOriginalIndices = useMemo(() => {
 		return rowsWithBothOriginalIndices
 				// sort everything (non-destructive)
 			.toSorted(sortOnColumns(sortingColumns, alphabeticalSort));
-	}, [rowsWithBothOriginalIndices, alphabeticalSort, sortingColumns, nullValue]);
+	}, [rowsWithBothOriginalIndices, alphabeticalSort, sortingColumns]);
 
 	const sortedAndFilteredRowsWithHeaderIndices = useMemo(() => {
 		return sortedRowsWithBothOriginalIndices

@@ -682,7 +682,7 @@ const _golem_iron_golem = {title: "Iron Golem", jsx: <><p><em>This iron automato
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Breath Weapon (Su)</strong> As a free action once every 1d4+1 rounds, an iron golem can exhale a 10-foot cube of poisonous gas. This gas cloud persists for 1 round; any creature within the area when the golem creates it (as well as any creature that passes through the cloud during the remainder of that round) is exposed to the cloud's poisonous effects. This poison is magically created each time the golem uses this power.</p>
-<AffInfo type="Breath weapon-inhaled" save="Fort 19" freq="1/round for 4 rounds" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link></>} cure2c extra={<>The save DC is Con-based.</>} icon="p" />
+<AffInfo type="Breath weapon-inhaled" save="Fort 19" freq="1/round for 4 rounds" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link></>} cure2c extra="The save DC is Con-based." icon="p" />
 <p><strong>Immunity to Magic (Ex)</strong> An iron golem is immune to spells or spell-like abilities that allow spell resistance. Certain spells and effects function differently against it, as noted below.</p>
 <ul>
 <li>A magical attack that deals electricity damage slows an iron golem (as the <Link to="/spell/slow">slow</Link> spell) for 3 rounds, with no saving throw.</li>
@@ -743,7 +743,7 @@ const _golem_lead_golem = {title: "Lead Golem", jsx: <><p><em>Resembling an unea
 </ul>
 <p><strong>Intractable Density (Ex):</strong> The weight and sturdiness of its form grants the lead golem a +8 racial bonus on CMD versus bull rush and reposition combat maneuvers.</p>
 <p><strong>Retributive Miasma (Ex)</strong> Any attack that overcomes the damage reduction of the lead golem causes fine lead particles to fill the air within a 5-foot radius of the lead golem. This cloud of lead persists for 1 round; any creatures within the area or that pass through the cloud are exposed to the cloud's poisonous effects. Subsequent attacks damaging the golem increase the duration of the cloud by 1 round each.</p>
-<AffInfo type="Inhaled" save="Fort 16" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/con_damage">Con damage</Link> and 1d3 Wis damage</>} cure2 extra={<>The save DC is Con-based.</>} icon="p">Poison Cloud</AffInfo>
+<AffInfo type="Inhaled" save="Fort 16" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/con_damage">Con damage</Link> and 1d3 Wis damage</>} cure2 extra="The save DC is Con-based." icon="p">Poison Cloud</AffInfo>
 <Header sub>Description</Header>
 <p>Lead golems are lurching, humanoid-shaped mounds of lead. A lead golem stands 11 feet tall when upright, and weighs 10,000 pounds.</p>
 <p><strong>Family:</strong> <Link to="/family/golem">Golem</Link></p>
@@ -1179,7 +1179,7 @@ const _golem_viridium_golem = {title: "Viridium Golem", jsx: <><p><em>This green
 <Ecology env="any" org="solitary or plague (2-4)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
-<AffInfo type="Disease; injury" save="Fort 24" freq="1/day" eff={<>1d6 <Link to="/rule/con_damage">Con damage</Link> and 1d6 Cha damage</>} cure3c extra={<>The save DC is Con-based.</>} icon="d">Viridium Leprosy</AffInfo>
+<AffInfo type="Disease; injury" save="Fort 24" freq="1/day" eff={<>1d6 <Link to="/rule/con_damage">Con damage</Link> and 1d6 Cha damage</>} cure3c extra="The save DC is Con-based." icon="d">Viridium Leprosy</AffInfo>
 <p><strong>Immunity to Magic (Ex)</strong> A viridium golem is immune to any spell or spell-like ability that allows spell resistance. Certain spells and effects function as noted below.</p>
 <ul>
 <li>A <Link to="/spell/heal">heal</Link> spell deals 5 points of damage per caster level to a viridium golem, to a maximum of 75 points of damage. This damage bypasses the golem's damage reduction.</li>
@@ -1423,7 +1423,7 @@ const _hag_moon_hag = {title: "Moon Hag", jsx: <><p><em>The flesh of this wither
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Dreadful Ravings (Su)</strong> Three times per day as a standard action, the moon hag can howl a litany of dreadful prognostications at a creature within 30 feet. The predictions afflict the victim, gnawing away at its sanity. This is a language-dependent curse effect; if a moon (including Groetus) is visible to the victim, it takes a -2 penalty on the save against the effect.</p>
-<AffInfo type="Curse" save="Will 18" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/wis_damage">Wis damage</Link></>} cure2c extra={<>The save DC is Cha-based.</>} icon="c">Dreadful Ravings</AffInfo>
+<AffInfo type="Curse" save="Will 18" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/wis_damage">Wis damage</Link></>} cure2c extra="The save DC is Cha-based." icon="c">Dreadful Ravings</AffInfo>
 <p><strong>Lunatic Insight (Su)</strong> A moon hag adds her Charisma modifier as an insight bonus to AC and on initiative checks. These bonuses increase by 2 when a moon (including Groetus) is visible above (this increase is not included in the statistics above).</p>
 <Header sub>Description</Header>
 <p>Moon hags are foul prophets that haunt the Boneyard's endless tombs, serving Groetus, the skull-faced moon hanging eternally above. These lurid hags almost universally worship Groetus, and many claim to be mouthpieces for this god of oblivion.</p>
@@ -1495,7 +1495,7 @@ const _hag_sea_hag = {title: "Sea Hag", jsx: <><p><em>Hair like rotting seaweed 
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Evil Eye (Su)</strong> Three times per day, a sea hag can cast her dire gaze upon any single creature within 30 feet. The target must succeed on a DC 14 Will save or be staggered as strange nebulous distress and a gnawing sense of impending doom plagues the victim. If a sea hag uses her evil eye on someone already afflicted by this curse, the victim must make a DC 14 Fortitude save or be overwhelmed with fright and collapse into a comatose state for 3 days. Each day that passes, the comatose victim must make a DC 14 Fortitude save or perish. The evil eye is a mind-affecting fear effect. The save DCs are Charisma-based.</p>
-<AffInfo type="Gaze-failed save" save="Will 14" freq="1/day" eff={<><Link to="/misc/staggered">staggered</Link> (or fall comatose if already under the effects of the evil eye)</>} undefined icon="c">Evil Eye Curse</AffInfo>
+<AffInfo type="Gaze-failed save" save="Will 14" freq="1/day" eff={<><Link to="/misc/staggered">staggered</Link> (or fall comatose if already under the effects of the evil eye)</>} icon="c">Evil Eye Curse</AffInfo>
 <p><strong>Horrific Appearance (Su)</strong> The sight of a sea hag is so revolting that anyone within 60 feet (other than another hag) who sets eyes upon one must succeed on a DC 14 Fortitude save or instantly be weakened, taking 1d6 points of Strength damage. Creatures that are affected by this power or that successfully save against it cannot be affected again by the same hag's horrific appearance for 24 hours. This is a mind-affecting effect. The save DC is Charisma-based.</p>
 <Header sub>Description</Header>
 <p>Monstrous sea witches, these wicked hags possess terrifying features that few dare look upon. Reveling in discord, the foul creatures drag sailors to watery graves and torment the peoples of the oceans with wicked promises. Sea hags are always terrible to look upon, and despite their gluttonous ways, they are usually emaciated creatures who look half-starved. Most stand about 6 feet tall and weigh 150 pounds.</p>

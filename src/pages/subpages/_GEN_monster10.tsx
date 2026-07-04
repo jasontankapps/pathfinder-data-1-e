@@ -814,7 +814,7 @@ const _familiar_platypus = {title: "Platypus (Familiar)", jsx: <><p><em>This cre
 <Header sub>Special Abilities</Header>
 <p><strong>Electrolocation (Ex)</strong> While underwater, platypuses can sense the tiny electrical currents that trigger muscle movement. This allows them to locate living prey and distinguish it from inanimate objects. Treat electrolocation as <Link to="/umr/blindsight">blindsight</Link> 30 feet, but platypuses can sense only living creatures, and it functions only underwater.</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Spur-injury" save="Fort 9" freq="1/round for 4 rounds" eff={<>1 nonlethal damage</>} cure1 icon="p" />
+<AffInfo type="Spur-injury" save="Fort 9" freq="1/round for 4 rounds" eff="1 nonlethal damage" cure1 icon="p" />
 <p><strong>Spur (Ex)</strong> A platypus's spur attack is a primary natural attack that deals piercing damage.</p>
 <Header sub>Description</Header>
 <p>Platypuses are members of an extremely unusual order of egg-laying mammals that live in riverside burrows where they hunt for larvae, shellfish, and worms. Platypuses also have a remarkable electrical sense they use in place of hearing, scent, and sight while hunting underwater.</p>
@@ -859,7 +859,7 @@ const _familiar_pufferfish = {title: "Pufferfish (Familiar)", jsx: <><p><em>This
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Spines-injury" save="Fort 12" freq="once" cure2c extra={<>If certain portions of the pufferfish's body are eaten, the poison's effect is instead 1d4 points of Constitution damage. The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Spines-injury" save="Fort 12" freq="once" cure2c extra="If certain portions of the pufferfish's body are eaten, the poison's effect is instead 1d4 points of Constitution damage. The save DC is Constitution-based." icon="p" />
 <p><strong>Spines (Ex)</strong> Pufferfish aren't equipped to attack other creatures, but foes that strike a pufferfish with an unarmed strike or a natural attack take 1 point of piercing damage from the fish's toxic spines, and must immediately attempt a saving throw against the pufferfish's poison.</p>
 <Header sub>Description</Header>
 <p>Pufferfish are a category of poisonous fish that dwell in warm coastal waters. Pufferfish have the ability to rapidly fill their stomachs with water or air, causing their bodies to balloon out and make the poisonous spikes on their skin more pronounced, while increasing their apparent size to frighten predators. While certain aquatic sharks and other animals have adapted to eat pufferfish, the puffer's tetrodotoxin (typically delivered via the spines on the fish's skin, though prevalent throughout its organs as well) remains highly poisonous to humans and most mammals who must be careful if they wish to eat one of these fish.</p>
@@ -1303,7 +1303,7 @@ const _fear_eater = {title: "Fear Eater", jsx: <><p><em>A distressingly humanoid
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Anxiety Spores (Ex)</strong> Any creature struck by the fear eater's claws must succeed at a DC 17 Fortitude saving throw or be infected with anxiety spores, which cause nervousness and muscle tremors.</p>
-<AffInfo type="Disease-injury" save="Fort 17" freq="1/minute" onset="1 round" eff={<>Cumulative -1 penalty on saving throws against emotion-manipulating effects (maximum -5)</>} cure2c icon="d" />
+<AffInfo type="Disease-injury" save="Fort 17" freq="1/minute" onset="1 round" eff="Cumulative -1 penalty on saving throws against emotion-manipulating effects (maximum -5)" cure2c icon="d" />
 <p><strong>Dread Burst (Su)</strong> As a standard action, a fear eater can cause mushrooms to erupt from any creature within 30 feet already infected with its anxiety spores. The targeted creature takes 1d6 points of <Link to="/rule/charisma_damage">Charisma damage</Link> (Fortitude DC 17 negates) as the growing spores siphon away her emotions. If the affected creature is currently <Link to="/misc/shaken">shaken</Link>, <Link to="/misc/frightened">frightened</Link>, or <Link to="/misc/panicked">panicked</Link>, any creature within 10 feet gains the same condition for 1d4 rounds (Will DC 17 negates). This is a mind-affecting fear effect. The save DCs are Charisma-based.</p>
 <p><strong>Fungal Snare (Ex)</strong> Once every 1d4 rounds, a fear eater can spew a fungal mass up to 30 feet, which explodes and coats all creatures within a 10-foot-radius burst with sticky filaments. Creatures other than fear eaters are <Link to="/rule/entangled">entangled</Link> (Reflex DC 17 negates). An entangled creature can attempt to break free with a successful DC 14 Strength or Escape Artist check as a move action. The save DC is Charisma-based.</p>
 <Header sub>Description</Header>
@@ -1695,7 +1695,7 @@ const _flea_giant_flea = {title: "Giant Flea", jsx: <><p><em>A hideous, dog-size
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Disease (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 11" freq="1/day" onset="1d3 days" eff={<>1 <Link to="/rule/con_damage">Con damage</Link></>} cure1 extra={<>The save DC is Constitution-based.</>} icon="d" />
+<AffInfo type="Bite-injury" save="Fort 11" freq="1/day" onset="1d3 days" eff={<>1 <Link to="/rule/con_damage">Con damage</Link></>} cure1 extra="The save DC is Constitution-based." icon="d" />
 <p><strong>Uncanny Leap (Ex)</strong> As a full-round action, a giant flea can jump up to 120 feet. A flea can treat this jump as a <Link to="/rule/charge">charge</Link>, as long as the leap is made in a straight line.</p>
 <Header sub>Description</Header>
 <p>Much like their smaller cousins, giant fleas are hemophagous insects that live in any kind of environment where they can feed upon blood. These creatures possess surprising agility and strength. Able to leap great distances, they flit about mindlessly, looking for easy prey. A giant flea can go for several months without feeding, but then gorges after such a fast.</p>
@@ -1713,7 +1713,7 @@ const _flea_mammoth_flea = {title: "Mammoth Flea", jsx: <><p><em>This mammoth fl
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Disease (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 13" freq="1 day" onset="1d3 days" eff={<>1 <Link to="/rule/con_damage">Con damage</Link></>} cure2c extra={<>The save DC is Constitution-based.</>} icon="d" />
+<AffInfo type="Bite-injury" save="Fort 13" freq="1 day" onset="1d3 days" eff={<>1 <Link to="/rule/con_damage">Con damage</Link></>} cure2c extra="The save DC is Constitution-based." icon="d" />
 <Header sub>Description</Header>
 <p>Mammoth fleas are fierce predators. They require vast amounts of blood to survive, though once full, they can survive for months before needing to feed again. For this reason, they seek larger prey like cows and horses, and plague agrarian communities that raise herd animals. A mammoth flea's bite is excruciatingly painful, and leaves behind a raised, ring-shaped scar.</p>
 </>};

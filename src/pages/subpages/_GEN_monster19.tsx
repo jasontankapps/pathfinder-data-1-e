@@ -1027,7 +1027,7 @@ const _pukwudgie = {title: "Pukwudgie", jsx: <><p><em>A merging of an emaciated 
 <Header sub>Special Abilities</Header>
 <p><strong>Spawn Undead (Su)</strong> Any creature slain by a pukwudgie's poisonous quills rises in 24 hours as a zombie. Undead created by this ability are not immediately under the control of a pukwudgie, but they receive a -4 penalty on saves against a pukwudgie's control undead spell-like ability.</p>
 <p><strong>Poison (Su)</strong></p>
-<AffInfo type="Claw or quill-injury" save="Fort 18" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/con_damage">Con damage</Link></>} cure2c extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Claw or quill-injury" save="Fort 18" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/con_damage">Con damage</Link></>} cure2c extra="The save DC is Constitution-based." icon="p" />
 <p><strong>Quills (Ex)</strong> A pukwudgie can fire two of its quills as a ranged attack as a standard action. These quills have a range increment of 40 feet. Any creature attacking a pukwudgie with light or one-handed melee weapons, natural weapons, or an unarmed strike takes 1d3 points of piercing damage. A creature that grapples a pukwudgie takes 2d4 points of piercing damage. Anyone who takes damage from these quills is also exposed to the pukwudgie's poison.</p>
 <Header sub>Description</Header>
 <p>The vile pukwudgie is a small, hunchbacked humanoid covered with long, sharp quills. These quills, like those of a porcupine, help protect the small creature but are also dangerous offensive weapons, for the quills hold a deadly poison that animates those it slays as zombies. This necromantic nature, along with their penchant for torment and sadistic ways, makes pukwudgies evil to the core. A pukwudgie stands 3-1/2 feet tall and weighs a little more than 30 pounds.</p>
@@ -1045,7 +1045,7 @@ const _purple_worm = {title: "Purple Worm", jsx: <><p><em>This enormous worm is 
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Sting-injury" save="Fort 25" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link></>} cure3c extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Sting-injury" save="Fort 25" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link></>} cure3c extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>Purple worms are giant scavengers that inhabit the deepest regions of the world, consuming any organic material that they encounter. They are notorious for swallowing their prey whole. It is not uncommon to hear of a group of adventurers vanishing down the ravenous maw of a purple worm, screaming as they disappear one by one.</p>
 <p>Although they seek to consume living creatures, purple worms also consume vast amounts of dirt and minerals as they burrow underground. The insides of a purple worm may contain a considerable number of gemstones and other items able to withstand the corrosive acid inside its gullet. In areas filled with valuable minerals, such as those near dwarven mines, the natural tunnels created by burrowing purple worms are often filled with vast amounts of unrefined ores.</p>

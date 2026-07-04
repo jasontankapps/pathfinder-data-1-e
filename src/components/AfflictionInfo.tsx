@@ -1,6 +1,8 @@
-import { PropsWithChildren, FC, ReactNode } from 'react';
-import { ThLink } from './Link';
 import { IonIcon } from '@ionic/react';
+import { PropsWithChildren, FC, ReactNode, useContext } from 'react';
+import { ThLink } from './Link';
+import ScrollContainer from './ScrollContainer';
+import { IdContext } from './contexts';
 
 interface AffInfoProps {
 	start?: boolean
@@ -42,6 +44,7 @@ export const AffInfo: FC<PropsWithChildren<AffInfoProps>> = (props) => {
 		cure, cure1, cure2, cure2c, cure3, cure3c,
 		extra, icon, nolink
 	} = props;
+	const cId = useContext(IdContext);
 	let supertype = poison ? "Poison" : curse ? "Curse" : infest ? "Infestation" : disease ? "Disease" : "";
 	if(type && supertype) {
 		supertype += "; " + type;
@@ -111,8 +114,9 @@ export const AffInfo: FC<PropsWithChildren<AffInfoProps>> = (props) => {
 			<IonIcon aria-label={label} icon={"/icons/" + ico} />
 		</ThLink>
 	);
+	const id = `${cId}-${supertype.toLowerCase().replace(/[^-a-z_0-9]/g, "")}-scrollwrap`;
 	return (
-		<div className={"sideNoteWrap" + (start ? " startAlign" : "")}>
+		<div className={"sideNoteWrap" + (start ? " startAlign" : "")}><ScrollContainer id={id}>
 			<table><tbody>
 				{children ? <tr>{iconLine}<th colSpan={4} scope="col" className="title">{children}</th></tr> : ""}
 				<tr>{children ? "" : iconLine}<th scope="row">Type</th><td colSpan={3}>{supertype}</td></tr>
@@ -142,7 +146,7 @@ export const AffInfo: FC<PropsWithChildren<AffInfoProps>> = (props) => {
 					<tr><td colSpan={4}>{extra}</td></tr>
 				) : ""}
 			</tbody></table>
-		</div>
+		</ScrollContainer></div>
 	);
 };
 

@@ -411,7 +411,7 @@ const _scorpion_giant_emperor_scorpion = {title: "Giant Emperor Scorpion", jsx: 
 <Header sub>Special Abilities</Header>
 <p><strong>Ambush Pit (Ex)</strong> A giant emperor scorpion can spend 1 minute digging itself into the soil or other ground debris. It then waits for its tremorsense to detect prey. When a creature comes within range, it can erupt from the ground as a free action as part of a charge, allowing it to use its pounce ability. When dug in, the scorpion has improved cover granting it a +10 bonus on Stealth checks.</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Sting-injury" save="Fort 22" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link> and 1d4 Dex damage</>} cure1 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Sting-injury" save="Fort 22" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link> and 1d4 Dex damage</>} cure1 extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>A giant emperor scorpion is an ambush predator, burying itself in soil or sand until prey approaches.</p>
 </>};
@@ -426,7 +426,7 @@ const _scorpion_giant_scorpion = {title: "Giant Scorpion", jsx: <><p><em>The six
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Sting-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure1 extra={<>The save DC is Constitution-based and includes a +2 racial bonus.</>} icon="p" />
+<AffInfo type="Sting-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure1 extra="The save DC is Constitution-based and includes a +2 racial bonus." icon="p" />
 <Header sub>Description</Header>
 <p>Giant scorpions are monstrous versions of the more common desert scorpion. They are likely to attack any creature that approaches. Giant scorpions usually charge when attacking, grabbing prey in their pincers, then lashing their segmented tails forward to kill their victim with injected venom.</p>
 <p>Giant scorpions are just over 8 feet long from head to the base of the tail; the tail adds an additional 8 feet or so, although it is usually curled up over the scorpion's back. Giant scorpions weigh between 2,000 and 6,000 pounds.</p>
@@ -493,7 +493,7 @@ const _scorpion_greensting_scorpion = {title: "Greensting Scorpion", jsx: <><p><
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Sting-injury" save="Fort 10" freq="1/round for 6 rounds" eff={<>sickened for 1 round</>} cure1 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Sting-injury" save="Fort 10" freq="1/round for 6 rounds" eff="sickened for 1 round" cure1 extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>Deadly greensting scorpions normally live in forests, though they can survive nearly anywhere.</p>
 <p>A greensting scorpion familiar grants a +4 bonus on Initiative checks so long as the familiar is within 1 mile of the spellcaster. A greensting scorpion familiar loses the mindless trait and has an Intelligence score appropriate for its master's level.</p>
@@ -722,7 +722,7 @@ const _sea_urchin_giant_black_spot = {title: "Black Spot (Giant Sea Urchin)", js
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Curse (Su)</strong> Instead of poison, the spines of black spots bear what is for some a minor annoyance, but for sailors nearly a death sentence. The save DC is Charisma-based.</p>
-<AffInfo type="Spines-injury" save="Fort 13" freq="constant" onset="1 round" eff={<>target takes a -10 penalty on Swim checks and cannot hold its breath; if forced underwater, the target must save each round or drown</>} undefined icon="c" />
+<AffInfo type="Spines-injury" save="Fort 13" freq="constant" onset="1 round" eff="target takes a -10 penalty on Swim checks and cannot hold its breath; if forced underwater, the target must save each round or drown" icon="c" />
 <p><strong>Leaping Charge (Ex)</strong> A black spot ignores rough terrain and gaps less than 10 feet wide when charging. Additionally, its charges do no provoke attacks of opportunity.</p>
 <p><strong>Spines (Ex)</strong> A black spot's spines can swivel to face any approaching creature. Any creature that attacks a black spot urchin with an unarmed strike or a natural attack is automatically attacked by the black spot's spines as an immediate action. If the spines hit, they can curse the target as well.</p>
 <p><strong>Stability (Ex)</strong> All giant urchins and similar creatures-like black spots-receive a +8 bonus to CMD when resisting a bull rush or trip attempt.</p>
@@ -857,7 +857,7 @@ const _sea_worm_king_ragworm = {title: "King Ragworm (Sea Worm)", jsx: <><p><em>
 <Header sub>Special Abilities</Header>
 <p><strong>Eversible Pharynx (Ex)</strong> The king ragworm's jaws sit deep within its throat. When making a bite attack, the ragworm turns its throat inside out and extends its jaws with surprising speed. This not only extends the ragworm's reach with its bite attack, but it also gives it a +4 bonus on attack rolls with its bite during surprise rounds.</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Slam or tail slap-injury" save="Fort 25" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/dex_damage">Dex damage</Link> and 1d2 Con damage</>} cure2c extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Slam or tail slap-injury" save="Fort 25" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/dex_damage">Dex damage</Link> and 1d2 Con damage</>} cure2c extra="The save DC is Constitution-based." icon="p" />
 <p><strong>Vortex Attack (Ex)</strong> Three times per day as a standard action, king ragworm can undulate its body inside its burrow to create a vortex, drawing anything within a 15-foot cone toward the burrow's entrance. Large and smaller creatures caught in this vortex must succeed at a DC 26 Reflex save or be pulled into the ragworm's burrow, potentially provoking attacks of opportunity. Attacks of opportunity caused by this ability can't be avoided with Acrobatics (though attacks of opportunity provoked in other ways, such as by moving out of one of the ragworm's threatened squares, can be avoided as normal). The save DC is Dexterity-based.</p>
 <Header sub>Description</Header>
 <p>The giant king ragworm, found in the far depths of the ocean, is among the largest of the sea worms. It creates a slime-lined burrow in the ocean floor, where it resides most of the time.</p>
@@ -1016,7 +1016,7 @@ const _serpentfolk = {title: "Serpentfolk", jsx: <><p><em>This serpentine humano
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 15" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 15" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>To the serpentfolk, the pursuit of knowledge and magic is the highest goal. Their legends speak of how humanity rose to power only through the theft of serpent magic, a legend that may form the basis of the hatred toward humanity most serpentfolk harbor. They view themselves as the undisputed masters of magic, be it arcane or divine. Yet despite this, the majority of serpentfolk today are degenerates who have devolved to the point of primeval savagery and have lost much of their magical legacy-more civilized serpentfolk generally regard these degenerates with shame and disdain.</p>
 <p>Serpentfolk are 6 feet tall and weigh 120 pounds. Degenerates are only 5 feet tall but weigh 200 pounds. All serpentfolk are quite long-lived, and generally live to the age of 500.</p>
@@ -1052,7 +1052,7 @@ const _serpentfolk_serpentfolk_bone_prophet = {title: "Serpentfolk Bone Prophet"
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>The serpentfolk bone prophet uses its powers to control slaves and convert the dead into mindless minions. It constantly hears the otherworldly whispers of the skeletal head of its god and relays those cryptic words to its mage colleagues.</p>
 </>};
@@ -1073,7 +1073,7 @@ const _serpentfolk_serpentfolk_high_priest = {title: "Serpentfolk High Priest", 
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>Serpentfolk high priests are the leaders of their people.</p>
 </>};
@@ -1089,7 +1089,7 @@ const _serpentfolk_serpentfolk_hunter = {title: "Serpentfolk Hunter", jsx: <><He
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 16" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 16" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>Trained in tracking and slaying warmblooded humanoids-humans in particular - a serpentfolk hunter is a powerful but blunt instrument of its intelligent, ruthless masters. It's often in the first wave of warriors sent to secure an area, and might serve as a bodyguard for a powerful serpentfolk priest or mage. In turn, it may well wield power and status over less specialized degenerate serpentfolk. The purecaste serpentfolk allow such hierarchical jostling among their underlings - the equivalent of letting a pack of dogs sort out their own structure - so long as their minions never question the purecastes' orders and judgments.</p>
 <p>Despite the fact that the serpentfolk live underground, serpentfolk hunters usually train to work against a specific enemy rather than in a specific terrain. This allows them to do their job equally well when defending their cavern-cities against encroaching adventures as when making precise raids into aboveground communities. A single purecaste serpentfolk might have several different hunters working for him that all specialize in different favored enemies to maximize versatility, or he might have an entire squad trained as a unit from birth to fight a particular hated breed of surface-dwelling foe.</p>
@@ -1110,7 +1110,7 @@ const _serpentfolk_serpentfolk_illusionist = {title: "Serpentfolk Illusionist", 
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>A serpentfolk illusionist has greatly enhanced its racial gifts for deception with decades of intensive arcane study. On the surface world, it is often the leader of a group of serpentfolk or a cult of lesser reptilian humanoids.</p>
 </>};
@@ -1150,7 +1150,7 @@ const _serpentfolk_serpentfolk_spellblade = {title: "Serpentfolk Spellblade", js
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>Spellblades mix the brute power of degenerate serpentfolk with the skill and magic of purecastes. An enigma even among their own kind, spellblades are respected by all.</p>
 </>};
@@ -1167,7 +1167,7 @@ const _serpentfolk_serpentfolk_spy = {title: "Serpentfolk Spy", jsx: <><Header f
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 16" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2c extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 16" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2c extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>A serpentfolk spy monitors activity in surface settlements, noting authority figures, defenses, and those who could be bribed or coerced into serving the serpentfolk empire. While most serpentfolk spies describe their professions in terms of analyzing weaknesses and preparing for the eventual large-scale assault on the surface world, the truth is that many spies (and their masters) have immediate goals in mind. Spies often stake out powerful priests and arcanists, posing as fellow scholars or simple servitors, in order to gain access to knowledge and arcane lore not readily available in their subterranean caverns. Given their long life spans and reptilian patience, these individuals may infiltrate an organization and stay implanted there for years, waiting for a choice artifact or tome to present itself. Once it does, the spy absconds with the relic and retreats back to the serpentfolk city of its paymasters-killing any warmbloods who stand in its way.</p>
 </>};
@@ -1269,7 +1269,7 @@ const _seugathi = {title: "Seugathi", jsx: <><p><em>This worm-like monster has a
 <p><strong>Confusion Command (Su)</strong> As an immediate action, a seugathi can issue a telepathic command to a confused creature within 30 feet. This allows the seugathi to pick a result from the confusion behavior table, rather than the confused creature rolling randomly for its actions that round.</p>
 <p><strong>Item Use (Ex)</strong> A seugathi can utilize <Link to="/misc/spell_trigger">spell trigger</Link> devices as if it were a spellcaster of the appropriate class. As a free action by touch, it can identify all spell trigger properties an item has. Use Magic Device is a class skill for seugathis.</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/wis_damage">Wis damage</Link> and <Link to="/misc/deaf">deafness</Link></>} cure2c extra={<>Deafness persists as long as the ability damage caused by the poison lasts. The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/wis_damage">Wis damage</Link> and <Link to="/misc/deaf">deafness</Link></>} cure2c extra="Deafness persists as long as the ability damage caused by the poison lasts. The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>Seugathi are spawned by the hundreds by a single neothelid that has performed rituals to impregnate itself. As part of the strange process of being spawned in such rituals, the seugathi assimilates an extensive list of missions from its parent-once the seugathi completes these missions, it perishes. No single seugathi knows the purpose of these commands, but they trust that their neothelid masters have a reason for sending them on these diverse and usually cruel missions. A seugathi is 14 feet long and weighs 650 pounds.</p>
 </>};
@@ -1288,7 +1288,7 @@ const _seugathi_seugathi_savant = {title: "Seugathi Savant", jsx: <><p><em>Hundr
 <p><strong>Confusion Command (Su)</strong> As an immediate action, a seugathi savant can issue a telepathic command to a confused creature within 30 feet. This allows the seugathi savant to pick a result from the confusion behavior table, rather than the confused creature rolling randomly for its actions that round.</p>
 <p><strong>Item Use (Ex)</strong> A seugathi savant can utilize <Link to="/misc/spell_trigger">spell-trigger</Link> devices as if it were a spellcaster of the appropriate class. As a free action, it can identify all spell-trigger properties of an item it is touching. Use Magic Device is a class skill for seugathi savants.</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 22" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/wis_damage">Wis damage</Link> and <Link to="/misc/deaf">deafness</Link></>} cure2c extra={<>Deafness persists as long as the ability damage caused by the poison lasts. The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 22" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/wis_damage">Wis damage</Link> and <Link to="/misc/deaf">deafness</Link></>} cure2c extra="Deafness persists as long as the ability damage caused by the poison lasts. The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>Worm-like monstrosities engorged on the thoughts of prophets and mystics, seugathi savants differ from their lesser kin in their immense size and their inherent talent for psychic magic. Like all seugathi, savants are driven by mental compulsions instilled by their neothelid masters. However, they perceive more of their masters' eons-spanning schemes than most other seugathi, and the neothelids grant them greater flexibility in achieving these goals. Seugathi savants dismiss ordinary seugathi as unworthy drones and largely ignore them, while seugathi revere savants as wiser, older siblings-much to the irritation of the savants. A seugathi savant measures 35 feet long and weighs 7,000 pounds.</p>
 </>};
@@ -1354,7 +1354,7 @@ const _shadow = {title: "Shadow", jsx: <><p><em>Barely seen out of the corner of
 <p><strong>Distorted Shadow (CR +1):</strong> Not bound by the limitations of physical creatures, some shadows can flicker and distort like their namesakes, stretching out to touch victims over much greater distances. These shadows possess the <Link to="/template/advanced">Advanced</Link> creature simple template, but instead of gaining a bonus to natural armor, increase their reach with their incorporeal touch by 10 feet.</p>
 <p><strong>Hidden One (CR +1):</strong> While all shadows are stealthy, some are especially effective at concealing themselves in areas of dim and shifting light. Rather than making Stealth skill checks, these shadows simply have partial or even total <Link to="/rule/concealment">concealment</Link> among normal shadows, adding a 20% miss chance to their already formidable ability to shrug off many mundane sources of damage.</p>
 <p><strong>Plague Shadow (CR +1):</strong> Plague shadows appear as Medium-sized shadows of animals associated with disease: typically rats or bats. Rather than simply draining a victim's Strength on a hit, plague shadows also inflict a dreaded curse known as shadow blight. Victims of this supernatural disease quickly weaken and die, at which point they spawn new plague shadows to further spread the contagion. A plague shadow has the Advanced creature simple template, but does not gain a natural armor bonus to its AC.</p>
-<AffInfo type="Curse and disease" save="Fort 16" freq="1/day" onset="1 minute" eff={<>1d8 <Link to="/rule/str_damage">Str damage</Link></>} cure={<>Successfully casting both <Link to="/spell/remove_curse">remove curse</Link> and <Link to="/spell/remove_disease">remove disease</Link> within 1 minute of each other.</>} extra={<>Upon death, the victim becomes a plague shadow</>} icon="c">Shadow blight</AffInfo>
+<AffInfo type="Curse and disease" save="Fort 16" freq="1/day" onset="1 minute" eff={<>1d8 <Link to="/rule/str_damage">Str damage</Link></>} cure={<>Successfully casting both <Link to="/spell/remove_curse">remove curse</Link> and <Link to="/spell/remove_disease">remove disease</Link> within 1 minute of each other.</>} extra="Upon death, the victim becomes a plague shadow" icon="c">Shadow blight</AffInfo>
 <p><strong>Shadetouch Shadow (CR +0):</strong> Shadetouch shadows are infused with partially real shadowstuff from the Shadow Plane. They treat the Shadow Plane as their home plane (and thus gain the "extraplanar" subtype on the Material Plane). A shadetouch shadow lacks the typical shadow's incorporeal touch-instead, it possesses two claw attacks that each deal 1d8 points of damage on a hit, in addition to the normal amount of Strength damage shadows inflict.</p>
 <p><strong>Vanishing Shadow (CR +1):</strong> Shadows dwelling in a place of strong negative energy or with a connection to the Shadow Plane can develop the ability to shadow slip through the Shadow Plane, vanishing into the darkness and reappearing some distance away. These shadows have the Advanced creature simple template; while they do not gain the bonus to natural armor that this template typically imparts, vanishing shadows possess <Link to="/spell/blink">blink</Link> as a constant spell-like ability.</p>
 <blockquote>

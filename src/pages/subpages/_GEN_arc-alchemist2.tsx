@@ -4,6 +4,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import AffInfo from '../../components/AfflictionInfo';
+import TrapInfo from '../../components/TrapInfo';
 const _herbalist = {title: "Herbalist", jsx: <><h2 id="arc-alchemist-herbalist-herbalist">Herbalist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 22</Link><br/>Vine leshys who study the physical and spiritual composition of their own bodies have discovered a strange herbal alchemy all their own.</p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-herbalist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/vine_leshy">Vine Leshy</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="herbalism-su" icon={["stairs-goal"]}>
@@ -795,7 +796,7 @@ const _promethean_alchemist = {title: "Promethean Alchemist", jsx: <><h2 id="arc
 <p><strong>Size</strong> Small; <strong>Speed</strong> 20 ft., fly 30 ft. (poor); <strong>AC</strong> +2 natural armor; <strong>Attack</strong> bite (1d4); <strong>Ability Scores Str</strong> 10, <strong>Dex</strong> 15, <strong>Con</strong> -, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 7; <strong>Special Qualities</strong> darkvision, low-light vision; <strong>Languages</strong> Common (can't speak).</p>
 <h4 id="arc-alchemist-promethean_alchemist-4th-level-advancement">4th-Level Advancement</h4>
 <p><strong>Size</strong> Medium; <strong>Speed</strong> 30 ft., fly 40 ft. (average); <strong>Attack</strong> bite (1d6 plus poison), 2 claws (1d6); <strong>Ability Scores Str</strong> +4, <strong>Dex</strong> -2; <strong>Special Attacks</strong> poison.</p>
-<AffInfo type="Bite-injury" save="Fort 13" freq="1/minute for 60 minutes" eff={<>sleep for 1 minute</>} cure1 extra={<>Con-based DC with a +2 racial bonus</>} icon="p">Homunculus Poison</AffInfo>
+<AffInfo type="Bite-injury" save="Fort 13" freq="1/minute for 60 minutes" eff="sleep for 1 minute" cure1 extra="Con-based DC with a +2 racial bonus" icon="p">Homunculus Poison</AffInfo>
 </>};
 const _psychonaut = {title: "Psychonaut", jsx: <><h2 id="arc-alchemist-psychonaut-psychonaut">Psychonaut</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 19</Link><br/>A psychonaut uses his knowledge to explore altered states of consciousness and even other planes of existence. A psychonaut has the following class features.</p>
@@ -1092,7 +1093,8 @@ const _trap_breaker = {title: "Trap Breaker", jsx: <><h2 id="arc-alchemist-trap_
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 <Pair title="Special">Creating a land mine uses up two of the alchemist's bombs per day. The DCs for Perception checks to notice the land mine, Disable Device checks to disable it, and saving throws to avoid its effects are equal to 10 + 1/2 the alchemist's level + his Intelligence modifier. Land mines last for 1 day per alchemist level or until they are triggered, whichever comes first. All alchemist land mines share the qualities listed in the trap block below.</Pair>
 </Ability>
-<div className="sideNoteWrap"><ScrollContainer id="arc-alchemist-trap_breaker--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={6} to="/rule/elements_of_a_trap"><IonIcon aria-label="Trap" icon="/icons/wolf-trap.svg" /></ThLink><th colSpan={4} scope="col" className="title">Alchemist Land Minds</th></tr><tr><th id="arc-alchemist-trap_breaker-alchemist-land-minds-trap-type">Type</th><td headers="arc-alchemist-trap_breaker-alchemist-land-minds-trap-type">mechanical</td><th id="arc-alchemist-trap_breaker-alchemist-land-minds-trap-cr">CR</th><td headers="arc-alchemist-trap_breaker-alchemist-land-minds-trap-cr">variable</td></tr><tr><th scope="row" colSpan={2}>Perception DC</th><td colSpan={2}>See above</td></tr><tr><th scope="row" colSpan={2}>Disable Device DC</th><td colSpan={2}>See above</td></tr><tr><th id="arc-alchemist-trap_breaker-alchemist-land-minds-trap-trigger">Trigger</th><td headers="arc-alchemist-trap_breaker-alchemist-land-minds-trap-trigger">location</td><th id="arc-alchemist-trap_breaker-alchemist-land-minds-trap-reset">Reset</th><td headers="arc-alchemist-trap_breaker-alchemist-land-minds-trap-reset">none</td></tr><tr><td colSpan={4}><strong>Effect:</strong> See above</td></tr></tbody></table></ScrollContainer></div><Ability id="mine-engineering-ex" icon={["upgrade"]}>
+<TrapInfo id="alchemist-land-minds-trap" cr="variable" pdc="See above" dddc="See above" trigger="location" eff="See above">Alchemist Land Minds</TrapInfo>
+<Ability id="mine-engineering-ex" icon={["upgrade"]}>
 <Pair single id="mine-engineering-ex" flavor="A trap breaker's expertise in improving explosives allows him to create land mines with minimal expense.">Mine Engineering (Ex)</Pair>
 <Pair hl title="Replaces">Poison immunity</Pair>
 <Pair title="Gained">At 10th Level</Pair>

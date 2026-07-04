@@ -5,78 +5,42 @@ const makeTrapBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text
 		manual, automatic, repair, eff,
 		start
 	} = attrs;
-	let rows = 0;
 	//
 	// START CODE
 	//
 	const output = [
-		`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
-		`<table><tbody>`
+		`${maybeClear}<TrapInfo${start ? " start" : ""} id="${id}"`
 	];
-	//
-	// ADD A TITLE LINE IF NEEDED
-	//
-	if(text) {
-		rows++;
-		output.push(
-			"<tr>",
-			`<th colSpan={4} scope="col" className="title">${text}</th>`,
-			"</tr>"
-		);
-	}
 	//
 	// CONFIGURE TYPE AND CR
 	//
-	let type = magic || mechanical || "";
-	if(!type) {
+	if(!(magic || mechanical)) {
 		logError("---> Missing trap type");
 	}
 	if(cr === undefined) {
 		logError("---> Missing trap CR");
 	}
-	rows++
-	output.push(
-		"<tr>",
-		`<th id="${id}-type">Type</th>`,
-		`<td headers="${id}-type">${type}</td>`,
-		`<th id="${id}-cr">CR</th>`,
-		`<td headers="${id}-cr">${cr}</td>`,
-		"</tr>"
-	);
+	magic && output.push(" magic");
+	output.push(` cr="${cr}"`);
 	//
 	// CREATE ASSOCIATED TERRAINS
 	//
 	if(terrain) {
-		rows++;
-		output.push(
-			`<tr><th scope="row">Terrain</th><td colSpan={3}>${terrain}</td></tr>`
-		);
+		output.push(` terrain=${JSON.stringify(terrain)}`);
 	}
 	//
 	// CREATE DCS
 	//
-	rows += 2;
 	output.push(
-		"<tr>",
-		`<th scope="row" colSpan={2}>Perception DC</th>`,
-		`<td colSpan={2}>${pdc}</td>`,
-		"</tr><tr>",
-		`<th scope="row" colSpan={2}>Disable Device DC</th>`,
-		`<td colSpan={2}>${dddc}</td>`,
-		"</tr>"
+		` pdc="${pdc}" dddc="${dddc}"`
 	);
 	//
 	// CREATE TRIGGER AND RESET
 	//
-	const reset = automatic || manual || repair || "none";
-	rows++;
+	const reset = automatic || manual || repair;
+	reset && output.push(" " + reset);
 	output.push(
-		"<tr>",
-		`<th id="${id}-trigger">Trigger</th>`,
-		`<td headers="${id}-trigger">${trigger}</td>`,
-		`<th id="${id}-reset">Reset</th>`,
-		`<td headers="${id}-reset">${reset}</td>`,
-		"</tr>"
+		` trigger=${JSON.stringify(trigger)}`
 	);
 	//
 	// CONFIGURE EFFECTS
@@ -84,24 +48,27 @@ const makeTrapBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text
 	if(eff === undefined) {
 		logError("---> Missing trap effect");
 	} else {
-		rows++;
 		output.push(
-			`<tr><td colSpan={4}><strong>Effect:</strong> ${marked2.parseInline(convertEncodedInfo(eff))}</td></tr>`
+			` eff={<>${marked2.parseInline(convertEncodedInfo(eff))}</>}`
 		);
 	}
 	//
-	// ADD TRAP ICON
+	// ADD A TITLE LINE IF NEEDED
 	//
-	flags.icon = true;
-	flags.thlink = true;
-	output.splice(3, 0, `<ThLink scope="row" rowSpan={${rows}} to="/rule/elements_of_a_trap"><IonIcon aria-label="Trap" icon="/icons/wolf-trap.svg" /></ThLink>`)
-	//
-	// END CODE BLOCK
-	//
-	output.push(
-		`</tbody></table></div>`
-	);
-	return output.join("");
+	if(text) {
+		output.push(`>${text}</TrapInfo>`);
+	} else {
+		output.push(" />");
+	}
+	let potential = output.join("");
+	let final = "";
+	let m;
+	while(m = potential.match(/(^.*?)=\{<>([^<>"]+)<[/]>\}(.*$)/)) {
+		const [,pre,text,post] = m;
+		final = final + `${pre}="${text}"`;
+		potential = post;
+	}
+	return final + potential + "\n";
 }
 
 export default makeTrapBlock;

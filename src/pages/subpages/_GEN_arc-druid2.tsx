@@ -62,7 +62,7 @@ const _naga_aspirant = {title: "Naga Aspirant", jsx: <><h2 id="arc-druid-naga_as
 <Pair single id="arc-druid-naga_aspirant-poisonous-sting-ex">Poisonous Sting (Ex)</Pair>
 <Pair title="Prerequisites">The naga form's tail must have a <em>sting.</em></Pair>
 <Pair title="Passive Ability"><p>The druid's stinger becomes venomous.</p>
-<AffInfo type="Sting-injury" save="Fort 10 + 1/2 the druid's level + her Con modifier" freq="1 round" eff={<>sleep for 2d4 minutes</>} cure1 icon="p" />
+<AffInfo type="Sting-injury" save="Fort 10 + 1/2 the druid's level + her Con modifier" freq="1 round" eff="sleep for 2d4 minutes" cure1 icon="p" />
 </Pair>
 </Ability>
 <Ability id="spit-venom-ex" extraClasses="subAbility" icon={["smoking-finger"]}>

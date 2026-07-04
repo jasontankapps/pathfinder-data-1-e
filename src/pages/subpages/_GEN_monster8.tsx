@@ -845,7 +845,7 @@ const _daughter_of_urgathoa = {title: "Daughter of Urgathoa", jsx: <><p><em>What
 <Header sub>Special Abilities</Header>
 <p><strong>Desecrate (Sp)</strong> The bonuses granted from the daughter of Urgathoa's constant <em>desecrate</em> spell-like ability (which is always centered on herself) are calculated into the stats above.</p>
 <p><strong>Disease (Su)</strong></p>
-<AffInfo type="Great claw-injury" save="Fort 20" freq="1/day" onset="immediate" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link> and target is <Link to="/misc/fatigued">fatigued</Link></>} cure2c extra={<>The save DC is Charisma-based.</>} icon="d">Bubonic Plague</AffInfo>
+<AffInfo type="Great claw-injury" save="Fort 20" freq="1/day" onset="immediate" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link> and target is <Link to="/misc/fatigued">fatigued</Link></>} cure2c extra="The save DC is Charisma-based." icon="d">Bubonic Plague</AffInfo>
 <p><strong>Great Claw (Ex)</strong> One of the daughter's hands is a tremendous scythe-shaped claw. This attack inflicts &times;4 damage on a critical hit, and is treated as an evil weapon for the purposes of penetrating damage reduction.</p>
 <p><strong>Spells (Sp)</strong> A daughter of Urgathoa casts spells as a 6th-level cleric of <Link to="/faith/urgathoa">Urgathoa</Link> - but although she selects two domains to determine bonus spells, she does not gain any domain powers.</p>
 <Header sub>Description</Header>
@@ -1023,7 +1023,7 @@ const _deathweb = {title: "Deathweb", jsx: <><p><em>This animated husk from an e
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Infestation-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link></>} cure2c extra={<>The save DC is Charisma-based.</>} icon="p" />
+<AffInfo type="Infestation-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link></>} cure2c extra="The save DC is Charisma-based." icon="p" />
 <p><strong>Infestation (Su)</strong> An infestation of poisonous spiders, which nest within this creature's exoskeleton, constantly surrounds a deathweb, to a radius of 5 feet. Any creature within the infestation takes 1d6 points of damage at the end of each round it remains in the area. A creature that takes this damage must make a DC 17 Fortitude save or be <Link to="/misc/nauseated">nauseated</Link> for 1 round. In addition, those damaged by this infestation are poisoned as well. Any area effect attack that deals 10 or more points of damage to a deathweb destroys its infesting spiders, removing its aura for 3 rounds, after which a new batch of spiders swarms out of the undead's body to replenish the infestation. The save DC is Charisma-based.</p>
 <Header sub>Description</Header>
 <p>A deathweb is the undead exoskeleton of a massive spider animated with the vilest necromancy. The spells that create this monstrosity bind to it thousands of normal spiders, which together form the mind of the undead beast like an arachnid hive. These smaller spiders live in and direct their exoskeleton home, working together to swarm around the deathweb and weave its web sheets.</p>

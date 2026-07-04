@@ -268,6 +268,7 @@ const SearchFilterModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOp
 
 // Debouncer
 let debounceTask = 0;
+// eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
 const debounce = (fn: Function, delay: number = 300) => {
 	if (debounceTask) {
 		clearTimeout(debounceTask);
@@ -313,7 +314,7 @@ const SearchPage: FC = () => {
 				setFuseTranslatedIndex(index);
 			});
 		});
-	}, []);
+	}, [fuse]);
 
 	searchBar && searchtext && !searchBar.value && searchBar.getInputElement().then(input => {
 		if(!input.value) {
@@ -341,11 +342,11 @@ const SearchPage: FC = () => {
 		// Only needed because `showClearButton="always"` doesn't work!
 		searchBar && searchBar.getInputElement().then(input => {
 			input.value = "";
-			() => setSearchText("");
+			setSearchText("");
 			searchBar.setFocus();
 			//dispatch(setSearchQuery(""));
 		});
-	}, [setSearchText, dispatch, searchBar]);
+	}, [setSearchText, searchBar]);
 
 	// Might want to store scroll state, too?
 

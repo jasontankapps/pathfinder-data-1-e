@@ -7,7 +7,7 @@ const _not_found = {title: "Unknown", jsx: <><p>Unable to find the requested uni
 const _curse = {title: "Curse", jsx: <><h2 id="umr-curse-curse-su">Curse (Su)</h2>
 <p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 291</Link><br/>The creature can inflict a curse upon its enemies. The effects, including its save, frequency, and cure, are included in the creature's description. If a curse allows a saving throw, it is usually a Will save (DC = 10 + 1/2 the cursing creature's racial HD + that creature's Charisma modifier; the exact DC is given in the creature's descriptive text). Curses can be removed through <Link to="/spell/remove_curse">remove curse</Link> and similar effects.</p>
 <p><strong>Format:</strong> Curse Name (Su) Slam-contact; <em>save</em> Will DC 14; <em>frequency</em> 1/day; <em>effect</em> 1d4 Str drain<br/><strong>Location:</strong> Special Attacks and individual attacks.</p>
-<AffInfo type="Slam-contact" save="Will 14" freq="1/day" eff={<>1d4 <Link to="/rule/str_drain">Str drain</Link></>} undefined icon="c">Curse Name (Su)</AffInfo>
+<AffInfo type="Slam-contact" save="Will 14" freq="1/day" eff={<>1d4 <Link to="/rule/str_drain">Str drain</Link></>} icon="c">Curse Name (Su)</AffInfo>
 </>};
 const _hold_breath = {title: "Hold Breath", jsx: <><h2 id="umr-hold_breath-hold-breath-ex">Hold Breath (Ex)</h2>
 <p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 294</Link><br/>The creature can hold its breath for a number of minutes equal to 6 &times; its Constitution score before it risks <Link to="/rule/drowning">drowning</Link>.</p>

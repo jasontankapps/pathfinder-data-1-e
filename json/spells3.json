@@ -5,7 +5,7 @@
 		"description": [
 			"## Create Greater Undead",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/261\" evil necromancy arc=8 clr=8 orc=8 sha=8 sor=8 wiz=8 ctH=1 cV cS cMp=\"a clay pot filled with grave dirt and an onyx gem worth at least 50 gp per HD of the undead to be created\" rClose target=\"one corpse\" durI saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/261\" evil necromancy arc=8 clr=8 orc=8 sha=8 sor=8 wiz=8 ctH=1 cV cS cMp=\"a clay pot filled with grave dirt and an onyx gem worth at least 50 gp per HD of the undead to be created\" rClose target=\"one corpse\" durI saveNo srN}",
 			"",
 			"This spell functions like create undead, except that you can create more powerful and intelligent sorts of undead: shadows, wraiths, spectres, and devourers. The type or types of undead created is based on caster level, as shown below.",
 			"",
@@ -23,7 +23,7 @@
 		"description": [
 			"## Create Holds",
 			"",
-			"::spell{source=\"Dungeoneer's Handbook/30\" transmutation arc=4 drd=4 hnt=3 rgr=3 rma=4 sor=4 wiz=4 ctSt cV cS cMp=\"handful of pebbles\" rMed effect=\"path of handholds\" durD durHL=1 saveNo srN}",
+			"::spell{id=1 source=\"Dungeoneer's Handbook/30\" transmutation arc=4 drd=4 hnt=3 rgr=3 rma=4 sor=4 wiz=4 ctSt cV cS cMp=\"handful of pebbles\" rMed effect=\"path of handholds\" durD durHL=1 saveNo srN}",
 			"",
 			"You create a path of handholds on earthen, plaster, stone, or wooden walls (not on walls made of metal or other, harder materials). The handholds are created in pairs and are approximately 3 feet apart, located in a specific path indicated by your gestures while casting the spell. The handholds' path can span up to 30 feet out from you plus an additional 10 feet per 3 caster levels (maximum 90 feet at 18th level). The handholds protrude approximately 6 inches from the wall, measure 10 inches lengthwise, and are perfectly suited for gripping with fingers or claws. At the end of the spell's duration, any creature being supported by the handholds immediately begins to fall."
 		]
@@ -34,7 +34,7 @@
 		"description": [
 			"## Create Mindscape",
 			"",
-			"::spell{source=\"Occult Adventures/162\" mindAffecting illusion phantasm arc=5 med=4 mes=4 psy=4 sor=5 wiz=5 ctR=1 cV cS rLong target=\"one creature\" durML=10 save=\"Will disbelief, see text\" srY}",
+			"::spell{id=1 source=\"Occult Adventures/162\" mindAffecting illusion phantasm arc=5 med=4 mes=4 psy=4 sor=5 wiz=5 ctR=1 cV cS rLong target=\"one creature\" durML=10 save=\"Will disbelief, see text\" srY}",
 			"",
 			"You create an [immersive mindscape](rule/immersive_mindscapes) that the minds of both you and another creature enter together. You choose whether the mindscape is overt or veiled, and whether it's harmless or harmful. You can choose any shape and size trait, as well as any gravity trait (though you can't make it so the gravity is so strong it harms creatures within). The mindscape has normal time, no alignment traits, and normal magic.",
 			"",
@@ -52,7 +52,7 @@
 			"",
 			"### Greater Create Mindscape",
 			"",
-			"::spell{source=\"Occult Adventures/163\" mindAffecting illusion phantasm arc=7 mes=6 psy=6 sor=7 wiz=7 ctR=1 cV cS rLong target=\"one creature/level\" durDL=1 save=\"Will disbelief, see text\" srY}",
+			"::spell{id=2 source=\"Occult Adventures/163\" mindAffecting illusion phantasm arc=7 mes=6 psy=6 sor=7 wiz=7 ctR=1 cV cS rLong target=\"one creature/level\" durDL=1 save=\"Will disbelief, see text\" srY}",
 			"",
 			"This spell functions like create mindscape, except it can affect more creatures, the mindscape lasts longer, and you can choose the mindscape's magic trait. You can also direct a number of believable creatures at a time equal to your caster level.",
 			"",
@@ -73,7 +73,7 @@
 		"description": [
 			"## Create Pit",
 			"",
-			"::spell{source=\"Advanced Player's Guide/213\" conjuration creation arc=2 sor=2 sum=2 usm=2 wiz=2 ctSt cV cS cFp=\"miniature shovel costing 10 gp\" rMed effect=\"10-ft.-by-10-ft. hole, 10 ft. deep/2 levels\" dur=\"1 round + 1 round/level\" refl srN}",
+			"::spell{id=1 source=\"Advanced Player's Guide/213\" conjuration creation arc=2 sor=2 sum=2 usm=2 wiz=2 ctSt cV cS cFp=\"miniature shovel costing 10 gp\" rMed effect=\"10-ft.-by-10-ft. hole, 10 ft. deep/2 levels\" dur=\"1 round + 1 round/level\" refl srN}",
 			"",
 			"You create a 10-foot-by-10-foot extradimensional hole with a depth of 10 feet per two caster levels (maximum 30 feet). You must create the pit on a horizontal surface of sufficient size. Since it extends into another dimension, the pit has no weight and does not otherwise displace the original underlying material. You can create the pit in the deck of a ship as easily as in a dungeon floor or the ground of a forest. Any creature standing in the area where you first conjured the pit must make a Reflex saving throw to avoid falling into it. In addition, the edges of the pit are sloped, and any creature ending its turn on a square adjacent to the pit must make a Reflex saving throw with a +2 bonus to avoid falling into it. Creatures subjected to an effect intended to push them into the pit (such as bull rush) do not get a saving throw to avoid falling in if they are affected by the pushing effect.",
 			"",
@@ -81,25 +81,25 @@
 			"",
 			"::h3[Acid Pit]{jl}",
 			"",
-			"::spell{source=\"Advanced Player's Guide/204\" conjuration creation acid arc=4 sor=4 sum=4 usm=4 wiz=4 ctSt cV cS cMp=\"drop of acid\" cFp=\"Fine shovel worth 10 gp\" rMed effect=\"10-ft.-by-10-ft. hole, 10 ft. deep/2 levels\" dur=\"1 round + 1 round/level\" save=\"Reflex negates, see text\" srN}",
+			"::spell{id=2 source=\"Advanced Player's Guide/204\" conjuration creation acid arc=4 sor=4 sum=4 usm=4 wiz=4 ctSt cV cS cMp=\"drop of acid\" cFp=\"Fine shovel worth 10 gp\" rMed effect=\"10-ft.-by-10-ft. hole, 10 ft. deep/2 levels\" dur=\"1 round + 1 round/level\" save=\"Reflex negates, see text\" srN}",
 			"",
 			"This spell functions as create pit, except that it places a 5-foot-deep pool of acid at the bottom of the pit. The pit has a maximum depth of 100 feet. Creatures who fall into the pit take falling damage as normal (the acid counts as a yielding surface), plus 2d6 points of acid damage per round spent in contact with the acid. In addition, exposed items carried by a creature in the pit may be harmed. Refer to [Table 9-2](rule/saving_throw). Items are affected one at a time in the order listed on the table, and must make Fortitude saves after 3 consecutive rounds in the acid or gain the broken condition. Objects with the broken condition (regardless of how they became broken) must make a Fortitude saving throw each round spent within the acid or be destroyed. The walls of the pit are quite slippery and have a Climb DC of 30.",
 			"",
 			"::h3[Hungry Pit]{jl}",
 			"",
-			"::spell{source=\"Advanced Player's Guide/228\" conjuration creation arc=5 sor=5 sum=5 usm=5 wiz=5 ctSt cV cS cFp=\"miniature shovel costing 10 gp\" rMed effect=\"10-ft.-by-10-ft. hole, 10 ft. deep/2 levels\" dur=\"1 round + 1 round/level\" save=\"Reflex negates, Reflex half, see text\" srN}",
+			"::spell{id=3 source=\"Advanced Player's Guide/228\" conjuration creation arc=5 sor=5 sum=5 usm=5 wiz=5 ctSt cV cS cFp=\"miniature shovel costing 10 gp\" rMed effect=\"10-ft.-by-10-ft. hole, 10 ft. deep/2 levels\" dur=\"1 round + 1 round/level\" save=\"Reflex negates, Reflex half, see text\" srN}",
 			"",
 			"This spell functions as create pit, except that the pit has the ability to squeeze and crush any creature trapped within it and has a maximum depth of 100 feet. Creatures who fall into the hole take falling damage as normal. In addition, anyone within the pit, not just those on the bottom, takes 4d6 points of bludgeoning damage each round as the pit contracts and then returns to its normal size (a successful Reflex save halves this damage). The ever-shifting walls of the pit are quite difficult to scale and have a Climb DC of 35.",
 			"",
 			"::h3[Spiked Pit]{jl}",
 			"",
-			"::spell{source=\"Advanced Player's Guide/246\" conjuration creation arc=3 sor=3 sum=3 usm=3 wiz=3 ctSt cV cS cFp=\"miniature shovel costing 10 gp\" rMed effect=\"10-ft.-by-10-ft. hole, 10 ft. deep/2 levels\" dur=\"1 round + 1 round/level\" refl srN}",
+			"::spell{id=4 source=\"Advanced Player's Guide/246\" conjuration creation arc=3 sor=3 sum=3 usm=3 wiz=3 ctSt cV cS cFp=\"miniature shovel costing 10 gp\" rMed effect=\"10-ft.-by-10-ft. hole, 10 ft. deep/2 levels\" dur=\"1 round + 1 round/level\" refl srN}",
 			"",
 			"This spell functions as create pit, except that the pit is lined with wickedly sharp spikes along its bottom and walls and has a maximum depth of 50 feet. Creatures who fall into the pit take falling damage as normal, plus 2d6 points of piercing damage from the spikes. Any creature or object coming into contact with the spikes along the walls, such as a creature trying to climb out, or rope or other typical aids to climbing, takes 1d6 points of piercing damage each round they are in contact with the walls. For those willing to accept the damage incurred while climbing, the pit's walls have a Climb DC of 20.",
 			"",
 			"::h3[Walk the Plank]{jl}",
 			"",
-			"::spell{source=\"Villain Codex/188\" conjuration creation arc=5 sor=5 sum=5 usm=5 wiz=5 ctSt cV cS cMp=\"a shark tooth and a splinter of a ship's hull\" rClose effect=\"20-ft.-by-20-ft. hole, 10 ft. deep/4 levels\" dur=\"1 round plus 1 round/level\" save=\"Reflex negates (see text)\" srN}",
+			"::spell{id=5 source=\"Villain Codex/188\" conjuration creation arc=5 sor=5 sum=5 usm=5 wiz=5 ctSt cV cS cMp=\"a shark tooth and a splinter of a ship's hull\" rClose effect=\"20-ft.-by-20-ft. hole, 10 ft. deep/4 levels\" dur=\"1 round plus 1 round/level\" save=\"Reflex negates (see text)\" srN}",
 			"",
 			"This spell functions as per create pit, except as noted here. All but the top 10 feet of the hole is filled with saltwater, reducing the fall damage for anyone falling into the pit to 1d3 points of nonlethal damage and allowing Huge or larger creatures at the water's surface to simply pull themselves out of the pit as part of a normal move action, without a Climb check. Additionally, the pit contains a single advanced shark for every 4 caster levels you have (maximum four advanced sharks). If desired, when you cast the spell, you can substitute two of the summoned sharks for one great white shark. These sharks immediately attack any creature that falls into the pit, even you. If multiple creatures fall in the pit, the sharks attack randomly. When the spell ends, creatures inside the hole rise up with the bottom of the pit, as normal for create pit, but the conjured water and sharks vanish."
 		]
@@ -129,7 +129,7 @@
 		"description": [
 			"## Create Soul Gem",
 			"",
-			"::spell{source=\"Book of the Damned/184;Book of the Damned - Volume 3: Horsemen of the Apocalypse/38\" death evil necromancy arc=3 clr=3 occ=3 orc=3 sha=3 sor=3 spr=3 war=3 wit=3 wiz=3 ctR=1 cV cS cFp=\"crystal lens worth 500 gp\" rClose target=\"one dying or recently dead creature\" durDL=1 will srY}",
+			"::spell{id=1 source=\"Book of the Damned/184;Book of the Damned - Volume 3: Horsemen of the Apocalypse/38\" death evil necromancy arc=3 clr=3 occ=3 orc=3 sha=3 sor=3 spr=3 war=3 wit=3 wiz=3 ctR=1 cV cS cFp=\"crystal lens worth 500 gp\" rClose target=\"one dying or recently dead creature\" durDL=1 will srY}",
 			"",
 			"You draw forth the ebbing life force of a dying creature or one that has died in the past round, focusing it through a crystal lens focus to transform into a [soul gem](monster/cacodaemon). If the creature is alive and fails its saving throw, it dies and you capture its soul in the gem. If the creature is dead, it can still resist the spell effect by attempting a Will save as if it were still alive. The value of the soul gem created depends on the nature of the creature it is made from (see below). Soul gems created by this spell crumble to dust once the spell's duration expires, releasing the trapped soul to travel on to judgment in the Great Beyond.",
 			"",
@@ -152,7 +152,7 @@
 		"description": [
 			"## Create Treasure Map",
 			"",
-			"::spell{source=\"Advanced Player's Guide/214\" divination arc=2 brd=2 drd=3 hnt=2 med=2 occ=2 psy=2 rgr=2 skd=2 sor=2 wiz=2 ctH=1 cV cS cMp=\"powdered metal and rare inks worth 100 gp\" rTouch target=\"one dead creature\" durI saveNo srN}",
+			"::spell{id=1 source=\"Advanced Player's Guide/214\" divination arc=2 brd=2 drd=3 hnt=2 med=2 occ=2 psy=2 rgr=2 skd=2 sor=2 wiz=2 ctH=1 cV cS cMp=\"powdered metal and rare inks worth 100 gp\" rTouch target=\"one dead creature\" durI saveNo srN}",
 			"",
 			"You can take a piece from a dead creature's body and use it to create a map that reveals the locations of any valuables that creature knew about while still alive. You must cut this piece off yourself and the creature cannot have died more than 24 hours prior to the casting of this spell. You cannot cast this spell on a creature without a physical body, and the portion you remove must have a fairly level surface such as a piece of hide, carapace, or skin. The map you create is accurate to the best knowledge the creature had at the time of its death. It reveals the location of one source of treasure for every three caster levels you possess. Any inaccuracies or faulty information held by the creature are represented on the map as well. Similarly, the map cannot account for any changes that occur after the creature's death. You must choose the scale of the map when creating it, opting between nearby (e.g., one or two dungeon levels), local (e.g., a valley or community), or broad (e.g., a country or larger). The map reveals the locations of what the creature deemed most valuable within its area. Depending on the creature, the map might reveal a source of tasty food, suitable mates, or even your own treasure vault."
 		]
@@ -163,7 +163,7 @@
 		"description": [
 			"## Create Undead",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/262\" evil necromancy arc=6 clr=6 orc=6 sha=6 sor=6 spr=6 war=6 wiz=6 ctH=1 cV cS cMp=\"a clay pot filled with grave dirt and an onyx gem worth at least 50 gp per HD of the undead to be created\" rClose target=\"one corpse\" durI saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/262\" evil necromancy arc=6 clr=6 orc=6 sha=6 sor=6 spr=6 war=6 wiz=6 ctH=1 cV cS cMp=\"a clay pot filled with grave dirt and an onyx gem worth at least 50 gp per HD of the undead to be created\" rClose target=\"one corpse\" durI saveNo srN}",
 			"",
 			"A much more potent spell than ‹spell/animate dead›, this evil spell allows you to infuse a dead body with negative energy to create more powerful sorts of undead: ghouls, ghasts, mummies, and mohrgs. The type or types of undead you can create are based on your caster level, as shown on the table below.",
 			"",
@@ -198,7 +198,7 @@
 		"description": [
 			"## Create Variant Mummy",
 			"",
-			"::spell{source=\"Pathfinder #81: Shifting Sands/73\" evil necromancy arc=7 clr=7 orc=7 sor=7 wiz=7 ctH=1 cV cS cMp=\"onyx gems worth 50 gp per HD of the undead to be created\" rClose target=\"1 corpse steeped in a peat bog for at least 24 hours\" durI saveNo srN}",
+			"::spell{id=1 source=\"Pathfinder #81: Shifting Sands/73\" evil necromancy arc=7 clr=7 orc=7 sor=7 wiz=7 ctH=1 cV cS cMp=\"onyx gems worth 50 gp per HD of the undead to be created\" rClose target=\"1 corpse steeped in a peat bog for at least 24 hours\" durI saveNo srN}",
 			"",
 			"This spell functions as ‹spell/create undead›, except it creates one of the following variant mummies: bog mummy, ice mummy, or Osirian tomb guardian."
 		]
@@ -209,7 +209,7 @@
 		"description": [
 			"## Create Water",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/262\" conjuration creation water adp=0 clr=0 drd=0 hnt=0 inq=0 occ=0 orc=0 pal=1 sha=0 war=0 ctSt cV cS rClose effect=\"up to 2 gallons of water/level\" durI saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/262\" conjuration creation water adp=0 clr=0 drd=0 hnt=0 inq=0 occ=0 orc=0 pal=1 sha=0 war=0 ctSt cV cS rClose effect=\"up to 2 gallons of water/level\" durI saveNo srN}",
 			"",
 			"This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large-possibly creating a downpour or filling many small receptacles. This water disappears after 1 day if not consumed.",
 			"",
@@ -222,7 +222,7 @@
 		"description": [
 			"## Creeping Doom",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/262\" conjuration summoning drd=7 sha=7 sum=5 usm=6 ctSt cV cS r=\"close (25 ft. + 5 ft./2 levels)/100 ft.; see text\" effect=\"four swarms of insects\" durRL=1 save=\"Fortitude partial, see text\" srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/262\" conjuration summoning drd=7 sha=7 sum=5 usm=6 ctSt cV cS r=\"close (25 ft. + 5 ft./2 levels)/100 ft.; see text\" effect=\"four swarms of insects\" durRL=1 save=\"Fortitude partial, see text\" srN}",
 			"",
 			"This spell summons four massive swarms of biting and stinging insects. These swarms appear adjacent to one another, but can be directed to move independently. Treat these swarms as centipede swarms with the following adjustments. The swarms have 60 hit points each and deal 4d6 points of damage with their swarm attack. The save to resist their poison and distraction effects is equal to the save DC of this spell. Creatures caught in multiple swarms only take damage and make saves once.",
 			"",
@@ -235,7 +235,7 @@
 		"description": [
 			"## Creeping Ice",
 			"",
-			"::spell{source=\"Advanced Class Guide/178\" cold evocation arc=4 drd=4 hnt=4 sor=4 sum=3 usm=4 wiz=4 ctSt cV cS rMed effect=\"anchored plane of ice, up to one 10-ft. square/level\" durML=10 save=\"Reflex negates (see text)\" srY}",
+			"::spell{id=1 source=\"Advanced Class Guide/178\" cold evocation arc=4 drd=4 hnt=4 sor=4 sum=3 usm=4 wiz=4 ctSt cV cS rMed effect=\"anchored plane of ice, up to one 10-ft. square/level\" durML=10 save=\"Reflex negates (see text)\" srY}",
 			"",
 			"This spell covers the floor, the ground, or some other calm horizontal surface (such as a placid lake or a gentle river) with a sheet of slowly growing ice. The initial sheet of ice cannot form in an area occupied by physical objects or creatures. Its surface must be smooth and unbroken when created. The ice is hard, strong, and opaque, and is 1 inch thick per caster level. The ice is strong enough to support the weight of a typical horse, making it possible for creatures to cross a body of water.",
 			"",
@@ -250,7 +250,7 @@
 		"description": [
 			"## Crime Wave",
 			"",
-			"::spell{source=\"Ultimate Intrigue/208\" enchantment compulsion mindAffecting ant=4 arc=7 brd=5 mes=5 psy=7 sor=7 wiz=7 ctSt cV cS cMp=\"a tarnished coin\" rMed target=\"one creature/level, no two of which can be more than 30 ft. apart\" durD durRL=1 will srY}",
+			"::spell{id=1 source=\"Ultimate Intrigue/208\" enchantment compulsion mindAffecting ant=4 arc=7 brd=5 mes=5 psy=7 sor=7 wiz=7 ctSt cV cS cMp=\"a tarnished coin\" rMed target=\"one creature/level, no two of which can be more than 30 ft. apart\" durD durRL=1 will srY}",
 			"",
 			"You instill overwhelming avarice in the targets and impel them toward a wild spree of larceny. Creatures affected by a crime wave must roll percentile dice each round to determine what action they take.",
 			"",
@@ -265,7 +265,7 @@
 			"",
 			"### Crime of Opportunity",
 			"",
-			"::spell{source=\"Ultimate Intrigue/208\" enchantment compulsion mindAffecting ant=1 mes=1 ctSt cV cS cMp=\"a silt purse\" rClose target=\"one creature\" durR=1 will srY}",
+			"::spell{id=2 source=\"Ultimate Intrigue/208\" enchantment compulsion mindAffecting ant=1 mes=1 ctSt cV cS cMp=\"a silt purse\" rClose target=\"one creature\" durR=1 will srY}",
 			"",
 			"You awaken a sudden criminal impulse in the target, compelling it to commit a criminal act as if affected by the crime wave spell."
 		]
@@ -280,7 +280,7 @@
 		"description": [
 			"## Crimson Breath",
 			"",
-			"::spell{source=\"Adventurer's Guide/160\" transmutation alc=4 arc=4 clr=4 drd=4 hnt=4 inv=4 orc=4 sor=4 war=4 wit=4 wiz=4 ctSt cS rClose target=\"one creature\" durI fort srN}",
+			"::spell{id=1 source=\"Adventurer's Guide/160\" transmutation alc=4 arc=4 clr=4 drd=4 hnt=4 inv=4 orc=4 sor=4 war=4 wit=4 wiz=4 ctSt cS rClose target=\"one creature\" durI fort srN}",
 			"",
 			"When you cast this spell, your salivary glands transform and instantly fill with potent venom. Make a ranged touch attack against a single target in range; if you hit, the target is affected by a dose of ‹eq-poison/breath of the mantis god›. The Fortitude save DC for this poison is the same as the spell's DC, not the standard save DC for the poison."
 		]
@@ -291,7 +291,7 @@
 		"description": [
 			"## Crimson Confession",
 			"",
-			"::spell{source=\"Advanced Class Guide/179\" abjuration arc=2 occ=2 psy=2 sor=2 wit=2 wiz=2 ctM=10 cV cS rTouch targetOrArea=\"object touched or up to 1 sq. ft.\" dur=\"permanent and 1 hour/level (see text)\" fort srY}",
+			"::spell{id=1 source=\"Advanced Class Guide/179\" abjuration arc=2 occ=2 psy=2 sor=2 wit=2 wiz=2 ctM=10 cV cS rTouch targetOrArea=\"object touched or up to 1 sq. ft.\" dur=\"permanent and 1 hour/level (see text)\" fort srY}",
 			"",
 			"You ward an object or an area with your personal rune or mark. You can choose for the writing to be visible or invisible, and it doesn't harm the material upon which it is placed. A detect magic spell causes an invisible mark to glow and be visible. If any creature other than you touches the warded object or area and fails a Fortitude save, its skin turns bright red for 1 hour per level. This coloring cannot be washed away, but it can be dispelled.",
 			"",
@@ -304,7 +304,7 @@
 		"description": [
 			"## Cruel Jaunt",
 			"",
-			"::spell{source=\"Horror Adventures/114\" mindAffecting conjuration evil fear teleportation ant=4 arc=6 clr=6 inq=6 mag=6 orc=6 psy=6 sha=6 sor=6 war=6 wit=6 wiz=6 ctSt cV cS cMDFp=\"a dilated human eyeball\" rMed target=you durD durRL=1 saveNo srN}",
+			"::spell{id=1 source=\"Horror Adventures/114\" mindAffecting conjuration evil fear teleportation ant=4 arc=6 clr=6 inq=6 mag=6 orc=6 psy=6 sha=6 sor=6 war=6 wit=6 wiz=6 ctSt cV cS cMDFp=\"a dilated human eyeball\" rMed target=you durD durRL=1 saveNo srN}",
 			"",
 			"You gain the ability to detect fear, as per ‹spell/sense fear›, but you sense creatures within medium range.",
 			"",
@@ -322,7 +322,7 @@
 		"description": [
 			"## Crusader's Edge",
 			"",
-			"::spell{source=\"Inner Sea Magic/53\" good transmutation clr=4 inq=4 orc=4 pal=4 war=4 ctSt cV cS cMp=\"dried blood from an evil outsider, sprinkled on the weapon\" rTouch target=\"melee weapon touched\" durML=1 fort srN}",
+			"::spell{id=1 source=\"Inner Sea Magic/53\" good transmutation clr=4 inq=4 orc=4 pal=4 war=4 ctSt cV cS cMp=\"dried blood from an evil outsider, sprinkled on the weapon\" rTouch target=\"melee weapon touched\" durML=1 fort srN}",
 			"",
 			"This spell was created by the paladins of the Mendevian Crusades, and co-opted by inquisitors and rangers dedicated to tracking and fighting demons, devils, and other evil extraplanar creatures.",
 			"",
@@ -344,7 +344,7 @@
 		"description": [
 			"## Crushing Despair",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/262\" enchantment compulsion mindAffecting emotion arc=4 bld=4 brd=3 mes=3 psy=4 skd=3 sor=4 spr=4 wit=4 wiz=4 ctSt cV cS cM rFt=30 area=\"cone-shaped burst\" durML=1 will srY}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/262\" enchantment compulsion mindAffecting emotion arc=4 bld=4 brd=3 mes=3 psy=4 skd=3 sor=4 spr=4 wit=4 wiz=4 ctSt cV cS cM rFt=30 area=\"cone-shaped burst\" durML=1 will srY}",
 			"",
 			"An invisible cone of despair causes great sadness in the subjects. Each affected creature takes a -2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls.",
 			"",
@@ -357,7 +357,7 @@
 		"description": [
 			"## Crushing Hand",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/262\" force evocation arc=9 psy=9 sor=9 wiz=9 ctSt cV cS cFp=\"a soft glove\" rMed effect=\"10-ft.-hand\" durD durRL=1 saveNo srY}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/262\" force evocation arc=9 psy=9 sor=9 wiz=9 ctSt cV cS cFp=\"a soft glove\" rMed effect=\"10-ft.-hand\" durD durRL=1 saveNo srY}",
 			"",
 			"This spell functions as ‹spell/interposing hand›, except that it can also grapple one opponent as grasping hand. Its CMB and CMD for grapple checks use your caster level in place of its base attack bonus, with a +12 bonus for its Strength score (35) and a +1 bonus for being Large (its Dexterity is 10, granting no bonus to the CMD). A crushing hand deals 2d6+12 points of damage on each successful grapple check against an opponent. The crushing hand can instead be directed to bull rush a target (as forceful hand), using the same bonuses outlined above, or it can be directed to interpose itself, as interposing hand does."
 		]
@@ -368,7 +368,7 @@
 		"description": [
 			"## Cultural Adaptation",
 			"",
-			"::spell{source=\"Ultimate Intrigue/208\" divination arc=1 brd=1 clr=1 med=1 occ=1 orc=1 psy=1 skd=1 sor=1 war=1 wiz=1 ctSt cV cS cMDFp=\"a document written in the language of the culture to be emulated\" rPers target=you durML=10}",
+			"::spell{id=1 source=\"Ultimate Intrigue/208\" divination arc=1 brd=1 clr=1 med=1 occ=1 orc=1 psy=1 skd=1 sor=1 war=1 wiz=1 ctSt cV cS cMDFp=\"a document written in the language of the culture to be emulated\" rPers target=you durML=10}",
 			"",
 			"When casting this spell, you must concentrate on a culture or subculture to which you wish to adapt. If you speak the native language of the culture in question, then for the duration of this spell, you speak the language with a native accent. The spell doesn't teach you the language in question, but can be combined with tongues or a similar spell. Your body language and gestures mark you as a native of the culture, and you unconsciously make small decisions that help you blend in. Combined, these grant you a +2 circumstance bonus on Diplomacy checks to influence members of the culture to which you have adapted, which doesn't stack with other circumstance bonuses you might possess by virtue of being a member of the chosen culture. You also gain a +2 circumstance bonus on Disguise checks to pass yourself off as if you were a member of the culture, if you are not.",
 			"",
@@ -381,7 +381,7 @@
 		"description": [
 			"## Cultural Adaptation (Taldan)",
 			"",
-			"::spell{source=\"Humans of Golarion/28\" divination arc=1 brd=1 clr=1 orc=1 skd=1 sor=1 war=1 wiz=1 ctSt cV cS cMDFp=\"a document written in the language of the culture to be emulated\" rPers target=you durML=10}",
+			"::spell{id=1 source=\"Humans of Golarion/28\" divination arc=1 brd=1 clr=1 orc=1 skd=1 sor=1 war=1 wiz=1 ctSt cV cS cMDFp=\"a document written in the language of the culture to be emulated\" rPers target=you durML=10}",
 			"",
 			"During the height of the Empire of Taldor's expansionism, Taldan wizards developed this spell with the idea that it might make pacifying their \"uncivilized\" conquests easier. While the spell has since fallen out of favor with Taldans, it is much embraced by others, bards and Pathfinders in particular.",
 			"",
@@ -397,7 +397,7 @@
 		"description": [
 			"## Cup of Dust",
 			"",
-			"::spell{source=\"Advanced Player's Guide/214\" curse transmutation drd=3 hnt=3 mes=3 occ=3 psy=3 wit=3 ctSt cV cS cMp=\"a pinch of dust\" rClose target=\"one creature\" durD durDL=1 fort srY}",
+			"::spell{id=1 source=\"Advanced Player's Guide/214\" curse transmutation drd=3 hnt=3 mes=3 occ=3 psy=3 wit=3 ctSt cV cS cMp=\"a pinch of dust\" rClose target=\"one creature\" durD durDL=1 fort srY}",
 			"",
 			"You curse the target with a thirst no drink can quench. On a failed saving throw, the target begins to dehydrate. The effects of this spell cannot inflict more nonlethal damage than the target has hit points. No amount of drinking can counter this effect, although the target still experiences the other normal effects of any liquid imbibed (such as poisons or potions). Cup of dust can be removed with a ‹spell/break enchantment›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/remove curse›, or ‹spell/wish› spell, but effects suffered as a result of dehydration must be healed by normal means.",
 			"",
@@ -415,7 +415,7 @@
 		"description": [
 			"## Curative Distillation",
 			"",
-			"::spell{source=\"Healer's Handbook/8\" conjuration healing alc=2 clr=3 inv=2 orc=3 war=3 ctSt cV cS cMp=\"healing herb, alchemical remady, or potion of a healing spell worth at least 50 gp\" rTouch target=\"one living creature touched\" durI willHalf srY harmless}",
+			"::spell{id=1 source=\"Healer's Handbook/8\" conjuration healing alc=2 clr=3 inv=2 orc=3 war=3 ctSt cV cS cMp=\"healing herb, alchemical remady, or potion of a healing spell worth at least 50 gp\" rTouch target=\"one living creature touched\" durI willHalf srY harmless}",
 			"",
 			"You concentrate the healing potential of the material component so that it's exceptionally potent and restorative. This spell restores a number of hit points equal to 1d8 + 1 point per caster level (maximum +10) to the target, and also grants the target the benefits of the material component. Roll the hit points restored separately when determining how many total hit points this spell and the material component restore."
 		]
@@ -429,7 +429,7 @@
 		"description": [
 			"## Cure Critical Wounds",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/262\" conjuration healing adp=4 alc=4 brd=4 clr=4 drd=5 hnt=5 inq=4 inv=4 occ=4 orc=4 sha=4 skd=4 spr=4 war=4 wit=5 ctSt cV cS rTouch target=\"creature touched\" durI willHalf svHarmless sr=\"yes (harmless); see text\"}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/262\" conjuration healing adp=4 alc=4 brd=4 clr=4 drd=5 hnt=5 inq=4 inv=4 occ=4 orc=4 sha=4 skd=4 spr=4 war=4 wit=5 ctSt cV cS rTouch target=\"creature touched\" durI willHalf svHarmless sr=\"yes (harmless); see text\"}",
 			"",
 			"This spell functions like cure light wounds, except that it cures 4d8 points of damage +1 point per caster level (maximum +20).",
 			"",
@@ -447,7 +447,7 @@
 		"description": [
 			"## Mass Cure Critical Wounds",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/262\" conjuration healing clr=8 drd=9 orc=8 sha=8 wit=9 ctSt cV cS rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" durI save=\"Will half (harmless) or Will half; see text\" sr=\"yes (harmless) or yes; see text\"}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/262\" conjuration healing clr=8 drd=9 orc=8 sha=8 wit=9 ctSt cV cS rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" durI save=\"Will half (harmless) or Will half; see text\" sr=\"yes (harmless) or yes; see text\"}",
 			"",
 			"This spell functions like mass cure light wounds, except that it cures 4d8 points of damage +1 point per caster level (maximum +40)."
 		]
@@ -462,7 +462,7 @@
 		"description": [
 			"## Cure Light Wounds",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/263\" conjuration healing adp=1 alc=1 brd=1 clr=1 drd=1 hnt=1 inq=1 inv=1 occ=1 orc=1 pal=1 rgr=2 sha=1 skd=1 spr=1 war=1 wit=1 ctSt cV cS rTouch target=\"creature touched\" durI willHalf svHarmless sr=\"yes (harmless); see text\"}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/263\" conjuration healing adp=1 alc=1 brd=1 clr=1 drd=1 hnt=1 inq=1 inv=1 occ=1 orc=1 pal=1 rgr=2 sha=1 skd=1 spr=1 war=1 wit=1 ctSt cV cS rTouch target=\"creature touched\" durI willHalf svHarmless sr=\"yes (harmless); see text\"}",
 			"",
 			"When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.",
 			"",
@@ -480,7 +480,7 @@
 		"description": [
 			"## Mass Cure Light Wounds",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/263\" conjuration healing brd=5 clr=5 drd=6 hnt=6 inq=5 occ=5 orc=5 sha=5 skd=5 war=5 wit=6 ctSt cV cS rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" durI save=\"Will half (harmless) or Will half; see text\" sr=\"yes (harmless) or yes; see text\"}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/263\" conjuration healing brd=5 clr=5 drd=6 hnt=6 inq=5 occ=5 orc=5 sha=5 skd=5 war=5 wit=6 ctSt cV cS rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" durI save=\"Will half (harmless) or Will half; see text\" sr=\"yes (harmless) or yes; see text\"}",
 			"",
 			"You channel positive energy to cure 1d8 points of damage + 1 point per caster level (maximum +25) on each selected creature. Like other ‹main/cure spells›, mass cure light wounds deals damage to undead in its area rather than curing them. Each affected undead may attempt a Will save for half damage."
 		]
@@ -495,7 +495,7 @@
 		"description": [
 			"## Cure Moderate Wounds",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/263\" conjuration healing adp=2 alc=2 brd=2 clr=2 drd=3 hnt=3 inq=2 inv=2 occ=2 orc=2 pal=3 rgr=3 sha=2 skd=2 spr=2 war=2 wit=2 ctSt cV cS rTouch target=\"creature touched\" durI willHalf svHarmless sr=\"yes (harmless); see text\"}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/263\" conjuration healing adp=2 alc=2 brd=2 clr=2 drd=3 hnt=3 inq=2 inv=2 occ=2 orc=2 pal=3 rgr=3 sha=2 skd=2 spr=2 war=2 wit=2 ctSt cV cS rTouch target=\"creature touched\" durI willHalf svHarmless sr=\"yes (harmless); see text\"}",
 			"",
 			"This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10).",
 			"",
@@ -513,7 +513,7 @@
 		"description": [
 			"## Mass Cure Moderate Wounds",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/263\" conjuration healing brd=6 clr=6 drd=7 inq=6 occ=6 orc=6 sha=6 skd=6 war=6 wit=7 ctSt cV cS rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" durI save=\"Will half (harmless) or Will half; see text\" sr=\"yes (harmless) or yes; see text\"}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/263\" conjuration healing brd=6 clr=6 drd=7 inq=6 occ=6 orc=6 sha=6 skd=6 war=6 wit=7 ctSt cV cS rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" durI save=\"Will half (harmless) or Will half; see text\" sr=\"yes (harmless) or yes; see text\"}",
 			"",
 			"This spell functions like mass cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +30)."
 		]
@@ -528,7 +528,7 @@
 		"description": [
 			"## Cure Serious Wounds",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/263\" conjuration healing adp=3 alc=3 brd=3 clr=3 drd=4 hnt=4 inq=3 inv=3 occ=3 orc=3 pal=4 rgr=4 sha=3 skd=3 spr=3 war=3 wit=4 ctSt cV cS rTouch target=\"creature touched\" durI willHalf svHarmless sr=\"yes (harmless); see text\"}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/263\" conjuration healing adp=3 alc=3 brd=3 clr=3 drd=4 hnt=4 inq=3 inv=3 occ=3 orc=3 pal=4 rgr=4 sha=3 skd=3 spr=3 war=3 wit=4 ctSt cV cS rTouch target=\"creature touched\" durI willHalf svHarmless sr=\"yes (harmless); see text\"}",
 			"",
 			"This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15).",
 			"",
@@ -546,7 +546,7 @@
 		"description": [
 			"## Mass Cure Serious Wounds",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/263\" conjuration healing clr=7 drd=8 orc=7 sha=7 wit=8 ctSt cV cS rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" durI save=\"Will half (harmless) or Will half; see text\" sr=\"yes (harmless) or yes; see text\"}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/263\" conjuration healing clr=7 drd=8 orc=7 sha=7 wit=8 ctSt cV cS rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" durI save=\"Will half (harmless) or Will half; see text\" sr=\"yes (harmless) or yes; see text\"}",
 			"",
 			"This spell functions like mass cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +35)."
 		]
@@ -558,7 +558,7 @@
 		"description": [
 			"## Curse Item",
 			"",
-			"::spell{source=\"Pathfinder #64: Beyond the Doomsday Door/73\" curse necromancy clr=2 orc=2 war=2 ctM=1 cV cS cDF rTouch target=\"object touched\" durI will srY object}",
+			"::spell{id=1 source=\"Pathfinder #64: Beyond the Doomsday Door/73\" curse necromancy clr=2 orc=2 war=2 ctM=1 cV cS cDF rTouch target=\"object touched\" durI will srY object}",
 			"",
 			">*Clerics of ‹faith/Groetus› have access to the following spell.*",
 			"",
@@ -583,7 +583,7 @@
 		"description": [
 			"## Curse of Befouled Fortune",
 			"",
-			"::spell{source=\"Blood of the Beast/7\" curse necromancy ant=3 arc=4 bld=4 clr=3 orc=3 sha=3 sor=4 spr=3 war=3 wit=3 wiz=4 ctSt cV cS rTouch target=\"creature touched\" durP will srY}",
+			"::spell{id=1 source=\"Blood of the Beast/7\" curse necromancy ant=3 arc=4 bld=4 clr=3 orc=3 sha=3 sor=4 spr=3 war=3 wit=3 wiz=4 ctSt cV cS rTouch target=\"creature touched\" durP will srY}",
 			"",
 			">*The following spell was created by ‹race/catfolk› and make use of their inherent luck.*",
 			"",
@@ -598,7 +598,7 @@
 		"description": [
 			"## Curse of Burning Sleep",
 			"",
-			"::spell{source=\"Advanced Class Guide/179\" curse fire transmutation arc=4 psy=4 rma=4 sha=4 sor=4 wit=4 wiz=4 ctSt cV cS cMp=\"a feather and a drop of oil\" rClose target=\"one creature\" dur=\"permanent until triggered (see text)\" save=\"Will negates (see text)\" srY}",
+			"::spell{id=1 source=\"Advanced Class Guide/179\" curse fire transmutation arc=4 psy=4 rma=4 sha=4 sor=4 wit=4 wiz=4 ctSt cV cS cMp=\"a feather and a drop of oil\" rClose target=\"one creature\" dur=\"permanent until triggered (see text)\" save=\"Will negates (see text)\" srY}",
 			"",
 			"You place a curse upon the target that triggers 1 hour after the next time it falls asleep. When the curse is triggered, the creature bursts into flame, taking 1d6 points of fire damage per 2 caster levels (maximum 8d6). Furthermore, it catches on fire, taking 2d6 points of fire damage per round at the end of its turn each round until the creature dies or is quenched as normal. If the target is still asleep, the fire damage from this spell wakes it.",
 			"",
@@ -611,7 +611,7 @@
 		"description": [
 			"## Curse of Disgust",
 			"",
-			"::spell{source=\"Ultimate Magic/215\" enchantment compulsion mindAffecting curse emotion arc=5 brd=3 mes=3 occ=4 psy=6 skd=3 sor=5 wit=5 wiz=5 ctSt cV cS rClose target=\"one creature\" durP will srY}",
+			"::spell{id=1 source=\"Ultimate Magic/215\" enchantment compulsion mindAffecting curse emotion arc=5 brd=3 mes=3 occ=4 psy=6 skd=3 sor=5 wit=5 wiz=5 ctSt cV cS rClose target=\"one creature\" durP will srY}",
 			"",
 			"You place a curse upon a creature, causing it to avoid the sight of a specific trigger, which is a kind of creature, object, or condition designated by you. When the target is within 30 feet of a trigger and is aware of the trigger, it gains the sickened condition and feels an urge to leave. A successful Will save negates the urge to leave, but the sickened condition persists as long as the target is within 30 feet of a trigger and aware of it. Example triggers include beggars, filthy clothing, diseased creatures, the king, blood, spiders, rats, corpses, and sewage."
 		]
@@ -622,7 +622,7 @@
 		"description": [
 			"## Curse of Dragonflies",
 			"",
-			"::spell{source=\"Blood of the Coven/21\" conjuration air curse arc=4 drd=3 hnt=3 mag=3 sha=4 sor=4 sum=4 wit=3 wiz=4 ctSt cV cS cMp=\"a paper insect\" rMed target=\"one creature\" durD durP will srY}",
+			"::spell{id=1 source=\"Blood of the Coven/21\" conjuration air curse arc=4 drd=3 hnt=3 mag=3 sha=4 sor=4 sum=4 wit=3 wiz=4 ctSt cV cS cMp=\"a paper insect\" rMed target=\"one creature\" durD durP will srY}",
 			"",
 			"You invest a target with cursed elemental energy, making the open skies anathema to it. If the affected creature ever tries to fly more than 5 feet above the ground, paper insects erupt from the air around the creature to interfere with its movement. The affected creature's flight maneuverability decreases by one step for every 3 caster levels you have. A creature whose maneuverability would be brought below clumsy must land at the end of its turn each round or fall.",
 			"",
@@ -635,7 +635,7 @@
 		"description": [
 			"## Curse of Fell Seasons",
 			"",
-			"::spell{source=\"Horror Adventures/114\" curse darkness transmutation arc=9 drd=9 sha=9 sor=9 wit=9 wiz=9 ctM=10 cV cS cFp=\"darkwood carving of a tree worth 15,000 gp\" rTouch area=\"2-mile radius emanating from the touched point\" durD durP saveNo srN}",
+			"::spell{id=1 source=\"Horror Adventures/114\" curse darkness transmutation arc=9 drd=9 sha=9 sor=9 wit=9 wiz=9 ctM=10 cV cS cFp=\"darkwood carving of a tree worth 15,000 gp\" rTouch area=\"2-mile radius emanating from the touched point\" durD durP saveNo srN}",
 			"",
 			"By touching the ground, you drastically change the weather in the area, as the unseasonable weather curse (see below). The focus merges into the cursed area as part of the spell and can only be retrieved if the curse is lifted.",
 			"",
@@ -652,7 +652,7 @@
 		"description": [
 			"## Curse of Keeping",
 			"",
-			"::spell{source=\"Black Markets/30\" enchantment compulsion curse ant=2 sha=2 wit=2 ctSt cV cS cDF rClose target=\"one creature\" durDL=1 will srY}",
+			"::spell{id=1 source=\"Black Markets/30\" enchantment compulsion curse ant=2 sha=2 wit=2 ctSt cV cS cDF rClose target=\"one creature\" durDL=1 will srY}",
 			"",
 			"You curse the target with the inability to sell, barter, or give away any item it owns, other than ordinary currency, for as long as the spell remains in effect. The target cannot sell, trade, drop, or give away possessions. The target can purchase items using ordinary currency but can't then sell the purchased items. The target can accept gifts from others but can't offer anything in exchange. A curse of keeping can be ended by ‹spell/break enchantment›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/remove curse›, or ‹spell/wish›. ‹spell/Dispel magic› does not affect a curse of keeping."
 		]
@@ -663,7 +663,7 @@
 		"description": [
 			"## Curse of Magic Negation",
 			"",
-			"::spell{source=\"Ultimate Magic/215\" abjuration curse arc=4 clr=5 inq=4 mes=3 occ=4 orc=5 psy=4 sor=4 war=5 wit=4 wiz=4 ctR=1 cV cS cMp=\"powdered lead and platinum worth 250 gp\" rMed target=\"one creature\" durML=10 will srN}",
+			"::spell{id=1 source=\"Ultimate Magic/215\" abjuration curse arc=4 clr=5 inq=4 mes=3 occ=4 orc=5 psy=4 sor=4 war=5 wit=4 wiz=4 ctR=1 cV cS cMp=\"powdered lead and platinum worth 250 gp\" rMed target=\"one creature\" durML=10 will srN}",
 			"",
 			"You disrupt the target creature's ability to draw upon magical energies. For the duration of the spell, it gains the [negated spellblight](rule/major_spellblights). Dispel checks to remove the spellblight take a -5 penalty due to this spell's interference with magical energies."
 		]
@@ -674,7 +674,7 @@
 		"description": [
 			"## Curse of Night",
 			"",
-			"::spell{source=\"Horror Adventures/114\" curse darkness evocation arc=8 clr=8 drd=8 orc=8 sor=8 wit=8 wiz=8 ctM=10 cV cS cFp=\"jet gemstones worth a total of 10,000 gp\" rTouch area=\"1-mile radius emanating from touched point)\" durD durP save=\"none (see curse text)\" srN}",
+			"::spell{id=1 source=\"Horror Adventures/114\" curse darkness evocation arc=8 clr=8 drd=8 orc=8 sor=8 wit=8 wiz=8 ctM=10 cV cS cFp=\"jet gemstones worth a total of 10,000 gp\" rTouch area=\"1-mile radius emanating from touched point)\" durD durP save=\"none (see curse text)\" srN}",
 			"",
 			"By touching the ground, you curse an area to remain in bleak darkness, as the endless night curse (see below). The focus merges into the cursed area as part of the spell and can only be retrieved if the curse is lifted.",
 			"",
@@ -691,7 +691,7 @@
 		"description": [
 			"## Curse of the Outcast",
 			"",
-			"::spell{source=\"Ultimate Intrigue/209\" enchantment compulsion mindAffecting curse emotion brd=4 clr=6 inq=4 mes=4 orc=6 sha=6 skd=5 war=6 wit=6 ctSt cV cS cMp=\"a handful of earthworms\" rClose target=\"one creature\" durP will srY}",
+			"::spell{id=1 source=\"Ultimate Intrigue/209\" enchantment compulsion mindAffecting curse emotion brd=4 clr=6 inq=4 mes=4 orc=6 sha=6 skd=5 war=6 wit=6 ctSt cV cS cMp=\"a handful of earthworms\" rClose target=\"one creature\" durP will srY}",
 			"",
 			"Everything about the target seems off-putting and grating, and everyone he meets is compelled to see the worst in him. Whenever the target attempts a Bluff, Diplomacy, Intimidate, or Perform check, he must roll twice and take the lower result.",
 			"",
@@ -704,7 +704,7 @@
 		"description": [
 			"## Curse of Unexpected Death",
 			"",
-			"::spell{source=\"Pathfinder #89: Palace of Fallen Stars/74\" curse death necromancy clr=4 orc=4 sha=5 war=4 wit=5 ctSt cV cS rTouch target=\"living creature touched\" dur=\"1 minute/level (see text)\" save=\"Fortitude partial (see text)\" srY}",
+			"::spell{id=1 source=\"Pathfinder #89: Palace of Fallen Stars/74\" curse death necromancy clr=4 orc=4 sha=5 war=4 wit=5 ctSt cV cS rTouch target=\"living creature touched\" dur=\"1 minute/level (see text)\" save=\"Fortitude partial (see text)\" srY}",
 			"",
 			">*Clerics of ‹faith/Zyphus› have access to the following spell.*",
 			"",
@@ -719,7 +719,7 @@
 		"description": [
 			"## Lesser Curse Terrain",
 			"",
-			"::spell{source=\"Horror Adventures/114\" curse evil necromancy arc=2 clr=2 drd=2 hnt=2 orc=2 sha=2 sor=2 war=2 wit=2 wiz=2 ctM=10 cV cS cMp=\"the heart of a creature that dwelled in the area and powdered onxy worth 350 gp\" rTouch area=\"300-ft. radius emanating from the touched point\" dur=\"1 day\" saveNo srN}",
+			"::spell{id=1 source=\"Horror Adventures/114\" curse evil necromancy arc=2 clr=2 drd=2 hnt=2 orc=2 sha=2 sor=2 war=2 wit=2 wiz=2 ctM=10 cV cS cMp=\"the heart of a creature that dwelled in the area and powdered onxy worth 350 gp\" rTouch area=\"300-ft. radius emanating from the touched point\" dur=\"1 day\" saveNo srN}",
 			"",
 			"By touching the ground, you curse the land with three unnatural hazards, as the minor perilous demesne curse (see below). Though this makes the hazards appear frequently, their manifestations are still unpredictable-you can't control when the hazards begin or end, nor where they appear within the cursed terrain.",
 			"",
@@ -739,7 +739,7 @@
 			"",
 			"::h3[Curse Terrain]{jl}",
 			"",
-			"::spell{source=\"Horror Adventures/114\" curse evil necromancy arc=4 clr=4 drd=4 hnt=4 orc=4 sha=4 sor=4 war=4 wit=4 wiz=4 ctM=10 cV cS cMp=\"the heart of a creature that dwelled in the area and powdered onyx worth 700 gp\" rTouch area=\"1-mile radius emanting from the touched point\" dur=\"1 day\"}",
+			"::spell{id=2 source=\"Horror Adventures/114\" curse evil necromancy arc=4 clr=4 drd=4 hnt=4 orc=4 sha=4 sor=4 war=4 wit=4 wiz=4 ctM=10 cV cS cMp=\"the heart of a creature that dwelled in the area and powdered onyx worth 700 gp\" rTouch area=\"1-mile radius emanting from the touched point\" dur=\"1 day\"}",
 			"",
 			"By touching the ground, you curse the land with four unnatural hazards. This functions as lesser curse terrain, but with the effects of the major perilous demesne curse (see below).",
 			"",
@@ -750,7 +750,7 @@
 			"",
 			"::h3[Greater Curse Terrain]{jl}",
 			"",
-			"::spell{source=\"Horror Adventures/114\" curse evil necromancy arc=6 clr=6 drd=6 hnt=6 orc=6 sha=6 sor=6 war=6 wit=6 wiz=6 ctM=10 cV cS cMp=\"the heart of the creature that dwelled in the area and powdered onyx worth 1,500 gp\" rTouch area=\"5-mile radius emanating from the touched point\" dur=\"1 day\"}",
+			"::spell{id=3 source=\"Horror Adventures/114\" curse evil necromancy arc=6 clr=6 drd=6 hnt=6 orc=6 sha=6 sor=6 war=6 wit=6 wiz=6 ctM=10 cV cS cMp=\"the heart of the creature that dwelled in the area and powdered onyx worth 1,500 gp\" rTouch area=\"5-mile radius emanating from the touched point\" dur=\"1 day\"}",
 			"",
 			"By touching the ground, you curse the land with six unnatural hazards. This functions as lesser curse terrain, but with the effects of the greater perilous demesne curse (see below).",
 			"",
@@ -763,7 +763,7 @@
 			"",
 			"::h3[Supreme Curse Terrain]{jl}",
 			"",
-			"::spell{source=\"Horror Adventures/115\" curse evil necromancy arc=8 clr=8 drd=8 orc=8 sha=8 sor=8 wit=8 wiz=8 ctM=10 cV cS cMp=\"the heart of a creature that dwelled in the area and powdered onyx worth 4,000 gp\" rTouch area=\"5-mile radius emanating from the touched point\" dur=\"1 day\"}",
+			"::spell{id=4 source=\"Horror Adventures/115\" curse evil necromancy arc=8 clr=8 drd=8 orc=8 sha=8 sor=8 wit=8 wiz=8 ctM=10 cV cS cMp=\"the heart of a creature that dwelled in the area and powdered onyx worth 4,000 gp\" rTouch area=\"5-mile radius emanating from the touched point\" dur=\"1 day\"}",
 			"",
 			"By touching the ground, you curse the land with seven unnatural hazards. This functions as lesser curse terrain, but with the effects of the grand perilous demesne curse (see below).",
 			"",
@@ -796,7 +796,7 @@
 		"description": [
 			"## Curse Water",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/263\" evil necromancy ant=1 clr=1 inq=1 orc=1 war=1 ctM=1 cV cS cMp=\"5 lbs. of powdered silver worth 25 gp\" rTouch target=\"flask of water touched\" durI will srY object}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/263\" evil necromancy ant=1 clr=1 inq=1 orc=1 war=1 ctM=1 cV cS cMp=\"5 lbs. of powdered silver worth 25 gp\" rTouch target=\"flask of water touched\" durI will srY object}",
 			"",
 			"This spell imbues a flask (1 pint) of water with negative energy, turning it into unholy water. Unholy water damages good outsiders the way ‹eq-weapon/holy water› damages undead and evil outsiders."
 		]
@@ -807,7 +807,7 @@
 		"description": [
 			"## Cursed Earth",
 			"",
-			"::spell{source=\"Ultimate Magic/215\" curse evil necromancy arc=9 clr=9 orc=9 sor=9 wit=9 wiz=9 ctM=10 cV cS cDF cMp=\"powdered onyx 10,000 gp\" rTouch area=\"1-mile radius emanating from the touched point\" durP save=\"none (see text)\" srN}",
+			"::spell{id=1 source=\"Ultimate Magic/215\" curse evil necromancy arc=9 clr=9 orc=9 sor=9 wit=9 wiz=9 ctM=10 cV cS cDF cMp=\"powdered onyx 10,000 gp\" rTouch area=\"1-mile radius emanating from the touched point\" durP save=\"none (see text)\" srN}",
 			"",
 			"You lay a terrible curse upon the land, blighting those who live and die there. Choose one of the following effects.",
 			"",
@@ -824,7 +824,7 @@
 		"description": [
 			"## Cursed Treasure",
 			"",
-			"::spell{source=\"Villain Codex/188\" curse necromancy ant=3 arc=4 bld=4 clr=3 orc=3 sha=3 sor=4 spr=3 war=3 wit=3 wiz=4 ctM=1 cV cS cMp=\"a platinum piece\" rTouch target=\"unattended object touched\" dur=\"permanent until discharged, then permanent (see text)\" save=\"Fortitude negates (object), then Will negates (see text)\" sr=\"yes (object), then yes (see text)\"}",
+			"::spell{id=1 source=\"Villain Codex/188\" curse necromancy ant=3 arc=4 bld=4 clr=3 orc=3 sha=3 sor=4 spr=3 war=3 wit=3 wiz=4 ctM=1 cV cS cMp=\"a platinum piece\" rTouch target=\"unattended object touched\" dur=\"permanent until discharged, then permanent (see text)\" save=\"Fortitude negates (object), then Will negates (see text)\" sr=\"yes (object), then yes (see text)\"}",
 			"",
 			"You touch a piece of treasure or container filled with treasure and place a terrible curse upon it, choosing from any option available with bestow curse. The next creature to take the treasure or remove items from the container is affected by the curse, unless it succeeds at a Will save (spell resistance applies). If you are the next creature to take the treasure or get objects from the container, though, the spell discharges harmlessly instead."
 		]
@@ -835,7 +835,7 @@
 		"description": [
 			"## Cushioning Bands",
 			"",
-			"::spell{source=\"Ultimate Magic/215\" force conjuration creation arc=2 psy=2 sor=2 sum=2 usm=2 wiz=2 ctSt cV cS rTouch target=\"creature touched\" dur=\"1 hour/level or until discharged\" durD will svHarmless srY}",
+			"::spell{id=1 source=\"Ultimate Magic/215\" force conjuration creation arc=2 psy=2 sor=2 sum=2 usm=2 wiz=2 ctSt cV cS rTouch target=\"creature touched\" dur=\"1 hour/level or until discharged\" durD will svHarmless srY}",
 			"",
 			"Invisible bands of force encircle vital areas of the target. The bands resist crushing forces and impacts without interfering with movement. The target gains DR 2/piercing or slashing and takes half damage from constriction, falling, and being buried, as well as from similar crushing effects such as crushing hand. Grapple checks for attacks other than constricting (such as pinning or swallowing whole) are not affected. Once the spell has blocked 12 points of damage per caster level (to a maximum of 120 points at 10th level), it is discharged. The bands have no effect on incorporeal attacks unless they deal damage from constriction or crushing, or unless the attacks would be subject to damage reduction."
 		]
@@ -846,7 +846,7 @@
 		"description": [
 			"## Daemon Ward",
 			"",
-			"::spell{source=\"Book of the Damned - Volume 3: Horsemen of the Apocalypse/38\" necromancy arc=4 clr=4 drd=5 hnt=5 orc=4 pal=4 sor=4 war=4 wit=4 wiz=4 ctSt cV cS cMp=\"50 gp worth of powdered silver\" rTouch target=\"living creature touched\" durML=1 will srY harmless}",
+			"::spell{id=1 source=\"Book of the Damned - Volume 3: Horsemen of the Apocalypse/38\" necromancy arc=4 clr=4 drd=5 hnt=5 orc=4 pal=4 sor=4 war=4 wit=4 wiz=4 ctSt cV cS cMp=\"50 gp worth of powdered silver\" rTouch target=\"living creature touched\" durML=1 will srY harmless}",
 			"",
 			"This spell functions like death ward, except as noted above and it only protects against these attacks from daemons."
 		]
@@ -857,7 +857,7 @@
 		"description": [
 			"## Daggermark's Exchange",
 			"",
-			"::spell{source=\"Inner Sea Intrigue/59\" poison transmutation alc=2 arc=3 clr=3 drd=2 hnt=2 inv=2 occ=3 orc=3 psy=3 sor=3 war=3 wiz=3 ctSt cV cS cMp=\"a dose of poison\" rPers target=you durI}",
+			"::spell{id=1 source=\"Inner Sea Intrigue/59\" poison transmutation alc=2 arc=3 clr=3 drd=2 hnt=2 inv=2 occ=3 orc=3 psy=3 sor=3 war=3 wiz=3 ctSt cV cS cMp=\"a dose of poison\" rPers target=you durI}",
 			"",
 			"You swallow a dose of poison with no effect and regurgitate a dose of a different poison (your choice) into the old container (or another you have on hand). Attempt a Craft (alchemy) check against the new poison's DC. If you succeed, you create a dose of your chosen poison. If you fail, the poison you regurgitate is inert. If you roll a natural 1, you expose yourself to the original poison (although you remain immune to that poison if you have venom immunity or a similar class feature or ability). The new poison's price must be the same as or less than the original poison's price."
 		]
@@ -868,7 +868,7 @@
 		"description": [
 			"## Dahak's Release",
 			"",
-			"::spell{source=\"Legacy of Dragons/28\" enchantment compulsion mindAffecting draconic arc=5 mes=5 occ=5 sha=5 sor=5 wit=5 wiz=5 ctSt cV cS cMp=\"a dried drop of blood\" rTouch target=\"creature touched\" durRL=1 will srY}",
+			"::spell{id=1 source=\"Legacy of Dragons/28\" enchantment compulsion mindAffecting draconic arc=5 mes=5 occ=5 sha=5 sor=5 wit=5 wiz=5 ctSt cV cS cMp=\"a dried drop of blood\" rTouch target=\"creature touched\" durRL=1 will srY}",
 			"",
 			"You unleash all the target's anger and destructive urges, causing it to fly into a violent bloodlust. The target attacks creatures as determined by the following table. If a creature is killed or the target is for some reason unable to effectively attack it, roll on the table again to select a new action for the target.",
 			"",
@@ -889,7 +889,7 @@
 		"description": [
 			"## Damnation",
 			"",
-			"::spell{source=\"Horror Adventures/115\" evocation good clr=3 inq=3 orc=3 pal=3 war=3 ctSt cV cS cMDFp=\"a drop of holy water\" rPers area=\"30-ft.-radius burst centered on you\" durI willHalf srY}",
+			"::spell{id=1 source=\"Horror Adventures/115\" evocation good clr=3 inq=3 orc=3 pal=3 war=3 ctSt cV cS cMDFp=\"a drop of holy water\" rPers area=\"30-ft.-radius burst centered on you\" durI willHalf srY}",
 			"",
 			"You pass judgment on your enemies' intentions and punish them with holy power. Each creature in the spell's area takes 1d8 points of damage per spell level, determined by the most powerful effect with the evil descriptor either affecting that creature or in its spell repertoire. A caster who prepares spells takes this damage based on the highest-level evil spell he prepared that day, even if he already cast that spell. A spontaneous spellcaster takes this damage based on the highest-level evil spell she knows, even if she has no remaining spell slots available to cast that spell. A creature with evil spell-like abilities takes this damage based on the highest-level evil spell-like ability it can use. A creature who doesn't cast spells but is the willing beneficiary of evil spells takes this damage based on the highest-level evil spell currently affecting it, including spells that affect an area such as desecrate. A creature subject to the harmful effects of an evil spell are unaffected unless it voluntarily accepted the spell's effects."
 		]
@@ -900,7 +900,7 @@
 		"description": [
 			"## Damnation of Memory",
 			"",
-			"::spell{source=\"Inner Sea Races/218\" enchantment compulsion mindAffecting brd=6 skd=6 ctH=1 cV cS cFp=\"a massive, flawless gemstone worth 5,000 gp\" rLong targets=\"all living creatures within range\" durP will srY}",
+			"::spell{id=1 source=\"Inner Sea Races/218\" enchantment compulsion mindAffecting brd=6 skd=6 ctH=1 cV cS cFp=\"a massive, flawless gemstone worth 5,000 gp\" rLong targets=\"all living creatures within range\" durP will srY}",
 			"",
 			">*The following spell is available to the indicated race or ethnicity: Garundi*",
 			"",
@@ -918,7 +918,7 @@
 		"description": [
 			"## Damnation Stride",
 			"",
-			"::spell{source=\"Advanced Race Guide/173\" conjuration fire teleportation arc=5 sor=5 sum=4 usm=4 wit=5 wiz=5 ctSt cV rLong target=\"you (teleportation) and creatures within a 10-foot-radius burst (burst of flame) (see text)\" durI save=\"Reflex half, see text\" srN}",
+			"::spell{id=1 source=\"Advanced Race Guide/173\" conjuration fire teleportation arc=5 sor=5 sum=4 usm=4 wit=5 wiz=5 ctSt cV rLong target=\"you (teleportation) and creatures within a 10-foot-radius burst (burst of flame) (see text)\" durI save=\"Reflex half, see text\" srN}",
 			"",
 			">*‹race/Tiefling«s› have access to the following spell.*",
 			"",
@@ -940,7 +940,7 @@
 		"description": [
 			"## Damp Powder",
 			"",
-			"::spell{source=\"Ultimate Combat/226\" transmutation arc=1 drd=1 hnt=1 rma=1 sor=1 wit=1 wiz=1 ctSt cV cS cMDFp=\"a damp piece of cotton\" rClose target=\"1 loaded firearm\" durI will srY object}",
+			"::spell{id=1 source=\"Ultimate Combat/226\" transmutation arc=1 drd=1 hnt=1 rma=1 sor=1 wit=1 wiz=1 ctSt cV cS cMDFp=\"a damp piece of cotton\" rClose target=\"1 loaded firearm\" durI will srY object}",
 			"",
 			"This spell causes ammunition already loaded into the target firearm is ruined with moisture. Any attempt to fire that ammunition fails, with no chance for misfire, and the user must then take a full-round action to clear the weapon before reloading and firing it. If aware of this spell's effect prior to firing the altered ammunition (a DC 16 Spellcraft check to identify the spell being cast or similar effect), the firearm's user can spend a standard action to clear the altered ammunition from the firearm. Doing so destroys that ammunition."
 		]
@@ -951,13 +951,13 @@
 		"description": [
 			"## Dance of a Hundred Cuts",
 			"",
-			"::spell{source=\"Ultimate Magic/215\" transmutation brd=4 skd=4 ctSt cV rPers target=you durRL=1}",
+			"::spell{id=1 source=\"Ultimate Magic/215\" transmutation brd=4 skd=4 ctSt cV rPers target=you durRL=1}",
 			"",
 			"You become a lethal combat dancer, swirling and spinning with grace and precision. You gain a morale bonus on melee attack rolls, melee damage rolls, and Acrobatics checks, and to Armor Class. This bonus is equal to +1 per 3 caster levels (maximum +5 at 15th level). The bonus to AC is lost under any circumstances that would cause you to lose your Dexterity bonus to AC. You must remain moving for the spell to stay in effect. If in any round you do not either move at least 10 feet or make a melee attack, the spell's duration ends.",
 			"",
 			"### Dance of a Thousand Cuts",
 			"",
-			"::spell{source=\"Ultimate Magic/216\" transmutation brd=6 skd=6 ctSt cV rPers target=you durRL=1}",
+			"::spell{id=2 source=\"Ultimate Magic/216\" transmutation brd=6 skd=6 ctSt cV rPers target=you durRL=1}",
 			"",
 			"This spell functions as dance of a hundred cuts, except you also gain the benefits of haste."
 		]
@@ -972,7 +972,7 @@
 		"description": [
 			"## Dancing Darkness",
 			"",
-			"::spell{source=\"Blood of Shadows/28\" darkness evocation shadowDesc ant=1 arc=1 brd=1 mag=1 psy=1 sha=1 skd=1 sor=1 spr=1 wit=1 wiz=1 ctSt cV cS rMed effect=\"Up to four spheres, all within a 10-ft.-radius area\" durML=1 durD saveNo srN}",
+			"::spell{id=1 source=\"Blood of Shadows/28\" darkness evocation shadowDesc ant=1 arc=1 brd=1 mag=1 psy=1 sha=1 skd=1 sor=1 spr=1 wit=1 wiz=1 ctSt cV cS rMed effect=\"Up to four spheres, all within a 10-ft.-radius area\" durML=1 durD saveNo srN}",
 			"",
 			"You create either up to four spheres of darkness that each reduce the illumination level by one step within a 20-foot-radius, or one dimly lit, vaguely humanoid shape. Each sphere of dancing darkness must stay within a 10-foot-radius area of one another but can otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The darkness can move up to 100 feet per round. The effect winks out if the distance between you and it exceeds the spell's range.",
 			"",
@@ -985,7 +985,7 @@
 		"description": [
 			"## Dancing Lantern",
 			"",
-			"::spell{source=\"Advanced Player's Guide/214\" fire light transmutation arc=1 brd=1 clr=1 hnt=1 orc=1 rgr=1 rma=1 sha=1 skd=1 sor=1 war=1 wit=1 wiz=1 ctSt cV cS cFp=\"a lantern\" rTouch effect=\"animates one lantern\" durD durHL=1 saveNo srN}",
+			"::spell{id=1 source=\"Advanced Player's Guide/214\" fire light transmutation arc=1 brd=1 clr=1 hnt=1 orc=1 rgr=1 rma=1 sha=1 skd=1 sor=1 war=1 wit=1 wiz=1 ctSt cV cS cFp=\"a lantern\" rTouch effect=\"animates one lantern\" durD durHL=1 saveNo srN}",
 			"",
 			"You can animate a lantern and order it to follow you. The lantern floats at shoulder height and remains within 5 feet of you, no matter how fast you move. The lantern cannot support any additional weight. The lantern illuminates its normal area, even if it does not have any oil in it. For the purposes of spells or effects targeting it the lantern always acts as if in your possession even when not directly on your person. A dancing lantern can be made permanent with a ‹spell/permanency› spell (CL 9th, 2,500 gp)."
 		]
@@ -996,7 +996,7 @@
 		"description": [
 			"## Dancing Lights",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/263\" evocation light arc=0 brd=0 mag=0 med=0 mes=0 occ=0 psy=0 sha=0 skd=0 sor=0 wit=0 wiz=0 ctSt cV cS rMed effect=\"up to four lights, all within a 10-ft.-radius area\" durD durM=1 saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/263\" evocation light arc=0 brd=0 mag=0 med=0 mes=0 occ=0 psy=0 sha=0 skd=0 sor=0 wit=0 wiz=0 ctSt cV cS rMed effect=\"up to four lights, all within a 10-ft.-radius area\" durD durM=1 saveNo srN}",
 			"",
 			"Depending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o'-wisps), or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell's range.",
 			"",
@@ -1011,7 +1011,7 @@
 		"description": [
 			"## Dark Whispers",
 			"",
-			"::spell{source=\"Ultimate Intrigue/209\" illusion languageDependent shadowDesc shadowSub ant=1 arc=2 brd=2 clr=2 orc=2 skd=2 sor=2 sum=2 usm=2 war=2 wit=2 wiz=2 ctSt cV cS cFDFp=\"a scrap of black cloth\" rLong targets=\"one creature/level\" durML=10 durD saveNo srY}",
+			"::spell{id=1 source=\"Ultimate Intrigue/209\" illusion languageDependent shadowDesc shadowSub ant=1 arc=2 brd=2 clr=2 orc=2 skd=2 sor=2 sum=2 usm=2 war=2 wit=2 wiz=2 ctSt cV cS cFDFp=\"a scrap of black cloth\" rLong targets=\"one creature/level\" durML=10 durD saveNo srY}",
 			"",
 			"You communicate through the shadows of one or more targets within range. The shadows have no physical presence and don't move or animate. Instead, your words emerge from the shadow as a clear whisper, absent any accent or other identifying features. The targets can make conversation with the shadow, but must speak aloud to do so. The targets' voices emerge from your own shadow only when they intend to speak to the shadow, but you hear no other sounds from the target's immediate area. Their responses also emerge as clear whispers, absent identifying features, but you can instinctively identify which target is speaking to you through the shadow. Once the spell has been cast, you don't need to have line of effect to the targets or their shadows to communicate back and forth.",
 			"",
@@ -1024,7 +1024,7 @@
 		"description": [
 			"## Dark-Light",
 			"",
-			"::spell{source=\"Kobolds of Golarion/26\" evocation light arc=3 clr=3 drd=3 hnt=3 orc=3 sor=3 war=3 wiz=3 ctSt cV cS cMDFp=\"a pinch of Darklands earth\" rMed target=\"all living creatures without light sensitivity in a 20-ft.-radius burst\" durI fortPartial srY}",
+			"::spell{id=1 source=\"Kobolds of Golarion/26\" evocation light arc=3 clr=3 drd=3 hnt=3 orc=3 sor=3 war=3 wiz=3 ctSt cV cS cMDFp=\"a pinch of Darklands earth\" rMed target=\"all living creatures without light sensitivity in a 20-ft.-radius burst\" durI fortPartial srY}",
 			"",
 			"You evoke a powerful light that affects all sighted creatures that do not posses light sensitivity. Those that succeed on their saves are dazzled for 1 round per level; those who fail are blinded for the same duration."
 		]
@@ -1038,7 +1038,7 @@
 		"description": [
 			"## Darkness",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/263\" darkness evocation adp=2 ant=2 arc=2 brd=2 clr=2 inq=2 mag=2 occ=2 orc=2 sha=2 skd=2 sor=2 war=2 wiz=2 ctSt cV cMDFp=\"bat fur and a piece of coal\" rTouch target=\"object touched\" durML=1 durD saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/263\" darkness evocation adp=2 ant=2 arc=2 brd=2 clr=2 inq=2 mag=2 occ=2 orc=2 sha=2 skd=2 sor=2 war=2 wiz=2 ctSt cV cMDFp=\"bat fur and a piece of coal\" rTouch target=\"object touched\" durML=1 durD saveNo srN}",
 			"",
 			"This spell causes an object to radiate darkness out to a 20-foot radius. This darkness causes the illumination level in the area to drop one step, from bright light to normal light, from normal light to dim light, or from dim light to darkness. This spell has no effect in an area that is already dark. Creatures with light vulnerability or sensitivity take no penalties in normal light. All creatures gain concealment (20% miss chance) in dim light. All creatures gain total concealment (50% miss chance) in darkness. Creatures with darkvision can see in an area of dim light or darkness without penalty. Nonmagical sources of light, such as torches and lanterns, do not increase the light level in an area of darkness. Magical light sources only increase the light level in an area if they are of a higher spell level than darkness.",
 			"",
@@ -1060,7 +1060,7 @@
 		"description": [
 			"## Darkvault",
 			"",
-			"::spell{source=\"Blood of Shadows/15\" abjuration alc=3 arc=5 clr=5 drd=5 hnt=5 inv=3 orc=5 psy=5 sha=5 sor=5 war=5 wit=5 wiz=5 ctSt cV cS cMp=\"a stone that has never seen sunlight\" rClose area=\"30-ft.-radius emanation\" durH=24 saveNo srN}",
+			"::spell{id=1 source=\"Blood of Shadows/15\" abjuration alc=3 arc=5 clr=5 drd=5 hnt=5 inv=3 orc=5 psy=5 sha=5 sor=5 war=5 wit=5 wiz=5 ctSt cV cS cMp=\"a stone that has never seen sunlight\" rClose area=\"30-ft.-radius emanation\" durH=24 saveNo srN}",
 			"",
 			"You ward an area's shadows such that light cannot penetrate them. The illumination level in the affected area no longer changes when nonmagical light enters it. Any magical effect must succeed at a caster level check (DC = 10 + your caster level) in order to change the light level within the spell's radius. Darkvault has no effect on spells or effects that would make the spell's area darker.",
 			"",
@@ -1077,7 +1077,7 @@
 		"description": [
 			"## Darkvision",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/264\" transmutation alc=2 ant=2 arc=2 hnt=3 inv=2 med=2 occ=2 psy=2 rgr=3 rma=2 sor=2 wiz=2 ctSt cV cS cMp=\"either a pinch of dried carrot or an agate\" rTouch target=\"creature touched\" durHL=1 will srY harmless}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/264\" transmutation alc=2 ant=2 arc=2 hnt=3 inv=2 med=2 occ=2 psy=2 rgr=3 rma=2 sor=2 wiz=2 ctSt cV cS cMp=\"either a pinch of dried carrot or an agate\" rTouch target=\"creature touched\" durHL=1 will srY harmless}",
 			"",
 			"The subject gains the ability to see 60 feet even in total darkness. Darkvision is black and white only but otherwise like normal sight.",
 			"",
@@ -1085,13 +1085,13 @@
 			"",
 			"::h3[Communal Darkvision]{jl}",
 			"",
-			"::spell{source=\"Ultimate Combat/226\" transmutation alc=3 ant=3 arc=3 hnt=4 inv=3 occ=3 psy=3 rgr=4 rma=3 sor=3 wiz=3 ctSt cV cS cMp=\"either a pinch of dried carrot or an agate\" rTouch targets=\"creatures touched\" durHL=1 will srY harmless}",
+			"::spell{id=2 source=\"Ultimate Combat/226\" transmutation alc=3 ant=3 arc=3 hnt=4 inv=3 occ=3 psy=3 rgr=4 rma=3 sor=3 wiz=3 ctSt cV cS cMp=\"either a pinch of dried carrot or an agate\" rTouch targets=\"creatures touched\" durHL=1 will srY harmless}",
 			"",
 			"This spell functions like darkvision, except you may divide the duration in 1-hour intervals among the creatures touched.",
 			"",
 			"::h3[Greater Darkvision]{jl}",
 			"",
-			"::spell{source=\"Ultimate Magic/216\" transmutation alc=4 ant=4 arc=4 hnt=4 inv=4 med=4 occ=4 psy=4 rgr=4 rma=4 sor=4 wiz=4 ctSt cV cS cMp=\"either a pinch of dried carrot or an agate\" rTouch target=\"creature touched\" durHL=1 will srY harmless}",
+			"::spell{id=3 source=\"Ultimate Magic/216\" transmutation alc=4 ant=4 arc=4 hnt=4 inv=4 med=4 occ=4 psy=4 rgr=4 rma=4 sor=4 wiz=4 ctSt cV cS cMp=\"either a pinch of dried carrot or an agate\" rTouch target=\"creature touched\" durHL=1 will srY harmless}",
 			"",
 			"This spell functions as darkvision, except the target's darkvision has a range of 120 feet."
 		]
@@ -1112,7 +1112,7 @@
 		"description": [
 			"## Darting Duplicate",
 			"",
-			"::spell{source=\"Melee Tactics Toolbox/30\" figment illusion ant=1 arc=1 brd=1 mag=1 sha=1 skd=1 sor=1 wit=1 wiz=1 ctSw cV cS rFt=5 effect=\"visual figment of the caster\" durI will srY}",
+			"::spell{id=1 source=\"Melee Tactics Toolbox/30\" figment illusion ant=1 arc=1 brd=1 mag=1 sha=1 skd=1 sor=1 wit=1 wiz=1 ctSw cV cS rFt=5 effect=\"visual figment of the caster\" durI will srY}",
 			"",
 			"An illusory duplicate of you steps clumsily into an adjacent square, presenting a tempting target before winking out of existence. Any creature that threatens that square must succeed at a Will save or make an attack of opportunity against the image. The image's AC is equal to 10 + 1/2 your caster level, but as a figment, the image is unaffected by any attack."
 		]
@@ -1126,7 +1126,7 @@
 		"description": [
 			"## Daybreak Arrow",
 			"",
-			"::spell{source=\"Ultimate Combat/226\" evocation light clr=3 inq=3 occ=3 orc=3 pal=3 war=3 ctSt cV cS rTouch target=\"up to 50 pieces of ammunition, all of which must be together at the time of casting\" durML=10 fort srY object}",
+			"::spell{id=1 source=\"Ultimate Combat/226\" evocation light clr=3 inq=3 occ=3 orc=3 pal=3 war=3 ctSt cV cS rTouch target=\"up to 50 pieces of ammunition, all of which must be together at the time of casting\" durML=10 fort srY object}",
 			"",
 			"You cause ammunition, including shuriken, to exude radiant energy. Creatures that take penalties in bright light take these penalties for 1 round after being struck by such ammunition. Undead and creatures harmed by sunlight take an additional 1d6 points of damage from such projectiles. This extra damage and half of any other damage you deal with an affected projectile results directly from radiant energy and is not subject to damage resistance. Such a projectile sheds light as if it were a sunrod for 1 round after it is fired or thrown.",
 			"",
@@ -1149,7 +1149,7 @@
 		"description": [
 			"## Daylight",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/264\" evocation light adp=3 arc=3 brd=3 clr=3 drd=3 hnt=3 inq=3 mag=3 occ=3 orc=3 pal=3 sha=3 skd=3 sor=3 war=3 wiz=3 ctSt cV cS rTouch target=\"object touched\" durML=10 durD saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/264\" evocation light adp=3 arc=3 brd=3 clr=3 drd=3 hnt=3 inq=3 mag=3 occ=3 orc=3 pal=3 sha=3 skd=3 sor=3 war=3 wiz=3 ctSt cV cS rTouch target=\"object touched\" durML=10 durD saveNo srN}",
 			"",
 			"You touch an object when you cast this spell, causing the object to shed bright light in a 60-foot radius. This illumination increases the light level for an additional 60 feet by one step (darkness becomes dim light, dim light becomes normal light, and normal light becomes bright light). Creatures that take penalties in bright light take them while within the 60-foot radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that are damaged or destroyed by such light.",
 			"",
@@ -1169,7 +1169,7 @@
 			"",
 			"::h3[Brightest Light]{jl}",
 			"",
-			"::spell{source=\"Adventurer's Guide/115;Inner Sea Intrigue/58\" evocation light arc=4 brd=4 clr=4 drd=4 hnt=4 inq=4 mag=4 occ=4 orc=4 pal=4 rgr=4 sha=4 sor=4 war=4 wiz=4 ctSt cV cS rTouch target=\"object touched\" durD durHL=1 saveNo srN}",
+			"::spell{id=2 source=\"Adventurer's Guide/115;Inner Sea Intrigue/58\" evocation light arc=4 brd=4 clr=4 drd=4 hnt=4 inq=4 mag=4 occ=4 orc=4 pal=4 rgr=4 sha=4 sor=4 war=4 wiz=4 ctSt cV cS rTouch target=\"object touched\" durD durHL=1 saveNo srN}",
 			"",
 			"This trademark spell of the ‹rule/Lantern Bearers› functions as daylight, except it lasts longer. In addition, as a swift action once during the spell's duration, you can will the light to try to end a magical darkness effect located within 60 feet of the light this spell emits. Attempt a dispel check (1d20 + your caster level), with a DC equal to 11 + the caster level of the darkness effect. If you succeed, the darkness effect ends. Regardless of whether you are successful, the light from this spell dims to the brightness of a torch for the spell's remaining duration."
 		]
@@ -1184,7 +1184,7 @@
 		"description": [
 			"## Daywalker",
 			"",
-			"::spell{source=\"Cohorts and Companions/15\" necromancy ant=4 arc=5 clr=5 orc=5 sor=5 war=5 wit=5 wiz=5 ctSt cV cS cMp=\"a black glass vial containing unholy water\" rTouch target=\"undead creature touched\" durH=24 durD saveNo srY}",
+			"::spell{id=1 source=\"Cohorts and Companions/15\" necromancy ant=4 arc=5 clr=5 orc=5 sor=5 war=5 wit=5 wiz=5 ctSt cV cS cMp=\"a black glass vial containing unholy water\" rTouch target=\"undead creature touched\" durH=24 durD saveNo srY}",
 			"",
 			"You reshape the substance of a willing undead creature to resemble a living, breathing creature of the same size. This is a physical change to the undead creature's bone, flesh, or incorporeal ectoplasm, adding new flesh or bone and even hair, teeth, and blood, all of which demonstrate false signs of life that mimic a living creature's breathing and other physiological processes. An incorporeal undead creature using daywalker ceases to be incorporeal for the duration of the spell, gaining a physical corpse body. Creatures interacting with the undead can attempt a Perception check (DC = 30 or DC = 21 + the undead's Disguise modifier, whichever is higher) to realize that the signs of life are false, and a close examination with a Heal check always reveals the truth of the dead flesh.",
 			"",
@@ -1200,13 +1200,13 @@
 		"description": [
 			"## Daze",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/264\" enchantment compulsion mindAffecting arc=0 brd=0 inq=0 mag=0 med=0 mes=0 occ=0 psy=0 sha=0 skd=0 sor=0 spr=0 sum=0 usm=0 wit=0 wiz=0 ctSt cV cS cMp=\"a pinch of wool or similar substance\" rClose target=\"one humanoid creature of 4 HD or less\" durR=1 will srY}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/264\" enchantment compulsion mindAffecting arc=0 brd=0 inq=0 mag=0 med=0 mes=0 occ=0 psy=0 sha=0 skd=0 sor=0 spr=0 sum=0 usm=0 wit=0 wiz=0 ctSt cV cS cMp=\"a pinch of wool or similar substance\" rClose target=\"one humanoid creature of 4 HD or less\" durR=1 will srY}",
 			"",
 			"This spell clouds the mind of a humanoid creature with 4 or fewer Hit Dice so that it takes no actions. Humanoids of 5 or more HD are not affected. A dazed subject is not stunned, so attackers get no special advantage against it. After a creature has been dazed by this spell, it is immune to the effects of this spell for 1 minute.",
 			"",
 			"### Mass Daze",
 			"",
-			"::spell{source=\"Ultimate Magic/216\" enchantment compulsion mindAffecting arc=4 brd=4 inq=4 med=3 mes=4 occ=4 psy=3 skd=4 sor=4 sum=4 usm=4 wit=4 wiz=4 ctSt cV cS rMed targets=\"one or more humanoid creatures, no two of which may be more than 30 ft. apart\" durR=1 will srY}",
+			"::spell{id=2 source=\"Ultimate Magic/216\" enchantment compulsion mindAffecting arc=4 brd=4 inq=4 med=3 mes=4 occ=4 psy=3 skd=4 sor=4 sum=4 usm=4 wit=4 wiz=4 ctSt cV cS rMed targets=\"one or more humanoid creatures, no two of which may be more than 30 ft. apart\" durR=1 will srY}",
 			"",
 			"This spell functions as daze, except as noted above."
 		]
@@ -1217,7 +1217,7 @@
 		"description": [
 			"## Daze Monster",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/264\" enchantment compulsion mindAffecting arc=2 bld=2 brd=2 med=2 mes=2 occ=2 psy=2 skd=2 sor=2 sum=1 usm=1 wit=2 wiz=2 ctSt cV cS cMp=\"a pinch of wool or similar substance\" rMed target=\"one living creature of 6 HD or less\" durR=1 will srY}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/264\" enchantment compulsion mindAffecting arc=2 bld=2 brd=2 med=2 mes=2 occ=2 psy=2 skd=2 sor=2 sum=1 usm=1 wit=2 wiz=2 ctSt cV cS cMp=\"a pinch of wool or similar substance\" rMed target=\"one living creature of 6 HD or less\" durR=1 will srY}",
 			"",
 			"This spell functions like daze, but can affect any one living creature of any type. Creatures of 7 or more HD are not affected."
 		]
@@ -1233,7 +1233,7 @@
 		"description": [
 			"## Dazzling Blade",
 			"",
-			"::spell{source=\"Rival Guide/5\" illusion pattern arc=1 brd=1 rma=1 skd=1 sor=1 wiz=1 ctSw cV cS rTouch target=\"one metal weapon\" durML=1 save=\"Will negates (see text)\" srY srObject}",
+			"::spell{id=1 source=\"Rival Guide/5\" illusion pattern arc=1 brd=1 rma=1 skd=1 sor=1 wiz=1 ctSw cV cS rTouch target=\"one metal weapon\" durML=1 save=\"Will negates (see text)\" srY srObject}",
 			"",
 			"Dazzling blade makes a weapon appear dazzlingly shiny, as if crafted from pure silver and heavily polished. In combat, the flashing movements of a dazzling blade become almost hypnotic. The wielder of a weapon under the effects of dazzling blade gains a +1 competence bonus on all Bluff checks made to feint in combat. The wielder also gains a +1 competence bonus on all CMB checks made to disarm a foe, and a +1 competence bonus to his CMD against disarm attempts made against the weapon bearing the dazzling blade effect. This bonus increases by +1 for every 3 caster levels, to a maximum bonus of +5 at 12th level.",
 			"",
@@ -1243,7 +1243,7 @@
 			"",
 			"### Mass Dazzling Blade",
 			"",
-			"::spell{source=\"Rival Guide/5\" illusion pattern arc=3 rma=3 sor=3 wiz=3 ctSw cV cS rClose target=\"one metal weapon/level, no two of which can be more than 30 ft. apart\" durML=1 save=\"Will negates (see text)\" srY srObject}",
+			"::spell{id=2 source=\"Rival Guide/5\" illusion pattern arc=3 rma=3 sor=3 wiz=3 ctSw cV cS rClose target=\"one metal weapon/level, no two of which can be more than 30 ft. apart\" durML=1 save=\"Will negates (see text)\" srY srObject}",
 			"",
 			"This spell functions like dazzling blade, except that it affects multiple weapons. Each wielder of a dazzling blade can discharge the weapon's effect to attempt to blind a foe independently of the others."
 		]
@@ -1262,7 +1262,7 @@
 		"description": [
 			"## Deadeye's Arrow",
 			"",
-			"::spell{source=\"Inner Sea Gods/232;Gods and Magic/15\" electricity evocation bld=1 clr=2 drd=1 hnt=1 inq=1 mag=1 orc=2 pal=1 rgr=1 war=2 faith=Erastil ctSt cV cS cMp=\"one arrow\" r=\"Medium (100 ft. + 10 ft./level) or see text\" effect=\"arrow of electricity\" dur=\"instantaneous or 1 round (see text)\" saveNo srY}",
+			"::spell{id=1 source=\"Inner Sea Gods/232;Gods and Magic/15\" electricity evocation bld=1 clr=2 drd=1 hnt=1 inq=1 mag=1 orc=2 pal=1 rgr=1 war=2 faith=Erastil ctSt cV cS cMp=\"one arrow\" r=\"Medium (100 ft. + 10 ft./level) or see text\" effect=\"arrow of electricity\" dur=\"instantaneous or 1 round (see text)\" saveNo srY}",
 			"",
 			"You create an arrow made of crackling electricity, which you may use for one of two effects.",
 			"",
@@ -1282,7 +1282,7 @@
 		"description": [
 			"## Deadeye's Lore",
 			"",
-			"::spell{source=\"Ultimate Combat/226;Faiths of Purity/28\" divination brd=1 clr=1 drd=1 hnt=1 inq=1 orc=1 rgr=1 skd=1 war=1 ctR=1 cV cS rPers target=you durHL=1}",
+			"::spell{id=1 source=\"Ultimate Combat/226;Faiths of Purity/28\" divination brd=1 clr=1 drd=1 hnt=1 inq=1 orc=1 rgr=1 skd=1 war=1 ctR=1 cV cS rPers target=you durHL=1}",
 			"",
 			"While subject to this spell, you take upon yourself the mantle of the hunter, channeling the insights of the spirits of the wild. You gain a +4 sacred bonus on all Survival checks for the duration of the spell, and you do not have to move at half your speed while traveling through the wilderness or while tracking."
 		]
@@ -1293,7 +1293,7 @@
 		"description": [
 			"## Deadly Finale",
 			"",
-			"::spell{source=\"Advanced Player's Guide/214\" evocation sonic brd=6 skd=6 ctSt cV cS rClose targets=\"1 creature/3 levels no two of which can be more than 30 ft. apart\" durI fortPartial srY}",
+			"::spell{id=1 source=\"Advanced Player's Guide/214\" evocation sonic brd=6 skd=6 ctSt cV cS rClose targets=\"1 creature/3 levels no two of which can be more than 30 ft. apart\" durI fortPartial srY}",
 			"",
 			"You must have a bardic performance in effect to cast this spell. With a flourish, you immediately end your performance, dealing 2d8 points of sonic damage to each target. In addition, each target takes 3d6 points of bleed damage for 1d6 rounds. A save negates the bleed damage but not the sonic damage."
 		]
@@ -1304,7 +1304,7 @@
 		"description": [
 			"## Deadly Juggernaut",
 			"",
-			"::spell{source=\"Ultimate Combat/227\" death necromancy ant=3 clr=3 inq=3 orc=3 pal=3 war=3 ctSt cV cS rPers target=you durML=1}",
+			"::spell{id=1 source=\"Ultimate Combat/227\" death necromancy ant=3 clr=3 inq=3 orc=3 pal=3 war=3 ctSt cV cS rPers target=you durML=1}",
 			"",
 			"With every enemy life you take, you become increasingly dangerous and difficult to stop. During the duration of the spell, you gain a cumulative +1 luck bonus on melee attack rolls, melee weapon damage rolls, Strength checks, and Strength-based skill checks as well as DR 2/- each time you reduce a qualifying opponent to 0 or few hit points (maximum +5 bonus and DR 10/-) with a melee attack. A qualifying opponent has a number of Hit Dice equal to or greater than your Hit Dice -4."
 		]
@@ -1315,7 +1315,7 @@
 		"description": [
 			"## Deafening Song Bolt",
 			"",
-			"::spell{source=\"Advanced Player's Guide/214\" evocation sonic brd=5 skd=5 ctSt cV cS rClose target=\"up to 3 creatures, no two of which can be more than 30 ft. apart\" durI saveNo srN}",
+			"::spell{id=1 source=\"Advanced Player's Guide/214\" evocation sonic brd=5 skd=5 ctSt cV cS rClose target=\"up to 3 creatures, no two of which can be more than 30 ft. apart\" durI saveNo srN}",
 			"",
 			"Three notes you sing or perform become tangible bolts of arcane energy that shriek across the battlefield. Each bolt requires a ranged touch attack to hit and deals 3d10 points of sonic damage, deafening the target for 1d6 rounds. The bolts may be fired at the same or different targets, but all must be fired simultaneously."
 		]
@@ -1326,7 +1326,7 @@
 		"description": [
 			"## Death Candle",
 			"",
-			"::spell{source=\"Advanced Race Guide/131\" death evil fire necromancy ant=1 clr=2 inq=2 orc=2 war=2 wit=2 ctR=1 cV cS rTouch target=\"living creature touched\" dur=\"instantaneous/1 round per hd of subject; see text\" fort srY}",
+			"::spell{id=1 source=\"Advanced Race Guide/131\" death evil fire necromancy ant=1 clr=2 inq=2 orc=2 war=2 wit=2 ctR=1 cV cS rTouch target=\"living creature touched\" dur=\"instantaneous/1 round per hd of subject; see text\" fort srY}",
 			"",
 			">*‹race/Ifrit«s› have access to the following spell.*",
 			"",
@@ -1339,7 +1339,7 @@
 		"description": [
 			"## Death Clutch",
 			"",
-			"::spell{source=\"Horror Adventures/115\" death evil necromancy arc=8 clr=8 drd=9 orc=8 psy=8 sor=8 wit=8 wiz=8 ctSt cV cS rClose target=\"one living creature\" durI save=\"Fortitude partial (see text)\" srY}",
+			"::spell{id=1 source=\"Horror Adventures/115\" death evil necromancy arc=8 clr=8 drd=9 orc=8 psy=8 sor=8 wit=8 wiz=8 ctSt cV cS rClose target=\"one living creature\" durI save=\"Fortitude partial (see text)\" srY}",
 			"",
 			"Chanting an unholy litany, you reach out with a grasping motion toward your target and cause its heart to leap out of its chest and into your hand. A target with 200 or fewer hit points remaining that fails its saving throw is instantly reduced to a number of negative hit points equal to your caster level or its Constitution score - 1, whichever is less negative. The creature is staggered until the beginning of your next turn, at which point it dies. If the affected creature receives a regenerate spell before the beginning of your next turn, the creature gains the normal benefits of that spell and, thanks to its heart's regeneration, it doesn't immediately die when your next turn begins. If a creature that dies from death clutch is brought back from the dead by a breath of life or raise dead spell, it must also be targeted with regenerate on the following round to restore its missing heart or be unable to return to life.",
 			"",
@@ -1354,7 +1354,7 @@
 		"description": [
 			"## Death from Below",
 			"",
-			"::spell{source=\"Advanced Race Guide/39\" abjuration arc=2 bld=2 brd=3 skd=3 sor=2 wiz=2 ctSt cV cS rTouch target=\"creature touched\" durRL=1}",
+			"::spell{id=1 source=\"Advanced Race Guide/39\" abjuration arc=2 bld=2 brd=3 skd=3 sor=2 wiz=2 ctSt cV cS rTouch target=\"creature touched\" durRL=1}",
 			"",
 			">*‹race/Gnome«s› have access to the following spell.*",
 			"",
@@ -1370,7 +1370,7 @@
 		"description": [
 			"## Death Knell",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/264\" death evil necromancy ant=1 clr=2 inq=2 orc=2 spr=2 war=2 wit=2 ctSt cV cS rTouch target=\"living creature touched\" dur=\"instantaneous/10 minutes per hd of subject; see text\" will srY}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/264\" death evil necromancy ant=1 clr=2 inq=2 orc=2 spr=2 war=2 wit=2 ctSt cV cS rTouch target=\"living creature touched\" dur=\"instantaneous/10 minutes per hd of subject; see text\" will srY}",
 			"",
 			"You draw forth the ebbing life force of a creature and use it to fuel your own power. Upon casting this spell, you touch a living creature that has -1 or fewer hit points. If the subject fails its saving throw, it dies, and you gain 1d8 temporary hit points and a +2 enhancement bonus to Strength. Additionally, your effective caster level goes up by +1, improving spell effects dependent on caster level. This increase in effective caster level does not grant you access to more spells. These effects last for 10 minutes per HD of the subject creature.",
 			"",
@@ -1390,13 +1390,13 @@
 		"description": [
 			"## Death Knell Aura",
 			"",
-			"::spell{source=\"Book of the Damned - Volume 3: Horsemen of the Apocalypse/38\" death evil necromancy arc=4 clr=4 inq=4 orc=4 sor=4 war=4 wit=4 wiz=4 ctSt cV cS rFt=20 area=\"20-ft.-radius emanation, centered on you\" durD durRL=1 will srY}",
+			"::spell{id=1 source=\"Book of the Damned - Volume 3: Horsemen of the Apocalypse/38\" death evil necromancy arc=4 clr=4 inq=4 orc=4 sor=4 war=4 wit=4 wiz=4 ctSt cV cS rFt=20 area=\"20-ft.-radius emanation, centered on you\" durD durRL=1 will srY}",
 			"",
 			"You gain a shimmering gray aura that feeds on the souls of creatures who die within it. The aura sheds light as a candle. If a creature at -1 or fewer hit points is within the aura at the start of its turn, it must save or die, granting you the benefits of death knell.",
 			"",
 			"### Greater Death Knell Aura",
 			"",
-			"::spell{source=\"Book of the Damned - Volume 3: Horsemen of the Apocalypse/38\" death evil necromancy arc=6 clr=6 inq=6 orc=6 sor=6 war=6 wit=6 wiz=6 ctSt cV cS rFt=20 area=\"20-ft.-radius emanation, centered on you\" durD durRL=1 will srY}",
+			"::spell{id=2 source=\"Book of the Damned - Volume 3: Horsemen of the Apocalypse/38\" death evil necromancy arc=6 clr=6 inq=6 orc=6 sor=6 war=6 wit=6 wiz=6 ctSt cV cS rFt=20 area=\"20-ft.-radius emanation, centered on you\" durD durRL=1 will srY}",
 			"",
 			"This spell functions as death knell aura, except a dying creature in the area cannot stabilize on its own and automatically takes 1 point of bleed damage on its turn each round. An incorporeal undead or living spirit traveling outside the body (such as a person using astral projection or magic jar) within the aura at the start of its turn takes 1d8 points of damage."
 		]
@@ -1412,7 +1412,7 @@
 		"description": [
 			"## Death Pact",
 			"",
-			"::spell{source=\"Occult Origins/13\" enchantment mindAffecting brd=5 skd=5 wit=6 ctM=1 cV cS cMp=\"a contract signed in blood\" rTouch target=\"one creature\" durH=24 save=\"Will negates, see text\" srY}",
+			"::spell{id=1 source=\"Occult Origins/13\" enchantment mindAffecting brd=5 skd=5 wit=6 ctM=1 cV cS cMp=\"a contract signed in blood\" rTouch target=\"one creature\" durH=24 save=\"Will negates, see text\" srY}",
 			"",
 			"You take control of a creature's mind and implant deadly subconscious commands. This spell functions as ‹spell/dominate person›, allowing you to control your subject and see through her senses, but also implants a powerful burst of psychic energy in the subject's mind. At any point during the spell's duration, you can trigger this burst as an immediate action, dealing 1d8 points of damage per caster level (Fortitude half) to the subject. If this damage is enough to reduce to target to 0 or fewer hit points, the target dies instantly.",
 			"",
@@ -1425,7 +1425,7 @@
 		"description": [
 			"## Death Ward",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/264\" necromancy alc=4 clr=4 drd=5 hnt=5 inq=4 inv=4 med=4 occ=4 orc=4 pal=4 spr=4 war=4 wit=4 ctSt cV cS cDF rTouch target=\"living creature touched\" durML=1 will srY harmless}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/264\" necromancy alc=4 clr=4 drd=5 hnt=5 inq=4 inv=4 med=4 occ=4 orc=4 pal=4 spr=4 war=4 wit=4 ctSt cV cS cDF rTouch target=\"living creature touched\" durML=1 will srY harmless}",
 			"",
 			"The subject gains a +4 morale bonus on saves against all death spells and magical death effects. The subject is granted a save to negate such effects even if one is not normally allowed. The subject is immune to energy drain and any negative energy effects, including channeled negative energy.",
 			"",
@@ -1440,7 +1440,7 @@
 		"description": [
 			"## Deathless",
 			"",
-			"::spell{source=\"Mythic Adventures/113\" necromancy alc=4 arc=4 clr=4 inq=4 inv=4 med=4 orc=4 psy=4 sor=4 war=4 wit=4 wiz=4 ctSt cV cS rTouch target=\"living creature touched\" durRL=1 fort srY harmless}",
+			"::spell{id=1 source=\"Mythic Adventures/113\" necromancy alc=4 arc=4 clr=4 inq=4 inv=4 med=4 orc=4 psy=4 sor=4 war=4 wit=4 wiz=4 ctSt cV cS rTouch target=\"living creature touched\" durRL=1 fort srY harmless}",
 			"",
 			"The target's soul is strongly anchored to its body, preventing death from hit point damage. No matter how low the target's hit points get, it remains alive (though not necessarily conscious).",
 			"",
@@ -1462,7 +1462,7 @@
 		"description": [
 			"## Deathwatch",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/265\" necromancy clr=1 med=1 orc=1 spr=1 war=1 ctSt cV cS rFt=30 area=\"cone-shaped emanation\" durML=10 saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/265\" necromancy clr=1 med=1 orc=1 spr=1 war=1 ctSt cV cS rFt=30 area=\"cone-shaped emanation\" durML=10 saveNo srN}",
 			"",
 			"Using the powers of necromancy, you can determine the condition of creatures near death within the spell's range. You instantly know whether each creature within the area is dead, fragile (alive and wounded, with 3 or fewer hit points left), fighting off death (alive with 4 or more hit points), healthy, undead, or neither alive nor dead (such as a construct). Deathwatch sees through any spell or ability that allows creatures to feign death."
 		]
@@ -1476,7 +1476,7 @@
 		"description": [
 			"## Deathwine",
 			"",
-			"::spell{source=\"Rise of the Runelords Anniversary Edition/418;Pathfinder #5: Sins of the Saviors/58\" necromancy alc=2 arc=3 clr=2 inv=2 orc=2 sor=3 war=2 wit=3 wiz=3 ctM=1 cV cS rTouch target=\"1 potion touched/level\" durHL=1 srN object}",
+			"::spell{id=1 source=\"Rise of the Runelords Anniversary Edition/418;Pathfinder #5: Sins of the Saviors/58\" necromancy alc=2 arc=3 clr=2 inv=2 orc=2 sor=3 war=2 wit=3 wiz=3 ctM=1 cV cS rTouch target=\"1 potion touched/level\" durHL=1 srN object}",
 			"",
 			"This spell allows you to turn a potion into a temporary pool of necromantic energy. Only a potion created using a conjuration (healing) spell can be affected by this spell. An affected potion turns dark red and reveals a necromantic aura if detect magic is cast on it while it remains under this spell's effects.",
 			"",
@@ -1491,13 +1491,13 @@
 		"description": [
 			"## Debilitating Pain",
 			"",
-			"::spell{source=\"Psychic Anthology/10\" enchantment compulsion mindAffecting pain psy=3 wit=3 ctSt cV cS cM rClose target=\"one creature\" dur=\"1 round/3 levels\" save=\"Will partial (see text)\" srY}",
+			"::spell{id=1 source=\"Psychic Anthology/10\" enchantment compulsion mindAffecting pain psy=3 wit=3 ctSt cV cS cM rClose target=\"one creature\" dur=\"1 round/3 levels\" save=\"Will partial (see text)\" srY}",
 			"",
 			"The target is overcome with intense pain, causing it to be stunned on a failed save or dazed for 1 round on a successful save.",
 			"",
 			"### Mass Debilitating Pain",
 			"",
-			"::spell{source=\"Psychic Anthology/10\" enchantment compulsion mindAffecting pain psy=5 wit=5 ctSt cV cS cM rClose target=\"one creature/4 levels\" dur=\"1 round/3 levels\" save=\"Will partial (see text)\" srY}",
+			"::spell{id=2 source=\"Psychic Anthology/10\" enchantment compulsion mindAffecting pain psy=5 wit=5 ctSt cV cS cM rClose target=\"one creature/4 levels\" dur=\"1 round/3 levels\" save=\"Will partial (see text)\" srY}",
 			"",
 			"This spell functions as per debilitating pain, except you can target one creature for every 4 caster levels you have."
 		]
@@ -1513,7 +1513,7 @@
 		"description": [
 			"## Debilitating Portent",
 			"",
-			"::spell{source=\"Ultimate Combat/227\" enchantment compulsion mindAffecting clr=4 orc=4 psy=4 spr=4 war=4 wit=4 ctSt cV cS cDF rMed target=\"one creature\" dur=\"1 round/level (d) see text\" saveNo srY}",
+			"::spell{id=1 source=\"Ultimate Combat/227\" enchantment compulsion mindAffecting clr=4 orc=4 psy=4 spr=4 war=4 wit=4 ctSt cV cS cDF rMed target=\"one creature\" dur=\"1 round/level (d) see text\" saveNo srY}",
 			"",
 			"The target is surrounded by a glowing green aura of ill fate. Each time the spell's subject makes an attack or casts a spell, it must succeed at a Will saving throw with a DC = 10 + 1/2 caster level + Charisma (in the case of oracles), Intelligence (in the case of witches), or Wisdom (in the case of clerics). If it fails the saving throw, it deals half damage with the attack or spell. You can dismiss this spell as an immediate action when the target confirms a critical hit; doing so negates the critical hit. The attack that you negated still hits, but only deals half damage."
 		]
@@ -1524,7 +1524,7 @@
 		"description": [
 			"## Debilitating Speech",
 			"",
-			"::spell{source=\"Disciple's Doctrine/10\" enchantment mindAffecting languageDependent arc=4 sor=4 wiz=4 ct=\"see below\" cV cS rClose targets=\"1 or more living creatures/level, no two of which may be more than 30 feet apart\" durRL=1 will srY}",
+			"::spell{id=1 source=\"Disciple's Doctrine/10\" enchantment mindAffecting languageDependent arc=4 sor=4 wiz=4 ct=\"see below\" cV cS rClose targets=\"1 or more living creatures/level, no two of which may be more than 30 feet apart\" durRL=1 will srY}",
 			"",
 			"By speaking eloquently on the subject of your opponents' ineptitude in combat, past failures, personal hygiene, or other faults, you sap their will to fight.",
 			"",
@@ -1537,7 +1537,7 @@
 		"description": [
 			"## Decapitate",
 			"",
-			"::spell{source=\"Horror Adventures/115\" evocation arc=6 inq=5 mag=6 psy=6 sor=6 wiz=6 ctIm cV cS cFp=\"a sliver from a guillotine blade\" rClose target=\"one creature (see text)\" durI save=\"Fortitude partial (see text)\" srY}",
+			"::spell{id=1 source=\"Horror Adventures/115\" evocation arc=6 inq=5 mag=6 psy=6 sor=6 wiz=6 ctIm cV cS cFp=\"a sliver from a guillotine blade\" rClose target=\"one creature (see text)\" durI save=\"Fortitude partial (see text)\" srY}",
 			"",
 			"You can cast this spell only as a response to a confirmed critical hit against the target that would deal slashing damage. If the target fails the saving throw and has a discernible head, the attack deals an extra 4d6 points of damage and the critical multiplier of the critical hit increases by 1. If the critical hit then brings the target to 0 hit points or fewer, the target is instantly decapitated and dies unless it can survive decapitation. Even on a successful saving throw, the critical hit deals an extra 4d6 points of damage."
 		]
@@ -1548,7 +1548,7 @@
 		"description": [
 			"## Deceitful Veneer",
 			"",
-			"::spell{source=\"Ultimate Intrigue/210\" glamer illusion ant=3 brd=4 inq=4 med=3 mes=4 psy=4 skd=4 wiz=5 ctSt cV cS rClose target=\"one creature\" durML=10 durD will srY}",
+			"::spell{id=1 source=\"Ultimate Intrigue/210\" glamer illusion ant=3 brd=4 inq=4 med=3 mes=4 psy=4 skd=4 wiz=5 ctSt cV cS rClose target=\"one creature\" durML=10 durD will srY}",
 			"",
 			"You subtly alter both the target's aura and subtle cues in its body language, tone of voice, and word choice, which makes everything that the target says seem to be a lie. Every statement that the target makes appears to be a lie under both magical scrutiny (such as discern lies) and mundane scrutiny (such as using the Sense Motive skill). Someone who closely scrutinizes the target can determine when it is actually telling the truth with a successful Sense Motive check (DC = 15 + your caster level).",
 			"",
@@ -1561,7 +1561,7 @@
 		"description": [
 			"## Deceptive Redundancy",
 			"",
-			"::spell{source=\"Adventurer's Guide/37\" glamer illusion arc=5 brd=5 mes=5 psy=5 skd=5 sor=5 wiz=5 ctSt cV cS rPers target=you dur=\"10 minutes/level or until triggered, then 1 round/level\" saveNo srN}",
+			"::spell{id=1 source=\"Adventurer's Guide/37\" glamer illusion arc=5 brd=5 mes=5 psy=5 skd=5 sor=5 wiz=5 ctSt cV cS rPers target=you dur=\"10 minutes/level or until triggered, then 1 round/level\" saveNo srN}",
 			"",
 			"You create a contingent ward that defies those who would dispel your magic, convincing them that their spell worked. When a spell such as ‹spell/dispel magic› would end one of your spells that's affecting you, you can dismiss deceptive redundancy as an immediate action to attempt an opposed caster level check against the spellcaster. If you succeed, the dispelling effect fails to end your spell, and your spell's aura becomes difficult to detect for 1 round per caster level. Any divination attempted during this time fails to perceive the spell's aura unless the caster succeeds at a caster level check (DC = 15 + your caster level). Deceptive redundancy is most effective when hiding auras for spells that don't have easily perceived effects, rather than visually obvious spells such as enlarge person or fire shield."
 		]
@@ -1572,7 +1572,7 @@
 		"description": [
 			"## Decollate",
 			"",
-			"::spell{source=\"Horror Adventures/116\" necromancy alc=4 ant=4 arc=5 clr=5 inv=4 orc=5 psy=6 sor=5 spr=4 war=5 wit=5 wiz=5 ctSt cV cS cFp=\"a red wax pencil\" rTouch target=\"one willing humanoid or monstrous humanoid creature\" durH=24 saveNo srY}",
+			"::spell{id=1 source=\"Horror Adventures/116\" necromancy alc=4 ant=4 arc=5 clr=5 inv=4 orc=5 psy=6 sor=5 spr=4 war=5 wit=5 wiz=5 ctSt cV cS cFp=\"a red wax pencil\" rTouch target=\"one willing humanoid or monstrous humanoid creature\" durH=24 saveNo srY}",
 			"",
 			"A thin red line circles the target's neck. The target's head becomes detachable so long as she removes it willingly. While the target's head is detached, she gains DR 2/- and immunity to decapitation effects and other effects that require their target to have a head or a particular facial feature. The target is blind so long as she has no head, but she gains blindsense to a distance of 15 feet. The target hears normally even without its head.",
 			"",
@@ -1585,7 +1585,7 @@
 		"description": [
 			"## Decompose Corpse",
 			"",
-			"::spell{source=\"Ultimate Magic/216\" necromancy arc=1 clr=1 drd=1 hnt=1 med=1 occ=1 orc=1 psy=1 sor=1 spr=1 war=1 wit=1 wiz=1 ctSt cV cS cMp=\"a pinch of dried toadstool\" rTouch target=\"one corpse or corporeal undead\" dur=\"instantaneous or 1 minute; see text\" fort srY object}",
+			"::spell{id=1 source=\"Ultimate Magic/216\" necromancy arc=1 clr=1 drd=1 hnt=1 med=1 occ=1 orc=1 psy=1 sor=1 spr=1 war=1 wit=1 wiz=1 ctSt cV cS cMp=\"a pinch of dried toadstool\" rTouch target=\"one corpse or corporeal undead\" dur=\"instantaneous or 1 minute; see text\" fort srY object}",
 			"",
 			"Using this spell, the caster rapidly decomposes the flesh from a single corpse of size Huge or smaller, leaving behind a perfectly cleaned skeleton. If it is cast on a non-skeletal corporeal undead, the creature takes a -2 penalty on all rolls and to its Armor Class and CMD for 1 minute."
 		]
@@ -1596,7 +1596,7 @@
 		"description": [
 			"## Decrepit Disguise",
 			"",
-			"::spell{source=\"Occult Adventures/163\" glamer illusion arc=1 brd=1 med=1 mes=1 occ=1 psy=1 skd=1 sor=1 wiz=1 ctSt cV rClose target=\"one object of no more than 10 cu. ft./level\" durDL=1 save=\"none (object) or Will disbelief (if interacted with)\" srN}",
+			"::spell{id=1 source=\"Occult Adventures/163\" glamer illusion arc=1 brd=1 med=1 mes=1 occ=1 psy=1 skd=1 sor=1 wiz=1 ctSt cV rClose target=\"one object of no more than 10 cu. ft./level\" durDL=1 save=\"none (object) or Will disbelief (if interacted with)\" srN}",
 			"",
 			"You make an object seem like a worthless version of itself. A masterwork or magic sword could seem to be a useless, rusting, discarded blade, and a luxurious throne could appear to be a decrepit wooden chair. If used against an attended object, the wielder can immediately attempt a Will save to disbelieve the effect. Decrepit disguise counters and dispels ‹spell/quintessence›.",
 			"",
@@ -1612,7 +1612,7 @@
 		"description": [
 			"## Deep Slumber",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/265\" enchantment compulsion mindAffecting arc=3 brd=3 mes=3 occ=3 psy=3 sha=3 skd=3 sor=3 wit=3 wiz=3 ctR=1 cV cS cMp=\"fine sand, rose petals, or a live cricket\" rClose area=\"one or more living creatures within a 10-ft.-radius burst\" durML=1 will srY}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/265\" enchantment compulsion mindAffecting arc=3 brd=3 mes=3 occ=3 psy=3 sha=3 skd=3 sor=3 wit=3 wiz=3 ctR=1 cV cS cMp=\"fine sand, rose petals, or a live cricket\" rClose area=\"one or more living creatures within a 10-ft.-radius burst\" durML=1 will srY}",
 			"",
 			"This spell functions like ‹spell/sleep›, except that it affects 10 HD of targets.",
 			"",
@@ -1632,7 +1632,7 @@
 		"description": [
 			"## Deeper Darkness",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/265\" darkness evocation adp=3 ant=3 clr=3 inq=3 occ=3 orc=3 sha=3 war=3 ctSt cV cMDFp=\"bat fur and a piece of coal\" rTouch target=\"object touched\" durML=10 durD saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/265\" darkness evocation adp=3 ant=3 clr=3 inq=3 occ=3 orc=3 sha=3 war=3 ctSt cV cMDFp=\"bat fur and a piece of coal\" rTouch target=\"object touched\" durML=10 durD saveNo srN}",
 			"",
 			"This spell functions as ‹spell/darkness›, except that objects radiate darkness in a 60-foot radius and the light level is lowered by two steps. Bright light becomes dim light and normal light becomes darkness. Areas of dim light and darkness become supernaturally dark. This functions like darkness, but even creatures with darkvision cannot see within the spell's confines.",
 			"",
@@ -1648,7 +1648,7 @@
 		"description": [
 			"## Defending Bone",
 			"",
-			"::spell{source=\"Inner Sea Gods/232;Gods and Magic/31\" necromancy arc=2 clr=2 inq=2 mag=2 orc=2 sor=2 war=2 wit=2 wiz=2 faith=Pharasma ctSt cV cS cDF cFp=\"a Medium creature's skull or femur\" rPers target=you dur=\"1 hour/level or until discharged\"}",
+			"::spell{id=1 source=\"Inner Sea Gods/232;Gods and Magic/31\" necromancy arc=2 clr=2 inq=2 mag=2 orc=2 sor=2 war=2 wit=2 wiz=2 faith=Pharasma ctSt cV cS cDF cFp=\"a Medium creature's skull or femur\" rPers target=you dur=\"1 hour/level or until discharged\"}",
 			"",
 			"You animate a bone with necromantic energy, giving it the power to float near your body and interpose itself against physical attacks. This gives you damage reduction 5/bludgeoning. Once the bone has prevented a total of 5 points of damage per caster level (maximum 50 points), it is destroyed and the spell is discharged. This spell has no effect if you have damage reduction from another source.",
 			"",
@@ -1661,7 +1661,7 @@
 		"description": [
 			"## Defensive Grace",
 			"",
-			"::spell{source=\"Advanced Class Origins/31\" transmutation inv=5 ctSt cV cS cMp=\"a living fly\" rPers target=you dur=\"1 round/level (d; see below)\"}",
+			"::spell{id=1 source=\"Advanced Class Origins/31\" transmutation inv=5 ctSt cV cS cMp=\"a living fly\" rPers target=you dur=\"1 round/level (d; see below)\"}",
 			"",
 			"Each round you can roll an inspiration die without expending a use of inspiration and gain the result as a dodge bonus to AC for that round. You are immune to precision damage (including the extra damage from the precise strike deed, sneak attack, studied combat, and studied strike).",
 			"",
@@ -1674,7 +1674,7 @@
 		"description": [
 			"## Defensive Shock",
 			"",
-			"::spell{source=\"Ultimate Magic/216\" electricity evocation alc=2 arc=2 bld=2 inv=2 mag=2 occ=2 sor=2 wiz=2 ctSt cV cS cMp=\"a hollow metal sphere\" rPers target=you dur=\"1 minute/level or until discharged\"}",
+			"::spell{id=1 source=\"Ultimate Magic/216\" electricity evocation alc=2 arc=2 bld=2 inv=2 mag=2 occ=2 sor=2 wiz=2 ctSt cV cS cMp=\"a hollow metal sphere\" rPers target=you dur=\"1 minute/level or until discharged\"}",
 			"",
 			"Electrical energy floods your body, shocking the next creature that touches you. Any creature striking you with its body or a handheld weapon takes 1d6 points of electricity damage per two caster levels (maximum 6d6). If the attacker has spell resistance, it applies against this damage. Each time the spell discharges, the number of damage dice it deals is halved (rounded down); when the spell's damage dice reach 0, the spell ends."
 		]
@@ -1688,7 +1688,7 @@
 		"description": [
 			"## Defile Armor",
 			"",
-			"::spell{source=\"Advanced Player's Guide/215\" abjuration evil ant=3 inq=4 ctSt cV cS rTouch target=\"armor touched\" durML=1 will srY harmless object}",
+			"::spell{id=1 source=\"Advanced Player's Guide/215\" abjuration evil ant=3 inq=4 ctSt cV cS rTouch target=\"armor touched\" durML=1 will srY harmless object}",
 			"",
 			"As sanctify armor, except you gain DR 5/good when using your judgment or smite ability.",
 			"",
@@ -1708,7 +1708,7 @@
 		"description": [
 			"## Deflect Blame",
 			"",
-			"::spell{source=\"Ultimate Intrigue/210\" enchantment compulsion mindAffecting arc=3 brd=2 mes=2 psy=2 skd=2 sor=3 wit=3 wiz=3 ctIm cV cS rClose target=\"one creature\" durI will srY}",
+			"::spell{id=1 source=\"Ultimate Intrigue/210\" enchantment compulsion mindAffecting arc=3 brd=2 mes=2 psy=2 skd=2 sor=3 wit=3 wiz=3 ctIm cV cS rClose target=\"one creature\" durI will srY}",
 			"",
 			"You can cast this spell immediately after attacking a creature, causing that creature to believe that a different creature that threatens it was responsible for the attack rather than you. You can instead cast this spell immediately after a failed Bluff, Diplomacy, or Intimidate check, causing the target of that check to believe that a different creature you designate within spell range was responsible for the content of that failed check. Using the spell in these ways doesn't compel the target to undertake a specific action in response to its belief of where the blame lies."
 		]
@@ -1719,7 +1719,7 @@
 		"description": [
 			"## Deflection",
 			"",
-			"::spell{source=\"Advanced Player's Guide/215\" abjuration force arc=7 psy=7 sor=7 wiz=7 ctSt cV cS cMp=\"a piece of rubber dipped in glue\" rPers target=you durRL=1}",
+			"::spell{id=1 source=\"Advanced Player's Guide/215\" abjuration force arc=7 psy=7 sor=7 wiz=7 ctSt cV cS cMp=\"a piece of rubber dipped in glue\" rPers target=you durRL=1}",
 			"",
 			"You surround yourself in a whirling barrier of force that sends any attack that misses you hurling back toward its source. This applies to any melee or ranged attack directed against you so long as it uses an attack roll to determine whether or not it strikes you. If an attack misses you, the attacker must make a second attack roll against its own Armor Class, using all of the applicable modifiers of the original attack and if it hits, the attacker takes the attack's damage and suffers all the other consequences of getting struck with that attack. You cannot deflect attacks that miss you for any reason besides a failed attack roll (such as concealment). Similarly, you cannot deflect attacks that actually do strike you but simply fail to do any harm."
 		]
@@ -1730,7 +1730,7 @@
 		"description": [
 			"## Defoliate",
 			"",
-			"::spell{source=\"Sargava, the Lost Colony/28\" necromancy arc=2 drd=2 hnt=1 rgr=1 sor=2 wiz=2 ctSt cV cS cMp=\"a locust\" rClose targetOrArea=\"see text\" durI saveNo srY}",
+			"::spell{id=1 source=\"Sargava, the Lost Colony/28\" necromancy arc=2 drd=2 hnt=1 rgr=1 sor=2 wiz=2 ctSt cV cS cMp=\"a locust\" rClose targetOrArea=\"see text\" durI saveNo srY}",
 			"",
 			"You hurl a tiny ball of negative energy, destroying plant life either in a line 60 feet long or a 10-foot-radius spread. This effect removes the cover and concealment provided by trees and undergrowth, eliminates the movement penalties associated with undergrowth, and so forth.",
 			"",
@@ -1743,7 +1743,7 @@
 		"description": [
 			"## Deft Digits",
 			"",
-			"::spell{source=\"Arcane Anthology/19\" transmutation arc=3 brd=3 med=3 occ=3 psy=3 skd=3 sor=3 spr=3 sum=3 wiz=3 ctSt cV cS rMed target=\"1 unattended gauntlet or glove\" durML=10 svHarmless svObject srN}",
+			"::spell{id=1 source=\"Arcane Anthology/19\" transmutation arc=3 brd=3 med=3 occ=3 psy=3 skd=3 sor=3 spr=3 sum=3 wiz=3 ctSt cV cS rMed target=\"1 unattended gauntlet or glove\" durML=10 svHarmless svObject srN}",
 			"",
 			"You animate the target of the spell, manipulating the glove with your own hand from a distance. The glove moves as you direct it with a fly speed of 30 feet and average maneuverability. Directing the glove is a standard action, though the glove can move up to its speed and perform a task in the same action. You can attempt Disable Device and Sleight of Hand checks using the glove, though attempting these checks at a distance increases the normal skill check DCs by 5, or by 20 if you do not have line of sight to the object you are manipulating. The glove can also lift or drag objects using your caster level as your Strength score. The glove cannot wield weapons or make attacks effectively while this spell is in effect. If you cast this spell on a magical glove, its innate magic is suppressed for the duration of the spell."
 		]
@@ -1754,7 +1754,7 @@
 		"description": [
 			"## Deivon's Parry",
 			"",
-			"::spell{source=\"Adventurer's Guide/27\" transmutation brd=1 mag=1 skd=1 ctIm cV cS rPers target=you durI}",
+			"::spell{id=1 source=\"Adventurer's Guide/27\" transmutation brd=1 mag=1 skd=1 ctIm cV cS rPers target=you durI}",
 			"",
 			"Originally designed by an Aldori magus who had long admired swashbucklers for their ability to deflect blows, Deivon's parry has swiftly gained popularity among bards and magi alike. Your reflexes snap into action, allowing you to deflect a blow. This spell can be cast only when an opponent makes a melee attack against you, and only before the attack roll has been made. Make a parry attempt with a light or one-handed weapon you're wielding, as if using the swashbuckler's opportune parry and riposte deed (except that this does not require panache). You cannot riposte as part of this spell's effect."
 		]
@@ -1765,7 +1765,7 @@
 		"description": [
 			"## Deja Vu",
 			"",
-			"::spell{source=\"Occult Adventures/163\" enchantment compulsion mindAffecting arc=1 brd=1 mes=1 psy=1 skd=1 sor=1 wiz=1 ctSt cV rMed target=\"one creature\" durR=2 saveNo srY}",
+			"::spell{id=1 source=\"Occult Adventures/163\" enchantment compulsion mindAffecting arc=1 brd=1 mes=1 psy=1 skd=1 sor=1 wiz=1 ctSt cV rMed target=\"one creature\" durR=2 saveNo srY}",
 			"",
 			"You reach into the target's mind and put its thought processes into a temporary loop. Whatever full-round, standard, or move actions the creature takes on its first turn after you cast this spell, it must repeat on the turn after that. The creature must take the same type of actions in the same order (for example, making a full attack, casting a specific spell, withdrawing, attempting a bull rush combat maneuver, or activating a magic item) and must act against the same target or targets, but doesn't have to make exactly the same choices (such as using ‹feat/Power Attack› when attacking, moving exactly 15 feet, or choosing \"drop\" for the command spell). If the circumstances would prevent the target from repeating an action, such as if the target of its attack is dead or the target cannot cast the same spell again, the target instead becomes confused until the spell ends. A creature currently affected by deja vu can't be targeted with another deja vu spell. A creature affected by deja vu can't delay, and if it readies an action on its first turn, it must ready the same action on its second turn."
 		]
@@ -1776,7 +1776,7 @@
 		"description": [
 			"## Delay Disease",
 			"",
-			"::spell{source=\"Advanced Race Guide/155\" conjuration healing alc=2 clr=2 drd=2 hnt=2 inq=2 inv=2 mes=2 orc=2 pal=2 rgr=2 war=2 wit=1 ctSt cV cS cDF rTouch target=\"creature touched\" dur=\"1 day\" fort srY harmless}",
+			"::spell{id=1 source=\"Advanced Race Guide/155\" conjuration healing alc=2 clr=2 drd=2 hnt=2 inq=2 inv=2 mes=2 orc=2 pal=2 rgr=2 war=2 wit=1 ctSt cV cS cDF rTouch target=\"creature touched\" dur=\"1 day\" fort srY harmless}",
 			"",
 			">*‹race/Ratfolk› have access to the following spell.*",
 			"",
@@ -1789,7 +1789,7 @@
 		"description": [
 			"## Delay Pain",
 			"",
-			"::spell{source=\"Ultimate Magic/216\" enchantment emotion arc=2 bld=2 brd=2 clr=2 inq=2 mes=2 orc=2 psy=2 skd=2 sor=2 war=2 wit=2 wiz=2 ctSt cV cS rClose target=\"one creature\" durHL=1 will srY}",
+			"::spell{id=1 source=\"Ultimate Magic/216\" enchantment emotion arc=2 bld=2 brd=2 clr=2 inq=2 mes=2 orc=2 psy=2 skd=2 sor=2 war=2 wit=2 wiz=2 ctSt cV cS rClose target=\"one creature\" durHL=1 will srY}",
 			"",
 			"You override the target's ability to feel pain. Pain effects (such as pain strike and symbol of pain) do not affect the target until this spell's duration has expired. This does not negate any physical damage, ability damage, or ability drain that a pain effect has already done, but it does negate ongoing penalties from pain while the spell lasts."
 		]
@@ -1803,13 +1803,13 @@
 		"description": [
 			"## Delay Poison",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/265\" conjuration healing adp=2 alc=2 brd=2 clr=2 drd=2 hnt=1 inq=2 inv=2 mes=2 occ=2 orc=2 pal=2 rgr=1 sha=2 skd=2 war=2 wit=2 ctSt cV cS cDF rTouch target=\"creature touched\" durHL=1 fort srY harmless}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/265\" conjuration healing adp=2 alc=2 brd=2 clr=2 drd=2 hnt=1 inq=2 inv=2 mes=2 occ=2 orc=2 pal=2 rgr=1 sha=2 skd=2 war=2 wit=2 ctSt cV cS cDF rTouch target=\"creature touched\" durHL=1 fort srY harmless}",
 			"",
 			"The subject becomes temporarily immune to poison. Any poison in its system or any poison to which it is exposed during the spell's duration does not affect the subject until the spell's duration has expired. Delay poison does not cure any damage that poison may have already done.",
 			"",
 			"### Communal Delay Poison",
 			"",
-			"::spell{source=\"Ultimate Combat/227\" conjuration healing alc=3 brd=3 clr=3 drd=3 hnt=3 inq=3 inv=3 orc=3 pal=3 rgr=3 skd=3 war=3 wit=3 ctSt cV cS cDF rTouch targets=\"creatures touched\" durHL=1 fort srY harmless}",
+			"::spell{id=2 source=\"Ultimate Combat/227\" conjuration healing alc=3 brd=3 clr=3 drd=3 hnt=3 inq=3 inv=3 orc=3 pal=3 rgr=3 skd=3 war=3 wit=3 ctSt cV cS cDF rTouch targets=\"creatures touched\" durHL=1 fort srY harmless}",
 			"",
 			"This spell functions like delay poison, except you divide the duration in 1-hour intervals among the creatures touched."
 		]
@@ -1825,7 +1825,7 @@
 		"description": [
 			"## Delayed Blast Fireball",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/265\" evocation fire arc=7 sor=7 wiz=7 ctSt cV cS cMp=\"a ball of bat guano and sulfur\" rLong area=\"20-ft.-radius spread\" dur=\"5 rounds or less; see text\" reflHalf srY}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/265\" evocation fire arc=7 sor=7 wiz=7 ctSt cV cS cMp=\"a ball of bat guano and sulfur\" rLong area=\"20-ft.-radius spread\" dur=\"5 rounds or less; see text\" reflHalf srY}",
 			"",
 			"This spell functions like fireball, except that it is more powerful and can detonate up to 5 rounds after the spell is cast. The burst of flame deals 1d6 points of fire damage per caster level (maximum 20d6). The glowing bead created by delayed blast fireball can detonate immediately if you desire, or you can choose to delay the burst for as many as 5 rounds. You select the amount of delay upon completing the spell, and that time cannot change once it has been set unless someone touches the bead. If you choose a delay, the glowing bead sits at its destination until it detonates. A creature can pick up and hurl the bead as a thrown weapon (range increment 10 feet). If a creature handles and moves the bead within 1 round of its detonation, there is a 25% chance that the bead detonates while being handled."
 		]
@@ -1836,7 +1836,7 @@
 		"description": [
 			"## Delayed Consumption",
 			"",
-			"::spell{source=\"Advanced Player's Guide/215\" transmutation alc=5 inv=5 ctSt cS rPers target=you dur=\"1 day/level (d) or until discharged\"}",
+			"::spell{id=1 source=\"Advanced Player's Guide/215\" transmutation alc=5 inv=5 ctSt cS rPers target=you dur=\"1 day/level (d) or until discharged\"}",
 			"",
 			"When you consume this extract, you quickly consume another extract of your choice-this second extract's effects do not come into effect until a later point. You must consume this second, companion extract on the round following delayed consumption or waste the extract. The companion extract can be no higher than 4th level, and you must pay any costs associated with the companion extract when you consume it.",
 			"",
@@ -1849,7 +1849,7 @@
 		"description": [
 			"## Delectable Flesh",
 			"",
-			"::spell{source=\"Ultimate Wilderness/19\" mindAffecting polymorph transmutation arc=6 drd=7 sha=7 sor=6 wit=6 wiz=6 ctSt cV cS rClose targets=\"all creatures in a 15-foot-radius burst centered on a single living creature\" durML=1 durD will srY}",
+			"::spell{id=1 source=\"Ultimate Wilderness/19\" mindAffecting polymorph transmutation arc=6 drd=7 sha=7 sor=6 wit=6 wiz=6 ctSt cV cS rClose targets=\"all creatures in a 15-foot-radius burst centered on a single living creature\" durML=1 durD will srY}",
 			"",
 			">*‹race/Ghoran«s› have access to the following spell.*",
 			"",
@@ -1864,7 +1864,7 @@
 		"description": [
 			"## Delusional Pride",
 			"",
-			"::spell{source=\"Ultimate Magic/216\" enchantment compulsion mindAffecting emotion arc=1 brd=1 med=1 mes=1 psy=1 skd=1 sor=1 wit=1 wiz=1 ctSt cV cS rClose target=\"one creature\" durM=1 will srY}",
+			"::spell{id=1 source=\"Ultimate Magic/216\" enchantment compulsion mindAffecting emotion arc=1 brd=1 med=1 mes=1 psy=1 skd=1 sor=1 wit=1 wiz=1 ctSt cV cS rClose target=\"one creature\" durM=1 will srY}",
 			"",
 			"The target becomes so distracted by an overblown sense of its worth that it takes a -2 penalty on attacks and skill checks. However, this feeling also gives the target a +2 morale bonus on saves against charm and compulsion effects."
 		]
@@ -1875,7 +1875,7 @@
 		"description": [
 			"## Demand",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/265\" enchantment compulsion mindAffecting arc=8 mes=6 psy=8 sor=8 wit=8 wiz=8 ctM=10 cV cS cMDFp=\"fine copper wire\" rText target=\"one creature\" dur=\"1 round; see text\" willPartial srY}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/265\" enchantment compulsion mindAffecting arc=8 mes=6 psy=8 sor=8 wit=8 wiz=8 ctM=10 cV cS cMDFp=\"fine copper wire\" rText target=\"one creature\" dur=\"1 round; see text\" willPartial srY}",
 			"",
 			"This spell functions like sending, but the message can also contain a suggestion (see the ‹spell/suggestion› spell), which the subject does its best to carry out. A successful Will save negates the suggestion effect but not the contact itself. The demand, if received, is understood even if the subject's Intelligence score is as low as 1. If the message is impossible or meaningless according to the circumstances that exist for the subject at the time the demand is issued, the message is understood but the suggestion is ineffective.",
 			"",
@@ -1888,7 +1888,7 @@
 		"description": [
 			"## Demand Offering",
 			"",
-			"::spell{source=\"Occult Adventures/164\" enchantment compulsion mindAffecting ant=1 arc=2 brd=2 inq=2 mes=1 occ=2 psy=2 skd=2 sor=2 wit=2 wiz=2 ctSt cV cS rFt=5 target=\"one creature\" dur=\"instantaneous or 1 round\" will srY}",
+			"::spell{id=1 source=\"Occult Adventures/164\" enchantment compulsion mindAffecting ant=1 arc=2 brd=2 inq=2 mes=1 occ=2 psy=2 skd=2 sor=2 wit=2 wiz=2 ctSt cV cS rFt=5 target=\"one creature\" dur=\"instantaneous or 1 round\" will srY}",
 			"",
 			"A creature that fails its save uses an immediate action to hand you whatever object it's currently wielding or holding. If the target doesn't have an immediate action available, it uses a move action at the beginning of its next turn to hand you the object. If it's currently holding or wielding more than one item, determine randomly which item it gives you. If you're no longer adjacent to the creature when it has to give you the item, the spell ends with no effect. A creature that isn't holding an item when you cast this spell is unaffected."
 		]
@@ -1899,7 +1899,7 @@
 		"description": [
 			"## Demon Dream",
 			"",
-			"::spell{source=\"Pathfinder Comics #10/26\" mindAffecting evil illusion phantasm clr=6 orc=6 war=6 ct=\"see text\" cV cS cDF r=unlimited target=\"one living creature\" dur=\"see text\" save=\"see text\" srY}",
+			"::spell{id=1 source=\"Pathfinder Comics #10/26\" mindAffecting evil illusion phantasm clr=6 orc=6 war=6 ct=\"see text\" cV cS cDF r=unlimited target=\"one living creature\" dur=\"see text\" save=\"see text\" srY}",
 			"",
 			"When the target of demon dream is a worshiper of a demon lord or Lamashtu, the caster has the option of making the spell function instead as a dream spell. Otherwise, this spell functions like ‹spell/nightmare›, save that the subject matter of the dream always involves demons. Upon waking from a demon dream, the victim must make a saving throw against the spell to resist taking 1d6 points of Wisdom drain from the unsettling, madness-inducing dream-this is in addition to the damage and fatigue normally caused by the nightmare."
 		]
@@ -1910,7 +1910,7 @@
 		"description": [
 			"## Denounce",
 			"",
-			"::spell{source=\"Advanced Player's Guide/215\" enchantment compulsion mindAffecting languageDependent brd=4 inq=4 mes=4 psy=5 skd=4 ctSt cV rClose area=\"30-ft.-radius burst\" durHL=1 will srY}",
+			"::spell{id=1 source=\"Advanced Player's Guide/215\" enchantment compulsion mindAffecting languageDependent brd=4 inq=4 mes=4 psy=5 skd=4 ctSt cV rClose area=\"30-ft.-radius burst\" durHL=1 will srY}",
 			"",
 			"You speak out against a single creature within line of sight and turn possible allies against it by drawing upon the power of your voice and conviction. Creatures in the area who can see the denounced creature must make a Will saving throw or have their starting attitude toward the denounced creature worsened by two levels. For example, creatures previously indifferent to the subject turn unfriendly. Diplomacy checks made to reverse the effects of denounce are made at a -10 penalty."
 		]
@@ -1921,7 +1921,7 @@
 		"description": [
 			"## Depilate",
 			"",
-			"::spell{source=\"Blood of the Beast/27\" necromancy arc=1 brd=1 drd=1 hnt=1 skd=1 sor=1 wit=1 wiz=1 ctR=1 cS cMp=\"a sliver of cow's tongue\" rMed target=\"one creature with hair or fur\" durI will srY}",
+			"::spell{id=1 source=\"Blood of the Beast/27\" necromancy arc=1 brd=1 drd=1 hnt=1 skd=1 sor=1 wit=1 wiz=1 ctR=1 cS cMp=\"a sliver of cow's tongue\" rMed target=\"one creature with hair or fur\" durI will srY}",
 			"",
 			">*While ‹race/tengu«s› are renowned for their supposed ability to eat bad luck or hex with a foul stare, most tengus have long forgotten the jinx magic their ancestors perfected millennia ago in the mountains of Tian Xia to confound meddling visitors bearing imperial decrees. Only a handful of these luck-manipulating spells now remain known outside the secretive temples of Hei Feng, largely practiced by tengu witches and the occasional tengu or halfling rogue, by way of the ‹talent/major magic› rogue talent.*",
 			"",
@@ -1937,7 +1937,7 @@
 		"description": [
 			"## Desecrate",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/265\" evil evocation ant=2 clr=2 inq=2 orc=2 war=2 ctSt cV cS cDF cMp=\"a vial of unholy water and 25 gp worth &#91&5 pounds&#93& of silver dust, all of which must be sprinkled around the area\" rClose area=\"20-ft.-radius emanation\" durHL=2 saveNo srY}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/265\" evil evocation ant=2 clr=2 inq=2 orc=2 war=2 ctSt cV cS cDF cMp=\"a vial of unholy water and 25 gp worth &#91&5 pounds&#93& of silver dust, all of which must be sprinkled around the area\" rClose area=\"20-ft.-radius emanation\" durHL=2 saveNo srY}",
 			"",
 			"This spell imbues an area with negative energy. The DC to resist negative channeled energy within this area gains a +3 profane bonus. Every undead creature entering a desecrated area gains a +1 profane bonus on all attack rolls, damage rolls, and saving throws. An undead creature created within or summoned into such an area gains +1 hit points per HD.",
 			"",
@@ -1963,7 +1963,7 @@
 		"description": [
 			"## Desperate Weapon",
 			"",
-			"::spell{source=\"Ultimate Intrigue/210\" conjuration creation ant=1 arc=1 bld=1 brd=1 clr=1 hnt=1 inq=1 mag=1 occ=1 orc=1 rgr=1 skd=1 sor=1 war=1 wiz=1 ctSw cV rPers effect=\"one-handed improvised weapon\" durML=1 saveNo srN}",
+			"::spell{id=1 source=\"Ultimate Intrigue/210\" conjuration creation ant=1 arc=1 bld=1 brd=1 clr=1 hnt=1 inq=1 mag=1 occ=1 orc=1 rgr=1 skd=1 sor=1 war=1 wiz=1 ctSw cV rPers effect=\"one-handed improvised weapon\" durML=1 saveNo srN}",
 			"",
 			"You create a one-handed object that you might expect to see in your current surroundings, which you can then use as an improvised weapon. The spell conjures such an object near your hand such that you can retrieve it as you complete the spell. No matter what sort of object you picked, it functions as a one-handed ‹misc/improvised weapon› appropriate for your size and that deals 1d6 points of damage for a Medium creature (1d4 for Small creatures). The item deals the type of damage you choose (bludgeoning, piercing, or slashing) when casting the spell, though the object you request must conform to the damage type.",
 			"",
@@ -1976,7 +1976,7 @@
 		"description": [
 			"## Destabilize Powder",
 			"",
-			"::spell{source=\"Ultimate Combat/228\" transmutation arc=2 rma=2 sor=2 wit=2 wiz=2 ctSt cV cS cMp=\"a few drops of liquor\" rClose target=\"1 loaded firearm\" durI will srY object}",
+			"::spell{id=1 source=\"Ultimate Combat/228\" transmutation arc=2 rma=2 sor=2 wit=2 wiz=2 ctSt cV cS cMp=\"a few drops of liquor\" rClose target=\"1 loaded firearm\" durI will srY object}",
 			"",
 			"This spell makes the ammunition in the target firearm is prone to misfire. Increase the misfire range by 1 + 1 per five caster levels (maximum +5) for the ammunition currently loaded into that firearm. If aware of this spell's effect prior to firing the altered ammunition (a DC 17 Spellcraft check to identify the spell being cast or similar effect), the firearm's user can spend a standard action to clear the altered ammunition from the firearm. Doing so destroys that ammunition."
 		]
@@ -1987,7 +1987,7 @@
 		"description": [
 			"## Destroy Robot",
 			"",
-			"::spell{source=\"Technology Guide/8\" transmutation arc=6 drd=5 hnt=5 sor=6 wiz=6 ctSt cV cS cFDF rClose target=\"one robot (see below)\" durI fortPartial srY}",
+			"::spell{id=1 source=\"Technology Guide/8\" transmutation arc=6 drd=5 hnt=5 sor=6 wiz=6 ctSt cV cS cFDF rClose target=\"one robot (see below)\" durI fortPartial srY}",
 			"",
 			"You attempt to destroy any one robot in range. When you cast this spell, your hand crackles with electricity. You must succeed at a ranged touch attack to affect the target. The target takes 12d6 points of damage + 1 point per caster level, or 3d6 points of damage + 1 point per caster level on a successful saving throw. A cyborg or android can be damaged by this spell, but takes half damage and gains a +4 bonus on the saving throw to resist the spell's effects."
 		]
@@ -1998,7 +1998,7 @@
 		"description": [
 			"## Destruction",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/266\" death necromancy clr=7 orc=7 sha=8 wit=8 ctSt cV cS cFp=\"holy or unholy symbol costing 500 gp\" rClose target=\"one creature\" durI fortPartial srY}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/266\" death necromancy clr=7 orc=7 sha=8 wit=8 ctSt cV cS cFp=\"holy or unholy symbol costing 500 gp\" rClose target=\"one creature\" durI fortPartial srY}",
 			"",
 			"This spell instantly delivers 10 points of damage per caster level. If the spell slays the target, it consumes the remains utterly in holy (or unholy) fire (but not its equipment or possessions). If the target's Fortitude saving throw succeeds, it instead takes 10d6 points of damage. The only way to restore life to a character who has failed to save against this spell (and was slain) is to use ‹spell/true resurrection›, a carefully worded ‹spell/wish› spell followed by ‹spell/resurrection›, or ‹spell/miracle›."
 		]
@@ -2012,7 +2012,7 @@
 		"description": [
 			"## Detect Animals or Plants",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/266\" divination drd=1 hnt=1 psy=1 rgr=1 sha=1 ctSt cV cS rLong area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/266\" divination drd=1 hnt=1 psy=1 rgr=1 sha=1 ctSt cV cS rLong area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
 			"",
 			"You can detect a particular kind of animal or plant in a cone emanating out from you in whatever direction you face. You must think of a kind of animal or plant when using the spell, but you can change the animal or plant kind each round. The amount of information revealed depends on how long you search a particular area or focus on a specific kind of animal or plant.",
 			"",
@@ -2038,7 +2038,7 @@
 			"",
 			"::h3[Detect Aberration]{jl}",
 			"",
-			"::spell{source=\"Advanced Player's Guide/215\" divination drd=1 hnt=1 psy=1 rgr=1 ctSt cV cS rLong area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
+			"::spell{id=2 source=\"Advanced Player's Guide/215\" divination drd=1 hnt=1 psy=1 rgr=1 ctSt cV cS rLong area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
 			"",
 			"This spell functions like *detect animals or plants,* except it detects creatures of the aberration type."
 		]
@@ -2053,7 +2053,7 @@
 		"description": [
 			"## Detect Demon",
 			"",
-			"::spell{source=\"Demon Hunter's Handbook/26\" divination clr=1 inq=1 orc=1 pal=1 war=1 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 minutes/level\" save=\"none (see text)\" srN}",
+			"::spell{id=1 source=\"Demon Hunter's Handbook/26\" divination clr=1 inq=1 orc=1 pal=1 war=1 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 minutes/level\" save=\"none (see text)\" srN}",
 			"",
 			"You sense the presence of a specific kind of evil-that of demons, their servants, and the Abyss. The amount of information revealed depends on how long you study a particular area or subject.",
 			"",
@@ -2077,7 +2077,7 @@
 		"description": [
 			"## Detect Evil",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/266\" divination adp=1 clr=1 inq=1 orc=1 sha=1 spr=1 war=1 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/266\" divination adp=1 clr=1 inq=1 orc=1 sha=1 spr=1 war=1 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
 			"",
 			"You can sense the presence of evil. The amount of information revealed depends on how long you study a particular area or subject.",
 			"",
@@ -2114,25 +2114,25 @@
 			"",
 			"::h3[Detect Chaos]{jl}",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/267\" divination adp=1 clr=1 inq=1 orc=1 sha=1 spr=1 war=1 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
+			"::spell{id=2 source=\"PRPG Core Rulebook/267\" divination adp=1 clr=1 inq=1 orc=1 sha=1 spr=1 war=1 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
 			"",
 			"This spell functions like *detect evil,* except that it detects the auras of chaotic creatures, clerics of chaotic deities, chaotic spells, and chaotic magic items, and you are vulnerable to an overwhelming chaotic aura if you are lawful.",
 			"",
 			"::h3[Detect Good]{jl}",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/267\" divination adp=1 clr=1 inq=1 orc=1 sha=1 spr=1 war=1 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
+			"::spell{id=3 source=\"PRPG Core Rulebook/267\" divination adp=1 clr=1 inq=1 orc=1 sha=1 spr=1 war=1 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
 			"",
 			"This spell functions like *detect evil,* except that it detects the auras of good creatures, clerics or paladins of good deities, good spells, and good magic items, and you are vulnerable to an overwhelming good aura if you are evil.",
 			"",
 			"::h3[Detect Law]{jl}",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/267\" divination adp=1 clr=1 inq=1 orc=1 sha=1 spr=1 war=1 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
+			"::spell{id=4 source=\"PRPG Core Rulebook/267\" divination adp=1 clr=1 inq=1 orc=1 sha=1 spr=1 war=1 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
 			"",
 			"This spell functions like *detect evil,* except that it detects the auras of lawful creatures, clerics of lawful deities, lawful spells, and lawful magic items, and you are vulnerable to an overwhelming lawful aura if you are chaotic.",
 			"",
 			"::h3[Detect Fiendish Presence]{jl}",
 			"",
-			"::spell{source=\"Agents of Evil/16\" divination arc=0 brd=0 clr=0 mag=0 orc=0 skd=0 sor=0 war=0 wit=0 wiz=0 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
+			"::spell{id=5 source=\"Agents of Evil/16\" divination arc=0 brd=0 clr=0 mag=0 orc=0 skd=0 sor=0 war=0 wit=0 wiz=0 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
 			"",
 			"This spell functions like *detect evil,* except that it detects only outsiders with the evil subtype, as well as the lingering effects caused by their gifts, presence, and spells. It can also detect clerics and paladins of fiendish deities, including ‹faith/Asmodeus›, archdevils, daemonic harbingers, and demon lords.",
 			"",
@@ -2172,7 +2172,7 @@
 		"description": [
 			"## Detect Magic",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/267\" divination adp=0 arc=0 brd=0 clr=0 drd=0 hnt=0 inq=0 mag=0 med=0 mes=0 occ=0 orc=0 psy=0 sha=0 skd=0 sor=0 spr=0 sum=0 usm=0 war=0 wit=0 wiz=0 ctSt cV cS rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 min./level\" saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/267\" divination adp=0 arc=0 brd=0 clr=0 drd=0 hnt=0 inq=0 mag=0 med=0 mes=0 occ=0 orc=0 psy=0 sha=0 skd=0 sor=0 spr=0 sum=0 usm=0 war=0 wit=0 wiz=0 ctSt cV cS rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 min./level\" saveNo srN}",
 			"",
 			"You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject.",
 			"",
@@ -2206,13 +2206,13 @@
 			"",
 			"::h3[Detect Charm]{jl}",
 			"",
-			"::spell{source=\"Adventurer's Guide/77;Andoran, Spirit of Liberty/27\" divination arc=1 brd=1 clr=1 inq=1 med=1 mes=1 occ=1 orc=1 pal=1 psy=1 sha=1 skd=1 sor=1 spr=1 war=1 wit=1 wiz=1 ctSt cV cS rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 min./level\" saveNo srN}",
+			"::spell{id=2 source=\"Adventurer's Guide/77;Andoran, Spirit of Liberty/27\" divination arc=1 brd=1 clr=1 inq=1 med=1 mes=1 occ=1 orc=1 pal=1 psy=1 sha=1 skd=1 sor=1 spr=1 war=1 wit=1 wiz=1 ctSt cV cS rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 min./level\" saveNo srN}",
 			"",
 			"This spell functions as per *detect magic,* except that it detects only charm, compulsion, and possession effects. You immediately detect the strength and location of each such aura on all creatures in the area. You can attempt to identify the properties of each aura (see ‹skill/Spellcraft›). In addition to noticing the targets of these effects, you can recognize when creatures in the area are using these effects on others by attempting a ‹skill/Sense Motive› check as a standard action (DC = 20 + caster level). If you succeed, you can attempt a Spellcraft check to identify what magic it is using (even if the target is not in the area).",
 			"",
 			"::h3[Greater Detect Magic]{jl}",
 			"",
-			"::spell{source=\"Ultimate Intrigue/212\" divination arc=2 brd=2 clr=2 drd=2 hnt=2 inq=2 mag=2 med=2 mes=2 occ=2 orc=2 psy=2 sha=2 skd=2 sor=2 spr=2 sum=2 usm=2 war=2 wit=2 wiz=2 ctSt cV cS rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 min./level\" saveNo srN}",
+			"::spell{id=3 source=\"Ultimate Intrigue/212\" divination arc=2 brd=2 clr=2 drd=2 hnt=2 inq=2 mag=2 med=2 mes=2 occ=2 orc=2 psy=2 sha=2 skd=2 sor=2 spr=2 sum=2 usm=2 war=2 wit=2 wiz=2 ctSt cV cS rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 min./level\" saveNo srN}",
 			"",
 			"This spell functions as *detect magic,* except that you can glean much more information from the magical auras that you find, and those auras can be found after a much greater length of time. You can detect a lingering aura for up to 1 day per caster level you have, regardless of the aura's original strength.",
 			"",
@@ -2222,7 +2222,7 @@
 			"",
 			"::h3[Identifier's Eye]{jl}",
 			"",
-			"::spell{source=\"Potions and Poisons/17\" divination alc=2 arc=2 brd=2 inv=2 skd=2 sor=2 sum=2 usm=2 wiz=2 ctSt cV cS cMp=\"a wine-stained pearl\" rTouch target=\"creature touched\" dur=\"3 rounds + 1 round/level\" durD will srY harmless}",
+			"::spell{id=4 source=\"Potions and Poisons/17\" divination alc=2 arc=2 brd=2 inv=2 skd=2 sor=2 sum=2 usm=2 wiz=2 ctSt cV cS cMp=\"a wine-stained pearl\" rTouch target=\"creature touched\" dur=\"3 rounds + 1 round/level\" durD will srY harmless}",
 			"",
 			"This spell infuses a spark of magical energy into the veins of the target, allowing it to feel the presence of magic the way one might feel the thrum of vibrations in the air. For the spell's duration, the target gains the benefits of the spell *detect magic* and also gains a +5 enhancement bonus on Spellcraft checks to identify the properties and command words of magic items. Further, the target can attempt such checks untrained while under the effects of this spell. This ability does not allow the target to identify artifacts."
 		]
@@ -2246,7 +2246,7 @@
 		"description": [
 			"## Detect Metal",
 			"",
-			"::spell{source=\"People of the River/26\" divination alc=1 arc=1 brd=1 inv=1 skd=1 sor=1 sum=1 usm=1 wiz=1 ctSt cV cS cFp=\"a magnetized nail or nugget of ore\" rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 minute/level\" saveNo srN}",
+			"::spell{id=1 source=\"People of the River/26\" divination alc=1 arc=1 brd=1 inv=1 skd=1 sor=1 sum=1 usm=1 wiz=1 ctSt cV cS cFp=\"a magnetized nail or nugget of ore\" rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 minute/level\" saveNo srN}",
 			"",
 			"You detect any metal objects or creatures within a 60-foot cone. You can specify all metal objects or one or more specific types of metal (such as silver, cold iron, or a type of ‹eq-material/skymetal›) when you cast this spell; in the case of the latter, you detect only objects or creatures made of the specified metal."
 		]
@@ -2257,7 +2257,7 @@
 		"description": [
 			"## Detect Mindscape",
 			"",
-			"::spell{source=\"Occult Adventures/164\" divination arc=3 med=2 mes=2 psy=2 sor=3 wiz=3 ctSt cV cS rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 minute/level\" save=\"Will negates, see text\" srN}",
+			"::spell{id=1 source=\"Occult Adventures/164\" divination arc=3 med=2 mes=2 psy=2 sor=3 wiz=3 ctSt cV cS rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 minute/level\" save=\"Will negates, see text\" srN}",
 			"",
 			"This spell functions similarly to ‹spell/detect thoughts›, allowing you to sense when one or more creatures' consciousnesses are inside a ‹rule/mindscape<s›. The amount of information revealed depends on how long you study a particular subject.",
 			"",
@@ -2278,7 +2278,7 @@
 		"description": [
 			"## Detect Poison",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/268\" divination ant=1 arc=0 clr=0 drd=0 hnt=0 inq=0 mes=0 occ=0 orc=0 pal=1 psy=0 rgr=1 sha=0 sor=0 war=0 wit=0 wiz=0 ctSt cV cS rClose targetOrArea=\"one creature, one object, or a 5-ft. cube\" durI saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/268\" divination ant=1 arc=0 clr=0 drd=0 hnt=0 inq=0 mes=0 occ=0 orc=0 pal=1 psy=0 rgr=1 sha=0 sor=0 war=0 wit=0 wiz=0 ctSt cV cS rClose targetOrArea=\"one creature, one object, or a 5-ft. cube\" durI saveNo srN}",
 			"",
 			"You determine whether a creature, object, or area has been poisoned or is poisonous. You can determine the exact type of poison with a DC 20 Wisdom check. A character with the Craft (alchemy) skill may try a DC 20 Craft (alchemy) check if the Wisdom check fails, or may try the Craft (alchemy) check prior to the Wisdom check. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it."
 		]
@@ -2289,7 +2289,7 @@
 		"description": [
 			"## Detect Psychic Significance",
 			"",
-			"::spell{source=\"Occult Adventures/164\" divination med=0 mes=0 occ=0 psy=0 spr=0 ctSt cV cS rFt=40 area=\"40-ft.-radius burst, centered on you\" durI saveNo srN}",
+			"::spell{id=1 source=\"Occult Adventures/164\" divination med=0 mes=0 occ=0 psy=0 spr=0 ctSt cV cS rFt=40 area=\"40-ft.-radius burst, centered on you\" durI saveNo srN}",
 			"",
 			"You detect the presence of psychically significant items in your vicinity. Such items are those that might have significant psychic imprints or histories that can be read by the ‹skill/psychometry› unlock, or items under the effects of the ‹spell/charge object› or ‹spell/implant false reading› spells. Items within range that contain significant psychic energy spark a recognition in your mind's eye, but no other information is imparted. This spell doesn't automatically detect magic items or strongly aligned items, though such items often have storied histories and might have had previous owners who possessed psychic abilities."
 		]
@@ -2300,7 +2300,7 @@
 		"description": [
 			"## Detect Radiation",
 			"",
-			"::spell{source=\"Technology Guide/8\" divination arc=1 brd=1 clr=1 drd=1 hnt=1 orc=1 rgr=1 skd=1 sor=1 war=1 wiz=1 ctSt cV cS rFt=120 area=\"spherical emanation, centered on you\" durML=10 saveNo srN}",
+			"::spell{id=1 source=\"Technology Guide/8\" divination arc=1 brd=1 clr=1 drd=1 hnt=1 orc=1 rgr=1 skd=1 sor=1 war=1 wiz=1 ctSt cV cS rFt=120 area=\"spherical emanation, centered on you\" durML=10 saveNo srN}",
 			"",
 			"You detect radiation in the surrounding area. You see radioactive auras as a glowing green shimmer in the air that emanates from radioactive objects; the brighter and more intense the green, the more powerful the radioactivity. This glow does not provide illumination or allow you to see in darkness, apart from being able to see the glow itself. The spell can penetrate barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of common metal, or a thin sheet of lead blocks it - although radiation can seep into such barriers, causing them to become radioactive (and thus visible to the spell) in time."
 		]
@@ -2311,7 +2311,7 @@
 		"description": [
 			"## Detect Relations",
 			"",
-			"::spell{source=\"Quests and Campaigns/28\" divination brd=2 clr=2 inq=2 orc=2 skd=2 war=2 wit=2 ctSt cV cS cFDFp=\"a seed\" r=\"*The original source did not include a range line*\" targets=\"one creature per level, no two of which can be more than 30 ft. apart\" durD durCon=\", up to 1 min./level\" save=\"Will negates, see text\" srN}",
+			"::spell{id=1 source=\"Quests and Campaigns/28\" divination brd=2 clr=2 inq=2 orc=2 skd=2 war=2 wit=2 ctSt cV cS cFDFp=\"a seed\" r=\"*The original source did not include a range line*\" targets=\"one creature per level, no two of which can be more than 30 ft. apart\" durD durCon=\", up to 1 min./level\" save=\"Will negates, see text\" srN}",
 			"",
 			"You can determine whether or not two or more creatures are related by blood. The amount of information gleaned depends on how long you study a particular area or set of subjects.",
 			"",
@@ -2335,7 +2335,7 @@
 		"description": [
 			"## Detect Scrying",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/268\" divination arc=4 brd=4 inq=4 med=3 mes=4 occ=4 psy=4 sha=4 skd=4 sor=4 spr=4 wit=4 wiz=4 ctSt cV cS cMp=\"a piece of mirror and a miniature brass hearing trumpet\" rFt=40 area=\"40-ft.-radius emanation centered on you\" durH=24 saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/268\" divination arc=4 brd=4 inq=4 med=3 mes=4 occ=4 psy=4 sha=4 skd=4 sor=4 spr=4 wit=4 wiz=4 ctSt cV cS cMp=\"a piece of mirror and a miniature brass hearing trumpet\" rFt=40 area=\"40-ft.-radius emanation centered on you\" durH=24 saveNo srN}",
 			"",
 			"You immediately become aware of any attempt to observe you by means of a divination (scrying) spell or effect. The spell's area radiates from you and moves as you move. You know the location of every magical sensor within the spell's area.",
 			"",
@@ -2359,7 +2359,7 @@
 		"description": [
 			"## Detect Secret Doors",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/268\" divination alc=1 arc=1 brd=1 inv=1 mes=1 occ=1 psy=1 skd=1 sor=1 wit=1 wiz=1 ctSt cV cS rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 min./level\" saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/268\" divination alc=1 arc=1 brd=1 inv=1 mes=1 occ=1 psy=1 skd=1 sor=1 wit=1 wiz=1 ctSt cV cS rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 min./level\" saveNo srN}",
 			"",
 			"You can detect secret doors, compartments, caches, and so forth. Only passages, doors, or openings that have been specifically constructed to escape detection are detected by this spell. The amount of information revealed depends on how long you study a particular area or subject.",
 			"",
@@ -2376,7 +2376,7 @@
 		"description": [
 			"## Detect Snares and Pits",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/268\" divination drd=1 hnt=1 occ=1 rgr=1 ctSt cV cS rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/268\" divination drd=1 hnt=1 occ=1 rgr=1 ctSt cV cS rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 10 min./level\" saveNo srN}",
 			"",
 			"You can detect simple pits, deadfalls, and snares as well as mechanical traps constructed of natural materials. The spell does not detect complex traps, including trapdoor traps.",
 			"",
@@ -2402,7 +2402,7 @@
 		"description": [
 			"## Detect the Faithful",
 			"",
-			"::spell{source=\"Ultimate Intrigue/212;Taldor, Echoes of Glory/25\" divination ant=1 clr=1 drd=1 hnt=1 inq=1 pal=1 rgr=1 sha=1 war=1 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 minute/level\" saveNo srN}",
+			"::spell{id=1 source=\"Ultimate Intrigue/212;Taldor, Echoes of Glory/25\" divination ant=1 clr=1 drd=1 hnt=1 inq=1 pal=1 rgr=1 sha=1 war=1 ctSt cV cS cDF rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 minute/level\" saveNo srN}",
 			"",
 			"You can detect other worshipers of your deity (mortal worshipers, outsider servants, and so on). The amount of information revealed depends on how long you focus on a particular area or subject.",
 			"",
@@ -2424,7 +2424,7 @@
 		"description": [
 			"## Detect Thoughts",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/268\" mindAffecting divination alc=2 arc=2 brd=2 inq=2 inv=2 med=2 mes=2 psy=1 skd=2 sor=2 spr=2 sum=2 usm=2 wit=2 wiz=2 ctSt cV cS cFDFp=\"a copper piece\" rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 min./level\" save=\"Will negates; see text\" srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/268\" mindAffecting divination alc=2 arc=2 brd=2 inq=2 inv=2 med=2 mes=2 psy=1 skd=2 sor=2 spr=2 sum=2 usm=2 wit=2 wiz=2 ctSt cV cS cFDFp=\"a copper piece\" rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 min./level\" save=\"Will negates; see text\" srN}",
 			"",
 			"You detect surface thoughts. The amount of information revealed depends on how long you study a particular area or subject.",
 			"",
@@ -2438,7 +2438,7 @@
 			"",
 			"::h3[Detect Anxieties]{jl}",
 			"",
-			"::spell{source=\"Ultimate Intrigue/211\" mindAffecting divination ant=2 arc=3 brd=3 clr=3 inq=3 med=2 mes=2 orc=3 pal=3 psy=2 skd=3 sor=3 spr=3 war=3 wit=3 wiz=3 ctSt cV cS cFDFp=\"a medallion\" rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 minute/level\" save=\"Will negates (see text)\" srN}",
+			"::spell{id=2 source=\"Ultimate Intrigue/211\" mindAffecting divination ant=2 arc=3 brd=3 clr=3 inq=3 med=2 mes=2 orc=3 pal=3 psy=2 skd=3 sor=3 spr=3 war=3 wit=3 wiz=3 ctSt cV cS cFDFp=\"a medallion\" rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 minute/level\" save=\"Will negates (see text)\" srN}",
 			"",
 			"This spell functions as detect thoughts except that you sense significant anxieties of creatures with an Intelligence score of 1 or higher, regardless of whether they are conscious or not.",
 			"",
@@ -2450,7 +2450,7 @@
 			"",
 			"::h3[Detect Desires]{jl}",
 			"",
-			"::spell{source=\"Ultimate Intrigue/211\" mindAffecting divination ant=2 arc=3 brd=2 clr=3 inq=3 med=2 mes=3 orc=3 pal=3 psy=2 skd=2 sor=3 spr=3 war=3 wit=3 wiz=3 ctSt cV cS cFDFp=\"a medallion\" rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 minute/level\" save=\"Will negates (see text)\" srN}",
+			"::spell{id=3 source=\"Ultimate Intrigue/211\" mindAffecting divination ant=2 arc=3 brd=2 clr=3 inq=3 med=2 mes=3 orc=3 pal=3 psy=2 skd=2 sor=3 spr=3 war=3 wit=3 wiz=3 ctSt cV cS cFDFp=\"a medallion\" rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 minute/level\" save=\"Will negates (see text)\" srN}",
 			"",
 			"This spell functions as per detect thoughts, except you sense significant desires of creatures with an Intelligence score of 1 or higher, regardless of whether they are conscious or not.",
 			"",
@@ -2476,7 +2476,7 @@
 		"description": [
 			"## Detect Undead",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/269\" divination alc=1 arc=1 clr=1 inq=1 inv=1 med=1 mes=1 orc=1 pal=1 psy=1 sha=1 sor=1 spr=1 war=1 wiz=1 ctSt cV cS cMDFp=\"earth from a grave\" rFt=60 area=\"cone-shaped emanation\" durCon=\", up to 1 min./level\" saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/269\" divination alc=1 arc=1 clr=1 inq=1 inv=1 med=1 mes=1 orc=1 pal=1 psy=1 sha=1 sor=1 spr=1 war=1 wiz=1 ctSt cV cS cMDFp=\"earth from a grave\" rFt=60 area=\"cone-shaped emanation\" durCon=\", up to 1 min./level\" saveNo srN}",
 			"",
 			"You can detect the aura that surrounds undead creatures. The amount of information revealed depends on how long you study a particular area.",
 			"",
@@ -2501,7 +2501,7 @@
 			"",
 			"### Undeath Sense",
 			"",
-			"::spell{source=\"Potions and Poisons/18\" divination alc=2 arc=2 clr=2 inq=2 inv=2 orc=2 pal=2 sha=2 sor=2 war=2 wiz=2 ctSt cV cS cMDFp=\"ashes from an urn\" rTouch target=\"creature touched\" durML=10 durD saveNo srN}",
+			"::spell{id=2 source=\"Potions and Poisons/18\" divination alc=2 arc=2 clr=2 inq=2 inv=2 orc=2 pal=2 sha=2 sor=2 war=2 wiz=2 ctSt cV cS cMDFp=\"ashes from an urn\" rTouch target=\"creature touched\" durML=10 durD saveNo srN}",
 			"",
 			"You grant the target the ability to pick up on the subtle scents and disturbances to the natural order that are specific to the living dead, granting the target the ability to sense the presence of undead creatures. The target is constantly aware of whether there are any undead auras within 60 feet of her in any direction. If at least one undead aura is present, the target can concentrate on the spell's effects in order to gain more information on the auras present. This functions similarly to detect undead, except the number of rounds of concentration needed to learn about the undead auras is reduced by 1 (1 round to learn the number of auras, and 2 rounds to learn the strength and location of each aura)."
 		]
@@ -2516,7 +2516,7 @@
 		"description": [
 			"## Determine Depth",
 			"",
-			"::spell{source=\"Dungeoneer's Handbook/30\" divination arc=2 brd=2 drd=2 hnt=2 skd=2 sor=2 wiz=2 ctSt cV cS rTouch target=\"solid surface touched\" durD durCon=\", up to 1 round/level\" saveNo srN}",
+			"::spell{id=1 source=\"Dungeoneer's Handbook/30\" divination arc=2 brd=2 drd=2 hnt=2 skd=2 sor=2 wiz=2 ctSt cV cS rTouch target=\"solid surface touched\" durD durCon=\", up to 1 round/level\" saveNo srN}",
 			"",
 			"With a touch, you can determine the exact thickness of a wall, ceiling, or other solid barrier, measuring from the point you are touching to the direct opposite side of the barrier in a straight line. You can only detect depths or widths of up to 10 feet per caster level (maximum 200 feet at 20th level); amounts in excess of this limit are detected as being the maximum you are able to detect. So, for example, a 5th-level wizard using this spell on a 60-foot-thick wall would detect that the wall is 50 feet thick.",
 			"",
@@ -2529,7 +2529,7 @@
 		"description": [
 			"## Detonate",
 			"",
-			"::spell{source=\"Advanced Player's Guide/215\" school=\"‹spelldef/evocation› &#91&‹spelldef/acid›, ‹spelldef/cold›, ‹spelldef/electricity›, or ‹spelldef/fire›&#93&\" alc=4 arc=4 bld=4 inv=4 mag=4 sor=4 wiz=4 ctSt cV cS cMp=\"two vials; one containing acid and one containing an alkaline solution worth a total of 50 gp\" rFt=30 area=\"30-ft.-radius spread centered on you\" dur=\"1 round, then instantaneous\" reflHalf srY}",
+			"::spell{id=1 source=\"Advanced Player's Guide/215\" school=\"‹spelldef/evocation› &#91&‹spelldef/acid›, ‹spelldef/cold›, ‹spelldef/electricity›, or ‹spelldef/fire›&#93&\" alc=4 arc=4 bld=4 inv=4 mag=4 sor=4 wiz=4 ctSt cV cS cMp=\"two vials; one containing acid and one containing an alkaline solution worth a total of 50 gp\" rFt=30 area=\"30-ft.-radius spread centered on you\" dur=\"1 round, then instantaneous\" reflHalf srY}",
 			"",
 			"You flood yourself with a potent surge of elemental energy. One round after completing the casting of the spell, the energy explodes from your body.",
 			"",
@@ -2542,7 +2542,7 @@
 		"description": [
 			"## Detoxify",
 			"",
-			"::spell{source=\"Adventurer's Guide/115\" transmutation clr=3 drd=3 hnt=2 inq=3 orc=3 pal=3 rgr=2 sha=3 war=3 wit=3 ctSt cV cS cMp=\"a dandelion stem\" rClose target=\"one creature\" durML=10 fort srY}",
+			"::spell{id=1 source=\"Adventurer's Guide/115\" transmutation clr=3 drd=3 hnt=2 inq=3 orc=3 pal=3 rgr=2 sha=3 war=3 wit=3 ctSt cV cS cMp=\"a dandelion stem\" rClose target=\"one creature\" durML=10 fort srY}",
 			"",
 			"You remove a creature's ability to poison others, whether inherent or via poisoned weapons. Whenever an affected creature would inflict poison with an attack, spell, or other method (including auras and other constant methods), that poison is automatically neutralized. This does not grant the subject of the spell any resistance to poison itself."
 		]
@@ -2553,7 +2553,7 @@
 		"description": [
 			"## Devil Snare",
 			"",
-			"::spell{source=\"Agents of Evil/17\" abjuration good arc=5 clr=4 orc=4 sor=5 war=4 wiz=5 ctFRA cV cS cMp=\"a pouch of silvered powder worth 25 gp\" rTouch effect=\"10-ft.-radius circle\" durRL=1 save=\"Will negates, see text\" sr=\"yes, see text\"}",
+			"::spell{id=1 source=\"Agents of Evil/17\" abjuration good arc=5 clr=4 orc=4 sor=5 war=4 wiz=5 ctFRA cV cS cMp=\"a pouch of silvered powder worth 25 gp\" rTouch effect=\"10-ft.-radius circle\" durRL=1 save=\"Will negates, see text\" sr=\"yes, see text\"}",
 			"",
 			"Your touch creates an invisible circle on a flat surface. Any outsider passing through this circle must succeed at a Will save or be caught within. Once trapped, a creature must succeed at a Will save as a standard action to physically exit the confines of the circle, teleport, or use any form of extradimensional travel (as per dimensional anchor). Contained outsiders can still attack adjacent creatures outside of the circle, or target others with ranged attacks, spells, and spell-like abilities. Despite the spell's name, devil snare captures outsiders of any type, not only devils.",
 			"",
@@ -2569,7 +2569,7 @@
 		"description": [
 			"## Devolution",
 			"",
-			"::spell{source=\"Advanced Player's Guide/216\" transmutation arc=3 psy=3 rma=3 sor=3 sum=3 usm=3 wiz=3 ctSt cV cS cMp=\"a chameleon scale\" rClose target=\"one eidolon\" durRL=1 will srY}",
+			"::spell{id=1 source=\"Advanced Player's Guide/216\" transmutation arc=3 psy=3 rma=3 sor=3 sum=3 usm=3 wiz=3 ctSt cV cS cMp=\"a chameleon scale\" rClose target=\"one eidolon\" durRL=1 will srY}",
 			"",
 			"This spell causes an eidolon to lose one evolution plus one additional evolution for every five caster levels. Evolutions with the highest total cost are lost first. If there is a tie, randomly determine which is lost. If this spell causes an eidolon to fail to meet the prerequisites for other evolutions or abilities, those evolutions or abilities are lost as long as this spell persists.",
 			"",
@@ -2587,7 +2587,7 @@
 		"description": [
 			"## Diagnose Disease",
 			"",
-			"::spell{source=\"Ultimate Magic/216\" divination clr=1 drd=1 hnt=1 mes=1 occ=1 orc=1 pal=1 psy=1 rgr=1 war=1 wit=1 ctSt cV cS rClose targetOrArea=\"one creature, one object, or a 5-ft. cube\" durI saveNo srN}",
+			"::spell{id=1 source=\"Ultimate Magic/216\" divination clr=1 drd=1 hnt=1 mes=1 occ=1 orc=1 pal=1 psy=1 rgr=1 war=1 wit=1 ctSt cV cS rClose targetOrArea=\"one creature, one object, or a 5-ft. cube\" durI saveNo srN}",
 			"",
 			"You determine whether a creature, object, or area carries any sort of disease or infestation (including molds, slimes, and similar hazards), or any exceptional or supernatural effects causing the sickened or nauseated effects. If there is disease present, you know what disease it is and its effects. If the target is a creature, you gain a +4 bonus on Heal checks to treat the creature's disease. The spell can penetrate many barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it."
 		]
@@ -2598,7 +2598,7 @@
 		"description": [
 			"## Diamond Spray",
 			"",
-			"::spell{source=\"Pathfinder #24: The Final Wish/60\" earth evocation arc=3 sor=3 wiz=3 ctSt cV cS cMp=\"a lump of coal\" rFt=20 area=\"cone-shaped burst\" durI reflHalf srY}",
+			"::spell{id=1 source=\"Pathfinder #24: The Final Wish/60\" earth evocation arc=3 sor=3 wiz=3 ctSt cV cS cMp=\"a lump of coal\" rFt=20 area=\"cone-shaped burst\" durI reflHalf srY}",
 			"",
 			"A cone of tiny, sparkling slivers as hard and sharp as filed diamonds springs from your outstretched fingers at tremendous speed. Any creature in the area of the torrent takes 1d6 points of slashing damage per caster level (maximum 10d6). These magical slivers are treated as adamantine and cold iron for the purpose of overcoming damage reduction. In addition, this spell bypasses up to 1 point of an object's hardness per 2 caster levels (maximum 10)."
 		]
@@ -2612,7 +2612,7 @@
 		"description": [
 			"## Dictum",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/269\" evocation lawful sonic clr=7 inq=6 orc=7 ctSt cV rFt=40 area=\"nonlawful creatures in a 40-ft.-radius spread centered on you\" durI save=\"none or Will negates; see text\" srY}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/269\" evocation lawful sonic clr=7 inq=6 orc=7 ctSt cV rFt=40 area=\"nonlawful creatures in a 40-ft.-radius spread centered on you\" durI save=\"none or Will negates; see text\" srY}",
 			"",
 			"Any nonlawful creature within the area of a dictum spell suffers the following ill effects.",
 			"",
@@ -2655,7 +2655,7 @@
 		"description": [
 			"## Dimension Door",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/269\" conjuration teleportation arc=4 brd=4 mag=4 med=3 mes=4 occ=4 psy=4 skd=4 sor=4 spr=4 sum=3 usm=4 wit=4 wiz=4 ctSt cV rLong target=\"you and touched objects or other touched willing creatures\" durI save=\"none and Will negates (object)\" sr=\"no and yes (object)\"}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/269\" conjuration teleportation arc=4 brd=4 mag=4 med=3 mes=4 occ=4 psy=4 skd=4 sor=4 spr=4 sum=3 usm=4 wit=4 wiz=4 ctSt cV rLong target=\"you and touched objects or other touched willing creatures\" durI save=\"none and Will negates (object)\" sr=\"no and yes (object)\"}",
 			"",
 			"You instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired - whether by simply visualizing the area or by stating direction. After using this spell, you can't take any other actions until your next turn. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you.",
 			"",
@@ -2675,7 +2675,7 @@
 			"",
 			"::h3[Phase Step]{jl}",
 			"",
-			"::spell{source=\"Potions and Poisons/17\" conjuration teleportation alc=3 arc=3 brd=3 inv=3 mag=3 skd=3 sor=3 sum=3 usm=3 wit=3 wiz=3 ctSt cV cS rClose target=\"one willing creature touched\" durI saveNo srY}",
+			"::spell{id=2 source=\"Potions and Poisons/17\" conjuration teleportation alc=3 arc=3 brd=3 inv=3 mag=3 skd=3 sor=3 sum=3 usm=3 wit=3 wiz=3 ctSt cV cS rClose target=\"one willing creature touched\" durI saveNo srY}",
 			"",
 			"You instantly transfer the touched creature to a point you designate within range. This otherwise functions as the spell dimension door, except that you must have line of sight and line of effect to the target's destination for this spell's effects to properly function."
 		]
@@ -2690,7 +2690,7 @@
 		"description": [
 			"## Dimensional Anchor",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/270\" abjuration arc=4 clr=4 inq=3 med=3 occ=4 orc=4 psy=4 sor=4 spr=4 sum=3 usm=4 war=4 wiz=4 ctSt cV cS rMed effect=ray durML=1 saveNo srY srObject}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/270\" abjuration arc=4 clr=4 inq=3 med=3 occ=4 orc=4 psy=4 sor=4 spr=4 sum=3 usm=4 war=4 wiz=4 ctSt cV cS rMed effect=ray durML=1 saveNo srY srObject}",
 			"",
 			"A green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel. Forms of movement barred by a dimensional anchor include ‹spell/astral projection›, ‹spell/blink›, ‹spell/dimension door›, ‹spell/ethereal jaunt›, ‹spell/etherealness›, ‹spell/gate›, ‹spell/maze›, ‹spell/plane shift›, ‹spell/shadow walk›, ‹spell/teleport›, and similar spell-like abilities. The spell also prevents the use of a gate or ‹spell/teleportation circle› for the duration of the spell.",
 			"",
@@ -2703,7 +2703,7 @@
 		"description": [
 			"## Dimensional Blade",
 			"",
-			"::spell{source=\"Melee Tactics Toolbox/30\" transmutation ant=4 arc=6 bld=4 clr=6 inq=5 mag=5 orc=6 pal=4 sor=6 war=6 wiz=6 ctSw cV cS rPers target=you durR=1}",
+			"::spell{id=1 source=\"Melee Tactics Toolbox/30\" transmutation ant=4 arc=6 bld=4 clr=6 inq=5 mag=5 orc=6 pal=4 sor=6 war=6 wiz=6 ctSw cV cS rPers target=you durR=1}",
 			"",
 			"This spell gives you the power to turn one melee weapon in your hand into a two-dimensional object with length and height but no width. A sword becomes a flat image of a sword, a mace is reduced to a flat outline, and so on. The magic of the spell allows the weapon to be wielded by you normally, creating just enough depth to grasp it.",
 			"",
@@ -2716,7 +2716,7 @@
 		"description": [
 			"## Dimensional Bounce",
 			"",
-			"::spell{source=\"Advanced Class Guide/179\" conjuration teleportation arc=7 psy=7 sor=7 sum=6 usm=6 wit=7 wiz=7 ctSt cV cS rClose targets=\"you and touched objects or other touched willing creatures\" dur=\"1 round/level or until discharged\" save=\"none and Will negates (object)\" sr=\"no and yes (object)\"}",
+			"::spell{id=1 source=\"Advanced Class Guide/179\" conjuration teleportation arc=7 psy=7 sor=7 sum=6 usm=6 wit=7 wiz=7 ctSt cV cS rClose targets=\"you and touched objects or other touched willing creatures\" dur=\"1 round/level or until discharged\" save=\"none and Will negates (object)\" sr=\"no and yes (object)\"}",
 			"",
 			"You designate two locations within range and create a dimensional link between them; you must have line of effect to both locations when casting this spell. As a swift action, you can teleport from your current location to either of the designated locations as if you had cast dimension door. The spell is discharged once you have used it to teleport a number of times equal to one-fourth your caster level (maximum 5 times)."
 		]
@@ -2730,7 +2730,7 @@
 		"description": [
 			"## Dimensional Lock",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/270\" abjuration arc=8 clr=8 orc=8 psy=8 sor=8 sum=6 wiz=8 ctSt cV cS rMed area=\"20-ft.-radius emanation centered on a point in space\" durDL=1 saveNo srY}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/270\" abjuration arc=8 clr=8 orc=8 psy=8 sor=8 sum=6 wiz=8 ctSt cV cS rMed area=\"20-ft.-radius emanation centered on a point in space\" durDL=1 saveNo srY}",
 			"",
 			"You create a shimmering emerald barrier that completely blocks extradimensional travel. Forms of movement barred include ‹spell/astral projection›, ‹spell/blink›, ‹spell/dimension door›, ‹spell/ethereal jaunt›, ‹spell/etherealness›, ‹spell/gate›, ‹spell/maze›, ‹spell/plane shift›, ‹spell/shadow walk›, ‹spell/teleport›, and similar spell-like abilities. Once dimensional lock is in place, extradimensional travel into or out of the area is not possible.",
 			"",
@@ -2754,7 +2754,7 @@
 		"description": [
 			"## Diminish Plants",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/270\" transmutation drd=3 hnt=3 rgr=3 ctSt cV cS cDF rText targetOrArea=\"see text\" durI saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/270\" transmutation drd=3 hnt=3 rgr=3 ctSt cV cS cDF rText targetOrArea=\"see text\" durI saveNo srN}",
 			"",
 			"This spell has two versions.",
 			"",
@@ -2776,7 +2776,7 @@
 		"description": [
 			"## Diminish Resistance",
 			"",
-			"::spell{source=\"Planar Adventures/40;Monster Hunter's Handbook/30\" transmutation arc=2 brd=2 clr=2 inq=2 mag=2 mes=2 orc=2 psy=2 skd=2 sor=2 war=2 wit=2 wiz=2 ctSt cV cS cMDFp=\"a pinch of coarse sand\" rMed target=\"one creature\" durD durRL=1 fort srY}",
+			"::spell{id=1 source=\"Planar Adventures/40;Monster Hunter's Handbook/30\" transmutation arc=2 brd=2 clr=2 inq=2 mag=2 mes=2 orc=2 psy=2 skd=2 sor=2 war=2 wit=2 wiz=2 ctSt cV cS cMDFp=\"a pinch of coarse sand\" rMed target=\"one creature\" durD durRL=1 fort srY}",
 			"",
 			"You weaken a creature's resistance against one energy type you select: acid, cold, electricity, fire, or sonic. The creature's resistance to that energy type decreases by 5 (minimum 0), plus an additional 5 for every 5 caster levels beyond 3rd (to a maximum of 20 at 18th level)."
 		]
@@ -2787,7 +2787,7 @@
 		"description": [
 			"## Diminished Detection",
 			"",
-			"::spell{source=\"Inner Sea Intrigue/59\" abjuration alc=2 arc=2 brd=2 inv=2 skd=2 sor=2 wit=2 wiz=2 ctSt cV cS cMp=\"a piece of wool\" rPers target=you durHL=1}",
+			"::spell{id=1 source=\"Inner Sea Intrigue/59\" abjuration alc=2 arc=2 brd=2 inv=2 skd=2 sor=2 wit=2 wiz=2 ctSt cV cS cMp=\"a piece of wool\" rPers target=you durHL=1}",
 			"",
 			"You can avoid being detected when you are on the edges of some divination spells' ranges. Whenever you would normally be within the area of effect of a detection spell (such as ‹spell/detect magic›, ‹spell/detect evil›, or ‹spell/detect undead›), the area of effect is reduced by half for the purposes of the spell's caster detecting you or your possessions. The caster of the detect spell is unaware of this reduction in her spell's range; she simply does not detect you."
 		]
@@ -2803,7 +2803,7 @@
 		"description": [
 			"## Dirge of the Victorious Knights",
 			"",
-			"::spell{source=\"Adventurer's Guide/98;Inner Sea World Guide/294;Cheliax, Empire of Devils/22\" illusion shadowSub brd=6 skd=6 ctR=1 cV cS cFp=\"a medal from a dead Hellknight or a copy a Chelish opera script, either worth at least 100 gp\" rFt=120 area=\"120-ft. line, 10 ft. wide\" durI reflHalf srY}",
+			"::spell{id=1 source=\"Adventurer's Guide/98;Inner Sea World Guide/294;Cheliax, Empire of Devils/22\" illusion shadowSub brd=6 skd=6 ctR=1 cV cS cFp=\"a medal from a dead Hellknight or a copy a Chelish opera script, either worth at least 100 gp\" rFt=120 area=\"120-ft. line, 10 ft. wide\" durI reflHalf srY}",
 			"",
 			"By performing part of the Chelish opera Victory of the ‹rule/Hellknights›, you call forth spectral illusions of mounted Hellknights to trample your foes under the hooves of their glorious steeds. The shadowy knights appear in an adjacent 10-foot square and ride forward in the direction you indicate, dealing 1d6 points of damage per caster level (maximum 20d6) to all creatures in their path. Half of this damage is cold damage, while half results directly from arcane power and is not subject to cold resistance or immunity. The knights cannot pass through force effects or barriers that block incorporeal creatures or undead.",
 			"",
@@ -2823,7 +2823,7 @@
 		"description": [
 			"## Disable Construct",
 			"",
-			"::spell{source=\"Advanced Class Guide/179\" transmutation alc=3 arc=3 inv=3 rma=3 sor=3 wit=3 wiz=3 ctSt cV cS rTouch target=\"construct touched\" durD durRL=1 will srN}",
+			"::spell{id=1 source=\"Advanced Class Guide/179\" transmutation alc=3 arc=3 inv=3 rma=3 sor=3 wit=3 wiz=3 ctSt cV cS rTouch target=\"construct touched\" durD durRL=1 will srN}",
 			"",
 			"You can make a melee touch attack to send a pulse into the target, interfering with the magic that endows it with life. If the construct fails its saving throw, it becomes helpless, but it receives a new save each round at the end of its turn to shake off the effect. If the construct is normally immune to magic, the pulse is less effective and the construct receives a +4 bonus on its saving throw."
 		]
@@ -2834,7 +2834,7 @@
 		"description": [
 			"## Discern Lies",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/270\" divination alc=4 clr=4 inq=4 inv=4 med=3 orc=4 pal=3 psy=4 war=4 wit=4 ctSt cV cS cDF rClose targets=\"one creature/level, no two of which can be more than 30 ft. apart\" durCon=\", up to 1 round/level\" will srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/270\" divination alc=4 clr=4 inq=4 inv=4 med=3 orc=4 pal=3 psy=4 war=4 wit=4 ctSt cV cS cDF rClose targets=\"one creature/level, no two of which can be more than 30 ft. apart\" durCon=\", up to 1 round/level\" will srN}",
 			"",
 			"Each round, you concentrate on one target, who must be within range. You know if the target deliberately and knowingly speaks a lie by discerning disturbances in its aura caused by lying. The spell does not reveal the truth, uncover unintentional inaccuracies, or necessarily reveal evasions.",
 			"",
@@ -2847,7 +2847,7 @@
 		"description": [
 			"## Discern Location",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/270\" divination arc=8 clr=8 orc=8 psy=8 sha=8 sor=8 sum=6 wit=8 wiz=8 ctM=10 cV cS cDF r=unlimited target=\"one creature or object\" durI saveNo srN}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/270\" divination arc=8 clr=8 orc=8 psy=8 sha=8 sor=8 sum=6 wit=8 wiz=8 ctM=10 cV cS cDF r=unlimited target=\"one creature or object\" durI saveNo srN}",
 			"",
 			"A discern location spell is among the most powerful means of locating creatures or objects. Nothing short of a mind blank spell or the direct intervention of a deity keeps you from learning the exact location of a single individual or object. Discern location circumvents normal means of protection from scrying or location. The spell reveals the name of the creature or object's location (place, name, business name, building name, or the like), community, county (or similar political division), country, continent, and the plane of existence where the target lies.",
 			"",
@@ -2860,7 +2860,7 @@
 		"description": [
 			"## Discern Next of Kin",
 			"",
-			"::spell{source=\"Advanced Class Guide/179\" mindAffecting divination arc=1 brd=1 med=1 mes=1 occ=1 psy=1 sha=1 skd=1 sor=1 spr=1 wit=1 wiz=1 ctSt cV cS cFp=\"a copper piece\" rFt=60 target=\"one creature\" durD durCon=\", up to 1 minute/level\" save=\"Will negates (see text)\" srY}",
+			"::spell{id=1 source=\"Advanced Class Guide/179\" mindAffecting divination arc=1 brd=1 med=1 mes=1 occ=1 psy=1 sha=1 skd=1 sor=1 spr=1 wit=1 wiz=1 ctSt cV cS cFp=\"a copper piece\" rFt=60 target=\"one creature\" durD durCon=\", up to 1 minute/level\" save=\"Will negates (see text)\" srY}",
 			"",
 			"You can scan the thoughts of one individual and learn the names and locations of the target's living relatives, as well as the attitude of the target toward those relatives (and vice versa). You learn about one relative per round you concentrate on the target. For example, you might learn that the target's father's name is Jarn, the father lives on a nearby farm, and the target and his father don't get along. Since this spell reads the target's mind, you can learn only what the target knows or believes."
 		]
@@ -2871,7 +2871,7 @@
 		"description": [
 			"## Discern Value",
 			"",
-			"::spell{source=\"Dungeoneer's Handbook/30\" divination arc=3 brd=3 skd=3 sor=3 wiz=3 ctSt cV cS cFp=\"platinum monocle worth 100 gp\" rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 minute/level\" saveNo srN}",
+			"::spell{id=1 source=\"Dungeoneer's Handbook/30\" divination arc=3 brd=3 skd=3 sor=3 wiz=3 ctSt cV cS cFp=\"platinum monocle worth 100 gp\" rFt=60 area=\"cone-shaped emanation\" durD durCon=\", up to 1 minute/level\" saveNo srN}",
 			"",
 			"You can quickly analyze the monetary value of objects and identify which are most valuable to an average trader. You must specify a minimum value to detect when you cast this spell (such as 1 gp, 100 gp, or 1,000 gp). The amount of information revealed depends on how long you study a particular area or subject.",
 			"",
@@ -2890,13 +2890,13 @@
 		"description": [
 			"## Discharge",
 			"",
-			"::spell{source=\"Technology Guide/9\" abjuration arc=3 brd=3 clr=3 mag=3 orc=3 skd=3 sor=3 war=3 wit=3 wiz=3 ctSt cV cS rMed target=\"one creature or technological object\" durI fort srN}",
+			"::spell{id=1 source=\"Technology Guide/9\" abjuration arc=3 brd=3 clr=3 mag=3 orc=3 skd=3 sor=3 war=3 wit=3 wiz=3 ctSt cV cS rMed target=\"one creature or technological object\" durI fort srN}",
 			"",
 			"Discharge dissipates the charges from one technical object, temporarily depowers one electrically powered technological object that does not use charges, or severely hinders a creature with the robot subtype. If the spell targets an object with charges, the object loses all of its remaining charges. If the object is powered by electrical means other than charges, its functions are suppressed for 1d4 rounds. If the spell targets a creature not of the robot subtype, it affects a random charged or electrically powered item in that creature's possession. If the target is a robot, the robot is staggered and cannot use any energy-based attacks for 1d4 rounds. A robot that's affected by this spell receives a new saving throw at the end of each round to shrug off the effect.",
 			"",
 			"### Greater Discharge",
 			"",
-			"::spell{source=\"Technology Guide/9\" abjuration arc=6 brd=6 clr=6 mag=6 orc=6 skd=6 sor=6 war=6 wit=6 wiz=6 ctSt cV cS rMed targetOrArea=\"one creature or technological object, or a 20-ft.-radius burst\" durI fort srN}",
+			"::spell{id=2 source=\"Technology Guide/9\" abjuration arc=6 brd=6 clr=6 mag=6 orc=6 skd=6 sor=6 war=6 wit=6 wiz=6 ctSt cV cS rMed targetOrArea=\"one creature or technological object, or a 20-ft.-radius burst\" durI fort srN}",
 			"",
 			"This spell functions as discharge, except it can discharge multiple technological objects and can be used to target an area.",
 			"",
@@ -2921,7 +2921,7 @@
 		"description": [
 			"## Discordant Blast",
 			"",
-			"::spell{source=\"Advanced Player's Guide/216\" evocation sonic brd=4 skd=4 ctSt cV cS r=\"10 ft. or 30 ft.\" area=\"see text\" durI saveNo srY}",
+			"::spell{id=1 source=\"Advanced Player's Guide/216\" evocation sonic brd=4 skd=4 ctSt cV cS r=\"10 ft. or 30 ft.\" area=\"see text\" durI saveNo srY}",
 			"",
 			"You create a wave of thunder and force, either in a 10-foot-radius burst centered on you or in 30-foot cone-shaped burst. Creatures in the area take 3d6 points of sonic damage and are pushed away as if bull rushed. Make a combat maneuver check and apply its results to each creature in the area. Your CMB for this bull rush is equal to your caster level plus your Charisma modifier. This bull rush does not provoke an attack of opportunity. A discordant blast cannot penetrate a ‹spell/silence› spell (or any similar magical silence effect).",
 			"",
@@ -2939,7 +2939,7 @@
 		"description": [
 			"## Discovery Torch",
 			"",
-			"::spell{source=\"Ultimate Combat/228\" evocation light brd=2 clr=3 inq=2 orc=3 skd=2 war=3 ctR=1 cV cS rTouch target=\"object touched\" durML=10 saveNo srN}",
+			"::spell{id=1 source=\"Ultimate Combat/228\" evocation light brd=2 clr=3 inq=2 orc=3 skd=2 war=3 ctR=1 cV cS rTouch target=\"object touched\" durML=10 saveNo srN}",
 			"",
 			"An object you touch emanates a 20-foot radius of bright light. The effect looks like a regular flame but creates no heat and uses no oxygen. Allies within the area of this light gain a +2 enhancement bonus on Perception and Sense Motive checks, as well as on Knowledge checks to identify monsters that are also within the area and their special powers and vulnerabilities.",
 			"",
@@ -2958,7 +2958,7 @@
 		"description": [
 			"## Disfiguring Touch",
 			"",
-			"::spell{source=\"Ultimate Magic/217;Book of the Damned - Volume 2: Lords of Chaos/48\" curse transmutation arc=2 bld=2 clr=2 mes=2 occ=2 orc=2 psy=2 rma=2 sor=2 spr=2 war=2 wit=2 wiz=2 ctSt cV cS rTouch target=\"creature touched\" durDL=1 will srY}",
+			"::spell{id=1 source=\"Ultimate Magic/217;Book of the Damned - Volume 2: Lords of Chaos/48\" curse transmutation arc=2 bld=2 clr=2 mes=2 occ=2 orc=2 psy=2 rma=2 sor=2 spr=2 war=2 wit=2 wiz=2 ctSt cV cS rTouch target=\"creature touched\" durDL=1 will srY}",
 			"",
 			"With a touch, you cause the victim of this spell to suffer a painful curse that causes it to grow hideously disfigured. The physical appearance of the deformity is subject to the caster's whim (most demon worshipers choose deformities that reflect their Abyssal patron's shape or form). The target takes one of the following penalties.",
 			"",

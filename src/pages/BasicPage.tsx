@@ -185,7 +185,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const [markers, setMarkers] = useState<(HTMLElement| HTMLElement[])[]>([]);
 	const [highlightedText, setHighlightedText] = useState<number>(-1);
 	const [contentObject, contentObjectRef] = useElement<HTMLIonContentElement>();
-	const [findInPageSearchbarObj, findInPageSearchRef] = useElement<HTMLIonSearchbarElement>();
+	const [findInPageSearchbarObj, findInPageSearchRef, findInPageSearchbarSetter] = useElement<HTMLIonSearchbarElement>();
 	const [path] = useLocation();
 
 	const contextId = pageId.slice(1).replace(/[^-a-z0-9_]/g, "-").replace(/([^-])$/, "$1-");
@@ -261,9 +261,9 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				});
 			}, "marking search terms");
 		}
-		input || (findInPageSearchbarObj && (findInPageSearchbarObj.value = ""));
+		input || (findInPageSearchbarObj && findInPageSearchbarSetter("value", ""));
 	}, [
-		marker, markerRef, findInPageSearchbarObj,
+		marker, markerRef, findInPageSearchbarObj, findInPageSearchbarSetter,
 		setNumberOfTextsFound, setHighlightedText, setMarkers,
 		caseSensitive, separateWordSearch
 	]);

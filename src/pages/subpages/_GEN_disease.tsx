@@ -57,7 +57,7 @@ const _devil_chills = {title: "Devil Chills", jsx: <><h2 id="disease-devil_chill
 </>};
 const _sleeping_sickness = {title: "Sleeping Sickness", jsx: <><h2 id="disease-sleeping_sickness-sleeping-sickness">Sleeping Sickness</h2>
 <p><strong>Sources</strong> <Link to="/source/heart_of_the_jungle">Heart of the Jungle pg. 8</Link></p>
-<AffInfo start type="Injury (parasite)" save="Fort 14" freq="1/day" onset="1d2 days" eff={<>1d4 <Link to="/rule/wis_damage">Wis damage</Link> and target is <Link to="/misc/fatigued">fatigued</Link></>} cure={<>2 consecutive saves or arsenic (see text)</>} icon="d" />
+<AffInfo start type="Injury (parasite)" save="Fort 14" freq="1/day" onset="1d2 days" eff={<>1d4 <Link to="/rule/wis_damage">Wis damage</Link> and target is <Link to="/misc/fatigued">fatigued</Link></>} cure="2 consecutive saves or arsenic (see text)" icon="d" />
 <p><strong>Sources</strong> <Link to="/source/pathfinder_38_racing_to_ruin">Pathfinder #38: Racing to Ruin pg. 84</Link><br/>Endemic throughout the Sodden Lands and the Mwangi Expanse, the parasitic affliction known as "sleeping sickness" is spread when flying insects inject tiny parasites into their unsuspecting victim's bloodstream, thus inducing fever, headache, joint pain, swelling of glands in the back and neck, and most notably fatigue. The disease gradually infects the brain, causing confusion, reduced coordination, difficulty keeping track of time, and insomnia.</p>
 <p>While exceedingly dangerous, even when administered by a practiced healer, the best cure for this disease is dosing the patient with the poison <Link to="/eq-poison/arsenic">arsenic</Link>. If the patient survives, there's a cumulative 30% chance per dose that the disease is immediately cured.</p>
 </>};
@@ -67,7 +67,7 @@ const _slimy_doom = {title: "Slimy Doom", jsx: <><h2 id="disease-slimy_doom-slim
 </>};
 const _tetanus = {title: "Tetanus", jsx: <><h2 id="disease-tetanus-tetanus">Tetanus</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_1_burnt_offerings">Pathfinder #1: Burnt Offerings pg. 43</Link>, <Link to="/source/bestiary_4">Bestiary 4 pg. 132</Link></p>
-<AffInfo start type="Injury" save="Fort 14" freq="1/day" onset="1d6 days" eff={<>1d4 <Link to="/rule/dex_damage">Dex damage</Link></>} cure2c extra={<>Each time someone takes Dexterity damage from tetanus, there's a 50% chance his jaw muscles stiffen, preventing speech and the use of spells with verbal components for the next 24 hours.</>} icon="d" />
+<AffInfo start type="Injury" save="Fort 14" freq="1/day" onset="1d6 days" eff={<>1d4 <Link to="/rule/dex_damage">Dex damage</Link></>} cure2c extra="Each time someone takes Dexterity damage from tetanus, there's a 50% chance his jaw muscles stiffen, preventing speech and the use of spells with verbal components for the next 24 hours." icon="d" />
 </>};
 const _glacier_plague = {title: "Glacier Plague", jsx: <><h2 id="disease-glacier_plague-glacier-plague">Glacier Plague</h2>
 <p><strong>Sources</strong> <Link to="/source/irrisen___land_of_eternal_winter">Irrisen - Land of Eternal Winter pg. 48</Link></p>
@@ -128,7 +128,7 @@ const _blinding_sickness = {title: "Blinding Sickness", jsx: <><h2 id="disease-b
 </>};
 const _blood_veil = {title: "Blood Veil", jsx: <><h2 id="disease-blood_veil-blood-veil">Blood Veil</h2>
 <p><strong>Sources</strong> <Link to="/source/curse_of_the_crimson_throne">Curse of the Crimson Throne pg. 430</Link>, <Link to="/source/pathfinder_8_seven_days_to_the_grave">Pathfinder #8: Seven Days to the Grave pg. 9</Link>  </p>
-<AffInfo start type="Contact or injury" save="Fort 16" freq="1/day" onset="1 day" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link> and 1d4 Cha damage</>} cure2c extra={<>The first time ethnically Varisian humanoids, including human, half-elves, and half-orcs with Varisian parentage, are exposed to blood veil, each such character has a flat 5% chance that she is immune to the disease.</>} icon="d" />
+<AffInfo start type="Contact or injury" save="Fort 16" freq="1/day" onset="1 day" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link> and 1d4 Cha damage</>} cure2c extra="The first time ethnically Varisian humanoids, including human, half-elves, and half-orcs with Varisian parentage, are exposed to blood veil, each such character has a flat 5% chance that she is immune to the disease." icon="d" />
 <p>Blood veil takes its name from its most apparent symptoms: a rash and mask of blisters that cover the face. In its initial stages, the disease is characterized by headache, fatigue, coughing, and the aforementioned rash. As it progresses, the cough becomes more obtrusive; the rash spreads to the neck, face, and limbs and develops into pox-like blisters; and the lymph glands swell into painful buboes. At its most advanced stage, the blisters grow to the size of grapes or larger, internal bleeding creates black patches on the skin, and the victim expectorates blood. Ultimately, a bloody, wheezing death occurs. If left untreated, blood veil kills the average human in 7 days.</p>
 </>};
 const _bonechill = {title: "Bonechill", jsx: <><h2 id="disease-bonechill-bonechill">Bonechill</h2>
@@ -137,7 +137,7 @@ const _bonechill = {title: "Bonechill", jsx: <><h2 id="disease-bonechill-bonechi
 </>};
 const _boot_soup = {title: "Boot Soup", jsx: <><h2 id="disease-boot_soup-boot-soup">Boot Soup</h2>
 <p><strong>Sources</strong> <Link to="/source/heart_of_the_jungle">Heart of the Jungle pg. 7</Link></p>
-<AffInfo start type="Contact" save="Fort 16" freq="1/day" onset="1 day" eff={<>1d3 <Link to="/rule/dex_damage">Dex damage</Link> and speed reduced by 5 feet; creatures reduced to 0 feet are permanently <Link to="/rule/paralyzed">paralyzed</Link></>} cure={<>2 consecutive saves, or completely skinning or burning the affected area (inflicting 1d8 points of damage)</>} icon="d" />
+<AffInfo start type="Contact" save="Fort 16" freq="1/day" onset="1 day" eff={<>1d3 <Link to="/rule/dex_damage">Dex damage</Link> and speed reduced by 5 feet; creatures reduced to 0 feet are permanently <Link to="/rule/paralyzed">paralyzed</Link></>} cure="2 consecutive saves, or completely skinning or burning the affected area (inflicting 1d8 points of damage)" icon="d" />
 </>};
 const _cackle_fever = {title: "Cackle Fever", jsx: <><h2 id="disease-cackle_fever-cackle-fever">Cackle Fever</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 557</Link></p>
@@ -154,7 +154,7 @@ const _dysentary = {title: "Dysentary", jsx: <><h2 id="disease-dysentary-dysenta
 </>};
 const _final_rest = {title: "Final Rest", jsx: <><h2 id="disease-final_rest-final-rest">Final Rest</h2>
 <p><strong>Sources</strong> <Link to="/source/numeria_land_of_fallen_stars">Numeria, Land of Fallen Stars pg. 24</Link></p>
-<AffInfo start type="Inhaled" save="Fort 16" freq="1/day" onset="1 week" eff={<>1d2 <Link to="/rule/cha_damage">Cha damage</Link></>} cure2c extra={<>While any Charisma damage remains, the victim cannot gain morale bonuses, receives a +2 bonus on saves against mind-affecting effects, and must attempt a saving throw even against harmless mind-affecting effects.</>} icon="d" />
+<AffInfo start type="Inhaled" save="Fort 16" freq="1/day" onset="1 week" eff={<>1d2 <Link to="/rule/cha_damage">Cha damage</Link></>} cure2c extra="While any Charisma damage remains, the victim cannot gain morale bonuses, receives a +2 bonus on saves against mind-affecting effects, and must attempt a saving throw even against harmless mind-affecting effects." icon="d" />
 <p>A disease brought on a ruined starship, final rest sops emotion until the victim simply gives up living.</p>
 </>};
 const _pulsing_puffs = {title: "Pulsing Puffs", jsx: <><h2 id="disease-pulsing_puffs-pulsing-puffs">Pulsing Puffs</h2>
@@ -163,7 +163,7 @@ const _pulsing_puffs = {title: "Pulsing Puffs", jsx: <><h2 id="disease-pulsing_p
 </>};
 const _the_scales = {title: "The Scales", jsx: <><h2 id="disease-the_scales-the-scales">The Scales</h2>
 <p><strong>Sources</strong> <Link to="/source/lost_cities_of_golarion">Lost Cities of Golarion pg. 8</Link></p>
-<AffInfo start type="Contact or injury" save="Fort 16" freq="1/2 days" onset="1d4 days" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link> and 1d2 Cha damage</>} cure2c extra={<>Reptiles and creatures with the reptilian subtype receive a -2 penalty on saving throws and require 3 consecutive saves to recover.</>} icon="d" />
+<AffInfo start type="Contact or injury" save="Fort 16" freq="1/2 days" onset="1d4 days" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link> and 1d2 Cha damage</>} cure2c extra="Reptiles and creatures with the reptilian subtype receive a -2 penalty on saving throws and require 3 consecutive saves to recover." icon="d" />
 </>};
 const _bubonic_plague = {title: "Bubonic Plague", jsx: <><h2 id="disease-bubonic_plague-bubonic-plague">Bubonic Plague</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 557</Link></p>
@@ -198,7 +198,7 @@ const _malaria_jungle_fever = {title: "Malaria (Jungle Fever)", jsx: <><h2 id="d
 </>};
 const _red_drip = {title: "Red Drip", jsx: <><h2 id="disease-red_drip-red-drip">Red Drip</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_unleashed">Undead Unleashed pg. 63</Link>, <Link to="/source/heart_of_the_jungle">Heart of the Jungle pg. 8</Link></p>
-<AffInfo start type="Contact (fungus)" save="Fort 18" freq="1/day" onset="1 day" eff={<>1d4 <Link to="/rule/dex_damage">Dex damage</Link> and 1d2 Cha damage</>} cure={<>2 consecutive saves or amputation of infected limb</>} icon="d" />
+<AffInfo start type="Contact (fungus)" save="Fort 18" freq="1/day" onset="1 day" eff={<>1d4 <Link to="/rule/dex_damage">Dex damage</Link> and 1d2 Cha damage</>} cure="2 consecutive saves or amputation of infected limb" icon="d" />
 </>};
 const _eidite_sickness = {title: "Eidite sickness", jsx: <><h2 id="disease-eidite_sickness-eidite-sickness">Eidite sickness</h2>
 <p><strong>Sources</strong> <Link to="/source/wardens_of_the_reborn_forge">Wardens of the Reborn Forge pg. 19</Link></p>
@@ -215,7 +215,7 @@ const _scarlet_leprosy = {title: "Scarlet Leprosy", jsx: <><h2 id="disease-scarl
 </>};
 const _vorels_phage = {title: "Vorel's Phage", jsx: <><h2 id="disease-vorels_phage-vorels-phage">Vorel's Phage</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_2_the_skinsaw_murders">Pathfinder #2: The Skinsaw Murders pg. 27</Link></p>
-<AffInfo start type="Contact or ingestion" save="Fort 20" freq="1/day" onset="1 day" eff={<>1d4 Cha and 1d4 Con.</>} cure2c icon="d" />
+<AffInfo start type="Contact or ingestion" save="Fort 20" freq="1/day" onset="1 day" eff="1d4 Cha and 1d4 Con." cure2c icon="d" />
 </>};
 const _blightburn_sickness = {title: "Blightburn Sickness", jsx: <><h2 id="disease-blightburn_sickness-blightburn-sickness">Blightburn Sickness</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_unleashed">Undead Unleashed pg. 15</Link>, <Link to="/source/mythic_realms">Mythic Realms pg. 21</Link></p>

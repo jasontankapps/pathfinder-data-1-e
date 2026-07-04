@@ -2181,7 +2181,7 @@ const _spitting_cobra = {title: "Spitting Cobra", jsx: <><h2 id="companion-spitt
 <h3 id="companion-spitting_cobra-starting-statistics">Starting Statistics</h3>
 <blockquote>
 <p><strong>Size</strong> Small<br/><strong>Speed</strong> 20 ft., climb 20 ft.<br/><strong>AC</strong> +2 natural armor<br/><strong>Attack</strong> bite (1d3)<br/><strong>Ability Scores</strong> Str 8, Dex 15, Con 11, Int 1, Wis 12, Cha 2<br/><strong>Special Attacks</strong> <Link to="/umr/poison">poison</Link> (see below), spit (ranged touch attack, 10-foot range, poison, usable every 2d4 rounds)<br/><strong>Special Qualities</strong> low-light vision, <Link to="/umr/scent">scent</Link></p>
-<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 6 rounds" eff={<>blurred vision (20% miss chance) 1 round</>} cure1 icon="p" />
+<AffInfo type="Poison" save="Fort 10 + 1/2 the companion's HD + its Con modifier" freq="1/round for 6 rounds" eff="blurred vision (20% miss chance) 1 round" cure1 icon="p" />
 </blockquote>
 <h3 id="companion-spitting_cobra-7th-level-advancement">7th-Level Advancement</h3>
 <blockquote>

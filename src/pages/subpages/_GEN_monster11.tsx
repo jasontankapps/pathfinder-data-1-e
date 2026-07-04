@@ -430,7 +430,7 @@ const _gholdako = {title: "Gholdako", jsx: <><p><em>A single milky eye stares fr
 <Header sub>Special Abilities</Header>
 <p><strong>Blinding Breath (Su)</strong> Once every 1d4 rounds, a gholdako can exhale its noxious breath in a 20-foot cone, permanently blinding any creatures in the affected area unless they succeed at a DC 21 Fortitude save. The save DC is Charisma-based.</p>
 <p><strong>Disease (Ex)</strong></p>
-<AffInfo type="Injury" save="Fort 21" freq="1/day" onset="1 minute" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link> and 1d4 Dex damage</>} cure2c extra={<>The save DC is Charisma-based.</>} icon="d">Seaside rot</AffInfo>
+<AffInfo type="Injury" save="Fort 21" freq="1/day" onset="1 minute" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link> and 1d4 Dex damage</>} cure2c extra="The save DC is Charisma-based." icon="d">Seaside rot</AffInfo>
 <Header sub>Description</Header>
 <p>A gholdako is a dreadful undead cyclops created by the foul priests and necromancers of a fallen cyclops empire thousands of years ago. A gholdako's single eyeball is sunken and milky, and its body and limbs are wrapped tightly in ragged strips of soiled and moldering linens, much like those of a mummy, but with disturbing and incomprehensible glyphs scribbled on the ancient cloth, written in what appears to be dried blood. Layers of skin continually flake off the hideous monster's parched flesh wherever it is exposed, falling in papery strips of sickly pale yellow. The average gholdako stands 9 feet tall and weighs 500 pounds.</p>
 <p>Gholdakos are nearly always guardians of some special relic or tomb, having been ordered to protect the object or location in life and remaining faithful to their duties even after dying. While they strive to keep their wards safe from depredations, gholdakos are nonetheless short-tempered and easy to lure away from their posts - though being caught by one of these undead giants almost always spells a gruesome and untimely end for most would-be tomb raiders.</p>
@@ -449,7 +449,7 @@ const _ghole = {title: "Ghole", jsx: <><p><em>The hulking form has a long, vultu
 <Header sub>Special Abilities</Header>
 <p><strong>Bolster Disease (Su)</strong> A creature bitten by a ghole must succeed at a DC 23 Fortitude save or any disease it currently suffers from is bolstered. A disease bolstered in this way has its frequency doubled (so a disease that normally has a frequency of 1/day has its effects applied once every 12 hours) and can be cured only by magic. The bubonic plague carried by a ghole automatically gains these advantages. The save DC is Constitution-based.</p>
 <p><strong>Disease (Ex)</strong></p>
-<AffInfo type="Bite or claw-injury" save="Fort 23" freq="2/day" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link>, 1 Cha damage and target is <Link to="/misc/fatigued">fatigued</Link></>} cure={<>-</>} icon="d">Bubonic Plague</AffInfo>
+<AffInfo type="Bite or claw-injury" save="Fort 23" freq="2/day" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link>, 1 Cha damage and target is <Link to="/misc/fatigued">fatigued</Link></>} cure="-" icon="d">Bubonic Plague</AffInfo>
 <p><strong>Powerful Bite (Ex)</strong> A ghole's bite attack always applies 1-1/2 times its Strength modifier to damage rolls and threatens a critical hit on a roll of 19-20. When a ghole bites an object, its bite treats the object as having a hardness of 5 less than the object's actual hardness rating.</p>
 <p><strong>Savage the Sick (Ex)</strong> Gholes are vicious when attacking a diseased foe. Against diseased targets, a ghole gains a +2 morale bonus on attack rolls and automatically adds its sneak attack damage to any damage it deals.</p>
 <p><strong>Scent Sickness (Ex)</strong> A ghole has the scent ability against diseased creatures</p>
@@ -651,7 +651,7 @@ const _ghoul_leng_ghoul = {title: "Leng Ghoul", jsx: <><p><em>This semi-canine h
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Disease (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 22" eff={<>1d4 <Link to="/rule/dex_damage">Dex damage</Link> and 1d3 Con damage</>} cure2c extra={<>The save DC is Charisma-based. A humanoid that succumbs to Leng ghoul fever becomes a normal ghoul unless in life it had 12 or more Hit Dice, in which case it rises from death as a Leng ghoul.</>} icon="d">Leng Ghoul Fever</AffInfo>
+<AffInfo type="Bite-injury" save="Fort 22" eff={<>1d4 <Link to="/rule/dex_damage">Dex damage</Link> and 1d3 Con damage</>} cure2c extra="The save DC is Charisma-based. A humanoid that succumbs to Leng ghoul fever becomes a normal ghoul unless in life it had 12 or more Hit Dice, in which case it rises from death as a Leng ghoul." icon="d">Leng Ghoul Fever</AffInfo>
 <p><strong>Erudite (Ex)</strong> All Knowledge skills are class skills for Leng ghouls. In addition, a Leng ghoul can cast spells from any magic scroll as if it had the spells on its spell list. It automatically succeeds at the caster level check necessary to use the scroll.</p>
 <p><strong>Paralysis (Ex)</strong> A successful DC 22 Fortitude save negates a Leng ghoul's paralysis. At the end of each round after the first, the victim can attempt a new DC 22 Fortitude saving throw to end the paralysis effect; the effect is otherwise permanent. Once the effect ends, the victim is staggered for 1 round.</p>
 <Header sub>Description</Header>
@@ -1276,7 +1276,7 @@ const _giant_stargazer = {title: "Giant Stargazer", jsx: <><p><em>This fish lies
 <Header sub>Special Abilities</Header>
 <p><strong>Gulp (Ex)</strong> A stargazer can open its giant mouth in a fraction of a second, creating a vortex that draws a target into its maw. When underwater, a stargazer gains 5 additional feet of reach with its bite attack and a +2 bonus on combat maneuver checks to grapple.</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Venomous spines-injury" save="Fort 15" freq="1/round for 4 rounds" eff={<><Link to="/misc/sickened">sickened</Link> for 1d4 rounds</>} cure2c extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Venomous spines-injury" save="Fort 15" freq="1/round for 4 rounds" eff={<><Link to="/misc/sickened">sickened</Link> for 1d4 rounds</>} cure2c extra="The save DC is Constitution-based." icon="p" />
 <p><strong>Shock (Ex)</strong> A stargazer delivers an electrical shock with each successful bite attack, dealing an additional 1d6 points of electricity damage.</p>
 <p><strong>Venomous Spines (Ex)</strong> A stargazer has two large venomous spines situated behind its head. The stargazer reacts swiftly to attacks, stabbing at any creature that attempts to harm it. Each time a creature attacks a stargazer with a natural weapon, unarmed strike, or weapon attack that doesn't have reach, it must succeed at a DC 16 Reflex save or be hit by one of these spines. Each time a creature is hit by a spine, it takes 1d4 points of piercing damage and is exposed to the stargazer's poison. A creature that grapples a stargazer is automatically hit by these spines. The save DC to avoid the spines is Dexterity-based.</p>
 <Header sub>Description</Header>

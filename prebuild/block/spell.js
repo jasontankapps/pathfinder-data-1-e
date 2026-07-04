@@ -1,6 +1,6 @@
 const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, logError) => {
 	const {
-		source, school,
+		id, source, school,
 		abjuration, conjuration, divination, enchantment, evocation,
 			illusion, necromancy, transmutation, universal,
 		calling, charm, compulsion, creation, figment, glamer, healing,
@@ -25,135 +25,129 @@ const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, at
 		sr, srY, srN, srHarmless, srObject,
 		harmless, object
 	} = attrs;
-	const output = [];
+	const output = [` id="${id}"`];
 	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
 	if(source) {
-		output.push(marked2.parseInline(parseSOURCE(source, true)));
+		output.push(` source="${source}"`);
 	}
 	//
 	// SCHOOL SECTION
 	//
 	if(school) {
-		output.push(doParse(`**School** ${school}`));
+		output.push(` school={<>${doParse(school)}</>}`);
 	} else {
 		let c = 0;
 		let school = "";
 		const subs = [];
 		const desc = [];
-		if(abjuration) { school = "abjuration"; c++; }
-		if(conjuration) { school = "conjuration"; c++; }
-		if(divination) { school = "divination"; c++; }
-		if(enchantment) { school = "enchantment"; c++; }
-		if(evocation) { school = "evocation"; c++; }
-		if(illusion) { school = "illusion"; c++; }
-		if(necromancy) { school = "necromancy"; c++; }
-		if(transmutation) { school = "transmutation"; c++; }
-		if(universal) { school = "universal"; c++; }
+		if(abjuration) { school = "abjur"; c++; }
+		if(conjuration) { school = "conj"; c++; }
+		if(divination) { school = "div"; c++; }
+		if(enchantment) { school = "ench"; c++; }
+		if(evocation) { school = "evo"; c++; }
+		if(illusion) { school = "ill"; c++; }
+		if(necromancy) { school = "necro"; c++; }
+		if(transmutation) { school = "trans"; c++; }
+		if(universal) { school = "uni"; c++; }
+		output.push(` school="${school}"`);
 		if(c !== 1) {
 			logError(`Found ${c} schools instead of 1`);
 		}
 
-		if(calling) { subs.push("calling"); }
+		if(calling) { subs.push("call"); }
 		if(charm) { subs.push("charm"); }
-		if(compulsion) { subs.push("compulsion"); }
-		if(creation) { subs.push("creation"); }
-		if(figment) { subs.push("figment"); }
+		if(compulsion) { subs.push("comp"); }
+		if(creation) { subs.push("creat"); }
+		if(figment) { subs.push("fig"); }
 		if(glamer) { subs.push("glamer"); }
-		if(healing) { subs.push("healing"); }
-		if(pattern) { subs.push("pattern"); }
-		if(phantasm) { subs.push("phantasm"); }
-		if(polymorph) { subs.push("polymorph"); }
-		if(scrying) { subs.push("scrying"); }
-		if(shadowSub) { subs.push("shadow>_subschool"); }
-		if(summoning) { subs.push("summoning"); }
-		if(teleportation) { subs.push("teleportation"); }
+		if(healing) { subs.push("heal"); }
+		if(pattern) { subs.push("pat"); }
+		if(phantasm) { subs.push("phan"); }
+		if(polymorph) { subs.push("poly"); }
+		if(scrying) { subs.push("scry"); }
+		if(shadowSub) { subs.push("shadow"); }
+		if(summoning) { subs.push("sum"); }
+		if(teleportation) { subs.push("tele"); }
+		subs.length > 0 && output.push(` subschools={${JSON.stringify(subs)}}`)
 
 		if(acid) { desc.push("acid"); }
 		if(air) { desc.push("air"); }
 		if(chaotic) { desc.push("chaotic"); }
 		if(cold) { desc.push("cold"); }
 		if(curse) { desc.push("curse"); }
-		if(darkness) { desc.push("darkness"); }
+		if(darkness) { desc.push("dark"); }
 		if(death) { desc.push("death"); }
-		if(disease) { desc.push("disease"); }
-		if(draconic) { desc.push("draconic"); }
+		if(disease) { desc.push("dis"); }
+		if(draconic) { desc.push("drac"); }
 		if(earth) { desc.push("earth"); }
-		if(electricity) { desc.push("electricity"); }
-		if(emotion) { desc.push("emotion"); }
+		if(electricity) { desc.push("elec"); }
+		if(emotion) { desc.push("emo"); }
 		if(evil) { desc.push("evil"); }
 		if(fear) { desc.push("fear"); }
 		if(fire) { desc.push("fire"); }
 		if(force) { desc.push("force"); }
 		if(good) { desc.push("good"); }
-		if(haunted) { desc.push("haunted"); }
-		if(languageDependent) { desc.push("language-dependent"); }
+		if(haunted) { desc.push("haunt"); }
+		if(languageDependent) { desc.push("lang"); }
 		if(lawful) { desc.push("lawful"); }
 		if(light) { desc.push("light"); }
-		if(meditative) { desc.push("meditative"); }
-		if(mindAffecting) { desc.push("mind-affecting"); }
+		if(meditative) { desc.push("medi"); }
+		if(mindAffecting) { desc.push("mind"); }
 		if(pain) { desc.push("pain"); }
-		if(poison) { desc.push("poison"); }
+		if(poison) { desc.push("poi"); }
 		if(ruse) { desc.push("ruse"); }
-		if(shadowDesc) { desc.push("shadow>_descriptor"); }
+		if(shadowDesc) { desc.push("shadow"); }
 		if(sonic) { desc.push("sonic"); }
 		if(water) { desc.push("water"); }
+		desc.length > 0 && output.push(` descriptors={${JSON.stringify(desc)}}`)
 
-		const all = [`**School** ‹spelldef/${school}›`];
-		if(subs.length) {
-			all.push(`(‹spelldef/${subs.join(`›, ‹spelldef/`)}›)`);
-		}
-		if(desc.length) {
-			all.push(`[‹spelldef/${desc.join(`›, ‹spelldef/`)}›]`);
-		}
-		output.push(doParse(all.join(" ")));
 	}
 	//
 	// LEVEL SECTION
 	//
 	const levels = [];
-	if(adp !== undefined) { levels.push("adept " + adp); }
-	if(alc !== undefined) { levels.push("alchemist " + alc); }
-	if(ant !== undefined) { levels.push("antipaladin " + ant); }
-	if(arc !== undefined) { levels.push("arcanist " + arc); }
-	if(bld !== undefined) { levels.push("bloodrager " + bld); }
-	if(brd !== undefined) { levels.push("bard " + brd); }
-	if(clr !== undefined) { levels.push("cleric " + clr); }
-	if(drd !== undefined) { levels.push("druid " + drd); }
-	if(hnt !== undefined) { levels.push("hunter " + hnt); }
-	if(inq !== undefined) { levels.push("inquisitor " + inq); }
-	if(inv !== undefined) { levels.push("investigator " + inv); }
-	if(mag !== undefined) { levels.push("magus " + mag); }
-	if(med !== undefined) { levels.push("medium " + med); }
-	if(mes !== undefined) { levels.push("mesmerist " + mes); }
-	if(occ !== undefined) { levels.push("occultist " + occ); }
-	if(orc !== undefined) { levels.push("oracle " + orc); }
-	if(pal !== undefined) { levels.push("paladin " + pal); }
-	if(psy !== undefined) { levels.push("psychic " + psy); }
-	if(rgr !== undefined) { levels.push("ranger " + rgr); }
-	if(rma !== undefined) { levels.push("red mantis assassin " + rma); }
-	if(sha !== undefined) { levels.push("shaman " + sha); }
-	if(skd !== undefined) { levels.push("skald " + skd); }
-	if(sor !== undefined) { levels.push("sorcerer " + sor); }
-	if(spr !== undefined) { levels.push("spiritualist " + spr); }
-	if(sum !== undefined) { levels.push("summoner " + sum); }
-	if(usm !== undefined) { levels.push("unchained summoner " + usm); }
-	if(war !== undefined) { levels.push("warpriest " + war); }
-	if(wit !== undefined) { levels.push("witch " + wit); }
-	if(wiz !== undefined) { levels.push("wizard " + wiz); }
+	if(adp !== undefined) { levels.push(` adp={${adp}}`); }
+	if(alc !== undefined) { levels.push(` alc={${alc}}`); }
+	if(ant !== undefined) { levels.push(` ant={${ant}}`); }
+	if(arc !== undefined) { levels.push(` arc={${arc}}`); }
+	if(bld !== undefined) { levels.push(` bld={${bld}}`); }
+	if(brd !== undefined) { levels.push(` brd={${brd}}`); }
+	if(clr !== undefined) { levels.push(` clr={${clr}}`); }
+	if(drd !== undefined) { levels.push(` drd={${drd}}`); }
+	if(hnt !== undefined) { levels.push(` hnt={${hnt}}`); }
+	if(inq !== undefined) { levels.push(` inq={${inq}}`); }
+	if(inv !== undefined) { levels.push(` inv={${inv}}`); }
+	if(mag !== undefined) { levels.push(` mag={${mag}}`); }
+	if(med !== undefined) { levels.push(` med={${med}}`); }
+	if(mes !== undefined) { levels.push(` mes={${mes}}`); }
+	if(occ !== undefined) { levels.push(` occ={${occ}}`); }
+	if(orc !== undefined) { levels.push(` orc={${orc}}`); }
+	if(pal !== undefined) { levels.push(` pal={${pal}}`); }
+	if(psy !== undefined) { levels.push(` psy={${psy}}`); }
+	if(rgr !== undefined) { levels.push(` rgr={${rgr}}`); }
+	if(rma !== undefined) { levels.push(` rma={${rma}}`); }
+	if(sha !== undefined) { levels.push(` sha={${sha}}`); }
+	if(skd !== undefined) { levels.push(` skd={${skd}}`); }
+	if(sor !== undefined) { levels.push(` sor={${sor}}`); }
+	if(spr !== undefined) { levels.push(` spr={${spr}}`); }
+	if(sum !== undefined) { levels.push(` sum={${sum}}`); }
+	if(usm !== undefined) { levels.push(` usm={${usm}}`); }
+	if(war !== undefined) { levels.push(` war={${war}}`); }
+	if(wit !== undefined) { levels.push(` wit={${wit}}`); }
+	if(wiz !== undefined) { levels.push(` wiz={${wiz}}`); }
 	if(levels.length === 0) {
-		logError(`Missing spellcasting levels`);
+		logError(`Missing spellcasting output`);
+	} else {
+		output.push(...levels);
 	}
 	if(faith) {
-		const pop = levels.pop() || "none";
-		levels.push(`${pop} (${faith}; see below)`);
+		output.push(` faith="${faith}"`);
 	}
-	const pop = output.pop() || "No school?";
-	output.push(`${pop}; <strong>Level</strong> ${levels.join(", ")}`);
 	//
 	// CASTING TIME SECTION
 	//
 	if(ct) {
-		output.push(doParse(`**Casting Time** ${ct}`));
+		output.push(` ct={<>${doParse(ct)}</>}`);
 	} else {
 		let time = "";
 		let c = 0;
@@ -167,13 +161,13 @@ const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, at
 		if(c !== 1) {
 			logError(`Found ${c} casting time notations instead of 1`);
 		}
-		output.push(`<strong>Casting Time</strong> ${time}`);
+		output.push(` ct="${time}"`);
 	}
 	//
 	// COMPONENTS SECTION
 	//
 	if(cSpecial) {
-		output.push(doParse(`**Components** ${cSpecial}`));
+		output.push(` comp={<>${doParse(cSpecial)}</>}`);
 	} else {
 		const comps = [];
 		if(cV) { comps.push("V"); }
@@ -216,53 +210,41 @@ const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, at
 		)) {
 			logError(`Found multiple components`);
 		}
-		output.push(`<strong>Components</strong> ${comps.join(", ")}`);
+		output.push(` comp={<>${comps.join(", ")}</>}`);
 	}
 	//
 	// RANGE SECTION
 	//
 	if(r) {
-		output.push(doParse(`**Range** ${r}`));
+		output.push(` r={<>${doParse(r)}</>}`);
 	} else {
-		let range = "";
-		if(rTouch) { range = "touch"; }
-		if(rPers) { range = "personal"; }
-		if(rClose) { range = "close (25 ft. + 5 ft./2 levels)"; }
-		if(rFt !== undefined) { range = `${rFt} ft.`; }
-		if(rLong) { range = "long (400 ft. + 40 ft./level)"; }
-		if(rMed) { range = "medium (100 ft. + 10 ft./level)"; }
-		if(rText) { range = "see text"; }
+		let range = false;
+		if(rTouch) { range++; output.push(" rTouch"); }
+		if(rPers) { range++; output.push(" rPers"); }
+		if(rClose) { range++; output.push(" rClose"); }
+		if(rFt !== undefined) { range = true; output.push(` rFt={${rFt}}`); }
+		if(rLong) { range++; output.push(" rLong"); }
+		if(rMed) { range++; output.push(" rMed"); }
+		if(rText) { range++; output.push(" rText"); }
 		if(!range) {
 			logError("Missing a range parameter");
-		} else {
-			output.push(`<strong>Range</strong> ${range}`);
 		}
 	}
 	//
 	// TARGET/AREA/EFFECT SECTION
 	//
-	if(target) {
-		output.push(doParse(`**Target** ${target}`));
-	} else if(targets) {
-		output.push(doParse(`**Targets** ${targets}`));
-	} else if(targetOrTargets) {
-		output.push(doParse(`**Target or Targets** ${targetOrTargets}`));
-	}
-	if(area) {
-		output.push(doParse(`**Area** ${area}`));
-	} else if(areaOrTarget) {
-		output.push(doParse(`**Area or Target** ${areaOrTarget}`));
-	} else if(targetOrArea) {
-		output.push(doParse(`**Target or Area** ${targetOrArea}`));
-	}
-	if(effect) {
-		output.push(doParse(`**Effect** ${effect}`));
-	}
+	target && output.push(` target={<>${doParse(target)}</>}`);
+	targets && output.push(` targets={<>${doParse(targets)}</>}`);
+	targetOrTargets && output.push(` targetOrTargets={<>${doParse(targetOrTargets)}</>}`);
+	area && output.push(` area={<>${doParse(area)}</>}`);
+	areaOrTarget && output.push(` areaOrTarget={<>${doParse(areaOrTarget)}</>}`);
+	targetOrArea && output.push(` targetOrArea={<>${doParse(targetOrArea)}</>}`);
+	effect && output.push(` effect={<>${doParse(effect)}</>}`);
 	//
 	// DURATION SECTION
 	//
 	if(dur) {
-		output.push(doParse(`**Duration** ${dur}`));
+		output.push(` dur={<>${doParse(dur)}</>}`);
 	} else {
 		let c = 0;
 		let dur = "";
@@ -283,7 +265,7 @@ const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, at
 		if(durD) {
 			dur += " (D)";
 		}
-		output.push(`<strong>Duration</strong> ${dur}`);
+		output.push(` dur={<>${dur}</>}`);
 	}
 	//
 	// SAVE/SR SECTION
@@ -334,12 +316,20 @@ const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, at
 	if(mods2.length > 0) {
 		resist += ` (${mods2.join(", ")})`
 	}
-	if(saving && resist) {
-		output.push(`<strong>Saving Throw</strong> ${saving}; <strong>Spell Resistance</strong> ${resist}`);
-	} else if (saving || resist) {
+	saving && output.push(` save={<>${saving}</>}`);
+	resist && output.push(` resist={<>${resist}</>}`);
+	if(!(saving && resist) && (saving || resist)) {
 		logError(`Missing ${resist ? "saving throw" : "spell resistance"} info`)
 	}
-	return `${maybeClear}<p>${output.join("<br>")}</p>`;
+	let spellinfo = `${maybeClear}<SpellInfo${output.join("")} />`;
+	let final = "";
+	let m;
+	while(m = spellinfo.match(/(^.*?)=\{<>([^<>"]+)<[/]>\}(.*$)/)) {
+		const [,pre,text,post] = m;
+		final = final + `${pre}="${text}"`;
+		spellinfo = post;
+	}
+	return final + spellinfo + "\n";
 };
 
 export default makeSpellBlock;

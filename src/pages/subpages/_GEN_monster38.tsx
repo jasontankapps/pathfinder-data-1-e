@@ -1,6 +1,5 @@
-import {IonIcon} from '@ionic/react';
 import Header from '../../components/Header';
-import Link, {ThLink} from '../../components/Link';
+import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import Defense from '../../components/monsters/Defense';
 import Info from '../../components/monsters/Info';
@@ -9,6 +8,7 @@ import SpellBlock from '../../components/monsters/SpellBlock';
 import Stats from '../../components/monsters/Stats';
 import Ecology from '../../components/monsters/Ecology';
 import AffInfo from '../../components/AfflictionInfo';
+import HauntInfo from '../../components/HauntInfo';
 const _samsaran = {title: "Samsaran", jsx: <><p><em>This serene-looking slender young man has pale blue skin and solid black eyes, and is dressed in simple robes.</em></p>
 <Header full><span>Samsaran</span><span>CR 1/2</span></Header>
 <div className="reduce">
@@ -424,7 +424,7 @@ const _shell_sentinel = {title: "Shell Sentinel", jsx: <><p><em>This mass of she
 <p><strong>Discorporate (Su)</strong> As an immediate action, a shell sentinel can relax the supernatural energies that bind together its form, causing it to seem to fall apart into a loose tangle of shells. While discorporated, a shell sentinel gains a +16 racial bonus on Disguise checks to appear as a mound of shells. Any attempt to disperse or scatter the shells immediately ends the disguise, as the shells of a stillfunctional shell sentinel cannot be easily parted from the construct's body. A shell sentinel can return to its normal shape as a swift action - if it does so in the same round it rolls initiative, it gains a +4 racial bonus on its initiative check.</p>
 <p><strong>Fragile Frame (Ex)</strong> Whenever a shell sentinel is dealt a critical hit from a bludgeoning weapon or rolls a natural 1 on a Reflex saving throw, it must succeed at a DC 12 Fortitude save to resist being forced to discorporate. For 1 round after being forced to discorporate in this way, a shell sentinel gains vulnerability to bludgeoning damage.</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Poison cloud or talon-contact" save="Fort 13" freq="1/round for 6 rounds" eff={<><Link to="/misc/staggered">staggered</Link></>} cure1 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Poison cloud or talon-contact" save="Fort 13" freq="1/round for 6 rounds" eff={<><Link to="/misc/staggered">staggered</Link></>} cure1 extra="The save DC is Constitution-based." icon="p" />
 <p><strong>Poison Cloud (Su)</strong> As a standard action, or as a free action after it hits a target with at least one attack after using pounce, a shell sentinel can exude a dense, dark cloud of poisonous ink as long as it is underwater. This ink cloud forms a 10-foot-diameter spread centered on the shell sentinel that provides total <Link to="/rule/concealment">concealment</Link>. Creatures other than shell sentinels within the ink cloud are considered to be in darkness, and are exposed to the shell sentinel's poison as well. The ink cloud persists for 2 rounds before dispersing. A shell sentinel can create a poison cloud like this no more than once per minute.</p>
 <p><strong>Sense the Masters (Su)</strong> Every shell sentinel has the ability to sense the presence and direction of its creator, others of its creator's race, and any creatures that are under its creator's magical control (although not those controlled by others of the creator's race). Most shell sentinels were created by aboleths, but the secret of their construction has been stolen and used by other aquatic races. A shell sentinel never attacks its creator, others of its creator's race, or creatures magically controlled by its creator, unless it is attacked first or its creator gives it direct orders that countermand this. A shell sentinel's locate creature spell-like ability functions only to divine the location of these creatures, and is not blocked by running water.</p>
 <p><strong>Sharpened Edges (Su)</strong> A shell sentinel's component shells are supernaturally sharp. In addition to being the source of its talons' enhanced threat range and bleed effect, these edges give the creature a dangerous defense. Each time a creature damages a shell sentinel with a natural weapon or attempts to grapple it, the creature takes 1d4 points of slashing damage; if the creature takes the maximum amount of damage from the sharpened edges, it also takes 1 point of bleed damage.</p>
@@ -520,7 +520,8 @@ const _ship_in_a_bottle = {title: "Ship in a Bottle", jsx: <><p><em>A model sail
 <p>This lost soul has never accepted the sinking of its ship in life. It uses models of ships in bottles to make up for the failure that betrayed its ship, its fellow crew members, and its captain.</p>
 <Header full><span>Bottled Shipyard</span><span>CR 7</span></Header>
 <p><strong>XP</strong> 3,600<br/>LE persistent haunt (35-ft.-radius cabin on a vessel or room near docks)<br/><strong>Caster Level</strong> 10th</p>
-<div className="sideNoteWrap startAlign"><ScrollContainer id="monster-ship_in_a_bottle--table-0"><table><tbody><tr><ThLink scope="row" rowSpan={3} to="/rule/elements_of_a_haunt"><IonIcon aria-label="Haunt" icon="/icons/ghost.svg" /></ThLink><th scope="row" colSpan={2}>Notice</th><td colSpan={3}>Perception DC 20 (to spot ethereal crew)</td></tr><tr><th id="monster-ship_in_a_bottle--haunt-hp">hp</th><td>31</td><th id="monster-ship_in_a_bottle--haunt-weak">Weaknesses</th><td colSpan={2}>tricked by Diplomacy</td></tr><tr><th id="monster-ship_in_a_bottle--haunt-trigger" colSpan={2}>Trigger</th><td headers="monster-ship_in_a_bottle--haunt-trigger">proximity</td><th id="monster-ship_in_a_bottle--haunt-reset">Reset</th><td headers="monster-ship_in_a_bottle--haunt-reset">1 day</td></tr></tbody></table></ScrollContainer></div><Header sub>Effect</Header>
+<HauntInfo start id="-haunt" notice="Perception DC 20 (to spot ethereal crew)" hp="31" weak="tricked by Diplomacy" trigger="proximity" reset="1 day" />
+<Header sub>Effect</Header>
 <p>The haunt settles in areas with enough ships in bottles to animate a small fleet. When the area of a bottled shipyard is entered, the haunt animates a ship in a bottle (using the stats above) each round for as many rounds as there are ships in bottles to animate (usually 1d6+1). Although any ship in a bottle that the haunt animates can be attacked and destroyed as a creature, only positive energy used against the constructs damages the haunt.</p>
 <Header sub>Destruction</Header>
 <p>A model ship animated by the haunt but not destroyed must be caught, brought to a large body of water, and released to sail the seas.</p>

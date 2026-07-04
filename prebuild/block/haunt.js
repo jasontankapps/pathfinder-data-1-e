@@ -3,36 +3,20 @@ const makeHauntBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, tex
 		notice, hp, weak, trigger, reset,
 		start
 	} = attrs;
-	let rows = 0;
 	//
 	// START CODE
 	//
 	const output = [
-		`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
-		`<table><tbody>`
+		`${maybeClear}<HauntInfo${start ? " start" : ""} id="${id}"`
 	];
-	//
-	// ADD A TITLE LINE IF NEEDED
-	//
-	if(text) {
-		rows++;
-		output.push(
-			"<tr>",
-			`<th colSpan={5} scope="col" className="title">${text}</th>`,
-			"</tr>"
-		);
-	}
 	//
 	// CREATE NOTICE LINE
 	//
 	if(!notice) {
 		logError("---> missing haunt notice DC");
 	} else {
-		rows++;
 		output.push(
-			"<tr>",
-			`<th scope="row" colSpan={2}>Notice</th><td colSpan={3}>${notice}</td>`,
-			"</tr>"
+			` notice=${JSON.stringify(notice)}`
 		);
 	}
 	//
@@ -40,47 +24,32 @@ const makeHauntBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, tex
 	//
 	if(!hp) {
 		logError("---> missing haunt hp");
-	} else if (weak) {
-		rows++;
-		output.push(
-			"<tr>",
-			`<th id="${id}-hp">hp</th><td>${hp}</td>`,
-			`<th id="${id}-weak">Weaknesses</th><td colSpan={2}>${marked2.parseInline(convertEncodedInfo(weak))}</td>`,
-			"</tr>"
-		);
-	} else {
-		rows++;
-		output.push(
-			"<tr>",
-			`<th scope="row">hp</th><td colSpan={4}>${hp}</td>`,
-			"</tr>"
-		);
 	}
+	hp && output.push(` hp="${hp}"`);
+	weak && output.push(` weak={<>${marked2.parseInline(convertEncodedInfo(weak))}</>}`);
 	//
 	// CREATE TRIGGER AND RESET
 	//
-	rows++;
 	output.push(
-		"<tr>",
-		`<th id="${id}-trigger" colSpan={2}>Trigger</th>`,
-		`<td headers="${id}-trigger">${trigger}</td>`,
-		`<th id="${id}-reset">Reset</th>`,
-		`<td headers="${id}-reset">${reset}</td>`,
-		"</tr>"
+		` trigger="${trigger}" reset="${reset}"`
 	);
 	//
-	// ADD HAUNT ICON
+	// ADD A TITLE LINE IF NEEDED
 	//
-	flags.icon = true;
-	flags.thlink = true;
-	output.splice(3, 0, `<ThLink scope="row" rowSpan={${rows}} to="/rule/elements_of_a_haunt"><IonIcon aria-label="Haunt" icon="/icons/ghost.svg" /></ThLink>`)
-	//
-	// END CODE BLOCK
-	//
-	output.push(
-		`</tbody></table></div>`
-	);
-	return output.join("");
+	if(text) {
+		output.push(`>${text}</TrapInfo>`);
+	} else {
+		output.push(" />");
+	}
+	let potential = output.join("");
+	let final = "";
+	let m;
+	while(m = potential.match(/(^.*?)=\{<>([^<>"]+)<[/]>\}(.*$)/)) {
+		const [,pre,text,post] = m;
+		final = final + `${pre}="${text}"`;
+		potential = post;
+	}
+	return final + potential + "\n";
 };
 
 export default makeHauntBlock;

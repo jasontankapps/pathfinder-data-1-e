@@ -769,7 +769,7 @@ const _fleshwarp_drider = {title: "Drider (Fleshwarp)", jsx: <><p><em>The dry ra
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 18" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure1 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 18" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure1 extra="The save DC is Constitution-based." icon="p" />
 <p><strong>Spells (Sp)</strong> A drider casts spells as a 6th-level cleric, sorcerer, or wizard, but does not gain any other class abilities.</p>
 <p><strong>Undersized Weapons (Ex)</strong> Although a drider is Large, its upper torso is the same size as that of a Medium humanoid's upper torso. As a result, it wields weapons as if it were one size category smaller than its actual size (Medium for most driders).</p>
 <Header sub>Description</Header>
@@ -942,7 +942,7 @@ const _formian_formian_myrmarch = {title: "Formian Myrmarch", jsx: <><p><em>This
 <Header sub>Special Abilities</Header>
 <p><strong>Inspire Hive (Su)</strong> Once per day, a myrmarch can affect all warriors and workers in its telepathic range as if they were under the effect of a greater heroism spell (CL 12th).</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Javelin or sting-injury" save="Fort 21" freq="1/round for 6 rounds" eff={<><Link to="/misc/sickened">sickened</Link></>} cure2 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Javelin or sting-injury" save="Fort 21" freq="1/round for 6 rounds" eff={<><Link to="/misc/sickened">sickened</Link></>} cure2 extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>Myrmarchs are an elite caste of the formian race. They serve as direct agents for the queen, acting as advisors and generals, or administrating tasks where complexity or propriety renders taskmasters unsuitable. It is myrmarchs who answer the call when a particularly skilled diplomat or emissary is required to carry the queen's words outside of the territory of the hive to the dangerously disorganized races.</p>
 <p>While myrmarchs make up the aristocracy of formian society, this does not make them pampered intellectuals and bureaucrats. On the contrary, they are even more deadly than the warriors they often command, and do not hesitate to use their considerable might to aid and protect their kin. Myrmarchs facing combat apply their natural poison to their javelins, making them even more lethal.</p>

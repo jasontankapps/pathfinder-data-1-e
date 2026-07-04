@@ -255,7 +255,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"start", "clear"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
-				const id = prefix + makeValidID(text + "-trap");
+				const id = makeValidID(text + "-trap");
+				flags.trap = true;
 				return makeTrapBlock({marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError});
 			} else if (n === "haunt") {
 				// Haunt
@@ -264,12 +265,13 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"start", "clear"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
-				const id = prefix + makeValidID(text + "-haunt");
+				const id = makeValidID(text + "-haunt");
+				flags.haunt = true;
 				return makeHauntBlock({marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError});
 			} else if (n === "spell") {
 				// Spell
 				churn(n, attrs, [
-					"clear", "source",
+					"clear", "id", "source",
 					"school", "enchantment", "compulsion", "mindAffecting", "abjuration", "force",
 					"conjuration", "creation", "acid", "air", "calling", "chaotic", "charm", "cold",
 					"curse", "darkness", "death", "disease", "divination", "draconic", "earth",
@@ -296,6 +298,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"harmless", "object"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
+				flags.spellinfo = true;
 				return makeSpellBlock(marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "spelldeitynote") {
 				const marked2 = makeNewMarkedInstance();

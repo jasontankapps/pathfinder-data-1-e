@@ -8,7 +8,6 @@ import {
 	chevronExpand, closeCircle, save
 } from 'ionicons/icons';
 import {
-	IonAlert,
 	IonButton,
 	IonButtons,
 	IonContent,
@@ -213,7 +212,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 				}
 			]
 		});
-	}, [doAlert, dispatch, id, listElement]);
+	}, [doAlert, dispatch, id, listElement, getPageName]);
 
 	const handleReorder = (event: CustomEvent<ItemReorderEventDetail>) => {
 		const {to, from, complete} = event.detail;

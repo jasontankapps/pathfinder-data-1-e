@@ -1,7 +1,8 @@
+import { IonIcon } from '@ionic/react';
 import { PropsWithChildren, FC, useContext, ReactNode } from 'react';
 import { IdContext } from './contexts';
 import Link, { ThLink } from './Link';
-import { IonIcon } from '@ionic/react';
+import ScrollContainer from './ScrollContainer';
 
 interface DrugInfoProps {
 	start?: boolean
@@ -43,7 +44,7 @@ export const DrugInfo: FC<PropsWithChildren<DrugInfoProps>> = (props) => {
 	const rows = 3 + (eff1 ? 1 : 0) + (eff2 ? 1 : 0) + (children ? 1 : 0);
 	const icon = <ThLink scope="row" rowSpan={rows} to="/rule/drugs"><IonIcon aria-label="Drug" icon="/icons/syringe.svg" /></ThLink>;
 	return (
-		<div className={"sideNoteWrap" + (start ? " startAlign" : "")}>
+		<div className={"sideNoteWrap" + (start ? " startAlign" : "")}><ScrollContainer id={id + "-drug-scrollwrap"}>
 			<table><tbody>
 				{children ? <tr>{icon}<th colSpan={4} scope="col" className="title">{children}</th></tr> : ""}
 				<tr>{children ? "" : icon}<th id={id + "type"}>Type</th><td headers={id + "type"}>{type}</td><th id={id + "addict"}>Addiction</th><td headers={id + "addict"}>{addict}, Fortitude DC {dc}</td></tr>
@@ -52,7 +53,7 @@ export const DrugInfo: FC<PropsWithChildren<DrugInfoProps>> = (props) => {
 				{ eff2 ? <tr><th scope="row">Effect</th><td colSpan={3}>{eff2}</td></tr> : ""}
 				<tr><th scope="row"><Link to="/rule/ability_damage">Damage</Link></th><td colSpan={3}>{damageLine}</td></tr>
 			</tbody></table>
-		</div>
+		</ScrollContainer></div>
 	);
 };
 

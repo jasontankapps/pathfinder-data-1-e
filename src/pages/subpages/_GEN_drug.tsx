@@ -19,7 +19,7 @@ const _morgod_jelly = {title: "Morgod Jelly", jsx: <><h2 id="drug-morgod_jelly-m
 <p><strong>Sources</strong> <Link to="/source/pathfinder_99_dance_of_the_damned">Pathfinder #99: Dance of the Damned pg. 86</Link></p>
 <DrugInfo start addict="special (see below)" dc={15} gp={10} type="Ingested or injury" eff1={<>1 hour; +1d2 Cha and all creatures are considered to have <Link to="/rule/concealment">concealment</Link> against the user</>} dmg={["1d2 Wis","1d2 Cha"]} />
 <p>Morgod jelly causes vivid hallucinations and a sense of euphoria, and proves remarkably addictive to most humanoids. <Link to="/monster/morgodea">Morgodeas</Link> not only coat their stingers in this jelly, but also collect it in vials or wax-covered paper to sell to victims once they become addicted.</p>
-<AffInfo start type="Disease; variable" save="Will 15" freq="1/day" onset="1 day" eff={<>-2 penalty to Wis and Cha, target cannot naturally heal ability damage caused by morgod jelly</>} cure3c icon="d">Morgod Addiction</AffInfo>
+<AffInfo start type="Disease; variable" save="Will 15" freq="1/day" onset="1 day" eff="-2 penalty to Wis and Cha, target cannot naturally heal ability damage caused by morgod jelly" cure3c icon="d">Morgod Addiction</AffInfo>
 </>};
 const _magesight = {title: "Magesight", jsx: <><h2 id="drug-magesight-magesight">Magesight</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 27</Link></p>
@@ -28,30 +28,30 @@ const _magesight = {title: "Magesight", jsx: <><h2 id="drug-magesight-magesight"
 </>};
 const _muscaria = {title: "Muscaria", jsx: <><h2 id="drug-muscaria-muscaria">Muscaria</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_110_the_thrushmoor_terror">Pathfinder #110: The Thrushmoor Terror pg. 14</Link></p>
-<DrugInfo start addict="minor" dc={14} gp={15} type="ingested" eff1={<>3 hours; +1d6 alchemical bonus on a single Knowledge (any one), Perception, or Sense Motive check once per minute for the duration of the effect Onset 30 minutes</>} dmg={["1d4 Cha"]} />
+<DrugInfo start addict="minor" dc={14} gp={15} type="ingested" eff1="3 hours; +1d6 alchemical bonus on a single Knowledge (any one), Perception, or Sense Motive check once per minute for the duration of the effect Onset 30 minutes" dmg={["1d4 Cha"]} />
 <p>These small mushrooms, grown in dark forests, have red caps dotted with white spots. Able to induce strong hallucinogenic states, they have long been used by shamans and other spiritual leaders to enter trances to seek flashes of insight.</p>
 </>};
 const _pesh = {title: "Pesh", jsx: <><h2 id="drug-pesh-pesh">Pesh</h2>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 237</Link></p>
-<DrugInfo start addict="moderate" dc={20} gp={15} type="Ingested or inhaled" eff1={<>1 hour; +1d2 alchemical bonus to Strength, -2 penalty on saves against illusions and mind-affecting effects</>} eff2={<>after 1 hour; 1d2 hours of <Link to="/misc/fatigue">fatigue</Link></>} dmg={["1d2 Con","1d2 Wis"]} />
+<DrugInfo start addict="moderate" dc={20} gp={15} type="Ingested or inhaled" eff1="1 hour; +1d2 alchemical bonus to Strength, -2 penalty on saves against illusions and mind-affecting effects" eff2={<>after 1 hour; 1d2 hours of <Link to="/misc/fatigue">fatigue</Link></>} dmg={["1d2 Con","1d2 Wis"]} />
 </>};
 const _vigilance = {title: "Vigilance", jsx: <><h2 id="drug-vigilance-vigilance">Vigilance</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 27</Link></p>
-<DrugInfo start addict="moderate" dc={20} gp={15} type="ingested" eff1={<>1d3 hours; +10 alchemical bonus on Perception checks</>} eff2={<>4 hours; user is denied his Dexterity bonus to AC</>} dmg={["1d4 Con"]} />
+<DrugInfo start addict="moderate" dc={20} gp={15} type="ingested" eff1="1d3 hours; +10 alchemical bonus on Perception checks" eff2="4 hours; user is denied his Dexterity bonus to AC" dmg={["1d4 Con"]} />
 <p>Scholars and students are often willing to accept the clumsiness and slow reactions in exchange for the benefits gained in research and study from this bitter white powder.</p>
 </>};
 const _aether = {title: "Aether", jsx: <><h2 id="drug-aether-aether">Aether</h2>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 237</Link></p>
-<DrugInfo start addict="moderate" dc={16} gp={20} type="inhaled" eff1={<>1 hour; +1 caster level</>} eff2={<>1d4 hours; user must make a caster check to cast spells, DC 15 + spell level</>} dmg={["1d2 Con"]} />
+<DrugInfo start addict="moderate" dc={16} gp={20} type="inhaled" eff1="1 hour; +1 caster level" eff2="1d4 hours; user must make a caster check to cast spells, DC 15 + spell level" dmg={["1d2 Con"]} />
 </>};
 const _gossamer_veil = {title: "Gossamer Veil", jsx: <><h2 id="drug-gossamer_veil-gossamer-veil">Gossamer Veil</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 26</Link></p>
-<DrugInfo start addict="minor" dc={18} gp={20} type="ingested" eff1={<>1 day; +4 alchemical bonus on saving throws against disease effects</>} eff2={<>after 1 day; -4 penalty on saving throws against disease effects for 7 days</>} dmg={["1d4 Wis"]} />
+<DrugInfo start addict="minor" dc={18} gp={20} type="ingested" eff1="1 day; +4 alchemical bonus on saving throws against disease effects" eff2="after 1 day; -4 penalty on saving throws against disease effects for 7 days" dmg={["1d4 Wis"]} />
 <p>Cultists of <Link to="/faith/ghlaunder">Ghlaunder</Link> and similar manipulators wander the streets of impoverished neighborhoods, administering this "vaccine" to prevent diseases common in squalid conditions, often with an admonition that it remains effective only as long as the recipient maintains faith in the priest's deity.</p>
 </>};
 const _slavers_drops = {title: "Slaver's Drops", jsx: <><h2 id="drug-slavers_drops-slavers-drops">Slaver's Drops</h2>
 <p><strong>Sources</strong> <Link to="/source/rival_guide">Rival Guide pg. 53</Link></p>
-<DrugInfo start addict="minor" dc={13} gp={20} type="ingested" eff1={<>3 hours; -3 on Will saves, +3 on Perception checks</>} dmg={["1d2 Str"]} />
+<DrugInfo start addict="minor" dc={13} gp={20} type="ingested" eff1="3 hours; -3 on Will saves, +3 on Perception checks" dmg={["1d2 Str"]} />
 <p>Dropped into the eyes, this clear liquid awakens the senses but makes the user mentally pliant and open to suggestion. This drug is often used during interrogations or by slavers who seek to force compliance via enchantment effects or similar methods of mind-control.</p>
 </>};
 const _bloodbrush_extract = {title: "Bloodbrush Extract", jsx: <><h2 id="drug-bloodbrush_extract-bloodbrush-extract">Bloodbrush Extract</h2>
@@ -65,49 +65,49 @@ const _opium = {title: "Opium", jsx: <><h2 id="drug-opium-opium">Opium</h2>
 </>};
 const _tears_of_razmir = {title: "Tears of Razmir", jsx: <><h2 id="drug-tears_of_razmir-tears-of-razmir">Tears of Razmir</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 293</Link></p>
-<DrugInfo start addict="severe" dc={18} gp={25} type="ingested" eff1={<>1 hour; +1 alchemical bonus to Constitution, -2 penalty on Wisdom-based skill checks</>} dmg={["1d2 Con"]} />
+<DrugInfo start addict="severe" dc={18} gp={25} type="ingested" eff1="1 hour; +1 alchemical bonus to Constitution, -2 penalty on Wisdom-based skill checks" dmg={["1d2 Con"]} />
 <p>Razmir's faithful utilize a number of tools to help them control the populace, but few are more insidious than the tears of Razmir. This alchemical concoction contains mild narcotics and hallucinogens that bolster the user's energy and resistance to pain. It is also highly addictive. Although the clergy gives away tears of Razmir to non-users, it eventually demands payment - as much as 10 gp per dose from wealthy addicts.</p>
 </>};
 const _scour = {title: "Scour", jsx: <><h2 id="drug-scour-scour">Scour</h2>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 237</Link></p>
-<DrugInfo start addict="severe" dc={24} gp={45} type="Ingested or inhaled" eff1={<>3 hours; +1d4 alchemical bonus to Dexterity, -1d4 penalty to Wisdom</>} dmg={["1d6 Con"]} />
+<DrugInfo start addict="severe" dc={24} gp={45} type="Ingested or inhaled" eff1="3 hours; +1d4 alchemical bonus to Dexterity, -1d4 penalty to Wisdom" dmg={["1d6 Con"]} />
 </>};
 const _stings_savor = {title: "Sting's Savor", jsx: <><h2 id="drug-stings_savor-stings-savor">Sting's Savor</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 27</Link></p>
-<DrugInfo start addict="minor" dc={15} gp={45} type="injury" eff1={<>user immediately heals 1d8+2 points of nonlethal damage</>} eff2={<>1d4 hours; an opponent who attempts a Bluff check to fool the user or a Diplomacy check to change the user's attitude can roll twice and take the better result</>} dmg={["1d2 Wis"]} />
+<DrugInfo start addict="minor" dc={15} gp={45} type="injury" eff1="user immediately heals 1d8+2 points of nonlethal damage" eff2="1d4 hours; an opponent who attempts a Bluff check to fool the user or a Diplomacy check to change the user's attitude can roll twice and take the better result" dmg={["1d2 Wis"]} />
 <p>The "sting" administered to willing recipients at some <Link to="/faith/calistria">Calistrian</Link> temples helps nervous visitors relax. Black-market alchemists have reverse-engineered the drug to meet demand from less savory individuals who appreciate the pliability it elicits in users.</p>
 </>};
 const _dwarven_fire_ale = {title: "Dwarven Fire Ale", jsx: <><h2 id="drug-dwarven_fire_ale-dwarven-fire-ale">Dwarven Fire Ale</h2>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 237</Link></p>
-<DrugInfo start addict="moderate" dc={20} gp={50} type="ingested" eff1={<>1d4 rounds; <Link to="/spell/rage">rage</Link> as per the spell</>} eff2={<>1 hour; cold resistance 5</>} dmg={["1d2 Con"]} />
+<DrugInfo start addict="moderate" dc={20} gp={50} type="ingested" eff1={<>1d4 rounds; <Link to="/spell/rage">rage</Link> as per the spell</>} eff2="1 hour; cold resistance 5" dmg={["1d2 Con"]} />
 </>};
 const _serpents_kiss = {title: "Serpent's Kiss", jsx: <><h2 id="drug-serpents_kiss-serpents-kiss">Serpent's Kiss</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 27</Link></p>
-<DrugInfo start addict="moderate" dc={18} gp={50} type="ingested" eff1={<>1 hour; +2 alchemical bonus on Bluff, Diplomacy, and Intimidate checks</>} eff2={<>after 1 hour; the user gains the <Link to="/misc/fatigued">fatigued</Link> condition for 1d4 hours</>} dmg={["1d4 Dex"]} />
+<DrugInfo start addict="moderate" dc={18} gp={50} type="ingested" eff1="1 hour; +2 alchemical bonus on Bluff, Diplomacy, and Intimidate checks" eff2={<>after 1 hour; the user gains the <Link to="/misc/fatigued">fatigued</Link> condition for 1d4 hours</>} dmg={["1d4 Dex"]} />
 <p>Relied upon by politicians and shy noble scions, this emerald syrup boosts the user's confidence, allowing her to navigate social situations with aplomb, though the tremor it imparts to her hands can cause an unseemly clatter of cutlery or stemware.</p>
 </>};
 const _zerk = {title: "Zerk", jsx: <><h2 id="drug-zerk-zerk">Zerk</h2>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 237</Link></p>
-<DrugInfo start addict="minor" dc={18} gp={50} type="injury" eff1={<>1 hour; +1 alchemical bonus to initiative. If addicted, the user also gains a +1d4 alchemical bonus to Strength for as long as he is addicted</>} dmg={["1d2 Con"]} />
+<DrugInfo start addict="minor" dc={18} gp={50} type="injury" eff1="1 hour; +1 alchemical bonus to initiative. If addicted, the user also gains a +1d4 alchemical bonus to Strength for as long as he is addicted" dmg={["1d2 Con"]} />
 </>};
 const _ruk_tar = {title: "Ruk Tar", jsx: <><h2 id="drug-ruk_tar-ruk-tar">Ruk Tar</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 27</Link></p>
-<DrugInfo start addict="moderate" dc={25} gp={55} type="injury" eff1={<>1 hour; +2 alchemical bonus to Strength and immunity to pain effects</>} eff2={<>after 1 hour; the user gains the <Link to="/misc/exhausted">exhausted</Link> condition</>} dmg={["1d4 Int"]} />
+<DrugInfo start addict="moderate" dc={25} gp={55} type="injury" eff1="1 hour; +2 alchemical bonus to Strength and immunity to pain effects" eff2={<>after 1 hour; the user gains the <Link to="/misc/exhausted">exhausted</Link> condition</>} dmg={["1d4 Int"]} />
 <p>Common among desperate adventurers, gladiatorial combatants, and orc tribes, ruk tar is often applied after the first blood of a fight is spilled, using the wound as an opportunity to enhance the user's abilities to ensure victory.</p>
 </>};
 const _harlot_sweets = {title: "Harlot Sweets", jsx: <><h2 id="drug-harlot_sweets-harlot-sweets">Harlot Sweets</h2>
 <p><strong>Sources</strong> <Link to="/source/rival_guide">Rival Guide pg. 53</Link></p>
-<DrugInfo start addict="moderate" dc={18} gp={60} type="ingested" eff1={<>1 hour; +1d4 Cha and +1 Dex damage</>} dmg={["1d2 Int"]} />
+<DrugInfo start addict="moderate" dc={18} gp={60} type="ingested" eff1="1 hour; +1d4 Cha and +1 Dex damage" dmg={["1d2 Int"]} />
 <p>These amber-colored lozenges instill within the user a slightly increased agility and enhance both physical beauty and speech. So named for the fact that prostitutes often abuse the drug, harlot sweets are gaining popularity among certain circles in the aristocracy as well.</p>
 </>};
 const _inspiration_dust = {title: "Inspiration Dust", jsx: <><h2 id="drug-inspiration_dust-inspiration-dust">Inspiration Dust</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 26</Link></p>
-<DrugInfo start addict="moderate" dc={22} gp={75} type="inhaled" eff1={<>4 hours; +1d4 alchemical bonus on Knowledge, Linguistics, and Spellcraft checks</>} eff2={<>after 4 hours; for 24 hours, the user takes a -4 penalty on <Link to="/skill/sense_motive">Sense Motive</Link> checks and assumes everything heard is a lie, but she can attempt a DC 20 Sense Motive check to determine if someone is telling the truth</>} dmg={["1d4 Wis"]} />
+<DrugInfo start addict="moderate" dc={22} gp={75} type="inhaled" eff1="4 hours; +1d4 alchemical bonus on Knowledge, Linguistics, and Spellcraft checks" eff2={<>after 4 hours; for 24 hours, the user takes a -4 penalty on <Link to="/skill/sense_motive">Sense Motive</Link> checks and assumes everything heard is a lie, but she can attempt a DC 20 Sense Motive check to determine if someone is telling the truth</>} dmg={["1d4 Wis"]} />
 <p>The mind-opening properties of this translucent dust enable the user to process information and draw connections rapidly, though the accompanying paranoia can make it difficult to act effectively on the knowledge thus gleaned.</p>
 </>};
 const _fireskin_elixir = {title: "Fireskin elixir", jsx: <><h2 id="drug-fireskin_elixir-fireskin-elixir">Fireskin elixir</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements pg. 27</Link></p>
-<DrugInfo start addict="severe" dc={20} gp={100} type="ingested" eff1={<>1 day; +10 alchemical bonus on Disguise checks to appear as an efreeti, -1 penalty on all saves</>} dmg={["1d2 Wis"]} />
+<DrugInfo start addict="severe" dc={20} gp={100} type="ingested" eff1="1 day; +10 alchemical bonus on Disguise checks to appear as an efreeti, -1 penalty on all saves" dmg={["1d2 Wis"]} />
 <p>This elixir turns its imbiber fiery red, making it easier to pass as an <Link to="/monster/efreeti">efreeti</Link>. Unscrupulous efreet can sell <Link to="/eq-misc/fireskin_elixir">fireskin elixir</Link> to guests who have been barred from citizen-only districts and must rely on disguises. Fireskin is highly addictive. Many once-savvy merchants have fallen into destitution as they scrambled to maintain efreet favor and secure a steady supply of the drug.</p>
 </>};
 const _oblivion = {title: "Oblivion", jsx: <><h2 id="drug-oblivion-oblivion">Oblivion</h2>
@@ -127,12 +127,12 @@ const _blood_sap = {title: "Blood Sap", jsx: <><h2 id="drug-blood_sap-blood-sap"
 </>};
 const _synthetic_mumia = {title: "Synthetic mumia", jsx: <><h2 id="drug-synthetic_mumia-synthetic-mumia">Synthetic mumia</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 9</Link></p>
-<DrugInfo start addict="moderate" dc={14} gp={150} type="Ingested or injury" eff1={<>1 hour; +2 alchemical bonus on saving throws against spells and effects with the curse or disease descriptor, fatigue</>} dmg={["1d2 Wis"]} />
+<DrugInfo start addict="moderate" dc={14} gp={150} type="Ingested or injury" eff1="1 hour; +2 alchemical bonus on saving throws against spells and effects with the curse or disease descriptor, fatigue" dmg={["1d2 Wis"]} />
 <p>A laboratory-created version of the expensive and infamous Osirian drug <Link to="/drug/mumia">mumia</Link>, <Link to="/eq-misc/synthetic_mumia">synthetic mumia</Link> is a mixture of honey, embalming fluids, and various animal organs. The murky liquid comes enclosed in small packets made of intestine. Mumia and synthetic mumia may be taken interchangeably to stave off the effects of addiction to either substance, and is thus used by some mumia junkies hoping to quit their addiction.</p>
 </>};
 const _hush = {title: "Hush", jsx: <><h2 id="drug-hush-hush">Hush</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 26</Link></p>
-<DrugInfo start addict="moderate" dc={20} gp={200} type="ingested" eff1={<>1d6 hours; the user gains sonic resistance 5, but must roll twice and take the worse result for Perception checks based on sound and increases her arcane spell failure chance by 5%</>} dmg={["1d4 Wis"]} />
+<DrugInfo start addict="moderate" dc={20} gp={200} type="ingested" eff1="1d6 hours; the user gains sonic resistance 5, but must roll twice and take the worse result for Perception checks based on sound and increases her arcane spell failure chance by 5%" dmg={["1d4 Wis"]} />
 <p>This slate-gray powder is often mixed into alcohol and consumed by those working in the noisy testing ranges at Alkenstar's Gunworks. Its similarity in appearance to gunpowder has led to more than a few fatal mishaps.</p>
 </>};
 const _starspore = {title: "Starspore", jsx: <><h2 id="drug-starspore-starspore">Starspore</h2>
@@ -142,7 +142,7 @@ const _starspore = {title: "Starspore", jsx: <><h2 id="drug-starspore-starspore"
 </>};
 const _elven_absinthe = {title: "Elven Absinthe", jsx: <><h2 id="drug-elven_absinthe-elven-absinthe">Elven Absinthe</h2>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 237</Link></p>
-<DrugInfo start addict="moderate" dc={16} gp={500} type="ingested" eff1={<>1 hour; +1d4 Cha damage</>} dmg={["1d4 Con"]} />
+<DrugInfo start addict="moderate" dc={16} gp={500} type="ingested" eff1="1 hour; +1d4 Cha damage" dmg={["1d4 Con"]} />
 </>};
 const _mumia = {title: "Mumia", jsx: <><h2 id="drug-mumia-mumia">Mumia</h2>
 <p><strong>Sources</strong> <Link to="/source/lost_kingdoms">Lost Kingdoms pg. 22</Link></p>
@@ -154,7 +154,7 @@ const _mumia = {title: "Mumia", jsx: <><h2 id="drug-mumia-mumia">Mumia</h2>
 </>};
 const _numerian_fluids = {hasJL:true,title: "Numerian Fluids", jsx: <><div className="jumpList" id="drug-numerian_fluids-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="drug-numerian_fluids-numerian-fluids-side-effects">Numerian Fluids Side Effects</InnerLink></li></ul></div><h2 id="drug-numerian_fluids-numerian-fluids">Numerian Fluids</h2>
 <p><strong>Sources</strong> <Link to="/source/numeria_land_of_fallen_stars">Numeria, Land of Fallen Stars pg. 28</Link></p>
-<DrugInfo start addict="minor" dc={20} gp={500} type="ingested" eff1={<>1d4 hours; +1d4 <Link to="/rule/wis_damage">Wis damage</Link>, roll on the <em>Numerian Fluids Side Effects</em> table</>} eff2={<>after the initial 1d4 hours; -5 penalty to Perception and Sense Motive checks, -2 penalty on saving throws against mind-affecting effects for 2d4 hours</>} dmg={["1d2 Con"]} />
+<DrugInfo start addict="minor" dc={20} gp={500} type="ingested" eff1={<>1d4 hours; +1d4 <Link to="/rule/wis_damage">Wis damage</Link>, roll on the <em>Numerian Fluids Side Effects</em> table</>} eff2="after the initial 1d4 hours; -5 penalty to Perception and Sense Motive checks, -2 penalty on saving throws against mind-affecting effects for 2d4 hours" dmg={["1d2 Con"]} />
 <p>Over the centuries, strange fluids have seeped from the wreckage of Silver Mount and other crash sites. Engine fluid, coolant, hydraulic fluids, and stranger substances have mixed together, the chemicals further transformed by the strange radiations of the ship's drives. Fluids can be found in pools or springs, or collected as they drip from larger pieces of wreckage. Odd behavior in animal life or an abundance of mutations can indicate a nearby source of alien fluids. While many such fluids are no more magical or marvelous than crude oil - and often highly poisonous to humanoids - others have strange and sometimes desirable effects on biological life.</p>
 <p>The elite of Numeria cultivate a taste for these latter fluids, ostensibly for the insights and pleasant fugues induced by some of the chemicals. Indeed, repeated exposure to such fluids leads first to addiction, then to dependency. Yet beyond these prosaic effects, the fluids of Numeria unleash change: alterations in mind and body both terrible and wonderful.</p>
 <p>Numerian fluids are considered drugs. Initially, the fluids expand perception and insight, opening the mind to new sensations. This overstimulation gives way to mental fatigue, leaving the imbiber distracted and vulnerable to suggestion. A pleasant euphoria lasts as long as the drug's effects. Unlike most drugs, the effects of Numerian fluids can be negated with a successful DC 20 Fortitude saving throw. Success at this saving throw precludes the need to save against addiction, but also prevents the dose from countering the effects of addiction. A person partaking of Numerian fluids can open his mind and body to the fluid's effects, voluntarily forgoing a Fortitude save. Of course, this also entails accepting the risk of addiction and any side effects from the specific type of fluids consumed.</p>
@@ -319,11 +319,11 @@ const _numerian_fluids = {hasJL:true,title: "Numerian Fluids", jsx: <><div class
 </>};
 const _shiver = {title: "Shiver", jsx: <><h2 id="drug-shiver-shiver">Shiver</h2>
 <p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 237</Link></p>
-<DrugInfo start addict="severe" dc={18} gp={500} type="Injury or ingested" eff1={<>variable; 50% chance to sleep for 1d4 hours or gain immunity to fear for 1d4 minutes</>} dmg={["1d2 Con"]} />
+<DrugInfo start addict="severe" dc={18} gp={500} type="Injury or ingested" eff1="variable; 50% chance to sleep for 1d4 hours or gain immunity to fear for 1d4 minutes" dmg={["1d2 Con"]} />
 </>};
 const _wyrm_pesh = {title: "Wyrm pesh", jsx: <><h2 id="drug-wyrm_pesh-wyrm-pesh">Wyrm pesh</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 19</Link></p>
-<DrugInfo start addict="severe" dc={24} gp={500} type="Ingested or inhaled" eff1={<>1 hour; 25 temporary hit points</>} eff2={<>1 day; +2 alchemical bonus on saves against sleep and paralysis effects</>} dmg={["1d2 Wis"]} />
+<DrugInfo start addict="severe" dc={24} gp={500} type="Ingested or inhaled" eff1="1 hour; 25 temporary hit points" eff2="1 day; +2 alchemical bonus on saves against sleep and paralysis effects" dmg={["1d2 Wis"]} />
 <p>This rare and expensive <Link to="/eq-misc/wyrm_pesh">variant</Link> of standard Garundi <Link to="/drug/pesh">pesh</Link> is produced by introducing a vial of dragon's blood into a dose of pesh during the refining process, and has a noticeable reddish tint. While the drug provides a more potent high and fewer immediate penalties, it is highly addictive, and unless a user has a steady supply of dragon's blood, the cost to her well-being can be severe.</p>
 </>};
 const _esoterum = {title: "Esoterum", jsx: <><h2 id="drug-esoterum-esoterum">Esoterum</h2>
@@ -343,12 +343,12 @@ const _adyton = {title: "Adyton", jsx: <><h2 id="drug-adyton-adyton">Adyton</h2>
 </>};
 const _felwil = {title: "Felwil", jsx: <><h2 id="drug-felwil-felwil">Felwil</h2>
 <p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion pg. 21</Link></p>
-<DrugInfo start addict="minor" dc={13} gp={20} type="inhaled" eff1={<>1 hour; +1d2 alchemical bonus to Charisma, -2 penalty on saves against illusions</>} eff2={<>after 1 hour; 75% chance to become <Link to="/misc/sickened">sickened</Link> for 1d4 hours</>} dmg={["1d2 Wis"]} />
+<DrugInfo start addict="minor" dc={13} gp={20} type="inhaled" eff1="1 hour; +1d2 alchemical bonus to Charisma, -2 penalty on saves against illusions" eff2={<>after 1 hour; 75% chance to become <Link to="/misc/sickened">sickened</Link> for 1d4 hours</>} dmg={["1d2 Wis"]} />
 <p>The gnome prima donnas of Wispil in Taldor are thought to be the inventors of this mild, dizzying powder, but its use has spread throughout much of southern Avistan. Once taken, this sparkling, honeydew-colored inhalant gives the user a euphoric sensation that can quickly become overwhelming and even sickening. While the long-term effects are relatively minor, few except the hardy care to risk stomaching this toxin.</p>
 </>};
 const _silvertongue = {title: "Silvertongue", jsx: <><h2 id="drug-silvertongue-silvertongue">Silvertongue</h2>
 <p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion pg. 21</Link></p>
-<DrugInfo start addict="moderate" dc={16} gp={75} type="ingested" eff1={<>1 hour; +1d2 alchemical bonus to Charisma</>} eff2={<>1d4 hours; +2 alchemical bonus on saves against mind-affecting effects</>} dmg={["1d4 Con"]} />
+<DrugInfo start addict="moderate" dc={16} gp={75} type="ingested" eff1="1 hour; +1d2 alchemical bonus to Charisma" eff2="1d4 hours; +2 alchemical bonus on saves against mind-affecting effects" dmg={["1d4 Con"]} />
 <p>The potent performance enhancer known as silvertongue is a sweet alchemical elixir with a metallic aftertaste. A single dose loosens the lips and sharpens the wit. More than one begins to mark the user, and frequent use causes the imbiber's gums and tongue to take on a silvery sheen that advertises her habit.</p>
 </>};
 const _midnight_milk = {title: "Midnight Milk", jsx: <><h2 id="drug-midnight_milk-midnight-milk">Midnight Milk</h2>

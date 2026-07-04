@@ -5,12 +5,11 @@ const makeDrugBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text
 		dmg, dmgStr, dmgDex, dmgCon, dmgInt, dmgWis, dmgCha,
 		start
 	} = attrs;
-	let rows = 0;
 	//
 	// START CODE
 	//
 	const output = [
-		`<DrugInfo${start ? " start" : ""}`
+		`${maybeClear}<DrugInfo${start ? " start" : ""}`
 	];
 	//
 	// CONFIGURE ADDICTION BOX
@@ -73,12 +72,19 @@ const makeDrugBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text
 	// ADD A TITLE LINE IF NEEDED
 	//
 	if(text) {
-		rows++;
 		output.push(`>${text}</DrugInfo>`);
 	} else {
 		output.push(" />");
 	}
-	return output.join("") + "\n";
+	let potential = output.join("");
+	let final = "";
+	let m;
+	while(m = potential.match(/(^.*?)=\{<>([^<>"]+)<[/]>\}(.*$)/)) {
+		const [,pre,text,post] = m;
+		final = final + `${pre}="${text}"`;
+		potential = post;
+	}
+	return final + potential + "\n";
 }
 
 export default makeDrugBlock;

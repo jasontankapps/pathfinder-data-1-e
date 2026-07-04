@@ -756,7 +756,7 @@ const _eldritch_poisoner = {title: "Eldritch Poisoner", jsx: <><h2 id="arc-alche
 </Pair>
 <Pair title="Special">An arcanotoxin functions only when used by the eldritch poisoner and becomes inert if not used within 1 minute.</Pair>
 </Ability>
-<AffInfo type="Poison; injury" save="Fort 10 + 1/2 the eldritch poisoner's level + her Int modifier" freq="1/round for 2 rounds" eff={<>1d2 ability damage (see above)</>} cure1 icon="p">Arcanotoxin</AffInfo>
+<AffInfo type="Poison; injury" save="Fort 10 + 1/2 the eldritch poisoner's level + her Int modifier" freq="1/round for 2 rounds" eff="1d2 ability damage (see above)" cure1 icon="p">Arcanotoxin</AffInfo>
 <Ability id="toxicologist-ex" icon={["upgrade"]}>
 <Pair single id="toxicologist-ex">Toxicologist (Ex)</Pair>
 <Pair hl title="Replaces">Throw Anything</Pair>

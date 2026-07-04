@@ -1,4 +1,4 @@
-import { FC, PropsWithChildren } from "react";
+import { FC, PropsWithChildren, ReactNode } from "react";
 
 interface BlockProps {
 	titled?: boolean
@@ -9,7 +9,6 @@ interface BlockProps {
 	hl?: boolean
 	classes?: string
 }
-interface RowProps {}
 interface CellProps {
 	className?: string
 }
@@ -34,7 +33,7 @@ export const Block: FC<PropsWithChildren<BlockProps>> = (props) => {
 };
 
 
-export const Row: FC<PropsWithChildren<RowProps>> = (props) => {
+export const Row: FC<{children?: ReactNode}> = (props) => {
 	const {children} = props;
 	return (
 		<div className="tr">

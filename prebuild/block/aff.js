@@ -269,7 +269,15 @@ const makeAfflictionBlock = ({marked2, flags, convertEncodedInfo, maybeClear, te
 	} else {
 		output.push(" />");
 	}
-	return output.join("") + "\n";
+	let potential = output.join("");
+	let final = "";
+	let m;
+	while(m = potential.match(/(^.*?)=\{<>([^<>"]+)<[/]>\}(.*$)/)) {
+		const [,pre,text,post] = m;
+		final = final + `${pre}="${text}"`;
+		potential = post;
+	}
+	return final + potential + "\n";
 }
 
 export default makeAfflictionBlock;

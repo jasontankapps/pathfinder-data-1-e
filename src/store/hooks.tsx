@@ -10,19 +10,33 @@ export type DispatchType = ReturnType<typeof useAppDispatch>;
 
 type ElementRef<T extends Element> = (node: T | null) => void;
 
+type Setter<T extends Element> = (x: keyof T, y: any) => void;
+
+const setProp = <T extends Element>(el: T | null = null): Setter<T> => {
+	if(el === null) {
+		return () => {};
+	}
+	return (prop: keyof T, value: any) => {
+		el[prop] = value;
+	}
+};
+
 // Must define T as an Element when using the hook
 // Takes optional argument extraFunc (T | null) => void
 //   The extraFunc function will be called whenever the reference is set or changes 
-// Returns [Element, ElementRef]
+// Returns [Element, ElementRef, ElementSetter]
 //   Element is an HTML element or `null`
 //   ElementRef is a function that can be used as the argument for a ref attribute
-export const useElement = <T extends Element>(extraFunc?: (node: T | null) => void): [T | null, ElementRef<T>] => {
+//   ElementSetter is a function that can be used to modify the referenced Element
+export const useElement = <T extends Element>(extraFunc?: (node: T | null) => void): [T | null, ElementRef<T>, Setter<T>] => {
 	const [el, setEl] = useState<T | null>(null);
+	const [func, setFunc] = useState<Setter<T>>(setProp());
 	const ref: ElementRef<T> = useCallback((node: T | null) => {
 		if(node && node !== el) {
 			setEl(node);
+			setFunc(setProp(node));
 			extraFunc && extraFunc(node);
 		}
 	}, [el, extraFunc]);
-	return [el, ref];
+	return [el, ref, func];
 };

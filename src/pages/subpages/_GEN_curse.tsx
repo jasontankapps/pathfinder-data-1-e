@@ -5,27 +5,27 @@ const _not_found = {title: "Unknown", jsx: <><h2 id="curse-not_found-error">Erro
 </>};
 const _baleful_polymorph_spell = {title: "Baleful Polymorph Spell", jsx: <><h2 id="curse-baleful_polymorph_spell-baleful-polymorph-spell">Baleful Polymorph Spell</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 556</Link></p>
-<AffInfo start type="Curse, spell" save="Fort 17" eff={<>transforms target into a lizard; see <Link to="/spell/baleful_polymorph">baleful polymorph</Link> description</>} undefined icon="c" />
+<AffInfo start type="Curse, spell" save="Fort 17" eff={<>transforms target into a lizard; see <Link to="/spell/baleful_polymorph">baleful polymorph</Link> description</>} icon="c" />
 </>};
 const _bestow_curse_trap = {title: "Bestow Curse Trap", jsx: <><h2 id="curse-bestow_curse_trap-bestow-curse-trap">Bestow Curse Trap</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 556</Link></p>
-<AffInfo start type="Curse, spell, trap" save="Will 14" eff={<>-6 penalty to Strength</>} undefined icon="c" />
+<AffInfo start type="Curse, spell, trap" save="Will 14" eff="-6 penalty to Strength" icon="c" />
 </>};
 const _blasted_vitality = {title: "Blasted Vitality", jsx: <><h2 id="curse-blasted_vitality-blasted-vitality">Blasted Vitality</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 138</Link></p>
-<AffInfo start type="Curse" save="Fort 19" eff={<>The victim's mind and body become unreliable, imposing a -4 penalty on all ability scores. Whenever the victim enters combat, he must succeed at a Fortitude save against the curse's DC or become <Link to="/misc/fatigued">fatigued</Link>.</>} undefined icon="c" />
+<AffInfo start type="Curse" save="Fort 19" eff={<>The victim's mind and body become unreliable, imposing a -4 penalty on all ability scores. Whenever the victim enters combat, he must succeed at a Fortitude save against the curse's DC or become <Link to="/misc/fatigued">fatigued</Link>.</>} icon="c" />
 </>};
 const _curse_of_bestial_dreams = {title: "Curse of Bestial Dreams", jsx: <><h2 id="curse-curse_of_bestial_dreams-curse-of-bestial-dreams">Curse of Bestial Dreams</h2>
 <p><strong>Sources</strong> <Link to="/source/doom_comes_to_dustpawn">Doom Comes to Dustpawn pg. 4</Link></p>
-<AffInfo start type="Curse" save="Will 20" eff={<>Once cursed, a victim becomes noticeably more prone to anger and suffers from painful headaches. Each day upon waking, a successful DC 14 Fortitude save means that no headaches are suffered that day; otherwise, the victim takes a -1 penalty on all Dexterity- and Intelligence-based skill checks and on attack rolls. Any amount of magical healing can remove this effect for the day. A greater danger rises when the victim is confronted with a stressful situation (such as combat, disarming a trap, or otherwise engaging in risky activity). Whenever a victim takes any action in such a situation other than to attack a creature with a melee weapon, she becomes <Link to="/misc/sickened">sickened</Link> for the remainder of the round. A victim who is sickened for 3 consecutive rounds in this manner becomes <Link to="/misc/confused">confused</Link> for 1 round (after which the count of consecutive rounds of being sickened resets).</>} undefined icon="c" />
+<AffInfo start type="Curse" save="Will 20" eff={<>Once cursed, a victim becomes noticeably more prone to anger and suffers from painful headaches. Each day upon waking, a successful DC 14 Fortitude save means that no headaches are suffered that day; otherwise, the victim takes a -1 penalty on all Dexterity- and Intelligence-based skill checks and on attack rolls. Any amount of magical healing can remove this effect for the day. A greater danger rises when the victim is confronted with a stressful situation (such as combat, disarming a trap, or otherwise engaging in risky activity). Whenever a victim takes any action in such a situation other than to attack a creature with a melee weapon, she becomes <Link to="/misc/sickened">sickened</Link> for the remainder of the round. A victim who is sickened for 3 consecutive rounds in this manner becomes <Link to="/misc/confused">confused</Link> for 1 round (after which the count of consecutive rounds of being sickened resets).</>} icon="c" />
 </>};
 const _curse_of_the_ages = {title: "Curse of the Ages", jsx: <><h2 id="curse-curse_of_the_ages-curse-of-the-ages">Curse of the Ages</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 557</Link></p>
-<AffInfo start type="Curse" save="Will 17" freq="1/day" eff={<>Age one year</>} undefined icon="c" />
+<AffInfo start type="Curse" save="Will 17" freq="1/day" eff="Age one year" icon="c" />
 </>};
 const _cursed_earth = {title: "Cursed Earth", jsx: <><h2 id="curse-cursed_earth-cursed-earth">Cursed Earth</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 143</Link></p>
-<AffInfo start type="Regional curse" save="Will 23" eff={<>The area is cursed with famine, living death, or plague, as described in <Link to="/spell/cursed_earth">cursed earth</Link>.</>} undefined icon="c" />
+<AffInfo start type="Regional curse" save="Will 23" eff={<>The area is cursed with famine, living death, or plague, as described in <Link to="/spell/cursed_earth">cursed earth</Link>.</>} icon="c" />
 </>};
 const _endless_night = {title: "Endless Night", jsx: <><h2 id="curse-endless_night-endless-night">Endless Night</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 143</Link></p>
@@ -37,7 +37,7 @@ const _haunting_major = {title: "Major Haunting", jsx: <><h2 id="curse-haunting_
 </>};
 const _haunting_minor = {title: "Minor Haunting", jsx: <><h2 id="curse-haunting_minor-minor-haunting">Minor Haunting</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 138</Link></p>
-<AffInfo start type="Curse" save="Will 13" eff={<>The victim is haunted by a <Link to="/monster/poltergeist">poltergeist</Link>. Once per day, the victim must attempt a Will save against the curse. If she succeeds, she takes a cumulative -1 penalty on future saving throws against the curse. If she fails, the poltergeist manifests within 300 feet and begins stalking her over the course of 2d12 hours, attempting to kill her when she appears to be most vulnerable. When combat begins, the victim automatically becomes <Link to="/misc/shaken">shaken</Link> for 1 minute. The curse revives the destroyed poltergeist to haunt the victim again the next time she fails the saving throw against this curse.</>} cure={<>In addition to the normal means for removing a curse, this one can be ended by determining the poltergeist's reason for existence and setting right whatever prevents it from resting in peace.</>} icon="c" />
+<AffInfo start type="Curse" save="Will 13" eff={<>The victim is haunted by a <Link to="/monster/poltergeist">poltergeist</Link>. Once per day, the victim must attempt a Will save against the curse. If she succeeds, she takes a cumulative -1 penalty on future saving throws against the curse. If she fails, the poltergeist manifests within 300 feet and begins stalking her over the course of 2d12 hours, attempting to kill her when she appears to be most vulnerable. When combat begins, the victim automatically becomes <Link to="/misc/shaken">shaken</Link> for 1 minute. The curse revives the destroyed poltergeist to haunt the victim again the next time she fails the saving throw against this curse.</>} cure="In addition to the normal means for removing a curse, this one can be ended by determining the poltergeist's reason for existence and setting right whatever prevents it from resting in peace." icon="c" />
 </>};
 const _hunt_of_the_ankou = {title: "Hunt of the Ankou", jsx: <><h2 id="curse-hunt_of_the_ankou-hunt-of-the-ankou">Hunt of the Ankou</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 138</Link></p>
@@ -65,11 +65,11 @@ const _perilous_demesne_greater = {title: "Greater Perilous Demesne", jsx: <><h2
 </>};
 const _perilous_demesne_major = {title: "Major Perilous Demesne", jsx: <><h2 id="curse-perilous_demesne_major-major-perilous-demesne">Major Perilous Demesne</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 145</Link></p>
-<AffInfo start type="Regional curse" save="Will 16" eff={<>As per <Link to="/curse/minor_perilous_demesne">minor perilous demesne</Link>, except this can involve up to four hazards, each of CR 6 or less, imperil creatures in the area. If any hazards are encountered together, the encounter's effective CR from hazards must be no more than 7 (for instance, two CR 5 hazards could be encountered together).</>} undefined icon="c" />
+<AffInfo start type="Regional curse" save="Will 16" eff={<>As per <Link to="/curse/minor_perilous_demesne">minor perilous demesne</Link>, except this can involve up to four hazards, each of CR 6 or less, imperil creatures in the area. If any hazards are encountered together, the encounter's effective CR from hazards must be no more than 7 (for instance, two CR 5 hazards could be encountered together).</>} icon="c" />
 </>};
 const _perilous_demesne_minor = {title: "Minor Perilous Demesne", jsx: <><h2 id="curse-perilous_demesne_minor-minor-perilous-demesne">Minor Perilous Demesne</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 145</Link></p>
-<AffInfo start type="Regional curse" save="Will 13" eff={<>Up to three hazards (see the <Link to="/rule/horror_environments">Horror Environments</Link> section), each of CR 3 or less, imperil creatures in the area, though never with more than one hazard at a time. If a creature places this curse, it can choose the hazards. The hazards must be appropriate to the type of terrain (at the GM's discretion). Any of the hazards that are rendered safe reset themselves and become dangerous again at each midnight.</>} undefined icon="c" />
+<AffInfo start type="Regional curse" save="Will 13" eff={<>Up to three hazards (see the <Link to="/rule/horror_environments">Horror Environments</Link> section), each of CR 3 or less, imperil creatures in the area, though never with more than one hazard at a time. If a creature places this curse, it can choose the hazards. The hazards must be appropriate to the type of terrain (at the GM's discretion). Any of the hazards that are rendered safe reset themselves and become dangerous again at each midnight.</>} icon="c" />
 </>};
 const _sealed_fate = {title: "Sealed Fate", jsx: <><h2 id="curse-sealed_fate-sealed-fate">Sealed Fate</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 139</Link></p>
@@ -85,7 +85,7 @@ const _tormenting_visions = {title: "Tormenting Visions", jsx: <><h2 id="curse-t
 </>};
 const _unluck = {title: "Unluck", jsx: <><h2 id="curse-unluck-unluck">Unluck</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 557</Link></p>
-<AffInfo start type="Curse" save="Will 20" freq="1/hour" eff={<>target must reroll any roll decided by the GM and take the worse result</>} undefined icon="c" />
+<AffInfo start type="Curse" save="Will 20" freq="1/hour" eff="target must reroll any roll decided by the GM and take the worse result" icon="c" />
 </>};
 const _unseasonable_weather = {title: "Unseasonable Weather", jsx: <><h2 id="curse-unseasonable_weather-unseasonable-weather">Unseasonable Weather</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 145</Link></p>
@@ -93,10 +93,10 @@ const _unseasonable_weather = {title: "Unseasonable Weather", jsx: <><h2 id="cur
 </>};
 const _weeping_wound = {title: "Weeping Wound", jsx: <><h2 id="curse-weeping_wound-weeping-wound">Weeping Wound</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 140</Link></p>
-<AffInfo start type="Curse" save="Fort 14" eff={<>The victim has a wound that cannot heal, effectively reducing her maximum hit points by an amount equal to her level or 5, whichever is more. Magical healing that would raise a victim's hit points above this reduced maximum is wasted.</>} undefined icon="c" />
+<AffInfo start type="Curse" save="Fort 14" eff="The victim has a wound that cannot heal, effectively reducing her maximum hit points by an amount equal to her level or 5, whichever is more. Magical healing that would raise a victim's hit points above this reduced maximum is wasted." icon="c" />
 </>};
 const _werewolf_lycanthropy = {title: "Werewolf Lycanthropy", jsx: <><h2 id="curse-werewolf_lycanthropy-werewolf-lycanthropy">Werewolf Lycanthropy</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 557</Link></p>
-<AffInfo start type="Curse; injury" save="Fort 15" freq="on the night of every full moon or whenever the target is injured" onset="the next full moon" eff={<>target transforms into a wolf under the GM's control until the next morning</>} undefined icon="c" />
+<AffInfo start type="Curse; injury" save="Fort 15" freq="on the night of every full moon or whenever the target is injured" onset="the next full moon" eff="target transforms into a wolf under the GM's control until the next morning" icon="c" />
 </>};
 export default {not_found:_not_found,baleful_polymorph_spell:_baleful_polymorph_spell,bestow_curse_trap:_bestow_curse_trap,blasted_vitality:_blasted_vitality,curse_of_bestial_dreams:_curse_of_bestial_dreams,curse_of_the_ages:_curse_of_the_ages,cursed_earth:_cursed_earth,endless_night:_endless_night,haunting_major:_haunting_major,haunting_minor:_haunting_minor,hunt_of_the_ankou:_hunt_of_the_ankou,hunt_of_the_bogeyman:_hunt_of_the_bogeyman,jealous_structure:_jealous_structure,mummy_rot:_mummy_rot,perilous_demesne_grand:_perilous_demesne_grand,perilous_demesne_greater:_perilous_demesne_greater,perilous_demesne_major:_perilous_demesne_major,perilous_demesne_minor:_perilous_demesne_minor,sealed_fate:_sealed_fate,shattered_self:_shattered_self,tormenting_visions:_tormenting_visions,unluck:_unluck,unseasonable_weather:_unseasonable_weather,weeping_wound:_weeping_wound,werewolf_lycanthropy:_werewolf_lycanthropy}

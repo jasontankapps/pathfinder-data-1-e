@@ -1002,7 +1002,7 @@ const _ascomoid = {title: "Ascomoid", jsx: <><p><em>This misshapen sphere of pal
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Spores-inhaled" save="Fort 16" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Spores-inhaled" save="Fort 16" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure2 extra="The save DC is Constitution-based." icon="p" />
 <p><strong>Spores (Ex)</strong> Once per round as a free action, an ascomoid can release a jet of deadly spores to a range of 30 feet. Upon impacting a solid surface, such as a wall or creature, the jet billows out into a cloud of spores that fills a 10-foot-radius spread. This cloud lasts for 1 round before dispersing. Any creature in the cloud must make a DC 16 Fortitude save or become <Link to="/misc/nauseated">nauseated</Link> as long as it remains in the cloud. Any creature that fails to save against this nausea is also exposed to the ascomoid's poison (see above). The save DC is Constitution-based.</p>
 <Header sub>Description</Header>
 <p>Oversized fungi, ascomoids are frequently mistaken for giant puffballs until they begin to move, rolling toward any living prey that they sense. Once they have crushed the life out of a creature, they quickly move on, leaving spores behind in their victim's body to grow new ascomoids. Ascomoids can grow to a width of 10 feet, but they rarely weigh more than 400 pounds.</p>
@@ -1076,7 +1076,7 @@ const _assassin_bug_giant_assassin_bug = {title: "Giant Assassin Bug", jsx: <><p
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 13" freq="1/round for 4 rounds" eff={<>1d4 <Link to="/rule/dex_damage">Dex damage</Link></>} cure2c extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 13" freq="1/round for 4 rounds" eff={<>1d4 <Link to="/rule/dex_damage">Dex damage</Link></>} cure2c extra="The save DC is Constitution-based." icon="p" />
 <p><strong>Poison Stream (Ex)</strong> As a standard action usable every 1d4 rounds, an assassin bug can spray poison from its mouthin a 15-foot line. Any creature caught in this area must succeed at a DC 14 Reflex save or be exposed to the assassin bug's poison. The save DC is Dexterity-based.</p>
 <Header sub>Description</Header>
 <p>An assassin bug partially buries itself in the sand or conceals itself among clusters of thorny bushes near oases, waiting for the next palatable creature to approach. When prey arrives, the insect bursts out of hiding and pierces its target with its elongated mouthparts, injecting a potent toxin. Once its prey is safely paralyzed, the assassin bug feeds by siphoning the victim's fluids. Even if these bites don't kill, they are extremely painful and cause swelling.</p>
@@ -1093,7 +1093,7 @@ const _assassin_bug_great_assassin_bug = {title: "Great Assassin Bug", jsx: <><p
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 16" freq="1/round for 4 rounds" eff={<>1d4 <Link to="/rule/dex_damage">Dex damage</Link></>} cure2c extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 16" freq="1/round for 4 rounds" eff={<>1d4 <Link to="/rule/dex_damage">Dex damage</Link></>} cure2c extra="The save DC is Constitution-based." icon="p" />
 <p><strong>Poison Stream (Ex)</strong> As a standard action usable every 1d4 rounds, an assassin bug can spray poison from its mouthin a 15-foot line. Any creature caught in this area must succeed at a DC 17 Reflex save or be exposed to the assassin bug's poison. The save DC is Dexterity-based.</p>
 <Header sub>Description</Header>
 <p>Giant assassin bugs are an example of a large and varied class of hunting insects that live throughout Golarion. Assassin bugs partially bury themselves in the sand or hide among clusters of thorny bushes found near oases, waiting for the next palatable creature to approach. When prey arrives, the insects burst out of hiding and pierce their prey with their elongated mouthparts, injecting a potent toxin that paralyzes victims. Once prey is safely paralyzed, assassin bugs feed by siphoning the victim's fluids. Even if these bites don't kill their prey, they are extremely painful and cause swelling in the area.</p>
@@ -1204,7 +1204,7 @@ const _asura_asurendra = {title: "Asurendra (Asura)", jsx: <><p><em>This four-ar
 <Ecology env={<>any (<Link to="/rule/hell">Hell</Link>)</>} org="solitary or pair" treasure={{"D":false}} />
 </div>
 <Header sub>Special Abilities</Header>
-<AffInfo type="Claw-contact" save="Will 31" freq="1/day" eff={<>1d6 <Link to="/rule/wis_drain">Wis drain</Link></>} undefined icon="c">Curse of False Wisdom (Su)</AffInfo>
+<AffInfo type="Claw-contact" save="Will 31" freq="1/day" eff={<>1d6 <Link to="/rule/wis_drain">Wis drain</Link></>} icon="c">Curse of False Wisdom (Su)</AffInfo>
 <AffInfo type="Bite-injury" save="Fort 33" freq="1/round for 6 rounds" eff={<>1d6 <Link to="/rule/con_damage">Con damage</Link></>} cure2c icon="p">Poison (Ex)</AffInfo>
 <p><strong>Spirit Blades (Su)</strong> As a swift action, an asurendra can call forth up to six longsword-shaped force effects that float near the asurendra until directed. The asurendra can use a standard action to direct one blade to attack a target up to a distance of 50 feet away, or use a full-attack action to cause all six blades to attack up to six different targets up to a distance of 50 feet away, each to a different location if desired. Once an asurendra directs a spirit blade to attack a foe, the blade continues to make a single attack against that foe each round on the asurendra's turn until directed otherwise by the asurendra and as long as the foe remains within 50 feet of the asurendra. As a move action, the asurendra can direct all currently attacking blades to switch targets to new foes within 50 feet. These weapons attack using the asurendra's base attack bonus modified by its Wisdom modifier (+29 for most asurendras), and deal 3d6 points of damage plus an amount of force damage equal to the asurendra's Wisdom modifier (3d6+7 for most asurendras). Physical attacks do no affect these blades, but <Link to="/spell/disintegrate">disintegrate</Link>, a <Link to="/magic-artifact/sphere_of_annihilation">sphere of annihilation</Link>, or a <Link to="/magic-rod/rod_of_cancellation">rod of cancellation</Link> (touch AC 25) causes them to vanish. If a spirit blade's target dies or moves beyond a 50-foot range and the asurendra does not retarget that blade by the end of its turn, the blade vanishes. Likewise, any blades that are not within 50 feet of the asurendra at the end of its turn also vanish.</p>
 <Header sub>Description</Header>

@@ -440,7 +440,7 @@ const _ray_stingray = {title: "Stingray", jsx: <><p><em>A long tail fitted with 
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Sting-injury" save="Fort 13" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link> and 1 Con damage</>} cure1 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Sting-injury" save="Fort 13" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link> and 1 Con damage</>} cure1 extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>Often found buried in mud, sand, or sea grass, this normally passive creature raises its tail above its body like a scorpion when cornered or injured. Its stinger is a barbed spine with two grooves allowing the toxin to enter the wound. While often found in bays and estuaries, some breeds of stingray can make their home in rivers far upstream from salt water. Stingrays, like their larger manta ray cousins, use a form of electrolocation to find prey in the silt-laden waters.</p>
 <p>The stingray presented here is a relatively large member of the species; for smaller stingrays, apply the young creature template.</p>
@@ -509,7 +509,7 @@ const _reefclaw = {title: "Reefclaw", jsx: <><p><em>Blood-red spines run the len
 <p><strong>Death Frenzy (Su)</strong> When a reefclaw is killed, its body spasms horrifically. Immediately upon dying, the reefclaw makes a full attack against a creature it threatens. If more than one creature is within reach, roll randomly for each attack to determine the target (which may be another reefclaw).</p>
 <p><strong>Grab (Ex)</strong> A reefclaw can use its grab ability on a target of any size. Reefclaws have a +8 racial bonus on grapple checks; this bonus replaces the normal +4 bonus a creature with grab receives.</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Claw-injury" save="Fort 13" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure1 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Claw-injury" save="Fort 13" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure1 extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>Reefclaws are vicious predators. They possess greater intelligence than animals, but rely mainly on their strength and instincts to survive. They hunt fish, giant crabs, dolphins, and even land-dwelling creatures that come within a hundred paces of the water.</p>
 <p>In populated areas, reefclaws prey on beachcombers, divers, and fishermen, sometimes abandoning their usual solitary nature and coordinating attacks with other reefclaws. The creatures must be wary, however, because in some regions, these abominations find their way to the dinner plate. Brave fishermen troll bays and coastlines infested with reefclaws, baiting the creatures with fresh meat and then harvesting their powerful claws with axes.</p>
@@ -1323,7 +1323,7 @@ const _rokurokubi = {title: "Rokurokubi", jsx: <><p><em>This peasant woman sprou
 <p><strong>Nightfall Aura (Su)</strong> A rokurokubi can create an aura of darkness and silence (CL 12th) with a radius of 15 feet. The rokurokubi is immune to the effects of her aura, and can activate or suppress this ability as a free action. These aura effects can be dispelled as if they were spells.</p>
 <p><strong>No Sleep (Ex)</strong> A rokurokubi does not need to sleep and is immune to all sleep effects.</p>
 <p><strong>Spells (Sp)</strong> A rokurokubi casts spells as a 12th-level sorcerer.</p>
-<AffInfo type="Bite-injury" save="Will 23" freq="1 day" eff={<>1 <Link to="/rule/cha_damage">Cha damage</Link> and permanently <Link to="/spell/silence">silenced</Link> after 4 Cha damage</>} undefined extra={<>Fully healing the Cha damage cures the silence. The save DC is Charisma-based.</>} icon="c">Rokurokubi's Curse (Su)</AffInfo>
+<AffInfo type="Bite-injury" save="Will 23" freq="1 day" eff={<>1 <Link to="/rule/cha_damage">Cha damage</Link> and permanently <Link to="/spell/silence">silenced</Link> after 4 Cha damage</>} extra="Fully healing the Cha damage cures the silence. The save DC is Charisma-based." icon="c">Rokurokubi's Curse (Su)</AffInfo>
 <Header sub>Description</Header>
 <p>A rokurokubi is an evil hag-like creature who seeks to spread as much mayhem and despair as possible. Her skin ranges in hue from pale blue to muted green, so to disguise herself she must cover up her flesh with makeup and clothing, and retract her neck so it is no longer than a human's.</p>
 <p>A rokurokubi can mate with almost any male humanoid, monstrous humanoid, or humanoid-shaped creature. Her offspring is always a rokurokubi. The mate is usually devoured once the rokurokubi tires of his presence.</p>

@@ -108,10 +108,11 @@ const makeMonsterInfoBlock = ({marked2, flags, parseSOURCE, convertEncodedInfo, 
 		} else {
 			const m = init.match(/^(?:\+|(-))([0-9]+)$/);
 			if(m) {
+				// still numeric
 				const [, s, n] = m;
 				output.push(`init={${(s || "") + n}}`);
 			} else {
-				output.push(`init={${noteTags(flags, init, true)}}`.replace(/\{"([^"]+)"\}/g, '"$1"'));
+				output.push(`init={${doConvert(init)}}`);
 			}
 		}
 	} else {
@@ -172,7 +173,15 @@ const makeMonsterInfoBlock = ({marked2, flags, parseSOURCE, convertEncodedInfo, 
 	// DONE
 	//
 	if(flag) {
-		return `${maybeClear}<Info ${output.join(" ")} />\n`;
+		let potential = `${maybeClear}<Info ${output.join(" ")} />`;
+		let final = "";
+		let m;
+		while(m = potential.match(/(^.*?)=\{<>([^<>"]+)<[/]>\}(.*$)/)) {
+			const [,pre,text,post] = m;
+			final = final + `${pre}="${text}"`;
+			potential = post;
+		}
+		return final + potential + "\n";
 	}
 	return "<p><em>Error fetching basic info.</em></p>\n";
 };

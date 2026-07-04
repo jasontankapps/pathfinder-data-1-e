@@ -39,14 +39,14 @@ const _kings_sleep = {title: "King's Sleep", jsx: <><h2 id="eq-poison-kings_slee
 const _lethe_water = {title: "Lethe water", jsx: <><h2 id="eq-poison-lethe_water-lethe-water">Lethe water</h2>
 <p><strong>Sources</strong> <Link to="/source/feast_of_dust">Feast of Dust pg. 42</Link></p>
 <p><strong>Price</strong> N/A; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Ingested" save="Will 16" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/int_damage">Int damage</Link> and 1d4 Cha damage</>} cure2 extra={<>Cannot reduce a creature's Int or Cha below 1.</>} icon="p" />
+<AffInfo start type="Ingested" save="Will 16" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/int_damage">Int damage</Link> and 1d4 Cha damage</>} cure2 extra="Cannot reduce a creature's Int or Cha below 1." icon="p" />
 <p>Creatures reduced below 3 Intelligence gain the <Link to="/template/fiendish">fiendish creature simple template</Link> and a +4 enhancement bonus to Strength and Constitution; these effects vanish if a creature's Intelligence score rises above 3.</p>
 <p>Lethe water loses its magical potency 24 hours after being removed from the hot springs, but remains mildly poisonous thanks to its mineral content (treat as <Link to="/eq-poison/bloodroot">bloodroot</Link>, but ingested rather than injury).</p>
 </>};
 const _maiden_lily_attar = {title: "Maiden lily attar", jsx: <><h2 id="eq-poison-maiden_lily_attar-maiden-lily-attar">Maiden lily attar</h2>
 <p><strong>Sources</strong> <Link to="/source/murders_mark">Murder's Mark pg. 26</Link></p>
 <p><strong>Price</strong> N/A; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Inhaled" save="Fort 13" freq="1/round for 4 rounds" eff1={<><Link to="/misc/unconscious">unconscious</Link> for 1 minute</>} eff2={<>unconscious for 1d4 hours</>} cure1 icon="p" />
+<AffInfo start type="Inhaled" save="Fort 13" freq="1/round for 4 rounds" eff1={<><Link to="/misc/unconscious">unconscious</Link> for 1 minute</>} eff2="unconscious for 1d4 hours" cure1 icon="p" />
 </>};
 const _quicklime = {title: "Quicklime", jsx: <><h2 id="eq-poison-quicklime-quicklime">Quicklime</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_95_anvil_of_fire">Pathfinder #95: Anvil of Fire pg. 29</Link></p>
@@ -68,7 +68,7 @@ const _spidervine_poison = {title: "Spidervine poison", jsx: <><h2 id="eq-poison
 const _tears_of_death = {title: "Tears of Death", jsx: <><h2 id="eq-poison-tears_of_death-tears-of-death">Tears of Death</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 560</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 111</Link></p>
 <p><strong>Price</strong> 6,500 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Contact" save="Fort 22" freq="1/minute for 6 minutes" onset="1 minute" eff={<>1d6 <Link to="/rule/con_damage">Con damage</Link> and <Link to="/rule/paralyzed">paralyzed</Link></>} undefined icon="p" />
+<AffInfo start type="Contact" save="Fort 22" freq="1/minute for 6 minutes" onset="1 minute" eff={<>1d6 <Link to="/rule/con_damage">Con damage</Link> and <Link to="/rule/paralyzed">paralyzed</Link></>} icon="p" />
 </>};
 const _ungol_dust = {title: "Ungol Dust", jsx: <><h2 id="eq-poison-ungol_dust-ungol-dust">Ungol Dust</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 560</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 111</Link></p>
@@ -110,7 +110,7 @@ const _concentrated_laxative = {title: "Concentrated laxative", jsx: <><h2 id="e
 const _drow_poison = {title: "Drow Poison", jsx: <><h2 id="eq-poison-drow_poison-drow-poison">Drow Poison</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 559</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 111</Link></p>
 <p><strong>Price</strong> 75 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Injury" save="Fort 13" freq="1/minute for 2 minutes" eff1={<>unconsciousness for 1 minute</>} eff2={<>unconsciousness for 2d4 hours</>} cure1 icon="p" />
+<AffInfo start type="Injury" save="Fort 13" freq="1/minute for 2 minutes" eff1="unconsciousness for 1 minute" eff2="unconsciousness for 2d4 hours" cure1 icon="p" />
 </>};
 const _gelidburn_oil = {title: "Gelidburn oil", jsx: <><h2 id="eq-poison-gelidburn_oil-gelidburn-oil">Gelidburn oil</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 24</Link></p>
@@ -189,7 +189,7 @@ const _greenblood_oil = {title: "Greenblood Oil", jsx: <><h2 id="eq-poison-green
 const _woundweal = {title: "Woundweal", jsx: <><h2 id="eq-poison-woundweal-woundweal">Woundweal</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link></p>
 <p><strong>Price</strong> 100 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Injury" save="Fort 18" freq="1/day" onset="1 round" eff={<>impaired healing (see description)</>} cure2 icon="p" />
+<AffInfo start type="Injury" save="Fort 18" freq="1/day" onset="1 round" eff="impaired healing (see description)" cure2 icon="p" />
 <p>This gritty black paste is a poison that interferes with an afflicted creature's ability to recover from injuries. All Heal checks applied to the creature suffer a -10 penalty. In addition, anyone using magical healing on the target must make a DC 25 caster level check to succeed.</p>
 </>};
 const _arsenic = {title: "Arsenic", jsx: <><h2 id="eq-poison-arsenic-arsenic">Arsenic</h2>
@@ -221,7 +221,7 @@ const _liquid_persuasion = {title: "Liquid persuasion", jsx: <><h2 id="eq-poison
 const _goblinvine_oil = {title: "Goblinvine oil", jsx: <><h2 id="eq-poison-goblinvine_oil-goblinvine-oil">Goblinvine oil</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 20</Link></p>
 <p><strong>Price</strong> 125 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Contact" save="Fort 10" freq="No frequency was provided in the source" onset="1 round" eff={<><Link to="/misc/sickened">sickened</Link></>} cure={<>2 consecutive saves or 1 minute spent washing the affected area</>} icon="p" />
+<AffInfo start type="Contact" save="Fort 10" freq="No frequency was provided in the source" onset="1 round" eff={<><Link to="/misc/sickened">sickened</Link></>} cure="2 consecutive saves or 1 minute spent washing the affected area" icon="p" />
 <p>Extracted from the mashed leaves of the pernicious <Link to="/eq-misc/goblinvine">goblinvine</Link>, this irritant is favored by goblins and tricksters alike.</p>
 </>};
 const _id_moss = {title: "Id Moss", jsx: <><h2 id="eq-poison-id_moss-id-moss">Id Moss</h2>
@@ -278,13 +278,13 @@ const _black_whinnis = {title: "Black whinnis", jsx: <><h2 id="eq-poison-black_w
 const _chelish_deathapple = {title: "Chelish deathapple", jsx: <><h2 id="eq-poison-chelish_deathapple-chelish-deathapple">Chelish deathapple</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 51</Link></p>
 <p><strong>Price</strong> 200 gp; <strong>Weight</strong> 1/2 lb.</p>
-<AffInfo start type="Ingested" save="Fort 23" freq="1/minute for 2 minutes" onset="1 minute" eff1={<>enter a deathlike trance for 1 minute; see below</>} eff2={<>remain in this deathlike trance for 8 hours</>} cure1 icon="p" />
+<AffInfo start type="Ingested" save="Fort 23" freq="1/minute for 2 minutes" onset="1 minute" eff1="enter a deathlike trance for 1 minute; see below" eff2="remain in this deathlike trance for 8 hours" cure1 icon="p" />
 <p>This poison is culled from specially bred <Link to="/eq-poison/thornapple">thornapples</Link>, and is often administered on the skin of an apple itself. It is typically employed to fake the deaths of dissidents so their disappearances don't attract attention. Creatures in the deathlike trance this poison causes are <Link to="/misc/unconscious">unconscious</Link> and can't be woken by mundane means; a successful DC 25 Heal check is required to realize the victim is alive. The victim can be shaken from this trance with any magical healing (including <Link to="/spell/lesser_restoration">lesser restoration</Link>, as appropriate).</p>
 </>};
 const _hazemind_concentrate = {title: "Hazemind concentrate", jsx: <><h2 id="eq-poison-hazemind_concentrate-hazemind-concentrate">Hazemind concentrate</h2>
 <p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 20</Link></p>
 <p><strong>Price</strong> 200 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Injury" save="Fort 16" freq="1/round for 6 rounds" onset="1 round" eff={<>The subject's mind goes fuzzy, shifting its attitudes toward all other creatures one step closer to indifferent; DCs to influence the subject with Charisma, Diplomacy, Handle Animal, or Intimidate checks increase by 4</>} cure1 icon="p" />
+<AffInfo start type="Injury" save="Fort 16" freq="1/round for 6 rounds" onset="1 round" eff="The subject's mind goes fuzzy, shifting its attitudes toward all other creatures one step closer to indifferent; DCs to influence the subject with Charisma, Diplomacy, Handle Animal, or Intimidate checks increase by 4" cure1 icon="p" />
 </>};
 const _large_scorpion_venom = {title: "Large Scorpion Venom", jsx: <><h2 id="eq-poison-large_scorpion_venom-large-scorpion-venom">Large Scorpion Venom</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 560</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 111</Link></p>
@@ -304,7 +304,7 @@ const _giant_wasp_poison = {title: "Giant Wasp Poison", jsx: <><h2 id="eq-poison
 const _hazemind_mist = {title: "Hazemind mist", jsx: <><h2 id="eq-poison-hazemind_mist-hazemind-mist">Hazemind mist</h2>
 <p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 20</Link></p>
 <p><strong>Price</strong> 225 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Inhaled" save="Fort 13" freq="1/round for 10 rounds" onset="1 round" eff={<>The subject's mind goes fuzzy, shifting its attitudes toward all other creatures one step closer to indifferent; DCs to influence the subject with Charisma, Diplomacy, Handle Animal, or Intimidate checks increase by 4</>} cure1 icon="p" />
+<AffInfo start type="Inhaled" save="Fort 13" freq="1/round for 10 rounds" onset="1 round" eff="The subject's mind goes fuzzy, shifting its attitudes toward all other creatures one step closer to indifferent; DCs to influence the subject with Charisma, Diplomacy, Handle Animal, or Intimidate checks increase by 4" cure1 icon="p" />
 </>};
 const _diplopic_serum = {title: "Diplopic serum", jsx: <><h2 id="eq-poison-diplopic_serum-diplopic-serum">Diplopic serum</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 24</Link></p>
@@ -342,7 +342,7 @@ const _sassone_leaf_residue = {title: "Sassone Leaf Residue", jsx: <><h2 id="eq-
 const _sloths_bite = {title: "Sloth's bite", jsx: <><h2 id="eq-poison-sloths_bite-sloths-bite">Sloth's bite</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 29</Link></p>
 <p><strong>Price</strong> 300 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Injury" save="Fort 18" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link> and is <Link to="/rule/flat_footed">flat-footed</Link> until the beginning of her next turn</>} cure1 extra={<>This poison causes the affected creature to be sluggish and slow to react.</>} icon="p" />
+<AffInfo start type="Injury" save="Fort 18" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link> and is <Link to="/rule/flat_footed">flat-footed</Link> until the beginning of her next turn</>} cure1 extra="This poison causes the affected creature to be sluggish and slow to react." icon="p" />
 </>};
 const _starving_nettle = {title: "Starving nettle", jsx: <><h2 id="eq-poison-starving_nettle-starving-nettle">Starving nettle</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 145</Link></p>
@@ -371,7 +371,7 @@ const _slavers_will = {title: "Slaver's will", jsx: <><h2 id="eq-poison-slavers_
 const _blackfinders_silence = {title: "Blackfinder's silence", jsx: <><h2 id="eq-poison-blackfinders_silence-blackfinders-silence">Blackfinder's silence</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 51</Link></p>
 <p><strong>Price</strong> 400 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Injury" save="Fort 14" freq="1/round for 4 rounds" eff={<>unable to speak (even to cast spells) for 1 round</>} cure1 icon="p" />
+<AffInfo start type="Injury" save="Fort 14" freq="1/round for 4 rounds" eff="unable to speak (even to cast spells) for 1 round" cure1 icon="p" />
 <p>This poison is typically used by cultists of <Link to="/faith/norgorber">Norgorber</Link> to silence those who might tell secrets they want kept.</p>
 </>};
 const _bloodbrain_venom = {title: "Bloodbrain Venom", jsx: <><h2 id="eq-poison-bloodbrain_venom-bloodbrain-venom">Bloodbrain Venom</h2>
@@ -511,7 +511,7 @@ const _juvebloom = {title: "Juvebloom", jsx: <><h2 id="eq-poison-juvebloom-juveb
 const _liquid_leprosy = {title: "Liquid leprosy", jsx: <><h2 id="eq-poison-liquid_leprosy-liquid-leprosy">Liquid leprosy</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 29</Link></p>
 <p><strong>Price</strong> 750 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Contact" save="Fort 20" freq="1/minute for 6 minutes" onset="1 minute" eff={<>Each time the target fails its saving throw, part of his body begins to necrotize. Roll d% on the table below to determine which part of the body starts rotting. Each necrotizing effect stacks with the others but not with itself; if the same effect is rolled more than once, choose a new effect that hasn't been rolled yet from on the table</>} cure2 icon="p" />
+<AffInfo start type="Contact" save="Fort 20" freq="1/minute for 6 minutes" onset="1 minute" eff="Each time the target fails its saving throw, part of his body begins to necrotize. Roll d% on the table below to determine which part of the body starts rotting. Each necrotizing effect stacks with the others but not with itself; if the same effect is rolled more than once, choose a new effect that hasn't been rolled yet from on the table" cure2 icon="p" />
 <ScrollContainer id="eq-poison-liquid_leprosy--table-0"><table>
 <thead>
 <tr>
@@ -585,7 +585,7 @@ const _violet_venom = {title: "Violet venom", jsx: <><h2 id="eq-poison-violet_ve
 const _flaming_doom = {title: "Flaming doom", jsx: <><h2 id="eq-poison-flaming_doom-flaming-doom">Flaming doom</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 7</Link></p>
 <p><strong>Price</strong> 900 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Injury" save="Fort 18" freq="1/round for 6 rounds" eff={<>1d6 fire damage and victim possibly catches on fire</>} cure2 icon="p" />
+<AffInfo start type="Injury" save="Fort 18" freq="1/round for 6 rounds" eff="1d6 fire damage and victim possibly catches on fire" cure2 icon="p" />
 <p><strong><Link to="/rule/spontaneous_alchemy">Spontaneous Alchemy</Link> Recipe</strong> (200 magnesium + 200 phosphorus + 250 saltpeter)/distillation; <strong>Craft</strong> DC 18<br/><strong>Time</strong> 1 day; <strong>Tools</strong> <Link to="/eq-misc/retort">retort</Link>; <strong>Type</strong> poison</p>
 </>};
 const _fury_gas = {title: "Fury gas", jsx: <><h2 id="eq-poison-fury_gas-fury-gas">Fury gas</h2>
@@ -603,7 +603,7 @@ const _nights_eye_dust = {title: "Nights-eye dust", jsx: <><h2 id="eq-poison-nig
 const _sweetdream = {title: "Sweetdream", jsx: <><h2 id="eq-poison-sweetdream-sweetdream">Sweetdream</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 18</Link></p>
 <p><strong>Price</strong> 900 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Inhaled" save="Fort 19" freq="1/minute for 2 minutes" onset="1 round" eff1={<>sleep for 1 minute and forget events of 1d4 rounds prior to exposure</>} eff2={<>sleep for 1d4 hours</>} cure1 icon="p" />
+<AffInfo start type="Inhaled" save="Fort 19" freq="1/minute for 2 minutes" onset="1 round" eff1="sleep for 1 minute and forget events of 1d4 rounds prior to exposure" eff2="sleep for 1d4 hours" cure1 icon="p" />
 <p>Often employed by spies and saboteurs, sweetdream is a potent sedative with useful amnesia-causing side effects. The memory loss is a mind-affecting effect.</p>
 <p>Victims of sweetdream often experience pleasant, fanciful dreams when affected by the poison's secondary effect, a fact that both inspired the poison its name and contributed to its medicinal use among those plagued by nightmares or insomnia. Unlike similar drugs, sweetdream is not habit-forming, and thus users have no risk of developing a physiological addiction to the inhaled powder. However, once a frequent user becomes accustomed to the poison's effects, he often finds himself unable to sleep without it, leading some authorities to ban its willing use.</p>
 </>};
@@ -673,12 +673,12 @@ const _breath_of_the_mantis_god = {title: "Breath of the mantis god", jsx: <><h2
 const _demon_nettle_sap = {title: "Demon nettle sap", jsx: <><h2 id="eq-poison-demon_nettle_sap-demon-nettle-sap">Demon nettle sap</h2>
 <p><strong>Sources</strong> <Link to="/source/the_moonscar">The Moonscar pg. 7</Link></p>
 <p><strong>Price</strong> 1,500 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Injury" save="Fort 21" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/wis_damage">Wis damage</Link></>} undefined icon="p" />
+<AffInfo start type="Injury" save="Fort 21" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/wis_damage">Wis damage</Link></>} icon="p" />
 </>};
 const _dragon_bile = {title: "Dragon Bile", jsx: <><h2 id="eq-poison-dragon_bile-dragon-bile">Dragon Bile</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 558</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 111</Link></p>
 <p><strong>Price</strong> 1,500 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Contact" save="Fort 26" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/str_damage">Str damage</Link></>} undefined icon="p" />
+<AffInfo start type="Contact" save="Fort 26" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/str_damage">Str damage</Link></>} icon="p" />
 </>};
 const _hag_spit = {title: "Hag spit", jsx: <><h2 id="eq-poison-hag_spit-hag-spit">Hag spit</h2>
 <p><strong>Sources</strong> <Link to="/source/rival_guide">Rival Guide pg. 53</Link></p>
@@ -750,7 +750,7 @@ const _dream_crystal_toxin = {title: "Dream crystal toxin", jsx: <><h2 id="eq-po
 const _dreaming_death = {title: "Dreaming death", jsx: <><h2 id="eq-poison-dreaming_death-dreaming-death">Dreaming death</h2>
 <p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil pg. 22</Link></p>
 <p><strong>Price</strong> 2,500 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Inhaled" save="Fort 16" freq="1/10 minutes for 1 hour" onset="10 minutes" eff={<>sleep 10 minutes, see text</>} cure1 icon="p" />
+<AffInfo start type="Inhaled" save="Fort 16" freq="1/10 minutes for 1 hour" onset="10 minutes" eff="sleep 10 minutes, see text" cure1 icon="p" />
 <p>Imported in stoppered quartz vials by the enigmatic <Link to="/monster/denizen_of_leng">denizens of Leng</Link>, this green and violet gas lulls mortal creatures into a sleep filled with abominable nightmares and maddening half-truths. Creatures that fail their saving throws against dreaming death immediately fall into a fitful slumber for 10 minutes. This toxic sleep affects creatures normally immune to magical sleep effects (such as elves), and victims can be woken from the sleep only by overcoming or being cured of the poison. Each failed save extends the duration of this magical sleep by 10 minutes.</p>
 <p>Creatures awaken from these visions scarred and prone to self-harm. Victims must succeed at a Will save (DC = 14 + 2 for every 10 minutes spent sleeping) or begin cutting their own flesh with any available weapons. Affected creatures attempt to deliver a <Link to="/misc/coup_de_grace">coup de grace</Link> attack upon themselves every round. A victim can attempt a new Will save at the beginning of each round, with a cumulative +2 bonus for each round she successfully damaged herself.</p>
 </>};
@@ -773,7 +773,7 @@ const _hydrofluoric_acid = {title: "Hydrofluoric acid", jsx: <><h2 id="eq-poison
 const _snap_will = {title: "Snap will", jsx: <><h2 id="eq-poison-snap_will-snap-will">Snap will</h2>
 <p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 9</Link></p>
 <p><strong>Price</strong> 2,500 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Ingested" save="Fort 18" freq="1/minute for 10 minutes" onset="5 minutes" eff={<>The subject experiences difficulty maintaining focus and self-control, and takes a -4 penalty on Will saves and Wisdom-based skill checks for 1 minute</>} cure2 icon="p" />
+<AffInfo start type="Ingested" save="Fort 18" freq="1/minute for 10 minutes" onset="5 minutes" eff="The subject experiences difficulty maintaining focus and self-control, and takes a -4 penalty on Will saves and Wisdom-based skill checks for 1 minute" cure2 icon="p" />
 </>};
 const _styx_sap = {title: "Styx sap", jsx: <><h2 id="eq-poison-styx_sap-styx-sap">Styx sap</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 145</Link></p>
@@ -795,12 +795,12 @@ const _leopards_bane = {title: "Leopard's bane", jsx: <><h2 id="eq-poison-leopar
 const _whisperwound = {title: "Whisperwound", jsx: <><h2 id="eq-poison-whisperwound-whisperwound">Whisperwound</h2>
 <p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 9</Link></p>
 <p><strong>Price</strong> 5,000 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Ingested" save="Fort 20" freq="1 round" onset="1 minute" eff={<>1d6 <Link to="/rule/con_damage">Con damage</Link></>} cure1 extra={<>As long as any Constitution damage from this poison remains, the target finds it physically painful to speak above a soft whisper. Whenever the subject attempts to speak in a loud, clear voice - such as when casting a spell - he takes 2d6 points of damage</>} icon="p" />
+<AffInfo start type="Ingested" save="Fort 20" freq="1 round" onset="1 minute" eff={<>1d6 <Link to="/rule/con_damage">Con damage</Link></>} cure1 extra="As long as any Constitution damage from this poison remains, the target finds it physically painful to speak above a soft whisper. Whenever the subject attempts to speak in a loud, clear voice - such as when casting a spell - he takes 2d6 points of damage" icon="p" />
 </>};
 const _shamweed = {title: "Shamweed", jsx: <><h2 id="eq-poison-shamweed-shamweed">Shamweed</h2>
 <p><strong>Sources</strong> <Link to="/source/guide_to_the_river_kingdoms">Guide to the River Kingdoms pg. 14</Link></p>
 <p><strong>Price</strong> 6,500 gp; <strong>Weight</strong> &mdash;</p>
-<AffInfo start type="Contact" save="Fort 18" freq="varies, see effect" onset="immediate and 1 week, see effect" eff1={<>+1 Con/day for 1 week</>} eff2={<>all Con gained from initial effect removed, 1d6 <Link to="/rule/con_damage">Con damage</Link>/day for 7 days</>} cure2c icon="p" />
+<AffInfo start type="Contact" save="Fort 18" freq="varies, see effect" onset="immediate and 1 week, see effect" eff1="+1 Con/day for 1 week" eff2={<>all Con gained from initial effect removed, 1d6 <Link to="/rule/con_damage">Con damage</Link>/day for 7 days</>} cure2c icon="p" />
 </>};
 const _widows_kiss = {title: "Widow's kiss", jsx: <><h2 id="eq-poison-widows_kiss-widows-kiss">Widow's kiss</h2>
 <p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil pg. 22</Link></p>

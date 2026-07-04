@@ -3,8 +3,8 @@ import Link from '../Link';
 import { convertTextToLink } from '../convertLinks';
 import mapNodes from '../mapNodes';
 import { IdContext } from '../contexts';
+import { AtLeastOne } from '../../types';
 
-type AtLeastOne<T, U = { [K in keyof T]: Pick<T, K> }> = Partial<T> & U[keyof U];
 interface Base {
 	id: string
 }

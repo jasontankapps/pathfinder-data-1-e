@@ -162,7 +162,7 @@ const _grioth = {title: "Grioth", jsx: <><p><em>This silent bat-like humanoid ha
 <Header sub>Special Abilities</Header>
 <p><strong>Mindshock (Su)</strong> Whenever a grioth damages a creature with a psychic weapon, a surge of violent psychic energy pulses into the victim's body, causing an additional 1d4 points of nonlethal damage. On a confirmed critical hit, this additional nonlethal damage does not increase, but the creature struck must succeed at a DC 13 Will save or become confused for 1d2 rounds. This is a mind-affecting effect. The save DC is Charisma-based and includes a +2 racial bonus.</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 12" freq="1/round for 6 rounds" eff={<>shaken for 1 round</>} cure1 icon="p" />
+<AffInfo type="Bite-injury" save="Fort 12" freq="1/round for 6 rounds" eff="shaken for 1 round" cure1 icon="p" />
 <p><strong>Psychic Weapons (Ex)</strong> A grioth's weapons are made from a strange metal that causes slashing and piercing weapons to deal 1 additional point of damage and allow the grioth to use its mindshock ability.</p>
 <Header sub>Description</Header>
 <p>Grioths inhabit rogue planets cast away from their stars - often, they travel to other worlds via powerful magic portals during eclipses to pillage resources rare on their frozen homeworlds. Many of these evil creatures are known for their devotion to the Outer God Nyarlathotep (whom they worship in his guise as the Haunter of the Dark), and it isn't uncommon for colonies of grioths to be led by clerics.</p>

@@ -5806,7 +5806,7 @@ const RacialOptions: FC<Props> = (props) => {
 		}
 		if(found) {
 			found.forEach((fco, i) => {
-				const [, sources, data2, data1] = fco;
+				const [, sources] = fco;
 				sources.forEach((source, j) => {
 					const [s, pg] = source;
 					const found = log.findIndex(x => x[0] === s && x[1] === pg);

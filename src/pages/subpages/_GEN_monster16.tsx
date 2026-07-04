@@ -59,7 +59,7 @@ const _leng_spider = {title: "Leng Spider", jsx: <><p><em>This immense purple sp
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Su)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 25" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link> and <Link to="/misc/confusion">confusion</Link> for 1 round</>} cure2c extra={<>A Leng spider's venom causes flesh to blister and rot away and the mind to experience vivid and horrific hallucinations - these visions cause the poisoned creature to react in an unpredictable manner, as if confused. The hallucination element of this poison is mind-affecting. The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 25" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link> and <Link to="/misc/confusion">confusion</Link> for 1 round</>} cure2c extra="A Leng spider's venom causes flesh to blister and rot away and the mind to experience vivid and horrific hallucinations - these visions cause the poisoned creature to react in an unpredictable manner, as if confused. The hallucination element of this poison is mind-affecting. The save DC is Constitution-based." icon="p" />
 <p><strong>Web Weaponry (Ex)</strong> A Leng spider is talented at using its webs to construct masterwork weapons. This technique of weapon creation allows the spider to effectively create a flail or bolas by attaching a heavy object such as a rock or chunk of metal to a cord of webbing. The spider attaches one end of this webbing to a leg and can then wield the weighted cord as a masterwork flail or a masterwork bolas. It can only wield one such weapon at a time - it must use its other legs to walk. If a Leng spider drops or loses a web weapon, it can create a new one as a full-round action, provided it has access to heavy-weight objects of the correct size (such as loose rocks or skulls).</p>
 <Header sub>Description</Header>
 <p>The spiders of Leng have long warred with that realm's more humanoid denizens, yet this does not make the spiders allies of sane life. These spiders see themselves as deserving of true positions of power, and the only creatures they suffer to live apart from their kin are their magically controlled slaves. Fortunately, the spiders have no intrinsic way to travel to the Material Plane, and must use portals or other methods to visit this world. Artistic trap builders, Leng spiders construct lairs of dangerous and haunting beauty made of webs and other materials found nearby.</p>
@@ -564,7 +564,7 @@ const _lizard_monitor_lizard = {title: "Monitor Lizard", jsx: <><p><em>This imme
 <Ecology env="warm forests or plains" org="solitary, pair, or pack (3-8)" treasure={{"X":false}} />
 </div>
 <Header sub>Special Abilities</Header>
-<AffInfo type="Bite-injury" save="Fort 14" freq="1/hour for 6 hours" onset="1 minute" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link></>} cure1 extra={<>The save DC is Constitution-based.</>} icon="p">Poison (Ex)</AffInfo>
+<AffInfo type="Bite-injury" save="Fort 14" freq="1/hour for 6 hours" onset="1 minute" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link></>} cure1 extra="The save DC is Constitution-based." icon="p">Poison (Ex)</AffInfo>
 <Header sub>Description</Header>
 <p>Monitor lizards are large enough to pose a threat to humans, and in some societies are often mistaken for dragons. Some can reach lengths of 10 feet or more and weights of 350 pounds.</p>
 </>};
@@ -1131,7 +1131,7 @@ const _malbolgian_cerberi = {title: "Malbolgian Cerberi", jsx: <><p><em>A beast 
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Cerberus's Jaws (Su)</strong></p>
-<AffInfo type="Curse-bite" save="Fort 23" eff={<>Forbidden to leave plane</>} undefined icon="c" />
+<AffInfo type="Curse-bite" save="Fort 23" eff="Forbidden to leave plane" icon="c" />
 <Header sub>Description</Header>
 <p>This is a variation of the <Link to="/monster/cerberi">Cerberi</Link>.</p>
 </>};

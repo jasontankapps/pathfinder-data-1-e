@@ -154,39 +154,39 @@ const _sample_diseases = {title: "Sample Diseases", parent_topics: ["advanced_gm
 <AffInfo start type="Disease, ingested" save="Fort 16" freq="1/day" track={<><Link to="/rule/physical_disease_track">physical</Link></>} eff={<>At the impaired state, also become permanently <Link to="/misc/blind">blind</Link></>} cure2c icon="d" nolink />
 <p><strong>Original Disease</strong> <Link to="/disease/blinding_sickness">Blinding Sickness</Link></p>
 <h3 id="rule-sample_diseases-bubonic-plague">Bubonic Plague</h3>
-<AffInfo start type="Disease, injury or inhaled" save="Fort 17" freq="1/day" track={<>physical</>} cure2c icon="d" nolink />
+<AffInfo start type="Disease, injury or inhaled" save="Fort 17" freq="1/day" track="physical" cure2c icon="d" nolink />
 <p><strong>Original Disease</strong> <Link to="/disease/bubonic_plague">Bubonic Plague</Link></p>
 <h3 id="rule-sample_diseases-cackle-fever">Cackle Fever</h3>
 <AffInfo start type="Disease, inhaled" save="Fort 16" freq="1/day" track={<><Link to="/rule/mental_disease_track">mental</Link></>} cure2c icon="d" nolink />
 <p><strong>Original Disease</strong> <Link to="/disease/cackle_fever">Cackle Fever</Link></p>
 <h3 id="rule-sample_diseases-dementia-dust">Dementia Dust</h3>
-<AffInfo start type="Disease, inhaled" save="Fort 14" freq="1/week" track={<>mental</>} eff={<>Even if the disease is removed with <Link to="/spell/remove_disease">remove disease</Link>, condition does not improve without <Link to="/spell/greater_restoration">greater restoration</Link> or <Link to="/spell/heal">heal</Link></>} cure={<>magic only</>} icon="d" nolink />
+<AffInfo start type="Disease, inhaled" save="Fort 14" freq="1/week" track="mental" eff={<>Even if the disease is removed with <Link to="/spell/remove_disease">remove disease</Link>, condition does not improve without <Link to="/spell/greater_restoration">greater restoration</Link> or <Link to="/spell/heal">heal</Link></>} cure="magic only" icon="d" nolink />
 <h3 id="rule-sample_diseases-demon-fever">Demon Fever</h3>
-<AffInfo start type="Disease, injury" save="Fort 18" freq="1/day" track={<>physical</>} eff={<>At the impaired state, penalties from the weakened state become permanent until victim receives <em>heal</em> or <Link to="/spell/restoration">restoration</Link></>} cure2c icon="d" nolink />
+<AffInfo start type="Disease, injury" save="Fort 18" freq="1/day" track="physical" eff={<>At the impaired state, penalties from the weakened state become permanent until victim receives <em>heal</em> or <Link to="/spell/restoration">restoration</Link></>} cure2c icon="d" nolink />
 <p><strong>Original Disease</strong> <Link to="/disease/demon_fever">Demon Fever</Link></p>
 <h3 id="rule-sample_diseases-devil-chills">Devil Chills</h3>
-<AffInfo start type="Disease, injury" save="Fort 14" freq="1/day" track={<>physical</>} cure3c icon="d" nolink />
+<AffInfo start type="Disease, injury" save="Fort 14" freq="1/day" track="physical" cure3c icon="d" nolink />
 <p><strong>Original Disease</strong> <Link to="/disease/devil_chills">Devil Chills</Link></p>
 <h3 id="rule-sample_diseases-filth-fever">Filth Fever</h3>
-<AffInfo start type="Disease, injury" save="Fort 12" freq="1/day" track={<>physical</>} cure2c icon="d" nolink />
+<AffInfo start type="Disease, injury" save="Fort 12" freq="1/day" track="physical" cure2c icon="d" nolink />
 <p><strong>Original Disease</strong> <Link to="/disease/filth_fever">Filth Fever</Link></p>
 <h3 id="rule-sample_diseases-leprosy">Leprosy</h3>
-<AffInfo start type="Disease, contact, inhaled, or injury" save="Fort 12" freq="1/week" track={<>physical (special)</>} eff={<>Healthy-Latent/Carrier-Sluggish-Stiffened; sluggish and stiffened are as <Link to="/rule/dexterity_poison_track">Dexterity poison</Link>, stiffened is an end state</>} cure2c icon="d" nolink />
+<AffInfo start type="Disease, contact, inhaled, or injury" save="Fort 12" freq="1/week" track="physical (special)" eff={<>Healthy-Latent/Carrier-Sluggish-Stiffened; sluggish and stiffened are as <Link to="/rule/dexterity_poison_track">Dexterity poison</Link>, stiffened is an end state</>} cure2c icon="d" nolink />
 <p><strong>Original Disease</strong> <Link to="/disease/leprosy">Leprosy</Link></p>
 <h3 id="rule-sample_diseases-mindfire">Mindfire</h3>
-<AffInfo start type="Disease, inhaled" save="Fort 12" freq="1/day" track={<>mental</>} cure2c icon="d" nolink />
+<AffInfo start type="Disease, inhaled" save="Fort 12" freq="1/day" track="mental" cure2c icon="d" nolink />
 <p><strong>Original Disease</strong> <Link to="/disease/mindfire">Mindfire</Link></p>
 <h3 id="rule-sample_diseases-mummy-rot">Mummy Rot</h3>
-<AffInfo start type="Disease, injury" save="Fort 16" freq="1/day" track={<>physical and mental (special)</>} eff={<>No latent/carrier state; victim suffers all penalties from progressing on both the physical and mental disease tracks</>} cure={<><Link to="/spell/remove_curse">remove curse</Link> and <Link to="/spell/remove_disease">remove disease</Link> within 1 minute of each other</>} icon="d" nolink />
+<AffInfo start type="Disease, injury" save="Fort 16" freq="1/day" track="physical and mental (special)" eff="No latent/carrier state; victim suffers all penalties from progressing on both the physical and mental disease tracks" cure={<><Link to="/spell/remove_curse">remove curse</Link> and <Link to="/spell/remove_disease">remove disease</Link> within 1 minute of each other</>} icon="d" nolink />
 <p><strong>Original Curse</strong> <Link to="/curse/mummy_rot">Mummy Rot</Link></p>
 <h3 id="rule-sample_diseases-red-ache">Red Ache</h3>
-<AffInfo start type="Disease, injury" save="Fort 15" freq="1/day" track={<>physical</>} cure2c icon="d" nolink />
+<AffInfo start type="Disease, injury" save="Fort 15" freq="1/day" track="physical" cure2c icon="d" nolink />
 <p><strong>Original Disease</strong> <Link to="/disease/red_ache">Red Ache</Link></p>
 <h3 id="rule-sample_diseases-shakes">Shakes</h3>
-<AffInfo start type="Disease, contact" save="Fort 13" freq="1/day" track={<>physical</>} cure2c icon="d" nolink />
+<AffInfo start type="Disease, contact" save="Fort 13" freq="1/day" track="physical" cure2c icon="d" nolink />
 <p><strong>Original Disease</strong> <Link to="/disease/shakes">Shakes</Link></p>
 <h3 id="rule-sample_diseases-slimy-doom">Slimy Doom</h3>
-<AffInfo start type="Disease, contact" save="Fort 14" freq="1/day" track={<>physical</>} eff={<>At the impaired state and beyond, penalties from the weakened state become permanent until the victim receives <Link to="/spell/heal">heal</Link> or <Link to="/spell/restoration">restoration</Link></>} cure2c icon="d" nolink />
+<AffInfo start type="Disease, contact" save="Fort 14" freq="1/day" track="physical" eff={<>At the impaired state and beyond, penalties from the weakened state become permanent until the victim receives <Link to="/spell/heal">heal</Link> or <Link to="/spell/restoration">restoration</Link></>} cure2c icon="d" nolink />
 <p><strong>Original Disease</strong> <Link to="/disease/slimy_doom">Slimy Doom</Link></p>
 </>};
 const _sample_poisons = {title: "Sample Poisons", parent_topics: ["advanced_gm_topics","diseases_and_poisons"], siblings: ["progression_and_end_states","diseases_pu","poisons","sample_diseases","sample_poisons"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 141</Link></p>
@@ -195,10 +195,10 @@ const _sample_poisons = {title: "Sample Poisons", parent_topics: ["advanced_gm_t
 <AffInfo start type="Poison, contact" save="Fort 20" freq="1/round for 6 rounds" onset="1 minute" track={<><Link to="/rule/constitution_poison_track">Constitution</Link> (special)</>} track2="Healthy-Weakened-Disabled-Dead" cure2c icon="p" nolink />
 <p><strong>Original Poison</strong> <Link to="/eq-poison/black_lotus_extract">Black Lotus Extract</Link></p>
 <h3 id="rule-sample_poisons-blue-whinnis">Blue Whinnis</h3>
-<AffInfo start type="Poison, injury" save="Fort 14" freq="1/round for 2 rounds" track={<>Constitution (special)</>} track2="Healthy-Weakened-Unconscious; no end state" cure1 icon="p" nolink />
+<AffInfo start type="Poison, injury" save="Fort 14" freq="1/round for 2 rounds" track="Constitution (special)" track2="Healthy-Weakened-Unconscious; no end state" cure1 icon="p" nolink />
 <p><strong>Original Poison</strong> <Link to="/eq-poison/blue_whinnis">Blue Whinnis</Link></p>
 <h3 id="rule-sample_poisons-deathblade">Deathblade</h3>
-<AffInfo start type="Poison, injury" save="Fort 20" freq="1/round for 6 rounds" track={<>Constitution</>} cure2c icon="p" nolink />
+<AffInfo start type="Poison, injury" save="Fort 20" freq="1/round for 6 rounds" track="Constitution" cure2c icon="p" nolink />
 <p><strong>Original Poison</strong> <Link to="/eq-poison/deathblade">Deathblade</Link></p>
 <h3 id="rule-sample_poisons-green-lotus">Green Lotus</h3>
 <AffInfo start type="Poison, contact" save="Fort 18" freq="1/round for 6 rounds" onset="1 minute" track={<><Link to="/rule/charisma_poison_track">Charisma</Link> (special)</>} track2="Healthy-Weakened-Impaired-Pliable-Pliable; the second pliable is an end state" cure1 icon="p" nolink />
@@ -215,7 +215,7 @@ const _sample_poisons = {title: "Sample Poisons", parent_topics: ["advanced_gm_t
 <AffInfo start type="Poison, injury" save="Fort 11" freq="1/round for 4 rounds" track={<><Link to="/rule/dexterity_poison_track">Dexterity</Link></>} track2="Requires two failed saves to progress to each state past sluggish" cure1 icon="p" nolink />
 <p><strong>Original Poison</strong> <Link to="/eq-poison/small_centipede_poison">Small Centipede Poison</Link></p>
 <h3 id="rule-sample_poisons-ungol-dust">Ungol Dust</h3>
-<AffInfo start type="Poison, inhaled" save="Fort 15" freq="1/round for 4 rounds" track={<>Charisma</>} eff={<>Victim does not recover past weakened without <Link to="/spell/heal">heal</Link> or <Link to="/spell/restoration">restoration</Link></>} cure1 icon="p" nolink />
+<AffInfo start type="Poison, inhaled" save="Fort 15" freq="1/round for 4 rounds" track="Charisma" eff={<>Victim does not recover past weakened without <Link to="/spell/heal">heal</Link> or <Link to="/spell/restoration">restoration</Link></>} cure1 icon="p" nolink />
 <p><strong>Original Poison</strong> <Link to="/eq-poison/ungol_dust">Ungol Dust</Link></p>
 </>};
 const _exploration_ucp = {title: "Exploration", parent_topics: ["advanced_gm_topics"], siblings: ["diseases_and_poisons","catastrophes","exploration_ucp","discovery_and_exploration","duels","verbal_duels","heists","infiltration","nemeses","performance_combat","pursuit","simple_monster_creation","skills_in_conflict","social_conflicts","spells_of_intrigue","spells_of_the_wild","taxation","treasure_generator","trophies","weather_in_the_wilderness"], subtopics: ["sandbox_exploration","movement_ucp","random_encounters","planned_encounters","hex_terrain_types","random_map_generation","exploration_hazards"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign pg. 154</Link></p>

@@ -151,7 +151,7 @@ const _spider_eater = {title: "Spider Eater", jsx: <><p><em>This strange beast r
 <Header sub>Special Abilities</Header>
 <p><strong>Implant (Ex)</strong> A spider eaters grows its eggs inside of a living host. Implanting an egg in a host is a full-round action that provokes attacks of opportunity, and the target must be helpless but alive. Once an egg is implanted, it exudes paralytic enzymes that not only keep the victim in state of perpetual paralysis, but also keep it nourished and alive in its comatose but fully aware state. This condition lasts until the egg hatches in 1d6 weeks, at which point the young spider eater consumes most of its host, killing it. An egg can be surgically removed with a DC 25 Heal check (this check deals 2d6 points of damage to the host regardless of success), at which point the host recovers from the paralysis in 1d6 rounds. Any magical effect that removes paralysis or disease (such as remove paralysis, remove disease, or heal) also destroys the egg, but mere immunity to paralysis or disease does not offer protection.</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Sting-injury" save="Fort 17" freq="1/minute for 6 minutes" eff={<><Link to="/rule/paralysis">paralysis</Link> for 1 minute</>} cure1 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Sting-injury" save="Fort 17" freq="1/minute for 6 minutes" eff={<><Link to="/rule/paralysis">paralysis</Link> for 1 minute</>} cure1 extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>An amalgam of dangerous creatures, this predator, as its name suggests, prefers to hunt and feed upon spiders. Their greatest boon to spider hunting, aside from their stinger, ability to fly, and strong pincers, is their ability to slip through the stickiest of webs in order to get to their prey. Unfortunately for other creatures, when a spider eater is denied its preferred prey, it seeks out any living creature it can find to serve as a host for its ravenous young.</p>
 <p>When hunting, a spider eater drops from the air onto its victim, stinging the prey with its barbed tail. The creature then returns to the air and hovers, waiting for its venom to take hold. Once the opponent succumbs to paralysis, the spider eater lands again, either to feed or implant its egg.</p>
@@ -203,7 +203,7 @@ const _spider_giant_black_widow = {title: "Giant Black Widow (Spider)", jsx: <><
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/con_damage">Con damage</Link> and <Link to="/misc/staggered">staggered</Link></>} cure2 extra={<>Save DC is Con-based with a +2 racial bonus.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 17" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/con_damage">Con damage</Link> and <Link to="/misc/staggered">staggered</Link></>} cure2 extra="Save DC is Con-based with a +2 racial bonus." icon="p" />
 <p><strong>Strong Webs (Ex)</strong> A black widow's webs gain a +4 bonus to the DC to break or escape.</p>
 <Header sub>Description</Header>
 <p>Females of this species are larger than males. Males are identical to the typical giant spider.</p>
@@ -218,7 +218,7 @@ const _spider_giant_crab_spider = {title: "Giant Crab Spider", jsx: <><p><em>Thi
 <Ecology env="warm or temperate forests" org="solitary, pair, or colony (3-10)" treasure={{"I":false}} />
 </div>
 <Header sub>Special Abilities</Header>
-<AffInfo type="Bite-injury" save="Fort 14" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure1 extra={<>The save DC includes a +2 racial bonus.</>} icon="p">Poison (Ex)</AffInfo>
+<AffInfo type="Bite-injury" save="Fort 14" freq="1/round for 4 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure1 extra="The save DC includes a +2 racial bonus." icon="p">Poison (Ex)</AffInfo>
 <Header sub>Description</Header>
 <p>Giant crab spiders are dangerous ambush predators that live in dense forest vegetation. Though crab spiders are not web spinners, they are truly gifted climbers and use this talent to clamber up into places where they can observe wide areas from on high. Named for their curious scuttling walk and wide-legged stance, giant crab spiders are rarely larger than a typical adult halfling.</p>
 </>};
@@ -296,7 +296,7 @@ const _spider_giant_tarantula = {title: "Giant Tarantula (Spider)", jsx: <><p><e
 <Header sub>Special Abilities</Header>
 <p><strong>Barbed Hairs (Ex)</strong> A tarantula can throw barbed hairs from its back at a creature as a ranged touch attack (range increment 20 feet). A creature struck by these hairs must make a DC 22 Fort save or be nauseated for 1d6 rounds. A creature that attacks a giant tarantula with a non-reach melee weapon must make a DC 22 Reflex save to avoid being struck by these hairs. The save DC is Con-based.</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 24" freq="1/round for 6 rounds" eff={<>1d6 <Link to="/rule/str_damage">Str damage</Link></>} cure2c extra={<>Save DC is Con-based with a +2 racial bonus.</>} icon="p" />
+<AffInfo type="Bite-injury" save="Fort 24" freq="1/round for 6 rounds" eff={<>1d6 <Link to="/rule/str_damage">Str damage</Link></>} cure2c extra="Save DC is Con-based with a +2 racial bonus." icon="p" />
 <Header sub>Description</Header>
 <p>No description provided.</p>
 </>};
@@ -347,7 +347,7 @@ const _spider_ogre_spider = {title: "Ogre Spider", jsx: <><p><em>This towering s
 <Ecology env="temperate or cold hills or underground" org="solitary or pair" treasure={{"I":false}} />
 </div>
 <Header sub>Special Abilities</Header>
-<AffInfo type="Bite-injury" save="Fort 18" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link> and 1d4 Dex damage</>} cure1 extra={<>The save DC includes a +2 racial bonus.</>} icon="p">Poison (Ex)</AffInfo>
+<AffInfo type="Bite-injury" save="Fort 18" freq="1/round for 6 rounds" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link> and 1d4 Dex damage</>} cure1 extra="The save DC includes a +2 racial bonus." icon="p">Poison (Ex)</AffInfo>
 <Header sub>Description</Header>
 <p>Ogre spiders are brutal, terrifying hunters that spin tangled webs capable of encasing entire trees. So-named because the arrangement of its eyes and mandibles gives it a face unnervingly similar to that of an ogre as much as for their size, ogre spiders can fit into nooks and tunnels far more narrow than one might expect.</p>
 </>};
@@ -378,7 +378,7 @@ const _spider_spider_swarm = {title: "Spider Swarm", jsx: <><p><em>An awful, scu
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Swarm-injury" save="Fort 11" freq="1/round for 2 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure1 extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Swarm-injury" save="Fort 11" freq="1/round for 2 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure1 extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>The sight of a carpet of swarming spiders is unsettling indeed - particularly when the swarm is made up of spiders each the size of a gold coin and possessing blade-like mandibles capable of lacerating flesh with sickening ease. A swarm of spiders is a colonial mass of arachnids that relies on overwhelming much larger prey with sheer numbers rather than catching smaller snacks. While spider swarms spin webs, these webs are incapable of catching larger prey and typically serve the swarm as a lair rather than a method of capturing dinner.</p>
 </>};
@@ -708,7 +708,7 @@ const _troll_canopy_troll = {title: "Canopy Troll", jsx: <><p><em>Prominent tusk
 <Header sub>Special Abilities</Header>
 <p><strong>Cradling (Ex)</strong> Thanks to their massive hands, prehensile feet, and dexterous tails, canopy trolls are treated as if they were one size category larger for the purposes of grappling. They gain Improved Grapple as a bonus feat.</p>
 <p><strong>Poison (Ex)</strong> A canopy troll's tail sting injects a single tumorous lump of its own regenerating flesh into its target. On a failed Fortitude save, this tumor grows beneath the victim's skin, sprouting bristly hairs and stubby teeth that cause debilitating pain for its host. The sickened condition lasts 2d4 days before the mass dissolves, though a host can attempt a Fortitude saving throw each day to overcome the pain and ignore the condition. Alternatively, the tumor can be removed with a successful DC 20 Heal check.</p>
-<AffInfo type="Sting-injury" save="Fort 15" freq="1/round for 3 rounds" eff={<><Link to="/misc/sickened">sickened</Link> for 2d4 days</>} cure={<>See above</>} icon="p" />
+<AffInfo type="Sting-injury" save="Fort 15" freq="1/round for 3 rounds" eff={<><Link to="/misc/sickened">sickened</Link> for 2d4 days</>} cure="See above" icon="p" />
 <p><strong>Swarming (Ex)</strong> Canopy trolls live and fight in tangled piles and are adept at swarming foes. Up to two canopy trolls can share the same square at the same time. If two canopy trolls in the same square attack the same foe, they are considered to be flanking that foe as if they were in two opposite squares.</p>
 <Header sub>Description</Header>
 <p>One of the most ravenous dangers of the Fangwood are the arboreal canopy trolls, who bound through the treetops in great troops, scavenging fruit and nuts and descending on much larger prey to tear it limb from limb. They share the legendary durability of larger trolls, and plummet fearlessly from great heights to take prey by surprise, often breaking bones only to heal by the time they begin to feed. These injuries rarely set properly, leaving most canopy trolls in constant pain, worsening their already vicious attitudes. Often underestimated, canopy trolls rely on great numbers and their ability to coordinate en masse, overwhelming prey by sheer numbers as they drag it kicking and screaming into their chaotic, howling maws.</p>
@@ -1021,7 +1021,7 @@ const _trollhound = {title: "Trollhound", jsx: <><p><em>Foul-smelling fluids ooz
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Disease (Ex)</strong> A trollhound's saliva is an infectious brew of contagion. Creatures bitten by a trollhound are often afflicted with bloodfire fever, a disease characterized by deep internal pain, as if the victim's blood were on fire. Additional symptoms include loss of muscular coordination, pus-filled blisters, and overall lethargy and fatigue. Trolls and trollhounds alike are immune to bloodfire fever, even though trollhounds often exhibit the pus-filled blisters that come with the disease.</p>
-<AffInfo type="Bite-injury" save="Fort 14" freq="1/day" onset="1 day" eff={<>1d3 <Link to="/rule/str_damage">Str damage</Link>, 1d3 Dex damage and target is <Link to="/misc/fatigued">fatigued</Link></>} cure2c extra={<>The save DC is Constitution-based.</>} icon="d">Bloodfire fever</AffInfo>
+<AffInfo type="Bite-injury" save="Fort 14" freq="1/day" onset="1 day" eff={<>1d3 <Link to="/rule/str_damage">Str damage</Link>, 1d3 Dex damage and target is <Link to="/misc/fatigued">fatigued</Link></>} cure2c extra="The save DC is Constitution-based." icon="d">Bloodfire fever</AffInfo>
 <Header sub>Description</Header>
 <p>Slavering and voracious, trollhounds seem to be trolls in smaller canine form, and indeed, are often found as pets among gangs and tribes of trolls. Requiring vast amounts of food to fuel their regenerative metabolisms, packs of wild trollhounds range far and wide through the mountains of the north, their ravenous hunger driving them to hunt and consume any prey they can track down and kill.</p>
 <p>A typical trollhound stands 4 feet tall at the shoulder, has short but powerful legs, and weighs around 350 pounds. A trollhound's skin is somewhat scaly, with patches of rough, greenish-black fur. It has oversized jaws with a pronounced underbite, and its eyes are normally a dull, hateful orange.</p>
@@ -1042,7 +1042,7 @@ const _thriae_thriae_constructor = {title: "Thriae Constructor", jsx: <><p><em>A
 <p><strong>Encase (Ex)</strong> A thriae constructor produces vast amounts of fastdrying, adhesive wax. A creature hit by a thriae constructor's sticky wax must succeed at a DC 25 Reflex save or be encased in a ball of wax. A creature that succeeds at its saving throw gains the entangled condition, but can otherwise act normally. An encased creature is pinned and can't use spells with verbal components. On the first round, an encased creature can attempt to break out by succeeding at a DC 25 Strength check. If it fails to escape, on all future rounds the encased creature is helpless and can't attempt to escape. A creature that hits a ball of sticky wax with a natural attack must succeed at a DC 25 Reflex save or become stuck. A stuck creature can't move away from the ball of wax or use the stuck limb until it escapes, but can otherwise act normally. If a creature strikes the ball of wax with a manufactured weapon, it must succeed at a DC 25 Reflex save or the weapon becomes stuck. Sticky wax has hardness 5, has 100 hit points, and is vulnerable to fire. The save DCs are Constitution-based.</p>
 <p><strong>Merope Consumption (Su)</strong> Three times per day as a standard action, a thriae constructor can consume a dose of merope to gain the ability to launch its wax with crushing force for 1d4 rounds. Starting on the round after the constructor consumes the merope, its sticky wax attack deals 6d6+8 points damage on a successful hit, in addition to the encase effect.</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Sting-injury" save="Fort 25" freq="1/round for 6 rounds" eff={<>1d6 <Link to="/rule/str_damage">Str damage</Link> and <Link to="/misc/sickened">sickened</Link></>} cure2c extra={<>The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Sting-injury" save="Fort 25" freq="1/round for 6 rounds" eff={<>1d6 <Link to="/rule/str_damage">Str damage</Link> and <Link to="/misc/sickened">sickened</Link></>} cure2c extra="The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>Thriae blend the physical features of graceful humanoid women with those of giant bees. For the most part, they are a wise, knowledgeable, and spiritual race. But unlike others of their kind, thriae constructors are not philosophers or seers; they are mindless laborers that react by pure instinct. Despite their lack of intelligence, however, these enormous creatures possess an even more complex sense of architecture and structure than bees, and in some ways, their architectural instincts surpass even the greatest designs a human mind could imagine. Other thriae, particularly those of high rank, are adept at directing thriae constructors to focus on those jobs that will most benefit the community and herding them to their work. In times of peace, thriae constructors labor to build, expand, and renovate hives and enhance its fortifications. When a thriae hive is threatened, the constructors quickly descend upon their foes, encasing these enemies in the same secretion of adhesive wax they normally use as a material to build the hive, and assailing resilient enemies with numerous attacks and a vicious poison.</p>
 <p>A typical thriae constructor is 18 feet tall with a wingspan of 30 feet, and weighs about 5,500 pounds.</p>
@@ -1130,7 +1130,7 @@ const _thriae_thriae_soldier = {title: "Thriae Soldier", jsx: <><p><em>This crea
 <Header sub>Special Abilities</Header>
 <p><strong>Merope Consumption (Su)</strong> Once per day as a standard action, a thriae soldier can consume a dose of merope in order to enhance her combat abilities for 1d6+3 rounds. Starting on the round after the merope is consumed, the thriae soldier gains a +2 insight bonus on attack rolls and saving throws, and gains fast healing 3.</p>
 <p><strong>Poison (Ex)</strong></p>
-<AffInfo type="Sting or arrow-injury" save="Fort 15" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure1 extra={<>As a free action, a thriae soldier can apply her venom to an arrow as she fires the shot. The save DC is Constitution-based.</>} icon="p" />
+<AffInfo type="Sting or arrow-injury" save="Fort 15" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/str_damage">Str damage</Link></>} cure1 extra="As a free action, a thriae soldier can apply her venom to an arrow as she fires the shot. The save DC is Constitution-based." icon="p" />
 <Header sub>Description</Header>
 <p>The guardians of the thriae colony and its treasures, thriae soldiers make up the backbone of a hive's defenses. Whether patrolling the perimeter of the hive or protecting its queen and seers from attackers, soldiers are a crucial asset ensuring a colony's survival, and so it makes sense that they compose the majority of thriae populations. While not as spiritually powerful as their seer and queen kin, soldiers possess remarkable agility and skill with the bow. Guards remain stationed in pairs outside doors to important areas, such as the meditation chambers of seers and the enormous private quarters of the queen, and when their duties take them outside the walls of the hive, they travel in large convoys.</p>
 <p>A thriae soldier's stinger carries within it especially potent venom similar to that of giant bees, and the soldier can easily apply this poison to her weapons. While most soldiers carry bows, they are also trained at an early age with a multitude of both melee and ranged weapons, and some prefer the feel of a sword or hammer. Regardless of the type, all thriae weapons and armors are expertly crafted, made of steel and gilded with intricate decorations of gold and amber-hued gems. Thriae soldiers are often talented artisans as well as warriors, and most create their own weapons to bear in combat.</p>
@@ -1150,7 +1150,7 @@ const _tick_giant_tick = {title: "Giant Tick", jsx: <><p><em>This dog-sized tick
 <Header sub>Special Abilities</Header>
 <p><strong>Grab (Ex)</strong> A giant tick can grab targets of any size, and has a +8 racial bonus on grapple checks rather than the normal +4 bonus most creatures with grab possess.</p>
 <p><strong>Disease (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 13" freq="1/day" onset="1d3 days" eff={<>1d6 <Link to="/rule/str_damage">Str damage</Link></>} cure2c extra={<>The DC is Constitution-based.</>} icon="d">Red ache</AffInfo>
+<AffInfo type="Bite-injury" save="Fort 13" freq="1/day" onset="1d3 days" eff={<>1d6 <Link to="/rule/str_damage">Str damage</Link></>} cure2c extra="The DC is Constitution-based." icon="d">Red ache</AffInfo>
 <Header sub>Description</Header>
 <p>In areas where large creatures like megafauna or dinosaurs dwell, the giant tick behaves much like its smaller kin - it lies in wait in the undergrowth, and when a suitable host passes by, it drops onto the body to feed. In other areas, these vermin are much more aggressive, and actively hunt smaller prey like dogs, livestock, or even humanoids. A giant tick drains blood quickly, but once it has caused 6 points of Constitution damage, it drops off, sated, to crawl away to digest. A giant tick is 3 feet long and weighs 50 pounds.</p>
 </>};
@@ -1166,7 +1166,7 @@ const _tick_tick_swarm = {title: "Tick Swarm", jsx: <><p><em>The rasping legs of
 <Header sub>Special Abilities</Header>
 <p><strong>Cling (Ex)</strong> If a creature leaves a tick swarm's square, the swarm takes 1d6 points of damage to reflect the loss of its numbers as several ticks cling to the victim. A creature with ticks clinging to it takes swarm damage at the end of its turn each round. As a full round action, the creature can remove the ticks with a DC 20 Reflex save. At least 10 points of damage from any area effect destroys all clinging ticks. The save DC is Dexterity-based.</p>
 <p><strong>Disease (Ex)</strong></p>
-<AffInfo type="Bite-injury" save="Fort 21" freq="1/day" onset="1 day" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link>, 1 Cha damage and <Link to="/misc/fatigued">fatigued</Link></>} cure2c extra={<>The DC is Con-based.</>} icon="d">Bubonic Plague</AffInfo>
+<AffInfo type="Bite-injury" save="Fort 21" freq="1/day" onset="1 day" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link>, 1 Cha damage and <Link to="/misc/fatigued">fatigued</Link></>} cure2c extra="The DC is Con-based." icon="d">Bubonic Plague</AffInfo>
 <Header sub>Description</Header>
 <p>Tick swarms are merciless blights, able to quickly reduce the larger animal life of a region they infest to blood-drained, diseased husks.</p>
 </>};
