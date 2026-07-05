@@ -1299,7 +1299,7 @@ const _rat_king = {title: "Rat King", jsx: <><p><em>Squeaks and chittering cries
 </div>
 <Header sub>Special Abilities</Header>
 <p><strong>Disease (Ex)</strong></p>
-<AffInfo type="Inhaled or bite-injury" save="Fort 19" freq="1/day" onset="1d3 days" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link>, 1 Cha damage and <Link to="/misc/fatigued">fatigued</Link></>} The save DC is Constitution-based and includes the +2 from the rat king's plaguebringer ability. icon="d">Bubonic plague</AffInfo>
+<AffInfo type="Inhaled or bite-injury" save="Fort 19" freq="1/day" onset="1d3 days" eff={<>1d4 <Link to="/rule/str_damage">Str damage</Link>, 1 Cha damage and <Link to="/misc/fatigued">fatigued</Link></>} cure2c extra="The save DC is Constitution-based and includes the +2 from the rat king's plaguebringer ability." icon="d">Bubonic plague</AffInfo>
 <p><strong>Plaguebringer (Ex)</strong> A rat king increases the disease DC of rats (including rat kings, rat swarms, and dire rats) within 100 feet by +2.</p>
 <p><strong>Speak with Rats (Ex)</strong> A rat king can communicate with normal rats (including rat swarms and dire rats) as if using speak with animals. It can use Diplomacy to alter a rat's attitude, and when so doing gains a +4 racial bonus on the check. Any ability that allows a creature to communicate with rats (such as speak with animals or a wererat's rat empathy) allows for communication with a rat king.</p>
 <Header sub>Description</Header>

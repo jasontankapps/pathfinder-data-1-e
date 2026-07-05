@@ -2737,7 +2737,7 @@
 			"",
 			"**Disease (Ex)**",
 			"",
-			"::aff[Bubonic plague]{iconD type=\"Inhaled or bite-injury\" saveF=19 onset=\"1d3 days\" freq=\"1/day\" effStr=\"1d4\" effCha=1 effExtra=\"‹misc/fatigued›\" cure2c=\"The save DC is Constitution-based and includes the +2 from the rat king's plaguebringer ability.\"}",
+			"::aff[Bubonic plague]{iconD type=\"Inhaled or bite-injury\" saveF=19 onset=\"1d3 days\" freq=\"1/day\" effStr=\"1d4\" effCha=1 effExtra=\"‹misc/fatigued›\" cure2c extra=\"The save DC is Constitution-based and includes the +2 from the rat king's plaguebringer ability.\"}",
 			"",
 			"**Plaguebringer (Ex)** A rat king increases the disease DC of rats (including rat kings, rat swarms, and dire rats) within 100 feet by +2.",
 			"",
